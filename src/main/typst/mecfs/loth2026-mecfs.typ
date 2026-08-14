@@ -154,6 +154,7 @@
 #include "part2-pathophysiology/ch18-symptom-producing-mechanisms/ch18-symptom-producing-mechanisms.typ"
 #include "part2-pathophysiology/ch19-causal-hierarchy/ch19-causal-hierarchy.typ"
 #include "part2-pathophysiology/ch20-universal-mechanisms/ch20-universal-mechanisms.typ"
+#include "part2-pathophysiology/ch20b-female-reproductive-axis/ch20b-female-reproductive-axis.typ"
 
 // ── Part III: Treatment and Management ───────────────────────────────────────
 #include "part3-treatment/part3-intro.typ"

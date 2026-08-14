@@ -5638,3 +5638,148 @@ This registry collects all hypotheses, speculations, open questions, and predict
   prediction: [A study correlating anellovirus burden and adaptive-immune markers in the same ME/CFS cohort will determine whether the null surveillance result reflects absence of productive infection (supporting adaptive-immune focus) or a surveillance technical limitation.],
   limitation: [Balancing null presented as a research-direction question, not an assertion; single null surveillance study; full cohort-stratification details not retrieved. Severity not stratified. (ch08, this cycle.)],
 )
+
+= Entries added 2026-08-13: Female-Specific Reproductive Lifespan in ME/CFS
+
+#registry-entry(
+  [The Luteal Phase May Confer Relative Orthostatic Protection in POTS],
+  type: "H",
+  certainty: "0.52",
+  evidence: [Ten women with POTS tolerated upright posture longer with less symptomatic orthostatic decompensation in the mid-luteal phase (higher presyncope rate in early follicular) than in the early follicular phase, independent of medication @Fu2010menstrualCyclePOTS. A same-group follow-up found no cycle-phase effect on presyncope incidence, baroreflex sensitivity, or muscle sympathetic nerve activity @Stickford2015menstrualCyclePOTS — an unresolved contradiction on the orthostatic-tolerance outcome.],
+  citations: [@Fu2010menstrualCyclePOTS @Stickford2015menstrualCyclePOTS],
+  mechanism: [Luteal-phase hormonal milieu (progesterone vasodilation/volume retention, estradiol NO-mediated vasodilation) may improve peripheral vascular/volume response to orthostasis in a condition defined by maladaptive vasodilation and venous pooling — but the effect is unconfirmed (single small positive vs single small same-group null on the same outcome).],
+  chapter-ref: [ch20b sec-01 menstrual cyclicity: @hyp:luteal-orthostatic-protection, @oq:fra-cyclicity-null-sympathetic],
+  prediction: [A prospective cycle-phase study in women with ME/CFS + comorbid POTS (n ≥ 20, LH-surge-confirmed phase, head-up tilt/active stand + symptom scoring) should reproduce a luteal-phase improvement in orthostatic tolerance and symptom burden. Falsified if luteal-phase tolerance is not better than early-follicular in the same women — which is what the same-group Stickford study found.],
+  treatment: [Cycle phase is a confounder to control in orthostatic treatment trials; phase-aware planning of orthostatic symptom burden. No new drug. The treatment implication is conditional on resolving the unconfirmed effect.],
+  limitation: [Unresolved contradiction: Fu (n=10) positive vs Stickford (n=10, same lab) null on presyncope/orthostatic tolerance; not independently replicated; POTS population, not a ME/CFS cohort (population weight 0.80); not severity-stratified.],
+)
+
+#registry-entry(
+  [Postpartum Immune Reconstitution as an ME/CFS Trigger or Relapse Driver],
+  type: "H",
+  certainty: "0.40",
+  evidence: [Pregnancy induces a tolerogenic, Th2-shifted immune state (elevated Tregs, reduced NK cytotoxicity) that collapses rapidly postpartum as estrogen and progesterone fall; postpartum relapse at 3–6 months is a documented clinical pattern @Slack2023pregnancyReview; pregnancy reported as ME/CFS trigger in a minority of cases @Thomas2022sexDifferences. Immune-reconstitution mechanism extrapolated from HIV-IRIS precedent, not measured directly in ME/CFS.],
+  citations: [@Slack2023pregnancyReview @Thomas2022sexDifferences @Schacterle2004pregnancy],
+  mechanism: [Postpartum collapse of pregnancy-induced immunotolerance + rapid steroid/allopregnanolone withdrawal precipitates immune reconstitution against persistent antigens and unmasks autonomic/sleep instability in the 3–6 month window.],
+  chapter-ref: [ch20b sec-02 pregnancy & postpartum: @hyp:fra-postpartum-immune-reconstitution],
+  prediction: [Women developing ME/CFS within 12 months postpartum should show steeper Treg decline between 3rd trimester and 3 months postpartum and evidence of EBV/HHV-6 reactivation in the postpartum window vs healthy postpartum controls. Falsified if immune-reconstitution markers do not differ between postpartum-onset ME/CFS and healthy postpartum women.],
+  treatment: [Postpartum window becomes a monitoring + early-intervention target in high-risk women; no current treatment recommendation.],
+  limitation: [Relapse timing documented but mechanism extrapolated (HIV-IRIS analogy), not directly measured in ME/CFS; not severity-stratified.],
+)
+
+#registry-entry(
+  [Estradiol and Progesterone Directly Modulate Mast Cell Activation],
+  type: "H",
+  certainty: "0.26",
+  evidence: [In-vitro and animal work establishes estradiol primes/sensitises mast cells toward activation and degranulation while progesterone modulates (often suppresses) them @Zaitsu2007estradiolMastCell @MunozCruz2015sexSteroidsMastCell @Jensen2010estradiolProgesteroneMastCell; environmental estrogens modulate mast cells @Narita2007environmentalEstrogensMastCell; ovariectomised-mouse model confirms ovarian-hormone-withdrawal effects on mast cells @Jensen2010estradiolProgesteroneMastCell.],
+  citations: [@Zaitsu2007estradiolMastCell @MunozCruz2015sexSteroidsMastCell @Jensen2010estradiolProgesteroneMastCell @Narita2007environmentalEstrogensMastCell],
+  mechanism: [Estradiol primes mast cell activation; progesterone modulates/suppresses it; ovarian-hormone state (cycle phase, pregnancy, menopause, HRT) therefore modulates mast-cell-dependent symptoms — the mechanistic bridge connecting female predominance of ME/CFS to its MCAS comorbidity.],
+  chapter-ref: [ch20b sec-04 HRT: @hyp:fra-estrogen-mastcell-axis],
+  prediction: [In women with ME/CFS + MCAS symptoms, serum tryptase/histamine should vary across the menstrual cycle and change with menopause or HRT in a direction consistent with model-system findings. Falsified if mast cell mediators in ME/CFS patients do not track hormonal state.],
+  treatment: [Hormonal state is a candidate modifiable lever on mast-cell-dependent symptoms; direction of effect is individual (double-edged). No blanket recommendation.],
+  limitation: [Model-system evidence only (in-vitro/animal, population weight 0.40–0.50) — translation gap to patients not confirmed in ME/CFS; not severity-stratified.],
+)
+
+#registry-entry(
+  [Endometriosis Is Associated with a ~2.8-Fold Higher Risk of ME/CFS],
+  type: "H",
+  certainty: "0.58",
+  evidence: [Systematic review + meta-analysis (13 studies, n from 84 to 134,805): endometriosis associated with OR 2.79 (95% CI 2.00–3.89) for ME/CFS; pooled OR 2.52 for the ME/CFS–endometriosis association; association heterogeneity I² = 0.0% @Compton2025endometriosis. Consistent with earlier population-based finding (36% vs 17% endometriosis in cases vs controls @boneva2011gynecological).],
+  citations: [@Compton2025endometriosis @boneva2011gynecological],
+  mechanism: [Shared mast-cell/neuroinflammatory axis: endometriosis lesions produce IL-1β, TNF-α, NGF; both conditions feature mast cell hyperactivation, peripheral nerve sensitisation, estrogen-driven inflammation; bidirectional causation plausible (endometriosis inflammation seeds central sensitisation; ME/CFS immune dysregulation permits ectopic implant survival).],
+  chapter-ref: [ch20b sec-05 endometriosis & PCOS: @ach:fra-endometriosis, @hyp:fra-endometriosis-shared-axis],
+  prediction: [In a prospective cohort, incidence of ME/CFS in surgically-confirmed endometriosis should exceed that in matched controls, and ME/CFS severity should correlate with endometriosis disease activity. Falsified if association reflects only ascertainment.],
+  treatment: [Screening for endometriosis in ME/CFS women with pelvic symptoms and vice versa; treating one condition may be relevant to the other. No claim that treating endometriosis treats ME/CFS.],
+  limitation: [Cross-sectional designs predominate; 54% self-reported endometriosis; US-centric; prevalence heterogeneity extreme (I² > 98%). Not severity-stratified.],
+)
+
+#registry-entry(
+  [Does PCOS Co-occur with ME/CFS? — No Direct Evidence Found],
+  type: "OQ",
+  certainty: "N/A",
+  evidence: [Targeted search found no direct, adequately powered PCOS–ME/CFS co-occurrence study; the only hit (n=37, no control, null fatigue correlation, low-tier journal) fails inclusion criteria. PCOS association remains unestablished.],
+  citations: [],
+  mechanism: [Open question: PCOS is an estrogen/androgen-dominant endocrine-metabolic condition in premenopausal women, so a mechanistic rationale for overlap exists, but no evidence supports an association.],
+  chapter-ref: [ch20b sec-05 endometriosis & PCOS: @oq:fra-pcos],
+  prediction: [A proper prevalence study of PCOS in ME/CFS (and vice versa) is required before any association claim.],
+  treatment: [No association to act on; manage any coexisting PCOS and ME/CFS as distinct conditions.],
+  limitation: [Absence of evidence, not evidence of absence; treated as genuinely open.],
+)
+
+#registry-entry(
+  [Cyclic Luteal→Menstrual Allopregnanolone Withdrawal as a Monthly PEM Amplifier],
+  type: "S",
+  certainty: "0.25",
+  evidence: [Allopregnanolone (progesterone metabolite, GABA-A positive allosteric modulator) rises across the luteal phase and crashes at the luteal→menstrual transition. The postpartum version of this withdrawal is documented as a vulnerability window @Slack2023pregnancyReview; the monthly version is unexamined. No ME/CFS study has measured allopregnanolone across the cycle or linked it to PEM timing.],
+  citations: [@Slack2023pregnancyReview],
+  mechanism: [Each cycle's premenstrual allopregnanolone drop unmask the same GABAergic-autonomic vulnerability the postpartum drop produces in a single large event, amplifying PEM and autonomic instability at the luteal→menstrual boundary.],
+  chapter-ref: [ch20b sec-01 menstrual cyclicity: @spec:fra-allopregnanolone-monthly],
+  prediction: [PEM episode frequency and severity are significantly higher in the 3 days after luteal allopregnanolone peaks than at other phases, reduced by luteal micronized progesterone. Falsified if PEM does not cluster at the withdrawal boundary or progesterone does not blunt it.],
+  treatment: [Luteal-phase micronized progesterone as a repeatable, non-pregnancy probe of the GABAergic-autonomic axis; interaction data not individually checked — manual review.],
+  limitation: [Extrapolation from postpartum analogue; no ME/CFS cycle allopregnanolone data; not severity-stratified. (Origin: brainstorm.)],
+)
+
+#registry-entry(
+  [Menopause as an Iron-Accumulation / Ferroptosis Transition in ME/CFS],
+  type: "S",
+  certainty: "0.20",
+  evidence: [Reproductive axis is usually framed as iron-deficiency (heavy menses, pregnancy). Cessation of menstrual blood loss at menopause halts monthly iron excretion; chronic iron overload drives Fenton-chemistry oxidative stress and ferroptosis linked to mitochondrial dysfunction. No ME/CFS menopause-iron study exists.],
+  citations: [],
+  mechanism: [Menopausal iron accumulation → ferroptosis → further mitochondrial/energy failure explains a non-hormonal, non-mast-cell reason for menopause-transition worsening in a subgroup; predicts iron reduction (phlebotomy) rather than supplementation may help.],
+  chapter-ref: [ch20b sec-03 menopause transition: @spec:fra-menopause-iron-ferroptosis],
+  prediction: [Post-menopausal ME/CFS women with prior menorrhagia show elevated ferritin/transferrin saturation and ferroptosis markers (4-HNE, MDA) vs controls, correlating with fatigue severity. Falsified if iron stores and ferroptosis markers are not elevated or do not track severity.],
+  treatment: [Iron reduction (phlebotomy, iron-restricted diet) — speculative; contraindicated in iron-deficient patients.],
+  limitation: [Novel, mechanistically coherent but entirely unexamined in ME/CFS; menopause-transition evidence base itself indirect. (Origin: brainstorm.)],
+)
+
+#registry-entry(
+  [Mast-Cell-Stabilizer Trials Should Be Stratified by Hormonal Phase and E2:P4 Ratio],
+  type: "P",
+  certainty: "0.40",
+  evidence: [Estrogen-mast-cell axis established in model systems @Zaitsu2007estradiolMastCell @MunozCruz2015sexSteroidsMastCell @Jensen2010estradiolProgesteroneMastCell; mast-cell-stabilizer trials in ME/CFS are analysed without any hormonal covariate.],
+  citations: [@Zaitsu2007estradiolMastCell @MunozCruz2015sexSteroidsMastCell @Jensen2010estradiolProgesteroneMastCell],
+  mechanism: [E2:P4 ratio (not absolute levels) predicts mast-cell reactivity — high E2 with low P4 = unopposed estradiol priming; high P4 = suppression. Stabilizer efficacy may concentrate in high-E2/low-P4 states.],
+  chapter-ref: [ch20b sec-04 HRT: @pred:fra-mastcell-stabilizer-stratify],
+  prediction: [≥30% greater stabilizer benefit in high-E2/low-P4 phase than high-P4 phase or post-menopause. Falsified if stabilizer efficacy is uniform across hormonal states.],
+  treatment: [Research direction only (re-analysis/trial design); no treatment recommendation.],
+  limitation: [Ratio-specific claim untested; research design. (Origin: brainstorm.)],
+)
+
+#registry-entry(
+  [The Postpartum 3–6 Month Window Is an Ideal Prospective Onset-Cohort Target],
+  type: "P",
+  certainty: "0.45",
+  evidence: [Postpartum window is a defined, time-bounded event with an identifiable trigger state (collapse of pregnancy hormonal/immune milieu); postpartum relapse timing 3–6 months documented @Slack2023pregnancyReview @Schacterle2004pregnancy.],
+  citations: [@Slack2023pregnancyReview @Schacterle2004pregnancy],
+  mechanism: [Recruiting at-risk primiparous women before/during pregnancy and following through the 3–6 month window with biobanking captures onset prospectively — a direct test of the immune-reconstitution hypothesis.],
+  chapter-ref: [ch20b sec-02 postpartum: @pred:fra-postpartum-cohort],
+  prediction: [~2% of ~150 at-risk primiparous women develop new/relapsed ME/CFS in the 3–6 month window, with steeper Treg decline and higher EBV/HHV-6 reactivation vs postpartum-healthy controls.],
+  treatment: [Enables early biomarkers and early intervention; research design.],
+  limitation: [Onset signal real but immune mechanism unproven; recruitment feasibility. (Origin: brainstorm.)],
+)
+
+#registry-entry(
+  [A Longitudinal AMH Slope Panel Predicts Early Menopause Before the Event],
+  type: "P",
+  certainty: "0.40",
+  evidence: [AMH is stable across the menstrual cycle and reflects remaining follicular pool; early menopause over-represented in ME/CFS @boneva2015menopause; four candidate mechanisms for accelerated ovarian aging documented @spec:fra-ovarian-aging-mechanism.],
+  citations: [@boneva2015menopause],
+  mechanism: [Serial AMH + FSH/estradiol use the rate of AMH decline as marker of accelerated follicular attrition, flagging early menopause years before the event.],
+  chapter-ref: [ch20b sec-03 early menopause: @pred:fra-amh-slope],
+  prediction: [AMH decline slope >1.5× steeper in ME/CFS women aged 25–40 vs controls over 24 months; steep-slope subgroup reaches menopause earlier.],
+  treatment: [Early bone/cardiovascular protection and HRT planning; biomarker.],
+  limitation: [No longitudinal AMH data exist in ME/CFS. (Origin: brainstorm.)],
+)
+
+#registry-entry(
+  [Pregnancy Response as a Natural Subtype-to-Treatment Diagnostic Probe],
+  type: "P",
+  certainty: "0.35",
+  evidence: [Tripartite pregnancy split documented @Schacterle2004pregnancy @Slack2023pregnancyReview; candidate subtype axes (immune/volume/metabolic) proposed @oq:fra-pregnancy-subtypes.],
+  citations: [@Schacterle2004pregnancy @Slack2023pregnancyReview],
+  mechanism: [A woman's pregnancy response assigns her to a treatment-relevant subtype: improved (immune/volume dominant), worsened (metabolic dominant), unchanged (uncertain) — convertible to a stratification input for trials and care.],
+  chapter-ref: [ch20b sec-02 pregnancy tripartite: @pred:fra-pregnancy-probe],
+  prediction: [Baseline measures (autoantibodies, tilt-test, CPET) predict pregnancy trajectory with concordance >0.6, and reported direction predicts response to the corresponding treatment class.],
+  treatment: [Stratification input; no standalone treatment claim.],
+  limitation: [Tripartite observation established but subtype-probe use novel/untested. (Origin: brainstorm.)],
+)

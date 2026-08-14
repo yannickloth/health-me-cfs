@@ -27,3 +27,5 @@ The sex-specific endocrine and immune patterns reported across studies have impo
 
 ]
 
+
+A further hormonal-immune mechanism with direct relevance to the female predominance of the MCAS/POTS/hEDS cluster is the direct modulation of mast cells by estradiol and progesterone — estradiol priming mast cells toward activation, progesterone modulating (often suppressing) them. This axis is developed in the reproductive-lifespan chapter (see @hyp:fra-estrogen-mastcell-axis), which also treats its implications for hormone replacement therapy.

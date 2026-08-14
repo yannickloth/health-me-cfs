@@ -13601,6 +13601,253 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     *Limitations:*: Literature review without systematic search; Long COVID literature is very recent and rapidly evolving; conflates several distinct conditions; no primary data; some claims extrapolated from associated conditions rather than ME/CFS specifically.
     *Certainty:*: 0.45
 
+== Female Reproductive Lifespan in ME/CFS
+<sec:bib-female-reproductive-lifespan>
+// =============================================================================
+This section covers the evidence base for the female reproductive lifespan in
+ME/CFS, including the perimenopause/menopause transition, hormone replacement
+therapy (HRT), the estrogen-progesterone-mast cell axis, menstrual cyclicity of
+symptoms, and obstetric/Long-COVID-in-pregnancy outcomes. These are NEW entries
+(Phase 1 of the female-reproductive-lifespan integrate-topic cycle) added on top
+of the pregnancy-reproductive-health stream above.
+
+// -----------------------------------------------------------------------------
+=== Perimenopause and Menopause Transition
+
+=== Stewart et al.\ 2024 — Menopause Symptoms in Post-COVID-19 Clinics
+
+    @Stewart2024menopausePostCOVID
+
+    *Full Citation:*: Stewart S, Heald A, Pyne Y, Bakerly ND. "Menopause symptom prevalence in three post-COVID-19 syndrome clinics in England: A cross-sectional analysis." _IJID Regions_. 2024;12:100405.
+    *DOI:*: #link("https://doi.org/10.1016/j.ijregi.2024.100405")[10.1016/j.ijregi.2024.100405]
+    *PMID:*: 39185269
+    *Study Design:*: Cross-sectional analysis of 122 women's health questionnaires from three UK NHS post-COVID syndrome clinics (service improvement project).
+    *Key Findings:*:
+        - Highest prevalence of most individual menopause symptoms and highest mean total menopause symptom questionnaire (MSQ) score (36.4) in age group 40--54, correlating with the perimenopause/menopause onset window
+        - Presence of a gynecologic diagnosis associated with a 6.31-point higher MSQ score
+        - 51% of menstruating patients reported menstrual disturbance with COVID-19 infection; 21% with COVID-19 vaccination
+        - Significant positive parabolic relationship between age and total MSQ score
+    *Conclusion:*: Symptoms possibly attributable to perimenopause/menopause are highly prevalent among female patients attending post-COVID syndrome clinics, and may be under-diagnosed. Provides key prevalence estimates for the perimenopause-transition question in the post-viral (ME/CFS-adjacent) population.
+    *Limitations:*: Cross-sectional, no control group, post-COVID syndrome not identical to ME/CFS, single region (Greater Manchester), menopause symptoms self-reported and overlap with post-COVID symptoms.
+    *Certainty:*: 0.55 (Long COVID/post-viral population; discounted 0.55 x 0.85 = 0.47)
+
+=== Gkouvi et al.\ 2026 — Fibromyalgia and Menopause
+
+    @Gkouvi2026fibromyalgiaMenopause
+
+    *Full Citation:*: Gkouvi A, Kontouli KM, Pardali EC, Patrikiou E, Lambrinoudaki I, Goulis DG, Bogdanos DP, Grammatikopoulou MG. "Fibromyalgia and menopause: Friends with benefits?" _Maturitas_. 2026;208:108899.
+    *DOI:*: #link("https://doi.org/10.1016/j.maturitas.2026.108899")[10.1016/j.maturitas.2026.108899]
+    *PMID:*: 41785644
+    *Study Design:*: Cross-sectional study; n=169 fibromyalgia patients; FIQR and Greene Climacteric Scale (GCS).
+    *Key Findings:*:
+        - FIQR score significantly predicted severity of menopausal symptoms (beta = 0.38), i.e. worse fibromyalgia associated with aggravated menopause symptomatology
+        - Fibromyalgia preceded menopause in 51.0% and occurred concurrently in 21.9% of the sample
+        - Only 6.25% of peri-/post-menopausal women were on HRT
+    *Conclusion:*: Fibromyalgia and menopausal symptoms overlap and mutually worsen symptom burden. Supports the perimenopause transition as a window in which chronic pain/fatigue syndromes may accelerate or coincide with symptom onset — relevant by analogy to ME/CFS (fibromyalgia is a frequent comorbidity).
+    *Limitations:*: Fibromyalgia not ME/CFS; cross-sectional; single-center; HRT use measured but not as an intervention; no assessment of ME/CFS.
+    *Certainty:*: 0.50 (fibromyalgia/comorbid population; discounted 0.50 x 0.80 = 0.40)
+
+=== Ozcivit et al.\ 2023 — Fibromyalgia as a Symptom of Climacterium
+
+    @Ozcivit2023fibromyalgiaClimacterium
+
+    *Full Citation:*: Ozcivit IB, Erel CT, Durmusoglu F. "Can fibromyalgia be considered a characteristic symptom of climacterium?" _Postgraduate Medical Journal_. 2023;99(1170):244--251.
+    *DOI:*: #link("https://doi.org/10.1136/postgradmedj-2021-140336")[10.1136/postgradmedj-2021-140336]
+    *PMID:*: 37227979
+    *Study Design:*: Narrative review.
+    *Key Findings:*:
+        - Fibromyalgia and climacteric syndrome share age of occurrence, epidemiology, etiopathogenesis, symptomatology, and treatment
+        - Hormonal fluctuation during menopausal transition is likely a triggering factor for both syndromes
+        - Proposes HRT as a favourable approach in fibromyalgia due to antiallodynic, anti-inflammatory, and neuroprotective effects of oestrogen
+    *Conclusion:*: Offers a conceptual framework for the perimenopause-transition hypothesis in chronic pain/fatigue disorders: the hormonal fluctuation of the menopausal transition may trigger or accelerate symptom onset. Relevant by analogy to ME/CFS given fibromyalgia co-occurrence and shared features.
+    *Limitations:*: Narrative review, not primary data; fibromyalgia focus rather than ME/CFS; treatment recommendation (HRT) is not evidence-based for ME/CFS.
+    *Certainty:*: 0.42 (fibromyalgia/comorbid population; discounted 0.42 x 0.80 = 0.34)
+
+// -----------------------------------------------------------------------------
+=== Hormone Replacement Therapy (HRT) — Evidence and Harm
+
+=== Johansson et al.\ 2024 — Contemporary HRT and Cardiovascular Risk
+
+    @Johansson2024HRTCardiovascular
+
+    *Full Citation:*: Johansson T, Karlsson T, Bliuc D, Schmitz D, Ek WE, Skalkidou A, Center JR, Johansson Å. "Contemporary menopausal hormone therapy and risk of cardiovascular disease: Swedish nationwide register based emulated target trial." _BMJ_. 2024;387:e078784.
+    *DOI:*: #link("https://doi.org/10.1136/bmj-2023-078784")[10.1136/bmj-2023-078784]
+    *PMID:*: 39603704
+    *Study Design:*: Nationwide register-based emulated target trial; 919,614 women aged 50--58 (2007--2020); 77,512 HRT initiators.
+    *Key Findings:*:
+        - Oral oestrogen-progestin therapy increased VTE risk (continuous HR 1.61; sequential HR 2.00) and oral oestrogen-only (HR 1.57)
+        - Tibolone increased risk of ischaemic heart disease, cerebral infarction, and myocardial infarction but not VTE
+        - Oral oestrogen-progestin associated with increased ischaemic heart disease risk (HR 1.21)
+    *Conclusion:*: Current HRT formulations have route- and combination-specific cardiovascular and VTE risks. MANDATORY harm data: oral oestrogen-progestin carries the highest VTE risk; any HRT consideration in ME/CFS must weigh these risks (especially in patients with autonomic/blood-volume pathology where VTE risk is non-trivial).
+    *Limitations:*: Observational register-based (emulated trial, not randomised); cannot fully exclude confounding by indication; general population not ME/CFS.
+    *Certainty:*: 0.85 (general population; discounted 0.85 x 0.75 = 0.64)
+
+=== Goldštajn et al.\ 2023 — Transdermal versus Oral HRT: Systematic Review
+
+    @Goldstajn2023transdermalOralHRT
+
+    *Full Citation:*: Goldštajn MŠ, Mikuš M, Ferrari FA, Bosco M, Uccella S, Noventa M, Török P, et al. "Effects of transdermal versus oral hormone replacement therapy in postmenopause: a systematic review." _Archives of Gynecology and Obstetrics_. 2023;307(6):1727--1745.
+    *DOI:*: #link("https://doi.org/10.1007/s00404-022-06647-5")[10.1007/s00404-022-06647-5]
+    *PMID:*: 35713694
+    *Study Design:*: Systematic review of transdermal versus oral HRT in postmenopause.
+    *Key Findings:*:
+        - Transdermal oestrogen associated with lower venous thromboembolism risk than oral routes
+        - Route-specific differences in benefit and harm profiles across HRT formulations
+    *Conclusion:*: For any HRT consideration in ME/CFS, the transdermal route carries a more favourable VTE safety profile than oral. Central to the transdermal-versus-oral question.
+    *Limitations:*: Systematic review of general-population postmenopausal women; not ME/CFS-specific; heterogeneity across included studies.
+    *Certainty:*: 0.65 (general population; discounted 0.65 x 0.75 = 0.49)
+
+=== Shah et al.\ 2025 — Sex Differences in Long COVID (RECOVER)
+
+    @Shah2025sexDifferencesLongCOVID
+
+    *Full Citation:*: Shah DP, Thaweethai T, Karlson EW, et al.; RECOVER Consortium. "Sex Differences in Long COVID." _JAMA Network Open_. 2025;8(1):e2455430.
+    *DOI:*: #link("https://doi.org/10.1001/jamanetworkopen.2024.55430")[10.1001/jamanetworkopen.2024.55430]
+    *PMID:*: 39841477
+    *Study Design:*: Large-scale RECOVER Consortium analysis of sex differences in Long COVID presentation and symptom clusters.
+    *Key Findings:*:
+        - Long COVID differs substantially between sexes in symptom cluster presentation, prevalence, and phenotype
+        - Establishes sex (and by extension sex-hormone physiology) as a core determinant of post-infectious illness phenotype
+    *Conclusion:*: Provides authoritative population-scale context for how sex shapes post-infectious illness — the framework within which the female reproductive-lifespan axis operates for ME/CFS. Supports sex-tailored research and care.
+    *Limitations:*: Long COVID (not ME/CFS specifically); observational; sex differences associative not mechanistic.
+    *Certainty:*: 0.80 (Long COVID population; discounted 0.80 x 0.85 = 0.68)
+
+// -----------------------------------------------------------------------------
+=== Estrogen-Progesterone-Mast Cell Axis
+
+=== Zaitsu et al.\ 2007 — Estradiol Activates Mast Cells via ER-alpha and Calcium
+
+    @Zaitsu2007estradiolMastCell
+
+    *Full Citation:*: Zaitsu M, Narita S, Lambert KC, Grady JJ, Estes DM, Curran EM, Brooks EG, Watson CS, Goldblum RM, Midoro-Horiuti T. "Estradiol activates mast cells via a non-genomic estrogen receptor-alpha and calcium influx." _Molecular Immunology_. 2007;44(8):1977--1985.
+    *DOI:*: #link("https://doi.org/10.1016/j.molimm.2006.09.030")[10.1016/j.molimm.2006.09.030]
+    *PMID:*: 17084457
+    *Study Design:*: In vitro mechanistic study (RBL-2H3, HMC-1, bone-marrow derived mast cells).
+    *Key Findings:*:
+        - Physiological 17-beta-estradiol activated mast cells via membrane estrogen receptor-alpha, inducing calcium influx
+        - Estradiol alone induced partial beta-hexosaminidase release and LTC4 production; enhanced IgE-mediated degranulation
+        - Estrogen receptor antagonists or calcium chelation inhibited these effects
+    *Conclusion:*: Establishes a direct mechanistic pathway linking estrogen to mast cell activation — the bridge between sex hormones and MCAS overlap that is central to HRT consideration in ME/CFS.
+    *Limitations:*: In vitro / cell-line only; no organism-level validation; relevance to ME/CFS inferred.
+    *Certainty:*: 0.60 (in vitro; discounted 0.60 x 0.40 = 0.24)
+
+=== Muñoz-Cruz et al.\ 2015 — Sex Steroids and Mast Cell Histamine Release
+
+    @MunozCruz2015sexSteroidsMastCell
+
+    *Full Citation:*: Muñoz-Cruz S, Mendoza-Rodríguez Y, Nava-Castro KE, Yepez-Mulia L, Morales-Montor J. "Gender-related effects of sex steroids on histamine release and FcεRI expression in rat peritoneal mast cells." _Journal of Immunology Research_. 2015;2015:351829.
+    *DOI:*: #link("https://doi.org/10.1155/2015/351829")[10.1155/2015/351829]
+    *PMID:*: 25973435
+    *Study Design:*: Animal study (rat peritoneal mast cells).
+    *Key Findings:*:
+        - Effect of estradiol, progesterone, testosterone, and DHT on histamine release was dose- and gender-dependent, direct/synergistic/inhibitory depending on context
+        - Female-derived mast cells more susceptible to sex steroid modulation than male-derived
+        - Sex steroids did not affect FcεRI expression
+    *Conclusion:*: Supports sex-hormone-dependent mast cell degranulation with heightened female sensitivity — a plausible substrate for female-predominant mast-cell-mediated symptoms in ME/CFS.
+    *Limitations:*: Animal model; ex vivo mast cells; does not establish in-vivo or human relevance.
+    *Certainty:*: 0.55 (animal; discounted 0.55 x 0.50 = 0.28)
+
+=== Narita et al.\ 2007 — Environmental Estrogens Induce Mast Cell Degranulation
+
+    @Narita2007environmentalEstrogensMastCell
+
+    *Full Citation:*: Narita S, Goldblum RM, Watson CS, Brooks EG, Estes DM, Curran EM, Midoro-Horiuti T. "Environmental estrogens induce mast cell degranulation and enhance IgE-mediated release of allergic mediators." _Environmental Health Perspectives_. 2007;115(1):48--52.
+    *DOI:*: #link("https://doi.org/10.1289/ehp.9378")[10.1289/ehp.9378]
+    *PMID:*: 17366818
+    *Study Design:*: In vitro study of environmental (xeno)estrogens on mast cells.
+    *Key Findings:*:
+        - Environmental estrogens with estrogen-like activity induce mast cell degranulation
+        - Enhance IgE-mediated release of allergic mediators
+    *Conclusion:*: Extends the estrogen-mast cell mechanism to estrogen-like compounds, reinforcing that estrogen-signaling activation of mast cells is robust and relevant to MCAS overlap considerations.
+    *Limitations:*: In vitro only; xenoestrogen focus; no ME/CFS data.
+    *Certainty:*: 0.55 (in vitro; discounted 0.55 x 0.40 = 0.22)
+
+=== Jensen et al.\ 2010 — Estradiol and Progesterone Regulate Mast Cell Migration and Degranulation
+
+    @Jensen2010estradiolProgesteroneMastCell
+
+    *Full Citation:*: Jensen F, Woudwyk M, Teles A, Woidacki K, Taran F, Costa S, Malfertheiner SF, Zenclussen AC. "Estradiol and progesterone regulate the migration of mast cells from the periphery to the uterus and induce their maturation and degranulation." _PLoS ONE_. 2010;5(12):e14409.
+    *DOI:*: #link("https://doi.org/10.1371/journal.pone.0014409")[10.1371/journal.pone.0014409]
+    *PMID:*: 21203555
+    *Study Design:*: Animal study (ovariectomized model + migration assays).
+    *Key Findings:*:
+        - Estradiol and progesterone attract mast cells to the uterus, induce their maturation and degranulation
+        - Up-regulate chemokine receptors driving mast cell migration to the fetal-maternal interface
+    *Conclusion:*: Directly links female sex hormones (estradiol + progesterone) to mast cell recruitment and activation, including reproductive-tissue-specific mast cell biology. Reinforces the sex-hormone-mast cell mechanism relevant to HRT and MCAS overlap.
+    *Limitations:*: Animal model; reproductive (uterine) context; not ME/CFS-specific.
+    *Certainty:*: 0.55 (animal; discounted 0.55 x 0.50 = 0.28)
+
+// -----------------------------------------------------------------------------
+=== Menstrual Cyclicity of Symptoms
+
+=== Stickford et al.\ 2015 — Menstrual Cycle Does Not Affect Sympathetic Activity in POTS
+
+    @Stickford2015menstrualCyclePOTS
+
+    *Full Citation:*: Stickford AS, VanGundy TB, Levine BD, Fu Q. "Menstrual cycle phase does not affect sympathetic neural activity in women with postural orthostatic tachycardia syndrome." _The Journal of Physiology_. 2015;593(9):2131--2143.
+    *DOI:*: #link("https://doi.org/10.1113/JP270088")[10.1113/JP270088]
+    *PMID:*: 25656420
+    *Study Design:*: Physiological study; n=10 POTS women studied in early follicular and mid-luteal phases.
+    *Key Findings:*:
+        - NULL result: menstrual cycle phase did not affect muscle sympathetic nerve activity, baroreflex sensitivity, or presyncope incidence
+        - Menstrual cycle did modulate blood pressure and vasoconstriction during tilt
+        - Factors other than sympathetic neural activity likely responsible for menstrual-cycle-dependent orthostatic symptoms in POTS
+    *Conclusion:*: Contradicts the simple hypothesis that menstrual-cycle hormonal swings drive dysautonomia symptoms via sympathetic neural activity. Important null/contradicting evidence for the menstrual cyclicity claim; symptoms may reflect hemodynamic/volume effects rather than autonomic firing.
+    *Limitations:*: Small n (10); POTS not ME/CFS; two menstrual phases only.
+    *Certainty:*: 0.60 (POTS/comorbid population; discounted 0.60 x 0.80 = 0.48)
+
+=== Fu et al.\ 2010 — Menstrual Cycle Affects RAAS and Hemodynamics in POTS
+
+    @Fu2010menstrualCyclePOTS
+
+    *Full Citation:*: Fu Q, VanGundy TB, Shibata S, Auchus RJ, Williams GH, Levine BD. "Menstrual cycle affects renal-adrenal and hemodynamic responses during prolonged standing in the postural orthostatic tachycardia syndrome." _Hypertension_. 2010;56(1):82--90.
+    *DOI:*: #link("https://doi.org/10.1161/HYPERTENSIONAHA.110.151787")[10.1161/HYPERTENSIONAHA.110.151787]
+    *PMID:*: 20479333
+    *Study Design:*: Physiological study; n=10 POTS women vs 11 healthy controls; 2-hour standing in early follicular vs mid-luteal phase.
+    *Key Findings:*:
+        - Menstrual cycle modulated RAAS and hemodynamics in POTS: cardiac output/stroke volume lower and total peripheral resistance greater in early follicular than mid-luteal phase
+        - Plasma renin and aldosterone lower in early follicular phase in POTS
+        - Presyncope rate greater in early follicular phase (both groups)
+        - High estrogen/progesterone in mid-luteal associated with greater RAAS/volume retention improving late-standing tolerance
+    *Conclusion:*: Supports a luteal-phase protective effect on orthostatic tolerance in POTS via estrogen/progesterone-driven volume retention. Relevant to menstrual cyclicity of dysautonomia/PEM in ME/CFS where orthostatic intolerance is common.
+    *Limitations:*: Small n; POTS not ME/CFS; mechanistic inference from hemodynamics.
+    *Certainty:*: 0.65 (POTS/comorbid population; discounted 0.65 x 0.80 = 0.52)
+
+=== Hwang et al.\ 2021 — Menstrual Cycle and Sympathetic Burst During Orthostasis
+
+    @Hwang2021menstrualCycleSympathetic
+
+    *Full Citation:*: Hwang CL, Okazaki K, Shibata S, Liu YL, Fu Q. "Menstrual cycle effects on sympathetic neural burst amplitude distribution during orthostasis in young women." _Clinical Autonomic Research_. 2021;31(6):767--773.
+    *DOI:*: #link("https://doi.org/10.1007/s10286-021-00832-3")[10.1007/s10286-021-00832-3]
+    *PMID:*: 34669075
+    *Study Design:*: Physiological study of menstrual cycle effects on sympathetic burst distribution during orthostasis in young healthy women.
+    *Key Findings:*:
+        - Menstrual phase influenced sympathetic neural burst amplitude distribution during orthostasis in healthy young women
+        - Provides general-population baseline for menstrual-phase modulation of autonomic/cardiovascular responses to standing
+    *Conclusion:*: Confirms that menstrual phase modulates autonomic orthostatic responses even in healthy women, providing context for interpreting POTS/ME-CFS menstrual cyclicity. Luteal/follular differences in autonomic responses are real but their clinical translation is complex (see Stickford null result).
+    *Limitations:*: Healthy women, not ME/CFS; small physiological study; no symptom-level endpoints.
+    *Certainty:*: 0.50 (general population; discounted 0.50 x 0.75 = 0.38)
+
+// -----------------------------------------------------------------------------
+=== Obstetric and Long-COVID-in-Pregnancy
+
+=== Adeyemi et al.\ 2025 — Outcomes Following SARS-CoV-2 Infection in Pregnancy
+
+    @Adeyemi2025SARSCoV2Pregnancy
+
+    *Full Citation:*: Adeyemi C, Breuer L, Kodvawala R, Miller D, Powers-Fletcher MV. "A cohort study characterizing the outcomes following an acute SARS-CoV-2 infection in pregnancy." _Journal of Clinical Medicine_. 2025;14(21):7869.
+    *DOI:*: #link("https://doi.org/10.3390/jcm14217869")[10.3390/jcm14217869]
+    *PMID:*: 41227265
+    *Study Design:*: Retrospective cohort; n=150 pregnant individuals with acute SARS-CoV-2 during pregnancy (64% Black and/or Latina).
+    *Key Findings:*:
+        - 26.7% of the cohort experienced at least one Long COVID symptom (fatigue, pain, mental health problems predominant)
+        - Adverse outcomes differed between Long COVID subcohorts, including cesarean delivery rate differences
+        - Diverse cohort addresses underrepresentation of non-White pregnant populations
+    *Conclusion:*: Contributes post-acute-COVID outcome data in pregnancy, relevant to the obstetric management gap for post-viral fatigue syndromes. Fatigue is a predominant long-COVID symptom in pregnancy.
+    *Limitations:*: Retrospective; Long COVID not ME/CFS; no pre-pandemic comparison; symptom documentation retrospective.
+    *Certainty:*: 0.55 (Long COVID population; discounted 0.55 x 0.85 = 0.47)
+
+
 == Progesterone and Allopregnanolone in ME/CFS <sec:bib-progesterone-mecfs>
 
 This section covers the evidence base for oral micronized progesterone as a potential

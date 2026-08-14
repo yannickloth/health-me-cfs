@@ -13,6 +13,17 @@ Prevents re-processing of already-integrated content.
 
 ---
 
+## Female Reproductive Lifespan in ME/CFS Literature Search
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-08-13 | Multi-query search across 6 gap areas: (1) perimenopause/menopause transition in ME/CFS and post-viral fatigue, (2) HRT intervention + harm (VTE/CVD), (3) estrogen-progesterone-mast cell mechanism (indirect biochemical search), (4) menstrual cyclicity of POTS/orthostatic symptoms, (5) PCOS co-occurrence, (6) obstetric/Long-COVID-in-pregnancy outcomes. HRT harm search MANDATORY included. |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed API queries (30+ queries, batch) | pubmed/eutils | 2026-08-13 | — | ops/research/search-log-female-reproductive-lifespan-2026-08-13.md, ops/research/literature-female-reproductive-lifespan-2026-08-13.md, bib/endocrine-reproductive.bib, appendix-h — Female reproductive lifespan literature (14 new papers) |
+
+---
+
 ## Vagal Gastric Denervation Literature Search
 | Source | Last Scraped | Notes |
 |--------|--------------|-------|

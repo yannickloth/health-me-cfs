@@ -11234,5 +11234,55 @@
     "label": "dysvirosis",
     "category": "concept",
     "definition": "A dysregulation of the human virome — the community of viruses that normally persist in the body without causing disease. In long COVID and ME/CFS research, dysvirosis refers to shifts in chronic viral (especially anellovirus) burden that reflect altered immune regulation rather than active viral infection."
+  },
+  "AMH": {
+    "label": "AMH",
+    "category": "measurement",
+    "definition": "Anti-Müllerian hormone: a blood marker of ovarian reserve; higher levels indicate more remaining egg follicles, and it is stable across the menstrual cycle."
+  },
+  "FSH": {
+    "label": "FSH",
+    "category": "measurement",
+    "definition": "Follicle-stimulating hormone: a pituitary hormone that drives egg-follicle development; rising FSH levels indicate declining ovarian function approaching menopause."
+  },
+  "LH": {
+    "label": "LH",
+    "category": "measurement",
+    "definition": "Luteinizing hormone: a pituitary hormone whose surge triggers ovulation; measured to confirm menstrual-cycle phase."
+  },
+  "HPG": {
+    "label": "HPG",
+    "category": "pathway",
+    "definition": "Hypothalamic-pituitary-gonadal axis: the hormonal control loop linking the brain's hypothalamus and pituitary to the ovaries or testes, regulating reproduction and sex-hormone levels."
+  },
+  "HRT": {
+    "label": "HRT",
+    "category": "treatment",
+    "definition": "Hormone Replacement Therapy: estrogen (and usually progestogen where a uterus is present) given to replace ovarian hormones after menopause; benefit in ME/CFS is unproven, and venous-thromboembolism risk is lower with transdermal than oral estrogen."
+  },
+  "PCOS": {
+    "label": "PCOS",
+    "category": "condition",
+    "definition": "Polycystic Ovary Syndrome: a hormonal condition causing irregular periods, elevated androgens, and metabolic changes; there is currently no direct evidence linking it to ME/CFS."
+  },
+  "MSNA": {
+    "label": "MSNA",
+    "category": "measurement",
+    "definition": "Muscle Sympathetic Nerve Activity: a direct measure of the sympathetic nervous system's outflow to muscles, used in autonomic research."
+  },
+  "VTE": {
+    "label": "VTE",
+    "category": "condition",
+    "definition": "Venous Thromboembolism: a blood clot forming in a vein, including deep-vein thrombosis and pulmonary embolism; an important safety consideration with oral hormone therapy."
+  },
+  "IRIS": {
+    "label": "IRIS",
+    "category": "condition",
+    "definition": "Immune Reconstitution Inflammatory Syndrome: a paradoxical worsening of symptoms when the immune system recovers and mounts a strong response to persistent antigens; invoked as a model for postpartum ME/CFS onset."
+  },
+  "TNF": {
+    "label": "TNF",
+    "category": "protein",
+    "definition": "Tumour Necrosis Factor: a pro-inflammatory cytokine involved in systemic inflammation and immune signalling."
   }
 }
