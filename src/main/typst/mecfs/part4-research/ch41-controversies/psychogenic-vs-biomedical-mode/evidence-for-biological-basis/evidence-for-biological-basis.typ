@@ -10,5 +10,6 @@ The accumulated biological evidence against a psychogenic model is now overwhelm
     - *Neuroinflammation*: PET imaging demonstrating microglial activation @Raijmakers2021Neuroinflammation
     - *Neurotransmitter deficiency*: CSF catecholamine deficiency documented by the NIH study @walitt2024deep
     - *Objective exercise intolerance*: Two-day CPET demonstrating measurable physiological deterioration after exertion—impossible to produce through psychological mechanisms—though group-average VO₂ decline is contested (positive studies @keller2024cpet vs null replication @Mancini2026CPET); elevated RPE and chronotropic incompetence are consistent findings across studies
+    - *Physiological (not psychological) PEM features in deep phenotyping*: The NIH deep-phenotyping study, sometimes cited to support a psychological explanation of PEM, in fact documented multiple physiological abnormalities—autonomic dysfunction, differential cerebrospinal fluid catecholamine and metabolite profiles, and lower post-exercise cortisol responses—and found that peak measures did not correlate with effort preference @walitt2024deep @Appelman2025ReplyMuscle. This is inconsistent with the claim that effort avoidance dictates V̇O#sub[2]max or explains PEM.
 
 

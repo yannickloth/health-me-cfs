@@ -831,7 +831,7 @@ Identifies IL-2 as potentially important cytokine in ME/CFS pathophysiology. Not
 
 *Hunter et al.\ 2025 — Epigenetic Biomarkers and IL-2 Pathway*
 
-@hunter2025biomarker
+@Hunter2025
 
 *Key Findings:*
 Developed blood-based diagnostic test using EpiSwitch\textregistered\ technology identifying 200 chromosome conformation markers that distinguish ME/CFS from controls with 92% sensitivity and 98% specificity. Pathway analysis revealed involvement of IL-2, TNF$alpha$, toll-like receptor signaling, and JAK/STAT mechanisms. IL-2 identified as shared pathway with existing therapies (Rituximab, glatiramer acetate).
@@ -14175,6 +14175,226 @@ deficiency, supporting a pharmacological rather than replacement rationale.
     *Limitations:*: Cross-sectional design (no causal proof); small n (54 vs 21); saliva proxy (not blood or brain tissue); sex-stratified subanalyses are exploratory; PHB2-miR-153-3p mechanism is a proposed model, not directly demonstrated in this study.
     *Certainty:*: 0.47
 
+// =============================================================================
+
+== Epigenetics: EpiSwitch 3D-Genomic Diagnostic — Replication, Cross-Condition Specificity, and Competing Evidence
+
+<sec:bib-episwitch-3d-genomic>
+
+*Scope:* Literature surrounding the EpiSwitch 3D-genomic blood test for ME/CFS (Hunter 2025). Covers: (1) the EpiSwitch platform's prior-art and cross-disease clinical use; (2) independent mechanistic evidence that 3D chromatin topology regulates the IL-2/JAK-STAT axis the test reports; (3) competing blood epigenetic biomarkers (HERV, OPRM1 methylation, lncRNA) that partially overlap the EpiSwitch claims; (4) null/replication-gap findings. Hunter 2025 itself is annotated in the Immune Dysfunction section.
+
+=== Carini et al.\ 2018 --- EpiSwitch Chromosome Conformation Signatures for MTX Response in RA
+
+    @Carini2018mtxCCS
+
+    *Full Citation:*: Carini C, Hunter E, Ramadass AS, Green J, Akoulitchev A, McInnes IB, Goodyear CS. Chromosome conformation signatures define predictive markers of inadequate response to methotrexate in early rheumatoid arthritis. _Journal of Translational Medicine_. 2018;16(1):18.
+    *DOI:*: #link("https://doi.org/10.1186/s12967-018-1387-9")[10.1186/s12967-018-1387-9]
+    *PMID:*: 29378619
+    *Study Design:*: Case-control biomarker discovery + cross-validation; early RA patients commencing methotrexate (Scottish Early RA Inception cohort).
+    *Key Findings:*:
+        - First EpiSwitch chromosome-conformation-signature (CCS) applied to an autoimmune/inflammatory disease.
+        - 5-marker CCS discriminated MTX responders from non-responders using pre-treatment blood.
+        - Demonstrates the platform generalizes beyond cancer to immune-mediated disease.
+    *Conclusion:*: Establishes the EpiSwitch 3D-genomic method in inflammatory disease prior to its ME/CFS application; supports biological plausibility of the platform but is vendor-affiliated (Oxford BioDynamics authors).
+    *Limitations:*: Commercial COI (Hunter, Green, Akoulitchev are OBD employees); small discovery cohort; no independent external replication.
+    *Certainty:*: 0.50
+
+=== Alshaker et al.\ 2021 --- EpiSwitch Chromatin Conformation Detects Prostate Cancer
+
+    @Alshaker2021prostateCCS
+
+    *Full Citation:*: Alshaker H, Mills R, Hunter E, Salter M, Ramadass AS, Skinner BM, Westra W, Green J, Akoulitchev A, Winkler M, Pchejetski D. Chromatin conformation changes in peripheral blood can detect prostate cancer and stratify disease risk groups. _Journal of Translational Medicine_. 2021;19(1):46.
+    *DOI:*: #link("https://doi.org/10.1186/s12967-021-02710-y")[10.1186/s12967-021-02710-y]
+    *PMID:*: 33509203
+    *Study Design:*: Case-control; peripheral blood chromosome-conformation profiling for prostate cancer detection and risk stratification.
+    *Key Findings:*:
+        - EpiSwitch 3D-genomic assay detects prostate cancer from peripheral blood and stratifies disease risk groups.
+        - Shares senior author (Pchejetski/Dmitri) with the Hunter 2025 ME/CFS paper — same platform, same PI lineage.
+    *Conclusion:*: Provides the cross-disease precedent that EpiSwitch panels are disease-specific (not a generic inflammation readout), but no evidence on ME/CFS vs fatiguing-condition specificity.
+    *Limitations:*: Vendor-affiliated (OBD); single study; no head-to-head against other fatiguing/neurological conditions.
+    *Certainty:*: 0.55
+
+=== Berghausen et al.\ 2025 --- EpiSwitch PSE Real-World Clinical Utility (Prostate)
+
+    @Berghausen2025PSErealworld
+
+    *Full Citation:*: Berghausen J, Abdo J, Mathis R, Hunter E, Akoulitchev A, Pohlman GD. EpiSwitch PSE Blood Test Reduces Unnecessary Prostate Biopsies: A Real-World Clinical Utility Study. _Cancers_. 2025;17(13):2193.
+    *DOI:*: #link("https://doi.org/10.3390/cancers17132193")[10.3390/cancers17132193]
+    *PMID:*: 40647492
+    *Study Design:*: Real-world clinical utility study (n=187); 53 biopsy-confirmed, 134 predictive-modeled.
+    *Key Findings:*:
+        - Up to 79.1% (106/134) could safely defer biopsy on low-likelihood PSE result.
+        - Strong concordance with biopsy diagnosis; 100% technical success; 4.4-day turnaround.
+    *Conclusion:*: Documents the EpiSwitch platform functioning in a real-world CLIA workflow; does not address ME/CFS or fatiguing-condition discrimination.
+    *Limitations:*: All authors Oxford BioDynamics employees/paid advisors (full commercial COI, disclosed); retrospective; prospective multicenter confirmation still absent.
+    *Certainty:*: 0.45
+
+=== Abdo et al.\ 2025 --- EpiSwitch CiRT Immunotherapy Response (PROWES interim)
+
+    @Abdo2025CiRTPROWES
+
+    *Full Citation:*: Abdo J, Berghausen J, Mathis R, Guiel T, Hunter E, Heaton R, Akoulitchev A, Naidu S, Patel K. Clinical Utility of the EpiSwitch CiRT Test to Guide Immunotherapy Across Solid Tumors: Interim Results from the PROWES Study. _Cancers_. 2025;17(17):2900.
+    *DOI:*: #link("https://doi.org/10.3390/cancers17172900")[10.3390/cancers17172900]
+    *PMID:*: 40940997
+    *Study Design:*: Prospective real-world evidence study (n=205 advanced solid tumors); interim analysis.
+    *Key Findings:*:
+        - CiRT (3D-genomic) stratified patients by probability of immune-checkpoint-inhibitor benefit; influenced treatment decisions in majority of cases.
+        - High-probability-of-response (HPRR) patients had greater clinical benefit; classification independent of short-term imaging response.
+    *Conclusion:*: Mechanistically adjacent to Hunter 2025 — shows 3D-genomic profiling can resolve immune-therapeutic response states (IL-2/JAK-STAT axis), but is an oncology test with no ME/CFS data.
+    *Limitations:*: Full commercial COI (all authors OBD-employed/paid); interim; response concordance secondary.
+    *Certainty:*: 0.45
+
+=== Mellor et al.\ 2025 --- "Paradigm Lost" (EpiSwitch Platform Commentary)
+
+    @Mellor2025paradigmLost
+
+    *Full Citation:*: Mellor J, Hunter E, Akoulitchev A. Paradigm Lost. _Cancers_. 2025;17(13):2187.
+    *DOI:*: #link("https://doi.org/10.3390/cancers17132187")[10.3390/cancers17132187]
+    *PMID:*: 40647485
+    *Study Design:*: Perspective/opinion.
+    *Key Findings:*:
+        - Argues 3D genome architecture is a superior molecular biomarker versus single-omics readouts.
+        - Reviews EpiSwitch clinical tests (immuno-oncology, prostate) already in US/UK practice.
+    *Conclusion:*: Vendor-authored commentary; provides platform rationale but zero independent validation weight for the ME/CFS diagnostic claim.
+    *Limitations:*: Authors are OBD employees; opinion piece, not data.
+    *Certainty:*: 0.30
+
+=== Wei et al.\ 2025 --- TRIM28-Dependent 3D Chromatin Underpins CD8+ T Cell Activation (IL-2)
+
+    @Wei2025TRIM28chromatin
+
+    *Full Citation:*: Wei K, Li R, Zhao X, et al. TRIM28 is an essential regulator of three-dimensional chromatin state underpinning CD8+ T cell activation. _Nature Communications_. 2025;16(1):750.
+    *DOI:*: #link("https://doi.org/10.1038/s41467-025-56029-z")[10.1038/s41467-025-56029-z]
+    *PMID:*: 39820353
+    *Study Design:*: Mouse knockout + primary human CD8+ T cell 3D-genome/epigenomics (Tsinghua).
+    *Key Findings:*:
+        - TRIM28 binds loop-anchor regions overlapping CTCF; Trim28 deletion disrupts autocrine IL-2 production and CD8+ T cell activation.
+        - Without Trim28, RNA Pol II and cohesin binding at loop anchors diminishes and active chromosomal structure is lost.
+    *Conclusion:*: Independent, high-quality mechanistic evidence directly tying 3D chromatin topology to IL-2 — the exact hub Hunter 2025 reports as the ME/CFS EpiSwitch pathway signature. Does not itself validate the ME/CFS diagnostic.
+    *Limitations:*: No ME/CFS cohort; mouse model + primary human T cells.
+    *Certainty:*: 0.75
+
+=== Ward et al.\ 2025 --- Memory CD4+ T Cells Restructure 3D Genome on IL-2 Stimulation
+
+    @Ward2025CD4threeD
+
+    *Full Citation:*: Ward AI, de Las Heras JI, Schirmer EC, Fassati A. Memory CD4+ T cells sequentially restructure their 3D genome during stepwise activation. _Frontiers in Cell and Developmental Biology_. 2025;13:1514627.
+    *DOI:*: #link("https://doi.org/10.3389/fcell.2025.1514627")[10.3389/fcell.2025.1514627]
+    *PMID:*: 40018706
+    *Study Design:*: In situ Hi-C + RNA-seq of primary memory CD4+ T cells under graded activation (UCL/Edinburgh).
+    *Key Findings:*:
+        - IL-2 stimulation alone triggers extensive 3D genome reorganization.
+        - Dynamic TAD changes at least as frequent as stable TADs, challenging the invariant-TAD-scaffold model.
+    *Conclusion:*: Validates the premise that cytokine (IL-2) signalling rewires blood-cell 3D chromatin independent of TCR ligation — supporting the biological rationale that blood 3D-genomic signatures (as in EpiSwitch ME/CFS) can reflect immune-activation state.
+    *Limitations:*: In vitro primary cells; no disease cohort.
+    *Certainty:*: 0.65
+
+=== Lee et al.\ 2025 --- CTCF-Orchestrated 3D Enhancers and JAK-STAT in CD4+ T Cells
+
+    @Lee2025CTCFenhancer
+
+    *Full Citation:*: Lee EC, Kim K, Kim S, Kim M, Kim HP. 3D enhancer architecture coordinated by CTCF determines immune-related gene expression patterns via RNA polymerase II pause-release in CD4+ T cells. _Nucleic Acids Research_. 2025;53(22):gkaf1404.
+    *DOI:*: #link("https://doi.org/10.1093/nar/gkaf1404")[10.1093/nar/gkaf1404]
+    *PMID:*: 41459752
+    *Study Design:*: CTCF depletion in activated CD4+ T cells; 3D enhancer architecture + transcription analysis (Yonsei).
+    *Key Findings:*:
+        - STAT5-bound super-enhancers maintain enhancer loops independently of CTCF.
+        - CTCF-dependent 3D genome shapes immune gene expression; CTCF depletion reprograms CD4+ T cell response to JAK inhibitors by rewiring the STAT5 enhancer network.
+    *Conclusion:*: Mechanistically links 3D chromatin topology to JAK-STAT signalling — the pathway Hunter 2025 reports as enriched in ME/CFS EpiSwitch markers. Explains how 3D-genomic markers can track therapeutic-relevant immune state.
+    *Limitations:*: Cell-line/primary T cell models; no ME/CFS data.
+    *Certainty:*: 0.72
+
+=== Zhu et al.\ 2024 --- 3D Chromosomal Landscape of miR-146a Dysfunctional Enhancer in Lupus
+
+    @Zhu2024miR146lupus
+
+    *Full Citation:*: Zhu X, Zhang Y, Yin Z, et al. Three-Dimensional Chromosomal Landscape Revealing miR-146a Dysfunctional Enhancer in Lupus and Establishing a CRISPR-Mediated Approach to Inhibit the Interferon Pathway. _Arthritis & Rheumatology_. 2024;76(3):384--395.
+    *DOI:*: #link("https://doi.org/10.1002/art.42703")[10.1002/art.42703]
+    *PMID:*: 37728419
+    *Study Design:*: Circular chromosome conformation capture (4C) + epigenomics + CRISPR activation in SLE PBMCs (Shanghai Renji).
+    *Key Findings:*:
+        - Identified a downstream miR-146a enhancer with reduced accessibility in SLE; chromatin openness negatively correlated with disease activity.
+        - CRISPR activation of this enhancer in SLE PBMCs inhibited the interferon pathway.
+    *Conclusion:*: Independent (non-OBD, non-commercial) demonstration that 3D chromosome-conformation changes are functionally disease-relevant in autoimmune immune cells — supports the biological plausibility of the EpiSwitch 3D-genomic diagnostic concept without endorsing the specific ME/CFS test.
+    *Limitations:*: SLE, not ME/CFS; in vitro CRISPR intervention.
+    *Certainty:*: 0.72
+
+=== Yang et al.\ 2018 --- Very Long Non-Coding RNA Signature in ME/CFS
+
+    @Yang2018vlncRNA
+
+    *Full Citation:*: Yang CA, Bauer S, Ho YC, Sotzny F, Chang JG, Scheibenbogen C. The expression signature of very long non-coding RNA in myalgic encephalomyelitis/chronic fatigue syndrome. _Journal of Translational Medicine_. 2018;16(1):231.
+    *DOI:*: #link("https://doi.org/10.1186/s12967-018-1600-x")[10.1186/s12967-018-1600-x]
+    *PMID:*: 30119681
+    *Study Design:*: Case-control lncRNA expression profiling; n=44 ME/CFS (Charité Berlin, Scheibenbogen).
+    *Key Findings:*:
+        - Very-long lncRNAs NTT, MIAT, EmX2OS significantly elevated in ME/CFS PBMCs vs controls.
+        - NTT and EmX2OS increased with disease severity; H2O2 and poly(I:C) stimulation upregulated NTT and MIAT in cell lines.
+    *Conclusion:*: A competing, earlier non-coding-RNA epigenetic biomarker for ME/CFS that — like EpiSwitch — implicates immune/oxidative-stress regulatory programs, but uses RNA expression rather than 3D chromatin conformation.
+    *Limitations:*: No independent replication; n=44; no cross-condition (fibromyalgia/depression) discrimination tested.
+    *Certainty:*: 0.42
+
+=== Giménez-Orenga et al.\ 2025 --- HERV Activation Segregates ME/CFS from Fibromyalgia
+
+    @GimenezOrenga2025HERVsegregation
+
+    *Full Citation:*: Giménez-Orenga K, Martín-Martínez E, Nathanson L, Oltra E. HERV activation segregates ME/CFS from fibromyalgia while defining a novel nosologic entity. _eLife_. 2025;14:RP104441.
+    *DOI:*: #link("https://doi.org/10.7554/eLife.104441")[10.7554/eLife.104441]
+    *PMID:*: 40338225
+    *Study Design:*: HERV-V3 microarray (>350k HERV elements, >1500 immune genes) on PBMCs; n=43 female ME/CFS/FM/both/healthy (Oltra group, Valencia).
+    *Key Findings:*:
+        - Hierarchical clustering of HERV expression profiles gave perfect 4-group assignment (ME/CFS vs FM vs co-diagnosed vs healthy).
+        - ME/CFS HERV activation coincided with enrichment of SETDB1/TRIM28 transcription-factor binding sites (epigenetic silencer loss).
+        - Co-diagnosed patients showed minimal HERV change, proposed as a novel low-epigenetic-impact nosologic entity.
+    *Conclusion:*: Directly competes with EpiSwitch on the one axis Hunter 2025 does NOT test — discrimination of ME/CFS from fibromyalgia (and comorbid states). Highlights a key EpiSwitch evidence gap.
+    *Limitations:*: n=43, female only; single lab; microarray-based, needs independent replication.
+    *Certainty:*: 0.58
+
+=== Wyns et al.\ 2026 --- OPRM1 Promoter Hypermethylation in ME/CFS and Fibromyalgia
+
+    @Wyns2026OPRM1methylation
+
+    *Full Citation:*: Wyns A, Hendrix J, Van Campenhout J, et al. Hypermethylation of OPRM1: Deregulation of the Endogenous Opioid Pathway in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome and Fibromyalgia. _International Journal of Molecular Sciences_. 2026;27(2):826.
+    *DOI:*: #link("https://doi.org/10.3390/ijms27020826")[10.3390/ijms27020826]
+    *PMID:*: 41596476
+    *Study Design:*: Repeated-measures (2 visits/4 days) candidate-gene methylation + QST; n=28 ME/CFS/FM vs 26 controls (Pain in Motion, Brussels).
+    *Key Findings:*:
+        - Higher OPRM1 promoter methylation in patients, persisting after symptom/QST adjustment.
+        - No global (hydroxy)methylation differences; OPRM1 methylation correlated with BDNF promoter/exon methylation.
+    *Conclusion:*: A competing candidate-gene CpG methylation biomarker approach. Groups ME/CFS and fibromyalgia together — it cannot discriminate the two, in contrast to the EpiSwitch claim of high ME/CFS specificity (which remains untested against FM).
+    *Limitations:*: n=28; targeted pyrosequencing (not genome-wide); ME/CFS and FM pooled.
+    *Certainty:*: 0.45
+
+=== Perera et al.\ 2026 --- HERVs in ME/CFS (Review)
+
+    @Perera2026HERVreview
+
+    *Full Citation:*: Perera KD, Oltra E, Carding SR. Human Endogenous Retroviruses in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: Emerging Roles in Pathogenesis, Immunity, Biomarkers and Therapeutics. _International Journal of Molecular Sciences_. 2026;27(10):4309.
+    *DOI:*: #link("https://doi.org/10.3390/ijms27104309")[10.3390/ijms27104309]
+    *PMID:*: 42196290
+    *Study Design:*: Narrative review (Quadram Institute/UEA — note UEA is Hunter 2025 host institution — + Valencia).
+    *Key Findings:*:
+        - Reactivated HERVs may amplify immune activation via innate sensing, LTR-driven transcription, and epigenetic-silencing disruption.
+        - Locus-specific HERV profiling proposed for diagnosis and stratification distinguishing ME/CFS from overlapping conditions.
+    *Conclusion:*: Frames HERV signatures as a competing (non-3D-genomic) blood epigenetic biomarker for ME/CFS diagnosis and stratification. Reinforces that multiple epigenetic biomarker modalities are converging on immune-pathway dysregulation in ME/CFS.
+    *Limitations:*: Review; no new primary data.
+    *Certainty:*: 0.50
+
+=== Ben Amar et al.\ 2026 --- Epigenetic Signatures in Chronic Pain (Review)
+
+    @BenAmar2026epigeneticpain
+
+    *Full Citation:*: Ben Amar J, Michiels J, Hendrix J, et al. Clinical applications of epigenetic signatures in chronic pain management and health outcome prediction. _Epigenomics_. 2026:1--17.
+    *DOI:*: #link("https://doi.org/10.1080/17501911.2026.2700012")[10.1080/17501911.2026.2700012]
+    *PMID:*: 42483881
+    *Study Design:*: Narrative review (Pain in Motion group).
+    *Key Findings:*:
+        - Integrates DNA methylation + lncRNA + epigenetic-clock findings across chronic pain conditions (fibromyalgia, ME/CFS, migraine, RA, OA, neuropathic pain).
+        - Frames DNA methylation and lncRNA as the primary epigenetic biomarker modalities; does not discuss 3D chromosome-conformation signatures.
+    *Conclusion:*: Shows EpiSwitch-type 3D-genomic biomarkers are not yet on the mainstream chronic-pain/ME/CFS epigenetic biomarker map — a positioning/replication gap for the EpiSwitch approach.
+    *Limitations:*: Review; 3D-genomic literature simply omitted.
+    *Certainty:*: 0.55
+
 === Peppercorn et al.\ 2025 --- DNA Methylation Landscapes in ME/CFS vs Long COVID PBMCs
 
     @Peppercorn2025methylation
@@ -14373,23 +14593,6 @@ deficiency, supporting a pharmacological rather than replacement rationale.
     *Conclusion:*: Demonstrates that the Moreau group's miRNA biomarker approach yields disease-specific signatures with diagnostic discriminatory power. Directly precedes Chalder 2026 and represents the miRNA pillar of the dual epigenetic strategy (miRNA expression + DNA methylation).
     *Limitations:*: No independent external validation cohort reported; sample size not fully detailed.
     *Certainty:*: 0.52
-
-=== Pshezhetskiy et al.\ 2025 --- EpiSwitch 3D Genomic Diagnostic Test for ME/CFS
-
-    @Pshezhetskiy2025episwitch
-
-    *Full Citation:*: Pshezhetskiy D et al. "Development and validation of blood-based diagnostic biomarkers for Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) using EpiSwitch 3-dimensional genomic regulatory immuno-genetic profiling." _Journal of Translational Medicine_. 2025;23(1):1048.
-    *DOI:*: #link("https://doi.org/10.1186/s12967-025-07203-w")[10.1186/s12967-025-07203-w]
-    *PMID:*: 41057909
-    *Study Design:*: Blood-based epigenetic profiling (3D DNA folding/chromatin conformation); n=47 severe (housebound) ME/CFS + 61 age-matched healthy controls; UEA/Oxford Biodynamics.
-    *Key Findings:*:
-        - 200 genomic biomarkers identified; 92% sensitivity, 98% specificity, 96% overall accuracy
-        - Top immune pathways: IL-2 hub, innate immune activation, JAK-STAT signaling
-        - Overlapping pathways found in multiple sclerosis and rheumatoid arthritis
-        - IL-2 may cross blood-brain barrier and contribute to neuroinflammation
-    *Conclusion:*: Independent epigenetic approach (chromatin conformation, not CpG methylation) converging on the conclusion that epigenetic dysregulation is central to ME/CFS. Supports patient stratification potential. Provides convergent validation for the Chalder 2026 epigenetic axis from a distinct technological angle.
-    *Limitations:*: Severe/housebound patients only (not generalisable to mild/moderate); commercial proprietary technology; no independent external replication cohort reported; full author list not in available excerpt.
-    *Certainty:*: 0.50
 
 === Mignolet et al.\ 2026 --- Pathogenic IgG from Long COVID Triggers Pain but Not Cognitive Impairment in Mice
 
@@ -26508,19 +26711,6 @@ sec-bib-rf-elevated-mecfs-duplicate
     *Limitations:*: Whole plasma (not EV-focused); moderate n.
     *Certainty:*: 0.55
 
-=== Hunter et al.\ 2025 — Blood-Based Diagnostic Biomarkers Using EpiSwitch
-
-    *Full Citation:*: Hunter E, Alshaker H, Bundock O, Weston C, Bautista S, Gebregzabhar A, et al. Development and validation of blood-based diagnostic biomarkers for Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) using EpiSwitch. _Journal of Translational Medicine_. 2025;23(1):486. @hunter2025biomarker
-    *DOI:*: #link("https://doi.org/10.1186/s12967-025-07203-w")[10.1186/s12967-025-07203-w]
-    *Study Design:*: Blood-based biomarker development with training/validation
-    *Sample Size:*: n=210 training, n=88 validation
-    *Key Findings:*:
-        - EpiSwitch 3D genomic biomarker panel discriminates ME/CFS
-        - Chromatin architecture differences in blood
-        - Not EV-specific but relevant as blood-based diagnostic comparator
-    *Limitations:*: Novel platform, limited independent replication.
-    *Certainty:*: 0.55
-
 === Wang et al.\ 2025 — Exosomal LncRNAs in CFS (Review)
 
     *Full Citation:*: Wang L, Xu Y, Zhong X, Wang G, Shi Z, Mei C. The emerging role of exosomal LncRNAs in chronic fatigue syndrome: from intercellular communication to disease biomarkers. _Frontiers in Molecular Biosciences_. 2025;12:1653627. @wang2025exosomelncrna
@@ -33707,6 +33897,25 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
         - *Replication:*: Consistent with prior muscle biopsy findings; Wüst lab replication series ongoing
         - *Score:*: 0.68
 
+=== Appelman et al.\ 2025 — Reply: Muscle Abnormalities in Long COVID
+    / *Full Citation:*: Appelman B, Charlton BT, Goulding RP, Kerkhoff TJ, Breedveld EA, Noort W, Offringa C, Bloemers FW, van Weeghel M, Schomakers BV, Coelho P, Posthuma JJ, Aronica E, Wiersinga WJ, van Vugt M, Wüst RCI. Reply: Muscle abnormalities in long COVID. _Nature Communications_. 2025;16:1491. @Appelman2025ReplyMuscle
+    / *DOI:*: #link("https://doi.org/10.1038/s41467-025-56431-7")[10.1038/s41467-025-56431-7]
+    / *Type:*: Matters Arising reply (to Ranque et al.\ 2025, DOI 10.1038/s41467-025-56430-8). Same Wüst-lab Amsterdam cohort as @Appelman2024MusclePEM and @Charlton2026MuscleBedrest.
+    / *Key Findings:*:
+        - Matched step-count analysis (5181 vs 4727 steps/day, patients vs controls) still shows −24% VO#sub[2]max (p=0.004) and −31% peak power (p=0.043) — physical activity level does not explain the exercise deficit
+        - Long COVID PEM patients show reduced gas exchange threshold and respiratory compensation point, both effort-independent — indicates genuine reduction in aerobic function, not effort limitation
+        - Intrinsic mitochondrial respiration reduced in Long COVID vs controls (qualitative alteration in mitochondrial function, not loss of mitochondrial content as in bed rest)
+        - No differences in capillarization or fibre cross-sectional area between Long COVID and controls, unlike bed-rest deconditioning
+        - GET/graded-exercise meta-analyses (Larun 2017, REGAIN 2024, Espinoza-Bravo 2023, Jimeno-Almazán 2022) include up to ~30% participants with comorbidities that would benefit from exercise
+        - Walitt et al.\ (2024) deep phenotyping supports physiological (autonomic dysfunction, CSF catecholamines, lower post-exercise cortisol) rather than psychological explanations of PEM, and peak measures did not correlate with effort preference
+    / *Conclusion:*: Skeletal muscle alterations in Long COVID PEM are not explained by deconditioning; the phenotype differs fundamentally from bed-rest deconditioning, and submaximal effort-independent thresholds confirm a genuine aerobic deficit. Authors advocate caution regarding intense exercise while PEM thresholds remain ill-defined.
+    / *Limitations:*: Commentary/reply (not primary data); no full age/sex/activity-matched control group (acknowledged by authors); limited to Long COVID PEM patients (~90% of Long COVID); GET/Larun critique based on trial-design confounds rather than new data.
+    / *Certainty Assessment:*:
+        - *Quality:*: Medium-High (primary data re-analysis + argument; reply to commentary)
+        - *Sample:*: Re-analysis of n=46 (25 LC + 21 HC) + matched step-count subset
+        - *Replication:*: Reinforces @Appelman2024MusclePEM + @Charlton2026MuscleBedrest (same cohort)
+        - *Score:*: 0.68
+
 === Fluge et al.\ 2016 — Impaired Pyruvate Dehydrogenase in ME/CFS
     / *Full Citation:*: Fluge Ø, Mella O, Bruland O, Risa K, Dyrstad SE, Alme K, Rekeland IG, Sapkota D, Røsland GV, Fosså A, et al. Metabolic profiling indicates impaired pyruvate dehydrogenase function in myalgic encephalopathy/chronic fatigue syndrome. _JCI Insight_. 2016;1(21):e89376. @Fluge2016PDH
     / *DOI:*: #link("https://doi.org/10.1172/jci.insight.89376")[10.1172/jci.insight.89376]
@@ -34804,3 +35013,122 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
 *Conclusion:*: Elevated ED utilization in ME/CFS confirms the ED is a real contact point where safety-netting knowledge matters.
 *Limitations:*: Benefit-recipient subset only (not all ME/CFS), NZ-specific, cross-sectional, diagnostic-coding dependent.
 *Certainty Assessment:*: 0.60 raw × 1.00 ME/CFS weight = discounted 0.60
+
+=== Klein et al.\ 2023 — Distinguishing Features of Long COVID Identified Through Immune Profiling
+
+@Klein2023longcovidprofiling
+
+*Full Citation:*: Klein J, Wood J, Jaycox JR, Dhodapkar RM, Lu P, Gehlhausen JR, Tabachnikova A, et al. Distinguishing features of long COVID identified through immune profiling. _Nature_. 2023;623(7985):139-148.
+*DOI:*: #link("https://doi.org/10.1038/s41586-023-06651-y")[10.1038/s41586-023-06651-y]
+*PMID:*: 37748514
+*Key Findings:*:
+    - Cross-sectional n=275 (long COVID vs matched controls) with multidimensional immune phenotyping + machine learning (Yale / Mount Sinai).
+    - Reduced naive CD4+ and CD8+ T cells, exhausted T cells (PD-1, TIM-3), exhausted B cells, elevated nonclassical monocytes.
+    - Exaggerated humoral responses against SARS-CoV-2 and against other viruses (esp. EBV, VZV); lower morning cortisol.
+*Conclusion:*: Long COVID carries a distinctive immune signature — T-cell exhaustion, antibody over-reactivity (incl. EBV/VZV), and hypocortisolism — that machine learning can separate from controls, providing candidate biomarkers and linking long COVID to ME/CFS-like immune pathology.
+*Limitations:*: Cross-sectional (no causality/direction), long-COVID defined by self-report, heterogeneous symptom set.
+*Certainty Assessment:*: 0.85 raw × 0.85 long-COVID weight = discounted 0.72
+
+=== Phetsouphanh et al.\ 2024 — Improvement of Immune Dysregulation in Long COVID at 24 Months
+
+@Phetsouphanh2024longcovid24mo
+
+*Full Citation:*: Phetsouphanh C, Jacka B, Ballouz S, Jackson KJL, Wilson DB, Manandhar B, Klemm V, et al. Improvement of immune dysregulation in individuals with long COVID at 24-months following SARS-CoV-2 infection. _Nature Communications_. 2024;15(1):3315.
+*DOI:*: #link("https://doi.org/10.1038/s41467-024-47720-8")[10.1038/s41467-024-47720-8]
+*PMID:*: 38632311
+*Key Findings:*:
+    - Longitudinal 24-month follow-up of the Australian ADAPT cohort (Kirby Institute).
+    - Early long-COVID features (elevated nucleocapsid IgG, higher neutralizing capacity, PD-1/TIM-3 on CD4+/CD8+ T cells at 3–8 months) resolved by 24 months.
+    - scRNA-seq at 24 mo: similar immune proportions, reconstituted naive T/B subsets, no difference in exhaustion scores; 62% reported quality-of-life improvement.
+*Conclusion:*: Long-COVID immune activation (T-cell exhaustion, antibody elevation) is time-limited and partly reversible — a key contrast with ME/CFS, where these features persist, and a caution against treating transient long-COVID immune changes as stable ME/CFS biomarkers.
+*Limitations:*: Mild-to-moderate long-COVID cohort only (may not generalize to severe/ME/CFS-phenotype long COVID); single site.
+*Certainty Assessment:*: 0.70 raw × 0.85 long-COVID weight = discounted 0.60
+
+=== Petrov et al.\ 2025 — Comparable Immune Alterations and Inflammatory Signatures in ME/CFS and Long COVID
+
+@Petrov2026comparable
+
+*Full Citation:*: Petrov S, Bozhkova M, Ivanovska M, Kalfova T, Dudova D, Nikolova R, Vaseva K, Todorova Y, Aleksova M, Nikolova M, Taskov H, Murdjeva M, Maes M. Comparable Immune Alterations and Inflammatory Signatures in ME/CFS and Long COVID. _Biomedicines_. 2025;13(12):3001.
+*DOI:*: #link("https://doi.org/10.3390/biomedicines13123001")[10.3390/biomedicines13123001]
+*PMID:*: 41463013
+*Key Findings:*:
+    - Cross-sectional n=190 (65 CFS, 54 long COVID, 70 controls; Plovdiv, Bulgaria).
+    - Both conditions vs controls: lower lymphocytes, CD8+ T cells, NK cells; higher IL-6, TNF, IL-4, IL-10.
+    - No significant biomarker differences between ME/CFS and long COVID groups.
+*Conclusion:*: ME/CFS and long COVID display comparable immune/inflammatory profiles — direct evidence for immune convergence between the two conditions.
+*Limitations:*: Single center, cross-sectional, Fukuda CFS criteria (broad), cytokine panel limited.
+*Certainty Assessment:*: 0.60 raw × 1.00 ME/CFS weight = discounted 0.60
+
+=== Ivanovska et al.\ 2025 — Differential Characteristics and Comparison Between Long-COVID and ME/CFS
+
+@Ivanovska2025comparison
+
+*Full Citation:*: Ivanovska M, Homadi MS, Angelova G, Taskov H, Murdjeva M. Differential Characteristics and Comparison Between Long-COVID Syndrome and Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS). _Biomedicines_. 2025;13(11):2797.
+*DOI:*: #link("https://doi.org/10.3390/biomedicines13112797")[10.3390/biomedicines13112797]
+*PMID:*: 41301889
+*Key Findings:*:
+    - Narrative review comparing clinical presentation, pathophysiology, and treatment of long COVID vs ME/CFS.
+    - Both involve viral persistence, immune dysregulation, endothelial dysfunction, autoimmunity — relative contributions uncertain.
+    - Immune dysfunction flagged as the shared pathogenic mechanism requiring further study.
+*Conclusion:*: Establishes immune dysfunction as the common mechanistic thread between long COVID and ME/CFS, with overlapping-but-distinct features and uncertain relative contributions.
+*Limitations:*: Narrative review (non-systematic); repeating contested treatment claims (CBT/GET) without full critical appraisal.
+*Certainty Assessment:*: 0.45 raw × 1.00 ME/CFS weight = discounted 0.45
+
+=== Hoeggerl et al.\ 2023 — EBV Reactivation Is Not Causative for Post-COVID-19 Syndrome (NULL)
+
+@Hoeggerl2023EBVnotcausative
+
+*Full Citation:*: Hoeggerl AD, Nunhofer V, Lauth W, Badstuber N, Held N, Zimmermann G, Grabmer C, et al. Epstein-Barr virus reactivation is not causative for post-COVID-19-syndrome in individuals with asymptomatic or mild SARS-CoV-2 disease course. _BMC Infectious Diseases_. 2023;23(1):800.
+*DOI:*: #link("https://doi.org/10.1186/s12879-023-08820-w")[10.1186/s12879-023-08820-w]
+*PMID:*: 37968601
+*Key Findings:*:
+    - Prospective cohort of SARS-CoV-2 seropositive blood donors with asymptomatic/mild COVID (Salzburg, Austria).
+    - Determined post-COVID syndrome (PCS) rate; tested whether EBV reactivates in PCS (neopterin + EBV markers).
+    - EBV reactivation was NOT causative for PCS in this mild-disease population.
+*Conclusion:*: Challenges the EBV-reactivation hypothesis of long COVID in mild cases — reactivation may be a marker of severity/dysregulation rather than a cause, tempering claims of causal EBV reactivation in post-viral syndromes.
+*Limitations:*: Mild-disease blood-donor population only (may miss severe long COVID where reactivation is more prominent); single site.
+*Certainty Assessment:*: 0.55 raw × 0.85 long-COVID weight = discounted 0.47
+
+=== Lorenz et al.\ 2026 — Enhanced Antibody Reactivity to Specific EBV EBNA1 Epitopes in Post-COVID-19 Syndrome
+
+@Lorenz2026EBNA1epitopes
+
+*Full Citation:*: Lorenz P, Steinbeck F, Fricke F, Mai F, Bergmann-Ewert W, Wossidlo C, Reisinger EC, Müller-Hilke B. Patients Suffering From Post-COVID-19 Syndrome Feature Enhanced Antibody Reactivity Towards Specific Linear Epitopes Within EBV EBNA1. _Scandinavian Journal of Immunology_. 2026;103(1):e70088.
+*DOI:*: #link("https://doi.org/10.1111/sji.70088")[10.1111/sji.70088]
+*PMID:*: 41518079
+*Key Findings:*:
+    - Retrospective cross-sectional n=96 (48 post-COVID syndrome vs 48 recovered convalescents; Rostock, Germany).
+    - Overall EBV EBNA1 IgG binding similar between groups, but PCS showed stronger reactivity to specific epitopes (glycine-alanine repeat residues 90–325; central 405–419, distinct from the MS-associated epitope).
+    - No increase in autoantibodies (HEp-2 ANA, CRYAB, cardiolipin, beta-2-GPI, IFN-alpha2, IFN-omega, IL-15).
+*Conclusion:*: Refines the EBV-reactivation signal in long COVID to epitope-specific enhanced reactivity rather than general reactivation or autoimmunity — relevant to the EBV autoantibody picture in ME/CFS.
+*Limitations:*: Small sample (n=96), retrospective cross-sectional, peptide-microarray explorative design.
+*Certainty Assessment:*: 0.50 raw × 0.85 long-COVID weight = discounted 0.43
+
+=== Fleischer et al.\ 2024 — Cytokines and Cortisol May Not Be Reliable PASC Biomarkers (NULL)
+
+@Fleischer2024cortisolnull
+
+*Full Citation:*: Fleischer M, Szepanowski F, Mausberg AK, Asan L, Uslar E, Zwanziger D, Volbracht L, Stettner M, Kleinschnitz C. Cytokines (IL-1β, IL-6, TNF-α) and serum cortisol levels may not constitute reliable biomarkers to identify individuals with post-acute sequelae of COVID-19. _Therapeutic Advances in Neurological Disorders_. 2024;17:17562864241229567.
+*DOI:*: #link("https://doi.org/10.1177/17562864241229567")[10.1177/17562864241229567]
+*PMID:*: 38348267
+*Key Findings:*:
+    - Prospective cohort n=178 (91 ongoing PASC, 40 resolved PASC, 34 infected no PASC, 13 never infected; Essen, Germany).
+    - Serum IL-1β, IL-6, TNF-α and cortisol did NOT differ between groups.
+*Conclusion:*: Peripheral cytokines/cortisol are unreliable PASC biomarkers — contrasts with Klein 2023 (lower cortisol via multiplex/hormone profiling), flagging that single-timepoint peripheral cytokine/cortisol measures are inconsistent across long-COVID studies (a caution for ME/CFS biomarker claims too).
+*Limitations:*: Single timepoint peripheral blood; standard ELISA sensitivity; the study's own conclusion of "non-organic genesis" is not warranted by a null biomarker result (interpretive caution noted).
+*Certainty Assessment:*: 0.55 raw × 0.85 long-COVID weight = discounted 0.47
+
+=== Kaplan 2026 — Therapeutic Plasma Exchange and Immunomodulatory Strategies in Post-Infectious Syndromes
+
+@Kaplan2026plasmapheresis
+
+*Full Citation:*: Kaplan G. Therapeutic plasma exchange and immunomodulatory strategies in post-infectious syndromes: A review of immune dysregulation in PTLDS, long COVID, ME/CFS, and PANS/PANDAS. _Transfusion and Apheresis Science_. 2026;65(4):104482.
+*DOI:*: #link("https://doi.org/10.1016/j.transci.2026.104482")[10.1016/j.transci.2026.104482]
+*PMID:*: 42391726
+*Key Findings:*:
+    - Narrative review of immune dysregulation across PTLDS, long COVID, ME/CFS, PANS/PANDAS.
+    - Evaluates immunomodulatory therapy (IVIG, rituximab, therapeutic plasma exchange).
+    - Evidence for immune-targeted treatment strongest in biomarker-defined subsets; phase III RituxME (ME/CFS) and phase II TPE (post-COVID) failed in unselected populations.
+*Conclusion:*: Immunotherapy for post-infectious syndromes (incl. ME/CFS) requires immune-subset stratification; blanket checkpoint/plasma-exchange approaches lack support in unselected populations — a caution against borrowing oncology immunotherapy without selection biomarkers.
+*Limitations:*: Narrative review (non-systematic); single author with integrative-medicine affiliation.
+*Certainty Assessment:*: 0.50 raw × 0.85 mixed post-infectious weight = discounted 0.43
