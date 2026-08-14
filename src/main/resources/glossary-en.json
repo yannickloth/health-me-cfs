@@ -11284,5 +11284,50 @@
     "label": "TNF",
     "category": "protein",
     "definition": "Tumour Necrosis Factor: a pro-inflammatory cytokine involved in systemic inflammation and immune signalling."
+  },
+  "Virtual hypoxia": {
+    "label": "virtual hypoxia",
+    "category": "pathway",
+    "definition": "A tissue state in which cells behave as if starved of oxygen despite normal blood oxygen levels, caused by impaired energy production (mitochondrial dysfunction) combined with increased energy demand rather than by a true oxygen shortage. Proposed as a mechanism in chronic demyelination (multiple sclerosis) and investigated in ME/CFS, where elevated resting brain lactate suggests the brain may be operating under chronic metabolic limitation."
+  },
+  "Arterial spin labelling": {
+    "label": "arterial spin labelling (ASL)",
+    "category": "imaging",
+    "definition": "A non-invasive MRI technique that measures cerebral blood flow by magnetically tagging arterial blood and detecting its arrival in brain tissue, without contrast dye. Used in ME/CFS research to quantify regional brain perfusion and its response to challenges such as hypoxia."
+  },
+  "Lactate-to-creatine ratio": {
+    "label": "lactate-to-creatine ratio (Lac/tCr)",
+    "category": "biomarker",
+    "definition": "A ratio derived from proton magnetic resonance spectroscopy that indexes brain lactate levels against creatine as an internal reference. An elevated resting Lac/tCr in the thalamus is reported in ME/CFS and is interpreted as evidence of a glycolytic shift or bioenergetic inefficiency."
+  },
+  "TIA": {
+    "label": "TIA",
+    "category": "condition",
+    "definition": "Transient Ischaemic Attack: a brief episode of neurological dysfunction caused by a temporary blockage of blood flow to the brain, without permanent damage. A TIA is a medical emergency because it signals high risk of a subsequent stroke and warrants urgent assessment.",
+    "also": "mini-stroke; if symptoms are new focal weakness, speech difficulty, or visual loss, treat as stroke/TIA until proven otherwise"
+  },
+  "Refeeding syndrome": {
+    "label": "Refeeding syndrome",
+    "category": "condition",
+    "definition": "A potentially fatal metabolic disturbance when a malnourished or starved person is re-fed too aggressively, marked by a drop in phosphorus, potassium, magnesium, and thiamine, with risk of respiratory or circulatory failure and seizures.",
+    "also": "refeeding risk; prevented by low-carbohydrate feeding with electrolyte monitoring"
+  },
+  "Syncope": {
+    "label": "Syncope",
+    "category": "condition",
+    "definition": "Fainting or a temporary loss of consciousness due to reduced blood flow to the brain. In ME/CFS most faints are orthostatic or neurally-mediated (benign), but syncope with cardiac features, injury, or an abnormal pulse warrants urgent assessment.",
+    "also": "faint; vasovagal; neurally-mediated syncope (NMH); cardiac syncope"
+  },
+  "Pressure ulcer": {
+    "label": "Pressure ulcer",
+    "category": "condition",
+    "definition": "A localised injury to skin and underlying tissue caused by prolonged pressure, typically over bony areas in immobile or bedbound patients; can become infected and progress to sepsis.",
+    "also": "bed sore; pressure injury; pressure sore"
+  },
+  "Aspiration": {
+    "label": "Aspiration",
+    "category": "condition",
+    "definition": "Breathing foreign material (food, fluid, or saliva) into the lungs, which can cause pneumonia; in bedbound or severely deconditioned patients it may be silent and present as confusion or low-grade fever rather than choking.",
+    "also": "aspiration pneumonia"
   }
 }

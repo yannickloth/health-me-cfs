@@ -82,6 +82,21 @@ The nosological comparison presupposes stable case definitions, which neither co
 *Consequence:* The Long COVID/ME/CFS boundary will shift as both conditions acquire more precise diagnostic criteria — what looks like a clear split today may dissolve with better phenotyping.
 ]
 
+#speculation(title: [Shared "Virtual Hypoxia" Mechanism in Long COVID and ME/CFS — Different Trajectory])[
+*(Certainty: 0.40. Raw 0.40, population 1.00, discounted 0.40.)* The Vienna authors situate the virtual-hypoxia finding (elevated brain lactate, reduced metabolic flexibility) within the post-COVID and ME/CFS overlap literature @Bader2026Hypoxia. The Vienna study measured ME/CFS and controls only; it did not enrol a long-COVID cohort, so any shared mechanism is extrapolated, not directly observed.
+The hypothesis: ME/CFS and Long COVID *may* share a virtual-hypoxia / brain-lactate mechanism but differ in trajectory — Long COVID might show a reversible phase of bioenergetic stress that can recover, while established ME/CFS shows a fixed set-point. This reversible-versus-fixed dichotomy is a speculation, not a demonstrated difference.
+If correct, this predicts a temporal window of maximal efficacy for energy-metabolism interventions (e.g., oxygen or fuel-supply approaches) early in Long COVID, before the set-point locks in.
+
+*(Origin: brainstorm.)*
+*Replication status:* Not independently replicated in either condition.
+*Severity applicability: Unknown — cohort not stratified by severity.*
+*Limitations:* Trajectory difference is an inference from cross-sectional data; no longitudinal evidence yet shows Long COVID brain lactate normalizing with recovery while ME/CFS does not.
+
+*Falsifiable prediction:* Brain lactate or metabolic-reactivity abnormalities will normalize with recovery in early Long COVID but remain fixed in established ME/CFS, and the rate of metabolic normalization will predict clinical recovery — refuted if the bioenergetic marker is equally fixed in both.
+
+*Consequence:* If the brain-energy defect is more reversible early in Long COVID, this argues for treating energy-metabolism deficits as early as possible after a viral illness, before the problem becomes entrenched as in long-standing ME/CFS.
+] <spec:long-covid-virtual-hypoxia-trajectory>
+
 === Post-Treatment Lyme Disease Syndrome
 
 PTLDS offers a different window: a condition defined by a specific pathogen (Borrelia burgdorferi) with a well-characterized initial infection (erythema migrans, seroconversion), yet whose chronic phase is pathogenetically opaque and diagnostically contested.
@@ -144,6 +159,21 @@ The nosological implication: if dozens of different pathogens can trigger the sa
 
 *Consequence:* The breadth of post-infectious triggers supports a lumping framework where "post-infectious ME/CFS" is a single entity with a common downstream mechanism, regardless of which pathogen initiated it.
 This does not mean every case of ME/CFS is post-infectious — trauma, surgery, and gradual onset without identifiable trigger remain — but the post-infectious subset provides the strongest nosological anchor.
+
+#speculation(title: [Multiple Sclerosis "Virtual Hypoxia" as a Mechanistic Template — Not an Identity])[
+*(Certainty: 0.45.)* (The virtual-hypoxia mechanism is well-established in MS — Trapp & Stys raw 0.70, Mahad raw 0.70. As a general-population mechanism, each is reduced by a 0.75 generalizability weight (0.70 → 0.52) because it was established in MS, not in ME/CFS; its *application to ME/CFS* then rests on the single Vienna preprint, so the integrated ME/CFS-applied certainty is held at 0.45.) The "virtual hypoxia" concept was developed in multiple sclerosis (MS): chronically demyelinated axons fail despite normal arterial oxygen, because mitochondrial ATP production is impaired while energy demand is increased @Trapp2009VirtualHypoxia @Mahad2015PathologicalMS.
+The Vienna experimental-hypoxia probe extends this concept to ME/CFS, reporting elevated resting brain lactate and blunted metabolic reactivity despite normal arterial oxygenation @Bader2026Hypoxia.
+This is a mechanistic *bridge*, not an identity: ME/CFS lacks the demyelination central to MS, and the shared element is confined to "virtual hypoxia" — bioenergetic inefficiency despite normal oxygen delivery.
+
+*(Origin: brainstorm.)*
+*Replication status:* Not independently replicated in ME/CFS; the Vienna finding is a single-site preprint.
+*Severity applicability: Unknown — cohort not stratified by severity.*
+*Limitations:* The MS template transfers only the bioenergetic-diagnostics logic, not MS-specific interventions (disease-modifying therapies, immunosuppression). No direct demonstration that ME/CFS neurons fail under normal oxygen as MS axons do.
+
+*Falsifiable prediction:* MS-like bioenergetic imaging signatures (e.g., mitochondrial or high-energy phosphate kinetics) will be abnormal in an ME/CFS virtual-hypoxia subgroup in the same direction as in MS, while white-matter integrity (NAA) remains normal — refuted if ME/CFS shows no such signature despite elevated lactate.
+
+*Consequence:* If the "starved-despite-normal-oxygen" idea applies to ME/CFS, ME/CFS research can reuse bioenergetic imaging tools and diagnostic logic developed for MS instead of starting from scratch.
+] <spec:ms-virtual-hypoxia-bridge>
 
 === Narcolepsy Type 2: The Orexin Axis
 

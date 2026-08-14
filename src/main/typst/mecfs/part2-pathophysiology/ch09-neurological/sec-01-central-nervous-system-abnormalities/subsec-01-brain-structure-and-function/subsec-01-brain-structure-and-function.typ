@@ -29,3 +29,19 @@ NII analysis is a research technique performed with specialised post-processing 
 *Limitations:* Cross-sectional design precludes causal inference; single-center study; NII model requires validation in independent ME/CFS cohorts; the neuroinflammation interpretation, while plausible, is inferential rather than directly confirmed by histopathology; hypoperfusion (already well-documented in ME/CFS) is an equally parsimonious explanation for the observed NII parameters.
 ] <ach:nii-neuroinflammation>
 
+
+#open-question(title: [Brainstem Volume Direction Contradicts Across Cohorts])[
+*Certainty: N/A — the direction of any brainstem volume difference is unresolved.* A proof-of-concept multimodal MRI study (Vienna, n=26 ME/CFS / 27 controls) reported *reduced* brainstem volume including the pons in patients: $beta$=-0.10% eTIV (95% CI -0.18 to -0.02, $p$=0.013, FDR-$p$=0.039) @Bader2026Hypoxia. Deep grey matter and whole-brain parenchymal fraction did not differ (FDR 0.98), indicating a brainstem-specific, not global, atrophic signal. By contrast, an independent 7T MRI study from the Griffith University lab reported *larger* brainstem volumes in ME/CFS and long COVID (pons $p$=0.003, superior cerebellar peduncle $p$=0.009, whole brainstem $p$=0.005) @Thapaliya2023Brainstem. These two findings point in opposite directions.
+
+The contradiction is not resolved by study quality alone: both use structural MRI in ME/CFS cohorts. Per the integration decision for this topic, the direction is presented as an open question rather than weighted toward either study. The cohort-overlap caveat matters: Thapaliya2023, Barnden2018, and Thapaliya2022 originate from the same Griffith laboratory cluster, so they are not independent replications of each other @Thapaliya2023Brainstem @Barnden2018T1Brainstem @Thapaliya2022brain. Accounting for this, the net independent clusters number two (Vienna reduced vs. Griffith larger) with opposite directions.
+
+*Replication status:* Each direction rests on a single independent research group; not reconciled across independent labs.
+
+*Severity applicability:* Unknown — neither cohort stratified brainstem volume by disease severity; any relationship between brainstem volume direction and symptom burden is untested.
+
+*Limitations:* Proof-of-concept and modest sample in the Vienna study; possible methodological differences (field strength 3T vs 7T, segmentation pipelines, cohort composition); no study yet measures brainstem volume and function (e.g., connectivity, metabolite levels) in the same patients to reconcile direction with symptom burden.
+
+*Falsifiable prediction:* A multi-site study using harmonised segmentation across an adequate sample will determine whether brainstem volume is reduced, increased, or unchanged in ME/CFS, and whether any direction correlates with severity, disease duration, or brainstem-specific symptoms (autonomic dysfunction, dyspnoea, sleep disturbance). The open question is resolved once independent labs using comparable methods obtain a consistent direction.
+
+*Consequence:* The two groups' opposite results mean we cannot yet trust any single claim about brainstem size in ME/CFS — knowing the true direction matters because a consistent structural brainstem finding would point to a specific site of pathology and help reconcile the many brainstem-related symptoms patients report.
+] <oq:brainstem-volume-direction>

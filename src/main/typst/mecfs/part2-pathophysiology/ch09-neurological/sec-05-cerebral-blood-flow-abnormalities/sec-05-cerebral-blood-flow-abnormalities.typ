@@ -18,5 +18,7 @@ Figures @fig:cerebral-hypoperfusion-normal and @fig:cerebral-hypoperfusion-mec
 
 #include "subsec-05-exacerbation-with-exertion/subsec-05-exacerbation-with-exertion.typ"
 
+#include "subsec-05-reactivity-to-controlled-hypoxia/subsec-05-reactivity-to-controlled-hypoxia.typ"
+
 #include "subsec-05-the-brainstem-autonomic-loop-hypothesis/subsec-05-the-brainstem-autonomic-loop-hypothesis.typ"
 

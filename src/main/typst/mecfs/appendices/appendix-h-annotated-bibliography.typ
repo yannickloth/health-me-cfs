@@ -34425,3 +34425,382 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
         - Conclusion: future investigations into viral infection in ME/CFS should focus on adaptive immune responses rather than surveillance for viral gene products.
     / *Conclusion:*: Viral-gene-product surveillance does not identify an ongoing productive viral infection in ME/CFS; supports an immune-dysregulation (adaptive immune response) focus over a persistent-viral-replication model.
     / *Limitations:*: Abstract-level detail available to this integration; full sample-size and cohort-stratification details not retrieved; cross-sectional sampling.
+
+// =============================================================================
+// EXPERIMENTAL HYPOXIA — VIRTUAL HYPOXIA & BRAINSTEM VOLUME (added 2026-08-14)
+// stream = experimental-hypoxia-virtual-hypoxia-brainstem
+// =============================================================================
+
+== Experimental Hypoxia — Virtual Hypoxia & Brainstem Volume
+<sec:bib-experimental-hypoxia-virtual-hypoxia-brainstem>
+
+=== Bader et al.\ 2026 — Experimental Hypoxia to Probe Neuro-Metabolic and Vascular Dysregulation in ME/CFS
+
+    / *Full Citation:*: Bader V, Estermann K, Niess E, Zrzavy T, Fischmeister F, Haider T, Ludwig B, Barkhof F, Mutsaerts HJMM, Kasprian G, Niess F, Bogner W, Kollndorfer K, Haider L. Experimental hypoxia to probe neuro-metabolic and vascular dysregulation in ME/CFS: a multimodal proof-of-concept MRI study. _medRxiv_. 2026. @Bader2026Hypoxia
+    / *DOI:*: #link("https://doi.org/10.64898/2026.08.10.26359935")[10.64898/2026.08.10.26359935]
+    / *Study Design:*: Single-session multimodal 3T MRI (brain volumetry, arterial spin labeling, multivoxel proton MRS) under normoxia and two controlled hypoxic challenges (SpO#sub[2] ~87±3%).
+    / *Sample Size:*: 26 ME/CFS patients, 27 age-/sex-matched healthy controls.
+    / *Key Findings:*:
+        - Reduced brainstem volume in patients (1.46 vs 1.55% of eTIV; p=0.013, FDR-p=0.039); deep grey matter and whole-brain parenchymal fraction did not differ.
+        - Thalamic lactate-to-creatine (Lac/tCr) elevated at normoxia in patients (0.171 vs 0.135; FDR-p=0.021; ~27% higher).
+        - Thalamic Lac/tCr rose under hypoxia in controls only (FDR-p=0.028) and did not rise further in patients (FDR-p=0.38) — blunted metabolic reactivity.
+        - Whole-brain CBF rose under hypoxia in both groups (controls +4.8%, patients +3.7%), with greater initial inter-individual variability in patients (patient-to-control variance ratio up to 6.94; FDR-p=0.001), absent at the second challenge.
+        - Exploratory: exaggerated inverse coupling between thalamic total N-acetylaspartate (tNAA/tCr) and white-matter CBF in patients.
+    / *Conclusion:*: Provides in vivo evidence of impaired neuro-metabolic and vascular adaptive capacity in ME/CFS, supporting the virtual hypoxia hypothesis and proposing candidate imaging markers for stratification.
+    / *Limitations:*: Preprint (not peer reviewed); proof-of-concept single center; moderate sample size; cohort not stratified by severity; exploratory network analysis unadjusted.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (preprint; multimodal, well-designed, but un-peer-reviewed)
+        - *Sample:* Medium (n=53 total)
+        - *Replication:* Not yet replicated (first experimental-hypoxia MRI study in ME/CFS)
+        - *Score:* 0.40 (raw 0.40 × 1.00 ME/CFS weight)
+
+=== Thapaliya et al.\ 2023 — Brainstem Volume Changes in ME/CFS and Long COVID
+
+    / *Full Citation:*: Thapaliya K, Marshall-Gradisnik S, Barth M, Eaton-Fitch N, Barnden L. Brainstem volume changes in myalgic encephalomyelitis/chronic fatigue syndrome and long COVID patients. _Frontiers in Neuroscience_. 2023;17:1125208. @Thapaliya2023Brainstem
+    / *DOI:*: #link("https://doi.org/10.3389/fnins.2023.1125208")[10.3389/fnins.2023.1125208]
+    / *Study Design:*: 7T T1-weighted structural MRI volumetric comparison of brainstem regions.
+    / *Sample Size:*: 10 ME/CFS (CCC or ICC), 8 long COVID (WHO Delphi), 10 healthy controls.
+    / *Key Findings:*:
+        - SIGNIFICANTLY LARGER volumes in ME/CFS for pons (p=0.004) and whole brainstem (p=0.01).
+        - Larger volumes in long COVID for pons (p=0.003), superior cerebellar peduncle (p=0.009), and whole brainstem (p=0.005).
+        - No significant difference between ME/CFS and long COVID volumes.
+        - Pons and whole-brainstem volumes positively correlated with pain; midbrain negatively correlated with breathing difficulty.
+    / *Conclusion:*: Demonstrates abnormal (larger) brainstem volume in both ME/CFS and long COVID, consistent with overlapping symptoms — but in the OPPOSITE direction to the Bader 2026 reduced-brainstem finding.
+    / *Limitations:*: Very small sample (n=28); 7T high-field with different segmentation/normalization than Bader; direction inconsistency across cohorts unresolved; single center (Griffith).
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (Frontiers in Neuroscience; 7T but small n)
+        - *Sample:* Low (n=28)
+        - *Replication:* Partially (contrasts Bader 2026 reduced brainstem)
+        - *Score:* 0.55 (raw 0.55 × 1.00 ME/CFS weight)
+
+=== Barnden et al.\ 2018 — Hyperintense Sensorimotor T1 MRI Associated with Brainstem Abnormality in CFS
+
+    / *Full Citation:*: Barnden LR, Shan ZY, Staines DR, Marshall-Gradisnik S, Finegan K, Ireland T, Bhuta S. Hyperintense sensorimotor T1 spin echo MRI is associated with brainstem abnormality in chronic fatigue syndrome. _NeuroImage: Clinical_. 2018;20:102–109. @Barnden2018T1Brainstem
+    / *DOI:*: #link("https://doi.org/10.1016/j.nicl.2018.07.011")[10.1016/j.nicl.2018.07.011]
+    / *Key Findings:*:
+        - Decreased brainstem T1wSE signal (PFWE=0.002) and increased sensorimotor white-matter T1wSE signal in CFS.
+        - Brainstem and sensorimotor values negatively correlated in both CFS (R#super[2]=0.31) and controls (R#super[2]=0.34).
+        - Interpreted as brainstem conduction deficit stimulating sensorimotor myelin upregulation; VBM found no regional GM/WM volume group differences.
+    / *Conclusion:*: Supports brainstem structural/functional abnormality as a core CFS feature, consistent with reduced/atrophic brainstem rather than enlargement.
+    / *Limitations:*: Signal-based inference, not direct axonal measure; causality untested; no severity stratification.
+    / *Certainty Assessment:*: 0.55 (raw 0.55 × 1.00 ME/CFS weight)
+
+=== Zhang et al.\ 2020 — Brainstem Atrophy in Gulf War Illness
+
+    / *Full Citation:*: Zhang Y, Avery T, Vakhtin AA, Mathersul DC, Tranvinh E, Wintermark M, Massaband P, Ashford JW, Bayley PJ, Furst AJ. Brainstem atrophy in Gulf War Illness. _Neurotoxicology_. 2020;78:71–79. @Zhang2020GulfWarBrainstem
+    / *DOI:*: #link("https://doi.org/10.1016/j.neuro.2020.02.006")[10.1016/j.neuro.2020.02.006]
+    / *Key Findings:*:
+        - Significant subcortical atrophy in GWI with the LARGEST effect in the brainstem, then ventral diencephalon and thalamus (111 GWI vs 59 HC).
+        - Smaller brainstem volume correlated with greater fatigue and depressive symptoms.
+    / *Conclusion:*: Cross-disease model for a brainstem-volume–fatigue link in the SAME direction as the Bader 2026 reduced-brainstem finding.
+    / *Limitations:*: Gulf War Illness population, not ME/CFS; cross-sectional.
+    / *Certainty Assessment:*: 0.60 raw × 0.75 general/overlap population = discounted 0.45
+
+=== Trapp & Stys 2009 — Virtual Hypoxia and Chronic Necrosis of Demyelinated Axons
+
+    / *Full Citation:*: Trapp BD, Stys PK. Virtual hypoxia and chronic necrosis of demyelinated axons in multiple sclerosis. _Lancet Neurology_. 2009;8(3):280–291. @Trapp2009VirtualHypoxia
+    / *DOI:*: #link("https://doi.org/10.1016/S1474-4422(09)70043-2")[10.1016/S1474-4422(09)70043-2]
+    / *Key Findings:*:
+        - Defines "virtual hypoxia": increased energy demand of impulse conduction along demyelinated/excitable axons plus reduced axonal ATP production induces tissue hypoxia without actual hypoxemia.
+        - Downstream: mitochondrial dysfunction, Na+ influx, Ca2+ overload, AMPA receptor activation.
+    / *Conclusion:*: Foundational conceptual template the Bader 2026 study applies to ME/CFS (elevated resting brain lactate despite normal arterial O2 = intrinsic bioenergetic inefficiency).
+    / *Limitations:*: Multiple sclerosis / neurobiology model, not ME/CFS; general-population relevance only.
+    / *Certainty Assessment:*: 0.70 raw × 0.75 general population = discounted 0.52
+
+=== Mahad, Trapp & Lassmann 2015 — Pathological Mechanisms in Progressive MS
+
+    / *Full Citation:*: Mahad DH, Trapp BD, Lassmann H. Pathological mechanisms in progressive multiple sclerosis. _Lancet Neurology_. 2015;14(2):183–193. @Mahad2015PathologicalMS
+    / *DOI:*: #link("https://doi.org/10.1016/S1474-4422(14)70256-X")[10.1016/S1474-4422(14)70256-X]
+    / *Key Findings:*:
+        - Neurodegeneration driven by microglial activation, chronic oxidative injury, mitochondrial damage accumulation in axons, and iron accumulation.
+        - Mitochondrial compromise coupled with increased axonal energy demand is central (the virtual-hypoxia mechanism).
+    / *Conclusion:*: Provides the mechanistic bridge from virtual hypoxia to mitochondrial respiratory chain deficiency — the bioenergetic failure pattern the ME/CFS virtual-hypoxia hypothesis invokes.
+    / *Limitations:*: Multiple sclerosis population, not ME/CFS; general-population relevance only.
+    / *Certainty Assessment:*: 0.70 raw × 0.75 general population = discounted 0.52
+
+=== Biswal et al.\ 2011 — Reduced Cerebral Blood Flow in CFS by Arterial Spin Labeling
+
+    / *Full Citation:*: Biswal B, Kunwar P, Natelson BH. Cerebral blood flow is reduced in chronic fatigue syndrome as assessed by arterial spin labeling. _Journal of the Neurological Sciences_. 2011;301(1-2):9–11. @Biswal2011CBFASL
+    / *DOI:*: #link("https://doi.org/10.1016/j.jns.2010.11.018")[10.1016/j.jns.2010.11.018]
+    / *Key Findings:*:
+        - Significantly lower global absolute CBF in CFS patients (11 CFS vs 10 HC), reduced across nearly every region.
+        - Effect not homogeneous — 2 of 11 patients showed CBF increases.
+    / *Conclusion:*: Baseline CFS hypoperfusion precedent relevant to the Bader 2026 preserved-reactivity / high-variability CBF finding.
+    / *Limitations:*: Small sample; cross-sectional.
+    / *Certainty Assessment:*: 0.45 (raw 0.45 × 1.00 ME/CFS weight)
+
+=== Staud et al.\ 2018 — Task-Related CBF Changes in ME/CFS (ASL)
+
+    / *Full Citation:*: Staud R, Boissoneault J, Craggs JG, Lai S, Robinson ME. Task related cerebral blood flow changes of patients with chronic fatigue syndrome: an arterial spin labeling study. _Fatigue: Biomedicine, Health and Behavior_. 2018;6(2):63–79. @Staud2018TaskCBF
+    / *DOI:*: #link("https://doi.org/10.1080/21641846.2018.1453919")[10.1080/21641846.2018.1453919]
+    / *Key Findings:*:
+        - Global CBF similar at rest and during PASAT task in 17 ME/CFS vs 16 HC.
+        - Regional CBF changes differed between groups during post-task recovery — fatigue improvement with decreased rCBF (STG, precuneus, fusiform) in ME/CFS vs increased in HC.
+    / *Conclusion:*: Normal resting/global CBF but abnormal task-related CBF dynamics in ME/CFS — supports the Bader 2026 finding that CBF reactivity (not baseline) is dysregulated.
+    / *Limitations:*: Small sample; all-female.
+    / *Certainty Assessment:*: 0.50 (raw 0.50 × 1.00 ME/CFS weight)
+
+=== He et al.\ 2013 — Cerebral Vascular Control and Skeletal Muscle pH in CFS
+
+    / *Full Citation:*: He J, Hollingsworth KG, Newton JL, Blamire AM. Cerebral vascular control is associated with skeletal muscle pH in chronic fatigue syndrome patients both at rest and during dynamic stimulation. _NeuroImage: Clinical_. 2013;2:168–173. @He2013CerebralVascularControl
+    / *DOI:*: #link("https://doi.org/10.1016/j.nicl.2012.12.006")[10.1016/j.nicl.2012.12.006]
+    / *Key Findings:*:
+        - Resting CBF inversely correlated with skeletal muscle pH (r=-0.67, p\<0.01) in 17 Fukuda CFS patients.
+        - Prolonged cerebral vascular constriction during Valsalva associated with higher post-exercise muscle pH (r=0.69, p\<0.008).
+    / *Conclusion:*: Links cerebral vascular control (autoregulation) to systemic metabolic state — precedent for systemic-vascular-metabolic coupling relevant to virtual-hypoxia and cerebrovascular-reactivity findings.
+    / *Limitations:*: Small sample; cross-sectional.
+    / *Certainty Assessment:*: 0.50 (raw 0.50 × 1.00 ME/CFS weight)
+
+=== Hadanny et al.\ 2024 — Long-Term Outcomes of HBOT in Post-COVID Condition
+
+    / *Full Citation:*: Hadanny A, Zilberman-Itskovich S, Catalogna M, Elman-Shina K, Lang E, Finci S, Polak N, Shorer R, Parag Y, Efrati S. Long term outcomes of hyperbaric oxygen therapy in post covid condition: longitudinal follow-up of a randomized controlled trial. _Scientific Reports_. 2024;14(1):3604. @Hadanny2024HBOTLongCovid
+    / *DOI:*: #link("https://doi.org/10.1038/s41598-024-53091-3")[10.1038/s41598-024-53091-3]
+    / *Key Findings:*:
+        - Improvements in quality of life, sleep, psychiatric, and pain symptoms persisted ~1 year after 40 HBOT sessions in 31 post-COVID patients (sleep ES 0.47–0.79; pain severity ES 0.69; pain interference ES 0.83).
+        - Prior RCT reported cognitive, fatigue, sleep, and pain improvements.
+    / *Conclusion:*: HBOT as a downstream treatment candidate for the virtual-hypoxia / brain-metabolic phenotype, with durable long-term benefit in long COVID.
+    / *Limitations:*: Long-COVID population (not ME/CFS); open follow-up (no sham control); Efrati holds a financial stake in AVIV Scientific LTD.
+    / *Certainty Assessment:*: 0.55 raw × 0.85 long-COVID weight = discounted 0.47
+
+
+// =============================================================================
+// Adult Red-Flags & Safety-Netting Protocol (medical-emergency decompensation)
+// research_stream = adult-red-flags-safety-netting-protocol
+// Added 2026-08-14
+// =============================================================================
+
+=== Stadje et al.\ 2016 — Differential Diagnosis of Tiredness: Systematic Review
+
+@Stadje2016
+
+*Full Citation:*: Stadje R, Dornieden K, Baum E, Becker A, Biroga T, Bösner S, Haasenritter J, Keunecke C, Viniol A, Donner-Banzhoff N. The differential diagnosis of tiredness: a systematic review. _BMC Family Practice_. 2016;17:147.
+*DOI:*: #link("https://doi.org/10.1186/s12875-016-0545-5")[10.1186/s12875-016-0545-5]
+*PMID:*: 27765009
+*Key Findings:*:
+    - Systematic review + meta-analysis of 26 primary-care studies of patients presenting with tiredness.
+    - Prevalence among those with tiredness: anaemia 2.8%; malignancy 0.6%; serious somatic disease 4.3%; depression 18.5%.
+    - Somatic-disease prevalence identical in controls without tiredness; depression more frequent among the tired.
+*Conclusion:*: Extensive investigation only warranted on specific history/exam findings. Low malignancy yield argues against blanket cancer screening in chronic fatigue absent red flags.
+*Limitations:*: Heterogeneity across studies; CFS not pooled; primary-care (not severe ME/CFS) population.
+*Certainty Assessment:*: 0.70 raw × 0.75 general population = discounted 0.53
+
+=== Levine et al.\ 1992 — Does CFS Predispose to Non-Hodgkin's Lymphoma?
+
+@Levine1992
+
+*Full Citation:*: Levine PH, Peterson D, McNamee FL, O'Brien K, Gridley G, Hagerty M, Brady J, Fears T, Atherton M, Hoover R. Does chronic fatigue syndrome predispose to non-Hodgkin's lymphoma? _Cancer Research_. 1992;52(19 Suppl):5516s-5518s.
+*DOI:*: (none on PubMed)
+*PMID:*: 1394166
+*Key Findings:*:
+    - Population-based cancer-incidence analysis (Nevada SEER-linked), NHL time trends before/after the 1984-86 CFS outbreaks.
+    - No statistically significant increase in NHL attributable to the CFS outbreak at state level; trends consistent with national SEER.
+*Conclusion:*: Negative: malignancy is not a common ME/CFS outcome; supports the differential being a red-flag search, not an automatic malignancy work-up.
+*Limitations:*: Ecological design, state-level (not individual), single region, 1992.
+*Certainty Assessment:*: 0.45 raw × 1.00 ME/CFS weight = discounted 0.45
+
+=== Kobayashi et al.\ 2022 — Diagnoses Frequently Misattributed to Lyme Disease
+
+@Kobayashi2022
+
+*Full Citation:*: Kobayashi T, Higgins Y, Melia MT, Auwaerter PG. Mistaken Identity: Many Diagnoses are Frequently Misattributed to Lyme Disease. _The American Journal of Medicine_. 2022;135(4):503-511.
+*DOI:*: #link("https://doi.org/10.1016/j.amjmed.2021.10.040")[10.1016/j.amjmed.2021.10.040]
+*PMID:*: 34861197
+*Key Findings:*:
+    - Retrospective cohort, 1261 patients referred for possible Lyme; 1061 (84%) had no active Lyme.
+    - 690 (65%) received other diagnoses; 405 newly diagnosed. Leading: anxiety/depression 21%, fibromyalgia 11%, CFS 7%, migraine 7%.
+    - Non-syndromic newly diagnosed: MS n=11, malignancy n=8, Parkinson n=8, sarcoidosis n=4, ALS n=4.
+*Conclusion:*: Documents that serious organic disease (incl. malignancy, MS) can present as chronic multi-system symptoms and be missed — a red-flag search must not be foreclosed by a syndromic label.
+*Limitations:*: Referral-center selection, Lyme-specific framing, descriptive.
+*Certainty Assessment:*: 0.60 raw × 0.80 ME/CFS-adjacent weight = discounted 0.48
+
+=== Kohn, Madden & Clarke 2011 — Refeeding in Anorexia Nervosa: Pathophysiology of Protein-Calorie Malnutrition
+
+@Kohn2011
+
+*Full Citation:*: Kohn MR, Madden S, Clarke SD. Refeeding in anorexia nervosa: increased safety and efficiency through understanding the pathophysiology of protein calorie malnutrition. _Current Opinion in Pediatrics_. 2011;23(4):390-394.
+*DOI:*: #link("https://doi.org/10.1097/MOP.0b013e3283487591")[10.1097/MOP.0b013e3283487591]
+*PMID:*: 21670680
+*Key Findings:*:
+    - "Start low and go slow" calorie prescription is unlikely to prevent refeeding syndrome and can prolong starvation.
+    - Carbohydrate proportion (>40% calories from CHO) is more important than total calories; continuous feeding with \<40% CHO reduces refeeding risk.
+    - Postprandial hypoglycemia is a key risk.
+*Conclusion:*: Carbohydrate-driven refeeding physiology is general; applies to any starved/bedbound patient, including severe ME/CFS.
+*Limitations:*: Narrative review, paediatric/AN focus, no RCT.
+*Certainty Assessment:*: 0.60 raw × 0.80 anorexia-restricted-intake weight = discounted 0.48
+
+=== Proulx-Cabana et al.\ 2022 — Initial Inpatient Management of Severe Anorexia Nervosa
+
+@ProulxCabana2022
+
+*Full Citation:*: Proulx-Cabana S, Metras ME, Taddeo D, Jamoulle O, Frappier JY, Stheneur C. To Improve the Initial Inpatient Management of Adolescents Admitted with Severe Anorexia Nervosa: A Narrative Review and a Convenient Protocol. _Nutrients_. 2022;14(1):229.
+*DOI:*: #link("https://doi.org/10.3390/nu14010229")[10.3390/nu14010229]
+*PMID:*: 35011105
+*Key Findings:*:
+    - Higher initial caloric intake supported; continuous NG feeding for BMI below 12.
+    - 72-h hypoglycemia monitoring; consider continuous cardiac monitoring (bradycardia under 30 beats per minute) and systematic phosphate supplementation.
+*Conclusion:*: Transferable monitoring of phosphate/hypoglycemia/bradycardia during refeeding of a severely malnourished bedbound patient.
+*Limitations:*: AN-specific, adolescent, protocol not validated in a trial.
+*Certainty Assessment:*: 0.55 raw × 0.80 severe-restricted-intake weight = discounted 0.44
+
+=== Ridout et al.\ 2016 — Daily Laboratory Monitoring is of Poor Value in Eating Disorders
+
+@Ridout2016
+
+*Full Citation:*: Ridout KK, Kole J, Fitzgerald KL, Ridout SJ, Donaldson AA, Alverson B. Daily Laboratory Monitoring is of Poor Health Care Value in Adolescents Acutely Hospitalized for Eating Disorders. _Journal of Adolescent Health_. 2016;59(1):104-109.
+*DOI:*: #link("https://doi.org/10.1016/j.jadohealth.2016.03.015")[10.1016/j.jadohealth.2016.03.015]
+*PMID:*: 27338666
+*Key Findings:*:
+    - NULL/negative: retrospective chart review, 196 admissions for eating disorders; guideline-recommended daily lab monitoring.
+    - Zero cases of refeeding syndrome; 3960 labs, 1.9% below normal, 0.05% critical; 0.28% prompted supplementation, none changed management.
+    - Cost \$269,250 with value 1.04e-8 outcomes per dollar.
+*Conclusion:*: Directly challenges aggressive daily-lab-monitoring dogma in refeeding; supports risk-stratified (not routine-daily) monitoring in severe ME/CFS where lab access is difficult.
+*Limitations:*: Single center, retrospective, low baseline risk (mostly non-severe AN).
+*Certainty Assessment:*: 0.55 raw × 0.80 anorexia-restricted-intake weight = discounted 0.44
+
+=== Araujo Castro & Vázquez Martínez 2018 — The Refeeding Syndrome: Importance of Phosphorus
+
+@AraujoCastro2018
+
+*Full Citation:*: Araujo Castro M, Vázquez Martínez C. The refeeding syndrome. Importance of phosphorus. _Medicina Clínica_. 2018;150(12):472-478.
+*DOI:*: #link("https://doi.org/10.1016/j.medcli.2017.12.008")[10.1016/j.medcli.2017.12.008]
+*PMID:*: 29448987
+*Key Findings:*:
+    - Hallmark hypophosphatemia, plus hypokalemia, hypomagnesemia, thiamine deficiency, sodium/fluid imbalance.
+    - Refeeding syndrome is potentially fatal but preventable; NICE 2006 guideline is the only treatment framework but based on low-quality evidence.
+*Conclusion:*: Establishes refeeding as a real, fatal-but-preventable risk in any malnourished patient started on feeding.
+*Limitations:*: Review, NICE guidance cited as low-evidence.
+*Certainty Assessment:*: 0.55 raw × 0.80 malnourished/restricted-intake weight = discounted 0.44
+
+=== Kwiatkowska et al.\ 2025 — Comprehensive Care of the Patient with Refeeding Syndrome
+
+@Kwiatkowska2025
+
+*Full Citation:*: Kwiatkowska M, Krupnik D, Wesołek F, Jonczyk A, Krzych Ł. Comprehensive care of the patient with Refeeding Syndrome. _Polski Przegląd Chirurgiczny_. 2025;97(5):64-71.
+*DOI:*: #link("https://doi.org/10.5604/01.3001.0055.1957")[10.5604/01.3001.0055.1957]
+*PMID:*: 41171118
+*Key Findings:*:
+    - Refeeding syndrome arises from overly aggressive/inadequate adaptive feeding, exacerbated by malnutrition.
+    - Causes respiratory failure, neurological disorders, circulatory failure, seizures; risk factors mostly modifiable.
+    - Guidance: gradual energy increase + regular monitoring of phosphorus, potassium, magnesium.
+*Conclusion:*: Documents systemic (including neuro/cardiac/seizure) consequences of refeeding syndrome; transferable electrolyte-monitoring during refeeding.
+*Limitations:*: Perioperative/surgical framing; review not systematic.
+*Certainty Assessment:*: 0.50 raw × 0.75 general critically-ill/malnourished weight = discounted 0.38
+
+=== Norrington et al.\ 2012 — Medical Management of Acute Severe Anorexia Nervosa
+
+@Norrington2012
+
+*Full Citation:*: Norrington A, Stanley R, Tremlett M, Birrell G. Medical management of acute severe anorexia nervosa. _Archives of Disease in Childhood: Education and Practice Edition_. 2012;97(2):48-54.
+*DOI:*: #link("https://doi.org/10.1136/adc.2010.199885")[10.1136/adc.2010.199885]
+*PMID:*: 21764823
+*Key Findings:*:
+    - Review of medical management of acute severe AN, system-based complication approach, feeding + refeeding-syndrome guidance.
+    - Identifies at-risk patients; system-based approach to complications.
+*Conclusion:*: Risk identification and feeding approach transferable to the severely malnourished bedbound patient.
+*Limitations:*: Paediatric, not validated.
+*Certainty Assessment:*: 0.50 raw × 0.80 acute-severe-restricted-intake weight = discounted 0.40
+
+=== Hull et al.\ 2010 — EXCLAIM: Extended VTE Prophylaxis in Acutely Ill Medical Patients
+
+@Hull2010EXCLAIM
+
+*Full Citation:*: Hull RD, Schellong SM, Tapson VF, Monreal M, Samama MM, Nicol P, Vicaut E, Turpie AGG, Yusen RD. Extended-duration venous thromboembolism prophylaxis in acutely ill medical patients with recently reduced mobility: a randomized trial. _Annals of Internal Medicine_. 2010;153(1):8-18.
+*DOI:*: #link("https://doi.org/10.7326/0003-4819-153-1-201007060-00004")[10.7326/0003-4819-153-1-201007060-00004]
+*PMID:*: 20621900
+*Key Findings:*:
+    - Randomized, placebo-controlled trial, n=5963; acutely ill medical patients ≥40 y with reduced mobility (bed rest ± bathroom privileges).
+    - Extended enoxaparin reduced VTE 2.5% vs 4.0% (ARD -1.53%); increased major bleeding 0.8% vs 0.3%.
+    - Benefit concentrated in women, >75 y, and level-1 immobility; eligibility amended mid-trial.
+*Conclusion:*: Establishes that even short immobilization carries measurable VTE risk and that prophylaxis is a benefit/bleed trade-off — directly relevant to immobile severe ME/CFS.
+*Limitations:*: Immobility was acute/recent, not chronic; trial amended; bleeding risk in real bedbound ME/CFS (often anticoagulation-sensitive) is a safety concern.
+*Certainty Assessment:*: 0.70 raw × 0.75 general acutely-ill immobile weight = discounted 0.53
+
+=== Clinebell et al.\ 2014 — Preventing Common Medical Complications of Catatonia
+
+@Clinebell2014
+
+*Full Citation:*: Clinebell K, Azzam PN, Gopalan P, Haskett R. Guidelines for preventing common medical complications of catatonia: case report and literature review. _Journal of Clinical Psychiatry_. 2014;75(6):644-651.
+*DOI:*: #link("https://doi.org/10.4088/JCP.13r08870")[10.4088/JCP.13r08870]
+*PMID:*: 25004188
+*Key Findings:*:
+    - Case report + literature review of preventive guidelines for 4 immobility complications in catatonia (a severe immobile inpatient state).
+    - DVT/PE prophylaxis with anticoagulants for low-acute-bleeding-risk patients; pressure-ulcer prevention via frequent skin evaluation, support surfaces, repositioning; early enteral nutrition for prolonged immobility.
+    - Contracture data extrapolated from neurologic-injury studies.
+*Conclusion:*: A framework for pressure-ulcer (→ infection/sepsis) and aspiration-risk prevention in any prolonged-immobility patient; DVT prophylaxis as a benefit/bleed trade-off.
+*Limitations:*: Catatonia-specific, review not systematic, single case.
+*Certainty Assessment:*: 0.55 raw × 0.75 general immobile/institutionalized weight = discounted 0.41
+
+=== Vigen, Thommessen & Rønning 2018 — Stroke Risk Is Low after Urgently Treated TIA
+
+@Vigen2018
+
+*Full Citation:*: Vigen T, Thommessen B, Rønning OM. Stroke Risk Is Low after Urgently Treated Transient Ischemic Attack. _Journal of Stroke and Cerebrovascular Diseases_. 2018;27(2):291-295.
+*DOI:*: #link("https://doi.org/10.1016/j.jstrokecerebrovasdis.2017.08.037")[10.1016/j.jstrokecerebrovasdis.2017.08.037]
+*PMID:*: 29108805
+*Key Findings:*:
+    - Retrospective, n=261 TIA patients, urgent Stroke-Unit assessment + immediate prevention; follow-up to 2 y.
+    - Stroke incidence 1.5% at 1 month, 3.4% at 1 year, 4.2% at end of follow-up; median 90 d to recurrence.
+    - ABCD2 score poorly predictive.
+*Conclusion:*: New focal symptoms must be treated as possible TIA/stroke with urgent assessment — urgent referral is the safety-netting message, not benign attribution to ME/CFS.
+*Limitations:*: Single center, no control.
+*Certainty Assessment:*: 0.55 raw × 0.75 general TIA/stroke weight = discounted 0.41
+
+=== El Husseini & Goldstein 2013 — "Code Stroke": Hospitalized vs Emergency Department Patients
+
+@ElHusseini2013
+
+*Full Citation:*: El Husseini N, Goldstein LB. "Code stroke": hospitalized versus emergency department patients. _Journal of Stroke and Cerebrovascular Diseases_. 2013;22(4):345-348.
+*DOI:*: #link("https://doi.org/10.1016/j.jstrokecerebrovasdis.2011.09.012")[10.1016/j.jstrokecerebrovasdis.2011.09.012]
+*PMID:*: 22206693
+*Key Findings:*:
+    - Retrospective, 93 in-hospital + 204 ED code-stroke activations, 1 y.
+    - Hospitalized patients less likely to have stroke/TIA (26.8% vs 51.4%) and less often thrombolyzed; 63.4% of in-hospital code strokes were mimics.
+    - "Altered mental status" was the sole symptom in 48% of in-hospital vs 10% of ED patients and independently predicted stroke mimic (OR 63.5).
+*Conclusion:*: In an already-ill/hospitalized (or bedbound, symptom-heavy) population, acute focal neurologic deficits are more likely true stroke than in the ED — a bedbound ME/CFS patient with sudden focal symptoms should NOT be presumed to have a "mimic"; the default must be urgent stroke work-up.
+*Limitations:*: Single center, retrospective.
+*Certainty Assessment:*: 0.55 raw × 0.75 general stroke weight = discounted 0.41
+
+=== Uehara & Minematsu 2014 — Guidelines for Management of Patients with TIA
+
+@Uehara2014
+
+*Full Citation:*: Uehara T, Minematsu K. Guidelines for management of patients with transient ischemic attack. _Frontiers of Neurology and Neuroscience_. 2014;33:103-114.
+*DOI:*: #link("https://doi.org/10.1159/000351911")[10.1159/000351911]
+*PMID:*: 24157559
+*Key Findings:*:
+    - Review of evidence-based TIA management guidelines.
+    - TIA is a medical emergency with high early-stroke risk; guidelines mandate urgent referral/expert evaluation/immediate treatment.
+    - TIA and minor ischemic stroke share pathophysiologic and preventive approaches.
+*Conclusion:*: TIA = emergency; sudden focal neurologic symptoms require urgent care regardless of background diagnosis.
+*Limitations:*: Review; guideline currency.
+*Certainty Assessment:*: 0.55 raw × 0.75 general TIA weight = discounted 0.41
+
+=== Timbol & Baraniuk 2019 — Chronic Fatigue Syndrome in the Emergency Department
+
+@Timbol2019
+
+*Full Citation:*: Timbol CR, Baraniuk JN. Chronic fatigue syndrome in the emergency department. _Open Access Emergency Medicine_. 2019;11:15-28.
+*DOI:*: #link("https://doi.org/10.2147/OAEM.S176843")[10.2147/OAEM.S176843]
+*PMID:*: 30666170
+*Key Findings:*:
+    - Anonymous online survey, n=282 physician-diagnosed CFS; scored core CFS symptoms, ED reasons, attitudes; open-text thematic analysis.
+    - 59% had gone to an ED; 1/3 of ED presentations consistent with orthostatic intolerance.
+    - 42% dismissed as psychosomatic; ED staff not knowledgeable about CFS; encounter favorability 3.6/10; non-attendees avoided ED.
+*Conclusion:*: The most frequent acute ED driver in CFS is orthostatic intolerance; a large fraction are dismissed as psychosomatic — safety-netting must arm patients/caregivers to communicate medical-emergency triggers credibly.
+*Limitations:*: Self-report, selection/social-desirability bias, n=282, US.
+*Certainty Assessment:*: 0.45 raw × 1.00 ME/CFS weight = discounted 0.45
+
+=== Bowden et al.\ 2026 — ME/CFS Health, Labour Market, and Social Outcomes in New Zealand
+
+@Bowden2026
+
+*Full Citation:*: Bowden N, McLeod K, Anns F, Catchpole L, Charlton F, Taylor B, Vallings R, Vu H, Tate W. Health, labour market, and social service outcomes for people with Myalgic Encephalomyelitis / Chronic Fatigue Syndrome on a health or disability related benefit: an Aotearoa | New Zealand nationwide cross-sectional study using the integrated data infrastructure. _BMC Public Health_. 2026;26(1):1834.
+*DOI:*: #link("https://doi.org/10.1186/s12889-026-27499-7")[10.1186/s12889-026-27499-7]
+*PMID:*: 42032509
+*Key Findings:*:
+    - Nationwide IDI registry cohort, n=1902 working-age ME/CFS on health/disability benefit, propensity-score-matched comparisons.
+    - ME/CFS had significantly higher ED visits (18.8% vs 12.8%) and polypharmacy (>10 meds 32.8% vs 14.2%) vs general population.
+    - Lower hospitalization (11.2% vs 20.9%) than other benefit recipients; low employment (18.3%).
+*Conclusion:*: Elevated ED utilization in ME/CFS confirms the ED is a real contact point where safety-netting knowledge matters.
+*Limitations:*: Benefit-recipient subset only (not all ME/CFS), NZ-specific, cross-sectional, diagnostic-coding dependent.
+*Certainty Assessment:*: 0.60 raw × 1.00 ME/CFS weight = discounted 0.60
