@@ -262,3 +262,11 @@ States: 22 RAN, 2 LEGIT-SKIP (5d, 5c), 0 WAIVED, 0 OMISSION.
 **Registry:** updated (11 new entries) — all new claim environments represented.
 **Bib keys:** all citations used in new content resolve case-exact.
 **Ledger clean — Phase 13 may proceed.**
+
+## Phase 13 Commit
+- Commit: `97a81ffd` — feat(ch20b): add female-specific reproductive lifespan chapter (39 files, 2013 insertions)
+- Shared-file entries verified present in committed HEAD (bib keys, appendix-h, registry, changelog)
+- Excluded: tmp/ audit scratch (gitignored); unrelated WIP (none — tree clean)
+- Checkpoint pointer `wip/female-reproductive-lifespan-pre3` deleted (no history rewrite)
+- Post-commit integrity: working tree clean, nix build 0 errors
+- Tree mode: CLEAN (unrelated research-director-additions.md committed separately as 24026b7f at cycle start)
