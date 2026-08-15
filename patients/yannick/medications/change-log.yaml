@@ -1,8 +1,40 @@
 # Medication Change Log
 
 changes:
-  - date: 2026-08-02
-    medication: "Low-Dose Naltrexone (LDN)"
+  - date: 2026-08-15
+    medication: "Aripiprazole (low-dose, LDA)"
+    action: observation
+    observation_type: "effectiveness status / unresolved domain"
+    notes: >
+      Patient reports ~1 month into LDA trial (1mg/day since 2026-07-12):
+      good ongoing control of PEM, mental fog/concentration, and
+      migraine/headache. However, spontaneous muscle cramps persist
+      without apparent reason — LDA does not resolve the cramp domain.
+      LDA is a partial solution, not comprehensive. Episode features
+      (2026-08-15): 10-15 min duration; extending the cramping muscle
+      triggers a cramp in its antagonist (disordered reciprocal
+      inhibition → neurogenic/spinal hyperexcitability); partial relief
+      from cold water. Cramps are a THIRD LDA-independent layer
+      alongside tinnitus. Additionally reports diffuse muscle pain
+      (typical ME/CFS myalgia) — a DISTINCT symptom from the cramps,
+      plausibly driven/exacerbated by ~4 weeks of sleep deprivation
+      (bedtime ~3:00, wake 7:30-9:00, ~4.5-6h/night) on an already
+      non-restorative baseline (alpha-intrusion, PSG 2019). Diffuse
+      pain sits in the Layer-1 (microglial/neuroimmune + muscle
+      recovery) axis and should respond to sleep restoration; it is
+      not the same LDA-independent layer as the cramps. See
+      notes/aripiprazole-status-muscle-cramps-2026-08.md and
+      self-reported/patterns/spontaneous-cramps.yaml (ongoing_status,
+      episode_characteristics).
+      Additional report (2026-08-15): magnesium taken these days;
+      HISTORICALLY correlates with cramps coming on ("strange but real").
+      Counterintuitive — the opposite of the simple Mg-deficiency model;
+      supports an ion-channel/transport problem where Mg/ion shifts alter
+      membrane excitability adversely, aligned with the electrolyte-induced
+      pain crash. Retrospective impression; needs prospective Mg-vs-cramp
+      tracking. See spontaneous-cramps.yaml magnesium_correlation block.
+
+
     action: stop
     previous_dose: 4mg
     new_dose: none
@@ -20,6 +52,31 @@ changes:
       notes/lda-results-pem-mechanism-2026-07.md, "Note additionnelle
       2026-07-21"). A lower-dose retrial tests a different mechanism and
       does not contradict that interpretation.
+
+      REVISITED 2026-08-15: patient again asks whether to try other LDN
+      doses. Rationale recorded: lower doses (sub-mg to ~1.5-2mg) have
+      distinct pharmacology (opioid-receptor modulation, P2X7/other glial
+      signaling) vs the 4mg TLR4-dominant dose that failed; a retrial tests
+      a different mechanism and does not contradict the TLR4-negative read.
+      Context: LDA 1mg already covers Layer-1 (PEM/fog/migraine); LDN would
+      need to ADD value beyond LDA, and its relevance to Layer-3 cramps is
+      unclear (cramps appear non-microglial/ion-channel). Constraint: a
+      retrial is a treatment decision for patient + Dr. Nicolas (recovery
+      priority, no experimental testing); if pursued, it should be a
+      targeted, time-boxed trial with a defined outcome measure (sleep
+      quality, fatigue, or pain), not an open-ended dose search.
+
+      DOSE BANDS (2026-08-15 clarification): available LDN doses are
+      ~1mg and ~3mg. Assessed against history:
+      - ~3mg: ALREADY TESTED and failed. Patient was on 3.5-4mg from
+        ~Feb 2026 (increased to 4mg 2026-05-22), ~6 months non-response,
+        stopped 2026-08-02. A 3mg retrial re-tests territory already
+        shown unhelpful, with no distinct mechanism.
+      - ~1mg: GENUINELY UNTESTED and the only dose with distinct
+        pharmacology (opioid-receptor / P2X7-type glial modulation,
+        not TLR4-dominant). This is the only defensible candidate if
+        LDN is reconsidered — with a defined outcome and Dr. Nicolas
+        agreement, time-boxed.
 
   - date: 2026-07-26
     medication: "Aripiprazole (low-dose, LDA)"

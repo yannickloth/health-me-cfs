@@ -1,7 +1,7 @@
 pattern_type: "recurring_symptom"
 pattern_name: "spontaneous_muscle_cramps"
 first_documented: "2026-02-17"
-last_updated: "2026-05-01"
+last_updated: "2026-08-15"
 validation_status: "multi_episode_pattern"
 reliability: "low — 3 confirmed episodes; timing/trigger heterogeneous"
 
@@ -46,6 +46,89 @@ episodes:
     notes: "second consecutive day, identical presentation"
     source: "self-reported/symptoms/202604/2026-04-07.yaml"
 
+# ONGOING STATUS
+ongoing_status:
+  status: "persistent"
+  last_confirmed: "2026-08-15"
+  context: |
+    Patient reports on 2026-08-15 that muscle cramps still occur "without
+    apparent reason" while on Aripiprazole (LDA) 1mg/day. LDA controls PEM,
+    mental fog, and migraines/headaches, but does NOT resolve spontaneous
+    cramps. Cramp domain is LDA-independent.
+  significance: |
+    Persistence under LDA supports a cramp mechanism distinct from the
+    PEM/neuroimmune axis that LDA modulates (microglial/dopaminergic).
+    Consistent with existing hypotheses: neuronal hyperexcitability /
+    lower cramp threshold, ion-channel dysregulation (TRPM3), electrolyte
+    deficit, or autonomic-mediated muscle ischemia — NOT a
+    microglial-driven process.
+  evidence_gaps: |
+    No episode-level detail (location, timing, frequency) captured on
+    2026-08-15. Whether cramp frequency/severity changed on LDA vs off
+    is not established — only presence confirmed.
+  source: "notes/aripiprazole-status-muscle-cramps-2026-08.md"
+
+# MAGNESIUM CORRELATION (reported 2026-08-15) — counterintuitive, needs tracking
+magnesium_correlation:
+  reported: |
+    Patient has taken magnesium these days (2026-08-15 report). Patient
+    states that HISTORICALLY, magnesium intake has CORRELATED with cramps
+    coming on — "strange but real."
+  direction: "magnesium intake associated with cramp onset (paradoxical)"
+  significance: |
+    This is mechanistically significant and COUNTERINTUITIVE to the simple
+    "Mg deficiency lowers cramp threshold" hypothesis. If Mg intake is
+    correlated with (not just coincidental to) cramp onset, then the cramp
+    mechanism is NOT Mg depletion. Candidate reframes:
+    - An ion-channel/transporter problem where a Mg/ion shift (not
+      depletion) alters membrane excitability adversely.
+    - Analogous to the electrolyte-induced pain crash (2026-01-31): this
+      patient's ion axis reacts abnormally to ion LOADS, not just to
+      deficits.
+    - Mg can modulate TRPM3 (and other channels) — a paradoxical
+      excitability response is possible if the channel is already
+      dysregulated.
+  caveats: |
+    Correlation ≠ causation; "historically" is a retrospective impression,
+    not a controlled/replicated observation. Timing, dose, and form of Mg
+    not documented. Needs prospective tracking: log Mg intake vs cramp
+    onset in daily symptom YAMLs to test the correlation.
+  action: |
+    Add Mg intake (form, dose, timing) to daily symptom logs and correlate
+    with cramp episodes. Do NOT change or stop Mg based on this alone —
+    passive monitoring only, per recovery-priority constraint.
+
+# EPISODE CHARACTERISTICS (typical episode, reported 2026-08-15)
+episode_characteristics:
+  duration_minutes: "10-15"
+  duration_semantic: |
+    Far exceeds typical benign cramp (seconds to ~1 min). Suggests
+    persistent, self-sustaining motor-unit discharge, not a transient
+    trigger-response.
+  stretch_response: "extending the cramping muscle triggers a cramp in its antagonist"
+  stretch_response_semantic: |
+    Disordered reciprocal inhibition / escaping spinal inhibition.
+    Stretch normally relieves cramps via reciprocal inhibition of the
+    cramping muscle's own motor pool. Antagonist crossover on stretch is
+    a neurogenic (central/spinal) signature — NOT a local muscle-fiber
+    problem. Strongly argues against simple local fatigue/overuse.
+  cold_water_intervention: "placing foot in cold water — somewhat effective, not perfect"
+  cold_water_semantic: |
+    Cold lowers nerve conduction velocity and membrane excitability
+    (reduces Na+-channel open probability, neuronal firing). Partial
+    relief consistent with excitability-driven mechanism. Imperfect because
+    cold also increases muscle-spindle afferent activity / stretch-reflex
+    sensitivity, which can oppose the inhibition.
+  aggregate_read: |
+    Duration + antagonist-crossover + partial cold-water relief converge on
+    spinal motor-neuron / nerve-membrane hyperexcitability (an
+    excitability-threshold problem in the motor system). This is a THIRD
+    LDA-independent layer alongside tinnitus, mechanistically orthogonal
+    to the microglial/dopaminergic Layer-1 that LDA treats.
+    Refuted / downgraded: simple electrolyte/magnesium depletion (would not
+    produce antagonist crossover or 10-15 min duration); local muscle
+    overuse/fatigue (cramps occur at rest, no exertion).
+
 # CHARACTERISTICS
 cramp_characteristics:
   locations_observed:
@@ -61,24 +144,90 @@ cramp_characteristics:
 
 # MECHANISTIC HYPOTHESES
 mechanistic_hypotheses:
-  primary:
-    label: "neuronal hyperexcitability / lower cramp threshold"
-    plausibility: "moderate"
+  unifying_hypothesis:
+    label: "dysregulated ion handling — cramps triggered by ion LOADS, not ion deficits"
+    plausibility: "leading (2026-08-15) — unifies Mg correlation + electrolyte crash + episode features"
     reasoning: |
-      Cramps at rest or minimal activity suggest lowered motor neuron excitability
-      threshold, not mechanical overuse. Consistent with:
+      The single most parsimonious explanation is that this patient's
+      ion-channel/membrane system reacts abnormally to ION LOADS rather
+      than reflecting ion DEFICITS. Three independent lines converge:
+      - Mg correlation (2026-08-15): Mg intake HISTORICALLY correlates with
+        cramp onset — the OPPOSITE of the Mg-deficiency model.
+      - Electrolyte-induced pain crash (2026-01-31): electrolyte LOAD →
+        diffuse joint/muscle pain ~3h later.
+      - Episode features (2026-08-15): 10-15 min sustained discharge,
+        antagonist crossover (neurogenic/spinal), partial cold-water relief
+        (membrane-excitability driven).
+      Both Mg and the electrolyte mix are ion loads. In a dysregulated
+      channel, an ion flux can paradoxically LOWER the cramp/pain threshold
+      instead of raising it. Mg/electrolyte here act as PROBES revealing a
+      channel/transport problem, not as deficiencies to be corrected.
+      This explains: why Mg does not relieve cramps, why cramps persist on
+      LDA (ion-channel layer, not microglial), and why the electrolyte crash
+      and cramps share the same ion-load trigger. Ion-channel (TRPM3 /
+      Na+-channel) dysregulation is the leading candidate mechanism.
+    tests: |
+      Prospective: log ion intake (Mg form/dose/timing; electrolyte loads)
+      against cramp and pain onset in daily symptom YAMLs. If episodes
+      follow ion loads episode-by-episode, the ion-load model is confirmed.
+      Passive monitoring only; no intentional provocation (recovery priority).
+    physician_discussion: |
+      Framing for Dr. Nicolas: this is likely a CHANNEL/TRANSPORT problem,
+      not a level problem. A normal serum Mg/K+ does NOT exclude it.
+      Relevant: ion-channel (TRPM3/Na+-channel) and small-fiber
+      considerations; whether nerve-conduction/EMG is clinically indicated.
+      See physician_discussion_points below.
+
+  primary:
+    label: "spinal motor-neuron hyperexcitability / lowered cramp threshold"
+    plausibility: "elevated (2026-08-15 update)"
+    reasoning: |
+      Cramps at rest or minimal activity suggest lowered motor neuron
+      excitability threshold, not mechanical overuse. Consistent with:
       - Ion channel dysregulation (TRPM3 channelopathy hypothesis in ME/CFS)
       - GPCR-mediated nociceptor sensitization (purinergic/adenosine axis)
       - Chronic sympathetic dominance altering motor neuron background tone
 
+      STRENGTHENING EVIDENCE (2026-08-15):
+      - 10-15 min duration (sustained motor-unit discharge, not transient)
+      - Antagonist crossover on stretch: extending the cramping muscle
+        triggers a cramp in its antagonist → disordered reciprocal
+        inhibition / escaping spinal inhibition → NEUROGENIC (central/spinal)
+        signature, argues against local muscle-fiber cause
+      - Partial cold-water relief (cold lowers nerve-membrane excitability)
+      - Persists under LDA → independent of the microglial/dopaminergic
+        layer; a THIRD LDA-independent layer alongside tinnitus
+      These features converge on spinal motor-neuron / nerve-membrane
+      hyperexcitability (an excitability-threshold problem in the motor
+      system), with ion-channel dysregulation as the leading candidate.
+      Downgraded by these features: simple electrolyte/Mg depletion and
+      local overuse/fatigue.
+
   secondary:
     label: "magnesium / electrolyte deficit"
-    plausibility: "moderate"
+    plausibility: "further downgraded (2026-08-15) — Mg intake CORRELATES with cramp onset"
     reasoning: |
       Mg²⁺ suppresses NMDA receptor excitability; deficiency lowers cramp threshold.
       Patient takes magnesium supplement but absorption/bioavailability variable.
       Intersects with GPCR pain pathways at the nociceptor level.
       See also: electrolyte-induced-pain-crash.yaml for electrolyte sensitivity context.
+
+      CAVEAT (2026-08-15): the electrolyte/ion AXIS remains implicated
+      (electrolyte-induced pain crash 2026-01-31; cramps persist despite Mg
+      supplementation). But the 10-15 min duration and antagonist crossover
+      are NOT explained by simple Mg/electrolyte depletion. Reframe: an
+      ion-channel/transporter problem (membrane excitability), which Mg
+      does not compensate, rather than straightforward depletion.
+
+      STRONGER REFRAME (2026-08-15, magnesium_correlation): patient reports
+      HISTORICAL correlation of Mg intake with cramp onset ("strange but
+      real"). This is the OPPOSITE of the simple Mg-deficiency model and
+      further demotes "Mg deficit" as the cause. It aligns with the
+      electrolyte-induced pain crash (ion-axis reacts abnormally to ion
+      LOADS, not just deficits) and with an ion-channel dysregulation where
+      a Mg/ion shift alters membrane excitability adversely. See
+      magnesium_correlation block above. Retrospective impression; needs
+      prospective Mg-vs-cramp tracking to confirm.
 
   tertiary:
     label: "autonomic-mediated muscle ischemia"
@@ -87,6 +236,11 @@ mechanistic_hypotheses:
       Dysregulated β2-adrenergic GPCRs (Scheibenbogen autoantibody hypothesis) →
       impaired vasodilation in muscle vasculature → local ischemia → cramp trigger.
       Mestinon (↑ACh → M3 muscarinic GPCR) partially compensates but may be incomplete.
+
+      CAVEAT (2026-08-15): fits cramps with activity/orthostasis (ischemia
+      under demand) less well than the excitability model. May AMPLIFY or
+      set background tone for cramps, but does not easily explain the
+      spontaneous, rest, no-trigger character with antagonist crossover.
 
   gpcr_connection: |
     See notes/gpcr-muscle-pain.md for full GPCR pathway context.
@@ -111,6 +265,9 @@ tracking_recommendations:
     - hydration status
     - sleep quality previous night
     - whether same location repeated following day
+    - duration (confirm the 10-15 min typical; note if longer/shorter)
+    - stretch response (does extending the muscle trigger a cramp in its antagonist?)
+    - cold/intervention response (does cold water help? which interventions?)
   do_not:
     - "Modify treatment to test cramp hypotheses"
     - "Intentionally provoke episodes"
@@ -123,10 +280,21 @@ potential_relevance:
   - "Small fiber neuropathy and spontaneous cramps"
   - "β2-adrenergic autoantibodies and muscle perfusion"
 
+# PHYSICIAN DISCUSSION POINTS (passive / clinical only — no experimentation)
+physician_discussion_points:
+  points:
+    - "serum K+ and Mg2+ status — rule out simple electrolyte contribution; clarify depletion vs ion-channel/transporter problem (cramps persist despite oral Mg)"
+    - "whether ion-channel (TRPM3 / Na+-channel) or small-fiber neuropathy considerations warrant formal clinical evaluation"
+    - "possible nerve-conduction / EMG evaluation if clinically indicated (duration + antagonist crossover suggest neurogenic component)"
+  boundary: |
+    Per recovery-priority constraint: passive monitoring and clinical
+    discussion ONLY. No intentional provocation, no treatment
+    modification to test the hypothesis.
+
 # DOCUMENTATION STATUS
 documentation_quality: "preliminary_pattern"
-confidence_level: "low — small episode count, heterogeneous locations"
-next_steps: "Continue passive monitoring; note magnesium status per episode"
+confidence_level: "low — small episode count, heterogeneous locations; but episode characteristics (10-15 min duration, antagonist crossover, cold-water partial relief) add mechanistic signal"
+next_steps: "Continue passive monitoring; confirm duration + stretch-crossover across episodes; note magnesium status per episode"
 
 alerts:
   - type: "PATTERN_EMERGING"
