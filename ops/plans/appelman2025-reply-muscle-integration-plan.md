@@ -127,6 +127,6 @@ See the governed audit — all phases RAN / LEGIT-SKIP / WAIVED, 0 OMISSION.
 | 11 | RAN | Lightweight review convergence (redundancy + rigor findings fixed); build PASS |
 | 12 | RAN | Plan-record summary written |
 | 12.5 | RAN | This ledger |
-| 13 | PENDING | Commit (Phase 13, not yet run) |
+| 13 | ✅ | Commit `da8a9522` (content) + corrective `b0f1809a` (appendix-h orphan cleanup). HEAD `b0f1809a` builds (exit 0, 0 errors). |
 
-**Result: 13 RAN, 8 LEGIT-SKIP, 1 WAIVED, 0 OMISSION.** Build: PASS. Ledger clean — Phase 13 may proceed.
+**Result: 13 RAN, 8 LEGIT-SKIP, 1 WAIVED, 0 OMISSION.** Build: PASS. Ledger clean.
