@@ -293,7 +293,7 @@ Table @tab:cross-domain-parallels summarizes validated interventions from other
   
   [*Source Field*], [*Shared Feature*], [*Intervention*], [*ME/CFS Application*], [*Implementation Status*],
   
-  [*Sports Medicine*], [Muscle metabolic stress, lactate accumulation], [ORS, magnesium, Acetyl-L-carnitine, D-ribose], [Lactate clearance, ATP support, cramp reduction], [IMPLEMENTED; evidence-based],
+  [*Sports Medicine*], [Muscle metabolic stress, lactate accumulation], [ORS, magnesium, Acetyl-L-carnitine, D-ribose], [Lactate clearance, ATP support, cramp reduction], [IMPLEMENTED; ⚠ magnesium for cramp reduction is NOT supported by a Cochrane meta-analysis @Garrison2020MagnesiumCramps — the ORS/ATP-support rationale stands, but the "cramp-reduction" efficacy label for magnesium should be treated as unproven],
   
   [*Altitude Medicine*], [Tissue hypoxia, exercise intolerance], [Iron optimization (ferritin \>100), acetazolamide, breathing techniques], [Oxygen delivery, cerebral function], [PARTIAL; iron standard; acetazolamide case reports],
   

@@ -11456,5 +11456,25 @@
     "label": "P3b",
     "category": "test",
     "definition": "P3b: the late (300-600 ms) centroparietal component of the event-related potential (ERP) that indexes attentional resource allocation and target evaluation. In the L-theanine-caffeine ADHD trial, increased P3b amplitude and decreased latency indicated enhanced neural allocation to selective attention."
+  },
+  "TRP": {
+    "label": "TRP",
+    "category": "receptor",
+    "definition": "Transient Receptor Potential: a large superfamily of cation channels that respond to diverse stimuli (temperature, chemical ligands, mechanical stretch, osmolarity). TRP channels on sensory nerves and immune cells are implicated in ME/CFS pain, cramp threshold, and immune dysfunction."
+  },
+  "small-fiber neuropathy": {
+    "label": "small-fiber neuropathy",
+    "category": "condition",
+    "definition": "Damage to the small-diameter nerve fibres that transmit pain and temperature and control autonomic function; documented in a proportion of ME/CFS patients and associated with cramps and dysautonomia."
+  },
+  "sarcolemmal": {
+    "label": "sarcolemmal",
+    "category": "anatomy",
+    "definition": "Relating to the sarcolemma, the cell membrane of a muscle fibre; its resting potential and ion balance are maintained by the Na⁺/K⁺-ATPase pump."
+  },
+  "Na/K-ATPase": {
+    "label": "Na/K-ATPase",
+    "category": "enzyme",
+    "definition": "Sodium-potassium adenosine triphosphatase: the membrane pump that maintains the resting potential of excitable cells (muscle fibres, nerves) by exporting three Na⁺ and importing two K⁺ per ATP. Failure depolarizes cells, contributing to cramps and hyperexcitability."
   }
 }
