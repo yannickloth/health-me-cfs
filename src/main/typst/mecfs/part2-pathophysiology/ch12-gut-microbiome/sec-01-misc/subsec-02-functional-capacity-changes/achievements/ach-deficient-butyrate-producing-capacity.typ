@@ -8,5 +8,5 @@ Guo et al. @ButyrateDeficiency2023 performed multi-omic analysis (metagenomics,
     - Bacterial network disturbances affecting butyrate-producing community
     - Fecal short-chain fatty acid levels reduced
 
-Butyrate is the primary energy source for colonocytes and has anti-inflammatory, barrier-protective, and neuromodulatory functions. Its deficiency may contribute to intestinal permeability and systemic inflammation (multi-center study, n=197, High certainty).
+Butyrate is the primary energy source for colonocytes and has anti-inflammatory, barrier-protective, and neuromodulatory functions. Its deficiency may contribute to intestinal permeability and systemic inflammation (multi-center study, n=197, High certainty). This is independently corroborated by the BioMapAI multi-omics model, whose connectivity map likewise reports decreased butyrate and branched-chain amino acid microbial pathways in ME/CFS @Xiong2025BioMapAI (model-derived, correlational rather than a direct replication).
 ] <ach:butyrate-deficiency>

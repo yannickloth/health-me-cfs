@@ -11386,5 +11386,50 @@
     "label": "chromatin",
     "category": "cell",
     "definition": "The complex of DNA and proteins (histones) that packages the genome; its 3D folding state regulates gene expression and is measured by chromosome-conformation platforms such as EpiSwitch."
+  },
+  "MAIT": {
+    "label": "MAIT",
+    "category": "immune",
+    "definition": "Mucosal-Associated Invariant T cell: an innate-like T cell enriched at mucosal surfaces (gut, lung) that responds rapidly to microbial metabolites. In ME/CFS, AI-driven multi-omics models report heightened MAIT inflammatory activity (IFN-gamma, granzyme A), while single-cell studies in Long-COVID report MAIT depletion — a possibly-orthogonal activation-versus-depletion tension that remains unresolved."
+  },
+  "Gamma-delta T cell": {
+    "label": "Gamma-delta T cell",
+    "category": "immune",
+    "definition": "A T cell subtype (gamma-delta / γδ T cell) that acts at the interface of innate and adaptive immunity, recognizing stressed and infected cells without MHC restriction. BioMapAI multi-omics analysis reports heightened gamma-delta T-cell inflammatory activity (IFN-gamma, granzyme A) in ME/CFS, while some single-cell studies report reduced gamma-delta cell frequencies — an unresolved activation-versus-depletion question."
+  },
+  "Metabolomics": {
+    "label": "Metabolomics",
+    "category": "method",
+    "definition": "The comprehensive measurement of small-molecule metabolites (sugars, lipids, amino acids, organic acids) in a biofluid or tissue. Plasma metabolomics is one omics layer used to profile ME/CFS; integrated multi-omics analyses combine it with metagenomics and immune profiling to detect disease signatures invisible to any single layer."
+  },
+  "Metagenomics": {
+    "label": "Metagenomics",
+    "category": "method",
+    "definition": "Sequencing of DNA directly from a microbial community (e.g., the gut microbiome) without culturing individual species, revealing taxonomic composition and functional gene potential. Gut metagenomics is a core omics layer in ME/CFS microbiome-immune-metabolome crosstalk models such as BioMapAI."
+  },
+  "Multi-omics": {
+    "label": "Multi-omics",
+    "category": "method",
+    "definition": "The integrated analysis of multiple molecular data layers (genomics, metagenomics, transcriptomics, proteomics, metabolomics, immune profiling) in the same samples. Multi-omics integration can reveal coordinated cross-compartment disease signatures — e.g., the BioMapAI finding that no single omics layer separates ME/CFS from controls, but their integration does."
+  },
+  "Benzoate": {
+    "label": "Benzoate",
+    "category": "molecule",
+    "definition": "A carboxylate compound from dietary sources (e.g., benzoic acid preservatives, plant foods) and microbial metabolism. In ME/CFS, BioMapAI reports an increased benzoate-to-hippurate transformation, which the model attributes to sleep, emotional, and fatigue symptoms — though this is model output, not held-out validated."
+  },
+  "Hippurate": {
+    "label": "Hippurate",
+    "category": "molecule",
+    "definition": "A urinary metabolite formed by conjugation of benzoic acid with glycine, largely reflecting dietary benzoate intake and gut microbial benzoate metabolism. BioMapAI links an increase in the benzoate-to-hippurate transformation to sleep, emotional, and fatigue symptoms in ME/CFS, but the axis rests on a single model plus small neighbouring-population pilots."
+  },
+  "BioMapAI": {
+    "label": "BioMapAI",
+    "category": "method",
+    "definition": "A supervised deep neural network trained on a 4-year longitudinal multi-omics dataset (n=249) to integrate gut metagenomics, plasma metabolomics, immune profiling, blood labs, and clinical symptoms for ME/CFS. It classified ME/CFS from controls (AUC=0.99) and built an explainable microbiome-immune-metabolome connectivity map, though the headline AUC is partly inflated by the model learning its diagnostic symptoms (symptom circularity)."
+  },
+  "SHAP": {
+    "label": "SHAP",
+    "category": "method",
+    "definition": "SHapley Additive exPlanations: a game-theoretic method that attributes a machine-learning model's prediction to its input features. In BioMapAI, SHAP values generate an explainable connectivity map linking omics features to symptom attributions — but these attributions are model output and were not held-out validated."
   }
 }

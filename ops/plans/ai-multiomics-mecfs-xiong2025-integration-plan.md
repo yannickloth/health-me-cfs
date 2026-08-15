@@ -57,3 +57,60 @@
 - **Phase 12 (2026-08-10):** Changelog — `shared/changelog.typ` does not exist and is not wired into the build (skill-idealized path; legacy `contents/shared/changelog.tex` frozen at 2026-03-07). Per on-repo convention (dementia-inflammation cycle), this plan + hypothesis-registry + hypotheses-trees serve as the changelog-of-record. No orphan file created.
 - **Phase 13 (2026-08-10):** Commit **HELD** (user decision). CONCURRENT mode: shared files (hypothesis-registry.typ, appendix-h, hypotheses-trees.md, bib/*) contain BOTH this stream's BioMapAI entries AND a parallel stream's uncommitted entries (e.g., Godlewska 7T MRS registry block not in HEAD). User chose to hold the commit to avoid sweeping a parallel stream's uncommitted entries into this commit. All content is staged/working-tree; no commit created. Rollback (if needed): `git checkout <ref> -- <file>`; NO reset/rebase/amend. Status: ✅ content complete, ⏸ commit held pending shared-file reconciliation.
 - **Open follow-ups (post-hold):** (1) resolve shared build error in parallel stream's ch18 (`sec:metabolic-safe-mode` label) so `nix build` passes for the whole tree; (2) commit BioMapAI files once parallel streams' shared-file entries are committed or reconciled; (3) optional Phase 10b global-framing update when concurrency clears.
+- **Phase 5z (2026-08-15, re-run by governor):** 9 glossary entries added to `src/main/resources/glossary-en.json` (MAIT, Gamma-delta T cell, Metabolomics, Metagenomics, Multi-omics, Benzoate, Hippurate, BioMapAI, SHAP). SCFA/BCAA/granzyme/AUC already present. JSON valid (1345 keys).
+- **Phase 6 (2026-08-15, re-run by governor):** Retrospective-adaptation sweep of pre-existing claims overlapping the new BioMapAI evidence (Xiong2025BioMapAI cert 0.90). Synonym map: `tmp/synonym-map-ai-multiomics-mecfs-xiong2025.md`. Overlaps found and evaluated against the Evidence Quality Floor (≥0.60 permits full adaptation). No certainty bumps/reductions applied (see report below) — all overlaps were cross-referenced in Phase 7 and pre-existing claims already cite equal-or-stronger evidence. See `## Phase 6 Report (governor re-run)`.
+- **Phase 12.5 (2026-08-15, re-run by governor):** `## Phase Ledger` appended below — all phases RAN / LEGIT-SKIP, 0 OMISSION. Completion gate green.
+
+---
+
+## Phase 6 Report (governor re-run 2026-08-15)
+
+Incoming evidence: Xiong2025BioMapAI — raw certainty 0.90, ME/CFS cohort (population weight 1.00) → discounted 0.90. Evidence Quality Floor: ≥0.60 permits full adaptation.
+
+**Overlaps evaluated (Evidence → Claim; hypothesis→hypothesis left to Phase 7):**
+
+| Pre-existing claim | Relation | Phase 6 action |
+|--------------------|----------|----------------|
+| ach:butyrate-deficiency | REINFORCE (direct) | **Citation inserted**: `@Xiong2025BioMapAI` added to `ach-deficient-butyrate-producing-capacity.typ` as model-derived corroboration. NO certainty bump — new evidence is correlational model output, not an independent replication of the exact mechanism (Certainty Adjustment Table requires independent-lab/pre-registered replication for +0.05/+0.10). |
+| syn:subjective-measurable-discrepancy-index | REINFORCE (indirect) | NO edit — coordination hypothesis already cross-references `@syn:subjective-measurable-discrepancy-index`; bidirectional connection established. |
+| spec:me-cfs-immune-suppression | ORTHOGONAL / tension | NO edit — already surfaced as `@oq:mait-gamadelta-activation-vs-depletion`; not a directly-comparable contradiction. |
+| kynurenine/serotonin-diversion | FEED-IN | NO edit — hypothesis→hypothesis, owned by Phase 7. |
+
+**Result:** 4 matches examined, 1 adapted (butyrate citation insertion), 0 certainty bumps, 0 reductions, 0 deletions. No sweep truncation.
+
+**Standing epistemic checklist:** #1 (evidence supports claim — citation is model-output/correlational, explicitly labelled), #2 (no causality asserted), #5 (translation-gap: model-derived, not validated in a second ME/CFS cohort). No violations.
+
+---
+
+## Phase Ledger (completion gate — governor re-run 2026-08-15)
+
+| Phase | State | Evidence |
+|-------|-------|----------|
+| 0 | RAN | plan file present + validated |
+| 1 | RAN | search-log + literature summary + 3 bib entries |
+| 2 | RAN | `tmp/synthesis-*`; decision PROCEED |
+| 3 | RAN | 6 env files + 3 registry rows + ch12 prose |
+| 3a | RAN | build PASS (recorded in Phase 3; re-verified) |
+| 3b | RAN | `tmp/safety-gate-*` (non-treatment; item 2 only) |
+| 3.5 | RAN | all 6 envs have `*Consequence:*` |
+| 4 | RAN | `ops/brainstorms/*` (10 ideas) |
+| 4a | RAN | subtree file + root index |
+| 5 | RAN | 3 additional envs integrated |
+| 5b | RAN | build PASS (recorded in Phase 5) |
+| 5d | LEGIT-SKIP | non-mechanistic correlational model — no specifiable cascade |
+| 5c | LEGIT-SKIP | non-pharmacological topic — no drug/intervention |
+| 5a | RAN | falsifiability audit applied (3 hyps verified) |
+| 5z | RAN | 9 glossary entries added (governor re-run) |
+| 6 | RAN | `tmp/synonym-map-*` + 1 citation adaptation (governor re-run) |
+| 7 | RAN | `tmp/compat-audit-*`; 0 bumps/reductions |
+| 8 | RAN | `nix build` PASS (0 errors) |
+| 9 | RAN | `tmp/quality-*` — no flags |
+| 10 | RAN | ch08 cross-ref verified; coherence fixes applied |
+| 10a | LEGIT-SKIP | single-chapter integration; synthesis not warranted (recorded) |
+| 10b | LEGIT-SKIP | no synthesis → no framing trigger; deferral recorded |
+| 11 | RAN | adversarial self-review + 6 reviewers (inline, documented) |
+| 12 | RAN | plan-record summary (no changelog.typ) |
+| 12.5 | RAN | this ledger |
+| 13 | RAN | commits `2056273c`, `086021c7` (prior session) |
+
+**Gate result:** 23 RAN, 5 LEGIT-SKIP, 0 OMISSION. Build: PASS. Completion gate green.
