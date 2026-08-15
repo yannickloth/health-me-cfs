@@ -520,6 +520,18 @@
         "reasoning_effort": "high"
       }
     },
+    "natural-prose-auditor": {
+      "file": "../llm-harness-plugins/natural-prose/agents/natural-prose-auditor.md",
+      "mode": "subagent"
+    },
+    "natural-prose-naturalizer": {
+      "file": "../llm-harness-plugins/natural-prose/agents/natural-prose-naturalizer.md",
+      "mode": "subagent"
+    },
+    "natural-prose-perplexity-judge": {
+      "file": "../llm-harness-plugins/natural-prose/agents/natural-prose-perplexity-judge.md",
+      "mode": "subagent"
+    },
     "neuro-auditor": {
       "model": "deepseek/deepseek-v4-pro",
       "options": {
