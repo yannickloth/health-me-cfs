@@ -2654,6 +2654,61 @@ High-priority validation needed: (1) Independent replication in larger cohort (n
     *URL:*: #link("https://neuroimmune.cornell.edu/news/recovery-from-two-day-cpet-in-me-cfs/")
     *Key Findings:*: Recovery $tilde$13 days in ME/CFS vs $tilde$2 days in sedentary controls.
 
+// --- Effort / Deconditioning Rebuttal (Davenport 2025) ---
+<sec:bib-effort-deconditioning>
+
+=== Davenport et al.\ 2025 — Effort and Deconditioning Are Not Valid Explanations of ME/CFS
+
+    *Full Citation:*: Davenport TE, Scheibenbogen C, Zinn MA, et al.\ Altered effort and deconditioning are not valid explanations of myalgic encephalomyelitis/chronic fatigue syndrome. _Nature Communications_. 2025;16:9176. @Davenport2025EffortDeconditioning
+    *DOI:*: #link("https://doi.org/10.1038/s41467-025-64538-0")[10.1038/s41467-025-64538-0]
+    *Study Design:*: Matters Arising (formal rebuttal) of Walitt et al.\ 2024 deep-phenotyping study
+    *Key Findings:*:
+        - Single CPET cannot characterize PEM, which requires measuring the response to an initial exertional provocation; 2-day CPET is the correct paradigm and the IOM cautioned a single test may be insufficient
+        - Deconditioning and PEM are not mutually exclusive, so deconditioned-like features cannot explain PEM
+        - Exercise HR was lower (not elevated) in post-infectious ME/CFS vs healthy volunteers — inconsistent with deconditioning, consistent with chronotropic incompetence and impaired oxidative metabolism
+        - PEM is not mere discomfort but profound multi-symptom exacerbation (IOM systemic exertion intolerance disease)
+        - Study underpowered (8 PI-ME/CFS + 9 healthy volunteers completed CPET), lacked deconditioned control matching, and omitted outcome-order documentation from the abstract
+    *Conclusion:*: The effort-preference and deconditioning framing is not supported by the physiological data; the findings better fit intrinsic metabolic and autonomic limitation.
+    *Limitations:*: Correspondence (no new data); underlying CPET cohort small; relies on secondary interpretation of Walitt's data.
+    *Certainty:*: 0.70 (discounted; ME/CFS population weight 1.00)
+
+=== Davenport et al.\ 2019 — Chronotropic Intolerance in ME/CFS
+
+    *Full Citation:*: Davenport TE, Lehnen M, Stevens SR, VanNess JM, Stevens J, Snell CR. Chronotropic Intolerance: An Overlooked Determinant of Symptoms and Activity Limitation in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome? _Frontiers in Pediatrics_. 2019;7:82. @Davenport2019Chronotropic
+    *DOI:*: #link("https://doi.org/10.3389/fped.2019.00082")[10.3389/fped.2019.00082]
+    *Key Findings:*: Chronotropic incompetence is an overlooked contributor to symptoms and activity limitation in ME/CFS, limiting energy production and utilization during exertion.
+    *Conclusion:*: Supports the interpretation that lower exercise HR in ME/CFS reflects intrinsic chronotropic limitation rather than deconditioning.
+    *Certainty:*: 0.65 (discounted; ME/CFS weight 1.00)
+
+=== van Campen et al.\ 2023 — Orthostatic Chronotropic Incompetence in ME/CFS
+
+    *Full Citation:*: van Campen CMC, Verheugt FWA, Rowe PC, Visser FC. Orthostatic chronotropic incompetence in patients with myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS). _IBRO Neuroscience Reports_. 2023;15:1-10. @vanCampen2023OrthostaticChronotropic
+    *DOI:*: #link("https://doi.org/10.1016/j.ibneur.2023.04.005")[10.1016/j.ibneur.2023.04.005]
+    *Key Findings:*: Chronotropic incompetence is present in a subset of ME/CFS patients under orthostatic challenge, consistent with impaired heart-rate response to demand.
+    *Certainty:*: 0.70 (discounted; ME/CFS weight 1.00)
+
+=== Miwa 2023 — Orthostatic Intolerance and Chronotropic Incompetence in ME/CFS
+
+    *Full Citation:*: Miwa K. Orthostatic Intolerance and Chronotropic Incompetence in Patients With Myalgic Encephalomyelitis or Chronic Fatigue Syndrome. _Circulation Reports_. 2023;5(2):55-61. @Miwa2023OrthostaticChronotropic
+    *DOI:*: #link("https://doi.org/10.1253/circrep.cr-22-0114")[10.1253/circrep.cr-22-0114]
+    *Key Findings:*: Independent replication of orthostatic intolerance with chronotropic incompetence in ME/CFS, supporting a cardiovascular component of exertional limitation.
+    *Certainty:*: 0.60 (discounted; ME/CFS weight 1.00)
+
+=== Cook et al.\ 2022 — Cardiopulmonary and Perceptual Responses in ME/CFS (MCAM)
+
+    *Full Citation:*: Cook DB, VanRiper S, Dougherty RJ, Lindheimer JB, Falvo MJ, Chen Y, Lin JM-S, Unger ER. Cardiopulmonary, metabolic, and perceptual responses during exercise in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS): A Multi-site Clinical Assessment of ME/CFS (MCAM) sub-study. _PLOS ONE_. 2022;17(3):e0265315. @Cook2022MCAMExercise
+    *DOI:*: #link("https://doi.org/10.1371/journal.pone.0265315")[10.1371/journal.pone.0265315]
+    *Key Findings:*: Fitness-matched comparison showing chronotropic and perceptual differences in ME/CFS during exercise that are not explained by deconditioning.
+    *Certainty:*: 0.70 (discounted; ME/CFS weight 1.00)
+
+=== Treadway et al.\ 2009 — The EEfRT Effort-for-Rewards Task (Validation)
+
+    *Full Citation:*: Treadway MT, Buckholtz JW, Schwartzman AN, Lambert WE, Zald DH. Worth the 'EEfRT'? The Effort Expenditure for Rewards Task as an Objective Measure of Motivation and Anhedonia. _PLOS ONE_. 2009;4(8):e6598. @Treadway2009EEfRT
+    *DOI:*: #link("https://doi.org/10.1371/journal.pone.0006598")[10.1371/journal.pone.0006598]
+    *Key Findings:*: The EEfRT was validated as a motivation measure in healthy volunteers and psychiatric populations, with an explicit requirement that tasks be easy enough not to induce fatigue — a requirement not met in the Walitt ME/CFS application.
+    *Conclusion:*: Supports the critique that the EEfRT measured inability rather than altered preference in ME/CFS.
+    *Certainty:*: 0.34 (raw 0.45, general-population weight 0.75)
+
 // =============================================================================
 
 == Treatment Evidence
@@ -6739,7 +6794,6 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
     *Relevance to Part V:*: Cross-disease comparison for model generalization and shared fatigue pathway identification.
 
 // =============================================================================
-
 == Exercise Physiology and Post-Exertional Malaise
 <sec:bib-exercise-pem-additions>
 // =============================================================================
@@ -34916,3 +34970,357 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
 *Conclusion:*: Reinforces that blanket immunotherapy lacks support without immune-subset stratification; a caution against borrowing oncology checkpoint/CAR-T approaches without selection biomarkers.
 *Limitations:*: Non-systematic; single-author; integrative-medicine affiliation.
 *Certainty Assessment:*: 0.50 raw × 0.85 mixed post-infectious weight = discounted 0.43
+
+=== Souma et al.\ 2026 — Irisin Signaling Resistance in ME: TSP-1–HSP90α–αvβ5 Axis for PEM
+
+@Souma2026IrisinSignalingResistance
+
+*Full Citation:*: Souma B, Elremaly W, Akoume MY, Elbakry M, Godbout C, Moreau A. Irisin Signaling Resistance in Myalgic Encephalomyelitis: A Proposed Mechanistic Framework for Post-Exertional Malaise Involving the TSP-1–HSP90α–αvβ5 Axis. _International Journal of Molecular Sciences_. 2026;27(11):4770.
+*DOI:*: #link("https://doi.org/10.3390/ijms27114770")[10.3390/ijms27114770]
+*PMID:*: 42278300
+*Key Findings:*:
+    - Cross-sectional n=92 ME/CFS (CCC) vs 44 sedentary controls (Moreau group, CHU Sainte-Justine / ICanCME / OMF Collaborative Center); plasma irisin + TSP-1 at baseline and after a 90-min standardized mechanical stress challenge.
+    - ME patients had lower baseline irisin ($p < 0.05$) and a blunted exertional irisin response ($p < 0.05$).
+    - Paradox: baseline irisin independently predicted fatigue severity (MFI-20, β=0.728, $p = 0.018$); moderate-to-severe patients showed elevated irisin AND TSP-1 ($p < 0.05$).
+    - Functional CDS (Jurkat cells): TSP-1 inhibits irisin signaling concentration-dependently; irisin signaling requires αvβ5 integrin + extracellular HSP90α; TSP-1 is the dominant antagonist.
+*Conclusion:*: Proposes a TSP-1–HSP90α–αvβ5 axis where circulating TSP-1 antagonizes irisin signaling, producing "irisin signaling resistance" that contributes to the metabolic dysfunction underlying PEM.
+*Limitations:*: Single cohort; cross-sectional; mechanical stress challenge (not full exercise); Jurkat immune-cell model (not myocyte); irisin ELISA specificity caveat (see Elsen 2014); shares Moreau-group biobank with Nepotchatykh 2020/2023 and ChalderMoreau 2026 (not independent).
+*Certainty Assessment:*: 0.55 raw × 1.00 ME/CFS weight = discounted 0.55
+
+=== Boström et al.\ 2012 — PGC1-α-Dependent Myokine Irisin Drives Browning of White Fat (FOUNDATIONAL)
+
+@Bostrom2012Irisin
+
+*Full Citation:*: Boström P, Wu J, Jedrychowski MP, Korde A, Ye L, Lo JC, et al. A PGC1-α-dependent myokine that drives brown-fat-like development of white fat and thermogenesis. _Nature_. 2012;481(7382):463-468.
+*DOI:*: #link("https://doi.org/10.1038/nature10777")[10.1038/nature10777]
+*PMID:*: 22237023
+*Key Findings:*:
+    - Foundational discovery of irisin: muscle FNDC5 cleaved to irisin, released with exercise/PGC1-α; drives browning of white adipose and thermogenesis.
+*Conclusion:*: The naming/discovery source for the irisin myokine field — establishes irisin as an exercise-induced metabolic signal.
+*Limitations:*: Human-relevance caveats emerged later (see Elsen 2014); largely mouse + cultured myocyte data.
+*Certainty Assessment:*: 0.85 raw × 0.75 general-population weight = discounted 0.64
+
+=== Kim et al.\ 2018 — Irisin Acts via αV Integrin Receptors (FOUNDATIONAL)
+
+@Kim2018IrisinIntegrin
+
+*Full Citation:*: Kim H, Wrann CD, Jedrychowski M, Vidoni S, Kitase Y, Nagano K, et al. Irisin Mediates Effects on Bone and Fat via αV Integrin Receptors. _Cell_. 2018;175(7):1756-1768.e17.
+*DOI:*: #link("https://doi.org/10.1016/j.cell.2018.10.025")[10.1016/j.cell.2018.10.025]
+*PMID:*: 30550785
+*Key Findings:*:
+    - Identifies αV integrins (αvβ5 dominant) as the irisin receptor in osteocytes and adipocytes.
+*Conclusion:*: Establishes the receptor mechanism Souma 2026 invokes (TSP-1 antagonizing the αvβ5 axis).
+*Limitations:*: Mouse + cell culture; no ME/CFS data.
+*Certainty Assessment:*: 0.80 raw × 0.50 other-disease-model weight = discounted 0.40
+
+=== A et al.\ 2023 — Irisin Two-Step Signaling Requires Extracellular Hsp90α (MECHANISTIC)
+
+@A2023IrisinHsp90
+
+*Full Citation:*: A M, Wales TE, Zhou H, Draga-Coletă SV, Gorgulla C, Blackmore KA, et al. Irisin acts through its integrin receptor in a two-step process involving extracellular Hsp90α. _Molecular Cell_. 2023;83(11):1903-1920.e12.
+*DOI:*: #link("https://doi.org/10.1016/j.molcel.2023.05.008")[10.1016/j.molcel.2023.05.008]
+*PMID:*: 37267907
+*Key Findings:*:
+    - Irisin signals via αvβ5 in a two-step process requiring extracellular Hsp90α (eHsp90α) secreted with exercise; cryo-EM + HDX docking model (2.98 Å).
+*Conclusion:*: Defines the HSP90α–αvβ5 machinery Souma 2026 reports TSP-1 antagonizes.
+*Limitations:*: In vitro; first author indexed as "A M" (surname A, given Mu).
+*Certainty Assessment:*: 0.80 raw × 0.40 in-vitro weight = discounted 0.32
+
+=== Rogers et al.\ 2014 — TSP-1/CD47 Regulation of Vascular Responses (MECHANISTIC)
+
+@Rogers2014TSP1CD47
+
+*Full Citation:*: Rogers NM, Sharifi-Sanjani M, Csányi G, Pagano PJ, Isenberg JS. Thrombospondin-1 and CD47 regulation of cardiac, pulmonary and vascular responses in health and disease. _Matrix Biology_. 2014;37:92-101.
+*DOI:*: #link("https://doi.org/10.1016/j.matbio.2014.01.002")[10.1016/j.matbio.2014.01.002]
+*PMID:*: 24418252
+*Key Findings:*:
+    - TSP-1, via CD47, is a key endogenous inhibitor of NO signaling in the cardiovascular system; elevated in platelet/endothelial activation and disease.
+*Conclusion:*: Provides the NO-suppression mechanism Souma 2026 cites (TSP-1 impairs NO signaling).
+*Limitations:*: General vascular biology, not ME/CFS.
+*Certainty Assessment:*: 0.75 raw × 0.75 general-population weight = discounted 0.56
+
+=== Roberts et al.\ 2017 — Matricellular Proteins Regulate Redox/NO Signaling (MECHANISTIC)
+
+@Roberts2017MatricellularRedox
+
+*Full Citation:*: Roberts DD, Kaur S, Isenberg JS. Regulation of Cellular Redox Signaling by Matricellular Proteins in Vascular Biology, Immunology, and Cancer. _Antioxidants & Redox Signaling_. 2017;27(12):874-911.
+*DOI:*: #link("https://doi.org/10.1089/ars.2017.7140")[10.1089/ars.2017.7140]
+*PMID:*: 28712304
+*Key Findings:*:
+    - TSP-1 and other matricellular proteins regulate redox and NO signaling across vascular, immune, and cancer biology.
+*Conclusion:*: Supports TSP-1 as a broad metabolic/redox antagonist that Souma 2026 extends to irisin signaling.
+*Limitations:*: General biology review.
+*Certainty Assessment:*: 0.75 raw × 0.75 general-population weight = discounted 0.56
+
+=== Bazzazi et al.\ 2018 — TSP1 Inhibits VEGF-Akt-eNOS (COMPUTATIONAL)
+
+@Bazzazi2018TSP1eNOS
+
+*Full Citation:*: Bazzazi H, Zhang Y, Jafarnejad M, Isenberg JS, Annex BH, Popel AS. Computer Simulation of TSP1 Inhibition of VEGF-Akt-eNOS: An Angiogenesis Triple Threat. _Frontiers in Physiology_. 2018;9:644.
+*DOI:*: #link("https://doi.org/10.3389/fphys.2018.00644")[10.3389/fphys.2018.00644]
+*PMID:*: 29899706
+*Key Findings:*:
+    - Computational model: TSP-1 inhibits the VEGF-Akt-eNOS axis at multiple nodes, suppressing NO production and angiogenesis.
+*Conclusion:*: Mechanistic support for TSP-1 as a systemic NO antagonist, complementary to the irisin-TSP-1 antagonism in Souma 2026.
+*Limitations:*: In silico only.
+*Certainty Assessment:*: 0.50 raw × 0.30 in-silico weight = discounted 0.15
+
+=== Ercan et al.\ 2026 — Serum Irisin Not Altered in Fibromyalgia (NULL)
+
+@Ercan2026IrisinFMnull
+
+*Full Citation:*: Ercan Z, Esmez O, Danis EG, Dagdeviren B, Deniz G. Serum Isthmin-1 and Irisin profiles and their association with clinical parameters in fibromyalgia: a cross-sectional study. _Rheumatology International_. 2026;46(8):225.
+*DOI:*: #link("https://doi.org/10.1007/s00296-026-06239-5")[10.1007/s00296-026-06239-5]
+*PMID:*: 42550262
+*Key Findings:*:
+    - n=21 female FM (ACR 2016) vs 21 matched controls: serum irisin did NOT differ ($p = 0.580$); isthmin-1 was significantly reduced in FM and correlated with pain/depression.
+*Conclusion:*: NULL for irisin — contradicts a simple "low irisin = chronic fatigue/pain" model; irisin is not a robust cross-condition fatigue/pain biomarker.
+*Limitations:*: Small n; single center.
+*Certainty Assessment:*: 0.40 raw × 0.80 fibromyalgia weight = discounted 0.32
+
+=== Belviranlı et al.\ 2026 — CoQ10 Restores Irisin Signaling in FM Model (PRECLINICAL)
+
+@Belviranli2026CoQ10IrisinFM
+
+*Full Citation:*: Belviranlı M, Okudan N, Sezer T. Coenzyme Q10 improves redox homeostasis, mitochondrial biogenesis, and irisin signaling in fast- and slow-twitch muscle fibers in a reserpine-induced fibromyalgia-like myalgia model. _Life Sciences_. 2026;394:124366.
+*DOI:*: #link("https://doi.org/10.1016/j.lfs.2026.124366")[10.1016/j.lfs.2026.124366]
+*PMID:*: 41921657
+*Key Findings:*:
+    - Reserpine-induced FM-like myalgia in female Wistar rats depletes muscle CoQ10, elevates oxidative damage, suppresses AMPK/SIRT1/PGC1-α/FNDC5 (irisin); CoQ10 restores irisin signaling + mitochondrial biogenesis.
+*Conclusion:*: Independent link between mitochondrial/redox status and the FNDC5-irisin axis — supports "blunted irisin = metabolic adaptation failure" framing.
+*Limitations:*: Preclinical (rat); no human dosing.
+*Certainty Assessment:*: 0.45 raw × 0.50 animal-model weight = discounted 0.23
+
+=== dos Santos et al.\ 2023 — Whole-Body Vibration Raises Irisin in FM (RCT)
+
+@DosSantos2023WBVTIrisinFM
+
+*Full Citation:*: dos Santos JM, Taiar R, Ribeiro VGC, da Silva Lage VK, Scheidt Figueiredo PH, Costa HS, et al. Whole-Body Vibration Training on Oxidative Stress Markers, Irisin Levels, and Body Composition in Women with Fibromyalgia: A Randomized Controlled Trial. _Bioengineering_. 2023;10(2):260.
+*DOI:*: #link("https://doi.org/10.3390/bioengineering10020260")[10.3390/bioengineering10020260]
+*PMID:*: 36829754
+*Key Findings:*:
+    - RCT n=40 women with FM: 6 weeks whole-body vibration training increased plasma irisin and reduced oxidative stress (TBARS) and visceral fat vs untrained controls.
+*Conclusion:*: A low-impact mechanical stimulus can RAISE irisin in a chronic-pain cohort — the therapeutic lever Souma 2026 proposes, via mechanical (not pharmacological) intervention.
+*Limitations:*: FM cohort (not ME/CFS); n=40; short follow-up.
+*Certainty Assessment:*: 0.55 raw × 0.80 fibromyalgia weight = discounted 0.44
+
+=== Elsen et al.\ 2014 — Does Irisin Play a Role in Humans? (CONTROVERSY)
+
+@Elsen2014IrisinHumanCaveat
+
+*Full Citation:*: Elsen M, Raschke S, Eckel J. Browning of white fat: does irisin play a role in humans? _Journal of Endocrinology_. 2014;222(1):R25-R38.
+*DOI:*: #link("https://doi.org/10.1530/JOE-14-0189")[10.1530/JOE-14-0189]
+*PMID:*: 24781257
+*Key Findings:*:
+    - Exercise regulation of FNDC5 mRNA could not be reproduced in several human studies; the presence of irisin in humans is questionable and commercial ELISA kits give conflicting data.
+*Conclusion:*: Canonical caution against over-interpreting circulating irisin levels — directly relevant to Souma 2026's plasma irisin ELISA measurements.
+*Limitations:*: Review; measurement controversy unresolved.
+*Certainty Assessment:*: 0.70 raw × 0.75 general-population weight = discounted 0.53
+
+=== Cicek et al.\ 2023 — Irisin Lower in Depression, Tracks Energy (INDIRECT)
+
+@Cicek2023IrisinDepression
+
+*Full Citation:*: Cicek MA, Tuygar Okutucu F, Ozturk N. Irisin, adropin, and preptin as biomarkers of energy dysregulation in depressive disorder. _Current Medical Research and Opinion_. 2023;39(9):1263-1270.
+*DOI:*: #link("https://doi.org/10.1080/03007995.2023.2247317")[10.1080/03007995.2023.2247317]
+*PMID:*: 37574912
+*Key Findings:*:
+    - n=117 depression vs 59 controls: irisin/adropin/preptin lower in depression, positively correlated with quality of life, negatively with depression severity/functional impairment.
+*Conclusion:*: Consistent with "low irisin = low energy" — supports the directionality Souma 2026 inverts in severe ME (paradoxically high irisin with worse fatigue).
+*Limitations:*: Depression population (fatigue, not ME/CFS); cross-sectional.
+*Certainty Assessment:*: 0.50 raw × 0.75 general-population weight = discounted 0.38
+
+=== Lapauw et al.\ 2026 — Irisin Panel Poor Sarcopenia Diagnostic Accuracy (NULL)
+
+@Lapauw2026IrisinSarcopeniaNull
+
+*Full Citation:*: Lapauw L, Vermeiren L, Vercauteren L, Amini N, Peeters L, Dalle S, et al. An exploratory multi-biomarker panel including fecal calprotectin, Brain-Derived Neurotrophic Factor, Fibroblast-Growth Factor-21 and irisin shows poor diagnostic accuracy for detecting probable sarcopenia in community-dwelling older persons. _Aging Clinical and Experimental Research_. 2026;38(1):127.
+*DOI:*: #link("https://doi.org/10.1007/s40520-026-03368-6")[10.1007/s40520-026-03368-6]
+*PMID:*: 41940919
+*Key Findings:*:
+    - Multi-biomarker panel including irisin showed poor diagnostic accuracy for probable sarcopenia in community-dwelling older adults.
+*Conclusion:*: Circulating irisin alone is not a strong standalone biomarker — supports reading Souma 2026 as a signaling-resistance axis (with TSP-1), not a simple irisin blood test.
+*Limitations:*: Older-adult population; exploratory panel.
+*Certainty Assessment:*: 0.45 raw × 0.75 general-population weight = discounted 0.34
+
+// =============================================================================
+
+== L-Theanine-Caffeine Combination for Selective Attention in ADHD
+<sec:bib-theanine-caffeine-adhd>
+// research_stream = {theanine-caffeine-adhd}
+// Added 2026-08-15 (Phase-1 literature-integrator)
+// =============================================================================
+
+=== Nawarathna et al.\ 2026 — L-Theanine-Caffeine Combo vs Methylphenidate for Selective Attention in Adolescent ADHD
+
+@Nawarathna2026TheanineCaffeine
+
+*Full Citation:*: Nawarathna GS, Ariyasinghe DI, Balasooriya N, Fernando A, Dassanayake TL. Effects of L-theanine-caffeine combination on selective attention among adolescents with attention-deficit hyperactivity disorder: a double-blind, placebo-controlled, crossover study. _Nutritional Neuroscience_. 2026:1-14.
+*DOI:*: #link("https://doi.org/10.1080/1028415X.2026.2659148")[10.1080/1028415X.2026.2659148]
+*PMID:*: 42096377
+*Trial Registration:*: SLCTR/2023/004
+*Study Design:*: Double-blind, placebo-controlled, counterbalanced three-way crossover RCT
+*Sample Size:*: n=21 adolescents with ADHD (age 10-19; 18 boys)
+*Key Findings:*:
+    - L-theanine-caffeine combo (P=0.038) and methylphenidate (P=0.035) significantly reduced false alarms vs placebo on a computerized visual recognition reaction-time task.
+    - Hits and discrimination sensitivity (A') showed no significant differences (P>0.05).
+    - Only methylphenidate improved reaction time vs placebo (mean difference 43.89 ms, P=0.018).
+    - Both combo and methylphenidate increased P3b amplitude and decreased P3b latency (P\<0.05), and counteracted reaction-time slowing over task duration.
+*Conclusion:*: High-dose L-theanine-caffeine may enhance neural resource allocation and speed of selective-attention deployment in adolescent ADHD, supporting nutraceutical adjunct use — but it did not match methylphenidate on reaction time.
+*Limitations:*: n=21 (small); acute single-dose only; adolescent ADHD cohort (not ME/CFS); predominantly male (18/21); no long-term safety data.
+*Certainty Assessment:*: 0.55 raw × 0.75 ADHD disease-model weight = discounted 0.41
+
+=== Kahathuduwa et al.\ 2020 — L-Theanine-Caffeine Combo for Sustained Attention in Children with ADHD (Proof-of-Concept)
+
+@Kahathuduwa2020TheanineCaffeineADHD
+
+*Full Citation:*: Kahathuduwa CN, Wakefield S, West BD, Blume J, Dassanayake TL, Weerasinghe VS, Mastergeorge A. Effects of L-theanine-caffeine combination on sustained attention and inhibitory control among children with ADHD: a proof-of-concept neuroimaging RCT. _Scientific Reports_. 2020;10(1):13072.
+*DOI:*: #link("https://doi.org/10.1038/s41598-020-70037-7")[10.1038/s41598-020-70037-7]
+*PMID:*: 32753637
+*Study Design:*: Four-way repeated-measures crossover RCT with fMRI
+*Sample Size:*: n=5 boys with ADHD (age 8-15)
+*Key Findings:*:
+    - L-theanine alone improved NIH Cognition Toolbox total cognition composite (p=0.040) vs placebo.
+    - Caffeine alone worsened inhibitory control (Stop-signal reaction time, p=0.031); L-theanine trended toward worsening (p=0.053).
+    - Combination improved total cognition (p=0.041) and d-prime in Go/NoGo (p=0.033); decreased default-mode-network task reactivity.
+*Conclusion:*: Predecessor proof-of-concept to Nawarathna 2026 — combination is the active form, not the individual components; caffeine alone may harm inhibitory control.
+*Limitations:*: n=5 (very small); boys only; acute dosing.
+*Certainty Assessment:*: 0.40 raw × 0.75 ADHD disease-model weight = discounted 0.30
+
+=== Al Shahab et al.\ 2025 — Supplements for ADHD: Systematic Review (Caffeine-Alone NULL)
+
+@AlShahab2025ADHDSupplements
+
+*Full Citation:*: Al Shahab S, Al Balushi R, Qambar A, Abdulla R, Qader M, Abdulla S, Jahrami H. Efficiency of Different Supplements in Alleviating Symptoms of ADHD with or Without the Use of Stimulants: A Systematic Review. _Nutrients_. 2025;17(9):1482.
+*DOI:*: #link("https://doi.org/10.3390/nu17091482")[10.3390/nu17091482]
+*PMID:*: 40362791
+*Key Findings:*:
+    - L-theanine improved sleep efficiency but not other sleep parameters.
+    - Caffeine showed NO significant benefit alone; its combination with L-theanine may enhance attention.
+    - Bacopa monnieri consistently improved inattention/hyperactivity/memory; Ginkgo biloba reduced inattention but was less effective than methylphenidate.
+*Conclusion:*: Supplements cannot replace stimulant efficacy for ADHD; caffeine's attention benefit is dependent on L-theanine co-administration — a null/negative signal for caffeine monotherapy.
+*Limitations:*: Heterogeneous small studies; systematic review (no new data).
+*Certainty Assessment:*: 0.60 raw × 0.75 ADHD disease-model weight = discounted 0.45
+
+=== Anas Sohail et al.\ 2021 — Cognitive-Enhancing Mechanisms of Caffeine and L-Theanine (MECHANISM)
+
+@AnasSohail2021CaffeineTheanine
+
+*Full Citation:*: Anas Sohail A, Ortiz F, Varghese T, Fabara SP, Batth AS, Sandesara DP, Sabir A, Khurana M, Datta S, Patel UK. The Cognitive-Enhancing Outcomes of Caffeine and L-theanine: A Systematic Review. _Cureus_. 2021;13(12):e20828.
+*DOI:*: #link("https://doi.org/10.7759/cureus.20828")[10.7759/cureus.20828]
+*PMID:*: 35111479
+*Key Findings:*:
+    - Caffeine inhibits adenosine A1/A2A receptors, augmenting attention via increased cholinergic and dopaminergic transmission.
+    - L-theanine behaves as a glutamate reuptake inhibitor and competitive low-affinity glutamate receptor antagonist in hippocampus, with neuroprotective action on GABA-A receptors.
+*Conclusion:*: Documents the dual mechanistic basis — caffeine (adenosine antagonism) vs L-theanine (glutamate/GABA modulation) — for the combination's attention effect.
+*Limitations:*: Low-impact journal (Cureus); review only, no new data.
+*Certainty Assessment:*: 0.45 raw × 0.75 general-population weight = discounted 0.34
+
+=== Gerolymos et al.\ 2026 — L-Theanine Meta-Analysis: Attention Benefit, No Fatigue Effect (NULL fatigue)
+
+@Gerolymos2026TheanineMeta
+
+*Full Citation:*: Gerolymos C, Saddier E, Boyer L, Fond G. Cognitive and affective effects of L-Theanine: a systematic review and meta-analysis of 31 randomized trials. _Molecular Psychiatry_. 2026. Epub ahead of print.
+*DOI:*: #link("https://doi.org/10.1038/s41380-026-03727-9")[10.1038/s41380-026-03727-9]
+*PMID:*: 42410082
+*Key Findings:*:
+    - Single 200 mg dose improved choice reaction time (SMD=0.51; 95% CI 0.25-0.77), indicating enhanced attention.
+    - Acute stress reduction modest (SMD=0.31) and driven by high risk-of-bias studies.
+    - NO significant effect on fatigue — the critical null for ME/CFS relevance.
+    - No serious adverse events reported.
+*Conclusion:*: L-theanine is safe with a robust short-term attention benefit in healthy adults, but does not reduce fatigue — limiting its direct applicability to ME/CFS fatigue.
+*Limitations:*: Mostly healthy populations; fatigue outcome null; COI (Fond founded a supplement company).
+*Certainty Assessment:*: 0.80 raw × 0.75 general-population weight = discounted 0.60
+
+=== Becker et al.\ 2022 — Stimulant Cognitive Enhancement Mechanism: FPN-DMN Decoupling (COMPETING MECHANISM)
+
+@Becker2022StimulantCognition
+
+*Full Citation:*: Becker M, Repantis D, Dresler M, Kühn S. Cognitive enhancement: Effects of methylphenidate, modafinil, and caffeine on latent memory and resting state functional connectivity in healthy adults. _Human Brain Mapping_. 2022;43(14):4225-4238.
+*DOI:*: #link("https://doi.org/10.1002/hbm.25949")[10.1002/hbm.25949]
+*PMID:*: 35670369
+*Study Design:*: Double-blind RCT with resting-state fMRI
+*Sample Size:*: n=48 healthy male adults
+*Key Findings:*:
+    - Methylphenidate, modafinil, and caffeine all enhanced memory and modulated frontoparietal-network (FPN) vs default-mode-network (DMN) functional connectivity.
+    - Decreased negative FPN-DMN connectivity predicted stimulant-induced latent memory enhancement.
+*Conclusion:*: Establishes a shared dopamine/network-level mechanism (FPN-DMN decoupling) for stimulant cognitive enhancement — the comparator mechanism against methylphenidate's DAT blockade.
+*Limitations:*: Healthy males only; acute dosing.
+*Certainty Assessment:*: 0.70 raw × 0.75 general-population weight = discounted 0.53
+
+=== Carbone et al.\ 2025 — Caffeine in Aging Brains: Tolerance, Withdrawal, Fatigue (HARM)
+
+@Carbone2025CaffeineAging
+
+*Full Citation:*: Carbone MG, Pagni G, Tagliarini C, Maremmani I, Maremmani AGI. Caffeine in Aging Brains: Cognitive Enhancement, Neurodegeneration, and Emerging Concerns About Addiction. _International Journal of Environmental Research and Public Health_. 2025;22(8):1171.
+*DOI:*: #link("https://doi.org/10.3390/ijerph22081171")[10.3390/ijerph22081171]
+*PMID:*: 40869757
+*Key Findings:*:
+    - Caffeine acts on central adenosine, dopamine, and glutamate systems, producing stimulating and rewarding effects that foster tolerance.
+    - Chronic exposure induces adenosine receptor down-regulation → tolerance and withdrawal (headache, irritability, fatigue).
+    - Excessive use may cause anxiety, sleep disturbance, and cognitive/motor impairment.
+*Conclusion:*: Documents caffeine use disorder and withdrawal-fatigue — the adenosine-receptor down-regulation mechanism that could mimic or exacerbate ME/CFS fatigue and sleep disruption.
+*Limitations:*: Narrative review; aging population (not ME/CFS).
+*Certainty Assessment:*: 0.45 raw × 0.75 general/aging weight = discounted 0.34
+
+=== Srinivasan & Joseph 2026 — ATP-P2X3 Dysgeusia Hypothesis: Purinergic Bridge to ME/CFS (INDIRECT)
+
+@Srinivasan2026P2X3Dysgeusia
+
+*Full Citation:*: Srinivasan M, Joseph PV. A hypothesis connecting dysgeusia due to defects in ATP-P2X3 signaling and fatigue in myalgic encephalomyelitis/chronic fatigue syndrome: lessons learned from long-COVID. _Frontiers in Medicine_. 2026;13:1808646.
+*DOI:*: #link("https://doi.org/10.3389/fmed.2026.1808646")[10.3389/fmed.2026.1808646]
+*PMID:*: 42040552
+*Key Findings:*:
+    - Proposes dysregulation of ATP signaling through P2X2/P2X3 purinergic receptors underlies both gustatory impairment and core ME/CFS symptoms (PEM, brain fog, autonomic dysregulation).
+    - Positions chemosensory/taste dysfunction as an underrecognized ME/CFS feature; proposes standardized taste testing as a non-invasive PEM screening tool.
+*Conclusion:*: Indirect biochemical bridge — the P2X purinergic/adenosine signaling axis is the same downstream system caffeine antagonizes (adenosine A1/A2A receptors), linking caffeine's adenosine mechanism to ME/CFS purinergic dysregulation.
+*Limitations:*: Hypothesis only, no primary data.
+*Certainty Assessment:*: 0.45 raw × 0.85 long-COVID/ME/CFS weight = discounted 0.38
+
+=== Palacios et al.\ 2023 — ME/CFS vs Severe Fatigue Risk Factors: No Caffeine Association (NULL)
+
+@Palacios2023MECFSRiskFactors
+
+*Full Citation:*: Palacios N, Molsberry S, Fitzgerald KC, Komaroff AL. Different risk factors distinguish myalgic encephalomyelitis/chronic fatigue syndrome from severe fatigue. _Scientific Reports_. 2023;13(1):2469.
+*DOI:*: #link("https://doi.org/10.1038/s41598-023-29329-x")[10.1038/s41598-023-29329-x]
+*PMID:*: 36774379
+*Study Design:*: Prospective cohort (Nurses' Health Study)
+*Sample Size:*: n=41,802 female nurses (102 ME/CFS, 522 severe fatigue, 41,178 controls)
+*Key Findings:*:
+    - Severe fatigue risk increased with older age, higher BMI, hormone therapy, increased alcohol, and DECREASED caffeine intake.
+    - These associations were NOT seen in ME/CFS — caffeine had no association with ME/CFS risk.
+*Conclusion:*: Key null/negative signal: caffeine's inverse association with general fatigue does not extend to ME/CFS, cautioning against generalizing caffeine's fatigue effects to the ME/CFS population.
+*Limitations:*: Female nurses only; diagnostic criteria for ME/CFS subset not fully specified; observational.
+*Certainty Assessment:*: 0.75 raw × 0.85 ME/CFS weight = discounted 0.64
+
+=== Weigel et al.\ 2021 — Nutrition and Supplement Use in Australian ME/CFS (caffeine self-medication)
+
+@Weigel2021NutritionSupplementME
+
+*Full Citation:*: Weigel B, Eaton-Fitch N, Passmore R, Cabanas H, Staines D, Marshall-Gradisnik S. A preliminary investigation of nutritional intake and supplement use in Australians with myalgic encephalomyelitis/chronic fatigue syndrome and the implications on health-related quality of life. _Food & Nutrition Research_. 2021;65:5730.
+*DOI:*: #link("https://doi.org/10.29219/fnr.v65.5730")[10.29219/fnr.v65.5730]
+*PMID:*: 34262415
+*Study Design:*: Cross-sectional survey
+*Sample Size:*: n=24 Australian ME/CFS patients (54.2% ICC, 79.2% female)
+*Key Findings:*:
+    - Daily caffeine intake significantly HIGHER in ME/CFS patients than the Australian population (P=0.033).
+    - Supplement use highly prevalent (87.5%); no consistent trends between nutrition/supplement use and HRQoL.
+*Conclusion:*: ME/CFS patients self-report elevated caffeine consumption (contrasting Palacios 2023), suggesting caffeine is used as fatigue self-medication without demonstrated HRQoL benefit.
+*Limitations:*: n=24 (very small); self-report; no efficacy outcome.
+*Certainty Assessment:*: 0.45 raw × 0.85 ME/CFS weight = discounted 0.38
+
+=== Erasmus et al.\ 2019 — Caffeine as Phase-I Probe in Chronic Fatigue Biotransformation (INDIRECT)
+
+@Erasmus2019BiotransformationCF
+
+*Full Citation:*: Erasmus E, Steffens FE, van Reenen M, Vorster BC, Reinecke CJ. Biotransformation profiles from a cohort of chronic fatigue women in response to a hepatic detoxification challenge. _PLoS One_. 2019;14(5):e0216298.
+*DOI:*: #link("https://doi.org/10.1371/journal.pone.0216298")[10.1371/journal.pone.0216298]
+*PMID:*: 31075116
+*Study Design:*: Seven-year metabolomics cohort study
+*Sample Size:*: n=576 women with low-to-high chronic fatigue
+*Key Findings:*:
+    - Hepatic detoxification challenge via oral caffeine (CYP1A2 phase-I probe), acetaminophen, and aspirin showed normal phase I but increased phase II glucuronidation and glycination conjugation.
+    - Proposes fatigue-scale + medical symptoms + biotransformation profiles as a personalized diagnostic instrument.
+*Conclusion:*: Indirect biochemical link — caffeine metabolism (phase I) is directly tied to chronic-fatigue biotransformation, connecting caffeine handling to fatigue pathophysiology.
+*Limitations:*: Chronic fatigue (not strict ME/CFS criteria); all-female; no treatment outcome.
+*Certainty Assessment:*: 0.50 raw × 0.75 general chronic-fatigue weight = discounted 0.38

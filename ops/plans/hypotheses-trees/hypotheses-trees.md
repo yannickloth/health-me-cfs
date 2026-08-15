@@ -247,6 +247,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | methylation-loss-consolidation | [subtrees/methylation-loss-consolidation.md](subtrees/methylation-loss-consolidation.md) | 2026-05-24 | 24 | 0 | ⬜ pending |
 | corticosteroid-mechanisms-postviral | [subtrees/corticosteroid-mechanisms-postviral.md](subtrees/corticosteroid-mechanisms-postviral.md) | 2026-05-14 | 36 | 9 | 🔵 in progress |
 | lc-autoantibodies-cell2026 | [subtrees/lc-autoantibodies-cell2026.md](subtrees/lc-autoantibodies-cell2026.md) | 2026-05-30 | 28 | 3 | ✅ done |
+| theanine-caffeine-adhd | [subtrees/theanine-caffeine-adhd.md](subtrees/theanine-caffeine-adhd.md) | 2026-08-15 | 13 | 7 | 🔵 in progress |
 
 ---
 
@@ -263,6 +264,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | cd4-tcell-innate | [subtrees/cd4-tcell-innate.md](subtrees/cd4-tcell-innate.md) | 2026-05-18 | 5 | 5 | ✅ integrated | —
 | monocyte-dc-immunophenotyping | [subtrees/monocyte-dc-immunophenotyping.md](subtrees/monocyte-dc-immunophenotyping.md) | 2026-05-20 | 38 | 12 | 🔵 in progress | —
 | cpet-null-replication | [subtrees/cpet-null-replication.md](subtrees/cpet-null-replication.md) | 2026-05-26 | 56 | 5 | ✅ done | 56 subtree nodes parked (↩️ tree-only); 5 core ideas integrated (ch06/14f/17/registry) — see changelog |
+| davenport2025-effort-deconditioning | [subtrees/davenport2025-effort-deconditioning.md](subtrees/davenport2025-effort-deconditioning.md) | 2026-08-15 | 12 | 5 | 🔵 in progress | 10 research-direction/diagnostic proposals (R1–R10), 2 critical-null (C11–C12); R1–R3 + C11–C12 flagged for integration |
 | watton2026-unified-mechanistic-model | [subtrees/watton2026-unified-mechanistic-model.md](subtrees/watton2026-unified-mechanistic-model.md) | 2026-05-23 | 52 | 0 | 🔵 in progress | —
 | sleepfm-ai-sleep-prediction | [subtrees/sleepfm-ai-sleep-prediction.md](subtrees/sleepfm-ai-sleep-prediction.md) | 2026-05-24 | 31 | 31 | ✅ done | —
 | tissue-specific-autoantibodies-long-covid | [subtrees/tissue-specific-autoantibodies-long-covid.md](subtrees/tissue-specific-autoantibodies-long-covid.md) | 2026-05-24 | 36 | 0 | 🔵 in progress | —
@@ -353,3 +355,4 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | anellovirus-viral-reactivation-mecfs | [subtrees/anellovirus-viral-reactivation-mecfs.md](subtrees/anellovirus-viral-reactivation-mecfs.md) | 2026-08-13 | 9 | 4 | ✅ done |
 | adult-red-flags-safety-netting-protocol | [subtrees/adult-red-flags-safety-netting-protocol.md](subtrees/adult-red-flags-safety-netting-protocol.md) | 2026-08-14 | 23 | 0 | 🔵 in progress |
 | immune-checkpoint-tolerance-immunotherapy | [subtrees/immune-checkpoint-tolerance-immunotherapy.md](subtrees/immune-checkpoint-tolerance-immunotherapy.md) | 2026-08-15 | 20 | 3 | ✅ done |
+| irisin-signaling-resistance-pem | [subtrees/irisin-signaling-resistance-pem.md](subtrees/irisin-signaling-resistance-pem.md) | 2026-08-15 | 16 | 2 | 🔵 in progress |

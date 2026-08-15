@@ -77,3 +77,5 @@
 | 10b | 2026-08-15 | ✅ LEGIT-SKIP | Framing already established; targeted completion |
 | 11 | 2026-08-15 | ✅ | Review converged (2 clean rounds); removed orphaned effortcritique2025 bib key |
 | 12 | 2026-08-15 | ✅ | Changelog Version 7.19 entry added |
+| 12.5 | 2026-08-15 | ✅ | Completion gate: zero omissions; all phases RAN/LEGIT-SKIP |
+| 13 | 2026-08-15 | ✅ | Commit `847c2183` (11 exclusive files). Shared files (appendix-h, registry, hypotheses-trees, scrape-registry, changelog) deferred to parallel sessions. |
