@@ -11431,5 +11431,30 @@
     "label": "SHAP",
     "category": "method",
     "definition": "SHapley Additive exPlanations: a game-theoretic method that attributes a machine-learning model's prediction to its input features. In BioMapAI, SHAP values generate an explainable connectivity map linking omics features to symptom attributions — but these attributions are model output and were not held-out validated."
+  },
+  "Irisin": {
+    "label": "Irisin",
+    "category": "protein",
+    "definition": "A 112-amino-acid myokine (hormone-like protein) released from muscle during exercise, produced by cleavage of FNDC5. It signals through αV integrins (including αvβ5) and promotes mitochondrial biogenesis, glucose uptake, and metabolic adaptation. Proposed (Souma 2026) to be functionally antagonised by elevated thrombospondin-1 in ME/CFS, contributing to blunted metabolic adaptation during PEM."
+  },
+  "Thrombospondin-1": {
+    "label": "Thrombospondin-1",
+    "category": "protein",
+    "definition": "TSP-1: a matricellular glycoprotein elevated in platelet/endothelial activation that suppresses nitric-oxide signalling via CD47 and inhibits angiogenesis. Proposed to act as a dominant antagonist of irisin signalling at the HSP90α/αvβ5 axis, contributing to irisin signalling resistance and impaired metabolic adaptation in ME/CFS. Also an endothelial-activation marker in some ME/CFS biomarker panels."
+  },
+  "HSP90α": {
+    "label": "HSP90α",
+    "category": "protein",
+    "definition": "Heat shock protein 90 alpha: a molecular chaperone, a fraction of which is secreted extracellularly, where it modulates integrin activation and ligand-receptor signalling. Extracellular HSP90α supports irisin signalling through the αvβ5 integrin; its deficiency contributes to irisin signalling resistance. HSP90 inhibitors degrade this co-receptor and are NOT indicated."
+  },
+  "ERP": {
+    "label": "ERP",
+    "category": "test",
+    "definition": "Event-Related Potential: a measured brain electrical response time-locked to a specific stimulus or task event, extracted from EEG by averaging. ERPs index neural processing stages such as attention allocation (P3b) that cannot be observed in raw behavior alone."
+  },
+  "P3b": {
+    "label": "P3b",
+    "category": "test",
+    "definition": "P3b: the late (300-600 ms) centroparietal component of the event-related potential (ERP) that indexes attentional resource allocation and target evaluation. In the L-theanine-caffeine ADHD trial, increased P3b amplitude and decreased latency indicated enhanced neural allocation to selective attention."
   }
 }

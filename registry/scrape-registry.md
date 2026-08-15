@@ -13,6 +13,18 @@ Prevents re-processing of already-integrated content.
 
 ---
 
+## Irisin Signaling Resistance in PEM Literature Search
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-08-15 | 19 queries: direct (irisin ME/CFS/chronic fatigue/PEM), mechanistic (irisin αV integrin/HSP90α/FNDC5-mitochondrial), competing (irisin fibromyalgia/depression/sarcopenia), null/negative (irisin fatigue negative, detection false-positive), TSP-1 (chronic fatigue, NO/vascular, CD47, fibrosis), HSP90α extracellular signaling. Crossref + Europe PMC for metadata/author disambiguation. Null+contradicting+indirect-biochemical searches included. |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed API queries (19 queries, batch) | pubmed/eutils | 2026-08-15 | — | ops/research/search-log-irisin-signaling-resistance-pem-2026-08-15.md, ops/research/literature-summary-irisin-signaling-resistance-pem.md, bib/energy-metabolism.bib, bib/vascular.bib, bib/pain-fibromyalgia.bib, bib/general.bib, appendix-h — Irisin signaling resistance/TSP-1-HSP90α-αvβ5 PEM literature (13 new papers) |
+| Crossref API (11 DOIs) | crossref | 2026-08-15 | — | Author/volume/page verification for Souma 2026 + foundational irisin/TSP-1 papers |
+
+---
+
 ## Immune-Checkpoint / Tolerance / Immunotherapy Literature Search
 | Source | Last Scraped | Notes |
 |--------|--------------|-------|
@@ -898,3 +910,26 @@ Prevents re-processing of already-integrated content.
 | URL | Source | Scraped | Integrated | Target |
 |-----|--------|---------|------------|--------|
 | PubMed E-utilities API (15 queries + esummary/efetch, batch) | pubmed/eutils | 2026-08-15 | — | ops/research/search-log-episwitch-2026-08-15.md; ops/research/literature-episwitch-2026-08-15.md; bib/genetics-epigenetics.bib (14 new entries); appendix-h (14 annotated entries) — EpiSwitch 3D-genomic diagnostic topic (14 papers: 4 platform/cross-disease, 4 mechanism, 3 competing biomarker, 3 review/context) |
+
+## Davenport 2025 Effort/Deconditioning Matters Arising — Literature Search (2026-08-15)
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities esearch + esummary + efetch) | 2026-08-15 | 11 queries: chronotropic intolerance ME/CFS; orthostatic chronotropic incompetence; EEfRT / effort expenditure rewards task; effort preference Walitt; 2-day CPET (2022–2026); deconditioning hypothesis ME/CFS; RPE/effort perception ME/CFS; Pritchard ARTP (0 hits); single-CPET insufficiency (0 hits). PMIDs added: 30968005, 37303862, 36818521, 35290404, 19672310. |
+| Crossref API | 2026-08-15 | Primary DOI 10.1038/s41467-025-64538-0 metadata verification (article-number 9176, 14 authors). |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| https://www.nature.com/articles/s41467-025-64538-0 | nature.com | 2026-08-15 | 2026-08-15 | bib/exercise-pem.bib (@Davenport2025EffortDeconditioning, key corrected from effortcritique2025); appendix-h sec:bib-effort-deconditioning; ch41-controversies + ch37-mechanistic-studies (citation key updated) |
+| PubMed E-utilities API (11 queries + esummary/efetch, batch) | pubmed/eutils | 2026-08-15 | — | ops/research/search-log-davenport2025-effort-deconditioning-2026-08-15.md; ops/research/literature-davenport2025-effort-deconditioning-2026-08-15.md; bib/exercise-pem.bib (5 new); appendix-h sec:bib-effort-deconditioning (6 annotated entries) — Davenport 2025 effort/deconditioning rebuttal topic |
+
+---
+
+## L-Theanine-Caffeine Combination for Selective Attention in ADHD
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-08-15 | 23 queries: direct (L-theanine/caffeine/ADHD/attention), null/negative (caffeine monotherapy null, L-theanine fatigue null), competing mechanisms (methylphenidate vs caffeine, FPN-DMN connectivity), harm (caffeine adverse/adverse-effects/toxicity, L-theanine safety/adverse, methylphenidate mechanism), indirect biochemical links (adenosine receptor ME/CFS, adenosine PEM, caffeine PEM, caffeine energy metabolism, L-theanine GABA, stimulant CFS, caffeine biotransformation). Crossref for author disambiguation. Null+harm+indirect-biochemical searches MANDATORY included. |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed API queries (23 queries, batch) | pubmed/eutils | 2026-08-15 | — | ops/research/search-log-theanine-caffeine-adhd-2026-08-15.md, ops/research/literature-summary-theanine-caffeine-adhd.md, bib/treatments.bib, bib/neurology-comorbidities.bib, bib/epidemiology.bib, bib/energy-metabolism.bib, appendix-h — L-theanine-caffeine/ADHD selective-attention + caffeine/L-theanine harm + adenosine/purinergic ME/CFS bridge literature (11 new papers) |
+| Crossref API (2 DOIs) | crossref | 2026-08-15 | — | Author disambiguation for Al Shahab 2025 (nu17091482) and Anas Sohail 2021 (cureus.20828) |
