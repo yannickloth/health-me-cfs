@@ -43,6 +43,7 @@ design specifications, and expected outcomes.
 #include "./lsr-diagnostic-biomarker-validation/lsr-diagnostic-biomarker-validation.typ"
 #include "./sleepfm-cross-modal-decoupling/sleepfm-cross-modal-decoupling.typ"
 #include "./connective-tissue-research-pro/connective-tissue-research-pro.typ"
+#include "./deconditioned-matched-cpet-separation/deconditioned-matched-cpet-separation.typ"
 #include "./engineered-exosome-mediated-cn/engineered-exosome-mediated-cn.typ"
 #include "./thermoregulatory-research-prot/thermoregulatory-research-prot.typ"
 
