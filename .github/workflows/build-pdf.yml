@@ -41,14 +41,18 @@ jobs:
 
       - name: Ensure swap space (typst compile exceeds runner RAM)
         run: |
-          free -h
-          if sudo swapon --show=NAME --noheadings --raw | grep -Fxq /swapfile; then
-            echo "/swapfile already active"
+          df -h /; free -h
+          # Runner ships a small 3 GiB /swapfile. typst's monolithic compile
+          # peaks ~17 GB and OOMs on 15 GB RAM + 3 GB swap. Add a distinct
+          # second swapfile for real margin (guard on its own path so the
+          # pre-existing /swapfile is preserved and this stays idempotent).
+          if sudo swapon --show=NAME --noheadings --raw | grep -Fxq /swapfile-ci; then
+            echo "/swapfile-ci already active"
           else
-            sudo dd bs=1048576 count=8192 if=/dev/zero of=/swapfile   # 8 GiB
-            sudo chmod 600 /swapfile
-            sudo mkswap /swapfile
-            sudo swapon /swapfile
+            sudo dd bs=1048576 count=8192 if=/dev/zero of=/swapfile-ci   # 8 GiB
+            sudo chmod 600 /swapfile-ci
+            sudo mkswap /swapfile-ci
+            sudo swapon /swapfile-ci
           fi
           free -h
 
