@@ -1,5 +1,6 @@
 ---
 title: "Yannick Loth"
+description: "Author of ME/CFS — A Comprehensive Medical Documentation, an open-access synthesis of myalgic encephalomyelitis / chronic fatigue syndrome."
 about:
   template: trestles
   links:

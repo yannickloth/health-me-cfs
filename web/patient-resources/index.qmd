@@ -1,5 +1,6 @@
 ---
 title: "Patient Resources"
+description: "Patient-facing resources for myalgic encephalomyelitis / chronic fatigue syndrome — practical guidance on symptoms, pacing, and advocacy."
 toc: true
 ---
 

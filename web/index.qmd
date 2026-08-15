@@ -1,5 +1,6 @@
 ---
 title: "ME/CFS — A Comprehensive Medical Documentation"
+description: "An open-access, comprehensive medical documentation of Myalgic Encephalomyelitis / Chronic Fatigue Syndrome — a severe, chronic, multi-system neuroimmune disease affecting 0.89–2.5% of the global population."
 listing:
   id: recent-posts
   contents: en/blog/posts

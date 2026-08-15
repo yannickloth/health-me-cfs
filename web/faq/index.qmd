@@ -1,5 +1,6 @@
 ---
 title: "Frequently Asked Questions"
+description: "Answers to common questions about myalgic encephalomyelitis / chronic fatigue syndrome — symptoms, diagnosis, treatment, and research."
 toc: true
 toc-depth: 2
 ---

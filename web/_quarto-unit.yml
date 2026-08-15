@@ -32,6 +32,9 @@ bibliography:
 website:
   site-url: "https://yannickloth.github.io/health-me-cfs/"
   title: "Myalgic Encephalomyelitis / Chronic Fatigue Syndrome"
+  image: https://yannickloth.github.io/health-me-cfs/logos/og-social.png
+  open-graph: true
+  twitter-card: true
   navbar:
     logo:
       light: logos/ribbon.svg
@@ -77,6 +80,7 @@ format:
       - glossary-de.json
       - mecfs-sidebar.js
       - mecfs-sidebar.json
+      - logos/og-social.png
     crossref:
       sec-prefix: Section
       fig-prefix: Figure
