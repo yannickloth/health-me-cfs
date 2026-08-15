@@ -77,7 +77,10 @@
   pmid = {41057909},
   url = {https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-025-07203-w},
   keywords = {ME/CFS, biomarkers, epigenetics, chromosome conformation, IL-2, diagnostic test},
-  research_stream = {genetics-epigenetics}
+  research_stream = {genetics-epigenetics},
+  certainty = {0.50},
+  diagnostic_criteria = {severe ME/CFS cohort (housebound)},
+  note = {UEA / Oxford BioDynamics. n=47 severe (housebound) ME/CFS + 61 age-matched healthy controls. EpiSwitch 3D genomic profiling (DNA folding/chromatin conformation in blood). 200 biomarkers; 92% sensitivity, 98% specificity, 96% overall accuracy. Top pathways: IL-2 hub, innate immune activation, JAK-STAT. Overlapping pathways in MS and RA. LIMITATIONS: severe/housebound only (not generalisable to mild/moderate); commercial proprietary platform; no independent external replication cohort. NOTE: prior duplicate keys Pshezhetskiy2025episwitch and hunter2025biomarker deleted on 2026-08-15 during pipeline-governed repair.}
 }
 
 @article{Dibble2020genetics,
@@ -995,37 +998,6 @@
                   LIMITATIONS: no independent validation cohort reported.}
 }
 
-@article{Pshezhetskiy2025episwitch,
-  author       = {Pshezhetskiy, Dmitry and others},
-  title        = {Development and validation of blood-based diagnostic biomarkers
-                  for Myalgic Encephalomyelitis/Chronic Fatigue Syndrome ({ME/CFS})
-                  using {EpiSwitch}{\textregistered} 3-dimensional genomic regulatory
-                  immuno-genetic profiling},
-  journal      = {Journal of Translational Medicine},
-  year         = {2025},
-  volume       = {23},
-  number       = {1},
-  pages        = {1048},
-  doi          = {10.1186/s12967-025-07203-w},
-  pmid         = {41057909},
-  url          = {https://doi.org/10.1186/s12967-025-07203-w},
-  keywords     = {ME/CFS, epigenetics, 3D genomics, diagnostic biomarker,
-                  IL-2, JAK-STAT, patient stratification, EpiSwitch,
-                  epigenetics-mecfs},
-  research_stream = {epigenetics-mecfs},
-  certainty    = {0.50},
-  note         = {UEA / Oxford Biodynamics. n=47 severe (housebound) ME/CFS
-                  + 61 age-matched healthy controls. EpiSwitch 3D genomic
-                  profiling (DNA folding patterns in blood). 200 biomarkers;
-                  92% sensitivity, 98% specificity, 96% overall accuracy.
-                  Top pathways: IL-2 hub, innate immune activation, JAK-STAT.
-                  Similar pathways in MS and RA. RELEVANCE: independent epigenetic
-                  approach (3D chromatin vs CpG methylation) converging on
-                  epigenetic dysregulation as central to ME/CFS; supports
-                  patient stratification potential. LIMITATIONS: severe/housebound
-                  only; commercial technology; no independent replication.}
-}
-
 @article{Nogalski2019HSATII,
   author       = {Nogalski, Matthew T. and Shenk, Thomas},
   title        = {Herpes simplex virus 1-encoded microRNAs are not essential for viral replication in cultured cells and do not attenuate viral growth in vivo but are critical for HSATII transcript accumulation in infected cells},
@@ -1803,4 +1775,229 @@
   note    = {Multi-tissue gene expression and eQTL atlas: 838 postmortem donors, 49 tissues, 15,201 RNA-seq samples. GTEx v8 (2019 release) used by DecodeME preprint for MAGMA tissue enrichment analysis. All brain regions show significant ME/CFS-associated gene enrichment. Pre-processed expression data available via FUMA platform. Tissue-level resolution only; postmortem tissue; steady-state mRNA proxy},
   research_stream = {genetics-resource},
   certainty = {0.90}
+}
+
+% ============================================================================
+% EPISWITCH 3D-GENOMIC DIAGNOSTIC — replication/cross-condition/competing evidence
+% Added 2026-08-15 (literature-episwitch-2026-08-15)
+% ============================================================================
+
+@article{Carini2018mtxCCS,
+  author       = {Carini, Claudio and Hunter, Ewan and Ramadass, Aroul S and Green, Jayne and Akoulitchev, Alexandre and McInnes, Iain B and Goodyear, Carl S},
+  title        = {Chromosome conformation signatures define predictive markers of inadequate response to methotrexate in early rheumatoid arthritis},
+  journal      = {Journal of Translational Medicine},
+  year         = {2018},
+  volume       = {16},
+  number       = {1},
+  pages        = {18},
+  doi          = {10.1186/s12967-018-1387-9},
+  pmid         = {29378619},
+  keywords     = {EpiSwitch, chromosome conformation signature, rheumatoid arthritis, methotrexate, biomarker, DMARD non-response},
+  note         = {First EpiSwitch chromosome-conformation-signature (CCS) diagnostic in an autoimmune disease. n=early RA patients commencing MTX; 5-marker CCS discriminated MTX responders vs non-responders with cross-validation. Demonstrates platform generalizability beyond cancer to autoimmune/inflammatory disease. Oxford BioDynamics (authors Hunter, Green, Akoulitchev are OBD employees — commercial COI). Scottish Early RA Inception cohort. No independent external replication cohort.},
+  research_stream = {episwitch},
+  certainty    = {0.50}
+}
+
+@article{Alshaker2021prostateCCS,
+  author       = {Alshaker, Heba and Mills, Rob and Hunter, Ewan and Salter, Matthew and Ramadass, Aroul S and Skinner, Benjamin M and Westra, Willem and Green, Jayne and Akoulitchev, Alexandre and Winkler, Mathias and Pchejetski, Dmitri},
+  title        = {Chromatin conformation changes in peripheral blood can detect prostate cancer and stratify disease risk groups},
+  journal      = {Journal of Translational Medicine},
+  year         = {2021},
+  volume       = {19},
+  number       = {1},
+  pages        = {46},
+  doi          = {10.1186/s12967-021-02710-y},
+  pmid         = {33509203},
+  keywords     = {EpiSwitch, chromosome conformation signature, prostate cancer, PSA, 3D genome, liquid biopsy},
+  note         = {EpiSwitch chromosome-conformation test detects prostate cancer from peripheral blood and stratifies risk groups (Pchejetski/Dmitri — same senior author as Hunter 2025 ME/CFS paper). Establishes the 3D-genomic blood assay cross-disease precedent. Oxford BioDynamics commercial COI. Demonstrates the platform's marker panels are disease-specific and not generic inflammation.},
+  research_stream = {episwitch},
+  certainty    = {0.55}
+}
+
+@article{Berghausen2025PSErealworld,
+  author       = {Berghausen, Joos and Abdo, Joe and Mathis, Ryan and Hunter, Ewan and Akoulitchev, Alexandre and Pohlman, Gregory D},
+  title        = {{EpiSwitch} {PSE} Blood Test Reduces Unnecessary Prostate Biopsies: A Real-World Clinical Utility Study},
+  journal      = {Cancers},
+  year         = {2025},
+  volume       = {17},
+  number       = {13},
+  pages        = {2193},
+  doi          = {10.3390/cancers17132193},
+  pmid         = {40647492},
+  keywords     = {EpiSwitch, PSE, prostate cancer, 3D genome, clinical utility, biopsy avoidance, real-world},
+  note         = {Real-world clinical utility study of the EpiSwitch PSE 3D-genomic blood test. n=187 prostate-cancer-evaluation patients; predictive modeling showed up to 79.1\% could safely defer biopsy. Strong concordance with biopsy diagnosis; 100\% technical success; 4.4-day turnaround. All authors Oxford BioDynamics employees/paid advisors (full commercial COI, disclosed). Prospective multicenter trials still needed.},
+  research_stream = {episwitch},
+  certainty    = {0.45}
+}
+
+@article{Abdo2025CiRTPROWES,
+  author       = {Abdo, Joe and Berghausen, Joos and Mathis, Ryan and Guiel, Thomas and Hunter, Ewan and Heaton, Robert and Akoulitchev, Alexandre and Naidu, Srikant and Patel, Kushal},
+  title        = {Clinical Utility of the {EpiSwitch} {CiRT} Test to Guide Immunotherapy Across Solid Tumors: Interim Results from the {PROWES} Study},
+  journal      = {Cancers},
+  year         = {2025},
+  volume       = {17},
+  number       = {17},
+  pages        = {2900},
+  doi          = {10.3390/cancers17172900},
+  pmid         = {40940997},
+  keywords     = {EpiSwitch, CiRT, immunotherapy, checkpoint inhibitor, 3D genome, predictive biomarker, PD-1/PD-L1},
+  note         = {PROWES prospective real-world study (n=205 advanced solid tumors) of the EpiSwitch CiRT 3D-genomic test for immune-checkpoint-inhibitor response prediction. CiRT influenced treatment decisions in majority; high-probability-of-response (HPRR) patients had greater benefit; classification independent of short-term imaging response. Oxford BioDynamics commercial COI (all authors employed/paid). Demonstrates 3D-genomic profiling of immuno-therapeutic response — mechanistically adjacent to Hunter 2025 IL-2/JAK-STAT finding.},
+  research_stream = {episwitch},
+  certainty    = {0.45}
+}
+
+@article{Mellor2025paradigmLost,
+  author       = {Mellor, Jane and Hunter, Ewan and Akoulitchev, Alexandre},
+  title        = {Paradigm Lost},
+  journal      = {Cancers},
+  year         = {2025},
+  volume       = {17},
+  number       = {13},
+  pages        = {2187},
+  doi          = {10.3390/cancers17132187},
+  pmid         = {40647485},
+  keywords     = {3D genome, chromatin conformation, biomarker, precision medicine, EpiSwitch, paradigm},
+  note         = {Perspective/opinion by Oxford BioDynamics (Hunter, Akoulitchev) arguing 3D genome architecture is a superior molecular biomarker vs single-omics. Authors are OBD employees (commercial COI, disclosed). Provides platform rationale but is a vendor-authored commentary, not independent validation. Low evidentiary weight for diagnostic claims.},
+  research_stream = {episwitch},
+  certainty    = {0.30}
+}
+
+@article{Wei2025TRIM28chromatin,
+  author       = {Wei, Ke and Li, Rui and Zhao, Xuan and Xie, Bing and Xie, Tong and Sun, Qiu and Chen, Yi and Wei, Peng and Xu, Wei and Guo, Xiaofeng and Zhao, Zhijun and Feng, Hongjie and Ni, Li and Dong, Chen},
+  title        = {{TRIM28} is an essential regulator of three-dimensional chromatin state underpinning {CD8+} {T} cell activation},
+  journal      = {Nature Communications},
+  year         = {2025},
+  volume       = {16},
+  number       = {1},
+  pages        = {750},
+  doi          = {10.1038/s41467-025-56029-z},
+  pmid         = {39820353},
+  keywords     = {TRIM28, 3D chromatin, CD8 T cell, IL-2, CTCF, cohesin, chromosomal loops},
+  note         = {Tsinghua. TRIM28 binds loop-anchor regions overlapping CTCF; Trim28 KO disrupts autocrine IL-2 production and CD8+ T cell activation via loss of chromosomal-loop structure (RNA Pol II/cohesin binding diminishes). Direct mechanistic link between 3D chromatin topology and IL-2 — the pathway Hunter 2025 identifies as the ME/CFS EpiSwitch hub. No ME/CFS cohort; mouse + primary human T cells.},
+  research_stream = {episwitch},
+  certainty    = {0.75}
+}
+
+@article{Ward2025CD4threeD,
+  author       = {Ward, Anna I and de Las Heras, Jose I and Schirmer, Eric C and Fassati, Ariberto},
+  title        = {Memory {CD4+} {T} cells sequentially restructure their 3D genome during stepwise activation},
+  journal      = {Frontiers in Cell and Developmental Biology},
+  year         = {2025},
+  volume       = {13},
+  pages        = {1514627},
+  doi          = {10.3389/fcell.2025.1514627},
+  pmid         = {40018706},
+  keywords     = {Hi-C, 3D genome, CD4 T cell, IL-2, TAD, enhancer-promoter, chromatin},
+  note         = {UCL/Edinburgh. In situ Hi-C of primary memory CD4+ T cells; IL-2 stimulation alone triggers extensive 3D genome reorganization, with dynamic TAD changes at least as frequent as stable TADs — challenging the invariant-TAD-scaffold model. Establishes that cytokine (IL-2) signalling rewires 3D chromatin in the absence of TCR ligation. Mechanistically validates the premise that blood 3D-genomic signatures (as in EpiSwitch ME/CFS) can reflect immune-activation state.},
+  research_stream = {episwitch},
+  certainty    = {0.65}
+}
+
+@article{Lee2025CTCFenhancer,
+  author       = {Lee, Eui-Cheol and Kim, Keon and Kim, Sojin and Kim, Minju and Kim, Hyoung-Pyo},
+  title        = {3D enhancer architecture coordinated by {CTCF} determines immune-related gene expression patterns via {RNA} polymerase {II} pause-release in {CD4+} {T} cells},
+  journal      = {Nucleic Acids Research},
+  year         = {2025},
+  volume       = {53},
+  number       = {22},
+  pages        = {gkaf1404},
+  doi          = {10.1093/nar/gkaf1404},
+  pmid         = {41459752},
+  keywords     = {CTCF, 3D enhancer, STAT5, JAK-STAT, CD4 T cell, enhancer-promoter loop, RNA Pol II pausing},
+  note         = {Yonsei. CTCF depletion reorganizes 3D enhancer architecture in activated CD4+ T cells; STAT5-bound super-enhancers maintain enhancer loops independently of CTCF; CTCF-dependent 3D genome shapes immune gene expression; CTCF depletion reprograms CD4+ T cell response to JAK inhibitors by rewiring the STAT5 enhancer network (not the upstream JAK/STAT cascade). Mechanistically links 3D chromatin topology to JAK-STAT signalling — the pathway Hunter 2025 reports as enriched in ME/CFS EpiSwitch markers.},
+  research_stream = {episwitch},
+  certainty    = {0.72}
+}
+
+@article{Zhu2024miR146lupus,
+  author       = {Zhu, Xinyi and Zhang, Yuting and Yin, Zhihua and Ye, Zhizhong and Qin, Yuting and Cheng, Zhiming and Shen, Yiwei and Yin, Zhihua and Ma, Jianyang and Tang, Yuanjia and Ding, Hui and Guo, Yuanting and Hou, Guojun and Shen, Nan},
+  title        = {Three-Dimensional Chromosomal Landscape Revealing {miR-146a} Dysfunctional Enhancer in Lupus and Establishing a {CRISPR}-Mediated Approach to Inhibit the Interferon Pathway},
+  journal      = {Arthritis \& Rheumatology},
+  year         = {2024},
+  volume       = {76},
+  number       = {3},
+  pages        = {384--395},
+  doi          = {10.1002/art.42703},
+  pmid         = {37728419},
+  keywords     = {3D genome, chromosome conformation capture, enhancer, miR-146a, lupus, interferon, CRISPR activation},
+  note         = {Shanghai Renji. Circular chromosome conformation capture (4C) + epigenomics in SLE: identifies a downstream enhancer of miR-146a with reduced accessibility in SLE; CRISPR activation of this enhancer in SLE PBMCs inhibits the interferon pathway. Independent demonstration (non-OBD, non-commercial) that 3D chromosome-conformation changes are functionally disease-relevant in autoimmune immune cells — supports the biological plausibility of the EpiSwitch 3D-genomic diagnostic concept.},
+  research_stream = {episwitch},
+  certainty    = {0.72}
+}
+
+@article{Yang2018vlncRNA,
+  author       = {Yang, Chang-Ann and Bauer, Sandra and Ho, Yin-Chien and Sotzny, Franziska and Chang, Jan-Gowth and Scheibenbogen, Carmen},
+  title        = {The expression signature of very long non-coding {RNA} in myalgic encephalomyelitis/chronic fatigue syndrome},
+  journal      = {Journal of Translational Medicine},
+  year         = {2018},
+  volume       = {16},
+  number       = {1},
+  pages        = {231},
+  doi          = {10.1186/s12967-018-1600-x},
+  pmid         = {30119681},
+  keywords     = {ME/CFS, long non-coding RNA, lncRNA, NTT, MIAT, EmX2OS, biomarker, Scheibenbogen},
+  note         = {Charite Berlin (Scheibenbogen). 10 very-long lncRNAs (>5 kb) profiled in PBMCs of n=44 ME/CFS. NTT, MIAT, EmX2OS significantly elevated vs controls; NTT/EmX2OS increased with severity; H2O2 and poly(I:C) stimulation of THP-1/KALS1 cells upregulated NTT and MIAT. Competing non-coding-RNA epigenetic biomarker approach predating EpiSwitch. No independent replication.},
+  research_stream = {episwitch},
+  certainty    = {0.42}
+}
+
+@article{GimenezOrenga2025HERVsegregation,
+  author       = {Gim{\'e}nez-Orenga, Karen and Mart{\'i}n-Mart{\'i}nez, Eva and Nathanson, Lubov and Oltra, Elisa},
+  title        = {{HERV} activation segregates {ME/CFS} from fibromyalgia while defining a novel nosologic entity},
+  journal      = {eLife},
+  year         = {2025},
+  volume       = {14},
+  pages        = {RP104441},
+  doi          = {10.7554/eLife.104441},
+  pmid         = {40338225},
+  keywords     = {ME/CFS, fibromyalgia, HERV, endogenous retrovirus, biomarker, SETDB1, TRIM28, epigenetic silencing},
+  note         = {Oltra group (Valencia). HERV-V3 high-density microarrays (>350k HERV elements, >1500 immune genes) on PBMCs from n=43 female ME/CFS/FM/both/controls. Hierarchical clustering of HERV profiles gave PERFECT 4-group assignment (ME/CFS vs FM vs co-diagnosed vs healthy) — a competing blood-based epigenetic/transcriptomic diagnostic. ME/CFS HERV activation coincided with SETDB1/TRIM28 binding sites (epigenetic silencer loss). Co-diagnosed patients showed minimal HERV change (proposed new nosologic entity). Directly competes with EpiSwitch on cross-condition discrimination (ME/CFS vs FM), which Hunter 2025 does NOT test.},
+  research_stream = {episwitch},
+  certainty    = {0.58}
+}
+
+@article{Wyns2026OPRM1methylation,
+  author       = {Wyns, Arne and Hendrix, Jolien and Van Campenhout, Jente and Buntinx, Yens and Xiong, Huiyu Y and De Bruyne, Elke and Godderis, Lode and Nijs, Jo and Rice, David and Chiang, David and Polli, Andrea},
+  title        = {Hypermethylation of {OPRM1}: Deregulation of the Endogenous Opioid Pathway in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome and Fibromyalgia},
+  journal      = {International Journal of Molecular Sciences},
+  year         = {2026},
+  volume       = {27},
+  number       = {2},
+  pages        = {826},
+  doi          = {10.3390/ijms27020826},
+  pmid         = {41596476},
+  keywords     = {ME/CFS, fibromyalgia, OPRM1, DNA methylation, mu-opioid receptor, epigenetic, QST},
+  note         = {Pain in Motion (Brussels). Repeated-measures (2 visits/4 days), n=28 ME/CFS/FM vs 26 controls. Higher OPRM1 promoter methylation in patients (persisted after symptom/QST adjustment); no global (hydroxy)methylation differences; OPRM1 methylation correlated with BDNF promoter/exon methylation. Candidate-gene CpG methylation biomarker — competing epigenetic approach (targeted pyrosequencing, not 3D genome). Groups ME/CFS+FM together, so cannot discriminate the two.},
+  research_stream = {episwitch},
+  certainty    = {0.45}
+}
+
+@article{Perera2026HERVreview,
+  author       = {Perera, Kushan D and Oltra, Elisa and Carding, Simon R},
+  title        = {Human Endogenous Retroviruses in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: Emerging Roles in Pathogenesis, Immunity, Biomarkers and Therapeutics},
+  journal      = {International Journal of Molecular Sciences},
+  year         = {2026},
+  volume       = {27},
+  number       = {10},
+  pages        = {4309},
+  doi          = {10.3390/ijms27104309},
+  pmid         = {42196290},
+  keywords     = {ME/CFS, HERV, endogenous retrovirus, biomarker, stratification, epigenetics, therapeutics},
+  note         = {Quadram Institute/UEA (Carding; note UEA is Hunter 2025 host institution) + Valencia (Oltra). Review: reactivated HERVs amplify immune activation via innate sensing, LTR-driven transcription, and epigenetic-silencing disruption; locus-specific HERV profiling proposed for diagnosis/stratification distinguishing ME/CFS from overlapping conditions. Frames HERV signatures as a competing (non-3D-genomic) blood epigenetic biomarker for ME/CFS diagnosis and patient stratification.},
+  research_stream = {episwitch},
+  certainty    = {0.50}
+}
+
+@article{BenAmar2026epigeneticpain,
+  author       = {Ben Amar, Joseph and Michiels, Joris and Hendrix, Jolien and Van Campenhout, Jente and Wyns, Arne and Buntinx, Yens and Xiong, Huiyu Y and Nijs, Jo and Godderis, Lode and De Bruyne, Elke and Polli, Andrea},
+  title        = {Clinical applications of epigenetic signatures in chronic pain management and health outcome prediction},
+  journal      = {Epigenomics},
+  year         = {2026},
+  pages        = {1--17},
+  doi          = {10.1080/17501911.2026.2700012},
+  pmid         = {42483881},
+  keywords     = {DNA methylation, lncRNA, epigenetic clocks, chronic pain, fibromyalgia, ME/CFS, biomarker, histone modification},
+  note         = {Pain in Motion group review. Integrates DNA methylation + lncRNA + epigenetic-clock findings in chronic pain (fibromyalgia, ME/CFS, migraine, RA, OA, neuropathic). Frames DNA-methylation and lncRNA as the primary epigenetic biomarker modalities; does NOT discuss 3D chromosome-conformation signatures — indicating EpiSwitch-type 3D-genomic biomarkers are not yet on the mainstream chronic-pain epigenetic biomarker map. Context for positioning the EpiSwitch approach.},
+  research_stream = {episwitch},
+  certainty    = {0.55}
 }

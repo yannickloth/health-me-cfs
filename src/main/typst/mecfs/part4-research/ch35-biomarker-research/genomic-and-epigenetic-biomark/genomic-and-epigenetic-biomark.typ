@@ -6,5 +6,6 @@
 #include "./gene-expression-signatures/gene-expression-signatures.typ"
 #include "./mirna-profiles/mirna-profiles.typ"
 #include "./dna-methylation-patterns/dna-methylation-patterns.typ"
+#include "./episwitch-3d-genomic/episwitch-3d-genomic.typ"
 #include "./clinical-utility/clinical-utility.typ"
 
