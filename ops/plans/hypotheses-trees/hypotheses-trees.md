@@ -196,7 +196,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | new-contents-viral-reservoir | [subtrees/new-contents-viral-reservoir.md](subtrees/new-contents-viral-reservoir.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
 | new-contents-ebv-serology | [subtrees/new-contents-ebv-serology.md](subtrees/new-contents-ebv-serology.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
 | new-contents-immune-checkpoint | [subtrees/new-contents-immune-checkpoint.md](subtrees/new-contents-immune-checkpoint.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
-| new-contents-episwitch | [subtrees/new-contents-episwitch.md](subtrees/new-contents-episwitch.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
+| new-contents-episwitch | [subtrees/new-contents-episwitch.md](subtrees/new-contents-episwitch.md) | 2026-08-15 | 12 | 5 | 🔵 in progress |
 | new-contents-gut-brain | [subtrees/new-contents-gut-brain.md](subtrees/new-contents-gut-brain.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
 | new-contents-economic-burden | [subtrees/new-contents-economic-burden.md](subtrees/new-contents-economic-burden.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
 | new-contents-endometriosis | [subtrees/new-contents-endometriosis.md](subtrees/new-contents-endometriosis.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
@@ -352,3 +352,4 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 **Note:** medRxiv/bioRxiv not searched (API blocked). Manual preprint search recommended as separate pass.
 | anellovirus-viral-reactivation-mecfs | [subtrees/anellovirus-viral-reactivation-mecfs.md](subtrees/anellovirus-viral-reactivation-mecfs.md) | 2026-08-13 | 9 | 4 | ✅ done |
 | adult-red-flags-safety-netting-protocol | [subtrees/adult-red-flags-safety-netting-protocol.md](subtrees/adult-red-flags-safety-netting-protocol.md) | 2026-08-14 | 23 | 0 | 🔵 in progress |
+| immune-checkpoint-tolerance-immunotherapy | [subtrees/immune-checkpoint-tolerance-immunotherapy.md](subtrees/immune-checkpoint-tolerance-immunotherapy.md) | 2026-08-15 | 20 | 3 | 🔵 in progress |

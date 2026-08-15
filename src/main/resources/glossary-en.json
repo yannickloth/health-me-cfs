@@ -11329,5 +11329,62 @@
     "category": "condition",
     "definition": "Breathing foreign material (food, fluid, or saliva) into the lungs, which can cause pneumonia; in bedbound or severely deconditioned patients it may be silent and present as confusion or low-grade fever rather than choking.",
     "also": "aspiration pneumonia"
+  },
+  "PD-L1": {
+    "label": "PD-L1 (Programmed Death-Ligand 1)",
+    "category": "immunology",
+    "definition": "The ligand for the PD-1 immune checkpoint receptor, expressed on antigen-presenting cells and many tumors. PD-L1 binding PD-1 suppresses T-cell activation; in ME/CFS, PD-L1 upregulation on monocytes is proposed as a suppressor of CD8+ T-cell function."
+  },
+  "CAR-T": {
+    "label": "CAR-T (Chimeric Antigen Receptor T cell)",
+    "category": "treatment",
+    "definition": "A cancer immunotherapy in which a patient's T cells are modified in the lab to recognize a specific molecular target, then reinfused. No evidence base supports CAR-T for ME/CFS."
+  },
+  "EBNA1": {
+    "label": "EBNA1 (Epstein-Barr Nuclear Antigen 1)",
+    "category": "pathogen",
+    "definition": "A key Epstein-Barr virus protein, expressed in latently infected cells, that maintains the viral genome. Antibody reactivity to specific EBNA1 epitopes is a marker used in post-infectious illness research."
+  },
+  "scRNA-seq": {
+    "label": "scRNA-seq (single-cell RNA sequencing)",
+    "category": "method",
+    "definition": "A technique measuring gene expression in individual cells, used to characterize immune cell states such as T-cell exhaustion in ME/CFS and long COVID."
+  },
+  "ATAC-seq": {
+    "label": "ATAC-seq (Assay for Transposase-Accessible Chromatin)",
+    "category": "method",
+    "definition": "A technique measuring chromatin accessibility genome-wide, used to detect whether a gene's regulatory region is open (active) or closed; distinguishes transcriptionally-active from epigenetically-fixed (locked) cell states."
+  },
+  "checkpoint": {
+    "label": "immune checkpoint",
+    "category": "immunology",
+    "definition": "Inhibitory receptors (e.g. PD-1, CTLA-4) that restrain T-cell activation. Tumors exploit checkpoints to evade immunity; checkpoint-blockade antibodies are a cancer therapy. In ME/CFS, elevated checkpoint markers indicate T-cell exhaustion."
+  },
+  "immunotherapy": {
+    "label": "immunotherapy",
+    "category": "treatment",
+    "definition": "Treatments that modulate the immune system to fight disease (e.g. checkpoint inhibitors, CAR-T). No evidence base supports oncology-style immunotherapy for ME/CFS; unselected immune therapy has failed in trials."
+  },
+  "EpiSwitch": {
+    "label": "EpiSwitch",
+    "category": "method",
+    "definition": "A proprietary blood-test platform that measures 3D chromosome-conformation (chromatin loop and folding) architecture as a diagnostic signature; investigated in ME/CFS as a candidate blood-based biomarker.",
+    "also": "3D-genomic profiling"
+  },
+  "TRIM28": {
+    "label": "TRIM28",
+    "category": "protein",
+    "definition": "Tripartite motif-containing protein 28 (also KAP1): a chromatin-organising protein that maintains gene silencing and loops and regulates IL-2 in T cells; a proposed unifying node across 3D-genomic, HERV, and IL-2 findings in ME/CFS.",
+    "also": "KAP1"
+  },
+  "TAD": {
+    "label": "TAD",
+    "category": "cell",
+    "definition": "Topologically associating domain: a self-interacting region of 3D chromosome architecture that constrains which enhancers contact which genes; measured by chromatin-conformation assays."
+  },
+  "chromatin": {
+    "label": "chromatin",
+    "category": "cell",
+    "definition": "The complex of DNA and proteins (histones) that packages the genome; its 3D folding state regulates gene expression and is measured by chromosome-conformation platforms such as EpiSwitch."
   }
 }

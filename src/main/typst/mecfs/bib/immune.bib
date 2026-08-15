@@ -2534,22 +2534,6 @@
   certainty  = {0.55}
 }
 
-@article{hunter2025biomarker,
-  author    = {Hunter, Ewan and Alshaker, Heba and Bundock, Oliver and Weston, Cicely and Bautista, Shekinah and Gebregzabhar, Afework and El-Sheikh, Sarah and Kolli, Soujanya and Latchin, Oleg and Levien, Aliza and Marsh, Stuart and Matthews, David and Miao, Shupeng and Orozco-Ugarriza, Nidia and Pilkington, Victoria and Turner, David and Polk, Benjamin},
-  title     = {Development and validation of blood-based diagnostic biomarkers for Myalgic Encephalomyelitis/Chronic Fatigue Syndrome ({ME/CFS}) using {EpiSwitch}},
-  journal   = {Journal of Translational Medicine},
-  year      = {2025},
-  volume    = {23},
-  number    = {1},
-  pages     = {486},
-  doi       = {10.1186/s12967-025-07203-w},
-  pmid      = {41057909},
-  note      = {n=210 (training) + n=88 (validation). EpiSwitch 3D genomic biomarker panel. Not EV-specific but blood-based diagnostic. Shows chromatin architecture differences. Relevant as blood-based biomarker comparator to EV approaches. Certainty: 0.55 (larger cohort, validation set, novel platform).},
-  research_stream = {extracellular-vesicles-rydland-2026},
-  keywords   = {ME/CFS, biomarkers, blood, EpiSwitch, diagnosis, validation},
-  certainty  = {0.55}
-}
-
 @article{wang2025exosomelncrna,
   author    = {Wang, Lei and Xu, Yujia and Zhong, Xiang and Wang, Guiping and Shi, Zijun and Mei, Chunmei},
   title     = {The emerging role of exosomal {LncRNAs} in chronic fatigue syndrome: from intercellular communication to disease biomarkers},
@@ -6239,4 +6223,135 @@
   note          = {HHV-6A reactivation $\Rightarrow$ mitochondrial fragmentation, PDH inhibition, 1-carbon metabolism induction. Adoptive transfer of ME/CFS patient serum (n=10) to naive cells reproduced mitochondrial fragmentation + antiviral state. Cell danger response: antiviral protection at cost of energy metabolism. Serum factor transfers metabolic phenotype across cells.},
   research_stream = {biofabrication-mughal-3d-muscle-cfs-sera},
   certainty       = {0.41}
+}
+
+% ============================================================================
+% IMMUNE-CHECKPOINT / TOLERANCE / IMMUNOTHERAPY — long-COVID immune profiling
+% and ME/CFS convergence (research_stream: immune-checkpoint-tolerance-immunotherapy)
+% Added 2026-08-15 (Phase-1 literature-integrator)
+% ============================================================================
+
+@article{Klein2023longcovidprofiling,
+  author    = {Klein, Jon and Wood, Jamie and Jaycox, Jillian R. and Dhodapkar, Rahul M. and Lu, Peiwen and Gehlhausen, Jeff R. and Tabachnikova, Alexandra and Tabacof, Laura and Silva, Julio and Kamath, Kathy and Lucas, Carolina and McCarthy, Dayna and Breyman, Erica and Tosto-Mancuso, Jenna and Dai, Yile and Medzhitov, Ruslan and Lutchmansingh, Denyse and Possick, Jennifer D. and Kaminski, Naftali and Omer, Saad B. and Krumholz, Harlan M. and Guan, Leying and Dela Cruz, Charles S. and van Dijk, David and Ring, Aaron M. and Putrino, David and Iwasaki, Akiko},
+  title     = {Distinguishing features of long {COVID} identified through immune profiling},
+  journal   = {Nature},
+  year      = {2023},
+  volume    = {623},
+  number    = {7985},
+  pages     = {139--148},
+  doi       = {10.1038/s41586-023-06651-y},
+  pmid      = {37748514},
+  pmcid     = {PMC10620090},
+  keywords  = {Long COVID, immune profiling, machine learning, EBV, VZV, cortisol, B cells, T cell exhaustion, antibodies, biomarkers},
+  note      = {Cross-sectional n=275 (long COVID vs matched controls) with multidimensional immune phenotyping + machine learning. Long COVID marked by reduced naive CD4+/CD8+ T cells, exhausted T cells (PD-1, TIM-3), exhausted B cells, and elevated nonclassical monocytes. Exaggerated humoral responses against SARS-CoV-2 AND against other viruses (esp. EBV, VZV) — higher EBV/VZV antibody titres. Lower cortisol (morning) among long COVID. Machine learning identified key distinguishing features. Population weight 0.85 (long COVID).},
+  research_stream = {immune-checkpoint-tolerance-immunotherapy},
+  certainty = {0.85},
+  diagnostic_criteria = {WHO post-COVID-19 condition}
+}
+
+@article{Phetsouphanh2024longcovid24mo,
+  author    = {Phetsouphanh, Chansavath and Jacka, Brendan and Ballouz, Samantha and Jackson, Katherine J L and Wilson, Daniel B and Manandhar, Bikash and Klemm, Vera and Tan, Hyon-Xhi and Wheatley, Adam and Aggarwal, Anupriya and Akerman, Anouschka and Milogiannakis, Vanessa and Starr, Mitchell and Cunningham, Philip and Turville, Stuart G and Kent, Stephen J and Byrne, Anthony and Brew, Bruce J and Darley, David R and Dore, Gregory J and Kelleher, Anthony D and Matthews, Gail V},
+  title     = {Improvement of immune dysregulation in individuals with long {COVID} at 24-months following {SARS-CoV-2} infection},
+  journal   = {Nature Communications},
+  year      = {2024},
+  volume    = {15},
+  number    = {1},
+  pages     = {3315},
+  doi       = {10.1038/s41467-024-47720-8},
+  pmid      = {38632311},
+  pmcid     = {PMC11024141},
+  keywords  = {Long COVID, immune dysregulation, T cell exhaustion, PD-1, TIM-3, antibodies, resolution, longitudinal, 24-month},
+  note      = {Longitudinal follow-up (24 months) of the Australian ADAPT cohort (Kirby Institute). Early long-COVID features — elevated nucleocapsid IgG, higher neutralizing capacity, increased spike/nucleocapsid-specific CD4+ T cells, elevated PD-1/TIM-3 on CD4+/CD8+ T cells at 3–8 months — resolved by 24 months. scRNA-seq at 24 mo showed similar immune proportions and reconstituted naive T/B subsets; no difference in exhaustion scores vs recovered controls. 62% reported quality-of-life improvement. Suggests immune activation in long COVID is time-limited and partly reversible. Population weight 0.85 (long COVID).},
+  research_stream = {immune-checkpoint-tolerance-immunotherapy},
+  certainty = {0.70},
+  diagnostic_criteria = {WHO post-COVID-19 condition}
+}
+
+@article{Petrov2026comparable,
+  author    = {Petrov, Steliyan and Bozhkova, Martina and Ivanovska, Mariya and Kalfova, Teodora and Dudova, Dobrina and Nikolova, Ralitsa and Vaseva, Kalina and Todorova, Yana and Aleksova, Milena and Nikolova, Maria and Taskov, Hristo and Murdjeva, Marianna and Maes, Michael},
+  title     = {Comparable Immune Alterations and Inflammatory Signatures in {ME/CFS} and Long {COVID}},
+  journal   = {Biomedicines},
+  year      = {2025},
+  volume    = {13},
+  number    = {12},
+  pages     = {3001},
+  doi       = {10.3390/biomedicines13123001},
+  pmid      = {41463013},
+  pmcid     = {PMC12730569},
+  keywords  = {ME/CFS, Long COVID, lymphocytes, CD8 T cells, NK cells, IL-6, TNF, immune comparison},
+  note      = {Cross-sectional n=190 (65 CFS, 54 long COVID, 70 controls; Plovdiv, Bulgaria). Both conditions vs controls: lower lymphocytes, lower CD8+ T cells, lower NK cells; higher proinflammatory IL-6, TNF, IL-4, IL-10. No significant biomarker differences between ME/CFS and long COVID groups — demonstrates comparable immune/inflammatory profiles. Population weight 1.00 (ME/CFS included).},
+  research_stream = {immune-checkpoint-tolerance-immunotherapy},
+  certainty = {0.60},
+  diagnostic_criteria = {Fukuda}
+}
+
+@article{Ivanovska2025comparison,
+  author    = {Ivanovska, Mariya and Homadi, Mouhamad S and Angelova, Galina and Taskov, Hristo and Murdjeva, Marianna},
+  title     = {Differential Characteristics and Comparison Between Long-{COVID} Syndrome and Myalgic Encephalomyelitis/Chronic Fatigue Syndrome ({ME/CFS})},
+  journal   = {Biomedicines},
+  year      = {2025},
+  volume    = {13},
+  number    = {11},
+  pages     = {2797},
+  doi       = {10.3390/biomedicines13112797},
+  pmid      = {41301889},
+  pmcid     = {PMC12650534},
+  keywords  = {Long COVID, ME/CFS, comparison, viral persistence, immune dysregulation, endothelial dysfunction, autoimmunity},
+  note      = {Narrative review comparing clinical presentation, pathophysiology, and treatment of Long COVID vs ME/CFS. Both involve multifactorial mechanisms: viral persistence, immune dysregulation, endothelial dysfunction, autoimmunity — relative contributions uncertain. Identifies immune dysfunction as a shared pathogenic mechanism requiring further study. Population weight 1.00 (ME/CFS included).},
+  research_stream = {immune-checkpoint-tolerance-immunotherapy},
+  certainty = {0.45},
+  diagnostic_criteria = {other}
+}
+
+@article{Hoeggerl2023EBVnotcausative,
+  author    = {Hoeggerl, Alexandra D and Nunhofer, Veronika and Lauth, Wanda and Badstuber, Natalie and Held, Nina and Zimmermann, Georg and Grabmer, Christoph and Weidner, Lisa and Jungbauer, Christof and Lindlbauer, Nadja and Neureiter, Hannelore and Ortner, Tuulia and Flamm, Maria and Osterbrink, J{\"u}rgen and Rohde, Eva and Laner-Plamberger, Sandra},
+  title     = {Epstein-Barr virus reactivation is not causative for post-{COVID}-19-syndrome in individuals with asymptomatic or mild {SARS-CoV-2} disease course},
+  journal   = {BMC Infectious Diseases},
+  year      = {2023},
+  volume    = {23},
+  number    = {1},
+  pages     = {800},
+  doi       = {10.1186/s12879-023-08820-w},
+  pmid      = {37968601},
+  pmcid     = {PMC10652630},
+  keywords  = {Long COVID, EBV reactivation, null finding, neopterin, blood donors, post-COVID syndrome},
+  note      = {NULL/negative. Prospective cohort of SARS-CoV-2 seropositive blood donors with asymptomatic/mild COVID (Salzburg, Austria). Determined post-COVID syndrome (PCS) rate and tested whether EBV is reactivated in PCS. EBV reactivation was NOT causative for PCS in this mild-disease population — challenges the EBV-reactivation hypothesis of long COVID in mild cases. Population weight 0.85 (long COVID).},
+  research_stream = {immune-checkpoint-tolerance-immunotherapy},
+  certainty = {0.55},
+  diagnostic_criteria = {WHO post-COVID-19 condition}
+}
+
+@article{Lorenz2026EBNA1epitopes,
+  author    = {Lorenz, Peter and Steinbeck, Felix and Fricke, Franziska and Mai, Fabian and Bergmann-Ewert, Wiebke and Wossidlo, Christoph and Reisinger, Emil C and M{\"u}ller-Hilke, Brigitte},
+  title     = {Patients Suffering From Post-{COVID}-19 Syndrome Feature Enhanced Antibody Reactivity Towards Specific Linear Epitopes Within {EBV} {EBNA1}},
+  journal   = {Scandinavian Journal of Immunology},
+  year      = {2026},
+  volume    = {103},
+  number    = {1},
+  pages     = {e70088},
+  doi       = {10.1111/sji.70088},
+  pmid      = {41518079},
+  pmcid     = {PMC12789987},
+  keywords  = {Long COVID, EBV, EBNA1, antibody, epitope, peptide microarray, humoral immunity},
+  note      = {Retrospective cross-sectional n=96 (48 post-COVID syndrome vs 48 recovered convalescents; Rostock, Germany). Overall IgG binding landscape to EBV EBNA1 similar between groups, but PCS patients showed stronger reactivity to specific linear epitopes: EBNA1 glycine-alanine repeat (residues 90–325) and central segment 405–419 (distinct from the MS-associated epitope). No increase in autoantibodies (HEp-2 ANA, CRYAB, cardiolipin, beta-2-GPI, IFN-alpha2, IFN-omega, IL-15). Refines the EBV-reactivation signal to epitope-specific enhanced reactivity, not general reactivation or autoimmunity. Population weight 0.85 (long COVID).},
+  research_stream = {immune-checkpoint-tolerance-immunotherapy},
+  certainty = {0.50},
+  diagnostic_criteria = {WHO post-COVID-19 condition}
+}
+
+@article{Fleischer2024cortisolnull,
+  author    = {Fleischer, Michael and Szepanowski, Fabian and Mausberg, Anne K and Asan, Livia and Uslar, Ellen and Zwanziger, Denise and Volbracht, Lothar and Stettner, Mark and Kleinschnitz, Christoph},
+  title     = {Cytokines ({IL-1$\beta$}, {IL-6}, {TNF-$\alpha$}) and serum cortisol levels may not constitute reliable biomarkers to identify individuals with post-acute sequelae of {COVID}-19},
+  journal   = {Therapeutic Advances in Neurological Disorders},
+  year      = {2024},
+  volume    = {17},
+  pages     = {17562864241229567},
+  doi       = {10.1177/17562864241229567},
+  pmid      = {38348267},
+  pmcid     = {PMC10860378},
+  keywords  = {Long COVID, PASC, cytokines, IL-6, TNF, cortisol, null finding, biomarker},
+  note      = {NULL/negative. Prospective cohort n=178 (91 ongoing PASC, 40 resolved PASC, 34 infected no PASC, 13 never infected; Essen, Germany). Serum IL-1-beta, IL-6, TNF-alpha and cortisol did NOT differ between groups. Challenges the assumption that peripheral cytokines/cortisol are reliable PASC biomarkers; contrasts with Klein 2023 (which found lower cortisol via multiplex/hormone profiling). Population weight 0.85 (long COVID).},
+  research_stream = {immune-checkpoint-tolerance-immunotherapy},
+  certainty = {0.55},
+  diagnostic_criteria = {WHO post-COVID-19 condition}
 }

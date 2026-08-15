@@ -13,6 +13,17 @@ Prevents re-processing of already-integrated content.
 
 ---
 
+## Immune-Checkpoint / Tolerance / Immunotherapy Literature Search
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-08-15 | 18 queries across 3 novel threads: (1) long-COVID immune profiling (Klein 2023 Nature), (2) long-COVID → ME/CFS immune convergence (cell subsets, EBV/VZV antibody, cortisol/cytokine), (3) immunotherapy/CAR-T/AI (AlphaFold) treatment angle. Null/negative + viral-reactivation-failed-replication searches MANDATORY included. Checkpoint/tolerance/herpesvirus threads already covered (ch08 sec-02/06/07). |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed API queries (18 queries, batch) | pubmed/eutils | 2026-08-15 | — | ops/research/search-log-immune-checkpoint-tolerance-immunotherapy-2026-08-15.md, ops/research/literature-immune-checkpoint-tolerance-immunotherapy-2026-08-15.md, bib/immune.bib, bib/treatments.bib, appendix-h — Long-COVID immune profiling & ME/CFS convergence literature (8 new papers) |
+
+---
+
 ## Female Reproductive Lifespan in ME/CFS Literature Search
 | Source | Last Scraped | Notes |
 |--------|--------------|-------|
@@ -878,3 +889,12 @@ Prevents re-processing of already-integrated content.
 | URL | Source | Scraped | Integrated | Target |
 |-----|--------|---------|------------|--------|
 | PubMed E-utilities API (16 queries + esummary/efetch, batch) | pubmed/eutils | 2026-08-14 | — | ops/research/search-log-adult-red-flags-safety-netting-protocol-2026-08-14.md; ops/research/literature-adult-red-flags-safety-netting-protocol-2026-08-14.md; bib/diagnosis-assessment.bib (3), bib/treatments.bib (6), bib/general.bib (4), bib/neurology-comorbidities.bib (3); appendix-h (16 annotated entries) — Adult red-flags & safety-netting protocol topic (16 papers, transferred + ME/CFS-specific) |
+
+## EpiSwitch 3D-Genomic ME/CFS Diagnostic — Literature Search (2026-08-15)
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities esearch + esummary + efetch) | 2026-08-15 | 15 queries: EpiSwitch (platform-wide), chromosome/chromatin-conformation × fatigue/ME/CFS/FM/depression/MS/RA/IBD, ME/CFS epigenetic 2025-2026, lncRNA CFS, CTCF/cohesin/3D-genome × IL-2/JAK-STAT, Hi-C/TAD × ME/CFS, ME/CFS biomarker replication/negative. No EpiSwitch ME/CFS replication, no cross-condition EpiSwitch study, no Hi-C ME/CFS study found (queries returned 0). |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed E-utilities API (15 queries + esummary/efetch, batch) | pubmed/eutils | 2026-08-15 | — | ops/research/search-log-episwitch-2026-08-15.md; ops/research/literature-episwitch-2026-08-15.md; bib/genetics-epigenetics.bib (14 new entries); appendix-h (14 annotated entries) — EpiSwitch 3D-genomic diagnostic topic (14 papers: 4 platform/cross-disease, 4 mechanism, 3 competing biomarker, 3 review/context) |

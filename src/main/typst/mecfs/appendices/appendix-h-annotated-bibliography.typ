@@ -34801,3 +34801,118 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
 *Conclusion:*: Elevated ED utilization in ME/CFS confirms the ED is a real contact point where safety-netting knowledge matters.
 *Limitations:*: Benefit-recipient subset only (not all ME/CFS), NZ-specific, cross-sectional, diagnostic-coding dependent.
 *Certainty Assessment:*: 0.60 raw × 1.00 ME/CFS weight = discounted 0.60
+
+=== Klein et al.\ 2023 — Distinguishing Features of Long COVID Identified Through Immune Profiling
+
+@Klein2023longcovidprofiling
+
+*Full Citation:*: Klein J, Wood J, Jaycox JR, Dhodapkar RM, Lu P, Gehlhausen JR, Tabachnikova A, et al. Distinguishing features of long COVID identified through immune profiling. _Nature_. 2023;623(7985):139-148.
+*DOI:*: #link("https://doi.org/10.1038/s41586-023-06651-y")[10.1038/s41586-023-06651-y]
+*PMID:*: 37748514
+*Key Findings:*:
+    - Cross-sectional multidimensional immune phenotyping, n=275 (long COVID vs matched controls), Yale LISTEN + Mount Sinai PASC cohorts; machine learning separates long COVID from controls.
+    - Long COVID associated with reduced naive CD4+/CD8+ T cells, exhausted T cells (PD-1, TIM-3), exhausted B cells, elevated nonclassical monocytes.
+    - Exaggerated humoral responses against SARS-CoV-2 AND against latent viruses, notably EBV and VZV (higher antibody titres); lower morning cortisol.
+*Conclusion:*: Provides the canonical long-COVID immune-profiling signature (T-cell exhaustion + EBV/VZV antibody over-reactivity + hypocortisolism) that is convergent with ME/CFS immunopathology.
+*Limitations:*: Cross-sectional (no causality); self-report symptom grouping; long COVID only, no ME/CFS arm.
+*Certainty Assessment:*: 0.85 raw × 0.85 long-COVID weight = discounted 0.72
+
+=== Phetsouphanh et al.\ 2024 — Improvement of Immune Dysregulation in Long COVID at 24 Months
+
+@Phetsouphanh2024longcovid24mo
+
+*Full Citation:*: Phetsouphanh C, et al. Improvement of immune dysregulation in individuals with long COVID at 24-months following SARS-CoV-2 infection. _Nature Communications_. 2024.
+*DOI:*: #link("https://doi.org/10.1038/s41467-024-47720-8")[10.1038/s41467-024-47720-8]
+*PMID:*: 38632311
+*Key Findings:*:
+    - Longitudinal 24-month follow-up of the Australian ADAPT cohort (mild-moderate long COVID vs recovered controls).
+    - Early immune-activation features — elevated PD-1/TIM-3 on CD4+/CD8+ T cells, elevated nucleocapsid IgG and neutralizing capacity at 3-8 months — resolved by 24 months.
+    - scRNA-seq at 24 months showed reconstituted naive T/B subsets, no residual exhaustion-score difference; 62% reported QoL improvement.
+*Conclusion:*: Long-COVID immune dysregulation is partly reversible and time-limited, contrasting with the durable exhaustion of ME/CFS.
+*Limitations:*: Mild-moderate cohort only; single site; longitudinal extension of the same ADAPT biobank as the 2022 report (not independent replication).
+*Certainty Assessment:*: 0.70 raw × 0.85 long-COVID weight = discounted 0.60
+
+=== Petrov et al.\ 2025 — Comparable Immune Alterations in ME/CFS and Long COVID
+
+@Petrov2026comparable
+
+*Full Citation:*: Petrov S, Bozhkova M, Ivanovska M, Kalfova T, Dudova D, Nikolova R, Vaseva K, et al. Comparable immune alterations and inflammatory signatures in ME/CFS and Long COVID. _Biomedicines_. 2025;13(12):3001.
+*DOI:*: #link("https://doi.org/10.3390/biomedicines13123001")[10.3390/biomedicines13123001]
+*PMID:*: 41463013
+*Key Findings:*:
+    - Cross-sectional n=190 (65 CFS, 54 long COVID, 70 controls; Plovdiv, Bulgaria); lymphocyte subsets + cytokine profiling.
+    - Both conditions vs controls: lower lymphocytes, CD8+ T cells, NK cells; higher IL-6, TNF, IL-4, IL-10.
+    - No significant biomarker differences between ME/CFS and long COVID groups — comparable immune/inflammatory profiles.
+*Conclusion:*: Direct head-to-head evidence for immune convergence between ME/CFS and long COVID on lymphopenic/cytokine readouts.
+*Limitations:*: Single center; Fukuda criteria; limited cytokine panel; shares Plovdiv cohort with Petrov 2026 (same research group, not independent).
+*Certainty Assessment:*: 0.60 raw × 1.00 ME/CFS weight = discounted 0.60
+
+=== Ivanovska et al.\ 2025 — Differential Characteristics: Long COVID vs ME/CFS
+
+@Ivanovska2025comparison
+
+*Full Citation:*: Ivanovska M, Murdjeva M. Differential Characteristics and Comparison Between Long-COVID Syndrome and Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS). _Biomedicines_. 2025.
+*DOI:*: #link("https://doi.org/10.3390/biomedicines13112797")[10.3390/biomedicines13112797]
+*PMID:*: 41301889
+*Key Findings:*:
+    - Narrative review comparing clinical presentation, pathophysiology, treatment of long COVID vs ME/CFS.
+    - Both involve viral persistence, immune dysregulation, endothelial dysfunction, autoimmunity (relative contributions uncertain); immune dysfunction flagged as a shared mechanism.
+*Conclusion:*: Confirms immune dysfunction as a shared thread between long COVID and ME/CFS; framing support.
+*Limitations:*: Non-systematic review; repeats contested CBT/GET claims without full critical appraisal.
+*Certainty Assessment:*: 0.45 raw × 1.00 ME/CFS weight = discounted 0.45
+
+=== Hoeggerl et al.\ 2023 — EBV Reactivation Is Not Causative for Post-COVID-19 Syndrome (NULL)
+
+@Hoeggerl2023EBVnotcausative
+
+*Full Citation:*: Hoeggerl AD, et al. Epstein-Barr virus reactivation is not causative for post-COVID-19-syndrome in individuals with asymptomatic or mild SARS-CoV-2 disease course. _BMC Infectious Diseases_. 2023.
+*DOI:*: #link("https://doi.org/10.1186/s12879-023-08820-w")[10.1186/s12879-023-08820-w]
+*PMID:*: 37968601
+*Key Findings:*:
+    - Prospective cohort of SARS-CoV-2 seropositive blood donors with asymptomatic/mild COVID (Salzburg, Austria).
+    - Determined post-COVID syndrome rate; EBV was NOT reactivated in individuals reporting PCS in this mild-disease population (neopterin + EBV markers).
+*Conclusion:*: EBV reactivation may be a severity/dysregulation marker rather than causal — tempers a causal EBV-reactivation model of post-viral illness.
+*Limitations:*: Mild-disease donor population; may miss severe long COVID where reactivation is more prominent.
+*Certainty Assessment:*: 0.55 raw × 0.85 long-COVID weight = discounted 0.47
+
+=== Lorenz et al.\ 2026 — Enhanced Antibody Reactivity to Specific EBV EBNA1 Epitopes in Post-COVID Syndrome
+
+@Lorenz2026EBNA1epitopes
+
+*Full Citation:*: Lorenz, et al. Patients Suffering From Post-COVID-19 Syndrome Feature Enhanced Antibody Reactivity Towards Specific Linear Epitopes Within EBV EBNA1. _Scandinavian Journal of Immunology_. 2026.
+*DOI:*: #link("https://doi.org/10.1111/sji.70088")[10.1111/sji.70088]
+*PMID:*: 41518079
+*Key Findings:*:
+    - Retrospective cross-sectional n=96 (48 PCS vs 48 convalescents; Rostock, Germany); peptide microarray + ELISA for EBV EBNA1 IgG; autoantibody screen.
+    - Overall EBNA1 IgG binding similar, but PCS showed stronger reactivity to specific epitopes (glycine-alanine repeat residues 90-325; central 405-419, distinct from the MS epitope); no autoantibody increase.
+*Conclusion:*: Refines the EBV signal in post-infectious illness to epitope-specific enhanced reactivity, not general reactivation or autoimmunity.
+*Limitations:*: n=96, retrospective, exploratory.
+*Certainty Assessment:*: 0.50 raw × 0.85 long-COVID weight = discounted 0.43
+
+=== Fleischer et al.\ 2024 — Cytokines and Cortisol May Not Be Reliable PASC Biomarkers (NULL)
+
+@Fleischer2024cortisolnull
+
+*Full Citation:*: Fleischer, et al. Cytokines (IL-1beta, IL-6, TNF-alpha) and serum cortisol levels may not constitute reliable biomarkers to identify individuals with post-acute sequelae of COVID-19. _Therapeutic Advances in Neurological Disorders_. 2024.
+*DOI:*: #link("https://doi.org/10.1177/17562864241229567")[10.1177/17562864241229567]
+*PMID:*: 38348267
+*Key Findings:*:
+    - Prospective cohort n=178 (91 ongoing PASC, 40 resolved, 34 infected no PASC, 13 never infected; Essen, Germany); serum IL-1beta, IL-6, TNFalpha + cortisol.
+    - No cytokine/cortisol differences between groups.
+*Conclusion:*: Single-timepoint peripheral cytokines/cortisol are unreliable PASC biomarkers — conflicts with Klein 2023's lower-cortisol finding; a caution for ME/CFS biomarker claims.
+*Limitations:*: Single timepoint; the study's own "non-organic genesis" conclusion is not warranted by a null biomarker result.
+*Certainty Assessment:*: 0.55 raw × 0.85 long-COVID weight = discounted 0.47
+
+=== Kaplan 2026 — Therapeutic Plasma Exchange and Immunomodulatory Strategies in Post-Infectious Syndromes
+
+@Kaplan2026plasmapheresis
+
+*Full Citation:*: Kaplan. Therapeutic plasma exchange and immunomodulatory strategies in post-infectious syndromes: A review of immune dysregulation in PTLDS, long COVID, ME/CFS, and PANS/PANDAS. _Transfusion and Apheresis Science_. 2026.
+*DOI:*: #link("https://doi.org/10.1016/j.transci.2026.104482")[10.1016/j.transci.2026.104482]
+*PMID:*: 42391726
+*Key Findings:*:
+    - Narrative review of immune dysregulation across PTLDS, long COVID, ME/CFS, PANS/PANDAS; evaluates IVIG, rituximab, TPE.
+    - Immune-targeted treatment evidence strongest in biomarker-defined subsets; phase III RituxME (ME/CFS) and phase II TPE (post-COVID) FAILED in unselected populations.
+*Conclusion:*: Reinforces that blanket immunotherapy lacks support without immune-subset stratification; a caution against borrowing oncology checkpoint/CAR-T approaches without selection biomarkers.
+*Limitations:*: Non-systematic; single-author; integrative-medicine affiliation.
+*Certainty Assessment:*: 0.50 raw × 0.85 mixed post-infectious weight = discounted 0.43
