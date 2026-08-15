@@ -114,3 +114,11 @@ Evaluate and, if evidence warrants, integrate the Souma 2026 mechanistic framewo
 | 13 | PENDING | Phase 13 commit |
 
 **Completion gate:** 0 phases OMISSION. Build PASS (0 errors). Ledger clean — Phase 13 may proceed.
+
+## Phase 13 (2026-08-15)
+- Commit 1: `a2e794fb` — feat(ch07): integrate irisin signaling resistance framework for PEM (16 files, 1097 insertions)
+- Commit 2: `d10fbf45` — content(ch07): apply Phase-11 review fixes to irisin environments
+- Committed: ch07 sec-14/15, ch19, ch42 7-biomarker-panel, bib (energy-metabolism/general/pain-fibromyalgia/vascular), glossary, scrape-registry, ops/plans+research+brainstorm+subtree, Souma PDF.
+- Deferred (per user, parallel-session content interleaved): appendix-h, hypothesis-registry.typ, hypotheses-trees.md, and other parallel cycles' files (theanine, Davenport, ch46, patients/yannick).
+- Shared-file note: bib/energy-metabolism.bib shipped one parallel theanine entry (Erasmus2019BiotransformationCF) per user approval; build-pdf.yml CI swap fix swept into commit 2 by pre-staged foreign file (left intact).
+- Post-commit working-tree build is blocked by parallel session's uncommitted ch46 include (references untracked deconditioned-matched-cpet-separation file) — not this cycle's content.
