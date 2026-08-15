@@ -352,4 +352,4 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 **Note:** medRxiv/bioRxiv not searched (API blocked). Manual preprint search recommended as separate pass.
 | anellovirus-viral-reactivation-mecfs | [subtrees/anellovirus-viral-reactivation-mecfs.md](subtrees/anellovirus-viral-reactivation-mecfs.md) | 2026-08-13 | 9 | 4 | ✅ done |
 | adult-red-flags-safety-netting-protocol | [subtrees/adult-red-flags-safety-netting-protocol.md](subtrees/adult-red-flags-safety-netting-protocol.md) | 2026-08-14 | 23 | 0 | 🔵 in progress |
-| immune-checkpoint-tolerance-immunotherapy | [subtrees/immune-checkpoint-tolerance-immunotherapy.md](subtrees/immune-checkpoint-tolerance-immunotherapy.md) | 2026-08-15 | 20 | 3 | 🔵 in progress |
+| immune-checkpoint-tolerance-immunotherapy | [subtrees/immune-checkpoint-tolerance-immunotherapy.md](subtrees/immune-checkpoint-tolerance-immunotherapy.md) | 2026-08-15 | 20 | 3 | ✅ done |

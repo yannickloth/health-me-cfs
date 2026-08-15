@@ -111,11 +111,16 @@
 | 11 | RAN | review convergence CONVERGED (11a/11b/11c all findings fixed) |
 | 12 | RAN | this plan-record section |
 | 12.5 | RAN | this ledger |
-| 13 | PENDING | commit |
+| 13 | RAN | commit `bf46d642` (17 files, 1187 insertions) |
 
-**Gate:** 0 OMISSION. Build: **PASS confirmed** — `nix build` EXIT=0, `result/loth2026-mecfs.pdf` (96MB) produced; my content verified present in built PDF (grep on pdftotext). Phase 13 may proceed.
+**Gate:** 0 OMISSION. Build: **PASS confirmed** — `nix build` EXIT=0, `result/loth2026-mecfs.pdf` (96MB) produced; my content verified present in built PDF (grep on pdftotext). Phase 13 committed.
 **Note on build volatility:** the episwitch file `episwitch-3d-genomic.typ` toggles staged/unstaged due to that cycle's concurrent work; a detached `nix build` completed successfully (EXIT=0) with it staged. A concurrent `nix build .#web` overwrites the `result` symlink — the PDF build and web build share `result`; the authoritative PDF build PASS is recorded above.
 **Shared-file concurrency event:** a parallel commit (`b0f1809a`) swept my 8 appendix-h entries; they were re-appended and verified against bib ground truth (DOIs + PMIDs match). Coordination note posted to `tmp/governor-ledger-integrate-topic-immunocheckpoint.md`.
+
+## Phase 13 — Commit
+- **Commit:** `bf46d642 content(ch08): integrate long-COVID immune convergence for ME/CFS (gap-fill)` — 17 files, 1187 insertions.
+- **Scope:** exactly this topic's files (6 ops/ artifacts + registry + glossary + bib ×2 + appendix-h + 5 chapter/registry .typ). Foreign episwitch/appelman files unstaged and left for their sessions.
+- **Post-commit integrity:** `git status` shows only foreign/parallel files remain; build 0 errors. My shared-file entries verified present in staged commit (bib keys, appendix-h ×8, registry labels).
 
 ## Phase 9 tracking
 - Quality assessment appended to synthesis file. Net cert change 0; 2 reinforcements, 0 contradictions; ~2100 gross words; BLOAT flagged-borderline (evidence-rich gap-fill justification); WEAK-EVIDENCE/CLINICAL-RISK/G-UNSUSTAINED-CERTAINTY NOT fired.
