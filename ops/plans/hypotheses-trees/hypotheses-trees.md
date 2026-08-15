@@ -356,3 +356,4 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | adult-red-flags-safety-netting-protocol | [subtrees/adult-red-flags-safety-netting-protocol.md](subtrees/adult-red-flags-safety-netting-protocol.md) | 2026-08-14 | 23 | 0 | 🔵 in progress |
 | immune-checkpoint-tolerance-immunotherapy | [subtrees/immune-checkpoint-tolerance-immunotherapy.md](subtrees/immune-checkpoint-tolerance-immunotherapy.md) | 2026-08-15 | 20 | 3 | ✅ done |
 | irisin-signaling-resistance-pem | [subtrees/irisin-signaling-resistance-pem.md](subtrees/irisin-signaling-resistance-pem.md) | 2026-08-15 | 16 | 2 | 🔵 in progress |
+| ion-channel-pathways-mecfs | [subtrees/ion-channel-pathways-mecfs.md](subtrees/ion-channel-pathways-mecfs.md) | 2026-08-15 | 9 | 0 | 🔵 in progress |
