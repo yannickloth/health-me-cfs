@@ -35324,3 +35324,100 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
 *Conclusion:*: Indirect biochemical link — caffeine metabolism (phase I) is directly tied to chronic-fatigue biotransformation, connecting caffeine handling to fatigue pathophysiology.
 *Limitations:*: Chronic fatigue (not strict ME/CFS criteria); all-female; no treatment outcome.
 *Certainty Assessment:*: 0.50 raw × 0.75 general chronic-fatigue weight = discounted 0.38
+
+=== Wirth & Steinacker 2025 — Myasthenia and Fasciculations in Severely Ill ME/CFS (MUSCULAR hypothesis)
+
+@WirthSteinacker2025fasciculations
+
+*Full Citation:*: Wirth KJ, Steinacker JM. The potential causes of myasthenia and fasciculations in severely ill ME/CFS patients: the role of disturbed electrophysiology. _Frontiers in Physiology_. 2025;16:1693589.
+*DOI:*: #link("https://doi.org/10.3389/fphys.2025.1693589")[10.3389/fphys.2025.1693589]
+*PMID:*: 41705124
+*Study Design:*: Hypothesis/mechanistic review (no new empirical data)
+*Sample Size:*: n/a (hypothesis paper)
+*Key Findings:*:
+    - Proposes a MUSCULAR (sarcolemmal) mechanism for ME/CFS myasthenia, fasciculations, and cramps: Na+/K+-ATPase dysfunction → sarcolemmal depolarization → hyperexcitability.
+    - Explicitly argues AGAINST a neuronal cause ("neurological investigations exclude neuronal causes").
+    - Connects to muscle sodium overload (see Petter 2022 23Na-MRI).
+*Conclusion:*: The only published ME/CFS-specific account of cramps/fasciculations favors a muscular-membrane mechanism, not a neurogenic one.
+*Limitations:*: Hypothesis only, no new data; COI (Wirth employed by Mitodicure GmbH); certainty low.
+*Certainty Assessment:*: 0.35 raw × 1.00 ME/CFS weight = discounted 0.35
+
+=== Czesnik et al. 2015 — HCN Channel Hyperexcitability in Cramp-Fasciculation Syndrome (NEUROGENIC mechanism)
+
+@Czesnik2015HCN
+
+*Full Citation:*: Czesnik D, Howells J, Negro F, Wagenknecht H, Burke D, Bostock H. Increased HCN channel driven inward rectification in benign cramp fasciculation syndrome. _Brain_. 2015;138(Pt 11):3168-3179.
+*DOI:*: #link("https://doi.org/10.1093/brain/awv250")[10.1093/brain/awv250]
+*PMID:*: 26342125
+*Study Design:*: Cross-sectional axonal excitability testing + modeling
+*Sample Size:*: n=20 cramp-fasciculation syndrome patients
+*Key Findings:*:
+    - Benign cramp-fasciculation syndrome shows increased HCN-channel inward rectification on axonal excitability testing.
+    - Demonstrates a NEUROGENIC, ion-channel (HCN) mechanism for spontaneous muscle cramps and fasciculations.
+*Conclusion:*: In the general population, cramps can arise from motor-nerve-terminal hyperexcitability driven by ion channels — the default neurogenic model.
+*Limitations:*: General population, not ME/CFS; extrapolation to ME/CFS is untested.
+*Certainty Assessment:*: 0.70 raw × 0.75 general-population weight = discounted 0.53
+
+=== Garrison et al. 2020 — Magnesium for Skeletal Muscle Cramps (Cochrane, NULL for ion-deficit)
+
+@Garrison2020MagnesiumCramps
+
+*Full Citation:*: Garrison SR, Korownyk CS, Kolber MR, Allan GM, Musini VM, Sekhon RK, Dugré N. Magnesium for skeletal muscle cramps. _Cochrane Database of Systematic Reviews_. 2020;(9):CD009402.
+*DOI:*: #link("https://doi.org/10.1002/14651858.CD009402.pub3")[10.1002/14651858.CD009402.pub3]
+*PMID:*: 32956536
+*Study Design:*: Systematic review / meta-analysis (11 RCTs)
+*Sample Size:*: n=735
+*Key Findings:*:
+    - Magnesium does NOT prevent or relieve muscle cramps (idiopathic cramps).
+    - Null result directly undercuts the "magnesium deficiency causes cramps" (ion-deficit) model.
+*Conclusion:*: Magnesium supplementation is ineffective for cramps — supporting that cramps are not a simple ion-deficit problem.
+*Limitations:*: Idiopathic/general cramps, not ME/CFS-specific; largely older adults.
+*Certainty Assessment:*: 0.85 raw × 0.75 general-population weight = discounted 0.64
+
+=== Maughan & Shirreffs 2019 — Muscle Cramping: Causes, Solutions, Remaining Questions
+
+@Maughan2019MuscleCramping
+
+*Full Citation:*: Maughan RJ, Shirreffs SM. Muscle Cramping During Exercise: Causes, Solutions, and Questions Remaining. _Sports Medicine_. 2019;49(Suppl 2):115-124.
+*DOI:*: #link("https://doi.org/10.1007/s40279-019-01162-1")[10.1007/s40279-019-01162-1]
+*PMID:*: 31696455
+*Study Design:*: Narrative review
+*Sample Size:*: n/a (review)
+*Key Findings:*:
+    - Cramps involve "sustained abnormal spinal reflex activity secondary to fatigue."
+    - Integrates neurogenic (motor-neuron/spinal) mechanisms of cramp generation.
+*Conclusion:*: Supports a neurogenic/spinal-reflex component to cramps, distinct from a purely muscular energy-deficit account.
+*Limitations:*: General exercise physiology, not ME/CFS; not a mechanism in patients at rest.
+*Certainty Assessment:*: 0.60 raw × 0.75 general-population weight = discounted 0.45
+
+=== Craighead et al. 2017 — TRP Agonists Attenuate Exercise-Induced Muscle Cramps
+
+@Craighead2017TRPcramp
+
+*Full Citation:*: Craighead DH, Shank SW, Gottschall JS, Passe DH, Murray B, Bassett DR, Alexander LM. Ingestion of transient receptor potential channel agonists attenuates exercise-induced muscle cramps. _Muscle & Nerve_. 2017;56:379-385.
+*DOI:*: #link("https://doi.org/10.1002/mus.25611")[10.1002/mus.25611]
+*PMID:*: 28192854
+*Study Design:*: Crossover experimental study
+*Sample Size:*: n=39
+*Key Findings:*:
+    - Ingestion of TRP-channel agonists (TRPV1/TRPA1) attenuates exercise-induced muscle cramps.
+    - Demonstrates that sensory-nerve TRP channels can gate motor-neuron cramp excitability.
+*Conclusion:*: TRP-channel modulation can influence cramp threshold — a plausible link between ion-channel function and cramp generation.
+*Limitations:*: Healthy humans, exercise-induced cramps; not ME/CFS spontaneous cramps.
+*Certainty Assessment:*: 0.55 raw × 0.75 general-population weight = discounted 0.41
+
+=== Lopate et al. 2013 — Cramps and Small-Fiber Neuropathy
+
+@Lopate2013CrampsSFN
+
+*Full Citation:*: Lopate G, Streif E, Harms M, Al-Lozi M, Pestronk A. Cramps and small-fiber neuropathy. _Muscle & Nerve_. 2013;48(2):252-255.
+*DOI:*: #link("https://doi.org/10.1002/mus.23759")[10.1002/mus.23759]
+*PMID:*: 23813593
+*Study Design:*: Cross-sectional cohort
+*Sample Size:*: n=12 cramp patients
+*Key Findings:*:
+    - 60% of patients presenting with cramps have small-fiber neuropathy.
+    - Suggests cramps may originate from damaged small-nerve mediators exciting intramuscular nerves.
+*Conclusion:*: SFN is directly associated with cramps in the general population — a bridge to the documented ME/CFS SFN finding.
+*Limitations:*: General population; small n; not ME/CFS-specific.
+*Certainty Assessment:*: 0.50 raw × 0.75 general-population weight = discounted 0.38
