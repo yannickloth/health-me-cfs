@@ -42,7 +42,7 @@
       administration: 'Administration', neurotrophin: 'Neurotrophin', cofactor: 'Cofactor',
       concept: 'Concept', mechanism: 'Mechanism', anatomy: 'Anatomy', vitamin: 'Vitamin',
       hypothesis: 'Hypothesis', physiology: 'Physiology', study: 'Study',
-      neuropeptide: 'Neuropeptide',
+      neuropeptide: 'Neuropeptide', database: 'Database',
       'cell-biology': 'Cell Biology', 'immunology': 'Immunology'
     },
     fr: {
@@ -61,7 +61,7 @@
       administration: 'Administration', neurotrophin: 'Neurotrophine', cofactor: 'Cofacteur',
       concept: 'Concept', mechanism: 'Mécanisme', anatomy: 'Anatomie', vitamin: 'Vitamine',
       hypothesis: 'Hypothèse', physiology: 'Physiologie', study: 'Étude',
-      neuropeptide: 'Neuropeptide',
+      neuropeptide: 'Neuropeptide', database: 'Base de données',
       'cell-biology': 'Biologie cellulaire', 'immunology': 'Immunologie'
     },
     de: {
@@ -80,7 +80,7 @@
       administration: 'Verabreichung', neurotrophin: 'Neurotrophin', cofactor: 'Kofaktor',
       concept: 'Konzept', mechanism: 'Mechanismus', anatomy: 'Anatomie', vitamin: 'Vitamin',
       hypothesis: 'Hypothese', physiology: 'Physiologie', study: 'Studie',
-      neuropeptide: 'Neuropeptid',
+      neuropeptide: 'Neuropeptid', database: 'Datenbank',
       'cell-biology': 'Zellbiologie', 'immunology': 'Immunologie'
     }
   };
