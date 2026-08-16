@@ -18,7 +18,13 @@
    it always stays fixed and visible while scrolling. */
 header.headroom--unpinned { transform: translateY(0%) !important; }
 /* Recolor the blue ribbon logo so it stands out against the blue navbar. */
-.navbar .navbar-brand-logo .navbar-logo { filter: brightness(0) invert(1); }
+.navbar .navbar-brand-logo .navbar-logo {
+  filter: brightness(0) invert(1);
+  /* Bootstrap sets only max-height:24px; the SVG's square viewBox then
+     collapses to 0×0 in the inline-flex brand. Give an explicit height so
+     the ribbon actually renders. */
+  height: 24px;
+}
 .navbar .navbar-brand,
 .navbar .nav-link,
 .navbar .navbar-toggler {
@@ -35,6 +41,15 @@ header.headroom--unpinned { transform: translateY(0%) !important; }
 }
 .navbar .navbar-toggler-icon {
   filter: invert(90%) sepia(10%) saturate(300%) hue-rotate(180deg);
+}
+/* Make the navbar search lens (loupe) white so it is visible against the
+   blue bar. Quarto's search injects the icon via an Algolia autocomplete;
+   Bootstrap paints the SVG glyph gray (rgb(84,85,85)). Override the stroke
+   colour on the injected icon. */
+.navbar #quarto-search.type-overlay .aa-Autocomplete svg.aa-SubmitIcon,
+.navbar #quarto-search.type-overlay .aa-Autocomplete .aa-Form .aa-Label svg,
+.navbar #quarto-search.type-overlay .aa-Autocomplete .aa-Form .aa-LoadingIndicator svg {
+  color: var(--navbar-fg-active) !important;
 }
 .navbar .dropdown-menu {
   background-color: var(--navbar-bg);
