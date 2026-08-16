@@ -128,7 +128,14 @@
 | 10b | LEGIT-SKIP | No new synthesis (10a skipped) → nothing to propagate. |
 | 11 | RAN | Lightweight tier. xref CLEAN + 2 adversarial rounds (0 CRITICAL/0 HIGH). CONVERGED. Build PASS. |
 | 12 | RAN | Plan-record written (Phase 12 section). No changelog.typ. |
-| 13 | PENDING | Commit (next). |
+| 13 | RAN | Commit `a5d4e437` `content(ch14): integrate SynGO postsynaptic-assembly enrichment as PARTIAL` (17 files, 981 insertions). Post-commit build PASS, 0 errors. Excluded: `web/_quarto*.yml` (foreign, MIXED mode). No shared-file entries lost (bib/appendix/registry/tree verified present in commit). |
+
+**Phase 13 — Commit Record**
+- **Commit hash:** a5d4e437
+- **Scope:** 17 files (ch14 envs + aggregator, hypothesis-registry, 3 bib files, appendix-h, glossary, 5 ops artifacts, scrape-registry)
+- **Excluded:** `tmp/` (gitignored), `web/_quarto*.yml` (foreign/parallel)
+- **Checkpoint cleanup:** MIXED mode — no wip/ pointers created or deleted (expected).
+- **Row status:** `✅ done`
 
 **Verification (independent):** Build 0 errors ✓. New speculation falsifiable ✓. Consequence fields in all 3 envs ✓. Registry 2 entries ✓. Bib keys resolve case-exact ✓.
 **Ledger status:** 22 phases RAN, 4 LEGIT-SKIP (5d, 5c, 10a, 10b), 0 WAIVED, 0 OMISSION. Build: PASS. **Ledger clean — Phase 13 may proceed.**
