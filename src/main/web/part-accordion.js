@@ -27,7 +27,6 @@
   function buildPartAccordion(container, data, prefix) {
     const accordionId = `part-accordion-${prefix}`;
     const items = data.parts.map((part, partIdx) => {
-      const itemId = `part-accordion-item-${prefix}-${partIdx}`;
       const headerId = `part-accordion-head-${prefix}-${partIdx}`;
       const bodyId = `part-accordion-body-${prefix}-${partIdx}`;
       const carouselId = `part-carousel-${prefix}-${partIdx}`;
@@ -74,7 +73,7 @@
           <div id="${bodyId}" class="accordion-collapse collapse${openClass}" aria-labelledby="${headerId}" data-bs-parent="#${accordionId}">
             <div class="accordion-body part-accordion-body">
               <p class="part-accordion-blurb">${esc(part.blurb)}</p>
-              <div id="${carouselId}" class="carousel slide part-carousel" data-bs-ride="carousel" data-bs-interval="false" data-bs-touch="true">
+              <div id="${carouselId}" class="carousel slide part-carousel" data-bs-interval="false" data-bs-touch="true">
                 <div class="carousel-indicators part-carousel-indicators">${indicators}</div>
                 <div class="carousel-inner">${slides}</div>
                 <button class="carousel-control-prev part-carousel-control" type="button" data-bs-target="#${carouselId}" data-bs-slide="prev">
@@ -85,7 +84,7 @@
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next chapter</span>
                 </button>
-                <div class="carousel-caption part-carousel-labels" aria-hidden="true">
+                <div class="carousel-caption part-carousel-labels">
                   ${labels}
                 </div>
               </div>
@@ -96,6 +95,27 @@
 
     container.innerHTML = `
       <div class="accordion part-accordion" id="${accordionId}">${items}</div>`;
+
+    // Bootstrap only tracks the active state on .carousel-indicators, not on
+    // the chapter-label buttons. Keep the labels in sync with the active slide.
+    container.querySelectorAll('.part-carousel').forEach((carousel) => {
+      const items = [...carousel.querySelectorAll('.carousel-item')];
+      const labels = [...carousel.querySelectorAll('.part-carousel-labels [data-bs-slide-to]')];
+      if (labels.length === 0) return;
+      const sync = (slideIdx) => {
+        labels.forEach((btn, i) => {
+          const on = i === slideIdx;
+          btn.classList.toggle('active', on);
+          if (on) btn.setAttribute('aria-current', 'true');
+          else btn.removeAttribute('aria-current');
+        });
+      };
+      carousel.addEventListener('slid.bs.carousel', (e) => {
+        const next = e.relatedTarget;
+        const idx = next ? items.indexOf(next) : -1;
+        if (idx >= 0) sync(idx);
+      });
+    });
   }
 
   function render() {

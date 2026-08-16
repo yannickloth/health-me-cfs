@@ -4,17 +4,15 @@
   --navbar-fg-active: #ffffff;
 }
 
-/* ── Top menubar (Quarto navbar) — blue background, white/light-blue text ── */
+/* ── Top menubar (Quarto navbar) — blue background, white/light-blue text ──
+   Quarto pins the header via `header.fixed-top` and offsets the body via
+   `body.nav-fixed{padding-top:64px}`; do NOT set position:fixed on .navbar
+   here (it would take the nav out of the header's flow, collapse the header
+   height to 0, and make Quarto's headerOffset() return 0 → content slides
+   under the bar). Only recolor. */
 .navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1030;
   background-color: var(--navbar-bg) !important;
 }
-/* Reserve space for the fixed navbar so page content is not hidden beneath it. */
-body { padding-top: 56px; }
 /* Recolor the blue ribbon logo so it stands out against the blue navbar. */
 .navbar .navbar-brand-logo .navbar-logo { filter: brightness(0) invert(1); }
 .navbar .navbar-brand,
@@ -432,13 +430,22 @@ body { padding-top: 56px; }
      cool pastel azure/violet palette consistent with the box-color system. */
 
   .part-accordion { margin-block: 1rem; }
+  part-accordion { display: block; }
 
   .part-accordion-item {
     border: 1px solid #dee2e6;
-    border-radius: 0.5rem;
     overflow: hidden;
-    margin-block-end: 0.75rem;
     box-shadow: 0 0.125rem 0.5rem rgba(0,0,0,0.04);
+  }
+  /* Unified accordion: round only the outer corners, no gaps between items. */
+  .part-accordion-item:first-of-type {
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
+  .part-accordion-item:last-of-type {
+    border-radius: 0 0 0.5rem 0.5rem;
+  }
+  .part-accordion-item:not(:first-of-type) {
+    border-top: 0;
   }
   .part-accordion-item .accordion-button {
     background: #f4f7fb;
