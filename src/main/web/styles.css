@@ -13,6 +13,10 @@
 .navbar {
   background-color: var(--navbar-bg) !important;
 }
+/* Keep the navbar visible at all times. Quarto's headroom JS normally hides
+   the bar (translateY(-100%)) on scroll-down; override the unpinned state so
+   it always stays fixed and visible while scrolling. */
+header.headroom--unpinned { transform: translateY(0%) !important; }
 /* Recolor the blue ribbon logo so it stands out against the blue navbar. */
 .navbar .navbar-brand-logo .navbar-logo { filter: brightness(0) invert(1); }
 .navbar .navbar-brand,
