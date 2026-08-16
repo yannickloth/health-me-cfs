@@ -35,6 +35,7 @@ website:
   site-url: "https://yannickloth.github.io/health-me-cfs/"
   title: "Myalgic Encephalomyelitis / Chronic Fatigue Syndrome"
   image: https://yannickloth.github.io/health-me-cfs/logos/og-social.png
+  favicon: logos/favicon.png
   open-graph: true
   twitter-card: true
   navbar:
@@ -96,7 +97,6 @@ format:
           <script data-goatcounter="https://yannickloth.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
     theme: cosmo
     css: styles.css
-    favicon: logos/favicon.png
     toc: true
     toc-depth: 3
     number-sections: true
