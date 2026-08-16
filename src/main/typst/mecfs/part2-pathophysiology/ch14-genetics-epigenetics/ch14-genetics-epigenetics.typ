@@ -255,6 +255,8 @@ GWAS also enables Mendelian randomisation analyses testing causal relationships 
 
 #include "sec-01-misc/subsec-18-maccallini-2026-meta-gwas-brain-first-ge/warnings/warn-single-anchoring-risk-and-methodological.typ"
 
+#include "sec-01-misc/subsec-18-maccallini-2026-meta-gwas-brain-first-ge/limitations/lim-syngo-enrichment-unpublished-and-method.typ"
+
 #include "sec-01-misc/subsec-18-maccallini-2026-meta-gwas-brain-first-ge/hypotheses/hyp-glutamatergic-synaptic-dysfunction-as-ge.typ"
 
 #include "sec-01-misc/subsec-18-maccallini-2026-meta-gwas-brain-first-ge/hypotheses/hyp-two-hit-model-glutamatergic-vulnerabilit.typ"
@@ -262,6 +264,8 @@ GWAS also enables Mendelian randomisation analyses testing causal relationships 
 #include "sec-01-misc/subsec-18-maccallini-2026-meta-gwas-brain-first-ge/hypotheses/hyp-brain-first-genetic-model.typ"
 
 #include "sec-01-misc/subsec-18-maccallini-2026-meta-gwas-brain-first-ge/open-questions/oq-cell-type-specific-prs-for-biologically-.typ"
+
+#include "sec-01-misc/subsec-18-maccallini-2026-meta-gwas-brain-first-ge/open-questions/oq-syngo-synaptic-density-pet-as-testable.typ"
 
 #include "sec-01-misc/subsec-18-maccallini-2026-meta-gwas-brain-first-ge/speculations/spec-serum-kynurenic-acid-quinolinic-acid-rat.typ"
 
@@ -274,6 +278,8 @@ GWAS also enables Mendelian randomisation analyses testing causal relationships 
 #include "sec-01-misc/subsec-18-maccallini-2026-meta-gwas-brain-first-ge/speculations/spec-composite-neuronal-risk-score-for-subtyp.typ"
 
 #include "sec-01-misc/subsec-18-maccallini-2026-meta-gwas-brain-first-ge/speculations/spec-combinatorial-snp-interactions-as-clinic.typ"
+
+#include "sec-01-misc/subsec-18-maccallini-2026-meta-gwas-brain-first-ge/speculations/spec-syngo-postsynaptic-assembly-localizes-g.typ"
 
 {{/* Phase 10a retroactive synthesis: brain-first glutamatergic genetic architecture (condenses ~20 environments across ch12/ch14d/ch14h/ch16) */}}
 #include "sec-01-misc/subsec-18-maccallini-2026-meta-gwas-brain-first-ge/syntheses/syn-brain-first-glutamatergic-genetic-architecture.typ"

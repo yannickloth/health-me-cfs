@@ -35421,3 +35421,142 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
 *Conclusion:*: SFN is directly associated with cramps in the general population — a bridge to the documented ME/CFS SFN finding.
 *Limitations:*: General population; small n; not ME/CFS-specific.
 *Certainty Assessment:*: 0.50 raw × 0.75 general-population weight = discounted 0.38
+
+// =============================================================================
+// SynGO Synaptic Gene-Ontology Enrichment in ME/CFS
+// =============================================================================
+
+=== Koopmans et al.\ 2019 — SynGO: Evidence-Based Expert-Curated Synapse Knowledge Base
+
+@Koopmans2019SynGO
+
+*Full Citation:*: Koopmans F, van Nierop P, Andres-Alonso M, et al.\ SynGO: An Evidence-Based, Expert-Curated Knowledge Base for the Synapse. _Neuron_. 2019;103(2):217-234.e4.
+*DOI:*: #link("https://doi.org/10.1016/j.neuron.2019.05.002")[10.1016/j.neuron.2019.05.002]
+*PMID:*: 31171447
+*Study Design:*: Knowledge-base construction (expert curation + Gene Ontology annotation)
+*Sample Size:*: 2,922 annotations for 1,112 genes; 87 synaptic locations + 179 synaptic processes
+*Key Findings:*:
+    - Synaptic genes are exceptionally conserved and less tolerant to loss-of-function mutations than other genes.
+    - SynGO terms significantly overrepresented among gene variants for intelligence, educational attainment, ADHD, autism, bipolar disorder, and neurodevelopmental-disorder de novo variants (incl. schizophrenia).
+    - Provides the public analysis platform (syngoportal.org) used for the SynGO MAGMA enrichment applied to DecodeME/MVP GWAS.
+*Conclusion:*: Establishes SynGO as the reference synapse ontology — the tooling that makes "synaptic gene-ontology enrichment in ME/CFS" interpretable and reproducible.
+*Limitations:*: Not a patient study; a reference resource. Requires external GWAS/summary statistics as input.
+*Certainty Assessment:*: 0.85 raw × 0.30 in-silico weight = discounted 0.26 (tooling/grounding, not a patient finding)
+
+=== Onwordi et al.\ 2020 — SV2A Synaptic-Density Marker Reduced in Schizophrenia
+
+@Onwordi2020SV2Aschizophrenia
+
+*Full Citation:*: Onwordi EC, Halff EF, Whitehurst T, et al.\ Synaptic density marker SV2A is reduced in schizophrenia patients and unaffected by antipsychotics in rats. _Nature Communications_. 2020;11(1):246.
+*DOI:*: #link("https://doi.org/10.1038/s41467-019-14122-0")[10.1038/s41467-019-14122-0]
+*PMID:*: 31937764
+*Study Design:*: Case-control in-vivo PET + rat pharmacology validation
+*Sample Size:*: n=18 schizophrenia, n=18 controls; Sprague-Dawley rats for antipsychotic arm
+*Key Findings:*:
+    - [11C]UCB-J SV2A binding significantly lower in frontal and anterior cingulate cortices in schizophrenia (Cohen's d=0.8-0.9); hippocampus unchanged.
+    - Antipsychotic drug exposure does not alter SV2A levels (western blot, autoradiography, immunostaining).
+*Conclusion:*: Establishes in-vivo SV2A PET as a synaptic-terminal-density readout; the precedent for the proposed SV2A imaging step in ME/CFS.
+*Limitations:*: Schizophrenia cohort, not ME/CFS; cross-sectional; n=18 per group.
+*Certainty Assessment:*: 0.75 raw × 0.50 other-disease weight = discounted 0.38
+
+=== Onwordi et al.\ 2021 — SV2A Relates to Glutamate in Health, Not Schizophrenia
+
+@Onwordi2021SV2Aglutamate
+
+*Full Citation:*: Onwordi EC, Whitehurst T, Mansur A, et al.\ The relationship between synaptic density marker SV2A, glutamate and N-acetyl aspartate levels in healthy volunteers and schizophrenia. _Translational Psychiatry_. 2021;11(1):393.
+*DOI:*: #link("https://doi.org/10.1038/s41398-021-01515-3")[10.1038/s41398-021-01515-3]
+*PMID:*: 34282130
+*Study Design:*: Multimodal PET + 1H-MRS imaging
+*Sample Size:*: n=40 (18 schizophrenia, 22 healthy volunteers)
+*Key Findings:*:
+    - SV2A DVR positively correlated with Glu/Cr and Glx/Cr in healthy volunteers, in both hippocampus and ACC.
+    - This coupling was absent in schizophrenia — the MRS glutamatergic signal tracks synaptic density in health but not disease.
+    - No relationship between SV2A and NAA in either group.
+*Conclusion:*: An appreciable proportion of the brain glutamatergic MRS signal reflects synaptic density — linking the synaptic-genetic signal to a measurable in-vivo glutamatergic correlate.
+*Limitations:*: Schizophrenia/HV; COI disclosed (Invicro employees, Lundbeck involvement); n=40.
+*Certainty Assessment:*: 0.70 raw × 0.50 other-disease weight = discounted 0.35
+
+=== Asch et al.\ 2024 — In-Vivo Synaptic Density Imaging and Depression (SV2A review)
+
+@Asch2024SV2Adepression
+
+*Full Citation:*: Asch RH, Abdallah CG, Carson RE, Esterlis I. Challenges and rewards of in vivo synaptic density imaging, and its application to the study of depression. _Neuropsychopharmacology_. 2024;50(1):153-163.
+*DOI:*: #link("https://doi.org/10.1038/s41386-024-01913-3")[10.1038/s41386-024-01913-3]
+*PMID:*: 39039139
+*Study Design:*: Review (tracer development + quantification methods + depression application)
+*Sample Size:*: n/a (review)
+*Key Findings:*:
+    - Documents SV2A tracer development ([11C]UCB-J, [18F]SynVesT-1) and quantification approaches.
+    - Lower SV2A synaptic density in depressive symptoms; ketamine drug challenge used to image synaptogenesis in vivo.
+    - Reviews translational animal-model SV2A imaging and methodological challenges.
+*Conclusion:*: SV2A PET is the mature in-vivo synaptic-density method for neuropsychiatric disorders — the imaging platform a SynGO-in-ME/CFS study would deploy.
+*Limitations:*: Review; COI — R.E.C. inventor on [18F]SynVesT-1 patent, C.G.A. industry consulting.
+*Certainty Assessment:*: 0.70 raw × 0.75 general-population weight = discounted 0.53
+
+=== Serrano et al.\ 2022 — Imaging Synaptic Density (methodology review)
+
+@Serrano2022synapticdensity
+
+*Full Citation:*: Serrano ME, Kim E, Petrinovic MM, Turkheimer F, Cash D. Imaging Synaptic Density: The Next Holy Grail of Neuroscience? _Frontiers in Neuroscience_. 2022;16:796129.
+*DOI:*: #link("https://doi.org/10.3389/fnins.2022.796129")[10.3389/fnins.2022.796129]
+*PMID:*: 35401097
+*Study Design:*: Critical methodological review
+*Sample Size:*: n/a (review)
+*Key Findings:*:
+    - Compares ex-vivo (EM, immunohistochemistry) vs in-vivo (SV2A PET) vs MR-based (glutamate-linked) synaptic-density quantification.
+    - SV2A PET tracers have limited specificity; MR glutamate approaches are non-invasive alternatives.
+    - All methods entail trade-offs before routine clinical use.
+*Conclusion:*: Provides the methodological caveats (SV2A limited specificity) that must temper any proposed ME/CFS synaptic-density PET study.
+*Limitations:*: Review; no primary data.
+*Certainty Assessment:*: 0.60 raw × 0.75 general-population weight = discounted 0.45
+
+=== Thapaliya et al.\ 2024 — Elevated Brain Glutamate in ME/CFS and Long COVID (MRS)
+
+@Thapaliya2024glutamateMRS
+
+*Full Citation:*: Thapaliya K, Marshall-Gradisnik S, Eaton-Fitch N, Eftekhari Z, Inderyas M, Barnden L. Imbalanced Brain Neurochemicals in Long COVID and ME/CFS: A Preliminary Study Using MRI. _The American Journal of Medicine_. 2025;138(3):567-574.e1.
+*DOI:*: #link("https://doi.org/10.1016/j.amjmed.2024.04.007")[10.1016/j.amjmed.2024.04.007]
+*PMID:*: 38588934
+*Study Design:*: Cross-sectional 3T MRS (posterior cingulate cortex)
+*Sample Size:*: n=17 ME/CFS, n=17 Long COVID, n=10 healthy controls
+*Key Findings:*:
+    - Glutamate significantly higher in ME/CFS (P=.017) and Long COVID (P=.02) vs healthy controls.
+    - NAA significantly higher in Long COVID only.
+    - No ME/CFS vs Long COVID difference — suggesting shared neurochemical pathology.
+*Conclusion:*: First ME/CFS-specific in-vivo evidence of elevated brain glutamate — a direct biochemical correlate of the glutamatergic-synaptic genetic signal (Maccallini 2026 / SynGO enrichment).
+*Limitations:*: Small n; single center (Griffith NCNED); posterior cingulate only; preliminary.
+*Certainty Assessment:*: 0.55 raw × 1.00 ME/CFS weight = discounted 0.55
+
+=== Williams et al.\ 2019 — EBV dUTPase Alters Synaptic-Plasticity Genes (ME/CFS)
+
+@Williams2019EBVdUTPasesynaptic
+
+*Full Citation:*: Williams MV, Cox B, Lafuse WP, Ariza ME. Epstein-Barr Virus dUTPase Induces Neuroinflammatory Mediators: Implications for Myalgic Encephalomyelitis/Chronic Fatigue Syndrome. _Clinical Therapeutics_. 2019;41(5):848-863.
+*DOI:*: #link("https://doi.org/10.1016/j.clinthera.2019.04.009")[10.1016/j.clinthera.2019.04.009]
+*PMID:*: 31040055
+*Study Design:*: In vitro (astrocytes/microglia/endothelial) + in vivo mouse
+*Sample Size:*: 12/15 genes in vitro; 34/84 genes in vivo; female C57Bl/6 mice
+*Key Findings:*:
+    - EBV dUTPase protein altered expression of genes controlling blood-brain-barrier integrity and synaptic plasticity.
+    - Affected pain-synapse structure/function and dopamine/serotonin/GABA/glutamate pathways.
+    - dUTPase seropositive in 30.91-52.7% of ME/CFS patients (prior cohorts).
+*Conclusion:*: Mechanistic bridge from a documented ME/CFS viral trigger (EBV) to altered synaptic-plasticity gene expression — connecting the infection-trigger narrative to the synaptic-genetic enrichment signal.
+*Limitations:*: In vitro + animal; no human synaptic-plasticity gene measurement; OH State group line.
+*Certainty Assessment:*: 0.55 raw × 0.50 in-vitro/animal weight = discounted 0.28
+
+=== Wang et al.\ 2021 — Glutamate in Gulf War Illness (cross-disease glutamatergic synapse)
+
+@Wang2021glutamateGWI
+
+*Full Citation:*: Wang X, Ali N, Lin CG. Emerging role of glutamate in the pathophysiology and therapeutics of Gulf War illness. _Life Sciences_. 2021;280:119609.
+*DOI:*: #link("https://doi.org/10.1016/j.lfs.2021.119609")[10.1016/j.lfs.2021.119609]
+*PMID:*: 33991547
+*Study Design:*: Review (cross-disease glutamatergic-synapse precedent)
+*Sample Size:*: n/a (review)
+*Key Findings:*:
+    - GWI rodent models show elevated extracellular glutamate and impaired glutamatergic synapse structure/function.
+    - Restoring glutamatergic synapses ameliorates GWI pathological and behavioral deficits.
+    - Low-glutamate diet reduced multiple GWI symptoms in veterans.
+*Conclusion:*: A glutamatergic-synaptic mechanism is translationally plausible in chronic fatigue/multisymptom illness — complementing the ME/CFS synaptic-genetic signal.
+*Limitations:*: Gulf War Illness, not ME/CFS; largely preclinical.
+*Certainty Assessment:*: 0.55 raw × 0.80 cross-disease weight = discounted 0.44

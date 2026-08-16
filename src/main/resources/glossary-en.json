@@ -11476,5 +11476,35 @@
     "label": "Na/K-ATPase",
     "category": "enzyme",
     "definition": "Sodium-potassium adenosine triphosphatase: the membrane pump that maintains the resting potential of excitable cells (muscle fibres, nerves) by exporting three Na⁺ and importing two K⁺ per ATP. Failure depolarizes cells, contributing to cramps and hyperexcitability."
+  },
+  "SynGO": {
+    "label": "SynGO",
+    "category": "database",
+    "definition": "Synapse Gene Ontology: an expert-curated knowledge base that systematically annotates synaptic genes and processes using Gene Ontology terms (87 synaptic locations and 179 synaptic processes, built from published evidence). Used for gene-set enrichment analysis of synapse-related biology."
+  },
+  "PSD": {
+    "label": "PSD",
+    "category": "anatomy",
+    "definition": "Postsynaptic density: the protein-rich specialization on the receiving side of a synapse that anchors neurotransmitter receptors and scaffolding proteins; it is the site of the molecular machinery that builds and tunes synaptic connections."
+  },
+  "MAGMA": {
+    "label": "MAGMA",
+    "category": "method",
+    "definition": "Multi-marker Analysis of GenoMic Annotation: a computational method that tests whether groups of genes (gene sets) are collectively associated with a disease or trait, used for gene-set enrichment analysis of genome-wide association study (GWAS) results."
+  },
+  "UCB-J": {
+    "label": "UCB-J",
+    "category": "imaging",
+    "definition": "A positron-emission tomography (PET) radiotracer (11C-UCB-J) that binds the synaptic vesicle glycoprotein 2A (SV2A), used to measure synaptic density in the living brain."
+  },
+  "SynVesT-1": {
+    "label": "SynVesT-1",
+    "category": "imaging",
+    "definition": "A positron-emission tomography (PET) radiotracer (18F-SynVesT-1) that binds the synaptic vesicle glycoprotein 2A (SV2A), used to measure synaptic density in the living brain."
+  },
+  "AMPA": {
+    "label": "AMPA",
+    "category": "receptor",
+    "definition": "α-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid receptor: the main fast-acting receptor for the excitatory neurotransmitter glutamate at most synapses. Its trafficking into and out of the postsynaptic membrane is a key mechanism of synaptic plasticity."
   }
 }

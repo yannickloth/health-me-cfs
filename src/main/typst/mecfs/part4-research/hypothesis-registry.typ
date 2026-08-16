@@ -47,6 +47,33 @@ This registry collects all hypotheses, speculations, open questions, and predict
   limitation: [Combinatorial approach requires validation in ancestrally diverse populations. Synergistic interactions may be dataset-specific. Sardell2026 is a single study.],
 )
 
+#registry-entry(
+  [Unpublished SynGO Enrichment Raises a Provisional Postsynaptic-Assembly Hypothesis],
+  type: "S",
+  certainty: "0.30",
+  evidence: [Gene-set enrichment of SynGO synapse ontology terms against DecodeME and DecodeME+MVP GWAS (unpublished single-investigator MAGMA run, blog-documented, no deposited code) provisionally localizes the glutamatergic genetic signal toward synaptic assembly/scaffolding. Reported top terms: synapse adhesion between pre- and post-synapse (GO:0099560), regulation of postsynaptic density assembly (GO:0099151), postsynaptic density membrane (GO:0098839), Bonferroni-significant in the DecodeME run; DecodeME+MVP directionally concordant but not independent (meta incorporates DecodeME). Enriched genes include postsynaptic density/adhesion (LRRC7, NLGN1, SHISA6, DCC) plus genes not cleanly postsynaptic (CACNA1E presynaptic Ca channel, NRXN1 presynaptically anchored, ARFGEF2 trafficking), so the postsynaptic-vs-presynaptic distinction is a testable hypothesis, not an established exclusion. SynGO resource shows synaptic genes are conserved and LoF-intolerant (Koopmans 2019).],
+  citations: [@Koopmans2019SynGO @Maccallini2026metaGWAS],
+  mechanism: [ME/CFS risk variants in synaptic assembly/scaffolding and adhesion genes → possibly altered synaptic structure/wiring rather than (or alongside) altered neurotransmitter release → excitatory/inhibitory imbalance → neuronal hyperexcitability substrate. Refines the glutamatergic-synapse hypothesis by asking which process within the synapse is affected; provisional given unpublished/confound-prone source.],
+  chapter-ref: [ch14: subsec-18 Maccallini brain-first genetic architecture — spec:syngo-postsynaptic-assembly],
+  prediction: [A pre-registered MAGMA gene-set replication on an independent non-overlapping ME/CFS GWAS cohort will reproduce enrichment of postsynaptic assembly/scaffolding SynGO terms (GO:0099560, GO:0099151, GO:0098839) at family-wise-significant levels, surviving correction for gene length/conservation and exceeding a brain-trait pleiotropy baseline. Falsified if no postsynaptic-assembly enrichment, if signal concentrates in presynaptic vesicle-release terms, or if it attenuates to null after length/conservation correction.],
+  treatment: [If confirmed, directs mechanistic and drug-target research toward postsynaptic scaffolding/adhesion machinery rather than neurotransmitter-release pharmacology. No current clinical recommendation.],
+  limitation: [Direct enrichment result is unpublished (blog MAGMA run, no deposited code), not peer-reviewed or independently replicated. Vulnerable to gene-length/conservation bias (synaptic genes long/conserved/LoF-intolerant) and generic brain-trait pleiotropy (SynGO terms shared with SCZ/ADHD/ASD/BP/intelligence). DecodeME+MVP concordance not fully independent (meta incorporates DecodeME). Gene-set enrichment sensitive to window/background/multiple-testing choices. SynGO is an in silico ontology, translation gap to ME/CFS tissue. Severity not stratified.],
+)
+
+#registry-entry(
+  [Synaptic-Density PET (SV2A) as Testable Imaging Correlate],
+  type: "OQ",
+  certainty: "n/a",
+  evidence: [If ME/CFS genetic risk localizes to synaptic assembly/scaffolding, synaptic density may be measurably altered. SV2A PET ([11C]UCB-J, [18F]SynVesT-1) measures in-vivo synaptic density and has been applied in schizophrenia (SV2A reduced in cortex, Onwordi 2020) and couples to glutamatergic markers in health (Onwordi 2021); method reviewed in Asch 2024 and Serrano 2022. No ME/CFS SV2A-PET study exists yet.],
+  citations: [@Onwordi2020SV2Aschizophrenia @Onwordi2021SV2Aglutamate @Asch2024SV2Adepression @Serrano2022synapticdensity],
+  mechanism: [Proposed tool: measure SV2A binding (synaptic density) across striatum, hypothalamus, and cortex in ME/CFS vs matched controls to test the synaptic-structure hypothesis indirectly, as a presynaptic proxy of total synapse number.],
+  chapter-ref: [ch14: subsec-18 Maccallini brain-first genetic architecture — oq:syngo-synaptic-density-pet],
+  prediction: [An in-vivo [11C]UCB-J or [18F]SynVesT-1 PET study, ideally paired with a glutamatergic-neurochemistry readout (e.g. MRS glutamate), will show a measurable difference in SV2A binding (synaptic density) in one or more brain regions in ME/CFS vs matched controls. Falsified if synaptic density is indistinguishable from controls across all regions; a null SV2A result alone does not rule out a postsynaptic-assembly deficit.],
+  treatment: [If positive, could serve as an objective severity or treatment-response biomarker. Early-stage; untested in ME/CFS.],
+  limitation: [SV2A-PET evidence is from schizophrenia/healthy-volunteer and methodological cohorts, not ME/CFS. Translation gap. Not yet performed in ME/CFS. Critically, SV2A is presynaptic while the genetic signal is postsynaptic, so SV2A-PET is an indirect correlate and a null result cannot falsify a postsynaptic deficit.],
+)
+
+
 #table(
   columns: (1fr, 2fr, 1fr),
   [*ID / Label*], [*Details*], [*Phase / Cert*],

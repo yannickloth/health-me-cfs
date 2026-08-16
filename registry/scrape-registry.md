@@ -933,3 +933,14 @@ Prevents re-processing of already-integrated content.
 |-----|--------|---------|------------|--------|
 | PubMed API queries (23 queries, batch) | pubmed/eutils | 2026-08-15 | — | ops/research/search-log-theanine-caffeine-adhd-2026-08-15.md, ops/research/literature-summary-theanine-caffeine-adhd.md, bib/treatments.bib, bib/neurology-comorbidities.bib, bib/epidemiology.bib, bib/energy-metabolism.bib, appendix-h — L-theanine-caffeine/ADHD selective-attention + caffeine/L-theanine harm + adenosine/purinergic ME/CFS bridge literature (11 new papers) |
 | Crossref API (2 DOIs) | crossref | 2026-08-15 | — | Author disambiguation for Al Shahab 2025 (nu17091482) and Anas Sohail 2021 (cureus.20828) |
+
+---
+
+## SynGO Synaptic Gene-Ontology Enrichment in ME/CFS
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-08-16 | 24 queries: direct (SynGO synapse, synaptic gene ontology ME/CFS, synapse enrichment ME/CFS GWAS), null/negative (no synaptic enrichment ME/CFS — zero hits), competing (ME/CFS GWAS immune enrichment, mitochondrial enrichment — already in bib), indirect biochemical links (postsynaptic density / synaptic plasticity / glutamatergic / synaptic vesicle / SV2A × ME/CFS or chronic fatigue), imaging correlate (SV2A PET schizophrenia/depression). Non-treatment topic — harm searches NOT required per task constraints. |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed E-utilities API (24 queries + efetch, batch) | pubmed/eutils | 2026-08-16 | — | ops/research/search-log-syngo-synaptic-enrichment-mecfs-2026-08-16.md, ops/research/literature-summary-syngo-synaptic-enrichment-mecfs.md, bib/genetics-epigenetics.bib (5 new), bib/neuroinflammation.bib (2 new), bib/viral-infection.bib (1 new), appendix-h (8 annotated entries) — SynGO synaptic enrichment in ME/CFS literature |
