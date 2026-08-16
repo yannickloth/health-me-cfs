@@ -1,4 +1,50 @@
 :root {
+  --navbar-bg: #14507a;
+  --navbar-fg: #eaf4ff;
+  --navbar-fg-active: #ffffff;
+}
+
+/* ── Top menubar (Quarto navbar) — blue background, white/light-blue text ── */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030;
+  background-color: var(--navbar-bg) !important;
+}
+/* Reserve space for the fixed navbar so page content is not hidden beneath it. */
+body { padding-top: 56px; }
+/* Recolor the blue ribbon logo so it stands out against the blue navbar. */
+.navbar .navbar-brand-logo .navbar-logo { filter: brightness(0) invert(1); }
+.navbar .navbar-brand,
+.navbar .nav-link,
+.navbar .navbar-toggler {
+  color: var(--navbar-fg) !important;
+}
+.navbar .navbar-brand:hover,
+.navbar .nav-link:hover,
+.navbar .nav-link.active,
+.navbar .nav-link:focus {
+  color: var(--navbar-fg-active) !important;
+}
+.navbar .navbar-toggler {
+  border-color: color-mix(in srgb, var(--navbar-fg) 60%, transparent);
+}
+.navbar .navbar-toggler-icon {
+  filter: invert(90%) sepia(10%) saturate(300%) hue-rotate(180deg);
+}
+.navbar .dropdown-menu {
+  background-color: var(--navbar-bg);
+}
+.navbar .dropdown-menu .dropdown-item {
+  color: var(--navbar-fg) !important;
+}
+.navbar .dropdown-menu .dropdown-item:hover,
+.navbar .dropdown-menu .dropdown-item:focus,
+.navbar .dropdown-menu .dropdown-item.active {
+  background-color: color-mix(in srgb, var(--navbar-bg) 85%, var(--bs-white));
+  color: var(--navbar-fg-active) !important;
 }
 /* NOTE: these rules are deliberately UNLAYERED. styles.css is linked after
    Bootstrap/Quarto CSS in the site, so unlayered rules win over Quarto's
