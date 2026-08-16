@@ -1,5 +1,6 @@
 ---
 name: environment-selection
+mode: subagent
 description: Guide environment selection for Typst content — decides between template environments (hypothesis-box, achievement, warning-box, etc.) and project-specific custom structures. Use when creating new structured content or unsure which environment fits.
 ---
 

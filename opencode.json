@@ -155,15 +155,6 @@
         "reasoning_effort": "high"
       }
     },
-    "consequence-field-writer": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      }
-    },
     "content-reviewer": {
       "model": "deepseek/deepseek-v4-pro",
       "options": {
@@ -362,6 +353,7 @@
       }
     },
     "haiku-general": {
+      "mode": "subagent",
       "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
@@ -550,6 +542,7 @@
       }
     },
     "opus-general": {
+      "mode": "subagent",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
@@ -710,6 +703,7 @@
       }
     },
     "sonnet-general": {
+      "mode": "subagent",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {

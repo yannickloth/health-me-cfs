@@ -1,5 +1,6 @@
 ---
 name: english-prose-pattern-auditor
+mode: subagent
 description: Detects AI-prose pattern-tells and suggests targeted revisions for .typ/.md prose without classifying text as AI/human-written. Use for prose style auditing and pattern-aware editing.
 model: deepseek/deepseek-v4-pro
 ---

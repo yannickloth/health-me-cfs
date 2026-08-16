@@ -1,5 +1,6 @@
 ---
 name: template-advisor
+mode: subagent
 description: Advise on using infolead-latex-templates environments, theorems, and preamble modules. Use when creating new LaTeX structures or choosing appropriate environments.
 model: deepseek/deepseek-v4-pro
 ---

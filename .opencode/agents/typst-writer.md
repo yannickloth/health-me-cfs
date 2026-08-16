@@ -1,5 +1,6 @@
 ---
 name: typst-writer
+mode: subagent
 description: Write or edit Typst (.typ) files under src/main/typst/mecfs/ with guaranteed syntax correctness
 model: deepseek/deepseek-v4-pro
 ---
