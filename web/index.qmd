@@ -40,16 +40,7 @@ A structured reference work spanning five parts, with an epistemic classificatio
 - **[Part IV — Research Evidence:](part4-research/ch34-research-methods/01-me-cfs-specific-research-methods.html)** — Biomarker research, clinical trials, mechanistic studies, epidemiology, controversies
 - **[Part V — Quantitative Modeling:](part5-modeling/ch48-modeling-foundations/01-foundations-of-me-cfs-modeling.html)** — Mathematical models of disease dynamics using ordinary differential equations
 
-Use the **sidebar** to browse chapters and sections. Each page has its own table of contents.
-
-:::
-
-:::
-
-::: {.part-accordion-section}
-## Explore the Paper by Part
-
-Use the accordion to open each part, then the carousel to browse the chapters it contains and see what each one covers.
+Use the **sidebar** to browse chapters and sections. Each page has its own table of contents. Use the accordion below to open each part, then the carousel to browse the chapters it contains and see what each one covers.
 
 ::: {.grid}
 ::: {.g-col-12}
@@ -58,6 +49,9 @@ Use the accordion to open each part, then the carousel to browse the chapters it
 :::
 :::
 :::
+
+:::
+
 :::
 
 ---
