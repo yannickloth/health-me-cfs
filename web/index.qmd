@@ -46,6 +46,20 @@ Use the **sidebar** to browse chapters and sections. Each page has its own table
 
 :::
 
+::: {.part-accordion-section}
+## Explore the Paper by Part
+
+Use the accordion to open each part, then the carousel to browse the chapters it contains and see what each one covers.
+
+::: {.grid}
+::: {.g-col-12}
+::: {=html}
+<part-accordion></part-accordion>
+:::
+:::
+:::
+:::
+
 ---
 
 ## Recent Blog Articles {.unlisted}
@@ -56,3 +70,7 @@ Short, accessible articles exploring specific ME/CFS topics — mechanisms, trea
 :::
 
 [See all blog posts &rarr;](en/blog/index.qmd){.btn .btn-outline-primary}
+
+::: {=html}
+<script src="part-accordion.js"></script>
+:::

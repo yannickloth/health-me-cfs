@@ -108,6 +108,8 @@ format:
       - glossary-fr.json
       - glossary-de.json
       - glossary-tooltip.js
+      - part-accordion.js
+      - part-chapters.json
       - logos/og-social.png
     crossref:
       sec-prefix: Section

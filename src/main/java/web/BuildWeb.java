@@ -298,6 +298,14 @@ void main(String[] args) throws IOException, InterruptedException {
         System.out.println("  src/main/resources/" + gf + " -> web/" + gf);
     }
 
+    // --- part-chapters.json (home page chapter explorer data) ---
+    System.out.println();
+    System.out.println("=== part-chapters.json ===");
+    var pcSrc = Path.of("src/main/resources/part-chapters.json").toAbsolutePath().normalize();
+    var pcDst = webRoot.resolve("part-chapters.json");
+    copy(pcSrc, pcDst, REPLACE_EXISTING);
+    System.out.println("  src/main/resources/part-chapters.json -> web/part-chapters.json");
+
     // --- Static HTML assets (redirects etc.) ---
     System.out.println();
     System.out.println("=== static html assets ===");

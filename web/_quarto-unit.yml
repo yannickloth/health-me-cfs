@@ -80,6 +80,8 @@ format:
       - glossary-de.json
       - mecfs-sidebar.js
       - mecfs-sidebar.json
+      - part-accordion.js
+      - part-chapters.json
       - logos/og-social.png
     crossref:
       sec-prefix: Section
