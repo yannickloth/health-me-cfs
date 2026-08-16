@@ -45,7 +45,7 @@ Use the **sidebar** to browse chapters and sections. Each page has its own table
 ::: {.grid}
 ::: {.g-col-12}
 ::: {=html}
-<part-accordion></part-accordion>
+<div><part-accordion></part-accordion></div>
 :::
 :::
 :::
