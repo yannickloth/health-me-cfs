@@ -93,6 +93,9 @@
         const id = 'quarto-sidebar-section-' + counter.n;
         const li = el('li', 'sidebar-item sidebar-item-section');
         const cont = el('div', 'sidebar-item-container');
+        // True when this section's landing page (chapter intro / part title)
+        // is the currently viewed page.
+        const sectionActive = item.href && current === normalize(stripBase(item.href));
         // The section header navigates to its landing page (chapter intro /
         // part title) when `href` is present; the chevron always toggles the
         // subtree. When no href exists the header text itself toggles.
@@ -102,6 +105,19 @@
           'data-bs-target': item.href ? undefined : '#' + id,
           role: 'navigation', 'aria-expanded': 'false'
         });
+        if (sectionActive) headA.classList.add('active');
+        // A header that links to a landing page should also expand its subtree
+        // when clicked, so the visitor sees the chapter's sections (resp. the
+        // part's chapters) alongside the intro.
+        if (item.href) {
+          headA.addEventListener('click', () => {
+            subUl.classList.add('show');
+            headA.setAttribute('aria-expanded', 'true');
+            toggle.setAttribute('aria-expanded', 'true');
+            chev.classList.remove('bi-chevron-right');
+            chev.classList.add('bi-chevron-down');
+          });
+        }
         const headSpan = el('span', 'menu-text');
         headSpan.textContent = item.label;
         headA.appendChild(headSpan);
@@ -118,12 +134,15 @@
         const subUl = el('ul', `collapse list-unstyled sidebar-section depth${depth}`, { id });
         const sub = buildTree(item.children || [], depth + 1, counter, current);
         subUl.appendChild(sub.ul);
-        if (sub.activeItem) {
-          // Current page is under this section: expand it.
+        // Expand when the current page is a child of this section OR is this
+        // section's own landing page (chapter intro / part title).
+        if (sub.activeItem || sectionActive) {
           subUl.classList.add('show');
           headA.setAttribute('aria-expanded', 'true');
           toggle.setAttribute('aria-expanded', 'true');
-          if (!foundActive) foundActive = sub.activeItem;
+          chev.classList.remove('bi-chevron-right');
+          chev.classList.add('bi-chevron-down');
+          if (sub.activeItem && !foundActive) foundActive = sub.activeItem;
         }
         li.appendChild(cont);
         li.appendChild(subUl);
