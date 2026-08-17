@@ -10,8 +10,8 @@ Defines the accepted color set + the CONDITIONS a color must satisfy to be used 
 
 | Layer | Where | Rule |
 |-------|-------|------|
-| Source stylesheet | `src/main/web/styles.css` | canonical; build copies → `web/styles.css` |
-| Env box generation | `src/main/java/web/RegexConversion.java` | `convertFinding` etc. → Quarto callouts |
+| Source stylesheet | `src/main/web/styles.css` | canonical; build copies → `target/quarto/styles.css` |
+| Env box generation | `src/build/java/RegexConversion.java` | `convertFinding` etc. → Quarto callouts |
 | Preview | `src/test/web/preview.html` | loads source CSS; markup mirrors generated output |
 
 Per-box design tokens on each env class: `--box-accent`, `--box-accent-strong` (badge/border), `--box-bg` (fill), `--box-fg` (text).
@@ -96,6 +96,6 @@ Cool + fluo families dominate (~66%). Re-weight carefully; cyan and finding carr
 ## Change discipline
 
 - Change `src/main/web/styles.css` AND keep `src/test/web/preview.html` in sync.
-- Rebuild to regenerate `web/styles.css`: `java --source 25 src/main/java/web/BuildWeb.java` (fast; no `quarto render` unless needed).
+- Rebuild to regenerate `target/quarto/styles.css`: `java --source 25 src/build/java/BuildWeb.java` (fast; no `quarto render` unless needed).
 - Re-run the browser-contrast check after any color edit (WCAG AA on badge + fill text).
 - Do not commit the parallel-session blog `.qmd` regenerations.

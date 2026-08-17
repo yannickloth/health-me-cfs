@@ -9,6 +9,9 @@ git clone <repo-url>
 cd health-me-cfs
 ```
 
+The project is Nix-hermetic (recommended) but can also be built with a plain
+toolchain (see [Build without Nix](#build-without-nix)).
+
 ## Build
 
 ### PDF (Typst)
@@ -18,35 +21,69 @@ nix build              # → result/loth2026-mecfs.pdf
 
 ### Website (Quarto)
 ```bash
-nix build .#web        # → result/ (deployable _site/)
+nix build .#web        # → result/ (deployable site/)
 ```
 
-Or step-by-step:
+Run all CI checks (audits) with `nix flake check`.
+
+## Build without Nix
+
+Requires on `PATH`: **Java ≥ 25**, **Quarto** (`quarto`), **Typst** (`typst`)
+with the `cetz` and `oxifmt` packages cached, and optionally **Node ≥ 22** for
+the JS tests. Fonts are bundled in-repo (`src/main/typst/mecfs/fonts/`).
+
+Point Typst at the bundled fonts and (if needed) a package cache:
+
 ```bash
-java src/main/java/web/BuildWeb.java   # generate .qmd + SVG from Typst
-quarto render web                       # build HTML
-# output: web/_site/
+export TYPST_FONT_PATHS="src/main/typst/mecfs/fonts"
+export TYPST_PACKAGE_CACHE_PATH="$HOME/.local/share/typst/packages"   # or wherever cetz/oxifmt live
+```
+
+Generate the intermediate `.qmd` tree, render the site, then regenerate the
+site-level search/sitemap files:
+
+```bash
+java src/build/java/BuildWeb.java                  # assemble src/main/quarto + generate .qmd + SVG into target/quarto
+java src/build/java/GenerateSidebar.java target/quarto target/quarto/mecfs-sidebar.json   # sidebar manifest
+bash src/build/build-isolated.sh                   # render each unit, merge into target/site
+java src/build/java/GenerateSiteIndex.java target/site   # search.json / sitemap.xml / robots.txt / listings.json
+# output: target/site/
+```
+
+Run the audit tests the same way (they default to `target/quarto`):
+
+```bash
+java src/test/java/web/QmdLabelAuditTest.java
+java src/test/java/web/BuildAuditTest.java
+java src/test/java/web/BlogAuditTest.java target/quarto/en/blog   # also de/fr
+```
+
+JS component tests (no Nix needed):
+
+```bash
+npm test            # node --test src/test/js/glossary-tooltip.test.js
+npm run test:browser   # Playwright browser test (needs `npx playwright install chromium`)
+```
+
+Clean all build output (`target/`, Nix `result/`, caches):
+
+```bash
+nix run .#clean     # or, without Nix: rm -rf target .cache .build
 ```
 
 ## How the Website Is Generated
 
-1. **`BuildWeb.java`** iterates over every `ch*.typ` in `src/main/typst/mecfs/part*/`, plus `appendix-*.typ` and `shared/*.typ`.
-2. For each, it invokes **`ConvertAndSplit.java`**, which splits the Typst file at `==` headings into individual `.qmd` files and converts Typst markup to Quarto-compatible markdown.
-3. Output lands in `web/part*/chNN-description/01-section.qmd`, `web/z-appendices/appendix-X/01-section.qmd`, `web/_shared/01-section.qmd`.
-4. All `figures/*.typ` are compiled to `figures/*.svg` via `typst compile`.
-5. **`quarto render web`** builds the HTML site. The sidebar hierarchy is derived automatically from the directory structure (`contents: auto` in `_quarto.yml`).
+1. **`BuildWeb.java`** copies the hand-authored quarto source (`src/main/quarto/`) into `target/quarto/`, then iterates over every `ch*.typ` in `src/main/typst/mecfs/part*/`, plus `appendix-*.typ` and `shared/*.typ`.
+2. It converts each Typst file into individual `.qmd` files (splitting at `==` headings) and copies web assets (`src/main/web/`) and resources (`src/main/resources/`).
+3. Output lands in `target/quarto/part*/chNN-description/01-section.qmd`, `target/quarto/z-appendices/appendix-X/01-section.qmd`, `target/quarto/_shared/01-section.qmd`.
+4. All `figures/*.typ` are compiled to `target/quarto/figures/*.svg` via `typst compile`.
+5. **`build-isolated.sh`** renders each content unit as an isolated quarto project and merges the results into `target/site/`.
+6. `GenerateSiteIndex.java` regenerates `search.json`, `sitemap.xml`, `robots.txt`, and `listings.json` from the rendered site.
 
-### Hand-Authored (Not Generated)
+### Source vs. generated
 
-| File | Purpose |
-|------|---------|
-| `web/index.qmd` | Landing page |
-| `web/styles.css` | Custom styling |
-| `web/*.bib` | Bibliographies |
-| `web/_quarto.yml` | Quarto config (sidebar, theme, toc) |
-| `web/_shared/_metadata.yml` | Excludes shared/ from sidebar |
-| `web/_part-intros/_metadata.yml` | Excludes part-intros/ from sidebar |
-| `web/.gitignore` | Generated path exclusions |
+- **Hand-authored source (edit these):** `src/main/quarto/` (index, about, blog, faq, `_quarto.yml`), `src/main/web/` (styles, JS components, logos), `src/main/resources/` (glossary json, part-chapters.json).
+- **Generated output (never edit):** `target/` — `target/quarto/` holds the assembled intermediate `.qmd`, `target/site/` the final HTML.
 
 ### CI/CD
 
@@ -55,29 +92,34 @@ On push to `main`, `.github/workflows/deploy-web.yml` runs `nix build .#web` and
 ## Project Structure
 
 ```
-src/main/
-  typst/mecfs/              # Typst sources
-    part1-clinical/         # ch01–ch05
-    part2-pathophysiology/  # ch06–ch17
-    part3-treatment/        # ch18–ch28
-    part4-research/         # ch29–ch36
-    part5-modeling/         # ch37–ch44
-    shared/                 # front/back matter
-    appendices/             # appendix-a through appendix-i
-    figures/                # *.typ → SVG figures
-  java/web/
-    BuildWeb.java           # pipeline orchestrator
-    ConvertAndSplit.java    # typ → qmd converter
+src/
+  main/
+    typst/mecfs/          # Typst sources (PDF + web content source)
+      part1-clinical/ … part5-modeling/
+      shared/  appendices/  figures/  bib/
+    quarto/               # hand-authored quarto website source (index, about, blog, faq, _quarto.yml)
+    web/                  # content-independent web assets (styles.css, sidebar/accordion/glossary JS, logos)
+    resources/            # glossary-*.json, part-chapters.json
+  build/
+    java/                 # BuildWeb, GenerateSidebar, GenerateSiteIndex, converters
+    build-isolated.sh     # per-unit isolated quarto render
+  test/
+    java/web/             # audit tests
+    js/                   # glossary-tooltip tests
+    web/preview.html      # theme preview
 
-web/
-  index.qmd                 # landing page
-  styles.css                # custom CSS
-  _quarto.yml               # Quarto config
-  _site/                    # rendered output (gitignored)
+target/                   # ALL web build output (gitignored)
+  quarto/                 # assembled intermediate .qmd + figures + assets
+  units/                  # per-unit render staging
+  site/                   # final rendered HTML
 ```
 
 ## Development Shell
 
 ```bash
-nix develop   # typst + quarto + jdk + coreutils
+nix develop   # typst + quarto + jdk + coreutils (presets TYPST_PACKAGE_CACHE_PATH + TYPST_FONT_PATHS)
 ```
+
+This is the recommended environment for the manual step-by-step web build above;
+it sets the Typst font/package env vars for you. Without Nix, export them
+manually (see [Build without Nix](#build-without-nix)).
