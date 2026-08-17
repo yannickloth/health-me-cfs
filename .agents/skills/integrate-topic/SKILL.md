@@ -1469,7 +1469,7 @@ The Nix derivation uses `git ls-files` to enumerate source files. Untracked `.ty
 
 6. **Add label** `<syn:topic-slug-model>`.
 
-**Environment definition:** `#synthesis(title: [...])[body] <label>` renders as a solid cyan box with `⇌` icon. Defined in `src/main/typst/mecfs/shared/environments.typ`. The Java Qmd converter (`src/main/java/web/ConvertAndSplit.java`) maps it to a Quarto `note` callout.
+**Environment definition:** `#synthesis(title: [...])[body] <label>` renders as a solid cyan box with `⇌` icon. Defined in `src/main/typst/mecfs/shared/environments.typ`. The Java Qmd converter (`src/build/java/RegexConversion.java`, via `TypstToQmd`) maps it to a Quarto `note` callout.
 
 **Output:** The modified `.typ` file with the new `#synthesis` environment.
 **Report:** "Phase 10a complete: synthesis environment @syn:<topic-slug>-model added to chapter N, condensing K environments into convergent model. Standing epistemic checklist: [no violations / #N ⚠ <description>]."

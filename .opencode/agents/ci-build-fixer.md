@@ -47,4 +47,4 @@ Fix Nix/Typst build errors — actionable, not diagnostic.
 - Chapter labels: `<ch:energy-metabolism>`, `<ch:immune-dysfunction>`, `<ch:speculative-hypotheses>`, etc — defined in aggregator `chXX-name.typ`
 - Duplicate includes: if `sec-X.typ` includes `warnings/warn.typ` AND its `subsec-Y.typ` child also includes it → remove from parent
 - The outer `ch28-integrative-approaches.typ` is stale; the real aggregator is `ch28-integrative-approaches/ch28-integrative-approaches.typ`
-- Source converter: `src/main/java/web/ConvertAndSplit.java` — maps Typst `@prefix:name` to QMD `[#prefix-name]`
+- Source converter: `src/build/java/RegexConversion.java` (via `TypstToQmd.java`) — maps Typst `@prefix:name` to QMD `[#prefix-name]`
