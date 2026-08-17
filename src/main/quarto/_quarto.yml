@@ -35,7 +35,7 @@ website:
   site-url: "https://yannickloth.github.io/health-me-cfs/"
   title: "Myalgic Encephalomyelitis / Chronic Fatigue Syndrome"
   image: https://yannickloth.github.io/health-me-cfs/logos/og-social.png
-  favicon: logos/favicon.png
+  favicon: logos/favicon.svg
   open-graph: true
   twitter-card: true
   navbar:
