@@ -19,7 +19,7 @@ record LabelFinding(String file, int line, String content, String issue) {
 }
 
 void main(String[] args) throws Exception {
-    var webDir = args.length > 0 ? Path.of(args[0]) : Path.of("web");
+    var webDir = args.length > 0 ? Path.of(args[0]) : Path.of("target/quarto");
     if (!isDirectory(webDir)) {
         System.err.println("SKIP — web directory not found: " + webDir);
         System.err.println("Run BuildWeb.java first to generate .qmd files.");

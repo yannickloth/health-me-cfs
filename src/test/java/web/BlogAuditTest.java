@@ -13,7 +13,7 @@ record BlogFinding(String file, String issue, int level) {
 }
 
 void main(String[] args) throws Exception {
-    var blogDir = args.length > 0 ? Path.of(args[0]) : Path.of("web", "blog");
+    var blogDir = args.length > 0 ? Path.of(args[0]) : Path.of("src/main/quarto", "blog");
     if (!isDirectory(blogDir)) {
         System.err.println("SKIP — blog directory not found: " + blogDir);
         return;

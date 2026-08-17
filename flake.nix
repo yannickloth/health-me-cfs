@@ -69,10 +69,7 @@
               isTransient =
                 baseName == ".git"
                 || baseName == "result"
-                || baseName == "build-web-units"
-                || baseName == "_site"
-                || baseName == ".quarto"
-                || baseName == "site_libs";
+                || baseName == "target";
             in
             !isTransient;
         };
@@ -127,11 +124,11 @@
             mkdir -p "$HOME"
             export TYPST_PACKAGE_CACHE_PATH="${typst-package-cache}"
 
-            # Generate .qmd files, figures, and copy JS assets
-            java --source 25 src/main/java/web/BuildWeb.java
+            # Generate .qmd files, figures, and copy JS assets into target/quarto
+            java --source 25 src/build/java/BuildWeb.java
 
             # Generate the unified sidebar manifest for the <mecfs-sidebar> component
-            java --source 25 src/main/java/web/GenerateSidebar.java web web/mecfs-sidebar.json
+            java --source 25 src/build/java/GenerateSidebar.java target/quarto target/quarto/mecfs-sidebar.json
 
             # Verify no orphaned labels in generated .qmd files
             java --source 25 src/test/java/web/QmdLabelAuditTest.java
@@ -139,15 +136,15 @@
             # Comprehensive post-build audit (10 checks, all warnings)
             java --source 25 src/test/java/web/BuildAuditTest.java
 
-            # Render HTML: per-unit isolated parallel render, then merge into web/_site
-            bash web/build-isolated.sh
+            # Render HTML: per-unit isolated parallel render, then merge into target/site
+            bash src/build/build-isolated.sh
 
             # Regenerate site-level files from the merged site
-            java --source 25 src/main/java/web/GenerateSiteIndex.java web/_site
+            java --source 25 src/build/java/GenerateSiteIndex.java target/site
           '';
           installPhase = ''
             mkdir -p $out
-            cp -r web/_site/* $out/
+            cp -r target/site/* $out/
           '';
         };
 
@@ -171,17 +168,17 @@
             mkdir -p "$HOME"
             export TYPST_PACKAGE_CACHE_PATH="${typst-package-cache}"
 
-            java --source 25 src/main/java/web/BuildWeb.java
-            java --source 25 src/main/java/web/GenerateSidebar.java web web/mecfs-sidebar.json
+            java --source 25 src/build/java/BuildWeb.java
+            java --source 25 src/build/java/GenerateSidebar.java target/quarto target/quarto/mecfs-sidebar.json
             java --source 25 src/test/java/web/QmdLabelAuditTest.java
             java --source 25 src/test/java/web/QmdEnvironmentCountTest.java
             java --source 25 src/test/java/web/BuildAuditTest.java
 
-            # Render HTML: per-unit isolated parallel render, then merge into web/_site
-            bash web/build-isolated.sh
+            # Render HTML: per-unit isolated parallel render, then merge into target/site
+            bash src/build/build-isolated.sh
 
             # Regenerate site-level files from the merged site
-            java --source 25 src/main/java/web/GenerateSiteIndex.java web/_site
+            java --source 25 src/build/java/GenerateSiteIndex.java target/site
 
             typst compile \
               --package-cache-path "${typst-package-cache}" \
@@ -192,7 +189,7 @@
           '';
           installPhase = ''
             mkdir -p $out
-            cp -r web/_site/* $out/
+            cp -r target/site/* $out/
             cp loth2026-mecfs.pdf $out/loth2026-mecfs.pdf
           '';
         };
@@ -240,7 +237,7 @@
               export HOME="$NIX_BUILD_TOP/home"
               mkdir -p "$HOME"
               export TYPST_PACKAGE_CACHE_PATH="${typst-package-cache}"
-              java --source 25 src/main/java/web/BuildWeb.java
+              java --source 25 src/build/java/BuildWeb.java
               java --source 25 src/test/java/web/QmdLabelAuditTest.java
               java --source 25 src/test/java/web/QmdEnvironmentCountTest.java
               java --source 25 src/test/java/web/QmdQualityAuditTest.java
@@ -287,10 +284,10 @@
               export TYPST_PACKAGE_CACHE_PATH="${typst-package-cache}"
               # Generate .qmd files (incl. the glossary appendix) so blog links to
               # generated targets resolve during the audit.
-              java --source 25 src/main/java/web/BuildWeb.java
-              java --source 25 src/test/java/web/BlogAuditTest.java web/en/blog
-              java --source 25 src/test/java/web/BlogAuditTest.java web/de/blog
-              java --source 25 src/test/java/web/BlogAuditTest.java web/fr/blog
+              java --source 25 src/build/java/BuildWeb.java
+              java --source 25 src/test/java/web/BlogAuditTest.java target/quarto/en/blog
+              java --source 25 src/test/java/web/BlogAuditTest.java target/quarto/de/blog
+              java --source 25 src/test/java/web/BlogAuditTest.java target/quarto/fr/blog
             '';
             installPhase = ''
               mkdir -p $out
@@ -337,7 +334,7 @@
           program = toString (
             pkgs.writeShellScript "clean" ''
               echo "Cleaning build artifacts..."
-              rm -rf .cache .build result
+              rm -rf .cache .build result target
               find src/main/typst -name '*.pdf' -delete 2>/dev/null || true
               echo "Done."
             ''

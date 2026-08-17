@@ -5,15 +5,15 @@
 # The full unified navigation is provided at runtime by the <mecfs-sidebar>
 # web component (see mecfs-sidebar.js + mecfs-sidebar.json).
 #
-# Requires: run from repo root in `nix develop`. Produces web/_site/ and the
+# Requires: run from repo root in `nix develop`. Produces target/site/ and the
 # site-level files (search.json, sitemap.xml, robots.txt, listings.json) via
 # GenerateSiteIndex.
 set -euo pipefail
 
-ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-WEB="$ROOT/web"
-STAGE="$ROOT/build-web-units"
-SITE="$WEB/_site"
+ROOT="$(cd "$(dirname "$0")/../.." && pwd)"
+WEB="$ROOT/target/quarto"
+STAGE="$ROOT/target/units"
+SITE="$ROOT/target/site"
 UNIT_YML="$WEB/_quarto-unit.yml"
 
 CORES=$(nproc)

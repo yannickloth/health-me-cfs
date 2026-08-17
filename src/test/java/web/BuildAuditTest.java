@@ -27,7 +27,7 @@ record Finding(int check, String file, int line, String detail, int severity) {
 
 void main(String[] args) throws Exception {
     var srcRoot = Path.of("src/main/typst/mecfs");
-    var webDir = args.length > 0 ? Path.of(args[0]) : Path.of("web");
+    var webDir = args.length > 0 ? Path.of(args[0]) : Path.of("target/quarto");
 
     if (!isDirectory(webDir)) {
         System.err.println("SKIP — web directory not found. Run BuildWeb.java first.");
@@ -312,7 +312,7 @@ void check4LinkTargets(List<Path> qmdFiles, List<Finding> findings) throws IOExc
     }
 }
 
-Path webDir = Path.of("web");
+Path webDir = Path.of("target/quarto");
 
 // ── Check 5: Heading depth sanity ──
 

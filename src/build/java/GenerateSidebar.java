@@ -13,7 +13,7 @@ import java.util.*;
 import java.util.regex.*;
 
 void main(String[] args) throws Exception {
-    var webRoot = Path.of(args.length > 0 ? args[0] : "web").toAbsolutePath().normalize();
+    var webRoot = Path.of(args.length > 0 ? args[0] : "target/quarto").toAbsolutePath().normalize();
     var outPath = Path.of(args.length > 1 ? args[1] : webRoot.resolve("mecfs-sidebar.json").toString());
     System.out.println("=== GenerateSidebar ===");
     System.out.println("webRoot: " + webRoot);

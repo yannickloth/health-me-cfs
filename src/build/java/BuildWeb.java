@@ -15,10 +15,12 @@ import java.util.regex.*;
 
 void main(String[] args) throws IOException, InterruptedException {
     var srcRoot = Path.of("src/main/typst/mecfs").toAbsolutePath().normalize();
-    var webRoot = Path.of("web").toAbsolutePath().normalize();
+    var quartoSrc = Path.of("src/main/quarto").toAbsolutePath().normalize();
+    var webRoot = Path.of("target/quarto").toAbsolutePath().normalize();
     var fontPath = srcRoot.resolve("fonts");
 
     System.out.println("srcRoot: " + srcRoot);
+    System.out.println("quartoSrc: " + quartoSrc);
     System.out.println("webRoot: " + webRoot);
     System.out.println();
 
@@ -27,6 +29,16 @@ void main(String[] args) throws IOException, InterruptedException {
         ? new AstConversion(srcRoot, fontPath)
         : new RegexConversion();
     System.out.println("Backend: " + backend.getClass().getSimpleName());
+    System.out.println();
+
+    // --- Assemble the quarto project: wipe the build root, then copy the
+    //     hand-authored content source (src/main/quarto) into it. Generated
+    //     .qmd and copied assets are overlaid by the phases below. ---
+    System.out.println("=== assemble ===");
+    deleteRecursive(webRoot);
+    createDirectories(webRoot);
+    copyTree(quartoSrc, webRoot);
+    System.out.println("  copied " + quartoSrc + " -> " + webRoot);
     System.out.println();
 
     // --- Mapping: typst-source-dir -> web-output-dir ---
@@ -270,7 +282,7 @@ void main(String[] args) throws IOException, InterruptedException {
             bibCount++;
         }
     }
-    System.out.println("  " + bibCount + " files copied -> web/bib/");
+    System.out.println("  " + bibCount + " files copied -> " + webRoot + "/bib/");
 
     // --- JS assets ---
     System.out.println();
@@ -282,7 +294,7 @@ void main(String[] args) throws IOException, InterruptedException {
         for (var jsFile : stream.filter(f -> f.getFileName().toString().endsWith(".js")).toList()) {
             copy(jsFile, jsDstDir.resolve(jsFile.getFileName()), REPLACE_EXISTING);
             jsCount++;
-            System.out.println("  " + jsFile.getFileName() + " -> web/");
+            System.out.println("  " + jsFile.getFileName() + " -> " + webRoot + "/");
         }
     }
     System.out.println("  " + jsCount + " file(s) copied");
@@ -295,7 +307,7 @@ void main(String[] args) throws IOException, InterruptedException {
         var gSrc = Path.of("src/main/resources/" + gf).toAbsolutePath().normalize();
         var gDst = webRoot.resolve(gf);
         copy(gSrc, gDst, REPLACE_EXISTING);
-        System.out.println("  src/main/resources/" + gf + " -> web/" + gf);
+        System.out.println("  src/main/resources/" + gf + " -> " + webRoot + "/" + gf);
     }
 
     // --- part-chapters.json (home page chapter explorer data) ---
@@ -304,11 +316,12 @@ void main(String[] args) throws IOException, InterruptedException {
     var pcSrc = Path.of("src/main/resources/part-chapters.json").toAbsolutePath().normalize();
     var pcDst = webRoot.resolve("part-chapters.json");
     copy(pcSrc, pcDst, REPLACE_EXISTING);
-    System.out.println("  src/main/resources/part-chapters.json -> web/part-chapters.json");
+    System.out.println("  src/main/resources/part-chapters.json -> " + webRoot + "/part-chapters.json");
 
-    // --- Static HTML assets (redirects etc.) ---
+    // --- Static web assets from src/main/web (styles.css, components, logos,
+    //     glossary tooltip, URL-conservation redirects) ---
     System.out.println();
-    System.out.println("=== static html assets ===");
+    System.out.println("=== static web assets ===");
     var htmlSrcDir = Path.of("src/main/web").toAbsolutePath().normalize();
     int htmlCount = 0;
     if (isDirectory(htmlSrcDir)) {
@@ -322,7 +335,7 @@ void main(String[] args) throws IOException, InterruptedException {
             }
         }
     }
-    System.out.println("  " + htmlCount + " file(s) copied -> web/");
+    System.out.println("  " + htmlCount + " file(s) copied -> " + webRoot + "/");
 
     System.out.println();
     System.out.println("Next: quarto render");
@@ -346,6 +359,23 @@ void deleteRecursive(Path dir) throws IOException {
         // already gone — normal race condition
     } catch (java.nio.file.DirectoryNotEmptyException ignored) {
         // may have been re-created between list and delete — non-critical
+    }
+}
+
+// Recursively copy a source tree into a destination (created if absent).
+void copyTree(Path src, Path dst) throws IOException {
+    if (isRegularFile(src)) {
+        createDirectories(dst.getParent());
+        copy(src, dst, REPLACE_EXISTING);
+        return;
+    }
+    try (var stream = walk(src)) {
+        for (var f : stream.filter(Files::isRegularFile).sorted().toList()) {
+            var rel = src.relativize(f);
+            var target = dst.resolve(rel);
+            createDirectories(target.getParent());
+            copy(f, target, REPLACE_EXISTING);
+        }
     }
 }
 

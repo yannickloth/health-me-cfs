@@ -24,7 +24,7 @@ record CountMismatch(String chapter, String envType, int typstCount, int qmdCoun
 
 void main(String[] args) throws Exception {
     var srcRoot = Path.of("src/main/typst/mecfs");
-    var webDir = args.length > 0 ? Path.of(args[0]) : Path.of("web");
+    var webDir = args.length > 0 ? Path.of(args[0]) : Path.of("target/quarto");
 
     if (!isDirectory(webDir)) {
         System.err.println("SKIP — web directory not found: " + webDir);

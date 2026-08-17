@@ -1,5 +1,5 @@
 // GenerateSiteIndex — regenerate quarto's site-level files (search.json,
-// sitemap.xml, robots.txt) from rendered HTML in web/_site/, replicating
+// sitemap.xml, robots.txt) from rendered HTML in target/site/, replicating
 // quarto 1.8.26's exact output byte-for-byte.
 //
 // Run from project root. Reads rendered HTML pages; writes site index files.
@@ -9,7 +9,7 @@ import java.util.*;
 import java.util.regex.*;
 
 void main(String[] args) throws IOException {
-    var siteDir = Path.of(args.length > 0 ? args[0] : "web/_site").toAbsolutePath().normalize();
+    var siteDir = Path.of(args.length > 0 ? args[0] : "target/site").toAbsolutePath().normalize();
     var siteUrl = args.length > 1 ? args[1] : "https://yannickloth.github.io/health-me-cfs/";
 
     System.out.println("=== GenerateSiteIndex ===");
@@ -136,7 +136,7 @@ void main(String[] args) throws IOException {
     writeRobots(siteDir, siteUrl);
 
     // Generate listings.json from blog post frontmatter
-    var webSrcDir = Path.of(args.length > 2 ? args[2] : "web").toAbsolutePath().normalize();
+    var webSrcDir = Path.of(args.length > 2 ? args[2] : "src/main/quarto").toAbsolutePath().normalize();
     generateListings(siteDir, webSrcDir);
 
     System.out.println("search.json entries: " + searchDocs.size());

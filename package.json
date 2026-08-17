@@ -1,7 +1,7 @@
 {
   "type": "module",
   "scripts": {
-    "build": "java --source 25 src/main/java/web/BuildWeb.java",
+    "build": "java --source 25 src/build/java/BuildWeb.java",
     "test": "node --test src/test/js/glossary-tooltip.test.js",
     "test:browser": "node src/test/js/glossary-tooltip.browser.test.js"
   },

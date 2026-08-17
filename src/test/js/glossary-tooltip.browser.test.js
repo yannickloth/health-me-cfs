@@ -15,7 +15,7 @@ const PROJECT_ROOT = process.cwd();
 const gloss = JSON.parse(readFileSync(join(PROJECT_ROOT, 'src/main/resources/glossary-en.json'), 'utf8'));
 const pageHtml = readFileSync(join(__dirname, 'test-page.html'), 'utf8');
 const glossaryJs = readFileSync(join(PROJECT_ROOT, 'src/main/web/glossary-tooltip.js'), 'utf8');
-const stylesCss = readFileSync(join(PROJECT_ROOT, 'web/styles.css'), 'utf8');
+const stylesCss = readFileSync(join(PROJECT_ROOT, 'src/main/web/styles.css'), 'utf8');
 
 // Minimal HTTP server — no npm deps needed
 function serve(port) {
@@ -26,7 +26,7 @@ function serve(port) {
         if (p === '/') {
           res.writeHead(200, { 'content-type': 'text/html' });
           res.end(pageHtml.replace(
-            'href="../../../web/styles.css"',
+            'href="../../../main/web/styles.css"',
             'href="/styles.css"'
           ));
         } else if (p === '/glossary-en.json') {
