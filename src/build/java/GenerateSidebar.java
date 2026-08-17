@@ -73,7 +73,8 @@ List<Object> expandGlob(Path webRoot, String glob) throws Exception {
         var dirs = stream.filter(Files::isDirectory).sorted(Comparator.comparing(p -> p.getFileName().toString())).toList();
         for (var dir : dirs) {
             // chapter dir -> title from dir name; header links to the chapter
-            // intro page (index.qmd) when one exists.
+            // intro page (index.qmd) when one exists, else to its single page
+            // (so single-page items such as a pure-list appendix are clickable).
             var chapter = new LinkedHashMap<String, Object>();
             chapter.put("type", "section");
             chapter.put("label", titleFromPath(dir.getFileName().toString()));
@@ -92,6 +93,9 @@ List<Object> expandGlob(Path webRoot, String glob) throws Exception {
                     pages.add(page);
                 }
             }
+            if (!chapter.containsKey("href") && pages.size() == 1) {
+                chapter.put("href", ((Map<?, ?>) pages.get(0)).get("href"));
+            }
             chapter.put("children", pages);
             children.add(chapter);
         }
@@ -107,7 +111,10 @@ String titleFromPath(String dirName) {
         var sb = new StringBuilder();
         for (int i = 0; i < words.length; i++) {
             boolean firstLast = i == 0 || i == words.length - 1;
-            if (firstLast || !isNotCapitalized(words[i])) {
+            // A single-letter word is a section/part designator (e.g. the "A"
+            // in "Appendix A Terminology"), never a lowercase article.
+            boolean singleLetter = words[i].length() == 1;
+            if (firstLast || singleLetter || !isNotCapitalized(words[i])) {
                 sb.append(capitalizeWord(words[i]));
             } else {
                 sb.append(words[i]);

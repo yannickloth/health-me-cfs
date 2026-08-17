@@ -120,6 +120,9 @@ void main(String[] args) throws IOException, InterruptedException {
             .filter(f -> f.getFileName().toString().startsWith("appendix-"))
             .filter(f -> f.getFileName().toString().endsWith(".typ"))
             .filter(f -> !isDirectory(f))
+            // appendix-intro.typ is a PDF-only divider page (the Appendices
+            // part title). It has no web representation, so exclude it.
+            .filter(f -> !f.getFileName().toString().equals("appendix-intro.typ"))
             .sorted()
             .toList();
         for (var app : appFiles) {
@@ -645,11 +648,25 @@ void generateGlossaryQmd(Path outDir) throws IOException {
     var rawJson = readString(glossarySrc);
     var entries = parseGlossaryJson(rawJson);
 
+    // Landing page (intro) so the glossary behaves like a chapter: the sidebar
+    // links here, with the full term list on its own page.
+    var intro = new StringBuilder();
+    intro.append("---\n");
+    intro.append("title: \"Glossary of Medical and Scientific Terms\"\n");
+    intro.append("---\n\n");
+    intro.append("<span id=\"app-glossary\"></span>\n\n");
+    intro.append("This appendix defines the medical, biochemical, immunological, ");
+    intro.append("and statistical terms used throughout this document. Terms are ");
+    intro.append("organized alphabetically; where a term is used in a specialized ");
+    intro.append("sense specific to ME/CFS research, that usage is indicated.\n\n");
+    intro.append("## Contents\n\n");
+    intro.append("- [Glossary of Medical and Scientific Terms](01-glossary-of-medical-and-scientific-terms.html)\n\n");
+    writeString(outDir.resolve("index.qmd"), intro.toString());
+
     var sb = new StringBuilder();
     sb.append("---\n");
     sb.append("title: \"Glossary of Medical and Scientific Terms\"\n");
     sb.append("---\n\n");
-    sb.append("<span id=\"app-glossary\"></span>\n\n");
     sb.append("This glossary defines medical, biochemical, immunological, ");
     sb.append("and statistical terms used throughout this document. ");
     sb.append("Terms are organized alphabetically. ");
