@@ -49,6 +49,8 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 
 | Topic slug            | Subtree file                                                          | Brainstorm date | Root ideas | Integrated | Status         |
 |-----------------------|-----------------------------------------------------------------------|-----------------|------------|------------|----------------|
+| leptin-circadian-entrainment | [subtrees/leptin-circadian-entrainment.md](subtrees/leptin-circadian-entrainment.md) | 2026-08-17 | 14 | 3 | 🔵 in progress |
+| thapaliya2025-brain-microstructure-neurochemicals | [subtrees/thapaliya2025-brain-microstructure-neurochemicals.md](subtrees/thapaliya2025-brain-microstructure-neurochemicals.md) | 2026-08-17 | 12 | 2 | 🔵 in progress |
 | experimental-hypoxia-virtual-hypoxia-brainstem | [subtrees/experimental-hypoxia-virtual-hypoxia-brainstem.md](subtrees/experimental-hypoxia-virtual-hypoxia-brainstem.md) | 2026-08-14 | 32 | 0 | 🔵 in progress |
 | menstrual-cycle-pharmacodiagnostic | [subtrees/menstrual-cycle-pharmacodiagnostic.md](subtrees/menstrual-cycle-pharmacodiagnostic.md) | 2026-07-28 | 15 | 0 | ⬜ pending |
 | female-reproductive-lifespan | [subtrees/female-reproductive-lifespan.md](subtrees/female-reproductive-lifespan.md) | 2026-08-13 | 20 | 9 | ✅ done |

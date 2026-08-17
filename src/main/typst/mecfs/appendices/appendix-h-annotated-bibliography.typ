@@ -35560,3 +35560,367 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
 *Conclusion:*: A glutamatergic-synaptic mechanism is translationally plausible in chronic fatigue/multisymptom illness — complementing the ME/CFS synaptic-genetic signal.
 *Limitations:*: Gulf War Illness, not ME/CFS; largely preclinical.
 *Certainty Assessment:*: 0.55 raw × 0.80 cross-disease weight = discounted 0.44
+
+=== Fleury et al.\ 2026 — Encapsulated Leptin-Producing Cells Facilitate Circadian Entrainment (TRIGGER, INDIRECT)
+
+@Fleury2026LeptinCircadian
+
+*Full Citation:*: Fleury ST, Lin X, Rios PD, Olker C, Song EJ, Perez AC, Fell C, Lopez D, Joshi I, Nasir H, Curtis C, Muringi D, Wang K, Oberholzer J, Turek FW, Hilton IB, Rivnay J, Vitaterna MH, Veiseh O. Encapsulated Leptin-Producing Cells Facilitate Entrainment of Circadian Rhythms in Rodents and Nonhuman Primates. _Advanced Science_. 2026;e77191.
+*DOI:*: #link("https://doi.org/10.1002/advs.77191")[10.1002/advs.77191]
+*PMID:*: 42593855
+*Study Design:*: Preclinical interventional (mouse + diurnal cynomolgus macaque)
+*Sample Size:*: mice + NHP (per-animal n not fully specified in abstract)
+*Key Findings:*:
+    - Subcutaneous "leptin factory" (encapsulated human RPE cells constitutively producing leptin) yields sustained blood-leptin elevation >1 day.
+    - Accelerates re-entrainment to BOTH phase delays and phase advances.
+    - In diurnal cynomolgus macaques: safe, reduces entrainment time by ~1 day.
+    - No adverse sleep effect — increases NREM slow-wave energy.
+*Conclusion:*: Metabolic (leptin) regulation is a novel lever for accelerating circadian adaptation — the first demonstration that a metabolic signal can be engineered to speed entrainment. INDIRECT relevance to ME/CFS (no ME/CFS cohort); bears on the metabolic→circadian modulation mechanism underlying ME/CFS circadian/sleep-wake instability.
+*Limitations:*: Preclinical only; entrainment-speed endpoint not clinical symptom endpoint; no human or ME/CFS data.
+*Certainty Assessment:*: 0.55 raw × 0.50 animal-model weight = discounted 0.28
+
+=== Tang et al.\ 2023 — DMH Leptin-Receptor Neurons Input to the Circadian Feeding Network (MECHANISM)
+
+@Tang2023LeptinDMHSCN
+
+*Full Citation:*: Tang Q, Godschall E, Brennan CD, Zhang Q, Abraham-Fan RJ, Williams SP, Gungul TB, Onoharigho R, Buyukaksakal A, Salinas R, Sajonia IR, Olivieri JJ, Calhan OY, Deppmann CD, Campbell JN, Podyma B, Guler AD. Leptin receptor neurons in the dorsomedial hypothalamus input to the circadian feeding network. _Science Advances_. 2023;9(34):eadh9570.
+*DOI:*: #link("https://doi.org/10.1126/sciadv.adh9570")[10.1126/sciadv.adh9570]
+*PMID:*: 37624889
+*Study Design:*: Mechanistic (single-nucleus RNAseq + chemogenetic, mouse)
+*Sample Size:*: mouse (per-condition n not specified in abstract)
+*Key Findings:*:
+    - DMH LepR neurons up-regulate circadian entrainment genes and fire before anticipated meals.
+    - Exogenous leptin, silencing, or chemogenetic activation disrupts food entrainment.
+    - A DMH LepR subpopulation projects to the SCN and can shift clock phase — the direct metabolic→circadian integration circuit.
+*Conclusion:*: Provides the molecular substrate for the Fleury 2026 lever: metabolic state (leptin) can gate SCN clock phase via DMH LepR projection neurons.
+*Limitations:*: Mouse only; no human/ME/CFS translation.
+*Certainty Assessment:*: 0.75 raw × 0.50 animal-model weight = discounted 0.38
+
+=== Faber et al.\ 2021 — Leptin-Receptor Neurons Regulate Diurnal Feeding and Metabolism (MECHANISM)
+
+@Faber2021LeptinDMHDiurnal
+
+*Full Citation:*: Faber CL, Deem JD, Phan BA, Doan TP, Ogimoto K, Mirzadeh Z, Schwartz MW, Morton GJ. Leptin receptor neurons in the dorsomedial hypothalamus regulate diurnal patterns of feeding, locomotion, and metabolism. _eLife_. 2021;10:e63671.
+*DOI:*: #link("https://doi.org/10.7554/eLife.63671")[10.7554/eLife.63671]
+*PMID:*: 33527893
+*Study Design:*: Mechanistic (viral silencing, mouse)
+*Sample Size:*: mouse (per-condition n not specified in abstract)
+*Key Findings:*:
+    - Silencing DMH LepR neurons increases body weight/adiposity, phase-advances diurnal feeding/metabolism into the light cycle.
+    - Abolishes dark-cycle locomotor activity and prevents entrainment to restricted food availability.
+*Conclusion:*: DMH LepR neurons are critical determinants of daily feeding time and metabolic rhythms — the cell type the leptin-circadian pathway acts through.
+*Limitations:*: Mouse only; no disease model.
+*Certainty Assessment:*: 0.70 raw × 0.50 animal-model weight = discounted 0.35
+
+=== Osorio-Mendoza et al.\ 2025 — Circadian Gating of Leptin Signalling (MECHANISM, bidirectional)
+
+@OsorioMendoza2025LeptinCircadianGating
+
+*Full Citation:*: Osorio-Mendoza J, Kiehn JT, Stenger S, Heinen KO, Griewahn L, Koch CE, Haferkamp U, Pilorz V, Barclay JL, Joshi P, Harder L, Johren O, Kuhnen P, Eichele G, Oster H. Regulation of hedonic feeding rhythms by circadian clocks in leptin-receptive neurons. _Molecular Metabolism_. 2025;100:102221.
+*DOI:*: #link("https://doi.org/10.1016/j.molmet.2025.102221")[10.1016/j.molmet.2025.102221]
+*PMID:*: 40714221
+*Study Design:*: Mechanistic (ob/ob, Per1/2 KO, ObRb.Bmal1 mice)
+*Sample Size:*: mouse (per-genotype n not specified in abstract)
+*Key Findings:*:
+    - Leptin-deficient mice show increased hedonic appetite in early rest phase.
+    - Clock-deficient Per1/2 mutants show blunted homeostatic + hedonic appetite rhythms.
+    - CNS-specific ObRb.Bmal1 disruption lowers palatable-food sensitivity and blunts obesogenic weight gain.
+*Conclusion:*: The clock reciprocally gates leptin's actions — bidirectional metabolic↔circadian coupling, cautioning that raising leptin in a desensitized/leptin-resistant state may not entrain.
+*Limitations:*: Mouse only.
+*Certainty Assessment:*: 0.70 raw × 0.50 animal-model weight = discounted 0.35
+
+=== Cleare et al.\ 2001 — Plasma Leptin in CFS: No Baseline Difference (NULL)
+
+@Cleare2001PlasmaLeptinCFS
+
+*Full Citation:*: Cleare AJ, O'Keane V, Miell J. Plasma leptin in chronic fatigue syndrome and a placebo-controlled study of the effects of hydrocortisone. _Clinical Endocrinology_. 2001;55(1):113-119.
+*DOI:*: #link("https://doi.org/10.1046/j.1365-2265.2001.01341.x")[10.1046/j.1365-2265.2001.01341.x]
+*PMID:*: 11453960
+*Study Design:*: Case-control + randomized placebo-controlled crossover
+*Sample Size:*: n=32 CFS + 32 matched controls
+*Key Findings:*:
+    - NO significant difference in 0900h plasma leptin (CFS 13.8 vs control 10.2 ng/ml).
+    - Hydrocortisone 10 mg (not 5 mg) raised leptin; rise greater in treatment responders (glucocorticoid-receptor-sensitivity signal, not a leptin-CFS causal link).
+*Conclusion:*: The only completed controlled human measurement of plasma leptin in CFS is NULL at baseline — the hormone shows no CFS-specific abnormality, weakening the case that a leptin intervention targets a primary CFS deficit.
+*Limitations:*: Single morning sample (no circadian sampling); n=32; dated (2001).
+*Certainty Assessment:*: 0.70 raw × 1.00 ME/CFS weight = discounted 0.70
+
+=== Musker et al.\ 2021 — Circulating Leptin in ME/CFS: Systematic Review Protocol (NULL/GAP)
+
+@Musker2021LeptinSRProtocol
+
+*Full Citation:*: Musker M, McArthur A, Munn Z, Wong ML. Circulating leptin levels in patients with myalgic encephalomyelitis, chronic fatigue syndrome or fibromyalgia: a systematic review protocol. _JBI Evidence Synthesis_. 2021;19(3):695-701.
+*DOI:*: #link("https://doi.org/10.11124/JBIES-20-00125")[10.11124/JBIES-20-00125]
+*PMID:*: 33136710
+*Study Design:*: Systematic review protocol (PROSPERO CRD42020169903)
+*Sample Size:*: n/a (protocol)
+*Key Findings:*:
+    - Protocol to evaluate circulating leptin in ME/CFS/fibromyalgia vs controls.
+    - NO results published as of 2026 — no completed meta-analysis exists.
+*Conclusion:*: Documents the evidence GAP: despite mechanistic interest, there is no pooled human estimate of circulating leptin in ME/CFS.
+*Limitations:*: Protocol only; no data.
+*Certainty Assessment:*: 0.30 raw × 0.85 long-COVID/ME/CFS weight = discounted 0.26
+
+=== Domingo et al.\ 2024 — Elevated Leptin in ME/CFS (DIRECTION-OF-EFFECT CAUTION)
+
+@Domingo2024BiomarkersMECFSLC
+
+*Full Citation:*: Domingo JC, Battistini F, Cordobilla B, Zaragoza MC, Sanmartin-Sentanes R, Alegre-Martin J, Cambras T, Castro-Marrero J. Association of circulating biomarkers with illness severity measures differentiates myalgic encephalomyelitis/chronic fatigue syndrome and post-COVID-19 condition: a prospective pilot cohort study. _Journal of Translational Medicine_. 2024;22(1):343.
+*DOI:*: #link("https://doi.org/10.1186/s12967-024-05148-0")[10.1186/s12967-024-05148-0]
+*PMID:*: 38600563
+*Study Design:*: Prospective cross-sectional pilot cohort
+*Sample Size:*: n=31 ME/CFS, 23 long COVID, 31 matched sedentary controls
+*Key Findings:*:
+    - ME/CFS patients had significantly HIGHER circulating leptin than controls (p\<0.001), alongside elevated ET-1, VCAM-1, PAI-1, E-selectin, TNF-α, IL-1β, IL-4, IL-6, IL-10, IP-10 and lower nitrites.
+*Conclusion:*: A "leptin factory" would RAISE a hormone already ELEVATED in ME/CFS — opposite to a plausible therapeutic direction, and the target tissue may be leptin-resistant. Central caution for integrating Fleury 2026.
+*Limitations:*: Pilot (n=31); cross-sectional; single site; no circadian sampling.
+*Certainty Assessment:*: 0.65 raw × 1.00 ME/CFS weight = discounted 0.65
+
+=== Cambras et al.\ 2026 — Light Exposure Patterns in ME/CFS (COMPETING/CONTEXT)
+
+@Cambras2026LightExposureMECFS
+
+*Full Citation:*: Cambras T, Domingo JC, Sanmartin-Sentanes R, Alegre-Martin J, Castro-Marrero J. Association between light exposure patterns and multidimensional health outcomes in individuals with myalgic encephalomyelitis/chronic fatigue syndrome: findings from an observational cross-sectional cohort study. _Journal of Translational Medicine_. 2026. doi:10.1186/s12967-026-08556-6.
+*DOI:*: #link("https://doi.org/10.1186/s12967-026-08556-6")[10.1186/s12967-026-08556-6]
+*PMID:*: 42399727
+*Study Design:*: Observational cross-sectional cohort (1-week wrist actigraphy)
+*Sample Size:*: n=100 ME/CFS + 56 healthy controls
+*Key Findings:*:
+    - Light variables more strongly associated with clinical outcomes (FIS-40, PSQI, SF-36) in ME/CFS than controls.
+    - Nocturnal/rhythm-instability light pattern (PC2) associated with higher VCAM-1 + triglycerides, lower serotonin.
+    - Healthy-light pattern = lower fatigue, fewer sleep complaints.
+*Conclusion:*: Positions LIGHT (environmental zeitgeber), not metabolic/leptin signalling, as the dominant circadian lever in ME/CFS — a competing/complementary route to the Fleury 2026 metabolic mechanism.
+*Limitations:*: Cross-sectional; association not causation; light self-exposure confounded by behavior.
+*Certainty Assessment:*: 0.65 raw × 1.00 ME/CFS weight = discounted 0.65
+
+=== Mukherjee et al.\ 2026 — Islet Encapsulation: Clinical-Translation Barriers (HARM/TECHNOLOGY)
+
+@Mukherjee2026IsletEncapsulation
+
+*Full Citation:*: Mukherjee S, Mandal S, Oberholzer J, Veiseh O. Type 1 Diabetes and Islet Encapsulation: From Historical Milestones to Cutting-Edge Advances. _Annual Review of Biomedical Engineering_. 2026;28(1):187-217.
+*DOI:*: #link("https://doi.org/10.1146/annurev-bioeng-110824-024435")[10.1146/annurev-bioeng-110824-024435]
+*PMID:*: 41609637
+*Study Design:*: Review (technology/clinical translation)
+*Sample Size:*: n/a (review)
+*Key Findings:*:
+    - Biomaterial encapsulation addresses immune rejection and hypoxia, providing cell microenvironment and viability.
+    - Documents clinical-translation barriers (immune rejection, foreign-body response, hypoxia) any encapsulated-cell "leptin factory" would also face before human use.
+*Conclusion:*: Technology-safety precedent for the Fleury 2026 approach (shared senior author Veiseh) — the encapsulation platform is validated in T1D but carries unresolved barriers for human translation.
+*Limitations:*: Review; T1D context (not ME/CFS); no safety-outcome data specific to leptin production.
+*Certainty Assessment:*: 0.60 raw × 0.30 other-disease weight = discounted 0.18
+
+=== Thapaliya et al.\ 2025 — Altered Brain Microstructure and Neurochemicals in Long COVID and Recovered COVID-19 (Multimodal MRI)
+
+@Thapaliya2025BrainMRI
+
+*Full Citation:*: Thapaliya K, Marshall-Gradisnik S, Inderyas M, Barnden L. Altered brain tissue microstructure and neurochemical profiles in long COVID and recovered COVID-19 individuals: a multimodal MRI study. _Brain, Behavior, & Immunity - Health_. 2025;50:101142.
+*DOI:*: #link("https://doi.org/10.1016/j.bbih.2025.101142")[10.1016/j.bbih.2025.101142]
+*PMID:*: 41404601
+*Study Design:*: Cross-sectional multimodal 3T MRI (T1w/T2w ratio myelin mapping + DTI + single-voxel 1H-MRS in posterior cingulate cortex)
+*Sample Size:*: n=47 (long COVID=19 WHO-criteria; COVID-recovered healthy controls=12; healthy controls without COVID=16)
+*Key Findings:*:
+    - T1w/T2w (myelin proxy) higher in long COVID vs Non-COVID-HC in precentral gyrus (pfdr\<0.001) and middle temporal gyrus (pfdr=0.005); higher in COVID-RHC vs long COVID in pons, midbrain, cerebellar tonsil, superior longitudinal fasciculus, precentral gyrus, forceps minor, optic radiation, Brodmann area 18; higher in COVID-RHC vs Non-COVID-HC in precentral gyrus and posterior cingulate.
+    - T1w/T2w in middle temporal gyrus positively correlated with physical function (p=0.024, r=0.56); midbrain T1w/T2w negatively correlated with cognitive score (p=0.01, r=-0.64).
+    - DTI: lower mean diffusivity in dentate regions (long COVID vs Non-COVID-HC, pfdr=0.041); higher fractional anisotropy in right superior longitudinal fasciculus (long COVID vs COVID-RHC, pfdr=0.001); lower AD/MD/RD in left caudate and lower AD in right supramarginal gyrus (COVID-RHC vs Non-COVID-HC).
+    - MRS: only long COVID vs COVID-RHC differed after FDR correction — NAA higher in long COVID (pfdr=0.009); glutamine higher in COVID-RHC (pfdr=0.019); choline (higher in COVID-RHC) did not survive correction.
+*Conclusion:*: First study to report differential myelin-signal and neurochemical changes across long COVID, COVID-recovered, and uninfected controls. Authors interpret elevated T1w/T2w as possible remyelination, but explicitly caution it may instead reflect inflammation or gliosis. Establishes that even "recovered" COVID individuals retain measurable brain microstructure/neurochemical alterations.
+*Limitations:*: Cross-sectional; small n (n=47 total, subgroups 12-19); exploratory cluster threshold may inflate Type I error; single lab (Griffith NCNED); T1w/T2w direction ambiguous (myelin vs iron vs gliosis); no longitudinal follow-up.
+*Certainty Assessment:*: 0.55 raw × 0.85 long-COVID/post-viral weight = discounted 0.47
+
+=== Thapaliya et al.\ 2020 — T1w/T2w Ratio Mapping in ME/CFS (Methodological Precursor)
+
+@Thapaliya2020T1
+
+*Full Citation:*: Thapaliya K, Marshall-Gradisnik S, Staines D, Barnden L. Mapping of pathological change in chronic fatigue syndrome using the ratio of T1- and T2-weighted MRI scans. _NeuroImage: Clinical_. 2020;28:102366.
+*DOI:*: #link("https://doi.org/10.1016/j.nicl.2020.102366")[10.1016/j.nicl.2020.102366]
+*PMID:*: 32777701
+*Study Design:*: Cross-sectional T1w/T2w ratio mapping (whole-brain, region- and voxel-based)
+*Sample Size:*: n=45 ME/CFS (Fukuda) + 27 healthy controls
+*Key Findings:*:
+    - Elevated T1w/T2w (increased myelin and/or iron) in both white matter and subcortical grey matter in ME/CFS; no areas of decreased T1w/T2w.
+    - Abnormal T1w/T2w regressions with heart-rate variability, cognitive performance, respiration rate, and physical wellbeing.
+*Conclusion:*: The T1w/T2w method is sensitive to microstructural change in ME/CFS. Same Griffith lab and method as the primary paper — anchors the 2025 long-COVID T1w/T2w finding to a prior ME/CFS finding from the same group.
+*Limitations:*: Single lab; Fukuda criteria (broad); cross-sectional; direction (myelin vs iron) ambiguous.
+*Certainty Assessment:*: 0.55 raw × 1.00 ME/CFS weight = discounted 0.55
+
+=== Thapaliya et al.\ 2021 — DTI Microstructural Changes in ME/CFS
+
+@Thapaliya2021DTI
+
+*Full Citation:*: Thapaliya K, Marshall-Gradisnik S, Staines D, Barnden L. Diffusion tensor imaging reveals neuronal microstructural changes in myalgic encephalomyelitis/chronic fatigue syndrome. _European Journal of Neuroscience_. 2021;54(6):6214-6228.
+*DOI:*: #link("https://doi.org/10.1111/ejn.15413")[10.1111/ejn.15413]
+*PMID:*: 34355438
+*Study Design:*: Cross-sectional DTI (voxel-based group comparison + interaction-with-group regression)
+*Sample Size:*: n=25 ME/CFS (Fukuda) + 18 ME/CFS (ICC) + 26 healthy controls
+*Key Findings:*:
+    - ME/CFS-ICC vs HC: decreased axial diffusivity (p=0.001) and mean diffusivity (p=0.01) in descending cortico-cerebellar tract (midbrain/pons); increased transverse diffusivity in medulla; decreased mode of anisotropy in superior longitudinal fasciculus.
+    - Fukuda-only comparisons did not reach significance — strict case definition matters for detecting microstructural signal.
+*Conclusion:*: DTI is sensitive to ME/CFS microstructural change, particularly in brainstem/midbrain and superior longitudinal fasciculus; the same regions (midbrain, SLF) feature prominently in the 2025 long-COVID primary paper.
+*Limitations:*: Single lab (Griffith); small n; cross-sectional.
+*Certainty Assessment:*: 0.50 raw × 1.00 ME/CFS weight = discounted 0.50
+
+=== Singh et al.\ 2026 — DTI + DKI Microstructural Alterations in ME/CFS and Long COVID
+
+@Singh2026DTIDKI
+
+*Full Citation:*: Singh TB, Marshall-Gradisnik S, Barnden L, Eaton-Fitch N, Huynh TH, Inderyas M, Thapaliya K. Microstructural alterations in brain tissue of ME/CFS and long COVID using diffusion tensor imaging and diffusion kurtosis imaging. _Frontiers in Medicine_. 2026;13:1824498.
+*DOI:*: #link("https://doi.org/10.3389/fmed.2026.1824498")[10.3389/fmed.2026.1824498]
+*PMID:*: 42539798
+*Study Design:*: Cross-sectional DTI + diffusion kurtosis imaging (3T Prisma)
+*Sample Size:*: n=37 ME/CFS + 19 long COVID + 27 healthy controls
+*Key Findings:*:
+    - ME/CFS vs HC: microstructural alterations in cingulum, supplementary motor areas, corpus callosum.
+    - Long COVID vs HC: alterations in fusiform and precentral gyrus and major white-matter tracts.
+    - Direct ME/CFS vs long COVID comparison: difference in left corona radiata (p=0.001).
+*Conclusion:*: Distinct tissue microstructural alterations in ME/CFS vs long COVID despite shared symptoms; extends the primary paper's DTI arm with DKI and a direct cross-disease comparison from the same cohort registry.
+*Limitations:*: Same Griffith lab (not independent of primary); small subgroup n; cross-sectional.
+*Certainty Assessment:*: 0.50 raw × 0.85 long-COVID/post-viral weight = discounted 0.43
+
+=== Maksoud et al.\ 2020 — Systematic Review of Neuroimaging in ME/CFS
+
+@Maksoud2020Neuro
+
+*Full Citation:*: Maksoud R, du Preez S, Eaton-Fitch N, Thapaliya K, Barnden L, Cabanas H, Staines D, Marshall-Gradisnik S. A systematic review of neurological impairments in myalgic encephalomyelitis/chronic fatigue syndrome using neuroimaging techniques. _PLoS One_. 2020;15(4):e0232475.
+*DOI:*: #link("https://doi.org/10.1371/journal.pone.0232475")[10.1371/journal.pone.0232475]
+*PMID:*: 32353033
+*Study Design:*: Systematic review (1994–2019)
+*Sample Size:*: 55 included studies
+*Key Findings:*:
+    - Widespread grey/white matter volume changes, cerebral blood flow, EEG, functional connectivity, and cognitive alterations in ME/CFS.
+    - Findings are NOT consistent across studies; origins of the anomalies remain unknown.
+*Conclusion:*: ME/CFS neuroimaging abnormalities lack a consistent regional/directional pattern — a caution against over-reading any single-lab microstructural finding (including the primary paper).
+*Limitations:*: Review (no primary data); heterogeneous methods and case definitions across included studies.
+*Certainty Assessment:*: 0.70 raw × 1.00 ME/CFS weight = discounted 0.70
+
+=== Yu et al.\ 2025 — Post-Infectious vs Gradual-Onset ME/CFS White Matter (Partial Null)
+
+@Yu2025PI
+
+*Full Citation:*: Yu Q, Kwiatek RA, Del Fante P, Bonner A, Calhoun VD, Bateman GA, Yamamura T, Shan ZY. Distinct white matter alteration patterns in post-infectious and gradual onset chronic fatigue syndrome revealed by diffusion MRI. _Scientific Reports_. 2025;15:24256.
+*DOI:*: #link("https://doi.org/10.1038/s41598-025-09379-z")[10.1038/s41598-025-09379-z]
+*PMID:*: 40624094
+*Study Design:*: Cross-sectional diffusion MRI comparing PI- vs GO-ME/CFS vs sedentary-matched HC
+*Key Findings:*:
+    - PI-ME/CFS: higher axial diffusivity (AD) in association/projection fibres, related to worse physical health.
+    - GO-ME/CFS: lower AD in corpus callosum, related to worse mental health.
+    - NO group differences in fractional anisotropy, mean diffusivity, or radial diffusivity — a partial null constraining which diffusion metric carries the ME/CFS signal.
+*Conclusion:*: Distinct AD-alteration patterns by onset type provide neurophysiological evidence of ME/CFS heterogeneity; contrasts the primary paper's MD/AD/RD findings, underscoring direction heterogeneity across cohorts.
+*Limitations:*: Single center (Sunshine Coast); cross-sectional; no FA/MD/RD group effect.
+*Certainty Assessment:*: 0.50 raw × 1.00 ME/CFS weight = discounted 0.50
+
+=== Wu et al.\ 2026 — Cingulum Bundle Injury in CFS (Large-Sample DTI)
+
+@Wu2026Cingulum
+
+*Full Citation:*: Wu K, Wu Z, Feng S, Zhou T, Ning Y, Li K, Jia H. Microstructural white matter impairments in chronic fatigue syndrome: evidence of segmental injury in the cingulum bundle. _Brain Research Bulletin_. 2026;234:111671.
+*DOI:*: #link("https://doi.org/10.1016/j.brainresbull.2025.111671")[10.1016/j.brainresbull.2025.111671]
+*PMID:*: 41360268
+*Study Design:*: Cross-sectional DTI with 87-tract template + fiber-bundle quantitative analysis + machine learning
+*Sample Size:*: n=100 CFS + 100 healthy controls
+*Key Findings:*:
+    - Reduced fractional anisotropy (FA) in left cingulum parolfactory and cingulum frontal-parahippocampal tracts, localised to the middle-posterior cingulum bundle.
+    - FA of the two tracts distinguished CFS at 85% accuracy.
+    - Recovery of the segmentally disrupted tracts causally associated with fatigue improvement.
+*Conclusion:*: Large-n independent replication of cingulum microstructural pathology (paralleling Singh2026DTIDKI cingulum finding), with a machine-learning diagnostic angle.
+*Limitations:*: Single center (Beijing); Fukuda-adjacent CFS case definition; cross-sectional.
+*Certainty Assessment:*: 0.70 raw × 1.00 ME/CFS weight = discounted 0.70
+
+=== Jahanshahi et al.\ 2026 — Systematic Review of DWI Microstructure in COVID-19
+
+@Jahanshahi2026
+
+*Full Citation:*: Jahanshahi A, Mohammadi S, Salehi MA, Dolatshahi M, et al. Brain microstructural alterations in COVID-19: a systematic review of diffusion weighted imaging studies. _Brain Imaging and Behavior_. 2026;20(2):49.
+*DOI:*: #link("https://doi.org/10.1007/s11682-026-01084-3")[10.1007/s11682-026-01084-3]
+*PMID:*: 41831107
+*Study Design:*: Systematic review (PubMed/Scopus/Web of Science/EMBASE to Feb 2025)
+*Key Findings:*:
+    - MD and FA most reported; alterations repeatedly in longitudinal fasciculi, thalamic radiations, corpus callosum, fronto-occipital fasciculus, corticospinal tract, uncinate fasciculus.
+    - Nearly consistent changes in corona radiata and longitudinal fasciculus.
+    - White-matter changes associated with post-COVID psychiatric/cognitive symptoms.
+*Conclusion:*: Confirms the primary paper's superior longitudinal fasciculus finding sits within a broader replicated post-COVID DTI literature.
+*Limitations:*: Review; qualitative synthesis (no meta-analysis); heterogeneous study designs.
+*Certainty Assessment:*: 0.55 raw × 0.85 long-COVID/post-viral weight = discounted 0.47
+
+=== Huang et al.\ 2026 — N-PASC White Matter Microstructure (Neuroinflammation)
+
+@Huang2026N
+
+*Full Citation:*: Huang C, Zhang X, Ying J, Fontana A, Yang X, West S, Vaska P, Clouston SAP, Luft BJ. White matter microstructural abnormalities in neurological post-acute sequelae of coronavirus disease: imaging signatures consistent with persistent neuroinflammation. _Brain, Behavior, & Immunity - Health_. 2026;54:101250.
+*DOI:*: #link("https://doi.org/10.1016/j.bbih.2026.101250")[10.1016/j.bbih.2026.101250]
+*PMID:*: 42112478
+*Study Design:*: Cross-sectional multi-shell diffusion MRI with correlational tractography
+*Sample Size:*: n=54 N-PASC (mean 2.7 years) + 26 controls
+*Key Findings:*:
+    - Global and tract-specific white-matter alterations after demographic adjustment.
+    - Pronounced bilateral changes to fornix and minor forceps (indirect evidence of axonal injury/demyelination).
+    - Diffusion measures associated with fatigue, executive impairment, anosmia, and mood — but NOT brain fog.
+*Conclusion:*: Independent (Emory/Stony Brook) long-COVID DTI replication of persistent white-matter microstructural pathology years after infection.
+*Limitations:*: Single center; cross-sectional; diffusion cannot specify the underlying biological process.
+*Certainty Assessment:*: 0.60 raw × 0.85 long-COVID/post-viral weight = discounted 0.51
+
+=== Arendt et al.\ 2026 — Frontoinsular-Cingulate DTI in Unvaccinated COVID Survivors (Partial Null)
+
+@Arendt2026
+
+*Full Citation:*: Arendt CT, Klinsing S, Becke E, Fahim M, et al. Subacute frontoinsular-cingulate tract changes in unvaccinated COVID-19 survivors: a tract-based spatial statistics study of diffusion tensor imaging. _Brain Research Bulletin_. 2026;242:111986.
+*DOI:*: #link("https://doi.org/10.1016/j.brainresbull.2026.111986")[10.1016/j.brainresbull.2026.111986]
+*PMID:*: 42235760
+*Study Design:*: Single-center prospective case-control DTI (TBSS) + qT1 + volumetry
+*Sample Size:*: n=145 unvaccinated (69 cases, 76 matched seronegative controls)
+*Key Findings:*:
+    - KEY NULL: no significant FA differences between all cases and controls overall.
+    - Only older (≥40y) hospitalised subgroup (n=23) showed decreased FA, increased RD, and reduced qT1 in right lateral orbitofrontal/inferior frontal/anterior insular/rostral ACC white matter.
+    - Microstructural measures associated with fatigue, depression, poorer sleep, reduced quality of life.
+*Conclusion:*: COVID-related microstructural changes are severity- and age-dependent, and may be absent in milder cohorts — a null/negative constraint on the primary paper's group-wide DTI findings.
+*Limitations:*: Single center; subgroup analysis (n=23); TBSS sensitivity limits; unvaccinated only.
+*Certainty Assessment:*: 0.60 raw × 0.85 long-COVID/post-viral weight = discounted 0.51
+
+=== Lu et al.\ 2020 — Cerebral Microstructural Changes in Recovered COVID-19 (3-month)
+
+@Lu2020Micro
+
+*Full Citation:*: Lu Y, Li X, Geng D, Mei N, et al. Cerebral micro-structural changes in COVID-19 patients — an MRI-based 3-month follow-up study. _EClinicalMedicine_. 2020;25:100484.
+*DOI:*: #link("https://doi.org/10.1016/j.eclinm.2020.100484")[10.1016/j.eclinm.2020.100484]
+*PMID:*: 32838240
+*Study Design:*: Prospective DTI + VBM 3-month follow-up
+*Sample Size:*: n=60 recovered COVID-19 + 39 matched controls
+*Key Findings:*:
+    - Higher bilateral grey-matter volume (olfactory cortices, hippocampi, insula).
+    - General decline of MD/AD/RD with increased FA in white matter (esp. AD in right corona radiata, external capsule, superior fronto-occipital fasciculus).
+    - GMV/MD correlated with memory loss, smell loss, LDH.
+*Conclusion:*: Establishes the lower-diffusivity (microstructural reorganisation) pattern in recovered COVID-19 — directly cited by the primary paper as the basis for its COVID-RHC lower-MD/AD/RD caudate finding.
+*Limitations:*: 3-month follow-up (short); single center; 2020 cohort (pre-vaccination).
+*Certainty Assessment:*: 0.60 raw × 0.85 long-COVID/post-viral weight = discounted 0.51
+
+=== Qin et al.\ 2024 — White Matter Microstructure in Post-COVID Sleep Disorder (IL-1β link)
+
+@Qin2024
+
+*Full Citation:*: Qin H, Duan G, Zhou K, Qin L, et al. Alteration of white matter microstructure in patients with sleep disorders after COVID-19 infection. _Sleep Medicine_. 2024;114:109-118.
+*DOI:*: #link("https://doi.org/10.1016/j.sleep.2023.12.024")[10.1016/j.sleep.2023.12.024]
+*PMID:*: 38181582
+*Study Design:*: Case-control DTI + peripheral cytokine assay with 3-month follow-up
+*Sample Size:*: n=29 acute COVID with sleep disorder + 27 COVID without + 30 healthy controls
+*Key Findings:*:
+    - Both COVID groups: widespread white-matter microstructural abnormality.
+    - Sleep-disorder group: specific changes in right inferior fronto-occipital fasciculus (lower FA/AD, higher RD) and left corticospinal tract, plus higher IL-1β.
+    - WM changes and IL-1β normalised by 3 months in the sleep-disorder group.
+*Conclusion:*: Indirect biochemical link — post-COVID white-matter microstructural change tracks systemic IL-1β (neuroinflammation) and is partly reversible in mild cases.
+*Limitations:*: Acute-phase cohort (not established long COVID); single center; small n.
+*Certainty Assessment:*: 0.50 raw × 0.85 long-COVID/post-viral weight = discounted 0.43
+
+=== Rane Levendovszky et al.\ 2025 — Neuroimaging Biomarkers of PASC (Review)
+
+@RaneLevendovszky2025
+
+*Full Citation:*: Rane Levendovszky S, Patel P, Zhu C, Rutman AM, Basha MM. Neuroimaging biomarkers of post-acute sequelae of coronavirus disease 2019. _British Journal of Radiology_. 2025;98(1172):1165-1175.
+*DOI:*: #link("https://doi.org/10.1093/bjr/tqaf090")[10.1093/bjr/tqaf090]
+*PMID:*: 40300093
+*Study Design:*: Comprehensive narrative review (University of Washington)
+*Key Findings:*:
+    - Structural MRI: grey-matter volume reductions in frontal/temporal lobes + periventricular white-matter hyperintensities correlating with cognitive deficits.
+    - DTI: increased tissue damage and oedema in sagittal stratum and thalamic radiation.
+    - rs-fMRI: reduced DMN/executive-network connectivity; PET: frontotemporal hypometabolism, hippocampal/thalamic hypometabolism linked to anosmia/fatigue.
+*Conclusion:*: Context/review layer situating the primary paper's multimodal findings within the broader PASC neuroimaging landscape.
+*Limitations:*: Review (no primary data); heterogeneous PASC definitions across studies.
+*Certainty Assessment:*: 0.60 raw × 0.85 long-COVID/post-viral weight = discounted 0.51

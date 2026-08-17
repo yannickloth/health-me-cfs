@@ -56,6 +56,15 @@ Prevents re-processing of already-integrated content.
 |-----|--------|---------|------------|--------|
 | PubMed API queries (14 queries, batch) | pubmed/eutils | 2026-07-10 | — | content-staging/literature-summary-vagal-gastric-denervation-longcovid-2026-07-10.md, content-staging/search-log-vagal-gastric-denervation-longcovid-2026-07-10.md, bib/autonomic-cardiovascular.bib, appendix-h — Vagal gastric denervation literature (8 papers) |
 
+## Thapaliya 2025 Brain Microstructure/Neurochemicals Literature Search
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-08-17 | 8 queries: author-targeted (Thapaliya/Marshall-Gradisnik/Barnden neuroimaging), long COVID / recovered-COVID / post-COVID × (T1w/T2w, DTI, diffusion, myelin, MRS, microstructure), ME/CFS DTI, CFS T1/T2 ratio. Null/negative (Arendt no-overall-FA; Yu2025PI no-FA/MD/RD) + independent-lab replication + indirect-biochemical (IL-1β) searches included. Primary paper provided locally (not scraped). |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed API queries (8 queries + 1 efetch batch, 14 PMIDs) | pubmed/eutils | 2026-08-17 | — | ops/research/search-log-thapaliya2025-brain-microstructure-neurochemicals-2026-08-17.md, ops/research/literature-thapaliya2025-brain-microstructure-neurochemicals-2026-08-17.md, bib/long-covid.bib, appendix-h — Long-COVID/recovered-COVID/ME-CFS brain microstructure & neurochemicals literature (14 papers) |
+
 ## Sources
 
 | Source | Last Scraped | Notes |
@@ -944,3 +953,15 @@ Prevents re-processing of already-integrated content.
 | URL | Source | Scraped | Integrated | Target |
 |-----|--------|---------|------------|--------|
 | PubMed E-utilities API (24 queries + efetch, batch) | pubmed/eutils | 2026-08-16 | — | ops/research/search-log-syngo-synaptic-enrichment-mecfs-2026-08-16.md, ops/research/literature-summary-syngo-synaptic-enrichment-mecfs.md, bib/genetics-epigenetics.bib (5 new), bib/neuroinflammation.bib (2 new), bib/viral-infection.bib (1 new), appendix-h (8 annotated entries) — SynGO synaptic enrichment in ME/CFS literature |
+
+---
+
+## Leptin & Circadian Rhythm Entrainment in ME/CFS
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-08-17 | 28 queries: direct (leptin ME/CFS/chronic fatigue/fatigue, circadian ME/CFS), mechanism (leptin SCN/DMH/entrainment/phase-shift/NREM-slow-wave, metabolic circadian entrainment), indirect biochemical links (circadian metabolic ME/CFS, circadian chronic fatigue, sleep-wake ME/CFS, leptin-resistance fatigue, endocrine circadian ME/CFS), competing (melatonin ME/CFS, light therapy ME/CFS, shift work), null/negative (leptin ME/CFS null, circadian ME/CFS negative), harm/technology (cell encapsulation safety, encapsulated cell therapy, metreleptin safety, encapsulation fibrosis). Crossref for primary DOI metadata. Null+competing+harm searches MANDATORY included. |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed E-utilities API (28 queries + efetch, batch) | pubmed/eutils | 2026-08-17 | — | ops/research/search-log-leptin-circadian-entrainment-2026-08-17.md, ops/research/literature-summary-leptin-circadian-entrainment-2026-08-17.md, bib/sleep.bib (5 new), bib/endocrine-reproductive.bib (3 new), bib/treatments.bib (1 new), appendix-h (9 annotated entries) — Leptin/circadian-entrainment in ME/CFS literature (Fleury 2026 trigger + mechanism + null + harm) |
+| Crossref API (1 DOI) | crossref | 2026-08-17 | — | Primary DOI 10.1002/advs.77191 metadata verification (author list, article-number e77191) |
