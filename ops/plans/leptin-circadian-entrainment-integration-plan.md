@@ -126,6 +126,14 @@
 
 **Completion gate:** 21 RAN, 3 LEGIT-SKIP (5d, 5c, 10b), 0 OMISSION, 0 WAIVED. Build PASS (0 error lines). Phase 13 may proceed.
 
+**Phase 13 (2026-08-17):** Commit `eb8e7821` — content(mecfs): integrate encapsulated-leptin circadian entrainment. 11 files committed. Shared-file entries (appendix-h, hypothesis-registry, trees, scrape-registry) for this topic shipped in parallel commit `25d493e8` (verified present via git show). Post-commit build PASS (0 errors). Checkpoint `wip/leptin-circadian-pre1` deleted.
+
+## Phase 13 row
+- **Status:** ✅ done
+- **Integration guide path:** ops/plans/leptin-circadian-entrainment-integration-plan.md
+- **Chapters updated:** ch10 sec-06 (subsec-06-circadian-disruption-as-an-integrative-mechanism), hypothesis-registry, appendix-h, bib (sleep/endocrine-reproductive/treatments), glossary
+- **Commit hash:** eb8e7821
+
 **Notes:**
 - Preclinical (mouse + NHP) — population weight 0.50 (animal); no direct ME/CFS cohort
 - Relevance indirect: ME/CFS has documented circadian/sleep disruption; this paper supports metabolic→circadian modulation
