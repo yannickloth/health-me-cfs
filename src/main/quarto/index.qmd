@@ -23,7 +23,7 @@ A comprehensive, open-access medical documentation of Myalgic Encephalomyelitis 
 
 ::: {.grid}
 
-::: {.g-col-12 .g-col-xxl-6}
+::: {.g-col-12}
 
 ## The Paper
 
@@ -41,7 +41,7 @@ Use the **sidebar** to browse chapters and sections. Each page has its own table
 
 :::
 
-::: {.g-col-12 .g-col-xxl-6}
+::: {.g-col-12}
 
 ## Recent Blog Articles {.unlisted}
 
