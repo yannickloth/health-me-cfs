@@ -3030,6 +3030,26 @@
     "category": "measurement",
     "definition": "Slow-Wave Sleep (N3): the deepest non-REM sleep stage, characterized by high-amplitude delta waves. SWS is critical for glymphatic clearance, growth hormone secretion, and tissue repair. Reduced SWS and alpha-delta intrusion are hallmarks of ME/CFS sleep pathology."
   },
+  "SCN": {
+    "label": "SCN",
+    "category": "anatomy",
+    "definition": "Suprachiasmatic nucleus: the small paired cluster of neurons in the hypothalamus that functions as the master circadian clock, driving daily rhythms in sleep, hormone release, temperature, and metabolism and re-setting to the environmental light-dark cycle."
+  },
+  "DMH": {
+    "label": "DMH",
+    "category": "anatomy",
+    "definition": "Dorsomedial hypothalamus: a hypothalamic region involved in feeding, energy balance, body temperature, and circadian behaviour, containing neurons (including some that respond to the metabolic hormone leptin) that connect metabolic state to circadian timing."
+  },
+  "LepR": {
+    "label": "LepR",
+    "category": "receptor",
+    "definition": "Leptin receptor: the cell-surface receptor for the metabolic hormone leptin. Leptin-receptor neurons in the hypothalamus transmit satiety and energy-status signals and help couple metabolic state to circadian rhythms."
+  },
+  "RPE": {
+    "label": "RPE",
+    "category": "cell_type",
+    "definition": "Retinal pigment epithelium: the layer of pigmented cells behind the retina. In the context of the Fleury study, engineered RPE cells are used as an encapsulation platform to produce and deliver a therapeutic protein (leptin) in situ."
+  },
   "PSG": {
     "label": "PSG",
     "category": "test",
@@ -11506,5 +11526,30 @@
     "label": "AMPA",
     "category": "receptor",
     "definition": "α-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid receptor: the main fast-acting receptor for the excitatory neurotransmitter glutamate at most synapses. Its trafficking into and out of the postsynaptic membrane is a key mechanism of synaptic plasticity."
+  },
+  "NAA": {
+    "label": "NAA",
+    "category": "imaging",
+    "definition": "N-acetylaspartate: a neuronal and mitochondrial metabolite measured by magnetic resonance spectroscopy (MRS). NAA declines in neurodegenerative disease, so an elevation in long COVID is read cautiously as possibly compensatory or osmotic rather than clearly pathological."
+  },
+  "N-acetylaspartate": {
+    "label": "N-acetylaspartate",
+    "category": "imaging",
+    "definition": "See NAA. A metabolite synthesized in neurons, often used as a neuronal-health marker in MRS."
+  },
+  "T1w/T2w": {
+    "label": "T1w/T2w",
+    "category": "imaging",
+    "definition": "The ratio of T1-weighted to T2-weighted MRI signal, used as a proxy for myelin content. It is also sensitive to iron, water, and gliosis, so an elevated ratio cannot by itself distinguish remyelination from inflammation or iron deposition."
+  },
+  "SLF": {
+    "label": "SLF",
+    "category": "imaging",
+    "definition": "Superior longitudinal fasciculus: a major white-matter fibre tract connecting frontal, parietal, and temporal lobes, implicated in attention and language. Altered diffusion measures in the SLF are reported in long COVID and ME/CFS."
+  },
+  "QSM": {
+    "label": "QSM",
+    "category": "imaging",
+    "definition": "Quantitative susceptibility mapping: an MRI technique that measures local magnetic susceptibility, used to quantify brain iron content. It helps distinguish iron deposition from myelin changes."
   }
 }
