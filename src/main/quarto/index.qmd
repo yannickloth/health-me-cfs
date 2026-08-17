@@ -23,7 +23,7 @@ A comprehensive, open-access medical documentation of Myalgic Encephalomyelitis 
 
 ::: {.grid}
 
-::: {.g-col-12 .g-col-md-12}
+::: {.g-col-12 .g-col-xxl-6}
 
 ## The Paper
 
@@ -41,9 +41,7 @@ Use the **sidebar** to browse chapters and sections. Each page has its own table
 
 :::
 
-:::
-
----
+::: {.g-col-12 .g-col-xxl-6}
 
 ## Recent Blog Articles {.unlisted}
 
@@ -53,6 +51,10 @@ Short, accessible articles exploring specific ME/CFS topics — mechanisms, trea
 :::
 
 [See all blog posts &rarr;](en/blog/index.qmd){.btn .btn-outline-primary}
+
+:::
+
+:::
 
 ::: {=html}
 <script src="part-accordion.js"></script>
