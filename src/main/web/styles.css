@@ -63,20 +63,6 @@ header.headroom--unpinned { transform: translateY(0%) !important; }
   background-color: color-mix(in srgb, var(--navbar-bg) 85%, var(--bs-white));
   color: var(--navbar-fg-active) !important;
 }
-/* The home page uses page-layout: full, which still caps the content column at
-   a narrow readable width (~900px) regardless of viewport, leaving large empty
-   margins on wide displays. On large screens let the home page content span
-   the full width up to the right margin sidebar, and place "The Paper" and
-   "Recent Blog Articles" side by side so the width is actually used. */
-@media (min-width: 1920px) {
-  .quarto-container.page-layout-full main.content {
-    grid-column: screen-start / body-end !important;
-  }
-  .quarto-container.page-layout-full main.content .grid > #the-paper,
-  .quarto-container.page-layout-full main.content .grid > #recent-blog-articles {
-    grid-column: span 6 !important;
-  }
-}
 /* NOTE: these rules are deliberately UNLAYERED. styles.css is linked after
    Bootstrap/Quarto CSS in the site, so unlayered rules win over Quarto's
    unlayered callout styles by source order. Wrapping them in @layer would
@@ -440,6 +426,13 @@ header.headroom--unpinned { transform: translateY(0%) !important; }
 
   /* Offset the main content right to clear the fixed sidebar (desktop). */
   #quarto-content { margin-inline-start: 280px; }
+
+  /* The home page uses page-layout: custom (full-width landing page with a
+     Bootstrap grid). Add comfortable horizontal padding so the columns don't
+     touch the viewport edges; the grid gutters handle spacing between columns. */
+  .quarto-container.page-layout-custom #quarto-content {
+    padding-inline: 2rem 2rem;
+  }
 
   /* ── Responsive: off-canvas drawer on small screens ────────────────── */
   @media (max-width: 991.98px) {
