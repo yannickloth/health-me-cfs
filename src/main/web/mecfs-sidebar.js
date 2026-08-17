@@ -142,7 +142,10 @@
           toggle.setAttribute('aria-expanded', 'true');
           chev.classList.remove('bi-chevron-right');
           chev.classList.add('bi-chevron-down');
-          if (sub.activeItem && !foundActive) foundActive = sub.activeItem;
+          // Propagate the active element upward so an ancestor section (the
+          // part holding a chapter) also stays expanded. Prefer the deepest
+          // active child; otherwise this section's own header is the anchor.
+          if (!foundActive) foundActive = sub.activeItem || headA;
         }
         li.appendChild(cont);
         li.appendChild(subUl);
