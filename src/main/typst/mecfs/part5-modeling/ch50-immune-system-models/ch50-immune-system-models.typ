@@ -3,6 +3,10 @@
 = Immune System Models
 <ch:immune-system-models>
 
+#chapter-abstract[
+This chapter presents mathematical models of the immune dysfunction documented in ME/CFS. It models innate and adaptive immunity, neuroinflammation, viral reactivation, and the response to immune interventions, and extends the framework to mast-cell activation and to coagulation and microvascular dynamics. Provisional model extensions address GPCR autoantibody mechanisms. A model application guide explains how to interpret and use the immune models in research and clinical reasoning, closing the gap between qualitative immunology and quantitative prediction.
+]
+
 #include "sec-intro/sec-intro.typ"
 
 #include "sec-01-innate-immunity-dynamics/sec-01-innate-immunity-dynamics.typ"

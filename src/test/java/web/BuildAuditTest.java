@@ -397,8 +397,10 @@ void check7QmdNaming(List<Path> qmdFiles, List<Finding> findings) {
     for (var qmd : qmdFiles) {
         var fname = qmd.getFileName().toString();
         var relP = relPath(webDir, qmd);
-        // Skip non-chapter pages: about, faq, index, patient-resources
-        if (relP.startsWith("_shared/") || relP.equals("about.qmd")
+        // Skip non-chapter pages: about, faq, index, patient-resources.
+        // index.qmd is a valid Quarto landing page (chapter intro / part title)
+        // and may appear in any directory.
+        if (fname.equals("index.qmd") || relP.startsWith("_shared/") || relP.equals("about.qmd")
                 || relP.startsWith("faq/") || relP.equals("index.qmd")
                 || relP.startsWith("patient-resources/")
                 || relP.startsWith("blog/") || relP.startsWith("blog-de/") || relP.startsWith("blog-fr/")) continue;

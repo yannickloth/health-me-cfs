@@ -3,6 +3,10 @@
 = Controversies and Debates in ME/CFS Research
 <ch:controversies>
 
+#chapter-abstract[
+Few illnesses have generated as much scientific and social controversy as ME/CFS. This chapter confronts the central disputes head-on: the contested nomenclature and definitions, the debate over diagnostic criteria, the PACE trial and its methodological aftermath, and the long-standing tension between psychogenic and biomedical explanatory models. It examines the exercise-therapy and deconditioning debates, the interpretive controversy surrounding the NIH effort-preference findings, and the relationship between post-COVID illness and ME/CFS. It also addresses the structural issues that shape the field — research funding disparities, blinding failures in trials, the weaponised use of catastrophizing, the historical pattern of psychosomatic attribution, and medical gaslighting — and how these affect scientific integrity and the trustworthiness of the evidence base.
+]
+
 #include "./nomenclature-and-definition/nomenclature-and-definition.typ"
 #include "./diagnostic-criteria-controvers/diagnostic-criteria-controvers.typ"
 #include "./the-pace-trial-controversy/the-pace-trial-controversy.typ"

@@ -3,6 +3,10 @@
 = Integrated Multi-System Models
 <ch:integrated-systems>
 
+#chapter-abstract[
+ME/CFS is a multi-system disease, and its models must integrate across systems. This chapter couples the energy, immune, neuroendocrine, cardiovascular, gut-brain, and connective-tissue subsystems into whole-body models. It examines the couplings between domains, the mechanisms by which symptoms are generated, bifurcation analysis and disease subtypes, and the attractor dynamics that may underpin chronicity and relapse. The chapter also covers brain-clearance extensions and neuroplasticity attractor dynamics. A model application guide explains how the integrated system is used, providing the foundation for the temporal and predictive models of the following chapters.
+]
+
 #include "sec-intro/sec-intro.typ"
 
 #include "sec-01-energy-immune-coupling/sec-01-energy-immune-coupling.typ"

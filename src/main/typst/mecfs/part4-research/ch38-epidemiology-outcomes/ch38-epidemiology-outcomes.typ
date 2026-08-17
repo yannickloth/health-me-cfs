@@ -3,6 +3,10 @@
 = Epidemiological and Outcomes Research
 <ch:epidemiology-outcomes>
 
+#chapter-abstract[
+This chapter assembles the epidemiological and outcomes evidence for ME/CFS. It covers the prevalence and incidence of the disease, the risk factors associated with onset, and the natural history — how patients recover, fluctuate, or worsen over time. It then examines the consequences of the illness: quality of life and disability, mortality, and the burden of comorbid conditions, with particular attention to reproductive health. The chapter closes with structured speculations that connect epidemiological patterns to proposed mechanisms, generating testable hypotheses for future research.
+]
+
 #include "./prevalence-and-incidence-studi/prevalence-and-incidence-studi.typ"
 #include "./risk-factor-studies/risk-factor-studies.typ"
 #include "./natural-history-studies/natural-history-studies.typ"

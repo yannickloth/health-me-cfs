@@ -93,8 +93,14 @@
         const id = 'quarto-sidebar-section-' + counter.n;
         const li = el('li', 'sidebar-item sidebar-item-section');
         const cont = el('div', 'sidebar-item-container');
+        // The section header navigates to its landing page (chapter intro /
+        // part title) when `href` is present; the chevron always toggles the
+        // subtree. When no href exists the header text itself toggles.
         const headA = el('a', 'sidebar-item-text sidebar-link text-start', {
-          'data-bs-toggle': 'collapse', 'data-bs-target': '#' + id, role: 'navigation', 'aria-expanded': 'false'
+          href: item.href ? relHref(item.href) : undefined,
+          'data-bs-toggle': item.href ? undefined : 'collapse',
+          'data-bs-target': item.href ? undefined : '#' + id,
+          role: 'navigation', 'aria-expanded': 'false'
         });
         const headSpan = el('span', 'menu-text');
         headSpan.textContent = item.label;

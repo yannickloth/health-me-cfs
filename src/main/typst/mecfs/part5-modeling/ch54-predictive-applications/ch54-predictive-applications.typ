@@ -3,6 +3,10 @@
 = Predictive Applications and Clinical Translation
 <ch:predictive-applications>
 
+#chapter-abstract[
+The value of the formal models lies in what they predict. This chapter translates the quantitative framework into practical applications: personalized pacing optimization, treatment selection and optimization, prognosis prediction, and clinical decision support. It extends the models to drug-development applications, optimal control theory for pacing, global sensitivity analysis for ranking drug targets, and network controllability to identify minimum intervention sets. The chapter reports model-predicted treatment candidates and novel predictions that emerge only from the formal models, and ends with an implementation roadmap for bringing model-based guidance toward clinical use.
+]
+
 #include "sec-intro/sec-intro.typ"
 
 #include "sec-01-personalized-pacing-optimization/sec-01-personalized-pacing-optimization.typ"

@@ -3,6 +3,10 @@
 = Temporal Evolution and Disease Trajectories
 <ch:temporal-evolution>
 
+#chapter-abstract[
+This chapter places the integrated models in time. It models disease onset, progression, and the daily and weekly dynamics of symptoms, as well as the response to exertion and other specific stimuli. It then models treatment response and long-term trajectories. Key dynamical phenomena are examined: critical slowing down and early-warning signals, hysteresis and the window for intervention, and endogenous oscillations captured by Hopf bifurcation. A model application guide explains how these temporal models are used to understand the fluctuating and often unpredictable course of ME/CFS.
+]
+
 #include "sec-intro/sec-intro.typ"
 
 #include "sec-01-disease-onset-models/sec-01-disease-onset-models.typ"

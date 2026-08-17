@@ -3,6 +3,10 @@
 = Energy Metabolism Models
 <ch:energy-metabolism-models>
 
+#chapter-abstract[
+This chapter develops mathematical models of the energy metabolism dysfunction that lies at the heart of ME/CFS. It models ATP production, mitochondrial dysfunction, and the dynamics of healthy exercise response, then turns to the central clinical phenomenon of post-exertional malaise. The models are used to simulate the response to metabolic interventions, to analyse lactate kinetics and metabolic flexibility, and to describe mitochondrial dynamics and quality control. A consolidated cascade example ties the sections together, and a dedicated application guide explains how to use the models in practice. The chapter also extends the framework to connective-tissue and metabolic coupling.
+]
+
 #include "sec-intro/sec-intro.typ"
 
 #include "sec-01-atp-production-models/sec-01-atp-production-models.typ"

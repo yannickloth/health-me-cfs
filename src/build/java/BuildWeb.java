@@ -220,6 +220,13 @@ void main(String[] args) throws IOException, InterruptedException {
     System.out.println();
     System.out.println("Done: " + tasks.size() + " chapters processed, " + totalSections.get() + " sections (" + phaseMs(phaseStart) + ")");
 
+    // --- Part title pages (index.qmd per part, from part{N}-intro.typ) ---
+    System.out.println();
+    System.out.println("=== part title pages ===");
+    var partMap = new LinkedHashMap<String, String>();
+    for (var m : mappings) partMap.put(m.srcDir(), m.webDir());
+    generatePartIndexPages(webRoot, srcRoot, partMap, chaptersByPart);
+
     // --- Cross-reference resolution ---
     System.out.println();
     System.out.println("=== cross-references ===");
@@ -377,6 +384,109 @@ void copyTree(Path src, Path dst) throws IOException {
             copy(f, target, REPLACE_EXISTING);
         }
     }
+}
+
+// Generate a per-part landing page (index.qmd) from each part{N}-intro.typ.
+// The page carries the part title, its intro/abstract, and links to every
+// chapter's intro page so it doubles as a part navigator. Runs before
+// cross-reference resolution so @ch-/@sec- tokens are linked in the post-pass.
+void generatePartIndexPages(Path webRoot, Path srcRoot,
+                            java.util.Map<String, String> partMappings,
+                            java.util.Map<String, java.util.List<String>> chaptersByPart) throws IOException {
+    var docPartPat = Pattern.compile("#doc-part\\(\\[([^\\]]*)\\]\\)\\[(.*?)\\]\\s*<part:([^>]+)>", Pattern.DOTALL);
+    for (var e : partMappings.entrySet()) {
+        var srcDir = e.getKey();
+        var webDir = e.getValue();
+        var partFile = srcRoot.resolve(srcDir).resolve("part-index-entry.typ");
+        if (!exists(partFile)) {
+            // The part intro may live at part{N}-intro.typ; discover it.
+            partFile = discoverPartIntro(srcRoot, srcDir);
+        }
+        if (!exists(partFile)) {
+            System.out.println("  skip " + srcDir + " (no part intro found)");
+            continue;
+        }
+        var src = readString(partFile);
+        var m = docPartPat.matcher(src);
+        if (!m.find()) {
+            System.out.println("  skip " + srcDir + " (could not parse doc-part)");
+            continue;
+        }
+        var title = m.group(1).strip();
+        var body = m.group(2);
+        var slug = m.group(3);
+
+        body = body.replaceAll("@ch:", "@ch-");
+        body = body.replaceAll("@sec:", "@sec-");
+        body = body.replaceAll("@subsec:", "@subsec-");
+        body = body.replaceAll("@fig:", "@fig-");
+        body = body.replaceAll("@tab:", "@tab-");
+
+        var sb = new StringBuilder();
+        sb.append("---\n");
+        sb.append("title: \"").append(escJson(title)).append("\"\n");
+        sb.append("---\n\n");
+        // Anchor matches the "#part:<slug>" form used by #link(<part:slug>)[...].
+        sb.append("<span id=\"part:").append(escJson(slug)).append("\"></span>\n\n");
+        sb.append(body.strip()).append("\n\n");
+        sb.append("## Contents\n\n");
+
+        var chapterDirs = new ArrayList<String>();
+        for (var inc : chaptersByPart.getOrDefault(srcDir, java.util.List.of())) {
+            var parts = inc.split("/");
+            if (parts.length >= 2 && parts[1].startsWith("ch")) {
+                chapterDirs.add(parts[1]);
+            }
+        }
+        for (var chDir : chapterDirs) {
+            sb.append("- [").append(humanizeChapter(chDir)).append("](").append(chDir).append("/index.html)\n");
+        }
+        sb.append('\n');
+
+        var outDir = webRoot.resolve(webDir);
+        createDirectories(outDir);
+        var out = outDir.resolve("index.qmd");
+        writeString(out, sb.toString());
+        System.out.println("  " + srcDir + " -> " + webDir + "/index.qmd (" + chapterDirs.size() + " chapters)");
+    }
+}
+
+Path discoverPartIntro(Path srcRoot, String srcDir) throws IOException {
+    var dir = srcRoot.resolve(srcDir);
+    if (!isDirectory(dir)) return dir.resolve("part-index-entry.typ");
+    try (var stream = list(dir)) {
+        return stream
+            .filter(p -> isRegularFile(p) && p.getFileName().toString().matches("part[1-5]-intro\\.typ"))
+            .findFirst()
+            .orElse(dir.resolve("part-index-entry.typ"));
+    }
+}
+
+String humanizeChapter(String chDir) {
+    var name = chDir.replaceFirst("^ch[0-9]+-", "").replaceAll("[-_]+", " ").strip();
+    if (name.isEmpty()) return chDir;
+    var words = name.split("\\s+");
+    var sb = new StringBuilder();
+    for (int i = 0; i < words.length; i++) {
+        var w = words[i];
+        var lower = w.toLowerCase();
+        boolean small = switch (lower) {
+            case "a", "an", "the", "for", "and", "nor", "but", "or", "yet", "so",
+                 "with", "at", "by", "to", "in", "from", "of", "on" -> true;
+            default -> false;
+        };
+        if (i == 0 || i == words.length - 1 || !small) {
+            sb.append(Character.toUpperCase(w.charAt(0))).append(w.substring(1));
+        } else {
+            sb.append(w);
+        }
+        if (i < words.length - 1) sb.append(' ');
+    }
+    return sb.toString();
+}
+
+String escJson(String s) {
+    return s.replace("\\", "\\\\").replace("\"", "\\\"");
 }
 
 static final String XREF_PREFIXES =

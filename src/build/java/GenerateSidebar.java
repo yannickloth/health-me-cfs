@@ -41,6 +41,10 @@ void main(String[] args) throws Exception {
         var section = new LinkedHashMap<String, Object>();
         section.put("type", "section");
         section.put("label", e.getKey());
+        // Link the part header to its title page (index.qmd) when one exists.
+        var partBase = e.getValue().replaceFirst("/\\*\\*$", "").replaceFirst("/\\*$", "");
+        var partIntro = webRoot.resolve(partBase).resolve("index.qmd");
+        if (Files.isRegularFile(partIntro)) section.put("href", siteHref(webRoot, partIntro));
         section.put("children", expandGlob(webRoot, e.getValue()));
         root.add(section);
     }
@@ -68,10 +72,13 @@ List<Object> expandGlob(Path webRoot, String glob) throws Exception {
     try (var stream = Files.list(baseDir)) {
         var dirs = stream.filter(Files::isDirectory).sorted(Comparator.comparing(p -> p.getFileName().toString())).toList();
         for (var dir : dirs) {
-            // chapter dir -> title from dir name
+            // chapter dir -> title from dir name; header links to the chapter
+            // intro page (index.qmd) when one exists.
             var chapter = new LinkedHashMap<String, Object>();
             chapter.put("type", "section");
             chapter.put("label", titleFromPath(dir.getFileName().toString()));
+            var intro = dir.resolve("index.qmd");
+            if (Files.isRegularFile(intro)) chapter.put("href", siteHref(webRoot, intro));
             var pages = new ArrayList<Object>();
             try (var ps = Files.list(dir)) {
                 var qmds = ps.filter(p -> Files.isRegularFile(p) && p.toString().endsWith(".qmd"))

@@ -304,10 +304,73 @@ final class RegexConversion implements TypstToQmd {
         }
 
         // --- Step 3: Generate .qmd files ---
+        // A chapter's intro (preamble/abstract) is emitted on its own landing
+        // page (index.qmd); each section becomes its own page. The intro page
+        // also links to every section so it doubles as a chapter navigator.
         int secNum = 1;
+        var hasIntro = !preamble.isEmpty() && sections.size() > 1 && !chapTitle.isEmpty();
+
+        // Precompute section filenames so the intro page can link to them.
+        var secTargets = new ArrayList<String[]>();
         for (var sec : sections) {
-            var slugTitle = secNum == 1 && !chapTitle.isEmpty() ? chapTitle : normalizeUnicode(sec.title());
+            // Section 1 keeps the chapter-title slug so pre-existing deep links
+            // to 01-<chapter-title>.qmd keep resolving; the intro page (index.qmd)
+            // carries the abstract. Later sections use their own title.
+            var slugBase = (secNum == 1 && !chapTitle.isEmpty()) ? chapTitle : sec.title();
+            var slugTitle = normalizeUnicode(slugBase);
             var slug = slugTitle.toLowerCase().replaceAll("[^a-z0-9']+", "-").replaceAll("^-|-$", "").replace("'", "");
+            var fname = "%02d-%s.qmd".formatted(secNum, slug);
+            secTargets.add(new String[]{ sec.title(), fname });
+            secNum++;
+        }
+        secNum = 1;
+
+        if (hasIntro) {
+            var indexPath = outDir.resolve("index.qmd");
+            var ib = new StringBuilder();
+            ib.append("---\n");
+            ib.append("title: \"").append(esc(chapTitle)).append("\"\n");
+            ib.append("---\n\n");
+
+            // Chapter label anchor + any preamble-only labels resolve on the intro page.
+            for (var rawLabel : preambleLabels) {
+                var converted = rawLabel
+                    .replaceFirst("^<", "")
+                    .replaceFirst(">$", "")
+                    .replaceFirst(":", "-");
+                ib.append("<span id=\"").append(converted).append("\"></span>\n");
+                xref.add(new String[]{ converted, indexPath.toAbsolutePath().toString(), chapTitle });
+            }
+            if (!chapLabel.isEmpty()) {
+                var converted = chapLabel
+                    .replaceFirst("^<", "")
+                    .replaceFirst(">$", "")
+                    .replaceFirst(":", "-");
+                ib.append("<span id=\"").append(converted).append("\"></span>\n");
+                xref.add(new String[]{ converted, indexPath.toAbsolutePath().toString(), chapTitle });
+            }
+            ib.append('\n');
+
+            for (var p : preamble) ib.append(p).append('\n');
+            ib.append('\n');
+
+            // Section navigation list.
+            ib.append("## Contents\n\n");
+            for (var t : secTargets) {
+                var href = t[1].replaceFirst("\\.qmd$", ".html");
+                ib.append("- [").append(esc(t[0])).append("](").append(href).append(")\n");
+            }
+            ib.append('\n');
+
+            writeString(indexPath, ib.toString());
+        }
+
+        for (var sec : sections) {
+            // Filename slug: section 1 keeps the chapter title to preserve deep
+            // links; the displayed title is always the section's own.
+            var slugBase = (secNum == 1 && !chapTitle.isEmpty()) ? chapTitle : sec.title();
+            var slugTitle = normalizeUnicode(sec.title());
+            var slug = normalizeUnicode(slugBase).toLowerCase().replaceAll("[^a-z0-9']+", "-").replaceAll("^-|-$", "").replace("'", "");
             var fname = "%02d-%s.qmd".formatted(secNum, slug);
             var path = outDir.resolve(fname);
 
@@ -316,17 +379,11 @@ final class RegexConversion implements TypstToQmd {
             sb.append("title: \"").append(esc(slugTitle)).append("\"\n");
             sb.append("---\n\n");
 
-            if (secNum == 1 && !preamble.isEmpty() && sections.size() > 1) {
-                for (var p : preamble) sb.append(p).append('\n');
-                sb.append('\n');
-            }
-
             var headingLabels = new ArrayList<String>();
             var spanAnchors = new ArrayList<String>();
-            for (var rawLabel : new String[]{ sec.label(), (secNum == 1 ? chapLabel : "") }) {
+            for (var rawLabel : new String[]{ sec.label() }) {
                 if (rawLabel == null || rawLabel.isEmpty()) continue;
-                boolean isChapLabel = rawLabel.equals(chapLabel);
-                var linkText = (isChapLabel && !chapTitle.isEmpty()) ? chapTitle : slugTitle;
+                var linkText = slugTitle;
                 var converted = rawLabel
                     .replaceFirst("^<", "")
                     .replaceFirst(">$", "")
@@ -338,15 +395,6 @@ final class RegexConversion implements TypstToQmd {
                     spanAnchors.add("<span id=\"" + converted + "\"></span>");
                     xref.add(new String[]{ converted, path.toAbsolutePath().toString(), linkText });
                 }
-            }
-            for (var rawLabel : preambleLabels) {
-                var converted = rawLabel
-                    .replaceFirst("^<", "")
-                    .replaceFirst(">$", "")
-                    .replaceFirst(":", "-");
-                spanAnchors.add("<span id=\"" + converted + "\"></span>");
-                var linkText = (rawLabel.startsWith("<ch:") && !chapTitle.isEmpty()) ? chapTitle : slugTitle;
-                xref.add(new String[]{ converted, path.toAbsolutePath().toString(), linkText });
             }
             for (var l : headingLabels) spanAnchors.add("<span id=\"" + l + "\"></span>");
             for (var a : spanAnchors) sb.append(a).append('\n');

@@ -3,6 +3,10 @@
 = Lifestyle and Non-Pharmacological Interventions
 <ch:lifestyle>
 
+#chapter-abstract[
+Beyond medication, a broad set of non-pharmacological strategies shape daily life with ME/CFS. This chapter covers the lifestyle interventions most relevant to patients: pacing and energy management as the cornerstone of post-exertional malaise prevention, sleep optimization, dietary approaches, weight management, and the careful use of exercise and movement within an energy budget. It also addresses stress management, breathing and vagal interventions, environmental modifications, social and emotional support, and a range of experimental approaches. Throughout, the guidance is framed by the central constraint of ME/CFS — a fixed and reduced energy envelope in which overexertion worsens the disease — so that each intervention is weighed for its systemic cost as well as its benefit.
+]
+
 == Pacing and Energy Management
 <sec:pacing>
 

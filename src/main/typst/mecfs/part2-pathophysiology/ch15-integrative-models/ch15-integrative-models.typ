@@ -3,6 +3,10 @@
 = Integrative Models and Multi-System Pathophysiology
 <ch:integrative-models>
 
+#chapter-abstract[
+The preceding chapters examine individual systems in isolation, but ME/CFS is a multi-system illness in which dysfunction in one domain feeds dysfunction in others. This chapter develops the integrative view: how energy metabolism, immune dysregulation, neurological and neuroendocrine disturbance, cardiovascular and autonomic failure, and gut-microbiome disruption interact in self-reinforcing cycles. It introduces systems-biology and multi-omics approaches, examines the unifying mechanisms that may link otherwise disparate findings, and considers the subjective–measurable discrepancy that complicates clinical assessment. It closes with integrative speculations and future research directions, framing the synthesis that Part V will render mathematically.
+]
+
 == Evidence Level Classification
 
 #figure(
