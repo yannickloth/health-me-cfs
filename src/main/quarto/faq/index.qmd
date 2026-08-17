@@ -133,6 +133,31 @@ and testable, and force uncertainty to be stated quantitatively rather than in
 hand-wavy prose.
 See [Part V — Modeling](../part5-modeling/ch48-modeling-foundations/01-foundations-of-me-cfs-modeling.qmd).
 
+## About this document
+
+### What is the blue ribbon logo, and what does it mean? — [Patient] [Carer]
+
+The blue ribbon in this site's logo is the international **awareness ribbon for
+ME/CFS**. It is a symbol of support for people affected by the illness, and it is
+worn and promoted most visibly around **May 12, International ME/CFS Awareness
+Day** — the birthday of Florence Nightingale, who is believed to have had an
+ME/CFS-like illness.
+
+The ribbon is also described as a *triple symbol of hope*: it raises awareness of
+ME/CFS, it raises funds for research, and it shows support for those affected.
+
+Its use is associated with the **BRAME** campaign — "Blue Ribbon for the Awareness
+of ME" — which was launched in Britain in 1995 and spread internationally. The
+colour blue is the recognised ME/CFS awareness colour.
+
+Sources:
+- [BRAME — About the Blue Ribbon for the Awareness of ME](http://www.brame.org/about.html)
+- [MEpedia — Blue Ribbon Awareness for ME](https://me-pedia.org/wiki/Blue_Ribbon_Awareness_for_ME)
+- [May 12th International Awareness Day — Awareness Ribbons](https://may12th.org/changemakers/ribbons/)
+- [The ME Association — ME Awareness Week](https://meassociation.org.uk/about-the-mea/campaigns/me-awareness-week/)
+- [CDC — ME/CFS Awareness Day](https://www.cdc.gov/me-cfs/awareness-day/)
+- [me-gids.net — Blue Ribbon Campaign for ME/CFS](https://www.me-gids.net/weblink/blue-ribbon-campaign-for-me-cfs/)
+
 ---
 
 ::: {.callout-tip}
