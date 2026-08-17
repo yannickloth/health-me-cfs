@@ -82,16 +82,16 @@ jobs:
                 core.warning(
                   `build-pdf runs for this sha all concluded without success (e.g. '${anyCompleted.conclusion}') — deploying web without PDF`
                 );
-                return '';
+                return 0;
               }
               core.info('build-pdf run for this commit not completed yet; waiting');
               await new Promise(r => setTimeout(r, POLL_MS));
             }
             core.warning('Timed out waiting for build-pdf — deploying web without PDF');
-            return '';
+            return 0;
 
       - name: Download PDF from build-pdf run
-        if: steps.find-run.outputs.result != ''
+        if: steps.find-run.outputs.result != '0'
         uses: dawidd6/action-download-artifact@v6
         with:
           run_id: ${{ steps.find-run.outputs.result }}
@@ -100,7 +100,7 @@ jobs:
           check_artifacts: true
 
       - name: Place PDF at site root as loth2026-mecfs.pdf
-        if: steps.find-run.outputs.result != ''
+        if: steps.find-run.outputs.result != '0'
         run: |
           # build-pdf uploads the PDF renamed as loth2026-mecfs.<ts>-<sha>.pdf.
           # The site links expect the canonical name loth2026-mecfs.pdf at root.

@@ -80,19 +80,30 @@ jobs:
 
       - name: Create GitHub Release with PDF
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'  # Auto-release on every main branch push
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: latest
-          name: Latest Build
-          body: |
-            Latest PDF build from commit ${{ github.sha }}
-            Built: ${{ github.event.head_commit.timestamp }}
-          files: ${{ env.PDF_NAME }}
-          draft: false
-          prerelease: false
-          fail_on_unmatched_files: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PDF_NAME: ${{ env.PDF_NAME }}
+        run: |
+          set -euo pipefail
+          NOTES="Latest PDF build from commit ${{ github.sha }} — Built: ${{ github.event.head_commit.timestamp }}"
+          # Create/update the "latest" release and upload the PDF, retrying on
+          # the transient API errors GitHub's release endpoint intermittently
+          # returns (e.g. "No server is currently available").
+          for attempt in 1 2 3 4 5; do
+            # Ensure the release exists (ignore "already exists" on retries),
+            # and refresh its notes to this commit.
+            gh release create latest --title "Latest Build" \
+              --notes "$NOTES" --target main >/dev/null 2>&1 \
+              || gh release edit latest --notes "$NOTES" >/dev/null 2>&1 || true
+            if gh release upload latest "$PDF_NAME" --clobber >/dev/null 2>&1; then
+              echo "Uploaded $PDF_NAME to release 'latest'"
+              exit 0
+            fi
+            echo "Upload attempt $attempt failed; retrying in ${attempt}s"
+            sleep "$attempt"
+          done
+          echo "::error::Could not upload PDF to release 'latest' after 5 attempts"
+          exit 1
 
       - name: Prune old release assets (keep last 3)
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
