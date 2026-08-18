@@ -17,6 +17,11 @@ format:
   html:
     grid:
       body-width: 1600px
+    # The homepage shows the description exactly once (the .lead paragraph
+    # below). Suppress Quarto's auto title block so the description is not
+    # rendered a second time into the HTML (the meta/og/twitter descriptions
+    # still come from the YAML `description` above).
+    title-block-style: none
 ---
 
 ::: {=html}
@@ -26,7 +31,7 @@ format:
 :::
 
 ::: {.lead}
-A comprehensive, open-access medical documentation of Myalgic Encephalomyelitis / Chronic Fatigue Syndrome — a severe, chronic, multi-system neuroimmune disease affecting an estimated 0.89--2.5% of the global population.
+An open-access, comprehensive medical documentation of Myalgic Encephalomyelitis / Chronic Fatigue Syndrome — a severe, chronic, multi-system neuroimmune disease affecting 0.89--2.5% of the global population.
 :::
 
 ::: {.grid}
