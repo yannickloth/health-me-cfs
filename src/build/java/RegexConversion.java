@@ -276,10 +276,12 @@ final class RegexConversion implements TypstToQmd {
                 continue;
             }
             if (stripped.matches("^={3,}\\s+.+")) {
+                var lvl = headingLevel(stripped);
+                var h = "#".repeat(lvl) + stripped.substring(countLeadingEquals(stripped));
                 if (inPreamble)
-                    preamble.add(stripped.replaceAll("^=+", "##"));
+                    preamble.add(h);
                 else
-                    current.add(stripped.replaceAll("^=+", "##"));
+                    current.add(h);
             } else if (inPreamble) {
                 if (stripped.matches("^<[a-z]+:[^>]+>$") && !stripped.matches("^<(sec|subsec|subsubsec):[^>]+>$"))
                     preambleLabels.add(stripped);
@@ -428,9 +430,8 @@ final class RegexConversion implements TypstToQmd {
                 prevOpenedCallout = stripped.startsWith("::: {");
 
                 if (stripped.matches("^={3,}\\s+.+")) {
-                    int eqCount = 0;
-                    for (int iq = 0; iq < stripped.length() && stripped.charAt(iq) == '='; iq++) eqCount++;
-                    int level = Math.max(2, eqCount - 1);
+                    int eqCount = countLeadingEquals(stripped);
+                    int level = headingLevel(stripped);
                     var headingText = stripHeadingMath(stripped.substring(eqCount));
                     var inlineLabelPattern = Pattern.compile("\\s*<([a-zA-Z][\\w:\\.-]*)>\\s*");
                     var inlineMatcher = inlineLabelPattern.matcher(headingText);
@@ -589,6 +590,23 @@ final class RegexConversion implements TypstToQmd {
         }
 
         return new ConversionResult(xref, secNum - 1);
+    }
+
+    // Count leading '=' in a Typst heading line.
+    int countLeadingEquals(String s) {
+        int n = 0;
+        while (n < s.length() && s.charAt(n) == '=') n++;
+        return n;
+    }
+
+    // Map a Typst heading line to its Quarto markdown level. '=' is the chapter
+    // title (rendered as the page H1); '==' is a section (split into its own
+    // page). Deeper headings nest one level under the section page's H1, so a
+    // heading of k leading '=' renders at '#' repeated max(2, k-1): '===' -> '##',
+    // '====' -> '###', '=====' -> '####', etc. The max(2, ...) floor keeps '==='
+    // below the page title even in files that omit an explicit '==' section.
+    int headingLevel(String s) {
+        return Math.max(2, countLeadingEquals(s) - 1);
     }
 
     // ---- All helper methods from ConvertAndSplit.java, verbatim ----
