@@ -420,6 +420,32 @@ header.headroom--unpinned { transform: translateY(0%) !important; }
     transform: rotate(90deg);
   }
 
+  /* Medical disclaimer pinned at the bottom of the left navigation column.
+     Sits after the nav <ul>, so it is pushed down as sections expand (inside
+     the sidebar's own scroll area). */
+  mecfs-sidebar .sidebar-disclaimer {
+    margin-block-start: 1.5rem;
+    padding-block-start: 0.75rem;
+    border-top: 1px solid #dee2e6;
+    font-size: 0.8rem;
+    color: #6c757d;
+  }
+  mecfs-sidebar .sidebar-disclaimer-title {
+    font-weight: 600;
+    color: #495057;
+    margin-block-end: 0.3rem;
+  }
+  mecfs-sidebar .sidebar-disclaimer-body { margin-block: 0; }
+
+  /* Collapse the right margin sidebar when it holds no content (Quarto emits
+     an empty #quarto-margin-sidebar when a page has no TOC / margin items).
+     Merge the margin columns into the body so the main content spans the full
+     available width. JS adds .no-margin-sidebar when the sidebar is empty. */
+  #quarto-content.no-margin-sidebar {
+    grid-template-columns: [screen-start] 1.5em [screen-start-inset page-start page-start-inset body-start-outset body-start body-content-start] minmax(0px, 1fr) [body-content-end body-end body-end-outset page-end-inset page-end screen-end-inset] 1.5em [screen-end];
+  }
+  #quarto-content.no-margin-sidebar #quarto-margin-sidebar { display: none; }
+
   /* Sidebar toggle button (hamburger) shown only on small screens. */
   .mecfs-sidebar-toggle {
     position: fixed;
@@ -622,4 +648,31 @@ header.headroom--unpinned { transform: translateY(0%) !important; }
     .part-carousel-control { width: 1.5rem; }
     .part-carousel-labels { display: none; }
     .part-accordion-meta { display: none; }
+  }
+
+  /* ── Homepage title-logo hero ─────────────────────────────────────────
+     The homepage replaces the text title (YAML `title:`) with the social
+     card logo image (src/main/web/logos/og-social.png). Quarto still renders
+     the YAML title as `#title-block-header` for metadata/search; on the
+     homepage we hide that text block and show the centered logo instead. The
+     logo's `alt`/`title` carry the full title text (a11y). */
+  body:has(.homepage-title-logo) #title-block-header { display: none; }
+  .homepage-title-logo {
+    text-align: center;
+    margin-block: 1rem 1.5rem;
+  }
+  /* The logo is the page's sole <h1> (the Quarto auto title is hidden above);
+     strip the default heading font/margins so the image renders as a plain
+     centered banner. */
+  .homepage-title-logo h1 {
+    margin: 0;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: 1;
+  }
+  .homepage-title-logo img {
+    max-width: 100%;
+    height: auto;
+    max-height: 260px;
+    width: auto;
   }

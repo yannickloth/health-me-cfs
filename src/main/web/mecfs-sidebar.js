@@ -69,6 +69,30 @@
     return e;
   }
 
+  // Medical disclaimer pinned to the bottom of the left navigation column.
+  // Added after the nav <ul>, so it sits below everything and is pushed down
+  // (inside the sidebar's own scroll area) as sections expand.
+  function buildDisclaimer() {
+    const wrap = el('div', 'sidebar-disclaimer');
+    const title = el('div', 'sidebar-disclaimer-title');
+    title.textContent = 'Medical Disclaimer';
+    const body = el('p', 'sidebar-disclaimer-body');
+    body.innerHTML = 'This documentation represents literature synthesis, <strong>not clinical advice</strong>. All treatment decisions must be made in consultation with qualified healthcare providers.';
+    wrap.appendChild(title);
+    wrap.appendChild(body);
+    return wrap;
+  }
+
+  // Collapse the right margin sidebar when it holds no content (Quarto leaves
+  // an empty #quarto-margin-sidebar when a page has no TOC / margin content),
+  // so the main body expands to the full available width.
+  function collapseEmptyMargin() {
+    const sb = document.getElementById('quarto-margin-sidebar');
+    const content = document.getElementById('quarto-content');
+    if (!sb || !content) return;
+    if (sb.children.length === 0) content.classList.add('no-margin-sidebar');
+  }
+
   // Build the nested <ul> sidebar tree. Returns {ul, activeItem}.
   // Each section renders a `sidebar-section` <ul> that receives the section's
   // child <li> elements directly (matching quarto's nesting).
@@ -157,14 +181,16 @@
 
   class MecfsSidebar extends HTMLElement {
     connectedCallback() {
+      // Disclaimer renders immediately (independent of the nav fetch) so it
+      // always appears at the bottom of the column, below the nav list.
+      this.appendChild(buildDisclaimer());
       fetch(MANIFEST_URL)
         .then(r => { if (!r.ok) throw new Error('manifest ' + r.status); return r.json(); })
         .then(manifest => {
           const current = currentPath();
           const counter = { n: 0 };
           const tree = buildTree(manifest.items || [], 1, counter, current);
-          this.innerHTML = '';
-          this.appendChild(tree.ul);
+          this.insertBefore(tree.ul, this.firstChild);
           setupSidebar(this);
           syncNavbar(current);
         })
@@ -250,4 +276,8 @@
       }
     });
   }
+
+  // Run the margin-collapse check immediately (independent of the nav fetch),
+  // so an empty right sidebar collapses even if the manifest fails to load.
+  collapseEmptyMargin();
 })();

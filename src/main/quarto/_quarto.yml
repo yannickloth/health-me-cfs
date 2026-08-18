@@ -102,12 +102,6 @@ format:
     number-sections: true
     html-math-method: mathjax
     cite-method: citeproc
-    # Medical disclaimer shown in the right margin sidebar, above "On this page".
-    margin-header: |
-      ::: {.callout-warning}
-      ## Medical Disclaimer
-      This documentation represents literature synthesis, **not clinical advice**. All treatment decisions must be made in consultation with qualified healthcare providers.
-      :::
     include-after-body: glossary-tooltip.html
     resources:
       - glossary-en.json
