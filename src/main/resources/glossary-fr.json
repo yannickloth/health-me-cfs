@@ -13064,8 +13064,7 @@
       }
     ],
     "synonyms": []
-  }
-,
+  },
   "ivabradine": {
     "label": "ivabradine",
     "category": "medication",
@@ -13225,5 +13224,30 @@
     "label": "histaminylation",
     "category": "mechanism",
     "definition": "Modification covalente des fibrilles de collagène par l'histamine mastocytaire. Voie indépendante des MMP vers la laxité tissulaire."
+  },
+  "NAA": {
+    "label": "NAA",
+    "category": "imagerie",
+    "definition": "N-acétylaspartate : un métabolite neuronal et mitochondrial mesuré par spectroscopie par résonance magnétique (SRM). L'ANAA diminue dans les maladies neurodégénératives, aussi une élévation dans le COVID long est-elle lue prudemment comme possiblement compensatoire ou osmotique plutôt que clairement pathologique."
+  },
+  "N-acetylaspartate": {
+    "label": "N-acétylaspartate",
+    "category": "imagerie",
+    "definition": "Voir NAA. Métabolite synthétisé dans les neurones, souvent utilisé comme marqueur de santé neuronale en SRM."
+  },
+  "T1w/T2w": {
+    "label": "T1w/T2w",
+    "category": "imagerie",
+    "definition": "Rapport des signaux IRM pondérés T1 et T2, utilisé comme indicateur indirect de la teneur en myéline. Sensible aussi au fer, à leau et à la gliose, un rapport élevé ne peut donc pas distinguer à lui seul la remyélinisation de linflammation ou des dépôts de fer."
+  },
+  "SLF": {
+    "label": "SLF",
+    "category": "imagerie",
+    "definition": "Faisceau longitudinal supérieur : un grand tractus de substance blanche reliant les lobes frontal, pariétal et temporal, impliqué dans lattention et le langage. Des altérations de la diffusion dans le SLF sont rapportées dans le COVID long et le ME/CFS."
+  },
+  "QSM": {
+    "label": "QSM",
+    "category": "imagerie",
+    "definition": "Cartographie de susceptibilité quantitative : technique IRM mesurant la susceptibilité magnétique locale, utilisée pour quantifier le fer cérébral et distinguer les dépôts de fer des changements de myéline."
   }
 }

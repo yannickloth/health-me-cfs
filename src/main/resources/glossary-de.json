@@ -12878,5 +12878,30 @@
       }
     ],
     "synonyms": []
+  },
+  "NAA": {
+    "label": "NAA",
+    "category": "bildgebung",
+    "definition": "N-Acetylaspartat: ein neuronaler und mitochondrialer Metabolit, der mittels Magnetresonanzspektroskopie (MRS) gemessen wird. NAA sinkt bei neurodegenerativen Erkrankungen; eine Erhöhung bei Long-COVID wird daher vorsichtig als möglicherweise kompensatorisch oder osmotisch gelesen, nicht eindeutig pathologisch."
+  },
+  "N-acetylaspartate": {
+    "label": "N-Acetylaspartat",
+    "category": "bildgebung",
+    "definition": "Siehe NAA. Ein in Neuronen synthetisierter Metabolit, der oft als Marker der neuronalen Gesundheit in der MRS verwendet wird."
+  },
+  "T1w/T2w": {
+    "label": "T1w/T2w",
+    "category": "bildgebung",
+    "definition": "Das Verhältnis von T1- zu T2-gewichteter MRT-Signal, als Proxy für den Myelingehalt verwendet. Es reagiert auch auf Eisen, Wasser und Gliose; ein erhöhtes Verhältnis kann daher allein nicht Remyelinisierung von Entzündung oder Eisenablagerung unterscheiden."
+  },
+  "SLF": {
+    "label": "SLF",
+    "category": "bildgebung",
+    "definition": "Fasziculus longitudinalis superior: ein großes Weißsubstanz-Trakt, das Frontal-, Parietal- und Temporallappen verbindet und an Aufmerksamkeit und Sprache beteiligt ist. Veränderte Diffusionswerte im SLF werden bei Long-COVID und ME/CFS berichtet."
+  },
+  "QSM": {
+    "label": "QSM",
+    "category": "bildgebung",
+    "definition": "Quantitative Suszeptibilitätskartierung: eine MRT-Technik zur Messung der lokalen magnetischen Suszeptibilität, verwendet zur Quantifizierung von Hirneisen und zur Unterscheidung von Eisenablagerung von Myelinveränderungen."
   }
 }
