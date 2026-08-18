@@ -1,0 +1,90 @@
+date: 2026-08-18
+
+sleep:
+  previous_night:
+    date: 2026-08-17
+    quality: ~
+    notes: "See ongoing sleep-debt context (late bedtime ~3:00, short nights). Not logged in detail for this night."
+    source: patient_report
+    disruption_cause: ~
+
+medications_supplements:
+  prescribed_medications:
+    - "Aripiprazole (LDA) 1mg/day active"
+  supplements: ~
+  notes: ~
+
+symptoms:
+  fatigue:
+    severity: ~
+    notes: "Garden work afternoon (2026-08-17) — exertion day."
+  muscle_cramp:
+    severity: notable
+    location: ["unspecified — see notes"]
+    duration_min: 45
+    notes: |
+      Cramp reported 2026-08-18 ~02:00. Occurred at night; patient worked in
+      the garden the afternoon prior (2026-08-17). Cramp STILL LATENTLY
+      PRESENT 45 minutes after onset (patient can still feel it). Extends the
+      documented duration well beyond the prior 10-15 min episodes. This
+      episode had an exertion trigger (garden work), unlike earlier
+      rest-triggered episodes.
+    on_lda: true
+    cross_reference: "self-reported/patterns/spontaneous-cramps.yaml (episode 2026-08-18); notes/myelin-energy-excitability-synthesis-2026-08.md"
+  muscle_pain:
+    severity: ~
+    notes: "Distinguish from diffuse sleep-driven myalgia — this is a discrete cramp, not the diffuse pain pattern."
+  overall:
+    severity: ~
+    notes: "Night-time persistent cramp after garden-work day."
+
+overall_wellbeing: ~
+
+activity:
+  activity_level:
+    - description: "Garden work (jardinage)"
+      exertion_level: moderate-to-high
+      notes: "Afternoon 2026-08-17 — exertion trigger for the night cramp."
+  unable_to_rest: false
+  notes: "Garden work = exertion day. Cramp that night (02:00) persisted latently ≥45 min."
+
+pem_tracking:
+  trigger_event: ~
+  pem_day: ~
+  status: ~
+  notes: "Open question for tracking: does a cramp on an exertion day (garden work) predict next-day PEM? Worth logging to connect cramp mechanism to exertion/recovery axis."
+
+pem_risk:
+  level: medium
+  rationale: "Garden work (moderate-to-high exertion) on 2026-08-17 + persistent night cramp. LDA controls PEM per prior reports, but exertion + cramp may signal an exertion-recovery response. Monitor for PEM onset."
+  expected_onset: "Possible PEM 2026-08-18/19 following garden-work exertion, unless LDA holds."
+  monitoring: "Track fatigue/PEM symptoms 2026-08-18-19."
+
+hypotheses:
+  - id: cramp_exertion_trigger
+    text: "This cramp had an exertion trigger (garden work), unlike prior rest-triggered episodes. Exertion may be one trigger among several for a low-threshold, poorly-inhibited motor system, rather than the sole trigger."
+    status: patient_hypothesis
+    falsifiable: true
+    test: "If cramps occur with exertion on some days and at rest on others, exertion is one trigger among several; if cramps only follow exertion, revise the 'rest-triggered/neurogenic' characterization."
+  - id: cramp_predicts_pem
+    text: "A cramp on an exertion day (garden work) may predict next-day PEM, linking the cramp mechanism to the exertion/recovery axis (distinct from the sleep-driven diffuse-pain mechanism)."
+    status: patient_hypothesis
+    falsifiable: true
+    test: "If PEM develops 2026-08-18/19 after this garden-work + cramp day, supports a cramp-PEM link; if not, the cramp and PEM axes are independent."
+  - id: membrane_energy_cramp
+    text: "The ≥45 min persistent cramp (vs prior 10-15 min) strengthens the neurogenic / sustained motor-unit discharge read. Consistent with the membrane-energy hypothesis (Na+/K+-ATPase + ion-channel insufficiency) unifying brain myelin and muscle cramp findings."
+    status: literature_hypothesis
+    falsifiable: true
+    test: "EMG/nerve-conduction distinguishing ectopic discharges (neurogenic) vs sarcolemmal abnormality (muscular) would discriminate the mechanism (see notes/myelin-energy-excitability-synthesis-2026-08.md)."
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: ~
+  temperature_max_c: ~
+  temperature_min_c: ~
+  humidity_pct: ~
+  pressure_msl_hpa: ~
+  precipitation_mm: ~
+  wind_max_kmh: ~
+  conditions: ~
+  source: ~

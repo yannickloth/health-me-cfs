@@ -46,15 +46,37 @@ episodes:
     notes: "second consecutive day, identical presentation"
     source: "self-reported/symptoms/202604/2026-04-07.yaml"
 
+  - date: "2026-08-18"
+    location: "unspecified (see notes)"
+    timing: "night (reported 02:00 local)"
+    trigger: "garden work the same afternoon (exertion present this episode — differs from prior rest-triggered episodes)"
+    severity: "latent / persistent — still felt 45 minutes after onset"
+    duration: "≥45 minutes and ongoing at time of reporting"
+    notes: |
+      Reported 2026-08-18 02:00. Cramp occurred at night; patient worked in
+      the garden the afternoon prior. The cramp is STILL LATENTLY PRESENT
+      45 minutes later (patient can feel it). This extends the documented
+      duration from the prior 10–15 min episodes to ≥45 min — a sustained,
+      self-sustaining discharge, strengthening the neurogenic / motor-neuron
+      hyperexcitability read. NOTE: this episode has an exertion trigger
+      (garden work), unlike earlier rest-triggered episodes — exertion may
+      be one trigger among several, not the sole trigger. On LDA 1mg/day at
+      time of episode.
+    source: "patient report 2026-08-18 02:00"
+    cross_reference: "notes/myelin-energy-excitability-synthesis-2026-08.md (membrane-energy hypothesis; Na+/K+-ATPase + ion-channel)"
+
 # ONGOING STATUS
 ongoing_status:
   status: "persistent"
-  last_confirmed: "2026-08-15"
+  last_confirmed: "2026-08-18"
   context: |
     Patient reports on 2026-08-15 that muscle cramps still occur "without
     apparent reason" while on Aripiprazole (LDA) 1mg/day. LDA controls PEM,
     mental fog, and migraines/headaches, but does NOT resolve spontaneous
-    cramps. Cramp domain is LDA-independent.
+    cramps. Cramp domain is LDA-independent. On 2026-08-18 (02:00) a cramp
+    after afternoon garden work was still latently present 45+ minutes later —
+    extending the documented duration to ≥45 min and adding an exertion
+    trigger (garden work) to the prior rest-triggered pattern.
   significance: |
     Persistence under LDA supports a cramp mechanism distinct from the
     PEM/neuroimmune axis that LDA modulates (microglial/dopaminergic).
@@ -67,6 +89,13 @@ ongoing_status:
     2026-08-15. Whether cramp frequency/severity changed on LDA vs off
     is not established — only presence confirmed.
   source: "notes/aripiprazole-status-muscle-cramps-2026-08.md"
+  cross_references: |
+    "notes/myelin-energy-excitability-synthesis-2026-08.md" — unifies the
+    cramp mechanism with the brain myelin/energy finding via a shared
+    membrane-energy (Na+/K+-ATPase + ion-channel) hypothesis; links to the
+    Thapaliya et al. 2025 myelin-signal MRI study. Also contains the
+    physician-appointment discussion plan (EMG discrimination, serum
+    K+/Mg2+, small-fiber neuropathy).
 
 # MAGNESIUM CORRELATION (reported 2026-08-15) — counterintuitive, needs tracking
 magnesium_correlation:
