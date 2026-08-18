@@ -651,28 +651,58 @@ header.headroom--unpinned { transform: translateY(0%) !important; }
   }
 
   /* ── Homepage title-logo hero ─────────────────────────────────────────
-     The homepage replaces the text title (YAML `title:`) with the social
-     card logo image (src/main/web/logos/og-social.png). Quarto still renders
-     the YAML title as `#title-block-header` for metadata/search; on the
-     homepage we hide that text block and show the centered logo instead. The
-     logo's `alt`/`title` carry the full title text (a11y). */
+     The homepage replaces the text title (YAML `title:`) with the awareness
+     ribbon logo (src/main/web/logos/ribbon.svg) beside the title text. Quarto
+     still renders the YAML title as `#title-block-header` for metadata/search;
+     on the homepage we hide that text block and show the ribbon + title
+     instead. The ribbon carries the brand blue (#2780e3) and the text repeats
+     the full title for accessibility. */
   body:has(.homepage-title-logo) #title-block-header { display: none; }
   .homepage-title-logo {
-    text-align: center;
-    margin-block: 1rem 1.5rem;
+    margin-block: 0.5rem 1rem;
   }
-  /* The logo is the page's sole <h1> (the Quarto auto title is hidden above);
-     strip the default heading font/margins so the image renders as a plain
-     centered banner. */
+  /* The logo + title are the page's sole <h1> (Quarto's auto title is hidden
+     above); lay them out horizontally to save vertical space. */
   .homepage-title-logo h1 {
     margin: 0;
     font-size: inherit;
     font-weight: inherit;
     line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
   }
   .homepage-title-logo img {
-    max-width: 100%;
-    height: auto;
-    max-height: 260px;
+    height: 90px;
     width: auto;
+    flex-shrink: 0;
+  }
+  .homepage-title-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #2780e3;
+    text-align: left;
+  }
+  .homepage-title-main {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.1;
+  }
+  .homepage-title-sub {
+    font-size: 1.15rem;
+    font-weight: 500;
+    line-height: 1.3;
+    margin-block-start: 0.25rem;
+  }
+
+  @media (max-width: 576px) {
+    .homepage-title-logo h1 {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    .homepage-title-text { text-align: center; }
+    .homepage-title-main { font-size: 2rem; }
+    .homepage-title-sub { font-size: 1rem; }
   }

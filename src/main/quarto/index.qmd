@@ -17,21 +17,23 @@ format:
   html:
     grid:
       body-width: 1600px
-    # The homepage shows the description exactly once (the .lead paragraph
-    # below). Suppress Quarto's auto title block so the description is not
-    # rendered a second time into the HTML (the meta/og/twitter descriptions
+    # The homepage title and description are rendered by the custom
+    # .homepage-title-logo block below. Suppress Quarto's auto title block so
+    # they are not emitted twice into the HTML (the meta/og/twitter descriptions
     # still come from the YAML `description` above).
     title-block-style: none
 ---
 
 ::: {=html}
 <div class="homepage-title-logo">
-  <h1><img src="logos/og-social.png" alt="ME/CFS — A Comprehensive Medical Documentation" title="ME/CFS — A Comprehensive Medical Documentation (title-logo)" /></h1>
+  <h1>
+    <img src="logos/ribbon.svg" alt="" aria-hidden="true" />
+    <span class="homepage-title-text">
+      <span class="homepage-title-main">ME/CFS</span>
+      <span class="homepage-title-sub">A Comprehensive Medical Documentation</span>
+    </span>
+  </h1>
 </div>
-:::
-
-::: {.lead}
-An open-access, comprehensive medical documentation of Myalgic Encephalomyelitis / Chronic Fatigue Syndrome — a severe, chronic, multi-system neuroimmune disease affecting 0.89--2.5% of the global population.
 :::
 
 ::: {.grid}
