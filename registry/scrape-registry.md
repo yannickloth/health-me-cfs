@@ -965,3 +965,15 @@ Prevents re-processing of already-integrated content.
 |-----|--------|---------|------------|--------|
 | PubMed E-utilities API (28 queries + efetch, batch) | pubmed/eutils | 2026-08-17 | — | ops/research/search-log-leptin-circadian-entrainment-2026-08-17.md, ops/research/literature-summary-leptin-circadian-entrainment-2026-08-17.md, bib/sleep.bib (5 new), bib/endocrine-reproductive.bib (3 new), bib/treatments.bib (1 new), appendix-h (9 annotated entries) — Leptin/circadian-entrainment in ME/CFS literature (Fleury 2026 trigger + mechanism + null + harm) |
 | Crossref API (1 DOI) | crossref | 2026-08-17 | — | Primary DOI 10.1002/advs.77191 metadata verification (author list, article-number e77191) |
+
+---
+
+## LDN Fibromyalgia Responder Rates (FINAL Trial Re-Analysis)
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-08-18 | 13 queries: direct (LDN fibromyalgia responder secondary outcomes, naltrexone fibromyalgia 30% responder, FINAL trial naltrexone), null/negative (LDN fibromyalgia negative/no-difference/failed), harm (LDN adverse effects sleep, contraindications), indirect biochemical (naltrexone TLR4 microglia, OGFr chronic pain, endogenous opioid CFS, TLR4 ME/CFS). Crossref for primary DOI + editorial. Null+harm+indirect-biochemical searches MANDATORY included. |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed E-utilities API (13 queries + efetch/esummary, batch) | pubmed/eutils | 2026-08-18 | — | ops/research/search-log-ldn-fibromyalgia-responder-rates-2026-08-18.md, ops/research/literature-summary-ldn-fibromyalgia-responder-rates-2026-08-18.md, bib/treatments.bib (8 new), bib/immune.bib (2 new), appendix-h (10 annotated entries) — LDN FM 30%-responder NULL-evidence topic (Nielsen 2026 primary + Due Bruun 2026 re-analysis + INNOVA RCT + meta-analyses + harm + 2 mechanism) |
+| Crossref API (2 DOIs) | crossref | 2026-08-18 | — | DOI 10.3344/kjp.25275 (Due Bruun 2026 re-analysis metadata) + DOI 10.1016/s2665-9913(23)00297-7 (Häuser 2024 editorial metadata) |

@@ -110,7 +110,9 @@ No large RCT has demonstrated superiority to placebo. If LDN = placebo, all resp
 
 ====== Key caveat on non-response
 
-Non-response is weaker evidence than response. It makes a mechanism less likely but does not exclude it — the drug may simply not reach its target. LDN non-response also does not exclude immune involvement in general: autoantibody, B-cell, mast-cell, and T-cell mechanisms are not directly targeted by LDN.
+Non-response is weaker evidence than response. It makes a mechanism less likely but does not exclude it — the drug may simply not reach its target. This is more than theoretical: (+)-naltrexone is a weak TLR4 antagonist, and an optimized derivative required ~6200× potency gain to reach nanomolar TLR4 antagonism @Gao2025CIAC101TLR4 — so clinical-dose racemic LDN (4.5–6 mg) may never engage TLR4, making a null result the expected outcome of a mechanism that was never actually tested at dose @Nielsen2026LDNFMResponder. LDN non-response also does not exclude immune involvement in general: autoantibody, B-cell, mast-cell, and T-cell mechanisms are not directly targeted by LDN.
+
+The fibromyalgia evidence illustrates the non-response reading. The FINAL trial (n=99) showed no significant primary pain difference @DueBruun2024LDNFibromyalgia, and a 30% responder re-analysis of six secondary non-pain outcomes was null on all of them @Nielsen2026LDNFMResponder; an independent 12-month RCT and a meta-analysis also found no between-group benefit @RodriguezFreire2026LDNFMINNOVA @Ologunowa2025LDNFMMeta. This does not rule out benefit in ME/CFS: fibromyalgia may lack the TRPM3 channelopathy that has been reported in ME/CFS NK cells @Cabanas2021, so the FM null may not generalize to the mechanism LDN is best-documented to address in ME/CFS. It likewise does not exclude the OGFr/enkephalin-rebound mechanism, which may require longer duration or a fatigue-specific subtype @Zagon2018OGFrBlockade.
 
 ===== How LDN combines with other medications
 

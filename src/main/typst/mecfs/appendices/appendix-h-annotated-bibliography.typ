@@ -33014,8 +33014,8 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
     *Key Findings:*:
         - No significant between-group difference in pain intensity change (−0.34 points, p=0.27, Cohen's d 0.23)
         - AEs in 84% LDN vs 86% placebo; discontinuation due to AEs: 8% vs 6%
-        - LDN may improve memory problems — suggested for future investigation
-    *Conclusion:*: LDN was not superior to placebo for pain in fibromyalgia. Provides safety characterization relevant to Level 1 — LDN antagonizes μ-opioid receptors, creating a pharmacodynamic contraindication with opioid agonists.
+        - Memory signal (highest responder RR 1.67) did not reach significance as a 30% responder category in the secondary-outcome re-analysis @Nielsen2026LDNFMResponder
+    *Conclusion:*: LDN was not superior to placebo for pain in fibromyalgia, and the exploratory memory signal was not significant as a responder category @Nielsen2026LDNFMResponder. Provides safety characterization relevant to Level 1 — LDN antagonizes μ-opioid receptors, creating a pharmacodynamic contraindication with opioid agonists.
     *Certainty Assessment:*:
         - *Quality:*: High (Lancet Rheumatology)
         - *Sample:*: Moderate (n=99)
@@ -35924,3 +35924,162 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
 *Conclusion:*: Context/review layer situating the primary paper's multimodal findings within the broader PASC neuroimaging landscape.
 *Limitations:*: Review (no primary data); heterogeneous PASC definitions across studies.
 *Certainty Assessment:*: 0.60 raw × 0.85 long-COVID/post-viral weight = discounted 0.51
+
+=== Nielsen et al.\ 2026 — LDN 30% Responder Rates in FM: FINAL Trial Exploratory Analysis (NULL)
+
+@Nielsen2026LDNFMResponder
+
+*Full Citation:*: Nielsen MJ, Vaegter HB, Due Bruun K. Symptom Response to Low-Dose Naltrexone in Fibromyalgia: An Exploratory Analysis of the Randomized Placebo-Controlled FINAL Trial. _Pain Management Nursing_. 2026 (online ahead of print). doi:10.1016/j.pmn.2026.07.020
+*DOI:*: #link("https://doi.org/10.1016/j.pmn.2026.07.020")[10.1016/j.pmn.2026.07.020]
+*PMID:*: 42586891
+*Study Design:*: Exploratory secondary analysis of the randomized placebo-controlled FINAL trial
+*Sample Size:*: n=99 women with FM (1:1 LDN 6 mg vs placebo, 12 weeks)
+*Key Findings:*:
+    - No significant between-group differences in 30% responder rates for ANY of six non-pain outcomes: tenderness, fatigue, sleep disturbances, depression, memory problems, stiffness.
+    - Highest risk ratio = memory (RR 1.67, 95% CI 0.82–2.95), then sleep (1.28, 0.92–2.64), stiffness (1.26, 0.84–2.89), tenderness (1.16, 0.88–2.67), fatigue (1.10, 0.78–3.13), depression (0.96, 0.92–2.66).
+    - The apparent "memory improvement" signal from the primary trial did not reach significance as a 30% responder category.
+*Conclusion:*: 30% responder rates for non-pain FM symptoms were similar between LDN and placebo — a NULL result that weakens the earlier memory-benefit hypothesis from the FINAL primary paper.
+*Limitations:*: Exploratory/post-hoc; secondary outcomes; wide CIs (underpowered for responder sub-analyses); multiple comparisons; fibromyalgia (not ME/CFS) population.
+*Certainty Assessment:*: 0.60 raw × 0.80 fibromyalgia weight = discounted 0.48
+
+=== Due Bruun et al.\ 2026 — LDN for FM Re-Analysis Suggests Lower Efficacy (Korean J Pain)
+
+@DueBruun2026LDNFMReanalysis
+
+*Full Citation:*: Due Bruun K, Nielsen MJ, Vaegter HB, Blichfeldt-Eckhardt MR, Amris K, Pedersen JR. Low-dose naltrexone for fibromyalgia: a re-analysis suggests lower efficacy than previously reported. _The Korean Journal of Pain_. 2026;39(1):140–143.
+*DOI:*: #link("https://doi.org/10.3344/kjp.25275")[10.3344/kjp.25275]
+*Study Design:*: Correspondence/re-analysis of FINAL trial data
+*Key Findings:*:
+    - Re-analysis of the FINAL trial data concludes LDN efficacy in FM is lower than previously reported.
+    - Authored by the original trial group (Due Bruun, Vaegter, Amris, Blichfeldt-Eckhardt) plus colleagues.
+*Conclusion:*: Reinforces the null direction — LDN's FM benefit is weaker than early positive pilot studies suggested.
+*Limitations:*: Brief correspondence format (not a full re-analysis with new data); same underlying trial; fibromyalgia population.
+*Certainty Assessment:*: 0.55 raw × 0.80 fibromyalgia weight = discounted 0.44
+
+=== Rodríguez-Freire et al.\ 2026 — LDN 12-Month RCT in FMS (INNOVA Study) (NULL)
+
+@RodriguezFreire2026LDNFMINNOVA
+
+*Full Citation:*: Rodríguez-Freire C, Navarrete J, Rozadilla-Sacanell A, Sanabria-Mazo JP, Del Pino-Gaya B, Borràs X, Feliu-Soler A, Luciano JV. Efficacy of Low-Dose Naltrexone in Women With Fibromyalgia Syndrome: A 12-Month Randomised, Double-Blind, Placebo-Controlled Single-Centre Clinical Trial (INNOVA Study). _European Journal of Pain_. 2026;30(6):e70321.
+*DOI:*: #link("https://doi.org/10.1002/ejp.70321")[10.1002/ejp.70321]
+*PMID:*: 42385209 · *PMCID:*: PMC13322712
+*Study Design:*: 12-month double-blind RCT
+*Sample Size:*: n=98 women with FMS (LDN 4.5 mg n=48, placebo n=50)
+*Key Findings:*:
+    - 3-month pain change: -0.33 (LDN) vs -0.64 (placebo); adjusted between-group difference 0.49 (p=0.236, d=0.19) — NULL.
+    - Secondary outcomes (FIQR, DASS-21, MISCI, WHODAS 2.0, GAD-7, PGIC/PSIC) showed minor and inconsistent changes; low similar responder rates (p=0.219–0.954).
+    - Adverse events: 68.8% LDN vs 72% placebo, predominantly mild/transient; no treatment-related serious events.
+*Conclusion:*: First long-term RCT evidence. LDN (4.5 mg add-on) was well tolerated but showed no clinically meaningful benefit over placebo at short- or long-term follow-up.
+*Limitations:*: Single center; add-on design (allowed concomitant medication); fibromyalgia population; responder-rate secondary analyses underpowered.
+*Certainty Assessment:*: 0.70 raw × 0.80 fibromyalgia weight = discounted 0.56
+
+=== Due Bruun et al.\ 2025 — Naltrexone and CPM in FM: FINAL Exploratory Outcomes (NULL for mechanism)
+
+@DueBruun2025LDNCPM
+
+*Full Citation:*: Due Bruun K, Christensen R, Amris K, Blichfeldt-Eckhardt MR, Bye-Møller L, Henriksen M, Alkjaer T, Toft P, Holsgaard-Larsen A, Vaegter HB. Effect of Naltrexone on Spinal and Supraspinal Pain Mechanisms and Functional Capacity in Women with Fibromyalgia: Exploratory Outcomes from the Randomized Placebo-Controlled FINAL Trial. _CNS Drugs_. 2025;39(7):685–692.
+*DOI:*: #link("https://doi.org/10.1007/s40263-025-01183-7")[10.1007/s40263-025-01183-7]
+*PMID:*: 40214857 · *PMCID:*: PMC12165890
+*Study Design:*: Secondary mechanistic analysis of FINAL trial
+*Sample Size:*: n=99 women with FM (complete-case 45 vs 47)
+*Key Findings:*:
+    - Of 5 outcomes (pain tolerance, temporal summation, CPM, 30-s chair stand, shoulder abduction), only CPM change differed significantly (2.0 kPa, 95% CI 0.4–3.7) favoring LDN.
+    - Difference partly explained by CPM decrease in the placebo group.
+    - Sensitivity analyses: no association between CPM change and clinical pain improvement → group difference interpreted as random finding.
+*Conclusion:*: No evidence LDN acts through measurable changes in central pain-modulation (CPM) to produce clinical benefit — a NULL for the central-mechanism hypothesis.
+*Limitations:*: Exploratory; complete-case subset; fibromyalgia population.
+*Certainty Assessment:*: 0.60 raw × 0.80 fibromyalgia weight = discounted 0.48
+
+=== Häuser & Fitzcharles 2024 — Is LDN for FM Another Treatment Disappointment? (Editorial)
+
+@Hauser2024LDNFMEditorial
+
+*Full Citation:*: Häuser W, Fitzcharles MA. Is low-dose naltrexone for fibromyalgia another treatment disappointment? _The Lancet Rheumatology_. 2024;6(1):e5–e6.
+*DOI:*: #link("https://doi.org/10.1016/S2665-9913(23)00297-7")[10.1016/S2665-9913(23)00297-7]
+*PMID:*: 38258679
+*Study Design:*: Editorial/commentary on the FINAL trial
+*Key Findings:*:
+    - Contextualizes the negative FINAL result against earlier positive pilot studies (Younger 2009/2013, Polo 2019).
+    - Raises the question of whether LDN is another over-hyped, ultimately disappointing FM treatment.
+*Conclusion:*: Expert editorial endorsing a cautious, null-leaning interpretation of LDN efficacy in FM.
+*Limitations:*: Commentary (no new data); fibromyalgia focus.
+*Certainty Assessment:*: 0.55 raw × 0.80 fibromyalgia weight = discounted 0.44
+
+=== Ologunowa et al.\ 2025 — LDN for FM: Systematic Review & Meta-Analysis (NULL between-group)
+
+@Ologunowa2025LDNFMMeta
+
+*Full Citation:*: Ologunowa A, Otoo MN, Caffrey AR, Buchanan A, Eze UJ, Vyas A. Efficacy of Low-Dose Naltrexone in Treating Patients with Fibromyalgia: Systematic Review and Meta-Analysis. _Journal of Pain & Palliative Care Pharmacotherapy_. 2025;39(3):363–373.
+*DOI:*: #link("https://doi.org/10.1080/15360288.2025.2496526")[10.1080/15360288.2025.2496526]
+*PMID:*: 40272382
+*Study Design:*: Systematic review + meta-analysis (8 studies; search to May 2024)
+*Key Findings:*:
+    - Within-LDN-group pain SMD -1.03 (95% CI -1.25, -0.80; I2=25%) and FM symptom severity -1.02 — significant within-group improvement.
+    - BUT no significant between-group difference vs placebo: pain SMD -0.50 (95% CI -1.19, 0.19; I2=91%), symptom severity -0.67 (95% CI -1.67, 0.34; I2=95%).
+*Conclusion:*: LDN marginally reduces pain from baseline but is NOT superior to placebo — a NULL between-group result.
+*Limitations:*: High heterogeneity; small number of trials; fibromyalgia population; within-group vs between-group contrast central to interpretation.
+*Certainty Assessment:*: 0.70 raw × 0.80 fibromyalgia weight = discounted 0.56
+
+=== Vatvani et al.\ 2024 — LDN for FM: Meta-Analysis with Trial Sequential Analysis (COMPETING/positive)
+
+@Vatvani2024LDNFMMetaTSA
+
+*Full Citation:*: Vatvani AD, Patel P, Hariyanto TI, Yanto TA. Efficacy and safety of low-dose naltrexone for the management of fibromyalgia: a systematic review and meta-analysis of randomized controlled trials with trial sequential analysis. _The Korean Journal of Pain_. 2024;37(4):367–378.
+*DOI:*: #link("https://doi.org/10.3344/kjp.24202")[10.3344/kjp.24202]
+*PMID:*: 39344363 · *PMCID:*: PMC11450306
+*Study Design:*: Systematic review + meta-analysis with trial sequential analysis (4 RCTs, 222 FM patients)
+*Key Findings:*:
+    - COMPETING/positive: significant pain-score reduction with LDN (MD -0.86, 95% CI -1.20, -0.51, p\<0.001, I2=33%) and higher pressure pain threshold (MD 0.17, 95% CI 0.08, 0.25).
+    - FIQR and pain catastrophizing scale did not differ between groups.
+    - LDN associated with higher vivid dreams and nausea; no significant difference in serious AEs, headache, diarrhea, dizziness.
+*Conclusion:*: Contrasts with the null Ologunowa 2025 and FINAL re-analyses; supports modest LDN pain efficacy with a favorable safety profile. Divergent meta-analytic conclusions highlight the dependence of the pooled estimate on included-trial set and methods.
+*Limitations:*: Only 4 RCTs; trial sequential analysis; fibromyalgia population; erratum issued (Korean J Pain 2026;39(1):147-149).
+*Certainty Assessment:*: 0.65 raw × 0.80 fibromyalgia weight = discounted 0.52
+
+=== Bolton et al.\ 2019 — Serious Adverse Events of Oral Naltrexone (HARM/SAFETY meta-analysis)
+
+@Bolton2019NaltrexoneSAE
+
+*Full Citation:*: Bolton M, Hodkinson A, Boda S, Mould A, Panagioti M, Rhodes S, Riste L, van Marwijk H. Serious adverse events reported in placebo randomised controlled trials of oral naltrexone: a systematic review and meta-analysis. _BMC Medicine_. 2019;17(1):10.
+*DOI:*: #link("https://doi.org/10.1186/s12916-018-1242-0")[10.1186/s12916-018-1242-0]
+*PMID:*: 30642329 · *PMCID:*: PMC6332608
+*Study Design:*: Systematic review + meta-analysis of harms (89 RCTs, 11,194 participants; doses 3–250 mg)
+*Key Findings:*:
+    - No evidence of increased risk of serious adverse events for naltrexone vs placebo (RR 0.84, 95% CI 0.66–1.06; risk difference -0.01).
+    - Only six marginally significant adverse events vs placebo, all mild severity.
+    - Results consistent across doses and disease groups (including one FM trial).
+*Conclusion:*: Confirms the safety of oral naltrexone; no excess serious harm. Supports the favorable-safety framing of LDN despite null efficacy.
+*Limitations:*: Mostly non-FM/ME/CFS populations (alcohol/psychiatric/obesity dominant); LDN-specific dose range underrepresented; fibromyalgia n=1 trial.
+*Certainty Assessment:*: 0.75 raw × 0.50 general-population weight = discounted 0.38
+
+=== Gao et al.\ 2025 — Nanomolar TLR4 Antagonist from (+)-Naltrexone (INDIRECT biochemical link)
+
+@Gao2025CIAC101TLR4
+
+*Full Citation:*: Gao J, Lin C, Deng L, Wang H, Wang X. Nanomolar TLR4 Antagonist CIAC101 Derived from (+)-Naltrexone Blocks Microglial Activation and Methamphetamine Addiction. _Journal of Medicinal Chemistry_. 2025;68(23):25469–25484.
+*DOI:*: #link("https://doi.org/10.1021/acs.jmedchem.5c02596")[10.1021/acs.jmedchem.5c02596]
+*PMID:*: 41265859
+*Study Design:*: Medicinal chemistry + preclinical (in vitro BV-2 microglia + in vivo mouse)
+*Key Findings:*:
+    - (+)-naltrexone enantiomer antagonizes TLR4 without engaging classical opioid receptors; dual-site (C3/N17) optimization produced CIAC101 with nanomolar TLR4 antagonism (~6200-fold more potent than (+)-naltrexone).
+    - Blocks LPS-induced NF-κB activation and pro-inflammatory mediators in BV-2 microglia.
+    - In vivo: reduces microglial activation and inflammatory gene expression (mPFC, VTA).
+*Conclusion:*: Directly establishes the TLR4→microglial anti-neuroinflammatory mechanism hypothesized to underlie LDN's action, independent of opioid signaling. Context for the null clinical results: even if the TLR4 mechanism is real, it may not translate to measurable FM symptom benefit at LDN doses.
+*Limitations:*: Preclinical; no FM/ME/CFS data; methamphetamine model, not chronic pain.
+*Certainty Assessment:*: 0.65 raw × 0.40 preclinical weight = discounted 0.26
+
+=== Zagon & McLaughlin 2018 — Intermittent OGFr Blockade and Autoimmune Disorders (INDIRECT biochemical link)
+
+@Zagon2018OGFrBlockade
+
+*Full Citation:*: Zagon IS, McLaughlin PJ. Intermittent blockade of OGFr and treatment of autoimmune disorders. _Experimental Biology and Medicine (Maywood)_. 2018;243(17-18):1323–1330.
+*DOI:*: #link("https://doi.org/10.1177/1535370218817746")[10.1177/1535370218817746]
+*PMID:*: 30541348 · *PMCID:*: PMC6348594
+*Study Design:*: Mini-review (mechanism + clinical reports + preclinical EAE)
+*Key Findings:*:
+    - LDN acts via intermittent blockade of the OGF–OGFr (opioid growth factor) axis.
+    - Clinical LDN reports document reduced fatigue, few side-effects, improved health — including fibromyalgia.
+    - Preclinical EAE: LDN restores serum enkephalin levels correlating with reduced disease signs.
+*Conclusion:*: Frames the endogenous-opioid/enkephalin rebound mechanism for LDN, explicitly including fibromyalgia and fatigue. Indirect support for the mechanistic rationale, but no controlled FM efficacy data.
+*Limitations:*: Review; heterogeneous clinical reports; preclinical EAE model.
+*Certainty Assessment:*: 0.55 raw × 0.40 mixed-review weight = discounted 0.22
