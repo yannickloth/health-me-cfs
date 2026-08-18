@@ -17,10 +17,10 @@ format:
   html:
     grid:
       body-width: 1600px
-    # The homepage title and description are rendered by the custom
-    # .homepage-title-logo block below. Suppress Quarto's auto title block so
-    # they are not emitted twice into the HTML (the meta/og/twitter descriptions
-    # still come from the YAML `description` above).
+    # The homepage title is rendered by the custom .homepage-title-logo block
+    # and the description by the .lead paragraph below. Suppress Quarto's auto
+    # title block so they are not emitted twice into the HTML (the meta/og/twitter
+    # descriptions still come from the YAML `description` above).
     title-block-style: none
 ---
 
@@ -34,6 +34,10 @@ format:
     </span>
   </h1>
 </div>
+:::
+
+::: {.lead}
+A comprehensive, open-access medical documentation of Myalgic Encephalomyelitis / Chronic Fatigue Syndrome — a severe, chronic, multi-system neuroimmune disease affecting an estimated 0.89--2.5% of the global population.
 :::
 
 ::: {.grid}
