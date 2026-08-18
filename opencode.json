@@ -102,6 +102,15 @@
         "reasoning_effort": "high"
       }
     },
+    "chapter-inserter": {
+      "model": "deepseek/deepseek-v4-pro",
+      "options": {
+        "thinking": {
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
+      }
+    },
     "ci-build-fixer": {
       "model": "deepseek/deepseek-v4-flash",
       "options": {
