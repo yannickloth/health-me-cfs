@@ -427,14 +427,6 @@ header.headroom--unpinned { transform: translateY(0%) !important; }
   /* Offset the main content right to clear the fixed sidebar (desktop). */
   #quarto-content { margin-inline-start: 280px; }
 
-  /* The home page uses page-layout: custom (full-width landing page with a
-     Bootstrap grid). #quarto-content IS the page-layout-custom container.
-     Add comfortable horizontal padding so the columns don't touch the
-     viewport edges; the grid gutters handle spacing between columns. */
-  .quarto-container.page-layout-custom {
-    padding-inline: 2rem !important;
-  }
-
   /* ── Responsive: off-canvas drawer on small screens ────────────────── */
   @media (max-width: 991.98px) {
     mecfs-sidebar {

@@ -12,12 +12,13 @@ listing:
   max-items: 6
   fields: [title, date, categories, description]
   date-format: iso
-page-layout: custom
+page-layout: full
+format:
+  html:
+    grid:
+      body-width: 1600px
 ---
 
-::: {.grid}
-
-::: {.g-col-12 .g-col-xxl-9}
 ::: {.lead}
 A comprehensive, open-access medical documentation of Myalgic Encephalomyelitis / Chronic Fatigue Syndrome — a severe, chronic, multi-system neuroimmune disease affecting an estimated 0.89--2.5% of the global population.
 :::
@@ -53,17 +54,6 @@ Short, accessible articles exploring specific ME/CFS topics — mechanisms, trea
 
 [See all blog posts &rarr;](en/blog/index.qmd){.btn .btn-outline-primary}
 
-:::
-
-:::
-
-:::
-
-::: {.g-col-12 .g-col-xxl-3}
-::: {.callout-warning}
-## Medical Disclaimer
-This documentation represents literature synthesis, **not clinical advice**. All treatment decisions must be made in consultation with qualified healthcare providers.
-:::
 :::
 
 :::
