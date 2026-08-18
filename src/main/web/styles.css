@@ -63,6 +63,16 @@ header.headroom--unpinned { transform: translateY(0%) !important; }
   background-color: color-mix(in srgb, var(--navbar-bg) 85%, var(--bs-white));
   color: var(--navbar-fg-active) !important;
 }
+/* Let the right margin sidebar (medical disclaimer, TOC, blog categories)
+   scroll with the page instead of having its own independent scrollbar.
+   Quarto makes it sticky with overflow-y:auto and a max-height, which shows a
+   separate scrollbar when the margin content is taller than the viewport. */
+#quarto-margin-sidebar {
+  position: static !important;
+  overflow: visible !important;
+  max-height: none !important;
+  top: auto !important;
+}
 /* NOTE: these rules are deliberately UNLAYERED. styles.css is linked after
    Bootstrap/Quarto CSS in the site, so unlayered rules win over Quarto's
    unlayered callout styles by source order. Wrapping them in @layer would
