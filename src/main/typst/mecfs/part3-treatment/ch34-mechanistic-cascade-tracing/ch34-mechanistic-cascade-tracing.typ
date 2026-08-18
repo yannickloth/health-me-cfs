@@ -1,6 +1,6 @@
 #import "../../shared/environments.typ": *
 
-// ch30: Mechanistic Cascade Tracing — From Trigger to Terminal Consequence
+// ch34: Mechanistic Cascade Tracing — From Trigger to Terminal Consequence
 // Origin: Gerlier skeletal asymmetry hypothesis (2026-07-21) prompted tracing
 // of ALL major hypotheses.
 

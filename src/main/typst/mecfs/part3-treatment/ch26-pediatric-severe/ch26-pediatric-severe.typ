@@ -1,5 +1,5 @@
 #import "../../shared/environments.typ": *
-#include "ch25-pediatric-severe-preamble.typ"
+#include "ch26-pediatric-severe-preamble.typ"
 #include "sec-01-ped-severe-definition/sec-01-ped-severe-definition.typ"
 #include "sec-02-ped-home-care/sec-02-ped-home-care.typ"
 #include "sec-03-ped-severe-subtype/sec-03-ped-severe-subtype.typ"

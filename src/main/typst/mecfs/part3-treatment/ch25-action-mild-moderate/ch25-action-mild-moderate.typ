@@ -1,5 +1,5 @@
 #import "../../shared/environments.typ": *
-#include "ch24-action-mild-moderate-preamble.typ"
+#include "ch25-action-mild-moderate-preamble.typ"
 #include "sec-01-defining-mild-moderate/sec-01-defining-mild-moderate.typ"
 #include "sec-02-severity-stratified-pathways/sec-02-severity-stratified-pathways.typ"
 #include "sec-03-immediate-mild-moderate/sec-03-immediate-mild-moderate.typ"

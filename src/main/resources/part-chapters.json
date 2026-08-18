@@ -131,6 +131,12 @@
           "title": "ME/CFS Through the Lens of Universal Disease Mechanisms",
           "href": "part2-pathophysiology/ch20-universal-mechanisms/index.html",
           "about": "Surveys a taxonomy of roughly 19 universal disease mechanism families and assesses where ME/CFS stands within each, from energy and redox regulation through immune activation, autonomic, neuroendocrine, viral persistence, and purinergic/danger signalling. For each family it enumerates concrete mechanisms, the state of ME/CFS-specific evidence, and cross-references the chapter treating it in depth."
+        },
+        {
+          "ch": "ch21",
+          "title": "Female-Specific Reproductive Lifespan and ME/CFS",
+          "href": "part2-pathophysiology/ch21-female-reproductive-axis/index.html",
+          "about": "Treats the female reproductive axis as a first-class determinant of ME/CFS expression across the hormonal lifespan: the menstrual cycle, pregnancy and the postpartum window, perimenopause and early menopause, and hormone replacement therapy. Reviews menstrual-phase symptom cyclicity, the pregnancy tripartite outcome, the postpartum vulnerability for onset and relapse, the meta-analytic ~2.8-fold endometriosis association, and the estrogen-progesterone-mast-cell mechanistic bridge to the MCAS/POTS/hEDS cluster."
         }
       ]
     },
@@ -140,81 +146,81 @@
       "blurb": "How ME/CFS is treated across severity levels and therapeutic domains. Symptom management, medications, supplements, lifestyle interventions, emerging therapies.",
       "chapters": [
         {
-          "ch": "ch21",
+          "ch": "ch22",
           "title": "Mechanism\u2013Treatment Map",
-          "href": "part3-treatment/ch21-mechanism-treatment-map/index.html",
+          "href": "part3-treatment/ch22-mechanism-treatment-map/index.html",
           "about": "The navigational entry point to Part III, answering for each known mechanism what treatment options exist. Organizes treatments by causal tier (trigger-capable root causes versus amplifier mechanisms) and presents a one-page overview table with therapeutic priority ratings and an intervention count per mechanism, along with coverage gaps."
         },
         {
-          "ch": "ch22",
+          "ch": "ch23",
           "title": "Symptom-Based Management",
-          "href": "part3-treatment/ch22-symptom-management/index.html",
+          "href": "part3-treatment/ch23-symptom-management/index.html",
           "about": "Addresses what can be done about each symptom now, organized by symptom domain rather than drug class or mechanism. Opens with comorbidity management and covers post-exertional malaise, sleep, pain, cognitive dysfunction, orthostatic intolerance, and broader autonomic symptoms, pairing non-pharmacological and pharmacological options with stated evidence strength."
         },
         {
-          "ch": "ch23",
+          "ch": "ch24",
           "title": "Urgent Action Plan for Severe Cases",
-          "href": "part3-treatment/ch23-urgent-action-severe/index.html",
+          "href": "part3-treatment/ch24-urgent-action-severe/index.html",
           "about": "Addresses patients with severe, unbearable suffering, arguing that immediate aggressive symptom management is justified. Presents an honest assessment of severe disease prognosis and grounds its multi-system targeting approach (mast cells, autonomic/cardiovascular function, sleep, metabolic state, immune activation) in a mechanistic vicious-cycle framework."
         },
         {
-          "ch": "ch24",
+          "ch": "ch25",
           "title": "Action Plans for Mild to Moderate Cases",
-          "href": "part3-treatment/ch24-action-mild-moderate/index.html",
+          "href": "part3-treatment/ch25-action-mild-moderate/index.html",
           "about": "Addresses patients with mild to moderate ME/CFS who retain some functional capacity, aiming to maximize function, prevent progression to severe disease, and pursue recovery. Draws on pediatric recovery rates versus adult disease to argue for treating early and aggressively and preventing severe crashes."
         },
         {
-          "ch": "ch25",
+          "ch": "ch26",
           "title": "Pediatric ME/CFS: Severe and Housebound Cases",
-          "href": "part3-treatment/ch25-pediatric-severe/index.html",
+          "href": "part3-treatment/ch26-pediatric-severe/index.html",
           "about": "Addresses the roughly 5\u201310% of pediatric patients who are housebound or bedbound, providing guidance for home-based care, medical management with pediatric dosing, and strategies to preserve developmental progress. Contrasts pediatric severe disease with adult severe disease and details management including pediatric mast cell activation syndrome treatment."
         },
         {
-          "ch": "ch26",
+          "ch": "ch27",
           "title": "Pediatric ME/CFS: School-Attending and Ambulatory Cases",
-          "href": "part3-treatment/ch26-pediatric-ambulatory/index.html",
+          "href": "part3-treatment/ch27-pediatric-ambulatory/index.html",
           "about": "Addresses ambulatory pediatric patients who can attend school at least part-time, arguing that early intervention is critical because appropriate management may preserve the window for recovery while inappropriate management risks progression to severe disease. Details the costs of delayed or inappropriate intervention."
         },
         {
-          "ch": "ch27",
+          "ch": "ch28",
           "title": "Medications Targeting Underlying Mechanisms",
-          "href": "part3-treatment/ch27-medications-systems/index.html",
+          "href": "part3-treatment/ch28-medications-systems/index.html",
           "about": "Reviews medications that target underlying mechanisms, with substantial coverage of low-dose naltrexone (LDN): proposed mechanisms, dosing protocols, evidence, and a detailed medication-differential analysis of what a response or non-response reveals. Also touches on immunoglobulins, rituximab, and other immunomodulators."
         },
         {
-          "ch": "ch28",
+          "ch": "ch29",
           "title": "Supplements and Nutraceuticals",
-          "href": "part3-treatment/ch28-supplements-nutraceuticals/index.html",
+          "href": "part3-treatment/ch29-supplements-nutraceuticals/index.html",
           "about": "Reviews commonly used supplements and nutraceuticals, emphasizing accessible over-the-counter options while being honest about the limited evidence base. Focuses substantially on electrolyte and fluid management for autonomic dysfunction, covering sodium, potassium, magnesium, complete electrolyte formulas, and oral rehydration solutions."
         },
         {
-          "ch": "ch29",
+          "ch": "ch30",
           "title": "Lifestyle and Non-Pharmacological Interventions",
-          "href": "part3-treatment/ch29-lifestyle-interventions/index.html",
+          "href": "part3-treatment/ch30-lifestyle-interventions/index.html",
           "about": "Covers non-pharmacological interventions centered on pacing as the most evidence-based approach, grounded in energy envelope theory and validated by two-day cardiopulmonary exercise testing. Covers heart rate monitoring, avoiding boom-bust cycles, cognitive pacing, and caregiver-implemented pacing for severe patients."
         },
         {
-          "ch": "ch30",
+          "ch": "ch31",
           "title": "Emerging and Investigational Therapies",
-          "href": "part3-treatment/ch30-emerging-therapies/index.html",
+          "href": "part3-treatment/ch31-emerging-therapies/index.html",
           "about": "Surveys emerging and investigational therapies identified through novel immunophenotyping, cross-disease mechanistic inference, and targeted pathway intervention, none of which have completed randomized controlled trials for ME/CFS. Spans CCR7/CCL19 immune trafficking restoration, checkpoint modulation, BTK inhibition, low-dose IL-2, an emergency PEM prevention protocol, and brain clearance drug targets."
         },
         {
-          "ch": "ch31",
+          "ch": "ch32",
           "title": "Integrative and Personalized Treatment Approaches",
-          "href": "part3-treatment/ch31-integrative-approaches/index.html",
+          "href": "part3-treatment/ch32-integrative-approaches/index.html",
           "about": "Provides a safety-first framework for treatment planning, arguing that every treatment trial carries a metabolic energy cost and failed trials can trigger post-exertional malaise. Classifies interventions by energy category, establishes a micro-dosing imperative, provides crash-risk rankings, sequencing plans, and when-to-stop criteria."
         },
         {
-          "ch": "ch32",
+          "ch": "ch33",
           "title": "Medication Response Reference: From Drug Response to Mechanism Identification",
-          "href": "part3-treatment/ch32-medication-response-reference/index.html",
+          "href": "part3-treatment/ch33-medication-response-reference/index.html",
           "about": "Argues that every drug response (therapeutic benefit, null response, or side effect at a specific dose) is diagnostic information, providing frameworks for reading dose-response curves, side-effect patterns, and cross-drug combination signals. Frames the medication-as-probe approach as diagnostic reasoning under uncertainty."
         },
         {
-          "ch": "ch33",
+          "ch": "ch34",
           "title": "Mechanistic Cascade Tracing: From Hypothesis to Clinical Probe",
-          "href": "part3-treatment/ch33-mechanistic-cascade-tracing/index.html",
+          "href": "part3-treatment/ch34-mechanistic-cascade-tracing/index.html",
           "about": "Traces the full downstream cascade for every major mechanistic hypothesis, from proposed trigger to terminal neurochemical, metabolic, and immunological consequences, identifying at each node which medications could intercept and what a response reveals. Works through the PIP2/TRPM3 channelopathy cascade, TRPV1-mediated vasoconstriction, and Piezo2 dysfunction."
         }
       ]
@@ -225,87 +231,87 @@
       "blurb": "The evidence base: methods, biomarkers, trials, epidemiology, and policy. Biomarker research, clinical trials, mechanistic studies, epidemiology, controversies.",
       "chapters": [
         {
-          "ch": "ch34",
+          "ch": "ch35",
           "title": "ME/CFS-Specific Research Methods",
-          "href": "part4-research/ch34-research-methods/index.html",
+          "href": "part4-research/ch35-research-methods/index.html",
           "about": "Examines the methodological challenges that undermine replicability, centered on case definition heterogeneity, and argues that the choice of diagnostic criteria determines which biology is studied. Discusses PEM as a constraint on participation, the 2-day CPET reliability debate, biomarker overfitting, and statistical power in heterogeneous populations."
         },
         {
-          "ch": "ch35",
+          "ch": "ch36",
           "title": "Biomarker Research",
-          "href": "part4-research/ch35-biomarker-research/index.html",
+          "href": "part4-research/ch36-biomarker-research/index.html",
           "about": "Reviews the state of biomarker research across biological domains, including why biomarkers are needed, the types of biomarkers, and the challenges complicating their identification. Synthesizes evidence for convergent biology despite heterogeneity and covers machine-learning approaches to EBV-based diagnosis and AI sleep-physiology biomarkers."
         },
         {
-          "ch": "ch36",
+          "ch": "ch37",
           "title": "Clinical Trials and Treatment Studies",
-          "href": "part4-research/ch36-clinical-trials/index.html",
+          "href": "part4-research/ch37-clinical-trials/index.html",
           "about": "Reviews clinical trial evidence by intervention category with attention to methodological quality. Covers the rituximab program from promising pilot data through the negative RituxME phase III trial, low-dose naltrexone studies, and other immune modulators including IVIG, interferon-alpha, rintatolimod (Ampligen), and immunoadsorption."
         },
         {
-          "ch": "ch37",
+          "ch": "ch38",
           "title": "Mechanistic and Experimental Studies",
-          "href": "part4-research/ch37-mechanistic-studies/index.html",
+          "href": "part4-research/ch38-mechanistic-studies/index.html",
           "about": "Examines the 2024 NIH deep phenotyping study of post-infectious ME/CFS in detail, describing its design, comprehensive assessment battery, and key biological findings across catecholamine deficiency, immune dysfunction, autonomic dysfunction, and neuroimaging. Documents its limitations and the \u201ceffort preference\u201d controversy."
         },
         {
-          "ch": "ch38",
+          "ch": "ch39",
           "title": "Epidemiological and Outcomes Research",
-          "href": "part4-research/ch38-epidemiology-outcomes/index.html",
+          "href": "part4-research/ch39-epidemiology-outcomes/index.html",
           "about": "Covers the epidemiology of ME/CFS, including population-based prevalence estimates that vary by diagnostic criteria, geographic and demographic variation (sex ratio, bimodal age onset, ethnic and socioeconomic factors), and the post-COVID surge in incidence. Also discusses population-level cognitive impact of COVID and vaccination."
         },
         {
-          "ch": "ch39",
+          "ch": "ch40",
           "title": "Healthcare Systems, Policy, and Disability",
-          "href": "part4-research/ch39-healthcare-systems-policy/index.html",
+          "href": "part4-research/ch40-healthcare-systems-policy/index.html",
           "about": "Analyzes how healthcare systems respond to ME/CFS, covering medical education deficits, diagnostic delay and underdiagnosis, specialist clinic models, guideline inconsistencies, insurance and disability benefit systems, and healthcare disparities. Proposes a four-failure model of healthcare-system dysfunction."
         },
         {
-          "ch": "ch40",
+          "ch": "ch41",
           "title": "Economic Impact of ME/CFS",
-          "href": "part4-research/ch40-economic-impact/index.html",
+          "href": "part4-research/ch41-economic-impact/index.html",
           "about": "Quantifies the economic burden of ME/CFS, covering direct costs, indirect costs (lost earnings, reduced workforce participation), caregiver burden, and lifetime cost estimates per patient. Presents the IOM 2015 benchmark, Australian cost-of-illness studies, and Belgian population-level data, and makes the economic case for increased research funding."
         },
         {
-          "ch": "ch41",
+          "ch": "ch42",
           "title": "Controversies and Debates in ME/CFS Research",
-          "href": "part4-research/ch41-controversies/index.html",
+          "href": "part4-research/ch42-controversies/index.html",
           "about": "Examines the contested naming and terminology of the disease (ME, CFS, ME/CFS, SEID) and how the terminology debate affects research funding, clinical recognition, and patient treatment. Documents how the \u201cchronic fatigue syndrome\u201d label generates more negative attributions and stigma than alternative names."
         },
         {
-          "ch": "ch42",
+          "ch": "ch43",
           "title": "Translational Findings: Implications for Related Conditions",
-          "href": "part4-research/ch42-translational-findings/index.html",
+          "href": "part4-research/ch43-translational-findings/index.html",
           "about": "Identifies mechanisms, biomarkers, and treatment protocols from ME/CFS research that have implications for other post-viral, autoimmune, mitochondrial, and dysautonomic conditions. Presents translational opportunities covering post-viral autoimmunity, autonomic-vascular integration, mitochondrial pathophysiology, neuroinflammation, and exercise intolerance, using a three-tier certainty framework."
         },
         {
-          "ch": "ch43",
+          "ch": "ch44",
           "title": "Global and Low-Resource Perspectives on ME/CFS",
-          "href": "part4-research/ch43-global-perspectives/index.html",
+          "href": "part4-research/ch44-global-perspectives/index.html",
           "about": "Examines ME/CFS in global and low-resource settings: the hidden post-infectious fatigue burden in high-infectious-disease regions, cultural variation in symptom expression, diagnostic access without specialized testing, ICD classification, traditional medicine approaches, and research priorities. Argues that absent data reflects absent diagnostic infrastructure rather than absence of the disease."
         },
         {
-          "ch": "ch44",
+          "ch": "ch45",
           "title": "Research Infrastructure Proposals",
-          "href": "part4-research/ch44-research-infrastructure/index.html",
+          "href": "part4-research/ch45-research-infrastructure/index.html",
           "about": "Proposes foundational research infrastructure centered on the \u201cME/CFS Human Phenome Project,\u201d a multi-site longitudinal deep phenotyping cohort with comprehensive multi-omic, immune, autonomic, exercise-physiology, and neuroimaging assessment. Details study design, biorepository specifications, data infrastructure, budget, and feasibility."
         },
         {
-          "ch": "ch45",
+          "ch": "ch46",
           "title": "Patient-Generated Knowledge and Citizen Science",
-          "href": "part4-research/ch45-patient-generated-knowledge/index.html",
+          "href": "part4-research/ch46-patient-generated-knowledge/index.html",
           "about": "Describes the patient-led research movement in ME/CFS, covering patient organizations that fund research, co-produced study designs like DecodeME, biobanks and registries, n=1 experimentation, and epistemic correction of flawed institutional research such as the FOIA-driven reanalysis of the PACE trial. Applies the epistemic injustice framework."
         },
         {
-          "ch": "ch46",
+          "ch": "ch47",
           "title": "Proposed Studies",
-          "href": "part4-research/ch46-proposed-studies/index.html",
+          "href": "part4-research/ch47-proposed-studies/index.html",
           "about": "Presents detailed protocols and registry-style entries for proposed research studies testing hypotheses about mechanisms and recovery, each carrying explicit hypotheses, predictions, treatments, and limitations with confidence estimates. Covers viral reactivation, menstrual-cycle pharmacodiagnostic probes, OXPHOS-VO2max uncoupling, PEM characterization, and a multi-modal selective energy dysfunction study protocol."
         },
         {
-          "ch": "ch47",
+          "ch": "ch48",
           "title": "Consolidated Research Proposals Index",
-          "href": "part4-research/ch47-research-proposals-index/index.html",
+          "href": "part4-research/ch48-research-proposals-index/index.html",
           "about": "Collects every research proposal scattered across the paper into a single table sorted by impact-weighted feasibility, linking each row to its full protocol or source environment. Spans biomarker-development, secondary-analysis, observational, infrastructure, and interventional proposals."
         }
       ]
@@ -316,51 +322,51 @@
       "blurb": "Formal mathematical models of ME/CFS disease dynamics using ordinary differential equations.",
       "chapters": [
         {
-          "ch": "ch48",
+          "ch": "ch49",
           "title": "Foundations of ME/CFS Modeling",
-          "href": "part5-modeling/ch48-modeling-foundations/index.html",
+          "href": "part5-modeling/ch49-modeling-foundations/index.html",
           "about": "Establishes the mathematical and modeling framework underpinning the specific models in Part V. Explains why formal modeling is needed for ME/CFS (managing multi-system complexity, generating testable predictions, optimizing interventions, enabling personalized medicine), citing the Naviaux hypometabolic state and the energy envelope theory as motivating examples."
         },
         {
-          "ch": "ch49",
+          "ch": "ch50",
           "title": "Energy Metabolism Models",
-          "href": "part5-modeling/ch49-energy-metabolism-models/index.html",
+          "href": "part5-modeling/ch50-energy-metabolism-models/index.html",
           "about": "Translates qualitative understanding of energy metabolism dysfunction into formal mathematical models, progressing from glycolysis kinetics through the Krebs cycle and electron transport chain to an integrated energy production system. Develops ODE models with Michaelis-Menten and Hill-type kinetics, explaining how reduced mitochondrial enzyme activity creates a nonlinear cliff effect."
         },
         {
-          "ch": "ch50",
+          "ch": "ch51",
           "title": "Immune System Models",
-          "href": "part5-modeling/ch50-immune-system-models/index.html",
+          "href": "part5-modeling/ch51-immune-system-models/index.html",
           "about": "Develops mathematical models of the immune subsystems disrupted in ME/CFS, covering NK cell activity, a cytokine network model capturing the pro-inflammatory to remodeled state transition, and chronic immune activation coupled to energy metabolism. Uses ODE and stochastic frameworks to represent reduced NK cytotoxicity and altered cytokine profiles."
         },
         {
-          "ch": "ch51",
+          "ch": "ch52",
           "title": "Neuroendocrine and Autonomic Models",
-          "href": "part5-modeling/ch51-neuroendocrine-models/index.html",
+          "href": "part5-modeling/ch52-neuroendocrine-models/index.html",
           "about": "Develops mathematical models of the hypothalamic-pituitary-adrenal axis, the autonomic nervous system, and sleep-wake regulation, emphasizing bidirectional coupling with the immune and metabolic systems. Models HPA axis dysfunction through enhanced negative feedback sensitivity, reduced circadian amplitude, and altered stress responsiveness."
         },
         {
-          "ch": "ch52",
+          "ch": "ch53",
           "title": "Integrated Multi-System Models",
-          "href": "part5-modeling/ch52-integrated-systems/index.html",
+          "href": "part5-modeling/ch53-integrated-systems/index.html",
           "about": "Formalizes the inter-system couplings among energy metabolism, immune function, neuroendocrine regulation, and autonomic control to construct an integrated model. Centers on the bidirectional energy-immune feedback loop and hypothesizes that this coupled system is bistable with healthy and disease attractors."
         },
         {
-          "ch": "ch53",
+          "ch": "ch54",
           "title": "Temporal Evolution and Disease Trajectories",
-          "href": "part5-modeling/ch53-temporal-evolution/index.html",
+          "href": "part5-modeling/ch54-temporal-evolution/index.html",
           "about": "Extends the subsystem models to longer timescales, covering disease onset, symptom fluctuations, disease progression, and treatment response. Develops tipping point dynamics based on crossing a state-space separatrix versus a recovery-failure model of accumulated damage, and traces a consolidated infection-to-onset cascade."
         },
         {
-          "ch": "ch54",
+          "ch": "ch55",
           "title": "Predictive Applications and Clinical Translation",
-          "href": "part5-modeling/ch54-predictive-applications/index.html",
+          "href": "part5-modeling/ch55-predictive-applications/index.html",
           "about": "Examines how the mathematical models translate into practical clinical applications, including personalized pacing optimization, activity planning algorithms, real-time monitoring integration, and severity-stratified monitoring. Assesses each application\u2019s current feasibility and barriers."
         },
         {
-          "ch": "ch55",
+          "ch": "ch56",
           "title": "Formal Causal Hierarchy Analysis",
-          "href": "part5-modeling/ch55-causal-hierarchy-formal/index.html",
+          "href": "part5-modeling/ch56-causal-hierarchy-formal/index.html",
           "about": "Encodes the qualitative causal hierarchy into formal mathematical models. Develops a coupled ODE system tracking Complex I function, safe mode activation, pro-inflammatory cytokines, viral load, threat signals, and methylation, analyzing the epigenetic consolidation treatment, compartment bistability, and the timescale hierarchy constraining therapeutic sequencing."
         }
       ]

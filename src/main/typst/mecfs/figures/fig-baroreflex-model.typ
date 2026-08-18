@@ -1,5 +1,5 @@
 // Figure: Autonomic Baroreflex and Orthostatic Intolerance Model
-// Control-systems diagram for Chapter 29 (Neuroendocrine Models)
+// Control-systems diagram for Chapter 52 (Neuroendocrine Models)
 // Original: figures/fig-baroreflex-model.tex
 
 #import "@preview/cetz:0.3.4": canvas, draw

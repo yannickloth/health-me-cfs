@@ -36,6 +36,6 @@ A positive response is not automatically beneficial. Stimulants mask fatigue, wh
 
 ==== Compendium
 
-The full pharmacodiagnostic entries — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — are at @ch:mechanistic-cascade-tracing (Chapter 33, sec-12, Methylphenidate entry, Modafinil/Armodafinil entry, and related stimulant entries).
+The full pharmacodiagnostic entries — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — are at @ch:mechanistic-cascade-tracing (Chapter 34, sec-12, Methylphenidate entry, Modafinil/Armodafinil entry, and related stimulant entries).
 
 

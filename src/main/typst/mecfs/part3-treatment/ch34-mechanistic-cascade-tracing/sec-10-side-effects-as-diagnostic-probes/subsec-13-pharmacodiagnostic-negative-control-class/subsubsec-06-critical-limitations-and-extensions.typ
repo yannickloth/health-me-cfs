@@ -7,7 +7,7 @@ The second condition of the negative-control decision heuristic (@spec:negative-
 
 This is systematic, not trial-specific: negative-control inference requires knowing the adequate parameters for the specific mechanism, and ME/CFS has no empirical basis for knowing what "adequate" is for any mechanism. A null result under potentially inadequate parameters is uninformative — you cannot distinguish "inadequate trial" from "false mechanism." Every negative-control interpretation in ME/CFS is conditional on an unverified adequacy assumption.
 
-*Certainty: 0.65.* The pharmacokinetic argument is well-established (IgG half-life 21 days, tissue-bound IgG clearance longer, B-cell repopulation kinetics). The ME/CFS-specific adequacy gap is empirically observable — no drug in the ch33 compendium has ME/CFS-specific dose-ranging data.
+*Certainty: 0.65.* The pharmacokinetic argument is well-established (IgG half-life 21 days, tissue-bound IgG clearance longer, B-cell repopulation kinetics). The ME/CFS-specific adequacy gap is empirically observable — no drug in the ch34 compendium has ME/CFS-specific dose-ranging data.
 
 *Consequence:* All negative-control inferences in ME/CFS currently carry a structural caveat: the parameters may have been wrong. Rituximab might need 3× the dose for the ME/CFS immune environment, or 12 months for the tissue-bound antibody to clear. You can't falsify a mechanism with a trial that was too short or too low-dose — and in ME/CFS, nobody knows what "enough" is. This is not a reason to discard negative-control reasoning — it's a reason to discount its certainty.
 (Origin: brainstorm.)

@@ -9,7 +9,7 @@ The binary-probe version of this algorithm used sequential probes. This extended
 
 (Severity applicability: the ordering/stopping rules are presented generally across severity levels, but the PEM-cost-first and do-not-disturb rules weight most heavily in severe/very-severe patients whose energy budget is smallest; no severity-stratified validation exists.)
 
-(Origin: /integrate-topic sequential-ordering-principle — formalized in ch33 sec-10 subsubsec-07; this synthesis cross-references it.)
+(Origin: /integrate-topic sequential-ordering-principle — formalized in ch34 sec-10 subsubsec-07; this synthesis cross-references it.)
 
 ==== Step 0 — Audit Existing Data (Before Any New Trial)
 <sec:step-0-audit>

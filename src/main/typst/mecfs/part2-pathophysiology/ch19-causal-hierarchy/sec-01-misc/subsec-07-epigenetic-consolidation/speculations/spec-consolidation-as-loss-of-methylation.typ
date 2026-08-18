@@ -12,7 +12,7 @@
 // not the initial cause. This reverses our earlier causal framing.
 // The ME/CFS extrapolations are ours and have not been endorsed by those authors.
 // NOTE: This speculation is a supporting exposition of the loss-dominant subset of
-// the unified vector model. The formal resolution is in Chapter 33 (@oq:consolidation-
+// the unified vector model. The formal resolution is in Chapter 34 (@oq:consolidation-
 // directionality), where the gain and loss models are unified as special cases of a
 // per-locus vector formulation. This section provides the biological detail that the
 // vector model's per-locus equations compress.

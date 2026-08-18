@@ -34,4 +34,4 @@ Non-response does not exclude mitochondrial dysfunction. A safe-mode program act
 
 ==== Compendium
 
-The full pharmacodiagnostic entries — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — are at @ch:mechanistic-cascade-tracing (Chapter 33, sec-12, individual mitochondrial cofactor entries: Coenzyme Q10, NADH, D-Ribose, L-Carnitine, Alpha-Lipoic Acid, and Mitochondrial Supplements group entry).
+The full pharmacodiagnostic entries — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — are at @ch:mechanistic-cascade-tracing (Chapter 34, sec-12, individual mitochondrial cofactor entries: Coenzyme Q10, NADH, D-Ribose, L-Carnitine, Alpha-Lipoic Acid, and Mitochondrial Supplements group entry).

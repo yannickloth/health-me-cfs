@@ -7,5 +7,5 @@ This finding has been replicated and extended by the Maccallini 2026 meta-GWAS (
 
 Study: (n=15,579 cases, n=259,909 controls, MAGMA analysis, 13 brain tissues, replicated in meta-GWAS n=19,470, convergent with 3 cell atlases; key caveat: fine cell-type resolution is method-dependent).
 
-The MZ twin discordant study proposal in Chapter 46 (@sec:mz-twin-discordant-striatal-microbiome-lsr) provides a genetically controlled design to test whether this neuronal genetic signal translates to functional striatal pathology.
+The MZ twin discordant study proposal in Chapter 47 (@sec:mz-twin-discordant-striatal-microbiome-lsr) provides a genetically controlled design to test whether this neuronal genetic signal translates to functional striatal pathology.
 ] <ach:decodeme-brain-enrichment>

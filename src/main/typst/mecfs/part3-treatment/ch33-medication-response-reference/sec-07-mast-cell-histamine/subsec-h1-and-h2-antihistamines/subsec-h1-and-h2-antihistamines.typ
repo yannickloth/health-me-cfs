@@ -33,4 +33,4 @@ Non-response does not exclude mast cell activation. Mast cells release many medi
 
 ==== Compendium
 
-The full pharmacodiagnostic entries — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — are at @ch:mechanistic-cascade-tracing (Chapter 33, sec-12, H1 Antihistamines entry and H2 Antagonists entry).
+The full pharmacodiagnostic entries — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — are at @ch:mechanistic-cascade-tracing (Chapter 34, sec-12, H1 Antihistamines entry and H2 Antagonists entry).

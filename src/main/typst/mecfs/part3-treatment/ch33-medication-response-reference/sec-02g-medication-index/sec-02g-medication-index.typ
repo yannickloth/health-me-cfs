@@ -21,7 +21,7 @@ Select any medication to jump directly to its clinical interpretation section �
 / @sec:h1-h2-antihistamines: H1 and H2 Antihistamines — Mast Cell/Histamine
 / @sec:ivig-rituximab: Immunoglobulins (IVIG) and Rituximab — Immune/Neuroimmune
 / @sec:ivabradine: Ivabradine — Autonomic/Cardiovascular
-/ @sec:low-dose-il2-ch32: Low-Dose IL-2 — Emerging/Investigational
+/ @sec:low-dose-il2-ch33: Low-Dose IL-2 — Emerging/Investigational
 / @sec:low-dose-naltrexone-ldn: Low-Dose Naltrexone (LDN) — Immune/Neuroimmune
 / @sec:magnesium: Magnesium — Electrolytes
 / @sec:methyl-donor: Methyl-Donor Support (SAMe, Methylfolate, etc.) — Emerging/Investigational
@@ -29,7 +29,7 @@ Select any medication to jump directly to its clinical interpretation section �
 / @sec:nac: NAC (N-Acetylcysteine) — Oxidative/Inflammatory
 / @sec:omega3: Omega-3 Fatty Acids (EPA/DHA) — Oxidative/Inflammatory
 / @sec:pea: PEA (Palmitoylethanolamide) — Oxidative/Inflammatory
-/ @sec:pyridostigmine-ch32: Pyridostigmine (Mestinon) — Immune/Neuroimmune
+/ @sec:pyridostigmine-ch33: Pyridostigmine (Mestinon) — Immune/Neuroimmune
 / @sec:quercetin-luteolin: Quercetin and Luteolin — Mast Cell/Histamine
 / @sec:sleep-medications: Sleep Medications — Sleep/Pain
 / @sec:pain-medications: Pain Medications — Sleep/Pain
@@ -38,4 +38,4 @@ Select any medication to jump directly to its clinical interpretation section �
 / @sec:tvns: tVNS (transcutaneous Vagal Nerve Stimulation) — Emerging/Investigational
 / @sec:valacyclovir-valganciclovir: Valacyclovir and Valganciclovir — Antiviral
 
-Deeper pharmacodiagnostic entries (mechanism-exclusion logic, dose-specific side-effect patterns, worsening risk profiles) for all drugs are in @ch:mechanistic-cascade-tracing (Chapter 33, sec-12). A consolidated per-drug dose-range interpretive reference — what benefit, lost benefit, and side effects at each dose reveal — is at @sec:hormetic-dose-range-reference.
+Deeper pharmacodiagnostic entries (mechanism-exclusion logic, dose-specific side-effect patterns, worsening risk profiles) for all drugs are in @ch:mechanistic-cascade-tracing (Chapter 34, sec-12). A consolidated per-drug dose-range interpretive reference — what benefit, lost benefit, and side effects at each dose reveal — is at @sec:hormetic-dose-range-reference.

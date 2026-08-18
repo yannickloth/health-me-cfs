@@ -32,5 +32,5 @@ Fluvoxamine is the strongest CYP1A2 and CYP2D6 inhibitor among SSRIs. Any co-adm
 
 ==== Compendium
 
-The full pharmacodiagnostic entry — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — is at @ch:mechanistic-cascade-tracing (Chapter 33, sec-12, Fluvoxamine entry).
+The full pharmacodiagnostic entry — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — is at @ch:mechanistic-cascade-tracing (Chapter 34, sec-12, Fluvoxamine entry).
 

@@ -1,5 +1,5 @@
 // Figure: Disease Onset Dynamics and Long-Term Trajectories
-// Chapter 31 — Temporal Evolution
+// Chapter 54 — Temporal Evolution
 // Original: figures/fig-disease-trajectories.tex
 
 #import "@preview/cetz:0.3.4": canvas, draw

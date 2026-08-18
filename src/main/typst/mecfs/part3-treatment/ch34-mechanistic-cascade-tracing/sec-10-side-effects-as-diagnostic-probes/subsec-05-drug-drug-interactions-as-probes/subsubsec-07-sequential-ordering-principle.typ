@@ -32,7 +32,7 @@ LDN engages 4 mechanisms (TRPM3, TLR4, Nrf2, μOR endorphin upregulation). Ketot
 
 When two drugs are equally broad, break ties by therapeutic depth (Rule 1) then energy cost (Rule 3).
 
-*Falsifiable prediction:* Mathematical optimisation of expected diagnostic information per drug trial (using the existing ch33 cascade branch maps as prior probabilities) should converge to broad-first sequencing. If narrow-first sequencing dominates for >2 drug pairs in the ch33 cascade map, the broad-first rule is falsified.
+*Falsifiable prediction:* Mathematical optimisation of expected diagnostic information per drug trial (using the existing ch34 cascade branch maps as prior probabilities) should converge to broad-first sequencing. If narrow-first sequencing dominates for >2 drug pairs in the ch34 cascade map, the broad-first rule is falsified.
 ]
 
 #speculation(title: [Rule 3: Energy-Neutral → Energy-Consuming])[

@@ -1,6 +1,6 @@
 // Figure: Integrated Energy Metabolism Model
 // Shows glycolysis -> Krebs -> ETC pathway with ME/CFS impairment points and ROS feedback loop
-// Equation references correspond to ch27 mathematical formulation
+// Equation references correspond to ch50 mathematical formulation
 // Original: figures/fig-energy-metabolism-model.tex
 
 #import "@preview/cetz:0.3.4": canvas, draw

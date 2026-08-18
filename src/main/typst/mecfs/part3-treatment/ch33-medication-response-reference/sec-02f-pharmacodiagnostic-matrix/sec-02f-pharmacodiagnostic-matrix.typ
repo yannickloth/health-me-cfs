@@ -43,7 +43,7 @@ The matrix resolves down to a small set of surviving hypotheses — the intersec
 | Gerlier Pathway 2 (sympathetic) | Positive | Yes — D2 agonism compensates for dopamine depletion from DBH overactivity |
 | Glymphatic failure | Null | No — no direct glymphatic mechanism |
 
-Chapter 33 sec-10 provides the full drug × hypothesis cross-reference for all ~192 entries.
+Chapter 34 sec-10 provides the full drug × hypothesis cross-reference for all ~192 entries.
 
 === Spectral Resolution Limits
 

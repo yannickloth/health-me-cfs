@@ -17,5 +17,5 @@ Analgesics, neuropathic pain medications, and opioids are universally symptomati
 
 ==== Compendium
 
-The full pharmacodiagnostic entries for individual sleep and pain medications — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — are at @ch:mechanistic-cascade-tracing (Chapter 33, sec-12, individual entries: Zolpidem, Trazodone, Gabapentin/Pregabalin, Oxycodone, and related entries).
+The full pharmacodiagnostic entries for individual sleep and pain medications — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — are at @ch:mechanistic-cascade-tracing (Chapter 34, sec-12, individual entries: Zolpidem, Trazodone, Gabapentin/Pregabalin, Oxycodone, and related entries).
 

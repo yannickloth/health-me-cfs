@@ -1,5 +1,5 @@
 #import "../../shared/environments.typ": *
-#include "ch22-symptom-management-preamble.typ"
+#include "ch23-symptom-management-preamble.typ"
 #include "sec-01-comorbidity-management/sec-01-comorbidity-management.typ"
 #include "sec-02-managing-pem/sec-02-managing-pem.typ"
 #include "sec-03-sleep-management/sec-03-sleep-management.typ"

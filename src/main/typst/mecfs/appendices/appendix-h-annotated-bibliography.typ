@@ -4526,7 +4526,7 @@ This multi-hit model explains why simple volume expansion (saline infusion) prov
         - Patients experience suspicion from healthcare professionals about their testimony.
         - Patients vocally oppose the effectiveness and conceptualization of their illness as psychologically treatable.
         - Marginalisation of patient testimony is a professional failure with ethical and practical consequences for research and care.
-    *Relevance:*: Establishes the foundational epistemic injustice argument specific to ME/CFS. Widely cited. Essential theoretical framework for ch45.
+    *Relevance:*: Establishes the foundational epistemic injustice argument specific to ME/CFS. Widely cited. Essential theoretical framework for ch46.
     *Limitations:*: Conceptual rather than empirical; UK-centric healthcare context.
     *Certainty:*: 0.85
 
@@ -28525,8 +28525,8 @@ sec-bib-rf-elevated-mecfs-duplicate
     *Study Design:*: Narrative review
     *Key Findings:*: Synthesizes evidence for Lyme-associated dysautonomia. Proposes PTLDS shares autonomic dysfunction mechanisms with PASC and ME/CFS. Identifies gaps.
     *Conclusion:*: Dysautonomia is a key but under-researched component of PTLDS that bridges to ME/CFS and long COVID.
-    *ME/CFS Relevance:*: Supports ch35 coverage of shared autonomic dysfunction; provides Hopkins group perspective.
-    *Limitations:*: Review; no original data; content largely covered in ch35.
+    *ME/CFS Relevance:*: Supports ch36 coverage of shared autonomic dysfunction; provides Hopkins group perspective.
+    *Limitations:*: Review; no original data; content largely covered in ch36.
 
 === Shor 2011 — Seronegative Chronic Lyme in Internationally-Defined CFS
 
@@ -30464,8 +30464,8 @@ sec-bib-rf-elevated-mecfs-duplicate
 
 // =============================================================================
 
-== Chapter 34: ME/CFS-Specific Research Methods — Methodological Literature
-<sec:bib-ch34-research-methods>
+== Chapter 35: ME/CFS-Specific Research Methods — Methodological Literature
+<sec:bib-ch35-research-methods>
 // =============================================================================
 
 === Subtopic 1: Case Definition Heterogeneity
@@ -30715,7 +30715,7 @@ sec-bib-rf-elevated-mecfs-duplicate
 // =============================================================================
 
 == Research Domain: Healthcare Systems, Policy, and Disability in ME/CFS
-<sec:bib-ch39-healthcare-systems-policy>
+<sec:bib-ch40-healthcare-systems-policy>
 // =============================================================================
 
 === Bateman et al.\ 2021 — ME/CFS: Essentials of Diagnosis and Management
@@ -33155,7 +33155,7 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
     *Key Findings:*:
         - Fludrocortisone associated with renal failure, cardiac failure, increased all-cause hospitalization
         - Peripheral denervation → better droxidopa response; central dysfunction → better NE reuptake inhibitor response
-    *Conclusion:*: Pharmacodiagnostic differentiation of OH type predicts drug response — aligns with ch33 framework. In connective-tissue-driven OH, fludrocortisone may worsen outcomes.
+    *Conclusion:*: Pharmacodiagnostic differentiation of OH type predicts drug response — aligns with ch34 framework. In connective-tissue-driven OH, fludrocortisone may worsen outcomes.
     *Certainty Assessment:*:
         - *Quality:*: High (Continuum — AAN flagship)
         - *Sample:*: N/A (review)

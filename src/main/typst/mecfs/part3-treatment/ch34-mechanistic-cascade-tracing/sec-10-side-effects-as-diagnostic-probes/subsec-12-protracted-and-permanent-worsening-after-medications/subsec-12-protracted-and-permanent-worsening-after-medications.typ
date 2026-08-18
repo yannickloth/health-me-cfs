@@ -189,7 +189,7 @@ This convergence pattern is the mechanism behind the clinical observation that a
 
 === Drug-Indexed Pharmacodiagnostic Reference
 
-For per-medication analysis covering every drug discussed in this chapter — including cascade-node locations, positive/null/side-effect diagnostic inferences, protracted/permanent worsening mechanism assignment, risk classification, and rechallenge guidance — see the Medication Reference at @sec:medication-reference. That section provides the second entry door into this chapter: drug-indexed rather than mechanism-indexed, with each drug's complete ch30 pharmacology aggregated in one place.
+For per-medication analysis covering every drug discussed in this chapter — including cascade-node locations, positive/null/side-effect diagnostic inferences, protracted/permanent worsening mechanism assignment, risk classification, and rechallenge guidance — see the Medication Reference at @sec:medication-reference. That section provides the second entry door into this chapter: drug-indexed rather than mechanism-indexed, with each drug's complete ch34 pharmacology aggregated in one place.
 
 Below, the summary risk table ranks medications by worsening risk (for quick cross-drug comparison) and the clinical protocol provides a structured approach when a patient reports never recovering from a medication trial.
 

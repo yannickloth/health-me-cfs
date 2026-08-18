@@ -1,5 +1,5 @@
 // Figure: Model-Based Clinical Decision Support Pipeline
-// Clinical translation pipeline for Chapter 32 (Predictive Applications)
+// Clinical translation pipeline for Chapter 55 (Predictive Applications)
 // Shows 4-stage flow: Data Collection → Model Fitting → Simulation → Decision
 // Original: figures/fig-clinical-decision-pipeline.tex
 

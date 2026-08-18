@@ -1,5 +1,5 @@
 // Figure: HPA Axis Model with ME/CFS Dysfunction
-// Mathematical model diagram for Chapter 29 (Neuroendocrine Models)
+// Mathematical model diagram for Chapter 52 (Neuroendocrine Models)
 // Shows cascade, feedback loops, inputs, and ME/CFS dysfunction annotations
 // Original: figures/fig-hpa-axis-model.tex
 

@@ -1,5 +1,5 @@
 #import "../../shared/environments.typ": *
-#include "ch23-urgent-action-severe-preamble.typ"
+#include "ch24-urgent-action-severe-preamble.typ"
 #include "sec-01-understanding-urgency/sec-01-understanding-urgency.typ"
 #include "sec-02-subtype-assessment/sec-02-subtype-assessment.typ"
 #include "sec-03-two-week-protocol/sec-03-two-week-protocol.typ"

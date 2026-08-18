@@ -61,6 +61,6 @@ Construct the patient-specific null matrix: rows = all medications trialled, col
 
 The algorithm's output is a differential diagnosis not of disease, but of *rate-limiting mechanisms* — which systems are the immediate drivers of symptoms, which are contributing passively, and which are intact. Treatment targets are prioritized by therapeutic depth: Restorative > Corrective > Threshold-modulatory > Substrate-repletion > Symptomatic. The algorithm is iterative — each new drug trial provides a new row for the null matrix, which may revise the bottleneck localization.
 
-*Certainty: 0.20.* No step of this algorithm has been validated in a prospective trial. The sequence is derived from mechanistic inference and clinical observation. The HIP-B trial specification is at @ch:mechanistic-cascade-tracing (Chapter 33, sec-08). Until validated, the algorithm is a hypothesis-generating framework, not a clinical decision tool.
+*Certainty: 0.20.* No step of this algorithm has been validated in a prospective trial. The sequence is derived from mechanistic inference and clinical observation. The HIP-B trial specification is at @ch:mechanistic-cascade-tracing (Chapter 34, sec-08). Until validated, the algorithm is a hypothesis-generating framework, not a clinical decision tool.
 
-For the extended algorithm with full branching logic, see @ch:mechanistic-cascade-tracing (Chapter 33, sec-11).
+For the extended algorithm with full branching logic, see @ch:mechanistic-cascade-tracing (Chapter 34, sec-11).

@@ -1,5 +1,5 @@
 // Figure: Energy Ratchet — Discrete Event Model
-// Chapter 31 — Temporal Evolution (Section: The Energy Ratchet)
+// Chapter 54 — Temporal Evolution (Section: The Energy Ratchet)
 // Original: figures/fig-energy-ratchet.tex
 
 #import "@preview/cetz:0.3.4": canvas, draw

@@ -106,7 +106,7 @@ $ <eq:atp-piecewise>
 
 where $phi.alt(B)$ is the strongly nonlinear cliff function derived from the $Delta Psi$ dependence on Complex I capacity. From the worked example in Section @sec:etc-model: a 35% Complex I impairment ($alpha_upright("CI"): 1.0 -> 0.65$) produces a 39% ATP synthase flux reduction---disproportionate because $Delta Psi$ approaches $Delta Psi_upright("threshold")$. This disproportionality _is_ the cliff. Below $B_upright("floor")$, cells maintain $[upright("ATP")]_min$ (estimated at 15--30% of healthy levels from the ischaemia literature) to avoid apoptosis.
 
-The approximate regime boundaries, mapped from the $alpha_upright("CI")$ values in the ch27 worked examples to the $B$ scale:
+The approximate regime boundaries, mapped from the $alpha_upright("CI")$ values in the ch50 worked examples to the $B$ scale:
 
 - $B_upright("cliff") approx 0.65$: above this, $Delta Psi$ is well above threshold ($> 145$ mV), ATP is near-maximal, and small changes in $B$ produce small ATP changes (quasi-plateau)
 - $B_upright("floor") approx 0.05$: below this, $Delta Psi$ is at or below threshold, ATP synthase is minimal, and the cell operates on glycolytic ATP with an apoptosis-prevention floor

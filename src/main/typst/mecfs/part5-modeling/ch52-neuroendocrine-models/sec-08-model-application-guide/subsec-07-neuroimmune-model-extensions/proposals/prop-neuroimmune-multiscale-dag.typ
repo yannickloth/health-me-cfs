@@ -7,7 +7,7 @@
 
 *Testable prediction.* DAG centrality analysis identifies GPCR autoantibody production and brainstem neuroinflammation as the two highest-betweenness nodes — interventions targeting either node produce the largest downstream effects. Combining both (immunoadsorption + taVNS) should produce supra-additive effects, testable in a 2×2 factorial trial.
 
-*Existing model context.* Extends ch29 DAG with neuroimmune nodes; connects to ch30 integrated model.
+*Existing model context.* Extends ch53 DAG with neuroimmune nodes; connects to ch53 integrated model.
 
 *Falsifiable prediction.* DAG centrality will show GPCR AAb and brainstem neuroinflammation as top-3 by betweenness, each with ≥1.5× interaction with ≥2 other nodes. Falsified if centrality analysis identifies different top nodes or no node has ≥1.5× interaction count.
 ] <prop:neuroimmune-multiscale-dag>
