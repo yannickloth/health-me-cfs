@@ -428,10 +428,11 @@ header.headroom--unpinned { transform: translateY(0%) !important; }
   #quarto-content { margin-inline-start: 280px; }
 
   /* The home page uses page-layout: custom (full-width landing page with a
-     Bootstrap grid). Add comfortable horizontal padding so the columns don't
-     touch the viewport edges; the grid gutters handle spacing between columns. */
-  .quarto-container.page-layout-custom #quarto-content {
-    padding-inline: 2rem 2rem;
+     Bootstrap grid). #quarto-content IS the page-layout-custom container.
+     Add comfortable horizontal padding so the columns don't touch the
+     viewport edges; the grid gutters handle spacing between columns. */
+  .quarto-container.page-layout-custom {
+    padding-inline: 2rem !important;
   }
 
   /* ── Responsive: off-canvas drawer on small screens ────────────────── */
