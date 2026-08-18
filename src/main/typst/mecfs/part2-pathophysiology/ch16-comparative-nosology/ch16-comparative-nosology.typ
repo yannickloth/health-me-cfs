@@ -400,28 +400,6 @@ This has two consequences: (a) it creates a structural incentive for patients to
 Addressing the nosological problem requires not just better biomarkers but structural reform of a classification system that assigns conditions to psychiatry by default.
 ]
 
-== Synthesis: A Framework for Comparative Nosology
-
-#synthesis(title: [Three Axes for Classifying the Contested Diagnosis Cluster])[
-The preceding comparisons suggest that the splitting vs. lumping debate is not resolvable by a single criterion — different axes support different groupings.
-
-*Axis 1 — Trigger mechanism:* Post-infectious (ME/CFS, Long COVID, PTLDS, post-meningitis, QFS, post-infectious IBS) vs.\ structural/toxic (EDS/hypermobility, skeletal asymmetry, GWI chemical exposure).
-This axis cleanly separates conditions by etiology and generates testable predictions: post-infectious conditions should cluster on immune/autoimmune markers; structural/toxic conditions should cluster on mechanical/connective tissue/toxin markers.
-
-*Axis 2 — Dominant pathophysiology:* Metabolic/PEM-dominant (ME/CFS, subsets of Long COVID, subsets of fibromyalgia) vs.\ pain-dominant (fibromyalgia, CRPS) vs.\ autonomic-dominant (POTS, orthostatic intolerance) vs.\ GI-dominant (IBS).
-This axis maps onto treatment response: metabolic conditions respond to metabolic interventions; pain conditions respond to analgesic/neuromodulatory interventions; autonomic conditions respond to volume expansion/vasoconstrictors; GI conditions respond to dietary/gut-directed interventions.
-
-*Axis 3 — PEM status:* PEM-positive (ME/CFS, PEM-positive fibromyalgia, PEM-positive Long COVID) vs.\ PEM-negative (PEM-negative fibromyalgia, POTS, most IBS, most CRPS).
-This axis is the strongest predictor of exercise response and arguably the most clinically useful single discriminator — it determines whether graded activity is harmful or tolerable, and it separates conditions that share symptom profiles but have opposite physiology on CPET.
-
-The three axes are not mutually exclusive — they represent orthogonal dimensions.
-A given patient can be classified as post-infectious (Axis 1), PEM-dominant (Axis 2), and PEM-positive (Axis 3).
-The practical implication: clinical trials and treatment algorithms should use axis scores rather than diagnostic labels for patient stratification.
-A PEM-positive post-infectious fibromyalgia patient may respond more like a PEM-positive ME/CFS patient than like a PEM-negative fibromyalgia patient — the axis overrides the diagnosis.
-
-*Consequence:* The three-axis framework replaces "do you have ME/CFS or fibromyalgia or Long COVID?" with "what is your trigger type, your dominant pathophysiology, and your PEM status?" — shifting nosology from categorical assignment to dimensional profiling, and treatment from disease-specific guidelines to mechanism-specific protocols.
-] <syn:comparative-nosology-framework>
-
 == Diagnostic Boundary Disputes: Historical Lessons
 
 #achievement(title: [Three Lessons from Historical Contested Diagnoses])[
@@ -464,3 +442,25 @@ This would test whether the cross-condition PEM dimension is a stronger predicto
 
 *Consequence:* The nosological questions in this chapter are empirically testable — they will be resolved by the experiments listed above, not by further clinical description or expert consensus.
 ] <oq:research-directions>
+
+== Synthesis: A Framework for Comparative Nosology
+
+#synthesis(title: [Three Axes for Classifying the Contested Diagnosis Cluster])[
+The preceding comparisons suggest that the splitting vs. lumping debate is not resolvable by a single criterion — different axes support different groupings.
+
+*Axis 1 — Trigger mechanism:* Post-infectious (ME/CFS, Long COVID, PTLDS, post-meningitis, QFS, post-infectious IBS) vs.\ structural/toxic (EDS/hypermobility, skeletal asymmetry, GWI chemical exposure).
+This axis cleanly separates conditions by etiology and generates testable predictions: post-infectious conditions should cluster on immune/autoimmune markers; structural/toxic conditions should cluster on mechanical/connective tissue/toxin markers.
+
+*Axis 2 — Dominant pathophysiology:* Metabolic/PEM-dominant (ME/CFS, subsets of Long COVID, subsets of fibromyalgia) vs.\ pain-dominant (fibromyalgia, CRPS) vs.\ autonomic-dominant (POTS, orthostatic intolerance) vs.\ GI-dominant (IBS).
+This axis maps onto treatment response: metabolic conditions respond to metabolic interventions; pain conditions respond to analgesic/neuromodulatory interventions; autonomic conditions respond to volume expansion/vasoconstrictors; GI conditions respond to dietary/gut-directed interventions.
+
+*Axis 3 — PEM status:* PEM-positive (ME/CFS, PEM-positive fibromyalgia, PEM-positive Long COVID) vs.\ PEM-negative (PEM-negative fibromyalgia, POTS, most IBS, most CRPS).
+This axis is the strongest predictor of exercise response and arguably the most clinically useful single discriminator — it determines whether graded activity is harmful or tolerable, and it separates conditions that share symptom profiles but have opposite physiology on CPET.
+
+The three axes are not mutually exclusive — they represent orthogonal dimensions.
+A given patient can be classified as post-infectious (Axis 1), PEM-dominant (Axis 2), and PEM-positive (Axis 3).
+The practical implication: clinical trials and treatment algorithms should use axis scores rather than diagnostic labels for patient stratification.
+A PEM-positive post-infectious fibromyalgia patient may respond more like a PEM-positive ME/CFS patient than like a PEM-negative fibromyalgia patient — the axis overrides the diagnosis.
+
+*Consequence:* The three-axis framework replaces "do you have ME/CFS or fibromyalgia or Long COVID?" with "what is your trigger type, your dominant pathophysiology, and your PEM status?" — shifting nosology from categorical assignment to dimensional profiling, and treatment from disease-specific guidelines to mechanism-specific protocols.
+] <syn:comparative-nosology-framework>

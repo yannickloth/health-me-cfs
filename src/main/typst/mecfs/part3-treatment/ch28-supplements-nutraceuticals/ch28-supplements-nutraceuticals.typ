@@ -10,10 +10,10 @@ Very few supplements have been tested in randomized controlled trials specifical
 #limitation(title: [Supplement Evidence: Mechanism-Based Reasoning, Not Clinical Proof])[
 Despite widespread use and biological plausibility, the supplement recommendations in this chapter face a fundamental evidence gap:
 
-    - Fewer than five supplements discussed here have been tested in randomized placebo-controlled trials specifically in ME/CFS—notably NADH @Forsyth1999NADH and CoQ10+NADH @CastroMarrero2021fatigue. Acetyl-L-carnitine has been studied in a randomized (open-label) ME/CFS trial @Vermeulen2004carnitine but without a placebo arm. Most evidence for other supplements derives from mechanistic reasoning, related-condition trials, or patient surveys with inherent reporting bias.
-    - The observation that “widely used” supplements dominate patient community recommendations does not constitute efficacy evidence; popular adoption may reflect hope, accessibility, and social transmission rather than therapeutic benefit.
-    - Combination protocols (e.g., CoQ10 + L-carnitine + D-ribose) are recommended based on complementary biochemical rationale, but potential interactions, optimal ratios, and combined efficacy have not been studied.
-    - Supplement quality, bioavailability, and dose-response relationships vary substantially between brands and formulations—factors not addressed by the general dosing ranges provided.
+  - Fewer than five supplements discussed here have been tested in randomized placebo-controlled trials specifically in ME/CFS—notably NADH @Forsyth1999NADH and CoQ10+NADH @CastroMarrero2021fatigue. Acetyl-L-carnitine has been studied in a randomized (open-label) ME/CFS trial @Vermeulen2004carnitine but without a placebo arm. Most evidence for other supplements derives from mechanistic reasoning, related-condition trials, or patient surveys with inherent reporting bias.
+  - The observation that “widely used” supplements dominate patient community recommendations does not constitute efficacy evidence; popular adoption may reflect hope, accessibility, and social transmission rather than therapeutic benefit.
+  - Combination protocols (e.g., CoQ10 + L-carnitine + D-ribose) are recommended based on complementary biochemical rationale, but potential interactions, optimal ratios, and combined efficacy have not been studied.
+  - Supplement quality, bioavailability, and dose-response relationships vary substantially between brands and formulations—factors not addressed by the general dosing ranges provided.
 
 ]
 
@@ -2194,27 +2194,7 @@ The BH4 convergent bottleneck hypothesis identifies tetrahydrobiopterin depletio
 
 *Clinical consideration:* If GCH1 rs841 homozygous, discuss sapropterin with physician for potentially addressing underlying cofactor deficiency.
 
-== Conclusion
-
-Supplements can play a supportive role in ME/CFS management, but expectations should be realistic:
-
-    - *No supplement cures ME/CFS*
-    - *Effects are typically modest*—10–20% symptom improvement is a good outcome
-    - *Response varies enormously* between individuals
-    - *Cost adds up*—prioritize based on evidence and your specific symptoms
-    - *Foundation first:* Electrolytes, magnesium, B vitamins, and vitamin D before exotic interventions
-
-The following supplements have the strongest mechanistic rationale and/or limited clinical evidence, listed in approximate order of evidence strength:
-
-    - Electrolytes (especially if orthostatic symptoms)
-    - NADH + CoQ10 combination (ME/CFS RCT evidence: Castro-Marrero et al.\ 207-patient trial @CastroMarrero2021fatigue)
-    - NAC (antioxidant, glutathione precursor; no ME/CFS-specific RCT)
-    - Magnesium (ubiquitous cofactor, often deficient; ME/CFS evidence is observational)
-    - NAD#super[+] precursors (emerging mechanistic rationale; no completed ME/CFS RCT)
-
-Work with a knowledgeable healthcare provider when possible, especially for higher-dose protocols or if taking multiple medications.
-
-=== Immunomodulatory Supplements for B Cell and Autoantibody Regulation
+== Immunomodulatory Supplements for B Cell and Autoantibody Regulation
 
 *Context.* Tissue-specific IgM autoantibody persistence in long COVID — driven by ongoing extrafollicular B cell activation @Tatai2026TSAutoantibodies — provides mechanistic rationale for supplements that modulate BCR signaling, NF-$kappa$B activation, and immune tolerance. None of the following supplements have been tested for autoantibody reduction in ME/CFS; evidence is from in vitro studies, animal models, and other autoimmune conditions.
 
@@ -2499,5 +2479,25 @@ If B vitamins work → a specific cofactor deficiency was rate-limiting. The dif
 *Level of action:* Partial root cause — if the deficiency is dietary/absorptive and supplementation normalizes levels, the cofactor deficit is corrected. If the deficiency is driven by increased consumption (oxidative stress consuming B6/BH4, inflammation consuming B3 for NAD+), supplementation compensates but does not address the consumer.
 
 *(Origin: medication-differential-analysis)*
+
+== Conclusion
+
+Supplements can play a supportive role in ME/CFS management, but expectations should be realistic:
+
+    - *No supplement cures ME/CFS*
+    - *Effects are typically modest*—10–20% symptom improvement is a good outcome
+    - *Response varies enormously* between individuals
+    - *Cost adds up*—prioritize based on evidence and your specific symptoms
+    - *Foundation first:* Electrolytes, magnesium, B vitamins, and vitamin D before exotic interventions
+
+The following supplements have the strongest mechanistic rationale and/or limited clinical evidence, listed in approximate order of evidence strength:
+
+    - Electrolytes (especially if orthostatic symptoms)
+    - NADH + CoQ10 combination (ME/CFS RCT evidence: Castro-Marrero et al.\ 207-patient trial @CastroMarrero2021fatigue)
+    - NAC (antioxidant, glutathione precursor; no ME/CFS-specific RCT)
+    - Magnesium (ubiquitous cofactor, often deficient; ME/CFS evidence is observational)
+    - NAD#super[+] precursors (emerging mechanistic rationale; no completed ME/CFS RCT)
+
+Work with a knowledgeable healthcare provider when possible, especially for higher-dose protocols or if taking multiple medications.
 
 #include "../ch25-brain-clearance-supplements/ch25-brain-clearance-supplements.typ"

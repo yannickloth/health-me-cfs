@@ -207,38 +207,6 @@ Medical education reform may not produce behavior change. The assumption that "t
 *Consequence:* Medical education reform should be pursued because it is a basic professional obligation — physicians should know about a disease affecting millions — not because it is demonstrably effective at changing outcomes. The evidence for harm (physicians who don't know about ME/CFS prescribe GET, dismiss PEM, delay diagnosis) is stronger than the evidence that education prevents harm. Severity applicability: all — education deficit affects all severity levels. (Origin: brainstorm)
 ] <lim:education-behavior-gap>
 
-== Synthesis: The Healthcare-System Failure Model
-
-#achievement(title: [For the Consulting Clinician — Practical Summary])[
-Reading this chapter, a physician may reasonably ask: "What should I actually *do* differently on Monday?" The following distillation is intended for the clinician who has 5 minutes, not the health-policy analyst who has an hour:
-
-1. *Suspect ME/CFS* when a patient presents with ≥3 months of disabling fatigue, post-exertional malaise (PEM — symptom worsening 12–72 hours after exertion, not just fatigue during activity), unrefreshing sleep, and cognitive dysfunction. ME/CFS is a positive clinical diagnosis under IOM 2015 and NICE 2021 criteria — not a diagnosis of exhaustive exclusion. Routine laboratory panels typically return normal results; normal labs + PEM = suspect ME/CFS.
-
-2. *Screen for PEM specifically.* Ask: "What happens if you do more than you can manage — not just during the activity, but the next day or two days later?" PEM is the cardinal feature. If the patient reports delayed worsening (not just exertion-related fatigue), do not recommend graded exercise.
-
-3. *Do not prescribe graded exercise therapy.* NICE 2021 (UK) and DEGAM 2022 (Germany) explicitly advise against GET. If exercise is appropriate, it should be patient-paced, PEM-aware, and individually calibrated — never escalated against symptom signals.
-
-4. *For disability documentation:* Standard single-day functional assessments do not capture PEM and systematically underestimate disability. Document post-exertional symptom exacerbation (not just exertional tolerance), note the temporal pattern (worsening peaking 24–72 hours after activity), and consider recommending a 2-day CPET for objective evidence if the patient can tolerate it. In the UK, specify how PEM affects each PIP descriptor. In the US, SSA SSR 14-1p governs immune-system disorders; document functional impact across multiple systems.
-
-5. *What helps:* Energy management/pacing, symptom-directed pharmacotherapy (sleep, pain, orthostatic intolerance), comorbidity management, and disability support are the current evidence-based core. Refer to #link(<part:treatment>)[Part III] for detailed treatment chapters; the U.S. ME/CFS Clinician Coalition consensus recommendations @Bateman2021Mayo constitute the most comprehensive single-source clinical guidance.
-
-6. *Escalate when the physician doesn't believe the patient.* If a colleague dismisses PEM, recommends GET, or attributes ME/CFS to deconditioning, patients can be directed to the NICE 2021 guideline (NG206) summary page or the 2015 IOM report. The evidence base supports biological dysfunction — the psychosomatic model is contradicted by four decades of research documented in this paper.
-
-This chapter's documentation of healthcare-system failure is not intended to produce therapeutic nihilism. It is intended to show that the clinician who recognizes ME/CFS, avoids iatrogenic harm from misapplied exercise recommendations, and provides symptom-directed support is already delivering care superior to the institutional baseline. (Origin: brainstorm — clinician-actionability gap addressed per adversarial review.)
-
-*Consequence:* The single most impactful thing a clinician can do for an ME/CFS patient is believe them, diagnose them, and protect them from interventions that worsen the disease. This does not require a specialist clinic or advanced training — it requires knowing what PEM is and not prescribing GET.
-] <ach:clinician-practical-summary>
-
-#synthesis(title: [Four Interlocking Failures])[
-This chapter documents four system-level failures that together constitute a structural model of how healthcare systems fail ME/CFS patients: (1) *Upstream failure* — medical education deficits mean most physicians cannot recognize the disease, producing the 91% undiagnosed figure and multi-year diagnostic delays; (2) *Midstream failure* — clinical guideline inconsistencies across countries and the unmonitored implementation of even the best guidelines (NICE 2021) mean that patients who are diagnosed may still receive harmful recommendations (GET, exercise escalation); (3) *Downstream failure* — disability determination systems are structurally mismatched to ME/CFS pathophysiology — PEM makes single-day functional assessments invalid — and would be expected to systematically disadvantage ME/CFS claimants even though denial rates have not been measured specifically for this disease (@lim:disability-gaps); (4) *Feedback failure* — healthcare invalidation causes patients to avoid the healthcare system, removing the feedback signal (worsened outcomes, patient complaints, litigation) that would drive institutional correction.
-
-Each failure reinforces the others. Education deficits cause diagnostic delay, which extends the period during which patients receive inappropriate treatment, which worsens outcomes, which increases disability, which feeds into a disability system that systematically denies claims, which deepens poverty and healthcare avoidance, which removes patients from the system that could document the failure. The model is self-stabilizing: the system fails in ways that make the failure invisible to the system.
-
-The strongest-supported claims (@ach:invalidation-model, @cf:diagnostic-disparities, @ach:guideline-convergence) document the mechanisms. The largest gaps (@oq:specialist-clinic-evidence, @lim:evidence-type) document what we do not know — whether any intervention closes the failure loop. The reform implication is that evidence-based reform must break the feedback-stabilizing architecture, not merely treat its components: education reform + guideline enforcement + disability system redesign + anti-invalidation interventions must be deployed together, because no single component can hold the system in a corrected state while the others pull it back toward failure.
-
-*Consequence:* The healthcare-system failure model explains why piecemeal reform fails. Fixing guideline content (NICE 2021) without fixing guideline enforcement allows physicians to ignore it. Fixing education without fixing disability determination produces well-informed patients whose disability claims are still denied. The failures are interlocking; the reforms must be too.
-] <syn:healthcare-systems-model>
-
 == Testable Hypotheses and Research Designs
 
 The eight ideas below extend the chapter's empirical foundation with falsifiable predictions and proposed policy experiments. These are not evidence — the evidence is presented above. These are the roadmap for testing whether healthcare reform actually works.
@@ -294,3 +262,35 @@ Standard healthcare delivery is PEM-generating: travel, waiting room overload, c
 
 *Consequence:* If we design healthcare visits around what ME/CFS does to patients — instead of around clinic-schedule convenience — do patients get better? The answer determines whether PEM-aware delivery is a patient preference or a clinical effectiveness lever. (Origin: brainstorm)
 ] <oq:pem-proof-trial>
+
+== Synthesis: The Healthcare-System Failure Model
+
+#achievement(title: [For the Consulting Clinician — Practical Summary])[
+Reading this chapter, a physician may reasonably ask: "What should I actually *do* differently on Monday?" The following distillation is intended for the clinician who has 5 minutes, not the health-policy analyst who has an hour:
+
+1. *Suspect ME/CFS* when a patient presents with ≥3 months of disabling fatigue, post-exertional malaise (PEM — symptom worsening 12–72 hours after exertion, not just fatigue during activity), unrefreshing sleep, and cognitive dysfunction. ME/CFS is a positive clinical diagnosis under IOM 2015 and NICE 2021 criteria — not a diagnosis of exhaustive exclusion. Routine laboratory panels typically return normal results; normal labs + PEM = suspect ME/CFS.
+
+2. *Screen for PEM specifically.* Ask: "What happens if you do more than you can manage — not just during the activity, but the next day or two days later?" PEM is the cardinal feature. If the patient reports delayed worsening (not just exertion-related fatigue), do not recommend graded exercise.
+
+3. *Do not prescribe graded exercise therapy.* NICE 2021 (UK) and DEGAM 2022 (Germany) explicitly advise against GET. If exercise is appropriate, it should be patient-paced, PEM-aware, and individually calibrated — never escalated against symptom signals.
+
+4. *For disability documentation:* Standard single-day functional assessments do not capture PEM and systematically underestimate disability. Document post-exertional symptom exacerbation (not just exertional tolerance), note the temporal pattern (worsening peaking 24–72 hours after activity), and consider recommending a 2-day CPET for objective evidence if the patient can tolerate it. In the UK, specify how PEM affects each PIP descriptor. In the US, SSA SSR 14-1p governs immune-system disorders; document functional impact across multiple systems.
+
+5. *What helps:* Energy management/pacing, symptom-directed pharmacotherapy (sleep, pain, orthostatic intolerance), comorbidity management, and disability support are the current evidence-based core. Refer to #link(<part:treatment>)[Part III] for detailed treatment chapters; the U.S. ME/CFS Clinician Coalition consensus recommendations @Bateman2021Mayo constitute the most comprehensive single-source clinical guidance.
+
+6. *Escalate when the physician doesn't believe the patient.* If a colleague dismisses PEM, recommends GET, or attributes ME/CFS to deconditioning, patients can be directed to the NICE 2021 guideline (NG206) summary page or the 2015 IOM report. The evidence base supports biological dysfunction — the psychosomatic model is contradicted by four decades of research documented in this paper.
+
+This chapter's documentation of healthcare-system failure is not intended to produce therapeutic nihilism. It is intended to show that the clinician who recognizes ME/CFS, avoids iatrogenic harm from misapplied exercise recommendations, and provides symptom-directed support is already delivering care superior to the institutional baseline. (Origin: brainstorm — clinician-actionability gap addressed per adversarial review.)
+
+*Consequence:* The single most impactful thing a clinician can do for an ME/CFS patient is believe them, diagnose them, and protect them from interventions that worsen the disease. This does not require a specialist clinic or advanced training — it requires knowing what PEM is and not prescribing GET.
+] <ach:clinician-practical-summary>
+
+#synthesis(title: [Four Interlocking Failures])[
+This chapter documents four system-level failures that together constitute a structural model of how healthcare systems fail ME/CFS patients: (1) *Upstream failure* — medical education deficits mean most physicians cannot recognize the disease, producing the 91% undiagnosed figure and multi-year diagnostic delays; (2) *Midstream failure* — clinical guideline inconsistencies across countries and the unmonitored implementation of even the best guidelines (NICE 2021) mean that patients who are diagnosed may still receive harmful recommendations (GET, exercise escalation); (3) *Downstream failure* — disability determination systems are structurally mismatched to ME/CFS pathophysiology — PEM makes single-day functional assessments invalid — and would be expected to systematically disadvantage ME/CFS claimants even though denial rates have not been measured specifically for this disease (@lim:disability-gaps); (4) *Feedback failure* — healthcare invalidation causes patients to avoid the healthcare system, removing the feedback signal (worsened outcomes, patient complaints, litigation) that would drive institutional correction.
+
+Each failure reinforces the others. Education deficits cause diagnostic delay, which extends the period during which patients receive inappropriate treatment, which worsens outcomes, which increases disability, which feeds into a disability system that systematically denies claims, which deepens poverty and healthcare avoidance, which removes patients from the system that could document the failure. The model is self-stabilizing: the system fails in ways that make the failure invisible to the system.
+
+The strongest-supported claims (@ach:invalidation-model, @cf:diagnostic-disparities, @ach:guideline-convergence) document the mechanisms. The largest gaps (@oq:specialist-clinic-evidence, @lim:evidence-type) document what we do not know — whether any intervention closes the failure loop. The reform implication is that evidence-based reform must break the feedback-stabilizing architecture, not merely treat its components: education reform + guideline enforcement + disability system redesign + anti-invalidation interventions must be deployed together, because no single component can hold the system in a corrected state while the others pull it back toward failure.
+
+*Consequence:* The healthcare-system failure model explains why piecemeal reform fails. Fixing guideline content (NICE 2021) without fixing guideline enforcement allows physicians to ignore it. Fixing education without fixing disability determination produces well-informed patients whose disability claims are still denied. The failures are interlocking; the reforms must be too.
+] <syn:healthcare-systems-model>
