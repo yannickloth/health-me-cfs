@@ -12,6 +12,7 @@ final class RegexConversion implements TypstToQmd {
     @Override
     public ConversionResult convert(String src, Path outDir) throws IOException {
         var xref = new ArrayList<String[]>();
+        var warnings = new ArrayList<String>();
 
         src = convertFindingsGroup(src);
 
@@ -276,8 +277,7 @@ final class RegexConversion implements TypstToQmd {
                 continue;
             }
             if (stripped.matches("^={3,}\\s+.+")) {
-                var lvl = headingLevel(stripped);
-                var h = "#".repeat(lvl) + stripped.substring(countLeadingEquals(stripped));
+                var h = renderHeading(stripped, warnings);
                 if (inPreamble)
                     preamble.add(h);
                 else
@@ -433,6 +433,14 @@ final class RegexConversion implements TypstToQmd {
                     int eqCount = countLeadingEquals(stripped);
                     int level = headingLevel(stripped);
                     var headingText = stripHeadingMath(stripped.substring(eqCount));
+                    if (level > 6) {
+                        // Over-deep heading: not representable as markdown. Render
+                        // as a bold level-tagged lead-in and flag it, then fall
+                        // through so the label/anchor passes still apply the
+                        // heading text/attrs on the plain (non-#) line below.
+                        raw = renderHeading(stripped, warnings);
+                        lastCalloutTitle = headingText.strip();
+                    } else {
                     var inlineLabelPattern = Pattern.compile("\\s*<([a-zA-Z][\\w:\\.-]*)>\\s*");
                     var inlineMatcher = inlineLabelPattern.matcher(headingText);
                     var nonHeadingAnchors = new StringBuilder();
@@ -466,6 +474,7 @@ final class RegexConversion implements TypstToQmd {
                     }
                     if (nonHeadingAnchors.length() > 0) sb.append(nonHeadingAnchors);
                     raw = "#".repeat(level) + headingText + headingAttrs;
+                    }
                     if (pendingLabel != null) {
                         raw = raw + " " + pendingLabel;
                         pendingLabel = null;
@@ -589,7 +598,7 @@ final class RegexConversion implements TypstToQmd {
             secNum++;
         }
 
-        return new ConversionResult(xref, secNum - 1);
+        return new ConversionResult(xref, secNum - 1, warnings);
     }
 
     // Count leading '=' in a Typst heading line.
@@ -606,13 +615,33 @@ final class RegexConversion implements TypstToQmd {
     // '====' -> '###', '=====' -> '####', etc. The max(2, ...) floor keeps '==='
     // below the page title even in files that omit an explicit '==' section.
     //
-    // Quarto/CommonMark only supports six heading levels (H1-H6), so the depth
-    // is capped at 6. Source headings deeper than '======' (6 '=') would map to
-    // H7+ and are clamped to H6. In practice the paper's canonical hierarchy
-    // stops at '=====' (5 '=' -> H4); if a 7th level is ever needed, flatten the
-    // structure rather than rely on markdown to render beyond H6.
+    // Quarto/CommonMark only supports six heading levels (H1-H6), so any heading
+    // whose computed level would exceed 6 (i.e. k leading '=' with k >= 8) cannot
+    // be a markdown heading. The paper's canonical hierarchy stops at '===='
+    // (content bodies) and in practice nothing exceeds '======'; a deeper heading
+    // indicates over-nesting and should be flattened at the source.
     int headingLevel(String s) {
-        return Math.max(2, Math.min(6, countLeadingEquals(s) - 1));
+        return Math.max(2, countLeadingEquals(s) - 1);
+    }
+
+    // Render a Typst '='-heading line to its final web form. Levels within the
+    // markdown range (<=6) become '#...' markdown headings. An over-deep heading
+    // (level >= 7) cannot be a markdown heading, so it is rendered as a distinct
+    // bold, level-tagged lead-in -- a visible demarcation artifact rather than a
+    // silent clamp -- and a build warning is recorded so the over-nesting is
+    // flagged for the author to fix at the source.
+    String renderHeading(String stripped, List<String> warnings) {
+        var level = headingLevel(stripped);
+        var body = stripHeadingMath(stripped.substring(countLeadingEquals(stripped)));
+        if (level <= 6) {
+            return "#".repeat(level) + body;
+        }
+        if (warnings != null) {
+            var labelStripped = body.strip().replaceAll("\\s*<[a-zA-Z][\\w:\\.-]*>\\s*$", "");
+            warnings.add("heading deeper than H6 (level H" + level + "): " + labelStripped +
+                " -- rendered as a bold lead-in; flatten the structure at the source");
+        }
+        return "**Level-" + level + ":** " + body.strip();
     }
 
     // ---- All helper methods from ConvertAndSplit.java, verbatim ----

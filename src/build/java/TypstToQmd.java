@@ -5,7 +5,8 @@ import java.util.*;
 sealed interface TypstToQmd permits RegexConversion, AstConversion {
     record ConversionResult(
         List<String[]> xrefs,
-        int sectionCount
+        int sectionCount,
+        List<String> warnings
     ) {}
 
     ConversionResult convert(String typstSource, Path outputDir) throws IOException;

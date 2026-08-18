@@ -186,6 +186,7 @@ void main(String[] args) throws IOException, InterruptedException {
 
     var futures = new ArrayList<Future<TypstToQmd.ConversionResult>>();
     var errors = new ConcurrentLinkedQueue<String>();
+    var warningsQueue = new ConcurrentLinkedQueue<String>();
     for (var task : tasks) {
         futures.add(executor.submit(() -> {
             try {
@@ -195,6 +196,9 @@ void main(String[] args) throws IOException, InterruptedException {
                     globalXrefs.putIfAbsent(entry[0], entry);
                 }
                 totalSections.addAndGet(result.sectionCount());
+                for (var w : result.warnings()) {
+                    warningsQueue.add(task.chName() + ": " + w);
+                }
                 int done = completed.incrementAndGet();
                 System.out.print("\r  " + done + "/" + tasks.size() + " chapters");
                 return result;
@@ -218,6 +222,13 @@ void main(String[] args) throws IOException, InterruptedException {
         System.err.println("ERRORS during conversion (" + errors.size() + "):");
         for (var e : errors) System.err.println("  " + e);
         System.exit(1);
+    }
+
+    if (!warningsQueue.isEmpty()) {
+        var sortedWarnings = new ArrayList<>(warningsQueue);
+        Collections.sort(sortedWarnings);
+        System.out.println("WARNINGS during conversion (" + sortedWarnings.size() + "):");
+        for (var w : sortedWarnings) System.out.println("  ! " + w);
     }
 
     System.out.println();

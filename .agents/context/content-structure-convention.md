@@ -33,8 +33,9 @@ Levels used per project:
 | subsubsection | `====` | `###` |
 |               | `=====` | `####` |
 |               | `======` | `#####` |
+|               | `=======` | `######` |
 
-Rule: markdown/Quarto caps headings at **6 levels** (`H1`–`H6`). Typst headings deeper than `======` (6 `=`) would map to `H7+` and are clamped to `H6` by the converter. Do not author content that needs a 7th level — flatten the structure instead. Actual depth is limited by the canonical hierarchy (part → chapter → section → subsection, i.e. `====` at most for content bodies).
+Rule: markdown/Quarto caps headings at **6 levels** (`H1`–`H6`). A Typst heading deeper than `=======` (7 `=`) would map to `H7+`, which markdown cannot render. The converter renders any such heading as a distinct **bold, level-tagged lead-in** (e.g. `**Level-7:** Title`) and emits a **build warning** — it does not clamp. Do not author content that needs a 7th level; flatten the structure instead. Actual depth is limited by the canonical hierarchy (part → chapter → section → subsection, i.e. `====` at most for content bodies).
 
 ---
 
