@@ -448,6 +448,15 @@ header.headroom--unpinned { transform: translateY(0%) !important; }
   /* Unlayered so these win over Bootstrap defaults by source order. Uses a
      cool pastel azure/violet palette consistent with the box-color system. */
 
+  /* On wide screens place "The Paper" and "Recent Blog Articles" side by
+     side; below the breakpoint each stays full-width and stacks. The two
+     columns sit in the home page .grid (12 columns), each spanning 6. */
+  @media (min-width: 1600px) {
+    .grid > .home-col {
+      grid-column: span 6;
+    }
+  }
+
   .part-accordion { margin-block: 1rem; }
   part-accordion { display: block; }
 
