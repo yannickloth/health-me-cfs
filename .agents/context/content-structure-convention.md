@@ -23,6 +23,19 @@ Levels used per project:
 - IVP book, ME/CFS: part → chapter → section → subsection
 - ai-patterns: part → chapter (pattern-sections replace sec/subsec)
 
+### Heading depth (Typst → Quarto web)
+
+| Typst heading | '=' count | Web level |
+|---------------|-----------|-----------|
+| chapter title | `=` | page H1 (YAML title) |
+| section       | `==` | page H1 (own page) |
+| subsection    | `===` | `##` |
+| subsubsection | `====` | `###` |
+|               | `=====` | `####` |
+|               | `======` | `#####` |
+
+Rule: markdown/Quarto caps headings at **6 levels** (`H1`–`H6`). Typst headings deeper than `======` (6 `=`) would map to `H7+` and are clamped to `H6` by the converter. Do not author content that needs a 7th level — flatten the structure instead. Actual depth is limited by the canonical hierarchy (part → chapter → section → subsection, i.e. `====` at most for content bodies).
+
 ---
 
 ## Aggregator Rule

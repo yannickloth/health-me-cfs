@@ -605,8 +605,14 @@ final class RegexConversion implements TypstToQmd {
     // heading of k leading '=' renders at '#' repeated max(2, k-1): '===' -> '##',
     // '====' -> '###', '=====' -> '####', etc. The max(2, ...) floor keeps '==='
     // below the page title even in files that omit an explicit '==' section.
+    //
+    // Quarto/CommonMark only supports six heading levels (H1-H6), so the depth
+    // is capped at 6. Source headings deeper than '======' (6 '=') would map to
+    // H7+ and are clamped to H6. In practice the paper's canonical hierarchy
+    // stops at '=====' (5 '=' -> H4); if a 7th level is ever needed, flatten the
+    // structure rather than rely on markdown to render beyond H6.
     int headingLevel(String s) {
-        return Math.max(2, countLeadingEquals(s) - 1);
+        return Math.max(2, Math.min(6, countLeadingEquals(s) - 1));
     }
 
     // ---- All helper methods from ConvertAndSplit.java, verbatim ----
