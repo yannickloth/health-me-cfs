@@ -12,7 +12,7 @@
 **Duration:** Full day (most of Friday)
 **Exertion Type:** Prolonged upright exertion with orthostatic stress, sensory overload (crowds, noise), outdoor heat/weather exposure
 **Medication:** Aripiprazole (LDA) **0.5 mg only** (usual dose: 1 mg). Intentional dose reduction per Geneviève's concern about "virage obsessionnel."
-**Other medications (unchanged):** LDN 4 mg, Rupatadine 20-30 mg, Famotidine 20 mg, Montelukast 10 mg, Mestinon 3×1
+**Other medications (unchanged):** LDN 4 mg, Rupatadine 20-30 mg, Famotidine 20 mg, Montelukast 10 mg, ~~Mestinon 3×1~~ *(CORRECTION 2026-08-19: Mestinon was actually STOPPED end of June 2026 for excess gut motility; listing it here as current on 2026-07-24 is an error in this record.)*
 
 ---
 

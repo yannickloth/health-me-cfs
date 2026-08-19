@@ -44,12 +44,11 @@ medications:
     notes: long-standing; precedes LDA
 
   - name: Pyridostigmine (Mestinon)
-    current_dose: 3×1 pill per day
-    frequency: three times daily
-    timing: morning, midday, evening
-    recent_change: reduced from 3×3 pills per day to 3×1 pill per day
-    change_date: 2026-05-22
-    notes: Significant dose reduction
+    current_dose: 1 pill per day
+    frequency: once daily
+    timing: ~
+    status: "RESTARTED 2026-08-19 — time-boxed low-dose retrial (1 pill/day) to test vascular benefit without the excess gut motility that forced the June stop. Patient self-initiated. Monitor: forearm vascular pain / POTS benefit vs GI-motility side effect."
+    change_date: 2026-08-19
 
   - name: Ritalin MR (methylphenidate)
     current_dose: MR 10mg
@@ -72,7 +71,7 @@ supplements:
 
 notes: |
   - LDN STOPPED 2026-08-02 (no effectiveness at 4mg; lower-dose retrial under consideration)
+  - Mestinon STOPPED end of June 2026 (≈2026-06-30) for excess gut motility, then RESTARTED 2026-08-19 at 1 pill/day (time-boxed low-dose trial; vascular benefit vs GI side-effect test)
   - LDN dose increased from 3.5mg to 4mg on 2026-05-22
-  - Mestinon significantly reduced from 3×3 pills/day to 3×1 pill/day on 2026-05-22
   - Ritalin MR dose reduced from MR 30mg to MR 10mg on 2026-05-22 (MR 30mg too strong, induced PEM)
   - Stimulants (Ritalin MR, Modafinil) used intermittently based on symptom need

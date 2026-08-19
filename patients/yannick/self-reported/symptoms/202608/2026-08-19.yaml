@@ -1,0 +1,169 @@
+date: 2026-08-19
+
+sleep:
+  previous_night:
+    date: 2026-08-18
+    quality: good
+    notes: >
+      >8h sleep. Woke naturally. Does NOT feel tired or sleepy on waking.
+      First documented restored-length night after ~4 weeks of sleep debt
+      (late bedtime ~3:00, ~4.5-6h/night). Tests the sleep-restoration
+      hypothesis for the diffuse myalgia. Result: muscle pain REMAINS this
+      morning despite the good night.
+    duration_hours: ">8"
+    woke_naturally: true
+    feeling_on_wake: "not tired, not sleepy"
+    source: patient_report
+    disruption_cause: ~
+
+medications_supplements:
+  prescribed_medications:
+    - "Aripiprazole (LDA) 1mg/day active"
+    - "Rupatadine, famotidine, montelukast (mast cell) active"
+    - "Mestinon RESTARTED 2026-08-19 (today) at 1 pill/day — time-boxed low-dose retrial; test vascular benefit vs gut-motility side effect"
+  supplements: ~
+  notes: "CORRECTION 2026-08-19: Mestinon restarted today at 1 pill/day (was stopped end June for gut motility). Retrial outcome measure: forearm vascular pain/POTS benefit without unacceptable GI motility."
+
+symptoms:
+  fatigue:
+    severity: low
+    notes: "No tiredness/sleepiness on waking after >8h sleep."
+  muscle_pain:
+    severity: present
+    location: ["forearms / avant-bras", "back of thighs (posterior)"]
+    character: "vascular — like amortir la chute (landing on hands) in Judo; impact/compressive/engorged character"
+    positional_context: "present while sitting at the computer"
+    trigger: "seems associated with sitting at the computer; recurring for months"
+    chronicity: "multiple days for months now (not acute)"
+    symmetry: "bilateral — both sides hurt"
+    notes: |
+      Persistent pain this morning, located essentially in the FOREARMS with
+      some on the BACKS OF THE THIGHS, present WHILE SITTING at the computer.
+      Character is VASCULAR (the sensation felt when absorbing a fall on the
+      hands in Judo) — NOT the diffuse 'rigid after intense training' myalgia,
+      and NOT a cramp. Patient also reports an ongoing diffuse RIGIDITY
+      sensation (stiffness like after intense training), but the ACUTE pain
+      present now is vascular-character.
+      Positional character (sitting, forearms dependent; back of thighs
+      compressed against seat) is a strong discriminator favoring
+      VASCULAR/ORTHOSTATIC or COMPRESSIVE pooling over muscle/tissue cause.
+      CHRONIC (months, not days) and BILATERAL/symmetric — argues against a
+      local/mechanical cause (trauma or one-sided compression would be
+      asymmetric) and toward a systemic, symmetric process expressed in
+      dependent limbs when seated (vascular/orthostatic pooling on a
+      dysautonomia baseline; consistent with β2-adrenergic/M3 GPCR axis in
+      notes/gpcr-muscle-pain.md).
+      This is a THIRD pain component distinct from (1) diffuse sleep-linked
+      myalgia and (2) spontaneous cramps.
+    rigid_sensation_present: true
+  muscle_cramp:
+    severity: ~
+    notes: "Not the focus this morning; no new cramp reported. Vascular forearm pain is distinct from the cramp layer."
+  overall:
+    severity: ~
+    notes: "Good restored sleep (test case for sleep-myalgia link) but forearm vascular pain + rigidity persist."
+
+overall_wellbeing: ~
+
+mestinon_trial_tracking:
+  active: true
+  started: 2026-08-19
+  dose: "1 pill per day"
+  axis_vascular:
+    question: "Did forearm vascular pain / POTS/dizziness improve today?"
+    value: ~
+    notes: "Copy this block to each daily YAML while on the 1-pill/day trial."
+  axis_gi:
+    question: "Any increase in gut motility / GI discomfort?"
+    value: ~
+    notes: "If GI returns unacceptably, stop trial and revert (Mestinon GI-intolerable)."
+  decision_criteria: |
+    Success = vascular/POTS benefit WITHOUT unacceptable gut motility.
+    Failure = GI side effect returns to the level that forced the June stop.
+
+activity:
+  activity_level: ~
+  unable_to_rest: false
+  notes: ~
+
+pem_tracking:
+  trigger_event: "Garden work 2026-08-17 (see 2026-08-18 log)"
+  pem_day: ~
+  status: ~
+  notes: "Monitor for PEM following garden-work + cramp day (2026-08-18/19 per prior log)."
+
+pem_risk:
+  level: ~
+  rationale: "Garden-work exertion 2026-08-17 + night cramp; monitor PEM onset 2026-08-18-19."
+  expected_onset: ~
+  monitoring: "Track fatigue/PEM 2026-08-19."
+
+hypotheses:
+  - id: sleep_restoration_not_single_night
+    text: >
+      One restored night (>8h, natural waking, no sleepiness) did NOT clear
+      the muscle pain. This does NOT refute the sleep-link hypothesis: the
+      predicted easing was for 1-2 weeks of restored sleep after weeks of
+      cumulative debt on an alpha-intrusion baseline. A single good night
+      cannot reverse accumulated load. Test window still open.
+    status: patient_hypothesis
+    falsifiable: true
+    test: "Reassess after 1-2 weeks of sustained restored sleep. If diffuse pain eases with sustained sleep restoration, the sleep link is confirmed; if it persists after 1-2 weeks of restored sleep, the sleep attribution is weakened."
+  - id: forearm_vascular_not_sleep_layer
+    text: >
+      The forearm pain (vascular 'amortir la chute' character) is a THIRD,
+      distinct pain component — autonomic/vascular or positional, not the
+      diffuse sleep-linked myalgia and not the cramp layer. It is therefore
+      NOT testing the sleep-restoration hypothesis; a good night was never
+      predicted to resolve vascular/orthostatic forearm pain.
+    status: patient_hypothesis
+    falsifiable: true
+    test: "Position test (passive, no provocation): if forearm pain eases when arms are raised above heart level, supports vascular/orthostatic pooling origin (β2-adrenergic/M3 autonomic axis per notes/gpcr-muscle-pain.md); if position-independent, favors tissue/other mechanism."
+  - id: forearm_back_thigh_positional_vascular
+    text: >
+      Pain present essentially in the forearms + back of thighs WHILE SITTING
+      at the computer, vascular-character, CHRONIC (months) and BILATERAL,
+      is consistent with vascular/orthostatic or compressive pooling
+      (dependent forearms; compressed hamstrings/popliteal region at seat
+      edge) rather than muscle damage or the diffuse myalgia. Bilateral +
+      symmetric + chronic argues against local/traumatic cause. Fits the
+      autonomic/vascular axis (β2-adrenergic/M3 GPCR dysregulation) already
+      documented in notes/gpcr-muscle-pain.md.
+    status: patient_hypothesis
+    falsifiable: true
+    test: "If pain eases on standing / walking / raising arms / changing posture (restoring venous return), confirms vascular/orthostatic or compressive pooling. If position-independent, revise toward a non-vascular mechanism."
+  - id: layer_relatedness_unknown
+    text: >
+      Whether the forearm vascular pain shares one driver with the diffuse
+      myalgia and the spontaneous cramps is UNRESOLVED. The three components
+      have distinct mechanisms (sleep-linked microglial; neurogenic/
+      excitability; autonomic/vascular) but may share a common autonomic/
+      vascular or energy substrate. Relatedness is an open question pending
+      prospective logging and the position test.
+    status: patient_hypothesis
+    falsifiable: true
+    test: "Prospective daily logging of each component (location, trigger, position, character, sleep) + the passive position test would reveal whether the forearm pain tracks posture (vascular) independently of the other layers, or co-varies with sleep/exertion/cramps (shared driver)."
+  - id: mestinon_response_supports_vascular_axis
+    text: >
+      Patient reports Mestinon (pyridostigmine) was "probably good" for the
+      vascular forearm pain but caused excessive gut motility (M3
+      muscarinic-mediated GI side effect), driving its dose reduction
+      (3×3→3×1/day, 2026-05-22). Mestinon's benefit via ACh→M3 vasodilation
+      is consistent with the forearm pain being autonomic/vascular
+      (β2-adrenergic/M3 GPCR axis, notes/gpcr-muscle-pain.md). This is a
+      response-to-intervention signal supporting the vascular read.
+    status: patient_hypothesis
+    falsifiable: true
+    test: "If a future (physician-directed) Mestinon reintroduction at a tolerated dose reproduces forearm-pain relief WITHOUT unacceptable GI motility, confirms the M3-vascular axis. NOT to be self-experimented; recovery-priority constraint. Documented as evidence for Dr. Nicolas discussion."
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: ~
+  temperature_max_c: ~
+  temperature_min_c: ~
+  humidity_pct: ~
+  pressure_msl_hpa: ~
+  precipitation_mm: ~
+  wind_max_kmh: ~
+  conditions: ~
+  source: ~

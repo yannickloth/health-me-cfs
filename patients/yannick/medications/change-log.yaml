@@ -1,6 +1,25 @@
 # Medication Change Log
 
 changes:
+  - date: 2026-08-19
+    medication: "Pyridostigmine (Mestinon)"
+    action: restart / time-boxed trial
+    previous_dose: none (stopped 2026-06-30)
+    new_dose: "1 pill per day"
+    rationale: >
+      Retrial at low dose (1 pill/day) to test whether a small dosage gives
+      the vascular/autonomic benefit (which helped the forearm vascular pain
+      when on Mestinon) WITHOUT the excess gut motility that forced the stop
+      end of June. Patient self-initiated trial (2026-08-19).
+    notes: >
+      TIME-BOXED trial — patient will run for "some days" and observe.
+      Outcome measure: does 1 pill/day (a) reduce forearm vascular pain /
+      POTS symptoms, and (b) avoid unacceptable gut motility?
+      RECOVERY-PRIORITY FRAMING: this is a patient-initiated observational
+      retrial at a previously-tolerated low dose, NOT an experimental
+      escalation. Still: flag to Dr. Nicolas. If GI-motility returns
+      unacceptably, stop and revert to the prior decision (Mestinon
+      GI-intolerable). Monitor both axes: vascular benefit vs GI side effect.
   - date: 2026-08-15
     medication: "Aripiprazole (low-dose, LDA)"
     action: observation
@@ -214,7 +233,33 @@ changes:
     previous_dose: "3×3 pills per day"
     new_dose: "3×1 pill per day"
     rationale: clinical decision (per patient/provider discussion)
-    notes: significant dose reduction; monitor for autonomic symptom changes
+    notes: |
+      significant dose reduction; monitor for autonomic symptom changes.
+      PATIENT ADDED 2026-08-19: Mestinon was "probably good" (helped the
+      vascular/autonomic forearm pain) but GUT MOTILITY was too high
+      (M3 muscarinic-mediated GI side effect) — a driver of the dose
+      reduction. Supports the autonomic/M3-vascular axis for the forearm
+      pain (response to ACh/M3 vasodilation). Do NOT restart/escalate
+      without physician direction (recovery-priority constraint).
+
+  - date: 2026-06-30
+    medication: "Pyridostigmine (Mestinon)"
+    action: stop
+    previous_dose: "3×1 pill per day"
+    new_dose: none
+    rationale: persistent excess gut motility (M3 muscarinic-mediated GI side effect) at the reduced dose
+    notes: |
+      PATIENT-REPORTED 2026-08-19: Mestinon STOPPED end of June 2026 (≈2026-06-30)
+      because of GUT MOTILITY, not merely reduced. This is a substantive
+      correction: prior records (regimen current-regimen.yaml + this change-log)
+      still listed Mestinon as ACTIVE at 3×1/day. Actual status = DISCONTINUED
+      since end June.
+      NOTE: patient reported earlier (same day) that Mestinon was "probably
+      good" for the vascular/autonomic forearm pain — so the stop is on
+      GI-tolerability grounds, not lack of effect. The M3-GI side effect vs
+      M3-vascular benefit tradeoff is the open question for Dr. Nicolas.
+      Do NOT restart without physician direction (recovery-priority
+      constraint).
 
   - date: 2026-05-22
     medication: "Ritalin MR (methylphenidate)"

@@ -86,7 +86,7 @@ La synergie mastocytes/microglie est probablement importante. Le protocole masto
 
 1. **Gabapentine 100-300 mg au coucher** — cible la dysrythmie thalamo-corticale (réduit l'excitabilité thalamique), pourrait diminuer l'alpha-intrusion et donc indirectement les acouphènes. Traite aussi les mouvements périodiques (13,3/h à la PSG de 2019). Ne supprime pas le N3.
 
-2. **Optimiser le Mestinon** — l'hypoperfusion cérébrale (composante vasculaire des acouphènes) pourrait bénéficier d'une dose plus élevée de pyridostigmine. La dose actuelle (3×1/jour) est le minimum de la fourchette thérapeutique.
+2. **Optimiser le Mestinon** — l'hypoperfusion cérébrale (composante vasculaire des acouphènes) pourrait bénéficier d'une dose plus élevée de pyridostigmine. La dose actuelle (3×1/jour) est le minimum de la fourchette thérapeutique. *(MOOT 2026-08-19 : Mestinon a été ARRÊTÉ fin juin 2026 pour hypermotilité intestinale ; l'option "optimiser la dose" n'est plus applicable sans réintroduction, qui est une décision médicale.)*
 
 3. **Daridorexant (Quviviq) 25 mg** — antagoniste de l'orexine, réduit les éveils nocturnes sans supprimer le N3. Pourrait améliorer la qualité globale du sommeil et donc la recalibration thalamique nocturne.
 
