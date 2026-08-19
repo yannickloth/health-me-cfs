@@ -1,0 +1,103 @@
+---
+title: "The Immune-Mediated Subset of Autism: When the Immune System Shapes the Brain"
+description: "A distinct line of research suggests a subset of autism may be immune-mediated — driven by maternal antibodies during development or by infection-triggered anti-neuronal responses. This article examines the evidence, the treatment implication, and what remains unproven."
+author: "Yannick Loth"
+date: "2026-08-21"
+categories: [Neurodivergence, Immunology, Pathophysiology]
+---
+
+Not all autism may have the same cause.
+
+Part 1 of this series examined autism as a brain-energy disorder — a developmental state in which the brain runs on a thin fuel supply. This part examines a fundamentally different idea: that a **subset** of autism is driven by the immune system, either before birth or after infection.
+
+The two ideas are not in competition. They describe different patients, and telling them apart matters enormously for treatment.
+
+The series separates **what we know** from **what our research adds**. Here, the established findings are the maternal anti-fetal-brain antibody evidence [@Braunschweig2013MATAbs @Croen2008MaternalAbASD @Meltzer2017ImmuneASD] and the IVIG stratification contrast [@Connery2018IVIGautism @Plioplys1998IVIGautism]. What our research adds is the neuroimmune-encephalopathy-spectrum reading — that antibody-targeted circuits, not diagnosis labels, may define the treatable subset — which is a registered speculation, not an established finding.
+
+---
+
+## The prenatal route: maternal antibodies
+
+During pregnancy, maternal antibodies cross the placenta. In most cases this is protective. But a body of research suggests that in a subset of autism, maternal antibodies may target **fetal brain proteins**.
+
+The striking number: approximately **23% of mothers of autistic children carry anti-fetal-brain autoantibodies** targeting specific neuronal proteins [@Braunschweig2013MATAbs @Croen2008MaternalAbASD @Meltzer2017ImmuneASD]. These antibodies are associated with increased autism risk.
+
+The honest caveats are substantial:
+- The causal pathway — from maternal antibody to the child's diagnosis — has **not been proven**.
+- The "attributable fraction" depends on assumptions about antibody pathogenicity that remain untested in prospective cohorts.
+- This defines a **distinct immune-associated subgroup**, but it is not yet clinically actionable.
+
+Critically, there is **no current clinical application**: no prenatal screening for anti-fetal-brain antibodies is recommended, and immunomodulation during pregnancy for this indication is untested and potentially harmful.
+
+---
+
+## The postnatal route: infection-triggered antibodies
+
+The prenatal pattern has a postnatal equivalent. Infection can trigger anti-neuronal antibodies that produce autism-like symptoms in previously neurotypical children — structurally analogous to PANDAS/PANS (Pediatric Acute-onset Neuropsychiatric Syndrome), differing only in the developmental window and the circuits targeted [@Endres2022AutoimmuneOCD @Whiteley2021AutoimmuneASD].
+
+This is not fringe medicine. It is the same disease logic that underlies PANDAS/PANS: infection → immune response → anti-neuronal antibodies → circuit-specific neuropsychiatric phenotype [@Swedo1998PANDAS50 @Kirvan2003MimicryChorea @Kirvan2006CaMKII]. The leading mechanism is molecular mimicry — antibodies formed against a bacterium also recognizing neuronal proteins in the brain.
+
+---
+
+## The evidence for an immune subset within autism
+
+Two findings sharpen the case that an immune-mediated subset exists *within* the autism label:
+
+**1. Anti-neuronal antibodies are elevated in a fraction of autism — regardless of regression status.** About **20% of ASD patients carry elevated anti-neuronal antibodies**, and this does not neatly align with the regression phenotype [@Aslan2021AntiNeuronalASD]. The immune subset does not respect the syndromic boundary between regressive and classic autism.
+
+**2. Immunotherapy response depends on antibody stratification, not the diagnosis.** The clearest proof comes from a pair of IVIG (intravenous immunoglobulin) studies in autism. In one, immunotherapy produced a **dramatic response in antibody-stratified patients**; in the other, the same treatment was **null in unselected autism** [@Connery2018IVIGautism @Plioplys1998IVIGautism]. When recruitment uses the diagnosis alone, the trial is diluted by patients who are not immune-mediated. When it uses antibody profiling, the intervention works in the subset it targets.
+
+This contrast is the single most instructive finding in the field: **the therapy is not "effective" or "ineffective" for autism — it is effective for the immune-mediated subset.**
+
+---
+
+## The unifying framework: a neuroimmune encephalopathy spectrum
+
+Taken together, these lines point to a broader proposal from our research — the **Neuroimmune Encephalopathy Spectrum (NES)** — a single disease class defined by an immune trigger, anti-neuronal antibodies targeting specific circuits, and a clinical phenotype determined by *which circuits are hit*, not by the trigger. It is a registered research speculation, not an established finding.
+
+Under this framework:
+- Basal-ganglia-directed antibodies → OCD, tics, behavioral regression (PANDAS/PANS)
+- Brainstem/thalamic antibodies → fatigue, autonomic instability
+- Diffuse cortical antibodies → psychosis, cognitive collapse (autoimmune encephalitis)
+- Prenatal maternal antibody transfer → an autism-like developmental phenotype
+
+The practical implication is radical: **diagnostic labels (PANDAS, ME/CFS, autism) may be surrogates for circuit identity.** The same biology produces all three depending on which circuits the antibodies target. If true, the right question is not "does this patient have autism?" but "which circuits, and are they antibody-targeted?"
+
+---
+
+## The honest limits
+
+This framework is **explicitly speculative**, with low certainty.
+
+- No study has run the same anti-neuronal antibody panel simultaneously across PANDAS, autism, ME/CFS, and healthy controls.
+- The single PANDAS RCT was underpowered and equivocal [@Williams2016IVIGRCT].
+- The IVIG-in-autism evidence is a single specialist-center series, not a multi-site trial.
+- No prospective study has screened children presenting with "regressive autism" for PANS/PANDAS criteria.
+- The framework covers a **subset** within each diagnostic category, not the entire condition. Most autism is not immune-mediated.
+
+Convergence does not raise certainty above the weakest link. Until a multi-disease antibody-profiling study exists, this is a research framework, not a finding.
+
+---
+
+## The decisive experiment
+
+The field needs one study: run the same comprehensive anti-neuronal antibody panel (basal-ganglia, D1/D2 receptor, CaMKII, lysoganglioside, NMDAR, and others) across **PANDAS/PANS, regressive autism, ME/CFS, and healthy controls simultaneously**, and test two predictions:
+
+1. Antibody profiles cluster by **circuit target**, not by diagnostic label.
+2. Immunotherapy response is predicted by **antibody profile**, not by diagnosis.
+
+If these hold, the immune-mediated subset of autism becomes identifiable and treatable — regardless of which syndromic label it carries. If they fail, the syndrome-based approach was correct after all.
+
+---
+
+## What to take away
+
+The immune-mediated model does not claim that autism is an immune disease. It claims that **a subset** of people under the autism label carry a potentially identifiable, potentially treatable immune mechanism — whether from maternal antibodies or an infection-triggered response.
+
+The encouraging part: the Connery/Plioplys contrast is proof-of-concept that selecting the right subset can turn a null treatment into a dramatic response.
+
+The honest part: this is a research framework, not a clinical recommendation. No screening, no prenatal intervention, and no immunotherapy is indicated for autism based on the current evidence. The decisive multi-disease antibody study has not been done.
+
+*This is Part 2 of a four-part series on the biology of autism. Part 1 covers the brain-energy model and the multi-pathway treatment hypothesis. Part 3 explores the cerebellar-glutamate connection. Part 4 asks when autism-like features are acquired and reversible.*
+
+*This article reflects research hypotheses from our documentation project. The immune-mediated autism subset is an active area of investigation with explicit, low confidence — not established clinical fact. Discuss any medical decision with a qualified clinician.*

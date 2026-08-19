@@ -1,0 +1,81 @@
+---
+title: "The Biology of Autism — a Series"
+description: "Autism is not one thing. Four independent strands of biology — energy, immune, wiring, and acquired features — can each contribute to the symptom burden, and the way forward may be treating several of them at once. This is the landing page for a series that examines each strand and the multi-pathway treatment hypothesis."
+author: "Yannick Loth"
+date: "2026-08-19"
+categories: [Neurodivergence, Series, Pathophysiology]
+---
+
+Autism is not one thing.
+
+A common assumption is that the condition has a single cause and a single story. Our research points to something more granular: **four distinct biological strands** can underlie autism-related symptoms — a brain-energy deficit, an immune-mediated subset, a wiring difference, and acquired features that are not developmental. Different patients likely carry different combinations of these, and each contributes a different slice of the daily symptom burden.
+
+This series examines each strand in plain language, then asks the question they all converge on: **can several pathways be treated at once to remove or dampen symptoms and give the patient a more normal life?**
+
+---
+
+## What we know, what our research adds
+
+Every article in this series distinguishes two things clearly:
+
+1. **What we know** — established scientific findings, cited to the peer-reviewed literature (the mitochondrial evidence in autism [@Frye2024ASDmitochondria], the BH4 finding [@ColpaniFilho2025BH4ASD], the maternal-antibody evidence [@Braunschweig2013MATAbs], and the cerebellar glutamatergic genetic signal [@Maccallini2026metaGWAS]).
+2. **What our research adds** — the hypotheses our documentation project developed by reading across disease boundaries, and which are not yet established: the brain-energy convergence model, the multi-pathway treatment hypothesis, the neuroimmune-encephalopathy-spectrum framework, and the acquired-vs-developmental distinction.
+
+The distinction matters because the two are *not the same confidence*. "What we know" is evidence; "what our research adds" is testable hypothesis. The series keeps them separate so you are never misled into treating a hypothesis as a finding.
+
+Each article follows the same shape:
+
+1. **What it is** — the mechanism, in ordinary words.
+2. **The evidence** — what supports it, and how strong that evidence is.
+3. **The honest limits** — what it does *not* claim.
+4. **The decisive experiment** — how the idea could be confirmed or refuted.
+
+---
+
+## Part 1: Autism as a Brain Energy Disorder — and the Multi-Pathway Treatment Hypothesis
+
+The series opens with the most developed strand: a brain running on a thin fuel supply. When the brain cannot afford its most energy-expensive operations — filtering noise, switching tasks, reading faces — it economizes, and those economized functions are exactly the ones we recognize as core to autism. Part 1 also carries the series' synthesis: the multi-pathway treatment hypothesis, and what treating several mechanisms at once could mean.
+
+Read the article:
+
+1. **[Autism as a Brain Energy Disorder: What the Science Says](../autism-brain-energy-disorder/index.qmd)** — the astrocyte/GLUT1 model, the mitochondrial and BH4 evidence, the modifiable targets, the honest limits, the CSF:glucose decisive experiment, and the multi-pathway treatment hypothesis.
+
+---
+
+## Part 2: The Immune-Mediated Subset of Autism
+
+Not all autism may have the same cause. A subset may be driven by the immune system — maternal antibodies targeting fetal brain proteins during development, or infection-triggered anti-neuronal responses after birth. The key finding: immunotherapy works in antibody-stratified patients but not in unselected ones. The subset matters because it is potentially identifiable and treatable.
+
+Read the article:
+
+1. **[The Immune-Mediated Subset of Autism: When the Immune System Shapes the Brain](../autism-immune-subset/index.qmd)** — the maternal-antibody route, the postnatal route, the IVIG stratification evidence, the neuroimmune-encephalopathy-spectrum framework, and the decisive multi-disease antibody study.
+
+---
+
+## Part 3: The Cerebellar-Glutamate Connection
+
+A third strand is neither a fuel problem nor an immune problem: a wiring-level difference in the cerebellum and in glutamatergic circuits — the brain's excitatory pathways. Cerebellar Purkinje cell loss is among the most replicated findings in autism, and a genetic signal links it to sensory sensitivity. This strand is explanatory and diagnostic, not yet a treatment target.
+
+Read the article:
+
+1. **[The Cerebellar-Glutamate Connection in Autism: A Wiring-Level Hypothesis](../autism-cerebellar-glutamate/index.qmd)** — the Purkinje-cell evidence, the glutamatergic genetic signal, the shared features, the testable sensory-sensitivity prediction, and the honest limits.
+
+---
+
+## Part 4: Acquired vs. Developmental — When Autism-Like Features Might Be Reversible
+
+The clinically consequential question: are autism-like features necessarily present from development, or can some be *acquired* — and therefore reversible? Sensory rigidity, withdrawal, and apparent alexithymia can arise after development rather than from it. Telling the two apart determines whether a symptom might respond to treating its cause or is stable wiring.
+
+Read the article:
+
+1. **[Acquired vs. Developmental: When Autism-Like Features Might Be Reversible](../autism-acquired-reversible/index.qmd)** — the interoceptive mechanism, the neuroinflammation route, the context-dependence test, and the clinical consequences of getting the distinction wrong.
+
+---
+
+## A note on honesty
+
+Every article in this series distinguishes carefully what is *confirmed* by evidence, what is a *promising hypothesis*, and what is an *individual patient's experience*. Most of the content here is at the hypothesis end — the certainties are explicit, often low, and nothing is presented as established clinical fact or a treatment recommendation.
+
+The underlying science is drawn from our documentation project, which develops these cross-disease energy and immune models in detail. The autism-specific framing is our reading of the literature, written to stand alone for anyone curious about the biology.
+
+*Discuss any medical decision with a qualified clinician.*

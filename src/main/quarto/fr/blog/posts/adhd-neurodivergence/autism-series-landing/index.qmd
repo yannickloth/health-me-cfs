@@ -1,0 +1,82 @@
+---
+title: "La biologie de l'autisme — une série"
+description: "L'autisme n'est pas une seule chose. Quatre volets biologiques distincts — énergie, immunité, câblage et caractéristiques acquises — peuvent chacun contribuer au fardeau des symptômes, et la voie à suivre pourrait être de traiter plusieurs d'entre eux à la fois. Ceci est la page d'accueil d'une série qui examine chaque volet et l'hypothèse de traitement multipiste."
+author: "Yannick Loth"
+date: "2026-08-19"
+categories: [Neurodivergence, Série, Physiopathologie]
+lang: fr
+---
+
+L'autisme n'est pas une seule chose.
+
+Une hypothèse courante est que la maladie a une cause unique et une histoire unique. Nos recherches pointent vers quelque chose de plus granulaire : **quatre volets biologiques distincts** peuvent sous-tendre les symptômes liés à l'autisme — un déficit énergétique du cerveau, un sous-ensemble immunitaire, une différence de câblage et des caractéristiques acquises qui ne sont pas développementales. Différents patients portent probablement différentes combinaisons de ces volets, et chacun contribue à une part différente du fardeau quotidien des symptômes.
+
+Cette série examine chaque volet en langage simple, puis pose la question vers laquelle ils convergent tous : **peut-on traiter plusieurs voies à la fois pour supprimer ou atténuer les symptômes et donner au patient une vie plus normale ?**
+
+---
+
+## Ce que nous savons, ce que nos recherches ajoutent
+
+Chaque article de cette série distingue clairement deux choses :
+
+1. **Ce que nous savons** — les découvertes scientifiques établies, citées dans la littérature à comité de lecture (les preuves mitochondriales dans l'autisme [@Frye2024ASDmitochondria], la découverte de la BH4 [@ColpaniFilho2025BH4ASD], les preuves d'anticorps maternels [@Braunschweig2013MATAbs] et le signal génétique glutamatergique cérébelleux [@Maccallini2026metaGWAS]).
+2. **Ce que nos recherches ajoutent** — les hypothèses que notre projet documentaire a développées en lisant au-delà des frontières entre maladies, et qui ne sont pas encore établies : le modèle de convergence énergétique du cerveau, l'hypothèse de traitement multipiste, le cadre du spectre de l'encéphalopathie neuro-immune et la distinction acquis-développemental.
+
+La distinction est importante car les deux *n'ont pas la même certitude*. « Ce que nous savons » est une preuve ; « ce que nos recherches ajoutent » est une hypothèse testable. La série les sépare pour que vous ne soyez jamais induit en erreur en prenant une hypothèse pour une découverte.
+
+Chaque article suit la même forme :
+
+1. **Ce que c'est** — le mécanisme, en mots ordinaires.
+2. **Les preuves** — ce qui le soutient et la force de ces preuves.
+3. **Les limites honnêtes** — ce qu'il ne *prétend pas*.
+4. **L'expérience décisive** — comment l'idée pourrait être confirmée ou réfutée.
+
+---
+
+## Partie 1 : L'autisme comme trouble énergétique du cerveau — et l'hypothèse de traitement multipiste
+
+La série s'ouvre sur le volet le plus développé : un cerveau fonctionnant avec un apport de carburant limité. Lorsque le cerveau ne peut pas se permettre ses opérations les plus coûteuses en énergie — filtrer le bruit, changer de tâche, lire les visages — il économise, et ces fonctions économisées sont exactement celles que nous reconnaissons comme étant au cœur de l'autisme. La partie 1 porte aussi la synthèse de la série : l'hypothèse de traitement multipiste et ce que traiter plusieurs mécanismes à la fois pourrait signifier.
+
+Lisez l'article :
+
+1. **[L'autisme comme trouble énergétique du cerveau : ce que dit la science](../autism-brain-energy-disorder/index.qmd)** — le modèle astrocyte/GLUT1, les preuves mitochondriales et de la BH4, les cibles modifiables, les limites honnêtes, l'expérience décisive du rapport glucose LCR/plasma et l'hypothèse de traitement multipiste.
+
+---
+
+## Partie 2 : Le sous-ensemble immunitaire de l'autisme
+
+Tout l'autisme n'a peut-être pas la même cause. Un sous-ensemble peut être piloté par le système immunitaire — des anticorps maternels ciblant des protéines du cerveau fœtal pendant le développement, ou des réponses anti-neuronales déclenchées par une infection après la naissance. Le résultat clé : l'immunothérapie fonctionne chez les patients stratifiés par anticorps, mais pas chez les patients non sélectionnés. Ce sous-ensemble est important car il est potentiellement identifiable et traitable.
+
+Lisez l'article :
+
+1. **[Le sous-ensemble immunitaire de l'autisme : quand le système immunitaire façonne le cerveau](../autism-immune-subset/index.qmd)** — la voie des anticorps maternels, la voie postnatale, les preuves de stratification par IVIG, le cadre du spectre de l'encéphalopathie neuro-immune et l'étude décisive multi-maladies sur les anticorps.
+
+---
+
+## Partie 3 : La connexion cérébello-glutamatergique
+
+Un troisième volet n'est ni un problème de carburant ni un problème immunitaire : une différence au niveau du câblage dans le cervelet et dans les circuits glutamatergiques — les voies excitatrices du cerveau. La perte de cellules de Purkinje du cervelet est parmi les découvertes neuropathologiques les plus répliquées dans l'autisme, et un signal génétique la relie à la sensibilité sensorielle. Ce volet est explicatif et diagnostique, pas encore une cible thérapeutique.
+
+Lisez l'article :
+
+1. **[La connexion cérébello-glutamatergique dans l'autisme : une hypothèse au niveau du câblage](../autism-cerebellar-glutamate/index.qmd)** — les preuves des cellules de Purkinje, le signal génétique glutamatergique, les caractéristiques partagées, la prédiction testable sur la sensibilité sensorielle et les limites honnêtes.
+
+---
+
+## Partie 4 : Acquis vs. développemental — quand les caractéristiques semblables à l'autisme pourraient être réversibles
+
+La question cliniquement lourde de conséquences : les caractéristiques semblables à l'autisme sont-elles nécessairement présentes dès le développement, ou certaines peuvent-elles être *acquises* — et donc réversibles ? La rigidité sensorielle, le retrait et l'alexithymie apparente peuvent survenir après le développement plutôt qu'en provenir. Faire la distinction détermine si un symptôme pourrait répondre au traitement de sa cause ou s'il s'agit d'un câblage stable.
+
+Lisez l'article :
+
+1. **[Acquis vs. développemental : quand les caractéristiques semblables à l'autisme pourraient être réversibles](../autism-acquired-reversible/index.qmd)** — le mécanisme intéroceptif, la voie de la neuroinflammation, le test de dépendance au contexte et les conséquences cliniques d'une erreur de distinction.
+
+---
+
+## Une note sur l'honnêteté
+
+Chaque article de cette série distingue soigneusement ce qui est *confirmé* par des preuves, ce qui est une *hypothèse prometteuse* et ce qui est *l'expérience d'un patient individuel*. Une grande partie du contenu se situe ici à l'extrémité « hypothèse » — les certitudes sont explicites, souvent faibles, et rien n'est présenté comme un fait clinique établi ou une recommandation de traitement.
+
+La science sous-jacente est tirée de notre projet documentaire, qui développe ces modèles énergétiques et immunitaires trans-maladies en détail. Le cadrage spécifique à l'autisme est notre lecture de la littérature, écrit pour se suffire à lui-même pour quiconque est curieux de la biologie.
+
+*Discutez de toute décision médicale avec un clinicien qualifié.*

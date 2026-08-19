@@ -1,0 +1,104 @@
+---
+title: "Die immunvermittelte Untergruppe des Autismus: Wenn das Immunsystem das Gehirn formt"
+description: "Eine eigenständige Forschungslinie legt nahe, dass eine Untergruppe des Autismus immunvermittelt sein könnte — durch mütterliche Antikörper während der Entwicklung oder durch infektionsausgelöste anti-neuronale Reaktionen. Dieser Artikel untersucht die Evidenz, die Behandlungsimplikation und was unbewiesen bleibt."
+author: "Yannick Loth"
+date: "2026-08-21"
+categories: [Neurodivergenz, Immunologie, Pathophysiologie]
+lang: de
+---
+
+Nicht aller Autismus mag dieselbe Ursache haben.
+
+Teil 1 dieser Serie untersuchte Autismus als Störung der Gehirnenergie — einen entwicklungsbedingten Zustand, in dem das Gehirn mit einem knappen Brennstoffvorrat arbeitet. Dieser Teil untersucht eine grundlegend andere Idee: dass eine **Untergruppe** des Autismus vom Immunsystem angetrieben wird, entweder vor der Geburt oder nach einer Infektion.
+
+Die beiden Ideen stehen nicht in Konkurrenz. Sie beschreiben verschiedene Patienten, und sie zu unterscheiden ist für die Behandlung enorm wichtig.
+
+Die Serie trennt **was wir wissen** von **was unsere Forschung hinzufügt**. Hier sind die etablierten Befunde die mütterliche Anti-fetale-Hirn-Antikörper-Evidenz [@Braunschweig2013MATAbs @Croen2008MaternalAbASD @Meltzer2017ImmuneASD] und der IVIG-Stratifizierungs-Kontrast [@Connery2018IVIGautism @Plioplys1998IVIGautism]. Was unsere Forschung hinzufügt, ist die Lektüre des neuroimmunen Enzephalopathie-Spektrums — dass antikörper-gesteuerte Schaltkreise, nicht Diagnose-Bezeichnungen, die behandelbare Untergruppe definieren könnten — was eine registrierte Spekulation und kein etablierter Befund ist.
+
+---
+
+## Der pränatale Weg: mütterliche Antikörper
+
+Während der Schwangerschaft überqueren mütterliche Antikörper die Plazenta. In den meisten Fällen ist das schützend. Aber eine Forschungslinie legt nahe, dass in einer Untergruppe des Autismus mütterliche Antikörper **fetale Gehirnproteine** angreifen könnten.
+
+Die auffällige Zahl: etwa **23% der Mütter autistischer Kinder tragen Anti-fetale-Hirn-Autoantikörper**, die auf spezifische neuronale Proteine zielen [@Braunschweig2013MATAbs @Croen2008MaternalAbASD @Meltzer2017ImmuneASD]. Diese Antikörper sind mit erhöhtem Autismusrisiko verbunden.
+
+Die ehrlichen Vorbehalte sind erheblich:
+- Der kausale Weg — vom mütterlichen Antikörper zur Diagnose des Kindes — ist **nicht bewiesen**.
+- Die „attributable Fraktion" hängt von Annahmen über die Pathogenität der Antikörper ab, die in prospektiven Kohorten ungetestet bleiben.
+- Dies definiert eine **eigenständige immunassoziierte Untergruppe**, ist aber noch nicht klinisch umsetzbar.
+
+Entscheidend: Es gibt **keine aktuelle klinische Anwendung**: kein pränatales Screening auf Anti-fetale-Hirn-Antikörper wird empfohlen, und eine Immunmodulation während der Schwangerschaft für diese Indikation ist ungetestet und potenziell schädlich.
+
+---
+
+## Der postnatale Weg: infektionsausgelöste Antikörper
+
+Das pränatale Muster hat ein postnatales Äquivalent. Infektionen können anti-neuronale Antikörper auslösen, die bei zuvor neurotypischen Kindern autismusähnliche Symptome erzeugen — strukturell analog zu PANDAS/PANS (Pädiatrisches Akut-beginnendes Neuropsychiatrisches Syndrom), unterschieden nur durch das Entwicklungsfenster und die betroffenen Schaltkreise [@Endres2022AutoimmuneOCD @Whiteley2021AutoimmuneASD].
+
+Das ist keine Randmedizin. Es ist dieselbe Krankheitslogik, die PANDAS/PANS zugrunde liegt: Infektion → Immunantwort → anti-neuronale Antikörper → schaltkreis-spezifischer neuropsychiatrischer Phänotyp [@Swedo1998PANDAS50 @Kirvan2003MimicryChorea @Kirvan2006CaMKII]. Der führende Mechanismus ist molekulare Mimikry — gegen ein Bakterium gebildete Antikörper erkennen auch neuronale Proteine im Gehirn.
+
+---
+
+## Die Evidenz für eine Immun-Untergruppe innerhalb des Autismus
+
+Zwei Befunde schärfen den Fall, dass eine immunvermittelte Untergruppe *innerhalb* des Autismus-Labels existiert:
+
+**1. Anti-neuronale Antikörper sind in einem Teil des Autismus erhöht — unabhängig vom Regressionsstatus.** Etwa **20% der ASD-Patienten tragen erhöhte anti-neuronale Antikörper**, und dies passt nicht sauber zum Regressionsphänotyp [@Aslan2021AntiNeuronalASD]. Die Immun-Untergruppe respektiert die syndromale Grenze zwischen regressivem und klassischem Autismus nicht.
+
+**2. Die Immuntherapie-Antwort hängt von der Antikörper-Stratifizierung ab, nicht von der Diagnose.** Der klarste Beweis kommt von einem Paar IVIG-Studien (intravenöses Immunglobulin) bei Autismus. In einer erzeugte die Immuntherapie eine **dramatische Antwort bei antikörper-stratifizierten Patienten**; in der anderen war dieselbe Behandlung **null bei unselektierten Patienten** [@Connery2018IVIGautism @Plioplys1998IVIGautism]. Wird nur die Diagnose zur Rekrutierung verwendet, wird die Studie durch Patienten verwässert, die nicht immunvermittelt sind. Wird eine Antikörper-Profilierung verwendet, wirkt die Intervention in der Untergruppe, die sie anvisiert.
+
+Dieser Kontrast ist der aufschlussreichste Befund in diesem Feld: **die Therapie ist nicht „wirksam" oder „unwirksam" für Autismus — sie ist wirksam für die immunvermittelte Untergruppe.**
+
+---
+
+## Das vereinheitlichende Rahmenwerk: ein neuroimmunes Enzephalopathie-Spektrum
+
+Zusammengenommen weisen diese Linien auf einen breiteren Vorschlag aus unserer Forschung hin — das **Neuroimmune Enzephalopathie-Spektrum (NES)** — eine einzige Krankheitsklasse, definiert durch einen Immunauslöser, anti-neuronale Antikörper, die spezifische Schaltkreise anvisieren, und einen klinischen Phänotyp, der dadurch bestimmt wird, *welche Schaltkreise getroffen werden*, nicht vom Auslöser. Es ist eine registrierte Forschungsspekulation, kein etablierter Befund.
+
+Unter diesem Rahmenwerk:
+- Basalganglien-gerichtete Antikörper → Zwangsstörungen, Tics, Verhaltensregression (PANDAS/PANS)
+- Hirnstamm-/thalamusgerichtete Antikörper → Erschöpfung, autonome Instabilität
+- Diffuse kortikale Antikörper → Psychose, kognitiver Zusammenbruch (autoimmune Enzephalitis)
+- Pränatale mütterliche Antikörperübertragung → ein autismusähnlicher Entwicklungsphänotyp
+
+Die praktische Implikation ist radikal: **Diagnose-Bezeichnungen (PANDAS, ME/CFS, Autismus) könnten Surrogate für die Schaltkreis-Identität sein.** Dieselbe Biologie erzeugt alle drei, je nachdem, welche Schaltkreise die Antikörper angreifen. Wenn das stimmt, ist die richtige Frage nicht „hat dieser Patient Autismus?" sondern „welche Schaltkreise, und sind sie antikörper-gesteuert?"
+
+---
+
+## Die ehrlichen Grenzen
+
+Dieses Rahmenwerk ist **ausdrücklich spekulativ**, mit niedriger Gewissheit.
+
+- Keine Studie hat dasselbe anti-neuronale Antikörper-Panel gleichzeitig über PANDAS, Autismus, ME/CFS und gesunde Kontrollen hinweg durchgeführt.
+- Die einzelne PANDAS-RCT war unterdimensioniert und mehrdeutig [@Williams2016IVIGRCT].
+- Die IVIG-bei-Autismus-Evidenz ist eine einzelne Serie eines Fachzentrums, keine Multi-Site-Studie.
+- Keine prospektive Studie hat Kinder mit „regressivem Autismus" auf PANS/PANDAS-Kriterien gescreent.
+- Das Rahmenwerk deckt eine **Untergruppe** innerhalb jeder diagnostischen Kategorie ab, nicht die gesamte Erkrankung. Der meiste Autismus ist nicht immunvermittelt.
+
+Konvergenz erhöht die Gewissheit nicht über das schwächste Glied hinaus. Bis eine Multi-Krankheits-Antikörper-Profilierungsstudie existiert, ist dies ein Forschungsrahmenwerk, kein Befund.
+
+---
+
+## Das entscheidende Experiment
+
+Das Feld braucht eine Studie: führen Sie dasselbe umfassende anti-neuronale Antikörper-Panel (Basalganglien, D1/D2-Rezeptor, CaMKII, Lysogangliosid, NMDAR und andere) **gleichzeitig über PANDAS/PANS, regressiven Autismus, ME/CFS und gesunde Kontrollen** durch und testen Sie zwei Vorhersagen:
+
+1. Antikörper-Profile gruppieren sich nach **Schaltkreis-Ziel**, nicht nach Diagnose-Bezeichnung.
+2. Die Immuntherapie-Antwort wird durch das **Antikörper-Profil** vorhergesagt, nicht durch die Diagnose.
+
+Wenn diese gelten, wird die immunvermittelte Untergruppe des Autismus identifizierbar und behandelbar — unabhängig davon, welche syndromale Bezeichnung sie trägt. Wenn sie scheitern, war der syndromale Ansatz doch richtig.
+
+---
+
+## Was Sie mitnehmen sollten
+
+Das immunvermittelte Modell behauptet nicht, dass Autismus eine Immunerkrankung ist. Es behauptet, dass **eine Untergruppe** der Menschen unter dem Autismus-Label einen potenziell identifizierbaren, potenziell behandelbaren Immunmechanismus trägt — sei es von mütterlichen Antikörpern oder einer infektionsausgelösten Reaktion.
+
+Der ermutigende Teil: Der Connery/Plioplys-Kontrast ist ein Machbarkeitsnachweis, dass die Auswahl der richtigen Untergruppe eine Null-Behandlung in eine dramatische Antwort verwandeln kann.
+
+Der ehrliche Teil: Dies ist ein Forschungsrahmenwerk, keine klinische Empfehlung. Kein Screening, keine pränatale Intervention und keine Immuntherapie ist auf Basis der aktuellen Evidenz für Autismus indiziert. Die entscheidende Multi-Krankheits-Antikörperstudie wurde noch nicht durchgeführt.
+
+*Dies ist Teil 2 einer vierteiligen Serie über die Biologie des Autismus. Teil 1 behandelt das Gehirnenergie-Modell und die Mehrpfad-Behandlungshypothese. Teil 3 untersucht die zerebellär-glutamaterge Verbindung. Teil 4 fragt, wann autismusähnliche Merkmale erworben und reversibel sind.*
+
+*Dieser Artikel spiegelt Forschungshypothesen aus unserem Dokumentationsprojekt wider. Die immunvermittelte Autismus-Untergruppe ist ein aktives Forschungsgebiet mit expliziter, niedriger Gewissheit — keine etablierte klinische Tatsache. Besprechen Sie jede medizinische Entscheidung mit einer qualifizierten Fachperson.*

@@ -1,0 +1,82 @@
+---
+title: "La connexion cérébello-glutamatergique dans l'autisme : une hypothèse au niveau du câblage"
+description: "Une troisième ligne de recherche relie l'autisme au cervelet et aux circuits glutamatergiques — le câblage excitateur du cerveau. Cet article examine les preuves des cellules de Purkinje, le signal génétique et la prédiction testable sur la sensibilité sensorielle."
+author: "Yannick Loth"
+date: "2026-08-22"
+categories: [Neurodivergence, Physiopathologie, Génétique]
+lang: fr
+---
+
+La partie 1 a examiné l'autisme comme un trouble énergétique du cerveau — un problème de carburant. La partie 2 a examiné le sous-ensemble immunitaire — un problème d'anticorps. Cette partie examine une troisième possibilité distincte : qu'une partie de l'autisme reflète une **différence au niveau du câblage dans le cervelet et dans les circuits glutamatergiques** — les voies excitatrices du cerveau.
+
+Ce n'est ni un problème d'énergie ni un problème immunitaire. C'est une différence structurelle et fonctionnelle dans la façon dont certains circuits cérébraux sont construits et dont ils signalent.
+
+La série sépare **ce que nous savons** de **ce que nos recherches ajoutent**. Ici, une observation neuropathologique bien établie est que la perte de cellules de Purkinje du cervelet apparaît dans l'autisme — une découverte répliquée dans de multiples études post-mortem (rapportée comme contexte dans nos recherches [@Maccallini2026metaGWAS]). Ce que nos recherches ajoutent est la lecture qu'un signal génétique glutamatergique cérébelleux — présent dans les données pangénomiques [@Maccallini2026metaGWAS] — pourrait relier cette neuropathologie à l'hypersensibilité sensorielle. Cette lecture est une spéculation enregistrée, pas une découverte établie.
+
+---
+
+## Le cervelet est plus que le contrôle moteur
+
+Pendant des décennies, le cervelet a été compris comme une structure de coordination motrice. Une littérature désormais vaste le place aussi dans la cognition, l'affect et le traitement sensoriel — le « syndrome cognitivo-affectif cérébelleux ».
+
+La pertinence pour l'autisme est directe : **la perte de cellules de Purkinje du cervelet est parmi les découvertes neuropathologiques les plus répliquées dans l'autisme.** Les cellules de Purkinje sont les neurones de sortie du cervelet, et leur vulnérabilité semble centrale à la maladie.
+
+---
+
+## Les caractéristiques partagées : l'autisme et le signal glutamatergique
+
+Nos recherches ont identifié quatre caractéristiques partagées entre l'autisme et l'EM/SFC — la maladie de fatigue chronique au cœur de notre projet documentaire — suggérant un substrat glutamatergique commun [@Maccallini2026metaGWAS] :
+
+1. **Enrichissement génétique synaptique glutamatergique dans les GWAS** — le signal de risque génétique se concentre dans les gènes synaptiques excitateurs.
+2. **Vulnérabilité des cellules de Purkinje au stress métabolique et inflammatoire** — les mêmes cellules perdues dans l'autisme sont sensibles à la fois au manque de carburant et à l'activation immunitaire.
+3. **Hypersensibilité sensorielle** — sensibilité auditive et tactile accrue.
+4. **Dysfonction autonome** — dérégulation du système nerveux involontaire.
+
+Le pont génétique est le mouvement clé. Les données d'association pangénomique montrent un enrichissement dans le **tissu neuronal cérébelleux et glutamatergique** — indépendant des signaux immunitaires et métaboliques périphériques. C'est un **signal génétique au niveau du câblage**, présent dès le développement.
+
+---
+
+## L'hypothèse : une vulnérabilité développementale partagée
+
+La proposition, en termes formels (une spéculation enregistrée dans nos recherches) [@Maccallini2026metaGWAS] :
+
+> La dysfonction glutamatergique cérébelleuse est une vulnérabilité développementale partagée. Si les circuits excitateurs du cervelet sont construits différemment — ou plus vulnérables — dès le développement précoce, cela pourrait expliquer le chevauchement disproportionné entre l'autisme et d'autres maladies, l'hypersensibilité sensorielle et les symptômes autonomes.
+
+Le mécanisme n'est pas que le cervelet « cause » l'autisme dans son ensemble. C'est qu'une différence de câblage glutamatergique — présente dès le développement — produit un schéma spécifique et mesurable de symptômes, en premier lieu la **sensibilité sensorielle**.
+
+---
+
+## La prédiction testable
+
+Cette hypothèse est falsifiable, et la prédiction est spécifique :
+
+> Un **score de risque polygénique des cellules cérébelleuses** (dérivé des données d'enrichissement génétique) sera corrélé aux **scores du questionnaire de profil sensoriel** — en particulier la sensibilité auditive et tactile — dans les cohortes autistes, et sera élevé chez les personnes présentant des traits autistes concomitants.
+
+Si c'est vrai, la sensibilité sensorielle serait traçable à une différence de câblage spécifique et génétiquement mesurable — pas une « sensibilité globale » vague, mais un signal glutamatergique cérébelleux quantifiable dans le génome d'un individu.
+
+---
+
+## Les limites honnêtes
+
+C'est une **hypothèse spéculative**, avec une certitude explicite et faible — une spéculation enregistrée, pas une découverte établie.
+
+- La découverte des cellules de Purkinje est une neuropathologie répliquée, mais le *lien* avec le signal génétique est une inférence.
+- L'enrichissement cérébelleux et glutamatergique provient d'une analyse d'ensembles de gènes, sensible aux choix analytiques et pouvant être biaisée vers les gènes longs et conservés.
+- Le signal glutamatergique est une lecture contributive de phénomènes autrement déconnectés — il ne les résout pas seul.
+- La sensibilité sensorielle est déterminée par de multiples facteurs ; même si la prédiction cérébelleuse tient, c'est l'un des plusieurs mécanismes contributifs.
+
+La prédiction est testable maintenant, avec des données génétiques et des questionnaires existants. Elle n'a pas encore été menée.
+
+---
+
+## Ce qu'il faut retenir
+
+Le modèle cérébello-glutamatergique offre une **explication au niveau du câblage** d'un symptôme central de l'autisme — la sensibilité sensorielle — qui n'est ni un problème de carburant ni un problème immunitaire. C'est une différence développementale dans la construction des circuits excitateurs.
+
+Contrairement aux parties 1 et 2, ce volet n'a **pas encore d'implication thérapeutique directe**. Il n'est pas « modifiable » au même sens que le fer ou la BH4, et ce n'est pas une cible d'anticorps. Sa valeur est explicative et diagnostique : il pointe vers une signature spécifique et génétiquement mesurable de la sensibilité sensorielle.
+
+La partie encourageante : la prédiction est peu coûteuse et testable avec des données existantes. Si elle tient, elle donne à l'expérience sensorielle de l'autisme un ancrage biologique concret. Si elle échoue, elle rétrécit la recherche.
+
+*Ceci est la partie 3 d'une série en quatre parties sur la biologie de l'autisme. La partie 1 couvre le modèle énergétique du cerveau et l'hypothèse de traitement multipiste. La partie 2 couvre le sous-ensemble immunitaire. La partie 4 demande quand les caractéristiques semblables à l'autisme sont acquises et réversibles.*
+
+*Cet article reflète une hypothèse de recherche enregistrée avec une faible certitude, pas un fait clinique établi.*

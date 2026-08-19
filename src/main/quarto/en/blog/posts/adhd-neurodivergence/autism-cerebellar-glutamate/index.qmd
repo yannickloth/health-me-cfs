@@ -1,0 +1,81 @@
+---
+title: "The Cerebellar-Glutamate Connection in Autism: A Wiring-Level Hypothesis"
+description: "A third line of research links autism to the cerebellum and to glutamatergic circuits — the brain's excitatory wiring. This article examines the Purkinje-cell evidence, the genetic signal, and the testable prediction about sensory sensitivity."
+author: "Yannick Loth"
+date: "2026-08-22"
+categories: [Neurodivergence, Pathophysiology, Genetics]
+---
+
+Part 1 examined autism as a brain-energy disorder — a fuel problem. Part 2 examined the immune-mediated subset — an antibody problem. This part examines a third, distinct possibility: that a part of autism reflects a **wiring-level difference in the cerebellum and in glutamatergic circuits** — the brain's excitatory pathways.
+
+This is not an energy problem, and it is not an immune problem. It is a structural and functional difference in how certain brain circuits are built and how they signal.
+
+The series separates **what we know** from **what our research adds**. Here, a well-established neuropathological observation is that cerebellar Purkinje cell loss appears in autism — a finding replicated across multiple post-mortem studies (reported as background in our research [@Maccallini2026metaGWAS]). What our research adds is the reading that a cerebellar glutamatergic genetic signal — present in genome-wide data [@Maccallini2026metaGWAS] — may connect that neuropathology to sensory hypersensitivity. That reading is a registered speculation, not an established finding.
+
+---
+
+## The cerebellum is more than motor control
+
+For decades the cerebellum was understood as a motor-coordination structure. A now-extensive literature places it in cognition, affect, and sensory processing as well — the "cerebellar cognitive-affective syndrome."
+
+The relevance to autism is direct: **cerebellar Purkinje cell loss is among the most replicated neuropathological findings in autism.** Purkinje cells are the cerebellum's output neurons, and their vulnerability appears central to the condition.
+
+---
+
+## The shared features: autism and the glutamatergic signal
+
+Our research identified four features shared between autism and ME/CFS — the chronic-fatigue condition our documentation project centers on — suggesting a common glutamatergic substrate [@Maccallini2026metaGWAS]:
+
+1. **Glutamatergic synapse genetic enrichment in GWAS** — the genetic risk signal concentrates in excitatory synaptic genes.
+2. **Purkinje cell vulnerability to metabolic and inflammatory stress** — the same cells that are lost in autism are sensitive to both fuel shortage and immune activation.
+3. **Sensory hypersensitivity** — heightened auditory and tactile sensitivity.
+4. **Autonomic dysfunction** — dysregulation of the involuntary nervous system.
+
+The genetic bridge is the key move. Genome-wide association data shows enrichment in **cerebellar and glutamatergic neuronal tissue** — independent of the peripheral immune and metabolic signals. This is a **wiring-level genetic signal**, present from development.
+
+---
+
+## The hypothesis: a shared developmental vulnerability
+
+The proposal, in formal terms (a registered speculation in our research) [@Maccallini2026metaGWAS]:
+
+> Cerebellar glutamatergic dysfunction is a shared developmental vulnerability. If the cerebellum's excitatory circuits are built differently — or more vulnerable — from early development, this could explain the disproportionate overlap between autism and other conditions, the sensory hypersensitivity, and the autonomic symptoms.
+
+The mechanism is not that the cerebellum "causes" autism wholesale. It is that a difference in glutamatergic wiring — present from development — produces a specific, measurable pattern of symptoms, chief among them **sensory sensitivity**.
+
+---
+
+## The testable prediction
+
+This hypothesis is falsifiable, and the prediction is specific:
+
+> A **cerebellar cell-type polygenic risk score** (derived from the genetic enrichment data) will correlate with **Sensory Profile questionnaire scores** — especially auditory and tactile sensitivity — in autism cohorts, and will be elevated in people with co-occurring autistic traits.
+
+If true, sensory sensitivity would be traceable to a specific, genetically measurable wiring difference — not a vague "overall sensitivity," but a cerebellar glutamatergic signal that can be quantified in an individual's genome.
+
+---
+
+## The honest limits
+
+This is a **speculative hypothesis**, with explicit low confidence — a registered speculation, not an established finding.
+
+- The Purkinje-cell finding is replicated neuropathology, but the *link* to the genetic signal is an inference.
+- The cerebellar and glutamatergic enrichment comes from gene-set analysis, which is sensitive to analytic choices and can be biased toward long, conserved genes.
+- The glutamatergic signal is one contributing reading of otherwise-disconnected phenomena — it does not resolve them alone.
+- Sensory sensitivity is multiply determined; even if the cerebellar prediction holds, it is one of several contributing mechanisms.
+
+The prediction is testable now, with existing genetic data and existing questionnaires. It has not yet been run.
+
+---
+
+## What to take away
+
+The cerebellar-glutamate model offers a **wiring-level** explanation for a core autism symptom — sensory sensitivity — that is neither a fuel problem nor an immune problem. It is a developmental difference in how excitatory circuits are built.
+
+Unlike Parts 1 and 2, this strand has **no direct treatment implication yet**. It is not "modifiable" in the same sense as iron or BH4, and it is not an antibody target. Its value is explanatory and diagnostic: it points to a specific, genetically measurable signature of sensory sensitivity.
+
+The encouraging part: the prediction is cheap and testable with existing data. If it holds, it gives autism's sensory experience a concrete biological anchor. If it fails, it narrows the search.
+
+*This is Part 3 of a four-part series on the biology of autism. Part 1 covers the brain-energy model and the multi-pathway treatment hypothesis. Part 2 covers the immune-mediated subset. Part 4 asks when autism-like features are acquired and reversible.*
+
+*This article reflects a registered research hypothesis with low confidence, not established clinical fact.*

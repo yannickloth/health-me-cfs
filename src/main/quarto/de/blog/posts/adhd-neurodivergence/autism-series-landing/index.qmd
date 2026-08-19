@@ -1,0 +1,82 @@
+---
+title: "Die Biologie des Autismus — eine Serie"
+description: "Autismus ist nicht eine einzige Sache. Vier eigenständige biologische Stränge — Energie, Immunsystem, Verdrahtung und erworbene Merkmale — können jeweils zu der Symptomlast beitragen, und der Weg nach vorn könnte darin bestehen, mehrere von ihnen gleichzeitig zu behandeln. Dies ist die Einstiegsseite für eine Serie, die jeden Strang und die Mehrpfad-Behandlungshypothese untersucht."
+author: "Yannick Loth"
+date: "2026-08-19"
+categories: [Neurodivergenz, Serie, Pathophysiologie]
+lang: de
+---
+
+Autismus ist nicht eine einzige Sache.
+
+Eine verbreitete Annahme ist, dass die Erkrankung eine einzige Ursache und eine einzige Geschichte hat. Unsere Forschung weist auf etwas Genaueres hin: **vier eigenständige biologische Stränge** können autismusbezogenen Symptomen zugrunde liegen — ein Energie-Defizit des Gehirns, eine immunvermittelte Untergruppe, ein Unterschied in der Verdrahtung und erworbene Merkmale, die nicht entwicklungsbedingt sind. Verschiedene Patienten tragen wahrscheinlich unterschiedliche Kombinationen davon, und jeder Strang trägt einen anderen Teil der täglichen Symptomlast.
+
+Diese Serie untersucht jeden Strang in einfacher Sprache und stellt dann die Frage, auf die sie alle zulaufen: **können mehrere Signalwege gleichzeitig behandelt werden, um Symptome zu beseitigen oder abzuschwächen und dem Patienten ein normaleres Leben zu ermöglichen?**
+
+---
+
+## Was wir wissen, was unsere Forschung hinzufügt
+
+Jeder Beitrag dieser Serie unterscheidet zwei Dinge klar:
+
+1. **Was wir wissen** — etablierte wissenschaftliche Befunde, die mit der begutachteten Fachliteratur belegt sind (die mitochondriale Evidenz bei Autismus [@Frye2024ASDmitochondria], der BH4-Befund [@ColpaniFilho2025BH4ASD], die mütterliche-Antikörper-Evidenz [@Braunschweig2013MATAbs] und das zerebelläre glutamaterge genetische Signal [@Maccallini2026metaGWAS]).
+2. **Was unsere Forschung hinzufügt** — die Hypothesen, die unser Dokumentationsprojekt durch das Lesen über Krankheitsgrenzen hinweg entwickelt hat und die noch nicht etabliert sind: das Konvergenzmodell der Gehirnenergie, die Mehrpfad-Behandlungshypothese, das Rahmenwerk des neuroimmunen Enzephalopathie-Spektrums und die Unterscheidung zwischen erworben und entwicklungsbedingt.
+
+Der Unterschied ist wichtig, weil die beiden *nicht dieselbe Gewissheit* haben. „Was wir wissen" ist Evidenz; „was unsere Forschung hinzufügt" ist eine testbare Hypothese. Die Serie hält sie getrennt, damit Sie nie in die Irre geführt werden, eine Hypothese für einen Befund zu halten.
+
+Jeder Beitrag folgt derselben Form:
+
+1. **Was es ist** — der Mechanismus, in einfachen Worten.
+2. **Die Evidenz** — was ihn stützt und wie stark diese Evidenz ist.
+3. **Die ehrlichen Grenzen** — was er *nicht* behauptet.
+4. **Das entscheidende Experiment** — wie die Idee bestätigt oder widerlegt werden könnte.
+
+---
+
+## Teil 1: Autismus als Störung der Gehirnenergie — und die Mehrpfad-Behandlungshypothese
+
+Die Serie beginnt mit dem am weitesten entwickelten Strang: einem Gehirn, das mit einem knappen Brennstoffvorrat arbeitet. Wenn das Gehirn sich seine energieaufwendigsten Vorgänge — das Filtern von Lärm, das Wechseln von Aufgaben, das Lesen von Gesichtern — nicht leisten kann, spart es Energie, und genau diese eingesparten Funktionen sind die, die wir als Kern des Autismus erkennen. Teil 1 trägt auch die Synthese der Serie: die Mehrpfad-Behandlungshypothese und was die gleichzeitige Behandlung mehrerer Mechanismen bedeuten könnte.
+
+Lesen Sie den Beitrag:
+
+1. **[Autismus als Störung der Gehirnenergie: Was die Wissenschaft sagt](../autism-brain-energy-disorder/index.qmd)** — das Astrozyten-/GLUT1-Modell, die mitochondriale und BH4-Evidenz, die veränderbaren Ziele, die ehrlichen Grenzen, das entscheidende Liquor-Glukose-Experiment und die Mehrpfad-Behandlungshypothese.
+
+---
+
+## Teil 2: Die immunvermittelte Untergruppe des Autismus
+
+Nicht aller Autismus mag dieselbe Ursache haben. Eine Untergruppe könnte vom Immunsystem angetrieben werden — mütterliche Antikörper, die während der Entwicklung fetale Gehirnproteine angreifen, oder durch Infektionen ausgelöste anti-neuronale Reaktionen nach der Geburt. Der Schlüsselbefund: Immuntherapie wirkt bei antikörper-stratifizierten Patienten, aber nicht bei unselektierten. Die Untergruppe ist wichtig, weil sie potenziell identifizierbar und behandelbar ist.
+
+Lesen Sie den Beitrag:
+
+1. **[Die immunvermittelte Untergruppe des Autismus: Wenn das Immunsystem das Gehirn formt](../autism-immune-subset/index.qmd)** — der mütterliche-Antikörper-Weg, der postnatale Weg, die IVIG-Stratifizierungs-Evidenz, das Rahmenwerk des neuroimmunen Enzephalopathie-Spektrums und die entscheidende Multi-Krankheits-Antikörperstudie.
+
+---
+
+## Teil 3: Die zerebellär-glutamaterge Verbindung
+
+Ein dritter Strang ist weder ein Brennstoffproblem noch ein Immunproblem: ein Unterschied auf Verdrahtungsebene im Kleinhirn und in glutamatergen Schaltkreisen — den erregenden Bahnen des Gehirns. Der Verlust von Purkinje-Zellen im Kleinhirn gehört zu den am häufigsten replizierten Befunden bei Autismus, und ein genetisches Signal verbindet ihn mit sensorischer Empfindlichkeit. Dieser Strang ist erklärend und diagnostisch, noch kein Behandlungsziel.
+
+Lesen Sie den Beitrag:
+
+1. **[Die zerebellär-glutamaterge Verbindung bei Autismus: Eine Hypothese auf Verdrahtungsebene](../autism-cerebellar-glutamate/index.qmd)** — die Purkinje-Zellen-Evidenz, das glutamaterge genetische Signal, die gemeinsamen Merkmale, die testbare Vorhersage zur sensorischen Empfindlichkeit und die ehrlichen Grenzen.
+
+---
+
+## Teil 4: Erworben vs. entwicklungsbedingt — wann autismusähnliche Merkmale reversibel sein könnten
+
+Die klinisch folgenreiche Frage: Sind autismusähnliche Merkmale notwendigerweise von der Entwicklung an vorhanden, oder können einige *erworben* — und daher reversibel — sein? Sensorische Starre, Rückzug und scheinbare Alexithymie können nach der Entwicklung entstehen statt aus ihr. Beides zu unterscheiden bestimmt, ob ein Symptom auf die Behandlung seiner Ursache ansprechen könnte oder stabile Verdrahtung ist.
+
+Lesen Sie den Beitrag:
+
+1. **[Erworben vs. entwicklungsbedingt: Wann autismusähnliche Merkmale reversibel sein könnten](../autism-acquired-reversible/index.qmd)** — der interozeptive Mechanismus, der Neuroinflammations-Weg, der Kontextabhängigkeitstest und die klinischen Folgen, wenn die Unterscheidung falsch getroffen wird.
+
+---
+
+## Eine Anmerkung zur Ehrlichkeit
+
+Jeder Beitrag dieser Serie unterscheidet sorgfältig, was durch Evidenz *bestätigt* ist, was eine *vielversprechende Hypothese* ist und was eine *individuelle Patientenerfahrung* ist. Ein Großteil des Inhalts hier liegt am Hypothese-Ende — die Gewissheiten sind explizit, oft niedrig, und nichts wird als etablierte klinische Tatsache oder Behandlungsempfehlung dargestellt.
+
+Die zugrunde liegende Wissenschaft stammt aus unserem Dokumentationsprojekt, das diese krankheitsübergreifenden Energie- und Immunmodelle im Detail entwickelt. Die autismusspezifische Rahmung ist unsere Lektüre der Fachliteratur, geschrieben, um für jeden zu bestehen, der sich für die Biologie interessiert.
+
+*Besprechen Sie jede medizinische Entscheidung mit einer qualifizierten Fachperson.*

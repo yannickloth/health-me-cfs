@@ -1,0 +1,101 @@
+---
+title: "Acquired vs. Developmental: When Autism-Like Features Might Be Reversible"
+description: "Some autism-like features — sensory rigidity, withdrawal, apparent alexithymia — can arise after development rather than from it. This final part examines the evidence that some of these are acquired and potentially reversible, and how to tell them apart from developmental autism."
+author: "Yannick Loth"
+date: "2026-08-23"
+categories: [Neurodivergence, Pathophysiology, Symptoms]
+---
+
+Parts 1–3 examined developmental causes of autism: an energy deficit, an immune subset, and a wiring difference. This final part asks a different and clinically consequential question:
+
+**When autism-like features are present, are they necessarily present from development — or can some of them be acquired, and therefore reversible?**
+
+The answer matters because a feature that is *acquired* may respond to treatment of its cause, whereas a feature that is *developmental* wiring generally will not. Conflating the two produces both false hope and missed opportunities.
+
+The series separates **what we know** from **what our research adds**. The established background, from the wider neuroimmunology literature our project draws on, is that neuroinflammation and disrupted sleep are measurable and can degrade cognitive and sensory function. What our research adds is the specific reading — that acquired autism-like rigidity should be context-dependent and reversible with treatment of its underlying cause, in contrast to stable developmental wiring. That reading is a registered speculation, not an established finding.
+
+---
+
+## The distinction
+
+There are two ways autism-like features can be present:
+
+- **Developmental (baseline).** The brain's circuits were built this way from early development. This is the classic picture — stable, trait-like, present from childhood. Parts 1–3 describe developmental mechanisms.
+- **Acquired (secondary).** The underlying wiring developed normally, but a later process — neuroinflammation, an immune insult, a metabolic disturbance — degrades the same circuits, producing *the same symptoms* through a different route.
+
+The key claim of this part: **acquired autism-like features should be context-dependent and potentially reversible**, whereas developmental autism is stable and trait-like. Our research registers this as a formal speculation — not an established finding.
+
+---
+
+## The mechanism: disrupted interoception
+
+The proposed route to acquired autism-like features runs through the **interoceptive hierarchy** — the brain's system for monitoring and predicting the body's internal state.
+
+Normally, the brain maintains a balance between its *predictions* about the body and the *sensory evidence* the body sends back. Two failure modes produce similar outward symptoms but from opposite ends:
+
+- **Developmental ASD** is thought to involve *overprecise priors* — the brain's predictions are too rigid, suppressing incoming sensory updates. The result: stable, trait-like perceptual rigidity.
+- **Acquired features** are thought to involve *corrupted lower-level signals* — the brainstem and thalamocortical pathways fail to deliver accurate bodily information. The brain compensates by increasing the precision of its priors to suppress the noise.
+
+The phenomenological result can look identical: sensory overwhelm, difficulty reading internal states, apparent alexithymia (an inability to name one's emotions — not from absent emotion, but from an inability to link it to a specific bodily state). But the computational locus differs — and so should the response to treatment.
+
+---
+
+## The test: context-dependence
+
+Because the two routes differ in *stability*, they can be told apart empirically:
+
+> If acquired autism-like sensory rigidity shows the **same trait stability and context-independence** as developmental autism — persisting unchanged and not correlating with markers of neuroinflammation — the acquired model is not supported.
+
+In other words: developmental rigidity is always there. Acquired rigidity should fluctuate with the underlying process (inflammation, metabolic state) and should improve when that process is treated.
+
+---
+
+## A second mechanism: neuroinflammation and microglial activation
+
+A related route is **chronic neuroinflammation** — sustained microglial and astroglial activation degrading prefrontal, mesolimbic, and thalamocortical circuits. The proposal is that sustained neuroinflammation can be *sufficient* to produce autism-like and ADHD-like phenotypes in people whose pre-illness neurodevelopment was intact — a registered research speculation.
+
+If this cascade is the proximate cause, then **interventions targeting neuroinflammation should partially reverse these secondary phenotypes** — a testable and not-yet-tested prediction.
+
+---
+
+## A third mechanism: disrupted sleep and clearance
+
+A further acquired route operates through sleep. Neurodivergent people have high rates of sleep disruption. If sleep — the brain's primary window for repair and for clearing metabolic waste (the glymphatic system) — is chronically degraded, this compounds any underlying energy or inflammatory disturbance and can worsen cognitive and sensory symptoms over time.
+
+This is the most speculative strand, with the lowest confidence, and it involves a long chain of untested links. It is included for completeness, not because it is well supported.
+
+---
+
+## The honest limits
+
+- The acquired model is **explicitly speculative** — a registered hypothesis with low confidence — and a simpler explanation (inflammation directly causing both the symptoms and the underlying process) may account for the findings without any interoceptive framework.
+- None of the theoretical components has been directly validated in this context.
+- The distinction between acquired and developmental is not yet usable at the bedside: no test currently separates the two in an individual patient.
+- Even if some features are acquired and reversible, this does not mean "autism can be cured." It means a *subset of the symptom burden* in some people may respond to treating its cause.
+
+---
+
+## The clinical consequence — and the harm of getting it wrong
+
+The reason this distinction matters clinically:
+
+- **If acquired features are dismissed as "just autism"**, a treatable underlying process (inflammation, a metabolic deficit, disrupted sleep) goes unaddressed.
+- **If developmental features are treated as acquired and reversible**, patients are offered treatments that will not work, and may blame themselves when they don't.
+
+The honest position is that acquired autism-like features should be **supported, not pathologized** — and the underlying modifiable drivers (sleep, inflammation, iron, energy) should be addressed regardless of the label, because they affect overall wellbeing even when the core developmental wiring is unchanged.
+
+---
+
+## What to take away
+
+Some autism-like features — sensory rigidity, withdrawal, apparent alexithymia — may be **acquired** after development rather than built in from it. If they are, they should be **context-dependent and potentially reversible** with treatment of the underlying cause: neuroinflammation, metabolic disturbance, or sleep disruption.
+
+The encouraging part: this means a meaningful fraction of the daily symptom burden in some people may be addressable without claiming to "fix" autism itself.
+
+The honest part: this is a low-confidence hypothesis, and the decisive test — showing that acquired rigidity fluctuates with underlying inflammation while developmental rigidity does not — has not been run.
+
+---
+
+*This concludes the four-part series on the biology of autism. Part 1 examined the brain-energy model and the multi-pathway treatment hypothesis, Part 2 the immune-mediated subset, Part 3 the cerebellar-glutamate connection, and Part 4 the distinction between acquired and developmental features.*
+
+*This article reflects research hypotheses with explicit, low confidence — not established clinical fact. Discuss any medical decision with a qualified clinician.*
