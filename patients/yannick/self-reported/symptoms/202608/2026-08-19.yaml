@@ -65,6 +65,32 @@ symptoms:
 
 overall_wellbeing: ~
 
+evening_update:
+  timestamp: "2026-08-19 evening"
+  headache:
+    severity: notable
+    type: "ME/CFS-type migraine"
+    notes: >
+      Evening: ME/CFS-type migraine. Patient reports NO desire to make any
+      effort (aversion to exertion / wanting rest). Distinct from the morning
+      forearm vascular pain — this is a separate symptom layer.
+  exertion_aversion:
+    present: true
+    notes: "'Je n'ai envie de faire aucun effort' — no desire to exert, wanting to rest (post-exertional exhaustion signal)."
+  context:
+    afternoon_activity: "Visit to Science Center de Differdange with the children."
+    notes: >
+      Full-day out that included the afternoon Science Center visit (walking,
+      standing, sensory stimulation) on top of the morning's baseline
+      forearm-pain + fatigue. Evening migraine of ME/CFS type may reflect
+      post-exertional / sensory-load response to the day's activity.
+  pem_relevance: |
+    Monitor: evening migraine + exertion aversion after a day with an
+    afternoon outing (Science Center) + pre-existing fatigue/forearm pain.
+    Consistent with a PEM or sensory-overload response. Track whether migraine
+    resolves overnight and whether it is followed by elevated fatigue /
+    next-day PEM (see 2026-08-18 garden-work PEM-risk context).
+
 mestinon_trial_tracking:
   active: true
   started: 2026-08-19
@@ -82,15 +108,18 @@ mestinon_trial_tracking:
     Failure = GI side effect returns to the level that forced the June stop.
 
 activity:
-  activity_level: ~
+  activity_level:
+    - description: "Visit to Science Center de Differdange with the children (afternoon)."
+      exertion_level: moderate
+      notes: "Walking, standing, sensory stimulation. On top of morning baseline fatigue + forearm pain. Evening migraine of ME/CFS type followed."
   unable_to_rest: false
-  notes: ~
+  notes: "Afternoon outing (Science Center Differdange). Evening: ME/CFS-type migraine + no desire to exert."
 
 pem_tracking:
-  trigger_event: "Garden work 2026-08-17 (see 2026-08-18 log)"
+  trigger_event: "Garden work 2026-08-17 (see 2026-08-18 log); afternoon outing Science Center Differdange 2026-08-19"
   pem_day: ~
-  status: ~
-  notes: "Monitor for PEM following garden-work + cramp day (2026-08-18/19 per prior log)."
+  status: "Evening 2026-08-19: ME/CFS-type migraine + exertion aversion — possible PEM or sensory-overload response. Confirmation pending next-day."
+  notes: "Monitor for PEM following garden-work + cramp day (2026-08-18/19 per prior log) and after 2026-08-19 afternoon outing."
 
 pem_risk:
   level: ~
@@ -143,18 +172,33 @@ hypotheses:
     status: patient_hypothesis
     falsifiable: true
     test: "Prospective daily logging of each component (location, trigger, position, character, sleep) + the passive position test would reveal whether the forearm pain tracks posture (vascular) independently of the other layers, or co-varies with sleep/exertion/cramps (shared driver)."
-  - id: mestinon_response_supports_vascular_axis
+  - id: evening_migraine_pem_or_fatigue
     text: >
-      Patient reports Mestinon (pyridostigmine) was "probably good" for the
-      vascular forearm pain but caused excessive gut motility (M3
-      muscarinic-mediated GI side effect), driving its dose reduction
-      (3×3→3×1/day, 2026-05-22). Mestinon's benefit via ACh→M3 vasodilation
-      is consistent with the forearm pain being autonomic/vascular
-      (β2-adrenergic/M3 GPCR axis, notes/gpcr-muscle-pain.md). This is a
-      response-to-intervention signal supporting the vascular read.
+      Evening 2026-08-19: ME/CFS-type migraine + marked exertion aversion
+      ('je n'ai envie de faire aucun effort') after a day that included an
+      afternoon outing (Science Center Differdange). Ambiguity: is this a PEM
+      (post-exertional malaise despite aripiprazole), or just intense fatigue?
+      A migraine of ME/CFS type following exertion/sensory load could be a PEM
+      signal; LDA does not fully abolish PEM per prior records. Distinct from
+      the morning forearm vascular pain and the diffuse sleep-linked myalgia.
     status: patient_hypothesis
     falsifiable: true
-    test: "If a future (physician-directed) Mestinon reintroduction at a tolerated dose reproduces forearm-pain relief WITHOUT unacceptable GI motility, confirms the M3-vascular axis. NOT to be self-experimented; recovery-priority constraint. Documented as evidence for Dr. Nicolas discussion."
+    test: "Confirmation pending next-day (2026-08-20): if elevated fatigue / reduced functioning / additional ME/CFS-type symptoms persist the next day after normal rest, supports PEM (despite LDA); if the migraine resolves overnight with no next-day functional drop, it was intense fatigue / a transient sensory-load migraine rather than a full PEM episode. Log next-day status to discriminate."
+  - id: mestinon_trial_will_test_vascular_axis
+    text: >
+      CORRECTION 2026-08-19: a prior hypothesis here stated the patient
+      reported Mestinon was "probably good" for the vascular forearm pain.
+      This claim is RETRACTED — the patient made no such claim, and no
+      benefit is established. Whether Mestinon (pyridostigmine) benefits
+      the forearm pain is an UNTESTED question. The ongoing 2026-08-19
+      low-dose retrial (1 pill/day) is the first controlled evaluation:
+      it tests whether ACh→M3 vasodilation (β2-adrenergic/M3 GPCR axis,
+      notes/gpcr-muscle-pain.md) helps the vascular forearm pain WITHOUT
+      the excess gut motility that forced the June stop. This is the only
+      evidence source for the M3-vascular read.
+    status: patient_hypothesis
+    falsifiable: true
+    test: "If the 1-pill/day retrial shows forearm-pain relief WITHOUT unacceptable GI motility, supports the M3-vascular axis. If no benefit or GI side-effect returns unacceptably, the trial fails and the M3-vascular read is unsupported. Passive observation only; recovery-priority constraint. Outcome to report for Dr. Nicolas discussion."
 
 weather:
   location: "Messancy, Belgium"

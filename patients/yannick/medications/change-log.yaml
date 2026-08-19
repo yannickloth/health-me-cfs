@@ -1,6 +1,26 @@
 # Medication Change Log
 
 changes:
+  - date: 2026-08-10
+    medication: "Low-Dose Naltrexone (LDN)"
+    action: restart
+    previous_dose: none (stopped 2026-08-02)
+    new_dose: 4mg
+    rationale: >
+      Patient resumed LDN at 4mg on 2026-08-10 after a brief ~4-5 day
+      interruption (2026-08-02 to ~2026-08-07). NOT a permanent
+      discontinuation. Reintroduced at the previous dose level; maintained
+      concurrently with aripiprazole (LDA) 1mg.
+    notes: >
+      CORRECTION 2026-08-19: the regimen previously recorded LDN as
+      "STOPPED 2026-08-02". Actual status = RESUMED 2026-08-10 at 4mg,
+      so the interruption was only ~4-5 days, not a stop. Prior 4mg
+      trial showed no clear effectiveness (adequate ~6-month trial
+      assessed 2026-07-09), but LDN was restarted at the same dose and
+      is ongoing alongside LDA. No lower-dose retrial was pursued;
+      that remains an open option if the current 4mg reconfirms
+      non-response.
+
   - date: 2026-08-19
     medication: "Pyridostigmine (Mestinon)"
     action: restart / time-boxed trial
@@ -8,9 +28,11 @@ changes:
     new_dose: "1 pill per day"
     rationale: >
       Retrial at low dose (1 pill/day) to test whether a small dosage gives
-      the vascular/autonomic benefit (which helped the forearm vascular pain
-      when on Mestinon) WITHOUT the excess gut motility that forced the stop
-      end of June. Patient self-initiated trial (2026-08-19).
+      a vascular/autonomic benefit to the forearm pain WITHOUT the excess gut
+      motility that forced the stop end of June. NOTE: no benefit has been
+      established or claimed for the forearm pain — this is an ongoing trial
+      to evaluate, not an established outcome. Patient self-initiated trial
+      (2026-08-19).
     notes: >
       TIME-BOXED trial — patient will run for "some days" and observe.
       Outcome measure: does 1 pill/day (a) reduce forearm vascular pain /
@@ -53,8 +75,9 @@ changes:
       pain crash. Retrospective impression; needs prospective Mg-vs-cramp
       tracking. See spontaneous-cramps.yaml magnesium_correlation block.
 
-
-    action: stop
+  - date: 2026-08-02
+    medication: "Low-Dose Naltrexone (LDN)"
+    action: stop (temporary / brief)
     previous_dose: 4mg
     new_dose: none
     rationale: >
@@ -235,12 +258,14 @@ changes:
     rationale: clinical decision (per patient/provider discussion)
     notes: |
       significant dose reduction; monitor for autonomic symptom changes.
-      PATIENT ADDED 2026-08-19: Mestinon was "probably good" (helped the
-      vascular/autonomic forearm pain) but GUT MOTILITY was too high
-      (M3 muscarinic-mediated GI side effect) — a driver of the dose
-      reduction. Supports the autonomic/M3-vascular axis for the forearm
-      pain (response to ACh/M3 vasodilation). Do NOT restart/escalate
-      without physician direction (recovery-priority constraint).
+      CORRECTION 2026-08-19: a prior note here claimed Mestinon was
+      "probably good" (helped the vascular/autonomic forearm pain). This
+      claim is RETRACTED — the patient states no such benefit was claimed
+      or established. The dose reduction was driven by GUT MOTILITY (M3
+      muscarinic-mediated GI side effect). Whether Mestinon benefits the
+      forearm pain is an UNTESTED question, addressed by the ongoing
+      2026-08-19 low-dose retrial. Do NOT restart/escalate without
+      physician direction (recovery-priority constraint).
 
   - date: 2026-06-30
     medication: "Pyridostigmine (Mestinon)"
@@ -254,11 +279,13 @@ changes:
       correction: prior records (regimen current-regimen.yaml + this change-log)
       still listed Mestinon as ACTIVE at 3×1/day. Actual status = DISCONTINUED
       since end June.
-      NOTE: patient reported earlier (same day) that Mestinon was "probably
-      good" for the vascular/autonomic forearm pain — so the stop is on
-      GI-tolerability grounds, not lack of effect. The M3-GI side effect vs
-      M3-vascular benefit tradeoff is the open question for Dr. Nicolas.
-      Do NOT restart without physician direction (recovery-priority
+      CORRECTION 2026-08-19: a prior note here stated Mestinon was "probably
+      good" for the vascular/autonomic forearm pain. This claim is RETRACTED
+      — no such benefit was claimed or established. The stop was on
+      GI-tolerability grounds (excess gut motility), not lack of effect on a
+      stated benefit. Whether Mestinon helps the forearm pain is UNTESTED,
+      to be evaluated by the ongoing 2026-08-19 low-dose retrial.
+      Do NOT restart/escalate without physician direction (recovery-priority
       constraint).
 
   - date: 2026-05-22
