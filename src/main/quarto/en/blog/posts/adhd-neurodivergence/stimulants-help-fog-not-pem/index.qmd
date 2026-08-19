@@ -12,7 +12,7 @@ This is the sixth in a series on the energy biology linking ADHD, autism, and ME
 
 ## The data
 
-A 2025 PNAS survey of **3,925 ME/CFS patients** assessed treatment outcomes across multiple domains [@Vernon2025PNAS]:
+A 2025 PNAS survey of **3,925 ME/CFS patients** assessed treatment outcomes across multiple domains [@Eckey2025PatientReported]:
 
 - Stimulants improved **brain fog in 77.1%**
 - Stimulants improved **fatigue perception in 71.7%**
@@ -62,7 +62,7 @@ The logic: if the stimulant reduces the metabolic cost of cognitive function by 
 
 The logic: they feel better, do more, exceed the envelope. The stimulant enabled them to overshoot without realising it.
 
-The **net -1.5%** in the Vernon survey is likely the average of these two opposing effects. Some patients paced and benefited. Some patients did more and crashed. The average: approximately zero.
+The **net -1.5%** in the Eckey PNAS survey is likely the average of these two opposing effects. Some patients paced and benefited. Some patients did more and crashed. The average: approximately zero.
 
 No trial has tested this directly. No study has combined stimulant prescription with enforced pacing protocols. The **stimulants + strict pacing** combination is the untested intervention that the model predicts should work.
 

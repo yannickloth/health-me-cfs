@@ -13,7 +13,7 @@ Dies ist der sechste Teil einer Serie über die Energiebiologie, die ADHS, Autis
 
 ## Die Daten
 
-Eine PNAS-Umfrage von 2025 mit **3.925 ME/CFS-Patienten** bewertete die Behandlungsergebnisse über mehrere Domänen [@Vernon2025PNAS]:
+Eine PNAS-Umfrage von 2025 mit **3.925 ME/CFS-Patienten** bewertete die Behandlungsergebnisse über mehrere Domänen [@Eckey2025PatientReported]:
 
 - Stimulanzien verbesserten **Brain Fog bei 77,1 %**
 - Stimulanzien verbesserten **die Wahrnehmung von Müdigkeit bei 71,7 %**
@@ -63,7 +63,7 @@ Die Logik: Wenn das Stimulans die metabolischen Kosten der kognitiven Funktion u
 
 Die Logik: Sie fühlen sich besser, tun mehr, überschreiten die Hülle. Das Stimulans hat es ihnen ermöglicht, zu überschießen, ohne es zu merken.
 
-Die **Netto -1,5 %** in der Vernon-Umfrage ist wahrscheinlich der Durchschnitt dieser beiden entgegengesetzten Effekte. Einige Patienten hielten Tempo und profitierten. Einige Patienten taten mehr und crashten. Der Durchschnitt: etwa null.
+Die **Netto -1,5 %** in der Eckey-PNAS-Umfrage ist wahrscheinlich der Durchschnitt dieser beiden entgegengesetzten Effekte. Einige Patienten hielten Tempo und profitierten. Einige Patienten taten mehr und crashten. Der Durchschnitt: etwa null.
 
 Keine Studie hat dies direkt getestet. Keine Studie hat die Stimulanzien-Verordnung mit erzwungenen Pacing-Protokollen kombiniert. Die Kombination **Stimulanzien + striktes Pacing** ist die ungetestete Intervention, von der das Modell vorhersagt, dass sie funktionieren sollte.
 

@@ -67,7 +67,7 @@ Le modèle prédit une **hystérésis** — inverser l'infection ne renverse pas
 
 ## La dissociation par les stimulants : cohérente avec le modèle
 
-Une enquête PNAS de 2025 auprès de 3 925 patients atteints d'EM/SFC a constaté [@Vernon2025PNAS] :
+Une enquête PNAS de 2025 auprès de 3 925 patients atteints d'EM/SFC a constaté [@Eckey2025PatientReported] :
 
 - Les stimulants amélioraient le **brouillard cérébral dans 77,1 % des cas**
 - Les stimulants amélioraient la **perception de la fatigue dans 71,7 % des cas**

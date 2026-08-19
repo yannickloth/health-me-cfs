@@ -13,7 +13,7 @@ C'est le sixième d'une série sur la biologie de l'énergie reliant le TDAH, l'
 
 ## Les données
 
-Un sondage PNAS de 2025 portant sur **3 925 patients atteints d'EM/SFC** a évalué les résultats de traitement dans de multiples domaines [@Vernon2025PNAS] :
+Un sondage PNAS de 2025 portant sur **3 925 patients atteints d'EM/SFC** a évalué les résultats de traitement dans de multiples domaines [@Eckey2025PatientReported] :
 
 - Les stimulants ont amélioré **le brouillard cérébral chez 77,1 %**
 - Les stimulants ont amélioré **la perception de la fatigue chez 71,7 %**
@@ -63,7 +63,7 @@ La logique : si le stimulant réduit le coût métabolique de la fonction cognit
 
 La logique : ils se sentent mieux, font plus, dépassent l'enveloppe. Le stimulant leur a permis de dépasser sans s'en rendre compte.
 
-Le **net de -1,5 %** dans le sondage Vernon est probablement la moyenne de ces deux effets opposés. Certains patients ont rythmé et en ont bénéficié. Certains patients en ont fait plus et ont crashé. La moyenne : approximativement zéro.
+Le **net de -1,5 %** dans le sondage Eckey de PNAS est probablement la moyenne de ces deux effets opposés. Certains patients ont rythmé et en ont bénéficié. Certains patients en ont fait plus et ont crashé. La moyenne : approximativement zéro.
 
 Aucun essai n'a testé cela directement. Aucune étude n'a combiné la prescription de stimulants avec des protocoles de pacing imposé. La combinaison **stimulants + pacing strict** est l'intervention non testée que le modèle prédit devoir fonctionner.
 

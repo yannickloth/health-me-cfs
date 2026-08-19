@@ -67,7 +67,7 @@ Das Modell sagt **Hysterese** voraus — die Umkehrung der Infektion kehrt ME/CF
 
 ## Die Stimulanzien-Dissoziation: konsistent mit dem Modell
 
-Eine PNAS-Umfrage von 2025 unter 3.925 ME/CFS-Patienten ergab [@Vernon2025PNAS]:
+Eine PNAS-Umfrage von 2025 unter 3.925 ME/CFS-Patienten ergab [@Eckey2025PatientReported]:
 
 - Stimulanzien verbesserten **Brain Fog bei 77,1 %**
 - Stimulanzien verbesserten die **Müdigkeitswahrnehmung bei 71,7 %**
