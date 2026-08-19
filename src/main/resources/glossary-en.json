@@ -11551,5 +11551,40 @@
     "label": "QSM",
     "category": "imaging",
     "definition": "Quantitative susceptibility mapping: an MRI technique that measures local magnetic susceptibility, used to quantify brain iron content. It helps distinguish iron deposition from myelin changes."
+  },
+  "gastroparesis": {
+    "label": "Gastroparesis",
+    "category": "condition",
+    "definition": "Delayed emptying of the stomach, causing early satiety, nausea, vomiting, bloating, and abdominal discomfort. In ME/CFS it is thought to reflect autonomic (vagal) dysfunction of gastric motility and can threaten nutrition in severe cases."
+  },
+  "GES": {
+    "label": "GES",
+    "category": "diagnostic",
+    "definition": "Gastric emptying scintigraphy: a standard imaging test that measures how quickly food empties from the stomach, used to confirm or rule out gastroparesis."
+  },
+  "gastric emptying scintigraphy": {
+    "label": "Gastric emptying scintigraphy",
+    "category": "diagnostic",
+    "definition": "A standard imaging test (abbreviated GES) that tracks the movement of a labelled meal through the stomach to measure how quickly it empties, used to diagnose gastroparesis."
+  },
+  "interstitial cells of Cajal": {
+    "label": "Interstitial cells of Cajal",
+    "category": "cell",
+    "definition": "The 'pacemaker' cells of the stomach and bowel that generate the electrical rhythm driving muscle contraction. Loss of these cells is found in diabetic and idiopathic gastroparesis."
+  },
+  "prokinetic": {
+    "label": "Prokinetic",
+    "category": "treatment",
+    "definition": "A class of drug that stimulates the movement of food through the gastrointestinal tract, used to treat gastroparesis. Examples include metoclopramide, domperidone, and prucalopride."
+  },
+  "5-HT4": {
+    "label": "5-HT4",
+    "category": "receptor",
+    "definition": "A serotonin receptor subtype on gut-nerve cells; stimulating it (with drugs such as prucalopride) increases gastric and intestinal motility, making it a prokinetic target."
+  },
+  "prucalopride": {
+    "label": "Prucalopride",
+    "category": "medication",
+    "definition": "A highly selective 5-HT4-agonist prokinetic used (often off-label) for gastroparesis and chronic constipation. It stimulates gut motility with a lower reported cardiovascular/QT risk than some older prokinetics."
   }
 }

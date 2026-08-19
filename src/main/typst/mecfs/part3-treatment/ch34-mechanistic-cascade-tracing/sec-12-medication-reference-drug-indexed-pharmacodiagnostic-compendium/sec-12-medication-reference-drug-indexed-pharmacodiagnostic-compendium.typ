@@ -823,7 +823,7 @@ Corrective — Nrf2 activator + immunomodulator; activates endogenous anti-infla
 
 === Domperidone
 
-*Appears in:* Cross-reference matrix.
+*Appears in:* Cross-reference matrix, @subsec:gastroparesis, @oq:gastroparesis-enteric-icc-loss-mecfs (prokinetic response discriminates receptor-mediated from structural ICC/enteric-neuron loss).
 #strong[HD] Threshold-modulatory — peripheral D2 antagonist; prokinetic — QT prolongation risk.
 
 
@@ -991,7 +991,7 @@ Corrective — MMP inhibition at sub-antimicrobial doses reduces ECM degradation
 
 === Erythromycin (Low-Dose, Prokinetic)
 
-*Appears in:* Cross-reference matrix.
+*Appears in:* Cross-reference matrix, @subsec:gastroparesis, @oq:gastroparesis-enteric-icc-loss-mecfs (motilin-pathway response distinguishes functional motilin-driven emptying from structural ICC/enteric-neuron loss).
 #strong[HD] Threshold-modulatory — motilin agonist; prokinetic — tachyphylaxis within 2–4 weeks.
 
 
@@ -1291,7 +1291,7 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 
 === IVIG (Intravenous Immunoglobulin)
 
-*Appears in:* Cross-reference matrix.
+*Appears in:* Cross-reference matrix, @spec:gastroparesis-autoimmune-ganglionic-blockade (immunotherapy response distinguishes reversible autoimmune ganglionic AChR blockade from structural gastroparesis), @subsec:gastroparesis.
 Corrective — neutralizes autoantibodies + immunomodulation; does not eliminate the plasma cell source — transient effect
 
 
@@ -1699,7 +1699,7 @@ Corrective — AMPK activation restoring metabolic efficiency + reducing mTORC1 
 
 === Metoclopramide
 
-*Appears in:* Cross-reference matrix.
+*Appears in:* Cross-reference matrix, @subsec:gastroparesis, @oq:gastroparesis-enteric-icc-loss-mecfs (D2/5-HT4 response discriminates receptor-mediated from structural ICC/enteric-neuron gastroparesis).
 #strong[HD] Threshold-modulatory — D2 antagonist + 5-HT4 agonist; prokinetic — extrapyramidal risk.
 
 
@@ -2103,6 +2103,20 @@ Corrective — statin with pleiotropic anti-inflammatory effects; may reduce end
 
 #strong[W] *Mechanism:* A (OH → cerebral hypoperfusion → PEM from ischemic stress if dose too high or taken during daytime). Reversible with drug clearance (half-life ~2--3h). *Protracted risk:* Very Low. *Permanent risk:* Very Low. *Rechallenge:* Yes, at 0.25--0.5 mg at bedtime only. If OH at 0.5 mg: α1-dependent BP confirmed — diagnostic; the dose was too high. If no OH at 1 mg + no glymphatic benefit: glymphatic pathology is not NE-driven.
 
+=== Prucalopride
+
+*Appears in:* Cross-reference matrix, @subsec:gastroparesis, @oq:gastroparesis-enteric-icc-loss-mecfs (5-HT4-response discriminates receptor-mediated from structural ICC/enteric-neuron gastroparesis).
+#strong[HD] Threshold-modulatory — selective 5-HT#sub[4] agonist; prokinetic that bypasses D2/motilin; no QT-signal in trials @Patel2024SHT4Gastroparesis but not approved for gastroparesis in all jurisdictions.
+
+
+#finding(claim: [5-HT4-mediated gastric emptying rate-limiting], explanation: [5-HT4-mediated gastric emptying rate-limiting. Prucalopride's selective 5-HT4 agonism enhances cholinergic-driven peristalsis and gastric accommodation → improved emptying confirms the 5-HT4/enteric-cholinergic pathway is functional and rate-limiting, distinct from D2 (domperidone/metoclopramide) and motilin (erythromycin) nodes.], certainty: [Low], level: [Partial root cause])
+
+#finding(claim: [5-HT4 not rate-limiting], explanation: [5-HT4 not rate-limiting. If prucalopride fails but a D2 or motilin prokinetic works → the emptying lesion is D2- or motilin-mediated, not 5-HT4. If all prokinetics (5-HT4, D2, motilin) fail → the lesion is downstream of receptor-driven motility: structural enteric-neuron/ICC loss, ganglionic AChR blockade, or severe efferent denervation (see @oq:gastroparesis-enteric-icc-loss-mecfs, @spec:gastroparesis-autoimmune-ganglionic-blockade).], certainty: [Low], level: [Partial root cause])
+
+#finding(claim: [Headache/diarrhoea at standard dose], explanation: [Headache/diarrhoea at standard dose → 5-HT4 engagement confirmed (Pattern 4). Abdominal cramping → enhanced peristalsis — the enteric cholinergic machinery is intact and responsive to 5-HT4 drive; confirms functional, non-structural gastroparesis.], certainty: [Low], level: [Partial root cause])
+
+#strong[W] *Mechanism:* None plausibly causing protracted or permanent worsening — 5-HT4 agonism is reversible and receptor-directed. *Protracted risk:* Very Low. *Permanent risk:* Very Low. *Rechallenge:* Yes. Lowest-risk prokinetic option where the gastroparesis is receptor-driven; a null response is itself diagnostic (points to structural or autoimmune, not functional 5-HT4, pathology).
+
 === Prednisolone
 
 *Appears in:* Cross-reference matrix (same diagnostic as Corticosteroids group entry).
@@ -2147,7 +2161,7 @@ Corrective — statin with pleiotropic anti-inflammatory effects; may reduce end
 
 === Pyridostigmine
 
-*Appears in:* @sec:aimm-cascade F0, @sec:aimm-cascade F1, cross-reference matrix.
+*Appears in:* @sec:aimm-cascade F0, @sec:aimm-cascade F1, cross-reference matrix, @subsec:gastroparesis, @spec:gastroparesis-autoimmune-ganglionic-blockade (cholinergic-enhancement response distinguishes functional efferent ACh deficit from ganglionic AChR blockade), @oq:gastroparesis-enteric-icc-loss-mecfs.
 Corrective — acetylcholinesterase inhibitor enhancing ganglionic transmission + parasympathetic tone; compensates for impaired autonomic neurotransmission
 
 

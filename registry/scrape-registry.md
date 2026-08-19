@@ -977,3 +977,15 @@ Prevents re-processing of already-integrated content.
 |-----|--------|---------|------------|--------|
 | PubMed E-utilities API (13 queries + efetch/esummary, batch) | pubmed/eutils | 2026-08-18 | — | ops/research/search-log-ldn-fibromyalgia-responder-rates-2026-08-18.md, ops/research/literature-summary-ldn-fibromyalgia-responder-rates-2026-08-18.md, bib/treatments.bib (8 new), bib/immune.bib (2 new), appendix-h (10 annotated entries) — LDN FM 30%-responder NULL-evidence topic (Nielsen 2026 primary + Due Bruun 2026 re-analysis + INNOVA RCT + meta-analyses + harm + 2 mechanism) |
 | Crossref API (2 DOIs) | crossref | 2026-08-18 | — | DOI 10.3344/kjp.25275 (Due Bruun 2026 re-analysis metadata) + DOI 10.1016/s2665-9913(23)00297-7 (Häuser 2024 editorial metadata) |
+
+---
+
+## Gastroparesis and Delayed Gastric Emptying in ME/CFS (2026-08-19)
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-08-19 | 39 queries: direct (gastroparesis/chronic fatigue/gastric emptying × ME/CFS), null/negative (failed replication, ME/CFS null), competing (gastroparesis functional dyspepsia overlap, gastroparesis vs dyspepsia mechanism), indirect biochemical/systemic MANDATORY (gastroparesis POTS, vagal denervation gastroparesis chronic fatigue, ICC chronic fatigue, enteric neuropathy fatigue, cholinergic gastric motility dysautonomia, nitric oxide nNOS, ICC gastroparesis, diabetic GP ICC/neuronal loss), diagnostic (GES scintigraphy consensus, GCSI), treatment (prucalopride trial, GLP-1 emptying, GPOEM, pyloromyotomy, GP review), harm MANDATORY (prokinetic adverse effects, metoclopramide contraindications/TD/black-box, domperidone QT, erythromycin long-term tolerance, prucalopride ME/CFS safety/QT, gastroparesis treatment safety), cross-disease (diabetic gastroparesis prevalence), post-viral (long COVID gastroparesis, post viral gastroparesis, COVID-19 emptying, SARS-CoV-2 GI dysmotility). Crossref for DOI metadata (Burnet, Montalvo, Grover, Wang). Null+competing+harm+indirect-biochemical searches MANDATORY included. |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed E-utilities API (39 queries + efetch/esummary, batch) | pubmed/eutils | 2026-08-19 | — | ops/research/search-log-gastroparesis-2026-08-19.md, ops/research/literature-summary-gastroparesis.md, bib/gut-microbiome.bib (6 new), bib/treatments.bib (4 new), bib/autonomic-cardiovascular.bib (2 new), bib/long-covid.bib (1 new), appendix-h (13 annotated entries, sec:bib-gastroparesis) — gastroparesis/delayed gastric emptying in ME/CFS (direct Burnet 2004 + null Corrado 1998 + mechanism Grover 2011/Wang 2009/Debourdeau 2024 + diagnostic Wise 2021 + treatment Ingrosso 2023/Patel 2024/Gupta 2016 + harm Shakhatreh 2019 + POTS Tseng 2019/Aziz 2025 + post-viral Montalvo 2022) |
+| Crossref API (4 DOIs) | crossref | 2026-08-19 | — | DOI 10.1186/1471-230X-4-32 (Burnet 2004), 10.1111/nmo.14314 (Montalvo 2022), 10.1053/j.gastro.2011.01.046 (Grover 2011), 10.1111/j.1365-2982.2009.01336.x (Wang 2009) metadata verification |

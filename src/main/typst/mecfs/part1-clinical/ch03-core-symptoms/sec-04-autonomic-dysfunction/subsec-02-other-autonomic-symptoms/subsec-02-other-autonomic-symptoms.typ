@@ -30,7 +30,7 @@ Thermoregulatory and sympathetic sweating dysfunction:
 
 Autonomic control of GI function is commonly impaired:
 
-    - *Gastroparesis*: Delayed gastric emptying causing early satiety, nausea, bloating
+    - *Gastroparesis*: Delayed gastric emptying causing early satiety, nausea, bloating. Delayed gastric emptying has been measured in a ME/CFS cohort and correlated with symptom severity @Burnet2004GastricEmptyingCFS.
     - *Irritable Bowel Syndrome (IBS)*: Diarrhea-predominant, constipation-predominant, or alternating
     - *Dysmotility*: Impaired intestinal peristalsis
     - *Nausea*: Chronic or episodic, often worse upon standing (orthostatic nausea)

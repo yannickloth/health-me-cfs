@@ -7415,6 +7415,214 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
 
 // =============================================================================
 
+== Gastroparesis and Delayed Gastric Emptying
+<sec:bib-gastroparesis>
+// =============================================================================
+
+=== Burnet et al.\ 2004 — Gastric Emptying Is Slow in Chronic Fatigue Syndrome
+
+    @Burnet2004GastricEmptyingCFS
+
+    *Full Citation:*: Burnet RB, Chatterton BE. Gastric emptying is slow in chronic fatigue syndrome. _BMC Gastroenterology_. 2004;4:32.
+    *DOI:*: #link("https://doi.org/10.1186/1471-230X-4-32")[10.1186/1471-230X-4-32]
+    *PMID:*: 15619332
+    *Study Design:*: Cohort with radionuclide (scintigraphic) oesophageal clearance and simultaneous liquid/solid gastric emptying; historical controls; GI symptom questionnaire.
+    *Sample Size:*: 32 CFS patients + 45 questionnaire controls; 32 underwent emptying studies.
+    *Key Findings:*:
+
+        - 23/32 patients showed delayed liquid gastric emptying and 12/32 delayed solid emptying
+        - Delay significantly correlated with mean upper GI symptom score (p $<$ 0.001)
+        - Nocturnal diarrhoea was a significant, previously unreported symptom
+        - Oesophageal clearance was not significantly different from controls and did not correlate with symptoms
+    *Conclusion:*: Upper GI symptoms in chronic fatigue syndrome are associated with objective changes in gastric emptying, providing direct radionuclide evidence of delayed gastric emptying in ME/CFS.
+    *Limitations:*: n=32 moderate; single-centre; historical rather than matched contemporaneous controls; diagnostic criteria (Fukuda-era) not precisely stated in abstract; not independently replicated as a cohort.
+
+=== Corrado et al.\ 1998 — Normal Gastric Emptying and Myoelectrical Activity in an Adolescent With CFS (Null)
+
+    @Corrado1998NormalGastricEmptying
+
+    *Full Citation:*: Corrado G, Riezzo G, Rea P, Pacchiarotti C, Cavaliere M, Cardi E. Normal gastric emptying time and myoelectrical activity in an adolescent with chronic fatigue syndrome. _Italian Journal of Gastroenterology and Hepatology_. 1998;30(4):444--445.
+    *PMID:*: 9789150
+    *Study Design:*: Case report (single adolescent with CFS); gastric emptying time + electrogastrography (myoelectrical activity).
+    *Sample Size:*: n=1.
+    *Key Findings:*:
+
+        - Normal gastric emptying time in the adolescent with CFS
+        - Normal myoelectrical activity on electrogastrography
+    *Conclusion:*: This isolated single-case observation did not reproduce delayed gastric emptying; it is the null/negative data point for the ME/CFS gastric-emptying question.
+    *Limitations:*: n=1 case report; pediatric/adolescent; low evidentiary weight; does not contradict the larger n=32 Burnet 2004 cohort.
+
+=== Debourdeau et al.\ 2024 — Gastric Volumetry: Fundic Compliance and Visceral Hypersensitivity in Gastroparesis
+
+    @Debourdeau2024GastricVolumetry
+
+    *Full Citation:*: Debourdeau A, Gonzalez JM, Mathias F, Prost C, Barthet M, Vitton V. Gastric volumetry for the assessment of fundic compliance and visceral hypersensitivity in patients with gastroparesis: a retrospective comparative study. _Scandinavian Journal of Gastroenterology_. 2024;59(3):254--259.
+    *DOI:*: #link("https://doi.org/10.1080/00365521.2023.2279928")[10.1080/00365521.2023.2279928]
+    *PMID:*: 37975245
+    *Study Design:*: Retrospective comparative study; gastric volumetry to measure fundic compliance and visceral hypersensitivity in gastroparesis.
+    *Key Findings:*:
+
+        - Gastroparesis overlaps with impaired gastric accommodation and visceral hypersensitivity, the hallmark functional-dyspepsia mechanisms
+        - Volumetric assessment refines gastroparesis beyond simple emptying delay
+    *Conclusion:*: Gastroparesis and functional dyspepsia share accommodation and visceral-hypersensitivity physiology; this competing-mechanism overlap informs interpretation of GI symptoms in ME/CFS.
+    *Limitations:*: Retrospective; single-centre; small/unstated sample; general gastroparesis population (not ME/CFS).
+
+=== Wise et al.\ 2021 — Gastric Emptying Scans: Poor Adherence to National Guidelines
+
+    @Wise2021GastricEmptyingScans
+
+    *Full Citation:*: Wise JL, Vazquez-Roque MI, McKinney CJ, Zickella MA, Crowell MD, Lacy BE. Gastric emptying scans: poor adherence to national guidelines. _Digestive Diseases and Sciences_. 2021;66(9):2897--2906.
+    *DOI:*: #link("https://doi.org/10.1007/s10620-020-06314-2")[10.1007/s10620-020-06314-2]
+    *PMID:*: 32418002
+    *Study Design:*: Multi-centre chart audit of gastric emptying scintigraphy (GES) protocol adherence.
+    *Key Findings:*:
+
+        - Widespread non-adherence to standardized GES protocols (meal standardization, 4-hour imaging, normative interpretation)
+        - Protocol variability undermines the comparability and validity of gastric-emptying results
+    *Conclusion:*: Diagnostic gastric-emptying studies in ME/CFS (and elsewhere) must be interpreted with attention to protocol adherence, otherwise false-positive and false-negative results are common.
+    *Limitations:*: Audit of general-practice GES (not ME/CFS-specific); focuses on methodology rather than clinical outcomes.
+
+=== Ingrosso et al.\ 2023 — Efficacy and Safety of Drugs for Gastroparesis: Network Meta-analysis
+
+    @Ingrosso2023GastroparesisDrugsNMA
+
+    *Full Citation:*: Ingrosso MR, Camilleri M, Tack J, Ianiro G, Black CJ, et al. Efficacy and safety of drugs for gastroparesis: systematic review and network meta-analysis. _Gastroenterology_. 2023;164(4):642--654.
+    *DOI:*: #link("https://doi.org/10.1053/j.gastro.2022.12.014")[10.1053/j.gastro.2022.12.014]
+    *PMID:*: 36581089
+    *Study Design:*: Systematic review + network meta-analysis of prokinetic and anti-nausea drugs for gastroparesis.
+    *Key Findings:*:
+
+        - Best available comparative evidence for metoclopramide, domperidone, erythromycin, prucalopride, and related agents
+        - Includes adverse-effect and safety comparisons across prokinetics
+    *Conclusion:*: Provides the treatment-evidence backbone for prokinetic selection in gastroparesis, with explicit efficacy and safety trade-offs; no ME/CFS-specific data exist.
+    *Limitations:*: General gastroparesis population (not ME/CFS); drug-specific subgroups vary in size; placebo-response and protocol heterogeneity across trials.
+
+=== Patel et al.\ 2024 — Safety and Efficacy of 5-HT4 Agonists for Gastroparesis: Meta-analysis of RCTs
+
+    @Patel2024SHT4Gastroparesis
+
+    *Full Citation:*: Patel P, Zaher EA, Khataniar H, Ebrahim MA, Loganathan P, et al. Safety and efficacy of highly selective 5-hydroxytryptamine receptor 4 agonists for diabetic and idiopathic gastroparesis: a systematic review and meta-analysis of randomized controlled trials. _Cureus_. 2024;16(1):e51851.
+    *DOI:*: #link("https://doi.org/10.7759/cureus.51851")[10.7759/cureus.51851]
+    *PMID:*: 38327939
+    *Study Design:*: Systematic review and meta-analysis of RCTs of highly selective 5-HT4 agonists (prucalopride, velusetrag) for diabetic and idiopathic gastroparesis.
+    *Key Findings:*:
+
+        - 5-HT4 agonists improve gastric emptying and symptom measures in gastroparesis
+        - No excess pooled cardiovascular or QT signal was found in these RCTs
+    *Conclusion:*: Prucalopride-class prokinetics are a comparatively safer prokinetic option; relevant where cholinergic vagal drive is impaired and 5-HT4 agonism is an alternative pathway.
+    *Limitations:*: Published in Cureus (lower-tier journal); general gastroparesis population; QT assessment across heterogeneous RCT protocols.
+
+=== Gupta & Lee 2016 — Diet and Complementary Medicine for Chronic Nausea/Vomiting and Gastroparesis
+
+    @Gupta2016GastroparesisDiet
+
+    *Full Citation:*: Gupta E, Lee LA. Diet and complementary medicine for chronic unexplained nausea and vomiting and gastroparesis. _Current Treatment Options in Gastroenterology_. 2016;14(4):401--409.
+    *DOI:*: #link("https://doi.org/10.1007/s11938-016-0104-0")[10.1007/s11938-016-0104-0]
+    *PMID:*: 27696279
+    *Study Design:*: Clinical review of dietary and complementary-medicine management for gastroparesis and chronic unexplained nausea/vomiting.
+    *Key Findings:*:
+
+        - Small, frequent, low-fat, low-fibre meals and liquid-nutrient optimisation are first-line dietary strategies
+        - Feeding strategies are central to nutritional management where oral intake fails
+    *Conclusion:*: Provides the nutritional-management framework (small meals, nutrient-dense liquids, feeding escalation) directly applicable to a severe ME/CFS case with gastroparesis.
+    *Limitations:*: Review (not trial); general population; limited complementary-medicine evidence base.
+
+=== Grover et al.\ 2011 — Cellular Changes in Diabetic and Idiopathic Gastroparesis
+
+    @Grover2011CellularChangesGastroparesis
+
+    *Full Citation:*: Grover M, Farrugia G, Lurken MS, Bernard CE, Faussone-Pellegrini MS, et al. Cellular changes in diabetic and idiopathic gastroparesis. _Gastroenterology_. 2011;140(5):1575--1585.e8.
+    *DOI:*: #link("https://doi.org/10.1053/j.gastro.2011.01.046")[10.1053/j.gastro.2011.01.046]
+    *PMID:*: 21300066
+    *Study Design:*: Multicentre human gastric antral tissue study comparing gastroparesis and controls.
+    *Key Findings:*:
+
+        - Loss of interstitial cells of Cajal (ICC) in diabetic and idiopathic gastroparesis
+        - Decreased enteric nerve fibres and altered macrophage populations in gastric antrum
+    *Conclusion:*: Gastroparesis involves enteric neuronal and ICC loss, not merely functional vagal failure; this is the structural mechanistic substrate relevant to the autonomic gastroparesis hypothesis.
+    *Limitations:*: Cross-disease (diabetic/idiopathic gastroparesis, not ME/CFS); tissue sampling from surgical/specialist cohorts; no direct ME/CFS gastric histology.
+
+=== Wang et al.\ 2009 — ICC and Enteric Nerve Loss and Decreased Gastric Emptying in Diabetic Mice
+
+    @Wang2009ICCLossDiabetes
+
+    *Full Citation:*: Wang XY, Huizinga JD, Diamond J, Liu LWC. Loss of intramuscular and submuscular interstitial cells of Cajal and associated enteric nerves is related to decreased gastric emptying in streptozotocin-induced diabetes. _Neurogastroenterology and Motility_. 2009;21(10):1095--e92.
+    *DOI:*: #link("https://doi.org/10.1111/j.1365-2982.2009.01336.x")[10.1111/j.1365-2982.2009.01336.x]
+    *PMID:*: 19566589
+    *Study Design:*: Animal model (streptozotocin-induced diabetes in rodents); ICC + enteric nerve quantitation vs gastric emptying.
+    *Key Findings:*:
+
+        - Streptozotocin diabetes caused loss of intramuscular and submuscular ICC and associated enteric nerves
+        - This loss was related to decreased gastric emptying
+    *Conclusion:*: Animal-model support that ICC and enteric-neuron loss causally drive delayed gastric emptying.
+    *Limitations:*: Animal model (cross-species inference); rodent streptozotocin model is not ME/CFS.
+
+=== Tseng et al.\ 2019 — Nonoral Nutrition and Hydration Support in Adults With POTS
+
+    @Tseng2019POTSNutritionalSupport
+
+    *Full Citation:*: Tseng AS, Traub NA, Harris LA, Crowell MD, Hoffman-Snyder CR, et al. Factors associated with use of nonoral nutrition and hydration support in adult patients with postural tachycardia syndrome. _JPEN. Journal of Parenteral and Enteral Nutrition_. 2019;43(6):734--741.
+    *DOI:*: #link("https://doi.org/10.1002/jpen.1493")[10.1002/jpen.1493]
+    *PMID:*: 30561086
+    *Study Design:*: Retrospective cohort of adult POTS patients at a tertiary referral centre.
+    *Key Findings:*:
+
+        - GI dysmotility and feeding intolerance were factors associated with need for nonoral (enteral/parenteral) nutrition
+        - Autonomic cohorts require enteral/parenteral support, documenting the nutritional-failure risk in dysautonomia
+    *Conclusion:*: Provides the clinical precedent that autonomic (POTS) cohorts progress to nonoral nutritional support, directly relevant to severe ME/CFS with gastroparesis and nutritional failure.
+    *Limitations:*: POTS population (weight 0.80); retrospective; single-centre.
+
+=== Aziz et al.\ 2025 — AGA Clinical Practice Update: GI and Autonomic/Immune Dysfunction in Hypermobile EDS
+
+    @Aziz2025AGAGIHyperEhlersDanlos
+
+    *Full Citation:*: Aziz Q, Harris LA, Goodman BP, Simrén M, Shin A. AGA clinical practice update on gastrointestinal manifestations and autonomic or immune dysfunction in hypermobile Ehlers-Danlos syndrome: expert review. _Clinical Gastroenterology and Hepatology_. 2025;23(8):1291--1302.
+    *DOI:*: #link("https://doi.org/10.1016/j.cgh.2025.02.015")[10.1016/j.cgh.2025.02.015]
+    *PMID:*: 40387691
+    *Study Design:*: Expert-consensus AGA Clinical Practice Update (expert review).
+    *Key Findings:*:
+
+        - GI dysmotility and gastroparesis co-occur with autonomic dysfunction and POTS in hypermobile Ehlers-Danlos syndrome
+        - Provides a diagnostic and management framework for GI + autonomic overlap
+    *Conclusion:*: A transferable framework for the ME/CFS-hEDS-POTS severe case presenting with gastroparesis and dysautonomia.
+    *Limitations:*: hEDS/POTS population (weight 0.80); expert consensus, not trial data.
+
+=== Shakhatreh et al.\ 2019 — Metoclopramide for Diabetic Gastroparesis (Harm/Safety)
+
+    @Shakhatreh2019Metoclopramide
+
+    *Full Citation:*: Shakhatreh M, Jehangir A, Malik Z, Parkman HP. Metoclopramide for the treatment of diabetic gastroparesis. _Expert Review of Gastroenterology and Hepatology_. 2019;13(8):711--721.
+    *DOI:*: #link("https://doi.org/10.1080/17474124.2019.1645594")[10.1080/17474124.2019.1645594]
+    *PMID:*: 31314613
+    *Study Design:*: Clinical review of metoclopramide pharmacology, efficacy, and tolerability in diabetic gastroparesis.
+    *Key Findings:*:
+
+        - Metoclopramide is the only FDA-approved drug for gastroparesis; acts via dopamine antagonism (peripheral prokinetic + central anti-emetic)
+        - Carries a black-box warning for use beyond 12 weeks due to tardive dyskinesia (TD), which may be irreversible
+        - Other CNS side effects: drowsiness, restlessness, hyperprolactinaemia
+    *Conclusion:*: The chronic-use safety conflict is central: metoclopramide is effective but TD risk limits long-term use, so duration and monitoring matter in a chronic ME/CFS gastroparesis patient.
+    *Limitations:*: Review; general gastroparesis population (diabetic focus); does not address ME/CFS-specific risk or drug interactions.
+
+=== Montalvo et al.\ 2022 — Autoimmune GI Dysmotility After SARS-CoV-2 Treated With IVIG (Post-Viral)
+
+    @Montalvo2022LongCovidGIDysmotility
+
+    *Full Citation:*: Montalvo M, Nallapaneni P, Hassan S, Nurko S, Pittock SJ, et al. Autoimmune gastrointestinal dysmotility following SARS-CoV-2 infection successfully treated with intravenous immunoglobulin. _Neurogastroenterology and Motility_. 2022;34(7):e14314.
+    *DOI:*: #link("https://doi.org/10.1111/nmo.14314")[10.1111/nmo.14314]
+    *PMID:*: 34984765
+    *Study Design:*: Case report (17-year-old female) after SARS-CoV-2 infection.
+    *Sample Size:*: n=1.
+    *Key Findings:*:
+
+        - Intractable nausea and early satiety after SARS-CoV-2; required nasogastric/nasoduodenal tube feeds then total parenteral nutrition over ten months
+        - Gastrointestinal transit scintigraphy showed delayed gastric emptying and slowed small-bowel transit
+        - Mildly elevated alpha-3 nicotinic ganglionic acetylcholine and anti-striational antibodies; sudomotor impairment on thermoregulatory sweat test
+        - Dramatic improvement after IVIG, with improved transit and sweat test
+    *Conclusion:*: First report of autoimmune gastrointestinal dysmotility after SARS-CoV-2, showing an autoimmune ganglionic mechanism is a treatable, potentially reversible cause of post-viral gastroparesis.
+    *Limitations:*: Single case report; Long COVID/post-viral population (weight 0.85); autoimmune antibody panel limited; no control.
+
+// =============================================================================
+
 == Gut Microbiome and Multi-Omics
 <sec:bib-gut-multiomics-additions>
 // =============================================================================

@@ -69,6 +69,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | postcovid-ocular-syndrome | [subtrees/postcovid-ocular-syndrome.md](subtrees/postcovid-ocular-syndrome.md) | 2026-07-09 | 35 | 2 | ✅ done |
 | ch39-healthcare-systems-policy | [subtrees/ch39-healthcare-systems-policy.md](subtrees/ch39-healthcare-systems-policy.md) | 2026-07-26 | 17 | 0 | ⬜ pending |
 | vagal-gastric-denervation-longcovid | [subtrees/vagal-gastric-denervation-longcovid.md](subtrees/vagal-gastric-denervation-longcovid.md) | 2026-07-10 | 64 | 12 | ✅ done |
+| gastroparesis | [subtrees/gastroparesis.md](subtrees/gastroparesis.md) | 2026-08-19 | 40 | 20 | 🔵 in progress |
 | corneal-confocal-cross-disease-sfn | [subtrees/corneal-confocal-cross-disease-sfn.md](subtrees/corneal-confocal-cross-disease-sfn.md) | 2026-07-09 | 38 | 0 | 🔵 in progress |
 | ocular-sjogren-mecfs-overlap | [subtrees/ocular-sjogren-mecfs-overlap.md](subtrees/ocular-sjogren-mecfs-overlap.md) | 2026-07-09 | 51 | 18 | ✅ done |
 | ige-sensitization-spike-tick-neuroinflammation | [subtrees/ige-sensitization-spike-tick-neuroinflammation.md](subtrees/ige-sensitization-spike-tick-neuroinflammation.md) | 2026-06-24 | 13 | 8 | ✅ done |
