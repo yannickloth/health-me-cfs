@@ -12040,12 +12040,88 @@ This section covers: (1) the discovery that TRP channels can adopt pentameric st
         - Adult-onset group: no neuropsychological deficits, no polygenic risk for childhood ADHD
     *Conclusion:*: Challenges purely developmental framing of adult ADHD. Some adult ADHD may represent acquired catecholaminergic dysfunction.
     *Limitations:*: Single NZ birth cohort; adult ADHD assessed once at age 38; findings contested.
-    *ME/CFS Relevance:*: If adult-onset ADHD is biologically distinct, it may represent acquired energy deficit — compatible with post-infectious ME/CFS trajectory.
+    *ME/CFS Relevance:*: If some adult-onset ADHD is biologically distinct (vs.\ adolescent-onset or missed childhood ADHD — see Sibley et al.\ 2018, Asherson and Agnew-Blais\ 2019, and Breda et al.\ 2020 below), a subset may represent acquired energy deficit — compatible with post-infectious ME/CFS trajectory, though the current consensus narrows this to a minority of cases.
     *Certainty Assessment:*:
         - *Quality:* High (gold-standard longitudinal cohort; 95% retention)
         - *Sample:* n=1,037
         - *Replication:* Contested
         - *Score:* 0.70
+
+=== Sibley et al.\ 2018 --- Late-Onset ADHD Reconsidered (MTA)
+
+    *Full Citation:*: Sibley MH, Rohde LA, Swanson JM, et al. Late-onset ADHD reconsidered with comprehensive repeated assessments between ages 10 and 25. _American Journal of Psychiatry_. 2018;175(2):140--149. @Sibley2018lateonsetADHD
+    *DOI:*: #link("https://doi.org/10.1176/appi.ajp.2017.17030298")[10.1176/appi.ajp.2017.17030298]
+    *PMID:*: 29050505
+    *Article Type:*: Longitudinal follow-up (MTA comparison group, n=239)
+    *Key Findings:*:
+        - ~95% of individuals who screened positive on symptom checklists were excluded from a late-onset ADHD diagnosis on comprehensive assessment
+        - Most common exclusion: symptoms occurring exclusively in the context of heavy substance use
+        - Most late-onset cases were adolescence-limited; no evidence for adult-onset ADHD independent of a complex psychiatric history
+    *Conclusion:*: Strongly qualifies the Moffitt 2015 distinct-syndrome reading: much apparent adult-onset ADHD reflects measurement artifact, comorbidity, or substance use.
+    *Limitations:*: Single US cohort (MTA comparison group); ADHD assessment every ~2 years.
+    *ME/CFS Relevance:*: If most adult-onset ADHD is adolescent-onset or missed-childhood rather than a distinct adult-onset syndrome, the "ADHD as acquired post-infectious catecholamine depletion" reading applies to a narrower subset.
+    *Certainty Assessment:*:
+        - *Quality:* High (repeated comprehensive multi-informant assessments)
+        - *Sample:* n=239
+        - *Replication:* Supports missed-childhood/artifact view
+        - *Score:* 0.65
+
+=== Asherson and Agnew-Blais\ 2019 --- Does Late-Onset ADHD Exist? (Annual Research Review)
+
+    *Full Citation:*: Asherson P, Agnew-Blais J. Annual research review: Does late-onset attention-deficit/hyperactivity disorder exist? _Journal of Child Psychology and Psychiatry_. 2019;60(4):333--352. @Asherson2019lateonsetADHD
+    *DOI:*: #link("https://doi.org/10.1111/jcpp.13020")[10.1111/jcpp.13020]
+    *PMID:*: 30843223
+    *Article Type:*: Annual Research Review (narrative synthesis)
+    *Key Findings:*:
+        - A significant proportion of young adults meeting ADHD criteria did not meet full criteria as children
+        - BUT most late-onset cases develop the disorder between ages 12--16 (adolescent-onset), many with childhood symptoms or an externalizing disorder (e.g., ODD)
+        - Impairing ADHD can emerge after 12 "although perhaps rarely in the context of a complete absence of precursors"
+        - Insufficient data to clarify whether early and late onset share the same neural mechanisms
+    *Conclusion:*: Provides the balanced current position between the distinct-syndrome reading (Moffitt 2015) and the missed-childhood/artifact view.
+    *Limitations:*: Narrative review; limited data spanning young to older adulthood.
+    *ME/CFS Relevance:*: The adolescent-onset profile (not de novo adult-onset) narrows the acquired-catecholamine interpretation of ADHD relevant to the ADHD--ME/CFS metabolic-reserve hypothesis.
+    *Certainty Assessment:*:
+        - *Quality:* High (authoritative review; Agnew-Blais, key figure in the debate)
+        - *Sample:* Review
+        - *Replication:* Aligns with Sibley 2018
+        - *Score:* 0.62
+
+=== Breda et al.\ 2020 --- ADHD Age-of-Onset Recall Reliability (Pelotas)
+
+    *Full Citation:*: Breda V, Rohde LA, Menezes AMB, et al. Revisiting ADHD age-of-onset in adults: to what extent should we rely on the recall of childhood symptoms? _Psychological Medicine_. 2020;50(5):857--866. @Breda2020adhdrecall
+    *DOI:*: #link("https://doi.org/10.1017/S003329171900076X")[10.1017/S003329171900076X]
+    *PMID:*: 30968792
+    *Article Type:*: Prospective cohort (1993 Pelotas Birth Cohort, n=3,810 at age 22)
+    *Key Findings:*:
+        - Retrospective recall of childhood ADHD symptoms had accuracy of only 55.4%, sensitivity 32.8%, positive predictive value 40.7%
+        - Compared against childhood assessments at age 11
+    *Conclusion:*: Retrospective recall is unreliable for establishing ADHD neurodevelopmental trajectory; much apparent adult onset may reflect missed or misrecalled childhood symptoms.
+    *Limitations:*: Single Brazilian birth cohort; recall assessed at a single adult timepoint.
+    *ME/CFS Relevance:*: Reinforces the caveat around Moffitt 2015: reported "adult-onset" ADHD may be forgotten childhood onset, so ADHD--ME/CFS comorbidity should not be assumed to reflect a genuinely distinct adult-onset syndrome.
+    *Certainty Assessment:*:
+        - *Quality:* High (prospective cohort, recall vs prospective comparison)
+        - *Sample:* n=3,810
+        - *Replication:* Consistent with recall-validity literature
+        - *Score:* 0.58
+
+=== Gürbüzer et al.\ 2026 --- SIRT-1/Nrf-2/HO-1 Axis in Adult ADHD
+
+    *Full Citation:*: Gürbüzer N, Ozkaya A, Mercantepe F. The SIRT-1/Nrf-2/HO-1 antioxidant defense axis in adult attention-deficit/hyperactivity disorder. _Metabolic Brain Disease_. 2026;41(1):85. @Gurbuzer2026nrf2adhd
+    *DOI:*: #link("https://doi.org/10.1007/s11011-026-01845-5")[10.1007/s11011-026-01845-5]
+    *PMID:*: 42012587
+    *Article Type:*: Cross-sectional case-control (60 adult ADHD vs 60 controls)
+    *Key Findings:*:
+        - Serum Nrf2, HO-1, and SIRT-1 significantly lower in ADHD than controls (all p < 0.001)
+        - Each negatively correlated with symptom severity; ROC AUC 0.756 (Nrf-2), 0.797 (HO-1)
+        - TNF-alpha did not differ between groups
+    *Conclusion:*: First direct measurement of Nrf2 and its downstream effector HO-1 in ADHD patient blood; consistent with, but not proof of, a reduced antioxidant-defense state in adult ADHD.
+    *Limitations:*: Measures circulating serum protein, not Nrf2 nuclear translocation or NQO1 target-gene expression; adult ADHD only; single study, unreplicated.
+    *ME/CFS Relevance:*: Provides the first direct human evidence that the dopamine-NRF2-NLRP3 axis hypothesis's premise (reduced NRF2 in ADHD) is measurable, giving the ADHD--ME/CFS shared-pathophysiology framework a concrete biomarker target.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (cross-sectional; no replication)
+        - *Sample:* n=60 per group
+        - *Replication:* None
+        - *Score:* 0.50
 
 === Frye et al.\ 2024 --- ASD Mitochondrial Biomarkers Meta-Analysis (204 Studies)
 
