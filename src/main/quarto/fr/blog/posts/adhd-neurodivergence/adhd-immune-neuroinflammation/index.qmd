@@ -1,0 +1,111 @@
+---
+title: "Le volet immunitaire et neuro-inflammatoire du TDAH : quand l'inflammation façonne l'attention"
+description: "Tous les TDAH n'ont pas nécessairement la même cause. Une ligne de preuves croissante relie les caractéristiques de type TDAH à une neuro-inflammation chronique et à une activation microgliale — un processus d'origine immunitaire qui peut épuiser la dopamine et dégrader les circuits préfrontaux que le TDAH primaire affecte au cours du développement. Cet article examine les preuves et ce qui reste à prouver."
+author: "Yannick Loth"
+date: "2026-08-26"
+categories: [Neurodivergence, Immunologie, Physiopathologie]
+lang: fr
+---
+
+Tous les TDAH n'ont pas nécessairement la même cause.
+
+La partie 1 de cette série a examiné le TDAH comme un trouble de l'énergie préfrontale — un état dans lequel la région la plus coûteuse du cerveau fonctionne avec une réserve de carburant mince. Cette partie examine une idée fondamentalement différente : qu'un **sous-ensemble** de caractéristiques de type TDAH est piloté par le système immunitaire — une neuro-inflammation chronique et une activation microgliale qui dégradent les mêmes circuits préfrontaux, dopaminergiques et attentionnels que le TDAH primaire affecte au cours du développement.
+
+Les deux idées ne sont pas en concurrence. Elles décrivent différents patients et différents mécanismes, et les distinguer importe énormément pour le traitement.
+
+La série sépare **ce que nous savons** de **ce que nos recherches ajoutent**. Ici, les découvertes établies sont le signal neuro-inflammatoire dans le TDAH [@Dunn2019neuroinflammationadhd @Yokokura2021D1Rmicroglia] et l'élévation pro-inflammatoire partagée dans le TDAH et la fatigue chronique [@Quadt2024neurodivergentfatigue]. Un élément supplémentaire — la neuro-inflammation dans la fatigue chronique elle-même — est *rapporté* mais *contesté* : une étude l'a trouvé [@Nakatomi2014neuroinflammation], une réplication non [@Raijmakers2021TSPOCFS]. Ce que nos recherches ajoutent est la lecture de racine commune — que l'échec énergétique induit par l'inflammation pourrait être une étiologie partagée, le phénotype TDAH apparaissant lorsque le compartiment affecté est le cerveau — qui est une spéculation enregistrée, pas une découverte établie.
+
+---
+
+## L'idée : l'inflammation dégradant les circuits attentionnels
+
+Le tableau classique du TDAH est développemental : les circuits dopaminergiques et préfrontaux du cerveau ont été construits avec une configuration particulière depuis l'enfance. Mais une présentation de type TDAH n'exige pas une cause développementale. Un **processus inflammatoire ultérieur** peut dégrader les mêmes circuits, produisant les mêmes symptômes par une voie différente.
+
+Le mécanisme proposé est une cascade :
+
+1. **L'inflammation élève ses marqueurs.** Des cytokines pro-inflammatoires élevées — notamment IL-6 et TNF-alpha — sont documentées indépendamment dans le TDAH et la fatigue chronique [@Quadt2024neurodivergentfatigue @Dunn2019neuroinflammationadhd].
+2. **Les microglies s'activent.** Les microglies activées sont les cellules immunitaires résidentes du cerveau, et leur activation est documentée dans le TDAH [@Yokokura2021D1Rmicroglia] et dans la fatigue chronique [@Nakatomi2014neuroinflammation].
+3. **La dopamine est épuisée.** L'inflammation détourne le cofacteur BH4 de la synthèse de la dopamine vers une autre branche de son métabolisme, et entraîne un stress oxydatif qui endommage les terminaisons dopaminergiques. Le résultat est un approvisionnement en dopamine plus bas dans les mêmes circuits que le TDAH primaire affecte.
+4. **La fonction préfrontale se dégrade.** Le résultat est un phénotype clinique de type TDAH — inattention, impulsivité, difficulté exécutive — chez une personne dont le neurodéveloppement pré-maladie était intact.
+
+La revendication clé : **une neuro-inflammation soutenue peut être suffisante pour produire des caractéristiques de type TDAH chez des personnes qui n'avaient pas de TDAH auparavant.** Cette revendication est une spéculation de recherche enregistrée, pas une découverte établie.
+
+---
+
+## Les preuves
+
+Quatre découvertes affinent le dossier :
+
+**1. La neuro-inflammation est documentée dans le TDAH.** Des preuves substantielles soutiennent une neuro-inflammation dans la physiopathologie du TDAH, notamment des cytokines pro-inflammatoires élevées chez les enfants atteints de TDAH et une activation microgliale dans les études post-mortem et d'imagerie [@Dunn2019neuroinflammationadhd]. La tomographie par émission de positions a démontré une disponibilité réduite des récepteurs D1 de la dopamine co-localisée avec une activation microgliale dans le TDAH — les deux phénomènes dans le même cerveau [@Yokokura2021D1Rmicroglia].
+
+**2. La neuro-inflammation est documentée dans la fatigue chronique — mais contestée.** Une étude a rapporté une élévation substantielle des marqueurs d'activation microgliale dans six régions cérébrales [@Nakatomi2014neuroinflammation], mais une étude ultérieure utilisant le même traceur n'a trouvé aucune élévation de ce type [@Raijmakers2021TSPOCFS]. La fondation neuro-inflammatoire du modèle de racine commune est donc **contestée, pas établie** ; chaque revendication en aval hérite de cette incertitude.
+
+**3. Le signal inflammatoire partagé.** Les traits de TDAH à 9 ans prédisent un risque doublé de fatigue chronique à 18 ans, et cette association est médiée par le marqueur inflammatoire IL-6 [@Quadt2024neurodivergentfatigue]. C'est la preuve la plus directe reliant l'état inflammatoire du TDAH à une fatigue ultérieure — mais elle établit une médiation statistique, pas un mécanisme prouvé.
+
+**4. Pharmacologie convergente.** Le TDAH et la fatigue chronique répondent tous deux aux mêmes inhibiteurs de recapture de la dopamine et de la noradrénaline [@Blockmans2006methylphenidate @Eckey2025PatientReported]. Cela est cohérent avec un déficit dopaminergique partagé dans les deux, qu'il soit développemental ou acquis.
+
+---
+
+## Le pont orexine-dopamine
+
+Une autre hypothèse de notre article relie le volet inflammatoire au déficit de dopamine du TDAH par **l'orexine** — le peptide favorisant l'éveil. Les neurones à orexine projettent vers l'aire tegmentale ventrale, où ils régulent le déclenchement de la dopamine. Une déficience dans ce système réduit la dopamine préfrontale (brouillard cérébral) et la récompense mésolimbique (anhédonie) [@Sakurai1998orexin].
+
+La pertinence pour le TDAH est spécifique : le même métabolisme cérébral du glucose inférieur de 8,1 % observé dans le TDAH pourrait refléter un déficit d'orexine hypothalamique partagé, et l'hypothèse de notre article propose qu'un tonus d'orexine faible se lie à un métabolite de dopamine bas et à des scores d'attention pires. Une preuve humaine directe existe maintenant : une étude d'enfants naïfs de médicaments atteints de TDAH a trouvé des niveaux sériques d'orexine A diminués par rapport aux témoins [@Baykal2019orexinADHD]. Parce que l'inflammation peut supprimer la fonction des neurones à orexine (la voie par laquelle la neuro-inflammation chronique de bas grade est proposée pour conduire la fatigue), un coup inflammatoire qui supprime l'orexine dépleterait encore la dopamine préfrontale déjà faible d'un cerveau affecté par le TDAH — refermant une seconde voie de l'inflammation vers les caractéristiques de type TDAH.
+
+C'est une **spéculation enregistrée à faible confiance** — la chaîne complète orexine-inflammation-dopamine-TDAH est une inférence à travers les littératures, et la découverte humaine directe orexine-TDAH est basée sur le sérum et sur une seule étude. Elle est incluse ici pour complétude comme un mécanisme distinct que notre article développe, pas comme une découverte établie.
+
+---
+
+## L'hypothèse de racine commune
+
+Prises ensemble, ces lignes pointent vers une proposition de nos recherches — l'**hypothèse de racine commune** : le TDAH et la fatigue chronique (avec d'autres conditions neuro-inflammatoires) peuvent partager une cause racine commune — une inflammation chronique conduisant à une dysfonction mitochondriale et à un échec énergétique — avec le diagnostic spécifique déterminé par les tissus affectés. La chaîne causale est : **inflammation → suppression métabolique médiée par les cytokines → déficit d'ATP mitochondrial → échec énergétique cérébral (un phénotype TDAH lorsqu'il est compartimenté) ou échec énergétique systémique (un phénotype fatigue lorsqu'il est généralisé).**
+
+L'inflammation est le moteur primaire proposé ; la dysfonction mitochondriale est l'intermédiaire mécanistique ; l'expression des symptômes est déterminée par quels tissus franchissent leur seuil d'énergie en premier.
+
+C'est une **spéculation enregistrée à faible confiance** — une hypothèse à tester, pas une découverte établie. Ce n'est pas la revendication que tout le TDAH est inflammatoire ; c'est la revendication qu'un sous-ensemble de caractéristiques de type TDAH peut être acquis et d'origine immunitaire.
+
+---
+
+## Où un mécanisme a déjà un article dédié
+
+Plusieurs mécanismes adjacents ont des articles dédiés dans ce blog :
+
+- **[Pourquoi les personnes atteintes de TDAH développent l'EM/SFC à un taux deux fois supérieur](../adhd-mecfs-predisposition/index.qmd)** — le pont épidémiologique entre le TDAH et la fatigue post-infectieuse.
+- **[Votre TDAH est un problème d'énergie](../adhd-energy-problem/index.qmd)** — l'argument de production d'énergie auquel ce volet se connecte.
+- **[Un cofacteur, six affections, un seul goulot d'étranglement](../bh4-one-cofactor-six-conditions/index.qmd)** — le cofacteur BH4 que l'inflammation détourne de la synthèse de la dopamine.
+
+---
+
+## Les limites honnêtes
+
+Ce cadre est **explicitement spéculatif**, avec une faible certitude.
+
+- La prémisse centrale de neuro-inflammation dans la fatigue chronique est **contestée** — une étude l'a trouvée, une réplication non [@Nakatomi2014neuroinflammation @Raijmakers2021TSPOCFS].
+- Aucune étude n'a mesuré le même panel inflammatoire et microglial simultanément à travers le TDAH, la fatigue chronique et les témoins sains.
+- L'hypothèse de racine commune repose sur des conceptions transversales et rétrospectives ; aucune étude prospective n'a suivi l'émergence de symptômes de type TDAH *après* un déclencheur inflammatoire dans une cohorte caractérisée avant la maladie.
+- Le cadre couvre un **sous-ensemble** de caractéristiques de type TDAH, pas la condition entière. La plupart des TDAH sont développementaux et stables, pas acquis.
+- Même là où l'inflammation est présente, la direction causale n'est pas résolue : l'inflammation pourrait conduire à l'épuisement de la dopamine, ou une dysrégulation dopaminergique chronique pourrait stresser secondairement le système immunitaire.
+
+La convergence n'élève pas la certitude au-dessus du maillon le plus faible. Jusqu'à ce qu'une étude prospective multi-maladies existe, c'est un cadre de recherche, pas une découverte.
+
+---
+
+## L'expérience décisive
+
+Le champ a besoin d'un test prospectif : suivre une cohorte après un déclencheur inflammatoire (par exemple, une infection virale) et mesurer si une inattention et une difficulté exécutive d'apparition nouvelle émergent aux côtés de marqueurs de neuro-inflammation, chez des personnes sans antécédent de TDAH. Le cadre prédit que la gravité des caractéristiques de type TDAH acquises devrait suivre les marqueurs inflammatoires et devrait s'améliorer lorsque l'inflammation est traitée.
+
+Si l'inattention acquise suit l'inflammation et s'inverse avec un traitement anti-neuro-inflammatoire, le modèle de racine commune est soutenu. Si aucune caractéristique de type TDAH d'apparition nouvelle n'apparaît même en présence de neuro-inflammation, le modèle échoue pour cette population.
+
+---
+
+## Ce qu'il faut retenir
+
+Le modèle immunitaire et neuro-inflammatoire ne prétend pas que le TDAH est une maladie immunitaire. Il prétend qu'un **sous-ensemble** de caractéristiques de type TDAH peut être piloté par l'inflammation et l'activation microgliale — un processus immunitaire qui peut épuiser la dopamine et dégrader les mêmes circuits préfrontaux que le TDAH primaire affecte au cours du développement.
+
+La part encourageante : si certaines caractéristiques de type TDAH sont d'origine immunitaire, elles peuvent être **acquises et réversibles** — adressables en traitant l'inflammation plutôt qu'acceptées comme un câblage permanent.
+
+La part honnête : c'est un cadre de recherche, pas une recommandation clinique. La prémisse de neuro-inflammation est contestée, aucun dépistage n'est indiqué, et aucun traitement immunomodulateur pour les caractéristiques de type TDAH n'est établi. L'étude prospective décisive n'a pas été faite.
+
+*Ceci est la partie 2 d'une série en quatre parties sur la biologie du TDAH. La partie 1 couvre le modèle énergétique préfrontal et l'hypothèse de traitement multipiste. La partie 3 explore l'axe dopamine-Nrf2-NLRP3. La partie 4 demande quand les caractéristiques de type TDAH sont acquises et réversibles. Voir la [page d'accueil de la série](../adhd-series-landing/index.qmd).*
+
+*Cet article reflète des hypothèses de recherche de notre projet documentaire. Le volet immunitaire et neuro-inflammatoire du TDAH est un domaine d'investigation actif avec une confiance explicite et faible — pas un fait clinique établi. Discutez de toute décision médicale avec un clinicien qualifié.*

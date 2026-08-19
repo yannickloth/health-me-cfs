@@ -1,0 +1,110 @@
+---
+title: "The Immune and Neuroinflammatory Strand of ADHD: When Inflammation Shapes Attention"
+description: "Not all ADHD may have the same cause. A growing line of evidence links ADHD-like features to chronic neuroinflammation and microglial activation — an immune-driven process that can deplete dopamine and degrade the same prefrontal circuits that primary ADHD affects through development. This article examines the evidence and what remains unproven."
+author: "Yannick Loth"
+date: "2026-08-26"
+categories: [Neurodivergence, Immunology, Pathophysiology]
+---
+
+Not all ADHD may have the same cause.
+
+Part 1 of this series examined ADHD as a prefrontal energy disorder — a state in which the brain's most expensive region runs on a thin fuel supply. This part examines a fundamentally different idea: that a **subset** of ADHD-like features is driven by the immune system — chronic neuroinflammation and microglial activation that degrade the same prefrontal, dopaminergic, and attentional circuits that primary ADHD affects through development.
+
+The two ideas are not in competition. They describe different patients and different mechanisms, and telling them apart matters enormously for treatment.
+
+The series separates **what we know** from **what our research adds**. Here, the established findings are the neuroinflammatory signal in ADHD [@Dunn2019neuroinflammationadhd @Yokokura2021D1Rmicroglia] and the shared pro-inflammatory elevation in ADHD and chronic fatigue [@Quadt2024neurodivergentfatigue]. A further piece — neuroinflammation in chronic fatigue itself — is *reported* but *contested*: one study found it [@Nakatomi2014neuroinflammation], a replication did not [@Raijmakers2021TSPOCFS]. What our research adds is the same-root reading — that inflammation-driven energy failure may be a shared etiology, with the ADHD phenotype appearing when the compartment affected is the brain — which is a registered speculation, not an established finding.
+
+---
+
+## The idea: inflammation degrading attention circuits
+
+The classic picture of ADHD is developmental: the brain's dopaminergic and prefrontal circuits were built with a particular configuration from childhood. But an ADHD-like presentation does not require a developmental cause. A **later inflammatory process** can degrade the very same circuits, producing the same symptoms through a different route.
+
+The mechanism proposed is a cascade:
+
+1. **Inflammation raises its markers.** Elevated pro-inflammatory cytokines — notably IL-6 and TNF-alpha — are documented independently in both ADHD and chronic fatigue [@Quadt2024neurodivergentfatigue @Dunn2019neuroinflammationadhd].
+2. **Microglia activate.** Activated microglia are the brain's resident immune cells, and their activation is documented in ADHD [@Yokokura2021D1Rmicroglia] and in chronic fatigue [@Nakatomi2014neuroinflammation].
+3. **Dopamine is depleted.** Inflammation diverts the cofactor BH4 away from dopamine synthesis toward a different branch of its metabolism, and drives oxidative stress that damages dopaminergic terminals. The result is a lower dopamine supply in the same circuits that primary ADHD affects.
+4. **Prefrontal function degrades.** The result is an ADHD-like clinical phenotype — inattention, impulsivity, executive difficulty — in a person whose pre-illness neurodevelopment was intact.
+
+The key claim: **sustained neuroinflammation can be sufficient to produce ADHD-like features in people who did not have ADHD before.** That claim is a registered research speculation, not an established finding.
+
+---
+
+## The evidence
+
+Four findings sharpen the case:
+
+**1. Neuroinflammation is documented in ADHD.** Substantial evidence supports neuroinflammation in ADHD pathophysiology, including elevated pro-inflammatory cytokines in children with ADHD and microglial activation in post-mortem and imaging studies [@Dunn2019neuroinflammationadhd]. Positron-emission tomography has demonstrated reduced dopamine D1-receptor availability co-localized with microglial activation in ADHD — the two phenomena in the same brain [@Yokokura2021D1Rmicroglia].
+
+**2. Neuroinflammation is documented in chronic fatigue — but contested.** One study reported substantial elevation in microglial-activation markers across six brain regions [@Nakatomi2014neuroinflammation], but a subsequent study using the same tracer found no such elevation [@Raijmakers2021TSPOCFS]. The neuroinflammation foundation for the same-root model is therefore **contested, not established**; every downstream claim inherits this uncertainty.
+
+**3. The shared inflammatory signal.** ADHD traits at age 9 predict doubled chronic-fatigue risk at age 18, and this association is mediated by the inflammatory marker IL-6 [@Quadt2024neurodivergentfatigue]. This is the single most direct piece of evidence linking the inflammatory state of ADHD to later fatigue — but it establishes a statistical mediation, not a proven mechanism.
+
+**4. Convergent pharmacology.** Both ADHD and chronic fatigue respond to the same dopamine and noradrenaline reuptake inhibitors [@Blockmans2006methylphenidate @Eckey2025PatientReported]. This is consistent with a shared dopaminergic deficit in both, whether developmental or acquired.
+
+---
+
+## The orexin-dopamine bridge
+
+A further hypothesis in our paper links the inflammatory strand to ADHD's dopamine deficit through **orexin** — the wakefulness-promoting peptide. Orexin neurons project to the ventral tegmental area, where they regulate dopamine firing. Deficiency in this system reduces prefrontal dopamine (brain fog) and mesolimbic reward (anhedonia) [@Sakurai1998orexin].
+
+The relevance to ADHD is specific: the same 8.1% lower cerebral glucose metabolism seen in ADHD may reflect a shared hypothalamic orexin deficit, and our paper's hypothesis proposes that low orexin tone links to low dopamine metabolite and worse attention scores. Direct human evidence now exists: a study of drug-naive children with ADHD found decreased serum orexin A levels compared to controls [@Baykal2019orexinADHD]. Because inflammation can suppress orexin neuron function (the pathway by which chronic low-grade neuroinflammation is proposed to drive fatigue), an inflammatory hit that suppresses orexin would further deplete the already-low prefrontal dopamine of an ADHD-affected brain — closing a second route from inflammation to ADHD-like features.
+
+This is a **registered speculation with low confidence** — the full orexin-inflammation-dopamine-ADHD chain is an inference across literatures, and the direct human orexin-ADHD finding is serum-based and single-study. It is included here for completeness as a distinct mechanism our paper develops, not as an established finding.
+
+---
+
+## The same-root hypothesis
+
+Taken together, these lines point to a proposal from our research — the **same-root hypothesis**: ADHD and chronic fatigue (along with other neuroinflammatory conditions) may share a common root cause — chronic inflammation driving mitochondrial dysfunction and energy failure — with the specific diagnosis determined by which tissues are affected. The causal chain is: **inflammation → cytokine-mediated metabolic suppression → mitochondrial ATP deficit → brain energy failure (an ADHD phenotype when compartmentalized) or systemic energy failure (a fatigue phenotype when generalized).**
+
+Inflammation is the proposed primary driver; mitochondrial dysfunction is the mechanistic intermediate; symptom expression is determined by which tissues cross their energy threshold first.
+
+This is a **registered speculation with low confidence** — a hypothesis to test, not an established finding. It is not the claim that all ADHD is inflammatory; it is the claim that a subset of ADHD-like features may be acquired and immune-driven.
+
+---
+
+## Where a mechanism already has a dedicated article
+
+Several adjacent mechanisms have dedicated articles in this blog:
+
+- **[Why People with ADHD Get ME/CFS at Twice the Rate](../adhd-mecfs-predisposition/index.qmd)** — the epidemiological bridge between ADHD and post-infectious fatigue.
+- **[Your ADHD Is an Energy Problem](../adhd-energy-problem/index.qmd)** — the energy-production argument this strand connects to.
+- **[One Cofactor, Six Conditions, One Bottleneck](../bh4-one-cofactor-six-conditions/index.qmd)** — the BH4 cofactor that inflammation diverts away from dopamine synthesis.
+
+---
+
+## The honest limits
+
+This framework is **explicitly speculative**, with low certainty.
+
+- The core neuroinflammation premise in chronic fatigue is **contested** — one study found it, a replication did not [@Nakatomi2014neuroinflammation @Raijmakers2021TSPOCFS].
+- No study has measured the same inflammatory and microglial panel simultaneously across ADHD, chronic fatigue, and healthy controls.
+- The same-root hypothesis rests on cross-sectional and retrospective designs; no prospective study has tracked ADHD-like symptom emergence *after* an inflammatory trigger in a pre-illness-characterized cohort.
+- The framework covers a **subset** of ADHD-like features, not the entire condition. Most ADHD is developmental and stable, not acquired.
+- Even where inflammation is present, the causal direction is unresolved: inflammation could drive dopamine depletion, or chronic dopaminergic dysregulation could secondarily stress the immune system.
+
+Convergence does not raise certainty above the weakest link. Until a multi-disease, prospective study exists, this is a research framework, not a finding.
+
+---
+
+## The decisive experiment
+
+The field needs a prospective test: track a cohort after an inflammatory trigger (e.g., a viral infection) and measure whether new-onset inattention and executive difficulty emerge alongside markers of neuroinflammation, in people with no prior ADHD history. The framework predicts that the severity of acquired ADHD-like features should track inflammatory markers and should improve when inflammation is treated.
+
+If acquired inattention follows inflammation and reverses with anti-neuroinflammatory treatment, the same-root model is supported. If no new-onset ADHD-like features appear even in the presence of neuroinflammation, the model fails for that population.
+
+---
+
+## What to take away
+
+The immune and neuroinflammatory model does not claim that ADHD is an immune disease. It claims that **a subset** of ADHD-like features may be driven by inflammation and microglial activation — an immune process that can deplete dopamine and degrade the same prefrontal circuits that primary ADHD affects through development.
+
+The encouraging part: if some ADHD-like features are immune-driven, they may be **acquired and reversible** — addressable by treating the inflammation rather than accepted as permanent wiring.
+
+The honest part: this is a research framework, not a clinical recommendation. The neuroinflammation premise is contested, no screening is indicated, and no immunomodulatory treatment for ADHD-like features is established. The decisive prospective study has not been done.
+
+*This is Part 2 of a four-part series on the biology of ADHD. Part 1 covers the prefrontal-energy model and the multi-pathway treatment hypothesis. Part 3 explores the dopamine-Nrf2-NLRP3 axis. Part 4 asks when ADHD-like features are acquired and reversible. See the [series landing page](../adhd-series-landing/index.qmd).*
+
+*This article reflects research hypotheses from our documentation project. The immune and neuroinflammatory strand of ADHD is an active area of investigation with explicit, low confidence — not established clinical fact. Discuss any medical decision with a qualified clinician.*

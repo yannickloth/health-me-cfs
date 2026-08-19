@@ -1,0 +1,102 @@
+---
+title: "Erworben vs. entwicklungsbedingt: wenn ADHS-ähnliche Merkmale reversibel sein könnten"
+description: "Einige ADHS-ähnliche Merkmale — Unaufmerksamkeit, Impulsivität, exekutive Schwierigkeit — können nach der Entwicklung entstehen statt aus ihr. Dieser letzte Teil untersucht die Evidenz, dass ADHS im Erwachsenenalter oft keine einfache Fortsetzung des kindlichen ADHS ist, und wie erworbene Merkmale von entwicklungsbedingter Verdrahtung zu unterscheiden sind."
+author: "Yannick Loth"
+date: "2026-08-28"
+categories: [Neurodivergenz, Pathophysiologie, Symptome]
+lang: de
+---
+
+Teile 1–3 untersuchten Mechanismen, die ADHS-ähnliche Merkmale erzeugen können: ein präfrontales Energiedefizit, einen immunneuroinflammatorischen Strang und eine Dopamin-Nrf2-NLRP3-Achse. Dieser letzte Teil stellt eine andere und klinisch folgenreiche Frage:
+
+**Wenn ADHS-ähnliche Merkmale vorhanden sind, sind sie notwendigerweise von der Entwicklung an vorhanden — oder können einige erworben und daher reversibel sein?**
+
+Die Antwort ist wichtig, weil ein *erworbenes* Merkmal auf die Behandlung seiner Ursache ansprechen kann, während ein *entwicklungsbedingtes* Merkmal (Verdrahtung) dies im Allgemeinen nicht tut. Die Verwechslung beider erzeugt sowohl falsche Hoffnung als auch verpasste Gelegenheiten.
+
+Die Serie trennt **was wir wissen** von **was unsere Forschung hinzufügt**. Der etablierte Hintergrund umfasst den Befund, dass ADHS im Erwachsenenalter oft keine einfache Fortsetzung des kindlichen ADHS ist [@Moffitt2015adhdadult @Sibley2018lateonsetADHD @Asherson2019lateonsetADHD], und — aus der breiteren neuroimmunologischen Literatur, auf die sich unser Projekt stützt — dass Neuroinflammation und gestörter Schlaf die kognitive Funktion verschlechtern können. Was unsere Forschung hinzufügt, ist die spezifische Lesart — dass einige ADHS-ähnliche Merkmale erworben und durch Behandlung ihrer zugrunde liegenden Ursache reversibel sind, im Gegensatz zu stabiler entwicklungsbedingter Verdrahtung. Diese Lesart ist eine registrierte Spekulation, kein etablierter Befund.
+
+---
+
+## Der Schlüsselbefund: ADHS im Erwachsenenalter ist nicht einfach fortbestehendes kindliches ADHS
+
+Der folgenreichste Befund des Feldes ist, dass **vieles vom ADHS im Erwachsenenalter keine einfache Fortsetzung des kindlichen ADHS zu sein scheint** — obwohl das aktuelle Bild nuancierter ist, als der früheste bahnbrechende Befund nahelegte.
+
+Eine wegweisende Längsschnittstudie, die eine große Geburtskohorte bis ins Erwachsenenalter verfolgte, fand, dass die Mehrheit der Erwachsenen, die in ihren Zwanzigern die ADHS-Kriterien erfüllten, **kein** ADHS als Kinder gehabt hatten — und auffälligerweise, dass die meisten Kinder mit ADHS *nicht* fortgefahren waren, als Erwachsene die vollständigen Kriterien zu erfüllen [@Moffitt2015adhdadult]. Nur ein kleiner Teil des kindlichen ADHS bestand als erwachsenes ADHS fort.
+
+Dieser Befund löste eine Debatte aus, die das Bild seitdem verfeinert hat. Ein genauerer Blick auf dasselbe Phänomen — einschließlich wiederholter vollständiger Bewertungen einer Vergleichsgruppe im Alter von 10 bis 25 — fand, dass **das meiste scheinbar im Erwachsenenalter aufgetretene ADHS jugendlich beginnt (Alter 12–16), nicht de novo im Erwachsenenalter**, und dass die Symptome in vielen Fällen eine verpasste Kindheitspräsentation, eine komorbide Störung oder die kognitiven Effekte von Substanzgebrauch widerspiegeln, statt eines genuin eigenständigen Erwachsenen-Syndroms [@Sibley2018lateonsetADHD @Asherson2019lateonsetADHD]. Die retrospektive Erinnerung an kindliche ADHS-Symptome ist selbst unzuverlässig — Genauigkeit nur etwa 55 % [@Breda2020adhdrecall] — was bedeutet, dass einiges berichtetes „Erwachsenen-Beginn" wirklich vergessener Kindheitsbeginn ist.
+
+Die aktuelle, vorsichtigere Schlussfolgerung ist also eine **Mischung**: Einiges Erwachsenen-ADHS ist genuin jugendlich beginnend; einiges spiegelt verpasste oder falsch erinnerte Kindheitssymptome wider; einiges erklärt sich durch Substanzgebrauch oder andere Komorbidität. Ein sauberes „eigenständiges Erwachsenen-Syndrom, das aus dem Nichts auftaucht" ist jetzt die Minderheiten-Lesart, nicht der Konsens.
+
+Die klinische Implikation bleibt direkt: **Ein Erwachsener, der im Erwachsenenalter ADHS-ähnliche Symptome entwickelt, durchlebt nicht notwendigerweise eine ununterbrochene Kindheitserkrankung.** Sie könnten einen *erworbenen* oder *im Jugendalter beginnenden* Prozess erleben — einen, der eine Untersuchung seiner Ursache verdient, nicht ein Achselzucken in Richtung „lebenslange Verdrahtung". Aber der Grad, in dem dieser Prozess wirklich unabhängig vom neurodevelopmentalen Risiko der Kindheit ist, statt einer verpassten Kindheitspräsentation, bleibt ungelöst.
+
+---
+
+## Drei Architekturen der Überlappung
+
+Unsere Forschung rahmt die ADHS-chronische-Fatigue-Beziehung durch drei mögliche Architekturen:
+
+**Architektur A — gemeinsame Verletzlichkeit.** Ein gemeinsamer vorgelagerter Faktor — genetisch, immunologisch oder entwicklungsbedingt — prädisponiert eine Person unabhängig voneinander zu ADHS und chronischer Fatigue. Die Ko-Okkurrenz ist ein Selektionseffekt: Dieselbe Verletzlichkeit erzeugt beide. Die genetische Architektur der neurodevelopmentalen Erkrankungen unterstützt dies: ADHS und Autismus teilen einen großen Teil ihrer genetischen Einflüsse [@Demontis2023GWASadhd @Grove2019GWASasd @CrossDisorderPGC2013].
+
+**Architektur B — sekundäre Kaskade.** Der Krankheitsprozess — Neuroinflammation, dopaminerge Depletion, autonome Dysfunktion — erzeugt ADHS-ähnliche neuropsychiatrische Phänotypen bei Menschen, die sie sonst nicht entwickelt hätten. Das ADHS entsteht *wegen* der Krankheit, nicht neben ihr.
+
+**Architektur C — bidirektionale Verstärkung.** ADHS und die Krankheit verschlimmern einander — Schlafstörung, Energiedepletion und Stress verbinden sich zu einer Schleife.
+
+Die Architekturen schließen sich nicht gegenseitig aus, und die zeitlichen Daten zählen: Wenn ADHS *vor* dem Beginn der Fatigue dokumentiert ist — wie in den Studien, in denen kindliches ADHS spätere chronische Fatigue vorhersagt [@SaezFrancas2012adhdcfs @Quadt2024neurodivergentfatigue] — ist Architektur A oder C unterstützt. Architektur B (ADHS *aus* der Krankheit erworben) gilt für eine Untergruppe von Patienten, die nach Beginn der Krankheit neu auftretende Unaufmerksamkeit entwickeln.
+
+---
+
+## Der Mechanismus: gestörte Interozeption und Neuroinflammation
+
+Zwei vorgeschlagene Wege zu erworbenen ADHS-ähnlichen Merkmalen:
+
+**Interozeptive Störung.** Das Gehirn hält ein Gleichgewicht zwischen seinen *Vorhersagen* über den Körper und den *sensorischen Beweisen*, die der Körper zurücksendet. Erworbene Merkmale beinhalten vermutlich *korrumpierte Signale auf niedrigerer Ebene* — Hirnstamm- und thalamokortikale Wege, die keine genauen körperlichen Informationen liefern. Das Gehirn kompensiert, indem es seine A-priori-Annahmen strafft, was ein äußeres Bild von Unaufmerksamkeit und Schwierigkeit, Erregung zu regulieren, erzeugt. Der computationale Ort unterscheidet sich von entwicklungsbedingtem ADHS, und so sollte sich die Behandlungsantwort unterscheiden.
+
+**Neuroinflammation und Mikroglia-Aktivierung.** Anhaltende Neuroinflammation, die präfrontale, mesolimbische und thalamokortikale Schaltkreise schädigt, kann *ausreichen*, um ADHS-ähnliche Merkmale bei Menschen zu erzeugen, deren Neuroentwicklung vor der Erkrankung intakt war — die registrierte Spekulation, die in Teil 2 untersucht wurde. Wenn diese Kaskade die proximate Ursache ist, sollten Interventionen, die auf Neuroinflammation zielen, diese sekundären Merkmale teilweise umkehren — eine testbare und noch nicht getestete Vorhersage.
+
+---
+
+## Der Test: Kontextabhängigkeit
+
+Da sich die beiden Wege in *Stabilität* unterscheiden, können sie empirisch unterschieden werden:
+
+> Wenn erworbene ADHS-ähnliche Unaufmerksamkeit dieselbe **Merkmalsstabilität und Kontextunabhängigkeit** zeigt wie entwicklungsbedingtes ADHS — unverändert fortbesteht und nicht mit Markern der Neuroinflammation korreliert — ist das erworbene Modell nicht unterstützt.
+
+Mit anderen Worten: Entwicklungsbedingte Unaufmerksamkeit ist immer da. Erworbene Unaufmerksamkeit sollte mit dem zugrunde liegenden Prozess (Entzündung, metabolischer Zustand) fluktuieren und sich verbessern, wenn dieser Prozess behandelt wird.
+
+---
+
+## Die ehrlichen Grenzen
+
+- Das erworbene Modell ist **explizit spekulativ** — eine registrierte Hypothese mit niedriger Konfidenz — und eine einfachere Erklärung (Entzündung, die direkt sowohl die Symptome als auch den zugrunde liegenden Prozess verursacht) könnte die Befunde ohne jedes interozeptive Rahmenwerk erklären.
+- Keine der theoretischen Komponenten wurde in diesem Kontext direkt validiert.
+- Die Unterscheidung zwischen erworben und entwicklungsbedingt ist am Krankenbett noch nicht nutzbar: Kein Test trennt die beiden derzeit bei einem einzelnen Patienten.
+- Selbst wenn einige Merkmale erworben und reversibel sind, bedeutet dies nicht, dass „ADHS geheilt werden kann". Es bedeutet, dass eine *Untergruppe der Symptomlast* bei manchen Menschen auf die Behandlung ihrer Ursache ansprechen könnte.
+- Der Befund, dass Erwachsenen-ADHS oft im Jugendalter beginnt oder verpasste Kindheitssymptome widerspiegelt, statt eines klar eigenständigen Erwachsenen-Syndroms [@Moffitt2015adhdadult @Sibley2018lateonsetADHD @Asherson2019lateonsetADHD], etabliert einen Unterschied zwischen Beginn-Gruppen, beweist aber nicht von selbst, dass diese Gruppe *reversibel* ist — nur, dass sie nicht in der Kindheit begann.
+
+---
+
+## Die klinische Konsequenz — und der Schaden, wenn man es falsch macht
+
+Der Grund, warum diese Unterscheidung klinisch wichtig ist:
+
+- **Wenn erworbene Merkmale als „nur ADHS" abgetan werden**, bleibt ein behandelbarer zugrunde liegender Prozess (Entzündung, metabolisches Defizit, gestörter Schlaf) unbehandelt.
+- **Wenn entwicklungsbedingte Merkmale als erworben und reversibel behandelt werden**, werden Patienten Behandlungen angeboten, die nicht wirken, und sie können sich selbst die Schuld geben, wenn sie es nicht tun.
+- **Auch die umgekehrte Fehlkennzeichnung tritt auf.** Ein „Spätspiel-Abschwächer"-Muster — postexertioneller kognitiver Nebel, der den unaufmerksamen Typus des ADHS nachahmt — kann als ADHS fehlgedeutet werden und eine Abklärung auf eine Aufmerksamkeitsstörung auslösen, wenn das zugrunde liegende Problem energiegetrieben (ATP-limitiert) statt motivationsgetrieben ist und sich mit Anstrengung verschlimmert, statt konstant zu bestehen. Beide Richtungen des Fehlers schicken den Patienten auf den falschen Behandlungspfad.
+
+Die ehrliche Position ist, dass erworbene ADHS-ähnliche Merkmale **unterstützt, nicht pathologisiert** werden sollten — und die zugrunde liegenden modifizierbaren Treiber (Schlaf, Entzündung, Eisen, Energie) sollten unabhängig vom Etikett adressiert werden, weil sie das allgemeine Wohlbefinden auch dann beeinflussen, wenn die zentrale entwicklungsbedingte Verdrahtung unverändert ist.
+
+---
+
+## Was Sie mitnehmen sollten
+
+Einige ADHS-ähnliche Merkmale — Unaufmerksamkeit, Impulsivität, exekutive Schwierigkeit — könnten **erworben** sein nach der Entwicklung, statt aus ihr gebaut. Der Befund, dass Erwachsenen-ADHS oft keine einfache Fortsetzung des kindlichen ADHS ist [@Moffitt2015adhdadult @Sibley2018lateonsetADHD @Asherson2019lateonsetADHD], unterstützt diese Möglichkeit. Wenn solche Merkmale erworben sind, sollten sie **kontextabhängig und potenziell reversibel** sein mit der Behandlung der zugrunde liegenden Ursache: Neuroinflammation, metabolische Störung oder Schlafstörung.
+
+Der ermutigende Teil: Dies bedeutet, dass ein bedeutender Teil der täglichen Symptomlast bei manchen Menschen adressierbar sein könnte, ohne zu behaupten, ADHS selbst zu „beheben".
+
+Der ehrliche Teil: Dies ist eine Hypothese mit niedriger Konfidenz, und der entscheidende Test — zu zeigen, dass erworbene Unaufmerksamkeit mit zugrunde liegender Entzündung fluktuiert, während entwicklungsbedingte Unaufmerksamkeit dies nicht tut — wurde nicht durchgeführt.
+
+---
+
+*Dies schließt die vierteilige Serie über die Biologie des ADHS ab. Teil 1 untersuchte das präfrontale Energiemodell und die Mehrpfad-Behandlungshypothese, Teil 2 den immunologischen und neuroinflammatorischen Strang, Teil 3 die Dopamin-Nrf2-NLRP3-Achse und Teil 4 die Unterscheidung zwischen erworbenen und entwicklungsbedingten Merkmalen. Siehe die [Einstiegsseite der Serie](../adhd-series-landing/index.qmd).*
+
+*Dieser Beitrag spiegelt Forschungshypothesen mit expliziter, niedriger Konfidenz wider — keine etablierte klinische Tatsache. Besprechen Sie jede medizinische Entscheidung mit einem qualifizierten Kliniker.*

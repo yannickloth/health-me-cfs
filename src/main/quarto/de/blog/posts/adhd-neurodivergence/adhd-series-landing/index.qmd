@@ -1,0 +1,82 @@
+---
+title: "Die Biologie des ADHS — eine Serie"
+description: "ADHS ist nicht eine einzige Sache. Vier eigenständige biologische Stränge — präfrontale Energie, immunvermittelte Neuroinflammation, die Dopamin-Nrf2-NLRP3-Achse und erworbene Verläufe — können jeweils zu der Symptomlast beitragen, und der Weg nach vorn könnte darin bestehen, mehrere von ihnen gleichzeitig zu behandeln. Dies ist die Einstiegsseite für eine Serie, die jeden Strang und die Mehrpfad-Behandlungshypothese untersucht."
+author: "Yannick Loth"
+date: "2026-08-24"
+categories: [Neurodivergenz, Serie, Pathophysiologie]
+lang: de
+---
+
+ADHS ist nicht eine einzige Sache.
+
+Eine verbreitete Annahme ist, dass die Erkrankung eine einzige Ursache und eine einzige Geschichte hat. Unsere Forschung weist auf etwas Genaueres hin: **vier eigenständige biologische Stränge** können ADHS-bezogenen Symptomen zugrunde liegen — ein präfrontales Energie-Defizit, eine immunvermittelte neuroinflammatorische Untergruppe, eine Dopamin-Nrf2-NLRP3-Achse und erworbene Merkmale, die nicht entwicklungsbedingt sind. Verschiedene Patienten tragen wahrscheinlich unterschiedliche Kombinationen davon, und jeder Strang trägt einen anderen Teil der täglichen Symptomlast.
+
+Diese Serie untersucht jeden Strang in einfacher Sprache und stellt dann die Frage, auf die sie alle zulaufen: **können mehrere Signalwege gleichzeitig behandelt werden, um Symptome zu beseitigen oder abzuschwächen und dem Patienten ein normaleres Leben zu ermöglichen?**
+
+---
+
+## Was wir wissen, was unsere Forschung hinzufügt
+
+Jeder Beitrag dieser Serie unterscheidet zwei Dinge klar:
+
+1. **Was wir wissen** — etablierte wissenschaftliche Befunde, die mit der begutachteten Fachliteratur belegt sind. Das schließt die gut etablierte ADHS-Wissenschaft selbst ein — ihre zentrale Dopamin-Neurobiologie [@Volkow2011adhddopamine], ihre genetische Architektur und Überlappung mit Autismus [@Demontis2023GWASadhd @Lai2019metaADHDasd] und ihre Standardbehandlungen — sowie die krankheitsübergreifenden Befunde (der präfrontale Hypometabolismus bei ADHS [@Zametkin1990], die Katecholamin-Pharmakologie des umgekehrten U [@Arnsten2011catecholaminePFC] und der umstrittene Erwachsenen-Verlauf [@Moffitt2015adhdadult @Sibley2018lateonsetADHD @Asherson2019lateonsetADHD]).
+2. **Was unsere Forschung hinzufügt** — die Hypothesen, die unser Dokumentationsprojekt durch das Lesen über Krankheitsgrenzen hinweg entwickelt hat und die noch nicht etabliert sind: das Konvergenzmodell der präfrontalen Energie, die Mehrpfad-Behandlungshypothese, das Rahmenwerk erworben-reversibel und die krankheitsübergreifende Dopamin-Nrf2-NLRP3-Achse.
+
+Der Unterschied ist wichtig, weil die beiden *nicht dieselbe Gewissheit* haben. „Was wir wissen" ist Evidenz; „was unsere Forschung hinzufügt" ist eine testbare Hypothese. Die Serie hält sie getrennt, damit Sie nie in die Irre geführt werden, eine Hypothese für einen Befund zu halten.
+
+Jeder Beitrag folgt derselben Form:
+
+1. **Was es ist** — der Mechanismus, in einfachen Worten.
+2. **Die Evidenz** — was ihn stützt und wie stark diese Evidenz ist.
+3. **Die ehrlichen Grenzen** — was er *nicht* behauptet.
+4. **Das entscheidende Experiment** — wie die Idee bestätigt oder widerlegt werden könnte.
+
+---
+
+## Teil 1: ADHS als präfrontale Energiestörung — und die Mehrpfad-Behandlungshypothese
+
+Die Serie beginnt mit dem am weitesten entwickelten Strang: ein präfrontaler Kortex, der mit einem dünnen Kraftstoffvorrat läuft. Der präfrontale Kortex ist die energieintensivste Region des menschlichen Gehirns und versagt daher bei Energieknappheit zuerst. Fünf unabhängige Linien — zerebrovaskuläres Nachfrageversagen, Glukose-Hypometabolismus, Kreatin-Depletion, Katecholamin-Defizit und ein epidemiologischer Gradient — konvergieren auf diesen einen Punkt. Teil 1 trägt auch die Synthese der Serie: die Mehrpfad-Behandlungshypothese und was es bedeuten könnte, mehrere Mechanismen gleichzeitig zu behandeln.
+
+Lesen Sie den Beitrag:
+
+1. **[ADHS als präfrontale Energiestörung: fünf Evidenzlinien, ein Mechanismus](../adhd-prefrontal-energy/index.qmd)** — was ADHS für sich genommen ist, die zerebrovaskuläre, Glukose-, Kreatin- und Katecholamin-Evidenz, der epidemiologische Gradient, die ehrlichen Grenzen, das entscheidende Experiment, die offene Frage langsam-aber-präzise und die Mehrpfad-Behandlungshypothese.
+
+---
+
+## Teil 2: Der immunologische und neuroinflammatorische Strang des ADHS
+
+Nicht jedes ADHS muss dieselbe Ursache haben. Eine wachsende Evidenzlinie verbindet ADHS-ähnliche Merkmale mit chronischer Neuroinflammation und Mikroglia-Aktivierung — einen immunvermittelten Prozess, der Dopamin entleeren und dieselben präfrontalen Schaltkreise schädigen kann, die primäres ADHS im Verlauf der Entwicklung betrifft. Wenn einige ADHS-ähnliche Symptome durch Entzündung angetrieben werden, könnten sie erworben, reversibel und identifizierbar sein.
+
+Lesen Sie den Beitrag:
+
+1. **[Der immunologische und neuroinflammatorische Strang des ADHS: Wenn Entzündung Aufmerksamkeit formt](../adhd-immune-neuroinflammation/index.qmd)** — die Mikroglia-Evidenz, der Weg der dopaminergen Entleerung, das gemeinsame proinflammatorische Signal, die Orexin-Dopamin-Brücke, die Gleichwurzel-Hypothese und die ehrlichen Grenzen.
+
+---
+
+## Teil 3: Die Dopamin-Nrf2-NLRP3-Achse
+
+Ein dritter Strang verbindet die Dopamin-Biologie mit dem antioxidativen Abwehrsystem der Zelle und dem zentralen Entzündungsschalter des Immunsystems. Ein niedriger Dopamin-Tonus beeinträchtigt die Nrf2-gesteuerten antioxidativen Abwehrkräfte, wodurch eine Bremse auf die NLRP3-Inflammasom-Aktivierung aufgehoben wird — und die daraus resultierende Entzündung entleert das Dopamin weiter und schließt eine sich selbst verstärkende Schleife. Diese krankheitsübergreifende Achse könnte erklären, warum Menschen mit ADHS eine niedrigere Schwelle für postinfektiöse Fatigue tragen.
+
+Lesen Sie den Beitrag:
+
+1. **[Die Dopamin-Nrf2-NLRP3-Achse: eine entzündliche Schleife hinter ADHS und Fatigue](../adhd-dopamine-nrf2/index.qmd)** — die Dopamin-Nrf2-Verbindung, die Nrf2-NLRP3-Bremse, das Feedback zur Dopamin-Synthese, der BH4-Engpass, die eigene genetische Architektur des ADHS und seine Überlappung mit Autismus, der gemeinsame mitochondriale genetische Strang (Haplogruppe U, Zybrid-Evidenz) und die testbaren Vorhersagen.
+
+---
+
+## Teil 4: Erworben vs. entwicklungsbedingt — wenn ADHS-ähnliche Merkmale reversibel sein könnten
+
+Die klinisch folgenreiche Frage: Sind ADHS-ähnliche Merkmale notwendigerweise von der Entwicklung an vorhanden, oder können einige *erworben* sein — und daher reversibel? Vieles vom ADHS im Erwachsenenalter ist keine einfache Fortsetzung des kindlichen ADHS — ein Teil beginnt im Jugendalter, ein Teil spiegelt verpasste oder falsch erinnerte Kindheitssymptome wider, ein Teil erklärt sich durch Substanzgebrauch oder Komorbidität — und erworbene Unaufmerksamkeit nach einem immunologischen Auslöser kann reversibel sein, wenn ihre Ursache behandelt wird. Die Unterscheidung bestimmt, ob ein Symptom auf die Behandlung seiner Ursache ansprechen könnte oder stabile Verdrahtung ist.
+
+Lesen Sie den Beitrag:
+
+1. **[Erworben vs. entwicklungsbedingt: wenn ADHS-ähnliche Merkmale reversibel sein könnten](../adhd-acquired-trajectories/index.qmd)** — der Erwachsenen-Verlauf, die Architektur-Rahmenwerke A/B/C, die interozeptiven und neuroinflammatorischen Wege und die klinischen Folgen, wenn man die Unterscheidung falsch macht.
+
+---
+
+## Eine Anmerkung zur Ehrlichkeit
+
+Jeder Beitrag dieser Serie unterscheidet sorgfältig, was durch Evidenz *bestätigt* ist, was eine *vielversprechende Hypothese* ist und was eine *individuelle Patientenerfahrung* ist. Der größte Teil des Inhalts hier liegt am Hypothesen-Ende — die Gewissheiten sind explizit, oft niedrig, und nichts wird als etablierte klinische Tatsache oder Behandlungsempfehlung dargestellt.
+
+Die zugrunde liegende Wissenschaft stammt aus unserem Dokumentationsprojekt, das diese krankheitsübergreifenden Energie- und Immunmodelle im Detail entwickelt. Die ADHS-spezifische Rahmung ist unsere Lektüre der Literatur, geschrieben, um für sich allein zu stehen, für alle, die sich für die Biologie interessieren.
+
+*Besprechen Sie jede medizinische Entscheidung mit einem qualifizierten Kliniker.*

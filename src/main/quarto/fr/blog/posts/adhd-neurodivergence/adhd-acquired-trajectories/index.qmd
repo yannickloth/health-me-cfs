@@ -1,0 +1,102 @@
+---
+title: "Acquis vs développemental : quand les caractéristiques de type TDAH pourraient être réversibles"
+description: "Certaines caractéristiques de type TDAH — inattention, impulsivité, difficulté exécutive — peuvent survenir après le développement plutôt qu'en découler. Cette dernière partie examine les preuves que le TDAH de l'adulte n'est souvent pas une simple continuation du TDAH de l'enfant, et comment distinguer les caractéristiques acquises du câblage développemental."
+author: "Yannick Loth"
+date: "2026-08-28"
+categories: [Neurodivergence, Physiopathologie, Symptômes]
+lang: fr
+---
+
+Les parties 1 à 3 ont examiné des mécanismes qui peuvent produire des caractéristiques de type TDAH : un déficit énergétique préfrontal, un volet neuro-inflammatoire immunitaire et un axe dopamine-Nrf2-NLRP3. Cette dernière partie pose une question différente et cliniquement décisive :
+
+**Lorsque des caractéristiques de type TDAH sont présentes, sont-elles nécessairement présentes depuis le développement — ou certaines peuvent-elles être acquises, et donc réversibles ?**
+
+La réponse importe car une caractéristique *acquise* peut répondre au traitement de sa cause, alors qu'une caractéristique *développementale* (câblage) ne le fera généralement pas. Confondre les deux produit à la fois de faux espoirs et des occasions manquées.
+
+La série sépare **ce que nous savons** de **ce que nos recherches ajoutent**. Le contexte établi inclut la découverte que le TDAH de l'adulte n'est souvent pas une simple continuation du TDAH de l'enfant [@Moffitt2015adhdadult @Sibley2018lateonsetADHD @Asherson2019lateonsetADHD], et — de la littérature neuro-immunologique plus large sur laquelle notre projet s'appuie — que la neuro-inflammation et le sommeil perturbé peuvent dégrader la fonction cognitive. Ce que nos recherches ajoutent est la lecture spécifique — que certaines caractéristiques de type TDAH sont acquises et réversibles avec le traitement de leur cause sous-jacente, contrairement au câblage développemental stable. Cette lecture est une spéculation enregistrée, pas une découverte établie.
+
+---
+
+## La découverte clé : le TDAH de l'adulte n'est pas simplement le TDAH de l'enfant qui persiste
+
+La découverte la plus conséquente du domaine est que **beaucoup de TDAH de l'adulte ne semble pas être une continuation directe du TDAH de l'enfant** — bien que le tableau actuel soit plus nuancé que la découverte fondatrice ne le suggérait.
+
+Une étude longitudinale de référence qui a suivi une grande cohorte de naissance jusqu'à l'âge adulte a trouvé que la majorité des adultes qui satisfaisaient les critères du TDAH dans la vingtaine n'avaient **pas** eu de TDAH enfants — et, de façon frappante, que la plupart des enfants atteints de TDAH n'avaient *pas* continué à satisfaire les critères complets à l'âge adulte [@Moffitt2015adhdadult]. Seule une petite fraction du TDAH de l'enfance persistait comme TDAH de l'adulte.
+
+Cette découverte a déclenché un débat qui a depuis affiné le tableau. Un regard plus attentif sur le même phénomène — incluant des évaluations complètes répétées d'un groupe de comparaison de 10 à 25 ans — a trouvé que **la plupart des TDAH apparemment d'apparition à l'âge adulte débutent à l'adolescence (12 à 16 ans), pas de novo à l'âge adulte**, et que dans de nombreux cas les symptômes reflètent une présentation manquée de l'enfance, un trouble comorbide ou les effets cognitifs de l'usage de substances plutôt qu'un syndrome adulte réellement distinct [@Sibley2018lateonsetADHD @Asherson2019lateonsetADHD]. Le rappel rétrospectif des symptômes de TDAH de l'enfance est lui-même peu fiable — précision d'environ 55 % seulement [@Breda2020adhdrecall] — ce qui signifie qu'une partie de l'« apparition à l'âge adulte » rapportée est en réalité un début d'enfance oublié.
+
+Donc la conclusion actuelle, plus prudente, est un **mélange** : une partie du TDAH de l'adulte est réellement d'apparition adolescente ; une partie reflète des symptômes manqués ou mal rappelés de l'enfance ; une partie s'explique par l'usage de substances ou une autre comorbidité. Un « syndrome adulte distinct, apparaissant de nulle part » propre est maintenant la lecture minoritaire, pas le consensus.
+
+L'implication clinique reste directe : **un adulte qui développe des symptômes de type TDAH à l'âge adulte ne revit pas nécessairement une condition d'enfance ininterrompue.** Ils peuvent vivre un processus *acquis* ou *à début adolescent* — un processus qui mérite une investigation de sa cause, pas un haussement d'épaules vers un « câblage à vie ». Mais le degré auquel ce processus est réellement indépendant du risque neurodéveloppemental de l'enfance, plutôt qu'une présentation manquée de l'enfance, reste non résolu.
+
+---
+
+## Trois architectures du chevauchement
+
+Nos recherches encadrent la relation TDAH-fatigue chronique à travers trois architectures possibles :
+
+**Architecture A — vulnérabilité partagée.** Un facteur en amont commun — génétique, immunitaire ou développemental — prédispose une personne à la fois au TDAH et à la fatigue chronique indépendamment. La co-occurrence est un artefact de sélection : la même vulnérabilité produit les deux. L'architecture génétique des conditions neurodéveloppementales soutient ceci : le TDAH et l'autisme partagent une grande fraction de leurs influences génétiques [@Demontis2023GWASadhd @Grove2019GWASasd @CrossDisorderPGC2013].
+
+**Architecture B — cascade secondaire.** Le processus de la maladie — neuro-inflammation, déplétion dopaminergique, dysfonction autonome — produit des phénotypes neuropsychiatriques de type TDAH chez des personnes qui ne les auraient pas développés autrement. Le TDAH survient *à cause de* la maladie, pas à côté.
+
+**Architecture C — amplification bidirectionnelle.** Le TDAH et la maladie s'aggravent mutuellement — perturbation du sommeil, déplétion énergétique et stress se combinent en une boucle.
+
+Les architectures ne sont pas mutuellement exclusives, et les données temporelles comptent : lorsque le TDAH est documenté *avant* l'apparition de la fatigue — comme dans les études où le TDAH de l'enfance prédit une fatigue chronique ultérieure [@SaezFrancas2012adhdcfs @Quadt2024neurodivergentfatigue] — l'architecture A ou C est soutenue. L'architecture B (TDAH acquis *de* la maladie) s'applique à un sous-ensemble de patients qui développent une inattention d'apparition nouvelle après le début de la maladie.
+
+---
+
+## Le mécanisme : interoception perturbée et neuro-inflammation
+
+Deux voies proposées vers des caractéristiques de type TDAH acquises :
+
+**Perturbation interoceptive.** Le cerveau maintient un équilibre entre ses *prédictions* sur le corps et les *preuves sensorielles* que le corps renvoie. On pense que les caractéristiques acquises impliquent des *signaux de niveau inférieur corrompus* — les voies du tronc cérébral et thalamocorticales ne parvenant pas à délivrer des informations corporelles précises. Le cerveau compense en resserrant ses a priori, produisant un tableau extérieur d'inattention et de difficulté à réguler l'éveil. Le lieu computationnel diffère du TDAH développemental, et la réponse au traitement devrait aussi différer.
+
+**Neuro-inflammation et activation microgliale.** Une neuro-inflammation soutenue dégradant les circuits préfrontaux, mésolimbiques et thalamocorticaux peut être *suffisante* pour produire des caractéristiques de type TDAH chez des personnes dont le neurodéveloppement pré-maladie était intact — la spéculation enregistrée examinée dans la partie 2. Si cette cascade est la cause proche, alors les interventions ciblant la neuro-inflammation devraient partiellement inverser ces caractéristiques secondaires — une prédiction testable et non encore testée.
+
+---
+
+## Le test : dépendance au contexte
+
+Parce que les deux voies diffèrent par *stabilité*, elles peuvent être distinguées empiriquement :
+
+> Si l'inattention de type TDAH acquise montre la **même stabilité de trait et indépendance du contexte** que le TDAH développemental — persistant inchangé et ne corrélant pas avec les marqueurs de neuro-inflammation — le modèle acquis n'est pas soutenu.
+
+En d'autres termes : l'inattention développementale est toujours là. L'inattention acquise devrait fluctuer avec le processus sous-jacent (inflammation, état métabolique) et devrait s'améliorer lorsque ce processus est traité.
+
+---
+
+## Les limites honnêtes
+
+- Le modèle acquis est **explicitement spéculatif** — une hypothèse enregistrée à faible confiance — et une explication plus simple (l'inflammation causant directement à la fois les symptômes et le processus sous-jacent) peut rendre compte des découvertes sans aucun cadre interoceptif.
+- Aucun des composants théoriques n'a été directement validé dans ce contexte.
+- La distinction entre acquis et développemental n'est pas encore utilisable au chevet : aucun test ne sépare actuellement les deux chez un patient individuel.
+- Même si certaines caractéristiques sont acquises et réversibles, cela ne signifie pas que « le TDAH peut être guéri ». Cela signifie qu'un *sous-ensemble du fardeau des symptômes* chez certaines personnes peut répondre au traitement de sa cause.
+- La découverte que le TDAH de l'adulte est souvent d'apparition adolescente ou reflète des symptômes manqués de l'enfance, plutôt qu'un syndrome adulte clairement distinct [@Moffitt2015adhdadult @Sibley2018lateonsetADHD @Asherson2019lateonsetADHD], établit une différence entre les groupes d'apparition mais ne prouve pas par elle-même que ce groupe est *réversible* — seulement qu'il n'a pas commencé dans l'enfance.
+
+---
+
+## La conséquence clinique — et le tort de se tromper
+
+La raison pour laquelle cette distinction importe cliniquement :
+
+- **Si les caractéristiques acquises sont écartées comme « juste du TDAH »**, un processus sous-jacent traitable (inflammation, déficit métabolique, sommeil perturbé) n'est pas pris en charge.
+- **Si les caractéristiques développementales sont traitées comme acquises et réversibles**, on propose aux patients des traitements qui ne fonctionneront pas, et ils peuvent se blâmer quand ils échouent.
+- **L'étiquetage inversé se produit aussi.** Un schéma de « baisse en fin de partie » — brouillard cognitif post-effort qui imite le type inattentif du TDAH — peut être mal lu comme un TDAH et déclencher une évaluation pour un trouble de l'attention, alors que le problème sous-jacent est induit par l'énergie (limité par l'ATP) plutôt que par la motivation, et s'aggrave avec l'effort plutôt que de persister constamment. Les deux directions de l'erreur envoient le patient sur la mauvaise voie de traitement.
+
+La position honnête est que les caractéristiques de type TDAH acquises devraient être **soutenues, pas pathologisées** — et les moteurs modifiables sous-jacents (sommeil, inflammation, fer, énergie) devraient être traités quel que soit le label, car ils affectent le bien-être général même lorsque le câblage développemental central est inchangé.
+
+---
+
+## Ce qu'il faut retenir
+
+Certaines caractéristiques de type TDAH — inattention, impulsivité, difficulté exécutive — peuvent être **acquises** après le développement plutôt que construites à partir de lui. La découverte que le TDAH de l'adulte n'est souvent pas une continuation directe du TDAH de l'enfant [@Moffitt2015adhdadult @Sibley2018lateonsetADHD @Asherson2019lateonsetADHD] soutient cette possibilité. Si ces caractéristiques sont acquises, elles devraient être **dépendantes du contexte et potentiellement réversibles** avec le traitement de la cause sous-jacente : neuro-inflammation, perturbation métabolique ou perturbation du sommeil.
+
+La part encourageante : cela signifie qu'une fraction significative du fardeau quotidien des symptômes chez certaines personnes peut être traitable sans prétendre « réparer » le TDAH lui-même.
+
+La part honnête : c'est une hypothèse à faible confiance, et le test décisif — montrer que l'inattention acquise fluctue avec l'inflammation sous-jacente alors que l'inattention développementale ne le fait pas — n'a pas été mené.
+
+---
+
+*Ceci conclut la série en quatre parties sur la biologie du TDAH. La partie 1 a examiné le modèle énergétique préfrontal et l'hypothèse de traitement multipiste, la partie 2 le volet immunitaire et neuro-inflammatoire, la partie 3 l'axe dopamine-Nrf2-NLRP3, et la partie 4 la distinction entre caractéristiques acquises et développementales. Voir la [page d'accueil de la série](../adhd-series-landing/index.qmd).*
+
+*Cet article reflète des hypothèses de recherche avec une confiance explicite et faible — pas un fait clinique établi. Discutez de toute décision médicale avec un clinicien qualifié.*

@@ -1,0 +1,111 @@
+---
+title: "Der immunologische und neuroinflammatorische Strang des ADHS: Wenn Entzündung Aufmerksamkeit formt"
+description: "Nicht jedes ADHS muss dieselbe Ursache haben. Eine wachsende Evidenzlinie verbindet ADHS-ähnliche Merkmale mit chronischer Neuroinflammation und Mikroglia-Aktivierung — einen immunvermittelten Prozess, der Dopamin entleeren und dieselben präfrontalen Schaltkreise schädigen kann, die primäres ADHS im Verlauf der Entwicklung betrifft. Dieser Beitrag untersucht die Evidenz und was unbewiesen bleibt."
+author: "Yannick Loth"
+date: "2026-08-26"
+categories: [Neurodivergenz, Immunologie, Pathophysiologie]
+lang: de
+---
+
+Nicht jedes ADHS muss dieselbe Ursache haben.
+
+Teil 1 dieser Serie untersuchte ADHS als präfrontale Energiestörung — einen Zustand, in dem die teuerste Region des Gehirns mit einem dünnen Kraftstoffvorrat läuft. Dieser Teil untersucht eine grundlegend andere Idee: dass eine **Untergruppe** ADHS-ähnlicher Merkmale vom Immunsystem angetrieben wird — chronische Neuroinflammation und Mikroglia-Aktivierung, die dieselben präfrontalen, dopaminergen und aufmerksamkeitsbezogenen Schaltkreise schädigen, die primäres ADHS im Verlauf der Entwicklung betrifft.
+
+Die beiden Ideen stehen nicht in Konkurrenz. Sie beschreiben verschiedene Patienten und verschiedene Mechanismen, und ihre Unterscheidung ist für die Behandlung enorm wichtig.
+
+Die Serie trennt **was wir wissen** von **was unsere Forschung hinzufügt**. Hier sind die etablierten Befunde das neuroinflammatorische Signal bei ADHS [@Dunn2019neuroinflammationadhd @Yokokura2021D1Rmicroglia] und die gemeinsame proinflammatorische Erhöhung bei ADHS und chronischer Fatigue [@Quadt2024neurodivergentfatigue]. Ein weiteres Element — Neuroinflammation bei chronischer Fatigue selbst — ist *berichtet*, aber *umstritten*: Eine Studie fand sie [@Nakatomi2014neuroinflammation], eine Replikation nicht [@Raijmakers2021TSPOCFS]. Was unsere Forschung hinzufügt, ist die Gleichwurzel-Lesart — dass entzündungsgetriebenes Energieversagen eine gemeinsame Ätiologie sein könnte, wobei der ADHS-Phänotyp erscheint, wenn das betroffene Kompartiment das Gehirn ist — die eine registrierte Spekulation ist, kein etablierter Befund.
+
+---
+
+## Die Idee: Entzündung schädigt Aufmerksamkeitsschaltkreise
+
+Das klassische Bild von ADHS ist entwicklungsbedingt: Die dopaminergen und präfrontalen Schaltkreise des Gehirns wurden von Kindheit an mit einer bestimmten Konfiguration gebaut. Aber eine ADHS-ähnliche Präsentation erfordert keine entwicklungsbedingte Ursache. Ein **späterer entzündlicher Prozess** kann dieselben Schaltkreise schädigen und dieselben Symptome über einen anderen Weg erzeugen.
+
+Der vorgeschlagene Mechanismus ist eine Kaskade:
+
+1. **Entzündung erhöht ihre Marker.** Erhöhte proinflammatorische Zytokine — namentlich IL-6 und TNF-alpha — sind unabhängig voneinander bei ADHS und chronischer Fatigue dokumentiert [@Quadt2024neurodivergentfatigue @Dunn2019neuroinflammationadhd].
+2. **Mikroglia aktivieren sich.** Aktivierte Mikroglia sind die ansässigen Immunzellen des Gehirns, und ihre Aktivierung ist bei ADHS [@Yokokura2021D1Rmicroglia] und chronischer Fatigue [@Nakatomi2014neuroinflammation] dokumentiert.
+3. **Dopamin wird entleert.** Entzündung lenkt den Kofaktor BH4 von der Dopaminsynthese zu einem anderen Zweig seines Stoffwechsels ab und treibt oxidativen Stress, der dopaminerge Endigungen schädigt. Das Ergebnis ist ein niedrigerer Dopaminvorrat in denselben Schaltkreisen, die primäres ADHS betrifft.
+4. **Die präfrontale Funktion verschlechtert sich.** Das Ergebnis ist ein ADHS-ähnlicher klinischer Phänotyp — Unaufmerksamkeit, Impulsivität, exekutive Schwierigkeit — bei einer Person, deren Neuroentwicklung vor der Erkrankung intakt war.
+
+Die Kernbehauptung: **anhaltende Neuroinflammation kann ausreichen, um ADHS-ähnliche Merkmale bei Menschen zu erzeugen, die vorher kein ADHS hatten.** Diese Behauptung ist eine registrierte Forschungsspekulation, kein etablierter Befund.
+
+---
+
+## Die Evidenz
+
+Vier Befunde schärfen den Fall:
+
+**1. Neuroinflammation ist bei ADHS dokumentiert.** Erhebliche Evidenz unterstützt Neuroinflammation in der ADHS-Pathophysiologie, einschließlich erhöhter proinflammatorischer Zytokine bei Kindern mit ADHS und Mikroglia-Aktivierung in Post-Mortem- und Bildgebungsstudien [@Dunn2019neuroinflammationadhd]. Die Positronenemissionstomographie hat eine reduzierte Dopamin-D1-Rezeptor-Verfügbarkeit nachgewiesen, die mit Mikroglia-Aktivierung bei ADHS kolokalisiert ist — die beiden Phänomene im selben Gehirn [@Yokokura2021D1Rmicroglia].
+
+**2. Neuroinflammation ist bei chronischer Fatigue dokumentiert — aber umstritten.** Eine Studie berichtete eine erhebliche Erhöhung der Mikroglia-Aktivierungsmarker über sechs Gehirnregionen [@Nakatomi2014neuroinflammation], aber eine nachfolgende Studie mit demselben Tracer fand keine solche Erhöhung [@Raijmakers2021TSPOCFS]. Die neuroinflammatorische Grundlage des Gleichwurzel-Modells ist daher **umstritten, nicht etabliert**; jede nachgelagerte Behauptung erbt diese Unsicherheit.
+
+**3. Das gemeinsame entzündliche Signal.** ADHS-Merkmale im Alter von 9 Jahren sagen ein verdoppeltes Risiko für chronische Fatigue im Alter von 18 Jahren voraus, und diese Assoziation wird durch den entzündlichen Marker IL-6 vermittelt [@Quadt2024neurodivergentfatigue]. Dies ist der direkteste Beweis, der den entzündlichen Zustand von ADHS mit späterer Fatigue verbindet — aber er etabliert eine statistische Vermittlung, keinen bewiesenen Mechanismus.
+
+**4. Konvergente Pharmakologie.** Sowohl ADHS als auch chronische Fatigue sprechen auf dieselben Dopamin- und Noradrenalin-Wiederaufnahmehemmer an [@Blockmans2006methylphenidate @Eckey2025PatientReported]. Dies ist konsistent mit einem gemeinsamen dopaminergen Defizit in beiden, ob entwickelt oder erworben.
+
+---
+
+## Die Orexin-Dopamin-Brücke
+
+Eine weitere Hypothese unseres Beitrags verbindet den entzündlichen Strang mit dem Dopamin-Defizit des ADHS über **Orexin** — das wachheitsfördernde Peptid. Orexin-Neuronen projizieren zur ventralen tegmentalen Area, wo sie das Dopamin-Feuern regulieren. Eine Defizienz in diesem System reduziert präfrontales Dopamin (Brain Fog) und mesolimbische Belohnung (Anhedonie) [@Sakurai1998orexin].
+
+Die Relevanz für ADHS ist spezifisch: Derselbe um 8,1 % niedrigere zerebrale Glukosestoffwechsel, der bei ADHS beobachtet wird, könnte ein gemeinsames hypothalamisches Orexin-Defizit widerspiegeln, und die Hypothese unseres Beitrags schlägt vor, dass ein niedriger Orexin-Tonus mit niedrigem Dopamin-Metabolit und schlechteren Aufmerksamkeitswerten verbunden ist. Direkte menschliche Evidenz existiert nun: Eine Studie an medikamentennaiven Kindern mit ADHS fand im Vergleich zu Kontrollen verringerte Serum-Orexin-A-Spiegel [@Baykal2019orexinADHD]. Da Entzündung die Orexin-Neuronenfunktion unterdrücken kann (der Weg, über den chronische low-grade Neuroinflammation Fatigue antreiben soll), würde ein entzündlicher Treffer, der Orexin unterdrückt, das bereits niedrige präfrontale Dopamin eines ADHS-betroffenen Gehirns weiter entleeren — und einen zweiten Weg von Entzündung zu ADHS-ähnlichen Merkmalen schließen.
+
+Dies ist eine **registrierte Spekulation mit niedriger Konfidenz** — die vollständige Orexin-Entzündung-Dopamin-ADHS-Kette ist eine Inferenz über Literaturen hinweg, und der direkte menschliche Orexin-ADHS-Befund ist serum-basiert und Einzelstudie. Er ist hier der Vollständigkeit halber als ein eigener Mechanismus enthalten, den unser Beitrag entwickelt, nicht als etablierter Befund.
+
+---
+
+## Die Gleichwurzel-Hypothese
+
+Zusammengenommen zeigen diese Linien auf einen Vorschlag unserer Forschung — die **Gleichwurzel-Hypothese**: ADHS und chronische Fatigue (zusammen mit anderen neuroinflammatorischen Erkrankungen) könnten eine gemeinsame Wurzelursache haben — chronische Entzündung, die mitochondriale Dysfunktion und Energieversagen antreibt — wobei die spezifische Diagnose dadurch bestimmt wird, welche Gewebe betroffen sind. Die kausale Kette ist: **Entzündung → zytokinvermittelte metabolische Unterdrückung → mitochondriales ATP-Defizit → zerebrales Energieversagen (ein ADHS-Phänotyp, wenn kompartimentalisiert) oder systemisches Energieversagen (ein Fatigue-Phänotyp, wenn generalisiert).**
+
+Entzündung ist der vorgeschlagene primäre Treiber; mitochondriale Dysfunktion ist der mechanistische Zwischenschritt; die Symptomexpression wird dadurch bestimmt, welche Gewebe zuerst ihre Energieschwelle überschreiten.
+
+Dies ist eine **registrierte Spekulation mit niedriger Konfidenz** — eine zu testende Hypothese, kein etablierter Befund. Es ist nicht die Behauptung, dass alles ADHS entzündlich ist; es ist die Behauptung, dass eine Untergruppe ADHS-ähnlicher Merkmale erworben und immunvermittelt sein könnte.
+
+---
+
+## Wo ein Mechanismus bereits einen eigenen Beitrag hat
+
+Mehrere angrenzende Mechanismen haben eigene Beiträge in diesem Blog:
+
+- **[Warum Menschen mit ADHS doppelt so häufig ME/CFS entwickeln](../adhd-mecfs-predisposition/index.qmd)** — die epidemiologische Brücke zwischen ADHS und postinfektiöser Fatigue.
+- **[Ihr ADHS ist ein Energieproblem](../adhd-energy-problem/index.qmd)** — das Energieproduktions-Argument, an das dieser Strang anschließt.
+- **[Ein Kofaktor, sechs Erkrankungen, ein Engpass](../bh4-one-cofactor-six-conditions/index.qmd)** — der BH4-Kofaktor, den Entzündung von der Dopaminsynthese ablenkt.
+
+---
+
+## Die ehrlichen Grenzen
+
+Dieses Rahmenwerk ist **explizit spekulativ**, mit niedriger Gewissheit.
+
+- Die Kernprämisse der Neuroinflammation bei chronischer Fatigue ist **umstritten** — eine Studie fand sie, eine Replikation nicht [@Nakatomi2014neuroinflammation @Raijmakers2021TSPOCFS].
+- Keine Studie hat dasselbe entzündliche und Mikroglia-Panel gleichzeitig über ADHS, chronische Fatigue und gesunde Kontrollen hinweg gemessen.
+- Die Gleichwurzel-Hypothese beruht auf Querschnitts- und retrospektiven Designs; keine prospektive Studie hat die Entstehung ADHS-ähnlicher Symptome *nach* einem entzündlichen Auslöser in einer vorerkrankten Kohorte verfolgt.
+- Das Rahmenwerk deckt eine **Untergruppe** ADHS-ähnlicher Merkmale ab, nicht die gesamte Erkrankung. Das meiste ADHS ist entwicklungsbedingt und stabil, nicht erworben.
+- Selbst wo Entzündung vorhanden ist, ist die kausale Richtung ungelöst: Entzündung könnte Dopamin-Depletion antreiben, oder chronische dopaminerge Dysregulation könnte das Immunsystem sekundär stressen.
+
+Konvergenz erhöht die Gewissheit nicht über das schwächste Glied hinaus. Bis eine prospektive Multi-Krankheits-Studie existiert, ist dies ein Forschungsrahmenwerk, kein Befund.
+
+---
+
+## Das entscheidende Experiment
+
+Das Feld braucht einen prospektiven Test: eine Kohorte nach einem entzündlichen Auslöser (z. B. einer Virusinfektion) verfolgen und messen, ob neu auftretende Unaufmerksamkeit und exekutive Schwierigkeit neben Markern der Neuroinflammation entstehen, bei Menschen ohne vorherige ADHS-Geschichte. Das Rahmenwerk sagt voraus, dass die Schwere erworbener ADHS-ähnlicher Merkmale entzündlichen Markern folgen und sich verbessern sollte, wenn Entzündung behandelt wird.
+
+Wenn erworbene Unaufmerksamkeit der Entzündung folgt und sich mit anti-neuroinflammatorischer Behandlung umkehrt, ist das Gleichwurzel-Modell unterstützt. Wenn keine neuen ADHS-ähnlichen Merkmale selbst in Gegenwart von Neuroinflammation auftreten, versagt das Modell für diese Population.
+
+---
+
+## Was Sie mitnehmen sollten
+
+Das immunologische und neuroinflammatorische Modell behauptet nicht, dass ADHS eine Immunerkrankung ist. Es behauptet, dass eine **Untergruppe** ADHS-ähnlicher Merkmale durch Entzündung und Mikroglia-Aktivierung angetrieben werden könnte — einen immunvermittelten Prozess, der Dopamin entleeren und dieselben präfrontalen Schaltkreise schädigen kann, die primäres ADHS im Verlauf der Entwicklung betrifft.
+
+Der ermutigende Teil: Wenn einige ADHS-ähnliche Merkmale immunvermittelt sind, könnten sie **erworben und reversibel** sein — adressierbar durch Behandlung der Entzündung, statt als permanente Verdrahtung akzeptiert.
+
+Der ehrliche Teil: Dies ist ein Forschungsrahmenwerk, keine klinische Empfehlung. Die Neuroinflammations-Prämisse ist umstritten, kein Screening ist indiziert, und keine immunmodulatorische Behandlung für ADHS-ähnliche Merkmale ist etabliert. Die entscheidende prospektive Studie wurde nicht durchgeführt.
+
+*Dies ist Teil 2 einer vierteiligen Serie über die Biologie des ADHS. Teil 1 behandelt das präfrontale Energiemodell und die Mehrpfad-Behandlungshypothese. Teil 3 erkundet die Dopamin-Nrf2-NLRP3-Achse. Teil 4 fragt, wann ADHS-ähnliche Merkmale erworben und reversibel sind. Siehe die [Einstiegsseite der Serie](../adhd-series-landing/index.qmd).*
+
+*Dieser Beitrag spiegelt Forschungshypothesen aus unserem Dokumentationsprojekt wider. Der immunologische und neuroinflammatorische Strang des ADHS ist ein aktives Untersuchungsgebiet mit expliziter, niedriger Konfidenz — keine etablierte klinische Tatsache. Besprechen Sie jede medizinische Entscheidung mit einem qualifizierten Kliniker.*
