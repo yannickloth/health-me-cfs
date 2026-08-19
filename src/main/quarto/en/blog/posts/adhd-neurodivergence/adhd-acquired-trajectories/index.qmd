@@ -1,0 +1,101 @@
+---
+title: "Acquired vs. Developmental: When ADHD-Like Features Might Be Reversible"
+description: "Some ADHD-like features — inattention, impulsivity, executive difficulty — can arise after development rather than from it. This final part examines the evidence that adult ADHD is often not a straightforward continuation of childhood ADHD, and how to tell acquired features from developmental wiring."
+author: "Yannick Loth"
+date: "2026-08-28"
+categories: [Neurodivergence, Pathophysiology, Symptoms]
+---
+
+Parts 1–3 examined mechanisms that can produce ADHD-like features: a prefrontal energy deficit, an immune-neuroinflammatory strand, and a dopamine-Nrf2-NLRP3 axis. This final part asks a different and clinically consequential question:
+
+**When ADHD-like features are present, are they necessarily present from development — or can some of them be acquired, and therefore reversible?**
+
+The answer matters because a feature that is *acquired* may respond to treatment of its cause, whereas a feature that is *developmental* wiring generally will not. Conflating the two produces both false hope and missed opportunities.
+
+The series separates **what we know** from **what our research adds**. The established background includes the finding that adult ADHD is often not a straightforward continuation of childhood ADHD [@Moffitt2015adhdadult @Sibley2018lateonsetADHD @Asherson2019lateonsetADHD], and — from the wider neuroimmunology literature our project draws on — that neuroinflammation and disrupted sleep can degrade cognitive function. What our research adds is the specific reading — that some ADHD-like features are acquired and reversible with treatment of their underlying cause, in contrast to stable developmental wiring. That reading is a registered speculation, not an established finding.
+
+---
+
+## The key finding: adult-onset ADHD is not simply childhood ADHD persisting
+
+The most consequential finding in the field is that **much adult ADHD does not appear to be a straightforward continuation of childhood ADHD** — though the current picture is more nuanced than the earliest landmark finding suggested.
+
+A landmark longitudinal study that followed a large birth cohort into adulthood found that the majority of adults who met criteria for ADHD in their twenties had **not** had ADHD as children — and, strikingly, that most children with ADHD had *not* continued to meet full criteria as adults [@Moffitt2015adhdadult]. Only a small fraction of childhood ADHD persisted as adult ADHD.
+
+That finding sparked a debate that has since refined the picture. A closer look at the same phenomenon — including repeated comprehensive assessments of a comparison group from ages 10 to 25 — found that **most apparent adult-onset ADHD is adolescent-onset (ages 12–16), not de novo adult-onset**, and that in many cases the symptoms reflect a missed childhood presentation, a comorbid disorder, or the cognitive effects of substance use rather than a genuinely distinct adult-onset syndrome [@Sibley2018lateonsetADHD @Asherson2019lateonsetADHD]. Retrospective recall of childhood ADHD symptoms is itself unreliable — accuracy only about 55% [@Breda2020adhdrecall] — which means some reported "adult onset" is really forgotten childhood onset.
+
+So the current, more careful conclusion is a **mix**: some adult ADHD is genuinely adolescent-onset; some reflects missed or misrecalled childhood symptoms; some is explained by substance use or other comorbidity. A clean "distinct adult-onset syndrome, appearing out of nowhere" is now the minority reading, not the consensus.
+
+The clinical implication is still direct: **an adult who develops ADHD-like symptoms in adulthood is not necessarily reliving an unbroken childhood condition.** They may be experiencing an *acquired* or *adolescent-onset* process — one that deserves investigation of its cause, not a shrug toward "lifelong wiring." But the degree to which that process is truly independent of childhood neurodevelopmental risk, rather than a missed childhood presentation, remains unresolved.
+
+---
+
+## Three architectures of the overlap
+
+Our research frames the ADHD-chronic-fatigue relationship through three possible architectures:
+
+**Architecture A — shared vulnerability.** A common upstream factor — genetic, immune, or developmental — predisposes a person to both ADHD and chronic fatigue independently. The co-occurrence is a selection artifact: the same vulnerability produces both. The genetic architecture of the neurodevelopmental conditions supports this: ADHD and autism share a large fraction of their genetic influences [@Demontis2023GWASadhd @Grove2019GWASasd @CrossDisorderPGC2013].
+
+**Architecture B — secondary cascade.** The disease process — neuroinflammation, dopaminergic depletion, autonomic dysfunction — produces ADHD-like neuropsychiatric phenotypes in people who would not otherwise have developed them. The ADHD arises *because of* the illness, not alongside it.
+
+**Architecture C — bidirectional amplification.** ADHD and the illness each worsen the other — sleep disruption, energy depletion, and stress compound in a loop.
+
+The architectures are not mutually exclusive, and the temporal data matter: when ADHD is documented *before* fatigue onset — as in the studies where childhood ADHD predicts later chronic fatigue [@SaezFrancas2012adhdcfs @Quadt2024neurodivergentfatigue] — Architecture A or C is supported. Architecture B (acquired ADHD *from* the illness) applies to a subset of patients who develop new-onset inattention after the illness begins.
+
+---
+
+## The mechanism: disrupted interoception and neuroinflammation
+
+Two proposed routes to acquired ADHD-like features:
+
+**Interoceptive disruption.** The brain maintains a balance between its *predictions* about the body and the *sensory evidence* the body sends back. Acquired features are thought to involve *corrupted lower-level signals* — brainstem and thalamocortical pathways failing to deliver accurate bodily information. The brain compensates by tightening its priors, producing an outward picture of inattention and difficulty regulating arousal. The computational locus differs from developmental ADHD, and so should the response to treatment.
+
+**Neuroinflammation and microglial activation.** Sustained neuroinflammation degrading prefrontal, mesolimbic, and thalamocortical circuits can be *sufficient* to produce ADHD-like features in people whose pre-illness neurodevelopment was intact — the registered speculation examined in Part 2. If this cascade is the proximate cause, then interventions targeting neuroinflammation should partially reverse these secondary features — a testable and not-yet-tested prediction.
+
+---
+
+## The test: context-dependence
+
+Because the two routes differ in *stability*, they can be told apart empirically:
+
+> If acquired ADHD-like inattention shows the **same trait stability and context-independence** as developmental ADHD — persisting unchanged and not correlating with markers of neuroinflammation — the acquired model is not supported.
+
+In other words: developmental inattention is always there. Acquired inattention should fluctuate with the underlying process (inflammation, metabolic state) and should improve when that process is treated.
+
+---
+
+## The honest limits
+
+- The acquired model is **explicitly speculative** — a registered hypothesis with low confidence — and a simpler explanation (inflammation directly causing both the symptoms and the underlying process) may account for the findings without any interoceptive framework.
+- None of the theoretical components has been directly validated in this context.
+- The distinction between acquired and developmental is not yet usable at the bedside: no test currently separates the two in an individual patient.
+- Even if some features are acquired and reversible, this does not mean "ADHD can be cured." It means a *subset of the symptom burden* in some people may respond to treating its cause.
+- The finding that adult ADHD is often adolescent-onset or reflects missed childhood symptoms, rather than a clearly distinct adult-onset syndrome [@Moffitt2015adhdadult @Sibley2018lateonsetADHD @Asherson2019lateonsetADHD], establishes a difference between onset groups but does not by itself prove that group is *reversible* — only that it did not begin in childhood.
+
+---
+
+## The clinical consequence — and the harm of getting it wrong
+
+The reason this distinction matters clinically:
+
+- **If acquired features are dismissed as "just ADHD"**, a treatable underlying process (inflammation, a metabolic deficit, disrupted sleep) goes unaddressed.
+- **If developmental features are treated as acquired and reversible**, patients are offered treatments that will not work, and may blame themselves when they don't.
+- **The reverse mislabeling also occurs.** A "late-game fader" pattern — post-exertional cognitive fog that mimics the ADHD-inattentive type — can be misread as ADHD and trigger evaluation for an attention disorder, when the underlying issue is energy-driven (ATP-limited) rather than motivation-driven, and worsens with exertion rather than persisting constantly. Both directions of the error send the patient down the wrong treatment path.
+
+The honest position is that acquired ADHD-like features should be **supported, not pathologized** — and the underlying modifiable drivers (sleep, inflammation, iron, energy) should be addressed regardless of the label, because they affect overall wellbeing even when the core developmental wiring is unchanged.
+
+---
+
+## What to take away
+
+Some ADHD-like features — inattention, impulsivity, executive difficulty — may be **acquired** after development rather than built in from it. The finding that adult ADHD is often not a straightforward continuation of childhood ADHD [@Moffitt2015adhdadult @Sibley2018lateonsetADHD @Asherson2019lateonsetADHD] supports this possibility. If such features are acquired, they should be **context-dependent and potentially reversible** with treatment of the underlying cause: neuroinflammation, metabolic disturbance, or sleep disruption.
+
+The encouraging part: this means a meaningful fraction of the daily symptom burden in some people may be addressable without claiming to "fix" ADHD itself.
+
+The honest part: this is a low-confidence hypothesis, and the decisive test — showing that acquired inattention fluctuates with underlying inflammation while developmental inattention does not — has not been run.
+
+---
+
+*This concludes the four-part series on the biology of ADHD. Part 1 examined the prefrontal-energy model and the multi-pathway treatment hypothesis, Part 2 the immune and neuroinflammatory strand, Part 3 the dopamine-Nrf2-NLRP3 axis, and Part 4 the distinction between acquired and developmental features. See the [series landing page](../adhd-series-landing/index.qmd).*
+
+*This article reflects research hypotheses with explicit, low confidence — not established clinical fact. Discuss any medical decision with a qualified clinician.*

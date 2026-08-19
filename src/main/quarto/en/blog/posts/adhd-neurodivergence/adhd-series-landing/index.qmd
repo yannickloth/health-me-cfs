@@ -1,0 +1,81 @@
+---
+title: "The Biology of ADHD — a Series"
+description: "ADHD is not one thing. Four independent strands of biology — prefrontal energy, immune-driven neuroinflammation, a dopamine-Nrf2-NLRP3 axis, and acquired trajectories — can each contribute to the symptom burden, and the way forward may be treating several of them at once. This is the landing page for a series that examines each strand and the multi-pathway treatment hypothesis."
+author: "Yannick Loth"
+date: "2026-08-24"
+categories: [Neurodivergence, Series, Pathophysiology]
+---
+
+ADHD is not one thing.
+
+A common assumption is that the condition has a single cause and a single story. Our research points to something more granular: **four distinct biological strands** can underlie ADHD-related symptoms — a prefrontal energy deficit, an immune-driven neuroinflammatory subset, a dopamine-Nrf2-NLRP3 axis, and acquired features that are not developmental. Different patients likely carry different combinations of these, and each contributes a different slice of the daily symptom burden.
+
+This series examines each strand in plain language, then asks the question they all converge on: **can several pathways be treated at once to remove or dampen symptoms and give the patient a more normal life?**
+
+---
+
+## What we know, what our research adds
+
+Every article in this series distinguishes two things clearly:
+
+1. **What we know** — established scientific findings, cited to the peer-reviewed literature. This includes ADHD's own well-established science — its core dopamine neurobiology [@Volkow2011adhddopamine], its genetic architecture and overlap with autism [@Demontis2023GWASadhd @Lai2019metaADHDasd], and its standard treatments — alongside the cross-disease findings (the prefrontal hypometabolism in ADHD [@Zametkin1990], the inverted-U catecholamine pharmacology [@Arnsten2011catecholaminePFC], and the debated adult-onset trajectory [@Moffitt2015adhdadult @Sibley2018lateonsetADHD @Asherson2019lateonsetADHD]).
+2. **What our research adds** — the hypotheses our documentation project developed by reading across disease boundaries, and which are not yet established: the prefrontal-energy convergence model, the multi-pathway treatment hypothesis, the acquired-reversible framing, and the dopamine-Nrf2-NLRP3 cross-disease axis.
+
+The distinction matters because the two are *not the same confidence*. "What we know" is evidence; "what our research adds" is testable hypothesis. The series keeps them separate so you are never misled into treating a hypothesis as a finding.
+
+Each article follows the same shape:
+
+1. **What it is** — the mechanism, in ordinary words.
+2. **The evidence** — what supports it, and how strong that evidence is.
+3. **The honest limits** — what it does *not* claim.
+4. **The decisive experiment** — how the idea could be confirmed or refuted.
+
+---
+
+## Part 1: ADHD as a Prefrontal Energy Disorder — and the Multi-Pathway Treatment Hypothesis
+
+The series opens with the most developed strand: a prefrontal cortex running on a thin fuel supply. The prefrontal cortex is the most energy-expensive region in the human brain, so it is the first to degrade under any energy scarcity. Five independent lines — blood-flow failure, glucose hypometabolism, creatine depletion, catecholamine deficit, and an epidemiological gradient — converge on this single point. Part 1 also carries the series' synthesis: the multi-pathway treatment hypothesis, and what treating several mechanisms at once could mean.
+
+Read the article:
+
+1. **[ADHD as a Prefrontal Energy Disorder: Five Lines of Evidence, One Mechanism](../adhd-prefrontal-energy/index.qmd)** — what ADHD is on its own, the cerebrovascular, glucose, creatine, and catecholamine evidence, the epidemiological gradient, the honest limits, the decisive experiment, the slow-but-accurate open question, and the multi-pathway treatment hypothesis.
+
+---
+
+## Part 2: The Immune and Neuroinflammatory Strand of ADHD
+
+Not all ADHD may have the same cause. A growing line of evidence links ADHD-like features to chronic neuroinflammation and microglial activation — an immune-driven process that can deplete dopamine and degrade the same prefrontal circuits that primary ADHD affects through development. If some ADHD-like symptoms are driven by inflammation, they may be acquired, reversible, and identifiable.
+
+Read the article:
+
+1. **[The Immune and Neuroinflammatory Strand of ADHD: When Inflammation Shapes Attention](../adhd-immune-neuroinflammation/index.qmd)** — the microglial evidence, the dopaminergic depletion route, the shared pro-inflammatory signal, the orexin-dopamine bridge, the same-root hypothesis, and the honest limits.
+
+---
+
+## Part 3: The Dopamine-Nrf2-NLRP3 Axis
+
+A third strand links dopamine biology to the cell's antioxidant-defense system and to the immune system's central inflammatory switch. Low dopamine tone impairs Nrf2-driven antioxidant defenses, which in turn removes a brake on NLRP3-inflammasome activation — and the resulting inflammation further depletes dopamine, closing a self-amplifying loop. This cross-disease axis may explain why people with ADHD carry a lower threshold for post-infectious fatigue.
+
+Read the article:
+
+1. **[The Dopamine-Nrf2-NLRP3 Axis: An Inflammatory Loop Behind ADHD and Fatigue](../adhd-dopamine-nrf2/index.qmd)** — the dopamine-Nrf2 link, the Nrf2-NLRP3 brake, the feedback to dopamine synthesis, the BH4 bottleneck, ADHD's own genetic architecture and its overlap with autism, the shared mitochondrial-genetic strand (haplogroup U, cybrid evidence), and the testable predictions.
+
+---
+
+## Part 4: Acquired vs. Developmental — When ADHD-Like Features Might Be Reversible
+
+The clinically consequential question: are ADHD-like features necessarily present from development, or can some be *acquired* — and therefore reversible? Much adult ADHD is not a straightforward continuation of childhood ADHD — some is adolescent-onset, some reflects missed or misrecalled childhood symptoms, some is explained by substance use or comorbidity — and acquired inattention after an immune trigger can be reversible when its cause is treated. Telling the two apart determines whether a symptom might respond to treating its cause or is stable wiring.
+
+Read the article:
+
+1. **[Acquired vs. Developmental: When ADHD-Like Features Might Be Reversible](../adhd-acquired-trajectories/index.qmd)** — the adult-onset trajectory, the Architecture A/B/C framings, the interoceptive and neuroinflammatory routes, and the clinical consequences of getting the distinction wrong.
+
+---
+
+## A note on honesty
+
+Every article in this series distinguishes carefully what is *confirmed* by evidence, what is a *promising hypothesis*, and what is an *individual patient's experience*. Most of the content here is at the hypothesis end — the certainties are explicit, often low, and nothing is presented as established clinical fact or a treatment recommendation.
+
+The underlying science is drawn from our documentation project, which develops these cross-disease energy and immune models in detail. The ADHD-specific framing is our reading of the literature, written to stand alone for anyone curious about the biology.
+
+*Discuss any medical decision with a qualified clinician.*
