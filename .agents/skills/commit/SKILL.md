@@ -106,7 +106,6 @@ refactor(lib): split monolithic book-template into modules
 Per group:
 - **Subject** (≤72 chars): `<type>(<scope>): <imperative verb> <description>` — lowercase, no period
 - **Body** (optional, non-obvious context only): 1–3 lines explaining *why*, not what
-- End with: `Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>`
 
 ## Step 5 — Execute
 
