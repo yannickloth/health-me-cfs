@@ -49,7 +49,7 @@ Nicht jedes ADHS muss dieselbe Ursache haben. Eine wachsende Evidenzlinie verbin
 
 Lesen Sie den Beitrag:
 
-1. **[Der immunologische und neuroinflammatorische Strang des ADHS: Wenn Entzündung Aufmerksamkeit formt](../adhd-immune-neuroinflammation/index.qmd)** — die Mikroglia-Evidenz, der Weg der dopaminergen Entleerung, das gemeinsame proinflammatorische Signal, die Orexin-Dopamin-Brücke, die Gleichwurzel-Hypothese und die ehrlichen Grenzen.
+1. **[Der immunologische und neuroinflammatorische Strang des ADHS: Wenn Entzündung Aufmerksamkeit formt](../adhd-immune-neuroinflammation/index.qmd)** — die Mikroglia-Evidenz, der Weg der dopaminergen Entleerung, das gemeinsame proinflammatorische Signal, die Orexin-Dopamin-Brücke, die Kynurenin-Dopamin-Brücke, die Gleichwurzel-Hypothese und die ehrlichen Grenzen.
 
 ---
 

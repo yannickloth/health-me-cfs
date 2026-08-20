@@ -56,6 +56,19 @@ C'est une **spéculation enregistrée à faible confiance** — la chaîne compl
 
 ---
 
+## Le pont kinurénine-dopamine
+
+Une seconde voie, plus spécifique, de l'inflammation vers l'épuisement de la dopamine passe par la **voie de la kinurénine** — la branche du métabolisme du tryptophane que l'inflammation (via l'IDO) pousse vers des métabolites neuroactifs. Deux de ses produits sont directement pertinents pour la dopamine :
+
+- L'**acide kinurénique** est neuroprotecteur au récepteur NMDA mais, à de faibles concentrations, il **réduit aussi la libération de dopamine striatale** — une découverte animale qui relie la suractivation de la kinurénine directement au déficit de dopamine impliqué dans le TDAH [@Rassoulpour2005KynurenicAcid].
+- La suractivation de la voie dans le cerveau consomme du NAD+ — le même cofacteur dont les mitochondries ont besoin pour l'ATP — soulevant la possibilité que la charge en kinurénine et le dysfonctionnement mitochondrial se renforcent mutuellement, le cortex préfrontal (la région la plus coûteuse en énergie) présentant le premier déficit.
+
+Chez les humains en convalescence de la COVID, l'activation de la voie de la kinurénine corrèle avec une altération cognitive objective [@Cysique2023KynureninePASC], et la suppression des gènes des complexes mitochondriaux accompagne le déclin cognitif lié à la COVID [@Xu2025MitoComplexesADHD]. Un point de vue translationnel de 2026 dans *Brain, Behavior, and Immunity* réunit ces éléments explicitement, proposant un cadre neuro-immunitaire partagé reliant la COVID longue et le TDAH à travers des mécanismes convergents — dysfonctionnement fronto-striato-hippocampique, dérégulation neuro-immunitaire des catécholamines, suractivation de la kinurénine et défauts bioénergétiques mitochondriaux [@Spanoghe2026LongCovidADHD]. Il note aussi que certains patients atteints de COVID longue rapportent un bénéfice partiel de médicaments ciblant le TDAH (méthylphénidate, guanfacine, lithium à faible dose, dexamfétamine), avec une dérégulation autonome préexistante et un malaise post-effort comme facteurs limitants [@Krishnan2022BrainFogMultidisciplinary @FesharakiZadeh2023Guanfacine].
+
+C'est une **spéculation enregistrée** : la découverte que l'acide kinurénique abaisse la dopamine est une donnée animale, et le cadre unifié est un point de vue sans données primaires propres. Mais cela précise le mécanisme de la cascade de cet article — l'inflammation ne détourne pas seulement le BH4 de la synthèse de la dopamine ; son bras kinurénine peut aussi agir directement sur la libération de dopamine. Les rapports de pharmacothérapie hors AMM sont une observation clinique, pas une recommandation de traitement.
+
+---
+
 ## L'hypothèse de racine commune
 
 Prises ensemble, ces lignes pointent vers une proposition de nos recherches — l'**hypothèse de racine commune** : le TDAH et la fatigue chronique (avec d'autres conditions neuro-inflammatoires) peuvent partager une cause racine commune — une inflammation chronique conduisant à une dysfonction mitochondriale et à un échec énergétique — avec le diagnostic spécifique déterminé par les tissus affectés. La chaîne causale est : **inflammation → suppression métabolique médiée par les cytokines → déficit d'ATP mitochondrial → échec énergétique cérébral (un phénotype TDAH lorsqu'il est compartimenté) ou échec énergétique systémique (un phénotype fatigue lorsqu'il est généralisé).**

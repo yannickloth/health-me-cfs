@@ -49,7 +49,7 @@ Tous les TDAH n'ont pas nécessairement la même cause. Une ligne de preuves cro
 
 Lisez l'article :
 
-1. **[Le volet immunitaire et neuro-inflammatoire du TDAH : quand l'inflammation façonne l'attention](../adhd-immune-neuroinflammation/index.qmd)** — les preuves microgliales, la voie de déplétion dopaminergique, le signal pro-inflammatoire partagé, le pont orexine-dopamine, l'hypothèse de racine commune et les limites honnêtes.
+1. **[Le volet immunitaire et neuro-inflammatoire du TDAH : quand l'inflammation façonne l'attention](../adhd-immune-neuroinflammation/index.qmd)** — les preuves microgliales, la voie de déplétion dopaminergique, le signal pro-inflammatoire partagé, le pont orexine-dopamine, le pont kinurénine-dopamine, l'hypothèse de racine commune et les limites honnêtes.
 
 ---
 

@@ -43,7 +43,7 @@ Unsere Forschung rahmt die ADHS-chronische-Fatigue-Beziehung durch drei möglich
 
 **Architektur C — bidirektionale Verstärkung.** ADHS und die Krankheit verschlimmern einander — Schlafstörung, Energiedepletion und Stress verbinden sich zu einer Schleife.
 
-Die Architekturen schließen sich nicht gegenseitig aus, und die zeitlichen Daten zählen: Wenn ADHS *vor* dem Beginn der Fatigue dokumentiert ist — wie in den Studien, in denen kindliches ADHS spätere chronische Fatigue vorhersagt [@SaezFrancas2012adhdcfs @Quadt2024neurodivergentfatigue] — ist Architektur A oder C unterstützt. Architektur B (ADHS *aus* der Krankheit erworben) gilt für eine Untergruppe von Patienten, die nach Beginn der Krankheit neu auftretende Unaufmerksamkeit entwickeln.
+Die Architekturen schließen sich nicht gegenseitig aus, und die zeitlichen Daten zählen: Wenn ADHS *vor* dem Beginn der Fatigue dokumentiert ist — wie in den Studien, in denen kindliches ADHS spätere chronische Fatigue vorhersagt [@SaezFrancas2012adhdcfs @Quadt2024neurodivergentfatigue] — ist Architektur A oder C unterstützt. Architektur B (ADHS *aus* der Krankheit erworben) gilt für eine Untergruppe von Patienten, die nach Beginn der Krankheit neu auftretende Unaufmerksamkeit entwickeln — wobei die Evidenz auf Bevölkerungsebene jedoch zur Vorsicht mahnt: Ein Großteil des scheinbar „neuen Beginns" könnte ein **Aufdecken** vorbestehender subklinischer Neurodivergenz sein statt echter Erwerb (siehe die ehrlichen Grenzen unten).
 
 ---
 
@@ -74,6 +74,7 @@ Mit anderen Worten: Entwicklungsbedingte Unaufmerksamkeit ist immer da. Erworben
 - Die Unterscheidung zwischen erworben und entwicklungsbedingt ist am Krankenbett noch nicht nutzbar: Kein Test trennt die beiden derzeit bei einem einzelnen Patienten.
 - Selbst wenn einige Merkmale erworben und reversibel sind, bedeutet dies nicht, dass „ADHS geheilt werden kann". Es bedeutet, dass eine *Untergruppe der Symptomlast* bei manchen Menschen auf die Behandlung ihrer Ursache ansprechen könnte.
 - Der Befund, dass Erwachsenen-ADHS oft im Jugendalter beginnt oder verpasste Kindheitssymptome widerspiegelt, statt eines klar eigenständigen Erwachsenen-Syndroms [@Moffitt2015adhdadult @Sibley2018lateonsetADHD @Asherson2019lateonsetADHD], etabliert einen Unterschied zwischen Beginn-Gruppen, beweist aber nicht von selbst, dass diese Gruppe *reversibel* ist — nur, dass sie nicht in der Kindheit begann.
+- **Der robusteste Test auf Bevölkerungsebene fand keinen infektionsbedingten Effekt.** Eine nationale 20-Jahres-Kohorte fand keinen unabhängigen Effekt von COVID-19 auf ADHS-Diagnose- oder Behandlungsraten [@Zemer2024COVIDADHD20Year], und der Anstieg der ADHS-Medikation nach COVID ist mit Nachhol-Diagnose statt neuem Beginn konsistent [@Gimbach2024ADHDMedicationEurope]. Dies ist das stärkste Gegengewicht zur Architektur „aus der Krankheit erworben" (Architektur B): Auf Bevölkerungsebene scheint eine Infektion kein neues ADHS zu erzeugen. Die ehrliche Lesart ist, dass die meisten postinfektiösen Aufmerksamkeitsschwierigkeiten ein **Aufdecken** vorbestehender (oft subklinischer) Neurodivergenz oder Symptomüberschneidung widerspiegeln, statt *de novo*-Erwerb — obwohl eine enge erworbene Untergruppe durch die Populationsdaten nicht ausgeschlossen werden kann.
 
 ---
 

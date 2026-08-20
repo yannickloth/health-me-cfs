@@ -48,7 +48,7 @@ Not all ADHD may have the same cause. A growing line of evidence links ADHD-like
 
 Read the article:
 
-1. **[The Immune and Neuroinflammatory Strand of ADHD: When Inflammation Shapes Attention](../adhd-immune-neuroinflammation/index.qmd)** — the microglial evidence, the dopaminergic depletion route, the shared pro-inflammatory signal, the orexin-dopamine bridge, the same-root hypothesis, and the honest limits.
+1. **[The Immune and Neuroinflammatory Strand of ADHD: When Inflammation Shapes Attention](../adhd-immune-neuroinflammation/index.qmd)** — the microglial evidence, the dopaminergic depletion route, the shared pro-inflammatory signal, the orexin-dopamine bridge, the kynurenine-dopamine bridge, the same-root hypothesis, and the honest limits.
 
 ---
 

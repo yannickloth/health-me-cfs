@@ -42,7 +42,7 @@ Our research frames the ADHD-chronic-fatigue relationship through three possible
 
 **Architecture C — bidirectional amplification.** ADHD and the illness each worsen the other — sleep disruption, energy depletion, and stress compound in a loop.
 
-The architectures are not mutually exclusive, and the temporal data matter: when ADHD is documented *before* fatigue onset — as in the studies where childhood ADHD predicts later chronic fatigue [@SaezFrancas2012adhdcfs @Quadt2024neurodivergentfatigue] — Architecture A or C is supported. Architecture B (acquired ADHD *from* the illness) applies to a subset of patients who develop new-onset inattention after the illness begins.
+The architectures are not mutually exclusive, and the temporal data matter: when ADHD is documented *before* fatigue onset — as in the studies where childhood ADHD predicts later chronic fatigue [@SaezFrancas2012adhdcfs @Quadt2024neurodivergentfatigue] — Architecture A or C is supported. Architecture B (acquired ADHD *from* the illness) applies to a subset of patients who develop new-onset inattention after the illness begins — though the population-level evidence cautions that much apparent "new onset" may be **unmasking** of pre-existing subclinical neurodivergence rather than true acquisition (see the honest limits below).
 
 ---
 
@@ -73,6 +73,7 @@ In other words: developmental inattention is always there. Acquired inattention 
 - The distinction between acquired and developmental is not yet usable at the bedside: no test currently separates the two in an individual patient.
 - Even if some features are acquired and reversible, this does not mean "ADHD can be cured." It means a *subset of the symptom burden* in some people may respond to treating its cause.
 - The finding that adult ADHD is often adolescent-onset or reflects missed childhood symptoms, rather than a clearly distinct adult-onset syndrome [@Moffitt2015adhdadult @Sibley2018lateonsetADHD @Asherson2019lateonsetADHD], establishes a difference between onset groups but does not by itself prove that group is *reversible* — only that it did not begin in childhood.
+- **The largest population-grade test found no infection-driven effect.** A 20-year national cohort found no independent effect of COVID-19 on ADHD diagnosis or treatment rates [@Zemer2024COVIDADHD20Year], and the post-COVID rise in ADHD medication is consistent with catch-up diagnosis rather than new onset [@Gimbach2024ADHDMedicationEurope]. This is the strongest counterweight to the "acquired from the illness" architecture (Architecture B): at population scale, infection does not appear to create new ADHD. The honest reading is that most post-infectious attention difficulty reflects **unmasking** of pre-existing (often subclinical) neurodivergence or symptom overlap, rather than *de novo* acquisition — though a narrow acquired subset cannot be excluded by the population data.
 
 ---
 

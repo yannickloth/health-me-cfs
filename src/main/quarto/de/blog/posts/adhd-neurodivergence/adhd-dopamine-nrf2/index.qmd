@@ -23,7 +23,7 @@ Die Achse verläuft durch drei Moleküle:
 
 **2. Nrf2 und NLRP3.** Nrf2 unterdrückt normalerweise das **NLRP3-Inflammasom**, den zentralen Entzündungsschalter des Immunsystems, über die Induktion von HO-1 und NQO1. Reduzierte Nrf2-Aktivität hebt diese Bremse auf. Das NLRP3-Inflammasom treibt dann erhöhtes IL-1-beta und IL-18 an.
 
-**3. NLRP3 und Dopamin — Schließen der Schleife.** Die erhöhte Entzündung beeinträchtigt die Dopamin-Synthese auf zwei Wegen: Sie aktiviert den IDO/Kynurenin-Weg und reduziert die Verfügbarkeit von BH4 für das Enzym, das Dopamin herstellt; und sie induziert oxidativen Stress, der dopaminerge Endigungen schädigt. Weniger Dopamin → weniger Nrf2 → mehr NLRP3 → mehr Entzündung → noch weniger Dopamin.
+**3. NLRP3 und Dopamin — Schließen der Schleife.** Die erhöhte Entzündung beeinträchtigt die Dopamin-Synthese auf zwei Wegen: Sie aktiviert den IDO/Kynurenin-Weg und reduziert die Verfügbarkeit von BH4 für das Enzym, das Dopamin herstellt; und sie induziert oxidativen Stress, der dopaminerge Endigungen schädigt. Ein weiterer, direkterer Weg führt über den Kynurenin-Metaboliten **Kynureninsäure**, die bei niedrigen Konzentrationen die striatale Dopamin-Freisetzung reduziert — und damit Kynurenin-Überaktivierung direkt mit dem Dopamin-Defizit verbindet, statt nur über den BH4-Engpass [@Rassoulpour2005KynurenicAcid @Cysique2023KynureninePASC]. Weniger Dopamin → weniger Nrf2 → mehr NLRP3 → mehr Entzündung → noch weniger Dopamin.
 
 Das Ergebnis ist eine **sich selbst verstärkende Schleife**: ein vorbestehender niedriger Dopamin-Zustand (wie bei ADHS) und ein Entzündungsschub verschlimmern einander, und die Schleife neigt dazu, zu bestehen.
 

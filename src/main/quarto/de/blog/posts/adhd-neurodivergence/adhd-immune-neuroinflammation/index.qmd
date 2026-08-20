@@ -56,6 +56,19 @@ Dies ist eine **registrierte Spekulation mit niedriger Konfidenz** — die volls
 
 ---
 
+## Die Kynurenin-Dopamin-Brücke
+
+Ein zweiter, spezifischerer Weg von Entzündung zu Dopamin-Depletion führt über den **Kynurenin-Weg** — den Tryptophan-Stoffwechselzweig, den Entzündung (über IDO) in Richtung neuroaktiver Metaboliten drückt. Zwei seiner Produkte sind für Dopamin direkt relevant:
+
+- **Kynureninsäure** ist am NMDA-Rezeptor neuroprotektiv, **reduziert aber bei niedrigen Konzentrationen auch die striatale Dopamin-Freisetzung** — ein tierischer Befund, der Kynurenin-Überaktivierung direkt mit dem bei ADHS implizierten Dopamin-Defizit verbindet [@Rassoulpour2005KynurenicAcid].
+- Die Überaktivierung des Wegs im Gehirn verbraucht NAD+ — dasselbe Kofaktor, das die Mitochondrien für ATP benötigen — und wirft die Möglichkeit auf, dass Kynurenin-Last und mitochondriale Dysfunktion sich gegenseitig verstärken, wobei der präfrontale Kortex (die energetisch teuerste Region) das erste Defizit zeigt.
+
+Bei Menschen, die sich von COVID erholen, korreliert die Aktivierung des Kynurenin-Wegs mit objektiver kognitiver Beeinträchtigung [@Cysique2023KynureninePASC], und die Unterdrückung mitochondrialer Komplexgene begleitet den kognitiven Abbau nach COVID [@Xu2025MitoComplexesADHD]. Ein translationaler Standpunkt aus dem Jahr 2026 in *Brain, Behavior, and Immunity* führt dies explizit zusammen und schlägt einen gemeinsamen neuroimmunen Rahmen vor, der Long COVID und ADHS über konvergente Mechanismen verbindet — fronto-striato-hippocampale Dysfunktion, neuroimmune Dysregulation der Katecholamine, Kynurenin-Überaktivierung und mitochondriale bioenergetische Defekte [@Spanoghe2026LongCovidADHD]. Er weist auch darauf hin, dass einige Long-COVID-Patienten von ADHS-gerichteten Medikamenten (Methylphenidat, Guanfacin, Lithium in niedriger Dosis, Dexamfetamin) teilweise profitieren, wobei vorbestehende autonome Dysregulation und Belastungsintoleranz (PEM) limitierende Faktoren sind [@Krishnan2022BrainFogMultidisciplinary @FesharakiZadeh2023Guanfacine].
+
+Dies ist eine **registrierte Spekulation**: Der Befund, dass Kynureninsäure Dopamin senkt, ist Tierdaten, und der vereinheitlichte Rahmen ist ein Standpunkt ohne eigene Primärdaten. Er schärft aber den Mechanismus in der Kaskade dieses Artikels — Entzündung leitet nicht nur BH4 von der Dopaminsynthese ab; ihr Kynurenin-Zweig kann auch direkt auf die Dopamin-Freisetzung wirken. Die Off-Label-Pharmakotherapie-Berichte sind klinische Beobachtung, keine Behandlungsempfehlung.
+
+---
+
 ## Die Gleichwurzel-Hypothese
 
 Zusammengenommen zeigen diese Linien auf einen Vorschlag unserer Forschung — die **Gleichwurzel-Hypothese**: ADHS und chronische Fatigue (zusammen mit anderen neuroinflammatorischen Erkrankungen) könnten eine gemeinsame Wurzelursache haben — chronische Entzündung, die mitochondriale Dysfunktion und Energieversagen antreibt — wobei die spezifische Diagnose dadurch bestimmt wird, welche Gewebe betroffen sind. Die kausale Kette ist: **Entzündung → zytokinvermittelte metabolische Unterdrückung → mitochondriales ATP-Defizit → zerebrales Energieversagen (ein ADHS-Phänotyp, wenn kompartimentalisiert) oder systemisches Energieversagen (ein Fatigue-Phänotyp, wenn generalisiert).**

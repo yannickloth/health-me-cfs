@@ -22,7 +22,7 @@ The axis runs through three molecules:
 
 **2. Nrf2 and NLRP3.** Nrf2 normally suppresses the **NLRP3 inflammasome**, the immune system's central inflammatory switch, via induction of HO-1 and NQO1. Reduced Nrf2 activity removes that brake. The NLRP3 inflammasome then drives elevated IL-1-beta and IL-18.
 
-**3. NLRP3 and dopamine — closing the loop.** The elevated inflammation further impairs dopamine synthesis in two ways: it activates the IDO/kynurenine pathway, reducing the availability of BH4 for the enzyme that makes dopamine; and it induces oxidative stress that damages dopaminergic terminals. Lower dopamine → lower Nrf2 → more NLRP3 → more inflammation → even lower dopamine.
+**3. NLRP3 and dopamine — closing the loop.** The elevated inflammation further impairs dopamine synthesis in two ways: it activates the IDO/kynurenine pathway, reducing the availability of BH4 for the enzyme that makes dopamine; and it induces oxidative stress that damages dopaminergic terminals. A further, more direct route runs through the kynurenine metabolite **kynurenic acid**, which at low concentrations reduces striatal dopamine release — connecting kynurenine overactivation straight to the dopamine deficit rather than only through the BH4 bottleneck [@Rassoulpour2005KynurenicAcid @Cysique2023KynureninePASC]. Lower dopamine → lower Nrf2 → more NLRP3 → more inflammation → even lower dopamine.
 
 The result is a **self-amplifying loop**: a pre-existing low-dopamine state (as in ADHD) and a bout of inflammation each make the other worse, and the loop tends to persist.
 

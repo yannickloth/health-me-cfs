@@ -23,7 +23,7 @@ L'axe traverse trois molécules :
 
 **2. Nrf2 et NLRP3.** Nrf2 supprime normalement l'**inflammasome NLRP3**, l'interrupteur inflammatoire central du système immunitaire, via l'induction de HO-1 et NQO1. Une activité réduite de Nrf2 lève ce frein. L'inflammasome NLRP3 entraîne alors des niveaux élevés d'IL-1-bêta et d'IL-18.
 
-**3. NLRP3 et dopamine — refermant la boucle.** L'inflammation élevée altère encore la synthèse de la dopamine de deux façons : elle active la voie IDO/kynurénine, réduisant la disponibilité de la BH4 pour l'enzyme qui fabrique la dopamine ; et elle induit un stress oxydatif qui endommage les terminaisons dopaminergiques. Moins de dopamine → moins de Nrf2 → plus de NLRP3 → plus d'inflammation → encore moins de dopamine.
+**3. NLRP3 et dopamine — refermant la boucle.** L'inflammation élevée altère encore la synthèse de la dopamine de deux façons : elle active la voie IDO/kynurénine, réduisant la disponibilité de la BH4 pour l'enzyme qui fabrique la dopamine ; et elle induit un stress oxydatif qui endommage les terminaisons dopaminergiques. Une voie supplémentaire, plus directe, passe par le métabolite de la kinurénine, l'**acide kinurénique**, qui à de faibles concentrations réduit la libération de dopamine striatale — reliant la suractivation de la kinurénine directement au déficit de dopamine plutôt que seulement par le goulot de la BH4 [@Rassoulpour2005KynurenicAcid @Cysique2023KynureninePASC]. Moins de dopamine → moins de Nrf2 → plus de NLRP3 → plus d'inflammation → encore moins de dopamine.
 
 Le résultat est une **boucle auto-amplificatrice** : un état préexistant de faible dopamine (comme dans le TDAH) et un épisode d'inflammation s'aggravent mutuellement, et la boucle tend à persister.
 

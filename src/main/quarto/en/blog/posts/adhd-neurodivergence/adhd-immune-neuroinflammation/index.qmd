@@ -55,6 +55,19 @@ This is a **registered speculation with low confidence** — the full orexin-inf
 
 ---
 
+## The kynurenine-dopamine bridge
+
+A second, more specific route from inflammation to dopamine depletion runs through the **kynurenine pathway** — the tryptophan-metabolism branch that inflammation (via IDO) pushes toward neuroactive metabolites. Two of its products are directly relevant to dopamine:
+
+- **Kynurenic acid** is neuroprotective at the NMDA receptor but, at low concentrations, it also **reduces striatal dopamine release** — an animal finding that connects kynurenine overactivation directly to the dopamine deficit implicated in ADHD [@Rassoulpour2005KynurenicAcid].
+- The pathway's overactivation in the brain consumes NAD+ — the same cofactor mitochondria need for ATP — raising the possibility that kynurenine load and mitochondrial dysfunction compound each other, with the prefrontal cortex (the most energetically expensive region) showing the first deficit.
+
+In humans recovering from COVID, kynurenine-pathway activation correlates with objective cognitive impairment [@Cysique2023KynureninePASC], and mitochondrial-complex gene suppression accompanies COVID cognitive decline [@Xu2025MitoComplexesADHD]. A 2026 translational viewpoint in *Brain, Behavior, and Immunity* brings these together explicitly, proposing a shared neuroimmune framework linking Long Covid and ADHD through convergent mechanisms — frontal-striatal-hippocampal dysfunction, catecholamine neuroimmune dysregulation, kynurenine overactivation, and mitochondrial bioenergetic defects [@Spanoghe2026LongCovidADHD]. It also notes that some Long Covid patients report partial benefit from ADHD-targeted medications (methylphenidate, guanfacine, low-dose lithium, dexamfetamine), with pre-existing autonomic dysregulation and post-exertional malaise as limiting factors [@Krishnan2022BrainFogMultidisciplinary @FesharakiZadeh2023Guanfacine].
+
+This is a **registered speculation**: the kynurenic-acid-lowers-dopamine finding is animal data, and the unified framework is a viewpoint without primary data of its own. But it sharpens the mechanism in this article's cascade — inflammation does not only divert BH4 away from dopamine synthesis; its kynurenine arm can also act directly on dopamine release. The off-label pharmacotherapy reports are clinical observation, not a treatment recommendation.
+
+---
+
 ## The same-root hypothesis
 
 Taken together, these lines point to a proposal from our research — the **same-root hypothesis**: ADHD and chronic fatigue (along with other neuroinflammatory conditions) may share a common root cause — chronic inflammation driving mitochondrial dysfunction and energy failure — with the specific diagnosis determined by which tissues are affected. The causal chain is: **inflammation → cytokine-mediated metabolic suppression → mitochondrial ATP deficit → brain energy failure (an ADHD phenotype when compartmentalized) or systemic energy failure (a fatigue phenotype when generalized).**
