@@ -83,9 +83,9 @@ The central claims we draw on are: the four convergent neuroimmune mechanisms (f
 = In the Book (the ME/CFS paper)
 // =============================================================================
 
-== Chapter 14d — Speculative Cross-Disease Connections _(primary site)_
+== Chapter 17 — the "Speculative Cross-Disease Connections" section _(primary site)_
 
-The book's cross-disease chapter already carried an extensive ADHD–ME/CFS section built around a "same-root" hypothesis (inflammation driving shared energy failure). Your paper now anchors a distinct, current strand within it, with three registered entries:
+The book's Chapter 17 (Speculative Mechanistic Hypotheses) carries an extensive ADHD–ME/CFS section — the "Speculative Cross-Disease Connections" section (its internal file name is `ch14d`, which is why the project sometimes refers to it as "14d") — already built around a "same-root" hypothesis (inflammation driving shared energy failure). Your paper now anchors a distinct, current strand within it, with three registered entries:
 
 *1. `oq:lc-adhd-acquired-causal` — open question, certainty 0.40.*
 
@@ -161,7 +161,7 @@ These remain available for future integration as the evidence develops.
 #line(length: 100%, stroke: 0.5pt + rgb("#aaaaaa"))
 #v(0.8em)
 
-In summary: your framework now has a dedicated strand in the book's cross-disease chapter, formal registration in the hypothesis registry, a full annotated bibliography entry, and a public-facing treatment in the blog series (in three languages) — always labelled honestly as a hypothesis-generating framework with the strongest supporting evidence cited alongside it.
+In summary: your framework now has a dedicated strand in the book's cross-disease section of Chapter 17, formal registration in the hypothesis registry, a full annotated bibliography entry, and a public-facing treatment in the blog series (in three languages) — always labelled honestly as a hypothesis-generating framework with the strongest supporting evidence cited alongside it.
 
 We are grateful for the reference and for the collaboration. We look forward to seeing where the work leads.
 
