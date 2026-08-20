@@ -1,0 +1,157 @@
+---
+title: "Gastroparese bei ME/CFS: Ein echter, messbarer langsamer Magen — und ein sicherer Weg, ihn zu behandeln"
+description: "Eine verzögerte Magenentleerung ist ein echtes, testbares Merkmal von ME/CFS — keine vage Beschwerde. Dieser Artikel behandelt die Evidenz, die ehrlichen Grenzen, die offene Mechanismus-Frage, die Angst, mit einem Magen zu leben, dem man nicht trauen kann, und einen sicheren, geordneten Behandlungsweg."
+author: "Yannick Loth"
+date: "2026-08-20"
+lang: de
+categories: [Autonom, Magen-Darm, Symptome]
+---
+
+Sie essen eine kleine Mahlzeit und sind stundenlang satt. Ihnen ist übel. Ihr Bauch bläht sich auf. Manchmal erbrechen Sie Speisen, die Sie noch erkennen können. Mit der Zeit beginnen Sie, das Essen zu fürchten. Sie essen nur noch Flüssiges. Sie hören auf, mit anderen Menschen zu essen.
+
+Dieser Artikel stellt eine direkte Frage: **Ist der langsame Magen ein echtes, messbares Merkmal von ME/CFS — oder ist es nur Ihr Gefühl?**
+
+Die kurze Antwort: Es ist real, und es ist messbar. Eine kontrollierte Studie maß, wie schnell der Magen bei 32 Menschen mit chronischem Erschöpfungssyndrom entleert, und fand, dass sich die meisten von ihnen langsam entleerten; die Verzögerung ging mit dem Schweregrad ihres Krankseins einher [@Burnet2004GastricEmptyingCFS]. Das ist keine vage Beschwerde. Es ist ein Befund, den man mit einem Standardscan testen kann.
+
+Dieser Artikel trennt **was wir wissen** von **was unsere Forschung hinzufügt**. Was wir wissen: Eine verzögerte Magenentleerung ist in einer ME/CFS-Kohorte dokumentiert, und Gastroparese ist ein gut charakterisiertes Problem bei Diabetes und zunehmend im postviralen Kontext. Was unsere Forschung hinzufügt: die spezifische Lesart, dass ME/CFS-Gastroparese eine messbare autonome Manifestation mit einer sicheren, geordneten Behandlungstreppe ist — und dass ihr Mechanismus wirklich ungeklärt ist, mit drei Kandidatenerklärungen und keiner, die in ME/CFS bestätigt ist.
+
+Für ein Gesamtbild, wie GI-Dysmotilität und SIBO bei ME/CFS zusammenhängen — die Mastzell-Achse, der Schwefelwasserstoff-Mechanismus und das vollständige Behandlungsmenü — siehe [GI-Dysmotilität Artikel 1](../sibo-gi-dysmotility/index.qmd) und [den Begleitartikel zur Behandlung](../sibo-gi-treatment/index.qmd). Dieser Artikel wiederholt diesen Inhalt nicht. Er vertieft die Entleerungsmessung, die Mechanismus-Unsicherheit und die sicher gemanagte Behandlungstreppe.
+
+---
+
+## Der messbare Befund
+
+Das Ankerelement ist eine kontrollierte Radionuklid-Studie. Sie maß die Magenentleerung — die Zeit, die der Magen benötigt, um eine Mahlzeit zu leeren — bei 32 Menschen mit chronischem Erschöpfungssyndrom, mit einem standardisierten Scan, der eine kleine Menge radioaktiven Markers in einer flüssigen und einer festen Mahlzeit verfolgt [@Burnet2004GastricEmptyingCFS].
+
+Das Ergebnis: **23 von 32 (72 %) hatten eine verzögerte Flüssigentleerung, und 12 von 32 (38 %) eine verzögerte Feststoffentleerung.** Die Verzögerung korrelierte signifikant mit dem mittleren Symptomschweregrad (p < 0,001) — je kränker der Patient, desto langsamer der Magen.
+
+Das ist direkte ME/CFS-Evidenz, dass eine verzögerte Magenentleerung ein echtes, messbares Merkmal der Erkrankung ist und nicht nur eine subjektive Beschwerde. Sie kann mit einem standardmäßigen Magenentleerungstest beurteilt werden, und sie kann ein Behandlungsziel sein, statt etwas, das ein Patient einfach erdulden muss.
+
+**Der ehrliche Vorbehalt.** Der Befund beruht auf einer einzigen Kohorte von 32 Personen aus dem Jahr 2004. Die Studie stammt aus der Zeit vor den modernen diagnostischen Kriterien für ME/CFS (IOM 2015 und ICC 2011), und der Befund wurde in einer Kohorte mit modernen Kriterien nicht repliziert. In unserem Evidenzregister ist dies ein klinischer Befund mit einer Sicherheit von 0,60 — solide, aber verankert in einer alten Studie. Die Studie berichtete den Schweregrad ihrer Teilnehmer nicht, daher wissen wir nicht, ob die Verzögerung bei schwer oder sehr schwer erkrankten Patienten stärker ist.
+
+Ein Gegenpunkt: Ein einzelner Fallbericht über einen Jugendlichen fand eine normale Magenentleerung und normale myoelektrische Aktivität bei einem jungen Menschen mit CFS [@Corrado1998NormalGastricEmptying]. Eine verzögerte Entleerung ist also nicht in jedem Fall vorhanden. Der Fall betrifft eine Person, ist pädiatrisch und hat geringes Beweisgewicht — er hebt den größeren Kohortenbefund nicht auf, zeigt aber, dass die Verzögerung nicht in jedem Fall auftritt.
+
+---
+
+## Wie es sich anfühlt: die Angst vor einem Magen, dem man nicht trauen kann
+
+Die Zahlen oben sind ein Scan. Die Erfahrung ist anders.
+
+Wenn sich der Magen langsam entleert, hört das Essen auf, ein neutraler Akt zu sein. Es wird zu einem Risiko. Sie essen, und innerhalb von Minuten fühlen Sie sich satt, aufgebläht oder übel. Sie lernen, die Mahlzeit zu fürchten. Sie lernen, den Moment zu fürchten, in dem Sie vor anderen Menschen erbrechen könnten. Sie hören auf, mit anderen zu essen, weil Sie nicht vorhersagen können, was passieren wird. Sie beginnen, jeden Bissen abzuwägen.
+
+Mit der Zeit neigen Menschen dazu, ihr Essen in dieselbe Richtung zu verändern. Sie essen kleinere Mengen, häufiger. Sie streichen die Speisen, die am schwersten liegen — die fettreichen, die ballaststoffreichen. Und viele stellen auf Flüssiges um: Smoothies, Brühen, Trinknahrung, Suppen. Flüssigkeiten entleeren sich schneller als Feststoffe, also fühlen sie sich sicherer an. Nur noch Flüssiges zu essen ist keine Laune. Es ist eine rationale Anpassung an einen Magen, der Feststoffe wirklich langsam entleert.
+
+Das ist aus zwei Gründen wichtig. Erstens ist die Angst real und sie hat einen Preis. Die Angst vor dem Essen kann die Ernährung bis zur Mangelernährung und zum Gewichtsverlust verengen, und sie kann in eine gestörte Beziehung zum Essen kippen, die eigene Unterstützung braucht — nicht nur einen Diätplan. Ein Patient, der Angst vor dem Essen hat, braucht einen Kliniker, nicht mehr Willenskraft.
+
+Zweitens ist die Anpassung nicht falsch. Der Wechsel zu kleinen, häufigen, fettarmen, ballaststoffarmen Mahlzeiten und zu flüssiger oder halbflüssiger Ernährung ist genau die Strategie erster Wahl mit dem geringsten Risiko, die die Evidenz stützt (siehe Abschnitt Behandlung unten). Der Instinkt des Patienten und die Evidenz weisen in dieselbe Richtung. Die Lücke ist, dass der Patient es meist allein erreicht, durch Versuch und Irrtum, ohne das Sicherheitsnetz eines Klinikers, der Gewicht und Ernährung überwacht.
+
+---
+
+## Was der Magen tut
+
+Das klinische Bild der Gastroparese bei ME/CFS ist ein wiedererkennbarer Satz von Symptomen:
+
+- Sättigungsgefühl nach kleinen Nahrungsmengen
+- Anhaltende Übelkeit
+- Erbrechen, besonders von unverdauter Nahrung
+- Bauchauftreibung und Unwohlsein
+- Unvorhersehbare Blutzuckerschwankungen
+
+Der Mechanismus wird als autonom vermutet. Der Vagusnerv steuert die Motilität des Magens — die Kontraktionswellen, die die Nahrung zerkleinern und weiterschieben. Die führende Lesart ist, dass eine autonome Dysfunktion den vagalen Antrieb zum Magen bei ME/CFS reduziert, sodass er sich langsam entleert; diese Lesart ist eine Hypothese, in ME/CFS noch nicht bewiesen. Was auch immer die Ursache ist, die beeinträchtigte Entleerung erzeugt die oben genannten Verdauungssymptome und Ernährungsherausforderungen.
+
+Das ist die funktionelle Lesart: Das motorische Programm des Magens wird vom autonomen Nervensystem unterangetrieben. Es ist die einfachste Erklärung, und sie passt zur autonomen Dysfunktion, für die ME/CFS bekannt ist. Aber es ist nicht die einzige Erklärung, und es ist nicht die, auf die sich die Evidenz festgelegt hat. Wir kehren zu den Alternativen zurück, nachdem wir uns die Grenzen der Evidenz angesehen haben.
+
+Es gibt eine zweite Konsequenz, die speziell bei ME/CFS wichtig ist. Eine unregelmäßige Entleerung bedeutet wahrscheinlich eine unregelmäßige Absorption — Glukose und Nährstoffe erreichen das Blut in unvorhersehbaren Schüben statt in einem stetigen Strom, weil die Entleerungsgeschwindigkeit des Magens die postprandiale Glukosereaktion formt [@Camilleri2026GastroparesisReview]. Das ist eine vernünftige Schlussfolgerung aus der Physiologie, in einer ME/CFS-Kohorte noch nicht gezeigt. Für eine Person, die bereits eine knappe Energiereserve und orthostatische Intoleranz managt, würde diese Instabilität eine metabolische Last zusätzlich zum Magenunwohlsein bedeuten. Es ist ein weiterer Grund, warum der langsame Magen nicht nur eine lokale Belästigung ist, sondern Teil des größeren Energiebildes.
+
+---
+
+## Die ehrlichen Grenzen
+
+Vor der Mechanismus-Frage kommen die Grenzen. Die Evidenz, dass ME/CFS-Patienten eine verzögerte Magenentleerung haben, ist real, aber dünn, und sie hat spezifische Schwächen:
+
+- **Eine alte Kohorte.** Die direkte Evidenz beruht weitgehend auf der einzelnen Kohorte von 32 Personen aus dem Jahr 2004, die aus der Zeit vor den modernen diagnostischen Kriterien stammt [@Burnet2004GastricEmptyingCFS].
+- **Ein Nullfall.** Das einzige direkte Gegenbeispiel ist ein einzelner Jugendlicher mit normaler Entleerung [@Corrado1998NormalGastricEmptying].
+- **Keine moderne Replikation.** Keine Kohorte mit den aktuellen IOM/ICC-Kriterien hat den Befund repliziert.
+- **Unspezifische Alternativen.** Mehrere Erklärungen außer einer eigenständigen ME/CFS-spezifischen Gastropareseläsion können dasselbe Symptommuster erzeugen: Medikamentennebenwirkungen (viele in ME/CFS verwendete Medikamente verlangsamen die Magenentleerung), funktionelle Dyspepsie mit abnormer Magenakkommodation und viszeraler Hypersensitivität statt echter Entleerungsverzögerung [@Debourdeau2024GastricVolumetry], Dekonditionierung oder allgemeine Auswirkungen schwerer Erkrankung sowie subjektive Berichtsverzerrung, die die symptombasierte Prävalenz aufbläht.
+- **Abgewertete krankheitsübergreifende Unterstützung.** Die mechanistische Unterstützung aus der Histologie der diabetischen und idiopathischen Gastroparese [@Grover2011CellularChangesGastroparesis] und aus Tiermodellen [@Wang2009ICCLossDiabetes] stammt aus anderen Populationen und belegt für sich genommen nicht, dass ME/CFS diese Pathologie teilt.
+
+Die praktische Konsequenz: Bevor ein Kliniker auf eine Gastroparese-Diagnose bei ME/CFS reagiert, sollte er erkennen, dass die Evidenz eine einzelne alte Kohorte ist, und die häufigen unspezifischen Ursachen — Medikamentenwirkungen, Dyspepsie — durch objektive Tests ausschließen, statt einen eigenständigen ME/CFS-spezifischen Entleerungsdefekt anzunehmen. Das ist eine Risikoeinschätzung, keine positive Behauptung, und die Vorsicht gilt für alle Schweregrade.
+
+---
+
+## Die Mechanismus-Frage: drei Kandidaten, keiner bestätigt
+
+Das ist der wirklich offene Teil der Geschichte. Wir wissen noch nicht, was strukturell oder funktionell mit dem Magen bei ME/CFS nicht stimmt. Drei Kandidaten stehen auf dem Tisch, und sie weisen auf verschiedene Behandlungen hin.
+
+**Kandidat 1 — struktureller Verlust der Schrittmacherzellen des Magens und der enterischen Nerven.** Bei diabetischer und idiopathischer Gastroparese zeigt menschliches Magengewebe einen Verlust der interstitiellen Cajal-Zellen (der Schrittmacherzellen des Magens), eine Reduktion enterischer Nervenfasern und veränderte residente Makrophagen [@Grover2011CellularChangesGastroparesis]. Ein Tiermodell der diabetischen Gastroparese bestätigt, dass der Verlust dieser Zellen und Nerven von verlangsamter Entleerung begleitet ist [@Wang2009ICCLossDiabetes]. Ob ME/CFS diese strukturelle Degeneration teilt, ist unbekannt — es wurde keine ME/CFS-Magenhistologie veröffentlicht. In unserem Register ist die Extrapolation dieses Befunds auf ME/CFS eine offene Frage mit einer Sicherheit von 0,40. Wenn das zutrifft, haben prokinetische Medikamente, die überlebende Nerven stimulieren, eine eingebaute Grenze, und die Behandlung müsste stattdessen auf die Verhinderung oder den Ersatz des Zellverlusts abzielen.
+
+**Kandidat 2 — autoimmune Blockade des ganglionalen Acetylcholinrezeptors.** Ein Fall von autoimmuner gastrointestinaler Dysmotilität nach einer SARS-CoV-2-Infektion zeigte unstillbare Übelkeit, frühes Sättigungsgefühl, verzögerte Magenentleerung und Antikörper gegen den ganglionalen Acetylcholinrezeptor — und besserte sich deutlich unter Immuntherapie [@Montalvo2022LongCovidGIDysmotility]. Analog dazu könnte eine Untergruppe von ME/CFS-Patienten mit Gastroparese eine autoimmune ganglionale (vagale/enterische) Blockade haben statt eines strukturellen Nervenverlusts — ein Mechanismus, der potenziell durch Immuntherapie reversibel statt irreversibel wäre. Das ist eine Spekulation für ME/CFS mit einer Sicherheit von 0,30: Keine ME/CFS-Kohorte wurde auf diese Antikörper getestet, und die einzige direkt analoge Evidenz ist ein einzelner postviraler (Long-COVID-)Fallbericht.
+
+**Kandidat 3 — reine funktionelle Vagusinsuffizienz.** Das motorische Programm des Magens wird vom autonomen Nervensystem unterangetrieben, ohne strukturellen Zellverlust und ohne Autoantikörper. Das ist die einfachste Lesart und die, zu der das klinische Bild passt, aber es ist eine Ausschlussdiagnose: Sie gilt nur, wenn die Kandidaten 1 und 2 ausgeschlossen sind. In unserem Register ist es eine klinische Lesart und kein unabhängig belegter Befund, daher geben wir ihm keinen eigenen Sicherheitswert.
+
+Diese drei sind nicht gegenseitig ausschließend, und die Unterscheidung ist klinisch wichtig. Ein struktureller Verlust begrenzt, was ein Prokinetikum leisten kann. Eine autoimmune Blockade ist potenziell reversibel. Eine funktionelle Insuffizienz spricht am wahrscheinlichsten auf prokinetische Medikamente an. Die ehrliche Position ist, dass wir noch nicht wissen, welche — oder welche Kombination — für einen bestimmten Patienten gilt, und kein Test trennt sie derzeit bei ME/CFS.
+
+Jeder Kandidat hat eine falsifizierbare Vorhersage. Eine Magenantrumbiopsie von ME/CFS-Patienten mit dokumentierter Gastroparese, die eine normale Dichte von Schrittmacherzellen und enterischen Nerven zeigt, würde die Lesart des strukturellen Verlusts falsifizieren; Hinweise auf Zell- oder Nervenverlust würden sie stützen. Die Messung von Antikörpern gegen den ganglionalen Acetylcholinrezeptor in einer ME/CFS-Gastroparese-Kohorte — wenn eine relevante Untergruppe antikörperpositiv ist und sich ihre Entleerung nach Immuntherapie verbessert, ist die Behauptung der autoimmunen Blockade gestützt; wenn die Antikörperspiegel weder der Entleerungsverzögerung noch dem Immuntherapieansprechen folgen, ist sie falsifiziert. Auch Kandidat 3 ist testbar: Wenn die Entleerungsverzögerung nicht-invasiven Vagustonus-Markern folgt (wie Herzfrequenzvariabilitätsindizes) und sich mit autonomen Therapien verbessert, die den vagalen Antrieb erhöhen, ist die Lesart der funktionellen Insuffizienz gestützt; wenn die Entleerung langsam bleibt, während diese Marker sich normalisieren, wird sie geschwächt. Die Entleerungsverzögerung selbst — das gemeinsame Merkmal hinter allen dreien — kann mit einem standardmäßigen Magenentleerungsscan gemessen werden; die Kandidaten zu unterscheiden würde die oben genannte Biopsie und Antikörpertestung erfordern, zusammen mit nicht-invasiven autonomen Messungen, und nichts davon wurde in einer ME/CFS-Kohorte durchgeführt.
+
+---
+
+## Ein krankheitsübergreifender Spiegel
+
+Gastroparese ist nicht einzigartig für ME/CFS. Sie ist in anderen Kontexten gut charakterisiert, und die Parallelen sind aufschlussreich:
+
+- **Diabetes.** Gastroparese ist eine gut charakterisierte Komplikation des Diabetes mellitus, bei der der strukturelle Verlust von Schrittmacherzellen und enterischen Nerven im menschlichen Gewebe [@Grover2011CellularChangesGastroparesis] und in Tiermodellen [@Wang2009ICCLossDiabetes] dokumentiert ist.
+- **Postviral (Long COVID).** Eine autoimmune gastrointestinale Dysmotilität wurde nach einer SARS-CoV-2-Infektion berichtet, mit unstillbarer Übelkeit, frühem Sättigungsgefühl, verzögerter Magenentleerung und Antikörpern gegen ganglionale Acetylcholinrezeptoren, mit Besserung nach Immuntherapie [@Montalvo2022LongCovidGIDysmotility].
+- **POTS und Hypermobilität.** In der Überlappung von autonomem System und Hypermobilität — POTS und hypermobiles Ehlers-Danlos-Syndrom — sind GI-Dysmotilität und Gastroparese häufig und können in schweren Fällen eine unterstützende nicht-orale Ernährung erfordern [@Tseng2019POTSNutritionalSupport @Aziz2025AGAGIHyperEhlersDanlos].
+
+Diese Parallelen stützen Gastroparese als eine plausible Manifestation der autonomen und autoimmunen Dysfunktion, die bei ME/CFS beteiligt ist, und als eine Quelle von Ernährungsrisiko bei schwerer Erkrankung. Sie geben Klinikern auch ein Behandlungs-Handbuch — das POTS/Hypermobilitäts-Framework ist das übertragbarste — während die populationsübergreifende Lücke benannt wird: Was in diesen Populationen etabliert ist, ist bei ME/CFS noch nicht bewiesen.
+
+---
+
+## Was zu tun ist: ein sicherer, geordneter Weg
+
+Die Behandlungsgeschichte hat zwei Stufen, und die Reihenfolge ist wichtig. Der Schritt mit dem geringsten Risiko kommt zuerst.
+
+**Erste Wahl: diätetisches und ernährungstechnisches Management.** Bei mittelschwerer bis schwerer Gastroparese sind diätetische Modifikation und Ernährungsstrategie die Eingriffe erster Wahl mit dem geringsten Risiko: kleine, häufige Mahlzeiten, fettarme und ballaststoffarme Mahlzeiten, um die mechanische Last auf den Magen zu verringern, und flüssige oder halbflüssige Nährstoffoptionen, wenn die Feststoffentleerung langsam ist [@Gupta2016GastroparesisDiet]. Nicht alle Flüssigkeiten sind gleich: Dünne Brühen und Suppen sind kalorienarm, daher braucht die Umstellung auf Flüssigkeiten eine Begleitung der Energie- und Proteinziele, nicht nur einen Wechsel der Textur. In der autonomen/POTS-Population ist GI-Dysmotilität mit Ernährungsintoleranz ein anerkannter Treiber des Bedarfs an nicht-oraler (enteraler oder parenteraler) Ernährung bei den am stärksten betroffenen Patienten [@Tseng2019POTSNutritionalSupport]. Diese Maßnahmen kehren die zugrunde liegende autonome Dysfunktion nicht um, aber sie sind unerlässlich, um die Ernährung zu erhalten und vermeidbaren Gewichtsverlust bei schwer und sehr schwer erkranktem ME/CFS zu verhindern. Sie gelten über alle Schweregrade hinweg; die enterale Eskalation ist eine Maßnahme bei sehr schwerer Erkrankung und Ernährungsversagen. Diese erste Stufe ist auch der Ort für eine Medikamentenüberprüfung — einschließlich, wo relevant, eines GLP-1-Rezeptoragonisten (siehe unten).
+
+Das ist die Stufe, die der eigene Instinkt des Patienten meist zuerst erreicht — die Umstellung auf kleine, häufige, flüssige Mahlzeiten, wie oben beschrieben. Die Evidenz bestätigt den Instinkt und fügt das Sicherheitsnetz hinzu: einen Kliniker, der Gewicht, Ernährung und den Punkt überwacht, an dem orale Ernährung nicht mehr ausreicht.
+
+**Zweite Wahl: Prokinetika, sicher gemanagt.** Prokinetika sind die wichtigste pharmakologische Option bei Gastroparese und evidenzbasiert in der allgemeinen Gastroparese-Population [@Ingrosso2023GastroparesisDrugsNMA]. Sie tragen ernste Risiken, die für schwer und sehr schwer erkrankte ME/CFS-Patienten besonders relevant sind, und keines ist bei ME/CFS validiert; das gilt auch für jedes pflanzliche oder rezeptfreie „Motilitäts"-Präparat, das mit Herz- und anderen Medikamenten interagieren kann — verschreiben Sie sich dafür keine Präparate selbst. Die verschreibungspflichtigen Medikamente sind:
+
+- **Metoclopramid** ist das einzige von der FDA zugelassene Medikament gegen Gastroparese, trägt aber eine Black-Box-Warnung für die Anwendung über 12 Wochen hinaus wegen tardiver Dyskinesie, die irreversibel sein kann; es verursacht auch Schläfrigkeit, Unruhe und Hyperprolaktinämie [@Shakhatreh2019Metoclopramide]. In der Schwangerschaft zeigt es beruhigende Ersttrimester-Daten zu schweren angeborenen Fehlbildungen [@Sun2021MetoclopramidePregnancy], erfordert aber dennoch eine fachärztliche Überprüfung in Schwangerschaft oder Stillzeit.
+- **Domperidon** kann das kardiale QT-Intervall verlängern — eine Baseline-EKG/QT-Beurteilung und QTc-Überwachung sind vor und während der Anwendung ratsam [@Ingrosso2023GastroparesisDrugsNMA]; in Europa ist es aus diesen kardialen Gründen auf die kurzfristige Anwendung beschränkt (EMA, 2014) [@Yuksel2019DomperidoneEMA].
+- **Erythromycin** (als Motilin-Agonist) verliert bei längerer Anwendung durch Rezeptordesensibilisierung an Wirksamkeit [@Ingrosso2023GastroparesisDrugsNMA].
+- **Hochselektive 5-HT4-Agonisten** (z. B. Prucaloprid) zeigen Wirksamkeit ohne überschüssiges gepooltes kardiovaskuläres/QT-Signal in Studien [@Patel2024SHT4Gastroparesis], sind aber nicht in allen Rechtsgebieten für Gastroparese zugelassen.
+
+**Eine Klasse zum Prüfen, keine prokinetische Option: GLP-1-Rezeptoragonisten sind bei etablierter Gastroparese kontraindiziert.** Sie verlangsamen die Magenentleerung [@Nauck2011GLP1TachyphylaxisGastricEmptying] und sind eine anerkannte Ursache medikamenteninduzierter Gastroparese [@Camilleri2025PharmacologicTreatmentsGastroparesis]; sie unterdrücken außerdem den Appetit und können Gewichtsverlust und Übelkeit verschlimmern — alles ohnehin problematisch bei schwerem ME/CFS. Wenn ein Patient unter einem GLP-1 eine langsame Entleerung hat, lohnt es sich, den Verschreiber zu fragen, ob die Verzögerung nach Beginn des Medikaments begann; wenn das eindeutig der Fall ist, kann ein Kliniker einen beaufsichtigten Auslassversuch oder ein Pausieren erwägen, das in einigen Fällen das Bild auflöst, bevor ein Prokinetikum erwogen wird. Das ist ein klinisches Urteil, keine etablierte Leitlinie, und die Frage des Zeitpunkts gehört zum Verschreiber, nicht etwas, das Sie allein entscheiden. Beenden Sie ein verschriebenes GLP-1 nicht eigenmächtig. Ihre Anwendung bei einem Patienten mit Gastroparese erfordert eine ausdrückliche Überprüfung dieses Risikos.
+
+Es gelten zwei harte Grenzen. Erstens: **Kein Prokinetikum wurde in einer kontrollierten ME/CFS-Studie getestet**, daher müssen Dosierung und Sicherheit aus anderen Populationen extrapoliert werden. Zweitens: **Prokinetika behandeln die zugrunde liegende autonome Dysfunktion nicht**; sie werden am besten mit den oben genannten diätetischen Maßnahmen kombiniert. Für einen schwer oder sehr schwer erkrankten Patienten ist der vorsichtige Ansatz ein evidenzbasierter Versuch mit dem am wenigsten riskanten Wirkstoff, enge Überwachung auf extrapyramidale, kardiale und autonome Wirkungen und ausdrücklich zeitlich begrenzte Anwendung. Eine vollständige Überprüfung der Arzneimittelwechselwirkungen mit der aktuellen Medikamentenliste des Patienten ist vor der Anwendung erforderlich; wenn diese Überprüfung oder ein Schwangerschafts- oder Stillzeit-Check positiv ist, beginnen Sie kein Prokinetikum ohne fachärztliche Beteiligung.
+
+**Eine Beobachten-und-Eskalieren-Treppe.** In diesem Artikel hat „schwer" eine konkrete operative Bedeutung: unbeabsichtigter Gewichtsverlust über Wochen, die Unfähigkeit, Nahrung oder Flüssigkeit bei sich zu behalten, oder das Angewiesensein auf Flüssigkeit allein, um das Gewicht zu halten — und in ME/CFS-Begriffen fällt das oft mit Bettlägerigkeit oder weitgehender Unfähigkeit zusammen, orale Nahrung zu bewältigen. Das sind unsere Arbeitsschwellen, keine veröffentlichten Triage-Kriterien. Ein Patient, der bereits von Flüssigkeit lebt und weiter Gewicht verliert, nähert sich dem Eskalationspunkt nicht an; er ist bereits an dem Punkt, an dem eine Überprüfung der nicht-oralen Ernährung auf den Tisch gehört. Das sind die Signale, die einen Fall die Treppe hinaufbewegen, von den oben genannten diätetischen Maßnahmen zu flüssiger oder halbflüssiger Ernährung und dann, wenn Gewicht und Ernährung trotzdem weiter fallen, zur nicht-oralen Ernährung unter ärztlicher Aufsicht. Das sind Schwellen, die ein Kliniker beobachten und beantworten sollte — keine Linien, die der Patient allein ziehen soll. Drei Warnungen folgen. Erstens ist die Eskalation über die Diät hinaus — nicht-orale Ernährung und bei einem schwer erkrankten Patienten der Beginn eines Prokinetikums — meist eine Entscheidung eines Spezialisten (Gastroenterologie oder Ernährungsteam). Zweitens erfordern einige Signale dringende Aufmerksamkeit statt eines langsamen Aufstiegs: Gewichtsverlust, der Woche für Woche anhält, die Unfähigkeit, Flüssigkeit für etwa einen Tag bei sich zu behalten, oder neu aufgetretene oder verschlimmerte Schwäche oder Schwindel, die damit zusammenhängen, dass Flüssigkeit nicht unten bleibt, statt Ihrer üblichen orthostatischen Symptome. Drittens suchen Sie dringende Versorgung, statt auf eines der oben genannten zu warten, bei Erbrechen von Blut oder vermuteter Aspiration. In der Praxis unterstützen Laboruntersuchungen des Elektrolyt- und Mikronährstoffhaushalts die Entscheidung bei jedem Schritt.
+
+**Das ist keine Empfehlung, eines dieser Medikamente einzunehmen.** Medikamentenentscheidungen erfordern einen qualifizierten Kliniker, der den Schweregrad, die Komorbiditäten und die aktuelle Medikamentenliste des einzelnen Patienten abwägen kann.
+
+---
+
+## Wie Sie das mit Ihrem Kliniker ansprechen
+
+Wenn dieser Artikel zu dem passt, was Sie fühlen, ist der Befund testbar. Sie können Ihren Kliniker fragen, ob eine Magenentleerungsuntersuchung angesichts der dünnen ME/CFS-Evidenz erwägenswert ist, und erwähnen, dass Sie das Ergebnis gern anhand eines Standardprotokolls interpretiert hätten. Die Untersuchung kann bestätigen, ob die Entleerung verzögert ist, und einen normalen Magen ausschließen, aber sie identifiziert nicht von sich aus den Mechanismus — sie ist ein nützlicher Test, nicht die ganze Antwort. Und wenn Sie Gewicht verlieren, nur noch Flüssiges essen oder regelmäßig erbrechen, sagen Sie es klar: Das sind die Signale, die eine Entleerungsuntersuchung und eine Ernährungsbeurteilung sinnvoll machen, keine Optionen. Es ist die Rolle des Klinikers zu entscheiden, ob oder wie auf diese Signale reagiert wird, nicht Ihre allein. Wenn eine Entleerungsuntersuchung nicht sofort verfügbar ist, sind die sichersten Schritte erster Wahl hier — diätetische Maßnahmen und eine Medikamentenüberprüfung — weiterhin der richtige Ausgangspunkt, sodass Sie nicht durch das Warten auf den Test blockiert sind.
+
+---
+
+## Was bleibt
+
+Gastroparese bei ME/CFS ist real und testbar. Eine verzögerte Magenentleerung ist ein dokumentiertes, messbares Merkmal der Erkrankung — keine vage Beschwerde — und sie kann mit einem standardmäßigen Magenentleerungstest beurteilt werden [@Burnet2004GastricEmptyingCFS].
+
+Der Mechanismus ist wirklich ungeklärt. Drei Kandidaten stehen auf dem Tisch — struktureller Verlust der Schrittmacherzellen und enterischen Nerven (offene Frage, 0,40), autoimmune ganglionale Blockade (Spekulation, 0,30) und reine funktionelle Vagusinsuffizienz — und kein Test trennt sie derzeit bei ME/CFS. Diese Unsicherheit ist ehrlich, und sie ist keine Barriere für die Versorgung.
+
+Es gibt eine sichere Behandlungstreppe. Diätetisches und ernährungstechnisches Management zuerst — kleine, häufige, fettarme, ballaststoffarme Mahlzeiten und flüssige Optionen, mit enteraler Unterstützung, die dem Ernährungsversagen vorbehalten ist. Prokinetika zweitens, sicher gemanagt, zeitlich begrenzt und nur, nachdem ein Kliniker die individuellen Risiken abgewogen hat.
+
+Die am ehesten umsetzbare Schlussfolgerung für einen schweren Fall: **Beginnen Sie mit den am wenigsten riskanten Maßnahmen — Diät und einer Medikamentenüberprüfung — unabhängig vom Scan, und behandeln Sie das messbare Problem objektiv, statt eine spezifische Läsion anzunehmen, bis sie nachgewiesen ist.** Die Entleerungsuntersuchung ist der bestätigende Test, der dort, wo verfügbar, eingeholt werden sollte, keine Voraussetzung für den Beginn der sichersten Schritte erster Wahl.
+
+---
+
+*Dieser Artikel spiegelt Forschung mit expliziter, kalibrierter Sicherheit — einen dokumentierten klinischen Befund (0,60), eine offene Mechanismus-Frage (0,40) und eine registrierte Spekulation (0,30) — und keine etablierte klinische Tatsache. Besprechen Sie jede medizinische Entscheidung, einschließlich jeder Änderung von Diät oder Medikament, mit einem qualifizierten Kliniker.*
+
+*Für den breiteren Rahmen von GI-Dysmotilität und SIBO siehe [GI-Dysmotilität Artikel 1](../sibo-gi-dysmotility/index.qmd) und [den Begleitartikel zur Behandlung](../sibo-gi-treatment/index.qmd).*
+
+*Für das umfassende, vollständig zitierte Bild, wie Gastroparese unter den vielen Kandidatenmechanismen bei ME/CFS gewichtet wird, siehe [@Loth2026website].*
