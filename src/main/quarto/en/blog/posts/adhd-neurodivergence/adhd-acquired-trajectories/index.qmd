@@ -26,6 +26,8 @@ That finding sparked a debate that has since refined the picture. A closer look 
 
 So the current, more careful conclusion is a **mix**: some adult ADHD is genuinely adolescent-onset; some reflects missed or misrecalled childhood symptoms; some is explained by substance use or other comorbidity. A clean "distinct adult-onset syndrome, appearing out of nowhere" is now the minority reading, not the consensus.
 
+An honest caveat: this "mix" conclusion rests on a **small US comparison cohort** (the MTA local normative comparison group, n = 239) rather than a population-grade birth cohort, and two of the key studies share a research lineage, so the evidence is a partly self-referential cluster rather than independent replication. The question is therefore best treated as open, not settled — a point the rest of this article's hedging reflects.
+
 The clinical implication is still direct: **an adult who develops ADHD-like symptoms in adulthood is not necessarily reliving an unbroken childhood condition.** They may be experiencing an *acquired* or *adolescent-onset* process — one that deserves investigation of its cause, not a shrug toward "lifelong wiring." But the degree to which that process is truly independent of childhood neurodevelopmental risk, rather than a missed childhood presentation, remains unresolved.
 
 ---
