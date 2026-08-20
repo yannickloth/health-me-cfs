@@ -65,6 +65,21 @@ Prevents re-processing of already-integrated content.
 |-----|--------|---------|------------|--------|
 | PubMed API queries (8 queries + 1 efetch batch, 14 PMIDs) | pubmed/eutils | 2026-08-17 | — | ops/research/search-log-thapaliya2025-brain-microstructure-neurochemicals-2026-08-17.md, ops/research/literature-thapaliya2025-brain-microstructure-neurochemicals-2026-08-17.md, bib/long-covid.bib, appendix-h — Long-COVID/recovered-COVID/ME-CFS brain microstructure & neurochemicals literature (14 papers) |
 
+---
+
+## Long Covid–AD(H)D Neuroimmune Literature Search
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-08-20 | 13 DOI-targeted queries (esearch + efetch) verifying metadata for the Spanoghe anchor viewpoint and 12 cited/related primary sources across the four neuroimmune mechanisms. PMID/title/author/journal/year/volume/pages verified per DOI. |
+| Crossref API | 2026-08-20 | Metadata for Fesharaki-Zadeh 2023 guanfacine paper (Neuroimmunology Reports; not indexed in PubMed) — DOI 10.1016/j.nerep.2022.100154. |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed API queries (13 DOI lookups, batch efetch) | pubmed/eutils | 2026-08-20 | — | ops/research/search-log-longcovid-adhd-neuroimmune-2026-08-20.md, ops/research/literature-summary-longcovid-adhd-neuroimmune.md, bib/neurology-comorbidities.bib, appendix-h — Long Covid–ADHD neuroimmune framework literature (14 new papers: 1 anchor + 13 primary) |
+| Crossref API (10.1016/j.nerep.2022.100154) | crossref | 2026-08-20 | — | bib/neurology-comorbidities.bib, appendix-h — Fesharaki-Zadeh guanfacine metadata |
+
+---
+
 ## Sources
 
 | Source | Last Scraped | Notes |

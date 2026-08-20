@@ -16357,6 +16357,190 @@ This section covers mechanistic and clinical literature on the intersection of m
     *Limitations:*: Narrative review; ADHD coverage is brief; neuropsychiatric associations for ADHD are cited but not systematically reviewed.
     *Certainty:*: 0.50 — Medium. Core BH4 biochemistry well-established; ADHD-specific evidence is associational.
 
+=== Spanoghe2026LongCovidADHD — Viewpoint Linking Long Covid and AD(H)D via Neuroimmune Dysfunction
+
+    *Full Citation:*: Spanoghe M, Antonacci T, Schneider N, Molmans THJ. Viewpoint: Linking long Covid and AD(H)D through neuroimmune dysfunction: A translational framework proposal for precision medicine. _Brain, Behavior, and Immunity_. 2026;131:106181. @Spanoghe2026LongCovidADHD
+    *DOI:*: #link("https://doi.org/10.1016/j.bbi.2025.106181")[10.1016/j.bbi.2025.106181]
+    *PMID:*: 41223978
+    *Article Type:*: Viewpoint (no primary data)
+    *Key Findings:*:
+        - Proposes four converging LC--AD(H)D mechanisms: (1) frontal--striatal--hippocampal dysfunction; (2) neuroimmune dysregulation of catecholamine systems; (3) tryptophan--kynurenine dysregulation; (4) mitochondrial bioenergetic defects
+        - Reports off-label ADHD pharmacotherapy in LC (methylphenidate, guanfacine, low-dose lithium, dexamfetamine) with partial response; PEM and autonomic dysregulation limit use
+        - Proposes an acquired "neuroimmune-mediated dopaminergic/noradrenergic dysfunction" hypothesis analogous to neuroimmune-mediated depression
+        - Frames a precision-immunopsychiatry immune-subtyping framework for LC/ADHD stratification
+    *Conclusion:*: Hypothesis-generating translational framework linking Long Covid and AD(H)D via shared neuroimmune mechanisms of executive dysfunction; proposes mechanism-driven rather than symptomatic treatment.
+    *Limitations:*: Viewpoint — no primary data; framework is a synthesis of cited primary studies; cited null result (Zemer 2024) acknowledged but not resolved; patient-organization authorship.
+    *Certainty:*: 0.50 — Medium (framework). Top journal synthesis but hypothesis-generating; no primary data. Population weight 0.85 (Long Covid) → discounted 0.43.
+
+=== Cysique2023KynureninePASC — Kynurenine Pathway and Post-Acute COVID Cognitive Impairment
+
+    *Full Citation:*: Cysique LA, Jakabek D, Bracken SG, et al. The kynurenine pathway relates to post-acute COVID-19 objective cognitive impairment and PASC. _Annals of Clinical and Translational Neurology_. 2023;10(8):1338--1352. @Cysique2023KynureninePASC
+    *DOI:*: #link("https://doi.org/10.1002/acn3.51825")[10.1002/acn3.51825]
+    *PMID:*: 37318955
+    *Article Type:*: Original research (cohort)
+    *Key Findings:*:
+        - Kynurenine pathway dysregulation relates to objective cognitive impairment after acute COVID-19
+        - Correlates with post-acute sequelae (PASC) presentation, including cognitive complaints
+        - Provides primary human evidence for the kynurenine arm of the LC--ADHD framework
+    *Conclusion:*: Supports mechanism (3): overactivated kynurenine metabolism produces neurotoxic metabolites associated with post-COVID cognitive decline.
+    *Limitations:*: Cohort-specific; tryptophan--kynurenine measures at one timepoint; association not causality.
+    *Certainty:*: 0.65 — Medium-High. Direct human kynurenine--cognition measure in PASC. Population weight 0.85 (Long Covid) → discounted 0.55.
+
+=== Rassoulpour2005KynurenicAcid — Kynurenic Acid Lowers Striatal Dopamine
+
+    *Full Citation:*: Rassoulpour A, Wu HQ, Ferré S, Schwarcz R. Nanomolar concentrations of kynurenic acid reduce extracellular dopamine levels in the striatum. _Journal of Neurochemistry_. 2005;93(3):762--765. @Rassoulpour2005KynurenicAcid
+    *DOI:*: #link("https://doi.org/10.1111/j.1471-4159.2005.03134.x")[10.1111/j.1471-4159.2005.03134.x]
+    *PMID:*: 15836634
+    *Article Type:*: In vivo microdialysis (rat)
+    *Key Findings:*:
+        - Nanomolar kynurenic acid concentrations reduce extracellular dopamine in rat striatum
+        - Establishes a direct biochemical bridge: kynurenine metabolite → lowered dopamine
+    *Conclusion:*: INDIRECT biochemical link: kynurenine dysregulation can suppress dopaminergic tone, mechanistically connecting the kynurenine and catecholamine arms of the framework.
+    *Limitations:*: Animal model; microdialysis of one region; does not establish clinical relevance to LC/ADHD directly.
+    *Certainty:*: 0.70 — High (biochemistry), but animal. Population weight 0.50 → discounted 0.35.
+
+=== Sarkar2010DopamineImmunoreg — Immunoregulatory Role of Dopamine
+
+    *Full Citation:*: Sarkar C, Basu B, Chakroborty D, Dasgupta PS, Basu S. The immunoregulatory role of dopamine: an update. _Brain, Behavior, and Immunity_. 2010;24(4):525--528. @Sarkar2010DopamineImmunoreg
+    *DOI:*: #link("https://doi.org/10.1016/j.bbi.2009.10.015")[10.1016/j.bbi.2009.10.015]
+    *PMID:*: 19896530
+    *Article Type:*: Review
+    *Key Findings:*:
+        - Dopamine modulates T-cell, macrophage, and microglial function via D1--D5 receptors
+        - Bidirectional dopamine--immune crosstalk: immune cells both respond to and produce dopamine
+    *Conclusion:*: Provides mechanistic basis for mechanism (2): neuroimmune dysregulation of catecholamine systems; supports hypodopaminergia reducing immune competence.
+    *Limitations:*: Review; general biology, not LC/ADHD/ME/CFS-specific.
+    *Certainty:*: 0.55 — Medium. General biology. Population weight 0.75 → discounted 0.41.
+
+=== Feng2021DopamineImmunomodulatory — Dopamine Immunomodulation in Inflammatory Diseases
+
+    *Full Citation:*: Feng Y, Lu Y. Immunomodulatory effects of dopamine in inflammatory diseases. _Frontiers in Immunology_. 2021;12:663102. @Feng2021DopamineImmunomodulatory
+    *DOI:*: #link("https://doi.org/10.3389/fimmu.2021.663102")[10.3389/fimmu.2021.663102]
+    *PMID:*: 33897712
+    *Article Type:*: Review
+    *Key Findings:*:
+        - Dopamine shapes T-cell polarization and cytokine balance via dopamine receptors on immune cells
+        - Dysregulated dopaminergic signaling contributes to inflammatory disease states
+    *Conclusion:*: Corroborates mechanism (2): neuroimmune dysregulation of dopamine/noradrenaline with T-cell and cytokine imbalance.
+    *Limitations:*: Review; broad inflammatory-disease focus; not LC/ADHD-specific.
+    *Certainty:*: 0.60 — Medium-High. General inflammatory biology. Population weight 0.75 → discounted 0.45.
+
+=== Tanaka2022MitoKynurenine — Mitochondrial Impairment and the Kynurenine System
+
+    *Full Citation:*: Tanaka M, Szabó Á, Spekker E, Polyák H, Tóth F, Vécsei L. Mitochondrial impairment: A common motif in neuropsychiatric presentation? The link to the tryptophan--kynurenine metabolic system. _Cells_. 2022;11(16):2607. @Tanaka2022MitoKynurenine
+    *DOI:*: #link("https://doi.org/10.3390/cells11162607")[10.3390/cells11162607]
+    *PMID:*: 36010683
+    *Article Type:*: Review
+    *Key Findings:*:
+        - Mitochondrial impairment is a common motif across neuropsychiatric disorders
+        - The tryptophan--kynurenine metabolic system intersects mitochondrial function (NAD+/quinolinic acid)
+    *Conclusion:*: Mechanistic bridge between mechanism (3) kynurenine dysregulation and mechanism (4) mitochondrial bioenergetic defects.
+    *Limitations:*: Review; general neuropsychiatric biology; not LC/ADHD-specific.
+    *Certainty:*: 0.55 — Medium. General biology. Population weight 0.75 → discounted 0.41.
+
+=== Xu2025MitoComplexesADHD — Mitochondrial Complex Gene Cluster and COVID Cognitive Decline
+
+    *Full Citation:*: Xu WT, An XB, Chen MJ, et al. A gene cluster of mitochondrial complexes contributes to the cognitive decline of COVID-19 infection. _Molecular Neurobiology_. 2025;62(6):6869--6883. @Xu2025MitoComplexesADHD
+    *DOI:*: #link("https://doi.org/10.1007/s12035-024-04471-3")[10.1007/s12035-024-04471-3]
+    *PMID:*: 39271627
+    *Article Type:*: Original research
+    *Key Findings:*:
+        - COVID-19 infection suppresses a gene cluster of mitochondrial complexes
+        - Suppression contributes to COVID-related cognitive decline (PASC cognitive arm)
+    *Conclusion:*: Primary human evidence for mechanism (4): mitochondrial bioenergetic suppression driving cognitive deficits in Long Covid.
+    *Limitations:*: Gene-expression/association study; mechanism inferred; LC relevance via post-COVID cognitive decline.
+    *Certainty:*: 0.55 — Medium. Population weight 0.85 (Long Covid cognitive decline) → discounted 0.47.
+
+=== FesharakiZadeh2023Guanfacine — Guanfacine + NAC for Long-COVID Cognitive Deficits
+
+    *Full Citation:*: Fesharaki-Zadeh A, Lowe N, Arnsten AFT. Clinical experience with the α2A-adrenoceptor agonist, guanfacine, and N-acetylcysteine for the treatment of cognitive deficits in "Long-COVID19". _Neuroimmunology Reports_. 2023;3:100154. @FesharakiZadeh2023Guanfacine
+    *DOI:*: #link("https://doi.org/10.1016/j.nerep.2022.100154")[10.1016/j.nerep.2022.100154]
+    *Article Type:*: Open-label case series
+    *Key Findings:*:
+        - Guanfacine + N-acetylcysteine reported to improve attention and executive function in Long-COVID cognitive deficits
+        - Small open-label case series, no control group
+    *Conclusion:*: Corroborates the off-label ADHD-pharmacotherapy-in-LC arm and the prefrontal noradrenergic (mechanism 1) basis.
+    *Limitations:*: Small n, open-label, no control; publication is clinical experience, not a trial.
+    *Certainty:*: 0.45 — Medium (clinical experience). Population weight 0.85 (Long Covid) → discounted 0.38.
+
+=== Krishnan2022BrainFogMultidisciplinary — Multidisciplinary Approach to Post-COVID Brain Fog
+
+    *Full Citation:*: Krishnan K, Lin Y, Prewitt KRM, Potter DA. Multidisciplinary approach to brain fog and related persisting symptoms post COVID-19. _Journal of Health Service Psychology_. 2022;48(1):31--38. @Krishnan2022BrainFogMultidisciplinary
+    *DOI:*: #link("https://doi.org/10.1007/s42843-022-00056-7")[10.1007/s42843-022-00056-7]
+    *PMID:*: 35128461
+    *Article Type:*: Case series / practice report
+    *Key Findings:*:
+        - Describes multidisciplinary management of post-COVID brain fog and persisting symptoms
+        - Cognitive/executive deficits overlap ADHD-like phenomenology
+    *Conclusion:*: Clinical context for the LC--ADHD brain-fog/cognitive arm and off-label management.
+    *Limitations:*: Small descriptive series; no controlled data.
+    *Certainty:*: 0.40 — Medium (clinical). Population weight 0.85 (Long Covid) → discounted 0.34.
+
+=== Koonce2024LongCovidStimulant — Long-COVID and Stimulant Prescribing (US Claims)
+
+    *Full Citation:*: Koonce RM, Martin BC. The association between suspected long-COVID and stimulant prescribing in the United States. _Psychiatry Research_. 2024;331:115686. @Koonce2024LongCovidStimulant
+    *DOI:*: #link("https://doi.org/10.1016/j.psychres.2023.115686")[10.1016/j.psychres.2023.115686]
+    *PMID:*: 38142603
+    *Article Type:*: Retrospective claims analysis
+    *Key Findings:*:
+        - Suspected long-COVID associated with increased stimulant prescribing (methylphenidate/amphetamines) in the US
+        - Consistent with off-label ADHD pharmacotherapy for LC cognitive symptoms
+    *Conclusion:*: Epidemiological corroboration for the off-label stimulant-in-LC arm of the framework.
+    *Limitations:*: Claims-based; diagnosis/indication not confirmed; cannot infer efficacy.
+    *Certainty:*: 0.65 — Medium-High (large dataset). Population weight 0.85 (Long Covid) → discounted 0.55.
+
+=== Merzon2022LongCovidADHDYouth — ADHD as a Risk Factor for Long COVID in Youth
+
+    *Full Citation:*: Merzon E, Weiss M, Krone B, et al. Clinical and socio-demographic variables associated with the diagnosis of long COVID syndrome in youth: A population-based study. _International Journal of Environmental Research and Public Health_. 2022;19(10):5993. @Merzon2022LongCovidADHDYouth
+    *DOI:*: #link("https://doi.org/10.3390/ijerph19105993")[10.3390/ijerph19105993]
+    *PMID:*: 35627530
+    *Article Type:*: Population-based cohort
+    *Key Findings:*:
+        - ADHD associated with increased risk of Long COVID diagnosis in youth (~300,000 population)
+        - Supports ADHD as a pre-existing risk factor for LC
+    *Conclusion:*: Corroborates the bidirectional LC--ADHD link (ADHD → higher LC risk).
+    *Limitations:*: Registry/claims-based diagnosis; pediatric population; ADHD recorded pre-infection.
+    *Certainty:*: 0.60 — Medium-High. Population weight 0.85 (Long Covid, youth) → discounted 0.51.
+
+=== Gimbach2024ADHDMedicationEurope — ADHD Medication Consumption in Europe After COVID-19
+
+    *Full Citation:*: Gimbach S, Vogel D, Fried R, et al. ADHD medicine consumption in Europe after COVID-19: catch-up or trend change? _BMC Psychiatry_. 2024;24(1):112. @Gimbach2024ADHDMedicationEurope
+    *DOI:*: #link("https://doi.org/10.1186/s12888-024-05505-9")[10.1186/s12888-024-05505-9]
+    *PMID:*: 38336744
+    *Article Type:*: Multi-country prescribing analysis
+    *Key Findings:*:
+        - ADHD medicine consumption increased across Europe after COVID-19
+        - Consistent with both catch-up diagnosis and a possible post-infection trend change
+    *Conclusion:*: Corroborates increased stimulant use relevant to the LC--ADHD overlap; does not separate causes.
+    *Limitations:*: Prescribing data only; indication/causality not established.
+    *Certainty:*: 0.55 — Medium. Population weight 0.85 (post-COVID context) → discounted 0.47.
+
+=== Ferrara2023CovidADHD — Direct Correlation Between COVID-19 and ADHD
+
+    *Full Citation:*: Ferrara F, Zavaleta E, Vitiello A, et al. The direct correlation between Covid-19 and attention deficit/hyperactivity disorder (ADHD). _European Neuropsychopharmacology_. 2023;73:62--64. @Ferrara2023CovidADHD
+    *DOI:*: #link("https://doi.org/10.1016/j.euroneuro.2023.04.010")[10.1016/j.euroneuro.2023.04.010]
+    *PMID:*: 37121166
+    *Article Type:*: Viewpoint/letter
+    *Key Findings:*:
+        - Argues a direct correlation between COVID-19 and new-onset/worsened ADHD
+        - Aligns with the bidirectional LC--ADHD premise
+    *Conclusion:*: Opinion supporting the framework premise; no primary data.
+    *Limitations:*: Viewpoint/letter, no data; non-systematic.
+    *Certainty:*: 0.40 — Medium (opinion). Population weight 0.85 (Long Covid) → discounted 0.34.
+
+=== Zemer2024COVIDADHD20Year — COVID-19 Had No Independent Effect on ADHD Diagnosis/Treatment (NULL)
+
+    *Full Citation:*: Shkalim Zemer V, Manor I, Weizman A, et al. The influence of COVID-19 on attention-deficit/hyperactivity disorder diagnosis and treatment rates across age, gender, and socioeconomic status: A 20-year national cohort study. _Psychiatry Research_. 2024;339:116077. @Zemer2024COVIDADHD20Year
+    *DOI:*: #link("https://doi.org/10.1016/j.psychres.2024.116077")[10.1016/j.psychres.2024.116077]
+    *PMID:*: 39053214
+    *Article Type:*: National cohort study (20-year, Israel)
+    *Key Findings:*:
+        - No independent effect of COVID-19 infection on ADHD diagnosis or treatment rates across age, gender, or SES
+        - Pandemic did not increase ADHD diagnosis/treatment beyond pre-existing trends
+    *Conclusion:*: NULL result (the framework's own cited counterpoint): post-COVID ADHD reports may reflect catch-up diagnosis, ascertainment, or symptom overlap rather than infection-driven new onset.
+    *Limitations:*: Registry/claims-based ADHD; national context (Israel); null result does not exclude a subset with infection-driven symptoms.
+    *Certainty:*: 0.70 — High (large national cohort), but null. Population weight 0.85 (post-COVID context) → discounted 0.60.
+
 
 // =============================================================================
 
