@@ -1,0 +1,157 @@
+---
+title: "Gastroparésie dans l'EM/SFC : un estomac lent, réel et mesurable — et une façon sûre de le gérer"
+description: "Le retard de vidange gastrique est une caractéristique réelle et testable de l'EM/SFC, et non une plainte vague. Cet article couvre les preuves, les limites honnêtes, la question du mécanisme, l'anxiété de vivre avec un estomac auquel on ne peut pas se fier, et une voie de traitement sûre et ordonnée."
+author: "Yannick Loth"
+date: "2026-08-20"
+lang: fr
+categories: [Autonomique, Gastro-intestinal, Symptômes]
+---
+
+Vous mangez un petit repas et vous restez rassasié pendant des heures. Vous ressentez des nausées. Votre abdomen ballonne. Parfois, vous vomissez des aliments que vous pouvez encore reconnaître. Au fil du temps, vous commencez à craindre de manger. Vous ne mangez plus que des liquides. Vous arrêtez de manger avec les autres.
+
+Cet article pose une question directe : **l'estomac lent est-il une caractéristique réelle et mesurable de l'EM/SFC — ou est-ce simplement ce que vous ressentez ?**
+
+La réponse courte : c'est réel, et c'est mesurable. Une étude contrôlée a mesuré la vitesse à laquelle l'estomac se vide chez 32 personnes atteintes du syndrome de fatigue chronique et a constaté que la plupart d'entre elles se vidaient lentement ; le délai suivait l'intensité de leur état de mal-être [@Burnet2004GastricEmptyingCFS]. Ce n'est pas une plainte vague. C'est une constatation que l'on peut tester avec un examen standard.
+
+Cet article sépare **ce que nous savons** de **ce que notre recherche ajoute**. Ce que nous savons : le retard de vidange gastrique est documenté dans une cohorte d'EM/SFC, et la gastroparésie est un problème bien caractérisé dans le diabète et, de plus en plus, dans le contexte post-viral. Ce que notre recherche ajoute : la lecture spécifique selon laquelle la gastroparésie de l'EM/SFC est une manifestation autonome mesurable avec une échelle de traitement sûre et ordonnée — et que son mécanisme est réellement non résolu, avec trois explications candidates et aucune confirmée dans l'EM/SFC.
+
+Pour une vue d'ensemble de la façon dont la dysmotilité gastro-intestinale et le SIBO s'articulent dans l'EM/SFC — l'axe mastocytaire, le mécanisme du sulfure d'hydrogène et le menu complet des traitements — voir [Article 1 sur la dysmotilité GI](../sibo-gi-dysmotility/index.qmd) et [l'article compagnon sur le traitement](../sibo-gi-treatment/index.qmd). Cet article ne répète pas ce contenu. Il approfondit la mesure de la vidange gastrique, l'incertitude du mécanisme et l'échelle de traitement gérée en toute sécurité.
+
+---
+
+## La constatation mesurable
+
+L'élément central est une étude radionucléide contrôlée. Elle a mesuré la vidange gastrique — le temps que met l'estomac à évacuer un repas — chez 32 personnes atteintes du syndrome de fatigue chronique, à l'aide d'un examen standardisé qui suit une petite quantité de marqueur radioactif dans un repas liquide et un repas solide [@Burnet2004GastricEmptyingCFS].
+
+Le résultat : **23 personnes sur 32 (72 %) présentaient un retard de vidange du liquide, et 12 sur 32 (38 %) un retard de vidange du solide.** Le délai était corrélé de manière significative au score symptomatique moyen (p < 0,001) — plus le patient était malade, plus l'estomac était lent.
+
+C'est une preuve directe que le retard de vidange gastrique est une caractéristique réelle et mesurable de la maladie, et non une simple plainte subjective. Elle peut être évaluée par un examen standard de vidange gastrique, et elle peut être une cible de traitement plutôt que quelque chose que le patient doit simplement endurer.
+
+**La limite honnête.** La constatation repose sur une seule cohorte de 32 personnes datant de 2004. L'étude précède les critères diagnostiques modernes de l'EM/SFC (critères IOM 2015 et ICC 2011), et la constatation n'a pas été répliquée dans une cohorte aux critères modernes. Dans notre registre de preuves, il s'agit d'une constatation clinique avec une certitude de 0,60 — solide, mais ancrée sur une seule étude ancienne. L'étude n'a pas rapporté la sévérité de ses participants, donc nous ne savons pas si le délai est plus marqué chez les patients sévères ou très sévères.
+
+Un contre-point : un seul rapport de cas chez un adolescent a trouvé une vidange gastrique et une activité myoélectrique normales chez un jeune atteint du syndrome de fatigue chronique [@Corrado1998NormalGastricEmptying]. Le retard de vidange n'est donc pas universel dans la maladie. Le cas concerne une personne, en pédiatrie, et a un faible poids probatoire — il ne renverse pas la constatation de la cohorte plus large, mais il montre que le délai n'est pas présent dans tous les cas.
+
+---
+
+## Ce que l'on ressent : l'anxiété d'un estomac auquel on ne peut pas se fier
+
+Les chiffres ci-dessus sont un examen. L'expérience est différente.
+
+Quand l'estomac se vide lentement, manger cesse d'être un acte neutre. Cela devient un risque. Vous mangez, et en quelques minutes vous vous sentez rassasié, ballonné ou nauséeux. Vous apprenez à craindre le repas. Vous apprenez à craindre le moment où vous pourriez vomir devant les autres. Vous arrêtez de manger avec les autres, parce que vous ne pouvez pas prédire ce qui va se passer. Vous commencez à peser chaque bouchée.
+
+Avec le temps, les gens ont tendance à modifier leur alimentation dans la même direction. Ils mangent de plus petites quantités, plus souvent. Ils éliminent les aliments qui pèsent le plus lourd — les gras, les riches en fibres. Et beaucoup passent aux liquides : smoothies, bouillons, boissons nutritionnelles, soupes. Les liquides se vident plus vite que les solides, donc ils semblent plus sûrs. Ne manger que des liquides n'est pas un caprice. C'est une adaptation rationnelle à un estomac qui évacue réellement lentement les solides.
+
+Cela importe pour deux raisons. D'abord, l'anxiété est réelle et elle a un coût. La peur de manger peut rétrécir l'alimentation jusqu'à la malnutrition et la perte de poids, et elle peut basculer dans une relation désordonnée avec la nourriture qui a besoin de son propre soutien — pas seulement d'une feuille de régime. Un patient qui a peur de manger est un patient qui a besoin d'un clinicien, pas davantage de volonté.
+
+Ensuite, l'adaptation n'est pas mauvaise. Le passage à des repas petits, fréquents, pauvres en graisses et en fibres, et à une nutrition liquide ou semi-liquide, est exactement la stratégie de première intention la plus sûre et la moins risquée que les preuves soutiennent (voir la section traitement ci-dessous). L'instinct du patient et les preuves vont dans le même sens. L'écart est que le patient y arrive généralement seul, par essais et erreurs, sans le filet de sécurité d'un clinicien qui surveille le poids et la nutrition.
+
+---
+
+## Ce que fait l'estomac
+
+Le tableau clinique de la gastroparésie dans l'EM/SFC est un ensemble reconnaissable de symptômes :
+
+- Sensation de plénitude après de petites quantités de nourriture
+- Nausées persistantes
+- Vomissements, surtout d'aliments non digérés
+- Ballonnement et inconfort abdominal
+- Fluctuations imprévisibles de la glycémie
+
+Le mécanisme est supposé autonome. Le nerf vague contrôle la motilité de l'estomac — les ondes de contraction qui broient la nourriture et la poussent plus loin. La lecture dominante est que la dysfonction autonome réduit la commande vagale vers l'estomac dans l'EM/SFC, si bien qu'il se vide lentement ; cette lecture est une hypothèse, pas encore prouvée dans l'EM/SFC. Quelle que soit la cause, la vidange altérée produit les symptômes digestifs et les défis nutritionnels ci-dessus.
+
+C'est la lecture fonctionnelle : le programme moteur de l'estomac est sous-entraîné par le système nerveux autonome. C'est l'explication la plus simple, et elle correspond à la dysfonction autonome pour laquelle l'EM/SFC est connu. Mais ce n'est pas la seule explication, et ce n'est pas celle sur laquelle les preuves se sont arrêtées. Nous revenons sur les alternatives après avoir examiné les limites des preuves.
+
+Il y a une deuxième conséquence qui importe spécifiquement dans l'EM/SFC. Une vidange irrégulière signifie probablement une absorption irrégulière — le glucose et les nutriments atteignent le sang par bouffées imprévisibles plutôt qu'en un flux régulier, parce que la vitesse à laquelle l'estomac se vide façonne la réponse glycémique postprandiale [@Camilleri2026GastroparesisReview]. C'est une inférence raisonnable à partir de la physiologie, pas encore démontrée dans une cohorte d'EM/SFC. Pour une personne qui gère déjà une réserve d'énergie serrée et une intolérance orthostatique, cette instabilité ajouterait une charge métabolique par-dessus l'inconfort gastrique. C'est une raison de plus pour laquelle l'estomac lent n'est pas seulement une nuisance locale, mais une partie du tableau énergétique plus large.
+
+---
+
+## Les limites honnêtes
+
+Avant la question du mécanisme, les limites. Les preuves que les patients atteints d'EM/SFC ont un retard de vidange gastrique sont réelles mais minces, et elles ont des faiblesses spécifiques :
+
+- **Une vieille cohorte.** La preuve directe repose en grande partie sur la seule cohorte de 32 personnes de 2004, qui précède les critères diagnostiques modernes [@Burnet2004GastricEmptyingCFS].
+- **Un cas nul.** Le seul contre-exemple direct est un seul adolescent avec une vidange normale [@Corrado1998NormalGastricEmptying].
+- **Aucune réplication moderne.** Aucune cohorte utilisant les critères IOM/ICC actuels n'a répliqué la constatation.
+- **Des alternatives non spécifiques.** Plusieurs explications autres qu'une lésion de gastroparésie distincte propre à l'EM/SFC peuvent produire le même tableau symptomatique : les effets secondaires des médicaments (de nombreux médicaments utilisés dans l'EM/SFC ralentissent la vidange gastrique), la dyspepsie fonctionnelle avec une accommodation gastrique anormale et une hypersensibilité viscérale plutôt qu'un véritable retard de vidange [@Debourdeau2024GastricVolumetry], le déconditionnement ou les effets généraux d'une maladie grave, et un biais de déclaration subjective qui gonfle la prévalence basée sur les symptômes.
+- **Un soutien transpathologique atténué.** Le soutien mécanistique provenant de l'histologie de la gastroparésie diabétique et idiopathique [@Grover2011CellularChangesGastroparesis] et des modèles animaux [@Wang2009ICCLossDiabetes] vient d'autres populations et n'établit pas à lui seul que l'EM/SFC partage cette pathologie.
+
+La conséquence pratique : avant d'agir sur un diagnostic de gastroparésie dans l'EM/SFC, un clinicien devrait reconnaître que la preuve est une seule vieille cohorte et devrait exclure les causes non spécifiques courantes — effets de médicaments, dyspepsie — par des tests objectifs, plutôt que de supposer un défaut de vidange spécifique à l'EM/SFC. C'est une évaluation du risque, pas une affirmation positive, et la prudence s'applique à tous les niveaux de sévérité.
+
+---
+
+## La question du mécanisme : trois candidats, aucun confirmé
+
+C'est la partie réellement ouverte de l'histoire. Nous ne savons pas encore ce qui est structurellement ou fonctionnellement anormal dans l'estomac dans l'EM/SFC. Trois candidats sont sur la table, et ils pointent vers des traitements différents.
+
+**Candidat 1 — perte structurelle des cellules pacemaker de l'estomac et des nerfs entériques.** Dans la gastroparésie diabétique et idiopathique, le tissu gastrique humain montre une perte des cellules interstitielles de Cajal (les cellules pacemaker de l'estomac), une réduction des fibres nerveuses entériques et des macrophages résidents altérés [@Grover2011CellularChangesGastroparesis]. Un modèle animal de gastroparésie diabétique confirme que la perte de ces cellules et nerfs est accompagnée d'une vidange ralentie [@Wang2009ICCLossDiabetes]. Que l'EM/SFC partage cette dégénérescence structurelle est inconnu — aucune histologie gastrique d'EM/SFC n'a été publiée. Dans notre registre, l'extrapolation de cette constatation à l'EM/SFC est une question ouverte avec une certitude de 0,40. Si c'est vrai, alors les prokinétiques qui stimulent les nerfs survivants ont une limite intégrée, et le traitement devrait cibler la prévention ou le remplacement de la perte cellulaire à la place.
+
+**Candidat 2 — blocage auto-immun du récepteur ganglionnaire de l'acétylcholine.** Un cas de dysmotilité gastro-intestinale auto-immune après une infection par le SRAS-CoV-2 s'est présenté avec des nausées incoercibles, une satiété précoce, un retard de vidange gastrique et des anticorps contre le récepteur ganglionnaire de l'acétylcholine — et il s'est nettement amélioré avec l'immunothérapie [@Montalvo2022LongCovidGIDysmotility]. Par analogie, un sous-ensemble de patients atteints d'EM/SFC avec gastroparésie pourrait avoir un blocage auto-immun ganglionnaire (vagal/entérique) plutôt qu'une perte nerveuse structurelle — un mécanisme potentiellement réversible par immunothérapie plutôt qu'irréversible. C'est une spéculation pour l'EM/SFC avec une certitude de 0,30 : aucune cohorte d'EM/SFC n'a été dépistée pour ces anticorps, et la seule preuve directement analogue est un seul rapport de cas post-viral (COVID long).
+
+**Candidat 3 — défaillance vagale fonctionnelle seule.** Le programme moteur de l'estomac est sous-entraîné par le système nerveux autonome, sans perte cellulaire structurelle et sans auto-anticorps. C'est la lecture la plus simple et celle à laquelle le tableau clinique correspond, mais c'est un diagnostic d'exclusion : il ne tient que si les candidats 1 et 2 sont écartés. Dans notre registre, c'est une lecture clinique plutôt qu'une constatation soutenue indépendamment, donc nous ne lui donnons pas de valeur de certitude distincte.
+
+Ces trois candidats ne sont pas mutuellement exclusifs, et la distinction importe cliniquement. Une perte structurelle limite ce qu'un prokinétique peut faire. Un blocage auto-immun est potentiellement réversible. Une défaillance fonctionnelle est celle qui répondra le plus probablement aux prokinétiques. La position honnête est que nous ne savons pas encore laquelle — ou quelle combinaison — s'applique à un patient donné, et aucun test ne les sépare actuellement dans l'EM/SFC.
+
+Chaque candidat a une prédiction falsifiable. Une biopsie antrale gastrique de patients atteints d'EM/SFC avec gastroparésie documentée montrant une densité normale de cellules pacemaker et de nerfs entériques falsifierait la lecture de perte structurelle ; des preuves de perte cellulaire ou nerveuse la soutiendraient. Mesurer les anticorps contre le récepteur ganglionnaire de l'acétylcholine dans une cohorte de gastroparésie d'EM/SFC — si un sous-ensemble significatif est positif aux anticorps et que leur vidange s'améliore après immunothérapie, l'affirmation de blocage auto-immun est soutenue ; si les niveaux d'anticorps ne suivent pas le retard de vidange ou la réponse à l'immunothérapie, elle est falsifiée. Le candidat 3 est lui aussi testable : si le retard de vidange suit des marqueurs non invasifs du tonus vagal (comme les indices de variabilité de la fréquence cardiaque) et s'améliore avec des thérapies autonomes qui augmentent la commande vagale, la lecture de défaillance fonctionnelle est soutenue ; si la vidange reste lente alors que ces marqueurs se normalisent, elle est affaiblie. Le retard de vidange lui-même — la caractéristique partagée derrière les trois — peut être mesuré par un examen standard de vidange gastrique ; distinguer les candidats exigerait la biopsie et le test d'anticorps ci-dessus, ainsi que des mesures autonomes non invasives, et aucune de ces choses n'a été faite dans une cohorte d'EM/SFC.
+
+---
+
+## Un miroir transpathologique
+
+La gastroparésie n'est pas unique à l'EM/SFC. Elle est bien caractérisée dans d'autres contextes, et les parallèles sont instructifs :
+
+- **Diabète.** La gastroparésie est une complication bien caractérisée du diabète sucré, où la perte structurelle des cellules pacemaker et des nerfs entériques est documentée dans le tissu humain [@Grover2011CellularChangesGastroparesis] et dans des modèles animaux [@Wang2009ICCLossDiabetes].
+- **Post-viral (COVID long).** Une dysmotilité gastro-intestinale auto-immune a été rapportée après une infection par le SRAS-CoV-2, se présentant avec des nausées incoercibles, une satiété précoce, un retard de vidange gastrique et des anticorps contre les récepteurs ganglionnaires de l'acétylcholine, avec amélioration après immunothérapie [@Montalvo2022LongCovidGIDysmotility].
+- **POTS et hypermobilité.** Dans le chevauchement autonome/hypermobilité — POTS et syndrome d'Ehlers-Danlos hypermobile — la dysmotilité GI et la gastroparésie sont fréquentes et peuvent nécessiter un soutien nutritionnel non oral dans les cas sévères [@Tseng2019POTSNutritionalSupport @Aziz2025AGAGIHyperEhlersDanlos].
+
+Ces parallèles soutiennent la gastroparésie comme une manifestation plausible de la dysfonction autonome et auto-immune impliquée dans l'EM/SFC, et comme une source de risque nutritionnel dans la maladie grave. Ils donnent aussi aux cliniciens un manuel de prise en charge — le cadre POTS/hypermobilité est le plus transférable — tandis que l'écart transpopulationnel est signalé : ce qui est établi dans ces populations n'est pas encore prouvé dans l'EM/SFC.
+
+---
+
+## Que faire : une voie sûre et ordonnée
+
+L'histoire du traitement a deux échelons, et l'ordre importe. L'étape la moins risquée vient en premier.
+
+**Première intention : gestion diététique et nutritionnelle.** Pour la gastroparésie modérée à sévère, la modification diététique et la stratégie d'alimentation sont les interventions de première intention les moins risquées : petits repas fréquents, repas pauvres en graisses et en fibres pour réduire la charge mécanique sur l'estomac, et options nutritionnelles liquides ou semi-liquides quand la vidange du solide est lente [@Gupta2016GastroparesisDiet]. Tous les liquides ne se valent pas : les bouillons et soupes clairs sont pauvres en calories, donc un passage aux liquides nécessite un encadrement des objectifs d'énergie et de protéines, pas seulement un changement de texture. Dans la population autonome/POTS, la dysmotilité GI avec intolérance alimentaire est un facteur reconnu du besoin de soutien nutritionnel non oral (entéral ou parentéral) chez les patients les plus atteints [@Tseng2019POTSNutritionalSupport]. Ces mesures n'inversent pas la dysfonction autonome sous-jacente, mais elles sont essentielles pour maintenir la nutrition et prévenir une perte de poids évitable dans l'EM/SFC sévère et très sévère. Elles s'appliquent à tous les niveaux de sévérité ; l'escalade entérale est une mesure réservée aux cas très sévères, en cas d'échec de l'alimentation. Ce premier échelon est aussi là où une revue des médicaments a sa place — y compris, le cas échéant, un agoniste du récepteur GLP-1 (voir ci-dessous).
+
+C'est l'échelon que l'instinct du patient atteint habituellement en premier — le passage à des repas petits, fréquents, liquides, décrit ci-dessus. Les preuves confirment l'instinct et ajoutent le filet de sécurité : un clinicien qui surveille le poids, la nutrition et le point où l'alimentation orale ne suffit plus.
+
+**Deuxième intention : prokinétiques, gérés en toute sécurité.** Les prokinétiques sont la principale option pharmacologique pour la gastroparésie et sont fondés sur des preuves dans la population générale de gastroparésie [@Ingrosso2023GastroparesisDrugsNMA]. Ils comportent des risques sérieux particulièrement pertinents pour les patients atteints d'EM/SFC sévère et très sévère, et aucun n'est validé dans l'EM/SFC ; il en va de même pour tout supplément « de motilité » à base de plantes ou en vente libre, qui peut interagir avec les médicaments cardiaques et d'autres — ne vous auto-prescrivez pas de suppléments pour cela. Les médicaments sur ordonnance envisagés sont :
+
+- **Le métoclopramide** est le seul médicament approuvé par la FDA pour la gastroparésie, mais il comporte un avertissement encadré en noir pour une utilisation au-delà de 12 semaines à cause de la dyskinésie tardive, qui peut être irréversible ; il provoque aussi somnolence, agitation et hyperprolactinémie [@Shakhatreh2019Metoclopramide]. Pendant la grossesse, il présente des données rassurantes au premier trimestre sur les malformations congénitales majeures [@Sun2021MetoclopramidePregnancy], mais il nécessite toujours une revue spécialisée pendant la grossesse ou l'allaitement.
+- **Le dompéridone** peut prolonger l'intervalle QT cardiaque — une évaluation ECG/QT de base et une surveillance du QTc sont prudentes avant et pendant l'utilisation [@Ingrosso2023GastroparesisDrugsNMA] ; en Europe, il est restreint à une utilisation à court terme pour ces raisons cardiaques (EMA, 2014) [@Yuksel2019DomperidoneEMA].
+- **L'érythromycine** (comme agoniste de la motiline) perd de son efficacité avec une utilisation prolongée par désensibilisation des récepteurs [@Ingrosso2023GastroparesisDrugsNMA].
+- **Les agonistes hautement sélectifs de la 5-HT4** (par exemple le prucalopride) montrent une efficacité sans signal cardiovasculaire/QT excédentaire poolé dans les essais [@Patel2024SHT4Gastroparesis], mais ils ne sont pas approuvés pour la gastroparésie dans toutes les juridictions.
+
+**Une classe à vérifier, pas une option prokinétique : les agonistes du récepteur GLP-1 sont contre-indiqués dans la gastroparésie établie.** Ils ralentissent la vidange gastrique [@Nauck2011GLP1TachyphylaxisGastricEmptying] et sont une cause reconnue de gastroparésie médicamenteuse [@Camilleri2025PharmacologicTreatmentsGastroparesis] ; ils suppriment aussi l'appétit et peuvent aggraver la perte de poids et les nausées — tout cela étant déjà problématique dans l'EM/SFC sévère. Si un patient sous GLP-1 a une vidange lente, il vaut la peine de demander au prescripteur si le délai a commencé après le début du médicament ; si c'est clairement le cas, un clinicien peut envisager un arrêt ou une interruption temporaire supervisé, qui dans certains cas résout le tableau avant qu'un prokinétique ne soit envisagé. C'est un jugement clinique, pas un cadre établi, et la question du moment appartient au prescripteur, pas quelque chose à décider seul. N'arrêtez pas un GLP-1 prescrit de votre propre chef. Leur utilisation chez un patient atteint de gastroparésie exige une revue explicite de ce risque.
+
+Deux limites dures s'appliquent. D'abord, **aucun prokinétique n'a été testé dans un essai contrôlé d'EM/SFC**, donc le dosage et la sécurité doivent être extrapolés à partir d'autres populations. Ensuite, **les prokinétiques ne traitent pas la dysfonction autonome sous-jacente** ; ils sont mieux combinés avec les mesures diététiques ci-dessus. Pour un patient sévère ou très sévère, l'approche prudente est un essai fondé sur des preuves avec l'agent le moins risqué, une surveillance étroite des effets extrapyramidaux, cardiaques et autonomes, et une utilisation explicitement limitée dans le temps. Une revue complète des interactions médicamenteuses avec la liste de médicaments du patient est requise avant l'utilisation ; si cette revue, ou un contrôle de grossesse ou d'allaitement, est positive, ne lancez pas un prokinétique sans implication spécialisée.
+
+**Une échelle de surveillance et d'escalade.** Dans cet article, « sévère » a un sens opérationnel concret : perte de poids involontaire sur plusieurs semaines, incapacité à retenir les aliments ou les liquides, ou dépendance aux liquides seuls pour maintenir le poids — et en termes d'EM/SFC, cela coïncide souvent avec le fait d'être alité ou largement incapable de gérer l'apport oral. Ce sont nos seuils de travail, pas des critères de triage publiés. Un patient qui vit déjà de liquides et continue à perdre du poids n'approche pas le point d'escalade ; il est déjà au point où une revue de l'alimentation non orale mérite d'être mise sur la table. Ce sont les signaux qui font monter un cas dans l'échelle, des mesures diététiques ci-dessus à la nutrition liquide ou semi-liquide puis, si le poids et la nutrition continuent de chuter malgré cela, à l'alimentation non orale sous surveillance médicale. Ce sont des seuils qu'un clinicien devrait surveiller et auxquels répondre — pas des lignes que le patient est censé tracer seul. Trois mises en garde suivent. D'abord, l'escalade au-delà du régime — l'alimentation non orale, et chez un patient sévère le lancement de tout prokinétique — est habituellement une décision de spécialiste (gastro-entérologie ou équipe nutritionnelle). Ensuite, certains signaux exigent une attention urgente plutôt qu'une montée lente : une perte de poids qui se poursuit semaine après semaine, une incapacité à retenir les liquides pendant environ une journée, ou une faiblesse ou des vertiges nouveaux ou aggravés liés au fait que les liquides ne restent pas, plutôt que vos symptômes orthostatiques habituels. Troisièmement, cherchez des soins urgents plutôt que d'attendre sur l'un des éléments ci-dessus en cas de vomissement de sang ou d'aspiration suspectée. En pratique, des examens de laboratoire de l'équilibre électrolytique et micronutritionnel soutiennent la décision à chaque étape.
+
+**Ceci n'est pas une recommandation de prendre l'un de ces médicaments.** Les décisions médicamenteuses exigent un clinicien qualifié qui peut peser la sévérité, les comorbidités et la liste actuelle de médicaments du patient individuel.
+
+---
+
+## Comment en parler avec votre clinicien
+
+Si cet article correspond à ce que vous ressentez, la constatation est testable. Vous pouvez demander à votre clinicien si un examen de vidange gastrique vaut la peine d'être envisagé vu la minceur des preuves d'EM/SFC, et mentionner que vous aimeriez que le résultat soit lu selon un protocole standard. L'examen peut confirmer si la vidange est retardée et écarter un estomac normal, mais il n'identifie pas à lui seul le mécanisme — c'est un test utile, pas toute la réponse. Et si vous perdez du poids, ne mangez que des liquides ou vomissez régulièrement, dites-le clairement : ce sont les signaux qui rendent un examen de vidange et une évaluation nutritionnelle utiles, pas des options. C'est au clinicien de décider si ou comment agir sur ces signaux, pas à vous seul. Si un examen de vidange n'est pas immédiatement disponible, les étapes de première intention les plus sûres ici — mesures diététiques et revue des médicaments — restent le bon point de départ, donc vous n'êtes pas bloqué en attendant le test.
+
+---
+
+## Ce qu'il faut retenir
+
+La gastroparésie dans l'EM/SFC est réelle et testable. Le retard de vidange gastrique est une caractéristique documentée et mesurable de la maladie — pas une plainte vague — et il peut être évalué par un examen standard de vidange gastrique [@Burnet2004GastricEmptyingCFS].
+
+Le mécanisme est réellement non résolu. Trois candidats sont sur la table — perte structurelle des cellules pacemaker et des nerfs entériques (question ouverte, 0,40), blocage auto-immun ganglionnaire (spéculation, 0,30) et défaillance vagale fonctionnelle seule — et aucun test ne les sépare actuellement dans l'EM/SFC. Cette incertitude est honnête, et elle n'est pas une barrière aux soins.
+
+Il y a une échelle de traitement sûre. Gestion diététique et nutritionnelle d'abord — petits repas fréquents, pauvres en graisses et en fibres, et options liquides, avec soutien entéral réservé à l'échec de l'alimentation. Les prokinétiques ensuite, gérés en toute sécurité, limités dans le temps, et seulement après qu'un clinicien a pesé les risques individuels.
+
+La conclusion la plus actionnable pour un cas sévère : **commencez par les mesures les moins risquées — régime et revue des médicaments — indépendamment de l'examen, et traitez le problème mesurable objectivement plutôt que de supposer une lésion spécifique jusqu'à ce qu'elle soit démontrée.** L'examen de vidange est le test de confirmation à obtenir là où il est disponible, pas une condition préalable au début des étapes de première intention les plus sûres.
+
+---
+
+*Cet article reflète une recherche avec une certitude explicite et calibrée — une constatation clinique documentée (0,60), une question de mécanisme ouverte (0,40) et une spéculation enregistrée (0,30) — et non un fait clinique établi. Discutez de toute décision médicale, y compris de tout changement de régime ou de médicament, avec un clinicien qualifié.*
+
+*Pour le cadre plus large de la dysmotilité GI et du SIBO, voir [Article 1 sur la dysmotilité GI](../sibo-gi-dysmotility/index.qmd) et [l'article compagnon sur le traitement](../sibo-gi-treatment/index.qmd).*
+
+*Pour le tableau complet et entièrement cité de la manière dont la gastroparésie est pesée parmi les nombreux mécanismes candidats de l'EM/SFC, voir [@Loth2026website].*
