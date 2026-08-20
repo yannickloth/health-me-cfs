@@ -1,0 +1,72 @@
+patient: amy-cordy
+
+# Amy Cordy is a PSEUDONYM. Real identity withheld.
+# Severe ME/CFS — French patient. Document prepared to address urgent/vital concerns.
+
+severity:
+  present: true
+  level: severe
+  notes: >
+    Patient described as "en état sévère" (in a severe state). Bedbound-level
+    functional limitation is implied but not formally staged; treat as severe
+    with PEM-avoidance priority.
+
+pem:
+  present: true
+  concern: >
+    Patient REFUSES emergency department (ER) attendance to avoid a PEM crash.
+    This is a legitimate, real ME/CFS safety concern: hospital transfers and ER
+    waits are known PEM triggers. But it must be balanced against the "vital
+    emergency" determination by emergency dispatch (SAMU/15).
+  er_refusal: true
+  dispatch_vital_emergency: true
+  note_15: >
+    Emergency dispatch (SAMU, "le 15") reportedly indicated a VITAL emergency.
+    This is a strong signal that should be evaluated, not dismissed. Middle path:
+    home or teleconsultation assessment via SAS (Service d'Accès aux Soins)
+    rather than a direct ER visit, plus written alert criteria.
+
+gastroparesis:
+  present: true
+  status: active
+  feeding: liquid_only
+  liquid_diet_duration: "~1 week (7 days)"
+  notes: >
+    Patient has been on a liquid-only diet for approximately one week due to
+    gastroparesis / delayed gastric emptying / nausea. Concern: how long a liquid
+    diet can be sustained without nutritional deficiency, and which motility
+    treatments are safe vs contraindicated in severe ME/CFS.
+  prior_motility_treatment_problem: true
+  notes_treatment: >
+    Prior gastric-motility treatments caused problems; patient is reluctant to
+    retry any prokinetic. This is a documented clinical signal, not resistance.
+
+medication_intolerances:
+  - medication: "Mestinon (pyridostigmine)"
+    status: intolerant
+    notes: >
+      Patient does not tolerate Mestinon. Cholinergic agent; can worsen nausea,
+      abdominal cramping, sweating, diarrhea. Valid reason to avoid.
+
+sama:
+  present: true
+  meaning: UNKNOWN
+  notes: >
+    Patient reportedly has "SAMA". The exact meaning of this acronym in this
+    context is NOT established (could not be verified). NOT assumed. To be
+    confirmed with the patient before any clinical interpretation.
+
+country: france
+appointment:
+  present: true
+  timing: "appointment the day after documentation (rendez-vous demain)"
+  purpose: urgent-care / gastroparesis review
+
+to_do:
+  - "Confirm meaning of 'SAMA' before clinical interpretation"
+  - "Confirm exact motility medications previously trialed and their adverse effects"
+  - "Establish written ER alert criteria (dehydration, anuria, confusion, syncope, inability to drink)"
+  - "Arrange home/teleconsultation via SAS instead of ER if clinically appropriate"
+  - "Request lab panel: electrolytes, thiamine (B1), albumin, creatinine"
+  - "Review medication list to exclude any GLP-1 agonist (contraindicated in gastroparesis)"
+  - "Discuss lowest-risk prokinetic option (e.g. prucalopride) only if clinically warranted and time-limited"

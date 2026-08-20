@@ -168,3 +168,5 @@ Tiers/certainty assigned in Phase 5 (reassessed). Cat 10–12 bypass triage.
 | 13 | (Phase 13) | pending commit |
 
 **Completion gate report:** N phases RAN, 2 LEGIT-SKIP (5c, 10b with conditions), 0 WAIVED, 0 OMISSION. Build: PASS (0 error lines). Ledger clean — Phase 13 may proceed.
+
+- Phase 13 → committed 143ae2b1 (18 files, content(mecfs): integrate gastroparesis). treatments.bib gastroparesis entries shipped in parallel ADHD commit 0f4d5ca0 (verified present in HEAD). Post-commit build: 0 errors. Foreign files (ADHD qmd, opencode.json, ch14d, later appendix-h/registry edits) left unstaged for their session. Row status: ✅ done.

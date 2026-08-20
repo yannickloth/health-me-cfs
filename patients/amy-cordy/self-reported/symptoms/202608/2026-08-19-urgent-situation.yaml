@@ -1,0 +1,55 @@
+date: 2026-08-19
+
+# Amy Cordy — current urgent situation (documented from caregiver relay)
+# Severe ME/CFS, gastroparesis, liquid-only diet, ER-refusal, vital-emergency determination.
+
+symptoms:
+  gastroparesis_delayed_emptying:
+    present: true
+    notes: "Gastroparesis with delayed gastric emptying; drives feeding difficulty"
+  nausea:
+    present: true
+    notes: "Nausea associated with gastroparesis"
+  early_satiety:
+    present: true
+  feeding_intolerance:
+    present: true
+    status: "liquid-only diet for ~1 week"
+    concern: >
+      Sustaining liquid-only nutrition without deficiency. Key risks: thiamine
+      (B1) deficiency, electrolyte imbalance, protein/weight loss, and refeeding
+      syndrome when re-feeding rapidly after a low-intake period.
+
+medications:
+  - name: "Mestinon (pyridostigmine)"
+    status: intolerant
+    notes: "Cholinergic; causes adverse effects in this patient — do not retry"
+  - name: "Gastric-motility treatments (prokinetics)"
+    status: "prior — caused problems"
+    notes: >
+      Patient reluctant to retry any prokinetic after a prior adverse experience.
+      Documented as a clinical signal. Specific agents NOT yet confirmed.
+  - name: "GLP-1 agonist"
+    status: "to exclude"
+    notes: >
+      Must verify the current medication list does NOT include any GLP-1 agonist
+      (contraindicated in gastroparesis — slows emptying, suppresses appetite,
+      worsens weight loss).
+
+safety_plan:
+  er_refusal: true
+  pem_avoidance: "refuses ER to avoid PEM crash"
+  dispatch_concern: >
+    Emergency dispatch (SAMU/15) indicated a VITAL emergency. This must be
+    evaluated, not dismissed.
+  middle_path:
+    - "Request home or teleconsultation assessment via SAS (Service d'Accès aux Soins)"
+    - "Request lab panel: electrolytes, thiamine (B1), albumin, creatinine"
+    - "Establish written ER alert criteria"
+  er_alert_criteria:
+    - "No urine output or markedly reduced urination"
+    - "Unusual somnolence / near-syncope / syncope"
+    - "Inability to drink even liquids"
+    - "Confusion or altered mental status"
+    - "Rapid significant weight loss"
+    - "Very unstable pulse or blood pressure"
