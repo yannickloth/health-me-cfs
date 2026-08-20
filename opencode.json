@@ -15,6 +15,7 @@
     "../llm-harness-plugins/semantic-cache/opencode/index.ts",
     "../llm-harness-plugins/tier-router/opencode/index.ts",
     "../llm-harness-plugins/datetime-inject/opencode/index.ts",
+    "../llm-harness-plugins/offpeak-nudge/opencode/index.ts",
     "../llm-harness-plugins/agentinsights/opencode/index.ts",
     "../llm-harness-plugins/graphrag/opencode/index.ts",
     "../llm-harness-plugins/knowledge-graph/opencode/index.ts",
@@ -27,7 +28,9 @@
     "../llm-harness-plugins/general-skills/opencode/index.ts",
     "../llm-harness-plugins/permission-modes/opencode/index.ts",
     "../llm-harness-plugins/agentfeed/opencode/index.ts",
-    "../llm-harness-plugins/natural-prose/opencode/index.ts"
+    "../llm-harness-plugins/natural-prose/opencode/index.ts",
+    "../llm-harness-plugins/system-message-merge/opencode/index.ts",
+    "../llm-harness-plugins/scientific-writing/opencode/index.ts"
   ],
   "agent": {
     "benefit-navigator": {
@@ -216,7 +219,8 @@
           "type": "enabled"
         },
         "reasoning_effort": "high"
-      }
+      },
+      "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/definition-auditor.md}"
     },
     "definition-use-checker": {
       "model": "deepseek/deepseek-v4-flash",
@@ -224,7 +228,8 @@
         "thinking": {
           "type": "disabled"
         }
-      }
+      },
+      "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/definition-use-checker.md}"
     },
     "devil-advocate-auditor": {
       "model": "deepseek/deepseek-v4-pro",
@@ -316,7 +321,8 @@
           "type": "enabled"
         },
         "reasoning_effort": "high"
-      }
+      },
+      "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/falsifiability-auditor.md}"
     },
     "figure-caption-auditor": {
       "model": "deepseek/deepseek-v4-flash",
@@ -501,7 +507,8 @@
           "type": "enabled"
         },
         "reasoning_effort": "high"
-      }
+      },
+      "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/misconception-auditor.md}"
     },
     "model-auditor": {
       "model": "deepseek/deepseek-v4-pro",
@@ -709,7 +716,8 @@
         "thinking": {
           "type": "disabled"
         }
-      }
+      },
+      "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/scope-qualifier-checker.md}"
     },
     "sonnet-general": {
       "mode": "subagent",
@@ -828,7 +836,8 @@
           "type": "enabled"
         },
         "reasoning_effort": "high"
-      }
+      },
+      "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/trade-off-auditor.md}"
     },
     "treatment-analyst": {
       "model": "deepseek/deepseek-v4-pro",
