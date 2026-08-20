@@ -56,15 +56,15 @@ The clinical picture of gastroparesis in ME/CFS is a recognisable set of symptom
 - Abdominal bloating and discomfort
 - Unpredictable blood sugar fluctuations
 
-The mechanism is autonomic. The vagus nerve controls the motility of the stomach — the waves of contraction that grind food and push it onward. In ME/CFS, autonomic dysfunction affects that vagal drive, and the stomach empties slowly. The impaired emptying then produces the digestive symptoms and the nutritional challenges above.
+The mechanism is thought to be autonomic. The vagus nerve controls the motility of the stomach — the waves of contraction that grind food and push it onward. In ME/CFS, autonomic dysfunction affects that vagal drive, and the stomach empties slowly. The impaired emptying then produces the digestive symptoms and the nutritional challenges above.
 
-This is the functional reading: the stomach's motor program is under-driven by the autonomic nervous system. It is the simplest explanation, and it fits the autonomic dysfunction that ME/CFS is known for. But it is not the only explanation, and it is not the one the evidence has settled on. That is the next section.
+This is the functional reading: the stomach's motor program is under-driven by the autonomic nervous system. It is the simplest explanation, and it fits the autonomic dysfunction that ME/CFS is known for. But it is not the only explanation, and it is not the one the evidence has settled on. We return to the alternatives after looking at the limits of the evidence.
 
 ---
 
 ## The honest limits
 
-Before the mechanism, the limits. The evidence that ME/CFS patients have delayed gastric emptying is real but thin, and it has specific weaknesses:
+Before the mechanism question, the limits. The evidence that ME/CFS patients have delayed gastric emptying is real but thin, and it has specific weaknesses:
 
 - **One old cohort.** The direct evidence rests largely on the single 2004 cohort of 32 people, which predates modern diagnostic criteria [@Burnet2004GastricEmptyingCFS].
 - **One null case.** The one direct counter-example is a single adolescent with normal emptying [@Corrado1998NormalGastricEmptying].
@@ -82,11 +82,11 @@ This is the genuinely open part of the story. We do not yet know what is structu
 
 **Candidate 1 — structural loss of the stomach's pacemaker cells and enteric nerves.** In diabetic and idiopathic gastroparesis, human gastric tissue shows a loss of the interstitial cells of Cajal (the pacemaker cells of the stomach), a reduction in enteric nerve fibres, and altered resident macrophages [@Grover2011CellularChangesGastroparesis]. An animal model of diabetic gastroparesis confirms that loss of these cells and nerves is accompanied by slowed emptying [@Wang2009ICCLossDiabetes]. Whether ME/CFS shares this structural degeneration is unknown — no ME/CFS gastric histology has been published. In our register this is an open question with a certainty of 0.40. If it is true, then prokinetic drugs that stimulate surviving nerves have a built-in limit, and treatment would need to target the prevention or replacement of the cell loss instead.
 
-**Candidate 2 — autoimmune blockade of the ganglionic acetylcholine receptor.** A case of autoimmune gastrointestinal dysmotility after SARS-CoV-2 infection presented with intractable nausea, early satiety, delayed gastric emptying, and antibodies against the ganglionic acetylcholine receptor — and it improved substantially with immunotherapy [@Montalvo2022LongCovidGIDysmotility]. By analogy, a subset of ME/CFS patients with gastroparesis could have an autoimmune ganglionic (vagal/enteric) blockade rather than structural nerve loss — a mechanism that would be potentially reversible with immunotherapy rather than irreversible. This is a speculation for ME/CFS with a certainty of 0.30: no ME/CFS cohort has been screened for these antibodies, and the autoimmune GI dysmotility literature in ME/CFS is a single post-viral case report.
+**Candidate 2 — autoimmune blockade of the ganglionic acetylcholine receptor.** A case of autoimmune gastrointestinal dysmotility after SARS-CoV-2 infection presented with intractable nausea, early satiety, delayed gastric emptying, and antibodies against the ganglionic acetylcholine receptor — and it improved substantially with immunotherapy [@Montalvo2022LongCovidGIDysmotility]. By analogy, a subset of ME/CFS patients with gastroparesis could have an autoimmune ganglionic (vagal/enteric) blockade rather than structural nerve loss — a mechanism that would be potentially reversible with immunotherapy rather than irreversible. This is a speculation for ME/CFS with a certainty of 0.30: no ME/CFS cohort has been screened for these antibodies, and the only directly analogous evidence is a single post-viral (Long COVID) case report.
 
 **Candidate 3 — functional vagal failure alone.** The stomach's motor program is under-driven by the autonomic nervous system, with no structural cell loss and no autoantibody. This is the simplest reading and the one the clinical picture fits, but it is a diagnosis of exclusion: it holds only if candidates 1 and 2 are ruled out.
 
-These three are not mutually exclusive, and the distinction matters clinically. A structural loss limits what a prokinetic can do. An autoimmune blockade is potentially reversible. A functional failure is the most treatable. The honest position is that we do not yet know which one — or which combination — applies to a given patient, and no test currently separates them in ME/CFS.
+These three are not mutually exclusive, and the distinction matters clinically. A structural loss limits what a prokinetic can do. An autoimmune blockade is potentially reversible. A functional failure is the one most likely to respond to prokinetic drugs. The honest position is that we do not yet know which one — or which combination — applies to a given patient, and no test currently separates them in ME/CFS.
 
 Each candidate has a falsifiable prediction. A gastric antral biopsy from ME/CFS patients with documented gastroparesis showing normal pacemaker-cell and enteric-nerve density would falsify the structural-loss reading; evidence of cell or nerve loss would support it. Measuring ganglionic acetylcholine-receptor antibodies in a ME/CFS gastroparesis cohort — if a meaningful subset is antibody-positive and their emptying improves after immunotherapy, the autoimmune-blockade claim is supported; if antibody levels do not track emptying delay or immunotherapy response, it is falsified.
 
@@ -108,15 +108,15 @@ These parallels support gastroparesis as a plausible manifestation of the autono
 
 The treatment story has two rungs, and the order matters. The lowest-risk step comes first.
 
-**First-line: dietary and nutritional management.** For moderate-to-severe gastroparesis, dietary modification and feeding strategy are the first-line, lowest-risk interventions: small frequent meals, low-fat and low-fibre meals to reduce the mechanical load on the stomach, and liquid or semi-liquid nutrient options when solid emptying is slow [@Gupta2016GastroparesisDiet]. In the autonomic/POTS population, GI dysmotility with feeding intolerance is a recognised driver of the need for non-oral (enteral or parenteral) nutritional support in the most affected patients [@Tseng2019POTSNutritionalSupport]. These measures do not reverse the underlying autonomic dysfunction, but they are essential to maintain nutrition and avoid avoidable weight loss in severe and very-severe ME/CFS. They apply across severity; the enteral escalation is a very-severe, feeding-failure measure.
+**First-line: dietary and nutritional management.** For moderate-to-severe gastroparesis, dietary modification and feeding strategy are the first-line, lowest-risk interventions: small frequent meals, low-fat and low-fibre meals to reduce the mechanical load on the stomach, and liquid or semi-liquid nutrient options when solid emptying is slow [@Gupta2016GastroparesisDiet]. In the autonomic/POTS population, GI dysmotility with feeding intolerance is a recognised driver of the need for non-oral (enteral or parenteral) nutritional support in the most affected patients [@Tseng2019POTSNutritionalSupport]. These measures do not reverse the underlying autonomic dysfunction, but they are essential to maintain nutrition and prevent avoidable weight loss in severe and very-severe ME/CFS. They apply across severity; the enteral escalation is a very-severe, feeding-failure measure.
 
 This is the rung the patient's own instinct usually reaches first — the shift to small, frequent, liquid meals described above. The evidence confirms the instinct and adds the safety net: a clinician watching weight, nutrition, and the point at which oral feeding is no longer enough.
 
 **Second-line: prokinetics, safety-managed.** Prokinetic drugs are the main pharmacological option for gastroparesis and are evidence-based in the general gastroparesis population [@Ingrosso2023GastroparesisDrugsNMA]. They carry serious risks that are especially relevant to severe and very-severe ME/CFS patients:
 
 - **Metoclopramide** is the only FDA-approved drug for gastroparesis, but it carries a black-box warning for use beyond 12 weeks because of tardive dyskinesia, which may be irreversible; it also causes drowsiness, restlessness, and hyperprolactinaemia [@Shakhatreh2019Metoclopramide].
-- **Domperidone** can prolong the cardiac QT interval — a baseline ECG/QT assessment and QTc monitoring are prudent before and during use.
-- **Erythromycin** (as a motilin agonist) loses effectiveness with prolonged use through receptor desensitisation.
+- **Domperidone** can prolong the cardiac QT interval — a baseline ECG/QT assessment and QTc monitoring are prudent before and during use [@Ingrosso2023GastroparesisDrugsNMA].
+- **Erythromycin** (as a motilin agonist) loses effectiveness with prolonged use through receptor desensitisation [@Ingrosso2023GastroparesisDrugsNMA].
 - **Highly selective 5-HT4 agonists** (for example prucalopride) show efficacy with no excess pooled cardiovascular/QT signal in trials [@Patel2024SHT4Gastroparesis], but they are not approved for gastroparesis in all jurisdictions.
 - **GLP-1 receptor agonists are counterindicated in gastroparesis.** They slow gastric emptying, suppress appetite, and can worsen weight loss and nausea — all of which are already problematic in severe ME/CFS. Their use in a patient with gastroparesis requires explicit review against this risk.
 
@@ -141,3 +141,5 @@ The single most actionable conclusion for a severe case: **treat the measurable 
 *This article reflects research with explicit, calibrated certainty — a documented clinical finding (0.60), an open mechanism question (0.40), and a registered speculation (0.30) — not established clinical fact. Discuss any medical decision, including any change to diet or medication, with a qualified clinician.*
 
 *For the broader GI-dysmotility and SIBO framing, see [GI Dysmotility Article 1](../sibo-gi-dysmotility/index.qmd) and [the companion treatment article](../sibo-gi-treatment/index.qmd).*
+
+*For the comprehensive, fully-cited picture of how gastroparesis is weighed among the many candidate mechanisms in ME/CFS, see [@Loth2026website].*
