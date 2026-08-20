@@ -1,0 +1,143 @@
+---
+title: "Gastroparesis in ME/CFS: A Real, Measurable Slow Stomach — and a Safe Way to Manage It"
+description: "Delayed gastric emptying is a real, testable feature of ME/CFS, not a vague complaint. This article covers the evidence, the honest limits, the open mechanism question, the anxiety of living with a stomach you cannot trust, and a safe, ordered treatment pathway."
+author: "Yannick Loth"
+date: "2026-08-20"
+categories: [Autonomic, Gastrointestinal, Symptoms]
+---
+
+You eat a small meal and you are full for hours. You feel nauseous. Your abdomen bloats. Sometimes you vomit food that you can still see. Over time, you start to fear eating. You start to eat only liquids. You stop eating with other people.
+
+This article asks a direct question: **is the slow stomach a real, measurable feature of ME/CFS — or is it just how you feel?**
+
+The short answer: it is real, and it is measurable. A controlled study measured how fast the stomach empties in 32 people with chronic fatigue syndrome and found that most of them emptied slowly. The delay tracked with how sick they felt. This is not a vague complaint. It is a finding you can test with a standard scan.
+
+This article separates **what we know** from **what our research adds**. What we know: delayed gastric emptying is documented in a ME/CFS cohort, and gastroparesis is a well-characterised problem in diabetes and, increasingly, in the post-viral setting. What our research adds: the specific reading that ME/CFS gastroparesis is a measurable autonomic manifestation with a safe, ordered treatment ladder — and that its mechanism is genuinely unresolved, with three candidate explanations and none confirmed in ME/CFS.
+
+For the broader picture of how GI dysmotility and SIBO fit together in ME/CFS — the mast-cell axis, the hydrogen-sulfide mechanism, and the full treatment menu — see [GI Dysmotility Article 1](../sibo-gi-dysmotility/index.qmd) and [the companion treatment article](../sibo-gi-treatment/index.qmd). This article does not repeat that content. It goes deeper on the emptying measurement, the mechanism uncertainty, and the safety-managed treatment ladder.
+
+---
+
+## The measurable finding
+
+The anchor is a controlled radionuclide study. It measured gastric emptying — the time it takes the stomach to clear a meal — in 32 people with chronic fatigue syndrome, using a standardised scan that tracks a small amount of radioactive marker in both a liquid and a solid meal [@Burnet2004GastricEmptyingCFS].
+
+The result: **23 of 32 (72%) had delayed liquid emptying, and 12 of 32 (38%) had delayed solid emptying.** The delay correlated significantly with the mean symptom score (p < 0.001) — the sicker the patient, the slower the stomach.
+
+This is direct ME/CFS evidence that delayed gastric emptying is a real, measurable feature of the illness, not merely a subjective complaint. It can be assessed with a standard gastric emptying test, and it may be a target for treatment rather than something a patient must simply endure.
+
+**The honest caveat.** The finding rests on a single 2004 cohort of 32 people. The study predates the modern diagnostic criteria for ME/CFS (the 2015 IOM and 2011 ICC criteria), and the finding has not been replicated in a modern-criteria cohort. In our evidence register this is a clinical finding with a certainty of 0.60 — solid, but anchored on one old study. The study did not report the severity of its participants, so we do not know whether the delay is stronger in severe or very-severe patients.
+
+One counterpoint: a single adolescent case report found normal gastric emptying and normal myoelectrical activity in a young person with CFS [@Corrado1998NormalGastricEmptying]. Delayed emptying is therefore not universal in the illness. The case is one person, pediatric, and carries low evidentiary weight — it does not overturn the larger cohort finding, but it shows the delay is not present in every case.
+
+---
+
+## What it feels like: the anxiety of a stomach you cannot trust
+
+The numbers above are a scan. The experience is different.
+
+When the stomach empties slowly, eating stops being a neutral act. It becomes a risk. You eat, and within minutes you feel full, bloated, or nauseous. You learn to fear the meal. You learn to fear the moment you might vomit in front of other people. You stop eating with others, because you cannot predict what will happen. You start to weigh every bite.
+
+Over time, people tend to change their eating in the same direction. They eat smaller amounts, more often. They cut out the foods that sit heaviest — the fatty ones, the high-fibre ones. And many go to liquids: smoothies, broths, nutritional drinks, soups. Liquids empty faster than solids, so they feel safer. Eating only liquids is not a whim. It is a rational adaptation to a stomach that genuinely clears solids slowly.
+
+This matters for two reasons. First, the anxiety is real and it has a cost. Fear of eating can narrow the diet to the point of malnutrition and weight loss, and it can tip into a disordered relationship with food that needs its own support — not just a diet sheet. A patient who is afraid to eat is a patient who needs a clinician, not more willpower.
+
+Second, the adaptation is not wrong. The shift to small, frequent, low-fat, low-fibre meals and to liquid or semi-liquid nutrition is exactly the first-line, lowest-risk strategy that the evidence supports (see the treatment section below). The patient's instinct and the evidence point the same way. The gap is that the patient usually arrives at it alone, by trial and error, without the safety net of a clinician watching weight and nutrition.
+
+---
+
+## What the stomach is doing
+
+The clinical picture of gastroparesis in ME/CFS is a recognisable set of symptoms:
+
+- Feeling full after small amounts of food
+- Persistent nausea
+- Vomiting, especially of undigested food
+- Abdominal bloating and discomfort
+- Unpredictable blood sugar fluctuations
+
+The mechanism is autonomic. The vagus nerve controls the motility of the stomach — the waves of contraction that grind food and push it onward. In ME/CFS, autonomic dysfunction affects that vagal drive, and the stomach empties slowly. The impaired emptying then produces the digestive symptoms and the nutritional challenges above.
+
+This is the functional reading: the stomach's motor program is under-driven by the autonomic nervous system. It is the simplest explanation, and it fits the autonomic dysfunction that ME/CFS is known for. But it is not the only explanation, and it is not the one the evidence has settled on. That is the next section.
+
+---
+
+## The honest limits
+
+Before the mechanism, the limits. The evidence that ME/CFS patients have delayed gastric emptying is real but thin, and it has specific weaknesses:
+
+- **One old cohort.** The direct evidence rests largely on the single 2004 cohort of 32 people, which predates modern diagnostic criteria [@Burnet2004GastricEmptyingCFS].
+- **One null case.** The one direct counter-example is a single adolescent with normal emptying [@Corrado1998NormalGastricEmptying].
+- **No modern replication.** No cohort using the current IOM/ICC criteria has replicated the finding.
+- **Non-specific alternatives.** Several explanations other than a distinct ME/CFS gastroparesis lesion can produce the same symptom pattern: medication side-effects (many drugs used in ME/CFS slow gastric emptying), functional dyspepsia with abnormal stomach accommodation and visceral hypersensitivity rather than true emptying delay [@Debourdeau2024GastricVolumetry], deconditioning or the general effects of severe illness, and subjective reporting bias that inflates symptom-based prevalence.
+- **Discounted cross-disease support.** The mechanistic support from diabetic and idiopathic gastroparesis histology [@Grover2011CellularChangesGastroparesis] and animal models [@Wang2009ICCLossDiabetes] comes from other populations and does not by itself establish that ME/CFS shares that pathology.
+
+The practical consequence: before acting on a gastroparesis diagnosis in ME/CFS, a clinician should recognise the evidence is a single old cohort and should exclude the common non-specific causes — drug effects, dyspepsia — with objective testing, rather than assuming a distinct ME/CFS-specific emptying defect. This is a risk assessment, not a positive claim, and the caution applies across all severities.
+
+---
+
+## The mechanism question: three candidates, none confirmed
+
+This is the genuinely open part of the story. We do not yet know what is structurally or functionally wrong with the stomach in ME/CFS. Three candidates are on the table, and they point to different treatments.
+
+**Candidate 1 — structural loss of the stomach's pacemaker cells and enteric nerves.** In diabetic and idiopathic gastroparesis, human gastric tissue shows a loss of the interstitial cells of Cajal (the pacemaker cells of the stomach), a reduction in enteric nerve fibres, and altered resident macrophages [@Grover2011CellularChangesGastroparesis]. An animal model of diabetic gastroparesis confirms that loss of these cells and nerves is accompanied by slowed emptying [@Wang2009ICCLossDiabetes]. Whether ME/CFS shares this structural degeneration is unknown — no ME/CFS gastric histology has been published. In our register this is an open question with a certainty of 0.40. If it is true, then prokinetic drugs that stimulate surviving nerves have a built-in limit, and treatment would need to target the prevention or replacement of the cell loss instead.
+
+**Candidate 2 — autoimmune blockade of the ganglionic acetylcholine receptor.** A case of autoimmune gastrointestinal dysmotility after SARS-CoV-2 infection presented with intractable nausea, early satiety, delayed gastric emptying, and antibodies against the ganglionic acetylcholine receptor — and it improved substantially with immunotherapy [@Montalvo2022LongCovidGIDysmotility]. By analogy, a subset of ME/CFS patients with gastroparesis could have an autoimmune ganglionic (vagal/enteric) blockade rather than structural nerve loss — a mechanism that would be potentially reversible with immunotherapy rather than irreversible. This is a speculation for ME/CFS with a certainty of 0.30: no ME/CFS cohort has been screened for these antibodies, and the autoimmune GI dysmotility literature in ME/CFS is a single post-viral case report.
+
+**Candidate 3 — functional vagal failure alone.** The stomach's motor program is under-driven by the autonomic nervous system, with no structural cell loss and no autoantibody. This is the simplest reading and the one the clinical picture fits, but it is a diagnosis of exclusion: it holds only if candidates 1 and 2 are ruled out.
+
+These three are not mutually exclusive, and the distinction matters clinically. A structural loss limits what a prokinetic can do. An autoimmune blockade is potentially reversible. A functional failure is the most treatable. The honest position is that we do not yet know which one — or which combination — applies to a given patient, and no test currently separates them in ME/CFS.
+
+Each candidate has a falsifiable prediction. A gastric antral biopsy from ME/CFS patients with documented gastroparesis showing normal pacemaker-cell and enteric-nerve density would falsify the structural-loss reading; evidence of cell or nerve loss would support it. Measuring ganglionic acetylcholine-receptor antibodies in a ME/CFS gastroparesis cohort — if a meaningful subset is antibody-positive and their emptying improves after immunotherapy, the autoimmune-blockade claim is supported; if antibody levels do not track emptying delay or immunotherapy response, it is falsified.
+
+---
+
+## A cross-disease mirror
+
+Gastroparesis is not unique to ME/CFS. It is well-characterised in other settings, and the parallels are informative:
+
+- **Diabetes.** Gastroparesis is a well-characterised complication of diabetes mellitus, where the structural loss of pacemaker cells and enteric nerves is documented in human tissue [@Grover2011CellularChangesGastroparesis] and in animal models [@Wang2009ICCLossDiabetes].
+- **Post-viral (Long COVID).** Autoimmune gastrointestinal dysmotility has been reported after SARS-CoV-2 infection, presenting with intractable nausea, early satiety, delayed gastric emptying, and antibodies against ganglionic acetylcholine receptors, with improvement after immunotherapy [@Montalvo2022LongCovidGIDysmotility].
+- **POTS and hypermobility.** In the autonomic/hypermobility overlap — POTS and hypermobile Ehlers–Danlos syndrome — GI dysmotility and gastroparesis are common and can require non-oral nutritional support in severe cases [@Tseng2019POTSNutritionalSupport @Aziz2025AGAGIHyperEhlersDanlos].
+
+These parallels support gastroparesis as a plausible manifestation of the autonomic and autoimmune dysfunction implicated in ME/CFS, and as a source of nutritional risk in severe illness. They also give clinicians a management playbook — the POTS/hypermobility framework is the most transferable — while the cross-population gap is flagged: what is established in those populations is not yet proven in ME/CFS.
+
+---
+
+## What to do about it: a safe, ordered pathway
+
+The treatment story has two rungs, and the order matters. The lowest-risk step comes first.
+
+**First-line: dietary and nutritional management.** For moderate-to-severe gastroparesis, dietary modification and feeding strategy are the first-line, lowest-risk interventions: small frequent meals, low-fat and low-fibre meals to reduce the mechanical load on the stomach, and liquid or semi-liquid nutrient options when solid emptying is slow [@Gupta2016GastroparesisDiet]. In the autonomic/POTS population, GI dysmotility with feeding intolerance is a recognised driver of the need for non-oral (enteral or parenteral) nutritional support in the most affected patients [@Tseng2019POTSNutritionalSupport]. These measures do not reverse the underlying autonomic dysfunction, but they are essential to maintain nutrition and avoid avoidable weight loss in severe and very-severe ME/CFS. They apply across severity; the enteral escalation is a very-severe, feeding-failure measure.
+
+This is the rung the patient's own instinct usually reaches first — the shift to small, frequent, liquid meals described above. The evidence confirms the instinct and adds the safety net: a clinician watching weight, nutrition, and the point at which oral feeding is no longer enough.
+
+**Second-line: prokinetics, safety-managed.** Prokinetic drugs are the main pharmacological option for gastroparesis and are evidence-based in the general gastroparesis population [@Ingrosso2023GastroparesisDrugsNMA]. They carry serious risks that are especially relevant to severe and very-severe ME/CFS patients:
+
+- **Metoclopramide** is the only FDA-approved drug for gastroparesis, but it carries a black-box warning for use beyond 12 weeks because of tardive dyskinesia, which may be irreversible; it also causes drowsiness, restlessness, and hyperprolactinaemia [@Shakhatreh2019Metoclopramide].
+- **Domperidone** can prolong the cardiac QT interval — a baseline ECG/QT assessment and QTc monitoring are prudent before and during use.
+- **Erythromycin** (as a motilin agonist) loses effectiveness with prolonged use through receptor desensitisation.
+- **Highly selective 5-HT4 agonists** (for example prucalopride) show efficacy with no excess pooled cardiovascular/QT signal in trials [@Patel2024SHT4Gastroparesis], but they are not approved for gastroparesis in all jurisdictions.
+- **GLP-1 receptor agonists are counterindicated in gastroparesis.** They slow gastric emptying, suppress appetite, and can worsen weight loss and nausea — all of which are already problematic in severe ME/CFS. Their use in a patient with gastroparesis requires explicit review against this risk.
+
+Two hard limits apply. First, **no prokinetic has been tested in a controlled ME/CFS trial**, so dosing and safety must be extrapolated from other populations. Second, **prokinetics do not treat the underlying autonomic dysfunction**; they are best combined with the dietary measures above. For a severe or very-severe patient, the cautious approach is an evidence-based trial with the lowest-risk agent, close monitoring for extrapyramidal, cardiac, and autonomic effects, and explicit time-limited use. A full drug-interaction review against the individual patient's medication list is required before use, and use in pregnancy or lactation requires specialist review.
+
+**This is not a recommendation to take any of these drugs.** Medication decisions require a qualified clinician who can weigh the individual patient's severity, comorbidities, and current medication list.
+
+---
+
+## What to take away
+
+Gastroparesis in ME/CFS is real and testable. Delayed gastric emptying is a documented, measurable feature of the illness — not a vague complaint — and it can be assessed with a standard gastric emptying test [@Burnet2004GastricEmptyingCFS].
+
+The mechanism is genuinely unresolved. Three candidates are on the table — structural loss of the stomach's pacemaker cells and enteric nerves (open question, 0.40), autoimmune ganglionic blockade (speculation, 0.30), and functional vagal failure alone — and no test currently separates them in ME/CFS. This uncertainty is honest, and it is not a barrier to care.
+
+There is a safe treatment ladder. Dietary and nutritional management first — small, frequent, low-fat, low-fibre meals and liquid options, with enteral support reserved for feeding failure. Prokinetics second, safety-managed, time-limited, and only after a clinician has weighed the individual risks.
+
+The single most actionable conclusion for a severe case: **treat the measurable problem with the lowest-risk measures first, confirm emptying objectively, and do not assume a specific lesion until it is demonstrated.**
+
+---
+
+*This article reflects research with explicit, calibrated certainty — a documented clinical finding (0.60), an open mechanism question (0.40), and a registered speculation (0.30) — not established clinical fact. Discuss any medical decision, including any change to diet or medication, with a qualified clinician.*
+
+*For the broader GI-dysmotility and SIBO framing, see [GI Dysmotility Article 1](../sibo-gi-dysmotility/index.qmd) and [the companion treatment article](../sibo-gi-treatment/index.qmd).*
