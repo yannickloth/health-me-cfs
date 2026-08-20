@@ -66,15 +66,16 @@
 ## Phase re-run (2026-08-20) — skipped phases/agents
 
 User requested running all skipped phases/agents. Applicable for this evidence-update scope:
-- **Phase 4 (brainstorm)**: limited — evidence update, not new-mechanism topic. One evidence-grounded brainstorm thread: Nrf2 measurement enables a testable Nrf2-activator intervention hypothesis. See below.
-- **Phase 4a (subtree)**: update `subtrees/adhd-energy-predisposition.md` open question #1.
-- **Phase 5a (falsifiability)**: registry entries have `*Falsifiability:*` ✓; chapter spec has `*Testable predictions*` ✓.
-- **Phase 5z (glossary)**: check Nrf2/HO-1/adult-onset terms.
-- **Phase 6 (retroactive)**: appendix-h Moffitt line fixed; confirm no other stale claims.
-- **Phase 7 (cross-hypothesis)**: verify vs `spec:adhd-mecfs-same-root` etc.
-- **Phase 9 (quality)**: metrics.
-- **Phase 10 (coherence)**: cross-chapter consistency of the new claims.
-- **Phase 10b (framing)**: assess abstract/ch16/reading-guide.
-- **Phase 11 (adversarial)**: review the new content.
-- **Phase 12.5 (completion gate)**: phase-ledger audit.
+- **Phase 4 (brainstorm)**: ✅ RAN — `ops/brainstorms/brainstorm-adhd-nrf2-adultonset-update-2026-08-20.md` (research directions + critical caveats, no treatment ideas)
+- **Phase 4a (subtree)**: ✅ RAN — open question #1 note in `subtrees/adhd-energy-predisposition.md`
+- **Phase 5a (falsifiability)**: ✅ RAN — registry entries have `*Falsifiability:*` ✓; chapter spec has `*Testable predictions*` ✓
+- **Phase 5z (glossary)**: ✅ RAN — added Nrf2 + HO-1 to glossary-en/fr/de (JSON validated)
+- **Phase 6 (retroactive)**: ✅ RAN — appendix-h Moffitt line fixed; vestigial-claim grep clean
+- **Phase 7 (cross-hypothesis)**: ✅ RAN (hypothesis-compatibility-auditor) — no conflicts, no bumps
+- **Phase 9 (quality)**: ✅ RAN — metrics recorded
+- **Phase 10 (coherence)**: ✅ RAN — no contradicting chapter; ch09:133 consistent
+- **Phase 10b (framing)**: LEGIT-SKIP — update reinforces existing framing; no abstract/ch16/reading-guide claim affected
+- **Phase 11 (adversarial)**: ✅ RAN (cynic-auditor) — downgraded adult-onset "mix" to open question; relabeled "acquired subset" as unsupported residual; cert derivation added; Nrf2 consequence softened. Build re-passed.
+- **Phase 12.5 (completion gate)**: ✅ RAN — ledger at `tmp/governor-ledger-adhd-nrf2-adultonset-update.md`, all RAN/LEGIT-SKIP, zero OMISSION
+- **Commit**: ✅ cc9e7540 (re-run artifacts + adversarial fixes); book main commit 56347973; blog/bib 4a9e2dc3 + 0421d2c6
 
