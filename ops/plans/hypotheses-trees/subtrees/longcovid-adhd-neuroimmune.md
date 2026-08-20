@@ -33,7 +33,7 @@
 | 1.1 | Striatal DA-immune setpoint shift (threshold-crossing, not onset) | hypothesis | 0.40 | 5 | 3 | 4 | 2 | 3 | ⬜ | — |
 | 1.2 | Kynurenine-mediated DA tone titration | hypothesis | 0.35 | 4 | 4 | 3 | 2 | 3 | ⬜ | — |
 | 1.3 | Dopamine-immune gain (gene×immune interaction) | hypothesis | 0.38 | 5 | 2 | 3 | 3 | 3 | ⬜ | — |
-| 1.4 | Mitochondrial-kynurenine-KYNA NAD+ sink | hypothesis | 0.40 | 5 | 3 | 4 | 4 | 3 | ⬜ | — |
+| 1.4 | Mitochondrial-kynurenine-KYNA NAD+ sink | hypothesis | 0.40 | 5 | 3 | 4 | 4 | 3 | ✅ | — |
 | 1.5 | Immune-subtype × catecholamine-response | hypothesis | 0.35 | 4 | 4 | 2 | 3 | 4 | ⬜ | — |
 | 2.1 | Acquired-vs-unmasked discriminating cohort | proposal | 0.55 | 4 | 4 | 4 | 3 | 5 | ⬜ | — |
 | 2.2 | Striatal VMAT2/kynurenine dual-imaging in ME/CFS±ADHD | proposal | 0.42 | 5 | 2 | 3 | 3 | 5 | ⬜ | — |

@@ -19,39 +19,6 @@
 ## Working-tree state
 **CLEAN-ish** — only topic's own untracked Literature folder + coordination ledger (`agentfeed/ledger.jsonl`) present. No parallel session files in tree at start. Treat as CLEAN mode for scratch-pointer checkpoints; all git ops scoped by explicit file list (no `git add -A`).
 
-## Phase 2 — Decision (to be filled)
-
-## Active Caps (set by Phase 2 — decision: pending)
-
-## Tracking table
-| # | Idea / hypothesis | Tier | Certainty | Status | Notes |
-|---|---|---|---|---|---|
-| 1 | Four convergent LC–AD(H)D neuroimmune mechanisms | — | framework ~0.43 (discounted) | ⬜ Phase 1 done | 14 papers; mechanism 3 best-supported (Cysique 0.55); mech 4 heavily corroborated in ME/CFS |
-| 2 | Neuroimmune-mediated dopaminergic/noradrenergic dysfunction (acquired) | — | low, speculative | ⬜ Phase 1 done | contradicted by Zemer2024 null; competing causal-direction interpretation |
-| 3 | Off-label ADHD pharmacotherapy in LC | — | ~0.34–0.55 | ⬜ Phase 1 done | FesharakiZadeh 0.38, Koonce 0.55, Krishnan 0.34 |
-| 4 | Precision-immunopsychiatry immune-subtyping framework | — | low, proposal | ⬜ Phase 1 done | framework proposal, no data |
-
-## Phase 1 — Literature Research (2026-08-20)
-- **Papers found/included:** 14 new bib entries (1 anchor + 13 newly-added primary sources). Corroborating 13; null 1.
-- **Corroborating mechanistic (6):** Cysique2023KynureninePASC, Rassoulpour2005KynurenicAcid, Sarkar2010DopamineImmunoreg, Feng2021DopamineImmunomodulatory, Tanaka2022MitoKynurenine, Xu2025MitoComplexesADHD.
-- **Corroborating clinical (2):** FesharakiZadeh2023Guanfacine, Krishnan2022BrainFogMultidisciplinary.
-- **Corroborating epidemiological (4):** Koonce2024LongCovidStimulant, Merzon2022LongCovidADHDYouth, Gimbach2024ADHDMedicationEurope, Ferrara2023CovidADHD.
-- **Null (1):** Zemer2024COVIDADHD20Year (20-yr national cohort: no independent COVID effect on ADHD dx/tx).
-- **Already-present (NOT re-added, deduplicated by DOI):** Verma2016ADHDcybrid, Molnar2024LCmitochondria, Shankar2025oxidativestress (energy-metabolism.bib), Braga2023NeuroinflammationCOVID (long-covid.bib), plus kynurenine-excitotoxicity corpus.
-- **Contradiction:** Zemer2024 (null) vs Koonce2024/Gimbach2024/Merzon2022 (positive). Fundamental-frame conflict (infection-driven ADHD vs catch-up/symptom-overlap). Certainty diff ≤0.15 → present as `#open-question`.
-- **Highest discounted certainty:** Zemer2024 0.60, Cysique2023 0.55, Koonce2024 0.55.
-- **Files written:** `ops/research/search-log-longcovid-adhd-neuroimmune-2026-08-20.md`, `ops/research/literature-summary-longcovid-adhd-neuroimmune.md`, bib/neurology-comorbidities.bib, appendix-h, registry/scrape-registry.md.
-
-## Active Caps (set by Phase 2 — decision: pending)
-
-## Certainty bump log
-(empty at creation)
-
-## Notes
-- Viewpoint paper = no primary data; certainty of the *framework* must be treated cautiously (population-relevance discount applies; framework is a hypothesis-generating synthesis of cited primary studies).
-- Related existing plans: adhd-nrf2-adultonset-update, adhd-asd-comorbidity, adhd-same-causes-mecfs, shared-mechanisms-fibromyalgia-mecfs-longcovid.
-- Relevant bib: `bib/neurology-comorbidities.bib` (SaezFrancas2012adhdcfs, Quadt2024neurodivergentfatigue already present).
-
 ## Phase 2 — Decision (PROCEED)
 **Synthesis:** Shared-mechanism claim (kynurenine/catecholamine/mitochondrial convergence) is well-corroborated (10 papers ≥0.40; 29% <0.40). The causal "infection drives ADHD" claim is contradicted by Zemer2024 (null, 0.60, highest-certainty paper) → handled as `#open-question` per band rule (cert diff ≤0.15). Viewpoint anchor treated cautiously (no primary data).
 **Decision: PROCEED** (with mandatory open-question framing for the acquired-ADHD/causal claim).
@@ -65,6 +32,33 @@
 - Brainstorm categories (Phase 4): all 1–12
 - Certainty bumps (Phases 6–7): per normal rules
 - Phase 9 flags pre-fired: none (shared mechanism well-corroborated)
+
+## Tracking table
+| # | Idea / hypothesis | Tier | Certainty | Status | Notes |
+|---|---|---|---|---|---|
+| 1 | Four convergent LC–AD(H)D neuroimmune mechanisms | 2 | framework ~0.43 (discounted) | ✅ done | integrated as @spec:lc-adhd-neuroimmune-shared-substrate; mechanism 3 best-supported (Cysique 0.55) |
+| 2 | Neuroimmune-mediated dopaminergic/noradrenergic dysfunction (acquired) | 2 | low, speculative | ✅ done | integrated as @oq:lc-adhd-acquired-causal (open-question per Zemer2024 null) |
+| 3 | Off-label ADHD pharmacotherapy in LC | 2 | ~0.34–0.55 | ✅ done | clinical obs; integrated with PEM/autonomic cautions (FesharakiZadeh 0.38, Koonce 0.55) |
+| 4 | Precision-immunopsychiatry immune-subtyping framework | 3 | low, proposal | ✅ done | framework proposal; integrated in shared-substrate env |
+
+## Phase 1 — Literature Research (2026-08-20)
+- **Papers found/included:** 14 new bib entries (1 anchor + 13 newly-added primary sources). Corroborating 13; null 1.
+- **Corroborating mechanistic (6):** Cysique2023KynureninePASC, Rassoulpour2005KynurenicAcid, Sarkar2010DopamineImmunoreg, Feng2021DopamineImmunomodulatory, Tanaka2022MitoKynurenine, Xu2025MitoComplexesADHD.
+- **Corroborating clinical (2):** FesharakiZadeh2023Guanfacine, Krishnan2022BrainFogMultidisciplinary.
+- **Corroborating epidemiological (4):** Koonce2024LongCovidStimulant, Merzon2022LongCovidADHDYouth, Gimbach2024ADHDMedicationEurope, Ferrara2023CovidADHD.
+- **Null (1):** Zemer2024COVIDADHD20Year (20-yr national cohort: no independent COVID effect on ADHD dx/tx).
+- **Already-present (NOT re-added, deduplicated by DOI):** Verma2016ADHDcybrid, Molnar2024LCmitochondria, Shankar2025oxidativestress (energy-metabolism.bib), Braga2023NeuroinflammationCOVID (long-covid.bib), plus kynurenine-excitotoxicity corpus.
+- **Contradiction:** Zemer2024 (null) vs Koonce2024/Gimbach2024/Merzon2022 (positive). Fundamental-frame conflict (infection-driven ADHD vs catch-up/symptom-overlap). Certainty diff ≤0.15 → present as `#open-question`.
+- **Highest discounted certainty:** Zemer2024 0.60, Cysique2023 0.55, Koonce2024 0.55.
+- **Files written:** `ops/research/search-log-longcovid-adhd-neuroimmune-2026-08-20.md`, `ops/research/literature-summary-longcovid-adhd-neuroimmune.md`, bib/neurology-comorbidities.bib, appendix-h, registry/scrape-registry.md.
+
+## Certainty bump log
+(empty at creation)
+
+## Notes
+- Viewpoint paper = no primary data; certainty of the *framework* must be treated cautiously (population-relevance discount applies; framework is a hypothesis-generating synthesis of cited primary studies).
+- Related existing plans: adhd-nrf2-adultonset-update, adhd-asd-comorbidity, adhd-same-causes-mecfs, shared-mechanisms-fibromyalgia-mecfs-longcovid.
+- Relevant bib: `bib/neurology-comorbidities.bib` (SaezFrancas2012adhdcfs, Quadt2024neurodivergentfatigue already present).
 
 ## Provenance note
 User-supplied hint (Tomaso Antonacci, Spanoghe2026 co-author): directed to https://www.sciencedirect.com/science/article/pii/S0889159125004234 (Spanoghe et al., BBI 2026) "pour compléter le post sur l'enjeu neuro-inflammatoire et immunitaire du TDA/H" — to complement the ADHD blog article series' neuro-inflammatory/immune angle. Confirms integration framing as neuroimmune cross-disease. This provenance also reinforces the user's follow-up request to port findings into the ADHD blog series.
