@@ -467,6 +467,18 @@
     "definition": "Ein Produkt der Lipidperoxidation und ein Biomarker für oxidativen Stress und Ferroptose. Erhöhtes MDA weist auf eine Schädigung mehrfach ungesättigter Fettsäuren in Zellmembranen durch freie Radikale hin. Wird in der Ferroptose-Forschung häufig zusammen mit 4-HNE gemessen.",
     "synonyms": []
   },
+  "Nrf2": {
+    "label": "Nrf2",
+    "category": "protein",
+    "definition": "Nuclear factor erythroid 2-related factor 2: der Master-Transkriptionsfaktor der zellulären Antioxidans-Abwehr, der über zweihundert schützende Gene einschließlich HO-1 und NQO1 aktiviert. Ein niedriger Dopamin-Tonus (wie bei ADHS) beeinträchtigt die Nrf2-Aktivität. Ein reduziertes Serum-Nrf2 wurde bei ADHS im Erwachsenenalter gemessen.",
+    "synonyms": []
+  },
+  "HO-1": {
+    "label": "Hämoxygenase-1 (HO-1)",
+    "category": "enzyme",
+    "definition": "Hämoxygenase 1: ein durch Nrf2 induziertes Enzym, das Häm abbaut und antioxidative/entzündungshemmende Metaboliten (Biliverdin, Kohlenmonoxid) erzeugt. Reduziertes HO-1 ist ein nachgelagerter Marker einer beeinträchtigten Nrf2-Antioxidans-Abwehr.",
+    "synonyms": []
+  },
   "GABA": {
     "label": "GABA",
     "category": "neurotransmitter",

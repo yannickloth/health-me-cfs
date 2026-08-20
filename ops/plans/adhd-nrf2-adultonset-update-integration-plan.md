@@ -60,6 +60,21 @@
 |---|---|---|
 | bib | neurology-comorbidities.bib, neuroinflammation.bib | ✅ committed earlier (0421d2c6) |
 | blog | 4 EN dirs + 6 citation-fix posts | ✅ committed earlier (4a9e2dc3, 0421d2c6) |
-| book | ch14d-cross-disease.typ, hypothesis-registry.typ, appendix-h-annotated-bibliography.typ | ⏳ this commit |
-| ops | plan, literature-summary, search-log | ⏳ this commit |
+| book | ch14d-cross-disease.typ, hypothesis-registry.typ, appendix-h-annotated-bibliography.typ | ✅ committed (56347973) |
+| ops | plan, literature-summary, search-log | ✅ committed (56347973) |
+
+## Phase re-run (2026-08-20) — skipped phases/agents
+
+User requested running all skipped phases/agents. Applicable for this evidence-update scope:
+- **Phase 4 (brainstorm)**: limited — evidence update, not new-mechanism topic. One evidence-grounded brainstorm thread: Nrf2 measurement enables a testable Nrf2-activator intervention hypothesis. See below.
+- **Phase 4a (subtree)**: update `subtrees/adhd-energy-predisposition.md` open question #1.
+- **Phase 5a (falsifiability)**: registry entries have `*Falsifiability:*` ✓; chapter spec has `*Testable predictions*` ✓.
+- **Phase 5z (glossary)**: check Nrf2/HO-1/adult-onset terms.
+- **Phase 6 (retroactive)**: appendix-h Moffitt line fixed; confirm no other stale claims.
+- **Phase 7 (cross-hypothesis)**: verify vs `spec:adhd-mecfs-same-root` etc.
+- **Phase 9 (quality)**: metrics.
+- **Phase 10 (coherence)**: cross-chapter consistency of the new claims.
+- **Phase 10b (framing)**: assess abstract/ch16/reading-guide.
+- **Phase 11 (adversarial)**: review the new content.
+- **Phase 12.5 (completion gate)**: phase-ledger audit.
 

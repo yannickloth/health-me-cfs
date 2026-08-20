@@ -495,6 +495,18 @@
     "definition": "Un produit de la peroxydation lipidique et un biomarqueur du stress oxydatif et de la ferroptose. Un MDA élevé indique une lésion des acides gras polyinsaturés des membranes cellulaires par les radicaux libres. Souvent mesuré en parallèle du 4-HNE dans la recherche sur la ferroptose.",
     "synonyms": []
   },
+  "Nrf2": {
+    "label": "Nrf2",
+    "category": "protein",
+    "definition": "Facteur nucléaire 2 lié au facteur de transcription érythroïde 2 : le facteur de transcription maître des défenses antioxydantes de la cellule, activant plus de deux cents gènes protecteurs dont HO-1 et NQO1. Un tonus dopaminergique bas (comme dans le TDAH) altère l'activité de Nrf2. Une réduction de Nrf2 sérique a été mesurée dans le TDAH de l'adulte.",
+    "synonyms": []
+  },
+  "HO-1": {
+    "label": "Hème oxygénase-1 (HO-1)",
+    "category": "enzyme",
+    "definition": "Hème oxygénase 1 : enzyme inductible induite par Nrf2 qui dégrade l'hème et produit des métabolites antioxydants/anti-inflammatoires (biliverdine, monoxyde de carbone). Une HO-1 réduite est un marqueur en aval d'une défense antioxydante Nrf2 altérée.",
+    "synonyms": []
+  },
   "GABA": {
     "label": "GABA",
     "category": "neurotransmitter",

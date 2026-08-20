@@ -28,6 +28,7 @@
 **Pre-identified hypotheses:** ADHD metabolic reserve deficit lowers threshold for post-infectious ME/CFS; shared BH4 bottleneck; adult-onset ADHD as acquired catecholaminergic depletion (post-infectious trajectory)
 **Research questions:**
 1. Does childhood-onset ADHD (with documented metabolic reserve deficit) specifically predispose to ME/CFS, distinct from adult-onset ADHD?
+   - *Updated (2026-08-19):* the adult-onset-ADHD debate has moved — current consensus is that most apparent adult onset is adolescent-onset (12–16), missed/misrecalled childhood symptoms, or substance-use/comorbidity, not a clearly distinct adult-onset syndrome (Sibley2018, Asherson2019, Breda2020 vs Moffitt2015). This refines the question: the shared-metabolic-reserve hypothesis applies most strongly to childhood/adolescent-onset ADHD; a distinct adult-onset subset is narrowed but not excluded. See `ops/plans/adhd-nrf2-adultonset-update-integration-plan.md`.
 2. Is the GCH1 rs841 variant a shared genetic predisposition for ADHD, ME/CFS, and orthostatic intolerance via BH4 depletion?
 3. Do stimulant responders in ME/CFS show pre-existing ADHD neurobiology vs. acquired dopaminergic depletion?
 4. Does prefrontal hypoperfusion precede ME/CFS onset in ADHD patients?

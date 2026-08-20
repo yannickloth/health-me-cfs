@@ -344,6 +344,16 @@
     "category": "biomarker",
     "definition": "A product of lipid peroxidation and a biomarker of oxidative stress and ferroptosis. Elevated MDA indicates free-radical damage to polyunsaturated fatty acids in cell membranes. Often measured alongside 4-HNE in ferroptosis research."
   },
+  "Nrf2": {
+    "label": "Nrf2",
+    "category": "protein",
+    "definition": "Nuclear factor erythroid 2-related factor 2: the master transcription factor of the cell's antioxidant defenses, switching on over two hundred protective genes including HO-1 and NQO1. Low dopamine tone (as in ADHD) impairs Nrf2 activity. Reduced serum Nrf2 has been measured in adult ADHD."
+  },
+  "HO-1": {
+    "label": "Heme Oxygenase-1 (HO-1)",
+    "category": "enzyme",
+    "definition": "Heme oxygenase 1: an inducible enzyme induced by Nrf2 that breaks down heme and produces antioxidant/anti-inflammatory metabolites (biliverdin, carbon monoxide). Reduced HO-1 is a downstream marker of impaired Nrf2 antioxidant defense."
+  },
   "GABA": {
     "label": "GABA",
     "category": "neurotransmitter",
