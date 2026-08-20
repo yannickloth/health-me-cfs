@@ -7512,6 +7512,36 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
     *Conclusion:*: Prucalopride-class prokinetics are a comparatively safer prokinetic option; relevant where cholinergic vagal drive is impaired and 5-HT4 agonism is an alternative pathway.
     *Limitations:*: Published in Cureus (lower-tier journal); general gastroparesis population; QT assessment across heterogeneous RCT protocols.
 
+=== Camilleri & Jencks 2025 — Pharmacologic Treatments for Gastroparesis
+
+    @Camilleri2025PharmacologicTreatmentsGastroparesis
+
+    *Full Citation:*: Camilleri M, Jencks KJ. Pharmacologic treatments for gastroparesis. _Pharmacological Reviews_. 2025;77(2):100019.
+    *DOI:*: #link("https://doi.org/10.1016/j.pharmr.2024.100019")[10.1016/j.pharmr.2024.100019]
+    *PMID:*: 40148033
+    *Study Design:*: Comprehensive pharmacology review of gastroparesis treatment (prokinetics, antiemetics, pylorus-targeting agents, neuromodulators).
+    *Key Findings:*:
+
+        - Glucagon-like peptide-1 agonists and opioid agents are recognised causes of medication-induced gastroparesis
+        - Metoclopramide remains the only FDA-approved drug for gastroparesis
+    *Conclusion:*: Provides the general gastroenterology guidance basis for the contraindication caution on GLP-1 receptor agonists in gastroparesis.
+    *Limitations:*: Review (not primary data); general gastroparesis population (not ME/CFS).
+
+=== Nauck et al.\ 2011 — GLP-1-Induced Deceleration of Gastric Emptying in Humans
+
+    @Nauck2011GLP1TachyphylaxisGastricEmptying
+
+    *Full Citation:*: Nauck MA, Kemmeries G, Holst JJ, Meier JJ. Rapid tachyphylaxis of the glucagon-like peptide 1-induced deceleration of gastric emptying in humans. _Diabetes_. 2011;60(5):1561--1565.
+    *DOI:*: #link("https://doi.org/10.2337/db10-0474")[10.2337/db10-0474]
+    *PMID:*: 21430088
+    *Study Design:*: Human mechanistic study; nine healthy volunteers, intravenous GLP-1 versus placebo, two liquid mixed meals, gastric-emptying measurement.
+    *Key Findings:*:
+
+        - GLP-1 lowers postprandial glycaemia primarily through inhibition of gastric emptying
+        - GLP-1 significantly decelerated gastric emptying; the effect attenuated by the second meal (rapid tachyphylaxis, vagally mediated)
+    *Conclusion:*: Establishes the emptying-slowing pharmacology of GLP-1 that underlies the contraindication caution for GLP-1 receptor agonists in gastroparesis.
+    *Limitations:*: Small (n=9) healthy-volunteer mechanistic study; native GLP-1 infusion rather than a long-acting receptor agonist; not ME/CFS.
+
 === Gupta & Lee 2016 — Diet and Complementary Medicine for Chronic Nausea/Vomiting and Gastroparesis
 
     @Gupta2016GastroparesisDiet
