@@ -113,8 +113,8 @@ Integrate the finding that adult hippocampal neurogenesis stalls in major depres
 | 8 Build verification | RAN | nix build exit 0. |
 | 9 Quality assessment | RAN | No flags. |
 | 10 Cross-chapter coherence | RAN | Consistent across ch04/ch16/ch14d/registry. |
-| 10a High-level synthesis | LEGIT-SKIP | No global convergence synthesis warranted. |
-| 10b Strategic framing | LEGIT-SKIP | Differential scope; framing captured in ch16. |
+| 10a High-level synthesis | RAN | User-approved @syn:depression-hippocampal-neurogenesis-model added in ch16 (corrected from initial faulty skip). |
+| 10b Strategic framing | RAN | Matrix evaluated: downstream/diagnostic, speculation-capped, no framing propagation needed. |
 | 11 Review convergence | RAN | R1 (1 LOW fixed), R2/R3 clean. CONVERGED. |
 | 12 Plan record | RAN | This file. |
 | 13 Commit | (pending commit) | |
