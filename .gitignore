@@ -396,10 +396,11 @@ src/main/typst/**/*.pdf
 ## graphrag tool working directory (logs + settings with API-key env refs)
 graph-index/
 
-## agentfeed coordination (ledger.jsonl is committed; generated/lock artifacts are not)
+## agentfeed coordination (all generated/lock artifacts, including the ledger)
 agentfeed/feeds/
 agentfeed/.agentfeed/
 agentfeed/.ledger.lock
+agentfeed/ledger.jsonl
 
 ## agentmem agent runtime memory/state — not document content
 .agentmem/
