@@ -1906,7 +1906,7 @@ ME/CFS has historically been conflated with depression and anxiety. A mechanisti
 
 The depression correlation is a signal of shared synaptic biology, not shared disease mechanism. This has direct clinical implications: antidepressants targeting prefrontal serotonin/norepinephrine pathways may relieve depressive symptoms in comorbid ME/CFS patients without addressing the underlying glutamatergic-cerebellar dysfunction driving ME/CFS fatigue and PEM @Hirsch2025comparativeGWAS.
 
-*Evidence base.* DecodeME (rg=0.60, no shared causal variants); Maccallini 2026 (cell-type resolution, cerebellar vs. prefrontal divergence); Hirsch 2025 (comparative GWAS confirming circuit-specific enrichment patterns).
+*Evidence base.* DecodeME (rg=0.60, no shared causal variants); Maccallini 2026 (cell-type resolution, cerebellar vs. prefrontal divergence); Hirsch 2025 (comparative GWAS confirming circuit-specific enrichment patterns); Peng 2026 (single-cell hippocampal atlas showing molecular disruption of the hippocampal trisynaptic circuit in depression, consistent with the limbic-circuit locus of the divergence) @Peng2026NeurogenesisNatureMed.
 ] <spec:depression-shared-genes-different-circuits>
 
 #open-question(title: [Neuroimmune Spectrum Disorders?])[

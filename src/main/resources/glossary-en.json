@@ -11596,5 +11596,30 @@
     "label": "Prucalopride",
     "category": "medication",
     "definition": "A highly selective 5-HT4-agonist prokinetic used (often off-label) for gastroparesis and chronic constipation. It stimulates gut motility with a lower reported cardiovascular/QT risk than some older prokinetics."
+  },
+  "DCX": {
+    "label": "DCX",
+    "category": "protein",
+    "definition": "Doublecortin: a microtubule-associated protein expressed by immature (newborn) neurons in the brain, widely used as a marker of adult neurogenesis in the hippocampus."
+  },
+  "CCL11": {
+    "label": "CCL11",
+    "category": "protein",
+    "definition": "Eotaxin-1: a chemokine (immune signalling molecule) that rises after some viral infections, promotes microglial reactivity, and has been linked to impaired hippocampal neurogenesis and cognitive symptoms."
+  },
+  "Ki67": {
+    "label": "Ki67",
+    "category": "measurement",
+    "definition": "A nuclear protein expressed during active cell division, used as a marker of proliferating (dividing) cells in tissue studies."
+  },
+  "nestin": {
+    "label": "nestin",
+    "category": "protein",
+    "definition": "An intermediate-filament protein expressed by neural stem and progenitor cells, used as a marker of stem-cell activity in the brain."
+  },
+  "NSCa": {
+    "label": "NSCa",
+    "category": "cell_type",
+    "definition": "A quiescent neural stem-cell state in the adult hippocampal dentate gyrus; accumulation of NSCa cells is used as evidence that neurogenesis is stalled rather than depleted."
   }
 }

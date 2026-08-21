@@ -1017,3 +1017,16 @@ Prevents re-processing of already-integrated content.
 | PubMed E-utilities API (27 queries + esummary/efetch, batch) | pubmed/eutils | 2026-08-21 | — | ops/research/search-log-hyperparathyroidism-differential-2026-08-21.md, ops/research/literature-summary-hyperparathyroidism-differential-2026-08-21.md, bib/endocrine-reproductive.bib (9 new), appendix-h (9 annotated entries, sec:bib-hyperparathyroidism-differential) — hyperparathyroidism as differential diagnosis for ME/CFS (misdiagnosis Costa 2016/Borgia 2012 + null Ferrari 2015 + treatment response Adkisson 2014/Liu 2021 + neuropsychiatric Mairinger 2026/Koman 2022 + reviews Oberger Marques 2020/Wootton 2026) |
 | Crossref API (1 DOI) | crossref | 2026-08-21 | — | DOI 10.1016/j.reumae.2012.06.019 (Borgia 2012 metadata verification) |
 | https://www.nice.org.uk/guidance/ng206/chapter/Recommendations | nice.org.uk | 2026-08-21 | — | NICE NG206 rec 1.2.3 — "calcium and phosphate" among investigations to exclude other diagnoses in suspected ME/CFS (guideline basis for endocrine exclusion requirement) |
+
+---
+
+## Adult Hippocampal Neurogenesis in MDD Literature Search (2026-08-21)
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-08-21 | 21 queries: direct (adult hippocampal neurogenesis depression human, Boldrini, Peng 2026, pattern separation, hippocampal volume depression meta-analysis, neurogenesis stress glucocorticoid, antidepressant neurogenesis review, Eriksson 1998), null/negative (adult neurogenesis controversy human, Sorrells, AHN+CFS direct), indirect biochemical MANDATORY (hippocampus CFS, BDNF CFS, HPA axis CFS meta-analysis, neurogenesis long covid). Crossref + full-text (nature.com) for primary paper Peng 2026 metadata. Direct AHN+ME/CFS = 0 hits (research gap). Null+controversy+indirect-biochemical searches MANDATORY included. |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed E-utilities API (21 queries + esummary/efetch, batch) | pubmed/eutils | 2026-08-21 | — | ops/research/search-log-depression-hippocampal-neurogenesis-2026-08-21.md, bib/neurology-comorbidities.bib (14 new), appendix-h (14 annotated entries, sec:bib-depression-hippocampal-neurogenesis) — depression hippocampal neurogenesis in MDD (primary Peng 2026 + foundational Eriksson 1998 + persistence Boldrini 2018 + MDD granule neurons Boldrini 2019 + antidepressant Boldrini 2012 + reviews Tartt 2022/Anacker 2017 + hippocampal volume Videbech 2004 + pattern separation Gandy 2017 + null Sorrells 2018/2021 + animal Snyder 2011 + indirect ME/CFS Papadopoulos 2011 + indirect long COVID Fernández-Castañeda 2022) |
+| Crossref API (1 DOI) | crossref | 2026-08-21 | — | DOI 10.1038/s41591-026-04571-8 (Peng 2026 primary paper metadata verification) |
+| Nature Medicine (full text) | nature.com | 2026-08-21 | — | Article s41591-026-04571-8 (open access) — abstract + Methods for primary-paper annotation |

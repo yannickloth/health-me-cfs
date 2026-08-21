@@ -362,3 +362,4 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | ion-channel-pathways-mecfs | [subtrees/ion-channel-pathways-mecfs.md](subtrees/ion-channel-pathways-mecfs.md) | 2026-08-15 | 9 | 0 | 🔵 in progress |
 | syngo-synaptic-enrichment-mecfs | [subtrees/syngo-synaptic-enrichment-mecfs.md](subtrees/syngo-synaptic-enrichment-mecfs.md) | 2026-08-16 | 16 | 8 | ✅ done |
 | longcovid-adhd-neuroimmune | [subtrees/longcovid-adhd-neuroimmune.md](subtrees/longcovid-adhd-neuroimmune.md) | 2026-08-20 | 49 | 0 | ✅ done |
+| depression-hippocampal-neurogenesis | [subtrees/depression-hippocampal-neurogenesis.md](subtrees/depression-hippocampal-neurogenesis.md) | 2026-08-21 | 22 | 11 | ✅ done |

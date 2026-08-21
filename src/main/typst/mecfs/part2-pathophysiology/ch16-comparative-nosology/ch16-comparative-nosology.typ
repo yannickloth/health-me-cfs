@@ -400,6 +400,19 @@ This has two consequences: (a) it creates a structural incentive for patients to
 Addressing the nosological problem requires not just better biomarkers but structural reform of a classification system that assigns conditions to psychiatry by default.
 ]
 
+#speculation(title: [Molecular Reclassification of Depression and the Depression-ME/CFS Boundary])[
+The nosological argument that "markers resolve disputes" has a growing precedent *within* the psychiatric axis that typically absorbs contested physical diagnoses.
+A single-cell atlas of the adult human hippocampus (~500,000 nuclei) reported that neurogenesis is stalled in major depressive disorder, and argued for reclassifying depression by its molecular features — analogous to the shift that moved cancer classification from anatomical site to cellular/molecular characteristics @Peng2026NeurogenesisNatureMed.
+This reframes the depression-ME/CFS boundary: rather than a hard psychiatric-vs-physical divide, it suggests both conditions may occupy overlapping molecular space that is *not* yet resolved by a validated biomarker.
+
+The relevance to ME/CFS is indirect and currently unsupported by direct data — there are no published studies of adult hippocampal neurogenesis in ME/CFS.
+The plausible mechanistic bridges are (a) HPA-axis dysfunction, which is documented in both CFS @Papadopoulos2011HPAaxis and, in animal models, is coupled to adult hippocampal neurogenesis @Snyder2011BuffersStress; and (b) post-infectious suppression of hippocampal neurogenesis, demonstrated after mild SARS-CoV-2 infection and linked to cognitive symptoms in long COVID @FernandezCastaneda2022MildCOVID.
+The premise that adult human hippocampal neurogenesis persists at a measureable level is itself contested, with conflicting post-mortem evidence @Boldrini2018NeurogenesisAging vs.\ @Sorrells2018NeurogenesisDrops @Sorrells2021PositiveControls.
+*(Certainty: 0.64–0.80 for the depression-axis finding across supporting and competing studies; the ME/CFS extrapolation is a speculation, not an established mechanism.)* (Severity applicability: unknown — not stratified by ME/CFS severity.)
+
+*Consequence:* If depression becomes molecularly subclassifiable, the "is it depression or ME/CFS?" boundary could shift from clinical judgment toward biological testing — but only if ME/CFS neurogenesis is studied directly, which it has not been.
+] <spec:molecular-reclassification-depression-mecfs-boundary>
+
 == Diagnostic Boundary Disputes: Historical Lessons
 
 #achievement(title: [Three Lessons from Historical Contested Diagnoses])[

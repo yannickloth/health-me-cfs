@@ -36736,3 +36736,224 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
 *Conclusion:*: Frames the endogenous-opioid/enkephalin rebound mechanism for LDN, explicitly including fibromyalgia and fatigue. Indirect support for the mechanistic rationale, but no controlled FM efficacy data.
 *Limitations:*: Review; heterogeneous clinical reports; preclinical EAE model.
 *Certainty Assessment:*: 0.55 raw × 0.40 mixed-review weight = discounted 0.22
+
+== Depression and Adult Hippocampal Neurogenesis — Literature Stream
+<sec:bib-depression-hippocampal-neurogenesis>
+// research_stream = {depression-hippocampal-neurogenesis}
+// Added 2026-08-21 (Phase-1 literature-integrator)
+// =============================================================================
+
+=== Peng et al.\ 2026 — Dysregulated Adult Hippocampal Neurogenesis in MDD (PRIMARY)
+
+@Peng2026NeurogenesisNatureMed
+
+*Full Citation:*: Peng MS, Jiang J, Polizzi L, Shi T, Ramkumar R, Anosike VO, Guasoni G, Wamalwa AM, Mariani MB, Sissoko CA, Tartt AN, Fulmore C, Rosoklija GB, Huang Y, Arango V, McDonald ST, Bitoljanu N, Mann JJ, Nguyen PT, Dwork AJ, Brown LM, Hen R, Galfalvy H, Dupont MB. Dysregulated adult hippocampal neurogenesis in major depressive disorders. _Nature Medicine_. 2026;32.
+*DOI:*: #link("https://doi.org/10.1038/s41591-026-04571-8")[10.1038/s41591-026-04571-8]
+*Study Design:*: Multimodal single-cell/post-mortem molecular atlas: single-nucleus RNA + ATAC (snMultiome), spatial transcriptomics (Visium, Xenium), regional proteomics
+*Sample Size:*: ~500,000 hippocampal nuclei; 11 nonmedicated MDD vs 19 controls (initial 14 MDD / 24 CTRL)
+*Key Findings:*:
+    - Identified an adult human hippocampal neurogenic lineage (NSCa, NSCb, INP, NB, ImGC) in the dentate gyrus subgranular zone, validated by fetal-hippocampus integration and spatial transcriptomics.
+    - Neurogenesis is STALLED in MDD: more NSCa (quiescent stem-like), fewer neuroblasts (NBs), reduced nestin/Ki67/DCX protein — impaired progression rather than stem-cell depletion.
+    - Early neurogenic stages in MDD show elevated interferon-related signaling (module 93) and heat-shock/stress genes; NBs show reduced DCX and BDNF.
+    - Whole hippocampal trisynaptic circuit (DG + CA) shows disrupted excitatory-inhibitory balance, impaired synaptic plasticity and neurotransmission, cellular stress, impaired intracellular trafficking, serotonergic and glutamatergic dysfunction, and neuroinflammation.
+    - Some dysregulated genes carry MDD-associated GWAS variants; others are epigenetically regulated (chromatin accessibility).
+    - Pattern separation (a hippocampal function dependent on adult neurogenesis) is impaired in depression, supported by mouse ablation and radiation-ablation evidence in brain-tumor patients.
+    - Findings suggest molecular reclassification of depression (analogous to cancer subtyping).
+*Conclusion:*: Provides the largest human hippocampus molecular atlas and direct evidence that adult hippocampal neurogenesis is stalled in MDD, with overlapping pathogenetic mechanisms across autoimmune, neurodevelopmental, and neurodegenerative diseases.
+*Limitations:*: Post-mortem tissue; neurogenesis in adult humans remains controversial (see Sorrells); cross-sectional; statistical significance of some DEG analyses reported at permissive thresholds (unadjusted P\<0.05 with low cell numbers). Newly published (2026-08-21); not yet independently replicated.
+*Certainty Assessment:*: 0.80 raw × 1.00 direct-human-MDD weight = discounted 0.80
+
+=== Eriksson et al.\ 1998 — Neurogenesis in the Adult Human Hippocampus (FOUNDATIONAL)
+
+@Eriksson1998Neurogenesis
+
+*Full Citation:*: Eriksson PS, Perfilieva E, Björk-Eriksson T, Alborn AM, Nordborg C, Peterson DA, Gage FH. Neurogenesis in the adult human hippocampus. _Nature Medicine_. 1998;4(11):1313–1317.
+*DOI:*: #link("https://doi.org/10.1038/3305")[10.1038/3305]
+*PMID:*: 9809557
+*Study Design:*: Post-mortem histology of cancer patients given bromodeoxyuridine (BrdU)
+*Key Findings:*:
+    - BrdU-labeled cells co-expressing the mature neuronal marker NeuN were found in the dentate gyrus granule cell layer of adult human brains.
+    - First direct demonstration that new neurons are generated in the adult human hippocampus.
+*Conclusion:*: Establishes the biological premise for the entire adult hippocampal neurogenesis field, including the depression-neurogenesis hypothesis and the Peng 2026 finding.
+*Limitations:*: Small number of subjects (5); cancer patients (possible treatment effects); fixed-tissue analysis.
+*Certainty Assessment:*: 0.90 raw × 1.00 direct-human weight = discounted 0.90
+
+=== Boldrini et al.\ 2018 — Human Hippocampal Neurogenesis Persists Throughout Aging (COMPETING/POSITIVE)
+
+@Boldrini2018NeurogenesisAging
+
+*Full Citation:*: Boldrini M, Fulmore CA, Tartt AN, Simeon LR, Pavlova I, Poposka V, Rosoklija GB, Stankov A, Arango V, Dwork AJ, Hen R, Mann JJ. Human hippocampal neurogenesis persists throughout aging. _Cell Stem Cell_. 2018;22(4):589–599.
+*DOI:*: #link("https://doi.org/10.1016/j.stem.2018.03.015")[10.1016/j.stem.2018.03.015]
+*PMID:*: 29625071 · *PMCID:*: PMC5957089
+*Study Design:*: Post-mortem stereology and quantitative neurogenesis markers across the lifespan
+*Key Findings:*:
+    - Thousands of immature neurons are present in the adult human dentate gyrus, with ~35,000 neural stem cells per hippocampus.
+    - Neurogenesis persists throughout aging into the ninth decade.
+*Conclusion:*: Directly counters the Sorrells null position, supporting that adult hippocampal neurogenesis persists at meaningful levels — the premise of the depression-neurogenesis literature.
+*Limitations:*: Post-mortem; within-field methodological disagreement with Sorrells; subject to the adult-human-neurogenesis controversy.
+*Certainty Assessment:*: 0.80 raw × 0.90 human weight = discounted 0.72
+
+=== Boldrini et al.\ 2019 — Resilience, Dentate Gyrus, and Granule Neurons in MDD
+
+@Boldrini2019ResilienceDentate
+
+*Full Citation:*: Boldrini M, Fulmore CA, Tartt AN, Simeon LR, Pavlova I, Poposka V, Rosoklija GB, Stankov A, Arango V, Dwork AJ, Hen R, Mann JJ, Galfalvy H, Haghighi F. Resilience is associated with larger dentate gyrus, while suicide decedents with major depressive disorder have fewer granule neurons. _Biological Psychiatry_. 2019;85(10):850–862.
+*DOI:*: #link("https://doi.org/10.1016/j.biopsych.2018.12.022")[10.1016/j.biopsych.2018.12.022]
+*PMID:*: 30819514 · *PMCID:*: PMC6830307
+*Study Design:*: Post-mortem stereology comparing MDD suicide decedents, non-suicide MDD, and controls
+*Key Findings:*:
+    - MDD suicide decedents have fewer granule neurons in the dentate gyrus.
+    - Resilient individuals have a larger dentate gyrus.
+*Conclusion:*: Supports a relationship between disrupted hippocampal neurogenesis/granule-cell content and MDD severity, consistent with the Peng 2026 stalled-neurogenesis finding.
+*Limitations:*: Post-mortem; correlational; cannot prove causation; adult-neurogenesis controversy applies.
+*Certainty Assessment:*: 0.75 raw × 0.90 human-MDD weight = discounted 0.68
+
+=== Boldrini et al.\ 2012 — Antidepressants Increase Hippocampal Progenitor Proliferation
+
+@Boldrini2012AntidepressantAngio
+
+*Full Citation:*: Boldrini M, Hen R, Underwood MD, Rosoklija GB, Dwork AJ, Mann JJ, Arango V. Hippocampal angiogenesis and progenitor cell proliferation are increased with antidepressant use in major depression. _Biological Psychiatry_. 2012;72(7):562–571.
+*DOI:*: #link("https://doi.org/10.1016/j.biopsych.2012.04.024")[10.1016/j.biopsych.2012.04.024]
+*PMID:*: 22652019 · *PMCID:*: PMC3438317
+*Study Design:*: Post-mortem stereology in MDD with vs without antidepressant exposure
+*Key Findings:*:
+    - Untreated MDD shows reduced hippocampal progenitor cell proliferation.
+    - Antidepressant exposure is associated with increased progenitor cell proliferation and angiogenesis.
+*Conclusion:*: Supports the hypothesis that antidepressants restore hippocampal neurogenesis, providing the treatment-response context for the neurogenesis hypothesis.
+*Limitations:*: Post-mortem; retrospective medication history; indirect measure of neurogenesis.
+*Certainty Assessment:*: 0.70 raw × 0.85 human-MDD weight = discounted 0.60
+
+=== Tartt et al.\ 2022 — Dysregulation of Adult Hippocampal Neuroplasticity in Major Depression (REVIEW)
+
+@Tartt2022HippocampalPlasticity
+
+*Full Citation:*: Tartt AN, Mariani MB, Hen R, Mann JJ, Boldrini M. Dysregulation of adult hippocampal neuroplasticity in major depression: pathogenesis and therapeutic implications. _Molecular Psychiatry_. 2022;27(6):2689–2699.
+*DOI:*: #link("https://doi.org/10.1038/s41380-022-01520-y")[10.1038/s41380-022-01520-y]
+*PMID:*: 35354926 · *PMCID:*: PMC9167750
+*Study Design:*: Review/synthesis
+*Key Findings:*:
+    - Synthesizes evidence that adult hippocampal neurogenesis and neuroplasticity are dysregulated in major depression.
+    - Links stress, reduced neurogenesis, and hippocampal neuroplasticity deficits.
+    - Reviews therapeutic implications (antidepressant and non-drug interventions).
+*Conclusion:*: Contextualizes the molecular findings of Peng 2026 within the broader neuroplasticity hypothesis of depression.
+*Limitations:*: Review; reflects the same-group interpretation; adult-neurogenesis controversy applies.
+*Certainty Assessment:*: 0.75 raw × 0.80 review weight = discounted 0.60
+
+=== Videbech & Ravnkilde 2004 — Hippocampal Volume and Depression Meta-Analysis
+
+@Videbech2004HippocampalVolume
+
+*Full Citation:*: Videbech P, Ravnkilde B. Hippocampal volume and depression: a meta-analysis of MRI studies. _American Journal of Psychiatry_. 2004;161(11):1957–1966.
+*DOI:*: #link("https://doi.org/10.1176/appi.ajp.161.11.1957")[10.1176/appi.ajp.161.11.1957]
+*PMID:*: 15514393
+*Study Design:*: Meta-analysis of MRI volumetric studies
+*Key Findings:*:
+    - Depression is associated with reduced hippocampal volume, particularly left hippocampus in recurrent depression.
+*Conclusion:*: Provides neuroimaging-level corroboration of hippocampal dysfunction that the Peng 2026 molecular finding extends to the cellular level.
+*Limitations:*: Older (2004) meta-analysis; heterogeneity across studies; structural volume does not directly measure neurogenesis.
+*Certainty Assessment:*: 0.70 raw × 0.85 human-imaging meta-analysis weight = discounted 0.60
+
+=== Gandy et al.\ 2017 — Pattern Separation as a Marker of Impaired Hippocampal Neurogenesis in MDD
+
+@Gandy2017PatternSeparation
+
+*Full Citation:*: Gandy K, Kim S, Sharp C, Gandy L, Schinder AF, Sahay A, Hen R. Pattern separation: a potential marker of impaired hippocampal adult neurogenesis in major depressive disorder. _Frontiers in Neuroscience_. 2017;11:571.
+*DOI:*: #link("https://doi.org/10.3389/fnins.2017.00571")[10.3389/fnins.2017.00571]
+*PMID:*: 29123464 · *PMCID:*: PMC5662616
+*Study Design:*: Review/perspective
+*Key Findings:*:
+    - Pattern separation (discriminating similar experiences) is a canonical function of dentate gyrus newborn neurons.
+    - Proposes pattern separation as a behavioral marker of impaired adult hippocampal neurogenesis in MDD.
+*Conclusion:*: Directly supports the pattern-separation-impaired-in-depression claim that anchors the Peng 2026 cognitive framing.
+*Limitations:*: Review/perspective; pattern separation is not exclusively dependent on neurogenesis; mainly rodent-derived inference.
+*Certainty Assessment:*: 0.65 raw × 0.70 review weight = discounted 0.46
+
+=== Sorrells et al.\ 2018 — Human Hippocampal Neurogenesis Drops to Undetectable Levels in Adults (COMPETING/NULL)
+
+@Sorrells2018NeurogenesisDrops
+
+*Full Citation:*: Sorrells SF, Paredes MF, Cebrian-Silla A, Sandoval K, Qi D, Kelley KW, James D, Mayer S, Chang J, Auguste KI, Chang EF, Gutierrez AJ, Kriegstein AR, Mathern GW, Oldham MC, Huang EJ, Garcia-Verdugo JM, Yang Z, Alvarez-Buylla A. Human hippocampal neurogenesis drops sharply in children to undetectable levels in adults. _Nature_. 2018;555(7696):377–381.
+*DOI:*: #link("https://doi.org/10.1038/nature25975")[10.1038/nature25975]
+*PMID:*: 29513649 · *PMCID:*: PMC6179355
+*Study Design:*: Post-mortem multi-method neurogenesis analysis (DCX, Ki67, PCNA) with optimized fixation
+*Key Findings:*:
+    - Hippocampal neurogenesis is robust in children but drops sharply to undetectable or very low levels in adults.
+    - Challenges the premise that adult hippocampal neurogenesis persists at functionally meaningful levels.
+*Conclusion:*: A central competing/null position that contests the foundation of the stalled-neurogenesis-in-MDD interpretation; must be weighed against Boldrini 2018 and single-nucleus studies.
+*Limitations:*: Fixation/method debates; conflicts with Boldrini 2018 and Peng 2026; the adult-neurogenesis question remains unresolved.
+*Certainty Assessment:*: 0.75 raw × 0.90 human weight = discounted 0.68
+
+=== Sorrells et al.\ 2021 — Positive Controls Support Few New Neurons in Adult Hippocampus (COMPETING/NULL)
+
+@Sorrells2021PositiveControls
+
+*Full Citation:*: Sorrells SF, Paredes MF, Zhang Z, Kang G, Pastor-Alonso O, Biagiotti S, Page CE, Sandoval K, Knox A, Connolly A, Huang EJ, Garcia-Verdugo JM, Oldham MC, Yang Z, Alvarez-Buylla A. Positive controls in adults and children support that very few, if any, new neurons are born in the adult human hippocampus. _Journal of Neuroscience_. 2021;41(12):2554–2565.
+*DOI:*: #link("https://doi.org/10.1523/JNEUROSCI.0676-20.2020")[10.1523/JNEUROSCI.0676-20.2020]
+*PMID:*: 33762407 · *PMCID:*: PMC8018729
+*Study Design:*: Post-mortem analysis with positive controls
+*Key Findings:*:
+    - Using positive controls, concludes very few, if any, new neurons are born in the adult human hippocampus.
+    - Strengthens the Sorrells 2018 null position against robust adult human neurogenesis.
+*Conclusion:*: Reinforces the competing/null position; the field remains unresolved between the Sorrells null and the persistence-supporting single-nucleus studies.
+*Limitations:*: Within-field controversy; cannot fully exclude low-level neurogenesis.
+*Certainty Assessment:*: 0.75 raw × 0.85 human weight = discounted 0.64
+
+=== Snyder et al.\ 2011 — Adult Hippocampal Neurogenesis Buffers Stress and Depressive Behaviour (ANIMAL)
+
+@Snyder2011BuffersStress
+
+*Full Citation:*: Snyder JS, Soumier A, Brewer M, Pickel J, Cameron HA. Adult hippocampal neurogenesis buffers stress responses and depressive behaviour. _Nature_. 2011;476(7361):458–461.
+*DOI:*: #link("https://doi.org/10.1038/nature10287")[10.1038/nature10287]
+*PMID:*: 21814201 · *PMCID:*: PMC3162077
+*Study Design:*: Transgenic and radiation ablation of adult neurogenesis in mice
+*Key Findings:*:
+    - Neurogenesis-deficient mice show slower glucocorticoid recovery after stress and less dexamethasone suppression — impaired HPA-axis negative feedback.
+    - Neurogenesis-deficient mice show increased behavioural despair and anhedonia (decreased sucrose preference).
+*Conclusion:*: Directly links adult hippocampal neurogenesis to HPA-axis regulation and depression, the mechanistic backbone of the Peng 2026 stress-related-reprogramming finding.
+*Limitations:*: Animal model; HPA-axis role inferred; translatability to humans unproven.
+*Certainty Assessment:*: 0.85 raw × 0.50 animal weight = discounted 0.43
+
+=== Anacker & Hen 2017 — Adult Hippocampal Neurogenesis and Cognitive Flexibility (REVIEW)
+
+@Anacker2017CognitiveFlex
+
+*Full Citation:*: Anacker C, Hen R. Adult hippocampal neurogenesis and cognitive flexibility -- linking memory and mood. _Nature Reviews Neuroscience_. 2017;18(6):335–346.
+*DOI:*: #link("https://doi.org/10.1038/nrn.2017.45")[10.1038/nrn.2017.45]
+*PMID:*: 28469276
+*Study Design:*: Review
+*Key Findings:*:
+    - Links adult hippocampal neurogenesis to cognitive flexibility, memory, and mood regulation.
+    - Reviews evidence that neurogenesis contributes to pattern separation, cognitive flexibility, and emotional regulation.
+*Conclusion:*: Provides the conceptual framework connecting a molecular neurogenesis deficit to the cognitive and mood symptoms of depression.
+*Limitations:*: Review; largely rodent-derived evidence; senior author overlap with Boldrini/Peng groups.
+*Certainty Assessment:*: 0.80 raw × 0.80 review weight = discounted 0.64
+
+=== Papadopoulos & Cleare 2012 — HPA Axis Dysfunction in CFS (INDIRECT LINK TO ME/CFS)
+
+@Papadopoulos2011HPAaxis
+
+*Full Citation:*: Papadopoulos AS, Cleare AJ. Hypothalamic-pituitary-adrenal axis dysfunction in chronic fatigue syndrome. _Nature Reviews Endocrinology_. 2012;8(1):22–32.
+*DOI:*: #link("https://doi.org/10.1038/nrendo.2011.153")[10.1038/nrendo.2011.153]
+*PMID:*: 21946893
+*Study Design:*: Review
+*Key Findings:*:
+    - CFS is commonly associated with HPA-axis dysfunction, typically mild hypocortisolism and blunted HPA responses.
+    - Reviews the evidence and caveats (confounding, sampling) for HPA-axis abnormality in CFS.
+*Conclusion:*: Since adult hippocampal neurogenesis is coupled to HPA-axis function and glucocorticoid signaling (per Snyder 2011), HPA-axis dysfunction in ME/CFS is a plausible indirect route by which neurogenic suppression could occur — a bridge between the depression-neurogenesis axis and ME/CFS.
+*Limitations:*: Review; HPA abnormality in CFS is mild and heterogeneous; indirect link to neurogenesis is inferred, not directly tested.
+*Certainty Assessment:*: 0.70 raw × 0.80 CFS-review weight = discounted 0.56
+
+=== Fernández-Castañeda et al.\ 2022 — Mild Respiratory COVID Causes Hippocampal Neurogenesis Dysregulation (INDIRECT LINK VIA LONG COVID)
+
+@FernandezCastaneda2022MildCOVID
+
+*Full Citation:*: Fernández-Castañeda A, Lu P, Geraghty AC, Song E, Lee MH, Wood J, O'Dea MR, Dutton S, Shamardani K, Nwangwu K, Mancusi R, Yalçın B, Taylor KR, Acosta-Alvarez L, Malacon K, Keough MB, Ni L, Woo PJ, Contreras-Esquivel D, Toland AMS, Gehlhausen JR, Klein J, Takahashi T, Silva J, Israelow B, Lucas C, Mao T, Peña-Hernández MA, Tabachnikova A, Homer RJ, Tabacof L, Tosto-Mancuso J, Breyman E, Kontorovich A, McCarthy D, Quezado M, Vogel H, Hefti MM, Perl DP, Liddelow S, Folkerth R, Putrino D, Nath A, Iwasaki A, Monje M. Mild respiratory COVID can cause multi-lineage neural cell and myelin dysregulation. _Cell_. 2022;185(14):2452–2468.
+*DOI:*: #link("https://doi.org/10.1016/j.cell.2022.06.008")[10.1016/j.cell.2022.06.008]
+*PMID:*: 35768006 · *PMCID:*: PMC9189143
+*Study Design:*: Animal (mouse) + human post-mortem and biomarker study
+*Key Findings:*:
+    - Even mild respiratory SARS-CoV-2 infection causes persistently impaired hippocampal neurogenesis, decreased oligodendrocytes, and myelin loss in mice.
+    - Driven by white-matter-selective microglial reactivity and elevated CCL11; human long-COVID patients with cognitive symptoms have elevated CCL11.
+*Conclusion:*: Demonstrates that a post-viral state can suppress adult hippocampal neurogenesis — the same pathway implicated in MDD (Peng 2026) — and is highly relevant to ME/CFS given its frequent post-infectious onset and long-COVID overlap.
+*Limitations:*: Predominantly mouse data; human sample small; long-COVID rather than ME/CFS-specific.
+*Certainty Assessment:*: 0.80 raw × 0.80 animal+human post-viral weight = discounted 0.64
