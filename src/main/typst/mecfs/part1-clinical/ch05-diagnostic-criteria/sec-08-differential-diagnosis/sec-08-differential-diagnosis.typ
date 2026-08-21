@@ -330,7 +330,7 @@ This cascading model suggests that identifying and treating upstream conditions 
 
     - *Step 2: Rule out exclusions via laboratory testing*
     
-        - CBC, CMP, TSH/free T4, ESR/CRP, ANA, vitamin D, B12, sleep study
+        - CBC, CMP (including serum calcium), TSH/free T4, ESR/CRP, ANA, vitamin D, B12, sleep study
         - If positive finding that fully explains symptoms → Treat that condition
         - If tests normal or findings insufficient to explain severity → Proceed to Step 3
     

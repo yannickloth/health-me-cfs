@@ -1004,3 +1004,16 @@ Prevents re-processing of already-integrated content.
 |-----|--------|---------|------------|--------|
 | PubMed E-utilities API (39 queries + efetch/esummary, batch) | pubmed/eutils | 2026-08-19 | — | ops/research/search-log-gastroparesis-2026-08-19.md, ops/research/literature-summary-gastroparesis.md, bib/gut-microbiome.bib (6 new), bib/treatments.bib (4 new), bib/autonomic-cardiovascular.bib (2 new), bib/long-covid.bib (1 new), appendix-h (13 annotated entries, sec:bib-gastroparesis) — gastroparesis/delayed gastric emptying in ME/CFS (direct Burnet 2004 + null Corrado 1998 + mechanism Grover 2011/Wang 2009/Debourdeau 2024 + diagnostic Wise 2021 + treatment Ingrosso 2023/Patel 2024/Gupta 2016 + harm Shakhatreh 2019 + POTS Tseng 2019/Aziz 2025 + post-viral Montalvo 2022) |
 | Crossref API (4 DOIs) | crossref | 2026-08-19 | — | DOI 10.1186/1471-230X-4-32 (Burnet 2004), 10.1111/nmo.14314 (Montalvo 2022), 10.1053/j.gastro.2011.01.046 (Grover 2011), 10.1111/j.1365-2982.2009.01336.x (Wang 2009) metadata verification |
+
+---
+
+## Hyperparathyroidism Differential Diagnosis Literature Search (2026-08-21)
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-08-21 | 27 queries: direct (hyperparathyroidism × ME/CFS/CFS/fibromyalgia), misdiagnosis (HPT misdiagnosed CFS/FM), null/negative (PHPT fibromyalgia prevalence, hypercalcemia CFS), indirect biochemical MANDATORY (hypercalcemia fatigue/cognitive/neuromuscular, PTH fatigue, secondary HPT vitamin D), guideline (ME Association calcium recommendation). Crossref for Borgia 2012 DOI verification. NICE NG206 + ME Association as guideline sources. Null+misdiagnosis+indirect-biochemical searches MANDATORY included. |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed E-utilities API (27 queries + esummary/efetch, batch) | pubmed/eutils | 2026-08-21 | — | ops/research/search-log-hyperparathyroidism-differential-2026-08-21.md, ops/research/literature-summary-hyperparathyroidism-differential-2026-08-21.md, bib/endocrine-reproductive.bib (9 new), appendix-h (9 annotated entries, sec:bib-hyperparathyroidism-differential) — hyperparathyroidism as differential diagnosis for ME/CFS (misdiagnosis Costa 2016/Borgia 2012 + null Ferrari 2015 + treatment response Adkisson 2014/Liu 2021 + neuropsychiatric Mairinger 2026/Koman 2022 + reviews Oberger Marques 2020/Wootton 2026) |
+| Crossref API (1 DOI) | crossref | 2026-08-21 | — | DOI 10.1016/j.reumae.2012.06.019 (Borgia 2012 metadata verification) |
+| https://www.nice.org.uk/guidance/ng206/chapter/Recommendations | nice.org.uk | 2026-08-21 | — | NICE NG206 rec 1.2.3 — "calcium and phosphate" among investigations to exclude other diagnoses in suspected ME/CFS (guideline basis for endocrine exclusion requirement) |

@@ -9110,6 +9110,133 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
 
 // =============================================================================
 
+== Hyperparathyroidism as a Differential Diagnosis for ME/CFS
+<sec:bib-hyperparathyroidism-differential>
+// =============================================================================
+
+The ME Association recommends checking serum calcium before an ME/CFS diagnosis because hyperparathyroidism causes fatigue, cognitive impairment, muscle weakness, thirst/polyuria, depression and other symptoms that overlap ME/CFS and fibromyalgia. The NICE guideline (NG206, recommendation 1.2.3) lists "calcium and phosphate" among the investigations to exclude other diagnoses when ME/CFS is suspected. The papers below document the symptom overlap, the risk of misdiagnosis in fibromyalgia cohorts, the reversibility of fatigue/cognitive symptoms after parathyroidectomy, and the diagnostic workup.
+
+=== Costa et al.\ 2016 — High Frequency of Asymptomatic Hyperparathyroidism in Fibromyalgia
+
+    *Full Citation:*: Costa JM, Ranzolin A, da Costa Neto CA, Marques CDL, Duarte ALBP. High frequency of asymptomatic hyperparathyroidism in patients with fibromyalgia: random association or misdiagnosis? _Revista Brasileira de Reumatologia_. 2016;56(5):391--397. @Costa2016hyperpara
+    *DOI:*: #link("https://doi.org/10.1016/j.rbre.2016.03.008")[10.1016/j.rbre.2016.03.008]
+    *PMID:*: 27692388
+    *Study Design:*: Cross-sectional study
+    *Sample Size:*: 100 women with fibromyalgia, 57 healthy women
+    *Key Findings:*:
+        - Hypercalcemic hyperparathyroidism diagnosed in 6% of fibromyalgia patients
+        - 17% showed isolated high PTH (normocalcemic hyperparathyroidism), frequencies higher than expected for age
+        - PTH significantly higher in FM (57.06 $\pm$ 68.98 pg/mL) vs controls (37.12 $\pm$ 19.02 pg/mL, $p$ = 0.001)
+        - No association between hyperparathyroidism and FM symptoms except epigastric pain ($p$ = 0.012)
+    *Conclusion:*: A high frequency of hyperparathyroidism is present in women with fibromyalgia; some of these may be misdiagnosed cases of hyperparathyroidism rather than fibromyalgia. (Raw certainty: 0.55, from fibromyalgia population → discounted to 0.44.)
+    *Limitations:*: Small sample; single centre; cross-sectional so causality cannot be established; authors call for larger longitudinal studies.
+
+=== Ferrari et al.\ 2015 — Prevalence of Primary Hyperparathyroidism in Fibromyalgia (Null Result)
+
+    *Full Citation:*: Ferrari R, Russell AS. Prevalence of primary hyperparathyroidism in a referred sample of fibromyalgia patients. _Clinical Rheumatology_. 2015;34(7):1279--1283. @Ferrari2015hyperpara
+    *DOI:*: #link("https://doi.org/10.1007/s10067-014-2735-7")[10.1007/s10067-014-2735-7]
+    *PMID:*: 24985043
+    *Study Design:*: Cross-sectional prevalence study
+    *Sample Size:*: 125 fibromyalgia, 127 widespread-pain, 138 localized-pain patients
+    *Key Findings:*:
+        - PHPT prevalence was 6.4% (FM), 5.5% (widespread pain), 6.1% (localized pain)
+        - No significant difference between groups or versus published general-population prevalence
+    *Conclusion:*: The prevalence of primary hyperparathyroidism in fibromyalgia is not different from that in the general population. (Raw certainty: 0.60, from fibromyalgia population → discounted to 0.48.)
+    *Limitations:*: Referred (tertiary) sample; prevalence relative to general population inferred from published figures rather than a matched local control group.
+
+=== Adkisson et al.\ 2014 — Fibromyalgia Symptoms Respond to Parathyroidectomy
+
+    *Full Citation:*: Adkisson CD, Yip L, Armstrong MJ, Stang MT, Carty SE, McCoy KL. Fibromyalgia symptoms and medication requirements respond to parathyroidectomy. _Surgery_. 2014;156(6):1614--1620. @Adkisson2014hyperpara
+    *DOI:*: #link("https://doi.org/10.1016/j.surg.2014.08.063")[10.1016/j.surg.2014.08.063]
+    *PMID:*: 25456962
+    *Study Design:*: Retrospective cohort
+    *Sample Size:*: 2184 sporadic primary hyperparathyroidism patients; 80 (4%) with prior fibromyalgia diagnosis
+    *Key Findings:*:
+        - 97.3% achieved cure (normocalcemia at $\geq$ 6 months)
+        - After parathyroidectomy, 89% had improvement in $\geq$ 1 FM-attributed symptom; improved cognition/memory most common (80%)
+        - Narcotics down in 77%, anti-inflammatories 74%, FM-specific medications 33%, antidepressants 30%; 21% discontinued all FM medications
+    *Conclusion:*: Fibromyalgia is common in patients operated on for sporadic PHPT; after parathyroidectomy most report symptom response. Providers should exclude PHPT before diagnosing FM because it is surgically correctable. (Raw certainty: 0.70, from fibromyalgia-comorbid population → discounted to 0.56.)
+    *Limitations:*: Retrospective, single institution; FM diagnosis based on prior clinical history; no sham-surgery control for the placebo effect of surgery.
+
+=== Borgia et al.\ 2012 — Hyperparathyroidism, a Forgotten Cause of Musculoskeletal Pain
+
+    *Full Citation:*: Borgia AR, Cavallasca JA, Costa CA, Musuruana JL. Hyperparathyroidism, a forgotten cause of musculoskeletal pain. _Reumatologia Clinica_. 2012;8(5):299--301. @Borgia2012hyperpara
+    *DOI:*: #link("https://doi.org/10.1016/j.reumae.2012.06.019")[10.1016/j.reumae.2012.06.019]
+    *PMID:*: 22658789
+    *Study Design:*: Case series / perspective
+    *Key Findings:*:
+        - Documents hyperparathyroidism as a frequently overlooked cause of musculoskeletal pain that can be mistaken for fibromyalgia or other rheumatic syndromes
+    *Conclusion:*: Hyperparathyroidism should be considered in the differential diagnosis of musculoskeletal pain and fatigue syndromes. (Raw certainty: 0.30, from fibromyalgia/musculoskeletal population → discounted to 0.24.)
+    *Limitations:*: Case series; no abstract available on PubMed; limited generalizability; illustrative rather than systematic.
+
+=== Mairinger et al.\ 2026 — Neuropsychiatric Manifestations of Primary Hyperparathyroidism
+
+    *Full Citation:*: Mairinger M, Godbersen GM, Kasper S. Neuropsychiatric manifestations of primary hyperparathyroidism. _Wiener klinische Wochenschrift_. 2026;138(7-8):232--240. @Mairinger2026hyperpara
+    *DOI:*: #link("https://doi.org/10.1007/s00508-025-02688-3")[10.1007/s00508-025-02688-3]
+    *PMID:*: 41504896
+    *Study Design:*: Narrative review
+    *Key Findings:*:
+        - Neuropsychiatric manifestations occur in ~25% of patients with primary hyperparathyroidism
+        - Symptoms range from depression, anxiety, fatigue and cognitive dysfunction (common) to mania, delirium, psychosis (rare)
+        - Proposed multifactorial pathophysiology: elevated PTH and hypercalcemia affecting monoamine neurotransmission and neuroinflammation
+    *Conclusion:*: Fatigue and cognitive symptoms of PHPT overlap those of ME/CFS, supporting hyperparathyroidism as a differential to exclude in the pre-ME/CFS-diagnosis workup. (Raw certainty: 0.50, from general population → discounted to 0.38.)
+    *Limitations:*: Narrative review; no systematic meta-analysis; pathophysiologic mechanisms partly speculative.
+
+=== Koman et al.\ 2022 — Neuropsychiatric Comorbidity in Primary Hyperparathyroidism: Population Study
+
+    *Full Citation:*: Koman A, Bränström R, Pernow Y, Bränström R, Nilsson IL, Granath F. Neuropsychiatric comorbidity in primary hyperparathyroidism before and after parathyroidectomy: a population study. _World Journal of Surgery_. 2022;46(6):1420--1430. @Koman2022hyperpara
+    *DOI:*: #link("https://doi.org/10.1007/s00268-022-06485-1")[10.1007/s00268-022-06485-1]
+    *PMID:*: 35246714
+    *Study Design:*: Population case-control + prospective cohort
+    *Sample Size:*: 8279 PHPT patients treated with parathyroidectomy vs 82,790 matched controls
+    *Key Findings:*:
+        - Pre-operatively, PHPT patients used significantly more antidepressants, anxiolytics and sleep medication (benzodiazepines OR 1.40, 95% CI 1.31--1.50; SSRIs OR 1.38, 95% CI 1.30--1.47)
+        - Postoperatively the excess anxiolytic benzodiazepine use fell (30% to 19%) and sleep benzodiazepines (31% to 14%); no decrease for SSRIs
+    *Conclusion:*: PHPT is associated with increased neuropsychiatric medication use; some psychiatric symptoms improve after parathyroidectomy. (Raw certainty: 0.70, from general population → discounted to 0.53.)
+    *Limitations:*: Medication use as proxy for psychiatric comorbidity; register-based; does not directly assess fatigue or cognitive symptoms.
+
+=== Oberger Marques & Moreira\ 2020 — Primary Hyperparathyroidism (Rheumatology Review)
+
+    *Full Citation:*: Oberger Marques JV, Moreira CA. Primary hyperparathyroidism. _Best Practice & Research Clinical Rheumatology_. 2020;34(3):101514. @ObergerMarques2020hyperpara
+    *DOI:*: #link("https://doi.org/10.1016/j.berh.2020.101514")[10.1016/j.berh.2020.101514]
+    *PMID:*: 32336576
+    *Study Design:*: Narrative review (rheumatology)
+    *Key Findings:*:
+        - PHPT causes hypercalcemia from PTH hypersecretion; mostly asymptomatic now (80--90%)
+        - Symptoms include bone pain, nephrolithiasis, muscle weakness; atypical manifestations are neuropsychiatric/cognitive, neuromuscular, rheumatological, gastrointestinal
+        - Diagnosis usually from routine calcium measurement showing high total calcium with high or inappropriately normal PTH
+    *Conclusion:*: PHPT causes fatigue, muscle weakness and rheumatological symptoms that overlap ME/CFS; diagnosis is typically from a routine serum calcium measurement. (Raw certainty: 0.50, from general population → discounted to 0.38.)
+    *Limitations:*: Narrative review; no primary data; rheumatology-focused scope.
+
+=== Wootton et al.\ 2026 — Primary Hyperparathyroidism in Adults: Diagnosis and Management
+
+    *Full Citation:*: Wootton E, De Sousa SMC, Prince RL, McLeod DSA, Pattison DA, Grossmann M. Primary hyperparathyroidism in adults: recent developments in diagnosis and management. _Medical Journal of Australia_. 2026;224(5):e70194. @Wootton2026hyperpara
+    *DOI:*: #link("https://doi.org/10.5694/mja2.70194")[10.5694/mja2.70194]
+    *PMID:*: 42132449
+    *Study Design:*: Narrative review
+    *Key Findings:*:
+        - PHPT prevalence ~1% in the general population
+        - Diagnosis requires biochemical testing of serum calcium and PTH plus urine calcium, and screening for complications including neuropsychiatric disturbance
+        - Up to 10% have hereditary PHPT; surgery is curative
+    *Conclusion:*: Provides the diagnostic workup basis for excluding hyperparathyroidism (serum calcium + PTH) in the pre-ME/CFS-diagnosis evaluation. (Raw certainty: 0.50, from general population → discounted to 0.38.)
+    *Limitations:*: Narrative review; recent (2026) without long-term outcome data.
+
+=== Liu et al.\ 2021 — Neuropsychologic Changes After Parathyroidectomy
+
+    *Full Citation:*: Liu JY, Peine BS, Mlaver E, Patel SG, Weber CJ, Saunders ND, Pofahl WE, Sharma J. Neuropsychologic changes in primary hyperparathyroidism after parathyroidectomy from a dual-institution prospective study. _Surgery_. 2021;169(1):114--119. @Liu2021hyperpara
+    *DOI:*: #link("https://doi.org/10.1016/j.surg.2020.06.006")[10.1016/j.surg.2020.06.006]
+    *PMID:*: 32718801
+    *Study Design:*: Dual-institution prospective study
+    *Sample Size:*: 244 parathyroidectomy patients vs 161 thyroidectomy controls
+    *Key Findings:*:
+        - Neuropsychiatric symptoms improved after parathyroidectomy (6.2 [5.0--7.4], $p < 0.01$)
+        - Moderate-severe depression fell from 27.5% to 8.2% and anxiety from 18.0% to 5.3% after surgery (both $p < 0.01$)
+        - Postoperatively no difference in neuropsychiatric symptoms between groups ($p$ = 0.59)
+    *Conclusion:*: Neuropsychiatric symptoms (including fatigue-related) improve after parathyroidectomy, supporting the argument that reversible PHPT symptoms can mimic ME/CFS. (Raw certainty: 0.70, from general population → discounted to 0.53.)
+    *Limitations:*: No sham-surgery control; neuropsychiatric symptoms assessed by questionnaire; general surgical population not ME/CFS-specific.
+
+// =============================================================================
+
 == Circulating Cell-Free Mitochondrial DNA in Long COVID
 <sec:bib-cfmtdna-longcovid>
 // =============================================================================
