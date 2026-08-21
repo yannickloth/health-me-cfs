@@ -1,7 +1,7 @@
 ---
 name: chapter-inserter
 mode: subagent
-description: Make structural place for a new chapter between two existing chapters in the ME/CFS Typst book and renumber all subsequent chapters up by one. You do NOT write the new chapter's content — you open the slot and renumber the shifted chapters so a chapter can later be authored into it. Creates a placeholder chapter directory + aggregator (with a content-pending section), shifts every later chapter's directory/files, updates both build include lists (loth2026-mecfs.typ and loth2026-p4-build.typ), part-chapters.json, and every number-dependent reference (prose "Chapter N", lowercase chNN, hypothesis-registry chapter-ref, appendix-h, chapter-suffixed section labels, internal includes). Verifies typst compile, BuildWeb translation, and all audit tests. Use when a new chapter must be added at a mid-document position but its content is not ready yet. Works with Typst (.typ) files.
+description: Make structural place for a new chapter between two existing chapters in the ME/CFS Typst book and renumber all subsequent chapters up by one. You do NOT write the new chapter's content — you open the slot and renumber the shifted chapters so a chapter can later be authored into it. Creates a placeholder chapter directory + aggregator (with a content-pending section), shifts every later chapter's directory/files, updates the build include list (loth2026-mecfs.typ), part-chapters.json, and every number-dependent reference (prose "Chapter N", lowercase chNN, hypothesis-registry chapter-ref, appendix-h, chapter-suffixed section labels, internal includes). Verifies typst compile, BuildWeb translation, and all audit tests. Use when a new chapter must be added at a mid-document position but its content is not ready yet. Works with Typst (.typ) files.
 model: deepseek/deepseek-v4-pro
 ---
 
@@ -112,9 +112,9 @@ count: a `ch{NN}-brain-clearance-*` directory sharing the same numeric prefix mu
 keep its name and its `../ch{NN}-brain-clearance-*` include path. After each rename,
 verify the target slug matches the source (only the number changed).
 
-## Step 4: Update the two build include lists
+## Step 4: Update the build include list
 
-In `loth2026-mecfs.typ` AND `loth2026-p4-build.typ`:
+In `loth2026-mecfs.typ`:
 - Insert the new chapter's `#include` in reading order between the two boundaries.
 - Renumber every subsequent `#include` path to its +1 chapter number.
 
@@ -204,7 +204,7 @@ Placeholder:  {part}/ch{newNum}-{slug}/ch{newNum}-{slug}.typ
               (+ one sec-01-placeholder section marked #warning-env — awaiting content author)
 
 Updated:
-- loth2026-mecfs.typ / loth2026-p4-build.typ (include lists)
+- loth2026-mecfs.typ (include list)
 - part-chapters.json ({newNum} entry added; {N} entries shifted)
 - {N} files: prose "Chapter N" / chNN / registry / appendix-h references shifted
 - {N} chapter directories + aggregators renamed
