@@ -415,6 +415,18 @@ The premise that adult human hippocampal neurogenesis persists at a measureable 
 *Falsifiability:* Direct measurement of dentate-gyrus neurogenic markers (DCX, nestin, Ki67) in ME/CFS post-mortem or surgical hippocampal tissue showing density comparable to matched controls — and no correlation between such markers and ME/CFS fatigue severity — would falsify the proposal that a shared neurogenic suppression links ME/CFS to molecular depression; the claim would also weaken if a consensus assay established that adult human neurogenesis is undetectable by any method.
 ] <spec:molecular-reclassification-depression-mecfs-boundary>
 
+#synthesis(title: [The Molecular Depression–ME/CFS Boundary: A Convergent, Speculative Thread])[
+A molecular atlas showing stalled adult hippocampal neurogenesis in major depressive disorder @Peng2026NeurogenesisNatureMed raises the possibility — together with the related observation that a post-infectious state can suppress hippocampal neurogenesis @FernandezCastaneda2022MildCOVID — that primary molecular depression and the reactive low mood of ME/CFS may one day be distinguishable at the cellular level @oq:is-molecular-depression-distinct, and that a behavioural proxy (pattern separation) might make that distinction testable without tissue @spec:pattern-separation-depression-biomarker.
+
+The strongest constraint is the evidence vacuum on the ME/CFS side: there are no direct studies of adult hippocampal neurogenesis in ME/CFS, so every ME/CFS implication here is speculative rather than established @spec:molecular-reclassification-depression-mecfs-boundary.
+The field also disagrees whether adult human neurogenesis is measureable at all, so the entire thread is contingent on resolving that controversy.
+
+What the evidence supports is a reframing: depression is not a single serotonin-deficiency state but a heterogeneous molecular condition, and the depression–ME/CFS boundary may be molecular rather than purely clinical.
+What remains open is whether any neurogenesis-linked marker can actually discriminate the two in practice.
+
+*Consequence:* These independent threads point toward the same unresolved question — whether the low mood seen in ME/CFS is molecularly distinct from primary depression — which matters because the two would need different management, but answering it requires direct ME/CFS studies that do not yet exist and a reliable way to measure adult neurogenesis, which the field has not yet agreed on.
+] <syn:depression-hippocampal-neurogenesis-model>
+
 == Diagnostic Boundary Disputes: Historical Lessons
 
 #achievement(title: [Three Lessons from Historical Contested Diagnoses])[

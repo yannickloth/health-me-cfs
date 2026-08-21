@@ -43,4 +43,5 @@ Pattern separation is impaired in major depressive disorder and has been propose
 *Falsifiability:* In a ME/CFS cohort stratified by depression onset, patients with post-onset reactive low mood should perform normally on a mnemonic-similarity pattern-separation task, whereas the small expected subgroup with primary depression-like presentations should show selective pattern-separation impairment correlating with anhedonia rather than with fatigue or post-exertional malaise; the dissociation would be falsified if pattern-separation performance tracks fatigue/PEM instead of depression subtype.
 
 *Consequence:* If a simple memory task reliably separated "depression as a reaction to illness" from "depression as a brain change," it would give clinicians a non-invasive way to decide whether the two need different management — but it is a research hypothesis, not yet a clinical test.
+For the convergent cross-disease argument, see @syn:depression-hippocampal-neurogenesis-model.
 ] <spec:pattern-separation-depression-biomarker>
