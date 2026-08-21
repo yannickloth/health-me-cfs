@@ -411,6 +411,8 @@ The premise that adult human hippocampal neurogenesis persists at a measureable 
 *(Certainty: 0.64–0.80 for the depression-axis finding across supporting and competing studies; the ME/CFS extrapolation is a speculation, not an established mechanism.)* (Severity applicability: unknown — not stratified by ME/CFS severity.)
 
 *Consequence:* If depression becomes molecularly subclassifiable, the "is it depression or ME/CFS?" boundary could shift from clinical judgment toward biological testing — but only if ME/CFS neurogenesis is studied directly, which it has not been.
+
+*Falsifiability:* Direct measurement of dentate-gyrus neurogenic markers (DCX, nestin, Ki67) in ME/CFS post-mortem or surgical hippocampal tissue showing density comparable to matched controls — and no correlation between such markers and ME/CFS fatigue severity — would falsify the proposal that a shared neurogenic suppression links ME/CFS to molecular depression; the claim would also weaken if a consensus assay established that adult human neurogenesis is undetectable by any method.
 ] <spec:molecular-reclassification-depression-mecfs-boundary>
 
 == Diagnostic Boundary Disputes: Historical Lessons
