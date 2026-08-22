@@ -169,7 +169,7 @@ Fine-mapping of the eight significant loci plus sub-threshold hits ($p < 5 times
     - _UNC13C_ (chr15): predicted involvement in glutamatergic synaptic transmission
     - _BARHL2_ (chr1, sub-threshold): neuron generation and axon extension
 
-The convergence of these genes on neuronal communication and synaptic function is notable. Cross-referencing with the GWAS Catalog reveals that several of these genes have been independently associated with insomnia, depression, and chronic pain in other GWAS---conditions that share substantial clinical overlap with ME/CFS @MECFSScience2025decodeme2. According to the mecfsscience.org analysis, _OLFM4_ and _DCC_ were also identified in a 2025 fibromyalgia GWAS preprint, though the specific DNA signals at these loci differ between the two conditions, suggesting the same genes may be involved through different regulatory mechanisms @MECFSScience2025decodeme2.
+The convergence of these genes on neuronal communication and synaptic function is notable. Cross-referencing with the GWAS Catalog reveals that several of these genes have been independently associated with insomnia, depression, and chronic pain in other GWAS---conditions that share substantial clinical overlap with ME/CFS @MECFSScience2025decodeme2. According to the mecfsscience.org analysis, _OLFM4_ and _DCC_ were also identified in a 2025 fibromyalgia GWAS preprint, though the specific DNA signals at these loci differ between the two conditions, suggesting the same genes may be involved through different regulatory mechanisms @MECFSScience2025decodeme2. This overlap is now confirmed by the published multi-ancestry fibromyalgia GWAS of Kerrebijn et al.\ (2026), which reports shared risk regions (_OLFM4_, _RABGAP1L_) and the _GPR52_/_HTT_ axis with ME/CFS (Section @sec:kerrebijn-fibromyalgia-gwas) @Kerrebijn2026FibromyalgiaGWAS.
 
 *Immune function (ambiguous).* Several loci contain immune-relevant genes, but gene-dense regions create assignment ambiguity @MECFSScience2025decodeme2:
 
@@ -286,6 +286,32 @@ GWAS also enables Mendelian randomisation analyses testing causal relationships 
 
 {{/* Phase 3 synthesis: three-line genetic convergence on neuronal biology (cell-type enrichment findings, 2026-07-21) */}}
 #include "sec-01-misc/subsec-18-maccallini-2026-meta-gwas-brain-first-ge/syntheses/syn-genetic-neuronal-convergence.typ"
+
+=== Kerrebijn 2026 Fibromyalgia GWAS: CNS Genetic Architecture of a Key Comorbidity
+<sec:kerrebijn-fibromyalgia-gwas>
+
+The largest multi-ancestry GWAS of fibromyalgia (Kerrebijn et al.\ 2026, _Nature Medicine_, 2.56 million individuals) identifies 26 risk loci and demonstrates exclusive brain/neural-cell-type heritability enrichment, defining fibromyalgia genetically as a central-nervous-system (nociplastic) disorder @Kerrebijn2026FibromyalgiaGWAS. Because fibromyalgia co-occurs with ME/CFS in 20--70% of cases and both conditions show brain-enriched genetic architecture, this evidence bears directly on the shared genetic-vulnerability question raised by the DecodeME and Maccallini findings above (Sections @sec:maccallini-metagwas, @sec:decodeme-genes).
+
+#include "sec-01-misc/subsec-22-fibromyalgia-gwas-kerrebijn-2026/achievements/ach-kerrebijn-fibromyalgia-gwas.typ"
+
+#include "sec-01-misc/subsec-22-fibromyalgia-gwas-kerrebijn-2026/hypotheses/hyp-fibromyalgia-cns-shared-genetic-vulnerability.typ"
+
+#include "sec-01-misc/subsec-22-fibromyalgia-gwas-kerrebijn-2026/hypotheses/hyp-shared-transdiagnostic-cns-genetic-factor.typ"
+
+#include "sec-01-misc/subsec-22-fibromyalgia-gwas-kerrebijn-2026/open-questions/oq-fm-mecfs-genetic-correlation-untested.typ"
+
+#include "sec-01-misc/subsec-22-fibromyalgia-gwas-kerrebijn-2026/hypotheses/hyp-fibromyalgia-autoimmune-reconciliation.typ"
+
+#include "sec-01-misc/subsec-22-fibromyalgia-gwas-kerrebijn-2026/speculations/spec-gpr52-htt-shared-pathway-druggability.typ"
+
+#include "sec-01-misc/subsec-22-fibromyalgia-gwas-kerrebijn-2026/open-questions/oq-fm-mecfs-comorbidity-referral-artifact.typ"
+
+#include "sec-01-misc/subsec-22-fibromyalgia-gwas-kerrebijn-2026/limitations/lim-kerrebijn-fibromyalgia-gwas-limitations.typ"
+
+#include "sec-01-misc/subsec-22-fibromyalgia-gwas-kerrebijn-2026/limitations/lim-gpr52-agonist-availability-gap.typ"
+
+{{/* Phase 10a synthesis: shared central genetic architecture across fibromyalgia and ME/CFS */}}
+#include "sec-01-misc/subsec-22-fibromyalgia-gwas-kerrebijn-2026/syntheses/syn-fibromyalgia-genetics-shared-central-architecture.typ"
 
 #include "sec-01-misc/subsec-21-glp1-genetics/sec-glp1-genetics.typ"
 

@@ -469,7 +469,8 @@
         "thinking": {
           "type": "disabled"
         }
-      }
+      },
+      "prompt": "{file:../llm-harness-plugins/tier-router/agents/haiku-general.md}"
     },
     "hypothesis-compatibility-auditor": {
       "model": "deepseek/deepseek-v4-pro",
@@ -765,7 +766,8 @@
           "type": "enabled"
         },
         "reasoning_effort": "high"
-      }
+      },
+      "prompt": "{file:../llm-harness-plugins/tier-router/agents/opus-general.md}"
     },
     "pacing-coach": {
       "model": "deepseek/deepseek-v4-pro",
@@ -957,7 +959,8 @@
           "type": "enabled"
         },
         "reasoning_effort": "high"
-      }
+      },
+      "prompt": "{file:../llm-harness-plugins/tier-router/agents/sonnet-general.md}"
     },
     "sophist-attacker": {
       "model": "deepseek/deepseek-v4-pro",
