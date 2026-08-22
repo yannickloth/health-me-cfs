@@ -131,7 +131,7 @@ Interactions with commonly prescribed ME/CFS medications:
 
     - *Low-dose naltrexone (LDN)*: No known interactions with the supplements listed above.
     - *Beta-blockers*: CoQ10 may modestly reduce blood pressure; monitor if combining with propranolol or other antihypertensives.
-    - *SSRIs/SNRIs*: Omega-3 fatty acids may potentiate anticoagulant effects; 5-HTP (not listed above) should be avoided with serotonergic medications due to serotonin syndrome risk.
+    - *SSRIs/SNRIs*: Omega-3 fatty acids may potentiate anticoagulant effects; 5-HTP (not listed above) should be avoided with serotonergic medications due to serotonin syndrome risk. Saffron should likewise be avoided with SSRIs/SNRIs/MAOIs — it inhibits both SERT and MAO-A/B, raising serotonin-syndrome risk @Cauus2026HerbalSafety.
     - *Fludrocortisone*: Magnesium supplementation is advisable as fludrocortisone can increase magnesium excretion.
     - *Midodrine*: No significant interactions with listed supplements.
 

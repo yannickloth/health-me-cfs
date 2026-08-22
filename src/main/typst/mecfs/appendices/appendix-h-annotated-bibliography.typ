@@ -37157,3 +37157,216 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
 *Conclusion:*: Supports the NAC arm of the bridge in the Long-COVID population most relevant to ME/CFS.
 *Limitations:*: Review; no direct guanfacine+NAC combination data.
 *Certainty Assessment:*: 0.50 raw × 0.85 Long-COVID weight = discounted 0.43
+
+// =============================================================================
+// Added 2026-08-22 (Phase-1 literature-integrator)
+// =============================================================================
+<sec:bib-saffron>
+
+=== Dastan et al.\ 2025 — Saffron for Chronic Fatigue in COPD Patients (DIRECT FATIGUE RCT)
+
+@Dastan2025SaffronCFS
+
+*Full Citation:*: Dastan F, Salamzadeh J, Heshmatnia J, Mahmoudian R. Evaluating the Effects of Crocus sativus L. Herbal Product on Chronic Fatigue Syndrome in Patients with Chronic Obstructive Pulmonary Disease. _Iranian Journal of Pharmaceutical Research_. 2025;24(1):e165333.
+*DOI:*: #link("https://doi.org/10.5812/ijpr-165333")[10.5812/ijpr-165333]
+*PMID:*: 41477128
+*Study Design:*: Randomized, double-blind, placebo-controlled trial (saffron 30 mg twice daily x 8 weeks; n=37 intervention, n=34 placebo)
+*Key Findings:*:
+    - Saffron significantly improved chronic fatigue syndrome (Manchester COPD Fatigue Scale, $p < 0.001$) and CRQ total ($p < 0.001$) in COPD patients.
+    - QOL improved (SGRQ, P=0.012); no effect on dyspnea subscale (P=0.38).
+*Conclusion:*: Strongest direct saffron-fatigue RCT, but population is secondary CFS comorbid with COPD, not primary ME/CFS.
+*Limitations:*: Comorbid secondary fatigue; COPD population; no primary ME/CFS patients; single center.
+*Certainty Assessment:*: 0.45 raw × 0.40 comorbid-fatigue weight = discounted 0.18
+
+=== Moghimi Dehkordi et al.\ 2026 — Saffron for Sleep and Fatigue in Pulmonary Sarcoidosis (DIRECT FATIGUE RCT)
+
+@MoghimiDehkordi2026SaffronSarcoidosis
+
+*Full Citation:*: Moghimi Dehkordi Z, Salamzadeh J, Tavakoli-Ardakani M, Abedini A, Dastan F. Efficacy of a Saffron-Based (Crocus sativus L.) Herbal Supplement on Sleep Disturbances in Pulmonary Sarcoidosis Patients. _Iranian Journal of Pharmaceutical Research_. 2026;25(1):e169041.
+*DOI:*: #link("https://doi.org/10.5812/ijpr-169041")[10.5812/ijpr-169041]
+*PMID:*: 42483079
+*Study Design:*: Single-blind randomized controlled trial (saffron 30 mg twice daily x 60 days; N=76, 72 completed)
+*Key Findings:*:
+    - Saffron improved sleep (PSQI, GSDS), reduced daytime sleepiness (ESS) and fatigue (FAS, PROMIS-fatigue; all $p < 0.001$).
+    - Improved SF-12 physical and mental component scores; no serious adverse events.
+*Conclusion:*: Reduces fatigue and improves sleep in a chronic inflammatory lung disease, supporting a fatigue-domain effect; not primary ME/CFS.
+*Limitations:*: Single-blind; sarcoidosis population; secondary/symptom-level fatigue.
+*Certainty Assessment:*: 0.42 raw × 0.40 comorbid-fatigue weight = discounted 0.17
+
+=== Hajhashemy et al.\ 2026 — Saffron in Parkinson's Disease: Fatigue, Inflammation, Oxidative Stress (FATIGUE + INFLAMMATION RCT)
+
+@Hajhashemy2026SaffronPD
+
+*Full Citation:*: Hajhashemy Z, Bagherniya M, Sadeghi O. The effect of saffron supplementation on indices of oxidative stress, inflammation, mental health, and quality of life in patients with Parkinson's disease. _Food & Function_. 2026;17(2):889–901.
+*DOI:*: #link("https://doi.org/10.1039/d5fo01924a")[10.1039/d5fo01924a]
+*PMID:*: 41439298
+*Study Design:*: Triple-blind randomized controlled trial (saffron 100 mg/day x 12 weeks; N=92)
+*Key Findings:*:
+    - Saffron significantly reduced CRP (-3.84 mg/L, $p < 0.001$), fatigue (adjusted MD -9.20, $p < 0.001$), depression, anxiety, and distress.
+    - Improved cognitive status and sleep quality.
+*Conclusion:*: Reduces fatigue and systemic inflammation (CRP) in a chronic oxidative-stress population — mechanism-relevant to ME/CFS inflammatory/oxidative overlap.
+*Limitations:*: Parkinson's disease population, not ME/CFS; distinct disease.
+*Certainty Assessment:*: 0.45 raw × 0.45 cross-disease weight = discounted 0.20
+
+=== Amadieu et al.\ 2025 — Saffron for Subclinical Depression/Fatigue: A Null Trial (NULL RESULT)
+
+@Amadieu2025SaffronNullMood
+
+*Full Citation:*: Amadieu C, Leyrolle Q, Farneti M, et al. Effect of saffron extract supplementation on mood in healthy adults with subclinical symptoms of depression: a randomized, double-blind, placebo-controlled trial. _American Journal of Clinical Nutrition_. 2025;122(6):1625–1635.
+*DOI:*: #link("https://doi.org/10.1016/j.ajcnut.2025.09.050")[10.1016/j.ajcnut.2025.09.050]
+*PMID:*: 41047129
+*Study Design:*: Randomized, double-blind, placebo-controlled trial (6 weeks; N=51 healthy adults, subclinical depressive symptoms; NCT05690126)
+*Key Findings:*:
+    - Saffron did NOT significantly affect the primary composite outcome (depression, anxiety, fatigue) nor individual symptoms including fatigue.
+    - Only autoperceived mental health improved (SF-12 mental, P=0.04); no effect on inflammatory markers or HPA-axis reactivity.
+*Conclusion:*: CRITICAL NULL: saffron does not improve fatigue/depression in healthy subclinical adults; the mental-health effect is weak and unconfirmed.
+*Limitations:*: Healthy subclinical population; small sample; 6 weeks.
+*Certainty Assessment:*: 0.60 raw × 0.70 healthy-adult weight = discounted 0.42
+
+=== Dimech 2026 — The Role of Saffron in Depression (CONTEXT REVIEW)
+
+@Dimech2026SaffronDepressionReview
+
+*Full Citation:*: Dimech L. The Role of Saffron in the Treatment of Depression: A Literature Review. _Cureus_. 2026;18(3):e104594.
+*DOI:*: #link("https://doi.org/10.7759/cureus.104594")[10.7759/cureus.104594]
+*PMID:*: 41939549
+*Study Design:*: Literature review (RCTs, meta-analyses, safety, mechanisms)
+*Key Findings:*:
+    - Across placebo-controlled trials in mild-to-moderate depression, saffron (commonly 30 mg/day x ~6 weeks) produces clinically meaningful HAM-D reductions.
+    - Head-to-head studies suggest comparable short-term efficacy to fluoxetine/imipramine but are underpowered.
+*Conclusion:*: Establishes saffron's serotonergic/mood-modulating profile; GENERAL depression evidence, not ME/CFS- or fatigue-specific.
+*Limitations:*: General depression focus; underpowered head-to-head trials; no ME/CFS data.
+*Certainty Assessment:*: 0.55 raw × 0.85 general-mood weight = discounted 0.47
+
+=== Căuș et al.\ 2026 — Herbal Supplement Safety: Serotonin Syndrome and Drug Interactions (HARM)
+
+@Cauus2026HerbalSafety
+
+*Full Citation:*: Căuș MN, Lupoae M, Chițescu CL. Efficacy and Safety of Herbal Supplements with Anxiolytic, Antidepressant, and Sedative Action: A Review of Clinical Data. _Pharmaceuticals (Basel)_. 2026;19(3):399.
+*DOI:*: #link("https://doi.org/10.3390/ph19030399")[10.3390/ph19030399]
+*PMID:*: 41901246
+*Study Design:*: Narrative clinical review
+*Key Findings:*:
+    - Herbal serotonergic supplements (incl. Crocus sativus) carry clinically relevant risks: serotonin syndrome (esp. with SSRIs/MAOIs), CYP450-mediated drug interactions, excessive sedation, product adulteration.
+*Conclusion:*: Establishes the serotonergic-herb interaction warning relevant to the paper's serotonin-syndrome and MAOI/SSRI contraindication content.
+*Limitations:*: Narrative review; not saffron-specific in all detail.
+*Certainty Assessment:*: 0.55 raw × 0.85 clinical-review weight = discounted 0.47
+
+=== Alshdefat et al.\ 2026 — Saffron and Pregnancy Safety (PREGNANCY HARM)
+
+@Alshdefat2026SaffronPregnancy
+
+*Full Citation:*: Alshdefat A, Ayed A, Aqtam I, Ibitoye O, Vincent S, Furqani AA. Saffron and Pregnancy: Cultural Practices, Beliefs, and Safety Evidence: An Integrative Review. _Journal of Evidence-Based Integrative Medicine_. 2026;31:2515690X261455162.
+*DOI:*: #link("https://doi.org/10.1177/2515690X261455162")[10.1177/2515690X261455162]
+*PMID:*: 42186868
+*Study Design:*: Integrative review (12 studies)
+*Key Findings:*:
+    - Low-dose saffron (~250 mg/day) may facilitate cervical ripening, reduce labor pain/anxiety, shorten labor — dose-dependent.
+    - Higher doses or occupational exposure linked to uterine stimulation (potential abortifacient/uterine-contraction risk).
+*Conclusion:*: Mandatory harm reference for a nutraceutical treatment topic: cautions against saffron in pregnancy, especially at high dose.
+*Limitations:*: Integrative review; limited high-quality trial data.
+*Certainty Assessment:*: 0.55 raw × 0.85 clinical-review weight = discounted 0.47
+
+=== De la Fuente Muñoz et al.\ 2023 — Saffron Shifts Kynurenine Pathway Toward Melatonin (KEY TRYPTOPHAN-KYNURENINE AXIS; ANIMAL)
+
+@DeLaFuenteMunoz2023AffronKynurenine
+
+*Full Citation:*: De la Fuente Muñoz M, Román-Carmena M, Amor S, et al. Effects of Supplementation with the Standardized Extract of Saffron (affron) on the Kynurenine Pathway and the Synthesis of Melatonin in Rats. _Antioxidants (Basel)_. 2023;12(8):1619.
+*DOI:*: #link("https://doi.org/10.3390/antiox12081619")[10.3390/antiox12081619]
+*PMID:*: 37627614
+*Study Design:*: Animal model (rat), standardized saffron extract (affron, 150 mg/kg x 7 days)
+*Key Findings:*:
+    - Affron DECREASED SERUM KYNURENINE and increased circulating melatonin, testosterone, and c-HDL.
+    - Framed against the tryptophan/kynurenine/serotonin/melatonin axis: saffron shifts balance away from kynurenine toward melatonin/serotonin.
+*Conclusion:*: DIRECT mechanism-level bridge to the paper's serotonergic-bottleneck and tryptophan-kynurenine models (IDO/kynurenine-dopamine, Phair IDO trap).
+*Limitations:*: Animal model; 7 days; standardized extract, not whole saffron.
+*Certainty Assessment:*: 0.35 raw × 0.30 animal weight = discounted 0.11
+
+=== Mohammadi et al.\ 2023 — Crocin/Crocetin Bind SERT and Inhibit NMDA (KEY SEROTONIN-REUPTAKE + NMDA MECHANISM; ANIMAL)
+
+@Mohammadi2023SaffronSERT
+
+*Full Citation:*: Mohammadi S, Naseri M, Faridi N, Zareie P, Zare L, Mirnajafi-Zadeh J, Bathaie SZ. Saffron carotenoids reversed the UCMS-induced depression and anxiety in rats: Behavioral and biochemical parameters, and inhibition of NMDA receptor. _Phytomedicine_. 2023;119:154989.
+*DOI:*: #link("https://doi.org/10.1016/j.phymed.2023.154989")[10.1016/j.phymed.2023.154989]
+*PMID:*: 37506574
+*Study Design:*: Animal model (UCMS rat), crocin and crocetin vs fluoxetine
+*Key Findings:*:
+    - Crocin/crocetin bind the SEROTONIN TRANSPORTER (SLC6A4) at the same site as fluoxetine and increase serum serotonin.
+    - Crocetin inhibits NMDA NR2B receptor (ifenprodil site), reducing NMDA amplitude; increases hippocampal CREB/ERK/BDNF/p11/5-HT1B.
+*Conclusion:*: Molecular basis for saffron's SSRI-like serotonergic action AND an NMDA/excitotoxicity-modulation arm — relevant to serotonergic-bottleneck and kynurenine-NMDA content.
+*Limitations:*: Animal model; depression (not ME/CFS) model.
+*Certainty Assessment:*: 0.35 raw × 0.30 animal weight = discounted 0.11
+
+=== Wauquier et al.\ 2022 — Human Saffron Metabolites Inhibit SERT and Protect Neurons (KEY HUMAN SERT-MECHANISM; EX VIVO)
+
+@Wauquier2022SaffronSERT
+
+*Full Citation:*: Wauquier F, Boutin-Wittrant L, Pourtau L, et al. Circulating Human Serum Metabolites Derived from the Intake of a Saffron Extract Protect Human Neurons from Oxidative Stress-Induced Neurotoxicity. _Nutrients_. 2022;14(7):1511.
+*DOI:*: #link("https://doi.org/10.3390/nu14071511")[10.3390/nu14071511]
+*PMID:*: 35406124
+*Study Design:*: Ex vivo human (post-ingestion serum metabolites on human neurons)
+*Key Findings:*:
+    - Human saffron metabolites protect neurons from oxidative-stress neurotoxicity (preserve viability, increase BDNF), stimulate dopamine/serotonin release.
+    - Inhibit SERT expression and downregulate serotonin metabolism.
+*Conclusion:*: HUMAN-based evidence for saffron's serotonergic (SERT-inhibiting) and oxidative-stress-protective actions — bridge to serotonergic-bottleneck and oxidative-stress content.
+*Limitations:*: Ex vivo metabolomics of human post-ingestion serum; not in vivo clinical outcome.
+*Certainty Assessment:*: 0.50 raw × 0.55 human-ex-vivo weight = discounted 0.28
+
+=== De Monte et al.\ 2014 — Saffron's Safranal and Crocin Inhibit Human MAO (MECHANISM — hMAO INHIBITION; IN VITRO)
+
+@DeMonte2014SafranalMAO
+
+*Full Citation:*: De Monte C, Carradori S, Chimenti P, et al. New insights into the biological properties of Crocus sativus L.: chemical modifications, human monoamine oxidases inhibition and molecular modeling. _European Journal of Medicinal Chemistry_. 2014;82:164–171.
+*DOI:*: #link("https://doi.org/10.1016/j.ejmech.2014.05.038")[10.1016/j.ejmech.2014.05.038]
+*PMID:*: 24904963
+*Study Design:*: In vitro / in silico enzyme assay (hMAO-A, hMAO-B)
+*Key Findings:*:
+    - Crocin and safranal inhibit human monoamine oxidases (hMAO-A and hMAO-B), with distinct docking binding modes.
+*Conclusion:*: Establishes saffron's MAO-inhibitory action — relevant to serotonergic/dopaminergic mechanism content AND a harm consideration (MAOI-like action raises serotonin-syndrome risk with SSRIs/serotonergic drugs).
+*Limitations:*: In vitro/in silico; enzyme assay, not clinical.
+*Certainty Assessment:*: 0.40 raw × 0.35 in-vitro weight = discounted 0.14
+
+=== Monchaux de Oliveira et al.\ 2026 — Saffron Bioactives: Safranal Modulates Kynurenine Pathway (KEY PRECLINICAL KYNURENINE AXIS; ANIMAL)
+
+@MonchauxDeOliveira2026SaffronBioactives
+
+*Full Citation:*: Monchaux de Oliveira C, Vignault A, Guille A, et al. Exploring the neurofunctional potential of saffron bioactives: from mood-related behavioral modulation to brain access of its compounds. _Food & Function_. 2026;17(6):2800–2818.
+*DOI:*: #link("https://doi.org/10.1039/d5fo04830c")[10.1039/d5fo04830c]
+*PMID:*: 41758529
+*Study Design:*: Preclinical mouse study (crocins, safranal)
+*Key Findings:*:
+    - Crocins primarily modulate the dopaminergic system.
+    - SAFRANAL selectively downregulates NEUROTOXIC components of the kynurenine pathway, shifting neurotoxic/neuroprotective balance toward neuroprotection.
+*Conclusion:*: Direct molecular link from saffron to kynurenine-pathway modulation — relevant to the paper's IDO/kynurenine-NMDA/neurotoxic-quinolinic-acid content.
+*Limitations:*: Animal model; acute single oral dose.
+*Certainty Assessment:*: 0.35 raw × 0.30 animal weight = discounted 0.11
+
+=== Horvath et al.\ 2026 — Saffron Remodels Gut-Microbial Tryptophan Metabolism (KEY MICROBIOME-TRYPTOPHAN AXIS; IN VITRO CONSORTIUM)
+
+@Horvath2026SaffronMicrobiomeTryptophan
+
+*Full Citation:*: Horvath AE, Grozis M, Baker PRS, et al. Saffron Alters Microbial Amino Acid Metabolism and Neurotransmitter Production in a Defined Gut Consortium. _Food Science & Nutrition_. 2026;14(4):e71694.
+*DOI:*: #link("https://doi.org/10.1002/fsn3.71694")[10.1002/fsn3.71694]
+*PMID:*: 41948379
+*Study Design:*: In vitro defined human commensal consortium (anaerobic bioreactors)
+*Key Findings:*:
+    - Saffron reduced microbial tryptophan while increasing its downstream products TRYPTAMINE and INDOLE ACETIC ACID.
+    - Elevated neuroactive compounds (GABA, glutamate, glycine, dopamine); decreased L-DOPA, tyrosine, anthranilic acid; shifted SCFA profiles.
+*Conclusion:*: Directly demonstrates saffron modulates GUT-MICROBIAL TRYPTOPHAN METABOLISM — the tryptophan/aryl-hydrocarbon-receptor/indole pathway the paper covers.
+*Limitations:*: In vitro defined consortium, not in vivo human; defined strains may not reflect whole gut ecosystem.
+*Certainty Assessment:*: 0.40 raw × 0.35 ex-vivo-microbial weight = discounted 0.14
+
+=== Lang et al.\ 2025 — Saffron Improves Sleep via the Gut-Microbiota-Brain Axis (MICROBIOME-SLEEP AXIS; HUMAN PILOT)
+
+@Lang2025SaffronSleepMicrobiome
+
+*Full Citation:*: Lang L, Ditton A, Stanescu A, et al. A standardised saffron extract improves subjective and objective sleep quality in healthy older adults with sleep complaints: a randomised, placebo-controlled pilot study. _Food & Function_. 2025;16(17):6817–6832.
+*DOI:*: #link("https://doi.org/10.1039/d5fo00917k")[10.1039/d5fo00917k]
+*PMID:*: 40762630
+*Study Design:*: Randomised placebo-controlled pilot (4 weeks, saffron 30 mg/day; N=52 healthy older adults)
+*Key Findings:*:
+    - Saffron improved subjective sleep quality (P=0.02), sleep efficiency (P=0.04), and reduced sleep-onset latency (objective, P=0.003).
+    - Microbiome (LEfSe): increased Faecalibacterium, Lachnoclostridium, Prevotella, UBA1819, Oscillibacter; decreased Dialister.
+*Conclusion:*: Saffron modulates the gut-microbiota-brain/sleep axis — relevant to ME/CFS sleep and gut-microbiome content; healthy older adults, not ME/CFS.
+*Limitations:*: Healthy older adults; pilot size; sleep-only outcome.
+*Certainty Assessment:*: 0.50 raw × 0.65 healthy-adult pilot weight = discounted 0.33

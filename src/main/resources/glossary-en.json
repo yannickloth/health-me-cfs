@@ -11636,5 +11636,30 @@
   "μOR": {
     "category": "receptor",
     "definition": "Mu-opioid receptor — the primary target of opioid painkillers (morphine, oxycodone, tramadol) and also of low-dose naltrexone. μOR blockade by LDN triggers compensatory endorphin upregulation."
+  },
+  "Crocin": {
+    "label": "Crocin",
+    "category": "phytochemical",
+    "definition": "The main active carotenoid glycoside of saffron (Crocus sativus) responsible for its color. It inhibits the serotonin transporter (SERT) and, with safranal, inhibits monoamine oxidase, contributing to saffron's serotonergic and potential kynurenine-modulating actions."
+  },
+  "Crocetin": {
+    "label": "Crocetin",
+    "category": "phytochemical",
+    "definition": "An apocarotenoid metabolite of saffron (Crocus sativus). It inhibits SERT and NMDA receptor signaling; studied for antioxidant and neuroprotective effects."
+  },
+  "Saffron": {
+    "label": "Saffron",
+    "category": "supplement",
+    "definition": "A spice derived from the dried stigmas of Crocus sativus. Its bioactives (crocin, safranal, crocetin) inhibit SERT and MAO, giving serotonergic and potential kynurenine-modulating effects. In ME/CFS it is an UNPROVEN agent with zero primary-ME/CFS trials and a null RCT on fatigue; SERT plus MAO inhibition carries serotonin-syndrome risk with SSRIs/MAOIs. Not recommended for ME/CFS."
+  },
+  "Safranal": {
+    "label": "Safranal",
+    "category": "phytochemical",
+    "definition": "A volatile monoterpene aldehyde of saffron responsible for its aroma. It inhibits monoamine oxidase A/B and downregulates neurotoxic kynurenine-pathway components in rodent models."
+  },
+  "Serotonin syndrome": {
+    "label": "Serotonin syndrome",
+    "category": "condition",
+    "definition": "A potentially life-threatening condition caused by excessive serotonergic activity, typically from combining serotonergic drugs (SSRIs, SNRIs, MAOIs) or serotonergic supplements such as saffron or 5-HTP. Features include agitation, tachycardia, hyperthermia, and muscle rigidity; it requires urgent medical care."
   }
 }

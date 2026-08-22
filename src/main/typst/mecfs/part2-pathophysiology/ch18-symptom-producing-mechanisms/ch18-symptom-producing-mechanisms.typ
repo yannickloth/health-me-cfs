@@ -257,6 +257,8 @@ Multiple lines of evidence implicate serotonin transporter (5-HTT) dysfunction i
 
 #include "sec-01-misc/subsec-05-the-ssri-paradox-central-serotonin-hyper/hypotheses/hyp-the-ssri-paradox-central-serotonin-hyper.typ"
 
+#include "sec-01-misc/subsec-05-the-ssri-paradox-central-serotonin-hyper/speculations/spec-saffron-serotonergic-kynurenine-modulator.typ"
+
 === Central Fatigue: Two-Phase Model
 
 #include "sec-01-misc/subsec-06-central-fatigue-two-phase-model/speculations/spec-central-fatigue-from-serotonin-trigger-t.typ"

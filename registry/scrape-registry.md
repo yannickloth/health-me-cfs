@@ -1063,3 +1063,14 @@ Prevents re-processing of already-integrated content.
 | URL | Source | Scraped | Integrated | Target |
 |-----|--------|---------|------------|--------|
 | https://reactome.org/download/current/ReactomePathways.txt | reactome.org | 2026-08-22 | — | ops/plans/pathway-registry.md — canonical human pathway scaffold for Tier A pathway-coverage index (cross-reference only; no paper content integration yet) |
+
+---
+
+## Saffron (Crocus sativus) — Tryptophan/Serotonin-Axis Relevance Literature Search (2026-08-22)
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-08-22 | Queries: direct (saffron × ME/CFS/chronic-fatigue/fatigue), tryptophan/serotonin axis (saffron × 5-HTT/SERT serotonin reuptake, saffron × tryptophan, saffron × kynurenine, crocin × serotonin), gut microbiome (saffron × gut microbiome, crocin × microbiome, saffron × gut-brain), null/negative (saffron RCT no effect, saffron fatigue negative), harm (saffron adverse effects, saffron serotonin syndrome, saffron SSRI interaction, saffron MAOI, saffron pregnancy safety), mechanistic (crocin antioxidant Nrf2, crocetin, safranal MAO). Metadata via esummary/efetch (PMID/DOI verified). Papers added to bib/treatments.bib. |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed E-utilities API (esearch/esummary/efetch, batch) | pubmed/eutils | 2026-08-22 | — | ops/research/search-log-saffron-2026-08-22.md, ops/research/literature-summary-saffron.md, bib/treatments.bib, appendix-h (sec:bib-saffron) — saffron (Crocus sativus) tryptophan/serotonin-axis relevance to ME/CFS; conditional candidate assessment |
