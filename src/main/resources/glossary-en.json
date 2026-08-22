@@ -1058,6 +1058,11 @@
       }
     ]
   },
+  "Beta-amyloid": {
+    "label": "Beta-amyloid (Aβ)",
+    "category": "molecule",
+    "definition": "β-Amyloid (Aβ): a 36–43 amino-acid peptide cleaved from the amyloid precursor protein (APP) by β- and γ-secretase. Aβ is cleared from the brain chiefly by the glymphatic system during slow-wave sleep. Its accumulation is a hallmark of Alzheimer's disease. In ME/CFS, chronic glymphatic-impairment risk raises a hypothetical (untested) question about long-term Aβ accumulation; no ME/CFS Aβ data exist. The hypothesis that the sleep drug daridorexant (a dual orexin receptor antagonist) could reduce Aβ is mechanistic speculation with no primary evidence."
+  },
   "Beta-hydroxybutyrate": {
     "label": "Beta-hydroxybutyrate",
     "category": "molecule",
@@ -11661,5 +11666,30 @@
     "label": "Serotonin syndrome",
     "category": "condition",
     "definition": "A potentially life-threatening condition caused by excessive serotonergic activity, typically from combining serotonergic drugs (SSRIs, SNRIs, MAOIs) or serotonergic supplements such as saffron or 5-HTP. Features include agitation, tachycardia, hyperthermia, and muscle rigidity; it requires urgent medical care."
+  },
+  "fibromyalgia": {
+    "label": "fibromyalgia",
+    "category": "condition",
+    "definition": "Fibromyalgia: a chronic pain syndrome characterized by widespread musculoskeletal pain, fatigue, unrefreshing sleep, and cognitive difficulty. Genetically a central-nervous-system (nociplastic) disorder; co-occurs with ME/CFS in 20-70% of cases."
+  },
+  "nociplastic": {
+    "label": "nociplastic",
+    "category": "condition",
+    "definition": "Nociplastic pain: pain arising from altered nociceptive processing (central sensitization) in the nervous system, without clear peripheral tissue damage or inflammation. Fibromyalgia is the prototypical nociplastic pain syndrome."
+  },
+  "HTT": {
+    "label": "HTT",
+    "category": "gene",
+    "definition": "HTT (huntingtin): the gene encoding huntingtin, whose expansion causes Huntington's disease. A coding variant in HTT was the strongest risk signal in the largest fibromyalgia GWAS."
+  },
+  "GPR52": {
+    "label": "GPR52",
+    "category": "receptor",
+    "definition": "GPR52: an orphan G-protein-coupled receptor that negatively regulates huntingtin levels. A GPR52 risk locus is shared between fibromyalgia and ME/CFS genetics; GPR52 is an investigational Huntington's disease drug target."
+  },
+  "PRS": {
+    "label": "PRS",
+    "category": "method",
+    "definition": "Polygenic Risk Score: a single quantitative measure aggregating the effects of thousands of genetic variants to estimate an individual's inherited disease liability."
   }
 }

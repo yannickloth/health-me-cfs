@@ -251,6 +251,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | corticosteroid-mechanisms-postviral | [subtrees/corticosteroid-mechanisms-postviral.md](subtrees/corticosteroid-mechanisms-postviral.md) | 2026-05-14 | 36 | 9 | 🔵 in progress |
 | lc-autoantibodies-cell2026 | [subtrees/lc-autoantibodies-cell2026.md](subtrees/lc-autoantibodies-cell2026.md) | 2026-05-30 | 28 | 3 | ✅ done |
 | theanine-caffeine-adhd | [subtrees/theanine-caffeine-adhd.md](subtrees/theanine-caffeine-adhd.md) | 2026-08-15 | 13 | 7 | 🔵 in progress |
+| fibromyalgia-genetics | [subtrees/fibromyalgia-genetics.md](subtrees/fibromyalgia-genetics.md) | 2026-08-22 | 14 | 10 | 🔵 in progress |
 
 ---
 
@@ -367,3 +368,4 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | guanfacine-nac-bridge | [subtrees/guanfacine-nac-bridge.md](subtrees/guanfacine-nac-bridge.md) | 2026-08-22 | 10 | 0 | ✅ done |
 | saffron-tryptophan-serotonin | [subtrees/saffron-tryptophan-serotonin.md](subtrees/saffron-tryptophan-serotonin.md) | 2026-08-22 | 13 | 1 | ⬜ pending |
 | tryptophan-ahr-gut-microbiome | [subtrees/tryptophan-ahr-gut-microbiome.md](subtrees/tryptophan-ahr-gut-microbiome.md) | 2026-08-22 | 7 | 1 | 🔵 in progress |
+| daridorexant-beta-amyloid | [subtrees/daridorexant-beta-amyloid.md](subtrees/daridorexant-beta-amyloid.md) | 2026-08-22 | 3 | 1 | ✅ done |
