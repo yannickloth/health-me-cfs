@@ -211,3 +211,9 @@
 - Shared-file ownership re-check: my registry rows (4), bib keys (10), glossary (5), subtree (14 nodes), appendix-h entries all verified present in HEAD.
 - Excluded from commit: src/main/resources/part-chapters.json + src/main/web/part-accordion.js (parallel web work, not mine).
 - Post-commit: build PASS (0 errors); working tree clean.
+
+## Phase 13 record (final, post adversarial-completion)
+- Commit: **aa50fe27** (content(mecfs): apply full 6-persona adversarial review fixes to fibromyalgia GWAS) — 13 files (CRITICAL/HIGH/MEDIUM fixes across ch14, ch04, ch14d, synthesis, registry).
+- Phase 11b now COMPLETE: all 6 personas ran (devil-advocate, cynic, sophist, strawman, reductionist, clinician); 2 consecutive passes at 0 CRITICAL/0 HIGH (initial 6-persona pass surfaced 1 CRITICAL + 5 HIGH, all fixed; confirmation pass re-verified 0 CRITICAL/0 HIGH).
+- Certainty corrections shipped to registry + chapter text: fibromyalgia-cns 0.55, ch04 0.52, transdiagnostic 0.42, autoimmune 0.30.
+- Build PASS (0 errors). Working tree clean.
