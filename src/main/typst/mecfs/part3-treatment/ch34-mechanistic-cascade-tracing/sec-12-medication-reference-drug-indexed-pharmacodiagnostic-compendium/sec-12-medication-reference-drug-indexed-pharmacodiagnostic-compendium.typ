@@ -1213,6 +1213,8 @@ Corrective — HMGB1 inhibitor targeting a causal DAMP mediator in PEM — resea
 
 #strong[W] *Mechanism:* A (BP crash → cerebral hypoperfusion → PEM from ischemic stress in POTS patients with borderline cerebral perfusion), E (withdrawal rebound hypertension after chronic use). *Protracted risk:* Low. *Permanent risk:* Very Low. Effects reverse with drug clearance. *Rechallenge:* Yes, at 0.5 mg or lower, with BP monitoring. If BP crash but cognitive benefit is significant: add midodrine to maintain BP and isolate the central cognitive effect.
 
+*Combination note:* Guanfacine is reported in fixed combination with N-acetylcysteine (NAC) for post-infectious/post-TBI cognitive deficits (@spec:guanfacine-nac-bridge, @clinical-finding:guanfacine-nac-postinfectious). The combination spans the catecholamine cluster (α2A PFC) and Nrf2 cluster (NAC redox support) — two non-overlapping bottlenecks. No ME/CFS data; hypothesis-generating only, not a treatment recommendation. Dose-related hypotension and bradyarrhythmia cautions apply as for guanfacine monotherapy.
+
 === H1 Antihistamines (Diphenhydramine, Hydroxyzine, Ketotifen)
 
 *Appears in:* @sec:piezo2-cascade C2, cross-reference matrix.

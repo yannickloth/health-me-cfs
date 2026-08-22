@@ -37070,3 +37070,90 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
 *Conclusion:*: Provides the proteostasis/dosage-sensitivity context for UBE3A, relevant to proteostasis-dysfunction hypotheses in ME/CFS.
 *Limitations:*: Review; autism-focused; AS-ME/CFS relevance indirect.
 *Certainty Assessment:*: 0.65 raw × 0.80 review weight = discounted 0.52
+
+// =============================================================================
+// research_stream = {guanfacine-nac-bridge}
+// Added 2026-08-22 (Phase-1 literature-integrator)
+// Bridge drug: guanfacine (α2A-adrenoceptor) x N-acetylcysteine (Nrf2/antioxidant)
+// Anchor already in corpus: @FesharakiZadeh2023Guanfacine (see sec above).
+// =============================================================================
+<sec:bib-guanfacine-nac-bridge>
+
+=== Khasnavis et al.\ 2024 — Guanfacine + NAC for Cognitive Deficits After TBI (DIRECT COMBINATION)
+
+@Khasnavis2024GuanfacineNACTBI
+
+*Full Citation:*: Khasnavis S, Belliveau T, Arnsten A, Fesharaki-Zadeh A. Combined Use of Guanfacine and N-acetylcysteine for the Treatment of Cognitive Deficits After Traumatic Brain Injury. _Neurotrauma Reports_. 2024;5(1):226–231.
+*DOI:*: #link("https://doi.org/10.1089/neur.2023.0124")[10.1089/neur.2023.0124]
+*PMID:*: 38524728
+*Study Design:*: Case series (n=2), neuropsychological testing pre/post
+*Key Findings:*:
+    - Same Yale group fixed combination as the Long-COVID anchor: guanfacine (α2A-adrenoceptor agonist) + N-acetylcysteine (NAC).
+    - Treated post-TBI cognitive deficits; improved attention, processing speed, memory, and executive function.
+    - Minimal side effects in both persons.
+*Conclusion:*: Demonstrates the mechanistic catecholamine (guanfacine strengthens PFC) × Nrf2/antioxidant (NAC) bridge logic applied outside Long-COVID, supporting the fixed combination as a general cognitive-recovery intervention.
+*Limitations:*: n=2 case series; uncontrolled; TBI population, not ME/CFS.
+*Certainty Assessment:*: 0.40 raw × 0.75 general-population weight = discounted 0.30
+
+=== Fesharaki-Zadeh et al.\ 2025 — Guanfacine + NAC + Donepezil in Severe TBI (DIRECT COMBINATION EXTENSION)
+
+@FesharakiZadeh2025GuanfacineNACDonepezil
+
+*Full Citation:*: Fesharaki-Zadeh A, Belliveau T, Pietrzak RH, Arnsten A. A novel multimodal pharmacologic approach using guanfacine, N-acetylcysteine, and donepezil in severe TBI: a case series. _Frontiers in Rehabilitation Sciences_. 2025;6:1648002.
+*DOI:*: #link("https://doi.org/10.3389/fresc.2025.1648002")[10.3389/fresc.2025.1648002]
+*PMID:*: 41211476
+*Study Design:*: Case series, MoCA pre/post
+*Key Findings:*:
+    - Extends the guanfacine + NAC combination with donepezil (GND) to severe TBI.
+    - Frames guanfacine as enhancing prefrontal cortical function; NAC as antioxidant/glutamate modulator with neuroprotective effects.
+    - Cites the Long-COVID anchor (@FesharakiZadeh2023Guanfacine) as prior evidence for the guanfacine/NAC combination.
+*Conclusion:*: Corroborates the multimodal bridge rationale and the guanfacine+NAC fixed-combination logic from a second, independent publication by the same group.
+*Limitations:*: Small case series; uncontrolled; TBI, not ME/CFS.
+*Certainty Assessment:*: 0.40 raw × 0.75 general-population weight = discounted 0.30
+
+=== Okamoto et al.\ 2024 — Guanfacine Response in Hyperadrenergic POTS (CATECHOLAMINE ARM)
+
+@Okamoto2024GuanfacineHyperPOTS
+
+*Full Citation:*: Okamoto LE, Urechie V, Rigo S, et al. Hyperadrenergic Postural Tachycardia Syndrome: Clinical Biomarkers and Response to Guanfacine. _Hypertension_. 2024;81(11):2237–2247.
+*DOI:*: #link("https://doi.org/10.1161/HYPERTENSIONAHA.124.23035")[10.1161/HYPERTENSIONAHA.124.23035]
+*PMID:*: 39109428
+*Study Design:*: Phenotyping cohort (n=28) + uncontrolled treatment cohort (n=38)
+*Key Findings:*:
+    - Guanfacine (central sympatholytic, α2A agonist) reduced chronic fatigue (PROMIS Fatigue) and improved orthostatic tolerance in hyperadrenergic POTS.
+    - 85% of hyperadrenergic patients improved vs 44% nonhyperadrenergic (P=0.016).
+    - Hyperadrenergic subset identified by diastolic BP rise exceeding 17 mmHg on Valsalva phase 2.
+*Conclusion:*: Directly supports the catecholamine/α2A arm of the bridge in POTS, a population highly comorbid with ME/CFS. Authors filed a patent application for guanfacine in CFS (COI).
+*Limitations:*: Uncontrolled treatment cohort; POTS, not ME/CFS per se; biomarker-driven subset.
+*Certainty Assessment:*: 0.60 raw × 0.80 POTS weight = discounted 0.48
+
+=== Cherneva et al.\ 2025 — NAC CNS Mechanisms, Nrf2 + Adrenergic/Dopaminergic Intersection (Nrf2 ARM)
+
+@Cherneva2025NACCNS
+
+*Full Citation:*: Cherneva DI, Kehayova G, Dimitrova S, Dragomanova S. The Central Nervous System Modulatory Activities of N-Acetylcysteine: A Synthesis of Two Decades of Research. _Current Issues in Molecular Biology_. 2025;47(9):710.
+*DOI:*: #link("https://doi.org/10.3390/cimb47090710")[10.3390/cimb47090710]
+*PMID:*: 41020832
+*Study Design:*: Mechanistic review
+*Key Findings:*:
+    - NAC: antioxidant via glutathione replenishment, Nrf2-ARE signaling, mitochondrial redox modulation, ferroptosis inhibition.
+    - Anti-neuroinflammatory: inhibits cytokines, iNOS, microglial activation.
+    - Modulates glutamatergic, dopaminergic, GABAergic, serotonergic, cholinergic, AND adrenergic neurotransmitter systems.
+*Conclusion:*: Provides the explicit biochemical bridge: NAC's Nrf2/redox arm intersects catecholamine/adrenergic transmission — the mechanism the guanfacine+NAC combination targets in ME/CFS.
+*Limitations:*: Review; indirect to ME/CFS; no direct combination data.
+*Certainty Assessment:*: 0.55 raw × 0.75 general-population weight = discounted 0.41
+
+=== Barlattani et al.\ 2025 — NAC + Acetyl-L-carnitine in Post-COVID Syndrome (Nrf2 ARM IN LONG-COVID)
+
+@Barlattani2025NACALCPostCovid
+
+*Full Citation:*: Barlattani T, Celenza G, Cavatassi A, et al. Neuropsychiatric Manifestations of COVID-19 Disease and Post COVID Syndrome: The Role of N-acetylcysteine and Acetyl-L-carnitine. _Current Neuropharmacology_. 2025;23(6):686–704.
+*DOI:*: #link("https://doi.org/10.2174/011570159X343115241030094848")[10.2174/011570159X343115241030094848]
+*PMID:*: 39506442
+*Study Design:*: Review
+*Key Findings:*:
+    - NAC + acetyl-L-carnitine in Post-COVID Syndrome (PCS)/Long-COVID neuropsychiatric symptoms: brain fog, fatigue, cognitive impairment.
+    - NAC acts via glutamatergic system (xCT-mGluR2 network) and antioxidant/redox pathways; evidence of relieving cognitive symptoms in PCS.
+*Conclusion:*: Supports the NAC arm of the bridge in the Long-COVID population most relevant to ME/CFS.
+*Limitations:*: Review; no direct guanfacine+NAC combination data.
+*Certainty Assessment:*: 0.50 raw × 0.85 Long-COVID weight = discounted 0.43

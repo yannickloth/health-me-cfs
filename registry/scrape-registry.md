@@ -13,6 +13,17 @@ Prevents re-processing of already-integrated content.
 
 ---
 
+## Guanfacine + N-Acetylcysteine Inter-Cluster Bridge Literature Search
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-08-22 | 17 queries: direct combination (guanfacine × N-acetylcysteine), α2A-oxidative/prefrontal (0 direct hits), guanfacine Nrf2 (0 hits — research gap), catecholamine-oxidation dopamine NAC, Nrf2 catecholamine, NAC dopamine neuroprotection, oxidative stress ME/CFS NAC, kynurenine oxidative stress, NAD depletion NAC, harm (guanfacine adverse effects, NAC adverse effects), guanfacine chronic fatigue, NAC chronic fatigue syndrome. 5 papers included. Anchor FesharakiZadeh2023Guanfacine reused (already in corpus). |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed API queries (17 queries + efetch batch, 5 PMIDs) | pubmed/eutils | 2026-08-22 | — | ops/research/search-log-guanfacine-nac-bridge-2026-08-22.md, bib/treatments.bib, appendix-h — Guanfacine + NAC inter-cluster bridge literature (5 new papers) |
+
+---
+
 ## Angelman Syndrome (UBE3A) Pathophysiological Overlap with ME/CFS Literature Search
 | Source | Last Scraped | Notes |
 |--------|--------------|-------|
