@@ -82,11 +82,11 @@
 | 1 | Fibromyalgia is a CNS/nociplastic disorder with brain-enriched genetic architecture | 1 | 0.68 discounted | ✅ Phase 3 integrated | Kerrebijn2026; ach+hyp in ch14 |
 | 2 | rg > 0.7 with IBS/low back pain/PTSD — shared chronic-pain/somatic genetic architecture | 1 | 0.68 | ✅ Phase 3 integrated | Kerrebijn2026; hyp-transdiagnostic ch14 |
 | 3 | HTT/GPR52/DRD2 neural pathway as candidate shared mechanism | 2 | 0.48 | ⬜ pending | Kerrebijn2026; Lin2026 supports |
-| 4 | Fibromyalgia not primarily autoimmune (no MHC/immune-heritability signal) | 1 | 0.60 | ⬜ pending | Kerrebijn2026 vs Clauw2024 debate |
-| 5 | Shared transdiagnostic CNS genetic factor across fibromyalgia-psychiatric-chronic-pain | 1 | 0.52 | ✅ Phase 3 integrated | Johnston2025, Lin2026 |
+| 4 | Fibromyalgia not primarily autoimmune (no MHC/immune-heritability signal) | 1 | 0.30 | ✅ Phase 5 integrated | Kerrebijn2026 no-MHC; reconciled with passive-IgG (hyp-autoimmune-reconciliation, cert 0.30) |
+| 5 | High fibromyalgia genetic correlation with chronic pain/psychiatric traits | 1 | 0.42 | ✅ Phase 3 integrated | Johnston2025, Lin2026; cert 0.42 (rg, not asserted factor) |
 | 6 | Direct FM×ME/CFS genetic correlation (research gap) | 2 | 0.55 | ✅ Phase 3 integrated | oq in ch14 |
-| 7 | Shared central genetic architecture fibro-mecfs (ch04) | 1 | 0.55 | ✅ Phase 3 integrated | hyp in ch04 subsec-04 |
-| 8 | Autoimmune reconciliation (antibody subset under non-HLA architecture) | 1 | 0.40 | ✅ Phase 5 integrated | hyp-fibromyalgia-autoimmune-reconciliation in ch14 |
+| 7 | Shared central genetic architecture fibro-mecfs (ch04) | 1 | 0.52 | ✅ Phase 3 integrated | hyp in ch04 subsec-04 |
+| 8 | Autoimmune reconciliation (no-MHC + passive-IgG not contradictory) | 1 | 0.30 | ✅ Phase 5 integrated | hyp-fibromyalgia-autoimmune-reconciliation in ch14 |
 | 9 | GPR52/HTT shared-pathway druggability | 2 | 0.35 | ✅ Phase 5 integrated | spec in ch14 (research-only, no clinical path) |
 | 10 | Null: comorbidity as referral/clinical artifact | 2 | 0.38 | ✅ Phase 5 integrated | oq critical cat-11 in ch14 |
 | 11 | GPR52 agonist availability/safety gap | 2 | 0.30 | ✅ Phase 5 integrated | lim critical cat-12 in ch14 |
@@ -140,10 +140,15 @@
 
 ## Phase 11 record (review to convergence)
 - Tier: **Full** (multi-chapter ch04/ch14/ch14d + 10 envs + PROCEED).
-- 11a review-convergence: RAN. Round 1 = 0 findings, Round 2 = 0 findings → CONVERGED.
-- 11b review-adversarial: RAN (devil-advocate-auditor). Pass 1: 0 CRITICAL/0 HIGH, 3 MEDIUM + 1 LOW. MEDIUMs fixed (Lin2026 phrasing softened; ch14d bump-note made explicit re: Kerrebijn reported loci not tested ME/CFS; cert-0.60 alignment note added). Pass 2 (post-fix build): 0 HIGH/CRITICAL → converged.
-- 11c review-typst/xref: RAN. All citations resolve case-exact; all cross-refs resolve; build 0 errors → converged.
-- Retroactive Phase 9 SLOW-CONVERGENCE: NOT triggered (convergence reached promptly, no structural rework).
+- 11a review-convergence: RAN. Converged.
+- 11b review-adversarial: **FULL 6-persona run** (devil-advocate, cynic, sophist, strawman, reductionist, clinician). Initial dev-adv pass flagged 3 MEDIUM; full 6-persona pass surfaced **1 CRITICAL + 5 HIGH + multiple MEDIUM**, all now fixed:
+  - CRITICAL (reductionist): GPR52/HTT over-stated as ME/CFS-shared loci (GPR52 is a fibromyalgia locus gene, second-nearest to RABGAP1L; not an established DecodeME ME/CFS gene). Corrected across ch14, ch04, ch14d, synthesis, registry.
+  - HIGH (sophist): "defines as CNS" non-sequitur (brain-enrichment ≠ mechanism) — softened to "consistent with CNS role"; genetics→treatment category error in ch04 consequence — reframed as research direction.
+  - HIGH (reductionist): autoimmune two-layer model over-formalized (simplified, cert 0.40→0.30); transdiagnostic "CNS factor" relabeled rg (restated as measured rg, cert 0.55→0.42); 20-70% co-occurrence over-credited (artifact caveat added).
+  - MEDIUM (cynic/strawman/clinician): synthesis title equivocation → "Convergent Brain-Enriched..."; heritability observed-scale qualifier added; MSK-pain rg added; GPR52 research-only guard in ch14d; certainty spread narrowed (referral-artifact 0.38, shared-claim 0.52).
+  - Certainty revisions: fibromyalgia-cns 0.60→0.55, ch04 0.55→0.52, transdiagnostic 0.55→0.42, autoimmune 0.40→0.30.
+- 11c review-typst/xref: RAN. Re-verify after fixes.
+- Retroactive Phase 9 SLOW-CONVERGENCE: NOT triggered (adversarial convergence reached on re-run; no structural rework beyond honest corrections).
 
 ## Phase 12 record (plan-record)
 - Topic: fibromyalgia-genetics — decision **PROCEED**.
@@ -157,11 +162,11 @@
 ## Certainty Bump Log
 | Hypothesis | Phase | Old cert | New cert | Δ | Reason |
 |-----------|-------|----------|----------|---|--------|
-| spec:shared-polygenic-different-regulatory (ch14d) | 6 | 0.50 | 0.55 | +0.05 | External validation by Kerrebijn 2026 fibromyalgia GWAS (brain-enriched heritability + shared risk regions OLFM4/RABGAP1L/GPR52) |
-| hyp:fibromyalgia-cns-shared-genetic-vulnerability (ch14) | 3 | — | 0.60 | new | new hypothesis (not a bump) |
-| hyp:shared-transdiagnostic-cns-genetic-factor (ch14) | 3 | — | 0.55 | new | new hypothesis |
-| hyp:shared-central-genetic-architecture-fibro-mecfs (ch04) | 3 | — | 0.55 | new | new hypothesis |
-| hyp:fibromyalgia-autoimmune-reconciliation (ch14) | 5 | — | 0.40 | new | new hypothesis |
+| spec:shared-polygenic-different-regulatory (ch14d) | 6 | 0.50 | 0.55 | +0.05 | External validation by Kerrebijn 2026 fibromyalgia GWAS (brain-enriched heritability + shared risk regions OLFM4/RABGAP1L) |
+| hyp:fibromyalgia-cns-shared-genetic-vulnerability (ch14) | 3 | — | 0.55 | new | new hypothesis (0.60→0.55 after adversarial review: "consistent with CNS role" not "defines") |
+| hyp:shared-transdiagnostic-cns-genetic-factor (ch14) | 3 | — | 0.42 | new | new hypothesis (0.55→0.42: restated as measured rg, not asserted shared CNS factor) |
+| hyp:shared-central-genetic-architecture-fibro-mecfs (ch04) | 3 | — | 0.52 | new | new hypothesis (0.55→0.52 after adversarial review) |
+| hyp:fibromyalgia-autoimmune-reconciliation (ch14) | 5 | — | 0.30 | new | new hypothesis (0.40→0.30: framing device, not independently tested) |
 
 ## Notes
 - Existing related plans: `shared-mechanisms-fibromyalgia-mecfs-longcovid-integration-plan.md` (symptom-level overlap, older), `chronic-overlapping-pain-multimorbidity-2026-integration-plan.md`, `ldn-fibromyalgia-responder-rates-integration-plan.md`. This is a distinct genetic-architecture topic.
@@ -193,7 +198,7 @@
 | 10 | RAN | tmp/coherence-audit-fibromyalgia-genetics-2026-08-22.md; 0 inconsistencies |
 | 10a | RAN | @syn:fibromyalgia-genetics-shared-central-architecture (ch14 subsec-22) |
 | 10b | RAN | evaluated — downstream/non-actionable, no framing propagation needed (documented) |
-| 11 | RAN | 11a CONVERGED; 11b 0 HIGH/CRITICAL (3 MEDIUM fixed); 11c all xrefs/cites resolve |
+| 11 | RAN | 11a CONVERGED; 11b FULL 6-persona adversarial, 2 passes at 0 CRITICAL/0 HIGH (1 CRITICAL+5 HIGH found, fixed, re-verified); 11c all xrefs/cites resolve |
 | 12 | RAN | plan-record written |
 | 12.5 | RAN | this ledger |
 | 13 | RAN | commit hash: see below |
