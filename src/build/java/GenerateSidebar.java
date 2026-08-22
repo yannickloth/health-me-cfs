@@ -18,6 +18,12 @@ void main(String[] args) throws Exception {
     System.out.println("=== GenerateSidebar ===");
     System.out.println("webRoot: " + webRoot);
 
+    // Canonical chapter ordering per part base dir, from part-chapters.json
+    // (which BuildWeb copies into webRoot and which mirrors the Typst include
+    // list). Drives the sidebar so it matches the book's reading order rather
+    // than alphabetical directory sort (important for the Part III reorder).
+    var partOrder = readPartOrder(webRoot);
+
     // Sidebar sections from _quarto.yml: label -> contents glob
     var sections = new LinkedHashMap<String, String>();
     var directLinks = new ArrayList<String[]>();
@@ -45,7 +51,7 @@ void main(String[] args) throws Exception {
         var partBase = e.getValue().replaceFirst("/\\*\\*$", "").replaceFirst("/\\*$", "");
         var partIntro = webRoot.resolve(partBase).resolve("index.qmd");
         if (Files.isRegularFile(partIntro)) section.put("href", siteHref(webRoot, partIntro));
-        section.put("children", expandGlob(webRoot, e.getValue()));
+        section.put("children", expandGlob(webRoot, e.getValue(), partOrder));
         root.add(section);
     }
     for (var dl : directLinks) {
@@ -63,14 +69,44 @@ void main(String[] args) throws Exception {
     System.out.println("Done.");
 }
 
-List<Object> expandGlob(Path webRoot, String glob) throws Exception {
+// Read the canonical per-part chapter order from part-chapters.json.
+// Returns a map: part base dir (e.g. "part3-treatment") -> ordered chapter
+// directory names (e.g. ["ch22-mechanism-treatment-map", "ch23-...", "ch33-..."]).
+Map<String, List<String>> readPartOrder(Path webRoot) throws Exception {
+    var map = new HashMap<String, List<String>>();
+    var pc = webRoot.resolve("part-chapters.json");
+    if (!Files.isRegularFile(pc)) {
+        System.out.println("  (part-chapters.json not found; sidebar uses directory order)");
+        return map;
+    }
+    var text = Files.readString(pc);
+    // Collect chapter hrefs in document order: "<base>/<chapterDir>/index.html".
+    var hrefPat = Pattern.compile("\"href\"\\s*:\\s*\"([a-z0-9-]+)/([a-z0-9-]+)/index\\.html\"");
+    var m = hrefPat.matcher(text);
+    while (m.find()) {
+        map.computeIfAbsent(m.group(1), k -> new ArrayList<>()).add(m.group(2));
+    }
+    return map;
+}
+
+int canonicalIndex(Map<String, List<String>> partOrder, String base, String dirName) {
+    var list = partOrder.get(base);
+    if (list == null) return Integer.MAX_VALUE;
+    int i = list.indexOf(dirName);
+    return i < 0 ? Integer.MAX_VALUE : i;
+}
+
+List<Object> expandGlob(Path webRoot, String glob, Map<String, List<String>> partOrder) throws Exception {
     // glob like "part1-clinical/**" or "z-appendices/**" or explicit dir
     var base = glob.replaceFirst("/\\*\\*$", "").replaceFirst("/\\*$", "");
     var baseDir = webRoot.resolve(base);
     if (!Files.isDirectory(baseDir)) return new ArrayList<Object>();
     var children = new ArrayList<Object>();
     try (var stream = Files.list(baseDir)) {
-        var dirs = stream.filter(Files::isDirectory).sorted(Comparator.comparing(p -> p.getFileName().toString())).toList();
+        var dirs = stream.filter(Files::isDirectory)
+            .sorted(Comparator.comparingInt((Path p) ->
+                canonicalIndex(partOrder, base, p.getFileName().toString())))
+            .toList();
         for (var dir : dirs) {
             // chapter dir -> title from dir name; header links to the chapter
             // intro page (index.qmd) when one exists, else to its single page
