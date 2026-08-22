@@ -11,4 +11,6 @@ This part comprehensively covers interventions for ME/CFS, including:
 - *Management strategies*: Practical approaches for living with ME/CFS
 
 Evidence levels are indicated throughout, distinguishing between well-supported interventions and those with preliminary or anecdotal support.
+
+The part opens with the reference chapters (mechanism–treatment map and symptom management), then the severity-specific protocols and pediatric chapters, and finally the intervention-type chapters. Severity is ordered most-severe-first (Chapter @ch:urgent-action-severe before Chapter @ch:action-mild-moderate) because the highest-risk patients require the most immediate attention.
 ] <part:treatment>

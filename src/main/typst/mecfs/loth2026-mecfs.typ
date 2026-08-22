@@ -149,9 +149,13 @@
 #include "part2-pathophysiology/ch21-female-reproductive-axis/ch21-female-reproductive-axis.typ"
 
 // ── Part III: Treatment and Management ───────────────────────────────────────
+// Reference-type chapters first (map, symptom mgmt, med-response, cascade),
+// then severity (severe-first), population, then intervention type.
 #include "part3-treatment/part3-intro.typ"
 #include "part3-treatment/ch22-mechanism-treatment-map/ch22-mechanism-treatment-map.typ"
 #include "part3-treatment/ch23-symptom-management/ch23-symptom-management.typ"
+#include "part3-treatment/ch33-medication-response-reference/ch33-medication-response-reference.typ"
+#include "part3-treatment/ch34-mechanistic-cascade-tracing/ch34-mechanistic-cascade-tracing.typ"
 #include "part3-treatment/ch24-urgent-action-severe/ch24-urgent-action-severe.typ"
 #include "part3-treatment/ch25-action-mild-moderate/ch25-action-mild-moderate.typ"
 #include "part3-treatment/ch26-pediatric-severe/ch26-pediatric-severe.typ"
@@ -161,8 +165,6 @@
 #include "part3-treatment/ch30-lifestyle-interventions/ch30-lifestyle-interventions.typ"
 #include "part3-treatment/ch31-emerging-therapies/ch31-emerging-therapies.typ"
 #include "part3-treatment/ch32-integrative-approaches/ch32-integrative-approaches.typ"
-#include "part3-treatment/ch33-medication-response-reference/ch33-medication-response-reference.typ"
-#include "part3-treatment/ch34-mechanistic-cascade-tracing/ch34-mechanistic-cascade-tracing.typ"
 
 // ── Part IV: Research and Evidence Synthesis ──────────────────────────────────
 #include "part4-research/part4-intro.typ"

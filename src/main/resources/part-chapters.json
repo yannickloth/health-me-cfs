@@ -9,13 +9,13 @@
           "ch": "ch01",
           "title": "Introduction to ME/CFS",
           "href": "part1-clinical/ch01-introduction/index.html",
-          "about": "Introduces ME/CFS as a complex, chronic, multi-system disease marked by disabling fatigue, post-exertional malaise, unrefreshing sleep, cognitive dysfunction, and autonomic dysregulation. Covers recognition by major health organizations (WHO ICD-11 code 8E49, CDC, NIH), estimated global prevalence of 0.89–2.5%, and the evolving terminology debate between \u201cchronic fatigue syndrome\u201d and \u201cmyalgic encephalomyelitis.\u201d"
+          "about": "Introduces ME/CFS as a complex, chronic, multi-system disease marked by disabling fatigue, post-exertional malaise, unrefreshing sleep, cognitive dysfunction, and autonomic dysregulation. Covers recognition by major health organizations (WHO ICD-11 code 8E49, CDC, NIH), estimated global prevalence of 0.89–2.5%, and the evolving terminology debate between “chronic fatigue syndrome” and “myalgic encephalomyelitis.”"
         },
         {
           "ch": "ch02",
           "title": "History of ME/CFS",
           "href": "part1-clinical/ch02-history-of-mecfs/index.html",
-          "about": "A chronological account of the disease from the 1934 Los Angeles County Hospital outbreak, the Iceland/Akureyri outbreak, and the 1955 Royal Free epidemic through Acheson\u2019s 1959 synthesis of 14 epidemics. Traces the shift from psychosomatic to biological framing across the PACE trial controversy, the 2015 IOM redefinition, and the 2024 NIH deep phenotyping study."
+          "about": "A chronological account of the disease from the 1934 Los Angeles County Hospital outbreak, the Iceland/Akureyri outbreak, and the 1955 Royal Free epidemic through Acheson’s 1959 synthesis of 14 epidemics. Traces the shift from psychosomatic to biological framing across the PACE trial controversy, the 2015 IOM redefinition, and the 2024 NIH deep phenotyping study."
         },
         {
           "ch": "ch03",
@@ -147,7 +147,7 @@
       "chapters": [
         {
           "ch": "ch22",
-          "title": "Mechanism\u2013Treatment Map",
+          "title": "Mechanism–Treatment Map",
           "href": "part3-treatment/ch22-mechanism-treatment-map/index.html",
           "about": "The navigational entry point to Part III, answering for each known mechanism what treatment options exist. Organizes treatments by causal tier (trigger-capable root causes versus amplifier mechanisms) and presents a one-page overview table with therapeutic priority ratings and an intervention count per mechanism, along with coverage gaps."
         },
@@ -156,6 +156,18 @@
           "title": "Symptom-Based Management",
           "href": "part3-treatment/ch23-symptom-management/index.html",
           "about": "Addresses what can be done about each symptom now, organized by symptom domain rather than drug class or mechanism. Opens with comorbidity management and covers post-exertional malaise, sleep, pain, cognitive dysfunction, orthostatic intolerance, and broader autonomic symptoms, pairing non-pharmacological and pharmacological options with stated evidence strength."
+        },
+        {
+          "ch": "ch33",
+          "title": "Medication Response Reference: From Drug Response to Mechanism Identification",
+          "href": "part3-treatment/ch33-medication-response-reference/index.html",
+          "about": "Argues that every drug response (therapeutic benefit, null response, or side effect at a specific dose) is diagnostic information, providing frameworks for reading dose-response curves, side-effect patterns, and cross-drug combination signals. Frames the medication-as-probe approach as diagnostic reasoning under uncertainty."
+        },
+        {
+          "ch": "ch34",
+          "title": "Mechanistic Cascade Tracing: From Hypothesis to Clinical Probe",
+          "href": "part3-treatment/ch34-mechanistic-cascade-tracing/index.html",
+          "about": "Traces the full downstream cascade for every major mechanistic hypothesis, from proposed trigger to terminal neurochemical, metabolic, and immunological consequences, identifying at each node which medications could intercept and what a response reveals. Works through the PIP2/TRPM3 channelopathy cascade, TRPV1-mediated vasoconstriction, and Piezo2 dysfunction."
         },
         {
           "ch": "ch24",
@@ -173,7 +185,7 @@
           "ch": "ch26",
           "title": "Pediatric ME/CFS: Severe and Housebound Cases",
           "href": "part3-treatment/ch26-pediatric-severe/index.html",
-          "about": "Addresses the roughly 5\u201310% of pediatric patients who are housebound or bedbound, providing guidance for home-based care, medical management with pediatric dosing, and strategies to preserve developmental progress. Contrasts pediatric severe disease with adult severe disease and details management including pediatric mast cell activation syndrome treatment."
+          "about": "Addresses the roughly 5–10% of pediatric patients who are housebound or bedbound, providing guidance for home-based care, medical management with pediatric dosing, and strategies to preserve developmental progress. Contrasts pediatric severe disease with adult severe disease and details management including pediatric mast cell activation syndrome treatment."
         },
         {
           "ch": "ch27",
@@ -210,18 +222,6 @@
           "title": "Integrative and Personalized Treatment Approaches",
           "href": "part3-treatment/ch32-integrative-approaches/index.html",
           "about": "Provides a safety-first framework for treatment planning, arguing that every treatment trial carries a metabolic energy cost and failed trials can trigger post-exertional malaise. Classifies interventions by energy category, establishes a micro-dosing imperative, provides crash-risk rankings, sequencing plans, and when-to-stop criteria."
-        },
-        {
-          "ch": "ch33",
-          "title": "Medication Response Reference: From Drug Response to Mechanism Identification",
-          "href": "part3-treatment/ch33-medication-response-reference/index.html",
-          "about": "Argues that every drug response (therapeutic benefit, null response, or side effect at a specific dose) is diagnostic information, providing frameworks for reading dose-response curves, side-effect patterns, and cross-drug combination signals. Frames the medication-as-probe approach as diagnostic reasoning under uncertainty."
-        },
-        {
-          "ch": "ch34",
-          "title": "Mechanistic Cascade Tracing: From Hypothesis to Clinical Probe",
-          "href": "part3-treatment/ch34-mechanistic-cascade-tracing/index.html",
-          "about": "Traces the full downstream cascade for every major mechanistic hypothesis, from proposed trigger to terminal neurochemical, metabolic, and immunological consequences, identifying at each node which medications could intercept and what a response reveals. Works through the PIP2/TRPM3 channelopathy cascade, TRPV1-mediated vasoconstriction, and Piezo2 dysfunction."
         }
       ]
     },
@@ -252,7 +252,7 @@
           "ch": "ch38",
           "title": "Mechanistic and Experimental Studies",
           "href": "part4-research/ch38-mechanistic-studies/index.html",
-          "about": "Examines the 2024 NIH deep phenotyping study of post-infectious ME/CFS in detail, describing its design, comprehensive assessment battery, and key biological findings across catecholamine deficiency, immune dysfunction, autonomic dysfunction, and neuroimaging. Documents its limitations and the \u201ceffort preference\u201d controversy."
+          "about": "Examines the 2024 NIH deep phenotyping study of post-infectious ME/CFS in detail, describing its design, comprehensive assessment battery, and key biological findings across catecholamine deficiency, immune dysfunction, autonomic dysfunction, and neuroimaging. Documents its limitations and the “effort preference” controversy."
         },
         {
           "ch": "ch39",
@@ -276,7 +276,7 @@
           "ch": "ch42",
           "title": "Controversies and Debates in ME/CFS Research",
           "href": "part4-research/ch42-controversies/index.html",
-          "about": "Examines the contested naming and terminology of the disease (ME, CFS, ME/CFS, SEID) and how the terminology debate affects research funding, clinical recognition, and patient treatment. Documents how the \u201cchronic fatigue syndrome\u201d label generates more negative attributions and stigma than alternative names."
+          "about": "Examines the contested naming and terminology of the disease (ME, CFS, ME/CFS, SEID) and how the terminology debate affects research funding, clinical recognition, and patient treatment. Documents how the “chronic fatigue syndrome” label generates more negative attributions and stigma than alternative names."
         },
         {
           "ch": "ch43",
@@ -294,7 +294,7 @@
           "ch": "ch45",
           "title": "Research Infrastructure Proposals",
           "href": "part4-research/ch45-research-infrastructure/index.html",
-          "about": "Proposes foundational research infrastructure centered on the \u201cME/CFS Human Phenome Project,\u201d a multi-site longitudinal deep phenotyping cohort with comprehensive multi-omic, immune, autonomic, exercise-physiology, and neuroimaging assessment. Details study design, biorepository specifications, data infrastructure, budget, and feasibility."
+          "about": "Proposes foundational research infrastructure centered on the “ME/CFS Human Phenome Project,” a multi-site longitudinal deep phenotyping cohort with comprehensive multi-omic, immune, autonomic, exercise-physiology, and neuroimaging assessment. Details study design, biorepository specifications, data infrastructure, budget, and feasibility."
         },
         {
           "ch": "ch46",
@@ -361,7 +361,7 @@
           "ch": "ch55",
           "title": "Predictive Applications and Clinical Translation",
           "href": "part5-modeling/ch55-predictive-applications/index.html",
-          "about": "Examines how the mathematical models translate into practical clinical applications, including personalized pacing optimization, activity planning algorithms, real-time monitoring integration, and severity-stratified monitoring. Assesses each application\u2019s current feasibility and barriers."
+          "about": "Examines how the mathematical models translate into practical clinical applications, including personalized pacing optimization, activity planning algorithms, real-time monitoring integration, and severity-stratified monitoring. Assesses each application’s current feasibility and barriers."
         },
         {
           "ch": "ch56",
