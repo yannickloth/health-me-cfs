@@ -25,8 +25,6 @@ Significant symptom overlap exists between ME/CFS and fibromyalgia, with 20-70% 
 
 #include "hypotheses/hyp-central-sensitization-pain.typ"
 
-#include "hypotheses/hyp-shared-central-genetic-architecture-fibro-mecfs.typ"
-
 *Distinguishing Features*
 
 The primary clinical distinction between ME/CFS and fibromyalgia is the presence and prominence of PEM:
