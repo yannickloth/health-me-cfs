@@ -98,7 +98,25 @@
     #text(font: font-heading, size: size-body, weight: "regular",
       context [Part #_part-counter.display("I")])
     #v(0.8em)
-    #text(font: font-heading, size: 22pt, weight: "bold")[title]
+    #text(font: font-heading, size: 22pt, weight: "bold")[#title]
+  ]
+  v(1.5em)
+  body
+  v(1fr)
+  pagebreak()
+}
+
+// ── Sub-part divider ───────────────────────────────────────────────────────────
+// A structural divider that separates chapter groups within a Part (e.g. Part II
+// system-mechanism chapters from cross-cutting-analysis chapters) WITHOUT
+// consuming a part number or a heading element. Visually mirrors doc-part.
+#let doc-subpart(title, body) = {
+  pagebreak()
+  v(1fr)
+  align(center)[
+    #text(font: font-heading, size: size-body, weight: "regular", "Within Part")
+    #v(0.8em)
+    #text(font: font-heading, size: 20pt, weight: "bold")[#title]
   ]
   v(1.5em)
   body

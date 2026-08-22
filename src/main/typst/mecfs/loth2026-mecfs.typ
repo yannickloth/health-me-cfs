@@ -24,7 +24,7 @@
 #import "shared/layout.typ": apply-page-layout
 #import "shared/environments.typ": apply-counter-resets
 #import "shared/tables.typ": apply-table-styles
-#import "shared/front-matter.typ": title-page, doc-abstract, keywords, front-chapter, doc-part
+#import "shared/front-matter.typ": title-page, doc-abstract, keywords, front-chapter, doc-part, doc-subpart
 
 // =============================================================================
 // GLOBAL STYLE APPLICATION
@@ -140,6 +140,18 @@
 #include "part2-pathophysiology/ch12-gut-microbiome/ch12-gut-microbiome.typ"
 #include "part2-pathophysiology/ch14-genetics-epigenetics/ch14-genetics-epigenetics.typ"
 #include "part2-pathophysiology/ch15-integrative-models/ch15-integrative-models.typ"
+
+// Within Part II: divide the system-mechanism chapters from the cross-cutting
+// analysis chapters. No labels or chapter numbers change; purely a reader divider.
+#doc-subpart([Cross-Cutting Analysis])[
+The system-mechanism chapters above (energy, immune, neurological, endocrine,
+cardiovascular, gut, genetics, integrative) examine each biological subsystem in
+isolation. The chapters that follow analyze cross-cutting questions that span
+these systems: comparative nosology, brain-clearance architecture, speculative
+hypotheses, symptom-producing mechanisms, the causal hierarchy, universal
+mechanisms, and the female reproductive axis.
+]
+
 #include "part2-pathophysiology/ch16-comparative-nosology/ch16-comparative-nosology.typ"
 #include "part2-pathophysiology/ch13-brain-clearance-architecture/ch13-brain-clearance-architecture.typ"
 #include "part2-pathophysiology/ch17-speculative-hypotheses/ch17-speculative-hypotheses.typ"
