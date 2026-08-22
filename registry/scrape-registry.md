@@ -1041,3 +1041,14 @@ Prevents re-processing of already-integrated content.
 | PubMed E-utilities API (21 queries + esummary/efetch, batch) | pubmed/eutils | 2026-08-21 | — | ops/research/search-log-depression-hippocampal-neurogenesis-2026-08-21.md, bib/neurology-comorbidities.bib (14 new), appendix-h (14 annotated entries, sec:bib-depression-hippocampal-neurogenesis) — depression hippocampal neurogenesis in MDD (primary Peng 2026 + foundational Eriksson 1998 + persistence Boldrini 2018 + MDD granule neurons Boldrini 2019 + antidepressant Boldrini 2012 + reviews Tartt 2022/Anacker 2017 + hippocampal volume Videbech 2004 + pattern separation Gandy 2017 + null Sorrells 2018/2021 + animal Snyder 2011 + indirect ME/CFS Papadopoulos 2011 + indirect long COVID Fernández-Castañeda 2022) |
 | Crossref API (1 DOI) | crossref | 2026-08-21 | — | DOI 10.1038/s41591-026-04571-8 (Peng 2026 primary paper metadata verification) |
 | Nature Medicine (full text) | nature.com | 2026-08-21 | — | Article s41591-026-04571-8 (open access) — abstract + Methods for primary-paper annotation |
+---
+
+## Reactome Human Pathway Catalog (pathway-registry scaffold)
+
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| Reactome release download (`ReactomePathways.txt`) | 2026-08-22 | Full canonical human pathway list. Reactome = CC0 (public domain). 2,883 Homo sapiens pathway rows at reaction/process granularity. Fetch: https://reactome.org/download/current/ReactomePathways.txt. Used as the external canonical reference for the pathway-coverage index (Tier A). NOT copied wholesale into the paper — referenced by name/ID only. |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| https://reactome.org/download/current/ReactomePathways.txt | reactome.org | 2026-08-22 | — | ops/plans/pathway-registry.md — canonical human pathway scaffold for Tier A pathway-coverage index (cross-reference only; no paper content integration yet) |
