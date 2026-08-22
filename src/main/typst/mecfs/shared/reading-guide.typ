@@ -129,7 +129,7 @@ A short glossary of the terms most likely to appear in patient and caregiver rea
   table(
     columns: (auto, auto),
     inset: table-inset,
-    stroke: booktabs-stroke(15),
+    stroke: booktabs-stroke(14),
 
     [*Term*], [*What it means*],
     [Post-exertional malaise (PEM)], [A delayed, disproportionate worsening of symptoms 12–72 hours after physical or cognitive exertion — the defining feature of ME/CFS. Often called a "crash".],
