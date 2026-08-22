@@ -1,4 +1,5 @@
 #import "../shared/front-matter.typ": doc-part
+#import "../shared/environments.typ": note-env
 
 #doc-part([Mathematical and Computational Modeling])[
 This part presents mathematical and computational models of ME/CFS pathophysiology, including:
@@ -11,4 +12,8 @@ This part presents mathematical and computational models of ME/CFS pathophysiolo
 - *Causal hierarchy analysis*: Formal testing of which mechanisms are trigger-capable root causes versus amplifiers versus consequences, using sensitivity analysis, bifurcation theory, and lock removal protocols
 
 These models synthesize biological understanding into quantitative frameworks that can generate testable predictions and guide therapeutic strategies. The part concludes with a capstone analysis (Chapter @ch:causal-hierarchy-formal) that formally tests the causal hierarchy proposed in Part II using the integrated 67-variable ODE model.
+
+#note-env(title: [Causal-Hierarchy Thread Concludes])[
+This part formally tests the *trigger-capable root causes, amplifiers, and downstream consequences* first classified qualitatively in Part II (Chapter @ch:causal-hierarchy) and catalogued as hypotheses in Part IV (Chapter @sec:hypothesis-speculation-registry, Chapter @ch:proposed-studies). Chapter @ch:causal-hierarchy-formal closes the thread.
+]
 ] <part:modeling>

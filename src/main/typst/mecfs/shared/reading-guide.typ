@@ -13,7 +13,7 @@ The document is divided into five main parts:
 
 / *Part I: Clinical Overview*: Covers symptoms, diagnostic criteria, disease course, and clinical presentation. Start here for understanding what ME/CFS is and how it manifests.
 
-/ *Part II: Pathophysiology*: Explores biological mechanisms—known, suspected, and speculative—culminating in a comparative nosology (Chapter 16) that classifies ME/CFS among related contested diagnoses, and a causal hierarchy analysis (Chapter 19) that classifies mechanisms as root causes, amplifiers, or consequences. Essential for understanding the multisystem nature of the disease and the diagnostic boundary disputes with fibromyalgia, Long COVID, PTLDS, and related conditions.
+/ *Part II: Pathophysiology*: Explores biological mechanisms—known, suspected, and speculative—culminating in a comparative nosology (Chapter 16) that classifies ME/CFS among related contested diagnoses, and a causal hierarchy analysis (Chapter 19) that classifies mechanisms as trigger-capable root causes, amplifiers, or downstream consequences. Essential for understanding the multisystem nature of the disease and the diagnostic boundary disputes with fibromyalgia, Long COVID, PTLDS, and related conditions.
 
 / *Part III: Treatment and Management*: Documents medications, supplements, lifestyle interventions, and management strategies. Includes both evidence-based approaches and emerging therapies.
 

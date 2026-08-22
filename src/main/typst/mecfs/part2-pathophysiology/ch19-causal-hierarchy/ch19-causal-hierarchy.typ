@@ -23,6 +23,26 @@ The practical consequence for the causal hierarchy analysis that follows is that
 
 This chapter proposes a three-tier classification framework, applies it systematically to the mechanisms described in preceding chapters, and draws out the implications for treatment strategy and research design. The claims made here are themselves hypotheses—informed by evidence but not proven. The sister chapter in Part V (Chapter @ch:causal-hierarchy-formal) tests these claims using formal mathematical models; the present chapter develops the biological reasoning that those models encode.
 
+#note-env(title: [How the Causal-Hierarchy Argument Flows])[
+The causal-hierarchy thread spans three parts of this document. Four stations carry it from a qualitative classification to a formal test:
+
+#table(
+  columns: (auto, auto, auto, auto),
+  inset: table-inset,
+  stroke: booktabs-stroke(5),
+
+  [*Station*], [*Where*], [*What it does*], [*Part*],
+
+  [1. Qualitative classification], [@ch:causal-hierarchy], [Classifies each mechanism as trigger-capable root cause, amplifier, or downstream consequence], [Part II — this chapter],
+
+  [2. Registry entries], [@sec:hypothesis-speculation-registry], [Fielded records of every hypothesis with explicit certainty scores], [Part IV],
+
+  [3. Proposed studies], [@ch:proposed-studies], [Translates the registry hypotheses into testable research protocols], [Part IV — ch47],
+
+  [4. Formal ODE test], [@ch:causal-hierarchy-formal], [Tests tier assignments against the integrated ODE model using sensitivity and bifurcation analysis], [Part V — ch56],
+),
+]
+
 // =============================================================================
 // SECTION 1: THREE-TIER CLASSIFICATION FRAMEWORK
 // =============================================================================
