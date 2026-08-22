@@ -90,6 +90,15 @@ Map<String, List<String>> readPartOrder(Path webRoot) throws Exception {
 }
 
 int canonicalIndex(Map<String, List<String>> partOrder, String base, String dirName) {
+    // Front matter pages are not chapters in part-chapters.json; give them a
+    // canonical reading order so the sidebar lists them deterministically.
+    if (base.equals("front-matter")) {
+        var fmOrder = List.of(
+            "abstract", "keywords", "reading-guide", "methodology",
+            "patient-faq", "ai-disclosure", "license", "version-notice");
+        int fi = fmOrder.indexOf(dirName);
+        return fi < 0 ? Integer.MAX_VALUE : fi;
+    }
     var list = partOrder.get(base);
     if (list == null) return Integer.MAX_VALUE;
     int i = list.indexOf(dirName);
@@ -113,9 +122,9 @@ List<Object> expandGlob(Path webRoot, String glob, Map<String, List<String>> par
             // (so single-page items such as a pure-list appendix are clickable).
             var chapter = new LinkedHashMap<String, Object>();
             chapter.put("type", "section");
-            chapter.put("label", titleFromPath(dir.getFileName().toString()));
+            var dirLabel = titleFromPath(dir.getFileName().toString());
             var intro = dir.resolve("index.qmd");
-            if (Files.isRegularFile(intro)) chapter.put("href", siteHref(webRoot, intro));
+            var hasIntro = Files.isRegularFile(intro);
             var pages = new ArrayList<Object>();
             try (var ps = Files.list(dir)) {
                 var qmds = ps.filter(p -> Files.isRegularFile(p) && p.toString().endsWith(".qmd"))
@@ -129,6 +138,21 @@ List<Object> expandGlob(Path webRoot, String glob, Map<String, List<String>> par
                     pages.add(page);
                 }
             }
+            // Front-matter pages are short; label the section from the page's own
+            // title (index page, else its single page) so acronyms like FAQ/AI and
+            // full titles render correctly rather than from the directory slug.
+            if (base.equals("front-matter")) {
+                if (hasIntro) {
+                    chapter.put("label", frontmatterTitle(intro));
+                } else if (pages.size() == 1) {
+                    chapter.put("label", ((Map<?, ?>) pages.get(0)).get("label"));
+                } else {
+                    chapter.put("label", dirLabel);
+                }
+            } else {
+                chapter.put("label", dirLabel);
+            }
+            if (hasIntro) chapter.put("href", siteHref(webRoot, intro));
             if (!chapter.containsKey("href") && pages.size() == 1) {
                 chapter.put("href", ((Map<?, ?>) pages.get(0)).get("href"));
             }

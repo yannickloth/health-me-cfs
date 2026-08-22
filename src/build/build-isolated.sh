@@ -30,7 +30,7 @@ mkdir -p "$STAGE" "$SITE"
 # Units: <source-path-in-web> <render-target>. Rendering the whole unit dir or a
 # single file. Each becomes its own isolated project.
 # Directories:
-DIR_UNITS="part1-clinical part2-pathophysiology part3-treatment part4-research part5-modeling z-appendices faq patient-resources en/blog de/blog fr/blog"
+DIR_UNITS="front-matter part1-clinical part2-pathophysiology part3-treatment part4-research part5-modeling z-appendices faq patient-resources en/blog de/blog fr/blog"
 # Single files (rendered into _site/ root):
 FILE_UNITS="index.qmd about.qmd"
 

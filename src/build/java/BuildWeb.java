@@ -174,6 +174,49 @@ void main(String[] args) throws IOException, InterruptedException {
             tasks.add(new ChapterTask(sName, webSharedDir, resolvedFile));
         }
     }
+
+    // --- Front matter (web content pages, ordered before Part I) ---
+    // These shared front-matter files are content pages (not config/styling)
+    // and are rendered to standalone HTML in front-matter/<slug>/, mirroring
+    // how chapters render. Config files (layout, theme, typography, math-config,
+    // metadata, front-matter) and author-bio (already surfaced via the top-navbar
+    // About page) are intentionally excluded.
+    System.out.println();
+    System.out.println("=== front matter -> front-matter/ ===");
+    var webFmDir = webRoot.resolve("front-matter");
+    createDirectories(webFmDir);
+    try (var stream = list(webFmDir)) {
+        for (var entry : stream.toList()) {
+            if (isDirectory(entry) && !entry.getFileName().toString().startsWith(".")) {
+                deleteRecursive(entry);
+            }
+        }
+    }
+    var fmOrder = List.of(
+        "abstract",
+        "keywords",
+        "reading-guide",
+        "methodology",
+        "patient-faq",
+        "ai-disclosure",
+        "license",
+        "version-notice"
+    );
+    for (var fmName : fmOrder) {
+        var fmSrc = srcRoot.resolve("shared").resolve(fmName + ".typ");
+        if (!exists(fmSrc)) {
+            System.out.println("  SKIP " + fmName + " (not found)");
+            continue;
+        }
+        var fmOutDir = webFmDir.resolve(fmName);
+        System.out.println("  " + fmName + " -> front-matter/" + fmName);
+        createDirectories(fmOutDir);
+        var resolved = resolveIncludes(fmSrc, srcRoot);
+        var resolvedFile = createTempFile("buildweb-fm-", ".typ");
+        writeString(resolvedFile, resolved);
+        resolvedFile.toFile().deleteOnExit();
+        tasks.add(new ChapterTask(fmName, fmOutDir, resolvedFile));
+    }
     System.out.println();
 
     // --- Execute chapter conversion in parallel ---
