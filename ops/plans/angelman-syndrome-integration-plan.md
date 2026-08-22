@@ -51,6 +51,12 @@ Evaluate whether Angelman syndrome (AS; UBE3A loss-of-function, 15q11-q13) share
 ## Phase 5a — Falsifiability Sweep
 - 1 new environment (`@spec:angelman-ube3a-cross-disease`) audited. It includes a falsifiable prediction (UBE3A pathway enrichment + iPSC phenotype). Falsifiability: PASS. (falsifiability-auditor agent file absent from .opencode/agents/ — sweep run inline by main session per escalation rule.)
 
+## Phase 5z — Glossary Review
+- CORRECTED (was initially marked LEGIT-SKIP). Re-audit found the skip condition ("no .qmd/.typ files modified in Phases 3–5") did NOT fire — ch14d + registry .typ files were modified.
+- Ran glossary scan on the new angelman content. 5 orphaned terms added to `src/main/resources/glossary-en.json`: UBE3A, E6AP, iPSC, Dup15q, GABAergic. (GABA/ROS/OXPHOS/ubiquitin/ATP already present.)
+- Guard: 5 terms < 20 → no user-curation pause needed.
+- Build PASS after glossary edit. Web build PASS.
+
 ## Phase 6 report
 - Matches examined: 4 (GABAergic/tonic-inhibition claims in ch14h/ch18/ch10-neurosteroid; glutamatergic E/I in ch14 subsec-18; mitochondrial/energy in ch15/ch18). Adapted: 0.
 - All overlaps deferred (below quality floor): Watanabe (0.30), Su (0.33), Simchi (0.30), Panov (0.18) all <0.40 → "overlap noted, do not edit" per Evidence Quality Floor. Buiting (0.68) validates AS mechanisms, not ME/CFS claims — no ME/CFS claim to bump. Qu/Kurmashev (0.40–0.59) are AS-specific reviews; citation-only value, no supporting ME/CFS claim.
@@ -126,7 +132,7 @@ Evaluate whether Angelman syndrome (AS; UBE3A loss-of-function, 15q11-q13) share
 | 5d | LEGIT-SKIP | no drug-interception cascade; analogy correlational, citation-only |
 | 5b | RAN | build PASS |
 | 5a | RAN | falsifiability audit applied (spec has falsifiable prediction) |
-| 5z | LEGIT-SKIP | no new glossary terms |
+| 5z | RAN | 5 glossary terms added (UBE3A, E6AP, iPSC, Dup15q, GABAergic) — was a faulty skip, corrected |
 | 6 | RAN | overlap noted, 0 edits (papers <0.40 deferred); bump log empty |
 | 7 | RAN | 5 pairs audited; 0 bumps/reductions; compat-audit in tmp/ |
 | 8 | RAN | build PASS |
