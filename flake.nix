@@ -91,6 +91,12 @@
             export HOME="$NIX_BUILD_TOP/home"
             mkdir -p "$HOME"
 
+            # Regenerate the pathway-coverage status table from the internal
+            # registry so the published table never drifts from the source.
+            java --source 25 src/build/java/GeneratePathwayTable.java \
+              ops/plans/pathway-registry.md \
+              src/main/typst/mecfs/part3-treatment/ch34-mechanistic-cascade-tracing/sec-14-pathway-coverage/pathway-status-table.typ
+
             typst compile \
               --package-cache-path "${typst-package-cache}" \
               --font-path src/main/typst/mecfs/fonts \
@@ -179,6 +185,11 @@
 
             # Regenerate site-level files from the merged site
             java --source 25 src/build/java/GenerateSiteIndex.java target/site
+
+            # Regenerate the pathway-coverage status table (build-time, no drift)
+            java --source 25 src/build/java/GeneratePathwayTable.java \
+              ops/plans/pathway-registry.md \
+              src/main/typst/mecfs/part3-treatment/ch34-mechanistic-cascade-tracing/sec-14-pathway-coverage/pathway-status-table.typ
 
             typst compile \
               --package-cache-path "${typst-package-cache}" \

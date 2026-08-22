@@ -43,3 +43,5 @@ For every major mechanistic hypothesis in the ME/CFS paper, this chapter traces 
 
 #include "sec-13-pharmacodiagnostic-matrix/sec-13-pharmacodiagnostic-matrix.typ"
 
+#include "sec-14-pathway-coverage/sec-14-pathway-coverage.typ"
+
