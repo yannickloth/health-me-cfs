@@ -138,6 +138,22 @@
 - Evaluated: synthesis reinforces the existing brain-first genetic model (already in ch19 causal hierarchy via DecodeME/Maccallini); introduces NO new trigger/amplifier/mechanism; no change to trigger-vs-amplifier classification.
 - Classified as **downstream/non-actionable** for framing → **no framing propagation needed**. Recorded per decision matrix ("Downstream consequence → no framing update needed").
 
+## Phase 11 record (review to convergence)
+- Tier: **Full** (multi-chapter ch04/ch14/ch14d + 10 envs + PROCEED).
+- 11a review-convergence: RAN. Round 1 = 0 findings, Round 2 = 0 findings → CONVERGED.
+- 11b review-adversarial: RAN (devil-advocate-auditor). Pass 1: 0 CRITICAL/0 HIGH, 3 MEDIUM + 1 LOW. MEDIUMs fixed (Lin2026 phrasing softened; ch14d bump-note made explicit re: Kerrebijn reported loci not tested ME/CFS; cert-0.60 alignment note added). Pass 2 (post-fix build): 0 HIGH/CRITICAL → converged.
+- 11c review-typst/xref: RAN. All citations resolve case-exact; all cross-refs resolve; build 0 errors → converged.
+- Retroactive Phase 9 SLOW-CONVERGENCE: NOT triggered (convergence reached promptly, no structural rework).
+
+## Phase 12 record (plan-record)
+- Topic: fibromyalgia-genetics — decision **PROCEED**.
+- Environments added: 10 (1 achievement, 4 hypotheses, 1 speculation, 2 open-questions, 2 limitations) + 1 synthesis = 11 across ch04/ch14/ch14d. Registry: 4 hypothesis rows.
+- Bib: 10 entries (3 genetics-epigenetics.bib + 7 pain-fibromyalgia.bib) + primary Kerrebijn.
+- Key finding: Kerrebijn 2026 GWAS (2.56M, 26 loci, HTT/GPR52, brain-enriched) establishes fibromyalgia as CNS/nociplastic and supports shared central genetic architecture with ME/CFS — informing the comorbidity relationship.
+- Phase 9 quality flags: NONE.
+- Clinical relevance: MEDIUM (subset all/fibromyalgia; severity unknown).
+- No unverifiable anecdote: source is a peer-reviewed Nature Medicine paper (PDF on disk).
+
 ## Certainty Bump Log
 | Hypothesis | Phase | Old cert | New cert | Δ | Reason |
 |-----------|-------|----------|----------|---|--------|
@@ -150,3 +166,36 @@
 ## Notes
 - Existing related plans: `shared-mechanisms-fibromyalgia-mecfs-longcovid-integration-plan.md` (symptom-level overlap, older), `chronic-overlapping-pain-multimorbidity-2026-integration-plan.md`, `ldn-fibromyalgia-responder-rates-integration-plan.md`. This is a distinct genetic-architecture topic.
 - MIXED mode: shared files (registry, bib, appendix-h) may be concurrently written by tryptophan cycle — track by key/label.
+
+## Phase Ledger (Phase 12.5 completion gate — 2026-08-23)
+
+| Phase | State | Evidence |
+|-------|-------|----------|
+| 0 | RAN | ops/plans/fibromyalgia-genetics-integration-plan.md present + validated |
+| 1 | RAN | ops/research/search-log-fibromyalgia-genetics-2026-08-22.md + literature-summary + 10 bib entries |
+| 2 | RAN | tmp/synthesis-fibromyalgia-genetics-2026-08-22.md; decision PROCEED |
+| 3 | RAN | ch04 subsec-04 + ch14 subsec-22 envs + ch14d bridge + 4 registry rows |
+| 3a | RAN | nix build PASS (Phase 3a) |
+| 3b | RAN | tmp/safety-gate-fibromyalgia-genetics.md (non-treatment bypass; severity covered) |
+| 3.5 | RAN | all 10 envs have *Consequence:* + severity; registry rows have Consequence |
+| 4 | RAN | ops/brainstorms/brainstorm-fibromyalgia-genetics-2026-08-22.md (14 ideas) |
+| 4a | RAN | subtrees/fibromyalgia-genetics.md (14 nodes) + root index (committed via dora HEAD 16119967) |
+| 5 | RAN | triage + 4 new envs integrated (autoimmune-reconciliation, GPR52 spec, null-oq, GPR52-lim) + 2 ch14 hyp |
+| 5b | RAN | nix build PASS (Phase 5b) |
+| 5d | LEGIT-SKIP | genetic-architecture topic: no specifiable ≥3-step biochemical cascade with existing sec-12 drug interception (captured as speculation in ch14, not ch30) |
+| 5c | LEGIT-SKIP | no medication with human ME/CFS evidence; GPR52 purely preclinical/investigational |
+| 5a | RAN | inline verification (user-approved; agent file missing documented); all testable claims falsifiable |
+| 5z | RAN | 5 glossary entries added (fibromyalgia, nociplastic, HTT, GPR52, PRS) |
+| 6 | RAN | ch14 preprint→published reinforcement + ch14d bump 0.50→0.55 (bump log) |
+| 7 | RAN | tmp/compat-audit-fibromyalgia-genetics-2026-08-22.md; no adjustments |
+| 8 | RAN | nix build PASS (0 errors; unblocked via user-approved dora staging) |
+| 9 | RAN | quality flags NONE (appended to synthesis) |
+| 10 | RAN | tmp/coherence-audit-fibromyalgia-genetics-2026-08-22.md; 0 inconsistencies |
+| 10a | RAN | @syn:fibromyalgia-genetics-shared-central-architecture (ch14 subsec-22) |
+| 10b | RAN | evaluated — downstream/non-actionable, no framing propagation needed (documented) |
+| 11 | RAN | 11a CONVERGED; 11b 0 HIGH/CRITICAL (3 MEDIUM fixed); 11c all xrefs/cites resolve |
+| 12 | RAN | plan-record written |
+| 12.5 | RAN | this ledger |
+| 13 | RAN | commit hash: see below |
+
+**Summary:** 23 RAN, 2 LEGIT-SKIP (5c, 5d), 0 WAIVED, 0 OMISSION.
