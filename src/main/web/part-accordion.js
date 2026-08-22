@@ -26,21 +26,32 @@
 
   function buildPartAccordion(container, data, prefix) {
     const accordionId = `part-accordion-${prefix}`;
+    // Open the first numbered part (e.g. Part I) by default, not the Front
+    // Matter tab that precedes it in the list.
+    const defaultOpenIdx = data.parts.findIndex((p) => p.kind !== 'pages');
+    const openIdx = defaultOpenIdx >= 0 ? defaultOpenIdx : 0;
     const items = data.parts.map((part, partIdx) => {
       const headerId = `part-accordion-head-${prefix}-${partIdx}`;
       const bodyId = `part-accordion-body-${prefix}-${partIdx}`;
       const carouselId = `part-carousel-${prefix}-${partIdx}`;
-      const openClass = partIdx === 0 ? ' show' : '';
-      const expanded = partIdx === 0 ? 'true' : 'false';
-      const collapsed = partIdx === 0 ? '' : ' collapsed';
+      const isDefault = partIdx === openIdx;
+      const openClass = isDefault ? ' show' : '';
+      const expanded = isDefault ? 'true' : 'false';
+      const collapsed = isDefault ? '' : ' collapsed';
 
       const slides = part.chapters.map((chapter, slideIdx) => {
         const active = slideIdx === 0 ? ' active' : '';
+        const isPages = part.kind === 'pages';
+        // Front-matter and other non-chapter parts have no numeric chapter id,
+        // so render their title without a "ChNN" badge.
+        const badge = isPages
+          ? ''
+          : `<span class="part-carousel-num">Ch${chapter.ch.replace('ch', '')}</span>`;
         return `
           <div class="carousel-item${active}">
             <div class="part-carousel-slide">
               <h4 class="part-carousel-title">
-                <span class="part-carousel-num">Ch${chapter.ch.replace('ch', '')}</span>
+                ${badge}
                 ${esc(chapter.title)}
               </h4>
               <p class="part-carousel-about">${esc(chapter.about)}</p>
@@ -67,7 +78,7 @@
             <button class="accordion-button${collapsed}" type="button" data-bs-toggle="collapse"
                     data-bs-target="#${bodyId}" aria-expanded="${expanded}" aria-controls="${bodyId}">
               <span class="part-accordion-title">${esc(part.title)}</span>
-              <span class="part-accordion-meta">${part.chapters.length} chapters</span>
+              <span class="part-accordion-meta">${part.chapters.length} ${part.kind === 'pages' ? 'pages' : 'chapters'}</span>
             </button>
           </h2>
           <div id="${bodyId}" class="accordion-collapse collapse${openClass}" aria-labelledby="${headerId}" data-bs-parent="#${accordionId}">
@@ -78,11 +89,11 @@
                 <div class="carousel-inner">${slides}</div>
                 <button class="carousel-control-prev part-carousel-control" type="button" data-bs-target="#${carouselId}" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous chapter</span>
+                  <span class="visually-hidden">Previous ${part.kind === 'pages' ? 'page' : 'chapter'}</span>
                 </button>
                 <button class="carousel-control-next part-carousel-control" type="button" data-bs-target="#${carouselId}" data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next chapter</span>
+                  <span class="visually-hidden">Next ${part.kind === 'pages' ? 'page' : 'chapter'}</span>
                 </button>
                 <div class="carousel-caption part-carousel-labels">
                   ${labels}
