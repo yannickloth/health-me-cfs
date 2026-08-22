@@ -77,6 +77,8 @@ The orexin (hypocretin) system provides a mechanistic link between the cytokine-
 
 #include "sec-01-misc/subsec-04-orexin-hypocretin-suppression-as-a-centr/speculations/spec-daridorexant-beta-amyloid-hypothetical.typ"
 
+#include "sec-01-misc/subsec-04-orexin-hypocretin-suppression-as-a-centr/speculations/syn-dora-neuroprotection-two-arm-convergence.typ"
+
 ==== Pharmacological Convergences on the cAMP/PKA Tau Phosphorylation Axis
 
 *Certainty: 0.15--0.25 across agents.* The Parhizkar et al.\ @Parhizkar2025LemborexantTau demonstration that DORAs reduce tau phosphorylation via cAMP/PKA suggests that other drug classes acting on the cAMP/PKA pathway — or on parallel tau kinases — may share this neuroprotective mechanism. None of the agents below have been tested for tau effects in ME/CFS; all claims are cross-disease pharmacological extrapolation.
