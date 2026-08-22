@@ -100,7 +100,12 @@ Evaluate whether Angelman syndrome (AS; UBE3A loss-of-function, 15q11-q13) share
 - Key finding: Angelman syndrome (UBE3A loss) models mitochondrial/energy deficit, oxidative stress, GABAergic E/I imbalance, and sleep fragmentation — each proposed in ME/CFS — but zero direct AS–ME/CFS link exists, so it is hypothesis-generating only.
 - Quality flags: WEAK-EVIDENCE (Phase 2 PARTIAL) — caveats present.
 - Clinical relevance: LOW (research-only); severity unknown.
-- Phase 12.5 ledger + Phase 13 commit: see tmp/governor-ledger-angelman-syndrome.md.
+## Phase 13 — Commit
+- Commit `03b24238` (11 files, content(mecfs): integrate Angelman syndrome cross-disease analogy).
+- Shared-file ownership re-check: HEAD did not contain angelman entries pre-commit (verified 0); all 11 files committed here. No entries lost to parallel streams.
+- Post-commit integrity: tree clean (no foreign files), build 0 errors.
+- No wip/ scratch pointers (MIXED mode). No history rewrite.
+- Row status: ✅ done (analogy integrated; AS-specific claims parked ↩️ pending ME/CFS-side evidence).
 
 ## Phase Ledger (Phase 12.5 completion gate)
 
