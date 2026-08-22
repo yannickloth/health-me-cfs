@@ -323,6 +323,26 @@
       },
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/document-health-monitor.md}"
     },
+    "driver-assignment-auditor": {
+      "model": "deepseek/deepseek-v4-pro",
+      "options": {
+        "thinking": {
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
+      },
+      "prompt": "{file:../llm-harness-plugins/ivp/agents/driver-assignment-auditor.md}"
+    },
+    "driver-identifier": {
+      "model": "deepseek/deepseek-v4-pro",
+      "options": {
+        "thinking": {
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
+      },
+      "prompt": "{file:../llm-harness-plugins/ivp/agents/driver-identifier.md}"
+    },
     "english-prose-pattern-auditor": {
       "model": "deepseek/deepseek-v4-pro",
       "options": {
@@ -423,6 +443,16 @@
       },
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/functional-paradigm-auditor.md}"
     },
+    "gamma-modularizer": {
+      "model": "deepseek/deepseek-v4-pro",
+      "options": {
+        "thinking": {
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
+      },
+      "prompt": "{file:../llm-harness-plugins/ivp/agents/gamma-modularizer.md}"
+    },
     "git-historian": {
       "model": "deepseek/deepseek-v4-pro",
       "options": {
@@ -503,6 +533,89 @@
         "reasoning_effort": "high"
       },
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/industry-architect-auditor.md}"
+    },
+    "ivp-refactor-auditor": {
+      "model": "deepseek/deepseek-v4-pro",
+      "options": {
+        "thinking": {
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
+      },
+      "prompt": "{file:../llm-harness-plugins/ivp/agents/ivp-refactor-auditor.md}"
+    },
+    "latex-citation-checker": {
+      "model": "deepseek/deepseek-v4-flash",
+      "options": {
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "prompt": "{file:../llm-harness-plugins/latex-toolkit/agents/latex-citation-checker.md}"
+    },
+    "latex-figure-caption-auditor": {
+      "model": "deepseek/deepseek-v4-flash",
+      "options": {
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "prompt": "{file:../llm-harness-plugins/latex-toolkit/agents/latex-figure-caption-auditor.md}"
+    },
+    "latex-formatting-fixer": {
+      "model": "deepseek/deepseek-v4-flash",
+      "options": {
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "prompt": "{file:../llm-harness-plugins/latex-toolkit/agents/latex-formatting-fixer.md}"
+    },
+    "latex-index-auditor": {
+      "model": "deepseek/deepseek-v4-flash",
+      "options": {
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "prompt": "{file:../llm-harness-plugins/latex-toolkit/agents/latex-index-auditor.md}"
+    },
+    "latex-notation-consistency-checker": {
+      "model": "deepseek/deepseek-v4-flash",
+      "options": {
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "prompt": "{file:../llm-harness-plugins/latex-toolkit/agents/latex-notation-consistency-checker.md}"
+    },
+    "latex-production-readiness-checker": {
+      "model": "deepseek/deepseek-v4-flash",
+      "options": {
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "prompt": "{file:../llm-harness-plugins/latex-toolkit/agents/latex-production-readiness-checker.md}"
+    },
+    "latex-syntax-fixer": {
+      "model": "deepseek/deepseek-v4-pro",
+      "options": {
+        "thinking": {
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
+      },
+      "prompt": "{file:../llm-harness-plugins/latex-toolkit/agents/latex-syntax-fixer.md}"
+    },
+    "latex-xref-checker": {
+      "model": "deepseek/deepseek-v4-flash",
+      "options": {
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "prompt": "{file:../llm-harness-plugins/latex-toolkit/agents/latex-xref-checker.md}"
     },
     "link-checker": {
       "model": "deepseek/deepseek-v4-flash",
@@ -616,6 +729,16 @@
     "natural-prose-perplexity-judge": {
       "file": "../llm-harness-plugins/natural-prose/agents/natural-prose-perplexity-judge.md",
       "mode": "subagent"
+    },
+    "nest-decider": {
+      "model": "deepseek/deepseek-v4-pro",
+      "options": {
+        "thinking": {
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
+      },
+      "prompt": "{file:../llm-harness-plugins/ivp/agents/nest-decider.md}"
     },
     "neuro-auditor": {
       "model": "deepseek/deepseek-v4-pro",
