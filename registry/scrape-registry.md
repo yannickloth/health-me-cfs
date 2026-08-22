@@ -13,6 +13,17 @@ Prevents re-processing of already-integrated content.
 
 ---
 
+## Angelman Syndrome (UBE3A) Pathophysiological Overlap with ME/CFS Literature Search
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-08-22 | 17 queries: direct (AS × ME/CFS/chronic-fatigue = 0 hits), indirect-biochemical (UBE3A × fatigue/CFS = 0; UBE3A/AS × mitochondria, oxidative stress/ROS, GABA/GABA-A, sleep, autonomic, neuroinflammation, proteostasis), competing (UBE3A dosage AS/Dup15q, GABA-A receptor × ME/CFS), null (AS × fatigue, autonomic, neuroinflammation). Metadata via esummary/efetch (PMID/DOI verified per paper). 7 papers included. |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed API queries (17 queries + efetch batch, 7 PMIDs) | pubmed/eutils | 2026-08-22 | — | ops/research/search-log-angelman-syndrome-2026-08-22.md, ops/research/literature-summary-angelman-syndrome.md, bib/genetics-epigenetics.bib, appendix-h — Angelman syndrome pathophysiological overlap literature (7 new papers) |
+
+---
+
 ## Irisin Signaling Resistance in PEM Literature Search
 | Source | Last Scraped | Notes |
 |--------|--------------|-------|

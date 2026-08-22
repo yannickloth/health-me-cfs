@@ -36957,3 +36957,116 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
 *Conclusion:*: Demonstrates that a post-viral state can suppress adult hippocampal neurogenesis — the same pathway implicated in MDD (Peng 2026) — and is highly relevant to ME/CFS given its frequent post-infectious onset and long-COVID overlap.
 *Limitations:*: Predominantly mouse data; human sample small; long-COVID rather than ME/CFS-specific.
 *Certainty Assessment:*: 0.80 raw × 0.80 animal+human post-viral weight = discounted 0.64
+
+// =============================================================================
+// research_stream = {angelman-syndrome}
+// Added 2026-08-22 (Phase-1 literature-integrator)
+// =============================================================================
+<sec:bib-angelman-syndrome>
+
+=== Buiting et al.\ 2016 — Angelman Syndrome: Insights into a Rare Neurogenetic Disorder (OVERVIEW)
+
+@Buiting2016AngelmanReview
+
+*Full Citation:*: Buiting K, Williams C, Horsthemke B. Angelman syndrome — insights into a rare neurogenetic disorder. _Nature Reviews Neurology_. 2016;12(10):584–593.
+*DOI:*: #link("https://doi.org/10.1038/nrneurol.2016.133")[10.1038/nrneurol.2016.133]
+*PMID:*: 27615419
+*Study Design:*: Authoritative clinical and molecular review
+*Key Findings:*:
+    - Angelman syndrome (AS) results from UBE3A loss-of-function at 15q11-q13, typically via maternal deletion or imprinting-centre defects.
+    - Clinical features: severe developmental delay, absent speech, ataxia, epilepsy, microcephaly, and a characteristic happy demeanor.
+    - Molecular consequences of UBE3A (E6AP E3 ubiquitin ligase) loss span proteostasis, GABAergic dysfunction, and mitochondrial/energy deficits.
+    - Ube3a-deficient mice show reduced tonic GABA-A inhibition and synaptic abnormalities.
+*Conclusion:*: Establishes the disease framework used to assess pathophysiological overlap with ME/CFS, particularly the GABAergic, mitochondrial, and sleep domains.
+*Limitations:*: General-population expert review; AS is a rare neurogenetic disorder, so any ME/CFS overlap is indirect and must be earned by mechanism, not co-morbidity.
+*Certainty Assessment:*: 0.85 raw × 0.80 general-population review weight = discounted 0.68
+
+=== Su et al.\ 2011 — Mitochondrial Dysfunction in CA1 Neurons of the UBE3A-Deficient Mouse (ANIMAL)
+
+@Su2011UBE3Amitochondria
+
+*Full Citation:*: Su H, Fan W, Coskun PE, Vesa J, Gold JA, Jiang Y, Potluri P, Wallace DC, Gibson J, Kimonis VE. Mitochondrial dysfunction in CA1 hippocampal neurons of the UBE3A deficient mouse model for Angelman syndrome. _Neuroscience Letters_. 2011;487(2):129–133.
+*DOI:*: #link("https://doi.org/10.1016/j.neulet.2009.06.079")[10.1016/j.neulet.2009.06.079]
+*PMID:*: 19563863
+*Study Design:*: Animal model (Ube3a maternal-null mouse), biochemical mitochondrial analysis
+*Key Findings:*:
+    - Hippocampal CA1 neurons from UBE3A-deficient mice show reduced ATP levels.
+    - Mitochondrial dysfunction and impaired oxidative phosphorylation accompany UBE3A loss.
+*Conclusion:*: Links UBE3A loss to impaired cellular energy reserve, bridging AS to the mitochondrial/energy-deficit component of ME/CFS pathophysiology.
+*Limitations:*: Animal model only; CA1-hippocampus focus; indirect relevance to ME/CFS (no AS-ME/CFS co-occurrence data).
+*Certainty Assessment:*: 0.65 raw × 0.50 animal weight = discounted 0.33
+
+=== Panov et al.\ 2020 — Ube3a-Dependent Effects on Mitochondrial-Related Pathways (IN SILICO)
+
+@Panov2020Ube3aMito
+
+*Full Citation:*: Panov J, Simchi L, Feuermann Y, Kaphzan H. Bioinformatics Analyses of the Transcriptome Reveal Ube3a-Dependent Effects on Mitochondrial-Related Pathways. _International Journal of Molecular Sciences_. 2020;21(11):4156.
+*DOI:*: #link("https://doi.org/10.3390/ijms21114156")[10.3390/ijms21114156]
+*PMID:*: 32532103
+*Study Design:*: In silico transcriptomic analysis
+*Key Findings:*:
+    - Ube3a-deficient neurons show altered expression of mitochondrial-related pathways, including oxidative phosphorylation and energy-metabolism genes.
+    - Provides transcriptomic support for a mitochondrial consequence of UBE3A loss.
+*Conclusion:*: Independently (in silico) corroborates the mitochondrial/energy-deficit consequence of UBE3A loss.
+*Limitations:*: In silico only; no functional physiology; indirect relevance to ME/CFS.
+*Certainty Assessment:*: 0.60 raw × 0.30 in-silico weight = discounted 0.18
+
+=== Simchi et al.\ 2023 — Elevated ROS in Early Angelman Syndrome Development (ANIMAL)
+
+@Simchi2023ROS
+
+*Full Citation:*: Simchi L, Gupta PK, Feuermann Y, Kaphzan H. Elevated ROS levels during the early development of Angelman syndrome alter the apoptotic capacity of the developing neural precursor cells. _Molecular Psychiatry_. 2023;28(6):2382–2397.
+*DOI:*: #link("https://doi.org/10.1038/s41380-023-02038-7")[10.1038/s41380-023-02038-7]
+*PMID:*: 36991133
+*Study Design:*: Animal model (Ube3a-deficient neural precursor cells)
+*Key Findings:*:
+    - Early-development Ube3a-deficient neural precursor cells show elevated reactive oxygen species (ROS).
+    - Elevated ROS alters the apoptotic capacity of developing neural precursors.
+*Conclusion:*: Establishes an oxidative-stress consequence of UBE3A loss during neurodevelopment, relevant to the oxidative-stress/energy component of ME/CFS.
+*Limitations:*: Animal/in-vitro precursor cells; developmental (not adult) focus; indirect relevance to ME/CFS.
+*Certainty Assessment:*: 0.60 raw × 0.50 animal weight = discounted 0.30
+
+=== Qu et al.\ 2024 — Sleep Disturbance in Angelman Syndrome Patients (SYMPTOM OVERLAP)
+
+@Qu2024SleepAS
+
+*Full Citation:*: Qu S, Wang J, Guan X, Song C, Wang X. Sleep disturbance in Angelman syndrome patients. _Orphanet Journal of Rare Diseases_. 2024;19(1):146.
+*DOI:*: #link("https://doi.org/10.1186/s13023-024-03154-5")[10.1186/s13023-024-03154-5]
+*PMID:*: 38580983
+*Study Design:*: Clinical characterization of sleep disturbance
+*Key Findings:*:
+    - Angelman syndrome patients show significant sleep disturbance, including reduced total sleep and fragmented sleep.
+    - Abnormal sleep architecture is common.
+*Conclusion:*: Sleep disturbance is a shared symptom domain between AS and ME/CFS, providing a symptom-level (not necessarily mechanism-level) overlap.
+*Limitations:*: AS-specific clinical population; symptom-level relevance to ME/CFS sleep symptoms only; no ME/CFS co-occurrence.
+*Certainty Assessment:*: 0.60 raw × 0.80 general-population weight = discounted 0.48
+
+=== Watanabe et al.\ 2026 — Region-Dependent Tonic Inhibition in AS Model Mice (ANIMAL; GABAergic BRIDGE)
+
+@Watanabe2026TonicInhibition
+
+*Full Citation:*: Watanabe M, Goto T, Miyoshi R, Nakakubo S, Hiramatsu Y, Nakajima R, Kondo A, Higashiyama K, Yamakawa K. Region-dependent differences in tonic inhibition underlie epileptic features in Angelman syndrome model mice. _Epilepsia_. 2026.
+*DOI:*: #link("https://doi.org/10.1002/epi.70307")[10.1002/epi.70307]
+*PMID:*: 42227760
+*Study Design:*: Animal model (Ube3a-deficient mice), electrophysiology
+*Key Findings:*:
+    - Region-dependent reduction in tonic GABA-A receptor-mediated inhibition in Ube3a-deficient mice.
+    - This GABAergic disinhibition underlies epileptic features of Angelman syndrome.
+*Conclusion:*: Directly demonstrates GABAergic disinhibition downstream of UBE3A loss — a mechanistic bridge to the excitatory/inhibitory imbalance proposed in ME/CFS (see Wirth 2026).
+*Limitations:*: Animal model; epilepsy-focused; GABAergic-in-ME/CFS is a proposal, not an established finding.
+*Certainty Assessment:*: 0.60 raw × 0.50 animal weight = discounted 0.30
+
+=== Kurmashev 2026 — UBE3A Dosage Imbalance Linking AS and Dup15q Autism (REVIEW; PROTEOSTASIS)
+
+@Kurmashev2026UBE3Adosage
+
+*Full Citation:*: Kurmashev R. UBE3A Dosage Imbalance as a Molecular Framework Linking Angelman Syndrome and Dup15q-Associated Autism Phenotypes. _American Journal of Medical Genetics Part B: Neuropsychiatric Genetics_. 2026.
+*DOI:*: #link("https://doi.org/10.1002/ajmg.b.70025")[10.1002/ajmg.b.70025]
+*PMID:*: 42464451
+*Study Design:*: Review
+*Key Findings:*:
+    - Proposes UBE3A dosage imbalance as a unifying molecular framework linking AS (loss) and Dup15q autism (duplication).
+    - Both loss- and gain-of-function of the E6AP ubiquitin-ligase pathway can produce overlapping neurodevelopmental outcomes.
+*Conclusion:*: Provides the proteostasis/dosage-sensitivity context for UBE3A, relevant to proteostasis-dysfunction hypotheses in ME/CFS.
+*Limitations:*: Review; autism-focused; AS-ME/CFS relevance indirect.
+*Certainty Assessment:*: 0.65 raw × 0.80 review weight = discounted 0.52
