@@ -96,27 +96,19 @@
 
 #include "shared/abstract.typ"
 #pagebreak()
-#include "shared/version-notice.typ"
-#pagebreak()
 #include "shared/keywords.typ"
 #pagebreak()
-#include "shared/license.typ"
+
+// Table of contents / figures / tables
+#outline(title: "Contents", indent: 2em)
 #pagebreak()
-#include "shared/author-bio.typ"
-#pagebreak()
-#include "shared/ai-disclosure.typ"
-#pagebreak()
+
 #include "shared/methodology.typ"
 #pagebreak()
 #include "shared/reading-guide.typ"
 #pagebreak()
 #include "shared/patient-faq.typ"
 #pagebreak()
-
-
-// Table of contents / figures / tables
-#pagebreak()
-#outline(title: "Contents", indent: 2em)
 // #outline(title: "List of Figures", target: figure.where(kind: image))
 // #outline(title: "List of Tables",  target: figure.where(kind: table))
 
@@ -233,3 +225,15 @@
 // =============================================================================
 
 #bibliography(("bib/autoimmunity.bib", "bib/autonomic-cardiovascular.bib", "bib/brain-clearance.bib", "bib/connective-tissue.bib", "bib/diagnosis-assessment.bib", "bib/endocrine-reproductive.bib", "bib/energy-metabolism.bib", "bib/epidemiology.bib", "bib/exercise-pem.bib", "bib/general.bib", "bib/genetics-epigenetics.bib", "bib/gut-microbiome.bib", "bib/immune.bib", "bib/ion-channels-lithium.bib", "bib/long-covid.bib", "bib/mast-cell.bib", "bib/modeling.bib", "bib/neuroinflammation.bib", "bib/neurology-comorbidities.bib", "bib/pain-fibromyalgia.bib", "bib/pathophysiology-general.bib", "bib/sleep.bib", "bib/stigma.bib", "bib/treatments.bib", "bib/vascular.bib", "bib/viral-infection.bib", "bib/pupillometry.bib", "bib/musculoskeletal.bib", "bib/global-perspectives.bib"), style: "ieee")
+
+// =============================================================================
+// BACK MATTER  (unnumbered legal/provenance pages, after the bibliography)
+// =============================================================================
+
+#set heading(numbering: none)
+#counter(heading).update(0)
+
+#include "shared/version-notice.typ"
+#include "shared/license.typ"
+#include "shared/author-bio.typ"
+#include "shared/ai-disclosure.typ"
