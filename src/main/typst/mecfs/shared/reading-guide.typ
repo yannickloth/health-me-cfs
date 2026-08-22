@@ -7,6 +7,10 @@
 
 This comprehensive documentation is organized to serve multiple audiences: researchers, clinicians, patients, caregivers, and advocates. This guide explains the document structure and how to interpret the specialized environments used throughout.
 
+#warning-unnumbered(title: [For severe and very-severe readers])[
+  If you or someone you care for has severe or very-severe ME/CFS (housebound or bedbound), *do not start with the general clinical-overview or symptom-management chapters*. Begin with the urgent-action chapter (@ch:urgent-action-severe), which sequences care for the highest-risk patients and covers emergency and decompensation red flags. Caregivers should read this chapter first as well. Only then proceed to the general clinical and management chapters, which assume the reader can tolerate that level of detail.
+]
+
 == Document Organization
 
 The document is divided into five main parts:
@@ -52,6 +56,36 @@ The table below routes each audience to the parts most relevant to their goals. 
 
 *Researchers* find detailed mechanistic insight in Parts II, IV, and V, and literature summaries organized by topic in Appendix H.
 
+=== Symptom-to-Chapter Quick Reference
+
+If you are starting from a symptom rather than a chapter, use the table below. The *Understand* column points to where the symptom's mechanism is explained; the *Manage* column points to where it is treated or managed.
+
+#figure(
+  table(
+    columns: (auto, auto, auto),
+    inset: table-inset,
+    stroke: booktabs-stroke(15),
+
+    [*Symptom*], [*Understand (mechanism)*], [*Manage (treatment)*],
+
+    [Post-exertional malaise / crash], [@ch:core-symptoms], [@ch:symptom-management],
+    [Severe fatigue / energy failure], [@ch:energy-metabolism], [@ch:symptom-management],
+    [Unrefreshing sleep], [@ch:core-symptoms], [@ch:symptom-management],
+    [Brain fog / cognitive dysfunction], [@ch:neurological], [@ch:symptom-management],
+    [Pain / headache / fibromyalgia overlap], [@ch:neurological], [@ch:symptom-management],
+    [Orthostatic intolerance / POTS], [@ch:cardiovascular], [@ch:symptom-management],
+    [Digestive / gut symptoms], [@ch:gut-microbiome], [@ch:symptom-management],
+    [Immune / infection susceptibility], [@ch:immune-dysfunction], [@ch:symptom-management],
+    [Hormonal / endocrine symptoms], [@ch:endocrine], [@ch:symptom-management],
+    [Mast-cell / histamine reactions], [@ch:immune-dysfunction], [@ch:symptom-management],
+    [Medication decisions / dosing], [], [@ch:medication-response-reference],
+    [Supplements / nutraceuticals], [], [@ch:supplements],
+    [Severe or very-severe presentation], [], [@ch:urgent-action-severe],
+    [Where any mechanism maps to a treatment], [@ch:mechanism-treatment-map], [@ch:mechanism-treatment-map],
+  ),
+  caption: [Symptom-to-chapter quick reference],
+)
+
 == Understanding Statement Types
 
 This manuscript uses formal environments to classify statements by their epistemic status and evidence strength. Understanding these distinctions is essential for critically evaluating medical claims.
@@ -86,6 +120,34 @@ Throughout this document, research findings are classified by evidence strength:
 - Citations link to the Bibliography for full reference details
 - Appendix H contains annotated summaries of key papers
 - Appendix I catalogues ongoing and planned ME/CFS research studies
+
+== Plain-Language Glossary
+
+A short glossary of the terms most likely to appear in patient and caregiver reading. A fuller, web-searchable glossary is available on the companion website; the appendices define technical terms in more depth.
+
+#figure(
+  table(
+    columns: (auto, auto),
+    inset: table-inset,
+    stroke: booktabs-stroke(15),
+
+    [*Term*], [*What it means*],
+    [Post-exertional malaise (PEM)], [A delayed, disproportionate worsening of symptoms 12–72 hours after physical or cognitive exertion — the defining feature of ME/CFS. Often called a "crash".],
+    [Pacing], [Staying within your energy limits to avoid triggering PEM; balancing activity and rest to prevent crashes.],
+    [Crashes], [The delayed symptom flare after overexertion that defines PEM.],
+    [Orthostatic intolerance], [Symptoms that worsen on standing and improve when lying down — lightheadedness, dizziness, or a racing heart.],
+    [POTS], [Postural Orthostatic Tachycardia Syndrome — a form of orthostatic intolerance with an abnormal heart-rate rise on standing.],
+    [Brain fog], [Cognitive dysfunction: difficulty concentrating, finding words, remembering, or processing information.],
+    [Amplifier], [A mechanism that worsens or perpetuates the disease but cannot start it on its own.],
+    [Root cause], [A trigger-capable mechanism that can, in principle, initiate the full syndrome from a healthy baseline.],
+    [Consequence], [A real, downstream effect of the disease process; treating it alone does not cure the underlying disease.],
+    [Neuroinflammation], [Inflammation in the brain and nervous system.],
+    [Mitochondria], [The energy-producing structures inside cells; their dysfunction is central to the energy-failure picture.],
+    [Dysautonomia], [Disordered functioning of the autonomic nervous system, which regulates heart rate, blood pressure, digestion, and temperature.],
+    [B-cell / T-cell], [Types of immune cells; the document reports specific abnormalities in them.],
+  ),
+  caption: [Plain-language glossary],
+)
 
 == Critical Reading Advice
 

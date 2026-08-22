@@ -98,6 +98,8 @@
 #pagebreak()
 #include "shared/keywords.typ"
 #pagebreak()
+#include "shared/reader-digest.typ"
+#pagebreak()
 
 // Table of contents / figures / tables
 #outline(title: "Contents", indent: 2em)
