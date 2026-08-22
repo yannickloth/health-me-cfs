@@ -435,6 +435,7 @@ void generatePartIndexPages(Path webRoot, Path srcRoot,
         body = body.replaceAll("@subsec:", "@subsec-");
         body = body.replaceAll("@fig:", "@fig-");
         body = body.replaceAll("@tab:", "@tab-");
+        body = body.replaceAll("@app:", "@app-");
 
         var sb = new StringBuilder();
         sb.append("---\n");

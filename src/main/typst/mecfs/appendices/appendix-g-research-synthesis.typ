@@ -3,7 +3,7 @@
 = Research Synthesis Tables
 <app:research-synthesis>
 
-This appendix consolidates the evidence base for ME/CFS into reference tables, organizing research findings by domain so that convergent patterns across independent studies can be seen at a glance. It brings together study summaries, biomarker findings, treatment trial results, and pathophysiological evidence, and includes a quick-reference evidence-based treatment summary.
+This appendix consolidates the evidence base for ME/CFS into reference tables, organizing research findings by domain so that convergent patterns across independent studies can be seen at a glance. It brings together study summaries, biomarker findings, treatment trial results, and pathophysiological evidence, and includes a quick-reference evidence-based treatment summary. These tables draw on and expand the evidence synthesized in Part IV (Research and Evidence Synthesis, opening at Chapter @ch:research-methods-mecfs).
 
 == Major Studies Summary
 <sec:major-studies-summary>

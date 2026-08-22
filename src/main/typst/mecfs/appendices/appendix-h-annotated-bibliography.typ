@@ -3,7 +3,7 @@
 = Annotated Bibliography of ME/CFS Literature
 <app:annotated-bibliography>
 
-This appendix provides a comprehensive annotated bibliography of scientific literature on Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS). Sources are organized by research domain and include full identifying information where available.
+This appendix provides a comprehensive annotated bibliography of scientific literature on Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS). Sources are organized by research domain and include full identifying information where available. It serves as the citation-level companion to the evidence synthesized in Part IV (Research and Evidence Synthesis, opening at Chapter @ch:research-methods-mecfs).
 
 // =============================================================================
 

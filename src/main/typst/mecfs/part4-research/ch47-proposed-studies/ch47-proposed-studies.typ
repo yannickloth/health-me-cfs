@@ -10,6 +10,9 @@ understanding of recovery mechanisms. These proposals range from observational
 cohort studies to randomized controlled trials, each with explicit hypotheses,
 design specifications, and expected outcomes.
 ]
+
+The evidence tables that motivate and constrain these proposed studies are consolidated in Appendix G (@app:research-synthesis), and the supporting literature is annotated in Appendix H (@app:annotated-bibliography).
+
 // ============================================================================
 // SECTION: Multi-Modal Testing of Selective Energy Dysfunction Hypothesis
 // ============================================================================
