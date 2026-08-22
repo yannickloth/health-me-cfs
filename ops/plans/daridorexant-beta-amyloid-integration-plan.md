@@ -32,3 +32,10 @@ Document the *hypothetical* mechanistic pathway by which daridorexant (a dual or
 ## Notes
 - MIXED/CONCURRENT tree — scope by explicit file list; never git add -A; no shared-branch WIP commits; rollback = git checkout <ref> -- <file>.
 - Parallel session active: fibromyalgia-genetics (plan + Literature/ + bib). Do not touch its files.
+
+## Phase 12 — Plan Record
+Integrated: single `#speculation` `spec:daridorexant-beta-amyloid-hypothetical` in ch18 (subsec-04 orexin), documenting the HYPOTHETICAL daridorexant→Aβ pathway at certainty 0.25.
+Decision: PARTIAL (no primary daridorexant+Aβ evidence; indirect support via orexin→Aβ, sleep→glymphatic clearance, real tau data for sibling DORAs).
+Caps honored: speculation-only, no hypothesis-box, brainstorm 1-2+10-12 only, no certainty bump >0.45, WEAK-EVIDENCE flagged.
+No changelog.typ. Files: spec file + ch18 include + plan + search-log + brainstorm + tmp synthesis/safety/compat.
+Review: lightweight adversarial (cynic + devil-advocate) — 3 findings fixed (tau-analogy production-arm leak, null-falsification overclaim, Consequence drug attribution). Build PASS.
