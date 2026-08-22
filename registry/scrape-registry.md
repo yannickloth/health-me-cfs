@@ -13,6 +13,17 @@ Prevents re-processing of already-integrated content.
 
 ---
 
+## Fibromyalgia Genetics (Kerrebijn 2026) Literature Search
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-08-22 | 16 queries: direct (fibromyalgia GWAS/genetics/heritability/genetic-correlation), competing/null (autoimmune genetics, replication), indirect (nociplastic pain genetics, chronic overlapping pain genetics, central sensitization genetics, DRD2 chronic pain, widespread pain GWAS), ME/CFS overlap (ME/CFS-fibromyalgia genetic correlation, chronic fatigue genetic correlation). Primary paper PDF read fully. 10 new papers included; 5 existing corpus entries reused (DecodeME2025, Hajdarevic2022gwas, Schlauch2016gwas, Steen2026sharedgenetic, Hirsch2025comparativeGWAS). |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed API queries (16 queries + efetch abstract batches, 10 PMIDs) | pubmed/eutils | 2026-08-22 | — | ops/research/search-log-fibromyalgia-genetics-2026-08-22.md, ops/research/literature-summary-fibromyalgia-genetics.md, bib/genetics-epigenetics.bib, bib/pain-fibromyalgia.bib, appendix-h — Fibromyalgia genetics literature (10 new papers) |
+
+---
+
 ## Guanfacine + N-Acetylcysteine Inter-Cluster Bridge Literature Search
 | Source | Last Scraped | Notes |
 |--------|--------------|-------|
