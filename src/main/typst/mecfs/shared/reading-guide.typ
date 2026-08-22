@@ -1,4 +1,5 @@
 #import "environments.typ": *
+#import "tables.typ": booktabs-stroke, table-inset
 
 = Reading Guide: How to Use This Document
 
@@ -19,6 +20,37 @@ The document is divided into five main parts:
 / *Part IV: Research and Evidence*: Synthesizes current research, clinical trials, biomarker studies, and epidemiology. Provides detailed summaries of key findings.
 
 / *Part V: Mathematical Modeling*: Presents computational and mathematical approaches to understanding ME/CFS systems biology, including a formal causal hierarchy analysis that tests which mechanisms are trigger-capable using sensitivity and bifurcation analysis (advanced/technical).
+
+== For Different Readers
+
+The table below routes each audience to the parts most relevant to their goals. Priorities: *Essential* = read fully; *Recommended* = high value; *Optional* = useful context; *Skip* = rarely needed.
+
+#figure(
+  table(
+    columns: (auto, auto, auto, auto, auto, auto, auto, auto),
+    inset: table-inset,
+    stroke: booktabs-stroke(6),
+
+    [*Reader*], [*Part I Clinical*], [*Part II Patho.*], [*Part III Treatment*], [*Part IV Research*], [*Part V Modeling*], [*Appendices*], [*Start here*],
+
+    [*Patient / Caregiver*], [Essential], [Optional], [Essential], [Recommended], [Skip], [G, H, I], [@ch:core-symptoms],
+
+    [*Clinician*], [Essential], [Recommended], [Essential], [Recommended], [Optional], [H, I], [@ch:diagnostic-criteria],
+
+    [*Researcher*], [Recommended], [Essential], [Recommended], [Essential], [Essential], [G, H, I], [@ch:mechanism-treatment-map],
+
+    [*Student / Advocate*], [Essential], [Recommended], [Recommended], [Recommended], [Optional], [G, I], [@ch:introduction],
+
+    [*Policy / Funder*], [Recommended], [Recommended], [Recommended], [Essential], [Optional], [I], [@ch:research-infrastructure],
+  ),
+  caption: [Reading routes by audience],
+)
+
+*Patients and caregivers* focus on Part I (Clinical Overview) and Part III (Treatment). The pathophysiology sections may be technical but can help understand symptom mechanisms. Part V (Mathematical Modeling) is optional and highly technical.
+
+*Clinicians* benefit from all sections. Part II provides mechanistic understanding, Parts III and IV offer evidence-based treatment guidance, and Appendix I catalogues ongoing and planned research studies.
+
+*Researchers* find detailed mechanistic insight in Parts II, IV, and V, and literature summaries organized by topic in Appendix H.
 
 == Understanding Statement Types
 
@@ -54,14 +86,6 @@ Throughout this document, research findings are classified by evidence strength:
 - Citations link to the Bibliography for full reference details
 - Appendix H contains annotated summaries of key papers
 - Appendix I catalogues ongoing and planned ME/CFS research studies
-
-== For Different Readers
-
-*Patients and Caregivers:* Focus on Part I (Clinical Overview) and Part III (Treatment). The pathophysiology sections may be technical but can help understand symptom mechanisms. Part V (Mathematical Modeling) is optional and highly technical.
-
-*Clinicians:* All sections are relevant. Part II provides mechanistic understanding, Parts III and IV offer evidence-based treatment guidance, and Appendix I catalogues ongoing and planned research studies.
-
-*Researchers:* Parts II, IV, and V provide detailed mechanistic insights, research synthesis, and modeling approaches. Appendix H contains literature summaries organized by topic.
 
 == Critical Reading Advice
 
