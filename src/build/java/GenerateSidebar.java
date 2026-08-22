@@ -23,6 +23,9 @@ void main(String[] args) throws Exception {
     // list). Drives the sidebar so it matches the book's reading order rather
     // than alphabetical directory sort (important for the Part III reorder).
     var partOrder = readPartOrder(webRoot);
+    // Canonical front-matter order written by BuildWeb (single source of truth);
+    // the sidebar reads it so the display order cannot drift from generation.
+    var fmOrder = readFrontMatterOrder(webRoot);
 
     // Sidebar sections from _quarto.yml: label -> contents glob
     var sections = new LinkedHashMap<String, String>();
@@ -51,7 +54,7 @@ void main(String[] args) throws Exception {
         var partBase = e.getValue().replaceFirst("/\\*\\*$", "").replaceFirst("/\\*$", "");
         var partIntro = webRoot.resolve(partBase).resolve("index.qmd");
         if (Files.isRegularFile(partIntro)) section.put("href", siteHref(webRoot, partIntro));
-        section.put("children", expandGlob(webRoot, e.getValue(), partOrder));
+        section.put("children", expandGlob(webRoot, e.getValue(), partOrder, fmOrder));
         root.add(section);
     }
     for (var dl : directLinks) {
@@ -89,13 +92,28 @@ Map<String, List<String>> readPartOrder(Path webRoot) throws Exception {
     return map;
 }
 
-int canonicalIndex(Map<String, List<String>> partOrder, String base, String dirName) {
+// Read the canonical front-matter order from front-matter/order.json, which
+// BuildWeb writes alongside the generated pages. Returns the ordered slugs, or
+// an empty list when the file is absent (caller then falls back to directory
+// order).
+List<String> readFrontMatterOrder(Path webRoot) throws Exception {
+    var orderPath = webRoot.resolve("front-matter").resolve("order.json");
+    var out = new ArrayList<String>();
+    if (!Files.isRegularFile(orderPath)) {
+        System.out.println("  (front-matter/order.json not found; sidebar uses directory order)");
+        return out;
+    }
+    var text = Files.readString(orderPath).strip();
+    var m = Pattern.compile("\"([a-z0-9-]+)\"").matcher(text);
+    while (m.find()) out.add(m.group(1));
+    return out;
+}
+
+int canonicalIndex(Map<String, List<String>> partOrder, List<String> fmOrder, String base, String dirName) {
     // Front matter pages are not chapters in part-chapters.json; give them a
-    // canonical reading order so the sidebar lists them deterministically.
+    // canonical reading order from BuildWeb's front-matter/order.json so the
+    // sidebar lists them deterministically and cannot drift from generation.
     if (base.equals("front-matter")) {
-        var fmOrder = List.of(
-            "abstract", "keywords", "reading-guide", "methodology",
-            "patient-faq", "ai-disclosure", "license", "version-notice");
         int fi = fmOrder.indexOf(dirName);
         return fi < 0 ? Integer.MAX_VALUE : fi;
     }
@@ -105,7 +123,7 @@ int canonicalIndex(Map<String, List<String>> partOrder, String base, String dirN
     return i < 0 ? Integer.MAX_VALUE : i;
 }
 
-List<Object> expandGlob(Path webRoot, String glob, Map<String, List<String>> partOrder) throws Exception {
+List<Object> expandGlob(Path webRoot, String glob, Map<String, List<String>> partOrder, List<String> fmOrder) throws Exception {
     // glob like "part1-clinical/**" or "z-appendices/**" or explicit dir
     var base = glob.replaceFirst("/\\*\\*$", "").replaceFirst("/\\*$", "");
     var baseDir = webRoot.resolve(base);
@@ -114,7 +132,7 @@ List<Object> expandGlob(Path webRoot, String glob, Map<String, List<String>> par
     try (var stream = Files.list(baseDir)) {
         var dirs = stream.filter(Files::isDirectory)
             .sorted(Comparator.comparingInt((Path p) ->
-                canonicalIndex(partOrder, base, p.getFileName().toString())))
+                canonicalIndex(partOrder, fmOrder, base, p.getFileName().toString())))
             .toList();
         for (var dir : dirs) {
             // chapter dir -> title from dir name; header links to the chapter

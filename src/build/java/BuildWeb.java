@@ -195,6 +195,7 @@ void main(String[] args) throws IOException, InterruptedException {
     var fmOrder = List.of(
         "abstract",
         "keywords",
+        "reader-digest",
         "reading-guide",
         "methodology",
         "patient-faq",
@@ -202,6 +203,15 @@ void main(String[] args) throws IOException, InterruptedException {
         "license",
         "version-notice"
     );
+    // Emit the canonical front-matter order so GenerateSidebar can read a single
+    // source of truth instead of duplicating this list.
+    var fmOrderJson = new StringBuilder("[");
+    for (int fi = 0; fi < fmOrder.size(); fi++) {
+        if (fi > 0) fmOrderJson.append(",");
+        fmOrderJson.append('"').append(fmOrder.get(fi)).append('"');
+    }
+    fmOrderJson.append("]");
+    writeString(webFmDir.resolve("order.json"), fmOrderJson.toString());
     for (var fmName : fmOrder) {
         var fmSrc = srcRoot.resolve("shared").resolve(fmName + ".typ");
         if (!exists(fmSrc)) {
