@@ -199,3 +199,10 @@
 | 13 | RAN | commit hash: see below |
 
 **Summary:** 23 RAN, 2 LEGIT-SKIP (5c, 5d), 0 WAIVED, 0 OMISSION.
+
+## Phase 13 record (commit)
+- Commit: **aa64ef48** (content(mecfs): complete fibromyalgia-genetics review-convergence and plan record) — 4 files (3 Phase 11 review fixes + plan ledger).
+- Note: bulk of fibromyalgia content was committed by parallel session in commits c3c9d77d (source docs), d07c2ccb (research artifacts), 0a512a92 (ch14 integration), 05e7d666 (ch04/ch14d xref), 79f7dde1 (bib/annotations/registry), a7b2551a (saffron anchor). My subtree/glossary/tree-index entries shipped in daridorexant commit 16119967.
+- Shared-file ownership re-check: my registry rows (4), bib keys (10), glossary (5), subtree (14 nodes), appendix-h entries all verified present in HEAD.
+- Excluded from commit: src/main/resources/part-chapters.json + src/main/web/part-accordion.js (parallel web work, not mine).
+- Post-commit: build PASS (0 errors); working tree clean.
