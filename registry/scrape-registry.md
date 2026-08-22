@@ -1074,3 +1074,12 @@ Prevents re-processing of already-integrated content.
 | URL | Source | Scraped | Integrated | Target |
 |-----|--------|---------|------------|--------|
 | PubMed E-utilities API (esearch/esummary/efetch, batch) | pubmed/eutils | 2026-08-22 | — | ops/research/search-log-saffron-2026-08-22.md, ops/research/literature-summary-saffron.md, bib/treatments.bib, appendix-h (sec:bib-saffron) — saffron (Crocus sativus) tryptophan/serotonin-axis relevance to ME/CFS; conditional candidate assessment |
+
+## Aryl-Hydrocarbon-Receptor (AhR)-Tryptophan-Gut-Microbiome Axis Literature Search (2026-08-22)
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-08-22 | Queries: direct (aryl hydrocarbon receptor × chronic fatigue syndrome/myalgic encephalomyelitis/ME-CFS), null/negative (AhR negative results chronic fatigue, AhR failed replication), competing (AhR vs kynurenine pathway, IDO AhR interplay, tryptophan metabolism gut microbiota), indirect-biochemical MANDATORY (indole metabolites ME/CFS, gut indole tryptophan chronic fatigue, IL-22 ME/CFS = 0 hits, Th17/Treg imbalance ME/CFS = 0 hits, microbial tryptophan metabolites fatigue, indole-3-propionic acid inflammation, tryptamine AhR, kynurenine AhR ligand, indole acetic acid intestinal barrier AhR, AhR IL-22 intestinal barrier, aryl hydrocarbon receptor Th17 Treg), harm (aryl hydrocarbon receptor toxicity adverse effects, AhR agonists adverse effects), AhR gut microbiome, AhR serotonin metabolism. Metadata via esummary/efetch (PMID/DOI verified). 10 papers included. |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed E-utilities API (esearch/esummary/efetch, batch) | pubmed/eutils | 2026-08-22 | — | ops/research/search-log-tryptophan-ahr-gut-microbiome-2026-08-22.md, ops/research/literature-summary-tryptophan-ahr-gut-microbiome.md, bib/gut-microbiome.bib (4 new), bib/immune.bib (6 new), appendix-h (10 annotated entries, sec:bib-tryptophan-ahr-gut-microbiome) — aryl-hydrocarbon-receptor (AhR)-tryptophan-gut-microbiome axis in ME/CFS (direct Esteban 2026 + preprint Tian 2024 + IBS/CFS Chojnacki 2025 + animal Yan 2026; mechanism Rothhammer 2019/Tian 2026/Torrelli-Diljohn 2026/Morris 2016; genetics Caccamo 2013; animal mechanism Thirugnanam 2026) |

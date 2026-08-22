@@ -6,6 +6,8 @@
 
 Neurological abnormalities represent one of the most consistently documented features of ME/CFS and provide critical insight into the pathophysiology of this complex disorder. The landmark NIH deep phenotyping study by Walitt et al.\ (2024) provided unprecedented detail on central nervous system dysfunction, identifying specific brain regions, neurotransmitter abnormalities, and mechanisms underlying the characteristic fatigue and cognitive impairment of ME/CFS @walitt2024deep.
 
+One candidate link between the gut microbiome and the neurocognitive symptoms discussed below is the aryl-hydrocarbon-receptor (AhR) axis: a direct ME/CFS study found elevated gut-microbial AhR-agonist activity specifically in patients with neurocognitive symptoms (Section @sec:gut-brain of Chapter @ch:gut-microbiome; Hypothesis @hyp:ahr-gut-microbiome-axis). This is an early, subgroup-specific finding that requires replication and does not establish causality.
+
 
 #include "sec-01-central-nervous-system-abnormalities/sec-01-central-nervous-system-abnormalities.typ"
 

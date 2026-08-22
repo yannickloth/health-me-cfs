@@ -366,3 +366,4 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | angelman-syndrome | [subtrees/angelman-syndrome.md](subtrees/angelman-syndrome.md) | 2026-08-22 | 18 | 1 | ↩️ parked |
 | guanfacine-nac-bridge | [subtrees/guanfacine-nac-bridge.md](subtrees/guanfacine-nac-bridge.md) | 2026-08-22 | 10 | 0 | ✅ done |
 | saffron-tryptophan-serotonin | [subtrees/saffron-tryptophan-serotonin.md](subtrees/saffron-tryptophan-serotonin.md) | 2026-08-22 | 13 | 1 | ⬜ pending |
+| tryptophan-ahr-gut-microbiome | [subtrees/tryptophan-ahr-gut-microbiome.md](subtrees/tryptophan-ahr-gut-microbiome.md) | 2026-08-22 | 7 | 1 | 🔵 in progress |

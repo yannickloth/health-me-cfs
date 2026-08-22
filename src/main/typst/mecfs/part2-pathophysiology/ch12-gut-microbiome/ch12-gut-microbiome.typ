@@ -84,7 +84,7 @@ The gut microbiome significantly modulates tryptophan availability, with gut ent
     - Reduced circulating serotonin and kynurenine affecting neurotransmission @Simonato2021tryptophan—notably, these changes appeared independent of cytokine levels, suggesting tryptophan dysregulation may be a primary feature rather than secondary to inflammation
     - Altered kynurenine pathway metabolites—lower 3-hydroxykynurenine and 3-hydroxyanthranilic acid, with elevated kynurenine/3HK ratios @Abujrais2024tryptophan
     - Kynurenine pathway hyperactivation may deplete NAD#super[+] via PARP activation, contributing to energy deficits @Dehhaghi2022kynurenine @Dehhaghi2022AD
-    - Disrupted indole derivative production (aryl hydrocarbon receptor ligands)
+    - Disrupted indole derivative production (aryl hydrocarbon receptor ligands) — see Hypothesis @hyp:ahr-gut-microbiome-axis
 
 *IDO2-Mediated Tryptophan Diversion.*
 
@@ -130,6 +130,16 @@ Combining these observations leads to a hypothesis: butyrate deficiency in ME/CF
 #include "sec-01-misc/subsec-05-gut-brain-axis/speculations/spec-butyrate-mediated-treg-failure-drives-au.typ"
 
 #include "sec-01-misc/subsec-05-gut-brain-axis/speculations/spec-butyrate-zonulin-dynamics-explain-wheat-.typ"
+
+*The AhR-Tryptophan-Gut-Microbiome Axis.* Beyond the kynurenine pathway, gut-microbial tryptophan and indole metabolites signal through the aryl-hydrocarbon receptor (AhR), a ligand-activated transcription factor that regulates intestinal barrier integrity and systemic immune tone. Direct ME/CFS evidence (Esteban et al.\ @Esteban2026AhRGutMicrobiome) found altered stool AhR-agonist activity specifically associated with neurocognitive symptoms; the mechanism, its evidence base, and its open questions are developed below.
+
+#include "sec-01-misc/subsec-13-ahr-gut-microbiome-axis/achievements/ach-esteban2026-ahr-neurocognitive.typ"
+
+#include "sec-01-misc/subsec-13-ahr-gut-microbiome-axis/hypotheses/hyp-ahr-gut-microbiome-axis.typ"
+
+#include "sec-01-misc/subsec-13-ahr-gut-microbiome-axis/open-questions/oq-ahr-causality-subgroup.typ"
+
+#include "sec-01-misc/subsec-13-ahr-gut-microbiome-axis/warnings/lim-ahr-evidence-subgroup-specific.typ"
 
 *Microbial Neurotransmitter Production.*
 

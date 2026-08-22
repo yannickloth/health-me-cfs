@@ -649,6 +649,8 @@ The preceding environments collectively argue that peripheral serotonin depletio
 *Consequence:* Peripheral serotonin depletion is a promising mechanistic model that connects gut, immune, autonomic, and energy systems in a way few other hypotheses do — but promising mechanism does not equal proven treatment. Patients and clinicians should understand this as a research framework, not a basis for self-treatment. The most important action now is a properly controlled measurement study, not a treatment trial.
 ] <syn:peripheral-serotonin-depletion-model>
 
+#include "sec-01-misc/subsec-09-peripheral-serotonin-multi-compartment/hypotheses/syn-ahr-tryptophan-diversion-convergence.typ"
+
 == Inflammation Source Interaction Network: Extended Causal DAG
 <sec:inflammation-source-dag>
 

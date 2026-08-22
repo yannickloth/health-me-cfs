@@ -37370,3 +37370,163 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
 *Conclusion:*: Saffron modulates the gut-microbiota-brain/sleep axis — relevant to ME/CFS sleep and gut-microbiome content; healthy older adults, not ME/CFS.
 *Limitations:*: Healthy older adults; pilot size; sleep-only outcome.
 *Certainty Assessment:*: 0.50 raw × 0.65 healthy-adult pilot weight = discounted 0.33
+
+// =============================================================================
+// Added 2026-08-22 (Phase-1 literature-integrator)
+// =============================================================================
+<sec:bib-tryptophan-ahr-gut-microbiome>
+
+=== Esteban et al.\ 2026 — AhR Agonists in the ME/CFS Gut Microbiome (ANCHOR DIRECT ME/CFS AHR STUDY)
+
+@Esteban2026AhRGutMicrobiome
+
+*Full Citation:*: Esteban DJ, Conrad B, Cullinan A, Luong S, Albaum J, Wilk V. Tryptophan Metabolism and Aryl-Hydrocarbon Receptor Agonists in the Gut Microbiome of People With Myalgic Encephalomyelitis/Chronic Fatigue Syndrome. _MicrobiologyOpen_. 2026;15(3):e70333.
+*DOI:*: #link("https://doi.org/10.1002/mbo3.70333")[10.1002/mbo3.70333]
+*PMID:*: 42325052
+*Study Design:*: Cross-sectional metabolomics + stool ex vivo AhR-reporter activation in ME/CFS vs controls
+*Key Findings:*:
+    - Lower microbial diversity and altered community structure in ME/CFS; changes in a microbial subcommunity correlated with tryptophan metabolites.
+    - Nine stool metabolites elevated in ME/CFS, including three AhR agonists.
+    - KEY PARTIAL-NULL: AhR activation did NOT differ between ME/CFS and controls overall, but was elevated in people with neurocognitive symptoms regardless of underlying disease.
+*Conclusion:*: Directly establishes the AhR-gut-microbiome-tryptophan axis as a candidate common mechanism, specifically associated with neurocognitive symptoms in ME/CFS.
+*Limitations:*: Single study; the null on overall AHR activation tempers any claim that ME/CFS has uniform AhR hyperactivation; the symptom-subgroup finding needs replication.
+*Certainty Assessment:*: 0.70 raw × 1.00 ME/CFS weight = discounted 0.70
+
+=== Tian et al.\ 2024 — Indole-Derivative Metabolic Diversity as ME/CFS Biomarker (ME/CFS GUT INDOLE; PREPRINT)
+
+@Tian2024IndoleMEcfsPreprint
+
+*Full Citation:*: Tian H, Wang L, Aiken E, Ortega RJV, Hardy R, Placek L, Kozhaya L, Unutmaz D, Oh J, Yao X. Fast Targeted Metabolomics for Analyzing Metabolic Diversity of Bacterial Indole Derivatives in ME/CFS Gut Microbiome. _bioRxiv_. 2024. doi:10.1101/2024.07.29.605643.
+*DOI:*: #link("https://doi.org/10.1101/2024.07.29.605643")[10.1101/2024.07.29.605643]
+*PMID:*: 39131327
+*Study Design:*: Targeted metabolomics (LC-PRM) of bacterial indole pathway metabolites; 10 ME/CFS + 10 controls; machine-learning classification
+*Key Findings:*:
+    - Indole-derivative concentration distributions (indole-3-acrylate, indole-3-aldehyde) distinguished B. uniformis strain clusters.
+    - Moderate ME/CFS vs control classification via AdaBoost-LOOCV (mean accuracy 0.65).
+*Conclusion:*: Metabolic diversity of gut-bacterial indole (AhR-ligand) derivatives is a potential biomarker for classifying ME/CFS samples.
+*Limitations:*: Preprint; very small sample (n=10/group); moderate classification accuracy; not yet peer-reviewed or replicated.
+*Certainty Assessment:*: 0.35 raw × 1.00 ME/CFS weight = discounted 0.35
+
+=== Chojnacki et al.\ 2025 — Tryptophan/AhR-Ligand Metabolites in IBS with CFS (CFS + IBS TRYPTOPHAN METABOLITES)
+
+@Chojnacki2025IBSCFSTryptophan
+
+*Full Citation:*: Chojnacki M, Blonska A, Kaczka A, Chojnacki J, Walecka-Kapica E, Romanowska N, Przybylowska-Sygut K, Poplawski T. Assessment of the Gut Microbiome in Patients with Coexisting Irritable Bowel Syndrome and Chronic Fatigue Syndrome. _Nutrients_. 2025;17(13):2232.
+*DOI:*: #link("https://doi.org/10.3390/nu17132232")[10.3390/nu17132232]
+*PMID:*: 40647335
+*Study Design:*: Cross-sectional; 80 women (40 IBS+CFS, 40 IBS-only); GA-map dysbiosis test + LC-MS/MS urinary tryptophan metabolites
+*Key Findings:*:
+    - IBS+CFS group showed greater microbial diversity, higher breath methane, elevated urinary quinolinic acid, xanthurenic acid, 3-indoxyl sulfate (an AhR ligand), and HVA; lower 5-HIAA and kynurenine.
+    - Fatigue severity positively correlated with urinary xanthurenic and quinolinic acid.
+*Conclusion:*: Links gut-microbial tryptophan/AhR-ligand metabolites (notably 3-indoxyl sulfate) and neuroactive kynurenine derivatives to CFS fatigue in a comorbid IBS population.
+*Limitations:*: Comorbid IBS+CFS (not primary ME/CFS); women only; hypothesis-generating; cross-sectional (no causality).
+*Certainty Assessment:*: 0.50 raw × 1.00 CFS cohort (comorbid) weight = discounted 0.50
+
+=== Yan et al.\ 2026 — Dendrobium Restores Indole AhR-Ligands in Rat Chronic Fatigue (ANIMAL TRYPTOPHAN/INDOLE MODEL)
+
+@Yan2026DendrobiumTryptophanFatigue
+
+*Full Citation:*: Yan M, Shi M, Li C, Yu B, Zhou H, Su J, Yu J, Lv G, Chen S. Effects of Dendrobium officinale on chronic fatigue in rats: Modulation of tryptophan metabolism. _Journal of Ethnopharmacology_. 2026;365:121527.
+*DOI:*: #link("https://doi.org/10.1016/j.jep.2026.121527")[10.1016/j.jep.2026.121527]
+*PMID:*: 41861923
+*Study Design:*: Rat chronic-fatigue model (poor-lifestyle induced); 16S rRNA + LC-MS tryptophan/indole metabolomics; 5 groups (control, model, 3 doses)
+*Key Findings:*:
+    - Dendrobium officinale extract increased gut TRP-derived indole metabolites — indole, indole-3-acetic acid, indole-3-propionic acid, indole-3-aldehyde (all AhR ligands).
+    - Restored the inhibited kynurenine pathway and alleviated fatigue/depression-like behavior.
+*Conclusion:*: Gut-microbial indole metabolites (AhR ligands) track and modulate fatigue state in an animal model, supporting the relevance of the AhR-microbiome axis to fatigue.
+*Limitations:*: Animal model (rat); intervention (Dendrobium) is not a mechanism of ME/CFS per se; cross-species translation gap.
+*Certainty Assessment:*: 0.45 raw × 0.50 animal weight = discounted 0.23
+
+=== Rothhammer & Quintana 2019 — The AHR as an Environmental-Immune Integrator (LANDMARK AHR-IMMUNOLOGY REVIEW)
+
+@Rothhammer2019AhRImmunity
+
+*Full Citation:*: Rothhammer V, Quintana FJ. The aryl hydrocarbon receptor: an environmental sensor integrating immune responses in health and disease. _Nature Reviews Immunology_. 2019;19(3):184-197.
+*DOI:*: #link("https://doi.org/10.1038/s41577-019-0125-8")[10.1038/s41577-019-0125-8]
+*PMID:*: 30718831
+*Study Design:*: Authoritative expert review
+*Key Findings:*:
+    - AHR is a ligand-activated transcription factor integrating environmental, dietary, microbial, and metabolic cues.
+    - Controls transcriptional programmes in a ligand-specific, cell-type-specific, context-specific manner across the immune system, gut immune system, and gut-brain axis.
+    - Discusses therapeutic potential of targeting AHR in neurological and autoimmune disorders.
+*Conclusion:*: Provides the mechanistic foundation for how gut-microbial AhR ligands modulate immune differentiation (Th17/Treg) and barrier function — the core of the AhR hypothesis.
+*Limitations:*: Review; general biology; not ME/CFS-specific.
+*Certainty Assessment:*: 0.85 raw × 0.75 general-review weight = discounted 0.64
+
+=== Tian et al.\ 2026 — Ligand-Specific Duality of AhR in Cognitive Health (AHR HARM + NEUROPROTECTION)
+
+@Tian2026AhRNeuroprotection
+
+*Full Citation:*: Tian C, Yang S, Zhang X, Yan H. Ligand-specific duality of aryl hydrocarbon receptor signaling in cognitive health: from environmental neurotoxicity to microbiome-mediated neuroprotection. _Frontiers in Neuroscience_. 2026;20:1823961.
+*DOI:*: #link("https://doi.org/10.3389/fnins.2026.1823961")[10.3389/fnins.2026.1823961]
+*PMID:*: 42422257
+*Study Design:*: Systematic review
+*Key Findings:*:
+    - Environmental polycyclic aromatic hydrocarbons drive sustained high-affinity AhR activation (NF-kB neuroinflammation, NLRP3, oxidative stress, synaptic dysfunction — neurotoxic).
+    - Gut-microbiota-derived tryptophan metabolites (indole-3-propionic acid, kynurenic acid) drive transient low-affinity AhR activation (anti-inflammatory, neurogenesis, BBB integrity — neuroprotective).
+    - Outcome depends on ligand pharmacokinetics, cell type, temporal dynamics, and co-factor availability.
+*Conclusion:*: Explains how the same receptor can mediate both harm and protection — the basis for the partial-null finding in Esteban2026 and for harm/adverse-effect considerations of AhR agonists.
+*Limitations:*: Review; general biology; not ME/CFS-specific.
+*Certainty Assessment:*: 0.55 raw × 0.75 general-review weight = discounted 0.41
+
+=== Torrelli-Diljohn et al.\ 2026 — Tryptophan Catabolism as a Distributed Signaling Network (COMPETING/INTEGRATIVE MECHANISM)
+
+@TorrelliDiljohn2026TryptophanSignaling
+
+*Full Citation:*: Torrelli-Diljohn A, Kulkarni B, Vitturi DA. Cell Signaling by Tryptophan Catabolism. _Biochemistry_. 2026;65(9):1366-1394.
+*DOI:*: #link("https://doi.org/10.1021/acs.biochem.6c00179")[10.1021/acs.biochem.6c00179]
+*PMID:*: 42029070
+*Study Design:*: Review
+*Key Findings:*:
+    - Tryptophan has three branches — kynurenine, serotonin, indole — and AhR is activated by metabolites from all three.
+    - Downstream consequences depend on cellular environment and inflammatory context.
+    - Frames kynurenine, indole/AhR, and serotonin as one distributed signaling network (also GPR35, NMDA, NAD+).
+*Conclusion:*: Provides the competing/integrative framing: the AhR axis is not separate from the already-covered kynurenine pathway but part of one distributed tryptophan-signaling network.
+*Limitations:*: Review; general biology; not ME/CFS-specific.
+*Certainty Assessment:*: 0.60 raw × 0.75 general-review weight = discounted 0.45
+
+=== Morris et al.\ 2016 — TRYCATs and AhR Engagement in Neuro-Immune Disorders (TRYCAT REVIEW INCLUDING CFS)
+
+@Morris2016TRYCATNeuroimmune
+
+*Full Citation:*: Morris G, Carvalho AF, Anderson G, Galecki P, Maes M. The Many Neuroprogressive Actions of Tryptophan Catabolites (TRYCATs) that may be Associated with the Pathophysiology of Neuro-Immune Disorders. _Current Pharmaceutical Design_. 2016;22(8):963-977.
+*DOI:*: #link("https://doi.org/10.2174/1381612822666151215102420")[10.2174/1381612822666151215102420]
+*PMID:*: 26667000
+*Study Design:*: Review
+*Key Findings:*:
+    - Chronic immune activation upregulates the IDO-driven tryptophan catabolite (TRYCAT) pathway, which becomes the predominant tryptophan-degradation route.
+    - Neuroprotective kynurenic acid acts partly via alpha7 nicotinic acetylcholine and aryl hydrocarbon receptors.
+    - Discusses the pathway in schizophrenia, Alzheimer's disease, and chronic fatigue syndrome.
+*Conclusion:*: Bridges the already-integrated kynurenine pathway to AhR signaling in the ME/CFS context.
+*Limitations:*: Review; general neuro-immune (CFS discussed but not the study focus); older (2016).
+*Certainty Assessment:*: 0.55 raw × 0.75 general-review weight = discounted 0.41
+
+=== Caccamo et al.\ 2013 — AHR Arg554Lys Variant in FM/CFS Cohort (AHR GENETIC VARIANT; PARTIAL NULL)
+
+@Caccamo2013AhRVariantSRI
+
+*Full Citation:*: Caccamo D, Cesareo E, Mariani S, Raskovic D, Ientile R, Curro M, Korkina L, De Luca C. Xenobiotic sensor- and metabolism-related gene variants in environmental sensitivity-related illnesses: a survey on the Italian population. _Oxidative Medicine and Cellular Longevity_. 2013;2013:831969.
+*DOI:*: #link("https://doi.org/10.1155/2013/831969")[10.1155/2013/831969]
+*PMID:*: 23936614
+*Study Design:*: Genetic association study; 80 FM/CFS patients, 156 MCS, 94 suspected MCS, 113 controls
+*Key Findings:*:
+    - Significantly higher frequencies of CYP2C9, CYP2C19, CYP2D6 metabolic variants in patients (genetic risk factor).
+    - NULL on the sensor: AHR Arg554Lys variant distribution did NOT differ between SRI cases and controls, though it aided MCS/SMCS discrimination within haplotypes.
+*Conclusion:*: No simple genetic difference in the AHR sensor itself in CFS — pointing instead toward metabolite/ligand-level (rather than receptor-gene) differences, consistent with Esteban2026.
+*Limitations:*: Older (2013); heterogeneous SRI populations; AHR finding null for the case/control comparison; CFS+FM grouped together.
+*Certainty Assessment:*: 0.45 raw × 1.00 CFS cohort weight = discounted 0.45
+
+=== Thirugnanam et al.\ 2026 — Dietary Indoles Restore AhR/IL-22 Intestinal Barrier (DIETARY INDOLES AHR-RORGT; ANIMAL MECHANISM)
+
+@Thirugnanam2026DietaryIndolesAhR
+
+*Full Citation:*: Thirugnanam S, Van Zandt AR, McNally AB, Hart VA, Berthelot I, Midkiff CC, Doyle-Meyers LA, Welsh DA, Blair RV, MacLean AG, Rout N. Dietary indoles influence the AHR-RORgt axis and mucosal immune homeostasis in ART-treated SIV infection. _JCI Insight_. 2026;11(10):e201258.
+*DOI:*: #link("https://doi.org/10.1172/jci.insight.201258")[10.1172/jci.insight.201258]
+*PMID:*: 41926722
+*Study Design:*: Non-human-primate interventional study (SIV-infected rhesus macaques on ART); dietary indole supplementation for 1 month
+*Key Findings:*:
+    - Chronic SIV infection caused loss of IL-17/IL-22-producing gamma-delta T cells and ILC3s, reduced AHR/RORgt expression, and elevated gut-barrier markers (iFABP, zonulin, LBP).
+    - One month of dietary indole supplementation restored colonic AHR+ IL-22-producing T cells and RORgt+ ILC3s and reduced barrier markers.
+*Conclusion:*: Directly demonstrates the gut-microbial-indole/AhR/IL-22-to-intestinal-barrier axis — central to the AhR hypothesis — in a chronic post-infectious model relevant to ME/CFS precedent.
+*Limitations:*: Animal model (SIV macaque, HIV not ME/CFS); interventional indole supplementation; cross-species translation gap.
+*Certainty Assessment:*: 0.50 raw × 0.50 animal weight = discounted 0.25
