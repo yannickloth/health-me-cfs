@@ -1,7 +1,7 @@
 # Document Restructuring Plan
 
 ME/CFS Typst book structural improvement for reader navigation.
-Status: PLANNED — not yet executed. No files changed by this plan's execution yet.
+Status: EXECUTED 2026-08-21 (Phases 0–6 complete; default decisions 7.1/7.2/7.3 applied).
 Date: 2026-08-21
 
 ## Hard constraint: label & cross-ref stability
@@ -170,18 +170,24 @@ non-trivial revert and is gated behind the full label sweep.
 
 ## Content-preservation + label-stability checklist
 
-- [ ] No `.typ` file deleted or emptied; moves copy-verify-remove.
-- [ ] Label inventory diff after each phase: zero labels removed/renamed.
-- [ ] ONLY `loth2026-mecfs.typ` include-list edited (p4-build deleted).
-- [ ] `@CitationKey` bib keys unchanged in every `.qmd` and `.typ`.
-- [ ] Prose "Chapter NN" refs consistent with any renumber (only if 5B/6B chosen).
-- [ ] `nix build`, `nix build .#web`, `nix flake check` all green after each phase.
-- [ ] Web site re-rendered after structural changes (TOC/nav mirrors structure).
-- [ ] Under default execution (5A + Option A), both structural phases are
+- [x] No `.typ` file deleted or emptied; moves copy-verify-remove.
+- [x] Label inventory diff after each phase: zero labels removed/renamed
+      (final: 4486 defs unchanged; 1 new ref added, @app:research-synthesis,
+      additive).
+- [x] ONLY `loth2026-mecfs.typ` include-list edited (p4-build deleted).
+- [x] `@CitationKey` bib keys unchanged in every `.qmd` and `.typ`.
+- [N/A] Prose "Chapter NN" refs consistent with any renumber — default 5A/Option A
+      chosen; no renumbering, so no sweep required.
+- [x] `nix build`, `nix build .#web` green after each phase; the three
+      Typst-relevant flake checks (section-audit, qmd-label-audit,
+      typst-source-audit) green. `nix flake check`'s blog-audit remains FAILING
+      on the pre-existing weekly-update broken-link issue (out of scope; see
+      label-inventory baseline note).
+- [x] Web site re-rendered after structural changes; web nav (part-chapters.json)
+      mirrors the new Part III order.
+- [x] Under default execution (5A + Option A), both structural phases are
       no-renumber relocations → internal labels and all blog bibliography keys
-      remain byte-identical. If 5B/6B override is chosen instead, the label
-      sweep (ch "NN" / chNN / registry / appendix-G/H refs) must be applied and
-      verified by the label-inventory diff.
+      remain byte-identical.
 
 ## Related completed work
 
