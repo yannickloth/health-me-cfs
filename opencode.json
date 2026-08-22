@@ -33,6 +33,16 @@
     "../llm-harness-plugins/scientific-writing/opencode/index.ts"
   ],
   "agent": {
+    "backward-reader-auditor": {
+      "model": "deepseek/deepseek-v4-pro",
+      "options": {
+        "thinking": {
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
+      },
+      "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/backward-reader-auditor.md}"
+    },
     "benefit-navigator": {
       "model": "deepseek/deepseek-v4-pro",
       "options": {
@@ -49,7 +59,8 @@
           "type": "enabled"
         },
         "reasoning_effort": "high"
-      }
+      },
+      "prompt": "{file:../llm-harness-plugins/general-skills/agents/bibliography-auditor.md}"
     },
     "biochemistry-auditor": {
       "model": "deepseek/deepseek-v4-pro",
@@ -122,6 +133,26 @@
         }
       }
     },
+    "citation-fidelity-auditor": {
+      "model": "deepseek/deepseek-v4-pro",
+      "options": {
+        "thinking": {
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
+      },
+      "prompt": "{file:../llm-harness-plugins/general-skills/agents/citation-fidelity-auditor.md}"
+    },
+    "claim-substance-auditor": {
+      "model": "deepseek/deepseek-v4-pro",
+      "options": {
+        "thinking": {
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
+      },
+      "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/claim-substance-auditor.md}"
+    },
     "clinician-auditor": {
       "model": "deepseek/deepseek-v4-pro",
       "options": {
@@ -140,6 +171,15 @@
         "reasoning_effort": "high"
       }
     },
+    "common-error-claim-auditor": {
+      "model": "deepseek/deepseek-v4-flash",
+      "options": {
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/common-error-claim-auditor.md}"
+    },
     "comorbidity-auditor": {
       "model": "deepseek/deepseek-v4-pro",
       "options": {
@@ -156,7 +196,8 @@
           "type": "enabled"
         },
         "reasoning_effort": "high"
-      }
+      },
+      "prompt": "{file:../llm-harness-plugins/general-skills/agents/config-auditor.md}"
     },
     "config-optimizer": {
       "model": "deepseek/deepseek-v4-pro",
@@ -183,7 +224,8 @@
           "type": "enabled"
         },
         "reasoning_effort": "high"
-      }
+      },
+      "prompt": "{file:../llm-harness-plugins/typst-toolkit/agents/content-splitter.md}"
     },
     "crisis-manager": {
       "model": "deepseek/deepseek-v4-pro",
@@ -201,7 +243,8 @@
           "type": "enabled"
         },
         "reasoning_effort": "max"
-      }
+      },
+      "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/cynic-auditor.md}"
     },
     "data-validator": {
       "model": "deepseek/deepseek-v4-pro",
@@ -238,7 +281,8 @@
           "type": "enabled"
         },
         "reasoning_effort": "max"
-      }
+      },
+      "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/devil-advocate-auditor.md}"
     },
     "diagram-accuracy-auditor": {
       "model": "deepseek/deepseek-v4-flash",
@@ -276,7 +320,8 @@
         "thinking": {
           "type": "disabled"
         }
-      }
+      },
+      "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/document-health-monitor.md}"
     },
     "english-prose-pattern-auditor": {
       "model": "deepseek/deepseek-v4-pro",
@@ -324,6 +369,16 @@
       },
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/falsifiability-auditor.md}"
     },
+    "falsificationist-auditor": {
+      "model": "deepseek/deepseek-v4-pro",
+      "options": {
+        "thinking": {
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
+      },
+      "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/falsificationist-auditor.md}"
+    },
     "figure-caption-auditor": {
       "model": "deepseek/deepseek-v4-flash",
       "options": {
@@ -357,6 +412,16 @@
           "type": "disabled"
         }
       }
+    },
+    "functional-paradigm-auditor": {
+      "model": "deepseek/deepseek-v4-pro",
+      "options": {
+        "thinking": {
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
+      },
+      "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/functional-paradigm-auditor.md}"
     },
     "git-historian": {
       "model": "deepseek/deepseek-v4-pro",
@@ -429,6 +494,16 @@
         "reasoning_effort": "high"
       }
     },
+    "industry-architect-auditor": {
+      "model": "deepseek/deepseek-v4-pro",
+      "options": {
+        "thinking": {
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
+      },
+      "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/industry-architect-auditor.md}"
+    },
     "link-checker": {
       "model": "deepseek/deepseek-v4-flash",
       "options": {
@@ -453,7 +528,8 @@
           "type": "enabled"
         },
         "reasoning_effort": "max"
-      }
+      },
+      "prompt": "{file:../llm-harness-plugins/general-skills/agents/logic-auditor.md}"
     },
     "math-verifier": {
       "model": "deepseek/deepseek-v4-pro",
@@ -462,7 +538,8 @@
           "type": "enabled"
         },
         "reasoning_effort": "max"
-      }
+      },
+      "prompt": "{file:../llm-harness-plugins/general-skills/agents/math-verifier.md}"
     },
     "medical-advisor": {
       "model": "deepseek/deepseek-v4-pro",
@@ -611,6 +688,16 @@
         }
       }
     },
+    "proof-soundness-auditor": {
+      "model": "deepseek/deepseek-v4-pro",
+      "options": {
+        "thinking": {
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
+      },
+      "prompt": "{file:../llm-harness-plugins/general-skills/agents/proof-soundness-auditor.md}"
+    },
     "protocol-linker": {
       "model": "deepseek/deepseek-v4-pro",
       "options": {
@@ -645,7 +732,8 @@
           "type": "enabled"
         },
         "reasoning_effort": "high"
-      }
+      },
+      "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/reductionist-auditor.md}"
     },
     "redundancy-auditor": {
       "model": "deepseek/deepseek-v4-pro",
@@ -654,7 +742,8 @@
           "type": "enabled"
         },
         "reasoning_effort": "high"
-      }
+      },
+      "prompt": "{file:../llm-harness-plugins/general-skills/agents/redundancy-auditor.md}"
     },
     "release-manager": {
       "model": "deepseek/deepseek-v4-pro",
@@ -692,6 +781,15 @@
         "reasoning_effort": "high"
       }
     },
+    "scenario-validity-auditor": {
+      "model": "deepseek/deepseek-v4-flash",
+      "options": {
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/scenario-validity-auditor.md}"
+    },
     "scientific-insight-generator": {
       "model": "deepseek/deepseek-v4-pro",
       "options": {
@@ -719,6 +817,15 @@
       },
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/scope-qualifier-checker.md}"
     },
+    "skimmer-auditor": {
+      "model": "deepseek/deepseek-v4-flash",
+      "options": {
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/skimmer-auditor.md}"
+    },
     "sonnet-general": {
       "mode": "subagent",
       "model": "deepseek/deepseek-v4-pro",
@@ -729,6 +836,16 @@
         "reasoning_effort": "high"
       }
     },
+    "sophist-attacker": {
+      "model": "deepseek/deepseek-v4-pro",
+      "options": {
+        "thinking": {
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
+      },
+      "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/sophist-attacker.md}"
+    },
     "sophist-auditor": {
       "model": "deepseek/deepseek-v4-pro",
       "options": {
@@ -736,7 +853,18 @@
           "type": "enabled"
         },
         "reasoning_effort": "max"
-      }
+      },
+      "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/sophist-auditor.md}"
+    },
+    "ste-100-auditor": {
+      "model": "deepseek/deepseek-v4-pro",
+      "options": {
+        "thinking": {
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
+      },
+      "prompt": "{file:../llm-harness-plugins/general-skills/agents/ste-100-auditor.md}"
     },
     "strawman-auditor": {
       "model": "deepseek/deepseek-v4-pro",
@@ -745,7 +873,8 @@
           "type": "enabled"
         },
         "reasoning_effort": "high"
-      }
+      },
+      "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/strawman-auditor.md}"
     },
     "structure-auditor": {
       "model": "deepseek/deepseek-v4-pro",
@@ -754,7 +883,8 @@
           "type": "enabled"
         },
         "reasoning_effort": "high"
-      }
+      },
+      "prompt": "{file:../llm-harness-plugins/typst-toolkit/agents/structure-auditor.md}"
     },
     "style-auditor": {
       "model": "deepseek/deepseek-v4-pro",
@@ -763,7 +893,8 @@
           "type": "enabled"
         },
         "reasoning_effort": "high"
-      }
+      },
+      "prompt": "{file:../llm-harness-plugins/general-skills/agents/style-auditor.md}"
     },
     "style-naturalizer": {
       "model": "deepseek/deepseek-v4-pro",
@@ -772,7 +903,8 @@
           "type": "enabled"
         },
         "reasoning_effort": "high"
-      }
+      },
+      "prompt": "{file:../llm-harness-plugins/general-skills/agents/style-naturalizer.md}"
     },
     "svg-illustrator": {
       "model": "kimi-for-coding/k2p7"
@@ -813,6 +945,16 @@
         }
       }
     },
+    "theory-devil-advocate": {
+      "model": "deepseek/deepseek-v4-pro",
+      "options": {
+        "thinking": {
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
+      },
+      "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/theory-devil-advocate.md}"
+    },
     "tikz-illustrator": {
       "model": "deepseek/deepseek-v4-flash",
       "options": {
@@ -828,6 +970,16 @@
           "type": "disabled"
         }
       }
+    },
+    "tone-auditor": {
+      "model": "deepseek/deepseek-v4-pro",
+      "options": {
+        "thinking": {
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
+      },
+      "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/tone-auditor.md}"
     },
     "trade-off-auditor": {
       "model": "deepseek/deepseek-v4-pro",
@@ -854,7 +1006,8 @@
         "thinking": {
           "type": "disabled"
         }
-      }
+      },
+      "prompt": "{file:../llm-harness-plugins/typst-toolkit/agents/typst-citation-checker.md}"
     },
     "typst-diagram-checker": {
       "model": "deepseek/deepseek-v4-flash",
@@ -862,7 +1015,8 @@
         "thinking": {
           "type": "disabled"
         }
-      }
+      },
+      "prompt": "{file:../llm-harness-plugins/typst-toolkit/agents/typst-diagram-checker.md}"
     },
     "typst-figure-caption-auditor": {
       "model": "deepseek/deepseek-v4-flash",
@@ -887,7 +1041,8 @@
         "thinking": {
           "type": "disabled"
         }
-      }
+      },
+      "prompt": "{file:../llm-harness-plugins/typst-toolkit/agents/typst-formatting-fixer.md}"
     },
     "typst-illustrator": {
       "model": "deepseek/deepseek-v4-flash",
@@ -911,7 +1066,8 @@
         "thinking": {
           "type": "disabled"
         }
-      }
+      },
+      "prompt": "{file:../llm-harness-plugins/typst-toolkit/agents/typst-production-readiness-checker.md}"
     },
     "typst-proof-validator": {
       "model": "deepseek/deepseek-v4-pro",
@@ -928,7 +1084,8 @@
         "thinking": {
           "type": "disabled"
         }
-      }
+      },
+      "prompt": "{file:../llm-harness-plugins/typst-toolkit/agents/typst-syntax-fixer.md}"
     },
     "typst-template-advisor": {
       "model": "deepseek/deepseek-v4-pro",
@@ -946,7 +1103,8 @@
           "type": "enabled"
         },
         "reasoning_effort": "high"
-      }
+      },
+      "prompt": "{file:../llm-harness-plugins/typst-toolkit/agents/typst-writer.md}"
     },
     "typst-xref-checker": {
       "model": "deepseek/deepseek-v4-flash",
@@ -954,7 +1112,8 @@
         "thinking": {
           "type": "disabled"
         }
-      }
+      },
+      "prompt": "{file:../llm-harness-plugins/typst-toolkit/agents/typst-xref-checker.md}"
     },
     "uncertainty-analyst": {
       "model": "deepseek/deepseek-v4-pro",
@@ -965,13 +1124,32 @@
         "reasoning_effort": "max"
       }
     },
+    "undergraduate-reader-auditor": {
+      "model": "deepseek/deepseek-v4-flash",
+      "options": {
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/undergraduate-reader-auditor.md}"
+    },
+    "whataboutist-auditor": {
+      "model": "deepseek/deepseek-v4-flash",
+      "options": {
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/whataboutist-auditor.md}"
+    },
     "xref-checker": {
       "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
           "type": "disabled"
         }
-      }
+      },
+      "prompt": "{file:../llm-harness-plugins/general-skills/agents/xref-checker.md}"
     }
   }
 }
