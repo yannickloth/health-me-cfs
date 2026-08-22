@@ -38,4 +38,4 @@ Select any medication to jump directly to its clinical interpretation section �
 / @sec:tvns: tVNS (transcutaneous Vagal Nerve Stimulation) — Emerging/Investigational
 / @sec:valacyclovir-valganciclovir: Valacyclovir and Valganciclovir — Antiviral
 
-Deeper pharmacodiagnostic entries (mechanism-exclusion logic, dose-specific side-effect patterns, worsening risk profiles) for all drugs are in @ch:mechanistic-cascade-tracing (Chapter 34, sec-12). A consolidated per-drug dose-range interpretive reference — what benefit, lost benefit, and side effects at each dose reveal — is at @sec:hormetic-dose-range-reference.
+Deeper pharmacodiagnostic entries (mechanism-exclusion logic, dose-specific side-effect patterns, worsening risk profiles) for all drugs are in @ch:mechanistic-cascade-tracing (sec-12). A consolidated per-drug dose-range interpretive reference — what benefit, lost benefit, and side effects at each dose reveal — is at @sec:hormetic-dose-range-reference.

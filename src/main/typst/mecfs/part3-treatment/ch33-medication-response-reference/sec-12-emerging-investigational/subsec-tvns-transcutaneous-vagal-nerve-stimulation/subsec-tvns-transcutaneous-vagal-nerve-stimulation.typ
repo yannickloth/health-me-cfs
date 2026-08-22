@@ -35,5 +35,5 @@ tVNS requires consistent stimulation parameters; home devices vary in output, an
 
 ==== Compendium
 
-The full pharmacodiagnostic entries — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — are at @ch:mechanistic-cascade-tracing (Chapter 34, sec-12, taVNS entry and VNS entry).
+The full pharmacodiagnostic entries — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — are at @ch:mechanistic-cascade-tracing (sec-12, taVNS entry and VNS entry).
 

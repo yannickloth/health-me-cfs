@@ -34,4 +34,4 @@ Non-response does not exclude autonomic dysfunction. Pyridostigmine can only pot
 
 ==== Compendium
 
-The full pharmacodiagnostic entry — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — is at @ch:mechanistic-cascade-tracing (Chapter 34, sec-12, Pyridostigmine entry).
+The full pharmacodiagnostic entry — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — is at @ch:mechanistic-cascade-tracing (sec-12, Pyridostigmine entry).

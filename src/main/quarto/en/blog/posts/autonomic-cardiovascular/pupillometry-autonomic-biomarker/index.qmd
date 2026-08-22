@@ -145,7 +145,7 @@ What's missing is a study — specifically, someone with an existing ME/CFS coho
 
 ---
 
-*Note: This article draws on the systematic literature review and evidence synthesis documented in the pupillometry-autonomic-biomarker integration plan and the formal integration into the ME/CFS paper (Chapter 29, Biomarker Research; Chapter 8, Neurological Dysfunction; Chapter 14d, Cross-Disease Connections) completed on 2026-07-09.*
+*Note: This article draws on the systematic literature review and evidence synthesis documented in the pupillometry-autonomic-biomarker integration plan and the formal integration into the ME/CFS paper (Chapter @ch-biomarker-research, Biomarker Research; Chapter 8, Neurological Dysfunction; Chapter 14d, Cross-Disease Connections) completed on 2026-07-09.*
 
 ---
 

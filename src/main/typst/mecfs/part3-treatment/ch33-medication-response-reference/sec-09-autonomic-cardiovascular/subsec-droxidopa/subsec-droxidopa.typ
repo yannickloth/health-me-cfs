@@ -33,5 +33,5 @@ Droxidopa raises blood pressure and is contraindicated if supine hypertension is
 
 ==== Compendium
 
-The full pharmacodiagnostic entry — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — is at @ch:mechanistic-cascade-tracing (Chapter 34, sec-12, Droxidopa entry).
+The full pharmacodiagnostic entry — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — is at @ch:mechanistic-cascade-tracing (sec-12, Droxidopa entry).
 

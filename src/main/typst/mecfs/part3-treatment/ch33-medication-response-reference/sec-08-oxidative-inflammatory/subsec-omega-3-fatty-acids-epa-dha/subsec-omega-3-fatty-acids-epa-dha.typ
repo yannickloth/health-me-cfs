@@ -32,5 +32,5 @@ Aspirin at doses above 100 mg inhibits COX-2 and blocks the EPA→SPM conversion
 
 ==== Compendium
 
-The full pharmacodiagnostic entry — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — is at @ch:mechanistic-cascade-tracing (Chapter 34, sec-12, Omega-3 entry).
+The full pharmacodiagnostic entry — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — is at @ch:mechanistic-cascade-tracing (sec-12, Omega-3 entry).
 

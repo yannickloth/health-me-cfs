@@ -2,7 +2,7 @@
 
 === Medication Reference — Drug-Indexed Pharmacodiagnostic Compendium <sec:medication-reference>
 
-The drug-indexed entries in this section provide the most granular pharmacodiagnostic resolution available in the paper — each drug's mechanism-exclusion logic (what a null response eliminates), dose-specific side-effect patterns, combination diagnostics, and worsening risk profiles. For the clinical-interpretation counterpart — what response means, dose-dependent differential diagnosis, and practical combination guidance — see @ch:medication-response-reference (Chapter 33). Each entry below cross-references its Chapter 33 clinical section where one exists.
+The drug-indexed entries in this section provide the most granular pharmacodiagnostic resolution available in the paper — each drug's mechanism-exclusion logic (what a null response eliminates), dose-specific side-effect patterns, combination diagnostics, and worsening risk profiles. For the clinical-interpretation counterpart — what response means, dose-dependent differential diagnosis, and practical combination guidance — see @ch:medication-response-reference (Chapter @ch:medication-response-reference). Each entry below cross-references its Chapter @ch:medication-response-reference clinical section where one exists.
 
 == 5-HTP (5-Hydroxytryptophan)
 
@@ -202,7 +202,7 @@ Corrective — Factor Xa inhibitor reducing microthrombi formation — bleeding 
 
 === Aripiprazole (Low-Dose)
 
-*Appears in:* @sec:gerlier-dopamine-node, @sec:microglial-cascade Step K2d, @sec:dopamine-convergence, cross-reference matrix. #emph[Clinical reference:] Chapter 33, @ch:medication-response-reference, LDA section — response interpretation, dose-response differential (0.2–2 mg), combination inference with LDN.
+*Appears in:* @sec:gerlier-dopamine-node, @sec:microglial-cascade Step K2d, @sec:dopamine-convergence, cross-reference matrix. #emph[Clinical reference:] Chapter @ch:medication-response-reference, LDA section — response interpretation, dose-response differential (0.2–2 mg), combination inference with LDN.
 #strong[HD] Threshold-modulatory — microglial D2 partial agonism raising activation threshold; symptomatic dopaminergic cognitive support. Does not remove what primed the microglia.
 
 
@@ -1389,7 +1389,7 @@ Corrective — zonulin antagonist reducing intestinal permeability; if leaky gut
 
 === LDN (Low-Dose Naltrexone)
 
-*Appears in:* @sec:trpm3-cascade A2, @sec:microglial-cascade K2d, @sec:innate-immune-hyperactivation-cascade U3, @sec:dopamine-convergence, cross-reference matrix. #emph[Clinical reference:] Chapter 33, @ch:medication-response-reference, LDN section — response interpretation, side effects per dose zone, combination inference, dose-dependent differential.
+*Appears in:* @sec:trpm3-cascade A2, @sec:microglial-cascade K2d, @sec:innate-immune-hyperactivation-cascade U3, @sec:dopamine-convergence, cross-reference matrix. #emph[Clinical reference:] Chapter @ch:medication-response-reference, LDN section — response interpretation, side effects per dose zone, combination inference, dose-dependent differential.
 #strong[HD] Mixed — Restorative (TRPM3 Ca²⁺ influx restoration at 3.0–4.5 mg) + Corrective (TLR4/Nrf2 hormetic anti-inflammatory priming at 0.5–1.5 mg + compensatory endorphin upregulation at 1.5–3.0 mg). Dose-dependent: higher doses are more restorative; lower doses are threshold-modulatory/corrective.
 
 

@@ -33,5 +33,5 @@ HSAT2 as an ME/CFS mechanism derives from a single Ewing sarcoma preprint — a 
 
 ==== Compendium
 
-The full pharmacodiagnostic entries — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — are at @ch:mechanistic-cascade-tracing (Chapter 34, sec-12, SAMe entry and Vitamin B12 entry).
+The full pharmacodiagnostic entries — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — are at @ch:mechanistic-cascade-tracing (sec-12, SAMe entry and Vitamin B12 entry).
 

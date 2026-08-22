@@ -34,4 +34,4 @@ Non-response does not exclude oxidative stress. Glutathione synthesis can be rat
 
 ==== Compendium
 
-The full pharmacodiagnostic entry — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — is at @ch:mechanistic-cascade-tracing (Chapter 34, sec-12, NAC entry).
+The full pharmacodiagnostic entry — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — is at @ch:mechanistic-cascade-tracing (sec-12, NAC entry).

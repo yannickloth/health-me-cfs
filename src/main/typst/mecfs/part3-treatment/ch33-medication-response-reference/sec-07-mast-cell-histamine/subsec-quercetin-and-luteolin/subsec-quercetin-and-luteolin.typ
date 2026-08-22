@@ -35,5 +35,5 @@ Quercetin bioavailability is poor; phytosome or otherwise enhanced formulations 
 
 ==== Compendium
 
-The full pharmacodiagnostic entries — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — are at @ch:mechanistic-cascade-tracing (Chapter 34, sec-12, Quercetin entry and Luteolin entry).
+The full pharmacodiagnostic entries — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — are at @ch:mechanistic-cascade-tracing (sec-12, Quercetin entry and Luteolin entry).
 

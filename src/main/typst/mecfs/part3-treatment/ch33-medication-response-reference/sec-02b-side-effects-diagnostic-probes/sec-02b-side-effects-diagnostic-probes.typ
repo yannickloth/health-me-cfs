@@ -70,4 +70,4 @@ A positive therapeutic response tells you the mechanism was present and drug-acc
 
 The dose-response curve is a third axis: a patient who benefits at 0.5 mg of LDN and worsens at 4.5 mg is pharmacologically distinct from one who benefits at 4.5 mg alone — even if both are classified as "LDN responders." Binary response/non-response classification loses the diagnostic signal contained in dose and side-effect profiles. @sec:dose-response-categories
 
-For the full framework including dose-response slope, response onset latency, tachyphylaxis patterns, diurnal effects, drug-drug interaction diagnostics, and formal null matrix methodology, see @ch:mechanistic-cascade-tracing (Chapter 34, sec-10).
+For the full framework including dose-response slope, response onset latency, tachyphylaxis patterns, diurnal effects, drug-drug interaction diagnostics, and formal null matrix methodology, see @ch:mechanistic-cascade-tracing (sec-10).

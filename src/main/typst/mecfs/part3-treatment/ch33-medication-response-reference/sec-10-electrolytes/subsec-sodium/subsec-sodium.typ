@@ -34,5 +34,5 @@ Because intracellular sodium overload is documented by sodium-MRI in ME/CFS, sod
 
 ==== Compendium
 
-Sodium does not yet have a dedicated entry in the Chapter 34 pharmacodiagnostic compendium. The volume expansion and POTS pathways are detailed at @ch:mechanistic-cascade-tracing (Chapter 34, sec-12, Fludrocortisone entry).
+Sodium does not yet have a dedicated entry in the Chapter @ch:mechanistic-cascade-tracing pharmacodiagnostic compendium. The volume expansion and POTS pathways are detailed at @ch:mechanistic-cascade-tracing (sec-12, Fludrocortisone entry).
 

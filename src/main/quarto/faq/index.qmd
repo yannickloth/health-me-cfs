@@ -92,7 +92,7 @@ See [Part III — Treatment](../part3-treatment/ch21-mechanism-treatment-map/01-
 Pacing is staying within your energy limits to avoid triggering PEM. It is the
 foundation of ME/CFS management. Graded exercise therapy, by contrast, can cause
 harm and is not recommended.
-See [Chapter 22 — Managing PEM](../part3-treatment/ch22-symptom-management/02-managing-post-exertional-malaise.qmd).
+See [Chapter @ch-symptom-management — Managing PEM](../part3-treatment/ch23-symptom-management/02-managing-post-exertional-malaise.qmd).
 
 ### How does low-dose aripiprazole work in ME/CFS? — [Patient] [Clinician] [Researcher]
 
@@ -101,14 +101,14 @@ on background dopamine tone rather than switching with dose. In ME/CFS the propo
 benefit is dopaminergic and microglial (anti-inflammatory) modulation. The evidence
 is a single uncontrolled retrospective study, and the mechanism remains speculative;
 metabolic monitoring and CYP2D6 status matter.
-See [Chapter 27 — Atypical Antipsychotics](../part3-treatment/ch27-medications-systems/13-atypical-antipsychotics-metabolic-considerations-in-me-cfs.qmd)
+See [Chapter @ch-medications-mechanisms — Atypical Antipsychotics](../part3-treatment/ch28-medications-systems/13-atypical-antipsychotics-metabolic-considerations-in-me-cfs.qmd)
 and the [Annotated Bibliography — Low-Dose Aripiprazole](../z-appendices/appendix-h-annotated-bibliography/16-orexin-hypocretin-system-in-me-cfs-and-related-conditions.qmd).
 
 ### What should be done for a severely affected, bedbound patient? — [Carer] [Clinician]
 
 Severe ME/CFS needs a fundamentally different, low-stimulation approach with careful
 attention to nutrition, hydration, and avoidance of exertion. This is urgent.
-See [Chapter 23 — Urgent Action, Severe](../part3-treatment/ch23-urgent-action-severe/01-urgent-action-plan-for-severe-cases.qmd).
+See [Chapter @ch-urgent-action-severe — Urgent Action, Severe](../part3-treatment/ch24-urgent-action-severe/01-urgent-action-plan-for-severe-cases.qmd).
 
 ## Research
 

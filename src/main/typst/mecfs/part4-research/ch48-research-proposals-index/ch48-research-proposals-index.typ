@@ -4,7 +4,7 @@
 <ch:research-proposals-index>
 
 #chapter-abstract[
-This chapter collects every research proposal scattered across the paper — full protocols from Chapter 38, biomarker proposals from Chapter 31, infrastructure proposals from Chapter 37, and cross-disease proposals from Chapter 14d — into a single table sorted by impact-weighted feasibility. Each row links to the full protocol or source environment.
+This chapter collects every research proposal scattered across the paper — full protocols from Chapter 38, biomarker proposals from Chapter @ch:biomarker-research, infrastructure proposals from Chapter 37, and cross-disease proposals from Chapter 14d — into a single table sorted by impact-weighted feasibility. Each row links to the full protocol or source environment.
 ]
 
 == Sorted by Impact × Feasibility / Cost
