@@ -60,6 +60,7 @@ commits; rollback = `git checkout <ref> -- <file>`. Scope by explicit file lists
 - **Phase 9 quality flags:** WEAK-EVIDENCE (PARTIAL evidence base)
 - **Phase 2 clinical relevance:** MEDIUM (mechanistic + safety caution; not a treatment)
 - **External-contact source (Tomaso):** integrated as a caution/probe, NOT as a recommended treatment; no provenance for any clinical benefit claim.
+- **Commit:** 0af11fac (2026-08-22)
 
 ## Phase Ledger
 Walked at Phase 12.5 (2026-08-22). Every row RAN / LEGIT-SKIP — zero OMISSION.
@@ -91,6 +92,6 @@ Walked at Phase 12.5 (2026-08-22). Every row RAN / LEGIT-SKIP — zero OMISSION.
 | 11 | RAN | Full tier; 11a/11b/11c all CONVERGED |
 | 12 | RAN | plan-record summary written |
 | 12.5 | RAN | this ledger |
-| 13 | RAN | commit (Phase 13) |
+| 13 | RAN | commit 0af11fac (15 files, 972 ins); build PASS post-commit; foreign WIP untouched |
 
 Governor re-audit: all artifacts verified on disk (search-log, bib keys, appendix-h, speculation, registry, subtree, glossary, safety-gate, synth, compat, coherence). Build PASS (0 errors). Falsifiability + Consequence present. Registry updated. Bib keys resolve case-exact. No OMISSION, no WAIVED.
