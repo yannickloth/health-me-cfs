@@ -9,55 +9,55 @@
         {
           "ch": "abstract",
           "title": "Abstract",
-          "href": "/front-matter/abstract/01-abstract.html",
+          "href": "front-matter/abstract/01-abstract.html",
           "about": "A plain-language abstract of the whole document: what ME/CFS is, the NIH and genetic evidence establishing it as a biological disease, and how the document is organized."
         },
         {
           "ch": "keywords",
           "title": "Keywords",
-          "href": "/front-matter/keywords/01-keywords.html",
+          "href": "front-matter/keywords/01-keywords.html",
           "about": "The core terms and concepts covered across the document, used for indexing and search."
         },
         {
           "ch": "reader-digest",
           "title": "Reader Digest",
-          "href": "/front-matter/reader-digest/index.html",
+          "href": "front-matter/reader-digest/index.html",
           "about": "A short plain-language summary of the central message, the causal-hierarchy conclusion, the honest uncertainties, and the one thing worth reading for your situation."
         },
         {
           "ch": "reading-guide",
           "title": "Reading Guide",
-          "href": "/front-matter/reading-guide/index.html",
+          "href": "front-matter/reading-guide/index.html",
           "about": "How to use the document: how it is organized, routing for each audience, a symptom-to-chapter quick reference, and a plain-language glossary."
         },
         {
           "ch": "methodology",
           "title": "Methodology",
-          "href": "/front-matter/methodology/index.html",
+          "href": "front-matter/methodology/index.html",
           "about": "The epistemic classification system and evidence-quality levels used throughout, and the quality-assurance approach."
         },
         {
           "ch": "patient-faq",
           "title": "Patient FAQ",
-          "href": "/front-matter/patient-faq/01-frequently-asked-questions-for-patients.html",
+          "href": "front-matter/patient-faq/01-frequently-asked-questions-for-patients.html",
           "about": "Frequently asked questions for patients and caregivers about ME/CFS and how to use this reference."
         },
         {
           "ch": "ai-disclosure",
           "title": "AI Disclosure",
-          "href": "/front-matter/ai-disclosure/index.html",
+          "href": "front-matter/ai-disclosure/index.html",
           "about": "Disclosure of the author's use of AI assistance and the author's role in the work."
         },
         {
           "ch": "license",
           "title": "License",
-          "href": "/front-matter/license/index.html",
+          "href": "front-matter/license/index.html",
           "about": "The Creative Commons licensing terms under which the document is released."
         },
         {
           "ch": "version-notice",
           "title": "Version Notice",
-          "href": "/front-matter/version-notice/01-version-notice.html",
+          "href": "front-matter/version-notice/01-version-notice.html",
           "about": "How to ensure you have the most current version, and the version-control and archiving arrangements."
         }
       ]
