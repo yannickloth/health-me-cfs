@@ -5,11 +5,14 @@
 
 Multiple diagnostic criteria have been developed for ME/CFS. This chapter reviews major frameworks and their application.
 
-#roadmap(title: [Navigating This Chapter])[
-- *In this chapter*: the major diagnostic frameworks (Canadian Consensus, International Consensus, IOM/NAM), how they differ, and how they are applied in clinical assessment.
-- *Who this is for*: clinicians establishing a diagnosis; patients and caregivers understanding what criteria mean for their case.
-- *Order*: read the framework comparisons (sections 1–5) then clinical assessment (section 6). Section 8 (differential diagnosis) is a lookup reference.
-- *Continue to*: Chapter @ch:disease-course for how the diagnosed condition evolves over time.
+#roadmap(title: [How to Use This Chapter])[
+*For patients*: read Chapter @ch:diagnostic-criteria's overview of the frameworks to understand what a diagnosis requires and how criteria have evolved.
+
+*For caregivers*: read the overview of the frameworks to understand how the diagnosis is established and what the criteria mean.
+
+*For clinicians*: read the framework comparisons to select an approach, and the clinical-assessment section to apply it. The differential-diagnosis section is a lookup for excluding other conditions.
+
+*For researchers*: read the framework comparisons and the novel-framework section to understand case-definition choices and their trade-offs.
 ]
 
 #include "sec-01-overview/sec-01-overview.typ"

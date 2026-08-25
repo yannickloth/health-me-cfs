@@ -20,11 +20,13 @@ This part operationalizes the *trigger-capable root causes, amplifiers, and down
 
 For reference tables consolidating this part's evidence base by domain, and for annotated paper-by-paper literature summaries, see Appendix G (@app:research-synthesis) and Appendix H (@app:annotated-bibliography).
 
-#roadmap(title: [Navigating This Part])[
-- *Who this is for*: researchers, clinicians, and patients who want the evidence base behind the mechanisms and treatments in Parts II–III.
-- *Start here*: Chapter @ch:research-methods-mecfs for how ME/CFS research is evaluated, then Chapter @ch:clinical-trials for the highest-tier evidence.
-- *Recommended order*: read the domain chapters (Chapters @ch:biomarker-research, @ch:mechanistic-studies, @ch:epidemiology-outcomes) as needed; they are independent lookups.
-- *Skip guidance*: Chapter @ch:healthcare-systems-policy, Chapter @ch:economic-impact, and Chapter @ch:global-perspectives are health-policy context; skip for pure mechanism/evidence questions. Chapter @ch:patient-generated-knowledge covers patient-reported and community evidence.
-- *End with*: the Hypothesis and Speculation Registry (@sec:hypothesis-speculation-registry) and Chapter @ch:proposed-studies, which translate everything into testable study designs.
+#roadmap(title: [How to Use This Part])[
+*For patients*: read Chapter @ch:controversies to understand contested claims, and Chapter @ch:patient-generated-knowledge for community and patient-reported evidence. The clinical-trial chapters may be heavy; use the evidence level markers rather than full methodology.
+
+*For caregivers*: this part is largely research-methods focused and has limited direct caregiver use; read Chapter @ch:controversies to understand what is and is not settled about the illness.
+
+*For clinicians*: read Chapter @ch:research-methods-mecfs to judge study quality, and Chapter @ch:clinical-trials for the highest-tier evidence on interventions. Chapter @ch:biomarker-research informs diagnostic and monitoring decisions.
+
+*For researchers*: read Chapter @ch:research-methods-mecfs for methodological conventions, the domain chapters (@ch:biomarker-research, @ch:mechanistic-studies, @ch:epidemiology-outcomes) for the evidence base, and Chapter @ch:controversies for open debates. End with the Hypothesis and Speculation Registry (@sec:hypothesis-speculation-registry) and Chapter @ch:proposed-studies, which translate findings into testable study designs.
 ]
 ] <part:research>

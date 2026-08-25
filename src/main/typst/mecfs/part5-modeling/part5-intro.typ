@@ -17,11 +17,13 @@ These models synthesize biological understanding into quantitative frameworks th
 This part formally tests the *trigger-capable root causes, amplifiers, and downstream consequences* first classified qualitatively in Part II (Chapter @ch:causal-hierarchy) and catalogued as hypotheses in Part IV (Chapter @sec:hypothesis-speculation-registry, Chapter @ch:proposed-studies). Chapter @ch:causal-hierarchy-formal closes the thread.
 ]
 
-#roadmap(title: [Navigating This Part])[
-- *Who this is for*: readers comfortable with mathematics and systems modeling; clinicians and patients can read Chapter @ch:causal-hierarchy-formal for the conclusions without the derivation detail.
-- *Start here*: Chapter @ch:modeling-foundations introduces the modeling conventions. Then read the domain models in any order.
-- *Recommended order*: Chapters @ch:energy-metabolism-models, @ch:immune-system-models, and @ch:neuroendocrine-models build the sub-system models; Chapter @ch:integrated-systems couples them; Chapter @ch:temporal-evolution adds time; Chapter @ch:predictive-applications applies them.
-- *Skip guidance*: skip the mathematical derivation chapters if you only need the qualitative conclusions in Chapter @ch:causal-hierarchy-formal.
-- *Prerequisites*: the mechanisms modeled here come from Part II.
+#roadmap(title: [How to Use This Part])[
+*For patients*: read only Chapter @ch:causal-hierarchy-formal for the qualitative conclusions of the formal models; the derivation detail requires mathematics. Read it with the understanding that these are model predictions, not proof.
+
+*For caregivers*: this part is mathematical modeling and has little direct caregiver use. The qualitative conclusions in Chapter @ch:causal-hierarchy-formal are the only section likely relevant.
+
+*For clinicians*: read Chapter @ch:predictive-applications for treatment-selection and drug-target-ranking outputs, and Chapter @ch:causal-hierarchy-formal for which mechanisms the models identify as root causes. Skip the derivation chapters.
+
+*For researchers*: read Chapter @ch:modeling-foundations for conventions, then the domain models (@ch:energy-metabolism-models, @ch:immune-system-models, @ch:neuroendocrine-models) in any order, Chapter @ch:integrated-systems and Chapter @ch:temporal-evolution for integration, and Chapter @ch:causal-hierarchy-formal for the capstone.
 ]
 ] <part:modeling>

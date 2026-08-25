@@ -15,12 +15,13 @@ Evidence levels are indicated throughout, distinguishing between well-supported 
 
 The part opens with the reference chapters (mechanism–treatment map and symptom management), then the severity-specific protocols and pediatric chapters, and finally the intervention-type chapters. Severity is ordered most-severe-first (Chapter @ch:urgent-action-severe before Chapter @ch:action-mild-moderate) because the highest-risk patients require the most immediate attention.
 
-#roadmap(title: [Navigating This Part])[
-- *Who this is for*: patients, caregivers, and clinicians selecting interventions.
-- *Start here*: Chapter @ch:mechanism-treatment-map — it is the navigational entry point that maps mechanisms to treatments. Then Chapter @ch:symptom-management for symptom-level guidance.
-- *Recommended order*: follow severity — Chapter @ch:urgent-action-severe (high-risk patients) before Chapter @ch:action-mild-moderate. The pediatric chapters (@ch:pediatric-severe, @ch:pediatric-ambulatory) apply to children only.
-- *Skip guidance*: the brain-clearance proposal chapters are a specialized supplement thread; skip unless a glymphatic/clearance angle is relevant.
-- *Prerequisites*: the causal tiers referenced here come from Part II, Chapter @ch:causal-hierarchy.
-- *Continue to*: Part IV reviews the evidence behind these interventions.
+#roadmap(title: [How to Use This Part])[
+*For patients*: read Chapter @ch:action-mild-moderate for intervention planning within your energy envelope, then the intervention-type chapters relevant to you (medications, supplements, lifestyle). Read Chapter @ch:urgent-action-severe only if it applies to your severity.
+
+*For caregivers*: read Chapter @ch:urgent-action-severe to recognize when a patient needs urgent attention, and Chapter @ch:symptom-management for day-to-day intervention support. The pediatric chapters (@ch:pediatric-severe, @ch:pediatric-ambulatory) apply to children.
+
+*For clinicians*: read Chapter @ch:mechanism-treatment-map first — it maps each mechanism to the treatments that target it, organized by causal tier. Then Chapter @ch:symptom-management for symptom-level guidance and the severity-specific protocols. Chapter @ch:medication-response-reference supports prescribing decisions.
+
+*For researchers*: read Chapter @ch:mechanism-treatment-map to see which mechanisms currently lack targeted interventions, and Chapter @ch:emerging-therapies for experimental approaches under investigation. Evidence levels are flagged throughout; Part IV reviews the underlying evidence.
 ]
 ] <part:treatment>
