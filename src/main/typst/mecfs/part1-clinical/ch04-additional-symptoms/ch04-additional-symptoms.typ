@@ -10,7 +10,7 @@ Beyond the core symptoms of post-exertional malaise, unrefreshing sleep, cogniti
 
 *For caregivers*: read the multisystem-summary section (@sec:multisystem-summary) to see the full range of symptoms a patient may experience, and the system sections (@sec:gi-symptoms, @sec:neuro-symptoms) to understand them.
 
-*For clinicians*: use the system-by-system sections as a lookup (neuro @sec:neuro-symptoms, cardiac @sec:cardiac-symptoms, immune @sec:immune-symptoms, musculoskeletal @sec:musculoskeletal-symptoms) for the full clinical picture beyond the core symptoms.
+*For clinicians*: use the system-by-system sections as a lookup for the full clinical picture beyond the core symptoms — neuro @sec:neuro-symptoms, immune @sec:immune-symptoms, musculoskeletal @sec:musculoskeletal-symptoms, GI @sec:gi-symptoms, cardiac @sec:cardiac-symptoms, respiratory, genitourinary, endocrine-metabolic, dermatological, ocular, and auditory.
 
 *For researchers*: read the multisystem-summary (@sec:multisystem-summary) and symptom-severity (@sec:symptom-severity) sections for a structured symptom phenotype that supports cohort description and stratification.
 ]

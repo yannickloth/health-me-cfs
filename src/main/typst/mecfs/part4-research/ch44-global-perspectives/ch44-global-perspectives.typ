@@ -18,7 +18,7 @@ The published evidence on ME/CFS comes almost entirely from high-income countrie
 
 *For clinicians*: focus on the clinical-diagnosis-without-testing section for the diagnostic-access constraint and the disability-recognition sections; the traditional-medicine sections summarize the evidence.
 
-*For researchers*: read the neglected-disease-framing and global-surveillance sections, then the surveillance-tool and culturally-adapted-measure sections for the concrete studies needed.
+*For researchers*: read the neglected-disease-framing and global-surveillance sections, then the sentinel-PEM-surveillance and culturally-adapted-PEM-tool sections for the concrete studies needed.
 ]
 
 #achievement(title: [Post-Infectious Fatigue Follows Infectious Disease Burden Geographically])[

@@ -6,13 +6,13 @@
 Multiple diagnostic criteria have been developed for ME/CFS. This chapter reviews major frameworks and their application.
 
 #roadmap(title: [How to Use This Chapter])[
-*For patients*: read Chapter @ch:diagnostic-criteria's overview of the frameworks to understand what a diagnosis requires and how criteria have evolved.
+*For patients*: read the diagnostic-overview section (@sec:diagnostic-overview) to understand what a diagnosis requires and how the criteria have evolved.
 
-*For caregivers*: read the overview of the frameworks to understand how the diagnosis is established and what the criteria mean.
+*For caregivers*: read the diagnostic-overview section (@sec:diagnostic-overview) to understand how the diagnosis is established and what the criteria mean.
 
-*For clinicians*: read the framework comparisons to select an approach, and the clinical-assessment section to apply it. The differential-diagnosis section is a lookup for excluding other conditions.
+*For clinicians*: read the framework comparison sections (@sec:ccc, @sec:icc) to select an approach, and the clinical-assessment section (@sec:assessment) to apply it. The differential-diagnosis section (@sec:differential) is a lookup for excluding other conditions.
 
-*For researchers*: read the framework comparisons and the novel-framework section to understand case-definition choices and their trade-offs.
+*For researchers*: read the framework comparison sections (@sec:ccc, @sec:icc, @sec:other-criteria) and the novel-framework section (@sec:novel-framework) to understand case-definition choices and their trade-offs.
 ]
 
 #include "sec-01-overview/sec-01-overview.typ"

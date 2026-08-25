@@ -6,7 +6,7 @@
 These extend the Chayama et al.\ (2026) @Chayama2026BrainClearance compartmentalized clearance architecture into non-pharmacological interventions.
 
 #roadmap(title: [How to Use This Chapter])[
-*For patients*: the positioning, movement, and sleep-enhancement speculations are the most actionable — sleeping-position optimisation, pre-sleep breathing, and timed core-temperature modulation are low-risk habits you can try.
+*For patients*: the positioning, movement, and sleep-enhancement speculations are the most actionable — sleeping-position optimisation, pre-sleep breathing, and timed core-temperature modulation are low-risk, low-cost habits you may try — but every entry is a research hypothesis, not a recommendation; treat them as experiments, not established therapy.
 
 *For caregivers*: the sleep and positioning speculations may help you arrange the patient's rest environment; treat all items as speculative, not established protocols.
 

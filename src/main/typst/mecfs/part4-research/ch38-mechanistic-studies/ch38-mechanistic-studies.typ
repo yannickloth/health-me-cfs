@@ -10,11 +10,11 @@ This chapter reviews the experimental and mechanistic studies that probe the bio
 #roadmap(title: [How to Use This Chapter])[
 *For patients*: read the summaries of the key mechanistic studies to understand what biology has been demonstrated. Skip the methodological detail.
 
-*For caregivers*: read the study-summary sections to understand the biological evidence base behind the illness.
+*For caregivers*: read the exercise-physiology, imaging, and immunological study sections to understand the biological evidence base behind the illness.
 
 *For clinicians*: read the mechanistic findings relevant to the systems you manage, and the evidence-quality assessments.
 
-*For researchers*: read the full study reviews and the gaps sections for the strongest and weakest-supported mechanisms.
+*For researchers*: read the full study reviews, and the imaging, omics, and integrative-multi-omics sections for the strongest and weakest-supported mechanisms.
 ]
 
 #include "./the-nih-deep-phenotyping-study/the-nih-deep-phenotyping-study.typ"

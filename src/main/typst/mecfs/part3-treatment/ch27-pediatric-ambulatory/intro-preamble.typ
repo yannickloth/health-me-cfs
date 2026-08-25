@@ -15,6 +15,4 @@ This chapter addresses ambulatory pediatric patients who can attend school at le
 *For clinicians*: read the subtype assessment, diagnosis-and-assessment, medical-management, and pacing sections to construct an age-appropriate plan, avoiding the graded exercise that risks progression.
 
 *For researchers*: the early-intervention and long-term-monitoring sections frame the open question of whether timely management can be shown to improve the favourable pediatric prognosis.
-
-*Note for housebound or bedbound children*: use Chapter @ch:pediatric-severe instead; for adult mild-moderate management, see Chapter @ch:action-mild-moderate.
 ]

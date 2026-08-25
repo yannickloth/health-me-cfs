@@ -18,7 +18,7 @@ Direct costs (medical visits, tests, medications, alternative treatments), indir
 
 *For clinicians*: read the economic-impact sections to understand the broader burden of the disease on patients and society.
 
-*For researchers*: read the cost-of-illness methodology and findings to inform health-economic research.
+*For researchers*: read the Scale of the Problem and Evidence Gaps and Research Directions sections to inform health-economic research.
 ]
 
 ME/CFS imposes economic costs that are systematically underestimated, because the disease itself is systematically underdiagnosed. An estimated 84--91% of U.S. patients remain undiagnosed @IOM2015 — every cost estimate in this chapter is therefore a lower bound, capturing only the visible fraction of the disease's economic footprint.

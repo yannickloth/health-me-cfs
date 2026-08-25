@@ -6,7 +6,7 @@
 Every drug response — therapeutic benefit, null response, side effect at a specific dose — is diagnostic information. This chapter provides: (a) generic frameworks for reading dose-response curves, side-effect patterns, and cross-drug combination signals; (b) per-medication clinical entries with response/non-response interpretation, dose-dependent differential diagnosis, and combination inference; and (c) a consolidated per-drug dose-range reference with cross-drug predictive patterns. For each drug, the central question is: what does the response reveal about which mechanism is broken?
 
 #roadmap(title: [How to Use This Chapter])[
-*For patients*: use the medication index and the per-drug entries to understand what a benefit, null response, or side effect at a specific dose means for you; the response-nonresponse interpretation is written to be readable without medical training.
+*For patients*: use the medication index and the per-drug entries to understand what a benefit, null response, or side effect at a specific dose means for you; the response-nonresponse interpretation is written to be readable without medical training. This is an interpretive reference, not a prescribing guide — route any dose or combination decision through your clinician.
 
 *For caregivers*: use the per-drug entries to track and report the patient's response pattern to the clinical team; the dose-response categories (@sec:dose-response-categories) explain why low doses behave differently.
 

@@ -8,7 +8,7 @@ Part V builds formal mathematical models of ME/CFS. This opening chapter lays th
 ]
 
 #roadmap(title: [How to Use This Chapter])[
-*For patients*: little direct use; it sets conventions for quantitative models rather than clinical content, so read only the scope sections if you want context.
+*For patients*: little direct use; it sets conventions for quantitative models rather than clinical content, so read only the Prior Work and Scope of Contribution section if you want context.
 
 *For caregivers*: little direct use; the chapter explains why the disease is modelled, not how to care, so no targeted section applies.
 

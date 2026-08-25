@@ -13,7 +13,7 @@ Cardiovascular abnormalities are pervasive in ME/CFS and contribute substantiall
 
 *For clinicians*: read the cardiac, blood-pressure, and heart-rate sections for assessment of orthostatic intolerance, plus the coagulation/rheological section for microclot considerations. The sex-differences section informs female-specific presentations.
 
-*For researchers*: read the post-covid, mast-cell, and summary sections. These cross-link to Chapter @ch:integrative-models and the immune chapter.
+*For researchers*: read the post-covid, mast-cell, and summary sections. These cross-link to Chapter @ch:integrative-models and Chapter @ch:immune-dysfunction.
 ]
 
 #include "sec-01-cardiac-function/sec-01-cardiac-function.typ"

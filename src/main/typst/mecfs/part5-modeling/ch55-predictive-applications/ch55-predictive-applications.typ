@@ -14,7 +14,7 @@ The value of the formal models lies in what they predict. This chapter translate
 
 *For clinicians*: read the Personalized Pacing Optimization, Treatment Selection and Optimization, Prognosis Prediction, and Clinical Decision Support sections for direct clinical application.
 
-*For researchers*: read the full derivation from the Drug Development Applications and Optimal Control Theory for Pacing sections through the Global Sensitivity Analysis and Drug Target Ranking, Network Controllability and Minimum Intervention Sets, and Novel Predictions sections.
+*For researchers*: read the full derivation from the Drug Development Applications and Optimal Control Theory for Pacing sections through the Global Sensitivity Analysis and Drug Target Ranking, Network Controllability and Minimum Intervention Sets, and Novel Predictions: Results That Emerge Only from the Formal Model sections.
 ]
 
 #include "sec-intro/sec-intro.typ"

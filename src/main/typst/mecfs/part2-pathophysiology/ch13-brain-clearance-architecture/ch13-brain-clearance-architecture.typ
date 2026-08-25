@@ -14,7 +14,7 @@ The glymphatic system, meningeal lymphatics, and brain clearance in ME/CFS — c
 
 *For clinicians*: read the convergent-drivers and treatment-correlates sections, but note the explicit limitation that no glymphatic study has been done in ME/CFS. Do not base treatment decisions on this chapter.
 
-*For researchers*: read the Chayama architecture and the environments (synthesis, speculations, limitations) — the CSF:blood ratio and DTI-ALPS predictions define an undated research program.
+*For researchers*: read the Chayama architecture and the environments (synthesis, speculations, limitations) — the CSF:blood ratio and DTI-ALPS predictions define an as-yet-unvalidated research program.
 ]
 
 == The Brain's Waste Clearance System

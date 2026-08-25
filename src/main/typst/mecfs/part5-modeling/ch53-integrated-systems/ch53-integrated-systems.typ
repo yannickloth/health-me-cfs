@@ -14,7 +14,7 @@ ME/CFS is a multi-system disease, and its models must integrate across systems. 
 
 *For clinicians*: read the Symptom Generation Mechanisms, Bifurcation Analysis and Disease Subtypes, and Model Application Guide sections to see how multi-system disease produces subtypes.
 
-*For researchers*: read the full derivation from the Energy--Immune Coupling and Whole-Body Systems Model sections through the Neuroplasticity Attractor Dynamics and Brain Clearance sections.
+*For researchers*: read the full derivation from the Energy--Immune Coupling and Whole-Body Systems Model sections through the Neuroplasticity Attractor Dynamics and Brain Clearance Architecture sections.
 ]
 
 #include "sec-intro/sec-intro.typ"

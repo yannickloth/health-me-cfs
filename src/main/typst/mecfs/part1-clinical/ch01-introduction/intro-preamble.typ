@@ -7,7 +7,7 @@ Myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) is a complex, chroni
 #roadmap(title: [How to Use This Chapter])[
 *For patients*: read the terminology and disease-classification sections (@sec:terminology, @sec:disease-classification) to learn what ME/CFS is and how it is defined. Skim the prognosis-course section (@sec:prognosis-course) for what to expect.
 
-*For caregivers*: read the terminology section (@sec:terminology) and the disease-classification section (@sec:disease-classification) to understand the disease and its official standing. The epidemiology section (@sec:epidemiology) gives context.
+*For caregivers*: read the terminology section (@sec:terminology) and the disease-classification section (@sec:disease-classification) to understand the disease and its official standing. The epidemiology section (@sec:epidemiology) gives context, and the history section (@sec:history) explains how the disease was recognized.
 
 *For clinicians*: read the disease-classification and terminology sections (@sec:disease-classification, @sec:terminology) to anchor diagnosis, and the prognosis-course section (@sec:prognosis-course) for framing. The impact section (@sec:impact) is background on burden.
 

@@ -8,9 +8,9 @@ ME/CFS is characterized by several hallmark symptoms that must be present for di
 #roadmap(title: [How to Use This Chapter])[
 *For patients*: read the post-exertional-malaise section (@sec:pem) first to understand the crash that pacing must prevent, then the fatigue (@sec:fatigue) and unrefreshing-sleep (@sec:sleep) sections. The cognitive (@sec:cognitive) and pain (@sec:pain) sections explain common experience.
 
-*For caregivers*: read all core-symptom sections (@sec:pem, @sec:fatigue, @sec:sleep, @sec:cognitive) to recognize the defining features and why exertion causes worsening.
+*For caregivers*: read the defining core-symptom sections (@sec:pem, @sec:fatigue, @sec:sleep, @sec:cognitive) to recognize the features and why exertion causes worsening, and the sensory-sensitivities section (@sec:sensory) for symptom triggers.
 
-*For clinicians*: read the PEM section (@sec:pem) as the diagnostic anchor, and the cognitive, autonomic, and pain sections (@sec:cognitive, @sec:autonomic, @sec:pain) for assessment of the defining features.
+*For clinicians*: read the PEM section (@sec:pem) as the diagnostic anchor, and the fatigue, cognitive, autonomic, pain, and sensory sections (@sec:fatigue, @sec:cognitive, @sec:autonomic, @sec:pain, @sec:sensory) for assessment of the defining features.
 
 *For researchers*: read the PEM (@sec:pem), fatigue (@sec:fatigue), and cognitive (@sec:cognitive) sections for precise symptom definitions used in case selection and phenotyping.
 ]

@@ -14,7 +14,7 @@ This chapter assembles the epidemiological and outcomes evidence for ME/CFS. It 
 
 *For clinicians*: read the epidemiology sections for prevalence, risk factors, and outcomes to inform prognosis counselling.
 
-*For researchers*: read the full epidemiological methods, prevalence estimates, and outcomes sections for the evidence base.
+*For researchers*: read the prevalence-and-incidence, risk-factor, and natural-history sections, then the outcomes sections, for the evidence base.
 ]
 
 #include "./prevalence-and-incidence-studi/prevalence-and-incidence-studi.typ"

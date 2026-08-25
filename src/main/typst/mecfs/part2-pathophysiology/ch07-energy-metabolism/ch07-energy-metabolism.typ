@@ -13,7 +13,7 @@ Energy production impairment is a central feature of ME/CFS pathophysiology and 
 
 *For caregivers*: read the overview to understand the energy limits that drive pacing. The deeper biochemistry sections can be skimmed.
 
-*For clinicians*: read the failure-mode sections relevant to the patient's presentation, and the Potential Interventions section (section 23) for treatment-oriented content.
+*For clinicians*: read the failure-mode sections relevant to the patient's presentation, and the potential-interventions section for treatment-oriented content.
 
 *For researchers*: read the ten steps in sequence, then the metabolic-trap hypothesis and the summary integrated model. The cross-cutting sections recur in Chapter @ch:integrative-models.
 ]

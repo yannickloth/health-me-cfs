@@ -8,13 +8,13 @@ A chronological account of ME/CFS from the 1934 Los Angeles County Hospital outb
 ]
 
 #roadmap(title: [How to Use This Chapter])[
-*For patients*: this chapter is optional background. Read the PACE-trial and institutional-reversals section to understand why graded exercise is no longer recommended, and the nomenclature section to see how the disease has been mislabeled.
+*For patients*: this chapter is optional background. Read the PACE Trial and Its Aftermath section to understand why graded exercise is no longer recommended, and the Nomenclature section to see how the disease has been mislabeled.
 
-*For caregivers*: minimal direct use; this is history, not management. Read the PACE-trial section if you need to counter outdated graded-exercise advice.
+*For caregivers*: minimal direct use; this is history, not management. Read the PACE Trial section if you need to counter outdated graded-exercise advice.
 
-*For clinicians*: read the PACE-trial and NICE-2021 sections to recognize the graded-exercise harm documented after the trial, and the case-definition sections (Fukuda, Canadian Consensus) to understand which patient populations criteria select.
+*For clinicians*: read the PACE Trial and Its Aftermath section, including the NICE 2021 subsection, to recognize the graded-exercise harm documented after the trial, and the case-definition subsections (Fukuda, Canadian Consensus) to understand which patient populations criteria select.
 
-*For researchers*: read the case-definition evolution (Holmes, Oxford, Fukuda, CCC, ICC, IOM) to grasp population-selection confounds, and the PACE-trial re-analysis as a methodological cautionary tale. The molecular-era sections frame current evidence.
+*For researchers*: read the case-definition evolution (Holmes, Oxford, Fukuda, Canadian Consensus, International Consensus, IOM) to grasp population-selection confounds, and the PACE Trial re-analysis as a methodological cautionary tale. The Molecular Era sections frame current evidence.
 ]
 
 == The Age of Outbreaks (1934–1959)

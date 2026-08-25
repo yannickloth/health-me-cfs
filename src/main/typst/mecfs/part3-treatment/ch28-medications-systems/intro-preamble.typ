@@ -4,7 +4,7 @@
 <ch:medications-mechanisms>
 
 #roadmap(title: [How to Use This Chapter])[
-*For patients*: read the interpreting-treatment-responses section and the phenotype-targeted-treatment-pathways section to understand how a medication's benefit or null response informs your treatment plan.
+*For patients*: read the interpreting-treatment-responses section and the phenotype-targeted-treatment-pathways section to understand how a medication's benefit or null response informs your treatment plan. This chapter interprets medication responses — it does not prescribe; any medication decision belongs to your prescriber.
 
 *For caregivers*: read the interpreting-treatment-responses section to track what a medication is and is not doing, and the medication-sensitivity-phenotypes section if the patient reacts unusually to drugs.
 

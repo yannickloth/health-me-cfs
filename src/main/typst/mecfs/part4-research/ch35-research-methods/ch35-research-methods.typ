@@ -10,11 +10,11 @@ Why ME/CFS research is methodologically hard: case definition heterogeneity, lac
 ME/CFS research faces a unique constellation of methodological challenges that collectively undermine replicability. This chapter examines eight interlocking problems, provides evidence-based guidance for evaluating the existing literature, and recommends standards for future research design. Each section is self-contained — a reader interested in a specific methodological issue can read the relevant section without needing the others — but the cross-cutting synthesis at the end argues that the problems are mutually reinforcing and require systemic solutions.
 
 #roadmap(title: [How to Use This Chapter])[
-*For patients*: read the section on how to evaluate study quality to judge claims you read online or in the news. Skim the methodological detail.
+*For patients*: read the subjective-outcomes and biomarker-overfitting sections to judge the strength of claims you read online or in the news. Skim the methodological detail.
 
-*For caregivers*: read the study-quality section to understand why some treatments lack solid evidence. The technical methods can be skimmed.
+*For caregivers*: read the subjective-outcomes and cross-cutting-synthesis sections to understand why some treatments lack solid evidence. The technical methods can be skimmed.
 
-*For clinicians*: read the sections on trial design, outcome measures, and evidence grading to judge the quality of treatment studies you may rely on.
+*For clinicians*: read the subjective-outcomes, control-group-selection, and biomarker-overfitting sections to judge the quality of treatment studies you may rely on.
 
 *For researchers*: read the full methodological framework — it establishes the conventions used to evaluate every study cited across this book.
 ]

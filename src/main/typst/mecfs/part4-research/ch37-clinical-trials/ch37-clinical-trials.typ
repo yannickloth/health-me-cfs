@@ -8,11 +8,11 @@ Clinical trial evidence in ME/CFS is limited relative to other chronic diseases,
 #roadmap(title: [How to Use This Chapter])[
 *For patients*: read the sections covering trials of treatments relevant to you, and the limitations sections to understand what the trial evidence does and does not show.
 
-*For caregivers*: read the trial-summary and limitations sections to understand which interventions have and lack trial support.
+*For caregivers*: read the synthesis-and-meta-analyses section and the trial limitation environments to understand which interventions have and lack trial support.
 
 *For clinicians*: read the trial results for each intervention class and the methodology sections to weigh the quality of the evidence before recommending.
 
-*For researchers*: read the full trial reviews, the methodological critiques, and the gaps sections to identify where trial evidence is weak.
+*For researchers*: read the full trial reviews, the methodological limitations, and the ongoing-and-planned-trials section to identify where trial evidence is weak.
 ]
 
 #include "./immunological-interventions/immunological-interventions.typ"

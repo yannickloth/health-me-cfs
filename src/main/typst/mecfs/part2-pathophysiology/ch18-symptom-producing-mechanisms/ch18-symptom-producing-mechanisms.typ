@@ -15,7 +15,7 @@ The sections that follow trace symptom production from overarching integrative f
 
 *For caregivers*: read the capacity-vs-symptom distinction to understand why the patient's felt exhaustion may not match activity capacity. The neurochemical detail can be skimmed.
 
-*For clinicians*: read the sickness-behavior, orexin, adenosine, and cytokine sections for the mechanism behind non-restorative sleep and the "tired but wired" state, and the medication sections (sleep agents) for prescribing implications.
+*For clinicians*: read the sickness-behavior, orexin, adenosine, and cytokine sections for the mechanism behind non-restorative sleep and the "tired but wired" state, and the medication sections (sleep agents) for prescribing implications. Note the glymphatic rationale for these agents is untested — base prescribing on the established sleep evidence, not the mechanistic claims.
 
 *For researchers*: read the neurochemical-generator sections and their falsifiable predictions — several define drug-trial hypotheses in the orexin, adenosine, and kynurenine pathways.
 ]
