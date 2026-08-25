@@ -483,12 +483,11 @@ void generatePartIndexPages(Path webRoot, Path srcRoot,
         var body = m.group(2);
         var slug = m.group(3);
 
-        body = body.replaceAll("@ch:", "@ch-");
-        body = body.replaceAll("@sec:", "@sec-");
-        body = body.replaceAll("@subsec:", "@subsec-");
-        body = body.replaceAll("@fig:", "@fig-");
-        body = body.replaceAll("@tab:", "@tab-");
-        body = body.replaceAll("@app:", "@app-");
+        // Convert Typst env calls (roadmap/note-env/continuation) and cross-refs
+        // in the doc-part body so they render as callouts on the web instead of
+        // leaking raw Typst syntax (the existing #note-env callouts in part2-5
+        // previously rendered verbatim).
+        body = RegexConversion.convertPartBody(body);
 
         var sb = new StringBuilder();
         sb.append("---\n");
@@ -496,7 +495,7 @@ void generatePartIndexPages(Path webRoot, Path srcRoot,
         sb.append("---\n\n");
         // Anchor matches the "#part:<slug>" form used by #link(<part:slug>)[...].
         sb.append("<span id=\"part:").append(escJson(slug)).append("\"></span>\n\n");
-        sb.append(body.strip()).append("\n\n");
+        sb.append(body).append("\n\n");
         sb.append("## Contents\n\n");
 
         var chapterDirs = new ArrayList<String>();

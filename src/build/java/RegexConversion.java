@@ -601,6 +601,32 @@ final class RegexConversion implements TypstToQmd {
         return new ConversionResult(xref, secNum - 1, warnings);
     }
 
+    // Convert a Typst body FRAGMENT (not a full file) to qmd, applying the same
+    // env-enclosure, cross-reference, and inline-formatting transforms the chapter
+    // path uses. Used for part landing pages whose doc-part body carries Typst
+    // callout calls (roadmap, note-env, continuation) that must not leak raw.
+    static String convertPartBody(String body) {
+        var conv = new RegexConversion();
+        body = body.replaceAll("@(ch|sec|subsec|subsubsec|fig|tab|eq|app)(:|_|-)([a-zA-Z0-9_-]+)", "@$1-$3");
+        body = conv.encloseEnv(body, "roadmap",       "note", "Chapter Roadmap",  "");
+        body = conv.encloseEnv(body, "note-env",      "note", "Note",             "");
+        body = conv.encloseEnv(body, "continuation",  "note", "Continued",        "");
+        body = conv.encloseEnv(body, "key-point",     "tip",  "Key Point",        "env-key-point");
+        body = conv.encloseEnv(body, "direction",     "note", "Research Direction","env-direction");
+        body = body.replaceAll("#chapter-abstract\\[", "\n\n::: {.callout-note}\n### Chapter Abstract\n\n");
+        body = body.replaceAll("(?m)^\\]\\s+(<[a-z][\\w:\\.-]*>)\\s*$", "$1");
+        body = body.replaceAll("(?m)^\\].*$", "");
+        int open = 0;
+        for (var l : body.split("\n")) {
+            if (l.strip().startsWith("::: {")) open++;
+            else if (l.strip().equals(":::")) open--;
+        }
+        while (open > 0) { body += "\n:::\n"; open--; }
+        body = body.replaceAll("#emph\\[([^\\]]+?)\\]", "*$1*");
+        body = body.replaceAll("#strong\\[([^\\]]+?)\\]", "**$1**");
+        return body.strip();
+    }
+
     // Count leading '=' in a Typst heading line.
     int countLeadingEquals(String s) {
         int n = 0;
