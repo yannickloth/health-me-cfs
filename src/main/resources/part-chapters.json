@@ -220,18 +220,6 @@
           "about": "Addresses what can be done about each symptom now, organized by symptom domain rather than drug class or mechanism. Opens with comorbidity management and covers post-exertional malaise, sleep, pain, cognitive dysfunction, orthostatic intolerance, and broader autonomic symptoms, pairing non-pharmacological and pharmacological options with stated evidence strength."
         },
         {
-          "ch": "ch33",
-          "title": "Medication Response Reference: From Drug Response to Mechanism Identification",
-          "href": "part3-treatment/ch33-medication-response-reference/index.html",
-          "about": "Argues that every drug response (therapeutic benefit, null response, or side effect at a specific dose) is diagnostic information, providing frameworks for reading dose-response curves, side-effect patterns, and cross-drug combination signals. Frames the medication-as-probe approach as diagnostic reasoning under uncertainty."
-        },
-        {
-          "ch": "ch34",
-          "title": "Mechanistic Cascade Tracing: From Hypothesis to Clinical Probe",
-          "href": "part3-treatment/ch34-mechanistic-cascade-tracing/index.html",
-          "about": "Traces the full downstream cascade for every major mechanistic hypothesis, from proposed trigger to terminal neurochemical, metabolic, and immunological consequences, identifying at each node which medications could intercept and what a response reveals. Works through the PIP2/TRPM3 channelopathy cascade, TRPV1-mediated vasoconstriction, and Piezo2 dysfunction."
-        },
-        {
           "ch": "ch24",
           "title": "Urgent Action Plan for Severe Cases",
           "href": "part3-treatment/ch24-urgent-action-severe/index.html",
@@ -284,6 +272,18 @@
           "title": "Integrative and Personalized Treatment Approaches",
           "href": "part3-treatment/ch32-integrative-approaches/index.html",
           "about": "Provides a safety-first framework for treatment planning, arguing that every treatment trial carries a metabolic energy cost and failed trials can trigger post-exertional malaise. Classifies interventions by energy category, establishes a micro-dosing imperative, provides crash-risk rankings, sequencing plans, and when-to-stop criteria."
+        },
+        {
+          "ch": "ch33",
+          "title": "Medication Response Reference: From Drug Response to Mechanism Identification",
+          "href": "part3-treatment/ch33-medication-response-reference/index.html",
+          "about": "Argues that every drug response (therapeutic benefit, null response, or side effect at a specific dose) is diagnostic information, providing frameworks for reading dose-response curves, side-effect patterns, and cross-drug combination signals. Frames the medication-as-probe approach as diagnostic reasoning under uncertainty."
+        },
+        {
+          "ch": "ch34",
+          "title": "Mechanistic Cascade Tracing: From Hypothesis to Clinical Probe",
+          "href": "part3-treatment/ch34-mechanistic-cascade-tracing/index.html",
+          "about": "Traces the full downstream cascade for every major mechanistic hypothesis, from proposed trigger to terminal neurochemical, metabolic, and immunological consequences, identifying at each node which medications could intercept and what a response reveals. Works through the PIP2/TRPM3 channelopathy cascade, TRPV1-mediated vasoconstriction, and Piezo2 dysfunction."
         }
       ]
     },
