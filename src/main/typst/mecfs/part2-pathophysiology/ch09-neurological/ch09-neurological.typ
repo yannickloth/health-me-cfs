@@ -8,6 +8,15 @@ Neurological abnormalities represent one of the most consistently documented fea
 
 One candidate link between the gut microbiome and the neurocognitive symptoms discussed below is the aryl-hydrocarbon-receptor (AhR) axis: a direct ME/CFS study found elevated gut-microbial AhR-agonist activity specifically in patients with neurocognitive symptoms (Section @sec:gut-brain of Chapter @ch:gut-microbiome; Hypothesis @hyp:ahr-gut-microbiome-axis). This is an early, subgroup-specific finding that requires replication and does not establish causality.
 
+#roadmap(title: [How to Use This Chapter])[
+*For patients*: read the CNS abnormalities and cognitive-dysfunction sections to understand brain fog and the sleep-cognition link. The auditory/tinnitus section is relevant if you experience those symptoms.
+
+*For caregivers*: read the cognitive-dysfunction and summary integrated-model sections to understand how neurological symptoms constrain daily activity. The autonomic section helps explain orthostatic crashes.
+
+*For clinicians*: read the autonomic, cerebral-blood-flow, and cognitive sections for the physical signs and assessment relevant to presentation. The GLP-1 neuroprotection and retinal-window miscellany are research-grade — low clinical priority.
+
+*For researchers*: read the blood-brain-barrier and peripheral-nervous-system sections, plus the summary integrated model. The AhR gut-brain link points to Chapter @ch:gut-microbiome.
+]
 
 #include "sec-01-central-nervous-system-abnormalities/sec-01-central-nervous-system-abnormalities.typ"
 

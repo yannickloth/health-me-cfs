@@ -7,6 +7,16 @@ Gastrointestinal symptoms affect the majority of ME/CFS patients, with 50–90% 
 
 GI dysmotility is one component of the “Septad” framework of frequently co-occurring conditions in ME/CFS (Section @sec:septad). This chapter examines microbiome alterations, intestinal permeability, motility disorders, and their connections to systemic symptoms.
 
+#roadmap(title: [How to Use This Chapter])[
+*For patients*: read the treatment approaches and dietary sections (SIBO treatment, low-FODMAP, probiotics) for actionable GI management, and the gut-brain-axis section to understand brain fog and mood links.
+
+*For caregivers*: read the GI-dysfunction and treatment sections to support dietary and motility management. The microbiome molecular sections can be skimmed.
+
+*For clinicians*: read the SIBO, intestinal-permeability, and treatment sections for diagnostic testing (breath tests) and management decisions. The probiotics section carries a strain-specificity caution.
+
+*For researchers*: read the multi-omic integration and butyrate-mechanism sections, plus the gut-brain axis. These cross-link to Chapter @ch:integrative-models.
+]
+
 == Gut Microbiome Alterations
 <sec:microbiome>
 

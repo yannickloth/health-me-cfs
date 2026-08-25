@@ -17,6 +17,16 @@ The evidence tables that motivate and constrain these proposed studies are conso
 // SECTION: Multi-Modal Testing of Selective Energy Dysfunction Hypothesis
 // ============================================================================
 
+#roadmap(title: [How to Use This Chapter])[
+*For patients*: skim the early-intervention-trial and pediatric-adult-study sections to see how recovery-focused trials are being designed, and the HRV-pacing section for a pacing approach you could relate to daily management.
+
+*For caregivers*: read the periodization and infection-decline study sections for designs relevant to pacing and relapse.
+
+*For clinicians*: review the LSR-biomarker-validation and wound-healing-biomarker study sections as near-term candidate diagnostics, and the treatment-sequence-RCT section for a paradigm-shaping trial design.
+
+*For researchers*: this chapter is a protocol library — start with the replication and prodromal sections, then the highest-value protocols (biomarker validation, PEM-recovery-duration, viral-clearance-longitudinal, pharmacogenomics).
+]
+
 #include "./multi-modal-testing-of-selecti/multi-modal-testing-of-selecti.typ"
 #include "./wound-healing-as-functional-bi/wound-healing-as-functional-bi.typ"
 #include "./secondary-analysis-opportuniti/secondary-analysis-opportuniti.typ"

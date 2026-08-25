@@ -5,6 +5,16 @@
 
 These speculations extend the Chayama et al.\ (2026) @Chayama2026BrainClearance brain clearance architecture into investigational and repurposed drug targets. Doses are from non-ME/CFS populations unless stated. All are research hypotheses, not clinical recommendations.
 
+#roadmap(title: [How to Use This Chapter])[
+*For patients*: do not act on this chapter — every entry is a research hypothesis explicitly "not a clinical recommendation", with doses from non-ME/CFS populations.
+
+*For caregivers*: no direct use; the drug targets are investigational and unsuitable for home application.
+
+*For clinicians*: read only to understand which investigational or repurposed drugs target the glymphatic pump, perivascular structure, and AQP4 — none are established ME/CFS treatments.
+
+*For researchers*: the primary audience — each speculation proposes a drug target on the Chayama brain-clearance architecture with a mechanism, dose source, and certainty rating for hypothesis testing.
+]
+
 === Glymphatic Pump Enhancement
 
 #include "speculations/spec-low-dose-clonidine-for-lc-ne-oscillation-stabilization-and-f.typ"

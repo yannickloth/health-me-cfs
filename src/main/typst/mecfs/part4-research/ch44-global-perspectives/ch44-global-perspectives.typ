@@ -11,6 +11,16 @@ The published evidence on ME/CFS comes almost entirely from high-income countrie
 
 == The Hidden Burden: Post-Infectious Fatigue in High-Infectious-Disease Settings
 
+#roadmap(title: [How to Use This Chapter])[
+*For patients*: read the post-infectious-burden and clinical-diagnosis-without-testing sections to understand why ME/CFS is under-detected outside high-income countries and why diagnosis is harder without testing.
+
+*For caregivers*: skim the cultural-idiom and traditional-medicine sections for the cultural variation in symptom expression.
+
+*For clinicians*: focus on the clinical-diagnosis-without-testing section for the diagnostic-access constraint and the disability-recognition sections; the traditional-medicine sections summarize the evidence.
+
+*For researchers*: read the neglected-disease-framing and global-surveillance sections, then the surveillance-tool and culturally-adapted-measure sections for the concrete studies needed.
+]
+
 #achievement(title: [Post-Infectious Fatigue Follows Infectious Disease Burden Geographically])[
 Infectious diseases capable of triggering post-infectious ME/CFS — dengue, chikungunya, Zika, tuberculosis, HIV, EBV — are disproportionately concentrated in low- and middle-income countries (LMICs). Dengue alone is endemic in over 100 countries, predominantly in South and Southeast Asia, Latin America, and Sub-Saharan Africa. The first systematic review of post-dengue fatigue, by Condé et al. (2026), quantified what had been suspected: arboviral infections in LMICs produce chronic fatigue syndromes comparable to post-EBV CFS @Conde2026dengueFatigue. On Reunion Island, a tropical setting, 38% of chikungunya survivors had chronic fatigue at 30-month follow-up — mirroring post-infectious CFS in high-income-country studies @Duvignaud2018chikungunyaFatigue. Post-acute sequelae across epidemic history — from influenza 1918 through COVID-19 — demonstrate that pandemics produce long-term disability disproportionately in settings with poor acute care infrastructure @Miller2026epidemicsShadow.
 

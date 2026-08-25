@@ -11,6 +11,16 @@ Analysis of how healthcare systems respond to ME/CFS: medical education deficits
 
 == Medical Education: A Systematic Deficit
 
+#roadmap(title: [How to Use This Chapter])[
+*For patients*: read the sections on diagnostic delay, healthcare invalidation, and disability benefit systems to understand the structural barriers you may face in getting care and recognition.
+
+*For caregivers*: read the diagnostic-delay and healthcare-invalidation sections to understand the system-level challenges in supporting a patient.
+
+*For clinicians*: read the care-delivery (specialist clinic models, clinical guidelines) and policy sections to understand the system constraints on ME/CFS care.
+
+*For researchers*: read the policy and systems analyses to identify research gaps in healthcare delivery.
+]
+
 The most upstream failure in the healthcare system's response to ME/CFS occurs before any patient enters a consultation room: most physicians receive no structured education on the condition during medical school, residency, or continuing medical education.
 
 #achievement(title: [Widespread Medical Education Gaps])[

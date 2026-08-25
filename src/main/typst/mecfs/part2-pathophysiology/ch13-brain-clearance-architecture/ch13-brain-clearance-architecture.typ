@@ -7,6 +7,16 @@
 The glymphatic system, meningeal lymphatics, and brain clearance in ME/CFS — consolidating content currently scattered across ch25 (brain clearance supplements), ch26 (brain clearance lifestyle), ch27 (brain clearance drugs), and ch43 (brain clearance ODE models). Covers Chayama 2026 nearest-exit architecture, dual-speed glymphatics, inflammatory rerouting vs. obstructive trapping, the PEM ratchet, skull-border B-cell tolerance, and CSF:blood ratio biomarkers. *Framing alignment:* This chapter exemplifies the document's convergent multi-system driver thesis — sleep, autonomic, neuroinflammatory, cervical, and immune mechanisms converging on a single clearance pathway — and directly extends the PEM-as-cardinal-feature framing by proposing a glymphatic mechanism for post-exertional malaise. It does not address the brain-first genetic architecture axis or patient-advocacy axis; those are covered in ch12 and ch02 respectively.
 ]
 
+#roadmap(title: [How to Use This Chapter])[
+*For patients*: read the brain-clearance and sleep-connection sections to understand why unrefreshing sleep worsens brain fog. The PEM-ratchet section explains the delayed crash. Treat all mechanism claims as hypotheses, not established fact.
+
+*For caregivers*: read the sleep-connection and PEM-ratchet sections to understand why sleep hygiene and avoiding overexertion matter. No direct actionable guidance beyond the treatment correlates.
+
+*For clinicians*: read the convergent-drivers and treatment-correlates sections, but note the explicit limitation that no glymphatic study has been done in ME/CFS. Do not base treatment decisions on this chapter.
+
+*For researchers*: read the Chayama architecture and the environments (synthesis, speculations, limitations) — the CSF:blood ratio and DTI-ALPS predictions define an undated research program.
+]
+
 == The Brain's Waste Clearance System
 
 The brain is metabolically expensive — consuming ~20% of the body's oxygen while representing ~2% of body mass — and generates substantial metabolic waste: amyloid-β, tau, lactate, and other byproducts of neural activity. Unlike peripheral tissues, the brain lacks a conventional lymphatic system for waste drainage. Instead, it relies on two interconnected clearance pathways: the glymphatic system and the meningeal lymphatic vessels.

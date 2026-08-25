@@ -5,6 +5,16 @@
 
 Beyond the core symptoms of post-exertional malaise, unrefreshing sleep, cognitive impairment, autonomic dysfunction, and pain described in Chapter @ch:core-symptoms, ME/CFS patients experience a wide range of additional symptoms affecting virtually every body system. This chapter provides a comprehensive catalog of these symptoms, organized by physiological system, ranging from mild and common manifestations to severe and disabling complications.
 
+#roadmap(title: [How to Use This Chapter])[
+*For patients*: read the symptom-severity section (@sec:symptom-severity) to place your own burden, and the system sections relevant to your symptoms (neuro @sec:neuro-symptoms, GI @sec:gi-symptoms, cardiac @sec:cardiac-symptoms) to recognize what is attributable to ME/CFS.
+
+*For caregivers*: read the multisystem-summary section (@sec:multisystem-summary) to see the full range of symptoms a patient may experience, and the system sections (@sec:gi-symptoms, @sec:neuro-symptoms) to understand them.
+
+*For clinicians*: use the system-by-system sections as a lookup (neuro @sec:neuro-symptoms, cardiac @sec:cardiac-symptoms, immune @sec:immune-symptoms, musculoskeletal @sec:musculoskeletal-symptoms) for the full clinical picture beyond the core symptoms.
+
+*For researchers*: read the multisystem-summary (@sec:multisystem-summary) and symptom-severity (@sec:symptom-severity) sections for a structured symptom phenotype that supports cohort description and stratification.
+]
+
 #include "limitations/lim-symptom-mechanisms.typ"
 
 #include "sec-01-neuro-symptoms/sec-01-neuro-symptoms.typ"

@@ -4,7 +4,17 @@
 <ch:lifestyle>
 
 #chapter-abstract[
-Beyond medication, a broad set of non-pharmacological strategies shape daily life with ME/CFS. This chapter covers the lifestyle interventions most relevant to patients: pacing and energy management as the cornerstone of post-exertional malaise prevention, sleep optimization, dietary approaches, weight management, and the careful use of exercise and movement within an energy budget. It also addresses stress management, breathing and vagal interventions, environmental modifications, social and emotional support, and a range of experimental approaches. Throughout, the guidance is framed by the central constraint of ME/CFS — a fixed and reduced energy envelope in which overexertion worsens the disease — so that each intervention is weighed for its systemic cost as well as its benefit.
+Beyond medication, a broad set of non-pharmacological strategies shape daily life with ME/CFS. This chapter covers the lifestyle interventions most relevant to patients: pacing and energy management as the cornerstone of post-exertional malaise prevention, sleep optimization, dietary approaches, weight management, and the careful use of exercise and movement within an energy budget. It also addresses stress management, breathing and vagal interventions, environmental modifications, social and emotional support, and a range of experimental approaches. Throughout, the guidance is framed by the central constraint of ME/CFS — a fixed and reduced energy envelope in which overexertion worsens the disease —   so that each intervention is weighed for its systemic cost as well as its benefit.
+]
+
+#roadmap(title: [How to Use This Chapter])[
+*For patients*: read the pacing and energy management section (@sec:pacing) first — it is the most evidence-based intervention and the cornerstone of PEM prevention — then the sleep optimization and breathing sections for daily practical habits.
+
+*For caregivers*: read the caregiver-implemented pacing section (@sec:caregiver-pacing) for how to manage pacing and the energy envelope on behalf of a severe patient.
+
+*For clinicians*: use @sec:pacing and @sec:caregiver-pacing to prescribe energy-envelope protection, and the sleep, diet, and movement sections to add non-pharmacological support within the fixed energy budget.
+
+*For researchers*: the pacing, cognitive-pacing, and cycle-synchronized-pacing hypotheses identify testable refinements to pacing (e.g., FUNCAP-informed and ADHD-adapted protocols) that lack controlled validation.
 ]
 
 == Pacing and Energy Management

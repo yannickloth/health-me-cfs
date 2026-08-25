@@ -43,6 +43,16 @@ The causal-hierarchy thread spans three parts of this document. Four stations ca
 ),
 ]
 
+#roadmap(title: [How to Use This Chapter])[
+*For patients*: read the three-tier framework to understand why many single treatments disappoint, and the root-cause sections (CNS energy crisis, safe mode) for what the causal story implies about recovery.
+
+*For caregivers*: read the three-tier framework and the load-bearing-vs-secondary discussion to understand why treating consequences alone does not resolve the illness.
+
+*For clinicians*: read the framework and the treatment-implications section — it explains why interventions that only address downstream consequences are unlikely to cure, and which mechanisms are candidates for root-cause targeting.
+
+*For researchers*: read the four trigger-capable candidates and the research-implications section. These feed the formal tests in Chapter @ch:causal-hierarchy-formal.
+]
+
 // =============================================================================
 // SECTION 1: THREE-TIER CLASSIFICATION FRAMEWORK
 // =============================================================================

@@ -10,6 +10,16 @@ Understanding ME/CFS requires distinguishing between mechanisms that _limit capa
 
 The sections that follow trace symptom production from overarching integrative frameworks (sickness behavior, 15.1–15.2), through specific neurochemical generators (adenosine, cytokines, serotonin, melatonin, microglia, kynurenine, mast cells, 15.3–15.9), into systems-level amplifiers (glymphatic failure, central sensitization, oxidative stress, metabolic danger signals, endocannabinoid deficiency, interoceptive dysregulation, 15.10–15.15), and finally to integrated models, patient phenotypes, and therapeutic implications (15.16–15.19).
 
+#roadmap(title: [How to Use This Chapter])[
+*For patients*: read the capacity-limiting vs symptom-producing distinction to understand why you can feel exhausted beyond what energy tests show, and the sickness-behavior and orexin sections for the brain's role in fatigue.
+
+*For caregivers*: read the capacity-vs-symptom distinction to understand why the patient's felt exhaustion may not match activity capacity. The neurochemical detail can be skimmed.
+
+*For clinicians*: read the sickness-behavior, orexin, adenosine, and cytokine sections for the mechanism behind non-restorative sleep and the "tired but wired" state, and the medication sections (sleep agents) for prescribing implications.
+
+*For researchers*: read the neurochemical-generator sections and their falsifiable predictions — several define drug-trial hypotheses in the orexin, adenosine, and kynurenine pathways.
+]
+
 // =============================================================================
 // PART A: CONCEPTUAL FRAMEWORK
 // =============================================================================

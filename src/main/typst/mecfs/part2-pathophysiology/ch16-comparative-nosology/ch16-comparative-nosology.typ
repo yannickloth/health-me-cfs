@@ -7,6 +7,16 @@
 Systematic comparison of ME/CFS with fibromyalgia, irritable bowel syndrome, post-treatment Lyme disease, complex regional pain syndrome, Gulf War illness, mast cell activation syndrome, Ehlers-Danlos/hypermobility, Long COVID, and other post-infectious fatigue syndromes — examining diagnostic boundary disputes, shared mechanisms, treatment overlap, and the historical "splitting vs. lumping" debate.
 ]
 
+#roadmap(title: [How to Use This Chapter])[
+*For patients*: read the splitting-vs-lumping and post-infectious sections to understand where ME/CFS sits among overlapping diagnoses, and the fibromyalgia/IBS overlaps if relevant to you.
+
+*For caregivers*: read the splitting-vs-lumping section to understand why overlapping conditions complicate diagnosis and care. The comparative detail can be skimmed.
+
+*For clinicians*: read the PTLDS and MCAS sections for boundary management and the overdiagnosis/underdiagnosis hazards, plus the POTS section on diagnostic validity.
+
+*For researchers*: read the Long COVID, PTLDS, and GWI hypotheses and the shared-genetic-architecture speculations — they define testable splitting-vs-lumping predictions.
+]
+
 == The Splitting vs. Lumping Problem
 
 ME/CFS sits at the center of a cluster of contested diagnoses whose boundaries are actively debated.

@@ -5,6 +5,16 @@
 === Chapter Abstract
 Every drug response — therapeutic benefit, null response, side effect at a specific dose — is diagnostic information. This chapter provides: (a) generic frameworks for reading dose-response curves, side-effect patterns, and cross-drug combination signals; (b) per-medication clinical entries with response/non-response interpretation, dose-dependent differential diagnosis, and combination inference; and (c) a consolidated per-drug dose-range reference with cross-drug predictive patterns. For each drug, the central question is: what does the response reveal about which mechanism is broken?
 
+#roadmap(title: [How to Use This Chapter])[
+*For patients*: use the medication index and the per-drug entries to understand what a benefit, null response, or side effect at a specific dose means for you; the response-nonresponse interpretation is written to be readable without medical training.
+
+*For caregivers*: use the per-drug entries to track and report the patient's response pattern to the clinical team; the dose-response categories (@sec:dose-response-categories) explain why low doses behave differently.
+
+*For clinicians*: read the generic frameworks first — dose-response categories (@sec:dose-response-categories), side-effects-as-diagnostic-probes (@sec:side-effects-diagnostic-probes), and the null-ladder (@sec:null-ladder-algorithm) — then the per-system drug sections for mechanism interpretation.
+
+*For researchers*: read the synthesis algorithm (@sec:differential-diagnostic-algorithm), pharmacodiagnostic matrix (@sec:pharmacodiagnostic-matrix-clinical), null-subtyping (@sec:null-subtyping), and origin-elimination (@sec:origin-elimination) sections as the formal frameworks for drug-response-driven mechanism identification.
+]
+
 #include "sec-01-why-this-chapter-exists/sec-01-why-this-chapter-exists.typ"
 #include "sec-02-how-to-use/sec-02-how-to-use.typ"
 

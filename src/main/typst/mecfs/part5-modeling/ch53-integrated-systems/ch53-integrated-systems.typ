@@ -7,6 +7,16 @@
 ME/CFS is a multi-system disease, and its models must integrate across systems. This chapter couples the energy, immune, neuroendocrine, cardiovascular, gut-brain, and connective-tissue subsystems into whole-body models. It examines the couplings between domains, the mechanisms by which symptoms are generated, bifurcation analysis and disease subtypes, and the attractor dynamics that may underpin chronicity and relapse. The chapter also covers brain-clearance extensions and neuroplasticity attractor dynamics. A model application guide explains how the integrated system is used, providing the foundation for the temporal and predictive models of the following chapters.
 ]
 
+#roadmap(title: [How to Use This Chapter])[
+*For patients*: little direct use; the whole-body coupling is technical, but the Energy--Immune Coupling section explains why separate symptoms travel together.
+
+*For caregivers*: little direct use; the integrated framework does not translate into care tasks.
+
+*For clinicians*: read the Symptom Generation Mechanisms, Bifurcation Analysis and Disease Subtypes, and Model Application Guide sections to see how multi-system disease produces subtypes.
+
+*For researchers*: read the full derivation from the Energy--Immune Coupling and Whole-Body Systems Model sections through the Neuroplasticity Attractor Dynamics and Brain Clearance sections.
+]
+
 #include "sec-intro/sec-intro.typ"
 
 #include "sec-01-energy-immune-coupling/sec-01-energy-immune-coupling.typ"

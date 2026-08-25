@@ -11,6 +11,16 @@ A dedicated chapter is warranted because reproductive hormones are not a side is
 
 *Structure of the chapter.* Section @sec:fra-cyclicity examines menstrual-cycle phase effects on symptoms and their physiological basis. Section @sec:fra-pregnancy covers pregnancy outcome data, obstetric management, and the postpartum window. Section @sec:fra-menopause addresses perimenopause, menopause, and early menopause. Section @sec:fra-hrt assesses hormone replacement therapy, including the estrogen–progesterone–mast-cell interaction. Section @sec:fra-endometriosis-pcos reviews endometriosis and the open question of PCOS. Section @sec:fra-synthesis assembles the reproductive-lifespan model.
 
+#roadmap(title: [How to Use This Chapter])[
+*For patients*: read the menstrual-cyclicity and perimenopause/menopause sections to understand cycle- and life-stage-linked symptom flares, and the HRT section if hormone therapy is under consideration.
+
+*For caregivers*: read the menstrual-cyclicity and pregnancy/postpartum sections to understand symptom variability and the postpartum vulnerability window. Read the structure-of-chapter mapping to navigate sections.
+
+*For clinicians*: read the pregnancy, HRT, and endometriosis/PCOS sections for management decisions, noting that HRT benefit in ME/CFS is unproven and route-dependent. The mast-cell axis is central.
+
+*For researchers*: read the synthesis (reproductive-lifespan model) and the sex-hormone interactions; these cross-link to Chapter @ch:endocrine and the female-predominance question.
+]
+
 #include "sec-01-menstrual-cyclicity/sec-01-menstrual-cyclicity.typ"
 
 #include "sec-02-pregnancy-and-postpartum/sec-02-pregnancy-and-postpartum.typ"

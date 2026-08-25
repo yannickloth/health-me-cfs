@@ -39,6 +39,16 @@ The goals are twofold. First, *completeness*: ensuring the paper does not inadve
   caption: [The 19 universal disease mechanism families and ME/CFS evidence status. Evidence levels follow @tab:evidence-levels. Order does not imply causal priority.],
 ) <tab:universal-mechanisms-overview>
 
+#roadmap(title: [How to Use This Chapter])[
+*For patients*: read the overview table to see the breadth of affected mechanisms and the family sections relevant to your symptoms (e.g., energy, immune, vascular). Each family cross-references its full chapter.
+
+*For caregivers*: read the overview table for a one-page map of the disease's systems. Individual family detail is best accessed via the cross-referenced chapters.
+
+*For clinicians*: use the overview table and each family's evidence-status line as a rapid reference; the cross-references route to the in-depth chapter for each mechanism.
+
+*For researchers*: read the full family sections for completeness — the emerging/theoretical families (protein homeostasis, cell death, purinergic) flag the least-studied mechanisms and the research-gap agenda feeding Chapter @ch:proposed-studies.
+]
+
 == Family 1: Energy and Metabolic Regulation
 <sec:um-energy>
 

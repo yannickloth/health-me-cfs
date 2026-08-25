@@ -11,6 +11,16 @@ Direct costs (medical visits, tests, medications, alternative treatments), indir
 
 == The Scale of the Problem
 
+#roadmap(title: [How to Use This Chapter])[
+*For patients*: read the sections on personal economic impact (lost income, costs) to understand the financial dimension of the illness.
+
+*For caregivers*: read the caregiver-burden and cost sections to understand the economic strain on families.
+
+*For clinicians*: read the economic-impact sections to understand the broader burden of the disease on patients and society.
+
+*For researchers*: read the cost-of-illness methodology and findings to inform health-economic research.
+]
+
 ME/CFS imposes economic costs that are systematically underestimated, because the disease itself is systematically underdiagnosed. An estimated 84--91% of U.S. patients remain undiagnosed @IOM2015 — every cost estimate in this chapter is therefore a lower bound, capturing only the visible fraction of the disease's economic footprint.
 
 #achievement(title: [The IOM 2015 Economic Benchmark])[

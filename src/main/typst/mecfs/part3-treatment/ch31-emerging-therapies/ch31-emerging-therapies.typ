@@ -5,6 +5,16 @@
 
 This chapter surveys emerging and investigational therapeutic approaches for ME/CFS identified through novel immunophenotyping, cross-disease mechanistic inference, and targeted pathway intervention. None of the therapies discussed have completed randomised controlled trials for ME/CFS; they are presented as mechanistically motivated research directions with explicit certainty ratings rather than clinical recommendations. Patient safety, particularly for severe and very-severe patients, and the need for rigorous clinical trial validation are emphasised throughout.
 
+#roadmap(title: [How to Use This Chapter])[
+*For patients*: the only immediately actionable item is the emergency PEM prevention protocol (@subsec:pem-prevention) — but it is speculative and unvalidated; discuss with your physician first. Everything else is research-stage.
+
+*For caregivers*: the PEM prevention protocol may help you prepare a crash response, but treat it as a hypothesis, not an established protocol, for a severe patient.
+
+*For clinicians*: read the sigma-1 receptor / fluvoxamine section (@sec:sigma1-fluvoxamine) and the AIMM sodium-calcium correction proposal (@sec:mdc002) as the closest to clinical consideration; the immune, B-cell, and NET-targeting sections are trial-stage only.
+
+*For researchers*: the primary audience — the immune-trafficking, costimulatory, B-cell-targeted, and NET-targeting speculations each carry a certainty rating and falsifiable prediction for hypothesis testing.
+]
+
 == Immune Trafficking Restoration
 
 Recent immunophenotyping evidence demonstrates impaired CCR7-mediated immune cell trafficking in ME/CFS, with reduced CCR7 expression on monocytes and dendritic cells, reduced dendritic cell frequency, and less coordinated immune activation patterns compared to both healthy controls and long COVID @Petrov2026monocyteDC. This section examines emerging approaches to restore immune trafficking.

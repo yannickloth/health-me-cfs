@@ -12,6 +12,15 @@ This chapter examines six major endocrine systems implicated in ME/CFS pathophys
 
 Understanding endocrine dysfunction is essential for several reasons. First, hormonal abnormalities provide measurable biomarkers for diagnosis and disease monitoring. Second, endocrine pathways mechanistically link immune activation (Chapter @ch:immune-dysfunction) to metabolic dysfunction (Chapter @ch:energy-metabolism). Third, hormonal dysregulation explains symptom patterns such as post-exertional malaise, orthostatic intolerance, and cognitive impairment that define the clinical presentation. Finally, endocrine interventions represent potential therapeutic targets, though current evidence remains mixed and requires careful evaluation.
 
+#roadmap(title: [How to Use This Chapter])[
+*For patients*: read the HPA-axis and thyroid sections to understand stress intolerance and low-energy symptoms. Women should also read the sex-hormones and menstrual-cycle sections for cycle-linked flares.
+
+*For caregivers*: read the HPA-axis and thyroid sections to understand fatigue and stress reactivity. The melatonin/circadian section explains sleep disruption.
+
+*For clinicians*: read the thyroid, insulin/glucose, and sex-hormone sections for testable abnormalities and the low-T3 pattern. The integrated endocrine-metabolic model links hormonal findings to treatment.
+
+*For researchers*: read the growth-hormone/IGF-1 and neurosteroid/menstrual sections plus the integrated model. These cross-link to Chapter @ch:integrative-models.
+]
 
 #include "sec-01-hypothalamic-pituitary-adrenal-hpa-axis/sec-01-hypothalamic-pituitary-adrenal-hpa-axis.typ"
 

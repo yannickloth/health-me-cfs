@@ -9,6 +9,16 @@ This chapter collects every research proposal scattered across the paper — ful
 
 == Sorted by Impact × Feasibility / Cost
 
+#roadmap(title: [How to Use This Chapter])[
+*For patients*: use the index's how-to-use section to see which near-term, low-cost studies are closest to yielding clinical benefit; read the full protocols via Chapter @ch:proposed-studies for the ones that interest you.
+
+*For caregivers*: skim the table's Type key to distinguish observational from interventional proposals, and note the low-cost/immediate tier for the most realistic near-term progress.
+
+*For clinicians*: review the low-cost, immediate biomarker and reanalysis proposals to anticipate diagnostics likely to reach the clinic first.
+
+*For researchers*: this chapter is a prioritization tool — read the table sorted by impact and feasibility, then follow each row's link to Chapter @ch:proposed-studies, Chapter @ch:biomarker-research, or Chapter @ch:research-infrastructure for the full protocol.
+]
+
 #figure(
   table(
     columns: (1fr, 3fr, 0.5fr, 0.5fr, 0.5fr, 0.5fr, 1fr),

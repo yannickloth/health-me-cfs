@@ -6,6 +6,15 @@
 
 Cardiovascular abnormalities are pervasive in ME/CFS and contribute substantially to disability, particularly through exercise intolerance and orthostatic symptoms. The 2024 NIH deep phenotyping study by Walitt et al.\ provided rigorous documentation of cardiopulmonary exercise testing abnormalities, including reduced peak oxygen consumption and chronotropic incompetence, establishing objective physiological correlates of the subjective exercise intolerance reported by patients @walitt2024deep.
 
+#roadmap(title: [How to Use This Chapter])[
+*For patients*: read the heart-rate and blood-pressure sections to understand orthostatic symptoms and palpitations. The post-covid section is relevant if your illness began with COVID.
+
+*For caregivers*: read the summary integrated model and the heart-rate section to understand exertion intolerance and pacing needs. The vascular section can be skimmed.
+
+*For clinicians*: read the cardiac, blood-pressure, and heart-rate sections for assessment of orthostatic intolerance, plus the coagulation/rheological section for microclot considerations. The sex-differences section informs female-specific presentations.
+
+*For researchers*: read the post-covid, mast-cell, and summary sections. These cross-link to Chapter @ch:integrative-models and the immune chapter.
+]
 
 #include "sec-01-cardiac-function/sec-01-cardiac-function.typ"
 

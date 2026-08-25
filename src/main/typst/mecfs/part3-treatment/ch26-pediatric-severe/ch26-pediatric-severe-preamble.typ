@@ -8,6 +8,16 @@ Children and adolescents with severe ME/CFS represent a particularly vulnerable 
 
 Unlike adult severe ME/CFS (Chapter @ch:urgent-action-severe), pediatric severe disease retains meaningful potential for improvement or recovery, making appropriate early intervention particularly critical. The interventions described here are designed to reduce suffering, prevent complications of prolonged bedrest, maintain developmental trajectory, and preserve the window of opportunity for recovery.
 
+#roadmap(title: [How to Use This Chapter])[
+*For patients*: written for the caregivers of housebound or bedbound children — read the home-care, bedrest-complications, and red-flags sections as your primary guidance.
+
+*For caregivers*: read the home-care, medical, family, and education sections to manage a severe child safely at home, and the red-flags section to know when urgent medical help is needed.
+
+*For clinicians*: read the subtype assessment, medical-management with pediatric dosing, and bedrest-complications sections to guide home-based care and prevent developmental regression.
+
+*For researchers*: note the explicit limitation that pediatric severe protocols extrapolate from adult disease with limited pediatric data — a gap this chapter flags but cannot close.
+]
+
 #include "key-points/key-cycle-dynamics-framework-why-pediatric-prognosis-differs.typ"
 
 #include "practical-warnings/pw-physician-collaboration-required.typ"

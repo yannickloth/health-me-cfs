@@ -17,6 +17,16 @@ For every major mechanistic hypothesis in the ME/CFS paper, this chapter traces 
 *Disclaimer:* This chapter is a constructed mechanistic framework prompted by the Gerlier skeletal asymmetry hypothesis (2026-07-21, personal communication) and extended to all major hypotheses in the paper. Drug-response logic throughout is mechanistic inference — not clinical evidence. No medication listed here should be prescribed based on this chapter alone. Certainty values are the chapter author's assessment based on the supporting evidence for each cascade link. Where not explicitly stated, default certainties apply: 0.25--0.40 for mechanistic-inference content, 0.10 for the Gerlier model (per the paper). Each section closes with a *Consequence* line summarizing practical significance and an *Origin* line identifying provenance.
 ]
 
+#roadmap(title: [How to Use This Chapter])[
+*For patients*: little direct use — this is a mechanistic framework for interpreting drug responses, not a treatment guide; if you want to understand your own response pattern, the cross-reference matrix and synthesis algorithm sections are the most readable entry points, but do not prescribe from this chapter.
+
+*For caregivers*: little direct use; the chapter informs how medications reveal which mechanism is broken, not how to give care.
+
+*For clinicians*: look up a hypothesis and follow its cascade from trigger to symptom; note which drug at which node gives the most specific diagnostic information, since each node's null response pushes the bottleneck downstream and a pattern of responses localises the lesion.
+
+*For researchers*: the primary audience — the cross-hypothesis-convergence-patterns and pathway-coverage sections show which hypotheses lack specific pharmacological probes, mapping open targets for validation.
+]
+
 #include "sec-01-ion-channel-hypotheses/sec-01-ion-channel-hypotheses.typ"
 
 #include "sec-02-mitochondrial-hypotheses/sec-02-mitochondrial-hypotheses.typ"

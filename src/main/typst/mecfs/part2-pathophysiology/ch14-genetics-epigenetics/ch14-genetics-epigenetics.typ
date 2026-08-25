@@ -9,6 +9,16 @@ Understanding genetic and epigenetic contributions illuminates why only a subset
 
 This chapter examines the genetic architecture of ME/CFS susceptibility, epigenetic modifications that may perpetuate chronic illness, and patterns of gene expression dysregulation across multiple physiological systems. Understanding these constitutional factors is essential for developing personalized therapeutic approaches, identifying at-risk individuals, and elucidating the fundamental mechanisms that distinguish those who recover from acute illness from those who progress to chronic disease.
 
+#roadmap(title: [How to Use This Chapter])[
+*For patients*: read the heritability and gene-environment sections to understand why ME/CFS is not your fault and why triggers matter. Do not interpret risk scores clinically — none is validated.
+
+*For caregivers*: read the heritability section to understand the constitutional-vulnerability framing. The GWAS detail is research-oriented and can be skimmed.
+
+*For clinicians*: read the heritability and candidate-gene sections, especially the MTHFR observation, for pharmacogenomic relevance. The GWAS loci currently have no clinical testing value.
+
+*For researchers*: read the DecodeME, Maccallini meta-GWAS, and Kerrebijn sections for the brain-first architecture, plus the computable-analyses section for untested hypotheses using existing data.
+]
+
 == Genetic Predisposition
 <sec:genetics>
 

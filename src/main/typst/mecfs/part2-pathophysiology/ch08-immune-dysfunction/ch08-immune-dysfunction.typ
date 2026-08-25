@@ -8,6 +8,15 @@ Immune abnormalities are among the most consistently documented features of ME/C
 
 As discussed in Chapter @ch:energy-metabolism, immune activation is metabolically costly and may contribute to the bioenergetic crisis in ME/CFS. The neuroinflammatory mechanisms described here connect to autonomic and cardiovascular dysfunction (Chapter @ch:cardiovascular) and neurological impairment (Chapter @ch:neurological). Understanding immune dysfunction is thus essential for a comprehensive model of ME/CFS pathophysiology. Chapter @ch:integrative-models synthesizes these cross-system connections, examining how immune dysfunction participates in self-reinforcing pathophysiological cycles (Section @sec:unifying-mechanisms).
 
+#roadmap(title: [How to Use This Chapter])[
+*For patients*: read the innate and adaptive immunity overviews, then the summary integrated model to understand why immune dysfunction drives fatigue and post-exertional symptoms.
+
+*For caregivers*: read the summary integrated model and the immune-activation section to grasp the biological basis of crashes. The immunosenescence and molecular sections can be skimmed.
+
+*For clinicians*: read the cytokines, immune-activation, and autoimmunity sections relevant to the presentation, plus the allergy/mast-cell and viral-reactivation sections for comorbid differentials. The lichen-sclerosus section is a niche marker — low priority.
+
+*For researchers*: read the emerging-research-directions and pregnancy-immunology sections, and the summary integrated model. These cross-link to Chapter @ch:integrative-models.
+]
 
 #include "sec-01-innate-immunity/sec-01-innate-immunity.typ"
 

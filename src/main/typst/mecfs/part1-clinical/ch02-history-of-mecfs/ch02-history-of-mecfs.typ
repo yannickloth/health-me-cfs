@@ -7,6 +7,16 @@
 A chronological account of ME/CFS from the 1934 Los Angeles County Hospital outbreak through the Royal Free epidemic, Incline Village cluster, the PACE trial controversy, the 2015 IOM redefinition, the 2024 NIH deep phenotyping study, and the DecodeME GWAS — tracing the evolution of medical understanding, nomenclature disputes, and the gradual shift from psychosomatic framing to biological disease recognition. *Framing alignment:* This chapter instantiates the document's declared psychosomatic-to-biological transition narrative, documents PEM's emergence as the cardinal feature through successive case definitions, and illustrates the epistemic function of patient advocacy — three of the five axes declared in the introduction's strategic framing.
 ]
 
+#roadmap(title: [How to Use This Chapter])[
+*For patients*: this chapter is optional background. Read the PACE-trial and institutional-reversals section to understand why graded exercise is no longer recommended, and the nomenclature section to see how the disease has been mislabeled.
+
+*For caregivers*: minimal direct use; this is history, not management. Read the PACE-trial section if you need to counter outdated graded-exercise advice.
+
+*For clinicians*: read the PACE-trial and NICE-2021 sections to recognize the graded-exercise harm documented after the trial, and the case-definition sections (Fukuda, Canadian Consensus) to understand which patient populations criteria select.
+
+*For researchers*: read the case-definition evolution (Holmes, Oxford, Fukuda, CCC, ICC, IOM) to grasp population-selection confounds, and the PACE-trial re-analysis as a methodological cautionary tale. The molecular-era sections frame current evidence.
+]
+
 == The Age of Outbreaks (1934–1959)
 
 The modern history of ME/CFS begins with a series of institutional cluster outbreaks documented between 1934 and 1959. Fourteen epidemics across four continents shared a remarkably consistent phenotype: acute onset with flu-like prodrome, neurological involvement (muscle weakness, sensory disturbance, cognitive dysfunction), profound and prolonged fatigue, and negative results on every standard laboratory test available at the time @Acheson1959BME. Female predominance, prolonged convalescence measured in months to years, and a tendency for healthcare workers to be overrepresented (likely reflecting exposure intensity rather than occupational susceptibility) were consistent features across all outbreaks.

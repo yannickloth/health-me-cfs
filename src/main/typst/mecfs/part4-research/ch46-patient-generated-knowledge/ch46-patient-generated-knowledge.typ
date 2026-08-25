@@ -11,6 +11,16 @@ ME/CFS has one of the most sophisticated patient-led research movements in medic
 
 == Epistemic Injustice as the Constitutive Context
 
+#roadmap(title: [How to Use This Chapter])[
+*For patients*: read the epistemic-injustice and nof1-paradigm sections to recognize dismissal as a documented phenomenon and to see how your own experimentation can contribute to knowledge production.
+
+*For caregivers*: skim the patient-initiated-biobanks and patient-reported-outcomes sections to understand the data resources patients built.
+
+*For clinicians*: read the patient-reported-outcomes and epistemic-authority sections to weigh why patient-reported measures and testimony matter for diagnostic and research validity.
+
+*For researchers*: read the epistemic-injustice framework, then the citizen-science and online-communities sections, and close with the evidence-quality and knowledge-ceiling limitations.
+]
+
 The infrastructure this chapter describes did not develop in a neutral environment. It developed in response to systematic epistemic exclusion — a context in which patients' testimony about their own bodies was routinely dismissed, and their capacity to contribute to knowledge production was denied. Understanding this context is essential to understanding why ME/CFS has produced one of the most sophisticated patient-led research movements in medicine: epistemic exclusion forced the community to build its own knowledge-production institutions.
 
 #achievement(title: [The Epistemic Injustice Framework Applied to ME/CFS])[

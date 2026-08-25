@@ -5,6 +5,16 @@
 
 The search for reliable biomarkers in ME/CFS has been a central focus of research for decades. The 2024 NIH deep phenotyping study by Walitt et al.\ represents a landmark contribution to this effort, identifying multiple objective biological abnormalities that distinguish PI-ME/CFS patients from healthy controls @walitt2024deep. This chapter reviews the current state of biomarker research, synthesizes findings across multiple biological domains, and discusses the path toward clinically useful diagnostic and prognostic markers.
 
+#roadmap(title: [How to Use This Chapter])[
+*For patients*: read the key-biomarkers-from-the-NIH section to see which objective abnormalities have been documented, and the composite-panels section for how markers may combine into a test.
+
+*For caregivers*: read the overview-of-biomarker-development and composite-panels sections to understand the state of diagnostic testing.
+
+*For clinicians*: read the biomarker sections relevant to your practice (metabolomic, immunological, neurological) and the composite-panels section to understand what testing is and is not yet available.
+
+*For researchers*: read all biomarker sections for the evidence base, the overview-of-biomarker-development for the path to validation, and the composite-panels section for multi-marker approaches.
+]
+
 #include "./overview-of-biomarker-developm/overview-of-biomarker-developm.typ"
 #include "./key-biomarkers-from-the-nih-de/key-biomarkers-from-the-nih-de.typ"
 #include "./metabolomic-biomarkers/metabolomic-biomarkers.typ"

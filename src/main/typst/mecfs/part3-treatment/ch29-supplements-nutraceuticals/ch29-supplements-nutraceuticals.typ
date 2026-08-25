@@ -17,6 +17,16 @@ Despite widespread use and biological plausibility, the supplement recommendatio
 
 ]
 
+#roadmap(title: [How to Use This Chapter])[
+*For patients*: start with the foundational electrolytes and hydration section (@sec:electrolytes) — often the single most impactful step — then the mitochondrial and energy-support section (@sec:mito-support) for the best-evidenced supplements; read the HIT-safe electrolyte notes if you have mast-cell or histamine sensitivity.
+
+*For caregivers*: use the electrolytes section to prepare a safe DIY oral-rehydration solution, and the energy-support section to help the patient budget supplement costs against the evidence.
+
+*For clinicians*: read the combination guide within @sec:mito-support for evidence-based pairing (e.g., CoQ10 + NADH) and the drug-interaction warnings; note each supplement's evidence level before recommending.
+
+*For researchers*: read the limitation block first — fewer than five supplements have ME/CFS-specific RCTs; the chapter maps the mechanism-based reasoning and related-condition evidence that needs ME/CFS-specific validation.
+]
+
 == Foundational Supplements: Electrolytes and Hydration
 <sec:electrolytes>
 

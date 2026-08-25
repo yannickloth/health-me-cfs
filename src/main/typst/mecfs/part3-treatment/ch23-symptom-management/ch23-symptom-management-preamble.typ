@@ -10,3 +10,13 @@ The approach taken here is deliberately organised by symptom domain rather than 
 
 The chapter opens with comorbidity management (Section @sec:comorbidity-management), because unaddressed comorbid conditions—mast cell activation, orthostatic intolerance, sleep disorders, and others—frequently drive symptom burden that would otherwise be attributed to ME/CFS itself, and their aggressive treatment often yields the largest gains. It then turns to the management of post-exertional malaise (Section @sec:managing-pem), the cardinal feature of the illness and the foundation on which all other treatment depends, centred on pacing and energy-envelope theory. Subsequent sections address the domains that most consistently impair function: sleep (Section @sec:sleep-management), pain (Section @sec:pain-management), cognitive dysfunction (Section @sec:cognitive-management), orthostatic intolerance (Section @sec:orthostatic-management), and the broader autonomic symptoms—thermoregulatory, gastrointestinal, and urinary—that accompany dysautonomia (Section @sec:autonomic-management). Patients with severe disease should read this chapter alongside the urgent-action protocols of Chapter @ch:urgent-action-severe, and those with mild to moderate disease alongside Chapter @ch:action-mild-moderate, which sequence these same interventions into staged treatment plans.
 
+#roadmap(title: [How to Use This Chapter])[
+*For patients*: start with comorbidity management (Section @sec:comorbidity-management), where the largest symptom gains often lie, then post-exertional malaise and pacing (Section @sec:managing-pem). Read only the domain section that most impairs you: sleep @sec:sleep-management, pain @sec:pain-management, cognition @sec:cognitive-management, orthostatic @sec:orthostatic-management, or autonomic @sec:autonomic-management.
+
+*For caregivers*: read @sec:managing-pem to understand how to protect the patient's energy envelope on their behalf, and use the symptom-domain sections to reduce distress during crashes.
+
+*For clinicians*: read every domain section for the pairing of non-pharmacological and pharmacological options with their evidence strength, then sequence these interventions with Chapter @ch:urgent-action-severe for severe patients or Chapter @ch:action-mild-moderate for mild-to-moderate patients.
+
+*For researchers*: note each section's explicit evidence limitations — much guidance rests on clinical experience and extrapolation from related conditions rather than ME/CFS-specific trials.
+]
+

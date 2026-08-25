@@ -9,6 +9,16 @@ Why ME/CFS research is methodologically hard: case definition heterogeneity, lac
 
 ME/CFS research faces a unique constellation of methodological challenges that collectively undermine replicability. This chapter examines eight interlocking problems, provides evidence-based guidance for evaluating the existing literature, and recommends standards for future research design. Each section is self-contained — a reader interested in a specific methodological issue can read the relevant section without needing the others — but the cross-cutting synthesis at the end argues that the problems are mutually reinforcing and require systemic solutions.
 
+#roadmap(title: [How to Use This Chapter])[
+*For patients*: read the section on how to evaluate study quality to judge claims you read online or in the news. Skim the methodological detail.
+
+*For caregivers*: read the study-quality section to understand why some treatments lack solid evidence. The technical methods can be skimmed.
+
+*For clinicians*: read the sections on trial design, outcome measures, and evidence grading to judge the quality of treatment studies you may rely on.
+
+*For researchers*: read the full methodological framework — it establishes the conventions used to evaluate every study cited across this book.
+]
+
 #include "./case-definition-heterogeneity/case-definition-heterogeneity.typ"
 #include "./pem-selection-bias/pem-selection-bias.typ"
 #include "./2day-cpet-reliability/2day-cpet-reliability.typ"
