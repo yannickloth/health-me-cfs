@@ -1,5 +1,5 @@
 #import "../shared/front-matter.typ": doc-part
-#import "../shared/environments.typ": note-env
+#import "../shared/environments.typ": note-env, roadmap
 
 #doc-part([Research and Evidence Synthesis])[
 This part provides comprehensive coverage of ME/CFS research, synthesizing findings from clinical trials, observational studies, and experimental research. For each major study, we provide:
@@ -19,4 +19,12 @@ This part operationalizes the *trigger-capable root causes, amplifiers, and down
 ]
 
 For reference tables consolidating this part's evidence base by domain, and for annotated paper-by-paper literature summaries, see Appendix G (@app:research-synthesis) and Appendix H (@app:annotated-bibliography).
+
+#roadmap(title: [Navigating This Part])[
+- *Who this is for*: researchers, clinicians, and patients who want the evidence base behind the mechanisms and treatments in Parts II–III.
+- *Start here*: Chapter @ch:research-methods-mecfs for how ME/CFS research is evaluated, then Chapter @ch:clinical-trials for the highest-tier evidence.
+- *Recommended order*: read the domain chapters (Chapters @ch:biomarker-research, @ch:mechanistic-studies, @ch:epidemiology-outcomes) as needed; they are independent lookups.
+- *Skip guidance*: Chapter @ch:healthcare-systems-policy, Chapter @ch:economic-impact, and Chapter @ch:global-perspectives are health-policy context; skip for pure mechanism/evidence questions. Chapter @ch:patient-generated-knowledge covers patient-reported and community evidence.
+- *End with*: the Hypothesis and Speculation Registry (@sec:hypothesis-speculation-registry) and Chapter @ch:proposed-studies, which translate everything into testable study designs.
+]
 ] <part:research>

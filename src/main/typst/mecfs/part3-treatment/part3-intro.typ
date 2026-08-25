@@ -1,4 +1,5 @@
 #import "../shared/front-matter.typ": doc-part
+#import "../shared/environments.typ": roadmap
 
 #doc-part([Treatment and Management])[
 This part comprehensively covers interventions for ME/CFS, including:
@@ -13,4 +14,13 @@ This part comprehensively covers interventions for ME/CFS, including:
 Evidence levels are indicated throughout, distinguishing between well-supported interventions and those with preliminary or anecdotal support.
 
 The part opens with the reference chapters (mechanism–treatment map and symptom management), then the severity-specific protocols and pediatric chapters, and finally the intervention-type chapters. Severity is ordered most-severe-first (Chapter @ch:urgent-action-severe before Chapter @ch:action-mild-moderate) because the highest-risk patients require the most immediate attention.
+
+#roadmap(title: [Navigating This Part])[
+- *Who this is for*: patients, caregivers, and clinicians selecting interventions.
+- *Start here*: Chapter @ch:mechanism-treatment-map — it is the navigational entry point that maps mechanisms to treatments. Then Chapter @ch:symptom-management for symptom-level guidance.
+- *Recommended order*: follow severity — Chapter @ch:urgent-action-severe (high-risk patients) before Chapter @ch:action-mild-moderate. The pediatric chapters (@ch:pediatric-severe, @ch:pediatric-ambulatory) apply to children only.
+- *Skip guidance*: the brain-clearance proposal chapters are a specialized supplement thread; skip unless a glymphatic/clearance angle is relevant.
+- *Prerequisites*: the causal tiers referenced here come from Part II, Chapter @ch:causal-hierarchy.
+- *Continue to*: Part IV reviews the evidence behind these interventions.
+]
 ] <part:treatment>

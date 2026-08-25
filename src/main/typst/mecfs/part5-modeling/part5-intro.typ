@@ -1,5 +1,5 @@
 #import "../shared/front-matter.typ": doc-part
-#import "../shared/environments.typ": note-env
+#import "../shared/environments.typ": note-env, roadmap
 
 #doc-part([Mathematical and Computational Modeling])[
 This part presents mathematical and computational models of ME/CFS pathophysiology, including:
@@ -15,5 +15,13 @@ These models synthesize biological understanding into quantitative frameworks th
 
 #note-env(title: [Causal-Hierarchy Thread Concludes])[
 This part formally tests the *trigger-capable root causes, amplifiers, and downstream consequences* first classified qualitatively in Part II (Chapter @ch:causal-hierarchy) and catalogued as hypotheses in Part IV (Chapter @sec:hypothesis-speculation-registry, Chapter @ch:proposed-studies). Chapter @ch:causal-hierarchy-formal closes the thread.
+]
+
+#roadmap(title: [Navigating This Part])[
+- *Who this is for*: readers comfortable with mathematics and systems modeling; clinicians and patients can read Chapter @ch:causal-hierarchy-formal for the conclusions without the derivation detail.
+- *Start here*: Chapter @ch:modeling-foundations introduces the modeling conventions. Then read the domain models in any order.
+- *Recommended order*: Chapters @ch:energy-metabolism-models, @ch:immune-system-models, and @ch:neuroendocrine-models build the sub-system models; Chapter @ch:integrated-systems couples them; Chapter @ch:temporal-evolution adds time; Chapter @ch:predictive-applications applies them.
+- *Skip guidance*: skip the mathematical derivation chapters if you only need the qualitative conclusions in Chapter @ch:causal-hierarchy-formal.
+- *Prerequisites*: the mechanisms modeled here come from Part II.
 ]
 ] <part:modeling>

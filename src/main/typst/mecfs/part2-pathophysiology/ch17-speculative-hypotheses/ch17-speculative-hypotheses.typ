@@ -11,6 +11,14 @@ This chapter presents speculative hypotheses about ME/CFS pathogenesis that emer
 
 These hypotheses are offered in the spirit of scientific brainstorming: to stimulate new research directions, generate testable predictions, and potentially identify overlooked connections. They should be evaluated by their ability to generate novel experiments and explain otherwise puzzling observations, not treated as established fact.
 
+#roadmap(title: [Navigating This Chapter])[
+- *In this chapter*: speculative, not-yet-validated mechanisms for ME/CFS pathogenesis, presented as testable hypotheses rather than established fact.
+- *Who this is for*: researchers seeking new directions; clinicians and patients should read the certainty caveats and treat claims as exploratory.
+- *Order*: read the introductory framing, then the hypotheses grouped in the sections that follow.
+- *Skip guidance*: this chapter is optional on a first reading of the pathophysiology; return when researching novel mechanisms.
+- *Continue to*: Chapter @ch:causal-hierarchy ranks these as triggers vs. amplifiers; Chapter @ch:proposed-studies turns them into testable designs.
+]
+
 Each hypothesis in this chapter, along with hypotheses from other chapters throughout the paper, is catalogued in structured form in the Hypothesis and Speculation Registry (@sec:hypothesis-speculation-registry), where each entry is assigned an explicit certainty score, testable prediction, treatment implication, and known limitation. The registry serves as the bridge between speculative mechanism and testable study — the research protocols in Chapter @ch:proposed-studies are designed to test hypotheses drawn from both this chapter and the registry.
 
 The hypotheses developed here feed into several chapters downstream:

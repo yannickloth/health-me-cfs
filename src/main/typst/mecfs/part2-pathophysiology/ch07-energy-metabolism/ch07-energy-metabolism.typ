@@ -8,6 +8,13 @@
 Energy production impairment is a central feature of ME/CFS pathophysiology and likely underlies the characteristic fatigue and post-exertional malaise that define the illness. This chapter approaches cellular energy metabolism as a ten-step chain from substrate delivery to ATP utilization, asking at each step what normally happens, how much ATP is produced or gated, what has been documented in ME/CFS, what failure modes have been observed or mechanistically predicted, and what remains uninvestigated. The 2024 NIH deep phenotyping study by Walitt et al.\ @walitt2024deep provides important metabolomic data from cerebrospinal fluid analysis, linking energy metabolism dysfunction to neurological symptoms, and frames the chapter's relevance to Chapter @ch:integrative-models. Four integrative hypotheses connecting multiple steps are developed in the final section.
 ]
 
+#roadmap(title: [Navigating This Chapter])[
+- *In this chapter*: the ten-step energy-production chain from substrate delivery to ATP utilization, with failure modes and hypotheses at each step.
+- *Who this is for*: readers seeking the mechanism most central to ME/CFS fatigue; also a primer for Part V's energy models.
+- *Order*: read the ten steps (sections 1–11) in sequence, then the summary of uninvestigated failure modes (section 12) and integrative reference tables (section 13).
+- *Skip guidance*: sections 14–15 (cross-cutting mechanisms and hypotheses) can be skimmed; they recur in Chapter @ch:integrative-models.
+- *Continue to*: Chapter @ch:immune-dysfunction for the next system, or Chapter @ch:integrative-models for how the steps combine.
+]
 
 #include "sec-01-the-energy-chain-ten-steps-from-substrate-to-atp/sec-01-the-energy-chain-ten-steps-from-substrate-to-atp.typ"
 
