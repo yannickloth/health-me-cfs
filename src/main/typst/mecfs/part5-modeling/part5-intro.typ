@@ -17,7 +17,7 @@ These models synthesize biological understanding into quantitative frameworks th
 This part formally tests the *trigger-capable root causes, amplifiers, and downstream consequences* first classified qualitatively in Part II (Chapter @ch:causal-hierarchy) and catalogued as hypotheses in Part IV (Chapter @sec:hypothesis-speculation-registry, Chapter @ch:proposed-studies). Chapter @ch:causal-hierarchy-formal closes the thread.
 ]
 
-#roadmap(title: [How to Use This Part])[
+#roadmap(title: [How to Use This Part], label: [Part Roadmap])[
 *For patients*: read only Chapter @ch:causal-hierarchy-formal for the qualitative conclusions of the formal models; the derivation detail requires mathematics. Read it with the understanding that these are model predictions, not proof.
 
 *For caregivers*: this part is mathematical modeling and has little direct caregiver use. The qualitative conclusions in Chapter @ch:causal-hierarchy-formal are the only section likely relevant.

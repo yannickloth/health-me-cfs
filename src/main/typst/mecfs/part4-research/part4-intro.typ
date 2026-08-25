@@ -20,7 +20,7 @@ This part operationalizes the *trigger-capable root causes, amplifiers, and down
 
 For reference tables consolidating this part's evidence base by domain, and for annotated paper-by-paper literature summaries, see Appendix G (@app:research-synthesis) and Appendix H (@app:annotated-bibliography).
 
-#roadmap(title: [How to Use This Part])[
+#roadmap(title: [How to Use This Part], label: [Part Roadmap])[
 *For patients*: read Chapter @ch:controversies to understand contested claims, and Chapter @ch:patient-generated-knowledge for community and patient-reported evidence. The clinical-trial chapters may be heavy; use the evidence level markers rather than full methodology.
 
 *For caregivers*: this part is largely research-methods focused and has limited direct caregiver use; read Chapter @ch:controversies to understand what is and is not settled about the illness.

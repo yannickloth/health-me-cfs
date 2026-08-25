@@ -1,6 +1,6 @@
 #import "../../../shared/environments.typ": *
 
-#key-point(title: [How to Use This Chapter])[
+#key-point(title: [Reading the Mechanism–Treatment Map])[
 *For clinicians and patients*, this chapter functions as a diagnostic checklist. The overview table below (@tab:mechanism-overview) shows all mechanisms at a glance with their tier, treatment priority, and coverage count. For each active mechanism, proceed to the corresponding section for the full treatment list. Guidance on how to assess which mechanisms are active in a given patient is in Chapter @ch:integrative-treatment (phenotyping protocol, Section @sec:phenotyping-imperative).
 
 *For navigation*, each treatment listed links to the chapter where it is discussed in full. Evidence levels and energy categories (A/B/C) are defined in Chapter @ch:integrative-treatment.

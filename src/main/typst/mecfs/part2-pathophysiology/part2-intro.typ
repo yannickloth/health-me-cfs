@@ -16,7 +16,7 @@ Understanding these mechanisms is crucial for developing targeted treatments and
 This part establishes the *trigger-capable root causes, amplifiers, and downstream consequences* qualitatively. The thread continues in Part IV, where Chapter @sec:hypothesis-speculation-registry records each hypothesis and Chapter @ch:proposed-studies turns them into study designs, and culminates in Part V, where Chapter @ch:causal-hierarchy-formal tests the classification with the formal ODE model.
 ]
 
-#roadmap(title: [How to Use This Part])[
+#roadmap(title: [How to Use This Part], label: [Part Roadmap])[
 *For patients*: read Chapter @ch:energy-metabolism for why exertion causes the characteristic crash, and Chapter @ch:symptom-mechanisms for how symptoms arise. Chapter @ch:causal-hierarchy explains why treatment targeting root causes may help. Skim the other system chapters as your symptoms dictate.
 
 *For caregivers*: read Chapter @ch:energy-metabolism to understand the energy limits that drive pacing, and Chapter @ch:symptom-mechanisms to understand symptom variability. You can skip the deeper biochemistry chapters; the summaries suffice.

@@ -15,7 +15,7 @@ Evidence levels are indicated throughout, distinguishing between well-supported 
 
 The part opens with the reference chapters (mechanism–treatment map and symptom management), then the severity-specific protocols and pediatric chapters, and finally the intervention-type chapters. Severity is ordered most-severe-first (Chapter @ch:urgent-action-severe before Chapter @ch:action-mild-moderate) because the highest-risk patients require the most immediate attention.
 
-#roadmap(title: [How to Use This Part])[
+#roadmap(title: [How to Use This Part], label: [Part Roadmap])[
 *For patients*: read Chapter @ch:action-mild-moderate for intervention planning within your energy envelope, then the intervention-type chapters relevant to you (medications, supplements, lifestyle). Read Chapter @ch:urgent-action-severe only if it applies to your severity.
 
 *For caregivers*: read Chapter @ch:urgent-action-severe to recognize when a patient needs urgent attention, and Chapter @ch:symptom-management for day-to-day intervention support. The pediatric chapters (@ch:pediatric-severe, @ch:pediatric-ambulatory) apply to children.

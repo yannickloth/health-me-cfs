@@ -6,7 +6,7 @@ This part provides a comprehensive clinical picture of myalgic encephalomyelitis
 
 Understanding the clinical manifestations is essential for accurate diagnosis, effective communication between patients and healthcare providers, and appropriate disease management.
 
-#roadmap(title: [How to Use This Part])[
+#roadmap(title: [How to Use This Part], label: [Part Roadmap])[
 *For patients*: read Chapter @ch:core-symptoms to understand the defining symptoms and Chapter @ch:diagnostic-criteria to know what a diagnosis means. Skim Chapter @ch:disease-course for what to expect over time. You can skip Chapter @ch:history-of-mecfs.
 
 *For caregivers*: read Chapter @ch:core-symptoms and Chapter @ch:additional-symptoms to recognize the full range of symptoms, and Chapter @ch:disease-course to understand fluctuating severity. Chapter @ch:history-of-mecfs is optional background.
