@@ -158,7 +158,7 @@ final class RegexConversion implements TypstToQmd {
         src = encloseEnv(src, "continuation",           "note",     "Continued",        "");
         src = encloseEnv(src, "remark",                 "note",     "Remark",           "");
         src = encloseEnv(src, "direction",              "note",     "Research Direction","env-direction");
-        src = encloseEnv(src, "roadmap",                "note",     "Chapter Roadmap",  "");
+        src = encloseRoadmap(src);
         src = encloseEnv(src, "proposition",            "note",     "Proposition",      "");
         src = encloseEnv(src, "assumption-unnumbered",  "note",     "Assumption",       "");
         src = encloseEnv(src, "assumption",             "note",     "Assumption",       "");
@@ -608,7 +608,7 @@ final class RegexConversion implements TypstToQmd {
     static String convertPartBody(String body) {
         var conv = new RegexConversion();
         body = body.replaceAll("@(ch|sec|subsec|subsubsec|fig|tab|eq|app)(:|_|-)([a-zA-Z0-9_-]+)", "@$1-$3");
-        body = conv.encloseEnv(body, "roadmap",       "note", "Chapter Roadmap",  "");
+        body = conv.encloseRoadmap(body);
         body = conv.encloseEnv(body, "note-env",      "note", "Note",             "");
         body = conv.encloseEnv(body, "continuation",  "note", "Continued",        "");
         body = conv.encloseEnv(body, "key-point",     "tip",  "Key Point",        "env-key-point");
@@ -680,6 +680,30 @@ final class RegexConversion implements TypstToQmd {
         while (m.find()) {
             var title = m.group(1);
             m.appendReplacement(sb, "\n\n::: {.callout-" + quartoKind + classAttr + "}\n### " + displayName + ": " + Matcher.quoteReplacement(title) + "\n\n");
+        }
+        m.appendTail(sb);
+        var out = sb.toString();
+        out = out.replaceAll("(?m)^\\]$", ":::\n");
+        out = out.replaceAll("(?m)^\\] (<[a-z][\\w:\\.-]*>)$", ":::\n$1");
+        out = out.replaceAll("(?m)^\\](?!\\)\\[).*$", "");
+        return out;
+    }
+
+    // Enclose a `#roadmap(title: [...] )[...]` or
+    // `#roadmap(title: [...], label: [...])[...]` call as a Quarto callout. The
+    // `label` argument overrides the default heading word ("Chapter Roadmap" on
+    // chapters, "Part Roadmap" on part landing pages). `label` comes first in the
+    // arg list, so match `title:[...], label:[...]` (label after title) or just
+    // `title:[...]`.
+    String encloseRoadmap(String s) {
+        var p = Pattern.compile("#roadmap\\(title:\\s*\\[(.*?)\\](?:,\\s*label:\\s*\\[(.*?)\\])?\\)\\[", Pattern.DOTALL);
+        var m = p.matcher(s);
+        var sb = new StringBuffer();
+        while (m.find()) {
+            var title = m.group(1);
+            var label = m.group(2) != null && !m.group(2).isBlank()
+                ? m.group(2) : "Chapter Roadmap";
+            m.appendReplacement(sb, "\n\n::: {.callout-note}\n### " + Matcher.quoteReplacement(label) + ": " + Matcher.quoteReplacement(title) + "\n\n");
         }
         m.appendTail(sb);
         var out = sb.toString();

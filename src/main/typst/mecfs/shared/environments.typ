@@ -638,11 +638,14 @@
 }
 
 // --- Roadmap (solid, hypothesis palette) ------------------------------------
-#let roadmap(title: none, body) = {
+// `label` is the visible heading word, e.g. "Chapter Roadmap" on chapter
+// landing pages or "Part Roadmap" on part landing pages. `fig-kind` is fixed
+// to "roadmap" so web translation and figure handling stay uniform.
+#let roadmap(title: none, label: "Chapter Roadmap", body) = {
   _callout(color.hypothesis-frame, color.hypothesis-bg,
     fig-kind: "roadmap",
     fig-supplement: [Roadmap],
-    "", "Chapter Roadmap", body, title: title, style: "solid")
+    "", label, body, title: title, style: "solid")
 }
 
 // =============================================================================
