@@ -1,0 +1,110 @@
+date: 2026-08-26
+
+sleep:
+  previous_night:
+    date: 2026-08-25
+    quality: ~
+    notes: "Not logged in detail. See ongoing sleep-debt context."
+    source: patient_report
+    disruption_cause: ~
+
+medications_supplements:
+  prescribed_medications:
+    - "Aripiprazole (LDA) 1mg/day active"
+    - "Rupatadine 10mg ×3/day active"
+    - "Famotidine 20mg ×1/day active"
+    - "Montelukast 10mg ×1/day active"
+    - "Mestinon 10mg ×1/day active (time-boxed low-dose retrial)"
+    - "LDN 4mg ×1/day active"
+    - "Ritalin MR 10mg intermittent (every few days)"
+  supplements:
+    - "L-Carnitine (Biotary) 750mg ×2/day — INCREASED to ×4/day starting today (2026-08-26)"
+  notes: "Regimen per patient update 2026-08-26. Modafinil no longer in current regimen. L-Carnitine dose increased today to 4×/day."
+
+watch_energy_reading:
+  timestamp: "2026-08-26 ~11:00"   # local time of reading — REQUIRED to interpret the % (36% at 11:00 ≠ 36% at 20:00)
+  device: "Vivoactiv 6"
+  energy_pct: 36
+  reference_note: >
+    To make this value interpretable, record the time of each reading and,
+    if possible, the patient's typical energy % at the same time of day on a
+    normal day. A morning value is a stronger signal than an evening one,
+    because evening values drop for everyone.
+
+symptoms:
+  fatigue:
+    severity: high
+    notes: >
+      Feels very tired now (2026-08-26, after Auchan trip). Watch device
+      (Vivoactiv 6) shows energy level at 36% at ~11:00 this morning.
+  muscle_pain:
+    severity: present
+    location: ["legs", "diffuse muscle pain", "near knees"]
+    character: "diffuse muscle pain (douleurs musculaires diffuses), also close to the knees"
+    trigger: "Auchan shopping trip (Mont-Saint-Martin) today"
+    chronicity: "acute after today's trip"
+    symmetry: "legs / near knees"
+    notes: >
+      Leg muscle pain after the Auchan Mont-Saint-Martin trip. Diffuse
+      muscle pain, also near the knees. Distinct from the spontaneous-cramp
+      layer and from the chronic forearm vascular pain; appears to be a
+      post-exertional / exertion-linked muscle symptom following the trip.
+  muscle_cramp:
+    severity: ~
+    notes: "Not reported for this episode."
+  overall:
+    severity: high
+    notes: "Very tired + leg muscle pain after Auchan trip; wearable energy at 36%."
+
+overall_wellbeing: ~
+
+activity:
+  activity_level:
+    - description: "Auchan shopping trip — Mont-Saint-Martin"
+      exertion_level: moderate
+      time_of_day: "morning (trip); energy reading ~11:00"
+      notes: >
+        Shopping trip (walking, standing, browsing). Followed by leg muscle
+        pain (diffuse, near knees) and marked fatigue. Watch (Vivoactiv 6)
+        energy level at 36% at ~11:00 (morning value — compare against the
+        patient's typical morning % on a normal day).
+  unable_to_rest: ~
+  notes: "Auchan trip Mont-Saint-Martin; post-trip leg pain + high fatigue."
+
+pem_tracking:
+  trigger_event: "Auchan shopping trip (Mont-Saint-Martin) 2026-08-26"
+  pem_day: ~
+  status: >
+    Post-trip leg muscle pain + very tired. Watch energy 36%. Monitor for
+    PEM onset following the trip (delayed crash possible next day).
+  notes: "Track fatigue/PEM over coming days following the Auchan trip."
+
+pem_risk:
+  level: high
+  rationale: "Auchan trip (sustained upright activity + shopping) — historically a PEM trigger for this patient (see events/2026-02-18_auchan-shopping-trigger.md). Leg pain + marked fatigue already present today."
+  expected_onset: ~
+  monitoring: "Track fatigue/PEM 2026-08-26 → 2026-08-28."
+
+hypotheses:
+  - id: auchan_trip_pem_trigger
+    text: >
+      The Auchan trip (Mont-Saint-Martin) triggered leg muscle pain (diffuse,
+      near knees) + marked fatigue on 2026-08-26, with watch energy at 36%.
+      This resembles the 2026-02-18 Auchan PEM-trigger pattern (sustained
+      upright activity exceeding envelope). Elevated PEM risk over the coming
+      days.
+    status: patient_hypothesis
+    falsifiable: true
+    test: "Monitor next-day (2026-08-27): if fatigue/functional drop persists or worsens after normal rest, confirms PEM. If resolves overnight, it was transient post-exertional fatigue rather than full PEM."
+
+weather:
+  location: "Mont-Saint-Martin / Messancy, Belgium"
+  temperature_mean_c: ~
+  temperature_max_c: ~
+  temperature_min_c: ~
+  humidity_pct: ~
+  pressure_msl_hpa: ~
+  precipitation_mm: ~
+  wind_max_kmh: ~
+  conditions: ~
+  source: ~
