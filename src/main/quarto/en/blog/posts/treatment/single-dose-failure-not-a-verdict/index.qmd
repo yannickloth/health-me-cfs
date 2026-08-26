@@ -1,0 +1,224 @@
+---
+title: "A Single Dose Failure Is Not a Verdict — Why One Null Dose Does Not Rule Out the Others"
+description: "\"If 4 mg of LDN doesn't work, 1 mg won't either.\" This inference rests on an unstated assumption: that a higher dose reproduces all the effects of lower doses. For a drug that hits multiple targets at different concentrations, that assumption is false — and it can wrongly rule out a therapeutic dose."
+author: "Yannick Loth"
+date: "2026-08-26"
+categories: [Treatment, Pharmacology, ME/CFS]
+lang: en
+---
+
+You tried LDN at 4 mg for six months. No benefit. You bring this result to your doctor and ask to try a lower dose — 1 mg, say. He shrugs: "If 4 mg does nothing, 1 mg will do nothing either. The greater contains the lesser."
+
+It is the commonplace reasoning that a greater result must contain a lesser one — applied to pharmacology. It sounds reasonable. It is wrong for LDN.
+
+This article explains why. Not by contradicting the doctor, but by showing what his inference silently assumes, and why that assumption does not hold when a drug hits multiple targets at different concentrations.
+
+---
+
+## The inference rests on an unstated assumption
+
+The argument "if 4 mg doesn't work, then 1 mg won't work" is only valid if one condition holds:
+
+> **The superset hypothesis:** the effects of a lower dose are a subset of the effects of a higher dose.
+
+If that is so, then testing the highest dose tests *every* dose. A failure at the high dose is a failure at all of them. The inference is clean, simple, and saves multiple trials.
+
+The problem: this hypothesis is only true for a drug that hits **a single target** with a **monotonic dose-response curve**. LDN is neither.
+
+---
+
+## The chemistry: why a higher dose is not a bigger dose
+
+The superset assumption treats a dose as a volume knob — more drug, more of the same effect. But LDN is a hormetic, multi-target drug, and that changes everything.
+
+### What hormesis is
+
+Hormesis is a specific biological phenomenon, not a slogan: a low-level stressor triggers a *compensatory adaptive response* that is larger than the stressor itself. The classic case is the Keap1-Nrf2-ARE pathway. Under baseline conditions, the protein Keap1 binds the transcription factor Nrf2 and targets it for degradation. When a mild oxidative or inflammatory stress arrives — here, partial blockade of the microglial receptor TLR4 — reactive cysteine residues on Keap1 are modified, Nrf2 is released, translocates to the nucleus, and switches on a large battery of anti-inflammatory and antioxidant genes (hundreds, per the Nrf2/ARE literature). The *benefit is the cell's own adaptive program*, not the drug's direct action. This is the Calabrese hormesis corpus, applied to LDN dosing [@Calabrese2021Nrf2].
+
+Two things follow from the chemistry:
+
+- **Too little drug** fails to modify enough Keap1 — the signal never fires, Nrf2 stays bound, no benefit.
+- **Too much drug** extinguishes the very stress signal that released Nrf2. At 0.5–1.5 mg, TLR4 is only *partially* blocked, so the microglia still sense the signal and mount the Nrf2 response. Above that window, TLR4 is blocked too completely — the cell no longer detects any stress, Nrf2 stays bound to Keap1, and the anti-inflammatory program collapses. The drug is still binding its receptor; it has simply stopped producing the adaptive response that made it therapeutic.
+
+So hormesis is the *opposite* of the superset model: there is a window, and pushing past it does not give you more — it switches the benefit off.
+
+### The four targets, and the doses at which each engages
+
+LDN binds at least four distinct molecular targets, and they engage at **different dose bands**. The paper's dose-band map (`ch33`, hormetic reference) is:
+
+| Dose band | Benefit mechanism | Observed side-effect |
+|-----------|-------------------|---------------------|
+| 0.25–0.5 mg | Micro-dose probe; may be below the Nrf2 trigger threshold | transient sleep disruption (opioid engagement) |
+| 0.5–1.5 mg | **TLR4/Nrf2 hormetic priming** — anti-inflammatory benefit | "wired" / restless arousal |
+| 1.5–3.0 mg | **Opioid upregulation** plateaus; benefit preserved | — |
+| 3.0–4.5 mg | **TRPM3 restoration** — first-time benefit appears here; TLR4/Nrf2 extinguished | pronounced wakefulness / insomnia |
+| >4.5 mg | none — all mechanisms past their optima; mu-opioid antagonism at 50 mg | opioid-withdrawal-like symptoms |
+
+The four mechanisms, in their chemistry:
+
+- **TLR4/Nrf2 (0.5–1.5 mg).** Naltrexone is a partial TLR4 antagonist on microglia — the brain's resident immune cells. TLR4 is a danger sensor; when chronically activated, microglia release IL-1β and TNF-α, producing fatigue, cognitive slowing, and pain sensitivity. Partial blockade triggers the Nrf2-driven M1→M2 microglial switch described above. The TLR4 antagonism itself is established in vitro [@Younger2013]; the neuroinflammation it calms is documented in ME/CFS.
+
+- **Opioid / endorphin (1.5–3.0 mg).** At standard doses (50 mg), naltrexone fully blocks opioid receptors. At low doses, the *brief* overnight blockade triggers a compensatory upregulation of endogenous endorphins — the body over-produces its own painkillers in response to the transient blockade. The ceiling is set by the cell's rate of precursor synthesis, not by drug dose — hence a plateau, not an escalation. This endorphin-rebound is documented in pain conditions [@Younger2013].
+
+- **TRPM3 (3.0–4.5 mg).** TRPM3 is a calcium channel; calcium is the universal cellular "on switch." TRPM3 dysfunction is the most replicated ion-channel finding in ME/CFS, documented across six independent NK-cell studies [@Cabanas2021]. Naltrexone restores TRPM3-mediated calcium flux in ME/CFS NK cells in vitro [@Cabanas2018trpm3] — but this is single-concentration in vitro data, and whether it happens in living neurons, vessels, and muscle is unproven.
+
+- **Orexin (potential benefit at high band; side-effect when it overshoots).** Naltrexone reduces microglial inflammation in the hypothalamus; that inflammation suppresses the orexin (hypocretin) wakefulness neurons. As the brake is lifted, orexin neurons fire more. The paper treats this as a potential *benefit* mechanism (improved wakefulness and cognition) — but it can tip into a "wired"/restless-arousal side effect at low dose and pronounced wakefulness/insomnia at high dose when it overshoots. The inflammation→orexin-suppression link is documented in animal models [@Grossberg2011orexinLethargy], and orexin is reduced in ME/CFS CSF — but no study has measured orexin before/after LDN in ME/CFS.
+
+---
+
+## What is established science, and what is a proposed model
+
+This is the point where I must separate two very different things: the **established science** that the superset-failure argument rests on, and a **mathematical model I propose** to make that argument precise. The former is published, replicated, and citable. The latter is a hypothesis — my own construction — and I will label it as such.
+
+---
+
+## Part A — The established science
+
+### A1. The empirical pattern of hormesis is real
+
+The biphasic (inverted-U / J-shaped) dose-response — low-dose stimulation, high-dose inhibition — is documented across a large number of biological systems, in the compilation known as the Calabrese corpus [@Calabrese2021Nrf2; @Sun2020yinYangHormesis]. The *pattern* is an empirical observation, not a hypothesis. What is less settled is whether it is truly the "default" response (Calabrese's claim) versus the exception — that debate is live [@CalabreseBaldwin2003toxicologyRethinks].
+
+### A2. The mechanism of one hormetic arm is established: Keap1-Nrf2
+
+For the Nrf2 cluster, the mechanism of the *rising* (low-dose benefit) arm is well characterized. Keap1 holds the transcription factor Nrf2 for degradation; a mild oxidative or inflammatory stress modifies Keap1's cysteine residues, releasing Nrf2 to upregulate a broad antioxidant/anti-inflammatory gene program (hundreds of genes, per the Nrf2/ARE literature). This is established redox biology, and Nrf2 activation is the proposed generalized mediator of hormetic dose-responses [@Calabrese2021Nrf2].
+
+### A3. The Hill equation is the established language of occupancy
+
+The fraction of receptors occupied by a drug of dose $D$ and dissociation constant $K_d$ is the Hill function
+
+$$ f(c) = \frac{c^n}{c^n + 1}, \qquad c = D/K_d $$
+
+where $n$ is the Hill coefficient. This is foundational, textbook pharmacodynamics (Hill, 1910). It is the *rising* arm: occupancy rises monotonically with dose. **On its own it produces a monotonic curve — it cannot produce an inverted-U.** That is an important established fact: the inverted-U requires something beyond single-receptor occupancy.
+
+### A4. Published mathematical treatments of hormesis exist, but there is no single canonical equation
+
+The field has produced several explicit mathematical formalizations of the hormetic curve, but **no one model is accepted as "the" hormesis equation**:
+
+- **Nweke et al. 2022** provide a statistical *bilogistic* functional form for inverted-U dose-response, reparameterized to estimate the hormetic quantity (peak stimulation, dose at peak, window width) [@Nweke2022bilogisticHormesis].
+- **Xiao et al. 2022** build a dynamical (ODE) model of anti-tumor dose-response that generates non-monotonic regimes from coupled cell-population and drug-target dynamics [@Xiao2022antiTumorDoseResponse].
+- **Sun et al. 2018** propose a "swinging seesaw" mechanism for *time-dependent* hormesis, where stimulatory and inhibitory effects integrate across dose and time [@Sun2018SeesawHormesis].
+
+All three are real, published models — but they are *fits or mechanisms for specific systems*, none is a validated mechanistic model of LDN/TLR4/Nrf2 hormesis specifically. **There is no accepted published equation for the LDN hormetic window.** The empirical pattern is established; the equation is not.
+
+---
+
+## Part B — A proposed model (hypothesis, not established science)
+
+I now propose a specific mathematical form. **This is my construction — a working hypothesis to make the superset-failure argument precise — and it is explicitly NOT established science.** It is not in the literature, it has not been validated, and its parameters are not measured. I present it for what it is: a scaffold.
+
+### B1. Two arms: occupancy (rising) and residual tone (falling)
+
+Hormetic benefit is not receptor occupancy itself. It is the cell's **compensatory adaptive response to a partial perturbation** — and a compensatory response requires that some *residual unblocked signal* remain to sustain it. Define:
+
+$$ f(c) = \frac{c^n}{c^n+1} \quad\text{(occupancy, rising)}, \qquad r(c) = 1 - f(c) = \frac{1}{c^n+1} \quad\text{(residual tone, falling)} $$
+
+For LDN's TLR4/Nrf2 mechanism, the biological claim is: partial blockade (intermediate $f$) primes the microglial Nrf2 response, but the priming is sustained only while some basal TLR4 tone remains. As $r \to 0$, the priming signal is extinguished and benefit collapses — even though the drug is still bound.
+
+### B2. The two-arm benefit function
+
+I propose that net benefit is the product of occupancy and residual tone:
+
+$$ B(c) = B_{max}\, f(c)\, r(c)^{m} = B_{max}\, \frac{c^n}{c^n + 1} \left( \frac{1}{c^n + 1} \right)^{m} $$
+
+where $m$ indexes how steeply benefit depends on residual tone. This form has the properties the paper describes qualitatively, and it is the *simplest* product form with an inverted-U. Differentiating gives the peak:
+
+$$ \frac{dB}{df} = 0 \;\Rightarrow\; f^{\*} = \frac{1}{1+m} $$
+
+So benefit peaks at occupancy $f^{\*} = 1/(1+m)$, and vanishes at both extremes ($B \to 0$ as $c \to 0$ and as $c \to \infty$).
+
+**Status of B2:** a hypothesis. The product-of-Hills form is mathematically clean and reproduces the qualitative pattern, but I chose it *because* it produces the shape I wanted to demonstrate. No data establish that LDN/TLR4 benefit is literally $f \cdot r^m$. This is the point where I must be explicit that I am proposing, not reporting.
+
+### B3. The multi-target extension
+
+If each of LDN's targets has its own $K_{d,i}$ and exponent $m_i$, total benefit is a sum of such windows:
+
+$$ B_{total}(D) = \sum_{i} B_{max,i}\, f_i\!\left(\frac{D}{K_{d,i}}\right) \left(1 - f_i\!\left(\frac{D}{K_{d,i}}\right)\right)^{m_i} $$
+
+Different $K_{d,i}$ place the windows on disjoint regions of the dose axis — the mathematical content of "non-overlapping dose optima." **Status: hypothesis**, extending the B2 hypothesis; no measured $K_{d,i}$ or $m_i$ exist for LDN's targets.
+
+### B4. The superset-failure, conditional on the model
+
+Within this proposed model, the superset-failure is provable. Partition the target set $\{i\}$ into $\{i: K_{d,i} \sim D_{high}\}$ and $\{i: K_{d,i} \sim D_{low}\}$. Then
+
+$$ B_{total}(D_{high}) = \sum_{i \in \{D_{high}\}} B_{max,i}\,f_i\,(1-f_i)^{m_i} + \underbrace{\varepsilon_{low}(D_{high})}_{\approx 0} $$
+
+A null at $D_{high}$ constrains only the first sum; the $D_{low}$-active targets are information-theoretically untouched. **Status: a theorem of the model — true if the model is true, not independently a fact about biology.**
+
+### B5. What the whole model does and does not establish
+
+It establishes (conditionally on the model): the superset inference is **mathematically invalid** for a multi-target drug whose benefit is a sum of non-overlapping two-arm windows. That is a theorem of the model.
+
+It does **not** establish that any LDN dose works. The parameters ($K_{d,i}$, $m_i$, $B_{max,i}$) are unmeasured; no within-range LDN dose-response trial exists in any condition. The model's *value*, if any, is as a falsifiable scaffold: a four-arm within-range trial (0.5, 1.5, 3.0, 4.5 mg, n ≥ 30, crossover, 8 weeks per dose) would be the first test of whether individual curves are actually non-monotonic — and only that would tell us whether this or any hormesis equation applies.
+
+Two points from the table bear directly on the superset argument.
+
+**First, the targets are not interchangeable, and their benefit/side-effect relationship differs by band.** At the high band, TRPM3 restoration *and* orexin disinhibition are both candidate *benefit* mechanisms — the paper lists "TRPM3 channelopathy or orexin deficiency" as rate-limiting, and treats orexin disinhibition as improving wakefulness and cognition. The distinction is that each mechanism has its own *optimum*, and overshooting it turns benefit into side effect: excessive orexin tone tips from improved wakefulness into insomnia, and TLR4 over-blockade turns anti-inflammatory priming off. So the four targets are not four interchangeable levers that all scale up together.
+
+**Second, the benefit bands do not overlap.** TLR4/Nrf2 benefit is at 0.5–1.5 mg and is *gone* by 3.0–4.5 mg (TLR4 over-blocking extinguishes it). TRPM3/orexin benefit appears at 3.0–4.5 mg. These are **distinct windows**, not a low-dosage and a high-dosage version of the same thing.
+
+The consequence is direct: **a dose is not a volume.** Going from 1 mg to 4 mg does not "contain" the effects of 1 mg — it replaces the combination of engaged targets with a different combination. The TLR4/Nrf2 hormesis that operates at 1 mg is *switched off* at 4 mg, not amplified.
+
+So the superset hypothesis fails exactly where it matters: the mechanism that might work at 1 mg is not a subset of the one that fails at 4 mg — it is a *different* target, with its own curve.
+
+---
+
+## Why failure at one dose does not propagate to others
+
+The doctor's inference conflates two very different claims:
+
+1. **"This drug is not active in this patient"** — a verdict about the drug.
+2. **"This target is not the rate-limiting pathway in this patient"** — a verdict about a target.
+
+A failure at 4 mg yields only the second: TLR4 (or the combination of targets saturated at 4 mg) is not the pathway limiting symptoms in this patient. It says nothing about the TLR4/Nrf2 or opioid pathway that only engages at 1–3 mg — because that pathway has *never been tested* if you have only tried 4 mg.
+
+A simple analogy: a drug that blocks both receptor A and receptor B, with 100-fold higher affinity for A. At a low dose it engages only A. At a high dose it engages A *and* B. If blocking B is what would help, a failed high-dose trial proves nothing about the low dose — at the low dose, B was never engaged at all. This is subtype 4a in [Part 2](../inverted-u-not-one-thing/): concentration-dependent target selection.
+
+There is an even sharper version of this for LDN specifically. The TLR4 antagonism at clinical LDN doses is itself uncertain: (+)-naltrexone is a *weak* TLR4 antagonist, and an optimized derivative required a ~6,200× potency gain to reach nanomolar TLR4 antagonism [@Gao2025CIAC101TLR4]. So a 4 mg null may mean something deeper than "this target isn't rate-limiting" — it may mean **the target was never actually engaged at dose at all**. In that case the 4 mg result says nothing about any mechanism, and the 1 mg question is entirely open.
+
+---
+
+## The limiting case where the doctor is right
+
+To be fair: the superset inference **is** valid in one precise case. If a drug hits a single target, with a single affinity and a monotonic dose-response curve (more dose = more occupancy = more effect, no inversion), then yes: a high-dose failure suffices, and lower doses are redundant. This is a general pharmacology principle — it is the assumption behind standard dose-finding for many single-target, monotonic agents — not a claim specific to LDN or drawn from the paper's LDN analysis.
+
+LDN is not in this class. Its dose-response curve is not monotonic — it is nonlinear, with target optima that do not overlap. For this kind of molecule, the superset hypothesis is not a reasonable shortcut: it is the very hypothesis the dose trial is meant to *test*, not presuppose.
+
+To be honest about the other direction too: LDN's *overall* evidence is weak, and that does not favor any dose. The FINAL trial (n = 99) found no significant primary pain difference [@DueBruun2024LDNFibromyalgia], a responder re-analysis of six secondary outcomes was null on all [@Nielsen2026LDNFMResponder], and a meta-analysis found no between-group benefit [@Ologunowa2025LDNFMMeta]. These nulls are real and must be weighed. But they were single-dose trials — none swept the dose axis. A null at one dose, in a drug whose targets engage at different bands, is exactly the ambiguity this article is about.
+
+---
+
+## What this means for a dose trial
+
+The practical corollary is simple and, for this blog, familiar: dose finding is diagnostic ([Part 3](../dose-is-diagnostic-ldn/)). Where a benefit appears and disappears on the dose axis reveals *which* mechanism is limiting. A patient who benefits only at 3–4.5 mg likely has a TRPM3 channelopathy or orexin-sensitive deficit (the paper notes these are not separable by dose alone). A patient who benefits only at 0.5–1.5 mg has TLR4-driven neuroinflammation. A failure at **a single** dose places the patient in **none** of these patterns — it only records the failure of that one dose.
+
+For a "no benefit at any dose" to be a solid verdict, you have to have tested the relevant windows — the paper's own guidance (ch28) is that *"non-response cannot be concluded unless the low-dose window has also been tested."* A single dose point cannot produce that verdict. [Part 3](../dose-is-diagnostic-ldn/) makes the same point: *"Non-response at 0.5 mg may mean the mechanism requires a higher dose (Pattern 2)."* The reverse holds too: no benefit at 4 mg can mean the mechanism requires a lower dose.
+
+---
+
+## The asymmetry no one disputes
+
+There is a sign that the superset hypothesis is fragile, and it is internal to the reasoning itself. No one defends the reverse direction: if 1 mg works, *no one* concludes that 4 mg will work. On the contrary, it is well known that a higher dose can *cancel* a benefit present at a low dose — precisely the paradox documented in [Part 1](../more-isnt-better-ldn-lda/).
+
+If you accept that "low dose works" does **not** predict "high dose works" (because the high dose switches off low-dose mechanisms), then the symmetry is broken: doses are not interchangeable in one direction, and there is no reason to treat them as interchangeable in the other. The superset hypothesis is only coherent if both directions are interchangeable — and they are not.
+
+---
+
+## Certainty estimate
+
+| Claim | Certainty |
+|-------|-----------|
+| Nrf2 hormesis is a real, established phenomenon (the Calabrese corpus) | High in toxicology; unproven as a *clinical LDN* mechanism — no LDN dose-response trial exists [@Calabrese2021Nrf2] |
+| LDN binds TLR4, TRPM3, and opioid receptors at distinct targets | High for the targets themselves (TLR4 in vitro [@Younger2013]; TRPM3 in vitro [@Cabanas2018trpm3]; opioid [@Younger2013]) |
+| The targets engage at different optimal dose bands | Low to moderate — mechanistically grounded, but no within-range dose-response trial exists in any condition (paper's own certainty: 0.30) |
+| TLR4 antagonism at clinical LDN doses is real | Low — (+)-naltrexone is a weak TLR4 antagonist; an optimized derivative needed ~6,200× potency gain for nanomolar antagonism [@Gao2025CIAC101TLR4] |
+| A higher dose does not necessarily reproduce the effects of a lower dose | High — a general property of non-monotonic dose-response curves |
+| A failure at 4 mg does not imply a failure at 1 mg | Moderate — true if the bands engage distinct targets; false for a single-target monotonic drug |
+| The superset hypothesis is valid only for a single-target monotonic drug | High — definition of monotonicity and target engagement |
+| LDN itself has proven clinical benefit in ME/CFS | Low — FINAL trial null [@DueBruun2024LDNFibromyalgia], responder analysis null [@Nielsen2026LDNFMResponder], meta-analysis null [@Ologunowa2025LDNFMMeta]; no large ME/CFS RCT positive |
+| Dose finding is diagnostic of the limiting mechanism | Low to moderate — the diagnostic framework is untested prospectively (HIP-B trial) |
+
+---
+
+*This post draws on the LDN dose-response framework developed in [@Loth2026website], which synthesizes the Nrf2 hormesis corpus [@Calabrese2021Nrf2], the microglial M1→M2 dose-dependence literature [@Kucic2021LDNmicroglia], the TRPM3 ME/CFS NK-cell findings [@Cabanas2018trpm3; @Cabanas2021], and the endorphin-rebound pharmacology [@Younger2013]. The core claim — that a higher dose is not a superset of the effects of lower doses for a non-monotonic multi-target drug — follows directly from the four mechanisms and the diagnostic pattern in the series. The evidence ceiling is explicit: no within-range LDN dose-response trial exists in any condition, and the single-dose trials that do exist are null [@DueBruun2024LDNFibromyalgia; @Nielsen2026LDNFMResponder; @Ologunowa2025LDNFMMeta]. Certainty on the framework itself is low (~0.30); the logical point about dose non-propagation does not depend on the framework being correct.*
+
+*LDN series: [Part 1: Why More Isn't Better](../more-isnt-better-ldn-lda/) · [Part 2: The Inverted-U Is Not One Thing](../inverted-u-not-one-thing/) · [Part 3: Your LDN Dose Is a Diagnosis](../dose-is-diagnostic-ldn/) · [Part 4: The Pharmacopoeia](../pharmacopoeia-dose-meaning/)*
