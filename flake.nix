@@ -97,6 +97,14 @@
               ops/plans/pathway-registry.md \
               src/main/typst/mecfs/part3-treatment/ch34-mechanistic-cascade-tracing/sec-14-pathway-coverage/pathway-status-table.typ
 
+            # Regenerate the reading-guide chapter/reader matrix from chapter
+            # sources + part-chapters.json so reading times and routes never
+            # drift from the chapters they describe.
+            java --source 25 src/build/java/GenerateReaderData.java \
+              src/main/typst/mecfs \
+              src/main/resources/part-chapters.json \
+              src/main/typst/mecfs/shared/reader-matrix.typ
+
             typst compile \
               --package-cache-path "${typst-package-cache}" \
               --font-path src/main/typst/mecfs/fonts \
@@ -129,6 +137,13 @@
             export HOME="$NIX_BUILD_TOP/home"
             mkdir -p "$HOME"
             export TYPST_PACKAGE_CACHE_PATH="${typst-package-cache}"
+
+            # Generate the reading-guide chapter/reader matrix before BuildWeb
+            # converts the guide to qmd, so the included file is present.
+            java --source 25 src/build/java/GenerateReaderData.java \
+              src/main/typst/mecfs \
+              src/main/resources/part-chapters.json \
+              src/main/typst/mecfs/shared/reader-matrix.typ
 
             # Generate .qmd files, figures, and copy JS assets into target/quarto
             java --source 25 src/build/java/BuildWeb.java
@@ -174,6 +189,10 @@
             mkdir -p "$HOME"
             export TYPST_PACKAGE_CACHE_PATH="${typst-package-cache}"
 
+            java --source 25 src/build/java/GenerateReaderData.java \
+              src/main/typst/mecfs \
+              src/main/resources/part-chapters.json \
+              src/main/typst/mecfs/shared/reader-matrix.typ
             java --source 25 src/build/java/BuildWeb.java
             java --source 25 src/build/java/GenerateSidebar.java target/quarto target/quarto/mecfs-sidebar.json
             java --source 25 src/test/java/web/QmdLabelAuditTest.java
@@ -248,6 +267,10 @@
               export HOME="$NIX_BUILD_TOP/home"
               mkdir -p "$HOME"
               export TYPST_PACKAGE_CACHE_PATH="${typst-package-cache}"
+              java --source 25 src/build/java/GenerateReaderData.java \
+                src/main/typst/mecfs \
+                src/main/resources/part-chapters.json \
+                src/main/typst/mecfs/shared/reader-matrix.typ
               java --source 25 src/build/java/BuildWeb.java
               java --source 25 src/test/java/web/QmdLabelAuditTest.java
               java --source 25 src/test/java/web/QmdEnvironmentCountTest.java
@@ -295,6 +318,10 @@
               export TYPST_PACKAGE_CACHE_PATH="${typst-package-cache}"
               # Generate .qmd files (incl. the glossary appendix) so blog links to
               # generated targets resolve during the audit.
+              java --source 25 src/build/java/GenerateReaderData.java \
+                src/main/typst/mecfs \
+                src/main/resources/part-chapters.json \
+                src/main/typst/mecfs/shared/reader-matrix.typ
               java --source 25 src/build/java/BuildWeb.java
               java --source 25 src/test/java/web/BlogAuditTest.java target/quarto/en/blog
               java --source 25 src/test/java/web/BlogAuditTest.java target/quarto/de/blog

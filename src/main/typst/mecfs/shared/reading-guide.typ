@@ -56,6 +56,10 @@ The table below routes each audience to the parts most relevant to their goals. 
 
 *Researchers* find detailed mechanistic insight in Parts II, IV, and V, and literature summaries organized by topic in Appendix H.
 
+The tables below give the chapter-level reading route for each audience within every part. *Time* is an approximate read time; each chapter name links to its landing page. The depth legend matches the part-level table: *Essential* = read fully, *Recommended* = high value, *Optional* = useful context, *Skip* = rarely needed, *—* = no specific guidance for that reader.
+
+#include "reader-matrix.typ"
+
 === Symptom-to-Chapter Quick Reference
 
 If you are starting from a symptom rather than a chapter, use the table below. The *Understand* column points to where the symptom's mechanism is explained; the *Manage* column points to where it is treated or managed.
