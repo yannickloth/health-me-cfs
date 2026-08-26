@@ -4,6 +4,10 @@
 //   - a breadcrumb trail ("Home / Part I / Chapter 3 / Section") at the top of
 //     the article, and
 //   - Previous / Next navigation at the bottom of the article.
+// On multi-section pages the Previous/Next pager first steps between sections
+// (from the Quarto "On this page" TOC) and only crosses to the neighbouring
+// page at the section boundaries, so a reader deep in a long chapter can
+// advance by section. The pager tracks the URL hash to stay in step.
 // Both derive entirely from the manifest's reading order, so a reader who
 // lands mid-document can move forward, backward, or up in one click.
 //
@@ -118,19 +122,57 @@
     return ol;
   }
 
+  // Collect the current page's sections from Quarto's generated TOC
+  // ("On this page"). Each entry: { id, label }. Empty on pages without a TOC.
+  // Quarto rewrites the TOC hrefs to absolute URLs, so derive the anchor id
+  // from the URL hash portion rather than matching href^="#".
+  function getPageSections() {
+    const out = [];
+    document.querySelectorAll('#TOC .nav-link').forEach(a => {
+      const href = a.getAttribute('href') || '';
+      const hashIdx = href.indexOf('#');
+      if (hashIdx < 0) return;
+      const id = href.slice(hashIdx + 1);
+      const label = a.textContent.trim().replace(/^\d+\s*/, '');
+      out.push({ id, label });
+    });
+    return out;
+  }
+
+  // Section-aware previous/next target. On a multi-section page we step between
+  // sections first, then cross to the neighbouring page at the boundaries, so a
+  // reader deep in a long chapter can advance by section rather than jumping to
+  // the next chapter. Returns { href, label, caption } or null.
+  function sectionTarget(sections, currentSectionIdx, dir, flat, currentIdx) {
+    if (currentSectionIdx >= 0) {
+      const within = currentSectionIdx + dir;
+      if (within >= 0 && within < sections.length) {
+        const s = sections[within];
+        return { href: location.pathname + '#' + s.id, label: s.label, caption: dir < 0 ? 'Previous' : 'Next' };
+      }
+    }
+    const neighbour = flat[currentIdx + dir];
+    if (!neighbour) return null;
+    return {
+      href: neighbour.href + (dir > 0 && sections.length ? '#' + sections[0].id : ''),
+      label: neighbour.label,
+      caption: dir < 0 ? 'Previous' : 'Next',
+    };
+  }
+
   // Build the previous/next navigation bar.
-  function buildPager(flat, currentIdx) {
+  function buildPager(flat, currentIdx, sections, currentSectionIdx) {
     const nav = el('nav', 'mecfs-pager', { 'aria-label': 'Document navigation' });
     const wrap = el('div', 'd-flex justify-content-between mecfs-pager-row');
 
-    const prev = flat[currentIdx - 1];
-    const next = flat[currentIdx + 1];
+    const prev = sectionTarget(sections, currentSectionIdx, -1, flat, currentIdx);
+    const next = sectionTarget(sections, currentSectionIdx, +1, flat, currentIdx);
 
     const prevCell = el('div', 'mecfs-pager-item mecfs-pager-prev');
     if (prev) {
       const a = el('a', 'mecfs-pager-link', { href: relHref(prev.href) });
       const label = el('span', 'mecfs-pager-caption');
-      label.textContent = 'Previous';
+      label.textContent = prev.caption;
       const title = el('span', 'mecfs-pager-title');
       title.textContent = prev.label;
       a.appendChild(label);
@@ -143,7 +185,7 @@
     if (next) {
       const a = el('a', 'mecfs-pager-link', { href: relHref(next.href) });
       const label = el('span', 'mecfs-pager-caption');
-      label.textContent = 'Next';
+      label.textContent = next.caption;
       const title = el('span', 'mecfs-pager-title');
       title.textContent = next.label;
       a.appendChild(label);
@@ -173,13 +215,38 @@
           content.insertBefore(crumb, content.firstChild);
         }
 
+        // Section-aware previous/next. Determine the current section from the
+        // URL hash (if it matches a TOC anchor) so the pager can step by section
+        // within long pages before crossing to the neighbouring page.
+        const sections = getPageSections();
+        let currentSectionIdx = -1;
+        if (location.hash) {
+          const id = location.hash.slice(1);
+          currentSectionIdx = sections.findIndex(s => s.id === id);
+        }
+
         // Previous/Next: insert after </main>, before the after-body sidebar.
         const main = document.querySelector('main.content');
+        let pagerEl = null;
         if (main && main.parentNode) {
-          const pager = buildPager(flat, currentIdx);
+          pagerEl = buildPager(flat, currentIdx, sections, currentSectionIdx);
           const refNode = main.nextSibling;
-          main.parentNode.insertBefore(pager, refNode);
+          main.parentNode.insertBefore(pagerEl, refNode);
         }
+
+        // Keep the pager in step with section changes (TOC clicks, hash links)
+        // without a full re-render of the breadcrumb.
+        window.addEventListener('hashchange', () => {
+          if (!pagerEl) return;
+          let idx = -1;
+          if (location.hash) {
+            const id = location.hash.slice(1);
+            idx = sections.findIndex(s => s.id === id);
+          }
+          const updated = buildPager(flat, currentIdx, sections, idx);
+          pagerEl.replaceWith(updated);
+          pagerEl = updated;
+        });
       })
       .catch(err => {
         // Inert failure: navigation helpers are an enhancement, never an error.

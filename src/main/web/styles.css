@@ -63,16 +63,22 @@ header.headroom--unpinned { transform: translateY(0%) !important; }
   background-color: color-mix(in srgb, var(--navbar-bg) 85%, var(--bs-white));
   color: var(--navbar-fg-active) !important;
 }
-/* Let the right margin sidebar (medical disclaimer, TOC, blog categories)
-   scroll with the page instead of having its own independent scrollbar.
-   Quarto makes it sticky with overflow-y:auto and a max-height, which shows a
-   separate scrollbar when the margin content is taller than the viewport. */
-#quarto-margin-sidebar {
-  position: static !important;
-  overflow: visible !important;
-  max-height: none !important;
-  top: auto !important;
-}
+/* Keep the right margin sidebar (TOC, blog categories) pinned while scrolling.
+   Quarto makes it sticky by default; this site's previous override forced it to
+   `position: static`, so the TOC scrolled out of view on long pages and the
+   scrollspy highlight ("current section") was invisible while reading. Sticky
+   keeps it in the right margin below the fixed header, where the active-section
+   highlight from Quarto's IntersectionObserver is actually useful. Quarto also
+   sets inline top/max-height on the element, so `!important` is required to win
+   over that inline style. */
+ #quarto-margin-sidebar {
+   position: sticky !important;
+   top: 72px !important;          /* just below the 64px fixed header */
+   align-self: start;
+   overflow-y: auto;
+   overscroll-behavior: contain;
+   max-height: calc(100vh - 88px) !important;
+ }
 /* NOTE: these rules are deliberately UNLAYERED. styles.css is linked after
    Bootstrap/Quarto CSS in the site, so unlayered rules win over Quarto's
    unlayered callout styles by source order. Wrapping them in @layer would
