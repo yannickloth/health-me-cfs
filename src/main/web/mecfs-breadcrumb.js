@@ -60,7 +60,7 @@
   }
 
   // Flatten the manifest into a linear list of navigable nodes:
-  //   { label, href, ancestors:[{label,href}] , kind: 'page'|'landing' }
+  //   { label, href, ancestors:[{label,href}] }
   // where ancestors is the breadcrumb trail (part -> chapter section).
   // A node is included when it has a clickable href. Section headers that link
   // to a landing page (part title / chapter intro) are treated as navigable
@@ -77,7 +77,6 @@
           label: item.label,
           href: item.href,
           ancestors: trail,
-          kind: item.type === 'section' ? 'landing' : 'page',
         });
       }
       if (item.children && item.children.length) {
@@ -121,7 +120,7 @@
 
   // Build the previous/next navigation bar.
   function buildPager(flat, currentIdx) {
-    const nav = el('nav', 'mecfs-pager', { 'aria-label': 'Chapter navigation' });
+    const nav = el('nav', 'mecfs-pager', { 'aria-label': 'Document navigation' });
     const wrap = el('div', 'd-flex justify-content-between mecfs-pager-row');
 
     const prev = flat[currentIdx - 1];
