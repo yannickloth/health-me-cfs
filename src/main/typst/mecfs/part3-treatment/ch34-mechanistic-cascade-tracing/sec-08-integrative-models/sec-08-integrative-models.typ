@@ -10,3 +10,5 @@
 
 #include "subsec-04-innate-immune-hyperactivation-cascade/subsec-04-innate-immune-hyperactivation-cascade.typ"
 
+#include "subsec-05-central-motor-drive-fatigability-cascade/subsec-05-central-motor-drive-fatigability-cascade.typ"
+

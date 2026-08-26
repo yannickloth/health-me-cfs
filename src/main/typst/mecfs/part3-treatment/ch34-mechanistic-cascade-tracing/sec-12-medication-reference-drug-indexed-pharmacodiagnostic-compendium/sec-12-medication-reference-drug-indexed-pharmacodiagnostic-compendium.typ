@@ -74,7 +74,7 @@ Corrective — eliminates food antigens driving immune activation; if food antig
 
 === Amantadine
 
-*Appears in:* @sec:gerlier-dopamine-node, @sec:microglial-cascade Step K2d, cross-reference matrix.
+*Appears in:* @sec:gerlier-dopamine-node, @sec:microglial-cascade Step K2d, @sec:central-motor-drive-cascade Step C3, cross-reference matrix.
 #strong[HD] Threshold-modulatory — enhances presynaptic DA release; distinguishes from DAT blockers diagnostically.
 
 
@@ -144,7 +144,7 @@ Corrective — eliminates food antigens driving immune activation; if food antig
 
 === Amphetamines (Dextroamphetamine, Lisdexamfetamine) <warn:amphetamine-permanent-risk>
 
-*Appears in:* @sec:microglial-cascade Step K2b, cross-reference matrix.
+*Appears in:* @sec:microglial-cascade Step K2b, @sec:central-motor-drive-cascade Step C2, cross-reference matrix.
 #strong[HD] Symptomatic — reverses DAT + VMAT2 releasing DA/NE; most dangerous stimulant class: VMAT2 depletion, permanent terminal damage, PMC, metabolic PEM. Diagnostic value: confirms presynaptic DA terminals functional.
 
 
@@ -386,7 +386,7 @@ Corrective — natural metformin analog; AMPK activation restoring metabolic eff
 
 === Bromocriptine / Rotigotine
 
-*Appears in:* Cross-reference matrix Group B.
+*Appears in:* Cross-reference matrix Group B, @sec:central-motor-drive-cascade Step C2.
 #strong[HD] Threshold-modulatory — dopamine agonist compensating for deficient dopamine tone.
 
 
@@ -1687,7 +1687,7 @@ Corrective — AMPK activation restoring metabolic efficiency + reducing mTORC1 
 
 === Methylphenidate
 
-*Appears in:* @sec:gerlier-dopamine-node, @sec:microglial-cascade K2d, cross-reference matrix.
+*Appears in:* @sec:gerlier-dopamine-node, @sec:microglial-cascade K2d, @sec:central-motor-drive-cascade Step C1/C2, cross-reference matrix.
 #strong[HD] Threshold-modulatory — DAT/NET blocker increasing synaptic DA/NE; +7% REE; diagnostic probe for DAT functional status.
 
 
@@ -1771,7 +1771,7 @@ Corrective — microglial anti-inflammatory + MMP-9 inhibition + neuroprotective
 
 === Modafinil / Armodafinil
 
-*Appears in:* @sec:microglial-cascade Step K2a, cross-reference matrix.
+*Appears in:* @sec:microglial-cascade Step K2a, @sec:central-motor-drive-cascade Step C1, cross-reference matrix.
 #strong[HD] Threshold-modulatory — DAT/NET inhibition with speculative Corrective component (brain ATP enhancement + M1→M2 microglial shift @Minzenberg2008modafinil); negative ME/CFS RCT (n=14).
 
 

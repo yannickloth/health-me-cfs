@@ -11691,5 +11691,15 @@
     "label": "PRS",
     "category": "method",
     "definition": "Polygenic Risk Score: a single quantitative measure aggregating the effects of thousands of genetic variants to estimate an individual's inherited disease liability."
+  },
+  "Corticomuscular coherence": {
+    "label": "Corticomuscular coherence",
+    "category": "measurement",
+    "definition": "A measure of how synchronized the electrical activity of the brain (motor cortex) is with the electrical activity of a muscle during a task. In ME/CFS, an absent rise in corticomuscular coherence during sustained effort suggests the brain is not adjusting its drive to muscle based on feedback from the fatiguing muscle."
+  },
+  "Central motor drive": {
+    "label": "Central motor drive",
+    "category": "concept",
+    "definition": "The output signal from the brain (motor cortex and connected subcortical circuits) that drives muscles to contract. A failure to increase central motor drive under sustained effort means the brain does not push the muscle harder as it tires, even though the muscle itself can produce maximum force."
   }
 }
