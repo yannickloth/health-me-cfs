@@ -40,7 +40,7 @@ copy_shared() {
   cp -r "$WEB/bib" "$WEB/figures" "$WEB/logos" "$dst/" 2>/dev/null || true
   cp "$WEB/glossary-en.json" "$WEB/glossary-fr.json" "$WEB/glossary-de.json" \
      "$WEB/styles.css" "$WEB/mecfs-sidebar.js" "$WEB/mecfs-sidebar.json" \
-     "$WEB/mecfs-sidebar.html" "$WEB/part-accordion.js" "$WEB/part-chapters.json" \
+     "$WEB/mecfs-sidebar.html" "$WEB/mecfs-breadcrumb.js" "$WEB/part-accordion.js" "$WEB/part-chapters.json" \
      "$dst/" 2>/dev/null || true
 }
 

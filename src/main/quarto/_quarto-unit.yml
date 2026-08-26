@@ -80,6 +80,7 @@ format:
       - glossary-de.json
       - mecfs-sidebar.js
       - mecfs-sidebar.json
+      - mecfs-breadcrumb.js
       - part-accordion.js
       - part-chapters.json
       - logos/og-social.png
