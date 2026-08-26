@@ -456,3 +456,30 @@ Women with PI-ME/CFS demonstrated:
 
 These sex-specific findings underscore that ME/CFS may involve fundamentally different immunological processes in men and women, potentially requiring sex-specific therapeutic approaches.
 
+==== Insufficient Acute Antibody Response and the Predictive Window
+
+The Davis 2023 landmark Long COVID review @Davis2023LongCOVIDmajorfindings synthesizes evidence that a low or absent SARS-CoV-2 antibody response in the acute stage is *predictive* of developing Long COVID at 6-7 months, in both hospitalized and non-hospitalized patients @GarciaAbellan2021antibodyLC @Augustin2021postcovid. Low baseline IgG, low spike-specific memory B cells, and low nucleocapsid IgG all predicted post-acute sequelae. This is mechanistically relevant to ME/CFS: it suggests that an *insufficient* adaptive immune response (rather than only an overactive one) can set the stage for post-infectious chronicity — a candidate that the corpus's antibody-discussion has not foregrounded.
+
+#open-question(title: [Does Insufficient Early Antibody Response Gate Post-Infectious Chronicity?])[
+*Certainty: 0.55 (Long COVID evidence; ME/CFS extrapolation uncertain).*
+
+A low/absent acute SARS-CoV-2 antibody response predicts Long COVID at 6-7 months @GarciaAbellan2021antibodyLC @Augustin2021postcovid @Davis2023LongCOVIDmajorfindings. If an inadequate early adaptive response fails to clear or contain the pathogen (or pathogen reservoirs), it may permit the transition to a chronic post-infectious state — a mechanism that could generalize from Long COVID to other post-infectious ME/CFS triggers.
+
+*Alternative interpretations (Standing Epistemic #4).* Low antibody could be a *marker* of viral persistence rather than a *cause* (persistent antigen may blunt further antibody production); it could reflect an early viral-load or disease-severity confound; or it could indicate genuine immunocompromise in a susceptible subset. The causal direction is not established.
+
+*Falsifiable prediction.* Longitudinal cohorts measuring acute-phase antibody kinetics would find that, among patients with comparable initial infection severity, those with the lowest and slowest antibody responses have the highest subsequent risk of post-infectious chronic fatigue — and that this association persists after controlling for viral load and severity. Falsified if antibody response is purely a severity marker with no independent predictive value.
+
+*Severity applicability:* unknown — not stratified.
+
+*Consequence:* If a weak early antibody response helps predict who develops a chronic post-infectious illness, it could support early immune-supportive intervention in the acute-to-subacute window — a rationale relevant to both Long COVID and post-infectious ME/CFS onset.
+] <oq:insufficient-early-antibody-chronicity>
+
+#limitation(title: [Seroreversion Creates Control-Group Bias in Post-Infectious Research])[
+*Certainty: 0.55.*
+
+A substantial proportion of SARS-CoV-2-infected patients never seroconvert or serorevert within months — more commonly in women, children, and mild infections @VanElslande2021seroreversion @Davis2023LongCOVIDmajorfindings. Because many studies classify controls by negative antibody status, symptomatic patients who seroreverted are misclassified into control groups, biasing comparisons toward null and under-ascertaining post-infectious illness @Davis2023LongCOVIDmajorfindings. The same testing-bias risk applies to ME/CFS research whenever serology is used to define infection exposure.
+
+*Consequence:* Researchers should not rely on serology alone to assign infection-exposure status; symptom-based and clinically-diagnosed cohorts strengthen validity — a methodological correction directly transferable to post-infectious ME/CFS study design.
+] <lim:seroreversion-control-bias>
+
+

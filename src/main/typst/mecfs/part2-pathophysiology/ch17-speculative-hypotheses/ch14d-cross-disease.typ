@@ -2863,7 +2863,56 @@ ME/CFS, Long-COVID, and related post-infectious syndromes represent points on a 
 *Evidence:* Convergent findings across multiple biological domains (immune, vascular, metabolic, virological) in both conditions; divergent features in immune cell phenotypes suggesting trigger-specific or duration-specific effects. The Shahbaz and Petrov studies support both overlap and divergence simultaneously.
 ] <hyp:post-infectious-spectrum>
 
-=== Selective Immune Cell Reprogramming as Shared Post-Infectious Mechanism
+*The Davis 2023 landmark review as a synthetic anchor.* The Patient-Led Research Collaborative review @Davis2023LongCOVIDmajorfindings — a landmark patient-led synthesis (Nature Reviews Microbiology, 2023) — independently corroborates this spectrum framing and adds a formal temporal dimension. It documents that a substantial fraction of Long COVID patients meet ME/CFS criteria, that the majority report post-exertional malaise when it is specifically measured @Davis2023LongCOVIDmajorfindings, and that Long COVID and ME/CFS share hypothesized mechanisms spanning immune dysregulation (with or without herpesvirus reactivation), persistent viral reservoirs, autoimmunity, microvascular clotting with endothelial dysfunction, and dysfunctional brainstem/vagus signalling @Davis2023LongCOVIDmajorfindings. The review's explicit framing of these as "multiple, potentially overlapping, causes" aligns with the multi-hypothesis rather than single-cause interpretation developed throughout this chapter.
+
+#open-question(title: [Long COVID Trajectory: Temporal Evidence for Post-Infectious Chronicity])[
+*Certainty: 0.60 (Long COVID evidence; ME/CFS extrapolation uncertain).*
+
+The Davis 2023 review compiles temporal data that bear directly on the question of whether post-infectious syndromes become chronic. Among patients symptomatic at 2 months after infection, 85% remained symptomatic at 1 year @Davis2023LongCOVIDmajorfindings. Cognitive impairment prevalence progressed from 16% at 2 months to 26% at 12 months @Davis2023LongCOVIDmajorfindings — an *increasing* trajectory rather than a resolving one. Neurological symptoms often have a delayed onset (43% of cognitive-symptom cases onset ≥1 month after infection), and parosmia shows a characteristic ~3-month onset. By contrast, gastrointestinal and respiratory symptoms are more likely to resolve @Davis2023LongCOVIDmajorfindings.
+
+*Interpretation.* The high 1-year persistence and the *increasing* cognitive-impairment trajectory argue that post-infectious syndromes can become self-sustaining rather than resolving — consistent with the paper's model of a sustained post-infectious state (see @hyp:post-infectious-spectrum and Chapter @ch:epidemiology-outcomes). ME/CFS is generally considered lifelong once established @Davis2023LongCOVIDmajorfindings, so the Long COVID trajectory toward chronicity supports the contention that at least a substantial subset of Long COVID converges on an ME/CFS-like chronic state.
+
+*Severity applicability:* unknown — the reviewed studies are not stratified by severity.
+
+*Consequence:* If post-infectious syndromes commonly become self-sustaining and even worsen over the first year, this argues for early, mechanism-targeted intervention in the window before chronicity locks in — a rationale that applies equally to Long COVID and to post-infectious ME/CFS onset.
+] <oq:lc-trajectory-chronicity>
+
+#open-question(title: [Vaccination and Established Long COVID: Heterogeneous Symptom Response])[
+*Certainty: 0.45.*
+
+The Davis 2023 review reports heterogeneous effects of vaccination on established Long COVID symptoms: 16.7% of patients experienced symptom relief, 21.4% experienced worsening, and the remainder unchanged @Tsuchida2022vaccineLC @Davis2023LongCOVIDmajorfindings. Vaccination reduces the *risk* of developing new Long COVID (partial protection, ~15-41%), but its effect on established symptoms is mixed and unpredictable.
+
+*Interpretation.* The heterogeneous response underscores that Long COVID (and by extension ME/CFS) is not a single uniform process — the same intervention can improve or worsen depending on the underlying mechanism (e.g., immune-amplification vs. immune-deficit subtypes). It cautions against blanket claims about vaccination or immunomodulation in post-infectious illness.
+
+*Severity applicability:* unknown — not stratified.
+
+*Consequence:* A treatment that helps some post-infectious patients and harms others signals mechanistic heterogeneity; this argues for careful individualised titration and mechanism-based patient stratification rather than uniform protocols.
+] <oq:lc-vaccine-heterogeneity>
+
+*Additional Long COVID findings with ME/CFS relevance (Davis 2023 review).* Beyond the temporal and vaccine findings above, the Davis 2023 review @Davis2023LongCOVIDmajorfindings documents several organ-system findings that parallel or inform ME/CFS pathophysiology: (i) *fungal translocation* — elevated markers of fungal translocation from the gut/lung epithelium in Long COVID that induce NF-$kappa$B signalling and cytokine production @Giron2022fungaltranslocation, a gut-lung-immune mechanism consistent with the corpus's gut-microbiome and immune-activation emphasis; (ii) *ocular/retinal microvascular involvement* — retinal haemorrhages, cotton wool spots, retinal vein occlusion, and corneal small-nerve-fibre loss @Sen2022retinal @Bitirgen2021corneal, echoing the small-fibre neuropathy and microvascular findings documented in ME/CFS; (iii) *fragmented QRS on ECG* as a low-cost cardiac-injury marker in COVID-19 recovery @Stavileci2022fragmentedQRS, relevant to the cardiac-involvement discussion; and (iv) *male reproductive consequences* — impaired sperm count, motility, and morphology correlated with elevated cytokines and seminal caspases @Maleki2021spermLC. These are presented as corroborating the multisystem post-infectious character shared with ME/CFS rather than as ME/CFS-specific mechanisms in their own right; each awaits direct ME/CFS-cohort replication. Severity applicability: unknown for all (not stratified).
+
+*Pycnogenol.* A pilot study reported that Pycnogenol (French maritime pine bark extract) improved oxidative-stress markers, microcirculation/endothelial function, and quality of life in COVID-19 recovery @Belcaro2022pycnogenol, prompting the Davis review @Davis2023LongCOVIDmajorfindings to list it among candidate endothelial-supportive treatments. Given the microclot/endothelial pathology shared with ME/CFS, this is a candidate (not validated) intervention; see the pharmacodiagnostic and treatment chapters for how endothelial-targeted options are triaged. Severity applicability: unknown; general COVID-recovery population (not ME/CFS-specific).
+
+#limitation(title: [Long COVID-ME/CFS Extrapolation: Limits of the Counterfactual])[
+*Certainty: 0.55.*
+
+The Davis 2023 review @Davis2023LongCOVIDmajorfindings is a powerful counterfactual for ME/CFS, but extrapolating its Long COVID findings to ME/CFS carries several limits that must temper the confidence of the overlap argument:
+
+1. *Narrative, not systematic.* The review is a narrative synthesis; a subset of its findings rest on preprints and small cohorts, so per-claim certainty is lower than the review's landmark status suggests @Davis2023LongCOVIDmajorfindings.
+
+2. *Acute-to-chronic gap.* Long COVID is largely studied in the first 1-2 years post-infection, while ME/CFS is typically chronic and lifelong. A substantial fraction of Long COVID cases improve over time (GI/respiratory symptoms often resolve), whereas ME/CFS persists — so Long COVID data are an *acute-to-chronic extrapolation*, not proof of identity with established ME/CFS.
+
+3. *Criteria overlap.* The ≈50% of Long COVID meeting ME/CFS criteria may partly reflect overlapping, self-referential symptom criteria rather than shared underlying biology; the 2-day CPET divergence (no Day-2 deterioration in Long COVID vs. consistent ME/CFS deterioration) argues against full mechanistic equivalence.
+
+4. *Cohort overlap.* Several Long COVID findings derive from overlapping cohorts or the same research groups; treating them as independent replications inflates apparent certainty.
+
+*Consequence:* Long COVID evidence is best used as a strong *suggestive* bridge and a source of research hypotheses for ME/CFS, not as proof that the two are mechanistically identical — direct head-to-head mechanistic and longitudinal studies are still required before Long COVID mechanisms are treated as established ME/CFS pathophysiology.
+] <lim:lc-extrapolation-limits>
+
+#synthesis(title: [Post-Infectious Chronicity as the Convergent Long COVID-ME/CFS Signal])[
+The Davis 2023 landmark review @Davis2023LongCOVIDmajorfindings, integrated across this chapter, collectively argues that post-infectious syndromes can become *self-sustaining* rather than resolving: a substantial majority of those symptomatic at 2 months remain symptomatic at 1 year, cognitive impairment *increases* over the first year (@oq:lc-trajectory-chronicity), and an insufficient early antibody response predicts progression to chronicity (@oq:insufficient-early-antibody-chronicity) — all consistent with ME/CFS being a lifelong post-infectious outcome (see @hyp:post-infectious-spectrum). The strongest constraint is that this remains an acute-to-chronic extrapolation: Long COVID is largely studied early in its course, a meaningful fraction improves, and the overlap may be partly criteria-driven (@lim:lc-extrapolation-limits). The most actionable implication is that the acute-to-subacute window after infection may be the decisive therapeutic intervention point before chronicity locks in — a rationale that applies equally to Long COVID and to post-infectious ME/CFS onset. The open question is whether early immune-supportive or viral-clearing intervention can shift the trajectory away from the self-sustaining state.
+] <syn:davis2023-postinfectious-chronicity>
+
 
 Recent single-cell and functional immunology studies @Watton2026unified have sharpened the understanding of how specific immune cell populations can exert disproportionate effects on whole-organism physiology in post-infectious disease. Rather than reflecting uniform immune activation, ME/CFS and Long-COVID increasingly appear to involve selective, stable reprogramming of particular immune subsets — most notably monocytes and T cells. Studies have identified distinct monocyte transcriptional and metabolic states in Long-COVID, characterized by altered interferon signaling, inflammatory tone, and metabolic gene expression. Such monocytes influence vascular function, coagulation, and tissue oxygenation through cytokine release, endothelial interaction, and modulation of redox balance.
 

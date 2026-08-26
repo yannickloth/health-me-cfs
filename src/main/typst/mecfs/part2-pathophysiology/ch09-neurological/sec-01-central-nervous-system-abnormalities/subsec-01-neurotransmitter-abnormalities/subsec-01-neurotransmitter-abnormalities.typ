@@ -52,7 +52,7 @@ The association of NE Pathway deficiency with post-exertional malaise (PEM) is p
 Metabolomic profiling of CSF in the NIH study also revealed abnormalities in tryptophan metabolism @walitt2024deep. Tryptophan is the precursor for both serotonin and the kynurenine pathway, making its metabolism relevant to mood, cognition, and immune function.
 
 *Kynurenine Pathway Dysregulation*
-The kynurenine pathway metabolizes approximately 95% of dietary tryptophan and produces metabolites with diverse neuroactive effects. Quinolinic acid, an NMDA receptor agonist and excitotoxin, may contribute to neuroinflammation and cognitive dysfunction when elevated. Kynurenic acid, an NMDA receptor antagonist with neuroprotective properties, can become imbalanced with quinolinic acid, disrupting glutamatergic neurotransmission. Additionally, 3-hydroxykynurenine generates reactive oxygen species, potentially contributing to oxidative stress.
+The kynurenine pathway metabolizes approximately 95% of dietary tryptophan and produces metabolites with diverse neuroactive effects. Quinolinic acid, an NMDA receptor agonist and excitotoxin, may contribute to neuroinflammation and cognitive dysfunction when elevated @Davis2023LongCOVIDmajorfindings. Kynurenic acid, an NMDA receptor antagonist with neuroprotective properties, can become imbalanced with quinolinic acid, disrupting glutamatergic neurotransmission. Additionally, 3-hydroxykynurenine generates reactive oxygen species, potentially contributing to oxidative stress.
 
 Immune activation, particularly interferon-gamma, stimulates the kynurenine pathway, providing a link between the immune abnormalities and neurological symptoms observed in ME/CFS @Dehhaghi2022kynurenine @Kavyani2022kynurenine.
 

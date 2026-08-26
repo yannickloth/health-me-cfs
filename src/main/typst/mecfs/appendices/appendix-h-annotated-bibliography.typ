@@ -4670,6 +4670,122 @@ This multi-hit model explains why simple volume expansion (saline infusion) prov
     *Limitations:*: Perspective/recommendation piece; no empirical validation of recommended trial designs.
     *Certainty:*: 0.70
 
+=== Garcia-Abellan et al.\ 2021 — Low Antibody Response Predicts Long COVID
+
+    *Full Citation:*: García-Abellán J, et al. Antibody response to SARS-CoV-2 is associated with long-term clinical outcome in patients with COVID-19: a longitudinal study. _Journal of Clinical Immunology_. 2021;41(7):1490-1501. @GarciaAbellan2021antibodyLC
+    *DOI:*: #link("https://doi.org/10.1007/s10875-021-01077-7")[10.1007/s10875-021-01077-7]
+    *Study Design:*: Longitudinal cohort study
+    *Key Findings:*:
+        - A low or insufficient SARS-CoV-2 antibody response in the acute stage predicts developing long COVID at 6-7 months.
+        - Applies to both hospitalized and non-hospitalized patients.
+        - Supports the "insufficient acute immune response predicts long COVID" mechanism.
+    *Relevance:*: Primary anchor for the finding that a weak early antibody response is a risk factor for long COVID — mechanistically relevant to post-infectious ME/CFS onset.
+    *Limitations:*: Full author list not verified (only lead author confirmed from the Davis 2023 review reference list); verify before final use.
+    *Certainty:*: 0.60
+
+=== Augustin et al.\ 2021 — Low Baseline IgG Predicts Post-COVID Syndrome (Non-hospitalized)
+
+    *Full Citation:*: Augustin M, et al. Post-COVID syndrome in non-hospitalised patients with COVID-19: a longitudinal prospective cohort study. _The Lancet Regional Health - Europe_. 2021;6:100122. @Augustin2021postcovid
+    *DOI:*: #link("https://doi.org/10.1016/j.lanepe.2021.100122")[10.1016/j.lanepe.2021.100122]
+    *Study Design:*: Longitudinal prospective cohort study
+    *Key Findings:*:
+        - In non-hospitalised COVID-19 patients, low baseline IgG and insufficient acute immune responses predicted post-COVID syndrome at 6 months.
+    *Relevance:*: Confirms that even mild (non-hospitalized) infection with a weak antibody response can lead to long COVID — supports post-infectious onset in mild cases.
+    *Limitations:*: Full author list not verified (only lead author confirmed); verify before final use.
+    *Certainty:*: 0.60
+
+=== Van Elslande et al.\ 2021 — Seroreversion of Anti-Nucleocapsid Antibodies
+
+    *Full Citation:*: Van Elslande J, et al. Longitudinal follow-up of IgG anti-nucleocapsid antibodies in SARS-CoV-2 infected patients up to eight months after infection. _Journal of Clinical Virology_. 2021;136:104765. @VanElslande2021seroreversion
+    *DOI:*: #link("https://doi.org/10.1016/j.jcv.2021.104765")[10.1016/j.jcv.2021.104765]
+    *Study Design:*: Longitudinal follow-up study
+    *Key Findings:*:
+        - A substantial proportion of SARS-CoV-2-infected patients lose anti-nucleocapsid IgG (serorevert) within 8 months.
+        - Seroreversion is more likely in women, children, and mild infections.
+    *Relevance:*: Documents that antibody-based classification of prior infection is unreliable — creates control-group bias in long COVID research (patients without antibodies may be misclassified as uninfected controls).
+    *Limitations:*: Full author list not verified (only lead author confirmed); verify before final use.
+    *Certainty:*: 0.55
+
+=== Tsuchida et al.\ 2022 — Vaccine Effects on Established Long COVID Symptoms
+
+    *Full Citation:*: Tsuchida T, et al. Relationship between changes in symptoms and antibody titers after a single vaccination in patients with Long COVID. _Journal of Medical Virology_. 2022;94(7):3416-3420. @Tsuchida2022vaccineLC
+    *DOI:*: #link("https://doi.org/10.1002/jmv.27725")[10.1002/jmv.27725]
+    *Study Design:*: Observational cohort study
+    *Key Findings:*:
+        - After a single vaccination, 16.7% of established long COVID patients reported symptom relief, 21.4% reported worsening, remainder unchanged.
+    *Relevance:*: Documents heterogeneous vaccination effects on established long COVID — relevant to post-viral symptom modulation and to avoid over-generalizing vaccine benefit.
+    *Limitations:*: Full author list not verified (only lead author confirmed); verify before final use.
+    *Certainty:*: 0.45
+
+=== Giron et al.\ 2022 — Fungal Translocation as a Long COVID Driver
+
+    *Full Citation:*: Giron LB, et al. Markers of fungal translocation are elevated during post-acute sequelae of SARS-CoV-2 and induce NF-kB signaling. _JCI Insight_. 2022. @Giron2022fungaltranslocation
+    *DOI:*: #link("https://doi.org/10.1172/jci.insight.160989")[10.1172/jci.insight.160989]
+    *Study Design:*: Case-control biomarker study
+    *Key Findings:*:
+        - Elevated markers of fungal translocation (from gut and/or lung epithelium) in long COVID plasma versus controls.
+        - Fungal translocation induces cytokine production via NF-kB signaling.
+    *Relevance:*: Novel mechanism: fungal products as a driver of persisting immune activation in long COVID — relevant to gut-lung-immune axis in post-viral illness.
+    *Limitations:*: Full author list not verified (only lead author confirmed); verify before final use.
+    *Certainty:*: 0.40
+
+=== Bitirgen et al.\ 2021 — Corneal Nerve Fibre Loss in Long COVID
+
+    *Full Citation:*: Bitirgen G, et al. Corneal confocal microscopy identifies corneal nerve fibre loss and increased dendritic cells in patients with long COVID. _British Journal of Ophthalmology_. 2021. @Bitirgen2021corneal
+    *DOI:*: #link("https://doi.org/10.1136/bjophthalmol-2021-319450")[10.1136/bjophthalmol-2021-319450]
+    *Study Design:*: Cross-sectional corneal confocal microscopy study
+    *Key Findings:*:
+        - Corneal small nerve fibre loss and increased dendritic cell density in long COVID patients.
+        - Parallels small fibre neuropathy documented in ME/CFS.
+    *Relevance:*: Objective ocular marker of small fibre neuropathy in long COVID — bridges long COVID and ME/CFS small fibre pathology.
+    *Limitations:*: Full author list and page numbers not verified (only lead author confirmed); verify before final use.
+    *Certainty:*: 0.50
+
+=== Sen et al.\ 2022 — Retinal Manifestations of SARS-CoV-2 (Systematic Review)
+
+    *Full Citation:*: Sen S, et al. Retinal manifestations in patients with SARS-CoV-2 infection and pathogenetic implications: a systematic review. _International Ophthalmology_. 2022;42(1):323-336. @Sen2022retinal
+    *DOI:*: #link("https://doi.org/10.1007/s10792-021-01949-0")[10.1007/s10792-021-01949-0]
+    *Study Design:*: Systematic review
+    *Key Findings:*:
+        - Retinal haemorrhages, cotton wool spots, and retinal vein occlusion documented after SARS-CoV-2 infection.
+        - Implies retinal microcirculation impairment.
+    *Relevance:*: Ocular/retinal microvascular involvement in long COVID — relevant to vascular and microcirculatory pathology shared with ME/CFS.
+    *Limitations:*: Full author list not fully verified (only lead author confirmed); verify before final use.
+    *Certainty:*: 0.55
+
+=== Maleki & Tartibian 2021 — Male Reproductive Function in Long COVID
+
+    *Full Citation:*: Maleki BH, Tartibian B. COVID-19 and male reproductive function: a prospective, longitudinal cohort study. _Reproduction_. 2021;161(3):319-331. @Maleki2021spermLC
+    *DOI:*: #link("https://doi.org/10.1530/REP-20-0554")[10.1530/REP-20-0554]
+    *Study Design:*: Prospective longitudinal cohort study
+    *Key Findings:*:
+        - Impaired sperm count, volume, motility, morphology and concentration in long COVID, correlated with elevated cytokines and seminal caspases 3, 8 and 9.
+    *Relevance:*: Documents male reproductive consequences of long COVID — relevant to multi-organ involvement in post-viral illness.
+    *Limitations:*: Observational; single cohort.
+    *Certainty:*: 0.55
+
+=== Belcaro et al.\ 2022 — Pycnogenol in COVID-19 Recovery
+
+    *Full Citation:*: Belcaro G, et al. Preventive effects of Pycnogenol on cardiovascular risk factors (including endothelial function) and microcirculation in subjects recovering from COVID-19. _Minerva Medica_. 2022;113(2):300-308. @Belcaro2022pycnogenol
+    *DOI:*: #link("https://doi.org/10.23736/S0026-4806.21.07487-3")[10.23736/S0026-4806.21.07487-3]
+    *Study Design:*: Pilot intervention study
+    *Key Findings:*:
+        - Pycnogenol improved physiological measures (reduced oxidative stress, improved microcirculation/endothelial function) and quality of life (higher Karnofsky Performance Scale Index) in COVID-19 recovery.
+    *Relevance:*: Evidence-based pilot for endothelial/microcirculatory support — candidate treatment relevant to the microclot/endothelial pathology shared with ME/CFS.
+    *Limitations:*: Small pilot; general COVID-recovery (not ME/CFS-specific) population; full author list not verified (only lead author confirmed).
+    *Certainty:*: 0.45
+
+=== Stavileci et al.\ 2022 — Fragmented QRS as a Cardiac Marker in COVID-19
+
+    *Full Citation:*: Stavileci B, Özdemir E, Özdemir B, Ereren E, Cengiz M. De-novo development of fragmented QRS during a six-month follow-up period in patients with COVID-19 disease and its cardiac effects. _Journal of Electrocardiology_. 2022;72:44-48. @Stavileci2022fragmentedQRS
+    *DOI:*: #link("https://doi.org/10.1016/j.jelectrocard.2022.03.006")[10.1016/j.jelectrocard.2022.03.006]
+    *Study Design:*: Prospective ECG follow-up study
+    *Key Findings:*:
+        - De-novo development of fragmented QRS complexes on ECG during six-month follow-up in COVID-19 patients, indicating cardiac injury.
+    *Relevance:*: Low-cost ECG diagnostic marker for cardiac involvement in COVID-19/long COVID.
+    *Limitations:*: Single-center; observational.
+    *Certainty:*: 0.50
+
 === Wicks 2018 — Patient, Study Thyself
 
     *Full Citation:*: Wicks P. Patient, study thyself. _BMC Medicine_. 2018;16(1):217. @Wicks2018PatientStudyThyself
