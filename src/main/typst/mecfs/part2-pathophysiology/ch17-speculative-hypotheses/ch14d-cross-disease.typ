@@ -2872,6 +2872,8 @@ The Davis 2023 review compiles temporal data that bear directly on the question 
 
 *Interpretation.* The high 1-year persistence and the *increasing* cognitive-impairment trajectory argue that post-infectious syndromes can become self-sustaining rather than resolving — consistent with the paper's model of a sustained post-infectious state (see @hyp:post-infectious-spectrum and Chapter @ch:epidemiology-outcomes). ME/CFS is generally considered lifelong once established @Davis2023LongCOVIDmajorfindings, so the Long COVID trajectory toward chronicity supports the contention that at least a substantial subset of Long COVID converges on an ME/CFS-like chronic state.
 
+*How observation would answer this.* A prospective cohort tracking symptom and cognitive-impairment prevalence from acute infection to ≥24 months would resolve whether post-infectious symptoms plateau into a chronic state or continue to accrue: the question is supported if cognitive-impairment prevalence keeps rising past 12 months without a plateau, and would be answered in the negative if prevalence plateaus or declines once duration is accounted for (i.e., the observed 16%→26% rise reflects delayed ascertainment rather than true progression).
+
 *Severity applicability:* unknown — the reviewed studies are not stratified by severity.
 
 *Consequence:* If post-infectious syndromes commonly become self-sustaining and even worsen over the first year, this argues for early, mechanism-targeted intervention in the window before chronicity locks in — a rationale that applies equally to Long COVID and to post-infectious ME/CFS onset.
@@ -2883,6 +2885,8 @@ The Davis 2023 review compiles temporal data that bear directly on the question 
 The Davis 2023 review reports heterogeneous effects of vaccination on established Long COVID symptoms: 16.7% of patients experienced symptom relief, 21.4% experienced worsening, and the remainder unchanged @Tsuchida2022vaccineLC @Davis2023LongCOVIDmajorfindings. Vaccination reduces the *risk* of developing new Long COVID (partial protection, ~15-41%), but its effect on established symptoms is mixed and unpredictable.
 
 *Interpretation.* The heterogeneous response underscores that Long COVID (and by extension ME/CFS) is not a single uniform process — the same intervention can improve or worsen depending on the underlying mechanism (e.g., immune-amplification vs. immune-deficit subtypes). It cautions against blanket claims about vaccination or immunomodulation in post-infectious illness.
+
+*How observation would answer this.* A stratified cohort study measuring pre-vaccination immune status (e.g., baseline cytokine/antibody profiles) alongside symptom response after vaccination would resolve whether the relief-vs-worsening split tracks a measurable baseline immune subtype — supported if a specific baseline profile (e.g., low-inflammatory/immune-deficit) predicts the 16.7% who improve and a contrasting profile predicts the 21.4% who worsen.
 
 *Severity applicability:* unknown — not stratified.
 
