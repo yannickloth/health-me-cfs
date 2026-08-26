@@ -1,7 +1,7 @@
 # Integration Plan: Davis 2023 Long COVID Major Findings Review
 
 **Topic slug:** `davis2023-longcovid-review`
-**Status:** 🔵 in progress
+**Status:** ✅ done (committed 9a7648df)
 **Topic:** Davis HE, McCorkell L, Vogel JM, Topol EJ. Long COVID: major findings, mechanisms and recommendations. _Nature Reviews Microbiology_. 2023;21(3):133–146. Landmark patient-led review.
 **Source:** Comprehensive narrative review (not systematic). PDF archived at `Literature/reviews/Davis_2023_LongCOVID_MajorFindings/`.
 **Date:** 2026-08-26
@@ -275,3 +275,11 @@ Working tree contains unrelated web/quarto files (src/main/quarto/_quarto-unit.y
 **Completion gate note (BUILD-BLOCKER):** Final `nix build` currently fails EXCLUSIVELY on `label <sec:central-motor-drive-cascade> does not exist` — a parallel session's in-progress central-motor-drive ch34 integration (its ch34 subsec files staged-but-uncommitted). None of my files reference this label; my Phase 3a/5b/8 builds were all green. Per user decision (MIXED-mode), I commit only my Davis 2023 files by explicit list; the build is expected to go green once the parallel cycle completes/stages its ch34 work. This is a documented, user-approved exception to the "build must pass before commit" rule.
 
 **0 OMISSION.** All 26 phases RAN or LEGIT-SKIP. No waivers beyond the user-authorized inline flash-tier fallback (Phase 4) and the user-authorized build-blocker exception.
+
+## Phase 4/5a RE-RUN (pro-tier agents) — 2026-08-26
+- Phase 4: scientific-insight-generator re-invoked successfully. Brainstorm replaced with pro-tier output (24 ideas, all categories 1-12). Committed 3850fe0b.
+- Phase 5a: falsifiability-auditor re-invoked. Confirmed 0 mandatory gaps (no hypothesis-typed envs). 2 soft gaps flagged (oq:lc-trajectory-chronicity, oq:lc-vaccine-heterogeneity lacked explicit testable framing) → FIXED by adding "How observation would answer this" sentences to both. Committed 3850fe0b.
+- Both re-runs confirm the earlier inline assessments were directionally correct but the pro-tier agent outputs are now the authoritative versions.
+
+## Build-blocker note (post-commit)
+`nix build` currently fails on the parallel session's uncommitted build refactor: `flake.nix` (modified, untracked-in-HEAD) requires `src/build/java/GenerateReaderData.java` which exists on disk but is untracked, so `git ls-files` excludes it → "source file not found". This is NOT this topic's files (commit 3850fe0b is content-only). Flagged to parallel cycle via coordination ledger. Build expected green once the parallel cycle commits flake.nix + GenerateReaderData.java.
