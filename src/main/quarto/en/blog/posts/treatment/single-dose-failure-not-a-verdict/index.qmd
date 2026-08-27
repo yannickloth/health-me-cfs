@@ -106,6 +106,8 @@ All three are real, published models — but they are *fits or mechanisms for sp
 
 I now propose a specific mathematical form. **This is my construction — a working hypothesis to make the superset-failure argument precise — and it is explicitly NOT established science.** It is not in the literature, it has not been validated, and its parameters are not measured. I present it for what it is: a scaffold.
 
+Throughout Part B, "arm" means one of two opposing influences on the curve that push in different directions as the dose rises. One influence pushes the benefit *up*; the other, which only becomes dominant later, pulls it *back down*. It is the fight between these two that produces the inverted-U. The two arms are named below. Likewise, $B_{max}$ is the maximum benefit the curve *would* reach if the downward pull never set in — a ceiling, not the value actually reached.
+
 ### B1. Two arms: occupancy (rising) and residual tone (falling)
 
 Hormetic benefit is not receptor occupancy itself. It is the cell's **compensatory adaptive response to a partial perturbation** — and a compensatory response requires that some *residual unblocked signal* remain to sustain it. Define:
@@ -120,17 +122,17 @@ I propose that net benefit is the product of occupancy and residual tone:
 
 $$ B(c) = B_{max}\, f(c)\, r(c)^{m} = B_{max}\, \frac{c^n}{c^n + 1} \left( \frac{1}{c^n + 1} \right)^{m} $$
 
-where $m$ indexes how steeply benefit depends on residual tone. This form has the properties the paper describes qualitatively, and it is the *simplest* product form with an inverted-U. Differentiating gives the peak:
+where $m$ indexes how steeply benefit depends on residual tone. This form has the properties the paper describes qualitatively, and it is the *simplest* product form with an inverted-U. Differentiating gives the peak. Write $f^{\ast}$ for the value of $f$ at which $B$ is largest — the *optimal occupancy*:
 
 $$ \frac{dB}{df} = 0 \;\Rightarrow\; f^{\ast} = \frac{1}{1+m} $$
 
-So benefit peaks at occupancy $f^{\ast} = 1/(1+m)$, and vanishes at both extremes ($B \to 0$ as $c \to 0$ and as $c \to \infty$).
+So benefit peaks at occupancy $f^{\ast} = 1/(1+m)$ — that is, the optimum is reached when $f$ equals $f^{\ast}$, the optimal occupancy — and vanishes at both extremes ($B \to 0$ as $c \to 0$ and as $c \to \infty$).
 
 **Status of B2:** a hypothesis. The product-of-Hills form is mathematically clean and reproduces the qualitative pattern, but I chose it *because* it produces the shape I wanted to demonstrate. No data establish that LDN/TLR4 benefit is literally $f \cdot r^m$. This is the point where I must be explicit that I am proposing, not reporting.
 
 ### B3. The multi-target extension
 
-If each of LDN's targets has its own $K_{d,i}$ and exponent $m_i$, total benefit is a sum of such windows:
+Let $i$ index each of LDN's targets. Each target has its own dissociation constant $K_{d,i}$ (the dose at which that target is half-occupied) and its own steepness parameter $m_i$, and therefore its own occupancy function $f_i$ and its own maximum benefit $B_{max,i}$. The total benefit across all targets, $B_{total}(D)$, is a sum of such windows:
 
 $$ B_{total}(D) = \sum_{i} B_{max,i}\, f_i\!\left(\frac{D}{K_{d,i}}\right) \left(1 - f_i\!\left(\frac{D}{K_{d,i}}\right)\right)^{m_i} $$
 
@@ -138,7 +140,7 @@ Different $K_{d,i}$ place the windows on disjoint regions of the dose axis — t
 
 ### B4. The superset-failure, conditional on the model
 
-Within this proposed model, the superset-failure is provable. Partition the target set $\{i\}$ into $\{i: K_{d,i} \sim D_{high}\}$ and $\{i: K_{d,i} \sim D_{low}\}$. Then
+Within this proposed model, the superset-failure is provable. Partition the target set $\{i\}$ into $\{i: K_{d,i} \sim D_{high}\}$ and $\{i: K_{d,i} \sim D_{low}\}$. Then, with $\varepsilon_{low}(D_{high})$ denoting the leftover contribution of the $D_{low}$-active targets at $D_{high}$ — which is negligible because those targets' windows lie far from $D_{high}$:
 
 $$ B_{total}(D_{high}) = \sum_{i \in \{D_{high}\}} B_{max,i}\,f_i\,(1-f_i)^{m_i} + \underbrace{\varepsilon_{low}(D_{high})}_{\approx 0} $$
 

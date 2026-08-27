@@ -106,6 +106,8 @@ Alle drei sind reale, publizierte Modelle — aber sie sind *Anpassungen oder Me
 
 Ich schlage nun eine spezifische mathematische Form vor. **Dies ist meine Konstruktion — eine Arbeitshypothese, um das Obermengen-Argument präzise zu machen — und es ist ausdrücklich KEINE etablierte Wissenschaft.** Sie steht nicht in der Literatur, ist nicht validiert, und ihre Parameter sind nicht gemessen. Ich präsentiere sie als das, was sie ist: ein Gerüst.
 
+In der gesamten Teil B meint „Arm" einen von zwei gegensätzlichen Einflüssen auf die Kurve, die in unterschiedliche Richtungen drücken, wenn die Dosis steigt. Der eine drückt den Nutzen *nach oben*; der andere, der erst später dominant wird, zieht ihn *nach unten*. Der Kampf zwischen diesen beiden erzeugt das umgekehrte U. Die beiden Arme werden unten benannt. Ebenso ist $B_{max}$ der maximale Nutzen, den die Kurve *erreichen würde*, wenn der Abwärtszug nie einsetzte — eine Obergrenze, nicht der tatsächlich erreichte Wert.
+
 ### B1. Zwei Arme: Besetzung (aufsteigend) und Resttonus (absteigend)
 
 Hormetischer Nutzen ist nicht die Rezeptorbesetzung selbst. Es ist die **kompensatorische adaptive Reaktion der Zelle auf eine partielle Störung** — und eine kompensatorische Reaktion erfordert, dass ein *verbleibendes unblockiertes Signal* erhalten bleibt, um sie aufrechtzuerhalten. Definiere:
@@ -120,17 +122,17 @@ Ich schlage vor, dass der Nettonutzen das Produkt aus Besetzung und Resttonus is
 
 $$ B(c) = B_{max}\, f(c)\, r(c)^{m} = B_{max}\, \frac{c^n}{c^n + 1} \left( \frac{1}{c^n + 1} \right)^{m} $$
 
-wobei $m$ indiziert, wie steil der Nutzen vom Resttonus abhängt. Diese Form hat die Eigenschaften, die das Papier qualitativ beschreibt, und sie ist die *einfachste* Produktform mit einem umgekehrten U. Ableiten ergibt den Gipfel:
+wobei $m$ indiziert, wie steil der Nutzen vom Resttonus abhängt. Diese Form hat die Eigenschaften, die das Papier qualitativ beschreibt, und sie ist die *einfachste* Produktform mit einem umgekehrten U. Ableiten ergibt den Gipfel. Schreiben wir $f^{\ast}$ für den Wert von $f$, bei dem $B$ am größten ist — die *optimale Besetzung*:
 
 $$ \frac{dB}{df} = 0 \;\Rightarrow\; f^{\ast} = \frac{1}{1+m} $$
 
-Der Nutzen gipfelt also bei Besetzung $f^{\ast} = 1/(1+m)$ und verschwindet an beiden Extremen ($B \to 0$ wenn $c \to 0$ und wenn $c \to \infty$).
+Der Nutzen gipfelt also bei Besetzung $f^{\ast} = 1/(1+m)$ — das heißt, das Optimum wird erreicht, wenn $f$ gleich $f^{\ast}$, der optimalen Besetzung, ist — und verschwindet an beiden Extremen ($B \to 0$ wenn $c \to 0$ und wenn $c \to \infty$).
 
 **Status von B2:** eine Hypothese. Die Produkt-aus-Hill-Form ist mathematisch sauber und reproduziert das qualitative Muster, aber ich habe sie *gewählt, weil sie* die Form erzeugt, die ich demonstrieren wollte. Keine Daten belegen, dass der LDN/TLR4-Nutzen buchstäblich $f \cdot r^m$ ist. Dies ist der Punkt, an dem ich ausdrücklich sein muss, dass ich vorschlage, nicht berichte.
 
 ### B3. Die Multi-Target-Erweiterung
 
-Wenn jedes LDN-Ziel sein eigenes $K_{d,i}$ und seinen eigenen Exponenten $m_i$ hat, ist der Gesamtnutzen eine Summe solcher Fenster:
+Sei $i$ der Index, der jedes LDN-Ziel bezeichnet. Jedes Ziel hat seine eigene Dissoziationskonstante $K_{d,i}$ (die Dosis, bei der dieses Ziel halb besetzt ist) und seinen eigenen Steilheitsparameter $m_i$, daher seine eigene Besetzungsfunktion $f_i$ und seinen eigenen maximalen Nutzen $B_{max,i}$. Der Gesamtnutzen über alle Ziele, $B_{total}(D)$, ist eine Summe solcher Fenster:
 
 $$ B_{total}(D) = \sum_{i} B_{max,i}\, f_i\!\left(\frac{D}{K_{d,i}}\right) \left(1 - f_i\!\left(\frac{D}{K_{d,i}}\right)\right)^{m_i} $$
 
@@ -138,7 +140,7 @@ Unterschiedliche $K_{d,i}$ platzieren die Fenster auf disjunkten Regionen der Do
 
 ### B4. Das Obermengen-Versagen, bedingt auf das Modell
 
-Innerhalb dieses vorgeschlagenen Modells ist das Obermengen-Versagen beweisbar. Partitioniere die Zielmenge $\{i\}$ in $\{i: K_{d,i} \sim D_{high}\}$ und $\{i: K_{d,i} \sim D_{low}\}$. Dann
+Innerhalb dieses vorgeschlagenen Modells ist das Obermengen-Versagen beweisbar. Partitioniere die Zielmenge $\{i\}$ in $\{i: K_{d,i} \sim D_{high}\}$ und $\{i: K_{d,i} \sim D_{low}\}$. Dann, wobei $\varepsilon_{low}(D_{high})$ den Restbeitrag der bei $D_{low}$ aktiven Ziele, ausgewertet bei $D_{high}$, bezeichnet — der vernachlässigbar ist, weil die Fenster dieser Ziele weit von $D_{high}$ entfernt liegen:
 
 $$ B_{total}(D_{high}) = \sum_{i \in \{D_{high}\}} B_{max,i}\,f_i\,(1-f_i)^{m_i} + \underbrace{\varepsilon_{low}(D_{high})}_{\approx 0} $$
 

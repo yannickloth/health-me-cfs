@@ -106,6 +106,8 @@ Tous trois sont des modèles réels et publiés — mais ce sont des *ajustement
 
 Je propose maintenant une forme mathématique spécifique. **Ceci est ma construction — une hypothèse de travail pour rendre précis l'argument du sur-ensemble — et ce n'est explicitement PAS de la science établie.** Elle n'est pas dans la littérature, elle n'a pas été validée, et ses paramètres ne sont pas mesurés. Je la présente pour ce qu'elle est : un échafaudage.
 
+Dans toute la partie B, « bras » désigne l'une des deux influences opposées sur la courbe qui poussent dans des directions différentes à mesure que la dose augmente. L'une pousse le bénéfice *vers le haut* ; l'autre, qui ne devient dominante que plus tard, le tire *vers le bas*. C'est la lutte entre ces deux-là qui produit le U inversé. Les deux bras sont nommés ci-dessous. De même, $B_{max}$ est le bénéfice maximal que la courbe *atteindrait* si le tirage vers le bas ne s'enclenchait jamais — un plafond, pas la valeur réellement atteinte.
+
 ### B1. Deux bras : occupation (ascendant) et tonus résiduel (descendant)
 
 Le bénéfice hormétique n'est pas l'occupation du récepteur elle-même. C'est la **réponse adaptative compensatoire de la cellule à une perturbation partielle** — et une réponse compensatoire exige qu'un *signal non bloqué résiduel* demeure pour la soutenir. Définissons :
@@ -120,17 +122,17 @@ Je propose que le bénéfice net soit le produit de l'occupation et du tonus ré
 
 $$ B(c) = B_{max}\, f(c)\, r(c)^{m} = B_{max}\, \frac{c^n}{c^n + 1} \left( \frac{1}{c^n + 1} \right)^{m} $$
 
-où $m$ indexe la pente de la dépendance du bénéfice au tonus résiduel. Cette forme a les propriétés que l'article décrit qualitativement, et c'est la forme produit la *plus simple* avec un U inversé. La dérivation donne le pic :
+où $m$ indexe la pente de la dépendance du bénéfice au tonus résiduel. Cette forme a les propriétés que l'article décrit qualitativement, et c'est la forme produit la *plus simple* avec un U inversé. La dérivation donne le pic. Notons $f^{\ast}$ la valeur de $f$ pour laquelle $B$ est le plus grand — l'*occupation optimale* :
 
 $$ \frac{dB}{df} = 0 \;\Rightarrow\; f^{\ast} = \frac{1}{1+m} $$
 
-Ainsi le bénéfice culmine à une occupation $f^{\ast} = 1/(1+m)$, et s'annule aux deux extrêmes ($B \to 0$ quand $c \to 0$ et quand $c \to \infty$).
+Ainsi le bénéfice culmine à une occupation $f^{\ast} = 1/(1+m)$ — c'est-à-dire que l'optimum est atteint quand $f$ égale $f^{\ast}$, l'occupation optimale — et s'annule aux deux extrêmes ($B \to 0$ quand $c \to 0$ et quand $c \to \infty$).
 
 **Statut de B2 :** une hypothèse. La forme en produit de Hill est mathématiquement propre et reproduit le schéma qualitatif, mais je l'ai choisie *parce qu'elle* produit la forme que je voulais démontrer. Aucune donnée n'établit que le bénéfice LDN/TLR4 est littéralement $f \cdot r^m$. C'est le point où je dois être explicite que je propose, pas que je rapporte.
 
 ### B3. L'extension multi-cibles
 
-Si chacune des cibles du LDN a sa propre $K_{d,i}$ et son propre exposant $m_i$, le bénéfice total est une somme de telles fenêtres :
+Soit $i$ l'indice qui désigne chacune des cibles du LDN. Chaque cible a sa propre constante de dissociation $K_{d,i}$ (la dose à laquelle cette cible est à moitié occupée) et son propre paramètre de pente $m_i$, donc sa propre fonction d'occupation $f_i$ et son propre bénéfice maximal $B_{max,i}$. Le bénéfice total à travers toutes les cibles, $B_{total}(D)$, est une somme de telles fenêtres :
 
 $$ B_{total}(D) = \sum_{i} B_{max,i}\, f_i\!\left(\frac{D}{K_{d,i}}\right) \left(1 - f_i\!\left(\frac{D}{K_{d,i}}\right)\right)^{m_i} $$
 
@@ -138,7 +140,7 @@ Des $K_{d,i}$ différentes placent les fenêtres sur des régions disjointes de 
 
 ### B4. L'échec du sur-ensemble, conditionnel au modèle
 
-Dans ce modèle proposé, l'échec du sur-ensemble est démontrable. Partitionnons l'ensemble des cibles $\{i\}$ en $\{i: K_{d,i} \sim D_{high}\}$ et $\{i: K_{d,i} \sim D_{low}\}$. Alors
+Dans ce modèle proposé, l'échec du sur-ensemble est démontrable. Partitionnons l'ensemble des cibles $\{i\}$ en $\{i: K_{d,i} \sim D_{high}\}$ et $\{i: K_{d,i} \sim D_{low}\}$. Alors, avec $\varepsilon_{low}(D_{high})$ désignant la contribution résiduelle des cibles actives à $D_{low}$ évaluée à $D_{high}$ — qui est négligeable parce que les fenêtres de ces cibles se situent loin de $D_{high}$ :
 
 $$ B_{total}(D_{high}) = \sum_{i \in \{D_{high}\}} B_{max,i}\,f_i\,(1-f_i)^{m_i} + \underbrace{\varepsilon_{low}(D_{high})}_{\approx 0} $$
 
