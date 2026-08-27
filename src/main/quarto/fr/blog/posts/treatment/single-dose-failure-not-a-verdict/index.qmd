@@ -148,7 +148,7 @@ Une lecture courante de la section précédente est qu'aucun modèle établi n'e
 
 $$ f(c) = \frac{c^n}{c^n + 1}, \qquad c = D/K_d $$
 
-où $n$ est le coefficient de Hill. C'est le bras *ascendant* : l'occupation croît de façon monotone avec la dose. Ce que l'équation **ne peut pas** faire, c'est produire un U inversé — **à elle seule, elle donne une courbe monotone.** C'est un fait établi important : le U inversé requiert quelque chose *au-delà* de l'occupation d'un seul récepteur. Ce « quelque chose en plus » est la question distincte traitée à la section suivante.
+où $n$ est le coefficient de Hill — il reflète la coopérativité de liaison, combien nettement l'occupation monte autour de $K_d$, et c'est un paramètre de forme plutôt qu'une affinité. C'est le bras *ascendant* : l'occupation croît de façon monotone avec la dose. Ce que l'équation **ne peut pas** faire, c'est produire un U inversé — **à elle seule, elle donne une courbe monotone.** C'est un fait établi important : le U inversé requiert quelque chose *au-delà* de l'occupation d'un seul récepteur. Ce « quelque chose en plus » est la question distincte traitée à la section suivante.
 
 ### A4. Des traitements mathématiques publiés de l'hormèse existent, mais il n'y a pas d'équation canonique unique
 
@@ -180,7 +180,7 @@ Pour le mécanisme TLR4/Nrf2 du LDN, l'affirmation biologique est : le blocage p
 
 ### B2. La fonction de bénéfice à deux bras
 
-Je propose que le bénéfice net soit le produit de l'occupation et du tonus résiduel :
+Je propose que le bénéfice net soit le produit de l'occupation et du tonus résiduel. C'est un *produit* — et non, disons, une somme — parce que le bénéfice exige deux conditions simultanées, et chacune est nécessaire. D'après B1 : la réponse doit être *déclenchée* (elle a besoin d'assez d'occupation, $f$) et elle doit être *soutenue* (elle a besoin d'assez de signal résiduel, $r$). Une carence dans l'une ou l'autre est fatale : une perturbation faible ne déclenche jamais le programme, et un blocage complet ne laisse rien pour le soutenir. Quand deux exigences sont toutes deux nécessaires, la forme naturelle est leur produit — si l'un des facteurs est nul, le produit est nul, et le bénéfice disparaît. Cette seule propriété est ce qui transforme une courbe monotone en U inversé :
 
 $$ B(c) = B_{max}\, f(c)\, r(c)^{m} = B_{max}\, \frac{c^n}{c^n + 1} \left( \frac{1}{c^n + 1} \right)^{m} $$
 

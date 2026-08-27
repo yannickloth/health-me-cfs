@@ -148,7 +148,7 @@ Eine häufige Lesart des vorherigen Abschnitts ist, dass gar kein etabliertes Mo
 
 $$ f(c) = \frac{c^n}{c^n + 1}, \qquad c = D/K_d $$
 
-wobei $n$ der Hill-Koeffizient ist. Es ist der *aufsteigende* Arm: Die Besetzung steigt monoton mit der Dosis. Was die Gleichung **nicht** kann, ist ein umgekehrtes U zu erzeugen — **für sich allein ergibt sie eine monotone Kurve.** Das ist eine wichtige etablierte Tatsache: Das umgekehrte U erfordert etwas *jenseits* der Besetzung eines einzelnen Rezeptors. Dieses „etwas mehr" ist die getrennte Frage, die als Nächstes behandelt wird.
+wobei $n$ der Hill-Koeffizient ist — er spiegelt die Bindungs-Kooperativität wider, wie scharf die Besetzung um $K_d$ steigt, und ist eher ein Formparameter als eine Affinität. Es ist der *aufsteigende* Arm: Die Besetzung steigt monoton mit der Dosis. Was die Gleichung **nicht** kann, ist ein umgekehrtes U zu erzeugen — **für sich allein ergibt sie eine monotone Kurve.** Das ist eine wichtige etablierte Tatsache: Das umgekehrte U erfordert etwas *jenseits* der Besetzung eines einzelnen Rezeptors. Dieses „etwas mehr" ist die getrennte Frage, die als Nächstes behandelt wird.
 
 ### A4. Veröffentlichte mathematische Behandlungen der Hormesis existieren, aber es gibt keine einzige kanonische Gleichung
 
@@ -180,7 +180,7 @@ Für den TLR4/Nrf2-Mechanismus von LDN lautet die biologische Behauptung: Partie
 
 ### B2. Die Zwei-Arme-Nutzenfunktion
 
-Ich schlage vor, dass der Nettonutzen das Produkt aus Besetzung und Resttonus ist:
+Ich schlage vor, dass der Nettonutzen das Produkt aus Besetzung und Resttonus ist. Es ist ein *Produkt* — und nicht etwa eine Summe — weil der Nutzen zwei gleichzeitige Bedingungen erfordert, und jede ist notwendig. Aus B1: Die Antwort muss *ausgelöst* werden (sie braucht genug Besetzung, $f$) und sie muss *aufrechterhalten* werden (sie braucht genug Restsignal, $r$). Ein Mangel in einer der beiden ist fatal: Eine schwache Störung löst das Programm nie aus, und eine vollständige Blockade lässt nichts übrig, um es aufrechtzuerhalten. Wenn zwei Anforderungen beide notwendig sind, ist die natürliche Form ihr Produkt — wenn einer der Faktoren null ist, ist das Produkt null, und der Nutzen verschwindet. Genau diese Eigenschaft verwandelt eine monotone Kurve in ein umgekehrtes U:
 
 $$ B(c) = B_{max}\, f(c)\, r(c)^{m} = B_{max}\, \frac{c^n}{c^n + 1} \left( \frac{1}{c^n + 1} \right)^{m} $$
 

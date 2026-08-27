@@ -148,7 +148,7 @@ A common reading of the previous section is that no established model exists at 
 
 $$ f(c) = \frac{c^n}{c^n + 1}, \qquad c = D/K_d $$
 
-where $n$ is the Hill coefficient. It is the *rising* arm: occupancy rises monotonically with dose. What the equation **cannot** do is produce an inverted-U — **on its own it yields a monotonic curve.** That is an important established fact: the inverted-U requires something *beyond* single-receptor occupancy. That "something beyond" is the separate question addressed next.
+where $n$ is the Hill coefficient — it reflects binding cooperativity, how sharply occupancy rises around $K_d$, and is a shape parameter rather than an affinity. It is the *rising* arm: occupancy rises monotonically with dose. What the equation **cannot** do is produce an inverted-U — **on its own it yields a monotonic curve.** That is an important established fact: the inverted-U requires something *beyond* single-receptor occupancy. That "something beyond" is the separate question addressed next.
 
 ### A4. Published mathematical treatments of hormesis exist, but there is no single canonical equation
 
@@ -180,7 +180,7 @@ For LDN's TLR4/Nrf2 mechanism, the biological claim is: partial blockade (interm
 
 ### B2. The two-arm benefit function
 
-I propose that net benefit is the product of occupancy and residual tone:
+I propose that net benefit is the product of occupancy and residual tone. It is a *product* — and not, say, a sum — because the benefit requires two conditions to hold at the same time, and each is necessary. From B1: the response must be *triggered* (it needs enough occupancy, $f$) and it must be *sustained* (it needs enough residual signal, $r$). A shortfall in either is fatal: a weak perturbation never triggers the program, and a complete block leaves nothing to sustain it. When two requirements are both necessary, the natural form is their product — if either factor is zero, the product is zero, and the benefit vanishes. That single property is what turns a monotonic curve into an inverted-U:
 
 $$ B(c) = B_{max}\, f(c)\, r(c)^{m} = B_{max}\, \frac{c^n}{c^n + 1} \left( \frac{1}{c^n + 1} \right)^{m} $$
 
