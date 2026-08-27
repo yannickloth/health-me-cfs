@@ -21,7 +21,7 @@ The whole argument fits in one paragraph and one table. The detailed proof — s
 
 The low-dose benefit of LDN depends on **partial** blockade of its receptor: the cell must still sense some residual signal to mount its compensatory anti-inflammatory response. Whether a receptor is partially or fully blocked is set by the drug concentration relative to that receptor's sensitivity — the ratio $c = D/K_d$, dose divided by the receptor's dissociation constant. Raise the dose and $c$ rises; the fraction $f$ of blocked receptors climbs toward 100%. At 1 mg, the microglial receptor TLR4 sits in the partial-blockade zone and the benefit mechanism runs. At 4 mg, the same receptor is blocked almost completely, the residual signal is gone, and **the 1 mg mechanism is switched off — not amplified.** Meanwhile, 4 mg engages a different target (TRPM3) that 1 mg never reaches. A null at 4 mg therefore tested the 4 mg mechanism. It did not test the 1 mg mechanism — that mechanism was not running during the 4 mg trial.
 
-The numbers make this concrete. The occupancy column uses the standard Hill equation $f = c^2/(1+c^2)$ (established pharmacology); the benefit column uses the simple model $B \propto f(1-f)^2$ proposed in Part B of this article (a hypothesis); $K_d = 1$ mg is illustrative and unmeasured:
+The numbers make this concrete. The occupancy column uses the standard Hill equation $f = c^2/(1+c^2)$ (established pharmacology); the benefit column uses the simple model $B \propto f(1-f)^2$ proposed in Part B of this article (a hypothesis). The parameter choices are illustrative and unmeasured: $K_d = 1$ mg, the Hill coefficient $n = 2$, and the steepness exponent $m = 2$ (the general model in Part B leaves $n$ and $m$ free):
 
 | Dose | $c = D/K_d$ | $f$ — receptors blocked | $1-f$ — residual signal | benefit, relative to peak (proposed model) |
 |------|------------|--------------------------|--------------------------|---------------------------------------------|
@@ -32,7 +32,7 @@ The numbers make this concrete. The occupancy column uses the standard Hill equa
 
 ![One target's benefit across the dose axis: at 1 mg the target sits inside its window (84% of peak); at 4 mg the window has closed and the mechanism is switched off. A null at 4 mg never sees the peak. *Illustration of the proposed model with unmeasured parameters — not empirical data.*](fig0-dose-window.svg)
 
-Read the table from the bottom up. A null at 4 mg establishes that the bottom row is ≈ 0. It says nothing about the first two rows, because those rows describe a state — partial blockade — that a 4 mg dose never produces. And 3 mg is yet another experiment: the low-dose window has closed there too, but other mechanisms (the endorphin plateau, the opening TRPM3 window) are at *their* optimum — different targets again. Each dose is a different experiment, and the failure of one convicts none of the others.
+Read the table from the bottom up. A null at 4 mg speaks only to the bottom row. It says nothing about the first two rows, because those rows describe a state — partial blockade — that a 4 mg dose never produces. And 3 mg is yet another experiment: the low-dose window has closed there too, but different mechanisms engage there — the endorphin plateau and the opening TRPM3 window. Each dose is a different experiment, and the failure of one convicts none of the others.
 
 One clarification: switching a benefit off is not the same as causing harm. At 4 mg the low-dose mechanism simply does not run — the patient is at their untreated baseline for that pathway, not below it. The 4 mg experience is therefore a null, not a worsening — and a null is information only about the state that was actually tested.
 
@@ -67,7 +67,7 @@ So hormesis is the *opposite* of the superset model: there is a window, and push
 
 ### The four targets, and the doses at which each engages
 
-LDN binds at least four distinct molecular targets, and they engage at **different dose bands**. The paper's dose-band map (`ch33`, hormetic reference) is:
+LDN binds at least four distinct molecular targets, and they engage at **different dose bands**. The paper's dose-band map (ch33, hormetic reference) is:
 
 | Dose band | Benefit mechanism | Observed side-effect |
 |-----------|-------------------|---------------------|
@@ -76,6 +76,8 @@ LDN binds at least four distinct molecular targets, and they engage at **differe
 | 1.5–3.0 mg | **Opioid upregulation** plateaus; benefit preserved | — |
 | 3.0–4.5 mg | **TRPM3 restoration** — first-time benefit appears here; TLR4/Nrf2 extinguished | pronounced wakefulness / insomnia |
 | >4.5 mg | none — all mechanisms past their optima; mu-opioid antagonism at 50 mg | opioid-withdrawal-like symptoms |
+
+![LDN's benefit mechanisms on the dose axis: TLR4/Nrf2 priming (0.5–1.5 mg), the endorphin rebound (1.5–3.0 mg, plateau preserved to 4.5 mg), and TRPM3 restoration (3.0–4.5 mg), with the 1 mg and 4 mg trial points marked. The two trials test different windows; at 4 mg the TLR4/Nrf2 window has already closed. *Schematic — window positions from the paper's dose-band map (itself low certainty); shapes and equal heights illustrative and unmeasured; orexin disinhibition omitted for clarity. Not empirical data.*](fig5-ldn-windows.svg)
 
 The four mechanisms, in their chemistry:
 
@@ -204,7 +206,9 @@ The inference conflates two very different claims:
 1. **"This drug is not active in this patient"** — a verdict about the drug.
 2. **"This target is not the rate-limiting pathway in this patient"** — a verdict about a target.
 
-A failure at 4 mg yields only the second: the target combination engaged in the 4 mg band — TRPM3 restoration, orexin disinhibition, and TLR4 in its *over-blocked* state — is not the pathway limiting symptoms in this patient. It says nothing about the TLR4/Nrf2 hormetic state or the endorphin rebound, which exist only at 1–3 mg — because those states *never occurred* during a 4 mg trial.
+A failure at 4 mg yields at most the second: the target combination engaged in the 4 mg band — TRPM3 restoration, orexin disinhibition, and TLR4 in its *over-blocked* state — is not the pathway limiting symptoms in this patient. And even that verdict is provisional, for the reason developed below: if the 4 mg band's targets were never actually engaged at a clinical dose, the result says nothing about any mechanism. It certainly says nothing about the TLR4/Nrf2 hormetic state or the endorphin rebound, which engage only at 0.5–3 mg — because those states *never occurred* during a 4 mg trial.
+
+![Which mechanisms a 1 mg versus a 4 mg trial actually engages. A null at 4 mg reads the bottom row only — the TLR4/Nrf2 priming cell (top left) was never tested. *Schematic summary of the paper's dose-band map, not empirical data.*](fig6-tested-matrix.svg)
 
 A simple analogy: a drug blocks two receptors, A and B, with 100-fold higher affinity for A. At a low dose it engages only A — and only partially. At a high dose it engages A *completely*, and B as well. Now suppose the benefit requires *partial* engagement of A (the hormetic case). A failed high-dose trial then proves nothing about the low dose: the beneficial state — partial engagement of A — never occurred during the high-dose trial; A was fully blocked, and B's engagement is beside the point. This is subtype 4a in [Part 2](../inverted-u-not-one-thing/) (concentration-dependent target selection), combined with the inverted-U: target selection is why 4 mg reaches targets that 1 mg cannot, and the inverted-U is why 4 mg *loses* the benefit that 1 mg had.
 
@@ -216,7 +220,7 @@ There is an even sharper version of this for LDN specifically. The TLR4 antagoni
 
 The superset inference **is** valid in one precise case. If a drug hits a single target, with a single affinity and a monotonic dose-response curve (more dose = more occupancy = more effect, no inversion), then a high-dose failure suffices, and lower doses are redundant. This is a general pharmacology principle — it is the assumption behind standard dose-finding for many single-target, monotonic agents — not a claim specific to LDN or drawn from the paper's LDN analysis.
 
-LDN is not in this class. Its dose-response curve is not monotonic — it is nonlinear, with target optima that do not overlap. For this kind of molecule, the superset hypothesis is not a reasonable shortcut: it is the very hypothesis the dose trial is meant to *test*, not presuppose.
+LDN is not in this class. Its dose-response curve is not monotonic — benefit rises and then falls within the clinical range, with target optima that do not overlap. For this kind of molecule, the superset hypothesis is not a reasonable shortcut: it is the very hypothesis the dose trial is meant to *test*, not presuppose.
 
 To be honest about the other direction too: LDN's *overall* evidence is weak, and that does not favor any dose. The FINAL trial (n = 99) found no significant primary pain difference [@DueBruun2024LDNFibromyalgia], a responder re-analysis of six secondary outcomes was null on all [@Nielsen2026LDNFMResponder], and a meta-analysis found no between-group benefit [@Ologunowa2025LDNFMMeta]. These nulls are real and must be weighed. But they were single-dose trials — none swept the dose axis. A null at one dose, in a drug whose targets engage at different bands, is exactly the ambiguity this article is about.
 
@@ -250,7 +254,7 @@ If you accept that "low dose works" does **not** predict "high dose works" (beca
 | A failure at 4 mg does not imply a failure at 1 mg | Moderate — true if the bands engage distinct targets; false for a single-target monotonic drug |
 | The superset hypothesis is valid only for a single-target monotonic drug | High — definition of monotonicity and target engagement |
 | LDN itself has proven clinical benefit in ME/CFS | Low — FINAL trial null [@DueBruun2024LDNFibromyalgia], responder analysis null [@Nielsen2026LDNFMResponder], meta-analysis null [@Ologunowa2025LDNFMMeta]; no large ME/CFS RCT positive |
-| Dose finding is diagnostic of the limiting mechanism | Low to moderate — the diagnostic framework is untested prospectively (HIP-B trial) |
+| Dose finding is diagnostic of the limiting mechanism | Low to moderate — the diagnostic framework is untested prospectively (the proposed HIP-B trial) |
 
 ---
 
