@@ -82,13 +82,13 @@ La relation dose-réponse biphasique (en U inversé / en J) — stimulation à f
 
 Pour le groupe Nrf2, le mécanisme du bras *ascendant* (bénéfice à faible dose) est bien caractérisé. Keap1 maintient le facteur de transcription Nrf2 en vue de sa dégradation ; un stress oxydatif ou inflammatoire modéré modifie les résidus cystéine de Keap1, libérant Nrf2 pour activer un large programme de gènes antioxydants/anti-inflammatoires (des centaines de gènes, selon la littérature Nrf2/ARE). C'est de la biologie redox établie, et l'activation de Nrf2 est le médiateur généralisé proposé des réponses dose-réponse hormétiques [@Calabrese2021Nrf2].
 
-### A3. L'équation de Hill est le langage établi de l'occupation
+### A3. L'équation de Hill est établie, valide et standard — mais seulement pour l'occupation monotone
 
-La fraction de récepteurs occupés par un médicament de dose $D$ et de constante de dissociation $K_d$ est la fonction de Hill
+Une lecture courante de la section précédente est qu'aucun modèle établi n'existe du tout. Ce n'est pas ce que dit la section. L'**équation de Hill** est publiée, valide et universellement standard — c'est de la pharmacodynamique fondamentale (Hill, 1910), présente dans tous les manuels de pharmacologie. Ce n'est pas une suggestion. La fraction de récepteurs occupés par un médicament de dose $D$ et de constante de dissociation $K_d$ est la fonction de Hill
 
 $$ f(c) = \frac{c^n}{c^n + 1}, \qquad c = D/K_d $$
 
-où $n$ est le coefficient de Hill. C'est de la pharmacodynamique fondamentale, de manuel (Hill, 1910). C'est le bras *ascendant* : l'occupation croît de façon monotone avec la dose. **À elle seule, elle produit une courbe monotone — elle ne peut pas produire de U inversé.** C'est un fait établi important : le U inversé requiert quelque chose au-delà de l'occupation d'un seul récepteur.
+où $n$ est le coefficient de Hill. C'est le bras *ascendant* : l'occupation croît de façon monotone avec la dose. Ce que l'équation **ne peut pas** faire, c'est produire un U inversé — **à elle seule, elle donne une courbe monotone.** C'est un fait établi important : le U inversé requiert quelque chose *au-delà* de l'occupation d'un seul récepteur. Ce « quelque chose en plus » est la question distincte traitée à la section suivante.
 
 ### A4. Des traitements mathématiques publiés de l'hormèse existent, mais il n'y a pas d'équation canonique unique
 

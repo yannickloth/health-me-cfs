@@ -82,13 +82,13 @@ The biphasic (inverted-U / J-shaped) dose-response — low-dose stimulation, hig
 
 For the Nrf2 cluster, the mechanism of the *rising* (low-dose benefit) arm is well characterized. Keap1 holds the transcription factor Nrf2 for degradation; a mild oxidative or inflammatory stress modifies Keap1's cysteine residues, releasing Nrf2 to upregulate a broad antioxidant/anti-inflammatory gene program (hundreds of genes, per the Nrf2/ARE literature). This is established redox biology, and Nrf2 activation is the proposed generalized mediator of hormetic dose-responses [@Calabrese2021Nrf2].
 
-### A3. The Hill equation is the established language of occupancy
+### A3. The Hill equation is established, valid, and standard — but only for monotonic occupancy
 
-The fraction of receptors occupied by a drug of dose $D$ and dissociation constant $K_d$ is the Hill function
+A common reading of the previous section is that no established model exists at all. That is not what the section says. The **Hill equation** is published, valid, and universally standard — it is foundational pharmacodynamics (Hill, 1910), in every pharmacology textbook. It is not a suggestion. The fraction of receptors occupied by a drug of dose $D$ and dissociation constant $K_d$ is the Hill function
 
 $$ f(c) = \frac{c^n}{c^n + 1}, \qquad c = D/K_d $$
 
-where $n$ is the Hill coefficient. This is foundational, textbook pharmacodynamics (Hill, 1910). It is the *rising* arm: occupancy rises monotonically with dose. **On its own it produces a monotonic curve — it cannot produce an inverted-U.** That is an important established fact: the inverted-U requires something beyond single-receptor occupancy.
+where $n$ is the Hill coefficient. It is the *rising* arm: occupancy rises monotonically with dose. What the equation **cannot** do is produce an inverted-U — **on its own it yields a monotonic curve.** That is an important established fact: the inverted-U requires something *beyond* single-receptor occupancy. That "something beyond" is the separate question addressed next.
 
 ### A4. Published mathematical treatments of hormesis exist, but there is no single canonical equation
 

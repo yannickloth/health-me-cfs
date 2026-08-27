@@ -82,13 +82,13 @@ Die biphasische Dosis-Wirkungs-Beziehung (umgekehrtes U / J-förmig) — Stimula
 
 Für den Nrf2-Cluster ist der Mechanismus des *aufsteigenden* Arms (Nutzen bei niedriger Dosis) gut charakterisiert. Keap1 hält den Transkriptionsfaktor Nrf2 zum Abbau bereit; ein milder oxidativer oder inflammatorischer Stress modifiziert Keap1s Cysteinreste, setzt Nrf2 frei und aktiviert ein breites Antioxidans-/Entzündungshemmer-Genprogramm (Hunderte Gene, gemäß der Nrf2/ARE-Literatur). Dies ist etablierte Redoxbiologie, und die Nrf2-Aktivierung ist der vorgeschlagene generalisierte Vermittler hormetischer Dosis-Wirkungs-Reaktionen [@Calabrese2021Nrf2].
 
-### A3. Die Hill-Gleichung ist die etablierte Sprache der Besetzung
+### A3. Die Hill-Gleichung ist etabliert, gültig und Standard — aber nur für monotone Besetzung
 
-Die Fraktion der von einem Medikament der Dosis $D$ und der Dissoziationskonstante $K_d$ besetzten Rezeptoren ist die Hill-Funktion
+Eine häufige Lesart des vorherigen Abschnitts ist, dass gar kein etabliertes Modell existiert. Das sagt der Abschnitt nicht. Die **Hill-Gleichung** ist publiziert, gültig und universell Standard — sie ist grundlegende Pharmakodynamik (Hill, 1910), in jedem Pharmakologie-Lehrbuch. Sie ist kein Vorschlag. Die Fraktion der von einem Medikament der Dosis $D$ und der Dissoziationskonstante $K_d$ besetzten Rezeptoren ist die Hill-Funktion
 
 $$ f(c) = \frac{c^n}{c^n + 1}, \qquad c = D/K_d $$
 
-wobei $n$ der Hill-Koeffizient ist. Dies ist grundlegende Lehrbuch-Pharmakodynamik (Hill, 1910). Es ist der *aufsteigende* Arm: Die Besetzung steigt monoton mit der Dosis. **Für sich allein erzeugt sie eine monotone Kurve — sie kann kein umgekehrtes U erzeugen.** Das ist eine wichtige etablierte Tatsache: Das umgekehrte U erfordert etwas jenseits der Besetzung eines einzelnen Rezeptors.
+wobei $n$ der Hill-Koeffizient ist. Es ist der *aufsteigende* Arm: Die Besetzung steigt monoton mit der Dosis. Was die Gleichung **nicht** kann, ist ein umgekehrtes U zu erzeugen — **für sich allein ergibt sie eine monotone Kurve.** Das ist eine wichtige etablierte Tatsache: Das umgekehrte U erfordert etwas *jenseits* der Besetzung eines einzelnen Rezeptors. Dieses „etwas mehr" ist die getrennte Frage, die als Nächstes behandelt wird.
 
 ### A4. Veröffentlichte mathematische Behandlungen der Hormesis existieren, aber es gibt keine einzige kanonische Gleichung
 
