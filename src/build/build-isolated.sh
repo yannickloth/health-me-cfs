@@ -41,6 +41,7 @@ copy_shared() {
   cp "$WEB/glossary-en.json" "$WEB/glossary-fr.json" "$WEB/glossary-de.json" \
      "$WEB/styles.css" "$WEB/mecfs-sidebar.js" "$WEB/mecfs-sidebar.json" \
      "$WEB/mecfs-sidebar.html" "$WEB/mecfs-breadcrumb.js" "$WEB/part-accordion.js" "$WEB/part-chapters.json" \
+     "$WEB/glossary-tooltip.html" "$WEB/glossary-tooltip.js" \
      "$dst/" 2>/dev/null || true
 }
 

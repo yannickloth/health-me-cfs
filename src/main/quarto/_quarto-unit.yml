@@ -73,11 +73,14 @@ format:
     number-sections: true
     html-math-method: mathjax
     cite-method: citeproc
-    include-after-body: mecfs-sidebar.html
+    include-after-body:
+      - mecfs-sidebar.html
+      - glossary-tooltip.html
     resources:
       - glossary-en.json
       - glossary-fr.json
       - glossary-de.json
+      - glossary-tooltip.js
       - mecfs-sidebar.js
       - mecfs-sidebar.json
       - mecfs-breadcrumb.js
