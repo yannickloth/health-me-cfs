@@ -122,9 +122,9 @@ $$ B(c) = B_{max}\, f(c)\, r(c)^{m} = B_{max}\, \frac{c^n}{c^n + 1} \left( \frac
 
 où $m$ indexe la pente de la dépendance du bénéfice au tonus résiduel. Cette forme a les propriétés que l'article décrit qualitativement, et c'est la forme produit la *plus simple* avec un U inversé. La dérivation donne le pic :
 
-$$ \frac{dB}{df} = 0 \;\Rightarrow\; f^{\*} = \frac{1}{1+m} $$
+$$ \frac{dB}{df} = 0 \;\Rightarrow\; f^{\ast} = \frac{1}{1+m} $$
 
-Ainsi le bénéfice culmine à une occupation $f^{\*} = 1/(1+m)$, et s'annule aux deux extrêmes ($B \to 0$ quand $c \to 0$ et quand $c \to \infty$).
+Ainsi le bénéfice culmine à une occupation $f^{\ast} = 1/(1+m)$, et s'annule aux deux extrêmes ($B \to 0$ quand $c \to 0$ et quand $c \to \infty$).
 
 **Statut de B2 :** une hypothèse. La forme en produit de Hill est mathématiquement propre et reproduit le schéma qualitatif, mais je l'ai choisie *parce qu'elle* produit la forme que je voulais démontrer. Aucune donnée n'établit que le bénéfice LDN/TLR4 est littéralement $f \cdot r^m$. C'est le point où je dois être explicite que je propose, pas que je rapporte.
 

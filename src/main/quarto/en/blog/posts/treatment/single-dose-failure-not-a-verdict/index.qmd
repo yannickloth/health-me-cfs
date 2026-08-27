@@ -122,9 +122,9 @@ $$ B(c) = B_{max}\, f(c)\, r(c)^{m} = B_{max}\, \frac{c^n}{c^n + 1} \left( \frac
 
 where $m$ indexes how steeply benefit depends on residual tone. This form has the properties the paper describes qualitatively, and it is the *simplest* product form with an inverted-U. Differentiating gives the peak:
 
-$$ \frac{dB}{df} = 0 \;\Rightarrow\; f^{\*} = \frac{1}{1+m} $$
+$$ \frac{dB}{df} = 0 \;\Rightarrow\; f^{\ast} = \frac{1}{1+m} $$
 
-So benefit peaks at occupancy $f^{\*} = 1/(1+m)$, and vanishes at both extremes ($B \to 0$ as $c \to 0$ and as $c \to \infty$).
+So benefit peaks at occupancy $f^{\ast} = 1/(1+m)$, and vanishes at both extremes ($B \to 0$ as $c \to 0$ and as $c \to \infty$).
 
 **Status of B2:** a hypothesis. The product-of-Hills form is mathematically clean and reproduces the qualitative pattern, but I chose it *because* it produces the shape I wanted to demonstrate. No data establish that LDN/TLR4 benefit is literally $f \cdot r^m$. This is the point where I must be explicit that I am proposing, not reporting.
 

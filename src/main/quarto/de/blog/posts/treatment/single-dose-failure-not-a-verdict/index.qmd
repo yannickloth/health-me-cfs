@@ -122,9 +122,9 @@ $$ B(c) = B_{max}\, f(c)\, r(c)^{m} = B_{max}\, \frac{c^n}{c^n + 1} \left( \frac
 
 wobei $m$ indiziert, wie steil der Nutzen vom Resttonus abhängt. Diese Form hat die Eigenschaften, die das Papier qualitativ beschreibt, und sie ist die *einfachste* Produktform mit einem umgekehrten U. Ableiten ergibt den Gipfel:
 
-$$ \frac{dB}{df} = 0 \;\Rightarrow\; f^{\*} = \frac{1}{1+m} $$
+$$ \frac{dB}{df} = 0 \;\Rightarrow\; f^{\ast} = \frac{1}{1+m} $$
 
-Der Nutzen gipfelt also bei Besetzung $f^{\*} = 1/(1+m)$ und verschwindet an beiden Extremen ($B \to 0$ wenn $c \to 0$ und wenn $c \to \infty$).
+Der Nutzen gipfelt also bei Besetzung $f^{\ast} = 1/(1+m)$ und verschwindet an beiden Extremen ($B \to 0$ wenn $c \to 0$ und wenn $c \to \infty$).
 
 **Status von B2:** eine Hypothese. Die Produkt-aus-Hill-Form ist mathematisch sauber und reproduziert das qualitative Muster, aber ich habe sie *gewählt, weil sie* die Form erzeugt, die ich demonstrieren wollte. Keine Daten belegen, dass der LDN/TLR4-Nutzen buchstäblich $f \cdot r^m$ ist. Dies ist der Punkt, an dem ich ausdrücklich sein muss, dass ich vorschlage, nicht berichte.
 
