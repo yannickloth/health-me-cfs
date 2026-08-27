@@ -104,7 +104,9 @@ format:
     number-sections: true
     html-math-method: mathjax
     cite-method: citeproc
-    include-after-body: glossary-tooltip.html
+    include-after-body:
+      - toc-references.html
+      - glossary-tooltip.html
     resources:
       - glossary-en.json
       - glossary-fr.json

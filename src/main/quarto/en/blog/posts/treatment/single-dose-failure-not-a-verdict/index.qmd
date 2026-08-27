@@ -23,7 +23,7 @@ The low-dose benefit of LDN depends on **partial** blockade of its receptor: the
 
 The numbers make this concrete. The occupancy column uses the standard Hill equation $f = c^2/(1+c^2)$ (established pharmacology); the benefit column uses the simple model $B \propto f(1-f)^2$ proposed in Part B of this article (a hypothesis). The parameter choices are illustrative and unmeasured: $K_d = 1$ mg, the Hill coefficient $n = 2$, and the steepness exponent $m = 2$ (the general model in Part B leaves $n$ and $m$ free):
 
-| Dose | $c = D/K_d$ | $f$ — receptors blocked | $1-f$ — residual signal | benefit, relative to peak (proposed model) |
+| Dose | $c = D/K_d$ | $f$ (blocked) | $1-f$ (residual) | benefit, rel. to peak |
 |------|------------|--------------------------|--------------------------|---------------------------------------------|
 | 0.7 mg | 0.7 | 0.33 | 0.67 | **1.00 — the peak** |
 | 1 mg | 1.0 | 0.50 | 0.50 | 0.84 |

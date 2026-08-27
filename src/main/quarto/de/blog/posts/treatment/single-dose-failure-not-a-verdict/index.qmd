@@ -23,7 +23,7 @@ Der Niedrigdosis-Nutzen von LDN hängt von einer **partiellen** Blockade seines 
 
 Die Zahlen machen das konkret. Die Besetzungsspalte nutzt die Standard-Hill-Gleichung $f = c^2/(1+c^2)$ (etablierte Pharmakologie); die Nutzenspalte nutzt das einfache Modell $B \propto f(1-f)^2$, das in Teil B dieses Artikels vorgeschlagen wird (eine Hypothese). Die Parameterwahl ist illustrativ und ungemessen: $K_d = 1$ mg, der Hill-Koeffizient $n = 2$ und der Steilheitsexponent $m = 2$ (das allgemeine Modell in Teil B lässt $n$ und $m$ frei):
 
-| Dosis | $c = D/K_d$ | $f$ — blockierte Rezeptoren | $1-f$ — Restsignal | Nutzen, relativ zum Gipfel (vorgeschlagenes Modell) |
+| Dosis | $c = D/K_d$ | $f$ (blockiert) | $1-f$ (Restsignal) | Nutzen rel. zum Gipfel |
 |-------|------------|------------------------------|---------------------|------------------------------------------------------|
 | 0,7 mg | 0,7 | 0,33 | 0,67 | **1,00 — der Gipfel** |
 | 1 mg | 1,0 | 0,50 | 0,50 | 0,84 |
