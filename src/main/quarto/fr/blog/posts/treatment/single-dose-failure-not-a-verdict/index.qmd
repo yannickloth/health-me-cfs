@@ -21,7 +21,7 @@ Tout l'argument tient en un paragraphe et un tableau. La preuve détaillée — 
 
 Le bénéfice du LDN à faible dose dépend d'un blocage **partiel** de son récepteur : la cellule doit encore sentir un signal résiduel pour monter sa réponse anti-inflammatoire compensatoire. Qu'un récepteur soit partiellement ou totalement bloqué est fixé par la concentration du médicament relativement à la sensibilité de ce récepteur — le rapport $c = D/K_d$, la dose divisée par la constante de dissociation du récepteur. Élevez la dose et $c$ augmente ; la fraction $f$ de récepteurs bloqués grimpe vers 100 %. À 1 mg, le récepteur microglial TLR4 se situe dans la zone de blocage partiel et le mécanisme de bénéfice fonctionne. À 4 mg, le même récepteur est bloqué presque complètement, le signal résiduel a disparu, et **le mécanisme du 1 mg est éteint — pas amplifié.** Pendant ce temps, 4 mg engage une cible différente (TRPM3) que 1 mg n'atteint jamais. Un nul à 4 mg a donc testé le mécanisme du 4 mg. Il n'a pas testé le mécanisme du 1 mg — ce mécanisme ne fonctionnait pas pendant l'essai à 4 mg.
 
-Les chiffres rendent cela concret. La colonne d'occupation utilise l'équation de Hill standard $f = c^2/(1+c^2)$ (pharmacologie établie) ; la colonne de bénéfice utilise le modèle simple $B \propto f(1-f)^2$ proposé dans la partie B de cet article (une hypothèse) ; $K_d = 1$ mg est illustratif et non mesuré :
+Les chiffres rendent cela concret. La colonne d'occupation utilise l'équation de Hill standard $f = c^2/(1+c^2)$ (pharmacologie établie) ; la colonne de bénéfice utilise le modèle simple $B \propto f(1-f)^2$ proposé dans la partie B de cet article (une hypothèse). Les choix de paramètres sont illustratifs et non mesurés : $K_d = 1$ mg, le coefficient de Hill $n = 2$, et l'exposant de pente $m = 2$ (le modèle général de la partie B laisse $n$ et $m$ libres) :
 
 | Dose | $c = D/K_d$ | $f$ — récepteurs bloqués | $1-f$ — signal résiduel | bénéfice, relatif au pic (modèle proposé) |
 |------|------------|---------------------------|--------------------------|--------------------------------------------|
@@ -32,7 +32,7 @@ Les chiffres rendent cela concret. La colonne d'occupation utilise l'équation d
 
 ![Le bénéfice d'une cible sur l'axe de dose : à 1 mg la cible se situe dans sa fenêtre (84 % du pic) ; à 4 mg la fenêtre s'est refermée et le mécanisme est éteint. Un nul à 4 mg ne voit jamais le pic. *Illustration du modèle proposé avec des paramètres non mesurés — pas de données empiriques.*](fig0-dose-window.svg)
 
-Lisez le tableau de bas en haut. Un nul à 4 mg établit que la dernière ligne est ≈ 0. Il ne dit rien des deux premières lignes, parce que ces lignes décrivent un état — le blocage partiel — qu'une dose de 4 mg ne produit jamais. Et 3 mg est encore une autre expérience : la fenêtre basse dose s'y est refermée aussi, mais d'autres mécanismes (le plateau d'endorphines, l'ouverture de la fenêtre TRPM3) sont à *leur* optimum — encore d'autres cibles. Chaque dose est une expérience différente, et l'échec de l'une ne condamne aucune des autres.
+Lisez le tableau de bas en haut. Un nul à 4 mg ne parle que de la dernière ligne. Il ne dit rien des deux premières lignes, parce que ces lignes décrivent un état — le blocage partiel — qu'une dose de 4 mg ne produit jamais. Et 3 mg est encore une autre expérience : la fenêtre basse dose s'y est refermée aussi, mais d'autres mécanismes s'y engagent — le plateau d'endorphines et l'ouverture de la fenêtre TRPM3. Chaque dose est une expérience différente, et l'échec de l'une ne condamne aucune des autres.
 
 Une clarification : éteindre un bénéfice n'est pas la même chose que causer un tort. À 4 mg, le mécanisme basse dose ne fonctionne simplement pas — le patient est à sa ligne de base non traitée pour cette voie, pas en dessous. L'expérience à 4 mg est donc un nul, pas une aggravation — et un nul n'est une information que sur l'état qui a réellement été testé.
 
@@ -67,7 +67,7 @@ Ainsi, l'hormèse est l'*opposé* du modèle du sur-ensemble : il y a une fenêt
 
 ### Les quatre cibles, et les doses auxquelles chacune s'engage
 
-Le LDN se lie à au moins quatre cibles moléculaires distinctes, et elles s'engagent à des **bandes de dose différentes**. La carte des bandes de dose de l'article (`ch33`, référence hormétique) est :
+Le LDN se lie à au moins quatre cibles moléculaires distinctes, et elles s'engagent à des **bandes de dose différentes**. La carte des bandes de dose de l'article (ch33, référence hormétique) est :
 
 | Bande de dose | Mécanisme de bénéfice | Effet secondaire observé |
 |---------------|----------------------|--------------------------|
@@ -76,6 +76,8 @@ Le LDN se lie à au moins quatre cibles moléculaires distinctes, et elles s'eng
 | 1,5–3,0 mg | **Régulation à la hausse opioïde** en plateau ; bénéfice préservé | — |
 | 3,0–4,5 mg | **Restauration de TRPM3** — le bénéfice apparaît ici pour la première fois ; TLR4/Nrf2 éteint | éveil prononcé / insomnie |
 | >4,5 mg | aucun — tous les mécanismes passés au-delà de leurs optima ; antagonisme mu-opioïde à 50 mg | symptômes de type sevrage opioïde |
+
+![Les mécanismes de bénéfice du LDN sur l'axe de dose : l'amorçage TLR4/Nrf2 (0,5–1,5 mg), le rebond d'endorphines (1,5–3,0 mg, plateau préservé jusqu'à 4,5 mg), et la restauration de TRPM3 (3,0–4,5 mg), avec les points d'essai de 1 mg et 4 mg marqués. Les deux essais testent des fenêtres différentes ; à 4 mg, la fenêtre TLR4/Nrf2 s'est déjà refermée. *Schéma — positions des fenêtres d'après la carte des bandes de dose de l'article (elle-même de certitude faible) ; formes et hauteurs égales illustratives et non mesurées ; désinhibition de l'orexine omise pour plus de clarté. Pas de données empiriques.*](fig5-ldn-windows.svg)
 
 Les quatre mécanismes, dans leur chimie :
 
@@ -204,11 +206,13 @@ L'inférence confond deux affirmations très différentes :
 1. **« Ce médicament n'est pas actif chez ce patient »** — un verdict sur le médicament.
 2. **« Cette cible n'est pas la voie limitante chez ce patient »** — un verdict sur une cible.
 
-Un échec à 4 mg ne donne que la seconde : la combinaison de cibles engagée dans la bande des 4 mg — la restauration TRPM3, la désinhibition de l'orexine, et TLR4 dans son état *sur-bloqué* — n'est pas la voie qui limite les symptômes chez ce patient. Cela ne dit rien de l'état hormétique TLR4/Nrf2 ni du rebond d'endorphines, qui n'existent qu'à 1–3 mg — parce que ces états ne se sont *jamais produits* pendant un essai à 4 mg.
+Un échec à 4 mg ne donne au plus que la seconde : la combinaison de cibles engagée dans la bande des 4 mg — la restauration TRPM3, la désinhibition de l'orexine, et TLR4 dans son état *sur-bloqué* — n'est pas la voie qui limite les symptômes chez ce patient. Et même ce verdict est provisoire, pour la raison développée ci-dessous : si les cibles de la bande des 4 mg n'ont en réalité jamais été engagées à une dose clinique, le résultat ne dit rien d'aucun mécanisme. Il ne dit certainement rien de l'état hormétique TLR4/Nrf2 ni du rebond d'endorphines, qui ne s'engagent qu'à 0,5–3 mg — parce que ces états ne se sont *jamais produits* pendant un essai à 4 mg.
+
+![Quels mécanismes un essai à 1 mg et un essai à 4 mg engagent réellement. Un nul à 4 mg ne lit que la ligne du bas — la cellule d'amorçage TLR4/Nrf2 (en haut à gauche) n'a jamais été testée. *Résumé schématique de la carte des bandes de dose de l'article, pas de données empiriques.*](fig6-tested-matrix.svg)
 
 Une analogie simple : un médicament bloque deux récepteurs, A et B, avec une affinité 100 fois plus forte pour A. À faible dose, il n'engage que A — et seulement partiellement. À forte dose, il engage A *complètement*, et B aussi. Supposons maintenant que le bénéfice exige un engagement *partiel* de A (le cas hormétique). Un essai à forte dose échoué ne prouve alors rien sur la faible dose : l'état bénéfique — l'engagement partiel de A — ne s'est jamais produit pendant l'essai à forte dose ; A était totalement bloqué, et l'engagement de B est hors de propos. C'est le sous-type 4a de la [Partie 2](../inverted-u-not-one-thing/) (sélection de cible dépendante de la concentration), combiné avec le U inversé : la sélection de cible explique pourquoi 4 mg atteint des cibles que 1 mg ne peut pas atteindre, et le U inversé explique pourquoi 4 mg *perd* le bénéfice que 1 mg avait.
 
-Il y a une version encore plus nette de cela, spécifique au LDN. L'antagonisme de TLR4 aux doses cliniques de LDN est lui-même incertain : la (+)-naltrexone est un antagoniste *faible* de TLR4, et un dérivé optimisé a requis un gain de puissance d'environ 6 200× pour atteindre un antagonisme nanomolaire de TLR4 [@Gao2025CIAC101TLR4]. Un nul à 4 mg peut donc signifier quelque chose de plus profond que « cette cible n'est pas limitante » — cela peut signifier **que la cible n'a en réalité jamais été engagée à cette dose du tout**. Dans ce cas, le résultat à 4 mg ne dit rien d'aucun mécanisme, et la question du 1 mg est entièrement ouverte.
+Il y a une version encore plus nette de cela, spécifique au LDN. L'antagonisme de TLR4 aux doses cliniques de LDN est lui-même incertain : la (+)-naltrexone est un antagoniste *faible* de TLR4, et un dérivé optimisé a requis un gain de puissance d'environ 6 200× pour atteindre un antagonisme nanomolaire de TLR4 [@Gao2025CIAC101TLR4]. Un nul à 4 mg peut donc signifier quelque chose de plus profond que « cette cible n'est pas limitante » — cela peut signifier **que la cible n'a en réalité jamais été engagée à aucune dose testée**. Dans ce cas, le résultat à 4 mg ne dit rien d'aucun mécanisme, et la question du 1 mg est entièrement ouverte.
 
 ---
 
@@ -216,7 +220,7 @@ Il y a une version encore plus nette de cela, spécifique au LDN. L'antagonisme 
 
 L'inférence du sur-ensemble **est** valide dans un cas précis. Si un médicament atteint une seule cible, avec une seule affinité et une courbe dose-réponse monotone (plus de dose = plus d'occupation = plus d'effet, sans inversion), alors un échec à dose haute suffit, et les doses plus faibles sont redondantes. C'est un principe pharmacologique général — l'hypothèse sous-jacente à la recherche de dose standard pour de nombreux agents mono-cibles et monotones — pas une affirmation spécifique au LDN ni tirée de l'analyse du LDN dans l'article.
 
-Le LDN n'appartient pas à cette classe. Sa courbe dose-réponse n'est pas monotone — elle est non linéaire, avec des optima de cible qui ne se chevauchent pas. Pour ce genre de molécule, l'hypothèse du sur-ensemble n'est pas un raccourci raisonnable : c'est l'hypothèse exacte que l'essai de dose doit *tester*, pas présupposer.
+Le LDN n'appartient pas à cette classe. Sa courbe dose-réponse n'est pas monotone — le bénéfice monte puis retombe à l'intérieur de la gamme clinique, avec des optima de cible qui ne se chevauchent pas. Pour ce genre de molécule, l'hypothèse du sur-ensemble n'est pas un raccourci raisonnable : c'est l'hypothèse exacte que l'essai de dose doit *tester*, pas présupposer.
 
 Pour être honnête dans l'autre sens aussi : la preuve *globale* du LDN est faible, et cela ne favorise aucune dose. L'essai FINAL (n = 99) n'a trouvé aucune différence significative sur la douleur primaire [@DueBruun2024LDNFibromyalgia], une ré-analyse des répondeurs sur six critères secondaires a été nulle sur tous [@Nielsen2026LDNFMResponder], et une méta-analyse n'a trouvé aucun bénéfice inter-groupes [@Ologunowa2025LDNFMMeta]. Ces résultats nuls sont réels et doivent être pesés. Mais ce furent des essais à dose unique — aucun n'a balayé l'axe de dose. Un nul à une dose, pour un médicament dont les cibles s'engagent à des bandes différentes, est exactement l'ambiguïté dont traite cet article.
 
@@ -250,7 +254,7 @@ Si l'on accepte que « faible dose fonctionne » ne prédit **pas** « forte dos
 | Un échec à 4 mg n'implique pas un échec à 1 mg | Modérée — vraie si les bandes engagent des cibles distinctes ; fausse pour un médicament mono-cible monotone |
 | L'hypothèse du sur-ensemble n'est valide que pour un médicament mono-cible monotone | Élevée — définition de la monotonie et de l'engagement de cible |
 | Le LDN a lui-même un bénéfice clinique prouvé dans l'EM/SFC | Faible — essai FINAL nul [@DueBruun2024LDNFibromyalgia], ré-analyse des répondeurs nulle [@Nielsen2026LDNFMResponder], méta-analyse nulle [@Ologunowa2025LDNFMMeta] ; aucun grand ECR EM/SFC positif |
-| La recherche de dose est diagnostique du mécanisme limitant | Faible à modérée — le cadre diagnostique n'est pas testé prospectivement (essai HIP-B) |
+| La recherche de dose est diagnostique du mécanisme limitant | Faible à modérée — le cadre diagnostique n'est pas testé prospectivement (l'essai HIP-B proposé) |
 
 ---
 
