@@ -1,0 +1,224 @@
+---
+title: "Ein Dosis-Fehlversuch ist kein Urteil — warum eine wirkungslose Dosis die anderen nicht ausschließt"
+description: "\"Wenn 4 mg LDN nicht wirken, wirken 1 mg auch nicht.\" Diese Schlussfolgerung beruht auf einer unausgesprochenen Annahme: dass eine höhere Dosis alle Wirkungen niedrigerer Dosen reproduziert. Bei einem Medikament, das mehrere Ziele bei unterschiedlichen Konzentrationen trifft, ist diese Annahme falsch — und sie kann eine therapeutische Dosis zu Unrecht ausschließen."
+author: "Yannick Loth"
+date: "2026-08-26"
+categories: [Behandlung, Pharmakologie, ME/CFS]
+lang: de
+---
+
+Sie haben LDN über einen längeren Zeitraum mit 4 mg ausprobiert. Kein Nutzen. Sie bringen dieses Ergebnis zu Ihrem Arzt und bitten darum, eine niedrigere Dosis zu testen — 1 mg, sagen wir. Er zuckt mit den Schultern: „Wenn 4 mg nichts bewirken, wird 1 mg auch nichts bewirken. Das Größere enthält das Kleinere."
+
+Es ist das allgemeine Denkmuster, dass ein größeres Ergebnis ein kleineres enthalten muss — angewendet auf die Pharmakologie. Es klingt vernünftig. Für LDN ist es falsch.
+
+Dieser Artikel erklärt, warum. Nicht, indem er dem Arzt widerspricht, sondern indem er zeigt, was seine Schlussfolgerung stillschweigend voraussetzt — und warum diese Annahme nicht hält, wenn ein Medikament mehrere Ziele bei unterschiedlichen Konzentrationen trifft.
+
+---
+
+## Die Schlussfolgerung beruht auf einer unausgesprochenen Annahme
+
+Das Argument „wenn 4 mg nicht wirken, wirken 1 mg nicht" ist nur gültig, wenn eine Bedingung erfüllt ist:
+
+> **Die Obermengen-Hypothese:** Die Wirkungen einer niedrigeren Dosis sind eine Teilmenge der Wirkungen einer höheren Dosis.
+
+Wenn das zutrifft, dann testet die höchste Dosis *jede* Dosis. Ein Fehlversuch bei der hohen Dosis ist ein Fehlversuch bei allen. Die Schlussfolgerung ist sauber, einfach und spart mehrere Versuche.
+
+Das Problem: Diese Hypothese gilt nur für ein Medikament, das **ein einziges Ziel** mit einer **monotonen Dosis-Wirkungs-Kurve** trifft. LDN ist keines von beidem.
+
+---
+
+## Die Chemie: warum eine höhere Dosis keine größere Dosis ist
+
+Die Obermengen-Annahme behandelt die Dosis wie einen Lautstärkeregler — mehr Medikament, mehr derselben Wirkung. Doch LDN ist ein hormetisches Multi-Target-Medikament, und das ändert alles.
+
+### Was Hormesis ist
+
+Hormesis ist ein präzises biologisches Phänomen, kein Schlagwort: Ein Stressor geringer Intensität löst eine *kompensatorische adaptive Reaktion* aus, die größer ist als der Stressor selbst. Der klassische Fall ist der Keap1-Nrf2-ARE-Weg. Im Grundzustand bindet das Protein Keap1 den Transkriptionsfaktor Nrf2 und führt ihn dem Abbau zu. Wenn ein milder oxidativer oder inflammatorischer Stress eintritt — hier die partielle Blockade des mikroglialen Rezeptors TLR4 — werden reaktive Cysteinreste an Keap1 modifiziert, Nrf2 wird freigesetzt, wandert in den Zellkern und schaltet ein breites Programm antiinflammatorischer und antioxidativer Gene ein (Hunderte, gemäß der Nrf2/ARE-Literatur). Der *Nutzen ist das eigene adaptive Programm der Zelle*, nicht die direkte Wirkung des Medikaments. Dies ist der Hormesis-Korpus von Calabrese, angewendet auf die LDN-Dosierung [@Calabrese2021Nrf2].
+
+Zwei Dinge folgen aus der Chemie:
+
+- **Zu wenig Medikament** modifiziert nicht genug Keap1 — das Signal feuert nie, Nrf2 bleibt gebunden, kein Nutzen.
+- **Zu viel Medikament** löscht genau das Stresssignal, das Nrf2 freigesetzt hat. Bei 0,5–1,5 mg ist TLR4 nur *teilweise* blockiert, sodass die Mikroglia das Signal noch wahrnimmt und die Nrf2-Antwort aufbaut. Oberhalb dieses Fensters ist TLR4 zu vollständig blockiert — die Zelle nimmt keinen Stress mehr wahr, Nrf2 bleibt an Keap1 gebunden, und das antiinflammatorische Programm bricht zusammen. Das Medikament bindet weiterhin an seinen Rezeptor; es hat nur aufgehört, die adaptive Reaktion zu erzeugen, die es therapeutisch machte.
+
+Hormesis ist also das *Gegenteil* des Obermengen-Modells: Es gibt ein Fenster, und es zu überschreiten gibt nicht mehr — es schaltet den Nutzen ab.
+
+### Die vier Ziele und die Dosen, bei denen jedes bindet
+
+LDN bindet mindestens vier verschiedene molekulare Ziele, und sie binden in **unterschiedlichen Dosisbandbreiten**. Die Dosisbandbreiten-Karte des Papiers (`ch33`, Hormesis-Referenz) lautet:
+
+| Dosisbandbreite | Nutzenmechanismus | Beobachtete Nebenwirkung |
+|-----------------|-------------------|--------------------------|
+| 0,25–0,5 mg | Mikrodosis-Sonde; kann unter der Nrf2-Auslöseschwelle liegen | vorübergehende Schlafstörung (Opioid-Bindung) |
+| 0,5–1,5 mg | **TLR4/Nrf2-hormetisches Priming** — antiinflammatorischer Nutzen | „aufgedrehtes" / rastloses Erregungsgefühl |
+| 1,5–3,0 mg | **Opioid-Hochregulierung** erreicht Plateau; Nutzen erhalten | — |
+| 3,0–4,5 mg | **TRPM3-Wiederherstellung** — Nutzen erscheint hier erstmals; TLR4/Nrf2 erloschen | ausgeprägte Wachheit / Schlaflosigkeit |
+| >4,5 mg | keine — alle Mechanismen jenseits ihrer Optima; mu-Opioid-Antagonismus bei 50 mg | opioid-entzugsähnliche Symptome |
+
+Die vier Mechanismen in ihrer Chemie:
+
+- **TLR4/Nrf2 (0,5–1,5 mg).** Naltrexon ist ein partieller TLR4-Antagonist auf Mikroglia — den residenten Immunzellen des Gehirns. TLR4 ist ein Gefahrensensor; bei chronischer Aktivierung setzen Mikroglia IL-1β und TNF-α frei, was Müdigkeit, kognitive Verlangsamung und Schmerzempfindlichkeit erzeugt. Die partielle Blockade löst den oben beschriebenen Nrf2-vermittelten Mikroglia-Wechsel M1→M2 aus. Der TLR4-Antagonismus selbst ist in vitro etabliert [@Younger2013]; die Neuroinflammation, die er beruhigt, ist bei ME/CFS dokumentiert.
+
+- **Opioid / Endorphin (1,5–3,0 mg).** Bei Standarddosen (50 mg) blockiert Naltrexon vollständig die Opioidrezeptoren. Bei niedrigen Dosen löst die *kurze* nächtliche Blockade eine kompensatorische Hochregulierung endogener Endorphine aus — der Körper überproduziert seine eigenen Schmerzmittel als Reaktion auf die vorübergehende Blockade. Die Obergrenze wird durch die Syntheserate der Vorläufer in der Zelle gesetzt, nicht durch die Medikamentendosis — daher ein Plateau, keine Eskalation. Dieser Endorphin-Rebound ist bei Schmerzerkrankungen dokumentiert [@Younger2013].
+
+- **TRPM3 (3,0–4,5 mg).** TRPM3 ist ein Kalziumkanal; Kalzium ist der universelle zelluläre „An-Schalter". Die TRPM3-Dysfunktion ist der am häufigsten replizierte Ionenkanal-Befund bei ME/CFS, dokumentiert in sechs unabhängigen NK-Zell-Studien [@Cabanas2021]. Naltrexon stellt den TRPM3-vermittelten Kalziumfluss in ME/CFS-NK-Zellen in vitro wieder her [@Cabanas2018trpm3] — aber dies sind Einzelkonzentrations-In-vitro-Daten, und ob dasselbe in lebenden Neuronen, Gefäßen und Muskeln geschieht, ist unbewiesen.
+
+- **Orexin (potenzieller Nutzen in der hohen Bandbreite; Nebenwirkung beim Überschießen).** Naltrexon verringert die mikrogliäre Entzündung im Hypothalamus; diese Entzündung unterdrückt die Orexin-(Hypocretin-)Wachheitsneuronen. Wird die Bremse gelöst, feuern Orexin-Neuronen stärker. Das Papier behandelt dies als potenziellen *Nutzen*-Mechanismus (verbesserte Wachheit und Kognition) — es kann aber bei niedriger Dosis in eine „aufgedreht"/rastlose Nebenwirkung und bei hoher Dosis in ausgeprägte Wachheit/Schlaflosigkeit kippen, wenn es überschießt. Der Entzündung→Orexin-Unterdrückung-Zusammenhang ist in Tiermodellen dokumentiert [@Grossberg2011orexinLethargy], und Orexin ist im ME/CFS-Liquor reduziert — aber keine Studie hat Orexin vor/nach LDN bei ME/CFS gemessen.
+
+---
+
+## Was etablierte Wissenschaft ist und was ein vorgeschlagenes Modell ist
+
+Dies ist der Punkt, an dem ich zwei sehr verschiedene Dinge trennen muss: die **etablierte Wissenschaft**, auf der das Obermengen-Argument beruht, und ein **mathematisches Modell, das ich vorschlage**, um dieses Argument präzise zu machen. Ersteres ist publiziert, repliziert und zitierbar. Letzteres ist eine Hypothese — meine eigene Konstruktion — und ich werde es als solche kennzeichnen.
+
+---
+
+## Teil A — Die etablierte Wissenschaft
+
+### A1. Das empirische Muster der Hormesis ist real
+
+Die biphasische Dosis-Wirkungs-Beziehung (umgekehrtes U / J-förmig) — Stimulation bei niedriger Dosis, Hemmung bei hoher Dosis — ist in einer großen Zahl biologischer Systeme dokumentiert, in der als Calabrese-Korpus bekannten Zusammenstellung [@Calabrese2021Nrf2; @Sun2020yinYangHormesis]. Das *Muster* ist eine empirische Beobachtung, keine Hypothese. Weniger geklärt ist, ob es tatsächlich die „Standard"-Antwort ist (Calabreses These) oder die Ausnahme — diese Debatte ist offen [@CalabreseBaldwin2003toxicologyRethinks].
+
+### A2. Der Mechanismus eines hormetischen Arms ist etabliert: Keap1-Nrf2
+
+Für den Nrf2-Cluster ist der Mechanismus des *aufsteigenden* Arms (Nutzen bei niedriger Dosis) gut charakterisiert. Keap1 hält den Transkriptionsfaktor Nrf2 zum Abbau bereit; ein milder oxidativer oder inflammatorischer Stress modifiziert Keap1s Cysteinreste, setzt Nrf2 frei und aktiviert ein breites Antioxidans-/Entzündungshemmer-Genprogramm (Hunderte Gene, gemäß der Nrf2/ARE-Literatur). Dies ist etablierte Redoxbiologie, und die Nrf2-Aktivierung ist der vorgeschlagene generalisierte Vermittler hormetischer Dosis-Wirkungs-Reaktionen [@Calabrese2021Nrf2].
+
+### A3. Die Hill-Gleichung ist die etablierte Sprache der Besetzung
+
+Die Fraktion der von einem Medikament der Dosis $D$ und der Dissoziationskonstante $K_d$ besetzten Rezeptoren ist die Hill-Funktion
+
+$$ f(c) = \frac{c^n}{c^n + 1}, \qquad c = D/K_d $$
+
+wobei $n$ der Hill-Koeffizient ist. Dies ist grundlegende Lehrbuch-Pharmakodynamik (Hill, 1910). Es ist der *aufsteigende* Arm: Die Besetzung steigt monoton mit der Dosis. **Für sich allein erzeugt sie eine monotone Kurve — sie kann kein umgekehrtes U erzeugen.** Das ist eine wichtige etablierte Tatsache: Das umgekehrte U erfordert etwas jenseits der Besetzung eines einzelnen Rezeptors.
+
+### A4. Veröffentlichte mathematische Behandlungen der Hormesis existieren, aber es gibt keine einzige kanonische Gleichung
+
+Das Feld hat mehrere explizite mathematische Formalisierungen der hormetischen Kurve hervorgebracht, aber **kein Modell ist als „die" Hormesis-Gleichung akzeptiert**:
+
+- **Nweke et al. 2022** liefern eine statistische *bilogistische* Funktionsform für die umgekehrt-U-förmige Dosis-Wirkungs-Beziehung, reparametrisiert zur Schätzung der hormetischen Größe (maximale Stimulation, Dosis am Gipfel, Fensterbreite) [@Nweke2022bilogisticHormesis].
+- **Xiao et al. 2022** bauen ein dynamisches (DGL-)Modell der Dosis-Wirkung von Anti-Tumor-Medikamenten, das nichtmonotone Regime aus gekoppelter Zellpopulations- und Medikamentenziel-Dynamik erzeugt [@Xiao2022antiTumorDoseResponse].
+- **Sun et al. 2018** schlagen einen „schwingenden Wippe"-Mechanismus für *zeitabhängige* Hormesis vor, bei dem stimulierende und hemmende Effekte über Dosis und Zeit integriert werden [@Sun2018SeesawHormesis].
+
+Alle drei sind reale, publizierte Modelle — aber sie sind *Anpassungen oder Mechanismen für spezifische Systeme*, keines ist ein validiertes mechanistisches Modell der LDN-/TLR4-/Nrf2-Hormesis im Besonderen. **Es gibt keine akzeptierte veröffentlichte Gleichung für das LDN-Hormesisfenster.** Das empirische Muster ist etabliert; die Gleichung ist es nicht.
+
+---
+
+## Teil B — Ein vorgeschlagenes Modell (Hypothese, keine etablierte Wissenschaft)
+
+Ich schlage nun eine spezifische mathematische Form vor. **Dies ist meine Konstruktion — eine Arbeitshypothese, um das Obermengen-Argument präzise zu machen — und es ist ausdrücklich KEINE etablierte Wissenschaft.** Sie steht nicht in der Literatur, ist nicht validiert, und ihre Parameter sind nicht gemessen. Ich präsentiere sie als das, was sie ist: ein Gerüst.
+
+### B1. Zwei Arme: Besetzung (aufsteigend) und Resttonus (absteigend)
+
+Hormetischer Nutzen ist nicht die Rezeptorbesetzung selbst. Es ist die **kompensatorische adaptive Reaktion der Zelle auf eine partielle Störung** — und eine kompensatorische Reaktion erfordert, dass ein *verbleibendes unblockiertes Signal* erhalten bleibt, um sie aufrechtzuerhalten. Definiere:
+
+$$ f(c) = \frac{c^n}{c^n+1} \quad\text{(Besetzung, aufsteigend)}, \qquad r(c) = 1 - f(c) = \frac{1}{c^n+1} \quad\text{(Resttonus, absteigend)} $$
+
+Für den TLR4/Nrf2-Mechanismus von LDN lautet die biologische Behauptung: Partielle Blockade (mittleres $f$) bahnt die mikrogliäre Nrf2-Antwort, aber die Bahnung bleibt nur so lange erhalten, wie ein basaler TLR4-Tonus verbleibt. Wenn $r \to 0$, wird das Bahnungssignal gelöscht und der Nutzen bricht zusammen — obwohl das Medikament weiterhin gebunden ist.
+
+### B2. Die Zwei-Arme-Nutzenfunktion
+
+Ich schlage vor, dass der Nettonutzen das Produkt aus Besetzung und Resttonus ist:
+
+$$ B(c) = B_{max}\, f(c)\, r(c)^{m} = B_{max}\, \frac{c^n}{c^n + 1} \left( \frac{1}{c^n + 1} \right)^{m} $$
+
+wobei $m$ indiziert, wie steil der Nutzen vom Resttonus abhängt. Diese Form hat die Eigenschaften, die das Papier qualitativ beschreibt, und sie ist die *einfachste* Produktform mit einem umgekehrten U. Ableiten ergibt den Gipfel:
+
+$$ \frac{dB}{df} = 0 \;\Rightarrow\; f^{\*} = \frac{1}{1+m} $$
+
+Der Nutzen gipfelt also bei Besetzung $f^{\*} = 1/(1+m)$ und verschwindet an beiden Extremen ($B \to 0$ wenn $c \to 0$ und wenn $c \to \infty$).
+
+**Status von B2:** eine Hypothese. Die Produkt-aus-Hill-Form ist mathematisch sauber und reproduziert das qualitative Muster, aber ich habe sie *gewählt, weil sie* die Form erzeugt, die ich demonstrieren wollte. Keine Daten belegen, dass der LDN/TLR4-Nutzen buchstäblich $f \cdot r^m$ ist. Dies ist der Punkt, an dem ich ausdrücklich sein muss, dass ich vorschlage, nicht berichte.
+
+### B3. Die Multi-Target-Erweiterung
+
+Wenn jedes LDN-Ziel sein eigenes $K_{d,i}$ und seinen eigenen Exponenten $m_i$ hat, ist der Gesamtnutzen eine Summe solcher Fenster:
+
+$$ B_{total}(D) = \sum_{i} B_{max,i}\, f_i\!\left(\frac{D}{K_{d,i}}\right) \left(1 - f_i\!\left(\frac{D}{K_{d,i}}\right)\right)^{m_i} $$
+
+Unterschiedliche $K_{d,i}$ platzieren die Fenster auf disjunkten Regionen der Dosisachse — der mathematische Gehalt der „nicht überlappenden Dosis-Optima". **Status: Hypothese**, die B2-Hypothese erweiternd; keine gemessenen $K_{d,i}$ oder $m_i$ existieren für LDNs Ziele.
+
+### B4. Das Obermengen-Versagen, bedingt auf das Modell
+
+Innerhalb dieses vorgeschlagenen Modells ist das Obermengen-Versagen beweisbar. Partitioniere die Zielmenge $\{i\}$ in $\{i: K_{d,i} \sim D_{high}\}$ und $\{i: K_{d,i} \sim D_{low}\}$. Dann
+
+$$ B_{total}(D_{high}) = \sum_{i \in \{D_{high}\}} B_{max,i}\,f_i\,(1-f_i)^{m_i} + \underbrace{\varepsilon_{low}(D_{high})}_{\approx 0} $$
+
+Ein Nulleffekt bei $D_{high}$ beschränkt nur die erste Summe; die bei $D_{low}$ aktiven Ziele bleiben informationstheoretisch unberührt. **Status: ein Theorem des Modells — wahr, wenn das Modell wahr ist, nicht unabhängig eine Tatsache über Biologie.**
+
+### B5. Was das Modell etabliert und nicht etabliert
+
+Es etabliert (bedingt auf das Modell): Die Obermengen-Inferenz ist **mathematisch ungültig** für ein Multi-Target-Medikament, dessen Nutzen eine Summe nicht überlappender Zwei-Arme-Fenster ist. Das ist ein Theorem des Modells.
+
+Es etabliert **nicht**, dass irgendeine LDN-Dosis wirkt. Die Parameter ($K_{d,i}$, $m_i$, $B_{max,i}$) sind ungemessen; kein Dosis-Wirkungs-Versuch innerhalb des LDN-Bereichs existiert in irgendeiner Erkrankung. Der *Wert* des Modells, falls vorhanden, liegt in einem falsifizierbaren Gerüst: ein Vier-Arm-Versuch innerhalb des Bereichs (0,5, 1,5, 3,0, 4,5 mg, n ≥ 30, Crossover, 8 Wochen pro Dosis) wäre der erste Test, ob individuelle Kurven tatsächlich nichtmonoton sind — und nur das würde zeigen, ob diese Hormesis-Gleichung oder irgendeine andere zutrifft.
+
+Zwei Punkte aus der Tabelle betreffen direkt das Obermengen-Argument.
+
+**Erstens sind die Ziele nicht austauschbar, und ihr Nutzen/Nebenwirkungs-Verhältnis unterscheidet sich je nach Bandbreite.** In der hohen Bandbreite sind TRPM3-Wiederherstellung *und* Orexin-Disinhibition beide Kandidaten-*Nutzen*-Mechanismen — das Papier listet „TRPM3-Kanalopathie oder Orexin-Mangel" als limitierend und behandelt Orexin-Disinhibition als Verbesserung von Wachheit und Kognition. Die Unterscheidung ist, dass jeder Mechanismus sein eigenes *Optimum* hat und dessen Überschreiten Nutzen in Nebenwirkung verwandelt: Exzessiver Orexin-Tonus kippt von verbesserter Wachheit in Schlaflosigkeit, und TLR4-Überblockierung schaltet das antiinflammatorische Priming ab. Die vier Ziele sind also keine vier austauschbaren Hebel, die alle gemeinsam hochskalieren.
+
+**Zweitens überlappen sich die Nutzenbandbreiten nicht.** TLR4/Nrf2-Nutzen liegt bei 0,5–1,5 mg und ist bei 3,0–4,5 mg *erloschen* (TLR4-Überblockierung löscht ihn). TRPM3/Orexin-Nutzen erscheint bei 3,0–4,5 mg. Dies sind **distinkte Fenster**, keine Niedrigdosis- und Hochdosis-Version derselben Sache.
+
+Die Konsequenz ist direkt: **Eine Dosis ist kein Volumen.** Der Wechsel von 1 mg auf 4 mg „enthält" nicht die Wirkungen von 1 mg — er ersetzt die Kombination gebundener Ziele durch eine andere Kombination. Die TLR4/Nrf2-Hormesis, die bei 1 mg wirkt, ist bei 4 mg *abgeschaltet*, nicht verstärkt.
+
+Die Obermengen-Hypothese scheitert also genau dort, wo es zählt: Der Mechanismus, der bei 1 mg wirken könnte, ist keine Teilmenge dessen, was bei 4 mg versagt — er ist ein *anderes* Ziel mit seiner eigenen Kurve.
+
+---
+
+## Warum sich ein Fehlversuch bei einer Dosis nicht auf andere überträgt
+
+Die Schlussfolgerung des Arztes vermischt zwei sehr verschiedene Aussagen:
+
+1. **„Dieses Medikament ist bei diesem Patienten nicht wirksam"** — ein Urteil über das Medikament.
+2. **„Dieses Ziel ist nicht der limitierende Weg bei diesem Patienten"** — ein Urteil über ein Ziel.
+
+Ein Fehlversuch bei 4 mg liefert nur die zweite: TLR4 (oder die Kombination bei 4 mg gesättigter Ziele) ist nicht der Weg, der die Symptome bei diesem Patienten limitiert. Er sagt nichts über den TLR4/Nrf2- oder Opioid-Weg, der sich nur bei 1–3 mg engagiert — weil dieser Weg *nie getestet wurde*, wenn Sie nur 4 mg ausprobiert haben.
+
+Eine einfache Analogie: ein Medikament, das sowohl Rezeptor A als auch Rezeptor B blockiert, mit 100-fach höherer Affinität für A. Bei niedriger Dosis bindet es nur A. Bei hoher Dosis bindet es A *und* B. Wenn das Blockieren von B helfen würde, beweist ein fehlgeschlagener Hochdosis-Versuch nichts über die niedrige Dosis — bei der niedrigen Dosis war B überhaupt nicht gebunden. Dies ist Untertyp 4a in [Teil 2](../inverted-u-not-one-thing/): konzentrationsabhängige Zielauswahl.
+
+Es gibt eine noch schärfere Version davon, spezifisch für LDN. Der TLR4-Antagonismus bei klinischen LDN-Dosen ist selbst unsicher: (+)-Naltrexon ist ein *schwacher* TLR4-Antagonist, und ein optimiertes Derivat benötigte einen Potenzgewinn von ~6.200× für nanomolaren TLR4-Antagonismus [@Gao2025CIAC101TLR4]. Ein Nulleffekt bei 4 mg kann also etwas Tieferes bedeuten als „dieses Ziel ist nicht limitierend" — er kann bedeuten, dass **das Ziel bei dieser Dosis tatsächlich nie gebunden wurde**. In diesem Fall sagt das 4-mg-Ergebnis nichts über irgendeinen Mechanismus, und die 1-mg-Frage ist völlig offen.
+
+---
+
+## Der Grenzfall, in dem der Arzt recht hat
+
+Um fair zu sein: Die Obermengen-Inferenz **ist** in einem präzisen Fall gültig. Wenn ein Medikament ein einzelnes Ziel mit einer einzigen Affinität und einer monotonen Dosis-Wirkungs-Kurve trifft (mehr Dosis = mehr Besetzung = mehr Wirkung, keine Umkehrung), dann ja: Ein Hochdosis-Fehlversuch genügt, und niedrigere Dosen sind redundant. Dies ist ein allgemeines Pharmakologie-Prinzip — die Annahme hinter der Standard-Dosisfindung für viele Single-Target- und monotone Wirkstoffe — keine Aussage spezifisch zu LDN und nicht aus der LDN-Analyse des Papiers gezogen.
+
+LDN gehört nicht zu dieser Klasse. Seine Dosis-Wirkungs-Kurve ist nicht monoton — sie ist nichtlinear, mit Ziel-Optima, die sich nicht überlappen. Für diese Art Molekül ist die Obermengen-Hypothese keine vernünftige Abkürzung: Sie ist genau die Hypothese, die der Dosisversuch *testen* soll, nicht voraussetzen.
+
+Auch in die andere Richtung ehrlich: Die *Gesamt*-Evidenz für LDN ist schwach, und das begünstigt keine Dosis. Die FINAL-Studie (n = 99) fand keinen signifikanten primären Schmerzunterschied [@DueBruun2024LDNFibromyalgia], eine Responder-Reanalyse von sechs sekundären Endpunkten war in allen null [@Nielsen2026LDNFMResponder], und eine Metaanalyse fand keinen Vorteil zwischen den Gruppen [@Ologunowa2025LDNFMMeta]. Diese Nulleffekte sind real und müssen abgewogen werden. Aber es waren Einzeldosis-Studien — keine durchlief die Dosisachse. Ein Nulleffekt bei einer Dosis, bei einem Medikament, dessen Ziele in unterschiedlichen Bandbreiten binden, ist genau die Mehrdeutigkeit, um die es in diesem Artikel geht.
+
+---
+
+## Was das für einen Dosisversuch bedeutet
+
+Das praktische Korollar ist einfach und für dieses Blog vertraut: Die Dosisfindung ist diagnostisch ([Teil 3](../dose-is-diagnostic-ldn/)). Wo ein Nutzen auf der Dosisachse erscheint und verschwindet, zeigt, *welcher* Mechanismus limitierend ist. Ein Patient, der nur bei 3–4,5 mg profitiert, hat wahrscheinlich eine TRPM3-Kanalopathie oder ein orexin-sensibles Defizit (das Papier merkt an, dass diese allein durch die Dosis nicht trennbar sind). Ein Patient, der nur bei 0,5–1,5 mg profitiert, hat TLR4-getriebene Neuroinflammation. Ein Fehlversuch bei **einer einzelnen** Dosis ordnet den Patienten in **keines** dieser Muster ein — er erfasst nur den Fehlversuch dieser einen Dosis.
+
+Damit ein „kein Nutzen bei irgendeiner Dosis" ein solides Urteil ist, müssen Sie die relevanten Fenster getestet haben — die eigene Leitlinie des Papiers (ch28) lautet, dass *„eine Nichtantwort nicht geschlossen werden kann, solange das Niedrigdosis-Fenster nicht ebenfalls getestet wurde."* Ein einzelner Dosispunkt kann dieses Urteil nicht liefern. [Teil 3](../dose-is-diagnostic-ldn/) macht denselben Punkt: *„Nichtantwort bei 0,5 mg kann bedeuten, dass der Mechanismus eine höhere Dosis erfordert (Muster 2)."* Das Umgekehrte gilt ebenso: Kein Nutzen bei 4 mg kann bedeuten, dass der Mechanismus eine niedrigere Dosis erfordert.
+
+---
+
+## Die Asymmetrie, die niemand bestreitet
+
+Es gibt ein Zeichen dafür, dass die Obermengen-Hypothese fragil ist, und es liegt im Denken selbst. Niemand verteidigt die umgekehrte Richtung: Wenn 1 mg wirkt, schließt *niemand* daraus, dass 4 mg wirkt. Im Gegenteil, es ist bekannt, dass eine höhere Dosis einen bei niedriger Dosis vorhandenen Nutzen *aufheben* kann — genau das Paradoxon, das in [Teil 1](../more-isnt-better-ldn-lda/) dokumentiert ist.
+
+Wenn man akzeptiert, dass „niedrige Dosis wirkt" **nicht** „hohe Dosis wirkt" vorhersagt (weil die hohe Dosis Niedrigdosis-Mechanismen abschaltet), dann ist die Symmetrie gebrochen: Dosen sind in der einen Richtung nicht austauschbar, und es gibt keinen Grund, sie in der anderen als austauschbar zu behandeln. Die Obermengen-Hypothese ist nur kohärent, wenn beide Richtungen austauschbar sind — und sie sind es nicht.
+
+---
+
+## Sicherheitseinschätzung
+
+| Behauptung | Sicherheit |
+|------------|------------|
+| Nrf2-Hormesis ist ein reales, etabliertes Phänomen (der Calabrese-Korpus) | Hoch in der Toxikologie; unbewiesen als *klinischer* LDN-Mechanismus — kein LDN-Dosis-Wirkungs-Versuch existiert [@Calabrese2021Nrf2] |
+| LDN bindet TLR4, TRPM3 und Opioidrezeptoren als distinkte Ziele | Hoch für die Ziele selbst (TLR4 in vitro [@Younger2013]; TRPM3 in vitro [@Cabanas2018trpm3]; Opioid [@Younger2013]) |
+| Die Ziele binden in unterschiedlichen optimalen Dosisbandbreiten | Niedrig bis mäßig — mechanistisch begründet, aber kein Dosis-Wirkungs-Versuch innerhalb des Bereichs existiert (eigene Sicherheit des Papiers: 0,30) |
+| Der TLR4-Antagonismus bei klinischen LDN-Dosen ist real | Niedrig — (+)-Naltrexon ist ein schwacher TLR4-Antagonist; ein optimiertes Derivat benötigte ~6.200× Potenzgewinn für nanomolaren Antagonismus [@Gao2025CIAC101TLR4] |
+| Eine höhere Dosis reproduziert die Wirkungen einer niedrigeren Dosis nicht notwendigerweise | Hoch — allgemeine Eigenschaft nichtmonotoner Dosis-Wirkungs-Kurven |
+| Ein Fehlversuch bei 4 mg impliziert keinen Fehlversuch bei 1 mg | Mäßig — wahr, wenn die Bandbreiten distinkte Ziele binden; falsch für ein eintargetiges monotones Medikament |
+| Die Obermengen-Hypothese gilt nur für ein eintargetiges monotones Medikament | Hoch — Definition von Monotonie und Zielbindung |
+| LDN selbst hat nachgewiesenen klinischen Nutzen bei ME/CFS | Niedrig — FINAL-Studie null [@DueBruun2024LDNFibromyalgia], Responder-Reanalyse null [@Nielsen2026LDNFMResponder], Metaanalyse null [@Ologunowa2025LDNFMMeta]; keine positive große ME/CFS-RCT |
+| Die Dosisfindung ist diagnostisch für den limitierenden Mechanismus | Niedrig bis mäßig — das diagnostische Rahmenwerk ist prospektiv ungetestet (HIP-B-Studie) |
+
+---
+
+*Dieser Beitrag stützt sich auf das LDN-Dosis-Wirkungs-Rahmenwerk aus [@Loth2026website], das den Nrf2-Hormesis-Korpus [@Calabrese2021Nrf2], die Literatur zur mikrogliären M1→M2-Dosisabhängigkeit [@Kucic2021LDNmicroglia], die TRPM3-ME/CFS-NK-Zell-Befunde [@Cabanas2018trpm3; @Cabanas2021] und die Endorphin-Rebound-Pharmakologie [@Younger2013] synthetisiert. Die Kernaussage — dass eine höhere Dosis keine Obermenge der Wirkungen niedrigerer Dosen für ein nichtmonotones Multi-Target-Medikament darstellt — folgt direkt aus den vier Mechanismen und dem diagnostischen Muster der Serie. Die Evidenzobergrenze ist explizit: Kein Dosis-Wirkungs-Versuch innerhalb des LDN-Bereichs existiert in irgendeiner Erkrankung, und die Einzeldosis-Studien, die existieren, sind null [@DueBruun2024LDNFibromyalgia; @Nielsen2026LDNFMResponder; @Ologunowa2025LDNFMMeta]. Die Sicherheit des Rahmenwerks selbst ist niedrig (~0,30); der logische Punkt über die Dosis-Nichtfortpflanzung hängt nicht von der Korrektheit des Rahmenwerks ab.*
+
+*LDN-Serie: [Teil 1: Warum mehr nicht besser ist](../more-isnt-better-ldn-lda/) · [Teil 2: Das umgekehrte U ist nicht eine Sache](../inverted-u-not-one-thing/) · [Teil 3: Ihre LDN-Dosis ist eine Diagnose](../dose-is-diagnostic-ldn/) · [Teil 4: Die Pharmakopöe](../pharmacopoeia-dose-meaning/)*
