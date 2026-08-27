@@ -360,6 +360,7 @@
             pkgs.nodejs_22
             pkgs.nil
             pkgs.nixfmt
+            pkgs.gnuplot
           ];
           shellHook = ''
             export TYPST_PACKAGE_CACHE_PATH="${typst-package-cache}"

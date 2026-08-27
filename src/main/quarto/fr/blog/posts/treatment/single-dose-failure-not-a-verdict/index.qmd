@@ -114,6 +114,8 @@ Le bénéfice hormétique n'est pas l'occupation du récepteur elle-même. C'est
 
 $$ f(c) = \frac{c^n}{c^n+1} \quad\text{(occupation, ascendant)}, \qquad r(c) = 1 - f(c) = \frac{1}{c^n+1} \quad\text{(tonus résiduel, descendant)} $$
 
+![Les deux bras du modèle proposé : l'occupation f(c) croît de façon monotone, le tonus résiduel r(c) = 1 − f(c) décroît de façon monotone. Aucun bras seul ne produit de U inversé. *Illustration de l'hypothèse de la partie B, pas de données empiriques.*](fig1-arms.svg)
+
 Pour le mécanisme TLR4/Nrf2 du LDN, l'affirmation biologique est : le blocage partiel ($f$ intermédiaire) amorce la réponse microgliale Nrf2, mais l'amorçage n'est soutenu que tant qu'un tonus TLR4 basal demeure. À mesure que $r \to 0$, le signal d'amorçage est éteint et le bénéfice s'effondre — même si le médicament est toujours lié.
 
 ### B2. La fonction de bénéfice à deux bras
@@ -128,6 +130,12 @@ $$ \frac{dB}{df} = 0 \;\Rightarrow\; f^{\ast} = \frac{1}{1+m} $$
 
 Ainsi le bénéfice culmine à une occupation $f^{\ast} = 1/(1+m)$ — c'est-à-dire que l'optimum est atteint quand $f$ égale $f^{\ast}$, l'occupation optimale — et s'annule aux deux extrêmes ($B \to 0$ quand $c \to 0$ et quand $c \to \infty$).
 
+![Le bénéfice à deux bras B(c) = Bmax · f(c) · r(c)^m, un U inversé dont le pic se situe à f* = 1/(1+m) ; ici n = 2, m = 2, donc le pic est à f* = 1/3. *Illustration de l'hypothèse de la partie B, pas de données empiriques.*](fig2-inverted-u.svg)
+
+Le paramètre de pente $m$ n'est pas une constante fixe — c'est une propriété du système, et le modifier déplace le pic. À mesure que $m$ grandit, $f^{\ast} = 1/(1+m)$ diminue : le pic se déplace vers une occupation plus faible, ce qui signifie que le bénéfice est éteint à une dose toujours plus faible. La surface ci-dessous montre $B(c,m)$ sur l'axe de concentration $c$ et sur l'axe de pente $m$.
+
+![La surface de bénéfice B(c,m) lorsque la concentration normalisée c (axe log) et l'exposant de pente m varient. Chaque tranche à m fixe est le U inversé de la figure précédente ; augmenter m déplace le pic vers des c plus faibles, conformément à f* = 1/(1+m). *Illustration de l'hypothèse de la partie B, pas de données empiriques.*](fig3-3d-m-evolution.svg)
+
 **Statut de B2 :** une hypothèse. La forme en produit de Hill est mathématiquement propre et reproduit le schéma qualitatif, mais je l'ai choisie *parce qu'elle* produit la forme que je voulais démontrer. Aucune donnée n'établit que le bénéfice LDN/TLR4 est littéralement $f \cdot r^m$. C'est le point où je dois être explicite que je propose, pas que je rapporte.
 
 ### B3. L'extension multi-cibles
@@ -135,6 +143,8 @@ Ainsi le bénéfice culmine à une occupation $f^{\ast} = 1/(1+m)$ — c'est-à-
 Soit $i$ l'indice qui désigne chacune des cibles du LDN. Chaque cible a sa propre constante de dissociation $K_{d,i}$ (la dose à laquelle cette cible est à moitié occupée) et son propre paramètre de pente $m_i$, donc sa propre fonction d'occupation $f_i$ et son propre bénéfice maximal $B_{max,i}$. Le bénéfice total à travers toutes les cibles, $B_{total}(D)$, est une somme de telles fenêtres :
 
 $$ B_{total}(D) = \sum_{i} B_{max,i}\, f_i\!\left(\frac{D}{K_{d,i}}\right) \left(1 - f_i\!\left(\frac{D}{K_{d,i}}\right)\right)^{m_i} $$
+
+![Deux cibles avec des constantes de dissociation K_d différentes placent leurs fenêtres de bénéfice sur des régions disjointes de l'axe de dose ; B_total(D) est leur somme. Un nul à la fenêtre haute laisse la fenêtre basse non testée. *Illustration de l'hypothèse de la partie B, pas de données empiriques.*](fig4-non-overlap.svg)
 
 Des $K_{d,i}$ différentes placent les fenêtres sur des régions disjointes de l'axe de dose — le contenu mathématique des « optima de dose non chevauchants ». **Statut : hypothèse**, prolongeant l'hypothèse B2 ; aucune $K_{d,i}$ ni $m_i$ mesurée n'existe pour les cibles du LDN.
 

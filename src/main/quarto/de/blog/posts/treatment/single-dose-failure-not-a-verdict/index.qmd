@@ -114,6 +114,8 @@ Hormetischer Nutzen ist nicht die Rezeptorbesetzung selbst. Es ist die **kompens
 
 $$ f(c) = \frac{c^n}{c^n+1} \quad\text{(Besetzung, aufsteigend)}, \qquad r(c) = 1 - f(c) = \frac{1}{c^n+1} \quad\text{(Resttonus, absteigend)} $$
 
+![Die zwei Arme des vorgeschlagenen Modells: Die Besetzung f(c) steigt monoton, der Resttonus r(c) = 1 − f(c) fällt monoton. Kein Arm allein erzeugt ein umgekehrtes U. *Illustration der Teil-B-Hypothese, keine empirischen Daten.*](fig1-arms.svg)
+
 Für den TLR4/Nrf2-Mechanismus von LDN lautet die biologische Behauptung: Partielle Blockade (mittleres $f$) bahnt die mikrogliäre Nrf2-Antwort, aber die Bahnung bleibt nur so lange erhalten, wie ein basaler TLR4-Tonus verbleibt. Wenn $r \to 0$, wird das Bahnungssignal gelöscht und der Nutzen bricht zusammen — obwohl das Medikament weiterhin gebunden ist.
 
 ### B2. Die Zwei-Arme-Nutzenfunktion
@@ -128,6 +130,12 @@ $$ \frac{dB}{df} = 0 \;\Rightarrow\; f^{\ast} = \frac{1}{1+m} $$
 
 Der Nutzen gipfelt also bei Besetzung $f^{\ast} = 1/(1+m)$ — das heißt, das Optimum wird erreicht, wenn $f$ gleich $f^{\ast}$, der optimalen Besetzung, ist — und verschwindet an beiden Extremen ($B \to 0$ wenn $c \to 0$ und wenn $c \to \infty$).
 
+![Die Zwei-Arme-Nutzenfunktion B(c) = Bmax · f(c) · r(c)^m, ein umgekehrtes U, dessen Gipfel bei f* = 1/(1+m) liegt; hier n = 2, m = 2, also liegt der Gipfel bei f* = 1/3. *Illustration der Teil-B-Hypothese, keine empirischen Daten.*](fig2-inverted-u.svg)
+
+Der Steilheitsparameter $m$ ist keine feste Konstante — er ist eine Eigenschaft des Systems, und seine Änderung verschiebt den Gipfel. Wenn $m$ wächst, schrumpft $f^{\ast} = 1/(1+m)$: Der Gipfel verschiebt sich zu niedrigerer Besetzung, sodass der Nutzen bei einer immer niedrigeren Dosis erlischt. Die Fläche unten zeigt $B(c,m)$ über der Konzentrationsachse $c$ und der Steilheitsachse $m$.
+
+![Die Nutzenfläche B(c,m), wenn die normalisierte Konzentration c (log-Achse) und der Steilheitsexponent m variieren. Jeder Schnitt bei festem m ist das umgekehrte U der vorherigen Abbildung; wachsende m verschieben den Gipfel zu kleineren c, passend zu f* = 1/(1+m). *Illustration der Teil-B-Hypothese, keine empirischen Daten.*](fig3-3d-m-evolution.svg)
+
 **Status von B2:** eine Hypothese. Die Produkt-aus-Hill-Form ist mathematisch sauber und reproduziert das qualitative Muster, aber ich habe sie *gewählt, weil sie* die Form erzeugt, die ich demonstrieren wollte. Keine Daten belegen, dass der LDN/TLR4-Nutzen buchstäblich $f \cdot r^m$ ist. Dies ist der Punkt, an dem ich ausdrücklich sein muss, dass ich vorschlage, nicht berichte.
 
 ### B3. Die Multi-Target-Erweiterung
@@ -135,6 +143,8 @@ Der Nutzen gipfelt also bei Besetzung $f^{\ast} = 1/(1+m)$ — das heißt, das O
 Sei $i$ der Index, der jedes LDN-Ziel bezeichnet. Jedes Ziel hat seine eigene Dissoziationskonstante $K_{d,i}$ (die Dosis, bei der dieses Ziel halb besetzt ist) und seinen eigenen Steilheitsparameter $m_i$, daher seine eigene Besetzungsfunktion $f_i$ und seinen eigenen maximalen Nutzen $B_{max,i}$. Der Gesamtnutzen über alle Ziele, $B_{total}(D)$, ist eine Summe solcher Fenster:
 
 $$ B_{total}(D) = \sum_{i} B_{max,i}\, f_i\!\left(\frac{D}{K_{d,i}}\right) \left(1 - f_i\!\left(\frac{D}{K_{d,i}}\right)\right)^{m_i} $$
+
+![Zwei Ziele mit unterschiedlichen Dissoziationskonstanten K_d platzieren ihre Nutzenfenster auf disjunkten Regionen der Dosisachse; B_total(D) ist ihre Summe. Ein Nulleffekt im Hochdosis-Fenster lässt das Niedrigdosis-Fenster ungetestet. *Illustration der Teil-B-Hypothese, keine empirischen Daten.*](fig4-non-overlap.svg)
 
 Unterschiedliche $K_{d,i}$ platzieren die Fenster auf disjunkten Regionen der Dosisachse — der mathematische Gehalt der „nicht überlappenden Dosis-Optima". **Status: Hypothese**, die B2-Hypothese erweiternd; keine gemessenen $K_{d,i}$ oder $m_i$ existieren für LDNs Ziele.
 
