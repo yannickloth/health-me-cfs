@@ -54,6 +54,20 @@ The problem: this hypothesis is only true for a drug that hits **a single target
 
 The superset assumption treats a dose as a volume knob — more drug, more of the same effect. But LDN is a hormetic, multi-target drug, and that changes everything.
 
+### What a receptor is, and why a dose can be too low
+
+The article rests on a picture of how a drug and a receptor interact. This subsection states that picture, separating established biology from the article's hypothesis.
+
+**What a receptor is (established).** A receptor is a protein — usually on a cell's surface — that a signaling molecule or a drug binds. Binding does something inside the cell: an **agonist** mimics the natural signal and switches a response on; an **antagonist** binds the same site, blocks the natural signal, and switches it off. For dosing, the quantity that matters is the **fraction of receptors occupied** — the share of the cell's copies of that receptor that carry a drug molecule. The Hill equation of Part A3 turns a concentration into this fraction.
+
+**Why that fraction follows concentration (established).** Binding is a reversible equilibrium, $D + R \rightleftharpoons DR$. The dissociation constant $K_d$ is the ratio of the two rates — how fast the drug falls off over how fast it attaches. A concentration equal to $K_d$ occupies half the receptors; far above, almost all; far below, almost none. This is why the dimensionless ratio $c = D/K_d$ runs through the article: it measures a concentration in units of that receptor's sensitivity. (Mass-action, Langmuir–Hill binding — textbook pharmacology, cited in Part A3.)
+
+For LDN's low-dose mechanism, the receptor is the microglial danger sensor TLR4, and LDN is an **antagonist** of it: it occupies the sensor and stops it from reporting a danger signal. Whether it blocks a little or a lot is set by $c = D/K_d$.
+
+**Why too little fails (established).** If almost no receptors are occupied, the block is negligible and the cell is essentially unchanged — no response, no benefit. Below a threshold occupancy, the drug does nothing visible.
+
+So far the picture is monotonic: more drug, more block. The puzzle is why **too much** drug also fails — why the benefit does not keep rising. That is the subject of the next subsection, hormesis.
+
 ### What hormesis is
 
 Hormesis is a specific biological phenomenon, not a slogan: a low-level stressor triggers a *compensatory adaptive response* that is larger than the stressor itself. The classic case is the Keap1-Nrf2-ARE pathway. Under baseline conditions, the protein Keap1 binds the transcription factor Nrf2 and targets it for degradation. When a mild oxidative or inflammatory stress arrives — here, partial blockade of the microglial receptor TLR4 — reactive cysteine residues on Keap1 are modified, Nrf2 is released, translocates to the nucleus, and switches on a large battery of anti-inflammatory and antioxidant genes (hundreds, per the Nrf2/ARE literature). The *benefit is the cell's own adaptive program*, not the drug's direct action. This is the Calabrese hormesis corpus, applied to LDN dosing [@Calabrese2021Nrf2].
@@ -63,7 +77,13 @@ Two things follow from the chemistry:
 - **Too little drug** fails to modify enough Keap1 — the signal never fires, Nrf2 stays bound, no benefit.
 - **Too much drug** extinguishes the very stress signal that released Nrf2. At 0.5–1.5 mg, TLR4 is only *partially* blocked, so the microglia still sense the signal and mount the Nrf2 response. Above that window, TLR4 is blocked too completely — the cell no longer detects any stress, Nrf2 stays bound to Keap1, and the anti-inflammatory program collapses. The drug is still binding its receptor; it has simply stopped producing the adaptive response that made it therapeutic.
 
-So hormesis is the *opposite* of the superset model: there is a window, and pushing past it does not give you more — it switches the benefit off.
+So hormesis is the *opposite* of the superset model: there is a window, and pushing past it does not give you more — it switches the benefit off. For LDN, this "too much" arm is a hypothesis: the Nrf2 hormesis mechanism is established in toxicology, but its role as LDN's clinical mechanism is not.
+
+Two consequences follow, and both carry the article's argument:
+
+- **Binding is continuous; benefit is windowed.** The block grows monotonically with dose. The benefit is an inverted-U. These are not contradictory: at 4 mg the receptor is *more* blocked than at 1 mg, and the benefit is *gone* — it disappears precisely because the block is too complete.
+
+- **The two zeros are opposite failures.** Below the window, the perturbation is too weak to trigger. Above the window, it is too complete to detect. Both give zero benefit, for opposite reasons — which is why a null at 4 mg (an "above-the-window" point for TLR4) cannot be read as a null at 1 mg (an "inside-the-window" point).
 
 ### The four targets, and the doses at which each engages
 
@@ -78,6 +98,21 @@ LDN binds at least four distinct molecular targets, and they engage at **differe
 | >4.5 mg | none — all mechanisms past their optima; mu-opioid antagonism at 50 mg | opioid-withdrawal-like symptoms |
 
 ![LDN's benefit mechanisms on the dose axis: TLR4/Nrf2 priming (0.5–1.5 mg), the endorphin rebound (1.5–3.0 mg, plateau preserved to 4.5 mg), and TRPM3 restoration (3.0–4.5 mg), with the 1 mg and 4 mg trial points marked. The two trials test different windows; at 4 mg the TLR4/Nrf2 window has already closed. *Schematic — window positions from the paper's dose-band map (itself low certainty); shapes and equal heights illustrative and unmeasured; orexin disinhibition omitted for clarity. Not empirical data.*](fig5-ldn-windows.svg)
+
+### A dose band is a benefit optimum, not a binding switch
+
+The table above can read like a set of on/off switches: "TLR4/Nrf2 = 0.5–1.5 mg," "TRPM3 = 3.0–4.5 mg." That is not how binding works, and a reader who takes it literally is right to ask: does 1 mg not bind the receptors that 4 mg binds?
+
+The answer is that the drug binds **all four targets at every dose**. Naltrexone is one molecule; the four receptors are all present and liganded simultaneously at any dose above zero. What changes with dose is not *whether* a target is bound but *how completely* — the fractional occupancy of each target, each on its own curve
+
+$$ f_i = \frac{(D/K_{d,i})^n}{1 + (D/K_{d,i})^n} $$
+
+(the established Hill occupancy of Part A3, written per target). A target with a low dissociation constant $K_{d,i}$ (high affinity) reaches high occupancy at a low dose. A target with a higher $K_{d,i}$ needs a higher dose to reach the same occupancy. So:
+
+- **At 1 mg,** TLR4 (low $K_d$) sits near its sweet spot, while TRPM3 (higher $K_d$) is bound but only lightly occupied — too lightly for its benefit to appear.
+- **At 4 mg,** TRPM3 reaches its own sweet spot, while TLR4 is over-occupied ($f \approx 0.94$), which extinguishes its benefit.
+
+Binding is continuous; benefit is windowed. The row "TLR4/Nrf2 = 0.5–1.5 mg" therefore means "TLR4's *benefit* is largest between 0.5 and 1.5 mg" — not "TLR4 is engaged only there." At 4 mg, TLR4 is bound *more* completely than at 1 mg; it is the benefit that has vanished, for the reason in the short answer: the residual signal that sustained the adaptive response is gone. This is exactly what the Part B model encodes — a sum of windows, each target contributing $f_i(1-f_i)^{m_i}$ — and what the figure above draws as soft bumps rather than hard bands. **The dose bands are where each mechanism's benefit peaks, not where each receptor is switched on.**
 
 The four mechanisms, in their chemistry:
 
@@ -221,6 +256,18 @@ There is an even sharper version of this for LDN specifically. The TLR4 antagoni
 The superset inference **is** valid in one precise case. If a drug hits a single target, with a single affinity and a monotonic dose-response curve (more dose = more occupancy = more effect, no inversion), then a high-dose failure suffices, and lower doses are redundant. This is a general pharmacology principle — it is the assumption behind standard dose-finding for many single-target, monotonic agents — not a claim specific to LDN or drawn from the paper's LDN analysis.
 
 LDN is not in this class. Its dose-response curve is not monotonic — benefit rises and then falls within the clinical range, with target optima that do not overlap. For this kind of molecule, the superset hypothesis is not a reasonable shortcut: it is the very hypothesis the dose trial is meant to *test*, not presuppose.
+
+### The same failure applies to other multi-target drugs
+
+The superset-failure is not a quirk of naltrexone. It is a *structural* consequence of the dose-response shape: for any drug whose benefit is non-monotonic in dose, with several target optima, the doses cannot be nested, and a null at one dose is evidence only about that dose. The detailed catalogue is in [Part 2](../inverted-u-not-one-thing/), which lists eighteen such medications in ME/CFS. Three examples make the point concrete.
+
+- **Rapamycin** acts on two complexes of the same protein, mTOR. It binds mTORC1 — which controls autophagy and cellular quality control — with higher affinity than mTORC2, which controls cell survival and insulin signalling. At low intermittent doses it inhibits mTORC1 and spares mTORC2, restoring autophagy and suppressing the inflammatory secretion of senescent cells. At higher daily doses it also inhibits mTORC2, and insulin resistance and immunosuppression replace the metabolic benefit. A null at the higher dose, where mTORC2 is engaged, says nothing about the low intermittent dose that spares it — the same non-overlap as LDN's TLR4 and TRPM3 windows.
+
+- **Corticosteroids** supply at physiological replacement doses (5–10 mg prednisone) the anti-inflammatory signal the HPA axis normally gives; at supraphysiological doses they suppress the HPA axis itself, and the taper produces rebound inflammation worse than baseline. A null at a supraphysiological dose does not test the replacement dose — the two sit on opposite sides of a threshold, exactly as LDN's 1 mg and 4 mg sit on opposite sides of the TLR4 window.
+
+- **Modafinil, duloxetine, and guanfacine** act on the prefrontal catecholamine system, whose benefit is an inverted-U in dopamine and norepinephrine tone. The dose that overshoots the optimum is different from the dose that reaches it; a null at an overshooting dose says nothing about the lower dose that tunes the circuit.
+
+In every case the structure is identical: the benefit is a sum of dose-specific windows, so the failure of one window leaves the others untested. That is why the argument of this article is a general pharmacology principle, not an LDN-specific claim. What is LDN-specific — and taken from the paper, at low certainty — is the *position* of the bands; the *logic* of dose non-propagation is drug-independent.
 
 To be honest about the other direction too: LDN's *overall* evidence is weak, and that does not favor any dose. The FINAL trial (n = 99) found no significant primary pain difference [@DueBruun2024LDNFibromyalgia], a responder re-analysis of six secondary outcomes was null on all [@Nielsen2026LDNFMResponder], and a meta-analysis found no between-group benefit [@Ologunowa2025LDNFMMeta]. These nulls are real and must be weighed. But they were single-dose trials — none swept the dose axis. A null at one dose, in a drug whose targets engage at different bands, is exactly the ambiguity this article is about.
 

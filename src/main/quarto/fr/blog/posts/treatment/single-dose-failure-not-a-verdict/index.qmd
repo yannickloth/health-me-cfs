@@ -54,6 +54,20 @@ Le problème : cette hypothèse n'est vraie que pour un médicament qui atteint 
 
 L'hypothèse du sur-ensemble traite la dose comme un bouton de volume — plus de médicament, plus du même effet. Mais le LDN est un médicament hormétique multi-cibles, et cela change tout.
 
+### Ce qu'est un récepteur, et pourquoi une dose peut être trop faible
+
+L'article repose sur une image de la façon dont un médicament et un récepteur interagissent. Cette sous-section expose cette image, en séparant la biologie établie de l'hypothèse de l'article.
+
+**Ce qu'est un récepteur (établi).** Un récepteur est une protéine — généralement à la surface d'une cellule — à laquelle une molécule de signalisation ou un médicament se lie. La liaison fait quelque chose à l'intérieur de la cellule : un **agoniste** imite le signal naturel et déclenche une réponse ; un **antagoniste** se lie au même site, bloque le signal naturel et l'éteint. Pour le dosage, la grandeur qui compte est la **fraction de récepteurs occupés** — la part des copies de ce récepteur sur la cellule qui portent une molécule de médicament. L'équation de Hill de la partie A3 transforme une concentration en cette fraction.
+
+**Pourquoi cette fraction suit la concentration (établi).** La liaison est un équilibre réversible, $D + R \rightleftharpoons DR$. La constante de dissociation $K_d$ est le rapport des deux vitesses — combien vite le médicament se détache sur combien vite il s'attache. Une concentration égale à $K_d$ occupe la moitié des récepteurs ; très au-dessus, presque tous ; très en dessous, presque aucun. C'est pourquoi le rapport sans dimension $c = D/K_d$ traverse l'article : il mesure une concentration en unités de la sensibilité du récepteur. (Liaison de masse, de Langmuir–Hill — pharmacologie de manuel, citée dans la partie A3.)
+
+Pour le mécanisme à faible dose du LDN, le récepteur est le capteur de danger microglial TLR4, et le LDN en est un **antagoniste** : il occupe le capteur et l'empêche de rapporter un signal de danger. Qu'il bloque un peu ou beaucoup est fixé par $c = D/K_d$.
+
+**Pourquoi trop peu échoue (établi).** Si presque aucun récepteur n'est occupé, le blocage est négligeable et la cellule est essentiellement inchangée — pas de réponse, pas de bénéfice. En dessous d'un seuil d'occupation, le médicament ne fait rien de visible.
+
+Jusqu'ici, l'image est monotone : plus de médicament, plus de blocage. L'énigme est de savoir pourquoi **trop de** médicament échoue aussi — pourquoi le bénéfice ne continue pas de monter. C'est le sujet de la sous-section suivante, l'hormèse.
+
 ### Ce qu'est l'hormèse
 
 L'hormèse est un phénomène biologique précis, pas un slogan : un facteur de stress de faible intensité déclenche une *réponse adaptative compensatoire* plus grande que le stress lui-même. Le cas classique est la voie Keap1-Nrf2-ARE. À l'état basal, la protéine Keap1 se lie au facteur de transcription Nrf2 et le cible pour dégradation. Quand un stress oxydatif ou inflammatoire modéré survient — ici, le blocage partiel du récepteur microglial TLR4 — les résidus cystéine réactifs de Keap1 sont modifiés, Nrf2 est libéré, transloque vers le noyau, et active un large programme de gènes anti-inflammatoires et antioxydants (des centaines, selon la littérature Nrf2/ARE). Le *bénéfice est le programme adaptatif propre de la cellule*, pas l'action directe du médicament. C'est le corpus d'hormèse de Calabrese, appliqué au dosage du LDN [@Calabrese2021Nrf2].
@@ -63,7 +77,13 @@ Deux choses découlent de la chimie :
 - **Trop peu de médicament** ne modifie pas assez Keap1 — le signal ne se déclenche jamais, Nrf2 reste lié, aucun bénéfice.
 - **Trop de médicament** éteint le signal de stress qui a libéré Nrf2. À 0,5–1,5 mg, le TLR4 n'est que *partiellement* bloqué, de sorte que la microglie détecte encore le signal et monte la réponse Nrf2. Au-dessus de cette fenêtre, le TLR4 est bloqué trop complètement — la cellule ne détecte plus aucun stress, Nrf2 reste lié à Keap1, et le programme anti-inflammatoire s'effondre. Le médicament continue de se lier à son récepteur ; il a simplement cessé de produire la réponse adaptative qui le rendait thérapeutique.
 
-Ainsi, l'hormèse est l'*opposé* du modèle du sur-ensemble : il y a une fenêtre, et la dépasser ne donne pas plus — cela éteint le bénéfice.
+Ainsi, l'hormèse est l'*opposé* du modèle du sur-ensemble : il y a une fenêtre, et la dépasser ne donne pas plus — cela éteint le bénéfice. Pour le LDN, ce bras « trop de » est une hypothèse : le mécanisme d'hormèse Nrf2 est établi en toxicologie, mais son rôle comme mécanisme clinique du LDN ne l'est pas.
+
+Deux conséquences s'ensuivent, et toutes deux portent l'argument de l'article :
+
+- **La liaison est continue ; le bénéfice est fenêtré.** Le blocage croît de façon monotone avec la dose. Le bénéfice est un U inversé. Ce n'est pas contradictoire : à 4 mg, le récepteur est *plus* bloqué qu'à 1 mg, et le bénéfice a *disparu* — il disparaît précisément parce que le blocage est trop complet.
+
+- **Les deux zéros sont des échecs opposés.** Sous la fenêtre, la perturbation est trop faible pour déclencher. Au-dessus, elle est trop complète pour être détectée. Les deux donnent un bénéfice nul, pour des raisons opposées — ce qui explique pourquoi un nul à 4 mg (un point « au-dessus de la fenêtre » pour TLR4) ne peut pas être lu comme un nul à 1 mg (un point « dans la fenêtre »).
 
 ### Les quatre cibles, et les doses auxquelles chacune s'engage
 
@@ -78,6 +98,21 @@ Le LDN se lie à au moins quatre cibles moléculaires distinctes, et elles s'eng
 | >4,5 mg | aucun — tous les mécanismes passés au-delà de leurs optima ; antagonisme mu-opioïde à 50 mg | symptômes de type sevrage opioïde |
 
 ![Les mécanismes de bénéfice du LDN sur l'axe de dose : l'amorçage TLR4/Nrf2 (0,5–1,5 mg), le rebond d'endorphines (1,5–3,0 mg, plateau préservé jusqu'à 4,5 mg), et la restauration de TRPM3 (3,0–4,5 mg), avec les points d'essai de 1 mg et 4 mg marqués. Les deux essais testent des fenêtres différentes ; à 4 mg, la fenêtre TLR4/Nrf2 s'est déjà refermée. *Schéma — positions des fenêtres d'après la carte des bandes de dose de l'article (elle-même de certitude faible) ; formes et hauteurs égales illustratives et non mesurées ; désinhibition de l'orexine omise pour plus de clarté. Pas de données empiriques.*](fig5-ldn-windows.svg)
+
+### Une bande de dose est un optimum de bénéfice, pas un interrupteur de liaison
+
+Le tableau ci-dessus peut se lire comme un jeu d'interrupteurs : « TLR4/Nrf2 = 0,5–1,5 mg », « TRPM3 = 3,0–4,5 mg ». Ce n'est pas ainsi que fonctionne la liaison, et un lecteur qui le prend au pied de la lettre a raison de demander : le 1 mg ne lie-t-il pas les récepteurs que le 4 mg lie ?
+
+La réponse est que le médicament se lie aux **quatre cibles à chaque dose**. La naltrexone est une seule molécule ; les quatre récepteurs sont tous présents et liés simultanément à toute dose supérieure à zéro. Ce qui change avec la dose n'est pas *si* une cible est liée mais *à quel point* — l'occupation fractionnaire de chaque cible, chacune sur sa propre courbe
+
+$$ f_i = \frac{(D/K_{d,i})^n}{1 + (D/K_{d,i})^n} $$
+
+(l'occupation de Hill établie de la partie A3, écrite par cible). Une cible à faible constante de dissociation $K_{d,i}$ (affinité élevée) atteint une occupation élevée à faible dose. Une cible à $K_{d,i}$ plus élevé a besoin d'une dose plus élevée pour atteindre la même occupation. Ainsi :
+
+- **À 1 mg,** TLR4 (faible $K_d$) se situe près de son point idéal, tandis que TRPM3 ($K_d$ plus élevé) est lié mais seulement légèrement occupé — trop légèrement pour que son bénéfice apparaisse.
+- **À 4 mg,** TRPM3 atteint son propre point idéal, tandis que TLR4 est sur-occupé ($f \approx 0,94$), ce qui éteint son bénéfice.
+
+La liaison est continue ; le bénéfice est fenêtré. La ligne « TLR4/Nrf2 = 0,5–1,5 mg » signifie donc « le *bénéfice* de TLR4 est le plus grand entre 0,5 et 1,5 mg » — pas « TLR4 n'est engagé qu'à cet endroit ». À 4 mg, TLR4 est lié *plus* complètement qu'à 1 mg ; c'est le bénéfice qui a disparu, pour la raison de la réponse courte : le signal résiduel qui soutenait la réponse adaptative a disparu. C'est exactement ce que le modèle de la partie B encode — une somme de fenêtres, chaque cible contribuant $f_i(1-f_i)^{m_i}$ — et ce que la figure ci-dessus dessine comme des bosses souples plutôt que des bandes dures. **Les bandes de dose sont là où le bénéfice de chaque mécanisme culmine, pas là où chaque récepteur est allumé.**
 
 Les quatre mécanismes, dans leur chimie :
 
@@ -221,6 +256,18 @@ Il y a une version encore plus nette de cela, spécifique au LDN. L'antagonisme 
 L'inférence du sur-ensemble **est** valide dans un cas précis. Si un médicament atteint une seule cible, avec une seule affinité et une courbe dose-réponse monotone (plus de dose = plus d'occupation = plus d'effet, sans inversion), alors un échec à dose haute suffit, et les doses plus faibles sont redondantes. C'est un principe pharmacologique général — l'hypothèse sous-jacente à la recherche de dose standard pour de nombreux agents mono-cibles et monotones — pas une affirmation spécifique au LDN ni tirée de l'analyse du LDN dans l'article.
 
 Le LDN n'appartient pas à cette classe. Sa courbe dose-réponse n'est pas monotone — le bénéfice monte puis retombe à l'intérieur de la gamme clinique, avec des optima de cible qui ne se chevauchent pas. Pour ce genre de molécule, l'hypothèse du sur-ensemble n'est pas un raccourci raisonnable : c'est l'hypothèse exacte que l'essai de dose doit *tester*, pas présupposer.
+
+### Le même échec s'applique à d'autres médicaments multi-cibles
+
+L'échec du sur-ensemble n'est pas une particularité de la naltrexone. C'est une conséquence *structurelle* de la forme de la dose-réponse : pour tout médicament dont le bénéfice n'est pas monotone en fonction de la dose, avec plusieurs optima de cible, les doses ne peuvent pas être emboîtées, et un nul à une dose n'est une preuve que sur cette dose. Le catalogue détaillé figure dans la [Partie 2](../inverted-u-not-one-thing/), qui liste dix-huit médicaments de ce type dans l'EM/SFC. Trois exemples rendent le point concret.
+
+- **Le rapamycine** agit sur deux complexes de la même protéine, mTOR. Il se lie à mTORC1 — qui contrôle l'autophagie et le contrôle qualité cellulaire — avec une affinité plus forte qu'à mTORC2, qui contrôle la survie cellulaire et la signalisation de l'insuline. À faible dose intermittente, il inhibe mTORC1 et épargne mTORC2, restaurant l'autophagie et supprimant la sécrétion inflammatoire des cellules sénescentes. À dose quotidienne plus élevée, il inhibe aussi mTORC2, et la résistance à l'insuline et l'immunosuppression remplacent le bénéfice métabolique. Un nul à la dose élevée, où mTORC2 est engagé, ne dit rien de la faible dose intermittente qui l'épargne — la même non-coïncidence que les fenêtres TLR4 et TRPM3 du LDN.
+
+- **Les corticostéroïdes** fournissent aux doses physiologiques de remplacement (5–10 mg de prednisone) le signal anti-inflammatoire que l'axe HPA donne normalement ; aux doses supraphysiologiques, ils suppriment l'axe HPA lui-même, et la diminution produit une inflammation de rebond pire que la ligne de base. Un nul à une dose supraphysiologique ne teste pas la dose de remplacement — les deux se situent de part et d'autre d'un seuil, exactement comme le 1 mg et le 4 mg du LDN se situent de part et d'autre de la fenêtre TLR4.
+
+- **Le modafinil, la duloxétine et la guanfacine** agissent sur le système catécholaminergique préfrontal, dont le bénéfice est un U inversé dans le tonus de dopamine et de noradrénaline. La dose qui dépasse l'optimum est différente de celle qui l'atteint ; un nul à une dose de dépassement ne dit rien de la dose plus faible qui accorde le circuit.
+
+Dans chaque cas, la structure est identique : le bénéfice est une somme de fenêtres spécifiques à la dose, de sorte que l'échec d'une fenêtre laisse les autres non testées. C'est pourquoi l'argument de cet article est un principe pharmacologique général, pas une affirmation spécifique au LDN. Ce qui est spécifique au LDN — et tiré de l'article, à certitude faible — c'est la *position* des bandes ; la *logique* de la non-propagation de dose est indépendante du médicament.
 
 Pour être honnête dans l'autre sens aussi : la preuve *globale* du LDN est faible, et cela ne favorise aucune dose. L'essai FINAL (n = 99) n'a trouvé aucune différence significative sur la douleur primaire [@DueBruun2024LDNFibromyalgia], une ré-analyse des répondeurs sur six critères secondaires a été nulle sur tous [@Nielsen2026LDNFMResponder], et une méta-analyse n'a trouvé aucun bénéfice inter-groupes [@Ologunowa2025LDNFMMeta]. Ces résultats nuls sont réels et doivent être pesés. Mais ce furent des essais à dose unique — aucun n'a balayé l'axe de dose. Un nul à une dose, pour un médicament dont les cibles s'engagent à des bandes différentes, est exactement l'ambiguïté dont traite cet article.
 
