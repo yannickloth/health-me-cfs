@@ -21,7 +21,7 @@ L'argument « si 4 mg ne fonctionne pas, alors 1 mg ne fonctionnera pas » n'est
 
 > **L'hypothèse du sur-ensemble :** les effets d'une dose plus faible sont un sous-ensemble des effets d'une dose plus élevée.
 
-Si c'est le cas, tester la dose la plus élevée teste *chaque* dose. Un échec à la dose haute est un échec à toutes. L'inférence est propre, simple, et dispense de multiples essais.
+Si c'est le cas, tester la dose la plus élevée teste *chaque* dose. Un échec à la dose haute est un échec à toutes. L'inférence est propre, simple, et épargne de multiples essais.
 
 Le problème : cette hypothèse n'est vraie que pour un médicament qui atteint **une seule cible** avec une **courbe dose-réponse monotone**. Le LDN n'est ni l'un ni l'autre.
 
