@@ -98,7 +98,7 @@ Das Feld hat mehrere explizite mathematische Formalisierungen der hormetischen K
 - **Xiao et al. 2022** bauen ein dynamisches (DGL-)Modell der Dosis-Wirkung von Anti-Tumor-Medikamenten, das nichtmonotone Regime aus gekoppelter Zellpopulations- und Medikamentenziel-Dynamik erzeugt [@Xiao2022antiTumorDoseResponse].
 - **Sun et al. 2018** schlagen einen „schwingenden Wippe"-Mechanismus für *zeitabhängige* Hormesis vor, bei dem stimulierende und hemmende Effekte über Dosis und Zeit integriert werden [@Sun2018SeesawHormesis].
 
-Alle drei sind reale, publizierte Modelle — aber sie sind *Anpassungen oder Mechanismen für spezifische Systeme*, keines ist ein validiertes mechanistisches Modell der LDN-/TLR4-/Nrf2-Hormesis im Besonderen. **Es gibt keine akzeptierte veröffentlichte Gleichung für das LDN-Hormesisfenster.** Das empirische Muster ist etabliert; die Gleichung ist es nicht.
+Alle drei sind reale, publizierte Modelle — aber sie sind *Anpassungen oder Mechanismen für spezifische Systeme*, keines ist ein validiertes mechanistisches Modell der LDN-/TLR4-/Nrf2-Hormesis im Besonderen. Es **gibt** also Gleichungen, die ein umgekehrtes U beschreiben; was **nicht** existiert, ist eine einzige, akzeptierte, allgemeine Gleichung für das LDN-Hormesisfenster. Das empirische Muster ist etabliert; ein kanonisches Modell davon ist es nicht.
 
 ---
 

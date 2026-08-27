@@ -98,7 +98,7 @@ The field has produced several explicit mathematical formalizations of the horme
 - **Xiao et al. 2022** build a dynamical (ODE) model of anti-tumor dose-response that generates non-monotonic regimes from coupled cell-population and drug-target dynamics [@Xiao2022antiTumorDoseResponse].
 - **Sun et al. 2018** propose a "swinging seesaw" mechanism for *time-dependent* hormesis, where stimulatory and inhibitory effects integrate across dose and time [@Sun2018SeesawHormesis].
 
-All three are real, published models — but they are *fits or mechanisms for specific systems*, none is a validated mechanistic model of LDN/TLR4/Nrf2 hormesis specifically. **There is no accepted published equation for the LDN hormetic window.** The empirical pattern is established; the equation is not.
+All three are real, published models — but they are *fits or mechanisms for specific systems*, none is a validated mechanistic model of LDN/TLR4/Nrf2 hormesis specifically. So there **are** equations that describe an inverted-U; what does **not** exist is a single, accepted, general equation for the LDN hormetic window. The empirical pattern is established; a canonical model of it is not.
 
 ---
 

@@ -98,7 +98,7 @@ Le domaine a produit plusieurs formalisations mathématiques explicites de la co
 - **Xiao et al. 2022** construisent un modèle dynamique (EDO) de la dose-réponse des médicaments anti-tumoraux qui génère des régimes non monotones à partir de la dynamique couplée des populations cellulaires et de la cible du médicament [@Xiao2022antiTumorDoseResponse].
 - **Sun et al. 2018** proposent un mécanisme de « balançoire à bascule » pour l'hormèse *dépendante du temps*, où les effets stimulateurs et inhibiteurs s'intègrent à travers la dose et le temps [@Sun2018SeesawHormesis].
 
-Tous trois sont des modèles réels et publiés — mais ce sont des *ajustements ou des mécanismes pour des systèmes spécifiques*, aucun n'est un modèle mécaniste validé de l'hormèse LDN/TLR4/Nrf2 en particulier. **Il n'existe pas d'équation publiée acceptée pour la fenêtre hormétique du LDN.** Le schéma empirique est établi ; l'équation ne l'est pas.
+Tous trois sont des modèles réels et publiés — mais ce sont des *ajustements ou des mécanismes pour des systèmes spécifiques*, aucun n'est un modèle mécaniste validé de l'hormèse LDN/TLR4/Nrf2 en particulier. Il **existe** donc des équations qui décrivent un U inversé ; ce qui n'existe **pas**, c'est une équation générale, unique et acceptée pour la fenêtre hormétique du LDN. Le schéma empirique est établi ; un modèle canonique de celui-ci ne l'est pas.
 
 ---
 
