@@ -24,7 +24,7 @@ Le bénéfice du LDN à faible dose dépend d'un blocage **partiel** de son réc
 Les chiffres rendent cela concret. La colonne d'occupation utilise l'équation de Hill standard $f = c^2/(1+c^2)$ (pharmacologie établie) ; la colonne de bénéfice utilise le modèle simple $B \propto f(1-f)^2$ proposé dans la partie B de cet article (une hypothèse). Les choix de paramètres sont illustratifs et non mesurés : $K_d = 1$ mg, le coefficient de Hill $n = 2$, et l'exposant de pente $m = 2$ (le modèle général de la partie B laisse $n$ et $m$ libres) :
 
 | Dose | $c = D/K_d$ | $f$ (bloqués) | $1-f$ (résiduel) | bénéfice rel. au pic |
-|------|------------|---------------------------|--------------------------|--------------------------------------------|
+|--------------|----------------|------------------|------------------|--------------------------|
 | 0,7 mg | 0,7 | 0,33 | 0,67 | **1,00 — le pic** |
 | 1 mg | 1,0 | 0,50 | 0,50 | 0,84 |
 | 3 mg | 3,0 | 0,90 | 0,10 | 0,06 |
