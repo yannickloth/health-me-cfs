@@ -97,6 +97,183 @@ Ce n'est pas un artefact pharmacologique. C'est ainsi que le cortex préfrontal 
 
 ---
 
+## Tableaux de référence des bandes de dose
+
+Les tableaux suivants donnent, pour chacun des dix-huit médicaments, une ligne par bande de dose qui a une activité — une gamme où le médicament produit un bénéfice ou un effet notable. **Toutes les bandes de dose sont les hypothèses mécanistes de l'article (certitude faible, ~0,30), recoupées avec les doses cliniques standard là où elles existent.** Aucun essai prospectif de dose-réponse à l'intérieur de la gamme ne confirme aucune d'elles. Les unités sont telles qu'indiquées (dose orale en mg sauf mention ; nM pour les concentrations).
+
+### Catégorie 1 — Médicaments d'hormèse Nrf2
+
+**LDN (naltrexone à faible dose)**
+
+| Bande de dose | Activité / effet | Mécanisme |
+|---------------|------------------|-----------|
+| 0,25–0,5 mg | Micro-dose ; sous le seuil de déclenchement de Nrf2 pour la plupart ; perturbation transitoire du sommeil | Engagement opioïde détectable à micro-dose |
+| 0,5–1,5 mg | **Amorçage hormétique TLR4/Nrf2** — bascule microgliale anti-inflammatoire M1→M2 ; la fenêtre principale | Blocage partiel de TLR4 → régulation Nrf2 |
+| 1,5–3,0 mg | Plateau du rebond d'endorphines ; bénéfice préservé | Blocage opioïde nocturne bref → production compensatoire d'endorphines |
+| 3,0–4,5 mg | Restauration TRPM3 ; désinhibition de l'orexine (« excité ») ; fenêtre TLR4 refermée | Flux calcique TRPM3 ; désinhibition de l'orexine suivant la dose-réponse TLR4 |
+| >4,5 mg | Aucun mécanisme thérapeutique ; tous au-delà des optima | Aucun thérapeutique |
+| 50 mg | Antagonisme mu-opioïde complet — préjudice | Blocage opioïde complet, aucun bénéfice hormétique |
+
+**Lithium à faible dose**
+
+| Bande de dose | Activité / effet | Mécanisme |
+|---------------|------------------|-----------|
+| 0,3–1,0 mg | Activation Nrf2 ; prédit de larges fenêtres LDN/sulforaphane | Inhibition partielle de GSK-3β lève la répression de Nrf2 |
+| 1,0–5,0 mg | Gamme hormétique standard ; ~2 mg comme sonde quotidienne proposée | Inhibition GSK-3β ; inhibition IMPase à l'extrémité haute |
+| 5–15 mg | Bénéfice seulement ici → mécanisme non Nrf2/GSK-3β ; émoussement cognitif, changement thyroïdien | Inhibition IMPase / déplétion d'inositol |
+| 900–1200 mg/jour | Stabilisation thymique psychiatrique standard ; sérum 0,6–1,2 mEq/L | Inhibition GSK-3β + IMPase + modulation des neurotransmetteurs |
+
+**Mélatonine**
+
+| Bande de dose | Activité / effet | Mécanisme |
+|---------------|------------------|-----------|
+| 0,1–0,3 mg | Dose réduite pour les métaboliseurs lents CYP1A2 | Éviter une exposition supraphysiologique |
+| 0,3–1,0 mg | Remplacement physiologique ; avance de phase ; 1 mg a réduit la fatigue physique dans l'EM/SFC | Activation Nrf2 via MT1/MT2 ; chronobiotique |
+| 1,0–3,0 mg | Bénéfice au-dessus de 1 mg → effets antioxydants directs ; rêves vifs, céphalée | Piégeage direct des radicaux + MT1/MT2 |
+| 3,0–5,0 mg | Bénéfice seulement ici → non Nrf2/MT ; sédation diurne | Piégeage ou sédation |
+| 5–20 mg | Aucun mécanisme supplémentaire ; fenêtre refermée ; symptômes de type dépression | Suppression du tonus dopaminergique diurne |
+
+**Sulforaphane**
+
+| Bande de dose | Activité / effet | Mécanisme |
+|---------------|------------------|-----------|
+| 10–30 mg | Sonde Nrf2 la plus forte et la plus pure ; très sensible | Modification directe des cystéines de Keap1 → Nrf2 |
+| 30–60 mg | Réserve Nrf2 standard ; modification soutenue de Keap1 ; possible gêne gastro-intestinale | Keap1 → Nrf2 |
+| 60–100 mg | Bénéfice seulement à haute dose → taux de dégradation Nrf2 très élevé ; plateau ; intolérance gastro-intestinale | Saturation de Keap1 |
+
+**Quercétine**
+
+| Bande de dose | Activité / effet | Mécanisme |
+|---------------|------------------|-----------|
+| 250–500 mg | Concentration cognitive via l'inhibition COMT ; anti-inflammatoire via Nrf2 | Inhibition COMT + Nrf2 |
+| 500–1000 mg | Les deux mécanismes contribuent ; 500 mg ×2/jour comme stabilisateur de mastocytes | COMT + Nrf2 |
+| 1000–2000 mg | Aucun nouveau bénéfice ; inversion à double cible ; hypertension, tachycardie | Dépassement COMT + auto-oxydation des catécholamines |
+
+**NAC (N-acétylcystéine)**
+
+| Bande de dose | Activité / effet | Mécanisme |
+|---------------|------------------|-----------|
+| 600 mg | Synthèse de glutathion ; activation Nrf2 — mais ~20–30 % d'aggravation paradoxale | Bouffée thiol vs Nrf2 |
+| 1200 mg | Synthèse nette de glutathion établie ; effets gastro-intestinaux → diviser | Glutathion + Nrf2 |
+| 1800–2400 mg | Aucun bénéfice Nrf2 supplémentaire (plateau) ; toxicité gastro-intestinale limitante | Saturation |
+
+### Catégorie 2 — U inversé de l'agoniste partiel
+
+**LDA (aripiprazole à faible dose)**
+
+| Bande de dose | Activité / effet | Mécanisme |
+|---------------|------------------|-----------|
+| 0,2–0,5 mg | Micro-dose ; akathisie ici = carence DA sévère + D2 hypersensible | Agonisme partiel D2 microglial |
+| 0,5–1,0 mg | Fenêtre standard : D2 microglial + D2 mésocorticolimbique + 5-HT1A | Agonisme partiel D2 ; 5-HT1A |
+| 1,0–2,0 mg | Cognition/motivation + stabilisation ANS ; point d'inversion si le bénéfice se perd ici | D2 postsynaptique/mésocorticolimbique |
+| >2 mg (jusqu'à ~4 mg) | Tous les mécanismes thérapeutiques éteints ; antagonisme net ; sédation, prise de poids | Occupation D2 >50 % → antagonisme net |
+| 5–30 mg | Gamme psychiatrique ; préjudice actif | Occupation D2 >80 % antagonisme complet |
+
+### Catégorie 3 — U inversé des catécholamines au cortex préfrontal
+
+**Modafinil**
+
+| Bande de dose | Activité / effet | Mécanisme |
+|---------------|------------------|-----------|
+| 25–50 mg | Gain cognitif chez les patients à tonus faible ; céphalée transitoire | Blocage léger du DAT sur le bras gauche du U inversé |
+| 50–100 mg | Fenêtre optimale standard pour une DA de base basse-normale | Blocage DAT à D1 ; NET à α2A |
+| 100–200 mg | Dose approuvée par la FDA (narcolepsie/SAOS) ; bénéfice maximal ; inversion au-dessus de 200 mg | Blocage DAT ; promotion de l'éveil |
+| 200–300 mg | Bénéfice seulement ici → DA de base sévèrement basse ; anxiété, tachycardie | Extrémité droite du U inversé ; suractivation D1/α2A |
+| ≥400 mg | Aucun mécanisme supplémentaire ; toxicité catécholaminergique | Extrémité droite du U inversé |
+
+**Duloxétine**
+
+| Bande de dose | Activité / effet | Mécanisme |
+|---------------|------------------|-----------|
+| 10–20 mg | Majoritairement sérotoninergique ; bénéfice douleur/sommeil, pas catécholaminergique ; nausée | Inhibition SERT |
+| 20–40 mg | Double SERT + début NET ; énergie/motivation ajoutées | SERT + NET |
+| 40–60 mg | Les deux optimaux ; dose FDA standard (60 mg) | SERT + NET complets |
+| 60–90 mg | Peu probable de nouveau bénéfice ; excès noradrénergique → hypertension, agitation | NET au-delà du pic du U inversé |
+| 90–120 mg | Haute dose ; élévation de la pression artérielle dépendante de la dose | Élévation de la PA médiée par NET |
+
+**Guanfacine**
+
+| Bande de dose | Activité / effet | Mécanisme |
+|---------------|------------------|-----------|
+| 0,5–1,0 mg | Tonus α2A préfrontal optimal ; mémoire de travail, concentration ; sédation les 1–2 premières semaines | Agonisme α2A postsynaptique |
+| 1,0–2,0 mg | Bénéfice cognitif optimal au pic α2A ; somnolence, hypotension | α2A postsynaptique au pic |
+| 2,0–4,0 mg | Aucun nouveau bénéfice cognitif ; anxiolyse/sédation ; hypotension | α2A présynaptique supprime le locus cœruleus |
+
+**Bêta-bloquants (référence propranolol ; équivalents aténolol/métoprolol)**
+
+| Bande de dose | Activité / effet | Mécanisme |
+|---------------|------------------|-----------|
+| Propranolol 5–10 mg | Contrôle orthostatique sans coût cognitif ; fatigue légère | Blocage périphérique β1/β2 |
+| Propranolol 10–20 mg | Contrôle orthostatique + amélioration cognitive ; bradycardie, hypotension | Blocage périphérique + début de blocage central β |
+| Propranolol 20–40 mg | Aucun nouveau bénéfice ; déclin cognitif ; fatigue, dépression | Le blocage central β tire le tonus sous l'optimum |
+| Propranolol 40–160 mg/jour | Dose antihypertensive standard ; pas la stratégie à faible dose de l'EM/SFC | Blocage périphérique β1 |
+
+**Gabapentinoïdes (gabapentine / prégabaline)**
+
+| Bande de dose | Activité / effet | Mécanisme |
+|---------------|------------------|-----------|
+| Gab 100–300 mg / Preg 25–75 mg | Clarté cognitive, hypersensibilité sensorielle réduite, meilleur sommeil | Blocage de la sous-unité α2δ |
+| Gab 300–900 mg / Preg 75–150 mg | Contrôle des symptômes optimisé ; « brouillard cérébral » si la suppression noradrénergique est excessive | Blocage α2δ |
+| Gab ~300 mg (dose unique) | SAOS aggravé (IAH ↑) ; bande d'effet secondaire | Collapsibilité des voies aériennes supérieures liée au GABA |
+| Gab 900–3600 mg / Preg 150–600 mg | Gamme standard de douleur neuropathique ; sédation sévère, risque de dépendance | Blocage α2δ à pleine occupation |
+
+### Catégorie 4 — Sélection de cible et biochimie biphasique
+
+**Rapamycine**
+
+| Bande de dose | Activité / effet | Mécanisme |
+|---------------|------------------|-----------|
+| 0,5–2 mg/semaine | Restaure l'autophagie, supprime le SASP ; prédit le bénéfice du jeûne intermittent | Inhibition mTORC1 (haute affinité) |
+| 2–3 mg/semaine | Bénéfice mTORC1 maximisé ; effets métaboliques débutants | Inhibition mTORC1 |
+| 3–6 mg/semaine | Bénéfice mTORC1 compensé par les coûts métaboliques de mTORC2 ; net négatif | Début d'inhibition mTORC2 |
+| ≥5 mg/jour | Aucune justification ; préjudice net attendu | Toxicité mTORC2 complète |
+
+**Corticostéroïdes (référence prednisone)**
+
+| Bande de dose | Activité / effet | Mécanisme |
+|---------------|------------------|-----------|
+| Prednisone 2,5–5 mg/jour | Remplacement physiologique ; restaure le tonus anti-inflammatoire ; réponse spectaculaire → exclure une insuffisance surrénalienne | Activation GR physiologique |
+| Prednisone 5–15 mg/jour | Bénéfice → inflammation significative sensible aux stéroïdes | Activation GR supraphysiologique |
+| Prednisone 15–40 mg/jour | Bénéfice seulement ici → inflammation résistante aux corticoïdes ; suppression HPA dominante | GR saturé ; suppression HPA |
+| ≥40 mg/jour | Aucune justification dans l'EM/SFC ; préjudice net | Syndrome de Cushing, nécrose avasculaire |
+
+**Alloprégnanolone**
+
+| Bande de dose | Activité / effet | Mécanisme |
+|---------------|------------------|-----------|
+| ~1–5 nM (niveau lutéal) | Effet anxiogène paradoxal ; à éviter | Site GABA-A haute affinité seul |
+| >10 nM (niveau de grossesse) | Anxiolyse, sédation ; thérapeutique | Les deux sites GABA-A engagés |
+| Bréxanolone IV 60–90 µg/kg/h | Preuve de concept (dépression post-partum) | Modulation allostérique positive GABA-A |
+
+**DORAs (antagonistes doubles des récepteurs de l'orexine)**
+
+| Bande de dose | Activité / effet | Mécanisme |
+|---------------|------------------|-----------|
+| Daridorexant 25 mg | Blocage partiel suffisant ; effets secondaires minimes | Blocage partiel OX1R/OX2R |
+| Daridorexant 50 mg | Bénéfice du sommeil maximisé ; somnolence le lendemain possible (max FDA) | Occupation quasi complète |
+| Daridorexant 100 mg | Aucun bénéfice supplémentaire ; état de type narcolepsie ; non approuvé | Blocage complet dépassant la fenêtre |
+| Suvoréxant 10 mg | Blocage partiel ; dose de départ | Blocage partiel OX1R/OX2R |
+| Suvoréxant 15–20 mg | Bénéfice du sommeil maximisé ; risque de somnolence le lendemain | Blocage quasi complet |
+| Lemboréxant 5 mg → 10 mg | Dose recommandée → maximale | Antagonisme double OX1R/OX2R |
+
+**Antihistaminiques H1**
+
+| Bande de dose | Activité / effet | Mécanisme |
+|---------------|------------------|-----------|
+| Cétirizine 5 mg / Loratadine 10 mg / Fexofénadine 180 mg | Blocage périphérique H1 ; effets secondaires minimes | H1 périphérique |
+| Cétirizine 10–20 mg / Loratadine 20 mg | Bénéfice périphérique supplémentaire ; ≥20 mg de cétirizine → pénétration SNC → sédation | Blocage H1 central |
+| Cétirizine 10 mg (sonde de prophylaxie du PEM avant l'exercice) | Blocage H1 pour réduire la sévérité du PEM (proposé) | Bloque l'amplification histaminique induite par l'exercice |
+
+**Kétotifène**
+
+| Bande de dose | Activité / effet | Mécanisme |
+|---------------|------------------|-----------|
+| 0,25–1,0 mg | Bénéfice MCAS sans sédation | Stabilisation des mastocytes |
+| 1,0–2,0 mg | Bénéfice mastocytaire maximisé ; la sédation SNC peut ajouter un bénéfice de sommeil | Mastocytes + H1 central |
+| 2,0–4,0 mg | Bénéfice net inversé ; la sédation dépasse le gain MCAS ; prise de poids | Sédation H1 centrale dominante |
+
+---
+
 ## Pourquoi la distinction importe
 
 L'implication thérapeutique d'un U inversé dépend entièrement de la catégorie à laquelle appartient le médicament.

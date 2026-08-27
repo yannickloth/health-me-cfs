@@ -97,6 +97,183 @@ Dies ist kein pharmakologisches Artefakt. So ist der präfrontale Kortex entstan
 
 ---
 
+## Dosisband-Referenztabellen
+
+Die folgenden Tabellen geben für jedes der achtzehn Medikamente eine Zeile pro Dosisband, das eine Aktivität hat — einen Bereich, in dem das Medikament einen Nutzen oder einen bemerkenswerten Effekt erzeugt. **Alle Dosisbänder sind die mechanistisch hergeleiteten Hypothesen des Papiers (geringe Sicherheit, ~0,30), abgeglichen mit den Standard-Klinikdosen, wo diese existieren.** Kein prospektiver Dosis-Wirkungs-Versuch innerhalb des Bereichs bestätigt eines davon. Einheiten wie angegeben (orale Dosis in mg, sofern nicht anders angegeben; nM für Konzentrationen).
+
+### Kategorie 1 — Nrf2-Hormesis-Medikamente
+
+**LDN (Naltrexon in niedriger Dosis)**
+
+| Dosisband | Aktivität / Wirkung | Mechanismus |
+|-----------|--------------------|-------------|
+| 0,25–0,5 mg | Mikrodosis; unter der Nrf2-Auslöseschwelle für die meisten; vorübergehende Schlafstörung | Opioid-Bindung bei Mikrodosis nachweisbar |
+| 0,5–1,5 mg | **TLR4/Nrf2-hormetisches Priming** — antiinflammatorischer M1→M2-Mikrogliawechsel; das Hauptfenster | Partielle TLR4-Blockade → Nrf2-Hochregulierung |
+| 1,5–3,0 mg | Endorphin-Rebound-Plateau; Nutzen erhalten | Kurze nächtliche Opioid-Blockade → kompensatorische Endorphinproduktion |
+| 3,0–4,5 mg | TRPM3-Wiederherstellung; Orexin-Disinhibition („aufgedreht"); TLR4-Fenster geschlossen | TRPM3-Ca²⁺-Fluss; Orexin-Disinhibition folgt der TLR4-Dosis-Wirkung |
+| >4,5 mg | Kein therapeutischer Mechanismus; alle jenseits der Optima | Keiner therapeutisch |
+| 50 mg | Vollständiger mu-Opioid-Antagonismus — Schaden | Vollständige Opioid-Blockade, kein hormetischer Nutzen |
+
+**Lithium in niedriger Dosis**
+
+| Dosisband | Aktivität / Wirkung | Mechanismus |
+|-----------|--------------------|-------------|
+| 0,3–1,0 mg | Nrf2-Aktivierung; sagt breite LDN-/Sulforaphan-Fenster voraus | Partielle GSK-3β-Hemmung hebt Nrf2-Unterdrückung auf |
+| 1,0–5,0 mg | Standard-Hormesisbereich; ~2 mg als vorgeschlagene tägliche Sonde | GSK-3β-Hemmung; IMPase-Hemmung beginnt am oberen Ende |
+| 5–15 mg | Nutzen nur hier → Mechanismus nicht Nrf2/GSK-3β; kognitive Abstumpfung, Schilddrüsenveränderung | IMPase-Hemmung / Inositol-Depletion |
+| 900–1200 mg/Tag | Standard-psychiatrische Stimmungsstabilisierung; Serum 0,6–1,2 mEq/l | Vollständige GSK-3β + IMPase + Neurotransmitter-Modulation |
+
+**Melatonin**
+
+| Dosisband | Aktivität / Wirkung | Mechanismus |
+|-----------|--------------------|-------------|
+| 0,1–0,3 mg | Reduzierte Dosis für CYP1A2-Langsam-Metabolisierer | Supraphysiologische Exposition vermeiden |
+| 0,3–1,0 mg | Physiologischer Ersatz; Phasenvorverlagerung; 1 mg reduzierte körperliche Müdigkeit bei ME/CFS | MT1/MT2-Nrf2-Aktivierung; Chronobiotikum |
+| 1,0–3,0 mg | Nutzen über 1 mg → direkte antioxidative Wirkungen; lebhafte Träume, Kopfschmerz | Direkte Radikalfängung + MT1/MT2 |
+| 3,0–5,0 mg | Nutzen nur hier → nicht Nrf2/MT; Tagesmüdigkeit | Fängung oder Sedierung |
+| 5–20 mg | Kein zusätzlicher Mechanismus; Fenster geschlossen; depressiv-artige Symptome | Unterdrückung des Tages-Dopamin-Tonus |
+
+**Sulforaphan**
+
+| Dosisband | Aktivität / Wirkung | Mechanismus |
+|-----------|--------------------|-------------|
+| 10–30 mg | Stärkste, reinste Nrf2-Sonde; hochsensitiv | Direkte Keap1-Cysteinmodifikation → Nrf2 |
+| 30–60 mg | Standard-Nrf2-Reserve; anhaltende Keap1-Modifikation; mögliche Magen-Darm-Beschwerden | Keap1 → Nrf2 |
+| 60–100 mg | Nutzen nur bei hoher Dosis → sehr hohe Nrf2-Abbaurate; Plateau; Magen-Darm-Unverträglichkeit | Keap1-Sättigung |
+
+**Quercetin**
+
+| Dosisband | Aktivität / Wirkung | Mechanismus |
+|-----------|--------------------|-------------|
+| 250–500 mg | Kognitive Fokussierung via COMT-Hemmung; antiinflammatorisch via Nrf2 | COMT-Hemmung + Nrf2 |
+| 500–1000 mg | Beide Mechanismen tragen bei; 500 mg 2-mal täglich als Mastzellstabilisator | COMT + Nrf2 |
+| 1000–2000 mg | Kein neuer Nutzen; Zwei-Target-Umkehrung; Hypertonie, Tachykardie | COMT-Überschießen + prooxidante Katecholamin-Autooxidation |
+
+**NAC (N-Acetylcystein)**
+
+| Dosisband | Aktivität / Wirkung | Mechanismus |
+|-----------|--------------------|-------------|
+| 600 mg | Glutathionsynthese; Nrf2-Aktivierung — aber ~20–30 % paradoxe Verschlechterung | Thiol-Burst vs. Nrf2 |
+| 1200 mg | Netto-Glutathionsynthese etabliert; Magen-Darm-Wirkungen → aufteilen | Glutathion + Nrf2 |
+| 1800–2400 mg | Kein zusätzlicher Nrf2-Nutzen (Plateau); dosislimitierende Magen-Darm-Toxizität | Sättigung |
+
+### Kategorie 2 — Umgekehrtes U des partiellen Agonisten
+
+**LDA (Aripiprazol in niedriger Dosis)**
+
+| Dosisband | Aktivität / Wirkung | Mechanismus |
+|-----------|--------------------|-------------|
+| 0,2–0,5 mg | Mikrodosis; Akathisie hier = schwere DA-Defizienz + hypersensibles D2 | Partielle D2-Agonie der Mikroglia |
+| 0,5–1,0 mg | Standardfenster: mikrogliales D2 + mesokortikolimbisches D2 + 5-HT1A | Partielle D2-Agonie; 5-HT1A |
+| 1,0–2,0 mg | Kognition/Motivation + ANS-Stabilisierung; Umkehrpunkt, wenn der Nutzen hier verloren geht | Postsynaptisches/mesokortikolimbisches D2 |
+| >2 mg (bis ~4 mg) | Alle therapeutischen Mechanismen erloschen; Netto-Antagonismus; Sedierung, Gewichtszunahme | D2-Besetzung >50 % → Netto-Antagonismus |
+| 5–30 mg | Psychiatrischer Bereich; aktiver Schaden | D2-Besetzung >80 % vollständiger Antagonismus |
+
+### Kategorie 3 — Katecholamin-Umkehrtes-U am präfrontalen Kortex
+
+**Modafinil**
+
+| Dosisband | Aktivität / Wirkung | Mechanismus |
+|-----------|--------------------|-------------|
+| 25–50 mg | Kognitiver Gewinn bei Patienten mit niedrigem Tonus; vorübergehender Kopfschmerz | Leichte DAT-Blockade am linken Arm des umgekehrten U |
+| 50–100 mg | Standard-Optimalfenster für niedrig-normales Basal-DA | DAT-Blockade bei D1; NET bei α2A |
+| 100–200 mg | FDA-zugelassene Dosis (Narkolepsie/OSA); Spitzennutzen; Umkehrung über 200 mg | DAT-Blockade; weckfördernd |
+| 200–300 mg | Nutzen nur hier → stark niedriges Basal-DA; Angst, Tachykardie | Rechter Arm des umgekehrten U; D1/α2A-Überaktivierung |
+| ≥400 mg | Kein zusätzlicher Mechanismus; Katecholamin-Toxizität | Rechter Arm des umgekehrten U |
+
+**Duloxetin**
+
+| Dosisband | Aktivität / Wirkung | Mechanismus |
+|-----------|--------------------|-------------|
+| 10–20 mg | Überwiegend serotonerg; Schmerz-/Schlafnutzen, nicht katecholaminerg; Übelkeit | SERT-Hemmung |
+| 20–40 mg | Doppeltes SERT + beginnendes NET; Energie/Motivation hinzugefügt | SERT + NET |
+| 40–60 mg | Beide optimal; Standard-FDA-Dosis (60 mg) | Vollständiges SERT + NET |
+| 60–90 mg | Wahrscheinlich kein neuer Nutzen; noradrenerger Überschuss → Hypertonie, Unruhe | NET jenseits des Gipfels des umgekehrten U |
+| 90–120 mg | Hohe Dosis; dosisabhängiger Blutdruckanstieg | NET-vermittelter Blutdruckanstieg |
+
+**Guanfacin**
+
+| Dosisband | Aktivität / Wirkung | Mechanismus |
+|-----------|--------------------|-------------|
+| 0,5–1,0 mg | Optimaler präfrontaler α2A-Tonus; Arbeitsgedächtnis, Fokus; Sedierung in den ersten 1–2 Wochen | Postsynaptische α2A-Agonie |
+| 1,0–2,0 mg | Optimaler kognitiver Nutzen am α2A-Gipfel; Somnolenz, Hypotonie | Postsynaptisches α2A am Gipfel |
+| 2,0–4,0 mg | Kein neuer kognitiver Nutzen; Anxiolyse/Sedierung; Hypotonie | Präsynaptisches α2A unterdrückt den Locus coeruleus |
+
+**Betablocker (Referenz Propranolol; äquivalent Atenolol/Metoprolol)**
+
+| Dosisband | Aktivität / Wirkung | Mechanismus |
+|-----------|--------------------|-------------|
+| Propranolol 5–10 mg | Orthostasekontrolle ohne kognitive Kosten; leichte Müdigkeit | Periphere β1/β2-Blockade |
+| Propranolol 10–20 mg | Orthostasekontrolle + kognitive Verbesserung; Bradykardie, Hypotonie | Periphere + beginnende zentrale β-Blockade |
+| Propranolol 20–40 mg | Kein neuer Nutzen; kognitiver Rückgang; Müdigkeit, Depression | Zentrale β-Blockade zieht den Tonus unter das Optimum |
+| Propranolol 40–160 mg/Tag | Standard-Antihypertonikadosis; nicht die ME/CFS-Niedrigdosisstrategie | Periphere β1-Blockade |
+
+**Gabapentinoide (Gabapentin / Pregabalin)**
+
+| Dosisband | Aktivität / Wirkung | Mechanismus |
+|-----------|--------------------|-------------|
+| Gab 100–300 mg / Preg 25–75 mg | Kognitive Klarheit, reduzierte sensorische Überempfindlichkeit, besserer Schlaf | Blockade der α2δ-Untereinheit |
+| Gab 300–900 mg / Preg 75–150 mg | Symptomkontrolle optimiert; „Brain Fog", wenn die noradrenerge Unterdrückung übermäßig ist | α2δ-Blockade |
+| Gab ~300 mg (Einzeldosis) | Verschlechterte OSA (AHI ↑); Nebenwirkungsband | GABAerge Kollapsibilität der oberen Atemwege |
+| Gab 900–3600 mg / Preg 150–600 mg | Standardbereich für neuropathischen Schmerz; schwere Sedierung, Abhängigkeitsrisiko | α2δ-Blockade bei voller Besetzung |
+
+### Kategorie 4 — Zielselektion und biphasische Biochemie
+
+**Rapamycin**
+
+| Dosisband | Aktivität / Wirkung | Mechanismus |
+|-----------|--------------------|-------------|
+| 0,5–2 mg/Woche | Stellt Autophagie wieder her, unterdrückt SASP; sagt Nutzen des intermittierenden Fastens voraus | mTORC1-Hemmung (hohe Affinität) |
+| 2–3 mg/Woche | mTORC1-Nutzen maximiert; beginnende metabolische Wirkungen | mTORC1-Hemmung |
+| 3–6 mg/Woche | mTORC1-Nutzen durch mTORC2-Stoffwechselkosten ausgeglichen; netto negativ | Beginnende mTORC2-Hemmung |
+| ≥5 mg/Tag | Keine Begründung; erwarteter Netto-Schaden | Vollständige mTORC2-Toxizität |
+
+**Kortikosteroide (Referenz Prednison)**
+
+| Dosisband | Aktivität / Wirkung | Mechanismus |
+|-----------|--------------------|-------------|
+| Prednison 2,5–5 mg/Tag | Physiologischer Ersatz; stellt antiinflammatorischen Tonus wieder her; dramatische Antwort → Nebenniereninsuffizienz ausschließen | Physiologische GR-Aktivierung |
+| Prednison 5–15 mg/Tag | Nutzen → signifikante steroid-responsive Entzündung | Supraphysiologische GR-Aktivierung |
+| Prednison 15–40 mg/Tag | Nutzen nur hier → kortikosteroid-resistente Entzündung; HPA-Unterdrückung dominant | GR gesättigt; HPA-Unterdrückung |
+| ≥40 mg/Tag | Keine Begründung bei ME/CFS; Netto-Schaden | Cushing-Syndrom, avaskuläre Nekrose |
+
+**Allopregnanolon**
+
+| Dosisband | Aktivität / Wirkung | Mechanismus |
+|-----------|--------------------|-------------|
+| ~1–5 nM (Lutealphase) | Paradoxe anxiogene Wirkung; Bereich vermeiden | Hochaffine GABA-A-Stelle allein |
+| >10 nM (Schwangerschaftsniveau) | Anxiolyse, Sedierung; therapeutisch | Beide GABA-A-Stellen gebunden |
+| Brexanolon i.v. 60–90 µg/kg/h | Proof-of-Concept (postpartale Depression) | Positive allosterische GABA-A-Modulation |
+
+**DORAs (duale Orexin-Rezeptor-Antagonisten)**
+
+| Dosisband | Aktivität / Wirkung | Mechanismus |
+|-----------|--------------------|-------------|
+| Daridorexant 25 mg | Partielle Blockade ausreichend; minimale Nebenwirkungen | Partielle OX1R/OX2R-Blockade |
+| Daridorexant 50 mg | Schlafnutzen maximiert; mögliche Schläfrigkeit am Folgetag (FDA-Maximum) | Nahezu vollständige Besetzung |
+| Daridorexant 100 mg | Kein zusätzlicher Nutzen; narkolepsie-artiger Zustand; nicht zugelassen | Vollständige Blockade über das Fenster hinaus |
+| Suvorexant 10 mg | Partielle Blockade; Anfangsdosis | Partielle OX1R/OX2R-Blockade |
+| Suvorexant 15–20 mg | Schlafnutzen maximiert; Risiko der Schläfrigkeit am Folgetag | Nahezu vollständige Blockade |
+| Lemborexant 5 mg → 10 mg | Empfohlene → maximale Dosis | Duale OX1R/OX2R-Antagonie |
+
+**H1-Antihistaminika**
+
+| Dosisband | Aktivität / Wirkung | Mechanismus |
+|-----------|--------------------|-------------|
+| Cetirizin 5 mg / Loratadin 10 mg / Fexofenadin 180 mg | Periphere H1-Blockade; minimale Nebenwirkungen | Peripheres H1 |
+| Cetirizin 10–20 mg / Loratadin 20 mg | Zusätzlicher peripherer Nutzen; ≥20 mg Cetirizin → ZNS-Penetration → Sedierung | Zentrale H1-Blockade |
+| Cetirizin 10 mg (Sonde zur PEM-Prophylaxe vor Belastung) | H1-Blockade zur Verringerung der PEM-Schwere (vorgeschlagen) | Blockiert belastungsinduzierte Histamin-Amplifikation |
+
+**Ketotifen**
+
+| Dosisband | Aktivität / Wirkung | Mechanismus |
+|-----------|--------------------|-------------|
+| 0,25–1,0 mg | MCAS-Nutzen ohne Sedierung | Mastzellstabilisierung |
+| 1,0–2,0 mg | Mastzellnutzen maximiert; ZNS-Sedierung kann Schlafnutzen hinzufügen | Mastzellen + zentrales H1 |
+| 2,0–4,0 mg | Netto-Nutzen umgekehrt; Sedierung übersteigt MCAS-Gewinn; Gewichtszunahme | Zentrale H1-Sedierung dominiert |
+
+---
+
 ## Warum die Unterscheidung wichtig ist
 
 Die therapeutische Implikation eines umgekehrten U hängt vollständig davon ab, zu welcher Kategorie das Medikament gehört.
