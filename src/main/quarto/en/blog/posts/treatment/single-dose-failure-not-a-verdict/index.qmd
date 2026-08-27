@@ -7,7 +7,7 @@ categories: [Treatment, Pharmacology, ME/CFS]
 lang: en
 ---
 
-You tried LDN at 4 mg for an extended period. No benefit. You bring this result to your doctor and ask to try a lower dose — 1 mg, say. The response: "If 4 mg does nothing, 1 mg will do nothing either. The greater contains the lesser."
+You tried LDN at 4 mg for an extended period. No benefit. You consider whether to try a lower dose — 1 mg, say — and a reasoning presents itself: if 4 mg did nothing, 1 mg will do nothing either. The greater contains the lesser.
 
 It is the commonplace reasoning that a greater result must contain a lesser one — applied to pharmacology. It sounds reasonable. It is wrong for LDN.
 

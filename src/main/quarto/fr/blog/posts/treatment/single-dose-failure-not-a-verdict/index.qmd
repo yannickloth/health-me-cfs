@@ -7,7 +7,7 @@ categories: [Traitement, Pharmacologie, EM/SFC]
 lang: fr
 ---
 
-Vous avez essayé le LDN à 4 mg pendant une longue période. Aucun bénéfice. Vous apportez ce résultat à votre médecin et demandez à tester une dose plus faible — 1 mg, disons. La réponse : « Si 4 mg ne font rien, 1 mg ne fera rien non plus. Le plus contient le moins. »
+Vous avez essayé le LDN à 4 mg pendant une longue période. Aucun bénéfice. Vous envisagez d'essayer une dose plus faible — 1 mg, disons — et un raisonnement s'impose : si 4 mg n'ont rien fait, 1 mg ne fera rien non plus. Le plus contient le moins.
 
 C'est le raisonnement courant selon lequel un résultat plus grand doit contenir un résultat plus petit — appliqué à la pharmacologie. Il semble raisonnable. Il est faux pour le LDN.
 
