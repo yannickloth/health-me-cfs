@@ -7,11 +7,11 @@ categories: [Traitement, Pharmacologie, EM/SFC]
 lang: fr
 ---
 
-Vous avez essayé le LDN à 4 mg pendant une longue période. Aucun bénéfice. Vous apportez ce résultat à votre médecin et demandez à tester une dose plus faible — 1 mg, disons. Il hausse les épaules : « Si 4 mg ne font rien, 1 mg ne fera rien non plus. Le plus contient le moins. »
+Vous avez essayé le LDN à 4 mg pendant une longue période. Aucun bénéfice. Vous apportez ce résultat à votre médecin et demandez à tester une dose plus faible — 1 mg, disons. La réponse : « Si 4 mg ne font rien, 1 mg ne fera rien non plus. Le plus contient le moins. »
 
 C'est le raisonnement courant selon lequel un résultat plus grand doit contenir un résultat plus petit — appliqué à la pharmacologie. Il semble raisonnable. Il est faux pour le LDN.
 
-Cet article explique pourquoi. Pas en contredisant le médecin, mais en montrant ce que son inférence suppose silencieusement, et pourquoi cette hypothèse ne tient pas quand un médicament atteint plusieurs cibles à des concentrations différentes.
+Cet article explique pourquoi — non pas en attribuant une erreur à quiconque, mais en montrant ce que cette inférence suppose silencieusement, et pourquoi cette hypothèse ne tient pas quand un médicament atteint plusieurs cibles à des concentrations différentes.
 
 ---
 
@@ -164,7 +164,7 @@ Ainsi l'hypothèse du sur-ensemble échoue précisément là où elle compte : l
 
 ## Pourquoi un échec à une dose ne se propage pas aux autres
 
-L'inférence du médecin confond deux affirmations très différentes :
+L'inférence confond deux affirmations très différentes :
 
 1. **« Ce médicament n'est pas actif chez ce patient »** — un verdict sur le médicament.
 2. **« Cette cible n'est pas la voie limitante chez ce patient »** — un verdict sur une cible.
@@ -177,9 +177,9 @@ Il y a une version encore plus nette de cela, spécifique au LDN. L'antagonisme 
 
 ---
 
-## Le cas limite où le médecin a raison
+## Le cas où l'inférence tient
 
-Pour être juste : l'inférence du sur-ensemble **est** valide dans un cas précis. Si un médicament atteint une seule cible, avec une seule affinité et une courbe dose-réponse monotone (plus de dose = plus d'occupation = plus d'effet, sans inversion), alors oui : un échec à dose haute suffit, et les doses plus faibles sont redondantes. C'est un principe pharmacologique général — l'hypothèse sous-jacente à la recherche de dose standard pour de nombreux agents mono-cibles et monotones — pas une affirmation spécifique au LDN ni tirée de l'analyse du LDN dans l'article.
+L'inférence du sur-ensemble **est** valide dans un cas précis. Si un médicament atteint une seule cible, avec une seule affinité et une courbe dose-réponse monotone (plus de dose = plus d'occupation = plus d'effet, sans inversion), alors un échec à dose haute suffit, et les doses plus faibles sont redondantes. C'est un principe pharmacologique général — l'hypothèse sous-jacente à la recherche de dose standard pour de nombreux agents mono-cibles et monotones — pas une affirmation spécifique au LDN ni tirée de l'analyse du LDN dans l'article.
 
 Le LDN n'appartient pas à cette classe. Sa courbe dose-réponse n'est pas monotone — elle est non linéaire, avec des optima de cible qui ne se chevauchent pas. Pour ce genre de molécule, l'hypothèse du sur-ensemble n'est pas un raccourci raisonnable : c'est l'hypothèse exacte que l'essai de dose doit *tester*, pas présupposer.
 

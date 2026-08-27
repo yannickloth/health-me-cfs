@@ -7,11 +7,11 @@ categories: [Treatment, Pharmacology, ME/CFS]
 lang: en
 ---
 
-You tried LDN at 4 mg for an extended period. No benefit. You bring this result to your doctor and ask to try a lower dose — 1 mg, say. He shrugs: "If 4 mg does nothing, 1 mg will do nothing either. The greater contains the lesser."
+You tried LDN at 4 mg for an extended period. No benefit. You bring this result to your doctor and ask to try a lower dose — 1 mg, say. The response: "If 4 mg does nothing, 1 mg will do nothing either. The greater contains the lesser."
 
 It is the commonplace reasoning that a greater result must contain a lesser one — applied to pharmacology. It sounds reasonable. It is wrong for LDN.
 
-This article explains why. Not by contradicting the doctor, but by showing what his inference silently assumes, and why that assumption does not hold when a drug hits multiple targets at different concentrations.
+This article explains why — not by attributing error to anyone, but by showing what this inference silently assumes, and why that assumption does not hold when a drug hits multiple targets at different concentrations.
 
 ---
 
@@ -164,7 +164,7 @@ So the superset hypothesis fails exactly where it matters: the mechanism that mi
 
 ## Why failure at one dose does not propagate to others
 
-The doctor's inference conflates two very different claims:
+The inference conflates two very different claims:
 
 1. **"This drug is not active in this patient"** — a verdict about the drug.
 2. **"This target is not the rate-limiting pathway in this patient"** — a verdict about a target.
@@ -177,9 +177,9 @@ There is an even sharper version of this for LDN specifically. The TLR4 antagoni
 
 ---
 
-## The limiting case where the doctor is right
+## The case where the inference holds
 
-To be fair: the superset inference **is** valid in one precise case. If a drug hits a single target, with a single affinity and a monotonic dose-response curve (more dose = more occupancy = more effect, no inversion), then yes: a high-dose failure suffices, and lower doses are redundant. This is a general pharmacology principle — it is the assumption behind standard dose-finding for many single-target, monotonic agents — not a claim specific to LDN or drawn from the paper's LDN analysis.
+The superset inference **is** valid in one precise case. If a drug hits a single target, with a single affinity and a monotonic dose-response curve (more dose = more occupancy = more effect, no inversion), then a high-dose failure suffices, and lower doses are redundant. This is a general pharmacology principle — it is the assumption behind standard dose-finding for many single-target, monotonic agents — not a claim specific to LDN or drawn from the paper's LDN analysis.
 
 LDN is not in this class. Its dose-response curve is not monotonic — it is nonlinear, with target optima that do not overlap. For this kind of molecule, the superset hypothesis is not a reasonable shortcut: it is the very hypothesis the dose trial is meant to *test*, not presuppose.
 

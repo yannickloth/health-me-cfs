@@ -7,11 +7,11 @@ categories: [Behandlung, Pharmakologie, ME/CFS]
 lang: de
 ---
 
-Sie haben LDN über einen längeren Zeitraum mit 4 mg ausprobiert. Kein Nutzen. Sie bringen dieses Ergebnis zu Ihrem Arzt und bitten darum, eine niedrigere Dosis zu testen — 1 mg, sagen wir. Er zuckt mit den Schultern: „Wenn 4 mg nichts bewirken, wird 1 mg auch nichts bewirken. Das Größere enthält das Kleinere."
+Sie haben LDN über einen längeren Zeitraum mit 4 mg ausprobiert. Kein Nutzen. Sie bringen dieses Ergebnis zu Ihrem Arzt und bitten darum, eine niedrigere Dosis zu testen — 1 mg, sagen wir. Die Antwort: „Wenn 4 mg nichts bewirken, wird 1 mg auch nichts bewirken. Das Größere enthält das Kleinere."
 
 Es ist das allgemeine Denkmuster, dass ein größeres Ergebnis ein kleineres enthalten muss — angewendet auf die Pharmakologie. Es klingt vernünftig. Für LDN ist es falsch.
 
-Dieser Artikel erklärt, warum. Nicht, indem er dem Arzt widerspricht, sondern indem er zeigt, was seine Schlussfolgerung stillschweigend voraussetzt — und warum diese Annahme nicht hält, wenn ein Medikament mehrere Ziele bei unterschiedlichen Konzentrationen trifft.
+Dieser Artikel erklärt, warum — nicht, indem er jemandem einen Fehler zuschreibt, sondern indem er zeigt, was diese Schlussfolgerung stillschweigend voraussetzt — und warum diese Annahme nicht hält, wenn ein Medikament mehrere Ziele bei unterschiedlichen Konzentrationen trifft.
 
 ---
 
@@ -164,7 +164,7 @@ Die Obermengen-Hypothese scheitert also genau dort, wo es zählt: Der Mechanismu
 
 ## Warum sich ein Fehlversuch bei einer Dosis nicht auf andere überträgt
 
-Die Schlussfolgerung des Arztes vermischt zwei sehr verschiedene Aussagen:
+Die Schlussfolgerung vermischt zwei sehr verschiedene Aussagen:
 
 1. **„Dieses Medikament ist bei diesem Patienten nicht wirksam"** — ein Urteil über das Medikament.
 2. **„Dieses Ziel ist nicht der limitierende Weg bei diesem Patienten"** — ein Urteil über ein Ziel.
@@ -177,9 +177,9 @@ Es gibt eine noch schärfere Version davon, spezifisch für LDN. Der TLR4-Antago
 
 ---
 
-## Der Grenzfall, in dem der Arzt recht hat
+## Der Fall, in dem die Schlussfolgerung gilt
 
-Um fair zu sein: Die Obermengen-Inferenz **ist** in einem präzisen Fall gültig. Wenn ein Medikament ein einzelnes Ziel mit einer einzigen Affinität und einer monotonen Dosis-Wirkungs-Kurve trifft (mehr Dosis = mehr Besetzung = mehr Wirkung, keine Umkehrung), dann ja: Ein Hochdosis-Fehlversuch genügt, und niedrigere Dosen sind redundant. Dies ist ein allgemeines Pharmakologie-Prinzip — die Annahme hinter der Standard-Dosisfindung für viele Single-Target- und monotone Wirkstoffe — keine Aussage spezifisch zu LDN und nicht aus der LDN-Analyse des Papiers gezogen.
+Die Obermengen-Inferenz **ist** in einem präzisen Fall gültig. Wenn ein Medikament ein einzelnes Ziel mit einer einzigen Affinität und einer monotonen Dosis-Wirkungs-Kurve trifft (mehr Dosis = mehr Besetzung = mehr Wirkung, keine Umkehrung), dann genügt ein Hochdosis-Fehlversuch, und niedrigere Dosen sind redundant. Dies ist ein allgemeines Pharmakologie-Prinzip — die Annahme hinter der Standard-Dosisfindung für viele Single-Target- und monotone Wirkstoffe — keine Aussage spezifisch zu LDN und nicht aus der LDN-Analyse des Papiers gezogen.
 
 LDN gehört nicht zu dieser Klasse. Seine Dosis-Wirkungs-Kurve ist nicht monoton — sie ist nichtlinear, mit Ziel-Optima, die sich nicht überlappen. Für diese Art Molekül ist die Obermengen-Hypothese keine vernünftige Abkürzung: Sie ist genau die Hypothese, die der Dosisversuch *testen* soll, nicht voraussetzen.
 
