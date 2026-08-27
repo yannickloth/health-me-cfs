@@ -15,6 +15,29 @@ This article explains why — not by attributing error to anyone, but by showing
 
 ---
 
+## The short answer
+
+The whole argument fits in one paragraph and one table. The detailed proof — separating what is established science from what is a proposed model — follows afterward.
+
+The low-dose benefit of LDN depends on **partial** blockade of its receptor: the cell must still sense some residual signal to mount its compensatory anti-inflammatory response. Whether a receptor is partially or fully blocked is set by the drug concentration relative to that receptor's sensitivity — the ratio $c = D/K_d$, dose divided by the receptor's dissociation constant. Raise the dose and $c$ rises; the fraction $f$ of blocked receptors climbs toward 100%. At 1 mg, the microglial receptor TLR4 sits in the partial-blockade zone and the benefit mechanism runs. At 4 mg, the same receptor is blocked almost completely, the residual signal is gone, and **the 1 mg mechanism is switched off — not amplified.** Meanwhile, 4 mg engages a different target (TRPM3) that 1 mg never reaches. A null at 4 mg therefore tested the 4 mg mechanism. It did not test the 1 mg mechanism — that mechanism was not running during the 4 mg trial.
+
+The numbers make this concrete. The occupancy column uses the standard Hill equation $f = c^2/(1+c^2)$ (established pharmacology); the benefit column uses the simple model $B \propto f(1-f)^2$ proposed in Part B of this article (a hypothesis); $K_d = 1$ mg is illustrative and unmeasured:
+
+| Dose | $c = D/K_d$ | $f$ — receptors blocked | $1-f$ — residual signal | benefit, relative to peak (proposed model) |
+|------|------------|--------------------------|--------------------------|---------------------------------------------|
+| 0.7 mg | 0.7 | 0.33 | 0.67 | **1.00 — the peak** |
+| 1 mg | 1.0 | 0.50 | 0.50 | 0.84 |
+| 3 mg | 3.0 | 0.90 | 0.10 | 0.06 |
+| 4 mg | 4.0 | 0.94 | 0.06 | 0.02 |
+
+![One target's benefit across the dose axis: at 1 mg the target sits inside its window (84% of peak); at 4 mg the window has closed and the mechanism is switched off. A null at 4 mg never sees the peak. *Illustration of the proposed model with unmeasured parameters — not empirical data.*](fig0-dose-window.svg)
+
+Read the table from the bottom up. A null at 4 mg establishes that the bottom row is ≈ 0. It says nothing about the first two rows, because those rows describe a state — partial blockade — that a 4 mg dose never produces. And 3 mg is yet another experiment: the low-dose window has closed there too, but other mechanisms (the endorphin plateau, the opening TRPM3 window) are at *their* optimum — different targets again. Each dose is a different experiment, and the failure of one convicts none of the others.
+
+One clarification: switching a benefit off is not the same as causing harm. At 4 mg the low-dose mechanism simply does not run — the patient is at their untreated baseline for that pathway, not below it. The 4 mg experience is therefore a null, not a worsening — and a null is information only about the state that was actually tested.
+
+---
+
 ## The inference rests on an unstated assumption
 
 The argument "if 4 mg doesn't work, then 1 mg won't work" is only valid if one condition holds:
@@ -181,11 +204,11 @@ The inference conflates two very different claims:
 1. **"This drug is not active in this patient"** — a verdict about the drug.
 2. **"This target is not the rate-limiting pathway in this patient"** — a verdict about a target.
 
-A failure at 4 mg yields only the second: TLR4 (or the combination of targets saturated at 4 mg) is not the pathway limiting symptoms in this patient. It says nothing about the TLR4/Nrf2 or opioid pathway that only engages at 1–3 mg — because that pathway has *never been tested* if you have only tried 4 mg.
+A failure at 4 mg yields only the second: the target combination engaged in the 4 mg band — TRPM3 restoration, orexin disinhibition, and TLR4 in its *over-blocked* state — is not the pathway limiting symptoms in this patient. It says nothing about the TLR4/Nrf2 hormetic state or the endorphin rebound, which exist only at 1–3 mg — because those states *never occurred* during a 4 mg trial.
 
-A simple analogy: a drug that blocks both receptor A and receptor B, with 100-fold higher affinity for A. At a low dose it engages only A. At a high dose it engages A *and* B. If blocking B is what would help, a failed high-dose trial proves nothing about the low dose — at the low dose, B was never engaged at all. This is subtype 4a in [Part 2](../inverted-u-not-one-thing/): concentration-dependent target selection.
+A simple analogy: a drug blocks two receptors, A and B, with 100-fold higher affinity for A. At a low dose it engages only A — and only partially. At a high dose it engages A *completely*, and B as well. Now suppose the benefit requires *partial* engagement of A (the hormetic case). A failed high-dose trial then proves nothing about the low dose: the beneficial state — partial engagement of A — never occurred during the high-dose trial; A was fully blocked, and B's engagement is beside the point. This is subtype 4a in [Part 2](../inverted-u-not-one-thing/) (concentration-dependent target selection), combined with the inverted-U: target selection is why 4 mg reaches targets that 1 mg cannot, and the inverted-U is why 4 mg *loses* the benefit that 1 mg had.
 
-There is an even sharper version of this for LDN specifically. The TLR4 antagonism at clinical LDN doses is itself uncertain: (+)-naltrexone is a *weak* TLR4 antagonist, and an optimized derivative required a ~6,200× potency gain to reach nanomolar TLR4 antagonism [@Gao2025CIAC101TLR4]. So a 4 mg null may mean something deeper than "this target isn't rate-limiting" — it may mean **the target was never actually engaged at dose at all**. In that case the 4 mg result says nothing about any mechanism, and the 1 mg question is entirely open.
+There is an even sharper version of this for LDN specifically. The TLR4 antagonism at clinical LDN doses is itself uncertain: (+)-naltrexone is a *weak* TLR4 antagonist, and an optimized derivative required a ~6,200× potency gain to reach nanomolar TLR4 antagonism [@Gao2025CIAC101TLR4]. So a 4 mg null may mean something deeper than "this target isn't rate-limiting" — it may mean **the target was never actually engaged at any dose tested**. In that case the 4 mg result says nothing about any mechanism, and the 1 mg question is entirely open.
 
 ---
 

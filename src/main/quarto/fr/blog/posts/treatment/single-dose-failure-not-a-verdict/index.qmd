@@ -15,6 +15,29 @@ Cet article explique pourquoi — non pas en attribuant une erreur à quiconque,
 
 ---
 
+## La réponse courte
+
+Tout l'argument tient en un paragraphe et un tableau. La preuve détaillée — qui sépare ce qui relève de la science établie de ce qui relève d'un modèle proposé — suit ensuite.
+
+Le bénéfice du LDN à faible dose dépend d'un blocage **partiel** de son récepteur : la cellule doit encore sentir un signal résiduel pour monter sa réponse anti-inflammatoire compensatoire. Qu'un récepteur soit partiellement ou totalement bloqué est fixé par la concentration du médicament relativement à la sensibilité de ce récepteur — le rapport $c = D/K_d$, la dose divisée par la constante de dissociation du récepteur. Élevez la dose et $c$ augmente ; la fraction $f$ de récepteurs bloqués grimpe vers 100 %. À 1 mg, le récepteur microglial TLR4 se situe dans la zone de blocage partiel et le mécanisme de bénéfice fonctionne. À 4 mg, le même récepteur est bloqué presque complètement, le signal résiduel a disparu, et **le mécanisme du 1 mg est éteint — pas amplifié.** Pendant ce temps, 4 mg engage une cible différente (TRPM3) que 1 mg n'atteint jamais. Un nul à 4 mg a donc testé le mécanisme du 4 mg. Il n'a pas testé le mécanisme du 1 mg — ce mécanisme ne fonctionnait pas pendant l'essai à 4 mg.
+
+Les chiffres rendent cela concret. La colonne d'occupation utilise l'équation de Hill standard $f = c^2/(1+c^2)$ (pharmacologie établie) ; la colonne de bénéfice utilise le modèle simple $B \propto f(1-f)^2$ proposé dans la partie B de cet article (une hypothèse) ; $K_d = 1$ mg est illustratif et non mesuré :
+
+| Dose | $c = D/K_d$ | $f$ — récepteurs bloqués | $1-f$ — signal résiduel | bénéfice, relatif au pic (modèle proposé) |
+|------|------------|---------------------------|--------------------------|--------------------------------------------|
+| 0,7 mg | 0,7 | 0,33 | 0,67 | **1,00 — le pic** |
+| 1 mg | 1,0 | 0,50 | 0,50 | 0,84 |
+| 3 mg | 3,0 | 0,90 | 0,10 | 0,06 |
+| 4 mg | 4,0 | 0,94 | 0,06 | 0,02 |
+
+![Le bénéfice d'une cible sur l'axe de dose : à 1 mg la cible se situe dans sa fenêtre (84 % du pic) ; à 4 mg la fenêtre s'est refermée et le mécanisme est éteint. Un nul à 4 mg ne voit jamais le pic. *Illustration du modèle proposé avec des paramètres non mesurés — pas de données empiriques.*](fig0-dose-window.svg)
+
+Lisez le tableau de bas en haut. Un nul à 4 mg établit que la dernière ligne est ≈ 0. Il ne dit rien des deux premières lignes, parce que ces lignes décrivent un état — le blocage partiel — qu'une dose de 4 mg ne produit jamais. Et 3 mg est encore une autre expérience : la fenêtre basse dose s'y est refermée aussi, mais d'autres mécanismes (le plateau d'endorphines, l'ouverture de la fenêtre TRPM3) sont à *leur* optimum — encore d'autres cibles. Chaque dose est une expérience différente, et l'échec de l'une ne condamne aucune des autres.
+
+Une clarification : éteindre un bénéfice n'est pas la même chose que causer un tort. À 4 mg, le mécanisme basse dose ne fonctionne simplement pas — le patient est à sa ligne de base non traitée pour cette voie, pas en dessous. L'expérience à 4 mg est donc un nul, pas une aggravation — et un nul n'est une information que sur l'état qui a réellement été testé.
+
+---
+
 ## L'inférence repose sur une hypothèse non dite
 
 L'argument « si 4 mg ne fonctionne pas, alors 1 mg ne fonctionnera pas » n'est valide que si une condition est remplie :
@@ -181,9 +204,9 @@ L'inférence confond deux affirmations très différentes :
 1. **« Ce médicament n'est pas actif chez ce patient »** — un verdict sur le médicament.
 2. **« Cette cible n'est pas la voie limitante chez ce patient »** — un verdict sur une cible.
 
-Un échec à 4 mg ne donne que la seconde : TLR4 (ou la combinaison de cibles saturées à 4 mg) n'est pas la voie qui limite les symptômes chez ce patient. Cela ne dit rien de la voie TLR4/Nrf2 ou opioïde qui ne s'engage qu'à 1–3 mg — parce que cette voie n'a *jamais été testée* si vous n'avez essayé que 4 mg.
+Un échec à 4 mg ne donne que la seconde : la combinaison de cibles engagée dans la bande des 4 mg — la restauration TRPM3, la désinhibition de l'orexine, et TLR4 dans son état *sur-bloqué* — n'est pas la voie qui limite les symptômes chez ce patient. Cela ne dit rien de l'état hormétique TLR4/Nrf2 ni du rebond d'endorphines, qui n'existent qu'à 1–3 mg — parce que ces états ne se sont *jamais produits* pendant un essai à 4 mg.
 
-Une analogie simple : un médicament qui bloque à la fois le récepteur A et le récepteur B, avec une affinité 100 fois plus forte pour A. À faible dose, il ne s'engage que sur A. À forte dose, il engage A *et* B. Si bloquer B est ce qui aiderait, un essai à forte dose échoué ne prouve rien sur la faible dose — à faible dose, B n'était pas engagé du tout. C'est le sous-type 4a de la [Partie 2](../inverted-u-not-one-thing/) : la sélection de cible dépendante de la concentration.
+Une analogie simple : un médicament bloque deux récepteurs, A et B, avec une affinité 100 fois plus forte pour A. À faible dose, il n'engage que A — et seulement partiellement. À forte dose, il engage A *complètement*, et B aussi. Supposons maintenant que le bénéfice exige un engagement *partiel* de A (le cas hormétique). Un essai à forte dose échoué ne prouve alors rien sur la faible dose : l'état bénéfique — l'engagement partiel de A — ne s'est jamais produit pendant l'essai à forte dose ; A était totalement bloqué, et l'engagement de B est hors de propos. C'est le sous-type 4a de la [Partie 2](../inverted-u-not-one-thing/) (sélection de cible dépendante de la concentration), combiné avec le U inversé : la sélection de cible explique pourquoi 4 mg atteint des cibles que 1 mg ne peut pas atteindre, et le U inversé explique pourquoi 4 mg *perd* le bénéfice que 1 mg avait.
 
 Il y a une version encore plus nette de cela, spécifique au LDN. L'antagonisme de TLR4 aux doses cliniques de LDN est lui-même incertain : la (+)-naltrexone est un antagoniste *faible* de TLR4, et un dérivé optimisé a requis un gain de puissance d'environ 6 200× pour atteindre un antagonisme nanomolaire de TLR4 [@Gao2025CIAC101TLR4]. Un nul à 4 mg peut donc signifier quelque chose de plus profond que « cette cible n'est pas limitante » — cela peut signifier **que la cible n'a en réalité jamais été engagée à cette dose du tout**. Dans ce cas, le résultat à 4 mg ne dit rien d'aucun mécanisme, et la question du 1 mg est entièrement ouverte.
 

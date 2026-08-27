@@ -15,6 +15,29 @@ Dieser Artikel erklärt, warum — nicht, indem er jemandem einen Fehler zuschre
 
 ---
 
+## Die kurze Antwort
+
+Das gesamte Argument passt in einen Absatz und eine Tabelle. Der detaillierte Beweis — der trennt, was etablierte Wissenschaft und was ein vorgeschlagenes Modell ist — folgt danach.
+
+Der Niedrigdosis-Nutzen von LDN hängt von einer **partiellen** Blockade seines Rezeptors ab: Die Zelle muss noch ein Restsignal spüren, um ihre kompensatorische antiinflammatorische Antwort aufzubauen. Ob ein Rezeptor partiell oder vollständig blockiert ist, wird durch die Medikamentenkonzentration relativ zur Sensitivität dieses Rezeptors festgelegt — das Verhältnis $c = D/K_d$, Dosis geteilt durch die Dissoziationskonstante des Rezeptors. Dosis erhöhen, und $c$ steigt; der Anteil $f$ blockierter Rezeptoren klettert gegen 100 %. Bei 1 mg sitzt der mikrogliale Rezeptor TLR4 in der Zone partieller Blockade, und der Nutzenmechanismus läuft. Bei 4 mg ist derselbe Rezeptor fast vollständig blockiert, das Restsignal ist verschwunden, und **der 1-mg-Mechanismus ist ausgeschaltet — nicht verstärkt.** Gleichzeitig aktiviert 4 mg ein anderes Ziel (TRPM3), das 1 mg nie erreicht. Ein Nulleffekt bei 4 mg hat daher den 4-mg-Mechanismus getestet. Er hat den 1-mg-Mechanismus nicht getestet — dieser Mechanismus lief während der 4-mg-Prüfung nicht.
+
+Die Zahlen machen das konkret. Die Besetzungsspalte nutzt die Standard-Hill-Gleichung $f = c^2/(1+c^2)$ (etablierte Pharmakologie); die Nutzenspalte nutzt das einfache Modell $B \propto f(1-f)^2$, das in Teil B dieses Artikels vorgeschlagen wird (eine Hypothese); $K_d = 1$ mg ist illustrativ und ungemessen:
+
+| Dosis | $c = D/K_d$ | $f$ — blockierte Rezeptoren | $1-f$ — Restsignal | Nutzen, relativ zum Gipfel (vorgeschlagenes Modell) |
+|-------|------------|------------------------------|---------------------|------------------------------------------------------|
+| 0,7 mg | 0,7 | 0,33 | 0,67 | **1,00 — der Gipfel** |
+| 1 mg | 1,0 | 0,50 | 0,50 | 0,84 |
+| 3 mg | 3,0 | 0,90 | 0,10 | 0,06 |
+| 4 mg | 4,0 | 0,94 | 0,06 | 0,02 |
+
+![Der Nutzen eines Ziels über der Dosisachse: Bei 1 mg sitzt das Ziel in seinem Fenster (84 % des Gipfels); bei 4 mg hat sich das Fenster geschlossen und der Mechanismus ist ausgeschaltet. Ein Nulleffekt bei 4 mg sieht den Gipfel nie. *Illustration des vorgeschlagenen Modells mit ungemessenen Parametern — keine empirischen Daten.*](fig0-dose-window.svg)
+
+Lesen Sie die Tabelle von unten nach oben. Ein Nulleffekt bei 4 mg stellt fest, dass die letzte Zeile ≈ 0 ist. Über die ersten zwei Zeilen sagt er nichts, denn diese Zeilen beschreiben einen Zustand — partielle Blockade —, den eine 4-mg-Dosis nie erzeugt. Und 3 mg ist wieder ein anderes Experiment: Das Niedrigdosis-Fenster hat sich auch dort geschlossen, aber andere Mechanismen (das Endorphin-Plateau, das sich öffnende TRPM3-Fenster) sind an *ihrem* Optimum — wieder andere Ziele. Jede Dosis ist ein anderes Experiment, und das Scheitern der einen verurteilt keine der anderen.
+
+Eine Klarstellung: Einen Nutzen auszuschalten ist nicht dasselbe wie Schaden anzurichten. Bei 4 mg läuft der Niedrigdosis-Mechanismus einfach nicht — der Patient befindet sich auf seiner unbehandelten Basislinie für diesen Pfad, nicht darunter. Die 4-mg-Erfahrung ist daher ein Nulleffekt, keine Verschlechterung — und ein Nulleffekt ist nur eine Information über den Zustand, der tatsächlich getestet wurde.
+
+---
+
 ## Die Schlussfolgerung beruht auf einer unausgesprochenen Annahme
 
 Das Argument „wenn 4 mg nicht wirken, wirken 1 mg nicht" ist nur gültig, wenn eine Bedingung erfüllt ist:
@@ -181,9 +204,9 @@ Die Schlussfolgerung vermischt zwei sehr verschiedene Aussagen:
 1. **„Dieses Medikament ist bei diesem Patienten nicht wirksam"** — ein Urteil über das Medikament.
 2. **„Dieses Ziel ist nicht der limitierende Weg bei diesem Patienten"** — ein Urteil über ein Ziel.
 
-Ein Fehlversuch bei 4 mg liefert nur die zweite: TLR4 (oder die Kombination bei 4 mg gesättigter Ziele) ist nicht der Weg, der die Symptome bei diesem Patienten limitiert. Er sagt nichts über den TLR4/Nrf2- oder Opioid-Weg, der sich nur bei 1–3 mg engagiert — weil dieser Weg *nie getestet wurde*, wenn Sie nur 4 mg ausprobiert haben.
+Ein Fehlversuch bei 4 mg liefert nur die zweite: die Zielkombination, die in der 4-mg-Bande aktiv ist — TRPM3-Restauration, Orexin-Desinhibition und TLR4 in seinem *überblockierten* Zustand — ist nicht der Weg, der die Symptome bei diesem Patienten limitiert. Er sagt nichts über den hormetischen TLR4/Nrf2-Zustand oder den Endorphin-Rebound, die nur bei 1–3 mg existieren — weil diese Zustände während eines 4-mg-Versuchs *nie eingetreten sind*.
 
-Eine einfache Analogie: ein Medikament, das sowohl Rezeptor A als auch Rezeptor B blockiert, mit 100-fach höherer Affinität für A. Bei niedriger Dosis bindet es nur A. Bei hoher Dosis bindet es A *und* B. Wenn das Blockieren von B helfen würde, beweist ein fehlgeschlagener Hochdosis-Versuch nichts über die niedrige Dosis — bei der niedrigen Dosis war B überhaupt nicht gebunden. Dies ist Untertyp 4a in [Teil 2](../inverted-u-not-one-thing/): konzentrationsabhängige Zielauswahl.
+Eine einfache Analogie: ein Medikament blockiert zwei Rezeptoren, A und B, mit 100-fach höherer Affinität für A. Bei niedriger Dosis bindet es nur A — und nur partiell. Bei hoher Dosis bindet es A *vollständig*, und B ebenfalls. Angenommen nun, der Nutzen erfordert eine *partielle* Bindung von A (der hormetische Fall). Ein fehlgeschlagener Hochdosis-Versuch beweist dann nichts über die niedrige Dosis: Der vorteilhafte Zustand — partielle Bindung von A — ist während des Hochdosis-Versuchs nie eingetreten; A war vollständig blockiert, und die Bindung von B ist belanglos. Dies ist Untertyp 4a in [Teil 2](../inverted-u-not-one-thing/) (konzentrationsabhängige Zielauswahl), kombiniert mit dem umgekehrten U: Die Zielauswahl erklärt, warum 4 mg Ziele erreicht, die 1 mg nicht erreichen kann, und das umgekehrte U erklärt, warum 4 mg den Nutzen *verliert*, den 1 mg hatte.
 
 Es gibt eine noch schärfere Version davon, spezifisch für LDN. Der TLR4-Antagonismus bei klinischen LDN-Dosen ist selbst unsicher: (+)-Naltrexon ist ein *schwacher* TLR4-Antagonist, und ein optimiertes Derivat benötigte einen Potenzgewinn von ~6.200× für nanomolaren TLR4-Antagonismus [@Gao2025CIAC101TLR4]. Ein Nulleffekt bei 4 mg kann also etwas Tieferes bedeuten als „dieses Ziel ist nicht limitierend" — er kann bedeuten, dass **das Ziel bei dieser Dosis tatsächlich nie gebunden wurde**. In diesem Fall sagt das 4-mg-Ergebnis nichts über irgendeinen Mechanismus, und die 1-mg-Frage ist völlig offen.
 
