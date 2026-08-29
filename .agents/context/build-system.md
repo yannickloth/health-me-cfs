@@ -102,7 +102,7 @@ BuildWeb.java now also copies .bib files — no separate step needed.
 ### Blog
 
 - NOT generated from Typst
-- Handwritten `.qmd` files: `src/main/quarto/{en,de,fr}/blog/posts/<topic>/<slug>/index.qmd` (~70 posts per language)
+- Handwritten `.qmd` files: `src/main/quarto/{en,de,fr}/blog/posts/<topic>/<slug>/index.qmd` (97 posts per language)
 - Posts organized into topic folders; numbered series stay co-located under their topic (see `_blog-plan.md` / `_series-plan.md` in `src/main/quarto/{en,de,fr}/blog/`)
 - Series announcing-article for the multi-topic "Conditions That Travel With ME/CFS" sits at `src/main/quarto/{en,de,fr}/blog/posts/co-occurring-conditions-series/`
 - Out-of-date paths get a `<meta http-equiv="refresh">` `index.html` redirect, stored in `src/main/web/{en,de,fr}/blog/posts/<slug>/index.html` and copied into `target/quarto/` by `BuildWeb.java` during the build
