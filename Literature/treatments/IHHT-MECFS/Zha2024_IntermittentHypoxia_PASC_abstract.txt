@@ -1,0 +1,57 @@
+1. Respir Med. 2024 Oct;232:107763. doi: 10.1016/j.rmed.2024.107763. Epub 2024
+Aug  8.
+
+Short-term intermittent hypoxia exposure for dyspnea and fatigue in post-acute 
+sequelae of COVID-19: A randomized controlled study.
+
+Zha S(1), Liu X(1), Yao Y(2), He Y(1), Wang Y(1), Zhang Q(1), Zhang J(1), Yi 
+Y(3), Xiao R(3), Hu K(4).
+
+Author information:
+(1)Department of Respiratory and Critical Care Medicine, Renmin Hospital of 
+Wuhan University, Wuhan, 430060, China.
+(2)Department of Pharmacy, Renmin Hospital of Wuhan University, Wuhan, 430060, 
+China.
+(3)School of Remote Sensing and Information Engineering, Wuhan University, 
+Wuhan, 430079, China; Research Center of Digital Imaging and Intelligent 
+Perception, Wuhan University, Wuhan, 430079, China.
+(4)Department of Respiratory and Critical Care Medicine, Renmin Hospital of 
+Wuhan University, Wuhan, 430060, China. Electronic address: 
+huke-rmhospital@163.com.
+
+BACKGROUND: Post-acute sequelae of COVID-19 (PASC) is incurring a huge health 
+and economic burden worldwide. There is currently no effective treatment or 
+recommended drug for PASC.
+METHODS: This prospective randomized controlled study was conducted in a 
+hospital in China. The effect of intermittent hypoxia exposure (IHE; 5-min 
+hypoxia alternating with 5-min normal air, repeated five times) on dyspnea and 
+fatigue was investigated in patients meeting the NICE definition of PASC. 
+Patients were computationally randomized to receive normoxia exposure (NE) and 
+routine therapy or IHE and routine therapy. Six-minute walk distance (6MWD) and 
+spirometry were tested before and after the interventions; the Borg Dyspnea 
+Scale (Borg) and the modified Medical Research Council Dyspnea Scale (mMRC) were 
+used to assess dyspnea; and the Fatigue Assessment Scale (FAS) and the Chalder 
+Fatigue Scale-11 (CFQ-11) were used to assess fatigue. The study was registered 
+in the Chinese Clinical Trial Registry (ChiCTR2300070565).
+FINDINGS: Ninety-five participants (33 males and 62 females) were recruited 
+between March 1, 2023 and December 30, 2023. Forty-seven patients in the IHE 
+group received 10.0 (9.0, 15.0) days of IHE, and 48 patients in NE group 
+received 10.0 (8.0, 12.0) days of NE. 6MWD, forced vital capacity (FVC), FVC 
+%pred, forced expiratory volume in 1 s (FEV1), FEV1 %pred, tidal volume (VT), 
+and dyspnea and fatigue scales markedly improved after IHE (p < 0.05), and 
+improvements were greater than in the NE group (all p < 0.05). Furthermore, 
+participants in IHE group had better subjective improvements in dyspnea and 
+fatigue than those in the NE group (p < 0.05). Compared with <10 days of IHE, 
+≥10 days of IHE had a greater impact on 6MWD, FVC, FEV1, FEV1 %pred, VT, FAS, 
+and CFQ-11. No severe adverse events were reported.
+INTERPRETATION: IHE improved spirometry and 6MWD and relieved dyspnea and 
+fatigue in PASC patients. Larger prospective studies are now needed to verify 
+these findings.
+
+Copyright © 2024 Elsevier Ltd. All rights reserved.
+
+DOI: 10.1016/j.rmed.2024.107763
+PMID: 39127085 [Indexed for MEDLINE]
+
+Conflict of interest statement: Declaration of competing interest The authors 
+have no relevant conflicts of interest.

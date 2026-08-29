@@ -11348,8 +11348,14 @@
     "category": "medication",
     "definition": "A highly selective 5-HT4-agonist prokinetic used (often off-label) for gastroparesis and chronic constipation. It stimulates gut motility with a lower reported cardiovascular/QT risk than some older prokinetics.",
     "sources": [
-      { "label": "PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/?term=prucalopride%5BMeSH%5D" },
-      { "label": "Drugs.com", "url": "https://www.drugs.com/prucalopride.html" }
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=prucalopride%5BMeSH%5D"
+      },
+      {
+        "label": "Drugs.com",
+        "url": "https://www.drugs.com/prucalopride.html"
+      }
     ]
   },
   "putamen": {
@@ -11525,7 +11531,21 @@
     "definition": "A recombinant form of parathyroid hormone given by injection to stimulate bone formation (anabolic therapy) in osteoporosis. Its side effects (nausea, flushing, myalgia, hypercalcemia) overlap ME/CFS symptoms.",
     "generic": "Teriparatide",
     "class": "Anabolic bone agent (PTH 1-34)",
-    "rx": "Rx"
+    "rx": "Rx",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Teriparatide%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Teriparatide"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Teriparatide"
+      }
+    ]
   },
   "testosterone": {
     "label": "Testosterone",
@@ -11764,7 +11784,7 @@
   "Quinine": {
     "label": "Quinine",
     "category": "medication",
-    "definition": "An antimalarial quinoline alkaloid whose anti-cramp action is proposed to involve skeletal-muscle sodium (Nav1.4) / potassium (Kv7-KCNQ) channel blockade (low-confidence pharmacologic attribution \u2014 the Kv7/KCNQ component is uncited). Used off-label for nocturnal leg cramps, but FDA-boxed-warned (2006) and restricted (2010) for this use because serious adverse events (immune thrombocytopenia, drug-induced thrombotic microangiopathy, QT prolongation, hemolysis in G6PD deficiency, cinchonism) outweigh its marginal efficacy. Not recommended for ME/CFS cramps \u2014 no ME/CFS efficacy evidence exists.",
+    "definition": "An antimalarial quinoline alkaloid whose anti-cramp action is proposed to involve skeletal-muscle sodium (Nav1.4) / potassium (Kv7-KCNQ) channel blockade (low-confidence pharmacologic attribution — the Kv7/KCNQ component is uncited). Used off-label for nocturnal leg cramps, but FDA-boxed-warned (2006) and restricted (2010) for this use because serious adverse events (immune thrombocytopenia, drug-induced thrombotic microangiopathy, QT prolongation, hemolysis in G6PD deficiency, cinchonism) outweigh its marginal efficacy. Not recommended for ME/CFS cramps — no ME/CFS efficacy evidence exists.",
     "generic": "Quinine sulfate",
     "brand": "Qualaquin (US); various",
     "class": "Antimalarial quinoline / ion-channel blocker",
@@ -11815,5 +11835,42 @@
     "label": "Immune thrombocytopenia",
     "category": "condition",
     "definition": "A condition in which antibodies destroy platelets, causing a low platelet count (thrombocytopenia) and risk of bleeding or bruising. Quinine is a well-documented cause of immune thrombocytopenia and of a severe related syndrome, drug-induced thrombotic microangiopathy (TMA), which can damage kidneys and the nervous system."
+  },
+  "IHHT": {
+    "label": "IHHT",
+    "category": "treatment",
+    "definition": "Intermittent Hypoxia-Hyperoxia Treatment: repeated cycles of low-oxygen (hypoxic) and high-oxygen (hyperoxic) air at normal ambient pressure, administered by a device that varies inspired oxygen. Proposed to trigger mild hormetic adaptive responses (HIF-1α stabilization, mitochondrial antioxidant/repair pathways). Being tested for ME/CFS in the REenergizeME trial; not yet proven effective.",
+    "generic": "Intermittent hypoxia-hyperoxia therapy",
+    "class": "Medical device / therapy"
+  },
+  "hyperoxia": {
+    "label": "hyperoxia",
+    "category": "concept",
+    "definition": "A state of oxygen levels above normal in body tissues, typically from breathing elevated oxygen. In IHHT it is the high-oxygen phase between hypoxic exposures."
+  },
+  "FiO2": {
+    "label": "FiO2",
+    "category": "measurement",
+    "definition": "Fraction of Inspired Oxygen: the proportion of the air a person breathes that is oxygen (ambient air is ~21%). Lowered in the hypoxic phase and raised in the hyperoxic phase of IHHT."
+  },
+  "SpO2": {
+    "label": "SpO2",
+    "category": "measurement",
+    "definition": "Peripheral capillary Oxygen Saturation: an estimate of the percentage of oxygen carried by haemoglobin in the blood, measured non-invasively with a pulse oximeter. Monitored continuously during IHHT."
+  },
+  "Sudoscan": {
+    "label": "Sudoscan",
+    "category": "measurement",
+    "definition": "A non-invasive device that measures electrochemical skin conductance to assess sweat-gland function and small-fibre autonomic nerve integrity in the hands and feet. Used to evaluate small-fibre autonomic neuropathy."
+  },
+  "HypoxBreath": {
+    "label": "HypoxBreath",
+    "category": "device",
+    "definition": "A CE-marked medical device that administers intermittent hypoxia-hyperoxia by dynamically adjusting the fraction of inspired oxygen. Used in the REenergizeME IHHT trial."
+  },
+  "REenergizeME": {
+    "label": "REenergizeME",
+    "category": "study",
+    "definition": "A registered randomised, placebo-controlled trial testing intermittent hypoxia-hyperoxia treatment (IHHT) in female ME/CFS patients meeting the International Consensus Criteria. Recruitment began June 2026; results anticipated 2029."
   }
 }

@@ -1,0 +1,42 @@
+1. High Alt Med Biol. 2019 Dec;20(4):383-391. doi: 10.1089/ham.2019.0053. Epub
+2019  Oct 7.
+
+Intermittent Hypoxia/Hyperoxia Versus Intermittent Hypoxia/Normoxia: Comparative 
+Study in Prediabetes.
+
+Serebrovska TV(1), Grib ON(2), Portnichenko VI(1), Serebrovska ZO(1), Egorov 
+E(3), Shatylo VB(2).
+
+Author information:
+(1)Bogomoletz Institute of Physiology, Kiev, Ukraine.
+(2)D.F. Chebotarev State Institute of Gerontology, Kiev, Ukraine.
+(3)CellAir Construction GmbH, Stuttgart, Germany.
+
+Background: Intermittent hypoxia/normoxia training (IHT) is considered a 
+possible means to alleviate chronic diseases such as diabetes. In the last 
+decade, another method of intermittent hypoxia/hyperoxia training (IHHT) began 
+to enter the clinical practice, when the periods of breathing with atmospheric 
+air are replaced by breathing a hyperoxic mixture. The present study compared 
+the impact of adaptation to IHHT versus IHT on some metabolic variables in 
+prediabetic patients. Methods: A placebo-controlled trial included 55 patients 
+with prediabetes, sea level residents, ages 51-74 years. Control Group (16 
+patients) took sham 3-week course, and the IHHT Group (17 patients) and IHT 
+Group (22 patients) received similar actual sessions of IHHT or IHT five times a 
+week for 3 weeks, each session consisting four cycles of 5 minutes of hypoxia 
+(12% O2) followed by 3 minutes of hyperoxia (IHHT, 33% O2) or 5 minutes of 
+normoxia (IHT, breathing room air). Fasting glucose, oral glucose tolerance test 
+(OGTT), blood lipids, and the level of blood oxygen saturation (SpO2) were 
+investigated at baseline, as well as 1 day and 1 month after IHHT/IHT 
+termination. Results: The study showed the same positive effect of two types of 
+training: equal reduction of serum glucose concentrations, both fasting and 2 
+hours of OGTT; decreased total blood cholesterol and low-density lipoproteins; 
+and an equally smaller drop in SpO2 during acute hypoxic test (breathing with 
+12% O2 for 20 minutes). Improved parameters persisted 1 month after training 
+termination in both groups. Conclusion: One of the advantages of IHHT over IHT 
+observed in this study could be some reduction in the duration of the sessions 
+due to shortening reoxygenation periods. Further studies are required to search 
+for additional beneficial effects of IHHT when using other training modes or 
+other pathologies.
+
+DOI: 10.1089/ham.2019.0053
+PMID: 31589074 [Indexed for MEDLINE]

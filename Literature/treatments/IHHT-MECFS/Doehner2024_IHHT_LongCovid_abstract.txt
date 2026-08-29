@@ -1,0 +1,79 @@
+1. J Cachexia Sarcopenia Muscle. 2024 Dec;15(6):2781-2791. doi:
+10.1002/jcsm.13628.  Epub 2024 Nov 19.
+
+Intermittent Hypoxic-Hyperoxic Training During Inpatient Rehabilitation Improves 
+Exercise Capacity and Functional Outcome in Patients With Long Covid: Results of 
+a Controlled Clinical Pilot Trial.
+
+Doehner W(1)(2)(3), Fischer A(1), Alimi B(4), Muhar J(4), Springer J(1), Altmann 
+C(5), Schueller PO(4).
+
+Author information:
+(1)Berlin Institute of Health Center for Regenerative Therapies, Charité - 
+Universitätsmedizin Berlin, Berlin, Germany.
+(2)German Heart Center of the Charite, Department of Cardiology, Campus Virchow, 
+German Centre for Cardiovascular Research (DZHK), partner site Berlin, Charité - 
+Universitätsmedizin Berlin, Berlin, Germany.
+(3)Center for Stroke Research Berlin (CSB), Charité Universitätsmedizin Berlin, 
+Berlin, Germany.
+(4)Klinik für Kardiologie und Pneumologie, Median Klinikum Flechtingen, 
+Flechtingen, Germany.
+(5)MVZ Cardiologicum Dresden und Pirna, Studienzentrum Dresden, Dresden, 
+Germany.
+
+INTRODUCTION: Long COVID-19 illness is a severely disabling disease with 
+shortness of breath, weakness and fatigue as leading symptoms, resulting in poor 
+quality of life and substantial delay in return to work. No specific respiratory 
+therapy has been validated for patients with long COVID. The intermittent 
+hypoxia-hyperoxia training (IHHT) is a respiratory therapeutic modality to 
+improve exercise performance via controlled respiratory conditioning. The 
+purpose of the present study is to investigate the therapeutic effect of IHHT on 
+functional and symptomatic recovery of patients with long COVID syndrome.
+METHODS: A prospective, controlled, open-treatment interventional study was 
+conducted in patients with long COVID who were admitted to an inpatient 
+rehabilitation programme. Patients were assigned nonrandomized to receive IHHT 
+in addition to the standardized rehabilitation programme (IHHT group) or 
+standard rehabilitation alone (control group). The IHHT group received 
+supervised sessions of intermittent hypoxic (10-12% O2) and hyperoxic (30-35% 
+O2) breathing three times per week throughout the rehabilitation period. Primary 
+endpoint was improved walking distance in a 6-min walk test (6MWT) between study 
+groups. Secondary endpoints were change in stair climbing power, dyspnoea (Borg 
+dyspnoea Scale), fatigue assessment scale (FAS) and change in health-related 
+quality of life (HRQoL) assessed by patient global assessment (PGA), EQ-5D 
+analogue scale and the MEDIAN Corona Recovery Score (MCRS). Further assessments 
+included maximum handgrip strength, nine hole peg test, timed up-and-go, 
+respiratory function and functional ambulation category (FAC), serum analyses 
+and safety of the intervention.
+RESULTS: A total of 145 patients were included in the study (74% female, mean 
+age 53 ± 12 years) and assigned to IHHT (n = 70) or standard care (n = 75). The 
+6MWT distance improved 2.8-fold in the IHHT group compared to the control group 
+(91.7 ± 50.1 m vs. 32.6 ± 54.2 m, ANCOVA p < 0.001). Stair climbing power 
+improved 3.7-fold in the IHHT group compared to controls (-1.91 ± 2.23 s vs. 
+-0.51 ± 1.93 s, p < 0.001). Secondary endpoints on dyspnoea, fatigue and HRQoL 
+(PGA, EQ-5D and MCRS) improved significantly in the IHHT group compared to 
+controls. The IHHT group exhibited a significant decrease in blood pressure, 
+heart rate and increase in haemoglobin levels that was not observed in the 
+control group. No adverse events were observed.
+CONCLUSION: Respiratory treatment with IHHT in addition to a multidisciplinary 
+rehabilitation programme improves functional capacity, symptomatic status and 
+quality of life in patients with disabling long COVID. IHHT has been 
+demonstrated to be safe, well tolerated and feasible to be integrated in an 
+inpatient rehabilitation programme to improve outcome in long COVID.
+
+© 2024 The Author(s). Journal of Cachexia, Sarcopenia and Muscle published by 
+Wiley Periodicals LLC.
+
+DOI: 10.1002/jcsm.13628
+PMCID: PMC11634465
+PMID: 39559920 [Indexed for MEDLINE]
+
+Conflict of interest statement: W. Doehner reports consulting fees and speaker 
+honoraria from Bayer, Boehringer Ingelheim, Boston Scientific, Cardiomatics, 
+Aimediq, Medtronic, Vifor Pharma, travel support from Pharmacosmos and research 
+support to the Institute from EU (Horizon2020), German Ministry of Education and 
+Research, German Center for Cardiovascular Research, German Pension Insurance 
+(regional Mitteldeutschland) Boehringer Ingelheim, Vifor Pharma. C. Altmann 
+reports consulting fees, speaker honoraria and research support from Pfizer, 
+Amgen, Amarin, Novartis. P. Schüller declares consulting fees, speaker honoraria 
+and research support from Pfizer, Amgen, Amarin and Novartis. A. Shafieesabet, 
+B. Alimi, J. Muhar and J. Springer report no conflict of interest.

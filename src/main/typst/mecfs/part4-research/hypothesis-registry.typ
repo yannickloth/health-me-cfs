@@ -1110,8 +1110,19 @@ This registry collects all hypotheses, speculations, open questions, and predict
   limitation: [No ME/CFS data; equipoise is complete — the test could be positive or negative. 100% O2 testing may trigger PEM in some patients; safety protocol needed.],
 )
 
+#registry-entry(
+  [Intermittent Hypoxia-Hyperoxia Treatment (IHHT) Hormetic Adaptation in ME/CFS],
+  type: "S",
+  certainty: "0.30",
+  evidence: [REenergizeME RCT protocol (Nochi et al. 2026) hypothesizes that recurrent mild hypoxic injury to brain/muscle (from microvascular dysfunction + functional GPCR autoantibodies disrupting oxygen delivery) drives mitochondrial dysfunction, oxidative stress and inflammation underlying PEM, and that IHHT preconditions tissues via HIF-1$alpha$ stabilization + redox-sensitive stress-response pathways. Zero direct ME/CFS efficacy data exist; prior long-COVID IHHT evidence is non-randomized/non-controlled and one cohort (Kapel2025) overlaps the protocol team with commercial COI. Mechanism anchored to hypoxia-conditioning hormesis review (Zhang2023).],
+  citations: [@Nochi2026REenergizeME @Zhang2023HypoxiaConditioning @Doehner2024IHHTLongCovid @Kapel2025IHHC],
+  mechanism: [Mild hormetic intermittent hypoxia (brief, low-frequency cycles) → HIF-1$alpha$ stabilization → mitochondrial antioxidant/repair pathway activation, angiogenesis, vascular regulation → improved hypoxia tolerance, reduced oxidative/inflammatory stress. Distinct from pathological chronic intermittent hypoxia (OSA analog) which causes sustained HIF-1$alpha$ elevation and harm.],
+  chapter-ref: [ch31: intermittent hypoxia-hyperoxia treatment],
+  prediction: [If the mechanism holds, the REenergizeME RCT (n=104, SF-36 vitality primary, results 2029) will show greater SF-36 vitality improvement with IHHT vs sham, with corresponding NIRS muscle oxygenation, autonomic and oxidative-stress biomarker changes. Falsified if no between-group difference or no mechanistic biomarker change.],
+  treatment: [Registered, hypothesis-driven trial of IHHT as a potential non-pharmacological intervention for mild-moderate ME/CFS; research-stage, not a clinical recommendation.],
+  limitation: [Protocol-only — no results until 2029; dose unvalidated in ME/CFS; bedbound/very-severe excluded; female-only; sample-size from non-controlled COI-affected cohort; PEM exacerbation is a documented risk.],
+)
 
-=== Corticosteroid Failure and Steroid Avoidance
 
 #registry-entry(
   [CNS-Confined Fatigue Persists Despite Normal Peripheral Inflammatory Biomarkers],

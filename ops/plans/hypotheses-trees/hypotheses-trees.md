@@ -373,3 +373,4 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | bedard2026-central-fatigability-cascade | [subtrees/bedard2026-central-fatigability-cascade.md](subtrees/bedard2026-central-fatigability-cascade.md) | 2026-08-26 | 9 | 4 | 🔵 in progress |
 | quinine-sulfate | [subtrees/quinine-sulfate.md](subtrees/quinine-sulfate.md) | 2026-08-29 | 12 | 3 | ✅ done |
 | osteoporosis | [subtrees/osteoporosis.md](subtrees/osteoporosis.md) | 2026-08-29 | 10 | 3 | 🔵 in progress |
+| reenergize-me-ihht | [subtrees/reenergize-me-ihht.md](subtrees/reenergize-me-ihht.md) | 2026-08-29 | 29 | 2 | 🔵 in progress |

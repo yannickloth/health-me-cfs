@@ -1,0 +1,29 @@
+Introduction Myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) is a chronic,
+disabling condition characterised by post-exertional malaise (PEM), autonomic dysfunction
+and markedly reduced quality of life. Its prevalence has increased following the COVID-19
+pandemic, yet no effective disease-modifying treatments are available and underlying
+mechanisms remain unclear. Evidence implicates immune-metabolic dysregulation, impaired
+energy metabolism, vascular dysfunction and altered oxygen handling. Intermittent
+hypoxia-hyperoxia treatment (IHHT) is a non-pharmacological intervention proposed to
+induce adaptive physiological and cellular responses via hypoxia- and redox-sensitive
+pathways. This trial evaluates the clinical efficacy of IHHT in ME/CFS and explores
+associated mechanisms.
+
+Methods and analysis This randomised, placebo-controlled, participant- and
+assessor-blinded clinical trial will enrol 104 female patients aged 20-59 years who meet
+the International Consensus Criteria for ME/CFS along with a healthy control group for
+mechanistic comparisons. Participants will be randomised 1:1 to IHHT or placebo following
+baseline assessments. The intervention will be delivered over 8 weeks. The primary
+endpoint is change in quality of life measured by the vitality domain of the Short
+Form-36 Health Survey. Secondary endpoints include PEM severity, fatigue severity,
+cognitive severity, functional capacity and autonomic symptoms assessed using validated
+patient-reported outcome measures and objective tests. Exploratory endpoints include pain
+phenotyping, autonomic, sudomotor and neurophysiological assessments, tissue oxygenation
+by near-infrared spectroscopy, peripheral small-fibre nerve assessments using corneal
+confocal microscopy and skin biopsy and immune-metabolic and oxidative stress biomarkers.
+Assessments will be conducted at baseline; post-treatment; and at 3, 6 and 12 months
+follow-up.
+
+Nochi M, Kristensen SK, Mehrani N, et al. REenergizeME: intermittent hypoxia-hyperoxia
+treatment for myalgic encephalomyelitis/chronic fatigue syndrome—protocol for a
+randomised, placebo-controlled trial. BMJ Open 2026;16:e117729. doi:10.1136/bmjopen-2026-117729

@@ -1,0 +1,83 @@
+1. Hypertens Res. 2026 May;49(5):1659-1672. doi: 10.1038/s41440-026-02588-7. Epub
+ 2026 Mar 2.
+
+Differential cardiovascular and autonomic responses to structurally distinct 
+intermittent hypoxia paradigms in rats.
+
+She SC(1)(2), Lin CW(1)(2), Chen CW(2)(3)(4), Wu CH(2)(5), Huang SS(6)(7), Lai 
+CJ(8)(9), Kuo TBJ(1)(2)(10)(11), Yang DI(1), Hsie YH(1), Kuo KL(12)(13), Yang 
+CCH(14)(15)(16)(17).
+
+Author information:
+(1)Institute of Brain Science, National Yang Ming Chiao Tung University, Taipei, 
+Taiwan, ROC.
+(2)Sleep Research Center, National Yang Ming Chiao Tung University, Taipei, 
+Taiwan, ROC.
+(3)Institute of Neuroscience, National Chengchi University, Taipei, Taiwan, ROC.
+(4)Research Center for Mind, Brain and Learning, National Chengchi University, 
+Taipei, Taiwan, ROC.
+(5)Department of Information Management, National Taipei University of Nursing 
+and Health Sciences, Taipei, Taiwan, ROC.
+(6)Department of Pharmacology and Institute of Medicine, Chung Shan Medical 
+University, Taichung, Taiwan, ROC.
+(7)Department of Pharmacy, Chung Shan Medical University Hospital, Taichung, 
+Taiwan, ROC.
+(8)Master Program in Biomedical Science, School of Medicine, Tzu Chi University, 
+Hualien, Taiwan, ROC.
+(9)Department of Physiology, Tzu Chi University, Hualien, Taiwan, ROC.
+(10)Department of Education and Research, Taipei City Hospital, Taipei, Taiwan, 
+ROC.
+(11)Tsaotun Psychiatric Center, Ministry of Health and Welfare, Nantou, Taiwan, 
+ROC.
+(12)Department of Family Medicine, Taipei City Hospital Renai Branch, Taipei, 
+Taiwan, ROC. DAA87@tpech.gov.tw.
+(13)Institute of Biomedical Informatics, National Yang Ming Chiao Tung 
+University, Taipei, Taiwan, ROC. DAA87@tpech.gov.tw.
+(14)Institute of Brain Science, National Yang Ming Chiao Tung University, 
+Taipei, Taiwan, ROC. cchyang@nycu.edu.tw.
+(15)Sleep Research Center, National Yang Ming Chiao Tung University, Taipei, 
+Taiwan, ROC. cchyang@nycu.edu.tw.
+(16)Department of Education and Research, Taipei City Hospital, Taipei, Taiwan, 
+ROC. cchyang@nycu.edu.tw.
+(17)Brain Research Center, National Yang Ming Chiao Tung University, Taipei, 
+Taiwan, ROC. cchyang@nycu.edu.tw.
+
+Intermittent hypoxia (IH), the key physiological stressor in obstructive sleep 
+apnea, is commonly quantified by respiratory event frequency. However, clinical 
+heterogeneity in hypertension among patients with comparable apnea-hypopnea 
+index (AHI) suggests that episode timing, including the duration and frequency 
+of desaturation-reoxygenation cycles, may exert distinct biological effects even 
+under equal cumulative burden. To test this, male Wistar-Kyoto rats were exposed 
+for 21 days (8 h/day) to IH with either 10-s hypoxia duration at 30 cycles/h 
+(10s-30c) or 5-s hypoxia duration at 60 cycles/h (5s-60c), while room air served 
+as a control. Cardiovascular regulation was evaluated by continuous measurement 
+of mean arterial pressure, heart-rate variability, and baroreflex sensitivity, 
+and broader systemic effects were assessed through sleep-wake architecture, EEG 
+activity, spatial memory, and cortical/hippocampal protein markers. Both IH 
+groups had elevated blood pressure and disrupted autonomic balance compared with 
+controls. The 5s-60c group produced more sustained hypertension, blunted 
+nocturnal dipping, greater baroreflex impairment, and enhanced beta power during 
+sleep, indicating persistent sympathetic drive. By contrast, the 10s-30c group 
+was associated with increased paradoxical sleep, impaired spatial memory, 
+reduced NeuN expression, and stronger upregulation of IBA-1 and NF-κB. These 
+findings demonstrate that equivalent cumulative hypoxic exposure with different 
+temporal structures yields divergent cardiovascular and neurocognitive outcomes. 
+High-frequency, short-duration episodes preferentially promoted cardiovascular 
+dysregulation, whereas longer episodes were linked to neurocognitive 
+vulnerability. Consideration of hypoxic episode duration may improve the 
+mechanistic interpretation of cardiovascular heterogeneity associated with 
+sleep-disordered breathing.
+
+© 2026. The Author(s).
+
+DOI: 10.1038/s41440-026-02588-7
+PMCID: PMC13148984
+PMID: 41766041 [Indexed for MEDLINE]
+
+Conflict of interest statement: Compliance with ethical standards. Conflict of 
+interest: The authors declare no competing interests. Declaration of generative 
+AI and AI-assisted technologies in the writing process: During the preparation 
+of this work, the authors used ChatGPT (OpenAI) to assist with language 
+refinement and improvement of clarity in English writing. After using this tool, 
+the authors reviewed and edited the content as needed and take full 
+responsibility for the content of the publication.

@@ -1,0 +1,59 @@
+1. Medicina (Kaunas). 2026 Jul 11;62(7):1340. doi: 10.3390/medicina62071340.
+
+Altered HIF-1α, Netrin-1, and Netrin-4 Levels in Obstructive Sleep Apnea: 
+Associations with Intermittent Hypoxia and Disease Severity.
+
+Erdem M(1), Kıran TR(1), Kırıcı Berber N(2), Şahin Gür L(2), Erdem Ş(3).
+
+Author information:
+(1)Department of Medical Biochemistry, Faculty of Medicine, Malatya Turgut Özal 
+University, Malatya 44210, Türkiye.
+(2)Department of Pulmonary Medicine, Faculty of Medicine, Malatya Turgut Özal 
+University, Malatya 44210, Türkiye.
+(3)Department of Medical Biochemistry, Faculty of Medicine, Karadeniz Technical 
+University, Trabzon 61080, Türkiye.
+
+Background and Objectives: Obstructive sleep apnea (OSA) is characterized by 
+recurrent upper airway collapse, leading to intermittent hypoxia, oxidative 
+stress, and systemic inflammation. Hypoxia-inducible factor-1α (HIF-1α) plays a 
+central role in cellular adaptation to hypoxia, whereas Netrin family members 
+have emerged as regulators of inflammatory and endothelial responses. However, 
+the roles of Netrin-1 and Netrin-4 in OSA-related intermittent hypoxia remain 
+unclear. This study aimed to investigate circulating HIF-1α, Netrin-1, and 
+Netrin-4 levels in patients with OSA and to evaluate their associations with 
+disease severity and hypoxic burden. Materials and Methods: This study included 
+52 patients with newly diagnosed OSA and 26 healthy controls. Participants were 
+classified as severe OSA, mild-moderate OSA, or control according to 
+apnea-hypopnea index (AHI) values. All participants underwent overnight 
+polysomnography. Serum HIF-1α, Netrin-1, and Netrin-4 levels were measured using 
+ELISA. ROC curve analyses were performed to assess the ability of the 
+investigated biomarkers to distinguish patients with OSA from controls. 
+Correlation analyses evaluated associations between biomarkers and 
+polysomnographic parameters, while multiple linear regression analyses adjusted 
+for BMI, age, gender, CRP, and LDL levels were used to identify independent 
+associations. Results: Serum HIF-1α, Netrin-1, and Netrin-4 levels differed 
+significantly among the groups (p < 0.0001) and progressively increased from 
+controls to mild-moderate and severe OSA groups. ROC curve analyses demonstrated 
+excellent discriminative performance for HIF-1α (AUC = 0.9072) and Netrin-1 (AUC 
+= 0.8928), while Netrin-4 also showed good discriminative ability (AUC = 
+0.8284). HIF-1α levels were positively correlated with both AHI, reflecting 
+disease severity, and T90, reflecting nocturnal hypoxic burden (p < 0.0001). 
+Similar positive correlations were observed between Netrin-1, Netrin-4, and both 
+AHI and T90 (p < 0.0001). In multiple linear regression analyses, AHI remained 
+independently associated with HIF-1α, Netrin-1, and Netrin-4 after adjustment 
+for BMI, age, gender, CRP, and LDL levels (p < 0.0001). In contrast, BMI, age, 
+gender, CRP, and LDL were not significantly associated with any of these 
+biomarker levels in the adjusted models. Conclusions: Circulating HIF-1α, 
+Netrin-1, and Netrin-4 levels are significantly elevated in patients with OSA 
+and are positively associated with disease severity and hypoxic burden. The 
+independent relationship between AHI and these biomarkers suggests that 
+intermittent hypoxia may contribute to activation of HIF-1α-related and 
+Netrin-associated pathways in OSA. These findings indicate that Netrin family 
+members may have potential relevance as biomarkers of hypoxia-associated 
+inflammatory and endothelial alterations in OSA.
+
+DOI: 10.3390/medicina62071340
+PMCID: PMC13413938
+PMID: 42512882 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare no conflicts of interest.

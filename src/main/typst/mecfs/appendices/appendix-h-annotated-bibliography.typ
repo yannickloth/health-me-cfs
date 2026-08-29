@@ -38420,3 +38420,158 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
 *Conclusion:*: Supports the general premise of dopaminergic dysregulation in ME/CFS relevant to the D2/prolactin mechanism.
 *Limitations:*: Open-label; small sample; no placebo control.
 *Certainty Assessment:*: 0.45 raw × 1.00 ME/CFS-cohort weight = discounted 0.45
+
+<sec:bib-reenergize-me-ihht>
+// research_stream = {reenergize-me-ihht}
+// Added 2026-08-29 (Phase-1 literature research)
+// =============================================================================
+// IHHT (Intermittent Hypoxia-Hyperoxia Treatment) in ME/CFS.
+// Trigger: REenergizeME protocol (Nochi 2026, BMJ Open). See
+// ops/research/literature-summary-reenergize-me-ihht.md and
+// ops/research/search-log-reenergize-me-ihht-2026-08-29.md.
+// =============================================================================
+
+=== Nochi et al.\ 2026 — REenergizeME: IHHT Protocol for ME/CFS (RCT) — ANCHOR
+
+    / *Full Citation:*: Nochi M, Kristensen SK, Mehrani N, et al. REenergizeME: intermittent hypoxia–hyperoxia treatment for myalgic encephalomyelitis/chronic fatigue syndrome—protocol for a randomised, placebo-controlled trial. _BMJ Open_. 2026;16:e117729. @Nochi2026REenergizeME
+    / *DOI:*: #link("https://doi.org/10.1136/bmjopen-2026-117729")[10.1136/bmjopen-2026-117729]
+    / *Study Design:*: Randomised, placebo-controlled, participant- and assessor-blinded RCT protocol; 104 female ME/CFS (International Consensus Criteria), 20–59 y, mild–moderate (NICE), PEM documented, \>6 months; 1:1 IHHT vs sham; 6 sessions over 8 weeks; HypoxBreath device (Telmed, CE IIa), 4–7 alternating hypoxia–hyperoxia cycles (SpO2 9–13% hypoxic, 36% hyperoxic); sham = room air with mimicked cues.
+    / *Sample Size:*: 104 ME/CFS (+ 20 healthy controls for mechanistic comparison).
+    / *Key Findings:*:
+        - Primary endpoint: SF-36 vitality domain change; effect assumption +20.5 vs placebo +6.8 (between-group 13.7) — extrapolated from a NON-controlled long-COVID IHHT cohort (Kapel2025).
+        - Extensive secondary/exploratory: PEM (FUNCAP-27), fatigue (FSS), cognitive (d2-R), autonomic (COMPASS-31, NLT, Valsalva), pain (painDETECT), NIRS muscle oxygenation, handgrip, Sudoscan, thermal QST, corneal confocal microscopy, skin biopsy (IENFD, VIP/DbH, macrophages, mitochondria, microvasculature), PBMC flux/oxidative/inflammatory/metabolomic/proteomic/transcriptomic.
+    / *Conclusion:*: Protocol to test whether mild hormetic IHHT (HIF-1α preconditioning) improves QoL, PEM, fatigue, autonomic and microvascular function in ME/CFS. Results pending (recruitment Jun 2026; completion Jan 2029).
+    / *Limitations:*: Dose/regimen not ME/CFS-validated (no ME/CFS pilot); female-only; bedbound/very-severe underrepresented; power from non-controlled data; sham masking uncertain. Provenance/COI: shares investigators (Olsen RJ, Stokholm, Foldager, Nochi-family) AND device/protocol with the non-controlled Kapel2025 cohort used for the power calculation.
+    / *Certainty Assessment:*:
+        - *Quality:* High (peer-reviewed BMJ Open protocol; ICH-GCP)
+        - *Sample:* Adequate (n=104 + controls)
+        - *Replication:* N/A — results pending
+        - *Score:* 0.95 (raw 0.95 × 1.00 ME/CFS weight; informational — design only, not efficacy)
+
+=== Doehner et al.\ 2024 — IHHT During Inpatient Rehabilitation for Long COVID (Controlled Pilot) — PROTOCOL REF 39
+
+    / *Full Citation:*: Doehner W, Fischer A, Alimi B, Muhar J, Springer J, Altmann C, Schueller PO. Intermittent hypoxic–hyperoxic training during inpatient rehabilitation improves exercise capacity and functional outcome in patients with long covid: results of a controlled clinical pilot trial. _Journal of Cachexia, Sarcopenia and Muscle_. 2024;15(6):2781–2791. @Doehner2024IHHTLongCovid
+    / *DOI:*: #link("https://doi.org/10.1002/jcsm.13628")[10.1002/jcsm.13628]
+    / *Study Design:*: Prospective, controlled, open-treatment (NON-randomized) pilot; 145 long-COVID inpatients (74% female, mean 53 y) in inpatient rehabilitation; 70 IHHT (10–12% O2 / 30–35% hyperoxic, 3×/week) + standard rehab vs 75 standard rehab.
+    / *Sample Size:*: 145 (70 IHHT vs 75 control).
+    / *Key Findings:*:
+        - 6MWT improved 2.8-fold vs control (91.7 vs 32.6 m, ANCOVA p\<0.001).
+        - Stair-climbing power improved 3.7-fold (-1.91 vs -0.51 s, p\<0.001).
+        - Dyspnoea, fatigue (FAS), QoL (PGA/EQ-5D/MCRS) improved; BP/HR decreased, haemoglobin increased (control unchanged).
+        - No adverse events observed.
+    / *Conclusion:*: IHHT added to multidisciplinary rehabilitation improves functional capacity, symptomatic status and QoL in disabling long COVID; reported safe and well tolerated.
+    / *Limitations:*: Non-randomized, open-treatment (selection bias); single rehabilitation setting; no ME/CFS population; Germany (Charité/Median Klinikum) — independent of Danish REenergizeME team.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (controlled but non-randomized, open)
+        - *Sample:* Moderate (n=145)
+        - *Replication:* Single pilot
+        - *Score:* 0.60 raw × 0.80 post-viral/long-COVID overlap weight = **discounted 0.48**
+
+=== Kapel et al.\ 2025 — Individualized Algorithm-Based IHHC for Post-COVID (Open Cohort) — PROTOCOL REF 40
+
+    / *Full Citation:*: Kapel JS, Stokholm R, Elmengaard B, Nochi Z, Olsen RJ, Foldager CB. Individualized algorithm-based intermittent hypoxia improves quality of life in patients suffering from long-term sequelae after COVID-19 infection. _Journal of Clinical Medicine_. 2025;14(5):1590. @Kapel2025IHHC
+    / *DOI:*: #link("https://doi.org/10.3390/jcm14051590")[10.3390/jcm14051590]
+    / *Study Design:*: Open-label, NON-controlled cohort of individualized algorithm-based IHHC (SANA Therapy, HypoxBreath/INVATIO); 199 PCC patients (11–87 y, 67% female), moderate-severe fatigue, 2020–2023; mean 6 sessions (2–21); hypoxia 9–13% O2 3–8 min, hyperoxia 34–36% 1–3 min.
+    / *Sample Size:*: 199 PCC.
+    / *Key Findings:*:
+        - SF-36 increased ~102 points (p\<0.001) at 6 weeks, ~106 at 6 months.
+        - Pain reduced 28–32% (above clinically relevant threshold) at both time points.
+        - No serious adverse events.
+    / *Conclusion:*: Personalized algorithm-based IHHC alleviated pain and improved QoL in long-term post-COVID sequelae, sustained to 6 months.
+    / *Limitations:*: Open, non-controlled; commercial-source data (SANA Medical Systems); authors Stokholm/Elmengaard/Foldager are co-founders/shareholders of SANA. **Overlaps REenergizeME team** (Olsen RJ, Stokholm, Foldager, Nochi Z) AND device/protocol; its SF-36 effect used for REenergizeME power calculation. No placebo control.
+    / *Certainty Assessment:*:
+        - *Quality:* Low-Medium (open cohort, no control, commercial)
+        - *Sample:* Large (n=199) but non-controlled
+        - *Replication:* Single cohort
+        - *Score:* 0.35 raw × 0.80 post-viral weight, further COI/overlap-discounted = **discounted 0.28**
+
+=== Zha et al.\ 2024 — Intermittent Hypoxia for Dyspnea and Fatigue in PASC (Controlled RCT) — PROTOCOL REF 41
+
+    / *Full Citation:*: Zha S, Liu X, Yao Y, et al. Short-term intermittent hypoxia exposure for dyspnea and fatigue in post-acute sequelae of COVID-19: a randomized controlled study. _Respiratory Medicine_. 2024;232:107763. @Zha2024IntermittentHypoxia
+    / *DOI:*: #link("https://doi.org/10.1016/j.rmed.2024.107763")[10.1016/j.rmed.2024.107763]
+    / *Study Design:*: Prospective randomized controlled study (normoxia comparator + routine therapy; non-blinded); 95 PASC patients; 47 intermittent-hypoxia exposure (IHE; 5 min hypoxia / 5 min normal air ×5, mean 10 days) vs 48 normoxia exposure (NE). ChiCTR2300070565.
+    / *Sample Size:*: 95 (47 IHE vs 48 NE).
+    / *Key Findings:*:
+        - 6MWD, FVC, FEV1, VT, dyspnoea (Borg/mMRC), fatigue (FAS/CFQ-11) improved after IHE and greater than NE (all p\<0.05).
+        - ≥10 days of IHE \> \<10 days (6MWD, FVC, FEV1, VT, FAS, CFQ-11).
+        - No severe adverse events.
+    / *Conclusion:*: Intermittent hypoxia (IHE) improved spirometry, 6MWD, dyspnoea and fatigue in PASC.
+    / *Limitations:*: This is intermittent-hypoxia (IHE), NOT IHHT (no hyperoxic phase); normoxia comparator (non-blinded); single center (Wuhan, China); no ME/CFS population; independent of Danish team.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (RCT but normoxia control, non-blinded, single center)
+        - *Sample:* Moderate (n=95)
+        - *Replication:* Single study
+        - *Score:* 0.55 raw × 0.80 post-viral weight = **discounted 0.44**
+
+=== Serebrovska et al.\ 2019 — IHHT vs Intermittent Hypoxia/Normoxia in Prediabetes (Placebo RCT)
+
+    / *Full Citation:*: Serebrovska TV, Grib ON, Portnichenko VI, Serebrovska ZO, Egorov E, Shatylo VB. Intermittent hypoxia/hyperoxia versus intermittent hypoxia/normoxia: comparative study in prediabetes. _High Altitude Medicine & Biology_. 2019;20(4):383–391. @Serebrovska2019IHHTvsIHT
+    / *DOI:*: #link("https://doi.org/10.1089/ham.2019.0053")[10.1089/ham.2019.0053]
+    / *Study Design:*: Placebo-controlled RCT; 55 prediabetic patients (51–74 y); 17 IHHT (5 min 12% O2 / 3 min 33% O2), 22 IHT (hypoxia/normoxia), 16 sham; 3 weeks, 5×/week.
+    / *Sample Size:*: 55.
+    / *Key Findings:*:
+        - IHHT = IHT on fasting glucose, OGTT, LDL, cholesterol; equal improvement in hypoxic-test SpO2; persisted 1 month.
+        - IHHT advantage: shorter reoxygenation periods (shorter sessions).
+        - No adverse events reported.
+    / *Conclusion:*: IHHT is equivalent to IHT on metabolic endpoints in prediabetes, with session-time efficiency; establishes safety + physiological equivalence for IHHT dosing in a non-ME/CFS clinical population.
+    / *Limitations:*: Prediabetes population (not ME/CFS); single center (Ukraine); not powered for long-term outcomes.
+    / *Certainty Assessment:*: 0.55 raw × 0.60 non-ME/CFS clinical weight = **discounted 0.33**
+
+=== Bestavashvili et al.\ 2022 — IHHE in Metabolic Syndrome (Sham-Controlled RCT)
+
+    / *Full Citation:*: Bestavashvili A, Glazachev O, Bestavashvili A, et al. Intermittent hypoxic-hyperoxic exposures effects in patients with metabolic syndrome: correction of cardiovascular and metabolic profile. _Biomedicines_. 2022;10(3):566. @Bestavashvili2022IHHEmetabolic
+    / *DOI:*: #link("https://doi.org/10.3390/biomedicines10030566")[10.3390/biomedicines10030566]
+    / *Study Design:*: Randomized controlled study; 65 metabolic-syndrome patients on optimal pharmacotherapy; IHHE (3-wk, 5×/week, 45 min) vs sham (room air).
+    / *Sample Size:*: 65.
+    / *Key Findings:*:
+        - Corrected cardiovascular (SBP/DBP) and metabolic profile vs control.
+        - No serious adverse events.
+    / *Conclusion:*: IHHE is safe and improves cardiovascular/metabolic profile in metabolic syndrome; physiological reference for IHHT dosing.
+    / *Limitations:*: Same cohort/trial as Afina2021 (companion analysis — do not double-count); non-ME/CFS population; Russia (Sechenov); short-term follow-up.
+    / *Certainty Assessment:*: 0.55 raw × 0.60 non-ME/CFS clinical weight = **discounted 0.33**
+
+=== Afina et al.\ 2021 — IHHT Effects on Lipid Profile and Inflammation in Metabolic Syndrome (Companion)
+
+    / *Full Citation:*: Afina B, Oleg G, Alexander B, et al. The effects of intermittent hypoxic-hyperoxic exposures on lipid profile and inflammation in patients with metabolic syndrome. _Frontiers in Cardiovascular Medicine_. 2021;8:700826. @Afina2021IHHTLipidInflammation
+    / *DOI:*: #link("https://doi.org/10.3389/fcvm.2021.700826")[10.3389/fcvm.2021.700826]
+    / *Study Design:*: Companion analysis (SAME Sechenov trial, n=65 metabolic syndrome, NCT04791397); IHHT vs sham.
+    / *Key Findings:*:
+        - Improved lipid profile (TC, LDL, TG) and anti-inflammatory status (decreased hs-CRP, Hsp70, NTproBNP, ALT/AST) vs sham.
+        - No significant complications or serious adverse events.
+    / *Conclusion:*: IHHT improves lipid and inflammatory profile; safe and well tolerated as adjuvant treatment in metabolic syndrome.
+    / *Limitations:*: Cohort overlap with Bestavashvili2022 (same trial, different analyses — flagged); baseline group differences; non-ME/CFS population.
+    / *Certainty Assessment:*: 0.50 raw × 0.60 non-ME/CFS clinical weight = **discounted 0.30** (overlap-flagged)
+
+=== Zhang et al.\ 2023 — Intermittent Hypoxia Conditioning: Multi-Organ Protective Strategy (Mechanism Review)
+
+    / *Full Citation:*: Zhang Q, Zhao W, Li S, Ding Y, Wang Y, Ji X. Intermittent hypoxia conditioning: a potential multi-organ protective therapeutic strategy. _International Journal of Medical Sciences_. 2023;20(12):1551–1561. @Zhang2023HypoxiaConditioning
+    / *DOI:*: #link("https://doi.org/10.7150/ijms.86622")[10.7150/ijms.86622]
+    / *Study Design:*: Authoritative mechanism review (Xuanwu Hospital / Beijing Key Laboratory of Hypoxic Conditioning).
+    / *Key Findings:*:
+        - Intermittent hypoxia conditioning hormesis: calibrated mild-moderate hypoxia + appropriate cycles reduces oxidative stress, inflammation, apoptosis; enhances hypoxic gene expression (HIF-1α → erythropoiesis, angiogenesis, vascular regulation, metabolism).
+        - Dose-dependent: low-dose hormetic IH = adaptive; excess = harmful.
+    / *Conclusion:*: Establishes the mechanism bridge between IHHT and the existing corpus `hypoxia-altitude-hif1a` stream (altitude/HIF-1α preconditioning); multi-organ protective therapeutic strategy.
+    / *Limitations:*: Review (not primary data); animal-model dominated; no direct ME/CFS evidence.
+    / *Certainty Assessment:*: 0.65 raw × 0.75 general-mechanism weight = **discounted 0.49**
+
+=== Erdem et al.\ 2026 — Altered HIF-1α/Netrin in OSA: Pathological Intermittent Hypoxia (Harm Contrast)
+
+    / *Full Citation:*: Erdem M, Kıran TR, Kırıcı Berber N, Şahin Gür L, Erdem Ş. Altered HIF-1α, Netrin-1, and Netrin-4 levels in obstructive sleep apnea: associations with intermittent hypoxia and disease severity. _Medicina (Kaunas)_. 2026;62(7):1340. @Erdem2026HIF1aOSA
+    / *DOI:*: #link("https://doi.org/10.3390/medicina62071340")[10.3390/medicina62071340]
+    / *Study Design:*: Case-control; 52 OSA + 26 controls; serum HIF-1α, Netrin-1, Netrin-4 by ELISA; regression adjusted for BMI/age/CRP/LDL.
+    / *Key Findings:*:
+        - Serum HIF-1α, Netrin-1, Netrin-4 progressively elevated with OSA severity (p\<0.0001), independent of BMI/age/CRP/LDL.
+    / *Conclusion:*: Chronic pathological intermittent hypoxia (OSA) drives persistent HIF-1α elevation + oxidative stress — the pathological pole contrasting with the mild transient-HIF-1α preconditioning that IHHT (brief, low-frequency cycles) aims for.
+    / *Limitations:*: OSA (disease) population, not IHHT; no direct ME/CFS relevance; used to bound the mild-hormetic vs pathological-chronic IH distinction.
+    / *Certainty Assessment:*: 0.55 raw × 0.60 general-harm-contrast weight = **discounted 0.33**
+
+=== She et al.\ 2026 — Differential CV/Autonomic Responses to IH Paradigms in Rats (Harm/Mechanism)
+
+    / *Full Citation:*: She SC, Lin CW, Chen CW, et al. Differential cardiovascular and autonomic responses to structurally distinct intermittent hypoxia paradigms in rats. _Hypertension Research_. 2026;49(5):1659–1672. @She2026IHParadigms
+    / *DOI:*: #link("https://doi.org/10.1038/s41440-026-02588-7")[10.1038/s41440-026-02588-7]
+    / *Study Design:*: Experimental rat study comparing structurally distinct intermittent hypoxia paradigms at equal cumulative burden.
+    / *Key Findings:*:
+        - The duration + frequency of desaturation-reoxygenation cycles produce distinct cardiovascular + autonomic outcomes even at equal cumulative burden.
+    / *Conclusion:*: Supports the mild-hormetic (brief, well-spaced cycles — IHHT) vs pathological (high-frequency sustained desaturation — OSA) dosing distinction central to IHHT safety.
+    / *Limitations:*: Animal data; mechanistic; not direct clinical evidence; no ME/CFS.
+    / *Certainty Assessment:*: 0.50 raw × 0.50 animal-to-human relevance = **discounted 0.25**
