@@ -134,13 +134,22 @@ void main(String[] args) throws Exception {
                     }
                 }
                 if (url.startsWith("../") || url.startsWith("/")) {
+                    // Strip any #fragment before resolving — it is an in-page anchor, not a file.
+                    var fragmentIdx = url.indexOf('#');
+                    var pathUrl = fragmentIdx >= 0 ? url.substring(0, fragmentIdx) : url;
                     Path target;
-                    if (url.startsWith("../")) {
-                        target = qmd.getParent().resolve(url).normalize();
+                    if (pathUrl.startsWith("../")) {
+                        target = qmd.getParent().resolve(pathUrl).normalize();
                     } else {
-                        target = blogDir.resolve(url.substring(1)).normalize();
+                        target = blogDir.resolve(pathUrl.substring(1)).normalize();
                     }
-                    if (!exists(target)) {
+                    // A rendered-site .html page is generated from a .qmd source in the
+                    // build tree; accept the matching .qmd when the .html (a build
+                    // artifact) is absent.
+                    var qmdSibling = target.getFileName().toString().endsWith(".html")
+                        ? target.resolveSibling(target.getFileName().toString().replaceFirst("\\.html$", ".qmd"))
+                        : null;
+                    if (!exists(target) && (qmdSibling == null || !exists(qmdSibling))) {
                         findings.add(new BlogFinding(relPath + ":" + lineNum, "internal link target not found: " + url + " (resolved: " + target + ")", 2));
                     }
                 }
