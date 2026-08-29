@@ -92,6 +92,25 @@ Standing epistemic checklist: no violations.
 
 **Phase 10b:** No framing propagation needed — the synthesis is a downstream/low-certainty mechanistic note + safety warning with no trigger-vs-amplifier, genetic-architecture, diagnostic-bifurcation, or clinical-strategy framing implication. Abstract/ch16 intro/reading guide/ch13 unchanged. Valid "no framing propagation needed" outcome.
 
+**Phase 11:** Review to convergence (Full tier — treatment/clinical content present). 
+- 11a review-convergence: 2 consecutive zero-finding rounds → CONVERGED.
+- 11b review-adversarial (devil's-advocate + cynic): Round 1 found 2 HIGH (quinine-mechanism claim miscited to genetics paper; Kv7 component uncited) → **fixed** (softened mechanism to "proposed", flagged Kv7 as uncited, softened syllogism, added relative-safety qualifier). Round 2 → 0 CRITICAL/0 HIGH (CONVERGED) + 1 non-blocking MEDIUM (Spillane miscited to cramp-null) → **fixed** (Spillane now correctly scoped to myotonia, distinct from cramps, in both sec-01 and registry). Final: CONVERGED.
+- 11c review-typst: all 8 citation keys resolve, all labels resolve, build PASS → clean.
+- Convergence reached after fixing 3 findings (2 HIGH + 1 MEDIUM). No MAX-ROUNDS. No new topics surfaced (Gate C not triggered).
+
+## Phase 12 — Plan Record (integration summary)
+
+- **Topic slug:** quinine-sulfate
+- **Decision:** PARTIAL
+- **Environments added:** 2 `#speculation` (`spec:muscle-nav14-cramp-mecfs`, `spec:mecfs-cramp-metabolic-substrate`), 1 `#synthesis` (`syn:quinine-cramp-substrate`), 1 critical-category caveat (in spec), 1 Quinine sec-12 compendium entry (warning) + 2 `#finding` boxes. Chapters touched: ch34 (sec-01, sec-12).
+- **Registry:** 2 rows added (`spec muscle-nav14-cramp-mecfs` Phase 3, `spec mecfs-cramp-metabolic-substrate` Phase 5).
+- **Bib:** 10 new entries in `bib/treatments.bib`; 10 annotated entries in appendix-h; 8 glossary entries in `glossary-en.json`.
+- **Key finding + why it matters:** Off-label quinine for ME/CFS cramps is FDA-boxed-warned, unstudied in ME/CFS, and its marginal efficacy is publication-bias-inflated; the cramp substrate (channel vs metabolic) is unresolved and quinine cannot safely probe it. Integrated as a safety warning (drug to avoid) + low-certainty mechanistic context, NOT a therapeutic endorsement.
+- **Phase 9 quality flags:** **WEAK-EVIDENCE** (PARTIAL decision — all weak claims caveated).
+- **Phase 2 clinical relevance:** LOW (therapeutic) / HIGH (harm-warning + mechanistic context). Subset: unknown (no ME/CFS studies).
+- **Driving source NOT integrated:** The original topic was "sulfate de quinine for cramps before sleep" — an off-label usage anecdote. It was NOT integrated as an endorsement; only the evidence-based warning and mechanistic context were integrated. No provenance for the anecdote itself.
+- **Anecdote NOT integrated** — the bedtime-quinine-usage report is a single unverifiable usage pattern; the paper documents quinine as unsafe for this use rather than endorsing it.
+
 ## Certainty Bump Log
 
 | Hypothesis | Phase | Old cert | New cert | Δ | Reason |
@@ -110,3 +129,36 @@ Standing epistemic checklist: no violations.
 - Brainstorm categories (Phase 4): 1–2 + 10–12 ONLY (skip 3–9)
 - Certainty bumps (Phases 6–7): capped — no bump may cross 0.45
 - Phase 9 flags pre-fired: WEAK-EVIDENCE
+
+## Phase Ledger (Phase 12.5 completion gate)
+
+| Phase | State | Evidence |
+|-------|-------|----------|
+| 0 | RAN | plan file present + validated |
+| 1 | RAN | search-log + 10 bib entries + 10 appendix-h |
+| 2 | RAN | tmp/synthesis (PARTIAL decision recorded) |
+| 3 | RAN | 2 speculations + sec-12 quinine entry + 2 registry rows |
+| 3a | RAN | build PASS |
+| 3b | RAN | tmp/safety-gate (treatment topic; all 7 pass) |
+| 3.5 | RAN | consequence fields present |
+| 4 | RAN | ops/brainstorms (12 ideas, cats 1/2/10/11/12; 3–9 skipped per PARTIAL) |
+| 4a | RAN | subtree file + root index |
+| 5 | RAN | triage + environments |
+| 5b | RAN | build PASS |
+| 5d | RAN | ops-only cascade trace (cert 0.25 < 0.30) |
+| 5c | LEGIT-SKIP | no human ME/CFS evidence for quinine (trigger not met) |
+| 5a | RAN | falsifiability audit (inline, user-approved; agent missing) |
+| 5z | RAN | 8 glossary entries |
+| 6 | RAN | synonym-map + 0 adapted (conservative) |
+| 7 | RAN | compat-audit + 0 adjustments |
+| 8 | RAN | build PASS (PDF + web-full) |
+| 9 | RAN | quality flags (WEAK-EVIDENCE pre-fired) |
+| 10 | RAN | coherence-audit + registry row fix |
+| 10a | RAN | synthesis env (user-approved) |
+| 10b | RAN | no framing propagation needed (documented) |
+| 11 | RAN | convergence (11a/11b/11c; 3 findings fixed) |
+| 12 | RAN | plan-record summary |
+| 12.5 | RAN | this ledger; build PASS; 0 OMISSION |
+| 13 | RAN | commit hash (below) |
+
+**Gate result: 25 RAN, 1 LEGIT-SKIP (5c), 0 OMISSION, 0 WAIVED. Build PASS (PDF 0 errors, web-full PASS).** Phase 13 may proceed.
