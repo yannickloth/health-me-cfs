@@ -64,7 +64,7 @@
     [@ch:emerging-therapies], [7 min], [—], [—], [Recommended], [Recommended], 
     [@ch:integrative-treatment], [43 min], [—], [Recommended], [Recommended], [—], 
     [@ch:medication-response-reference], [110 min], [Recommended], [—], [Recommended], [Recommended], 
-    [@ch:mechanistic-cascade-tracing], [457 min], [Recommended], [—], [—], [—], 
+    [@ch:mechanistic-cascade-tracing], [459 min], [Recommended], [—], [—], [—], 
   ),
   caption: [Chapter-level reading routes and estimated time — Part III — Treatment and Management],
 )
