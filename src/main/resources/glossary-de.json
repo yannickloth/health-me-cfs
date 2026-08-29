@@ -469,14 +469,15 @@
   },
   "Nrf2": {
     "label": "Nrf2",
-    "category": "protein",
-    "definition": "Nuclear factor erythroid 2-related factor 2: der Master-Transkriptionsfaktor der zellulären Antioxidans-Abwehr, der über zweihundert schützende Gene einschließlich HO-1 und NQO1 aktiviert. Ein niedriger Dopamin-Tonus (wie bei ADHS) beeinträchtigt die Nrf2-Aktivität. Ein reduziertes Serum-Nrf2 wurde bei ADHS im Erwachsenenalter gemessen.",
+    "category": "transcription_factor",
+    "definition": "Nuclear Factor Erythroid 2-Related Factor 2: der Haupt-Transkriptionsregulator der Antioxidantienantwort, der die Expression von Glutathion-synthetisierenden Enzymen, Thioredoxin, HO-1, NQO1 und Phase-II-Entgiftungsenzymen steuert. Eine gestörte Nrf2-Aktivierung bei ME/CFS führt zu reduzierter antioxidativer Kapazität und verstärkt oxidativen Stress — ein Weg, der therapeutisch durch DMF, Sulforaphan und Curcumin angezielt wird.",
+    "also": "Siehe NRF2-Eintrag für die kanonische Form",
     "synonyms": []
   },
   "HO-1": {
-    "label": "Hämoxygenase-1 (HO-1)",
+    "label": "HO-1",
     "category": "enzyme",
-    "definition": "Hämoxygenase 1: ein durch Nrf2 induziertes Enzym, das Häm abbaut und antioxidative/entzündungshemmende Metaboliten (Biliverdin, Kohlenmonoxid) erzeugt. Reduziertes HO-1 ist ein nachgelagerter Marker einer beeinträchtigten Nrf2-Antioxidans-Abwehr.",
+    "definition": "Hämoxygenase-1: das induzierbare Enzym, das Häm zu Biliverdin, Kohlenmonoxid und freiem Eisen abbaut. HO-1 ist ein Schlüsselgen des antioxidativen und entzündungshemmenden NRF2-Ziels; die HO-1-Induktion kann bei ME/CFS trotz oxidativen Stresses beeinträchtigt sein.",
     "synonyms": []
   },
   "GABA": {
@@ -3432,12 +3433,6 @@
     "synonyms": [
       "Uncoupling Protein"
     ]
-  },
-  "HO-1": {
-    "label": "HO-1",
-    "category": "enzyme",
-    "definition": "Hämoxygenase-1: das induzierbare Enzym, das Häm zu Biliverdin, Kohlenmonoxid und freiem Eisen abbaut. HO-1 ist ein Schlüsselgen des antioxidativen und entzündungshemmenden NRF2-Ziels; die HO-1-Induktion kann bei ME/CFS trotz oxidativen Stresses beeinträchtigt sein.",
-    "synonyms": []
   },
   "NQO1": {
     "label": "NQO1",
@@ -7049,13 +7044,6 @@
     "synonyms": [
       "Natürliche Killerzelle"
     ]
-  },
-  "Nrf2": {
-    "label": "Nrf2",
-    "category": "transcription_factor",
-    "definition": "Nuclear Factor Erythroid 2-Related Factor 2: der Haupt-Transkriptionsregulator der Antioxidantienantwort, der die Expression von Glutathion-synthetisierenden Enzymen, Thioredoxin, HO-1, NQO1 und Phase-II-Entgiftungsenzymen steuert. Eine gestörte Nrf2-Aktivierung bei ME/CFS führt zu reduzierter antioxidativer Kapazität und verstärkt oxidativen Stress — ein Weg, der therapeutisch durch DMF, Sulforaphan und Curcumin angezielt wird.",
-    "also": "Siehe NRF2-Eintrag für die kanonische Form",
-    "synonyms": []
   },
   "NTS": {
     "label": "NTS",
@@ -12915,5 +12903,25 @@
     "label": "QSM",
     "category": "bildgebung",
     "definition": "Quantitative Suszeptibilitätskartierung: eine MRT-Technik zur Messung der lokalen magnetischen Suszeptibilität, verwendet zur Quantifizierung von Hirneisen und zur Unterscheidung von Eisenablagerung von Myelinveränderungen."
+  },
+  "Enteral feeding": {
+    "label": "Enterale Ernährung",
+    "category": "treatment",
+    "definition": "Zufuhr flüssiger Nahrung direkt in den Magen-Darm-Trakt über eine Sonde (nasogastrale Sonde in den Magen oder Gastrostomie in den Bauch). Wird verwendet, wenn ein sehr schwer an ME/CFS erkrankter Patient nicht genug oral essen oder trinken kann."
+  },
+  "Parenteral feeding": {
+    "label": "Parenterale Ernährung",
+    "category": "treatment",
+    "definition": "Zufuhr flüssiger Nahrung intravenös (direkt in eine Vene), auch totale parenterale Ernährung (TPN) genannt. Trägt höheres Risiko als enterale Ernährung, etwa Leitungsinfektion, und bleibt Fällen vorbehalten, in denen die Ernährung über den Magen-Darm-Trakt unmöglich oder unzureichend ist."
+  },
+  "MUST": {
+    "label": "MUST",
+    "category": "condition",
+    "definition": "Malnutrition Universal Screening Tool — formales fünfstufiges Screening-Verfahren zur Erkennung erwachsener Patienten mit Mangelernährung oder Mangelernährungsrisiko, das entscheidet, ob eine ernährungsmedizinische Beurteilung und Unterstützung erforderlich sind."
+  },
+  "Activities of Daily Living": {
+    "label": "Aktivitäten des täglichen Lebens",
+    "category": "condition",
+    "definition": "Die routinemäßigen Selbstpflegeaufgaben des Alltags — Waschen, Anziehen, Essen, Toilettengang und Fortbewegung. Eine häusliche Beurteilung dieser Aufgaben ist ein zentraler Teil der Versorgungsplanung bei schwerem ME/CFS."
   }
 }

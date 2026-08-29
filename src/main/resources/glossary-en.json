@@ -11872,5 +11872,65 @@
     "label": "REenergizeME",
     "category": "study",
     "definition": "A registered randomised, placebo-controlled trial testing intermittent hypoxia-hyperoxia treatment (IHHT) in female ME/CFS patients meeting the International Consensus Criteria. Recruitment began June 2026; results anticipated 2029."
+  },
+  "Prolactin": {
+    "label": "Prolactin",
+    "category": "hormone",
+    "definition": "A hormone made by the pituitary gland. Best known for stimulating milk production after birth, it also has smaller roles in many body systems. Dopamine is the main brake on prolactin release, so its level is a read-out of dopamine signalling at the pituitary."
+  },
+  "Buspirone": {
+    "label": "Buspirone",
+    "category": "medication",
+    "definition": "An anti-anxiety drug that is a serotonin 5-HT1A receptor agonist and also blocks dopamine D2 receptors. When given as a single-dose challenge it triggers a transient prolactin rise, so it is used as a neuroendocrine probe to test dopamine and serotonin regulation."
+  },
+  "Estradiol": {
+    "label": "Estradiol",
+    "category": "hormone",
+    "definition": "The main female sex hormone (a form of estrogen). It regulates many processes including the prolactin axis: it modulates both the dopamine brake on prolactin and lactotroph function."
+  },
+  "Dopamine": {
+    "label": "Dopamine",
+    "category": "neurotransmitter",
+    "definition": "A chemical messenger in the brain and body involved in reward, motivation, movement, and hormone regulation. It is the main inhibitor (brake) of prolactin release from the pituitary."
+  },
+  "Serotonin": {
+    "label": "Serotonin",
+    "category": "neurotransmitter",
+    "definition": "A chemical messenger involved in mood, sleep, appetite, and many other functions. It also influences prolactin regulation; buspirone acts partly by stimulating serotonin receptors."
+  },
+  "Fenfluramine": {
+    "label": "Fenfluramine",
+    "category": "medication",
+    "definition": "A drug that releases serotonin. In challenge testing it was used to probe serotonergic function; unlike buspirone it does not block dopamine D2, so it isolates the serotonin component."
+  },
+  "Lactotroph": {
+    "label": "Lactotroph",
+    "category": "cell",
+    "definition": "A type of cell in the pituitary gland that makes and releases prolactin. Its activity is kept low by dopamine acting on D2 receptors."
+  },
+  "TIDA": {
+    "label": "TIDA",
+    "category": "pathway",
+    "definition": "Tuberoinfundibular dopaminergic neurons: a small group of brain neurons whose dopamine travels to the pituitary and keeps prolactin release suppressed. Reduced TIDA activity allows prolactin to rise."
+  },
+  "Enteral feeding": {
+    "label": "Enteral feeding",
+    "category": "treatment",
+    "definition": "Delivering liquid nutrition directly into the gastrointestinal tract through a tube (e.g. a nasogastric tube to the stomach or a gastrostomy to the abdomen). Used when a very severe ME/CFS patient cannot take enough food or drink by mouth."
+  },
+  "Parenteral feeding": {
+    "label": "Parenteral feeding",
+    "category": "treatment",
+    "definition": "Delivering liquid nutrition intravenously (directly into a vein). Also called total parenteral nutrition (TPN). Carries higher risk than enteral feeding, such as line infection, and is reserved for when feeding through the gut is not possible or not enough."
+  },
+  "MUST": {
+    "label": "MUST",
+    "category": "condition",
+    "definition": "Malnutrition Universal Screening Tool — a formal five-step screening method for identifying adults who are malnourished or at risk of malnutrition, used to decide whether nutritional assessment and support are needed."
+  },
+  "Activities of Daily Living": {
+    "label": "Activities of Daily Living",
+    "category": "condition",
+    "definition": "The routine self-care tasks people need to manage in daily life — washing, dressing, feeding, toileting, and moving about. A home-based assessment of these tasks is a key part of planning care for severe ME/CFS."
   }
 }

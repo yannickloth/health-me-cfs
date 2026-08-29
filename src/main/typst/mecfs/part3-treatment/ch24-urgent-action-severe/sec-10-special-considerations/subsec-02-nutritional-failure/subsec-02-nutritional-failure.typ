@@ -45,6 +45,8 @@ All moderate-to-severe ME/CFS patients should receive nutritional assessment inc
 
     - *Total parenteral nutrition (TPN)*: Reserved for patients with severe GI intolerance to enteral feeding; carries infection risk via central venous access
 
+*Safe position for enteral feeding.* A recurring clinical question is whether a very-severe ME/CFS patient who cannot maintain anything other than a flat position can be fed enterally without aspiration risk. Very severe patients have difficulty maintaining any position other than lying flat. There is no clear evidence that a fully supine (flat) position is less safe for enteral tube feeding than a propped-up trunk in fully conscious people with competent reflexes @Page2019PaediatricEnteral, provided usual care with tube placement and careful control of feed volumes is observed @S4ME2026ManagementSevereVerySevere. This means a patient's inability to sit up should not, by itself, be treated as a reason to withhold enteral feeding.
+
 #include "../../warnings/warn-do-not-delay-tube-feeding-pending-psychiatric-assessment.typ"
 
 *Eating Disorder Comorbidity in Severe ME/CFS.*

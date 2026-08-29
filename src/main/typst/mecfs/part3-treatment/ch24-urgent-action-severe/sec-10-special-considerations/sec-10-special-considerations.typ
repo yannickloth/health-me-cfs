@@ -7,3 +7,4 @@
 #include "subsec-05-perioperative-management/subsec-05-perioperative-management.typ"
 #include "subsec-06-cci-eds-severe/subsec-06-cci-eds-severe.typ"
 #include "subsec-07-practical-care-protocols/subsec-07-practical-care-protocols.typ"
+#include "subsec-08-hospital-and-environmental-accommodations/subsec-08-hospital-and-environmental-accommodations.typ"

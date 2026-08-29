@@ -497,14 +497,15 @@
   },
   "Nrf2": {
     "label": "Nrf2",
-    "category": "protein",
-    "definition": "Facteur nucléaire 2 lié au facteur de transcription érythroïde 2 : le facteur de transcription maître des défenses antioxydantes de la cellule, activant plus de deux cents gènes protecteurs dont HO-1 et NQO1. Un tonus dopaminergique bas (comme dans le TDAH) altère l'activité de Nrf2. Une réduction de Nrf2 sérique a été mesurée dans le TDAH de l'adulte.",
+    "category": "transcription_factor",
+    "definition": "Facteur nucléaire érythroïde 2 lié au facteur 2 : le régulateur transcriptionnel maître de la réponse antioxydante, contrôlant l'expression des enzymes de synthèse du glutathion, de la thioredoxine, de HO-1, de NQO1 et des enzymes de détoxification de phase II. Une activation de Nrf2 altérée dans l'EM/SFC conduit à une capacité antioxydante réduite, aggravant le stress oxydatif — une voie ciblée thérapeutiquement par le DMF, le sulforaphane et la curcumine.",
+    "also": "Voir la fiche NRF2 pour la forme canonique",
     "synonyms": []
   },
   "HO-1": {
-    "label": "Hème oxygénase-1 (HO-1)",
+    "label": "HO-1",
     "category": "enzyme",
-    "definition": "Hème oxygénase 1 : enzyme inductible induite par Nrf2 qui dégrade l'hème et produit des métabolites antioxydants/anti-inflammatoires (biliverdine, monoxyde de carbone). Une HO-1 réduite est un marqueur en aval d'une défense antioxydante Nrf2 altérée.",
+    "definition": "Heme Oxygenase-1 : enzyme inductible dégradant l'hème en biliverdine, monoxyde de carbone et fer libre. HO-1 est un gène antioxydant et anti-inflammatoire clé ciblé par NRF2 ; l'induction de HO-1 peut être altérée dans l'EM/SFC malgré le stress oxydatif.",
     "synonyms": []
   },
   "GABA": {
@@ -3520,12 +3521,6 @@
     "synonyms": [
       "Uncoupling Protein"
     ]
-  },
-  "HO-1": {
-    "label": "HO-1",
-    "category": "enzyme",
-    "definition": "Heme Oxygenase-1 : enzyme inductible dégradant l'hème en biliverdine, monoxyde de carbone et fer libre. HO-1 est un gène antioxydant et anti-inflammatoire clé ciblé par NRF2 ; l'induction de HO-1 peut être altérée dans l'EM/SFC malgré le stress oxydatif.",
-    "synonyms": []
   },
   "NQO1": {
     "label": "NQO1",
@@ -7221,13 +7216,6 @@
     "synonyms": [
       "Cellule tueuse naturelle"
     ]
-  },
-  "Nrf2": {
-    "label": "Nrf2",
-    "category": "transcription_factor",
-    "definition": "Facteur nucléaire érythroïde 2 lié au facteur 2 : le régulateur transcriptionnel maître de la réponse antioxydante, contrôlant l'expression des enzymes de synthèse du glutathion, de la thioredoxine, de HO-1, de NQO1 et des enzymes de détoxification de phase II. Une activation de Nrf2 altérée dans l'EM/SFC conduit à une capacité antioxydante réduite, aggravant le stress oxydatif — une voie ciblée thérapeutiquement par le DMF, le sulforaphane et la curcumine.",
-    "also": "Voir la fiche NRF2 pour la forme canonique",
-    "synonyms": []
   },
   "NTS": {
     "label": "NTS",
@@ -13261,5 +13249,25 @@
     "label": "QSM",
     "category": "imagerie",
     "definition": "Cartographie de susceptibilité quantitative : technique IRM mesurant la susceptibilité magnétique locale, utilisée pour quantifier le fer cérébral et distinguer les dépôts de fer des changements de myéline."
+  },
+  "Enteral feeding": {
+    "label": "Alimentation entérale",
+    "category": "treatment",
+    "definition": "Apport de nutrition liquide directement dans le tractus gastro-intestinal par une sonde (sonde nasogastrique vers l'estomac ou gastrostomie vers l'abdomen). Utilisé lorsqu'un patient ME/CFS très sévère ne peut pas manger ou boire assez par la bouche."
+  },
+  "Parenteral feeding": {
+    "label": "Alimentation parentérale",
+    "category": "treatment",
+    "definition": "Apport de nutrition liquide par voie intraveineuse (directement dans une veine), appelé aussi nutrition parentérale totale (NPT). Comporte plus de risques que l'alimentation entérale, comme l'infection de ligne, et est réservé aux cas où l'alimentation par le tube digestif est impossible ou insuffisante."
+  },
+  "MUST": {
+    "label": "MUST",
+    "category": "condition",
+    "definition": "Malnutrition Universal Screening Tool — méthode de dépistage formelle en cinq étapes pour identifier les adultes dénutris ou à risque de dénutrition, utilisée pour décider si une évaluation et un soutien nutritionnels sont nécessaires."
+  },
+  "Activities of Daily Living": {
+    "label": "Activités de la vie quotidienne",
+    "category": "condition",
+    "definition": "Les tâches d'auto-soin de routine qu'une personne doit gérer au quotidien — se laver, s'habiller, s'alimenter, aller aux toilettes et se déplacer. Une évaluation à domicile de ces tâches est un élément clé de la planification des soins pour les ME/CFS sévères."
   }
 }

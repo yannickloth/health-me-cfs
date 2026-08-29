@@ -36,7 +36,11 @@ working diagnosis.
 contradictory but are not: low malignancy yield argues against blanket screening, while
 documented missed organic disease argues that *targeted* red flags must be worked up. For
 a patient or caregiver, it means a new weight loss, fever, or localised pain is a reason
-to seek investigation, not to assume it is the ME/CFS.
+to seek investigation, not to assume it is the ME/CFS. A service evaluation of referrals
+to a specialist CFS service found a significant rate of alternative diagnoses that had been
+initially misattributed to CFS, supporting the guidance that the diagnosis should be
+reviewed at least annually in severe/very-severe cases, in whom other conditions may
+become apparent over time @Devasahayam2012AlternativeDiagnoses.
 
 #include "../../warnings/warn-serious-organic-disease-red-flags.typ"
 

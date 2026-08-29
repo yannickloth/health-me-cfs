@@ -29,3 +29,9 @@ This folder is the designated home for PDFs on severe/very-severe ME/CFS emergen
 | Uehara2014 | 24157559 | Focal neuro / TIA |
 | Timbol2019 | 30666170 | Emergency department |
 | Bowden2026 | 42032509 | Emergency department / services |
+
+## Additional full-text PDF
+
+| File | Source | Topic domain |
+|------|--------|--------------|
+| `S4ME2026ManagementSevereVerySevereMECFS.pdf` | Science for ME factsheet — Prof. Jonathan Edwards + S4ME members (2026) | Severe/very-severe ME/CFS management: aids, ADL, environmental-stimuli reduction, nutritional/enteral-parenteral support, hospital admission |
