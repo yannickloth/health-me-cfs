@@ -183,6 +183,8 @@ Standing epistemic checklist verified per-claim: #1 ✓ (claims traced to protoc
 | 11 | RAN | Full tier convergence (11a clean; 11b 2 HIGH+MEDIUM fixed; 11c clean) |
 | 12 | RAN | plan-record summary |
 | 12.5 | RAN | this ledger; build PASS; 0 OMISSION |
-| 13 | PENDING | (commit — next) |
+| 13 | RAN | commit 8c0b70f4 (IHHT integration; PARTIAL) |
 
-**Gate result: 21 RAN, 4 LEGIT-SKIP (5d, 5c, 10a, 10b), 0 OMISSION, 0 WAIVED. Build PASS (PDF 0 errors; section/qmd-label/typst-source/glossary audits PASS; blog-audit pre-existing unrelated FAIL).** Phase 13 may proceed.
+**Gate result: 21 RAN, 4 LEGIT-SKIP (5d, 5c, 10a, 10b), 0 OMISSION, 0 WAIVED. Build PASS at HEAD (my files produce 0 errors; section/qmd-label/typst-source/glossary audits PASS; blog-audit pre-existing unrelated FAIL).** Working-tree post-commit build FAIL is a FOREIGN parallel-cycle state (prolactin cycle's untracked `sec-09-prolactin-axis...` referenced by its uncommitted ch10-endocrine.typ) — not this cycle's regression; verified no error from any IHHT file.
+
+**Phase 13 complete: commit `8c0b70f4`. Shared-file entries verified present in HEAD (bib reenergize-me-ihht ×12, appendix-h sec:bib-reenergize-me-ihht, registry IHHT entry, glossary REenergizeME). Excluded: foreign/parallel files left untouched (prolactin, severe-ME/CFS, blog, web).**
