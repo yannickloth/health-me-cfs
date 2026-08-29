@@ -212,6 +212,12 @@ Clinical relevance: MEDIUM — mechanistic context + potential diagnostic challe
 | 11 | RAN | Full tier; round 1 found 1 CRITICAL + 5 HIGH → fixed; round 2 zero HIGH/CRITICAL → CONVERGED; 11c via round-2 typst/citation verification + build (method noted) |
 | 12 | RAN | plan record above (no changelog.typ) |
 | 12.5 | RAN | this ledger |
-| 13 | RAN | commit: see Phase 13 report below |
+| 13 | RAN | 3 commits: f5f4e7e3 (content), abe2432d (ops), 699e78bd (config); shared-file entries verified shipped in HEAD via parallel commits; post-commit build PASS |
+
+## Phase 13 Report (2026-08-29)
+- Commits: `f5f4e7e3` content (7 files), `abe2432d` ops artifacts (5 files), `699e78bd` skill config (1 file). No `git add -A`; explicit lists only; no history rewrite.
+- Shared-file ownership re-check: my bib/appendix-h/glossary/hypotheses-trees/scrape-registry entries were swept into parallel streams' commits and VERIFIED present in HEAD (grep per key) — noted per skill rule; nothing lost.
+- Excluded: parallel cycles' uncommitted files (severe-mecfs, ops/README, integration-guides cleanup deletions, glossary-de, web styles) left untouched.
+- Post-commit: `git status` shows 0 prolactin files; `nix build` 0 errors.
 
 0 OMISSION. 0 WAIVED.
