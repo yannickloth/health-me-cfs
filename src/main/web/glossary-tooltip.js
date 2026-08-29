@@ -192,6 +192,10 @@
   let _activePop = null;
   let _activeAnchor = null;
   let _hideTimer = null;
+  // Set while the pointer is down on the popup (e.g. dragging to select text).
+  // While set, the hide timers are suppressed so a selection drag is never cut
+  // short by a mouseout that briefly leaves the popup bounds.
+  let _suppressHide = false;
   // Pops currently fading out. Each got its OWN removal timer, so a later hideAll
   // (e.g. rapid hover across several terms) never cancels an already-scheduled
   // removal — otherwise an earlier pop could be orphaned in the DOM forever.
@@ -208,9 +212,13 @@
 
   function hideAll() {
     if (_hideTimer) { clearTimeout(_hideTimer); _hideTimer = null; }
+    _suppressHide = false;
     if (_activePop) {
       _activePop.classList.remove('gt-show');
       _scheduleFade(_activePop);
+      _activePop.removeEventListener('mouseover', handlePopInteraction);
+      _activePop.removeEventListener('mouseenter', handlePopInteraction);
+      _activePop.removeEventListener('mousedown', handlePopInteraction);
       _activePop = null;
     }
     if (_activeAnchor) {
@@ -223,6 +231,7 @@
     hideAll();
     document.body.appendChild(pop);
     positionTooltip(pop, anchor);
+    bindPopHandlers(pop);
     pop.classList.add('gt-show');
     anchor.classList.add('gt-active');
     _activePop = pop;
@@ -239,12 +248,14 @@
 
     if (ev.type === 'mouseenter') {
       if ('ontouchstart' in window) return;
-      if (_hideTimer) { clearTimeout(_hideTimer); _hideTimer = null; }
+      cancelHide();
       const pop = buildTooltip(key, entry, glossary);
       showTooltip(el, pop);
     } else if (ev.type === 'mouseleave') {
       if ('ontouchstart' in window) return;
-      _hideTimer = setTimeout(hideAll, 300);
+      // No timer here — hiding is driven by handlePointerMove, which keeps the
+      // tooltip open while the pointer is anywhere between the term and the
+      // tooltip, and hides only when it genuinely leaves that region.
     } else if (ev.type === 'click') {
       if (!('ontouchstart' in window)) return;
       ev.preventDefault();
@@ -260,20 +271,75 @@
     }
   }
 
+  function cancelHide() {
+    if (_hideTimer) { clearTimeout(_hideTimer); _hideTimer = null; }
+  }
+
+  function scheduleHide(delay = 250) {
+    if (_suppressHide) return;
+    if (_hideTimer) return;
+    _hideTimer = setTimeout(hideAll, delay);
+  }
+
+  // Union of the anchor and popup bounding rects, expanded by a padding so the
+  // pointer can travel from the term to a distant tooltip across unrelated page
+  // content without the tooltip vanishing mid-transit. Returns null if there is
+  // nothing visible yet.
+  const REGION_PAD = 12;
+  function activeRegion() {
+    const pop = _activePop;
+    const anchor = _activeAnchor;
+    if (!pop) return null;
+    const rects = [pop.getBoundingClientRect()];
+    if (anchor) rects.push(anchor.getBoundingClientRect());
+    let l = Infinity, t = Infinity, r = -Infinity, b = -Infinity;
+    for (const rc of rects) {
+      if (rc.width === 0 && rc.height === 0) continue;
+      l = Math.min(l, rc.left); t = Math.min(t, rc.top);
+      r = Math.max(r, rc.right); b = Math.max(b, rc.bottom);
+    }
+    if (!isFinite(l)) return null;
+    return { left: l - REGION_PAD, top: t - REGION_PAD, right: r + REGION_PAD, bottom: b + REGION_PAD };
+  }
+
+  function pointerInsideRegion(region, x, y) {
+    return x >= region.left && x <= region.right && y >= region.top && y <= region.bottom;
+  }
+
+  // Single rule for keeping the tooltip alive: hide only once the pointer leaves
+  // the union of the term and the tooltip (with padding). Hovering the tooltip
+  // to read or select its text keeps it open even when the tooltip sits some
+  // distance away from the term.
+  function handlePointerMove(ev) {
+    if ('ontouchstart' in window) return;
+    const region = activeRegion();
+    if (!region) return;
+    if (pointerInsideRegion(region, ev.clientX, ev.clientY)) {
+      cancelHide();
+    } else {
+      scheduleHide();
+    }
+  }
+
   function handlePopInteraction(ev) {
     if ('ontouchstart' in window) return;
-
-    if (ev.type === 'mouseover') {
-      if (ev.target.closest('.gt-pop')) {
-        if (_hideTimer) { clearTimeout(_hideTimer); _hideTimer = null; }
-      }
-    } else if (ev.type === 'mouseout') {
-      const pop = _activePop;
-      if (!pop) return;
-      if (!pop.contains(ev.relatedTarget)) {
-        _hideTimer = setTimeout(hideAll, 100);
-      }
+    if (ev.type === 'mousedown') {
+      if (ev.target.closest('.gt-pop')) _suppressHide = true;
+      return;
     }
+    if (ev.type === 'mouseover' || ev.type === 'mouseenter') {
+      // Pointer is now over the popup; cancel any pending hide.
+      if (ev.target.closest('.gt-pop')) cancelHide();
+    }
+  }
+
+  // Popup hover handlers. Hiding is driven by handlePointerMove (the union-region
+  // check); these only cancel a pending hide when the pointer is over the popup
+  // and mark a text-selection drag so it is never cut short. Removed on fade-out.
+  function bindPopHandlers(pop) {
+    pop.addEventListener('mouseover', handlePopInteraction);
+    pop.addEventListener('mouseenter', handlePopInteraction);
+    pop.addEventListener('mousedown', handlePopInteraction);
   }
 
   const RE_SPECIAL = /[.*+?^${}()|[\]\\]/g;
@@ -461,14 +527,21 @@
     document.addEventListener('mouseenter', handler, true);
     document.addEventListener('mouseleave', handler, true);
     document.addEventListener('click', handler);
-
-    document.addEventListener('mouseover', handlePopInteraction, true);
-    document.addEventListener('mouseout', handlePopInteraction, true);
+    document.addEventListener('mousemove', handlePointerMove);
 
     const docClick = (e) => {
       if (!e.target.closest('glossary-term') && !e.target.closest('.gt-pop')) hideAll();
     };
     document.addEventListener('click', docClick);
+    // Clearing the selection suppression must not leave a stale "outside the
+    // region" state: if the pointer ended the drag outside the region, start
+    // the hide countdown now instead of waiting for the next mousemove.
+    const docMouseUp = (ev) => {
+      _suppressHide = false;
+      const region = activeRegion();
+      if (region && !pointerInsideRegion(region, ev.clientX, ev.clientY)) scheduleHide();
+    };
+    document.addEventListener('mouseup', docMouseUp);
     const scrollHandler = () => hideAll();
     window.addEventListener('scroll', scrollHandler);
 
@@ -476,9 +549,9 @@
       document.removeEventListener('mouseenter', handler, true);
       document.removeEventListener('mouseleave', handler, true);
       document.removeEventListener('click', handler);
-      document.removeEventListener('mouseover', handlePopInteraction, true);
-      document.removeEventListener('mouseout', handlePopInteraction, true);
+      document.removeEventListener('mousemove', handlePointerMove);
       document.removeEventListener('click', docClick);
+      document.removeEventListener('mouseup', docMouseUp);
       window.removeEventListener('scroll', scrollHandler);
     };
   }
