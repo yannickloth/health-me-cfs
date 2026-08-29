@@ -43,7 +43,8 @@
       concept: 'Concept', mechanism: 'Mechanism', anatomy: 'Anatomy', vitamin: 'Vitamin',
       hypothesis: 'Hypothesis', physiology: 'Physiology', study: 'Study',
       neuropeptide: 'Neuropeptide', database: 'Database',
-      'cell-biology': 'Cell Biology', 'immunology': 'Immunology'
+      'cell-biology': 'Cell Biology', 'immunology': 'Immunology',
+      biochemical: 'Biochemical', phytochemical: 'Phytochemical'
     },
     fr: {
       medication: 'Médicament', supplement: 'Complément', medication_class: 'Classe',
@@ -62,7 +63,8 @@
       concept: 'Concept', mechanism: 'Mécanisme', anatomy: 'Anatomie', vitamin: 'Vitamine',
       hypothesis: 'Hypothèse', physiology: 'Physiologie', study: 'Étude',
       neuropeptide: 'Neuropeptide', database: 'Base de données',
-      'cell-biology': 'Biologie cellulaire', 'immunology': 'Immunologie'
+      'cell-biology': 'Biologie cellulaire', 'immunology': 'Immunologie',
+      biochemical: 'Biochimique', phytochemical: 'Phytochimique'
     },
     de: {
       medication: 'Medikament', supplement: 'Nahrungsergänzung', medication_class: 'Klasse',
@@ -81,7 +83,8 @@
       concept: 'Konzept', mechanism: 'Mechanismus', anatomy: 'Anatomie', vitamin: 'Vitamin',
       hypothesis: 'Hypothese', physiology: 'Physiologie', study: 'Studie',
       neuropeptide: 'Neuropeptid', database: 'Datenbank',
-      'cell-biology': 'Zellbiologie', 'immunology': 'Immunologie'
+      'cell-biology': 'Zellbiologie', 'immunology': 'Immunologie',
+      biochemical: 'Biochemisch', phytochemical: 'Phytochemisch'
     }
   };
   const CATEGORY_LABELS = CATEGORY_LABEL_SETS[LANG] || CATEGORY_LABEL_SETS.en;
