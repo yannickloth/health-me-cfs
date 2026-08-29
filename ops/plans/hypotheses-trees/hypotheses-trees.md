@@ -371,3 +371,4 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | daridorexant-beta-amyloid | [subtrees/daridorexant-beta-amyloid.md](subtrees/daridorexant-beta-amyloid.md) | 2026-08-22 | 3 | 1 | ✅ done |
 | davis2023-longcovid-review | [subtrees/davis2023-longcovid-review.md](subtrees/davis2023-longcovid-review.md) | 2026-08-26 | 23 | 9 | ✅ done |
 | bedard2026-central-fatigability-cascade | [subtrees/bedard2026-central-fatigability-cascade.md](subtrees/bedard2026-central-fatigability-cascade.md) | 2026-08-26 | 9 | 4 | 🔵 in progress |
+| quinine-sulfate | [subtrees/quinine-sulfate.md](subtrees/quinine-sulfate.md) | 2026-08-29 | 12 | 0 | 🔵 in progress |

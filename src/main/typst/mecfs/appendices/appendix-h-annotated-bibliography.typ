@@ -37809,3 +37809,169 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
 *Conclusion:*: Pre-GWAS evidence supported a substantial genetic component and epigenetic involvement but produced no robust risk loci — the gap Kerrebijn 2026 resolved.
 *Limitations:*: Pre-GWAS review; candidate-gene findings largely not replicated; hypomethylation evidence preliminary.
 *Certainty Assessment:*: 0.50 raw × 0.80 fibromyalgia population weight = discounted 0.40
+
+// =============================================================================
+== Quinine Sulfate for Muscle/Leg Cramps — Off-Label Bedtime Use
+<sec:bib-quinine-sulfate>
+// =============================================================================
+// Research stream: quinine-sulfate (2026-08-29, Phase 1). 11 papers.
+// Treatment topic: efficacy (marginal) + harm (FDA boxed warning) + null +
+// competing treatments + indirect ion-channel link. Zero direct ME/CFS studies.
+
+=== El-Tawil et al.\ 2010 — Quinine for Muscle Cramps (COCHRANE)
+
+@ElTawil2010CochraneCramps
+
+*Full Citation:*: El-Tawil S, Al Musa T, Valli H, Lunn MP, El-Tawil T, Weber M. Quinine for muscle cramps. _Cochrane Database of Systematic Reviews_. 2010;(12):CD005044.
+*DOI:*: #link("https://doi.org/10.1002/14651858.CD005044.pub2")[10.1002/14651858.CD005044.pub2]
+*PMID:*: 21154358
+*Study Design:*: Cochrane systematic review and meta-analysis of randomized controlled trials (all causes and locations of muscle cramps)
+*Sample Size:*: 1586 participants across 23 trials
+*Key Findings:*:
+    - Quinine has been used to treat cramps of all causes, but controversy continues about its efficacy and safety.
+    - Found only limited evidence of benefit for quinine in reducing muscle cramps.
+    - Risk–benefit balance judged unfavourable given the documented adverse events.
+*Conclusion:*: The evidence for quinine in muscle cramps is limited and does not justify routine off-label use given the safety concerns.
+*Limitations:*: Older trials, heterogeneous cramp causes; did not resolve the benefit/harm trade-off.
+*Certainty Assessment:*: 0.75 raw × 0.75 general population weight = discounted 0.56
+
+=== Man-Son-Hing & Wells\ 1995 — Meta-Analysis of Quinine for Nocturnal Leg Cramps in Elderly (BMJ)
+
+@ManSonHing1995Quinine
+
+*Full Citation:*: Man-Son-Hing M, Wells G. Meta-analysis of efficacy of quinine for treatment of nocturnal leg cramps in elderly people. _BMJ_. 1995;310(6971):13–17.
+*PMID:*: 7827545
+*Study Design:*: Meta-analysis of 6 randomized, double-blind, crossover trials
+*Sample Size:*: 107 ambulatory elderly patients with regular nocturnal leg cramps
+*Key Findings:*:
+    - Quinine significantly reduced the number of cramps over 4 weeks vs placebo (8.83 fewer cramps; 95% CI 4.16 to 13.49).
+    - Reduced the number of nights with cramps by 27.4%.
+*Conclusion:*: Quinine shows efficacy for nocturnal leg cramps in elderly patients, but the meta-analysis does not resolve the safety question.
+*Limitations:*: Small total sample; elderly ambulatory population only; published-data bias not addressed; pre-boxed-warning era.
+*Certainty Assessment:*: 0.55 raw × 0.75 general population weight = discounted 0.41
+
+=== Man-Son-Hing et al.\ 1998 — Quinine for Nocturnal Leg Cramps Including Unpublished Data (JGIM)
+
+@ManSonHing1998QuinineCramps
+
+*Full Citation:*: Man-Son-Hing M, Wells G, Lau A. Quinine for nocturnal leg cramps: a meta-analysis including unpublished data. _Journal of General Internal Medicine_. 1998;13(9):600–606.
+*PMID:*: 9754515
+*Study Design:*: Meta-analysis of 8 randomized, double-blind, placebo-controlled trials (4 published + 4 unpublished; 7 crossover)
+*Sample Size:*: 659 ambulatory patients with regular nocturnal leg cramps
+*Key Findings:*:
+    - Pooling all crossover studies, patients had 3.60 fewer cramps per 4-week period on quinine vs placebo (95% CI 2.15 to 5.05).
+    - This is lower than the 8.83 estimate from the earlier published-data-only meta-analysis.
+*Conclusion:*: Adding unpublished data materially reduces the apparent benefit, indicating publication bias inflates the published-only estimate. The true benefit is small.
+*Limitations:*: Residual unpublished-data availability uncertainty; no harm data; pre-boxed-warning era.
+*Certainty Assessment:*: 0.60 raw × 0.75 general population weight = discounted 0.45
+
+=== Young\ 2009 — Leg Cramps (BMJ CLINICAL EVIDENCE)
+
+@Young2009LegCramps
+
+*Full Citation:*: Young G. Leg cramps. _BMJ Clinical Evidence_. 2009;2009:1113.
+*PMID:*: 19445755
+*Study Design:*: BMJ Clinical Evidence systematic review of treatments for idiopathic and pregnancy-related leg cramps
+*Sample Size:*: 12 systematic reviews, RCTs, or observational studies
+*Key Findings:*:
+    - Reviewed treatments for idiopathic leg cramps and pregnancy-related leg cramps.
+    - Treatments generally lack proof of efficacy.
+    - Included harms alerts from the US FDA and UK MHRA concerning quinine.
+*Conclusion:*: Standard leg-cramp treatments have limited evidence; quinine's use is explicitly complicated by regulatory harm alerts.
+*Limitations:*: Clinical Evidence format (updated periodically); limited direct trial detail.
+*Certainty Assessment:*: 0.50 raw × 0.75 general population weight = discounted 0.38
+
+=== Liles et al.\ 2016 — Diversity and Severity of Adverse Reactions to Quinine (AM J HEMATOL; PRIMARY HARM)
+
+@Liles2016QuinineAdverse
+
+*Full Citation:*: Liles NW, Page EE, Liles AL, Vesely SK, Raskob GE, George JN. Diversity and severity of adverse reactions to quinine: a systematic review. _American Journal of Hematology_. 2016;91(5):461–466.
+*DOI:*: #link("https://doi.org/10.1002/ajh.24314")[10.1002/ajh.24314]
+*PMID:*: 26822544
+*Study Design:*: Systematic review of 114 articles; three reviewers independently evaluated evidence for causal association
+*Sample Size:*: 114 articles with sufficient data
+*Key Findings:*:
+    - Quinine is a common cause of drug-induced thrombocytopenia and the most common cause of drug-induced thrombotic microangiopathy.
+    - Broad spectrum of immune-mediated and toxic adverse reactions across organ systems.
+    - Documented source of quinine exposure, organ systems involved, severity, and patient outcomes.
+*Conclusion:*: Quinine's adverse-reaction spectrum is diverse and often severe; this underlies the FDA boxed warning and restriction of off-label cramps use.
+*Limitations:*: Case-report-derived; levels-of-evidence assessment; retrospective.
+*Certainty Assessment:*: 0.80 raw × 0.75 general population weight = discounted 0.60
+
+=== Haeusler et al.\ 2018 — Arrhythmogenic Cardiotoxicity of Quinoline Antimalarials (BMC MED)
+
+@Haeusler2018QuinolineCardiotoxicity
+
+*Full Citation:*: Haeusler IL, Chan XHS, Guérin PJ, White NJ. The arrhythmogenic cardiotoxicity of the quinoline and structurally related antimalarial drugs: a systematic review. _BMC Medicine_. 2018;16(1):200.
+*DOI:*: #link("https://doi.org/10.1186/s12916-018-1188-2")[10.1186/s12916-018-1188-2]
+*PMID:*: 30400791
+*Study Design:*: Systematic review of cardiovascular side effects of the quinoline and structurally related antimalarial class
+*Key Findings:*:
+    - Quinoline antimalarials (including quinine) are associated with hypotension and electrocardiographic QT-interval prolongation.
+    - Prolonged QT is a sensitive but non-specific risk marker for Torsade de Pointes, a potentially lethal ventricular arrhythmia.
+*Conclusion:*: Quinoline-class drugs carry arrhythmogenic cardiovascular risk; relevant to quinine's off-label use, especially with QT-prolonging co-medications.
+*Limitations:*: Class-level review; QT risk is context-dependent; antimalarial-dosing focus.
+*Certainty Assessment:*: 0.70 raw × 0.75 general population weight = discounted 0.53
+
+=== White\ 2007 — Cardiotoxicity of Antimalarial Drugs (LANCET INFECT DIS)
+
+@White2007CardiotoxicityAntimalarial
+
+*Full Citation:*: White NJ. Cardiotoxicity of antimalarial drugs. _The Lancet Infectious Diseases_. 2007;7(8):549–558.
+*PMID:*: 17646028
+*Study Design:*: Authoritative narrative review of cardiovascular effects of antimalarial drug classes
+*Key Findings:*:
+    - Among antimalarials, only the quinoline and structurally related class has clinically significant cardiovascular effects.
+    - Quinine can exacerbate orthostatic hypotension and delays ventricular depolarization (class 1c effect).
+    - Quinidine and halofantrine have clinically significant repolarization effects (class 3) causing dangerous QT prolongation.
+*Conclusion:*: Quinine contributes hypotension and mild depolarization delay; the class as a whole carries cardiovascular risk relevant to dysautonomic and cardiac-comorbid patients.
+*Limitations:*: Narrative review; antimalarial (acute-illness) dosing context.
+*Certainty Assessment:*: 0.70 raw × 0.75 general population weight = discounted 0.53
+
+=== Spillane et al.\ 2025 — Drug Treatment for Myotonia (COCHRANE; COMPETING-CLASS MECHANISM)
+
+@Spillane2025DrugMyotonia
+
+*Full Citation:*: Spillane J, Trip J, Drost G, Faber CG, Hanna MG, Nevitt SJ, Vivekanandam V. Drug treatment for myotonia. _Cochrane Database of Systematic Reviews_. 2025;(4):CD004762.
+*DOI:*: #link("https://doi.org/10.1002/14651858.CD004762.pub3")[10.1002/14651858.CD004762.pub3]
+*PMID:*: 40197813
+*Study Design:*: Cochrane systematic review of drug treatment for myotonia (non-dystrophic and dystrophic)
+*Key Findings:*:
+    - Myotonia manifests as stiffness, cramps, locking, pain, and fatigue.
+    - Sodium-channel blockers, tricyclic antidepressants, benzodiazepines, calcium antagonists, taurine, and prednisone may reduce myotonia.
+*Conclusion:*: Sodium-channel blockers are the established drug class that modulates cramp/myotonia muscle-excitability — the same mechanistic class quinine partially mimics, providing competing-treatment and mechanism context.
+*Limitations:*: Myotonic disorders (channelopathies) rather than idiopathic cramps; mixed evidence quality.
+*Certainty Assessment:*: 0.70 raw × 0.50 other-disease-model weight = discounted 0.35
+
+=== Hawke et al.\ 2021 — Non-Drug Therapies for Lower Limb Muscle Cramps (COCHRANE; NULL CONTEXT)
+
+@Hawke2021CrampsNonDrug
+
+*Full Citation:*: Hawke F, Sadler SG, Katzberg HD, Pourkazemi F, Chuter V, Burns J. Non-drug therapies for the secondary prevention of lower limb muscle cramps. _Cochrane Database of Systematic Reviews_. 2021;(5):CD008496.
+*DOI:*: #link("https://doi.org/10.1002/14651858.CD008496.pub3")[10.1002/14651858.CD008496.pub3]
+*PMID:*: 33998664
+*Study Design:*: Cochrane systematic review (update) of non-drug, non-invasive therapies for lower limb muscle cramps
+*Key Findings:*:
+    - Many interventions for lower limb cramps are controversial or could cause harm.
+    - Often people experience no benefit from the interventions used.
+    - Overall limited quality of evidence for non-drug cramp therapies.
+*Conclusion:*: No well-validated non-drug replacement exists for marginal drug options — quinine persists in use partly because effective alternatives are lacking.
+*Limitations:*: Limited/heterogeneous trials; several common interventions unsupported.
+*Certainty Assessment:*: 0.70 raw × 0.75 general population weight = discounted 0.53
+
+=== Torbergsen et al.\ 2015 — Painful Cramps in Nav1.4-G1306A Mutation (MUSCLE NERVE; INDIRECT ION-CHANNEL LINK)
+
+@Torbergsen2015Nav14Myotonia
+
+*Full Citation:*: Torbergsen T, Jurkat-Rott K, Stålberg EV, Løseth S, Hødneø A, Lehmann-Horn F. Painful cramps and giant myotonic discharges in a family with the Nav1.4-G1306A mutation. _Muscle & Nerve_. 2015;52(4):680–683.
+*DOI:*: #link("https://doi.org/10.1002/mus.24672")[10.1002/mus.24672]
+*PMID:*: 26080010
+*Study Design:*: Family genetics study; SCN4A/CLCN1 sequencing; clinical and neurophysiological characterization
+*Sample Size:*: One Norwegian family (plus comparison across 21 G1306A families)
+*Key Findings:*:
+    - A G1306A mutation in the Nav1.4 voltage-gated skeletal-muscle sodium channel (SCN4A) was identified.
+    - This family uniquely exhibited painful muscle cramps and giant myotonic discharges.
+    - Proposes ephaptic transmission between neighboring muscle fibers to explain the unusual discharge size.
+*Conclusion:*: Skeletal-muscle sodium-channel (Nav1.4) dysfunction directly produces painful cramps and myotonia — the channel-level mechanism relevant to quinine's anti-cramp action and to the ME/CFS muscle-ion-channel hypothesis.
+*Limitations:*: Single-family index; channelopathy (genetic) rather than idiopathic cramps or ME/CFS; indirect relevance to quinine pharmacology.
+*Certainty Assessment:*: 0.50 raw × 0.50 other-disease-model weight = discounted 0.25

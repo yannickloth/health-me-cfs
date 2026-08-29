@@ -1094,3 +1094,14 @@ Prevents re-processing of already-integrated content.
 | URL | Source | Scraped | Integrated | Target |
 |-----|--------|---------|------------|--------|
 | PubMed E-utilities API (esearch/esummary/efetch, batch) | pubmed/eutils | 2026-08-22 | — | ops/research/search-log-tryptophan-ahr-gut-microbiome-2026-08-22.md, ops/research/literature-summary-tryptophan-ahr-gut-microbiome.md, bib/gut-microbiome.bib (4 new), bib/immune.bib (6 new), appendix-h (10 annotated entries, sec:bib-tryptophan-ahr-gut-microbiome) — aryl-hydrocarbon-receptor (AhR)-tryptophan-gut-microbiome axis in ME/CFS (direct Esteban 2026 + preprint Tian 2024 + IBS/CFS Chojnacki 2025 + animal Yan 2026; mechanism Rothhammer 2019/Tian 2026/Torrelli-Diljohn 2026/Morris 2016; genetics Caccamo 2013; animal mechanism Thirugnanam 2026) |
+
+---
+
+## Quinine Sulfate for Muscle/Leg Cramps — Literature Search (2026-08-29)
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-08-29 | Queries: efficacy (quinine muscle cramps, nocturnal leg cramps, randomized, Cochrane, meta-analysis, systematic review, Man-Son-Hing), harm MANDATORY (quinine adverse effects, thrombocytopenia, immune thrombocytopenia, QT prolongation/cardiotoxicity, cinchonism, G6PD hemolysis, cramps safety, Liles), null/competing (cramps not recommended, magnesium Cochrane, drug treatment myotonia, non-drug therapies cramps), indirect-biochemical MANDATORY (quinine Kv7/KCNQ, Nav1.4, SCN4A myotonia cramps, skeletal muscle ion channel chronic fatigue), ME/CFS-specific (quinine ME/CFS/chronic fatigue syndrome/fibromyalgia/myalgia = 0 direct hits). Metadata via esummary/efetch (PMID/DOI verified). 11 papers added to bib/treatments.bib. Zero direct ME/CFS studies. |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed E-utilities API (esearch/esummary/efetch, batch) | pubmed/eutils | 2026-08-29 | — | ops/research/search-log-quinine-sulfate-2026-08-29.md, ops/research/literature-summary-quinine-sulfate.md, bib/treatments.bib (11 new), appendix-h (11 annotated entries) — quinine sulfate off-label for leg cramps at bedtime; efficacy vs harm/boxed-warning; competing treatments; indirect ion-channel (Nav1.4/KCNQ) link to ME/CFS muscle-ion-channel chapter |

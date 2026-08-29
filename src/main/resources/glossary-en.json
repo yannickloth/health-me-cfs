@@ -11701,5 +11701,60 @@
     "label": "Central motor drive",
     "category": "concept",
     "definition": "The output signal from the brain (motor cortex and connected subcortical circuits) that drives muscles to contract. A failure to increase central motor drive under sustained effort means the brain does not push the muscle harder as it tires, even though the muscle itself can produce maximum force."
+  },
+  "Quinine": {
+    "label": "Quinine",
+    "category": "medication",
+    "definition": "An antimalarial quinoline alkaloid with skeletal-muscle sodium/potassium-channel (Nav1.4 / Kv7-KCNQ) blocking activity. Used off-label for nocturnal leg cramps, but FDA-boxed-warned (2006) and restricted (2010) for this use because serious adverse events (immune thrombocytopenia, drug-induced thrombotic microangiopathy, QT prolongation, hemolysis in G6PD deficiency, cinchonism) outweigh its marginal efficacy. Not recommended for ME/CFS cramps — no ME/CFS efficacy evidence exists.",
+    "generic": "Quinine sulfate",
+    "brand": "Qualaquin (US); various",
+    "class": "Antimalarial quinoline / ion-channel blocker",
+    "rx": "Prescription (US, EU)",
+    "also": "Quinine sulfate",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=quinine%5BMeSH%5D"
+      },
+      {
+        "label": "Drugs.com",
+        "url": "https://www.drugs.com/quinine.html"
+      }
+    ]
+  },
+  "Cinchonism": {
+    "label": "Cinchonism",
+    "category": "condition",
+    "definition": "The dose-related toxicity syndrome of quinine and other cinchona alkaloids: tinnitus, headache, nausea, dizziness, blurred vision, and flushing. At higher doses it can progress to cardiac arrhythmia, seizure, or visual loss. Any symptom of cinchonism during quinine use warrants stopping the drug."
+  },
+  "Myotonia": {
+    "label": "Myotonia",
+    "category": "condition",
+    "definition": "Delayed relaxation of a muscle after contraction, caused by muscle-fiber membrane hyperexcitability — most often from sodium-channel (Nav1.4/SCN4A) or chloride-channel dysfunction. Patients feel stiff or 'frozen' muscles that are slow to relax; myotonic discharges are visible on electromyography."
+  },
+  "Nav1.4": {
+    "label": "Nav1.4",
+    "category": "protein",
+    "definition": "The voltage-gated sodium channel α-subunit encoded by SCN4A, the dominant sodium channel of adult skeletal muscle. It sets muscle-fiber excitability; gain-of-function mutations cause myotonia and painful cramps, while loss-of-function causes weakness. Quinine's anti-cramp action is attributed partly to Nav1.4 blockade."
+  },
+  "SCN4A": {
+    "label": "SCN4A",
+    "category": "gene",
+    "definition": "The gene encoding the Nav1.4 skeletal-muscle sodium channel. SCN4A mutations cause channelopathies such as myotonia congenita, paramyotonia, and some periodic paralyses, which feature painful cramps and delayed muscle relaxation."
+  },
+  "QT prolongation": {
+    "label": "QT prolongation",
+    "category": "condition",
+    "definition": "An abnormally long QT interval on the ECG, reflecting delayed cardiac ventricular repolarization. It raises the risk of a dangerous heart rhythm called torsades de pointes (TdP). Many drugs, including quinine and some common ME/CFS co-prescriptions (amitriptyline, trazodone, beta-blockers, sedating antihistamines), can prolong the QT interval, and combining them adds risk."
+  },
+  "G6PD deficiency": {
+    "label": "G6PD deficiency",
+    "category": "condition",
+    "definition": "Glucose-6-phosphate dehydrogenase deficiency, an inherited enzyme deficiency (X-linked) that reduces the red blood cell's ability to handle oxidative stress. Exposure to certain drugs (including quinine and other antimalarials) can trigger acute hemolysis (destruction of red blood cells) and anemia. G6PD deficiency is a contraindication to quinine."
+  },
+  "Immune thrombocytopenia": {
+    "label": "Immune thrombocytopenia",
+    "category": "condition",
+    "definition": "A condition in which antibodies destroy platelets, causing a low platelet count (thrombocytopenia) and risk of bleeding or bruising. Quinine is a well-documented cause of immune thrombocytopenia and of a severe related syndrome, drug-induced thrombotic microangiopathy (TMA), which can damage kidneys and the nervous system."
   }
 }
