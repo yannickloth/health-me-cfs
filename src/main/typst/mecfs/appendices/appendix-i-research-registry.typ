@@ -181,7 +181,8 @@ and symptom profile.
     / *Timeline:*: Proof-of-concept published October 2025; independent
         replication and prospective validation required before clinical use
     / *Publication Medium:*: _Journal of Translational Medicine_
-        (published); future validation studies TBD
+        (published); future validation studies not yet announced
+        (checked 2026-08)
     / *Document Relevance:*: Ch. 12 (genetic and epigenetic factors),
         Ch. 20 (biomarker research), Ch. 25 (translational findings)
 
@@ -617,7 +618,8 @@ independent approach to the autoantibody hypothesis.
         alterations.  Preparing LDN clinical trials for both ME/CFS
         and Long Covid.
     / *Primary Outcomes:*: TRPM3 channel function; hippocampal volume
-        changes; LDN trial endpoints TBD
+        changes; LDN trial endpoints not yet posted (trials in
+        preparation, checked 2026-08)
     / *Estimated Completion:*: Ongoing programme (multiple studies)
     / *Timeline:*: TRPM3 confirmation published January 2026; 7T MRI
         study published February 2025; LDN trials in preparation;
@@ -691,7 +693,8 @@ CNS pathology in ME/CFS rather than the reverse.
     / *Primary Outcomes:*: SF-36 physical functioning significantly improved.
         Exercise capacity, muscle strength, and information processing speed
         all improved.  Thalamic hyperconnectivity normalised post-HBOT
-    / *Estimated Completion:*: Pilot published; RCT timeline TBD
+    / *Estimated Completion:*: Pilot published; larger RCT not yet
+        registered (checked 2026-08)
     / *Publication Medium:*: medRxiv preprint; peer review pending
     / *Document Relevance:*: Ch. 8 (neurological dysfunction), Ch. 10
         (cardiovascular), Ch. 19 (integrative approaches)
@@ -803,7 +806,7 @@ base for two treatments already in widespread empirical use.
     / *Funder:*: Institutional
     / *Status:*: Recruiting (remote/decentralised, US-wide)
     / *Phase:*: Dose-finding study
-    / *Cohort:*: Adults with ME/CFS (specific $n$ TBD)
+    / *Cohort:*: Adults with ME/CFS ($n=75$, NCT07285473)
     / *Mechanism/Focus:*: Dose-finding study for low-dose naltrexone in
         ME/CFS.  Distinct from the LIFT trial (which combines LDN with
         pyridostigmine, Section @sec:registry-lift) and the RECOVER
@@ -835,7 +838,7 @@ data could substantially improve clinical practice.
     / *Funder:*: Multi-institutional
     / *Status:*: Active
     / *Phase:*: Clinical trial (interventional)
-    / *Cohort:*: ME/CFS and Long Covid patients (specific $n$ TBD)
+    / *Cohort:*: ME/CFS and Long Covid patients ($n=150$, NCT06257420)
     / *Mechanism/Focus:*: Rapamycin (sirolimus) is an mTOR inhibitor with
         immunomodulatory and anti-inflammatory properties.  Targets mTOR
         pathway dysregulation implicated in ME/CFS immune and metabolic
@@ -897,7 +900,7 @@ potentially revealing whether microclot pathology is a shared mechanism.
     / *Funder:*: Solve ME/CFS Initiative
     / *Status:*: Recruiting
     / *Phase:*: Clinical trial, dosing study
-    / *Cohort:*: ME/CFS patients (specific $n$ TBD)
+    / *Cohort:*: ME/CFS patients ($n=50$, NCT06227273)
     / *Mechanism/Focus:*: Hydrogen-rich water as an antioxidant
         intervention.  Molecular hydrogen ($upright(H)_2$) selectively
         scavenges hydroxyl radicals and may reduce oxidative stress and
@@ -1775,7 +1778,7 @@ confounded earlier HPA axis studies.
         kynurenic acid.
     / *Primary Outcomes:*: Fatigue, cognitive function, immune markers;
         kynurenine/tryptophan ratio changes
-    / *Estimated Completion:*: TBD
+    / *Estimated Completion:*: Not publicly announced (checked 2026-08)
     / *Document Relevance:*: Ch. 6 (energy metabolism—NAD+ synthesis
         via kynurenine pathway), Ch. 8 (neurological dysfunction—
         neuroinflammation), Ch. 16 (supplements)
@@ -1990,31 +1993,31 @@ studies.
     [DecodeME], [Univ.\ Edinburgh], [Analysis], [$n>20,000$], [GWAS for ME/CFS],
     [EpiSwitch CFS], [Oxford BioDynamics], [Validation], [$n=108^*$], [Epigenetic diagnostic test],
     [BioMapAI], [JAX / Duke], [Ongoing], [$n=249$], [AI-integrated multi-omics],
-    [MEA PhD Project], [Rosalind Franklin Inst.], [Active], [TBD], [Metabolites, infection markers],
-    [Charité IA], [Charité Berlin], [Active], [TBD], [Immunoadsorption (autoantibodies)],
+    [MEA PhD Project], [Rosalind Franklin Inst.], [Active], [not stated], [Metabolites, infection markers],
+    [Charité IA], [Charité Berlin], [Active], [$n=66$], [Immunoadsorption (autoantibodies)],
     [BC007 Phase II], [Berlin Cures], [Analysis], [$n=143$], [Autoantibody neutralisation],
-    [NCNED TRPM3], [Griffith Univ.], [Active], [TBD], [Ion channels + LDN trials],
-    [Charité fMRI], [Charité Berlin], [Funded], [TBD], [Neuroimaging biomarkers],
+    [NCNED TRPM3], [Griffith Univ.], [Active], [not stated], [Ion channels + LDN trials],
+    [Charité fMRI], [Charité Berlin], [Funded], [not stated], [Neuroimaging biomarkers],
     [RECOVER-TLC], [NIH multi-site], [Active], [$n=600+$], [Baricitinib, LDN, GLP-1, pacing],
-    [LIFT Trial], [Brigham Women's], [Recruiting], [TBD], [LDN + pyridostigmine],
-    [Rapamycin], [Multi-site (US)], [Active], [TBD], [mTOR inhibition],
-    [Lumbrokinase], [Mount Sinai], [Recruiting], [TBD], [Fibrinolytic (microclots)],
+    [LIFT Trial], [Brigham Women's], [Recruiting], [$n=160$], [LDN + pyridostigmine],
+    [Rapamycin], [Multi-site (US)], [Active], [$n=150$], [mTOR inhibition],
+    [Lumbrokinase], [Mount Sinai], [Recruiting], [$n=120$], [Fibrinolytic (microclots)],
     [RESTORE-ME], [Terra Biological], [Published], [$n=82$], [Oxaloacetate (TCA cycle)],
     [Stellate Ganglion], [Multi-site (US)], [Pilot], [$n=10$], [Autonomic reset (SGB)],
-    [tVNS], [Multi-site], [Recruiting], [TBD], [Vagus nerve stimulation],
-    [Masitinib], [AB Science], [Phase 2], [TBD], [Mast cell (MCAS)],
-    [STOP-PASC/PAX LC], [NIH multi-site], [Published], [TBD], [Paxlovid (negative result)],
-    [Hydrogen Water], [Stony Brook], [Recruiting], [TBD], [Antioxidant dosing],
-    [Wearable Study], [Scripps Research], [Recruiting], [TBD], [Pacing via wearables],
+    [tVNS], [Multi-site], [Recruiting], [$n=50$], [Vagus nerve stimulation],
+    [Masitinib], [AB Science], [Phase 2], [$n=72$], [Mast cell (MCAS)],
+    [STOP-PASC/PAX LC], [NIH multi-site], [Published], [$n=964$], [Paxlovid (negative result)],
+    [Hydrogen Water], [Stony Brook], [Recruiting], [$n=50$], [Antioxidant dosing],
+    [Wearable Study], [Scripps Research], [Recruiting], [$n=100,500$], [Pacing via wearables],
     table.cell(colspan: 5, fill: luma(240))[_Added March 2026_],
     [MEA--UCL Biomarker], [UCL / MEA], [Active], [Biobank], [Blood biomarkers (neuro)],
     [ResetME], [Haukeland / Oslo], [Recruiting], [$n=66$], [Daratumumab (anti-CD38)],
-    [UAB LDN], [U.\ Alabama (Younger)], [Recruiting], [TBD], [LDN dose-finding],
+    [UAB LDN], [U.\ Alabama (Younger)], [Recruiting], [$n=75$], [LDN dose-finding],
     [Cornell NAC-GSH], [Weill Cornell], [Recruiting], [$n=60$], [Brain glutathione (MRS)],
     [NSU Probiotics], [Nova Southeastern], [Recruiting], [$n=100$], [Microbiome / gut--brain axis],
     [ADDRESS-LC], [BioVie / DoD], [Recruiting], [$n=200$], [Neuroinflammation (brain fog)],
     [LC-REVITALIZE], [Western Univ.\ / SILC], [Recruiting], [$n=348$], [JAK1 + anti-fibrotic],
-    [CHIIME], [UCSF / PolyBio], [Recruiting], [TBD], [Viral tissue persistence],
+    [CHIIME], [UCSF / PolyBio], [Recruiting], [$n=200$], [Viral tissue persistence],
     table.cell(colspan: 5, fill: luma(240))[_Added March 2026 (second expansion)_],
     [PrecisionLife], [PrecisionLife / DecodeME], [Published], [$n>20,000$], [Combinatorial genomics (250+ genes)],
     [Cornell cfRNA], [Cornell Univ.], [Published], [$n=168$], [Cell-free RNA liquid biopsy],
@@ -2035,9 +2038,9 @@ studies.
     [JAX Microbiome AI], [JAX / Duke], [Published], [$n=249$], [Gut diagnostic (90% accuracy)],
     [Gut Composition], [Multi-centre], [Published], [varied], [Microbial dysbiosis],
     [Steroid Hormones], [Multi-centre], [Published], [varied], [Sex-specific HPA profiling],
-    [OMF Kynurenine], [OMF-funded], [Recruiting], [TBD], [Tryptophan metabolism RCT],
+    [OMF Kynurenine], [OMF-funded], [Recruiting], [not stated], [Tryptophan metabolism RCT],
     [EDS--MCAS], [Multi-centre], [Published], [$n approx 250$], [Triad genetics/pathophysiology],
-    [Nacul LDN], [UBC / BC Women's], [Active], [TBD], [LDN double-blind RCT],
+    [Nacul LDN], [UBC / BC Women's], [Active], [not stated], [LDN double-blind RCT],
     [Rituximab Japan], [Japan], [Active], [$n=30$], [Phase 2 rituximab + imaging],
     [Berlin Conf.\ 2026], [ME/CFS Res.\ Found.], [May 2026], [---], [Conference (mechanisms + trials)],
   ),
