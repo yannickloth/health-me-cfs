@@ -771,3 +771,11 @@ header.headroom--unpinned { transform: translateY(0%) !important; }
   @media (max-width: 576px) {
     .mecfs-pager-row { flex-direction: column; }
   }
+
+/* Pipe tables (pandoc emits a <colgroup>) honor their colgroup widths only
+   under table-layout: fixed. Without it, table-layout: auto ignores the
+   widths and sizes columns by content, which squeezes long-title columns
+   and leaves the table not using the full column width. */
+table:has(colgroup) {
+  table-layout: fixed;
+}
