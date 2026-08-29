@@ -370,6 +370,11 @@
     "definition": "Espèces réactives de l'oxygène : molécules contenant de l'oxygène chimiquement réactif (superoxyde, peroxyde d'hydrogène, radical hydroxyle). Une production excessive de ROS (stress oxydatif) est un résultat constant dans l'EM/SFC.",
     "synonyms": []
   },
+  "RPE": {
+    "label": "RPE",
+    "category": "cell_type",
+    "definition": "Épithélium pigmentaire rétinien : la couche de cellules pigmentées située derrière la rétine. Dans le contexte de l'étude Fleury, des cellules RPE modifiées servent de plateforme d'encapsulation pour produire et délivrer in situ une protéine thérapeutique (leptine)."
+  },
   "RNS": {
     "label": "RNS",
     "category": "molecule",
@@ -11013,6 +11018,11 @@
     "definition": "Récepteur ionotropique GABA et canal chlorure dépendant d'un ligand. Principal récepteur inhibiteur du SNC. Complexe pentamérique assemblé à partir de 19 sous-types de sous-unités (α1-6, β1-3, γ1-3, δ, ε, θ, π, ρ1-3). Cible des benzodiazépines, des barbituriques, des neurostéroïdes (alloprégnanolone, prégnénolone) et de l'éthanol.",
     "synonyms": []
   },
+  "GABAergic": {
+    "label": "GABAergique",
+    "category": "biochemical",
+    "definition": "Relatif au GABA, le principal neurotransmetteur inhibiteur du cerveau. La signalisation GABAergique atténue l'excitation neuronale ; une réduction du tonus inhibiteur GABAergique est un déséquilibre excitation/inhibition proposé à la fois dans le syndrome d'Angelman et l'EM/SFC."
+  },
   "mAChR": {
     "label": "Récepteur muscarinique de l'acétylcholine (mAChR)",
     "category": "receptor",
@@ -11899,6 +11909,11 @@
     "definition": "Une manifestation neuropsychiatrique du rhumatisme articulaire aigu causé par une infection à Streptococcus du groupe A, caractérisée par des mouvements involontaires, irréguliers et saccadés (chorée), une labilité émotionnelle et des comportements obsessionnels-compulsifs. La chorée de Sydenham est le trouble auto-immun post-streptococcique prototypique des ganglions de la base et le modèle historique d'où le PANDAS a été dérivé, établissant que les anticorps anti-neuronaux générés via le mimétisme moléculaire peuvent produire une maladie neuropsychiatrique.",
     "synonyms": []
   },
+  "SynGO": {
+    "label": "SynGO",
+    "category": "database",
+    "definition": "Synapse Gene Ontology : base de connaissances experte qui annote systématiquement les gènes et les processus synaptiques à l'aide des termes Gene Ontology (87 localisations synaptiques et 179 processus synaptiques, construits à partir de données publiées). Utilisée pour l'analyse d'enrichissement d'ensembles de gènes dans la biologie synaptique."
+  },
   "CPRD": {
     "label": "CPRD",
     "category": "method",
@@ -12385,6 +12400,26 @@
     "definition": "4-phénylbutyrate (phénylbutyrate de sodium) : un chaperon chimique qui réduit le stress du réticulum endoplasmique en facilitant le repliement des protéines et en atténuant la réponse aux protéines non repliées (UPR). Utilisé expérimentalement pour les pathologies liées au stress du réticulum endoplasmique.",
     "synonyms": []
   },
+  "5-HT4": {
+    "label": "5-HT4",
+    "category": "receptor",
+    "definition": "Un sous-type de récepteur de la sérotonine présent sur les cellules nerveuses intestinales ; sa stimulation (avec des médicaments tels que le prucalopride) augmente la motilité gastrique et intestinale, ce qui en fait une cible prokinétique."
+  },
+  "AMH": {
+    "label": "AMH",
+    "category": "measurement",
+    "definition": "Hormone anti-müllérienne : un marqueur sanguin de la réserve ovarienne ; des taux élevés indiquent un plus grand nombre de follicules ovariens restants, et elle est stable au cours du cycle menstruel."
+  },
+  "AMPA": {
+    "label": "AMPA",
+    "category": "receptor",
+    "definition": "Récepteur α-amino-3-hydroxy-5-méthyl-4-isoxazolepropionique : le principal récepteur à action rapide du glutamate, neurotransmetteur excitateur, à la plupart des synapses. Son trafic dans et hors de la membrane post-synaptique est un mécanisme clé de la plasticité synaptique."
+  },
+  "ATAC-seq": {
+    "label": "ATAC-seq (Assay for Transposase-Accessible Chromatin)",
+    "category": "method",
+    "definition": "Une technique mesurant l'accessibilité de la chromatine à l'échelle du génome, utilisée pour détecter si la région régulatrice d'un gène est ouverte (active) ou fermée ; elle distingue les états cellulaires transcriptionnellement actifs des états épigénétiquement figés (verrouillés)."
+  },
   "Pitolisant": {
     "label": "Pitolisant",
     "category": "medication",
@@ -12611,6 +12646,11 @@
     ],
     "synonyms": []
   },
+  "NSCa": {
+    "label": "NSCa",
+    "category": "cell_type",
+    "definition": "Un état quiescent des cellules souches neurales dans le gyrus denté de l'hippocampe adulte ; l'accumulation de cellules NSCa sert d'indice que la neurogenèse est bloquée plutôt qu'épuisée."
+  },
   "Beta-blockers": {
     "label": "Bêta-bloquants",
     "category": "medication_class",
@@ -12654,6 +12694,16 @@
     "category": "receptor",
     "definition": "Récepteur opioïde mu — la cible principale des analgésiques opioïdes (morphine, oxycodone, tramadol) et aussi de la naltrexone à faible dose. Le blocage du récepteur mu par le LDN déclenche une régulation positive compensatrice des endorphines.",
     "synonyms": []
+  },
+  "Crocin": {
+    "label": "Crocine",
+    "category": "phytochemical",
+    "definition": "Le principal glycoside caroténoïde actif du safran (Crocus sativus), responsable de sa couleur. Il inhibe le transporteur de la sérotonine (SERT) et, avec le safranal, inhibe la monoamine oxydase, contribuant aux actions sérotoninergiques du safran et à sa modulation potentielle de la voie de la kynurénine."
+  },
+  "Crocetin": {
+    "label": "Crocétine",
+    "category": "phytochemical",
+    "definition": "Un métabolite apocaroténoïde du safran (Crocus sativus). Il inhibe la signalisation du SERT et du récepteur NMDA ; étudié pour ses effets antioxydants et neuroprotecteurs."
   },
   "TSC2": {
     "category": "protein",
@@ -12749,6 +12799,26 @@
     "definition": "L'intensité d'exercice au-delà de laquelle la production de lactate dépasse son élimination, provoquant une élévation du lactate sanguin. Elle est réduite dans l'EM/SFC.",
     "synonyms": []
   },
+  "Anelloviruses": {
+    "label": "Anelloviruses",
+    "category": "pathogen",
+    "definition": "Une grande famille de petits virus à ADN simple brin (famille des Anelloviridae, dont le Torque teno virus, TTV) présente chez 80 à 90 % de la population humaine. Ils établissent une infection lénifiante, généralement bénigne, et sont de plus en plus interprétés comme des marqueurs de la compétence ou de la dérégulation immunitaire plutôt que comme des agents pathogènes."
+  },
+  "Arterial spin labelling": {
+    "label": "arterial spin labelling (ASL)",
+    "category": "imaging",
+    "definition": "Une technique d'IRM non invasive qui mesure le débit sanguin cérébral en marquant magnétiquement le sang artériel et en détectant son arrivée dans le tissu cérébral, sans produit de contraste. Utilisée dans la recherche sur l'EM/SFC pour quantifier la perfusion cérébrale régionale et sa réponse à des challenges tels que l'hypoxie."
+  },
+  "Aspiration": {
+    "label": "Aspiration",
+    "category": "condition",
+    "definition": "Inhalation de matériel étranger (aliments, liquide ou salive) dans les poumons, pouvant provoquer une pneumonie ; chez les patients alités ou sévèrement déconditionnés, elle peut être silencieuse et se présenter comme une confusion ou une fièvre modérée plutôt que comme un étouffement."
+  },
+  "BMD": {
+    "label": "BMD",
+    "category": "measurement",
+    "definition": "Densité minérale osseuse : la quantité de minéral (principalement du phosphate de calcium) dans un volume donné d'os, mesurée par DXA à la hanche et à la colonne vertébrale. Une BMD basse est la base diagnostique de l'ostéoporose ; elle décline sur des mois à des années, plus lentement que les marqueurs du renouvellement osseux."
+  },
   "aerobic glycolysis": {
     "label": "Glycolyse aérobie",
     "category": "pathway",
@@ -12766,6 +12836,16 @@
     "category": "method",
     "definition": "Une échelle de notation de 0 à 100 pour la capacité fonctionnelle dans l'EM/SFC, où 100 représente une fonction normale et 0 représente un état alité et dépendant.",
     "synonyms": []
+  },
+  "Benzoate": {
+    "label": "Benzoate",
+    "category": "molecule",
+    "definition": "Un composé carboxylate provenant de sources alimentaires (par ex. les conservateurs à base d'acide benzoïque, les aliments végétaux) et du métabolisme microbien. Dans l'EM/SFC, BioMapAI rapporte une augmentation de la transformation benzoate-en-hippurate, que le modèle attribue aux symptômes de sommeil, émotionnels et de fatigue — bien qu'il s'agisse d'une sortie du modèle, non validée sur un échantillon externe."
+  },
+  "Beta-amyloid": {
+    "label": "Beta-amyloid (Aβ)",
+    "category": "molecule",
+    "definition": "β-Amyloïde (Aβ) : un peptide de 36 à 43 acides aminés clivé à partir de la protéine précurseur de l'amyloïde (APP) par les β- et γ-sécrétases. L'Aβ est éliminée du cerveau principalement par le système glymphatique pendant le sommeil à ondes lentes. Son accumulation est une caractéristique de la maladie d'Alzheimer. Dans l'EM/SFC, le risque d'atteinte glymphatique chronique soulève une question hypothétique (non testée) d'accumulation d'Aβ à long terme ; aucune donnée sur l'Aβ dans l'EM/SFC n'existe. L'hypothèse selon laquelle le daridorexant (antagoniste double des récepteurs de l'orexine) pourrait réduire l'Aβ est une spéculation mécaniste sans preuve primaire."
   },
   "β2-adrenergic autoantibodies": {
     "label": "Auto-anticorps β2-adrénergiques (β2-Abs)",
@@ -13017,6 +13097,46 @@
     ],
     "synonyms": []
   },
+  "BioMapAI": {
+    "label": "BioMapAI",
+    "category": "method",
+    "definition": "Un réseau neuronal profond supervisé entraîné sur un jeu de données multi-omiques longitudinal de 4 ans (n=249) intégrant la métagénomique intestinale, la métabolomique plasmatique, le profilage immunitaire, les bilans sanguins et les symptômes cliniques pour l'EM/SFC. Il a classé l'EM/SFC par rapport aux témoins (AUC=0,99) et construit une carte de connectivité microbiome-immunité-métabolome explicable, bien que l'AUC médiatisée soit en partie gonflée par le fait que le modèle apprend ses symptômes diagnostiques (circularité symptomatique)."
+  },
+  "CAR-T": {
+    "label": "CAR-T (Chimeric Antigen Receptor T cell)",
+    "category": "treatment",
+    "definition": "Une immunothérapie anticancéreuse dans laquelle les lymphocytes T d'un patient sont modifiés en laboratoire pour reconnaître une cible moléculaire spécifique, puis réinjectés. Aucune base de preuves ne soutient la CAR-T dans l'EM/SFC."
+  },
+  "CCL11": {
+    "label": "CCL11",
+    "category": "protein",
+    "definition": "Éotaxine-1 : une chimiokine (molécule de signalisation immunitaire) qui augmente après certaines infections virales, favorise la réactivité microgliale et a été liée à une altération de la neurogenèse hippocampique et à des symptômes cognitifs."
+  },
+  "CTX": {
+    "label": "CTX (C-terminal telopeptide)",
+    "category": "measurement",
+    "definition": "Un produit de dégradation du collagène libéré dans le sang lors de la résorption osseuse par les ostéoclastes. Un CTX élevé indique une dégradation osseuse nette et constitue un marqueur du renouvellement osseux utilisé pour détecter la résorption avant que la BMD ne chute."
+  },
+  "DCX": {
+    "label": "DCX",
+    "category": "protein",
+    "definition": "Doublecortine : une protéine associée aux microtubules exprimée par les neurones immatures (nouveau-nés) du cerveau, largement utilisée comme marqueur de la neurogenèse adulte dans l'hippocampe."
+  },
+  "DMH": {
+    "label": "DMH",
+    "category": "anatomy",
+    "definition": "Noyau hypothalamique dorsomédian : une région hypothalamique impliquée dans l'alimentation, l'équilibre énergétique, la température corporelle et le comportement circadien, contenant des neurones (dont certains répondent à l'hormone métabolique leptine) qui relient l'état métabolique au rythme circadien."
+  },
+  "DXA": {
+    "label": "DXA (Dual-energy X-ray Absorptiometry)",
+    "category": "measurement",
+    "definition": "Absorptiométrie biphotonique à rayons X : la technique d'imagerie standard pour mesurer la densité minérale osseuse à la hanche et à la colonne lombaire, utilisée pour diagnostiquer l'ostéoporose et surveiller la perte osseuse."
+  },
+  "Dementia": {
+    "label": "Dementia",
+    "category": "condition",
+    "definition": "Un syndrome de déclin cognitif progressif (mémoire, raisonnement, fonction quotidienne) résultant de multiples troubles qui endommagent le cerveau au fil du temps, le plus souvent la maladie d'Alzheimer, la démence vasculaire, la démence à corps de Lewy et la démence frontotemporale."
+  },
   "Levocetirizine": {
     "label": "Lévocétirizine",
     "category": "medication",
@@ -13065,110 +13185,213 @@
     ],
     "synonyms": []
   },
+  "Dup15q": {
+    "label": "Dup15q",
+    "category": "condition",
+    "definition": "Duplication du chromosome 15q11-q13, la région contenant le gène UBE3A. Des copies supplémentaires provoquent un syndrome neurodéveloppemental distinct qui recoupe le syndrome d'Angelman pour certaines caractéristiques, illustrant que les issues liées à UBE3A dépendent de la dose plutôt que d'une simple perte de fonction."
+  },
+  "E6AP": {
+    "label": "E6AP",
+    "category": "protein",
+    "definition": "Protéine associée à E6, nom courant du produit du gène UBE3A, une ubiquitine ligase E3 qui marque les protéines pour la dégradation protéasomale. La perte de fonction d'E6AP sous-tend le syndrome d'Angelman ; citée ici comme le nœud mécaniste d'une analogie inter-maladies avec le dysfonctionnement énergétique et GABAergique de l'EM/SFC."
+  },
+  "EBNA1": {
+    "label": "EBNA1 (Epstein-Barr Nuclear Antigen 1)",
+    "category": "pathogen",
+    "definition": "Une protéine clé du virus d'Epstein-Barr, exprimée dans les cellules infectées de façon latente, qui maintient le génome viral. La réactivité des anticorps contre des épitopes EBNA1 spécifiques est un marqueur utilisé dans la recherche sur les maladies post-infectieuses."
+  },
+  "ERP": {
+    "label": "ERP",
+    "category": "test",
+    "definition": "Potentiel évoqué : une réponse électrique cérébrale mesurée, synchronisée dans le temps sur un stimulus ou un événement de tâche spécifique, extraite de l'EEG par moyennage. Les ERP indexent des étapes de traitement neuronal telles que l'allocation attentionnelle (P3b) qui ne sont pas observables dans le comportement brut seul."
+  },
+  "EpiSwitch": {
+    "label": "EpiSwitch",
+    "category": "method",
+    "definition": "Une plateforme de test sanguin propriétaire qui mesure l'architecture de conformation tridimensionnelle des chromosomes (boucles et repliements de chromatine) comme signature diagnostique ; étudiée dans l'EM/SFC comme biomarqueur sanguin candidat."
+  },
+  "FSH": {
+    "label": "FSH",
+    "category": "measurement",
+    "definition": "Hormone folliculo-stimulante : une hormone hypophysaire qui pilote le développement des follicules ovariens ; des taux croissants de FSH indiquent un déclin de la fonction ovarienne approchant de la ménopause."
+  },
+  "Fatigability": {
+    "label": "Fatigability",
+    "category": "symptom",
+    "definition": "Le déclin objectif des performances physiques ou cognitives pendant un effort soutenu, mesuré par des tests de performance (par ex. interpolation de secousse musculaire, stimulation magnétique transcrânienne, tâches de force soutenue). Dans l'EM/SFC, elle est formellement distincte de la fatigue (la perception subjective d'épuisement) ; la CIF les code séparément (niveau d'énergie b1300 contre fatigabilité b4552). Les preuves suggèrent qu'une défaillance centrale (au niveau cérébral) de la commande motrice contribue à la fatigabilité de l'EM/SFC."
+  },
+  "GES": {
+    "label": "GES",
+    "category": "diagnostic",
+    "definition": "Scintigraphie de vidange gastrique : un test d'imagerie standard qui mesure la vitesse à laquelle les aliments quittent l'estomac, utilisé pour confirmer ou exclure une gastroparésie."
+  },
+  "GFAP": {
+    "label": "GFAP",
+    "category": "protein",
+    "definition": "Protéine acide fibrillaire gliale : une protéine de filament intermédiaire exprimée par les astrocytes. Ses taux dans le sang ou le liquide céphalorachidien augmentent avec l'activation/lésion des astrocytes et servent de marqueur de gliose réactive et de lésions neuro-inflammatoires."
+  },
+  "Gamma-delta T cell": {
+    "label": "Gamma-delta T cell",
+    "category": "immune",
+    "definition": "Un sous-type de lymphocyte T (cellule T gamma-delta / γδ) qui agit à l'interface de l'immunité innée et adaptative, reconnaissant les cellules stressées et infectées sans restriction du CMH. L'analyse multi-omique BioMapAI rapporte une activité inflammatoire accrue des cellules T gamma-delta (IFN-gamma, granzyme A) dans l'EM/SFC, tandis que certaines études unicellulaires rapportent une fréquence réduite des cellules gamma-delta — une question non résolue d'activation contre déplétion."
+  },
+  "HPG": {
+    "label": "HPG",
+    "category": "pathway",
+    "definition": "Axe hypothalamo-hypophyso-gonadique : la boucle de régulation hormonale reliant l'hypothalamus et l'hypophyse du cerveau aux ovaires ou aux testicules, régulant la reproduction et les taux d'hormones sexuelles."
+  },
+  "HRQOL": {
+    "label": "HRQOL",
+    "category": "measurement",
+    "definition": "Qualité de vie liée à la santé : l'impact d'une maladie et de son traitement sur le bien-être physique, mental et social d'une personne, généralement mesuré avec des instruments tels que le SF-36."
+  },
+  "HRT": {
+    "label": "HRT",
+    "category": "treatment",
+    "definition": "Traitement hormonal substitutif : œstrogène (et généralement progestatif lorsque l'utérus est présent) administré pour remplacer les hormones ovariennes après la ménopause ; le bénéfice dans l'EM/SFC n'est pas prouvé, et le risque de thromboembolie veineuse est plus faible avec l'œstrogène transdermique qu'oral."
+  },
+  "HSP90α": {
+    "label": "HSP90α",
+    "category": "protein",
+    "definition": "Protéine de choc thermique 90 alpha : une chaperonne moléculaire dont une fraction est sécrétée de manière extracellulaire, où elle module l'activation des intégrines et la signalisation ligand-récepteur. L'HSP90α extracellulaire soutient la signalisation de l'irisine via l'intégrine αvβ5 ; sa déficience contribue à la résistance à la signalisation de l'irisine. Les inhibiteurs de HSP90 dégradent ce co-récepteur et ne sont PAS indiqués."
+  },
+  "Hippurate": {
+    "label": "Hippurate",
+    "category": "molecule",
+    "definition": "Un métabolite urinaire formé par la conjugaison de l'acide benzoïque avec la glycine, reflétant en grande partie l'apport alimentaire en benzoate et le métabolisme du benzoate par le microbiote intestinal. BioMapAI relie une augmentation de la transformation benzoate-en-hippurate aux symptômes de sommeil, émotionnels et de fatigue dans l'EM/SFC, mais l'axe repose sur un seul modèle plus de petits essais pilotes de populations voisines."
+  },
+  "IRIS": {
+    "label": "IRIS",
+    "category": "condition",
+    "definition": "Syndrome inflammatoire de reconstitution immunitaire : une aggravation paradoxale des symptômes lorsque le système immunitaire se rétablit et monte une réponse forte contre des antigènes persistants ; invoqué comme modèle du début post-partum de l'EM/SFC."
+  },
+  "Irisin": {
+    "label": "Irisin",
+    "category": "protein",
+    "definition": "Une myokine de 112 acides aminés (protéine de type hormonal) libérée par le muscle pendant l'exercice, produite par clivage de la FNDC5. Elle signale via les intégrines αV (dont αvβ5) et favorise la biogenèse mitochondriale, la captation du glucose et l'adaptation métabolique. Proposée (Souma 2026) d'être fonctionnellement antagonisée par la thrombospondine-1 élevée dans l'EM/SFC, contribuant à une adaptation métabolique émoussée pendant le PEM."
+  },
+  "Ki67": {
+    "label": "Ki67",
+    "category": "measurement",
+    "definition": "Une protéine nucléaire exprimée pendant la division cellulaire active, utilisée comme marqueur des cellules en prolifération (en division) dans les études tissulaires."
+  },
+  "LH": {
+    "label": "LH",
+    "category": "measurement",
+    "definition": "Hormone lutéinisante : une hormone hypophysaire dont le pic déclenche l'ovulation ; mesurée pour confirmer la phase du cycle menstruel."
+  },
+  "Lactate-to-creatine ratio": {
+    "label": "lactate-to-creatine ratio (Lac/tCr)",
+    "category": "biomarker",
+    "definition": "Un rapport dérivé de la spectroscopie par résonance magnétique du proton qui indexe les taux de lactate cérébral par rapport à la créatine comme référence interne. Un Lac/tCr de repos élevé dans le thalamus est rapporté dans l'EM/SFC et est interprété comme une preuve d'un déplacement glycolytique ou d'une inefficacité bioénergétique."
+  },
+  "LepR": {
+    "label": "LepR",
+    "category": "receptor",
+    "definition": "Récepteur de la leptine : le récepteur de surface cellulaire de l'hormone métabolique leptine. Les neurones à récepteur de la leptine de l'hypothalamus transmettent les signaux de satiété et d'état énergétique et aident à coupler l'état métabolique aux rythmes circadiens."
+  },
+  "MAGMA": {
+    "label": "MAGMA",
+    "category": "method",
+    "definition": "Multi-marker Analysis of GenoMic Annotation : une méthode computationnelle qui teste si des groupes de gènes (ensembles de gènes) sont collectivement associés à une maladie ou à un trait, utilisée pour l'analyse d'enrichissement en ensembles de gènes des résultats d'études d'association pangénomique (GWAS)."
+  },
+  "MAIT": {
+    "label": "MAIT",
+    "category": "immune",
+    "definition": "Cellule T invariante associée aux muqueuses : un lymphocyte T de type inné enrichi aux surfaces muqueuses (intestin, poumon) qui répond rapidement aux métabolites microbiens. Dans l'EM/SFC, les modèles multi-omiques pilotés par l'IA rapportent une activité inflammatoire accrue des MAIT (IFN-gamma, granzyme A), tandis que les études unicellulaires dans la COVID longue rapportent une déplétion des MAIT — une tension activation-contre-déplétion possiblement orthogonale, qui reste non résolue."
+  },
+  "MFI-20": {
+    "label": "MFI-20",
+    "category": "test",
+    "definition": "Inventaire multidimensionnel de la fatigue : un questionnaire d'auto-évaluation de 20 items mesurant cinq dimensions de fatigue (fatigue générale, physique, réduction d'activité, réduction de motivation, fatigue mentale). Mesure la fatigue générale ; ne capture pas à lui seul le malaise post-effort."
+  },
+  "MSNA": {
+    "label": "MSNA",
+    "category": "measurement",
+    "definition": "Activité nerveuse sympathique musculaire : une mesure directe du débit de sortie du système nerveux sympathique vers les muscles, utilisée en recherche sur le système autonome."
+  },
+  "Metabolomics": {
+    "label": "Metabolomics",
+    "category": "method",
+    "definition": "La mesure exhaustive des métabolites à petites molécules (sucres, lipides, acides aminés, acides organiques) dans un biofluide ou un tissu. La métabolomique plasmatique est une couche omique utilisée pour profiler l'EM/SFC ; les analyses multi-omiques intégrées la combinent avec la métagénomique et le profilage immunitaire pour détecter des signatures de maladie invisibles à une seule couche."
+  },
+  "Metagenomics": {
+    "label": "Metagenomics",
+    "category": "method",
+    "definition": "Séquençage de l'ADN directement à partir d'une communauté microbienne (par ex. le microbiome intestinal) sans culture des espèces individuelles, révélant la composition taxonomique et le potentiel fonctionnel des gènes. La métagénomique intestinale est une couche omique centrale dans les modèles de diaphonie microbiome-immunité-métabolome de l'EM/SFC tels que BioMapAI."
+  },
+  "Multi-omics": {
+    "label": "Multi-omics",
+    "category": "method",
+    "definition": "L'analyse intégrée de plusieurs couches de données moléculaires (génomique, métagénomique, transcriptomique, protéomique, métabolomique, profilage immunitaire) sur les mêmes échantillons. L'intégration multi-omique peut révéler des signatures de maladie coordonnées inter-compartiments — par ex. la constatation BioMapAI qu'aucune couche omique unique ne sépare l'EM/SFC des témoins, mais que leur intégration le fait."
+  },
   "ivabradine": {
-    "label": "ivabradine",
-    "category": "medication",
-    "definition": "Médicament réduisant la fréquence cardiaque qui bloque le canal I_f dans le nœud sino-auriculaire. Utilisé dans le POTS et la dysautonomie à prédominance tachycardique."
+    "alias": "Ivabradine"
   },
   "fludrocortisone": {
-    "label": "fludrocortisone",
-    "category": "medication",
-    "definition": "Un minéralocorticoïde synthétique qui imite l'aldostérone, augmentant le volume sanguin. Traitement de première intention pour le POTS."
+    "alias": "Fludrocortisone"
   },
   "midodrine": {
-    "label": "midodrine",
-    "category": "medication",
-    "definition": "Un agoniste α₁-adrénergique qui resserre les vaisseaux sanguins. Utilisé dans le POTS."
+    "alias": "Midodrine"
   },
   "pyridostigmine": {
-    "label": "pyridostigmine",
-    "category": "medication",
-    "definition": "Un inhibiteur de l'acétylcholinestérase qui augmente l'acétylcholine aux synapses parasympathiques."
+    "alias": "Pyridostigmine"
   },
   "propranolol": {
-    "label": "propranolol",
-    "category": "medication",
-    "definition": "Un bêta-bloquant non sélectif. De faibles doses peuvent atténuer le pic de fréquence cardiaque debout dans le POTS."
+    "alias": "Propranolol"
   },
   "valacyclovir": {
-    "label": "valacyclovir",
-    "category": "medication",
-    "definition": "Un promédicament de l'acyclovir ciblant l'ADN polymérase de l'EBV. L'antiviral le plus étudié pour l'EM/SFC post-infectieuse."
+    "alias": "Valacyclovir"
   },
   "cimetidine": {
-    "label": "cimetidine",
-    "category": "medication",
-    "definition": "Un antagoniste H2 avec effets immunomodulateurs. Puissant inhibiteur du CYP450. Série de cas historique de 1986 dans l'EM/SFC post-EBV."
+    "alias": "Cimetidine"
   },
   "famotidine": {
-    "label": "famotidine",
-    "category": "medication",
-    "definition": "Un antagoniste H2 utilisé dans le SAMA avec les antihistaminiques H1. Pas d'inhibition du CYP450 — plus sûr que la cimétidine."
+    "alias": "Famotidine"
   },
   "duloxetine": {
-    "label": "duloxetine",
-    "category": "medication",
-    "definition": "Un IRSN avec des preuves de niveau Cochrane pour la douleur fibromyalgique. Renforce les voies inhibitrices descendantes."
+    "alias": "Duloxetine"
   },
   "pregabalin": {
-    "label": "pregabalin",
-    "category": "medication",
-    "definition": "Un gabapentinoïde réduisant la libération de neurotransmetteurs. Première intention pour la douleur fibromyalgique."
+    "alias": "Pregabalin"
   },
   "gabapentin": {
-    "label": "gabapentin",
-    "category": "medication",
-    "definition": "Un gabapentinoïde pour la douleur neuropathique. Se lie à la sous-unité α2δ des canaux calciques. La sédation est fréquente."
+    "alias": "Gabapentin"
   },
   "celecoxib": {
-    "label": "celecoxib",
-    "category": "medication",
-    "definition": "Un inhibiteur sélectif de la COX-2. Sonde diagnostique pour la boucle COX-2/PGE₂/TRPV1."
+    "alias": "Celecoxib"
   },
   "doxycycline": {
-    "label": "doxycycline",
-    "category": "medication",
-    "definition": "À doses sub-antimicrobiennes, un inhibiteur sélectif de la MMP-9. Utilisé hors AMM pour l'hypermobilité progressive acquise."
+    "alias": "Doxycycline"
   },
-  "rifaximin": {
-    "label": "rifaximin",
+  "Rifaximin": {
+    "label": "Rifaximin",
     "category": "medication",
     "definition": "Un antibiotique non absorbé pour le SIBO à prédominance hydrogène. Le SIBO récidive dans ~44% des cas à 9 mois si la motilité n'est pas traitée."
   },
+  "rifaximin": {
+    "alias": "Rifaximin"
+  },
   "naltrexone": {
-    "label": "naltrexone",
-    "category": "medication",
-    "definition": "À faibles doses (LDN, 1-4,5 mg), bloque le TLR4 microglial. Preuves d'essai dans la fibromyalgie."
+    "alias": "Naltrexone"
   },
   "rituximab": {
-    "label": "rituximab",
-    "category": "medication",
-    "definition": "Un anticorps monoclonal anti-CD20 épuisant les lymphocytes B. L'essai RituxME phase III était nul."
+    "alias": "Rituximab"
   },
   "daratumumab": {
-    "label": "daratumumab",
-    "category": "medication",
-    "definition": "Un anticorps anti-CD38 épuisant les plasmocytes. Essai pilote 2025 : 60% de réponse avec latence de 8-9 mois. Non contrôlé."
+    "alias": "Daratumumab"
   },
   "omalizumab": {
-    "label": "omalizumab",
-    "category": "medication",
-    "definition": "Un anticorps monoclonal anti-IgE. Sonde thérapeutique distinguant l'activation IgE de l'activation non-IgE."
+    "alias": "Omalizumab"
   },
   "ketotifen": {
-    "label": "ketotifen",
-    "category": "medication",
-    "definition": "Un antihistaminique H1 et stabilisateur de mastocytes combiné. Fortement sédatif. ECR négatif dans la fibromyalgie."
+    "alias": "Ketotifen"
   },
   "cromolyn": {
-    "label": "cromolyn",
-    "category": "medication",
-    "definition": "Un stabilisateur de mastocytes (cromoglycate) qui tente d'empêcher la dégranulation."
+    "alias": "Cromolyn"
   },
   "montelukast": {
-    "label": "montelukast",
-    "category": "medication",
-    "definition": "Un antagoniste des récepteurs des leucotriènes. Avertissement américain pour effets neuropsychiatriques."
+    "alias": "Montelukast"
   },
   "PAR2": {
     "label": "PAR2",
@@ -13235,6 +13458,56 @@
     "category": "imagerie",
     "definition": "Voir NAA. Métabolite synthétisé dans les neurones, souvent utilisé comme marqueur de santé neuronale en SRM."
   },
+  "Na/K-ATPase": {
+    "label": "Na/K-ATPase",
+    "category": "enzyme",
+    "definition": "Adénosine triphosphatase sodium-potassium : la pompe membranaire qui maintient le potentiel de repos des cellules excitables (fibres musculaires, nerfs) en exportant trois Na⁺ et en important deux K⁺ par ATP. Sa défaillance dépolarise les cellules, contribuant aux crampes et à l'hyperexcitabilité."
+  },
+  "NfL": {
+    "label": "NfL",
+    "category": "biomarker",
+    "definition": "Neurofilament léger : une protéine structurale libérée dans le sang et le liquide céphalorachidien lorsque les fibres nerveuses sont endommagées. Un NfL élevé est utilisé comme marqueur général de lésion axonale/neuronale en cours et de neurodégénérescence, et est exploré comme marqueur inter-maladies de pathologie du système nerveux central."
+  },
+  "OPG": {
+    "label": "OPG (Osteoprotegerin)",
+    "category": "molecule",
+    "definition": "Ostéoprotégérine : un récepteur leurre qui se lie à RANKL et l'empêche d'activer les ostéoclastes, inhibant ainsi la résorption osseuse. Un faible rapport OPG/RANKL favorise la dégradation osseuse."
+  },
+  "Osteoporosis": {
+    "label": "Osteoporosis",
+    "category": "condition",
+    "definition": "Une maladie osseuse dans laquelle la densité et la qualité minérales osseuses déclinent, rendant les os fragiles et plus susceptibles de se fracturer. Dans l'EM/SFC, elle est pertinente car la réduction soutenue de la mobilité dans les formes modérées à sévères peut favoriser une perte osseuse liée au déconditionnement, bien qu'aucune étude directe d'ostéoporose dans l'EM/SFC n'existe (voir ch30 bone-density-osteoporosis)."
+  },
+  "P1NP": {
+    "label": "P1NP (Procollagen type 1 N-terminal propeptide)",
+    "category": "measurement",
+    "definition": "Un sous-produit de la synthèse du collagène libéré pendant la formation osseuse ; le P1NP sérique est un marqueur du renouvellement osseux utilisé pour évaluer le taux de formation osseuse, aux côtés des marqueurs de résorption tels que le CTX."
+  },
+  "P3b": {
+    "label": "P3b",
+    "category": "test",
+    "definition": "P3b : la composante tardive (300-600 ms) centro-pariétale du potentiel évoqué (ERP) qui indexe l'allocation des ressources attentionnelles et l'évaluation de la cible. Dans l'essai L-théanine-caféine sur le TDAH, une amplitude accrue de P3b et une latence réduite indiquaient une allocation neuronale renforcée à l'attention sélective."
+  },
+  "PCOS": {
+    "label": "PCOS",
+    "category": "condition",
+    "definition": "Syndrome des ovaires polykystiques : une affection hormonale provoquant des règles irrégulières, des androgènes élevés et des modifications métaboliques ; il n'existe actuellement aucune preuve directe le liant à l'EM/SFC."
+  },
+  "PD-L1": {
+    "label": "PD-L1 (Programmed Death-Ligand 1)",
+    "category": "immunology",
+    "definition": "Le ligand du récepteur de point de contrôle immunitaire PD-1, exprimé sur les cellules présentatrices d'antigènes et de nombreuses tumeurs. La liaison de PD-L1 à PD-1 supprime l'activation des lymphocytes T ; dans l'EM/SFC, la régulation positive de PD-L1 sur les monocytes est proposée comme suppresseur de la fonction des lymphocytes T CD8+."
+  },
+  "PSD": {
+    "label": "PSD",
+    "category": "anatomy",
+    "definition": "Densité post-synaptique : la spécialisation riche en protéines du côté récepteur d'une synapse qui ancre les récepteurs de neurotransmetteurs et les protéines d'échafaudage ; c'est le site de la machinerie moléculaire qui construit et ajuste les connexions synaptiques."
+  },
+  "Pressure ulcer": {
+    "label": "Pressure ulcer",
+    "category": "condition",
+    "definition": "Une lésion localisée de la peau et des tissus sous-jacents causée par une pression prolongée, généralement sur les zones osseuses chez les patients immobiles ou alités ; elle peut s'infecter et évoluer vers un sepsis."
+  },
   "T1w/T2w": {
     "label": "T1w/T2w",
     "category": "imagerie",
@@ -13249,6 +13522,359 @@
     "label": "QSM",
     "category": "imagerie",
     "definition": "Cartographie de susceptibilité quantitative : technique IRM mesurant la susceptibilité magnétique locale, utilisée pour quantifier le fer cérébral et distinguer les dépôts de fer des changements de myéline."
+  },
+  "RANKL": {
+    "label": "RANKL",
+    "category": "molecule",
+    "definition": "Ligand du récepteur activateur du facteur nucléaire κB : une cytokine produite par les ostéoblastes et d'autres cellules qui active les ostéoclastes, entraînant la résorption osseuse. Un RANKL élevé par rapport à son leurre OPG favorise la dégradation osseuse (pertinent pour la perte osseuse liée au déconditionnement)."
+  },
+  "Refeeding syndrome": {
+    "label": "Refeeding syndrome",
+    "category": "condition",
+    "definition": "Une perturbation métabolique potentiellement mortelle lorsqu'une personne dénutrie ou affamée est réalimentée de manière trop agressive, marquée par une chute du phosphore, du potassium, du magnésium et de la thiamine, avec un risque d'insuffisance respiratoire ou circulatoire et de convulsions."
+  },
+  "SCN": {
+    "label": "SCN",
+    "category": "anatomy",
+    "definition": "Noyau suprachiasmatique : la petite paire de neurones de l'hypothalamus qui fonctionne comme l'horloge circadienne maîtresse, pilotant les rythmes quotidiens du sommeil, de la libération hormonale, de la température et du métabolisme, et se resynchronisant sur le cycle lumière-obscurité environnemental."
+  },
+  "SHAP": {
+    "label": "SHAP",
+    "category": "method",
+    "definition": "SHapley Additive exPlanations : une méthode de théorie des jeux qui attribue la prédiction d'un modèle d'apprentissage automatique à ses caractéristiques d'entrée. Dans BioMapAI, les valeurs SHAP génèrent une carte de connectivité explicable reliant les caractéristiques omiques aux attributions symptomatiques — mais ces attributions sont une sortie du modèle et n'ont pas été validées sur un échantillon externe."
+  },
+  "SynVesT-1": {
+    "label": "SynVesT-1",
+    "category": "imaging",
+    "definition": "Un traceur de tomographie par émission de positons (TEP) (18F-SynVesT-1) qui se lie à la glycoprotéine 2A des vésicules synaptiques (SV2A), utilisé pour mesurer la densité synaptique dans le cerveau vivant."
+  },
+  "Syncope": {
+    "label": "Syncope",
+    "category": "condition",
+    "definition": "Évanouissement ou perte de conscience temporaire due à une réduction du débit sanguin cérébral. Dans l'EM/SFC, la plupart des évanouissements sont orthostatiques ou à médiation neurale (bénins), mais une syncope avec caractéristiques cardiaques, lésion ou pouls anormal justifie une évaluation urgente."
+  },
+  "TAD": {
+    "label": "TAD",
+    "category": "cell",
+    "definition": "Domaine d'association topologique : une région auto-interactive de l'architecture tridimensionnelle des chromosomes qui contraint quels enhancers contactent quels gènes ; mesuré par des tests de conformation de la chromatine."
+  },
+  "TIA": {
+    "label": "TIA",
+    "category": "condition",
+    "definition": "Accident ischémique transitoire : un bref épisode de dysfonction neurologique causé par un blocage temporaire du débit sanguin cérébral, sans lésion permanente. Un AIT est une urgence médicale car il signale un risque élevé d'AVC ultérieur et justifie une évaluation urgente."
+  },
+  "TNF": {
+    "label": "TNF",
+    "category": "protein",
+    "definition": "Facteur de nécrose tumorale : une cytokine pro-inflammatoire impliquée dans l'inflammation systémique et la signalisation immunitaire."
+  },
+  "TRIM28": {
+    "label": "TRIM28",
+    "category": "protein",
+    "definition": "Protéine 28 à motif tripartite (aussi KAP1) : une protéine organisatrice de la chromatine qui maintient le silençage et les boucles géniques et régule l'IL-2 dans les lymphocytes T ; un nœud unificateur proposé à travers les découvertes de génomique 3D, HERV et IL-2 dans l'EM/SFC."
+  },
+  "TRP": {
+    "label": "TRP",
+    "category": "receptor",
+    "definition": "Récepteur de potentiel transitoire : une grande superfamille de canaux cationiques qui répondent à divers stimuli (température, ligands chimiques, étirement mécanique, osmolarité). Les canaux TRP des nerfs sensoriels et des cellules immunitaires sont impliqués dans la douleur, le seuil de crampe et le dysfonctionnement immunitaire de l'EM/SFC."
+  },
+  "TTV": {
+    "label": "TTV",
+    "category": "pathogen",
+    "definition": "Torque teno virus : un membre de la famille des Anelloviridae présent chez la plupart des individus en bonne santé. La charge de TTV augmente lorsque la compétence immunitaire diminue (par ex. dans l'immunosuppression après transplantation) et est étudiée comme marqueur de l'état immunitaire dans les affections de fatigue post-infectieuse."
+  },
+  "Thrombospondin-1": {
+    "label": "Thrombospondin-1",
+    "category": "protein",
+    "definition": "TSP-1 : une glycoprotéine matricellulaire élevée lors de l'activation plaquettaire/endothéliale qui supprime la signalisation du monoxyde d'azote via CD47 et inhibe l'angiogenèse. Proposée comme antagoniste dominant de la signalisation de l'irisine à l'axe HSP90α/αvβ5, contribuant à la résistance à la signalisation de l'irisine et à une adaptation métabolique altérée dans l'EM/SFC. Également un marqueur d'activation endothéliale dans certains panneaux de biomarqueurs de l'EM/SFC."
+  },
+  "UBE3A": {
+    "label": "UBE3A",
+    "category": "protein",
+    "definition": "Ubiquitine ligase E3A (aussi appelée E6AP) : l'enzyme codée par le gène UBE3A qui marque les protéines cibles pour la dégradation par le protéasome. La perte d'UBE3A fonctionnel provoque le syndrome d'Angelman ; elle est ici utilisée comme modèle inter-maladies car sa perte altère la production d'énergie mitochondriale et la signalisation inhibitrice (GABAergique), deux domaines également impliqués dans l'EM/SFC."
+  },
+  "UCB-J": {
+    "label": "UCB-J",
+    "category": "imaging",
+    "definition": "Un traceur de tomographie par émission de positons (TEP) (11C-UCB-J) qui se lie à la glycoprotéine 2A des vésicules synaptiques (SV2A), utilisé pour mesurer la densité synaptique dans le cerveau vivant."
+  },
+  "VTE": {
+    "label": "VTE",
+    "category": "condition",
+    "definition": "Thromboembolie veineuse : un caillot sanguin se formant dans une veine, y compris la thrombose veineuse profonde et l'embolie pulmonaire ; une considération de sécurité importante avec l'hormonothérapie orale."
+  },
+  "Virtual hypoxia": {
+    "label": "virtual hypoxia",
+    "category": "pathway",
+    "definition": "Un état tissulaire dans lequel les cellules se comportent comme si elles étaient privées d'oxygène malgré des taux d'oxygène sanguin normaux, causé par une production d'énergie altérée (dysfonctionnement mitochondrial) combinée à une demande énergétique accrue plutôt que par une véritable pénurie d'oxygène. Proposé comme mécanisme dans la démyélinisation chronique (sclérose en plaques) et étudié dans l'EM/SFC, où le lactate cérébral élevé au repos suggère que le cerveau pourrait fonctionner sous une limitation métabolique chronique."
+  },
+  "bisphosphonate": {
+    "label": "Bisphosphonate",
+    "category": "medication_class",
+    "definition": "Une classe de médicaments (par ex. alendronate, risédronate) qui inhibent la résorption osseuse médiée par les ostéoclastes en bloquant la farnésyl pyrophosphate synthase, utilisés pour traiter l'ostéoporose. Dans l'EM/SFC, les effets secondaires peuvent chevaucher les symptômes et l'administration (posture debout, estomac vide) est difficile pour les patients alités."
+  },
+  "checkpoint": {
+    "label": "immune checkpoint",
+    "category": "immunology",
+    "definition": "Récepteurs inhibiteurs (par ex. PD-1, CTLA-4) qui restreignent l'activation des lymphocytes T. Les tumeurs exploitent les points de contrôle pour échapper à l'immunité ; les anticorps de blocage des points de contrôle sont une thérapie anticancéreuse. Dans l'EM/SFC, des marqueurs de point de contrôle élevés indiquent un épuisement des lymphocytes T."
+  },
+  "chromatin": {
+    "label": "chromatin",
+    "category": "cell",
+    "definition": "Le complexe d'ADN et de protéines (histones) qui empaquette le génome ; son état de repliement tridimensionnel régule l'expression génique et est mesuré par des plateformes de conformation des chromosomes telles que EpiSwitch."
+  },
+  "dysvirosis": {
+    "label": "dysvirosis",
+    "category": "concept",
+    "definition": "Une dérégulation du virome humain — la communauté de virus qui persiste normalement dans le corps sans provoquer de maladie. Dans la recherche sur la COVID longue et l'EM/SFC, la dysvirose fait référence à des déplacements de la charge virale chronique (surtout anellovirus) qui reflètent une régulation immunitaire altérée plutôt qu'une infection virale active."
+  },
+  "gastric emptying scintigraphy": {
+    "label": "Gastric emptying scintigraphy",
+    "category": "diagnostic",
+    "definition": "Un test d'imagerie standard (abrévié GES) qui suit le mouvement d'un repas marqué à travers l'estomac pour mesurer sa vitesse de vidange, utilisé pour diagnostiquer une gastroparésie."
+  },
+  "gastroparesis": {
+    "label": "Gastroparesis",
+    "category": "condition",
+    "definition": "Vidange retardée de l'estomac, provoquant une satiété précoce, des nausées, des vomissements, des ballonnements et une gêne abdominale. Dans l'EM/SFC, elle est considérée comme reflétant un dysfonctionnement autonome (vagal) de la motilité gastrique et peut menacer la nutrition dans les cas graves."
+  },
+  "iPSC": {
+    "label": "iPSC",
+    "category": "method",
+    "definition": "Cellules souches pluripotentes induites : des cellules adultes reprogrammées vers un état proche de l'embryonnaire, puis différenciées en types cellulaires d'intérêt (par ex. neurones) pour la modélisation de maladies en laboratoire. Citées ici comme un moyen de tester si les neurones dérivés de patients reproduisent les défauts cellulaires observés dans les modèles de syndrome d'Angelman."
+  },
+  "immunotherapy": {
+    "label": "immunotherapy",
+    "category": "treatment",
+    "definition": "Des traitements qui modulent le système immunitaire pour combattre la maladie (par ex. inhibiteurs de points de contrôle, CAR-T). Aucune base de preuves ne soutient une immunothérapie de type oncologique dans l'EM/SFC ; l'immunothérapie non sélective a échoué dans les essais."
+  },
+  "nestin": {
+    "label": "nestin",
+    "category": "protein",
+    "definition": "Une protéine de filament intermédiaire exprimée par les cellules souches et progénitrices neurales, utilisée comme marqueur de l'activité des cellules souches dans le cerveau."
+  },
+  "prokinetic": {
+    "label": "Prokinetic",
+    "category": "treatment",
+    "definition": "Une classe de médicaments qui stimule le mouvement des aliments à travers le tractus gastro-intestinal, utilisée pour traiter la gastroparésie. Les exemples incluent le métoclopramide, la dompéridone et le prucalopride."
+  },
+  "prucalopride": {
+    "label": "Prucalopride",
+    "category": "medication",
+    "definition": "Un prokinétique agoniste hautement sélectif du récepteur 5-HT4 utilisé (souvent hors AMM) pour la gastroparésie et la constipation chronique. Il stimule la motilité intestinale avec un risque cardiovasculaire/QT rapporté plus faible que certains prokinétiques plus anciens."
+  },
+  "sarcolemmal": {
+    "label": "sarcolemmal",
+    "category": "anatomy",
+    "definition": "Relatif au sarcolemme, la membrane cellulaire d'une fibre musculaire ; son potentiel de repos et son équilibre ionique sont maintenus par la pompe Na⁺/K⁺-ATPase."
+  },
+  "scRNA-seq": {
+    "label": "scRNA-seq (single-cell RNA sequencing)",
+    "category": "method",
+    "definition": "Une technique mesurant l'expression génique dans des cellules individuelles, utilisée pour caractériser les états des cellules immunitaires tels que l'épuisement des lymphocytes T dans l'EM/SFC et la COVID longue."
+  },
+  "sclerostin": {
+    "label": "Sclerostin",
+    "category": "molecule",
+    "definition": "Une protéine sécrétée principalement par les ostéocytes qui inhibe la formation osseuse en supprimant la signalisation Wnt. La sclérostine augmente lorsque l'os est déchargé mécaniquement (par ex. alitement), contribuant à la perte osseuse liée au déconditionnement."
+  },
+  "small-fiber neuropathy": {
+    "label": "small-fiber neuropathy",
+    "category": "condition",
+    "definition": "Lésion des fibres nerveuses de petit diamètre qui transmettent la douleur et la température et contrôlent la fonction autonome ; documentée chez une proportion de patients atteints d'EM/SFC et associée aux crampes et à la dysautonomie."
+  },
+  "teriparatide": {
+    "label": "Teriparatide",
+    "category": "medication",
+    "definition": "Une forme recombinante de l'hormone parathyroïdienne administrée par injection pour stimuler la formation osseuse (thérapie anabolique) dans l'ostéoporose. Ses effets secondaires (nausées, bouffées vasomotrices, myalgies, hypercalcémie) chevauchent les symptômes de l'EM/SFC."
+  },
+  "Saffron": {
+    "label": "Saffron",
+    "category": "supplement",
+    "definition": "Une épice dérivée des stigmates séchés du Crocus sativus. Ses composés bioactifs (crocin, safranal, crocétine) inhibent le SERT et la MAO, conférant des effets sérotoninergiques et une modulation potentielle de la voie de la kynurénine. Dans l'EM/SFC, c'est un agent NON PROUVÉ avec zéro essai primaire d'EM/SFC et un essai contrôlé randomisé nul sur la fatigue ; l'inhibition du SERT plus de la MAO comporte un risque de syndrome sérotoninergique avec les ISRS/IMAO. Non recommandé pour l'EM/SFC."
+  },
+  "Safranal": {
+    "label": "Safranal",
+    "category": "phytochemical",
+    "definition": "Un aldéhyde monoterpénique volatil du safran, responsable de son arôme. Il inhibe la monoamine oxydase A/B et régule à la baisse les composants neurotoxiques de la voie de la kynurénine dans les modèles de rongeurs."
+  },
+  "Serotonin syndrome": {
+    "label": "Serotonin syndrome",
+    "category": "condition",
+    "definition": "Une affection potentiellement mortelle causée par une activité sérotoninergique excessive, typiquement par la combinaison de médicaments sérotoninergiques (ISRS, IRSN, IMAO) ou de suppléments sérotoninergiques tels que le safran ou le 5-HTP. Les caractéristiques incluent agitation, tachycardie, hyperthermie et rigidité musculaire ; elle nécessite des soins médicaux urgents."
+  },
+  "fibromyalgia": {
+    "label": "fibromyalgia",
+    "category": "condition",
+    "definition": "Fibromyalgie : un syndrome de douleur chronique caractérisé par une douleur musculosquelettique généralisée, une fatigue, un sommeil non réparateur et une difficulté cognitive. Génétiquement un trouble du système nerveux central (nociplastique) ; coexiste avec l'EM/SFC dans 20 à 70 % des cas."
+  },
+  "HTT": {
+    "label": "HTT",
+    "category": "gene",
+    "definition": "HTT (huntingtine) : le gène codant la huntingtine, dont l'expansion provoque la maladie de Huntington. Un variant codant dans HTT était le signal de risque le plus fort dans la plus grande GWAS de la fibromyalgie."
+  },
+  "GPR52": {
+    "label": "GPR52",
+    "category": "receptor",
+    "definition": "GPR52 : un récepteur orphelin couplé aux protéines G qui régule négativement les taux de huntingtine. Un locus de risque GPR52 est partagé entre la génétique de la fibromyalgie et de l'EM/SFC ; GPR52 est une cible médicamenteuse expérimentale de la maladie de Huntington."
+  },
+  "PRS": {
+    "label": "PRS",
+    "category": "method",
+    "definition": "Score de risque polygénique : une mesure quantitative unique agrégeant les effets de milliers de variants génétiques pour estimer la prédisposition héréditaire d'un individu à une maladie."
+  },
+  "Corticomuscular coherence": {
+    "label": "Corticomuscular coherence",
+    "category": "measurement",
+    "definition": "Une mesure de la synchronisation de l'activité électrique du cerveau (cortex moteur) avec l'activité électrique d'un muscle pendant une tâche. Dans l'EM/SFC, une absence d'augmentation de la cohérence corticomusculaire pendant un effort soutenu suggère que le cerveau n'ajuste pas sa commande musculaire en fonction du retour du muscle qui se fatigue."
+  },
+  "Central motor drive": {
+    "label": "Central motor drive",
+    "category": "concept",
+    "definition": "Le signal de sortie du cerveau (cortex moteur et circuits sous-corticaux connectés) qui pilote la contraction des muscles. Une incapacité à augmenter la commande motrice centrale pendant un effort soutenu signifie que le cerveau ne pousse pas le muscle plus fort à mesure qu'il se fatigue, même si le muscle lui-même peut produire une force maximale."
+  },
+  "Quinine": {
+    "label": "Quinine",
+    "category": "medication",
+    "definition": "Un alcaloïde quinolinique antipaludique dont l'action anti-crampe est proposée d'impliquer un blocage des canaux sodiques (Nav1.4) / potassiques (Kv7-KCNQ) du muscle squelettique (attribution pharmacologique à faible confiance — la composante Kv7/KCNQ n'est pas citée). Utilisée hors AMM pour les crampes nocturnes des jambes, mais avec un avertissement encadré de la FDA (2006) et une restriction (2010) pour cette indication car des événements indésirables graves (thrombocytopénie immunitaire, microangiopathie thrombotique d'origine médicamenteuse, allongement du QT, hémolyse en cas de déficit en G6PD, cinchonisme) l'emportent sur son efficacité marginale. Non recommandée pour les crampes de l'EM/SFC — aucune preuve d'efficacité dans l'EM/SFC n'existe."
+  },
+  "Cinchonism": {
+    "label": "Cinchonism",
+    "category": "condition",
+    "definition": "Le syndrome de toxicité lié à la dose de la quinine et des autres alcaloïdes du quinquina : acouphènes, céphalées, nausées, vertiges, vision trouble et bouffées vasomotrices. À doses plus élevées, il peut évoluer vers une arythmie cardiaque, une crise convulsive ou une perte de vision. Tout symptôme de cinchonisme pendant l'utilisation de quinine justifie l'arrêt du médicament."
+  },
+  "Myotonia": {
+    "label": "Myotonia",
+    "category": "condition",
+    "definition": "Relaxation retardée d'un muscle après une contraction, causée par une hyperexcitabilité de la membrane de la fibre musculaire — le plus souvent par un dysfonctionnement des canaux sodiques (Nav1.4/SCN4A) ou chlorure. Les patients ressentent des muscles raides ou « gelés » qui se détendent lentement ; des décharges myotoniques sont visibles à l'électromyographie."
+  },
+  "Nav1.4": {
+    "label": "Nav1.4",
+    "category": "protein",
+    "definition": "La sous-unité α du canal sodique voltage-dépendant codé par SCN4A, le canal sodique dominant du muscle squelettique adulte. Il fixe l'excitabilité de la fibre musculaire ; les mutations gain-de-fonction provoquent myotonie et crampes douloureuses, tandis que les mutations perte-de-fonction provoquent une faiblesse. L'action anti-crampe de la quinine est attribuée en partie au blocage de Nav1.4."
+  },
+  "SCN4A": {
+    "label": "SCN4A",
+    "category": "gene",
+    "definition": "Le gène codant le canal sodique Nav1.4 du muscle squelettique. Les mutations de SCN4A provoquent des canalopathies telles que la myotonie congénitale, la paramyotonie et certaines paralysies périodiques, qui présentent des crampes douloureuses et une relaxation musculaire retardée."
+  },
+  "QT prolongation": {
+    "label": "QT prolongation",
+    "category": "condition",
+    "definition": "Un intervalle QT anormalement long sur l'ECG, reflétant une repolarisation ventriculaire cardiaque retardée. Il augmente le risque d'un rythme cardiaque dangereux appelé torsades de pointes (TdP). De nombreux médicaments, dont la quinine et certaines co-prescriptions courantes de l'EM/SFC (amitriptyline, trazodone, bêta-bloquants, antihistaminiques sédatifs), peuvent allonger l'intervalle QT, et leur association ajoute du risque."
+  },
+  "G6PD deficiency": {
+    "label": "G6PD deficiency",
+    "category": "condition",
+    "definition": "Déficit en glucose-6-phosphate déshydrogénase, un déficit enzymatique héréditaire (lié à l'X) qui réduit la capacité du globule rouge à gérer le stress oxydatif. L'exposition à certains médicaments (dont la quinine et d'autres antipaludéens) peut déclencher une hémolyse aiguë (destruction des globules rouges) et une anémie. Le déficit en G6PD est une contre-indication à la quinine."
+  },
+  "Immune thrombocytopenia": {
+    "label": "Immune thrombocytopenia",
+    "category": "condition",
+    "definition": "Une affection dans laquelle des anticorps détruisent les plaquettes, provoquant un faible nombre de plaquettes (thrombocytopénie) et un risque de saignement ou d'ecchymoses. La quinine est une cause bien documentée de thrombocytopénie immunitaire et d'un syndrome grave apparenté, la microangiopathie thrombotique d'origine médicamenteuse (MAT), qui peut endommager les reins et le système nerveux."
+  },
+  "IHHT": {
+    "label": "IHHT",
+    "category": "treatment",
+    "definition": "Traitement par hypoxie-hyperoxie intermittente : des cycles répétés d'air pauvre en oxygène (hypoxique) et riche en oxygène (hyperoxique) à pression ambiante normale, administrés par un dispositif qui fait varier l'oxygène inspiré. Proposé pour déclencher des réponses adaptatives hormétiques légères (stabilisation du HIF-1α, voies mitochondriales antioxydantes/réparatrices). Testé pour l'EM/SFC dans l'essai REenergizeME ; pas encore prouvé efficace."
+  },
+  "hyperoxia": {
+    "label": "hyperoxia",
+    "category": "concept",
+    "definition": "Un état de taux d'oxygène supérieurs à la normale dans les tissus corporels, typiquement par respiration d'oxygène élevé. Dans l'IHHT, c'est la phase riche en oxygène entre les expositions hypoxiques."
+  },
+  "FiO2": {
+    "label": "FiO2",
+    "category": "measurement",
+    "definition": "Fraction d'oxygène inspiré : la proportion de l'air qu'une personne respire qui est de l'oxygène (l'air ambiant est d'environ 21 %). Diminuée dans la phase hypoxique et augmentée dans la phase hyperoxique de l'IHHT."
+  },
+  "SpO2": {
+    "label": "SpO2",
+    "category": "measurement",
+    "definition": "Saturation périphérique en oxygène : une estimation du pourcentage d'oxygène transporté par l'hémoglobine dans le sang, mesurée de manière non invasive avec un oxymètre de pouls. Surveillée en continu pendant l'IHHT."
+  },
+  "Sudoscan": {
+    "label": "Sudoscan",
+    "category": "measurement",
+    "definition": "Un dispositif non invasif qui mesure la conductance électrochimique de la peau pour évaluer la fonction des glandes sudoripares et l'intégrité nerveuse autonome des petites fibres aux mains et aux pieds. Utilisé pour évaluer la neuropathie autonome des petites fibres."
+  },
+  "HypoxBreath": {
+    "label": "HypoxBreath",
+    "category": "device",
+    "definition": "Un dispositif médical marqué CE qui administre une hypoxie-hyperoxie intermittente en ajustant dynamiquement la fraction d'oxygène inspiré. Utilisé dans l'essai IHHT REenergizeME."
+  },
+  "REenergizeME": {
+    "label": "REenergizeME",
+    "category": "study",
+    "definition": "Un essai contrôlé randomisé enregistré, en placebo, testant le traitement par hypoxie-hyperoxie intermittente (IHHT) chez des patientes atteintes d'EM/SFC répondant aux critères de consensus international. Le recrutement a commencé en juin 2026 ; les résultats sont attendus en 2029."
+  },
+  "Prolactin": {
+    "label": "Prolactin",
+    "category": "hormone",
+    "definition": "Une hormone produite par l'hypophyse. Surtout connue pour stimuler la production de lait après l'accouchement, elle joue aussi des rôles mineurs dans de nombreux systèmes corporels. La dopamine est le principal frein de la libération de prolactine, donc son taux est une lecture de la signalisation dopaminergique à l'hypophyse."
+  },
+  "Buspirone": {
+    "label": "Buspirone",
+    "category": "medication",
+    "definition": "Un médicament anxiolytique qui est un agoniste des récepteurs sérotoninergiques 5-HT1A et bloque aussi les récepteurs D2 de la dopamine. Administrée en challenge à dose unique, elle déclenche une élévation transitoire de la prolactine, elle est donc utilisée comme sonde neuroendocrinienne pour tester la régulation dopaminergique et sérotoninergique.",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Buspirone%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Buspirone"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Buspirone"
+      }
+    ]
+  },
+  "Estradiol": {
+    "label": "Estradiol",
+    "category": "hormone",
+    "definition": "La principale hormone sexuelle féminine (une forme d'œstrogène). Elle régule de nombreux processus, dont l'axe de la prolactine : elle module à la fois le frein dopaminergique de la prolactine et la fonction des lactotrophes."
+  },
+  "Dopamine": {
+    "label": "Dopamine",
+    "category": "neurotransmitter",
+    "definition": "Un messager chimique du cerveau et du corps impliqué dans la récompense, la motivation, le mouvement et la régulation hormonale. C'est le principal inhibiteur (frein) de la libération de prolactine par l'hypophyse."
+  },
+  "Serotonin": {
+    "label": "Serotonin",
+    "category": "neurotransmitter",
+    "definition": "Un messager chimique impliqué dans l'humeur, le sommeil, l'appétit et de nombreuses autres fonctions. Il influence aussi la régulation de la prolactine ; la buspirone agit en partie en stimulant les récepteurs sérotoninergiques."
+  },
+  "Fenfluramine": {
+    "label": "Fenfluramine",
+    "category": "medication",
+    "definition": "Un médicament qui libère de la sérotonine. Dans les tests de challenge, il était utilisé pour sonder la fonction sérotoninergique ; contrairement à la buspirone, il ne bloque pas la D2 dopaminergique, isolant ainsi la composante sérotoninergique.",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Fenfluramine%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Fenfluramine"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Fenfluramine"
+      }
+    ]
+  },
+  "Lactotroph": {
+    "label": "Lactotroph",
+    "category": "cell",
+    "definition": "Un type de cellule de l'hypophyse qui produit et libère la prolactine. Son activité est maintenue basse par la dopamine agissant sur les récepteurs D2."
+  },
+  "TIDA": {
+    "label": "TIDA",
+    "category": "pathway",
+    "definition": "Neurones dopaminergiques tubéro-infundibulaires : un petit groupe de neurones cérébraux dont la dopamine voyage vers l'hypophyse et maintient la libération de prolactine supprimée. Une activité TIDA réduite permet à la prolactine de s'élever."
   },
   "Enteral feeding": {
     "label": "Alimentation entérale",

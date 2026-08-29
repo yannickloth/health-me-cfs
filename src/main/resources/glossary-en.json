@@ -11881,7 +11881,21 @@
   "Buspirone": {
     "label": "Buspirone",
     "category": "medication",
-    "definition": "An anti-anxiety drug that is a serotonin 5-HT1A receptor agonist and also blocks dopamine D2 receptors. When given as a single-dose challenge it triggers a transient prolactin rise, so it is used as a neuroendocrine probe to test dopamine and serotonin regulation."
+    "definition": "An anti-anxiety drug that is a serotonin 5-HT1A receptor agonist and also blocks dopamine D2 receptors. When given as a single-dose challenge it triggers a transient prolactin rise, so it is used as a neuroendocrine probe to test dopamine and serotonin regulation.",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Buspirone%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Buspirone"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Buspirone"
+      }
+    ]
   },
   "Estradiol": {
     "label": "Estradiol",
@@ -11901,7 +11915,21 @@
   "Fenfluramine": {
     "label": "Fenfluramine",
     "category": "medication",
-    "definition": "A drug that releases serotonin. In challenge testing it was used to probe serotonergic function; unlike buspirone it does not block dopamine D2, so it isolates the serotonin component."
+    "definition": "A drug that releases serotonin. In challenge testing it was used to probe serotonergic function; unlike buspirone it does not block dopamine D2, so it isolates the serotonin component.",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Fenfluramine%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Fenfluramine"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Fenfluramine"
+      }
+    ]
   },
   "Lactotroph": {
     "label": "Lactotroph",
@@ -11932,5 +11960,69 @@
     "label": "Activities of Daily Living",
     "category": "condition",
     "definition": "The routine self-care tasks people need to manage in daily life — washing, dressing, feeding, toileting, and moving about. A home-based assessment of these tasks is a key part of planning care for severe ME/CFS."
+  },
+  "ALR": {
+    "label": "ALR",
+    "category": "concept",
+    "definition": "Abortive Lytic Replication: herpesviruses express early proteins without producing virions."
+  },
+  "dUTPase": {
+    "label": "dUTPase",
+    "category": "enzyme",
+    "definition": "Deoxyuridine triphosphatase: a conserved herpesvirus enzyme and potent pathogen-associated molecular pattern (PAMP). EBV dUTPase activates mast cells."
+  },
+  "histaminylation": {
+    "label": "histaminylation",
+    "category": "mechanism",
+    "definition": "Covalent modification of collagen fibrils by mast-cell histamine. An MMP-independent route to tissue laxity."
+  },
+  "matrix stiffness": {
+    "label": "matrix stiffness",
+    "category": "concept",
+    "definition": "The mechanical property of the extracellular matrix that dampens force transmission. Reduced in hypermobility."
+  },
+  "PAR2": {
+    "label": "PAR2",
+    "category": "receptor",
+    "definition": "Protease-Activated Receptor 2: activated by mast-cell tryptase. The biochemical bridge between MCAS and nociplastic pain/fibromyalgia."
+  },
+  "QSART": {
+    "label": "QSART",
+    "category": "diagnostic",
+    "definition": "Quantitative Sudomotor Axon Reflex Test: measures autonomic small-fiber function."
+  },
+  "QST": {
+    "label": "QST",
+    "category": "diagnostic",
+    "definition": "Quantitative Sensory Testing: measures detection thresholds. Distinguishes fiber loss from central sensitization."
+  },
+  "renin-aldosterone paradox": {
+    "label": "renin-aldosterone paradox",
+    "category": "concept",
+    "definition": "The finding that renin and aldosterone are low despite objectively low blood volume."
+  },
+  "Rifaximin": {
+    "label": "Rifaximin",
+    "category": "medication",
+    "definition": "A non-absorbed antibiotic for hydrogen-dominant SIBO. SIBO relapses in ~44% of cases at 9 months if motility is not treated.",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Rifaximin%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Rifaximin"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Rifaximin"
+      }
+    ]
+  },
+  "Septad": {
+    "label": "Septad",
+    "category": "concept",
+    "definition": "The seven interacting pathophysiologies that co-occur with ME/CFS: amplifiers, not coincidences."
   }
 }

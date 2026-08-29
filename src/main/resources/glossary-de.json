@@ -21,6 +21,216 @@
       ]
     }
   },
+  "5-HT4": {
+    "label": "5-HT4",
+    "category": "receptor",
+    "definition": "Ein Serotonin-Rezeptor-Subtyp auf Darmnervenzellen; seine Stimulation (durch Medikamente wie Prucaloprid) steigert die Magen- und Darmmotilität und macht ihn zu einem prokinetischen Angriffsziel."
+  },
+  "AMH": {
+    "label": "AMH",
+    "category": "measurement",
+    "definition": "Anti-Müller-Hormon: ein Blutmarker der ovariellen Reserve; höhere Werte deuten auf mehr verbliebene Eifollikel hin, und der Wert ist über den Menstruationszyklus stabil."
+  },
+  "AMPA": {
+    "label": "AMPA",
+    "category": "receptor",
+    "definition": "α-Amino-3-hydroxy-5-methyl-4-isoxazolpropionsäure-Rezeptor: der wichtigste schnell reagierende Rezeptor für den exzitatorischen Neurotransmitter Glutamat an den meisten Synapsen. Sein Transport in die und aus der postsynaptischen Membran ist ein Schlüsselmechanismus synaptischer Plastizität."
+  },
+  "ATAC-seq": {
+    "label": "ATAC-seq (Assay for Transposase-Accessible Chromatin)",
+    "category": "method",
+    "definition": "Eine Technik zur Messung der Chromatinzugänglichkeit im gesamten Genom, mit der erkannt wird, ob die regulatorische Region eines Gens offen (aktiv) oder geschlossen ist; sie unterscheidet transkriptionsaktive von epigenetisch fixierten (gesperrten) Zellzuständen."
+  },
+  "Anelloviruses": {
+    "label": "Anelloviren",
+    "category": "pathogen",
+    "definition": "Eine große Familie kleiner einzelsträngiger DNA-Viren (Familie Anelloviridae, einschließlich Torque-teno-Virus, TTV), die bei 80–90 % der menschlichen Bevölkerung vorkommt. Sie etablieren lebenslange, in der Regel harmlose Infektionen und werden zunehmend als Marker der Immunkompetenz oder -dysregulation interpretiert denn als krankheitsverursachende Erreger."
+  },
+  "Arterial spin labelling": {
+    "label": "arterial spin labelling (ASL)",
+    "category": "imaging",
+    "definition": "Eine nicht-invasive MRT-Technik, die den zerebralen Blutfluss misst, indem arterielles Blut magnetisch markiert und dessen Ankunft im Hirngewebe erfasst wird — ohne Kontrastmittel. In der ME/CFS-Forschung zur Quantifizierung der regionalen Hirnperfusion und ihrer Reaktion auf Belastungen wie Hypoxie eingesetzt."
+  },
+  "Aspiration": {
+    "label": "Aspiration",
+    "category": "condition",
+    "definition": "Einatmen von Fremdmaterial (Nahrung, Flüssigkeit oder Speichel) in die Lunge, das eine Pneumonie verursachen kann; bei bettlägerigen oder schwer dekonditionierten Patienten kann sie stumm verlaufen und sich eher als Verwirrtheit oder leichtes Fieber denn als Erstickungsgefühl zeigen."
+  },
+  "BMD": {
+    "label": "BMD",
+    "category": "measurement",
+    "definition": "Knochenmineraldichte: die Menge an Mineral (hauptsächlich Kalziumphosphat) in einem gegebenen Knochenvolumen, gemessen mittels DXA an Hüfte und Wirbelsäule. Niedrige BMD ist die diagnostische Grundlage der Osteoporose; sie nimmt über Monate bis Jahre ab, langsamer als Knochenumsatzmarker."
+  },
+  "Benzoate": {
+    "label": "Benzoat",
+    "category": "molecule",
+    "definition": "Eine Carboxylat-Verbindung aus Nahrungsquellen (z. B. Benzoesäure-Konservierungsstoffe, pflanzliche Nahrung) und mikrobiellem Stoffwechsel. Bei ME/CFS berichtet BioMapAI über eine erhöhte Benzoate-zu-Hippurat-Umwandlung, die das Modell Schlaf-, emotionalen und Fatigue-Symptomen zuschreibt — dies ist jedoch Modellausgabe, nicht extern validiert."
+  },
+  "Beta-amyloid": {
+    "label": "Beta-amyloid (Aβ)",
+    "category": "molecule",
+    "definition": "β-Amyloid (Aβ): ein 36–43 Aminosäuren langes Peptid, das durch β- und γ-Sekretase vom Amyloid-Vorläuferprotein (APP) abgespalten wird. Aβ wird hauptsächlich durch das glymphatische System während des Tiefschlafs aus dem Gehirn entfernt. Seine Akkumulation ist ein Kennzeichen der Alzheimer-Krankheit. Bei ME/CFS wirft das chronische glymphatische Beeinträchtigungsrisiko eine hypothetische (ungeprüfte) Frage nach langfristiger Aβ-Akkumulation auf; es existieren keine ME/CFS-Aβ-Daten. Die Hypothese, das Schlafmedikament Daridorexant (ein dualer Orexin-Rezeptor-Antagonist) könnte Aβ reduzieren, ist mechanistische Spekulation ohne Primärbelege."
+  },
+  "BioMapAI": {
+    "label": "BioMapAI",
+    "category": "method",
+    "definition": "Ein überwachtes tiefes neuronales Netz, trainiert auf einem 4-jährigen longitudinalen Multi-Omics-Datensatz (n=249), um Darm-Metagenomik, Plasma-Metabolomik, Immunprofilierung, Blutwerte und klinische Symptome für ME/CFS zu integrieren. Es klassifizierte ME/CFS gegenüber Kontrollen (AUC=0,99) und erstellte eine erklärbare Mikrobiom-Immun-Metabolom-Konnektivitätskarte, obwohl die Schlagzeilen-AUC teilweise dadurch aufgebläht ist, dass das Modell seine diagnostischen Symptome lernt (Symptom-Zirkularität)."
+  },
+  "CAR-T": {
+    "label": "CAR-T (Chimeric Antigen Receptor T cell)",
+    "category": "treatment",
+    "definition": "Eine Krebs-Immuntherapie, bei der patienteneigene T-Zellen im Labor verändert werden, um ein spezifisches molekulares Ziel zu erkennen, und dann zurückinfundiert werden. Es gibt keine Evidenzbasis, die CAR-T für ME/CFS unterstützt."
+  },
+  "CCL11": {
+    "label": "CCL11",
+    "category": "protein",
+    "definition": "Eotaxin-1: ein Chemokin (Immunsignal-Molekül), das nach manchen Virusinfektionen ansteigt, die Mikroglia-Reaktivität fördert und mit eingeschränkter hippocampaler Neurogenese und kognitiven Symptomen in Verbindung gebracht wurde."
+  },
+  "CTX": {
+    "label": "CTX (C-terminales Telopeptid)",
+    "category": "measurement",
+    "definition": "Ein Kollagen-Abbauprodukt, das während der Knochenresorption durch Osteoklasten ins Blut freigesetzt wird. Erhöhtes CTX zeigt einen Netto-Knochenabbau an und ist ein Knochenumsatzmarker, mit dem Resorption erkannt wird, bevor die BMD fällt."
+  },
+  "DCX": {
+    "label": "DCX",
+    "category": "protein",
+    "definition": "Doublecortin: ein Mikrotubuli-assoziiertes Protein, das von unreifen (neugeborenen) Neuronen im Gehirn exprimiert wird und weithin als Marker der adulten Neurogenese im Hippocampus dient."
+  },
+  "DMH": {
+    "label": "DMH",
+    "category": "anatomy",
+    "definition": "Dorsomedialer Hypothalamus: eine hypothalamische Region, die an Fütterung, Energiegleichgewicht, Körpertemperatur und zirkadianem Verhalten beteiligt ist und Neuronen enthält (darunter solche, die auf das Stoffwechselhormon Leptin reagieren), die den Stoffwechselzustand mit dem zirkadianen Timing verbinden."
+  },
+  "DXA": {
+    "label": "DXA (Dual-energy X-ray Absorptiometry)",
+    "category": "measurement",
+    "definition": "Dual-Röntgen-Absorptiometrie: die Standard-Bildgebungstechnik zur Messung der Knochenmineraldichte an Hüfte und Lendenwirbelsäule, eingesetzt zur Diagnose der Osteoporose und zur Überwachung des Knochenverlusts."
+  },
+  "Dementia": {
+    "label": "Demenz",
+    "category": "condition",
+    "definition": "Ein Syndrom fortschreitenden kognitiven Abbaus (Gedächtnis, Denkvermögen, Alltagsfunktion) infolge mehrerer Erkrankungen, die das Gehirn im Laufe der Zeit schädigen; am häufigsten Morbus Alzheimer, vaskuläre Demenz, Lewy-Körperchen-Demenz und frontotemporale Demenz."
+  },
+  "Dup15q": {
+    "label": "Dup15q",
+    "category": "condition",
+    "definition": "Duplikation des Chromosoms 15q11-q13, der Region, die das UBE3A-Gen enthält. Zusätzliche Kopien verursachen ein eigenes neurodevelopmentales Syndrom, das in manchen Merkmalen dem Angelman-Syndrom ähnelt — was zeigt, dass UBE3A-bedingte Folgen von der Dosis abhängen und nicht bloß von einem Funktionsverlust."
+  },
+  "E6AP": {
+    "label": "E6AP",
+    "category": "protein",
+    "definition": "E6-assoziiertes Protein, der gebräuchliche Name des UBE3A-Genprodukts, einer E3-Ubiquitin-Ligase, die Proteine für den proteasomalen Abbau markiert. Funktionsverlust von E6AP liegt dem Angelman-Syndrom zugrunde; hier als mechanistischer Knoten einer krankheitsübergreifenden Analogie mit ME/CFS-Energie- und GABAerger Dysfunktion referenziert."
+  },
+  "EBNA1": {
+    "label": "EBNA1 (Epstein-Barr Nuclear Antigen 1)",
+    "category": "pathogen",
+    "definition": "Ein Schlüsselprotein des Epstein-Barr-Virus, das in latent infizierten Zellen exprimiert wird und das Virusgenom erhält. Die Antikörperreaktivität gegen spezifische EBNA1-Epitope ist ein Marker, der in der Forschung zu postinfektiösen Erkrankungen verwendet wird."
+  },
+  "ERP": {
+    "label": "ERP",
+    "category": "test",
+    "definition": "Ereigniskorreliertes Potenzial: eine gemessene elektrische Hirnreaktion, die zeitlich an ein spezifisches Stimulus- oder Aufgabenereignis gebunden und durch Mittelung aus dem EEG extrahiert wird. ERPs erfassen neurale Verarbeitungsstufen wie die Aufmerksamkeitsallokation (P3b), die im bloßen Verhalten nicht beobachtbar sind."
+  },
+  "EpiSwitch": {
+    "label": "EpiSwitch",
+    "category": "method",
+    "definition": "Eine proprietäre Bluttest-Plattform, die die dreidimensionale Chromosomenkonformation (Chromatin-Loops und -Faltung) als diagnostische Signatur misst; bei ME/CFS als Kandidat für einen blutbasierten Biomarker untersucht."
+  },
+  "FSH": {
+    "label": "FSH",
+    "category": "measurement",
+    "definition": "Follikelstimulierendes Hormon: ein Hypophysenhormon, das die Eifollikelentwicklung antreibt; ansteigende FSH-Werte zeigen eine abnehmende Ovarialfunktion auf dem Weg zur Menopause."
+  },
+  "Fatigability": {
+    "label": "Fatigability",
+    "category": "symptom",
+    "definition": "Der objektive Abfall der körperlichen oder kognitiven Leistungsfähigkeit während anhaltender Anstrengung, gemessen durch Leistungstests (z. B. Twitch-Interpolation, transkranielle Magnetstimulation, Aufgaben mit anhaltender Kraft). Bei ME/CFS ist sie formal von der Fatigue (der subjektiven Wahrnehmung von Erschöpfung) zu unterscheiden; der ICF kodiert sie getrennt (b1300 Energieniveau vs. b4552 Fatigability). Die Evidenz deutet darauf hin, dass ein zentraler (hirnebenener) Ausfall des motorischen Antriebs zur ME/CFS-Fatigability beiträgt."
+  },
+  "GABAergic": {
+    "label": "GABAerg",
+    "category": "biochemical",
+    "definition": "Bezüglich GABA, dem wichtigsten inhibitorischen Neurotransmitter des Gehirns. GABAerge Signalgebung dämpft die neuronale Erregung; eine reduzierte GABAerge (inhibitorische) Tonlage ist ein Erregungs-Inhibitions-Ungleichgewicht, das sowohl beim Angelman-Syndrom als auch bei ME/CFS vorgeschlagen wird."
+  },
+  "GES": {
+    "label": "GES",
+    "category": "diagnostic",
+    "definition": "Magenszintigraphie: ein Standard-Bildgebungstest, der misst, wie schnell die Nahrung den Magen verlässt, und zur Bestätigung oder zum Ausschluss einer Gastroparese eingesetzt wird."
+  },
+  "GFAP": {
+    "label": "GFAP",
+    "category": "protein",
+    "definition": "Saures Gliafaserprotein: ein Intermediärfilament-Protein, das von Astrozyten exprimiert wird. Seine Werte in Blut oder Liquor steigen bei Astrozytenaktivierung/-schädigung und dienen als Marker reaktiver Gliose und neuroinflammatorischer Schädigung."
+  },
+  "Gamma-delta T cell": {
+    "label": "Gamma-Delta-T-Zelle",
+    "category": "immune",
+    "definition": "Ein T-Zell-Subtyp (Gamma-Delta-/γδ-T-Zelle), der an der Schnittstelle von angeborener und adaptiver Immunität wirkt und gestresste sowie infizierte Zellen ohne MHC-Restriktion erkennt. Die BioMapAI-Multi-Omics-Analyse berichtet eine erhöhte Gamma-Delta-T-Zell-inflammatorische Aktivität (IFN-Gamma, Granzym A) bei ME/CFS, während einige Einzelzellstudien reduzierte Gamma-Delta-Zell-Häufigkeiten berichten — eine ungeklärte Aktivierungs-gegen-Depletion-Frage."
+  },
+  "HPG": {
+    "label": "HPG",
+    "category": "pathway",
+    "definition": "Hypothalamus-Hypophysen-Gonaden-Achse: der hormonelle Regelkreis, der Hypothalamus und Hypophyse des Gehirns mit den Ovarien oder Hoden verbindet und Fortpflanzung sowie Geschlechtshormonspiegel reguliert."
+  },
+  "HRQOL": {
+    "label": "HRQOL",
+    "category": "measurement",
+    "definition": "Gesundheitsbezogene Lebensqualität: die Auswirkung einer Krankheit und ihrer Behandlung auf das körperliche, psychische und soziale Wohlbefinden einer Person, üblicherweise mit Instrumenten wie dem SF-36 gemessen."
+  },
+  "HRT": {
+    "label": "HRT",
+    "category": "treatment",
+    "definition": "Hormonersatztherapie: Östrogen (und bei vorhandener Gebärmutter meist Progestogen), das nach der Menopause verabreicht wird, um Ovarialhormone zu ersetzen; der Nutzen bei ME/CFS ist unbewiesen, und das Risiko venöser Thromboembolien ist unter transdermalem Östrogen geringer als unter oralem."
+  },
+  "HSP90α": {
+    "label": "HSP90α",
+    "category": "protein",
+    "definition": "Hitzeschockprotein 90 alpha: ein molekulares Chaperon, dessen Bruchteil extrazellulär sezerniert wird, wo es die Integrinaktivierung und Ligand-Rezeptor-Signalgebung moduliert. Extrazelluläres HSP90α unterstützt die Irisin-Signalgebung über das αvβ5-Integrin; sein Mangel trägt zur Irisin-Signalresistenz bei. HSP90-Inhibitoren bauen diesen Korezeptor ab und sind NICHT indiziert."
+  },
+  "Hippurate": {
+    "label": "Hippurat",
+    "category": "molecule",
+    "definition": "Ein Harnmetabolit, der durch Konjugation von Benzoesäure mit Glycin entsteht und weitgehend die Nahrungs-Benzoatzufuhr sowie den mikrobiellen Benzoatstoffwechsel des Darms widerspiegelt. BioMapAI verbindet eine Zunahme der Benzoate-zu-Hippurat-Umwandlung mit Schlaf-, emotionalen und Fatigue-Symptomen bei ME/CFS, doch die Achse beruht auf einem einzelnen Modell plus kleinen Pilotstudien benachbarter Populationen."
+  },
+  "IRIS": {
+    "label": "IRIS",
+    "category": "condition",
+    "definition": "Immunrekonstitutionsinflammationssyndrom: eine paradoxe Verschlechterung der Symptome, wenn das Immunsystem sich erholt und eine starke Reaktion auf persistierende Antigene entfaltet; als Modell für postpartalen ME/CFS-Beginn herangezogen."
+  },
+  "Irisin": {
+    "label": "Irisin",
+    "category": "protein",
+    "definition": "Ein 112-Aminosäuren-Myokin (hormonähnliches Protein), das während körperlicher Belastung aus dem Muskel freigesetzt und durch Spaltung von FNDC5 gebildet wird. Es signalisiert über αV-Integrine (einschließlich αvβ5) und fördert mitochondriale Biogenese, Glukoseaufnahme und metabolische Anpassung. Vorgeschlagen (Souma 2026), bei ME/CFS durch erhöhtes Thrombospondin-1 funktionell antagonisiert zu werden, was zur abgestumpften metabolischen Anpassung während PEM beiträgt."
+  },
+  "Ki67": {
+    "label": "Ki67",
+    "category": "measurement",
+    "definition": "Ein Kernprotein, das während aktiver Zellteilung exprimiert wird und in Gewebestudien als Marker proliferierender (sich teilender) Zellen dient."
+  },
+  "LH": {
+    "label": "LH",
+    "category": "measurement",
+    "definition": "Luteinisierendes Hormon: ein Hypophysenhormon, dessen Anstieg den Eisprung auslöst; zur Bestätigung der Menstruationszyklusphase gemessen."
+  },
+  "Lactate-to-creatine ratio": {
+    "label": "Laktat-zu-Kreatin-Verhältnis (Lac/tCr)",
+    "category": "biomarker",
+    "definition": "Ein Verhältnis aus der Protonen-Magnetresonanzspektroskopie, das die Laktatwerte des Gehirns gegen Kreatin als interne Referenz indexiert. Ein erhöhtes Ruhe-Lac/tCr im Thalamus wird bei ME/CFS berichtet und als Hinweis auf eine glykolytische Verschiebung oder bioenergetische Ineffizienz interpretiert."
+  },
+  "LepR": {
+    "label": "LepR",
+    "category": "receptor",
+    "definition": "Leptin-Rezeptor: der Zelloberflächenrezeptor für das Stoffwechselhormon Leptin. Leptin-Rezeptor-Neuronen im Hypothalamus übermitteln Sättigungs- und Energiestatussignale und helfen, den Stoffwechselzustand mit den zirkadianen Rhythmen zu koppeln."
+  },
+  "MAGMA": {
+    "label": "MAGMA",
+    "category": "method",
+    "definition": "Multi-marker Analysis of GenoMic Annotation: eine Rechenmethode, die prüft, ob Gengruppen (Gen-Sets) gemeinsam mit einer Krankheit oder Eigenschaft assoziiert sind; sie wird für Gen-Set-Anreicherungsanalysen von Ergebnissen genomweiter Assoziationsstudien (GWAS) verwendet."
+  },
+  "MAIT": {
+    "label": "MAIT",
+    "category": "immune",
+    "definition": "Mukosa-assoziierte invariante T-Zelle: eine angeborene-artige T-Zelle, die an Schleimhautoberflächen (Darm, Lunge) angereichert ist und rasch auf mikrobielle Metaboliten reagiert. Bei ME/CFS berichten KI-getriebene Multi-Omics-Modelle eine erhöhte MAIT-inflammatorische Aktivität (IFN-Gamma, Granzym A), während Einzelzellstudien bei Long COVID eine MAIT-Depletion berichten — eine möglicherweise orthogonale Aktivierungs-gegen-Depletion-Spannung, die ungeklärt bleibt."
+  },
   "ME/CFS": {
     "label": "ME/CFS",
     "category": "disease",
@@ -29,6 +239,76 @@
     "synonyms": [
       "Myalgische Enzephalomyelitis / Chronisches Fatigue-Syndrom"
     ]
+  },
+  "MFI-20": {
+    "label": "MFI-20",
+    "category": "test",
+    "definition": "Multidimensionales Fatigue-Inventar: ein Selbstbericht-Fragebogen mit 20 Items zur Messung von fünf Fatigue-Dimensionen (allgemein, körperlich, reduzierte Aktivität, reduzierte Motivation, mentale Fatigue). Misst allgemeine Fatigue; erfasst post-exertionelle Malaise nicht allein durch sich selbst."
+  },
+  "MSNA": {
+    "label": "MSNA",
+    "category": "measurement",
+    "definition": "Muskuläre sympathische Nervenaktivität: ein direktes Maß für die Ausströmung des sympathischen Nervensystems zu den Muskeln, in der autonomen Forschung verwendet."
+  },
+  "Metabolomics": {
+    "label": "Metabolomik",
+    "category": "method",
+    "definition": "Die umfassende Messung von Kleinstmolekül-Metaboliten (Zucker, Lipide, Aminosäuren, organische Säuren) in einer biologischen Flüssigkeit oder einem Gewebe. Plasma-Metabolomik ist eine Omics-Ebene zur Profilierung von ME/CFS; integrierte Multi-Omics-Analysen kombinieren sie mit Metagenomik und Immunprofilierung, um Krankheitssignaturen zu erkennen, die für keine einzelne Ebene sichtbar sind."
+  },
+  "Metagenomics": {
+    "label": "Metagenomik",
+    "category": "method",
+    "definition": "Sequenzierung von DNA direkt aus einer mikrobiellen Gemeinschaft (z. B. dem Darmmikrobiom) ohne Kultivierung einzelner Spezies, die taxonomische Zusammensetzung und funktionelles Genpotenzial offenlegt. Darm-Metagenomik ist eine Kern-Omics-Ebene in ME/CFS-Mikrobiom-Immun-Metabolom-Crosstalk-Modellen wie BioMapAI."
+  },
+  "Multi-omics": {
+    "label": "Multi-Omics",
+    "category": "method",
+    "definition": "Die integrierte Analyse mehrerer molekularer Datenschichten (Genomik, Metagenomik, Transkriptomik, Proteomik, Metabolomik, Immunprofilierung) in denselben Proben. Multi-Omics-Integration kann koordinierte krankheitsübergreifende Signaturen aufdecken — z. B. den BioMapAI-Befund, dass keine einzelne Omics-Ebene ME/CFS von Kontrollen trennt, wohl aber deren Integration."
+  },
+  "NSCa": {
+    "label": "NSCa",
+    "category": "cell_type",
+    "definition": "Ein ruhender neuraler Stammzellzustand im adulten Gyrus dentatus des Hippocampus; die Akkumulation von NSCa-Zellen wird als Beleg dafür verwendet, dass die Neurogenese gestoppt und nicht erschöpft ist."
+  },
+  "Na/K-ATPase": {
+    "label": "Na/K-ATPase",
+    "category": "enzyme",
+    "definition": "Natrium-Kalium-Adenosintriphosphatase: die Membranpumpe, die das Ruhepotenzial erregbarer Zellen (Muskelfasern, Nerven) aufrechterhält, indem sie pro ATP drei Na⁺ exportiert und zwei K⁺ importiert. Ein Ausfall depolarisiert die Zellen und trägt zu Krämpfen und Übererregbarkeit bei."
+  },
+  "NfL": {
+    "label": "NfL",
+    "category": "biomarker",
+    "definition": "Neurofilament-Leichtkette: ein strukturelles Protein, das bei Schädigung von Nervenfasern in Blut und Liquor freigesetzt wird. Erhöhtes NfL wird als allgemeiner Marker fortlaufender axonaler/neuronaler Schädigung und Neurodegeneration verwendet und als krankheitsübergreifender Marker der ZNS-Pathologie untersucht."
+  },
+  "OPG": {
+    "label": "OPG (Osteoprotegerin)",
+    "category": "molecule",
+    "definition": "Osteoprotegerin: ein Köderrezeptor, der RANKL bindet und so verhindert, dass RANKL Osteoklasten aktiviert, wodurch die Knochenresorption gehemmt wird. Ein niedriges OPG-zu-RANKL-Verhältnis begünstigt den Knochenabbau."
+  },
+  "Osteoporosis": {
+    "label": "Osteoporose",
+    "category": "condition",
+    "definition": "Eine Knochenerkrankung, bei der Knochenmineraldichte und -qualität abnehmen, wodurch die Knochen brüchig werden und leichter brechen. Bei ME/CFS ist sie relevant, weil anhaltend reduzierte Mobilität bei mittelschwerer bis schwerer Erkrankung Inaktivitäts-Knochenverlust fördern kann, obwohl keine direkte ME/CFS-Osteoporosestudie existiert (siehe ch30 bone-density-osteoporosis)."
+  },
+  "P1NP": {
+    "label": "P1NP (Procollagen Typ 1 N-terminales Propeptid)",
+    "category": "measurement",
+    "definition": "Ein Nebenprodukt der Kollagensynthese, das während der Knochenbildung freigesetzt wird; Serum-P1NP ist ein Knochenumsatzmarker zur Beurteilung der Knochenbildungsrate, neben Resorptionsmarkern wie CTX."
+  },
+  "P3b": {
+    "label": "P3b",
+    "category": "test",
+    "definition": "P3b: die späte (300–600 ms) zentroparietale Komponente des ereigniskorrelierten Potenzials (ERP), die die Allokation von Aufmerksamkeitsressourcen und die Zielbewertung abbildet. In der L-Theanin-Koffein-ADHS-Studie zeigten erhöhte P3b-Amplitude und verringerte Latenz eine verstärkte neurale Allokation auf selektive Aufmerksamkeit."
+  },
+  "PCOS": {
+    "label": "PCOS",
+    "category": "condition",
+    "definition": "Polyzystisches Ovarialsyndrom: eine hormonelle Erkrankung mit unregelmäßigen Perioden, erhöhten Androgenen und metabolischen Veränderungen; derzeit gibt es keine direkte Evidenz für einen Zusammenhang mit ME/CFS."
+  },
+  "PD-L1": {
+    "label": "PD-L1 (Programmed Death-Ligand 1)",
+    "category": "immunology",
+    "definition": "Der Ligand für den PD-1-Immuncheckpoint-Rezeptor, exprimiert auf antigenpräsentierenden Zellen und vielen Tumoren. Die Bindung von PD-L1 an PD-1 unterdrückt die T-Zell-Aktivierung; bei ME/CFS wird eine PD-L1-Hochregulierung auf Monozyten als Unterdrücker der CD8+-T-Zell-Funktion vorgeschlagen."
   },
   "PEM": {
     "label": "PEM",
@@ -50,6 +330,71 @@
     "category": "protein",
     "definition": "Aquaporin-4: ein Wasserkanalprotein, das stark auf den Endfüßen der Astrozyten exprimiert wird und für die glymphatische Beseitigung von Abfallprodukten des Gehirns wesentlich ist. Wird durch anhaltendes Noradrenalin gehemmt, was sympathische Überaktivierung mit beeinträchtigter Abfallbeseitigung des Gehirns bei ME/CFS verbindet.",
     "synonyms": []
+  },
+  "PSD": {
+    "label": "PSD",
+    "category": "anatomy",
+    "definition": "Postsynaptische Dichte: die proteinreiche Spezialisierung auf der Empfängerseite einer Synapse, die Neurotransmitterrezeptoren und Gerüstproteine verankert; sie ist der Ort der molekularen Maschinerie, die synaptische Verbindungen aufbaut und feinjustiert."
+  },
+  "Pressure ulcer": {
+    "label": "Dekubitus (Druckgeschwür)",
+    "category": "condition",
+    "definition": "Eine lokalisierte Schädigung von Haut und darunterliegendem Gewebe durch anhaltenden Druck, typischerweise über Knochenvorsprüngen bei immobiler oder bettlägeriger Patientinnen und Patienten; sie kann sich infizieren und bis zur Sepsis fortschreiten."
+  },
+  "RANKL": {
+    "label": "RANKL",
+    "category": "molecule",
+    "definition": "Receptor Activator of Nuclear factor-KappaB Ligand: ein Zytokin, das von Osteoblasten und anderen Zellen produziert wird, Osteoklasten aktiviert und die Knochenresorption antreibt. Erhöhtes RANKL relativ zu seinem Köder OPG begünstigt den Knochenabbau (relevant für Inaktivitäts-Knochenverlust)."
+  },
+  "RPE": {
+    "label": "RPE",
+    "category": "cell_type",
+    "definition": "Retinales Pigmentepithel: die Schicht pigmentierter Zellen hinter der Netzhaut. Im Kontext der Fleury-Studie werden gentechnisch veränderte RPE-Zellen als Verkapselungsplattform verwendet, um ein therapeutisches Protein (Leptin) in situ zu produzieren und abzugeben."
+  },
+  "Refeeding syndrome": {
+    "label": "Refeeding-Syndrom",
+    "category": "condition",
+    "definition": "Eine potenziell tödliche Stoffwechselentgleisung, wenn eine mangelernährte oder hungernde Person zu aggressiv wiederernährt wird; gekennzeichnet durch einen Abfall von Phosphor, Kalium, Magnesium und Thiamin mit Risiko von Atem- oder Kreislaufversagen und Krampfanfällen."
+  },
+  "SCN": {
+    "label": "SCN",
+    "category": "anatomy",
+    "definition": "Suprachiasmatischer Nucleus: das kleine paarige Neuronencluster im Hypothalamus, das als Master-zirkadiane Uhr fungiert, Tagesrhythmen von Schlaf, Hormonausschüttung, Temperatur und Stoffwechsel antreibt und sich auf den Hell-Dunkel-Zyklus der Umgebung zurücksetzt."
+  },
+  "SHAP": {
+    "label": "SHAP",
+    "category": "method",
+    "definition": "SHapley Additive exPlanations: eine spieltheoretische Methode, die die Vorhersage eines maschinellen Lernmodells seinen Eingabemerkmalen zuschreibt. Bei BioMapAI erzeugen SHAP-Werte eine erklärbare Konnektivitätskarte, die Omics-Merkmale mit Symptomzuschreibungen verbindet — doch diese Zuschreibungen sind Modellausgabe und wurden nicht extern validiert."
+  },
+  "SynGO": {
+    "label": "SynGO",
+    "category": "database",
+    "definition": "Synapse Gene Ontology: eine fachlich kuratierte Wissensbasis, die synaptische Gene und Prozesse systematisch mit Gene-Ontology-Begriffen annotiert (87 synaptische Orte und 179 synaptische Prozesse, aufgebaut aus publizierter Evidenz). Verwendet für Gen-Set-Anreicherungsanalysen der Synapsen-bezogenen Biologie."
+  },
+  "SynVesT-1": {
+    "label": "SynVesT-1",
+    "category": "imaging",
+    "definition": "Ein Positronen-Emissions-Tomographie(PET)-Radiotracer (18F-SynVesT-1), der an das synaptische Vesikelglykoprotein 2A (SV2A) bindet und zur Messung der synaptischen Dichte im lebenden Gehirn verwendet wird."
+  },
+  "Syncope": {
+    "label": "Synkope",
+    "category": "condition",
+    "definition": "Ohnmacht oder vorübergehender Bewusstseinsverlust infolge reduzierten Blutflusses zum Gehirn. Bei ME/CFS sind die meisten Ohnmachten orthostatisch oder neural vermittelt (benigne), aber eine Synkope mit kardialen Merkmalen, Verletzung oder abnormalem Puls erfordert eine dringende Abklärung."
+  },
+  "TAD": {
+    "label": "TAD",
+    "category": "cell",
+    "definition": "Topologisch assoziierende Domäne: eine selbstinteragierende Region der 3D-Chromosomenarchitektur, die einschränkt, welche Enhancer mit welchen Genen in Kontakt treten; gemessen durch Chromatin-Konformationsassays."
+  },
+  "TIA": {
+    "label": "TIA",
+    "category": "condition",
+    "definition": "Transitorische ischämische Attacke: eine kurze Episode neurologischer Dysfunktion durch eine vorübergehende Blockade des Blutflusses zum Gehirn ohne bleibende Schädigung. Eine TIA ist ein medizinischer Notfall, da sie auf ein hohes Risiko eines späteren Schlaganfalls hinweist und eine dringende Abklärung erfordert."
+  },
+  "TNF": {
+    "label": "TNF",
+    "category": "protein",
+    "definition": "Tumornekrosefaktor: ein proinflammatorisches Zytokin, das an systemischer Entzündung und Immunsignalgebung beteiligt ist."
   },
   "TNF-α": {
     "label": "TNF-α",
@@ -271,6 +616,36 @@
       "Liquor cerebrospinalis"
     ]
   },
+  "TRIM28": {
+    "label": "TRIM28",
+    "category": "protein",
+    "definition": "Tripartite motif-containing protein 28 (auch KAP1): ein Chromatin-organisierendes Protein, das Gensilencing und -Loops aufrechterhält und IL-2 in T-Zellen reguliert; ein vorgeschlagener vereinheitlichender Knoten über 3D-genomische, HERV- und IL-2-Befunde bei ME/CFS."
+  },
+  "TRP": {
+    "label": "TRP",
+    "category": "receptor",
+    "definition": "Transient Receptor Potential: eine große Superfamilie von Kationenkanälen, die auf diverse Stimuli reagieren (Temperatur, chemische Liganden, mechanische Dehnung, Osmolarität). TRP-Kanäle auf sensorischen Nerven und Immunzellen sind bei ME/CFS mit Schmerz, Krampfschwelle und Immundysfunktion in Verbindung gebracht worden."
+  },
+  "TTV": {
+    "label": "TTV",
+    "category": "pathogen",
+    "definition": "Torque-teno-Virus: ein Mitglied der Familie Anelloviridae, das bei den meisten gesunden Personen vorkommt. Die TTV-Last steigt, wenn die Immunkompetenz sinkt (z. B. bei Transplantat-Immunsuppression), und wird als Marker des Immunzustands bei postinfektiösen Fatigue-Erkrankungen untersucht."
+  },
+  "Thrombospondin-1": {
+    "label": "Thrombospondin-1",
+    "category": "protein",
+    "definition": "TSP-1: ein matrizelluläres Glykoprotein, das bei Thrombozyten-/Endothelaktivierung erhöht ist, die Stickstoffmonoxid-Signalgebung über CD47 unterdrückt und die Angiogenese hemmt. Vorgeschlagen als dominanter Antagonist der Irisin-Signalgebung an der HSP90α/αvβ5-Achse, der zur Irisin-Signalresistenz und beeinträchtigten metabolischen Anpassung bei ME/CFS beiträgt. Zudem Endothelaktivierungsmarker in manchen ME/CFS-Biomarker-Panels."
+  },
+  "UBE3A": {
+    "label": "UBE3A",
+    "category": "protein",
+    "definition": "Ubiquitin-Protein-Ligase E3A (auch E6AP genannt): das vom UBE3A-Gen kodierte Enzym, das Zielproteine für den Abbau durch das Proteasom markiert. Funktionsverlust von UBE3A verursacht das Angelman-Syndrom; hier als krankheitsübergreifendes Modell verwendet, weil sein Verlust die mitochondriale Energieproduktion und die inhibitorische (GABAerge) Signalgebung beeinträchtigt — zwei Domänen, die auch bei ME/CFS betroffen sind."
+  },
+  "UCB-J": {
+    "label": "UCB-J",
+    "category": "imaging",
+    "definition": "Ein Positronen-Emissions-Tomographie(PET)-Radiotracer (11C-UCB-J), der an das synaptische Vesikelglykoprotein 2A (SV2A) bindet und zur Messung der synaptischen Dichte im lebenden Gehirn verwendet wird."
+  },
   "VEGF": {
     "label": "VEGF",
     "category": "protein",
@@ -408,6 +783,61 @@
     "synonyms": [
       "Nukleärer Faktor Kappa B"
     ]
+  },
+  "VTE": {
+    "label": "VTE",
+    "category": "condition",
+    "definition": "Venöse Thromboembolie: ein Blutgerinnsel in einer Vene, einschließlich tiefer Venenthrombose und Lungenembolie; ein wichtiger Sicherheitsaspekt bei oraler Hormontherapie."
+  },
+  "Virtual hypoxia": {
+    "label": "virtuelle Hypoxie",
+    "category": "pathway",
+    "definition": "Ein Gewebezustand, in dem Zellen sich so verhalten, als wären sie trotz normaler Blut-Sauerstoffwerte von Sauerstoff ausgehungert — verursacht durch beeinträchtigte Energieproduktion (mitochondriale Dysfunktion) in Kombination mit erhöhtem Energiebedarf und nicht durch einen echten Sauerstoffmangel. Als Mechanismus bei chronischer Demyelinisierung (Multiple Sklerose) vorgeschlagen und bei ME/CFS untersucht, wo erhöhtes Ruhe-Laktat im Gehirn nahelegt, dass das Gehirn unter chronischer metabolischer Limitierung arbeiten könnte."
+  },
+  "bisphosphonate": {
+    "label": "Bisphosphonat",
+    "category": "medication_class",
+    "definition": "Eine Klasse von Medikamenten (z. B. Alendronat, Risedronat), die die osteoklastenvermittelte Knochenresorption hemmen, indem sie die Farnesylpyrophosphat-Synthase blockieren; sie wird zur Behandlung der Osteoporose eingesetzt. Bei ME/CFS können Nebenwirkungen mit Symptomen überlappen, und die Verabreichung (aufrechte Haltung, leerer Magen) ist für bettlägerige Patienten schwierig."
+  },
+  "checkpoint": {
+    "label": "Immuncheckpoint",
+    "category": "immunology",
+    "definition": "Inhibitorische Rezeptoren (z. B. PD-1, CTLA-4), die die T-Zell-Aktivierung zügeln. Tumoren nutzen Checkpoints, um der Immunität zu entgehen; Checkpoint-Blockade-Antikörper sind eine Krebstherapie. Bei ME/CFS weisen erhöhte Checkpoint-Marker auf eine T-Zell-Erschöpfung hin."
+  },
+  "chromatin": {
+    "label": "Chromatin",
+    "category": "cell",
+    "definition": "Der Komplex aus DNA und Proteinen (Histonen), der das Genom verpackt; sein dreidimensionaler Faltungszustand reguliert die Genexpression und wird durch Chromosomen-Konformationsplattformen wie EpiSwitch gemessen."
+  },
+  "dysvirosis": {
+    "label": "Dysvirose",
+    "category": "concept",
+    "definition": "Eine Dysregulation des humanen Viroms — der Gemeinschaft von Viren, die normalerweise persistierend im Körper vorkommen, ohne Krankheit zu verursachen. In der Long-COVID- und ME/CFS-Forschung bezeichnet Dysvirose Verschiebungen in der chronischen Virenlast (besonders der Anelloviren), die eine veränderte Immunregulation und nicht eine aktive Virusinfektion widerspiegeln."
+  },
+  "gastric emptying scintigraphy": {
+    "label": "Magenszintigraphie",
+    "category": "diagnostic",
+    "definition": "Ein Standard-Bildgebungstest (abgekürzt GES), der die Bewegung einer markierten Mahlzeit durch den Magen verfolgt, um zu messen, wie schnell sie geleert wird; er wird zur Diagnose einer Gastroparese eingesetzt."
+  },
+  "gastroparesis": {
+    "label": "Gastroparese",
+    "category": "condition",
+    "definition": "Verzögerte Magenentleerung, die frühes Sättigungsgefühl, Übelkeit, Erbrechen, Blähungen und abdominelle Beschwerden verursacht. Bei ME/CFS wird vermutet, dass sie eine autonome (vagale) Dysfunktion der Magenmotilität widerspiegelt und in schweren Fällen die Ernährung gefährden kann."
+  },
+  "iPSC": {
+    "label": "iPSC",
+    "category": "method",
+    "definition": "Induzierte pluripotente Stammzellen: adulte Zellen, die in einen embryonal-artigen Zustand zurückprogrammiert und dann in interessierende Zelltypen (z. B. Neuronen) für die Krankheitsmodellierung im Labor differenziert werden. Hier referenziert als Weg zu testen, ob patientenabgeleitete Neuronen die zellulären Defekte reproduzieren, die in Angelman-Syndrom-Modellen gesehen werden."
+  },
+  "immunotherapy": {
+    "label": "Immuntherapie",
+    "category": "treatment",
+    "definition": "Behandlungen, die das Immunsystem modulieren, um Krankheiten zu bekämpfen (z. B. Checkpoint-Inhibitoren, CAR-T). Es gibt keine Evidenzbasis für eine Onkologie-artige Immuntherapie bei ME/CFS; unselektierte Immuntherapie ist in Studien gescheitert."
+  },
+  "interstitial cells of Cajal": {
+    "label": "Interstitielle Zellen von Cajal",
+    "category": "cell",
+    "definition": "Die „Schrittmacherzellen“ von Magen und Darm, die den elektrischen Rhythmus erzeugen, der die Muskelkontraktion antreibt. Der Verlust dieser Zellen findet sich bei diabetischer und idiopathischer Gastroparese."
   },
   "mTOR": {
     "label": "mTOR",
@@ -3573,6 +4003,41 @@
     "definition": "Hauptkomponentenanalyse: eine Dimensionsreduktionstechnik, die orthogonale Komponenten identifiziert, die die maximale Varianz in multivariaten Daten erklären. Wird in ME/CFS-Metabolomik- und Zytokin-Studien verwendet, um latente biologische Dimensionen zu identifizieren.",
     "synonyms": []
   },
+  "nestin": {
+    "label": "Nestin",
+    "category": "protein",
+    "definition": "Ein Intermediärfilament-Protein, das von neuralen Stamm- und Vorläuferzellen exprimiert wird und als Marker der Stammzellaktivität im Gehirn dient."
+  },
+  "prokinetic": {
+    "label": "Prokinetikum",
+    "category": "treatment",
+    "definition": "Eine Klasse von Medikamenten, die die Bewegung der Nahrung durch den Magen-Darm-Trakt stimuliert und zur Behandlung der Gastroparese eingesetzt wird. Beispiele sind Metoclopramid, Domperidon und Prucaloprid."
+  },
+  "prucalopride": {
+    "label": "Prucaloprid",
+    "category": "medication",
+    "definition": "Ein hochselektives 5-HT4-Agonist-Prokinetikum, das (oft off-label) bei Gastroparese und chronischer Obstipation eingesetzt wird. Es stimuliert die Darmmotilität mit einem geringeren berichteten kardiovaskulären/QT-Risiko als manche älteren Prokinetika."
+  },
+  "sarcolemmal": {
+    "label": "sarkolemmal",
+    "category": "anatomy",
+    "definition": "Bezüglich des Sarkolemms, der Zellmembran einer Muskelfaser; sein Ruhepotenzial und Ionengleichgewicht werden durch die Na⁺/K⁺-ATPase-Pumpe aufrechterhalten."
+  },
+  "scRNA-seq": {
+    "label": "scRNA-seq (Einzelzell-RNA-Sequenzierung)",
+    "category": "method",
+    "definition": "Eine Technik zur Messung der Genexpression in einzelnen Zellen, die zur Charakterisierung von Immunzellzuständen wie der T-Zell-Erschöpfung bei ME/CFS und Long COVID verwendet wird."
+  },
+  "sclerostin": {
+    "label": "Sclerostin",
+    "category": "molecule",
+    "definition": "Ein Protein, das hauptsächlich von Osteozyten sezerniert wird und die Knochenbildung hemmt, indem es die Wnt-Signalgebung unterdrückt. Sclerostin steigt an, wenn der Knochen mechanisch entlastet wird (z. B. Bettruhe), und trägt zum Inaktivitäts-Knochenverlust bei."
+  },
+  "small-fiber neuropathy": {
+    "label": "Small-Fiber-Neuropathie",
+    "category": "condition",
+    "definition": "Schädigung der dünnen Nervenfasern, die Schmerz und Temperatur übermitteln und die autonome Funktion steuern; bei einem Teil der ME/CFS-Patienten dokumentiert und mit Krämpfen und Dysautonomie assoziiert."
+  },
   "t-SNE": {
     "label": "t-SNE",
     "category": "method",
@@ -4112,6 +4577,11 @@
     "category": "pathway",
     "definition": "Die Synthese von Glukose aus nicht-kohlenhydrathaltigen Vorstufen (Laktat, Aminosäuren, Glycerol) in Leber und Nieren. Kritisch für die Aufrechterhaltung des Blutglukosespiegels während des Fastens; kann bei ME/CFS dysreguliert sein und zu hypoglykämieähnlichen Symptomen beitragen.",
     "synonyms": []
+  },
+  "teriparatide": {
+    "label": "Teriparatid",
+    "category": "medication",
+    "definition": "Eine rekombinante Form des Parathormons, das per Injektion verabreicht wird, um die Knochenbildung bei Osteoporose zu stimulieren (anabole Therapie). Seine Nebenwirkungen (Übelkeit, Flush, Myalgie, Hyperkalzämie) überlappen mit ME/CFS-Symptomen."
   },
   "β-oxidation": {
     "label": "β-oxidation",
@@ -12904,6 +13374,209 @@
     "category": "bildgebung",
     "definition": "Quantitative Suszeptibilitätskartierung: eine MRT-Technik zur Messung der lokalen magnetischen Suszeptibilität, verwendet zur Quantifizierung von Hirneisen und zur Unterscheidung von Eisenablagerung von Myelinveränderungen."
   },
+  "Crocin": {
+    "label": "Crocin",
+    "category": "phytochemical",
+    "definition": "Das wichtigste aktive Carotinoid-Glykosid von Safran (Crocus sativus), verantwortlich für dessen Farbe. Es hemmt den Serotonintransporter (SERT) und hemmt zusammen mit Safranal die Monoaminoxidase, was zu den serotonergen und potenziell Kynurenin-modulierenden Wirkungen des Safrans beiträgt."
+  },
+  "Crocetin": {
+    "label": "Crocetin",
+    "category": "phytochemical",
+    "definition": "Ein Apocarotinoid-Metabolit des Safrans (Crocus sativus). Es hemmt die SERT- und NMDA-Rezeptor-Signalgebung; wegen antioxidativer und neuroprotektiver Wirkungen untersucht."
+  },
+  "Saffron": {
+    "label": "Safran",
+    "category": "supplement",
+    "definition": "Ein Gewürz aus den getrockneten Narben von Crocus sativus. Seine Bioaktivstoffe (Crocin, Safranal, Crocetin) hemmen SERT und MAO, was serotonerge und potenziell Kynurenin-modulierende Wirkungen ergibt. Bei ME/CFS ist es ein UNBEWIESENES Mittel mit null Primär-ME/CFS-Studien und einer Null-RCT zur Fatigue; die kombinierte SERT- plus MAO-Hemmung birgt ein Serotonin-Syndrom-Risiko mit SSRIs/MAOIs. Für ME/CFS nicht empfohlen."
+  },
+  "Safranal": {
+    "label": "Safranal",
+    "category": "phytochemical",
+    "definition": "Ein flüchtiges Monoterpen-Aldehyd des Safrans, verantwortlich für dessen Aroma. Es hemmt die Monoaminoxidase A/B und reguliert in Nagetiermodellen neurotoxische Kynurenin-Pathway-Komponenten herunter."
+  },
+  "Serotonin syndrome": {
+    "label": "Serotonin-Syndrom",
+    "category": "condition",
+    "definition": "Ein potenziell lebensbedrohlicher Zustand durch übermäßige serotonerge Aktivität, typischerweise durch die Kombination serotonerger Medikamente (SSRIs, SNRIs, MAOIs) oder serotonerger Nahrungsergänzungsmittel wie Safran oder 5-HTP. Zu den Merkmalen gehören Agitation, Tachykardie, Hyperthermie und Muskelrigidität; es erfordert dringende medizinische Behandlung."
+  },
+  "fibromyalgia": {
+    "label": "Fibromyalgie",
+    "category": "condition",
+    "definition": "Fibromyalgie: ein chronisches Schmerzsyndrom, gekennzeichnet durch weit verbreitete muskuloskelettale Schmerzen, Fatigue, nicht erholsamen Schlaf und kognitive Schwierigkeiten. Genetisch eine Störung des zentralen Nervensystems (noziplastisch); tritt bei 20–70 % der Fälle zusammen mit ME/CFS auf."
+  },
+  "nociplastic": {
+    "label": "noziplastisch",
+    "category": "condition",
+    "definition": "Noziplastischer Schmerz: Schmerz, der aus einer veränderten nozizeptiven Verarbeitung (zentrale Sensibilisierung) im Nervensystem entsteht, ohne klare periphere Gewebeschädigung oder Entzündung. Fibromyalgie ist das prototypische noziplastische Schmerzsyndrom."
+  },
+  "HTT": {
+    "label": "HTT",
+    "category": "gene",
+    "definition": "HTT (Huntingtin): das Gen, das Huntingtin kodiert und dessen Expansion die Huntington-Krankheit verursacht. Eine kodierende Variante in HTT war das stärkste Risikosignal in der größten Fibromyalgie-GWAS."
+  },
+  "GPR52": {
+    "label": "GPR52",
+    "category": "receptor",
+    "definition": "GPR52: ein verwaister G-Protein-gekoppelter Rezeptor, der die Huntingtin-Spiegel negativ reguliert. Ein GPR52-Risiko-Lokus ist zwischen Fibromyalgie- und ME/CFS-Genetik geteilt; GPR52 ist ein investigatives Medikamentenziel der Huntington-Krankheit."
+  },
+  "PRS": {
+    "label": "PRS",
+    "category": "method",
+    "definition": "Polygener Risikoscore: ein einzelnes quantitatives Maß, das die Wirkungen Tausender genetischer Varianten aggregiert, um die vererbte Krankheitsanfälligkeit einer Person zu schätzen."
+  },
+  "Corticomuscular coherence": {
+    "label": "Kortikomuskuläre Kohärenz",
+    "category": "measurement",
+    "definition": "Ein Maß dafür, wie synchronisiert die elektrische Aktivität des Gehirns (motorischer Kortex) während einer Aufgabe mit der elektrischen Aktivität eines Muskels ist. Bei ME/CFS deutet ein fehlender Anstieg der kortikomuskulären Kohärenz während anhaltender Anstrengung darauf hin, dass das Gehirn seinen Antrieb zum Muskel nicht auf der Grundlage des Feedbacks vom ermüdenden Muskel anpasst."
+  },
+  "Central motor drive": {
+    "label": "Zentraler motorischer Antrieb",
+    "category": "concept",
+    "definition": "Das Ausgangssignal des Gehirns (motorischer Kortex und verbundene subkortikale Schaltkreise), das die Muskeln zur Kontraktion antreibt. Ein Versagen, den zentralen motorischen Antrieb unter anhaltender Anstrengung zu erhöhen, bedeutet, dass das Gehirn den Muskel beim Ermüden nicht stärker anstrengt, obwohl der Muskel selbst maximale Kraft erzeugen kann."
+  },
+  "Quinine": {
+    "label": "Chinin",
+    "category": "medication",
+    "definition": "Ein Antimalaria-Chinolin-Alkaloid, dessen Anti-Krampf-Wirkung vorgeschlagen auf eine Blockade der Skelettmuskel-Natrium(Nav1.4)/-Kalium(Kv7-KCNQ)-Kanäle zurückgeht (pharmakologische Zuschreibung mit geringer Konfidenz — die Kv7/KCNQ-Komponente ist nicht zitiert). Off-label gegen nächtliche Beinkrämpfe eingesetzt, aber von der FDA für diese Anwendung boxed-warned (2006) und eingeschränkt (2010), weil schwerwiegende unerwünschte Ereignisse (Immunthrombozytopenie, medikamenteninduzierte thrombotische Mikroangiopathie, QT-Verlängerung, Hämolyse bei G6PD-Mangel, Cinchonismus) seine marginale Wirksamkeit überwiegen. Für ME/CFS-Krämpfe nicht empfohlen — es existieren keine ME/CFS-Wirksamkeitsbelege."
+  },
+  "Cinchonism": {
+    "label": "Cinchonismus",
+    "category": "condition",
+    "definition": "Das dosisabhängige Toxizitätssyndrom von Chinin und anderen Chinarinden-Alkaloiden: Tinnitus, Kopfschmerz, Übelkeit, Schwindel, verschwommenes Sehen und Flush. Bei höheren Dosen kann es zu Herzrhythmusstörungen, Krampfanfällen oder Sehverlust fortschreiten. Jedes Symptom eines Cinchonismus während der Chinin-Einnahme rechtfertigt das Absetzen des Medikaments."
+  },
+  "Myotonia": {
+    "label": "Myotonie",
+    "category": "condition",
+    "definition": "Verzögerte Muskelentspannung nach einer Kontraktion, verursacht durch eine Übererregbarkeit der Muskelfasermembran — meist durch Dysfunktion von Natriumkanälen (Nav1.4/SCN4A) oder Chloridkanälen. Patienten fühlen steife oder „gefrorene“ Muskeln, die sich langsam entspannen; myotone Entladungen sind in der Elektromyographie sichtbar."
+  },
+  "Nav1.4": {
+    "label": "Nav1.4",
+    "category": "protein",
+    "definition": "Die spannungsgesteuerte Natriumkanal-α-Untereinheit, kodiert von SCN4A, der dominante Natriumkanal des adulten Skelettmuskels. Sie setzt die Muskelfaser-Erregbarkeit; Gain-of-Function-Mutationen verursachen Myotonie und schmerzhafte Krämpfe, während Loss-of-Function Schwäche verursacht. Die Anti-Krampf-Wirkung von Chinin wird teilweise der Nav1.4-Blockade zugeschrieben."
+  },
+  "SCN4A": {
+    "label": "SCN4A",
+    "category": "gene",
+    "definition": "Das Gen, das den Nav1.4-Skelettmuskel-Natriumkanal kodiert. SCN4A-Mutationen verursachen Kanalopathien wie Myotonia congenita, Paramyotonie und manche periodischen Paralysen, die durch schmerzhafte Krämpfe und verzögerte Muskelentspannung gekennzeichnet sind."
+  },
+  "QT prolongation": {
+    "label": "QT-Verlängerung",
+    "category": "condition",
+    "definition": "Ein abnormal langes QT-Intervall im EKG, das eine verzögerte kardiale ventrikuläre Repolarisation widerspiegelt. Es erhöht das Risiko einer gefährlichen Herzrhythmusstörung namens Torsades de pointes (TdP). Viele Medikamente, einschließlich Chinin und einiger häufiger ME/CFS-Komedikationen (Amitriptylin, Trazodon, Betablocker, sedierende Antihistaminika), können das QT-Intervall verlängern, und ihre Kombination erhöht das Risiko."
+  },
+  "G6PD deficiency": {
+    "label": "G6PD-Mangel",
+    "category": "condition",
+    "definition": "Glukose-6-phosphat-Dehydrogenase-Mangel, ein erblicher Enzymmangel (X-chromosomal), der die Fähigkeit des roten Blutkörperchens verringert, oxidativen Stress zu bewältigen. Die Exposition gegenüber bestimmten Medikamenten (einschließlich Chinin und anderen Antimalariamitteln) kann eine akute Hämolyse (Zerstörung roter Blutkörperchen) und Anämie auslösen. G6PD-Mangel ist eine Kontraindikation für Chinin."
+  },
+  "Immune thrombocytopenia": {
+    "label": "Immunthrombozytopenie",
+    "category": "condition",
+    "definition": "Ein Zustand, bei dem Antikörper Blutplättchen zerstören, was eine niedrige Thrombozytenzahl (Thrombozytopenie) und ein Risiko von Blutungen oder Blutergüssen verursacht. Chinin ist eine gut dokumentierte Ursache der Immunthrombozytopenie und eines schweren verwandten Syndroms, der medikamenteninduzierten thrombotischen Mikroangiopathie (TMA), die Nieren und Nervensystem schädigen kann."
+  },
+  "IHHT": {
+    "label": "IHHT",
+    "category": "treatment",
+    "definition": "Intermittierende Hypoxie-Hyperoxie-Behandlung: wiederholte Zyklen von sauerstoffarmer (hypoxischer) und sauerstoffreicher (hyperoxischer) Luft bei normalem Umgebungsdruck, verabreicht durch ein Gerät, das den eingeatmeten Sauerstoff variiert. Vorgeschlagen, milde hormetische Anpassungsreaktionen auszulösen (HIF-1α-Stabilisierung, mitochondriale Antioxidans-/Reparaturpfade). Wird in der REenergizeME-Studie für ME/CFS getestet; noch nicht als wirksam erwiesen."
+  },
+  "hyperoxia": {
+    "label": "Hyperoxie",
+    "category": "concept",
+    "definition": "Ein Zustand erhöhter Sauerstoffwerte über dem Normalwert in Körpergeweben, typischerweise durch das Atmen erhöhten Sauerstoffs. Bei der IHHT ist es die sauerstoffreiche Phase zwischen hypoxischen Expositionen."
+  },
+  "FiO2": {
+    "label": "FiO2",
+    "category": "measurement",
+    "definition": "Fraktion des inspirierten Sauerstoffs: der Anteil der eingeatmeten Luft, der Sauerstoff ist (Umgebungsluft ist ~21 %). In der hypoxischen Phase der IHHT gesenkt und in der hyperoxischen Phase erhöht."
+  },
+  "SpO2": {
+    "label": "SpO2",
+    "category": "measurement",
+    "definition": "Periphere kapilläre Sauerstoffsättigung: eine Schätzung des Prozentsatzes an Sauerstoff, der von Hämoglobin im Blut getragen wird, nicht-invasiv mit einem Pulsoximeter gemessen. Wird während der IHHT kontinuierlich überwacht."
+  },
+  "Sudoscan": {
+    "label": "Sudoscan",
+    "category": "measurement",
+    "definition": "Ein nicht-invasives Gerät, das die elektrochemische Hautleitfähigkeit misst, um die Schweißdrüsenfunktion und die Integrität der dünnen autonomen Nervenfasern an Händen und Füßen zu beurteilen. Zur Bewertung der autonomen Small-Fiber-Neuropathie eingesetzt."
+  },
+  "HypoxBreath": {
+    "label": "HypoxBreath",
+    "category": "device",
+    "definition": "Ein CE-gekennzeichnetes medizinisches Gerät, das intermittierende Hypoxie-Hyperoxie verabreicht, indem es die Fraktion des inspirierten Sauerstoffs dynamisch anpasst. In der REenergizeME-IHHT-Studie eingesetzt."
+  },
+  "REenergizeME": {
+    "label": "REenergizeME",
+    "category": "study",
+    "definition": "Eine registrierte randomisierte, placebokontrollierte Studie, die die intermittierende Hypoxie-Hyperoxie-Behandlung (IHHT) bei weiblichen ME/CFS-Patienten testet, die die Internationalen Konsensuskriterien erfüllen. Rekrutierung begann Juni 2026; Ergebnisse für 2029 erwartet."
+  },
+  "Prolactin": {
+    "label": "Prolaktin",
+    "category": "hormone",
+    "definition": "Ein Hormon, das von der Hypophyse gebildet wird. Am bekanntesten für die Stimulierung der Milchproduktion nach der Geburt, hat es auch kleinere Rollen in vielen Körpersystemen. Dopamin ist die wichtigste Bremse der Prolaktinausschüttung, daher ist sein Spiegel ein Auslesewert der Dopaminsignalgebung an der Hypophyse."
+  },
+  "Buspirone": {
+    "label": "Buspiron",
+    "category": "medication",
+    "definition": "Ein Angstlöser, der ein Serotonin-5-HT1A-Rezeptoragonist ist und auch Dopamin-D2-Rezeptoren blockiert. Als Einzeldosis-Challenge verabreicht, löst er einen vorübergehenden Prolaktinanstieg aus und dient daher als neuroendokrine Sonde zur Prüfung der Dopamin- und Serotoninregulation.",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Buspirone%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Buspirone"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Buspirone"
+      }
+    ]
+  },
+  "Estradiol": {
+    "label": "Estradiol",
+    "category": "hormone",
+    "definition": "Das wichtigste weibliche Sexualhormon (eine Form von Östrogen). Es reguliert viele Prozesse einschließlich der Prolaktin-Achse: Es moduliert sowohl die Dopaminbremse auf Prolaktin als auch die Lactotrophen-Funktion."
+  },
+  "Dopamine": {
+    "label": "Dopamin",
+    "category": "neurotransmitter",
+    "definition": "Ein chemischer Botenstoff im Gehirn und Körper, der an Belohnung, Motivation, Bewegung und Hormonregulation beteiligt ist. Es ist der wichtigste Hemmstoff (Bremse) der Prolaktinausschüttung aus der Hypophyse."
+  },
+  "Serotonin": {
+    "label": "Serotonin",
+    "category": "neurotransmitter",
+    "definition": "Ein chemischer Botenstoff, der an Stimmung, Schlaf, Appetit und vielen anderen Funktionen beteiligt ist. Es beeinflusst auch die Prolaktinregulation; Buspiron wirkt teilweise durch Stimulation von Serotoninrezeptoren."
+  },
+  "Fenfluramine": {
+    "label": "Fenfluramin",
+    "category": "medication",
+    "definition": "Ein Medikament, das Serotonin freisetzt. In Challenge-Tests wurde es zur Prüfung der serotonergen Funktion eingesetzt; anders als Buspiron blockiert es Dopamin-D2 nicht, sodass es die Serotoninkomponente isoliert.",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Fenfluramine%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Fenfluramine"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Fenfluramine"
+      }
+    ]
+  },
+  "Lactotroph": {
+    "label": "Laktotrophe Zelle",
+    "category": "cell",
+    "definition": "Ein Zelltyp in der Hypophyse, der Prolaktin bildet und freisetzt. Seine Aktivität wird durch Dopamin, das auf D2-Rezeptoren wirkt, niedrig gehalten."
+  },
+  "TIDA": {
+    "label": "TIDA",
+    "category": "pathway",
+    "definition": "Tuberoinfundibuläre dopaminerge Neuronen: eine kleine Gruppe von Hirnneuronen, deren Dopamin zur Hypophyse gelangt und die Prolaktinausschüttung unterdrückt hält. Reduzierte TIDA-Aktivität lässt Prolaktin ansteigen."
+  },
   "Enteral feeding": {
     "label": "Enterale Ernährung",
     "category": "treatment",
@@ -12923,5 +13596,69 @@
     "label": "Aktivitäten des täglichen Lebens",
     "category": "condition",
     "definition": "Die routinemäßigen Selbstpflegeaufgaben des Alltags — Waschen, Anziehen, Essen, Toilettengang und Fortbewegung. Eine häusliche Beurteilung dieser Aufgaben ist ein zentraler Teil der Versorgungsplanung bei schwerem ME/CFS."
+  },
+  "ALR": {
+    "label": "ALR",
+    "category": "concept",
+    "definition": "Abortive lytische Replikation: Herpesviren exprimieren frühe Proteine, ohne Virionen zu produzieren."
+  },
+  "dUTPase": {
+    "label": "dUTPase",
+    "category": "enzyme",
+    "definition": "Desoxyuridin-Triphosphatase: ein konserviertes Herpesvirus-Enzym und wirksames Pathogen-assoziiertes molekulares Muster (PAMP). Die dUTPase von EBV aktiviert Mastzellen."
+  },
+  "histaminylation": {
+    "label": "Histaminylierung",
+    "category": "mechanism",
+    "definition": "Kovalente Modifikation von Kollagenfibrillen durch Mastzell-Histamin. Ein MMP-unabhängiger Weg zur Gewebslaxizität."
+  },
+  "matrix stiffness": {
+    "label": "Matrixsteifigkeit",
+    "category": "concept",
+    "definition": "Die mechanische Eigenschaft der extrazellulären Matrix, die die Kraftübertragung dämpft. Bei Hypermobilität reduziert."
+  },
+  "PAR2": {
+    "label": "PAR2",
+    "category": "receptor",
+    "definition": "Protease-aktivierter Rezeptor 2: wird durch mastzelluläre Tryptase aktiviert. Die biochemische Brücke zwischen MCAS und noziplastischem Schmerz/Fibromyalgie."
+  },
+  "QSART": {
+    "label": "QSART",
+    "category": "diagnostic",
+    "definition": "Quantitativer sudomotorischer Axonreflextest: misst die Funktion autonomer kleiner Fasern."
+  },
+  "QST": {
+    "label": "QST",
+    "category": "diagnostic",
+    "definition": "Quantitative sensorische Testung: misst Detektionsschwellen. Unterscheidet Faserverlust von zentraler Sensibilisierung."
+  },
+  "renin-aldosterone paradox": {
+    "label": "Renin-Aldosteron-Paradox",
+    "category": "concept",
+    "definition": "Der Befund, dass Renin und Aldosteron niedrig sind, obwohl das Blutvolumen objektiv niedrig ist."
+  },
+  "Rifaximin": {
+    "label": "Rifaximin",
+    "category": "medication",
+    "definition": "Ein nicht resorbierbares Antibiotikum für wasserstoffdominantes SIBO. SIBO kehrt in ~44 % der Fälle nach 9 Monaten zurück, wenn die Motilität nicht behandelt wird.",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Rifaximin%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Rifaximin"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Rifaximin"
+      }
+    ]
+  },
+  "Septad": {
+    "label": "Septad",
+    "category": "concept",
+    "definition": "Die sieben interagierenden Pathophysiologien, die gemeinsam mit ME/CFS auftreten: Verstärker, keine Koinzidenzen."
   }
 }

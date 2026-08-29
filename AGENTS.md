@@ -21,7 +21,7 @@ code comments, commit messages, file contents, or command output.
 nix build              # → result/loth2026-mecfs.pdf
 nix build .#web        # → result/ (HTML site)
 nix build .#web-full   # → result/ (HTML + PDF)
-nix flake check         # section-audit, qmd-label-audit, typst-source-audit, blog-audit
+nix flake check         # section-audit, qmd-label-audit, typst-source-audit, blog-audit, glossary-test
 nix run .#clean         # .cache, .build, result, *.pdf in src/main/typst/
 nix develop             # Dev shell (typst, quarto, jdk25; TYPST_PACKAGE_CACHE_PATH, TYPST_FONT_PATHS preset)
 ```

@@ -343,6 +343,7 @@
             ];
             buildPhase = ''
               node --test src/test/js/glossary-tooltip.test.js
+              node --test src/test/js/glossary-parity.test.js
             '';
             installPhase = ''
               mkdir -p $out
