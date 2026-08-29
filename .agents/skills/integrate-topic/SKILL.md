@@ -1433,7 +1433,7 @@ The Nix derivation uses `git ls-files` to enumerate source files. Untracked `.ty
 
 **When to run:** After Phase 10 (cross-chapter coherence), before Phase 11 (review convergence). Coherence must be verified before synthesis, since the synthesis cross-references the integrated environments.
 
-**Trigger condition:** This phase runs when ≥2 environments jointly argue a distinct convergent point (previously: ≥3 across ≥2 chapters — the higher threshold silently dropped useful syntheses). For a single environment that stands alone, skip. When 2+ environments form a convergent argument OR the integration is single-chapter with ≥2 related environments: do NOT silently skip — flag to the user: "N environments integrated that may warrant a #synthesis box (single chapter). Add one, or skip?" Wait for answer. This removes the silent-skip failure mode where a coherent sub-argument shipped without any synthesis surface.
+**Trigger condition:** This phase runs when ≥2 environments jointly argue a distinct convergent point (previously: ≥3 across ≥2 chapters — the higher threshold silently dropped useful syntheses). For a single environment that stands alone, skip. When 2+ environments form a convergent argument OR the integration is single-chapter with ≥2 related environments: **add the `#synthesis` box automatically** (user decision 2026-08-29: "make this automatic instead of each time asking me"). Do not ask first — write the box per the procedure below and note in the Phase 10a report that it was auto-added per the standing default; the user may request removal of any auto-added synthesis. This removes both the silent-skip failure mode and the per-cycle question friction.
 
 **Procedure:**
 
