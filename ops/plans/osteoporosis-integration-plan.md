@@ -26,11 +26,11 @@
 
 | # | Idea / hypothesis | Tier | Certainty | Status | Notes |
 |---|-------------------|------|-----------|--------|-------|
-| H1 | Reduced mobility in mod–severe ME/CFS raises osteoporosis risk | speculation | 0.40 | 🔵 Phase 3 done | ch30 @spec:deconditioning-osteoporosis |
-| H2 | Housebound ME/CFS → high vitamin D deficiency prevalence | open-question | 0.30 | 🔵 Phase 3 done | ch30 @oq-vitamind-housebound; Earl2017 contradict |
-| H3 | Restricted/avoidant diets risk calcium deficiency | speculation | 0.25 | 🔵 Phase 3 done | ch30 @spec-calcium-deficiency |
-| H4 | Weight-bearing exercise not achievable mod–severe; needs alternative | open-question | 0.40 | 🔵 Phase 3 done | ch30 @oq-weightbearing-infeasible |
-| T | Osteoporosis treatment (bisphosphonates/anabolics/vit D/calcium) + ME/CFS caveats | limitation | n/a | 🔵 Phase 3 done | ch30 bone-density-osteoporosis subsection |
+| H1 | Reduced mobility in mod–severe ME/CFS raises osteoporosis risk | speculation | 0.40 | ✅ done | ch30 @spec:deconditioning-osteoporosis |
+| H2 | Housebound ME/CFS → high vitamin D deficiency prevalence | open-question | 0.30 | ✅ done | ch30 @oq-vitamind-housebound; Earl2017 contradict |
+| H3 | Restricted/avoidant diets risk calcium deficiency | speculation | 0.25 | ✅ done | ch30 @spec-calcium-deficiency |
+| H4 | Weight-bearing exercise not achievable mod–severe; needs alternative | open-question | 0.40 | ✅ done | ch30 @oq-weightbearing-infeasible |
+| T | Osteoporosis treatment (bisphosphonates/anabolics/vit D/calcium) + ME/CFS caveats | limitation | n/a | ✅ done | ch30 bone-density-osteoporosis subsection |
 | 1.1 | Severity-gradient bone loss + circulating turnover markers | speculation | 0.30 | ✅ Phase 5 done | @spec-severity-gradient-boneloss |
 | 1.2 | Inflammation-driven (not just disuse) bone loss | speculation | 0.20 | ✅ Phase 5 done | @spec-inflammation-driven-boneloss |
 | 2.1 | Severity-stratified BMD + bone-turnover-marker study | open-question | 0.50 | ✅ Phase 5 done | @oq-boneloss-threshold |
@@ -135,3 +135,7 @@
 - Added `#synthesis` `@syn:osteoporosis-model` at end of @subsec:bone-density-osteoporosis (condenses 9 environments; cross-refs 5; states open question + measure-don't-assume stance; *Consequence:* present). Missing label `<lim:osteoporosis-external-validity>` added (build-caught). Build PASS.
 - Phase 10b evaluated: downstream/non-actionable + PARTIAL-weak → no framing propagation needed (valid outcome).
 - Governor note: registry entry for the synthesis is not required (synthesis environments are aggregates, not new claims).
+
+## Phase 13 — Commit (2026-08-29)
+- Commit: `82c052f5` (16 files, pathspec-limited; foreign staged index of parallel streams preserved untouched)
+- Row statuses set ✅. Integration guide: ops/research/*; chapters updated: ch30, ch34 sec-12; registry 9 entries; glossary 10 entries.
