@@ -1,3 +1,14 @@
+> **AUDIT NOTE (2026-08-29):** None of the 8 registry entry ids in this fragment
+> exist in `src/main/typst/mecfs/part4-research/hypothesis-registry.typ`.
+> Per ops/README audit rules, registry format is strict, so these were NOT
+> merged here. **MISSING entry ids:**
+> `hyp:critical-clearance-window`, `hyp:lymphocyte-reservoir`,
+> `hyp:viral-immune-metabolic-cascade`, `hyp:long-covid-progression`,
+> `hyp:early-prediction`, `hyp:reservoir-prediction`,
+> `hyp:activation-exhaustion-transition`, `spec:temporal-lock-window`.
+> Merge into the registry (converting to its strict format) before this
+> fragment is deleted.
+
 # Hypothesis Registry Additions: Viral Clearance Dynamics
 
 **Date:** 2026-05-14
