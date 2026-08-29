@@ -159,6 +159,6 @@ Standing epistemic checklist: no violations.
 | 11 | RAN | convergence (11a/11b/11c; 3 findings fixed) |
 | 12 | RAN | plan-record summary |
 | 12.5 | RAN | this ledger; build PASS; 0 OMISSION |
-| 13 | RAN | `d47837a9` (content) + `52a85eb6` (this plan record) |
+| 13 | RAN | d47837a9 + 52a85eb6 + b0b4c647 |
 
 **Gate result: 25 RAN, 1 LEGIT-SKIP (5c), 0 OMISSION, 0 WAIVED. Build PASS (PDF 0 errors, web-full PASS).** Phase 13 may proceed.
