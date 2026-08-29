@@ -45,7 +45,7 @@
 | 11 | ✅ done | Full-tier: 11c review-typst converged (R1 fixed 1 issue, R2/R3 clean); build PASS. Concurrent HEAD advance noted |
 | 12 | ✅ done | Plan record written |
 | 12.5 | ✅ done | Phase Ledger clean (see governor ledger) |
-| 13 | ⬜ pending | Commit |
+| 13 | ✅ done | Committed 6a0f1a40 (23 files, 679 insertions); build PASS |
 
 ---
 
