@@ -2,7 +2,7 @@
 
 **Date:** 2026-07-26
 **Origin:** Adversarial review convergence session — creative audit of paper structure and integration pipeline
-**Status:** ⬜ pending — no integration cycles queued yet
+**Status:** 🔵 queued 2026-08-29 — all Part A (G1–G20) and Part B (B1–B14) items entered into `ops/queued-topics.md`. Part C pipeline gaps: C1–C7 verified implemented in `integrate-topic` SKILL.md (Phase 3b safety gate, population-relevance discount, REJECT build check, DEFER→changelog + deferred-topics.md reactivation); remaining items need per-item verification.
 
 ---
 
