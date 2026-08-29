@@ -38,3 +38,5 @@ Understanding endocrine dysfunction is essential for several reasons. First, hor
 
 #include "sec-08-integrated-endocrine-metabolic-model/sec-08-integrated-endocrine-metabolic-model.typ"
 
+#include "sec-09-prolactin-axis-and-dopaminergic-regulation/sec-09-prolactin-axis-and-dopaminergic-regulation.typ"
+

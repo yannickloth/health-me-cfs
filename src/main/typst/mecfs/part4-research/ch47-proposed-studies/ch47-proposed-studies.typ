@@ -59,5 +59,6 @@ The evidence tables that motivate and constrain these proposed studies are conso
 #include "./deconditioned-matched-cpet-separation/deconditioned-matched-cpet-separation.typ"
 #include "./engineered-exosome-mediated-cn/engineered-exosome-mediated-cn.typ"
 #include "./thermoregulatory-research-prot/thermoregulatory-research-prot.typ"
+#include "./buspirone-challenge-replication/buspirone-challenge-replication.typ"
 
 #include "../hypothesis-registry.typ"
