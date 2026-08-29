@@ -1100,8 +1100,54 @@ Prevents re-processing of already-integrated content.
 ## Quinine Sulfate for Muscle/Leg Cramps — Literature Search (2026-08-29)
 | Source | Last Scraped | Notes |
 |--------|--------------|-------|
-| PubMed (E-utilities API) | 2026-08-29 | Queries: efficacy (quinine muscle cramps, nocturnal leg cramps, randomized, Cochrane, meta-analysis, systematic review, Man-Son-Hing), harm MANDATORY (quinine adverse effects, thrombocytopenia, immune thrombocytopenia, QT prolongation/cardiotoxicity, cinchonism, G6PD hemolysis, cramps safety, Liles), null/competing (cramps not recommended, magnesium Cochrane, drug treatment myotonia, non-drug therapies cramps), indirect-biochemical MANDATORY (quinine Kv7/KCNQ, Nav1.4, SCN4A myotonia cramps, skeletal muscle ion channel chronic fatigue), ME/CFS-specific (quinine ME/CFS/chronic fatigue syndrome/fibromyalgia/myalgia = 0 direct hits). Metadata via esummary/efetch (PMID/DOI verified). 11 papers added to bib/treatments.bib. Zero direct ME/CFS studies. |
+| PubMed (E-utilities API) | 2026-08-29 | Queries: efficacy (quinine muscle cramps, nocturnal leg cramps, randomized, Cochrane, meta-analysis, systematic review, Man-Son-Hing), harm MANDATORY (quinine adverse effects, thrombocytopenia, immune thrombocytopenia, QT prolongation/cardiotoxicity, cinchonism, G6PD hemolysis, cramps safety, Liles), null/competing (cramps not recommended, magnesium Cochrane, drug treatment myotonia, non-drug therapies cramps), indirect-biochemical MANDATORY (quinine Kv7/KCNQ, Nav1.4, SCN4A myotonia cramps, skeletal muscle ion channel chronic fatigue), ME/CFS-specific (quinine ME/CFS/chronic fatigue syndrome/fibromyalgia/myalgia = 0 direct hits). Metadata via esummary/efetch (PMID/DOI verified). 10 papers added to bib/treatments.bib (11 reviewed; 1 reused from corpus: Garrison2020MagnesiumCramps). Zero direct ME/CFS studies. |
 
 | URL | Source | Scraped | Integrated | Target |
 |-----|--------|---------|------------|--------|
-| PubMed E-utilities API (esearch/esummary/efetch, batch) | pubmed/eutils | 2026-08-29 | — | ops/research/search-log-quinine-sulfate-2026-08-29.md, ops/research/literature-summary-quinine-sulfate.md, bib/treatments.bib (11 new), appendix-h (11 annotated entries) — quinine sulfate off-label for leg cramps at bedtime; efficacy vs harm/boxed-warning; competing treatments; indirect ion-channel (Nav1.4/KCNQ) link to ME/CFS muscle-ion-channel chapter |
+| PubMed E-utilities API (esearch/esummary/efetch, batch) | pubmed/eutils | 2026-08-29 | — | ops/research/search-log-quinine-sulfate-2026-08-29.md, ops/research/literature-summary-quinine-sulfate.md, bib/treatments.bib (10 new), appendix-h (10 annotated entries) — quinine sulfate off-label for leg cramps at bedtime; efficacy vs harm/boxed-warning; competing treatments; indirect ion-channel (Nav1.4/KCNQ) link to ME/CFS muscle-ion-channel chapter |
+
+---
+
+## Osteoporosis & Bone Health in ME/CFS — Literature Search (2026-08-29)
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-08-29 | Queries: direct (osteoporosis ME/CFS, bone mineral density CFS, vitamin D deficiency ME/CFS, calcium deficiency chronic fatigue), indirect-biochemical MANDATORY (bone remodeling chronic fatigue, vitamin D immune chronic fatigue, mechanical unloading bone loss inactivity, RANKL OPG deconditioning, disuse osteoporosis bedrest), harm MANDATORY (bisphosphonate adverse effects/contraindications/safety bedbound, atypical femur fracture, anabolic bone therapy teriparatide side effects, vitamin D toxicity, calcium supplement cardiovascular safety), null/competing (vitamin D supplementation null fatigue trials). 8 papers added to bib. Zero direct osteoporosis-in-ME/CFS studies found (documented research gap). |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed E-utilities API (esearch/esummary/efetch, batch) | pubmed/eutils | 2026-08-29 | — | ops/research/search-log-osteoporosis-2026-08-29.md, ops/research/literature-summary-osteoporosis.md, bib/endocrine-reproductive.bib (2 new), bib/musculoskeletal.bib (3 new, new file added to build tuple), bib/treatments.bib (3 new), appendix-h (8 annotated entries) — osteoporosis risk in ME/CFS: reduced mobility/disuse bone loss, vitamin D (Earl 2017 contradicts deficiency premise), calcium deficiency gap, bisphosphonate/anabolic harm |
+
+---
+
+## Prolactin Response to Buspirone Challenge in ME/CFS — Literature Search (2026-08-29)
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) + Crossref (DOI metadata) | 2026-08-29 | Queries: direct (prolactin buspirone chronic fatigue, buspirone prolactin myalgic encephalomyelitis, prolactin response challenge chronic fatigue), null/negative (prolactin chronic fatigue negative, buspirone prolactin failed replication = 0, prolactin challenge no difference ME/CFS = 0), competing mechanisms (dopamine prolactin chronic fatigue, serotonin prolactin regulation, estradiol prolactin regulation), indirect-biochemical MANDATORY (dopamine ME/CFS, dopamine chronic fatigue, HPA prolactin, 5-HT1A serotonergic chronic fatigue, prolactin dopamine endocrine CFS, sex hormone estradiol chronic fatigue), replication context (prolactin stimulation test, pharmacological challenge test CFS, neuroendocrine challenge ME/CFS), mechanism (dopamine D2 prolactin review, dopamine inhibits prolactin lactotroph, TIDA neurons review). 14 papers added to bib. Zero modern (post-2010) replication of buspirone→prolactin in ME/CFS found (documented research gap — the line is from 1992–2001 and was abandoned). |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed E-utilities API (esearch/esummary/efetch, batch) + Crossref | pubmed/eutils + crossref | 2026-08-29 | — | ops/research/search-log-prolactin-buspirone-2026-08-29.md, ops/research/literature-summary-prolactin-buspirone.md, bib/endocrine-reproductive.bib (14 new), appendix-h (14 annotated entries, sec:bib-prolactin-buspirone) — prolactin response to buspirone challenge in ME/CFS: direct challenge-prolactin studies (Bakheit 1992, Sharpe 1996, Sharma 2001) + depression-vs-CFS discriminator (Cleare 1995) + null fenfluramine (Yatham 1995, Bearn 1995) + dopamine-prolactin brake / TIDA / estradiol mechanism (Ben-Jonathan 2001, Fitzgerald 2008, Qi-Lytle 2023) + dopamine-modulation trial (Haghighi 2021 OSU6162) |
+
+---
+
+## REenergizeME — Intermittent Hypoxia-Hyperoxia Treatment (IHHT) in ME/CFS — Literature Search (2026-08-29)
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| User-supplied PDF (protocol, BMJ Open 2026;16:e117729) | 2026-08-29 | User-supplied protocol paper: Nochi et al. 2026 REenergizeME — RCT protocol, IHHT in 104 female ME/CFS (ICC criteria, mild–moderate NICE), 1:1 IHHT vs sham, HypoxBreath device, 6 sessions/8 weeks, 4–7 hypoxia–hyperoxia cycles 22–40 min, primary = SF-36 vitality. Filed at `Literature/treatments/Nochi2026_IHHT_MECFS/`. PDF read fully (via pdftotext). Full PubMed literature search (direct/indirect-biochemical/harm/null) performed in integrate-topic Phase 1. |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| https://doi.org/10.1136/bmjopen-2026-117729 (BMJ Open 2026;16:e117729) | bmjopen | 2026-08-29 | — | ops/research/search-log-reenergize-me-ihht-2026-08-29.md, ops/research/literature-summary-reenergize-me-ihht.md, bib/treatments.bib, appendix-h — REenergizeME IHHT RCT protocol: intermittent hypoxia-hyperoxia treatment in ME/CFS (hypoxia-tolerance/hormesis mechanism, mild–moderate, female, SF-36 vitality primary) |
+
+---
+
+## S4ME 2026 "Management of Severe and Very Severe ME/CFS" Factsheet — Literature Verification & Harm Search (2026-08-29)
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| User-supplied PDF (Science for ME, Edwards J + S4ME members 2026, severe/very-severe clinical-management factsheet) | 2026-08-29 | Filed at `Literature/severe-care/S4ME2026ManagementSevereVerySevereMECFS.pdf`. Read fully (prior session). 5 referenced papers verified via Crossref + PubMed: Gaunt 2024 (Eur J Pediatr), Wearden FINE protocol 2006 + results 2010 (BMJ), Devasahayam 2012, Page 2019, McPhee 2019. Metadata via Crossref (title/author/journal/vol/page/DOI) + PubMed esummary/efetch (PMID verified). MANDATORY harm/safety searches: (a) enteral/parenteral feeding in ME/CFS — no new ME/CFS-specific safety paper beyond Baxter2021 (already in corpus); (b) off-label drugs (antihistamines, naltrexone, fludrocortisone, ivabradine) ME/CFS safety — all harm evidence already in corpus (Rowe2001FludrocortisoneNMH, Marchetta2025ivabradine + POTS oral-meds review, Bolton2019NaltrexoneSAE + extensive LDN, mast-cell antihistamine coverage). No genuinely-new harm papers justified; none added (anti-padding). |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| Crossref API (5 DOIs: 10.1007/s00431-024-05458-x, 10.1258/shorts.2011.011127, 10.1136/archdischild-2019-317090, 10.1177/1359105319854532, 10.1186/1741-7015-4-9, 10.1136/bmj.c1777) | crossref | 2026-08-29 | — | Metadata verification for Gaunt/Wearden/Devasahayam/Page/McPhee papers |
+| PubMed E-utilities (esearch/esummary/efetch; ~15 harm/verification queries) | pubmed/eutils | 2026-08-29 | — | PMID verification (Gaunt 38429546, Wearden protocol 16603058, Wearden results 20418251, Devasahayam 22299071, Page 31201158, McPhee 31234662); harm searches (enteral/parenteral feeding × ME/CFS; antihistamine/naltrexone/fludrocortisone/ivabradine × ME/CFS safety) |
+| User-supplied PDF (Science for ME factsheet) | s4me | 2026-08-29 | — | ops/research/search-log-severe-mecfs-management-2026-08-29.md, ops/research/literature-summary-severe-mecfs-management.md, bib/treatments.bib (6 new), bib/diagnosis-assessment.bib (1 new), appendix-h (sec:bib-severe-mecfs-care-guide, 7 annotated entries) — S4ME 2026 severe/very-severe ME/CFS clinical-management factsheet; GET/rehabilitation critique; enteral feeding; off-label drug appraisal |

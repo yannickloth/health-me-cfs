@@ -925,6 +925,11 @@
     "category": "gene",
     "definition": "Brain and muscle ARNT-like 1 — core clock gene that forms the CLOCK-BMAL1 heterodimer driving circadian transcription of PER, CRY, and clock-controlled output genes."
   },
+  "BMD": {
+    "label": "BMD",
+    "category": "measurement",
+    "definition": "Bone Mineral Density: the amount of mineral (mainly calcium phosphate) in a given volume of bone, measured by DXA at the hip and spine. Low BMD is the diagnostic basis of osteoporosis; it declines over months-to-years, more slowly than bone-turnover markers."
+  },
   "BMI": {
     "label": "BMI",
     "category": "measurement",
@@ -1409,6 +1414,11 @@
     "label": "CTLA-4 (Cytotoxic T-Lymphocyte-Associated Protein 4)",
     "category": "immunology",
     "definition": "An immune checkpoint receptor expressed on T cells that outcompetes CD28 for B7 ligand binding (CD80/CD86), dampening T cell activation. CTLA-4 is critical for Treg function and maintaining self-tolerance. Polymorphisms in CTLA-4 are associated with autoimmune disease susceptibility."
+  },
+  "CTX": {
+    "label": "CTX (C-terminal telopeptide)",
+    "category": "measurement",
+    "definition": "A collagen breakdown product released into blood during bone resorption by osteoclasts. Elevated CTX indicates net bone breakdown and is a bone-turnover marker used to detect resorption before BMD falls."
   },
   "CVD": {
     "label": "CVD",
@@ -2382,6 +2392,11 @@
     "label": "DVT",
     "category": "condition",
     "definition": "Deep Vein Thrombosis: a blood clot in a deep vein, typically in the leg. Immobility in severe ME/CFS increases DVT risk."
+  },
+  "DXA": {
+    "label": "DXA (Dual-energy X-ray Absorptiometry)",
+    "category": "measurement",
+    "definition": "Dual-energy X-ray absorptiometry: the standard imaging technique to measure bone mineral density at the hip and lumbar spine, used to diagnose osteoporosis and monitor bone loss."
   },
   "Daratumumab": {
     "label": "Daratumumab",
@@ -6569,6 +6584,11 @@
     "category": "cell-biology",
     "definition": "Optic Atrophy 1: a dynamin-related GTPase on the inner mitochondrial membrane that mediates inner membrane fusion and cristae maintenance. OPA1 long form promotes fusion; short form promotes fission. Disrupted cristae architecture from OPA1 dysfunction impairs OXPHOS efficiency."
   },
+  "OPG": {
+    "label": "OPG (Osteoprotegerin)",
+    "category": "molecule",
+    "definition": "Osteoprotegerin: a decoy receptor that binds RANKL and prevents it from activating osteoclasts, thereby inhibiting bone resorption. A low OPG-to-RANKL ratio favors bone breakdown."
+  },
   "OPRM1": {
     "label": "OPRM1",
     "category": "enzyme",
@@ -6583,6 +6603,11 @@
     "label": "OSA",
     "category": "condition",
     "definition": "Obstructive Sleep Apnea: recurrent upper airway collapse during sleep causing intermittent hypoxia and sleep fragmentation. OSA is a common comorbidity and must be excluded in ME/CFS patients with unrefreshing sleep."
+  },
+  "Osteoporosis": {
+    "label": "Osteoporosis",
+    "category": "condition",
+    "definition": "A bone disease in which bone mineral density and quality decline, making bones fragile and more likely to break. In ME/CFS it is relevant because sustained reduced mobility in moderate-to-severe disease can promote disuse bone loss, though no direct ME/CFS osteoporosis study exists (see ch30 bone-density-osteoporosis)."
   },
   "OTC": {
     "label": "OTC",
@@ -6768,6 +6793,11 @@
     "label": "O₂",
     "category": "molecule",
     "definition": "Molecular Oxygen: the terminal electron acceptor in the mitochondrial electron transport chain. Oxygen delivery to tissues depends on cardiac output, hemoglobin, and microvascular perfusion — all potentially impaired in ME/CFS. VO₂ (oxygen uptake) measured by CPET is the gold-standard assessment of integrated cardiorespiratory-metabolic function."
+  },
+  "P1NP": {
+    "label": "P1NP (Procollagen type 1 N-terminal propeptide)",
+    "category": "measurement",
+    "definition": "A by-product of collagen synthesis released during bone formation; serum P1NP is a bone-turnover marker used to gauge bone-formation rate, alongside resorption markers such as CTX."
   },
   "P3b": {
     "label": "P3b",
@@ -7693,6 +7723,11 @@
     "label": "RAGE",
     "category": "receptor",
     "definition": "Receptor for Advanced Glycation End-products: a multi-ligand receptor binding AGEs, HMGB1, S100 proteins, and amyloid-β. RAGE activation drives sustained NF-κB signaling and oxidative stress; implicated in ME/CFS neuroinflammation."
+  },
+  "RANKL": {
+    "label": "RANKL",
+    "category": "molecule",
+    "definition": "Receptor Activator of Nuclear factor-KappaB Ligand: a cytokine produced by osteoblasts and other cells that activates osteoclasts, driving bone resorption. Elevated RANKL relative to its decoy OPG favors bone breakdown (relevant to disuse bone loss)."
   },
   "RBC": {
     "label": "RBC",
@@ -9998,6 +10033,13 @@
       }
     ]
   },
+  "bisphosphonate": {
+    "label": "Bisphosphonate",
+    "category": "medication_class",
+    "definition": "A class of drugs (e.g. alendronate, risedronate) that inhibit osteoclast-mediated bone resorption by blocking farnesyl pyrophosphate synthase, used to treat osteoporosis. In ME/CFS, side effects may overlap symptoms and administration (upright posture, empty stomach) is difficult for bedbound patients.",
+    "generic": "Alendronate, Risedronate, Zoledronate",
+    "class": "Antiresorptive (bisphosphonate)"
+  },
   "bistability": {
     "label": "Bistability",
     "category": "concept",
@@ -11304,7 +11346,11 @@
   "prucalopride": {
     "label": "Prucalopride",
     "category": "medication",
-    "definition": "A highly selective 5-HT4-agonist prokinetic used (often off-label) for gastroparesis and chronic constipation. It stimulates gut motility with a lower reported cardiovascular/QT risk than some older prokinetics."
+    "definition": "A highly selective 5-HT4-agonist prokinetic used (often off-label) for gastroparesis and chronic constipation. It stimulates gut motility with a lower reported cardiovascular/QT risk than some older prokinetics.",
+    "sources": [
+      { "label": "PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/?term=prucalopride%5BMeSH%5D" },
+      { "label": "Drugs.com", "url": "https://www.drugs.com/prucalopride.html" }
+    ]
   },
   "putamen": {
     "label": "putamen",
@@ -11355,6 +11401,11 @@
     "label": "scRNA-seq (single-cell RNA sequencing)",
     "category": "method",
     "definition": "A technique measuring gene expression in individual cells, used to characterize immune cell states such as T-cell exhaustion in ME/CFS and long COVID."
+  },
+  "sclerostin": {
+    "label": "Sclerostin",
+    "category": "molecule",
+    "definition": "A protein secreted mainly by osteocytes that inhibits bone formation by suppressing Wnt signaling. Sclerostin rises when bone is mechanically unloaded (e.g. bed rest), contributing to disuse bone loss."
   },
   "senescence": {
     "label": "senescence",
@@ -11467,6 +11518,14 @@
     "label": "tanycyte",
     "category": "anatomy",
     "definition": "Specialized ependymal cells lining the base of the brain's third ventricle that sense circulating metabolites and may participate in energy-state signaling including torpor arousal."
+  },
+  "teriparatide": {
+    "label": "Teriparatide",
+    "category": "medication",
+    "definition": "A recombinant form of parathyroid hormone given by injection to stimulate bone formation (anabolic therapy) in osteoporosis. Its side effects (nausea, flushing, myalgia, hypercalcemia) overlap ME/CFS symptoms.",
+    "generic": "Teriparatide",
+    "class": "Anabolic bone agent (PTH 1-34)",
+    "rx": "Rx"
   },
   "testosterone": {
     "label": "Testosterone",
@@ -11705,7 +11764,7 @@
   "Quinine": {
     "label": "Quinine",
     "category": "medication",
-    "definition": "An antimalarial quinoline alkaloid with skeletal-muscle sodium/potassium-channel (Nav1.4 / Kv7-KCNQ) blocking activity. Used off-label for nocturnal leg cramps, but FDA-boxed-warned (2006) and restricted (2010) for this use because serious adverse events (immune thrombocytopenia, drug-induced thrombotic microangiopathy, QT prolongation, hemolysis in G6PD deficiency, cinchonism) outweigh its marginal efficacy. Not recommended for ME/CFS cramps — no ME/CFS efficacy evidence exists.",
+    "definition": "An antimalarial quinoline alkaloid whose anti-cramp action is proposed to involve skeletal-muscle sodium (Nav1.4) / potassium (Kv7-KCNQ) channel blockade (low-confidence pharmacologic attribution \u2014 the Kv7/KCNQ component is uncited). Used off-label for nocturnal leg cramps, but FDA-boxed-warned (2006) and restricted (2010) for this use because serious adverse events (immune thrombocytopenia, drug-induced thrombotic microangiopathy, QT prolongation, hemolysis in G6PD deficiency, cinchonism) outweigh its marginal efficacy. Not recommended for ME/CFS cramps \u2014 no ME/CFS efficacy evidence exists.",
     "generic": "Quinine sulfate",
     "brand": "Qualaquin (US); various",
     "class": "Antimalarial quinoline / ion-channel blocker",

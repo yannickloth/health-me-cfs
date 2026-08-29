@@ -91,6 +91,14 @@ Systematic tracking helps establish individual energy envelopes:
 
 Digital tools (smartphone apps, wearables) can facilitate tracking, though screen time itself may be limited by cognitive symptoms.
 
+#limitation(title: [No Evidence for Mandating Activity-Tracking Tools])[
+The activity-logging and wearable-monitoring guidance above is a *recommended practice*, not an evidence-backed requirement. A major severe-ME/CFS clinical-advocacy source — the Science for ME (2026) factsheet authored by Prof. Jonathan Edwards and S4ME members — states there is "no evidence for value in any specific policies requiring wearable actimetry devices or activity diaries," argues there is no theoretical basis for focusing on physiological measures such as energy usage or heart rate, and warns that detailed focus on activity levels "all too easily leads to a 'pacing-up' agenda with activity increments" @S4ME2026ManagementSevereVerySevere. Each patient's requirements are likely to be different and unpredictable.
+
+This is a genuine tension, not a settled question: pacing itself is widely recommended (see @sec:pacing) and heart-rate-based pacing has partial evidence @vanCampen2020HRpacing, but whether *mandating* diaries or wearable monitoring improves outcomes — versus burdening an already energy-limited patient with tracking effort and a pressure to escalate — is untested. No comparative study has resolved it. (Certainty: 0.40 — expert-consensus/advocacy position set against partial observational evidence. Severity applicability: severe/very-severe, where tracking effort and the "pacing-up" pressure are most harmful.)
+
+*Consequence:* Clinicians should offer activity and heart-rate monitoring as an optional tool a patient can take up, not impose it as a required protocol — because for a severe patient the tracking itself is an energy cost and can feed a pressure to do more, the opposite of protective pacing.
+] <lim:pacing-tracking-no-evidence>
+
 === Practical Pacing Strategies
 
 ==== Activity Planning and Prioritization
@@ -1475,6 +1483,21 @@ Any movement carries PEM risk in ME/CFS, necessitating careful calibration:
 
 Despite exercise intolerance, complete immobility causes problems (muscle atrophy, joint stiffness, orthostatic intolerance worsening). The goal is *movement within the energy envelope*—enough to prevent deconditioning complications without triggering PEM.
 
+#open-question(title: [Weight-Bearing Exercise for Bone Health Is Not Feasible in Moderate–Severe ME/CFS — Unresolved Trade-Off])[
+
+*Certainty: 0.40* (the mechanism is well-established; the balance in ME/CFS is unresolved).
+
+The standard osteoporosis-prevention advice to engage in weight-bearing exercise is not achievable for moderate-to-severe ME/CFS, for whom upright weight-bearing activity reliably triggers post-exertional malaise (see @sec:pacing). This creates an unresolved tension: weight-bearing activity protects bone (and the reduced-mobility state promotes bone loss — Hypothesis @spec:deconditioning-osteoporosis), but the same activity is the primary trigger of the disease's defining symptom. The safe-movement approaches in this chapter (recumbent, seated, aquatic, isometric, and bed-based protocols) preserve some musculoskeletal loading without the full weight-bearing stimulus, but whether they provide enough mechanical stimulus to protect bone density in ME/CFS is unknown. There is no direct evidence on the bone-density outcomes of non-weight-bearing movement programmes in ME/CFS.
+
+*Falsifiable prediction:* In moderate-to-severe ME/CFS patients, a programme of non-weight-bearing recumbent/seated movement at sub-anaerobic-threshold intensity will slow hip/lumbar bone-mineral-density decline (DXA) compared to no programmed movement, without increasing PEM frequency.
+
+*Replication status:* Non-weight-bearing exercise preserves bone in some immobilization settings, but not tested in ME/CFS. *Severity applicability: moderate, severe (not feasible in bedbound).*
+
+*Limitations:* No ME/CFS-specific bone-density outcome data exist for any movement modality; the protective threshold of non-weight-bearing loading for bone is unquantified.
+
+*Consequence:* Patients with moderate-to-severe ME/CFS should not feel pressured to perform weight-bearing exercise for bone health — it is frequently impossible and can cause harm — but the resulting loss of bone-protective loading is a real, currently unmeasured risk that clinicians should weigh alongside the very real cost of PEM.
+] <oq-weightbearing-infeasible>
+
 ==== Principles of Safe Movement
 
     - *Stay below anaerobic threshold*: Use heart rate monitoring (AT $-$10-15 bpm)
@@ -2063,7 +2086,7 @@ When the musculoskeletal system receives no loading stimulus (complete bed rest)
     - *Leucine threshold.* 2.5--3.0 g leucine per meal is the threshold for mTOR-mediated muscle protein synthesis activation. This can be achieved with 25--30 g whey protein or 35--40 g soy protein. Timing: with each meal; supplemental free leucine (2 g) can be added to meals that fall below the threshold
     - *Creatine monohydrate.* 3--5 g/day. Increases intramuscular phosphocreatine, which buffers ATP depletion and may slow muscle wasting by maintaining cellular energy status. Well-established safety profile. Contraindicated in renal impairment
     - *HMB (beta-hydroxy-beta-methylbutyrate).* 3 g/day, divided into 3 doses. HMB is a leucine metabolite that specifically inhibits muscle protein breakdown via the ubiquitin-proteasome pathway. An RCT in healthy older adults during 10 days of complete bed rest showed HMB (1.5 g twice daily) significantly preserved lean body mass compared to placebo (--2.05 ± 0.66 kg vs. --0.17 ± 0.19 kg, p = 0.02, n=19 evaluable) @Deutz2013HMB. A follow-up mechanistic study from the *same cohort* (Standley 2017, n=19, same 10-day bed rest protocol, not an independent replication) found HMB maintained mitochondrial OXPHOS complex II protein and preserved mitochondrial dynamics (fission/fusion balance) during the 8-week rehabilitation phase, suggesting anti-catabolic effects may extend to mitochondrial protection @Standley2017HMBMitochondria. Evidence in extended complete bed rest (>10 days) is limited; no independent replication of the HMB bed rest finding exists. Do not combine with high-dose leucine (redundant pathway). For severe ME/CFS patients with GI sensitivity or impaired absorption, start at 1 g/day with weekly escalation to 3 g/day as tolerated — the Deutz 2013 efficacious dose may not be tolerable in this population
-    - *Vitamin D3 + calcium.* 2,000--4,000 IU/day vitamin D3 + 1,000--1,200 mg/day calcium for bone density preservation. Bedbound patients lose bone density rapidly (1--2 percent per month in weight-bearing sites). Vitamin D also has muscle function effects independent of calcium. Monitor serum 25(OH)D quarterly; target 50--80 nmol/L
+    - *Vitamin D3 + calcium.* 2,000--4,000 IU/day vitamin D3 + 1,000--1,200 mg/day calcium for bone density preservation. Bedbound patients lose bone density rapidly (1--2 percent per month in weight-bearing sites). Vitamin D also has muscle function effects independent of calcium. Monitor serum 25(OH)D quarterly; target 50--80 nmol/L. *Caution:* calcium-only supplements carry a small myocardial-infarction risk (HR 1.31, @Bolland2010CalciumCV) — the bone-health rationale is strongest when deficiency is documented rather than assumed (see Section @subsec:bone-density-osteoporosis).
     - *Omega-3 fatty acids.* 2--3 g/day EPA+DHA. Anti-inflammatory effect may reduce catabolic cytokine signaling (TNF-alpha, IL-6) that drives muscle wasting in chronic illness. Fish oil or algal oil source
 
 *Safety interactions (check before initiating any supplement in patients already on):* Creatine: avoid in renal impairment, monitor creatinine. HMB: no significant interactions known; limited safety data beyond 12 months. Omega-3: potentiates anticoagulant/antiplatelet effect — caution with warfarin, clopidogrel, aspirin, high-dose fish oil. Vitamin D: calcium co-administration may increase risk of hypercalcemia in immobility — monitor serum calcium if both are taken.
@@ -2093,6 +2116,126 @@ Prolonged immobility in a single position causes: (a) muscle shortening → cont
 *Limitations:* Every-2-hour repositioning requires a caregiver present — a significant access barrier for patients living alone or without 24-hour care. Repositioning itself may trigger autonomic symptoms in very sensitive patients (the brief orthostatic stress of side-lying transition). No ME/CFS position-management trial exists. Extrapolation from ICU/Palliative care; applicability to ME/CFS-specific pathophysiology unverified.
 
 ] <spec:bedbound-positioning>
+
+===== Bone Density Preservation and Osteoporosis Risk
+<subsec:bone-density-osteoporosis>
+
+#speculation(title: [Sustained Reduced Mobility Raises Osteoporosis Risk in Moderate–Severe ME/CFS])[
+
+*Certainty: 0.40* (discounted from raw 0.78/0.55/0.55 via population weight; indirect mechanism, no direct ME/CFS osteoporosis or bone-mineral-density study exists — a documented research gap).
+
+Sustained mechanical unloading drives net bone resorption. In immobilization and bed rest, loss of osteocyte mechanosensing increases sclerostin and shifts the RANKL/OPG balance toward resorption, producing measurable bone loss within weeks-to-months @Rolvien2022DisuseOsteoporosis. Muscle contraction itself opposes this: the muscle–bone coupling via mechanical loading raises OPG/RANKL in favour of bone formation, an effect observed in animal models @Qin2013MuscleBone. Chronic deconditioning—"use it or lose it"—degrades both muscle and bone integrity in parallel @Hart2021Deconditioning. Moderate-to-severe ME/CFS is characterized by sustained activity reduction and, in the most affected, by prolonged recumbency (see @sec:severe-reality and the pediatric bedrest osteoporosis-risk discussion in Section @sec:ped-bedrest-complications); these patients therefore face the same mechanical-unloading stimulus that is well-documented to cause disuse bone loss in immobilization, bed rest, and spinal-cord injury. The paediatric osteoporosis-risk protocol (Section @sec:ped-bedrest-complications) already addresses this population; the argument extends the same risk to severely affected adults.
+
+*Falsifiable prediction:* In a cohort of moderate-to-severe ME/CFS patients stratified by mobility (ambulant vs. bedbound vs. intermediate), bone mineral density by DXA at the hip and lumbar spine will be lower in the more immobile strata, after adjusting for age, sex, menopause status, vitamin D, and calcium intake.
+
+*Replication status:* Mechanism is well-replicated in immobilization/bed-rest populations but has not been studied directly in ME/CFS. *Severity applicability: moderate, severe, very severe (bedbound).*
+
+*Limitations:* No direct ME/CFS osteoporosis or BMD study exists; the link is an indirect mechanistic inference from the disuse-bone-loss literature. The magnitude of risk in ME/CFS specifically is unknown. Deconditioning is not the only contributor to bone loss in this population (endocrine, dietary, and medication factors may also operate).
+
+*Consequence:* For patients with moderate-to-severe ME/CFS and for their clinicians, this means bone health is worth monitoring even though no ME/CFS-specific fracture data yet exist — because reduced mobility is a well-documented cause of bone loss in other immobilizing conditions, a DXA screening discussion is reasonable rather than assuming bones are unaffected.
+] <spec:deconditioning-osteoporosis>
+
+#open-question(title: [Vitamin D Deficiency in Housebound ME/CFS: Premise vs. Direct Evidence])[
+
+*Certainty: 0.30* (open question; a single direct ME/CFS cohort contradicts the premise; not resolved).
+
+Patient-education guidance states that housebound, low-sunlight ME/CFS patients are at high risk of vitamin D deficiency. The direct evidence is more equivocal. A cohort comparing ME/CFS patients (n=92) with controls (n=94) using LC-MS/MS found ME/CFS patients had *higher*, not lower, serum 25(OH)D (60.2 vs. 47.3 nmol/L, p=0.001), largely attributed to supplement use, and found no association between vitamin D and fatigue severity @Earl2017VitaminD. This does not settle the question: that cohort was not stratified by disease severity, and housebound/very-severe patients—who plausibly have the least sunlight and the most restricted diet—may have been underrepresented. The premise (housebound → deficiency) and the direct finding (no deficiency in a general ME/CFS cohort) are therefore both defensible but unresolved. The correct clinical stance is to measure serum 25(OH)D in patients where deficiency is suspected, not to assume deficiency a priori.
+
+*Replication status:* Single study; not severity-stratified. *Severity applicability: housebound / very severe (unverified).*
+
+*Limitations:* One cohort, not severity-stratified; supplement use confounds interpretation; no ME/CFS vitamin D supplementation RCT for fatigue exists.
+
+*Consequence:* Clinicians should not assume vitamin D is deficient in a given ME/CFS patient; a serum 25(OH)D measurement resolves the question, and supplementation for fatigue alone is not supported by the direct evidence.
+] <oq-vitamind-housebound>
+
+#speculation(title: [Restricted and Avoidant Diets Risk Calcium Deficiency in ME/CFS])[
+
+*Certainty: 0.25* (no direct literature on calcium status in ME/CFS — a documented research gap; inference from the prevalence of dietary restriction and elimination diets in the population).
+
+ME/CFS patients often restrict food intake—through avoidant eating in response to sensitivities (see @sec:food-sensitivities-wheat), through low-histamine or elimination diets, or through reduced appetite and preparation capacity in severe disease. Restriction of calcium-rich food groups (dairy, green leafy vegetables such as broccoli and cabbage, soya, tofu, nuts, fortified bread, and fish with edible bones such as sardines and pilchards) can lower calcium intake below requirement. Chronic low calcium intake, combined with the increased calcium demand of the resorption state in disuse (Hypothesis @spec:deconditioning-osteoporosis), could worsen net bone loss. Spinach is a notable exception: its oxalic acid reduces calcium absorption.
+
+*Falsifiable prediction:* In ME/CFS patients, a dietary-restriction or elimination-diet history (measured by a validated food-frequency or restriction questionnaire) will be associated with lower dietary calcium intake and, where measured, lower serum-adjusted calcium or higher PTH, after adjusting for vitamin D.
+
+*Replication status:* Not directly studied in ME/CFS; general-nutrition principle. *Severity applicability: moderate, severe, very severe (reduced intake).*
+
+*Limitations:* No calcium-status study in ME/CFS exists; dietary-restriction prevalence is inferred, not measured; the bone-loss consequence is an indirect inference.
+
+*Consequence:* For patients who have been on elimination or restrictive diets for a long time, checking whether calcium intake remains adequate is worthwhile — bone can be lost silently for years, and restricted diets are a preventable contributor.
+] <spec-calcium-deficiency>
+
+#limitation(title: [Osteoporosis Treatment in ME/CFS: Available Options and ME/CFS-Specific Caveats])[
+
+Treatments for osteoporosis exist and are effective in the general population, but none has ME/CFS-specific safety data, and several carry side effects that overlap with ME/CFS symptoms. Calcium and/or vitamin D supplementation is first-line only if serum levels are low. Antiresorptive drugs (alendronate, risedronate) reduce bone turnover but are associated with atypical femur fracture with long-term use (~100 per 100,000 person-years) @Shane2014AtypicalFemur, and they have strict administration requirements (upright posture, empty stomach, which are difficult or impossible for many bedbound patients) @Arjunan2023Bisphosphonates. Calcium-only supplements raise myocardial-infarction risk (HR 1.31) @Bolland2010CalciumCV. Anabolic therapies (e.g. teriparatide) stimulate bone formation but carry adverse effects—nausea, insomnia, flushing, myalgias, hypercalcemia—that overlap substantially with ME/CFS symptoms @TaylorSaag2019Anabolics. As a result, drug selection for an ME/CFS patient is likely to require a trial-and-error process, and treatment decisions must be individualized and clinician-supervised.
+
+*Severity applicability: all (administration constraints most severe for bedbound).*
+
+*Monitoring and stopping:* No validated monitoring protocol exists for bisphosphonate/anabolic use in ME/CFS; general osteoporosis monitoring (serum calcium, renal function, dental review for bisphosphonate osteonecrosis of the jaw) is recommended. If an agent causes side effects that overlap with or worsen ME/CFS symptoms (notably anabolic-therapy insomnia, flushing, or myalgia), the clinician should consider dose reduction or discontinuation — there are no ME/CFS-specific stopping criteria. *Pregnancy/lactation:* bisphosphonates and teriparatide are not recommended in pregnancy/lactation; no ME/CFS-specific data. *Interactions:* bisphosphonate/calcium use should be reviewed against the common ME/CFS co-prescriptions (e.g. antacids and iron reduce bisphosphonate absorption; calcium supplements can affect the absorption of some concurrent drugs), but a full interaction search was not part of this integration.
+
+*Limitations:* No bisphosphonate or anabolic-therapy safety data exist for ME/CFS or bedbound populations; all dosing and administration guidance is extrapolated from the general-population osteoporosis literature.
+
+*Consequence:* If a person with ME/CFS develops osteoporosis, treatment is available, but it is not a simple off-the-shelf choice — the side-effect overlap with ME/CFS symptoms and the practical difficulty of bisphosphonate administration for bedbound patients mean that drug choice will often require trial and error under clinical supervision.
+]
+
+#speculation(title: [Bone Loss in ME/CFS Follows a Severity Gradient Detectable by Circulating Turnover Markers])[
+
+*Certainty: 0.30* (origin: brainstorm; the disuse dose–response is well-established in bed rest/immobilization, but its severity-stratified instantiation in ME/CFS is unmeasured).
+
+The disuse chain behind Hypothesis @spec:deconditioning-osteoporosis (mechanical unloading → osteocyte mechanosensing loss → sclerostin↑ → RANKL/OPG imbalance → resorption) predicts a *dose–response*: mildly affected, still-ambulant ME/CFS patients (intermittent loading) should show little or no bone loss, whereas severe and bedbound patients (sustained unloading, per the Rolvien 2022 precedent) should show measurable decline @Rolvien2022DisuseOsteoporosis. This refines the flat "all patients at risk" claim into a subset-specific prediction and implies that circulating bone-turnover markers (serum sclerostin, CTX, P1NP) change on a weeks–months timescale, well before bone-mineral-density (BMD) falls on a months–years timescale. If correct, the moderate–severe/bedbound subset — not all ME/CFS patients — is the group that would most need bone surveillance.
+
+*Falsifiable prediction:* Across a severity-stratified ME/CFS cohort, serum sclerostin and CTX will rise and P1NP will fall monotonically from mild to severe, and will correlate with objective immobility (step count, recumbent hours) and with BMD decline on follow-up, independent of age, sex, and vitamin D.
+
+*Replication status:* Not tested in ME/CFS; disuse dose–response established in non-ME/CFS immobilization. *Severity applicability: moderate, severe, very severe (highest risk subset).*
+
+*Limitations:* No severity-stratified ME/CFS BMD or turnover-marker study exists; the monotonic gradient is an inference, not a measurement.
+
+*Consequence:* If true, only severely affected, largely bedbound patients — not all people with ME/CFS — would be the ones needing bone-density checks, which would spare most patients unnecessary testing.
+] <spec-severity-gradient-boneloss>
+
+#speculation(title: [Chronic Inflammation — Not Just Unloading — May Drive Bone Loss in a Subset of Ambulatory ME/CFS Patients])[
+
+*Certainty: 0.20* (origin: brainstorm; inflammation→bone resorption is established in other conditions, but the ME/CFS inflammatory-bone link is speculative and unmeasured).
+
+ME/CFS is accompanied by chronic immune/inflammatory dysregulation. Inflammatory cytokines (IL-6, TNF-$alpha$) promote RANKL and suppress osteoblast activity, causing bone loss independently of mechanical loading. If a subset of ME/CFS patients is predominantly inflammation-driven, bone loss could occur even in *ambulatory* patients with normal activity — the opposite prediction to the severity-gradient hypothesis @spec-severity-gradient-boneloss. The two mechanisms are distinguishable by turnover-marker profile: disuse typically shows elevated sclerostin, whereas inflammation shows elevated RANKL and low P1NP together with elevated inflammatory cytokines. This is a competing/additive interpretation of the osteoporosis-risk mechanism, not an established one.
+
+*Falsifiable prediction:* In a severity-stratified cohort, a subgroup of ambulatory ME/CFS patients will show elevated CTX and suppressed P1NP with high IL-6/TNF-$alpha$ but normal sclerostin and normal objective immobility — indicating an inflammatory rather than disuse driver of bone loss.
+
+*Replication status:* Not tested in ME/CFS; inflammation→bone resorption established in other chronic inflammatory conditions. *Severity applicability: all (including ambulatory mild–moderate).*
+
+*Limitations:* No ME/CFS bone-turnover or cytokine-bone study exists; the inflammatory-bone-loss pathway is inferred from other conditions; both this and the disuse mechanism may operate simultaneously.
+
+*Consequence:* If true, some patients with near-normal activity could still lose bone — so activity level alone would not tell a patient their bone risk, and a purely "mobility-based" screening rule would miss them.
+] <spec-inflammation-driven-boneloss>
+
+#open-question(title: [Does ME/CFS Mobility Actually Cross the Bone-Loss Threshold? Unresolved])[
+
+*Certainty: 0.45* (origin: brainstorm; the threshold question is unresolved).
+
+The bed rest and spinal-cord-injury precedent behind Hypothesis @spec:deconditioning-osteoporosis involves continuous, near-total unloading. Moderate–severe ME/CFS patients, while reduced, typically retain *some* weight-bearing (transfers, toileting, brief ambulation), and bone's mechanosensing responds to low-but-non-zero load. It is unresolved whether ME/CFS unloading is sufficiently continuous to cross the bone-loss threshold. The single most decisive test is a severity-stratified cross-sectional study measuring DXA (hip and spine), serum sclerostin/CTX/P1NP, 25(OH)D, and calcium together with an objective immobility measure (step count, recumbent hours) — which would directly fill the "no direct ME/CFS BMD study" research gap identified in this integration. This open question explicitly acknowledges that the mechanism may be mechanistically present yet clinically negligible.
+
+*Falsifiable prediction:* If ME/CFS BMD is preserved across all severity strata (strata do not diverge) and sclerostin does not track immobility, then H1's bone-loss threshold is not crossed in ME/CFS and the disuse mechanism is clinically irrelevant.
+
+*Replication status:* No severity-stratified ME/CFS BMD/turnover study exists. *Severity applicability: moderate, severe, very severe (mild likely below threshold).*
+
+*Limitations:* The threshold for clinically relevant bone loss under partial unloading is unquantified; whether ME/CFS unloading is "continuous enough" is unknown and may vary by severity and individual.
+
+*Consequence:* This one non-invasive study would tell ME/CFS patients and their doctors which — if any — patients actually lose bone, instead of assuming risk from bed-rest in other diseases.
+] <oq-boneloss-threshold>
+
+#limitation(title: [External-Validity Limit: No Direct ME/CFS Bone Evidence])[
+
+*Certainty: not applicable — epistemic limitation.* (Origin: brainstorm critical categories 10/11/12.)
+
+Every mechanistic anchor for the osteoporosis-risk claim is non-ME/CFS and mostly animal or review: Rolvien 2022 is a clinical review of immobilization, Hart 2021 a narrative review, and Qin 2013 a spinal-cord-injury *rat* model @Rolvien2022DisuseOsteoporosis @Hart2021Deconditioning @Qin2013MuscleBone. None measures ME/CFS-specific unloading magnitude, and the bed-rest precedent assumes continuous immobilization that ME/CFS may not reach (@oq-boneloss-threshold). These anchors establish that *some* unloading causes bone loss, not that *ME/CFS* unloading does. The single direct ME/CFS study (Earl 2017) is not severity-stratified and is supplement-exposed @Earl2017VitaminD, so its reassuring "no deficiency" finding may not generalize to the most housebound patients. Moreover, even where disuse bone loss occurs, low fall risk in ME/CFS means fracture risk may be low, and the treatments carry their own harms (see the treatment limitation in this subsection) — so the osteoporosis angle could in principle be net-irrelevant to clinical care despite a correct underlying mechanism. The honest reading is that all bone-loss claims in ME/CFS are low-certainty speculation until severity-stratified data exist.
+
+*Consequence:* Everything currently said about osteoporosis risk in ME/CFS is borrowed from bed-rest and animal studies, not measured in ME/CFS patients themselves — so it should be read as hypothesis, not established risk, and no supplementation or treatment should be started without a demonstrated deficiency.
+] <lim:osteoporosis-external-validity>
+
+#synthesis(title: [Osteoporosis Risk in ME/CFS: A Plausible but Unmeasured Bone-Health Concern])[
+
+The integrated environments collectively argue one convergent point: sustained reduced mobility in moderate-to-severe ME/CFS is a *mechanistically plausible* route to disuse bone loss (@spec:deconditioning-osteoporosis), the risk (if real) most likely concentrates in a severity gradient detectable by circulating turnover markers before BMD falls (@spec-severity-gradient-boneloss), and it may be compounded in a subset by inflammation-driven resorption even at preserved activity levels (@spec-inflammation-driven-boneloss). The evidence that would confirm or refute this does not exist: every mechanistic anchor is borrowed from bed-rest, immobilization, or animal work, and the single direct ME/CFS cohort (Earl 2017) not only fails to support the companion vitamin-D-deficiency premise but contradicts it at the population level while leaving the housebound subgroup unresolved (@oq-vitamind-housebound, @lim:osteoporosis-external-validity). What the evidence *does* establish is the harm side of the ledger: calcium-only supplementation carries cardiovascular risk, bisphosphonates carry atypical-fracture and administration constraints, and anabolic-therapy side effects overlap ME/CFS symptoms. The central unanswered question is whether ME/CFS unloading crosses the bone-loss threshold at all (@oq-boneloss-threshold) — a single severity-stratified DXA plus turnover-marker study would answer it. Until then, the defensible clinical stance is measure-don't-assume (25(OH)D, calcium intake, and DXA discussion for the most immobile patients) and no bone-directed supplementation or drug treatment without documented deficiency.
+
+*Consequence:* The convergent picture is that bone health in moderate–severe ME/CFS is a reasonable thing to monitor and a wrong thing to assume — the risk is plausible but unmeasured, the deficiency premises are partly contradicted, and premature treatment may harm more than it helps.
+] <syn:osteoporosis-model>
 
 ===== Bed-Based Isometric Protocols for Severe Patients
 

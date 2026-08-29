@@ -384,6 +384,19 @@ Corrective — natural metformin analog; AMPK activation restoring metabolic eff
 
 #strong[W] *Mechanism:* A (β2 blockade → loss of lipolysis backup → mitochondrial fuel shortage), B (reduced cardiac output may trigger PEM in patients dependent on compensatory tachycardia for perfusion), F (unmasking dependency on sympathetic drive for cardiac output in stiff, hypovolemic ventricle). *Protracted risk:* Low. *Permanent risk:* Very Low. Effects reverse with drug clearance. *Rechallenge:* If fatigue from non-selective β-blocker: trial cardioselective (bisoprolol) or nebivolol (β1-selective + NO). If all β-blockers cause fatigue: β2-lipolysis is load-bearing → avoid β2 blockade.
 
+=== Bisphosphonates (Alendronate, Risedronate)
+
+*Appears in:* @subsec:bone-density-osteoporosis (osteoporosis treatment in ME/CFS, ch30).
+Antiresorptive — inhibit osteoclast-mediated bone resorption (farnesyl pyrophosphate synthase in the mevalonate pathway), reducing bone turnover. Not approved for or studied in ME/CFS; relevant only as a documented osteoporosis-treatment option with ME/CFS-specific caveats (see @subsec:bone-density-osteoporosis).
+
+#finding(claim: [Sustained reduction in bone turnover on biochemical markers confirms resorption-driven bone loss], explanation: [Sustained reduction in bone-turnover markers (CTX, NTX) on bisphosphonate confirms that the patient's bone loss is resorption-driven and responds to osteoclast inhibition — supporting a mechanical-unloading/disuse (or post-menopausal) bone-loss mechanism rather than a purely low bone-formation state. Response is not ME/CFS-specific; it reflects the shared bone-remodeling biology of any immobilization.], certainty: [Low], level: [Partial root cause])
+
+#finding(claim: [No bone-turnover response or continued loss], explanation: [No bone-turnover response or continued BMD loss on bisphosphonate → non-osteoclast-driven bone loss (low bone formation, e.g. anabolic insufficiency, or an absorption/administration failure from the upright-posture/empty-stomach requirement). Atypical femur fracture on long-term use → atypical, low-turnover bone fragility that paradoxically worsens on bisphosphonate.], certainty: [Low], level: [Partial root cause])
+
+#finding(claim: [Side effects overlapping ME/CFS symptoms], explanation: [Side effects overlapping ME/CFS symptoms — the MEA reports trial-and-error difficulty. Musculoskeletal pain, oesophageal irritation, and (for some) fatigue can be indistinguishable from ME/CFS baseline, complicating attribution. If a ME/CFS patient worsens on bisphosphonate, distinguish drug-related musculoskeletal pain from PEM before attributing to disease flare.], certainty: [Low], level: [Partial root cause])
+
+#strong[W] *Mechanism:* B (pharmacological side-effects overlapping ME/CFS symptom burden complicate differential attribution), H (atypical femur fracture on long-term use, ~100 per 100,000 person-years; calcium-only supplementation ↑ MI risk — see @subsec:bone-density-osteoporosis). *Protracted risk:* Low. *Permanent risk:* Low (atypical femur fracture is permanent once it occurs). *Rechallenge:* After a trial-offer for non-response. Administration constraints (upright posture, empty stomach) are difficult or impossible for many bedbound patients — this is a practical, not mechanistic, limitation. Pregnancy/lactation: not recommended.
+
 === Bromocriptine / Rotigotine
 
 *Appears in:* Cross-reference matrix Group B, @sec:central-motor-drive-cascade Step C2.

@@ -23117,6 +23117,109 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     *Certainty:*: 0.65/1.0
     *Research Stream:*: severe-mecfs-care-guide
 
+=== Gaunt et al.\ 2024 — Graded Exercise Therapy vs Activity Management in Paediatric CFS/ME
+
+    *Full Citation:*: Gaunt DM, Brigden A, Harris SRS, Hollingworth W, Jago R, Solomon-Moore E, Beasant L, Mills N, Sinai P, Crawley E, Metcalfe C. Graded exercise therapy compared to activity management for paediatric chronic fatigue syndrome/myalgic encephalomyelitis: pragmatic randomized controlled trial. _European Journal of Pediatrics_. 2024;183(5):2343–2351. @Gaunt2024PediatricGET
+    *DOI:*: #link("https://doi.org/10.1007/s00431-024-05458-x")[10.1007/s00431-024-05458-x]
+    *PMID:*: 38429546
+    *Study Design:*: Pragmatic randomized controlled trial
+    *Key Findings:*:
+        - Compared graded exercise therapy (GET) with activity management in paediatric CFS/ME (MAGENTA trial)
+        - GET did not outperform activity management on primary outcomes
+        - Results align with NICE 2021 decision to withdraw GET from ME/CFS management
+    *Conclusion:*: GET offers no benefit over activity management in paediatric ME/CFS and has no role in (severe) management; supports rejection of rehabilitation-based approaches.
+    *Limitations:*: Paediatric population; pragmatic (non-blinded) design; specific to GET, not all activity-based approaches.
+    *Certainty:*: 0.75/1.0
+    *Research Stream:*: severe-mecfs-management
+
+=== Wearden et al.\ 2006 — FINE Trial Study Protocol
+
+    *Full Citation:*: Wearden AJ, Riste L, Dowrick C, Chew-Graham C, Bentall RP, Morriss RK, Peters S, Richardson G, Lovell K, Dunn G. Fatigue Intervention by Nurses Evaluation—the FINE Trial. A randomised controlled trial of nurse led self-help treatment for patients in primary care with chronic fatigue syndrome: study protocol. _BMC Medicine_. 2006;4:9. @Wearden2006FINETrialProtocol
+    *DOI:*: #link("https://doi.org/10.1186/1741-7015-4-9")[10.1186/1741-7015-4-9]
+    *PMID:*: 16603058
+    *Study Design:*: RCT protocol (ISRCTN74156610)
+    *Key Findings:*:
+        - Designs pragmatic rehabilitation and supportive listening delivered by trained nurses vs GP treatment as usual in primary-care CFS/ME
+        - Home-delivered, 10 sessions over 18 weeks by three adult specialty nurses
+        - Primary outcomes: fatigue and physical functioning at 20 and 70 weeks
+    *Conclusion:*: Documents the design of the FINE intervention; results (Wearden 2010, BMJ 340:c1777) showed no sustained benefit, informing critique of rehabilitation-based approaches in (severe) ME/CFS.
+    *Limitations:*: Protocol only — no results.
+    *Certainty:*: 0.75/1.0
+    *Research Stream:*: severe-mecfs-management
+
+=== Wearden et al.\ 2010 — FINE Trial Results
+
+    *Full Citation:*: Wearden AJ, Dowrick C, Chew-Graham C, Bentall RP, Morriss RK, Peters S, Riste L, Richardson G, Lovell K, Dunn G, et al.\ Nurse led, home based self help treatment for patients in primary care with chronic fatigue syndrome: randomised controlled trial. _BMJ_. 2010;340:c1777. @Wearden2010FINETrial
+    *DOI:*: #link("https://doi.org/10.1136/bmj.c1777")[10.1136/bmj.c1777]
+    *PMID:*: 20418251
+    *Study Design:*: Randomized controlled trial (n=296 primary-care CFS/ME, Oxford criteria)
+    *Key Findings:*:
+        - Pragmatic rehabilitation improved fatigue only at 20 weeks (effect −1.18, P=0.021), with NO significant benefit at 70 weeks (−1.00, P=0.076)
+        - No significant difference in physical functioning at 70 weeks
+        - Supportive listening was NOT effective (worse physical functioning at 20 weeks, no difference at 70 weeks)
+    *Conclusion:*: Nurse-delivered pragmatic rehabilitation yields only small short-term fatigue improvement with no sustained benefit; supportive listening is ineffective. Supports the position that rehabilitation-based approaches have no place in (severe) ME/CFS management.
+    *Limitations:*: Primary-care population (Oxford criteria), not severe/very-severe cases; single-blind design.
+    *Certainty:*: 0.80/1.0
+    *Research Stream:*: severe-mecfs-management
+
+=== Devasahayam et al.\ 2012 — Alternative Diagnoses in CFS Referrals
+
+    *Full Citation:*: Devasahayam A, Lawn T, Murphy M, White PD. Alternative diagnoses to chronic fatigue syndrome in referrals to a specialist service: service evaluation survey. _JRSM Short Reports_. 2012;3(1):4. @Devasahayam2012AlternativeDiagnoses
+    *DOI:*: #link("https://doi.org/10.1258/shorts.2011.011127")[10.1258/shorts.2011.011127]
+    *PMID:*: 22299071
+    *Study Design:*: Service evaluation survey
+    *Key Findings:*:
+        - Reviewed referrals to a specialist CFS service for alternative diagnoses
+        - A proportion of patients had alternative (sometimes clinically important) diagnoses misattributed to CFS
+    *Conclusion:*: Emphasizes the need for diagnostic thoroughness and exclusion of alternative diagnoses before attributing severe symptoms to ME/CFS, especially where severe/very-severe care is planned.
+    *Limitations:*: Service evaluation (non-systematic); single specialist centre; dates from 2012.
+    *Certainty:*: 0.60/1.0
+    *Research Stream:*: severe-mecfs-management
+
+=== Page et al.\ 2019 — Paediatric Enteral Feeding at Home: Patient Safety
+
+    *Full Citation:*: Page B, Nawaz R, Haden S, Vincent C, Lee ACH. Paediatric enteral feeding at home: an analysis of patient safety incidents. _Archives of Disease in Childhood_. 2019;104(12):1174–1180. @Page2019PaediatricEnteral
+    *DOI:*: #link("https://doi.org/10.1136/archdischild-2019-317090")[10.1136/archdischild-2019-317090]
+    *PMID:*: 31201158
+    *Study Design:*: Patient safety incident analysis
+    *Key Findings:*:
+        - Documents risks and adverse events associated with home enteral feeding
+        - Identifies safety incident patterns (tube/placement, infection, aspiration, refeeding concerns)
+    *Conclusion:*: Home enteral feeding requires risk-aware planning; the S4ME factsheet uses such evidence to argue enteral feeding for severe nutritional failure should be managed safely rather than delayed on 'functional' grounds.
+    *Limitations:*: Paediatric population; incident-report-based (may under/over-report); UK context.
+    *Certainty:*: 0.65/1.0
+    *Research Stream:*: severe-mecfs-management
+
+=== McPhee et al.\ 2019 — Monitoring Treatment Harm in ME/CFS
+
+    *Full Citation:*: McPhee G, Baldwin A, Kindlon T, Hughes BM. Monitoring treatment harm in myalgic encephalomyelitis/chronic fatigue syndrome: A freedom-of-information study of NHS specialist centres in England. _Journal of Health Psychology_. 2019;26(7):975–984. @McPhee2019TreatmentHarm
+    *DOI:*: #link("https://doi.org/10.1177/1359105319854532")[10.1177/1359105319854532]
+    *PMID:*: 31234662
+    *Study Design:*: Freedom-of-information study
+    *Key Findings:*:
+        - Documents that adverse effects of treatment are not systematically monitored or reported by NHS specialist ME/CFS centres in England
+        - Highlights gaps in harm reporting for ME/CFS treatments
+    *Conclusion:*: Treatment (including off-label drugs and rehabilitation approaches) carries risk of harm; harm monitoring must be a mandatory part of (severe) ME/CFS management — central to the factsheet's critical appraisal stance.
+    *Limitations:*: Freedom-of-information methodology (relies on what centres disclosed); England only.
+    *Certainty:*: 0.70/1.0
+    *Research Stream:*: severe-mecfs-management
+
+=== Science for ME (Edwards et al.)\ 2026 — Management of Severe and Very Severe ME/CFS
+
+    *Full Citation:*: Science for ME (Edwards J, et al.)\ Management of severe and very severe ME/CFS. _Science for ME (S4ME) fact sheet_. 2026. @S4ME2026ManagementSevereVerySevere
+    *Key Findings:*:
+        - Severity grading tied to care needs; ~1/1000 patients housebound
+        - Environmental-stimuli reduction as medical necessity (not kindness) to prevent deterioration
+        - Single-point-of-contact care (specialist nurse) preferred over multidisciplinary teams
+        - Rehabilitation-based approaches "have no place in management" (GET/CBT critique)
+        - Critical appraisal of off-label drugs (antihistamines, naltrexone, fludrocortisone, ivabradine): little or no benefit, likely more adverse effects
+        - Enteral/parenteral feeding for severe nutritional failure; MUST malnutrition screening; not to be delayed on 'functional' grounds
+        - Hospital admission adjustments (single room, blinds, no scent, etc.)
+    *Conclusion:*: Provides practical, severity-stratified clinical management guidance for severe and very severe ME/CFS, emphasizing harm avoidance and early nutritional support.
+    *Limitations:*: Advocacy/clinical-guidance fact sheet rather than primary research; not a systematic review; consensus-based.
+    *Certainty:*: 0.60/1.0
+    *Research Stream:*: severe-mecfs-management
+
 // =============================================================================
 
 == HIF-2α and Post-Viral Endothelial Dysfunction
@@ -37814,7 +37917,7 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
 == Quinine Sulfate for Muscle/Leg Cramps — Off-Label Bedtime Use
 <sec:bib-quinine-sulfate>
 // =============================================================================
-// Research stream: quinine-sulfate (2026-08-29, Phase 1). 11 papers.
+// Research stream: quinine-sulfate (2026-08-29, Phase 1). 10 new entries (+1 reused: Garrison2020MagnesiumCramps, pre-existing in corpus).
 // Treatment topic: efficacy (marginal) + harm (FDA boxed warning) + null +
 // competing treatments + indirect ion-channel link. Zero direct ME/CFS studies.
 
@@ -37975,3 +38078,345 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
 *Conclusion:*: Skeletal-muscle sodium-channel (Nav1.4) dysfunction directly produces painful cramps and myotonia — the channel-level mechanism relevant to quinine's anti-cramp action and to the ME/CFS muscle-ion-channel hypothesis.
 *Limitations:*: Single-family index; channelopathy (genetic) rather than idiopathic cramps or ME/CFS; indirect relevance to quinine pharmacology.
 *Certainty Assessment:*: 0.50 raw × 0.50 other-disease-model weight = discounted 0.25
+
+// ════════════════════════════════════════════════════════════════
+// Osteoporosis & Bone Health in ME/CFS (2026-08-29)
+// ════════════════════════════════════════════════════════════════
+
+=== Earl et al.\ 2017 — Vitamin D Status in CFS/ME (NULL; Direct)
+
+@Earl2017VitaminD
+
+*Full Citation:*: Earl KE, Sakellariou GK, Sinclair M, et al.\ Vitamin D status in chronic fatigue syndrome/myalgic encephalomyelitis: a cohort study from the North-West of England. _BMJ Open_. 2017;7(11):e015296.
+*DOI:*: #link("https://doi.org/10.1136/bmjopen-2016-015296")[10.1136/bmjopen-2016-015296]
+*Study Design:*: Cohort study; n=92 CFS/ME, n=94 age-matched healthy controls; LC-MS/MS
+*Key Findings:*:
+    - No evidence of vitamin D deficiency in CFS/ME; total 25(OH)D significantly HIGHER in patients (60.2 vs 47.3 nmol/L, p=0.001).
+    - Higher vitamin D driven by greater supplement use in the CFS/ME group.
+    - No association between Chalder fatigue score and vitamin D level.
+*Conclusion:*: Directly contradicts the MEA assumption that housebound ME/CFS patients are vitamin-D deficient. Supplementation in this cohort already elevated levels; routine high-dose vitamin D for fatigue lacks supporting evidence.
+*Limitations:*: Single region (NW England); cross-sectional; supplementation confounds natural status; does not exclude deficiency in a more severe, truly housebound subset.
+*Certainty Assessment:*: 0.80 raw × 1.0 ME/CFS direct population weight = discounted 0.80 (NULL evidence)
+
+=== Rolvien & Amling 2022 — Disuse Osteoporosis (Bedrest Precedent)
+
+@Rolvien2022DisuseOsteoporosis
+
+*Full Citation:*: Rolvien T, Amling M. Disuse osteoporosis: clinical and mechanistic insights. _Calcified Tissue International_. 2022;110(5):592–604.
+*DOI:*: #link("https://doi.org/10.1007/s00223-021-00836-1")[10.1007/s00223-021-00836-1]
+*Study Design:*: Peer-reviewed clinical + mechanistic review
+*Key Findings:*:
+    - Immobilization/bed rest causes immediate trabecular and cortical bone loss, increased resorption and decreased formation.
+    - Osteocytes sense mechanical load via mechanosensors (Piezo1, primary cilia, connexin hemichannels); unloading raises sclerostin, suppressing formation.
+    - Settings: spinal cord injury, neurological/neuromuscular disorders, fracture immobilization, bed rest.
+*Conclusion:*: Sustained mechanical unloading — the situation in moderate–severe ME/CFS — is a direct driver of osteoporosis, supporting the reduced-mobility risk hypothesis (H1).
+*Limitations:*: Not ME/CFS-specific; extrapolation from disuse/SCI populations; no dose-response to degree of inactivity given.
+*Certainty Assessment:*: 0.78 raw × 0.50 other-disease-model weight = discounted 0.39
+
+=== Qin et al.\ 2013 — Muscle Contraction, RANKL/OPG and Bone (Indirect Biochemical)
+
+@Qin2013MuscleBone
+
+*Full Citation:*: Qin W, Sun L, Cao J, et al.\ The central nervous system (CNS)-independent anti-bone-resorptive activity of muscle contraction and the underlying molecular and cellular signatures. _Journal of Biological Chemistry_. 2013;288(19):13511–13521.
+*DOI:*: #link("https://doi.org/10.1074/jbc.M113.454892")[10.1074/jbc.M113.454892]
+*Study Design:*: Animal model (SCI rat); electrical-stimulation muscle contraction
+*Key Findings:*:
+    - Stimulated muscle contraction reversed SCI-induced serum CTX rise and reduced osteoclast numbers.
+    - Raised OPG/RANKL ratio; lowered Wnt inhibitors (DKK1, sFRP2, sclerostin).
+    - Anti-resorptive effect independent of the CNS, via mechanical + myokine signals.
+*Conclusion:*: Reduced muscle contraction/loading shifts OPG/RANKL toward bone resorption. Maps the RANKL/OPG pathway to ME/CFS deconditioning: muscle dysfunction plus inactivity predisposes to bone loss.
+*Limitations:*: Animal model; SCI (acute paralysis) not equivalent to ME/CFS; indirect applicability.
+*Certainty Assessment:*: 0.55 raw × 0.35 other-disease-model weight = discounted 0.19
+
+=== Hart 2021 — Deconditioning and the "Use It or Lose It" Principle
+
+@Hart2021Deconditioning
+
+*Full Citation:*: Hart DA. Learning from human responses to deconditioning environments: improved understanding of the "use it or lose it" principle. _Frontiers in Sports and Active Living_. 2021;3:685845.
+*DOI:*: #link("https://doi.org/10.3389/fspor.2021.685845")[10.3389/fspor.2021.685845]
+*Study Design:*: Narrative review (spaceflight, bed rest, protracted sedentary behavior)
+*Key Findings:*:
+    - Musculoskeletal and cardiovascular systems require constant reinforcement; chronic deconditioning causes systemic loss.
+    - Chronic deconditioning poses risk for disease development and progression, including bone loss.
+*Conclusion:*: Provides the conceptual frame for the H1 claim: prolonged reduced activity in moderate–severe ME/CFS leads to deconditioning with bone consequences.
+*Limitations:*: Narrative/opinion; broad scope; not ME/CFS-specific; no quantitative risk estimates.
+*Certainty Assessment:*: 0.55 raw × 0.40 other-disease-model weight = discounted 0.22
+
+=== Shane et al.\ 2014 — Atypical Femur Fractures and Bisphosphonates (HARM)
+
+@Shane2014AtypicalFemur
+
+*Full Citation:*: Shane E, Burr D, Abrahamsen B, et al.\ Atypical subtrochanteric and diaphyseal femoral fractures: second report of a task force of the American Society for Bone and Mineral Research. _Journal of Bone and Mineral Research_. 2014;29(1):1–23.
+*DOI:*: #link("https://doi.org/10.1002/jbmr.1998")[10.1002/jbmr.1998]
+*Study Design:*: ASBMR Task Force report / consensus
+*Key Findings:*:
+    - Atypical femur fractures (AFFs) significantly associated with long-term bisphosphonate and denosumab use.
+    - Absolute risk low (3.2–50 per 100,000 person-years) but ~100 per 100,000 with long-term use.
+    - Suppression of intracortical remodeling impairs stress-fracture healing; risk declines after stopping.
+*Conclusion:*: Long-term antiresorptive (alendronate/risedronate) use carries an AFF risk that must be weighed, especially when prolonged in a population with reduced weight-bearing load.
+*Limitations:*: Consensus; observational association; absolute risk low; not ME/CFS-specific.
+*Certainty Assessment:*: 0.80 raw × 0.50 other-disease-model weight = discounted 0.40 (HARM)
+
+=== Bolland et al.\ 2010 — Calcium Supplements and Cardiovascular Risk (HARM)
+
+@Bolland2010CalciumCV
+
+*Full Citation:*: Bolland MJ, Avenell A, Baron JA, et al.\ Effect of calcium supplements on risk of myocardial infarction and cardiovascular events: meta-analysis. _BMJ_. 2010;341:c3691.
+*DOI:*: #link("https://doi.org/10.1136/bmj.c3691")[10.1136/bmj.c3691]
+*Study Design:*: Meta-analysis; patient-level (n=8151) and trial-level (n=11921) RCT data
+*Key Findings:*:
+    - Calcium supplements without co-administered vitamin D increased MI risk (HR 1.31, 95% CI 1.02–1.67).
+    - Non-significant increases in stroke and composite cardiovascular endpoint.
+*Conclusion:*: Unsupplemented-calcium dosing carries modest cardiovascular risk. In ME/CFS with dysautonomic/cardiovascular comorbidity, calcium supplementation should not be assumed benign — a caution for the MEA prevention recommendation.
+*Limitations:*: Evidence for harm applies to calcium WITHOUT vitamin D; controversy and re-analysis followed publication; observational caveats.
+*Certainty Assessment:*: 0.72 raw × 0.50 other-disease-model weight = discounted 0.36 (HARM)
+
+=== Taylor & Saag 2019 — Anabolic Bone Therapies: Safety (HARM; Side-Effect Overlap)
+
+@TaylorSaag2019Anabolics
+
+*Full Citation:*: Taylor AD, Saag KG. Anabolics in the management of glucocorticoid-induced osteoporosis: an evidence-based review of long-term safety, efficacy and place in therapy. _Core Evidence_. 2019;14:41–50.
+*DOI:*: #link("https://doi.org/10.2147/CE.S172820")[10.2147/CE.S172820]
+*Study Design:*: Evidence-based review (teriparatide, abaloparatide, romosozumab)
+*Key Findings:*:
+    - Teriparatide increases lumbar spine BMD vs placebo, alendronate, risedronate; fewer vertebral fractures than alendronate.
+    - Adverse effects: nausea, insomnia, flushing, myalgias, mild hypercalcemia/hyperuricemia.
+    - Rat osteosarcoma signal not replicated in humans or long-term pharmacovigilance.
+*Conclusion:*: Anabolic therapy adverse effects (myalgias, nausea, insomnia) overlap ME/CFS symptoms — supports the MEA trial-and-error caution and the difficulty of attributing new symptoms to drug vs disease.
+*Limitations:*: Focused on glucocorticoid-induced osteoporosis; not ME/CFS; teriparatide is a specialist second/third-line therapy.
+*Certainty Assessment:*: 0.72 raw × 0.40 other-disease-model weight = discounted 0.29 (HARM)
+
+=== Arjunan et al.\ 2023 — Bisphosphonates: Pharmacology, Adverse Effects, Contraindications
+
+@Arjunan2023Bisphosphonates
+
+*Full Citation:*: Arjunan D, Bhadada T, Mohankumar SB, Bhadada SK. Non-biological antiresorptive: bisphosphonates. _Indian Journal of Orthopaedics_. 2023;57(Suppl 1):120–126.
+*DOI:*: #link("https://doi.org/10.1007/s43465-023-01054-7")[10.1007/s43465-023-01054-7]
+*Study Design:*: Peer-reviewed narrative review
+*Key Findings:*:
+    - Nitrogen-containing and non-nitrogenous bisphosphonates; mechanism, routes, dosing, drug holidays, adverse effects, contraindications.
+    - Oral bisphosphonates carry administration constraints (posture, esophageal irritation) relevant to severe/bedbound patients.
+*Conclusion:*: Provides the pharmacology and safety/contraindication context for alendronate/risedronate recommended in the MEA Q&A, including the oral-administration and tolerability challenges in bedbound patients.
+*Limitations:*: General review; not ME/CFS-specific; no patient-level safety data for chronic-illness populations.
+*Certainty Assessment:*: 0.60 raw × 0.40 other-disease-model weight = discounted 0.24
+<sec:bib-prolactin-buspirone>
+// =============================================================================
+// Research stream: prolactin-buspirone (2026-08-29, Phase 1). 14 new entries.
+// Research-question / biomarker-challenge / neuroendocrine-mechanism topic.
+// Direct buspirone→prolactin ME/CFS studies + fenfluramine serotonergic challenge
+// (null + depression-vs-CFS contrast) + dopamine-brake / TIDA / estradiol mechanism.
+
+=== Bakheit et al.\ 1992 — Possible Upregulation of Hypothalamic 5-HT Receptors in Postviral Fatigue (BMJ)
+
+@Bakheit1992Buspirone
+
+*Full Citation:*: Bakheit AMO, Behan PO, Dinan TG, Gray CE, O'Keane V. Possible upregulation of hypothalamic 5-hydroxytryptamine receptors in patients with postviral fatigue syndrome. _BMJ_. 1992;304(6833):1010–1012.
+*DOI:*: #link("https://doi.org/10.1136/bmj.304.6833.1010")[10.1136/bmj.304.6833.1010]
+*PMID:*: 1586780
+*Study Design:*: Small neuroendocrine challenge study (oral buspirone → prolactin) in postviral fatigue syndrome (PVFS)
+*Key Findings:*:
+    - Oral buspirone (a 5-HT1A agonist that also blocks dopamine D2) stimulated prolactin release in PVFS patients.
+    - Findings interpreted as evidence consistent with upregulation of hypothalamic 5-hydroxytryptamine (5-HT) receptors.
+    - This is the first report linking buspirone-stimulated prolactin to serotonergic receptor changes in PVFS/ME.
+*Conclusion:*: Provides the original observation that buspirone-stimulated prolactin is altered in postviral fatigue, the ancestor finding of the prolactin-buspirone challenge line.
+*Limitations:*: Small sample; no depression control group; pre-Fukuda diagnostic era (PVFS clinical criteria); the buspirone probe also blocks dopamine D2, so the 5-HT interpretation is not unambiguous.
+*Certainty Assessment:*: 0.55 raw × 1.00 ME/CFS-cohort weight = discounted 0.55
+
+=== Sharpe et al.\ 1996 — Increased Prolactin Response to Buspirone in CFS (J AFFECT DISORD; KEY REPLICATION)
+
+@Sharpe1996Buspirone
+
+*Full Citation:*: Sharpe M, Clements A, Hawton K, Young AH, Sargent P, Cowen PJ. Increased prolactin response to buspirone in chronic fatigue syndrome. _Journal of Affective Disorders_. 1996;41(1):71–76.
+*DOI:*: #link("https://doi.org/10.1016/0165-0327(96)00075-4")[10.1016/0165-0327(96)00075-4]
+*PMID:*: 8938208
+*Study Design:*: Neuroendocrine challenge study; 11 male CFS patients vs matched healthy controls; buspirone 0.5 mg/kg orally
+*Key Findings:*:
+    - CFS patients had significantly higher plasma prolactin and more nausea in response to buspirone than controls.
+    - The growth hormone response to buspirone did NOT distinguish CFS patients from controls.
+    - Authors question whether enhanced prolactin release reflects increased postsynaptic 5-HT1A sensitivity, and note prolactin is regulated by dopaminergic (D2) tone.
+*Conclusion:*: Independently replicates an exaggerated buspirone-stimulated prolactin response in CFS and explicitly flags the dopamine-D2 mechanism as an alternative to a pure 5-HT1A interpretation.
+*Limitations:*: Small, male-only sample; healthy controls only (no depression group); single-center; era of Fukuda criteria.
+*Certainty Assessment:*: 0.62 raw × 1.00 ME/CFS-cohort weight = discounted 0.62
+
+=== Sharma et al.\ 2001 — Recovery from CFS Associated with Neuroendocrine Change (J R SOC MED)
+
+@Sharma2001Buspirone
+
+*Full Citation:*: Sharma A, Oyebode F, Kendall MJ, Jones PW. Recovery from chronic fatigue syndrome associated with changes in neuroendocrine function. _Journal of the Royal Society of Medicine_. 2001;94(1):26–27.
+*DOI:*: #link("https://doi.org/10.1177/014107680109400107")[10.1177/014107680109400107]
+*PMID:*: 11220065
+*Study Design:*: Brief case/small-series report; buspirone challenge neuroendocrine assessment across recovery
+*Key Findings:*:
+    - Clinical recovery from CFS was associated with changes in neuroendocrine function assessed by buspirone challenge.
+    - Suggests the neuroendocrine (prolactin) abnormality may track illness state rather than being a fixed trait.
+*Conclusion:*: Adds a longitudinal signal that the buspirone/prolactin abnormality may be state-dependent, supporting a challenge-test biomarker interpretation.
+*Limitations:*: Very small; brief-report format; limited methodological detail.
+*Certainty Assessment:*: 0.40 raw × 1.00 ME/CFS-cohort weight = discounted 0.40
+
+=== Dinan et al.\ 2001 — Impact of Cortisol on Buspirone-Stimulated Prolactin (PSYCHONEUROENDOCRINOLOGY)
+
+@Dinan2001Buspirone
+
+*Full Citation:*: Dinan TG, Scott LV, Thakore J, Naesdal J, Keeling PW. Impact of cortisol on buspirone stimulated prolactin release: a double-blind placebo-controlled study. _Psychoneuroendocrinology_. 2001;26(7):751–756.
+*DOI:*: #link("https://doi.org/10.1016/S0306-4530(01)00029-4")[10.1016/S0306-4530(01)00029-4]
+*PMID:*: 11500255
+*Study Design:*: Double-blind placebo-controlled challenge study in healthy volunteers (n=50)
+*Key Findings:*:
+    - Buspirone consistently elevated prolactin above placebo.
+    - Prolactin area-under-the-curve response correlated highly with baseline cortisol level.
+*Conclusion:*: Baseline glucocorticoid (HPA) state modulates the buspirone-stimulated prolactin response — directly relevant to interpreting CFS prolactin responses given documented CFS cortisol deficits.
+*Limitations:*: Healthy volunteers only (no ME/CFS); does not study the CFS population.
+*Certainty Assessment:*: 0.65 raw × 0.75 general-population weight = discounted 0.49
+
+=== Yatham et al.\ 1995 — Neuroendocrine Assessment of 5-HT Function in CFS (CAN J PSYCHIATRY; NULL)
+
+@Yatham1995Fenfluramine
+
+*Full Citation:*: Yatham LN, Morehouse RL, Chisholm BT, Haase DA, MacDonald DD, Marrie TJ. Neuroendocrine assessment of serotonin (5-HT) function in chronic fatigue syndrome. _Canadian Journal of Psychiatry_. 1995;40(2):93–96.
+*DOI:*: #link("https://doi.org/10.1177/070674379504000207")[10.1177/070674379504000207]
+*PMID:*: 7788624
+*Study Design:*: Serotonergic challenge study; 11 CFS patients vs 11 matched healthy controls; dl-fenfluramine 60 mg
+*Key Findings:*:
+    - NO difference in baseline or fenfluramine-induced prolactin or cortisol responses between CFS patients and controls.
+    - No correlation between HAM-D depression scores and hormonal responses.
+*Conclusion:*: A global serotonergic (5-HT) hypersecretion model is NOT supported with fenfluramine; the exaggerated response appears probe-specific (fenfluramine differs from buspirone, which also blocks D2).
+*Limitations:*: Small sample; fenfluramine is a 5-HT releaser, not a D2 blocker, so it does not isolate the D2 mechanism; null result for this probe.
+*Certainty Assessment:*: 0.58 raw × 1.00 ME/CFS-cohort weight = discounted 0.58
+
+=== Cleare & O'Keane\ 1996 — Re: Endocrine Responses to Fenfluramine Challenge in CFS (CAN J PSYCHIATRY)
+
+@Cleare1996Fenfluramine
+
+*Full Citation:*: Cleare AJ, O'Keane V. Re: Endocrine responses to fenfluramine challenge in chronic fatigue syndrome. _Canadian Journal of Psychiatry_. 1996;41(2):129–131.
+*PMID:*: 8705960
+*Study Design:*: Letter (commentary) on fenfluramine-challenge methodology in CFS
+*Key Findings:*:
+    - Argues prior negative fenfluramine findings do not rule out serotonergic/neuroendocrine abnormalities in CFS.
+    - Clarifies conditions under which fenfluramine prolactin responses appear normal vs altered in CFS.
+*Conclusion:*: Corroborating methodological commentary on interpreting challenge-prolactin findings in CFS.
+*Limitations:*: Letter; no original patient data; no DOI registered.
+*Certainty Assessment:*: 0.35 raw × 1.00 ME/CFS-cohort weight = discounted 0.35
+
+=== Newman et al.\ 1998 — Fenfluramine Challenge Test: A Critical Review (INT J NEUROPSYCHOPHARMACOL)
+
+@Newman1998Fenfluramine
+
+*Full Citation:*: Newman ME, Shapira B, Lerer B. Evaluation of central serotonergic function in affective and related disorders by the fenfluramine challenge test: a critical review. _The International Journal of Neuropsychopharmacology_. 1998;1(1):49–69.
+*DOI:*: #link("https://doi.org/10.1017/S1461145798001072")[10.1017/S1461145798001072]
+*PMID:*: 11281946
+*Study Design:*: Critical methodological review of the fenfluramine challenge test
+*Key Findings:*:
+    - Prolactin response is dose-dependent, blocked by 5-HT2a/2c antagonists, negatively correlated with age, and increased in young females.
+    - Blunted prolactin responses predominate in major depression, but a significant minority of studies find no difference.
+*Conclusion:*: Provides the methodological caveats for interpreting serotonergic challenge results in CFS and depression — directly relevant to designing a modern replication study.
+*Limitations:*: Review of fenfluramine (not buspirone) methodology; not ME/CFS-specific.
+*Certainty Assessment:*: 0.68 raw × 0.75 general-population weight = discounted 0.51
+
+=== Bearn et al.\ 1995 — Neuroendocrine Responses to d-Fenfluramine and Hypoglycemia in CFS (BIOL PSYCHIATRY)
+
+@Bearn1995Fenfluramine
+
+*Full Citation:*: Bearn J, Allain T, Coskeran P, Munro N, Butler J, McGregor A, Wessely S. Neuroendocrine responses to d-fenfluramine and insulin-induced hypoglycemia in chronic fatigue syndrome. _Biological Psychiatry_. 1995;37(4):245–252.
+*DOI:*: #link("https://doi.org/10.1016/0006-3223(94)00121-i")[10.1016/0006-3223(94)00121-i]
+*PMID:*: 7711161
+*Study Design:*: Neuroendocrine challenge in nondepressed CFS patients vs normal controls; d-fenfluramine + insulin-induced hypoglycemia
+*Key Findings:*:
+    - Attenuated prolactin responses to insulin-induced hypoglycemia in CFS.
+    - No enhanced fenfluramine-prolactin response reported (contrasts with buspirone findings).
+    - Greater ACTH response / higher peak ACTH in CFS.
+*Conclusion:*: Prolactin regulation is perturbed in CFS, but the direction depends on the probe and neural pathway (hypoglycemia/PRL vs serotonergic/PRL vs D2), reinforcing that challenge-probe selection determines the signal.
+*Limitations:*: d-fenfluramine probe; does not isolate the D2 mechanism; small sample.
+*Certainty Assessment:*: 0.60 raw × 1.00 ME/CFS-cohort weight = discounted 0.60
+
+=== Cleare et al.\ 1995 — Contrasting Neuroendocrine Responses in Depression and CFS (J AFFECT DISORD)
+
+@Cleare1995DepressionCFS
+
+*Full Citation:*: Cleare AJ, Bearn J, Allain T, McGregor A, Wessely S, Murray RM, O'Keane V. Contrasting neuroendocrine responses in depression and chronic fatigue syndrome. _Journal of Affective Disorders_. 1995;34(4):283–289.
+*DOI:*: #link("https://doi.org/10.1016/0165-0327(95)00026-j")[10.1016/0165-0327(95)00026-j]
+*PMID:*: 8550954
+*Study Design:*: CFS vs major depression vs healthy comparison; d-fenfluramine challenge; matched for age, weight, sex, menstrual cycle
+*Key Findings:*:
+    - Baseline cortisol highest in depression, lowest in CFS, intermediate in controls.
+    - Prolactin responses to d-fenfluramine were LOWEST in depressed, HIGHEST in CFS, intermediate in healthy (p=0.01).
+    - Matched-pair analysis confirmed higher prolactin responses in CFS vs controls.
+*Conclusion:*: Provides the key depression-vs-ME/CFS prolactin discrimination central to the topic — a challenge probe that can separate ME/CFS from depression on the basis of prolactin response.
+*Limitations:*: Small n per group (10 CFS, 15 depression); d-fenfluramine probe (not D2-blocking); single-center; Fukuda era.
+*Certainty Assessment:*: 0.62 raw × 1.00 ME/CFS-cohort weight = discounted 0.62
+
+=== Demitrack\ 1997 — Neuroendocrine Correlates of CFS: A Brief Review (J PSYCHIATR RES)
+
+@Demitrack1997Neuroendocrine
+
+*Full Citation:*: Demitrack MA. Neuroendocrine correlates of chronic fatigue syndrome: a brief review. _Journal of Psychiatric Research_. 1997;31(1):69–82.
+*DOI:*: #link("https://doi.org/10.1016/S0022-3956(96)00059-3")[10.1016/S0022-3956(96)00059-3]
+*PMID:*: 9201649
+*Study Design:*: Narrative review of CFS neuroendocrine correlates (HPA axis + serotonergic challenge)
+*Key Findings:*:
+    - Reviews HPA axis and serotonergic challenge findings in CFS, including prolactin responses.
+    - Situates the prolactin/serotonergic challenge literature within broader CFS neuroendocrinology and mood-disorder overlap.
+*Conclusion:*: Confirms the challenge-prolactin literature is small and mostly from the 1990s — consistent with the topic's characterization as an 'abandoned line.'
+*Limitations:*: Review; 1990s era; predates modern ME/CFS diagnostic criteria.
+*Certainty Assessment:*: 0.60 raw × 1.00 ME/CFS-cohort weight = discounted 0.60
+
+=== Ben-Jonathan & Hnasko\ 2001 — Dopamine as a Prolactin Inhibitor (ENDOCR REV; CANONICAL MECHANISM)
+
+@BenJonathan2001ProlactinDopamine
+
+*Full Citation:*: Ben-Jonathan N, Hnasko R. Dopamine as a prolactin (PRL) inhibitor. _Endocrine Reviews_. 2001;22(6):724–763.
+*DOI:*: #link("https://doi.org/10.1210/edrv.22.6.0451")[10.1210/edrv.22.6.0451]
+*PMID:*: 11739329
+*Study Design:*: Authoritative physiology review of the dopamine–prolactin axis
+*Key Findings:*:
+    - Dopamine reaches the pituitary via portal blood from hypothalamic tracts regulated by prolactin itself, estrogens, and neuropeptides.
+    - Dopamine binds type-2 dopamine (D2) receptors on lactotrophs to inhibit prolactin.
+    - Estrogens modulate both dopamine delivery and prolactin synthesis.
+*Conclusion:*: Supplies the core mechanism for candidate mechanism (a) (exaggerated prolactin response to a D2-blocking drug may reflect reduced dopaminergic inhibitory tone) and (b) (estradiol regulation of prolactin may contribute to female predominance).
+*Limitations:*: General physiology; not ME/CFS-specific.
+*Certainty Assessment:*: 0.85 raw × 0.75 general-population weight = discounted 0.64
+
+=== Fitzgerald & Dinan\ 2008 — Prolactin and Dopamine: What Is the Connection? (J PSYCHOPHARMACOL)
+
+@Fitzgerald2008ProlactinDopamine
+
+*Full Citation:*: Fitzgerald P, Dinan TG. Prolactin and dopamine: what is the connection? A review article. _Journal of Psychopharmacology_. 2008;22(2 Suppl):12–19.
+*DOI:*: #link("https://doi.org/10.1177/0269216307087148")[10.1177/0269216307087148]
+*PMID:*: 18477617
+*Study Design:*: Review of dopamine's role in prolactin secretion
+*Key Findings:*:
+    - Dopamine inhibits the basally high-secretory tone of lactotrophs via D2 receptors, reducing prolactin exocytosis and gene expression.
+    - Hypothalamic dopaminergic neurons are regulated by prolactin feedback (short loop).
+*Conclusion:*: Provides the pharmacologic basis for interpreting prolactin responses to D2-blocking or 5-HT1A-agonist challenges, including buspirone.
+*Limitations:*: General physiology; not ME/CFS-specific.
+*Certainty Assessment:*: 0.80 raw × 0.75 general-population weight = discounted 0.60
+
+=== Qi-Lytle et al.\ 2023 — Current Review of Tuberoinfundibular Dopamine Neurons (INT J MOL SCI)
+
+@QiLytle2023TIDA
+
+*Full Citation:*: Qi-Lytle H, Sayers J, Wagner EJ. Current review of the function and regulation of tuberoinfundibular dopamine neurons. _International Journal of Molecular Sciences_. 2023;25(1):110.
+*DOI:*: #link("https://doi.org/10.3390/ijms25010110")[10.3390/ijms25010110]
+*PMID:*: 38203281
+*Study Design:*: Modern physiology review of tuberoinfundibular dopamine (TIDA) neurons
+*Key Findings:*:
+    - TIDA neurons project from the arcuate nucleus to the median eminence; portal dopamine activates D2 receptors to inhibit prolactin.
+    - TIDA neurons are the principal regulator of prolactin secretion.
+    - TIDA activity is modulated by estradiol, prolactin feedback, and metabolic signals.
+*Conclusion:*: Provides the current mechanistic framework for the proposed modern replication rationale — altered dopaminergic brake (candidate a) and estradiol modulation of TIDA/prolactin (candidate b).
+*Limitations:*: General physiology; not ME/CFS-specific.
+*Certainty Assessment:*: 0.80 raw × 0.75 general-population weight = discounted 0.60
+
+=== Haghighi et al.\ 2021 — Monoamine Stabilizer (-)-OSU6162 in ME/CFS (BRAIN BEHAV; INDIRECT DOPAMINE LINK)
+
+@Haghighi2021OSU6162
+
+*Full Citation:*: Haghighi S, Forsmark J, Zachrisson O, Carlsson A, Nilsson M, Carlsson ML, Schuit RC, Gottfries CG. Open-label study with the monoamine stabilizer (-)-OSU6162 in myalgic encephalomyelitis/chronic fatigue syndrome. _Brain and Behavior_. 2021;11(4):e02040.
+*DOI:*: #link("https://doi.org/10.1002/brb3.2040")[10.1002/brb3.2040]
+*PMID:*: 33528911
+*Study Design:*: Open-label trial of a dopamine (monoamine) stabilizer in ME/CFS
+*Key Findings:*:
+    - Tests the hypothesis that dopaminergic dysfunction contributes to ME/CFS symptoms.
+    - Documents that dopaminergic modulation is being investigated as a treatment lever in ME/CFS.
+*Conclusion:*: Supports the general premise of dopaminergic dysregulation in ME/CFS relevant to the D2/prolactin mechanism.
+*Limitations:*: Open-label; small sample; no placebo control.
+*Certainty Assessment:*: 0.45 raw × 1.00 ME/CFS-cohort weight = discounted 0.45
