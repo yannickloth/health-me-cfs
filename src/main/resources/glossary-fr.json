@@ -13895,5 +13895,30 @@
     "label": "Activités de la vie quotidienne",
     "category": "condition",
     "definition": "Les tâches d'auto-soin de routine qu'une personne doit gérer au quotidien — se laver, s'habiller, s'alimenter, aller aux toilettes et se déplacer. Une évaluation à domicile de ces tâches est un élément clé de la planification des soins pour les ME/CFS sévères."
+  },
+  "non-POTS dysautonomia": {
+    "label": "non-POTS dysautonomia",
+    "category": "condition",
+    "definition": "Dysfonctionnement du système nerveux autonome provoquant une intolérance orthostatique et une altération fonctionnelle sans remplir les critères de tachycardie orthostatique du POTS (≥30 bpm adultes, ≥40 bpm adolescents)."
+  },
+  "MMF": {
+    "label": "MMF",
+    "category": "condition",
+    "definition": "Myofasciite à macrophages : lésion histopathologique du muscle deltoïde, confirmée par biopsie, montrant la biopersistance de particules adjuvantes d'aluminium dans les macrophages. Associée à des arthromyalgies, une fatigue chronique et des troubles cognitifs dans une seule cohorte française de recrutement (Henri-Mondor/AP-HP) ; son rôle comme cause de l'EM/SFC est contesté et non répliqué indépendamment."
+  },
+  "macrophagic myofasciitis": {
+    "label": "myofasciite à macrophages",
+    "category": "condition",
+    "definition": "Voir MMF : lésion du muscle deltoïde confirmée par biopsie, liée à la persistance d'un adjuvant aluminique dans les macrophages, proposée mais non prouvée comme contributrice à l'EM/SFC."
+  },
+  "ASIA": {
+    "label": "ASIA",
+    "category": "condition",
+    "definition": "Syndrome auto-immun/inflammatoire induit par les adjuvants : cadre proposé (Shoenfeld) regroupant des réactions auto-immunes/inflammatoires post-vaccinales et post-implantes, dont les phénomènes liés aux adjuvants aluminiques. Ce cadre est controversé et sa portée causale est débattue."
+  },
+  "aluminium hydroxide": {
+    "label": "hydroxyde d'aluminium",
+    "category": "compound",
+    "definition": "Adjuvant vaccinal à base de sel d'aluminium qui active l'inflammasome NLRP3 pour amplifier les réponses immunitaires. Sa biopersistance dans les macrophages musculaires sous-tend la myofasciite à macrophages (MMF)."
   }
 }

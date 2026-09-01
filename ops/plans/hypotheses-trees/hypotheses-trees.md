@@ -75,6 +75,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | ige-sensitization-spike-tick-neuroinflammation | [subtrees/ige-sensitization-spike-tick-neuroinflammation.md](subtrees/ige-sensitization-spike-tick-neuroinflammation.md) | 2026-06-24 | 13 | 8 | ✅ done |
 | mast-cell-ige-connective-tissue | [subtrees/mast-cell-ige-connective-tissue.md](subtrees/mast-cell-ige-connective-tissue.md) | 2026-06-19      | 46         | 0          | ⬜ pending     |
 | rf-elevated-mecfs     | [subtrees/rf-elevated-mecfs.md](subtrees/rf-elevated-mecfs.md)        | 2026-06-19      | 36         | 8          | ⬜ pending     |
+| aluminum-adjuvant-mmf | [subtrees/aluminum-adjuvant-mmf.md](subtrees/aluminum-adjuvant-mmf.md) | 2026-09-01 | 12 | 0 | 🔵 in progress |
 | ans-aging             | [subtrees/ans-aging.md](subtrees/ans-aging.md)                        | 2026-04-20      | 25         | 0          | ⬜ stub        |
 | butyrate-intestinal-permeability | [subtrees/butyrate-intestinal-permeability.md](subtrees/butyrate-intestinal-permeability.md) | 2026-05-20      | 7          | 0          | ⬜ pending     |
 | ch34-research-methods | [subtrees/ch34-research-methods.md](subtrees/ch34-research-methods.md) | 2026-07-26 | 19 | 14 | ✅ done |
@@ -291,7 +292,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | slow-breathing-vagal | [subtrees/slow-breathing-vagal.md](subtrees/slow-breathing-vagal.md) | 2026-06-07 | 18 | 1 | 🔵 in progress |
 | cold-face-immersion | [subtrees/cold-face-immersion.md](subtrees/cold-face-immersion.md) | 2026-06-07 | 12 | 1 | 🔵 in progress |
 | rowing-biomechanics | [subtrees/rowing-biomechanics.md](subtrees/rowing-biomechanics.md) | 2026-06-07 | 11 | 1 | 🔵 in progress |
-| pots | [subtrees/pots.md](subtrees/pots.md) | 2026-06-07 | 45 | 0 | ⬜ pending |
+| pots | [subtrees/pots.md](subtrees/pots.md) | 2026-09-01 | 64 | 0 | 🔵 in progress |
 | 2026-lit-scan-june | [subtrees/2026-lit-scan-june.md](subtrees/2026-lit-scan-june.md) | 2026-06-07 | 46 | 0 | ⬜ pending |
 | noradrenergic-deficiency | [subtrees/noradrenergic-deficiency.md](subtrees/noradrenergic-deficiency.md) | 2026-06-07 | 28 | 4 | 🔵 in progress |
 | tinnitus | [subtrees/tinnitus.md](subtrees/tinnitus.md) | 2026-06-07 | 0 | 0 | ⬜ stub |

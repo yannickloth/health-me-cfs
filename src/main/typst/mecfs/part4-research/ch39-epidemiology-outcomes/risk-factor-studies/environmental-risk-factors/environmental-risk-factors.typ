@@ -7,6 +7,6 @@ Environmental triggers interact with genetic susceptibility to precipitate ME/CF
     - *Toxic exposures*: Organophosphate pesticides, solvents, mold/mycotoxin exposure, and heavy metals have been reported as triggers in case series. Systematic epidemiological evidence is limited
     - *Physical trauma*: Surgery, childbirth, and physical injury occasionally precede ME/CFS onset, possibly through immune activation or HPA axis disruption
     - *Psychological stress*: Severe or prolonged stress is reported as a precipitant in some cases, though its role is controversial and must be distinguished from the psychogenic model that attributes ME/CFS to stress itself
-    - *Vaccination*: Rare cases of ME/CFS onset following vaccination have been reported. Population-level studies do not show elevated risk, and the benefit of vaccination (particularly for infection prevention in existing ME/CFS patients) far outweighs any theoretical risk
+    - *Vaccination*: Rare cases of ME/CFS onset following vaccination have been reported. Population-level studies do not show elevated risk — a nationwide registry found an adjuvanted pandemic-influenza vaccine raised no CFS/ME risk (HR 0.97), while influenza infection did (HR 2.04) @Magnus2015influenza — and the benefit of vaccination (particularly for infection prevention in existing ME/CFS patients) far outweighs any theoretical risk
 
 

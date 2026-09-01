@@ -132,6 +132,104 @@ Ultra-high-field 7 Tesla MRS shows a separable brain chemistry profile for ME/CF
 ] <spec:postinfectious-bidirectional-microstructure>
 
 
+=== Aluminum-Adjuvant Macrophagic Myofasciitis: A Post-Exposure Subgroup Speculation
+
+A distinct post-exposure proposal places the origin in vaccine *adjuvants* rather than in live infection. The historian of this proposal is a single French group (Gherardi, Authier, and colleagues at the Henri-Mondor/AP-HP reference center, INSERM U955), who have argued for two decades that intramuscular aluminium oxyhydroxide adjuvant particles biopersist in phagocytes at the injection site, forming the histopathological lesion *macrophagic myofasciitis* (MMF), and that in a minority of MMF-diagnosed patients a chronic dispersal of aluminium triggers a systemic syndrome — arthromyalgia, chronic fatigue, and cognitive impairment — that they claim corresponds to ME/CFS @Gherardi2019myalgia @Rigolet2014clinical @Gherardi2015biopersist. The hypothesis carries a real molecular anchor: aluminium salts activate the NLRP3 inflammasome to drive IL-1β secretion, which is precisely how alum works as an immunostimulant @Eisenbarth2008nalp3, and NLRP3/IL-1β activity is a documented feature of ME/CFS immune dysregulation elsewhere in this paper.
+
+#speculation(title: [Aluminium-Adjuvant Biopersistence and Myofasciitis as a Rare Post-Vaccination Subgroup of ME/CFS])[
+*(Certainty: 0.30.)* In a minority of people given aluminium-adjuvanted vaccines, the adjuvant particle biopersists in deltoid-muscle macrophages (macrophagic myofasciitis, MMF — a real, biopsy-confirmable histopathological lesion), and in some of them chronic low-grade aluminium-driven NLRP3/IL-1β signalling may contribute to a fatiguing, arthromyalgic, cognitively impaired syndrome overlapping ME/CFS. (Origin: literature — Henri-Mondor group; note single-site, not independently replicated.)
+
+*Evidence base.* MMF is described in referral case series and imaging/neuropsychological studies from the Henri-Mondor group @Rigolet2014clinical @VanDerGucht2015spect @VanDerGucht2017fdg @AounSebaiti2018cogn; animal work supports selective low-dose aluminium-adjuvant neurotoxicity and brain translocation @Crepeaux2017dose @Gherardi2015biopersist; in vitro, MMF patient phagocytes show impaired autophagic flux, pain chemokines, and mitochondrial dysfunction @Masson2024phagocytes. The molecular trigger is established: alum activates the NLRP3 inflammasome → IL-1β @Eisenbarth2008nalp3.
+
+*Cohort dependence (Standing Epistemic #1).* All MMF clinical and mechanistic papers derive from the same Garches–Necker–Mondor referral cohort (PIs Gherardi + Authier), sliced across publications — they are *not* independent replications. This single-group provenance extends to the animal brain-translocation/neurotoxicity work (@Gherardi2015biopersist, @Crepeaux2017dose) and the in-vitro phagocyte studies (@Masson2024phagocytes), which are the same group's self-supporting chain rather than independent corroboration. The MMF→ME/CFS link rests on a single-group observation with no independent confirmation. No study applies formal diagnostic criteria (Fukuda/CCC/ICC/IOM) to establish that MMF patients meet ME/CFS; the claim is symptom-overlap only.
+
+*Competing explanation (Standing Epistemic #4).* The strong counter-evidence is population-level: a Norwegian nationwide registry (2009–2012, whole population) found the adjuvanted pandemic-influenza vaccine did *not* raise CFS/ME risk (HR 0.97), while influenza infection did (HR 2.04) @Magnus2015influenza. Regulatory pharmacokinetic assessments likewise conclude aluminium in vaccines does not accumulate to a toxic body burden @Mitkus2011aluminum @Principi2018aluminum. This reframes the MMF proposal as, at most, a rare subgroup phenomenon — not a general vaccine→ME/CFS mechanism. The registry null governs the population claim; the single-site observation governs a putative niche subgroup.
+
+*Translation gap (Standing Epistemic #3).* The neurotoxicity and brain-translocation evidence is animal/in vitro; the human MMF claim is biopsy-confirmed at the muscle but not causally linked to central nervous-system disease. The leap from local myofibroblast lesion to systemic fatigue is not established.
+
+*Falsifiable prediction.* (1) An independent multicenter study applying IOM (2015) criteria to deltoid-biopsy-confirmed MMF patients would fail to show an excess of ME/CFS relative to matched controls — or, if an excess is found, it is confined to the referral population and does not reproduce in a population cohort. (2) Aluminium-adjuvant exposure history would not predict ME/CFS risk in an incident, population-based cohort. The hypothesis is falsified if formal-criteria MMF cohorts and incident cohorts show no excess ME/CFS, which is the expectation given @Magnus2015influenza.
+
+*Severity applicability:* Unknown — the MMF cohort was not stratified by severity.
+
+*Consequence:* This is a niche, single-site hypothesis that a large registry already counts against; its main value to the paper is as a documented post-exposure proposal and a caution that any vaccine-adjuvant link must be assessed against population data, not referral case series. It does not change diagnosis or treatment.
+] <spec:aluminum-adjuvant-mmfs-subgroup>
+
+#limitation(title: [Aluminum-Adjuvant MMF: Single-Site Cohort and Registry Counter-Evidence])[
+The MMF→ME/CFS hypothesis is advanced almost entirely by one group (Henri-Mondor, INSERM U955), whose clinical evidence is a single referral cohort re-analysed across multiple papers — not independent replication. The strongest independent evidence on vaccine adjuvants and CFS/ME is *negative*: the Norwegian nationwide registry found no CFS/ME risk increase from an adjuvanted vaccine (HR 0.97) while infection raised risk (HR 2.04) @Magnus2015influenza. Regulatory assessments find no toxic aluminium body-burden from routine vaccination @Mitkus2011aluminum. This does not refute the existence of MMF as a rare histopathological lesion, but it refutes any broad vaccine-adjuvant→ME/CFS causal pathway and confines the proposal to a speculative, referral-biased subgroup pending independent, criteria-based replication.
+
+*Severity applicability:* Unknown — the MMF cohort was not stratified by severity.
+
+*Consequence:* Readers should weigh any vaccine-adjuvant → ME/CFS claim against the population-level registry evidence rather than against single referral-center case series; this caution changes no diagnosis or treatment but guards against over-interpreting a niche histopathological finding as a general causal pathway.
+] <lim:aluminum-adjuvant-mmf-single-site>
+
+==== Phase 5 Brainstorm Extensions and Critical Assessment
+
+The following environments record brainstorm-origin ideas from the aluminum-adjuvant-mmf cycle (origin: brainstorm). They are extensions of, and self-critique on, the speculation above; none assert a causal role for aluminium adjuvants at the population level, which the registry counter-evidence already refutes.
+
+#speculation(title: [Aluminium Adjuvant as an Amplifier, Not a Trigger, of Post-Infectious ME/CFS])[
+*(Certainty: 0.20 — the constituent mechanisms are real, but the sequential amplifier interaction is unstudied in humans.)* A sequential model reconciles the two apparently opposed registry observations: a nationwide registry found the adjuvanted vaccine did *not* raise CFS/ME risk (HR 0.97), while infection did (HR 2.04) @Magnus2015influenza. The amplification proposal reads these together: aluminium-adjuvant particles biopersist in tissue phagocytes and continuously gate NLRP3 priming (the documented alum→NLRP3→IL-1β basis of immunostimulation @Eisenbarth2008nalp3), so alum sets a sustained low-level NLRP3 "gain"; a later independent trigger (a viral infection — the real HR 2.04 driver) tips IL-1β output over threshold into symptom generation. Alum is thus an amplifier of a documented trigger, not an independent cause — which is why the vaccine-only signal (HR 0.97) is null. This preserves the NLRP3/IL-1β mechanism strand (Section @spec:aluminum-adjuvant-nlrp3-immune-stimulation) while remaining consistent with the population null. Note that the population registry data are *silent* on the amplifier claim rather than supportive of it: the HR 0.97 null is consistent with alum being inert, not only with alum being a dormant amplifier, and the amplifier model is not testable against existing registry evidence — it rests on the same single-group mechanistic anchor as the broader MMF proposal.
+
+*Operationalisation.* The model predicts alum matters only as a modulator of a later infectious trigger. A prospective post-infectious-onset cohort (the population that develops ME/CFS after infection, HR 2.04) should record full vaccination/aluminium-adjuvant history *before* the index infection and stratify ME/CFS risk and severity by pre-infection alum exposure. This is the R3 research direction; it separates alum-modulator effects from alum-cause effects that the registry design cannot detect (it does not cross vaccine exposure with infection onset).
+
+*Falsifiable prediction.* In an adjuvanted-vaccine-exposed cohort, ME/CFS incidence after a viral infection will be higher in those with a long vaccine-to-infection interval (sustained alum priming) than in vaccinated-but-uninfected controls, after adjusting for age and sex. Falsified if pre-infection alum exposure does not modify ME/CFS incidence or severity — the modifier-null expectation, consistent with @Magnus2015influenza.
+
+*Severity applicability:* Unknown — no severity-stratified data exist; the model is a mechanistic proposal, not a severity-specific claim.
+
+*Consequence:* This reframes the debate from "does a vaccine cause ME/CFS?" (which the registry answers no) to "does prior vaccine exposure change how strongly a later real infection affects you?" — a testable, dose-and-timing question that neither vaccine-blame nor infection-blame alone can settle.
+] <spec:aluminum-adjuvant-amplifier-modulator>
+
+#open-question(title: [Dose-Response Test: Cumulative Aluminium-Adjuvant Exposure Against Incident ME/CFS])[
+*(Certainty of resolution if run: 0.38 — registry data already exist; dose-stratification is straightforward and would sharply constrain the causal claim.)* The population null (HR 0.97) tested only *any* adjuvanted vaccine. Because aluminium-adjuvant dose and vaccination history are recorded in national registries, a graded dose-response analysis is a cheap, high-information extension of the @Magnus2015influenza frame: test number of adjuvanted doses, total aluminium dose, and booster timing against incident ME/CFS using IOM-coded endpoints. If aluminium were causal, risk should rise with cumulative dose; the null predicts a flat hazard ratio near 1.0 across dose quartiles. This is a research direction, not an established finding — no registry has yet stratified by dose.
+
+*Falsifiable prediction.* Cumulative aluminium-adjuvant dose (doses × mg aluminium) will show no monotonic increase in IOM-coded ME/CFS incidence (hazard ratio flat near 1.0 across dose quartiles), consistent with null causation. A positive monotonic trend would directly contradict @Magnus2015influenza and would force reconsideration of the causal claim.
+
+*Severity applicability:* Unknown — a registry endpoint, not severity-stratified.
+
+*Consequence:* Because the data already exist, this test could resolve, cheaply and within a few years, whether aluminium dose is truly irrelevant — or would give a dose-response signal that the current null cannot rule out.
+] <oq:aluminum-adjuvant-dose-response>
+
+#open-question(title: [Isolating the Aluminium Effect: Alum vs Non-Alum Adjuvant Immune-State Comparison])[
+*(Certainty of resolution if run: 0.30 — feasible in existing longitudinal vaccine-immunogenicity cohorts; the alum-vs-non-alum contrast directly tests the mechanism.)* The registry null compared vaccinated versus unvaccinated people and cannot exclude that a *non-aluminium* component of the vaccine (antigen, other adjuvant, excipient) drives any post-vaccination immune change. Alum specifically activates the NLRP3 inflammasome @Eisenbarth2008nalp3, whereas other adjuvants (e.g. MF59 squalene, AS01) engage different pathways; MMF phagocytes show in-vitro mitochondrial/autophagic changes @Masson2024phagocytes. Comparing long-term circulating inflammatory and immune state (IL-1β, IL-18, monocyte phenotype, mitochondrial-reserve markers in PBMCs) in recipients of alum-adjuvanted versus non-alum vaccines, matched for age, sex, and indication, would isolate the alum effect from the general vaccination effect.
+
+*Falsifiable prediction.* No durable difference in IL-1β/IL-18 or monocyte mitochondrial-reserve markers will persist at or beyond 6 months between alum- and non-alum-vaccine recipients; any alum-specific signature will be transient and below the range seen in ME/CFS.
+
+*Severity applicability:* Unknown — a healthy-cohort comparator, not severity-stratified.
+
+*Consequence:* This separates "the vaccine changed something" from "the aluminium ingredient left a lasting trace in the immune system" — without it, the aluminium-specific mechanism remains confounded with the general vaccination response.
+] <oq:aluminum-vs-nonalum-immune-state>
+
+#open-question(title: [Post-Vaccination Onset vs Aluminium-Caused Onset: A Case-Definition Distinction])[
+*(Confidence that this null interpretation best fits the data: 0.70 — reflecting the strong independent registry counter-evidence.)* If the null holds (aluminium adjuvants do not cause ME/CFS), MMF remains a real, recognized histopathological entity at the deltoid injection site, but it is a *bystander or local reaction*, not an etiologic lesion. The correct frame becomes: ME/CFS appearing after vaccination is either (a) coincidental — the infection being vaccinated against is the real trigger (HR 2.04) and vaccination timing overlaps it — or (b) driven by the vaccine's *antigen or another component*, not the aluminium. This distinction matters because "post-vaccination onset" (a real, temporally associated event) is not evidence of "aluminium-caused onset" (an unsupported causal claim). Phase-3 registry rows and the limitation above capture the single-group and criteria gaps; this open question adds the antigen-versus-aluminium decomposition.
+
+*Falsifiable prediction.* Under the null, observed ME/CFS-after-vaccination cases will be statistically attributable to the coincident underlying infection and will not show aluminium dose-dependence or deltoid-lesion correlation with severity.
+
+*Severity applicability:* Unknown — not severity-stratified in source data.
+
+*Consequence:* This is the key interpretive discipline: a patient who develops ME/CFS shortly after a vaccine should not be told the aluminium caused it, because the temporally overlapping infection is a far better-supported explanation.
+] <oq:aluminum-postvaccination-onset-distinction>
+
+#limitation(title: [Aluminum-Adjuvant MMF: Confounding by Indication and Reverse Causation])[
+Vaccination is not randomly assigned. People who receive adjuvanted vaccines differ from non-recipients in health-seeking behaviour, chronic-illness avoidance, and occupational exposure; if sicker or more vulnerable individuals are both more likely to be vaccinated and more likely to develop ME/CFS-like syndromes, a spurious vaccine association can arise. Conversely, MMF is diagnosed in symptomatic people who then recall a vaccine history, a recall/reverse-causation pattern that inflates perceived causality. The @Magnus2015influenza whole-population registry mitigates confounding for the population null, but it does not protect the referral MMF cohort, whose association is compatible with confounding alone. This is an additional epistemic caution beyond the single-site and referral-selection concerns already recorded.
+
+*Severity applicability:* Unknown — not severity-stratified in source data.
+
+*Consequence:* A reader or clinician should treat any vaccine–ME/CFS association as suspect until confounding by who-chooses-to-vaccinate and by symptom-recall is ruled out; the registry null is the stronger evidence, not the referral cohort.
+] <lim:aluminum-adjuvant-confounding>
+
+#limitation(title: [Aluminum-Adjuvant MMF: Measurement Validity of Exposure and Outcome])[
+The validity of both the exposure and outcome measures is uncertain. (a) MMF is a biopsy diagnosis at a single muscle site — a negative deltoid biopsy does not exclude aluminium-containing macrophages elsewhere, and the lesion's population frequency is unknown. (b) Aluminium "body burden" estimates rest on pharmacokinetic modelling with assumptions about absorption, redistribution, and clearance that are not directly measured in humans @Mitkus2011aluminum; circulating or urinary aluminium is a poor proxy for tissue stores. (c) The in-vitro mitochondrial and autophagic findings use patient-derived cells without a population comparator, so the in-vivo effect size is unknown @Masson2024phagocytes. Together these widen the confidence interval on any MMF→ME/CFS association and argue for direct tissue-aluminium quantitation (e.g. ICP-MS on biopsy) correlated with histology and symptom scores in a multi-centre sample before the association is treated as real.
+
+*Severity applicability:* Unknown — not severity-stratified in source data.
+
+*Consequence:* The numbers behind the "aluminium in the body" and "muscle patch" claims rest on models and single-site biopsies, so they are less solid than they look — direct tissue measurement, not modelling, is needed before the association can be trusted.
+] <lim:aluminum-adjuvant-measurement-validity>
+
+#synthesis(title: [Aluminum-Adjuvant MMF: A Mechanistically Anchored but Population-Contested Post-Exposure Speculation])[
+The aluminium-adjuvant/MMF literature, taken together, establishes a real molecular anchor — alum activates the NLRP3 inflammasome to drive IL-1β @Eisenbarth2008nalp3, and MMF is a biopsy-confirmable histopathological lesion — but does not establish a causal path to ME/CFS. Across the mechanism strand (@spec:aluminum-adjuvant-nlrp3-immune-stimulation), the biomarker strand (@oq:mmf-deltoid-biopsy-significance), and the cross-disease framing (@spec:aluminum-adjuvant-mmfs-subgroup, @spec:aluminum-adjuvant-amplifier-modulator), the proposal rests on a single referral cohort (Henri-Mondor), while the strongest population evidence is negative: an adjuvanted vaccine did not raise CFS/ME risk in the Norwegian nationwide registry @Magnus2015influenza. The remaining caution environments (@lim:aluminum-adjuvant-mmf-single-site, @lim:aluminum-adjuvant-confounding) hold the proposal to the status it actually merits: a rare, referral-biased subgroup hypothesis that, if alum is relevant at all, acts as an amplifier of a later infectious trigger rather than an independent cause. The open research directions (@oq:aluminum-adjuvant-dose-response, @oq:aluminum-vs-nonalum-immune-state) are cheap to run and would decisively test the causal claim, but remain unexecuted.
+
+*Consequence:* The paper can honestly present the aluminium-adjuvant hypothesis because it works at the cellular level (real NLRP3 mechanism) without overstating it — the population registry says vaccination does not broadly cause ME/CFS, so any adjuvant link is, at most, a rare niche phenomenon or a modulator of infection, and no clinical decision should rest on it.
+] <syn:aluminum-adjuvant-mmf-model>
+
 === Autoantibody Convergence: GPCR and Tissue-Specific Mechanisms
 
 #hypothesis(title: [Long COVID and ME/CFS Share Two Distinct Autoantibody Pathways])[
@@ -974,8 +1072,8 @@ ME/CFS overlaps heavily with autonomic dysfunction syndromes:
     - Both show autoantibodies to adrenergic receptors
     - _Speculative link:_ POTS may represent ME/CFS with predominant autonomic lock; or both may be manifestations of autoimmune autonomic ganglionopathy spectrum
 
-#limitation(title: [POTS Diagnostic Validity: Threshold, Specificity, and Reproducibility Concerns])[
-The assumed ME/CFS--POTS association deserves critical scrutiny . The defining POTS criterion---a $gt.eq$30 bpm heart rate increase on standing---has poor diagnostic specificity: 10--15% of healthy controls meet this threshold in population studies. Among ME/CFS patients with orthostatic intolerance symptoms, only 21% meet formal POTS criteria, indicating that the majority of orthostatic symptoms in ME/CFS are not captured by the POTS diagnosis. Symptom severity correlates poorly with heart rate increase magnitude, explaining only approximately 2% of variance---patients with modest tachycardia can be severely symptomatic, and vice versa. Perhaps most concerning, POTS test results show poor day-to-day reproducibility, with patients meeting criteria on one day but not the next. These limitations suggest that POTS as currently defined may be a poorly specified diagnostic category rather than a coherent pathophysiological entity, and that its apparent comorbidity with ME/CFS may partly reflect diagnostic threshold artefacts.
+ #limitation(title: [POTS Diagnostic Validity: Threshold, Specificity, and Reproducibility Concerns])[
+The assumed ME/CFS--POTS association deserves critical scrutiny . The defining POTS criterion---a $gt.eq$30 bpm heart rate increase on standing---has poor diagnostic specificity: 10--15% of healthy controls meet this threshold in population studies. Among ME/CFS patients with orthostatic intolerance symptoms, only 21% meet formal POTS criteria, indicating that the majority of orthostatic symptoms in ME/CFS are not captured by the POTS diagnosis. Consistent with this, an international multidisciplinary expert consensus recognizes a "non-POTS dysautonomia" population---orthostatic intolerance with functional impairment below the HR threshold---and a pediatric single-center study found little clinical difference between HR-rise bands at the threshold @Sivakoti2026POTSConsensus @Boris2020HRnotPredictive. This recognition claim is consensus-and-single-center, not yet prospectively validated, and carries an unquantified over-diagnosis risk; it supports clinical awareness of subthreshold dysautonomia, not a loosened diagnostic threshold. Symptom severity correlates poorly with heart rate increase magnitude, explaining only approximately 2% of variance---patients with modest tachycardia can be severely symptomatic, and vice versa. Perhaps most concerning, POTS test results show poor day-to-day reproducibility, with patients meeting criteria on one day but not the next. These limitations suggest that POTS as currently defined may be a poorly specified diagnostic category rather than a coherent pathophysiological entity, and that its apparent comorbidity with ME/CFS may partly reflect diagnostic threshold artefacts.
 ]
 
 *Inappropriate Sinus Tachycardia.*

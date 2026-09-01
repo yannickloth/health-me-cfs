@@ -12024,5 +12024,30 @@
     "label": "Septad",
     "category": "concept",
     "definition": "The seven interacting pathophysiologies that co-occur with ME/CFS: amplifiers, not coincidences."
+  },
+  "non-POTS dysautonomia": {
+    "label": "non-POTS dysautonomia",
+    "category": "condition",
+    "definition": "Autonomic nervous system dysfunction that causes orthostatic intolerance and functional impairment but does not meet the formal heart-rate rise criteria for POTS (≥30 bpm adults, ≥40 bpm adolescents). An international expert consensus argues this population is under-recognized and excluded from research."
+  },
+  "MMF": {
+    "label": "MMF",
+    "category": "condition",
+    "definition": "Macrophagic myofasciitis: a histopathological lesion of the deltoid muscle, confirmed by biopsy, showing macroscopic aluminium-adjuvant particle biopersistence inside macrophages. Associated with arthromyalgia, chronic fatigue and cognitive complaints in a single French referral cohort (Henri-Mondor/AP-HP); its status as a cause of ME/CFS is contested and not independently replicated."
+  },
+  "macrophagic myofasciitis": {
+    "label": "macrophagic myofasciitis",
+    "category": "condition",
+    "definition": "See MMF: a biopsy-confirmed deltoid-muscle lesion of aluminium-adjuvant persistence in macrophages, proposed but not proven as a contributor to ME/CFS."
+  },
+  "ASIA": {
+    "label": "ASIA",
+    "category": "condition",
+    "definition": "Autoimmune/inflammatory syndrome induced by adjuvants: a proposed rubric (Shoenfeld) grouping post-vaccination and post-implantation autoimmune/inflammatory reactions, including aluminium-adjuvant-related phenomena. The framework is controversial and its causal scope is debated."
+  },
+  "aluminium hydroxide": {
+    "label": "aluminium hydroxide",
+    "category": "compound",
+    "definition": "An aluminium-salt vaccine adjuvant that activates the NLRP3 inflammasome to amplify immune responses. Its biopersistence in muscle macrophages underlies macrophage myofasciitis (MMF)."
   }
 }

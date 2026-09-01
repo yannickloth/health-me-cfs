@@ -113,6 +113,17 @@ Prevents re-processing of already-integrated content.
 
 ---
 
+## POTS Consensus / Non-POTS Dysautonomia Literature Search
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-09-01 | 13 queries: primary-paper confirm (PMID 42665152), direct (POTS diagnostic criteria, POTS consensus, heart-rate threshold), null/competing (overdiagnosis/misdiagnosis, inappropriate sinus tachycardia), harm (beta-blocker/ivabradine/midodrine/fludrocortisone safety), indirect (POTS-ME/CFS overlap, autonomic dysfunction chronic fatigue, orthostatic cerebral hypoperfusion). 6 NEW papers added (Sivakoti 2026 consensus primary, Parsaik 2013, Chung & Raj 2026 JAMA review, Uppal 2026 ivabradine RCT, Mauriello 2026, Boris 2020); 16 existing-corpus papers skipped as already-covered (incl. Yao 2025, Bragée 2026). |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed API queries (13 queries + efetch XML batches, 6 PMIDs) | pubmed/eutils | 2026-09-01 | — | ops/research/search-log-pots-consensus-2026-09-01.md, ops/research/literature-summary-pots-consensus.md, bib/autonomic-cardiovascular.bib, appendix-h — POTS consensus & non-POTS dysautonomia literature (6 new papers, research_stream=pots-consensus) |
+
+---
+
 ## Sources
 
 | Source | Last Scraped | Notes |
@@ -1153,3 +1164,14 @@ Prevents re-processing of already-integrated content.
 | Crossref API (5 DOIs: 10.1007/s00431-024-05458-x, 10.1258/shorts.2011.011127, 10.1136/archdischild-2019-317090, 10.1177/1359105319854532, 10.1186/1741-7015-4-9, 10.1136/bmj.c1777) | crossref | 2026-08-29 | — | Metadata verification for Gaunt/Wearden/Devasahayam/Page/McPhee papers |
 | PubMed E-utilities (esearch/esummary/efetch; ~15 harm/verification queries) | pubmed/eutils | 2026-08-29 | — | PMID verification (Gaunt 38429546, Wearden protocol 16603058, Wearden results 20418251, Devasahayam 22299071, Page 31201158, McPhee 31234662); harm searches (enteral/parenteral feeding × ME/CFS; antihistamine/naltrexone/fludrocortisone/ivabradine × ME/CFS safety) |
 | User-supplied PDF (Science for ME factsheet) | s4me | 2026-08-29 | — | ops/research/search-log-severe-mecfs-management-2026-08-29.md, ops/research/literature-summary-severe-mecfs-management.md, bib/treatments.bib (6 new), bib/diagnosis-assessment.bib (1 new), appendix-h (sec:bib-severe-mecfs-care-guide, 7 annotated entries) — S4ME 2026 severe/very-severe ME/CFS clinical-management factsheet; GET/rehabilitation critique; enteral feeding; off-label drug appraisal |
+
+---
+
+## Aluminum Adjuvant → Macrophagic Myofasciitis (MMF) → ME/CFS — Literature Search (2026-09-01)
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed E-utilities API (esearch/esummary/efetch, 20 queries) | pubmed/eutils | 2026-09-01 | Phase 1 integrate-topic search for topic `aluminum-adjuvant-mmf`. 20 queries: direct (MMF×CFS/ME, MMF×aluminium, aluminium hydroxide×CFS, Gherardi/Authier MMF), null/negative (MMF no-association/negative), competing/counter (adjuvanted pandemic influenza vaccine CFS risk → confirmed existing corpus Magnus2015influenza PMID 26475444), indirect-biochemical (NLRP3/alum/IL-1beta, aluminum neurotoxicity BBB, aluminum encephalopathy, ASIA, aluminum chronic immune stimulation), regulatory safety (aluminum vaccine safety, WHO/FDA). 12 NEW papers added to bib/immune.bib; existing corpus counter-evidence (Magnus2015influenza) NOT duplicated. |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed E-utilities API (20 queries; PMIDs 31059838,25506338,26030650,27765861,29079320,25699008,27908630,39058143,18496530,30139653,22001122,41519970) | pubmed/eutils | 2026-09-01 | — | ops/research/search-log-aluminum-adjuvant-mmf-2026-09-01.md, ops/research/literature-summary-aluminum-adjuvant-mmf.md, bib/immune.bib (12 new), appendix-h (12 annotated entries) — Aluminum adjuvant → MMF → ME/CFS hypothesis literature: direct MMF clinical (Henri-Mondor, Gherardi/Authier cohort), null/counter (independent safety reviews + FDA PK), indirect NLRP3/IL-1beta mechanism |

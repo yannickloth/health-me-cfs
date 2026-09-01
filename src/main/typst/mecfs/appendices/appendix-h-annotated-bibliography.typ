@@ -24183,6 +24183,89 @@ This section reviews biomechanical literature on rowing ergometer physics, speci
     *Limitations:*: Qualitative; self-selected sample; single center (Raj lab).
     *Certainty:*: 0.55
 
+=== Sivakoti et al.\ 2026 — International Multidisciplinary Expert Consensus on POTS and Dysautonomia
+
+    *Full Citation:*: Sivakoti K, Cortez M, Fedorowski A, et al.\ Postural Orthostatic Tachycardia Syndrome (POTS) and Dysautonomia: International Multidisciplinary Expert Consensus. _The American Journal of Medicine_. 2026 (online ahead of print).
+    *DOI:*: #link("https://doi.org/10.1016/j.amjmed.2026.08.012")[10.1016/j.amjmed.2026.08.012]
+    *PMID:*: 42665152
+    *Key Findings:*:
+        - Modified Delphi consensus, 40 contributors across 7 countries (pediatric + adult specialists, patient advocates)
+        - 31 statements evaluated; all achieved >90% to 100% consensus, 24/31 unanimous
+        - Critiques the ≥30 bpm (adults) / ≥40 bpm (adolescents) HR-rise threshold as too restrictive
+        - Recognizes "non-POTS dysautonomia" patients with orthostatic intolerance + autonomic dysfunction + functional impairment who do not meet the HR threshold
+        - Calls for standardized nomenclature and classification system
+    *Conclusion:*: Adoption may improve diagnostic accuracy, patient care, clinical trial inclusion, and therapeutic development for POTS and non-POTS dysautonomia.
+    *Limitations:*: Expert consensus, not empirical data; no prospective validation; represents expert opinion rather than replicated evidence.
+    *Certainty:*: 0.55 (POTS/dysautonomia population; weight 0.80; discounted 0.44)
+
+=== Parsaik et al.\ 2013 — Orthostatic Intolerance Without Postural Tachycardia
+
+    *Full Citation:*: Parsaik AK, Singer W, Allison TG, et al.\ Orthostatic intolerance without postural tachycardia: how much dysautonomia? _Clinical Autonomic Research_. 2013;23(4):181–188.
+    *DOI:*: #link("https://doi.org/10.1007/s10286-013-0199-5")[10.1007/s10286-013-0199-5]
+    *PMID:*: 23729158
+    *Key Findings:*:
+        - Mayo Clinic retrospective: 84 POTS vs 100 OI-without-tachycardia patients
+        - Clinical presentation, autonomic parameters, laboratory findings, and deconditioning largely similar between groups
+        - OI patients showed only mild vasomotor differences (slightly larger Valsalva ratio, incomplete BP recovery) and no excessive HR rise
+        - Both groups responded poorly to various medications
+    *Conclusion:*: POTS and OI are distinct entities but OI-without-tachycardia carries its own autonomic and functional burden, supporting recognition of non-POTS dysautonomia.
+    *Limitations:*: Retrospective; single center (Mayo); clinical relevance of minimal dysautonomia without tachycardia remains uncertain.
+    *Certainty:*: 0.60 (OI/POTS population; weight 0.80; discounted 0.48)
+
+=== Chung and Raj 2026 — POTS: A Review (JAMA)
+
+    *Full Citation:*: Chung TH, Raj SR.\ Postural Orthostatic Tachycardia Syndrome (POTS): A Review. _JAMA_. 2026 (online ahead of print).
+    *DOI:*: #link("https://doi.org/10.1001/jama.2026.14809")[10.1001/jama.2026.14809]
+    *PMID:*: 42635998
+    *Key Findings:*:
+        - Confirms current consensus criteria: sustained HR rise ≥30 bpm (≥40 bpm in adolescents 12–19 y) within 10 min, no orthostatic hypotension
+        - Survey of 4,835 patients: ~70% report substantial functional impairment; median diagnostic delay 24 months
+        - 30–40% of cases begin within 3 months after infection (SARS-CoV-2, EBV, influenza)
+        - True prevalence uncertain due to underrecognition and lack of a specific diagnostic code until 2022
+    *Conclusion:*: POTS is underrecognized; the HR-threshold-based diagnostic model misses a substantial symptomatic population, motivating the 2026 consensus critique.
+    *Limitations:*: Narrative review; no original data; relies on consensus criteria it does not independently validate.
+    *Certainty:*: 0.55 (POTS population; weight 0.80; discounted 0.44)
+
+=== Uppal et al.\ 2026 — Randomized Crossover Trial of Ivabradine, Propranolol, and Placebo in POTS
+
+    *Full Citation:*: Uppal J, Deol P, Giri P, et al.\ A Randomized Crossover Trial of Ivabradine, Propranolol, and Placebo in Postural Orthostatic Tachycardia Syndrome: A Detailed Description. _JACC: Advances_. 2026;5(6 Pt 2):102795.
+    *DOI:*: #link("https://doi.org/10.1016/j.jacadv.2026.102795")[10.1016/j.jacadv.2026.102795]
+    *PMID:*: 42132710
+    *Key Findings:*:
+        - Randomized placebo-controlled crossover trial, n=28 (100% female)
+        - Ivabradine and propranolol both reduced orthostatic tachycardia, lowering peak HR below the POTS diagnostic threshold
+        - All 22 preference-completing participants preferred an active drug over placebo
+        - HR lowering was consistent; symptom and QoL effects more selective, supporting individualized treatment
+    *Conclusion:*: Rate-slowing drugs lower HR below diagnostic threshold and are preferred over placebo, but symptom response is selective — supporting targeted rather than uniform treatment.
+    *Limitations:*: Small n; single center (Raj lab); short 4-week phases; 100% female cohort.
+    *Certainty:*: 0.60 (POTS population; weight 0.80; discounted 0.48)
+
+=== Mauriello et al.\ 2026 — Answers to Common Questions About POTS and Chronic Orthostatic Intolerance
+
+    *Full Citation:*: Mauriello D, Mitchell B, Klaas KM.\ Answers to Common Questions About Postural Orthostatic Tachycardia Syndrome and Chronic Orthostatic Intolerance. _Pediatric Annals_. 2026;55(3):e108–e113.
+    *DOI:*: #link("https://doi.org/10.3928/19382359-20260112-04")[10.3928/19382359-20260112-04]
+    *PMID:*: 41784480
+    *Key Findings:*:
+        - Evidence- and expert-based Q&A on POTS diagnosis, treatment, and related conditions
+        - Explicitly addresses adolescents who appear to have POTS but do not meet the diagnostic criteria
+        - Guidance on responding to frustrated patients and parents/guardians
+    *Conclusion:*: Recognizes the subthreshold pediatric population as a clinical reality requiring management despite not meeting formal HR criteria.
+    *Limitations:*: Narrative/review format; lower-tier journal; no original data; pediatric focus.
+    *Certainty:*: 0.40 (pediatric POTS population; weight 0.80; discounted 0.32)
+
+=== Boris et al.\ 2020 — Orthostatic Heart Rate Does Not Predict Symptomatic Burden in Pediatric COI
+
+    *Full Citation:*: Boris JR, Huang J, Bernadzikowski T.\ Orthostatic heart rate does not predict symptomatic burden in pediatric patients with chronic orthostatic intolerance. _Clinical Autonomic Research_. 2020;30(1):19–28.
+    *DOI:*: #link("https://doi.org/10.1007/s10286-019-00622-y")[10.1007/s10286-019-00622-y]
+    *PMID:*: 31385108
+    *Key Findings:*:
+        - Children's Hospital of Philadelphia retrospective: COI patients with HR rise 30–39 bpm vs ≥40 bpm (or HR >120)
+        - Only insomnia differed across 28 symptoms; no clinical difference as a function of HR rise
+        - Concludes a 40-bpm adolescent threshold may be too high; a specific HR criteria threshold is neither predictive nor definitive
+    *Conclusion:*: The HR-rise threshold does not track symptomatic burden, directly supporting the 2026 consensus critique that a threshold-based definition under-captures affected patients.
+    *Limitations:*: Retrospective; single center (CHOP); pediatric only; symptom-burden comparison, not outcome data.
+    *Certainty:*: 0.55 (pediatric POTS/OI population; weight 0.80; discounted 0.44)
+
 // =============================================================================
 
 == GWAS/WGS Meta-Analysis and ME/CFS Genetic Studies
@@ -38575,3 +38658,151 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
     / *Conclusion:*: Supports the mild-hormetic (brief, well-spaced cycles — IHHT) vs pathological (high-frequency sustained desaturation — OSA) dosing distinction central to IHHT safety.
     / *Limitations:*: Animal data; mechanistic; not direct clinical evidence; no ME/CFS.
     / *Certainty Assessment:*: 0.50 raw × 0.50 animal-to-human relevance = **discounted 0.25**
+
+=== Gherardi et al.\ 2019 — Myalgia and CFS Following Immunization: MMF and Aluminum Adjuvant Persistency (ASIA Core Thesis)
+
+    / *Full Citation:*: Gherardi RK, Crépeaux G, Authier FJ. Myalgia and chronic fatigue syndrome following immunization: macrophages myofasciitis and animal studies support linkage to aluminum adjuvant persistency and diffusion in the immune system. _Autoimmunity Reviews_. 2019;18(7):691–705. @Gherardi2019myalgia
+    / *DOI:*: #link("https://doi.org/10.1016/j.autrev.2019.05.006")[10.1016/j.autrev.2019.05.006]
+    / *Study Design:*: Narrative review (Henri-Mondor group, Gherardi/Authier).
+    / *Key Findings:*:
+        - Argues ME/CFS is a major adverse effect of vaccines with poorly degradable particulate aluminum adjuvants.
+        - MMF is a histological biomarker of persistent aluminum in innate immune cells at the injection site.
+        - MMF represents the core manifestation of ASIA; cites Gulf War II vaccinated-vs-unvaccinated military epidemiology and sheep experiments.
+    / *Conclusion:*: Proposes chronic immune stimulation by persisting aluminum adjuvants as a causal route to post-immunization ME/CFS.
+    / *Limitations:*: Single-group thesis; no independent replication of the MMF→ME/CFS link; registry counter-evidence (Magnus2015) not reconciled.
+    / *Certainty Assessment:*: 0.55 raw × 0.75 general-pop/symptom-defined weight = **discounted 0.41**
+
+=== Rigolet et al.\ 2014 — Clinical Features in Long-Lasting Macrophagic Myofasciitis
+
+    / *Full Citation:*: Rigolet M, Aouizerate J, Couette M, et al. Clinical features in patients with long-lasting macrophages myofasciitis. _Frontiers in Neurology_. 2014;5:230. @Rigolet2014clinical
+    / *DOI:*: #link("https://doi.org/10.3389/fneur.2014.00230")[10.3389/fneur.2014.00230]
+    / *Study Design:*: Clinical case series (Garches–Necker–Mondor–Hendaye referral center).
+    / *Sample Size:*: MMF cohort (~70; Henri-Mondor referral cohort).
+    / *Key Findings:*:
+        - MMF patients present with diffuse arthromyalgias, chronic fatigue, and cognitive deficits (dysexecutive syndrome, visual memory impairment, left-ear extinction).
+        - Clinical features described as "corresponding to" CFS/ME; most meet non-amnestic/dysexecutive MCI.
+    / *Conclusion:*: MMF is associated with a chronic fatigue + cognitive phenotype overlapping ME/CFS.
+    / *Limitations:*: COHORT OVERLAP — same Henri-Mondor referral cohort as other MMF papers (not independent); no formal ME/CFS diagnostic-criteria (Fukuda/CCC/ICC/IOM) application.
+    / *Certainty Assessment:*: 0.55 raw × 0.80 fibro/comorbid-like MMF weight = **discounted 0.44**
+
+=== Van Der Gucht et al.\ 2015 — Brain Perfusion SPECT Correlates of Cognitive Dysfunction in MMF
+
+    / *Full Citation:*: Van Der Gucht A, Aoun Sebaiti M, Itti E, et al. Neuropsychological correlates of brain perfusion SPECT in patients with macrophages myofasciitis. _PLoS ONE_. 2015;10(6):e0128353. @VanDerGucht2015spect
+    / *DOI:*: #link("https://doi.org/10.1371/journal.pone.0128353")[10.1371/journal.pone.0128353]
+    / *Study Design:*: Cross-sectional brain imaging + neuropsychology.
+    / *Sample Size:*: 76 consecutive MMF patients (aged 49±10).
+    / *Key Findings:*:
+        - Executive-function scores positively correlate with posterior associative cortex perfusion; negative correlation with amygdalo-hippocampal complexes.
+        - Supports a brain-perfusion correlate of MMF cognitive complaints.
+    / *Conclusion:*: MMF cognitive dysfunction has a reproducible brain-perfusion correlate.
+    / *Limitations:*: COHORT OVERLAP (Henri-Mondor); no ME/CFS comparator group; no formal diagnostic criteria; referral bias.
+    / *Certainty Assessment:*: 0.60 raw × 0.80 fibro/comorbid weight = **discounted 0.48**
+
+=== Van Der Gucht et al.\ 2017 — Brain ¹⁸F-FDG PET in Long-Lasting MMF
+
+    / *Full Citation:*: Van Der Gucht A, Aoun Sebaiti M, Guedj E, et al. Brain ¹⁸F-FDG PET metabolic abnormalities in patients with long-lasting macrophages myofascitis. _Journal of Nuclear Medicine_. 2017;58(3):492–498. @VanDerGucht2017fdg
+    / *DOI:*: #link("https://doi.org/10.2967/jnumed.114.151878")[10.2967/jnumed.114.151878]
+    / *Study Design:*: Cross-sectional FDG-PET imaging.
+    / *Sample Size:*: MMF cohort (Henri-Mondor).
+    / *Key Findings:*:
+        - Distinctive cerebral glucose hypometabolism pattern in long-lasting MMF.
+        - Claims a CNS metabolic signature that may distinguish MMF.
+    / *Conclusion:*: MMF is associated with a characteristic brain-hypometabolism pattern.
+    / *Limitations:*: COHORT OVERLAP; no ME/CFS comparator; no replication; single referral center.
+    / *Certainty Assessment:*: 0.55 raw × 0.80 fibro/comorbid weight = **discounted 0.44**
+
+=== Aoun Sebaiti et al.\ 2018 — Reappraisal of the Neuropsychological Profile in MMF
+
+    / *Full Citation:*: Aoun Sebaiti M, Kauv P, Charles-Nelson A, et al. Cognitive dysfunction associated with aluminum hydroxide-induced macrophages myofasciitis: a reappraisal of neuropsychological profile. _Journal of Inorganic Biochemistry_. 2018;181:132–138. @AounSebaiti2018cogn
+    / *DOI:*: #link("https://doi.org/10.1016/j.jinorgbio.2017.09.019")[10.1016/j.jinorgbio.2017.09.019]
+    / *Study Design:*: Cross-sectional neuropsychological reappraisal.
+    / *Sample Size:*: MMF cohort (Henri-Mondor).
+    / *Key Findings:*:
+        - Documents chronic fatigue and cognitive disorder with representative dysexecutive and memory features in MMF.
+    / *Conclusion:*: MMF cognitive profile is consistent and reproducible within the cohort.
+    / *Limitations:*: COHORT OVERLAP; no independent replication; no ME/CFS diagnostic-criteria application.
+    / *Certainty Assessment:*: 0.50 raw × 0.80 fibro/comorbid weight = **discounted 0.40**
+
+=== Gherardi et al.\ 2015 — Biopersistence and Brain Translocation of Aluminum Adjuvants (Mechanism)
+
+    / *Full Citation:*: Gherardi RK, Eidi H, Crépeaux G, Authier FJ, Cadusseau J. Biopersistence and brain translocation of aluminum adjuvants of vaccines. _Frontiers in Neurology_. 2015;6:4. @Gherardi2015biopersist
+    / *DOI:*: #link("https://doi.org/10.3389/fneur.2015.00004")[10.3389/fneur.2015.00004]
+    / *Study Design:*: Mechanism review (Henri-Mondor group).
+    / *Key Findings:*:
+        - Aluminum adjuvants biopersist within phagocytes and translocate to distant organs and brain.
+        - Elicit an inflammatory response and selective low-dose long-term neurotoxicity in experimental animals.
+    / *Conclusion:*: Mechanistic basis for a chronic immune-stimulation + neuroinflammation route from aluminum adjuvants.
+    / *Limitations:*: Single-group mechanistic claim; animal-based for brain effects; translation gap.
+    / *Certainty Assessment:*: 0.60 raw × 0.75 general/mechanism weight = **discounted 0.45**
+
+=== Crépeaux et al.\ 2017 — Non-Linear Dose-Response: Low-Dose Aluminum Adjuvant Neurotoxicity (Animal)
+
+    / *Full Citation:*: Crépeaux G, Eidi H, David MO, et al. Non-linear dose-response of aluminium hydroxide adjuvant particles: selective low dose neurotoxicity. _Toxicology_. 2017;375:12–25. @Crepeaux2017dose
+    / *DOI:*: #link("https://doi.org/10.1016/j.tox.2016.11.018")[10.1016/j.tox.2016.11.018]
+    / *Study Design:*: Rodent toxicology (experimental).
+    / *Key Findings:*:
+        - Non-monotonic dose-response of aluminium hydroxide adjuvant particles.
+        - Selective neurotoxicity at low dose (effects missed by conventional high-dose toxicology).
+    / *Conclusion:*: Supports the claim that low-dose, long-term aluminum adjuvant effects are under-detected.
+    / *Limitations:*: Animal model (cross-species gap); single group; not ME/CFS-specific.
+    / *Certainty Assessment:*: 0.55 raw × 0.50 animal-to-human relevance = **discounted 0.28**
+
+=== Masson et al.\ 2024 — Phagocyte Immuno-Metabolic Responses in MMF (In Vitro)
+
+    / *Full Citation:*: Masson JD, Badran G, Gherardi RK, Authier FJ, Crépeaux G. Widespread myalgia and chronic fatigue: phagocytes from macrophages myofasciitis patients exposed to aluminum oxyhydroxide-adjuvanted vaccine exhibit specific inflammatory, autophagic, and mitochondrial responses. _Toxics_. 2024;12(7):491. @Masson2024phagocytes
+    / *DOI:*: #link("https://doi.org/10.3390/toxics12070491")[10.3390/toxics12070491]
+    / *Study Design:*: In vitro study of patient-derived MMF phagocytes vs controls.
+    / *Key Findings:*:
+        - MMF phagocytes express Rubicon and Nox2 (LC3-associated phagocytosis machinery).
+        - They produce pain-inducing CXC chemokines, less TNF-α, and show mitochondrial dysfunction (limited spare respiratory capacity, proton leak) on vaccine exposure.
+    / *Conclusion:*: MMF cells show an immune-exhausted, pain-promoting, energetically compromised phenotype consistent with chronic myalgia and fatigue.
+    / *Limitations:*: In vitro (no organism-level validation); single group; ME/CFS inference indirect.
+    / *Certainty Assessment:*: 0.55 raw × 0.40 in-vitro weight = **discounted 0.22**
+
+=== Eisenbarth et al.\ 2008 — Nalp3/NLRP3 Inflammasome Activation by Alum (Mechanism)
+
+    / *Full Citation:*: Eisenbarth SC, Colegio OR, O'Connor W, Sutterwala FS, Flavell RA. Crucial role for the Nalp3 inflammasome in the immunostimulatory properties of aluminium adjuvants. _Nature_. 2008;453(7198):1122–1126. @Eisenbarth2008nalp3
+    / *DOI:*: #link("https://doi.org/10.1038/nature06939")[10.1038/nature06939]
+    / *Study Design:*: Foundational immunology (rodent + in vitro).
+    / *Key Findings:*:
+        - Aluminium adjuvants activate the Nalp3/NLRP3 inflammasome → IL-1β production, independent of Toll-like receptor signalling.
+        - Establishes the canonical mechanistic basis for aluminum as a pro-inflammatory, immune-stimulating agent.
+    / *Conclusion:*: Aluminum adjuvants are bona fide NLRP3 inflammasome agonists — a plausible chronic-immune-stimulation vector.
+    / *Limitations:*: Cell/animal level; does not establish ME/CFS relevance.
+    / *Certainty Assessment:*: 0.70 raw × 0.40 in-vitro weight = **discounted 0.28**
+
+=== Principi & Esposito 2018 — Aluminum in Vaccines: Safety Counter-Review (Independent)
+
+    / *Full Citation:*: Principi N, Esposito S. Aluminum in vaccines: does it create a safety problem? _Vaccine_. 2018;36(39):5825–5831. @Principi2018aluminum
+    / *DOI:*: #link("https://doi.org/10.1016/j.vaccine.2018.08.036")[10.1016/j.vaccine.2018.08.036]
+    / *Study Design:*: Narrative safety review (independent of Gherardi group).
+    / *Key Findings:*:
+        - No evidence that aluminum in vaccines accumulates to pathological levels causing systemic disease from routine immunization.
+        - MMF regarded as a rare, usually benign local reaction; does not support a causal link to ME/CFS.
+    / *Conclusion:*: Rejects the aluminum-adjuvant → ME/CFS causal claim on available safety data.
+    / *Limitations:*: Narrative review (no new data); general-population framing.
+    / *Certainty Assessment:*: 0.60 raw × 0.75 general-population weight = **discounted 0.45**
+
+=== Mitkus et al.\ 2011 — FDA Aluminum Pharmacokinetics (Regulatory Counter-Evidence)
+
+    / *Full Citation:*: Mitkus RJ, King DB, Hess MA, Forshee RA, Walderhaug MO. Updated aluminum pharmacokinetics following infant exposures through diet and vaccination. _Vaccine_. 2011;29(51):9538–9543. @Mitkus2011aluminum
+    / *DOI:*: #link("https://doi.org/10.1016/j.vaccine.2011.09.124")[10.1016/j.vaccine.2011.09.124]
+    / *Study Design:*: Regulatory pharmacokinetic modelling (US FDA CBER).
+    / *Key Findings:*:
+        - Cumulative aluminum from diet + routine infant vaccination remains below established toxic thresholds.
+        - Does not accumulate to a harmful body burden.
+    / *Conclusion:*: Authoritative regulatory counter to the "aluminum overload" claim underpinning the MMF hypothesis.
+    / *Limitations:*: Pharmacokinetic modelling (general-population); does not directly address MMF pathology.
+    / *Certainty Assessment:*: 0.70 raw × 0.75 general-population weight = **discounted 0.53**
+
+=== Perez et al.\ 2026 — Independent NLRP3-Alum Mechanism (NLRP3-Independent Effects In Vivo)
+
+    / *Full Citation:*: Perez DC, Hernandez-Franco JF, HogenEsch H. Aluminum adjuvants differentially induce IL-1β release in vitro yet share NLRP3 inflammasome-independent adjuvant effects in vivo. _Scientific Reports_. 2026;16(1):4570. @Perez2026adjuvants
+    / *DOI:*: #link("https://doi.org/10.1038/s41598-025-34660-6")[10.1038/s41598-025-34660-6]
+    / *Study Design:*: Mechanistic (human/mouse macrophages and dendritic cells; rodent in vivo).
+    / *Key Findings:*:
+        - Aluminum phosphate (AP) induces more IL-1β than aluminum hydroxide (AH) via NLRP3-dependent pro-IL-1β proteolysis.
+        - Adjuvant effects can be NLRP3-independent in vivo — nuancing the "alum acts purely via NLRP3/IL-1β" claim.
+    / *Conclusion:*: Independent (non-Gherardi) evidence that the NLRP3/IL-1β pathway is not the sole aluminum-adjuvant mechanism.
+    / *Limitations:*: In vitro + rodent; not ME/CFS-specific; recent, limited replication.
+    / *Certainty Assessment:*: 0.55 raw × 0.40 in-vitro weight = **discounted 0.22**

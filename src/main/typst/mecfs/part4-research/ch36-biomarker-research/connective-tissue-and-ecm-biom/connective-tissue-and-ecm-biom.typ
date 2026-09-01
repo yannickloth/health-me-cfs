@@ -3,6 +3,7 @@
 == Connective Tissue and ECM Biomarkers
 
 #include "../open-questions/open-question-oq:skin-senescence-biopsy.typ"
+#include "../open-questions/open-question-oq:mmf-deltoid-biopsy-significance.typ"
 #include "../speculations/speculation-spec:ct-ecm-fragment-signature.typ"
 #include "../speculations/speculation-spec:ct-aging-clock.typ"
 #include "../hypotheses/hypothesis-hyp:ct-dynamic-ecm-test.typ"

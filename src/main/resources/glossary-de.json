@@ -13660,5 +13660,30 @@
     "label": "Septad",
     "category": "concept",
     "definition": "Die sieben interagierenden Pathophysiologien, die gemeinsam mit ME/CFS auftreten: Verstärker, keine Koinzidenzen."
+  },
+  "non-POTS dysautonomia": {
+    "label": "non-POTS dysautonomia",
+    "category": "condition",
+    "definition": "Autonome Funktionsstörung mit orthostatischer Intoleranz und funktioneller Beeinträchtigung, die die formalen Herzfrequenzkriterien für POTS (≥30 Schläge/min Erwachsene, ≥40 Jugendliche) nicht erfüllt."
+  },
+  "MMF": {
+    "label": "MMF",
+    "category": "condition",
+    "definition": "Makrophagenmyofasziitis: eine histopathologische Läsion des Deltamuskels, bioptisch bestätigt, mit biopersistenten Aluminium-Adjuvans-Partikeln in Makrophagen. Verbunden mit Arthromyalgie, chronischer Müdigkeit und kognitiven Beschwerden in einer einzigen französischen Überweisungskohorte (Henri-Mondor/AP-HP); ihre Rolle als Ursache von ME/CFS ist umstritten und nicht unabhängig repliziert."
+  },
+  "macrophagic myofasciitis": {
+    "label": "Makrophagenmyofasziitis",
+    "category": "condition",
+    "definition": "Siehe MMF: eine bioptisch bestätigte Deltamuskel-Läsion mit Persistenz von Aluminium-Adjuvans in Makrophagen, als Beitrag zu ME/CFS vorgeschlagen, aber nicht bewiesen."
+  },
+  "ASIA": {
+    "label": "ASIA",
+    "category": "condition",
+    "definition": "Autoimmun-/inflammatorisches Syndrom, das durch Adjuvantien ausgelöst wird: ein vorgeschlagenes Konzept (Shoenfeld), das postvakzinale und postimplantative autoimmun-/inflammatorische Reaktionen einschließlich aluminiumassoziierten Phänomenen zusammenfasst. Das Konzept ist umstritten und sein kausaler Umfang wird debattiert."
+  },
+  "aluminium hydroxide": {
+    "label": "Aluminiumhydroxid",
+    "category": "compound",
+    "definition": "Ein Aluminiumsalz-Vakzin-Adjuvans, das den NLRP3-Inflammasom aktiviert, um Immunantworten zu verstärken. Seine Biopersistenz in Muskelmakrophagen liegt der Makrophagenmyofasziitis (MMF) zugrunde."
   }
 }
