@@ -281,6 +281,10 @@ Consider whether an apparent "comorbidity" might be the primary driver when:
     - Heart rate criteria met ($gt.eq$30 bpm increase within 10 minutes of standing)
     - Consider whether "ME/CFS" is actually deconditioning secondary to untreated POTS
 
+#include "clinical-findings/cf-pots-hr-threshold-nonpredictive.typ"
+#include "limitations/lim-pots-threshold-recognition-limits.typ"
+#include "syntheses/syn-pots-consensus-recognition.typ"
+
 *Chronic Viral Reactivation as Primary:*
 
     - Documented elevated EBV or HHV-6 titers (especially IgM or PCR positivity)

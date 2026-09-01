@@ -56,3 +56,22 @@
 | D9.3 | Day-to-day HR increment CV autonomic stability | hypothesis | 0.50 | 3 | 2 | 4 | 3 | 5 | ⬜ | — |
 | D9.4 | Post-standing I-FABP/LPS POGS biomarker | speculation | 0.35 | 4 | 2 | 4 | 2 | 5 | ⬜ | — |
 | D9.5 | Glycocalyx shedding markers in POTS | speculation | 0.45 | 4 | 2 | 3 | 3 | 5 | ⬜ | — |
+| P1.1 | Subthreshold dysautonomia = same spectrum, not separate | hypothesis | 0.45 | 4 | 4 | 5 | 2 | 4 | ⏭️ | — |
+| P1.2 | HR threshold as selection/ascertainment bias | hypothesis | 0.40 | 3 | 2 | 4 | 3 | 4 | ↩️ | — |
+| P1.3 | Subthreshold may be less-compensated, worse CBF | speculation | 0.35 | 4 | 3 | 4 | 3 | 3 | ↩️ | — |
+| R2.1 | Prospective outcome study of subthreshold dysautonomia | proposal | n/a | 4 | 4 | 4 | 2 | 4 | ↩️ | — |
+| R2.2 | Multi-center threshold-free classification validation | proposal | n/a | 4 | 3 | 4 | 2 | 4 | ↩️ | — |
+| R2.3 | HR-threshold inclusion bias in ME/CFS research | proposal | n/a | 3 | 2 | 4 | 2 | 4 | ↩️ | — |
+| DR3.1 | Same drugs as response-based diagnostic probe (subthreshold) | speculation | 0.30 | 3 | 4 | 3 | 2 | 3 | ↩️ | — |
+| SU4.1 | Salt/volume as threshold-independent first-line probe | speculation | 0.35 | 3 | 4 | 3 | 2 | 3 | ↩️ | — |
+| NP5.1 | Compression/upright access for subthreshold patients | proposal | 0.40 | 3 | 4 | 3 | 1 | 3 | ↩️ | — |
+| C6.1 | Threshold-free diagnostic-and-treatment pathway | proposal | n/a | 3 | 5 | 4 | 2 | 4 | ↩️ | — |
+| M7.1 | Continuous HR-rise axis in orthostatic model | speculation | 0.35 | 3 | 2 | 3 | 4 | 3 | ↩️ | — |
+| CD8.1 | Long-COVID ⇔ ME/CFS subthreshold recognition bridge | speculation | 0.30 | 3 | 3 | 3 | 1 | 3 | ↩️ | — |
+| CD8.2 | IST ⇔ ME/CFS mirror-image threshold problem | speculation | 0.25 | 3 | 2 | 3 | 2 | 3 | ↩️ | — |
+| D9.1 | Orthostatic CBF drop as threshold-free index | hypothesis | 0.35 | 4 | 3 | 4 | 3 | 5 | ↩️ | — |
+| D9.2 | Composite threshold-free dysautonomia score | hypothesis | 0.30 | 3 | 3 | 4 | 3 | 5 | ↩️ | — |
+| D9.3 | Subjective-measurable discrepancy as recognition signal | speculation | 0.30 | 3 | 2 | 4 | 3 | 5 | ↩️ | — |
+| C10.1 | Over-diagnosis / dilution risk (critical) | speculation | 0.30 | 3 | 2 | 3 | 1 | 3 | ✅ | — |
+| C11.1 | Null: label may carry no prognostic/therapeutic meaning | speculation | 0.30 | 3 | 2 | 3 | 1 | 2 | ✅ | — |
+| C12.1 | Consensus/single-center evidence-quality concern | speculation | n/a | 2 | 2 | 3 | 1 | 2 | ✅ | — |
