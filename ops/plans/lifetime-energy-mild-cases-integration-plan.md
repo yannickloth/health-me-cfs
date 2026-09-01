@@ -88,6 +88,9 @@
 | 10a | ✅ done | Synthesis `syn:mild-lifetime-recognition` auto-added to ch05 sec-08 (≥2 convergent envs). Cross-refs 5 envs + @sec:subthreshold-reservoir. Registry +1. Build PASS. |
 | 10b | ✅ done | Strategic-framing propagation: NO framing layers updated — synthesis is a downstream recognition/severity finding, no trigger-vs-amplifier / root-cause / genetic-architecture implication. Documented "no framing propagation needed." |
 | 11 | ✅ done | Review-to-convergence (Full tier — multi-chapter, 5 envs). 11b adversarial: 0 CRITICAL/HIGH, 1 MEDIUM (PEM-gate circularity) addressed in synthesis (added observational/pending status). 11c typst/xref: clean. 11a convergence satisfied (adversarial + coherence + falsifiability all clean). Final build 0 errors. SLOW-CONVERGENCE: not flagged (converged in 1 round). |
+| 12 | ✅ done | Plan-record written (no changelog.typ). |
+| 12.5 | ✅ done | Completion gate: 24 RAN, 2 LEGIT-SKIP (5c/5d), 0 OMISSION. Build PASS. Ledger clean. |
+| 13 | ✅ done | Commit `7bbc9457` (content). Post-commit build PASS. Shared files committed as-is per user decision. |
 
 ## Notes
 - MIXED working tree at start (aluminum-adjuvant-mmf WIP, ch33 files staged, .idea/ untracked). Rollback = `git checkout <ref> -- <file>`; NO reset/rebase/amend; commit scoped by explicit file list.
