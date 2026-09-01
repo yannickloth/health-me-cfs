@@ -136,7 +136,7 @@ Certainty reassessment done (P1.1 0.45→0.42 effective; others held/reduced). T
 - Critical C10.1/C11.1/C12.1 `✅` → integrated into `lim:pots-threshold-recognition-limits`
 - All other constructive ideas `↩️` tree-only (parked; avoids BLOAT, respects C12.1 evidence-quality message)
 ch30 tier: **None** (diagnostic-recognition content, no mechanistic cascade).
-Phase 5d LEGIT-SKIP (no mechanistic cascade); Phase 5c LEGIT-SKIP (not a medication/differential-analysis topic; drugs cited as evidence context only).
+Phase 5d LEGIT-SKIP (no mechanistic cascade). Phase 5c RAN (ch33 sec-09 ivabradine + propranolol subsec updated with Uppal 2026 RCT differential evidence — HR response dissociates from symptom response, qualifying the differential inferences).
 
 ### Phase 5b
 Build PASS (0 errors).
@@ -284,7 +284,7 @@ Integration summary (no changelog.typ — recorded here per pipeline):
 | 5 | RAN | P1.1 covered-by; C10/11/12 integrated; 15 tree-only; ch30 None |
 | 5b | RAN | build PASS |
 | 5d | LEGIT-SKIP | no mechanistic cascade (diagnostic-recognition topic) |
-| 5c | LEGIT-SKIP | not a medication/differential-analysis topic |
+| 5c | RAN | ch33 sec-09 ivabradine + propranolol subsec updated with Uppal 2026 RCT differential evidence (HR response ≠ symptom proxy); build PASS |
 | 5a | RAN | falsifiability-auditor; gate N/A (no hyp/spec/pred envs); 5 keys verified |
 | 5z | RAN | glossary non-POTS dysautonomia EN/FR/DE; glossary-test PASS |
 | 6 | RAN | synonym-map; 1 citation insertion (ch14d); 0 bumps |
@@ -299,7 +299,7 @@ Integration summary (no changelog.typ — recorded here per pipeline):
 | 12.5 | RAN | this ledger |
 | 13 | pending | commit |
 
-RAN: 22 | LEGIT-SKIP: 3 (5d, 5c, 10b) | WAIVED: 0 | OMISSION: 0
+RAN: 23 | LEGIT-SKIP: 2 (5d, 10b) | WAIVED: 0 | OMISSION: 0
 
 Independent spot-checks:
 - hypothesis registry updated if new hyp/spec/pred/oq added: N/A — none added (recognition claim integrated as clinical-finding+limitation)

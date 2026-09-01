@@ -26,6 +26,10 @@ Beta-blockers reduce sympathetic tone by blocking β-adrenergic receptors, lower
 
 Beta-blockers that worsen fatigue indicate compensatory tachycardia — the worsening is itself diagnostic for low-SV POTS. Do not increase the dose; switch to ivabradine or volume strategies.
 
+==== Differential evidence: HR response is not a symptom proxy
+
+A randomized placebo-controlled crossover (Uppal et al. 2026, n=28) found both propranolol and ivabradine lowered HR below the POTS threshold, but symptom and quality-of-life response was more selective than the HR-lowering effect @Uppal2026IvabradinePropranolol. This qualifies the differential inference: a positive rate response shows the drug engages the β-adrenergic/sinus-node axis, but it does not by itself establish that excess sympathetic drive was the primary symptom driver — the HR response and symptom response dissociate. Severity applicability: not stratified in the trial.
+
 ==== How beta-blockers combine with other medications
 
 - Beta-blockers work + ivabradine works → converging evidence for a hyperadrenergic subtype.

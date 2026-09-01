@@ -26,6 +26,10 @@ Selective If-channel blocker — reduces heart rate without affecting blood pres
 
 Ivabradine in low-SV POTS can worsen symptoms — reducing heart rate in a patient whose tachycardia compensates for low stroke volume lowers cardiac output further. Worsening on ivabradine should prompt reassessment for a low-SV subtype rather than a dose increase.
 
+==== Differential evidence: HR response is not a symptom proxy
+
+A randomized placebo-controlled crossover (Uppal et al. 2026, n=28) found both ivabradine and propranolol reliably lowered HR below the POTS diagnostic threshold, yet symptom and quality-of-life response was more selective than the HR-lowering effect @Uppal2026IvabradinePropranolol. This directly qualifies the differential inference above: a positive HR response confirms the drug acts on the rate axis, but it does *not* by itself confirm tachycardia was the primary driver of symptoms — HR lowering and symptom improvement dissociate. It also reinforces the "non-POTS dysautonomia" recognition construct: symptomatic burden is not gated by whether HR falls below the threshold. Severity applicability: not stratified in the trial.
+
 ==== How ivabradine combines with other medications
 
 - Ivabradine works + pyridostigmine does not → hyperadrenergic POTS; a ganglionic transmission deficit is not the dominant mechanism.
