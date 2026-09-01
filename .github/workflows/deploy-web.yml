@@ -43,13 +43,13 @@ jobs:
       actions: read
     steps:
       - name: Download web artifact
-        uses: actions/download-artifact@v6
+        uses: actions/download-artifact@v7
         with:
           name: web-site
           path: web-site
 
       - name: Wait for build-pdf run for this commit
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         id: find-run
         with:
           script: |
@@ -92,7 +92,7 @@ jobs:
 
       - name: Download PDF from build-pdf run
         if: steps.find-run.outputs.result != '0'
-        uses: dawidd6/action-download-artifact@v6
+        uses: dawidd6/action-download-artifact@v24
         with:
           run_id: ${{ steps.find-run.outputs.result }}
           name: me-cfs-paper
