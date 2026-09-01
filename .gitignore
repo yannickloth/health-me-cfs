@@ -404,3 +404,5 @@ agentfeed/ledger.jsonl
 
 ## agentmem agent runtime memory/state — not document content
 .agentmem/
+
+tinymist.lock
