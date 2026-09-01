@@ -38806,3 +38806,84 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
     / *Conclusion:*: Independent (non-Gherardi) evidence that the NLRP3/IL-1β pathway is not the sole aluminum-adjuvant mechanism.
     / *Limitations:*: In vitro + rodent; not ME/CFS-specific; recent, limited replication.
     / *Certainty Assessment:*: 0.55 raw × 0.40 in-vitro weight = **discounted 0.22**
+
+== Lifetime Energy-Level Problems → ME/CFS (Mild / Constitutional Cases) <sec:lifetime-energy-mild-cases>
+
+Research stream: `lifetime-energy-mild-cases`. Evidence on the mild / lifetime / constitutional end of the energy spectrum: whether a low-baseline-energy constitution (or, conversely, an overactive premorbid energy profile) is a distinct predisposing or prodromal trajectory continuous with — rather than categorically opposed to — later moderate/severe ME/CFS.
+
+=== Sunnquist et al.\ 2015 — Lifelong Fatigue as an Exclusionary Criterion (Operationalization)
+
+    / *Full Citation:*: Sunnquist M, Jason LA, Brown A, Evans M, Berman A. Complications in operationalizing lifelong fatigue as an exclusionary criterion. _Journal of Prevention & Intervention in the Community_. 2015;43(1):42–53. @Sunnquist2015lifelongFatigue
+    / *DOI:*: #link("https://doi.org/10.1080/10852352.2014.973238")[10.1080/10852352.2014.973238]
+    / *Study Design:*: Case-definition operationalization study (DePaul University); DePaul Symptom Questionnaire.
+    / *Key Findings:*:
+        - CFS and ME/CFS case definitions (Fukuda 1994; Carruthers 2003) stipulate lifelong fatigue as an EXCLUSIONARY criterion.
+        - The lifelong-fatigue construct is extremely difficult to operationalize reliably; under the most rigorous standards few participants were classified as having lifelong fatigue.
+        - Those WITH vs WITHOUT lifelong fatigue showed few significant differences in symptoms and functional areas.
+        - Authors recommend removing lifelong fatigue as an exclusionary criterion for CFS/ME.
+    / *Conclusion:*: A lifetime-tiredness / low-baseline-energy constitution is NOT categorically distinct from ME/CFS — lifelong fatigue should not disqualify a mild ME/CFS diagnosis; the mild/lifetime presentation is continuous with the illness.
+    / *Limitations:*: Single-center case-definition analysis; reliance on retrospective self-report of lifelong fatigue; does not independently establish a mild-severity ME/CFS diagnosis in the "lifelong fatigue" group.
+    / *Certainty Assessment:*: 0.55 raw × 1.00 ME/CFS-cohort weight = **discounted 0.55**
+
+=== Harvey et al.\ 2009 — Persistent Fatigue Independent of Psychiatric Disorder (Neurasthenia)
+
+    / *Full Citation:*: Harvey SB, Wessely S, Kuh D, Hotopf M. The relationship between fatigue and psychiatric disorders: evidence for the concept of neurasthenia. _Journal of Psychosomatic Research_. 2009;66(5):445–454. @Harvey2009neurasthenia
+    / *DOI:*: #link("https://doi.org/10.1016/j.jpsychores.2008.12.007")[10.1016/j.jpsychores.2008.12.007]
+    / *Study Design:*: Prospective MRC National Survey of Health and Development birth cohort (N=5362; analysis n=2714 followed age 36→43).
+    / *Key Findings:*:
+        - 201 (7.4\%) of nonfatigued, nonpsychiatric adults developed significant fatigue WITHOUT comorbid psychiatric disorder by age 43 — persistent fatigue exists independent of psychiatric illness in the general population.
+        - Specific risk factors for fatigue-without-psychiatric-disorder: EXCESSIVE childhood energy (OR 2.63, 95\% CI 1.55–4.48) and overweight at 36 (OR 1.62); neuroticism predicted both.
+    / *Conclusion:*: Establishes that constitutional / persistent fatigue is a real population construct (neurasthenia) distinct from psychiatric disorder — but the premorbid predictor is excessive (HIGH) energy, a counterpoint to the low-baseline-energy premise, supporting instead an overactivity/energy-expenditure premorbid trajectory.
+    / *Limitations:*: General population (not ME/CFS); outcome is fatigue, not ME/CFS case-definition; risk factors are psychological instruments, not physiological biomarkers.
+    / *Certainty Assessment:*: 0.68 raw × 0.75 general-population weight = **discounted 0.51**
+
+=== Collin et al.\ 2015 — Childhood Psychological Factors Predict Chronic Disabling Fatigue at Age 13
+
+    / *Full Citation:*: Collin SM, Tilling K, Joinson C, Rimes KA, Pearson RM, Hughes RA, Sterne JAC, Crawley E. Maternal and childhood psychological factors predict chronic disabling fatigue at age 13 years. _Journal of Adolescent Health_. 2015;56(2):181–187. @Collin2015childFatigue
+    / *DOI:*: #link("https://doi.org/10.1016/j.jadohealth.2014.09.002")[10.1016/j.jadohealth.2014.09.002]
+    / *Study Design:*: ALSPAC birth cohort (Bristol; N=5657).
+    / *Key Findings:*:
+        - 110 (1.9\%) of children had chronic disabling fatigue at age 13 (≥3 months, prevented school/hobbies, no other cause).
+        - Maternal anxiety (AOR 1.19 per episode), maternal depression (AOR 1.24), child psychological problems (AOR 1.19), and upsetting events (AOR 1.22) predicted it.
+        - Child psychological-problem associations attenuated after adjusting for maternal anxiety/depression.
+    / *Conclusion:*: Establishes a measurable childhood-onset chronic-disabling-fatigue trajectory (age 13) — a lifelong/lifetime low-functioning energy phenotype that precedes any adult ME/CFS diagnosis. Defined WITHOUT a PEM requirement, i.e. a mild persistent low-functioning state distinct from classic acute-onset ME/CFS.
+    / *Limitations:*: General pediatric population; outcome is chronic disabling fatigue, not adult ME/CFS; no PEM/physiological biomarker.
+    / *Certainty Assessment:*: 0.60 raw × 0.75 general-pediatric weight = **discounted 0.45**
+
+=== Jason et al.\ 2010 — Classification of ME/CFS by Types of Fatigue (Severity)
+
+    / *Full Citation:*: Jason LA, Boulton A, Porter NS, Jessen T, Njoku MG, Friedberg F. Classification of myalgic encephalomyelitis/chronic fatigue syndrome by types of fatigue. _Behavioral Medicine_. 2010;36(1):24–31. @Jason2010FatigueTypes
+    / *DOI:*: #link("https://doi.org/10.1080/08964280903521370")[10.1080/08964280903521370]
+    / *Study Design:*: Cluster analysis (ME/CFS patients, n=100; Multiple Fatigue Types Questionnaire).
+    / *Key Findings:*:
+        - A 3-cluster solution classified patients by illness SEVERITY (low, moderate, severe) across fatigue factors.
+        - A 5-cluster solution further differentiated moderate–severe patients into distinct fatigue-state patterns (e.g. post-exertional-malaise-dominated vs brain-fog-dominated).
+        - ME/CFS fatigue is heterogeneous and includes a low-severity ('mild') cluster.
+    / *Conclusion:*: Severity-based fatigue classification supports a continuum from mild to severe within ME/CFS — a mild/low-severity subset exists inside the illness rather than being categorically excluded, consistent with the lifetime-low-baseline-energy phenotype.
+    / *Limitations:*: n=100 single-cohort cluster analysis; subgroup solutions partly dependent on clustering method.
+    / *Certainty Assessment:*: 0.45 raw × 1.00 ME/CFS-cohort weight = **discounted 0.45**
+
+=== Brown et al.\ 2013 — Energy Envelope and Symptom Patterns in CFS (Coping)
+
+    / *Full Citation:*: Brown AA, Evans MA, Jason LA. Examining the energy envelope and associated symptom patterns in chronic fatigue syndrome: does coping matter? _Chronic Illness_. 2013;9(4):302–311. @Brown2013EnergyEnvelope
+    / *DOI:*: #link("https://doi.org/10.1177/1742395313478220")[10.1177/1742395313478220]
+    / *Study Design:*: Cluster analysis (CFS patients grouped by physical functioning, PEM severity, extent outside energy envelope).
+    / *Key Findings:*:
+        - Identified 3 clusters: Clusters 1–2 consistent with energy-envelope theory; Cluster 3 = most impaired, closest to staying within their energy envelope, and using MORE adaptive coping — yet more functionally limited than Cluster 2.
+        - Coping explained only ~10\% of cluster variance.
+    / *Conclusion:*: The 'energy envelope' (energy available minus required) operationalizes a low-baseline-energy reserve. Cluster 3 shows that patients running a low daily energy reserve are severely limited even without acute overexertion — illustrating that a low-baseline-energy phenotype carries its own severity independent of overexertion-triggered PEM.
+    / *Limitations:*: Coping is not a strong differentiator; cluster interpretation partially speculative; cross-sectional.
+    / *Certainty Assessment:*: 0.48 raw × 1.00 ME/CFS-cohort weight = **discounted 0.48**
+
+=== Smith et al.\ 1991 — Chronic Fatigue in Adolescents (Prodrome Question)
+
+    / *Full Citation:*: Smith MS, Mitchell J, Corey L, Gold D, McCauley EA, Glover D, Tenover FC. Chronic fatigue in adolescents. _Pediatrics_. 1991;88(2):195–202. @Smith1991AdolescentCF
+    / *DOI:*: none (pre-DOI publication).
+    / *Study Design:*: Descriptive pediatric case series (n=15 adolescents; fatigue + ≥3 symptoms ~18 months).
+    / *Key Findings:*:
+        - 11/15 acute-infectious onset (7 Monospot-positive); extensive serology (Coxsackie B, CMV, EBV, HHV-6, Toxoplasma) showed little evidence of infectious cause vs controls.
+        - K-SADS: 5 met major-depression criteria; 10 non-depressed fatigued subjects endorsed secondary but not primary depression symptoms.
+        - Follow-up 13–32 months: 4 well, 4 improved, 7 unimproved/worse.
+    / *Conclusion:*: Historically raises the question whether adolescent chronic fatigue is prodromal depression, a discrete psychosomatic condition, or an infectious/immunologic disorder mimicking depression — the 'lifetime low-functioning tiredness' question at the pediatric end. Supports a persistent, non-depressive chronic-fatigue state distinct from both depression and acute-onset illness.
+    / *Limitations:*: Small (n=15), descriptive, pre-Fukuda (1991), no strict ME/CFS case definition, no PEM measure.
+    / *Certainty Assessment:*: 0.40 raw × 0.75 general-adolescent weight = *discounted 0.30*

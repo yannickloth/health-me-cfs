@@ -653,6 +653,7 @@ Around 2 years post-onset, ME/CFS transitions from early disease (hypermetabolic
     - *Multi-target approach*: Addresses multiple locks simultaneously, recognizing that single-domain interventions often fail due to reinforcement from untreated domains
 
 #include "limitations/lim-novel-framework-unvalidated.typ"
+#include "limitations/lim-lifelong-onset-criterion.typ"
 
 === Research Implications and Validation Needs
 <subsec:research-implications>

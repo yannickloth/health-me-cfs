@@ -382,6 +382,8 @@ We know what happens when patients do NOT pace aggressively:
 
 While we cannot prove aggressive pacing prevents severe disease, we have strong evidence that failure to pace causes severe disease.
 
+#include "predictions/pred-mild-lifetime-transition-cohort.typ"
+
 ==== Summary: Your Choices Determine Your Trajectory
 <sec:trajectory-summary>
 

@@ -79,6 +79,8 @@ Mild ME/CFS is not a stable endpoint. Patients who exceed their energy envelope 
 
 Once deterioration occurs, return to baseline is not guaranteed. Many patients describe a “ratchet effect” where each crash leaves them at a lower functional level than before.
 
+#include "speculations/spec-mild-constitutional-energy-spectrum.typ"
+
 === Moderate ME/CFS
 
 Moderate ME/CFS describes patients who are mostly housebound, with severely restricted activity in all domains @Carruthers2011ICC @NICE2021mecfs. This category represents the largest proportion of the ME/CFS population (approximately 58%) and encompasses significant heterogeneity in functional capacity.

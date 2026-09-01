@@ -377,3 +377,4 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | osteoporosis | [subtrees/osteoporosis.md](subtrees/osteoporosis.md) | 2026-08-29 | 10 | 3 | 🔵 in progress |
 | reenergize-me-ihht | [subtrees/reenergize-me-ihht.md](subtrees/reenergize-me-ihht.md) | 2026-08-29 | 29 | 2 | 🔵 in progress |
 | prolactin-buspirone | [subtrees/prolactin-buspirone.md](subtrees/prolactin-buspirone.md) | 2026-08-29 | 31 | 24 | 🔵 in progress |
+| lifetime-energy-mild-cases | [subtrees/lifetime-energy-mild-cases.md](subtrees/lifetime-energy-mild-cases.md) | 2026-09-01 | 20 | 5 | 🔵 in progress |

@@ -286,6 +286,7 @@ Consider whether an apparent "comorbidity" might be the primary driver when:
 #include "syntheses/syn-pots-consensus-recognition.typ"
 #include "open-questions/oq-mild-lifetime-case-recognition.typ"
 #include "limitations/lim-mild-lifetime-critical-caveats.typ"
+#include "syntheses/syn-mild-lifetime-recognition.typ"
 
 *Chronic Viral Reactivation as Primary:*
 

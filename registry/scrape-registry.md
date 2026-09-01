@@ -1175,3 +1175,14 @@ Prevents re-processing of already-integrated content.
 | URL | Source | Scraped | Integrated | Target |
 |-----|--------|---------|------------|--------|
 | PubMed E-utilities API (20 queries; PMIDs 31059838,25506338,26030650,27765861,29079320,25699008,27908630,39058143,18496530,30139653,22001122,41519970) | pubmed/eutils | 2026-09-01 | — | ops/research/search-log-aluminum-adjuvant-mmf-2026-09-01.md, ops/research/literature-summary-aluminum-adjuvant-mmf.md, bib/immune.bib (12 new), appendix-h (12 annotated entries) — Aluminum adjuvant → MMF → ME/CFS hypothesis literature: direct MMF clinical (Henri-Mondor, Gherardi/Authier cohort), null/counter (independent safety reviews + FDA PK), indirect NLRP3/IL-1beta mechanism |
+
+---
+
+## Lifetime Energy-Level Problems → ME/CFS (Mild / Constitutional Cases) — Literature Search (2026-09-01)
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed E-utilities API (esearch/esummary/efetch, ~28 queries) | pubmed/eutils | 2026-09-01 | Phase 1 integrate-topic search for topic `lifetime-energy-mild-cases`. Queries across 5 axes: (1) severity stratification/underdiagnosis of mild ME/CFS, (2) lifetime/constitutional/lifelong tiredness, (3) trait/personality fatigue vs illness, (4) premorbid/childhood/pre-onset prodrome, (5) null/negative (mild CFS no PEM, lifelong fatigue exclusion). PRIOR-WORK AWARE: avoided re-adding ADHD/ASD predisposition (already `adhd-energy-mecfs`, `adhd-asd-comorbidity-mecfs`, `lower-baseline-predisposition` incl. Kato2006premorbid, Wirth2026prodromalICD, Chu2019onsetPatterns) and sudden-onset (already @Jason2015CFSvsME). 6 NEW papers added (bib/epidemiology.bib, bib/diagnosis-assessment.bib, bib/energy-metabolism.bib); all verified not-in-corpus before adding. |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed E-utilities API (~28 queries; NEW PMIDs 25584527,19379961,25448612,20185398,23585632,1861915) | pubmed/eutils | 2026-09-01 | — | ops/research/search-log-lifetime-energy-mild-cases-2026-09-01.md, ops/research/literature-lifetime-energy-mild-cases-2026-09-01.md, bib/epidemiology.bib, bib/diagnosis-assessment.bib, bib/energy-metabolism.bib, appendix-h (sec:lifetime-energy-mild-cases, 6 annotated entries) — Lifetime energy-level problems → ME/CFS mild/constitutional cases literature: lifelong-fatigue exclusion criterion (Sunnquist), population fatigue-vs-disease construct (Harvey), childhood-onset fatigue trajectory (Collin), fatigue-type severity classification (Jason), energy-envelope subtypes (Brown), adolescent chronic-fatigue prodrome (Smith) |
