@@ -406,3 +406,8 @@ agentfeed/ledger.jsonl
 .agentmem/
 
 tinymist.lock
+
+## IntelliJ IDEA — machine-local editor state (not shared source)
+.idea/
+*.iml
+*.xml
