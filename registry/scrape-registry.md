@@ -245,6 +245,8 @@ Prevents re-processing of already-integrated content.
 
 | URL | Source | Scraped | Integrated | Target |
 |-----|--------|---------|------------|--------|
+| https://www.radiofrance.fr/franceculture/podcasts/la-science-cqfd/fatigue-chronique-une-maladie-en-quete-de-re-connaissance-9729715 | radiofrance | 2026-09-01 | 2026-09-01 | appendix-d-resources (Podcasts section) — La Science, CQFD (France Culture) "Syndrome de fatigue chronique : une maladie en quête de (re)connaissance" (Aug 2026, Alexandra Delbot) — French-language podcast on France's Assurance-maladie recognition of ME/CFS as a neurological disease with PEM |
+| https://www.radiofrance.fr/franceculture/podcasts/la-science-au-labo/fatigue-chronique-des-marqueurs-visibles-au-niveau-cellulaire-2517457 | radiofrance | 2026-09-01 | 2026-09-01 | appendix-d-resources (Podcasts section) — La Science au labo (France Culture) "Fatigue chronique : des marqueurs visibles au niveau cellulaire" (Aug 2026) — short chronicle on cellular markers for fatigue chronique |
 | https://pmc.ncbi.nlm.nih.gov/articles/PMC11952824/ | pubmed/pmc | 2026-05-01 | 2026-05-01 | bib/appendix-h/integration-guide — Kassels2024LSAutoimmune — LS autoimmune population study |
 | https://pmc.ncbi.nlm.nih.gov/articles/PMC9978401/ | pubmed/pmc | 2026-05-01 | 2026-05-01 | bib/appendix-h/integration-guide — DeLuca2023LS2023Update — LS 2023 update review |
 | https://pubmed.ncbi.nlm.nih.gov/15819407/ | pubmed | 2026-05-01 | 2026-05-01 | bib/appendix-h/integration-guide — Regauer2005LSImmuneDysregulation — LS immune dysregulation foundational |

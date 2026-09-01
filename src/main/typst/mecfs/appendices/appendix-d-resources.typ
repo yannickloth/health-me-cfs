@@ -594,6 +594,14 @@ Interviews influential voices in ME/CFS and Long COVID. Topics include books on 
   caption: [Hope and Help for Fatigue & Chronic Illness podcast.],
 ) <tab:hope-help-fatigue-podcast>
 
+/ *La Science, CQFD — France Culture*:  #link("https://www.radiofrance.fr/franceculture/podcasts/la-science-cqfd/fatigue-chronique-une-maladie-en-quete-de-re-connaissance-9729715") 
+
+"Syndrome de fatigue chronique : une maladie en quête de (re)connaissance" (58 min, August 2026, hosted by Alexandra Delbot). French-language episode discussing France's recent official recognition of ME/CFS by the national health insurance (Assurance-maladie), which removed the psychological classification and defined the disease by a chronically disabling exhaustion with symptom exacerbation after minor exertion (PEM). Reports that approximately 200,000 people in France are affected, often after a viral infection. Guests include neurologist François-Jérôme Authier, one of the few EM-SFC (ME/CFS) specialists in France, and internist Frédérique Retornaz (Hôpital Européen de Marseille). Relevant to the French context described in the France section of this appendix, where ME/CFS recognition has historically lagged. Related French-language episodes: "Chronique d'une fatigue annoncée" (La Méthode scientifique) and "Fatigue chronique : des marqueurs visibles au niveau cellulaire" (La Science au labo, below).
+
+/ *La Science au labo — France Culture*:  #link("https://www.radiofrance.fr/franceculture/podcasts/la-science-au-labo/fatigue-chronique-des-marqueurs-visibles-au-niveau-cellulaire-2517457") 
+
+"Fatigue chronique : des marqueurs visibles au niveau cellulaire" (7 min, August 2026). Short French-language chronicle reporting on visible cellular markers for chronic fatigue syndrome, companion piece to the main La Science, CQFD episode above. Broadcast Monday 31 August 2026.
+
 // =============================================================================
 
 == YouTube Channels and Video Resources
