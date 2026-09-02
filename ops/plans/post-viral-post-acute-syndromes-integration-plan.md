@@ -144,6 +144,14 @@
 | 10b Framing | LEGIT-SKIP | Downstream non-actionable 0.21 pilot; no framing implication |
 | 11 Review | RAN | Lightweight; 1 MEDIUM fixed, CONVERGED |
 | 12 Plan record | RAN | Phase 12 section above |
-| 13 Commit | RAN/next | Commit hash (see Phase 13 report) |
+| 13 Commit | RAN | 3 commits: 89eac61c, 844a64b3, 347b370b |
 
 0 OMISSION. Build: PASS. Ledger clean — Phase 13 may proceed.
+
+## Phase 13 — Commit record
+3 commits created:
+- `89eac61c` content(mecfs/bib): Phase 1 literature (bib + appendix-h + scrape-registry)
+- `844a64b3` content(mecfs): ch37 env + registry row + glossary
+- `347b370b` docs(ops): plan + research + brainstorm + subtree + hypotheses-trees
+Post-commit integrity: git status clean; nix build PASS at HEAD.
+Excluded: tmp/ audit scratch (synthesis, safety-gate, retro, compat, coherence — gitignored, never committed).
