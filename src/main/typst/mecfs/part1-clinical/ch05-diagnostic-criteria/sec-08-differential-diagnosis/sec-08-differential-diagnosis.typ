@@ -157,6 +157,9 @@ Many ME/CFS patients develop *reactive depression* (consequence of severe disabi
     - Primary depression: Depression preceded fatigue; fatigue is a symptom of depression
 
 Treating comorbid depression in ME/CFS is appropriate and may improve quality of life, but antidepressants do not cure ME/CFS.
+
+#include "clinical-findings/cf-neurodivergent-differential-diagnosis.typ"
+
 ==== Eating Disorders and ME/CFS
 <subsubsec:eating-disorders-differential>
 
