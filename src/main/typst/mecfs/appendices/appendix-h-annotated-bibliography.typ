@@ -38887,3 +38887,148 @@ Research stream: `lifetime-energy-mild-cases`. Evidence on the mild / lifetime /
     / *Conclusion:*: Historically raises the question whether adolescent chronic fatigue is prodromal depression, a discrete psychosomatic condition, or an infectious/immunologic disorder mimicking depression — the 'lifetime low-functioning tiredness' question at the pediatric end. Supports a persistent, non-depressive chronic-fatigue state distinct from both depression and acute-onset illness.
     / *Limitations:*: Small (n=15), descriptive, pre-Fukuda (1991), no strict ME/CFS case definition, no PEM measure.
     / *Certainty Assessment:*: 0.40 raw × 0.75 general-adolescent weight = *discounted 0.30*
+
+// =============================================================================
+// New research stream: neurodivergent-psychological-consequences-mecfs (2026-09-02)
+// Neurodivergence-specific psychological / mental-health consequences relevant
+// to ME/CFS. Distinct from (a) the ADHD/ASD predisposition stream (sec 12225)
+// and (b) general ME/CFS psychological-consequence chapters (depression, stigma,
+// gaslighting, suicide). Evidence concentrates on autistic burnout overlap with
+// chronic-fatigue-like energy loss, masking + central-sensitivity burden,
+// diagnostic overshadowing of fatigue in autistic adults, and the ADHD x
+// chronic-fatigue transdiagnostic profile. NOTE: almost no study measures psych
+// burden in people with BOTH formal ME/CFS and formal autism/ADHD — the strongest
+// papers describe the overlap/phenotype. Integrate as overlap + differential
+// diagnosis, not comorbidity equivalence. Full rationale + negatives in
+// ops/research/literature-neurodivergent-psychological-consequences-mecfs-2026-09-02.md.
+// =============================================================================
+
+== Neurodivergent-Specific Psychological Consequences of ME/CFS <sec:bib-neurodivergent-psychological-consequences>
+Research stream: `neurodivergent-psychological-consequences-mecfs`
+
+=== Raymaker et al.\ 2020 — Defining Autistic Burnout (Foundational)
+@Raymaker2020autisticBurnout
+
+*Population:* n=196 autistic adults (qualitative + online survey; community-engaged CBPR). Not an ME/CFS cohort.
+*Key Findings:*
+    - Defines autistic burnout as chronic, extensive exhaustion + reduced stimulus tolerance + reduced ability to perform everyday tasks.
+    - Drivers: cumulative sensory/social/cognitive overload + masking + unmet support needs.
+    - The exhaustion phenotype is phenomenologically continuous with ME/CFS energy loss — an overlap/differential-diagnosis claim, not comorbidity equivalence.
+*Conclusion:* Foundational definition of the ND exhaustion construct relevant to ME/CFS energy-loss overlap.
+*Limitations:* Autistic-only sample; defines burnout, does not diagnose ME/CFS.
+*Certainty Assessment:* 0.78 raw × 0.90 ND-exhaustion overlap weight = *discounted ~0.70*
+
+=== Higgins et al.\ 2021 — Defining Autistic Burnout by Lived Experience (Delphi)
+@Higgins2021burnoutDelphi
+
+*Population:* n=69 autistic lived-experts + 14 professionals/researchers (Grounded Delphi).
+*Key Findings:*
+    - Consensus features: exhaustion, withdrawal, reduced tolerance, reduced functional capacity, skill loss / cognitive regression.
+    - Autistic burnout explicitly distinguished from clinical depression.
+*Conclusion:* Lived-experience consensus definition; separates ND burnout from depression.
+*Limitations:* Expert consensus, not empirical outcome data.
+*Certainty Assessment:* 0.68 raw × 0.90 = *discounted ~0.61*
+
+=== Clarey et al.\ 2026 — Shame, Identity Disruption, and Functional Collapse in Autistic Burnout
+@Clarey2026burnoutShame
+
+*Population:* n=11 autistic adults (qualitative interviews).
+*Key Findings:*
+    - Shame shapes interpretation of functional limits and help-seeking.
+    - "Dual masking" (concealing autistic traits AND burnout signs) intensifies strain and delays recovery.
+    - Identity disruption is central to the burnout experience.
+*Conclusion:* ND-specific shame + identity disruption + dual masking — psychological-consequence texture absent from general ME/CFS psych chapters.
+*Limitations:* Small qualitative n=11.
+*Certainty Assessment:* 0.48 raw × 0.90 = *discounted ~0.43*
+
+=== Ali et al.\ 2026 — How Autistic Burnout Feels (Earlier vs Later Diagnosis)
+@Ali2026burnoutFeel
+
+*Population:* n=20 autistic adults (8 childhood-diagnosed); KCL / UCL qualitative thematic analysis.
+*Key Findings:*
+    - Burnout experienced as "powering down" and/or "overactivation" of mind and body, producing craving for sensory and social rest.
+    - Later-diagnosed adults: burnout more chronic and confusing; substance coping; "not knowing why" took a (sometimes dangerous) toll — a few contemplated suicide.
+*Conclusion:* Energy-regulatory reading of ND exhaustion; later diagnosis = double burden (undiagnosed ND + unexplained chronic exhaustion).
+*Limitations:* Qualitative; suicidality reported anecdotally within themes, not quantified.
+*Certainty Assessment:* 0.52 raw × 0.90 = *discounted ~0.47*
+
+=== Pagán et al.\ 2025 — Autistic Burnout and Posttraumatic Stress
+@Pagan2025burnoutPTSS
+
+*Population:* n=91 trauma-exposed autistic adults without intellectual disability.
+*Key Findings:*
+    - Autistic burnout strongly correlates with posttraumatic stress symptoms (r=0.70, p\<0.001); exploratory factor analysis suggested shared factors (self-image, memory).
+    - Burnout related to depression (PHQ-9) and anxiety (GAD-7).
+*Conclusion:* Quantifies the psychiatric-correlate burden of the ND exhaustion phenotype.
+*Limitations:* Cross-sectional; novel burnout instrument.
+*Certainty Assessment:* 0.55 raw × 0.85 = *discounted ~0.47*
+
+=== Kentrou et al.\ 2024 — Perceived Misdiagnosis of Psychiatric Conditions in Autistic Adults
+@Kentrou2024autisticMisdiagnosis
+
+*Population:* n=1,211 autistic adults (52.6% women, mean 42.3 y), Netherlands register.
+*Key Findings:*
+    - 24.6% (n=298) report ≥1 previous psychiatric diagnosis perceived as a misdiagnosis.
+    - Most frequent perceived misdiagnoses: personality, anxiety, and mood disorders.
+    - Chronic fatigue syndrome / burnout-related disorders perceived as misdiagnoses by 4% (n=49) of the total sample; ADHD by 2.8% (n=34).
+    - Autistic women (31.7%) report perceived misdiagnoses more often than men (16.7%).
+*Conclusion:* Evidence of diagnostic confusion / overshadowing around fatigue and energy-related conditions in autistic adults; CFS/burnout is one of the perceived prior misdiagnoses. Does not demonstrate that clinicians dismiss ME/CFS as "just autism."
+*Limitations:* Perceived (self-report) misdiagnosis; register sample skewed educated.
+*Certainty Assessment:* 0.72 raw × 0.90 = *discounted ~0.65*; further discounted to *~0.55* for the corrected, more indirect ME/CFS framing.
+
+=== Grant, Norton & Hoekstra\ 2026 — Camouflaging and Illness Perceptions in Central Sensitivity Syndromes
+@Grant2026camouflagingCSS
+
+*Population:* n=504 adults (autism, CSS, both, neither); CSS = fibromyalgia, IBS, migraine.
+*Key Findings:*
+    - Autistic camouflaging significantly predicts CSS symptoms.
+    - Autistic people with a CSS report significantly more negative impact of chronic illness on life despite no more symptoms than non-autistic people with CSS.
+    - Authors raise diagnostic overshadowing of autism by a CSS label.
+*Conclusion:* Direct masking + central-sensitivity link; autistic people with chronic-fatigue-adjacent syndromes carry disproportionate mental-health/identity burden.
+*Limitations:* CSS (not pure ME/CFS); online self-report.
+*Certainty Assessment:* 0.60 raw × 0.85 = *discounted ~0.51*
+
+=== Rogers et al.\ 2017 — Fatigue in Adult ADHD: A Trans-Diagnostic Approach
+@Rogers2017ADHDFatigue
+
+*Population:* n=243 adult ADHD, n=86 CFS, n=211 healthy controls (Maudsley services).
+*Key Findings:*
+    - 62% of adults with ADHD meet fatigue caseness; ADHD group more fatigued than healthy controls.
+    - ADHD and CFS groups did not differ on functional impairment, mood, or self-efficacy — shared transdiagnostic psychological characteristics.
+*Conclusion:* Nearest ADHD-specific overlap anchor: adult ADHD and CFS share a mood/self-efficacy/functional psychological profile.
+*Limitations:* Group comparison, not a formal comorbidity cohort.
+*Certainty Assessment:* 0.60 raw × 0.85 = *discounted ~0.51*
+
+=== Hodge & Meltzoff\ 2026 — Autistic Camouflaging and Mental Health: Scoping Review
+@Hodge2026camouflagingMH
+
+*Population:* 48 studies (autistic participants).
+*Key Findings:*
+    - Positive relationship between camouflaging and poor mental health (depression, anxiety, stress, wellbeing, burnout), effect sizes small to large.
+    - Bidirectional in qualitative studies; association stronger for assimilation than masking subscales.
+*Conclusion:* Broad support that masking is a psychological-burden mechanism relevant to the ND double burden with energy limits.
+*Limitations:* No ME/CFS-specific content.
+*Certainty Assessment:* 0.62 raw × 0.80 = *discounted ~0.50*
+
+=== Whaling et al.\ 2026 — Health-Condition Profiles Among Autistic Adults (Latent Class)
+@Whaling2026autismLCA
+
+*Population:* n=640 autistic adults (autism-affirming telehealth; retrospective chart review).
+*Key Findings:*
+    - Three classes: Mental + Physical Health (17.7%), Mental Health Predominant (56.3%), Minimal (26.1%).
+    - Mental + Physical class shows mood/anxiety alongside chronic pain, chronic fatigue, headaches, dizziness, IBS, hormone problems.
+*Conclusion:* Documents autism + chronic fatigue + psych comorbidity clustering as a distinct higher-need class.
+*Limitations:* Chronic fatigue is a reported indicator, not an ME/CFS diagnosis; telehealth sample.
+*Certainty Assessment:* 0.50 raw × 0.55 = *discounted ~0.28* (context only)
+
+=== Quadt et al.\ 2026 — Neurodivergence and Variant Connective Tissue in Chronic Pain/Chronic Fatigue
+@Quadt2026neurodivergentCPCF
+
+*Population:* n=83 chronic pain/fatigue (CP/CF) adults vs n=91 non-clinical.
+*Key Findings:*
+    - CP/CF patients far more likely to screen likely-autism (aOR 14.3) and likely-ADHD (aOR 12.9).
+    - Joint hypermobility significantly mediates neurodivergence → CP/CF.
+    - Authors urge routine ND screening in CP/CF to improve fair access and quality of life.
+*Conclusion:* Reinforces high ND prevalence in chronic fatigue; flags fair-access/QoL need.
+*Limitations:* Predominantly prevalence/mechanism (overlaps predisposition stream); QoL peripheral. Supporting context only for this psych-consequence stream.
+*Certainty Assessment:* 0.62 raw × 0.50 (psych-consequence angle) = *discounted ~0.31* (supporting)
