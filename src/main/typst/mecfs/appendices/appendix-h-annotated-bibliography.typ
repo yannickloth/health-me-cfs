@@ -8587,6 +8587,50 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
 
 // =============================================================================
 
+=== Pridgen & Putrino 2026 — Herpes-Antiviral Combination Therapy for Long COVID
+
+    *Full Citation:*: Pridgen WL, Putrino D.\ Patient-reported improvements from use of IMC-2 alone and IMC-2 and Paxlovid in a Long COVID cohort: a case series. _Frontiers in Immunology_. 2026;16:1698271. @Pridgen2026HerpesAntiviralLongCOVID
+    *DOI:*: #link("https://doi.org/10.3389/fimmu.2025.1698271")[10.3389/fimmu.2025.1698271]
+    *PMID:*: 41562079 / PMCID: PMC12812670
+    *Study Design:*: Single-center, open-label, prospective case series; two arms with crossover opportunity. No placebo, no control, not randomized, not blinded.
+    *Sample Size:*: n=24 completed (12 IMC-2-only, 12 IMC-2+Paxlovid); 3 crossovers; 27 approached; single Alabama LC clinic (Apr 2022–Feb 2024).
+    *Intervention:*: IMC-2 = valacyclovir 1500 mg BID + celecoxib 200 mg BID × 120 d. IMC-2+Paxlovid arm added Paxlovid days 13–28 (valacyclovir reduced to 750 mg BID during the 15-day window).
+    *Outcome Measures:*: Patient Global Impression of Change (PGIC) fatigue (primary), brain fog + dysautonomia (secondary), at days 120/305/731; 10-pt VAS in parallel. Subjective patient-reported only.
+
+*Key Findings:*
+
+    - IMC-2+Paxlovid (IP) vs IMC-2-only (IO): PGIC fatigue 2 points higher (p < 0.0001, Cohen's d = 1.8)
+    - VAS: IP group reported on average 55.3% greater reduction in fatigue than IO (p < 0.0001)
+    - Dysautonomia (d=1.4, p < 0.001) and brain fog (d=1.4, p < 0.001, 7-pt) also favored IP
+    - IP improvements appeared durable: no significant symptom change across 120/305/731-day follow-ups (~600 days post-protocol)
+    - Regimen tolerated: no AEs in the IO arm; IP-arm side effects were transient and confined to the Paxlovid window (dysgeusia 86.7%, increased fatigue 40%, body aches 26.6%)
+    - Renal/hepatic function monitored pre-protocol and q6–8 wk; medication stopped if abnormal
+
+*Conclusion:*: Authors interpret the results as pilot evidence of synergy between IMC-2 and Paxlovid and call for a randomized, double-blind, placebo-controlled trial as the necessary next step.
+
+*Limitations:*
+
+    - Open-label case series — no placebo/control arm; placebo effect and selection bias unaddressed
+    - Small n (12/arm), single site, single investigator group
+    - Subjective PGIC/VAS endpoints only; no validated LC instrument or objective measures
+    - Marked female bias (20 F / 4 M)
+    - Major inventor conflict of interest: W. Pridgen is partner/founder of PridCor Therapeutics, holder of the patent covering IMC-2 components
+    - Ethics review by Institute of Regenerative and Cellular Medicine (for-profit IRB, IRCM-2025-446)
+    - Cannot support causal efficacy; low-certainty hypothesis-generating pilot
+
+*Relevance:*: This is the only direct pilot data answering ch37's open statement that combination antiviral strategies targeting multiple latent/reactivating viruses "have not been tested." It extends the valacyclovir+celecoxib concept (independently trialled by the Bateman Horne Center) by adding a Paxlovid arm targeting SARS-CoV-2 persistence alongside herpesvirus reactivation. For ME/CFS it is context/relevance only: a Long COVID cohort, research-stage, off-label, and heavily confounded — not a basis for clinical recommendation.
+
+*Certainty Assessment:*
+
+    - *Quality:* Low (open-label case series, no control, no randomization)
+    - *Sample:* Small (n=24)
+    - *Replication:* None yet — single pilot; independent Bateman Horne combination trial is separate
+    - *Certainty:* 0.21 (discounted from raw 0.25 × Long-COVID weight 0.85)
+    - *Limitation:* Off-label; high valacyclovir dose; inventor COI; interaction burden with common ME/CFS co-prescriptions (see harm search in search log)
+
+
+// =============================================================================
+
 == T Cell Immunity, Ageing, and COVID-19 Severity
 <sec:bib-tcell-aging-2026>
 // =============================================================================

@@ -1186,3 +1186,14 @@ Prevents re-processing of already-integrated content.
 | URL | Source | Scraped | Integrated | Target |
 |-----|--------|---------|------------|--------|
 | PubMed E-utilities API (~28 queries; NEW PMIDs 25584527,19379961,25448612,20185398,23585632,1861915) | pubmed/eutils | 2026-09-01 | — | ops/research/search-log-lifetime-energy-mild-cases-2026-09-01.md, ops/research/literature-lifetime-energy-mild-cases-2026-09-01.md, bib/epidemiology.bib, bib/diagnosis-assessment.bib, bib/energy-metabolism.bib, appendix-h (sec:lifetime-energy-mild-cases, 6 annotated entries) — Lifetime energy-level problems → ME/CFS mild/constitutional cases literature: lifelong-fatigue exclusion criterion (Sunnquist), population fatigue-vs-disease construct (Harvey), childhood-onset fatigue trajectory (Collin), fatigue-type severity classification (Jason), energy-envelope subtypes (Brown), adolescent chronic-fatigue prodrome (Smith) |
+
+---
+
+## Post-Viral Post-Acute Syndromes (Makin 2026 Nature feature gap) — Literature Search (2026-09-02)
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed E-utilities (esearch/efetch PMID 41562079), PubMed Central OA REST (PMC12812670 full text), Drugs.com labels (celecoxib, valacyclovir, famciclovir), DOI resolver (10.3389/fimmu.2026.1698271 → 404) | pubmed/eutils + pmc + drugs.com | 2026-09-02 | Phase 1 integrate-topic for `post-viral-post-acute-syndromes`. Verify ONE genuinely-new feature-cited primary paper: Pridgen & Putrino, Front Immunol 16:1698271 (IMC-2 = valacyclovir+celecoxib ± 15-d Paxlovid case series, n=24, open-label). Obtained full text via PMC. Confirmed other 8 feature-cited papers (Al-Aly, Proal, Maguire, Peluso, Santos, Stein, Fluge, Swank) ALREADY integrated (grep; not duplicated). Ran mandatory harm search (drug combo + ME/CFS co-prescription interactions). 1 NEW bib entry. DOI-year reconciliation: cited 2026 (issue/copyright) but DOI is 10.3389/fimmu.**2025**.1698271. |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed esearch/efetch (PMID 41562079) + PMC OA BioC (PMC12812670) + Drugs.com (Celebrex/Valtrex/Famvir) | pubmed/eutils, pmc, drugs.com | 2026-09-02 | — | ops/research/search-log-post-viral-post-acute-syndromes-2026-09-02.md, ops/research/literature-post-viral-post-acute-syndromes-2026-09-02.md, bib/viral-infection.bib (Pridgen2026HerpesAntiviralLongCOVID), appendix-h (sec:bib-reservoir-antiviral-2026, Pridgen & Putrino 2026 entry) — Post-viral post-acute syndromes feature-gap integration: Pridgen & Putrino herpes-antiviral (±Paxlovid) long-COVID case series (low-certainty pilot), harm data for valacyclovir+celecoxib ± Paxlovid, ME/CFS co-prescription interactions |
