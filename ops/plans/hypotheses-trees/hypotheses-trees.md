@@ -49,6 +49,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 
 | Topic slug            | Subtree file                                                          | Brainstorm date | Root ideas | Integrated | Status         |
 |-----------------------|-----------------------------------------------------------------------|-----------------|------------|------------|----------------|
+| post-viral-post-acute-syndromes | [subtrees/post-viral-post-acute-syndromes.md](subtrees/post-viral-post-acute-syndromes.md) | 2026-09-02 | 10 | 1 | ✅ done |
 | neurodivergent-psychological-consequences-mecfs | [subtrees/neurodivergent-psychological-consequences-mecfs.md](subtrees/neurodivergent-psychological-consequences-mecfs.md) | 2026-09-02 | 22 | 9 | ✅ done |
 | leptin-circadian-entrainment | [subtrees/leptin-circadian-entrainment.md](subtrees/leptin-circadian-entrainment.md) | 2026-08-17 | 14 | 3 | 🔵 in progress |
 | thapaliya2025-brain-microstructure-neurochemicals | [subtrees/thapaliya2025-brain-microstructure-neurochemicals.md](subtrees/thapaliya2025-brain-microstructure-neurochemicals.md) | 2026-08-17 | 12 | 2 | 🔵 in progress |
