@@ -87,7 +87,7 @@ ME/CFS not already cited. Heavy phases (4/4a/5/5a/5b/5c/5d/5z/9/10/10a/10b/11) a
 | 11 | ⏭️ LEGIT-SKIP | REJECT terminator — no content to review |
 | 12 | ✅ done | Plan-record (REJECT summary) written below. |
 | 12.5 | ✅ done | Completion gate: 5 RAN (0,1,2,12,12.5), 22 LEGIT-SKIP (REJECT terminator), 0 OMISSION. Build PASS. Ledger clean. |
-| 13 | ⬜ pending | |
+| 13 | ✅ done | Commit `1db2b2f8` (docs, 3 files: plan + search-log + literature summary). Post-commit tree clean. |
 
 ## Notes
 - Null hypothesis strong: if no longitudinal severity-transition cohort exists beyond ch06's current
