@@ -130,7 +130,7 @@
 | 4 Brainstorm | RAN | ops/brainstorms/brainstorm-*.md (10 ideas, PARTIAL caps) |
 | 4a Hypo tree | RAN | subtrees/post-viral-post-acute-syndromes.md + root index row |
 | 5 Tiered integration | RAN | triage → all brainstorm ideas dedup/tree-only; Phase 3 env is the content |
-| 5d ch30 cascade | LEGIT-SKIP | No new specifiable mechanistic cascade (cert 0.21 < 0.30); single pilot, no new drug-interception point not already in ch34 |
+| 5d ch30 cascade | LEGIT-SKIP | Topic is a drug/intervention (Phase 5d drug-clause routes to 5c); no specifiable mechanistic cascade introduced. Viral-persistence→antiviral already a ch34 sec-12 cascade (Acyclovir entry). |
 | 5c Differential | LEGIT-SKIP | Single uncontrolled pilot; not a medication differential-diagnostic claim |
 | 5b Build | RAN | build PASS (reuses 3a; no new .typ since) |
 | 5a Falsifiability | RAN | New speculation has explicit falsifiability; bib keys resolve; build PASS |
