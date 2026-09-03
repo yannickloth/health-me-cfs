@@ -39076,3 +39076,95 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
 *Conclusion:* Reinforces high ND prevalence in chronic fatigue; flags fair-access/QoL need.
 *Limitations:* Predominantly prevalence/mechanism (overlaps predisposition stream); QoL peripheral. Supporting context only for this psych-consequence stream.
 *Certainty Assessment:* 0.62 raw × 0.50 (psych-consequence angle) = *discounted ~0.31* (supporting)
+
+// =============================================================================
+// == Mitochondrial Dysfunction in ME/CFS and Long COVID (2025-2026 gap-fill) ==
+// == Reinforcement / contradiction / extension of ch34 sec-02 cascade claims ==
+// =============================================================================
+
+<sec:mitochondrial-dysfunction-mecfs-longcovid>
+
+=== Tasoula et al.\ 2026 — Multi-omics of Long COVID Reveals Persistent Mitochondrial Dysfunction
+
+    *Full Citation:*: Tasoula A, Arif S, Waisberg E, Bauer L, Aslinger E, Guarnieri JW. Multi-omics analysis of long COVID (post-COVID-19 condition) reveals persistent mitochondrial dysfunction, suppressed oxidative phosphorylation, and immune dysregulation. _Frontiers in Immunology_. 2026;17:1776555. @Tasoula2026multiomicsLCmito
+    *DOI:*: #link("https://doi.org/10.3389/fimmu.2026.1776555")[10.3389/fimmu.2026.1776555]
+    *Key Findings:*:
+        - Sustained suppression of OXPHOS across species and tissues, with skeletal muscle showing the most pronounced and persistent mitochondrial repression.
+        - Mitochondrial stress-response activation and inflammatory enrichment persist to ≥12 months post-infection.
+        - PBMC transcriptomics and serum metabolomics indicate prolonged OXPHOS downregulation up to 12 months.
+        - Links bioenergetic suppression to chronic immune activation.
+    *Conclusion:* Integrative multi-omics identify persistent mitochondrial repression + immune dysregulation as recurring features of post-COVID condition, reinforcing the OXPHOS-suppression / reduced-ATP-yield cascade.
+    *Limitations:* Secondary re-analysis of public datasets; hamster (animal) + in silico components; authors employed by commercial Guarnieri Research Group LLC (COI disclosed).
+    *Certainty Assessment:* 0.55 raw × 0.70 (mixed LC human + animal + in silico) = *discounted ~0.39*
+
+=== Weber-Fahr et al.\ 2026 — Reduced Brain ATP/PCr Ratios in Neuropsychiatric Post-COVID (³¹P MRS)
+
+    *Full Citation:*: Weber-Fahr W, Dommke S, Sack M, Alzein N, Becker R, Demirakca T, Ende G, Schilling C. Reduced adenosine triphosphate-to-phosphocreatine ratios in neuropsychiatric post-COVID condition: evidence from (31)P magnetic resonance spectroscopy. _Biological Psychiatry_. 2026;100(5):546-555. @WeberFahr2026ATPphosphocreatine
+    *DOI:*: #link("https://doi.org/10.1016/j.biopsych.2026.01.004")[10.1016/j.biopsych.2026.01.004]
+    *Key Findings:*:
+        - Whole-brain ³¹P-MRSI in 27 post-COVID patients vs 23 recovered controls showed a significant cluster of reduced ATP/PCr centered on the cingulate cortex.
+        - Lower anterior-cingulate ATP/PCr correlated with poorer cognitive performance.
+        - Intracellular-pH trend and pH–ATP/PCr correlation only in patients suggest disease-specific bioenergetic/pH dysregulation.
+        - A post-COVID subgroup meeting ME/CFS criteria showed similar metabolic alterations.
+    *Conclusion:* First in-vivo human evidence of impaired brain energy metabolism in post-COVID condition, directly linking anterior-cingulate bioenergetic deficit to cognitive impairment — reinforcing the brain energy-crisis / reduced-ATP claim.
+    *Limitations:* Moderate n; primarily Long-COVID population (ME/CFS only a subgroup); cross-sectional.
+    *Certainty Assessment:* 0.72 raw × 0.85 (Long COVID; ME/CFS subgroup) = *discounted ~0.61*
+
+=== Germain et al.\ 2025 — Plasma Proteomic Maladaptation in ME/CFS Following Exertion
+
+    *Full Citation:*: Germain A, Glass KA, Eckert MA, Giloteaux L, Hanson MR. Temporal dynamics of the plasma proteomic landscape reveals maladaptation in ME/CFS following exertion. _Molecular & Cellular Proteomics_. 2025;24(12):101467. @Germain2025plasmaProteomicMaladaptation
+    *DOI:*: #link("https://doi.org/10.1016/j.mcpro.2025.101467")[10.1016/j.mcpro.2025.101467]
+    *Key Findings:*:
+        - Longitudinal 7K-aptamer plasma proteomics across two maximal CPETs (79 ME/CFS vs 53 sedentary controls) shows widespread proteomic changes in the PEM-recovery phase.
+        - Upregulation of glycolysis/gluconeogenesis suggestive of mitochondrial stress; suppression of T/B-cell signaling and IL-17.
+        - Decoupling of protein abundance from VO₂max and anaerobic threshold in ME/CFS vs controls.
+        - Sex-stratified molecular responses differ between females and males.
+    *Conclusion:* Dynamic proteomic profiling shows maladaptive immune-metabolic responses to exertion in ME/CFS, with a sedentary-control arm distinguishing disease effects from deconditioning — reinforcing the glycolytic-shift and exercise-maladaptation cascade claims.
+    *Limitations:* Circulating-proteome proxy (not tissue); same Cornell (Hanson/Giloteaux) cohort as other Germain entries in corpus (site overlap).
+    *Certainty Assessment:* 0.72 raw × 1.00 (ME/CFS) = *discounted ~0.72*
+
+=== Keele et al.\ 2026 — Cross-Tissue Gene/Proteomic Evidence Supports Mitochondrial Dysregulation in ME/CFS
+
+    *Full Citation:*: Keele GR, Enger M, Barnette Q, Ruiz-Esparza R, Alvarado M, Mathur R, Stratford JK, Giamberardino SN, Brown LM, Webb BT, Carnes MU. Systematic examination of gene expression and proteomic evidence across tissues supports the role of mitochondrial dysregulation in ME/CFS. _International Journal of Molecular Sciences_. 2026;27(4):1997. @Keele2026mapMECFSmito
+    *DOI:*: #link("https://doi.org/10.3390/ijms27041997")[10.3390/ijms27041997]
+    *Key Findings:*:
+        - Lower expression of mitochondrial genes MT-RNR1 and MT-RNR2 in ME/CFS in two studies (mapMECFS + DecodeME).
+        - Increased mitochondrial-gene expression in platelets in a third study — supports cross-tissue mitochondrial dysregulation.
+        - ME/CFS-associated genes map to approved compounds targeting mitochondrial-support/energy-metabolism genes.
+    *Conclusion:* Bioinformatic re-analysis supports a role for mitochondrial dysregulation in ME/CFS across independent datasets, reinforcing the general mitochondrial-defect cascade.
+    *Limitations:* No new primary data; in silico; authors note little cross-study consistency in specific genes (heterogeneity caveat).
+    *Certainty Assessment:* 0.45 raw × 0.30 (in silico) = *discounted ~0.14* (supporting)
+
+=== Magawa et al.\ 2026 — Deficient TRPM3-Linked Mitochondrial Ca²⁺ Influx in ME/CFS NK Cells
+
+    *Full Citation:*: Magawa CT, Eaton-Fitch N, Muraki K, Marshall-Gradisnik S. Deficient TRPM3-linked mitochondrial Ca(2+) influx in natural killer cells associated with myalgic encephalomyelitis/chronic fatigue syndrome. _BMC Immunology_. 2026;27(1):65. @Magawa2026TRPM3NKmitoCa
+    *DOI:*: #link("https://doi.org/10.1186/s12865-026-00849-1")[10.1186/s12865-026-00849-1]
+    *Key Findings:*:
+        - In NK cells from n=10 ME/CFS (CCC) vs 10 HC, cytosolic Ca²⁺ influx amplitude/slope reduced and mitochondrial Ca²⁺ influx altered in ME/CFS.
+        - TRPM3-dependent cytosolic and mitochondrial Ca²⁺ mobilization significantly reduced in ME/CFS.
+    *Conclusion:* Altered TRPM3-mediated Ca²⁺ handling affects mitochondrial Ca²⁺ mobilization in ME/CFS immune cells — extending the mitochondrial-Ca²⁺ dysregulation cascade into the immune compartment.
+    *Limitations:* Small n; single lab (Griffith University TRPM3-NK line already extensive in corpus); ex-vivo/in-vitro readout, not muscle. Long-COVID companion paper (PMID 42484498, same lab) not separately added to avoid redundancy.
+    *Certainty Assessment:* 0.50 raw × 0.60 (ME/CFS population, in-vitro readout) = *discounted ~0.30*
+
+=== Groysman et al.\ 2026 — Fragile Mitophagy as a Recovery-Failure Endotype for PEM (Hypothesis)
+
+    *Full Citation:*: Groysman R. Fragile mitophagy in long COVID: a proposed recovery-failure endotype for post-exertional malaise. _Frontiers in Medicine_. 2026;13:1905758. @Groysman2026fragileMitophagy
+    *DOI:*: #link("https://doi.org/10.3389/fmed.2026.1905758")[10.3389/fmed.2026.1905758]
+    *Key Findings:*:
+        - Proposes "fragile mitophagy" (mitochondrial injury + mitophagy engagement but inadequate lysosomal completion) as a PEM recovery-failure endotype.
+        - Predicts delayed crashes, progressive baseline lowering with repeated exertion, and poor tolerance of mitophagy-inducing interventions.
+        - Predicts PEM severity tracks impaired lysosomal completion / danger signaling more than baseline ATP deficit.
+    *Conclusion:* Hypothesis offering a novel recovery-failure framing that extends the mitochondrial-damage → mitophagy-impairment cascade into PEM endotyping.
+    *Limitations:* Single-author opinion/hypothesis article with no primary data; Long-COVID framing; conceptual only.
+    *Certainty Assessment:* 0.30 raw × 0.40 (conceptual Long-COVID) = *discounted ~0.12* (concept only)
+
+=== Ryback et al.\ 2026 — Indistinguishable Mitochondrial Phenotypes After ME/CFS vs Control Serum (Failed Replication)
+
+    *Full Citation:*: Ryback AA, Hillier CB, Loureiro CM, Ponting CP, Dalton CF. Indistinguishable mitochondrial phenotypes after exposure of healthy myoblasts to myalgic encephalomyelitis/chronic fatigue syndrome or control serum. _PLoS One_. 2026;21(2):e0341334. @Ryback2026myoblastNull
+    *DOI:*: #link("https://doi.org/10.1371/journal.pone.0341334")[10.1371/journal.pone.0341334]
+    *Key Findings:*:
+        - Pre-registered replication of Fluge 2016 with sera from 67 ME/CFS and 53 controls and >1,700 Seahorse mitochondrial stress tests.
+        - NO significant difference in maximal respiratory capacity between ME/CFS and control serum treatment of healthy myoblasts.
+    *Conclusion:* Strong evidence against the hypothesis that ME serum factors differentially alter healthy-myoblast mitochondrial phenotype in vitro — a null result limiting the serum-transferable layer of the mitochondrial-defect cascade.
+    *Limitations:* In-vitro model only; does not refute in-vivo tissue-mitochondrial findings (muscle biopsy WASF3/supercomplex/PDH; bed-rest comparison; brain ³¹P-MRS) which rest on tissue rather than serum-cell transfer.
+    *Certainty Assessment:* 0.75 raw × 0.40 (in vitro mechanistic test) = *discounted ~0.30* (negative)

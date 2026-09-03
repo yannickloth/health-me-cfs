@@ -1197,3 +1197,15 @@ Prevents re-processing of already-integrated content.
 | URL | Source | Scraped | Integrated | Target |
 |-----|--------|---------|------------|--------|
 | PubMed esearch/efetch (PMID 41562079) + PMC OA BioC (PMC12812670) + Drugs.com (Celebrex/Valtrex/Famvir) | pubmed/eutils, pmc, drugs.com | 2026-09-02 | — | ops/research/search-log-post-viral-post-acute-syndromes-2026-09-02.md, ops/research/literature-post-viral-post-acute-syndromes-2026-09-02.md, bib/viral-infection.bib (Pridgen2026HerpesAntiviralLongCOVID), appendix-h (sec:bib-reservoir-antiviral-2026, Pridgen & Putrino 2026 entry) — Post-viral post-acute syndromes feature-gap integration: Pridgen & Putrino herpes-antiviral (±Paxlovid) long-COVID case series (low-certainty pilot), harm data for valacyclovir+celecoxib ± Paxlovid, ME/CFS co-prescription interactions |
+
+---
+
+## Mitochondrial Dysfunction in ME/CFS and Long COVID — Literature Search (2026-09-04)
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed E-utilities API (esearch/esummary/efetch; 9 query axes + metadata batches) | pubmed/eutils | 2026-09-04 | Phase-1 integrate-topic search for topic `mitochondrial-dysfunction-mecfs-longcovid` (gap-fill over existing ch34 sec-02 cascade coverage). 9 axes: direct ME/CFS×mito 2025-26, direct Long-COVID×mito/bioenergetic 2025-26, NULL/NEGATIVE, COMPETING (deconditioning vs disease), and indirect NAD+/PDH/mitophagy/iron/ROS downstream searches. All candidates deduped vs 2994 corpus DOIs across all bib/*.bib. Confirmed 2 suspected anchors ALREADY integrated and NOT re-added (Charlton 2026 Nat Commun bed-rest muscle PMID 42649155; Liu 2026 BBI-Health IgG-energetics PMID 41704659). 7 NEW papers added to bib/energy-metabolism.bib. |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed esearch/esummary/efetch (9 axes; PMIDs 42253978,41632778,41525818,41237904,41752134,42177403,42656694) | pubmed/eutils | 2026-09-04 | — | ops/research/search-log-mitochondrial-dysfunction-mecfs-longcovid-2026-09-04.md, ops/research/literature-summary-mitochondrial-dysfunction-mecfs-longcovid-2026-09-04.md, bib/energy-metabolism.bib (7 new: Tasoula2026multiomicsLCmito, WeberFahr2026ATPphosphocreatine, Germain2025plasmaProteomicMaladaptation, Keele2026mapMECFSmito, Magawa2026TRPM3NKmitoCa, Groysman2026fragileMitophagy, Ryback2026myoblastNull), appendix-h (sec:mitochondrial-dysfunction-mecfs-longcovid, 7 annotated entries), Literature/pathophysiology/energy-metabolism/ (6 OA PDFs) |
+| Publisher/EUPMC OA PDF retrieval | frontiersin.org, journals.plos.org, mdpi-res.com, europepmc.org | 2026-09-04 | — | 6 OA full texts (Tasoula, Ryback, Keele, Magawa, Groysman, Germain); Weber-Fahr (Biol Psychiatry) paywalled → abstract only. No landing-page scraping; bibliographic + PDF retrieval only. |
