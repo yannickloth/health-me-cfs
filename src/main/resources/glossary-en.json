@@ -5458,6 +5458,11 @@
     "category": "imaging",
     "definition": "Magnetic Resonance Spectroscopy: an MRI technique measuring brain metabolite concentrations (lactate, NAA, choline, creatine, glutamate, GABA). MRS in ME/CFS has revealed elevated brain lactate, reduced NAA (indicating neuronal dysfunction), and altered glutamate/GABA ratios."
   },
+  "MRSI": {
+    "label": "MRSI",
+    "category": "imaging",
+    "definition": "Magnetic Resonance Spectroscopic Imaging: an MRI-based technique that maps metabolite concentrations (including high-energy phosphates such as ATP and phosphocreatine) across brain regions, used to measure regional energy metabolism in vivo."
+  },
   "MS": {
     "label": "MS",
     "category": "condition",
