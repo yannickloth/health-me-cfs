@@ -260,6 +260,22 @@ Every phase resolved to exactly one state. Zero OMISSION.
 Report: 21 phases RAN, 4 LEGIT-SKIP (5d, 5c, 10a, 10b — conditions recorded above),
 0 WAIVED, 0 OMISSION. Build: PASS. Ledger clean — Phase 13 may proceed.
 
+## Phase 13 — Commit (2026-09-04)
+- Commit 1: `8c4144dc` content(mecfs/bib): integrate rash-less VZV reactivation
+  hypothesis into ch08 (5 content files, +244).
+- Commit 2: `11656b2f` docs(ops): add VZV reactivation integration plan, research,
+  brainstorm, subtree (7 ops files, +1128).
+- Shared-file entries verified present: registry `rashless-vzv-mecfs` (2 rows) +
+  `cross-condition` episwitch rows preserved; viral-infection.bib 7 vzv research_stream
+  keys; hypotheses-trees vzv-reactivation index row. All staged diffs were pure
+  additions (0 removals) — no parallel work lost.
+- Excluded: tmp/ (gitignored audit scratch: synthesis, safety-gate, compat-audit,
+  coherence-audit, synonym-map, governor-ledger). No scratch checkpoint pointers
+  created (MIXED mode — none needed).
+- Post-commit integrity: HEAD builds 0 errors; `git status` clean (no VZV files
+  remain). EpiSwitch cross-condition commits (81ee0f2b, 3a93693f) intact.
+- Status: `✅ done`.
+
 ## Phase 1 (Literature Research; 2026-09-04)
 - 7 papers found + added to `bib/viral-infection.bib` (research_stream =
   {vzv-reactivation}). Keys VERIFIED against bib: Bubak2026VZVInfection,
