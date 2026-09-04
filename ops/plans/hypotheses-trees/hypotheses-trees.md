@@ -256,6 +256,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | lc-autoantibodies-cell2026 | [subtrees/lc-autoantibodies-cell2026.md](subtrees/lc-autoantibodies-cell2026.md) | 2026-05-30 | 28 | 3 | ✅ done |
 | theanine-caffeine-adhd | [subtrees/theanine-caffeine-adhd.md](subtrees/theanine-caffeine-adhd.md) | 2026-08-15 | 13 | 7 | 🔵 in progress |
 | fibromyalgia-genetics | [subtrees/fibromyalgia-genetics.md](subtrees/fibromyalgia-genetics.md) | 2026-08-22 | 14 | 10 | 🔵 in progress |
+| vzv-reactivation | [subtrees/vzv-reactivation.md](subtrees/vzv-reactivation.md) | 2026-09-04 | 25 | 1 | 🔵 in progress |
 
 ---
 

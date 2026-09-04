@@ -13,6 +13,19 @@ Prevents re-processing of already-integrated content.
 
 ---
 
+## VZV Reactivation & Rash-Less VZV Disease (vzv-reactivation) Literature Search
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-09-04 | 25+ queries across required categories: direct ME/CFS (VZV × ME/CFS/CFS = 12 hits; zoster sine herpete × fatigue = 3; post-infectious/post-viral fatigue × VZV = 0 — null datapoints), null/negative (herpesvirus ME/CFS null — reuses corpus Buchwald1996/Koelle2002TwinsHSV/Domingues2023), competing mechanism (VZV reactivation as cause vs consequence — Li2026 threshold model), indirect biochemical (VZV vasculopathy/stroke/dementia, VZV childhood AIS, VZV neuroinflammation). Driving source Bubak 2026 NRDP not yet PubMed-indexed → verified via Crossref. 7 new papers included; ME/CFS herpesvirus serology/null context reused from existing corpus (no duplication). |
+| Crossref API (1 DOI) | 2026-09-04 | Driving-source metadata verification (Bubak 2026 Nature Reviews Disease Primers, DOI 10.1038/s41572-026-00735-5). |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed API queries (25+ queries + esummary/efetch batches, 7 PMIDs) | pubmed/eutils | 2026-09-04 | — | ops/research/search-log-vzv-reactivation-2026-09-04.md, ops/research/literature-vzv-reactivation-2026-09-04.md, bib/viral-infection.bib, appendix-h — VZV reactivation / rash-less VZV disease literature (7 new papers) |
+| Crossref DOI 10.1038/s41572-026-00735-5 | crossref | 2026-09-04 | — | Bubak2026VZVInfection (driving source) bib entry + appendix-h |
+
+---
+
 ## Fibromyalgia Genetics (Kerrebijn 2026) Literature Search
 | Source | Last Scraped | Notes |
 |--------|--------------|-------|
