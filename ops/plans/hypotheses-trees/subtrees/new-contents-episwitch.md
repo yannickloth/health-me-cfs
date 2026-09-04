@@ -45,5 +45,7 @@
 | 10 | 3D-chromatin epigenetic state variable in DAG/ODE | proposal | 0.30 | 3 | 0 | 1 | 5 | 1 | ⏭️ | — |
 | 11 | Longitudinal EpiSwitch state-vs-trait across PEM | proposal | 0.30 | 2 | 1 | 2 | 1 | 3 | ⏭️ | — |
 | 12 | Critical: generic-illness signature, null, overfitting, COI/severity | open-question | 0.30-0.45 | 1 | 0 | 2 | 0 | 1 | ✅ | — |
+| 13 | Cross-condition network convergence (Hunter 2026, PARTIAL/WEAK) | speculation | 0.20 | 4 | 0 | 4 | 0 | 3 | ✅ | child |
 
 Status legend: ✅ integrated; ⏭️ recorded as future-cycle proposal (research direction / safety-gated treatment idea); — no child subtree.
+Child subtree (2026-09-04): `new-contents-episwitch-crosscondition-hunter2026.md` — Hunter et al. 2026 cross-condition network-convergence cycle (PARTIAL, integrated as speculation+limitation in ch36; research-direction proposals recorded ⏭️).
