@@ -9421,6 +9421,11 @@
     "category": "pathogen",
     "definition": "Varicella Zoster Virus: causes chickenpox and shingles. VZV reactivation is a possible trigger or contributor to ME/CFS."
   },
+  "zoster sine herpete": {
+    "label": "zoster sine herpete",
+    "category": "condition",
+    "definition": "Varicella-zoster reactivation causing disease without the characteristic shingles rash (\u201cinternal shingles\u201d); can present as severe one-sided pain or neurovascular/systemic symptoms and requires blood or CSF testing to diagnose."
+  },
   "Valacyclovir": {
     "label": "Valacyclovir",
     "category": "medication",

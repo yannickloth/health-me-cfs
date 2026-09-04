@@ -39219,3 +39219,93 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
     *Conclusion:* Provides an independent single-condition network/systems framing of ME/CFS that conceptually parallels the cross-condition network-convergence model Hunter 2026 extends across ME/CFS, Long COVID, PTSD, RA and MS; does not itself test cross-condition convergence.
     *Limitations:* Narrative/systematic review with no primary data; single-condition scope (not cross-disease); Plovdiv group.
     *Certainty Assessment:* 0.30 raw × 1.00 (ME/CFS content) = *discounted ~0.30* (supporting-framing only)
+
+=== Bubak et al.\ 2026 — Varicella Zoster Virus Infection
+
+    *Full Citation:*: Bubak AN, Warren-Gash C, Tommasi C, Breuer J, Mahalingam R, Srikanth P, Nagel MA. Varicella zoster virus infection. _Nature Reviews Disease Primers_. 2026;12(1). @Bubak2026VZVInfection
+    *DOI:*: #link("https://doi.org/10.1038/s41572-026-00735-5")[10.1038/s41572-026-00735-5]
+    *Key Findings:*:
+        - Over 90% of people worldwide carry dormant VZV (chickenpox primary infection → lifelong latency in sensory/autonomic nerve cells).
+        - Reactivation usually presents as shingles, but reactivated VZV can also cause disease WITHOUT a rash (zoster sine herpete / "internal shingles"), mimicking other common diseases.
+        - VZV reactivation affects sensory nerves, blood vessels, and multiple organs → stroke, cardiovascular events, dementia, Ramsay Hunt syndrome (ear shingles + facial paralysis), vision loss, paralysis, abdominal pain.
+        - Even with classic shingles, increased risk of stroke/cardiovascular events/dementia.
+        - Up to one-third of arterial ischemic strokes in children are due to VZV.
+        - Underrecognized cause of neurological/systemic disease, particularly when rash-less; requires specialized blood/CSF testing.
+        - Postherpetic neuralgia is a major chronic-pain cause; shingles can recur with undiagnosed immune problems. Antivirals treat VZV; chickenpox + recombinant shingles vaccination reduces risk.
+    *Conclusion:* The authoritative, comprehensive overview of VZV infection — establishes the rash-less VZV disease (zoster sine herpete) and VZV neurovascular disease concepts that this paper's ch08 VZV subsection currently lacks. Provides the general-population/mechanism scaffold into which ME/CFS-specific and indirect neurovascular evidence can be placed.
+    *Limitations:* A disease-primers review (secondary synthesis, no new primary data); covers all-population VZV disease, not ME/CFS specifically; does not establish whether VZV reactivation contributes to ME/CFS.
+    *Certainty Assessment:* 0.85 raw × 0.75 (general-population/mechanism review) = *discounted ~0.64* (supporting scaffold)
+
+=== Shapiro\ 2009 — Varicella-Zoster Peripheral Ganglia as a Cause of Chronic Fatigue (Hypothesis)
+
+    *Full Citation:*: Shapiro JS. Does varicella-zoster virus infection of the peripheral ganglia cause Chronic Fatigue Syndrome? _Medical Hypotheses_. 2009;73(5):728-734. @Shapiro2009VZVgangliaCFS
+    *DOI:*: #link("https://doi.org/10.1016/j.mehy.2009.04.043")[10.1016/j.mehy.2009.04.043]
+    *Key Findings:*:
+        - Proposes that infection of the peripheral ganglia causes at least some CFS, with neurotropic VZV a likely agent.
+        - Infection of autonomic ganglia could cause fatigue, postural hypotension, and sleep disturbance; infection of sensory ganglia could cause chronic pain.
+        - Ganglionic infection produces long-term nerve dysfunction, explaining the chronic course of CFS.
+        - Models CFS as one manifestation of zoster sine herpete (herpes zoster without rash); notes CFS symptoms overlap shingles except for the painful rash.
+        - Suggests reduced VZV re-exposure (declining chickenpox) lowers immunity and may explain increased CFS incidence.
+    *Conclusion:* The single most direct published proposal that rash-less VZV (zoster sine herpete) reactivation in peripheral/autonomic ganglia could produce ME/CFS-like symptoms — the exact novel framing this integration targets. Directly connects to the existing ch08 note that VZV sensory-ganglion neurotropism "may contribute to sensory and autonomic symptoms" in ME/CFS.
+    *Limitations:* Pure hypothesis essay (Medical Hypotheses, non-peer-reviewed-empirical), single author, no primary data, no direct VZV-reactivation measurement in a CFS cohort, never formally validated.
+    *Certainty Assessment:* 0.30 raw × 1.00 (conceptual ME/CFS relevance) = *discounted ~0.30* (supporting hypothesis only)
+
+=== Halpin et al.\ 2017 — Increased Anti-Herpesvirus dUTPase Antibodies (incl. VZV) in ME/CFS
+
+    *Full Citation:*: Halpin P, Williams MV, Klimas NG, Fletcher MA, Barnes Z, Ariza ME. Myalgic encephalomyelitis/chronic fatigue syndrome and gulf war illness patients exhibit increased humoral responses to the herpesviruses-encoded dUTPase. _Journal of Medical Virology_. 2017;89(9):1636-1645. @Halpin2017VZVdUTPase
+    *DOI:*: #link("https://doi.org/10.1002/jmv.24810")[10.1002/jmv.24810]
+    *Key Findings:*:
+        - ME/CFS (30.91–52.7%) and GWI (29.34%) patients simultaneously produce antibodies against multiple human herpesvirus-encoded dUTPases (EBV, HHV-6, VZV) and/or human dUTPase, vs 17.21% of controls.
+        - Anti-VZV dUTPase antibodies are one component of the poly-herpesvirus co-reactivation serologic pattern.
+        - ME/CFS showed highest anti-EBV-dUTPase; GWI higher anti-HHV-6 and anti-human dUTPase.
+    *Conclusion:* The foundational primary study establishing that VZV (via its dUTPase/ORF8) participates in the poly-herpesvirus co-reactivation serologic signature in ME/CFS — the anchor for the existing ch08 VZV line and the Palomo 2026 72.5% finding already cited.
+    *Limitations:* Single-lab series (Ariza/Williams/Ohio State + Klimas/Fletcher/Nova Southeastern); cross-sectional serology, no causal inference; diagnostic criteria not specified in abstract; cohort lineage overlaps Palomo2026/Ariza2025 already in corpus.
+    *Certainty Assessment:* 0.55 raw × 1.00 (ME/CFS cohort) = *discounted ~0.55* (supporting)
+    *Cohort-overlap note:* Ariza/Williams (Ohio State) + Klimas/Fletcher (Nova Southeastern) site lineage — overlaps Palomo2026herpesvirus and Ariza2025polyherpesvirus; count once across the three.
+
+=== Karachaliou et al.\ 2024 — VZV IgG Elevated in Post-Acute Sequelae of COVID-19
+
+    *Full Citation:*: Karachaliou M, Ranzani O, Espinosa A, et al. Antibody responses to common viruses according to COVID-19 severity and postacute sequelae of COVID-19. _Journal of Medical Virology_. 2024;96(9):e29862. @Karachaliou2024VZV_PASC
+    *DOI:*: #link("https://doi.org/10.1002/jmv.29862")[10.1002/jmv.29862]
+    *Key Findings:*:
+        - Population-based cohort (n=1083 infected individuals) examined plasma IgG/IgA to EBV, CMV, VZV, BK/KI/WU polyomaviruses, RSV, Adv-36 by COVID-19 severity and PASC history.
+        - Ever PASC, active persistent PASC, and PASC with neuropsychiatric symptoms were associated with higher IgG to EBV early-antigen-diffuse, VZV, and WUPyV — even among those without prior severe COVID-19.
+    *Conclusion:* Direct serologic evidence that VZV reactivation accompanies long-COVID/post-acute sequelae, including the neuropsychiatric subtype — supporting VZV as part of a post-infectious latent-virus reactivation picture relevant to post-viral fatigue/ME/CFS overlap.
+    *Limitations:* Serologic (antibody) evidence, not direct VZV detection; PASC self-reported; single cohort; general-population/long-COVID, not strict ME/CFS.
+    *Certainty Assessment:* 0.65 raw × 0.85 (long-COVID population) = *discounted ~0.55* (supporting)
+
+=== Li et al.\ 2026 — Post-COVID VZV Reactivation as Immune-Threshold Lowering (Consequence)
+
+    *Full Citation:*: Li X, Cheng S, Wang S, Gao K, Bai Y, Li S, Gao M, Guo Y. Post-COVID varicella-zoster virus reactivation: lowering the immunological threshold for latency breakdown. _Frontiers in Cellular and Infection Microbiology_. 2026;16:1904565. @Li2026PostCOVIDVZVthreshold
+    *DOI:*: #link("https://doi.org/10.3389/fcimb.2026.1904565")[10.3389/fcimb.2026.1904565]
+    *Key Findings:*:
+        - Large observational studies report a modest increase in herpes zoster after COVID-19, most consistently after severe disease/hospitalization and within early post-infection windows.
+        - These associations do not establish direct causation or a population-wide shift of HZ toward younger adults.
+        - A threshold-lowering interpretation fits better: SARS-CoV-2 infection narrows VZV latency-control reserve via cellular immune disruption, interferon dysregulation, and inflammation.
+        - Long COVID is a setting of persistent immune dysregulation but is not yet a proven causal framework for VZV disease.
+    *Conclusion:* Frames VZV reactivation primarily as a CONSEQUENCE of immune disturbance in susceptible hosts — directly relevant to the ch08 "reactivation as consequence vs cause" debate for ME/CFS, and cautions against over-reading a causal/trigger role for VZV in post-viral syndromes.
+    *Limitations:* Review/opinion (no primary data); interpretive threshold model; post-COVID context, not ME/CFS cohort.
+    *Certainty Assessment:* 0.45 raw × 0.85 (long-COVID population) = *discounted ~0.38* (framing)
+
+=== Fullerton et al.\ 2025 — Asymptomatic VZV Reactivation in Childhood Arterial Ischemic Stroke (VIPS II)
+
+    *Full Citation:*: Fullerton HJ, Hills NK, Wintermark M, et al. Evidence of varicella zoster virus reactivation in children with arterial ischemic stroke: Results of the VIPS II study. _Journal of the American Heart Association_. 2025;14(6):e039184. @Fullerton2025VIPSII
+    *DOI:*: #link("https://doi.org/10.1161/JAHA.124.039184")[10.1161/JAHA.124.039184]
+    *Key Findings:*:
+        - 22-center prospective cohort (n=205 childhood arterial ischemic stroke, 28 days–18 yr; 95 control children).
+        - 9.8% of AIS children had serologic evidence of recent, ASYMPTOMATIC VZV reactivation at stroke time vs 3.1% of controls; all were clinically silent (no rash).
+        - Reactivation concentrated in focal cerebral arteriopathy (4/32, 12.5%), not in dissection or moyamoya.
+    *Conclusion:* High-quality primary evidence that asymptomatic/rash-less VZV reactivation accompanies arterial inflammation and stroke — demonstrating that VZV vasculopathy can proceed without clinical rash, and supporting the ME/CFS-relevant concept that serologically-detectable VZV reactivation need not be clinically visible (rash-less) to be biologically active.
+    *Limitations:* Childhood stroke population (not ME/CFS); serologic reactivation markers (IgM/IgG) rather than direct virus detection; moderate effect, vaccinated population.
+    *Certainty Assessment:* 0.75 raw × 0.75 (general-population/mechanism) = *discounted ~0.56* (supporting mechanism)
+
+=== Livieratos et al.\ 2025 — Varicella Zoster Virus and Stroke: An Intricate Relationship
+
+    *Full Citation:*: Livieratos A, Schiro LE, Gogos C, Ntaios G, Akinosoglou K. Varicella zoster virus and stroke: An intricate relationship. _Viruses_. 2025;17(12):1591. @Livieratos2025VZVstroke
+    *DOI:*: #link("https://doi.org/10.3390/v17121591")[10.3390/v17121591]
+    *Key Findings:*:
+        - Mechanism review of VZV-associated neurovascular disease: VZV reactivation from sensory/trigeminal ganglia → infection of cerebral arteries (VZV vasculopathy) → arterial inflammation, stenosis, ischemic stroke, aneurysm, dissection.
+        - Documents the vascular-inflammatory pathway by which VZV reactivation injures cerebral vasculature.
+    *Conclusion:* Maps the downstream VZV mechanism (ganglion reactivation → cerebral arterial inflammation) that potentially intersects documented ME/CFS findings on cerebral vasculature and neuroinflammation, even though VZV-stroke epidemiology is not ME/CFS-specific. Complements the Bubak 2026 NRDP review with a dedicated stroke-mechanism synthesis.
+    *Limitations:* Narrative review (no primary data); general-population VZV-stroke, not ME/CFS; partially redundant with the Bubak 2026 review's stroke content.
+    *Certainty Assessment:* 0.50 raw × 0.75 (general-population/mechanism) = *discounted ~0.38* (supporting mechanism)
