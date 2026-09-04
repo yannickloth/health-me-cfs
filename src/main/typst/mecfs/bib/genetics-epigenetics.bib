@@ -2273,3 +2273,63 @@
   research_stream = {fibromyalgia-genetics},
   certainty    = {0.60}
 }
+
+@article{Hunter2026EpiSwitchCrossCondition,
+  author       = {Hunter, Ewan and Alshaker, Heba and Vugrinec, Dominik and Bautista, Shekinah and Gebregzabhar, Abel and Virdi, Anya and Croxford, Joseph and Dring, Ann and Powell, Ryan and Salter, Matthew and Kingdon, Caroline and Green, Jayne and Akoulitchev, Alexandre and Pchejetski, Dmitri},
+  title        = {Beyond genes: {EpiSwitch\textregistered} and {Orion} platform-powered 3D genome architecture biomarkers reveal shared biology across {ME/CFS}, long {COVID}, {PTSD}, rheumatoid arthritis, and multiple sclerosis},
+  journal      = {Journal of Translational Medicine},
+  year         = {2026},
+  doi          = {10.1186/s12967-026-08874-9},
+  url          = {https://doi.org/10.1186/s12967-026-08874-9},
+  keywords     = {EpiSwitch, Orion, 3D genome, chromosome conformation, ME/CFS, long COVID, PTSD, rheumatoid arthritis, multiple sclerosis, GWAS, network biology, STRING, T-cell exhaustion, LAG3, PPARGC1A, RUNX1},
+  research_stream = {episwitch-crosscondition-hunter2026},
+  certainty    = {0.35},
+  note         = {IN-SILICO systems-biology analysis by Oxford BioDynamics (OBD)/UEA. Integrates EpiSwitch ME/CFS classifier markers (Hunter 2025) with GWAS-derived 3D chromatin anchors for ME/CFS (DecodeME 15,579 cases), Long COVID (Lammi 2025), PTSD (Nievergelt 2024 PGC-PTSD-3), MS (Andlauer 2016), RA (Ishigaki 2022). GWAS SNPs p<=0.01 -> Orion v1 anchors (P>0.99) -> STRING PPI (0.4) -> Cytoscape topology. Anchor counts: ME/CFS 552->567 genes; LC 611->567; PTSD 362->324; MS 730->629; RA 965->885. Claims minimal gene overlap but network-level convergence; hubs RUNX1, PPARGC1A, CDH2, NRP1, PLCG2, PIK3C3, CSMD1, LAG3, STAT1, RPTOR(mTOR); shared immune/cytokine, interferon, mitochondrial/metabolic, neuroendocrine pathways. VENDOR COI: 11/14 authors OBD employees; funded by OBD plc; proprietary platform promoted for commercial diagnostics. NO experimental validation of hubs; NO permutation-based statistical validation of network convergence (explicitly acknowledged); hubs are network-derived, hypothesis-generating only; validation cohort tested only the diagnostic classifier, not hubs. Disease-centric not phenotype-centric. Population weight 0.30 (in-silico). Discounted certainty ~0.11.}
+}
+
+@article{Lammi2025LongCOVIDGWAS,
+  author       = {Lammi, V and Nakanishi, T and Jones, SE and Andrews, SJ and Karjalainen, J and Cort{\'e}s, B and others and {Long COVID Host Genetics Initiative} and {FinnGen} and {VA Million Veteran Program}},
+  title        = {Genome-wide association study of long {COVID}},
+  journal      = {Nature Genetics},
+  volume       = {57},
+  number       = {6},
+  pages        = {1402--1417},
+  year         = {2025},
+  doi          = {10.1038/s41588-025-02100-w},
+  pmid         = {40399555},
+  keywords     = {long COVID, GWAS, host genetics, FOXP4, genetic architecture},
+  research_stream = {episwitch-crosscondition-hunter2026},
+  certainty    = {0.85},
+  note         = {Large multi-ancestry Long COVID GWAS (primary discovery model 11 studies, 3,018 cases/994,582 broad controls; total up to 15,950 cases/1.9M). FOXP4 (rs9367106) genome-wide significant, OR 1.63. One of the GWAS input datasets to the Hunter 2026 EpiSwitch cross-condition network analysis. GWAS-LEVEL CONTEXT for the convergence claim: the Long COVID risk loci do NOT substantially overlap ME/CFS (DecodeME) genome-wide-significant loci, contesting gene-level sharing between the two conditions. Population weight 0.85 (Long COVID population). Discounted certainty ~0.72.}
+}
+
+@article{Ueland2025sLAG3postCovid,
+  author       = {Ueland, T and Cox, RJ and Michelsen, AE and Fjelltveit, EB and Otterdal, K and Dahl, T and Zhou, F and Elyanow, R and Aukrust, P and Blomberg, B and Halvorsen, BE and Langeland, N},
+  title        = {Markers of {T} cell activation and exhaustion in plasma are associated with persistent symptoms up to 18 months following mild {SARS-CoV-2} infection},
+  journal      = {Frontiers in Immunology},
+  volume       = {16},
+  pages        = {1578208},
+  year         = {2025},
+  doi          = {10.3389/fimmu.2025.1578208},
+  pmid         = {40519925},
+  keywords     = {long COVID, post-COVID condition, T-cell exhaustion, LAG3, sCD25, TIM-3, persistent symptoms},
+  research_stream = {episwitch-crosscondition-hunter2026},
+  certainty    = {0.55},
+  note         = {Independent (non-vendor) measure of the T-cell exhaustion/checkpoint axis in persistent post-COVID symptoms. Plasma soluble LAG-3 (sLAG3), sCD25 and sTIM-3 by EIA in 170 home-isolated + 53 hospitalized patients followed up to 18 months. sLAG3 elevated in persistent memory complaints (12-18 mo); sCD25 elevated in persistent dyspnea/fatigue; sTIM-3 correlated with antibody titers. Supports the LAG3/T-cell-exhaustion mechanism Hunter 2026 flags as a shared hub, in a post-viral-fatigue population. Does NOT validate the cross-condition network-convergence claim. Population weight 0.85 (post-COVID/mild cohort). Discounted certainty ~0.47.}
+}
+
+@article{Dudova2025MECFSBiologicalNetwork,
+  author       = {Dudova, D and Bozhkova, M and Petrov, S and Nikolova, R and Kalfova, T and Ivanovska, M and Vaseva, K and Nikolova, M and Ivanov, IN},
+  title        = {Insights into the complex biological network underlying {Myalgic Encephalomyelitis/Chronic Fatigue Syndrome}},
+  journal      = {International Journal of Molecular Sciences},
+  volume       = {27},
+  number       = {1},
+  pages        = {268},
+  year         = {2026},
+  doi          = {10.3390/ijms27010268},
+  pmid         = {41516145},
+  keywords     = {ME/CFS, systems biology, biological network, T-cell exhaustion, immune dysregulation, mitochondrial dysfunction, neuroendocrine},
+  research_stream = {episwitch-crosscondition-hunter2026},
+  certainty    = {0.30},
+  note         = {Plovdiv-based review (Maes-adjacent group) framing ME/CFS as arising from a self-sustaining cycle of interacting immune, metabolic, mitochondrial, neuroendocrine, and gut-brain systems. Cites T-cell exhaustion, reduced NK cytotoxicity, ATP/redox imbalance, HPA-axis hypofunction. Provides an independent single-condition network/systems framing that the Hunter 2026 cross-condition paper extends across ME/CFS/LC/PTSD/RA/MS. Does NOT test cross-condition convergence itself. Narrative review, no primary data. Population weight 1.00 (ME/CFS content). Discounted certainty ~0.30.}
+}

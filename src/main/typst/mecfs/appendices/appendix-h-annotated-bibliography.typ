@@ -39168,3 +39168,54 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
     *Conclusion:* Strong evidence against the hypothesis that ME serum factors differentially alter healthy-myoblast mitochondrial phenotype in vitro — a null result limiting the serum-transferable layer of the mitochondrial-defect cascade.
     *Limitations:* In-vitro model only; does not refute in-vivo tissue-mitochondrial findings (muscle biopsy WASF3/supercomplex/PDH; bed-rest comparison; brain ³¹P-MRS) which rest on tissue rather than serum-cell transfer.
     *Certainty Assessment:* 0.75 raw × 0.40 (in vitro mechanistic test) = *discounted ~0.30* (negative)
+
+== Epigenetics: EpiSwitch Cross-Condition Network Convergence
+
+=== Hunter et al.\ 2026 — EpiSwitch 3D-Genome Shared Biology Across ME/CFS, Long COVID, PTSD, RA, MS
+
+    *Full Citation:*: Hunter E, Alshaker H, Vugrinec D, Bautista S, Gebregzabhar A, Virdi A, Croxford J, Dring A, Powell R, Salter M, Kingdon C, Green J, Akoulitchev A, Pchejetski D. Beyond genes: EpiSwitch® and Orion platform-powered 3D genome architecture biomarkers reveal shared biology across ME/CFS, long COVID, PTSD, rheumatoid arthritis, and multiple sclerosis. _Journal of Translational Medicine_. 2026. @Hunter2026EpiSwitchCrossCondition
+    *DOI:*: #link("https://doi.org/10.1186/s12967-026-08874-9")[10.1186/s12967-026-08874-9]
+    *Key Findings:*:
+        - In-silico analysis integrates EpiSwitch ME/CFS markers (Hunter 2025) with GWAS-derived 3D chromatin anchors for ME/CFS (DecodeME), Long COVID (Lammi 2025), PTSD (PGC-PTSD-3), MS (Andlauer 2016), RA (Ishigaki 2022); GWAS SNPs p≤0.01 → Orion anchors (P>0.99) → STRING PPI → Cytoscape.
+        - Anchor/gene counts: ME/CFS 552→567; Long COVID 611→567; PTSD 362→324; MS 730→629; RA 965→885.
+        - Direct gene-level overlap between conditions is minimal; network-level interconnectivity is high.
+        - Claimed shared hub genes: RUNX1, PPARGC1A, CDH2, NRP1, PLCG2, PIK3C3, CSMD1; also LAG3 (T-cell exhaustion), STAT1, HLA-DQA2, RPTOR (mTOR).
+        - Claimed shared pathways: immune/cytokine signalling, interferon responses, mitochondrial function, metabolic regulation, neuroendocrine processes.
+    *Conclusion:* Proposes that clinically-overlapping fatigue syndromes arise from perturbations of interconnected regulatory networks rather than discrete disease-specific pathways; advocates 3D-genomic biomarkers for cross-disease diagnostics. Hypothesis-generating only.
+    *Limitations:* VENDOR COI — 11/14 authors are Oxford BioDynamics employees and the work is OBD-funded; proprietary EpiSwitch/Orion platform. No experimental validation of hub genes; validation cohort tested only the diagnostic classifier, not the hubs. NO permutation-based statistical validation of network convergence against a random null (explicitly acknowledged). In-silico; heterogeneous GWAS summary statistics; disease-centric not phenotype-centric; hubs are network-derived, not causally established.
+    *Certainty Assessment:* 0.35 raw × 0.30 (in silico, computational only) = *discounted ~0.11* (hypothesis-generating)
+
+=== Lammi et al.\ 2025 — Genome-Wide Association Study of Long COVID
+
+    *Full Citation:*: Lammi V, Nakanishi T, Jones SE, et al., Long COVID Host Genetics Initiative. Genome-wide association study of long COVID. _Nature Genetics_. 2025;57(6):1402-1417. @Lammi2025LongCOVIDGWAS
+    *DOI:*: #link("https://doi.org/10.1038/s41588-025-02100-w")[10.1038/s41588-025-02100-w]
+    *Key Findings:*:
+        - Large multi-ancestry Long COVID GWAS (primary discovery model 11 studies, ~3,018 cases/994,582 broad controls; combined up to 15,950 cases).
+        - FOXP4 (rs9367106) reached genome-wide significance (OR 1.63).
+        - Serves as a GWAS input dataset to the Hunter 2026 EpiSwitch cross-condition network analysis.
+    *Conclusion:* Defines the Long COVID genetic architecture; its genome-wide-significant loci do NOT substantially overlap ME/CFS (DecodeME) loci, contesting gene-level sharing between the two conditions that the network-convergence model seeks to explain at a higher level.
+    *Limitations:* Long COVID (not strict ME/CFS) population; shared-loci absence here is descriptive, not itself a test of the network-convergence claim; case/control definitions vary across component studies.
+    *Certainty Assessment:* 0.85 raw × 0.85 (Long COVID population) = *discounted ~0.72* (GWAS-level context / gene-overlap contest)
+
+=== Ueland et al.\ 2025 — Plasma T-Cell Activation/Exhaustion Markers in Persistent Post-COVID Symptoms
+
+    *Full Citation:*: Ueland T, Cox RJ, Michelsen AE, et al. Markers of T cell activation and exhaustion in plasma are associated with persistent symptoms up to 18 months following mild SARS-CoV-2 infection. _Frontiers in Immunology_. 2025;16:1578208. @Ueland2025sLAG3postCovid
+    *DOI:*: #link("https://doi.org/10.3389/fimmu.2025.1578208")[10.3389/fimmu.2025.1578208]
+    *Key Findings:*:
+        - Measured soluble (s)CD25, sTIM-3 and sLAG-3 by immunoassay in 170 home-isolated and 53 hospitalized patients followed up to 18 months after COVID-19.
+        - sLAG-3 elevated in persistent memory complaints at 12–18 months; sCD25 elevated in persistent dyspnea and fatigue; sTIM-3 correlated with antibody titers.
+        - No relation of these markers to symptoms in hospitalized patients, where disease severity may dominate.
+    *Conclusion:* Independent (non-vendor) evidence that soluble LAG-3 and other T-cell exhaustion/activation markers track persistent post-viral symptoms — supporting the LAG3/T-cell-exhaustion mechanism Hunter 2026 flags as a shared hub, in a post-viral-fatigue population.
+    *Limitations:* Post-COVID (mild/moderate, not strict ME/CFS) cohort; single-cohort, plasma surrogate markers; does not validate the cross-condition network-convergence claim itself.
+    *Certainty Assessment:* 0.55 raw × 0.85 (post-COVID population) = *discounted ~0.47* (supporting)
+
+=== Dudova et al.\ 2025 — The Complex Biological Network Underlying ME/CFS
+
+    *Full Citation:*: Dudova D, Bozhkova M, Petrov S, et al. Insights into the complex biological network underlying Myalgic Encephalomyelitis/Chronic Fatigue Syndrome. _International Journal of Molecular Sciences_. 2026;27(1):268. @Dudova2025MECFSBiologicalNetwork
+    *DOI:*: #link("https://doi.org/10.3390/ijms27010268")[10.3390/ijms27010268]
+    *Key Findings:*:
+        - Reviews ME/CFS as a self-sustaining cycle of interacting immune, metabolic, mitochondrial, neuroendocrine, and gut-brain systems.
+        - Documents T-cell exhaustion, reduced NK-cell cytotoxicity, abnormal B-cell subsets, ATP/redox imbalance, and HPA-axis hypofunction as interacting network components.
+    *Conclusion:* Provides an independent single-condition network/systems framing of ME/CFS that conceptually parallels the cross-condition network-convergence model Hunter 2026 extends across ME/CFS, Long COVID, PTSD, RA and MS; does not itself test cross-condition convergence.
+    *Limitations:* Narrative/systematic review with no primary data; single-condition scope (not cross-disease); Plovdiv group.
+    *Certainty Assessment:* 0.30 raw × 1.00 (ME/CFS content) = *discounted ~0.30* (supporting-framing only)
