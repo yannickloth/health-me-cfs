@@ -13685,5 +13685,45 @@
     "label": "Aluminiumhydroxid",
     "category": "compound",
     "definition": "Ein Aluminiumsalz-Vakzin-Adjuvans, das den NLRP3-Inflammasom aktiviert, um Immunantworten zu verstärken. Seine Biopersistenz in Muskelmakrophagen liegt der Makrophagenmyofasziitis (MMF) zugrunde."
+  },
+  "thin-slice judgment": {
+    "label": "Thin-Slice-Urteil",
+    "category": "concept",
+    "definition": "Der schnelle erste Eindruck, den eine Person von jemandem aus einer kurzen Stichprobe (einem dünnen Ausschnitt) des Verhaltens gewinnt — Sekunden von Gesichtsausdruck, Prosodie und Bewegung — oft vor jedem inhaltlichen Gespräch. Die hier integrierte Forschung zeigt, dass solche Urteile stärker davon abhängen, wie sich eine Person präsentiert (ihr Präsentationsstil), als davon, was sie sagt."
+  },
+  "double-empathy problem": {
+    "label": "Doppel-Empathie-Problem",
+    "category": "concept",
+    "definition": "Die von Damian Milton (2012) benannte These, dass die Kommunikationsschwierigkeit zwischen autistischen und nicht-autistischen Menschen eine wechselseitige Diskrepanz ist — jede Gruppe hat Mühe, die andere zu lesen — und nicht ein einseitiges Defizit autistischer Menschen. Wird hier als relationaler Rahmen genutzt, um zu verstehen, wie eine unsichtbare Krankheit wahrgenommen werden kann."
+  },
+  "presentational style": {
+    "label": "Präsentationsstil",
+    "category": "concept",
+    "definition": "Die äußere, nonverbale Art, wie eine Person wirkt — Gesichtsausdruck und Expressivität, Bewegung, Prosodie, Blickkontakt — im Unterschied zum verbalen Inhalt (der Substanz) dessen, was sie sagt. Die hier integrierte Sozialwahrnehmungsforschung stellt fest, dass negative erste Eindrücke eher dem Präsentationsstil als der Gesprächssubstanz folgen."
+  },
+  "invisible illness": {
+    "label": "unsichtbare Krankheit",
+    "category": "concept",
+    "definition": "Eine chronische Erkrankung ohne sichtbares äußeres Zeichen — wie ME/CFS — deren Symptome andere nicht sehen können. Da die Person gesund wirken kann, ist die unsichtbare Krankheit Zweifel, Abweisung und Stigmatisierung ausgesetzt."
+  },
+  "IMC-2": {
+    "label": "IMC-2",
+    "category": "treatment",
+    "definition": "Eine in der Forschung zu postinfektiöser Erschöpfung verwendete Prüfkombination: Valaciclovir (ein Anti-Herpesvirus-Virostatikum) plus Celecoxib (ein COX-2-Entzündungshemmer), untersucht als Off-Label-, nicht zugelassenes Regime."
+  },
+  "MRSI": {
+    "label": "MRSI",
+    "category": "imaging",
+    "definition": "Magnetresonanz-Spektroskopie-Bildgebung: eine MRT-basierte Technik, die Metabolitenkonzentrationen (einschließlich energiereicher Phosphate wie ATP und Phosphokreatin) über Hirnregionen hinweg kartiert und zur Messung des regionalen Energiestoffwechsels in vivo verwendet wird."
+  },
+  "PGIC": {
+    "label": "PGIC",
+    "category": "measurement",
+    "definition": "Patient Global Impression of Change: eine einzelne Selbsteinschätzungsfrage, die fragt, wie stark sich die Gesamtsymptome oder die Erschöpfung eines Patienten seit Beginn einer Behandlung gebessert oder verschlechtert haben (typischerweise auf einer 7-Punkte-Skala)."
+  },
+  "zoster sine herpete": {
+    "label": "Zoster sine herpete",
+    "category": "condition",
+    "definition": "Varizella-Zoster-Reaktivierung, die eine Erkrankung ohne den charakteristischen Gürtelrose-Ausschlag verursacht (innerer Gürtelrose); kann sich als starke einseitige Schmerzen oder neurovaskuläre/systemische Symptome zeigen und erfordert zur Diagnose einen Blut- oder Liquortest."
   }
 }

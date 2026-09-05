@@ -13920,5 +13920,45 @@
     "label": "hydroxyde d'aluminium",
     "category": "compound",
     "definition": "Adjuvant vaccinal à base de sel d'aluminium qui active l'inflammasome NLRP3 pour amplifier les réponses immunitaires. Sa biopersistance dans les macrophages musculaires sous-tend la myofasciite à macrophages (MMF)."
+  },
+  "thin-slice judgment": {
+    "label": "thin-slice judgment",
+    "category": "concept",
+    "definition": "L'impression rapide qu'une personne se forme d'autrui à partir d'un bref échantillon (une « tranche fine ») de comportement — quelques secondes d'expression faciale, de prosodie et de mouvement — souvent avant toute conversation de fond. Les recherches intégrées dans ce document montrent que ces jugements suivent la manière dont la personne se présente (son style de présentation) plus que ce qu'elle dit."
+  },
+  "double-empathy problem": {
+    "label": "double-empathy problem",
+    "category": "concept",
+    "definition": "La proposition, nommée par Damian Milton (2012), selon laquelle la difficulté de communication entre personnes autistes et non autistes est une inadéquation à double sens — chaque groupe a du mal à lire l'autre — plutôt qu'un déficit unilatéral chez la personne autiste. Utilisée ici comme cadre relationnel pour comprendre comment une maladie invisible peut être perçue."
+  },
+  "presentational style": {
+    "label": "presentational style",
+    "category": "concept",
+    "definition": "La manière extérieure et non verbale dont une personne se présente — expressivité et affect facial, mouvement, prosodie, contact visuel — par opposition au contenu verbal (la « substance ») de ce qu'elle dit. La recherche sur la perception sociale intégrée ici constate que les premières impressions négatives suivent le style de présentation plutôt que la substance de la conversation."
+  },
+  "invisible illness": {
+    "label": "invisible illness",
+    "category": "concept",
+    "definition": "Une maladie chronique sans signe extérieur visible — comme l'EM/SFC — dont les symptômes sont invisibles pour autrui. Parce que la personne peut sembler bien portante, la maladie invisible est sujette au doute, au rejet et à la stigmatisation."
+  },
+  "IMC-2": {
+    "label": "IMC-2",
+    "category": "treatment",
+    "definition": "Association expérimentale utilisée dans la recherche sur la fatigue post-infectieuse : valaciclovir (antiviral anti-herpès) plus célécoxib (anti-inflammatoire COX-2), étudiée comme régime hors AMM non approuvé."
+  },
+  "MRSI": {
+    "label": "MRSI",
+    "category": "imaging",
+    "definition": "Imagerie spectroscopique par résonance magnétique : technique fondée sur l'IRM qui cartographie les concentrations de métabolites (y compris les phosphates à haute énergie comme l'ATP et la phosphocréatine) dans les régions cérébrales, utilisée pour mesurer le métabolisme énergétique régional in vivo."
+  },
+  "PGIC": {
+    "label": "PGIC",
+    "category": "measurement",
+    "definition": "Patient Global Impression of Change (impression globale de changement du patient) : une question unique d'auto-évaluation demandant à quel point les symptômes globaux ou la fatigue d'un patient se sont améliorés ou aggravés depuis le début d'un traitement (généralement sur une échelle de 7 points)."
+  },
+  "zoster sine herpete": {
+    "label": "zoster sine herpete",
+    "category": "condition",
+    "definition": "Réactivation du virus varicelle-zona provoquant une maladie sans l'éruption cutanée caractéristique du zona (zona « interne ») ; peut se présenter comme une douleur unilatérale sévère ou des symptômes neurovasculaires/systémiques et nécessite une analyse sanguine ou du LCR pour être diagnostiqué."
   }
 }

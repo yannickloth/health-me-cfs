@@ -115,7 +115,7 @@ Decision date 2026-09-04. Full synthesis at `tmp/synthesis-autism-social-percept
 | 5c | ⏭️ skipped | Non-pharmacological topic (no medication/intervention with mechanism). LEGIT-SKIP. |
 | 5b | ✅ done | `nix build` PASS (0 errors) after Phase 5. |
 | 5a | ✅ done | Falsifiability sweep (inline, user-approved — falsifiability-auditor agent missing from .opencode/agents/): all 4 new ME/CFS-transfer speculations carry explicit falsifiable predictions; @cite keys resolve (build PASS = all resolve); claim-fidelity spot-check clean (3 keys verified against appendix-h: Sasson2017, Wanigasekera2025, Morrison2020, Parisi2026, Foster2025). Disclosure oq correctly exempt. |
-| 5z | ✅ done | No new glossary entries required — no new acronyms/medications introduced (novel terms are lowercase conceptual: thin-slice, double-empathy; not in biomedical glossary schema). |
+| 5z | ✅ done | Glossary updated (2026-09-05): added 4 recurring social-perception concepts to en/fr/de (thin-slice judgment, double-empathy problem, presentational style, invisible illness) + closed pre-existing parity gap (IMC-2/MRSI/PGIC/zoster sine herpete → fr/de). `nix flake check` green. |
 | 6 | ✅ done | Retrospective adaptation. Synonym map at tmp/synonym-map-autism-social-perception-stigma.md. Overlaps: (a) ch09 flat-affect misattribution claim — already reinforced by new adjacent Sasson-grounded spec (no separate edit; claim is non-scored qualitative prose, no certainty target to bump); (b) ch40 invalidation model — already cross-referenced @ach:invalidation-model from new thin-slice spec; (c) stigmatisation node 8.7 — flagged for Phase 7 (subtree record, unintegrated). No certainty bumps (incoming by-analogy discounted ≤0.64; reinforced claims are prose not hypothesis-boxes). No contradictions to surface. Coverage: 3 matches examined, all handled by existing cross-refs; 0 further edits needed. |
 | 7 | ✅ done | Cross-hypothesis compatibility (inline). Compat audit at tmp/compat-audit-autism-social-perception-stigma-2026-09-04.md. spec:mecfs-motivation-misread REINFORCES existing stigmatisation registry entries (Illness-Name malingering-stigma, causal-attribution-stigma) by supplying the thin-slice mechanism. 0 certainty bumps (by-analogy ≤0.45; Active Caps + below-threshold). Independent of ASD-predisposition + ND-psych axes. 0 conflicts. |
 | 8 | ✅ done | Final build verification: `nix build` PASS, 0 errors. 18 topic files staged (explicit list, no -A). MIXED tree respected (flake files + parallel .agents/context edit untouched). |
@@ -205,7 +205,7 @@ Sasson2017ThinSlice). No anecdote was involved.
 | 5c | LEGIT-SKIP | non-pharmacological topic (no medication/intervention) |
 | 5b | RAN | build PASS (intermediate) |
 | 5a | RAN | falsifiability sweep (inline, user-approved re missing agent) — all new speculations carry falsifiable predictions; cites resolve |
-| 5z | RAN | glossary check — no new acronyms/medications; novel terms are lowercase conceptual (not in schema) |
+| 5z | RAN | glossary updated — 4 social-perception concepts added en/fr/de + parity gap closed; flake check green |
 | 6 | RAN | synonym-map + retrospective overlap assessment; overlaps handled by existing cross-refs; no bumps |
 | 7 | RAN | compat audit (tmp/) + registry compat note; spec:mecfs-motivation-misread reinforces existing stigmatisation entries; 0 bumps |
 | 8 | RAN | build PASS (0 errors); files staged |

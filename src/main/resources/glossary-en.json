@@ -12069,5 +12069,25 @@
     "label": "IMC-2",
     "category": "treatment",
     "definition": "An investigational combination used in research on post-infectious fatigue: valacyclovir (an anti-herpesvirus antiviral) plus celecoxib (a COX-2 anti-inflammatory), studied as an off-label, unapproved regimen."
+  },
+  "thin-slice judgment": {
+    "label": "thin-slice judgment",
+    "category": "concept",
+    "definition": "The rapid first impression a person forms of someone from a brief sample (a 'thin slice') of behavior — seconds of facial expression, prosody, and movement — often before any substantive conversation. Research integrated in this paper shows such judgments track how a person presents (their presentational style) more than what they say."
+  },
+  "double-empathy problem": {
+    "label": "double-empathy problem",
+    "category": "concept",
+    "definition": "The proposal, named by Damian Milton (2012), that communication difficulty between autistic and non-autistic people is a two-way mismatch — each group struggles to read the other — rather than a one-sided deficit in autistic people. Used in this paper as a relational framing for how an invisible illness may be perceived."
+  },
+  "presentational style": {
+    "label": "presentational style",
+    "category": "concept",
+    "definition": "The outward, non-verbal manner in which a person comes across — facial affect and expressivity, movement, prosody, eye contact — as distinct from the verbal content ('substance') of what they say. Social-perception research integrated here finds that negative first impressions track presentational style rather than conversational substance."
+  },
+  "invisible illness": {
+    "label": "invisible illness",
+    "category": "concept",
+    "definition": "A chronic condition with no visible outward sign — such as ME/CFS — whose symptoms others cannot see. Because the person may appear well, invisible illness is susceptible to doubt, dismissal, and stigma."
   }
 }
