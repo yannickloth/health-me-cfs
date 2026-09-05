@@ -34092,6 +34092,25 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
         - *Replication:*: Consistent with Van Houdenhove 2010, Eckey 2025
         - *Score:*: 0.65
 
+=== Blockmans and Persoons 2016 — Long-Term Methylphenidate Intake in CFS (observational follow-up)
+
+    *Full Citation:*: Blockmans D, Persoons P. Long-term methylphenidate intake in chronic fatigue syndrome. _Acta Clinica Belgica_. 2016;71(6):407–414. @Blockmans2016LongTermMPH
+    *DOI:*: #link("https://doi.org/10.1080/17843286.2016.1200816")[10.1080/17843286.2016.1200816]
+    *PMID:*: 27351244
+    *Study Design:*: Long-term observational follow-up (questionnaire) of the 2006 RCT cohort
+    *Sample Size:*: 194 consecutive patients prescribed methylphenidate; 149 (76.8%) returned the questionnaire
+    *Key Findings:*:
+        - 65.3% had stopped methylphenidate by follow-up; 34.7% still took it daily or occasionally
+        - Among continuers: 48% reported ≥50% fatigue improvement; 62% reported ≥50% concentration improvement
+        - Continued intake was associated with more working hours
+        - Side effects (agitation, palpitations, dry mouth) reported significantly more by those who had stopped
+    *Conclusion:*: Long-term benefit in about 1 in 3 patients. The high (65%) dropout rate is itself informative — consistent with the paper's model that patients who stopped may have been those whose activity increased and PEM worsened, while continuers maintained pacing and gained cognitive benefit without PEM cost. Complements the 2006 RCT's short-term 17%/22% response figure.
+    *Certainty Assessment:*:
+        - *Quality:*: Medium (observational, single-centre, self-reported)
+        - *Sample:*: Moderate (n=149)
+        - *Replication:*: Single study; consistent with the 2006 RCT responder pattern
+        - *Score:*: 0.55
+
 === Eckey et al.\ 2025 — Patient-Reported Treatment Outcomes in ME/CFS and Long COVID
 
     *Full Citation:*: Eckey M, Li P, Morrison B, Bergquist J, Davis RW, Xiao W. Patient-reported treatment outcomes in ME/CFS and long COVID. _Proceedings of the National Academy of Sciences_. 2025;122(28):e2426874122. @Eckey2025PatientReported
@@ -39076,6 +39095,182 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
 *Conclusion:* Reinforces high ND prevalence in chronic fatigue; flags fair-access/QoL need.
 *Limitations:* Predominantly prevalence/mechanism (overlaps predisposition stream); QoL peripheral. Supporting context only for this psych-consequence stream.
 *Certainty Assessment:* 0.62 raw × 0.50 (psych-consequence angle) = *discounted ~0.31* (supporting)
+
+// =============================================================================
+// == Autism Social Perception & First-Impression Stigma (Sasson 2017 anchor) ==
+// == research_stream: autism-social-perception-stigma                     ==
+// == Mechanism: thin-slice first impressions of presentational "style"     ==
+// == (facial affect, prosody, movement, gaze) drive reduced willingness   ==
+// == to interact -- mapped to invisible-illness (ME/CFS) dismissal.       ==
+// =============================================================================
+
+<sec:autism-social-perception-stigma>
+
+=== Sasson et al.\ 2017 — Neurotypical Peers Less Willing to Interact Based on Thin Slice Judgments (ANCHOR)
+
+    *Full Citation:*: Sasson NJ, Faso DJ, Nugent J, Lovell S, Kennedy DP, Grossman RB. Neurotypical Peers are Less Willing to Interact with Those with Autism based on Thin Slice Judgments. _Scientific Reports_. 2017;7:40700. @Sasson2017ThinSlice
+    *DOI:*: #link("https://doi.org/10.1038/srep40700")[10.1038/srep40700]
+    *Key Findings:*:
+        - Across three independent studies, typically-developing observers formed less favorable first impressions of autistic adults and children from thin slices (brief) of real-world behavior.
+        - Reduced trait ratings (e.g. awkwardness, likeability, attractiveness) were accompanied by reduced intentions to pursue social interaction.
+        - Effects were robust within seconds, did not change with increased exposure, and persisted across child and adult age groups (η² 0.47–0.55).
+        - Biases disappeared when impressions were based on conversational content WITHOUT audio-visual cues (transcript only).
+    *Conclusion:* The anchor establishing that negative first impressions of autistic people are driven by presentational "style" (facial affect, prosody, movement), not the "substance" of what is said — the mechanism this topic maps onto invisible-illness (ME/CFS) first-impression dismissal.
+    *Limitations:* Autism-specific target population; general-population (typically-developing) perceivers; no clinical/illness application tested. Authors from UT Dallas (Sasson), Indiana U, Emerson College.
+    *Certainty Assessment:* 0.85 raw × 0.75 (general-population perceivers of another condition) = *discounted ~0.64* (supporting mechanism for ME/CFS by analogy)
+
+=== Wanigasekera et al.\ 2025 — First Impressions Towards Autistic People: Systematic Review and Meta-Analysis
+
+    *Full Citation:*: Wanigasekera LC, Maybery MT, Palermo R, Whitehouse AJO, Tan DW. First Impressions Towards Autistic People: A Systematic Review and Meta-Analysis. _Autism Research_. 2025;18(5):983–1010. @Wanigasekera2025FirstImpressionsMeta
+    *DOI:*: #link("https://doi.org/10.1002/aur.70019")[10.1002/aur.70019]
+    *Key Findings:*:
+        - Meta-analysis of 21 articles (221 effects) comparing first impressions of autistic vs non-autistic people.
+        - Less favorable impressions of autistic people across all presentation modalities EXCEPT speech transcript, with moderate-to-large effects — replicating Sasson's "style not substance" at the meta-analytic level.
+        - Differences were most pronounced for interpersonal attraction and social/communication presentation.
+        - Non-autistic observer characteristics (autism knowledge, quality of contact) moderated impressions.
+    *Conclusion:* Independent (Western Australia) meta-analytic confirmation that negative thin-slice impressions of autistic people are robust and modality-specific (audio-visual "style" vs verbal transcript "substance"), strengthening the generalizability of the anchor mechanism.
+    *Limitations:* Synthesis of autism-target studies only; no ME/CFS/illness application; observer-moderation findings are correlational.
+    *Certainty Assessment:* 0.80 raw × 0.75 (general-population perceivers of another condition) = *discounted ~0.60* (supporting mechanism for ME/CFS by analogy)
+
+=== DeBrabander et al.\ 2019 — Do First Impressions Differ Between Autistic and Nonautistic Observers?
+
+    *Full Citation:*: DeBrabander KM, Morrison KE, Jones DR, Faso DJ, Chmielewski M, Sasson NJ. Do First Impressions of Autistic Adults Differ Between Autistic and Nonautistic Observers? _Autism in Adulthood_. 2019;1(4):250–257. @DeBrabander2019FirstImpressionsAutisticObservers
+    *DOI:*: #link("https://doi.org/10.1089/aut.2019.0018")[10.1089/aut.2019.0018]
+    *Key Findings:*:
+        - 32 autistic and 32 typically-developing (TD) raters judged videos of 20 TD and 20 autistic adults, with/without diagnostic disclosure.
+        - Autistic raters SHARED the TD tendency to rate autistic adults less favorably on traits, but this did NOT reduce their social interest in interacting (as it did for TD raters).
+        - Diagnostic disclosure did not improve first impressions for autistic raters (as it did for TD raters).
+    *Conclusion:* IN-GROUP / NULL-RELEVANT evidence: autistic raters separate trait judgments from willingness-to-interact — dissociation that suggests the reduced-willingness-to-interact effect (the stigmatizing component) is strongest in cross-neurotype (TD perceiver) judgment, informing where perceiver bias vs stylistic difference operates.
+    *Limitations:* Same Sasson lab (cohort-overlap with anchor); moderate sample (n=64 raters); hypothetical interaction intentions, not real behavior.
+    *Certainty Assessment:* 0.60 raw × 0.75 (general-population) = *discounted ~0.45* (supporting mechanism)
+
+=== Morrison et al.\ 2019 — Rater Characteristics Drive First-Impression Variability
+
+    *Full Citation:*: Morrison KE, DeBrabander KM, Faso DJ, Sasson NJ. Variability in first impressions of autistic adults made by neurotypical raters is driven more by characteristics of the rater than by characteristics of autistic adults. _Autism_. 2019;23(7):1817–1829. @Morrison2019FirstImpressionsRaterVariability
+    *DOI:*: #link("https://doi.org/10.1177/1362361318824104")[10.1177/1362361318824104]
+    *Key Findings:*:
+        - Individual differences among neurotypical RATERS (autism knowledge, contact, personality) explained more variability in first impressions of autistic adults than characteristics of the autistic targets.
+    *Conclusion:* Supports the relational framing (impression is co-produced by the perceiver, not a deficit solely in the target): the modifiable locus of first-impression bias is the perceiver, not the patient's presentation.
+    *Limitations:* Sasson lab (cohort-overlap); general-population raters; autism targets.
+    *Certainty Assessment:* 0.62 raw × 0.75 = *discounted ~0.47* (supporting mechanism)
+
+=== Morrison et al.\ 2020 — Real-World Interaction: Autistic Paired with Autistic vs TD Partners
+
+    *Full Citation:*: Morrison KE, DeBrabander KM, Jones DR, Faso DJ, Ackerman RA, Sasson NJ. Outcomes of real-world social interaction for autistic adults paired with autistic compared to typically developing partners. _Autism_. 2020;24(5):1067–1080. @Morrison2020AutisticPartnersSocialInteraction
+    *DOI:*: #link("https://doi.org/10.1177/1362361319892701")[10.1177/1362361319892701]
+    *Key Findings:*:
+        - Autistic adults paired with autistic partners reported more favorable interaction outcomes and rapport than when paired with TD partners.
+        - Autistic–autistic dyads showed greater interaction success.
+    *Conclusion:* Direct behavioral support for the relational/double-empathy model: social difficulty is co-produced by neurotype mismatch rather than an intrinsic deficit — the frame by which first-impression stigma toward presentational style is understood.
+    *Limitations:* Sasson lab (cohort-overlap); self-report + observer outcomes; real-world context but lab-facilitated pairing.
+    *Certainty Assessment:* 0.62 raw × 0.75 = *discounted ~0.47* (supporting mechanism)
+
+=== Foster et al.\ 2025 — Facial Affect Differences and First-Impression Formation
+
+    *Full Citation:*: Foster SJ, Jones DR, Pinkham AE, Sasson NJ. Facial Affect Differences in Autistic and Non-Autistic Adults Across Contexts and Their Relationship to First-Impression Formation. _Autism in Adulthood_. 2025;7(5):581–593. @Foster2025FacialAffectFirstImpressions
+    *DOI:*: #link("https://doi.org/10.1089/aut.2023.0199")[10.1089/aut.2023.0199]
+    *Key Findings:*:
+        - Quantified reduced/atypical facial affect in autistic vs non-autistic adults across contexts and linked it to first-impression formation.
+    *Conclusion:* Mechanism paper identifying the specific presentational signal (facial expressivity) that drives negative thin-slice impressions — the most direct analogue for how reduced facial affect in invisible-illness patients (flat affect of chronic fatigue) could drive first-impression dismissal.
+    *Limitations:* Sasson lab + Pinkham (cohort-overlap); autism context; cross-sectional.
+    *Certainty Assessment:* 0.60 raw × 0.75 = *discounted ~0.45* (supporting mechanism)
+
+=== Jones et al.\ 2024 — Non-autistic Observers Both Detect and Demonstrate the Double Empathy Problem
+
+    *Full Citation:*: Jones DR, Botha M, Ackerman RA, King K, Sasson NJ. Non-autistic observers both detect and demonstrate the double empathy problem when evaluating interactions between autistic and non-autistic adults. _Autism_. 2024;28(8):2053–2065. @Jones2024DoubleEmpathyEvaluation
+    *DOI:*: #link("https://doi.org/10.1177/13623613231219743")[10.1177/13623613231219743]
+    *Key Findings:*:
+        - Non-autistic observers both detect and themselves demonstrate reduced empathy toward autistic adults when evaluating cross-neurotype interactions.
+    *Conclusion:* Empirical operationalization of Milton's double-empathy problem — the relational framework underpinning the claim that first-impression bias is a two-way (perceiver + target) phenomenon, applicable to invisible-illness stigma.
+    *Limitations:* Sasson lab + Botha (cohort-overlap); evaluation of interaction vignettes, not clinical/illness settings.
+    *Certainty Assessment:* 0.60 raw × 0.75 = *discounted ~0.45* (supporting mechanism)
+
+=== Boucher et al.\ 2023 — Negative First Impressions of Autistic Children by Non-Autistic Adults
+
+    *Full Citation:*: Boucher TQ, Lukacs JN, Scheerer NE, Iarocci G. Negative first impression judgements of autistic children by non-autistic adults. _Frontiers in Psychiatry_. 2023;14:1241584. @Boucher2023FirstImpressionsChildren
+    *DOI:*: #link("https://doi.org/10.3389/fpsyt.2023.1241584")[10.3389/fpsyt.2023.1241584]
+    *Key Findings:*:
+        - Independent lab (Simon Fraser University) confirmed non-autistic adults form negative first impressions of autistic children from brief video exposure.
+    *Conclusion:* Independent replication of the thin-slice first-impression effect in the pediatric population, outside the Sasson lab — reduces cohort-overlap concern for the core effect.
+    *Limitations:* Pediatric autism targets; general-population adult perceivers; independent but single study.
+    *Certainty Assessment:* 0.55 raw × 0.75 = *discounted ~0.41* (supporting mechanism)
+
+=== Norris et al.\ 2024 — Disclosing an Autism Diagnosis Improves Employment Interview Ratings
+
+    *Full Citation:*: Norris JE, Prosser R, Remington A, Crane L, Maras K. Disclosing an autism diagnosis improves ratings of candidate performance in employment interviews. _Autism_. 2024;28(4):1045–1050. @Norris2024DisclosureInterview
+    *DOI:*: #link("https://doi.org/10.1177/13623613231203739")[10.1177/13623613231203739]
+    *Key Findings:*:
+        - In mock employment interviews, disclosing an autism diagnosis IMPROVED rater assessments of candidate performance vs non-disclosure.
+        - Providing additional information about autism alongside the label did not add further benefit.
+    *Conclusion:* NULL-OF-BIAS-WHEN-INFORMED evidence: first-impression bias toward presentational style is partially reducible when perceivers know the diagnosis — the mechanism implication that informing clinicians/peers of a patient's condition can attenuate dismissal.
+    *Limitations:* Independent UK group; employment-interview context; ratings not diagnostic-dismissal context.
+    *Certainty Assessment:* 0.58 raw × 0.75 = *discounted ~0.44* (supporting mechanism)
+
+=== Efthimiou et al.\ 2025 — Diagnostic Status Influences Rapport in Dyadic Interaction
+
+    *Full Citation:*: Efthimiou TN, Lewis S, Foster SJ, Wilks CEH, Dodd M, Jiménez-Sánchez L, Ropar D, Ackerman RA, Sasson NJ, Fletcher-Watson S, Crompton CJ. Diagnostic status influences rapport and communicative behaviours in dyadic interactions between autistic and non-autistic people. _PLoS ONE_. 2025;20(8):e0330222. @Efthimiou2025DiagnosticStatusRapport
+    *DOI:*: #link("https://doi.org/10.1371/journal.pone.0330222")[10.1371/journal.pone.0330222]
+    *Key Findings:*:
+        - Pre-registered Actor-Partner analysis (57 autistic, 51 non-autistic) in matched/mixed dyads.
+        - Autistic participants reported lower rapport regardless of partner status, but awareness of partner diagnostic status moderated it.
+        - Behavioural/kinematic indices did NOT mediate the neurotype–rapport gap.
+    *Conclusion:* Diagnostic awareness moderates cross-neurotype rapport; behavior alone does not explain the rapport gap — refining the relational account and reinforcing that information/knowledge (not behavior change alone) shifts perception.
+    *Limitations:* Multi-lab (Edinburgh, Sasson UT Dallas, UCL — partial cohort-overlap); dyadic rapport, not clinical dismissal.
+    *Certainty Assessment:* 0.62 raw × 0.75 = *discounted ~0.47* (supporting mechanism)
+
+=== Edey et al.\ 2016 — Interaction Takes Two: Mind-Blindness Toward Those with Autism
+
+    *Full Citation:*: Edey R, Cook J, Brewer R, Johnson MH, Bird G, Press C. Interaction takes two: Typical adults exhibit mind-blindness towards those with autism spectrum disorder. _Journal of Abnormal Psychology_. 2016;125(7):879–885. @Edey2016InteractionTakesTwo
+    *DOI:*: #link("https://doi.org/10.1037/abn0000199")[10.1037/abn0000199]
+    *Key Findings:*:
+        - Typical adults were less accurate at reading the mental states of autistic compared to typical targets — the mind-reading difficulty in cross-neurotype interaction is BIDIRECTIONAL ("double mind-blindness").
+    *Conclusion:* Foundational experimental support that the perceptual/cognitive gap in cross-neurotype interaction is not confined to the autistic individual — underpinning the relational framing and its generalization to how perceivers misread the mental state of invisible-illness patients.
+    *Limitations:* UCL/Birkbeck group (independent of Sasson); mental-state reading accuracy, not social interaction intention.
+    *Certainty Assessment:* 0.62 raw × 0.75 = *discounted ~0.47* (supporting mechanism)
+
+=== Grossman et al.\ 2015 — Judgments of Social Awkwardness from Brief Exposure
+
+    *Full Citation:*: Grossman RB. Judgments of social awkwardness from brief exposure to children with and without high-functioning autism. _Autism_. 2015;19(5):580–587. @Grossman2015SocialAwkwardness
+    *DOI:*: #link("https://doi.org/10.1177/1362361314536937")[10.1177/1362361314536937]
+    *Key Findings:*:
+        - Observers judged social awkwardness of children with vs without high-functioning autism from brief exposure, establishing the thin-slice paradigm later extended in Sasson 2017.
+    *Conclusion:* Precursor study showing brief-exposure judgments of presentational style distinguish autistic from non-autistic children — the paradigm foundation for the anchor.
+    *Limitations:* Grossman senior authorship (Emerson College; overlaps Sasson anchor lineage); autism context.
+    *Certainty Assessment:* 0.58 raw × 0.75 = *discounted ~0.44* (supporting mechanism)
+
+=== Hemmesch et al.\ 2014 — Atypical Nonverbal Behavior and First Impressions in Parkinson's Disease (Comparator)
+
+    *Full Citation:*: Hemmesch AR. The detrimental effects of atypical nonverbal behavior on older adults' first impressions of individuals with Parkinson's disease. _Psychology and Aging_. 2014;29(3):521–527. @Hemmesch2014ParkinsonFirstImpressions
+    *DOI:*: #link("https://doi.org/10.1037/a0036637")[10.1037/a0036637]
+    *Key Findings:*:
+        - Older adults viewed short clips of individuals with Parkinson's disease varying in facial masking (reduced expressivity) and abnormal bodily movement.
+        - Higher masking or abnormal bodily movement yielded more negative first impressions of social positivity.
+        - Masking was more detrimental for impressions of women and emotional-relationship goals; abnormal movement more detrimental for instrumental goals.
+    *Conclusion:* TRANSDIAGNOSTIC COMPARATOR: atypical nonverbal "style" (facial masking — directly analogous to flat affect) drives negative first impressions in a chronic neurological condition, supporting that the mechanism generalizes beyond autism to chronic conditions with altered movement/expressivity.
+    *Limitations:* Single author; older-adult perceivers; Parkinson's target (not ME/CFS); first impressions only, not clinical dismissal.
+    *Certainty Assessment:* 0.60 raw × 0.75 = *discounted ~0.45* (supporting mechanism, comparator)
+
+=== Slepian et al.\ 2014 — Thin-Slice Judgments in the Clinical Context
+
+    *Full Citation:*: Slepian ML, Bogart KR, Ambady N. Thin-slice judgments in the clinical context. _Annual Review of Clinical Psychology_. 2014;10:131–153. @Slepian2014ThinSliceClinical
+    *DOI:*: #link("https://doi.org/10.1146/annurev-clinpsy-090413-123522")[10.1146/annurev-clinpsy-090413-123522]
+    *Key Findings:*:
+        - Review establishing that clinicians form rapid thin-slice judgments from patients' nonverbal behavior, and these can bias clinical decisions.
+    *Conclusion:* MECHANISM FRAMING bridge: the general thin-slice-judgment phenomenon (from the Ambady lab) applies in clinical contexts, providing the mechanism connecting autism first-impression findings to clinician first-impression bias toward invisible-illness (e.g. ME/CFS) patients.
+    *Limitations:* Review (no primary data); general clinical context, not ME/CFS or autism specifically; Ambady lab.
+    *Certainty Assessment:* 0.75 raw × 0.75 = *discounted ~0.56* (supporting mechanism framing)
+
+=== Parisi et al.\ 2026 — Reduced Facial Expression and Stigma in First Impressions of Schizophrenia (Comparator)
+
+    *Full Citation:*: Parisi M, Marin L, Lozano-Goupil J, Fauviaux T, Vattier V, Capdevielle D, Raffard S. Exploring the Role of Stigma and Reduced Facial Expressions in Shaping First Impressions of Individuals with Schizophrenia. _Schizophrenia Bulletin_. 2026;52(4):sbaf104. @Parisi2026SchizophreniaFirstImpressions
+    *DOI:*: #link("https://doi.org/10.1093/schbul/sbaf104")[10.1093/schbul/sbaf104]
+    *Key Findings:*:
+        - 20 patients with schizophrenia vs 20 matched controls filmed 30 s; 300 general raters judged first impressions.
+        - Reduced facial expression (OpenFace analysis) drove negative first impressions, particularly mouth movement.
+        - Disclosing a SCHIZOPHRENIA diagnosis WORSENED ratings (stigma); mislabeling the same targets as autistic IMPROVED ratings.
+    *Conclusion:* TRANSDIAGNOSTIC COMPARATOR + disclosure nuance: reduced facial affect drives negative impressions in another condition, AND diagnostic disclosure effects are CONDITION-SPECIFIC (helps for autism, harms for schizophrenia) — critical for how the paper frames diagnosis-disclosure as a stigma-reduction intervention for invisible illness.
+    *Limitations:* Schizophrenia context; disclosure manipulation in abstracted video, not real clinical encounter; independent (Montpellier) group.
+    *Certainty Assessment:* 0.62 raw × 0.75 = *discounted ~0.47* (supporting mechanism, comparator)
 
 // =============================================================================
 // == Mitochondrial Dysfunction in ME/CFS and Long COVID (2025-2026 gap-fill) ==
