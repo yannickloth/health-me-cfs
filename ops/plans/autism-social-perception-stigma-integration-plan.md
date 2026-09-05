@@ -216,7 +216,7 @@ Sasson2017ThinSlice). No anecdote was involved.
 | 11 | RAN | FULL-tier: 11b adversarial 2 clean passes (0 CRITICAL/HIGH); 11a + 11c consistency/typst clean; build PASS |
 | 12 | RAN | plan-record summary written (this file) |
 | 12.5 | RAN | this Phase Ledger — all rows RAN or LEGIT-SKIP |
-| 13 | — | pending commit |
+| 13 | ✅ done | 2 commits: 92c662d5 `content(mecfs): integrate autism social-perception first-impression stigma (Sasson 2017)` (6 files, 695 ins) + f2813ce9 `docs(ops): add ... plan, research, subtree, brainstorm` (12 files, 1156 ins). Post-commit integrity: build PASS 0 errors; only foreign/parallel files remain unstaged. MIXED-tree respected (no -A; flake/.agents/ch03/ch34/treatments untouched). |
 
 **Gate status:** 0 OMISSION. 25 RAN, 2 LEGIT-SKIP (5c non-pharm, 5d non-mechanistic), 0 WAIVED.
 Build: PASS (0 errors). Ledger clean — Phase 13 may proceed.
