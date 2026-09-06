@@ -351,6 +351,9 @@ target/
 .direnv/
 .envrc.cache
 
+# zvec-grep (zg) workspace indexes (built under each indexed root)
+.zvec-grep/
+
 # Reference materials
 test-tikz-figure.pdf
 .gitignore

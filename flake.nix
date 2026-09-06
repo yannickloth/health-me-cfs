@@ -17,6 +17,17 @@
       let
         pkgs = nixpkgs.legacyPackages.${system};
 
+        # CUDA runtime libs are unfree, so reference them through an allow-unfree
+        # import of the same nixpkgs. Only the two CUDA toolkit packages are pulled
+        # from here; the rest of the project uses `pkgs` above.
+        cudaPkgs = import nixpkgs {
+          inherit system;
+          config.allowUnfree = true;
+        };
+
+        # NVIDIA's proprietary driver (libcuda.so.1) is never shipped by nixpkgs;
+        # it lives on the host and the dev shell shellHook injects it at runtime.
+
         # Typst package cache for hermetic sandbox builds
         typst-package-cache = pkgs.stdenvNoCC.mkDerivation {
           name = "typst-package-cache";
@@ -66,10 +77,7 @@
             path: type:
             let
               baseName = baseNameOf (toString path);
-              isTransient =
-                baseName == ".git"
-                || baseName == "result"
-                || baseName == "target";
+              isTransient = baseName == ".git" || baseName == "result" || baseName == "target";
             in
             !isTransient;
         };
@@ -126,7 +134,7 @@
             pkgs.typst
             pkgs.quarto
             pkgs.jdk25
-            pkgs.nodejs_22
+            pkgs.nodejs_24
           ];
           phases = [
             "unpackPhase"
@@ -177,7 +185,7 @@
             pkgs.typst
             pkgs.quarto
             pkgs.jdk25
-            pkgs.nodejs_22
+            pkgs.nodejs_24
           ];
           phases = [
             "unpackPhase"
@@ -224,12 +232,60 @@
           '';
         };
 
+        # zvec-grep (zg): local-first semantic search CLI for humans + agents.
+        # Not packaged in nixpkgs; built hermetically from the npm registry via
+        # buildNpmPackage. Source/lock pinned under nix/zvec-grep/.
+        # Native runtime deps ship as prebuilt platform bindings (sharp,
+        # onnxruntime, node-llama-cpp). Their postinstall scripts try to
+        # download CUDA/llama binaries from the network, which the Nix sandbox
+        # forbids, so we run no install/rebuild/build scripts — the published
+        # package is already fully prebuilt and zg runs without them.
+        #
+        # CUDA GPU support: node-llama-cpp's linux-x64-cuda prebuilt links
+        # against the CUDA 13 runtime (libcudart.so.13, libcublas.so.13,
+        # libcublasLt.so.13). Those come from cudaPackages_13_3 here. The
+        # proprietary driver (libcuda.so.1) is host-provided and injected by
+        # the dev shell at runtime (see shellHook).
+        cuda13 = cudaPkgs.cudaPackages_13_3;
+        cuda-libs = pkgs.runCommand "zg-cuda-libs" { } ''
+          mkdir -p $out
+          ln -s ${cuda13.cuda_cudart}/lib/libcudart.so.13 $out/libcudart.so.13
+          ln -s ${cuda13.libcublas.lib}/lib/libcublas.so.13 $out/libcublas.so.13
+          ln -s ${cuda13.libcublas.lib}/lib/libcublasLt.so.13 $out/libcublasLt.so.13
+        '';
+
+        zvec-grep = pkgs.buildNpmPackage {
+          pname = "zvec-grep";
+          version = "0.2.1";
+          src = ./nix/zvec-grep;
+          nodejs = pkgs.nodejs_24;
+          npmDepsHash = "sha256-hqK9FrJrhemmbWDqFfMSPLMY/o7h0aR/7s0ebS/xOwY=";
+          npmRebuildFlags = [ "--ignore-scripts" ];
+          dontNpmBuild = true;
+          # Belt-and-suspenders: even with --ignore-scripts this env var stops
+          # any accidental CUDA fetch if onnxruntime's script path is ever run.
+          ONNXRUNTIME_NODE_INSTALL_CUDA = "skip";
+          # The published @zvec/zvec-grep ships a prebuilt dist/ cli, but its
+          # bin is nested under node_modules (the root wrapper declares none),
+          # so buildNpmPackage's npm-install-hook does not emit $out/bin/zg.
+          # Wrap the nested cli against the pinned nodejs so `zg` lands on PATH,
+          # and put the CUDA 13 toolkit libs on the loader path so the CUDA
+          # prebuilt can initialize the GPU.
+          postInstall = ''
+            mkdir -p "$out/bin"
+            makeWrapper ${pkgs.nodejs_24}/bin/node "$out/bin/zg" \
+              --prefix LD_LIBRARY_PATH : ${cuda-libs} \
+              --add-flags "$out/lib/node_modules/zvec-grep-tool/node_modules/@zvec/zvec-grep/dist/cli/index.js"
+          '';
+        };
+
       in
       {
         packages = {
           default = buildTypstPdf;
           web = buildWeb;
           web-full = buildWebFull;
+          inherit zvec-grep;
         };
 
         checks = {
@@ -335,7 +391,7 @@
           glossary-test = pkgs.stdenvNoCC.mkDerivation {
             name = "mecfs-glossary-test";
             src = cleanSrc;
-            buildInputs = [ pkgs.nodejs_22 ];
+            buildInputs = [ pkgs.nodejs_24 ];
             phases = [
               "unpackPhase"
               "buildPhase"
@@ -358,14 +414,40 @@
             pkgs.typst
             pkgs.quarto
             pkgs.jdk25
-            pkgs.nodejs_22
+            pkgs.nodejs_24
             pkgs.nil
             pkgs.nixfmt
             pkgs.gnuplot
+            zvec-grep
           ];
           shellHook = ''
             export TYPST_PACKAGE_CACHE_PATH="${typst-package-cache}"
             export TYPST_FONT_PATHS="src/main/typst/mecfs/fonts"
+
+            # zg GPU (CUDA): expose the host NVIDIA driver (libcuda.so.1) to the
+            # loader. nixpkgs never ships it. We symlink ONLY the driver lib into
+            # a shim dir and append that dir to LD_LIBRARY_PATH — never host
+            # /usr/lib wholesale, which would shadow the Nix glibc and crash
+            # Nix-built binaries. The zg wrapper already prepends the hermetic
+            # CUDA 13 toolkit libs (libcudart/libcublas).
+            # Override the probe with CUDA_DRIVER_LIB_DIR=/path/to/dir if zg
+            # still cannot see the GPU.
+            if ! echo "$LD_LIBRARY_PATH" | tr ':' '\n' | grep -qx "$HOME/.zvec-grep-cuda-driver"; then
+              driver_lib=""
+              if [ -n "$CUDA_DRIVER_LIB_DIR" ] && [ -e "$CUDA_DRIVER_LIB_DIR/libcuda.so.1" ]; then
+                driver_lib="$CUDA_DRIVER_LIB_DIR"
+              elif [ -e /run/opengl-driver/lib/libcuda.so.1 ]; then
+                driver_lib=/run/opengl-driver/lib
+              elif [ -e /usr/lib/libcuda.so.1 ]; then
+                driver_lib=/usr/lib
+              fi
+              if [ -n "$driver_lib" ]; then
+                shim="$HOME/.zvec-grep-cuda-driver"
+                mkdir -p "$shim"
+                [ -e "$shim/libcuda.so.1" ] || ln -sf "$driver_lib/libcuda.so.1" "$shim/libcuda.so.1"
+                export LD_LIBRARY_PATH="$shim:$LD_LIBRARY_PATH"
+              fi
+            fi
           '';
         };
 
