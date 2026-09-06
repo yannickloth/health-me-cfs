@@ -41,7 +41,7 @@ Four findings sharpen the case:
 
 **3. The shared inflammatory signal.** ADHD traits at age 9 predict doubled chronic-fatigue risk at age 18, and this association is mediated by the inflammatory marker IL-6 [@Quadt2024neurodivergentfatigue]. This is the single most direct piece of evidence linking the inflammatory state of ADHD to later fatigue — but it establishes a statistical mediation, not a proven mechanism.
 
-**4. Convergent pharmacology.** Both ADHD and chronic fatigue respond to the same dopamine and noradrenaline reuptake inhibitors [@Blockmans2006methylphenidate @Eckey2025PatientReported]. This is consistent with a shared dopaminergic deficit in both, whether developmental or acquired.
+**4. Convergent pharmacology.** Both ADHD and chronic fatigue respond to the same dopamine and noradrenaline reuptake inhibitors [@Blockmans2006MPHCFS @Eckey2025PatientReported]. This is consistent with a shared dopaminergic deficit in both, whether developmental or acquired.
 
 ---
 

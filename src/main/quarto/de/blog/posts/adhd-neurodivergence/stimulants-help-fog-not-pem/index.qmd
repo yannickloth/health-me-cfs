@@ -83,12 +83,13 @@ Wenn bestätigt, bedeutet dies, dass Methylphenidat nicht nur die kognitive Ener
 
 ## Die Blockmans-RCT
 
-Die strengste Studie von Methylphenidat bei ME/CFS war eine doppelblinde Crossover-RCT (n = 60, 4 Wochen pro Arm) [@Blockmans2006methylphenidate]:
+Die strengste Studie von Methylphenidat bei ME/CFS war eine doppelblinde Crossover-RCT (n = 60, 4 Wochen pro Arm) [@Blockmans2006MPHCFS]:
 
 - Die Ermüdungswerte fielen unter Methylphenidat im Vergleich zu Placebo signifikant
 - Die Konzentration verbesserte sich signifikant
 - Lebensqualität und körperliche Funktion verbesserten sich **nicht** signifikant
-- In einem separaten langfristigen Beobachtungs-Follow-up derselben Gruppe (n = 149 Befragte von 194 Verschriebenen): 65 % hatten Methylphenidat abgesetzt; unter den Fortsetzenden berichteten 48 % eine ≥50 %ige Ermüdungsverbesserung, 62 % eine ≥50 %ige Konzentrationsverbesserung
+
+Ein separates langfristiges Beobachtungs-Follow-up derselben Gruppe, 2016 veröffentlicht [@Blockmans2016LongTermMPH], befragte 149 der 194 Patienten, denen Methylphenidat ursprünglich verschrieben worden war: 65 % hatten es abgesetzt; unter den Fortsetzenden berichteten 48 % eine ≥50 %ige Ermüdungsverbesserung und 62 % eine ≥50 %ige Konzentrationsverbesserung.
 
 Die hohe Abbruchrate (65 % abgesetzt) ist selbst aufschlussreich. Konsistent mit dem Modell: Patienten, die absetzten, könnten jene gewesen sein, die die Aktivität erhöhten, schlechteres PEM erlebten und die Verschlechterung dem Medikament zuschrieben. Patienten, die fortfuhren, könnten jene gewesen sein, die das Pacing beibehielten und den kognitiven Nutzen ohne PEM-Kosten erlebten.
 

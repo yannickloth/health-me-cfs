@@ -23,7 +23,7 @@ Ce n'est pas un signal subtil. C'est l'enrichissement en types cellulaires le pl
 
 ### Niveau 1 : Précurseurs et inhibiteurs de recapture
 
-**Méthylphénidate (Ritalin).** Un inhibiteur du DAT qui augmente la dopamine synaptique. Déjà le médicament dopaminergique le plus étudié dans l'EM/SFC. L'essai contrôlé randomisé de Blockmans (n = 60, croisé en double aveugle) a constaté des améliorations significatives des scores de fatigue et de concentration, mais aucun changement du fonctionnement physique ni de la qualité de vie [@Blockmans2006methylphenidate]. Le profil d'effets secondaires est bien caractérisé par des décennies d'utilisation dans le TDAH — mais il comporte le risque spécifique de masquer le MPE (voir les mises en garde ci-dessous).
+**Méthylphénidate (Ritalin).** Un inhibiteur du DAT qui augmente la dopamine synaptique. Déjà le médicament dopaminergique le plus étudié dans l'EM/SFC. L'essai contrôlé randomisé de Blockmans (n = 60, croisé en double aveugle) a constaté des améliorations significatives des scores de fatigue et de concentration, mais aucun changement du fonctionnement physique ni de la qualité de vie [@Blockmans2006MPHCFS]. Le profil d'effets secondaires est bien caractérisé par des décennies d'utilisation dans le TDAH — mais il comporte le risque spécifique de masquer le MPE (voir les mises en garde ci-dessous).
 
 **Bupropion (Wellbutrin).** Un inhibiteur du DAT/NET avec un potentiel d'abus inférieur à celui du méthylphénidate. Utilisé pour la dépression et le sevrage tabagique. Possède un effet anti-inflammatoire faible supplémentaire via la réduction du TNF-alpha, ce qui peut être pertinent dans une maladie avec une neuroinflammation documentée.
 
@@ -53,7 +53,7 @@ La tétrabénazine et ses analogues plus récents (valbénazine, deutétrabénaz
 
 Les données cliniques sont minces mais cohérentes dans leur direction :
 
-- **Méthylphénidate** améliore les symptômes cognitifs chez certains patients EM/SFC — l'essai ECR de Blockmans et les séries de cas constatent tous deux un bénéfice réel mais variable [@Blockmans2006methylphenidate]
+- **Méthylphénidate** améliore les symptômes cognitifs chez certains patients EM/SFC — l'essai ECR de Blockmans et les séries de cas constatent tous deux un bénéfice réel mais variable [@Blockmans2006MPHCFS]
 - **Les métabolites de la dopamine dans le LCR** sont modifiés dans l'EM/SFC, cohérents avec une réduction du tonus dopaminergique central [@Miller2014dopamine]
 - **La dopamine striatale est corrélée à la fatigue** dans la maladie de Parkinson plus fortement qu'aux déficits moteurs nigrostriataux — le circuit de la fatigue striatale n'est pas spécifique à l'EM/SFC mais général à la maladie. Chaudhuri et Behan ont utilisé ce parallèle parkinsonien en 2000 pour soutenir que la dysfonction des ganglions de la base sous-tend la fatigue centrale de l'EM/SFC [@Chaudhuri2000basal]
 

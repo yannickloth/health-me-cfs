@@ -42,7 +42,7 @@ Vier Befunde schärfen den Fall:
 
 **3. Das gemeinsame entzündliche Signal.** ADHS-Merkmale im Alter von 9 Jahren sagen ein verdoppeltes Risiko für chronische Fatigue im Alter von 18 Jahren voraus, und diese Assoziation wird durch den entzündlichen Marker IL-6 vermittelt [@Quadt2024neurodivergentfatigue]. Dies ist der direkteste Beweis, der den entzündlichen Zustand von ADHS mit späterer Fatigue verbindet — aber er etabliert eine statistische Vermittlung, keinen bewiesenen Mechanismus.
 
-**4. Konvergente Pharmakologie.** Sowohl ADHS als auch chronische Fatigue sprechen auf dieselben Dopamin- und Noradrenalin-Wiederaufnahmehemmer an [@Blockmans2006methylphenidate @Eckey2025PatientReported]. Dies ist konsistent mit einem gemeinsamen dopaminergen Defizit in beiden, ob entwickelt oder erworben.
+**4. Konvergente Pharmakologie.** Sowohl ADHS als auch chronische Fatigue sprechen auf dieselben Dopamin- und Noradrenalin-Wiederaufnahmehemmer an [@Blockmans2006MPHCFS @Eckey2025PatientReported]. Dies ist konsistent mit einem gemeinsamen dopaminergen Defizit in beiden, ob entwickelt oder erworben.
 
 ---
 

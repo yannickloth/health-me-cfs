@@ -85,11 +85,14 @@ The most rigorous trial of methylphenidate in ME/CFS was a double-blind crossove
 - Fatigue scores fell significantly on methylphenidate vs placebo
 - Concentration improved significantly
 - Quality of life and physical functioning did **not** improve significantly
-- In a separate long-term observational follow-up by the same group (n = 149 surveyed of 194 prescribed): 65% had stopped methylphenidate; among those continuing, 48% reported ≥50% fatigue improvement, 62% reported ≥50% concentration improvement
+
+A separate long-term observational follow-up by the same group — published in 2016 (Blockmans & Persoons, *Acta Clinica Belgica*) — surveyed 149 of the 194 patients originally prescribed methylphenidate: 65% had stopped; among those continuing, 48% reported ≥50% fatigue improvement and 62% ≥50% concentration improvement.
 
 The high dropout rate (65% stopped) is itself informative. Consistent with the model: patients who stopped may have been those who increased activity, experienced worse PEM, and attributed the worsening to the medication. Patients who continued may have been those who maintained pacing and experienced the cognitive benefit without PEM cost.
 
 > Blockmans D et al. Does methylphenidate reduce the symptoms of chronic fatigue syndrome? *Am J Med*. 2006;119(2):167.e23–167.e30. PMID: 16443425.
+>
+> Blockmans D, Persoons P. Long-term methylphenidate intake in chronic fatigue syndrome. *Acta Clinica Belgica*. 2016;71(6):407–414. PMID: 27351244.
 
 ---
 
@@ -119,6 +122,7 @@ For ME/CFS patients using stimulants:
 
 1. Vernon SD et al. Patient-reported treatment outcomes in ME/CFS and Long COVID. *PNAS*. 2025 [in press]. n = 3,925.
 2. Blockmans D et al. Does methylphenidate reduce the symptoms of chronic fatigue syndrome? *Am J Med*. 2006;119(2):167.e23–167.e30. PMID: 16443425.
-3. Almutairi MM et al. Mitochondrial dysfunction and mitophagy in ADHD. *Saudi Pharm J*. 2024;32(12):102212. PMID: 39638973.
-4. Walitt B et al. Deep phenotyping of post-infectious ME/CFS. *Nat Commun*. 2024;15:907. PMID: 38267427.
-5. Zametkin AJ et al. Cerebral glucose metabolism in adults with hyperactivity of childhood onset. *NEJM*. 1990;323(20):1361–1366. PMID: 2233902.
+3. Blockmans D, Persoons P. Long-term methylphenidate intake in chronic fatigue syndrome. *Acta Clinica Belgica*. 2016;71(6):407–414. PMID: 27351244.
+4. Almutairi MM et al. Mitochondrial dysfunction and mitophagy in ADHD. *Saudi Pharm J*. 2024;32(12):102212. PMID: 39638973.
+5. Walitt B et al. Deep phenotyping of post-infectious ME/CFS. *Nat Commun*. 2024;15:907. PMID: 38267427.
+6. Zametkin AJ et al. Cerebral glucose metabolism in adults with hyperactivity of childhood onset. *NEJM*. 1990;323(20):1361–1366. PMID: 2233902.

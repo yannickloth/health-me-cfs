@@ -83,12 +83,13 @@ Si cela est confirmé, cela signifie que le méthylphénidate ne réduit peut-ê
 
 ## L'ECR de Blockmans
 
-L'essai le plus rigoureux du méthylphénidate dans l'EM/SFC était une ECR croisée en double aveugle (n = 60, 4 semaines par bras) [@Blockmans2006methylphenidate] :
+L'essai le plus rigoureux du méthylphénidate dans l'EM/SFC était une ECR croisée en double aveugle (n = 60, 4 semaines par bras) [@Blockmans2006MPHCFS] :
 
 - Les scores de fatigue ont baissé significativement sous méthylphénidate vs placebo
 - La concentration s'est significativement améliorée
 - La qualité de vie et le fonctionnement physique ne se sont **pas** améliorés significativement
-- Dans un suivi observationnel à long terme séparé du même groupe (n = 149 sondés sur 194 prescrits) : 65 % avaient arrêté le méthylphénidate ; parmi ceux qui continuaient, 48 % ont rapporté une amélioration de la fatigue ≥50 %, 62 % ont rapporté une amélioration de la concentration ≥50 %
+
+Un suivi observationnel à long terme séparé du même groupe, publié en 2016 [@Blockmans2016LongTermMPH], a sondé 149 des 194 patients à qui le méthylphénidate avait initialement été prescrit : 65 % avaient arrêté ; parmi ceux qui continuaient, 48 % ont rapporté une amélioration de la fatigue ≥50 % et 62 % une amélioration de la concentration ≥50 %.
 
 Le taux d'abandon élevé (65 % ont arrêté) est lui-même informatif. Conforme au modèle : les patients qui ont arrêté peuvent être ceux qui ont augmenté leur activité, vécu un PEM pire, et attribué l'aggravation au médicament. Les patients qui ont continué peuvent être ceux qui ont maintenu le pacing et vécu le bénéfice cognitif sans coût de PEM.
 

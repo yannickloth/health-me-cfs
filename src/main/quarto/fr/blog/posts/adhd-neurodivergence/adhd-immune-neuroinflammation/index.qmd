@@ -42,7 +42,7 @@ Quatre découvertes affinent le dossier :
 
 **3. Le signal inflammatoire partagé.** Les traits de TDAH à 9 ans prédisent un risque doublé de fatigue chronique à 18 ans, et cette association est médiée par le marqueur inflammatoire IL-6 [@Quadt2024neurodivergentfatigue]. C'est la preuve la plus directe reliant l'état inflammatoire du TDAH à une fatigue ultérieure — mais elle établit une médiation statistique, pas un mécanisme prouvé.
 
-**4. Pharmacologie convergente.** Le TDAH et la fatigue chronique répondent tous deux aux mêmes inhibiteurs de recapture de la dopamine et de la noradrénaline [@Blockmans2006methylphenidate @Eckey2025PatientReported]. Cela est cohérent avec un déficit dopaminergique partagé dans les deux, qu'il soit développemental ou acquis.
+**4. Pharmacologie convergente.** Le TDAH et la fatigue chronique répondent tous deux aux mêmes inhibiteurs de recapture de la dopamine et de la noradrénaline [@Blockmans2006MPHCFS @Eckey2025PatientReported]. Cela est cohérent avec un déficit dopaminergique partagé dans les deux, qu'il soit développemental ou acquis.
 
 ---
 

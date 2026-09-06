@@ -23,7 +23,7 @@ Dies ist kein subtiles Signal. Es ist die stärkste Zelltyp-Anreicherung der Stu
 
 ### Stufe 1: Vorstufen und Wiederaufnahmehemmer
 
-**Methylphenidat (Ritalin).** Ein DAT-Hemmer, der das synaptische Dopamin erhöht. Bereits das am besten untersuchte Dopamin-Medikament bei ME/CFS. Die Blockmans-RCT (n = 60, Doppelblind-Crossover) fand signifikante Verbesserungen der Fatigue-Scores und der Konzentration, aber keine Änderung der körperlichen Funktionsfähigkeit oder der Lebensqualität [@Blockmans2006methylphenidate]. Das Nebenwirkungsprofil ist durch jahrzehntelange ADHS-Anwendung gut charakterisiert — es birgt jedoch das spezifische Risiko, PEM zu maskieren (siehe Hinweise unten).
+**Methylphenidat (Ritalin).** Ein DAT-Hemmer, der das synaptische Dopamin erhöht. Bereits das am besten untersuchte Dopamin-Medikament bei ME/CFS. Die Blockmans-RCT (n = 60, Doppelblind-Crossover) fand signifikante Verbesserungen der Fatigue-Scores und der Konzentration, aber keine Änderung der körperlichen Funktionsfähigkeit oder der Lebensqualität [@Blockmans2006MPHCFS]. Das Nebenwirkungsprofil ist durch jahrzehntelange ADHS-Anwendung gut charakterisiert — es birgt jedoch das spezifische Risiko, PEM zu maskieren (siehe Hinweise unten).
 
 **Bupropion (Wellbutrin).** Ein DAT/NET-Hemmer mit geringerem Missbrauchspotenzial als Methylphenidat. Wird bei Depression und zur Raucherentwöhnung eingesetzt. Hat über die Reduktion von TNF-alpha eine zusätzliche, schwach entzündungshemmende Wirkung, die bei einer Krankheit mit dokumentierter Neuroinflammation relevant sein könnte.
 
@@ -53,7 +53,7 @@ Tetrabenazin und seine neueren Analoga (Valbenazin, Deutetrabenazin) sind VMAT2-
 
 Die klinischen Daten sind dünn, aber in der Richtung konsistent:
 
-- **Methylphenidat** verbessert die kognitiven Symptome bei einigen ME/CFS-Patienten — sowohl die Blockmans-RCT als auch Fallserien finden einen realen, aber variablen Nutzen [@Blockmans2006methylphenidate]
+- **Methylphenidat** verbessert die kognitiven Symptome bei einigen ME/CFS-Patienten — sowohl die Blockmans-RCT als auch Fallserien finden einen realen, aber variablen Nutzen [@Blockmans2006MPHCFS]
 - **Dopamin-Metabolite im Liquor** sind bei ME/CFS verändert, konsistent mit einem reduzierten zentralen Dopamin-Tonus [@Miller2014dopamine]
 - **Striatales Dopamin korreliert bei Parkinson stärker mit Fatigue** als nigrostriatale motorische Defizite — der striatale Fatigue-Schaltkreis ist nicht ME/CFS-spezifisch, sondern krankheitsübergreifend. Chaudhuri und Behan nutzten diese Parkinson-Parallele im Jahr 2000, um zu argumentieren, dass eine Basalganglien-Dysfunktion der zentralen Fatigue von ME/CFS zugrunde liegt [@Chaudhuri2000basal]
 

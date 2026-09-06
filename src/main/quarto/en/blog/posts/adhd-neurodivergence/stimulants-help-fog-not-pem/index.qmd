@@ -82,12 +82,13 @@ If confirmed, this means methylphenidate may not just reduce cognitive energy de
 
 ## The Blockmans RCT
 
-The most rigorous trial of methylphenidate in ME/CFS was a double-blind crossover RCT (n = 60, 4 weeks per arm) [@Blockmans2006methylphenidate]:
+The most rigorous trial of methylphenidate in ME/CFS was a double-blind crossover RCT (n = 60, 4 weeks per arm) [@Blockmans2006MPHCFS]:
 
 - Fatigue scores fell significantly on methylphenidate vs placebo
 - Concentration improved significantly
 - Quality of life and physical functioning did **not** improve significantly
-- In a separate long-term observational follow-up by the same group (n = 149 surveyed of 194 prescribed): 65% had stopped methylphenidate; among those continuing, 48% reported ≥50% fatigue improvement, 62% reported ≥50% concentration improvement
+
+A separate long-term observational follow-up by the same group, published in 2016 [@Blockmans2016LongTermMPH], surveyed 149 of the 194 patients originally prescribed methylphenidate: 65% had stopped; among those continuing, 48% reported ≥50% fatigue improvement and 62% ≥50% concentration improvement.
 
 The high dropout rate (65% stopped) is itself informative. Consistent with the model: patients who stopped may have been those who increased activity, experienced worse PEM, and attributed the worsening to the medication. Patients who continued may have been those who maintained pacing and experienced the cognitive benefit without PEM cost.
 

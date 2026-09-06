@@ -22,7 +22,7 @@ This is not a subtle signal. It's the strongest cell-type enrichment in the stud
 
 ### Tier 1: Precursors and reuptake inhibitors
 
-**Methylphenidate (Ritalin).** A DAT inhibitor that increases synaptic dopamine. Already the most-studied dopamine drug in ME/CFS. The Blockmans RCT (n = 60, double-blind crossover) found significant improvements in fatigue scores and concentration, but no change in physical functioning or quality of life [@Blockmans2006methylphenidate]. Side effect profile is well-characterized from decades of ADHD use — but carries the specific risk of masking PEM (see caveats below).
+**Methylphenidate (Ritalin).** A DAT inhibitor that increases synaptic dopamine. Already the most-studied dopamine drug in ME/CFS. The Blockmans RCT (n = 60, double-blind crossover) found significant improvements in fatigue scores and concentration, but no change in physical functioning or quality of life [@Blockmans2006MPHCFS]. Side effect profile is well-characterized from decades of ADHD use — but carries the specific risk of masking PEM (see caveats below).
 
 **Bupropion (Wellbutrin).** A DAT/NET inhibitor with less abuse potential than methylphenidate. Used for depression and smoking cessation. Has an additional weakly anti-inflammatory effect via TNF-alpha reduction, which may be relevant in a disease with documented neuroinflammation.
 
@@ -52,7 +52,7 @@ Tetrabenazine and its newer analogues (valbenazine, deutetrabenazine) are VMAT2 
 
 The clinical data is thin but directionally consistent:
 
-- **Methylphenidate** improves cognitive symptoms in some ME/CFS patients — the Blockmans RCT and case series both find real but variable benefit [@Blockmans2006methylphenidate]
+- **Methylphenidate** improves cognitive symptoms in some ME/CFS patients — the Blockmans RCT and case series both find real but variable benefit [@Blockmans2006MPHCFS]
 - **CSF dopamine metabolites** are altered in ME/CFS, consistent with reduced central dopamine tone [@Miller2014dopamine]
 - **Striatal dopamine correlates with fatigue** in Parkinson's more strongly than nigrostriatal motor deficits — the striatal fatigue circuit is not ME/CFS-specific but disease-general. Chaudhuri and Behan used this Parkinson's parallel in 2000 to argue that basal ganglia dysfunction underlies the central fatigue of ME/CFS [@Chaudhuri2000basal]
 
