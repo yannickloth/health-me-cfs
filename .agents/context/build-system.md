@@ -13,7 +13,7 @@ Run from project root. `result/` is a symlink into the Nix store; `cp result/<fi
 | `nix build .#web-full` | `result/` → HTML site + PDF |
 | `nix flake check` | section-audit, qmd-label-audit, typst-source-audit, blog-audit |
 | `nix run .#clean` | Remove `.cache`, `.build`, `result`, `target`, `*.pdf` under `src/main/typst/` |
-| `nix develop` | Dev shell (typst, quarto, jdk25); TYPST_PACKAGE_CACHE_PATH, TYPST_FONT_PATHS preset |
+| `nix develop` | Dev shell (typst, quarto, jdk25, nodejs24, zg); TYPST_PACKAGE_CACHE_PATH, TYPST_FONT_PATHS preset |
 
 `nix run .#clean` removes `target/` (all web build output: generated .qmd intermediates + rendered site).
 
@@ -167,11 +167,12 @@ target/                        # ALL web build output (gitignored)
 | `packages.default` | pkg | PDF only |
 | `packages.web` | pkg | Web only (qmd + quarto) |
 | `packages.web-full` | pkg | Web + PDF |
+| `packages.zvec-grep` | pkg | zg CLI, hermetically built from npm (nix/zvec-grep); CUDA 13 toolkit bundled (`cudaPkgs`, unfree) |
 | `apps.clean` | app | Remove build artifacts |
 | `checks.section-audit` | check | `SectionAuditTest.java` |
 | `checks.qmd-label-audit` | check | BuildWeb + QmdLabelAuditTest + QmdEnvironmentCountTest + QmdQualityAuditTest |
 | `checks.typst-source-audit` | check | `TypstSourceAuditTest.java` |
 | `checks.blog-audit` | check | `BlogAuditTest.java` |
-| `devShells.default` | shell | typst + quarto + jdk25; TYPST_PACKAGE_CACHE_PATH, TYPST_FONT_PATHS preset |
+| `devShells.default` | shell | typst + quarto + jdk25 + nodejs24 + zg; TYPST_PACKAGE_CACHE_PATH, TYPST_FONT_PATHS preset |
 
 Note: `checks.qmd-label-audit` bundles generation (BuildWeb) + 3 audit tests under one check name.
