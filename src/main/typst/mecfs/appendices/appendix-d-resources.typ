@@ -641,6 +641,10 @@ Interviews influential voices in ME/CFS and Long COVID. Topics include books on 
 
 / *_Living with Chronic Fatigue Syndrome_*:  German/French documentary premiered on ARTE. Available in German and French.
 
+/ *_Maladies orphelines, maladies oubliées_* (*Chronisch krank, chronisch ignoriert*, 2024):  #link("https://www.arte.tv/fr/videos/108997-000-A/maladies-orphelines-maladies-oubliees/")
+
+92-minute German ARTE documentary co-directed by Sibylle Dahrendorf (herself severely affected) and Daniela Schmidt-Langels. Follows patients with complex disabling conditions, notably Mila, who has been bedbound in a dark room since 2018 with ME/CFS (EM/SFC), and Sven, who lost his autonomy after fluoroquinolone toxicity. Reports roughly 3.3 million affected in the US alone, notes the WHO neurological classification, contrasts renewed interest from Long COVID with still-modest research funding, and investigates why patients are steered toward ill-suited therapies (notably cognitive-behavioural). Interviews physicians, researchers, pharmaceutical companies, and policymakers. Available in French and German on ARTE until 24 February 2027.
+
 === Notable Media Coverage
 
 [style=nextline]
