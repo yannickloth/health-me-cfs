@@ -13,6 +13,8 @@ End-to-end: research → synthesize → **integration decision** → develop →
 
 **Guard:** `$ARGUMENTS` empty/blank/literal → ask user for topic before proceeding.
 
+**Search routing (zg vs rg — apply to every search below):** Use `zg query "<question>"` (semantic, vector) when searching **workspace content by concept** — finding existing claims/environments that discuss the same mechanism under different wording, overlap sweeps, cross-terminology dedup. Use `rg`/`grep` only for **exact structural matches** — bib keys, `@label`/`@sec:` resolution, regex patterns, `[A-Z]` term extraction. `zg` indexes `src/main/typst/` + `bib/` + registry (see `zg status` for coverage); run it from the repo root so it auto-scopes to the workspace. **Never use `zg` for external literature search** (PubMed/Scholar/preprints — Phase 1) — it indexes only the workspace, not the scientific literature.
+
 **Artifact locations (MANDATORY — see `ops/AGENTS.md` for the full map):** kept artifacts go under `ops/` (`ops/research/` = literature summaries + search logs; `ops/brainstorms/` = brainstorms; `ops/integration-guides/` = integration guides + bib fragments; `ops/plans/` = plans + hypothesis trees). Disposable one-cycle audit scratch (synthesis, compat-audit, coherence-audit, synonym-map) goes to `tmp/` and is NEVER committed. Never use the retired `content-staging/` folder (retired 2026-07-12; do not create or reference). Never write an `ops/` or `tmp/` path into the document (`src/**`).
 
 ---
@@ -619,7 +621,7 @@ For every drug idea triaged as Tier 1 or Tier 2:
 
 Read Phase 4 output. Classify every idea into a tier using **reassessed** usefulness scores and **reassessed** certainty:
 
-**Phase-3 deduplication (MANDATORY — run BEFORE triage):** Phase 3 already integrated the topic's *core* claims as environments. Several brainstorm ideas (especially critical-category items: nulls, competing-mechanism, null-assessment) are frequently *already covered* by a Phase 3 environment. For each Phase 4 idea, check whether an existing environment (from Phase 3 or pre-existing) already states the same claim — grep the changed chapter files for the idea's key terms. If already covered: mark the idea `⏭️ covered-by-<label>` in the plan/subtree, do NOT integrate a duplicate, and (if the existing environment is weaker than the idea) optionally strengthen the existing environment instead of adding a new one. Only genuinely *new* content proceeds to triage.
+**Phase-3 deduplication (MANDATORY — run BEFORE triage):** Phase 3 already integrated the topic's *core* claims as environments. Several brainstorm ideas (especially critical-category items: nulls, competing-mechanism, null-assessment) are frequently *already covered* by a Phase 3 environment. For each Phase 4 idea, check whether an existing environment (from Phase 3 or pre-existing) already states the same claim — first run `zg query "<idea's core claim>"` from the repo root (catches paraphrased duplicates where the existing environment uses different wording than the idea), then `rg` the changed chapter files for the idea's key literal terms. If already covered: mark the idea `⏭️ covered-by-<label>` in the plan/subtree, do NOT integrate a duplicate, and (if the existing environment is weaker than the idea) optionally strengthen the existing environment instead of adding a new one. Only genuinely *new* content proceeds to triage.
 
 | Tier | Criteria | Integration action |
 |------|----------|-------------------|
@@ -942,7 +944,7 @@ For each drug that intercepts the new cascade:
    | Mechanical vs biochemical → same physiological endpoint | skeletal asymmetry → PEM AND autoimmune → PEM | `subsec-04-the-mechanical-vs-biochemical-dichotomy/` |
     | New convergence pattern, no existing subsec fits | — | Create new `subsec-<NN>-<snake-case-pattern>/` under `sec-09-cross-hypothesis-convergence-patterns/` |
 
-**Anti-force rule:** If grep produces zero meaningful overlaps (lexical hits on common gene names with no mechanistic convergence), do NOT force a convergence. The sec-09 section accepts null results. The procedure assumes convergence MAY exist, not that it MUST. A candide "no convergence nodes found — skip" is a valid and valuable finding.
+**Anti-force rule:** If `zg`/grep produces zero meaningful overlaps (semantic hits on shared endpoints, lexical hits on common gene names, or no mechanistic convergence), do NOT force a convergence. The sec-09 section accepts null results. The procedure assumes convergence MAY exist, not that it MUST. A candide "no convergence nodes found — skip" is a valid and valuable finding.
 
 4. **If an existing sec-09 subsec covers this pattern:** append to that file:
    - A new `=== <New Hypothesis> → <Endpoint>` heading
@@ -1140,19 +1142,19 @@ Update integrated count in root `hypotheses-trees.md` subtree index row.
 
 **Step 0 — Semantic claim matching (MANDATORY before grep):**
 
-Grep-based keyword matching may miss contradictions where the new evidence and an existing claim describe the same mechanism using different terminology. Before the grep step, run a semantic pass:
+Grep-based keyword matching may miss contradictions where the new evidence and an existing claim describe the same mechanism using different terminology. Before the grep step, run a semantic pass with `zg`:
 
-1. Load all entries from `src/main/typst/mecfs/part4-research/hypothesis-registry.typ`.
-2. For each registry entry, ask: "Does any Phase 1 paper's key finding relate to this claim's mechanism, even if the terminology differs?" This is a semantic comparison — e.g., a paper finding "no TRPM3 involvement in pain" should match a registry entry about "ion channel dysregulation in sensory neurons" even if neither mentions TRPM3 by name.
-3. For each semantic match: record the registry label, the claim summary, and the Phase 1 paper(s) that relate. These bypass the grep step and enter the adaptation pipeline directly.
-4. This pass is budgeted at 30 registry entries (the registry is large — scan by relevance, not exhaustively). Prioritize entries in the same pathophysiological domain as the new evidence (immune entries for immune papers, neurological for neurological, etc.).
+1. From the repo root, run `zg query` per mechanism/key-finding from Phase 1–3, phrased as a question about the workspace — e.g. `zg query "which environments claim ion channel dysregulation in sensory neurons"`. `zg` retrieves existing claims that relate by meaning, even where the wording differs (a paper finding "no TRPM3 involvement in pain" still matches a registry entry about "ion channel dysregulation in sensory neurons"). Prefer the hypothesis registry (`zg query ... --glob '*hypothesis-registry*'`) plus the broad workspace query; `zg` lifts the old 30-entry manual-scan budget since it no longer requires reading every registry row.
+2. For each semantic match returned: read the surrounding claim, confirm the mechanism relationship (same mechanism, different terminology vs. lexical-only gene-name hit), and record the registry label / chapter environment, the claim summary, and the Phase 1 paper(s) that relate. Verified matches bypass the grep step and enter the adaptation pipeline directly.
+3. Distinguish genuine semantic matches from lexical-only hits (shared gene name, unrelated pathway) — classify the latter under Phase 6's "No Action / lexical only" category.
 
 1. **Mandatory synonym expansion:** Before searching, generate 3–5 semantic variants per mechanism from Phase 1–2 (medical synonyms, abbreviations, pathway names, gene/protein names). Store the synonym map in `tmp/synonym-map-<topic-slug>.md` for reproducibility.
 2. **Glossary/index check:** Read the paper's glossary or index (if one exists) to find project-specific terminology for each concept.
 3. Generate search terms from Phase 1–3: key mechanism names, drug names, symptom domains, author last names + all synonym variants.
-4. `grep` across all `.typ` files for each term (original + synonyms simultaneously).
-5. For each match: read ≥ 10 lines of context; determine if the pre-existing claim engages with the same mechanism.
-6. **Coverage check:** report total matches examined vs. total matches found. Report synonym map used.
+4. **Semantic sweep first (`zg query`):** From the repo root, run one `zg query` per mechanism/knowledge-domain carrying the evidence (e.g. `zg query "immune complex complement activation in ME/CFS"`) plus one broad query per synonym variant. `zg` returns pre-existing claims whose *meaning* overlaps even when they use none of the literal search terms — this is what catches the cross-terminology contradictions the synonym map cannot. Run it before the exact-term grep.
+5. **Exact-term grep second:** `rg`/`grep` across all `.typ` files for each literal term (original + synonyms simultaneously) to catch direct name matches the vector index may under-rank.
+6. For each match (from either pass): read ≥ 10 lines of context; determine if the pre-existing claim engages with the same mechanism. Classify lexical-only hits (shared gene name, unrelated pathway) separately from genuine mechanism overlaps.
+7. **Coverage check:** report total matches examined vs. total matches found, per pass (zg semantic vs. rg exact). Report synonym map used.
 
 **Budget:** If > 30 candidate matches → prioritize in this order: hypothesis environments > treatment recommendations > biomarker discussions > drug warnings > phenotype descriptions > cross-disease comparisons > research gap statements. Stop at 30 (context window constraint — each match requires ≥10 lines of reading); record remaining as "sweep truncated — N matches unexamined." Phase 11 review agents may independently catch contradictions in truncated matches — truncation is not permanent exclusion.
 
@@ -1271,11 +1273,12 @@ Add to Phase 0 tracking: `6 | M matches examined, N adapted (R reinforced, T con
 
 ### Step 1 — Compatibility Audit (main session, inline)
 
-1. Extract mechanism terms from titles/descriptions of both new hypotheses AND all existing registry entries. For the existing entries, use the title field (column 1), mechanism description (column 7), and key references (column 5) from the registry table to build a term index.
-2. Use the term index to find overlapping pairs efficiently: hypotheses sharing ≥1 distinct mechanism term → candidate pair. Full N×M set intersection is not required; the term index serves as a cheap pre-filter.
-3. For each candidate pair: grep all `.typ` files for the shared terms — using the Phase 6 synonym map (`tmp/synonym-map-<topic-slug>.md`) if available — + read 20 lines of context per match.
-4. Classify each pairwise relationship (reinforcement / feed-into / conflict / independent) with a relationship certainty (0.1–1.0).
-5. Write output: `tmp/compat-audit-<topic-slug>-<date>.md`
+1. For each newly integrated hypothesis, extract its mechanism terms (title, mechanism description, pathway/gene/protein names).
+2. **Semantic candidate discovery (`zg query`):** From the repo root, run one `zg query` per new hypothesis phrased as a question about the mechanism — e.g. `zg query "which existing hypothesis involves <mechanism>" --glob '*hypothesis-registry*'`. `zg` retrieves existing registry entries (and chapter environments) that share the mechanism by *meaning*, even where the wording diverges — this finds pairs the literal-term index misses (a new "TRPV4 mechanotransduction in vascular tone" hypothesis should pair with an existing "endothelial shear sensing" entry that never names TRPV4).
+3. **Exact-term cross-check:** For completeness, build a literal term index from the existing registry (title, mechanism, key references) and add any pair sharing ≥1 distinct literal mechanism term that `zg` did not surface. Union of the two → candidate-pair set.
+4. For each candidate pair: `rg`/`grep` all `.typ` files for the shared terms — using the Phase 6 synonym map (`tmp/synonym-map-<topic-slug>.md`) if available — + read 20 lines of context per match to confirm the relationship is mechanistic (not lexical-only gene-name overlap).
+5. Classify each pairwise relationship (reinforcement / feed-into / conflict / independent) with a relationship certainty (0.1–1.0).
+6. Write output: `tmp/compat-audit-<topic-slug>-<date>.md`
 
 **Independence validation:** For pairs classified as "independent," verify they share no common upstream mechanisms, shared assumptions, or common preconditions. If they do → reclassify as weak-reinforcement or weak-feed-into. Document: "Reclassified from independent: shares upstream mechanism [X] with [hypothesis Y]."
 
