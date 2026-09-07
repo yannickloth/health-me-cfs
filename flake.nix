@@ -3,6 +3,12 @@
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+    # Quarto 1.10.x (current nixos-unstable) HTML rendering is broken:
+    # every `quarto render --to html` fails with 'Unknown option
+    # "syntax-highlighting"' (upstream regression, gfm/md output still works).
+    # Pin quarto to the last-known-good 1.8.26 from the pre-bump nixpkgs rev
+    # for all HTML-rendering derivations. See 465676e0.
+    nixpkgs-quarto.url = "github:NixOS/nixpkgs/c5296fdd05cfa2c187990dd909864da9658df755";
     flake-utils.url = "github:numtide/flake-utils";
   };
 
@@ -10,6 +16,7 @@
     {
       self,
       nixpkgs,
+      nixpkgs-quarto,
       flake-utils,
     }:
     flake-utils.lib.eachDefaultSystem (
@@ -24,6 +31,11 @@
           inherit system;
           config.allowUnfree = true;
         };
+
+        # HTML-capable Quarto (1.8.26) from the pinned good nixpkgs rev. Used
+        # instead of pkgs.quarto (1.10.18, broken HTML) in every derivation
+        # that renders the web site. Self-contained; independent of nodejs/etc.
+        quarto = nixpkgs-quarto.legacyPackages.${system}.quarto;
 
         # NVIDIA's proprietary driver (libcuda.so.1) is never shipped by nixpkgs;
         # it lives on the host and the dev shell shellHook injects it at runtime.
@@ -132,7 +144,7 @@
           buildInputs = [
             pkgs.coreutils
             pkgs.typst
-            pkgs.quarto
+            quarto
             pkgs.jdk25
             pkgs.nodejs_24
           ];
@@ -183,7 +195,7 @@
           buildInputs = [
             pkgs.coreutils
             pkgs.typst
-            pkgs.quarto
+            quarto
             pkgs.jdk25
             pkgs.nodejs_24
           ];
@@ -312,7 +324,7 @@
             buildInputs = [
               pkgs.jdk25
               pkgs.typst
-              pkgs.quarto
+              quarto
             ];
             phases = [
               "unpackPhase"
@@ -361,7 +373,7 @@
             buildInputs = [
               pkgs.jdk25
               pkgs.typst
-              pkgs.quarto
+              quarto
             ];
             phases = [
               "unpackPhase"
@@ -412,7 +424,7 @@
           buildInputs = [
             pkgs.coreutils
             pkgs.typst
-            pkgs.quarto
+            quarto
             pkgs.jdk25
             pkgs.nodejs_24
             pkgs.nil

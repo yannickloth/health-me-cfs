@@ -1,0 +1,174 @@
+---
+title: "Part 5: How to Run a Dose-Finding Trial — Protocols for Eight Medications"
+description: "The strategy says: dismiss the dose, not the drug. This article says: here is how. Dose ladders, step durations, primary outcome measures, and stop conditions for eight medications — with every number labeled established, candidate, or speculative."
+author: "Yannick Loth"
+date: "2026-09-07"
+categories: [Treatment, Pharmacology, ME/CFS]
+lang: en
+---
+
+The previous article argued that a failed trial should mean "this dose failed," not "this drug failed" — and that the cheapest next experiment is usually a neighboring dose of the same drug. That argument is worthless without an execution layer: *which* doses, held for *how long*, measured against *what*, stopping *when*.
+
+This article provides that layer for eight medications. It is the protocol companion to the pharmacopoeia: [Part 4](../pharmacopoeia-dose-meaning/) tabulates what each dose band *means*; this article specifies how to *run* the trial that generates the data. The two share the same dose bands and must be read together.
+
+---
+
+## How to read the protocols
+
+Every protocol field carries an evidence tier, consistent with the primary paper's convention:
+
+| Tier | Meaning |
+|------|---------|
+| **E — established** | Standard pharmacology or regulatory labeling; would not surprise any pharmacist |
+| **C — candidate** | Inferred from ME/CFS community practice and the low-dose-window framework; plausible, not validated |
+| **S — speculative** | Model prediction (e.g. cluster correlations) awaiting trials; treat as a bet, not a fact |
+
+Three universal rules before any protocol:
+
+1. **Define the primary outcome before the first dose.** One measure. If the trial "for sleep" ends with an impression about mood, nothing was tested.
+2. **Write the stop conditions down and date the review.** A trial without a stop date is not an experiment; it is a mood (see the dose-drift pathology in the [previous article](../dose-first-search-strategy/)).
+3. **Do not run trials through a crash.** A PEM episode during a dose trial measures the PEM, not the dose.
+
+---
+
+## 1. Low-Dose Naltrexone (LDN)
+
+**Targets (dose-banded):** TLR4/Nrf2 hormetic priming (~0.5–1.5 mg) · opioid compensatory upregulation (~1.5–3 mg) · TRPM3 restoration (~3–4.5 mg) — see Part 1 for the full cascade.
+
+| Field | Protocol | Tier |
+|-------|----------|------|
+| Dose ladder | 0.5 mg × 2 wk → 1 mg × 4 wk → 1.5 mg × 4 wk → (if partial) 2.25 mg × 4 wk | E for start-low; C for steps |
+| Step duration | Minimum 4 weeks per rung below 2 mg — the TLR4/Nrf2 mechanism is transcriptional; verdicts inside 2 weeks measure adjustment, not effect | C |
+| Primary outcome | Fatigue or brain fog, daily 0–10 self-rating | C |
+| Stop conditions | Benefit at a rung → hold ≥8 wk before any change · no benefit across 0.5–4.5 mg full sweep → mechanism read: LDN's targets are not rate-limiting · initial flare → halve, do not abandon | C |
+| Compounding | Below 2 mg: compounding pharmacy or liquid | E |
+| Retrial rule | A null at 3.5–4 mg does NOT close ~1 mg — different mechanism at that band ([why](../single-dose-failure-not-a-verdict/)) | C |
+
+**Common failure:** verdict declared at 3 weeks on one rung. The four-mechanism structure makes LDN the *most* dose-information-rich drug in the list and therefore the most wasteful to test shallowly.
+
+---
+
+## 2. Low-Dose Aripiprazole (LDA)
+
+**Target:** dopamine D2 partial agonism — microglial and catecholamine modulation. Single drug; the framework predicts a steep, peaky window (illustratively: sub-1 mg doses may lose protection while 1 mg holds; escalation above the working dose may add nothing) — S, model prediction.
+
+| Field | Protocol | Tier |
+|-------|----------|------|
+| Dose ladder | 0.5 mg × 3–5 d (tolerability) → 1 mg × 6 wk (the assessment window used clinically) | C (Crosby 2021 cohort mean: 1.1 mg/day) |
+| Step duration | Days for tolerability, **weeks for efficacy** — do not judge effect before the prescriber's window elapses | C |
+| Primary outcome | Choose per dominant symptom: PEM frequency, cognitive clarity, or sleep — one only | C |
+| Stop conditions | Akathisia, agitation, or mood switch concerns → stop and report · no benefit at 6 wk → prescriber-directed ceiling per their practice | C |
+| Compounding | Below 2 mg required: compounding pharmacy (standard tablets ≥2 mg) | E |
+| Monitoring | Sleep architecture and mood self-checks (documented LDA effects are qualitatively distinct from stimulant-type activation — but the distinction should be *checked*, not assumed) | C |
+| Retrial rule | A dose that preserved sleep but lost PEM protection (the 0.75 mg pattern) means the window is symptom-specific — map per symptom, not per drug | S |
+
+**Why short can work:** a 5-day trial at a single lower dose, with one prescriber-agreed outcome and defined stop conditions, can return a clean negative in a week — and still strengthen the standing of the working dose, because the window was probed and held. That is the protocol working as designed.
+
+---
+
+## 3. Low-Dose Lithium (element lithium)
+
+**Target:** GSK-3β inhibition → Nrf2 derepression at micro-doses; IMPase effects enter at higher micro-doses (biphasic two-target dynamic).
+
+| Field | Protocol | Tier |
+|-------|----------|------|
+| Dose ladder | 0.3 mg → 1 mg → 3 mg → 5 mg element lithium, ~2 wk steps | C |
+| Step duration | 2 weeks sufficient for subjective outcomes; the Nrf2 transcriptional argument suggests longer at effective rungs | C |
+| Primary outcome | Same as the patient's responsive Nrf2-cluster drug (if LDN worked at 0.5–1.5 mg, lithium's question is "does the window cluster hold?") | S |
+| Stop conditions | Tremor, thirst, confusion → stop (standard lithium toxicity awareness, though micro-doses rarely reach it — E for the warning, C for the threshold) · no cluster-consistent benefit across 0.3–5 mg → window-cluster hypothesis weakened for this patient | C/S |
+| Monitoring | If extending above 5 mg or long-term: standard lithium monitoring per prescriber | E |
+
+---
+
+## 4. Pyridostigmine (Mestinon)
+
+**Target:** acetylcholinesterase inhibition — peripheral cholinergic tone; relevant to orthostatic/vascular symptom layers. Characteristic dose-dependent M3-mediated GI motility effects.
+
+| Field | Protocol | Tier |
+|-------|----------|------|
+| Dose ladder | Start at the lowest historically tolerated dose (e.g. 1 pill/day if higher doses were GI-intolerable) — not upward from the intolerable doses | C |
+| Step duration | 1–2 weeks per rung; GI effects appear fast, vascular benefit (if any) needs longer | C |
+| Primary outcome | Orthostatic/vascular symptom rating — **not** general fatigue | C |
+| Stop conditions | Excess gut motility → stop; this drug's intolerance is dose-dependent and *specific*, and a lower rung can be GI-quiet where higher rungs were not | C |
+| Key asymmetry | Prior intolerance at higher doses does NOT close the lower-dose question — a patient who stopped at 3×1/day for GI reasons may still find 1/day tolerable; that rung is a separate experiment | C |
+| Confounders to log | Meals, motion, caffeine — GI confounders are dense for this drug | C |
+
+---
+
+## 5. Methylphenidate (Ritalin MR) and low-dose stimulants
+
+**Target:** catecholamine reuptake inhibition. In ME/CFS the documented pattern is inverted-U *and* PEM induction at high stimulus doses.
+
+| Field | Protocol | Tier |
+|-------|----------|------|
+| Dose ladder | Start well below doses that previously caused problems — e.g. an MR 10 mg probe if MR 30 mg induced PEM; immediate-release 5 mg equivalents for finer steps | C |
+| Step duration | 3–7 days per rung — stimulant effects on both benefit and PEM induction show quickly | C |
+| Primary outcome | Function-per-exertion-cost, not raw alertness. A stimulant that buys alertness with PEM is a net loss — the outcome measure must be able to see the loss | C |
+| Stop conditions | PEM induction at a rung → that rung is above the window; step down, do not "push through" | C |
+| Interaction note | Documented in the primary record: prior high-dose stimulant combinations in untreated ME/CFS produced excitation/mania-like states — an absolute ceiling consideration, prescriber territory | E for the risk class |
+
+---
+
+## 6. The MCAS stack (famotidine · rupatadine · montelukast)
+
+**Targets:** H2 · H1/PAF · leukotriene receptors. Long-standing, precede most other trials, and usually *already* at their windows — which makes them the stack to instrument before touching.
+
+| Field | Protocol | Tier |
+|-------|----------|------|
+| Trial type | Not dose-finding but **de-challenge/re-challenge**: single-component withdrawal × 2 wk with symptom scoring, then restore. Establishes each component's contribution | C |
+| Dose note | Antihistamines show inverted-U behavior in the pharmacopoeia (H1 sedation/anticholinergic burden at high doses); if escalating, keep the pharmacopoeia bands open | C |
+| Primary outcome | The symptom that justified the component originally (e.g. reactive symptoms, food responses) | C |
+| Stop conditions | Symptom return on de-challenge → component confirmed load-bearing; no change → candidate for deprescribing discussion | C |
+
+**Why include a stack that works:** a dose-finding article that only covers failures teaches the wrong lesson. Confirming that a working component is load-bearing — cheaply, one component at a time — is dose-information too, and it protects against accidental discontinuations during other trials.
+
+---
+
+## 7. Melatonin (low-dose)
+
+**Target:** chronobiotic at low doses; hypnotic (and different receptor profile) at high doses — a textbook inverted-U that most patients take backwards.
+
+| Field | Protocol | Tier |
+|-------|----------|------|
+| Dose ladder | 0.3 mg → 0.5 mg → 1 mg → 3 mg, descending **if** higher doses worked less (the common surprise) | C (0.3 mg physiologic-dose rationale: E) |
+| Step duration | 1 week per rung, scored nightly | C |
+| Primary outcome | Sleep-onset latency or night waking — the chronobiotic claim is about *timing*, not sedation depth | C |
+| Timing | 2–4 h before target sleep onset at low doses (chronobiotic window), not at bedtime (hypnotic habit) — timing is half the dose for this drug | C/E mixed |
+| Stop conditions | Groggy mornings at a rung → above window, step down · no effect at any rung → try timing change before abandoning | C |
+
+---
+
+## 8. Modafinil
+
+**Target:** wakefulness promotion, catecholaminergic/orexin-adjacent. The dose logic applies as for the other stimulants: inverted-U with anxiety/overstimulation on the upper arm.
+
+| Field | Protocol | Tier |
+|-------|----------|------|
+| Dose ladder | Quarter-tablet (25–50 mg) → half (100 mg) — start *below* the standard 100–200 mg, unlike general population dosing | C |
+| Step duration | Single-day probes, spaced ≥48 h, before consecutive-day trials | C |
+| Primary outcome | Alertness **and** next-day PEM check — this drug most tempts the "borrow from tomorrow" error the Ritalin outcome measure is built to catch | C |
+| Stop conditions | Anxiety, overstimulation → above window · next-day crash → rung adds PEM debt; the drug is costing more than it pays | C |
+
+---
+
+## Reading a null across all eight protocols
+
+When a properly run trial returns null, walk the alternative-explanations table from the previous article in order of cost: neighboring dose → longer duration → re-scored outcome → mechanism argument. The protocols above are built so that the first three are usually already answered *by the trial itself* — the ladder covered neighboring doses, the step durations covered the timescale, the pre-defined outcome covered the measurement. What remains is the mechanism read, which is not a failure of the trial but its product: a drug whose targets are not rate-limiting in your case, crossed off at adequate cost.
+
+That is the goal state of the whole search: every trial — positive or null — leaves a map with one more region colored in.
+
+---
+
+## The honesty layer
+
+**Every number above is tiered for a reason.** The dose bands come from the pharmacopoeia framework (Part 4) and, ultimately, from the primary paper's inverted-U analysis — established pharmacology where marked E, community-and-model inference where marked C, and explicit bets where marked S. The cluster-correlation idea (windows tracking across mechanistically related drugs) is the framework's core falsifiable prediction, not a result. If the framework is wrong, the *dose-response data you collect with these protocols remains valid* — the interpretive layer on top is what would fall.
+
+**The protocols are templates, not prescriptions.** Doses interact — with each other, with illness phase, with the patient's own history. The illustrative numbers come from pharmacological reasoning and ME/CFS community experience, not from validated trials; the interpatient extrapolation is hypothesis. Your prescriber sets the actual numbers; these protocols structure the conversation, and several of these drugs (compounded low doses, off-label use, stimulants) are inaccessible without one.
+
+**PEM risk is a trial variable, not a footnote.** Every rung of every ladder is an experiment conducted on an energy budget that does not forgive overexertion. Exertion during a dose trial is exertion during an experiment on your own threshold — the protocols' short durations exist partly because of this.
+
+---
+
+*Patient-to-patient analysis grounded in the pharmacological framework of @Loth2026mecfs — not medical advice. Every trial requires prescriber agreement. Dose bands cross-reference Part 4 of this series; strategy and failure modes are covered in the companion article, [Dismiss the Dose, Not the Drug](../dose-first-search-strategy/).*
+
+*Dose-response series: [Part 1: Why More Isn't Better](../more-isnt-better-ldn-lda/) · [Part 2: The Inverted-U Is Not One Thing](../inverted-u-not-one-thing/) · [Part 3: Your LDN Dose Is a Diagnosis](../dose-is-diagnostic-ldn/) · [Part 4: The Pharmacopoeia](../pharmacopoeia-dose-meaning/) · Part 5 (this post) · Related: [Dismiss the Dose, Not the Drug](../dose-first-search-strategy/)*

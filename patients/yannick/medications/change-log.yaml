@@ -1,6 +1,34 @@
 # Medication Change Log
 
 changes:
+  - date: 2026-09-12
+    medication: "Aripiprazole (low-dose, LDA)"
+    action: time-boxed dose trial (0.75mg) → failure → brief 1.5mg → restoration to 1mg
+    previous_dose: 1mg
+    new_dose: 1mg (restored ~2026-09-19)
+    trial_dates: "0.75mg 2026-09-12 to 2026-09-16; 1.5mg 2 days; 1mg from ~2026-09-19"
+    prescriber: "Dr. Nicolas"
+    rationale: >
+      Trial agreed with Dr. Nicolas: test whether 0.75mg gives better/more
+      sleep than the established 1mg dose.
+    result: >
+      FAILED on its own outcome measure — sleep was no better at 0.75mg than
+      at 1mg. Additionally: extreme fatigue during the trial, and a PEM
+      triggered by "just" 3h driving (2×1h30) accompanied by a very strong
+      migraine. Escalation to 1.5mg for 2 days also did nothing. Back at
+      1mg: patient feels much better (still tired, still needs sleep, but
+      clear improvement).
+    notes: >
+      Second confirmatory data point for subtherapeutic LDA doses (after
+      2026-07-24 Libramont at 0.5mg): reducing below 1mg loses PEM
+      protection AND restores the sleep-deprivation→migraine cascade. At
+      0.75mg, moderate exertion (3h driving) triggered PEM with severe
+      migraine; at 1mg, 5h chainsaw work produced no PEM (2026-07-17).
+      1.5mg (2 days only, weak evidence) showed no added benefit — the
+      useful band appears narrow and centred on 1mg. Trial closed; 1mg
+      remains the established dose. See
+      self-reported/events/2026-09-12_lda-075mg-trial-pem.md.
+
   - date: 2026-08-10
     medication: "Low-Dose Naltrexone (LDN)"
     action: restart

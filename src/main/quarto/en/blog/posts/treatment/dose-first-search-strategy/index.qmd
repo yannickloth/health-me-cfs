@@ -1,0 +1,164 @@
+---
+title: "Dismiss the Dose, Not the Drug — How a Single Failed Trial Sends Patients on Years-Long Searches"
+description: "\"I tried LDN. It didn't work.\" That sentence records a verdict about a drug when the evidence only supports a verdict about one dose, one duration, and one outcome measure. The asymmetry is brutal: a neighboring-dose retrial costs days; a wrongly-dismissed drug can cost years. Here is the search strategy that keeps both failure modes in check."
+author: "Yannick Loth"
+date: "2026-09-07"
+categories: [Treatment, Pharmacology, ME/CFS]
+lang: en
+---
+
+You tried a medication. It didn't work. You move on — and the search for the thing that *will* work continues: another drug, then another, then a supplement, then a protocol someone posted at 3 a.m. Two years pass. Somewhere in that history is a drug that failed at 0.75 mg whose therapeutic window sat at 1.2 mg. You will never know. The verdict is sealed, and it was recorded against the wrong variable.
+
+This article is not about the pharmacology of dose windows — that ground is covered in the four companion pieces to this one (why raising a working dose can kill the benefit, why one null dose does not rule out the others, how to read a dose-response curve as a diagnostic, and the drug-by-drug dose atlas). This article is about the decision layer *on top* of that pharmacology: how patients and doctors convert a failed trial into a search strategy, and why the default strategy — try new drugs rather than neighboring doses — is usually the more expensive one.
+
+---
+
+## The asymmetry that should drive everything
+
+Two mistakes are possible when a trial fails:
+
+| Mistake | Cost |
+|---------|------|
+| **Premature dismissal** — the drug works at a dose you never tried; you search elsewhere for years | Years, plus the accumulated risk of every alternative tried in the meantime |
+| **Endless dose search** — no stop condition; "maybe the dose was wrong" justifies trial after trial forever | Energy budget, PEM risk, and a search that can never conclude |
+
+The costs are asymmetric and they point in opposite directions — which is exactly why neither mistake can be solved by simply warning against the other. "Don't dismiss too fast," taken alone, becomes the endless search. "Move on quickly," taken alone, becomes the premature verdict. The only exit is a search strategy with *structure*: ranked next-steps, defined outcome measures, and stop conditions. The rest of this article builds that structure.
+
+An illustrative example (a composite, not any specific person) frames the whole thing. A patient on low-dose aripiprazole (LDA) 1 mg — a dose with well-documented benefit — runs a 5-day trial at 0.75 mg to test whether sleep would improve. It doesn't. Worse: fatigue worsens, and a PEM episode follows three hours of driving, with a severe migraine. A brief escalation to 1.5 mg also does nothing. The patient returns to 1 mg and recovers.
+
+Read both ways:
+
+- **Wrong read:** "Aripiprazole doses are unpredictable; the drug is fragile; avoid experimenting." (Also tempting: "the trial failed, something is wrong.")
+- **Correct read:** a clean, cheap, time-boxed negative that *strengthens* the case for the drug. The window is probed at 0.75 mg (too low — PEM protection lost) and 1.5 mg (no added benefit), and the peak stays at 1 mg. Seven days of risk buy a sharpened dose-response map.
+
+That is what a failed trial looks like when the search strategy is sound. The drug's standing improved because the *dose* absorbed the failure.
+
+---
+
+## What "failed" must record to stay re-triable
+
+The premature-dismissal trap is set at the moment of record-keeping, not at the moment of deciding. Compare two log entries:
+
+| Entry | Says about the drug | Re-triable? |
+|-------|--------------------|-------------|
+| "LDN didn't work." | Nothing useful | No — the variable that failed is unrecorded |
+| "LDN 3.5–4 mg, ~6 months, fatigue as outcome: no response. ~1 mg untested; distinct pharmacology at that range." | A specific dose, an adequate duration, a defined outcome — and a named untested neighbor | Yes — and the retrial hypothesis is already written |
+
+The second entry is why a lower-dose naltrexone retrial can be *defensible* in one patient's record and indefensible in another's: at higher doses, low-dose naltrexone engages a different pharmacological profile than at ~1 mg — the 4 mg null tested one mechanism and was silent about the other (see [A Single Dose Failure Is Not a Verdict](../single-dose-failure-not-a-verdict/) for the receptor-occupancy argument).
+
+The discipline generalizes. Every completed trial should record four variables:
+
+1. **Dose** — actual dose taken, not prescribed dose (adherence and compounding gaps are common).
+2. **Duration** — against the drug's expected timescale. Two days is a verdict about nothing for a drug whose mechanism is transcriptional; six weeks may still be short for others.
+3. **Outcome measure** — defined *before* starting, ideally one primary. A trial "for sleep" that ends with an impression about mood has tested nothing.
+4. **Confounders** — weather, exertion, other changes in the stack, infection. A trial run through a crash is a trial of the crash.
+
+A trial with all four recorded stays re-triable forever. A trial with none becomes folklore — and folklore is what gets dismissed.
+
+---
+
+## The alternative-explanations table
+
+"Drug X failed" is a conclusion that fits at least six premises. They are not equally cheap to test:
+
+| Explanation of a null trial | Cheapest discriminating test |
+|---------------------------|------------------------------|
+| Wrong dose | Neighboring-dose trial — same drug, one variable moved |
+| Inadequate duration | Extend the same trial past the mechanism's expected timescale |
+| Wrong outcome measure | Re-score the *existing* trial data against a different outcome |
+| Wrong mechanism for this patient | The adequate-dose, adequate-duration null itself — this is a real mechanism read, not a failure of technique |
+| Symptom not driven by the target | Differential work *before* the trial; often the cheapest test of all |
+| Intolerance, not non-response | Side-effect profile distinguishes these — a harmful dose response is information too |
+
+Notice the ordering by cost. Moving down the table, tests get more expensive and less reversible. The dose retrial sits at the top because it changes exactly one pharmacokinetic variable on a drug whose tolerability is already known. A new drug changes everything at once — new targets, new side effects, new interactions with the existing stack — and answers a *noisier* question as a result.
+
+This is the dose-first principle: **when a trial fails, the next cheapest experiment is usually a neighboring dose of the same drug, not a new agent.** New drugs belong after the dose axis of the current drug has been mapped — or after a genuine mechanism argument rules the drug's target out.
+
+---
+
+## The three search pathologies
+
+Patients in long searches tend to fall into one of three recognizable patterns. Naming them is useful because each has a different fix:
+
+**The one-trial verdict.** Every drug gets one shot at one dose. The search proceeds wide and shallow: twenty drugs, zero dose-response maps. *Fix:* before adding drug number twenty-one, go back down the list and find the trials with the narrowest dose coverage. Those are the most likely false negatives.
+
+**The drug collector.** The opposite pattern: a new agent every few weeks, none held long enough to produce a readable null. The medicine cabinet fills; the map stays blank. *Fix:* a minimum trial length per drug class, agreed in advance, and a rule that no new agent starts before the current trial reaches a verdict.
+
+**The dose drift.** No planned ladder at all — the dose wanders up and down by feel, in response to symptoms, with no defined steps and no defined outcome. Every dose taken is data, but no two doses are comparable, so nothing is learned. *Fix:* a written ladder before the first dose change (article two in this pair provides templates).
+
+All three pathologies share a root cause: the trial is not designed as an *experiment* — with a question, a measure, and a stop condition — but experienced as a mood. The fix is the same in every case.
+
+---
+
+## The "almost worked" signal deserves its own attention
+
+The most under-used piece of information in patient reports is the partial response: sleep slightly better but fatigue worse; pain down but orthostatic intolerance up. Patients tend to average these into "no real effect." That averaging destroys the most actionable signal in the dataset.
+
+A partial response says something a flat null does not: **the target is relevant** — some system the drug touches is connected to some symptom — but the dose, or the symptom-to-mechanism match, is wrong. The correct response to a partial response is almost never dismissal. It is decomposition: which symptom moved, in which direction, at which dose — and does that pattern match one of the drug's known dose bands? (For drugs with multiple mechanisms at different concentrations, this decomposition is exactly what the dose atlas is for — see [The Pharmacopoeia](../pharmacopoeia-dose-meaning/).)
+
+The illustrative example above contained a partial response that would be invisible without decomposition: at 0.75 mg, PEM protection *worsens* while the sleep question remains open. That dissociation — protection lost while sleep unchanged — is what distinguishes "wrong dose for everything" from "wrong dose for sleep only," and it takes one table to see.
+
+---
+
+## When dismissal *is* correct
+
+An article arguing against premature dismissal owes the reader the inverse table. Dismissal is the right call — and moving on is the win — when:
+
+| Condition | Why it closes the question |
+|-----------|---------------------------|
+| Adequate dose range covered (including the known window bands, where established) | The dose explanation has been tested, not assumed away |
+| Adequate duration for the mechanism's timescale | The duration explanation has been tested |
+| Outcome measure matched to the drug's indication, measured properly | The measurement explanation has been tested |
+| No response, no partial response, no dose-dependent side-effect signal | There is no signal anywhere on the axis |
+| A mechanism argument for non-response exists | The null is *expected* given what the patient's other responses imply |
+
+The last row matters most and is the most neglected. Responses to one drug constrain expectations for others: a patient who responds in one mechanistic cluster and not another has already run, for free, an experiment that predicts where further searching will pay. The null that arrives *after* that prediction is not a disappointment — it is confirmation that the map is working, and leaving that territory is the correct reward.
+
+---
+
+## What to bring to the doctor
+
+Most patients cannot adjust doses unilaterally — and should not. Several of these medications require compounding, off-label prescribing, or simply a prescriber's agreement. The retrial therefore lives or dies on whether the proposal is easy to say yes to. A retrial request that fits on one page does that; a vague "can we try again, maybe lower?" does not.
+
+The one-page protocol:
+
+| Field | Example |
+|-------|---------|
+| Drug and question | Aripiprazole 0.75 mg — does sleep improve vs 1 mg? |
+| Dose ladder and step length | 0.75 mg × 5 days; escalate or return per outcome |
+| Primary outcome (defined in advance) | Sleep quality/quantity, self-rated nightly |
+| Stop conditions | No change at day 5 → return to 1 mg; worsening → return immediately |
+| Review date | Fixed, written down |
+| Known risks and monitoring | Prior response at 1 mg documented; PEM risk acknowledged |
+
+A trial run exactly this way, with prescriber agreement, can produce a decisive answer in a week. The protocol is the persuasion: it shows the doctor that "retry at a different dose" is not reopening an old argument but running a small, bounded experiment with a defined exit.
+
+---
+
+## The honesty layer
+
+Three caveats, stated plainly because the argument's strength invites overreach:
+
+**The framework's evidence base is pharmacological reasoning plus community experience, not controlled trials.** The dose-window behavior illustrated here — a working 1 mg flanked by a non-working 0.75 mg below and a non-working 1.5 mg above — is a single hypothetical patient's map, constructed to be pharmacologically consistent. The prediction that patients' "failed drugs" are frequently dose failures is a *hypothesis*, motivated by steep and non-monotonic dose-response curves and by interpatient variability in exposure (metabolism, weight, severity, interacting medications). It is not an established fact about any patient.
+
+**The unfalsifiable version of this idea is a trap.** "The dose was always wrong somewhere" can excuse any failure and justify any search. That is why the stop conditions in this article are not optional decoration — they are what separates a dose-first strategy from an endless one. If a retrial cannot name its outcome measure and its stop date in advance, it should not run.
+
+**And the clinical frame:** nothing here is a recommendation to self-adjust doses. The drugs discussed have real side-effect profiles, real interaction risks, and — at low doses — real practical barriers (compounding, off-label status). The dose-first principle is a proposal for what to discuss with your prescriber, in what order, and at what cost. The protocol template above is the format for that discussion, not a substitute for it.
+
+---
+
+## The short version
+
+- "Drug X failed" is almost always a claim about a dose, a duration, and an outcome measure. Record all three, or the verdict is sealed against the wrong variable.
+- When a trial fails, the cheapest next experiment is usually a neighboring dose of the same drug — one variable moved — not a new agent.
+- A partial response is not a soft null. It says the target is relevant. Decompose it before dismissing.
+- Dismissal is correct — and a win — once dose, duration, outcome, and mechanism argument have all had their turn. The stop conditions are what make the search finite.
+- Bring the doctor a one-page protocol: question, ladder, primary outcome, stop conditions, review date. The protocol is the persuasion.
+
+**Companion reading:** [Part 5: How to Run a Dose-Finding Trial](../dose-finding-protocols/) turns this strategy into per-drug protocols — ladders, timescales, outcome measures, and stop conditions for eight medications.
+
+---
+
+*This article is patient-to-patient analysis grounded in established pharmacology, not medical advice. Every trial discussed requires prescriber agreement; several of the medications mentioned require compounding or off-label prescribing. ME/CFS trials carry PEM risk — exertion during a dose trial is exertion during an experiment on your own threshold.*
+
+*Dose-response series: [Part 1: Why More Isn't Better](../more-isnt-better-ldn-lda/) · [Part 2: The Inverted-U Is Not One Thing](../inverted-u-not-one-thing/) · [Part 3: Your LDN Dose Is a Diagnosis](../dose-is-diagnostic-ldn/) · [Part 4: The Pharmacopoeia](../pharmacopoeia-dose-meaning/) · [Part 5: How to Run a Dose-Finding Trial](../dose-finding-protocols/) · Related (this post)*

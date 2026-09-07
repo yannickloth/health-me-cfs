@@ -1,7 +1,7 @@
 # Current Medication Regimen
 
 regimen_date: 2026-05-22
-last_updated: 2026-08-19
+last_updated: 2026-09-19
 
 medications:
   - name: Low-Dose Naltrexone (LDN)
@@ -14,8 +14,8 @@ medications:
     frequency: once daily
     timing: morning
     start_date: 2026-07-10
-    recent_change: temporary reduction to 0.5mg (Jul 24), restored to 1mg (Jul 25)
-    change_date: 2026-07-25
+    recent_change: "failed trials: 0.75mg Sep 12-16 (no sleep gain, PEM + severe migraine from 3h driving), 1.5mg 2 days (no effect); restored to 1mg ~Sep 19"
+    change_date: 2026-09-19
     prescriber: "Dr. Nicolas"
     indication: "cognitive symptoms / unrefreshing sleep; after LDN non-response"
     status: active
