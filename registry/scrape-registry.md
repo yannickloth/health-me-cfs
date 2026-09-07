@@ -13,6 +13,19 @@ Prevents re-processing of already-integrated content.
 
 ---
 
+## Autoimmune SFN Subtype — Anti-TS-HDS & Anti-FGFR3 (autoimmune-sfn-subtype) Literature Search
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities esearch/esummary/efetch) | 2026-09-07 | 9 usable queries (2 over-broad queries discarded): TS-HDS×SFN=13 hits; FGFR3×SFN=22; specificity/control=2-3; IVIG RCT=9; ME/CFS-serology=0 ME/CFS-cohort studies (research gap). 34 unique candidates deduped → 17 full-screened → 16 included. Balanced SUPPORT(6)/CHALLENGE(10): negative RCTs (Gibbons 2023, Geerts 2021), real-world specificity (Chompoopong 2023), inter-lab reproducibility (Appeltshauser 2025), fibromyalgia nulls (Malik 2019, Nissan 2023). Existing corpus SFN/DRG keys reused (no duplication). |
+| Europe PMC (OA/full-text) | 2026-09-07 | OA verification; 3 full-text PDFs archived (Salih 2026, Appeltshauser 2025, Geerts 2021); 13 abstract-only (paywalled, noted). |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed API queries (9 usable + esummary/efetch batches, 16 PMIDs) | pubmed/eutils | 2026-09-07 | — | ops/research/search-log-autoimmune-sfn-subtype-2026-09-07.md, ops/research/literature-autoimmune-sfn-subtype-2026-09-07.md, bib/autoimmunity.bib, appendix-h `<sec:bib-sfn-autoimmune-serological>` — autoimmune SFN serological subtype (16 new papers) |
+| Europe PMC full-text (3 PMIDs) | europepmc | 2026-09-07 | — | Literature/neurological/ OA PDFs (Salih 2026, Appeltshauser 2025, Geerts 2021) |
+
+---
+
 ## VZV Reactivation & Rash-Less VZV Disease (vzv-reactivation) Literature Search
 | Source | Last Scraped | Notes |
 |--------|--------------|-------|
