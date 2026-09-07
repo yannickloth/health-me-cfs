@@ -59,6 +59,12 @@ The anti-TS-HDS and anti-FGFR3 antibodies are commercially testable but are not 
 *Consequence:* Do not use these antibody tests alone to conclude a patient has an autoimmune, treatable small fiber neuropathy in ME/CFS, and do not offer IVIG on the basis of seropositivity alone — the supportive evidence is uncontrolled and is outweighed by negative controlled trials; a rigorous ME/CFS cohort study is the missing step.
 ] <lim:autoimmune-sfn-serology-not-validated>
 
+#synthesis(title: [Anti-TS-HDS / Anti-FGFR3: A Proposed-but-Unvalidated Autoimmune SFN Subtype in ME/CFS])[
+The body of evidence on the anti-TS-HDS and anti-FGFR3 serological subtype is best read as a *documented hypothesis awaiting proper testing*, not an established diagnosis. Supportive reports — antibodies in cryptogenic and non-length-dependent SFN, DRG-predominance, and a mouse DRG-hypersensitivity mechanism — come largely from a single testing lineage @Antoine2015FGFR3 @Levine2020TSHDSFGFR3 @Tholance2020FGFR3 @Salih2026FGFR3Pathogenic. Against this, independent real-world data find limited disease specificity (34% of seropositive patients lacked neuropathy) and no response prediction @Chompoopong2023TSHDS; the assay is not standardized across laboratories @Appeltshauser2025FGFR3assay; the closest overlapping population (fibromyalgia) shows no elevation or the reverse direction @Malik2019TSHDSfibromyalgia @Nissan2023TSHDSfibromyalgia; and both controlled IVIG trials are negative @Gibbons2023IVIGpilot @Geerts2021IVIG. What the evidence supports is that these antibodies exist in a subset of general SFN patients and are worth a rigorous ME/CFS cohort study (@oq:autoimmune-sfn-serological-subtype); what it does not support is using seropositivity to diagnose an autoimmune SFN subtype in ME/CFS or to select patients for IVIG (@lim:autoimmune-sfn-serology-not-validated). The most important open question is whether a prospectively phenotyped ME/CFS cohort contains a seropositive subgroup distinguishable on IENFD and sudomotor testing that responds to immunomodulation — a study that does not yet exist.
+
+*Consequence:* Until that cohort study is done, a positive result on these commercial panels does not mean a person with ME/CFS has a proven, treatable autoimmune nerve disease — patients and clinicians should treat the test as investigative, not diagnostic, and should not base IVIG decisions on it.
+] <syn:autoimmune-sfn-serological-subtype-unvalidated>
+
 ==== Post-COVID SFN: ME/CFS Overlap and IVIG Response
 <sec:sfn-postcovid>
 
