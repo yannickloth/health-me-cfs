@@ -61,10 +61,10 @@ Topical agents provide targeted relief with minimal systemic effects—particula
 *Autoimmune SFN.*
 When SFN has an autoimmune etiology (suggested by anti-ganglioside or anti-sodium channel antibodies), immunomodulation may be beneficial @Oaklander2016autoimmuneSFN:
 
-    - *IVIG*: 0.4 g/kg/day for 5 days, then monthly maintenance; case series evidence (low certainty) suggests improvement in pain and autonomic symptoms in autoimmune SFN, though RCT data are lacking @Liu2020IVIG
+    - *IVIG*: 0.4 g/kg/day for 5 days, then monthly maintenance; case series evidence (low certainty) suggests improvement in pain and autonomic symptoms in autoimmune SFN, but no positive RCT supports this — controlled trials in antibody-positive and idiopathic SFN have been negative @Liu2020IVIG (see @sec:sfn)
     - *Corticosteroids*: Short courses for acute flares; long-term use limited by side effects
     - *Other immunomodulators*: Rituximab, azathioprine, mycophenolate in refractory cases
-    - *ME/CFS relevance*: Given autoimmune hypotheses in ME/CFS, autoimmune SFN testing should be considered in patients with prominent neuropathic features
+    - *ME/CFS relevance*: Given autoimmune hypotheses in ME/CFS, autoimmune SFN evaluation should be considered in patients with prominent neuropathic features. *Caveat:* this refers to a clinically-grounded autoimmune-SFN workup (nodal/ganglioside antibodies, IENFD, autonomic testing) — NOT to the commercially-offered anti-TS-HDS / anti-FGFR3 panels, which are unvalidated in ME/CFS and do not predict IVIG response (@sec:sfn @lim:autoimmune-sfn-serology-not-validated)
 
 #limitation(title: [Small Fiber Neuropathy: Prevalence Extrapolated from Fibromyalgia])[
 SFN prevalence estimates in ME/CFS (30–60%) derive largely from fibromyalgia cohorts with assumed overlap rather than ME/CFS-specific studies. Key data gaps:
@@ -108,7 +108,7 @@ The following algorithm represents a proposed approach synthesized from NeuPSIG 
     - *First-line symptomatic*: Topical lidocaine for focal pain; low-dose gabapentinoid or TCA at bedtime
     - *Second-line*: Add SNRI if inadequate response; consider combination therapy (e.g., gabapentinoid + TCA)
     - *Adjunctive support*: Alpha-lipoic acid, acetyl-L-carnitine for neuroprotection (extrapolated from diabetic neuropathy evidence)
-    - *Refractory cases*: Pain medicine referral; interventional options; IVIG trial if autoimmune markers present
+    - *Refractory cases*: Pain medicine referral; interventional options; IVIG trial if clinically-grounded autoimmune markers present (nodal/ganglioside — *not* the unvalidated anti-TS-HDS/anti-FGFR3 panels, @sec:sfn)
 
 #open-question(title: [SFN Reversibility in ME/CFS])[
 Can small fiber neuropathy in ME/CFS patients be reversed with appropriate treatment? Case reports suggest IENFD can normalize after treating underlying conditions (e.g., autoimmune SFN with IVIG, diabetic SFN with glucose control). If ME/CFS-associated SFN has an autoimmune or inflammatory basis, early immunomodulation might prevent permanent nerve damage. Longitudinal studies with serial skin biopsies in treated patients would clarify whether nerve regeneration is achievable.

@@ -1434,6 +1434,164 @@ Represents pioneering early work (1990s–2000s) establishing that a subset of C
         - *Replication:* Oaklander group replicated SFN in ME/CFS across multiple cohorts
         - *Score:* 0.70
 
+=== Autoimmune Small Fiber Neuropathy Subtype: Anti-TS-HDS and Anti-FGFR3 Serological Markers
+<sec:bib-sfn-autoimmune-serological>
+
+// Scope: the contested serological subtype of SFN mediated by anti-TS-HDS (trisulfated
+// heparin disaccharide) IgM and anti-FGFR3 (fibroblast growth factor receptor 3) IgG.
+// Literature is split between supportive (association/phenotype/mechanism) and
+// validity-challenge (specificity, reproducibility, negative RCTs) papers. Each entry
+// below is classified SUPPORT or CHALLENGE to guide an honest certainty. No direct
+// ME/CFS-cohort study of these antibodies exists -- ME/CFS relevance is inferential
+// via the fibromyalgia overlap and the general SFN substrate.
+
+    *Full Citation:*: Antoine JC, Boutahar N, Lassablière F, Reynaud E, Ferraud K, Rogemond V, et al.\ Antifibroblast growth factor receptor 3 antibodies identify a subgroup of patients with sensory neuropathy. _J Neurol Neurosurg Psychiatry_. 2015;86(12):1347–1355. @Antoine2015FGFR3
+    *DOI:*: #link("https://doi.org/10.1136/jnnp-2014-309730")[10.1136/jnnp-2014-309730]
+    *PMID:*: 25628376
+    *Study Design:*: Discovery cohort; serum anti-FGFR3 serology in sensory neuropathies (Saint-Etienne/Lyon)
+    *Classification:*: SUPPORT (association only; subgroup descriptor, not diagnostic-utility proof)
+    *Key Findings:*: First report that serum IgG against the intracellular domain of FGFR3 identifies a subgroup of sensory-neuropathy patients, proposed to be DRG-predominant. Established the FGFR3 antibody concept later applied to small fiber neuropathy.
+    *Certainty:*: Low (raw 0.50, descriptive discovery, no control sensitivity analysis; discounted 0.30).
+    *Population:*: General sensory neuropathy -- indirect to ME/CFS. No ME/CFS cohort.
+
+    *Full Citation:*: Levine TD, Kafaie J, Zeidman LA, Saperstein DS, Massaquoi R, Bland RJ, Pestronk A. Cryptogenic small-fiber neuropathies: Serum autoantibody binding to trisulfated heparan disaccharide and fibroblast growth factor receptor-3. _Muscle Nerve_. 2020;61(4):512–515. @Levine2020TSHDSFGFR3
+    *DOI:*: #link("https://doi.org/10.1002/mus.26748")[10.1002/mus.26748]
+    *PMID:*: 31650561
+    *Study Design:*: Cross-sectional, blinded serology in n=155 biopsy-proven cryptogenic SFN
+    *Classification:*: SUPPORT (association in general SFN)
+    *Key Findings:*: 48% seropositive (37% IgM anti-TS-HDS, 15% IgG anti-FGFR3). Anti-TS-HDS more frequent in SFN than controls (p=0.0012). 92% of acute-onset SFN anti-TS-HDS+. Proposes the antibodies indicate an immune disorder in otherwise idiopathic SFN.
+    *Certainty:*: Low (raw 0.55; discounted 0.33 -- no formal specificity/sensitivity arm).
+    *Population:*: General cryptogenic SFN -- indirect to ME/CFS. No ME/CFS cohort.
+
+    *Full Citation:*: Tholance Y, Moritz CP, Rosier C, Ferraud K, Lassablière F, Reynaud-Federspiel E, et al. Clinical characterisation of sensory neuropathy with anti-FGFR3 autoantibodies. _J Neurol Neurosurg Psychiatry_. 2020;91(1):49–57. @Tholance2020FGFR3
+    *DOI:*: #link("https://doi.org/10.1136/jnnp-2019-321849")[10.1136/jnnp-2019-321849]
+    *PMID:*: 31690697
+    *Study Design:*: Prospective multicentre European/Brazilian cohort; n=426 pure sensory neuropathies
+    *Classification:*: SUPPORT (DRG-subgroup marker in general sensory neuropathy)
+    *Key Findings:*: 15% anti-FGFR3-positive, in 66% the only autoimmune marker. 89% non-length-dependent; 64% sensory neuronopathy. Brazilian frequency higher than European (36% vs 13%, p\<0.001) -- geographic variability that complicates any universal threshold.
+    *Certainty:*: Low-Medium (raw 0.60; discounted 0.33).
+    *Population:*: General sensory neuropathy -- indirect to ME/CFS. No ME/CFS cohort.
+
+    *Full Citation:*: Murin PJ, Khasiyev F, Profirovic J, Fedorova M, Kafaie J. Comparing FGFR-3 and TS-HDS Seropositive Small Fiber Neuropathy: Unique Patient Features, Symptoms, Laboratory, and Nerve Conduction Study Findings. _J Clin Neuromuscul Dis_. 2024;25(4):171–177. @Murin2024SFNsero
+    *DOI:*: #link("https://doi.org/10.1097/CND.0000000000000478")[10.1097/CND.0000000000000478]
+    *PMID:*: 38771226
+    *Study Design:*: Retrospective; n=172 SFN patients, TS-HDS vs FGFR-3 vs seronegative
+    *Classification:*: SUPPORT (distinct phenotypes) but flags limited biopsy concordance
+    *Key Findings:*: TS-HDS and FGFR-3 seropositive SFN differ from controls and each other in sex, pain, and lab profile. Skin biopsy more frequently normal in both seropositive cohorts -- the antibody alone does not establish SFN.
+    *Certainty:*: Low (raw 0.45; discounted 0.25).
+    *Population:*: General SFN -- indirect to ME/CFS. No ME/CFS cohort.
+
+    *Full Citation:*: Salih LY, Dumaire NLA, Gieré C, Vest E, Alkhateeb H, Moritz CP, et al. Pathogenic Role of FGFR3 Autoantibodies in Small Fiber Neuropathy. _Advanced Science_. 2026;13(22):e11413. @Salih2026FGFR3Pathogenic
+    *DOI:*: #link("https://doi.org/10.1002/advs.202511413")[10.1002/advs.202511413]
+    *PMID:*: 41700748
+    *PMCID:*: PMC13088302
+    *Study Design:*: Preclinical mechanistic (mouse DRG, CRISPR); patient sera
+    *Classification:*: SUPPORT (mechanistic pathogenicity -- not diagnostic utility)
+    *Key Findings:*: FGFR3-autoantibody sera bind DRG sensory neurons and induce hyperexcitability + mechanical hypersensitivity in mice; CRISPR knockout of neuronal FGFR3 blocks sensitisation. Positions FGFR3 antibodies as pathogenic and FGFR3 as an actionable target. Translational only; group shares patents/interest with the FGFR3-antibody discoverers.
+    *Certainty:*: Low (raw 0.55; discounted 0.28 -- animal model; lineage-confounded).
+    *Population:*: Mechanistic; general -- indirect to ME/CFS. No ME/CFS cohort. Open-access PDF archived.
+
+    *Full Citation:*: Zeidman LA, Saini P, Mai P. Immune-Mediated Small Fiber Neuropathy With Trisulfated Heparin Disaccharide, Fibroblast Growth Factor Receptor 3, or Plexin D1 Antibodies: Presentation and Treatment With Intravenous Immunoglobulin. _J Clin Neuromuscul Dis_. 2022;24(1):26–37. @Zeidman2022IVIG
+    *DOI:*: #link("https://doi.org/10.1097/CND.0000000000000423")[10.1097/CND.0000000000000423]
+    *PMID:*: 36005471
+    *Study Design:*: Retrospective single-centre; n=54 cryptogenic SFN
+    *Classification:*: SUPPORT (observational) -- see CHALLENGE counterweight below
+    *Key Findings:*: 44.4% seropositive. Seropositive patients had more facial involvement; greater severity with higher titre. In IVIG completers, examinations and questionnaires improved and mean IENFD increased 297%. Uncontrolled, responder-selective, and author has Grifols speaker-bureau/advisory ties; conflicts with the negative controlled trials (Gibbons 2023, Geerts 2021).
+    *Certainty:*: Low (raw 0.35; discounted 0.19).
+    *Population:*: General cryptogenic SFN -- indirect to ME/CFS. No ME/CFS cohort.
+
+    *Full Citation:*: Malik A, Lopate G, Hayat G, Jones J, Atluri R, Malo B, Pestronk A. Prevalence of Axonal Sensory Neuropathy With IgM Binding to Trisulfated Heparin Disaccharide in Patients With Fibromyalgia. _J Clin Neuromuscul Dis_. 2019;20(3):103–110. @Malik2019TSHDSfibromyalgia
+    *DOI:*: #link("https://doi.org/10.1097/CND.0000000000000236")[10.1097/CND.0000000000000236]
+    *PMID:*: 30801480
+    *Study Design:*: Cross-sectional; n=22 fibromyalgia patients, skin biopsy + anti-TS-HDS
+    *Classification:*: CHALLENGE (null vs controls)
+    *Key Findings:*: 5/22 (23%) FM patients anti-TS-HDS+, 4 with non-length-dependent SFN. Anti-TS-HDS frequency did NOT differ significantly from controls (p=0.41). Undermines anti-TS-HDS as a discriminating biomarker in the fibromyalgia population (which overlaps ME/CFS).
+    *Certainty:*: Medium (raw 0.45; discounted 0.38; small n).
+    *Population:*: Fibromyalgia -- closest non-ME/CFS proxy population. No ME/CFS cohort.
+
+    *Full Citation:*: Nissan J, Blokh A, Ben-Shabat N, Heidecke H, Halpert G, Shoenfeld Y, Amital H. Possible Association Between Anti-Trisulfated-Heparin-Disaccharide (TS-HDS) Immunoglobulin M Autoantibody and Fibromyalgia Syndrome. _IMAJ_. 2023;25(3):187–190. @Nissan2023TSHDSfibromyalgia
+    *PMID:*: 36946662
+    *Study Design:*: Cross-sectional; n=30 FMS women vs n=21 healthy controls (CellTrend ELISA)
+    *Classification:*: CHALLENGE (reverse-direction result)
+    *Key Findings:*: Mean anti-TS-HDS IgM was significantly LOWER in FMS than controls (7.7 vs 13.2 U/ml, p=0.013) -- opposite of the expected elevation. Raises specificity concern that healthy controls carry reactivity. CellTrend assay provenance is directly relevant to the commercial anti-TS-HDS kit debate.
+    *Certainty:*: Medium (raw 0.45; discounted 0.38; small n, no DOI).
+    *Population:*: Fibromyalgia -- closest proxy to ME/CFS among available studies. No ME/CFS cohort.
+
+    *Full Citation:*: Chompoopong P, Rezk M, Mirman I, Berini SE, Dyck PJB, Mauermann M, et al. TS-HDS autoantibody: clinical characterization and utility from real-world tertiary care center experience. _J Neurol_. 2023;270(9):4523–4528. @Chompoopong2023TSHDS
+    *DOI:*: #link("https://doi.org/10.1007/s00415-023-11798-9")[10.1007/s00415-023-11798-9]
+    *PMID:*: 37294321
+    *Study Design:*: Real-world retrospective; n=77 TS-HDS-IgM positive patients (Mayo Clinic 2009–2022)
+    *Classification:*: CHALLENGE (limited specificity and predictive value)
+    *Key Findings:*: 34% had NO objective evidence of neuropathy; 12% had other known neuropathy causes. Majority of IENFD, thermoregulatory sweat tests, and autonomic reflex screens were NORMAL. Immunotherapy improved only 13/42 (31%), no more than in seronegative patients with similar presentations (p=0.30). Directly undercuts the diagnostic and predictive value of TS-HDS testing.
+    *Certainty:*: Medium (raw 0.55; discounted 0.39; independent large centre).
+    *Population:*: General neurology/SFN -- indirect to ME/CFS. No ME/CFS cohort.
+
+    *Full Citation:*: Trevino JA, Novak P. TS-HDS and FGFR3 antibodies in small fiber neuropathy and Dysautonomia. _Muscle Nerve_. 2021;64(1):70–76. @Trevino2021TSHDSFGFR3
+    *DOI:*: #link("https://doi.org/10.1002/mus.27245")[10.1002/mus.27245]
+    *PMID:*: 33792960
+    *Study Design:*: Retrospective; n=322 autonomic-lab patients with SFN/dysautonomia markers
+    *Classification:*: CHALLENGE (specificity to small-fiber damage unclear)
+    *Key Findings:*: 28% anti-TS-HDS+, 17% anti-FGFR3+, 96% autonomic dysfunction. Antibodies present whether skin biopsy normal or abnormal; they did not track objective small-fiber damage. Includes sudomotor/sweat-nerve-fiber data relevant to the autonomic small-fiber subtype.
+    *Certainty:*: Low (raw 0.45; discounted 0.29).
+    *Population:*: Dysautonomia -- relevant to ME/CFS autonomic phenotype. No ME/CFS cohort.
+
+    *Full Citation:*: Appeltshauser L, Moritz CP, Reinhardt L, Kreß L, Üçeyler N, Lassablière F, et al. Inter-laboratory comparison of a serum fibroblast growth factor receptor 3 (FGFR3) antibody test in sensory neuropathies. _Front Immunol_. 2025;16:1604456. @Appeltshauser2025FGFR3assay
+    *DOI:*: #link("https://doi.org/10.3389/fimmu.2025.1604456")[10.3389/fimmu.2025.1604456]
+    *PMID:*: 41142778
+    *PMCID:*: PMC12549695
+    *Study Design:*: Inter-laboratory reproducibility; n=42 sera (18 neuronopathy, 18 SFN, 6 controls) across France and Germany
+    *Classification:*: CHALLENGE (reproducibility)
+    *Key Findings:*: ELISA concordance 34/42 (81%, kappa=0.61); discordance for sera near cut-off. Optical densities systematically lower at one centre (median 0.076 vs 0.293, p\<0.0001) -- cut-off values are laboratory-specific. DRG immunofluorescence was a more specific confirmatory test (positive binding in 68.8% of double-positive vs 5% of ELISA-negative). Underscores that no standardized anti-FGFR3 protocol exists.
+    *Certainty:*: Medium (raw 0.55; discounted 0.33).
+    *Population:*: General sensory neuropathy -- indirect to ME/CFS. No ME/CFS cohort. Open-access PDF archived.
+
+    *Full Citation:*: Morelli L, Serra L, Ricciardiello F, Gligora I, Donadio V, Caprini M, Liguori R, Giannoccaro MP. The role of antibodies in small fiber neuropathy: a review of currently available evidence. _Rev Neurosci_. 2024;35(8):877–893. @Morelli2024antibodyReview
+    *DOI:*: #link("https://doi.org/10.1515/revneuro-2024-0027")[10.1515/revneuro-2024-0027]
+    *PMID:*: 38865989
+    *Study Design:*: Independent narrative review (Bologna)
+    *Classification:*: CHALLENGE (pathogenicity unresolved)
+    *Key Findings:*: For TS-HDS, FGFR3, and Plexin-D1 the pathogenic role has been demonstrated only for some antibodies; association with specific clinical phenotypes or immunotherapy response remains to be clarified. Contrasts with CASPR2/LGI1 where pathogenicity is better established.
+    *Certainty:*: Medium (raw 0.50; discounted 0.35; review).
+    *Population:*: General SFN -- indirect to ME/CFS. No ME/CFS cohort.
+
+    *Full Citation:*: Gibbons CH, Rajan S, Senechal K, Hendry E, McCallister B, Levine TD. A double-blind placebo-controlled pilot study of immunoglobulin for small fiber neuropathy associated with TS-HDS and FGFR-3 autoantibodies. _Muscle Nerve_. 2023;67(5):363–370. @Gibbons2023IVIGpilot
+    *DOI:*: #link("https://doi.org/10.1002/mus.27745")[10.1002/mus.27745]
+    *PMID:*: 36367813
+    *Study Design:*: Double-blind placebo-controlled pilot RCT; n=17 completed (8 IVIG, 9 placebo)
+    *Classification:*: CHALLENGE (pivotal negative immunomodulation result)
+    *Key Findings:*: In skin-biopsy-confirmed SFN with elevated TS-HDS and/or FGFR-3, IVIG did not beat placebo on IENFD (0.6 vs 0.5), pain (−1.7 vs −1.9), or UENS (1.8 vs 3.0); all p=NS. Small pilot, underpowered -- non-significance is not proof of no effect.
+    *Certainty:*: Medium (raw 0.55; discounted 0.39; RCT but pilot).
+    *Population:*: General antibody-positive SFN -- indirect to ME/CFS. No ME/CFS arm.
+
+    *Full Citation:*: Geerts M, de Greef BTA, Sopacua M, van Kuijk SMJ, Hoeijmakers JGJ, Faber CG, Merkies ISJ. Intravenous Immunoglobulin Therapy in Patients With Painful Idiopathic Small Fiber Neuropathy. _Neurology_. 2021;96(20):e2534–e2545. @Geerts2021IVIG
+    *DOI:*: #link("https://doi.org/10.1212/WNL.0000000000011919")[10.1212/WNL.0000000000011919]
+    *PMID:*: 33766992
+    *PMCID:*: PMC8205474
+    *Study Design:*: Double-blind randomized controlled trial; n=60 painful idiopathic SFN (Maastricht)
+    *Classification:*: CHALLENGE (Class I null for IVIG in unselected idiopathic SFN)
+    *Key Findings:*: 40% IVIG vs 30% placebo reached ≥1-point pain reduction (p=0.588; OR 1.56, 95% CI 0.53–4.53). No significant benefit on any prespecified outcome. Not antibody-stratified, so does not directly test TS-HDS/FGFR3-positive patients, but anchors the null for immunotherapy in SFN.
+    *Certainty:*: Medium (raw 0.70; discounted 0.42).
+    *Population:*: General idiopathic SFN -- indirect to ME/CFS. No ME/CFS arm. Open-access PDF archived.
+
+    *Full Citation:*: Ng QX, Neo KML, Zhang B, Yeo ZC, Anitha PN, Chan ACY. Use of Intravenous Immunoglobulin Therapy for Small Fiber Neuropathy: A Systematic Review of Current Clinical Evidence. _J Peripher Nerv Syst_. 2026;31(3):e70138. @Ng2026IVIGsystrev
+    *DOI:*: #link("https://doi.org/10.1111/jns.70138")[10.1111/jns.70138]
+    *PMID:*: 42419753
+    *Study Design:*: PRISMA-2020 systematic review; 7 studies (2 RCTs, 5 observational), 165 IVIG-treated patients
+    *Classification:*: CHALLENGE (no routine-IVIG basis; low certainty)
+    *Key Findings:*: RCTs in idiopathic/broadly defined SFN showed no significant IVIG benefit on pain, autonomic symptoms, QoL, or IENFD. Observational studies (esp. autoimmune subtypes) reported improvement but were uncontrolled, high risk of bias. GRADE: low-to-very-low certainty. Evidence does not support routine IVIG in SFN.
+    *Certainty:*: Medium (raw 0.60; discounted 0.42).
+    *Population:*: General SFN -- indirect to ME/CFS. No ME/CFS cohort.
+
+    *Full Citation:*: Katzberg HD, Barnett C. IVIg for TS-HDS and FGFR-3 antibody-positive small-fiber neuropathy: A fading signal for efficacy? _Muscle Nerve_. 2023;67(5):339–340. @Katzberg2023IVIGsignal
+    *DOI:*: #link("https://doi.org/10.1002/mus.27800")[10.1002/mus.27800]
+    *PMID:*: 36762497
+    *Study Design:*: Editorial/commentary (Toronto General), independent of antibody discoverers
+    *Classification:*: CHALLENGE (expert counterweight)
+    *Key Findings:*: Commenting on the negative Gibbons pilot, frames the IVIG efficacy signal for TS-HDS/FGFR-3-positive SFN as fading and cautions against premature clinical adoption of antibody-guided IVIG. Included as an independent expert counterweight to the positive open-label reports.
+    *Certainty:*: Low (raw 0.45; discounted 0.32; editorial).
+    *Population:*: General -- indirect to ME/CFS. No ME/CFS cohort.
+
+// =============================================================================
 === Auditory and Sensory Dysfunction
 
     *Full Citation:*: Johnson SK, DeLuca J, Diamond BJ, Natelson BH. Selective impairment of auditory processing in chronic fatigue syndrome: a comparison with multiple sclerosis and healthy controls. _Perceptual and Motor Skills_. 1996;83(1):51–62.

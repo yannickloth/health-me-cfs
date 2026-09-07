@@ -12089,5 +12089,25 @@
     "label": "invisible illness",
     "category": "concept",
     "definition": "A chronic condition with no visible outward sign — such as ME/CFS — whose symptoms others cannot see. Because the person may appear well, invisible illness is susceptible to doubt, dismissal, and stigma."
+  },
+  "anti-TS-HDS": {
+    "label": "anti-TS-HDS",
+    "category": "biomarker",
+    "definition": "Antibodies (typically IgM) against trisulfated heparin disaccharide (TS-HDS), a heparan-sulfate-like epitope. Reported in a subset of cryptogenic small fiber neuropathy and offered as a commercial test, but NOT validated in ME/CFS — evidence shows limited specificity and no reliable prediction of disease or treatment response."
+  },
+  "anti-FGFR3": {
+    "label": "anti-FGFR3",
+    "category": "biomarker",
+    "definition": "Antibodies (typically IgG) against fibroblast growth factor receptor 3 (FGFR3), reported in sensory neuropathy and small fiber neuropathy. Offered as a commercial test but NOT validated in ME/CFS; the assay is not standardized across laboratories and controlled treatment trials are negative."
+  },
+  "TS-HDS": {
+    "label": "TS-HDS",
+    "category": "biomarker",
+    "definition": "Trisulfated heparin disaccharide, a heparan-sulfate-like molecule used as an antigen in a commercial autoantibody test for small fiber neuropathy. Its clinical validity is contested and it is not established in ME/CFS."
+  },
+  "FGFR3": {
+    "label": "FGFR3",
+    "category": "receptor",
+    "definition": "Fibroblast growth factor receptor 3, a cell-surface receptor. Antibodies against it (anti-FGFR3) are reported in sensory and small fiber neuropathy, but the marker is not validated in ME/CFS and the assay is not inter-laboratory standardized."
   }
 }
