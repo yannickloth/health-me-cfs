@@ -24,7 +24,7 @@ Two mistakes are possible when a trial fails:
 
 The costs are asymmetric and they point in opposite directions — which is exactly why neither mistake can be solved by simply warning against the other. "Don't dismiss too fast," taken alone, becomes the endless search. "Move on quickly," taken alone, becomes the premature verdict. The only exit is a search strategy with *structure*: ranked next-steps, defined outcome measures, and stop conditions. The rest of this article builds that structure.
 
-An illustrative example (a composite, not any specific person) frames the whole thing. A patient on low-dose aripiprazole (LDA) 1 mg — a dose with well-documented benefit — runs a 5-day trial at 0.75 mg to test whether sleep would improve. It doesn't. Worse: fatigue worsens, and a PEM episode follows three hours of driving, with a severe migraine. A brief escalation to 1.5 mg also does nothing. The patient returns to 1 mg and recovers.
+An illustrative example (a composite, not any specific person) frames the whole thing. A patient on low-dose aripiprazole (LDA) 1 mg — a dose with well-documented benefit in the ME/CFS low-dose aripiprazole pilot (cohort mean ~1.1 mg/day) [@Crosby2021LDA] — runs a 5-day trial at 0.75 mg to test whether sleep would improve. It doesn't. Worse: fatigue worsens, and a PEM episode follows three hours of driving, with a severe migraine. A brief escalation to 1.5 mg also does nothing. The patient returns to 1 mg and recovers.
 
 Read both ways:
 
@@ -139,7 +139,7 @@ A trial run exactly this way, with prescriber agreement, can produce a decisive 
 
 Three caveats, stated plainly because the argument's strength invites overreach:
 
-**The framework's evidence base is pharmacological reasoning plus community experience, not controlled trials.** The dose-window behavior illustrated here — a working 1 mg flanked by a non-working 0.75 mg below and a non-working 1.5 mg above — is a single hypothetical patient's map, constructed to be pharmacologically consistent. The prediction that patients' "failed drugs" are frequently dose failures is a *hypothesis*, motivated by steep and non-monotonic dose-response curves and by interpatient variability in exposure (metabolism, weight, severity, interacting medications). It is not an established fact about any patient.
+**The framework's evidence base is pharmacological reasoning plus community experience, not controlled trials.** The dose-window behavior illustrated here — a working 1 mg flanked by a non-working 0.75 mg below and a non-working 1.5 mg above — is a single hypothetical patient's map, constructed to be pharmacologically consistent. That non-monotonic dose-response is *a real, documented phenomenon* across many biological systems — the hormesis corpus [@Calabrese2021Nrf2; @Calabrese2002hormesisHistory] and the documented multi-band pharmacology of low-dose naltrexone in particular [@Younger2013; @Cabanas2018trpm3; @Loth2026mecfs]. But the prediction that any *given* patient's "failed drugs" are frequently dose failures is a *hypothesis*, motivated by those steep and non-monotonic curves and by interpatient variability in exposure (metabolism, weight, severity, interacting medications). It is not an established fact about any patient.
 
 **The unfalsifiable version of this idea is a trap.** "The dose was always wrong somewhere" can excuse any failure and justify any search. That is why the stop conditions in this article are not optional decoration — they are what separates a dose-first strategy from an endless one. If a retrial cannot name its outcome measure and its stop date in advance, it should not run.
 
@@ -159,6 +159,6 @@ Three caveats, stated plainly because the argument's strength invites overreach:
 
 ---
 
-*This article is patient-to-patient analysis grounded in established pharmacology, not medical advice. Every trial discussed requires prescriber agreement; several of the medications mentioned require compounding or off-label prescribing. ME/CFS trials carry PEM risk — exertion during a dose trial is exertion during an experiment on your own threshold.*
+*This article is patient-to-patient analysis grounded in established pharmacology — see [@Loth2026mecfs] for the underlying dose-response framework — not medical advice. Every trial discussed requires prescriber agreement; several of the medications mentioned require compounding or off-label prescribing. ME/CFS trials carry PEM risk — exertion during a dose trial is exertion during an experiment on your own threshold.*
 
 *Dose-response series: [Part 1: Why More Isn't Better](../more-isnt-better-ldn-lda/) · [Part 2: The Inverted-U Is Not One Thing](../inverted-u-not-one-thing/) · [Part 3: Your LDN Dose Is a Diagnosis](../dose-is-diagnostic-ldn/) · [Part 4: The Pharmacopoeia](../pharmacopoeia-dose-meaning/) · [Part 5: How to Run a Dose-Finding Trial](../dose-finding-protocols/) · Related (this post)*

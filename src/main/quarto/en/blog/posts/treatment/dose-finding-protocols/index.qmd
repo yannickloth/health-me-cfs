@@ -33,7 +33,7 @@ Three universal rules before any protocol:
 
 ## 1. Low-Dose Naltrexone (LDN)
 
-**Targets (dose-banded):** TLR4/Nrf2 hormetic priming (~0.5–1.5 mg) · opioid compensatory upregulation (~1.5–3 mg) · TRPM3 restoration (~3–4.5 mg) — see Part 1 for the full cascade.
+**Targets (dose-banded):** TLR4/Nrf2 hormetic priming (~0.5–1.5 mg) · opioid compensatory upregulation (~1.5–3 mg) · TRPM3 restoration (~3–4.5 mg) — see Part 1 for the full cascade. Each target is individually established in vitro or in animal models: naltrexone as a partial TLR4 antagonist on microglia [@Younger2013], opioid-receptor blockade with compensatory endorphin rebound [@Younger2013], TRPM3 calcium-flux restoration in ME/CFS NK cells [@Cabanas2018trpm3; @Cabanas2021], and the inflammation-to-orexin-suppression link [@Grossberg2011orexinLethargy]. What is *not* established is the mapping of each target onto a clinical dose band — that part is model inference [@Loth2026mecfs].
 
 | Field | Protocol | Tier |
 |-------|----------|------|
@@ -50,11 +50,11 @@ Three universal rules before any protocol:
 
 ## 2. Low-Dose Aripiprazole (LDA)
 
-**Target:** dopamine D2 partial agonism — microglial and catecholamine modulation. Single drug; the framework predicts a steep, peaky window (illustratively: sub-1 mg doses may lose protection while 1 mg holds; escalation above the working dose may add nothing) — S, model prediction.
+**Target:** dopamine D2 partial agonism — microglial and catecholamine modulation [@Crosby2021LDA]. Single drug; the framework predicts a steep, peaky window (illustratively: sub-1 mg doses may lose protection while 1 mg holds; escalation above the working dose may add nothing) — S, model prediction [@Loth2026mecfs].
 
 | Field | Protocol | Tier |
 |-------|----------|------|
-| Dose ladder | 0.5 mg × 3–5 d (tolerability) → 1 mg × 6 wk (the assessment window used clinically) | C (Crosby 2021 cohort mean: 1.1 mg/day) |
+| Dose ladder | 0.5 mg × 3–5 d (tolerability) → 1 mg × 6 wk (the assessment window used clinically) | C (Crosby 2021 cohort mean: 1.1 mg/day [@Crosby2021LDA]) |
 | Step duration | Days for tolerability, **weeks for efficacy** — do not judge effect before the prescriber's window elapses | C |
 | Primary outcome | Choose per dominant symptom: PEM frequency, cognitive clarity, or sleep — one only | C |
 | Stop conditions | Akathisia, agitation, or mood switch concerns → stop and report · no benefit at 6 wk → prescriber-directed ceiling per their practice | C |
@@ -68,7 +68,7 @@ Three universal rules before any protocol:
 
 ## 3. Low-Dose Lithium (element lithium)
 
-**Target:** GSK-3β inhibition → Nrf2 derepression at micro-doses; IMPase effects enter at higher micro-doses (biphasic two-target dynamic).
+**Target:** GSK-3β inhibition → Nrf2 derepression at micro-doses; IMPase effects enter at higher micro-doses (biphasic two-target dynamic). GSK-3β inhibition at low lithium doses is documented preclinically [@Fenech2023LithiumGSK3Beta]; cognitive benefit at micro-doses is documented in Alzheimer's and neuropsychiatric cohorts [@Nunes2013MicrodoseLithiumAD; @Wilson2017NP03MicrodoseLithium; @Strawbridge2023LowDoseLithium]. The dose-dependent GSK-3β-vs-IMPase split is model inference [@Loth2026mecfs].
 
 | Field | Protocol | Tier |
 |-------|----------|------|
@@ -82,7 +82,7 @@ Three universal rules before any protocol:
 
 ## 4. Pyridostigmine (Mestinon)
 
-**Target:** acetylcholinesterase inhibition — peripheral cholinergic tone; relevant to orthostatic/vascular symptom layers. Characteristic dose-dependent M3-mediated GI motility effects.
+**Target:** acetylcholinesterase inhibition — peripheral cholinergic tone; relevant to orthostatic/vascular symptom layers [@Joseph2022pyridostigmine; @Raj2005Pyridostigmine]. Characteristic dose-dependent M3-mediated GI motility effects.
 
 | Field | Protocol | Tier |
 |-------|----------|------|
@@ -97,7 +97,7 @@ Three universal rules before any protocol:
 
 ## 5. Methylphenidate (Ritalin MR) and low-dose stimulants
 
-**Target:** catecholamine reuptake inhibition. In ME/CFS the documented pattern is inverted-U *and* PEM induction at high stimulus doses.
+**Target:** catecholamine reuptake inhibition. In ME/CFS the documented pattern is inverted-U *and* PEM induction at high stimulus doses. The double-blind crossover RCT found methylphenidate reduced fatigue in CFS [@Blockmans2006MPHCFS], and long-term follow-up found durable benefit in about a third of continuers with a high dropout rate — consistent with the stimulant-PEM trade-off the protocol is built to measure [@Blockmans2016LongTermMPH].
 
 | Field | Protocol | Tier |
 |-------|----------|------|
@@ -111,7 +111,7 @@ Three universal rules before any protocol:
 
 ## 6. The MCAS stack (famotidine · rupatadine · montelukast)
 
-**Targets:** H2 · H1/PAF · leukotriene receptors. Long-standing, precede most other trials, and usually *already* at their windows — which makes them the stack to instrument before touching.
+**Targets:** H2 · H1/PAF · leukotriene receptors. Long-standing, precede most other trials, and usually *already* at their windows — which makes them the stack to instrument before touching. Antihistamine/PAF-antagonist combinations (H1 + H2) show clinical effect in mast-cell-driven syndromes [@Salvucci2023antihistamineLongCOVID], and up-dosed H1/PAF antagonism (rupatadine) is documented in mast-cell and urticaria contexts [@Magerl2015rupatadine; @Izquierdo2024rupatadine].
 
 | Field | Protocol | Tier |
 |-------|----------|------|
@@ -126,7 +126,7 @@ Three universal rules before any protocol:
 
 ## 7. Melatonin (low-dose)
 
-**Target:** chronobiotic at low doses; hypnotic (and different receptor profile) at high doses — a textbook inverted-U that most patients take backwards.
+**Target:** chronobiotic at low doses; hypnotic (and different receptor profile) at high doses — a textbook inverted-U that most patients take backwards. Low-dose (0.5 mg) melatonin phase-shifts the circadian clock without suppressing endogenous secretion [@Burgess2010melatonin]; in CFS, DLMO-guided melatonin timing improved fatigue in patients with delayed phase [@vanHeukelom2006melatonin]. The "low dose is chronobiotic, high dose is hypnotic" framing, and its application in ME/CFS, is model inference [@Loth2026mecfs].
 
 | Field | Protocol | Tier |
 |-------|----------|------|
@@ -140,7 +140,7 @@ Three universal rules before any protocol:
 
 ## 8. Modafinil
 
-**Target:** wakefulness promotion, catecholaminergic/orexin-adjacent. The dose logic applies as for the other stimulants: inverted-U with anxiety/overstimulation on the upper arm.
+**Target:** wakefulness promotion, catecholaminergic/orexin-adjacent [@Volkow2009modafinil]. The dose logic applies as for the other stimulants: inverted-U with anxiety/overstimulation on the upper arm. In chronic fatigue syndrome a double-blind crossover found standard-dose modafinil produced no fatigue benefit and worsened cognition at 400 mg [@Randall2005modafinil] — the anchor for starting *below* the standard range.
 
 | Field | Protocol | Tier |
 |-------|----------|------|
@@ -161,7 +161,7 @@ That is the goal state of the whole search: every trial — positive or null —
 
 ## The honesty layer
 
-**Every number above is tiered for a reason.** The dose bands come from the pharmacopoeia framework (Part 4) and, ultimately, from the primary paper's inverted-U analysis — established pharmacology where marked E, community-and-model inference where marked C, and explicit bets where marked S. The cluster-correlation idea (windows tracking across mechanistically related drugs) is the framework's core falsifiable prediction, not a result. If the framework is wrong, the *dose-response data you collect with these protocols remains valid* — the interpretive layer on top is what would fall.
+**Every number above is tiered for a reason.** The dose bands come from the pharmacopoeia framework (Part 4) and, ultimately, from the primary paper's inverted-U analysis — established pharmacology where marked E, community-and-model inference where marked C, and explicit bets where marked S. The cluster-correlation idea (windows tracking across mechanistically related drugs) is the framework's core falsifiable prediction, not a result. If the framework is wrong, the *dose-response data you collect with these protocols remains valid* — the interpretive layer on top is what would fall. The motivation is not hypothetical: the controlled LDN trials that exist are single-dose and returned null on their primary endpoints [@DueBruun2024LDNFibromyalgia; @Ologunowa2025LDNFMMeta] — no within-range dose-response trial has been run in any condition, which is precisely the gap these protocols are designed to fill [@Loth2026mecfs].
 
 **The protocols are templates, not prescriptions.** Doses interact — with each other, with illness phase, with the patient's own history. The illustrative numbers come from pharmacological reasoning and ME/CFS community experience, not from validated trials; the interpatient extrapolation is hypothesis. Your prescriber sets the actual numbers; these protocols structure the conversation, and several of these drugs (compounded low doses, off-label use, stimulants) are inaccessible without one.
 
