@@ -504,6 +504,12 @@
         el.dataset.gtKey = el.getAttribute('data-gt');
       }
 
+      // Only wrap the node when a glossary term was actually marked. Replacing
+      // every text node — including whitespace-only nodes between elements —
+      // injected stray <span>s into table structure (between <col>, <th>, <td>,
+      // <tr>) which broke column sizing and shifted cells. Skip when unchanged.
+      if (!wrapper.querySelector('glossary-term')) continue;
+
       tn.parentNode.replaceChild(wrapper, tn);
     }
   }

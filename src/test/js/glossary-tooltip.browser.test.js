@@ -111,7 +111,28 @@ async function run() {
     const mobileTerms = await page.$$eval('glossary-term', els => els.length);
     assert.ok(mobileTerms >= 4, `At least 4 terms wrapped: ${mobileTerms}`);
 
-    console.log('All 8 browser integration tests passed.');
+    // Test 9: Glossary wrapping must not inject stray <span>s into table
+    // structure. Whitespace-only text nodes between <col>/<th>/<td>/<tr> were
+    // being wrapped into <span> elements, which browsers turn into phantom
+    // table cells (shifting columns right and squeezing/overlapping them).
+    // No <span> may appear as a direct child of the table or its structural
+    // rows/columns, and glossary terms wrapped inside a <td> must not break the
+    // cell's column grid.
+    const tableHealth = await page.$eval('#gt-test-table', tbl => {
+      const stray = [];
+      const nodes = tbl.querySelectorAll('table, colgroup, thead, tbody, tr');
+      for (const el of nodes) {
+        for (const child of el.childNodes) {
+          if (child.nodeType === Node.ELEMENT_NODE && child.tagName === 'SPAN') {
+            stray.push(`<span> inside <${el.tagName}>`);
+          }
+        }
+      }
+      return stray;
+    });
+    assert.deepEqual(tableHealth, [], `Table structure unpolluted: ${JSON.stringify(tableHealth)}`);
+
+    console.log('All 9 browser integration tests passed.');
   } finally {
     await browser.close();
     server.close();
