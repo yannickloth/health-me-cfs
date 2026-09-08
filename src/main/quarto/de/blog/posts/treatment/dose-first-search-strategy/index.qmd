@@ -1,0 +1,164 @@
+---
+title: "Verwerfen Sie die Dosis, nicht das Medikament — wie ein einziger gescheiterter Versuch Patienten auf jahrelange Suchen schickt"
+description: "„Ich habe LDN ausprobiert. Es hat nicht gewirkt.“ Dieser Satz hält ein Urteil über ein Medikament fest, obwohl die Belege nur ein Urteil über eine Dosis, eine Dauer und eine Zielgröße stützen. Die Asymmetrie ist brutal: Ein erneuter Versuch mit einer Nachbardosis kostet Tage; ein zu Unrecht verworfenes Medikament kann Jahre kosten. Hier ist die Suchstrategie, die beide Fehlermodi im Zaum hält."
+author: "Yannick Loth"
+date: "2026-09-07"
+categories: [Behandlung, Pharmakologie, ME/CFS]
+lang: de
+---
+
+Sie haben ein Medikament ausprobiert. Es hat nicht gewirkt. Sie ziehen weiter — und die Suche nach dem, was *wirken wird*, geht weiter: ein anderes Medikament, dann noch eines, dann ein Nahrungsergänzungsmittel, dann ein Protokoll, das jemand um 3 Uhr nachts gepostet hat. Zwei Jahre vergehen. Irgendwo in dieser Geschichte ist ein Medikament, das bei 0,75 mg versagte, dessen therapeutisches Fenster aber bei 1,2 mg lag. Sie werden es nie erfahren. Das Urteil ist besiegelt, und es wurde gegen die falsche Variable aufgezeichnet.
+
+Dieser Artikel handelt nicht von der Pharmakologie der Dosisfenster — dieses Terrain decken die vier Begleitbeiträge zu diesem ab (warum das Erhöhen einer wirksamen Dosis den Nutzen töten kann, warum eine wirkungslose Dosis die anderen nicht ausschließt, wie man eine Dosis-Wirkungs-Kurve als Diagnostikum liest und der Medikament-für-Medikament-Dosisatlas). Dieser Artikel handelt von der Entscheidungsebene *über* dieser Pharmakologie: wie Patienten und Ärzte einen gescheiterten Versuch in eine Suchstrategie umwandeln und warum die Standardstrategie — neue Medikamente statt benachbarter Dosen ausprobieren — meist die teurere ist.
+
+---
+
+## Die Asymmetrie, die alles antreiben sollte
+
+Zwei Fehler sind möglich, wenn ein Versuch scheitert:
+
+| Fehler | Kosten |
+|---------|------|
+| **Vorzeitiges Verwerfen** — das Medikament wirkt bei einer Dosis, die Sie nie versucht haben; Sie suchen jahrelang woanders | Jahre plus das kumulierte Risiko jeder in der Zwischenzeit ausprobierten Alternative |
+| **Endlose Dosissuche** — kein Abbruchkriterium; „vielleicht war die Dosis falsch" rechtfertigt Versuch um Versuch für immer | Energiebudget, PEM-Risiko und eine Suche, die nie zum Abschluss kommen kann |
+
+Die Kosten sind asymmetrisch und weisen in entgegengesetzte Richtungen — genau deshalb kann keiner der beiden Fehler dadurch gelöst werden, dass man einfach vor dem anderen warnt. „Nicht zu schnell verwerfen", allein genommen, wird zur endlosen Suche. „Schnell weitermachen", allein genommen, wird zum voreiligen Urteil. Der einzige Ausweg ist eine Suchstrategie mit *Struktur*: geordnete nächste Schritte, definierte Zielgrößen und Abbruchkriterien. Der Rest dieses Artikels baut diese Struktur.
+
+Ein illustratives Beispiel (ein Kompositum, keine konkrete Person) rahmt das Ganze. Ein Patient mit Low-Dose-Aripiprazol (LDA) bei 1 mg — einer Dosis mit gut dokumentiertem Nutzen in der ME/CFS-Low-Dose-Aripiprazol-Studie (Kohortenmittel ~1,1 mg/Tag) [@Crosby2021LDA] — führt einen 5-Tage-Versuch bei 0,75 mg durch, um zu testen, ob sich der Schlaf verbessert. Tut er nicht. Schlimmer: Die Müdigkeit verschlechtert sich, und auf drei Stunden Autofahren folgt eine PEM-Episode mit einer schweren Migräne. Eine kurze Eskalation auf 1,5 mg bewirkt ebenfalls nichts. Der Patient kehrt zu 1 mg zurück und erholt sich.
+
+Lesen Sie es auf beide Arten:
+
+- **Falsche Lesart:** „Aripiprazol-Dosen sind unberechenbar; das Medikament ist fragil; vermeiden Sie Experimente." (Auch verlockend: „Der Versuch ist gescheitert, etwas stimmt nicht.")
+- **Richtige Lesart:** ein sauberes, billiges, zeitlich begrenztes Negativ, das den Fall *stärkt*. Das Fenster wird bei 0,75 mg (zu niedrig — PEM-Schutz verloren) und 1,5 mg (kein zusätzlicher Nutzen) sondiert, und der Peak bleibt bei 1 mg. Sieben Tage Risiko erkaufen eine geschärfte Dosis-Wirkungs-Karte.
+
+So sieht ein gescheiterter Versuch aus, wenn die Suchstrategie solide ist. Der Ruf des Medikaments verbesserte sich, weil die *Dosis* den Fehlschlag absorbierte.
+
+---
+
+## Was „gescheitert" aufzeichnen muss, um erneut versuchbar zu bleiben
+
+Die Falle des vorzeitigen Verwerfens wird im Moment der Aufzeichnung gestellt, nicht im Moment der Entscheidung. Vergleichen Sie zwei Tagebucheinträge:
+
+| Eintrag | Sagt über das Medikament | Erneut versuchbar? |
+|-------|--------------------|-------------|
+| „LDN hat nicht gewirkt." | Nichts Nützliches | Nein — die Variable, die versagte, ist nicht aufgezeichnet |
+| „LDN 3,5–4 mg, ~6 Monate, Müdigkeit als Zielgröße: keine Reaktion. ~1 mg ungetestet; in diesem Bereich andere Pharmakologie." | Eine konkrete Dosis, eine angemessene Dauer, eine definierte Zielgröße — und ein benannter ungetesteter Nachbar | Ja — und die Erneut-Versuch-Hypothese ist bereits geschrieben |
+
+Der zweite Eintrag erklärt, warum ein erneuter Versuch mit niedriger dosiertem Naltrexon im Fall eines Patienten *vertretbar* und im Fall eines anderen unvertretbar sein kann: Bei höheren Dosen entfaltet Low-Dose-Naltrexon ein anderes pharmakologisches Profil als bei ~1 mg — der Nullwert bei 4 mg testete einen Mechanismus und schwieg über den anderen (siehe [Ein Dosis-Fehlversuch ist kein Urteil](../single-dose-failure-not-a-verdict/) für das Rezeptorbesetzungs-Argument).
+
+Die Disziplin verallgemeinert sich. Jeder abgeschlossene Versuch sollte vier Variablen aufzeichnen:
+
+1. **Dosis** — tatsächlich eingenommene Dosis, nicht verschriebene (Adhärenz- und Anfertigungslücken sind häufig).
+2. **Dauer** — im Verhältnis zur erwarteten Zeitskala des Medikaments. Zwei Tage sind bei einem Medikament mit transkriptionellem Mechanismus kein Urteil über irgendetwas; sechs Wochen können für andere noch kurz sein.
+3. **Zielgröße** — *vor* Beginn definiert, idealerweise eine primäre. Ein „Schlaf-"Versuch, der mit einem Eindruck über die Stimmung endet, hat nichts getestet.
+4. **Störfaktoren** — Wetter, Anstrengung, andere Änderungen im Stack, Infektion. Ein Versuch, der durch einen Crash läuft, ist ein Versuch über den Crash.
+
+Ein Versuch, bei dem alle vier aufgezeichnet sind, bleibt für immer erneut versuchbar. Ein Versuch ohne alle wird zu Folklore — und Folklore ist es, die verworfen wird.
+
+---
+
+## Die Tabelle der Alternativerklärungen
+
+„Medikament X ist gescheitert" ist eine Schlussfolgerung, die zu mindestens sechs Prämissen passt. Sie sind nicht gleich billig zu testen:
+
+| Erklärung eines Nullversuchs | Billigster unterscheidender Test |
+|---------------------------|------------------------------|
+| Falsche Dosis | Versuch mit Nachbardosis — dasselbe Medikament, eine Variable geändert |
+| Unzureichende Dauer | Dasselbe Experiment über die erwartete Zeitskala des Mechanismus hinaus verlängern |
+| Falsche Zielgröße | Die *vorhandenen* Versuchsdaten gegen eine andere Zielgröße neu bewerten |
+| Falscher Mechanismus für diesen Patienten | Der Nullwert bei angemessener Dosis und Dauer selbst — das ist eine echte Mechanismus-Lesart, kein Versagen der Technik |
+| Symptom wird nicht vom Ziel getrieben | Differenzialarbeit *vor* dem Versuch; oft der billigste Test überhaupt |
+| Intoleranz statt Nicht-Ansprechen | Das Nebenwirkungsprofil unterscheidet diese — eine schädliche Dosisreaktion ist ebenfalls Information |
+
+Beachten Sie die Ordnung nach Kosten. Weiter unten in der Tabelle werden die Tests teurer und weniger umkehrbar. Der Dosis-Neuversuch steht oben, weil er genau eine pharmakokinetische Variable bei einem Medikament ändert, dessen Verträglichkeit bereits bekannt ist. Ein neues Medikament ändert alles auf einmal — neue Ziele, neue Nebenwirkungen, neue Wechselwirkungen mit dem bestehenden Stack — und beantwortet dadurch eine *verrauschtere* Frage.
+
+Das ist das Dosis-zuerst-Prinzip: **Wenn ein Versuch scheitert, ist das nächste billigste Experiment meist eine Nachbardosis desselben Medikaments, nicht ein neuer Wirkstoff.** Neue Medikamente gehören hinter die Kartierung der Dosisachse des aktuellen Medikaments — oder hinter ein echtes Mechanismus-Argument, das das Ziel des Medikaments ausschließt.
+
+---
+
+## Die drei Such-Pathologien
+
+Patienten in langen Suchen verfallen tendenziell in eines von drei erkennbaren Mustern. Sie zu benennen ist nützlich, weil jedes einen anderen Fix hat:
+
+**Das Ein-Versuch-Urteil.** Jedes Medikament bekommt einen Schuss bei einer Dosis. Die Suche verläuft breit und flach: zwanzig Medikamente, null Dosis-Wirkungs-Karten. *Fix:* Bevor Sie Medikament Nummer einundzwanzig hinzufügen, gehen Sie die Liste zurück und finden Sie die Versuche mit der schmalsten Dosisabdeckung. Das sind die wahrscheinlichsten falschen Negative.
+
+**Der Medikamentensammler.** Das gegenteilige Muster: alle paar Wochen ein neuer Wirkstoff, keiner lange genug gehalten, um einen lesbaren Nullwert zu erzeugen. Der Medizinschrank füllt sich; die Karte bleibt leer. *Fix:* eine minimale Versuchslänge pro Medikamentenklasse, im Voraus vereinbart, und eine Regel, dass kein neuer Wirkstoff beginnt, bevor der laufende Versuch ein Urteil erreicht.
+
+**Die Dosisdrift.** Gar keine geplante Leiter — die Dosis wandert nach Gefühl auf und ab, als Reaktion auf Symptome, ohne definierte Stufen und ohne definierte Zielgröße. Jede eingenommene Dosis ist Daten, aber keine zwei Dosen sind vergleichbar, also wird nichts gelernt. *Fix:* eine schriftliche Leiter vor der ersten Dosisänderung (Artikel zwei dieses Paares liefert die Vorlagen).
+
+Alle drei Pathologien teilen eine Grundursache: Der Versuch ist nicht als *Experiment* konzipiert — mit einer Frage, einem Maß und einem Abbruchkriterium —, sondern wird als Stimmung erlebt. Der Fix ist in jedem Fall derselbe.
+
+---
+
+## Das „fast gewirkt"-Signal verdient eigene Aufmerksamkeit
+
+Das am wenigsten genutzte Informationsstück in Patientenberichten ist die Teilantwort: Schlaf etwas besser, aber Müdigkeit schlimmer; Schmerz runter, aber orthostatische Intoleranz rauf. Patienten mitteln diese tendenziell zu „kein echter Effekt". Dieses Mitteln zerstört das handlungsfähigste Signal im Datensatz.
+
+Eine Teilantwort sagt etwas, das ein flacher Nullwert nicht sagt: **das Ziel ist relevant** — ein System, das das Medikament berührt, ist mit einem Symptom verbunden — aber die Dosis oder die Symptom-zu-Mechanismus-Übereinstimmung ist falsch. Die richtige Antwort auf eine Teilantwort ist fast nie das Verwerfen. Es ist die Zerlegung: Welches Symptom bewegte sich, in welche Richtung, bei welcher Dosis — und passt dieses Muster zu einem der bekannten Dosisbänder des Medikaments? (Bei Medikamenten mit mehreren Mechanismen bei unterschiedlichen Konzentrationen ist genau das der Zweck des Dosisatlas — siehe [Die Pharmakopöe](../pharmacopoeia-dose-meaning/).)
+
+Das obige illustrative Beispiel enthielt eine Teilantwort, die ohne Zerlegung unsichtbar wäre: Bei 0,75 mg *verschlechtert* sich der PEM-Schutz, während die Schlaffrage offen bleibt. Diese Dissoziation — Schutz verloren, während der Schlaf unverändert ist — unterscheidet „falsche Dosis für alles" von „falsche Dosis nur für den Schlaf", und es braucht eine Tabelle, um sie zu sehen.
+
+---
+
+## Wann das Verwerfen *richtig* ist
+
+Ein Artikel, der gegen vorzeitiges Verwerfen argumentiert, schuldet dem Leser die umgekehrte Tabelle. Verwerfen ist die richtige Entscheidung — und Weitermachen der Gewinn —, wenn:
+
+| Bedingung | Warum sie die Frage abschließt |
+|-----------|---------------------------|
+| Angemessener Dosisbereich abgedeckt (einschließlich der bekannten Fensterbänder, wo etabliert) | Die Dosiserklärung wurde getestet, nicht wegdefiniert |
+| Angemessene Dauer für die Zeitskala des Mechanismus | Die Dauereklärung wurde getestet |
+| Zielgröße passend zur Indikation des Medikaments, ordnungsgemäß gemessen | Die Messerklärung wurde getestet |
+| Keine Reaktion, keine Teilreaktion, kein dosisabhängiges Nebenwirkungssignal | Es gibt kein Signal irgendwo auf der Achse |
+| Ein Mechanismus-Argument für das Nicht-Ansprechen existiert | Der Nullwert ist *erwartet* angesichts dessen, was die anderen Antworten des Patienten implizieren |
+
+Die letzte Zeile ist am wichtigsten und wird am meisten vernachlässigt. Antworten auf ein Medikament schränken die Erwartungen für andere ein: Ein Patient, der in einem mechanistischen Cluster anspricht und in einem anderen nicht, hat bereits kostenlos ein Experiment durchgeführt, das vorhersagt, wo weitere Suche sich auszahlt. Der Nullwert, der *nach* dieser Vorhersage eintrifft, ist keine Enttäuschung — er ist eine Bestätigung, dass die Karte funktioniert, und das Verlassen dieses Territoriums ist die richtige Belohnung.
+
+---
+
+## Was man zum Arzt mitbringt
+
+Die meisten Patienten können Dosen nicht einseitig anpassen — und sollten es nicht. Mehrere dieser Medikamente erfordern Anfertigung, Off-Label-Verschreibung oder schlicht die Zustimmung eines Verschreibers. Der Neuversuch steht und fällt daher damit, ob der Vorschlag leicht zu bejahen ist. Ein Neuversuch-Antrag, der auf eine Seite passt, tut das; ein vages „können wir es nochmal versuchen, vielleicht niedriger?" nicht.
+
+Das Ein-Seiten-Protokoll:
+
+| Feld | Beispiel |
+|-------|---------|
+| Medikament und Frage | Aripiprazol 0,75 mg — verbessert sich der Schlaf gegenüber 1 mg? |
+| Dosisleiter und Stufenlänge | 0,75 mg × 5 Tage; je nach Zielgröße eskalieren oder zurückkehren |
+| Primäre Zielgröße (im Voraus definiert) | Schlafqualität/-quantität, nächtlich selbst bewertet |
+| Abbruchkriterien | Keine Veränderung am Tag 5 → zurück zu 1 mg; Verschlechterung → sofort zurück |
+| Überprüfungsdatum | Festgelegt, niedergeschrieben |
+| Bekannte Risiken und Überwachung | Frühere Reaktion bei 1 mg dokumentiert; PEM-Risiko anerkannt |
+
+Ein genau so durchgeführter Versuch kann mit Zustimmung des Verschreibers in einer Woche eine entscheidende Antwort liefern. Das Protokoll ist die Überzeugung: Es zeigt dem Arzt, dass „es bei einer anderen Dosis erneut versuchen" kein altes Argument wiedereröffnet, sondern ein kleines, begrenztes Experiment mit einem definierten Ausstieg durchführt.
+
+---
+
+## Die Ehrlichkeits-Ebene
+
+Drei Einschränkungen, klar ausgesprochen, weil die Stärke des Arguments zu Übertreibung einlädt:
+
+**Die Evidenzbasis des Rahmenwerks ist pharmakologisches Denken plus Gemeinschaftserfahrung, keine kontrollierten Studien.** Das hier illustrierte Dosisfenster-Verhalten — ein wirksames 1 mg, flankiert von einem wirkungslosen 0,75 mg darunter und einem wirkungslosen 1,5 mg darüber — ist die Karte eines einzigen hypothetischen Patienten, konstruiert, um pharmakologisch konsistent zu sein. Diese nicht-monotone Dosis-Wirkung ist *ein reales, dokumentiertes Phänomen* über viele biologische Systeme hinweg — das Hormesis-Korpus [@Calabrese2021Nrf2; @Calabrese2002hormesisHistory] und die dokumentierte Mehrbanden-Pharmakologie von Low-Dose-Naltrexon im Besonderen [@Younger2013; @Cabanas2018trpm3; @Loth2026mecfs]. Aber die Vorhersage, dass die „gescheiterten Medikamente" eines *bestimmten* Patienten häufig Dosisfehlschläge sind, ist eine *Hypothese*, motiviert durch diese steilen, nicht-monotonen Kurven und durch die Interpatienten-Variabilität der Exposition (Stoffwechsel, Gewicht, Schweregrad, interagierende Medikamente). Sie ist keine gesicherte Tatsache über irgendeinen Patienten.
+
+**Die unfalsifizierbare Version dieser Idee ist eine Falle.** „Die Dosis war irgendwo immer falsch" kann jeden Fehlschlag entschuldigen und jede Suche rechtfertigen. Deshalb sind die Abbruchkriterien in diesem Artikel keine optionale Dekoration — sie sind das, was eine Dosis-zuerst-Strategie von einer endlosen trennt. Wenn ein Neuversuch seine Zielgröße und sein Abbruchdatum nicht im Voraus benennen kann, sollte er nicht durchgeführt werden.
+
+**Und der klinische Rahmen:** Nichts hier ist eine Empfehlung, Dosen selbst anzupassen. Die besprochenen Medikamente haben echte Nebenwirkungsprofile, echte Wechselwirkungsrisiken und — bei niedrigen Dosen — echte praktische Barrieren (Anfertigung, Off-Label-Status). Das Dosis-zuerst-Prinzip ist ein Vorschlag, was Sie mit Ihrem Verschreiber besprechen, in welcher Reihenfolge und zu welchen Kosten. Die obige Protokollvorlage ist das Format für dieses Gespräch, kein Ersatz dafür.
+
+---
+
+## Die Kurzversion
+
+- „Medikament X ist gescheitert" ist fast immer eine Aussage über eine Dosis, eine Dauer und eine Zielgröße. Zeichnen Sie alle drei auf, oder das Urteil ist gegen die falsche Variable besiegelt.
+- Wenn ein Versuch scheitert, ist das nächste billigste Experiment meist eine Nachbardosis desselben Medikaments — eine Variable geändert —, nicht ein neuer Wirkstoff.
+- Eine Teilantwort ist kein weicher Nullwert. Sie sagt, dass das Ziel relevant ist. Zerlegen Sie sie, bevor Sie verwerfen.
+- Verwerfen ist richtig — und ein Gewinn —, sobald Dosis, Dauer, Zielgröße und Mechanismus-Argument alle ihren Auftritt hatten. Die Abbruchkriterien machen die Suche endlich.
+- Bringen Sie dem Arzt ein Ein-Seiten-Protokoll: Frage, Leiter, primäre Zielgröße, Abbruchkriterien, Überprüfungsdatum. Das Protokoll ist die Überzeugung.
+
+**Begleitlektüre:** [Teil 5: So führen Sie eine Dosissuche-Studie durch](../dose-finding-protocols/) verwandelt diese Strategie in medikamentenspezifische Protokolle — Leitern, Zeitrahmen, Zielgrößen und Abbruchkriterien für acht Medikamente.
+
+---
+
+*Dieser Artikel ist eine Patienten-zu-Patienten-Analyse, gegründet in etablierter Pharmakologie — siehe [@Loth2026mecfs] für das zugrunde liegende Dosis-Wirkungs-Rahmenwerk —, kein medizinischer Rat. Jeder besprochene Versuch erfordert die Zustimmung des Verschreibers; mehrere der genannten Medikamente erfordern Anfertigung oder Off-Label-Verschreibung. ME/CFS-Versuche bergen ein PEM-Risiko — Anstrengung während einer Dosierungsstudie ist Anstrengung während eines Experiments an der eigenen Schwelle.*
+
+*Dosis-Wirkungs-Reihe: [Teil 1: Warum mehr nicht besser ist](../more-isnt-better-ldn-lda/) · [Teil 2: Das umgekehrte U ist nicht eine Sache](../inverted-u-not-one-thing/) · [Teil 3: Ihre LDN-Dosis ist ein Diagnostikum](../dose-is-diagnostic-ldn/) · [Teil 4: Die Pharmakopöe](../pharmacopoeia-dose-meaning/) · [Teil 5: So führen Sie eine Dosissuche-Studie durch](../dose-finding-protocols/) · In Verbindung (dieser Beitrag)*

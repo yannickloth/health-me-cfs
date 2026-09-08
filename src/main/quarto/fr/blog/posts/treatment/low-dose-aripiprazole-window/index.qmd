@@ -1,0 +1,106 @@
+---
+title: "La dose idéale d'aripiprazole — pourquoi une dose infime fonctionne et qu'une plus forte cesse de le faire"
+description: "L'aripiprazole aide les patients atteints d'EM/SFC à une fraction de milligramme, puis cesse d'aider si la dose augmente. La plupart des gens supposent qu'une dose plus forte s'ajoute à une plus faible. Ce n'est pas le cas. Voici le mécanisme récepteur qui fait que ce médicament a besoin d'une fenêtre étroite — expliqué pas à pas."
+author: "Yannick Loth"
+date: "2026-09-06"
+categories: [Traitement, Pharmacologie, EM/SFC]
+lang: fr
+---
+
+Vous trouvez une dose qui fonctionne. Quelqu'un suggère de l'augmenter — après tout, si un peu aide, plus devrait aider davantage. Avec l'aripiprazole, c'est l'inverse qui se produit. Un patient qui s'améliore à 0,5 mg peut perdre tout bénéfice à 2 mg, et se sentir activement plus mal à 5 mg.
+
+On dirait que la dose s'est affaiblie. Ce n'est pas le cas. Le mécanisme a changé. Cet article explique, par étapes simples, pourquoi l'aripiprazole ne fonctionne qu'à l'intérieur d'une fenêtre de concentration étroite — et pourquoi pousser la concentration vers le haut ne préserve pas l'effet à faible dose. C'est une explication à sujet unique du mécanisme que la série dose-réponse classe comme l'U inversé de l'agoniste partiel.
+
+---
+
+## Le médicament se tient entre un interrupteur marche et un interrupteur arrêt
+
+Pour voir l'énigme, commencez par le récepteur. L'aripiprazole agit principalement sur le récepteur dopaminergique D2 — le point de signalisation qui pilote la motivation, la concentration et l'effort.
+
+La dopamine elle-même est un activateur *complet*. Quand elle se pose sur un récepteur D2, elle le commute à environ 100 % de sa capacité.
+
+L'aripiprazole ne peut pas faire cela. Sa forme moléculaire limite à quel point il peut courber le récepteur, donc il n'active D2 qu'à environ un quart de sa pleine capacité — environ 25–30 %. C'est ce que la pharmacologie appelle un *agoniste partiel* : il se lie au récepteur et le commute partiellement, et il est physiquement incapable de le commuter davantage, quelle que soit la quantité de médicament présente.
+
+Cette propriété unique — un plafond d'activation plafonné — est la graine de toute l'histoire. Mais elle ne devient paradoxale qu'une fois que vous voyez contre quoi le médicament est en compétition.
+
+---
+
+## La même molécule joue deux rôles opposés
+
+Le récepteur est normalement baigné dans la dopamine propre du corps. L'aripiprazole doit rivaliser avec cette dopamine pour le même site de liaison. Que le médicament élève ou abaisse la signalisation dépend du niveau local de dopamine — pas seulement du médicament.
+
+**Quand la dopamine est basse**, l'aripiprazole est un aide net. Le récepteur est en grande partie inactif ; l'aripiprazole s'y pose et l'élève à son plafond de 25–30 %. Par rapport à la quasi-nulle ligne de base, c'est une *augmentation*. Le médicament agit comme un faible stimulant, complétant un signal appauvri.
+
+**Quand la dopamine est déjà abondante**, l'aripiprazole devient un bloqueur net. La dopamine pourrait activer le récepteur à 100 %, mais l'aripiprazole occupe le site à la place et ne délivre que ses 25–30 %. En déplaçant le signal plus fort du corps, le médicament *abaisse* l'activation nette.
+
+Ainsi, une molécule fait des choses opposées dans différents contextes : elle élève le tonus là où il est déficient et l'abaisse là où il est élevé. La dose détermine quel contexte domine — et c'est de là que vient la fenêtre.
+
+---
+
+## Pourquoi augmenter la dose fait basculer le médicament d'aide à bloqueur
+
+La liaison suit une règle simple appelée loi d'action de masse : plus il y a de médicament présent, plus il occupe de récepteurs. Cette règle produit un seuil dans le comportement de l'aripiprazole.
+
+À faible concentration, seule une part modeste des récepteurs D2 est occupée. La dopamine en détient encore la plupart. Chez un patient déficient en dopamine, la petite fraction occupée ajoute un peu d'activation par-dessus — une aide nette. Crucialement, il reste de la place pour que la dopamine propre du corps continue son travail.
+
+À mesure que la concentration s'élève, le médicament prend le contrôle de toujours plus de récepteurs. Passé un point — environ la moitié des récepteurs occupée — la balance bascule. Désormais, l'aripiprazole déplace la dopamine de la majorité des sites. Au lieu de compléter quelques récepteurs inactifs, il réduit au silence un système de signalisation qui doit rester actif. L'agonisme net bascule en antagonisme net, et l'effet thérapeutique s'inverse.
+
+Il n'y a pas de second mécanisme séparé « haute dose » faisant le mal. C'est le *même* mécanisme fonctionnant passé son propre point de bascule : l'agoniste partiel est devenu un antagoniste en évinçant l'agoniste complet.
+
+C'est pourquoi plus n'est pas une version plus forte de moins. La sortie d'un agoniste partiel est plafonnée. Une fois que chaque récepteur disponible est déjà maintenu à 25–30 %, ajouter plus de médicament ne peut pas pousser le signal plus haut — cela ne peut que commencer à remplacer la dopamine sur des sites qui s'en sortaient mieux tout seuls. Passé la saturation, augmenter la concentration n'augmente pas l'effet à faible dose. Il le détruit.
+
+---
+
+## La faible dose fait quelque chose que la haute dose ne peut pas : elle agit à travers une population finement réglée
+
+Il y a une seconde raison pour laquelle la fenêtre importe, et elle se situe un niveau au-dessus des récepteurs uniques : *où* dans le cerveau le médicament agit en premier.
+
+L'aripiprazole ne se lie pas à chaque site D2 de manière égale. Il a une forte affinité pour une population spéciale — les *autorécepteurs* qui se trouvent sur les neurones qui libèrent la dopamine. Un autorécepteur agit comme un frein : quand il détecte la dopamine, il dit au neurone de ralentir sa propre libération. Un médicament qui engage légèrement ces autorécepteurs peut *désinhiber* la libération — il desserre le frein, et le neurone émet plus de dopamine là où elle est nécessaire.
+
+Aux micro-doses, l'aripiprazole engage de préférence cette population de fin réglage, plus les autorécepteurs sérotoninergiques 5-HT1A qui amortissent la signalisation de stress. L'effet net est un coup de pouce doux et ciblé dans les circuits gouvernant la motivation et le calme — précisément ce dont un patient déficient en dopamine a besoin.
+
+À des doses plus élevées, le médicament déborde vers les récepteurs D2 postsynaptiques bien plus nombreux dans tout le cerveau. Le réglage délicat de la libération est maintenant noyé par une occupation en masse des récepteurs qui reçoivent le signal. Le blocage de masse supplante la facilitation sélective. Le subtil effet à faible dose n'est pas amplifié ; il est enterré.
+
+Il vaut la peine d'être précis sur le langage ici. Les récepteurs D2 présynaptiques et postsynaptiques sont la *même protéine*. Ce ne sont pas deux types de récepteurs différents avec des affinités intrinsèques différentes. Ce qui diffère, c'est leur sensibilité fonctionnelle et le circuit dans lequel ils se trouvent — les autorécepteurs exercent tout leur effet à une occupation plus faible parce qu'ils n'ont besoin que d'un petit signal pour pousser la libération, et ils sont adossés à une plus grande réserve de récepteurs qu'une cible en aval. C'est une différence de localisation et de demande, pas une différence entre deux espèces moléculaires distinctes. Le résultat pratique est le même : une faible occupation règle, une forte occupation noie.
+
+---
+
+## Le tableau en une courbe
+
+Mettez les deux étapes ensemble et l'U inversé apparaît. Sur la branche gauche, plus de médicament = plus d'autorécepteurs occupés = plus de libération = bénéfice croissant. Quelque part au milieu se trouve l'optimum — la fenêtre où le médicament augmente la libération sans encore réduire au silence la signalisation postsynaptique. Sur la branche droite, l'occupation franchit le point de bascule, l'agonisme net devient un antagonisme net, et le bénéfice tombe vers le mal.
+
+```
+Bénéfice
+   ▲          ┌────────┐
+   │        ┌─┘        └─┐
+   │      ┌─┘   ← la     └─┐
+   │     ┌┘     fenêtre     └┐
+   │    ┌┘                  └┐
+   │   ┌┘                    └┐  ← haute dose :
+   └───┴──────────────────────┴────▶ concentration
+      0,2–2 mg             5+ mg
+```
+
+La fenêtre à faible dose n'est pas un signe que le médicament est faible. C'est un signe que le médicament fait quelque chose qui *exige* de la retenue — engager un système de fin réglage qui n'est présent que tant que le médicament n'a pas encore inondé le système plus vaste.
+
+---
+
+## Ce que cela signifie pour un patient
+
+Trois conséquences pratiques découlent du mécanisme.
+
+**Une dose qui fonctionne est un actif fragile.** Si vous bénéficiez à 0,5 mg, ce bénéfice dépend du maintien dans la fenêtre. Un médecin qui double la dose ne teste pas une version plus forte du traitement — il dépasse la population d'autorécepteurs et convertit le médicament en antagoniste net. La bonne réponse à une faible dose efficace est habituellement de la *protéger*, pas de l'augmenter.
+
+**La réponse et la non-réponse sont toutes deux de l'information.** Là où le bénéfice d'un patient s'inverse porte un sens sur son système dopaminergique. Un patient dont le bénéfice s'effondre à 1 mg a une réserve de récepteurs étroite — peu de récepteurs de réserve, donc une occupation modeste suffit à basculer dans l'antagonisme. Un patient qui tient le bénéfice jusqu'à 2 mg a une réserve plus large. La largeur de la fenêtre est une lecture de l'intégrité du système dopaminergique, pas une propriété aléatoire de la dose. C'est l'usage diagnostique de la courbe exploré dans la série dose-réponse.
+
+**Tout médicament qui se comporte ainsi n'est pas de l'hormèse.** Il est courant d'entendre des réponses en U inversé être appelées « hormèse » — l'idée qu'un stressor doux déclenche une réponse adaptative bénéfique. L'aripiprazole n'est pas cela. Il n'y a pas de signal de stress ni de régulation à la hausse compensatoire ; la courbe est une conséquence physique immédiate de l'occupation des récepteurs. Confondre les deux mène à de fausses prédictions sur la question de savoir si la fenêtre est entraînable ou si elle corrélera avec d'autres médicaments. La fenêtre de l'agoniste partiel est une propriété de la liaison du médicament, fixe chez tout patient déficient en dopamine.
+
+---
+
+## L'essentiel
+
+L'aripiprazole ne doit être ni trop fort ni trop faible parce que c'est un agoniste partiel travaillant en compétition avec un signal naturel plus fort. À faible occupation, il complète un système appauvri ; passé un point de bascule, il le réduit au silence. Augmenter la dose n'augmente pas l'effet à faible dose — il fait basculer le médicament d'aide en bloqueur. La fenêtre n'est pas une nuisance. C'est tout l'intérêt du médicament.
+
+---
+
+*Compagnon de la série dose-réponse : [Partie 1 : Pourquoi plus n'est pas mieux — LDN et LDA](../more-isnt-better-ldn-lda/) · [Partie 2 : L'U inversé n'est pas une seule chose](../inverted-u-not-one-thing/) · [Partie 4 : La Pharmacopée](../pharmacopoeia-dose-meaning/) · En lien : [Écartez la dose, pas le médicament](../dose-first-search-strategy/). La cascade mécanistique complète et la lecture diagnostique des fenêtres en U inversé sont développées dans [Loth 2026](https://yannickloth.github.io/health-me-cfs/).*

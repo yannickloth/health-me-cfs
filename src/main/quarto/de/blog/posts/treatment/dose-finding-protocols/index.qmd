@@ -1,0 +1,174 @@
+---
+title: "Teil 5: So führen Sie eine Dosissuche-Studie durch — Protokolle für acht Medikamente"
+description: "Die Strategie sagt: Verwerfen Sie die Dosis, nicht das Medikament. Dieser Artikel sagt: So geht das. Dosisleitern, Stufendauern, primäre Zielgrößen und Abbruchkriterien für acht Medikamente — mit jeder Zahl als etabliert, Kandidat oder spekulativ gekennzeichnet."
+author: "Yannick Loth"
+date: "2026-09-07"
+categories: [Behandlung, Pharmakologie, ME/CFS]
+lang: de
+---
+
+Der vorherige Artikel argumentierte, dass ein gescheiterter Versuch „diese Dosis ist gescheitert" bedeuten sollte, nicht „dieses Medikament ist gescheitert" — und dass das nächste billigste Experiment meist eine benachbarte Dosis desselben Medikaments ist. Dieses Argument ist wertlos ohne eine Ausführungsebene: *welche* Dosen, *wie lange* gehalten, gegen *was* gemessen, mit Stopp *wann*.
+
+Dieser Artikel liefert diese Ebene für acht Medikamente. Er ist der Protokoll-Begleiter zur Pharmakopöe: [Teil 4](../pharmacopoeia-dose-meaning/) stellt dar, was jedes Dosisband *bedeutet*; dieser Artikel legt fest, wie man die *Studie durchführt*, die die Daten erzeugt. Beide teilen dieselben Dosisbänder und müssen zusammen gelesen werden.
+
+---
+
+## So lesen Sie die Protokolle
+
+Jedes Protokollfeld trägt eine Evidenzstufe, konsistent mit der Konvention der Hauptarbeit:
+
+| Stufe | Bedeutung |
+|------|---------|
+| **E — etabliert** | Standardpharmakologie oder behördliche Kennzeichnung; würde keinen Apotheker überraschen |
+| **C — Kandidat** | Abgeleitet aus der ME/CFS-Gemeinschaftspraxis und dem Rahmenwerk des Niedrigdosis-Fensters; plausibel, nicht validiert |
+| **S — spekulativ** | Modellvorhersage (z. B. Cluster-Korrelationen), die auf Studien wartet; als Wette behandeln, nicht als Tatsache |
+
+Drei universelle Regeln vor jedem Protokoll:
+
+1. **Definieren Sie die primäre Zielgröße vor der ersten Dosis.** Ein Maß. Wenn die „Schlaf-"Studie mit einem Eindruck über die Stimmung endet, wurde nichts getestet.
+2. **Schreiben Sie die Abbruchkriterien auf und datieren Sie die Überprüfung.** Eine Studie ohne Abbruchdatum ist kein Experiment; sie ist eine Stimmung (siehe die Dosisdrift-Pathologie im [vorherigen Artikel](../dose-first-search-strategy/)).
+3. **Führen Sie keine Studien durch einen Crash.** Eine PEM-Episode während einer Dosierungsstudie misst das PEM, nicht die Dosis.
+
+---
+
+## 1. Low-Dose-Naltrexon (LDN)
+
+**Ziele (dosisbandiert):** TLR4/Nrf2-hormetisches Priming (~0,5–1,5 mg) · kompensatorische Opioid-Hochregulierung (~1,5–3 mg) · TRPM3-Wiederherstellung (~3–4,5 mg) — die vollständige Kaskade finden Sie in Teil 1. Jedes Ziel ist einzeln in vitro oder in Tiermodellen etabliert: Naltrexon als partieller TLR4-Antagonist an Mikroglia [@Younger2013], Opioidrezeptor-Blockade mit kompensatorischem Endorphin-Rebound [@Younger2013], TRPM3-Kalziumfluss-Wiederherstellung in ME/CFS-NK-Zellen [@Cabanas2018trpm3; @Cabanas2021] und die Verbindung von Entzündung zur Orexin-Unterdrückung [@Grossberg2011orexinLethargy]. Was *nicht* etabliert ist, ist die Zuordnung jedes Ziels zu einem klinischen Dosisband — dieser Teil ist Modellinferenz [@Loth2026mecfs].
+
+| Feld | Protokoll | Stufe |
+|-------|----------|------|
+| Dosisleiter | 0,5 mg × 2 Wo → 1 mg × 4 Wo → 1,5 mg × 4 Wo → (bei Teilansprechen) 2,25 mg × 4 Wo | E für den niedrigen Start; C für die Stufen |
+| Stufendauer | Mindestens 4 Wochen pro Sprosse unter 2 mg — der TLR4/Nrf2-Mechanismus ist transkriptionell; Urteile innerhalb von 2 Wochen messen Anpassung, nicht Wirkung | C |
+| Primäre Zielgröße | Müdigkeit oder Brain Fog, tägliche Selbsteinschätzung von 0 bis 10 | C |
+| Abbruchkriterien | Nutzen auf einer Sprosse → ≥8 Wo halten, bevor etwas geändert wird · kein Nutzen über den vollständigen Durchlauf 0,5–4,5 mg → Mechanismus-Lesart: LDNs Ziele sind nicht limitierend · anfängliches Aufflackern → halbieren, nicht aufgeben | C |
+| Anfertigung | Unter 2 mg: Rezeptur-Apotheke oder flüssig | E |
+| Erneut-Versuch-Regel | Ein Nullwert bei 3,5–4 mg schließt ~1 mg NICHT ab — anderer Mechanismus in diesem Band ([warum](../single-dose-failure-not-a-verdict/)) | C |
+
+**Häufiger Fehler:** Urteil bereits nach 3 Wochen auf einer Sprosse gefällt. Die Vier-Mechanismen-Struktur macht LDN zum *informationsreichsten* Medikament der Liste in Bezug auf die Dosis und daher zum verschwenderischsten, wenn es oberflächlich getestet wird.
+
+---
+
+## 2. Low-Dose-Aripiprazol (LDA)
+
+**Ziel:** partieller Dopamin-D2-Agonismus — mikrogliäre und katecholaminerge Modulation [@Crosby2021LDA]. Einzelnes Medikament; das Rahmenwerk sagt ein steiles, spitzes Fenster voraus (illustrativ: Dosen unter 1 mg können den Schutz verlieren, während 1 mg hält; eine Eskalation über die wirksame Dosis mag nichts hinzufügen) — S, Modellvorhersage [@Loth2026mecfs].
+
+| Feld | Protokoll | Stufe |
+|-------|----------|------|
+| Dosisleiter | 0,5 mg × 3–5 T (Verträglichkeit) → 1 mg × 6 Wo (das klinisch verwendete Beurteilungsfenster) | C (Crosby-2021-Kohortenmittel: 1,1 mg/Tag [@Crosby2021LDA]) |
+| Stufendauer | Tage für die Verträglichkeit, **Wochen für die Wirksamkeit** — beurteilen Sie die Wirkung nicht, bevor das Fenster des Verschreibers abgelaufen ist | C |
+| Primäre Zielgröße | Wählen Sie nach dem dominierenden Symptom: PEM-Häufigkeit, kognitive Klarheit oder Schlaf — nur eine | C |
+| Abbruchkriterien | Akathisie, Unruhe oder Bedenken eines Stimmungswechsels → stoppen und melden · kein Nutzen nach 6 Wo → verschreibergesteuerte Obergrenze gemäß dessen Praxis | C |
+| Anfertigung | Unter 2 mg erforderlich: Rezeptur-Apotheke (Standardtabletten ≥2 mg) | E |
+| Überwachung | Schlafarchitektur und Stimmungs-Selbstchecks (die dokumentierten LDA-Wirkungen sind qualitativ verschieden von einer Aktivierung vom Stimulanztyp — aber die Unterscheidung sollte *geprüft*, nicht angenommen werden) | C |
+| Erneut-Versuch-Regel | Eine Dosis, die den Schlaf erhielt, aber den PEM-Schutz verlor (das 0,75-mg-Muster), bedeutet, dass das Fenster symptom-spezifisch ist — pro Symptom kartieren, nicht pro Medikament | S |
+
+**Warum kurz funktionieren kann:** Ein 5-Tage-Versuch mit einer einzigen niedrigeren Dosis, mit einem verschreibervereinbarten Ziel und definierten Abbruchkriterien, kann in einer Woche ein sauberes Negativ liefern — und dennoch die Position der wirksamen Dosis stärken, weil das Fenster gesondiert und gehalten wurde. Das ist das Protokoll, das wie entworfen funktioniert.
+
+---
+
+## 3. Low-Dose-Lithium (elementares Lithium)
+
+**Ziel:** GSK-3β-Hemmung → Nrf2-Enthemmung bei Mikrodosen; IMPase-Wirkungen setzen bei höheren Mikrodosen ein (biphasische Zwei-Ziel-Dynamik). Die GSK-3β-Hemmung bei niedrigen Lithiumdosen ist präklinisch dokumentiert [@Fenech2023LithiumGSK3Beta]; ein kognitiver Nutzen bei Mikrodosen ist in Alzheimer- und neuropsychiatrischen Kohorten dokumentiert [@Nunes2013MicrodoseLithiumAD; @Wilson2017NP03MicrodoseLithium; @Strawbridge2023LowDoseLithium]. Die dosisabhängige GSK-3β-gegen-IMPase-Aufteilung ist Modellinferenz [@Loth2026mecfs].
+
+| Feld | Protokoll | Stufe |
+|-------|----------|------|
+| Dosisleiter | 0,3 mg → 1 mg → 3 mg → 5 mg elementares Lithium, ~2-Wo-Stufen | C |
+| Stufendauer | 2 Wochen genügen für subjektive Zielgrößen; das transkriptionelle Nrf2-Argument legt bei wirksamen Sprossen mehr nahe | C |
+| Primäre Zielgröße | Gleich wie beim ansprechbaren Nrf2-Cluster-Medikament des Patienten (wenn LDN bei 0,5–1,5 mg wirkte, lautet die Frage des Lithiums: „hält das Fenster-Cluster?") | S |
+| Abbruchkriterien | Tremor, Durst, Verwirrtheit → stoppen (Standard-Wahrnehmung der Lithiumtoxizität, obwohl Mikrodosen sie selten erreichen — E für die Warnung, C für die Schwelle) · kein cluster-konsistenter Nutzen über 0,3–5 mg → Fenster-Cluster-Hypothese für diesen Patienten geschwächt | C/S |
+| Überwachung | Bei Verlängerung über 5 mg oder langfristig: Standard-Lithiumüberwachung laut Verschreiber | E |
+
+---
+
+## 4. Pyridostigmin (Mestinon)
+
+**Ziel:** Acetylcholinesterase-Hemmung — peripherer cholinerger Tonus; relevant für die orthostatischen/vaskulären Symptomschichten [@Joseph2022pyridostigmine; @Raj2005Pyridostigmine]. Charakteristische dosisabhängige, M3-vermittelte GI-Motilitätswirkungen.
+
+| Feld | Protokoll | Stufe |
+|-------|----------|------|
+| Dosisleiter | Beginnen Sie mit der niedrigsten historisch vertragenen Dosis (z. B. 1 Tablette/Tag, wenn höhere Dosen GI-intolerabel waren) — nicht aufwärts von den intolerablen Dosen | C |
+| Stufendauer | 1–2 Wochen pro Sprosse; GI-Wirkungen treten schnell auf, ein vaskulärer Nutzen (falls vorhanden) braucht länger | C |
+| Primäre Zielgröße | Orthostatische/vaskuläre Symptombewertung — **nicht** allgemeine Müdigkeit | C |
+| Abbruchkriterien | Übermäßige Darmmotilität → stoppen; die Intoleranz dieses Medikaments ist dosisabhängig und *spezifisch*, und eine niedrigere Sprosse kann GI-ruhig sein, wo höhere es nicht waren | C |
+| Schlüsselasymmetrie | Eine frühere Intoleranz bei höheren Dosen schließt die Frage der niedrigeren Dosis NICHT ab — ein Patient, der wegen GI-Gründen bei 3×1/Tag aufhörte, kann 1/Tag dennoch verträglich finden; diese Sprosse ist ein separates Experiment | C |
+| Zu protokollierende Störfaktoren | Mahlzeiten, Bewegung, Koffein — GI-Störfaktoren sind bei diesem Medikament dicht | C |
+
+---
+
+## 5. Methylphenidat (Ritalin MR) und niedrig dosierte Stimulanzien
+
+**Ziel:** Hemmung der Katecholamin-Wiederaufnahme. Bei ME/CFS ist das dokumentierte Muster ein invertiertes U *und* eine PEM-Induktion bei hohen Stimulusdosen. Die doppelblinde Crossover-RCT fand, dass Methylphenidat die Müdigkeit bei CFS reduzierte [@Blockmans2006MPHCFS], und die Langzeit-Nachbeobachtung fand einen dauerhaften Nutzen bei etwa einem Drittel der Weitermachenden mit einer hohen Abbruchrate — konsistent mit dem Stimulanz-PEM-Handel, den das Protokoll messen soll [@Blockmans2016LongTermMPH].
+
+| Feld | Protokoll | Stufe |
+|-------|----------|------|
+| Dosisleiter | Beginnen Sie deutlich unter den Dosen, die zuvor Probleme verursachten — z. B. eine MR-10-mg-Sonde, wenn MR 30 mg PEM induzierte; 5-mg-Äquivalente mit sofortiger Freisetzung für feinere Stufen | C |
+| Stufendauer | 3–7 Tage pro Sprosse — Stimulanzwirkungen auf Nutzen und PEM-Induktion zeigen sich schnell | C |
+| Primäre Zielgröße | Funktion pro Anstrengungskosten, nicht rohe Wachheit. Ein Stimulans, das Wachheit gegen PEM einkauft, ist ein Nettoverlust — die Zielgröße muss den Verlust sehen können | C |
+| Abbruchkriterien | PEM-Induktion auf einer Sprosse → diese Sprosse liegt über dem Fenster; stufen Sie ab, „drücken Sie nicht durch" | C |
+| Interaktionshinweis | Im Primärbericht dokumentiert: frühere hochdosierte Stimulanz-Kombinationen bei unbehandeltem ME/CFS erzeugten erregungs-/manieartige Zustände — eine absolute Obergrenze-Erwägung, Verschreiber-Territorium | E für die Risikoklasse |
+
+---
+
+## 6. Der MCAS-Stack (Famotidin · Rupatadin · Montelukast)
+
+**Ziele:** H2- · H1/PAF- · Leukotrien-Rezeptoren. Langjährig, gehen den meisten anderen Versuchen voraus und liegen meist *bereits* in ihren Fenstern — was sie zum Stack macht, der vor jedem Eingriff instrumentiert werden sollte. Antihistamin-/PAF-Antagonist-Kombinationen (H1 + H2) zeigen in mastzellgetriebenen Syndromen klinische Wirkung [@Salvucci2023antihistamineLongCOVID], und hochdosierter H1/PAF-Antagonismus (Rupatadin) ist in Mastzell- und Urtikaria-Kontexten dokumentiert [@Magerl2015rupatadine; @Izquierdo2024rupatadine].
+
+| Feld | Protokoll | Stufe |
+|-------|----------|------|
+| Studientyp | Keine Dosissuche, sondern **De-Challenge/Re-Challenge**: Entzug der Einzelkomponente × 2 Wo mit Symptom-Scoring, dann Wiederherstellen. Ermittelt den Beitrag jeder Komponente | C |
+| Dosishinweis | Antihistaminika zeigen in der Pharmakopöe invertiertes-U-Verhalten (H1-Sedierung/anticholinerge Last bei hohen Dosen); bei Eskalation die Bänder der Pharmakopöe offen halten | C |
+| Primäre Zielgröße | Das Symptom, das die Komponente ursprünglich rechtfertigte (z. B. reaktive Symptome, Nahrungsantworten) | C |
+| Abbruchkriterien | Symptomrückkehr bei De-Challenge → Komponente als tragend bestätigt; keine Veränderung → Kandidat für eine Absetz-Diskussion | C |
+
+**Warum einen funktionierenden Stack einschließen:** Ein Dosissuche-Artikel, der nur Fehlschläge behandelt, lehrt die falsche Lektion. Zu bestätigen, dass eine wirksame Komponente tragend ist — billig, eine Komponente nach der anderen —, ist ebenfalls Dosisinformation, und es schützt vor versehentlichem Absetzen während anderer Studien.
+
+---
+
+## 7. Melatonin (niedrig dosiert)
+
+**Ziel:** chronobiotisch bei niedrigen Dosen; hypnotisch (und anderes Rezeptorprofil) bei hohen Dosen — ein lehrbuchmäßiges invertiertes U, das die meisten Patienten rückwärts nehmen. Niedrig dosiertes (0,5 mg) Melatonin verschiebt die Phase der zirkadianen Uhr, ohne die endogene Sekretion zu unterdrücken [@Burgess2010melatonin]; bei CFS verbesserte DLMO-geführte Melatonin-Timing die Müdigkeit bei Patienten mit verzögerter Phase [@vanHeukelom2006melatonin]. Das Framing „niedrige Dosis ist chronobiotisch, hohe Dosis ist hypnotisch" und seine Anwendung bei ME/CFS ist Modellinferenz [@Loth2026mecfs].
+
+| Feld | Protokoll | Stufe |
+|-------|----------|------|
+| Dosisleiter | 0,3 mg → 0,5 mg → 1 mg → 3 mg, absteigend **falls** höhere Dosen weniger wirkten (die übliche Überraschung) | C (Begründung der physiologischen Dosis 0,3 mg: E) |
+| Stufendauer | 1 Woche pro Sprosse, nächtlich bewertet | C |
+| Primäre Zielgröße | Einschlaflatenz oder nächtliches Erwachen — die chronobiotische Behauptung betrifft das *Timing*, nicht die Sedierungstiefe | C |
+| Timing | 2–4 Std vor dem angestrebten Schlafbeginn bei niedrigen Dosen (chronobiotisches Fenster), nicht zur Bettgehzeit (hypnotische Gewohnheit) — das Timing ist die halbe Dosis bei diesem Medikament | C/E gemischt |
+| Abbruchkriterien | Benommene Morgen auf einer Sprosse → über dem Fenster, stufen Sie ab · keine Wirkung auf keiner Sprosse → vor dem Aufgeben eine Timing-Änderung versuchen | C |
+
+---
+
+## 8. Modafinil
+
+**Ziel:** Förderung der Wachheit, katecholaminerg/Orexin-benachbart [@Volkow2009modafinil]. Die Dosierungslogik gilt wie bei den anderen Stimulanzien: invertiertes U mit Angst/Überstimulation auf dem oberen Arm. Beim chronischen Erschöpfungssyndrom fand ein doppelblinder Crossover, dass Modafinil in Standarddosis keinen Müdigkeitsnutzen brachte und die Kognition bei 400 mg verschlechterte [@Randall2005modafinil] — der Anker, um *unterhalb* des Standardbereichs zu beginnen.
+
+| Feld | Protokoll | Stufe |
+|-------|----------|------|
+| Dosisleiter | Viertel-Tablette (25–50 mg) → halbe (100 mg) — *unter* den Standard-100–200 mg beginnen, anders als bei der Dosierung der Allgemeinbevölkerung | C |
+| Stufendauer | Eintägige Sonden, ≥48 Std Abstand, vor mehrtägigen Versuchen | C |
+| Primäre Zielgröße | Wachheit **und** PEM-Check am Folgetag — dieses Medikament verführt am stärksten zum Fehler „vom Morgen leihen", den die Ritalin-Zielgröße abfangen soll | C |
+| Abbruchkriterien | Angst, Überstimulation → über dem Fenster · Folgetags-Crash → die Sprosse fügt PEM-Schuld hinzu; das Medikament kostet mehr, als es einbringt | C |
+
+---
+
+## Ein Nullwert über alle acht Protokolle lesen
+
+Wenn eine ordnungsgemäß durchgeführte Studie einen Nullwert liefert, gehen Sie die Tabelle der Alternativerklärungen aus dem vorherigen Artikel in der Reihenfolge der Kosten durch: benachbarte Dosis → längere Dauer → neu bewertete Zielgröße → Mechanismus-Argument. Die obigen Protokolle sind so gebaut, dass die ersten drei meist bereits *durch die Studie selbst* beantwortet sind — die Leiter deckte benachbarte Dosen ab, die Stufendauern deckten den Zeitrahmen ab, die vordefinierte Zielgröße deckte die Messung ab. Was übrig bleibt, ist die Mechanismus-Lesart, die kein Scheitern der Studie ist, sondern ihr Produkt: ein Medikament, dessen Ziele in Ihrem Fall nicht limitierend sind, zu angemessenen Kosten gestrichen.
+
+Das ist der Zielzustand der gesamten Suche: Jede Studie — positiv oder null — hinterlässt eine Karte mit einer zusätzlichen eingefärbten Region.
+
+---
+
+## Die Ehrlichkeits-Ebene
+
+**Jede Zahl oben ist aus einem Grund gestuft.** Die Dosisbänder stammen aus dem Pharmakopöe-Rahmenwerk (Teil 4) und letztlich aus der Invertiertes-U-Analyse der Hauptarbeit — etablierte Pharmakologie, wo mit E markiert, Gemeinschafts-und-Modell-Inferenz, wo mit C markiert, und explizite Wetten, wo mit S markiert. Die Cluster-Korrelations-Idee (Fenster, die sich über mechanistisch verwandte Medikamente hinweg folgen) ist die zentrale falsifizierbare Vorhersage des Rahmenwerks, kein Ergebnis. Wenn das Rahmenwerk falsch ist, bleiben die *Dosis-Wirkungs-Daten, die Sie mit diesen Protokollen sammeln, gültig* — nur die interpretierende Schicht darüber würde fallen. Die Motivation ist nicht hypothetisch: Die kontrollierten LDN-Studien, die es gibt, sind Einstudien-Studien und lieferten auf ihren primären Endpunkten Nullwerte [@DueBruun2024LDNFibromyalgia; @Ologunowa2025LDNFMMeta] — in keiner Erkrankung wurde je eine Dosis-Wirkungs-Studie innerhalb des Bereichs durchgeführt, genau die Lücke, die diese Protokolle schließen sollen [@Loth2026mecfs].
+
+**Die Protokolle sind Vorlagen, keine Verschreibungen.** Dosen interagieren — miteinander, mit der Krankheitsphase, mit der eigenen Geschichte des Patienten. Die illustrativen Zahlen stammen aus pharmakologischem Denken und ME/CFS-Gemeinschaftserfahrung, nicht aus validierten Studien; die Interpatienten-Extrapolation ist eine Hypothese. Ihr Verschreiber legt die tatsächlichen Zahlen fest; diese Protokolle strukturieren das Gespräch, und mehrere dieser Medikamente (angefertigte niedrige Dosen, Off-Label-Gebrauch, Stimulanzien) sind ohne einen solchen nicht zugänglich.
+
+**PEM-Risiko ist eine Studienvariable, keine Fußnote.** Jede Sprosse jeder Leiter ist ein Experiment, das auf einem Energiebudget durchgeführt wird, das Überanstrengung nicht verzeiht. Anstrengung während einer Dosierungsstudie ist Anstrengung während eines Experiments an der eigenen Schwelle — die kurzen Dauern der Protokolle existieren teilweise aus diesem Grund.
+
+---
+
+*Patienten-zu-Patienten-Analyse, gegründet im pharmakologischen Rahmenwerk von @Loth2026mecfs — kein medizinischer Rat. Jede Studie erfordert die Zustimmung des Verschreibers. Die Dosisbänder verweisen auf Teil 4 dieser Reihe; Strategie und Fehlermodi werden im Begleitartikel [Verwerfen Sie die Dosis, nicht das Medikament](../dose-first-search-strategy/) behandelt.*
+
+*Dosis-Wirkungs-Reihe: [Teil 1: Warum mehr nicht besser ist](../more-isnt-better-ldn-lda/) · [Teil 2: Das umgekehrte U ist nicht eine Sache](../inverted-u-not-one-thing/) · [Teil 3: Ihre LDN-Dosis ist ein Diagnostikum](../dose-is-diagnostic-ldn/) · [Teil 4: Die Pharmakopöe](../pharmacopoeia-dose-meaning/) · Teil 5 (dieser Beitrag) · In Verbindung: [Verwerfen Sie die Dosis, nicht das Medikament](../dose-first-search-strategy/)*

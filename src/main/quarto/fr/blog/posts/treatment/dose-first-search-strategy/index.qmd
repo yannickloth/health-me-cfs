@@ -1,0 +1,164 @@
+---
+title: "Écartez la dose, pas le médicament — comment un seul essai raté envoie des patients dans des recherches de plusieurs années"
+description: "« J'ai essayé le LDN. Ça n'a pas marché. » Cette phrase enregistre un verdict sur un médicament alors que les preuves ne soutiennent qu'un verdict sur une dose, une durée et un critère de jugement. L'asymétrie est brutale : un réessai à une dose voisine coûte des jours ; un médicament écarté à tort peut coûter des années. Voici la stratégie de recherche qui tient les deux modes d'échec en échec."
+author: "Yannick Loth"
+date: "2026-09-07"
+categories: [Traitement, Pharmacologie, EM/SFC]
+lang: fr
+---
+
+Vous avez essayé un médicament. Ça n'a pas fonctionné. Vous passez à autre chose — et la recherche de ce qui *va* fonctionner continue : un autre médicament, puis un autre, puis un complément, puis un protocole posté par quelqu'un à 3 heures du matin. Deux ans passent. Quelque part dans cette histoire se trouve un médicament qui a échoué à 0,75 mg alors que sa fenêtre thérapeutique se situait à 1,2 mg. Vous ne le saurez jamais. Le verdict est scellé, et il a été enregistré contre la mauvaise variable.
+
+Cet article ne porte pas sur la pharmacologie des fenêtres de dose — ce terrain est couvert par les quatre pièces compagnes de celle-ci (pourquoi augmenter une dose efficace peut tuer le bénéfice, pourquoi une dose nulle n'exclut pas les autres, comment lire une courbe dose-réponse comme outil diagnostique, et l'atlas de dose médicament par médicament). Cet article porte sur la couche décisionnelle *par-dessus* cette pharmacologie : comment les patients et les médecins transforment un essai raté en stratégie de recherche, et pourquoi la stratégie par défaut — essayer de nouveaux médicaments plutôt que des doses voisines — est habituellement la plus coûteuse.
+
+---
+
+## L'asymétrie qui devrait tout piloter
+
+Deux erreurs sont possibles quand un essai échoue :
+
+| Erreur | Coût |
+|---------|------|
+| **Écart prématuré** — le médicament fonctionne à une dose que vous n'avez jamais essayée ; vous cherchez ailleurs pendant des années | Des années, plus le risque cumulé de chaque alternative essayée entre-temps |
+| **Recherche de dose sans fin** — aucune condition d'arrêt ; « peut-être que la dose était fausse » justifie essai après essai à l'infini | Budget d'énergie, risque de PEM, et une recherche qui ne peut jamais conclure |
+
+Les coûts sont asymétriques et pointent dans des directions opposées — c'est exactement pourquoi aucune des deux erreurs ne peut être résolue en avertissant simplement contre l'autre. « N'écartez pas trop vite », pris seul, devient la recherche sans fin. « Passez vite à autre chose », pris seul, devient le verdict prématuré. La seule sortie est une stratégie de recherche *structurée* : prochaines étapes classées, critères de jugement définis et conditions d'arrêt. Le reste de cet article construit cette structure.
+
+Un exemple illustratif (un composite, pas une personne précise) cadre l'ensemble. Un patient sous aripiprazole à faible dose (LDA) à 1 mg — une dose au bénéfice bien documenté dans l'étude ME/CFS sur l'aripiprazole à faible dose (moyenne de cohorte ~1,1 mg/jour) [@Crosby2021LDA] — mène un essai de 5 jours à 0,75 mg pour tester si le sommeil s'améliorerait. Ce n'est pas le cas. Pire : la fatigue s'aggrave, et un épisode de PEM suit trois heures de conduite, avec une migraine sévère. Une brève escalade à 1,5 mg ne fait rien non plus. Le patient revient à 1 mg et se rétablit.
+
+Lisez-le des deux façons :
+
+- **Mauvaise lecture :** « Les doses d'aripiprazole sont imprévisibles ; le médicament est fragile ; évitez d'expérimenter. » (Aussi tentant : « l'essai a échoué, quelque chose ne va pas ».)
+- **Bonne lecture :** un négatif propre, bon marché et limité dans le temps qui *renforce* le dossier du médicament. La fenêtre est sondée à 0,75 mg (trop bas — protection contre le PEM perdue) et à 1,5 mg (aucun bénéfice ajouté), et le pic reste à 1 mg. Sept jours de risque achètent une carte dose-réponse affûtée.
+
+Voilà à quoi ressemble un essai raté quand la stratégie de recherche est saine. La position du médicament s'est améliorée parce que la *dose* a absorbé l'échec.
+
+---
+
+## Ce que « échoué » doit enregistrer pour rester réessayable
+
+Le piège de l'écart prématuré est posé au moment de la tenue des dossiers, pas au moment de décider. Comparez deux entrées de journal :
+
+| Entrée | Ce qu'elle dit sur le médicament | Réessayable ? |
+|-------|--------------------|-------------|
+| « Le LDN n'a pas fonctionné. » | Rien d'utile | Non — la variable qui a échoué n'est pas enregistrée |
+| « LDN 3,5–4 mg, ~6 mois, fatigue comme critère : aucune réponse. ~1 mg non testé ; pharmacologie distincte dans cette plage. » | Une dose précise, une durée adéquate, un critère défini — et un voisin non testé nommé | Oui — et l'hypothèse de réessai est déjà écrite |
+
+La deuxième entrée explique pourquoi un réessai de naltrexone à dose plus faible peut être *défendable* dans le dossier d'un patient et indéfendable dans celui d'un autre : à des doses plus élevées, la naltrexone à faible dose engage un profil pharmacologique différent de celui d'environ 1 mg — le résultat nul à 4 mg a testé un mécanisme et est resté muet sur l'autre (voir [Un échec à une dose unique n'est pas un verdict](../single-dose-failure-not-a-verdict/) pour l'argument de l'occupation des récepteurs).
+
+La discipline se généralise. Chaque essai terminé devrait enregistrer quatre variables :
+
+1. **Dose** — dose réellement prise, pas dose prescrite (les écarts d'observance et de préparation sont courants).
+2. **Durée** — par rapport à l'échelle de temps attendue du médicament. Deux jours ne sont un verdict sur rien pour un médicament dont le mécanisme est transcriptionnel ; six semaines peuvent encore être courtes pour d'autres.
+3. **Critère de jugement** — défini *avant* de commencer, idéalement un seul principal. Un essai « pour le sommeil » qui se termine par une impression sur l'humeur n'a rien testé.
+4. **Facteurs de confusion** — météo, effort, autres changements dans la pile, infection. Un essai mené à travers un effondrement est un essai de l'effondrement.
+
+Un essai avec les quatre variables enregistrées reste réessayable pour toujours. Un essai sans aucune devient du folklore — et c'est le folklore qui se fait écarter.
+
+---
+
+## Le tableau des explications alternatives
+
+« Le médicament X a échoué » est une conclusion qui correspond à au moins six prémisses. Elles ne sont pas toutes aussi bon marché à tester :
+
+| Explication d'un essai nul | Test discriminant le moins cher |
+|---------------------------|------------------------------|
+| Mauvaise dose | Essai à dose voisine — même médicament, une variable déplacée |
+| Durée inadéquate | Prolonger le même essai au-delà de l'échelle de temps attendue du mécanisme |
+| Mauvais critère de jugement | Réévaluer les données de l'essai *existant* contre un autre critère |
+| Mauvais mécanisme pour ce patient | Le résultat nul à dose adéquate et durée adéquate lui-même — c'est une vraie lecture mécanistique, pas un échec de technique |
+| Symptôme non piloté par la cible | Travail différentiel *avant* l'essai ; souvent le test le moins cher de tous |
+| Intolérance, pas non-réponse | Le profil d'effets secondaires distingue les deux — une réponse de dose nocive est aussi de l'information |
+
+Remarquez le classement par coût. En descendant le tableau, les tests deviennent plus chers et moins réversibles. Le réessai de dose est en haut parce qu'il modifie exactement une variable pharmacocinétique sur un médicament dont la tolérabilité est déjà connue. Un nouveau médicament change tout à la fois — nouvelles cibles, nouveaux effets secondaires, nouvelles interactions avec la pile existante — et répond à une question *plus bruitée* par conséquent.
+
+C'est le principe dose-d'abord : **quand un essai échoue, l'expérience suivante la moins chère est habituellement une dose voisine du même médicament, pas un nouvel agent.** Les nouveaux médicaments viennent après que l'axe des doses du médicament actuel a été cartographié — ou après qu'un véritable argument mécanistique a écarté la cible du médicament.
+
+---
+
+## Les trois pathologies de recherche
+
+Les patients dans de longues recherches tendent à tomber dans l'un de trois schémas reconnaissables. Les nommer est utile parce que chacun a un correctif différent :
+
+**Le verdict à un seul essai.** Chaque médicament a droit à une seule tentative à une seule dose. La recherche progresse large et peu profonde : vingt médicaments, zéro carte dose-réponse. *Correctif :* avant d'ajouter le médicament numéro vingt et un, redescendez la liste et trouvez les essais à la couverture de dose la plus étroite. Ce sont les faux négatifs les plus probables.
+
+**Le collectionneur de médicaments.** Le schéma inverse : un nouvel agent toutes les quelques semaines, aucun maintenu assez longtemps pour produire un résultat nul lisible. L'armoire à pharmacie se remplit ; la carte reste vierge. *Correctif :* une durée d'essai minimale par classe de médicament, convenue à l'avance, et une règle selon laquelle aucun nouvel agent ne commence avant que l'essai en cours n'atteigne un verdict.
+
+**La dérive de dose.** Aucune échelle planifiée du tout — la dose erre de haut en bas au ressenti, en réponse aux symptômes, sans paliers définis ni critère défini. Chaque dose prise est une donnée, mais aucune deux doses n'est comparable, donc rien n'est appris. *Correctif :* une échelle écrite avant le premier changement de dose (l'article deux de cette paire fournit les modèles).
+
+Les trois pathologies partagent une cause racine : l'essai n'est pas conçu comme une *expérience* — avec une question, une mesure et une condition d'arrêt — mais vécu comme une humeur. Le correctif est le même dans chaque cas.
+
+---
+
+## Le signal « a presque fonctionné » mérite sa propre attention
+
+L'information la plus sous-utilisée dans les rapports de patients est la réponse partielle : sommeil un peu mieux mais fatigue pire ; douleur en baisse mais intolérance orthostatique en hausse. Les patients tendent à faire la moyenne de ces éléments en « pas de réel effet ». Cette moyenne détruit le signal le plus actionnable de l'ensemble de données.
+
+Une réponse partielle dit quelque chose qu'un résultat nul plat ne dit pas : **la cible est pertinente** — un système que le médicament touche est connecté à un symptôme — mais la dose, ou la correspondance symptôme-à-mécanisme, est fausse. La bonne réponse à une réponse partielle n'est presque jamais l'écart. C'est la décomposition : quel symptôme a bougé, dans quelle direction, à quelle dose — et ce schéma correspond-il à l'une des bandes de dose connues du médicament ? (Pour les médicaments à mécanismes multiples à différentes concentrations, cette décomposition est exactement l'objet de l'atlas de dose — voir [La Pharmacopée](../pharmacopoeia-dose-meaning/).)
+
+L'exemple illustratif ci-dessus contenait une réponse partielle qui serait invisible sans décomposition : à 0,75 mg, la protection contre le PEM *s'aggrave* tandis que la question du sommeil reste ouverte. Cette dissociation — protection perdue alors que le sommeil est inchangé — est ce qui distingue « mauvaise dose pour tout » de « mauvaise dose pour le sommeil seulement », et il suffit d'un tableau pour le voir.
+
+---
+
+## Quand l'écart *est* correct
+
+Un article argumentant contre l'écart prématuré doit au lecteur le tableau inverse. L'écart est le bon choix — et passer à autre chose est la victoire — quand :
+
+| Condition | Pourquoi elle clôt la question |
+|-----------|---------------------------|
+| Plage de dose adéquate couverte (y compris les bandes de fenêtre connues, là où établies) | L'explication par la dose a été testée, pas écartée par hypothèse |
+| Durée adéquate pour l'échelle de temps du mécanisme | L'explication par la durée a été testée |
+| Critère de jugement adapté à l'indication du médicament, mesuré correctement | L'explication par la mesure a été testée |
+| Aucune réponse, aucune réponse partielle, aucun signal d'effet secondaire dose-dépendant | Il n'y a aucun signal nulle part sur l'axe |
+| Un argument mécanistique de non-réponse existe | Le résultat nul est *attendu* vu ce que les autres réponses du patient impliquent |
+
+La dernière ligne importe le plus et est la plus négligée. Les réponses à un médicament contraignent les attentes pour les autres : un patient qui répond dans une grappe mécanistique et pas dans une autre a déjà mené, gratuitement, une expérience qui prédit où la recherche ultérieure rapportera. Le résultat nul qui arrive *après* cette prédiction n'est pas une déception — c'est une confirmation que la carte fonctionne, et quitter ce territoire est la récompense correcte.
+
+---
+
+## Quoi apporter au médecin
+
+La plupart des patients ne peuvent pas ajuster leurs doses unilatéralement — et ne devraient pas. Plusieurs de ces médicaments exigent une préparation, une prescription hors AMM ou simplement l'accord d'un prescripteur. Le réessai vit donc ou meurt selon que la proposition est facile à accepter. Une demande de réessai qui tient sur une page fait cela ; un vague « peut-on réessayer, peut-être plus bas ? » ne le fait pas.
+
+Le protocole sur une page :
+
+| Champ | Exemple |
+|-------|---------|
+| Médicament et question | Aripiprazole 0,75 mg — le sommeil s'améliore-t-il par rapport à 1 mg ? |
+| Échelle de dose et durée de palier | 0,75 mg × 5 jours ; escaladez ou revenez selon le critère |
+| Critère de jugement principal (défini à l'avance) | Qualité/quantité de sommeil, auto-évaluée chaque nuit |
+| Conditions d'arrêt | Aucun changement au jour 5 → revenez à 1 mg ; aggravation → revenez immédiatement |
+| Date de revue | Fixe, écrite |
+| Risques connus et suivi | Réponse antérieure à 1 mg documentée ; risque de PEM reconnu |
+
+Un essai mené exactement ainsi, avec l'accord du prescripteur, peut produire une réponse décisive en une semaine. Le protocole est la persuasion : il montre au médecin que « réessayer à une dose différente » ne rouvre pas un vieil argument mais mène une petite expérience bornée avec une sortie définie.
+
+---
+
+## La couche d'honnêteté
+
+Trois réserves, énoncées clairement parce que la force de l'argument invite à l'excès :
+
+**La base de preuves du cadre est du raisonnement pharmacologique plus de l'expérience communautaire, pas des essais contrôlés.** Le comportement de fenêtre de dose illustré ici — un 1 mg efficace flanqué d'un 0,75 mg inefficace en dessous et d'un 1,5 mg inefficace au-dessus — est la carte d'un patient hypothétique unique, construite pour être pharmacologiquement cohérente. Cette dose-réponse non monotone est *un phénomène réel et documenté* à travers de nombreux systèmes biologiques — le corpus d'hormèse [@Calabrese2021Nrf2; @Calabrese2002hormesisHistory] et la pharmacologie multi-bandes documentée de la naltrexone à faible dose en particulier [@Younger2013; @Cabanas2018trpm3; @Loth2026mecfs]. Mais la prédiction que les « médicaments ratés » d'un patient *donné* sont souvent des échecs de dose est une *hypothèse*, motivée par ces courbes abruptes et non monotones et par la variabilité inter-patients de l'exposition (métabolisme, poids, sévérité, médicaments en interaction). Ce n'est pas un fait établi sur aucun patient.
+
+**La version infalsifiable de cette idée est un piège.** « La dose était toujours fausse quelque part » peut excuser n'importe quel échec et justifier n'importe quelle recherche. C'est pourquoi les conditions d'arrêt de cet article ne sont pas une décoration facultative — elles sont ce qui sépare une stratégie dose-d'abord d'une stratégie sans fin. Si un réessai ne peut pas nommer son critère de jugement et sa date d'arrêt à l'avance, il ne devrait pas être mené.
+
+**Et le cadre clinique :** rien ici n'est une recommandation de s'auto-adapter des doses. Les médicaments discutés ont de vrais profils d'effets secondaires, de vrais risques d'interaction et — à faibles doses — de vraies barrières pratiques (préparation, statut hors AMM). Le principe dose-d'abord est une proposition sur quoi discuter avec votre prescripteur, dans quel ordre et à quel coût. Le modèle de protocole ci-dessus est le format de cette discussion, pas un substitut à celle-ci.
+
+---
+
+## La version courte
+
+- « Le médicament X a échoué » est presque toujours une affirmation sur une dose, une durée et un critère de jugement. Enregistrez les trois, ou le verdict est scellé contre la mauvaise variable.
+- Quand un essai échoue, l'expérience suivante la moins chère est habituellement une dose voisine du même médicament — une variable déplacée — pas un nouvel agent.
+- Une réponse partielle n'est pas un résultat nul mou. Elle dit que la cible est pertinente. Décomposez-la avant d'écarter.
+- L'écart est correct — et une victoire — une fois que la dose, la durée, le critère et l'argument mécanistique ont tous eu leur tour. Les conditions d'arrêt sont ce qui rend la recherche finie.
+- Apportez au médecin un protocole sur une page : question, échelle, critère de jugement principal, conditions d'arrêt, date de revue. Le protocole est la persuasion.
+
+**Lecture compagne :** la [Partie 5 : Comment mener un essai de recherche de dose](../dose-finding-protocols/) transforme cette stratégie en protocoles par médicament — échelles, échelles de temps, critères de jugement et conditions d'arrêt pour huit médicaments.
+
+---
+
+*Cet article est une analyse de patient à patient fondée sur une pharmacologie établie — voir [@Loth2026mecfs] pour le cadre dose-réponse sous-jacent — pas un avis médical. Chaque essai discuté exige l'accord du prescripteur ; plusieurs des médicaments mentionnés exigent une préparation ou une prescription hors AMM. Les essais EM/SFC comportent un risque de PEM — l'effort pendant un essai de dose est un effort pendant une expérience sur votre propre seuil.*
+
+*Série dose-réponse : [Partie 1 : Pourquoi plus n'est pas mieux](../more-isnt-better-ldn-lda/) · [Partie 2 : L'U inversé n'est pas une seule chose](../inverted-u-not-one-thing/) · [Partie 3 : Votre dose de LDN est un diagnostic](../dose-is-diagnostic-ldn/) · [Partie 4 : La Pharmacopée](../pharmacopoeia-dose-meaning/) · [Partie 5 : Comment mener un essai de recherche de dose](../dose-finding-protocols/) · En lien (cet article)*
