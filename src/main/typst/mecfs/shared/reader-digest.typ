@@ -24,7 +24,7 @@ Four mechanisms are proposed as trigger-capable root causes: CNS energy crisis, 
 
 This document is deliberately honest about what is not known:
 
-- The trigger-capable root causes above are **hypotheses**, not established facts. Each is assigned a certainty score.
+- The trigger-capable root causes above are *hypotheses*, not established facts. Each is assigned a certainty score.
 - Much of the treatment evidence is weak: small studies, open-label designs, or patient-reported surveys.
 - The two-hit model (neuronal genetic vulnerability + environmental trigger) is a strong but not proven framework.
 - Several claims remain at the level of speculation and are explicitly marked as such.

@@ -38769,7 +38769,7 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
         - *Quality:* Medium (controlled but non-randomized, open)
         - *Sample:* Moderate (n=145)
         - *Replication:* Single pilot
-        - *Score:* 0.60 raw × 0.80 post-viral/long-COVID overlap weight = **discounted 0.48**
+        - *Score:* 0.60 raw × 0.80 post-viral/long-COVID overlap weight = *discounted 0.48*
 
 === Kapel et al.\ 2025 — Individualized Algorithm-Based IHHC for Post-COVID (Open Cohort) — PROTOCOL REF 40
 
@@ -38782,12 +38782,12 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
         - Pain reduced 28–32% (above clinically relevant threshold) at both time points.
         - No serious adverse events.
     / *Conclusion:*: Personalized algorithm-based IHHC alleviated pain and improved QoL in long-term post-COVID sequelae, sustained to 6 months.
-    / *Limitations:*: Open, non-controlled; commercial-source data (SANA Medical Systems); authors Stokholm/Elmengaard/Foldager are co-founders/shareholders of SANA. **Overlaps REenergizeME team** (Olsen RJ, Stokholm, Foldager, Nochi Z) AND device/protocol; its SF-36 effect used for REenergizeME power calculation. No placebo control.
+    / *Limitations:*: Open, non-controlled; commercial-source data (SANA Medical Systems); authors Stokholm/Elmengaard/Foldager are co-founders/shareholders of SANA. *Overlaps REenergizeME team* (Olsen RJ, Stokholm, Foldager, Nochi Z) AND device/protocol; its SF-36 effect used for REenergizeME power calculation. No placebo control.
     / *Certainty Assessment:*:
         - *Quality:* Low-Medium (open cohort, no control, commercial)
         - *Sample:* Large (n=199) but non-controlled
         - *Replication:* Single cohort
-        - *Score:* 0.35 raw × 0.80 post-viral weight, further COI/overlap-discounted = **discounted 0.28**
+        - *Score:* 0.35 raw × 0.80 post-viral weight, further COI/overlap-discounted = *discounted 0.28*
 
 === Zha et al.\ 2024 — Intermittent Hypoxia for Dyspnea and Fatigue in PASC (Controlled RCT) — PROTOCOL REF 41
 
@@ -38805,7 +38805,7 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
         - *Quality:* Medium (RCT but normoxia control, non-blinded, single center)
         - *Sample:* Moderate (n=95)
         - *Replication:* Single study
-        - *Score:* 0.55 raw × 0.80 post-viral weight = **discounted 0.44**
+        - *Score:* 0.55 raw × 0.80 post-viral weight = *discounted 0.44*
 
 === Serebrovska et al.\ 2019 — IHHT vs Intermittent Hypoxia/Normoxia in Prediabetes (Placebo RCT)
 
@@ -38819,7 +38819,7 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
         - No adverse events reported.
     / *Conclusion:*: IHHT is equivalent to IHT on metabolic endpoints in prediabetes, with session-time efficiency; establishes safety + physiological equivalence for IHHT dosing in a non-ME/CFS clinical population.
     / *Limitations:*: Prediabetes population (not ME/CFS); single center (Ukraine); not powered for long-term outcomes.
-    / *Certainty Assessment:*: 0.55 raw × 0.60 non-ME/CFS clinical weight = **discounted 0.33**
+    / *Certainty Assessment:*: 0.55 raw × 0.60 non-ME/CFS clinical weight = *discounted 0.33*
 
 === Bestavashvili et al.\ 2022 — IHHE in Metabolic Syndrome (Sham-Controlled RCT)
 
@@ -38832,7 +38832,7 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
         - No serious adverse events.
     / *Conclusion:*: IHHE is safe and improves cardiovascular/metabolic profile in metabolic syndrome; physiological reference for IHHT dosing.
     / *Limitations:*: Same cohort/trial as Afina2021 (companion analysis — do not double-count); non-ME/CFS population; Russia (Sechenov); short-term follow-up.
-    / *Certainty Assessment:*: 0.55 raw × 0.60 non-ME/CFS clinical weight = **discounted 0.33**
+    / *Certainty Assessment:*: 0.55 raw × 0.60 non-ME/CFS clinical weight = *discounted 0.33*
 
 === Afina et al.\ 2021 — IHHT Effects on Lipid Profile and Inflammation in Metabolic Syndrome (Companion)
 
@@ -38844,7 +38844,7 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
         - No significant complications or serious adverse events.
     / *Conclusion:*: IHHT improves lipid and inflammatory profile; safe and well tolerated as adjuvant treatment in metabolic syndrome.
     / *Limitations:*: Cohort overlap with Bestavashvili2022 (same trial, different analyses — flagged); baseline group differences; non-ME/CFS population.
-    / *Certainty Assessment:*: 0.50 raw × 0.60 non-ME/CFS clinical weight = **discounted 0.30** (overlap-flagged)
+    / *Certainty Assessment:*: 0.50 raw × 0.60 non-ME/CFS clinical weight = *discounted 0.30* (overlap-flagged)
 
 === Zhang et al.\ 2023 — Intermittent Hypoxia Conditioning: Multi-Organ Protective Strategy (Mechanism Review)
 
@@ -38856,7 +38856,7 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
         - Dose-dependent: low-dose hormetic IH = adaptive; excess = harmful.
     / *Conclusion:*: Establishes the mechanism bridge between IHHT and the existing corpus `hypoxia-altitude-hif1a` stream (altitude/HIF-1α preconditioning); multi-organ protective therapeutic strategy.
     / *Limitations:*: Review (not primary data); animal-model dominated; no direct ME/CFS evidence.
-    / *Certainty Assessment:*: 0.65 raw × 0.75 general-mechanism weight = **discounted 0.49**
+    / *Certainty Assessment:*: 0.65 raw × 0.75 general-mechanism weight = *discounted 0.49*
 
 === Erdem et al.\ 2026 — Altered HIF-1α/Netrin in OSA: Pathological Intermittent Hypoxia (Harm Contrast)
 
@@ -38867,7 +38867,7 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
         - Serum HIF-1α, Netrin-1, Netrin-4 progressively elevated with OSA severity (p\<0.0001), independent of BMI/age/CRP/LDL.
     / *Conclusion:*: Chronic pathological intermittent hypoxia (OSA) drives persistent HIF-1α elevation + oxidative stress — the pathological pole contrasting with the mild transient-HIF-1α preconditioning that IHHT (brief, low-frequency cycles) aims for.
     / *Limitations:*: OSA (disease) population, not IHHT; no direct ME/CFS relevance; used to bound the mild-hormetic vs pathological-chronic IH distinction.
-    / *Certainty Assessment:*: 0.55 raw × 0.60 general-harm-contrast weight = **discounted 0.33**
+    / *Certainty Assessment:*: 0.55 raw × 0.60 general-harm-contrast weight = *discounted 0.33*
 
 === She et al.\ 2026 — Differential CV/Autonomic Responses to IH Paradigms in Rats (Harm/Mechanism)
 
@@ -38878,7 +38878,7 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
         - The duration + frequency of desaturation-reoxygenation cycles produce distinct cardiovascular + autonomic outcomes even at equal cumulative burden.
     / *Conclusion:*: Supports the mild-hormetic (brief, well-spaced cycles — IHHT) vs pathological (high-frequency sustained desaturation — OSA) dosing distinction central to IHHT safety.
     / *Limitations:*: Animal data; mechanistic; not direct clinical evidence; no ME/CFS.
-    / *Certainty Assessment:*: 0.50 raw × 0.50 animal-to-human relevance = **discounted 0.25**
+    / *Certainty Assessment:*: 0.50 raw × 0.50 animal-to-human relevance = *discounted 0.25*
 
 === Gherardi et al.\ 2019 — Myalgia and CFS Following Immunization: MMF and Aluminum Adjuvant Persistency (ASIA Core Thesis)
 
@@ -38891,7 +38891,7 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
         - MMF represents the core manifestation of ASIA; cites Gulf War II vaccinated-vs-unvaccinated military epidemiology and sheep experiments.
     / *Conclusion:*: Proposes chronic immune stimulation by persisting aluminum adjuvants as a causal route to post-immunization ME/CFS.
     / *Limitations:*: Single-group thesis; no independent replication of the MMF→ME/CFS link; registry counter-evidence (Magnus2015) not reconciled.
-    / *Certainty Assessment:*: 0.55 raw × 0.75 general-pop/symptom-defined weight = **discounted 0.41**
+    / *Certainty Assessment:*: 0.55 raw × 0.75 general-pop/symptom-defined weight = *discounted 0.41*
 
 === Rigolet et al.\ 2014 — Clinical Features in Long-Lasting Macrophagic Myofasciitis
 
@@ -38904,7 +38904,7 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
         - Clinical features described as "corresponding to" CFS/ME; most meet non-amnestic/dysexecutive MCI.
     / *Conclusion:*: MMF is associated with a chronic fatigue + cognitive phenotype overlapping ME/CFS.
     / *Limitations:*: COHORT OVERLAP — same Henri-Mondor referral cohort as other MMF papers (not independent); no formal ME/CFS diagnostic-criteria (Fukuda/CCC/ICC/IOM) application.
-    / *Certainty Assessment:*: 0.55 raw × 0.80 fibro/comorbid-like MMF weight = **discounted 0.44**
+    / *Certainty Assessment:*: 0.55 raw × 0.80 fibro/comorbid-like MMF weight = *discounted 0.44*
 
 === Van Der Gucht et al.\ 2015 — Brain Perfusion SPECT Correlates of Cognitive Dysfunction in MMF
 
@@ -38917,7 +38917,7 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
         - Supports a brain-perfusion correlate of MMF cognitive complaints.
     / *Conclusion:*: MMF cognitive dysfunction has a reproducible brain-perfusion correlate.
     / *Limitations:*: COHORT OVERLAP (Henri-Mondor); no ME/CFS comparator group; no formal diagnostic criteria; referral bias.
-    / *Certainty Assessment:*: 0.60 raw × 0.80 fibro/comorbid weight = **discounted 0.48**
+    / *Certainty Assessment:*: 0.60 raw × 0.80 fibro/comorbid weight = *discounted 0.48*
 
 === Van Der Gucht et al.\ 2017 — Brain ¹⁸F-FDG PET in Long-Lasting MMF
 
@@ -38930,7 +38930,7 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
         - Claims a CNS metabolic signature that may distinguish MMF.
     / *Conclusion:*: MMF is associated with a characteristic brain-hypometabolism pattern.
     / *Limitations:*: COHORT OVERLAP; no ME/CFS comparator; no replication; single referral center.
-    / *Certainty Assessment:*: 0.55 raw × 0.80 fibro/comorbid weight = **discounted 0.44**
+    / *Certainty Assessment:*: 0.55 raw × 0.80 fibro/comorbid weight = *discounted 0.44*
 
 === Aoun Sebaiti et al.\ 2018 — Reappraisal of the Neuropsychological Profile in MMF
 
@@ -38942,7 +38942,7 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
         - Documents chronic fatigue and cognitive disorder with representative dysexecutive and memory features in MMF.
     / *Conclusion:*: MMF cognitive profile is consistent and reproducible within the cohort.
     / *Limitations:*: COHORT OVERLAP; no independent replication; no ME/CFS diagnostic-criteria application.
-    / *Certainty Assessment:*: 0.50 raw × 0.80 fibro/comorbid weight = **discounted 0.40**
+    / *Certainty Assessment:*: 0.50 raw × 0.80 fibro/comorbid weight = *discounted 0.40*
 
 === Gherardi et al.\ 2015 — Biopersistence and Brain Translocation of Aluminum Adjuvants (Mechanism)
 
@@ -38954,7 +38954,7 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
         - Elicit an inflammatory response and selective low-dose long-term neurotoxicity in experimental animals.
     / *Conclusion:*: Mechanistic basis for a chronic immune-stimulation + neuroinflammation route from aluminum adjuvants.
     / *Limitations:*: Single-group mechanistic claim; animal-based for brain effects; translation gap.
-    / *Certainty Assessment:*: 0.60 raw × 0.75 general/mechanism weight = **discounted 0.45**
+    / *Certainty Assessment:*: 0.60 raw × 0.75 general/mechanism weight = *discounted 0.45*
 
 === Crépeaux et al.\ 2017 — Non-Linear Dose-Response: Low-Dose Aluminum Adjuvant Neurotoxicity (Animal)
 
@@ -38966,7 +38966,7 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
         - Selective neurotoxicity at low dose (effects missed by conventional high-dose toxicology).
     / *Conclusion:*: Supports the claim that low-dose, long-term aluminum adjuvant effects are under-detected.
     / *Limitations:*: Animal model (cross-species gap); single group; not ME/CFS-specific.
-    / *Certainty Assessment:*: 0.55 raw × 0.50 animal-to-human relevance = **discounted 0.28**
+    / *Certainty Assessment:*: 0.55 raw × 0.50 animal-to-human relevance = *discounted 0.28*
 
 === Masson et al.\ 2024 — Phagocyte Immuno-Metabolic Responses in MMF (In Vitro)
 
@@ -38978,7 +38978,7 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
         - They produce pain-inducing CXC chemokines, less TNF-α, and show mitochondrial dysfunction (limited spare respiratory capacity, proton leak) on vaccine exposure.
     / *Conclusion:*: MMF cells show an immune-exhausted, pain-promoting, energetically compromised phenotype consistent with chronic myalgia and fatigue.
     / *Limitations:*: In vitro (no organism-level validation); single group; ME/CFS inference indirect.
-    / *Certainty Assessment:*: 0.55 raw × 0.40 in-vitro weight = **discounted 0.22**
+    / *Certainty Assessment:*: 0.55 raw × 0.40 in-vitro weight = *discounted 0.22*
 
 === Eisenbarth et al.\ 2008 — Nalp3/NLRP3 Inflammasome Activation by Alum (Mechanism)
 
@@ -38990,7 +38990,7 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
         - Establishes the canonical mechanistic basis for aluminum as a pro-inflammatory, immune-stimulating agent.
     / *Conclusion:*: Aluminum adjuvants are bona fide NLRP3 inflammasome agonists — a plausible chronic-immune-stimulation vector.
     / *Limitations:*: Cell/animal level; does not establish ME/CFS relevance.
-    / *Certainty Assessment:*: 0.70 raw × 0.40 in-vitro weight = **discounted 0.28**
+    / *Certainty Assessment:*: 0.70 raw × 0.40 in-vitro weight = *discounted 0.28*
 
 === Principi & Esposito 2018 — Aluminum in Vaccines: Safety Counter-Review (Independent)
 
@@ -39002,7 +39002,7 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
         - MMF regarded as a rare, usually benign local reaction; does not support a causal link to ME/CFS.
     / *Conclusion:*: Rejects the aluminum-adjuvant → ME/CFS causal claim on available safety data.
     / *Limitations:*: Narrative review (no new data); general-population framing.
-    / *Certainty Assessment:*: 0.60 raw × 0.75 general-population weight = **discounted 0.45**
+    / *Certainty Assessment:*: 0.60 raw × 0.75 general-population weight = *discounted 0.45*
 
 === Mitkus et al.\ 2011 — FDA Aluminum Pharmacokinetics (Regulatory Counter-Evidence)
 
@@ -39014,7 +39014,7 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
         - Does not accumulate to a harmful body burden.
     / *Conclusion:*: Authoritative regulatory counter to the "aluminum overload" claim underpinning the MMF hypothesis.
     / *Limitations:*: Pharmacokinetic modelling (general-population); does not directly address MMF pathology.
-    / *Certainty Assessment:*: 0.70 raw × 0.75 general-population weight = **discounted 0.53**
+    / *Certainty Assessment:*: 0.70 raw × 0.75 general-population weight = *discounted 0.53*
 
 === Perez et al.\ 2026 — Independent NLRP3-Alum Mechanism (NLRP3-Independent Effects In Vivo)
 
@@ -39026,7 +39026,7 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
         - Adjuvant effects can be NLRP3-independent in vivo — nuancing the "alum acts purely via NLRP3/IL-1β" claim.
     / *Conclusion:*: Independent (non-Gherardi) evidence that the NLRP3/IL-1β pathway is not the sole aluminum-adjuvant mechanism.
     / *Limitations:*: In vitro + rodent; not ME/CFS-specific; recent, limited replication.
-    / *Certainty Assessment:*: 0.55 raw × 0.40 in-vitro weight = **discounted 0.22**
+    / *Certainty Assessment:*: 0.55 raw × 0.40 in-vitro weight = *discounted 0.22*
 
 == Lifetime Energy-Level Problems → ME/CFS (Mild / Constitutional Cases) <sec:lifetime-energy-mild-cases>
 
@@ -39044,7 +39044,7 @@ Research stream: `lifetime-energy-mild-cases`. Evidence on the mild / lifetime /
         - Authors recommend removing lifelong fatigue as an exclusionary criterion for CFS/ME.
     / *Conclusion:*: A lifetime-tiredness / low-baseline-energy constitution is NOT categorically distinct from ME/CFS — lifelong fatigue should not disqualify a mild ME/CFS diagnosis; the mild/lifetime presentation is continuous with the illness.
     / *Limitations:*: Single-center case-definition analysis; reliance on retrospective self-report of lifelong fatigue; does not independently establish a mild-severity ME/CFS diagnosis in the "lifelong fatigue" group.
-    / *Certainty Assessment:*: 0.55 raw × 1.00 ME/CFS-cohort weight = **discounted 0.55**
+    / *Certainty Assessment:*: 0.55 raw × 1.00 ME/CFS-cohort weight = *discounted 0.55*
 
 === Harvey et al.\ 2009 — Persistent Fatigue Independent of Psychiatric Disorder (Neurasthenia)
 
@@ -39056,7 +39056,7 @@ Research stream: `lifetime-energy-mild-cases`. Evidence on the mild / lifetime /
         - Specific risk factors for fatigue-without-psychiatric-disorder: EXCESSIVE childhood energy (OR 2.63, 95\% CI 1.55–4.48) and overweight at 36 (OR 1.62); neuroticism predicted both.
     / *Conclusion:*: Establishes that constitutional / persistent fatigue is a real population construct (neurasthenia) distinct from psychiatric disorder — but the premorbid predictor is excessive (HIGH) energy, a counterpoint to the low-baseline-energy premise, supporting instead an overactivity/energy-expenditure premorbid trajectory.
     / *Limitations:*: General population (not ME/CFS); outcome is fatigue, not ME/CFS case-definition; risk factors are psychological instruments, not physiological biomarkers.
-    / *Certainty Assessment:*: 0.68 raw × 0.75 general-population weight = **discounted 0.51**
+    / *Certainty Assessment:*: 0.68 raw × 0.75 general-population weight = *discounted 0.51*
 
 === Collin et al.\ 2015 — Childhood Psychological Factors Predict Chronic Disabling Fatigue at Age 13
 
@@ -39069,7 +39069,7 @@ Research stream: `lifetime-energy-mild-cases`. Evidence on the mild / lifetime /
         - Child psychological-problem associations attenuated after adjusting for maternal anxiety/depression.
     / *Conclusion:*: Establishes a measurable childhood-onset chronic-disabling-fatigue trajectory (age 13) — a lifelong/lifetime low-functioning energy phenotype that precedes any adult ME/CFS diagnosis. Defined WITHOUT a PEM requirement, i.e. a mild persistent low-functioning state distinct from classic acute-onset ME/CFS.
     / *Limitations:*: General pediatric population; outcome is chronic disabling fatigue, not adult ME/CFS; no PEM/physiological biomarker.
-    / *Certainty Assessment:*: 0.60 raw × 0.75 general-pediatric weight = **discounted 0.45**
+    / *Certainty Assessment:*: 0.60 raw × 0.75 general-pediatric weight = *discounted 0.45*
 
 === Jason et al.\ 2010 — Classification of ME/CFS by Types of Fatigue (Severity)
 
@@ -39082,7 +39082,7 @@ Research stream: `lifetime-energy-mild-cases`. Evidence on the mild / lifetime /
         - ME/CFS fatigue is heterogeneous and includes a low-severity ('mild') cluster.
     / *Conclusion:*: Severity-based fatigue classification supports a continuum from mild to severe within ME/CFS — a mild/low-severity subset exists inside the illness rather than being categorically excluded, consistent with the lifetime-low-baseline-energy phenotype.
     / *Limitations:*: n=100 single-cohort cluster analysis; subgroup solutions partly dependent on clustering method.
-    / *Certainty Assessment:*: 0.45 raw × 1.00 ME/CFS-cohort weight = **discounted 0.45**
+    / *Certainty Assessment:*: 0.45 raw × 1.00 ME/CFS-cohort weight = *discounted 0.45*
 
 === Brown et al.\ 2013 — Energy Envelope and Symptom Patterns in CFS (Coping)
 
@@ -39094,7 +39094,7 @@ Research stream: `lifetime-energy-mild-cases`. Evidence on the mild / lifetime /
         - Coping explained only ~10\% of cluster variance.
     / *Conclusion:*: The 'energy envelope' (energy available minus required) operationalizes a low-baseline-energy reserve. Cluster 3 shows that patients running a low daily energy reserve are severely limited even without acute overexertion — illustrating that a low-baseline-energy phenotype carries its own severity independent of overexertion-triggered PEM.
     / *Limitations:*: Coping is not a strong differentiator; cluster interpretation partially speculative; cross-sectional.
-    / *Certainty Assessment:*: 0.48 raw × 1.00 ME/CFS-cohort weight = **discounted 0.48**
+    / *Certainty Assessment:*: 0.48 raw × 1.00 ME/CFS-cohort weight = *discounted 0.48*
 
 === Smith et al.\ 1991 — Chronic Fatigue in Adolescents (Prodrome Question)
 
