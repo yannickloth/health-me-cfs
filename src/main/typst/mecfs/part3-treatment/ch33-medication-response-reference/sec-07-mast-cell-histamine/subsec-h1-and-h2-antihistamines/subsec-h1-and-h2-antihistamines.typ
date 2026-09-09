@@ -26,6 +26,8 @@ A positive antihistamine response confirms histamine-mediated symptoms but does 
 
 Non-response does not exclude mast cell activation. Mast cells release many mediators beyond histamine (tryptase, prostaglandins, leukotrienes, TNF-α, IL-6), so histamine-receptor blockade can fail while mast cell pathology persists. Non-response is weaker evidence than response — it makes histamine-mediated mechanisms less likely but does not rule out MCAS driven by non-histamine mediators.
 
+*Dose is a variable, not a single setting:* H1 antihistamines have a CNS-penetration threshold. Peripheral H1 blockade relieves mast-cell symptoms at low doses; as dose rises above the CNS threshold, brain H1 blockade adds sedation — a net-cost arm that can mask or offset benefit. Cetirizine-type agents cross this threshold at moderate doses; fexofenadine is actively effluxed from the CNS and stays peripheral-only, making it the cleaner probe. See the dose-range reference (@sec:hormetic-dose-range-reference).
+
 ==== How Antihistamines combine with other medications
 - Antihistamines + LDN both work → peripheral mast cells + CNS microglia.
 - Antihistamines + cromolyn work → prevent degranulation + block released histamine.

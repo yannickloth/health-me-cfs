@@ -22,6 +22,7 @@ A positive NAC response confirms that oxidative stress was a significant contrib
 - Glutathione synthesis rate-limited by other factors — iron or selenium deficiency can cap glutathione production regardless of cysteine supply.
 - HSAT2 driven by HSF1 independently of ROS — reducing oxidative stress would not lower HSAT2 in that case.
 - Dose insufficient — oral NAC has poor bioavailability; intravenous NAC has a different pharmacokinetic profile and may reach targets oral dosing cannot.
+- *Dose is a variable, not a single setting:* NAC's dose--response is biphasic — a single ~600 mg dose can paradoxically *worsen* oxidative symptoms (thiol burst before net glutathione synthesis) while ~1,200 mg provides net benefit. A worsening at low dose is transient biochemistry, not drug failure. See the full dose-range reference (@sec:hormetic-dose-range-reference).
 
 ==== Key caveat
 

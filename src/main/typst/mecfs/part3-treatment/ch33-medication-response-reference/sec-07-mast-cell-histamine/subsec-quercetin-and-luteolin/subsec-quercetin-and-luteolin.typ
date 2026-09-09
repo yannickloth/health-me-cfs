@@ -22,7 +22,7 @@ Quercetin stabilizes mast cells, inhibits PI3K (restoring CD80 on antigen-presen
 
 - The mast cell contribution may not be dominant.
 - The wrong formulation may have been used — quercetin bioavailability is poor, and phytosome forms are usually required.
-- The anti-inflammatory benefit may be insufficient at the dose used.
+- The anti-inflammatory benefit may be insufficient at the dose used — but quercetin's dose--response is non-monotonic: benefit (Nrf2 activation, COMT inhibition) inverts at higher doses (~1,000 mg+), where COMT overshoot and pro-oxidant potential produce overstimulation or loss of benefit. Escalation can therefore turn a working dose into a failed one. See the dose-range reference (@sec:hormetic-dose-range-reference).
 
 ==== Key caveat
 

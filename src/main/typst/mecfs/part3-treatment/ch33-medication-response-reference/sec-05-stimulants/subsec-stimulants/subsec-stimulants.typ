@@ -24,6 +24,7 @@ A positive stimulant response confirms that catecholamine signaling was insuffic
 - Catecholamine deficiency may not be present — cognitive dysfunction from glymphatic failure, direct cytokines, cerebral hypoperfusion, or neuronal mitochondrial failure.
 - Receptors downregulated — chronic inflammation reduces expression.
 - Side effects mask benefit — sympathetic activation, metabolic cost, sleep disruption produce net negative effect.
+- *Dose is a variable, not a single setting:* these drugs act on a catecholamine inverted-U — cognitive benefit appears within a dose window and inverts (turns to overstimulation, distractibility, reduced working memory) above it. A null at one dose is a statement about that dose, not the drug; both too little and too much can fail. See the dose-range reference for the modafinil window (@sec:hormetic-dose-range-reference).
 
 ==== Key caveat
 

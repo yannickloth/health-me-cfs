@@ -24,7 +24,7 @@ Beta-blockers reduce sympathetic tone by blocking β-adrenergic receptors, lower
 
 ==== Key caveat
 
-Beta-blockers that worsen fatigue indicate compensatory tachycardia — the worsening is itself diagnostic for low-SV POTS. Do not increase the dose; switch to ivabradine or volume strategies.
+Beta-blockers that worsen fatigue indicate compensatory tachycardia — the worsening is itself diagnostic for low-SV POTS. Do not increase the dose; switch to ivabradine or volume strategies. The dose--response is non-monotonic from the right arm of the catecholamine inverted-U: benefit is predominantly peripheral at the lowest dose (5--10 mg propranolol), central β-modulation can support cognition through the 10--20 mg range, and benefit inverts to cognitive dulling and worsened fatigue as the dose rises into the 20--40 mg range where central β-blockade suppresses prefrontal tone. See the dose-range reference (@sec:hormetic-dose-range-reference).
 
 ==== Differential evidence: HR response is not a symptom proxy
 
