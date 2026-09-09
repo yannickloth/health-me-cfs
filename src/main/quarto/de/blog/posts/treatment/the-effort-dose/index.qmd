@@ -1,0 +1,67 @@
+---
+title: "Die Belastungsdosis — Warum Anstrengung derselben Kurve folgt wie die Medikamente, und warum bei ME/CFS die Kurve gebrochen sein kann"
+description: "Jedes Medikament der Dosis-Wirkungs-Serie wirkt in einem Fenster: zu wenig bewirkt nichts, zu viel schadet. Belastung ist ebenfalls eine Dosis. In einem gesunden Körper ist Bewegung hormetisch — ein kleiner Stress, der Anpassung kauft. Bei ME/CFS ist diese Kurve möglicherweise nicht nur verschoben, sondern gebrochen — was erklären würde, warum Pacing wirkt und warum gestufte Bewegungstherapie scheitert."
+author: "Yannick Loth"
+date: "2026-09-09"
+categories: [Behandlung, PEM, Pathophysiologie]
+lang: de
+---
+
+Die Dosis-Wirkungs-Serie hatte bisher Medikamente zum Thema. LDN wirkt bei 0,5–1,5 mg und hört darüber auf zu wirken. Aripiprazol hilft bei einem Bruchteil eines Milligramms und schlägt bei fünf Milligramm gegen den Patienten um. Die Lektion jedes Beitrags der Serie ist dieselbe: Bei ME/CFS kommt es auf die Menge an, das Fenster ist schmal, und die Dosis, bei der etwas wirkt, ist eine Information.
+
+Aber Medikamente sind nicht das Einzige, was ein Patient dosiert. Jeden Tag dosieren ME/CFS-Patienten die eine Intervention, die sie nicht überspringen können: **Anstrengung**. Sich anziehen ist eine Dosis. Ein Gespräch ist eine Dosis. Unter der Dusche stehen ist eine Dosis. Und die Frage dieses Beitrags lautet, ob Anstrengung derselben Kurve folgt wie die Medikamente — ein Fenster mit Nutzen darin und Schaden außerhalb — oder etwas Fremderem.
+
+Die Antwort ist, soweit die aktuelle Datenlage reicht: Anstrengung folgt in einem gesunden Körper derselben Kurven*form*, und bei ME/CFS ist die Kurve möglicherweise nicht nur verschoben, sondern **gebrochen**. Dieser eine Unterschied — eine verschobene Kurve gegenüber einer gebrochenen Kurve — ist die stärkste verfügbare Erklärung dafür, warum Pacing hilft, warum der Rat „treiben Sie einfach vorsichtig Sport" scheitert und warum gestufte Bewegungstherapie in den Studien, die sie ehrlich geprüft haben, Schaden statt Nutzen erzeugte.
+
+---
+
+## Anstrengung ist im gesunden Körper hormetisch
+
+Beginnen wir damit, was Bewegung bei einem Menschen ohne ME/CFS ist, denn sie ist das sauberste hormetische System der Humanbiologie. Bewegung erzeugt einen kurzen Puls reaktiver Sauerstoffspezies — dieselbe „Stress"-Sprache wie in der Hormesis-Literatur. Dieser Puls ist kein Schaden; er ist ein *Signal*. Er verändert die Keap1-Cysteine, die den Transkriptionsfaktor Nrf2 bewachen, Nrf2 entkommt in den Zellkern, und die Zelle schaltet ihr Anpassungsprogramm ein: antioxidative Enzyme, Reparaturwege und — über den Nrf2-PGC-1α-Kreis — **Mitochondriale Biogenese** [@Ristow2009oxidativehormesis]. Sie laufen, sind eine Stunde lang schlechter dran — und ein Jahr lang fitter. Der Stress ist der Reiz; die Anpassung ist die Behandlung. Das ist Mitohormesis, und es ist derselbe Keap1-Nrf2-ARE-Weg, den die Medikamenten-Serie für LDN und Sulforaphan beschrieben hat.
+
+Die Form der Dosis-Wirkungs-Kurve ist vertraut. Zu wenig Anstrengung: kein Signal, keine Anpassung — Dekonditionierung. Die richtige Anstrengung: Signal, Anpassung, wachsende Kapazität. Zu viel Anstrengung in einem gesunden Körper: Verletzung und Übertraining — aber bemerkenswerterweise ist selbst Übertraining bei Athleten eine *verschobene* Kurve, keine gebrochene; Erholung stellt die Anpassung wieder her. In der Gesundheit ist das Fenster breit und verzeihend.
+
+---
+
+## Der ME/CFS-Unterschied: Die Schleife kann gebrochen sein, nicht verschoben
+
+Nun zur Krankheit. Die Primärdokumentation modelliert, was mit dieser Schleife bei ME/CFS passiert, und die Beschreibung ist in ihrer Schwere ungewöhnlich [@Loth2026website]. Der Nrf2-PGC-1α-Kreis ist bidirektional: PGC-1α koaktiviert die Nrf2-Transkription, und Nrf2 induziert die PGC-1α-Expression. Bei ME/CFS können beide Arme gleichzeitig beeinträchtigt sein. AMPK — der Energiesensor, der das Anpassungsprogramm initiiert — ist beeinträchtigt [@Brown2018AMPK]. PGC-1α kann nicht deacetyliert werden, weil die SIRT1-abhängige Deacetylierung beeinträchtigt ist. Und selbst wenn Nrf2 aktiviert wird, kann das von ihm ausgelöste Transkriptionsprogramm nicht ausgeführt werden, weil die biosynthetische Maschinerie ressourcenverarmt ist. Jeder Knoten der Schleife ist kompromittiert, und die Konsequenz ist eine **selbstverstärkende Falle**: Der Patient kann nicht Sport treiben, um Hormesis zu aktivieren, kann das Programm ohne AMPK nicht pharmakologisch aktivieren, und der resultierende antioxidative Mangel macht die *nächste* Anstrengung schädlicher als die letzte.
+
+Zwei Dinge müssen hier mit Sorgfalt gesagt werden, denn sie tragen das epistemische Gewicht dieses Beitrags. Erstens ist dies eine *Ableitung*, keine Messung. Der Nrf2-PGC-1α-Kreis wurde bei ME/CFS-Patienten während der Bewegung nie direkt gemessen; bekannt ist die Mitohormesis in der Gesundheit und die Bewegungsintoleranz bei der Krankheit, und das Modell der gebrochenen Schleife ist die kohärente Synthese aus beidem [@Loth2026website]. Seine Sicherheit ist gering. Zweitens macht eine gebrochene Kurve eine andere *Vorhersage* als eine verschobene Kurve, und die Vorhersage ist testbar: Eine verschobene Kurve bedeutet, dass irgendeine Anstrengungsdosis eine Netto-Anpassung erzeugt (Gewinn); eine gebrochene Kurve bedeutet, dass **keine Dosis es tut** — jede Anstrengungsdosis oberhalb der Symptomschwelle erzeugt einen Nettoverlust.
+
+---
+
+## Warum dies Pacing erklärt — und warum es niemals als Bewegungsverschreibung gelesen werden darf
+
+Wenn die Anstrengungskurve bei ME/CFS verschoben ist, dann gibt es irgendwo auf der Dosisachse ein nützliches Fenster, und die klinische Aufgabe besteht darin, es zu finden — „hormetische Bewegung", sorgfältig titriert. Wenn die Kurve *gebrochen* ist, gibt es kein Fenster zu finden, und die rationale Strategie ist die, die Patienten empirisch entdeckt haben, Jahrzehnte bevor es die Biologie gab: **innerhalb der Energie-Envelope bleiben**. Pacing ist das, was das Modell der gebrochenen Kurve von innen betrachtet ausmacht. Es ist keine ängstliche Bewegung. Es ist die richtige Antwort auf eine Dosis-Wirkungs-Beziehung, bei der der Anpassungsarm versagt hat und nur der Schadensarm zuverlässig auslöst.
+
+Das ist auch der Grund, warum das Modell der gebrochenen Kurve, wenn es stimmt, rückwirkend eines der schädlichsten Kapitel der ME/CFS-Behandlungsgeschichte erklärt. Gestufte Bewegungstherapie nahm eine verschobene Kurve an — dass Eskalation, sorgfältig durchgeführt, schließlich im Fenster landen müsse. Als Studien mit objektiven Ergebnismaßen diese Annahme prüften, erzeugte Eskalation Verschlechterung, keine Anpassung. Unter dem Modell der gebrochenen Kurve ist das kein Paradox und kein Compliance-Versagen; es ist genau das, was das Modell vorhersagt. Eine Kurve ohne Anpassungsarm bestraft Eskalation konstruktionsbedingt.
+
+Eine Randbedingung gehört fett gedruckt hinein, denn dieser Beitrag ist nur eine unvorsichtige Lesart vom Schaden entfernt. **Nichts hier ist eine Bewegungsverschreibung.** Die Behauptung lautet nicht „Anstrengung hat eine sichere Dosis, finden Sie Ihre". Die Behauptung ist, dass die Biologie der Anstrengung bei ME/CFS qualitativ anders sein kann als die Biologie der Anstrengung in der Gesundheit — und dass die aus dem Modell der gebrochenen Kurve folgende Betriebsregel Pacing ist, nicht Titration nach oben. Wo die Medikamenten-Serie sagte „das Fenster ist schmal", sagt dieser Beitrag etwas Düstereres und Nützlicheres: Das Fenster existiert möglicherweise nicht, und die Envelope ist die Karte, die man stattdessen bekommt.
+
+---
+
+## Die Vereinheitlichung
+
+Stellen Sie die Medikamenten-Serie und diesen Beitrag nebeneinander, und das vereinheitlichende Prinzip des gesamten Rahmens wird sichtbar. Bei ME/CFS ist die *Dosis* überall die verborgene Variable — nicht als Verfeinerung, sondern als primäre klinische Variable:
+
+- **Medikamente, die den Tonus erhöhen** (Modafinil, Duloxetin): Fenster auf der Katecholamin-Kurve.
+- **Medikamente, die Signale sind** (LDN, Sulforaphan, NAC): Fenster auf der hormetischen Kurve.
+- **Medikamente, die Rezeptoren besetzen** (Aripiprazol): Fenster auf der Besetzungskurve.
+- **Anstrengung**: ein Fenster, das geschlossen sein kann — und Pacing als die Strategie, die seine Abwesenheit respektiert.
+
+Die klinische Gewohnheit, die all das verbindet, ist dieselbe, die die Serie seit Teil 1 vertritt: Hören Sie auf, die Menge als Fußnote zu behandeln. Bei ME/CFS ist die erste Frage zu jedem Input — Medikament, Reiz oder Anstrengung — nicht „wirkt er?", sondern „bei welcher Menge, und was sagt mir die Antwort darüber, wo meine Kurve sitzt?"
+
+---
+
+## Sicherheit
+
+| Behauptung | Sicherheit |
+|------------|-----------|
+| Bewegung ist in der Gesundheit hormetisch (Nrf2/AMPK/PGC-1α, Mitohormesis) | Hoch — etablierte Literatur [@Ristow2009oxidativehormesis] |
+| Die Nrf2-PGC-1α-Schleife ist bei ME/CFS gebrochen | Gering — abgeleitet aus Gesundheitsphysiologie + Bewegungsintoleranz; nie direkt während der Belastung bei Patienten gemessen [@Loth2026website] |
+| Eine gebrochene (nicht verschobene) Anstrengungskurve sagt voraus, dass keine Anstrengungsdosis Netto-Anpassung erzeugt | Gering bis mäßig — konsistent mit 2-Tage-CPET-Befunden und den Schäden gestufter Bewegungstherapie; nie als direkte Vorhersage getestet |
+| Pacing ist die rationale Antwort auf eine gebrochene Anstrengungskurve | Mäßig — konsistent mit klinischer Beobachtung und dem Modell; keine prospektive Pacing-vs-Titration-Studie im Rahmen |
+
+*Dieser Beitrag beruht auf dem Hormesis- und gebrochenen-hormetischen-Schleifen-Rahmen von [Loth 2026](https://yannickloth.github.io/health-me-cfs/). Begleitende Beiträge: [Teil 1: Warum mehr nicht besser ist](../more-isnt-better-ldn-lda/) · [Teil 2: Das umgekehrte U ist nicht eine Sache](../inverted-u-not-one-thing/) · [Die Goldilocks-Dosis von Aripiprazol](../low-dose-aripiprazole-window/) · [Warum eine höhere Dosis nicht die Vorteile einer niedrigeren enthält](../concentration-not-presence/).*
+

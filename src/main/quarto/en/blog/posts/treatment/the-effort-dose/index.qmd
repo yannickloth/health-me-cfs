@@ -1,0 +1,67 @@
+---
+title: "The Effort Dose — Why Exertion Follows the Same Curve as the Drugs, and Why in ME/CFS the Curve May Be Broken"
+description: "Every drug in the dose-response series works in a window: too little does nothing, too much harms. Effort is also a dose. In healthy bodies, exercise is hormetic — a small stress that buys adaptation. In ME/CFS that curve may not merely shift; it may break, which would explain why pacing works and graded exercise therapy fails."
+author: "Yannick Loth"
+date: "2026-09-09"
+categories: [Treatment, PEM, Pathophysiology]
+lang: en
+---
+
+The dose-response series has so far been about drugs. LDN works at 0.5–1.5 mg and stops working above it. Aripiprazole helps at a fraction of a milligram and turns on its patient at five. The lesson of every post in the series is the same: in ME/CFS, the amount matters, the window is narrow, and the dose at which something works is information.
+
+But drugs are not the only thing a patient doses. Every day, ME/CFS patients dose the one intervention they cannot choose to skip: **effort**. Getting dressed is a dose. A conversation is a dose. Standing in a shower is a dose. And the question this post asks is whether effort follows the same curve the drugs follow — a window with benefit inside it and harm outside it — or something stranger.
+
+The answer, as far as the current evidence goes, is that effort follows the same curve *shape* in healthy bodies, and that in ME/CFS the curve may be not just shifted but **broken**. That single difference — a shifted curve versus a broken curve — is the strongest available explanation for why pacing helps, why "just exercise carefully" advice fails, and why graded exercise therapy produced harm instead of benefit in the trials that tested it honestly.
+
+---
+
+## Effort is hormetic in a healthy body
+
+Start with what exercise is in a person without ME/CFS, because it is the cleanest hormetic system in human biology. Exercise generates a brief pulse of reactive oxygen species — the same "stress" language used throughout the hormesis literature. That pulse is not damage; it is a *signal*. It modifies the Keap1 cysteines that guard the Nrf2 transcription factor, Nrf2 escapes into the nucleus, and the cell switches on its adaptive programme: antioxidant enzymes, repair pathways, and — through the Nrf2–PGC-1α circuit — **mitochondrial biogenesis** [@Ristow2009oxidativehormesis]. You run, you are worse for an hour, and you are fitter for a year. The stress is the stimulus; the adaptation is the treatment. This is mitohormesis, and it is the same Keap1–Nrf2–ARE pathway that the drug series described for LDN and sulforaphane.
+
+The dose-response shape is familiar. Too little effort: no signal, no adaptation — detraining. The right effort: signal, adaptation, growing capacity. Too much effort in a healthy body: injury and overtraining — but notably, even overtraining in athletes is a *shifted* curve, not a broken one; recovery restores the adaptation. In health, the window is wide and forgiving.
+
+---
+
+## The ME/CFS difference: the loop may be broken, not shifted
+
+Now the disease. The primary documentation models what happens to this loop in ME/CFS, and the description is unusual in its severity [@Loth2026website]. The Nrf2–PGC-1α circuit is bidirectional: PGC-1α co-activates Nrf2 transcription, and Nrf2 induces PGC-1α expression. In ME/CFS, both arms may be impaired at once. AMPK — the energy sensor that initiates the adaptive programme — is impaired [@Brown2018AMPK]. PGC-1α cannot be deacetylated because SIRT1-dependent deacetylation is impaired. And even if Nrf2 is activated, the transcriptional programme it triggers cannot be executed, because the biosynthetic machinery is resource-starved. Each node of the loop is compromised, and the consequence is a **self-reinforcing trap**: the patient cannot exercise to activate hormesis, cannot activate the programme pharmacologically without AMPK, and the resulting antioxidant deficit makes the *next* exertion more damaging than the last.
+
+Two things must be said with care here, because they carry the epistemic weight of this post. First, this is an *inference*, not a measurement. The Nrf2–PGC-1α circuit has not been directly measured during exercise in ME/CFS patients; what is known is mitohormesis in health and exercise intolerance in the disease, and the broken-loop model is the coherent synthesis of the two [@Loth2026website]. Its certainty is low. Second, a broken curve makes a different *prediction* than a shifted curve, and the prediction is testable: a shifted curve means some exertion dose produces net adaptation (gain); a broken curve means **no dose does** — every dose of effort above the symptom threshold produces net loss.
+
+---
+
+## Why this explains pacing — and why it must never be read as an exercise prescription
+
+If the effort curve in ME/CFS is shifted, then somewhere on the dose axis there is a beneficial window, and the clinical task is to find it — "hormetic exercise," carefully titrated. If the curve is *broken*, there is no window to find, and the rational strategy is the one patients discovered empirically decades before the biology existed: **stay inside the energy envelope**. Pacing is what the broken-curve model looks like from the inside. It is not timid exercise. It is the correct response to a dose-response relationship in which the adaptation arm has failed and only the harm arm reliably fires.
+
+This is also why the broken-curve model, if true, retroactively explains one of the most damaging chapters in ME/CFS treatment history. Graded exercise therapy assumed a shifted curve — that escalation, carefully done, must eventually land in the window. When trials with objective outcome measures tested that assumption, escalation produced deterioration, not adaptation. Under the broken-curve model this is not a paradox or a compliance failure; it is exactly what the model predicts. A curve with no adaptive arm punishes escalation by design.
+
+One boundary condition belongs in bold, because this post sits one careless reading away from doing harm. **Nothing here is an exercise prescription.** The claim is not "effort has a safe dose, find yours." The claim is that the biology of effort in ME/CFS may be qualitatively different from the biology of effort in health — and that the operating rule that follows from the broken-curve model is pacing, not titration upward. Where the drug series said "the window is narrow," this post says something grimmer and more useful: the window may not exist, and the envelope is the map you get instead.
+
+---
+
+## The unification
+
+Put the drug series and this post side by side and the unifying principle of the whole framework becomes visible. In ME/CFS, *dose* is the hidden variable everywhere — not as a refinement but as the primary clinical variable:
+
+- **Drugs that raise tone** (modafinil, duloxetine): window on the catecholamine curve.
+- **Drugs that are signals** (LDN, sulforaphane, NAC): window on the hormetic curve.
+- **Drugs that occupy receptors** (aripiprazole): window on the occupancy curve.
+- **Effort**: a window that may be closed — and pacing as the strategy that respects its absence.
+
+The clinical habit that ties all of these together is the same one the series has argued for since Part 1: stop treating amount as a footnote. In ME/CFS, the first question about any input — drug, stimulus, or effort — is not "does it work?" but "at what amount, and what does the answer tell me about where my curve sits?"
+
+---
+
+## Certainty
+
+| Claim | Certainty |
+|-------|-----------|
+| Exercise is hormetic in health (Nrf2/AMPK/PGC-1α, mitohormesis) | High — established literature [@Ristow2009oxidativehormesis] |
+| The Nrf2–PGC-1α loop is broken in ME/CFS | Low — inferred from health physiology + exercise intolerance; never directly measured during exertion in patients [@Loth2026website] |
+| A broken (not shifted) effort curve predicts that no exertion dose produces net adaptation | Low-to-moderate — coherent with 2-day CPET findings and GET trial harms; untested as a direct prediction |
+| Pacing is the rational response to a broken effort curve | Moderate — consistent with clinical observation and the model; no prospective pacing-vs-titration trial in the framework |
+
+*This post draws on the hormesis and broken-hormetic-loop framework in [Loth 2026](https://yannickloth.github.io/health-me-cfs/). Companion posts: [Part 1: Why More Isn't Better](../more-isnt-better-ldn-lda/) · [Part 2: The Inverted-U Is Not One Thing](../inverted-u-not-one-thing/) · [The Goldilocks Dose of Aripiprazole](../low-dose-aripiprazole-window/) · [Why a Higher Dose Does Not Contain the Benefits of a Lower Dose](../concentration-not-presence/).*
+

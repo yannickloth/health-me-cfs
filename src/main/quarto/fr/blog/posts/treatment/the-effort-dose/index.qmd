@@ -1,0 +1,67 @@
+---
+title: "La dose d'effort — pourquoi l'effort suit la même courbe que les médicaments, et pourquoi dans l'EM/SFC la courbe peut être cassée"
+description: "Chaque médicament de la série dose-réponse fonctionne dans une fenêtre : trop peu ne fait rien, trop fait du mal. L'effort est lui aussi une dose. Dans un corps sain, l'exercice est hormétique — un petit stress qui achète de l'adaptation. Dans l'EM/SFC, cette courbe peut ne pas être simplement décalée mais cassée — ce qui expliquerait pourquoi le pacing fonctionne et pourquoi l'exercice progressif échoue."
+author: "Yannick Loth"
+date: "2026-09-09"
+categories: [Traitement, SPE, Physiopathologie]
+lang: fr
+---
+
+La série dose-réponse a jusqu'ici porté sur les médicaments. Le LDN fonctionne à 0,5–1,5 mg et cesse de fonctionner au-dessus. L'aripiprazole aide à une fraction de milligramme et se retourne contre sa patiente à cinq. La leçon de chaque article de la série est la même : dans l'EM/SFC, la quantité compte, la fenêtre est étroite, et la dose à laquelle quelque chose fonctionne est une information.
+
+Mais les médicaments ne sont pas la seule chose qu'un patient dose. Chaque jour, les patients EM/SFC dosent la seule intervention qu'ils ne peuvent pas choisir d'éviter : **l'effort**. S'habiller est une dose. Une conversation est une dose. Se tenir sous la douche est une dose. Et la question que pose cet article est de savoir si l'effort suit la même courbe que les médicaments — une fenêtre avec du bénéfice dedans et du mal dehors — ou quelque chose de plus étrange.
+
+La réponse, en l'état des données actuelles, est que l'effort suit la même *forme* de courbe dans un corps sain, et que dans l'EM/SFC la courbe peut ne pas être simplement décalée mais **cassée**. Cette seule différence — une courbe décalée contre une courbe cassée — est la meilleure explication disponible de pourquoi le pacing aide, pourquoi le conseil « faites juste de l'exercice prudemment » échoue, et pourquoi la thérapie par exercice progressif a produit du mal au lieu du bénéfice dans les essais qui l'ont honnêtement évaluée.
+
+---
+
+## L'effort est hormétique dans un corps sain
+
+Commençons par ce qu'est l'exercice chez une personne sans EM/SFC, car c'est le système hormétique le plus propre de la biologie humaine. L'exercice génère une brève bouffée de dérivés réactifs de l'oxygène — le même langage de « stress » que la littérature sur l'hormèse. Cette bouffée n'est pas un dommage ; c'est un *signal*. Elle modifie les cystéines de Keap1 qui gardent le facteur de transcription Nrf2, Nrf2 s'échappe dans le noyau, et la cellule allume son programme adaptatif : enzymes antioxydantes, voies de réparation, et — via le circuit Nrf2–PGC-1α — la **biogenèse mitochondriale** [@Ristow2009oxidativehormesis]. Vous courez, vous êtes plus mal pendant une heure, et vous êtes plus en forme pendant un an. Le stress est le stimulus ; l'adaptation est le traitement. C'est la mitohormèse, et c'est la même voie Keap1–Nrf2–ARE que la série sur les médicaments a décrite pour le LDN et le sulforaphane.
+
+La forme de la courbe dose-réponse est familière. Trop peu d'effort : pas de signal, pas d'adaptation — le déconditionnement. Le bon effort : signal, adaptation, capacité croissante. Trop d'effort dans un corps sain : blessure et surentraînement — mais de façon notable, même le surentraînement des athlètes est une courbe *décalée*, pas cassée ; la récupération restaure l'adaptation. En santé, la fenêtre est large et tolérante.
+
+---
+
+## La différence EM/SFC : la boucle peut être cassée, pas décalée
+
+Maintenant, la maladie. La documentation primaire modélise ce qui arrive à cette boucle dans l'EM/SFC, et la description est inhabituelle par sa sévérité [@Loth2026website]. Le circuit Nrf2–PGC-1α est bidirectionnel : PGC-1α co-active la transcription de Nrf2, et Nrf2 induit l'expression de PGC-1α. Dans l'EM/SFC, les deux bras peuvent être altérés en même temps. AMPK — le capteur énergétique qui initie le programme adaptatif — est altérée [@Brown2018AMPK]. PGC-1α ne peut pas être désacétylée car la désacétylation dépendante de SIRT1 est altérée. Et même si Nrf2 est activé, le programme transcriptionnel qu'il déclenche ne peut pas être exécuté, parce que la machinerie biosynthétique est privée de ressources. Chaque nœud de la boucle est compromis, et la conséquence est un **piège auto-entretenu** : le patient ne peut pas faire d'exercice pour activer l'hormèse, ne peut pas activer le programme pharmacologiquement sans AMPK, et le déficit antioxydant qui en résulte rend l'effort *suivant* plus dommageable que le précédent.
+
+Deux choses doivent être dites avec soin ici, car elles portent le poids épistémique de cet article. D'abord, c'est une *inférence*, pas une mesure. Le circuit Nrf2–PGC-1α n'a pas été directement mesuré pendant l'exercice chez les patients EM/SFC ; ce qui est connu, c'est la mitohormèse en santé et l'intolérance à l'effort dans la maladie, et le modèle de la boucle cassée est la synthèse cohérente des deux [@Loth2026website]. Sa certitude est faible. Ensuite, une courbe cassée fait une *prédiction* différente d'une courbe décalée, et la prédiction est testable : une courbe décalée signifie qu'une certaine dose d'effort produit une adaptation nette (un gain) ; une courbe cassée signifie qu'**aucune dose ne le fait** — chaque dose d'effort au-dessus du seuil symptomatique produit une perte nette.
+
+---
+
+## Pourquoi cela explique le pacing — et pourquoi il ne faut jamais y lire une prescription d'exercice
+
+Si la courbe de l'effort dans l'EM/SFC est décalée, alors quelque part sur l'axe de dose il existe une fenêtre bénéfique, et la tâche clinique est de la trouver — « l'exercice hormétique », soigneusement titré. Si la courbe est *cassée*, il n'y a pas de fenêtre à trouver, et la stratégie rationnelle est celle que les patients ont découverte empiriquement des décennies avant que la biologie n'existe : **rester à l'intérieur de l'enveloppe d'énergie**. Le pacing est ce à quoi ressemble le modèle de la courbe cassée vu de l'intérieur. Ce n'est pas de l'exercice timide. C'est la réponse correcte à une relation dose-réponse dans laquelle le bras de l'adaptation a échoué et où seul le bras du mal se déclenche de façon fiable.
+
+C'est aussi pourquoi le modèle de la courbe cassée, s'il est vrai, explique rétrospectivement l'un des chapitres les plus dommageables de l'histoire du traitement de l'EM/SFC. La thérapie par exercice progressif supposait une courbe décalée — qu'une escalade, bien menée, finirait par atterrir dans la fenêtre. Quand des essais avec des mesures objectives ont testé cette hypothèse, l'escalade a produit une détérioration, pas une adaptation. Sous le modèle de la courbe cassée, ce n'est ni un paradoxe ni un échec d'observance ; c'est exactement ce que le modèle prédit. Une courbe sans bras adaptatif punit l'escalade par construction.
+
+Une condition aux limites doit figurer en gras, car cet article n'est qu'à une lecture négligente de faire du mal. **Rien ici n'est une prescription d'exercice.** L'affirmation n'est pas « l'effort a une dose sûre, trouvez la vôtre ». L'affirmation est que la biologie de l'effort dans l'EM/SFC peut être qualitativement différente de la biologie de l'effort en santé — et que la règle opératoire qui découle du modèle de la courbe cassée est le pacing, pas la titration vers le haut. Là où la série sur les médicaments disait « la fenêtre est étroite », cet article dit quelque chose de plus sombre et de plus utile : la fenêtre peut ne pas exister, et l'enveloppe est la carte que vous recevez à la place.
+
+---
+
+## L'unification
+
+Mettez la série sur les médicaments et cet article côte à côte, et le principe unificateur de tout le cadre devient visible. Dans l'EM/SFC, la *dose* est la variable cachée partout — pas comme un raffinement mais comme la variable clinique primaire :
+
+- **Les médicaments qui élèvent le tonus** (modafinil, duloxétine) : fenêtre sur la courbe des catécholamines.
+- **Les médicaments qui sont des signaux** (LDN, sulforaphane, NAC) : fenêtre sur la courbe hormétique.
+- **Les médicaments qui occupent des récepteurs** (aripiprazole) : fenêtre sur la courbe d'occupation.
+- **L'effort** : une fenêtre qui peut être fermée — et le pacing comme la stratégie qui respecte son absence.
+
+L'habitude clinique qui relie tout cela est la même que celle que la série défend depuis la Partie 1 : cessez de traiter la quantité comme une note de bas de page. Dans l'EM/SFC, la première question sur tout intrant — médicament, stimulus ou effort — n'est pas « fonctionne-t-il ? » mais « à quelle quantité, et que me dit la réponse sur la position de ma courbe ? »
+
+---
+
+## Certitude
+
+| Affirmation | Certitude |
+|-------------|-----------|
+| L'exercice est hormétique en santé (Nrf2/AMPK/PGC-1α, mitohormèse) | Élevée — littérature établie [@Ristow2009oxidativehormesis] |
+| La boucle Nrf2–PGC-1α est cassée dans l'EM/SFC | Faible — inférée de la physiologie en santé + l'intolérance à l'effort ; jamais directement mesurée pendant l'effort chez les patients [@Loth2026website] |
+| Une courbe d'effort cassée (pas décalée) prédit qu'aucune dose d'effort ne produit d'adaptation nette | Faible à modérée — cohérente avec les résultats du CPET sur 2 jours et les méfaits de l'exercice progressif ; jamais testée comme prédiction directe |
+| Le pacing est la réponse rationnelle à une courbe d'effort cassée | Modérée — cohérent avec l'observation clinique et le modèle ; aucun essai prospectif pacing-vs-titration dans le cadre |
+
+*Cet article s'appuie sur le cadre de l'hormèse et de la boucle hormétique cassée de [Loth 2026](https://yannickloth.github.io/health-me-cfs/). Articles compagnons : [Partie 1 : Pourquoi plus n'est pas mieux](../more-isnt-better-ldn-lda/) · [Partie 2 : L'U inversé n'est pas une seule chose](../inverted-u-not-one-thing/) · [La dose idéale d'aripiprazole](../low-dose-aripiprazole-window/) · [Pourquoi une dose plus élevée ne contient pas les bénéfices d'une dose plus faible](../concentration-not-presence/).*
+
