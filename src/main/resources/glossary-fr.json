@@ -11757,6 +11757,30 @@
     "definition": "Autoanticorps qui se lient à des protéines ou des récepteurs sur les surfaces cellulaires neuronales, notamment les récepteurs D1/D2 de la dopamine, la tubuline, les protéines associées aux lysosomes et CaMKII. Dans le PANS/PANDAS, les anticorps anti-neuronaux générés par mimétisme moléculaire perturbent la signalisation de la dopamine dans les ganglions de la base, produisant des symptômes obsessionnels-compulsifs et moteurs. Des mécanismes parallèles d'anticorps anti-neuronaux (par ex., anticorps anti-RCPG) sont documentés dans l'EM/SFC, suggérant une physiopathologie partagée.",
     "synonyms": []
   },
+  "anti-FGFR3": {
+    "label": "anti-FGFR3",
+    "category": "biomarker",
+    "definition": "Anticorps (généralement IgG) dirigés contre le récepteur 3 du facteur de croissance des fibroblastes (FGFR3), rapportés dans la neuropathie sensorielle et la neuropathie des petites fibres. Proposé comme test commercial mais NON validé dans l'EM/SFC ; le dosage n'est pas standardisé entre les laboratoires et les essais contrôlés de traitement sont négatifs.",
+    "synonyms": []
+  },
+  "anti-TS-HDS": {
+    "label": "anti-TS-HDS",
+    "category": "biomarker",
+    "definition": "Anticorps (généralement IgM) dirigés contre le disaccharide d'héparine trisulfaté (TS-HDS), un épitope de type héparane-sulfate. Rapportés dans un sous-ensemble de neuropathie cryptogénique des petites fibres et proposés comme test commercial, mais NON validés dans l'EM/SFC — les preuves montrent une spécificité limitée et aucune prédiction fiable de la maladie ou de la réponse au traitement.",
+    "synonyms": []
+  },
+  "TS-HDS": {
+    "label": "TS-HDS",
+    "category": "biomarker",
+    "definition": "Disaccharide d'héparine trisulfaté, une molécule de type héparane-sulfate utilisée comme antigène dans un test commercial d'autoanticorps pour la neuropathie des petites fibres. Sa validité clinique est contestée et il n'est pas établi dans l'EM/SFC.",
+    "synonyms": []
+  },
+  "FGFR3": {
+    "label": "FGFR3",
+    "category": "receptor",
+    "definition": "Récepteur 3 du facteur de croissance des fibroblastes, un récepteur de surface cellulaire. Les anticorps dirigés contre lui (anti-FGFR3) sont rapportés dans la neuropathie sensorielle et des petites fibres, mais le marqueur n'est pas validé dans l'EM/SFC et le dosage n'est pas standardisé entre les laboratoires.",
+    "synonyms": []
+  },
   "basal ganglia": {
     "label": "basal ganglia",
     "category": "anatomy",
@@ -12121,7 +12145,7 @@
   "hormesis": {
     "label": "Hormesis",
     "category": "mechanism",
-    "definition": "Un phénomène de réponse dose-réponse biphasique dans lequel une exposition à faible dose à un facteur de stress (médicament, toxine, rayonnement) déclenche une régulation à la hausse adaptative compensatoire — produisant un bénéfice — tandis que des doses plus élevées suppriment la même voie, éliminant le bénéfice ou causant un préjudice. Aussi appelé réponse dose-réponse en U inversé. Le corpus de Calabrese (Nature 2003, et seq.) établit l'hormèse comme modèle de dose-réponse par défaut en pharmacologie, et non l'exception. Dans l'EM/SFC, 17 médicaments (LDN, LDA, lithium, mélatonine, sulforaphane, corticostéroïdes, DORA, duloxétine, bêta-bloquants, modafinil, antihistaminiques H1, NAC, rapamycine, alloprégnanolone, kétotifène, quercétine, taVNS) présentent une dose-réponse non monotone via quatre grappes mécanistiques : régulation à la hausse compensatoire médiée par Nrf2, U inversé des catécholamines aux récepteurs D1/α2A préfrontaux, sélectivité de dose de mTORC1/mTORC2 et réponse concentration-réponse biphasique GABA-A/neurostéroïde.",
+    "definition": "Un phénomène de réponse dose-réponse biphasique dans lequel une exposition à faible dose à un facteur de stress (médicament, toxine, rayonnement) déclenche une régulation à la hausse adaptative compensatoire — produisant un bénéfice — tandis que des doses plus élevées suppriment la même voie, éliminant le bénéfice ou causant un préjudice. Aussi appelé réponse dose-réponse en U inversé. Le corpus de Calabrese (Nature 2003, et seq.) établit l'hormèse comme modèle de dose-réponse par défaut en pharmacologie, et non l'exception. Dans l'EM/SFC, 17 médicaments (LDN, LDA, lithium, mélatonine, sulforaphane, corticostéroïdes, DORA, duloxétine, bêta-bloquants, modafinil, antihistaminiques H1, NAC, rapamycine, alloprégnanolone, kétotifène, quercétine, taVNS) présentent une dose-réponse non monotone. Cette liste candidate et son regroupement mécanistique proviennent d'une revue de patrons du contenu de ce document et n'ont été validés dans aucun ensemble de données externe — que les médicaments partagent un mécanisme commun ou que chaque courbe soit spécifique au médicament reste non testé. Les regroupements proposés incluent : régulation à la hausse compensatoire médiée par Nrf2 ; U inversé des agonistes partiels à l'occupation des récepteurs (aripiprazole) ; U inversé des catécholamines aux récepteurs D1/α2A préfrontaux ; sélectivité d'isoforme de récepteur (rapamycine mTORC1/C2, corticostéroïdes) ; effets pharmacocinétiques/pénétration de la BHE (DORA, antihistaminiques H1, kétotifène) ; et réponse concentration-réponse biphasique de neurotransmetteurs (alloprégnanolone, NAC, quercétine, taVNS).",
     "synonyms": []
   },
   "hormetic reserve": {

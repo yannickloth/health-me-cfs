@@ -12031,6 +12031,30 @@
     "definition": "Autoantikörper, die an Proteine oder Rezeptoren auf neuronalen Zelloberflächen binden, darunter Dopamin-D1/D2-Rezeptoren, Tubulin, lysosomen-assoziierte Proteine und CaMKII. Bei PANS/PANDAS stören durch molekulare Mimikry erzeugte anti-neuronale Antikörper die Dopaminsignalisierung in den Basalganglien und erzeugen zwanghafte und motorische Symptome. Parallele anti-neuronale Antikörper-Mechanismen (z. B. Anti-GPCR-Antikörper) sind bei ME/CFS dokumentiert, was auf eine gemeinsame Pathophysiologie hindeutet.",
     "synonyms": []
   },
+  "anti-FGFR3": {
+    "label": "anti-FGFR3",
+    "category": "biomarker",
+    "definition": "Antikörper (in der Regel IgG) gegen den Fibroblasten-Wachstumsfaktor-Rezeptor 3 (FGFR3), beschrieben bei sensorischer Neuropathie und Small-Fiber-Neuropathie. Als kommerzieller Test angeboten, aber NICHT für ME/CFS validiert; der Assay ist nicht zwischen Laboratorien standardisiert und kontrollierte Behandlungsstudien sind negativ.",
+    "synonyms": []
+  },
+  "anti-TS-HDS": {
+    "label": "anti-TS-HDS",
+    "category": "biomarker",
+    "definition": "Antikörper (in der Regel IgM) gegen das trisulfatierte Heparindisaccharid (TS-HDS), ein heparansulfatähnliches Epitop. Beschrieben in einer Untergruppe kryptogener Small-Fiber-Neuropathie und als kommerzieller Test angeboten, aber NICHT für ME/CFS validiert — die Evidenz zeigt begrenzte Spezifität und keine zuverlässige Vorhersage der Erkrankung oder des Behandlungserfolgs.",
+    "synonyms": []
+  },
+  "TS-HDS": {
+    "label": "TS-HDS",
+    "category": "biomarker",
+    "definition": "Trisulfatiertes Heparindisaccharid, ein heparansulfatähnliches Molekül, das als Antigen in einem kommerziellen Autoantikörper-Test für Small-Fiber-Neuropathie verwendet wird. Seine klinische Validität ist umstritten und es ist für ME/CFS nicht etabliert.",
+    "synonyms": []
+  },
+  "FGFR3": {
+    "label": "FGFR3",
+    "category": "receptor",
+    "definition": "Fibroblasten-Wachstumsfaktor-Rezeptor 3, ein Zelloberflächenrezeptor. Antikörper dagegen (anti-FGFR3) werden bei sensorischer und Small-Fiber-Neuropathie beschrieben, aber der Marker ist für ME/CFS nicht validiert und der Assay ist nicht zwischen Laboratorien standardisiert.",
+    "synonyms": []
+  },
   "basal ganglia": {
     "label": "basal ganglia",
     "category": "anatomy",
@@ -12388,7 +12412,7 @@
   "hormesis": {
     "label": "Hormesis",
     "category": "mechanism",
-    "definition": "Ein biphasisches Dosis-Wirkungs-Phänomen, bei dem eine niedrig dosierte Exposition gegenüber einem Stressor (Medikament, Toxin, Strahlung) eine kompensatorische adaptive Hochregulation auslöst — mit Nutzen —, während höhere Dosen denselben Signalweg unterdrücken, den Nutzen aufheben oder Schaden verursachen. Auch als umgekehrt-U-Dosis-Wirkung bezeichnet. Das Calabrese-Werk (Nature 2003, et seq.) etabliert Hormesis als das Standard-Dosis-Wirkungsmodell in der Pharmakologie, nicht die Ausnahme. Bei ME/CFS zeigen 17 Medikamente (LDN, LDA, Lithium, Melatonin, Sulforaphan, Kortikosteroide, DORAs, Duloxetin, Betablocker, Modafinil, H1-Antihistaminika, NAC, Rapamycin, Allopregnanolon, Ketotifen, Quercetin, taVNS) eine nicht-monotone Dosis-Wirkungs-Beziehung über vier mechanistische Cluster: Nrf2-vermittelte kompensatorische Hochregulation, Katecholamin-Umgekehrt-U an präfrontalen D1/α2A-Rezeptoren, mTORC1/mTORC2-Dosisselektivität und biphasische GABA-A/Neurosteroid-Konzentrations-Wirkungs-Beziehung.",
+    "definition": "Ein biphasisches Dosis-Wirkungs-Phänomen, bei dem eine niedrig dosierte Exposition gegenüber einem Stressor (Medikament, Toxin, Strahlung) eine kompensatorische adaptive Hochregulation auslöst — mit Nutzen —, während höhere Dosen denselben Signalweg unterdrücken, den Nutzen aufheben oder Schaden verursachen. Auch als umgekehrt-U-Dosis-Wirkung bezeichnet. Das Calabrese-Werk (Nature 2003, et seq.) etabliert Hormesis als das Standard-Dosis-Wirkungsmodell in der Pharmakologie, nicht die Ausnahme. Bei ME/CFS zeigen 17 Medikamente (LDN, LDA, Lithium, Melatonin, Sulforaphan, Kortikosteroide, DORAs, Duloxetin, Betablocker, Modafinil, H1-Antihistaminika, NAC, Rapamycin, Allopregnanolon, Ketotifen, Quercetin, taVNS) eine nicht-monotone Dosis-Wirkungs-Beziehung. Diese Kandidatenliste und ihre mechanistische Gruppierung stammen aus einer Musterprüfung des Inhalts dieses Dokuments und wurden in keinem externen Datensatz validiert — ob die Medikamente einen gemeinsamen Mechanismus teilen oder jede Kurve medikamentenspezifisch ist, ist ungetestet. Vorgeschlagene Gruppierungen umfassen: Nrf2-vermittelte kompensatorische Hochregulation; Teilagonist-Umgekehrt-U bei Rezeptorbesetzung (Aripiprazol); Katecholamin-Umgekehrt-U an präfrontalen D1/α2A-Rezeptoren; Rezeptor-Isoform-Selektivität (Rapamycin mTORC1/C2, Kortikosteroide); pharmakokinetische/BHS-Penetrationseffekte (DORAs, H1-Antihistaminika, Ketotifen); und biphasische Neurotransmitter-Konzentrations-Wirkungs-Beziehung (Allopregnanolon, NAC, Quercetin, taVNS).",
     "synonyms": []
   },
   "hormetic reserve": {
