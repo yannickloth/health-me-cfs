@@ -1262,3 +1262,6 @@ Prevents re-processing of already-integrated content.
 | URL | Source | Scraped | Integrated | Target |
 |-----|--------|---------|------------|--------|
 | PubMed esummary/efetch (PMIDs 42060160, 42463201, 41534530) | pubmed/eutils | 2026-09-09 | — | ops/research/search-log-2026-ldn-ebv-20260909.md, bib/treatments.bib (Gouda2026LDNevidence), bib/long-covid.bib (Byambasuren2026LDNlongcovid), bib/immune.bib (Wang2026EBVHLADR15MS), appendix-h (3 annotated entries) |
+| https://pubmed.ncbi.nlm.nih.gov/23211176/ | pubmed | 2026-09-09 | 2026-09-09 | blog/patient-doctor-relationship series, bib/stigma.bib — Bowes2012InternetInfo — patients presenting internet info in GP consultations, validation-seeking not authority challenge |
+| https://pubmed.ncbi.nlm.nih.gov/20132702/ | pubmed | 2026-09-09 | 2026-09-09 | blog/patient-doctor-relationship series, bib/stigma.bib — Ahluwalia2010Heartbeat — GP views of patient-brought internet info, "heartbeat moment", handling strategies |
+| https://pubmed.ncbi.nlm.nih.gov/19126176/ | pubmed | 2026-09-09 | 2026-09-09 | blog/patient-doctor-relationship series, bib/stigma.bib — Dilliway2008PatientInfo — GP/nurse questionnaire on patient-brought info frequency and impact |

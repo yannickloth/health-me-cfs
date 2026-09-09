@@ -1,0 +1,31 @@
+---
+title: "The Doctor–Patient Relationship in an Incurable Disease"
+description: "ME/CFS consultations fail in predictable ways — from both sides. A two-article series: how patients can use their own research without losing their doctor, and how doctors and caregivers can handle the informed patient without breaking the alliance."
+author: "Yannick Loth"
+date: "2026-09-09"
+categories: [Patient Care, Doctor-Patient Relationship, ME/CFS]
+---
+
+ME/CFS has no cure and, in routine care, no biomarker. That combination makes the consultation itself the highest-risk moment in the disease: the patient arrives carrying years of research and years of dismissal, the doctor arrives with twelve minutes and no textbook answer, and both sides pattern-match the other into a caricature — "Dr. Google" versus "the doctor who doesn't believe me." This series is about what actually happens in that room, and how to keep the relationship alive anyway.
+
+Why this matters more than in most diseases: for an incurable condition, **continuity of care is itself a treatment.** Losing a doctor is not an inconvenience — it means losing disability documentation, referrals, red-flag screening, and medication stewardship, all at once.
+
+---
+
+## The two articles
+
+Read the one written for your side of the desk — or both, if you want to understand the other side.
+
+### For patients: when you know more than your doctor
+
+**[When Your Doctor Doesn't Know Your Disease](../patient-doctor-relationship/when-your-doctor-doesnt-know-your-disease/index.qmd)** — why the conflict is structural rather than personal; the knowledge asymmetry stated honestly in both directions; the trust death spiral that can end with no doctor at all; and ten concrete tactics for using your research as a tool instead of a weapon — send before you spring, separate observation from interpretation, ask for the decision rather than the agreement, and never leave a doctor without knowing where the next one is.
+
+### For doctors and caregivers: the informed patient
+
+**[Why Your Patient Knows So Much](../patient-doctor-relationship/why-your-patient-knows-so-much/index.qmd)** — why self-research is a rational adaptation to a system that said "we have nothing for you"; what the consultation research says about internet-informed patients; scripts for the three patients you will meet (the well-sourced, the fragile-logic, the desperate); why saying "I don't know" protects your authority; and the caregiver's working role as amplifier, not advocate-at-war.
+
+---
+
+## A note on honesty
+
+This series argues from the structure of the situation and cites the consultation, stigma, and patient-experience literature where it exists. It deliberately avoids fabricating numbers: where a claim about doctor–patient conflict is not quantified in studies, it is stated as structural reasoning, not statistics. The underlying medical science is fully cited in the primary document [@Loth2026mecfs].

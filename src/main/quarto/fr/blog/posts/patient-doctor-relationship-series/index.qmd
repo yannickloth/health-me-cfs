@@ -1,0 +1,32 @@
+---
+title: "La relation médecin-patient dans une maladie incurable"
+description: "Les consultations sur l'EM/SFC échouent de manière prévisible — des deux côtés. Une série en deux articles : comment les patients peuvent utiliser leurs propres recherches sans perdre leur médecin, et comment médecins et aidants peuvent gérer le patient informé sans briser l'alliance."
+author: "Yannick Loth"
+date: "2026-09-09"
+categories: [Soins aux patients, Relation médecin-patient, EM/SFC]
+lang: fr
+---
+
+L'EM/SFC n'a pas de traitement curatif et, en soins de routine, pas de biomarqueur. Cette combinaison fait de la consultation le moment le plus risqué de la maladie : le patient arrive chargé d'années de recherches et d'années de rejet, le médecin arrive avec douze minutes et aucune réponse de manuel, et chacun réduit l'autre à une caricature — « Dr. Google » contre « le médecin qui ne me croit pas ». Cette série porte sur ce qui se passe réellement dans cette salle, et sur la façon de garder la relation en vie malgré tout.
+
+Pourquoi cela importe davantage que dans la plupart des maladies : pour une affection incurable, **la continuité des soins est en elle-même un traitement.** Perdre un médecin n'est pas un inconvénient — cela signifie perdre les certificats d'incapacité, les orientations, le dépistage des signes d'alarme et la gestion des médicaments, tout à la fois.
+
+---
+
+## Les deux articles
+
+Lisez celui écrit pour votre côté de la table — ou les deux, si vous voulez comprendre l'autre côté.
+
+### Pour les patients : quand vous en savez plus que votre médecin
+
+**[Quand votre médecin ne connaît pas votre maladie](../patient-doctor-relationship/when-your-doctor-doesnt-know-your-disease/index.qmd)** — pourquoi le conflit est structurel plutôt que personnel ; l'asymétrie des connaissances exposée honnêtement dans les deux sens ; la spirale de la confiance brisée qui peut finir sans médecin du tout ; et dix tactiques concrètes pour utiliser vos recherches comme un outil plutôt qu'une arme — envoyez avant, ne provoquez pas ; séparez l'observation de l'interprétation ; demandez la décision plutôt que l'accord ; et ne quittez jamais un médecin sans savoir où en trouver un autre.
+
+### Pour les médecins et les aidants : le patient informé
+
+**[Pourquoi votre patient en sait tant](../patient-doctor-relationship/why-your-patient-knows-so-much/index.qmd)** — pourquoi l'auto-recherche est une adaptation rationnelle à un système qui a dit « nous n'avons rien pour vous » ; ce que la recherche sur les consultations dit des patients informés ; des scripts pour les trois patients que vous rencontrerez (le bien documenté, celui à la logique fragile, le désespéré) ; pourquoi dire « je ne sais pas » protège votre autorité ; et le rôle pratique de l'aidant comme amplificateur de confiance, non comme avocat-belligérant.
+
+---
+
+## Une note sur l'honnêteté
+
+Cette série raisonne à partir de la structure de la situation et cite la littérature sur les consultations, la stigmatisation et l'expérience des patients là où elle existe. Elle évite délibérément de fabriquer des chiffres : quand une affirmation sur le conflit médecin-patient n'est pas quantifiée dans des études, elle est présentée comme un raisonnement structurel, non comme une statistique. La science médicale sous-jacente est entièrement citée dans le document principal [@Loth2026mecfs].

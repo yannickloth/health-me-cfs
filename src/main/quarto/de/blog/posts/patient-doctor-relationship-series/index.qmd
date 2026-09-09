@@ -1,0 +1,32 @@
+---
+title: "Die Arzt-Patient-Beziehung bei einer unheilbaren Krankheit"
+description: "ME/CFS-Sprechstunden scheitern vorhersehbar — auf beiden Seiten. Eine Serie aus zwei Artikeln: wie Patienten ihre eigene Recherche nutzen können, ohne ihren Arzt zu verlieren, und wie Ärzte und Angehörige mit dem informierten Patienten umgehen können, ohne das Bündnis zu brechen."
+author: "Yannick Loth"
+date: "2026-09-09"
+categories: [Patientenversorgung, Arzt-Patient-Beziehung, ME/CFS]
+lang: de
+---
+
+ME/CFS hat keine Heilung und in der Regelversorgung keinen Biomarker. Diese Kombination macht die Sprechstunde selbst zum riskantesten Moment der Krankheit: Der Patient kommt mit Jahren der Recherche und Jahren der Zurückweisung, der Arzt kommt mit zwölf Minuten und keiner Lehrbuchantwort, und beide Seiten schubladisieren den anderen zu einer Karikatur — „Dr. Google" gegen „der Arzt, der mir nicht glaubt". In dieser Serie geht es darum, was in diesem Raum wirklich passiert, und wie man die Beziehung trotzdem am Leben erhält.
+
+Warum das wichtiger ist als bei den meisten Krankheiten: Bei einer unheilbaren Erkrankung **ist die Kontinuität der Versorgung selbst eine Behandlung.** Einen Arzt zu verlieren ist keine Unannehmlichkeit — es bedeutet, Erwerbsminderungsdokumente, Überweisungen, das Screening auf Warnsignale und die Begleitung der Medikation zu verlieren, alles auf einmal.
+
+---
+
+## Die zwei Artikel
+
+Lesen Sie den, der für Ihre Seite des Tisches geschrieben ist — oder beide, wenn Sie die andere Seite verstehen wollen.
+
+### Für Patienten: wenn Sie mehr wissen als Ihr Arzt
+
+**[Wenn Ihr Arzt Ihre Krankheit nicht kennt](../patient-doctor-relationship/when-your-doctor-doesnt-know-your-disease/index.qmd)** — warum der Konflikt strukturell ist und nicht persönlich; die Wissensasymmetrie, ehrlich in beide Richtungen dargelegt; die Abwärtsspirale des Vertrauens, die ganz ohne Arzt enden kann; und zehn konkrete Taktiken, um Ihre Recherche als Werkzeug statt als Waffe zu nutzen — vorher schicken statt überfallen, Beobachtung von Deutung trennen, nach der Entscheidung statt nach der Zustimmung fragen, und nie einen Arzt verlassen, ohne zu wissen, wo der nächste ist.
+
+### Für Ärzte und Angehörige: der informierte Patient
+
+**[Warum Ihr Patient so viel weiß](../patient-doctor-relationship/why-your-patient-knows-so-much/index.qmd)** — warum Selbstrecherche eine rationale Anpassung an ein System ist, das gesagt hat „wir haben nichts für Sie"; was die Sprechstundenforschung über internetinformierte Patienten sagt; Drehbücher für die drei Patienten, denen Sie begegnen werden (den gut dokumentierten, den mit fragiler Logik, den Verzweifelten); warum „Ich weiß es nicht" Ihre Autorität schützt; und die praktische Rolle der Angehörigen als Vertrauensverstärker, nicht als Kriegsadvokat.
+
+---
+
+## Eine Anmerkung zur Ehrlichkeit
+
+Diese Serie argumentiert aus der Struktur der Situation heraus und zitiert die Literatur zu Sprechstunden, Stigmatisierung und Patientenerfahrung, wo sie existiert. Sie verzichtet bewusst darauf, Zahlen zu erfinden: Wo eine Aussage über den Arzt-Patient-Konflikt nicht in Studien quantifiziert ist, wird sie als strukturelle Argumentation dargestellt, nicht als Statistik. Die zugrunde liegende medizinische Wissenschaft ist vollständig im Hauptdokument zitiert [@Loth2026mecfs].
