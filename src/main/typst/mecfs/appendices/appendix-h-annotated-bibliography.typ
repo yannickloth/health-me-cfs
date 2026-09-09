@@ -39662,3 +39662,51 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
     *Conclusion:* Maps the downstream VZV mechanism (ganglion reactivation → cerebral arterial inflammation) that potentially intersects documented ME/CFS findings on cerebral vasculature and neuroinflammation, even though VZV-stroke epidemiology is not ME/CFS-specific. Complements the Bubak 2026 NRDP review with a dedicated stroke-mechanism synthesis.
     *Limitations:* Narrative review (no primary data); general-population VZV-stroke, not ME/CFS; partially redundant with the Bubak 2026 review's stroke content.
     *Certainty Assessment:* 0.50 raw × 0.75 (general-population/mechanism) = *discounted ~0.38* (supporting mechanism)
+
+=== Gouda et al.\ 2026 — Low-Dose Naltrexone: What is the Evidence? A Narrative Review
+
+    *Full Citation:*: Gouda AHK, Aitcheson NEC, Steadman KJ. Low-Dose Naltrexone: What is the Evidence? A Narrative Review. _Advances in Therapy_. 2026;43(7):2852–2870. @Gouda2026LDNevidence
+    *DOI:*: #link("https://doi.org/10.1007/s12325-026-03612-5")[10.1007/s12325-026-03612-5]
+    *PMID:*: 42060160
+    *Study Design:*: Narrative umbrella review (105 human studies; 15 RCTs) across chronic pain, autoimmune/neuroimmune, GI, dermatological, post-infectious, mental-health and oncology indications
+    *Key Findings:*:
+        - Reviews 105 human LDN studies (≤12.5 mg) across multiple disorders, 15 of them RCTs.
+        - Central finding: encouraging results from uncontrolled studies rarely survive placebo-controlled testing.
+        - Most evidence is case reports / small feasibility studies — prone to publication bias and subjective outcomes.
+        - LDN generally safe, inexpensive, well-tolerated; most studies use 4.5 mg/day.
+        - Current evidence does not support routine clinical use; a pragmatic role may exist in treatment-resistant cases.
+        - Calls for larger RCTs with objective endpoints and N-of-1 designs to identify responders.
+    *Conclusion:* Reinforces the evidence-caution framing already present in ch28 LDN: mechanistic/observational promise has not yet translated into controlled-trial proof. Supports presenting LDN as off-label with limited controlled evidence rather than as established therapy.
+    *Limitations:* Narrative review (not systematic); cross-disorder synthesis; does not adjudicate ME/CFS-specific controlled evidence (which remains thin).
+    *Certainty Assessment:* 0.75 raw × 0.75 (general-population, not ME/CFS-specific) = *discounted ~0.56* (supporting — review-level evidence framework)
+
+=== Byambasuren et al.\ 2026 — LDN for Long COVID: Systematic Review and Meta-Analysis
+
+    *Full Citation:*: Byambasuren O, Atkins T, Baptista S, Glasziou P, Chakraborty S. Effect of low-dose naltrexone for long COVID: a systematic review and meta-analysis. _BMJ Open_. 2026;16(7):e111253. @Byambasuren2026LDNlongcovid
+    *DOI:*: #link("https://doi.org/10.1136/bmjopen-2025-111253")[10.1136/bmjopen-2025-111253]
+    *PMID:*: 42463201
+    *Study Design:*: Systematic review + meta-analysis
+    *Sample Size:*: 4 observational pre-post studies (USA, Ireland), n=155
+    *Key Findings:*:
+        - No randomized controlled trials of LDN for long COVID identified; only observational pre-post studies met inclusion.
+        - Pooled pre-post analyses: moderate effects favouring LDN for fatigue (Hedges' g −0.74), brain fog (−0.53), sleep quality (−0.60); large effects for pain (−0.93) and daily functioning (−0.93).
+        - Heterogeneity ranged 0–62%.
+        - No serious adverse events in the two studies that assessed safety.
+        - Certainty of evidence rated LOW.
+    *Conclusion:* Supports the observational-signal framing in ch28 LDN for post-infectious fatigue — a promising but low-certainty signal from uncontrolled studies. Directly exemplifies why controlled evidence (e.g. the completed-but-unpublished NCT05430152 RCT) is the missing piece.
+    *Limitations:* No RCTs; observational pre-post designs subject to regression-to-mean and expectation effects; long COVID population (weight 0.85) rather than ME/CFS.
+    *Certainty Assessment:* 0.60 raw × 0.85 (long COVID) = *discounted ~0.51* (supporting — low-certainty observational meta)
+
+=== Wang et al.\ 2026 — EBV + HLA-DR15 Jointly Drive MS by Myelin Peptide Presentation
+
+    *Full Citation:*: Wang J, Qiu Y, Marti Z, Li F, Wacker M, Oldrati P, et al. EBV infection and HLA-DR15 jointly drive multiple sclerosis by myelin peptide presentation. _Cell_. 2026;189(2):569–584.e14. @Wang2026EBVHLADR15MS
+    *DOI:*: #link("https://doi.org/10.1016/j.cell.2025.12.046")[10.1016/j.cell.2025.12.046]
+    *PMID:*: 41534530
+    *Study Design:*: Mechanistic (in vitro / structural immunology)
+    *Key Findings:*:
+        - Demonstrates that EBV infection alters antigen processing and presentation on MS-associated HLA-DR15 molecules in infected B cells.
+        - EBV-infected HLA-DR15 B cells present myelin-derived self-antigens capable of being recognized by autoreactive CD4+ T cells.
+        - Provides direct mechanistic linkage between infection (EBV), genetically determined HLA-restricted presentation (HLA-DR15), and presentation of CNS self-antigen.
+    *Conclusion:* Strengthens the infection + HLA-restricted presentation + autoimmunity proof-of-principle for which MS is the canonical model (complementing Lanz 2022 EBNA1/GlialCAM and the HLA-restricted-antigen framework of Georgopoulos 2025). Provides precedent for how EBV could interact with HLA class II to surface self-antigens — a mechanism relevant to ME/CFS only as a testable hypothesis, not a demonstration.
+    *Limitations:* In vitro / structural (not organism-level); mechanism demonstrated in MS (HLA-DR15), not in ME/CFS; no direct ME/CFS data.
+    *Certainty Assessment:* 0.65 raw × 0.40 (in vitro) = *discounted ~0.26* (supporting mechanism — MS-specific in vitro proof-of-principle)

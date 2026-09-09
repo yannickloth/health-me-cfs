@@ -1253,3 +1253,12 @@ Prevents re-processing of already-integrated content.
 | URL | Source | Scraped | Integrated | Target |
 |-----|--------|---------|------------|--------|
 | PubMed esearch/esummary/efetch (25 axes; PMIDs 28145411,40265250,36601322,30848682,31823656,41340677,38149622,37867780,37882493,40880345,27583766,24923894,25244472,24423788,40801782 + screens) | pubmed/eutils | 2026-09-04 | — | ops/research/search-log-autism-social-perception-stigma-2026-09-04.md, ops/research/literature-autism-social-perception-stigma-2026-09-04.md, bib/stigma.bib (15 new), appendix-h (sec:autism-social-perception-stigma, 15 annotated entries), Literature/comorbidities/Sasson_2017_ThinSliceAutism/, ops/integration-guides/INTEGRATION_GUIDE_autism-social-perception-stigma.md. Cage 2019 (PMID 31400085) screened but deprioritized for count cap. |
+
+## 2026 LDN + EBV-HLA References (2026-09-09)
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed E-utilities API (esummary + efetch; PMID-targeted) | pubmed/eutils | 2026-09-09 | Phase-1 gap-fill verify for topic `2026-ldn-ebv-references`. 3 PMID-targeted metadata + abstract fetches (42060160 Gouda LDN review; 42463201 Byambasuren LDN long-COVID meta; 41534530 Wang Cell EBV-HLA-DR15). All 3 VERIFIED absent from corpus before this cycle; all 3 added. NCT05430152 (LDN RCT) NOT added to bib — completed but no results posted → monitor item. Gouda erratum (42412315) noted in bib note, no separate entry. |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed esummary/efetch (PMIDs 42060160, 42463201, 41534530) | pubmed/eutils | 2026-09-09 | — | ops/research/search-log-2026-ldn-ebv-20260909.md, bib/treatments.bib (Gouda2026LDNevidence), bib/long-covid.bib (Byambasuren2026LDNlongcovid), bib/immune.bib (Wang2026EBVHLADR15MS), appendix-h (3 annotated entries) |

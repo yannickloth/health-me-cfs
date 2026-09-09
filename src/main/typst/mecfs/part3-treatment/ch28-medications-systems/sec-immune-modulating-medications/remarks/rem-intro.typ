@@ -28,9 +28,10 @@ Typical protocols involve:
 
 Evidence remains preliminary:
 
-    - A retrospective study of ME/CFS patients reported symptomatic improvement in a majority of respondents @Polo2019
-    - No large randomized controlled trials completed in ME/CFS
-    - A small randomized crossover trial in fibromyalgia showed significant pain reduction @Polo2019LDN; larger reviews support anti-inflammatory effects @Younger2013
+    - A retrospective study of ME/CFS patients reported symptomatic improvement in a majority of respondents @Polo2019
+    - No large randomized controlled trials completed in ME/CFS; a 2026 umbrella review of 105 human LDN studies found that encouraging results from uncontrolled studies rarely survive placebo-controlled testing across all indications @Gouda2026LDNevidence
+    - In long COVID, a 2026 systematic review found no RCTs and only four small pre-post studies (n=155) — moderate self-reported improvements at low evidence certainty, illustrating the same observational-signal pattern @Byambasuren2026LDNlongcovid
+    - A small randomized crossover trial in fibromyalgia showed significant pain reduction @Polo2019LDN; larger reviews support anti-inflammatory effects @Younger2013
     - Patient community reports generally favorable
 
 ==== Side Effects
