@@ -31,13 +31,13 @@ Trois règles universelles avant tout protocole :
 
 ---
 
-## 1. Naltrexone à faible dose (LDN)
+## Naltrexone à faible dose (LDN)
 
 **Cibles (par bande de dose) :** amorçage hormétique TLR4/Nrf2 (~0,5–1,5 mg) · régulation à la hausse compensatoire opioïde (~1,5–3 mg) · restauration TRPM3 (~3–4,5 mg) — voir la Partie 1 pour la cascade complète. Chaque cible est individuellement établie in vitro ou dans des modèles animaux : la naltrexone comme antagoniste partiel de TLR4 sur les microglies [@Younger2013], le blocage des récepteurs opioïdes avec rebond compensatoire d'endorphines [@Younger2013], la restauration du flux calcique TRPM3 dans les cellules NK de l'EM/SFC [@Cabanas2018trpm3; @Cabanas2021], et le lien inflammation-vers-suppression-de-l'orexine [@Grossberg2011orexinLethargy]. Ce qui n'est *pas* établi, c'est la correspondance entre chaque cible et une bande de dose clinique — cette partie relève de l'inférence de modèle [@Loth2026mecfs].
 
 | Champ | Protocole | Niveau |
 |-------|----------|------|
-| Échelle de dose | 0,5 mg × 2 sem → 1 mg × 4 sem → 1,5 mg × 4 sem → (si partiel) 2,25 mg × 4 sem | E pour le départ bas ; C pour les paliers |
+| Échelle de dose | 0,5 mg × 2 sem → 1 mg × 4 sem → 1,5 mg × 4 sem → (si partiel) 2,25 mg × 4 sem → (si partiel) 3 mg × 4 sem → (si aucun signal encore) 4,5 mg × 4 sem | E pour le départ bas ; C pour les paliers |
 | Durée du palier | Minimum 4 semaines par échelon sous 2 mg — le mécanisme TLR4/Nrf2 est transcriptionnel ; des verdicts en moins de 2 semaines mesurent l'adaptation, pas l'effet | C |
 | Critère de jugement principal | Fatigue ou brouillard cérébral, auto-évaluation quotidienne de 0 à 10 | C |
 | Conditions d'arrêt | Bénéfice à un échelon → maintenez ≥8 sem avant tout changement · aucun bénéfice sur le balayage complet 0,5–4,5 mg → lecture mécanistique : les cibles du LDN ne sont pas limitantes · poussée initiale → divisez par deux, n'abandonnez pas | C |
@@ -48,7 +48,7 @@ Trois règles universelles avant tout protocole :
 
 ---
 
-## 2. Aripiprazole à faible dose (LDA)
+## Aripiprazole à faible dose (LDA)
 
 **Cible :** agonisme partiel du récepteur dopaminergique D2 — modulation microgliale et catécholaminergique [@Crosby2021LDA]. Médicament unique ; le cadre prédit une fenêtre abrupte et pointue (à titre d'illustration : des doses sous 1 mg peuvent perdre la protection tandis que 1 mg tient ; l'escalade au-dessus de la dose efficace peut n'ajouter rien) — S, prédiction de modèle [@Loth2026mecfs].
 
@@ -66,7 +66,7 @@ Trois règles universelles avant tout protocole :
 
 ---
 
-## 3. Lithium à faible dose (lithium élémentaire)
+## Lithium à faible dose (lithium élémentaire)
 
 **Cible :** inhibition de la GSK-3β → dérépression du Nrf2 aux micro-doses ; les effets IMPase entrent en jeu à des micro-doses plus élevées (dynamique biphasique à deux cibles). L'inhibition de la GSK-3β à de faibles doses de lithium est documentée en préclinique [@Fenech2023LithiumGSK3Beta] ; le bénéfice cognitif aux micro-doses est documenté dans des cohortes Alzheimer et neuropsychiatriques [@Nunes2013MicrodoseLithiumAD; @Wilson2017NP03MicrodoseLithium; @Strawbridge2023LowDoseLithium]. Le partage dose-dépendant GSK-3β-vs-IMPase relève de l'inférence de modèle [@Loth2026mecfs].
 
@@ -80,7 +80,7 @@ Trois règles universelles avant tout protocole :
 
 ---
 
-## 4. Pyridostigmine (Mestinon)
+## Pyridostigmine (Mestinon)
 
 **Cible :** inhibition de l'acétylcholinestérase — tonus cholinergique périphérique ; pertinente pour les couches symptomatiques orthostatiques/vasculaires [@Joseph2022pyridostigmine; @Raj2005Pyridostigmine]. Effets caractéristiques dose-dépendants sur la motilité gastro-intestinale médiés par M3.
 
@@ -95,7 +95,7 @@ Trois règles universelles avant tout protocole :
 
 ---
 
-## 5. Méthylphénidate (Ritalin MR) et stimulants à faible dose
+## Méthylphénidate (Ritalin MR) et stimulants à faible dose
 
 **Cible :** inhibition de la recapture des catécholamines. Dans l'EM/SFC, le schéma documenté est en U inversé *et* une induction de PEM à des doses de stimulus élevées. L'ECR croisé en double aveugle a constaté que le méthylphénidate réduisait la fatigue dans le SFC [@Blockmans2006MPHCFS], et le suivi à long terme a constaté un bénéfice durable chez environ un tiers des poursuivants avec un taux d'abandon élevé — cohérent avec l'arbitrage stimulant-PEM que le protocole est conçu pour mesurer [@Blockmans2016LongTermMPH].
 
@@ -109,7 +109,7 @@ Trois règles universelles avant tout protocole :
 
 ---
 
-## 6. La pile MCAS (famotidine · rupatadine · montélukast)
+## La pile MCAS (famotidine · rupatadine · montélukast)
 
 **Cibles :** récepteurs H2 · H1/PAF · leucotriènes. De longue date, précèdent la plupart des autres essais, et habituellement *déjà* à leurs fenêtres — ce qui en fait la pile à instrumenter avant d'y toucher. Les combinaisons antihistaminiques/antagonistes PAF (H1 + H2) montrent un effet clinique dans les syndromes pilotés par les mastocytes [@Salvucci2023antihistamineLongCOVID], et l'antagonisme H1/PAF à dose augmentée (rupatadine) est documenté dans des contextes de mastocytes et d'urticaire [@Magerl2015rupatadine; @Izquierdo2024rupatadine].
 
@@ -124,7 +124,7 @@ Trois règles universelles avant tout protocole :
 
 ---
 
-## 7. Mélatonine (à faible dose)
+## Mélatonine (à faible dose)
 
 **Cible :** chronobiotique à faibles doses ; hypnotique (et profil de récepteurs différent) à hautes doses — un U inversé de manuel que la plupart des patients prennent à l'envers. La mélatonine à faible dose (0,5 mg) décale la phase de l'horloge circadienne sans supprimer la sécrétion endogène [@Burgess2010melatonin] ; dans le SFC, le calage de la mélatonine guidé par la DLMO a amélioré la fatigue chez les patients à phase retardée [@vanHeukelom2006melatonin]. Le cadrage « faible dose = chronobiotique, haute dose = hypnotique », et son application dans l'EM/SFC, relève de l'inférence de modèle [@Loth2026mecfs].
 
@@ -138,7 +138,7 @@ Trois règles universelles avant tout protocole :
 
 ---
 
-## 8. Modafinil
+## Modafinil
 
 **Cible :** promotion de l'éveil, catécholaminergique/adjacent à l'orexine [@Volkow2009modafinil]. La logique de dose s'applique comme pour les autres stimulants : U inversé avec anxiété/sur-stimulation sur la branche supérieure. Dans le syndrome de fatigue chronique, un croisement en double aveugle a constaté que le modafinil à dose standard n'apportait aucun bénéfice sur la fatigue et aggravait la cognition à 400 mg [@Randall2005modafinil] — l'ancrage pour commencer *en dessous* de la plage standard.
 

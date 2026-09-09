@@ -31,13 +31,13 @@ Three universal rules before any protocol:
 
 ---
 
-## 1. Low-Dose Naltrexone (LDN)
+## Low-Dose Naltrexone (LDN)
 
 **Targets (dose-banded):** TLR4/Nrf2 hormetic priming (~0.5–1.5 mg) · opioid compensatory upregulation (~1.5–3 mg) · TRPM3 restoration (~3–4.5 mg) — see Part 1 for the full cascade. Each target is individually established in vitro or in animal models: naltrexone as a partial TLR4 antagonist on microglia [@Younger2013], opioid-receptor blockade with compensatory endorphin rebound [@Younger2013], TRPM3 calcium-flux restoration in ME/CFS NK cells [@Cabanas2018trpm3; @Cabanas2021], and the inflammation-to-orexin-suppression link [@Grossberg2011orexinLethargy]. What is *not* established is the mapping of each target onto a clinical dose band — that part is model inference [@Loth2026mecfs].
 
 | Field | Protocol | Tier |
 |-------|----------|------|
-| Dose ladder | 0.5 mg × 2 wk → 1 mg × 4 wk → 1.5 mg × 4 wk → (if partial) 2.25 mg × 4 wk | E for start-low; C for steps |
+| Dose ladder | 0.5 mg × 2 wk → 1 mg × 4 wk → 1.5 mg × 4 wk → (if partial) 2.25 mg × 4 wk → (if partial) 3 mg × 4 wk → (if no signal yet) 4.5 mg × 4 wk | E for start-low; C for steps |
 | Step duration | Minimum 4 weeks per rung below 2 mg — the TLR4/Nrf2 mechanism is transcriptional; verdicts inside 2 weeks measure adjustment, not effect | C |
 | Primary outcome | Fatigue or brain fog, daily 0–10 self-rating | C |
 | Stop conditions | Benefit at a rung → hold ≥8 wk before any change · no benefit across 0.5–4.5 mg full sweep → mechanism read: LDN's targets are not rate-limiting · initial flare → halve, do not abandon | C |
@@ -48,7 +48,7 @@ Three universal rules before any protocol:
 
 ---
 
-## 2. Low-Dose Aripiprazole (LDA)
+## Low-Dose Aripiprazole (LDA)
 
 **Target:** dopamine D2 partial agonism — microglial and catecholamine modulation [@Crosby2021LDA]. Single drug; the framework predicts a steep, peaky window (illustratively: sub-1 mg doses may lose protection while 1 mg holds; escalation above the working dose may add nothing) — S, model prediction [@Loth2026mecfs].
 
@@ -66,7 +66,7 @@ Three universal rules before any protocol:
 
 ---
 
-## 3. Low-Dose Lithium (element lithium)
+## Low-Dose Lithium (element lithium)
 
 **Target:** GSK-3β inhibition → Nrf2 derepression at micro-doses; IMPase effects enter at higher micro-doses (biphasic two-target dynamic). GSK-3β inhibition at low lithium doses is documented preclinically [@Fenech2023LithiumGSK3Beta]; cognitive benefit at micro-doses is documented in Alzheimer's and neuropsychiatric cohorts [@Nunes2013MicrodoseLithiumAD; @Wilson2017NP03MicrodoseLithium; @Strawbridge2023LowDoseLithium]. The dose-dependent GSK-3β-vs-IMPase split is model inference [@Loth2026mecfs].
 
@@ -80,7 +80,7 @@ Three universal rules before any protocol:
 
 ---
 
-## 4. Pyridostigmine (Mestinon)
+## Pyridostigmine (Mestinon)
 
 **Target:** acetylcholinesterase inhibition — peripheral cholinergic tone; relevant to orthostatic/vascular symptom layers [@Joseph2022pyridostigmine; @Raj2005Pyridostigmine]. Characteristic dose-dependent M3-mediated GI motility effects.
 
@@ -95,7 +95,7 @@ Three universal rules before any protocol:
 
 ---
 
-## 5. Methylphenidate (Ritalin MR) and low-dose stimulants
+## Methylphenidate (Ritalin MR) and low-dose stimulants
 
 **Target:** catecholamine reuptake inhibition. In ME/CFS the documented pattern is inverted-U *and* PEM induction at high stimulus doses. The double-blind crossover RCT found methylphenidate reduced fatigue in CFS [@Blockmans2006MPHCFS], and long-term follow-up found durable benefit in about a third of continuers with a high dropout rate — consistent with the stimulant-PEM trade-off the protocol is built to measure [@Blockmans2016LongTermMPH].
 
@@ -109,7 +109,7 @@ Three universal rules before any protocol:
 
 ---
 
-## 6. The MCAS stack (famotidine · rupatadine · montelukast)
+## The MCAS stack (famotidine · rupatadine · montelukast)
 
 **Targets:** H2 · H1/PAF · leukotriene receptors. Long-standing, precede most other trials, and usually *already* at their windows — which makes them the stack to instrument before touching. Antihistamine/PAF-antagonist combinations (H1 + H2) show clinical effect in mast-cell-driven syndromes [@Salvucci2023antihistamineLongCOVID], and up-dosed H1/PAF antagonism (rupatadine) is documented in mast-cell and urticaria contexts [@Magerl2015rupatadine; @Izquierdo2024rupatadine].
 
@@ -124,7 +124,7 @@ Three universal rules before any protocol:
 
 ---
 
-## 7. Melatonin (low-dose)
+## Melatonin (low-dose)
 
 **Target:** chronobiotic at low doses; hypnotic (and different receptor profile) at high doses — a textbook inverted-U that most patients take backwards. Low-dose (0.5 mg) melatonin phase-shifts the circadian clock without suppressing endogenous secretion [@Burgess2010melatonin]; in CFS, DLMO-guided melatonin timing improved fatigue in patients with delayed phase [@vanHeukelom2006melatonin]. The "low dose is chronobiotic, high dose is hypnotic" framing, and its application in ME/CFS, is model inference [@Loth2026mecfs].
 
@@ -138,7 +138,7 @@ Three universal rules before any protocol:
 
 ---
 
-## 8. Modafinil
+## Modafinil
 
 **Target:** wakefulness promotion, catecholaminergic/orexin-adjacent [@Volkow2009modafinil]. The dose logic applies as for the other stimulants: inverted-U with anxiety/overstimulation on the upper arm. In chronic fatigue syndrome a double-blind crossover found standard-dose modafinil produced no fatigue benefit and worsened cognition at 400 mg [@Randall2005modafinil] — the anchor for starting *below* the standard range.
 

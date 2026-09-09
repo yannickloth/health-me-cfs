@@ -31,13 +31,13 @@ Drei universelle Regeln vor jedem Protokoll:
 
 ---
 
-## 1. Low-Dose-Naltrexon (LDN)
+## Low-Dose-Naltrexon (LDN)
 
 **Ziele (dosisbandiert):** TLR4/Nrf2-hormetisches Priming (~0,5–1,5 mg) · kompensatorische Opioid-Hochregulierung (~1,5–3 mg) · TRPM3-Wiederherstellung (~3–4,5 mg) — die vollständige Kaskade finden Sie in Teil 1. Jedes Ziel ist einzeln in vitro oder in Tiermodellen etabliert: Naltrexon als partieller TLR4-Antagonist an Mikroglia [@Younger2013], Opioidrezeptor-Blockade mit kompensatorischem Endorphin-Rebound [@Younger2013], TRPM3-Kalziumfluss-Wiederherstellung in ME/CFS-NK-Zellen [@Cabanas2018trpm3; @Cabanas2021] und die Verbindung von Entzündung zur Orexin-Unterdrückung [@Grossberg2011orexinLethargy]. Was *nicht* etabliert ist, ist die Zuordnung jedes Ziels zu einem klinischen Dosisband — dieser Teil ist Modellinferenz [@Loth2026mecfs].
 
 | Feld | Protokoll | Stufe |
 |-------|----------|------|
-| Dosisleiter | 0,5 mg × 2 Wo → 1 mg × 4 Wo → 1,5 mg × 4 Wo → (bei Teilansprechen) 2,25 mg × 4 Wo | E für den niedrigen Start; C für die Stufen |
+| Dosisleiter | 0,5 mg × 2 Wo → 1 mg × 4 Wo → 1,5 mg × 4 Wo → (bei Teilansprechen) 2,25 mg × 4 Wo → (bei Teilansprechen) 3 mg × 4 Wo → (falls noch kein Signal) 4,5 mg × 4 Wo | E für den niedrigen Start; C für die Stufen |
 | Stufendauer | Mindestens 4 Wochen pro Sprosse unter 2 mg — der TLR4/Nrf2-Mechanismus ist transkriptionell; Urteile innerhalb von 2 Wochen messen Anpassung, nicht Wirkung | C |
 | Primäre Zielgröße | Müdigkeit oder Brain Fog, tägliche Selbsteinschätzung von 0 bis 10 | C |
 | Abbruchkriterien | Nutzen auf einer Sprosse → ≥8 Wo halten, bevor etwas geändert wird · kein Nutzen über den vollständigen Durchlauf 0,5–4,5 mg → Mechanismus-Lesart: LDNs Ziele sind nicht limitierend · anfängliches Aufflackern → halbieren, nicht aufgeben | C |
@@ -48,7 +48,7 @@ Drei universelle Regeln vor jedem Protokoll:
 
 ---
 
-## 2. Low-Dose-Aripiprazol (LDA)
+## Low-Dose-Aripiprazol (LDA)
 
 **Ziel:** partieller Dopamin-D2-Agonismus — mikrogliäre und katecholaminerge Modulation [@Crosby2021LDA]. Einzelnes Medikament; das Rahmenwerk sagt ein steiles, spitzes Fenster voraus (illustrativ: Dosen unter 1 mg können den Schutz verlieren, während 1 mg hält; eine Eskalation über die wirksame Dosis mag nichts hinzufügen) — S, Modellvorhersage [@Loth2026mecfs].
 
@@ -66,7 +66,7 @@ Drei universelle Regeln vor jedem Protokoll:
 
 ---
 
-## 3. Low-Dose-Lithium (elementares Lithium)
+## Low-Dose-Lithium (elementares Lithium)
 
 **Ziel:** GSK-3β-Hemmung → Nrf2-Enthemmung bei Mikrodosen; IMPase-Wirkungen setzen bei höheren Mikrodosen ein (biphasische Zwei-Ziel-Dynamik). Die GSK-3β-Hemmung bei niedrigen Lithiumdosen ist präklinisch dokumentiert [@Fenech2023LithiumGSK3Beta]; ein kognitiver Nutzen bei Mikrodosen ist in Alzheimer- und neuropsychiatrischen Kohorten dokumentiert [@Nunes2013MicrodoseLithiumAD; @Wilson2017NP03MicrodoseLithium; @Strawbridge2023LowDoseLithium]. Die dosisabhängige GSK-3β-gegen-IMPase-Aufteilung ist Modellinferenz [@Loth2026mecfs].
 
@@ -80,7 +80,7 @@ Drei universelle Regeln vor jedem Protokoll:
 
 ---
 
-## 4. Pyridostigmin (Mestinon)
+## Pyridostigmin (Mestinon)
 
 **Ziel:** Acetylcholinesterase-Hemmung — peripherer cholinerger Tonus; relevant für die orthostatischen/vaskulären Symptomschichten [@Joseph2022pyridostigmine; @Raj2005Pyridostigmine]. Charakteristische dosisabhängige, M3-vermittelte GI-Motilitätswirkungen.
 
@@ -95,7 +95,7 @@ Drei universelle Regeln vor jedem Protokoll:
 
 ---
 
-## 5. Methylphenidat (Ritalin MR) und niedrig dosierte Stimulanzien
+## Methylphenidat (Ritalin MR) und niedrig dosierte Stimulanzien
 
 **Ziel:** Hemmung der Katecholamin-Wiederaufnahme. Bei ME/CFS ist das dokumentierte Muster ein invertiertes U *und* eine PEM-Induktion bei hohen Stimulusdosen. Die doppelblinde Crossover-RCT fand, dass Methylphenidat die Müdigkeit bei CFS reduzierte [@Blockmans2006MPHCFS], und die Langzeit-Nachbeobachtung fand einen dauerhaften Nutzen bei etwa einem Drittel der Weitermachenden mit einer hohen Abbruchrate — konsistent mit dem Stimulanz-PEM-Handel, den das Protokoll messen soll [@Blockmans2016LongTermMPH].
 
@@ -109,7 +109,7 @@ Drei universelle Regeln vor jedem Protokoll:
 
 ---
 
-## 6. Der MCAS-Stack (Famotidin · Rupatadin · Montelukast)
+## Der MCAS-Stack (Famotidin · Rupatadin · Montelukast)
 
 **Ziele:** H2- · H1/PAF- · Leukotrien-Rezeptoren. Langjährig, gehen den meisten anderen Versuchen voraus und liegen meist *bereits* in ihren Fenstern — was sie zum Stack macht, der vor jedem Eingriff instrumentiert werden sollte. Antihistamin-/PAF-Antagonist-Kombinationen (H1 + H2) zeigen in mastzellgetriebenen Syndromen klinische Wirkung [@Salvucci2023antihistamineLongCOVID], und hochdosierter H1/PAF-Antagonismus (Rupatadin) ist in Mastzell- und Urtikaria-Kontexten dokumentiert [@Magerl2015rupatadine; @Izquierdo2024rupatadine].
 
@@ -124,7 +124,7 @@ Drei universelle Regeln vor jedem Protokoll:
 
 ---
 
-## 7. Melatonin (niedrig dosiert)
+## Melatonin (niedrig dosiert)
 
 **Ziel:** chronobiotisch bei niedrigen Dosen; hypnotisch (und anderes Rezeptorprofil) bei hohen Dosen — ein lehrbuchmäßiges invertiertes U, das die meisten Patienten rückwärts nehmen. Niedrig dosiertes (0,5 mg) Melatonin verschiebt die Phase der zirkadianen Uhr, ohne die endogene Sekretion zu unterdrücken [@Burgess2010melatonin]; bei CFS verbesserte DLMO-geführte Melatonin-Timing die Müdigkeit bei Patienten mit verzögerter Phase [@vanHeukelom2006melatonin]. Das Framing „niedrige Dosis ist chronobiotisch, hohe Dosis ist hypnotisch" und seine Anwendung bei ME/CFS ist Modellinferenz [@Loth2026mecfs].
 
@@ -138,7 +138,7 @@ Drei universelle Regeln vor jedem Protokoll:
 
 ---
 
-## 8. Modafinil
+## Modafinil
 
 **Ziel:** Förderung der Wachheit, katecholaminerg/Orexin-benachbart [@Volkow2009modafinil]. Die Dosierungslogik gilt wie bei den anderen Stimulanzien: invertiertes U mit Angst/Überstimulation auf dem oberen Arm. Beim chronischen Erschöpfungssyndrom fand ein doppelblinder Crossover, dass Modafinil in Standarddosis keinen Müdigkeitsnutzen brachte und die Kognition bei 400 mg verschlechterte [@Randall2005modafinil] — der Anker, um *unterhalb* des Standardbereichs zu beginnen.
 
