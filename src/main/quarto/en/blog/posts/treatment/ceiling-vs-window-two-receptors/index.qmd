@@ -1,0 +1,71 @@
+---
+title: "Two Receptors, One Cell, Opposite Dose Curves — What an LDN Null and an LDA Window Reveal When They Happen to the Same Patient"
+description: "LDN at the top of its range produced no benefit for six months. Then aripiprazole at 1 mg erased PEM within days. The two drugs target different receptors on the same microglia — and the contrast between a high-range null and a low-dose window is not a coincidence. It is a differential diagnosis, written in dose-response."
+author: "Yannick Loth"
+date: "2026-09-09"
+categories: [Treatment, Pharmacology, ME/CFS]
+lang: en
+---
+
+This post is about a contrast that the dose-response series has circled but never stated outright. Two drugs can act on the **same cell** — the microglia that drive the neuroinflammatory component of ME/CFS — through **different receptors**, and produce **opposite dose-response behaviour** in the same patient. One drug, taken at the top of its range, produced nothing for months. The other, taken at a fraction of a milligram, changed the patient's illness within days. That contrast is not noise. Read correctly, it is a differential diagnosis performed with a prescription pad.
+
+The case is documented in the primary paper's microglial cascade and medication-response chapters [@Loth2026website]. What follows separates what the record actually shows from the interpretation layered on it — the same evidence-versus-model discipline the series has used throughout.
+
+---
+
+## The record
+
+**LDN, at the top of its range, was a null.** Low-dose naltrexone was taken at 4–4.5 mg daily from February 2026. After roughly six months, the honest assessment was no clear net benefit — no improvement that clearly exceeded the illness's own fluctuation. Notably, the range below 4 mg — the 0.5–1.5 mg window where LDN's TLR4/Nrf2 mechanism is hypothesised to live — was never tested. The trial was a single point at the top of the dose range, held for six months. A follow-up clinical note explicitly flagged the open question: if non-response at 4 mg is confirmed, the distinct pharmacology of a ~1 mg trial remains untested.
+
+**LDA, at a fraction of the antipsychotic dose, was a window.** Aripiprazole was started at 0.5 mg on 10 July 2026 and moved to 1 mg two days later. Within eight days the record showed: zero brain-fog episodes in eight days where they had been near-daily; normal concentration; and the sharpest edge of the contrast — before LDA, twenty minutes of moderate rowing reliably produced a nine-day post-exertional crash. On LDA, five hours of chainsaw work produced *no PEM at all*. The clinical note that documented this also recorded what did *not* respond: tinnitus persisted unchanged, vanishing only after nights of deep sleep and returning with fatigue.
+
+Two results, same patient, same months, same underlying illness. The interpretive question is what the contrast means.
+
+---
+
+## What makes the contrast informative: two receptors on one cell
+
+The reason this is more than anecdote is the target anatomy. LDN's proposed mechanism at low dose runs through **TLR4** on microglia — blocking a danger-signal receptor partially enough to trigger an Nrf2-mediated anti-inflammatory shift. LDA's mechanism runs through **D2/D3 receptors** on the same microglia — partially agonising a receptor whose engagement raises the activation threshold and suppresses cytokine release (TNF-α, IL-1β, IL-6). Both receptors sit on the same cell population, engaged by two different molecules, and the paper's microglial cascade treats them as complementary probes of the same node: TLR4 antagonism removes one input among many; D2 agonism raises the threshold the inputs must cross [@Loth2026website].
+
+Two probes of one cell can disagree in exactly two instructive ways.
+
+**Pattern one: both work.** Microglial involvement confirmed; multi-receptor. Informative but not sharp.
+
+**Pattern two: one is a null at its tested dose, the other opens a window.** This is the pattern the record shows, and it is sharper. The LDA window — complete PEM protection at 1 mg — says the microglial activation-threshold mechanism is real and *drug-accessible through D2* in this patient. The LDN null says only that the *tested dose* of LDN produced no net benefit — and here the dose discipline the series has built matters. The 4–4.5 mg trial sat at the top of the range, above the hypothesised TLR4/Nrf2 window and past the point where benefit is expected to extinguish. Under the non-propagation principle ([higher doses do not contain the benefits of lower ones](../concentration-not-presence/)), a null at 4.5 mg carries **no information about 1 mg**. The mechanism may be absent — or the trial may simply have never run the mechanism's window.
+
+This is why the honest conclusion is asymmetric. The LDA result is *positive evidence*: a window opened at a mechanistically predicted dose. The LDN result is *absence of evidence at a dose where evidence was not expected* — a null that cannot exclude the mechanism, only the dose.
+
+---
+
+## The resistant domain is part of the signal
+
+The tinnitus result belongs in the analysis, because it is what elevates the case from "LDA works" to "the model has structure." If LDA's benefit were a general blunting of symptoms — placebo, mood, energy — the tinnitus should have improved too. It did not, and its behaviour (worse with fatigue, clearing only after nights of deep sleep) points at a different mechanism entirely: thalamo-cortical sensory gating, a GABAergic/glutamatergic circuit with no dopamine handle for aripiprazole to grip. A drug that fully protects one layer and leaves a mechanistically distinct layer untouched is behaving like a *targeted* drug, not a general one. The domain dissociation is itself the evidence that the microglial/dopaminergic model is doing explanatory work — and the paper builds exactly this principle into its interpretation framework: a resistant domain identifies which symptoms share a pathway and which do not, without requiring a biomarker [@Loth2026website].
+
+The corollary the record states explicitly is worth repeating, because it is the Goldilocks discipline applied to success: **do not raise the dose to chase the resistant domain.** The tinnitus is a target failure, not a dose failure. Escalating LDA past ~1.5–2 mg would not touch a GABAergic circuit — it would only walk the drug out of its own window and toward net D2 antagonism ([the partial-agonist flip](../low-dose-aripiprazole-window/)).
+
+---
+
+## What this pattern would mean as a general diagnostic
+
+Generalised from one documented case, the pattern becomes a probe any patient and clinician already possess. The paper's combination-inference framework formalises it [@Loth2026website]:
+
+- **LDA window + LDN window** → microglial involvement confirmed through both TLR4 and D2; treat neuroinflammation as a multi-input node.
+- **LDA window + LDN null (within-range)** → D2 is the therapeutically accessible microglial receptor; TLR4 is not rate-limiting. This is the sharpest exclusion available.
+- **LDN window + LDA null** → the reverse: TLR4 carries the microglial signal; D2 does not add.
+- **Both null (both within-range)** → microglial activation may not be the rate-limiting node at all — the differential moves to autoantibodies, B-cell pathology, mast-cell-driven, or structural causes.
+
+The load-bearing word in every row is *within-range*. The diagnostic power of the two-drug contrast exists only when each drug has actually been tried inside its own window. A null at the top of a dose range, as this patient's LDN history illustrates, is an open question — which is why the clinical note's own suggestion, a ~1 mg LDN trial, is not a retreat but the missing experiment.
+
+---
+
+## Certainty
+
+| Claim | Certainty |
+|-------|-----------|
+| LDA at ~1 mg produced the documented PEM protection and domain dissociation | High as a reported observation — single patient, no control, natural fluctuation not fully excludable |
+| The benefit runs through microglial D2 (not 5-HT1A or mesocorticolimbic D2) | Low — plausible and consistent with the domain pattern; not separately testable without a selective probe |
+| The LDN 4–4.5 mg null says nothing about LDN at 0.5–1.5 mg | Moderate — follows from the occupancy model; empirically untested in this patient |
+| The two-receptor pattern generalises as a diagnostic | Low — the combination-inference framework is mechanistically derived and prospectively untested |
+
+*This post draws on the microglial cascade, the LDA medication-response section, and the combination-inference framework in [Loth 2026](https://yannickloth.github.io/health-me-cfs/). The LDA clinical findings are from Crosby et al. [@Crosby2021LDA]. Companion posts: [The Goldilocks Dose of Aripiprazole](../low-dose-aripiprazole-window/) · [Why a Higher Dose Does Not Contain the Benefits of a Lower Dose](../concentration-not-presence/) · [Part 3: Your LDN Dose Is a Diagnostic](../dose-is-diagnostic-ldn/) · [A Single Dose Failure Is Not a Verdict](../single-dose-failure-not-a-verdict/).*
+
