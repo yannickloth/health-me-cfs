@@ -4,6 +4,12 @@
 
 == Why This Chapter Exists
 
+#synthesis(title: [The Dose Is Diagnostic: The Dose Axis Is the First Variable, Not the Last])[
+For eighteen of the medications discussed in this book, the dose--response curve is *non-monotonic*: a dose exists at which the drug works, a dose at which benefit stops, and a dose at which it harms (@ch:integrative-models, @sec:unifying-mechanisms). Because this window is narrow and patient-specific, the patient's own dose--response curve — which dose works, which dose stops, which dose harms — is itself a diagnostic readout. The inversion point (the dose at which benefit turns to worsening) maps the reserve of the underlying system, exactly as the consolidated per-drug tables in @sec:hormetic-dose-range-reference interpret it. The dose axis is therefore the *first* variable to explore when a medication is considered, not the last: the registry principle spec:hormesis-multi-drug-principle and the HIP-B battery (Chapter @ch:mechanistic-cascade-tracing) formalize how an individual's inversion points across drugs carry diagnostic weight.
+
+*The null corollary — a single failed dose is not a failed drug.* A null at one dose is a statement about *that dose*, not about the drug. It may reflect a dose below the therapeutic window (a null-failure-mode of dose access, @sec:null-failure-modes), a dose that has crossed the individual's inversion point into net antagonism, or a receptor state that needs a different null interpretation (@sec:null-subtyping). The null ladder (@sec:null-ladder-clinical) and the inverted-U as a diagnostic pattern (@sec:inverted-u-curve, Chapter @ch:mechanistic-cascade-tracing) together warn against reading a single null as a verdict on the medication or its mechanism. Benefit that appears and disappears as the dose moves is itself informative — a signal, not a titration failure.
+] <syn:dose-is-diagnostic>
+
 #speculation(title: [Why Medication Response as a Diagnostic Probe — A Methodological Justification])[
 *Current reality.* As of 2026, there is no clinically available blood test, scan, or biomarker that can tell a doctor which root cause of ME/CFS — TRPM3 channelopathy, CNS energy crisis, GPCR autoantibody cascade, or metabolic safe mode lock (@ch:causal-hierarchy) — is driving a given patient's illness. Gold-standard tests require lumbar puncture, research-grade flow cytometry, specialized autoantibody panels, or invasive cardiopulmonary exercise testing — none accessible in routine practice.
 
