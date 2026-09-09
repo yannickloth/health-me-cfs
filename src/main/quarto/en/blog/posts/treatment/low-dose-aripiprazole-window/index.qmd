@@ -10,15 +10,17 @@ You find a dose that works. Someone suggests raising it — after all, if a litt
 
 This looks like the dose got weaker. It did not. The mechanism changed. This article explains, in plain steps, why aripiprazole only works inside a narrow concentration window — and why pushing the concentration up does not preserve the low-dose effect. It is a single-topic walkthrough of the mechanism the dose-response series classifies as the partial-agonist inverted-U.
 
+One thing should be stated plainly up front so the rest is read correctly. The low-dose benefit is documented in ME/CFS: in a retrospective review of 101 patients, three-quarters improved on a mean of roughly 1 mg/day, within a 0.25–2 mg range [@Crosby2021LDA]. The *mechanism* that explains why the benefit collapses as the dose rises is a receptor-occupancy property of aripiprazole — it is not a ME/CFS-specific quirk, and the detailed account that follows is a model synthesis [@Loth2026mecfs] rather than a single experiment. Keep those two layers separate and the rest is clear.
+
 ---
 
 ## The drug sits between a switch-on and a switch-off
 
-To see the puzzle, start with the receptor. Aripiprazole works mainly on the dopamine D2 receptor — the signalling point that drives motivation, focus, and effort.
+To see the puzzle, start with the receptor. Aripiprazole works mainly on the dopamine D2 receptor [@Shapiro2003aripiprazole] — a signalling point that is central to motivation, focus, and the willingness to expend effort [@Salamone2012dopamine].
 
 Dopamine itself is a *full* activator. When it lands on a D2 receptor, it switches the receptor to roughly 100% of its capacity.
 
-Aripiprazole cannot do that. Its molecular shape limits how far it can bend the receptor, so it activates D2 to only about a quarter of full capacity — roughly 25–30%. It is what pharmacology calls a *partial agonist*: it binds the receptor and switches it partway on, and it physically cannot switch it further on no matter how much of the drug is present.
+Aripiprazole cannot do that. Its molecular shape limits how far it can bend the receptor, so it activates D2 to only about a quarter of full capacity — roughly 25–30% of the activation a full agonist produces [@Burris2002aripiprazoleD2; @Shapiro2003aripiprazole]. It is what pharmacology calls a *partial agonist*: it binds the receptor and switches it partway on, and it physically cannot switch it further on no matter how much of the drug is present [@Burris2002aripiprazoleD2]. This occupancy-dependent flip — a partial agonist that adds signal where the natural ligand is scarce and subtracts it where the natural ligand is abundant — is a documented receptor property [@Shapiro2003aripiprazole; @Loth2026mecfs], and it is the reason U-shaped dose-response curves are a general pharmacology phenomenon rather than an idiosyncrasy of any one disease [@Sun2020yinYangHormesis].
 
 That single property — a capped ceiling of activation — is the seed of the whole story. But it only becomes paradoxical once you see what the drug is competing against.
 
@@ -32,17 +34,17 @@ The receptor is normally bathed in the body's own dopamine. Aripiprazole has to 
 
 **When dopamine is already plentiful**, aripiprazole becomes a net blocker. Dopamine could activate the receptor to 100%, but aripiprazole occupies the site instead and delivers only its 25–30%. By displacing the body's stronger signal, the drug *lowers* net activation.
 
-So one molecule does opposite things in different contexts: it raises tone where tone is deficient and lowers it where tone is high. The dose determines which context dominates — and that is where the window comes from.
+So one molecule does opposite things in different contexts: it raises tone where tone is deficient and lowers it where tone is high. This tone-dependence — the basis of aripiprazole's "dopamine stabilizer" character — is intrinsic to its partial-agonist pharmacology [@Shapiro2003aripiprazole]. The dose determines which context dominates — and that is where the window comes from.
 
 ---
 
 ## Why raising the dose flips the drug from helper to blocker
 
-Binding follows a simple rule called mass action: the more drug present, the more receptors it occupies. That rule produces a threshold in aripiprazole's behaviour.
+Binding follows a simple rule called mass action: the more drug present, the more receptors it occupies. The relationship between occupancy and physiological response is not a straight line — it is shaped by factors such as receptor reserve and spare receptors, so the functional effect can shift abruptly as occupancy crosses a threshold [@Finlay2020receptorOccupancy]. That is the rule that produces the window in aripiprazole's behaviour.
 
 At a low concentration, only a modest share of D2 receptors is occupied. Dopamine still holds most of them. In a dopamine-deficient patient, the small occupied fraction adds a little activation on top — net help. Crucially, there is room left for the body's own dopamine to keep doing its job.
 
-As the concentration rises, the drug takes over more and more receptors. Past a point — roughly half of the receptors occupied — the balance tips. Now aripiprazole is displacing dopamine from the majority of sites. Instead of topping up a few idle receptors, it is silencing a signalling system that needs to be active. Net agonism flips into net antagonism, and the therapeutic effect inverts.
+As the concentration rises, the drug takes over more and more receptors. Past a point — roughly half of the receptors occupied — the balance tips. Now aripiprazole is displacing dopamine from the majority of sites. Instead of topping up a few idle receptors, it is silencing a signalling system that needs to be active. Net agonism flips into net antagonism, and the therapeutic effect inverts [@Loth2026mecfs].
 
 There is no second, separate "high dose" mechanism doing the harm. It is the *same* mechanism operating past its own tipping point: the partial agonist has become an antagonist by crowding out the full agonist.
 
@@ -54,13 +56,13 @@ This is why more is not a louder version of less. A partial agonist's output is 
 
 There is a second reason the window matters, and it sits one level up from single receptors: *where* in the brain the drug acts first.
 
-Aripiprazole does not bind every D2 site equally. It has a strong affinity for a special population — the *autoreceptors* that sit on the neurons which release dopamine. An autoreceptor acts as a brake: when it detects dopamine, it tells the neuron to slow down its own release. A drug that mildly engages these autoreceptors can *disinhibit* release — it eases the brake, and the neuron puts out more dopamine where it is needed.
+Aripiprazole does not bind every D2 site equally. It has a strong affinity for a special population — the *autoreceptors* that sit on the neurons which release dopamine. An autoreceptor acts as a brake: when it detects dopamine, it tells the neuron to slow down its own firing and release [@Ford2014D2autoreceptor]. A drug that mildly engages these autoreceptors can *disinhibit* release — it eases the brake, and the neuron puts out more dopamine where it is needed.
 
-At microdoses, aripiprazole preferentially engages this fine-tuning population, plus serotonin 5-HT1A autoreceptors that dampen stress signalling. The net effect is a gentle, targeted boost in the circuits governing motivation and calm — precisely what a dopamine-deficient patient needs.
+At microdoses, the low fractional occupancy is predicted to engage this fine-tuning autoreceptor population first, alongside serotonin 5-HT1A autoreceptors that dampen stress signalling [@Loth2026mecfs]. The net effect is a gentle, targeted boost in the circuits governing motivation and calm — precisely what a dopamine-deficient patient needs [@Salamone2012dopamine].
 
 At higher doses, the drug spills over to the far more numerous postsynaptic D2 receptors across the whole brain. The delicate tuning of release is now swamped by blanket occupancy of the receptors that receive the signal. Mass blockade overrides the selective facilitation. The subtle low-dose effect does not get amplified; it gets buried.
 
-It is worth being precise about the language here. The presynaptic and postsynaptic D2 receptors are the *same protein*. They are not two different receptor types with different intrinsic affinities. What differs is their functional sensitivity and the circuit they sit in — the autoreceptors exert their whole effect at lower occupancy because they need only a small signal to nudge release, and they are backed by a larger receptor reserve than a downstream target. This is a difference of location and demand, not a difference of two distinct molecular species. The practical result is the same: low occupancy tunes, high occupancy drowns.
+It is worth being precise about the language here. The presynaptic and postsynaptic D2 receptors are the *same protein*. They are not two different receptor types with different intrinsic affinities. What differs is their functional sensitivity and the circuit they sit in — the autoreceptors exert their whole effect at lower occupancy because they need only a small signal to nudge release, and they are backed by a larger receptor reserve than a downstream target [@Ford2014D2autoreceptor]. This is a difference of location and demand, not a difference of two distinct molecular species. The practical result is the same: low occupancy tunes, high occupancy drowns [@Loth2026mecfs].
 
 ---
 
@@ -90,9 +92,9 @@ Three practical consequences follow from the mechanism.
 
 **A dose that works is a fragile asset.** If you benefit at 0.5 mg, that benefit depends on staying inside the window. A doctor who doubles the dose is not testing a stronger version of the treatment — they are stepping past the autoreceptor population and converting the drug into a net antagonist. The correct response to a working low dose is usually to *protect* it, not to escalate it.
 
-**Response and non-response are both information.** Where a patient's benefit inverts carries meaning about their dopamine system. A patient whose benefit collapses at 1 mg has a narrow receptor reserve — few spare receptors, so a modest occupancy is enough to tip into antagonism. A patient who holds benefit to 2 mg has a broader reserve. The width of the window is a readout of dopamine-system integrity, not a random property of the dose. This is the diagnostic use of the curve explored in the dose-response series.
+**Response and non-response are both information.** Where a patient's benefit inverts carries meaning about their dopamine system. Receptor reserve — the surplus of receptors beyond what is needed to trigger a response — determines how much a partial agonist can raise or lower output before the balance tips [@Finlay2020receptorOccupancy]. A patient whose benefit collapses at 1 mg is predicted to have a narrow reserve, so a modest occupancy is enough to tip into antagonism; a patient who holds benefit to 2 mg is predicted to have a broader reserve. The width of the window is thus a readout of dopamine-system integrity, not a random property of the dose [@Loth2026mecfs]. This is the diagnostic use of the curve explored in the dose-response series.
 
-**Not every drug that behaves this way is hormesis.** It is common to hear inverted-U responses called "hormesis" — the idea that a mild stressor triggers a beneficial adaptive response. Aripiprazole is not that. There is no stress signal and no compensatory upregulation; the curve is an immediate, physical consequence of receptor occupancy. Confusing the two leads to wrong predictions about whether the window is trainable or whether it will correlate with other drugs. The partial-agonist window is a property of the drug's binding, fixed in any dopamine-deficient patient.
+**Not every drug that behaves this way is hormesis.** It is common to hear inverted-U responses called "hormesis" — the idea that a mild stressor triggers a beneficial adaptive response. Aripiprazole is not that. There is no stress signal and no compensatory upregulation; the curve is an immediate, physical consequence of receptor occupancy. Confusing the two leads to wrong predictions about whether the window is trainable or whether it will correlate with other drugs. The partial-agonist window is a property of the drug's binding, fixed in any dopamine-deficient population [@Loth2026mecfs]. It is an instance of the general U-shaped occupancy phenomenon, not an idiosyncrasy of a particular illness [@Sun2020yinYangHormesis].
 
 ---
 
@@ -102,4 +104,4 @@ Aripiprazole needs to be neither too strong nor too weak because it is a partial
 
 ---
 
-*Companion to the dose-response series: [Part 1: Why More Isn't Better — LDN and LDA](../more-isnt-better-ldn-lda/) · [Part 2: The Inverted-U Is Not One Thing](../inverted-u-not-one-thing/) · [Part 4: The Pharmacopoeia](../pharmacopoeia-dose-meaning/) · Related: [Dismiss the Dose, Not the Drug](../dose-first-search-strategy/). The full mechanistic cascade and the diagnostic reading of inverted-U windows are developed in [Loth 2026](https://yannickloth.github.io/health-me-cfs/).*
+*Companion to the dose-response series: [Part 1: Why More Isn't Better — LDN and LDA](../more-isnt-better-ldn-lda/) · [Part 2: The Inverted-U Is Not One Thing](../inverted-u-not-one-thing/) · [Part 4: The Pharmacopoeia](../pharmacopoeia-dose-meaning/) · Related: [Dismiss the Dose, Not the Drug](../dose-first-search-strategy/). Aripiprazole's D2 partial agonism and low intrinsic activity are established in the primary pharmacology literature [@Burris2002aripiprazoleD2; @Shapiro2003aripiprazole], and D2-autoreceptor negative-feedback physiology in [@Ford2014D2autoreceptor]. The clinical dose-window finding in ME/CFS is documented by Crosby et al. [@Crosby2021LDA]; dopamine's role in effort and motivation by Salamone and Correa [@Salamone2012dopamine]; and receptor-occupancy/spare-receptor theory by Finlay et al. [@Finlay2020receptorOccupancy]. The application of these to a low-dose-occupancy diagnostic reading in ME/CFS, and the classification of aripiprazole's inverted-U as distinct from hormesis, are developed in the primary documentation [@Loth2026mecfs], with the general U-shaped occupancy phenomenon treated in [@Sun2020yinYangHormesis].*
