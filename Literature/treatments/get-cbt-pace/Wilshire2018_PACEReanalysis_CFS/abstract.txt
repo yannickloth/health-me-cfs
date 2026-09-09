@@ -1,0 +1,28 @@
+Title: Rethinking the treatment of chronic fatigue syndrome—a reanalysis and evaluation of findings from a recent major trial of graded exercise and CBT
+Authors: Carolyn E. Wilshire, Tom Kindlon, Robert Courtney, Alem Matthees, David Tuller, Keith Geraghty, Bruce Levin
+Journal: BMC Psychology (2018) 6:6
+DOI: 10.1186/s40359-018-0218-3
+PMID: 29562932
+PMCID: PMC5863477
+Type: Research article (reanalysis)
+
+Background: The PACE trial was a well-powered randomised trial examining graded exercise
+therapy (GET) and cognitive behavioural therapy (CBT) for chronic fatigue syndrome. Reports
+concluded both treatments were moderately effective, each leading to recovery in over a fifth
+of patients. The reported analyses did not consistently follow the published protocol.
+
+Methods: Results based on the original protocol-specified procedures, approximated using data
+from a Freedom of Information request.
+
+Results: On the original protocol-specified primary outcome (overall improvement rates) there
+was a significant effect of treatment group. However, CBT/GET groups did not significantly
+outperform the Control group after correcting for the number of comparisons in the protocol.
+Recovery rates were consistently low and not significantly different across groups. On secondary
+measures, significant effects were almost entirely confined to self-report measures and did not
+endure beyond two years.
+
+Conclusions: Serious concerns about the robustness of claims of CBT/GET efficacy. Modest
+self-report effects do not exceed what could be accounted for by participant reporting biases.
+
+Keywords: Chronic fatigue syndrome, Myalgic encephalomyelitis, Graded exercise therapy,
+Cognitive behavioral therapy
