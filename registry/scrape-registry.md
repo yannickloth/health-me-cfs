@@ -13,6 +13,17 @@ Prevents re-processing of already-integrated content.
 
 ---
 
+## LDN-vs-Metformin Mechanistic Bifurcation Triage (ldn-metformin-bifurcation) Literature Search
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-09-09 | 14 queries across required categories: direct (metformin × ME/CFS=6 hits all corpus reuse; naltrexone × metformin = no head-to-head/stratification study — null datapoint), metformin-response predictors (rs11212617 → Zhou2011 GoDARTS GWAS; SLC22A1/OCT1 largely T2DM, no fatigue predictor), LDN-response predictors (TRPM3 restoration in-vitro only; no clinical predictive marker; fibromyalgia FINAL nulls reused), metformin established long-COVID (COVID-OUT prevention reuse vs REVIVE futility + Lim2026 PASC negative — timing-matters anchor), metformin immunometabolism/autoimmunity (Ursini2018 review, Sun2020 SLE RCT + pooled post-hoc, Gharib2021 RA RCT), LDN harm (2025-2026 no new signal; Gouda2026 umbrella + Byambasuren2026 meta reuse), trial-methodology/biomarker-stratified precedent (Q12-14 = 0 relevant hits — decision-rule precedent ABSENT). 7 new papers added; extensive existing corpus reuse (Sasso2026trpm3, Reis2023COVIDOUT, Reis2026fluvoxamine, Fineberg2025Metformin, Brown2018AMPK, Shankar2025oxidativestress, Gouda2026LDNevidence, Byambasuren2026LDNlongcovid). Null/negative trials (REVIVE futility, Lim2026 PASC negative) explicitly documented. |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed API queries (14 queries + esummary/efetch batches, 12 PMIDs) | pubmed/eutils | 2026-09-09 | — | ops/research/search-log-ldn-metformin-bifurcation-20260909.md, ops/research/literature-ldn-metformin-bifurcation-20260909.md, bib/immune.bib, bib/treatments.bib, bib/long-covid.bib — LDN-vs-metformin phenotype triage evidence (7 new papers: Sasso2025LDNtrpm3LC, Ursini2018MetforminAutoimmunity, Sun2020MetforminSLE, Sun2020MetforminSLEflare, Gharib2021MetforminRA, Zhou2011ATMmetformin, Lim2026MetforminPASC) |
+
+---
+
 ## Autoimmune SFN Subtype — Anti-TS-HDS & Anti-FGFR3 (autoimmune-sfn-subtype) Literature Search
 | Source | Last Scraped | Notes |
 |--------|--------------|-------|
