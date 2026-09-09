@@ -2,9 +2,9 @@
 
 === Low-Dose Aripiprazole (LDA) <sec:low-dose-aripiprazole-lda>
 
-LDA (1–2 mg/day) is a partial agonist at D2/D3 and 5-HT1A, antagonist at 5-HT2A. At microdose levels (≤1 mg/day), the pharmacologically dominant action is presynaptic D2/D3 partial agonism — insufficient for antipsychotic occupancy but adequate for microglial D2 receptor engagement. Carries significant risks: akathisia, serotonin syndrome, CYP2D6 variable exposure, and prediabetes/metabolic syndrome (@warn:lda-metabolic).
+LDA (0.2–2 mg/day) is a partial agonist at D2/D3 and 5-HT1A, antagonist at 5-HT2A. The therapeutic window spans two dose-stratified actions: at microdose levels (≤1 mg/day), the pharmacologically dominant action is presynaptic D2/D3 partial agonism — insufficient for antipsychotic occupancy but adequate for microglial D2 receptor engagement; at 1–2 mg/day, postsynaptic mesocorticolimbic D2 and 5-HT2A effects emerge for cognitive and motivational benefit. Benefit inverts above ~2 mg as D2 antagonism dominates (see @sec:inverted-u-curve). Carries significant risks: akathisia, serotonin syndrome, CYP2D6 variable exposure, and prediabetes/metabolic syndrome (@warn:lda-metabolic).
 
-LDA acts at three levels relevant to ME/CFS: (1) microglial D2/D3 — suppressing pro-inflammatory cytokine release, raising the activation threshold of primed microglia; (2) mesocorticolimbic D2/D3 — restoring tonic dopamine signalling in prefrontal and hippocampal circuits; (3) 5-HT1A autoreceptors — reducing raphe serotonergic tone with downstream ANS stabilisation. The balance of these actions shifts with dose: microglial modulation dominates at ≤1 mg, postsynaptic D2 and 5-HT2A effects emerge above 1.5 mg.
+LDA acts at three levels relevant to ME/CFS: (1) microglial D2/D3 — suppressing pro-inflammatory cytokine release, raising the activation threshold of primed microglia; (2) mesocorticolimbic D2/D3 — restoring tonic dopamine signalling in prefrontal and hippocampal circuits; (3) 5-HT1A autoreceptors — reducing raphe serotonergic tone with downstream ANS stabilisation. The balance of these actions shifts with dose: microglial modulation dominates at ≤1 mg, postsynaptic D2 and 5-HT2A effects emerging through the 1–2 mg range.
 
 ==== If LDA works
 

@@ -2,7 +2,7 @@
 
 ==== What the Response Tells Us About LDA <sec:lda-differential>
 
-Low-dose aripiprazole (1–2 mg/day) is a partial dopamine agonist — it provides modest D2/D3 receptor stimulation where dopamine is low and acts as a functional antagonist where dopamine is adequate (only 25–30% of dopamine's intrinsic activity). It also targets serotonin 5-HT1A receptors. If LDA improves cognitive symptoms, dopamine signaling was likely insufficient. However, LDA carries significant metabolic risks — the diagnostic signal is purchased with real exposure.
+Low-dose aripiprazole (0.2–2 mg/day) is a partial dopamine agonist — it provides modest D2/D3 receptor stimulation where dopamine is low and acts as a functional antagonist where dopamine is adequate (only 25–30% of dopamine's intrinsic activity). Within this window, cognitive/motivational benefit concentrates in the 1–2 mg/day postsynaptic mesocorticolimbic range, while ≤1 mg/day preferentially engages microglial D2 (neuroinflammation-driven effects). It also targets serotonin 5-HT1A receptors. If LDA improves cognitive symptoms, dopamine signaling was likely insufficient. However, LDA carries significant metabolic risks — the diagnostic signal is purchased with real exposure.
 
 ===== If LDA works: improved brain fog, attention, mental stamina, motivation
 
@@ -49,7 +49,7 @@ LDA is a partial agonist at 5-HT1A serotonin receptors, which can increase prefr
 - *Whether the benefit is dopaminergic, serotonergic, anxiolytic, or placebo.* LDA has multiple targets and no controlled ME/CFS trials.
 - *Whether the underlying pathology is functional or structural.* Drug response does not distinguish reversible from irreversible brain changes.
 
-===== If LDA does NOT work (adequate dose 1–2 mg/day, ≥ 4–8 weeks)
+===== If LDA does NOT work (full 0.2–2 mg/day window explored, incl. microdose ≤1 mg/day, ≥ 4–8 weeks per dose)
 
 ====== Interpretation 1 — Dopamine deficiency may not be the primary cognitive mechanism
 
@@ -57,7 +57,7 @@ Brain fog in ME/CFS can arise from glymphatic failure (waste accumulation during
 
 ====== Interpretation 2 — Wrong dose for this individual
 
-Partial agonist net effect is dose-dependent. Even 1–2 mg may produce net dopamine blockade in some patients; others may need slightly higher doses. Without a biomarker of receptor occupancy, dose optimization is empiric.
+Partial agonist net effect is dose-dependent. Within the 0.2–2 mg window, even 1–2 mg may produce net dopamine blockade in some patients (narrow receptor reserve), while others require the 1–2 mg postsynaptic end for cognitive benefit — so both microdose (≤1 mg) and postsynaptic (1–2 mg) ranges must be explored before declaring failure. Above ~2 mg, all D2-mechanism benefit is extinguished and D2 antagonism dominates, so no benefit should be expected from escalation beyond the window. Without a biomarker of receptor occupancy, dose optimization is empiric.
 
 ====== Interpretation 3 — Dopamine receptors may be downregulated
 
