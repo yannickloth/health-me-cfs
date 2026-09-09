@@ -2,7 +2,7 @@
 
 == Dose-Response Curve Shape as Diagnostic Readout <sec:dose-response-categories>
 
-Seventeen medications in ME/CFS share non-monotonic dose-response patterns distributed across at least four mechanistically distinct categories. The central clinical implication: *where* on the dose axis a drug produces benefit, loses benefit, or causes side effects is diagnostic — the response pattern at each dose range is an assay of whether that dose engages (or overshoots) a specific mechanism. @Calabrese2021Nrf2 @Calabrese2021UltraLow @Sun2020yinYangHormesis
+Eighteen medications in ME/CFS share non-monotonic dose-response patterns distributed across at least four mechanistically distinct categories. The central clinical implication: *where* on the dose axis a drug produces benefit, loses benefit, or causes side effects is diagnostic — the response pattern at each dose range is an assay of whether that dose engages (or overshoots) a specific mechanism. @Calabrese2021Nrf2 @Calabrese2021UltraLow @Sun2020yinYangHormesis
 
 === Category 1: Nrf2-Mediated Hormesis
 

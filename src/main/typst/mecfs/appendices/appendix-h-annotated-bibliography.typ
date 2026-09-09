@@ -33424,7 +33424,7 @@ sec-bib-rf-elevated-mecfs-duplicate
         - Daily rapamycin caused glucose intolerance, elevated fasting glucose/insulin, and immunosuppression
         - Intermittent dosing had minimal effects on glucose tolerance and reduced impact on the immune system
         - Everolimus and temsirolimus (rapalogs) also showed better therapeutic windows than daily rapamycin
-    / *Conclusion:*: Empirical proof that intermittent dosing separates therapeutic from adverse effects when they are mediated by different targets (mTORC1 vs mTORC2) with different temporal dynamics. This is a paradigmatic demonstration that the principle works in vivo. Directly translatable to the 17-drug hormesis framework in ME/CFS.
+    / *Conclusion:*: Empirical proof that intermittent dosing separates therapeutic from adverse effects when they are mediated by different targets (mTORC1 vs mTORC2) with different temporal dynamics. This is a paradigmatic demonstration that the principle works in vivo. Directly translatable to the 18-drug hormesis framework in ME/CFS.
     / *Limitations:*: Mouse study; single drug; mTOR-specific.
     / *Certainty:*: 0.80
 
@@ -33467,7 +33467,7 @@ sec-bib-rf-elevated-mecfs-duplicate
         - Sedative-hypnotics, opiates, corticosteroids, clonidine, tricyclic antidepressants, and beta-adrenergic blocking agents meet criteria for withdrawal syndromes
         - Defines criteria for identifying true withdrawal syndromes: (1) consistently observed, (2) dose- and duration-dependent, (3) preventable by gradual tapering, (4) not attributable to underlying disease
         - Gradual tapering recommended for all drugs meeting criteria
-    / *Conclusion:*: The risk counterpart to pulsed therapy: some drugs with tachyphylaxis also have dangerous withdrawal/rebound syndromes if stopped abruptly. Any pulsed-therapy framework must account for withdrawal risk — gradual tapering vs rapid pulsing are opposite strategies, and the framework must determine which applies. Corticosteroids and beta-blockers are on this list — both in the ME/CFS 17-drug framework.
+    / *Conclusion:*: The risk counterpart to pulsed therapy: some drugs with tachyphylaxis also have dangerous withdrawal/rebound syndromes if stopped abruptly. Any pulsed-therapy framework must account for withdrawal risk — gradual tapering vs rapid pulsing are opposite strategies, and the framework must determine which applies. Corticosteroids and beta-blockers are on this list — both in the ME/CFS 18-drug framework.
     / *Limitations:*: Dated 1980; review-level only; Western J Med (moderate-impact journal); no quantitative meta-analysis.
     / *Certainty:*: 0.50
 
