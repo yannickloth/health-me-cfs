@@ -214,3 +214,15 @@ Standing epistemic checklist: no violations.
 | 13 | RAN | Commit (pending) |
 
 **Gate:** 0 OMISSION. Build PASS. `nix flake check` PASS (5/5). Ledger clean — Phase 13 may proceed.
+
+## Phase 13 — Commit
+
+**Commit:** `a07c9d55` — `feat(paper): integrate population pharmacodiagnostic corpus framework` (19 files, +2541/−7).
+**Shared-file ownership:** Concurrency detected — a parallel `ldn-metformin-bifurcation` cycle has uncommitted WIP (`ops/plans/ldn-metformin-*.md`, `bib/long-covid.bib`, ch28, ch30, ch31, ch34/sec-12, ch47/open-question-oq:ldn-metformin). Those files were explicitly excluded. The registry index was reconstructed as `HEAD + my block` so the parallel stream's uncommitted registry edits (which reference not-yet-committed ch30/ch31 labels) were NOT swept in; the parallel edits remain intact in the working tree.
+**Committed shared-file entries verified present:** registry 2026-09-10 block (8 refs), glossary 7 terms × 3 languages, bib 19 keys, appendix-h section.
+**Post-commit integrity:** committed registry contains my block, 0 parallel "Phase 6 (re-run)" traces; all 20 new labels resolve in committed tree; working-tree `nix build` → 0 errors.
+**Excluded (left untouched):** ldn-metformin plan, long-covid.bib, ch28/protocol-4, ch30, ch31, ch34/sec-12, ch47/open-question-oq:ldn-metformin.
+
+## Phase 12.5 — Final Gate Result
+
+0 OMISSION, 0 WAIVED. All phases RAN or LEGIT-SKIP (3b non-treatment; 5d/5c non-mechanistic/non-pharm). Build PASS; `nix flake check` PASS (5/5). **Cycle complete.**
