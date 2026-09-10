@@ -1,0 +1,91 @@
+---
+title: "Deux récepteurs, une cellule, des courbes de dose opposées — lire un plafond et une fenêtre comme un diagnostic différentiel"
+description: "Deux médicaments peuvent agir sur la même cellule par des récepteurs différents et montrer des comportements de dose opposés : l'un est un nul en haut de sa plage, l'autre ouvre une fenêtre à une fraction de sa dose. Lus ensemble, un plafond et une fenêtre ne sont pas du bruit. Ce sont un diagnostic différentiel écrit en dose-réponse."
+author: "Yannick Loth"
+date: "2026-09-09"
+categories: [Traitement, Pharmacologie, EM/SFC]
+lang: fr
+---
+
+Cet article rend explicite un contraste que la série dose-réponse a contourné sans jamais l'énoncer franchement. Deux médicaments peuvent agir sur la **même cellule** par des **récepteurs différents** et produire un **comportement de dose-réponse opposé** — et les deux résultats, lus ensemble, sont de l'information plutôt que du bruit. Cette affirmation est un diagnostic différentiel réalisé avec un bloc d'ordonnances.
+
+Deux termes portent l'argument, ils sont donc fixés ici. Une **fenêtre** est la plage de dose dans laquelle un médicament produit son bénéfice. Un **nul** est une absence de bénéfice net à une dose testée. Un **plafond** est l'extrémité supérieure de la plage de dose sur laquelle un médicament a été testé. Le schéma que cet article examine est un médicament qui a produit un nul à son plafond — seules des doses élevées ont été essayées, si bien que la fenêtre basse n'a jamais été testée — opposé à un autre médicament qui ouvre une fenêtre à une dose basse.
+
+La cellule dont raisonne cet article est la microglie qui pilote la composante neuroinflammatoire de l'EM/SFC, et les récepteurs par lesquels agissent les deux médicaments siègent sur cette même cellule [@Loth2026website]. Cette anatomie partagée est ce qui permet de lire les deux résultats comme une seule inférence sur un mécanisme unique.
+
+---
+
+## L'anatomie qui rend deux médicaments informatifs
+
+Le modèle microglial de la composante neuroinflammatoire traite une population cellulaire comme un point de décision unique : des ligands pro-inflammatoires doivent engager la cellule assez fortement pour franchir un seuil avant qu'elle ne libère ses propres cytokines inflammatoires [@Loth2026website]. Les deux médicaments agissent à des endroits différents de cette chaîne.
+
+**TLR4, sondé par la naltrexone à faible dose (LDN).** TLR4 est un récepteur sur la cellule microgliale qui détecte des ligands pro-inflammatoires — des motifs moléculaires associés aux dégâts et aux pathogènes [@Osman2024naltrexoneTLR4]. La naltrexone à faible dose antagonise TLR4 [@Osman2024naltrexoneTLR4; @Kwilasz2021NTXmicroglia; @Younger2013] ; son effet anti-inflammatoire proposé est un blocage partiel qui amorce le programme anti-inflammatoire propre de la cellule, médié par Nrf2 [@Calabrese2021Nrf2; @Kucic2021LDNmicroglia]. Pour le contraste que cet article établit, TLR4 se situe du côté *entrée* de la décision : le bloquer réduit la poussée pro-inflammatoire qui atteint la cellule. Il n'élève pas le seuil que ces entrées doivent franchir [@Loth2026website].
+
+**D2/D3, sondé par l'aripiprazole à faible dose (LDA).** L'aripiprazole est un agoniste partiel des récepteurs D2/D3 sur la même microglie : il engage le récepteur mais ne l'active que partiellement [@Burris2002aripiprazoleD2; @Shapiro2003aripiprazole]. Son action proposée à faible dose est d'élever le seuil que la cellule microgliale doit franchir avant de libérer ses cytokines inflammatoires. Les ligands qui comptent ici sont ceux que produit l'effort — ATP, espèces réactives de l'oxygène, protéines de choc thermique — qui poussent normalement la cellule au-delà de ce seuil et déclenchent une réponse inflammatoire post-effort. Le seuil étant élevé, ces signaux ne le franchissent plus, si bien que la libération de cytokines pro-inflammatoires (TNF-α, IL-1β, IL-6) est supprimée et que la réponse post-effort ne pénètre pas dans le territoire qui produit des symptômes [@Crosby2021LDA; @Loth2026website]. Le LDA sonde donc le côté *seuil* de la décision : à quel point les ligands restants doivent-ils pousser la cellule avant qu'elle ne réponde.
+
+Ainsi, les deux médicaments agissent sur des parties différentes de la même décision. L'antagonisme TLR4 réduit le nombre d'entrées pro-inflammatoires qui atteignent la cellule ; l'agonisme D2 élève la force avec laquelle les entrées restantes doivent pousser la cellule avant qu'elle ne libère ses cytokines inflammatoires. Parce que les deux médicaments contrôlent la même cellule, les deux résultats portent sur la même décision et peuvent être pesés conjointement : l'un change ce qui atteint la cellule, l'autre change la force avec laquelle la cellule doit être poussée. Ce ne sont pas des effets indépendants qui s'annulent ou se moyennent.
+
+---
+
+## Les deux schémas qui valent la lecture
+
+Deux sondes d'une même cellule donnent deux schémas porteurs d'information. (Un troisième résultat — les deux médicaments nuls dans la plage — porte sa propre signification et est repris à la fin.)
+
+**Schéma un : les deux ouvrent une fenêtre.** Les deux récepteurs peuvent être utilisés pour supprimer la sortie inflammatoire de la cellule ; la cellule porte plus d'un récepteur par lequel un médicament peut agir pour limiter cette sortie. Informatif, mais cela ne sépare pas quel mécanisme récepteur gouverne réellement cette sortie.
+
+**Schéma deux : un médicament ouvre une fenêtre, l'autre est un nul.** C'est le cas le plus net. Un médicament qui ouvre une fenêtre à une dose basse montre que son mécanisme récepteur est réel et accessible à cette dose. Un médicament nul ne montre aucun bénéfice net à la dose testée. Les deux résultats ne s'opposent pas ; savoir si le nul peut être lu comme une exclusion authentique dépend de l'endroit où il a été enregistré — c'est l'objet de la section suivante.
+
+---
+
+## Pourquoi un plafond ne porte aucune information sur une fenêtre
+
+Le cœur est la discipline de dose : l'endroit où un nul a été enregistré décide de ce qu'il signifie. Un nul en **haut** de la plage de dose d'un médicament ne teste pas le mécanisme de ce médicament si ce mécanisme vit dans une fenêtre plus basse. Le LDN est le cas concret. Son mécanisme TLR4/Nrf2 proposé siège dans une fenêtre basse. Si un nul n'est enregistré qu'en haut de la plage, la fenêtre basse n'a jamais été testée, et le nul ne dit rien sur le fait que cette fenêtre fonctionne [@Loth2026website].
+
+Ce n'est pas une échappatoire mais un principe. Sous le principe de non-propagation ([les doses plus élevées ne contiennent pas les bénéfices des doses plus faibles](../concentration-not-presence/)), un nul en haut d'une plage ne porte aucune information sur une dose dans une fenêtre en dessous. Pour un mécanisme dont le bénéfice est une réponse à un engagement partiel à faible dose, le haut de la plage est précisément l'endroit où l'on s'attend à ce que le bénéfice se soit éteint.
+
+Cette asymétrie décide de la façon dont chaque résultat est pesé :
+
+- **Une fenêtre est une preuve positive.** Une réponse à une dose basse prédite mécaniquement montre que le mécanisme est réel et atteignable à cette dose.
+- **Un nul en haut d'une plage est une absence de preuve à une dose où l'on n'attendait pas de bénéfice.** Il exclut cette dose, pas le mécanisme.
+
+Ainsi, quand la même cellule est sondée par deux récepteurs et que les résultats sont une fenêtre et un nul-au-plafond, la lecture correcte est : *le récepteur dont le médicament ouvre une fenêtre est thérapeutiquement accessible ; un médicament qui n'a produit aucun bénéfice en haut de sa plage est une déclaration sur cette dose, pas sur le mécanisme.* Le contenu diagnostique est dans la fenêtre, pas dans le plafond.
+
+---
+
+## Le domaine résistant est lui-même une preuve
+
+Le contraste à deux récepteurs ci-dessus compare deux médicaments sur une cellule. Un trait distinct fonctionne au sein d'un seul médicament, à travers les symptômes du patient. Un **domaine de symptômes** est un ensemble de symptômes ; deux domaines sont distincts quand on les pense portés par des mécanismes différents. Quand une dose basse fonctionnelle d'un médicament protège un domaine tandis qu'un domaine distinct reste intact, cette dissociation est elle-même une preuve : elle montre que le médicament agit par un mécanisme spécifique plutôt qu'en abaissant également des symptômes de toute cause.
+
+Un médicament qui protège pleinement un domaine et en laisse un autre intact se comporte comme un médicament *ciblé*, pas général. Le domaine qui ne répond pas est alors un indice sur son propre mécanisme — il pointe vers une voie que le récepteur du médicament n'affecte pas, plutôt que vers un échec de dose. Le cadre d'interprétation de l'article le rend explicite : un domaine résistant identifie quels symptômes partagent une voie et lesquels n'en partagent pas, sans exiger de biomarqueur [@Loth2026website].
+
+Le corollaire est la discipline Goldilocks appliquée à un succès : **n'augmentez pas la dose pour poursuivre le domaine résistant.** Un domaine qui ne répond pas à un médicament via un récepteur donné est un échec de cible, pas un échec de dose. Cela importe surtout pour un agoniste partiel tel que l'aripiprazole à faible dose de cette série : une dose assez élevée pour atteindre un domaine indépendant de la dopamine a déjà quitté la propre fenêtre du médicament, et au-delà de cette fenêtre un agoniste partiel bascule vers le blocage du récepteur plutôt que vers sa stimulation ([le basculement de l'agoniste partiel](../low-dose-aripiprazole-window/)). Augmenter la dose ne recrute pas le domaine résistant ; cela ne fait que sortir le médicament de la fenêtre où il aidait.
+
+---
+
+## Ce que le schéma signifie comme diagnostic général
+
+Le contraste à deux récepteurs n'a de valeur que s'il aide un clinicien à interpréter l'historique médicamenteux d'un patient réel. Lisez les quatre cas ci-dessous avec le LDN comme sonde TLR4 et le LDA comme sonde D2. Pour chaque cas, supposez que les deux médicaments ont été essayés chez le même patient. Le cadre d'inférence en combinaison de l'article formalise les quatre combinaisons [@Loth2026website] :
+
+- **Les deux ouvrent une fenêtre.** Le LDN a produit un bénéfice dans sa plage et le LDA aussi. La sortie inflammatoire microgliale peut être supprimée par l'un ou l'autre récepteur. La cellule répond à la fois à TLR4 et à D2, donc l'un ou l'autre médicament est une voie utilisable.
+
+- **LDN nul dans la plage, LDA en fenêtre.** Le LDA a produit un bénéfice dans sa plage mais le LDN n'en a produit aucun, même dans sa propre plage (basse). Le bénéfice suit donc la voie D2 et non la voie TLR4. Cela ne signifie pas que la composante microgliale est absente — la fenêtre du LDA montre que la microglie est présente et accessible au médicament. Cela signifie que l'activation qui pilote ce patient est portée par une voie que D2 contrôle, et que TLR4 n'est pas la voie par laquelle cette activation est produite ou supprimée. C'est l'exclusion la plus nette que les deux médicaments puissent donner.
+
+- **LDN en fenêtre, LDA nul dans la plage.** L'image en miroir. Le bénéfice suit TLR4 et non D2 : la poussée microgliale est supprimable par la voie TLR4, tandis que D2 n'ajoute aucune suppression au-delà.
+
+- **Les deux nuls dans la plage.** Ni le LDN dans sa plage ni le LDA dans la sienne n'a produit de bénéfice, donc ni TLR4 ni D2 ne supprime la sortie. L'activation microgliale est alors peu susceptible d'être l'étape limitante, et le diagnostic différentiel se déplace vers d'autres causes.
+
+Deux réserves gardent la matrice honnête. Premièrement, le mot qui porte chaque ligne est *dans la plage* : un nul en haut d'une plage de dose ne dit rien sur la fenêtre en dessous, si bien qu'une exclusion propre exige que chaque médicament ait été essayé dans sa propre fenêtre, et maintenu assez longtemps pour que la dose montre son effet. Deuxièmement, un nul via un récepteur ne signifie jamais que la composante microgliale est absente — cela signifie que ce récepteur n'est pas la voie par laquelle l'activation est pilotée chez ce patient [@Loth2026website]. Si un nul est enregistré en haut d'une plage de dose mais que la fenêtre basse n'a jamais été essayée, l'expérience manquante est un essai de la dose basse elle-même, pas un verdict sur le mécanisme ([un échec à une dose unique n'est pas un verdict](../single-dose-failure-not-a-verdict/)).
+
+---
+
+## Certitude
+
+| Affirmation | Certitude |
+|-------------|-----------|
+| TLR4 (LDN) et D2/D3 (LDA) sont des sondes complémentaires de la même cellule microgliale | Modérée — l'anatomie de cellule partagée est établie ; la séparation des fenêtres de dose découle du modèle d'occupation |
+| Un nul en haut d'une plage de dose ne porte aucune information sur une dose dans la fenêtre en dessous | Modérée — découle du principe de non-propagation ; dépend de la justesse de l'hypothèse de fenêtre |
+| Une fenêtre à une dose basse est une preuve positive plus forte qu'un nul à une dose haute n'est une preuve négative | Élevée comme affirmation logique sur la dose-réponse — un mécanisme conduit dans sa fenêtre est testé ; une dose au-dessus de la fenêtre ne l'est pas |
+| Un domaine résistant identifie une voie séparée plutôt qu'un échec de dose | Modérée — l'interprétation est dérivée mécaniquement et dépend du fait que le domaine est vraiment spécifique au mécanisme |
+| Le schéma à deux récepteurs se généralise comme diagnostic | Faible — le cadre d'inférence en combinaison est dérivé mécaniquement et non testé prospectivement |
+
+*Cet article s'appuie sur la cascade microgliale, la section de réponse médicamenteuse au LDA et le cadre d'inférence en combinaison de [Loth 2026](https://yannickloth.github.io/health-me-cfs/). Les résultats cliniques du LDA proviennent de Crosby et al. [@Crosby2021LDA]. Articles compagnons : [La dose idéale d'aripiprazole](../low-dose-aripiprazole-window/) · [Pourquoi une dose plus élevée ne contient pas les bénéfices d'une dose plus faible](../concentration-not-presence/) · [Partie 3 : Votre dose de LDN est un diagnostic](../dose-is-diagnostic-ldn/) · [Un échec à une dose unique n'est pas un verdict](../single-dose-failure-not-a-verdict/).*

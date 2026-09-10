@@ -1,0 +1,91 @@
+---
+title: "Two Receptors, One Cell, Opposite Dose Curves — Reading a Ceiling and a Window as a Differential Diagnosis"
+description: "Two drugs can act on the same cell through different receptors and show opposite dose behaviour: one null at the top of its range, the other a window at a fraction of its dose. Read together, a ceiling and a window are not noise. They are a differential diagnosis written in dose-response."
+author: "Yannick Loth"
+date: "2026-09-09"
+categories: [Treatment, Pharmacology, ME/CFS]
+lang: en
+---
+
+This post makes explicit a contrast the dose-response series has circled without ever stating outright. Two drugs can act on the **same cell** through **different receptors** and produce **opposite dose-response behaviour** — and the two results, read together, are information rather than noise. That claim is a differential diagnosis performed with a prescription pad.
+
+Two terms carry the argument, so they are fixed here. A **window** is the dose range inside which a drug produces its benefit. A **null** is an absence of net benefit at a tested dose. A **ceiling** is the upper end of the dose range a drug was tested across. The pattern this post examines is a drug that produced a null at its ceiling — only high doses were tried, so the low window was never tested — set against another drug that opens a window at a low dose.
+
+The cell this post reasons about is the microglia that drive the neuroinflammatory component of ME/CFS, and the receptors the two drugs act through sit on that same cell [@Loth2026website]. That shared anatomy is what lets the two drugs' results be read as one inference about a single mechanism.
+
+---
+
+## The anatomy that makes two drugs informative
+
+The microglial model of the neuroinflammatory component treats one cell population as a single decision point: pro-inflammatory ligands must engage the cell strongly enough to cross a threshold before it releases its own inflammatory cytokines [@Loth2026website]. The two drugs act at different places in this chain.
+
+**TLR4, probed by low-dose naltrexone (LDN).** TLR4 is a receptor on the microglial cell that detects pro-inflammatory ligands — damage-associated and pathogen-associated molecular patterns [@Osman2024naltrexoneTLR4]. Low-dose naltrexone antagonises TLR4 [@Osman2024naltrexoneTLR4; @Kwilasz2021NTXmicroglia; @Younger2013]; its proposed anti-inflammatory effect is a partial blockade that primes the cell's own Nrf2-mediated anti-inflammatory programme [@Calabrese2021Nrf2; @Kucic2021LDNmicroglia]. For the contrast this post draws, TLR4 sits on the *input* side of the decision: blocking it reduces the pro-inflammatory drive that reaches the cell. It does not raise the threshold those inputs must cross [@Loth2026website].
+
+**D2/D3, probed by low-dose aripiprazole (LDA).** Aripiprazole is a partial agonist at the D2/D3 receptors on the same microglia: it engages the receptor but activates it only partially [@Burris2002aripiprazoleD2; @Shapiro2003aripiprazole]. Its proposed low-dose action is to raise the threshold the microglial cell must cross before it releases its inflammatory cytokines. The ligands that matter here are the ones exertion produces — ATP, reactive oxygen species, heat-shock proteins — which normally push the cell across that threshold and start a post-exertional inflammatory response. With the threshold raised, those signals no longer cross it, so pro-inflammatory cytokine release (TNF-α, IL-1β, IL-6) is suppressed and the post-exertional response does not cross into symptom-producing territory [@Crosby2021LDA; @Loth2026website]. LDA therefore probes the *threshold* side of the decision: how strongly the remaining ligands must drive the cell before it responds.
+
+So the two drugs act on different parts of the same decision. TLR4 antagonism reduces the number of pro-inflammatory inputs that reach the cell; D2 agonism raises how strongly the remaining inputs must drive the cell before it releases its inflammatory cytokines. Because the two drugs gate the same cell, the two results bear on the same decision and can be weighed jointly: one changes what reaches the cell, the other changes how hard the cell must be driven. They are not independent effects that cancel or average out.
+
+---
+
+## The two patterns worth reading
+
+Two probes of one cell give two patterns that carry information. (A third outcome — both drugs null within range — carries its own meaning and is taken up at the end.)
+
+**Pattern one: both open a window.** Both receptors can be used to suppress the cell's inflammatory output; the cell carries more than one receptor a drug can act through to limit that output. Informative, but it does not separate which receptor mechanism actually governs it.
+
+**Pattern two: one drug opens a window, the other is a null.** This is the sharper case. A drug that opens a window at a low dose shows its receptor mechanism is real and reachable at that dose. A drug that is a null shows no net benefit at the dose tested. The two results do not conflict; whether the null can be read as a genuine exclusion depends on where it was recorded — which is the subject of the next section.
+
+---
+
+## Why a ceiling carries no information about a window
+
+The crux is dose discipline: where a null was recorded decides what it means. A null at the **top** of a drug's dose range is not a test of the drug's mechanism if that mechanism lives in a window lower down. LDN is the concrete case. Its proposed TLR4/Nrf2 mechanism sits in a low window. If a null is recorded only at the top of the range, the low window was never tested, and the null says nothing about whether that window works [@Loth2026website].
+
+This is not a loophole but a principle. Under the non-propagation principle ([higher doses do not contain the benefits of lower ones](../concentration-not-presence/)), a null at the top of a range carries no information about a dose in a window below it. For a mechanism whose benefit is a response to partial engagement at a low dose, the top of the range is precisely where benefit is expected to have extinguished.
+
+This asymmetry decides how each result is weighed:
+
+- **A window is positive evidence.** A response at a mechanistically predicted low dose shows the mechanism is real and reachable at that dose.
+- **A null at the top of a range is absence of evidence at a dose where benefit was not expected.** It excludes that dose, not the mechanism.
+
+So when the same cell is probed by two receptors and the results are one window and one null-at-the-ceiling, the correct reading is: *the receptor whose drug opens a window is therapeutically accessible; a drug that produced no benefit at the top of its range is a statement about that dose, not about the mechanism.* The diagnostic content is in the window, not in the ceiling.
+
+---
+
+## The resistant domain is itself evidence
+
+The two-receptor contrast above compares two drugs on one cell. A separate feature works within a single drug, across the patient's symptoms. A **symptom domain** is a set of symptoms; two domains are distinct when they are thought to have different mechanisms. When a working low dose of a drug protects one domain while a distinct domain stays untouched, that split is itself evidence: it shows the drug acts through one specific mechanism rather than lowering symptoms of every cause equally.
+
+A drug that fully protects one domain and leaves another intact behaves like a *targeted* drug, not a general one. The domain that does not respond is then a clue to its own mechanism — it points at a pathway the drug's receptor does not affect, rather than at a dose failure. The paper's interpretation framework makes this explicit: a resistant domain identifies which symptoms share a pathway and which do not, without requiring a biomarker [@Loth2026website].
+
+The corollary is the Goldilocks discipline applied to a success: **do not raise the dose to chase the resistant domain.** A domain that does not respond to a drug through a given receptor is a target failure, not a dose failure. This matters most for a partial agonist such as the low-dose aripiprazole in this series: a dose high enough to reach a dopamine-independent domain has already left the drug's own window, and beyond that window a partial agonist flips toward blocking the receptor rather than stimulating it ([the partial-agonist flip](../low-dose-aripiprazole-window/)). Raising the dose does not recruit the resistant domain; it only moves the drug out of the window where it helped.
+
+---
+
+## What the pattern means as a general diagnostic
+
+The two-receptor contrast only earns its keep if it helps a clinician interpret a real patient's drug history. Read the four cases below with LDN as the TLR4 probe and LDA as the D2 probe. For each case, assume both drugs were tried in the same patient. The paper's combination-inference framework formalises the four combinations [@Loth2026website]:
+
+- **Both open a window.** LDN produced benefit within its range and LDA did too. Microglial inflammatory output can be suppressed through either receptor. The cell responds to both TLR4 and D2, so either drug is a workable route.
+
+- **LDN null within range, LDA window.** LDA produced benefit within its range but LDN produced none even within its own (low) range. Benefit therefore tracks the D2 route and not the TLR4 route. This does not mean the microglial component is absent — the LDA window shows the microglia are present and drug-accessible. It means the activation driving this patient is carried through a pathway D2 gates, and TLR4 is not the route by which that activation is being produced or suppressed. This is the sharpest exclusion the two drugs can give.
+
+- **LDN window, LDA null within range.** The mirror image. Benefit tracks TLR4 and not D2: the microglial drive is suppressible through the TLR4 route, while D2 adds no suppression beyond it.
+
+- **Both null within range.** Neither LDN in its range nor LDA in its range produced benefit, so neither TLR4 nor D2 suppresses the output. Microglial activation is then unlikely to be the rate-limiting step, and the differential moves to other causes.
+
+Two qualifications keep the matrix honest. First, the load-bearing word in each row is *within range*: a null at the top of a dose range says nothing about the window below it, so a clean exclusion requires each drug to have been tried inside its own window, and held there long enough for the dose to show its effect. Second, a null through one receptor never means the microglial component is absent — it means that receptor is not the route by which the activation is being driven in this patient [@Loth2026website]. If a null is recorded at the top of a dose range but the low-dose window was never tried, the missing experiment is a trial of the low dose itself, not a verdict on the mechanism ([a single dose failure is not a verdict](../single-dose-failure-not-a-verdict/)).
+
+---
+
+## Certainty
+
+| Claim | Certainty |
+|-------|-----------|
+| TLR4 (LDN) and D2/D3 (LDA) are complementary probes of the same microglial cell | Moderate — the shared-cell anatomy is established; the dose-window separation follows from the occupancy model |
+| A null at the top of a dose range carries no information about a dose in the window below | Moderate — follows from the non-propagation principle; depends on the window hypothesis being correct |
+| A window at a low dose is stronger positive evidence than a null at a high dose is negative | High as a logical claim about dose-response — a mechanism run in its window is tested; a dose above the window is not |
+| A resistant domain identifies a separate pathway rather than a dose failure | Moderate — the interpretation is mechanistically derived and depends on the domain being truly mechanism-specific |
+| The two-receptor pattern generalises as a diagnostic | Low — the combination-inference framework is mechanistically derived and prospectively untested |
+
+*This post draws on the microglial cascade, the LDA medication-response section, and the combination-inference framework in [Loth 2026](https://yannickloth.github.io/health-me-cfs/). The LDA clinical findings are from Crosby et al. [@Crosby2021LDA]. Companion posts: [The Goldilocks Dose of Aripiprazole](../low-dose-aripiprazole-window/) · [Why a Higher Dose Does Not Contain the Benefits of a Lower Dose](../concentration-not-presence/) · [Part 3: Your LDN Dose Is a Diagnostic](../dose-is-diagnostic-ldn/) · [A Single Dose Failure Is Not a Verdict](../single-dose-failure-not-a-verdict/).*

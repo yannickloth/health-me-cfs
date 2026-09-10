@@ -1,0 +1,91 @@
+---
+title: "Zwei Rezeptoren, eine Zelle, entgegengesetzte Dosiskurven — eine Obergrenze und ein Fenster als Differentialdiagnose lesen"
+description: "Zwei Medikamente können auf derselben Zelle über verschiedene Rezeptoren wirken und ein entgegengesetztes Dosisverhalten zeigen: das eine ein Nulleffekt am oberen Ende seines Bereichs, das andere ein Fenster bei einem Bruchteil seiner Dosis. Zusammen gelesen sind eine Obergrenze und ein Fenster kein Rauschen. Sie sind eine in Dosis-Wirkung geschriebene Differentialdiagnose."
+author: "Yannick Loth"
+date: "2026-09-09"
+categories: [Behandlung, Pharmakologie, ME/CFS]
+lang: de
+---
+
+Dieser Beitrag macht einen Kontrast explizit, den die Dosis-Wirkungs-Reihe bisher nur umkreist hat. Zwei Medikamente können auf **derselben Zelle** über **verschiedene Rezeptoren** wirken und ein **entgegengesetztes Dosis-Wirkungs-Verhalten** erzeugen — und die beiden Ergebnisse sind, zusammen gelesen, Information statt Rauschen. Diese Behauptung ist eine mit einem Rezeptblock durchgeführte Differentialdiagnose.
+
+Zwei Begriffe tragen das Argument, deshalb werden sie hier festgelegt. Ein **Fenster** ist der Dosisbereich, in dem ein Medikament seinen Nutzen erzeugt. Ein **Nulleffekt** ist eine Abwesenheit von Nettonutzen bei einer getesteten Dosis. Eine **Obergrenze** ist das obere Ende des Dosisbereichs, über den ein Medikament getestet wurde. Das Muster, das dieser Beitrag untersucht, ist ein Medikament, das an seiner Obergrenze einen Nulleffekt erzeugte — es wurden nur hohe Dosen versucht, sodass das niedrige Fenster nie getestet wurde —, gegenüber einem anderen Medikament, das bei einer niedrigen Dosis ein Fenster öffnet.
+
+Die Zelle, über die dieser Beitrag nachdenkt, ist die Mikroglia, die die neuroinflammatorische Komponente von ME/CFS antreibt, und die Rezeptoren, über die die beiden Medikamente wirken, sitzen auf derselben Zelle [@Loth2026website]. Diese gemeinsame Anatomie ermöglicht es, die beiden Ergebnisse als eine einzige Schlussfolgerung über einen einzigen Mechanismus zu lesen.
+
+---
+
+## Die Anatomie, die zwei Medikamente informativ macht
+
+Das mikrogliale Modell der neuroinflammatorischen Komponente behandelt eine Zellpopulation als einen einzigen Entscheidungspunkt: Proinflammatorische Liganden müssen die Zelle stark genug binden, um eine Schwelle zu überschreiten, bevor sie ihre eigenen inflammatorischen Zytokine freisetzt [@Loth2026website]. Die beiden Medikamente wirken an verschiedenen Stellen dieser Kette.
+
+**TLR4, sondiert durch Niedrigdosis-Naltrexon (LDN).** TLR4 ist ein Rezeptor auf der Mikrogliazelle, der proinflammatorische Liganden erkennt — schadensassoziierte und pathogenassoziierte molekulare Muster [@Osman2024naltrexoneTLR4]. Niedrigdosis-Naltrexon antagonisiert TLR4 [@Osman2024naltrexoneTLR4; @Kwilasz2021NTXmicroglia; @Younger2013]; seine vorgeschlagene antiinflammatorische Wirkung ist eine partielle Blockade, die das eigene Nrf2-vermittelte antiinflammatorische Programm der Zelle vorbereitet [@Calabrese2021Nrf2; @Kucic2021LDNmicroglia]. Für den Kontrast, den dieser Beitrag zieht, sitzt TLR4 auf der *Eingangsseite* der Entscheidung: es zu blockieren reduziert den proinflammatorischen Antrieb, der die Zelle erreicht. Es erhöht nicht die Schwelle, die diese Eingänge überschreiten müssen [@Loth2026website].
+
+**D2/D3, sondiert durch Niedrigdosis-Aripiprazol (LDA).** Aripiprazol ist ein Partialagonist an den D2/D3-Rezeptoren auf derselben Mikroglia: Es bindet den Rezeptor, aktiviert ihn aber nur teilweise [@Burris2002aripiprazoleD2; @Shapiro2003aripiprazole]. Seine vorgeschlagene Niedrigdosis-Wirkung besteht darin, die Schwelle zu erhöhen, die die Mikrogliazelle überschreiten muss, bevor sie ihre inflammatorischen Zytokine freisetzt. Die Liganden, die hier zählen, sind jene, die Anstrengung erzeugt — ATP, reaktive Sauerstoffspezies, Hitzeschockproteine —, die die Zelle normalerweise über diese Schwelle drücken und eine postexertionelle inflammatorische Reaktion auslösen. Ist die Schwelle erhöht, überschreiten diese Signale sie nicht mehr, sodass die Freisetzung proinflammatorischer Zytokine (TNF-α, IL-1β, IL-6) unterdrückt wird und die postexertionelle Reaktion nicht in symptomproduzierendes Gebiet vordringt [@Crosby2021LDA; @Loth2026website]. LDA sondiert daher die *Schwellenseite* der Entscheidung: wie stark die verbleibenden Liganden die Zelle treiben müssen, bevor sie antwortet.
+
+Die beiden Medikamente wirken also auf verschiedene Teile derselben Entscheidung. TLR4-Antagonismus reduziert die Zahl proinflammatorischer Eingänge, die die Zelle erreichen; D2-Agonismus erhöht, wie stark die verbleibenden Eingänge die Zelle treiben müssen, bevor sie ihre inflammatorischen Zytokine freisetzt. Weil die beiden Medikamente dieselbe Zelle steuern, betreffen die beiden Ergebnisse dieselbe Entscheidung und können gemeinsam gewichtet werden: Das eine verändert, was die Zelle erreicht, das andere verändert, wie stark die Zelle getrieben werden muss. Sie sind keine unabhängigen Effekte, die sich aufheben oder mitteln.
+
+---
+
+## Die zwei Muster, die es zu lesen lohnt
+
+Zwei Sonden einer Zelle ergeben zwei Muster, die Information tragen. (Ein drittes Ergebnis — beide Medikamente innerhalb des Bereichs ohne Wirkung — trägt seine eigene Bedeutung und wird am Ende aufgegriffen.)
+
+**Muster eins: Beide öffnen ein Fenster.** Beide Rezeptoren können genutzt werden, um die inflammatorische Ausgabe der Zelle zu unterdrücken; die Zelle trägt mehr als einen Rezeptor, über den ein Medikament diese Ausgabe begrenzen kann. Informativ, aber es trennt nicht, welcher Rezeptormechanismus diese Ausgabe tatsächlich steuert.
+
+**Muster zwei: Ein Medikament öffnet ein Fenster, das andere ist ein Nulleffekt.** Das ist der schärfere Fall. Ein Medikament, das bei einer niedrigen Dosis ein Fenster öffnet, zeigt, dass sein Rezeptormechanismus real und bei dieser Dosis erreichbar ist. Ein Nulleffekt-Medikament zeigt keinen Nettonutzen bei der getesteten Dosis. Die beiden Ergebnisse widersprechen sich nicht; ob der Nulleffekt als echte Ausschließung gelesen werden kann, hängt davon ab, wo er aufgezeichnet wurde — das ist das Thema des nächsten Abschnitts.
+
+---
+
+## Warum eine Obergrenze keine Information über ein Fenster trägt
+
+Der Kern ist die Dosisdisziplin: Wo ein Nulleffekt aufgezeichnet wurde, entscheidet, was er bedeutet. Ein Nulleffekt am **oberen** Ende des Dosisbereichs eines Medikaments testet den Mechanismus dieses Medikaments nicht, wenn dieser Mechanismus in einem tieferen Fenster lebt. LDN ist der konkrete Fall. Sein vorgeschlagener TLR4/Nrf2-Mechanismus sitzt in einem niedrigen Fenster. Wird ein Nulleffekt nur am oberen Ende des Bereichs aufgezeichnet, wurde das niedrige Fenster nie getestet, und der Nulleffekt sagt nichts darüber aus, ob dieses Fenster wirkt [@Loth2026website].
+
+Das ist keine Hintertür, sondern ein Prinzip. Unter dem Nicht-Propagations-Prinzip ([höhere Dosen enthalten nicht die Vorteile niedrigerer Dosen](../concentration-not-presence/)) trägt ein Nulleffekt am oberen Ende eines Bereichs keine Information über eine Dosis in einem Fenster darunter. Bei einem Mechanismus, dessen Nutzen eine Antwort auf partielle Bindung bei niedriger Dosis ist, ist das obere Ende des Bereichs genau der Ort, an dem der Nutzen voraussichtlich erloschen ist.
+
+Diese Asymmetrie entscheidet, wie jedes Ergebnis gewichtet wird:
+
+- **Ein Fenster ist positiver Beleg.** Eine Antwort bei einer mechanistisch vorhergesagten niedrigen Dosis zeigt, dass der Mechanismus real und bei dieser Dosis erreichbar ist.
+- **Ein Nulleffekt am oberen Ende eines Bereichs ist eine Abwesenheit von Beleg bei einer Dosis, an der kein Nutzen erwartet wurde.** Er schließt diese Dosis aus, nicht den Mechanismus.
+
+Wenn also dieselbe Zelle von zwei Rezeptoren sondiert wird und die Ergebnisse ein Fenster und ein Nulleffekt-an-der-Obergrenze sind, lautet die korrekte Lesart: *der Rezeptor, dessen Medikament ein Fenster öffnet, ist therapeutisch zugänglich; ein Medikament, das am oberen Ende seines Bereichs keinen Nutzen erzeugte, ist eine Aussage über diese Dosis, nicht über den Mechanismus.* Der diagnostische Gehalt liegt im Fenster, nicht in der Obergrenze.
+
+---
+
+## Die resistente Domäne ist selbst ein Beleg
+
+Der Zwei-Rezeptor-Kontrast oben vergleicht zwei Medikamente auf einer Zelle. Ein separates Merkmal wirkt innerhalb eines einzelnen Medikaments, über die Symptome des Patienten hinweg. Eine **Symptomdomäne** ist eine Gruppe von Symptomen; zwei Domänen sind verschieden, wenn man annimmt, dass sie unterschiedliche Mechanismen haben. Wenn eine wirksame niedrige Dosis eines Medikaments eine Domäne schützt, während eine getrennte Domäne unberührt bleibt, ist diese Spaltung selbst ein Beleg: Sie zeigt, dass das Medikament über einen spezifischen Mechanismus wirkt, statt Symptome jeder Ursache gleichermaßen zu senken.
+
+Ein Medikament, das eine Domäne vollständig schützt und eine andere intakt lässt, verhält sich wie ein *gezieltes* Medikament, nicht wie ein allgemeines. Die Domäne, die nicht antwortet, ist dann ein Hinweis auf ihren eigenen Mechanismus — sie zeigt auf einen Weg, den der Rezeptor des Medikaments nicht beeinflusst, und nicht auf einen Dosisfehlschlag. Der Interpretationsrahmen des Papiers macht dies explizit: Eine resistente Domäne identifiziert, welche Symptome einen Weg teilen und welche nicht, ohne einen Biomarker zu verlangen [@Loth2026website].
+
+Das Korollar ist die Goldilocks-Disziplin, angewandt auf einen Erfolg: **Erhöhen Sie die Dosis nicht, um der resistenten Domäne nachzujagen.** Eine Domäne, die über einen gegebenen Rezeptor nicht auf ein Medikament antwortet, ist ein Zielfehlschlag, kein Dosisfehlschlag. Das ist vor allem bei einem Partialagonisten wie dem Niedrigdosis-Aripiprazol dieser Reihe wichtig: Eine Dosis, die hoch genug ist, um eine dopaminunabhängige Domäne zu erreichen, hat das eigene Fenster des Medikaments bereits verlassen, und jenseits dieses Fensters kippt ein Partialagonist zum Blockieren des Rezeptors statt zu dessen Stimulierung ([der Partialagonist-Kipppunkt](../low-dose-aripiprazole-window/)). Die Dosis zu erhöhen rekrutiert die resistente Domäne nicht; es bewegt das Medikament nur aus dem Fenster heraus, in dem es half.
+
+---
+
+## Was das Muster als allgemeines Diagnostikum bedeutet
+
+Der Zwei-Rezeptor-Kontrast hat nur dann Wert, wenn er einem Kliniker hilft, die Medikamentengeschichte eines realen Patienten zu interpretieren. Lesen Sie die vier Fälle unten mit LDN als TLR4-Sonde und LDA als D2-Sonde. Nehmen Sie für jeden Fall an, dass beide Medikamente bei demselben Patienten versucht wurden. Der Kombinations-Inferenzrahmen des Papiers formalisiert die vier Kombinationen [@Loth2026website]:
+
+- **Beide öffnen ein Fenster.** LDN erzeugte Nutzen innerhalb seines Bereichs, und LDA ebenso. Die inflammatorische Ausgabe der Mikroglia kann über beide Rezeptoren unterdrückt werden. Die Zelle antwortet auf TLR4 und D2, sodass jedes der Medikamente ein brauchbarer Weg ist.
+
+- **LDN ohne Wirkung im Bereich, LDA im Fenster.** LDA erzeugte Nutzen in seinem Bereich, aber LDN erzeugte keinen, selbst in seinem eigenen (niedrigen) Bereich. Der Nutzen folgt daher dem D2-Weg und nicht dem TLR4-Weg. Das bedeutet nicht, dass die mikrogliale Komponente fehlt — das LDA-Fenster zeigt, dass die Mikroglia vorhanden und für das Medikament zugänglich ist. Es bedeutet, dass die Aktivierung, die diesen Patienten antreibt, über einen Weg getragen wird, den D2 steuert, und dass TLR4 nicht der Weg ist, über den diese Aktivierung erzeugt oder unterdrückt wird. Das ist die schärfste Ausschließung, die die beiden Medikamente geben können.
+
+- **LDN im Fenster, LDA ohne Wirkung im Bereich.** Das Spiegelbild. Der Nutzen folgt TLR4 und nicht D2: Der mikrogliale Antrieb ist über den TLR4-Weg unterdrückbar, während D2 darüber hinaus keine zusätzliche Unterdrückung beisteuert.
+
+- **Beide ohne Wirkung im Bereich.** Weder LDN in seinem Bereich noch LDA in seinem Bereich erzeugte Nutzen, sodass weder TLR4 noch D2 die Ausgabe unterdrückt. Mikrogliale Aktivierung ist dann wahrscheinlich nicht der limitierende Schritt, und die Differentialdiagnose verlagert sich auf andere Ursachen.
+
+Zwei Einschränkungen halten die Matrix ehrlich. Erstens ist das tragende Wort jeder Zeile *im Bereich*: Ein Nulleffekt am oberen Ende eines Dosisbereichs sagt nichts über das Fenster darunter, sodass eine saubere Ausschließung verlangt, dass jedes Medikament in seinem eigenen Fenster versucht und dort lange genug gehalten wurde, damit die Dosis ihre Wirkung zeigen kann. Zweitens bedeutet ein Nulleffekt über einen Rezeptor niemals, dass die mikrogliale Komponente fehlt — er bedeutet, dass dieser Rezeptor nicht der Weg ist, über den die Aktivierung bei diesem Patienten getragen wird [@Loth2026website]. Wird ein Nulleffekt am oberen Ende eines Dosisbereichs aufgezeichnet, aber das niedrige Fenster nie versucht, ist das fehlende Experiment ein Versuch der niedrigen Dosis selbst, kein Urteil über den Mechanismus ([ein Dosis-Fehlversuch ist kein Urteil](../single-dose-failure-not-a-verdict/)).
+
+---
+
+## Gewissheit
+
+| Behauptung | Gewissheit |
+|------------|------------|
+| TLR4 (LDN) und D2/D3 (LDA) sind komplementäre Sonden derselben Mikrogliazelle | Mittel — die gemeinsame Zellanatomie ist etabliert; die Trennung der Dosisfenster folgt aus dem Besetzungsmodell |
+| Ein Nulleffekt am oberen Ende eines Dosisbereichs trägt keine Information über eine Dosis im Fenster darunter | Mittel — folgt aus dem Nicht-Propagations-Prinzip; hängt von der Richtigkeit der Fensterhypothese ab |
+| Ein Fenster bei niedriger Dosis ist stärker positiver Beleg, als ein Nulleffekt bei hoher Dosis negativer Beleg ist | Hoch als logische Aussage über Dosis-Wirkung — ein in seinem Fenster laufender Mechanismus ist getestet; eine Dosis oberhalb des Fensters ist es nicht |
+| Eine resistente Domäne identifiziert einen getrennten Weg statt eines Dosisfehlschlags | Mittel — die Interpretation ist mechanistisch abgeleitet und hängt davon ab, dass die Domäne wirklich mechanismusspezifisch ist |
+| Das Zwei-Rezeptor-Muster generalisiert als Diagnostikum | Niedrig — der Kombinations-Inferenzrahmen ist mechanistisch abgeleitet und prospektiv ungetestet |
+
+*Dieser Beitrag stützt sich auf die Mikroglia-Kaskade, den LDA-Medikamentenansprech-Abschnitt und den Kombinations-Inferenzrahmen von [Loth 2026](https://yannickloth.github.io/health-me-cfs/). Die klinischen LDA-Befunde stammen von Crosby et al. [@Crosby2021LDA]. Begleitbeiträge: [Die Goldilocks-Dosis von Aripiprazol](../low-dose-aripiprazole-window/) · [Warum eine höhere Dosis nicht die Vorteile einer niedrigeren Dosis enthält](../concentration-not-presence/) · [Teil 3: Ihre LDN-Dosis ist ein Diagnostikum](../dose-is-diagnostic-ldn/) · [Ein Dosis-Fehlversuch ist kein Urteil](../single-dose-failure-not-a-verdict/).*
