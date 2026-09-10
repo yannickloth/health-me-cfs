@@ -24,6 +24,7 @@
 
     - *Metformin 500 mg*: Start at 500 mg once daily with dinner, increase to 500 mg twice daily over 2 weeks
     - *Benefit*: Direct insulin sensitization plus anti-inflammatory properties (particularly TLR4 pathway relevant to ME/CFS)
+    - *Scope note*: This use is for documented prediabetes/glucose intolerance (its standard indication), not for ME/CFS symptom treatment. Metformin has NOT shown symptom benefit in established post-viral disease — two RCTs were unsupportive (one completed negative @Lim2026MetforminPASC; one stopped for futility @Reis2026fluvoxamine) — so it should not be selected in the expectation of improving ME/CFS fatigue (see @oq:ldn-metformin-phenotype-triage). Renal contraindications apply: eGFR $< 30$ contraindicated, 30--44 not initiated.
     - *Monitoring*: Monitor gastrointestinal tolerance; diarrhea is most common side effect
     - *Recheck metabolic markers*: 6 weeks after initiation
 

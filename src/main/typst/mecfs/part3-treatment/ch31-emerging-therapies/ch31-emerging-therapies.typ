@@ -308,18 +308,22 @@ Recent evidence from COVID-19 and long COVID research implicates neutrophil extr
 
 === Metabolic NETosis Modulation
 
-#speculation(title: [Metformin for Insulin-Driven NETosis Reduction])[
-*(Certainty: 0.20.)* Sanhueza et al. @Sanhueza2026NETosisIR demonstrated that post-infectious insulin resistance drives NETosis independently of glucose in long COVID (n=60 prospective cohort). Metformin activates AMPK, inhibiting mTOR—a pathway required for NETosis—while simultaneously improving insulin sensitivity. This dual mechanism (insulin sensitization + direct AMPK-mediated NET suppression) makes metformin a candidate for reducing metabolic-NETosis in ME/CFS, though no ME/CFS data exist.
+#speculation(title: [Metformin for Insulin-Driven NETosis Reduction — Research Hypothesis Only])[
+*(Certainty: 0.20.)* Sanhueza et al. @Sanhueza2026NETosisIR demonstrated that post-infectious insulin resistance drives NETosis independently of glucose in long COVID (n=60 prospective cohort). Metformin activates AMPK, inhibiting mTOR—a pathway required for NETosis—while simultaneously improving insulin sensitivity. This dual mechanism is the basis of the hypothesis that metformin reduces metabolic-NETosis in a metabolically defined ME/CFS subgroup, though no ME/CFS data exist.
+
+*Steelman — the case for testing it:* The strongest argument is not that metformin failed, but that the trials that failed tested *unselected* patients. Lim2026 and Reis2026 did not stratify by insulin resistance, the design that can mask a true subgroup effect; and metformin's one positive RCT-level signal (COVID-OUT, @Reis2023COVIDOUT) arose in a defined early/metabolically-loaded context. The negative symptom trials therefore leave a testable subgroup hypothesis open — they do not refute a targeted one.
+
+*Clinical caveat:* This is a research hypothesis, not a demonstrated clinical benefit, and should not be prescribed outside a registered trial. The distinction matters: the proposed REE/NETosis endpoints are *unverified* (never measured in ME/CFS), which is not the same as *refuted* (tested and failed). What is refuted is unselected established-disease symptom benefit: one completed RCT was negative (@Lim2026MetforminPASC) and a second adaptive trial stopped its metformin arm for futility (@Reis2026fluvoxamine). Metformin's positive signal is confined to *prevention* with early acute-phase initiation (COVID-OUT: 41% relative reduction in long-COVID incidence, @Reis2023COVIDOUT) — a result irrelevant to a patient who already has established ME/CFS. Against the subgroup case, no routine clinical NET marker exists, so the trial cannot be judged on a routine clinical marker: the mechanism is not currently falsifiable with routine clinical assays, so the negative symptom trials retain real (if not decisive) evidentiary weight. The dose, monitoring, and stopping fields below describe a research protocol only, not an established clinical regimen. Certainty 0.20 reflects plausibility of the mechanism, not any ME/CFS evidence. See @oq:ldn-metformin-phenotype-triage.
 
 *Expected time to response:* Weeks (metabolic remodeling + insulin sensitization requires sustained AMPK activation).
 
-*Starting dose for severe patients:* 250 mg once daily (well below standard 500–850 mg BID; ME/CFS GI sensitivity common).
+*Starting dose (research protocol only — not a clinical recommendation):* 250 mg once daily (well below standard 500–850 mg BID; ME/CFS GI sensitivity common).
 
-*Monitoring parameters:* HOMA-IR, fasting insulin, NET markers, GI tolerability, B12 (metformin depletes).
+*Monitoring parameters (research protocol only):* Mechanism-proximal endpoints (NET markers, insulin sensitivity) plus GI tolerability and B12 (metformin depletes); baseline and periodic renal function (eGFR), since renal impairment is metformin's principal contraindication. Note that HOMA-IR is useful as a *stratification/enrichment* variable but does not track the hypothesized NETosis mechanism, so it must not be used as a futility endpoint.
 
-*Stopping criteria:* Intolerable GI symptoms, no change in HOMA-IR after 12 weeks, lactic acidosis (rare, less than 10 per 100,000 patient-years).
+*Stopping criteria:* Intolerable GI symptoms, lactic acidosis (rare but potentially fatal; risk rises with renal impairment), declining eGFR, or no change in the mechanism-proximal research-assay endpoints (NET markers/insulin sensitivity) after 12 weeks — not HOMA-IR alone.
 
-*Contraindications for bedbound patients:* GI side effects may be intolerable in patients with pre-existing nausea. Lactic acidosis risk theoretical but severe.
+*Contraindications for severe/bedbound patients:* Not for use in bedbound/severe patients — the directional effect on energy metabolism cannot be established outside a research protocol, and this population is most vulnerable to harm. Additionally contraindicated at eGFR $< 30$ and not initiated at eGFR 30–44; hold during acute illness, vomiting, dehydration, or iodinated-contrast procedures (sick-day rules — directly relevant given autonomic dehydration risk); creatinine-based eGFR overestimates renal function in low-muscle-mass patients, so consider cystatin C.
 ] <spec:metformin-netosis>
 
 == Microclot and NET Structural Interventions

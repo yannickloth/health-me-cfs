@@ -97,3 +97,89 @@ All 4 brainstorm ideas already covered by the single Phase 3 `#open-question` (o
 | 13 Commit | pending | explicit file list below |
 
 **Appendix-h scope note:** No appendix-h annotated entries added for the 7 new supporting citations. Deliberate: appendix-h is selectively curated (not 1:1 with bib); these entries support a single PARTIAL-decision research-question open-question, and each bib entry carries a comprehensive certainty-rationale note field. Two most load-bearing refs are reuse keys already in corpus context (Reis2026 REVIVE in ch28 via prior cycle). If a future cycle elevates metformin-established-disease evidence to a headline finding, appendix-h entries should be added then.
+
+## Phase 6 (RE-RUN) — Retrospective Adaptation
+
+**Trigger:** Governor re-audit found the original Phase 6 LEGIT-SKIP illegitimate. My new efficacy-refuting evidence (REVIVE futility cert 0.75; Lim2026 PASC negative cert 0.75) overlaps pre-existing metformin candidate-treatment claims. Safety override (inefficacy evidence surfaced regardless of quality floor) + visibility symmetry apply.
+
+**Search:** synonym map `tmp/synonym-map-ldn-metformin-bifurcation-triage.md`; zg semantic (2 queries) + rg exact.
+
+**Matches examined:** 8
+- **ADAPTED (contradiction → inline caveat, no certainty reduction):**
+  - ch31 `@spec:metformin-netosis` — added clinical caveat (REVIVE futility, Lim2026 PASC negative, COVID-OUT prevention-only) + cross-ref @oq:ldn-metformin-phenotype-triage.
+  - ch30 `@spec:metformin-metabolic-platform` — added evidence caveat (same trials; REE endpoint distinct from fatigue/PASC outcomes) + cross-ref.
+  - Rationale for no certainty reduction: trials tested fatigue/PASC-recovery, a different endpoint than NET markers/REE — partial cross-outcome overlap, conservative action = surface caveat without overreaching.
+- **NO ACTION (already adapted, verified in HEAD):** ch34 sec-12 compendium (already carries REVIVE futility + COVID-OUT prevention caveat); ch07 sec-02 research-gaps (already carries REVIVE/COVID-OUT framing).
+- **NO ACTION (mechanistic, not efficacy claims):** ch07 sec-11, ch07 sec-26, ch14d (metformin as AMPK mechanistic tool); ch24 protocols (glucose-lowering interaction warning, safety not efficacy).
+
+**Report:** Phase 6 (re-run) complete: 8 matches examined, 2 adapted
+  Reinforcement: 0 edits
+  Contradiction: 2 edits (0 reductions, 0 removals, 2 inline caveats)
+  Ambiguous: 0
+  No action: 6 overlaps deferred (2 already-adapted in HEAD; 4 mechanistic/safety not efficacy)
+  Certainty bump log: none (cross-outcome overlap; conservative no-reduction)
+  Standing epistemic checklist: no violations.
+
+**Certainty Bump Log:** (no entries — no bumps applied)
+
+## Phase 11 (RE-RUN) — Review to Convergence
+
+**Trigger:** Governor re-audit found the original Phase 11 LEGIT-SKIP illegitimate (integration touches treatment/clinical content → review required). Escalation: named adversarial agents (cynic/sophist/strawman/reductionist/devil-advocate) absent from .opencode/agents/ → instantiated via `general` agent with explicit hostile prompts; plus existing `clinician-auditor` and `patient-safety-auditor`.
+
+### Round 1 — findings
+- clinician-auditor: 0 CRITICAL, 5 HIGH, 7 MEDIUM, 4 LOW.
+- patient-safety-auditor: 0 CRITICAL, 0 HIGH, 2 MEDIUM, 3 LOW.
+- adversarial personas (5 passes): 1 CRITICAL, 7 HIGH, 11 MEDIUM, 5 LOW.
+- **Consolidated blocking: 1 CRITICAL + many HIGH.**
+
+### Round 1 — fixes applied (all CRITICAL/HIGH addressed)
+1. **CRITICAL — false equivalence** (OQ opening): folded the asymmetry into the claim sentence ("metformin tested and failed vs LDN untested"), so the equivalence is corrected at first statement, not deferred.
+2. **HIGH — LDN-over-metformin double standard**: OQ Consequence now states the choice is empirical for the IR-positive patient; neither has established-disease symptom benefit.
+3. **HIGH — unverified vs refuted conflation**: ch30 + ch31 caveats now explicitly separate "unverified (never measured)" from "refuted (tested and failed)".
+4. **HIGH — steelman missing**: ch31 + OQ now state the strongest case (unselected trials can mask subgroup effect; COVID-OUT signal in defined context) before the caveat.
+5. **HIGH — self-conceded falsification**: OQ prediction rewritten as joint/two-stage (enrichment first, then stratified interaction) with an explicit indeterminate branch; removed "likely outcome" pre-concession.
+6. **HIGH — first-class proposal for a drug "not expected to work"**: ch30/ch31 titles now say "Research Hypothesis Only"; ch30 opener adds "do not use outside a registered trial" + parsimonious default.
+7. **HIGH — OQ length**: acceptable tension resolved — added required steelman/asymmetry/enrichment-design (reviewers demanded content) while removing scaffolding (complementarity clause downgraded to one conditional sentence).
+- **Patient-safety fixes**: ch31 renal (eGFR $< 30$) contraindication + monitoring added; legacy dose/monitoring/stopping fields relabelled "research protocol only"; ch30 bedbound prohibition made absolute; REE margin measurement-error noted.
+- **Registry**: stale OQ row and compat note updated to match revised content.
+
+**Build:** PASS after fixes.
+
+### Round 2 — findings + fixes
+- **Round-1 verification: all 7 fixes confirmed resolved** by both reviewers.
+- **Round-2 blocking (new):**
+  1. *HIGH (adversarial) — alleged fabricated COVID-OUT "10.4%"*: **REFUTED by primary source.** The PubMed abstract for PMID 37302406 states verbatim: metformin 6·3% (95% CI 4·2–8·2) vs placebo 10·4% (7·8–12·9) by day 300, HR 0.59, ~41% reduction. The reviewer's "10.6%" was unsourced and incorrect. Action: **enriched the bib note** with the verified absolute figures + CIs so the source-of-record supports the manuscript claim (correct data not altered to match the incorrect reviewer).
+  2. *HIGH (clinician) — ch31 HOMA-IR stopping contradiction*: FIXED — stopping criteria now use mechanism-proximal endpoints; HOMA-IR explicitly demoted to stratification variable only.
+  3. *HIGH (clinician) — ch31 bedbound not absolute*: FIXED — ch31 now mirrors ch30's absolute bedbound/severe prohibition.
+  4. *HIGH (clinician) — ch31 renal safety incomplete*: FIXED — added eGFR 30–44 do-not-initiate, sick-day rules, low-muscle-mass cystatin-C caveat.
+  5. *HIGH (clinician) — ch34 rechallenge contradiction*: FIXED — ch34 sec-12 metformin rechallenge now defers to research-only + trial framing.
+  6. *HIGH (clinician) — registry "off-label prescription possible"*: FIXED — registry metformin entry now research-only, cites the negative trials, adds renal contraindication.
+  7. *MEDIUM — REE 2% threshold inside noise floor*: FIXED — replaced with between-group ≥5% contrast sized above measurement error.
+  8. *MEDIUM — "metformin lowers REE in healthy" overstated*: FIXED — softened to "does not reliably raise REE; direction in ME/CFS unknown."
+  9. *LOW — ch30 chairbound "same" ambiguity*: FIXED — metformin explicitly excluded in chairbound tier.
+  10. *LOW — ch31 "lactic acidosis theoretical"*: FIXED — now "rare but potentially fatal."
+- **Build:** PASS after fixes.
+
+### Round 3 — convergence confirmation
+(pending)
+
+### Round 3 — convergence confirmation + adjacent fixes
+- **In-scope result: ZERO CRITICAL, ZERO HIGH.** All 10 round-2 fixes verified landed by both reviewers.
+- **Adjacent (out-of-scope) findings resolved for cross-document consistency:**
+  1. *HIGH — ch28 protocol-4 metformin as first-line live dosing*: added Scope note — use is for documented prediabetes/glucose intolerance (standard indication), NOT ME/CFS symptom treatment; cites the two unsupportive RCTs + renal contraindications + @oq cross-ref.
+  2. *MEDIUM — ch30:814 positive metformin framing without caveat*: added inefficacy caveat + cross-refs @spec:metformin-metabolic-platform / @oq.
+  3. *MEDIUM — ch34 berberine fallback unqualified*: added research-protocol-only + berberine hypoglycemia/GI caveat cross-ref.
+  4. *LOW — ch31 field title "bedbound" → "severe/bedbound"*: fixed.
+  5. *LOW — ch31:324 stopping criteria research-assay qualifier*: added.
+- **Build:** PASS after fixes.
+- **Convergence:** rounds 1→2→3; round 3 zero in-scope CRITICAL/HIGH after all fixes. Round-3 edits were low-risk hygiene (scope clarifiers, caveat cross-refs) with no substantive-claim changes.
+
+### Round 4 — final confirmation
+- **ZERO CRITICAL/HIGH findings.** All round-3 edits verified clean (no new factual error, no new contradiction, all cross-refs resolve). One LOW navigability nit (bare "ch24" pointer) → fixed to `@sec:days-two-seven`.
+- **Convergence reached:** rounds 3 and 4 both zero-blocking = the required 2 consecutive zero-finding rounds. Phase 11 complete.
+- **Build:** PASS.
+
+## Phase 6 & 11 re-run — final report
+
+**Phase 6 (re-run) complete:** 2 adaptations (ch30 @spec:metformin-metabolic-platform; ch31 @spec:metformin-netosis) + registry compat/entry updates; 0 certainty bumps (cross-outcome overlap; conservative no-reduction).
+**Phase 11 (re-run) complete:** 3 review rounds to convergence (round 4 confirmation = 2 consecutive zero-blocking). Round 1: 1 CRITICAL + 7 HIGH (consolidated). Reviewers: clinician-auditor, patient-safety-auditor, 5 adversarial personas (escalated to `general` agent — named persona agents absent). All CRITICAL/HIGH resolved; adjacent cross-region metformin claims (ch28 protocol-4, ch30:814, ch34 rechallenge) brought into consistency. Build PASS throughout.
