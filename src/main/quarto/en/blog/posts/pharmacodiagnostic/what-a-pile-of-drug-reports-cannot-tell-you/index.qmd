@@ -1,0 +1,57 @@
+---
+title: "What a Pile of Drug Reports Can and Cannot Tell You"
+description: "A pooled corpus of patient drug reports can rank which pathways are worth testing. It cannot prove which one is causal. Placebo, prescribing habits, who volunteers to report, and community enthusiasm all contaminate the signal — and if the signal tracks online discussion rather than pharmacology, the whole proposal should be abandoned. Here is the honest boundary."
+author: "Yannick Loth"
+date: "2026-09-03"
+categories: [ME/CFS, Treatment, Methods, Evidence]
+lang: en
+---
+
+The first two articles in this series argued that pooled patient drug reports could rank which biological pathways are rate-limiting in ME/CFS, and described the design that would make the pooling possible. This article is the part that earns the rest its credibility. A proposal that cannot state its own limits is not a scientific proposal; it is a sales pitch. Here are the limits, stated plainly.
+
+## It ranks hypotheses. It does not confirm them.
+
+The single most important sentence about the corpus is this: it is a **hypothesis-generation instrument**. It tells you which pathways are worth testing next. It does not tell you which pathway is the cause.
+
+The reason is structural. Pooled reports show associations. They do not show causation — the pharmacovigilance systems that mine spontaneous drug reports for safety signals are built on exactly this kind of data, and they rank associations well without ever establishing that the drug caused the event [@vanPuijenbroek2002Disproportionality; @Cutroneo2023Disproportionality]. A corpus of ME/CFS drug reports is the inverse of a safety database — it looks for benefit rather than harm — but it inherits the same inferential ceiling. It can say "this pathway keeps showing up." It cannot say "this pathway is the disease."
+
+That distinction is not academic. The paper's own history contains a treatment, rituximab, whose open-label response rates were dramatic and whose controlled trial showed the placebo group doing better. An uncontrolled signal is not a small version of a controlled result. It is a different kind of thing entirely.
+
+## Four things that contaminate the signal
+
+**Placebo and expectation.** Open-label placebo — a pill given with full disclosure that it is inert — reliably moves subjective symptoms across conditions [@FlavioReis2025OpenLabelPlacebo]. In an unblinded corpus, every subjective improvement is partly expectation, and the corpus's job is to subtract that as best it can. It cannot eliminate it.
+
+**Who gets prescribed what (confounding by indication).** Patients do not try drugs at random. A clinician prescribes based on symptoms, severity, prior response, and what is available; patients choose supplements based on community fashion. The people who try drug A differ systematically from those who try drug B. A response difference between A and B can reflect *who received them* rather than what the drugs do [@Zong2022EHRrepurposing; @Shahn2022AntihypertensiveRepurposing]. This is a well-known hazard in observational drug research, and it is worse in ME/CFS because there is no validated stratification — so prescribing is symptom-driven and inconsistent.
+
+**Who volunteers to report (self-selection).** Corpus contributors are, by construction, the patients well enough to participate: online, English-speaking, mild-to-moderate, and resourced enough to have tried many treatments. The severe, long-duration patients whose drug responses would be most informative are the least likely to fill in a survey. This is not random missing data. It correlates with the biology the corpus is trying to rank — so the ranking may describe the respondents, not the disease.
+
+**Unblinded self-report.** The outcome is a patient's or clinician's judgment of change, with no blinding and no standard instrument. That is precisely the class of measurement expectation moves most. Without a common validated measure, the corpus pools incommensurable judgments, and the result mostly reflects how optimistically people report.
+
+## The failure mode that would kill it
+
+There is a worse possibility than any of the four above, and it deserves its own heading.
+
+A corpus recruited from a patient community is not a neutral sensor. It inherits that community's shared beliefs — and those beliefs drive both which drugs are tried and how they are described. The paper's own analysis of patient communities documents how social reinforcement, group polarisation, and the absence of formal error-correction can let a plausible but wrong treatment take hold, producing a community consensus that controlled evidence would not support. A consistent responder pattern across hundreds of patients is *exactly* what a socially amplified false signal also produces. Consistency is not self-validation.
+
+So the corpus has one governing test, and it must be able to fail it. If, after adjusting for severity, drug availability, and the corpus's own placebo floor, the residual ranking is explained at least as well by how much each drug is discussed online as by its dose and molecular target — then the corpus is measuring the community, not the disease. In that case the proposal is **abandoned**, not refined. Not "collect more data." Not "design a better survey." Abandoned.
+
+There is a second abandonment condition: if the number of distinct drugs needed to tell the competing hypotheses apart is larger than any realistic number of patients will ever try, then no amount of reporting can rank mechanisms, and the proposal is dead on arrival. Whether the accessible drug set is degenerate in this way is an open, testable question — and the honest answer today is that nobody knows.
+
+## What the corpus can honestly claim
+
+If it survives those tests, the corpus can do something genuinely useful in a disease with no validated biomarker:
+
+- **Rank candidate pathways** for the next round of mechanistic research.
+- **Identify responder subgroups** — the finding that a treatment splits the population is itself diagnostic, and may explain why so many group-level ME/CFS trials return null.
+- **Nominate drugs for rigorous blinded trials**, using the corpus as its own prioritisation engine: a nested randomised sub-study tests the top few corpus-nominated drugs against placebo, which is where causal claims actually get made.
+- **Stratify future trials**, by turning a patient's own response fingerprint into an enrichment variable.
+
+What it cannot do is substitute for the blinded trial. The corpus's role is to decide *what deserves* that trial — not to replace it.
+
+## Why the warning is part of the proposal
+
+This series describes a research instrument that does not yet exist. It is not a treatment-selection tool, and no one should start, stop, or change a medication because a pooled community ranking suggested it. That warning is not a formality appended to protect the author. It is a load-bearing claim: the whole value of the corpus depends on its being read as a hypothesis generator, and the whole danger of it lies in its being read as anything else. A community instrument mistaken for clinical guidance would cause exactly the harm the paper documents elsewhere for over-interpreted evidence.
+
+The idea is worth pursuing because the alternative — no map at all, in a disease that has none — is worse. But a map is not a territory, and a hypothesis is not a diagnosis.
+
+*This closes the series. Start from [the landing page](../index.qmd), or read the technical version in the primary document's *Medication Response Reference* chapter ([Loth 2026](https://yannickloth.github.io/health-me-cfs/)). The observational-inference cautions follow [@vanPuijenbroek2002Disproportionality; @Cutroneo2023Disproportionality; @Zong2022EHRrepurposing; @Shahn2022AntihypertensiveRepurposing]; the expectation caveat follows [@FlavioReis2025OpenLabelPlacebo].*

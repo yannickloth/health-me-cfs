@@ -1,0 +1,57 @@
+---
+title: "Ce qu'un tas d'observations médicamenteuses peut et ne peut pas vous dire"
+description: "Un corpus agrégé d'observations de patients peut classer quelles voies valent la peine d'être testées. Il ne peut pas prouver laquelle est causale. Le placebo, les habitudes de prescription, qui accepte de témoigner et l'enthousiasme communautaire contaminent tous le signal — et si le signal suit les discussions en ligne plutôt que la pharmacologie, toute la proposition doit être abandonnée. Voici la frontière honnête."
+author: "Yannick Loth"
+date: "2026-09-03"
+categories: [EM/SFC, Traitement, Méthodes, Preuves]
+lang: fr
+---
+
+Les deux premiers articles de cette série ont soutenu que des observations médicamenteuses agrégées pourraient classer les voies biologiques limitantes de l'EM/SFC, et décrit la conception qui rendrait le regroupement possible. Cet article est la partie qui mérite sa crédibilité au reste. Une proposition qui ne peut énoncer ses propres limites n'est pas une proposition scientifique ; c'est un argumentaire de vente. Voici les limites, énoncées clairement.
+
+## Il classe des hypothèses. Il ne les confirme pas.
+
+La phrase la plus importante sur le corpus est celle-ci : c'est un **instrument de génération d'hypothèses**. Il dit quelles voies valent la peine d'être testées ensuite. Il ne dit pas quelle voie est la cause.
+
+La raison est structurelle. Les observations agrégées montrent des associations. Elles ne montrent pas la causalité — les systèmes de pharmacovigilance qui explorent les rapports spontanés pour des signaux de sécurité reposent exactement sur ce type de données, et ils classent bien les associations sans jamais établir que le médicament a causé l'événement [@vanPuijenbroek2002Disproportionality; @Cutroneo2023Disproportionality]. Un corpus d'observations EM/SFC est l'inverse d'une base de sécurité — il cherche un bénéfice plutôt qu'un tort — mais il hérite du même plafond inférentiel. Il peut dire « cette voie revient sans cesse ». Il ne peut pas dire « cette voie est la maladie ».
+
+Cette distinction n'est pas académique. L'histoire du document elle-même contient un traitement, le rituximab, dont les taux de réponse ouverts étaient spectaculaires et dont l'essai contrôlé a montré le groupe placebo faisant mieux. Un signal non contrôlé n'est pas une petite version d'un résultat contrôlé. C'est une chose d'un genre entièrement différent.
+
+## Quatre choses qui contaminent le signal
+
+**Placebo et attente.** Le placebo en ouvert — une pilule donnée avec la pleine divulgation qu'elle est inerte — déplace de façon fiable les symptômes subjectifs dans plusieurs pathologies [@FlavioReis2025OpenLabelPlacebo]. Dans un corpus non aveugle, chaque amélioration subjective est en partie de l'attente, et le travail du corpus est de la soustraire au mieux. Il ne peut pas l'éliminer.
+
+**Qui se fait prescrire quoi (confusion par indication).** Les patients n'essayent pas les médicaments au hasard. Un clinicien prescrit selon les symptômes, la sévérité, la réponse antérieure et ce qui est disponible ; les patients choisissent les compléments selon la mode communautaire. Les personnes qui essaient le médicament A diffèrent systématiquement de celles qui essaient le B. Une différence de réponse entre A et B peut refléter *qui les a reçus* plutôt que ce que font les médicaments [@Zong2022EHRrepurposing; @Shahn2022AntihypertensiveRepurposing]. C'est un danger bien connu de la recherche observationnelle sur les médicaments, et il est pire dans l'EM/SFC car il n'y a pas de stratification validée — la prescription est donc guidée par les symptômes et incohérente.
+
+**Qui accepte de témoigner (auto-sélection).** Les contributeurs du corpus sont, par construction, les patients assez bien pour participer : en ligne, anglophones, légers à modérés, et assez aisés pour avoir essayé beaucoup de traitements. Les patients sévères et de longue durée, dont les réponses seraient les plus informatives, sont les moins susceptibles de remplir une enquête. Ce n'est pas une donnée manquante aléatoire. Elle corrèle avec la biologie que le corpus cherche à classer — le classement peut donc décrire les répondants, pas la maladie.
+
+**Auto-évaluation sans aveugle.** Le résultat est le jugement d'un patient ou d'un clinicien sur le changement, sans aveugle ni instrument standard. C'est précisément la classe de mesure que l'attente déplace le plus. Sans mesure validée commune, le corpus regroupe des jugements incommensurables, et le résultat reflète surtout l'optimisme du rapport.
+
+## Le mode de défaillance qui le tuerait
+
+Il existe une possibilité pire que les quatre ci-dessus, et elle mérite son propre titre.
+
+Un corpus recruté dans une communauté de patients n'est pas un capteur neutre. Il hérite des croyances partagées de cette communauté — et ces croyances déterminent à la fois les médicaments essayés et la façon dont ils sont décrits. L'analyse des communautés de patients par le document lui-même décrit comment le renforcement social, la polarisation de groupe et l'absence de correction formelle des erreurs peuvent laisser un traitement plausible mais faux s'installer, produisant un consensus communautaire que des preuves contrôlées ne soutiendraient pas. Un motif de réponse cohérent chez des centaines de patients est *exactement* ce que produit aussi un faux signal socialement amplifié. La cohérence n'est pas une auto-validation.
+
+Le corpus a donc un test gouvernant, et il doit pouvoir y échouer. Si, après ajustement pour la sévérité, la disponibilité des médicaments et le plancher placebo du corpus, le classement résiduel est expliqué au moins aussi bien par le volume de discussions en ligne de chaque médicament que par sa dose et sa cible moléculaire — alors le corpus mesure la communauté, pas la maladie. Dans ce cas, la proposition est **abandonnée**, pas raffinée. Pas « recueillir plus de données ». Pas « concevoir une meilleure enquête ». Abandonnée.
+
+Il existe une seconde condition d'abandon : si le nombre de médicaments distincts nécessaires pour départager les hypothèses concurrentes dépasse tout nombre réaliste de patients qui les essaieront jamais, alors aucun volume d'observations ne peut classer les mécanismes, et la proposition est morte à l'arrivée. Savoir si l'ensemble accessible de médicaments est dégénéré de cette façon est une question ouverte et testable — et la réponse honnête aujourd'hui est que personne ne le sait.
+
+## Ce que le corpus peut honnêtement revendiquer
+
+S'il survit à ces tests, le corpus peut faire quelque chose de réellement utile dans une maladie sans biomarqueur validé :
+
+- **Classer les voies candidates** pour la prochaine vague de recherche mécanistique.
+- **Identifier des sous-groupes répondeurs** — la découverte qu'un traitement scinde la population est en soi diagnostique, et peut expliquer pourquoi tant d'essais EM/SFC au niveau du groupe reviennent nuls.
+- **Nommer des médicaments pour des essais rigoureux en aveugle**, en utilisant le corpus comme son propre moteur de priorisation : une sous-étude randomisée imbriquée teste contre placebo les quelques médicaments nommés par le corpus, là où les affirmations causales se font réellement.
+- **Stratifier les futurs essais**, en transformant l'empreinte de réponse d'un patient en variable d'enrichissement.
+
+Ce qu'il ne peut pas faire, c'est remplacer l'essai en aveugle. Le rôle du corpus est de décider *ce qui mérite* cet essai — pas de le remplacer.
+
+## Pourquoi l'avertissement fait partie de la proposition
+
+Cette série décrit un instrument de recherche qui n'existe pas encore. Ce n'est pas un outil de sélection de traitement, et personne ne doit commencer, arrêter ou modifier un traitement parce qu'un classement communautaire agrégé l'a suggéré. Cet avertissement n'est pas une formalité ajoutée pour protéger l'auteur. C'est une affirmation porteuse : toute la valeur du corpus dépend de sa lecture comme générateur d'hypothèses, et tout son danger réside dans sa lecture comme autre chose. Un instrument communautaire pris pour une orientation clinique causerait exactement le tort que le document décrit ailleurs pour les preuves surinterprétées.
+
+L'idée vaut la peine d'être poursuivie parce que l'alternative — aucune carte du tout, dans une maladie qui n'en a aucune — est pire. Mais une carte n'est pas un territoire, et une hypothèse n'est pas un diagnostic.
+
+*Ceci clôt la série. Commencez par [la page d'accueil](../index.qmd), ou lisez la version technique dans le chapitre *Medication Response Reference* du document principal ([Loth 2026](https://yannickloth.github.io/health-me-cfs/)). Les mises en garde sur l'inférence observationnelle suivent [@vanPuijenbroek2002Disproportionality; @Cutroneo2023Disproportionality; @Zong2022EHRrepurposing; @Shahn2022AntihypertensiveRepurposing] ; la mise en garde sur l'attente suit [@FlavioReis2025OpenLabelPlacebo].*

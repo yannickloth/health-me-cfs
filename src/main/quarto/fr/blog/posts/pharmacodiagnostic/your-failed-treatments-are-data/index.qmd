@@ -1,0 +1,50 @@
+---
+title: "Vos traitements échoués sont des données"
+description: "Chaque médicament que vous essayez est une sonde d'un nœud biologique. Un essai qui marche vous dit que le nœud était actif ; un essai qui échoue dans sa fenêtre de dose vous dit qu'il n'était pas le goulot. Regroupées entre patients, ces sondes deviennent une carte. Et le point contre-intuitif : les échecs peuvent valoir plus que les succès."
+author: "Yannick Loth"
+date: "2026-09-11"
+categories: [EM/SFC, Traitement, Méthodes, Pharmacologie]
+lang: fr
+---
+
+Vous avez essayé des choses. Toute personne atteinte d'EM/SFC l'a fait. Une faible dose de naltrexone qui a aidé le brouillard pendant deux mois, puis a cessé. Un stimulant qui a rendu les matins possibles et les après-midis pires. Des antihistaminiques qui ont corrigé un symptôme dont vous ignoriez qu'il était lié aux mastocytes. Une série de compléments dont au plus un a servi. Un médicament suggéré par un spécialiste qui n'a rien fait.
+
+La lecture habituelle de cet historique est : *certaines choses ont marché, la plupart non, et c'est ainsi.* Cet article soutient autre chose. Chacun de ces essais était une petite expérience sur un nœud biologique — et les résultats, lus ensemble, ne sont pas du bruit. Ce sont des preuves.
+
+## Un essai médicamenteux est une contrainte, pas une histoire
+
+Le document principal développe cette idée sous le nom de **pharmacodiagnostic** : utiliser une réponse médicamenteuse pour déduire quel mécanisme est actif, et pas seulement si le médicament vaut la peine d'être poursuivi. La logique est simple.
+
+Chaque médicament de la boîte à outils de l'EM/SFC agit sur une cible précise. Le naltrexone à faible dose engage le TLR4 et la voie Nrf2, les canaux TRPM3 et les neurones à orexine — chacun à une dose différente. L'aripiprazole à faible dose agit comme agoniste partiel des récepteurs dopaminergiques D2/D3 de la microglie. La cétotifène stabilise les mastocytes. Le CoQ10 soutient la chaîne respiratoire mitochondriale. Aucun n'est un « traitement de l'EM/SFC » en général. Chacun est une sonde d'un nœud.
+
+Quand une sonde marche, elle vous dit quelque chose : ce nœud était actif, et il comptait assez pour que le corriger change vos symptômes. Quand une sonde échoue *dans sa fenêtre de dose adéquate*, elle dit le contraire : ce nœud n'était pas ce qui vous limitait. Le résultat nul est une information [(un point que la série dose-réponse développe pour un patient à la fois)](../../treatment/dose-is-diagnostic-ldn/index.qmd).
+
+Ce n'est pas une spéculation sur une technologie future. C'est ainsi qu'un clinicien raisonne déjà, de façon informelle, quand il dit : « Nous avons essayé un antihistaminique sans résultat, regardons donc le versant autonome. » L'article rend simplement la logique explicite et systématique.
+
+## C'est le regroupement qui fait le signal
+
+Voici où l'idée dépasse la simple manière de penser. L'historique médicamenteux d'un patient, c'est une poignée de contraintes. Les historiques de centaines de patients, regroupés, deviennent quelque chose qu'aucun essai isolé ne peut être : une image, à l'échelle de la population, des nœuds qui valent constamment la peine d'être sondés et de ceux qui sont constamment des impasses.
+
+Ce n'est pas vague. Regrouper des essais mono-patients en une estimation de groupe est une méthode statistique établie — utilisée dans le TDAH pédiatrique, en physiothérapie, dans l'hypertension — et des modèles multi-niveaux peuvent combiner de nombreuses expériences mono-patients tout en gérant les complications (tendance, effets reportés, autocorrélation) qui rendent la moyenne naïve trompeuse [@Punja2016Nof1Aggregation; @Schmid2022BayesianNof1; @Zucker2010]. La méthode existe. Ce qui n'existe pas, c'est un corpus d'observations médicamenteuses EM/SFC recueillies sous une forme utilisable.
+
+La statistique est la partie la moins intéressante. La partie intéressante est ce que le motif agrégé pourrait montrer qu'aucun laboratoire ne montre aujourd'hui : une liste classée des voies réellement limitantes dans cette maladie — tirée non pas de la théorie mais de la réponse collective des personnes qui l'ont.
+
+## Le point contre-intuitif : les échecs sont peut-être les meilleures données
+
+Tout le monde suppose que les précieuses observations sont les succès. *Ça m'a aidé.* Mais les deux types d'observation ne sont pas symétriquement fiables.
+
+Les observations positives sont gonflées. Quiconque essaie un traitement en lequel il croit peut s'améliorer pour des raisons sans rapport avec le mécanisme du médicament — l'attente modifie de vrais symptômes, surtout subjectifs comme la douleur et la fatigue, même quand un placebo est donné ouvertement et en toute connaissance de cause [@FlavioReis2025OpenLabelPlacebo; @KleineBorgmann2025OpenLabelPlacebos]. Les communautés se renforcent mutuellement : un traitement plausible est essayé avec enthousiasme, les premières bonnes expériences sont rapportées, et un consensus se forme qui peut ne pas survivre à un test contrôlé. L'essai PACE est l'exemple permanent de ce qui arrive quand la réputation d'un traitement dépasse ses preuves.
+
+Les essais échoués sont moins faciles à gonfler. Un patient ne peut pas s'attendre lui-même à *aucun* effet. Une observation nulle est plus difficile à fabriquer qu'une positive, et elle est systématiquement absente de la littérature publiée — les résultats négatifs sont les moins écrits et les plus vite oubliés. Ainsi, les observations qu'un corpus *sollicitant activement les échecs* capterait sont précisément celles que la littérature jette. Dans une maladie où la plupart des traitements ne marchent pas pour la plupart des gens, cette strate manquante est peut-être la plus informative.
+
+C'est une hypothèse, pas un fait. Elle a un test — si les observations nulles se répliquent mieux entre groupes indépendants que les positives, l'asymétrie est réelle — et une mise en garde que cette série ne laissera pas tomber : les résultats nuls ne sont pas magiquement protégés non plus. Un essai qui coïncide avec une amélioration spontanée peut enregistrer un bénéfice qui n'a jamais été celui du médicament, et la régression vers la moyenne tire les symptômes extrêmes vers le milieu, ce qui peut fabriquer un résultat nul. Savoir si les échecs sont *net* plus fiables est une question à mesurer, pas à supposer.
+
+## Pourquoi cela compte
+
+Si l'idée tient, elle change le statut de quelque chose que vous avez déjà. Votre historique médicamenteux — chaque essai, chaque dose titrée, chaque médicament abandonné parce qu'il n'a rien fait — n'est pas une note médicale privée. C'est une contribution au seul type de preuve qu'une maladie sans biomarqueur peut actuellement produire.
+
+Le hic : presque rien n'est consigné sous une forme regroupable. C'est le sujet du prochain article.
+
+*Suivant : [Le corpus qui lit votre armoire à pharmacie](../the-corpus-that-reads-your-medicine-cabinet/index.qmd) — ce qu'une observation doit contenir, et pourquoi « le LDN m'a aidé » ne se regroupe pas.*
+
+*Cet article s'appuie sur le cadre pharmacodiagnostique et la section du corpus populationnel de [Loth 2026](https://yannickloth.github.io/health-me-cfs/). La regroupabilité des essais mono-patients repose sur [@Punja2016Nof1Aggregation; @Schmid2022BayesianNof1; @Zucker2010] ; la mise en garde sur l'inflation par l'attente sur [@FlavioReis2025OpenLabelPlacebo; @KleineBorgmann2025OpenLabelPlacebos].*

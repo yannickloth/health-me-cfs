@@ -1,0 +1,56 @@
+---
+title: "Le corpus qui lit votre armoire à pharmacie"
+description: "Une observation médicamenteuse regroupable n'est pas un pouce en l'air ou en bas. Elle doit enregistrer la dose, la bande de dose, la durée, quel symptôme a changé, quels effets secondaires sont apparus et pourquoi vous avez arrêté. Voici la conception minimale qui permettrait à des centaines d'essais mono-patients non coordonnés de devenir une carte populationnelle des voies défaillantes."
+author: "Yannick Loth"
+date: "2026-09-04"
+categories: [EM/SFC, Traitement, Méthodes, Pharmacologie]
+lang: fr
+---
+
+Il existe déjà une enquête en ligne qui demande à des milliers de patients EM/SFC et COVID long quels traitements les ont aidés. Elle rapporte plus de 150 traitements classés par bénéfice perçu [@Eckey2025PatientReported]. C'est un travail réel et utile. Il ne peut pas non plus vous dire quelle voie biologique est cassée, parce qu'il demande si un traitement a aidé — pas à quelle dose, pendant combien de temps, ni par quel mécanisme il a agi.
+
+La différence entre un classement de popularité et un classement mécanistique tient presque entièrement à ce que contient l'observation. Cet article porte sur cette différence.
+
+## Pourquoi « le LDN m'a aidé » ne se regroupe pas
+
+Le résultat central du travail dose-réponse du document principal est qu'en EM/SFC, *où* sur l'échelle de dose un médicament agit est l'information elle-même. Le naltrexone à faible dose aide certains patients à 0,5–1,5 mg et cesse d'aider au-dessus de 3 mg, parce que son mécanisme dominant aux faibles doses — un blocage partiel du TLR4 qui déclenche le programme anti-inflammatoire Nrf2 de la cellule — s'éteint quand le blocage devient trop complet. Un patient dont le bénéfice disparaît à 3 mg vous a dit quelque chose sur sa biologie. Un patient qui rapporte seulement « le LDN a aidé » ne l'a pas fait.
+
+C'est pourquoi le corpus a besoin de la dose. Une observation « le LDN n'a pas aidé » n'est pas regroupable, car elle ne distingue pas un patient qui a échoué à une dose où le médicament pouvait agir d'un patient qui a échoué au sommet d'une plage, où le mécanisme n'a jamais été engagé. La série dose-réponse fait ce point pour la titration d'un seul patient ; à l'échelle de la population, le même principe décide si le corpus entier est utile ou inerte.
+
+L'ensemble minimal de champs, et pourquoi chacun mérite sa place :
+
+- **Médicament** — l'intervention elle-même.
+- **Dose et bande de dose** — la variable porteuse. Un résultat nul dans une fenêtre testée est une information ; un résultat nul au plafond n'en est pas une.
+- **Durée** — car un bénéfice qui apparaît à trois semaines et décline à trois mois est une découverte différente de celle qui n'apparaît jamais. Un essai adéquat doit avoir duré assez longtemps pour montrer son effet.
+- **Domaine de réponse** — *quel* symptôme a changé. Un médicament qui corrige le brouillard mental tout en laissant la douleur intacte vous dit que ces deux symptômes suivent des voies différentes. Un score unique « mieux/pire » détruit ce signal.
+- **Type d'effet secondaire** — car un effet secondaire est une lecture que la cible a été engagée, indépendamment du fait que la corriger ait aidé. Un patient qui a arrêté un médicament pour un effet secondaire spécifique a tout de même contribué des données mécanistiques.
+- **Raison de l'arrêt** — ce qui se rapproche le plus d'une adjudication en texte libre de ce qui s'est réellement passé.
+- **Volume de discussion communautaire** — un champ inhabituel, et nécessaire, expliqué plus bas.
+
+## Comment des centaines d'essais mono-patients deviennent un seul instrument
+
+Une fois les observations regroupables, elles forment une matrice. Chaque médicament est une ligne ; chaque hypothèse mécanistique — neuroinflammation TLR4, dysfonction des canaux TRPM3, limitation du substrat mitochondrial, activation mastocytaire, signalisation auto-immune, etc. — est une colonne. Chaque cellule demande : si cette hypothèse était le problème limitant du patient, qu'aurait fait ce médicament ?
+
+Une réponse positive laisse debout les hypothèses que le médicament aurait dû adresser. Une réponse nulle, enregistrée dans la fenêtre du médicament, les élimine. Un effet secondaire spécifique identifie un système que le médicament a touché. Le corpus se résout, par contrainte, au petit ensemble d'hypothèses compatibles avec tout ce qui est observé — la même logique que le document principal applique à l'historique médicamenteux d'un seul patient, à l'échelle de la population.
+
+Deux raffinements comptent.
+
+D'abord, le corpus doit chercher des **sous-groupes répondeurs**, pas une moyenne. Une réponse hétérogène à un médicament est en soi diagnostique. Quand un grand essai sur le SDRA a divisé les patients selon un simple marqueur biologique, les deux groupes ont répondu en directions opposées au même médicament — si bien qu'un essai « nul » globalement contenait une scission réelle et révélatrice de mécanisme [@Calfee2018ARDSsubphenotypes]. L'EM/SFC est connue pour être hétérogène de la même manière. Un corpus qui rapporte « le patient moyen s'est un peu amélioré » a jeté sa découverte la plus précieuse ; celui qui rapporte *qui* a répondu a trouvé un sous-type.
+
+Ensuite, le corpus a besoin de son propre **plancher placebo**. Si vous regroupez toutes les observations, vous captez non seulement les effets des médicaments mais l'attente de base de la communauté, la fluctuation naturelle de la maladie et le biais de rappel du regard en arrière. Pour mesurer cette base, il faut inclure des interventions sans mécanisme plausible — les compléments et les modes que les patients essaient et qu'aucune hypothèse ne prédit devoir marcher. Leur réponse regroupée *est* le plancher. Soustrayez-le, et ce qui reste est plus proche d'un signal mécanistique. Sans lui, le corpus ne peut distinguer un faible signal réel d'un fort effet d'attente.
+
+## Le champ de discussion communautaire, et pourquoi il est là
+
+Le septième champ est inconfortable mais essentiel. Si le corpus est recruté dans une communauté, il hérite des croyances de cette communauté — et ces croyances façonnent à la fois les médicaments essayés et la façon dont leurs effets sont rapportés. Un traitement largement discuté accumulera des observations enthousiastes, qu'il marche ou non. Si le corpus ne peut distinguer la pharmacologie d'un médicament de sa popularité, il risque de présenter le consensus antérieur de la communauté à la communauté elle-même comme une preuve indépendante.
+
+Le corpus doit donc enregistrer, par médicament, une mesure de son volume de discussion en ligne ou de prescription dans les cliniques recrutantes. Les voies les mieux classées sont ensuite testées contre elle : le signal suit-il la dose et la cible moléculaire, ou suit-il le volume de discussions sur le médicament ? Si c'est le second cas, la proposition échoue. Ce test n'est pas une note de bas de page. C'est la condition sous laquelle toute l'idée est autorisée à exister.
+
+## Ce que cela demanderait
+
+La matière première existe en grande partie. Les patients ont fait ces essais ; les registres et enquêtes recueillent déjà certains champs ; la machinerie statistique pour regrouper des expériences mono-patients est mûre [@Bourke2020PatientGeneratedData; @Schmid2022BayesianNof1; @Punja2016Nof1Aggregation]. Ce qui manque, c'est un schéma partagé — un accord sur ce qu'une observation doit contenir — et la discipline de recueillir les échecs aussi soigneusement que les succès.
+
+C'est une petite chose à demander, et une grande chose à changer : cela transformerait une archive dispersée d'expérience personnelle en ce qui ressemble le plus, pour une maladie sans biomarqueur, à une carte populationnelle.
+
+*Suivant : [Ce qu'un tas d'observations médicamenteuses peut et ne peut pas vous dire](../what-a-pile-of-drug-reports-cannot-tell-you/index.qmd) — les limites honnêtes, y compris celle qui tuerait l'idée.*
+
+*Cet article s'appuie sur la spécification du corpus pharmacodiagnostique et le schéma de données minimal de [Loth 2026](https://yannickloth.github.io/health-me-cfs/). Le sous-typage par réponse hétérogène suit [@Calfee2018ARDSsubphenotypes] ; le substrat de pratique émergente suit [@Bourke2020PatientGeneratedData].*

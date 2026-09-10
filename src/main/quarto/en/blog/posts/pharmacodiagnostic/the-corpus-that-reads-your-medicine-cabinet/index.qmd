@@ -1,0 +1,56 @@
+---
+title: "The Corpus That Reads Your Medicine Cabinet"
+description: "A poolable drug report is not a thumbs-up or a thumbs-down. It has to record dose, dose band, duration, which symptom changed, what side effects appeared, and why you stopped. Here is the minimum design that would let hundreds of uncoordinated single-patient trials become one population-level map of failing pathways."
+author: "Yannick Loth"
+date: "2026-09-04"
+categories: [ME/CFS, Treatment, Methods, Pharmacology]
+lang: en
+---
+
+An online survey already exists that asks thousands of ME/CFS and long-COVID patients which treatments they felt helped. It reports over 150 treatments ranked by perceived benefit [@Eckey2025PatientReported]. It is a real and useful piece of work. It also cannot tell you which biological pathway is broken, because it asks whether a treatment helped — not at what dose, for how long, or by what mechanism it acted.
+
+The difference between a popularity ranking and a mechanism ranking is almost entirely a matter of what the report contains. This post is about that difference.
+
+## Why "LDN helped me" pools to nothing
+
+The central result of the primary document's dose-response work is that in ME/CFS, *where* on the dose scale a drug works is itself the information. Low-dose naltrexone helps some patients at 0.5–1.5 mg and stops helping above 3 mg, because its dominant mechanism at low doses — a partial blockade of TLR4 that triggers the cell's own anti-inflammatory Nrf2 programme — is switched off when the blockade becomes too complete. A patient whose benefit disappears at 3 mg has told you something about their biology. A patient who reports only "LDN helped" has not.
+
+This is why the corpus needs the dose. A report of "LDN did not help" is not poolable, because it does not distinguish a patient who failed at a dose where the drug could work from a patient who failed at the top of a range, where the mechanism was never engaged. The dose-response series makes this point for one patient's own titration; at population scale the same principle decides whether the entire corpus is useful or inert.
+
+The minimum field set, and why each field earns its place:
+
+- **Drug** — the intervention itself.
+- **Dose and dose band** — the load-bearing variable. A null inside a tested window is information; a null at the ceiling is not.
+- **Duration** — because a benefit that appears at three weeks and declines at three months is a different finding from one that never appears. An adequate trial has to have lasted long enough to show its effect.
+- **Response domain** — *which* symptom changed. A drug that fixes brain fog while leaving pain untouched is telling you those two symptoms run on different pathways. A single "better/worse" score destroys that signal.
+- **Side-effect type** — because a side effect is a readout that the target was engaged, independent of whether correcting it helped. A patient who stopped a drug for a specific side effect has still contributed mechanistic data.
+- **Stop reason** — the closest thing to a free-text adjudication of what actually happened.
+- **Community discussion volume** — an unusual field, and a necessary one, explained below.
+
+## How hundreds of one-patient trials become one instrument
+
+Once reports are poolable, they form a matrix. Each drug is a row; each mechanistic hypothesis — TLR4 neuroinflammation, TRPM3 channel dysfunction, mitochondrial substrate limitation, mast-cell activation, autoimmune signalling, and so on — is a column. Each cell asks: if this hypothesis were the patient's rate-limiting problem, what would this drug have done?
+
+A positive response leaves the hypotheses the drug should have addressed standing. A null response, recorded inside the drug's window, eliminates them. A specific side effect identifies a system the drug touched. The corpus resolves, by constraint, to the small set of hypotheses compatible with everything observed — the same logic the primary document applies to a single patient's drug history, run at population scale.
+
+Two refinements matter.
+
+First, the corpus should look for **responder subgroups**, not an average. Heterogeneous response to a drug is itself diagnostic. When a large ARDS trial split patients by a simple biological marker, the two groups responded in opposite directions to the same drug — so a trial that was "null" overall contained a real, mechanism-revealing split [@Calfee2018ARDSsubphenotypes]. ME/CFS is known to be heterogeneous in the same way. A corpus that reports "the average patient improved a little" has thrown away its most valuable finding; one that reports *who* responded has found a subtype.
+
+Second, the corpus needs its own **placebo floor**. If you pool every report, you capture not only drug effects but the community's baseline expectation, the natural fluctuation of the illness, and the recall bias of looking back. The way to measure that baseline is to include interventions with no plausible mechanism at all — the supplements and fads that patients try and that no hypothesis predicts should work. Their pooled response *is* the floor. Subtract it, and what remains is closer to a mechanism signal. Without it, the corpus cannot tell a weak real signal from a strong expectation effect.
+
+## The community-discussion field, and why it is there
+
+The seventh field is uncomfortable but essential. If the corpus is recruited from a community, it inherits that community's beliefs — and those beliefs shape both which drugs are tried and how their effects are reported. A widely discussed treatment will accumulate enthusiastic reports whether or not it works. If the corpus cannot distinguish a drug's pharmacology from its popularity, it risks presenting the community's prior consensus back to itself as independent evidence.
+
+So the corpus must record, per drug, some measure of how much it is discussed online or prescribed at the recruiting clinics. The top-ranked pathways are then tested against it: does the signal track dose and molecular target, or does it track how much the drug is being talked about? If the latter, the proposal fails. That test is not a footnote. It is the condition under which the whole idea is allowed to exist.
+
+## What this would take
+
+Most of the raw material already exists. Patients have run these trials; registries and surveys already collect some of the fields; the statistical machinery for pooling single-patient experiments is mature [@Bourke2020PatientGeneratedData; @Schmid2022BayesianNof1; @Punja2016Nof1Aggregation]. What is missing is a shared schema — an agreement on what a report must contain — and the discipline to collect failures as carefully as successes.
+
+That is a small thing to ask, and a large thing to change: it would turn a scattered archive of personal experience into the closest thing a biomarker-less disease has to a population-level map.
+
+*Next: [What a Pile of Drug Reports Can and Cannot Tell You](../what-a-pile-of-drug-reports-cannot-tell-you/index.qmd) — the honest limits, including the one that would kill the whole idea.*
+
+*This post draws on the pharmacodiagnostic corpus specification and minimum data schema in [Loth 2026](https://yannickloth.github.io/health-me-cfs/). Heterogeneous-response subtyping follows [@Calfee2018ARDSsubphenotypes]; the emerging-practice substrate follows [@Bourke2020PatientGeneratedData].*

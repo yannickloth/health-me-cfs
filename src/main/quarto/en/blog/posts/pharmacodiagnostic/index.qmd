@@ -1,0 +1,36 @@
+---
+title: "The Pharmacodiagnostic Corpus — a Series"
+description: "ME/CFS has no validated biomarker, so patients infer their own biology from the drugs that help and the drugs that fail. This series asks a sharper question: if those drug reports were collected in a poolable form, could the pooled pattern rank which biological pathways are actually broken? Three articles: the idea, the design, and the honest limits."
+author: "Yannick Loth"
+date: "2026-09-05"
+categories: [ME/CFS, Treatment, Methods, Series]
+lang: en
+---
+
+There is no validated biomarker for ME/CFS. There is no blood test that says which pathway is broken, no scan that shows which mechanism is driving your symptoms. In the absence of one, patients do the only thing available to them: they try things. A low dose of naltrexone here, a stimulant there, an antihistamine, a mitochondrial supplement, a beta-blocker. Some of it helps. Some of it does nothing. Some of it helps for a while and then stops.
+
+Most of this experience is discarded as anecdote. It lives in forum threads, in clinic notes, in half-remembered histories — unstructured, unquantified, mostly reduced to a single bit: *it helped* or *it didn't*. This series argues that this is a waste, and that the waste is avoidable.
+
+The primary document behind this site contains a framework called **pharmacodiagnostics** — reading a drug response as a diagnostic probe rather than only as a treatment. A single patient's drug history is a set of constraints on which mechanisms are active. That framework is already developed for one patient at a time. This series extends it to the population: if hundreds of patients each tried a handful of drugs, and the reports were captured in a form that can be pooled, the pooled set becomes an instrument for ranking which pathways are rate-limiting in ME/CFS.
+
+It is not a biomarker test. It is the closest thing a disease without a biomarker has to one — and it comes with hard limits that this series does not hide.
+
+---
+
+## The articles
+
+1. **[Your Failed Treatments Are Data](./your-failed-treatments-are-data/index.qmd)** — the core idea. A single drug trial is a constraint, not an anecdote. Pooled across patients, the pattern of what works and what fails — at what dose, for how long — becomes a map. And the counter-intuitive part: the *failures* may carry more signal than the successes.
+
+2. **[The Corpus That Reads Your Medicine Cabinet](./the-corpus-that-reads-your-medicine-cabinet/index.qmd)** — the design. What a poolable report actually has to contain, why "LDN helped me" pools to nothing, and how hundreds of uncoordinated single-patient trials become one population-level constraint-satisfaction problem.
+
+3. **[What a Pile of Drug Reports Can and Cannot Tell You](./what-a-pile-of-drug-reports-cannot-tell-you/index.qmd)** — the honest part. The corpus can rank hypotheses. It cannot confirm them. It is confounded by placebo, by who gets prescribed what, by who volunteers to report, and — the failure mode that matters most — by community enthusiasm. If the signal tracks how much a drug is discussed online rather than what it does biologically, the whole proposal should be abandoned.
+
+---
+
+## Where this fits
+
+This series is the population-scale companion to the **[dose-response series](../treatment/more-isnt-better-ldn-lda/index.qmd)** and the **[patient's own medication history](../treatment/dose-is-diagnostic-ldn/index.qmd)**. The dose-response series is about reading one patient's curve. This series is about reading many patients' curves at once.
+
+The mechanism, the aggregation method, and the limits are set out in full in the primary document's *Medication Response Reference* chapter. This series is written to be readable without it.
+
+*Not medical advice. The corpus described here does not exist yet; it is a research proposal. No one should start, stop, or change a treatment on the basis of a pooled community ranking. See article 3 for why that warning is part of the proposal, not a formality.*
