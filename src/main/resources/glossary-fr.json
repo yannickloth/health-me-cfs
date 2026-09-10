@@ -13984,5 +13984,40 @@
     "label": "zoster sine herpete",
     "category": "condition",
     "definition": "Réactivation du virus varicelle-zona provoquant une maladie sans l'éruption cutanée caractéristique du zona (zona « interne ») ; peut se présenter comme une douleur unilatérale sévère ou des symptômes neurovasculaires/systémiques et nécessite une analyse sanguine ou du LCR pour être diagnostiqué."
+  },
+  "pharmacodiagnostic": {
+    "label": "Pharmacodiagnostic",
+    "category": "method",
+    "definition": "Méthode diagnostique qui déduit quel mécanisme biologique est actif à partir de la réponse d'un patient à un médicament — y compris la dose à laquelle il agit, les effets secondaires qu'il produit et ce qu'une réponse nulle permet d'exclure. Le traitement médicamenteux est utilisé comme sonde mécanistique, pas seulement comme traitement."
+  },
+  "n-of-1 trial": {
+    "label": "Essai n-of-1",
+    "category": "method",
+    "definition": "Essai chez un seul patient, où la personne alterne elle-même périodes de traitement et de contrôle. Utilisé pour tester un traitement chez un individu lorsque les essais de groupe sont peu pratiques ; plusieurs essais n-of-1 peuvent être regroupés statistiquement pour estimer un effet moyen."
+  },
+  "open-label placebo": {
+    "label": "Placebo en ouvert",
+    "category": "method",
+    "definition": "Un placebo administré alors que le patient sait qu'il est inerte. Même révélé, il peut produire une amélioration mesurable des symptômes (surtout subjectifs comme la douleur et la fatigue), ce qui rend difficile l'interprétation d'un bénéfice rapporté sans aveugle."
+  },
+  "responder subgroup": {
+    "label": "Sous-groupe répondeur",
+    "category": "method",
+    "definition": "Sous-ensemble de patients qui s'améliorent sous un traitement alors que d'autres non. Lorsqu'un essai est globalement nul mais qu'un sous-groupe répond, le profil de réponse peut indiquer un sous-type biologique distinct — base de la stratification selon la réponse."
+  },
+  "disproportionality analysis": {
+    "label": "Analyse de disproportionalité",
+    "category": "method",
+    "definition": "Méthode statistique de pharmacovigilance pour détecter des signaux à partir de rapports spontanés regroupés (p. ex. rapport de cotes, rapport de proportions). Elle classe les associations médicament-événement sans connaître le nombre de personnes exposées, mais ne peut établir la causalité."
+  },
+  "confounding by indication": {
+    "label": "Confusion par indication",
+    "category": "method",
+    "definition": "Biais des données observationnelles : les patients reçoivent un médicament en raison de leurs symptômes, de sorte que ceux qui prennent le médicament A diffèrent systématiquement de ceux qui prennent le B. Une différence de résultats peut alors refléter qui a reçu le médicament plutôt que le médicament lui-même."
+  },
+  "spectral resolution": {
+    "label": "Résolution spectrale",
+    "category": "method",
+    "definition": "Capacité d'un ensemble de tests de réponse médicamenteuse à distinguer des hypothèses mécanistiques concurrentes. Deux hypothèses sont spectralement indistinguables si chaque médicament disponible prédit la même réponse dans les deux cas — aucune réponse ne peut alors les départager."
   }
 }

@@ -12,4 +12,6 @@ We propose the following adaptive enrichment strategy for ME/CFS trials:
     - *Definitive Phase 2:* Enroll 100–150 patients within enriched subgroup(s), powered to detect treatment effect within that subgroup
 This approach directly addresses the rituximab failure: early interim analysis would have identified autoantibody positivity as a predictor of response, allowing enrichment in phase 2.
 
+A complementary, lower-cost source of enrichment variables is a population pharmacodiagnostic corpus: if patients' prior drug-response histories are captured in poolable form, the resulting response fingerprint can nominate stratification variables before a trial begins. The design, aggregation logic, and limits of that approach are in @ch:medication-response-reference (@sec:population-pharmacodiagnostic-corpus); it prioritizes candidates for adaptive enrichment rather than replacing the biomarker-guided design above.
+
 

@@ -13749,5 +13749,40 @@
     "label": "Zoster sine herpete",
     "category": "condition",
     "definition": "Varizella-Zoster-Reaktivierung, die eine Erkrankung ohne den charakteristischen Gürtelrose-Ausschlag verursacht (innerer Gürtelrose); kann sich als starke einseitige Schmerzen oder neurovaskuläre/systemische Symptome zeigen und erfordert zur Diagnose einen Blut- oder Liquortest."
+  },
+  "pharmacodiagnostic": {
+    "label": "Pharmakodiagnostik",
+    "category": "method",
+    "definition": "Diagnostisches Verfahren, das aus der Reaktion eines Patienten auf ein Medikament ableitet, welcher biologische Mechanismus aktiv ist — einschließlich der wirksamen Dosis, der Nebenwirkungen und dessen, was ein Nullbefund ausschließt. Die Medikamentengabe dient als mechanistische Sonde, nicht nur als Behandlung."
+  },
+  "n-of-1 trial": {
+    "label": "N-of-1-Studie",
+    "category": "method",
+    "definition": "Eine Studie an einem einzelnen Patienten, bei der dieselbe Person abwechselnd Behandlungs- und Kontrollphasen durchläuft. Sie wird genutzt, um eine Behandlung bei einer Einzelperson zu prüfen, wenn Gruppentests unpraktisch sind; mehrere N-of-1-Studien lassen sich statistisch zu einem mittleren Effekt zusammenfassen."
+  },
+  "open-label placebo": {
+    "label": "Offenes Placebo",
+    "category": "method",
+    "definition": "Ein Placebo, das verabreicht wird, obwohl der Patient weiß, dass es wirkstofffrei ist. Auch offen gelegt kann es eine messbare Symptomverbesserung bewirken (besonders bei subjektiven Maßen wie Schmerz und Fatigue), was die Deutung eines unverblindet berichteten Nutzens erschwert."
+  },
+  "responder subgroup": {
+    "label": "Responder-Subgruppe",
+    "category": "method",
+    "definition": "Eine Teilgruppe von Patienten, die unter einer Behandlung besser wird, während andere nicht ansprechen. Ist eine Studie insgesamt null, aber eine Untergruppe spricht an, kann das Antwortmuster auf einen eigenen biologischen Subtyp hinweisen — Grundlage der response-basierten Stratifizierung."
+  },
+  "disproportionality analysis": {
+    "label": "Disproportionalitätsanalyse",
+    "category": "method",
+    "definition": "Statistisches Verfahren der Arzneimittelsicherheit zur Signaldetektion aus gepoolten Spontanberichten (z. B. Reporting Odds Ratio, Proportional Reporting Ratio). Es ordnet Arzneimittel-Ereignis-Assoziationen, ohne die Zahl der Exponierten zu kennen, kann aber keine Kausalität belegen."
+  },
+  "confounding by indication": {
+    "label": "Confounding by indication",
+    "category": "method",
+    "definition": "Verzerrung in Beobachtungsdaten: Patienten erhalten ein Medikament wegen ihrer Symptome, sodass sich die Personen, die Wirkstoff A nehmen, systematisch von denen unterscheiden, die B nehmen. Ein Ergebnisunterschied kann dann widerspiegeln, wer das Medikament erhielt, statt das Medikament selbst."
+  },
+  "spectral resolution": {
+    "label": "Spektrale Auflösung",
+    "category": "method",
+    "definition": "Die Fähigkeit einer Reihe von Arzneimittelantwort-Tests, zwischen konkurrierenden mechanistischen Hypothesen zu unterscheiden. Zwei Hypothesen sind spektral nicht unterscheidbar, wenn jedes verfügbare Medikament unter beiden dieselbe Antwort vorhersagt — dann kann keine Antwort sie trennen."
   }
 }

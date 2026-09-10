@@ -384,3 +384,4 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | lifetime-energy-mild-cases | [subtrees/lifetime-energy-mild-cases.md](subtrees/lifetime-energy-mild-cases.md) | 2026-09-01 | 20 | 5 | 🔵 in progress |
 | mitochondrial-dysfunction-mecfs-longcovid | [subtrees/mitochondrial-dysfunction-mecfs-longcovid.md](subtrees/mitochondrial-dysfunction-mecfs-longcovid.md) | 2026-09-04 | 35 | 0 | 🔵 in progress |
 | autism-social-perception-stigma | [subtrees/autism-social-perception-stigma.md](subtrees/autism-social-perception-stigma.md) | 2026-09-04 | 29 | 4 | 🔵 in progress |
+| pharmacodiagnostic-corpus | [subtrees/pharmacodiagnostic-corpus.md](subtrees/pharmacodiagnostic-corpus.md) | 2026-09-10 | 34 | 0 | ⬜ pending |

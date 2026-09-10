@@ -27,6 +27,7 @@ Every drug response — therapeutic benefit, null response, side effect at a spe
 #include "sec-02f-pharmacodiagnostic-matrix/sec-02f-pharmacodiagnostic-matrix.typ"
 #include "sec-02h-origin-elimination/sec-02h-origin-elimination.typ"
 #include "sec-02i-null-subtyping/sec-02i-null-subtyping.typ"
+#include "sec-02k-population-corpus/sec-02k-population-corpus.typ"
 
 // --- REFERENCE TABLE (prominent early placement for rapid system-probe lookup) ---
 #include "sec-02j-reference-table/sec-02j-reference-table.typ"

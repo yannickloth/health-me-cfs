@@ -1613,3 +1613,284 @@
   research_stream = {lifetime-energy-mild-cases},
   note     = {ME/CFS patients (n=100) given the Multiple Fatigue Types Questionnaire (MFTQ, 5-factor instrument distinguishing fatigue types). Cluster analysis: 3-cluster solution classified by illness SEVERITY (low, moderate, severe) across fatigue factors; 5-cluster solution further differentiated moderate--severe patients into distinct fatigue-state patterns (e.g. post-exertional malaise vs brain-fog dominated). Establishes that ME/CFS fatigue is heterogeneous and patients sort into severity-based subgroups with distinct fatigue-type profiles — including a low-severity ('mild') cluster, consistent with a milder/lifetime-low-end subset within the illness rather than a categorical boundary. Severity-based classification supports a continuum from mild to severe. Population weight 1.00 (ME/CFS cohort).}
 }
+
+% --- Pharmacodiagnostic Corpus: pooled patient/clinician drug-response reports as population-level constraint corpus (added 2026-09-10) ---
+
+@article{Punja2016Nof1Aggregation,
+  author = {Punja, Salima and Xu, Dali and Schmid, Christopher H. and Hartling, Lisa and Urichuk, Liana and Nikles, Jane C. and Vohra, Sunita},
+  title = {N-of-1 trials can be aggregated to generate group mean treatment effects: a systematic review and meta-analysis},
+  journal = {Journal of Clinical Epidemiology},
+  year = {2016},
+  volume = {76},
+  pages = {65--75},
+  doi = {10.1016/j.jclinepi.2016.03.026},
+  pmid = {27107878},
+  note = {Methodological cornerstone: pooled individual participant data from 9-10 pediatric ADHD n-of-1 trials (amphetamine/methylphenidate vs placebo) to compute group mean treatment effects. Demonstrates that a series of single-patient trials can be aggregated via random-effects meta-analysis into a population estimate. Directly supports the pharmacodiagnostic-corpus proposal's core feasibility claim, while restricting the claim to group-mean effects rather than individual mechanism. Population weight 0.75 (general/methodological).},
+  research_stream = {pharmacodiagnostic-corpus},
+  certainty = {0.75}
+}
+
+@article{Schmid2022BayesianNof1,
+  author = {Schmid, Christopher and Yang, Jincao},
+  title = {Bayesian Models for {N-of-1} Trials},
+  journal = {Harvard Data Science Review},
+  year = {2022},
+  volume = {2022},
+  number = {SI3},
+  doi = {10.1162/99608f92.3f1772ce},
+  pmid = {38283071},
+  note = {Tutorial/review of Bayesian hierarchical models for single-patient trials and for collections of n-of-1 trials sharing a research question. Bayesian multilevel models yield inferences about population and subgroup parameters — the formal statistical machinery by which uncoordinated single-patient trials become a population-level instrument. Also handles trend, carryover, and autocorrelation, the practical confounders of a pooled drug-response corpus. Population weight 0.75 (general/methodological).},
+  research_stream = {pharmacodiagnostic-corpus},
+  certainty = {0.70}
+}
+
+@article{Hendrickson2020AggregatedNof1,
+  author = {Hendrickson, Rebecca C. and Thomas, Ronald G. and Schork, Nicholas J. and Raskind, Murray A.},
+  title = {Optimizing Aggregated {N-Of-1} Trial Designs for Predictive Biomarker Validation: Statistical Methods and Theoretical Findings},
+  journal = {Frontiers in Digital Health},
+  year = {2020},
+  volume = {2},
+  pages = {13},
+  doi = {10.3389/fdgth.2020.00013},
+  pmid = {34713026},
+  note = {Formalizes aggregated n-of-1 designs explicitly for validating predictive biomarkers: the same logic as ranking which pathway is rate-limiting from drug-response. Provides the design/statistical theory (sample size, allocation) for a corpus intended to discriminate responder subgroups. Bridges n-of-1 aggregation and biomarker/mechanism inference. Population weight 0.75 (general/methodological).},
+  research_stream = {pharmacodiagnostic-corpus},
+  certainty = {0.65}
+}
+
+@article{Samuel2022Nof1ClinicalOutcomes,
+  author = {Samuel, Joyce P. and Wootton, Susan H. and Holder, Tara and Molony, Donald},
+  title = {A scoping review of randomized trials assessing the impact of n-of-1 trials on clinical outcomes},
+  journal = {PLoS One},
+  year = {2022},
+  volume = {17},
+  number = {6},
+  pages = {e0269387},
+  doi = {10.1371/journal.pone.0269387},
+  pmid = {35653405},
+  note = {Scoping review of trials testing whether n-of-1-guided decisions change clinical outcomes vs usual care. Documents the evidentiary state and gaps of n-of-1 trials as a decision tool. Relevant as a boundary condition: n-of-1 aggregation supports individual treatment selection; evidence that it changes population outcomes is limited. Population weight 0.75 (general/methodological).},
+  research_stream = {pharmacodiagnostic-corpus},
+  certainty = {0.55}
+}
+
+@article{Nikles2022Nof1Physiotherapy,
+  author = {Nikles, Jane and Evans, Kerrie and Hams, Anna and Sterling, Michele},
+  title = {A systematic review of {N-of-1} trials and single case experimental designs in physiotherapy for musculoskeletal conditions},
+  journal = {Musculoskeletal Science and Practice},
+  year = {2022},
+  volume = {62},
+  pages = {102639},
+  doi = {10.1016/j.msksp.2022.102639},
+  pmid = {35961063},
+  note = {Systematic review of 19 SCEDs (92 participants) in musculoskeletal physiotherapy. 95% of participants responded favourably to the tested intervention while overall risk of bias was high — a direct empirical illustration of the response-rate inflation that afflicts unblinded single-case aggregation. Key null/critique anchor for the corpus proposal. Population weight 0.75 (general/methodological).},
+  research_stream = {pharmacodiagnostic-corpus},
+  certainty = {0.60}
+}
+
+@article{Bourke2020PatientGeneratedData,
+  author = {Bourke, Ann and Dixon, William G. and Roddam, Andrew and Lin, Kueiyu Joshua and Hall, Gillian C. and Curtis, Jeffrey R. and van der Veer, Sabine N. and Soriano-Gabarró, Montse and Mills, James K. and Major, Jacqueline M. and Verstraeten, Thomas and Francis, Mark J. and Bartels, Dorothee B.},
+  title = {Incorporating patient generated health data into pharmacoepidemiological research},
+  journal = {Pharmacoepidemiology and Drug Safety},
+  year = {2020},
+  volume = {29},
+  number = {12},
+  pages = {1540--1549},
+  doi = {10.1002/pds.5169},
+  pmid = {33146896},
+  note = {Review of how patient/citizen-generated health data (PGHD) can be integrated into pharmacoepidemiology. Enumerates the practical requirements — patient engagement, data linking, validation, analysis — that any pooled drug-response corpus must meet. Explicitly a methods-and-limits framework, not an endorsement. Population weight 0.75 (general/methodological).},
+  research_stream = {pharmacodiagnostic-corpus},
+  certainty = {0.60}
+}
+
+@article{Frost2009PatientsLikeMe,
+  author = {Frost, Jeana and Massagli, Michael},
+  title = {{PatientsLikeMe} the case for a data-centered patient community and how {ALS} patients use the community to inform treatment decisions and manage pulmonary health},
+  journal = {Chronic Respiratory Disease},
+  year = {2009},
+  volume = {6},
+  number = {4},
+  pages = {225--229},
+  doi = {10.1177/1479972309348655},
+  pmid = {19858352},
+  note = {Foundational description of a structured patient-reported treatment/outcome platform (PatientsLikeMe) and how ALS patients use aggregated reports to inform treatment decisions. The canonical real-world precedent for a patient-generated drug-response corpus — and the canonical illustration of its self-selected, unblinded character. Population weight 0.75 (general/methodological).},
+  research_stream = {pharmacodiagnostic-corpus},
+  certainty = {0.55}
+}
+
+@article{vanPuijenbroek2002Disproportionality,
+  author = {van Puijenbroek, Eugène P. and Bate, Andrew and Leufkens, Hubert G. M. and Lindquist, Marie and Orre, Roland and Egberts, Antoine C. G.},
+  title = {A comparison of measures of disproportionality for signal detection in spontaneous reporting systems for adverse drug reactions},
+  journal = {Pharmacoepidemiology and Drug Safety},
+  year = {2002},
+  volume = {11},
+  number = {1},
+  pages = {3--10},
+  doi = {10.1002/pds.668},
+  pmid = {11998548},
+  note = {Benchmark comparison of disproportionality measures (ROR, PRR, Yule's Q, IC) for drug-event signal detection in spontaneous reports. The statistical template for extracting signal from pooled uncoordinated reports — the same formal move the pharmacodiagnostic corpus makes, but for drug-response rather than drug-harm. Population weight 0.75 (general/methodological).},
+  research_stream = {pharmacodiagnostic-corpus},
+  certainty = {0.70}
+}
+
+@article{Cutroneo2023Disproportionality,
+  author = {Cutroneo, Paola M. and Sartori, Debora and Tuccori, Marco and Crisafulli, Salvatore and Battini, Vera and Carnovale, Carla and Rafaniello, Concetta and Capuano, Annalisa and Poluzzi, Elisabetta and Moretti, Ugo and Raschi, Emanuel},
+  title = {Conducting and interpreting disproportionality analyses derived from spontaneous reporting systems},
+  journal = {Frontiers in Drug Safety and Regulation},
+  year = {2023},
+  volume = {3},
+  pages = {1323057},
+  doi = {10.3389/fdsfr.2023.1323057},
+  pmid = {40980108},
+  note = {Methodological guidance on conducting and, critically, interpreting disproportionality analyses. States plainly that such analyses cannot establish causation and are subject to reporting bias, notoriety effects, and confounding. The mandatory-limits counterpart to van Puijenbroek: pooled reports generate hypotheses, not conclusions. Population weight 0.75 (general/methodological).},
+  research_stream = {pharmacodiagnostic-corpus},
+  certainty = {0.65}
+}
+
+@article{Noguchi2021SignalDetection,
+  author = {Noguchi, Yoshihiro and Tachi, Tomoya and Teramachi, Hiroki},
+  title = {Detection algorithms and attentive points of safety signal using spontaneous reporting systems as a clinical data source},
+  journal = {Briefings in Bioinformatics},
+  year = {2021},
+  volume = {22},
+  number = {6},
+  pages = {bbab347},
+  doi = {10.1093/bib/bbab347},
+  pmid = {34453158},
+  note = {Review of signal-detection algorithms for spontaneous reporting systems, including time-to-onset and covariate-adjusted methods beyond simple disproportionality. Provides the algorithmic toolbox for extracting structure from heterogeneous pooled reports, and notes the absence of a denominator (total exposed) as the core interpretive limit. Population weight 0.75 (general/methodological).},
+  research_stream = {pharmacodiagnostic-corpus},
+  certainty = {0.55}
+}
+
+@article{Dogatovic2026InversePharmacovigilance,
+  author = {Đogatović, Katarina and Vučićević, Katarina and Kovačević, Milena and Ćulafić, Milena and Miljković, Branislava and Kovačević, Sandra Vezmar},
+  title = {Identification of Drug Repurposing Opportunities of Immunomodulatory Drugs for Inflammatory Bowel Disease Through Inverse Pharmacovigilance Signal Detection in the {FAERS} Database},
+  journal = {Journal of Clinical Medicine},
+  year = {2026},
+  volume = {15},
+  number = {6},
+  pages = {2172},
+  doi = {10.3390/jcm15062172},
+  pmid = {41899096},
+  note = {Uses inverse pharmacovigilance signal detection in FAERS to infer beneficial (repurposing) effects from spontaneous reports — i.e. reads drug-response in a beneficial direction, not just harm. Closest published analogue to treating a spontaneous-report corpus as a source of therapeutic-mechanism signal. Population weight 0.75 (general/methodological).},
+  research_stream = {pharmacodiagnostic-corpus},
+  certainty = {0.50}
+}
+
+@article{Richiardi2007NINFEAInternet,
+  author = {Richiardi, Lorenzo and Baussano, Iacopo and Vizzini, Luisa and Douwes, Jeroen and Pearce, Neil and Merletti, Franco},
+  title = {Feasibility of recruiting a birth cohort through the Internet: the experience of the {NINFEA} cohort},
+  journal = {European Journal of Epidemiology},
+  year = {2007},
+  volume = {22},
+  number = {12},
+  pages = {831--837},
+  doi = {10.1007/s10654-007-9194-2},
+  pmid = {17955333},
+  note = {Documents that internet-recruited cohorts are feasible but systematically self-selected (participants differ from the source population; complete vs partial responders differ). The empirical basis for the self-selection bias that limits any web-collected drug-response corpus. Population weight 0.75 (general/methodological).},
+  research_stream = {pharmacodiagnostic-corpus},
+  certainty = {0.65}
+}
+
+@article{Micale2024SocialMediaMeds,
+  author = {Micale, Chiara and Golder, Su and O'Connor, Karen and Weissenbacher, Davy and Gross, Robert and Hennessy, Sean and Gonzalez-Hernandez, Graciela},
+  title = {Patient-Reported Reasons for Antihypertensive Medication Change: A Quantitative Study Using Social Media},
+  journal = {Drug Safety},
+  year = {2024},
+  volume = {47},
+  number = {1},
+  pages = {81--91},
+  doi = {10.1007/s40264-023-01366-5},
+  pmid = {37995049},
+  note = {Mines patient-posted medication reviews (WebMD) with an NLP classifier to extract reasons for antihypertensive change. Demonstrates feasibility of harvesting structured drug-response/stop-reason data from patient forums at scale — and, by design, inherits the biases of self-selected online reports. Direct precedent for the corpus's stop-reason field. Population weight 0.75 (general/methodological).},
+  research_stream = {pharmacodiagnostic-corpus},
+  certainty = {0.55}
+}
+
+@article{Zong2022EHRrepurposing,
+  author = {Zong, Nansu and Wen, Andrew and Moon, Sijia and Fu, Sunyang and Wang, Liwei and Zhao, Yiqing and Yu, Yue and Huang, Ming and Wang, Yanshan and Zheng, Guanqun and Mielke, Michelle M. and Cerhan, James R. and Liu, Hongfang},
+  title = {Computational drug repurposing based on electronic health records: a scoping review},
+  journal = {NPJ Digital Medicine},
+  year = {2022},
+  volume = {5},
+  number = {1},
+  pages = {77},
+  doi = {10.1038/s41746-022-00617-6},
+  pmid = {35701544},
+  note = {Scoping review of 33 studies inferring drug effects/repurposing from longitudinal EHR data. Establishes that observational drug-response data can generate mechanistic/repurposing hypotheses at scale, and catalogs the data-processing, prediction, and validation steps required. Population weight 0.75 (general/methodological).},
+  research_stream = {pharmacodiagnostic-corpus},
+  certainty = {0.60}
+}
+
+@article{Shahn2022AntihypertensiveRepurposing,
+  author = {Shahn, Zach and Spear, Paige and Lu, Hong and Jiang, Shan and Zhang, Shuang and Deshmukh, Nikhil and Xu, Stanley and Ng, Kenney and Welsch, Roy and Finkelstein, Stan},
+  title = {Systematically exploring repurposing effects of antihypertensives},
+  journal = {Pharmacoepidemiology and Drug Safety},
+  year = {2022},
+  volume = {31},
+  number = {9},
+  pages = {944--952},
+  doi = {10.1002/pds.5491},
+  pmid = {35689299},
+  note = {Target-trial-emulation screen of antihypertensives across 262 outcomes in a linked claims+EHR database, with hierarchical post-processing for multiplicity. Shows a principled pipeline for surfacing drug-response signals across many drugs and outcomes while controlling false discovery — directly analogous to reading many drug trials against many hypotheses. Population weight 0.75 (general/methodological).},
+  research_stream = {pharmacodiagnostic-corpus},
+  certainty = {0.60}
+}
+
+@article{Vaes2023SymptomClusters,
+  author = {Vaes, Anouk W. and Van Herck, Maarten and Deng, Qichen and Delbressine, Jeannet M. and Jason, Leonard A. and Spruit, Martijn A.},
+  title = {Symptom-based clusters in people with {ME/CFS}: an illustration of clinical variety in a cross-sectional cohort},
+  journal = {Journal of Translational Medicine},
+  year = {2023},
+  volume = {21},
+  number = {1},
+  pages = {112},
+  doi = {10.1186/s12967-023-03946-6},
+  pmid = {36765375},
+  note = {Self-organizing-map analysis of 337 ME/CFS patients (DePaul Symptom Questionnaire) yields 45 symptom clusters with partial reproducibility in an independent n=252 set. Demonstrates substantial within-diagnosis heterogeneity — the population structure any mechanism-ranking corpus must respect, and a reason a single pooled average is misleading. Population weight 1.00 (ME/CFS cohort).},
+  research_stream = {pharmacodiagnostic-corpus},
+  certainty = {0.65}
+}
+
+@article{Calfee2018ARDSsubphenotypes,
+  author = {Calfee, Carolyn S. and Delucchi, Kevin L. and Sinha, Pratik and Matthay, Michael A. and Hackett, Jonathan and Shankar-Hari, Manu and McDowell, Cliona and Laffey, John G. and O'Kane, Cecilia M. and McAuley, Daniel F.},
+  title = {Acute respiratory distress syndrome subphenotypes and differential response to simvastatin: secondary analysis of a randomised controlled trial},
+  journal = {The Lancet Respiratory Medicine},
+  year = {2018},
+  volume = {6},
+  number = {9},
+  pages = {691--698},
+  doi = {10.1016/S2213-2600(18)30177-2},
+  pmid = {30078618},
+  note = {Secondary analysis of HARP-2: two ARDS subphenotypes show opposite responses to simvastatin, so a trial that is null overall contains a real, mechanism-revealing differential response. The canonical demonstration that heterogeneous drug response within a syndrome discloses subtypes — the inferential move the corpus proposal generalizes across drugs. Population weight 0.75 (general/mechanism).},
+  research_stream = {pharmacodiagnostic-corpus},
+  certainty = {0.75}
+}
+
+@article{FlavioReis2025OpenLabelPlacebo,
+  author = {Flávio-Reis, Victor Hugo Prado and Pessoa-Gonçalves, Yasmine Maria and Diaz, Cláudia A. V. and Lamoglia, Ana Sofia A. and Desidério, Cinthia S. and Oliveira, Carlo José Freire},
+  title = {Open label placebo for chronic low back pain: a systematic review and meta-analysis of randomized controlled trials},
+  journal = {Pain Management},
+  year = {2025},
+  volume = {15},
+  number = {3},
+  pages = {149--160},
+  doi = {10.1080/17581869.2025.2467025},
+  pmid = {39962721},
+  note = {Meta-analysis of 4 RCTs (171 OLP vs 161 control) finds a modest open-label-placebo pain reduction (MD -0.62) at very low certainty. Direct evidence that non-deceptive expectation alone moves chronic-illness symptoms — so an unblinded drug-response corpus cannot attribute reported benefit to the drug's mechanism. Mandatory null/critique anchor. Population weight 0.75 (general/mechanism).},
+  research_stream = {pharmacodiagnostic-corpus},
+  certainty = {0.55}
+}
+
+@article{KleineBorgmann2025OpenLabelPlacebos,
+  author = {Kleine-Borgmann, Jan and Bingel, Ulrike},
+  title = {Open-label nondeceptive placebos},
+  journal = {Handbook of Clinical Neurology},
+  year = {2025},
+  volume = {213},
+  pages = {51--58},
+  doi = {10.1016/B978-0-443-29884-4.00020-0},
+  pmid = {41161969},
+  note = {Review of open-label (nondeceptive) placebo effects across chronic pain, mental disorders, and other symptom domains. Confirms OLP efficacy varies by condition and duration and that mechanisms remain unclear. Supports the corpus proposal's honest limit: subjective response domains are placebo-contaminated and cannot by themselves confirm mechanism. Population weight 0.75 (general/mechanism).},
+  research_stream = {pharmacodiagnostic-corpus},
+  certainty = {0.55}
+}

@@ -12073,27 +12073,27 @@
   "thin-slice judgment": {
     "label": "thin-slice judgment",
     "category": "concept",
-    "definition": "The rapid first impression a person forms of someone from a brief sample (a 'thin slice') of behavior — seconds of facial expression, prosody, and movement — often before any substantive conversation. Research integrated in this paper shows such judgments track how a person presents (their presentational style) more than what they say."
+    "definition": "The rapid first impression a person forms of someone from a brief sample (a 'thin slice') of behavior \u2014 seconds of facial expression, prosody, and movement \u2014 often before any substantive conversation. Research integrated in this paper shows such judgments track how a person presents (their presentational style) more than what they say."
   },
   "double-empathy problem": {
     "label": "double-empathy problem",
     "category": "concept",
-    "definition": "The proposal, named by Damian Milton (2012), that communication difficulty between autistic and non-autistic people is a two-way mismatch — each group struggles to read the other — rather than a one-sided deficit in autistic people. Used in this paper as a relational framing for how an invisible illness may be perceived."
+    "definition": "The proposal, named by Damian Milton (2012), that communication difficulty between autistic and non-autistic people is a two-way mismatch \u2014 each group struggles to read the other \u2014 rather than a one-sided deficit in autistic people. Used in this paper as a relational framing for how an invisible illness may be perceived."
   },
   "presentational style": {
     "label": "presentational style",
     "category": "concept",
-    "definition": "The outward, non-verbal manner in which a person comes across — facial affect and expressivity, movement, prosody, eye contact — as distinct from the verbal content ('substance') of what they say. Social-perception research integrated here finds that negative first impressions track presentational style rather than conversational substance."
+    "definition": "The outward, non-verbal manner in which a person comes across \u2014 facial affect and expressivity, movement, prosody, eye contact \u2014 as distinct from the verbal content ('substance') of what they say. Social-perception research integrated here finds that negative first impressions track presentational style rather than conversational substance."
   },
   "invisible illness": {
     "label": "invisible illness",
     "category": "concept",
-    "definition": "A chronic condition with no visible outward sign — such as ME/CFS — whose symptoms others cannot see. Because the person may appear well, invisible illness is susceptible to doubt, dismissal, and stigma."
+    "definition": "A chronic condition with no visible outward sign \u2014 such as ME/CFS \u2014 whose symptoms others cannot see. Because the person may appear well, invisible illness is susceptible to doubt, dismissal, and stigma."
   },
   "anti-TS-HDS": {
     "label": "anti-TS-HDS",
     "category": "biomarker",
-    "definition": "Antibodies (typically IgM) against trisulfated heparin disaccharide (TS-HDS), a heparan-sulfate-like epitope. Reported in a subset of cryptogenic small fiber neuropathy and offered as a commercial test, but NOT validated in ME/CFS — evidence shows limited specificity and no reliable prediction of disease or treatment response."
+    "definition": "Antibodies (typically IgM) against trisulfated heparin disaccharide (TS-HDS), a heparan-sulfate-like epitope. Reported in a subset of cryptogenic small fiber neuropathy and offered as a commercial test, but NOT validated in ME/CFS \u2014 evidence shows limited specificity and no reliable prediction of disease or treatment response."
   },
   "anti-FGFR3": {
     "label": "anti-FGFR3",
@@ -12109,5 +12109,40 @@
     "label": "FGFR3",
     "category": "receptor",
     "definition": "Fibroblast growth factor receptor 3, a cell-surface receptor. Antibodies against it (anti-FGFR3) are reported in sensory and small fiber neuropathy, but the marker is not validated in ME/CFS and the assay is not inter-laboratory standardized."
+  },
+  "pharmacodiagnostic": {
+    "label": "Pharmacodiagnostic",
+    "category": "method",
+    "definition": "A diagnostic method that infers which biological mechanism is active from how a patient responds to a drug \u2014 including the dose at which it works, the side effects it produces, and what a null (no-benefit) response rules out. Treats a drug trial as a mechanistic probe rather than only as treatment."
+  },
+  "n-of-1 trial": {
+    "label": "N-of-1 trial",
+    "category": "method",
+    "definition": "A single-patient trial in which one person cycles through treatment and control periods as their own comparison. Used to test a treatment in an individual when group trials are impractical; many n-of-1 trials can be pooled statistically to estimate an average effect."
+  },
+  "open-label placebo": {
+    "label": "Open-label placebo",
+    "category": "method",
+    "definition": "A placebo given with the patient's full knowledge that it is inert. Even when disclosed, it can produce measurable symptom improvement (especially for subjective outcomes like pain and fatigue), which makes unblinded self-reported treatment benefit hard to interpret."
+  },
+  "responder subgroup": {
+    "label": "Responder subgroup",
+    "category": "method",
+    "definition": "A subset of patients who improve on a treatment while others do not. When a trial is null overall but a subgroup responds, the response pattern can point to a distinct biological subtype \u2014 the basis for response-based stratification."
+  },
+  "disproportionality analysis": {
+    "label": "Disproportionality analysis",
+    "category": "method",
+    "definition": "A statistical method used in drug-safety monitoring to detect signals from pooled spontaneous reports (e.g., reporting odds ratio, proportional reporting ratio). It can rank drug\u2013event associations without knowing how many people were exposed, but cannot establish causation."
+  },
+  "confounding by indication": {
+    "label": "Confounding by indication",
+    "category": "method",
+    "definition": "A bias in observational drug data: patients receive a drug because of their symptoms or condition, so the people who take drug A differ systematically from those who take drug B. A difference in outcomes may then reflect who got the drug rather than the drug itself."
+  },
+  "spectral resolution": {
+    "label": "Spectral resolution",
+    "category": "method",
+    "definition": "The ability of a set of drug-response tests to distinguish between competing mechanistic hypotheses. Two hypotheses are spectrally unresolvable if every available drug predicts the same response under both \u2014 no drug response can tell them apart."
   }
 }

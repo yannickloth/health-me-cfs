@@ -33,7 +33,7 @@ Several design strategies can address population heterogeneity without requiring
 
 *Stratified enrollment:* Pre-specify stratification variables (PEM severity, infectious trigger, autonomic phenotype) and enroll evenly across strata. This mirrors oncology trial design where molecular subtype drives enrollment.
 
-*N-of-1 designs with pooled analysis:* Treat each patient as their own control (pre-post intervention) and pool across patients. This preserves individual heterogeneity while testing for a group effect.
+*N-of-1 designs with pooled analysis:* Treat each patient as their own control (pre-post intervention) and pool across patients. This preserves individual heterogeneity while testing for a group effect. The statistical feasibility of pooling single-patient trials into group and subgroup estimates is established @Punja2016Nof1Aggregation @Zucker2010 @Schmid2022BayesianNof1; the pharmacodiagnostic use of such pooling — turning poolable *drug-response* reports into a mechanism-ranking instrument — is developed in @ch:medication-response-reference (@sec:population-pharmacodiagnostic-corpus).
 
 *Adaptive enrichment:* After an interim analysis, re-weight enrollment toward the subgroup showing the strongest signal. The rituximab trials would have benefited from this — if responders could be prospectively identified.
 

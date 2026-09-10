@@ -13,6 +13,19 @@ Prevents re-processing of already-integrated content.
 
 ---
 
+## Pharmacodiagnostic Corpus (pharmacodiagnostic-corpus) Literature Search
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-09-10 | 36 queries across the 9 required categories (n-of-1 aggregation, patient-generated data, pharmacovigilance signal detection, crowdsourced/internet-cohort bias, EHR/observational drug-response inference, ME/CFS treatment-response heterogeneity, subtype inference from response, null/critique, ex juvantibus). **Direct topic = 0 studies** (expected). 19 new papers added: Punja2016Nof1Aggregation, Schmid2022BayesianNof1, Hendrickson2020AggregatedNof1, Samuel2022Nof1ClinicalOutcomes, Nikles2022Nof1Physiotherapy, Bourke2020PatientGeneratedData, Frost2009PatientsLikeMe, vanPuijenbroek2002Disproportionality, Cutroneo2023Disproportionality, Noguchi2021SignalDetection, Dogatovic2026InversePharmacovigilance, Richiardi2007NINFEAInternet, Micale2024SocialMediaMeds, Zong2022EHRrepurposing, Shahn2022AntihypertensiveRepurposing, Vaes2023SymptomClusters, Calfee2018ARDSsubphenotypes, FlavioReis2025OpenLabelPlacebo, KleineBorgmann2025OpenLabelPlacebos. Extensive corpus reuse (no duplication): Laragh1988DiagnosisExJuvantibus, Zucker2010, Duan2013, McDonald2022Nof1MEcfs, Wicks2018PatientStudyThyself, Wiggins2019CitizenScience, Eckey2025PRO/Eckey2025PatientReported, Rekeland2024SixYrFollowup. All DOIs verified from PubMed ArticleIdList (Crossref where ambiguous). Null/critique anchors: Nikles2022 (95% favourable response under high bias), Cutroneo2023 (disproportionality cannot establish causation), FlavioReis2025 + KleineBorgmann2025 (open-label placebo), Richiardi2007 (self-selection). |
+| Crossref API | 2026-09-10 | DOI verification for 12 candidate titles (Schmid2022, Hendrickson2020, Samuel2022, Cutroneo2023, Dogatovic2026, Zong2022, Shahn2022, Eckey2025, Vaes2023, Micale2024, Wicks2018, Oakley2023). |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed API queries (36 queries + esummary/efetch batches, 19 PMIDs) | pubmed/eutils | 2026-09-10 | — | ops/research/search-log-pharmacodiagnostic-corpus-2026-09-10.md, ops/research/literature-pharmacodiagnostic-corpus-2026-09-10.md, bib/diagnosis-assessment.bib, appendix-h `<sec:bib-pharmacodiagnostic-corpus>` — pooled drug-response corpus methodology (19 new papers) |
+| Crossref API (12 title lookups) | crossref | 2026-09-10 | — | DOI verification for bib/diagnosis-assessment.bib (no separate artifact) |
+
+---
+
 ## LDN-vs-Metformin Mechanistic Bifurcation Triage (ldn-metformin-bifurcation) Literature Search
 | Source | Last Scraped | Notes |
 |--------|--------------|-------|

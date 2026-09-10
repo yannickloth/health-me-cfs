@@ -43,6 +43,10 @@ The algorithm additionally outputs:
 + *Which drug combinations produce response patterns that are only explicable under a specific hypothesis* — constraining patterns. If a patient responds to drug A but not drug B, and to drug C only at doses above X, and that exact pattern is compatible with one hypothesis but incompatible with all others, the constraint identifies a specific mechanism with higher confidence than any single drug trial. Note: this is not pathognomonic in the clinical sense (definitively diagnostic) — it is constraining within the current hypothesis space, with the acknowledged uncertainty of the framework.
 + *The confidence interval on bottleneck localization* — given the evidence weights and certainties, how precisely is the bottleneck localized? Multi-drug response patterns may narrow the uncertainty beyond what any single drug trial can achieve, but the multiplicative uncertainty from combining individual inferences (see "Inference Depth Multiplicative Uncertainty" below) limits how much precision additional trials can add.
 
+=== From One Patient to a Population
+
+The matrix above is specified for a single patient. The same constraint-satisfaction structure extends to a population: if each drug–hypothesis cell is populated by a response distribution across patients rather than one observation, the matrix becomes a corpus. This aggregation extension — the statistical feasibility of pooling single-patient trials, the seven candidate data fields (sufficiency unresolved), and the structural limits that bound what the pooled signal can conclude — is developed in @ch:medication-response-reference (@sec:population-pharmacodiagnostic-corpus), with the patient-generated-data substrate in @ch:patient-generated-knowledge. The inferential boundary is unchanged by scale: the population matrix ranks candidate rate-limiting pathways and identifies discriminating probes; it does not confirm mechanism.
+
 === Methodological Precedents
 
 The concept is a novel synthesis but not without precedent:

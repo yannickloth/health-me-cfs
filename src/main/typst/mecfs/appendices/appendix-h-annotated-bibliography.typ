@@ -39710,3 +39710,281 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
     *Conclusion:* Strengthens the infection + HLA-restricted presentation + autoimmunity proof-of-principle for which MS is the canonical model (complementing Lanz 2022 EBNA1/GlialCAM and the HLA-restricted-antigen framework of Georgopoulos 2025). Provides precedent for how EBV could interact with HLA class II to surface self-antigens — a mechanism relevant to ME/CFS only as a testable hypothesis, not a demonstration.
     *Limitations:* In vitro / structural (not organism-level); mechanism demonstrated in MS (HLA-DR15), not in ME/CFS; no direct ME/CFS data.
     *Certainty Assessment:* 0.65 raw × 0.40 (in vitro) = *discounted ~0.26* (supporting mechanism — MS-specific in vitro proof-of-principle)
+
+// =============================================================================
+
+== Pharmacodiagnostic Corpus: Pooled Patient/Clinician Drug-Response Reports as Population-Level Constraint Corpus <sec:bib-pharmacodiagnostic-corpus>
+// =============================================================================
+
+This stream assembles the methodological precedents and their limits for the proposal that pooled, uncoordinated patient- and clinician-collected medication-response reports can rank rate-limiting biological pathways in ME/CFS. No direct study of that proposal exists (see the literature summary); the entries below are the indirect methodological links — n-of-1 aggregation, patient-generated data, pharmacovigilance signal detection, crowdsourced-cohort bias, EHR-based drug-response inference, ME/CFS treatment-response heterogeneity, and open-label-placebo critique.
+
+=== Punja et al.\ 2016 — N-of-1 Trials Can Be Aggregated to Generate Group Mean Treatment Effects
+
+    *Full Citation:*: Punja S, Xu D, Schmid CH, Hartling L, Urichuk L, Nikles CJ, Vohra S. N-of-1 trials can be aggregated to generate group mean treatment effects: a systematic review and meta-analysis. _Journal of Clinical Epidemiology_. 2016;76:65–75. @Punja2016Nof1Aggregation
+    *DOI:*: #link("https://doi.org/10.1016/j.jclinepi.2016.03.026")[10.1016/j.jclinepi.2016.03.026]
+    *PMID:*: 27107878
+    *Study Design:*: Systematic review and individual-participant-data meta-analysis
+    *Sample Size:*: 9 amphetamine-placebo and 10 methylphenidate-placebo n-of-1 trials (pediatric ADHD)
+    *Key Findings:*:
+        - Individual participant data from a series of single-patient trials can be pooled into a group mean treatment effect via random-effects meta-analysis.
+        - Meta-analyses consistently favoured amphetamine (10 of 11 comparisons) and methylphenidate over placebo.
+        - Demonstrates that uncoordinated single-patient trials form a coherent, poolable evidence base.
+    *Conclusion:* The central feasibility precedent for the pharmacodiagnostic corpus: a distributed set of single-patient trials can be aggregated into a population estimate. The claim the paper supports is a group-mean treatment effect, not individual mechanism — the same epistemic ceiling the corpus proposal must respect.
+    *Limitations:* ADHD (not ME/CFS); pediatric populations; aggregation yields group means and cannot resolve which mechanism operated in any one patient.
+    *Certainty Assessment:* 0.75 raw × 0.75 (general/methodological) = *discounted ~0.56* (supporting methodology)
+
+=== Schmid & Yang\ 2022 — Bayesian Models for N-of-1 Trials
+
+    *Full Citation:*: Schmid C, Yang J. Bayesian Models for N-of-1 Trials. _Harvard Data Science Review_. 2022;2022(SI3). @Schmid2022BayesianNof1
+    *DOI:*: #link("https://doi.org/10.1162/99608f92.3f1772ce")[10.1162/99608f92.3f1772ce]
+    *PMID:*: 38283071
+    *Study Design:*: Methodological review / tutorial
+    *Key Findings:*:
+        - Bayesian inference is natural for n-of-1 trials: it incorporates external/subjective information and yields directly interpretable posterior probabilities.
+        - Multilevel (hierarchical) Bayesian models combine multiple n-of-1 trials and infer population and subgroup parameters.
+        - Models accommodate trend, carryover, and autocorrelation — the practical confounders of repeated single-patient data.
+    *Conclusion:* Supplies the formal statistical machinery for turning a set of single-patient drug trials into a population/subgroup instrument. This is the exact inferential step the corpus proposal needs, with the honest caveat that posterior subgroup estimates depend on priors and design.
+    *Limitations:* Methodological, not empirical; no ME/CFS application; sensitivity to prior specification is substantial.
+    *Certainty Assessment:* 0.70 raw × 0.75 (general/methodological) = *discounted ~0.53* (supporting methodology)
+
+=== Hendrickson et al.\ 2020 — Optimizing Aggregated N-of-1 Trial Designs for Predictive Biomarker Validation
+
+    *Full Citation:*: Hendrickson RC, Thomas RG, Schork NJ, Raskind MA. Optimizing Aggregated N-Of-1 Trial Designs for Predictive Biomarker Validation: Statistical Methods and Theoretical Findings. _Frontiers in Digital Health_. 2020;2:13. @Hendrickson2020AggregatedNof1
+    *DOI:*: #link("https://doi.org/10.3389/fdgth.2020.00013")[10.3389/fdgth.2020.00013]
+    *PMID:*: 34713026
+    *Study Design:*: Statistical methods / design theory
+    *Key Findings:*:
+        - Formalizes aggregated n-of-1 designs specifically for validating predictive biomarkers.
+        - Derives design and sample-size theory for discriminating responder subgroups across pooled single-patient trials.
+        - Frames aggregation as a tool for mechanism/subgroup discovery, not merely efficacy estimation.
+    *Conclusion:* Provides the design theory for a corpus intended to rank pathways or identify responder subgroups. Directly bridges n-of-1 aggregation and biomarker/mechanism inference — the corpus proposal's core inferential goal.
+    *Limitations:* Theoretical; no empirical application; assumes a specified candidate biomarker, whereas the corpus proposal must also generate candidates.
+    *Certainty Assessment:* 0.65 raw × 0.75 (general/methodological) = *discounted ~0.49* (supporting methodology)
+
+=== Samuel et al.\ 2022 — Impact of N-of-1 Trials on Clinical Outcomes: Scoping Review
+
+    *Full Citation:*: Samuel JP, Wootton SH, Holder T, Molony D. A scoping review of randomized trials assessing the impact of n-of-1 trials on clinical outcomes. _PLoS One_. 2022;17(6):e0269387. @Samuel2022Nof1ClinicalOutcomes
+    *DOI:*: #link("https://doi.org/10.1371/journal.pone.0269387")[10.1371/journal.pone.0269387]
+    *PMID:*: 35653405
+    *Study Design:*: Scoping review
+    *Key Findings:*:
+        - Maps the trial evidence on whether n-of-1-guided decisions improve clinical outcomes versus usual care.
+        - The evidence base is small and heterogeneous; risk of bias in the underlying n-of-1 trials is a recurring concern.
+        - N-of-1 trials are established as individual decision tools; their population-outcome impact is not established.
+    *Conclusion:* A boundary condition for the corpus proposal: aggregation supports individual selection and hypothesis generation, but evidence that it changes population outcomes is thin. Supports honest scoping of the corpus's claims.
+    *Limitations:* Scoping (not systematic) review; heterogeneous conditions; no ME/CFS focus.
+    *Certainty Assessment:* 0.55 raw × 0.75 (general/methodological) = *discounted ~0.41* (supporting/limiting methodology)
+
+=== Nikles et al.\ 2022 — N-of-1 and Single-Case Designs in Musculoskeletal Physiotherapy
+
+    *Full Citation:*: Nikles J, Evans K, Hams A, Sterling M. A systematic review of N-of-1 trials and single case experimental designs in physiotherapy for musculoskeletal conditions. _Musculoskeletal Science and Practice_. 2022;62:102639. @Nikles2022Nof1Physiotherapy
+    *DOI:*: #link("https://doi.org/10.1016/j.msksp.2022.102639")[10.1016/j.msksp.2022.102639]
+    *PMID:*: 35961063
+    *Study Design:*: Systematic review
+    *Sample Size:*: 19 SCEDs; 92 participants
+    *Key Findings:*:
+        - Wide variability in design, methodology, analysis, and conditions across included SCEDs.
+        - 95% of participants responded favourably to the tested intervention.
+        - Overall risk of bias was high.
+    *Conclusion:* A direct empirical warning for the corpus proposal: unblinded single-case designs report near-universal favourable response. A pooled corpus of such reports will inflate apparent efficacy and cannot, without controls, distinguish drug effect from expectation and regression to the mean.
+    *Limitations:* Physiotherapy/musculoskeletal, not pharmacological; SCED rather than n-of-1 drug trials; review-level.
+    *Certainty Assessment:* 0.60 raw × 0.75 (general/methodological) = *discounted ~0.45* (null/critique)
+
+=== Bourke et al.\ 2020 — Incorporating Patient-Generated Health Data into Pharmacoepidemiology
+
+    *Full Citation:*: Bourke A, Dixon WG, Roddam A, Lin KJ, Hall GC, Curtis JR, van der Veer SN, Soriano-Gabarró M, Mills JK, Major JM, Verstraeten T, Francis MJ, Bartels DB. Incorporating patient generated health data into pharmacoepidemiological research. _Pharmacoepidemiology and Drug Safety_. 2020;29(12):1540–1549. @Bourke2020PatientGeneratedData
+    *DOI:*: #link("https://doi.org/10.1002/pds.5169")[10.1002/pds.5169]
+    *PMID:*: 33146896
+    *Study Design:*: Methodological review
+    *Key Findings:*:
+        - Patient/citizen-generated health data (PGHD) adds diet, adherence, and quality-of-life information that routine real-world data lacks.
+        - Practical requirements: patient engagement, data linking, validation, and analysis.
+        - PGHD is complementary to, not a substitute for, conventional pharmacoepidemiological sources.
+    *Conclusion:* Defines the practical requirements and validation burden for a pooled patient-report corpus. Supports the proposal's data-collection design while cautioning that validation is a prerequisite, not an afterthought.
+    *Limitations:* Review; no primary data; not ME/CFS-specific.
+    *Certainty Assessment:* 0.60 raw × 0.75 (general/methodological) = *discounted ~0.45* (supporting methodology)
+
+=== Frost & Massagli\ 2009 — PatientsLikeMe: A Data-Centered Patient Community
+
+    *Full Citation:*: Frost J, Massagli M. PatientsLikeMe the case for a data-centered patient community and how ALS patients use the community to inform treatment decisions and manage pulmonary health. _Chronic Respiratory Disease_. 2009;6(4):225–229. @Frost2009PatientsLikeMe
+    *DOI:*: #link("https://doi.org/10.1177/1479972309348655")[10.1177/1479972309348655]
+    *PMID:*: 19858352
+    *Study Design:*: Case study / qualitative platform description
+    *Key Findings:*:
+        - Patients share structured symptom, treatment, and outcome data and view individual and aggregated reports.
+        - ALS patients use the aggregated data to inform treatment decisions and pulmonary-health management.
+        - The platform is the canonical real-world example of a patient-generated drug-response corpus.
+    *Conclusion:* The closest existing precedent for the corpus proposal: a structured, patient-populated drug-response database used for decisions. It also exemplifies the self-selected, unblinded character that limits mechanistic inference.
+    *Limitations:* Case study, not an analytic validation; self-selected membership; ALS-specific; no mechanism confirmation.
+    *Certainty Assessment:* 0.55 raw × 0.75 (general/methodological) = *discounted ~0.41* (supporting precedent)
+
+=== van Puijenbroek et al.\ 2002 — Comparison of Disproportionality Measures for Signal Detection
+
+    *Full Citation:*: van Puijenbroek EP, Bate A, Leufkens HGM, Lindquist M, Orre R, Egberts ACG. A comparison of measures of disproportionality for signal detection in spontaneous reporting systems for adverse drug reactions. _Pharmacoepidemiology and Drug Safety_. 2002;11(1):3–10. @vanPuijenbroek2002Disproportionality
+    *DOI:*: #link("https://doi.org/10.1002/pds.668")[10.1002/pds.668]
+    *PMID:*: 11998548
+    *Study Design:*: Methods comparison study
+    *Key Findings:*:
+        - Compares Reporting Odds Ratio, Proportional Reporting Ratio, Yule's Q, and the Information Component on the Lareb database.
+        - The measures show high concordance in ranking drug-event associations.
+        - Disproportionality quantifies how much more a drug-event pair is reported than expected from the database as a whole.
+    *Conclusion:* The statistical template for extracting signal from pooled uncoordinated reports — the same formal move the corpus proposal makes, but for drug-response instead of drug-harm. Demonstrates that pooled reports can rank associations despite having no denominators.
+    *Limitations:* Adverse-event (harm) domain, not therapeutic response; disproportionality does not measure incidence or causation.
+    *Certainty Assessment:* 0.70 raw × 0.75 (general/methodological) = *discounted ~0.53* (supporting methodology)
+
+=== Cutroneo et al.\ 2023 — Conducting and Interpreting Disproportionality Analyses
+
+    *Full Citation:*: Cutroneo PM, Sartori D, Tuccori M, Crisafulli S, Battini V, Carnovale C, Rafaniello C, Capuano A, Poluzzi E, Moretti U, Raschi E. Conducting and interpreting disproportionality analyses derived from spontaneous reporting systems. _Frontiers in Drug Safety and Regulation_. 2023;3:1323057. @Cutroneo2023Disproportionality
+    *DOI:*: #link("https://doi.org/10.3389/fdsfr.2023.1323057")[10.3389/fdsfr.2023.1323057]
+    *PMID:*: 40980108
+    *Study Design:*: Methodological guidance / narrative review
+    *Key Findings:*:
+        - Disproportionality analysis is a recognized early-signal approach for spontaneous reporting systems.
+        - Such analyses cannot be used to establish causation.
+        - Interpretation must account for reporting bias, notoriety effects, and confounding.
+    *Conclusion:* The mandatory-limits counterpart to van Puijenbroek: pooled reports generate hypotheses, not conclusions. Anchors the corpus proposal's explicit statement that it cannot confirm mechanism.
+    *Limitations:* Methodological review; no primary data; focuses on harm signals.
+    *Certainty Assessment:* 0.65 raw × 0.75 (general/methodological) = *discounted ~0.49* (limiting methodology)
+
+=== Noguchi et al.\ 2021 — Detection Algorithms for Safety Signals from Spontaneous Reports
+
+    *Full Citation:*: Noguchi Y, Tachi T, Teramachi H. Detection algorithms and attentive points of safety signal using spontaneous reporting systems as a clinical data source. _Briefings in Bioinformatics_. 2021;22(6):bbab347. @Noguchi2021SignalDetection
+    *DOI:*: #link("https://doi.org/10.1093/bib/bbab347")[10.1093/bib/bbab347]
+    *PMID:*: 34453158
+    *Study Design:*: Review of algorithms
+    *Key Findings:*:
+        - Spontaneous reporting systems detect adverse events not seen in trials and reflect real-world use.
+        - Signal detection by disproportionality is common; newer methods use time-to-onset and covariate adjustment.
+        - A core limitation is the absence of a denominator (total number exposed).
+    *Conclusion:* Supplies the algorithmic toolbox for extracting structure from heterogeneous pooled reports and names the denominator problem as the central interpretive limit — directly relevant to any drug-response corpus built from self-report.
+    *Limitations:* Adverse-event domain; review-level; no ME/CFS application.
+    *Certainty Assessment:* 0.55 raw × 0.75 (general/methodological) = *discounted ~0.41* (supporting/limiting methodology)
+
+=== Đogatović et al.\ 2026 — Inverse Pharmacovigilance Signal Detection for Drug Repurposing (FAERS)
+
+    *Full Citation:*: Đogatović K, Vučićević K, Kovačević M, Ćulafić M, Miljković B, Kovačević SV. Identification of Drug Repurposing Opportunities of Immunomodulatory Drugs for Inflammatory Bowel Disease Through Inverse Pharmacovigilance Signal Detection in the FAERS Database. _Journal of Clinical Medicine_. 2026;15(6):2172. @Dogatovic2026InversePharmacovigilance
+    *DOI:*: #link("https://doi.org/10.3390/jcm15062172")[10.3390/jcm15062172]
+    *PMID:*: 41899096
+    *Study Design:*: Computational signal-detection study
+    *Key Findings:*:
+        - Applies inverse pharmacovigilance signal detection to FAERS to infer beneficial (repurposing) effects of immunomodulatory drugs in IBD.
+        - Reads drug-response in a beneficial direction, not only harm.
+        - Demonstrates that a spontaneous-report corpus can be mined for therapeutic-mechanism hypotheses.
+    *Conclusion:* The closest published analogue to treating a spontaneous-report corpus as a source of therapeutic-mechanism signal. Supports feasibility of the corpus proposal's inferential direction while inheriting the same reporting biases.
+    *Limitations:* IBD, not ME/CFS; spontaneous reports carry reporting bias and no denominators; computational inference only, not validated clinically.
+    *Certainty Assessment:* 0.50 raw × 0.75 (general/methodological) = *discounted ~0.38* (supporting methodology)
+
+=== Richiardi et al.\ 2007 — Internet-Recruited Birth Cohort (NINFEA): Self-Selection
+
+    *Full Citation:*: Richiardi L, Baussano I, Vizzini L, Douwes J, Pearce N, Merletti F. Feasibility of recruiting a birth cohort through the Internet: the experience of the NINFEA cohort. _European Journal of Epidemiology_. 2007;22(12):831–837. @Richiardi2007NINFEAInternet
+    *DOI:*: #link("https://doi.org/10.1007/s10654-007-9194-2")[10.1007/s10654-007-9194-2]
+    *PMID:*: 17955333
+    *Study Design:*: Cohort feasibility study
+    *Key Findings:*:
+        - Internet recruitment of a birth cohort is feasible.
+        - Participants differ systematically from the source population (self-selection).
+        - Complete and partial responders also differ from one another.
+    *Conclusion:* Empirical basis for the self-selection bias that limits any web-collected drug-response corpus. Participants are not a random sample, so corpus-derived pathway rankings describe respondents, not the ME/CFS population.
+    *Limitations:* Pregnancy/birth cohort, not drug response; Italian population; no ME/CFS.
+    *Certainty Assessment:* 0.65 raw × 0.75 (general/methodological) = *discounted ~0.49* (limiting methodology)
+
+=== Micale et al.\ 2024 — Patient-Reported Reasons for Antihypertensive Medication Change from Social Media
+
+    *Full Citation:*: Micale C, Golder S, O'Connor K, Weissenbacher D, Gross R, Hennessy S, Gonzalez-Hernandez G. Patient-Reported Reasons for Antihypertensive Medication Change: A Quantitative Study Using Social Media. _Drug Safety_. 2024;47(1):81–91. @Micale2024SocialMediaMeds
+    *DOI:*: #link("https://doi.org/10.1007/s40264-023-01366-5")[10.1007/s40264-023-01366-5]
+    *PMID:*: 37995049
+    *Study Design:*: Retrospective NLP analysis of patient-posted medication reviews (WebMD)
+    *Key Findings:*:
+        - An NLP classifier extracts indications and reasons for antihypertensive medication change from patient posts.
+        - Social-media mining is inexpensive and less subject to survey response/recall pressures than formal surveys.
+        - Demonstrates feasibility of harvesting structured stop-reason data from patient forums at scale.
+    *Conclusion:* Direct precedent for the corpus's stop-reason field, showing that drug-response and discontinuation reasons can be extracted from self-selected patient text. It also inherits the biases of online self-report.
+    *Limitations:* Hypertension, not ME/CFS; social-media population is self-selected; NLP extraction error; no verification against clinical records.
+    *Certainty Assessment:* 0.55 raw × 0.75 (general/methodological) = *discounted ~0.41* (supporting methodology)
+
+=== Zong et al.\ 2022 — Computational Drug Repurposing Based on Electronic Health Records
+
+    *Full Citation:*: Zong N, Wen A, Moon S, Fu S, Wang L, Zhao Y, Yu Y, Huang M, Wang Y, Zheng G, Mielke MM, Cerhan JR, Liu H. Computational drug repurposing based on electronic health records: a scoping review. _NPJ Digital Medicine_. 2022;5(1):77. @Zong2022EHRrepurposing
+    *DOI:*: #link("https://doi.org/10.1038/s41746-022-00617-6")[10.1038/s41746-022-00617-6]
+    *PMID:*: 35701544
+    *Study Design:*: Scoping review
+    *Sample Size:*: 33 studies (2000–2022)
+    *Key Findings:*:
+        - EHRs provide longitudinal pathophysiological data that facilitate generation and validation of drug repurposing.
+        - Reviews data sources, prediction methods, target diseases, and validation approaches.
+        - Establishes a recognized pipeline from observational drug-response data to mechanistic/repurposing hypotheses.
+    *Conclusion:* Shows that observational drug-response data can generate mechanistic hypotheses at scale — the corpus proposal's goal — while making clear that validation is a separate, necessary step.
+    *Limitations:* Review; EHR rather than patient-report; no ME/CFS application; observational confounding.
+    *Certainty Assessment:* 0.60 raw × 0.75 (general/methodological) = *discounted ~0.45* (supporting methodology)
+
+=== Shahn et al.\ 2022 — Systematically Exploring Repurposing Effects of Antihypertensives
+
+    *Full Citation:*: Shahn Z, Spear P, Lu H, Jiang S, Zhang S, Deshmukh N, Xu S, Ng K, Welsch R, Finkelstein S. Systematically exploring repurposing effects of antihypertensives. _Pharmacoepidemiology and Drug Safety_. 2022;31(9):944–952. @Shahn2022AntihypertensiveRepurposing
+    *DOI:*: #link("https://doi.org/10.1002/pds.5491")[10.1002/pds.5491]
+    *PMID:*: 35689299
+    *Study Design:*: Target-trial-emulation observational study (linked claims + EHR)
+    *Key Findings:*:
+        - Emulates RCTs for confounding-adjusted effects of antihypertensives on 262 outcomes.
+        - Fits hierarchical models as post-processing to account for multiple comparisons.
+        - Demonstrates a principled pipeline for surfacing drug-response signals across many drugs and outcomes.
+    *Conclusion:* A working model for reading many drug trials against many hypotheses while controlling false discovery — structurally analogous to the corpus proposal's constraint-satisfaction instrument.
+    *Limitations:* Hypertension drugs/outcomes; observational confounding; claims data, not patient-reported mechanism; no ME/CFS.
+    *Certainty Assessment:* 0.60 raw × 0.75 (general/methodological) = *discounted ~0.45* (supporting methodology)
+
+=== Vaes et al.\ 2023 — Symptom-Based Clusters in ME/CFS
+
+    *Full Citation:*: Vaes AW, Van Herck M, Deng Q, Delbressine JM, Jason LA, Spruit MA. Symptom-based clusters in people with ME/CFS: an illustration of clinical variety in a cross-sectional cohort. _Journal of Translational Medicine_. 2023;21(1):112. @Vaes2023SymptomClusters
+    *DOI:*: #link("https://doi.org/10.1186/s12967-023-03946-6")[10.1186/s12967-023-03946-6]
+    *PMID:*: 36765375
+    *Study Design:*: Cross-sectional cohort with self-organizing-map clustering
+    *Sample Size:*: 337 ME/CFS participants; independent reproducibility set n=252
+    *Key Findings:*:
+        - 45 symptom clusters identified from the 79-symptom DePaul Symptom Questionnaire.
+        - Clusters partially reproducible in an independent dataset.
+        - Demonstrates substantial within-diagnosis heterogeneity.
+    *Conclusion:* Establishes the population structure any mechanism-ranking corpus must respect: ME/CFS is not one disease state, so a single pooled average is misleading and subgroup structure is essential.
+    *Limitations:* Cross-sectional; self-reported symptoms; clustering solution stability only partial; no drug-response data.
+    *Certainty Assessment:* 0.65 raw × 1.00 (ME/CFS cohort) = *discounted ~0.65* (supporting context)
+
+=== Calfee et al.\ 2018 — ARDS Subphenotypes and Differential Response to Simvastatin
+
+    *Full Citation:*: Calfee CS, Delucchi KL, Sinha P, Matthay MA, Hackett J, Shankar-Hari M, McDowell C, Laffey JG, O'Kane CM, McAuley DF. Acute respiratory distress syndrome subphenotypes and differential response to simvastatin: secondary analysis of a randomised controlled trial. _The Lancet Respiratory Medicine_. 2018;6(9):691–698. @Calfee2018ARDSsubphenotypes
+    *DOI:*: #link("https://doi.org/10.1016/S2213-2600(18)30177-2")[10.1016/S2213-2600(18)30177-2]
+    *PMID:*: 30078618
+    *Study Design:*: Secondary analysis of the HARP-2 randomized controlled trial
+    *Key Findings:*:
+        - Two ARDS subphenotypes identified in US trials also exist in a non-US (UK/Ireland) population.
+        - The subphenotypes respond differently to simvastatin.
+        - A trial that is null overall can contain a real, mechanism-revealing differential response.
+    *Conclusion:* The canonical demonstration that heterogeneous drug response within a syndrome discloses subtypes — exactly the inferential move the corpus proposal generalizes across many drugs. Supports the proposal's logic while showing that mechanism inference requires predefined subphenotypes.
+    *Limitations:* ARDS, not ME/CFS; secondary (post-hoc) analysis; subphenotypes predefined from prior work, not discovered de novo.
+    *Certainty Assessment:* 0.75 raw × 0.75 (general/mechanism) = *discounted ~0.56* (supporting mechanism)
+
+=== Flávio-Reis et al.\ 2025 — Open-Label Placebo for Chronic Low Back Pain
+
+    *Full Citation:*: Flávio-Reis VHP, Pessoa-Gonçalves YM, Diaz CAV, Lamoglia ASA, Desidério CS, Oliveira CJF. Open label placebo for chronic low back pain: a systematic review and meta-analysis of randomized controlled trials. _Pain Management_. 2025;15(3):149–160. @FlavioReis2025OpenLabelPlacebo
+    *DOI:*: #link("https://doi.org/10.1080/17581869.2025.2467025")[10.1080/17581869.2025.2467025]
+    *PMID:*: 39962721
+    *Study Design:*: Systematic review and meta-analysis of RCTs
+    *Sample Size:*: 4 RCTs; 171 OLP vs 161 control
+    *Key Findings:*:
+        - Open-label placebo produced a modest pain reduction (MD −0.62 on numerical rating scale; 95% CI −1.09 to −0.14).
+        - Effect slightly greater during shorter intervention periods.
+        - Certainty of evidence rated very low.
+    *Conclusion:* Direct evidence that non-deceptive expectation alone moves chronic-illness symptoms. An unblinded drug-response corpus therefore cannot attribute reported benefit to the drug's mechanism — the mandatory null/critique anchor.
+    *Limitations:* Chronic low back pain, not ME/CFS; small pooled sample; very low certainty; heterogeneous durations.
+    *Certainty Assessment:* 0.55 raw × 0.75 (general/mechanism) = *discounted ~0.41* (null/critique)
+
+=== Kleine-Borgmann & Bingel\ 2025 — Open-Label Nondeceptive Placebos
+
+    *Full Citation:*: Kleine-Borgmann J, Bingel U. Open-label nondeceptive placebos. _Handbook of Clinical Neurology_. 2025;213:51–58. @KleineBorgmann2025OpenLabelPlacebos
+    *DOI:*: #link("https://doi.org/10.1016/B978-0-443-29884-4.00020-0")[10.1016/B978-0-443-29884-4.00020-0]
+    *PMID:*: 41161969
+    *Study Design:*: Narrative review
+    *Key Findings:*:
+        - Open-label placebos can improve subjective outcomes (pain, symptom severity) without deception.
+        - Efficacy varies by condition and treatment duration.
+        - Neurobiologic studies suggest OLP shares mechanisms with traditional placebo, but mechanisms remain unclear and robustness concerns persist.
+    *Conclusion:* Reinforces the corpus proposal's honest limit: subjective response domains are placebo-contaminated and cannot by themselves confirm mechanism. Supports restricting corpus claims to hypothesis generation.
+    *Limitations:* Narrative review; not ME/CFS-specific; mechanism uncertainty; generalizability concerns noted by the authors.
+    *Certainty Assessment:* 0.55 raw × 0.75 (general/mechanism) = *discounted ~0.41* (null/critique)
