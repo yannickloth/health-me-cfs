@@ -271,7 +271,7 @@
           version = "0.2.1";
           src = ./nix/zvec-grep;
           nodejs = pkgs.nodejs_24;
-          npmDepsHash = "sha256-hqK9FrJrhemmbWDqFfMSPLMY/o7h0aR/7s0ebS/xOwY=";
+          npmDepsHash = "sha256-jYjINNEq5gCqTzO5ni6Fdnib2kh3e7kMX33gZNhfBHg=";
           npmRebuildFlags = [ "--ignore-scripts" ];
           dontNpmBuild = true;
           # Belt-and-suspenders: even with --ignore-scripts this env var stops

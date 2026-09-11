@@ -5,5 +5,8 @@
   "private": true,
   "dependencies": {
     "@zvec/zvec-grep": "0.2.1"
+  },
+  "overrides": {
+    "sharp": "0.35.4"
   }
 }
