@@ -5,13 +5,13 @@
 **Plan file:** `ops/plans/pharmacodiagnostic-corpus-integration-plan.md`
 **Date:** 2026-09-10
 **Parent topic:** root (population-scale extension of ch33/ch34 single-patient pharmacodiagnostics; bridge to ch46)
-**Child subtrees:** (none yet)
+**Child subtrees:** `eckey2025-mechanism-reanalysis`
 
 ## Nodes
 
 | ID | Title | Env | Cert | mech | tx | expl | math | dx | Status | Children |
 |----|-------|-----|------|------|----|------|------|----|--------|----------|
-| 2.1 | Re-analyse Eckey 2025 as mechanism-ranking pilot | proposal | 0.45 | 1 | 0 | 3 | 2 | 4 | ⬜ | — |
+| 2.1 | Re-analyse Eckey 2025 as mechanism-ranking pilot | proposal | 0.45 | 1 | 0 | 3 | 2 | 4 | ⏭️ | subtrees/eckey2025-mechanism-reanalysis.md |
 | 1.1 | Pooled nulls more informative than positives | hypothesis | 0.40 | 2 | 0 | 3 | 3 | 4 | ⬜ | — |
 | 7.2 | Shared-vs-idiosyncratic variance decomposition | proposal | 0.40 | 1 | 0 | 2 | 4 | 3 | ⬜ | — |
 | 2.2 | Minimum viable pilot — structured re-interview (n=50) | proposal | 0.50 | 0 | 0 | 2 | 2 | 4 | ⬜ | — |

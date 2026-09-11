@@ -385,3 +385,4 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | mitochondrial-dysfunction-mecfs-longcovid | [subtrees/mitochondrial-dysfunction-mecfs-longcovid.md](subtrees/mitochondrial-dysfunction-mecfs-longcovid.md) | 2026-09-04 | 35 | 0 | 🔵 in progress |
 | autism-social-perception-stigma | [subtrees/autism-social-perception-stigma.md](subtrees/autism-social-perception-stigma.md) | 2026-09-04 | 29 | 4 | 🔵 in progress |
 | pharmacodiagnostic-corpus | [subtrees/pharmacodiagnostic-corpus.md](subtrees/pharmacodiagnostic-corpus.md) | 2026-09-10 | 34 | 0 | ⬜ pending |
+| eckey2025-mechanism-reanalysis | [subtrees/eckey2025-mechanism-reanalysis.md](subtrees/eckey2025-mechanism-reanalysis.md) | 2026-09-10 | 20 | 0 | 🔵 in progress |

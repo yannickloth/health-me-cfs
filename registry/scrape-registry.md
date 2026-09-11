@@ -13,6 +13,21 @@ Prevents re-processing of already-integrated content.
 
 ---
 
+## Eckey 2025 Mechanism Re-analysis (eckey2025-mechanism-reanalysis) Literature Search
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-09-10 | 40 queries (38 PubMed + 1 PMC + 1 Crossref) across the required categories: drug-to-pathway projection (drug-set enrichment analysis DSEA, gep2pep, network proximity), data-driven subgroup identification, placebo/expectation network structure, popularity confounding (search volume, social-media volume, infodemiology), ME/CFS patient-reported ranking validity, and indirect biochemical drug→target mappings (LDN→TRPM3, autonomic modulators). **Direct topic = 0 studies** (expected — secondary analysis of an existing dataset). 13 new papers added: Napolitano2016DrugSetEnrichment, Napolitano2019gep2pep, Lipkovich2017SubgroupIdentification, WangRS2017PlaceboNetwork, Simmering2014WebSearchUtilization, Stallion2026GLP1SocialMedia, YomTov2013WebSearchSurveillance, Rekeland2022PROMmecfs, Haywood2014PROMsystematic, Dorczok2026InterventionHelpfulness, Lohn2024TRPM3LDN, Mar2020POTSMechanisms, Hasan2020POTSMedications. Reused, not duplicated: Eckey2025PatientReported (driving dataset), parent pharmacodiagnostic-corpus method set, ME/CFS treatment corpus (Tolle2020, Stein2023, CastroMarrero2021CoQ10, Crosby2021LDA, RodriguezFreire2026, Xiong2025BioMapAI, Ruan2025rapamycin, Wilshire2018, WirthLohn2024). All DOIs verified from PubMed ArticleIdList. Null/critique anchors: WangRS2017 (structured placebo network), Simmering2014/Stallion2026 (popularity confounder), Eckey's own stated confounds. Gap finding: no direct split-half ranking-reliability standard for patient-reported treatment-benefit rankings was found. |
+| PMC (PubMed Central) | 2026-09-10 | PMC12280984 (Eckey 2025) full text + HTML: verified design (TREATME, n=3,925), NAS method (≥20 responses; oral non-liposomal vitamin C reference; FDR-adjusted p), four clusters, and **data availability — public Datasets S1–S3 + SI Appendix Tables S1–S6** (establishes re-analysis feasibility). |
+| Crossref API | 2026-09-10 | DOI verification for 13 candidate titles. |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed API queries (38 queries + esummary/efetch batches, 13 PMIDs) | pubmed/eutils | 2026-09-10 | — | ops/research/search-log-eckey2025-mechanism-reanalysis-20260910.md, ops/research/literature-eckey2025-mechanism-reanalysis-20260910.md, bib/treatments.bib, appendix-h `<sec:bib-eckey2025-mechanism-reanalysis>` — mechanism-ranking re-analysis methodology (13 new papers) |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC12280984/ | pubmed/pmc | 2026-09-10 | — | Eckey2025PatientReported dataset feasibility: NAS method, clusters, public Datasets S1–S3 (annotation only; bib entry already present) |
+| Crossref API (13 title lookups) | crossref | 2026-09-10 | — | DOI verification for bib/treatments.bib (no separate artifact) |
+
+---
+
 ## Pharmacodiagnostic Corpus (pharmacodiagnostic-corpus) Literature Search
 | Source | Last Scraped | Notes |
 |--------|--------------|-------|
