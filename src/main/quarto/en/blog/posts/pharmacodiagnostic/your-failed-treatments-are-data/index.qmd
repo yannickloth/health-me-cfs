@@ -1,6 +1,6 @@
 ---
 title: "Your Failed Treatments Are Data"
-description: "Every drug you try is a probe of one biological node. A trial that works tells you the node was active; a trial that fails inside its proper dose window tells you it was not the bottleneck. Pooled across patients, these probes become a map. And the counter-intuitive part: the failures may be worth more than the successes."
+description: "Every drug you try is a probe of one biological node. A trial that works suggests the node was active; a trial that fails inside its proper dose window suggests it was not the bottleneck. Pooled across patients, these probes could become a map. And the counter-intuitive part: the failures may be worth more than the successes at drawing it."
 author: "Yannick Loth"
 date: "2026-09-11"
 categories: [ME/CFS, Treatment, Methods, Pharmacology]
@@ -9,41 +9,43 @@ lang: en
 
 You have tried things. Everyone with ME/CFS has. A low dose of naltrexone that helped the fog for two months and then stopped. A stimulant that made the mornings possible and the afternoons worse. Antihistamines that fixed a symptom you did not know was mast-cell related. A rack of supplements of which at most one did anything. A drug a specialist suggested that did nothing at all.
 
-The standard reading of this history is: *some things worked, most did not, and that is just how it goes.* This post makes a different claim. Each of those trials was a small experiment on one biological node — and the results, read together, are not noise. They are evidence.
+The standard reading of this history is: *some things worked, most did not, and that is just how it goes.* This post makes a different claim. Each of those trials was a small experiment on one biological node — and the results, read together, could be evidence rather than noise, under the model this series sets out.
 
 ## A drug trial is a constraint, not a story
 
 The primary document develops this idea under the name **pharmacodiagnostics**: using a drug response to infer which mechanism is active, not just whether the drug is worth continuing. The logic is simple.
 
-Every drug in the ME/CFS toolkit works on a specific target. Low-dose naltrexone engages TLR4 and the Nrf2 pathway, TRPM3 channels, and orexin neurons — each at a different dose. Low-dose aripiprazole acts as a partial agonist at dopamine D2/D3 receptors on microglia. Ketotifen stabilises mast cells. CoQ10 supports the mitochondrial electron transport chain. None of these is a "treatment for ME/CFS" in general. Each is a probe of one node.
+Every drug in the ME/CFS toolkit works on a specific target. Low-dose naltrexone engages TLR4 and the Nrf2 pathway [@Younger2013; @Kucic2021LDNmicroglia; @Kwilasz2021NTXmicroglia], TRPM3 channels [@Cabanas2018trpm3], and — by inference, never directly measured — orexin neurons [@Toljan2018; @Dara2023], with the dose needed for each still uncertain. Low-dose aripiprazole is a partial agonist at dopamine D2/D3 receptors, and its proposed action on microglia is mechanistically plausible but not yet validated in humans [@Burris2002aripiprazoleD2; @Shapiro2003aripiprazole; @Crosby2021LDA]. Ketotifen stabilises mast cells [@Weinstock2024Ketotifen; @Afrin2013MCAS]. CoQ10 supports the mitochondrial electron transport chain [@CastroMarrero2013mito; @Maes2009CoQ10]. None of these is a "treatment for ME/CFS" in general. Each is a probe of one node.
 
-When a probe works, it tells you something: that node was active, and it mattered enough that correcting it changed your symptoms. When a probe fails *within its proper dose range*, it tells you the opposite: that node was not the thing limiting you. The null is information [(a point the dose-response series makes for one patient at a time)](../../treatment/dose-is-diagnostic-ldn/index.qmd).
+When a probe works, it suggests that node was active, and that correcting it mattered enough to change your symptoms. When a probe fails *within its proper dose range*, it suggests the opposite: that node was not the thing limiting you. The null is information, under the assumptions of the model [(a point the dose-response series makes for one patient at a time)](../../treatment/dose-is-diagnostic-ldn/index.qmd).
 
-This is not speculation about a future technology. It is how a clinician already reasons, in an informal way, when they say: "We tried an antihistamine and it didn't help, so let's look at the autonomic side." The paper just makes the logic explicit and systematic.
+The paper does not propose a future technology; it just makes explicit how a clinician already reasons, in an informal way: "We tried an antihistamine and it didn't help, so let's look at the autonomic side." It turns that intuition into a systematic method.
 
 ## The pool is what makes it a signal
 
-Here is where the idea becomes more than a nice way to think. One patient's drug history is a handful of constraints. Hundreds of patients' histories, pooled, become something no single trial can be: a population-level picture of which nodes are consistently worth probing and which are consistently dead ends.
+One patient's drug history is a handful of constraints. Hundreds of patients' histories, pooled, become something no single trial can be: a population-level picture of which nodes are consistently worth probing and which are consistently dead ends.
 
-This is not hand-waving. Pooling single-patient trials into a group estimate is an established statistical method — used in pediatric ADHD, in physiotherapy, in hypertension — and multi-level models can combine many single-patient experiments while handling the complications (trend, carryover effects, autocorrelation) that make naive averaging misleading [@Punja2016Nof1Aggregation; @Schmid2022BayesianNof1; @Zucker2010]. The method exists. What does not exist is a corpus of ME/CFS drug reports captured in a form the method can use.
+Pooling single-patient trials into a group estimate is an established statistical method — used in pediatric ADHD, in physiotherapy, in hypertension — and multi-level models can combine many single-patient experiments while handling the complications (trend, carryover effects, autocorrelation) that make naive averaging misleading [@Punja2016Nof1Aggregation; @Nikles2022Nof1Physiotherapy; @Samuel2023Nof1RCT; @Schmid2022BayesianNof1; @Zucker2010]. The method exists. What does not exist is a corpus of ME/CFS drug reports captured in a form the method can use.
 
-The statistics are the least interesting part. The interesting part is what the pooled pattern could show that no laboratory currently can: a ranked list of which pathways are actually rate-limiting in this disease — derived not from theory but from the collective response of the people who have it.
+The statistics are the least interesting part. The interesting part is what the pooled pattern could show that no laboratory currently can: a ranked list of candidate rate-limiting pathways — derived not from theory but from the collective response of the people who have it. The pool over-represents patients well enough to report — mostly mild-to-moderate — and cannot speak for severe or very-severe disease.
 
 ## The counter-intuitive part: failures may be the better data
 
 Everyone assumes the valuable reports are the successes. *This helped me.* But the two kinds of report are not symmetrically trustworthy.
 
-Positive reports are inflated. Anyone who tries a treatment they believe in can improve for reasons that have nothing to do with the drug's mechanism — expectation moves real symptoms, especially subjective ones like pain and fatigue, even when a placebo is given openly with full disclosure [@FlavioReis2025OpenLabelPlacebo; @KleineBorgmann2025OpenLabelPlacebos]. Communities reinforce each other: a plausible treatment gets tried enthusiastically, early good experiences get reported, and a consensus forms that may not survive a controlled test. The PACE trial is the paper's standing example of what happens when a treatment's reputation outruns its evidence.
+Positive reports are inflated. Anyone who tries a treatment they believe in can improve for reasons that have nothing to do with the drug's mechanism — expectation moves real symptoms, especially subjective ones like pain and fatigue, even when a placebo is given openly with full disclosure [@FlavioReis2025OpenLabelPlacebo; @KleineBorgmann2025OpenLabelPlacebos]. Communities reinforce each other: a plausible treatment gets tried enthusiastically, early good experiences get reported, and a consensus forms that may not survive a controlled test [@Loth2026website]. The PACE trial is the paper's standing example of what happens when a treatment's reputation outruns its evidence [@White2011pace; @Wilshire2018].
 
-Failed trials are less easy to inflate. A patient cannot expect themselves into *no* effect. A null report is harder to manufacture than a positive one, and it is systematically missing from the published record — negative results are the least likely to be written up and the easiest to forget. This means the reports a corpus that *actively solicits failures* would capture are precisely the ones the literature discards. In a disease where most treatments do not work for most people, that missing stratum may be the most informative.
+Failed trials are less easy to inflate. A patient cannot expect themselves into *no* effect. A null report is harder to manufacture than a positive one, and it is systematically missing from the published record — negative results are generally the least likely to be written up and the easiest to forget, though an unblinded corpus also introduces its own reporting pressures [@Cutroneo2023Disproportionality]. This means the reports a corpus that *actively solicits failures* would capture are precisely the ones the literature discards. In a disease where most treatments do not work for most people, that missing stratum may be the most informative.
 
 This is a hypothesis, not a fact. It has a test — if null reports replicate better across independent groups of patients than positive reports do, the asymmetry is real — and it has a caveat that this series will not drop: nulls are not magically protected either. A trial that happens to coincide with a spontaneous improvement can record a benefit that was never the drug's, and regression to the mean pulls extreme symptoms toward the middle, which can manufacture a null. Whether failures are *net* more trustworthy is a question to be measured, not assumed.
 
 ## Why this matters
 
-If the idea holds, it changes the status of something you already have. Your medication history — every trial, every dose you titrated, every drug you abandoned because it did nothing — is not a private medical footnote. It is a contribution to the only kind of evidence a biomarker-less disease can currently produce.
+If the idea holds, it changes the status of something you already have. Your medication history — every trial, every dose you titrated, every drug you abandoned because it did nothing — is not a private medical footnote. It is a contribution to the only kind of evidence a biomarker-less disease can currently produce. This does not mean trialling treatments to produce data: drug trials need a prescriber, and this series does not encourage self-experimentation. The corpus aggregates what patients have already done under clinical care.
 
 The catch is that almost none of it is recorded in a form that can be pooled. That is the subject of the next article.
+
+*This is not medical advice. It describes a research proposal. No one should start, stop, or change a treatment on the basis of a pooled community ranking.*
 
 *Next: [The Corpus That Reads Your Medicine Cabinet](../the-corpus-that-reads-your-medicine-cabinet/index.qmd) — what a report has to contain, and why "LDN helped me" pools to nothing.*
 

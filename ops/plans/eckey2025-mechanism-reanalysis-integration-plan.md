@@ -30,9 +30,9 @@
 
 | # | Idea / hypothesis | Tier | Certainty | Status | Notes |
 |---|---|---|---|---|---|
-| 2.1 | Re-analyse Eckey 2025 as mechanism-ranking pilot | — | 0.45 | 🔵 in progress | Parent subtree node 2.1; core topic. Phase 1: 13 papers, no direct study (expected). Phase 2: PARTIAL |
-| 2.1a | Subgroup-specific mechanism ranking replicates in held-out half (ρ>0.5) | — | 0.45 | 🔵 in progress | Falsifiable prediction from brainstorm. Phase 1 gap: no split-half ranking-reliability standard found. Phase 2: no `#hypothesis-box` (PARTIAL cap) → `#speculation`/`#open-question` |
-| 2.1b | Ranking not explained by treatment popularity | — | 0.40 | 🔵 in progress | Alternative-explanation control. Phase 1: popularity measures found (Simmering2014, Stallion2026, YomTov2013). Phase 2: `#open-question` |
+| 2.1 | Re-analyse Eckey 2025 as mechanism-ranking pilot | — | 0.45 | ✅ done | Parent subtree node 2.1; core topic. Phase 1: 13 papers, no direct study (expected). Phase 2: PARTIAL |
+| 2.1a | Subgroup-specific mechanism ranking replicates in held-out half (ρ>0.5) | — | 0.45 | ✅ done | Falsifiable prediction from brainstorm. Phase 1 gap: no split-half ranking-reliability standard found. Phase 2: no `#hypothesis-box` (PARTIAL cap) → `#speculation`/`#open-question` |
+| 2.1b | Ranking not explained by treatment popularity | — | 0.40 | ✅ done | Alternative-explanation control. Phase 1: popularity measures found (Simmering2014, Stallion2026, YomTov2013). Phase 2: `#open-question` |
 | 1.1 | Vitamin C reference makes projection self-calibrating | — | 0.42 | ⬜ pending | Phase 4 brainstorm cat 1 |
 | 1.2 | Signal is cluster discordance, not mean benefit | — | 0.38 | ⬜ pending | Phase 4 brainstorm cat 1 |
 | 1.3 | Null-projection ranks target engagement without benefit | — | 0.33 | ⬜ pending | Phase 4 brainstorm cat 1 |
@@ -312,3 +312,11 @@ Pass 3: 0 remaining HIGH/CRITICAL. Status: **CONVERGED**.
 | 13 | RAN | commit (see Phase 13 report) |
 
 **0 OMISSION. Ledger clean — Phase 13 may proceed.**
+
+## Phase 13 — Commit
+
+- **3 commits:** `4e1c9493` content(paper): integrate Eckey 2025 mechanism re-analysis; `23ae3552` docs(bib): add Eckey mechanism re-analysis references; `8f928f6b` docs(ops): record Eckey mechanism re-analysis cycle.
+- Shared-file entries verified present in HEAD (bib keys, registry rows, plan). No parallel-stream loss.
+- Excluded (foreign, untouched): `.opencode/agents/*.md`, `opencode.json`, `src/main/quarto/{en,fr,de}/blog/posts/pharmacodiagnostic/*.qmd` (parent cycle WIP).
+- Post-commit `nix build`: 0 errors.
+- Queue row `eckey2025-mechanism-reanalysis` → `✅ done` (update in this commit's successor as final step).
