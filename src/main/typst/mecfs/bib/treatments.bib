@@ -5695,3 +5695,209 @@
   note    = {Modern review of the Hill (Hill-Langmuir) equation: derivation status, interpretive limits of the Hill coefficient, and its proper use as a descriptive occupancy/response function in pharmacology.},
   keywords = {Hill equation, Hill-Langmuir, pharmacodynamics, review}
 }
+
+@article{Napolitano2016DrugSetEnrichment,
+  author  = {Napolitano, Francesco and Sirci, Francesco and Carrella, Diego and di Bernardo, Diego},
+  title   = {Drug-set enrichment analysis: a novel tool to investigate drug mode of action},
+  journal = {Bioinformatics},
+  year    = {2016},
+  volume  = {32},
+  number  = {2},
+  pages   = {235--241},
+  doi     = {10.1093/bioinformatics/btv536},
+  pmid    = {26415724},
+  note    = {Introduces Drug-Set Enrichment Analysis (DSEA): groups drugs by shared mechanism of action or target and tests whether a query signature is enriched across the drug set, recovering mode-of-action at the mechanism level rather than the single-drug level. The core method precedent for projecting a treatment list onto target/mechanism classes. Demonstrated on Connectivity Map perturbation data.},
+  keywords = {drug-set enrichment, mechanism of action, method, drug-disease projection},
+  research_stream = {eckey2025-mechanism-reanalysis},
+  certainty = {0.65}
+}
+
+@article{Napolitano2019gep2pep,
+  author  = {Napolitano, Francesco and Carrella, Diego and Gao, Xin and di Bernardo, Diego},
+  title   = {gep2pep: a Bioconductor package for the creation and analysis of pathway-based expression profiles},
+  journal = {Bioinformatics},
+  year    = {2019},
+  volume  = {36},
+  number  = {6},
+  pages   = {1944--1945},
+  doi     = {10.1093/bioinformatics/btz803},
+  pmid    = {31647521},
+  note    = {Software implementation of pathway-based expression profiles: converts drug-perturbation signatures into pathway-level profiles, enabling mechanism/pathway-level aggregation of drug sets. Extends DSEA from drug sets to pathway resolution; supports the treatment-to-pathway projection the Eckey re-analysis requires.},
+  keywords = {pathway enrichment, drug mechanism, software, method},
+  research_stream = {eckey2025-mechanism-reanalysis},
+  certainty = {0.55}
+}
+
+@article{Lipkovich2017SubgroupIdentification,
+  author  = {Lipkovich, Ilya and Dmitrienko, Alex and D'Agostino, Ralph B.},
+  title   = {Tutorial in biostatistics: data-driven subgroup identification and analysis in clinical trials},
+  journal = {Statistics in Medicine},
+  year    = {2017},
+  volume  = {36},
+  number  = {1},
+  pages   = {136--196},
+  doi     = {10.1002/sim.7064},
+  pmid    = {27488683},
+  note    = {Comprehensive methodological tutorial on data-driven subgroup identification from clinical/observational outcome data: virtual twins, recursive partitioning, model-based recursive partitioning, and multiplicity control. The canonical reference for the statistical machinery needed to derive subgroup-specific treatment-response rankings and to guard against overfitting when many subgroups are searched.},
+  keywords = {subgroup identification, responder, biostatistics, method, multiplicity},
+  research_stream = {eckey2025-mechanism-reanalysis},
+  certainty = {0.70}
+}
+
+@article{WangRS2017PlaceboNetwork,
+  author  = {Wang, Rui-Sheng and Hall, Kathryn T. and Giulianini, Franco and Passow, Dani and Kaptchuk, Ted J. and Loscalzo, Joseph},
+  title   = {Network analysis of the genomic basis of the placebo effect},
+  journal = {JCI Insight},
+  year    = {2017},
+  volume  = {2},
+  number  = {11},
+  pages   = {e93911},
+  doi     = {10.1172/jci.insight.93911},
+  pmid    = {28570268},
+  note    = {Maps the genomic/biological basis of the placebo response as a network of genes and pathways distinct from the drug target, showing that expectation and context engage measurable molecular programs. Directly relevant to the Eckey re-analysis's alternative explanation: an apparent 'mechanism ranking' can arise from expectation effects that are themselves biologically structured rather than from the drug's target.},
+  keywords = {placebo effect, expectation, network medicine, confounding, method},
+  research_stream = {eckey2025-mechanism-reanalysis},
+  certainty = {0.55}
+}
+
+@article{Simmering2014WebSearchUtilization,
+  author  = {Simmering, Jacob E. and Polgreen, Linnea A. and Polgreen, Philip M.},
+  title   = {Web search query volume as a measure of pharmaceutical utilization and changes in prescribing patterns},
+  journal = {Research in Social and Administrative Pharmacy},
+  year    = {2014},
+  volume  = {10},
+  number  = {6},
+  pages   = {896--903},
+  doi     = {10.1016/j.sapharm.2014.01.003},
+  pmid    = {24603135},
+  note    = {Demonstrates that internet search-query volume tracks pharmaceutical utilization and prescribing changes, validating search volume as a proxy for treatment popularity/discussion. Supplies the operational measure of the popularity confounder that the Eckey mechanism-ranking re-analysis must control for: if the treatment-benefit ranking tracks search popularity, the mechanism projection is not pharmacological.},
+  keywords = {search volume, drug utilization, popularity, confounder, infodemiology},
+  research_stream = {eckey2025-mechanism-reanalysis},
+  certainty = {0.55}
+}
+
+@article{Stallion2026GLP1SocialMedia,
+  author  = {Stallion, Chloe and Khan, Tamkeen and Guerrero, Christian and Tsipas, Stavros and Wozniak, Gregory},
+  title   = {Social Media Discussions of Anti-Diabetic Drugs and the Popularity of {GLP-1} Therapies: Content Analysis},
+  journal = {JMIR Diabetes},
+  year    = {2026},
+  volume  = {11},
+  pages   = {e87590},
+  doi     = {10.2196/87590},
+  pmid    = {42684325},
+  note    = {Content analysis showing that social-media discussion volume and sentiment track and amplify the popularity of a drug class (GLP-1 receptor agonists) beyond prescribing data. Concrete evidence that community discussion can drive a drug's perceived standing — the mechanism by which a patient-reported ranking could be popularity rather than pharmacology.},
+  keywords = {social media, drug popularity, GLP-1, content analysis, confounding},
+  research_stream = {eckey2025-mechanism-reanalysis},
+  certainty = {0.50}
+}
+
+@article{YomTov2013WebSearchSurveillance,
+  author  = {Yom-Tov, Elad and Gabrilovich, Evgeniy},
+  title   = {Postmarket drug surveillance without trial costs: discovery of adverse drug reactions through large-scale analysis of web search queries},
+  journal = {Journal of Medical Internet Research},
+  year    = {2013},
+  volume  = {15},
+  number  = {6},
+  pages   = {e124},
+  doi     = {10.2196/jmir.2614},
+  pmid    = {23778053},
+  note    = {Shows large-scale web search queries carry pharmacologically interpretable signal (adverse-drug-reaction detection) and can complement or precede formal reporting. Supports using search/discussion volume as an independent popularity channel, while also showing web data can carry genuine pharmacological signal — a two-edged precedent for the re-analysis's popularity control.},
+  keywords = {web search, pharmacovigilance, infodemiology, method},
+  research_stream = {eckey2025-mechanism-reanalysis},
+  certainty = {0.50}
+}
+
+@article{Rekeland2022PROMmecfs,
+  author  = {Rekeland, Ingrid G. and S{\o}rland, Kari and Bruland, Ove and Risa, Kristin and Alme, Kine and Dahl, Olav and Tronstad, Karl J. and Mella, Olav and Fluge, {\O}ystein},
+  title   = {Activity monitoring and patient-reported outcome measures in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome patients},
+  journal = {PLoS One},
+  year    = {2022},
+  volume  = {17},
+  number  = {9},
+  pages   = {e0274472},
+  doi     = {10.1371/journal.pone.0274472},
+  pmid    = {36121803},
+  note    = {Compares device-measured activity with patient-reported outcome measures in ME/CFS, quantifying the relationship and divergence between self-report and objective activity. Directly informs the measurement-validity limitation of any patient-reported treatment ranking: self-reported benefit and objectively measured function are related but not interchangeable.},
+  keywords = {patient-reported outcome, activity monitoring, ME/CFS, measurement validity},
+  research_stream = {eckey2025-mechanism-reanalysis},
+  certainty = {0.55}
+}
+
+@article{Haywood2014PROMsystematic,
+  author  = {Haywood, K. L. and Collin, S. M. and Crawley, E.},
+  title   = {Assessing severity of illness and outcomes of treatment in children with Chronic Fatigue Syndrome/Myalgic Encephalomyelitis ({CFS/ME}): a systematic review of patient-reported outcome measures ({PROMs})},
+  journal = {Child: Care, Health and Development},
+  year    = {2014},
+  volume  = {40},
+  number  = {6},
+  pages   = {806--824},
+  doi     = {10.1111/cch.12135},
+  pmid    = {24661148},
+  note    = {Systematic review of patient-reported outcome measures in paediatric CFS/ME, cataloguing which instruments have evidence of reliability, validity, and responsiveness to change. Documents that PROM selection materially affects measured treatment response — a key methodological caveat for any benefit ranking derived from self-report.},
+  keywords = {patient-reported outcome, PROM, validity, ME/CFS, method},
+  research_stream = {eckey2025-mechanism-reanalysis},
+  certainty = {0.55}
+}
+
+@article{Dorczok2026InterventionHelpfulness,
+  author  = {Dorczok, Marie Celine and Mossaheb, Nilufar and Mittmann, Gloria and Thomas, Marina F. and Bartova, Lucie and Schrank, Beate and Steiner-Hofbauer, Verena},
+  title   = {Use and Perceived Helpfulness of Different Intervention Strategies in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome and Depression},
+  journal = {Journal of Clinical Medicine},
+  year    = {2026},
+  volume  = {15},
+  number  = {2},
+  pages   = {849},
+  doi     = {10.3390/jcm15020849},
+  pmid    = {41598786},
+  note    = {Independent patient survey ranking self-management and intervention strategies by perceived helpfulness in ME/CFS (with a depression comparison group). A second patient-reported benefit-ranking dataset beyond Eckey 2025, usable as an external concordance check and as a test of whether Eckey's ranking pattern generalizes across survey instruments and populations.},
+  keywords = {patient-reported, perceived helpfulness, ME/CFS, survey, ranking},
+  research_stream = {eckey2025-mechanism-reanalysis},
+  certainty = {0.45}
+}
+
+@article{Lohn2024TRPM3LDN,
+  author  = {L{\"o}hn, Matthias and Wirth, Klaus Josef},
+  title   = {Potential pathophysiological role of the ion channel {TRPM3} in myalgic encephalomyelitis/chronic fatigue syndrome ({ME/CFS}) and the therapeutic effect of low-dose naltrexone},
+  journal = {Journal of Translational Medicine},
+  year    = {2024},
+  volume  = {22},
+  number  = {1},
+  pages   = {630},
+  doi     = {10.1186/s12967-024-05412-3},
+  pmid    = {38970055},
+  note    = {Proposes that TRPM3 channel dysregulation contributes to ME/CFS and that low-dose naltrexone acts partly through TRPM3 modulation — supplying an explicit drug-to-molecular-target mapping (LDN to TRPM3) inside ME/CFS. Exactly the kind of target assignment the Eckey re-analysis needs to project a treatment onto a mechanism; conversely its single-mechanism focus illustrates the mapping's uncertainty when a drug has several targets.},
+  keywords = {TRPM3, low-dose naltrexone, mechanism of action, drug-target mapping, ME/CFS},
+  research_stream = {eckey2025-mechanism-reanalysis},
+  certainty = {0.45}
+}
+
+@article{Mar2020POTSMechanisms,
+  author  = {Mar, Philip L. and Raj, Satish R.},
+  title   = {Postural Orthostatic Tachycardia Syndrome: Mechanisms and New Therapies},
+  journal = {Annual Review of Medicine},
+  year    = {2020},
+  volume  = {71},
+  pages   = {235--248},
+  doi     = {10.1146/annurev-med-041818-011630},
+  pmid    = {31412221},
+  note    = {Reviews POTS pathophysiology and mechanism-based therapies, including beta-blockers, ivabradine, midodrine, and volume expansion, linking each drug class to its autonomic target. Provides the drug-to-target mapping for the autonomic-modulator class that ranks highly in the Eckey survey, and the pharmacological basis for treating beta-blocker and ivabradine responses as probes of distinct autonomic mechanisms.},
+  keywords = {POTS, beta-blocker, ivabradine, autonomic, drug-target mapping},
+  research_stream = {eckey2025-mechanism-reanalysis},
+  certainty = {0.60}
+}
+
+@article{Hasan2020POTSMedication,
+  author  = {Hasan, Bashar and Almasri, Jehad and Marwa, Bilal and Klaas, Kelsey M. and Fischer, Philip R.},
+  title   = {Treatment of Postural Orthostatic Tachycardia Syndrome With Medication: A Systematic Review},
+  journal = {Journal of Child Neurology},
+  year    = {2020},
+  volume  = {35},
+  number  = {14},
+  pages   = {1004--1016},
+  doi     = {10.1177/0883073820948679},
+  pmid    = {32838632},
+  note    = {Systematic review of pharmacologic POTS treatment evidence, grading the evidence for each drug class. Supplies the external-evidence comparator against which an autonomic-modulator mechanism rank can be tested for concordance, and documents the weakness of that evidence base (small, largely uncontrolled studies) — a limit on how strongly the Eckey projection can be validated against independent data.},
+  keywords = {POTS, medication, systematic review, external evidence, concordance},
+  research_stream = {eckey2025-mechanism-reanalysis},
+  certainty = {0.55}
+}

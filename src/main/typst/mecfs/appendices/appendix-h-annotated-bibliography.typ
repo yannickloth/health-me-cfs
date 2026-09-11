@@ -39988,3 +39988,195 @@ This stream assembles the methodological precedents and their limits for the pro
     *Conclusion:* Reinforces the corpus proposal's honest limit: subjective response domains are placebo-contaminated and cannot by themselves confirm mechanism. Supports restricting corpus claims to hypothesis generation.
     *Limitations:* Narrative review; not ME/CFS-specific; mechanism uncertainty; generalizability concerns noted by the authors.
     *Certainty Assessment:* 0.55 raw × 0.75 (general/mechanism) = *discounted ~0.41* (null/critique)
+
+== Eckey 2025 Mechanism Re-analysis: Projecting Treatment Rankings onto Mechanisms <sec:bib-eckey2025-mechanism-reanalysis>
+// =============================================================================
+
+This stream assembles the literature that makes or breaks the proposal to re-analyse the Eckey et al.\ 2025 ME/CFS + long-COVID treatment survey (n=3,925; >150 treatments) as a mechanism-ranking pilot: map each surveyed treatment to its known molecular targets, then ask whether the treatment-benefit ranking, projected onto the hypothesis space, produces a subgroup-specific mechanism ranking that is internally stable and concordant with independent evidence. The driving dataset is already in the corpus (@Eckey2025PatientReported); no direct study of this re-analysis exists. The entries below are the separable methodological links — drug-to-pathway enrichment, data-driven subgroup identification, placebo/expectation network structure, popularity/confounding channels, patient-reported-outcome validity, and drug-to-target mappings for high-ranking treatment classes.
+
+=== Eckey et al.\ 2025 — Patient-Reported Treatment Outcomes in ME/CFS and Long COVID (dataset feasibility)
+
+    *Full Citation:*: Eckey M, Li P, Morrison B, Bergquist J, Davis RW, Xiao W. Patient-reported treatment outcomes in ME/CFS and long COVID. _Proceedings of the National Academy of Sciences_. 2025;122(28):e2426874122. @Eckey2025PatientReported
+    *DOI:*: #link("https://doi.org/10.1073/pnas.2426874122")[10.1073/pnas.2426874122]
+    *PMID:*: 40627388
+    *Study Design:*: Large cross-sectional patient-reported treatment survey (TREATME)
+    *Sample Size:*: n=3,925 (2,125 ME/CFS + 1,800 long COVID); 440+ questions on 150+ interventions
+    *Key Findings:*:
+        - Net Assessment Score (NAS) assigned to every treatment with ≥20 responses; oral non-liposomal vitamin C used as the reference comparator in the absence of placebo, with FDR-adjusted p-values.
+        - Four reproducible symptom/comorbidity clusters: multisystemic, POTS-dominant, cognitive/sleep + pain, and milder; treatment responses differ by cluster (e.g., IgG 73.3% in multisystemic, ADHD stimulants 62.1% in the cognitive cluster but non-significant in the multisystemic cluster).
+        - Patient capacity (severity) is the strongest predictor of treatment effectiveness, stronger than ME/CFS-vs-long-COVID diagnosis, sex, duration, or age; ME/CFS and long-COVID NASs correlate at R²=0.68.
+        - *Data availability:* the survey instrument and detailed results are publicly available as Datasets S1–S3 (XLSX/XLSX/PDF) plus SI Appendix Tables S1–S6 — i.e., the raw stratum-level data needed for an independent re-analysis exist.
+        - Authors explicitly name the confounders the re-analysis must address: self-selection, nonresponse, recall bias, placebo/expectation, and polypharmacy (patients trial multiple treatments at once).
+    *Conclusion:* The single most direct real-world precedent and the dataset itself. Its public Supplementary Data make the mechanism-ranking re-analysis feasible without new recruitment; its own stated confounders define the null the re-analysis must beat (popularity/expectation explains the ranking as well as mechanism).
+    *Limitations:* Self-selected, unblinded, retrospective self-report; many treatments have fewer than 100 responses (unreliable NAS); no objective verification of diagnosis or response; reference comparator is a weak placebo proxy.
+    *Certainty Assessment:* 0.70 raw × 1.00 (ME/CFS cohort) = *discounted 0.70* (driving dataset)
+
+=== Napolitano et al.\ 2016 — Drug-Set Enrichment Analysis for Drug Mode of Action
+
+    *Full Citation:*: Napolitano F, Sirci F, Carrella D, di Bernardo D. Drug-set enrichment analysis: a novel tool to investigate drug mode of action. _Bioinformatics_. 2016;32(2):235–241. @Napolitano2016DrugSetEnrichment
+    *DOI:*: #link("https://doi.org/10.1093/bioinformatics/btv536")[10.1093/bioinformatics/btv536]
+    *PMID:*: 26415724
+    *Study Design:*: Computational method development with connectivity-map validation
+    *Key Findings:*:
+        - Groups drugs by shared mechanism of action / target and tests whether a query signature is enriched across the drug set, recovering mode-of-action at the mechanism level.
+        - Demonstrated on Connectivity Map perturbation data to identify drug classes with shared mechanisms.
+    *Conclusion:* The core methodological precedent for projecting a treatment list onto target/mechanism classes — the exact operation the Eckey re-analysis needs. It shows mechanism-level aggregation is achievable but depends on reliable drug-to-target assignment and on a reference signature to score against.
+    *Limitations:* Computational; requires accurate drug-target annotation; validated in cancer cell lines, not patient-reported benefit data; enrichment does not establish causal target mediation.
+    *Certainty Assessment:* 0.65 raw × 0.30 (in silico) = *discounted ~0.20* (supporting method)
+
+=== Napolitano et al.\ 2019 — gep2pep: Pathway-Based Expression Profiles
+
+    *Full Citation:*: Napolitano F, Carrella D, Gao X, di Bernardo D. gep2pep: a Bioconductor package for the creation and analysis of pathway-based expression profiles. _Bioinformatics_. 2019;36(6):1944–1945. @Napolitano2019gep2pep
+    *DOI:*: #link("https://doi.org/10.1093/bioinformatics/btz803")[10.1093/bioinformatics/btz803]
+    *PMID:*: 31647521
+    *Study Design:*: Software/method note
+    *Key Findings:*:
+        - Converts drug-perturbation gene-expression signatures into pathway-level profiles.
+        - Enables mechanism/pathway-resolution aggregation of drug sets, extending DSEA from drug sets to pathways.
+    *Conclusion:* Supplies the pathway-resolution implementation for the treatment-to-pathway projection. Useful only if the re-analysis adopts a pathway (not merely drug-class) hypothesis space.
+    *Limitations:* Depends on curated pathway databases and expression data; no patient-reported inputs; software note with limited independent benchmarking.
+    *Certainty Assessment:* 0.55 raw × 0.30 (in silico) = *discounted ~0.17* (supporting method)
+
+=== Lipkovich et al.\ 2017 — Data-Driven Subgroup Identification in Clinical Trials
+
+    *Full Citation:*: Lipkovich I, Dmitrienko A, D'Agostino RB. Tutorial in biostatistics: data-driven subgroup identification and analysis in clinical trials. _Statistics in Medicine_. 2017;36(1):136–196. @Lipkovich2017SubgroupIdentification
+    *DOI:*: #link("https://doi.org/10.1002/sim.7064")[10.1002/sim.7064]
+    *PMID:*: 27488683
+    *Study Design:*: Statistical methodology tutorial (with worked examples)
+    *Key Findings:*:
+        - Reviews virtual-twins, recursive-partitioning, and model-based recursive-partitioning methods for finding subgroups with differential treatment effect.
+        - Emphasises multiplicity control and validation (training/test splits, cross-validation) because unconstrained subgroup search overfits.
+        - A null overall effect can conceal a real, subgroup-specific effect — and vice versa.
+    *Conclusion:* The canonical statistical machinery for producing subgroup-specific mechanism rankings from outcome data and for guarding against the false subgroup that a large survey will inevitably contain. Directly supports the re-analysis's split-half replication requirement.
+    *Limitations:* Methodological, not empirical; the worked examples are not ME/CFS; subgroup stability under data-driven search remains the principal risk the tutorial documents rather than solves.
+    *Certainty Assessment:* 0.70 raw × 0.75 (general/methodological) = *discounted ~0.53* (supporting method)
+
+=== Wang et al.\ 2017 — Network Analysis of the Genomic Basis of the Placebo Effect
+
+    *Full Citation:*: Wang R-S, Hall KT, Giulianini F, Passow D, Kaptchuk TJ, Loscalzo J. Network analysis of the genomic basis of the placebo effect. _JCI Insight_. 2017;2(11):e93911. @WangRS2017PlaceboNetwork
+    *DOI:*: #link("https://doi.org/10.1172/jci.insight.93911")[10.1172/jci.insight.93911]
+    *PMID:*: 28570268
+    *Study Design:*: Computational network analysis of placebo-response gene sets
+    *Key Findings:*:
+        - The placebo response maps to a structured network of genes and pathways distinct from the drug target.
+        - Expectation and context engage measurable, non-random molecular programs rather than unstructured noise.
+    *Conclusion:* Establishes that expectation can produce a biologically *structured* signal — so an apparent mechanism ranking can arise from placebo/expectation without the drug's target. This is the strongest form of the re-analysis's alternative explanation and must be modelled explicitly.
+    *Limitations:* Computational; placebo-response genomic data from heterogeneous trials; no direct ME/CFS application.
+    *Certainty Assessment:* 0.55 raw × 0.30 (in silico) = *discounted ~0.17* (competing explanation)
+
+=== Simmering et al.\ 2014 — Web Search Query Volume as a Measure of Pharmaceutical Utilization
+
+    *Full Citation:*: Simmering JE, Polgreen LA, Polgreen PM. Web search query volume as a measure of pharmaceutical utilization and changes in prescribing patterns. _Research in Social and Administrative Pharmacy_. 2014;10(6):896–903. @Simmering2014WebSearchUtilization
+    *DOI:*: #link("https://doi.org/10.1016/j.sapharm.2014.01.003")[10.1016/j.sapharm.2014.01.003]
+    *PMID:*: 24603135
+    *Study Design:*: Observational infodemiology study
+    *Key Findings:*:
+        - Internet search-query volume tracks pharmaceutical utilization and prescribing-pattern changes.
+        - Validates search volume as an operational proxy for treatment popularity/community discussion.
+    *Conclusion:* Supplies the measurable popularity covariate the re-analysis must include. If the mechanism ranking tracks search popularity as well as target assignment, the pharmacological interpretation fails the proposal's stated falsification condition.
+    *Limitations:* General population; specific drug classes; search volume reflects interest, not necessarily patient uptake; not ME/CFS-specific.
+    *Certainty Assessment:* 0.55 raw × 0.75 (general/methodological) = *discounted ~0.41* (confounder measure)
+
+=== Stallion et al.\ 2026 — Social Media Discussions and the Popularity of GLP-1 Therapies
+
+    *Full Citation:*: Stallion C, Khan T, Guerrero C, Tsipas S, Wozniak G. Social Media Discussions of Anti-Diabetic Drugs and the Popularity of GLP-1 Therapies: Content Analysis. _JMIR Diabetes_. 2026;11:e87590. @Stallion2026GLP1SocialMedia
+    *DOI:*: #link("https://doi.org/10.2196/87590")[10.2196/87590]
+    *PMID:*: 42684325
+    *Study Design:*: Social-media content analysis
+    *Key Findings:*:
+        - Discussion volume and sentiment on social media track and amplify drug-class popularity beyond prescribing data.
+        - Community discourse can outrun formal evidence in shaping perceived standing of a therapy.
+    *Conclusion:* Concrete, quantified evidence that community discussion drives a drug's perceived position — the pathway by which a patient-reported benefit ranking could be popularity rather than pharmacology. Directly motivates the re-analysis's popularity control.
+    *Limitations:* GLP-1 anti-diabetic drugs, not ME/CFS; content analysis cannot establish causality; platform-specific.
+    *Certainty Assessment:* 0.50 raw × 0.75 (general/methodological) = *discounted ~0.38* (confounder evidence)
+
+=== Yom-Tov & Gabrilovich\ 2013 — Postmarket Drug Surveillance from Web Search Queries
+
+    *Full Citation:*: Yom-Tov E, Gabrilovich E. Postmarket drug surveillance without trial costs: discovery of adverse drug reactions through large-scale analysis of web search queries. _Journal of Medical Internet Research_. 2013;15(6):e124. @YomTov2013WebSearchSurveillance
+    *DOI:*: #link("https://doi.org/10.2196/jmir.2614")[10.2196/jmir.2614]
+    *PMID:*: 23778053
+    *Study Design:*: Large-scale observational infodemiology study
+    *Key Findings:*:
+        - Web search queries carry pharmacologically interpretable signal, detecting adverse drug reactions that complement formal reporting.
+        - Web data can reflect genuine drug effects, not only interest.
+    *Conclusion:* Two-edged precedent: search/discussion volume is both a confounder to control and a partially valid pharmacological channel. The re-analysis should not treat popularity as pure noise, but as a covariate that may itself carry signal.
+    *Limitations:* General population; ADR detection (harm), not benefit ranking; search volume sensitive to media events; not ME/CFS-specific.
+    *Certainty Assessment:* 0.50 raw × 0.75 (general/methodological) = *discounted ~0.38* (confounder evidence)
+
+=== Rekeland et al.\ 2022 — Activity Monitoring and Patient-Reported Outcome Measures in ME/CFS
+
+    *Full Citation:*: Rekeland IG, Sørland K, Bruland O, Risa K, Alme K, Dahl O, Tronstad KJ, Mella O, Fluge Ø. Activity monitoring and patient-reported outcome measures in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome patients. _PLoS One_. 2022;17(9):e0274472. @Rekeland2022PROMmecfs
+    *DOI:*: #link("https://doi.org/10.1371/journal.pone.0274472")[10.1371/journal.pone.0274472]
+    *PMID:*: 36121803
+    *Study Design:*: Observational measurement-validation study
+    *Key Findings:*:
+        - Compares device-measured activity with patient-reported outcome measures in ME/CFS patients.
+        - Quantifies the relationship and divergence between self-report and objective activity.
+    *Conclusion:* Directly governs the measurement-validity limitation of any patient-reported treatment ranking: self-reported benefit and objectively measured function are related but not interchangeable, so a benefit ranking is a ranking of perceived benefit, not of measured improvement.
+    *Limitations:* ME/CFS cohort, but focus on activity measurement rather than treatment ranking; observational; single centre.
+    *Certainty Assessment:* 0.55 raw × 1.00 (ME/CFS cohort) = *discounted 0.55* (measurement validity)
+
+=== Haywood et al.\ 2014 — Systematic Review of PROMs in Paediatric CFS/ME
+
+    *Full Citation:*: Haywood KL, Collin SM, Crawley E. Assessing severity of illness and outcomes of treatment in children with Chronic Fatigue Syndrome/Myalgic Encephalomyelitis (CFS/ME): a systematic review of patient-reported outcome measures (PROMs). _Child: Care, Health and Development_. 2014;40(6):806–824. @Haywood2014PROMsystematic
+    *DOI:*: #link("https://doi.org/10.1111/cch.12135")[10.1111/cch.12135]
+    *PMID:*: 24661148
+    *Study Design:*: Systematic review of measurement instruments
+    *Key Findings:*:
+        - Catalogues which PROMs in paediatric CFS/ME have evidence of reliability, validity, and responsiveness to change.
+        - PROM selection materially affects measured treatment response.
+    *Conclusion:* Documents that the instrument determines the measured ranking. A re-analysis of self-reported benefit inherits the psychometric limits of the survey instrument; cross-survey concordance must account for instrument differences.
+    *Limitations:* Paediatric population; instrument-methodological, not a treatment study; older review.
+    *Certainty Assessment:* 0.55 raw × 0.80 (comorbid/population-specific) = *discounted ~0.44* (measurement validity)
+
+=== Dorczok et al.\ 2026 — Use and Perceived Helpfulness of Interventions in ME/CFS and Depression
+
+    *Full Citation:*: Dorczok MC, Mossaheb N, Mittmann G, Thomas MF, Bartova L, Schrank B, Steiner-Hofbauer V. Use and Perceived Helpfulness of Different Intervention Strategies in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome and Depression. _Journal of Clinical Medicine_. 2026;15(2):849. @Dorczok2026InterventionHelpfulness
+    *DOI:*: #link("https://doi.org/10.3390/jcm15020849")[10.3390/jcm15020849]
+    *PMID:*: 41598786
+    *Study Design:*: Cross-sectional patient survey with comparison group
+    *Key Findings:*:
+        - Independent patient survey ranking self-management and intervention strategies by perceived helpfulness in ME/CFS, with a depression comparison group.
+        - Provides a second patient-reported benefit-ranking dataset distinct in instrument and population from Eckey 2025.
+    *Conclusion:* Enables an external concordance check: if the Eckey mechanism ranking replicates onto a second survey's ranking, that strengthens the result beyond split-half internal consistency. If the two rankings diverge, the mechanism projection is instrument- or cohort-dependent.
+    *Limitations:* Small relative to Eckey; self-report; mixed ME/CFS/depression framing; does not rank molecular mechanisms.
+    *Certainty Assessment:* 0.45 raw × 1.00 (ME/CFS cohort) = *discounted 0.45* (external concordance)
+
+=== Löhn & Wirth\ 2024 — TRPM3 and the Therapeutic Effect of Low-Dose Naltrexone in ME/CFS
+
+    *Full Citation:*: Löhn M, Wirth KJ. Potential pathophysiological role of the ion channel TRPM3 in myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) and the therapeutic effect of low-dose naltrexone. _Journal of Translational Medicine_. 2024;22(1):630. @Lohn2024TRPM3LDN
+    *DOI:*: #link("https://doi.org/10.1186/s12967-024-05412-3")[10.1186/s12967-024-05412-3]
+    *PMID:*: 38970055
+    *Study Design:*: Mechanistic hypothesis review
+    *Key Findings:*:
+        - Proposes TRPM3 channel dysregulation as a contributor to ME/CFS pathophysiology.
+        - Attributes part of low-dose naltrexone's therapeutic effect to TRPM3 modulation — an explicit drug-to-molecular-target mapping inside ME/CFS.
+    *Conclusion:* Supplies exactly the treatment-to-mechanism assignment the re-analysis performs for the LDN node, and illustrates its uncertainty: LDN also acts on TLR4/glial pathways, so a single drug maps to multiple mechanisms and the projection must distribute LDN's benefit across targets (or justify a primary assignment).
+    *Limitations:* Hypothesis/review, not a trial; TRPM3 role in ME/CFS not independently confirmed; LDN efficacy itself rests on mixed trial evidence.
+    *Certainty Assessment:* 0.45 raw × 1.00 (ME/CFS cohort) = *discounted 0.45* (drug-to-target mapping)
+
+=== Mar & Raj\ 2020 — POTS: Mechanisms and New Therapies
+
+    *Full Citation:*: Mar PL, Raj SR. Postural Orthostatic Tachycardia Syndrome: Mechanisms and New Therapies. _Annual Review of Medicine_. 2020;71:235–248. @Mar2020POTSMechanisms
+    *DOI:*: #link("https://doi.org/10.1146/annurev-med-041818-011630")[10.1146/annurev-med-041818-011630]
+    *PMID:*: 31412221
+    *Study Design:*: Narrative review of pathophysiology and therapy
+    *Key Findings:*:
+        - Reviews mechanism-based POTS therapies — beta-blockers, ivabradine, midodrine, volume expansion — each linked to its autonomic target.
+        - Distinguishes therapies by mechanism (heart-rate control vs vasoconstriction vs volume) rather than by symptom alone.
+    *Conclusion:* Provides the drug-to-target mapping for the autonomic-modulator class that ranks highly in the Eckey survey. Grounds treating beta-blocker and ivabradine responses as probes of distinct autonomic mechanisms — the mechanistic discrimination the ranking is meant to support.
+    *Limitations:* Narrative review; POTS (not all ME/CFS); evidence base for several drugs remains weak; mapping is pharmacological inference.
+    *Certainty Assessment:* 0.60 raw × 0.80 (comorbid/population-specific) = *discounted 0.48* (drug-to-target mapping)
+
+=== Hasan et al.\ 2020 — Treatment of POTS With Medication: A Systematic Review
+
+    *Full Citation:*: Hasan B, Almasri J, Marwa B, Klaas KM, Fischer PR. Treatment of Postural Orthostatic Tachycardia Syndrome With Medication: A Systematic Review. _Journal of Child Neurology_. 2020;35(14):1004–1016. @Hasan2020POTSMedication
+    *DOI:*: #link("https://doi.org/10.1177/0883073820948679")[10.1177/0883073820948679]
+    *PMID:*: 32838632
+    *Study Design:*: Systematic review of pharmacologic POTS treatment
+    *Key Findings:*:
+        - Grades the evidence for each POTS drug class.
+        - The evidence base is dominated by small, largely uncontrolled studies.
+    *Conclusion:* Supplies the external-evidence comparator for the autonomic-modulator mechanism rank and, equally, documents how weak that external evidence is — a limit on how strongly the Eckey projection can be validated against independent data.
+    *Limitations:* Paediatric population; weak primary evidence; no ME/CFS-specific ranking; no mechanism-level synthesis.
+    *Certainty Assessment:* 0.55 raw × 0.80 (comorbid/population-specific) = *discounted 0.44* (external evidence)
