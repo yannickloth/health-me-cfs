@@ -1,10 +1,10 @@
 {
   "name": "zvec-grep-tool",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Wrapper package to pin @zvec/zvec-grep for the Nix dev shell",
   "private": true,
   "dependencies": {
-    "@zvec/zvec-grep": "0.2.1"
+    "@zvec/zvec-grep": "0.2.2"
   },
   "overrides": {
     "sharp": "0.35.4"

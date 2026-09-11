@@ -268,10 +268,10 @@
 
         zvec-grep = pkgs.buildNpmPackage {
           pname = "zvec-grep";
-          version = "0.2.1";
+          version = "0.2.2";
           src = ./nix/zvec-grep;
           nodejs = pkgs.nodejs_24;
-          npmDepsHash = "sha256-jYjINNEq5gCqTzO5ni6Fdnib2kh3e7kMX33gZNhfBHg=";
+          npmDepsHash = "sha256-1N0MhW9kVdK5IKQ/u826jP1ezvaPK8e86H7pWpS7sk8=";
           npmRebuildFlags = [ "--ignore-scripts" ];
           dontNpmBuild = true;
           # Belt-and-suspenders: even with --ignore-scripts this env var stops
