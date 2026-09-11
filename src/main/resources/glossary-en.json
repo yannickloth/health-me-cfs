@@ -12144,5 +12144,25 @@
     "label": "Spectral resolution",
     "category": "method",
     "definition": "The ability of a set of drug-response tests to distinguish between competing mechanistic hypotheses. Two hypotheses are spectrally unresolvable if every available drug predicts the same response under both \u2014 no drug response can tell them apart."
+  },
+  "drug-set enrichment": {
+    "label": "Drug-set enrichment analysis",
+    "category": "method",
+    "definition": "A method that groups drugs by their shared molecular targets and tests whether a gene or pathway signature is enriched across that drug group, allowing mechanism-level aggregation instead of single-drug inference."
+  },
+  "split-half reliability": {
+    "label": "Split-half reliability",
+    "category": "method",
+    "definition": "A replication test in which a dataset is randomly divided into two halves, the analysis is run separately on each, and the two results are compared (for example by rank correlation). High agreement between halves supports that the result is not an artifact of the particular sample."
+  },
+  "negative-constraint": {
+    "label": "Negative constraint",
+    "category": "method",
+    "definition": "Information obtained from a mechanism that is repeatedly engaged by a treatment yet produces no benefit, suggesting the pathway is not rate-limiting. Negative constraints narrow the hypothesis space by ruling pathways out, complementing the positive signal from treatments that work."
+  },
+  "Net Assessment Score": {
+    "label": "Net Assessment Score (NAS)",
+    "category": "method",
+    "definition": "The summary benefit ranking used by the Eckey 2025 survey, computed for every intervention with at least 20 responses. It expresses a treatment's perceived effect on overall condition on a seven-point scale, referenced against oral non-liposomal vitamin C and adjusted for multiple comparisons."
   }
 }

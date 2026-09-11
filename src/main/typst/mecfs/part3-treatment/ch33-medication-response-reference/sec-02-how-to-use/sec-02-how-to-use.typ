@@ -35,6 +35,8 @@ Across the same $n = 3{,}925$ survey, patient capacity level (disease severity) 
 *Evidence class caveat:* As above, this rests on self-reported, correlational survey data — the "predictor" relationship is associative, not causal, and has not been independently replicated by a separate survey cohort.
 ] <clin:severity-dominates-response>
 
+The same survey can be pushed one step further: rather than ranking treatments, map each treatment to its molecular targets and project the benefit ranking onto mechanisms, yielding a *mechanism* ranking that can be tested for split-half stability. That re-analysis, its method (drug-set enrichment), and its principal failure modes — patient severity (the survey's strongest predictor), treatment popularity, many-to-many target mapping, and target-ontology dependence — are developed at @sec:eckey-mechanism-reanalysis. It is a research proposal on existing data, not a result, and none of it bears on a bedside decision.
+
 
 Not all treatment responses are interchangeable. A medication that restores a broken mechanism (healing) provides fundamentally different information — and a fundamentally different clinical outlook — than one that suppresses a symptom while the disease progresses unimpeded (symptomatic). The *Therapeutic Depth* classification below applies across every drug in this chapter and in @ch:mechanistic-cascade-tracing (sec-12).
 
