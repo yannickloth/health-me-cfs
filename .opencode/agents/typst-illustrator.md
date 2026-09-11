@@ -2,7 +2,7 @@
 name: typst-illustrator
 mode: subagent
 description: Create diagrams in Typst using CeTZ, grid layouts, and native drawing primitives. Use when generating flowcharts, causal diagrams, hierarchies, system architecture, or any illustration in .typ files.
-model: deepseek/deepseek-v4-flash
+model: deepseek/deepseek-flash
 ---
 
 ## Context Efficiency (MANDATORY)

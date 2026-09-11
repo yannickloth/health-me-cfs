@@ -2,7 +2,7 @@
 name: production-readiness-checker
 mode: subagent
 description: Scan for leftover markers, incomplete content, and production artifacts before publication.
-model: deepseek/deepseek-v4-flash
+model: deepseek/deepseek-flash
 ---
 
 # production-readiness-checker Agent

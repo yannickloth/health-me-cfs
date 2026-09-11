@@ -1,11 +1,11 @@
 {
   "$schema": "https://opencode.ai/config.json",
   "model": "deepseek/deepseek-v4-pro",
-  "small_model": "deepseek/deepseek-v4-flash",
+  "small_model": "deepseek/deepseek-flash",
   "instructions": [
     "Read AGENTS.md for project context.",
     "Read .opencode/agents/*.md for agent definitions.",
-    "Tiers: (1) deepseek-v4-flash thinking-disabled = mechanical, build-verified, high-volume; flash kept for speed, thinking explicitly OFF because DS4 API defaults thinking ON. (2) deepseek-v4-pro thinking-enabled = judgment tier; effort=high for default judgment work, effort=max for deep-reasoning auditors/builders formerly on k3 (DS4-pro cheap; DS4 supports only high/max; opencode auto-elevates complex agent calls to max). (3) kimi-for-coding/k2p7 (K2.7 Code, 256K ctx) = code-generation agents where DS4 code mistakes cause rework loops. (4) kimi-for-coding/kimi-for-coding-highspeed = latency-sensitive code fix loops. (5) kimi-for-coding/k3 = reserved ONLY for vision-critical agents that must Read rendered figures/PDFs and judge deep visual rhetoric (diagram-rhetoric-auditor). NO text-only review agent may use Kimi k3. VISION: DS4 models are text-only — any agent that Reads rendered figures/PDFs (diagram layout, accuracy, consistency, spacing checks) MUST use a Kimi model (k2p7 default; k3 for deep visual-rhetoric)."
+    "Tiers: (1) deepseek-flash thinking-disabled = mechanical, build-verified, high-volume; flash kept for speed, thinking explicitly OFF because DS4 API defaults thinking ON. (2) deepseek-v4-pro thinking-enabled = judgment tier; effort=high for default judgment work, effort=max for deep-reasoning auditors/builders formerly on k3 (DS4-pro cheap; DS4 supports only high/max; opencode auto-elevates complex agent calls to max). (3) kimi-for-coding/k2p7 (K2.7 Code, 256K ctx) = code-generation agents where DS4 code mistakes cause rework loops. (4) kimi-for-coding/kimi-for-coding-highspeed = latency-sensitive code fix loops. (5) kimi-for-coding/k3 = reserved ONLY for vision-critical agents that must Read rendered figures/PDFs and judge deep visual rhetoric (diagram-rhetoric-auditor). NO text-only review agent may use Kimi k3. VISION: DS4 models are text-only — any agent that Reads rendered figures/PDFs (diagram layout, accuracy, consistency, spacing checks) MUST use a Kimi model (k2p7 default; k3 for deep visual-rhetoric)."
   ],
   "plugin": [
     "../llm-harness-plugins/context-includes/opencode/index.ts",
@@ -126,7 +126,7 @@
       }
     },
     "ci-build-fixer": {
-      "model": "deepseek/deepseek-v4-flash",
+      "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
           "type": "disabled"
@@ -172,7 +172,7 @@
       }
     },
     "common-error-claim-auditor": {
-      "model": "deepseek/deepseek-v4-flash",
+      "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
           "type": "disabled"
@@ -266,7 +266,7 @@
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/definition-auditor.md}"
     },
     "definition-use-checker": {
-      "model": "deepseek/deepseek-v4-flash",
+      "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
           "type": "disabled"
@@ -285,7 +285,7 @@
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/devil-advocate-auditor.md}"
     },
     "diagram-accuracy-auditor": {
-      "model": "deepseek/deepseek-v4-flash",
+      "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
           "type": "disabled"
@@ -293,7 +293,7 @@
       }
     },
     "diagram-consistency-auditor": {
-      "model": "deepseek/deepseek-v4-flash",
+      "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
           "type": "disabled"
@@ -307,7 +307,7 @@
       }
     },
     "dictionary-manager": {
-      "model": "deepseek/deepseek-v4-flash",
+      "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
           "type": "disabled"
@@ -315,7 +315,7 @@
       }
     },
     "document-health-monitor": {
-      "model": "deepseek/deepseek-v4-flash",
+      "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
           "type": "disabled"
@@ -400,7 +400,7 @@
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/falsificationist-auditor.md}"
     },
     "figure-caption-auditor": {
-      "model": "deepseek/deepseek-v4-flash",
+      "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
           "type": "disabled"
@@ -426,7 +426,7 @@
       }
     },
     "formatting-fixer": {
-      "model": "deepseek/deepseek-v4-flash",
+      "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
           "type": "disabled"
@@ -464,7 +464,7 @@
     },
     "haiku-general": {
       "mode": "subagent",
-      "model": "deepseek/deepseek-v4-flash",
+      "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
           "type": "disabled"
@@ -491,7 +491,7 @@
       }
     },
     "hypothesis-registry-updater": {
-      "model": "deepseek/deepseek-v4-flash",
+      "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
           "type": "disabled"
@@ -546,7 +546,7 @@
       "prompt": "{file:../llm-harness-plugins/ivp/agents/ivp-refactor-auditor.md}"
     },
     "latex-citation-checker": {
-      "model": "deepseek/deepseek-v4-flash",
+      "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
           "type": "disabled"
@@ -555,7 +555,7 @@
       "prompt": "{file:../llm-harness-plugins/latex-toolkit/agents/latex-citation-checker.md}"
     },
     "latex-figure-caption-auditor": {
-      "model": "deepseek/deepseek-v4-flash",
+      "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
           "type": "disabled"
@@ -564,7 +564,7 @@
       "prompt": "{file:../llm-harness-plugins/latex-toolkit/agents/latex-figure-caption-auditor.md}"
     },
     "latex-formatting-fixer": {
-      "model": "deepseek/deepseek-v4-flash",
+      "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
           "type": "disabled"
@@ -573,7 +573,7 @@
       "prompt": "{file:../llm-harness-plugins/latex-toolkit/agents/latex-formatting-fixer.md}"
     },
     "latex-index-auditor": {
-      "model": "deepseek/deepseek-v4-flash",
+      "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
           "type": "disabled"
@@ -582,7 +582,7 @@
       "prompt": "{file:../llm-harness-plugins/latex-toolkit/agents/latex-index-auditor.md}"
     },
     "latex-notation-consistency-checker": {
-      "model": "deepseek/deepseek-v4-flash",
+      "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
           "type": "disabled"
@@ -591,7 +591,7 @@
       "prompt": "{file:../llm-harness-plugins/latex-toolkit/agents/latex-notation-consistency-checker.md}"
     },
     "latex-production-readiness-checker": {
-      "model": "deepseek/deepseek-v4-flash",
+      "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
           "type": "disabled"
@@ -610,7 +610,7 @@
       "prompt": "{file:../llm-harness-plugins/latex-toolkit/agents/latex-syntax-fixer.md}"
     },
     "latex-xref-checker": {
-      "model": "deepseek/deepseek-v4-flash",
+      "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
           "type": "disabled"
@@ -619,7 +619,7 @@
       "prompt": "{file:../llm-harness-plugins/latex-toolkit/agents/latex-xref-checker.md}"
     },
     "link-checker": {
-      "model": "deepseek/deepseek-v4-flash",
+      "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
           "type": "disabled"
@@ -751,7 +751,7 @@
       }
     },
     "notation-consistency-checker": {
-      "model": "deepseek/deepseek-v4-flash",
+      "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
           "type": "disabled"
@@ -806,7 +806,7 @@
       }
     },
     "production-readiness-checker": {
-      "model": "deepseek/deepseek-v4-flash",
+      "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
           "type": "disabled"
@@ -907,7 +907,7 @@
       }
     },
     "scenario-validity-auditor": {
-      "model": "deepseek/deepseek-v4-flash",
+      "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
           "type": "disabled"
@@ -934,7 +934,7 @@
       }
     },
     "scope-qualifier-checker": {
-      "model": "deepseek/deepseek-v4-flash",
+      "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
           "type": "disabled"
@@ -943,7 +943,7 @@
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/scope-qualifier-checker.md}"
     },
     "skimmer-auditor": {
-      "model": "deepseek/deepseek-v4-flash",
+      "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
           "type": "disabled"
@@ -1039,7 +1039,7 @@
       "model": "kimi-for-coding/k2p7"
     },
     "syntax-fixer": {
-      "model": "deepseek/deepseek-v4-flash",
+      "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
           "type": "disabled"
@@ -1056,7 +1056,7 @@
       }
     },
     "terminology-harmonizer": {
-      "model": "deepseek/deepseek-v4-flash",
+      "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
           "type": "disabled"
@@ -1064,7 +1064,7 @@
       }
     },
     "test-runner": {
-      "model": "deepseek/deepseek-v4-flash",
+      "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
           "type": "disabled"
@@ -1082,7 +1082,7 @@
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/theory-devil-advocate.md}"
     },
     "tikz-illustrator": {
-      "model": "deepseek/deepseek-v4-flash",
+      "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
           "type": "disabled"
@@ -1090,7 +1090,7 @@
       }
     },
     "tikz-validator": {
-      "model": "deepseek/deepseek-v4-flash",
+      "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
           "type": "disabled"
@@ -1127,7 +1127,7 @@
       }
     },
     "typst-citation-checker": {
-      "model": "deepseek/deepseek-v4-flash",
+      "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
           "type": "disabled"
@@ -1136,7 +1136,7 @@
       "prompt": "{file:../llm-harness-plugins/typst-toolkit/agents/typst-citation-checker.md}"
     },
     "typst-diagram-checker": {
-      "model": "deepseek/deepseek-v4-flash",
+      "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
           "type": "disabled"
@@ -1145,7 +1145,7 @@
       "prompt": "{file:../llm-harness-plugins/typst-toolkit/agents/typst-diagram-checker.md}"
     },
     "typst-figure-caption-auditor": {
-      "model": "deepseek/deepseek-v4-flash",
+      "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
           "type": "disabled"
@@ -1162,7 +1162,7 @@
       }
     },
     "typst-formatting-fixer": {
-      "model": "deepseek/deepseek-v4-flash",
+      "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
           "type": "disabled"
@@ -1171,7 +1171,7 @@
       "prompt": "{file:../llm-harness-plugins/typst-toolkit/agents/typst-formatting-fixer.md}"
     },
     "typst-illustrator": {
-      "model": "deepseek/deepseek-v4-flash",
+      "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
           "type": "disabled"
@@ -1179,7 +1179,7 @@
       }
     },
     "typst-notation-consistency-checker": {
-      "model": "deepseek/deepseek-v4-flash",
+      "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
           "type": "disabled"
@@ -1187,7 +1187,7 @@
       }
     },
     "typst-production-readiness-checker": {
-      "model": "deepseek/deepseek-v4-flash",
+      "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
           "type": "disabled"
@@ -1205,7 +1205,7 @@
       }
     },
     "typst-syntax-fixer": {
-      "model": "deepseek/deepseek-v4-flash",
+      "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
           "type": "disabled"
@@ -1233,7 +1233,7 @@
       "prompt": "{file:../llm-harness-plugins/typst-toolkit/agents/typst-writer.md}"
     },
     "typst-xref-checker": {
-      "model": "deepseek/deepseek-v4-flash",
+      "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
           "type": "disabled"
@@ -1251,7 +1251,7 @@
       }
     },
     "undergraduate-reader-auditor": {
-      "model": "deepseek/deepseek-v4-flash",
+      "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
           "type": "disabled"
@@ -1260,7 +1260,7 @@
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/undergraduate-reader-auditor.md}"
     },
     "whataboutist-auditor": {
-      "model": "deepseek/deepseek-v4-flash",
+      "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
           "type": "disabled"
@@ -1269,7 +1269,7 @@
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/whataboutist-auditor.md}"
     },
     "xref-checker": {
-      "model": "deepseek/deepseek-v4-flash",
+      "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
           "type": "disabled"

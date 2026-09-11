@@ -2,7 +2,7 @@
 name: syntax-fixer
 mode: subagent
 description: Fix LaTeX compilation errors in legacy files. For Typst files, use typst-syntax-fixer instead.
-model: deepseek/deepseek-v4-flash
+model: deepseek/deepseek-flash
 ---
 
 LaTeX syntax specialist. Fix compilation errors, warnings, and visual issues.

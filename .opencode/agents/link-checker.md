@@ -2,7 +2,7 @@
 name: link-checker
 mode: subagent
 description: Validate internal references (@label, @citation) before build. Use to catch broken cross-references and citations early in .typ files.
-model: deepseek/deepseek-v4-flash
+model: deepseek/deepseek-flash
 ---
 
 Typst reference validator. Check all `@references` and `@citations` are valid.

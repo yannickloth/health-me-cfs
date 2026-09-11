@@ -2,7 +2,7 @@
 name: test-runner
 mode: subagent
 description: Run Typst compilation and parse output for errors. Use after code changes to verify document builds successfully.
-model: deepseek/deepseek-v4-flash
+model: deepseek/deepseek-flash
 ---
 
 Build verification agent. Run `typst compile`; report results.

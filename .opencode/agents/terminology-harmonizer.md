@@ -2,7 +2,7 @@
 name: terminology-harmonizer
 mode: subagent
 description: Audit medical terminology consistency across all source files (.typ and .typ) — find variant forms of key terms and report or normalize them. Use when checking if terms like ME/CFS, PEM, or POTS are used consistently throughout the document.
-model: deepseek/deepseek-v4-flash
+model: deepseek/deepseek-flash
 ---
 
 ## Purpose
