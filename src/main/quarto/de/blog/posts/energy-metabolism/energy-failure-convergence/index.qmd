@@ -37,7 +37,7 @@ Deshalb präsentiert sich ME/CFS in den mathematischen Modellen als Attraktor-Zu
 
 ## Warum Einzelziel-Behandlungen scheitern
 
-Die Geschichte der ME/CFS-Behandlungsstudien ist ein Friedhof von Medikamenten, die einer Teilmenge halfen und im Durchschnitt scheiterten. Rituximab [@Fluge2011] half einigen Patienten dramatisch und tat für andere nichts. Rintatolimod zeigte in einigen Studien ein Signal und in anderen nicht. Valaciclovir half Patienten mit dokumentierter EBV-Reaktivierung und nicht Patienten ohne sie. Schilddrüsenersatz half dem Low-T3-Subtyp. Eiseninfusionen halfen dem Low-Ferritin-Subtyp. CoQ10 half Patienten mit dokumentiertem Mangel.
+Die Geschichte der ME/CFS-Behandlungsstudien ist ein Friedhof von Medikamenten, die einer Teilmenge halfen und im Durchschnitt scheiterten. Rituximab [@Fluge2011rituximab] half einigen Patienten dramatisch und tat für andere nichts. Rintatolimod zeigte in einigen Studien ein Signal und in anderen nicht. Valaciclovir half Patienten mit dokumentierter EBV-Reaktivierung und nicht Patienten ohne sie. Schilddrüsenersatz half dem Low-T3-Subtyp. Eiseninfusionen halfen dem Low-Ferritin-Subtyp. CoQ10 half Patienten mit dokumentiertem Mangel.
 
 Jede Behandlung zielte auf einen der vierzehn Mechanismen. Jede wirkte — wenn dieser Mechanismus bei diesem Patienten aktiv war. In unselektierten Kohorten wurde das Signal zu Rauschen verdünnt.
 
@@ -84,7 +84,7 @@ Dies ist keine Heilung. Es ist systematische Lastenreduktion. Es ist der Untersc
 
 Wenn dieser Rahmen richtig ist, dann ist "ME/CFS" als einheitliche Diagnose ungefähr so nützlich wie "Fieber" als Diagnose. Es beschreibt einen Zustand, nicht einen Mechanismus. Der Zustand ist real — die Konvergenz ist real, die Behinderung ist real, die Attraktor-Dynamik ist real. Aber die Mechanismen, die ihn antreiben, unterscheiden sich zwischen den Patienten, und die Behandlung muss mechanismusspezifisch sein.
 
-Dies sagt voraus, dass ME/CFS-Klinikstudien weiterhin scheitern werden, bis sie nach Mechanismus stratifizieren. Eine Rituximab-Studie [@Fluge2011], die alle ME/CFS-Patienten einschreibt, wird im Durchschnitt scheitern, selbst wenn sie jeden Patienten mit einem spezifischen Autoantikörperprofil heilt. Das Signal ist real. Das Studiendesign vergräbt es.
+Dies sagt voraus, dass ME/CFS-Klinikstudien weiterhin scheitern werden, bis sie nach Mechanismus stratifizieren. Eine Rituximab-Studie [@Fluge2011rituximab], die alle ME/CFS-Patienten einschreibt, wird im Durchschnitt scheitern, selbst wenn sie jeden Patienten mit einem spezifischen Autoantikörperprofil heilt. Das Signal ist real. Das Studiendesign vergräbt es.
 
 Die Forschungsagenda, die dieser Rahmen fordert, ist nicht "finde die Ursache von ME/CFS." Sie lautet: **charakterisiere das Mechanismus-Portfolio einzelner Patienten, identifiziere, welche Mechanismen mit den vorhandenen Werkzeugen behandelbar sind, und führe stratifizierte Studien durch, die die Behandlung mit dem Mechanismus abgleichen.**
 

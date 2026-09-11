@@ -1,29 +1,29 @@
 ---
 title: "Le corpus pharmacodiagnostique — une série"
-description: "L'EM/SFC n'a pas de biomarqueur validé ; les patients déduisent donc leur propre biologie des médicaments qui aident et de ceux qui échouent. Cette série pose une question plus précise : si ces observations étaient recueillies sous une forme regroupable, le motif agrégé pourrait-il classer quelles voies biologiques sont réellement cassées ? Trois articles : l'idée, la conception, et les limites honnêtes."
+description: "L'EM/SFC n'a pas de biomarqueur validé ; les patients déduisent donc leur propre biologie des médicaments qui aident et de ceux qui échouent. Cette série pose une question plus précise : si ces observations étaient recueillies sous une forme regroupable, le motif agrégé pourrait-il classer quelles voies biologiques sont les plus plausiblement cassées ? Trois articles : l'idée, la conception, et les limites honnêtes."
 author: "Yannick Loth"
 date: "2026-09-05"
 categories: [EM/SFC, Traitement, Méthodes, Série]
 lang: fr
 ---
 
-Il n'existe pas de biomarqueur validé pour l'EM/SFC. Aucune analyse de sang ne dit quelle voie est cassée, aucune imagerie ne montre quel mécanisme pilote vos symptômes. Faute de mieux, les patients font la seule chose possible : ils essaient. Une faible dose de naltrexone ici, un stimulant là, un antihistaminique, un complément mitochondrial, un bêtabloquant. Certaines choses aident. Beaucoup ne font rien. D'autres aident un temps, puis cessent.
+Il n'existe pas de biomarqueur validé pour l'EM/SFC [@IOM2015]. Aucune analyse de sang ne dit quelle voie est cassée, aucune imagerie ne montre quel mécanisme pilote vos symptômes. Faute de mieux, les patients font la seule chose possible : ils essaient. Une faible dose de naltrexone ici, un stimulant là, un antihistaminique, un complément mitochondrial, un bêtabloquant. Certaines choses aident. Beaucoup ne font rien. D'autres aident un temps, puis cessent.
 
 La plupart de cette expérience est jetée comme anecdote. Elle vit dans des fils de forum, des notes cliniques, des antécédents à moitié oubliés — non structurée, non quantifiée, réduite à un seul bit : *ça a aidé* ou *ça n'a pas aidé*. Cette série soutient que c'est un gaspillage, et que ce gaspillage est évitable.
 
-Le document principal derrière ce site contient un cadre appelé **pharmacodiagnostic** — lire une réponse médicamenteuse comme une sonde diagnostique, et pas seulement comme un traitement. L'historique médicamenteux d'un patient est un ensemble de contraintes sur les mécanismes actifs. Ce cadre est déjà développé pour un patient à la fois. Cette série l'étend à la population : si des centaines de patients avaient essayé chacun quelques médicaments, et que les observations étaient recueillies sous une forme regroupable, l'ensemble deviendrait un instrument pour classer les voies limitantes de l'EM/SFC.
+Le document principal derrière ce site contient un cadre appelé **pharmacodiagnostic** — lire une réponse médicamenteuse comme une sonde diagnostique, et pas seulement comme un traitement. L'historique médicamenteux d'un patient est un ensemble de contraintes sur les mécanismes actifs. Ce cadre est déjà développé pour un patient à la fois. Cette série l'étend à la population : si des centaines de patients avaient essayé chacun quelques médicaments, et que les observations étaient recueillies sous une forme regroupable, l'ensemble pourrait devenir un instrument pour classer des voies limitantes **candidates** de l'EM/SFC.
 
-Ce n'est pas un test biologique. C'est ce qui s'en approche le plus pour une maladie sans biomarqueur — et cela vient avec des limites dures que cette série ne cache pas.
+Ce n'est pas un test biologique, mais c'est l'instrument *proposé* le plus proche pour une maladie sans biomarqueur — avec des limites dures que cette série ne cache pas.
 
 ---
 
 ## Les articles
 
-1. **[Vos traitements échoués sont des données](./your-failed-treatments-are-data/index.qmd)** — l'idée centrale. Un essai médicamenteux est une contrainte, pas une anecdote. Regroupés entre patients, les motifs de ce qui marche et de ce qui échoue — à quelle dose, pendant combien de temps — deviennent une carte. Et le point contre-intuitif : les *échecs* peuvent porter plus de signal que les succès.
+1. **[Vos traitements échoués sont des données](./your-failed-treatments-are-data/index.qmd)** — l'idée centrale. Un essai médicamenteux est une contrainte, pas une anecdote. Regroupés entre patients, les motifs de ce qui marche et de ce qui échoue — à quelle dose, pendant combien de temps — pourraient classer les voies candidates derrière la maladie. Et le point contre-intuitif : les *échecs* peuvent porter plus de signal que les succès.
 
 2. **[Le corpus qui lit votre armoire à pharmacie](./the-corpus-that-reads-your-medicine-cabinet/index.qmd)** — la conception. Ce qu'une observation regroupable doit contenir, pourquoi « le LDN m'a aidé » ne se regroupe pas, et comment des centaines d'essais mono-patients non coordonnés deviennent un seul problème de satisfaction de contraintes à l'échelle de la population.
 
-3. **[Ce qu'un tas d'observations médicamenteuses peut et ne peut pas vous dire](./what-a-pile-of-drug-reports-cannot-tell-you/index.qmd)** — la partie honnête. Le corpus peut classer des hypothèses. Il ne peut pas les confirmer. Il est brouillé par le placebo, par qui se fait prescrire quoi, par qui accepte de témoigner, et — le mode de défaillance qui compte le plus — par l'enthousiasme communautaire. Si le signal suit le volume de discussions en ligne plutôt que la biologie, la proposition doit être abandonnée.
+3. **[Ce qu'un tas d'observations médicamenteuses peut et ne peut pas vous dire](./what-a-pile-of-drug-reports-cannot-tell-you/index.qmd)** — la partie honnête. Le corpus peut classer des hypothèses. Il ne peut pas les confirmer. Ses limites sont réelles : le placebo, qui se fait prescrire quoi, qui accepte de témoigner, et — le mode de défaillance qui compte le plus — l'enthousiasme communautaire. Si le signal suit le volume de discussions en ligne d'un médicament plutôt que ce qu'il fait biologiquement, toute la proposition doit être abandonnée.
 
 ---
 

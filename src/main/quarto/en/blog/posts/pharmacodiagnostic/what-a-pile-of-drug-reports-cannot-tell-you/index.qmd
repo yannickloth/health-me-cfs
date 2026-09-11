@@ -7,15 +7,15 @@ categories: [ME/CFS, Treatment, Methods, Evidence]
 lang: en
 ---
 
-The first two articles in this series argued that pooled patient drug reports could rank which biological pathways are rate-limiting in ME/CFS, and described the design that would make the pooling possible. This article is the part that earns the rest its credibility. A proposal that cannot state its own limits is not a scientific proposal; it is a sales pitch. Here are the limits, stated plainly.
+The first two articles in this series argued that pooled patient drug reports could rank which candidate biological pathways are rate-limiting in ME/CFS, and described the design that would make the pooling possible. This article is the part that earns the rest its credibility. A proposal that cannot state its own limits is a sales pitch, not a scientific proposal. The limits follow.
 
 ## It ranks hypotheses. It does not confirm them.
 
 The corpus is a **hypothesis-generation instrument**: it tells you which pathways are worth testing next, not which one is the cause.
 
-The reason is structural. Pooled reports show associations. They do not show causation — the pharmacovigilance systems that mine spontaneous drug reports for safety signals are built on exactly this kind of data, and they rank associations well without ever establishing that the drug caused the event [@vanPuijenbroek2002Disproportionality; @Cutroneo2023Disproportionality]. A corpus of ME/CFS drug reports is the inverse of a safety database — it looks for benefit rather than harm — but it inherits the same inferential ceiling. It can say "this pathway keeps showing up." It cannot say "this pathway is the disease."
+The reason is structural. Pooled reports show associations. They do not show causation — the pharmacovigilance systems that mine spontaneous drug reports for safety signals are built on exactly this kind of data, and they rank associations well without ever establishing that the drug caused the event [@vanPuijenbroek2002Disproportionality; @Cutroneo2023Disproportionality]. A corpus of ME/CFS drug reports is the inverse of a safety database — it looks for benefit rather than harm — but the same inferential ceiling applies. It can say "this pathway keeps showing up." It cannot say "this pathway is the disease."
 
-That distinction is not academic. The paper's own history contains a treatment, rituximab, whose early controlled phase-II trial showed a large separation between drug and placebo, and whose definitive controlled trial then found the placebo group doing better [@Fluge2011; @Fluge2019]. An encouraging early signal is a different kind of thing from a confirmed result, not a small version of one.
+That distinction is not academic. The paper's own history contains a treatment, rituximab, whose early controlled phase-II trial showed a large separation between drug and placebo, and whose definitive controlled trial then found no benefit — the placebo response rate exceeded the drug's [@Fluge2011rituximab; @Fluge2019]. An encouraging early signal is a different kind of thing from a confirmed result; treating it as a smaller version of one is the error.
 
 ## Four things that contaminate the signal
 
@@ -29,9 +29,9 @@ That distinction is not academic. The paper's own history contains a treatment, 
 
 ## The failure mode that would kill it
 
-A worse possibility exists. A corpus recruited from a patient community is not a neutral sensor. It inherits that community's shared beliefs — and those beliefs drive both which drugs are tried and how they are described. The paper's own analysis of patient communities documents how social reinforcement, group polarisation, and the absence of formal error-correction can let a plausible but wrong treatment take hold, producing a community consensus that controlled evidence would not support [@Loth2026website]. A consistent responder pattern across hundreds of patients is *exactly* what a socially amplified false signal also produces. Consistency is not self-validation.
+A worse possibility exists. A corpus recruited from a patient community is not a neutral sensor: the reports carry that community's shared beliefs, and those beliefs shape both which drugs are tried and how they are described. The paper's own analysis of patient communities documents how social reinforcement, group polarisation, and the absence of formal error-correction can let a plausible but wrong treatment take hold, producing a community consensus that controlled evidence would not support [@Loth2026website]. A consistent responder pattern across hundreds of patients is *exactly* what a socially amplified false signal also produces. Consistency is not self-validation.
 
-So the corpus has one governing test, and it must be able to fail it. If, after adjusting for severity, drug availability, and the corpus's own placebo floor, the residual ranking is explained at least as well by how much each drug is discussed online as by its dose and molecular target — then the corpus is measuring the community, not the disease. In that case the proposal is **abandoned**, not refined. Not "collect more data." Not "design a better survey." Abandoned. The test has to be a locked, pre-registered model comparison, not a correlation computed after the fact: discussion volume and dose are collinear (popular drugs are both talked about more and tried across more dose bands), so the comparison must be fixed before data collection.
+So the corpus has one governing test, and it must be able to fail it. If, after adjusting for severity, drug availability, and the corpus's own placebo floor, the residual ranking is explained at least as well by how much each drug is discussed online as by its dose and molecular target — then the corpus is measuring the community, not the disease. In that case the proposal is **abandoned**, not refined. More data will not fix it, and a better survey will not either. The test has to be a locked, pre-registered model comparison, not a correlation computed after the fact: discussion volume and dose are collinear (popular drugs are both talked about more and tried across more dose bands), so the comparison must be fixed before data collection.
 
 There is a second abandonment condition: if the number of distinct drugs needed to tell the competing hypotheses apart is larger than any realistic number of patients will ever try, then no amount of reporting can rank mechanisms, and the proposal is dead on arrival. Whether the accessible drug set is degenerate in this way is an open, testable question — and the honest answer today is that nobody knows.
 
@@ -40,7 +40,7 @@ There is a second abandonment condition: if the number of distinct drugs needed 
 If it survives those tests, the corpus can do something genuinely useful in a disease with no validated biomarker [@IOM2015]:
 
 - **Rank candidate pathways** for the next round of mechanistic research.
-- **Identify responder subgroups** — the finding that a treatment splits the population is itself diagnostic, and may explain why so many group-level ME/CFS trials return null.
+- **Identify responder subgroups** — when a treatment splits the population, that split is a finding in its own right, and it may explain why so many group-level ME/CFS trials return null.
 - **Nominate drugs for rigorous blinded trials**, using the corpus as its own prioritisation engine: a nested randomised sub-study tests the top few corpus-nominated drugs against placebo, which is where causal claims actually get made.
 - **Stratify future trials**, by turning a patient's own response fingerprint into an enrichment variable.
 
@@ -48,10 +48,10 @@ What it cannot do is substitute for the blinded trial. The corpus's role is to d
 
 ## Why the warning is part of the proposal
 
-This series describes a research instrument that does not yet exist. It is not a treatment-selection tool, and no one should start, stop, or change a medication because a pooled community ranking suggested it. That warning is load-bearing, not a formality: the whole value of the corpus depends on its being read as a hypothesis generator, and the whole danger lies in its being read as anything else. A community instrument mistaken for clinical guidance would cause exactly the harm the paper documents elsewhere for over-interpreted evidence.
+This series describes a research instrument that does not yet exist. It is not a treatment-selection tool, and no one should start, stop, or change a medication because a pooled community ranking suggested it. The warning is not a formality: the whole value of the corpus depends on readers taking it as a hypothesis generator, and the whole danger lies in their taking it as anything else. A community instrument mistaken for clinical guidance would cause exactly the harm the paper documents elsewhere for over-interpreted evidence.
 
-The idea is worth pursuing because the alternative is no map at all, in a disease that has none — and a ranked hypothesis is worth more than a blank one, as long as it is read as a hypothesis.
+The idea is worth pursuing because the alternative is an unranked candidate set with no prioritisation for the next trials — and a ranked hypothesis is worth more than a blank page, as long as the reader takes it as a hypothesis.
 
 *This is not medical advice. It describes a research proposal. No one should start, stop, or change a treatment on the basis of a pooled community ranking.*
 
-*This closes the series. Start from [the landing page](../index.qmd), or read the technical version in the primary document's Medication Response Reference chapter ([Loth 2026](https://yannickloth.github.io/health-me-cfs/)). The observational-inference cautions follow [@vanPuijenbroek2002Disproportionality; @Cutroneo2023Disproportionality; @Zong2022EHRrepurposing; @Shahn2022AntihypertensiveRepurposing]; the expectation caveat follows [@FlavioReis2025OpenLabelPlacebo; @KleineBorgmann2025OpenLabelPlacebos]; the rituximab sequence follows [@Fluge2011; @Fluge2019].*
+*This closes the series. Start from [the landing page](../index.qmd), or read the technical version in the primary document's Medication Response Reference chapter ([Loth 2026](https://yannickloth.github.io/health-me-cfs/)). The observational-inference cautions follow [@vanPuijenbroek2002Disproportionality; @Cutroneo2023Disproportionality; @Zong2022EHRrepurposing; @Shahn2022AntihypertensiveRepurposing]; the expectation caveat follows [@FlavioReis2025OpenLabelPlacebo; @KleineBorgmann2025OpenLabelPlacebos]; the rituximab sequence follows [@Fluge2011rituximab; @Fluge2019].*

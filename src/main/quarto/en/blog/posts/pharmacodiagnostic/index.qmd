@@ -19,7 +19,7 @@ It is not a biomarker test, but it is the closest *proposed* instrument a diseas
 
 ## The articles
 
-1. **[Your Failed Treatments Are Data](./your-failed-treatments-are-data/index.qmd)** — the core idea. A single drug trial is a constraint, not an anecdote. Pooled across patients, the pattern of what works and what fails — at what dose, for how long — becomes a map. And the counter-intuitive part: the *failures* may carry more signal than the successes.
+1. **[Your Failed Treatments Are Data](./your-failed-treatments-are-data/index.qmd)** — the core idea. A single drug trial is a constraint, not an anecdote. Pooled across patients, the pattern of what works and what fails — at what dose, for how long — could rank the candidate pathways behind the illness. And the counter-intuitive part: the *failures* may carry more signal than the successes.
 
 2. **[The Corpus That Reads Your Medicine Cabinet](./the-corpus-that-reads-your-medicine-cabinet/index.qmd)** — the design. What a poolable report actually has to contain, why "LDN helped me" pools to nothing, and how hundreds of uncoordinated single-patient trials become one population-level constraint-satisfaction problem.
 

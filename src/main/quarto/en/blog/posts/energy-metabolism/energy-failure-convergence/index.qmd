@@ -36,7 +36,7 @@ This is why ME/CFS presents as an attractor state in the mathematical models: on
 
 ## Why single-target treatments fail
 
-The history of ME/CFS treatment trials is a graveyard of drugs that helped a subset and failed on average. Rituximab [@Fluge2011] helped some patients dramatically and did nothing for others. Rintatolimod showed signal in some trials and not others. Valaciclovir helped patients with documented EBV reactivation and not patients without it. Thyroid replacement helped the low-T3 subset. Iron infusions helped the low-ferritin subset. CoQ10 helped patients with documented deficiency.
+The history of ME/CFS treatment trials is a graveyard of drugs that helped a subset and failed on average. Rituximab [@Fluge2011rituximab] helped some patients dramatically and did nothing for others. Rintatolimod showed signal in some trials and not others. Valaciclovir helped patients with documented EBV reactivation and not patients without it. Thyroid replacement helped the low-T3 subset. Iron infusions helped the low-ferritin subset. CoQ10 helped patients with documented deficiency.
 
 Each treatment targeted one of the fourteen mechanisms. Each worked — when that mechanism was active in that patient. In unselected cohorts, the signal was diluted to noise.
 
@@ -83,7 +83,7 @@ This is not a cure. It is systematic burden reduction. It is the difference betw
 
 If this framework is correct, then "ME/CFS" as a unitary diagnosis is roughly as useful as "fever" as a diagnosis. It describes a state, not a mechanism. The state is real — the convergence is real, the disability is real, the attractor dynamics are real. But the mechanisms driving it differ between patients, and treatment must be mechanism-specific.
 
-This predicts that ME/CFS clinical trials will continue to fail until they stratify by mechanism. A rituximab [@Fluge2011] trial that enrols all ME/CFS patients will fail on average, even if it cures every patient with a specific autoantibody profile. The signal is real. The trial design buries it.
+This predicts that ME/CFS clinical trials will continue to fail until they stratify by mechanism. A rituximab [@Fluge2011rituximab] trial that enrols all ME/CFS patients will fail on average, even if it cures every patient with a specific autoantibody profile. The signal is real. The trial design buries it.
 
 The research agenda this framework demands is not "find the cause of ME/CFS." It is: **characterise the mechanism portfolio of individual patients, identify which mechanisms are treatable with existing tools, and run stratified trials that match treatment to mechanism.**
 

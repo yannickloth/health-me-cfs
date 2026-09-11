@@ -37,7 +37,7 @@ C'est pourquoi l'EM/SFC se présente comme un état attracteur dans les modèles
 
 ## Pourquoi les traitements à cible unique échouent
 
-L'histoire des essais de traitement de l'EM/SFC est un cimetière de médicaments qui ont aidé un sous-groupe et échoué en moyenne. Le rituximab [@Fluge2011] a aidé certains patients de manière spectaculaire et n'a rien fait pour d'autres. Le rintatolimod a montré un signal dans certains essais et pas d'autres. Le valaciclovir a aidé les patients avec une réactivation EBV documentée et pas les patients sans elle. Le remplacement thyroïdien a aidé le sous-groupe à basse T3. Les perfusions de fer ont aidé le sous-groupe à basse ferritine. La CoQ10 a aidé les patients avec une carence documentée.
+L'histoire des essais de traitement de l'EM/SFC est un cimetière de médicaments qui ont aidé un sous-groupe et échoué en moyenne. Le rituximab [@Fluge2011rituximab] a aidé certains patients de manière spectaculaire et n'a rien fait pour d'autres. Le rintatolimod a montré un signal dans certains essais et pas d'autres. Le valaciclovir a aidé les patients avec une réactivation EBV documentée et pas les patients sans elle. Le remplacement thyroïdien a aidé le sous-groupe à basse T3. Les perfusions de fer ont aidé le sous-groupe à basse ferritine. La CoQ10 a aidé les patients avec une carence documentée.
 
 Chaque traitement ciblait l'un des quatorze mécanismes. Chacun fonctionnait — quand ce mécanisme était actif chez ce patient. Dans des cohortes non sélectionnées, le signal était dilué en bruit.
 
@@ -84,7 +84,7 @@ Ce n'est pas une guérison. C'est une réduction systématique du fardeau. C'est
 
 Si ce cadre est correct, alors « EM/SFC » en tant que diagnostic unitaire est à peu près aussi utile que « fièvre » en tant que diagnostic. Il décrit un état, pas un mécanisme. L'état est réel — la convergence est réelle, l'incapacité est réelle, la dynamique de l'attracteur est réelle. Mais les mécanismes qui le conduisent diffèrent entre les patients, et le traitement doit être spécifique au mécanisme.
 
-Cela prédit que les essais cliniques sur l'EM/SFC continueront d'échouer jusqu'à ce qu'ils stratifient par mécanisme. Un essai du rituximab [@Fluge2011] qui enrôle tous les patients atteints d'EM/SFC échouera en moyenne, même s'il guérit chaque patient avec un profil d'auto-anticorps spécifique. Le signal est réel. La conception de l'essai l'ensevelit.
+Cela prédit que les essais cliniques sur l'EM/SFC continueront d'échouer jusqu'à ce qu'ils stratifient par mécanisme. Un essai du rituximab [@Fluge2011rituximab] qui enrôle tous les patients atteints d'EM/SFC échouera en moyenne, même s'il guérit chaque patient avec un profil d'auto-anticorps spécifique. Le signal est réel. La conception de l'essai l'ensevelit.
 
 Le programme de recherche que ce cadre exige n'est pas « trouver la cause de l'EM/SFC ». C'est : **caractériser le portefeuille de mécanismes des patients individuels, identifier quels mécanismes sont traitables avec les outils existants, et lancer des essais stratifiés qui font correspondre le traitement au mécanisme.**
 

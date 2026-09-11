@@ -1,29 +1,29 @@
 ---
 title: "Der pharmakodiagnostische Korpus — eine Serie"
-description: "ME/CFS hat keinen validierten Biomarker, also leiten Patienten ihre eigene Biologie aus den Medikamenten ab, die helfen, und denen, die versagen. Diese Serie stellt eine schärfere Frage: Wenn diese Berichte in einer zusammenführbaren Form erfasst würden, könnte das gepoolte Muster dann einordnen, welche biologischen Signalwege tatsächlich gestört sind? Drei Artikel: die Idee, das Design und die ehrlichen Grenzen."
+description: "ME/CFS hat keinen validierten Biomarker, also leiten Patienten ihre eigene Biologie aus den Medikamenten ab, die helfen, und denen, die versagen. Diese Serie stellt eine schärfere Frage: Wenn diese Berichte in einer zusammenführbaren Form erfasst würden, könnte das gepoolte Muster dann einordnen, welche biologischen Signalwege am plausibelsten gestört sind? Drei Artikel: die Idee, das Design und die ehrlichen Grenzen."
 author: "Yannick Loth"
 date: "2026-09-05"
 categories: [ME/CFS, Behandlung, Methoden, Serie]
 lang: de
 ---
 
-Es gibt keinen validierten Biomarker für ME/CFS. Es gibt keinen Bluttest, der sagt, welcher Signalweg gestört ist, und kein Bildgebungsverfahren, das zeigt, welcher Mechanismus die Symptome antreibt. Ohne eines tun Patienten das Einzige, was möglich ist: Sie probieren aus. Eine niedrige Dosis Naltrexon hier, ein Stimulans dort, ein Antihistaminikum, ein Mitochondrien-Präparat, ein Betablocker. Manches hilft. Vieles tut nichts. Anderes hilft eine Zeit lang und hört dann auf.
+Es gibt keinen validierten Biomarker für ME/CFS [@IOM2015]. Es gibt keinen Bluttest, der sagt, welcher Signalweg gestört ist, und kein Bildgebungsverfahren, das zeigt, welcher Mechanismus die Symptome antreibt. Ohne eines tun Patienten das Einzige, was möglich ist: Sie probieren aus. Eine niedrige Dosis Naltrexon hier, ein Stimulans dort, ein Antihistaminikum, ein Mitochondrien-Präparat, ein Betablocker. Manches hilft. Vieles tut nichts. Anderes hilft eine Zeit lang und hört dann auf.
 
 Das meiste dieser Erfahrung wird als Anekdote verworfen. Es lebt in Foren-Threads, in klinischen Notizen, in halb erinnerten Vorgeschichten — unstrukturiert, unquantifiziert, meist auf ein einziges Bit reduziert: *es half* oder *es half nicht*. Diese Serie argumentiert, dass das eine Verschwendung ist, und dass die Verschwendung vermeidbar ist.
 
-Das Hauptdokument hinter dieser Website enthält einen Rahmen namens **Pharmakodiagnostik** — das Lesen einer Medikamentenreaktion als diagnostische Sonde, nicht nur als Behandlung. Die Medikamentengeschichte eines einzelnen Patienten ist eine Menge von Bedingungen dafür, welche Mechanismen aktiv sind. Dieser Rahmen ist bereits für einen Patienten zur Zeit entwickelt. Diese Serie erweitert ihn auf die Bevölkerung: Wenn Hunderte Patienten jeweils einige Medikamente probiert hätten und die Berichte in zusammenführbarer Form erfasst würden, würde die gepoolte Menge zu einem Instrument, das die begrenzenden Signalwege bei ME/CFS einordnet.
+Das Hauptdokument hinter dieser Website enthält einen Rahmen namens **Pharmakodiagnostik** — das Lesen einer Medikamentenreaktion als diagnostische Sonde, nicht nur als Behandlung. Die Medikamentengeschichte eines einzelnen Patienten ist eine Menge von Bedingungen dafür, welche Mechanismen aktiv sind. Dieser Rahmen ist bereits für einen Patienten zur Zeit entwickelt. Diese Serie erweitert ihn auf die Bevölkerung: Wenn Hunderte Patienten jeweils einige Medikamente probiert hätten und die Berichte in zusammenführbarer Form erfasst würden, könnte die gepoolte Menge zu einem Instrument werden, das **Kandidaten**-Signalwege bei ME/CFS einordnet.
 
-Es ist kein Biomarkertest. Es ist das, was einer Krankheit ohne Biomarker am nächsten kommt — und es bringt harte Grenzen mit, die diese Serie nicht verbirgt.
+Es ist kein Biomarkertest, aber das nächstliegende *vorgeschlagene* Instrument für eine Krankheit ohne Biomarker — mit harten Grenzen, die diese Serie nicht verbirgt.
 
 ---
 
 ## Die Artikel
 
-1. **[Ihre gescheiterten Behandlungen sind Daten](./your-failed-treatments-are-data/index.qmd)** — die Kernidee. Ein Medikamentenversuch ist eine Bedingung, keine Anekdote. Über Patienten gepoolt, wird das Muster dessen, was wirkt und was versagt — bei welcher Dosis, wie lange — zu einer Karte. Und der kontraintuitive Teil: Die *Fehlschläge* können mehr Signal tragen als die Erfolge.
+1. **[Ihre gescheiterten Behandlungen sind Daten](./your-failed-treatments-are-data/index.qmd)** — die Kernidee. Ein Medikamentenversuch ist eine Bedingung, keine Anekdote. Über Patienten gepoolt, könnten die Muster dessen, was wirkt und was versagt — bei welcher Dosis, wie lange — die Kandidaten-Signalwege hinter der Krankheit einordnen. Und der kontraintuitive Teil: Die *Fehlschläge* können mehr Signal tragen als die Erfolge.
 
 2. **[Der Korpus, der Ihre Hausapotheke liest](./the-corpus-that-reads-your-medicine-cabinet/index.qmd)** — das Design. Was ein zusammenführbarer Bericht tatsächlich enthalten muss, warum „LDN hat geholfen" sich zu nichts poolt und wie Hunderte unkoordinierter Einzelpatienten-Studien zu einem einzigen Constraint-Satisfaction-Problem auf Bevölkerungsebene werden.
 
-3. **[Was ein Haufen Medikamentenberichte Ihnen sagen kann und was nicht](./what-a-pile-of-drug-reports-cannot-tell-you/index.qmd)** — der ehrliche Teil. Der Korpus kann Hypothesen einordnen. Er kann sie nicht bestätigen. Er wird verzerrt durch Placebo, dadurch, wer was verschrieben bekommt, wer sich meldet, und — der wichtigste Fehlermodus — durch Gemeinschaftsbegeisterung. Wenn das Signal dem Online-Diskussionsvolumen folgt statt der Biologie, muss der Vorschlag verworfen werden.
+3. **[Was ein Haufen Medikamentenberichte Ihnen sagen kann und was nicht](./what-a-pile-of-drug-reports-cannot-tell-you/index.qmd)** — der ehrliche Teil. Der Korpus kann Hypothesen einordnen. Er kann sie nicht bestätigen. Seine Grenzen sind real: Placebo, wer was verschrieben bekommt, wer sich meldet, und — der wichtigste Fehlermodus — Gemeinschaftsbegeisterung. Wenn das Signal dem Online-Diskussionsvolumen eines Medikaments folgt statt dem, was es biologisch tut, muss der ganze Vorschlag verworfen werden.
 
 ---
 
@@ -33,4 +33,4 @@ Diese Serie ist der Begleiter auf Bevölkerungsebene zur **[Dosis-Wirkungs-Serie
 
 Der Mechanismus, die Aggregationsmethode und die Grenzen sind vollständig im Kapitel *Medication Response Reference* des Hauptdokuments dargelegt. Diese Serie ist ohne es lesbar.
 
-*Kein medizinischer Rat. Der hier beschriebene Korpus existiert noch nicht; er ist ein Forschungsvorschlag. Niemand sollte eine Behandlung aufgrund eines gepoolten Gemeinschaftsrankings beginnen, beenden oder ändern. Siehe Artikel 3, warum diese Warnung Teil des Vorschlags ist und nicht eine Formalität.*
+*Dies ist kein medizinischer Rat. Der hier beschriebene Korpus existiert noch nicht; er ist ein Forschungsvorschlag. Niemand sollte eine Behandlung aufgrund eines gepoolten Gemeinschaftsrankings beginnen, beenden oder ändern. Siehe Artikel 3, warum diese Warnung Teil des Vorschlags ist und nicht eine Formalität.*
