@@ -2,7 +2,7 @@
 title: "Le corpus qui lit votre armoire à pharmacie"
 description: "Une observation médicamenteuse regroupable n'est pas un pouce en l'air ou en bas. Elle doit enregistrer la dose, la bande de dose, la durée, quel symptôme a changé, quels effets secondaires sont apparus et pourquoi vous avez arrêté. Voici la conception minimale qui pourrait permettre à des centaines d'essais mono-patients non coordonnés de produire un classement populationnel des voies candidates."
 author: "Yannick Loth"
-date: "2026-09-11"
+date: "2026-09-12"
 categories: [EM/SFC, Traitement, Méthodes, Pharmacologie]
 lang: fr
 ---

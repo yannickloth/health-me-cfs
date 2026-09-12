@@ -2,7 +2,7 @@
 title: "What a Pile of Drug Reports Can and Cannot Tell You"
 description: "A pooled corpus of patient drug reports can rank which pathways are worth testing. It cannot prove which one is causal. Placebo, prescribing habits, who volunteers to report, and community enthusiasm all contaminate the signal — and if the signal tracks online discussion rather than pharmacology, the whole proposal should be abandoned. Here is the honest boundary."
 author: "Yannick Loth"
-date: "2026-09-10"
+date: "2026-09-13"
 categories: [ME/CFS, Treatment, Methods, Evidence]
 lang: en
 ---

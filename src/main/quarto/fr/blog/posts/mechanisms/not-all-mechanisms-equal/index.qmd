@@ -76,6 +76,6 @@ L'objectif est de remplacer une liste indifférenciée par une liste structurée
 ---
 
 
-*Article précédent de cette série : [Pourquoi l'EM/SFC ne se résout pas — et pourquoi les cas sévères résistent au traitement](https://www.linkedin.com/pulse/) (2026-03-24)*
+*Article précédent de cette série : [Pourquoi l'EM/SFC ne se résout pas — et pourquoi les cas sévères résistent au traitement](https://www.linkedin.com/pulse/) (2026-03-09)*
 
 *Suivant : Quatre portes, une maladie — pourquoi l'infection virale, le stress, la chirurgie et la vaccination produisent tous le même syndrome*

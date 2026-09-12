@@ -2,7 +2,7 @@
 title: "Quand votre médecin ne connaît pas votre maladie : survivre à la consultation sans perdre votre médecin"
 description: "Dans l'EM/SFC, vous connaîtrez souvent mieux la littérature que votre médecin. Cet écart de connaissances est là où les bonnes consultations vont mourir. Voici comment utiliser vos recherches comme un outil plutôt qu'une arme — et comment garder un médecin dans la pièce."
 author: "Yannick Loth"
-date: "2026-09-09"
+date: "2026-09-08"
 categories: [Soins aux patients, Relation médecin-patient, EM/SFC]
 lang: fr
 ---

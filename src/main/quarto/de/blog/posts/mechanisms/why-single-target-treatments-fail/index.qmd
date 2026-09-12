@@ -59,6 +59,6 @@ Das Design, auf das der Rahmen hinweist, ist kombinatorisch: aktive Mechanismen 
 
 ---
 
-*Vorheriger Artikel dieser Serie: [Wurzelursache ≠ Behandlungs-Priorität](https://www.linkedin.com/pulse/) (2026-04-16)*
+*Vorheriger Artikel dieser Serie: [Wurzelursache ≠ Behandlungs-Priorität](https://www.linkedin.com/pulse/) (2026-04-07)*
 
 *Nächster: Kann Mathematik uns sagen, was ME/CFS verursacht? – Einführung des formalen Rahmens: Auslöser-Suffizienz, Sensitivitätsanalyse und Lock-Entfernung*

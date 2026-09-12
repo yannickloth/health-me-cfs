@@ -2,7 +2,7 @@
 title: "Wenn Ihr Arzt Ihre Krankheit nicht kennt: Die Sprechstunde überstehen, ohne Ihren Arzt zu verlieren"
 description: "Bei ME/CFS kennen Sie die Literatur oft besser als Ihr Arzt. Diese Wissenslücke ist der Ort, an dem gute Sprechstunden sterben. Hier erfahren Sie, wie Sie Ihre Recherche als Werkzeug statt als Waffe einsetzen — und wie Sie einen Arzt im Raum behalten."
 author: "Yannick Loth"
-date: "2026-09-09"
+date: "2026-09-08"
 categories: [Patientenversorgung, Arzt-Patient-Beziehung, ME/CFS]
 lang: de
 ---

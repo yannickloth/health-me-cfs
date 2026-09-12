@@ -2,7 +2,7 @@
 title: "Vos traitements échoués sont des données"
 description: "Chaque médicament que vous essayez est une sonde d'un nœud biologique. Un essai qui marche suggère que le nœud était actif ; un essai qui échoue dans sa fenêtre de dose adéquate suggère qu'il n'était pas le goulot. Regroupées entre patients, ces sondes pourraient classer les voies candidates derrière la maladie. Et le point contre-intuitif : les échecs peuvent porter plus de signal que les succès."
 author: "Yannick Loth"
-date: "2026-09-12"
+date: "2026-09-11"
 categories: [EM/SFC, Traitement, Méthodes, Pharmacologie]
 lang: fr
 ---

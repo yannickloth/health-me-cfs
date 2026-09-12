@@ -58,6 +58,6 @@ The design the framework points toward is combinatorial: identify active mechani
 
 ---
 
-*Previous article in this series: [Root Cause ≠ Treatment Priority](https://www.linkedin.com/pulse/) (2026-04-16)*
+*Previous article in this series: [Root Cause ≠ Treatment Priority](https://www.linkedin.com/pulse/) (2026-04-07)*
 
 *Next: Can Math Tell Us What Causes ME/CFS? — introducing the formal framework: trigger sufficiency, sensitivity analysis, and lock removal*

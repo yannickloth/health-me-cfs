@@ -59,6 +59,6 @@ La conception vers laquelle pointe le cadre est combinatoire : identifier les m�
 
 ---
 
-*Article précédent dans cette série : [La cause racine ≠ priorité de traitement](https://www.linkedin.com/pulse/) (2026-04-16)*
+*Article précédent dans cette série : [La cause racine ≠ priorité de traitement](https://www.linkedin.com/pulse/) (2026-04-07)*
 
 *Suivant : Le calcul peut-il nous dire ce qui cause l'EM/SFC ? — présentant le cadre formel : suffisance du déclencheur, analyse de sensibilité et retrait des serrures*

@@ -50,6 +50,6 @@ Le cadre le prédit. Il suggère aussi à quoi ressemblerait une conception d'es
 ---
 
 
-*Article précédent de cette série : [Murs porteurs contre murs intérieurs](https://www.linkedin.com/pulse/) (2026-04-13)*
+*Article précédent de cette série : [Murs porteurs contre murs intérieurs](https://www.linkedin.com/pulse/) (2026-04-04)*
 
 *Suivant : Pourquoi les traitements à cible unique continuent d'échouer dans l'EM/SFC — le modèle du piège à verrous multiples et ce qu'il prédit sur la conception des traitements*

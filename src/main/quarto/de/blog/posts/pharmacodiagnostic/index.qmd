@@ -2,7 +2,7 @@
 title: "Der pharmakodiagnostische Korpus — eine Serie"
 description: "ME/CFS hat keinen validierten Biomarker, also leiten Patienten ihre eigene Biologie aus den Medikamenten ab, die helfen, und denen, die versagen. Diese Serie stellt eine schärfere Frage: Wenn diese Berichte in einer zusammenführbaren Form erfasst würden, könnte das gepoolte Muster dann einordnen, welche biologischen Signalwege am plausibelsten gestört sind? Drei Artikel: die Idee, das Design und die ehrlichen Grenzen."
 author: "Yannick Loth"
-date: "2026-09-13"
+date: "2026-09-10"
 categories: [ME/CFS, Behandlung, Methoden, Serie]
 lang: de
 ---
