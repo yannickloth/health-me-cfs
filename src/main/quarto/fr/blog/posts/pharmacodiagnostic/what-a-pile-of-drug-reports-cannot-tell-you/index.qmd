@@ -2,7 +2,7 @@
 title: "Ce qu'un tas d'observations médicamenteuses peut et ne peut pas vous dire"
 description: "Un corpus agrégé d'observations de patients peut classer quelles voies valent la peine d'être testées. Il ne peut pas prouver laquelle est causale. Le placebo, les habitudes de prescription, qui accepte de témoigner et l'enthousiasme communautaire contaminent tous le signal — et si le signal suit les discussions en ligne plutôt que la pharmacologie, toute la proposition doit être abandonnée. Voici la frontière honnête."
 author: "Yannick Loth"
-date: "2026-09-03"
+date: "2026-09-10"
 categories: [EM/SFC, Traitement, Méthodes, Preuves]
 lang: fr
 ---

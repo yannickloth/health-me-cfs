@@ -2,7 +2,7 @@
 title: "Your Failed Treatments Are Data"
 description: "Every drug you try is a probe of one biological node. A trial that works suggests the node was active; a trial that fails inside its proper dose window suggests it was not the bottleneck. Pooled across patients, these probes could rank the candidate pathways behind the illness. And the counter-intuitive part: the failures may carry more signal than the successes."
 author: "Yannick Loth"
-date: "2026-09-11"
+date: "2026-09-12"
 categories: [ME/CFS, Treatment, Methods, Pharmacology]
 lang: en
 ---

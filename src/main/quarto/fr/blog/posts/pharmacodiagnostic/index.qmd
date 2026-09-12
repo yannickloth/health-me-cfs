@@ -2,7 +2,7 @@
 title: "Le corpus pharmacodiagnostique — une série"
 description: "L'EM/SFC n'a pas de biomarqueur validé ; les patients déduisent donc leur propre biologie des médicaments qui aident et de ceux qui échouent. Cette série pose une question plus précise : si ces observations étaient recueillies sous une forme regroupable, le motif agrégé pourrait-il classer quelles voies biologiques sont les plus plausiblement cassées ? Trois articles : l'idée, la conception, et les limites honnêtes."
 author: "Yannick Loth"
-date: "2026-09-05"
+date: "2026-09-13"
 categories: [EM/SFC, Traitement, Méthodes, Série]
 lang: fr
 ---

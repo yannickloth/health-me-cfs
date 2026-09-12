@@ -2,7 +2,7 @@
 title: "Ihre gescheiterten Behandlungen sind Daten"
 description: "Jedes Medikament, das Sie probieren, ist eine Sonde eines biologischen Knotens. Ein Versuch, der wirkt, legt nahe, dass der Knoten aktiv war; ein Versuch, der innerhalb seines angemessenen Dosisfensters versagt, legt nahe, dass er nicht der Engpass war. Über Patienten gepoolt, könnten diese Sonden die Kandidaten-Signalwege hinter der Krankheit einordnen. Und der kontraintuitive Teil: Die Fehlschläge können mehr Signal tragen als die Erfolge."
 author: "Yannick Loth"
-date: "2026-09-11"
+date: "2026-09-12"
 categories: [ME/CFS, Behandlung, Methoden, Pharmakologie]
 lang: de
 ---

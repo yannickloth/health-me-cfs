@@ -2,7 +2,7 @@
 title: "Was ein Haufen Medikamentenberichte Ihnen sagen kann und was nicht"
 description: "Ein gepoolter Korpus von Patientenbergungen kann einordnen, welche Signalwege es wert sind, getestet zu werden. Er kann nicht beweisen, welcher kausal ist. Placebo, Verschreibungsgewohnheiten, wer sich meldet und Gemeinschaftsbegeisterung verzerren alle das Signal — und wenn das Signal der Online-Diskussion statt der Pharmakologie folgt, muss der ganze Vorschlag verworfen werden. Hier ist die ehrliche Grenze."
 author: "Yannick Loth"
-date: "2026-09-03"
+date: "2026-09-10"
 categories: [ME/CFS, Behandlung, Methoden, Evidenz]
 lang: de
 ---

@@ -9,7 +9,7 @@ listing:
     - "title asc"
   type: grid
   grid-columns: 3
-  max-items: 6
+  max-items: 8
   fields: [title, date, categories, description]
   date-format: iso
 page-layout: full

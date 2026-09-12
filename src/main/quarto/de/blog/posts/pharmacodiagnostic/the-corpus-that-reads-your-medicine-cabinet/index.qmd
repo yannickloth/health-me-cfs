@@ -2,7 +2,7 @@
 title: "Der Korpus, der Ihre Hausapotheke liest"
 description: "Ein zusammenführbarer Medikamentenbericht ist kein Daumen hoch oder runter. Er muss Dosis, Dosisband, Dauer, welches Symptom sich änderte, welche Nebenwirkungen auftraten und warum Sie abbrachen, erfassen. Hier ist das minimale Design, das Hunderte unkoordinierter Einzelpatienten-Studien zu einer Rangfolge der Kandidaten-Signalwege auf Bevölkerungsebene machen könnte."
 author: "Yannick Loth"
-date: "2026-09-04"
+date: "2026-09-11"
 categories: [ME/CFS, Behandlung, Methoden, Pharmakologie]
 lang: de
 ---
