@@ -2,7 +2,7 @@
 title: "Weekly Update — July 21–27, 2026: A Pharmacodiagnostic Compass, Six New Chapters, Companion Papers, and the Dose That Is a Diagnostic"
 description: "The paper grew by 102 drugs, 17-dose hormesis framework, 4 new chapters, 924 glossary entries, a 4-category inverted-U decomposition, and the first pharmacodiagnostic matrix linking every drug response to underlying mechanism — all in one week."
 author: "Yannick Loth"
-date: "2026-07-27"
+date: "2026-07-13"
 categories: [Research, ME/CFS, Update]
 ---
 

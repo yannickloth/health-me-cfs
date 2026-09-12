@@ -2,7 +2,7 @@
 title: "Alfa-Delta-Schlafarchitektur bei ME/CFS"
 description: "Acht, neun oder zehn Stunden Schlaf verhindern nicht, dass man bei ME/CFS unerholt aufwacht."
 author: "Yannick Loth"
-date: "2026-05-20"
+date: "2026-05-06"
 categories: [Schlaf, Behandlung, Neurologie]
 lang: de
 ---

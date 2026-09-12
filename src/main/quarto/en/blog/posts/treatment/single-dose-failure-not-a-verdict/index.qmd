@@ -2,7 +2,7 @@
 title: "A Single Dose Failure Is Not a Verdict — Why One Null Dose Does Not Rule Out the Others"
 description: "\"If 4 mg of LDN doesn't work, 1 mg won't either.\" This inference rests on an unstated assumption: that a higher dose reproduces all the effects of lower doses. For a drug that hits multiple targets at different concentrations, that assumption is false — and it can wrongly rule out a therapeutic dose."
 author: "Yannick Loth"
-date: "2026-08-26"
+date: "2026-08-29"
 categories: [Treatment, Pharmacology, ME/CFS]
 lang: en
 ---

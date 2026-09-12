@@ -2,7 +2,7 @@
 title: "The Immune-Mediated Subset of Autism: When the Immune System Shapes the Brain"
 description: "A distinct line of research suggests a subset of autism may be immune-mediated — driven by maternal antibodies during development or by infection-triggered anti-neuronal responses. This article examines the evidence, the treatment implication, and what remains unproven."
 author: "Yannick Loth"
-date: "2026-08-21"
+date: "2026-08-20"
 categories: [Neurodivergence, Immunology, Pathophysiology]
 ---
 

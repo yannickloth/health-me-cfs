@@ -2,7 +2,7 @@
 title: "The Four Flavors of Fatigue That Medicine Pretends Are One Thing"
 description: "\"I'm tired.\""
 author: "Yannick Loth"
-date: "2026-06-12"
+date: "2026-06-04"
 categories: [Symptoms, Diagnostics, Misdiagnosis]
 ---
 

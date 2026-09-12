@@ -2,7 +2,7 @@
 title: "Die 3-Sekunden-Kettenreaktion: Warum ein Nerventreffer Sie ohnmächtig machen kann"
 description: "Sie treffen einen Nerv — die Innenseite eines Ellbogens, die Unterseite eines Handgelenks, die Ecke eines Schreibtischs gegen ein Schienbein — und für etwa eine Sekunde registrieren Sie einen scharfen Stich. *Ach, ich habe mich da gestoßen.* Dann beginnt sich der Schmerz zu materialisieren und zu steigern — nicht allmählich, sonde..."
 author: "Yannick Loth"
-date: "2026-05-26"
+date: "2026-05-09"
 categories: [Schmerz, Autonome Dysfunktion, Neurologie]
 lang: de
 ---

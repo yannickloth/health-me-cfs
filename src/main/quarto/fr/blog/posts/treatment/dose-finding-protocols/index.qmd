@@ -2,7 +2,7 @@
 title: "Partie 5 : Comment mener un essai de recherche de dose — protocoles pour huit médicaments"
 description: "La stratégie dit : écartez la dose, pas le médicament. Cet article dit : voici comment. Échelles de dose, durées des paliers, critères de jugement principaux et conditions d'arrêt pour huit médicaments — chaque chiffre étant étiqueté établi, candidat ou spéculatif."
 author: "Yannick Loth"
-date: "2026-09-07"
+date: "2026-09-02"
 categories: [Traitement, Pharmacologie, EM/SFC]
 lang: fr
 ---

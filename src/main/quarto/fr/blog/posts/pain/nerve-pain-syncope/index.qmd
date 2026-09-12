@@ -2,7 +2,7 @@
 title: "La réaction en chaîne de 3 secondes : pourquoi un coup sur un nerf peut vous faire perdre connaissance"
 description: "Frappez un nerf — l'intérieur d'un coude, le dessous d'un poignet, le coin d'un bureau contre un tibia — et pendant environ une seconde vous enregistrez une piqûre nette. *Oh, je me suis cogné là.* Puis la douleur commence à se matérialiser et à s'intensifier — non pas progressivement, ma..."
 author: "Yannick Loth"
-date: "2026-05-26"
+date: "2026-05-09"
 categories: [Douleur, Dysfonction autonome, Neurologie]
 lang: fr
 ---

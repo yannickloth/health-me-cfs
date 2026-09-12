@@ -2,7 +2,7 @@
 title: "Part 2: The Striatum Is the Bottleneck"
 description: "If viruses, trauma, and immune activation all trigger the same disease, where do they converge? The DecodeME GWAS points to a single circuit. Target the bottleneck, not the trigger."
 author: "Yannick Loth"
-date: "2026-07-21"
+date: "2026-07-05"
 categories: [Genetics, Neurology, Systems Biology]
 ---
 

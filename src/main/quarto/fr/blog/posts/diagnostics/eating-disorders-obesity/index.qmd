@@ -2,7 +2,7 @@
 title: "Le corps qui refuse de manger — et le corps qui ne cesse d'emmagasiner : alimentation, poids et EM/SFC"
 description: "Il y a une histoire que des cliniciens racontent parfois à propos des patients atteints d'EM/SFC qui cessent de manger. L'histoire dit : c'est une adolescente, elle perd du poids, elle refuse la nourriture, elle doit avoir un trouble du comportement alimentaire."
 author: "Yannick Loth"
-date: "2026-04-03"
+date: "2026-04-01"
 categories: [Comorbidités, Erreurs de diagnostic]
 lang: fr
 ---

@@ -2,7 +2,7 @@
 title: "Warum nur manche Menschen nach einer Infektion ME/CFS bekommen"
 description: "In den Monaten nach einer COVID-19-Welle entwickelt ein Teil der infizierten Personen Long COVID. Von diesen geht eine Untergruppe — bislang nur unvollkommen von den übrigen unterschieden — in das über, was die vollständigen ME/CFS-Kriterien erfüllt. Der Anteil ist nicht klein, a..."
 author: "Yannick Loth"
-date: "2026-04-26"
+date: "2026-04-11"
 categories: [Modellierung, Epidemiologie, Pathophysiologie]
 lang: de
 ---

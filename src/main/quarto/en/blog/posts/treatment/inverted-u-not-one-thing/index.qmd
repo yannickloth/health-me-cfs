@@ -2,7 +2,7 @@
 title: "Part 2: The Inverted-U Is Not One Unique Thing — Four Ways a Drug Can Stop Working When You Raise the Dose"
 description: "Eighteen medications in ME/CFS show the same pattern: benefit at low dose, harm at high dose. The curve is the same. The mechanism is not. Here's the molecular decomposition."
 author: "Yannick Loth"
-date: "2026-07-27"
+date: "2026-07-10"
 categories: [Treatment, Pharmacology, Pathophysiology]
 ---
 

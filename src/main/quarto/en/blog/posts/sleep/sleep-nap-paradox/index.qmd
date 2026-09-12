@@ -2,7 +2,7 @@
 title: "The Nap Paradox: Why Rest Doesn't Reset in ME/CFS"
 description: "For a healthy person, a twenty-minute afternoon nap is a reliable reset button. The biology is straightforward: adenosine — the brain's primary sleep pressure molecule, which accumulates during wakefulness — clears during even a brief nap, and ale..."
 author: "Yannick Loth"
-date: "2026-05-10"
+date: "2026-05-02"
 categories: [Sleep, Symptoms]
 ---
 

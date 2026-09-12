@@ -2,7 +2,7 @@
 title: "The Fuel Warning Light Problem: What Stimulants Actually Do in ME/CFS"
 description: "Many people with ME/CFS take stimulants. Modafinil, Ritalin, Adderall, caffeine in large quantities. Often not because they want to, but because they have to — because the world does not pause for illness, and employers, schools, and families stil..."
 author: "Yannick Loth"
-date: "2026-03-31"
+date: "2026-03-12"
 categories: [Treatment, PEM, Neurology]
 ---
 

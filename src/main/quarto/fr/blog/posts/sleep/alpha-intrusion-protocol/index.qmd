@@ -2,7 +2,7 @@
 title: "L'architecture du sommeil alpha-delta dans l'EM/SFC"
 description: "Dormir huit, neuf ou dix heures n'empêche pas de se réveiller sans récupération dans l'EM/SFC."
 author: "Yannick Loth"
-date: "2026-05-20"
+date: "2026-05-06"
 categories: [Sommeil, Traitement, Neurologie]
 lang: fr
 ---

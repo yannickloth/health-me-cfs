@@ -2,7 +2,7 @@
 title: "Können uns die Mathematik sagen, was ME/CFS verursacht?"
 description: "Die Biologie beantwortet kausale Fragen im Labor: Sie stören ein System, beobachten das Ergebnis und leiten die Beziehung ab. Aber bei menschlichen Erkrankungen sind die meisten Störungen weder kontrollierbar noch umkehrbar, die meisten Patienten kommen mit bereits etablierter Erkrankung an, und das, was Sie am meisten wissen möchten — was im Moment des Ausbruchs passiert ist —, ist normalerweise unbeobachtbar. Die Biologie erreicht ihre Grenze."
 author: "Yannick Loth"
-date: "2026-04-23"
+date: "2026-04-10"
 categories: [Modellierung, Systembiologie]
 lang: de
 ---

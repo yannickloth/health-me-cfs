@@ -2,7 +2,7 @@
 title: "Der Neurodivergenz-Hypermobilität-Erschöpfungs-Cluster: Zusammengesetztes metabolisches Risiko"
 description: "Dies ist der vierte Artikel einer Serie über die Energiebiologie, die ADHS, Autismus und ME/CFS verbindet. Dieser Artikel untersucht, warum die Überschneidung von Neurodivergenz und Bindegewebshypermobilität den Phänotyp mit dem höchsten Risiko für die Entwicklung von ME/CFS darstellen kö..."
 author: "Yannick Loth"
-date: "2026-05-31"
+date: "2026-05-11"
 categories: [Neurodivergenz, Hypermobilität, Komorbiditäten]
 lang: de
 ---

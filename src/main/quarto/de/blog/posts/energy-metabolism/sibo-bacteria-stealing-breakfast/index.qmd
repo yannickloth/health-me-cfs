@@ -2,7 +2,7 @@
 title: "SIBO: Die Bakterien, die Ihr Frühstück stehlen"
 description: "Der Dünndarm soll relativ steril sein. Der Dickdarm — das Kolon — ist eine mikrobielle Metropole, die Billionen von Bakterien beherbergt, die Ballaststoffe fermentieren, Vitamine produzieren und das mukosale Immunsystem aufrechterhalten. Der Dünndarm, stromaufwärts, ist der Ort, wo Sie tatsächlich Ihre Nährstoffe absorbieren..."
 author: "Yannick Loth"
-date: "2026-06-19"
+date: "2026-06-14"
 categories: [Darmmikrobiom, Behandlung]
 lang: de
 ---

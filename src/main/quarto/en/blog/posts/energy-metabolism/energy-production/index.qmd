@@ -2,7 +2,7 @@
 title: "When Your Cells Can't Make Energy: The Biology Behind ME/CFS"
 description: "Your cells hold only about 50 grams of ATP. That tiny pool is recycled so rapidly that daily turnover reaches about 50 kg. Now imagine that process breaking down — not like a power outage, but like a power grid at half capacity."
 author: "Yannick Loth"
-date: "2026-03-08"
+date: "2026-03-01"
 categories: [Energy Metabolism, Mitochondria, Pathophysiology]
 ---
 

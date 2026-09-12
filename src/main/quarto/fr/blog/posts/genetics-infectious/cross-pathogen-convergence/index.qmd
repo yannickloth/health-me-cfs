@@ -2,7 +2,7 @@
 title: "Un virus, une bactérie, un parasite : des pathogènes différents, les mêmes séquelles"
 description: "En 1999, un groupe de recherche de Dubbo, en Australie, a recruté 253 personnes au moment d'une infection aiguë par l'un de trois pathogènes : le virus d'Epstein-Barr (EBV), Coxiella burnetii (la bactérie responsable de la fièvre Q) ou le virus de la rivière Ross (un alphavirus transmis par les moustiques). Ce..."
 author: "Yannick Loth"
-date: "2026-06-19"
+date: "2026-06-15"
 categories: [Immunologie, Épidémiologie, Physiopathologie]
 lang: fr
 ---

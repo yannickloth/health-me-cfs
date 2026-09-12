@@ -2,7 +2,7 @@
 title: "Der Kalzium-Faden"
 description: "Es gibt ein einzelnes Element, das in mindestens drei getrennten ME/CFS-Ausfallmodi auftaucht. Nicht als Ursache oder Kernproblem in jedem Fall — die Mechanismen sind unterschiedlich. Aber als wiederkehrender Charakter: das Ding, das in verschiedenen Geweben, aus verschiedenen Gründen schiefgeht und verschiedene Symptome erzeugt, die alle auf dasselbe Ion zurückgehen."
 author: "Yannick Loth"
-date: "2026-04-18"
+date: "2026-04-08"
 categories: [Pathophysiologie, Ionenkanäle]
 lang: de
 ---

@@ -2,7 +2,7 @@
 title: "Deux récepteurs, une cellule, des courbes de dose opposées — lire un plafond et une fenêtre comme un diagnostic différentiel"
 description: "Deux médicaments peuvent agir sur la même cellule par des récepteurs différents et montrer des comportements de dose opposés : l'un est un nul en haut de sa plage, l'autre ouvre une fenêtre à une fraction de sa dose. Lus ensemble, un plafond et une fenêtre ne sont pas du bruit. Ce sont un diagnostic différentiel écrit en dose-réponse."
 author: "Yannick Loth"
-date: "2026-09-09"
+date: "2026-09-05"
 categories: [Traitement, Pharmacologie, EM/SFC]
 lang: fr
 ---

@@ -2,7 +2,7 @@
 title: "Der UK-Meningitis-Ausbruch und ME/CFS: Warum Patienten mit Immun-Dysfunktion aufpassen sollten"
 description: "Zwei Menschen sind tot und zwanzig Fälle wurden bei einem Ausbruch von Meningokokken der Gruppe B in Canterbury, Kent, gemeldet. Der Ausbruch steht in Verbindung mit einem Nachtclub und der University of Kent, und die UKHSA setzt Antibiotika und gezielte Bexsero-Impfun..."
 author: "Yannick Loth"
-date: "2026-03-18"
+date: "2026-03-05"
 categories: [Immunologie, Öffentliche Gesundheit]
 lang: de
 ---

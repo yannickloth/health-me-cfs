@@ -2,7 +2,7 @@
 title: "Alpha-Delta Sleep Architecture in ME/CFS"
 description: "Sleeping eight, nine, or ten hours doesn't prevent waking unrefreshed in ME/CFS."
 author: "Yannick Loth"
-date: "2026-05-20"
+date: "2026-05-06"
 categories: [Sleep, Treatment, Neurology]
 ---
 

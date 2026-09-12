@@ -2,7 +2,7 @@
 title: "Ein Dosis-Fehlversuch ist kein Urteil — warum eine wirkungslose Dosis die anderen nicht ausschließt"
 description: "\"Wenn 4 mg LDN nicht wirken, wirken 1 mg auch nicht.\" Diese Schlussfolgerung beruht auf einer unausgesprochenen Annahme: dass eine höhere Dosis alle Wirkungen niedrigerer Dosen reproduziert. Bei einem Medikament, das mehrere Ziele bei unterschiedlichen Konzentrationen trifft, ist diese Annahme falsch — und sie kann eine therapeutische Dosis zu Unrecht ausschließen."
 author: "Yannick Loth"
-date: "2026-08-26"
+date: "2026-08-29"
 categories: [Behandlung, Pharmakologie, ME/CFS]
 lang: de
 ---

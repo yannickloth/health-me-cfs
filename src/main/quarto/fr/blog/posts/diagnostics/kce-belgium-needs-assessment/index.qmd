@@ -2,7 +2,7 @@
 title: "749 Belges atteints d'EM/SFC ont dit à leur gouvernement ce qui va mal — les données sont brutales"
 description: "La première évaluation complète des besoins en Belgique sur l'EM/SFC. 749 patients interrogés, 19 entretiens. Qualité de vie comparable aux affections les plus incapacitantes connues, retards diagnostiques au-delà de 5 ans, le GET nuisant à la plupart des patients et 8,6 ans perdus en invalidité professionnelle. Ce que le rapport a trouvé, ce que cela signifie pour les patients et les médecins partout."
 author: "Yannick Loth"
-date: "2026-07-21"
+date: "2026-07-08"
 categories: [Politique, Qualité de vie, Diagnostic, Traitement, Comorbidités, Épidémiologie]
 lang: fr
 ---

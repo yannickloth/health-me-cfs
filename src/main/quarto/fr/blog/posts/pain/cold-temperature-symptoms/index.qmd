@@ -2,7 +2,7 @@
 title: "Toujours froid, jamais assez chaud : la biologie de la dysrégulation thermique dans l'EM/SFC"
 description: "Il y a un moment que beaucoup de personnes atteintes d'EM/SFC connaissent bien : allongé sous deux couvertures dans une pièce qui n'est pas froide, incapable de se réchauffer. Ou transpirer soudainement sans effort. Ou des doigts qui deviennent blancs et engourdis dans une pièce modérément fraîche. Ou découvrir qu'un bain chaud — quelque chose que les personnes en bonne santé trouvent réparateur — les laisse épuisés pour le reste de la journée."
 author: "Yannick Loth"
-date: "2026-03-23"
+date: "2026-03-08"
 categories: [Dysautonomie, Symptômes]
 lang: fr
 ---

@@ -2,7 +2,7 @@
 title: "Die zerebellär-glutamaterge Verbindung bei Autismus: Eine Hypothese auf Verdrahtungsebene"
 description: "Eine dritte Forschungslinie verbindet Autismus mit dem Kleinhirn und glutamatergen Schaltkreisen — der erregenden Verdrahtung des Gehirns. Dieser Artikel untersucht die Purkinje-Zellen-Evidenz, das genetische Signal und die testbare Vorhersage zur sensorischen Empfindlichkeit."
 author: "Yannick Loth"
-date: "2026-08-22"
+date: "2026-08-21"
 categories: [Neurodivergenz, Pathophysiologie, Genetik]
 lang: de
 ---

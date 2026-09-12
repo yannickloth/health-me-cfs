@@ -2,7 +2,7 @@
 title: "Teil 3: Parkinson-Medikamente bei ME/CFS? Die Genetik sagt Ja"
 description: "Dopamin-modulierende Medikamente sind nicht länger reine Symptombehandlung — die GWAS zeigt, dass sie den genetisch betroffenen Schaltkreis ansteuern. Von Ritalin bis Rotigotin: So sieht die Begründung heute aus."
 author: "Yannick Loth"
-date: "2026-07-21"
+date: "2026-07-06"
 categories: [Behandlung, Neurologie, Pharmakologie]
 lang: de
 ---

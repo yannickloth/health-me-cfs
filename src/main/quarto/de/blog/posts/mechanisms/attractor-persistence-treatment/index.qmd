@@ -2,7 +2,7 @@
 title: "Warum ME/CFS nicht verschwindet — und warum schwere Fälle der Behandlung widerstehen"
 description: "Wenn jemand eine Virusinfektion bekommt, ist die erwartete Abfolge klar: das Immunsystem aktiviert sich, der Erreger wird beseitigt, die Entzündung löst sich auf, und die Person kehrt zur Gesundheit zurück."
 author: "Yannick Loth"
-date: "2026-03-24"
+date: "2026-03-09"
 categories: [Systembiologie, Behandlung, Modellierung]
 lang: de
 ---

@@ -2,7 +2,7 @@
 title: "Quatre portes, une maladie"
 description: "L'EM/SFC a un schéma qui a intrigué chercheurs et cliniciens pendant des décennies. Le même syndrome — malaise post-effort, dysfonctionnement cognitif, sommeil non réparateur, dysrégulation autonome, douleur généralisée — apparaît chez des patients avec des histoires d'apparition radicalement différentes : une infection virale dont quelqu'un n'a jamais récupéré, une période de stress psychologique extrême, une chirurgie majeure, une vaccination. Les déclencheurs sont biologiquement distincts. La maladie résultante est cliniquement indiscernable [Ch. 16 §Points d'entrée : multiples portes, une seule voie finale commune]."
 author: "Yannick Loth"
-date: "2026-04-09"
+date: "2026-04-03"
 categories: [Hiérarchie causale, Physiopathologie]
 lang: fr
 ---

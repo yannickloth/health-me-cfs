@@ -2,7 +2,7 @@
 title: "Two Receptors, One Cell, Opposite Dose Curves — Reading a Ceiling and a Window as a Differential Diagnosis"
 description: "Two drugs can act on the same cell through different receptors and show opposite dose behaviour: one null at the top of its range, the other a window at a fraction of its dose. Read together, a ceiling and a window are not noise. They are a differential diagnosis written in dose-response."
 author: "Yannick Loth"
-date: "2026-09-09"
+date: "2026-09-05"
 categories: [Treatment, Pharmacology, ME/CFS]
 lang: en
 ---

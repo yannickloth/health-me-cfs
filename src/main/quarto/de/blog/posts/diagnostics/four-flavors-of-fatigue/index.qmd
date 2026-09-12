@@ -2,7 +2,7 @@
 title: "Die vier Formen von Erschöpfung, die die Medizin für eine einzige Sache hält"
 description: "\"Ich bin müde.\""
 author: "Yannick Loth"
-date: "2026-06-12"
+date: "2026-06-04"
 categories: [Symptome, Diagnostik, Fehldiagnosen]
 lang: de
 ---

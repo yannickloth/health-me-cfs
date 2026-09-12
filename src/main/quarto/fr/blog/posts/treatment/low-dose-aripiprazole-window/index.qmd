@@ -2,7 +2,7 @@
 title: "La dose idéale d'aripiprazole — pourquoi une dose infime fonctionne et qu'une plus forte cesse de le faire"
 description: "L'aripiprazole aide les patients atteints d'EM/SFC à une fraction de milligramme, puis cesse d'aider si la dose augmente. La plupart des gens supposent qu'une dose plus forte s'ajoute à une plus faible. Ce n'est pas le cas. Voici le mécanisme récepteur qui fait que ce médicament a besoin d'une fenêtre étroite — expliqué pas à pas."
 author: "Yannick Loth"
-date: "2026-09-06"
+date: "2026-09-03"
 categories: [Traitement, Pharmacologie, EM/SFC]
 lang: fr
 ---

@@ -2,7 +2,7 @@
 title: "Die Goldilocks-Dosis von Aripiprazol — warum eine winzige Menge wirkt und eine größere aufhört"
 description: "Aripiprazol hilft ME/CFS-Patienten bei einem Bruchteil eines Milligramms und hört dann auf zu helfen, wenn die Dosis steigt. Die meisten nehmen an, dass eine größere Dosis zu einer kleineren hinzukommt. Das tut sie nicht. Hier ist der Rezeptormechanismus, der dieses Medikament ein enges Fenster benötigen lässt — Schritt für Schritt erklärt."
 author: "Yannick Loth"
-date: "2026-09-06"
+date: "2026-09-03"
 categories: [Behandlung, Pharmakologie, ME/CFS]
 lang: de
 ---

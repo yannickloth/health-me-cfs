@@ -2,7 +2,7 @@
 title: "Partie 3 : Votre dose de LDN est un diagnostic — ce que la courbe dose-réponse révèle sur le mécanisme en panne"
 description: "Vous n'avez pas besoin d'un biomarqueur pour savoir quel mécanisme du LDN domine dans votre EM/SFC. La courbe dose-réponse est elle-même la mesure. Voici comment la lire."
 author: "Yannick Loth"
-date: "2026-07-27"
+date: "2026-07-11"
 categories: [Traitement, Pharmacologie, EM/SFC]
 lang: fr
 ---

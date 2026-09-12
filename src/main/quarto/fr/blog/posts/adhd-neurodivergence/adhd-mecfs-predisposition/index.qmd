@@ -2,7 +2,7 @@
 title: "Pourquoi les personnes atteintes de TDAH développent l'EM/SFC à un taux deux fois supérieur"
 description: "Ceci est le deuxième article d'une série sur la biologie énergétique reliant le TDAH, l'autisme et l'EM/SFC. Le premier article présentait l'argument selon lequel le TDAH est un déficit de production d'énergie cérébrale. Celui-ci répond à la question suivante : pourquoi ce déficit pourrait-il rendre les personnes vulné..."
 author: "Yannick Loth"
-date: "2026-05-25"
+date: "2026-05-08"
 categories: [TDAH, Neurodivergence, Physiopathologie]
 lang: fr
 ---

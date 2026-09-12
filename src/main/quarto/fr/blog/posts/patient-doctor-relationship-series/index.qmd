@@ -2,7 +2,7 @@
 title: "La relation médecin-patient dans une maladie incurable"
 description: "Les consultations sur l'EM/SFC échouent de manière prévisible — des deux côtés. Une série en deux articles : comment les patients peuvent utiliser leurs propres recherches sans perdre leur médecin, et comment médecins et aidants peuvent gérer le patient informé sans briser l'alliance."
 author: "Yannick Loth"
-date: "2026-09-09"
+date: "2026-09-07"
 categories: [Soins aux patients, Relation médecin-patient, EM/SFC]
 lang: fr
 ---

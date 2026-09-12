@@ -2,7 +2,7 @@
 title: "À court d'énergie : il leur manque jusqu'à 15 % de leur sang"
 description: "L'adulte moyen a environ 5 litres de sang. Imaginez maintenant vous réveiller chaque matin avec 500 à 750 ml de moins — en permanence. Pas de blessure, pas de saignement, pas de cause évidente. Juste... moins de sang."
 author: "Yannick Loth"
-date: "2026-03-13"
+date: "2026-03-03"
 categories: [Cardiovasculaire, Physiopathologie]
 lang: fr
 ---

@@ -2,7 +2,7 @@
 title: "L'étude à laquelle personne n'a pensé : les patients atteints d'EM/SFC guérissent-ils normalement ?"
 description: "Pendant des années, les chercheurs ont supposé que la cicatrisation était l'une des rares choses que l'EM/SFC laissait intacte. Les cheveux poussent, les ongles poussent, la peau se répare — ce sont des processus autonomes, non ? Puis quelqu'un a vérifié la littérature. L'hypothèse n'était pas seulement fausse. Elle n'avait jamais été testée."
 author: "Yannick Loth"
-date: "2026-07-05"
+date: "2026-07-02"
 categories: [Research, Biomarkers, Pathophysiology, Diagnostics]
 lang: fr
 ---

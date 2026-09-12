@@ -2,7 +2,7 @@
 title: "Why ME/CFS Doesn't Resolve — and Why Severe Cases Resist Treatment"
 description: "When someone gets a viral infection, the expected sequence is clear: the immune system activates, the pathogen is cleared, inflammation resolves, and the person returns to health."
 author: "Yannick Loth"
-date: "2026-03-24"
+date: "2026-03-09"
 categories: [Systems Biology, Treatment, Modeling]
 ---
 

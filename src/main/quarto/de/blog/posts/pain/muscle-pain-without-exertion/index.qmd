@@ -2,7 +2,7 @@
 title: "Warum Ihre Muskeln schmerzen, obwohl Sie nichts getan haben"
 description: "Ein evidenzbasiertes Modell von Muskelschmerzen bei ME/CFS, das erklärt, wie Schlafverlust denselben Schmerz erzeugen kann wie körperliche Anstrengung – durch kontinuierlichen metabolischen Stress, oxidative Nociceptor-Sensibilisierung und autonome mikrovaskuläre Dysfunktion."
 author: "Yannick Loth"
-date: "2026-07-04"
+date: "2026-07-01"
 categories: [Pain, Sleep, Energy Metabolism, Pathophysiology]
 lang: de
 ---

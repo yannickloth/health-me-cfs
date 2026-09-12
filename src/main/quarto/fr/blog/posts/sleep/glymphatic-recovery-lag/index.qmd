@@ -2,7 +2,7 @@
 title: "Pourquoi vos somnifères ne réparent pas votre sommeil non réparateur"
 description: "Vous avez commencé la trazodone. Votre traceur de sommeil montre plus de sommeil profond. Vous dormez toute la nuit pour la première fois depuis des années. Et vous vous réveillez toujours épuisé."
 author: "Yannick Loth"
-date: "2026-06-19"
+date: "2026-06-16"
 categories: [Sommeil, Système glymphatique, Traitement]
 lang: fr
 ---

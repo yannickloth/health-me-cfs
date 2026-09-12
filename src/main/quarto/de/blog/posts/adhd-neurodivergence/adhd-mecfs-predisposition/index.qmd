@@ -2,7 +2,7 @@
 title: "Warum Menschen mit ADHS doppelt so häufig ME/CFS entwickeln"
 description: "Dies ist der zweite Artikel einer Serie über die Energiebiologie, die ADHS, Autismus und ME/CFS verbindet. Der erste Artikel vertrat die Auffassung, dass ADHS ein Defizit der Gehirn-Energieproduktion ist. Dieser beantwortet die nächste Frage: Warum könnte dieses Defizit Menschen für ME/CFS anfällig machen?"
 author: "Yannick Loth"
-date: "2026-05-25"
+date: "2026-05-08"
 categories: [ADHS, Neurodivergenz, Pathophysiologie]
 lang: de
 ---

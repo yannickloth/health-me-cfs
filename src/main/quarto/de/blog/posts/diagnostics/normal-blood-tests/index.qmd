@@ -2,7 +2,7 @@
 title: "Ihre Blutwerte waren normal: Was Standardlabore nicht sehen können"
 description: "Ferritin 22 ng/mL. Referenzbereich: 10-200. Ergebnis: normal. Keine Maßnahme erforderlich."
 author: "Yannick Loth"
-date: "2026-06-15"
+date: "2026-06-06"
 categories: [Diagnostik, Fehldiagnose]
 lang: de
 ---

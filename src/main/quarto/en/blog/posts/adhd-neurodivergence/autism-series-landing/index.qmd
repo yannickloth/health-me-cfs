@@ -2,7 +2,7 @@
 title: "The Biology of Autism — a Series"
 description: "Autism is not one thing. Four independent strands of biology — energy, immune, wiring, and acquired features — can each contribute to the symptom burden, and the way forward may be treating several of them at once. This is the landing page for a series that examines each strand and the multi-pathway treatment hypothesis."
 author: "Yannick Loth"
-date: "2026-08-19"
+date: "2026-08-18"
 categories: [Neurodivergence, Series, Pathophysiology]
 ---
 

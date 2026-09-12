@@ -2,7 +2,7 @@
 title: "If you were born before 2015, you have no protection against the type of meningitis behind the UK outbreak"
 description: "Nobody who grew up before September 2015 received routine vaccination against meningococcal group B — the serogroup responsible for the majority of bacterial meningitis cases in Europe — and that includes you, your children unless they're very you..."
 author: "Yannick Loth"
-date: "2026-03-18"
+date: "2026-03-06"
 categories: [Immunology, Public Health]
 ---
 

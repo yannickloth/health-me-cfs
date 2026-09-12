@@ -2,7 +2,7 @@
 title: "Ihr ADHS ist ein Energieproblem"
 description: "Dies ist der erste Artikel einer Serie über die Energiebiologie, die ADHS, Autismus und ME/CFS verbindet. Die hier vorgelegten Belege stammen aus einem Open-Access-Dokumentationsprojekt zu ME/CFS (CC-BY 4.0), das Pathophysiologie, formale Mathematisierung..."
 author: "Yannick Loth"
-date: "2026-05-22"
+date: "2026-05-07"
 categories: [ADHS, Neurodivergenz, Energiestoffwechsel]
 lang: de
 ---

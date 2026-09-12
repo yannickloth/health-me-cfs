@@ -2,7 +2,7 @@
 title: "Warum Einzelziel-Behandlungen bei ME/CFS immer wieder scheitern"
 description: "Einzelziel-ME/CFS-Behandlungen haben eine konsistente Bilanz: bescheidene Ergebnisse, unvollständige Ansprechen, Nutzen, der kurz vor der Genesung ein Plateau erreicht. Dies geschieht über mechanistische Kategorien hinweg – antivirale Mittel, Immunmodulatoren, mitochondriale Nahrungsergänzungen, Schlafm..."
 author: "Yannick Loth"
-date: "2026-04-20"
+date: "2026-04-09"
 categories: [Treatment, Systems Biology]
 lang: de
 ---

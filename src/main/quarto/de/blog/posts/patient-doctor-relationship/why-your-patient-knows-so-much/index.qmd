@@ -2,7 +2,7 @@
 title: "Warum Ihr Patient so viel weiß: Der informierte Patient bei einer unheilbaren Krankheit"
 description: "Ihr ME/CFS-Patient kommt mit Ausdrucken, einer Selbstdiagnose und besserer Literaturkenntnis als Sie. Warum das eine rationale Anpassung ist und kein Warnsignal — und konkrete Drehbücher für den gut dokumentierten, den logisch fragilen und den verzweifelten Patienten, ohne das Bündnis zu brechen."
 author: "Yannick Loth"
-date: "2026-09-09"
+date: "2026-09-08"
 categories: [Patientenversorgung, Arzt-Patient-Beziehung, ME/CFS]
 lang: de
 ---

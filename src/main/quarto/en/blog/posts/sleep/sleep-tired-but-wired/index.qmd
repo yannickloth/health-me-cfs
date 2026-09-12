@@ -2,7 +2,7 @@
 title: "Tired But Wired: The Autonomic Betrayal at Bedtime"
 description: "There is a particular cruelty that ME/CFS patients know well but rarely see described in medical literature. You are exhausted — not tired, not sleepy, but the bone-deep, cellular exhaustion of a body that has been running on empty all day. Every ..."
 author: "Yannick Loth"
-date: "2026-05-13"
+date: "2026-05-03"
 categories: [Sleep, Autonomic Dysfunction]
 ---
 

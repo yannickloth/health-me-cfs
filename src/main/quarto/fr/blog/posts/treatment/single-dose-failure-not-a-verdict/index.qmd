@@ -2,7 +2,7 @@
 title: "Un échec à une dose unique n'est pas un verdict — pourquoi une dose nulle n'exclut pas les autres"
 description: "« Si 4 mg de LDN ne fonctionnent pas, 1 mg ne fonctionnera pas non plus. » Cette inférence repose sur une hypothèse non dite : qu'une dose plus élevée reproduit tous les effets des doses plus faibles. Pour un médicament qui atteint plusieurs cibles à des concentrations différentes, cette hypothèse est fausse — et elle peut écarter à tort une dose thérapeutique."
 author: "Yannick Loth"
-date: "2026-08-26"
+date: "2026-08-29"
 categories: [Traitement, Pharmacologie, EM/SFC]
 lang: fr
 ---

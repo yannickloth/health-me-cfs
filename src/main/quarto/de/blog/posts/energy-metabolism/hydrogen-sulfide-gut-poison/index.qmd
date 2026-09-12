@@ -2,7 +2,7 @@
 title: "Schwefelwasserstoff: Ihre Darmbakterien vergiften Ihre Mitochondrien"
 description: "Cyanid tötet, indem es sich an die Cytochrom-c-Oxidase bindet — den Komplex IV der mitochondrialen Elektronentransportkette, den letzten Schritt der ATP-Produktion. Ohne Komplex IV stauen sich Elektronen, der Protonengradient kollabiert, die ATP-Synthase stoppt und die Zelle stirbt..."
 author: "Yannick Loth"
-date: "2026-06-19"
+date: "2026-06-13"
 categories: [Darmmikrobiom, Mitochondrien, Pathophysiologie]
 lang: de
 ---

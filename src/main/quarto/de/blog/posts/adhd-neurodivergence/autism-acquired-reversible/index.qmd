@@ -2,7 +2,7 @@
 title: "Erworben vs. entwicklungsbedingt: Wann autismusähnliche Merkmale reversibel sein könnten"
 description: "Einige autismusähnliche Merkmale — sensorische Starre, Rückzug, scheinbare Alexithymie — können nach der Entwicklung entstehen statt aus ihr. Dieser letzte Teil untersucht die Evidenz, dass einige erworben und potenziell reversibel sind, und wie man sie vom entwicklungsbedingten Autismus unterscheidet."
 author: "Yannick Loth"
-date: "2026-08-23"
+date: "2026-08-22"
 categories: [Neurodivergenz, Pathophysiologie, Symptome]
 lang: de
 ---

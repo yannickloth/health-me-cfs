@@ -2,7 +2,7 @@
 title: "Gastroparese bei ME/CFS: Ein echter, messbarer langsamer Magen — und ein sicherer Weg, ihn zu behandeln"
 description: "Eine verzögerte Magenentleerung ist ein echtes, testbares Merkmal von ME/CFS — keine vage Beschwerde. Dieser Artikel behandelt die Evidenz, die ehrlichen Grenzen, die offene Mechanismus-Frage, die Angst, mit einem Magen zu leben, dem man nicht trauen kann, und einen sicheren, geordneten Behandlungsweg."
 author: "Yannick Loth"
-date: "2026-08-20"
+date: "2026-08-23"
 lang: de
 categories: [Autonom, Magen-Darm, Symptome]
 ---

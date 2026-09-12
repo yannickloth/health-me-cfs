@@ -2,7 +2,7 @@
 title: "Auf dem Zahnfleisch: ME/CFS-Patienten fehlen bis zu 15 % ihres Blutes"
 description: "Der Durchschnittserwachsene hat etwa 5 Liter Blut. Stellen Sie sich nun vor, jeden Morgen mit 500 bis 750 ml weniger aufzuwachen — dauerhaft. Keine Verletzung, keine Blutung, keine offensichtliche Ursache. Nur... weniger Blut."
 author: "Yannick Loth"
-date: "2026-03-13"
+date: "2026-03-03"
 categories: [Kardiovaskulär, Pathophysiologie]
 lang: de
 ---

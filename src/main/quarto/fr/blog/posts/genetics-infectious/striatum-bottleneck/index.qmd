@@ -2,7 +2,7 @@
 title: "Partie 2 : Le striatum est le goulot d'étranglement"
 description: "Si des virus, des traumatismes et une activation immunitaire déclenchent tous la même maladie, où convergent-ils ? Le GWAS DecodeME pointe vers un circuit unique. Ciblez le goulot d'étranglement, pas le déclencheur."
 author: "Yannick Loth"
-date: "2026-07-21"
+date: "2026-07-05"
 categories: [Génétique, Neurologie, Biologie des systèmes]
 lang: fr
 ---

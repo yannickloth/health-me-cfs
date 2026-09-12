@@ -2,7 +2,7 @@
 title: "La gueule de bois que vous n'avez pas méritée : ce que c'est vraiment de se réveiller avec l'EM/SFC"
 description: "Il existe une sensation matinale particulière que les patients atteints d'EM/SFC reconnaissent instantanément mais peinent à expliquer à quiconque ne l'a jamais ressentie. Vous ouvrez les yeux et le monde est faux. Pas dans le brouillard — empoisonné. L'analogie la plus proche que la plupart des gens comp..."
 author: "Yannick Loth"
-date: "2026-05-07"
+date: "2026-05-01"
 categories: [Sleep, Glymphatic System, Symptoms]
 lang: fr
 ---

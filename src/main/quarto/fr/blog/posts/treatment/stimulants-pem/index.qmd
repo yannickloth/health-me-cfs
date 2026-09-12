@@ -2,7 +2,7 @@
 title: "Le problème du témoin de carburant : ce que font réellement les stimulants dans l'EM/SFC"
 description: "Beaucoup de personnes atteintes d'EM/SFC prennent des stimulants. Modafinil, Ritalin, Adderall, caféine en grandes quantités. Souvent non pas parce qu'elles le veulent, mais parce qu'elles y sont obligées — parce que le monde ne s'arrête pas pour la maladie, et que les employeurs, les écoles et les fam..."
 author: "Yannick Loth"
-date: "2026-03-31"
+date: "2026-03-12"
 categories: [Treatment, PEM, Neurology]
 lang: fr
 ---

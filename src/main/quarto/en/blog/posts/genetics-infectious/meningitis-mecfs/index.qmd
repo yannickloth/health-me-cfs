@@ -2,7 +2,7 @@
 title: "The UK meningitis outbreak and ME/CFS: why patients with immune dysfunction should pay attention"
 description: "Two people are dead and twenty cases have been reported in a meningococcal group B outbreak centered on Canterbury, Kent. The outbreak is linked to a nightclub and the University of Kent, and UKHSA is deploying antibiotics and targeted Bexsero vac..."
 author: "Yannick Loth"
-date: "2026-03-18"
+date: "2026-03-05"
 categories: [Immunology, Public Health]
 ---
 

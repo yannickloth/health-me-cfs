@@ -2,7 +2,7 @@
 title: "The Calcium Thread"
 description: "There is a single element that appears in at least three separate ME/CFS failure modes. Not as a root cause in each case — the mechanisms are different. But as a recurring character: the thing that goes wrong, in different tissues, for different r..."
 author: "Yannick Loth"
-date: "2026-04-18"
+date: "2026-04-08"
 categories: [Pathophysiology, Ion Channels]
 ---
 

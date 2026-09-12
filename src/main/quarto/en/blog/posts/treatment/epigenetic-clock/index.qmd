@@ -2,7 +2,7 @@
 title: "An Early Treatment Window in ME/CFS"
 description: "Patients treated within the first year or two of ME/CFS onset tend to do better than patients treated five or ten years in. This is not unique to ME/CFS — many chronic conditions show duration-dependent treatment resistance — but in ME/CFS the pat..."
 author: "Yannick Loth"
-date: "2026-04-30"
+date: "2026-04-12"
 categories: [Epigenetics, Treatment, Pathophysiology]
 ---
 

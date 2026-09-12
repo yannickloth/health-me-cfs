@@ -2,7 +2,7 @@
 title: "Four Doors, One Disease"
 description: "ME/CFS has a pattern that has puzzled researchers and clinicians for decades. The same syndrome — post-exertional malaise, cognitive dysfunction, unrefreshing sleep, autonomic dysregulation, widespread pain — appears in patients with radically dif..."
 author: "Yannick Loth"
-date: "2026-04-09"
+date: "2026-04-03"
 categories: [Causal Hierarchy, Pathophysiology]
 ---
 

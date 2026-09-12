@@ -2,7 +2,7 @@
 title: "Mise à jour hebdomadaire — 21–27 juillet 2026 : une boussole pharmacodiagnostique, six nouveaux chapitres, des documents compagnons et la dose qui est un diagnostic"
 description: "L'article a gagné 102 médicaments, un cadre d'hormèse à 17 doses, 4 nouveaux chapitres, 924 entrées de glossaire, une décomposition en U inversé à 4 catégories et la première matrice pharmacodiagnostique reliant chaque réponse médicamenteuse au mécanisme sous-jacent — le tout en une semaine."
 author: "Yannick Loth"
-date: "2026-07-27"
+date: "2026-07-13"
 categories: [Recherche, EM/SFC, Mise à jour]
 lang: fr
 ---

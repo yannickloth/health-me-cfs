@@ -2,7 +2,7 @@
 title: "Migräne als ME/CFS in Zeitlupe: Kumulative Erosion der metabolischen Reserve"
 description: "Dies ist der siebte und letzte Artikel einer Serie über die Energiebiologie, die ADHS, Autismus und ME/CFS verbindet. Dieser untersucht Migräne — nicht als Schmerzzustand, sondern als eine Erkrankung der fortschreitenden mitochondrialen Erschöpfung, die die metabolische R..."
 author: "Yannick Loth"
-date: "2026-06-09"
+date: "2026-06-03"
 categories: [Migräne, Neurodivergenz, Energiestoffwechsel]
 lang: de
 ---

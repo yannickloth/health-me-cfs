@@ -2,7 +2,7 @@
 title: "Pourquoi les traitements à cible unique échouent toujours dans l'EM/SFC"
 description: "Les traitements à cible unique de l'EM/SFC ont un bilan constant : résultats modestes, réponses incomplètes, bénéfices qui plafonnent en deçà de la guérison. Cela se produit à travers les catégories mécanistiques — antiviraux, immunomodulateurs, suppléments mitochondriaux, médicaments du sommeil —..."
 author: "Yannick Loth"
-date: "2026-04-20"
+date: "2026-04-09"
 categories: [Treatment, Systems Biology]
 lang: fr
 ---

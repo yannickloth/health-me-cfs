@@ -2,7 +2,7 @@
 title: "749 Belgians With ME/CFS Told Their Government What's Broken — The Data Is Brutal"
 description: "Belgium's first comprehensive ME/CFS needs assessment. 749 patients surveyed, 19 interviews. Quality of life comparable to the most disabling conditions known, diagnostic delays past 5 years, GET harming most patients, and 8.6 years lost to workplace disability. What the report found, what it means for patients and doctors everywhere."
 author: "Yannick Loth"
-date: "2026-07-21"
+date: "2026-07-08"
 categories: [Policy, Quality of Life, Diagnosis, Treatment, Comorbidities, Epidemiology]
 ---
 

@@ -2,7 +2,7 @@
 title: "Hypermobilität ist nicht nur Flexibilität: Die Energiekosten instabiler Gelenke"
 description: "Sie sieht gesund aus. Sie ist jung, sie ist schlank, sie kann mit den Handflächen den Boden berühren, ohne die Knie zu beugen. Ärzte haben sie seit der Kindheit als \"flexibel\" bezeichnet, und Physiotherapeuten haben ihre Beweglichkeit bewundert. Niemand hat ihr gesagt, dass ihre Flexibilit..."
 author: "Yannick Loth"
-date: "2026-06-19"
+date: "2026-06-09"
 categories: [Hypermobilität, Energiestoffwechsel, Komorbiditäten]
 lang: de
 ---

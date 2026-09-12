@@ -2,7 +2,7 @@
 title: "Autismus als Störung der Gehirnenergie: Was die Wissenschaft sagt"
 description: "Eine wachsende Forschungslinie behandelt einige Kern-Symptome des Autismus — sensorische Überlastung, kognitive Starre, soziale Erschöpfung — als Reaktion des Gehirns auf einen Energiemangel. Dieser Artikel erklärt die Evidenz, die veränderbaren Ziele und die Mehrpfad-Behandlungshypothese: Kann die Behandlung mehrerer Mechanismen gleichzeitig ein normaleres Leben ermöglichen?"
 author: "Yannick Loth"
-date: "2026-08-20"
+date: "2026-08-19"
 categories: [Neurodivergenz, Energiestoffwechsel, Behandlung, Pathophysiologie]
 lang: de
 ---

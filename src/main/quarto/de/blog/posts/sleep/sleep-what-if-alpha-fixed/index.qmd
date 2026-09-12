@@ -2,7 +2,7 @@
 title: "Was, wenn wir die Alpha-Intrusion beheben würden? Ein Gedankenexperiment bei ME/CFS"
 description: "Niemand hat dieses Experiment bislang durchgeführt. Aber die Frage ist es trotzdem wert, gestellt zu werden."
 author: "Yannick Loth"
-date: "2026-05-16"
+date: "2026-05-04"
 categories: [Sleep, Treatment]
 lang: de
 ---

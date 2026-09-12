@@ -2,7 +2,7 @@
 title: "Warum Ihre Schlafmittel Ihren nicht erholsamen Schlaf nicht reparieren"
 description: "Sie haben Trazodon begonnen. Ihr Schlaftracker zeigt mehr Tiefschlaf. Sie schlafen zum ersten Mal seit Jahren durch. Und Sie wachen trotzdem erschöpft auf."
 author: "Yannick Loth"
-date: "2026-06-19"
+date: "2026-06-16"
 categories: [Schlaf, Glymphatisches System, Behandlung]
 lang: de
 ---

@@ -2,7 +2,7 @@
 title: "Le cluster neurodivergence-hypermobilité-fatigue : un risque métabolique composé"
 description: "Ceci est le quatrième article d'une série sur la biologie énergétique qui relie le TDAH, l'autisme et l'EM/SFC. Cet article examine pourquoi l'intersection de la neurodivergence et de l'hypermobilité du tissu conjonctif peut représenter le phénotype à plus haut risque de développer l'EM/SFC..."
 author: "Yannick Loth"
-date: "2026-05-31"
+date: "2026-05-11"
 categories: [Neurodivergence, Hypermobilité, Comorbidités]
 lang: fr
 ---

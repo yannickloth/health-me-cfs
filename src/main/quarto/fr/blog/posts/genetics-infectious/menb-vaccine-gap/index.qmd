@@ -2,7 +2,7 @@
 title: "Si vous êtes né avant 2015, vous n'avez aucune protection contre le type de méningite derrière l'épidémie au Royaume-Uni"
 description: "Personne n'ayant grandi avant septembre 2015 n'a reçu de vaccination systématique contre le méningocoque du groupe B — le sérogroupe responsable de la majorité des cas de méningite bactérienne en Europe — et cela vous inclut, vous, vos enfants sauf s'ils sont très jeunes..."
 author: "Yannick Loth"
-date: "2026-03-18"
+date: "2026-03-06"
 categories: [Immunologie, Santé publique]
 lang: fr
 ---

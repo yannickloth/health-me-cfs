@@ -2,7 +2,7 @@
 title: "L'effondrement après l'hyperfocus : le TDAH vit-il déjà un micro-MPE ?"
 description: "C'est le troisième article d'une série sur la biologie énergétique reliant le TDAH, l'autisme et l'EM/SFC. Les articles précédents ont présenté l'argument selon lequel le TDAH est un déficit énergétique cérébral et ont exploré pourquoi il peut prédisposer à l'EM/SFC. Celui-ci explore une question plus spéculative qu..."
 author: "Yannick Loth"
-date: "2026-05-28"
+date: "2026-05-10"
 categories: [TDAH, PEM, Neurodivergence]
 lang: fr
 ---

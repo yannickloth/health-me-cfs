@@ -2,7 +2,7 @@
 title: "Die Stille, die Schwierige, die Abwesende: Was Sozialkontakte bei ME/CFS kosten"
 description: "Sie ist die Stille in der Gruppe. Manchmal ist sie nicht nur still — sie ist scharf, kritisch, negativ. Die Leute bemerken zuerst das Schweigen, dann die Flachheit, dann die Schärfe. Sie deuten das Schweigen als Desinteresse, die Kritik als Feindseligkeit, den Rückzug als Ablehnung. Sie liegen in jeder Hinsicht falsch..."
 author: "Yannick Loth"
-date: "2026-08-07"
+date: "2026-08-08"
 categories: [Soziale Auswirkungen, Energiestoffwechsel, Neurokognitiv]
 lang: de
 ---

@@ -2,7 +2,7 @@
 title: "Une fenêtre de traitement précoce dans l'EM/SFC"
 description: "Les patients traités dans la première ou les deux premières années suivant l'apparition de l'EM/SFC tendent à mieux s'en sortir que les patients traités cinq ou dix ans plus tard. Ce n'est pas propre à l'EM/SFC — beaucoup de conditions chroniques montrent une résistance au traitement dépendante de la durée — mais dans l'EM/SFC le schéma est particulièrement marqué."
 author: "Yannick Loth"
-date: "2026-04-30"
+date: "2026-04-12"
 categories: [Épigénétique, Traitement, Physiopathologie]
 lang: fr
 ---

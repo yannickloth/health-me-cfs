@@ -2,7 +2,7 @@
 title: "SIBO : les bactéries qui volent votre petit-déjeuner"
 description: "L'intestin grêle est censé être relativement stérile. Le gros intestin — le côlon — est une métropole microbienne, abritant des milliers de milliards de bactéries qui fermentent les fibres, produisent des vitamines et maintiennent le système immunitaire muqueux. L'intestin grêle,..."
 author: "Yannick Loth"
-date: "2026-06-19"
+date: "2026-06-14"
 categories: [Microbiome intestinal, Traitement]
 lang: fr
 ---

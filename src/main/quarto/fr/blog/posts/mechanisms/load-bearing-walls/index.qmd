@@ -2,7 +2,7 @@
 title: "Les murs porteurs contre les cloisons intérieures"
 description: "En construction, un mur porteur soutient la structure du bâtiment. Retirez-le et le bâtiment s'effondre. Un mur non porteur délimite un espace, assure l'isolation, tient une porte — mais la structure se tient sans lui. Rénover une pièce en retirant les cloisons non porteu..."
 author: "Yannick Loth"
-date: "2026-04-13"
+date: "2026-04-04"
 categories: [Hiérarchie causale, Traitement, Biologie des systèmes]
 lang: fr
 ---

@@ -2,7 +2,7 @@
 title: "Pourquoi bouger fait mal : la biologie de la douleur et de la raideur musculaires dans l'EM/SFC"
 description: "Éplucher des pommes de terre. Ouvrir un bocal. Tenir un téléphone à l'oreille pendant trois minutes."
 author: "Yannick Loth"
-date: "2026-03-26"
+date: "2026-03-10"
 categories: [Douleur, Symptômes, Physiopathologie]
 lang: fr
 ---

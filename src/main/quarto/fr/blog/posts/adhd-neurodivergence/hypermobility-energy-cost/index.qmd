@@ -2,7 +2,7 @@
 title: "L'hypermobilité n'est pas que de la souplesse : le coût énergétique des articulations instables"
 description: "Elle a l'air en bonne santé. Elle est jeune, elle est mince, elle peut toucher ses paumes au sol sans plier les genoux. Les médecins l'appellent « souple » depuis l'enfance, et les kinésithérapeutes ont admiré son amplitude de mouvement. Personne ne lui a dit que sa flexi..."
 author: "Yannick Loth"
-date: "2026-06-19"
+date: "2026-06-09"
 categories: [Hypermobilité, Métabolisme énergétique, Comorbidités]
 lang: fr
 ---

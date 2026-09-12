@@ -2,7 +2,7 @@
 title: "Warum Bewegung wehtut: Die Biologie von Muskelschmerz und Steifheit bei ME/CFS"
 description: "Kartoffeln schälen. Ein Glas öffnen. Drei Minuten lang ein Telefon ans Ohr halten."
 author: "Yannick Loth"
-date: "2026-03-26"
+date: "2026-03-10"
 categories: [Schmerz, Symptome, Pathophysiologie]
 lang: de
 ---

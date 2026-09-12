@@ -2,7 +2,7 @@
 title: "Pourquoi vos muscles vous font mal quand vous n'avez rien fait"
 description: "Un modèle fondé sur les données probantes de la douleur musculaire dans l'EM/SFC, expliquant comment la perte de sommeil peut produire la même douleur que l'effort physique — par un stress métabolique continu, une sensibilisation oxydative des nocicepteurs et une dysfonction microvasculaire autonome."
 author: "Yannick Loth"
-date: "2026-07-04"
+date: "2026-07-01"
 categories: [Pain, Sleep, Energy Metabolism, Pathophysiology]
 lang: fr
 ---

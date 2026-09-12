@@ -2,7 +2,7 @@
 title: "The Study Nobody Thought to Do: Do ME/CFS Patients Heal Normally?"
 description: "For years, researchers assumed wound healing was one of the few things ME/CFS left untouched. Hair grows, nails grow, skin repairs itself — those are autonomous processes, right? Then someone checked the literature. The assumption wasn't just wrong. It had never been tested."
 author: "Yannick Loth"
-date: "2026-07-05"
+date: "2026-07-02"
 categories: [Research, Biomarkers, Pathophysiology, Diagnostics]
 ---
 

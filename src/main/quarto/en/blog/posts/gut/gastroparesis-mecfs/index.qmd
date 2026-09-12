@@ -2,7 +2,7 @@
 title: "Gastroparesis in ME/CFS: A Real, Measurable Slow Stomach — and a Safe Way to Manage It"
 description: "Delayed gastric emptying is a real, testable feature of ME/CFS, not a vague complaint. This article covers the evidence, the honest limits, the open mechanism question, the anxiety of living with a stomach you cannot trust, and a safe, ordered treatment pathway."
 author: "Yannick Loth"
-date: "2026-08-20"
+date: "2026-08-23"
 categories: [Autonomic, Gastrointestinal, Symptoms]
 ---
 

@@ -2,7 +2,7 @@
 title: "Warum Stimulanzien bei Brain Fog helfen, aber nicht bei PEM"
 description: "Dies ist der sechste Teil einer Serie über die Energiebiologie, die ADHS, Autismus und ME/CFS verbindet. Dieser Artikel erklärt die auffallende Dissoziation zwischen dem Nutzen von Stimulanzien für kognitive Symptome und ihrer Nullwirkung auf Post-Exertionelle Malaise – und was sie über eine ungetes..."
 author: "Yannick Loth"
-date: "2026-06-06"
+date: "2026-06-02"
 categories: [ADHD, Treatment, PEM]
 lang: de
 ---

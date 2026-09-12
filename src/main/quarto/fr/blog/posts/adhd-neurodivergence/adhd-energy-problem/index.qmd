@@ -2,7 +2,7 @@
 title: "Votre TDAH est un problème d'énergie"
 description: "Ceci est le premier article d'une série sur la biologie énergétique qui relie le TDAH, l'autisme et l'EM/SFC. Les preuves présentées ici proviennent d'un projet de documentation open-access sur l'EM/SFC (CC-BY 4.0) qui intègre la physiopathologie, une formalisation mathématique..."
 author: "Yannick Loth"
-date: "2026-05-22"
+date: "2026-05-07"
 categories: [TDAH, Neurodivergence, Métabolisme énergétique]
 lang: fr
 ---

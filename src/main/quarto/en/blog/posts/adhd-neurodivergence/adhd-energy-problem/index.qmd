@@ -2,7 +2,7 @@
 title: "Your ADHD Is an Energy Problem"
 description: "This is the first in a series of articles on the energy biology linking ADHD, autism, and ME/CFS. The evidence presented here is drawn from an open-access ME/CFS documentation project (CC-BY 4.0) that integrates pathophysiology, formal mathematica..."
 author: "Yannick Loth"
-date: "2026-05-22"
+date: "2026-05-07"
 categories: [ADHD, Neurodivergence, Energy Metabolism]
 ---
 

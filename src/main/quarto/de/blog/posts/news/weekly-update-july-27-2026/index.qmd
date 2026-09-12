@@ -2,7 +2,7 @@
 title: "Wochenrückblick — 21.–27. Juli 2026: Ein pharmakodiagnostischer Kompass, sechs neue Kapitel, Begleitpublikationen und die Dosis, die ein Diagnostikum ist"
 description: "Die Arbeit wuchs um 102 Medikamente, ein 17-Dosen-Hormesis-Framework, 4 neue Kapitel, 924 Glossareinträge, eine invers-U-Zerlegung in 4 Kategorien und die erste pharmakodiagnostische Matrix, die jede Arzneimittelreaktion einem zugrunde liegenden Mechanismus zuordnet – alles in einer Woche."
 author: "Yannick Loth"
-date: "2026-07-27"
+date: "2026-07-13"
 categories: [Research, ME/CFS, Update]
 lang: de
 ---

@@ -2,7 +2,7 @@
 title: "Müde, aber aufgedreht: Der autonome Verrat zur Schlafenszeit"
 description: "Es gibt eine besondere Grausamkeit, die ME/CFS-Patienten gut kennen, die aber selten in der medizinischen Literatur beschrieben wird. Sie sind erschöpft – nicht müde, nicht schläfrig, sondern die bis in die Knochen reichende, zelluläre Erschöpfung eines Körpers, der den ganzen Tag auf leer gelaufen i..."
 author: "Yannick Loth"
-date: "2026-05-13"
+date: "2026-05-03"
 categories: [Sleep, Autonomic Dysfunction]
 lang: de
 ---

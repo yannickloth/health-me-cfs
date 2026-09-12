@@ -2,7 +2,7 @@
 title: "Der Zusammenbruch nach Hyperfokus: Erlebt ADHS schon Mikro-PEM?"
 description: "Dies ist der dritte Teil einer Serie über die Energiebiologie, die ADHS, Autismus und ME/CFS verbindet. Die vorherigen Artikel stellten den Fall für ADHS als ein Gehirnenergiedefizit dar und untersuchten, warum es für ME/CFS prädisponieren kann. Dieser hier untersucht eine spekulativere Frag..."
 author: "Yannick Loth"
-date: "2026-05-28"
+date: "2026-05-10"
 categories: [ADHS, PEM, Neurodivergenz]
 lang: de
 ---

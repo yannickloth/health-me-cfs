@@ -2,7 +2,7 @@
 title: "Why Only Some People Get ME/CFS After Infection"
 description: "In the months following a wave of COVID-19, a fraction of infected individuals develop Long COVID. Of those, a subset — distinguished, so far, only imperfectly from the rest — progress to what meets full ME/CFS criteria. The fraction is not small,..."
 author: "Yannick Loth"
-date: "2026-04-26"
+date: "2026-04-11"
 categories: [Modeling, Epidemiology, Pathophysiology]
 ---
 

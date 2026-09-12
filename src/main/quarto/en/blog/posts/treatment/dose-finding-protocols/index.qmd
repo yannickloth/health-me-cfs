@@ -2,7 +2,7 @@
 title: "Part 5: How to Run a Dose-Finding Trial — Protocols for Eight Medications"
 description: "The strategy says: dismiss the dose, not the drug. This article says: here is how. Dose ladders, step durations, primary outcome measures, and stop conditions for eight medications — with every number labeled established, candidate, or speculative."
 author: "Yannick Loth"
-date: "2026-09-07"
+date: "2026-09-02"
 categories: [Treatment, Pharmacology, ME/CFS]
 lang: en
 ---

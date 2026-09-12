@@ -2,7 +2,7 @@
 title: "Teil 1: Die Genetik hat es geklärt — ME/CFS ist neurologisch"
 description: "Jahrzehntelang tobte die Debatte: Ist ME/CFS autoimmun oder neurologisch? Die bisher größte GWAS hat die Antwort geliefert. Die Risikovarianten wirken in Neuronen, nicht in Immunzellen. Das ändert einiges."
 author: "Yannick Loth"
-date: "2026-07-21"
+date: "2026-07-04"
 categories: [Genetik, Neurologie, Pathophysiologie]
 lang: de
 ---

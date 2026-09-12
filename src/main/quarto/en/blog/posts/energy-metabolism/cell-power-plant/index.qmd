@@ -2,7 +2,7 @@
 title: "Your Cells Run a Power Plant. Here's How It Breaks."
 description: "Your body contains roughly 37 trillion cells. Almost every one of them contains hundreds to thousands of mitochondria — organelles that evolved from bacteria two billion years ago and never left. Their job is simple in description and staggering i..."
 author: "Yannick Loth"
-date: "2026-06-18"
+date: "2026-06-08"
 categories: [Energy Metabolism, Mitochondria]
 ---
 

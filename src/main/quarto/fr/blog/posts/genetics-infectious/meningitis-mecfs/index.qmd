@@ -2,7 +2,7 @@
 title: "L'épidémie de méningite au Royaume-Uni et l'EM/SFC : pourquoi les patients avec une dysfonction immunitaire devraient être attentifs"
 description: "Deux personnes sont mortes et vingt cas ont été signalés dans une épidémie de méningocoque du groupe B centrée sur Canterbury, dans le Kent. L'épidémie est liée à une boîte de nuit et à l'Université du Kent, et l'UKHSA déploie des antibiotiques et une vaccination Bexsero ciblée..."
 author: "Yannick Loth"
-date: "2026-03-18"
+date: "2026-03-05"
 categories: [Immunologie, Santé publique]
 lang: fr
 ---

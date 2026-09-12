@@ -2,7 +2,7 @@
 title: "Partie 4 : Le striatum n'est pas le nôtre — ce que signifie le partage de l'enrichissement des MSN pour l'EM/SFC"
 description: "Le GWAS DecodeME pointe vers les neurones épineux moyens. Tout comme les GWAS de la schizophrénie, de la dépression et du trouble lié à la consommation d'alcool. Même type cellulaire, différentes maladies. Voici pourquoi cela n'affaiblit pas la découverte — cela aiguise la question suivante."
 author: "Yannick Loth"
-date: "2026-07-21"
+date: "2026-07-07"
 categories: [Génétique, Neurologie, Trans-pathologies]
 lang: fr
 ---

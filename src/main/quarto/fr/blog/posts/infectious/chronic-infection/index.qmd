@@ -2,7 +2,7 @@
 title: "Infection chronique Article 1 : VEB, HHV-6, maladie transmise par les tiques, et l'infection qui ne s'est jamais terminée dans l'EM/SFC"
 description: "Un guide en langage clair sur l'infection chronique et la réactivation virale dans l'EM/SFC — pourquoi le VEB, le HHV-6 et les pathogènes transmis par les tiques continuent de signaler à votre système immunitaire des années après la maladie aiguë, la voie VEB→mastocyte→MMP-9, la réplication lytique abortive, la co-réactivation poly-herpèsvirus, et la différence entre l'infection active seule et la stimulation immunitaire chronique sur fond d'EM/SFC."
 author: "Yannick Loth"
-date: "2026-08-12"
+date: "2026-08-13"
 lang: fr
 categories: [Infection chronique, VEB, HHV-6, EM/SFC, Pathophysiologie]
 ---

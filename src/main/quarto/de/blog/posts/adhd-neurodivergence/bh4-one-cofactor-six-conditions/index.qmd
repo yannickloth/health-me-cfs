@@ -2,7 +2,7 @@
 title: "Ein Kofaktor, sechs Erkrankungen, ein Engpass"
 description: "Dies ist der fünfte Beitrag einer Serie über die Energiebiologie, die ADHS, Autismus und ME/CFS verbindet. Frühere Artikel haben die Hypothese der metabolischen Reserve und das neurodivergent-hypermobile Cluster etabliert. Dieser Beitrag nimmt ein einzelnes Molekül in den Fokus, das der konvergente Engpasspunkt sein könnte, der alle verbindet."
 author: "Yannick Loth"
-date: "2026-06-03"
+date: "2026-06-01"
 categories: [Neurodivergenz, Biochemie, Pathophysiologie]
 lang: de
 ---

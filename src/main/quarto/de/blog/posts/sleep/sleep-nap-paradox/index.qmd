@@ -2,7 +2,7 @@
 title: "Das Nickerchen-Paradoxon: Warum Ruhe bei ME/CFS nicht zurücksetzt"
 description: "Für einen gesunden Menschen ist ein zwanzigminütiges Nachmittagsnickerchen ein zuverlässiger Reset-Knopf. Die Biologie ist klar: Adenosin – das primäre Schlafdruck-Molekül des Gehirns, das sich während des Wachens ansammelt – wird selbst während eines kurzen Nickerchens abgebaut, und die Wachheit keh..."
 author: "Yannick Loth"
-date: "2026-05-10"
+date: "2026-05-02"
 categories: [Sleep, Symptoms]
 lang: de
 ---

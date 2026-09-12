@@ -2,7 +2,7 @@
 title: "Vom Energiedefizit zu jedem Symptom: Wie ME/CFS den Körper bricht"
 description: "In einem [früheren Artikel](https://www.linkedin.com/pulse/when-your-cells-cant-make-energy-biology-behind-mecfs-yannick-l--hiiwe) habe ich das Versagen des Energiestoffwechsels bei ME/CFS durchgegangen: Wie eine beeinträchtigte Komplex-I-Aktivität eine nichtlineare Klippe in..."
 author: "Yannick Loth"
-date: "2026-03-10"
+date: "2026-03-02"
 categories: [Symptome, Pathophysiologie]
 lang: de
 ---

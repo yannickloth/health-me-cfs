@@ -2,7 +2,7 @@
 title: "Les enfants qui ont développé plus tard l'EM/SFC ne dormaient pas trop. Ils dormaient trop peu."
 description: "Il existe un stéréotype sur les affections de fatigue : le patient qui dort toute la journée. Celui qui dort trop. Celui qui « n'a qu'à se lever et faire quelque chose »."
 author: "Yannick Loth"
-date: "2026-06-12"
+date: "2026-06-05"
 categories: [Sleep, Epidemiology, Pediatrics]
 lang: fr
 ---

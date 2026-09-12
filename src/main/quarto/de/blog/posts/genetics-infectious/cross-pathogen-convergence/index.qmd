@@ -2,7 +2,7 @@
 title: "Ein Virus, ein Bakterium, ein Parasit: Verschiedene Erreger, dieselben Folgen"
 description: "1999 nahm eine Forschungsgruppe in Dubbo, Australien, 253 Personen zum Zeitpunkt der akuten Infektion mit einem von drei Erregern auf: Epstein-Barr-Virus (EBV), Coxiella burnetii (das Bakterium, das Q-Fieber verursacht) oder Ross-River-Virus (ein durch Mücken übertragenes Alphavirus). D..."
 author: "Yannick Loth"
-date: "2026-06-19"
+date: "2026-06-15"
 categories: [Immunologie, Epidemiologie, Pathophysiologie]
 lang: de
 ---

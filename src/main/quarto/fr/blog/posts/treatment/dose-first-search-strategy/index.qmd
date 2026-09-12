@@ -2,7 +2,7 @@
 title: "Écartez la dose, pas le médicament — comment un seul essai raté envoie des patients dans des recherches de plusieurs années"
 description: "« J'ai essayé le LDN. Ça n'a pas marché. » Cette phrase enregistre un verdict sur un médicament alors que les preuves ne soutiennent qu'un verdict sur une dose, une durée et un critère de jugement. L'asymétrie est brutale : un réessai à une dose voisine coûte des jours ; un médicament écarté à tort peut coûter des années. Voici la stratégie de recherche qui tient les deux modes d'échec en échec."
 author: "Yannick Loth"
-date: "2026-09-07"
+date: "2026-09-01"
 categories: [Traitement, Pharmacologie, EM/SFC]
 lang: fr
 ---

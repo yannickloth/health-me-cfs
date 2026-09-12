@@ -2,7 +2,7 @@
 title: "Vos cellules font tourner une centrale électrique. Voici comment elle casse."
 description: "Votre corps contient environ 37 billions de cellules. Presque chacune d'elles contient des centaines à des milliers de mitochondries — des organites qui ont évolué à partir de bactéries il y a deux milliards d'années et ne sont jamais repartis. Leur travail est simple dans la description et stupéfiant dans l'ampleur : convertir la nourriture et l'oxygène en ATP, la molécule qui fait fonctionner tout le reste."
 author: "Yannick Loth"
-date: "2026-06-18"
+date: "2026-06-08"
 categories: [Métabolisme énergétique, Mitochondries]
 lang: fr
 ---

@@ -2,7 +2,7 @@
 title: "La migraine comme EM/SFC au ralenti : l'érosion cumulative de la réserve métabolique"
 description: "Ceci est le septième et dernier article d'une série sur la biologie énergétique qui relie le TDAH, l'autisme et l'EM/SFC. Celui-ci examine la migraine — non pas comme une affection douloureuse, mais comme une maladie d'épuisement mitochondrial progressif qui érode lentement la réserve métaboli..."
 author: "Yannick Loth"
-date: "2026-06-09"
+date: "2026-06-03"
 categories: [Migraine, Neurodivergence, Métabolisme énergétique]
 lang: fr
 ---

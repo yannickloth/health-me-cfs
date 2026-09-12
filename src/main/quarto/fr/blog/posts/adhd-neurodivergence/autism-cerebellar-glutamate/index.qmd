@@ -2,7 +2,7 @@
 title: "La connexion cérébello-glutamatergique dans l'autisme : une hypothèse au niveau du câblage"
 description: "Une troisième ligne de recherche relie l'autisme au cervelet et aux circuits glutamatergiques — le câblage excitateur du cerveau. Cet article examine les preuves des cellules de Purkinje, le signal génétique et la prédiction testable sur la sensibilité sensorielle."
 author: "Yannick Loth"
-date: "2026-08-22"
+date: "2026-08-21"
 categories: [Neurodivergence, Physiopathologie, Génétique]
 lang: fr
 ---

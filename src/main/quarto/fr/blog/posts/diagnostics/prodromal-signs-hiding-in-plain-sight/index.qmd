@@ -2,7 +2,7 @@
 title: "Et si ces symptômes d'enfance n'avaient jamais été « juste des douleurs de croissance » ?"
 description: "L'enfant qui s'entraîne 20 heures par semaine et qui n'arrive toujours pas à suivre des pairs qui s'entraînent deux fois moins. L'adolescent qui commence chaque match fort mais s'éteint en seconde période — les entraîneurs appellent ça « manque de concentration ». L'élève excellent qui est inexplicablement épuisé..."
 author: "Yannick Loth"
-date: "2026-06-15"
+date: "2026-06-07"
 categories: [Diagnostic, Pédiatrie, Symptômes]
 lang: fr
 ---

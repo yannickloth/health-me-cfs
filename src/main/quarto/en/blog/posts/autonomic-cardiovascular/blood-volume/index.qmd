@@ -2,7 +2,7 @@
 title: "Running on Empty: ME/CFS Patients Are Missing Up to 15% of Their Blood"
 description: "The average adult has about 5 liters of blood. Now imagine waking up every morning with 500 to 750 ml less — permanently. No injury, no bleeding, no obvious cause. Just... less blood."
 author: "Yannick Loth"
-date: "2026-03-13"
+date: "2026-03-03"
 categories: [Cardiovascular, Pathophysiology]
 ---
 

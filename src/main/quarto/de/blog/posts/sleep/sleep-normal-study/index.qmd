@@ -2,7 +2,7 @@
 title: "„Ihre Schlafstudie war normal“: Wie Standardtests übersehen, was bei ME/CFS defekt ist"
 description: "Es gibt eine Szene, die sich Tausende Male pro Jahr in Schlaflaboren auf der ganzen Welt abspielt. Ein Patient mit ME/CFS – über jede Beschreibung hinaus erschöpft, wacht jeden Morgen auf und fühlt sich vergiftet, stundenlang unfähig zu funktionieren, nachdem er die Augen geöffnet hat – wird zu einer S..."
 author: "Yannick Loth"
-date: "2026-05-19"
+date: "2026-05-05"
 categories: [Sleep, Diagnostics, Misdiagnosis]
 lang: de
 ---

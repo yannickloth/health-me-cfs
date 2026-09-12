@@ -2,7 +2,7 @@
 title: "Part 3: Your LDN Dose Is a Diagnostic — What the Dose-Response Curve Says About Which Mechanism Is Broken"
 description: "You don't need a biomarker to know which LDN mechanism is dominant in your ME/CFS. The dose-response curve itself is the readout. Here's how to read it."
 author: "Yannick Loth"
-date: "2026-07-27"
+date: "2026-07-11"
 categories: [Treatment, Pharmacology, ME/CFS]
 ---
 

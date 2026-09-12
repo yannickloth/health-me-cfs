@@ -2,7 +2,7 @@
 title: "ME/CFS after epidemics: a ninety-year pattern from 1934 to COVID"
 description: "If the post-COVID surge in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) feels like something new, that is only because the earlier waves were small enough to forget. Viral epidemics have been triggering ME/CFS since at least 1934 — ..."
 author: "Yannick Loth"
-date: "2026-03-16"
+date: "2026-03-04"
 categories: [Epidemiology, History]
 ---
 

@@ -2,7 +2,7 @@
 title: "Vier Türen, eine Krankheit"
 description: "ME/CFS hat ein Muster, das Forscher und Kliniker seit Jahrzehnten verwirrt. Dasselbe Syndrom — postexertionelles Unwohlsein, kognitive Dysfunktion, nicht erholsamer Schlaf, autonome Dysregulation, weit verbreiteter Schmerz — erscheint bei Patienten mit radikal unterschiedlichen Entstehungsgeschichten: eine Virusinfektion, von der jemand nie genas, eine Periode extremen psychologischen Stresses, eine größere Operation, eine Impfung. Die Auslöser sind biologisch verschieden. Die resultierende Krankheit ist klinisch ununterscheidbar [Kap. 16 §Einstiegspunkte: Mehrere Türen, ein letzter gemeinsamer Weg]."
 author: "Yannick Loth"
-date: "2026-04-09"
+date: "2026-04-03"
 categories: [Kausale Hierarchie, Pathophysiologie]
 lang: de
 ---

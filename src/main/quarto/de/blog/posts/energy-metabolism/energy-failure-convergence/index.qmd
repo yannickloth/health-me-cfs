@@ -2,7 +2,7 @@
 title: "Eine Krankheit, vierzehn Einstiegspunkte, ein Endpunkt"
 description: "Dies ist der Artikel, auf den alles in dieser Reihe zusteuert. Wenn Sie die vorangegangenen Artikel über Mitochondrien, Schlaf, Darm, Schilddrüse, Immunaktivierung, Hypermobilität, Infektionen, Depression und Diagnostik gelesen haben — haben Sie die Teile gesehen. Hier ist das Bild, das sie ergeben."
 author: "Yannick Loth"
-date: "2026-06-19"
+date: "2026-06-12"
 categories: [Energiestoffwechsel, Systembiologie, Pathophysiologie]
 lang: de
 ---

@@ -2,7 +2,7 @@
 title: "The Goldilocks Dose of Aripiprazole — Why a Tiny Amount Works and a Bigger One Stops"
 description: "Aripiprazole helps ME/CFS patients at a fraction of a milligram, then stops helping if the dose rises. Most people assume a bigger dose adds to a smaller one. It does not. Here is the receptor mechanism that makes this drug need a narrow window — told one step at a time."
 author: "Yannick Loth"
-date: "2026-09-06"
+date: "2026-09-03"
 categories: [Treatment, Pharmacology, ME/CFS]
 ---
 

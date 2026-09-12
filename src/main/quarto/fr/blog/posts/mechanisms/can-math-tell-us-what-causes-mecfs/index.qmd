@@ -2,7 +2,7 @@
 title: "Les mathématiques peuvent-elles nous dire ce qui cause l'EM/SFC ?"
 description: "La biologie répond aux questions causales en laboratoire : vous perturbez un système, vous observez le résultat et vous inférez la relation. Mais dans la maladie humaine, la plupart des perturbations ne sont ni contrôlables ni réversibles, la plupart des patients arrivent avec une maladie déjà établie, et ce que vous voulez le plus savoir — ce qui s'est passé au moment du début — est généralement inobservable. La biologie atteint sa limite."
 author: "Yannick Loth"
-date: "2026-04-23"
+date: "2026-04-10"
 categories: [Modélisation, Biologie des systèmes]
 lang: fr
 ---

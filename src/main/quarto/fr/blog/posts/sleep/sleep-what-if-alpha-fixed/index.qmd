@@ -2,7 +2,7 @@
 title: "Et si nous réparions l'intrusion alpha ? Une expérience de pensée dans l'EM/SFC"
 description: "Personne n'a encore mené cette expérience. Mais la question vaut quand même la peine d'être posée."
 author: "Yannick Loth"
-date: "2026-05-16"
+date: "2026-05-04"
 categories: [Sleep, Treatment]
 lang: fr
 ---

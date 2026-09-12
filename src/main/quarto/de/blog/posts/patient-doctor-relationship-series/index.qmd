@@ -2,7 +2,7 @@
 title: "Die Arzt-Patient-Beziehung bei einer unheilbaren Krankheit"
 description: "ME/CFS-Sprechstunden scheitern vorhersehbar — auf beiden Seiten. Eine Serie aus zwei Artikeln: wie Patienten ihre eigene Recherche nutzen können, ohne ihren Arzt zu verlieren, und wie Ärzte und Angehörige mit dem informierten Patienten umgehen können, ohne das Bündnis zu brechen."
 author: "Yannick Loth"
-date: "2026-09-09"
+date: "2026-09-07"
 categories: [Patientenversorgung, Arzt-Patient-Beziehung, ME/CFS]
 lang: de
 ---

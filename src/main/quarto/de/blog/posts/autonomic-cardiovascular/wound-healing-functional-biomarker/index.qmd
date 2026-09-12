@@ -2,7 +2,7 @@
 title: "Die Studie, an die niemand gedacht hat: Heilen ME/CFS-Patienten normal?"
 description: "Jahrelang gingen Forscher davon aus, dass Wundheilung eines der wenigen Dinge ist, die ME/CFS unberührt lässt. Haare wachsen, Nägel wachsen, die Haut repariert sich selbst – das sind autonome Prozesse, oder? Dann überprüfte jemand die Literatur. Die Annahme war nicht nur falsch. Sie war nie getestet worden."
 author: "Yannick Loth"
-date: "2026-07-05"
+date: "2026-07-02"
 categories: [Research, Biomarkers, Pathophysiology, Diagnostics]
 lang: de
 ---

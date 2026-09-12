@@ -2,7 +2,7 @@
 title: "Zwei Rezeptoren, eine Zelle, entgegengesetzte Dosiskurven — eine Obergrenze und ein Fenster als Differentialdiagnose lesen"
 description: "Zwei Medikamente können auf derselben Zelle über verschiedene Rezeptoren wirken und ein entgegengesetztes Dosisverhalten zeigen: das eine ein Nulleffekt am oberen Ende seines Bereichs, das andere ein Fenster bei einem Bruchteil seiner Dosis. Zusammen gelesen sind eine Obergrenze und ein Fenster kein Rauschen. Sie sind eine in Dosis-Wirkung geschriebene Differentialdiagnose."
 author: "Yannick Loth"
-date: "2026-09-09"
+date: "2026-09-05"
 categories: [Behandlung, Pharmakologie, ME/CFS]
 lang: de
 ---

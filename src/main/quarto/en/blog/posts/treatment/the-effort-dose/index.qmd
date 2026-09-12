@@ -2,7 +2,7 @@
 title: "The Effort Dose — Why Exertion Follows the Same Curve as the Drugs, and Why in ME/CFS the Curve May Be Broken"
 description: "Every drug in the dose-response series works in a window: too little does nothing, too much harms. Effort is also a dose. In healthy bodies, exercise is hormetic — a small stress that buys adaptation. In ME/CFS that curve may not merely shift; it may break, which would explain why pacing works and graded exercise therapy fails."
 author: "Yannick Loth"
-date: "2026-09-09"
+date: "2026-09-06"
 categories: [Treatment, PEM, Pathophysiology]
 lang: en
 ---

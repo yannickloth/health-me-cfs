@@ -2,7 +2,7 @@
 title: "Why Moving Hurts: The Biology of Muscle Pain and Stiffness in ME/CFS"
 description: "Peeling potatoes. Opening a jar. Holding a phone to your ear for three minutes."
 author: "Yannick Loth"
-date: "2026-03-26"
+date: "2026-03-10"
 categories: [Pain, Symptoms, Pathophysiology]
 ---
 

@@ -2,7 +2,7 @@
 title: "Vos analyses de sang étaient normales : ce que les laboratoires standard ne peuvent pas voir"
 description: "Ferritine 22 ng/mL. Plage de référence : 10-200. Résultat : normal. Aucune mesure requise."
 author: "Yannick Loth"
-date: "2026-06-15"
+date: "2026-06-06"
 categories: [Diagnostic, Erreurs de diagnostic]
 lang: fr
 ---

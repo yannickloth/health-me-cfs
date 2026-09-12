@@ -2,7 +2,7 @@
 title: "Ihre Pupille könnte zeigen, ob Autoantikörper die autonome Funktion beeinträchtigen – eine Hypothese"
 description: "Eine 30-sekündige Augenmessung könnte testen, ob GPCR-Autoantikörper bei ME/CFS die autonome Funktion tatsächlich beeinträchtigen. Die Technologie existiert. Die Studie wurde noch nicht durchgeführt."
 author: "Yannick Loth"
-date: "2026-07-09"
+date: "2026-07-03"
 categories: [Biomarker, Diagnostik, Autonome Dysfunktion, Immunologie, Forschung]
 lang: de
 ---

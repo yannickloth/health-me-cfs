@@ -2,7 +2,7 @@
 title: "La dose d'effort — pourquoi l'effort suit la même courbe que les médicaments, et pourquoi dans l'EM/SFC la courbe peut être cassée"
 description: "Chaque médicament de la série dose-réponse fonctionne dans une fenêtre : trop peu ne fait rien, trop fait du mal. L'effort est lui aussi une dose. Dans un corps sain, l'exercice est hormétique — un petit stress qui achète de l'adaptation. Dans l'EM/SFC, cette courbe peut ne pas être simplement décalée mais cassée — ce qui expliquerait pourquoi le pacing fonctionne et pourquoi l'exercice progressif échoue."
 author: "Yannick Loth"
-date: "2026-09-09"
+date: "2026-09-06"
 categories: [Traitement, SPE, Physiopathologie]
 lang: fr
 ---

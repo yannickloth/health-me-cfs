@@ -2,7 +2,7 @@
 title: "The Crash After Hyperfocus: Is ADHD Already Experiencing Micro-PEM?"
 description: "This is the third in a series on the energy biology linking ADHD, autism, and ME/CFS. The previous articles presented the case for ADHD as a brain energy deficit and explored why it may predispose to ME/CFS. This one explores a more speculative qu..."
 author: "Yannick Loth"
-date: "2026-05-28"
+date: "2026-05-10"
 categories: [ADHD, PEM, Neurodivergence]
 ---
 

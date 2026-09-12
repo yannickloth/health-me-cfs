@@ -2,7 +2,7 @@
 title: "Partie 3 : Les médicaments de la maladie de Parkinson pour l'EM/SFC ? La génétique dit oui"
 description: "Les médicaments modulant la dopamine ne relèvent plus de la gestion des symptômes — le GWAS montre qu'ils ciblent le circuit impliqué génétiquement. Du Ritalin à la rotigotine, voici à quoi ressemble désormais la justification."
 author: "Yannick Loth"
-date: "2026-07-21"
+date: "2026-07-06"
 categories: [Traitement, Neurologie, Pharmacologie]
 lang: fr
 ---

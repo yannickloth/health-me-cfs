@@ -2,7 +2,7 @@
 title: "Das Kraftstoff-Warnlicht-Problem: Was Stimulanzien bei ME/CFS tatsächlich tun"
 description: "Viele Menschen mit ME/CFS nehmen Stimulanzien. Modafinil, Ritalin, Adderall, Koffein in großen Mengen. Oft nicht, weil sie wollen, sondern weil sie müssen – weil die Welt für Krankheit nicht pausiert und Arbeitgeber, Schulen und Familien immer noch Funktionsfähigkeit erwarten."
 author: "Yannick Loth"
-date: "2026-03-31"
+date: "2026-03-12"
 categories: [Treatment, PEM, Neurology]
 lang: de
 ---

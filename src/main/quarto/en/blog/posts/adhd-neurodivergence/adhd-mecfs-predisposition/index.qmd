@@ -2,7 +2,7 @@
 title: "Why People with ADHD Get ME/CFS at Twice the Rate"
 description: "This is the second in a series on the energy biology linking ADHD, autism, and ME/CFS. The first article presented the case for ADHD as a brain energy production deficit. This one answers the next question: why might that deficit make people vulne..."
 author: "Yannick Loth"
-date: "2026-05-25"
+date: "2026-05-08"
 categories: [ADHD, Neurodivergence, Pathophysiology]
 ---
 

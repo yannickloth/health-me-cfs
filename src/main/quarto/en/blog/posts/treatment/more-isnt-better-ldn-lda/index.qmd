@@ -2,7 +2,7 @@
 title: "Part 1: Why More Isn't Better — The Dose-Response Paradox in LDN and LDA"
 description: "You finally found a dose that works. Your doctor suggests doubling it — after all, if a little helps, more should help more. But for LDN and LDA, that logic is backwards. Here's the mechanism that explains why raising the dose can make you worse."
 author: "Yannick Loth"
-date: "2026-07-27"
+date: "2026-07-09"
 categories: [Treatment, Pharmacology, ME/CFS]
 ---
 

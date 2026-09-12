@@ -2,7 +2,7 @@
 title: "Du déficit énergétique à chaque symptôme : comment l'EM/SFC brise le corps"
 description: "Dans un [article précédent](https://www.linkedin.com/pulse/when-your-cells-cant-make-energy-biology-behind-mecfs-yannick-l--hiiwe), j'ai passé en revue la défaillance du métabolisme énergétique dans l'EM/SFC : comment une activité altérée du Complexe I crée un précipice non linéaire dans..."
 author: "Yannick Loth"
-date: "2026-03-10"
+date: "2026-03-02"
 categories: [Symptômes, Physiopathologie]
 lang: fr
 ---

@@ -2,7 +2,7 @@
 title: "Part 4: The Pharmacopoeia — Every Dose Range for Every Medication, and What It Means"
 description: "You've tried a drug at one dose and it didn't work. Or it worked, then stopped. Or it caused a side effect your doctor dismissed. Here's how to read dose-response across eighteen medications — not just whether a drug 'works,' but what each dose range reveals about your underlying biology."
 author: "Yannick Loth"
-date: "2026-07-27"
+date: "2026-07-12"
 categories: [Treatment, Pharmacology, ME/CFS]
 ---
 

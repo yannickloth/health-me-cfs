@@ -2,7 +2,7 @@
 title: "Teil 1: Warum mehr nicht besser ist — das Dosis-Wirkungs-Paradoxon bei LDN und LDA"
 description: "Sie haben endlich eine Dosis gefunden, die wirkt. Ihr Arzt schlägt vor, sie zu verdoppeln — schließlich sollte, wenn ein wenig hilft, mehr auch mehr helfen. Doch bei LDN und LDA ist diese Logik auf den Kopf gestellt. Hier ist der Mechanismus, der erklärt, warum eine höhere Dosis Sie schlechter machen kann."
 author: "Yannick Loth"
-date: "2026-07-27"
+date: "2026-07-09"
 categories: [Behandlung, Pharmakologie, ME/CFS]
 lang: de
 ---

@@ -2,7 +2,7 @@
 title: "Your Blood Tests Were Normal: What Standard Labs Can't See"
 description: "Ferritin 22 ng/mL. Reference range: 10-200. Result: normal. No action required."
 author: "Yannick Loth"
-date: "2026-06-15"
+date: "2026-06-06"
 categories: [Diagnostics, Misdiagnosis]
 ---
 

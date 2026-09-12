@@ -2,7 +2,7 @@
 title: "Der Körper, der nicht isst — und der Körper, der nicht aufhört zu speichern: Nahrung, Gewicht und ME/CFS"
 description: "Es gibt eine Geschichte, die Kliniker manchmal über ME/CFS-Patienten erzählen, die aufhören zu essen. Die Geschichte geht: Sie ist ein Teenager-Mädchen, sie verliert Gewicht, sie verweigert Nahrung, sie muss eine Essstörung haben."
 author: "Yannick Loth"
-date: "2026-04-03"
+date: "2026-04-01"
 categories: [Komorbiditäten, Fehldiagnosen]
 lang: de
 ---

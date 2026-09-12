@@ -2,7 +2,7 @@
 title: "Wenn deine Zellen keine Energie mehr erzeugen können: Die Biologie hinter ME/CFS"
 description: "Deine Zellen enthalten nur etwa 50 Gramm ATP. Dieser winzige Pool wird so schnell recycelt, dass die tägliche Umsatzmenge etwa 50 kg erreicht. Stell dir nun vor, dieser Prozess bricht zusammen — nicht wie ein Stromausfall, sondern wie ein Stromnetz bei halber Kapazität."
 author: "Yannick Loth"
-date: "2026-03-08"
+date: "2026-03-01"
 categories: [Energiestoffwechsel, Mitochondrien, Pathophysiologie]
 lang: de
 ---

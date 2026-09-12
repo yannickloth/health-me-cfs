@@ -2,7 +2,7 @@
 title: "Une maladie, quatorze points d'entrée, une même finalité"
 description: "C'est l'article vers lequel tout ce que cette série a construit converge. Si vous avez lu les articles précédents sur les mitochondries, le sommeil, l'intestin, la thyroïde, l'activation immunitaire, l'hypermobilité, les infections, la dépression et le diagnostic — vous avez vu les pièces. Voici le tableau qu'elles forment."
 author: "Yannick Loth"
-date: "2026-06-19"
+date: "2026-06-12"
 categories: [Métabolisme énergétique, Biologie des systèmes, Physiopathologie]
 lang: fr
 ---

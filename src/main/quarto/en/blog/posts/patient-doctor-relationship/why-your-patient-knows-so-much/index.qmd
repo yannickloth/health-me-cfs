@@ -2,7 +2,7 @@
 title: "Why Your Patient Knows So Much: The Informed Patient in an Incurable Disease"
 description: "Your ME/CFS patient arrives with printouts, a self-diagnosis, and better literature knowledge than you have. Why that is a rational adaptation rather than a red flag — and concrete scripts for handling the well-sourced, the fragile-logic, and the desperate patient without breaking the alliance."
 author: "Yannick Loth"
-date: "2026-09-09"
+date: "2026-09-08"
 categories: [Patient Care, Doctor-Patient Relationship, ME/CFS]
 ---
 

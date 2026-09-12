@@ -2,7 +2,7 @@
 title: "Dépression, burnout, EM/SFC : trois maladies, un seul mot"
 description: "Une femme d'une trentaine d'années dit à son médecin qu'elle est épuisée. Elle ne peut pas travailler. Elle survit à peine à la journée. Elle courait des semi-marathons et maintenant elle ne peut pas marcher jusqu'à la boutique du coin sans des conséquences qui durent des jours."
 author: "Yannick Loth"
-date: "2026-06-19"
+date: "2026-06-10"
 categories: [Erreurs de diagnostic, Comorbidités, Diagnostic]
 lang: fr
 ---

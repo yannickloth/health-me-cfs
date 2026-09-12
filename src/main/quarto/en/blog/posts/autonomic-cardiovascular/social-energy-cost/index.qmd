@@ -2,7 +2,7 @@
 title: "The Quiet, The Difficult, The Absent: What Socializing Costs in ME/CFS"
 description: "She's the quiet one in the group. Sometimes she's not just quiet — she's sharp, critical, negative. People notice the silence first, the flatness second, and then the edge. They interpret the quiet as disengagement, the criticism as hostility, the withdrawal as rejection. They are wrong on all counts..."
 author: "Yannick Loth"
-date: "2026-08-07"
+date: "2026-08-08"
 categories: [Social Impact, Energy Metabolism, Neurocognitive]
 ---
 

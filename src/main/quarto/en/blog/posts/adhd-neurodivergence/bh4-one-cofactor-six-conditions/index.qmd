@@ -2,7 +2,7 @@
 title: "One Cofactor, Six Conditions, One Bottleneck"
 description: "This is the fifth in a series on the energy biology linking ADHD, autism, and ME/CFS. Previous articles established the metabolic reserve hypothesis and the neurodivergent-hypermobility cluster. This one zooms in on a single molecule that may be t..."
 author: "Yannick Loth"
-date: "2026-06-03"
+date: "2026-06-01"
 categories: [Neurodivergence, Biochemistry, Pathophysiology]
 ---
 

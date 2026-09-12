@@ -2,7 +2,7 @@
 title: "Die Biologie des Autismus — eine Serie"
 description: "Autismus ist nicht eine einzige Sache. Vier eigenständige biologische Stränge — Energie, Immunsystem, Verdrahtung und erworbene Merkmale — können jeweils zu der Symptomlast beitragen, und der Weg nach vorn könnte darin bestehen, mehrere von ihnen gleichzeitig zu behandeln. Dies ist die Einstiegsseite für eine Serie, die jeden Strang und die Mehrpfad-Behandlungshypothese untersucht."
 author: "Yannick Loth"
-date: "2026-08-19"
+date: "2026-08-18"
 categories: [Neurodivergenz, Serie, Pathophysiologie]
 lang: de
 ---

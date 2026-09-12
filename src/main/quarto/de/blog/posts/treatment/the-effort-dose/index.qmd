@@ -2,7 +2,7 @@
 title: "Die Belastungsdosis — Warum Anstrengung derselben Kurve folgt wie die Medikamente, und warum bei ME/CFS die Kurve gebrochen sein kann"
 description: "Jedes Medikament der Dosis-Wirkungs-Serie wirkt in einem Fenster: zu wenig bewirkt nichts, zu viel schadet. Belastung ist ebenfalls eine Dosis. In einem gesunden Körper ist Bewegung hormetisch — ein kleiner Stress, der Anpassung kauft. Bei ME/CFS ist diese Kurve möglicherweise nicht nur verschoben, sondern gebrochen — was erklären würde, warum Pacing wirkt und warum gestufte Bewegungstherapie scheitert."
 author: "Yannick Loth"
-date: "2026-09-09"
+date: "2026-09-06"
 categories: [Behandlung, PEM, Pathophysiologie]
 lang: de
 ---

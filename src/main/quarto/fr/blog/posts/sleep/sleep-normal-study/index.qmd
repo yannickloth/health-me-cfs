@@ -2,7 +2,7 @@
 title: "« Votre étude du sommeil était normale » : comment les tests standard ratent ce qui ne va pas dans l'EM/SFC"
 description: "Il y a une scène qui se joue des milliers de fois par an dans les cliniques du sommeil du monde entier. Un patient atteint d'EM/SFC — épuisé au-delà de toute description, se réveillant chaque matin en se sentant empoisonné, incapable de fonctionner pendant des heures après avoir ouvert les yeux — est e..."
 author: "Yannick Loth"
-date: "2026-05-19"
+date: "2026-05-05"
 categories: [Sleep, Diagnostics, Misdiagnosis]
 lang: fr
 ---

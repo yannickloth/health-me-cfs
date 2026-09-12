@@ -2,7 +2,7 @@
 title: "Teil 2: Das umgekehrte U ist nicht eine einzige Sache — vier Möglichkeiten, wie ein Medikament aufhört zu wirken, wenn Sie die Dosis erhöhen"
 description: "Achtzehn Medikamente bei ME/CFS zeigen dasselbe Muster: Nutzen bei niedriger Dosis, Schaden bei hoher Dosis. Die Kurve ist dieselbe. Der Mechanismus nicht. Hier ist die molekulare Zerlegung."
 author: "Yannick Loth"
-date: "2026-07-27"
+date: "2026-07-10"
 categories: [Behandlung, Pharmakologie, Pathophysiologie]
 lang: de
 ---

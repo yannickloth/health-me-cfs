@@ -2,7 +2,7 @@
 title: "Le sous-ensemble immunitaire de l'autisme : quand le système immunitaire façonne le cerveau"
 description: "Une ligne de recherche distincte suggère qu'un sous-ensemble de l'autisme pourrait être immunomédié — piloté par des anticorps maternels pendant le développement ou par des réponses anti-neuronales déclenchées par une infection. Cet article examine les preuves, l'implication thérapeutique et ce qui reste non prouvé."
 author: "Yannick Loth"
-date: "2026-08-21"
+date: "2026-08-20"
 categories: [Neurodivergence, Immunologie, Physiopathologie]
 lang: fr
 ---

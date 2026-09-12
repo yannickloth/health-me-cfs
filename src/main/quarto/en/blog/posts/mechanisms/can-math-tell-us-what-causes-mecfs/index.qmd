@@ -2,7 +2,7 @@
 title: "Can Math Tell Us What Causes ME/CFS?"
 description: "Biology answers causal questions in the laboratory: you perturb a system, observe the outcome, and infer the relationship. But in human disease, most perturbations are neither controllable nor reversible, most patients arrive with disease already ..."
 author: "Yannick Loth"
-date: "2026-04-23"
+date: "2026-04-10"
 categories: [Modeling, Systems Biology]
 ---
 

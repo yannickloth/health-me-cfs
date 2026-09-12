@@ -2,7 +2,7 @@
 title: "Depression, Burnout, ME/CFS: Drei Krankheiten, ein Wort"
 description: "Eine Frau in ihren Dreißigern sagt ihrem Arzt, sie sei erschöpft. Sie kann nicht arbeiten. Sie kommt kaum durch den Tag. Früher lief sie Halbmarathons, jetzt kann sie nicht zum Laden um die Ecke gehen, ohne dass es Folgen gibt, die Tage andauern."
 author: "Yannick Loth"
-date: "2026-06-19"
+date: "2026-06-10"
 categories: [Fehldiagnosen, Komorbiditäten, Diagnostik]
 lang: de
 ---

@@ -2,7 +2,7 @@
 title: "Pourquoi seuls certains développent l'EM/SFC après une infection"
 description: "Dans les mois qui suivent une vague de COVID-19, une fraction des individus infectés développe un COVID long. Parmi ceux-ci, un sous-ensemble — distingué, jusqu'à présent, seulement imparfaitement du reste — progresse vers ce qui répond pleinement aux critères de l'EM/SFC. La fraction n'est pas petite, m..."
 author: "Yannick Loth"
-date: "2026-04-26"
+date: "2026-04-11"
 categories: [Modélisation, Épidémiologie, Physiopathologie]
 lang: fr
 ---

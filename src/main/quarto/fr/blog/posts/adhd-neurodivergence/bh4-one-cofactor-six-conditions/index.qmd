@@ -2,7 +2,7 @@
 title: "Un cofacteur, six affections, un seul goulot d'étranglement"
 description: "Voici le cinquième article d'une série sur la biologie énergétique reliant l'ADHD, l'autisme et l'EM/SFC. Les articles précédents ont établi l'hypothèse de la réserve métabolique et le cluster neurodivergence-hypermobilité. Celui-ci zoome sur une seule molécule qui pourrait être le point de passage convergent les reliant toutes."
 author: "Yannick Loth"
-date: "2026-06-03"
+date: "2026-06-01"
 categories: [Neurodivergence, Biochimie, Physiopathologie]
 lang: fr
 ---

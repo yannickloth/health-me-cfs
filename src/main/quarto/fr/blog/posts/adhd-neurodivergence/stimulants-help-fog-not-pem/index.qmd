@@ -2,7 +2,7 @@
 title: "Pourquoi les stimulants aident le brouillard cérébral mais pas le PEM"
 description: "C'est le sixième d'une série sur la biologie de l'énergie reliant le TDAH, l'autisme et l'EM/SFC. Cet article explique la dissociation frappante entre le bénéfice des stimulants pour les symptômes cognitifs et leur effet nul sur le malaise post-effort — et ce qu'elle révèle sur une combinaison de tr..."
 author: "Yannick Loth"
-date: "2026-06-06"
+date: "2026-06-02"
 categories: [ADHD, Treatment, PEM]
 lang: fr
 ---

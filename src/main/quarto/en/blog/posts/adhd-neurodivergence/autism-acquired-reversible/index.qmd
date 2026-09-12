@@ -2,7 +2,7 @@
 title: "Acquired vs. Developmental: When Autism-Like Features Might Be Reversible"
 description: "Some autism-like features — sensory rigidity, withdrawal, apparent alexithymia — can arise after development rather than from it. This final part examines the evidence that some of these are acquired and potentially reversible, and how to tell them apart from developmental autism."
 author: "Yannick Loth"
-date: "2026-08-23"
+date: "2026-08-22"
 categories: [Neurodivergence, Pathophysiology, Symptoms]
 ---
 

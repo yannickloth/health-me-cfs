@@ -2,7 +2,7 @@
 title: "Die immunvermittelte Untergruppe des Autismus: Wenn das Immunsystem das Gehirn formt"
 description: "Eine eigenständige Forschungslinie legt nahe, dass eine Untergruppe des Autismus immunvermittelt sein könnte — durch mütterliche Antikörper während der Entwicklung oder durch infektionsausgelöste anti-neuronale Reaktionen. Dieser Artikel untersucht die Evidenz, die Behandlungsimplikation und was unbewiesen bleibt."
 author: "Yannick Loth"
-date: "2026-08-21"
+date: "2026-08-20"
 categories: [Neurodivergenz, Immunologie, Pathophysiologie]
 lang: de
 ---

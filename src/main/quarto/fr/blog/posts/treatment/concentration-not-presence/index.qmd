@@ -2,7 +2,7 @@
 title: "Pourquoi une dose plus élevée ne contient pas les bénéfices d'une dose plus faible — occupation, signalisation hormétique, et l'intérêt de tester des doses plus faibles"
 description: "Un argument technique complet pour les prescripteurs et les lecteurs intéressés : liaison par action de masse dérivée à partir des premiers principes, équation de Hill–Langmuir et ses hypothèses, cascade de signalisation Keap1–Nrf2, modèle de bénéfice fondé sur l'occupation traité analytiquement, et théorème de non-propagation qui en résulte. L'hypothèse du sur-ensemble — qu'une dose plus élevée reproduit tous les effets d'une dose plus faible — échoue pour les médicaments dont le bénéfice dominant à faible dose est hormétique (éteint à dose plus élevée, non amplifié), si bien qu'une dose nulle à la dose standard ne peut pas exclure des doses plus faibles non testées."
 author: "Yannick Loth"
-date: "2026-09-09"
+date: "2026-09-04"
 categories: [Traitement, Pharmacologie, EM/SFC]
 lang: fr
 ---

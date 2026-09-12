@@ -2,7 +2,7 @@
 title: "The children who later got ME/CFS weren't sleeping too much. They were sleeping too little."
 description: "There's a stereotype about fatigue conditions: the patient who sleeps all day. The oversleeper. The one who \"just needs to get up and do something.\""
 author: "Yannick Loth"
-date: "2026-06-12"
+date: "2026-06-05"
 categories: [Sleep, Epidemiology, Pediatrics]
 ---
 

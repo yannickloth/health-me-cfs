@@ -2,7 +2,7 @@
 title: "Teil 2: Das Striatum ist der Flaschenhals"
 description: "Wenn Viren, Traumata und Immunaktivierung dieselbe Krankheit auslösen, wo laufen sie zusammen? Die DecodeME-GWAS deutet auf einen einzigen Schaltkreis. Ziel ist der Flaschenhals, nicht der Auslöser."
 author: "Yannick Loth"
-date: "2026-07-21"
+date: "2026-07-05"
 categories: [Genetik, Neurologie, Systembiologie]
 lang: de
 ---

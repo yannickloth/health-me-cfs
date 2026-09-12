@@ -2,7 +2,7 @@
 title: "Why Stimulants Help Brain Fog but Not PEM"
 description: "This is the sixth in a series on the energy biology linking ADHD, autism, and ME/CFS. This article explains the striking dissociation between stimulant benefit for cognitive symptoms and their null effect on post-exertional malaise — and what it r..."
 author: "Yannick Loth"
-date: "2026-06-06"
+date: "2026-06-02"
 categories: [ADHD, Treatment, PEM]
 ---
 

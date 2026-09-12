@@ -2,7 +2,7 @@
 title: "The Neurodivergent-Hypermobility-Fatigue Cluster: Compounded Metabolic Risk"
 description: "This is the fourth in a series on the energy biology linking ADHD, autism, and ME/CFS. This article examines why the intersection of neurodivergence and connective tissue hypermobility may represent the highest-risk phenotype for developing ME/CFS..."
 author: "Yannick Loth"
-date: "2026-05-31"
+date: "2026-05-11"
 categories: [Neurodivergence, Hypermobility, Comorbidities]
 ---
 

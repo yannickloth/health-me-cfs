@@ -2,7 +2,7 @@
 title: "Partie 1 : La génétique a tranché — l'EM/SFC est neurologique"
 description: "Pendant des décennies, le débat faisait rage : l'EM/SFC est-elle auto-immune ou neurologique ? La plus grande étude GWAS à ce jour y a répondu. Les variants de risque opèrent dans les neurones, pas dans les cellules immunitaires. Voici ce que cela change."
 author: "Yannick Loth"
-date: "2026-07-21"
+date: "2026-07-04"
 categories: [Génétique, Neurologie, Physiopathologie]
 lang: fr
 ---

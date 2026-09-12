@@ -2,7 +2,7 @@
 title: "Pourquoi l'EM/SFC ne se résout pas — et pourquoi les cas graves résistent au traitement"
 description: "Quand une personne contracte une infection virale, la séquence attendue est claire : le système immunitaire s'active, le pathogène est éliminé, l'inflammation se résout et la personne revient à la santé."
 author: "Yannick Loth"
-date: "2026-03-24"
+date: "2026-03-09"
 categories: [Biologie des systèmes, Traitement, Modélisation]
 lang: fr
 ---

@@ -2,7 +2,7 @@
 title: "Le paradoxe de la sieste : pourquoi le repos ne fait pas de remise à zéro dans l'EM/SFC"
 description: "Pour une personne en bonne santé, une sieste de vingt minutes l'après-midi est un bouton de remise à zéro fiable. La biologie est simple : l'adénosine — la principale molécule de pression de sommeil du cerveau, qui s'accumule pendant l'éveil — se dissipe même pendant une brève sieste, et la vigula..."
 author: "Yannick Loth"
-date: "2026-05-10"
+date: "2026-05-02"
 categories: [Sleep, Symptoms]
 lang: fr
 ---

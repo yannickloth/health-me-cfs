@@ -2,7 +2,7 @@
 title: "Quand le repos ne restaure pas : la biologie du sommeil non réparateur dans l'EM/SFC"
 description: "Il y a une cruauté particulière au centre de l'encéphalomyélite myalgique / syndrome de fatigue chronique (EM/SFC) : les personnes atteintes de cette maladie sont épuisées au-delà de toute description, et pourtant le sommeil n'aide pas. Elles se réveillent en se sentant aussi fatiguées qu'en se couchant ..."
 author: "Yannick Loth"
-date: "2026-03-19"
+date: "2026-03-07"
 categories: [Sleep, Pathophysiology]
 lang: fr
 ---

@@ -2,7 +2,7 @@
 title: "Ein frühes Behandlungsfenster bei ME/CFS"
 description: "Patienten, die innerhalb des ersten oder zweiten Jahres nach dem ME/CFS-Ausbruch behandelt werden, schneiden tendenziell besser ab als Patienten, die erst nach fünf oder zehn Jahren behandelt werden. Das ist nicht einzigartig für ME/CFS — viele chronische Zustände zeigen dauerabhängige Behandlungsresistenzen — aber bei ME/CFS ist das Muster besonders ausgeprägt."
 author: "Yannick Loth"
-date: "2026-04-30"
+date: "2026-04-12"
 categories: [Epigenetik, Behandlung, Pathophysiologie]
 lang: de
 ---

@@ -2,7 +2,7 @@
 title: "Wenn Sie vor 2015 geboren wurden, haben Sie keinen Schutz gegen den Meningitis-Typ hinter dem Ausbruch im Vereinigten Königreich"
 description: "Niemand, der vor September 2015 aufgewachsen ist, erhielt eine routinemäßige Impfung gegen Meningokokken der Gruppe B — die Serogruppe, die für die Mehrheit der bakteriellen Meningitis-Fälle in Europa verantwortlich ist — und das schließt Sie ein, Ihre Kinder, es sei denn, sie sind sehr jung..."
 author: "Yannick Loth"
-date: "2026-03-18"
+date: "2026-03-06"
 categories: [Immunologie, Öffentliche Gesundheit]
 lang: de
 ---

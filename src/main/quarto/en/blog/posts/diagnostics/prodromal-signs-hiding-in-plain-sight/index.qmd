@@ -2,7 +2,7 @@
 title: "What if those childhood symptoms were never \"just growing pains\"?"
 description: "The kid who trains 20 hours a week and still can't keep up with peers who train half as much. The teenager who starts every game strong but fades in the second half — coaches call it \"lack of focus.\" The straight-A student who is inexplicably exha..."
 author: "Yannick Loth"
-date: "2026-06-15"
+date: "2026-06-07"
 categories: [Diagnostics, Pediatrics, Symptoms]
 ---
 

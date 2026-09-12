@@ -2,7 +2,7 @@
 title: "749 Belgier mit ME/CFS sagten ihrer Regierung, was kaputt ist — die Daten sind brutal"
 description: "Belgiens erste umfassende ME/CFS-Bedarfserhebung. 749 befragte Patienten, 19 Interviews. Lebensqualität vergleichbar mit den bekanntesten schwerst beeinträchtigenden Erkrankungen, Diagnoseverzögerungen über 5 Jahre, GET schadet den meisten Patienten, und 8,6 Jahre Arbeitsunfähigkeit. Was der Bericht fand, was er für Patienten und Ärzte überall bedeutet."
 author: "Yannick Loth"
-date: "2026-07-21"
+date: "2026-07-08"
 categories: [Politik, Lebensqualität, Diagnose, Behandlung, Komorbiditäten, Epidemiologie]
 lang: de
 ---

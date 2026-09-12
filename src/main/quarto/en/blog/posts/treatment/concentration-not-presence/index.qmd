@@ -2,7 +2,7 @@
 title: "Why a Higher Dose Does Not Contain the Benefits of a Lower Dose — Occupancy, Hormetic Signalling, and the Case for Testing Lower Doses"
 description: "A full technical argument for prescribers and interested readers: mass-action binding derived from first principles, the Hill–Langmuir equation and its assumptions, the Keap1–Nrf2 signalling cascade, an occupancy-based benefit model worked through analytically, and the resulting non-propagation theorem. The superset assumption — that a higher dose reproduces all effects of a lower one — fails for drugs whose dominant low-dose benefit is hormetic (extinguished at higher dose, not amplified), so a standard-dose null cannot rule out untested lower doses."
 author: "Yannick Loth"
-date: "2026-09-09"
+date: "2026-09-04"
 categories: [Treatment, Pharmacology, ME/CFS]
 lang: en
 ---

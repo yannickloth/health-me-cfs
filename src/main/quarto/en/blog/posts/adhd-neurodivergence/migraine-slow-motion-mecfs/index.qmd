@@ -2,7 +2,7 @@
 title: "Migraine as Slow-Motion ME/CFS: Cumulative Metabolic Reserve Erosion"
 description: "This is the seventh and final article in a series on the energy biology linking ADHD, autism, and ME/CFS. This one examines migraine — not as a pain condition, but as a disease of progressive mitochondrial depletion that slowly erodes the metaboli..."
 author: "Yannick Loth"
-date: "2026-06-09"
+date: "2026-06-03"
 categories: [Migraine, Neurodivergence, Energy Metabolism]
 ---
 

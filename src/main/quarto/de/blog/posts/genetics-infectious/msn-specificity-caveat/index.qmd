@@ -2,7 +2,7 @@
 title: "Teil 4: Das Striatum gehört nicht uns — Was geteilte MSN-Anreicherung für ME/CFS bedeutet"
 description: "Die DecodeME-GWAS deutet auf mittelgroße Stachelneuronen. Ebenso die GWAS von Schizophrenie, Depression und Alkoholgebrauchsstörung. Gleicher Zelltyp, verschiedene Krankheiten. Warum das die Erkenntnis nicht schwächt — sondern die nächste Frage schärft."
 author: "Yannick Loth"
-date: "2026-07-21"
+date: "2026-07-07"
 categories: [Genetik, Neurologie, Krankheitsübergreifend]
 lang: de
 ---

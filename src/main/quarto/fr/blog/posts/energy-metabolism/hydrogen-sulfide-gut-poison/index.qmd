@@ -2,7 +2,7 @@
 title: "Sulfure d'hydrogène : vos bactéries intestinales empoisonnent vos mitochondries"
 description: "Le cyanure tue en se liant à la cytochrome c oxydase — le complexe IV de la chaîne de transport des électrons mitochondriale, la dernière étape de la production d'ATP. Sans le complexe IV, les électrons s'accumulent, le gradient de protons s'effondre, l'ATP synthase s'arrête, et la cellule meurt..."
 author: "Yannick Loth"
-date: "2026-06-19"
+date: "2026-06-13"
 categories: [Microbiote intestinal, Mitochondries, Physiopathologie]
 lang: fr
 ---

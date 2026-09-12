@@ -2,7 +2,7 @@
 title: "Root Cause ≠ Treatment Priority"
 description: "The most causally fundamental mechanism in ME/CFS is not necessarily the best treatment target. This seems wrong at first. Surely the most upstream cause deserves the most aggressive intervention? The logic breaks down in three separate ways, and ..."
 author: "Yannick Loth"
-date: "2026-04-16"
+date: "2026-04-07"
 categories: [Causal Hierarchy, Treatment]
 ---
 

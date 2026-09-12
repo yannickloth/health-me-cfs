@@ -2,7 +2,7 @@
 title: "Les quatre saveurs de la fatigue que la médecine traite comme une seule"
 description: "« Je suis fatigué. »"
 author: "Yannick Loth"
-date: "2026-06-12"
+date: "2026-06-04"
 categories: [Symptômes, Diagnostic, Erreurs de diagnostic]
 lang: fr
 ---

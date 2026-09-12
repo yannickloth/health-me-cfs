@@ -2,7 +2,7 @@
 title: "Partie 1 : Pourquoi plus n'est pas mieux — le paradoxe de la relation dose-réponse dans le LDN et le LDA"
 description: "Vous avez enfin trouvé une dose qui fonctionne. Votre médecin suggère de la doubler — après tout, si un peu aide, plus devrait aider davantage. Mais pour le LDN et le LDA, cette logique est inversée. Voici le mécanisme qui explique pourquoi augmenter la dose peut vous faire empirer."
 author: "Yannick Loth"
-date: "2026-07-27"
+date: "2026-07-09"
 categories: [Traitement, Pharmacologie, EM/SFC]
 lang: fr
 ---

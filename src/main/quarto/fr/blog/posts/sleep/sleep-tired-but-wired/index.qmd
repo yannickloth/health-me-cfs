@@ -2,7 +2,7 @@
 title: "Fatigué mais surexcité : la trahison autonome à l'heure du coucher"
 description: "Il y a une cruauté particulière que les patients atteints d'EM/SFC connaissent bien mais voient rarement décrite dans la littérature médicale. Vous êtes épuisé — pas fatigué, pas somnolent, mais l'épuisement profond jusqu'à l'os d'un corps qui a tourné à vide toute la journée. Chaque fibre dit : d..."
 author: "Yannick Loth"
-date: "2026-05-13"
+date: "2026-05-03"
 categories: [Sleep, Autonomic Dysfunction]
 lang: fr
 ---

@@ -2,7 +2,7 @@
 title: "Why Your Muscles Hurt When You Haven't Done Anything"
 description: "An evidence-based model of muscle pain in ME/CFS, explaining how sleep loss can produce the same pain as physical exertion — through continuous metabolic stress, oxidative nociceptor sensitisation, and autonomic microvascular dysfunction."
 author: "Yannick Loth"
-date: "2026-07-04"
+date: "2026-07-01"
 categories: [Pain, Sleep, Energy Metabolism, Pathophysiology]
 ---
 

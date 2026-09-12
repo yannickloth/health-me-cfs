@@ -2,7 +2,7 @@
 title: "Partie 4 : La Pharmacopée — Chaque Plage de Dose pour Chaque Médicament, et Ce Que Cela Signifie"
 description: "Vous avez essayé un médicament à une dose et il n'a pas fonctionné. Ou il a fonctionné, puis a cessé. Ou il a provoqué un effet secondaire que votre médecin a balayé d'un revers de la main. Voici comment lire la relation dose-réponse à travers dix-huit médicaments — non seulement si un médicament « fonctionne », mais ce que chaque plage de dose révèle sur votre biologie sous-jacente."
 author: "Yannick Loth"
-date: "2026-07-27"
+date: "2026-07-12"
 lang: fr
 categories: [Traitement, Pharmacologie, EM/SFC]
 ---

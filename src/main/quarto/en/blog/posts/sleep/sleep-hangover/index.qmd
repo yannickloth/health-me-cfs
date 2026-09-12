@@ -2,7 +2,7 @@
 title: "The Hangover You Didn't Earn: What Waking Up With ME/CFS Actually Feels Like"
 description: "There is a particular morning sensation that ME/CFS patients recognise instantly but struggle to explain to anyone who hasn't felt it. You open your eyes and the world is wrong. Not groggy — poisoned. The closest analogy most people would understa..."
 author: "Yannick Loth"
-date: "2026-05-07"
+date: "2026-05-01"
 categories: [Sleep, Glymphatic System, Symptoms]
 ---
 

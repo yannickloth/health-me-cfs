@@ -2,7 +2,7 @@
 title: "Your Pupil Could Test Whether Autoantibodies Impair Autonomic Function — A Hypothesis"
 description: "A 30-second eye measurement could test whether GPCR autoantibodies in ME/CFS actually impair autonomic function. The technology exists. The study has not been done."
 author: "Yannick Loth"
-date: "2026-07-09"
+date: "2026-07-03"
 categories: [Biomarkers, Diagnostics, Autonomic Dysfunction, Immunology, Research]
 ---
 

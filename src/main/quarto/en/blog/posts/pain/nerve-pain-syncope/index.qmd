@@ -2,7 +2,7 @@
 title: "The 3-Second Chain Reaction: Why a Nerve Hit Can Make You Pass Out"
 description: "Hit a nerve — the inside of an elbow, the underside of a wrist, the corner of a desk against a shin — and for about one second you register a sharp jab. *Oh, I hit myself there.* Then the pain begins to materialize and escalate — not gradually, bu..."
 author: "Yannick Loth"
-date: "2026-05-26"
+date: "2026-05-09"
 categories: [Pain, Autonomic Dysfunction, Neurology]
 ---
 

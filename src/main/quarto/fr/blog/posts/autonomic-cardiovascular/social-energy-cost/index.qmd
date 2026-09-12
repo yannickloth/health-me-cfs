@@ -2,7 +2,7 @@
 title: "La silencieuse, la difficile, l'absente : ce que coûte la vie sociale dans l'EM/SFC"
 description: "C'est la silencieuse du groupe. Parfois elle n'est pas seulement silencieuse — elle est tranchante, critique, négative. Les gens remarquent d'abord le silence, puis la platitude, puis le tranchant. Ils interprètent le silence comme du désengagement, la critique comme de l'hostilité, le retrait comme un rejet. Ils se trompent sur toute la ligne..."
 author: "Yannick Loth"
-date: "2026-08-07"
+date: "2026-08-08"
 categories: [Impact social, Métabolisme énergétique, Neurocognitif]
 lang: fr
 ---

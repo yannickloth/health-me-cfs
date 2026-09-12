@@ -2,7 +2,7 @@
 title: "L'autisme comme trouble énergétique du cerveau : ce que dit la science"
 description: "Une ligne de recherche croissante traite certains symptômes centraux de l'autisme — surcharge sensorielle, rigidité cognitive, épuisement social — comme la réponse du cerveau à un déficit énergétique. Cet article explique les preuves, les cibles modifiables et l'hypothèse de traitement multipiste : traiter plusieurs mécanismes à la fois peut-il permettre une vie plus normale ?"
 author: "Yannick Loth"
-date: "2026-08-20"
+date: "2026-08-19"
 categories: [Neurodivergence, Métabolisme énergétique, Traitement, Physiopathologie]
 lang: fr
 ---

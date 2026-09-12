@@ -2,7 +2,7 @@
 title: "Cause racine ≠ priorité de traitement"
 description: "Le mécanisme le plus fondamentalement causal dans l'EM/SFC n'est pas nécessairement la meilleure cible de traitement. Cela semble faux au premier abord. Sûrement que la cause la plus en amont mérite l'intervention la plus agressive ? La logique se décompose de trois manières distinctes, et..."
 author: "Yannick Loth"
-date: "2026-04-16"
+date: "2026-04-07"
 categories: [Hiérarchie causale, Traitement]
 lang: fr
 ---

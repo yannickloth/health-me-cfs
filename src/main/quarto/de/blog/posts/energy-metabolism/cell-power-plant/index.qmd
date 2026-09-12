@@ -2,7 +2,7 @@
 title: "Ihre Zellen betreiben ein Kraftwerk. So bricht es zusammen."
 description: "Ihr Körper enthält etwa 37 Billionen Zellen. Fast jede von ihnen enthält Hunderte bis Tausende von Mitochondrien — Organellen, die sich vor zwei Milliarden Jahren aus Bakterien entwickelt haben und nie gingen. Ihre Aufgabe ist einfach in der Beschreibung und überwältigend im Umfang: Nahrung und Sauerstoff in ATP zu verwandeln, das Molekül, das alles andere antreibt."
 author: "Yannick Loth"
-date: "2026-06-18"
+date: "2026-06-08"
 categories: [Energiestoffwechsel, Mitochondrien]
 lang: de
 ---

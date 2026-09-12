@@ -2,7 +2,7 @@
 title: "Warum eine höhere Dosis nicht die Vorteile einer niedrigeren Dosis enthält — Besetzung, hormetische Signalgebung und der Fall für das Testen niedrigerer Dosen"
 description: "Ein vollständiges technisches Argument für Verschreiber und interessierte Leser: Massenwirkungs-Bindung aus ersten Prinzipien hergeleitet, die Hill–Langmuir-Gleichung und ihre Annahmen, die Keap1–Nrf2-Signalkaskade, ein besetzungsbasiertes Nutzenmodell, analytisch durchgerechnet, und das daraus folgende Nicht-Propagations-Theorem. Die Obermengen-Annahme — dass eine höhere Dosis alle Wirkungen einer niedrigeren Dosis reproduziert — scheitert bei Medikamenten, deren dominanter Nutzen bei niedriger Dosis hormetisch ist (bei höherer Dosis erloschen, nicht verstärkt), sodass ein Nulleffekt bei der Standarddosis niedrigere, ungetestete Dosen nicht ausschließen kann."
 author: "Yannick Loth"
-date: "2026-09-09"
+date: "2026-09-04"
 categories: [Behandlung, Pharmakologie, ME/CFS]
 lang: de
 ---

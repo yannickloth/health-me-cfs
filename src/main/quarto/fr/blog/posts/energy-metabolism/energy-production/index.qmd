@@ -2,7 +2,7 @@
 title: "Quand vos cellules ne peuvent plus produire d'énergie : la biologie derrière l'EM/SFC"
 description: "Vos cellules ne contiennent qu'environ 50 grammes d'ATP. Ce petit réservoir est recyclé si rapidement que le renouvellement quotidien atteint environ 50 kg. Imaginez maintenant ce processus se dérégler — non comme une panne de courant, mais comme un réseau électrique fonctionnant à mi-capacité."
 author: "Yannick Loth"
-date: "2026-03-08"
+date: "2026-03-01"
 categories: [Métabolisme énergétique, Mitochondries, Physiopathologie]
 lang: fr
 ---

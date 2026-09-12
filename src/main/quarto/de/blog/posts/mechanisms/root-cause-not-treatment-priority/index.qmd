@@ -2,7 +2,7 @@
 title: "Grundursache ≠ Behandlungspriorität"
 description: "Der kausal fundamentalste Mechanismus bei ME/CFS ist nicht unbedingt das beste Behandlungsziel. Das scheint zunächst falsch zu sein. Sicherlich verdient die am meisten vorgelagerte Ursache die aggressivste Intervention? Die Logik bricht auf drei getrennte Weisen zusammen, und das Verständnis..."
 author: "Yannick Loth"
-date: "2026-04-16"
+date: "2026-04-07"
 categories: [Kausale Hierarchie, Behandlung]
 lang: de
 ---

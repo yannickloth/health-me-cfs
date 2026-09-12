@@ -2,7 +2,7 @@
 title: "Gastroparésie dans l'EM/SFC : un estomac lent, réel et mesurable — et une façon sûre de le gérer"
 description: "Le retard de vidange gastrique est une caractéristique réelle et testable de l'EM/SFC, et non une plainte vague. Cet article couvre les preuves, les limites honnêtes, la question du mécanisme, l'anxiété de vivre avec un estomac auquel on ne peut pas se fier, et une voie de traitement sûre et ordonnée."
 author: "Yannick Loth"
-date: "2026-08-20"
+date: "2026-08-23"
 lang: fr
 categories: [Autonomique, Gastro-intestinal, Symptômes]
 ---

@@ -2,7 +2,7 @@
 title: "Pourquoi votre patient en sait tant : le patient informé dans une maladie incurable"
 description: "Votre patient atteint d'EM/SFC arrive avec des impressions, un auto-diagnostic et une meilleure connaissance de la littérature que vous. Pourquoi c'est une adaptation rationnelle plutôt qu'un signal d'alarme — et des scripts concrets pour gérer le patient bien documenté, celui à la logique fragile et le désespéré, sans briser l'alliance."
 author: "Yannick Loth"
-date: "2026-09-09"
+date: "2026-09-08"
 categories: [Soins aux patients, Relation médecin-patient, EM/SFC]
 lang: fr
 ---

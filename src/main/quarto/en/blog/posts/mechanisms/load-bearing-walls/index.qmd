@@ -2,7 +2,7 @@
 title: "Load-Bearing Walls vs. Interior Walls"
 description: "In construction, a load-bearing wall supports the structure of the building. Remove it and the building collapses. A non-load-bearing wall defines a space, provides insulation, holds a door — but the structure stands without it. Renovating a room ..."
 author: "Yannick Loth"
-date: "2026-04-13"
+date: "2026-04-04"
 categories: [Causal Hierarchy, Treatment, Systems Biology]
 ---
 

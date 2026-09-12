@@ -2,7 +2,7 @@
 title: "Pourquoi votre corps vous laisse agir avant de vous faire payer : les racines évolutives du PEM"
 description: "Il y a quelque chose qui ressemble, à première vue, à une cruelle plaisanterie au cœur de l'EM/SFC : vous pouvez souvent faire la chose. Soulever le sac, marcher jusqu'à la cuisine, tenir toute la consultation. La catastrophe vient plus tard — douze, vingt-quatre, quarante-huit h..."
 author: "Yannick Loth"
-date: "2026-03-29"
+date: "2026-03-11"
 categories: [PEM, Biologie évolutive, Physiopathologie]
 lang: fr
 ---
