@@ -200,6 +200,106 @@ This phenomenological difference maps onto different biology — metabolic exhau
 *Consequence:* If the orexin system is implicated, existing orexin receptor agonists (developed for narcolepsy) represent a mechanistically targeted therapeutic probe for the "wired-tired" ME/CFS phenotype, distinguishing it from NT2 even when symptoms overlap.
 ]
 
+== Fatigue as a Shared Neuroimmune Programme
+
+The conditions in this chapter are not the only ones that produce disabling fatigue: the same symptom appears in rheumatoid arthritis, systemic lupus erythematosus, Sjögren's syndrome, psoriatic arthritis, axial spondyloarthritis, systemic sclerosis, ANCA-associated vasculitis, sarcoidosis, the idiopathic inflammatory myopathies, myasthenia gravis, multiple sclerosis, inflammatory bowel disease, coeliac disease, primary biliary cholangitis, and cancer.
+These diseases affect different organs and have different immunopathologies, yet severe fatigue is common in all of them @Morris2016NeuroImmuneFatigue @Arnett2012InflammatoryFatigueSickness.
+
+#hypothesis(title: [A Convergent Neuroimmune Programme Underlies Fatigue Across Immune-Inflammatory Diseases])[
+*(Certainty: 0.55.)* Pathological fatigue across immune-inflammatory diseases may reflect, in part, a shared neuroimmune programme rather than many unrelated disease-specific fatigues.
+The programme is the familiar sickness-behaviour response — the brain receives inflammatory signals through circulating cytokines, brain endothelium, vagal afferents, circumventricular organs, and glial relay, and responds by reducing activity and motivational drive @Morris2016NeuroImmuneFatigue @Arnett2012InflammatoryFatigueSickness.
+
+The cross-disease prevalence estimates are broadly similar, though the range is wide (about 42--90%): multiple sclerosis $~80$% @Khan2014MSfatigue, systemic lupus erythematosus 67--90% @Kawka2021SLEfatigue, axial spondyloarthritis $~56$% @Tang2023AxialSpAFatigue, psoriatic arthritis $~51$% @Tang2025PsoriaticArthritisFatigue, inflammatory bowel disease 47% (72% with active disease) @DSilva2022IBDfatigue, myasthenia gravis 42--82% @Ruiter2020MyastheniaFatigue, primary biliary cholangitis $>$50% @Lynch2022PBCfatigue, and cancer 49% (62% during treatment) @AlMaqbali2021CancerFatigue. A wide range is itself expected if the prevalence largely reflects generic chronic-illness and questionnaire effects rather than a disease-specific immune mechanism.
+Two human models provide mechanistic support that immune activation itself can drive fatigue: in immune-checkpoint-inhibitor therapy, 58.5% of a 53-patient cohort developed worsening fatigue, with expansion of cytotoxic effector CD8+ populations and a stronger Th1 response distinguishing the fatigued group @Li2025ICIfatigue; and in the prospective Dubbo cohort, three biologically unrelated pathogens (EBV, Coxiella burnetii, Ross River virus) produced a similar $~11$% incidence of post-infectious chronic fatigue at six months @Hickie2006DubboCohort.
+
+*Competing explanations:* the shared prevalence could reflect shared psychosocial burden, deconditioning common to chronic illness, or the non-specific nature of fatigue reporting, rather than a shared immune-to-brain mechanism. The prevalence estimates themselves are questionnaire-based and do not distinguish an immune-specific signal from a generic chronic-disease one; the same instruments would be expected to return comparably high fatigue prevalence in non-immune chronic diseases. The ICI and Dubbo findings constrain this — both involve a defined immune stimulus and a dose-like timing relationship — but neither excludes these confounders. In the ICI cohort, fatigue is also a recognized immune-related adverse event of hypothyroidism, hypophysitis, adrenal insufficiency, and anaemia, so the CD8/Th1 correlate is compatible with an endocrine or haematological mechanism rather than a direct cytokine-to-brain effect.
+*Replication status:* Prevalence estimates are well-replicated within each disease; the shared-programme interpretation has not been tested as a single cross-disease hypothesis.
+*Severity applicability: Unknown — the disease cohorts were not stratified by ME/CFS severity.*
+
+*Falsifiable prediction:* a pre-registered, harmonized cross-disease cohort measuring the same cytokine-to-brain markers (circulating IL-6/IL-1β/TNF-α, kynurenine:tryptophan ratio, and a central-motivational imaging or behavioural proxy) will show fatigue severity tracking the neuroimmune marker set across diseases better than disease-activity markers — falsified if fatigue severity is no better predicted by the neuroimmune panel than by tissue-specific disease activity across all conditions.
+
+*Consequence:* If fatigue across these diseases shares one downstream programme, then a mechanism identified in one disease (for example, the ICI effector-CD8 signature) becomes a testable candidate in ME/CFS — and vice versa — which is a more efficient research strategy than studying "the fatigue of each disease" in isolation.
+] <hyp:shared-neuroimmune-fatigue-programme>
+
+#speculation(title: [Immune-Metabolic Energy Redistribution: "Selfish Brain" vs. "Selfish Immune System"])[
+*(Certainty: 0.33. Raw 0.65, animal + human-CSF, discounted by the 0.50 animal-model translation weight and the single-programme dependency.)* A strong immune response is metabolically expensive: activated T cells increase glucose uptake, glycolysis, protein synthesis, and proliferation @Fenckova2024SelfishBrainImmune.
+The hypothesis is that persistent immune activation imposes a metabolic demand that competes with the brain and muscle for glucose and other substrates — an allocation conflict between a "selfish brain" and a "selfish immune system."
+
+The direct experimental support is from an acute model: in mice, LPS-induced inflammation lowered blood and CSF glucose and suppressed spontaneous activity, and giving glucose partially restored activity @Kealy2020InflammationBrainEnergy.
+In humans, impaired brain glucose utilization accompanies an inflammation-associated neuropsychiatric state in a 406-patient hip-fracture cohort @Titlestad2024BrainGlucoseDelirium.
+The cross-disease convergence of the thread — that fatigue may reflect systemic energy redistribution — is a framing proposal, not a demonstrated mechanism @Fenckova2024SelfishBrainImmune.
+
+*Translation gap:* the causal glucose-substrate experiment is in mice @Kealy2020InflammationBrainEnergy; the human data are from delirium, not ME/CFS. No study has measured an immune-metabolic allocation conflict in ME/CFS or Long COVID. The claim is therefore mechanistic proof-of-principle, not a demonstrated ME/CFS mechanism.
+*Competing explanation:* the human ICI correlate is immune-activation level (Th1/effector CD8), not measured energy substrate @Li2025ICIfatigue — so cytokines could act directly on motivational circuits without any glucose shortfall. The two accounts are not mutually exclusive and are currently indistinguishable.
+*Origin: source thread / brainstorm.*
+
+*Severity applicability: unknown — the mouse model and the human delirium cohort were not stratified by ME/CFS severity.*
+
+*Falsifiable prediction:* in a prospective ME/CFS or post-infectious cohort, markers of immune-metabolic demand (activated-T-cell glycolytic flux, systemic glucose turnover) will inversely track brain/muscle substrate availability (brain glucose or high-energy phosphate imaging, muscle phosphocreatine recovery) and correlate with fatigue severity — falsified if immune-metabolic demand markers are unrelated to substrate availability or if fatigue tracks only direct cytokine signalling without any substrate change.
+
+*Consequence:* If the immune system and the brain really compete for energy, this would reframe fatigue as a resource-allocation state that could in principle be measured and perhaps supported — but the current evidence is from animal inflammation and human delirium, so no clinical recommendation follows, and the competing "cytokines act directly on motivation" explanation is equally consistent with all existing data.
+] <spec:immune-metabolic-energy-redistribution>
+
+#open-question(title: [Is Fatigue One Entity or Several Mechanism-Defined Subtypes?])[
+Should pathological fatigue be treated as a single phenomenon measured on a 0--10 severity scale, or as several mechanistically distinct subtypes?
+
+Evidence for heterogeneity is substantial.
+Myasthenia gravis distinguishes objective fatigability (a failure of neuromuscular transmission during repeated activity) from a broader subjective fatigue, and the two cannot be reduced to each other @Ruiter2020MyastheniaFatigue.
+Primary biliary cholangitis adds an autonomic axis: 40% of patients had moderate-or-greater orthostatic symptoms versus 6% of controls, and autonomic dysfunction was independently associated with fatigue and cognitive symptoms @Newton2007PBCautonomic.
+In several diseases fatigue is dissociated from classical disease-activity measures — systemic lupus erythematosus @Kawka2021SLEfatigue, sarcoidosis @deKleijn2009SarcoidosisFatigue, systemic sclerosis @Basta2018SScFatigue — and it persists in remission in ANCA-associated vasculitis @Harper2021VasculitisFatigue.
+Taken together, these findings support multiple maintenance mechanisms (cytokine-driven, autonomic, central-motivational, bioenergetic) rather than one universal fatigue.
+
+*Alternative explanation:* apparent heterogeneity could be measurement heterogeneity — different instruments and thresholds generating different "subtypes" that do not correspond to distinct biology.
+A second, statistical alternative: the dissociation between fatigue and disease activity in SLE, sarcoidosis and SSc could be subtype-mixing — if an immune-driven subtype and an inflammation-independent subtype are averaged in a pooled correlation, the two cancel and produce an apparent null even though each subtype tracks its own driver.
+*Testability:* mechanism-stratified phenotyping is testable now with existing assays (cytokine panels, CD8 immunophenotyping, tilt-table/QSART, metabolomics), without waiting for a single universal biomarker.
+*(Severity applicability: unknown — the cross-disease studies were not stratified by ME/CFS severity.)*
+
+*Falsifiable prediction:* biologically defined fatigue subtypes — at minimum an immune-inflammatory, an autonomic, and a central-motivational cluster — will separate in an unsupervised multi-modal analysis of a cross-disease cohort and will each predict a distinct treatment response; falsified if fatigue maps onto a single dominant dimension that explains the cross-disease variance with no separable mechanistic clusters.
+
+*Consequence:* If fatigue is several subtypes rather than one, the clinically useful question changes from "how fatigued are you?" to "which mechanism is producing fatigue in this patient?" — a change that would affect how trials enrol patients and how treatments are matched, even though no validated subtype panel exists yet.
+] <oq:fatigue-heterogeneity-or-single-entity>
+
+#speculation(title: [Fatigue May Track the Kinetics of Immune Activation, Not Its Tonic Level])[
+*(Certainty: 0.33. Raw 0.40, discounted against the single-study ICI source and the absence of any direct kinetic measurement in ME/CFS.)* A different resolution of the dissociation problem is temporal: fatigue may track the *rate of change* of immune activation rather than its steady-state level.
+Sustained cytokine exposure can induce tolerance (receptor desensitisation and negative feedback), so a chronically elevated but stable inflammatory state might produce less fatigue than a rising one @Fenckova2024SelfishBrainImmune.
+This would explain why fatigue is prominent during acute immune activation — the immune-checkpoint-inhibitor cohort, where 58.5% developed worsening fatigue alongside effector-CD8/Th1 expansion @Li2025ICIfatigue, and the acute phase of infection — yet dissociates from stable disease-activity measures in chronic conditions.
+
+*Competing explanation:* the same pattern is explained by subtype-mixing (@oq:fatigue-heterogeneity-or-single-entity) or by a second, inflammation-independent maintenance mechanism (@lim:inflammation-necessary-not-sufficient) — the kinetic account is not the only explanation of the dissociation.
+*Translation gap:* the kinetic inference is drawn from cross-sectional and acute-phase data; no study has measured the rate of change of immune markers alongside fatigue trajectory.
+*Origin: brainstorm.*
+
+*Severity applicability: unknown — not stratified by ME/CFS severity.*
+
+*Falsifiable prediction:* in a longitudinal cohort sampling immune markers and fatigue repeatedly, fatigue severity will correlate more strongly with the rate of change (first difference) of the cytokine/immune-activation panel than with its absolute level, within individuals — falsified if fatigue tracks the tonic level as well as or better than the rate of change.
+
+*Consequence:* If fatigue follows immune dynamics rather than immune level, then the timing of measurement matters — a single cross-sectional cytokine sample would systematically miss the relationship, which could explain why many ME/CFS immune studies find weak or inconsistent fatigue correlations.
+] <spec:fatigue-tracks-immune-kinetics>
+
+#limitation(title: [Inflammation Is Not Sufficient for Fatigue — and Its Necessity Is Unproven])[
+The shared-neuroimmune-programme account does not explain why fatigue severity is often dissociated from disease activity.
+Fatigue persists in ANCA-associated vasculitis despite disease remission @Harper2021VasculitisFatigue, in systemic lupus erythematosus it correlates poorly with conventional activity measures @Kawka2021SLEfatigue, and in sarcoidosis it can remain when organ inflammation is relatively controlled @deKleijn2009SarcoidosisFatigue.
+Conversely, inflammation can be severe without proportional fatigue, and glucocorticoid treatment in sarcoidosis was associated with *more* reported fatigue in one review @deKleijn2009SarcoidosisFatigue (observational; indication-confounded).
+
+The dissociation evidence establishes that immune activation is not sufficient for persistent fatigue: a second, inflammation-independent maintenance mechanism — autonomic, central-motivational, or bioenergetic — must be present for fatigue to persist after the inflammatory stimulus resolves.
+It does not establish that immune activation is necessary; an inflammation-independent mechanism could sustain fatigue without any active inflammatory contribution.
+One candidate is already visible cross-disease: the autonomic/orthostatic axis is independently associated with fatigue and cognitive symptoms in primary biliary cholangitis (40% vs 6% orthostatic symptoms) @Newton2007PBCautonomic, and shared autonomic dysregulation is proposed across the contested-diagnosis cluster @syn:comparative-nosology-framework.
+If the autonomic axis reproduces beyond PBC, it supplies exactly the inflammation-independent maintenance mechanism this limitation requires.
+This is also the situation in ME/CFS, where fatigue persists long after the triggering infection.
+
+*(Severity applicability: unknown — the cited disease cohorts were not stratified by ME/CFS severity.)*
+
+*Consequence:* The dissociation evidence means "reduce inflammation" cannot be assumed to reduce fatigue — it argues for trials that target the inflammation-independent maintenance mechanisms, and for measuring both axes in the same patients. For the clinician, the practical reading is that an improvement in inflammatory markers should not be taken as proof that fatigue will improve; fatigue needs to be managed and monitored on its own axis.
+] <lim:inflammation-necessary-not-sufficient>
+
+#synthesis(title: [Fatigue Is Convergent in Prevalence but Plural in Mechanism])[
+Across fifteen immune-inflammatory diseases, the *prevalence* of disabling fatigue is broadly similar — roughly half to ninety percent, a wide range that also matches what generic chronic-illness and questionnaire effects would produce — and human models with a defined immune stimulus, such as immune-checkpoint-inhibitor therapy and the pathogen-nonspecific Dubbo cohort, show that immune activation can itself produce fatigue @hyp:shared-neuroimmune-fatigue-programme.
+Yet the *relationship to disease activity* is not convergent: fatigue is dissociated from classical activity markers in SLE, sarcoidosis and systemic sclerosis, and persists in ANCA-associated vasculitis remission, so immune activation is not sufficient to explain persistent fatigue and may not be necessary either @lim:inflammation-necessary-not-sufficient.
+Two candidate resolutions of that dissociation remain open and are not mutually exclusive: fatigue may track the *kinetics* of immune activation rather than its tonic level @spec:fatigue-tracks-immune-kinetics, or the pooled signal may average together mechanistically distinct subtypes @oq:fatigue-heterogeneity-or-single-entity.
+The immunometabolic "energy-redistribution" account — that the immune system and brain compete for substrate — has mechanistic proof-of-principle in an acute mouse model and in human delirium, but no direct evidence in ME/CFS, and it competes with a direct cytokine-to-motivation account that fits the same data @spec:immune-metabolic-energy-redistribution.
+
+*Consequence:* The evidence supports treating fatigue not as one entity and not as one disease's symptom, but as the final common output of several partially independent mechanisms — which means the useful clinical question is "which mechanism is producing this patient's fatigue?" and the useful research strategy is to test the same immune, autonomic, and bioenergetic markers across diseases rather than within each disease separately. This synthesis rests on cross-disease and model evidence; no ME/CFS cohort has yet tested the shared programme, so its application to ME/CFS remains an analogy rather than a finding.
+] <syn:common-fatigue-biology-model>
+
 == The Fibromyalgia Overlap
 
 Fibromyalgia is ME/CFS's closest nosological relative — the two conditions co-occur at rates of 22--47% depending on criteria and sample, and their clinical overlap has driven decades of debate about whether they are distinct diseases or points on a severity spectrum.

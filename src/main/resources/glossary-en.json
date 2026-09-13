@@ -12164,5 +12164,15 @@
     "label": "Net Assessment Score (NAS)",
     "category": "method",
     "definition": "The summary benefit ranking used by the Eckey 2025 survey, computed for every intervention with at least 20 responses. It expresses a treatment's perceived effect on overall condition on a seven-point scale, referenced against oral non-liposomal vitamin C and adjusted for multiple comparisons."
+  },
+  "ICI": {
+    "label": "ICI",
+    "category": "treatment",
+    "definition": "Immune Checkpoint Inhibitor: a cancer immunotherapy (e.g. anti-PD-1/PD-L1 or anti-CTLA-4) that removes the brakes on T-cell activation. Used here as a human model in which deliberately intensified immune activation produces fatigue."
+  },
+  "Immunometabolism": {
+    "label": "Immunometabolism",
+    "category": "pathway",
+    "definition": "The study of how immune cells take up and use energy (glucose, amino acids, fatty acids) and how that metabolic demand interacts with the rest of the body, including the brain and muscle."
   }
 }

@@ -13,6 +13,19 @@ Prevents re-processing of already-integrated content.
 
 ---
 
+## Common Biology of Fatigue Across Immune-Inflammatory Diseases (common-fatigue-biology) Literature Search
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-09-13 | 30 queries + seed-PMID verification. Direct topic = cross-disease fatigue convergence; **no direct ME/CFS-cohort study added** (the ME/CFS-side mechanism literature already resides in the corpus and was reused, not duplicated). 21 new papers added: Morris2016NeuroImmuneFatigue, Arnett2012InflammatoryFatigueSickness, Kawka2021SLEfatigue, Tang2025PsoriaticArthritisFatigue, Basta2018SScFatigue, Harper2021VasculitisFatigue, Tang2023AxialSpAFatigue, deKleijn2009SarcoidosisFatigue, Ricci2022InflammatoryMyopathiesFatigue, Ruiter2020MyastheniaFatigue, Khan2014MSfatigue, DSilva2022IBDfatigue, Skjellerudsveen2019CoeliacFatigue, Lynch2022PBCfatigue, Newton2007PBCautonomic, AlMaqbali2021CancerFatigue, Hickie2006DubboCohort, Kealy2020InflammationBrainEnergy, Titlestad2024BrainGlucoseDelirium, Li2025ICIfatigue, Fenckova2024SelfishBrainImmune. Reused by PMID, not duplicated: Dantzer2001SicknessBehavior, Harrison2009NeuralSickness, Morris2013sickness, Capuron2012dopamineinterferon, Lacourt2018InflammationEnergy, VanCampenhout2025EnergyImmune, KomaroffDantzer2025SymptomPersistence, Che2025, Zheng2024SLEfatigue, HabermannHorstmeier2025symptomClusters, Poomkudy2024JointFlexibility, Kavyani2024kynurenine, Kang2026HPAaxis. Cohort overlap: Hickie2006DubboCohort (Dubbo Infection Outcomes Study, n=253) and Sandler2022 (PMID 35959390, same DIOS cohort) — Sandler2022 NOT added, treated as re-analysis. **Unverified:** thread's cited IFN-alpha "33% persistent fatigue" study could not be located in PubMed (6 queries) — flagged, not cited. |
+| Crossref API (1 DOI) | 2026-09-13 | DOI 10.1038/s41583-024-00900-3 verified: Fencková M, "When the 'selfish' brain and the 'selfish' immune system clash", Nature Reviews Neuroscience 2024;26:140 — a research highlight (2 references: Kealy 2020, Titlestad 2024), not primary evidence. |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed API queries (30 queries + esummary/efetch batches, 21 PMIDs) | pubmed/eutils | 2026-09-13 | — | ops/research/search-log-common-fatigue-biology-2026-09-13.md, ops/research/literature-common-fatigue-biology-2026-09-13.md, bib/immune.bib, bib/neuroinflammation.bib, appendix-h `<sec:bib-common-fatigue-biology>` — common fatigue biology across immune-inflammatory diseases (21 new papers) |
+| https://www.nature.com/articles/s41583-024-00900-3 | crossref | 2026-09-13 | — | Fenckova2024SelfishBrainImmune bib entry + appendix-h (`<sec:bib-common-fatigue-biology>`) |
+
+---
+
 ## Eckey 2025 Mechanism Re-analysis (eckey2025-mechanism-reanalysis) Literature Search
 | Source | Last Scraped | Notes |
 |--------|--------------|-------|

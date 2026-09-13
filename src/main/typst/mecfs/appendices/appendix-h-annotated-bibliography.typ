@@ -40180,3 +40180,286 @@ This stream assembles the literature that makes or breaks the proposal to re-ana
     *Conclusion:* Supplies the external-evidence comparator for the autonomic-modulator mechanism rank and, equally, documents how weak that external evidence is — a limit on how strongly the Eckey projection can be validated against independent data.
     *Limitations:* Paediatric population; weak primary evidence; no ME/CFS-specific ranking; no mechanism-level synthesis.
     *Certainty Assessment:* 0.55 raw × 0.80 (comorbid/population-specific) = *discounted 0.44* (external evidence)
+
+== Common Biology of Fatigue Across Immune-Inflammatory Diseases <sec:bib-common-fatigue-biology>
+// =============================================================================
+
+This stream assembles evidence for the claim that pathological fatigue across autoimmune, autoinflammatory, infectious and malignant immune-activating conditions reflects a shared neuroimmune programme (cytokine-to-brain signalling / sickness behaviour), plus an immune-metabolic energetic conflict ("selfish brain" vs "selfish immune system"), and is mechanistically heterogeneous (multiple objective subtypes rather than one universal biomarker). The driving source is a social-media thread (hypothesis generator, not evidence); every embedded PMID was independently verified. Entries include the unifying cross-disease fatigue reviews, disease-specific fatigue prevalence/mechanism evidence, the human bioenergetic-stress studies, the checkpoint-inhibitor immune-activation signature, and the post-infectious prospective cohort.
+
+=== Morris et al.\ 2016 — Neuro-Immune Pathophysiology of Fatigue Across Immune-Inflammatory Diseases
+
+    *Full Citation:*: Morris G, Berk M, Galecki P, Walder K, Maes M. The Neuro-Immune Pathophysiology of Central and Peripheral Fatigue in Systemic Immune-Inflammatory and Neuro-Immune Diseases. _Molecular Neurobiology_. 2016;53(2):1195–1219. @Morris2016NeuroImmuneFatigue
+    *DOI:*: #link("https://doi.org/10.1007/s12035-015-9090-9")[10.1007/s12035-015-9090-9]
+    *PMID:*: 25598355
+    *Study Design:*: Narrative review
+    *Key Findings:*:
+        - Fatigue in depression, RA, SLE, Sjögren's, cancer, MS, stroke and ME/CFS converges on a shared set of mechanisms: pro-inflammatory cytokines (IL-1, IL-6, TNF-α, IFN-α), oxidative and nitrosative stress, TLR activation, altered glutamatergic and dopaminergic neurotransmission, mitochondrial dysfunction and Na/K-ATPase defects.
+        - Both central and peripheral fatigue are framed as consequences of interactions between multiple systemic and central pathways, not a single mediator.
+    *Conclusion:* The foundational source for the "shared neuroimmune fatigue programme" claim — it explicitly unifies central and peripheral fatigue across immune-inflammatory and neuro-immune diseases. Establishes the hypothesis the source thread repeats; does not itself provide pooled or controlled evidence.
+    *Limitations:* Narrative, not systematic; no meta-analysis; broad disease list; no effect sizes.
+    *Certainty Assessment:* 0.55 raw × 0.75 (general/mechanism) = *discounted 0.41* (shared-programme review)
+
+=== Arnett & Clark\ 2012 — Inflammatory Fatigue and Sickness Behaviour: Lessons for CFS
+
+    *Full Citation:*: Arnett SV, Clark IA. Inflammatory fatigue and sickness behaviour — lessons for the diagnosis and management of chronic fatigue syndrome. _Journal of Affective Disorders_. 2012;141(2–3):130–142. @Arnett2012InflammatoryFatigueSickness
+    *DOI:*: #link("https://doi.org/10.1016/j.jad.2012.04.004")[10.1016/j.jad.2012.04.004]
+    *PMID:*: 22578888
+    *Study Design:*: Narrative review
+    *Key Findings:*:
+        - A common inflammatory pathophysiology underlies fatigue in surgical trauma, infection, cancer, IBD, connective-tissue and autoimmune diseases.
+        - ME/CFS shows important pathophysiological similarities with cytokine-mediated sickness behaviour; lessons from sickness-behaviour biology can inform ME/CFS diagnosis and management.
+    *Conclusion:* Supplies the explicit conceptual bridge from the sickness-behaviour model to ME/CFS, seating ME/CFS within the shared immune-fatigue framework. Narrative review; causality and direction unresolved.
+    *Limitations:* No primary data; no systematic search; does not establish that ME/CFS is a sickness-behaviour state rather than a phenocopy.
+    *Certainty Assessment:* 0.50 raw × 0.75 (general/mechanism) = *discounted 0.38* (conceptual bridge)
+
+=== Kawka et al.\ 2021 — Fatigue in Systemic Lupus Erythematosus (67–90%)
+
+    *Full Citation:*: Kawka L, Schlencker A, Mertz P, Martin T, Arnaud L. Fatigue in Systemic Lupus Erythematosus: An Update on Its Impact, Determinants and Therapeutic Management. _Journal of Clinical Medicine_. 2021;10(17):3996. @Kawka2021SLEfatigue
+    *DOI:*: #link("https://doi.org/10.3390/jcm10173996")[10.3390/jcm10173996]
+    *PMID:*: 34501444
+    *Study Design:*: Narrative review
+    *Key Findings:*:
+        - Fatigue reported by 67–90% of SLE patients and described as the most bothersome symptom, impairing quality of life and driving employment disability.
+        - Multifactorial determinants (psychological factors, pain, reduced physical activity); the contribution of disease activity remains controversial.
+    *Conclusion:* Establishes very high fatigue prevalence in a prototypical systemic autoimmune disease, and dissociation from disease-activity measures — consistent with a central maintenance mechanism.
+    *Limitations:* Review; wide prevalence range; determinants contested.
+    *Certainty Assessment:* 0.50 raw × 1.00 (other disease cohort) = *discounted 0.50* (disease-specific prevalence)
+
+=== Tang et al.\ 2025 — Fatigue in Psoriatic Arthritis (~51%)
+
+    *Full Citation:*: Tang H, Chew TLT, Fong W. Prevalence and factors associated with fatigue in patients with psoriatic arthritis: a systematic review and meta-analysis. _BMC Rheumatology_. 2025;9(1):44. @Tang2025PsoriaticArthritisFatigue
+    *DOI:*: #link("https://doi.org/10.1186/s41927-025-00498-8")[10.1186/s41927-025-00498-8]
+    *PMID:*: 40251651
+    *Study Design:*: Systematic review and meta-analysis (15 studies; n=6,482)
+    *Key Findings:*:
+        - Pooled fatigue prevalence 0.51 (95% CI 0.41–0.61) in psoriatic arthritis.
+        - Substantial heterogeneity (I²=97.4%); biologics use and geographic region identified as sources.
+    *Conclusion:* Quantifies fatigue burden in an immune-mediated arthritis at approximately half of patients. Robust pooled estimate; definition heterogeneity limits cross-disease comparison.
+    *Limitations:* Cross-sectional constituent studies; fatigue definitions vary; I² very high.
+    *Certainty Assessment:* 0.70 raw × 1.00 (other disease cohort) = *discounted 0.70* (pooled prevalence)
+
+=== Basta et al.\ 2018 — Fatigue in Systemic Sclerosis
+
+    *Full Citation:*: Basta F, Afeltra A, Margiotta DPE. Fatigue in systemic sclerosis: a systematic review. _Clinical and Experimental Rheumatology_. 2018;36 Suppl 113(4):150–160. @Basta2018SScFatigue
+    *DOI:*: #link("https://doi.org/10.55563/clinexprheumatol/p8x98o")[10.55563/clinexprheumatol/p8x98o]
+    *PMID:*: 29303706
+    *Study Design:*: Systematic review (43 records)
+    *Key Findings:*:
+        - Fatigue is among the most prevalent and debilitating symptoms in systemic sclerosis, with prevalence similar to other rheumatic diseases.
+        - Associated with depression, pain, sleep disorders, pulmonary and gastrointestinal involvement; relationship to disease-activity scores is uncertain.
+        - Pharmacological approaches broadly ineffective; physical activity and complementary approaches more encouraging.
+    *Conclusion:* Shows fatigue dominance in a fibrotic systemic autoimmune disease and its partial independence from disease activity, while therapeutic failure of anti-inflammatory approaches argues for a maintained, partly non-inflammatory mechanism.
+    *Limitations:* No pooled estimate; heterogeneous instruments; systematic review of mostly observational studies.
+    *Certainty Assessment:* 0.55 raw × 1.00 (other disease cohort) = *discounted 0.55* (disease-specific review)
+
+=== Harper et al.\ 2021 — Fatigue in ANCA-Associated Vasculitis Despite Remission
+
+    *Full Citation:*: Harper L, Hewitt CA, Litchfield I, et al. Management of fatigue with physical activity and behavioural change support in vasculitis: a feasibility study. _Rheumatology (Oxford)_. 2021;60(9):4130–4140. @Harper2021VasculitisFatigue
+    *DOI:*: #link("https://doi.org/10.1093/rheumatology/keaa890")[10.1093/rheumatology/keaa890]
+    *PMID:*: 33369680
+    *Study Design:*: Single-centre open-label randomised feasibility study (43/134 eligible randomised)
+    *Key Findings:*:
+        - AAV patients in disease remission experienced high levels of fatigue, sufficient to justify a fatigue self-management trial (entry criterion MFI-20 general fatigue ≥14).
+        - Recruitment and protocol adherence were amber/amber; intervention acceptable to patients.
+    *Conclusion:* Demonstrates disabling fatigue persisting in the absence of active vasculitic inflammation — direct evidence for an inflammation-independent maintenance mechanism and for mechanistic heterogeneity.
+    *Limitations:* Feasibility design, not powered for efficacy; single centre; no mechanistic sampling.
+    *Certainty Assessment:* 0.55 raw × 1.00 (other disease cohort) = *discounted 0.55* (remission-fatigue dissociation)
+
+=== Tang et al.\ 2023 — Fatigue in Axial Spondyloarthritis (~56%)
+
+    *Full Citation:*: Tang H, Singh BSM, Fong W. Prevalence and factors associated with fatigue in patients with axial spondyloarthritis: a systematic review and meta-analysis. _Rheumatology Advances in Practice_. 2023;7(3):rkad084. @Tang2023AxialSpAFatigue
+    *DOI:*: #link("https://doi.org/10.1093/rap/rkad084")[10.1093/rap/rkad084]
+    *PMID:*: 37881507
+    *Study Design:*: Systematic review and meta-analysis (30 studies; n=7,893)
+    *Key Findings:*:
+        - Pooled fatigue prevalence 0.56 (95% CI 0.49–0.63) in axial spondyloarthritis.
+        - High heterogeneity (I²=94.6%); geographic region a significant source; poorer quality of life associated with more fatigue.
+    *Conclusion:* Confirms fatigue in more than half of patients in a second major spondyloarthritis, supporting the cross-disease pattern. Robust pooled estimate; cross-sectional source studies.
+    *Limitations:* Fatigue-definition heterogeneity; no mechanistic measures.
+    *Certainty Assessment:* 0.70 raw × 1.00 (other disease cohort) = *discounted 0.70* (pooled prevalence)
+
+=== de Kleijn et al.\ 2009 — Fatigue in Sarcoidosis
+
+    *Full Citation:*: de Kleijn WPE, De Vries J, Lower EE, Elfferich MDP, Baughman RP, Drent M. Fatigue in sarcoidosis: a systematic review. _Current Opinion in Pulmonary Medicine_. 2009;15(5):499–506. @deKleijn2009SarcoidosisFatigue
+    *DOI:*: #link("https://doi.org/10.1097/MCP.0b013e32832d0403")[10.1097/MCP.0b013e32832d0403]
+    *PMID:*: 19458531
+    *Study Design:*: Systematic review
+    *Key Findings:*:
+        - Fatigue is a prominent, under-recognized complication of sarcoidosis, associated with impaired quality of life.
+        - Methodologically rigorous studies found no relationship between clinical parameters and fatigue; prednisone-treated patients reported more fatigue.
+        *Conclusion:* Fatigue in a granulomatous inflammatory disease is dissociated from clinical disease parameters, paralleling SLE/SSc and supporting a maintained central mechanism. Etiology unstudied; no pooled estimate.
+    *Limitations:* Heterogeneous instruments; no etiological studies; older review.
+    *Certainty Assessment:* 0.50 raw × 1.00 (other disease cohort) = *discounted 0.50* (disease-specific review)
+
+=== Ricci et al.\ 2022 — Fatigue as a Common Signature of Inflammatory Myopathies
+
+    *Full Citation:*: Ricci G, Fontanelli L, Torri F, Schirinzi E, Siciliano G. Fatigue as a common signature of inflammatory myopathies: clinical aspects and care. _Clinical and Experimental Rheumatology_. 2022;40(2):425–432. @Ricci2022InflammatoryMyopathiesFatigue
+    *DOI:*: #link("https://doi.org/10.55563/clinexprheumatol/p8x98o")[10.55563/clinexprheumatol/p8x98o]
+    *PMID:*: 35225228
+    *Study Design:*: Narrative review
+    *Key Findings:*:
+        - Fatigue spans biological to behavioural dimensions in idiopathic inflammatory myopathies and greatly affects activities of daily living.
+        - Pathophysiology remains poorly understood; the review proposes clinical evaluation and management strategies.
+    *Conclusion:* Fatigue in a muscle-specific autoimmune disease is not explained solely by myocyte injury, supporting a central component. Narrative review; no prevalence pooling.
+    *Limitations:* No primary data; no systematic search.
+    *Certainty Assessment:* 0.45 raw × 1.00 (other disease cohort) = *discounted 0.45* (disease-specific narrative)
+
+=== Ruiter et al.\ 2020 — Fatigue vs Fatigability in Myasthenia Gravis
+
+    *Full Citation:*: Ruiter AM, Verschuuren JJGM, Tannemaat MR. Fatigue in patients with myasthenia gravis. A systematic review of the literature. _Neuromuscular Disorders_. 2020;30(8):631–639. @Ruiter2020MyastheniaFatigue
+    *DOI:*: #link("https://doi.org/10.1016/j.nmd.2020.06.010")[10.1016/j.nmd.2020.06.010]
+    *PMID:*: 32718868
+    *Study Design:*: Systematic review (5 domains)
+    *Key Findings:*:
+        - Distinguishes peripheral fatigability (neuromuscular-junction dysfunction) from central fatigue (experienced lack of energy) in myasthenia gravis.
+        - Patient-reported fatigue prevalence 42–82%, significantly higher than controls, and highly prevalent even in ocular MG and patients in remission.
+        - Fatigue strongly associated with depressive symptoms, female gender and disease severity; treatable with physical/psychological training.
+    *Conclusion:* The clearest clinical dissociation between objective peripheral fatigability and central fatigue — high fatigue despite controlled neuromuscular transmission supports a distinct central mechanism. Questionnaire heterogeneity; pathophysiology unknown.
+    *Limitations:* Varied assessment instruments; observational studies; no mechanistic data.
+    *Certainty Assessment:* 0.60 raw × 1.00 (other disease cohort) = *discounted 0.60* (fatigue/fatigability dissociation)
+
+=== Khan et al.\ 2014 — Fatigue in Multiple Sclerosis (~80%)
+
+    *Full Citation:*: Khan F, Amatya B, Galea M. Management of fatigue in persons with multiple sclerosis. _Frontiers in Neurology_. 2014;5:177. @Khan2014MSfatigue
+    *DOI:*: #link("https://doi.org/10.3389/fneur.2014.00177")[10.3389/fneur.2014.00177]
+    *PMID:*: 25309504
+    *Study Design:*: Systematic review of interventions
+    *Key Findings:*:
+        - Fatigue affects almost 80% of people with MS and remains the disabling symptom despite advances in treatment.
+        - Both pharmacological and non-pharmacological interventions are used in a multidisciplinary approach; the evidence body is growing but limited.
+    *Conclusion:* Documents very high fatigue prevalence in a central demyelinating autoimmune disease, reinforcing the cross-disease pattern. Prevalence cited rather than pooled; older review.
+    *Limitations:* 2014; intervention-focused; no prevalence meta-analysis.
+    *Certainty Assessment:* 0.55 raw × 1.00 (other disease cohort) = *discounted 0.55* (disease-specific review)
+
+=== D'Silva et al.\ 2022 — Fatigue in Inflammatory Bowel Disease (47%; 72% active)
+
+    *Full Citation:*: D'Silva A, Fox DE, Nasser Y, Vallance JK, Quinn RR, Ronksley PE, Raman M. Prevalence and Risk Factors for Fatigue in Adults With Inflammatory Bowel Disease: A Systematic Review With Meta-Analysis. _Clinical Gastroenterology and Hepatology_. 2022;20(5):995–1009.e7. @DSilva2022IBDfatigue
+    *DOI:*: #link("https://doi.org/10.1016/j.cgh.2021.06.034")[10.1016/j.cgh.2021.06.034]
+    *PMID:*: 34216824
+    *Study Design:*: Systematic review and meta-analysis (20 studies)
+    *Key Findings:*:
+        - Pooled IBD fatigue prevalence 47% (95% CI 41–54); 72% in active disease versus 47% in remission.
+        - Sleep disturbance, anxiety, depression and anemia were the most commonly reported risk factors.
+    *Conclusion:* Provides a disease-state gradient (active greater than remission) while confirming substantial residual fatigue in remission — evidence that inflammation modulates but does not fully explain fatigue. High heterogeneity (I²=98%).
+    *Limitations:* Definition-dependent prevalence; cross-sectional source studies.
+    *Certainty Assessment:* 0.70 raw × 1.00 (other disease cohort) = *discounted 0.70* (pooled prevalence)
+
+=== Skjellerudsveen et al.\ 2019 — Fatigue in Coeliac Disease
+
+    *Full Citation:*: Skjellerudsveen BM, Omdal R, Grimstad T. Fatigue in celiac disease: A review of the literature. _JGH Open_. 2019;3(3):242–248. @Skjellerudsveen2019CoeliacFatigue
+    *DOI:*: #link("https://doi.org/10.1002/jgh3.12134")[10.1002/jgh3.12134]
+    *PMID:*: 31276043
+    *Study Design:*: Systematic review (18 articles)
+    *Key Findings:*:
+        - Fatigue was significantly greater in coeliac disease than in healthy controls; prevalence ranged 8–100% depending on instrument.
+        - Five of seven studies reported less fatigue on a gluten-free diet; two found no significant difference.
+    *Conclusion:* Fatigue in a dietary-antigen-driven immune disease is modifiable by removing the immune trigger in some patients, supporting an immune-fatigue link while showing wide inter-study inconsistency. Very wide prevalence range limits pooling.
+    *Limitations:* Instrument heterogeneity; small diet-effect literature; no mechanistic data.
+    *Certainty Assessment:* 0.50 raw × 1.00 (other disease cohort) = *discounted 0.50* (disease-specific review)
+
+=== Lynch et al.\ 2022 — Fatigue in Primary Biliary Cholangitis (Central vs Peripheral)
+
+    *Full Citation:*: Lynch EN, Campani C, Innocenti T, Dragoni G, Biagini MR, Forte P, Galli A. Understanding fatigue in primary biliary cholangitis: From pathophysiology to treatment perspectives. _World Journal of Hepatology_. 2022;14(6):1111–1119. @Lynch2022PBCfatigue
+    *DOI:*: #link("https://doi.org/10.4254/wjh.v14.i6.1111")[10.4254/wjh.v14.i6.1111]
+    *PMID:*: 35978669
+    *Study Design:*: Narrative review
+    *Key Findings:*:
+        - Fatigue affects over 50% of PBC patients, one in five severely; central fatigue (lack of self-motivation / lack of intention) is distinguished from peripheral fatigue (neuromuscular dysfunction / lack of ability).
+        - Fatigue is not related to disease progression except in end-stage liver disease; no licensed therapy exists.
+    *Conclusion:* The central-fatigue construct in PBC ("lack of intention") closely parallels ME/CFS fatigue and is dissociated from disease progression. Narrative review; pathophysiology unresolved.
+    *Limitations:* No primary data; no pooled prevalence.
+    *Certainty Assessment:* 0.50 raw × 1.00 (other disease cohort) = *discounted 0.50* (disease-specific review)
+
+=== Newton et al.\ 2007 — Autonomic Dysfunction and Fatigue in Primary Biliary Cirrhosis (40% vs 6%)
+
+    *Full Citation:*: Newton JL, Hudson M, Tachtatzis P, Sutcliffe K, Pairman J, Burt JA, Jones DEJ. Population prevalence and symptom associations of autonomic dysfunction in primary biliary cirrhosis. _Hepatology_. 2007;45(6):1496–1505. @Newton2007PBCautonomic
+    *DOI:*: #link("https://doi.org/10.1002/hep.21609")[10.1002/hep.21609]
+    *PMID:*: 17538969
+    *Study Design:*: Cross-sectional, geographically defined representative cohort
+    *Key Findings:*:
+        - Moderate-or-worse orthostatic symptoms in 40% of PBC patients versus 6% of matched controls (P less than 0.0001; mean OGS 3.2±3.4 vs 1.3±1.9, P less than 0.005).
+        - Autonomic symptom severity independently associated with both fatigue severity and cognitive symptoms (both r²=0.3, P less than 0.0001); objective BP dysregulation on dynamic testing in 13/20 with OGS greater than 4.
+    *Conclusion:* Links a non-inflammatory autonomic axis to fatigue in an autoimmune disease — objective blood-pressure dysregulation substantiates the link, and the association with cognitive symptoms mirrors ME/CFS. Cross-sectional; single geographic region.
+    *Limitations:* Observational; OGS is symptom-based for the prevalence figure; causality unestablished.
+    *Certainty Assessment:* 0.65 raw × 1.00 (other disease cohort) = *discounted 0.65* (autonomic-fatigue link)
+
+=== Al Maqbali et al.\ 2021 — Cancer-Related Fatigue (49%; N=71,568)
+
+    *Full Citation:*: Al Maqbali M, Al Sinani M, Al Naamani Z, Al Badi K, Tanash MI. Prevalence of Fatigue in Patients With Cancer: A Systematic Review and Meta-Analysis. _Journal of Pain and Symptom Management_. 2021;61(1):167–189.e14. @AlMaqbali2021CancerFatigue
+    *DOI:*: #link("https://doi.org/10.1016/j.jpainsymman.2020.07.037")[10.1016/j.jpainsymman.2020.07.037]
+    *PMID:*: 32768552
+    *Study Design:*: Systematic review and meta-analysis (129 studies; N=71,568)
+    *Key Findings:*:
+        - Overall cancer fatigue prevalence 49% (95% CI 45–53); 62% during treatment and 60.6% in advanced disease.
+        - Prevalence declined from 64% (1996–2000) to 43% (2016–2020); female gender a significant moderator.
+    *Conclusion:* The largest pooled estimate of fatigue in an immune-relevant malignant disease; the secular decline and treatment-stage gradient indicate fatigue is modulated by immune/treatment factors and is not a fixed tumour property. Very high heterogeneity (I²=98.9%).
+    *Limitations:* Heterogeneous instruments and populations; no mechanism data.
+    *Certainty Assessment:* 0.75 raw × 1.00 (other disease cohort) = *discounted 0.75* (pooled prevalence)
+
+=== Hickie et al.\ 2006 — Dubbo Infection Outcomes Study (Post-Infective Fatigue, 11% CFS)
+
+    *Full Citation:*: Hickie I, Davenport T, Wakefield D, Vollmer-Conna U, Cameron B, Vernon SD, Reeves WC, Lloyd A; Dubbo Infection Outcomes Study Group. Post-infective and chronic fatigue syndromes precipitated by viral and non-viral pathogens: prospective cohort study. _BMJ_. 2006;333(7568):575. @Hickie2006DubboCohort
+    *DOI:*: #link("https://doi.org/10.1136/bmj.38933.585764.AE")[10.1136/bmj.38933.585764.AE]
+    *PMID:*: 16950834
+    *Study Design:*: Prospective cohort (n=253), enrolled at acute infection and followed 12 months
+    *Key Findings:*:
+        - Prolonged disabling fatigue illness in 29/253 (12%) at six months; 28 (11%) met CFS diagnostic criteria.
+        - The post-infective fatigue syndrome was stereotyped and occurred at similar incidence after EBV, Coxiella burnetii (Q fever) and Ross River virus.
+        - The syndrome was predicted by severity of the acute illness, not by demographic, psychological or microbiological factors.
+    *Conclusion:* The strongest prospective evidence that a conserved, pathogen-nonspecific post-infectious fatigue pathway exists, and the canonical model for one route into ME/CFS. Geographic restriction (rural Australia); one diagnostic era (Fukuda).
+    *Limitations:* Single region; six-month outcome; no mechanistic sampling; Fukuda criteria.
+    *Certainty Assessment:* 0.75 raw × 0.85 (post-viral fatigue) = *discounted 0.64* (post-infectious cohort)
+
+=== Kealy et al.\ 2020 — Acute Inflammation Alters Brain Energy Metabolism (Mouse + Human)
+
+    *Full Citation:*: Kealy J, Murray C, Griffin EW, Lopez-Rodriguez AB, Healy D, Tortorelli LS, Lowry JP, Watne LO, Cunningham C. Acute Inflammation Alters Brain Energy Metabolism in Mice and Humans: Role in Suppressed Spontaneous Activity, Impaired Cognition, and Delirium. _Journal of Neuroscience_. 2020;40(29):5681–5696. @Kealy2020InflammationBrainEnergy
+    *DOI:*: #link("https://doi.org/10.1523/JNEUROSCI.2876-19.2020")[10.1523/JNEUROSCI.2876-19.2020]
+    *PMID:*: 32513828
+    *Study Design:*: Mouse experiments + human CSF corroboration
+    *Key Findings:*:
+        - LPS induced hypoglycemia and reduced CSF glucose; suppression of locomotor activity correlated with blood glucose, was mitigated by exogenous glucose and exacerbated by 2-deoxyglucose.
+        - Acute cognitive impairments were mimicked by insulin and mitigated by glucose, selectively in animals with existing neurodegeneration.
+        - Hip-fracture patients with delirium showed elevated CSF lactate and pyruvate, consistent with altered brain energy metabolism.
+    *Conclusion:* Provides the mechanistic core of the "selfish immune system" claim — immune activation reduces brain glucose, and the resulting bioenergetic stress drives suppressed spontaneous activity. Mouse model with human CSF corroboration; not ME/CFS; translation gap remains.
+    *Limitations:* Primary evidence is murine; human arm is delirium, not fatigue; single immune stimulus.
+    *Certainty Assessment:* 0.65 raw × 0.50 (animal model) = *discounted 0.33* (bioenergetic mechanism)
+
+=== Titlestad et al.\ 2024 — Impaired Brain Glucose Utilization in Human Delirium
+
+    *Full Citation:*: Titlestad I, Watne LO, Caplan GA, et al. Impaired glucose utilization in the brain of patients with delirium following hip fracture. _Brain_. 2024;147(1):215–223. @Titlestad2024BrainGlucoseDelirium
+    *DOI:*: #link("https://doi.org/10.1093/brain/awad296")[10.1093/brain/awad296]
+    *PMID:*: 37658825
+    *Study Design:*: Prospective human cohort (406 hip-fracture patients, mean age 81), serum and CSF targeted metabolic profiling
+    *Key Findings:*:
+        - Delirium was associated with impaired glucose utilization in the brain, measured by targeted CSF/serum metabolite profiling.
+        - Human confirmation that acute systemic inflammation/injury is accompanied by objective central energy-metabolism impairment.
+    *Conclusion:* The human counterpart to Kealy 2020 — central energy-metabolism impairment is measurable in patients during an inflammation-associated neuropsychiatric state. Elderly surgical population; delirium phenotype, not ME/CFS.
+    *Limitations:* Not ME/CFS; elderly hip-fracture cohort; association not causation.
+    *Certainty Assessment:* 0.65 raw × 0.75 (general-population patients) = *discounted 0.49* (human bioenergetic evidence)
+
+=== Li et al.\ 2025 — Immune-Activation Signature of ICI-Related Fatigue (Th1, Effector CD8)
+
+    *Full Citation:*: Li HL, Charmsaz S, Nakazawa M, et al. Immune Activation Signatures Associated with Fatigue in Cancer Patients Undergoing Immune Checkpoint Inhibitor Therapy. _Cancer Research Communications_. 2025;5(10):1738–1746. @Li2025ICIfatigue
+    *DOI:*: #link("https://doi.org/10.1158/2767-9764.CRC-25-0240")[10.1158/2767-9764.CRC-25-0240]
+    *PMID:*: 40952384
+    *Study Design:*: Prospective cohort (n=53 solid-tumour patients on ICI), serial blood sampling
+    *Key Findings:*:
+        - 31/53 (58.5%) reported worsening fatigue during ICI therapy.
+        - Fatigued patients showed broad early-treatment cytokine elevations, most prominently the Th1 cluster (IFN-γ, IL-2, IL-12), with expansion of cytotoxic effector CD8+ T-cell clusters.
+        - Fatigue was not associated with objective tumour response or with other immune-related adverse events.
+    *Conclusion:* A human, temporally resolved link between a defined immune-activation signature (Th1/effector CD8) and fatigue, positioning fatigue as a clinical surrogate of immune activation. Single-centre, modest n; causality not established.
+    *Limitations:* Solid-tumour/ICI population; n=53; single centre; correlational.
+    *Certainty Assessment:* 0.65 raw × 1.00 (other disease cohort) = *discounted 0.65* (immune-activation signature)
+
+=== Fencková 2024 — When the 'Selfish' Brain and 'Selfish' Immune System Clash
+
+    *Full Citation:*: Fencková M. When the 'selfish' brain and the 'selfish' immune system clash. _Nature Reviews Neuroscience_. 2024;26:140. @Fenckova2024SelfishBrainImmune
+    *DOI:*: #link("https://doi.org/10.1038/s41583-024-00900-3")[10.1038/s41583-024-00900-3]
+    *PMID:*: —
+    *Study Design:*: Journal research highlight (editorial)
+    *Key Findings:*:
+        - Frames the "selfish brain" versus "selfish immune system" energetic conflict: during immune activation the brain's energy supply is compromised, with behavioral and cognitive consequences.
+        - Cites Kealy 2020 and Titlestad 2024 as the supporting primary evidence.
+    *Conclusion:* A concise statement of the shared energetic-conflict framing used by the source thread; included for provenance of the "selfish brain vs selfish immune" phrase, not as evidence. Highlight, not a study.
+    *Limitations:* Editorial; no primary data; two references.
+    *Certainty Assessment:* 0.35 raw × 0.75 (general/mechanism) = *discounted 0.26* (framing source)

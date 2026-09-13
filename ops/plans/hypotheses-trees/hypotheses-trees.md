@@ -386,3 +386,4 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | autism-social-perception-stigma | [subtrees/autism-social-perception-stigma.md](subtrees/autism-social-perception-stigma.md) | 2026-09-04 | 29 | 4 | 🔵 in progress |
 | pharmacodiagnostic-corpus | [subtrees/pharmacodiagnostic-corpus.md](subtrees/pharmacodiagnostic-corpus.md) | 2026-09-10 | 34 | 0 | ⬜ pending |
 | eckey2025-mechanism-reanalysis | [subtrees/eckey2025-mechanism-reanalysis.md](subtrees/eckey2025-mechanism-reanalysis.md) | 2026-09-10 | 20 | 0 | ✅ done |
+| common-fatigue-biology | [subtrees/common-fatigue-biology.md](subtrees/common-fatigue-biology.md) | 2026-09-13 | 13 | 3 | 🔵 in progress |

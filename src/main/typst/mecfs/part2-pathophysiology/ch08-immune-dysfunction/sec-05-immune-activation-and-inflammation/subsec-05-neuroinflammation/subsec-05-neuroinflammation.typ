@@ -17,6 +17,14 @@ Compromise of the blood-brain barrier permits entry of peripheral cytokines and 
 
 Peripheral cytokines affect the brain through multiple routes: transport across the blood-brain barrier, signaling via vagal afferents, acting at circumventricular organs (which lack a blood-brain barrier), and inducing local cytokine production by glial cells. These cytokines produce multiple brain effects, including altered neurotransmitter synthesis and release, changed receptor expression, and modified synaptic plasticity. The resulting “sickness behavior” encompasses fatigue, social withdrawal, and anhedonia—symptoms prominently featured in ME/CFS.
 
+==== Cross-Disease Support for the Cytokine-to-Brain Fatigue Signal
+
+Although the central neuroimmune signal in ME/CFS remains difficult to measure directly, the same cytokine-to-brain programme predicts fatigue across many immune-inflammatory diseases, and human models with a defined immune stimulus support the link without excluding non-immune confounders.
+Immune-checkpoint-inhibitor therapy — which deliberately intensifies T-cell activation — produced worsening fatigue in 58.5% of a 53-patient cohort, distinguished by cytotoxic effector CD8+ expansion and a stronger Th1 response @Li2025ICIfatigue; this association is confounded by ICI endocrinopathies (hypothyroidism, hypophysitis, adrenal insufficiency) and anaemia, which were not excluded.
+The prospective Dubbo cohort found that three biologically unrelated pathogens (EBV, Coxiella burnetii, Ross River virus) produced a similar post-infectious chronic-fatigue incidence at six months @Hickie2006DubboCohort.
+The broad cross-disease picture is integrated in @hyp:shared-neuroimmune-fatigue-programme (Chapter @ch:comparative-nosology); its application to ME/CFS is an analogy, since no ME/CFS cohort has tested the shared programme.
+This supports the sickness-behaviour paragraph above as a cross-disease mechanism rather than an ME/CFS-specific speculation, while the limitation that inflammation is not sufficient for persistent fatigue (@lim:inflammation-necessary-not-sufficient) still applies.
+
 ==== Neuroimaging Evidence
 
 Studies have demonstrated:
