@@ -84,7 +84,7 @@ Reassessed certainly: H1 0.40→0.33; H2 0.38→0.33; H3 0.35→0.30; B1 0.45→
 | B1 (autonomic shared node) | 1 | ✅ folded into @lim:inflammation-necessary-not-sufficient (autonomic candidate mechanism) |
 | D1 (immune-metabolic+autonomic stratification) | 2 | ⏭️ covered-by @oq:fatigue-heterogeneity-or-single-entity (phenotyping testability) |
 
-**ch30 relevance triage:** all integrated ideas are cross-disease/comparative + neuroimmune-framing. No specifiable ≥3-step biochemical cascade with a specific drug interception point rises to "full cascade". ch30 tier = **citation cross-ref only / none** → 5d cascade trace not required (Phase 5d LEGIT-SKIP: no ≥3-step drug-interception cascade in the integrated content). No medication → 5c LEGIT-SKIP.
+**ch30 relevance triage:** the shared-neuroimmune-fatigue-programme mechanism (cert 0.55) maps to an EXISTING ch30 sec-04 cascade (microglial priming → four-region consequences), which already documents the cytokine-to-brain→fatigue steps and their drug interception points. ch30 tier = **existing cascade, cross-ref only** (no new cascade file). Phase 5d therefore ran as an overlap check + ops trace + cross-ref, per Step 2 "identical/partial overlap". No medication → 5c LEGIT-SKIP.
 
 **Phase 5 report:** 13 brainstorm ideas triaged (T1: 2 integrated [H1 new env; H2+B1 folds], T2: 2 covered/folded, T3/tree-only: 7), 0 queued as child topics. Files modified/created: ch16 (new @spec, strengthened @oq/@lim), registry (+@spec:fatigue-tracks-immune-kinetics). Standing epistemic checklist — [#3–#6: no violations]; #1–#2 cross-check delegated to Phase 5a.
 
@@ -98,7 +98,7 @@ Reassessed certainly: H1 0.40→0.33; H2 0.38→0.33; H3 0.35→0.30; B1 0.45→
 
 **Phase 5b:** build PASS (typst compile, 0 errors) after Phases 5/5d/5c.
 **Phase 5a:** 5 environments audited (3 falsifiable claim envs fully falsifiable, 0 weak, 0 unfalsifiable); 19 citation keys verified case-exact, 0 discrepancies; 3 claims spot-checked, 0 corrections; no edits needed.
-**Phase 5d:** LEGIT-SKIP — no integrated idea has a specifiable ≥3-step biochemical cascade with a specific ch30 sec-12 drug interception point; ch30 tier = citation cross-ref only.
+**Phase 5d:** RAN (after audit correction) — the shared-neuroimmune-fatigue-programme cascade (cert 0.55) overlaps the EXISTING ch30 sec-04 "Cascade: Microglial priming → four-region neuroinflammatory consequences". Step-2 overlap check → identical/partial overlap: wrote `ops/integration-guides/pathway-drug-trace-common-fatigue-biology.md` and added a cross-reference in the existing cascade file; created no duplicate cascade file and made no sec-12/sec-09/sec-13 rewrite (the new hypothesis changes no drug's diagnostic inference). Immunometabolic branch pruned (no sec-12 interception node; cumulative cert <0.05).
 **Phase 5c:** LEGIT-SKIP — non-pharmacological topic (no medication/intervention); no differential analysis applicable.
 **Phase 5z:** 2 glossary entries added (ICI, Immunometabolism); false positives filtered (QSART/Th1/kynurenine/IL-6/TNF already present); JSON valid, +10-line minimal diff.
 **Phase 6:** M=12 matches examined (zg semantic: 10; exact-term: 2 pre-existing claim files); N=3 adapted:
@@ -162,7 +162,7 @@ Reassessed certainly: H1 0.40→0.33; H2 0.38→0.33; H3 0.35→0.30; B1 0.45→
 | 4 | RAN | `ops/brainstorms/brainstorm-common-fatigue-biology-2026-09-13.md` (13 ideas, origin-tagged) |
 | 4a | RAN | `subtrees/common-fatigue-biology.md` (13 nodes) + root index row |
 | 5 | RAN | triage: H1 integrated, H2/B1 folded, H3/R1-3/D1 covered, P1/S1/N1/X1/M1 tree-only; ch30 tier citation-only |
-| 5d | LEGIT-SKIP | no ≥3-step drug-interception cascade in integrated content (ch30 tier = citation cross-ref only) |
+| 5d | RAN (re-run) | Initially mis-skipped as "no cascade"; corrected on audit — the existing ch30 sec-04 microglial-priming cascade IS the cytokine-to-brain→fatigue cascade. Step-2 overlap check → identical/partial overlap: ops trace at `ops/integration-guides/pathway-drug-trace-common-fatigue-biology.md` + cross-ref added to the existing cascade (no duplicate file, no sec-12 rewrite) |
 | 5c | LEGIT-SKIP | non-pharmacological topic (no medication/intervention) |
 | 5b | RAN | typst compile PASS (0 errors) after Phases 5/5d/5c |
 | 5a | RAN | falsifiability-auditor: 5 envs audited (3 fully falsifiable, 0 weak, 0 unfalsifiable); 19 keys verified, 0 discrepancies |
