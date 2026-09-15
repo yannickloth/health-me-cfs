@@ -140,6 +140,7 @@
 #include "part2-pathophysiology/ch10-endocrine/ch10-endocrine.typ"
 #include "part2-pathophysiology/ch11-cardiovascular/ch11-cardiovascular.typ"
 #include "part2-pathophysiology/ch12-gut-microbiome/ch12-gut-microbiome.typ"
+#include "part2-pathophysiology/ch13-brain-clearance-architecture/ch13-brain-clearance-architecture.typ"
 #include "part2-pathophysiology/ch14-genetics-epigenetics/ch14-genetics-epigenetics.typ"
 #include "part2-pathophysiology/ch15-integrative-models/ch15-integrative-models.typ"
 
@@ -155,7 +156,6 @@ mechanisms, and the female reproductive axis.
 ]
 
 #include "part2-pathophysiology/ch16-comparative-nosology/ch16-comparative-nosology.typ"
-#include "part2-pathophysiology/ch13-brain-clearance-architecture/ch13-brain-clearance-architecture.typ"
 #include "part2-pathophysiology/ch17-speculative-hypotheses/ch17-speculative-hypotheses.typ"
 #include "part2-pathophysiology/ch18-symptom-producing-mechanisms/ch18-symptom-producing-mechanisms.typ"
 #include "part2-pathophysiology/ch19-causal-hierarchy/ch19-causal-hierarchy.typ"
@@ -163,22 +163,24 @@ mechanisms, and the female reproductive axis.
 #include "part2-pathophysiology/ch21-female-reproductive-axis/ch21-female-reproductive-axis.typ"
 
 // ── Part III: Treatment and Management ───────────────────────────────────────
-// Reference-type chapters first (map, symptom mgmt, med-response, cascade),
-// then severity (severe-first), population, then intervention type.
+// Chapters appear in ascending narrative order: reference chapters (map,
+// symptom management, medication-response, cascade tracing), severity-specific
+// protocols (severe first), population/pediatric chapters, then intervention-type
+// chapters.
 #include "part3-treatment/part3-intro.typ"
 #include "part3-treatment/ch22-mechanism-treatment-map/ch22-mechanism-treatment-map.typ"
 #include "part3-treatment/ch23-symptom-management/ch23-symptom-management.typ"
-#include "part3-treatment/ch33-medication-response-reference/ch33-medication-response-reference.typ"
-#include "part3-treatment/ch34-mechanistic-cascade-tracing/ch34-mechanistic-cascade-tracing.typ"
-#include "part3-treatment/ch24-urgent-action-severe/ch24-urgent-action-severe.typ"
-#include "part3-treatment/ch25-action-mild-moderate/ch25-action-mild-moderate.typ"
-#include "part3-treatment/ch26-pediatric-severe/ch26-pediatric-severe.typ"
-#include "part3-treatment/ch27-pediatric-ambulatory/ch27-pediatric-ambulatory.typ"
-#include "part3-treatment/ch28-medications-systems/ch28-medications-systems.typ"
-#include "part3-treatment/ch29-supplements-nutraceuticals/ch29-supplements-nutraceuticals.typ"
-#include "part3-treatment/ch30-lifestyle-interventions/ch30-lifestyle-interventions.typ"
-#include "part3-treatment/ch31-emerging-therapies/ch31-emerging-therapies.typ"
-#include "part3-treatment/ch32-integrative-approaches/ch32-integrative-approaches.typ"
+#include "part3-treatment/ch24-medication-response-reference/ch24-medication-response-reference.typ"
+#include "part3-treatment/ch25-mechanistic-cascade-tracing/ch25-mechanistic-cascade-tracing.typ"
+#include "part3-treatment/ch26-urgent-action-severe/ch26-urgent-action-severe.typ"
+#include "part3-treatment/ch27-action-mild-moderate/ch27-action-mild-moderate.typ"
+#include "part3-treatment/ch28-pediatric-severe/ch28-pediatric-severe.typ"
+#include "part3-treatment/ch29-pediatric-ambulatory/ch29-pediatric-ambulatory.typ"
+#include "part3-treatment/ch30-medications-systems/ch30-medications-systems.typ"
+#include "part3-treatment/ch31-supplements-nutraceuticals/ch31-supplements-nutraceuticals.typ"
+#include "part3-treatment/ch32-lifestyle-interventions/ch32-lifestyle-interventions.typ"
+#include "part3-treatment/ch33-emerging-therapies/ch33-emerging-therapies.typ"
+#include "part3-treatment/ch34-integrative-approaches/ch34-integrative-approaches.typ"
 
 // ── Part IV: Research and Evidence Synthesis ──────────────────────────────────
 #include "part4-research/part4-intro.typ"

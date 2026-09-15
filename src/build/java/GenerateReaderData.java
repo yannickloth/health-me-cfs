@@ -52,7 +52,7 @@ public class GenerateReaderData {
         // Canonical per-part chapter directories come from part-chapters.json
         // (the same single source GenerateSidebar uses), so sub-chapter/section
         // directories that share a "chNN-" prefix but are not top-level chapters
-        // (e.g. ch25-brain-clearance-supplements) are never misread as chapters.
+        // (e.g. brain-clearance-supplements) are never misread as chapters.
         var canonicalChapters = readPartChapters(partChaptersJson);
 
         var all = new ArrayList<Map<String, Object>>();

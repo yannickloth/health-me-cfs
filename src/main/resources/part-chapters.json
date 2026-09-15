@@ -221,69 +221,69 @@
         },
         {
           "ch": "ch24",
-          "title": "Urgent Action Plan for Severe Cases",
-          "href": "part3-treatment/ch24-urgent-action-severe/index.html",
-          "about": "Addresses patients with severe, unbearable suffering, arguing that immediate aggressive symptom management is justified. Presents an honest assessment of severe disease prognosis and grounds its multi-system targeting approach (mast cells, autonomic/cardiovascular function, sleep, metabolic state, immune activation) in a mechanistic vicious-cycle framework."
-        },
-        {
-          "ch": "ch25",
-          "title": "Action Plans for Mild to Moderate Cases",
-          "href": "part3-treatment/ch25-action-mild-moderate/index.html",
-          "about": "Addresses patients with mild to moderate ME/CFS who retain some functional capacity, aiming to maximize function, prevent progression to severe disease, and pursue recovery. Draws on pediatric recovery rates versus adult disease to argue for treating early and aggressively and preventing severe crashes."
-        },
-        {
-          "ch": "ch26",
-          "title": "Pediatric ME/CFS: Severe and Housebound Cases",
-          "href": "part3-treatment/ch26-pediatric-severe/index.html",
-          "about": "Addresses the roughly 5–10% of pediatric patients who are housebound or bedbound, providing guidance for home-based care, medical management with pediatric dosing, and strategies to preserve developmental progress. Contrasts pediatric severe disease with adult severe disease and details management including pediatric mast cell activation syndrome treatment."
-        },
-        {
-          "ch": "ch27",
-          "title": "Pediatric ME/CFS: School-Attending and Ambulatory Cases",
-          "href": "part3-treatment/ch27-pediatric-ambulatory/index.html",
-          "about": "Addresses ambulatory pediatric patients who can attend school at least part-time, arguing that early intervention is critical because appropriate management may preserve the window for recovery while inappropriate management risks progression to severe disease. Details the costs of delayed or inappropriate intervention."
-        },
-        {
-          "ch": "ch28",
-          "title": "Medications Targeting Underlying Mechanisms",
-          "href": "part3-treatment/ch28-medications-systems/index.html",
-          "about": "Reviews medications that target underlying mechanisms, with substantial coverage of low-dose naltrexone (LDN): proposed mechanisms, dosing protocols, evidence, and a detailed medication-differential analysis of what a response or non-response reveals. Also touches on immunoglobulins, rituximab, and other immunomodulators."
-        },
-        {
-          "ch": "ch29",
-          "title": "Supplements and Nutraceuticals",
-          "href": "part3-treatment/ch29-supplements-nutraceuticals/index.html",
-          "about": "Reviews commonly used supplements and nutraceuticals, emphasizing accessible over-the-counter options while being honest about the limited evidence base. Focuses substantially on electrolyte and fluid management for autonomic dysfunction, covering sodium, potassium, magnesium, complete electrolyte formulas, and oral rehydration solutions."
-        },
-        {
-          "ch": "ch30",
-          "title": "Lifestyle and Non-Pharmacological Interventions",
-          "href": "part3-treatment/ch30-lifestyle-interventions/index.html",
-          "about": "Covers non-pharmacological interventions centered on pacing as the most evidence-based approach, grounded in energy envelope theory and validated by two-day cardiopulmonary exercise testing. Covers heart rate monitoring, avoiding boom-bust cycles, cognitive pacing, and caregiver-implemented pacing for severe patients."
-        },
-        {
-          "ch": "ch31",
-          "title": "Emerging and Investigational Therapies",
-          "href": "part3-treatment/ch31-emerging-therapies/index.html",
-          "about": "Surveys emerging and investigational therapies identified through novel immunophenotyping, cross-disease mechanistic inference, and targeted pathway intervention, none of which have completed randomized controlled trials for ME/CFS. Spans CCR7/CCL19 immune trafficking restoration, checkpoint modulation, BTK inhibition, low-dose IL-2, an emergency PEM prevention protocol, and brain clearance drug targets."
-        },
-        {
-          "ch": "ch32",
-          "title": "Integrative and Personalized Treatment Approaches",
-          "href": "part3-treatment/ch32-integrative-approaches/index.html",
-          "about": "Provides a safety-first framework for treatment planning, arguing that every treatment trial carries a metabolic energy cost and failed trials can trigger post-exertional malaise. Classifies interventions by energy category, establishes a micro-dosing imperative, provides crash-risk rankings, sequencing plans, and when-to-stop criteria."
-        },
-        {
-          "ch": "ch33",
           "title": "Medication Response Reference: From Drug Response to Mechanism Identification",
-          "href": "part3-treatment/ch33-medication-response-reference/index.html",
+          "href": "part3-treatment/ch24-medication-response-reference/index.html",
           "about": "Argues that every drug response (therapeutic benefit, null response, or side effect at a specific dose) is diagnostic information, providing frameworks for reading dose-response curves, side-effect patterns, and cross-drug combination signals. Frames the medication-as-probe approach as diagnostic reasoning under uncertainty."
         },
         {
-          "ch": "ch34",
+          "ch": "ch25",
           "title": "Mechanistic Cascade Tracing: From Hypothesis to Clinical Probe",
-          "href": "part3-treatment/ch34-mechanistic-cascade-tracing/index.html",
+          "href": "part3-treatment/ch25-mechanistic-cascade-tracing/index.html",
           "about": "Traces the full downstream cascade for every major mechanistic hypothesis, from proposed trigger to terminal neurochemical, metabolic, and immunological consequences, identifying at each node which medications could intercept and what a response reveals. Works through the PIP2/TRPM3 channelopathy cascade, TRPV1-mediated vasoconstriction, and Piezo2 dysfunction."
+        },
+        {
+          "ch": "ch26",
+          "title": "Urgent Action Plan for Severe Cases",
+          "href": "part3-treatment/ch26-urgent-action-severe/index.html",
+          "about": "Addresses patients with severe, unbearable suffering, arguing that immediate aggressive symptom management is justified. Presents an honest assessment of severe disease prognosis and grounds its multi-system targeting approach (mast cells, autonomic/cardiovascular function, sleep, metabolic state, immune activation) in a mechanistic vicious-cycle framework."
+        },
+        {
+          "ch": "ch27",
+          "title": "Action Plans for Mild to Moderate Cases",
+          "href": "part3-treatment/ch27-action-mild-moderate/index.html",
+          "about": "Addresses patients with mild to moderate ME/CFS who retain some functional capacity, aiming to maximize function, prevent progression to severe disease, and pursue recovery. Draws on pediatric recovery rates versus adult disease to argue for treating early and aggressively and preventing severe crashes."
+        },
+        {
+          "ch": "ch28",
+          "title": "Pediatric ME/CFS: Severe and Housebound Cases",
+          "href": "part3-treatment/ch28-pediatric-severe/index.html",
+          "about": "Addresses the roughly 5–10% of pediatric patients who are housebound or bedbound, providing guidance for home-based care, medical management with pediatric dosing, and strategies to preserve developmental progress. Contrasts pediatric severe disease with adult severe disease and details management including pediatric mast cell activation syndrome treatment."
+        },
+        {
+          "ch": "ch29",
+          "title": "Pediatric ME/CFS: School-Attending and Ambulatory Cases",
+          "href": "part3-treatment/ch29-pediatric-ambulatory/index.html",
+          "about": "Addresses ambulatory pediatric patients who can attend school at least part-time, arguing that early intervention is critical because appropriate management may preserve the window for recovery while inappropriate management risks progression to severe disease. Details the costs of delayed or inappropriate intervention."
+        },
+        {
+          "ch": "ch30",
+          "title": "Medications Targeting Underlying Mechanisms",
+          "href": "part3-treatment/ch30-medications-systems/index.html",
+          "about": "Reviews medications that target underlying mechanisms, with substantial coverage of low-dose naltrexone (LDN): proposed mechanisms, dosing protocols, evidence, and a detailed medication-differential analysis of what a response or non-response reveals. Also touches on immunoglobulins, rituximab, and other immunomodulators."
+        },
+        {
+          "ch": "ch31",
+          "title": "Supplements and Nutraceuticals",
+          "href": "part3-treatment/ch31-supplements-nutraceuticals/index.html",
+          "about": "Reviews commonly used supplements and nutraceuticals, emphasizing accessible over-the-counter options while being honest about the limited evidence base. Focuses substantially on electrolyte and fluid management for autonomic dysfunction, covering sodium, potassium, magnesium, complete electrolyte formulas, and oral rehydration solutions."
+        },
+        {
+          "ch": "ch32",
+          "title": "Lifestyle and Non-Pharmacological Interventions",
+          "href": "part3-treatment/ch32-lifestyle-interventions/index.html",
+          "about": "Covers non-pharmacological interventions centered on pacing as the most evidence-based approach, grounded in energy envelope theory and validated by two-day cardiopulmonary exercise testing. Covers heart rate monitoring, avoiding boom-bust cycles, cognitive pacing, and caregiver-implemented pacing for severe patients."
+        },
+        {
+          "ch": "ch33",
+          "title": "Emerging and Investigational Therapies",
+          "href": "part3-treatment/ch33-emerging-therapies/index.html",
+          "about": "Surveys emerging and investigational therapies identified through novel immunophenotyping, cross-disease mechanistic inference, and targeted pathway intervention, none of which have completed randomized controlled trials for ME/CFS. Spans CCR7/CCL19 immune trafficking restoration, checkpoint modulation, BTK inhibition, low-dose IL-2, an emergency PEM prevention protocol, and brain clearance drug targets."
+        },
+        {
+          "ch": "ch34",
+          "title": "Integrative and Personalized Treatment Approaches",
+          "href": "part3-treatment/ch34-integrative-approaches/index.html",
+          "about": "Provides a safety-first framework for treatment planning, arguing that every treatment trial carries a metabolic energy cost and failed trials can trigger post-exertional malaise. Classifies interventions by energy category, establishes a micro-dosing imperative, provides crash-risk rankings, sequencing plans, and when-to-stop criteria."
         }
       ]
     },

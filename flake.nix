@@ -115,7 +115,7 @@
             # registry so the published table never drifts from the source.
             java --source 25 src/build/java/GeneratePathwayTable.java \
               ops/plans/pathway-registry.md \
-              src/main/typst/mecfs/part3-treatment/ch34-mechanistic-cascade-tracing/sec-14-pathway-coverage/pathway-status-table.typ
+              src/main/typst/mecfs/part3-treatment/ch25-mechanistic-cascade-tracing/sec-14-pathway-coverage/pathway-status-table.typ
 
             # Regenerate the reading-guide chapter/reader matrix from chapter
             # sources + part-chapters.json so reading times and routes never
@@ -228,7 +228,7 @@
             # Regenerate the pathway-coverage status table (build-time, no drift)
             java --source 25 src/build/java/GeneratePathwayTable.java \
               ops/plans/pathway-registry.md \
-              src/main/typst/mecfs/part3-treatment/ch34-mechanistic-cascade-tracing/sec-14-pathway-coverage/pathway-status-table.typ
+              src/main/typst/mecfs/part3-treatment/ch25-mechanistic-cascade-tracing/sec-14-pathway-coverage/pathway-status-table.typ
 
             typst compile \
               --package-cache-path "${typst-package-cache}" \

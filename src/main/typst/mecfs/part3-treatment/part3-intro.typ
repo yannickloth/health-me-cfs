@@ -13,7 +13,7 @@ This part comprehensively covers interventions for ME/CFS, including:
 
 Evidence levels are indicated throughout, distinguishing between well-supported interventions and those with preliminary or anecdotal support.
 
-The part opens with the reference chapters (mechanism–treatment map and symptom management), then the severity-specific protocols and pediatric chapters, and finally the intervention-type chapters. Severity is ordered most-severe-first (Chapter @ch:urgent-action-severe before Chapter @ch:action-mild-moderate) because the highest-risk patients require the most immediate attention.
+The part opens with the reference chapters (mechanism–treatment map, symptom-based management, medication-response reference, and mechanistic cascade tracing), then the severity-specific protocols and pediatric chapters, and finally the intervention-type chapters. Severity is ordered most-severe-first (Chapter @ch:urgent-action-severe before Chapter @ch:action-mild-moderate) because the highest-risk patients require the most immediate attention.
 
 #roadmap(title: [How to Use This Part], label: [Part Roadmap])[
 *For patients*: read Chapter @ch:action-mild-moderate for intervention planning within your energy envelope, then the intervention-type chapters relevant to you (medications, supplements, lifestyle). Read Chapter @ch:urgent-action-severe only if it applies to your severity.
