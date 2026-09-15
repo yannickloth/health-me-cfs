@@ -12174,5 +12174,76 @@
     "label": "Immunometabolism",
     "category": "pathway",
     "definition": "The study of how immune cells take up and use energy (glucose, amino acids, fatty acids) and how that metabolic demand interacts with the rest of the body, including the brain and muscle."
+  },
+  "arousal": {
+    "label": "Arousal",
+    "category": "physiology",
+    "definition": "The brain's state of wakefulness and readiness to respond, driven mainly by noradrenergic, histaminergic, and orexin systems. Low arousal produces sleepiness and reduced reactivity; stimulants raise it."
+  },
+  "salience network": {
+    "label": "Salience network",
+    "category": "neuroanatomy",
+    "definition": "A brain network (anchored on the anterior insula and dorsal anterior cingulate) that flags which stimuli and internal states are important enough to act on. It helps prioritise effort and attention rather than performing attention itself."
+  },
+  "endophenotype": {
+    "label": "Endophenotype",
+    "category": "method",
+    "definition": "A measurable, heritable trait that lies between a disease and its genetic causes \u2014 a biological subtype rather than a set of symptoms. Two patients with the same diagnosis can have different endophenotypes."
+  },
+  "effort discounting": {
+    "label": "Effort discounting",
+    "category": "measurement",
+    "definition": "The tendency to value a reward less when more effort is required to obtain it. Measured with tasks such as the EEfRT; steep discounting means a person needs a larger reward to justify effort."
+  },
+  "ABCD Study": {
+    "label": "ABCD Study",
+    "category": "method",
+    "definition": "Adolescent Brain Cognitive Development Study \u2014 the largest long-term study of brain development and child health in the United States (about 11,800 children), used for large-sample brain-wide association analyses."
+  },
+  "norepinephrine": {
+    "label": "Norepinephrine (noradrenaline)",
+    "category": "neurotransmitter",
+    "definition": "A catecholamine neurotransmitter that promotes arousal, alertness, and the fight-or-flight response. Reduced central norepinephrine signalling contributes to fatigue and cognitive slowing; it is distinct from dopamine's role in reward and motivation."
+  },
+  "methylphenidate": {
+    "label": "Methylphenidate",
+    "category": "medication",
+    "definition": "A stimulant that blocks the dopamine and norepinephrine transporters, raising synaptic catecholamines. Used off-label in ME/CFS for brain fog; may improve subjective alertness and motivation while masking fatigue and enabling overexertion.",
+    "generic": "Methylphenidate",
+    "brand": "Ritalin, Concerta",
+    "class": "Stimulant (dopamine/norepinephrine reuptake inhibitor)",
+    "rx": "Rx"
+  },
+  "modafinil": {
+    "label": "Modafinil",
+    "category": "medication",
+    "definition": "A wake-promoting agent with weaker dopamine-transporter blockade and additional histaminergic/orexin effects. Used off-label for fatigue and brain fog in ME/CFS; raises arousal without the full stimulant side-effect profile.",
+    "generic": "Modafinil",
+    "brand": "Provigil",
+    "class": "Wake-promoting agent",
+    "rx": "Rx"
+  },
+  "pitolisant": {
+    "label": "Pitolisant",
+    "category": "medication",
+    "definition": "A histamine H3-receptor inverse agonist that increases endogenous histamine release and promotes wakefulness without directly activating the sympathetic nervous system. The presumably lowest-hazard arousal-promoting option.",
+    "generic": "Pitolisant",
+    "brand": "Wakix",
+    "class": "Wake-promoting agent (H3 inverse agonist)",
+    "rx": "Rx"
+  },
+  "solriamfetol": {
+    "label": "Solriamfetol",
+    "category": "medication",
+    "definition": "A dopamine and norepinephrine reuptake inhibitor approved for excessive daytime sleepiness; has been tested in ME/CFS for fatigue with a modest significant effect.",
+    "generic": "Solriamfetol",
+    "brand": "Sunosi",
+    "class": "Wake-promoting agent (DNRI)",
+    "rx": "Rx"
+  },
+  "wakefulness": {
+    "label": "Wakefulness",
+    "category": "physiology",
+    "definition": "The state of being awake and alert, maintained by arousal systems (noradrenergic, histaminergic, orexinergic). It is distinct from attention, which is the selective processing of specific information."
   }
 }

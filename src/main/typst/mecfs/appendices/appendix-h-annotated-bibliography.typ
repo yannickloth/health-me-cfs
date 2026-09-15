@@ -40463,3 +40463,164 @@ This stream assembles evidence for the claim that pathological fatigue across au
     *Conclusion:* A concise statement of the shared energetic-conflict framing used by the source thread; included for provenance of the "selfish brain vs selfish immune" phrase, not as evidence. Highlight, not a study.
     *Limitations:* Editorial; no primary data; two references.
     *Certainty Assessment:* 0.35 raw × 0.75 (general/mechanism) = *discounted 0.26* (framing source)
+
+== Stimulant Arousal/Reward vs Attention Networks (Kay 2025) <sec:bib-kay2025-stimulant-arousal-reward>
+
+=== Kay et al.\ 2025 — Stimulant Medications Affect Arousal and Reward, Not Attention Networks
+
+    *Full Citation:*: Kay BP, Wheelock MD, Siegel JS, et al. Stimulant medications affect arousal and reward, not attention networks. _Cell_. 2025;188(26):7529–7546.e20. @Kay2025stimulantarousalreward
+    *DOI:*: #link("https://doi.org/10.1016/j.cell.2025.11.039")[10.1016/j.cell.2025.11.039]
+    *PMID:*: 41448140
+    *Study Design:*: Large-sample resting-state fMRI (ABCD Study, n=11,875; n=337 taking stimulants on scan day) validated by a precision imaging drug trial (n=5 healthy adults, methylphenidate 40 mg, 165–210 min scan per participant)
+    *Key Findings:*:
+        - Stimulant-related functional-connectivity (FC) differences were largest in somato-cognitive action/motor (arousal) and salience/parietal-memory (reward) networks, but were NOT significant in dorsal or ventral attention or frontoparietal control networks, despite 95% power to detect previously reported attention-network effect sizes (d≈0.89).
+        - Stimulant FC patterns resembled those of longer sleep (arousal) and correlated with norepinephrine-transporter density maps; stimulants reversed the FC and cognitive effects of short sleep.
+        - Stimulants improved cognitive performance only in children with ADHD or sleep deprivation, not in healthy well-rested children; children with ADHD improved to the level of the rest of the cohort without increasing cognitive ability.
+        - The authors conclude stimulants increase vigilance and perceived task value (drive/effort/persistence) rather than attention-network capacity.
+    *Conclusion:* The strongest human evidence to date that therapeutic stimulants act on arousal and reward salience, not attention systems. Reframes a positive stimulant response as a marker of low arousal/reward salience, not augmented attentional capacity.
+    *Limitations:* General-population/ADHD children plus 5 healthy adults; no ME/CFS cohort; methylphenidate validation arm n=5; cross-sectional ABCD data cannot establish causality; imprecise "attention" construct and heterogeneous prior network definitions limit comparison.
+    *Certainty Assessment:* 0.80 raw × 0.75 (general population/ADHD) = *discounted 0.60* (neuroscience dissociation)
+
+=== Ilieva et al.\ 2015 — Meta-analysis of Prescription Stimulant Effects on Healthy Cognition
+
+    *Full Citation:*: Ilieva IP, Hook CJ, Farah MJ. Prescription stimulants' effects on healthy inhibitory control, working memory, and episodic memory: a meta-analysis. _Journal of Cognitive Neuroscience_. 2015;27(6):1069–1089. @Ilieva2015StimulantMetaAnalysis
+    *DOI:*: #link("https://doi.org/10.1162/jocn_a_00776")[10.1162/jocn\_a\_00776]
+    *PMID:*: 25591060
+    *Study Design:*: Meta-analysis (48 studies; n=1,409 healthy participants)
+    *Key Findings:*:
+        - Only small significant enhancement of inhibitory control and short-term episodic memory; working-memory effect small and dependent on analytic approach.
+        - Long-term and working-memory effects were qualified by publication bias; delayed episodic memory effect was medium but not robust.
+        - Authors conclude the effect of amphetamine and methylphenidate on healthy cognition is probably modest overall, and users may use stimulants more for energy/motivation than cognition.
+    *Conclusion:* Direct meta-analytic counter-evidence to attention/cognitive-capacity enhancement in healthy people, converging on the motivation/energy interpretation later formalized by Kay 2025.
+    *Limitations:* Healthy participants only; heterogeneous tasks and doses; publication-bias concern within the included literature.
+    *Certainty Assessment:* 0.75 raw × 0.75 (general population) = *discounted 0.56* (meta-analysis null)
+
+=== Ilieva et al.\ 2013 — Objective vs Subjective Amphetamine Effects in Healthy People
+
+    *Full Citation:*: Ilieva I, Boland J, Farah MJ. Objective and subjective cognitive enhancing effects of mixed amphetamine salts in healthy people. _Neuropharmacology_. 2013;64:496–505. @Ilieva2013ObjectiveSubjective
+    *DOI:*: #link("https://doi.org/10.1016/j.neuropharm.2012.07.021")[10.1016/j.neuropharm.2012.07.021]
+    *PMID:*: 22884611
+    *Study Design:*: Double-blind, crossover, placebo-controlled trial in healthy young adults (13 cognitive measures)
+    *Key Findings:*:
+        - No enhancement of any cognitive ability by mixed amphetamine salts in general; only a minority of tasks showed moderation by baseline ability and COMT genotype.
+        - Despite the objective null, participants reported an illusory perception of cognitive enhancement.
+    *Conclusion:* A clean human demonstration that stimulants can improve perceived performance without improving objective cognitive ability — the subjective/objective dissociation central to the stimulant-response reframing.
+    *Limitations:* Modest n; healthy young adults; single dose of one amphetamine formulation.
+    *Certainty Assessment:* 0.70 raw × 0.75 (general population) = *discounted 0.53* (subjective-objective dissociation)
+
+=== Roberts et al.\ 2020 — Meta-analyses of Cognitive Enhancement in Healthy Adults
+
+    *Full Citation:*: Roberts CA, Jones A, Sumnall H, Gage SH, Montgomery C. How effective are pharmaceuticals for cognitive enhancement in healthy adults? A series of meta-analyses of cognitive performance during acute administration of modafinil, methylphenidate and D-amphetamine. _European Neuropsychopharmacology_. 2020;38:40–62. @Roberts2020CognitiveEnhancementMeta
+    *DOI:*: #link("https://doi.org/10.1016/j.euroneuro.2020.07.002")[10.1016/j.euroneuro.2020.07.002]
+    *PMID:*: 32709551
+    *Study Design:*: PRISMA series of meta-analyses (k=47 studies) in healthy non-sleep-deprived adults
+    *Key Findings:*:
+        - Across executive function, working memory, recall, and selective/sustained attention, evidence of cognitive enhancement was limited and inconsistent in rested healthy adults.
+        - Benefits appeared mainly in sleep-deprived or lower-baseline conditions rather than as broad capacity gains.
+    *Conclusion:* Converging meta-analytic evidence that stimulants do not raise attention/cognition capacity in rested healthy people, reinforcing the arousal/deficit-rescue interpretation.
+    *Limitations:* Healthy adults only; heterogeneity of doses, tasks, and designs.
+    *Certainty Assessment:* 0.75 raw × 0.75 (general population) = *discounted 0.56* (meta-analysis)
+
+=== Repantis et al.\ 2010 — Systematic Review of Modafinil/MPH Neuroenhancement
+
+    *Full Citation:*: Repantis D, Schlattmann P, Laisney O, Heuser I. Modafinil and methylphenidate for neuroenhancement in healthy individuals: a systematic review. _Pharmacological Research_. 2010;62(3):187–206. @Repantis2010ModafinilMPHenhancement
+    *DOI:*: #link("https://doi.org/10.1016/j.phrs.2010.04.002")[10.1016/j.phrs.2010.04.002]
+    *PMID:*: 20416377
+    *Study Design:*: Systematic review
+    *Key Findings:*:
+        - Cognitive effects of modafinil and methylphenidate in healthy individuals were inconsistent and limited to specific subgroups or task conditions.
+        - Mood, arousal, and wakefulness effects were more consistent than cognitive-enhancement effects.
+    *Conclusion:* An early systematic expression of the arousal/mood-vs-cognition dissociation later demonstrated by Kay 2025.
+    *Limitations:* Older review; pre-modern meta-analytic methods; healthy populations only.
+    *Certainty Assessment:* 0.65 raw × 0.75 (general population) = *discounted 0.49* (systematic review)
+
+=== Marraccini et al.\ 2016 — Meta-analysis of Prescription Stimulant Neurocognitive Effects
+
+    *Full Citation:*: Marraccini ME, Weyandt LL, Rossi JS, Gudmundsdottir BG. Neurocognitive enhancement or impairment? A systematic meta-analysis of prescription stimulant effects on processing speed, decision-making, planning, and cognitive perseveration. _Experimental and Clinical Psychopharmacology_. 2016;24(4):269–284. @Marraccini2016StimulantMetaAnalysis
+    *DOI:*: #link("https://doi.org/10.1037/pha0000079")[10.1037/pha0000079]
+    *PMID:*: 27454675
+    *Study Design:*: Systematic meta-analysis
+    *Key Findings:*:
+        - Prescription stimulant effects on processing speed, decision-making, planning, and perseveration were small and domain-specific.
+        - Evidence included both enhancement and impairment depending on task and population.
+    *Conclusion:* Supports the view that stimulants do not uniformly improve higher cognition — a further null-leaning anchor against a general attention-capacity gain.
+    *Limitations:* Heterogeneous outcome measures; mixed populations.
+    *Certainty Assessment:* 0.60 raw × 0.75 (general population) = *discounted 0.45* (meta-analysis)
+
+=== Chong et al.\ 2023 — Amphetamines Improve Motivation to Invest Effort in ADHD
+
+    *Full Citation:*: Chong TT-J, Fortunato E, Bellgrove MA. Amphetamines improve the motivation to invest effort in attention-deficit/hyperactivity disorder. _Journal of Neuroscience_. 2023;43(41):6898–6908. @Chong2023AmphetamineMotivation
+    *DOI:*: #link("https://doi.org/10.1523/JNEUROSCI.0982-23.2023")[10.1523/JNEUROSCI.0982-23.2023]
+    *PMID:*: 37666665
+    *Study Design:*: Within-subject effort-based decision task (20 adults with ADHD on amphetamine medication; 24 controls)
+    *Key Findings:*:
+        - Amphetamines increased willingness to invest effort for reward rather than improving task ability — reward-effort invigoration.
+        - Effort sensitivity was altered in ADHD and partially normalized by medication.
+    *Conclusion:* Human evidence that stimulant benefit is motivational/effort-based, aligning with Kay 2025's reward-salience account and refining the ME/CFS "drive, not capacity" inference.
+    *Limitations:* ADHD population (not ME/CFS); modest n; amphetamine class only.
+    *Certainty Assessment:* 0.70 raw × 0.75 (general/ADHD population) = *discounted 0.53* (effort invigoration)
+
+=== Bowman et al.\ 2023 — Smart Drugs Increase Level but Decrease Quality of Effort
+
+    *Full Citation:*: Bowman E, Coghill D, Murawski C, Bossaerts P. Not so smart? "Smart" drugs increase the level but decrease the quality of cognitive effort. _Science Advances_. 2023;9(28):eadd4165. @Bowman2023NotSoSmart
+    *DOI:*: #link("https://doi.org/10.1126/sciadv.add4165")[10.1126/sciadv.add4165]
+    *PMID:*: 37315143
+    *Study Design:*: Placebo-controlled study in healthy adults (knapsack optimization task)
+    *Key Findings:*:
+        - Methylphenidate, dextroamphetamine, and modafinil significantly decreased attained task value (quality of effort) and increased decision time/steps (level of effort).
+        - Solution strategies became more random and individual productivity differences reversed.
+    *Conclusion:* Dissociates effort/motivation increase from cognitive output — stimulants can raise drive while degrading the quality of cognitive work, an important nuance for the masking/overexertion hazard.
+    *Limitations:* Healthy adults; single stylized task; does not model chronic illness.
+    *Certainty Assessment:* 0.70 raw × 0.75 (general population) = *discounted 0.53* (effort-quality dissociation)
+
+=== Greenhouse-Tucknott et al.\ 2025 — Perceived Fatigue, Effort, and Confidence
+
+    *Full Citation:*: Greenhouse-Tucknott A, Wrightson JG, Berens S, Dekerle J, Harrison NA. Perceived fatigue does not alter effort-based decision making but does undermine confidence in the ability to perform physical actions. _Physiology & Behavior_. 2025;291:114792. @GreenhouseTucknott2025FatigueEffort
+    *DOI:*: #link("https://doi.org/10.1016/j.physbeh.2024.114792")[10.1016/j.physbeh.2024.114792]
+    *PMID:*: 39730065
+    *Study Design:*: Within-subject rewarded effort-based decision task (22 healthy males)
+    *Key Findings:*:
+        - Perceived fatigue did not shift the cost-benefit valuation of effort.
+        - Fatigue reduced confidence in the ability to perform physical actions.
+    *Conclusion:* Suggests fatigue acts on self-efficacy/arousal rather than reward-effort valuation per se — a boundary condition for the arousal/reward model and a caution against over-generalizing reward explanations to fatigue.
+    *Limitations:* Healthy males; physical-effort task; not ME/CFS.
+    *Certainty Assessment:* 0.60 raw × 0.75 (general population) = *discounted 0.45* (effort/confidence boundary)
+
+=== Rubia et al.\ 2014 — Competing Account: Stimulants Modulate Cognitive-Control Regions
+
+    *Full Citation:*: Rubia K, Alegria AA, Cubillo AI, Smith AB, Brammer MJ, Radua J. Effects of stimulants on brain function in attention-deficit/hyperactivity disorder: a systematic review and meta-analysis. _Biological Psychiatry_. 2014;76(8):616–628. @Rubia2014StimulantBrainMeta
+    *DOI:*: #link("https://doi.org/10.1016/j.biopsych.2013.10.016")[10.1016/j.biopsych.2013.10.016]
+    *PMID:*: 24314347
+    *Study Design:*: Systematic review and meta-analysis of task-based fMRI studies of stimulant effects in ADHD
+    *Key Findings:*:
+        - Stimulants most consistently increased right inferior frontal cortex/insula activation, interpreted as an effect on cognitive-control regions.
+        - Authors propose these neurocognitive effects may underlie positive clinical effects.
+    *Conclusion:* The leading competing account to Kay 2025 — stimulants acting on cognitive-control/attention-related regions. Kay 2025 attributes the discrepancy largely to smaller ROI-based designs and notes prior attention-network effect sizes were within their detectable range. Retained as the competing-mechanism counterweight.
+    *Limitations:* Task-fMRI sensitive to performance confounds; older, smaller studies; ADHD population.
+    *Certainty Assessment:* 0.65 raw × 0.75 (general/ADHD population) = *discounted 0.49* (competing mechanism)
+
+=== Oliva et al.\ 2025 — Safety of Stimulants Across Patient Populations
+
+    *Full Citation:*: Oliva HNP, Prudente TP, Mayerson TF, et al. Safety of stimulants across patient populations: a meta-analysis. _JAMA Network Open_. 2025;8(5):e259492. @Oliva2025StimulantSafety
+    *DOI:*: #link("https://doi.org/10.1001/jamanetworkopen.2025.9492")[10.1001/jamanetworkopen.2025.9492]
+    *PMID:*: 40343695
+    *Study Design:*: Meta-analysis of stimulant safety across patient populations (beyond ADHD, including off-label use)
+    *Key Findings:*:
+        - Quantifies the cardiovascular, psychiatric, sleep, and appetite-related adverse-event profile of stimulant medications.
+        - Establishes the safety ceiling relevant to off-label stimulant use in conditions with fatigue/cognitive complaints.
+    *Conclusion:* Provides the harm counterweight for the ME/CFS stimulant differential: as stimulants raise arousal and drive without restoring energy supply, their cardiovascular/psychiatric/sleep risks are the relevant safety constraint.
+    *Limitations:* Heterogeneous populations; off-label ME/CFS use not separately studied.
+    *Certainty Assessment:* 0.75 raw × 0.75 (general population) = *discounted 0.56* (safety meta-analysis)
+
+=== Nourredine et al.\ 2026 — ADHD Pharmacological Interventions Network Meta-analysis
+
+    *Full Citation:*: Nourredine M, Jurek L, Hamza T, et al. Pharmacological interventions for attention-deficit/hyperactivity disorder: a systematic review and dose-effect network meta-analysis. _Lancet Psychiatry_. 2026;13(6):485–495. @Nourredine2026ADHDNetworkMeta
+    *DOI:*: #link("https://doi.org/10.1016/S2215-0366(26)00091-X")[10.1016/S2215-0366(26)00091-X]
+    *PMID:*: 42134365
+    *Study Design:*: Systematic review and dose-effect network meta-analysis
+    *Key Findings:*:
+        - Ranks pharmacological interventions for ADHD by efficacy and tolerability, with dose-response structure for stimulants and non-stimulants.
+        - Provides modern comparative estimates for the stimulant class.
+    *Conclusion:* The largest modern synthesis of stimulant dose-response/tolerability; useful for dose-window and safety-ladder reasoning in the ME/CFS stimulant differential. ADHD population, not ME/CFS.
+    *Limitations:* ADHD population only; does not address ME/CFS or chronic fatigue.
+    *Certainty Assessment:* 0.80 raw × 0.75 (general/ADHD population) = *discounted 0.60* (network meta-analysis)

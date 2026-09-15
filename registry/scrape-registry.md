@@ -13,6 +13,18 @@ Prevents re-processing of already-integrated content.
 
 ---
 
+## Kay 2025 Stimulant Arousal/Reward vs Attention Networks (kay2025-stimulant-arousal-reward) Literature Search
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-09-13 | ~32 queries across required categories: direct (stimulant × ME/CFS = 72 hits, all corpus reuse; MPH cognitive fatigue = 93), effort/reward mechanism (MPH effort motivation; dopamine effort invigoration), indirect biochemical (LC-NE arousal, adenosine, histamine), harm (MPH cardiovascular, amphetamine psychosis, stimulant safety meta-analysis), null/negative (MPH cognitive enhancement null; stimulant do-not-improve-cognition), and competitor (Rubia stimulants-brain meta-analysis). **12 new papers added:** Kay2025stimulantarousalreward, Ilieva2015StimulantMetaAnalysis, Ilieva2013ObjectiveSubjective, Roberts2020CognitiveEnhancementMeta, Repantis2010ModafinilMPHenhancement, Marraccini2016StimulantMetaAnalysis, Chong2023AmphetamineMotivation, Bowman2023NotSoSmart, GreenhouseTucknott2025FatigueEffort, Rubia2014StimulantBrainMeta, Oliva2025StimulantSafety, Nourredine2026ADHDNetworkMeta. **Reused by PMID, not duplicated:** Hendrix2025AdrenergicDysfunction (neuroinflammation.bib — ME/CFS adrenergic), Koonce2024LongCovidStimulant, Eckey2025PatientReported, Blockmans2006MPHCFS, Walitt2024NIH, Young2025solriamfetol, Randall2005modafinil, Minzenberg2008modafinil, Graveling2023stimulantmitochondria. **Zero-result queries (informative):** `stimulant AND overexertion AND post-exertional malaise`=0, `methylphenidate AND cognitive enhancement AND null`=0, `stimulant AND ME/CFS safety`=0, `long COVID brain fog stimulant treatment`=0 → ME/CFS-specific stimulant-overexertion harm is essentially absent from the indexed literature; hazard must be framed as mechanistically inferred. **Verified:** Kay 2025 = Cell 188(26):7529–7546.e20 (task prompt said 7529–7566 — corrected); bioRxiv preprint PMID 40475604 superseded by peer-reviewed version. |
+| PDF (already local) | 2026-09-13 | `Literature/neurological/1-s2.0-S009286742501373X-main.pdf` (39 pp, extracted via pdftotext for primary evidence — no web scrape). |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed API queries (~32 queries + esummary/efetch, 12 PMIDs) | pubmed/eutils | 2026-09-13 | — | ops/research/search-log-kay2025-stimulant-arousal-reward-2026-09-13.md, ops/research/literature-summary-kay2025-stimulant-arousal-reward-2026-09-13.md, bib/neurology-comorbidities.bib, appendix-h `<sec:bib-kay2025-stimulant-arousal-reward>` — stimulant arousal/reward vs attention dissociation (12 new papers) |
+
+---
+
 ## Common Biology of Fatigue Across Immune-Inflammatory Diseases (common-fatigue-biology) Literature Search
 | Source | Last Scraped | Notes |
 |--------|--------------|-------|
