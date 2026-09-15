@@ -133,6 +133,6 @@ To be completed at Phase 12.5.
 | 11 | RAN | `tmp/review-convergence-kay2025-stimulant-arousal-reward-2026-09-13.md`; FULL tier converged |
 | 12 | RAN | Plan record written (above) |
 | 12.5 | RAN | This ledger; build PASS |
-| 13 | RAN | Commit — see Phase 13 report |
+| 13 | RAN | 2 commits: `472c44ad` (topic), `41b657f3` (build fix after ch07 relocation). Shared-file entries verified present. HEAD builds clean (verified in isolated worktree). |
 
 **Gate:** 0 OMISSION. All phases RAN or LEGIT-SKIP (5d). Build PASS.
