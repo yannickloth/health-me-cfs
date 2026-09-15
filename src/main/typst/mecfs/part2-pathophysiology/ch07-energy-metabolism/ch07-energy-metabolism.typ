@@ -70,7 +70,7 @@ Energy production impairment is a central feature of ME/CFS pathophysiology and 
 
 #include "sec-26-neurosteroid-cross-talk-with-mitochondrial-bioenergetics/sec-26-neurosteroid-cross-talk-with-mitochondrial-bioenergetics.typ"
 
-#include "sec-27-brain-energy.typ"
+#include "sec-27-brain-energy/sec-27-brain-energy.typ"
 
-#include "sec-28-prefrontal-executive-energy-adhd.typ"
+#include "sec-28-prefrontal-executive-energy-adhd/sec-28-prefrontal-executive-energy-adhd.typ"
 

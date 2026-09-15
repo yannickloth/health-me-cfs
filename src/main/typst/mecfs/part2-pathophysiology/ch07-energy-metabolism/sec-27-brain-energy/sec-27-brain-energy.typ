@@ -1,4 +1,4 @@
-#import "../../shared/environments.typ": *
+#import "../../../shared/environments.typ": *
 
 == Brain Energy Metabolism: Cross-Disease Convergent Framework
 <sec:brain-energy-cross-disease>
