@@ -17,12 +17,12 @@ Part V builds formal mathematical models of ME/CFS. This opening chapter lays th
 *For researchers*: read the Modeling Approaches, Computational Methods, Data Requirements, and Model Validation sections to establish the conventions and requirements on which all Part V models build.
 ]
 
-#include "sec-intro/sec-intro.typ"
+#include "sec-01-introduction/sec-01-introduction.typ"
 
-#include "sec-01-why-model-mecfs/sec-01-why-model-mecfs.typ"
-#include "sec-02-prior-work-and-scope-of-contribution/sec-02-prior-work-and-scope-of-contribution.typ"
-#include "sec-03-modeling-approaches/sec-03-modeling-approaches.typ"
-#include "sec-04-computational-methods/sec-04-computational-methods.typ"
-#include "sec-05-data-requirements/sec-05-data-requirements.typ"
-#include "sec-06-model-validation/sec-06-model-validation.typ"
-#include "sec-07-model-coverage-justification/sec-07-model-coverage-justification.typ"
+#include "sec-02-why-model-mecfs/sec-02-why-model-mecfs.typ"
+#include "sec-03-prior-work-and-scope-of-contribution/sec-03-prior-work-and-scope-of-contribution.typ"
+#include "sec-04-modeling-approaches/sec-04-modeling-approaches.typ"
+#include "sec-05-computational-methods/sec-05-computational-methods.typ"
+#include "sec-06-data-requirements/sec-06-data-requirements.typ"
+#include "sec-07-model-validation/sec-07-model-validation.typ"
+#include "sec-08-model-coverage-justification/sec-08-model-coverage-justification.typ"

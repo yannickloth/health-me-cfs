@@ -34,7 +34,7 @@ One candidate link between the gut microbiome and the neurocognitive symptoms di
 
 #include "sec-08-summary-an-integrated-neurological-model/sec-08-summary-an-integrated-neurological-model.typ"
 
-#include "sec-01-misc/subsec-glp1-neuroprotection-research/sec-glp1-cns-research.typ"
+#include "sec-09-glp1-neuroprotection-research/sec-09-glp1-neuroprotection-research.typ"
 
-#include "sec-01-misc/subsec-retinal-corneal-cns-window/subsec-retinal-corneal-cns-window.typ"
+#include "sec-10-retinal-corneal-cns-window/sec-10-retinal-corneal-cns-window.typ"
 

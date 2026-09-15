@@ -17,13 +17,13 @@ This chapter develops quantitative models of the neuroendocrine and autonomic di
 *For researchers*: read the full derivation from the HPA Axis Models section through the Central Sensitization and Pain Amplification and Tetrahydrobiopterin Competition Model sections.
 ]
 
-#include "sec-intro/sec-intro.typ"
+#include "sec-01-introduction/sec-01-introduction.typ"
 
-#include "sec-01-hpa-axis-models/sec-01-hpa-axis-models.typ"
-#include "sec-02-autonomic-nervous-system-models/sec-02-autonomic-nervous-system-models.typ"
-#include "sec-03-neurotransmitter-models/sec-03-neurotransmitter-models.typ"
-#include "sec-04-sleep-wake-cycle-models/sec-04-sleep-wake-cycle-models.typ"
-#include "sec-05-tetrahydrobiopterin-competition-model/sec-05-tetrahydrobiopterin-competition-model.typ"
-#include "sec-06-cerebral-blood-flow-autoregulation/sec-06-cerebral-blood-flow-autoregulation.typ"
-#include "sec-07-central-sensitization-and-pain-amplification/sec-07-central-sensitization-and-pain-amplification.typ"
-#include "sec-08-model-application-guide/sec-08-model-application-guide.typ"
+#include "sec-02-hpa-axis-models/sec-02-hpa-axis-models.typ"
+#include "sec-03-autonomic-nervous-system-models/sec-03-autonomic-nervous-system-models.typ"
+#include "sec-04-neurotransmitter-models/sec-04-neurotransmitter-models.typ"
+#include "sec-05-sleep-wake-cycle-models/sec-05-sleep-wake-cycle-models.typ"
+#include "sec-06-tetrahydrobiopterin-competition-model/sec-06-tetrahydrobiopterin-competition-model.typ"
+#include "sec-07-cerebral-blood-flow-autoregulation/sec-07-cerebral-blood-flow-autoregulation.typ"
+#include "sec-08-central-sensitization-and-pain-amplification/sec-08-central-sensitization-and-pain-amplification.typ"
+#include "sec-09-model-application-guide/sec-09-model-application-guide.typ"

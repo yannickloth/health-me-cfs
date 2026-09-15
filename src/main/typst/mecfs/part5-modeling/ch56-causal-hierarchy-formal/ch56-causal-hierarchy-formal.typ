@@ -15,14 +15,14 @@
 *For researchers*: read the full derivation from the The Disease State ODE System and Reverse Cascade Recovery Prediction sections through the Lock Removal Sequence Dependence, Separatrix Nudging via Stacked Sub-Threshold Interventions, Within-Patient Attractor Migration, and Emergent Predictions from Cross-Idea Synthesis sections.
 ]
 
-#include "sec-intro/sec-intro.typ"
+#include "sec-01-introduction/sec-01-introduction.typ"
 
-#include "sec-01-the-disease-state-ode-system/sec-01-the-disease-state-ode-system.typ"
-#include "sec-02-the-epigenetic-clock-as-diagnostic-tool/sec-02-the-epigenetic-clock-as-diagnostic-tool.typ"
-#include "sec-03-reverse-cascade-recovery-prediction/sec-03-reverse-cascade-recovery-prediction.typ"
-#include "sec-04-lock-removal-sequence-dependence/sec-04-lock-removal-sequence-dependence.typ"
-#include "sec-05-separatrix-nudging-via-stacked-sub-threshold-interventions/sec-05-separatrix-nudging-via-stacked-sub-threshold-interventions.typ"
-#include "sec-06-critical-slowing-down-as-a-wearable-monitoring-tool/sec-06-critical-slowing-down-as-a-wearable-monitoring-tool.typ"
-#include "sec-07-within-patient-attractor-migration/sec-07-within-patient-attractor-migration.typ"
-#include "sec-08-antiviral-therapy-effectiveness-and-threat-signal-compositio/sec-08-antiviral-therapy-effectiveness-and-threat-signal-compositio.typ"
-#include "sec-09-emergent-predictions-from-cross-idea-synthesis/sec-09-emergent-predictions-from-cross-idea-synthesis.typ"
+#include "sec-02-the-disease-state-ode-system/sec-02-the-disease-state-ode-system.typ"
+#include "sec-03-the-epigenetic-clock-as-diagnostic-tool/sec-03-the-epigenetic-clock-as-diagnostic-tool.typ"
+#include "sec-04-reverse-cascade-recovery-prediction/sec-04-reverse-cascade-recovery-prediction.typ"
+#include "sec-05-lock-removal-sequence-dependence/sec-05-lock-removal-sequence-dependence.typ"
+#include "sec-06-separatrix-nudging-via-stacked-sub-threshold-interventions/sec-06-separatrix-nudging-via-stacked-sub-threshold-interventions.typ"
+#include "sec-07-critical-slowing-down-as-a-wearable-monitoring-tool/sec-07-critical-slowing-down-as-a-wearable-monitoring-tool.typ"
+#include "sec-08-within-patient-attractor-migration/sec-08-within-patient-attractor-migration.typ"
+#include "sec-09-antiviral-therapy-effectiveness-and-threat-signal-compositio/sec-09-antiviral-therapy-effectiveness-and-threat-signal-compositio.typ"
+#include "sec-10-emergent-predictions-from-cross-idea-synthesis/sec-10-emergent-predictions-from-cross-idea-synthesis.typ"

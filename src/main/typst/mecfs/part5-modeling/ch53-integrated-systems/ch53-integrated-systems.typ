@@ -17,18 +17,18 @@ ME/CFS is a multi-system disease, and its models must integrate across systems. 
 *For researchers*: read the full derivation from the Energy--Immune Coupling and Whole-Body Systems Model sections through the Neuroplasticity Attractor Dynamics and Brain Clearance Architecture sections.
 ]
 
-#include "sec-intro/sec-intro.typ"
+#include "sec-01-introduction/sec-01-introduction.typ"
 
-#include "sec-01-energy-immune-coupling/sec-01-energy-immune-coupling.typ"
-#include "sec-02-neuroimmune-interactions/sec-02-neuroimmune-interactions.typ"
-#include "sec-03-cardiovascular-metabolic-integration/sec-03-cardiovascular-metabolic-integration.typ"
-#include "sec-04-gut-brain-immune-axis/sec-04-gut-brain-immune-axis.typ"
-#include "sec-05-whole-body-systems-model/sec-05-whole-body-systems-model.typ"
-#include "sec-06-symptom-generation-mechanisms/sec-06-symptom-generation-mechanisms.typ"
-#include "sec-07-extended-subsystem-couplings/sec-07-extended-subsystem-couplings.typ"
-#include "sec-08-bifurcation-analysis-and-disease-subtypes/sec-08-bifurcation-analysis-and-disease-subtypes.typ"
-#include "sec-09-model-application-guide/sec-09-model-application-guide.typ"
-#include "sec-10-neuroplasticity-attractor-dynamics/sec-10-neuroplasticity-attractor-dynamics.typ"
-#include "sec-11-connective-tissue-subsystem-extensions/sec-11-connective-tissue-subsystem-extensions.typ"
+#include "sec-02-energy-immune-coupling/sec-02-energy-immune-coupling.typ"
+#include "sec-03-neuroimmune-interactions/sec-03-neuroimmune-interactions.typ"
+#include "sec-04-cardiovascular-metabolic-integration/sec-04-cardiovascular-metabolic-integration.typ"
+#include "sec-05-gut-brain-immune-axis/sec-05-gut-brain-immune-axis.typ"
+#include "sec-06-whole-body-systems-model/sec-06-whole-body-systems-model.typ"
+#include "sec-07-symptom-generation-mechanisms/sec-07-symptom-generation-mechanisms.typ"
+#include "sec-08-extended-subsystem-couplings/sec-08-extended-subsystem-couplings.typ"
+#include "sec-09-bifurcation-analysis-and-disease-subtypes/sec-09-bifurcation-analysis-and-disease-subtypes.typ"
+#include "sec-10-model-application-guide/sec-10-model-application-guide.typ"
+#include "sec-11-neuroplasticity-attractor-dynamics/sec-11-neuroplasticity-attractor-dynamics.typ"
+#include "sec-12-connective-tissue-subsystem-extensions/sec-12-connective-tissue-subsystem-extensions.typ"
 
-#include "sec-12-brain-clearance/sec-12-brain-clearance.typ"
+#include "sec-13-brain-clearance/sec-13-brain-clearance.typ"

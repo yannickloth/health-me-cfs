@@ -17,15 +17,15 @@ This chapter places the integrated models in time. It models disease onset, prog
 *For researchers*: read the full derivation from the Disease Onset Models and Long-Term Trajectories sections through the Critical Slowing Down and Early Warning Signals, Hysteresis and the Intervention Window, and Endogenous Oscillations and Hopf Bifurcation sections.
 ]
 
-#include "sec-intro/sec-intro.typ"
+#include "sec-01-introduction/sec-01-introduction.typ"
 
-#include "sec-01-disease-onset-models/sec-01-disease-onset-models.typ"
-#include "sec-02-disease-progression-models/sec-02-disease-progression-models.typ"
-#include "sec-03-daily-and-weekly-symptom-dynamics/sec-03-daily-and-weekly-symptom-dynamics.typ"
-#include "sec-04-response-to-specific-stimuli/sec-04-response-to-specific-stimuli.typ"
-#include "sec-05-treatment-response-modeling/sec-05-treatment-response-modeling.typ"
-#include "sec-06-long-term-trajectories/sec-06-long-term-trajectories.typ"
-#include "sec-07-critical-slowing-down-and-early-warning-signals/sec-07-critical-slowing-down-and-early-warning-signals.typ"
-#include "sec-08-hysteresis-and-the-intervention-window/sec-08-hysteresis-and-the-intervention-window.typ"
-#include "sec-09-endogenous-oscillations-and-hopf-bifurcation/sec-09-endogenous-oscillations-and-hopf-bifurcation.typ"
-#include "sec-10-model-application-guide/sec-10-model-application-guide.typ"
+#include "sec-02-disease-onset-models/sec-02-disease-onset-models.typ"
+#include "sec-03-disease-progression-models/sec-03-disease-progression-models.typ"
+#include "sec-04-daily-and-weekly-symptom-dynamics/sec-04-daily-and-weekly-symptom-dynamics.typ"
+#include "sec-05-response-to-specific-stimuli/sec-05-response-to-specific-stimuli.typ"
+#include "sec-06-treatment-response-modeling/sec-06-treatment-response-modeling.typ"
+#include "sec-07-long-term-trajectories/sec-07-long-term-trajectories.typ"
+#include "sec-08-critical-slowing-down-and-early-warning-signals/sec-08-critical-slowing-down-and-early-warning-signals.typ"
+#include "sec-09-hysteresis-and-the-intervention-window/sec-09-hysteresis-and-the-intervention-window.typ"
+#include "sec-10-endogenous-oscillations-and-hopf-bifurcation/sec-10-endogenous-oscillations-and-hopf-bifurcation.typ"
+#include "sec-11-model-application-guide/sec-11-model-application-guide.typ"
