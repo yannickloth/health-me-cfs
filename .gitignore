@@ -354,6 +354,9 @@ target/
 # zvec-grep (zg) workspace indexes (built under each indexed root)
 .zvec-grep/
 
+# premium read offload worker session cache
+.premium-read-offload/
+
 # Reference materials
 test-tikz-figure.pdf
 .gitignore
