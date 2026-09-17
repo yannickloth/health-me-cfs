@@ -30,7 +30,8 @@
     "../llm-harness-plugins/agentfeed/opencode/index.ts",
     "../llm-harness-plugins/natural-prose/opencode/index.ts",
     "../llm-harness-plugins/system-message-merge/opencode/index.ts",
-    "../llm-harness-plugins/scientific-writing/opencode/index.ts"
+    "../llm-harness-plugins/scientific-writing/opencode/index.ts",
+    "../llm-harness-plugins/premium-read-offload/opencode/index.ts"
   ],
   "agent": {
     "backward-reader-auditor": {
@@ -1276,6 +1277,28 @@
         }
       },
       "prompt": "{file:../llm-harness-plugins/general-skills/agents/xref-checker.md}"
+    },
+    "bulk-reader": {
+      "mode": "all",
+      "model": "deepseek/deepseek-flash",
+      "options": {
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "permission": { "read": "allow", "edit": "deny", "bash": "deny", "glob": "allow", "grep": "allow" },
+      "prompt": "{file:../llm-harness-plugins/premium-read-offload/agents/bulk-reader.md}"
+    },
+    "code-writer": {
+      "mode": "all",
+      "model": "deepseek/deepseek-flash",
+      "options": {
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "permission": { "read": "allow", "edit": "deny", "bash": "deny", "glob": "allow", "grep": "allow" },
+      "prompt": "{file:../llm-harness-plugins/premium-read-offload/agents/code-writer.md}"
     }
   }
 }
