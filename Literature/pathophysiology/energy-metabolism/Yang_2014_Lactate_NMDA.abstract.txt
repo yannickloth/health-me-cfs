@@ -1,0 +1,8 @@
+Title: Lactate promotes plasticity gene expression by potentiating NMDA signaling in neurons.
+Authors: Yang Jiangyan, Ruchti Evelyne, Petit Jean-Marie, Jourdain Pascal, Grenningloh Gabriele, Allaman Igor, Magistretti Pierre J
+Journal: Proceedings of the National Academy of Sciences of the United States of America 2014;111(33):12228-33
+PMID: 25071212
+DOI: 10.1073/pnas.1322912111
+
+ABSTRACT
+L-lactate is a product of aerobic glycolysis that can be used by neurons as an energy substrate. Here we report that in neurons L-lactate stimulates the expression of synaptic plasticity-related genes such as Arc, c-Fos, and Zif268 through a mechanism involving NMDA receptor activity and its downstream signaling cascade Erk1/2. L-lactate potentiates NMDA receptor-mediated currents and the ensuing increase in intracellular calcium. In parallel to this, L-lactate increases intracellular levels of NADH, thereby modulating the redox state of neurons. NADH mimics all of the effects of L-lactate on NMDA signaling, pointing to NADH increase as a primary mediator of L-lactate effects. The induction of plasticity genes is observed both in mouse primary neurons in culture and in vivo in the mouse sensory-motor cortex. These results provide insights for the understanding of the molecular mechanisms underlying the critical role of astrocyte-derived L-lactate in long-term memory and long-term potentiation in vivo. This set of data reveals a previously unidentified action of L-lactate as a signaling molecule for neuronal plasticity.

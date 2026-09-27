@@ -1,0 +1,8 @@
+Title: Sodium bicarbonate for the treatment of lactic acidosis.
+Authors: Forsythe S M, Schmidt G A
+Journal: Chest 2000;117(1):260-7
+PMID: 10631227
+DOI: 10.1378/chest.117.1.260
+
+ABSTRACT
+Lactic acidosis often challenges the intensivist and is associated with a strikingly high mortality. Treatment involves discerning and correcting its underlying cause, ensuring adequate oxygen delivery to tissues, reducing oxygen demand through sedation and mechanical ventilation, and (most controversially) attempting to alkalinize the blood with IV sodium bicarbonate. Here we review the literature to answer the following questions: Is a low pH bad? Can sodium bicarbonate raise the pH in vivo? Does increasing the blood pH with sodium bicarbonate have any salutary effects? Does sodium bicarbonate have negative side effects? We find that the oft-cited rationale for bicarbonate use, that it might ameliorate the hemodynamic depression of metabolic acidemia, has been disproved convincingly. Further, given the lack of evidence supporting its use, we cannot condone bicarbonate administration for patients with lactic acidosis, regardless of the degree of acidemia.

@@ -1,0 +1,8 @@
+Title: Towards an understanding of physical activity-induced post-exertional malaise: Insights into microvascular alterations and immunometabolic interactions in post-COVID condition and myalgic encephalomyelitis/chronic fatigue syndrome.
+Authors: Haunhorst Simon, Dudziak Diana, Scheibenbogen Carmen, Seifert Martina, Sotzny Franziska, Finke Carsten, Behrends Uta, Aden Konrad, Schreiber Stefan, Brockmann Dirk, Burggraf Paul, Bloch Wilhelm, Ellert Claudia, Ramoji Anuradha, Popp Juergen, Reuken Philipp, Walter Martin, Stallmach Andreas, Puta Christian
+Journal: Infection 2025;53(1):1-13
+PMID: 39240417
+DOI: 10.1042/BSR20210611
+
+ABSTRACT
+A considerable number of patients who contracted SARS-CoV-2 are affected by persistent multi-systemic symptoms, referred to as Post-COVID Condition (PCC). Post-exertional malaise (PEM) has been recognized as one of the most frequent manifestations of PCC and is a diagnostic criterion of myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS). Yet, its underlying pathomechanisms remain poorly elucidated.

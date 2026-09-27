@@ -1,0 +1,8 @@
+Title: Randomised clinical trial: high-dose oral thiamine versus placebo for chronic fatigue in patients with quiescent inflammatory bowel disease.
+Authors: Bager Palle, Hvas Christian Lodberg, Rud Charlotte Lock, Dahlerup Jens Frederik
+Journal: Alimentary pharmacology & therapeutics 2021;53(1):79-86
+PMID: 33210299
+DOI: 10.1111/apt.16166
+
+ABSTRACT
+Fatigue is a burdensome symptom for patients with inflammatory bowel disease (IBD). Few pharmacological interventions have documented effect on fatigue in patients with IBD. A pilot study indicated a 20-day effect with high-dose thiamine.

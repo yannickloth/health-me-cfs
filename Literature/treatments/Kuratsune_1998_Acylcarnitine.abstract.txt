@@ -1,0 +1,8 @@
+Title: Low levels of serum acylcarnitine in chronic fatigue syndrome and chronic hepatitis type C, but not seen in other diseases.
+Authors: Kuratsune H, Yamaguti K, Lindh G, Evengard B, Takahashi M, Machii T, Matsumura K, Takaishi J, Kawata S, Långström B, Kanakura Y, Kitani T, Watanabe Y
+Journal: International journal of molecular medicine 1998;2(1):51-6
+PMID: 9854142
+DOI: 10.3892/ijmm.2.1.51
+
+ABSTRACT
+Recently, we found a serum acylcarnitine (ACR) deficiency in Japanese patients with chronic fatigue syndrome (CFS). To clarify whether this ACR abnormality is a characteristic of CFS or not, we also studied the levels of serum carnitine in Swedish subjects. Both serum ACR and free carnitine (FCR) levels in normal healthy subjects were quite different between Japanese (n=131) and Swedish people (n=46) (p<0.001). However, it is confirmed that Swedish patients with CFS (n=57) also had serum ACR deficiency (p<0.001). When we studied the levels of serum ACR and FCR in Japanese patients with various kinds of diseases (CFS, hematological malignancies, chronic pancreatitis, hypertension, diabetes mellitus, chronic hepatitis type C, psychiatric diseases), a significant decrease in the levels of serum ACR was only found in patients with CFS and chronic hepatitis type C (p<0.001). Therefore, we concluded that ACR deficiency in serum might be a characteristic abnormality in only certain types of diseases.

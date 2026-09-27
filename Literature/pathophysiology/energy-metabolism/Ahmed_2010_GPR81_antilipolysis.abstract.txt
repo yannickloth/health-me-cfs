@@ -1,0 +1,8 @@
+Title: An autocrine lactate loop mediates insulin-dependent inhibition of lipolysis through GPR81.
+Authors: Ahmed Kashan, Tunaru Sorin, Tang Cong, Müller Michaela, Gille Andreas, Sassmann Antonia, Hanson Julien, Offermanns Stefan
+Journal: Cell metabolism 2010;11(4):311-9
+PMID: 20374963
+DOI: 10.1016/j.cmet.2010.02.012
+
+ABSTRACT
+Lactate is an important metabolic intermediate released by skeletal muscle and other organs including the adipose tissue, which converts glucose into lactate under the influence of insulin. Here we show that lactate activates the G protein-coupled receptor GPR81, which is expressed in adipocytes and mediates antilipolytic effects through G(i)-dependent inhibition of adenylyl cyclase. Using GPR81-deficient mice, we demonstrate that the receptor is not involved in the regulation of lipolysis during intensive exercise. However, insulin-induced inhibition of lipolysis and insulin-induced decrease in adipocyte cAMP levels were strongly reduced in mice lacking GPR81, although insulin-dependent release of lactate by adipocytes was comparable between wild-type and GPR81-deficient mice. Thus, lactate and its receptor GPR81 unexpectedly function in an autocrine and paracrine loop to mediate insulin-induced antilipolytic effects. These data show that lactate can directly modulate metabolic processes in a hormone-like manner, and they reveal a new mechanism underlying the antilipolytic effects of insulin.

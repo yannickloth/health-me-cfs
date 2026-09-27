@@ -1,0 +1,8 @@
+Title: Exercise induces cerebral VEGF and angiogenesis via the lactate receptor HCAR1.
+Authors: Morland Cecilie, Andersson Krister A, Haugen Øyvind P, Hadzic Alena, Kleppa Liv, Gille Andreas, Rinholm Johanne E, Palibrk Vuk, Diget Elisabeth H, Kennedy Lauritz H, Stølen Tomas, Hennestad Eivind, Moldestad Olve, Cai Yiqing, Puchades Maja, Offermanns Stefan, Vervaeke Koen, Bjørås Magnar, Wisløff Ulrik, Storm-Mathisen Jon, Bergersen Linda H
+Journal: Nature communications 2017;8():15557
+PMID: 28534495
+DOI: 10.1038/ncomms15557
+
+ABSTRACT
+Physical exercise can improve brain function and delay neurodegeneration; however, the initial signal from muscle to brain is unknown. Here we show that the lactate receptor (HCAR1) is highly enriched in pial fibroblast-like cells that line the vessels supplying blood to the brain, and in pericyte-like cells along intracerebral microvessels. Activation of HCAR1 enhances cerebral vascular endothelial growth factor A (VEGFA) and cerebral angiogenesis. High-intensity interval exercise (5 days weekly for 7 weeks), as well as L-lactate subcutaneous injection that leads to an increase in blood lactate levels similar to exercise, increases brain VEGFA protein and capillary density in wild-type mice, but not in knockout mice lacking HCAR1. In contrast, skeletal muscle shows no vascular HCAR1 expression and no HCAR1-dependent change in vascularization induced by exercise or lactate. Thus, we demonstrate that a substance released by exercising skeletal muscle induces supportive effects in brain through an identified receptor.

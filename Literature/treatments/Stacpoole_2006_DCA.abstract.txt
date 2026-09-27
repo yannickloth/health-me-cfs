@@ -1,0 +1,8 @@
+Title: Controlled clinical trial of dichloroacetate for treatment of congenital lactic acidosis in children.
+Authors: Stacpoole Peter W, Kerr Douglas S, Barnes Carie, Bunch S Terri, Carney Paul R, Fennell Eileen M, Felitsyn Natalia M, Gilmore Robin L, Greer Melvin, Henderson George N, Hutson Alan D, Neiberger Richard E, O'Brien Ralph G, Perkins Leigh Ann, Quisling Ronald G, Shroads Albert L, Shuster Jonathan J, Silverstein Janet H, Theriaque Douglas W, Valenstein Edward
+Journal: Pediatrics 2006;117(5):1519-31
+PMID: 16651305
+DOI: 10.1542/peds.2005-1226
+
+ABSTRACT
+Open-label studies indicate that oral dichloroacetate (DCA) may be effective in treating patients with congenital lactic acidosis. We tested this hypothesis by conducting the first double-blind, randomized, control trial of DCA in this disease.

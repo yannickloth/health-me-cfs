@@ -1,0 +1,8 @@
+Title: Lactate Buildup at the Site of Chronic Inflammation Promotes Disease by Inducing CD4+ T Cell Metabolic Rewiring.
+Authors: Pucino Valentina, Certo Michelangelo, Bulusu Vinay, Cucchi Danilo, Goldmann Katriona, Pontarini Elena, Haas Robert, Smith Joanne, Headland Sarah E, Blighe Kevin, Ruscica Massimiliano, Humby Frances, Lewis Myles J, Kamphorst Jurre J, Bombardieri Michele, Pitzalis Costantino, Mauro Claudio
+Journal: Cell metabolism 2019;30(6):1055-1074.e8
+PMID: 31708446
+DOI: 10.1016/j.cmet.2019.10.004
+
+ABSTRACT
+Accumulation of lactate in the tissue microenvironment is a feature of both inflammatory disease and cancer. Here, we assess the response of immune cells to lactate in the context of chronic inflammation. We report that lactate accumulation in the inflamed tissue contributes to the upregulation of the lactate transporter SLC5A12 by human CD4+ T cells. SLC5A12-mediated lactate uptake into CD4+ T cells induces a reshaping of their effector phenotype, resulting in increased IL17 production via nuclear PKM2/STAT3 and enhanced fatty acid synthesis. It also leads to CD4+ T cell retention in the inflamed tissue as a consequence of reduced glycolysis and enhanced fatty acid synthesis. Furthermore, antibody-mediated blockade of SLC5A12 ameliorates the disease severity in a murine model of arthritis. Finally, we propose that lactate/SLC5A12-induced metabolic reprogramming is a distinctive feature of lymphoid synovitis in rheumatoid arthritis patients and a potential therapeutic target in chronic inflammatory disorders.

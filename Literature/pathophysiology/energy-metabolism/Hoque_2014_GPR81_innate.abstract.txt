@@ -1,0 +1,8 @@
+Title: Lactate reduces liver and pancreatic injury in Toll-like receptor- and inflammasome-mediated inflammation via GPR81-mediated suppression of innate immunity.
+Authors: Hoque Rafaz, Farooq Ahmad, Ghani Ayaz, Gorelick Fred, Mehal Wajahat Zafar
+Journal: Gastroenterology 2014;146(7):1763-74
+PMID: 24657625
+DOI: 10.1053/j.gastro.2014.03.014
+
+ABSTRACT
+The NACHT, LRR, and pyrin domain-containing protein 3 (NLRP3) inflammasome induces inflammation in response to organ injury, but little is known about its regulation. Toll-like receptors (TLRs) provide the first signal required for activation of the inflammasome and stimulate aerobic glycolysis to generate lactate. We examined whether lactate and the lactate receptor, Gi-protein-coupled receptor 81 (GPR81), regulate TLR induction of signal 1 and limit inflammasome activation and organ injury.

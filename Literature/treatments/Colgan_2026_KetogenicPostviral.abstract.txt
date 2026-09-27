@@ -1,0 +1,8 @@
+Title: Telehealth-Based Ketogenic Metabolic Therapy With Lifestyle Interventions for Post-viral Illness: A Research Brief of Patients' Experiences.
+Authors: Colgan Dana Dharmakaya, Stadler Diane D, Grow Tabitha, Ruddick Mary, Weimbs Thomas, Davenport Todd E, Zwickey Heather
+Journal: Journal of patient experience 2026;13():23743735261459218
+PMID: 42416120
+DOI: 10.1177/23743735261459218
+
+ABSTRACT
+Infection-associated chronic illnesses are associated with substantial functional impairment that limits participation in traditional in-person research. A fully remote, multicomponent intervention that combines ketogenic metabolic therapy (KMT) with behavioral interventions targets several proposed biological mechanisms underlying these conditions. This study aimed to characterize patient-reported experiences with a fully remote intervention that integrated KMT and thiamine supplementation with behavioral strategies, including circadian entrainment and mindfulness-based resilience coaching.
