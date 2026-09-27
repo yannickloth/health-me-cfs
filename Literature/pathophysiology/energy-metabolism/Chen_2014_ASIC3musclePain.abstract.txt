@@ -1,0 +1,8 @@
+Title: Roles of ASIC3, TRPV1, and NaV1.8 in the transition from acute to chronic pain in a mouse model of fibromyalgia.
+Authors: Chen Wei-Nan, Lee Cheng-Han, Lin Shing-Hong, Wong Chia-Wen, Sun Wei-Hsin, Wood John N, Chen Chih-Cheng
+Journal: Molecular pain 2014;10:40
+PMID: 24957987
+DOI: 10.1186/1744-8069-10-40
+
+ABSTRACT
+Tissue acidosis is effective in causing chronic muscle pain. However, how muscle nociceptors contribute to the transition from acute to chronic pain is largely unknown. Here we showed that a single intramuscular acid injection induced a priming effect on muscle nociceptors of mice. The primed muscle nociceptors were plastic and permitted the development of long-lasting chronic hyperalgesia induced by a second acid insult. The plastic changes of muscle nociceptors were modality-specific and required the activation of acid-sensing ion channel 3 (ASIC3) or transient receptor potential cation channel V1 (TRPV1). Activation of ASIC3 was associated with increased activity of tetrodotoxin (TTX)-sensitive voltage-gated sodium channels but not protein kinase Cϵ (PKCϵ) in isolectin B4 (IB4)-negative muscle nociceptors. In contrast, increased activity of TTX-resistant voltage-gated sodium channels with ASIC3 or TRPV1 activation in NaV1.8-positive muscle nociceptors was required for the development of chronic hyperalgesia. Accordingly, compared to wild type mice, NaV1.8-null mice showed briefer acid-induced hyperalgesia (5 days vs. >27 days). ASIC3 activation may manifest a new type of nociceptor priming in IB4-negative muscle nociceptors. The activation of ASIC3 and TRPV1 as well as enhanced NaV1.8 activity are essential for the development of long-lasting hyperalgesia in acid-induced, chronic, widespread muscle pain.

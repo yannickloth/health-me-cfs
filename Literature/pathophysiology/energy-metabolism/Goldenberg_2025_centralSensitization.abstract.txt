@@ -1,0 +1,8 @@
+Title: The pivotal role of central sensitization in long COVID, fibromyalgia and myalgic encephalomyelitis/chronic fatigue syndrome.
+Authors: Goldenberg Don L
+Journal: Expert review of neurotherapeutics 2025;25(8):973-989
+PMID: 40512228
+DOI: 10.1080/14737175.2025.2516097
+
+ABSTRACT
+Long COVID is a condition characterized by persistent unexplained symptoms following COVID-19 infection. These symptoms are not related to another disease or organ damage and are similar to those in fibromyalgia and myslgic encephalomyelitis/chronic fatigue syndrome (ME/CFS). The similar clinical and pathophysiological features and management of long COVID, fibromyalgia and ME/CFS are explored from the unifying framework of central sensitivity syndromes. The article is based on a literature search utilizing PubMed for content published between 2021 and 1 May 2025, using search terms: long COVID, long COVID syndrome, post-COVID-19, post-acute SARS-CoV-2, fibromyalgia, ME/CFS, post-exertional malaise and central sensitization. Once long COVID is redefined to exclude patients with well-defined organ disease, it fits best as a model of central sensitization. Long COVID is a single syndrome, rather than many distinct diseases. Optimal management of long COVID and similar central sensitivity syndromes should include personalized care with a primary care led-multidisciplinary team.

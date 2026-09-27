@@ -1,0 +1,8 @@
+Title: Amiloride-blockable acid-sensing ion channels are leading acid sensors expressed in human nociceptors.
+Authors: Ugawa Shinya, Ueda Takashi, Ishida Yusuke, Nishigaki Makoto, Shibata Yasuhiro, Shimada Shoichi
+Journal: The Journal of clinical investigation 2002;110(8):1185-90
+PMID: 12393854
+DOI: 10.1172/JCI15709
+
+ABSTRACT
+Many painful inflammatory and ischemic conditions such as rheumatoid arthritis, cardiac ischemia, and exhausted skeletal muscles are accompanied by local tissue acidosis. In such acidotic states, extracellular protons provoke the pain by opening cation channels in nociceptors. It is generally believed that a vanilloid receptor subtype-1 (VR1) and an acid-sensing ion channel (ASIC) mediate the greater part of acid-induced nociception in mammals. Here we provide evidence for the involvement of both channels in acid-evoked pain in humans and show their relative contributions to the nociception. In our psychophysical experiments, direct infusion of acidic solutions (pH > or = 6.0) into human skin caused localized pain, which was blocked by amiloride, an inhibitor of ASICs, but not by capsazepine, an inhibitor of VR1. Under more severe acidification (pH 5.0) amiloride was less effective in reducing acid-evoked pain. In addition, capsazepine had a partial blocking effect under these conditions. Amiloride itself neither blocked capsaicin-evoked localized pain in human skin nor inhibited proton-induced currents in VR1-expressing Xenopus oocytes. Our results suggest that ASICs are leading acid sensors in human nociceptors and that VR1 participates in the nociception mainly under extremely acidic conditions.

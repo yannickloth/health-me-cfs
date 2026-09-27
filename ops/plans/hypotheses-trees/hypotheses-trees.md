@@ -388,4 +388,5 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | eckey2025-mechanism-reanalysis | [subtrees/eckey2025-mechanism-reanalysis.md](subtrees/eckey2025-mechanism-reanalysis.md) | 2026-09-10 | 20 | 0 | ✅ done |
 | common-fatigue-biology | [subtrees/common-fatigue-biology.md](subtrees/common-fatigue-biology.md) | 2026-09-13 | 13 | 3 | 🔵 in progress |
 | kay2025-stimulant-arousal-reward | [subtrees/kay2025-stimulant-arousal-reward.md](subtrees/kay2025-stimulant-arousal-reward.md) | 2026-09-13 | 58 | 10 | 🔵 in progress |
-| lactate-gpr81-signaling | [subtrees/lactate-gpr81-signaling.md](subtrees/lactate-gpr81-signaling.md) | 2026-09-27 | 26 | 0 | 🔵 in progress |
+| lactate-gpr81-signaling | [subtrees/lactate-gpr81-signaling.md](subtrees/lactate-gpr81-signaling.md) | 2026-09-27 | 26 | 0 | ✅ done |
+| exertional-muscle-soreness | [subtrees/exertional-muscle-soreness.md](subtrees/exertional-muscle-soreness.md) | 2026-09-27 | 27 | 0 | 🔵 in progress |

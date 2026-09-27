@@ -1,0 +1,8 @@
+Title: Effect of sports massage on performance and recovery: a systematic review and meta-analysis.
+Authors: Davis Holly Louisa, Alabed Samer, Chico Timothy James Ainsley
+Journal: BMJ open sport & exercise medicine 2020;6(1):e000614
+PMID: 32426160
+DOI: 10.1136/bmjsem-2019-000614
+
+ABSTRACT
+Massage is ubiquitous in elite sport and increasingly common at amateur level but the evidence base for this intervention has not been reviewed systematically. We therefore performed a systematic review and meta-analysis examining the effect of massage on measures of sporting performance and recovery. We searched PubMed, MEDLINE and Cochrane to identify randomised studies that tested the effect of manual massage on measures of sporting performance and/or recovery. We performed separate meta-analyses on the endpoints of; strength, jump, sprint, endurance, flexibility, fatigue and delayed onset muscle soreness (DOMS). We identified 29 eligible studies recruiting 1012 participants, representing the largest examination of the effects of massage. We found no evidence that massage improves measures of strength, jump, sprint, endurance or fatigue, but massage was associated with small but statistically significant improvements in flexibility and DOMS. Although our study finds no evidence that sports massage improves performance directly, it may somewhat improve flexibility and DOMS. Our findings help guide the coach and athlete about the benefits of massage and inform decisions about incorporating this into training and competition.

@@ -1,0 +1,8 @@
+Title: Dietary Supplementation for Attenuating Exercise-Induced Muscle Damage and Delayed-Onset Muscle Soreness in Humans.
+Authors: Tanabe Yoko, Fujii Naoto, Suzuki Katsuhiko
+Journal: Nutrients 2021;14(1)
+PMID: 35010943
+DOI: 10.3390/nu14010070
+
+ABSTRACT
+Dietary supplements are widely used as a nutritional strategy to improve and maintain performance and achieve faster recovery in sports and exercise. Exercise-induced muscle damage (EIMD) is caused by mechanical stress and subsequent inflammatory responses including reactive oxygen species and cytokine production. Therefore, dietary supplements with anti-inflammatory and antioxidant properties have the potential to prevent and reduce muscle damage and symptoms characterized by loss of muscle strength and delayed-onset muscle soreness (DOMS). However, only a few supplements are considered to be effective at present. This review focuses on the effects of dietary supplements derived from phytochemicals and listed in the International Olympic Committee consensus statement on muscle damage evaluated by blood myofiber damage markers, muscle soreness, performance, and inflammatory and oxidative stress markers. In this review, the effects of dietary supplements are also discussed in terms of study design (i.e., parallel and crossover studies), exercise model, and such subject characteristics as physical fitness level. Future perspectives and considerations for the use of dietary supplements to alleviate EIMD and DOMS are also discussed.
