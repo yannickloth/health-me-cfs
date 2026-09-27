@@ -12283,5 +12283,35 @@
     "label": "Medium-chain triglycerides (MCT)",
     "category": "supplement",
     "definition": "Fats with 6-12 carbon chains that are absorbed directly and converted to ketones by the liver, providing an alternative fuel that bypasses glucose metabolism and its lactate output."
+  },
+  "DOMS": {
+    "label": "DOMS",
+    "category": "condition",
+    "definition": "Delayed-onset muscle soreness: muscle pain and stiffness peaking 24-72 hours after unaccustomed exercise, caused by mechanical micro-damage and inflammation — not by lactic acid."
+  },
+  "ASIC3": {
+    "label": "ASIC3",
+    "category": "receptor",
+    "definition": "Acid-Sensing Ion Channel 3: a proton-activated ion channel on muscle and pain-sensing neurons; it fires in response to local acidosis (H+), a candidate driver of exertional muscle soreness."
+  },
+  "acidosis": {
+    "label": "Acidosis",
+    "category": "physiology",
+    "definition": "An excess of acid (protons, H+) in tissue or blood. Intramuscular acidosis — not lactate — is the plausible nociceptor stimulus in exertional muscle soreness."
+  },
+  "nociceptor": {
+    "label": "Nociceptor",
+    "category": "physiology",
+    "definition": "A sensory neuron that detects painful or potentially damaging stimuli (heat, acid, pressure) and sends pain signals to the central nervous system."
+  },
+  "creatine kinase": {
+    "label": "Creatine kinase (CK)",
+    "category": "measurement",
+    "definition": "An enzyme released from damaged muscle into the blood; measured as a marker of mechanical muscle injury (as in healthy DOMS), not of metabolic soreness."
+  },
+  "myoglobin": {
+    "label": "Myoglobin",
+    "category": "measurement",
+    "definition": "An oxygen-binding muscle protein released into blood after muscle damage; a marker of mechanical muscle injury."
   }
 }

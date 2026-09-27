@@ -14057,5 +14057,35 @@
     "label": "Triglycerides a chaine moyenne (MCT)",
     "category": "supplement",
     "definition": "Graisses a chaines de 6 a 12 carbones, absorbees directement et converties en cetones par le foie ; fournissent un carburant alternatif qui contourne le glucose et sa production de lactate."
+  },
+  "DOMS": {
+    "label": "DOMS",
+    "category": "condition",
+    "definition": "Courbatures d'apparition retardee : douleur et raideur musculaires maximales 24 a 72 heures apres un effort inhabituel, dues a des microlésions mecaniques et a l'inflammation — non a l'acide lactique."
+  },
+  "ASIC3": {
+    "label": "ASIC3",
+    "category": "receptor",
+    "definition": "Canal ionique sensible aux acides 3 : canal active par les protons sur les muscles et les neurones nociceptifs ; il repond a l'acidose locale (H+), un facteur possible des courbatures d'effort."
+  },
+  "acidosis": {
+    "label": "Acidose",
+    "category": "physiology",
+    "definition": "Exces d'acide (protons, H+) dans un tissu ou le sang. L'acidose intramusculaire — et non le lactate — est le stimulus nociceptif plausible des courbatures d'effort."
+  },
+  "nociceptor": {
+    "label": "Nocicepteur",
+    "category": "physiology",
+    "definition": "Neurone sensoriel qui detecte les stimuli douloureux ou potentiellement lesionnels (chaleur, acide, pression) et transmet les signaux de douleur au systeme nerveux central."
+  },
+  "creatine kinase": {
+    "label": "Creatine kinase (CK)",
+    "category": "measurement",
+    "definition": "Enzyme liberee par le muscle lesionne dans le sang ; marqueur de lesion musculaire mecanique (comme dans le DOMS), et non de courbatures metaboliques."
+  },
+  "myoglobin": {
+    "label": "Myoglobine",
+    "category": "measurement",
+    "definition": "Proteine musculaire liant l'oxygene, liberee dans le sang apres une lesion musculaire ; marqueur de lesion musculaire mecanique."
   }
 }

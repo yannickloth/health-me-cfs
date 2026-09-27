@@ -13822,5 +13822,35 @@
     "label": "Mittelkettige Triglyceride (MCT)",
     "category": "supplement",
     "definition": "Fette mit 6-12 Kohlenstoffketten, die direkt aufgenommen und von der Leber in Ketone umgewandelt werden; liefern einen alternativen Brennstoff, der Glukose und deren Laktatproduktion umgeht."
+  },
+  "DOMS": {
+    "label": "DOMS",
+    "category": "condition",
+    "definition": "Verzogerter Muskelkater: Muskelschmerz und Steifheit mit Maximum 24-72 Stunden nach ungewohnter Belastung, verursacht durch mechanische Mikroschaden und Entzundung — nicht durch Milchsaure."
+  },
+  "ASIC3": {
+    "label": "ASIC3",
+    "category": "receptor",
+    "definition": "Saureempfindlicher Ionenkanal 3: protonenaktivierter Kanal an Muskeln und Schmerzneuronen; reagiert auf lokale Azidose (H+), ein moglicher Ausloser von Belastungsmuskelschmerz."
+  },
+  "acidosis": {
+    "label": "Azidose",
+    "category": "physiology",
+    "definition": "Uberschuss an Saure (Protonen, H+) in Gewebe oder Blut. Intramuskulare Azidose — nicht Laktat — ist der plausible nozizeptive Reiz bei Belastungsmuskelschmerz."
+  },
+  "nociceptor": {
+    "label": "Nozizeptor",
+    "category": "physiology",
+    "definition": "Sinnesneuron, das schmerzhafte oder potenziell schadigende Reize (Hitze, Saure, Druck) erkennt und Schmerzsignale an das Zentralnervensystem sendet."
+  },
+  "creatine kinase": {
+    "label": "Kreatinkinase (CK)",
+    "category": "measurement",
+    "definition": "Enzym, das aus geschadigtem Muskel ins Blut freigesetzt wird; Marker mechanischer Muskelverletzung (wie bei DOMS), nicht metabolischen Muskelkaters."
+  },
+  "myoglobin": {
+    "label": "Myoglobin",
+    "category": "measurement",
+    "definition": "Sauerstoffbindendes Muskelprotein, das nach Muskelverletzung ins Blut freigesetzt wird; Marker mechanischer Muskelverletzung."
   }
 }

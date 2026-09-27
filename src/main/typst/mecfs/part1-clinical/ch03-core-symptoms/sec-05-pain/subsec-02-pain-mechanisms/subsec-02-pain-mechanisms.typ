@@ -19,7 +19,7 @@ Small fiber neuropathy provides an objective, biopsy-confirmed mechanism for pai
 *Peripheral Mechanisms.*
 Peripheral contributors to ME/CFS pain include:
 
-    - *Elevated blood lactate*: Nearly half of ME/CFS patients have elevated resting lactate levels, correlating with more severe post-exertional malaise @Lien2019lactate. Lactate accumulation reflects anaerobic metabolism predominance due to mitochondrial dysfunction.
+    - *Elevated blood lactate (marker, not driver)*: Nearly half of ME/CFS patients have elevated resting lactate levels, correlating with more severe post-exertional malaise @Lien2019lactate. Lactate is best read as a marker of anaerobic-metabolism predominance due to mitochondrial dysfunction, not as the pain stimulus — it is cleared within about an hour and cannot explain delayed soreness; the accompanying protons (H⁺, below) are the plausible nociceptor signal (@subsec:myalgia).
     - *Metabolic dysfunction*: Impaired ATP synthesis leads to toxic metabolite accumulation that activates muscle nociceptors @Jammes2021muscle.
     - *Impaired proton handling*: Profound intramuscular acidosis develops following minimal exertion.
     - *Reduced oxygen delivery*: Endothelial dysfunction and microvascular abnormalities may limit oxygen supply to exercising muscles.

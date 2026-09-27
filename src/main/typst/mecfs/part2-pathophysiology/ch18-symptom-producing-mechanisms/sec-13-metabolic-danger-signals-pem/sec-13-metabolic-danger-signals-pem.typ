@@ -3,7 +3,7 @@
 == Metabolic Danger Signals and the Post-Exertional Malaise Mechanism
 <sec:ch15-metabolic-danger>
 
-Post-exertional malaise (PEM) — the hallmark ME/CFS symptom — represents a pathological response to exertion that is mechanistically distinct from normal fatigue. This section proposes that PEM arises from metabolic danger signal activation: lactate and succinate accumulation triggers acid-sensing ion channels (ASICs) and activates NLRP3 inflammasome priming, converting the physiological response to exercise into a sustained inflammatory cascade. This explains PEM's delayed onset (2–48h), disproportionate severity, and multi-system manifestation.
+Post-exertional malaise (PEM) — the hallmark ME/CFS symptom — represents a pathological response to exertion that is mechanistically distinct from normal fatigue. This section proposes that PEM arises from metabolic danger signal activation: exertion-induced acidosis (H⁺, with lactate as a co-marker rather than the ASIC stimulus) and succinate accumulation trigger acid-sensing ion channels (ASICs) and prime the NLRP3 inflammasome, converting the physiological response to exercise into a sustained inflammatory cascade. This explains PEM's delayed onset (2–48h), disproportionate severity, and multi-system manifestation.
 
 === The Lactate Paradox: GPR81 and Anti-Inflammatory Brake Failure
 
@@ -17,7 +17,7 @@ Succinate, a tricarboxylic acid cycle intermediate, accumulates in metabolically
 
 === Acid-Sensing Ion Channels and Post-Exertional Pain
 
-Acid-sensing ion channels (ASICs), particularly ASIC3, detect local acidosis from lactate accumulation and H#super[+] generation during exercise. Post-exercise leukocyte gene expression studies in ME/CFS demonstrate significantly greater increases in ASIC3, P2X4 and P2X5 mRNA compared to controls, persisting for 48h and correlating with fatigue and pain severity @Nijs2012painCFS. ASIC3 activation contributes both to pain perception and to TLR4-mediated NF-$kappa$B/cytokine amplification, providing a mechanistic link between exercise-induced acidosis and the sustained immune activation of PEM.
+Acid-sensing ion channels (ASICs), particularly ASIC3, detect local acidosis — the proton (H#super[+]) load that accompanies intense glycolysis, with lactate as a co-marker rather than the stimulus (@subsec:myalgia) — during exercise. Post-exercise leukocyte gene expression studies in ME/CFS demonstrate significantly greater increases in ASIC3, P2X4 and P2X5 mRNA compared to controls, persisting for 48h and correlating with fatigue and pain severity @Nijs2012painCFS. ASIC3 activation contributes both to pain perception and to TLR4-mediated NF-$kappa$B/cytokine amplification, providing a mechanistic link between exercise-induced acidosis and the sustained immune activation of PEM.
 
 === Temporal Pattern of PEM: Onset Delay and Recovery Time
 

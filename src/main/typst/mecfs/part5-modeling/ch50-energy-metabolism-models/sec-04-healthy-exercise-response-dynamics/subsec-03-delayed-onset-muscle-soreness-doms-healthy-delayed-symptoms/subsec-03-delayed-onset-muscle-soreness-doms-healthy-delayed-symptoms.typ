@@ -19,5 +19,7 @@ Three features distinguish DOMS from PEM:
 + *Self-limiting, no positive feedback*: The DOMS inflammatory cascade follows a programmed rise-and-fall (@eq:doms-inflammation) without the ROS $->$ ETC damage $->$ more ROS positive feedback loop that sustains PEM. The repair machinery has full access to ATP and $"NAD"^"+"$.
 + *Repeated bout effect*: Subsequent identical exertion produces progressively less DOMS @Clarkson2002DOMS, indicating successful adaptation. In ME/CFS, repeated exertion produces equal or _worse_ responses (the energy ratchet, @sec:ratchet-model).
 
+*See also:* the clinical description of myalgia and the DOMS-versus-ME/CFS distinction, including the correction that soreness is not caused by lactic acid (@subsec:myalgia).
+
 #include "limitations/doms-model-scope.typ"
 

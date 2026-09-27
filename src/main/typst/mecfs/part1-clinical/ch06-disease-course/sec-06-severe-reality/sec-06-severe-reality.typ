@@ -231,7 +231,7 @@ Even if I only lie in bed, alone with my thoughts, I must be careful, because ev
 
 Severe ME/CFS involves “severe and often almost constant, widespread pain” @Montoya2021severe. This pain has multiple components:
 
-    - *Muscle pain*: Widespread myalgia from metabolic dysfunction and lactic acid accumulation
+    - *Muscle pain*: Widespread myalgia from metabolic dysfunction — intramuscular acidosis and impaired perfusion, rather than lactic acid (see @subsec:myalgia)
     - *Joint pain*: Diffuse arthralgia affecting major and minor joints
     - *Nerve pain*: Burning, shooting, or electrical sensations from small fiber neuropathy
     - *Headache*: Persistent headaches, often migrainous in character
