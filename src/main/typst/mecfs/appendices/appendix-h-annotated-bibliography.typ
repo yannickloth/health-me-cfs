@@ -40800,3 +40800,174 @@ This stream assembles evidence for the claim that pathological fatigue across au
     *Conclusion:* Early, low-certainty human signal for the "ketone/MCT substrate-shift to lower glycolytic-lactate burden" intervention family in a post-viral population.
     *Limitations:* Pilot/protocol; low-tier journal; patient-experience outcomes only; no control.
     *Certainty Assessment:* 0.35 raw × 0.85 (post-viral illness) = *discounted 0.30*
+
+== Exertional Muscle Soreness / Myalgia in ME/CFS: Mechanism vs DOMS and Management <sec:bib-exertional-muscle-soreness>
+
+=== Armstrong 1984 — Mechanisms of Exercise-Induced Delayed Onset Muscular Soreness
+
+    *Full Citation:*: Armstrong RB. Mechanisms of exercise-induced delayed onset muscular soreness: a brief review. _Medicine and Science in Sports and Exercise_. 1984;16(6):529–538. @Armstrong1984DOMS
+    *PMID:*: 6392811
+    *Study Design:*: Narrative review of DOMS mechanisms (healthy population)
+    *Key Findings:*:
+        - DOMS peaks 24–72 h after unaccustomed (especially eccentric) exercise and reflects ultrastructural muscle damage plus a subsequent inflammatory response.
+        - Lactic acid is cleared within ~1 h of exercise and cannot account for the delayed pain — the explicit correction of the lactate-myth.
+    *Conclusion:* Supplies the healthy-person DOMS physiology that is the false comparator patients and clinicians invoke when framing ME/CFS post-exertional muscle pain.
+    *Limitations:* 1984 narrative review; no ME/CFS data.
+    *Certainty Assessment:* 0.55 raw × 0.75 (general population) = *discounted 0.41*
+
+=== Cheung et al.\ 2003 — DOMS: Treatment Strategies and Performance Factors
+
+    *Full Citation:*: Cheung K, Hume P, Maxwell L. Delayed onset muscle soreness: treatment strategies and performance factors. _Sports Medicine_. 2003;33(2):145–164. @Cheung2003DOMStreatment
+    *DOI:*: #link("https://doi.org/10.2165/00007256-200333020-00005")[10.2165/00007256-200333020-00005]
+    *PMID:*: 12617692
+    *Study Design:*: Seminal review of DOMS mechanism and treatment (healthy/athletic population)
+    *Key Findings:*:
+        - DOMS arises from mechanical microtrauma and an inflammatory cascade following unaccustomed eccentric load, not lactate accumulation.
+        - Treatment options (NSAIDs, massage, cryotherapy, stretching, compression) confer only modest/equivocal benefit.
+    *Conclusion:* The canonical DOMS mechanism + treatment reference; the false comparator for ME/CFS post-exertional muscle pain.
+    *Limitations:* General-athletic population; 2003.
+    *Certainty Assessment:* 0.60 raw × 0.75 (general population) = *discounted 0.45*
+
+=== Hotfiel et al.\ 2018 — Advances in DOMS Part I: Pathogenesis and Diagnostics
+
+    *Full Citation:*: Hotfiel T, Freiwald J, Hoppe MW, Lutter C, Forst R, Grim C, Bloch W, Hüttel M, Heiss R. Advances in Delayed-Onset Muscle Soreness (DOMS): Part I: Pathogenesis and Diagnostics. _Sportverletzung Sportschaden_. 2018;32(4):243–250. @Hotfiel2018DOMSpathogenesis
+    *DOI:*: #link("https://doi.org/10.1055/a-0753-1884")[10.1055/a-0753-1884]
+    *PMID:*: 30537791
+    *Study Design:*: Modern consensus review of DOMS pathogenesis and diagnostics
+    *Key Findings:*:
+        - DOMS is ultrastructural (sarcomere/cytoskeletal) muscle injury from eccentric/unfamiliar load followed by local inflammation.
+        - Explicitly decouples soreness from lactate and metabolic acidosis.
+    *Conclusion:* The current healthy-person mechanistic baseline against which ME/CFS post-exertional muscle pain must be compared.
+    *Limitations:* Athletic/healthy focus; no ME/CFS.
+    *Certainty Assessment:* 0.60 raw × 0.75 (general population) = *discounted 0.45*
+
+=== Miles & Clarkson 1994 — Exercise-Induced Muscle Pain, Soreness, and Cramps
+
+    *Full Citation:*: Miles MP, Clarkson PM. Exercise-induced muscle pain, soreness, and cramps. _Journal of Sports Medicine and Physical Fitness_. 1994;34(3):203–216. @Miles1994musclePain
+    *PMID:*: 7830383
+    *Study Design:*: Classic taxonomy review of exercise-related muscle pain (general population)
+    *Key Findings:*:
+        - Three entities with distinct etiologies/time courses: (1) pain during/immediately after exercise, (2) DOMS, (3) cramp.
+        - Separates acute (metabolite/acid-related) from delayed (structural/inflammatory) pain, correcting the lactate misattribution.
+    *Conclusion:* Scaffold for asking whether ME/CFS post-exertional myalgia is acute-type, DOMS-type, or a distinct third entity.
+    *Limitations:* General population; 1994; no ME/CFS.
+    *Certainty Assessment:* 0.55 raw × 0.75 (general population) = *discounted 0.41*
+
+=== Ugawa et al.\ 2002 — ASICs Are Leading Acid Sensors in Human Nociceptors
+
+    *Full Citation:*: Ugawa S, Ueda T, Ishida Y, Nishigaki M, Shibata Y, Shimada S. Amiloride-blockable acid-sensing ion channels are leading acid sensors expressed in human nociceptors. _Journal of Clinical Investigation_. 2002;110(8):1185–1190. @Ugawa2002ASICnociceptor
+    *DOI:*: #link("https://doi.org/10.1172/JCI15709")[10.1172/JCI15709]
+    *PMID:*: 12393854
+    *Study Design:*: Human dorsal-root-ganglion nociceptor electrophysiology (in vitro)
+    *Key Findings:*:
+        - ASICs are the dominant proton (H+) sensors on human primary afferent nociceptors, gated directly by tissue acidosis.
+    *Conclusion:* Molecular basis for the proton/acidosis-to-nociceptor arm of exertional muscle pain — the H+ signal ME/CFS muscle hypoperfusion/ischemia would generate, independent of lactate.
+    *Limitations:* In vitro human DRG; no behavioral/case data.
+    *Certainty Assessment:* 0.60 raw × 0.40 (in vitro human) = *discounted 0.24*
+
+=== Chen et al.\ 2014 — ASIC3, TRPV1, and NaV1.8 in Acute-to-Chronic Muscle Pain
+
+    *Full Citation:*: Chen WN, Lee CH, Lin SH, Wong CW, Sun WH, Wood JN, Chen CC. Roles of ASIC3, TRPV1, and NaV1.8 in the transition from acute to chronic pain in a mouse model of fibromyalgia. _Molecular Pain_. 2014;10:40. @Chen2014ASIC3musclePain
+    *DOI:*: #link("https://doi.org/10.1186/1744-8069-10-40")[10.1186/1744-8069-10-40]
+    *PMID:*: 24957987
+    *Study Design:*: Mouse model of intramuscular acid-induced muscle hyperalgesia
+    *Key Findings:*:
+        - A single intramuscular acid injection primes muscle nociceptors; a second acid challenge converts acute into long-lasting chronic hyperalgesia, gated by ASIC3, TRPV1, and NaV1.8.
+    *Conclusion:* Demonstrates how repeated muscle acidosis — the candidate ME/CFS exertional signal — transitions into chronic myalgia, bridging the Light2009 ASIC3/P2X finding in CFS.
+    *Limitations:* Animal model; acid injection not physiological exercise.
+    *Certainty Assessment:* 0.55 raw × 0.50 (animal) = *discounted 0.28*
+
+=== Lee & Chen 2023 — Myalgia! Where Does It Come From?
+
+    *Full Citation:*: Lee HH, Chen CC. Myalgia! Where does it come from? _Acta Neurologica Taiwanica_. 2023;32(4):230–239. @Lee2023MyalgiaOrigin
+    *PMID:*: 37967833
+    *Study Design:*: Review of myalgia origin and mechanisms (general/fibromyalgia)
+    *Key Findings:*:
+        - Myalgia (lifetime prevalence ~60–85%) is framed through muscle nociceptor sensitization, acid-sensing (ASIC3/TRPV1) signaling, and peripheral-vs-central contributions.
+    *Conclusion:* Mechanistically grounded "where does myalgia come from" scaffold for the ME/CFS muscle-pain-dominant phenotype.
+    *Limitations:* General review; no dedicated ME/CFS cohort; no DOI.
+    *Certainty Assessment:* 0.45 raw × 0.75 (general review) = *discounted 0.34*
+
+=== Goldenberg 2025 — Central Sensitization in Long COVID, FM and ME/CFS
+
+    *Full Citation:*: Goldenberg DL. The pivotal role of central sensitization in long COVID, fibromyalgia and myalgic encephalomyelitis/chronic fatigue syndrome. _Expert Review of Neurotherapeutics_. 2025;25(8):973–989. @Goldenberg2025centralSensitization
+    *DOI:*: #link("https://doi.org/10.1080/14737175.2025.2516097")[10.1080/14737175.2025.2516097]
+    *PMID:*: 40512228
+    *Study Design:*: Authoritative narrative review (long COVID, fibromyalgia, ME/CFS)
+    *Key Findings:*:
+        - Central sensitization (nociplastic pain) is argued as the unifying pathophysiology across long COVID, fibromyalgia, and ME/CFS, motivating shared management.
+    *Conclusion:* Supports a central/nociplastic contribution to ME/CFS myalgia — the mechanism distinguishing it from healthy DOMS (a peripheral, self-limited phenomenon).
+    *Limitations:* Single-author narrative review; overlap conditions, not pure ME/CFS cohort.
+    *Certainty Assessment:* 0.50 raw × 0.80 (FM/LC/ME/CFS) = *discounted 0.40*
+
+=== Wiecha et al.\ 2025 — Physical Therapies for DOMS: Umbrella Review
+
+    *Full Citation:*: Wiecha S, Cieśliński I, Wiśniowski P, Cieśliński M, Pawliczek W, Posadzki P, Prill R, Zając J, Płaszewski M. Physical therapies for delayed-onset muscle soreness: an umbrella and mapping systematic review with meta-meta-analysis. _Sports Medicine_. 2025;55(5):1183–1212. @Wiecha2025DOMSumbrella
+    *DOI:*: #link("https://doi.org/10.1007/s40279-025-02187-5")[10.1007/s40279-025-02187-5]
+    *PMID:*: 40120073
+    *Study Design:*: Umbrella + mapping systematic review of physical therapies for DOMS
+    *Key Findings:*:
+        - Consolidates prior (often conflicting) SRs on massage, heat/cold, stretching, compression, and other recovery modalities with effect sizes and confidence.
+    *Conclusion:* The best current "what actually helps DOMS" reference to transfer to ME/CFS muscle-soreness management — with the caveat that DOMS is self-limited, not PEM.
+    *Limitations:* Healthy/athletic population; no ME/CFS.
+    *Certainty Assessment:* 0.65 raw × 0.75 (general population) = *discounted 0.49*
+
+=== Davis et al.\ 2020 — Sports Massage for Performance and Recovery (Meta-analysis)
+
+    *Full Citation:*: Davis HL, Alabed S, Chico TJA. Effect of sports massage on performance and recovery: a systematic review and meta-analysis. _BMJ Open Sport & Exercise Medicine_. 2020;6(1):e000614. @Davis2020massageMeta
+    *DOI:*: #link("https://doi.org/10.1136/bmjsem-2019-000614")[10.1136/bmjsem-2019-000614]
+    *PMID:*: 32426160
+    *Study Design:*: Systematic review + meta-analysis of randomized massage trials
+    *Key Findings:*:
+        - Massage yields small but significant improvements in DOMS and recovery-related outcomes (flexibility, perceived soreness) with negligible performance effect.
+    *Conclusion:* The massage lever for DOMS-relevant muscle-soreness management; in ME/CFS intensity must respect PEM sensitivity.
+    *Limitations:* Healthy/athletic; heterogeneity; no ME/CFS.
+    *Certainty Assessment:* 0.65 raw × 0.75 (general population) = *discounted 0.49*
+
+=== Wang et al.\ 2021 — Heat and Cold Therapy for DOMS Pain (Meta-analysis)
+
+    *Full Citation:*: Wang Y, Li S, Zhang Y, Chen Y, Yan F, Han L, Ma Y. Heat and cold therapy reduce pain in patients with delayed onset muscle soreness: a systematic review and meta-analysis of 32 randomized controlled trials. _Physical Therapy in Sport_. 2021;48:177–187. @Wang2021heatColdDOMS
+    *DOI:*: #link("https://doi.org/10.1016/j.ptsp.2021.01.004")[10.1016/j.ptsp.2021.01.004]
+    *PMID:*: 33493991
+    *Study Design:*: SR + meta-analysis of RCTs (PROSPERO CRD42020170632)
+    *Key Findings:*:
+        - Heat and cold both reduce DOMS pain; heat favored for stiffness/blood-flow, cold for acute inflammatory control.
+    *Conclusion:* The heat/gentle-thermal-recovery lever most relevant to ME/CFS muscle soreness (low-intensity, non-pharmacologic).
+    *Limitations:* DOMS (healthy); moderate heterogeneity; no ME/CFS.
+    *Certainty Assessment:* 0.60 raw × 0.75 (general population) = *discounted 0.45*
+
+=== Tanabe et al.\ 2022 — Dietary Supplementation for Muscle Damage and DOMS
+
+    *Full Citation:*: Tanabe Y, Fujii N, Suzuki K. Dietary supplementation for attenuating exercise-induced muscle damage and delayed-onset muscle soreness in humans. _Nutrients_. 2022;14(1):70. @Tanabe2021supplementsDOMS
+    *DOI:*: #link("https://doi.org/10.3390/nu14010070")[10.3390/nu14010070]
+    *PMID:*: 35010943
+    *Study Design:*: Review of dietary supplements (tart cherry, polyphenols/antioxidants, curcumin, omega-3)
+    *Key Findings:*:
+        - Tart cherry (anthocyanin antioxidant/anti-inflammatory) has the most consistent small-to-moderate effect on soreness and strength recovery.
+    *Conclusion:* The antioxidant/tart-cherry lever; in ME/CFS the oxidative-stress substrate differs and no ME/CFS tart-cherry trial exists.
+    *Limitations:* Healthy/athletic; modest effect sizes.
+    *Certainty Assessment:* 0.55 raw × 0.75 (general population) = *discounted 0.41*
+
+=== Reno et al.\ 2022 — Magnesium Supplementation on Muscle Soreness (RCT)
+
+    *Full Citation:*: Reno AM, Green M, Killen LG, O'Neal EK, Pritchett K, Hanson Z. Effects of magnesium supplementation on muscle soreness and performance. _Journal of Strength and Conditioning Research_. 2022;36(8):2198–2203. @Reno2022magnesiumDOMS
+    *DOI:*: #link("https://doi.org/10.1519/JSC.0000000000003827")[10.1519/JSC.0000000000003827]
+    *PMID:*: 33009349
+    *Study Design:*: Double-blind between-group RCT (n=22; Mg 350 mg/d for 10 days)
+    *Key Findings:*:
+        - Magnesium attenuated perceived muscle soreness and some recovery markers vs placebo; performance effects equivocal.
+    *Conclusion:* The magnesium lever for DOMS-relevant soreness; ME/CFS magnesium deficiency is separately reported but no ME/CFS soreness RCT exists.
+    *Limitations:* Small n; athletic population; single study, not independently replicated.
+    *Certainty Assessment:* 0.55 raw × 0.75 (general population) = *discounted 0.41*
+
+=== Hill et al.\ 2017 — Compression-Garment Pressure and Recovery
+
+    *Full Citation:*: Hill J, Howatson G, van Someren K, Gaze D, Legg H, Lineham J, Pedlar C. The effects of compression-garment pressure on recovery after strenuous exercise. _International Journal of Sports Physiology and Performance_. 2017;12(8):1078–1084. @Hill2017compression
+    *DOI:*: #link("https://doi.org/10.1123/ijspp.2016-0380")[10.1123/ijspp.2016-0380]
+    *PMID:*: 28051341
+    *Study Design:*: RCT (n=45) comparing two compression pressures after 100 eccentric drop jumps
+    *Key Findings:*:
+        - Compression reduced perceived muscle soreness and some muscle-damage markers (CK) during recovery, with little pressure-dependence.
+    *Conclusion:* The compression lever for DOMS-relevant soreness — mechanistically most plausible in ME/CFS via the microvascular/capillary-hypoperfusion axis, though untested.
+    *Limitations:* Healthy active population; short follow-up.
+    *Certainty Assessment:* 0.55 raw × 0.75 (general population) = *discounted 0.41*
