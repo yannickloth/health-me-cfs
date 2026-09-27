@@ -12245,5 +12245,43 @@
     "label": "Wakefulness",
     "category": "physiology",
     "definition": "The state of being awake and alert, maintained by arousal systems (noradrenergic, histaminergic, orexinergic). It is distinct from attention, which is the selective processing of specific information."
+  },
+  "GPR81": {
+    "label": "GPR81 (HCAR1)",
+    "category": "receptor",
+    "definition": "A Gi-coupled G-protein-coupled receptor whose endogenous ligand is lactate. GPR81/HCAR1 signals in fat (suppressing lipolysis), immune cells (dampening inflammation), and brain; it is the receptor that would let elevated lactate act as a signal in ME/CFS."
+  },
+  "HCAR1": {
+    "label": "HCAR1",
+    "category": "receptor",
+    "definition": "Hydroxycarboxylic acid receptor 1 — the alternative name for GPR81, the lactate receptor. See GPR81."
+  },
+  "MCT4": {
+    "label": "MCT4",
+    "category": "transporter",
+    "definition": "Monocarboxylate Transporter 4: exports lactate from glycolytic cells into the bloodstream. With MCT1 it sets the rate and direction of lactate movement between muscle, blood, and brain."
+  },
+  "Dichloroacetate": {
+    "label": "Dichloroacetate (DCA)",
+    "category": "medication",
+    "class": "Pyruvate dehydrogenase kinase inhibitor",
+    "generic": "Dichloroacetate",
+    "rx": "Investigational",
+    "definition": "A PDK inhibitor that reactivates pyruvate dehydrogenase and lowers lactate production. Used experimentally; causes cumulative peripheral neuropathy, which limits its use."
+  },
+  "Acylcarnitine": {
+    "label": "Acylcarnitine",
+    "category": "measurement",
+    "definition": "Carnitine bound to a fatty acid; measured in blood as a marker of fatty-acid oxidation capacity. Low serum acylcarnitine has been reported in ME/CFS, suggesting impaired fat-based energy metabolism."
+  },
+  "ketogenic": {
+    "label": "Ketogenic diet",
+    "category": "treatment",
+    "definition": "A very-low-carbohydrate, high-fat diet that raises ketone bodies as an alternative fuel, bypassing glycolysis. Proposed (not proven) to reduce glycolytic lactate production in ME/CFS."
+  },
+  "medium-chain triglycerides": {
+    "label": "Medium-chain triglycerides (MCT)",
+    "category": "supplement",
+    "definition": "Fats with 6-12 carbon chains that are absorbed directly and converted to ketones by the liver, providing an alternative fuel that bypasses glucose metabolism and its lactate output."
   }
 }

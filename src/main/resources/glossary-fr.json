@@ -14019,5 +14019,43 @@
     "label": "Résolution spectrale",
     "category": "method",
     "definition": "Capacité d'un ensemble de tests de réponse médicamenteuse à distinguer des hypothèses mécanistiques concurrentes. Deux hypothèses sont spectralement indistinguables si chaque médicament disponible prédit la même réponse dans les deux cas — aucune réponse ne peut alors les départager."
+  },
+  "GPR81": {
+    "label": "GPR81 (HCAR1)",
+    "category": "receptor",
+    "definition": "Recepteur couple a une proteine Gi dont le ligand naturel est le lactate. GPR81/HCAR1 signale dans le tissu adipeux, les cellules immunitaires et le cerveau ; c'est le recepteur qui permettrait au lactate eleve d'agir comme signal dans l'EM/SFC."
+  },
+  "HCAR1": {
+    "label": "HCAR1",
+    "category": "receptor",
+    "definition": "Nom alternatif du GPR81, le recepteur du lactate. Voir GPR81."
+  },
+  "MCT4": {
+    "label": "MCT4",
+    "category": "transporter",
+    "definition": "Transporteur de monocarboxylates 4 : exporte le lactate des cellules glycolytiques vers le sang ; avec MCT1, il regle le flux de lactate entre muscle, sang et cerveau."
+  },
+  "Dichloroacetate": {
+    "label": "Dichloroacetate (DCA)",
+    "category": "medication",
+    "class": "Inhibiteur de la pyruvate deshydrogenase kinase",
+    "generic": "Dichloroacetate",
+    "rx": "Investigational",
+    "definition": "Inhibiteur de la PDK qui reactive la pyruvate deshydrogenase et reduit la production de lactate ; provoque une neuropathie peripherique cumulative qui limite son usage."
+  },
+  "Acylcarnitine": {
+    "label": "Acylcarnitine",
+    "category": "measurement",
+    "definition": "Carnitine liee a un acide gras, dosee dans le sang comme marqueur de la capacite d'oxydation des acides gras ; un taux bas a ete rapporte dans l'EM/SFC."
+  },
+  "ketogenic": {
+    "label": "Regime cetogene",
+    "category": "treatment",
+    "definition": "Regime tres pauvre en glucides et riche en graisses qui eleve les corps cetoniques comme carburant alternatif, contournant la glycolyse ; propose (non prouve) pour reduire la production de lactate."
+  },
+  "medium-chain triglycerides": {
+    "label": "Triglycerides a chaine moyenne (MCT)",
+    "category": "supplement",
+    "definition": "Graisses a chaines de 6 a 12 carbones, absorbees directement et converties en cetones par le foie ; fournissent un carburant alternatif qui contourne le glucose et sa production de lactate."
   }
 }

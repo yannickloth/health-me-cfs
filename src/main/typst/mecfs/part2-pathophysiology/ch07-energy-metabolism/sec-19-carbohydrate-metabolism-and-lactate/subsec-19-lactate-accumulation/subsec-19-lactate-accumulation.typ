@@ -8,6 +8,8 @@ Elevated lactate indicates reliance on anaerobic metabolism:
     - *Resting lactate*: May be elevated in some patients
     - *Exercise lactate*: Earlier and greater accumulation
     - *Recovery*: Slower lactate clearance
+
+Lactate is not only a metabolic waste product: it is also a signaling molecule (GPR81/HCAR1) whose receptor and transporter axis is discussed in @sec:lactate-as-signaling. Whether lactate is an active participant or an inert marker in ME/CFS is an open question developed there.
     - *Brain lactate*: Elevated on MR spectroscopy in some studies
 
 *Clinical Phenomenology: Similarities to Athletic Post-Exercise States.*

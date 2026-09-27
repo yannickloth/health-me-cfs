@@ -8,5 +8,7 @@
 
 #include "subsec-19-lactate-accumulation/subsec-19-lactate-accumulation.typ"
 
+#include "subsec-19-lactate-as-signaling-molecule/subsec-19-lactate-as-signaling-molecule.typ"
+
 #include "subsec-19-insulin-sensitivity/subsec-19-insulin-sensitivity.typ"
 

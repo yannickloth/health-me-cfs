@@ -768,7 +768,7 @@ Corrective — depletes CD38+ long-lived plasma cells; targets the source rituxi
 === DCA (Dichloroacetate)
 
 *Appears in:* @sec:pdh-cascade E2, cross-reference matrix Group B.
-Corrective — PDK inhibitor restoring PDH activity and pyruvate entry into TCA cycle — neurotoxicity risk at cumulative dose
+Corrective — PDK inhibitor restoring PDH activity and pyruvate entry into TCA cycle; lowers blood lactate in congenital lactic acidosis @Stacpoole2006DCA — neurotoxicity risk at cumulative dose
 
 
 #finding(claim: [PDH phosphorylation rate-limiting for metabolic block], explanation: [PDH phosphorylation rate-limiting for metabolic block. PDK inhibition → PDH activation → lactate reduction confirms PDH is the bottleneck.], certainty: [Low], level: [Partial root cause])

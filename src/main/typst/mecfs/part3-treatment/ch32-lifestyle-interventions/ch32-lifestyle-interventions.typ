@@ -1140,6 +1140,28 @@ Brown adipose tissue activation via mild cold exposure (16--19 degrees C, 2--4 h
 _Falsified if_ mild cold exposure (18 degrees C, 2 h/d for 4 weeks) does not increase REE by at least 5% in ME/CFS patients without triggering PEM exacerbation.
 ] <spec:cold-thermogenesis>
 
+#speculation(title: [Perfusion- and Timing-Directed Lactate Clearance])[
+*(Certainty: 0.20 — lactate-shuttle physiology established in healthy exercise; no ME/CFS measurement. Origin: brainstorm.)*
+
+Lactate is not only a waste product but a shuttle fuel taken up and oxidized by muscle, heart, and brain @Brooks2018lactate @Magistretti2018, so clearance depends on blood flow through oxidizing tissue and on the timing of activity. Two non-drug levers follow. First, *perfusion support*: post-viral PEM is associated with microvascular and perfusion limitation (review) @Haunhorst2025PEMmicrovascular, so gentle heat-driven vasodilation (used cautiously — heat can worsen orthostatic and heat intolerance and precipitate pre-syncope in patients with dysautonomia) and the existing blood-volume/hydration strategy (electrolytes, @sec:electrolytes) could raise clearance perfusion; cold-induced shivering would generate lactate and may be the wrong lever (cf. @spec:cold-thermogenesis). Second, *timing*: a sub-threshold active-recovery window — movement intense enough to raise muscle blood flow but below the PEM threshold — could accelerate lactate clearance more than passive rest, but in ME/CFS any movement beyond rest risks triggering PEM, so the entire question is whether a window exists that helps clearance without crossing the PEM threshold. Neither lever has been tested with lactate as an endpoint. This is research-stage only — not a recommendation, and it does not replace pacing.
+
+*Evidence type:* healthy-exercise physiology and post-viral perfusion evidence; no ME/CFS trial. *Severity applicability:* unknown — untested, and the PEM threshold of concern is severity-dependent.
+
+*Replication status:* healthy-exercise lactate-shuttle physiology is well-established; the ME/CFS clearance claim is untested.
+
+*Translation gap:* the active-recovery/perfusion rationale is extrapolated from healthy exercise physiology to a disease defined by post-exertional intolerance; not validated in ME/CFS.
+
+*Competing explanation:* any measured clearance difference could reflect perfusion or mitochondrial oxidation rather than a timing/active-recovery effect, and any subjective benefit could be placebo or coincident pacing.
+
+*Limitations:* no ME/CFS study measures lactate clearance; the active-recovery window is unvalidated and potentially risky; heat and hydration effects on clearance are untested. Do not attempt active recovery in severe or bedbound disease.
+
+*Safety (research-stage only — not a recommendation).* No pregnancy/lactation data; no drug interactions applicable; no validated monitoring protocol; no clinical stopping criteria established. Heat and active recovery must not be attempted without clinical guidance in severe or autonomically unstable patients.
+
+_Falsified if_ a controlled protocol of sub-threshold active recovery or perfusion support does not measurably accelerate post-exertional venous-lactate clearance in ME/CFS, or if any movement beyond rest worsens PEM with no lactate-clearance benefit.
+
+*Consequence:* It frames the everyday patient question — "how do I clear the lactic acid?" — as a perfusion-and-timing question that is testable without drugs, while keeping the PEM threshold as the binding safety constraint.
+] <spec:lactate-clearance-levers>
+
 #speculation(title: [Vagal Tone Modulation for Appetite and Metabolic Regulation])[
 *(Certainty: 0.20 — taVNS well-studied in depression/epilepsy; appetite effects preliminary; no ME/CFS data.)*
 

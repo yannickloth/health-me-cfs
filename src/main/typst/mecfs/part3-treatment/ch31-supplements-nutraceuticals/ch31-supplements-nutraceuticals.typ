@@ -356,7 +356,7 @@ Category A (net energy provider). Direct ATP substrate (pentose sugar component)
 
 *Rationale.* Carnitine transports fatty acids into mitochondria for oxidation. Deficiency impairs fat-based energy production. Acetyl-L-carnitine crosses the blood-brain barrier and may support cognitive function.
 
-*Evidence.* Low (open-label studies only; no placebo-controlled trials). CFS patients show lower serum carnitine levels correlating with functional capacity @Plioplys1995carnitine. L-carnitine 3 g/day improved 12 of 18 clinical parameters over 8 weeks (n=30, open-label) @Plioplys1997carnitineTreatment. Acetyl-L-carnitine improved mental fatigue ($p = 0.015$) and propionyl-L-carnitine improved general fatigue ($p = 0.004$) in an open-label randomized study (n=90, no placebo arm) @Vermeulen2004carnitine.
+*Evidence.* Low (open-label studies only; no placebo-controlled trials). CFS patients show lower serum carnitine levels correlating with functional capacity @Plioplys1995carnitine. L-carnitine 3 g/day improved 12 of 18 clinical parameters over 8 weeks (n=30, open-label) @Plioplys1997carnitineTreatment. Acetyl-L-carnitine improved mental fatigue ($p = 0.015$) and propionyl-L-carnitine improved general fatigue ($p = 0.004$) in an open-label randomized study (n=90, no placebo arm) @Vermeulen2004carnitine. Serum acylcarnitine is reduced in ME/CFS across independent populations @Kuratsune1998Acylcarnitine, supporting the carnitine-repletion rationale (incoming certainty 0.50, observational → citation only, no certainty change).
 
 *Forms.*
 
@@ -822,7 +822,7 @@ Category A (net energy provider). B vitamins are essential cofactors for virtual
 
 *Rationale.* Essential for pyruvate dehydrogenase (PDH)—the enzyme that feeds pyruvate into the TCA cycle. PDH dysfunction is documented in ME/CFS.
 
-*Evidence.* Preliminary. Case reports and small studies suggest high-dose thiamine may help a subset of ME/CFS patients. One Italian study used 600–1800 mg daily with significant benefit in chronic fatigue
+*Evidence.* Preliminary. Case reports and small studies suggest high-dose thiamine may help a subset of ME/CFS patients. One Italian study used 600–1800 mg daily with significant benefit in chronic fatigue. A randomised placebo-controlled trial of high-dose oral thiamine reduced chronic fatigue in quiescent inflammatory bowel disease @Bager2021thiamineIBD — a different population, but the closest fatigue-specific randomised evidence for the PDH-cofactor rationale (incoming certainty 0.49, different disease → citation only, no certainty change).
 
 *Forms.*
 
@@ -1313,6 +1313,43 @@ Individual components have evidence for their specific targets, but the combinat
 
 *Energy Profile.*
 Category A (net energy provider). Converts directly to ketone bodies in the liver, bypassing the carnitine transport system and providing immediate alternative fuel for brain and muscle. Ketogenesis from MCTs is metabolically efficient compared to long-chain fatty acid oxidation. Provides energy substrate that bypasses potentially impaired glucose metabolism pathways.
+
+=== Lactate-Lowering Strategies: Substrate, Cofactor, and Clearance Approaches
+<sec:lactate-lowering>
+
+Elevated lactate in ME/CFS can reflect a shift toward glycolytic metabolism, among other causes (deconditioning, reduced perfusion, or an oxidative block), and patients frequently ask what can lower it. The strategies below share that goal through four mechanistically distinct routes: restoring pyruvate-dehydrogenase (PDH) cofactor availability with thiamine, rerouting substrate into fatty-acid oxidation with carnitine, supplying alternative ketone fuel that bypasses glycolysis with medium-chain triglycerides (MCT) or a ketogenic pattern, and replenishing the ATP substrate pool with D-ribose. Each is described in its own section above (Thiamine (B1); Acetyl-L-Carnitine and L-Carnitine; D-Ribose; Medium-Chain Triglycerides (MCT)). No ME/CFS trial has measured lactate as an endpoint or shown that lowering lactate improves symptoms, so this subsection frames the shared rationale and its limits rather than recommending any of them.
+
+#speculation(title: [Cofactor and Substrate Strategies May Lower Lactate in ME/CFS])[
+*Certainty: 0.30.* The rationale for lowering lactate is mechanistic: pyruvate is converted to lactate when PDH cannot carry it into oxidative metabolism, so supporting PDH or providing alternative substrate should reduce lactate production (subject to tissue redox state and clearance, not production alone). Supporting evidence by route: (1) thiamine (vitamin B1, a PDH cofactor) reduced chronic fatigue versus placebo in a randomised trial in quiescent inflammatory bowel disease @Bager2021thiamineIBD — the closest fatigue-specific human evidence, but a different disease; (2) carnitine supports fatty-acid oxidation, and serum acylcarnitine is reduced in ME/CFS patients across independent populations @Kuratsune1998Acylcarnitine; (3) medium-chain triglycerides and ketogenic metabolic therapy bypass glycolysis as an alternative fuel, with an early post-viral pilot @Colgan2026KetogenicPostviral; (4) D-ribose replenishes the ATP substrate pool, though the supporting trial was open-label @Teitelbaum2006ribose. These routes are complementary in principle but untested as a lactate-lowering protocol.
+
+*Evidence type:* different-disease randomised trial (thiamine), cross-nationally replicated biomarker (carnitine, ME/CFS), low-tier pilot (ketogenic, D-ribose). *Translation gap:* no human evidence measures lactate reduction in ME/CFS.
+
+*Replication status:* carnitine deficiency replicated across populations; thiamine trial single; ketogenic and D-ribose pilots unreplicated.
+
+*Severity applicability:* Unknown — none of the sources stratifies by ME/CFS severity.
+
+*Competing explanation:* Any symptomatic benefit could be non-specific (placebo effect, general nutritional support, regression to the mean) rather than lactate-mediated; the D-ribose and ketogenic sources are uncontrolled. More fundamentally, if elevated lactate reflects deconditioning, reduced perfusion, or an oxidative block rather than a PDH/cofactor limit (see @spec:lactate-mct-transport-node), then PDH-support and substrate-shift strategies would not lower it.
+
+*Limitations:* No ME/CFS trial uses lactate as an endpoint; no trial is placebo-controlled; the thiamine and carnitine findings are mechanism-consistent but population-mismatched.
+
+*Safety (not a recommendation — research-stage only).* Pregnancy/lactation: no pregnancy or lactation safety data are available for these strategies in ME/CFS. Interactions with common ME/CFS co-prescriptions: no major interaction is established for thiamine, D-ribose, or MCT; carnitine may potentiate warfarin (monitor INR) and raises TMAO with chronic use. Monitoring: no validated monitoring protocol exists; general clinical monitoring is recommended if a clinician supervises a trial. Stopping criteria: research-stage only — no clinical stopping criteria are established. Severe/bedbound patients: thiamine, D-ribose, and carnitine have no specific known contraindication, but any intervention in severe disease should follow the severe-patient caution in the urgent-action chapter. MCT/ketogenic is different: it is a medical dietary intervention with keto-adaptation risks (hypoglycemia, dehydration, electrolyte shifts, GI intolerance) and no ME/CFS safety data, so it warrants particular caution in severe/bedbound patients.
+
+*Falsifiable prediction:* In an ME/CFS trial of a cofactor/substrate intervention that demonstrably lowers post-exertional venous lactate versus control, the lactate reduction will correlate with improvement in post-exertional symptoms; falsified if lactate falls without any symptom change, or if no intervention lowers ME/CFS lactate at tolerated doses.
+
+*Consequence:* This turns the common patient question — "how do I clear lactic acid?" — into a testable one: lactate can be measured, interventions can be compared, and the answer will show whether lactate is worth targeting or merely a marker of the upstream block.
+]
+<spec:lactate-lowering-strategies>
+
+#limitation(title: [Buffering Lactate with Bicarbonate Is Not Supported])[
+*Certainty: 0.50 against efficacy.* The intuitive strategy of neutralizing lactate with an alkali is not supported by the evidence. A critical review of sodium bicarbonate in lactic acidosis concluded that it does not raise intracellular pH, may worsen hemodynamics, and has no demonstrated benefit @Forsythe2000Bicarbonate. Buffering therefore treats the measured marker, not the mechanism that produced it, and is the competing/harm arm for the "buffer the lactate" family. Patients should not use bicarbonate for this purpose without clinical supervision.
+
+*Evidence type:* critical-care review (different population, not ME/CFS). *Severity applicability:* Unknown.
+
+*Consequence:* It steers patients away from a plausible-sounding but unsupported and potentially harmful intervention, and reframes the goal from neutralizing lactate to reducing its production or improving clearance.
+]
+<lim:bicarbonate-buffering-unsupported>
+
+*Note on dichloroacetate (DCA).* A pharmaceutical route to lowering lactate exists — DCA inhibits PDH kinase, activating PDH and reducing lactate — but it carries a cumulative-dose peripheral-neuropathy ceiling and is not a supplement. Its differential-diagnostic entry is in the medication reference (@sec:pdh-cascade); thiamine, which supports PDH without neurotoxicity, is the lower-risk candidate to study first.
 
 === Quercetin + N-Acetylcysteine: Shared Oxidative–Th1 Terrain Stack
 <subsec:quercetin-nac-th1-stack>

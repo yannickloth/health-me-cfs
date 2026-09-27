@@ -13784,5 +13784,43 @@
     "label": "Spektrale Auflösung",
     "category": "method",
     "definition": "Die Fähigkeit einer Reihe von Arzneimittelantwort-Tests, zwischen konkurrierenden mechanistischen Hypothesen zu unterscheiden. Zwei Hypothesen sind spektral nicht unterscheidbar, wenn jedes verfügbare Medikament unter beiden dieselbe Antwort vorhersagt — dann kann keine Antwort sie trennen."
+  },
+  "GPR81": {
+    "label": "GPR81 (HCAR1)",
+    "category": "receptor",
+    "definition": "Gi-gekoppelter Rezeptor, dessen naturlicher Ligand Laktat ist. GPR81/HCAR1 signalisiert in Fettgewebe, Immunzellen und Gehirn; uber ihn konnte erhohtes Laktat bei ME/CFS als Signal wirken."
+  },
+  "HCAR1": {
+    "label": "HCAR1",
+    "category": "receptor",
+    "definition": "Alternativname fur GPR81, den Laktatrezeptor. Siehe GPR81."
+  },
+  "MCT4": {
+    "label": "MCT4",
+    "category": "transporter",
+    "definition": "Monocarboxylat-Transporter 4: exportiert Laktat aus glykolytischen Zellen ins Blut; bestimmt zusammen mit MCT1 den Laktatfluss zwischen Muskel, Blut und Gehirn."
+  },
+  "Dichloroacetate": {
+    "label": "Dichloracetat (DCA)",
+    "category": "medication",
+    "class": "Pyruvat-Dehydrogenase-Kinase-Inhibitor",
+    "generic": "Dichloracetat",
+    "rx": "Investigational",
+    "definition": "PDK-Inhibitor, der die Pyruvat-Dehydrogenase reaktiviert und die Laktatproduktion senkt; verursacht eine kumulative periphere Neuropathie, die die Anwendung begrenzt."
+  },
+  "Acylcarnitine": {
+    "label": "Acylcarnitin",
+    "category": "measurement",
+    "definition": "An eine Fettsaure gebundenes Carnitin; im Blut als Marker der Fettsaureoxidationskapazitat gemessen. Niedrige Werte wurden bei ME/CFS berichtet."
+  },
+  "ketogenic": {
+    "label": "Ketogene Diat",
+    "category": "treatment",
+    "definition": "Sehr kohlenhydratarme, fettreiche Diat, die Ketonkorper als alternativen Brennstoff bereitstellt und die Glykolyse umgeht; als (unbewiesene) Massnahme zur Senkung der Laktatproduktion vorgeschlagen."
+  },
+  "medium-chain triglycerides": {
+    "label": "Mittelkettige Triglyceride (MCT)",
+    "category": "supplement",
+    "definition": "Fette mit 6-12 Kohlenstoffketten, die direkt aufgenommen und von der Leber in Ketone umgewandelt werden; liefern einen alternativen Brennstoff, der Glukose und deren Laktatproduktion umgeht."
   }
 }
