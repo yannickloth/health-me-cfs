@@ -34,9 +34,9 @@
 
 | # | Idea / hypothesis | Tier | Certainty | Status | Notes |
 |---|---|---|---|---|---|
-| G6-H1 | Lactate is a signaling molecule via GPR81/HCAR1 in ME/CFS | — | 0.45 | 🔵 in progress | Core topic (gap G6). Phase 1: 14 papers, no ME/CFS GPR81 measurement. Phase 2: PARTIAL |
-| G6-H2 | GPR81 signaling modulates ME/CFS-relevant processes | — | 0.35 | 🔵 in progress | Animal/in-vitro effector roles; unmeasured in ME/CFS. Phase 2: PARTIAL → #speculation |
-| G6-H3 | Lactate-lowering interventions may improve symptoms | — | 0.30–0.53 | 🔵 in progress | User scope addition. DCA/Kuratsune/Bager strongest; bicarbonate null/harm |
+| G6-H1 | Lactate is a signaling molecule via GPR81/HCAR1 in ME/CFS | — | 0.45 | ✅ done | Core topic (gap G6). 14 papers, no ME/CFS GPR81 measurement. PARTIAL |
+| G6-H2 | GPR81 signaling modulates ME/CFS-relevant processes | — | 0.35 | ✅ done | Animal/in-vitro effector roles; unmeasured in ME/CFS. PARTIAL → #speculation |
+| G6-H3 | Lactate-lowering interventions may improve symptoms | — | 0.30–0.53 | ✅ done | User scope addition. DCA/Kuratsune/Bager strongest; bicarbonate null/harm |
 
 ### Phase 4 brainstorm rows (26 ideas, from `brainstorm-lactate-gpr81-signaling-2026-09-27.md`)
 
@@ -257,6 +257,11 @@
 
 ## Phase 13 — Commit
 
-_(To be appended.)_
+- **3 commits:** `15e7f346` content(paper): integrate lactate GPR81 signaling and lactate-lowering strategies; `4b8dd38e` docs(bib): add lactate signaling and lactate-lowering references; `a097e371` docs(ops): record lactate-gpr81-signaling integration cycle.
+- Shared-file entries verified present in HEAD (bib keys, registry block, plan, subtree, queue). No parallel-stream loss.
+- Excluded (foreign, untouched): `patients/yannick/self-reported/**` (unrelated WIP).
+- Post-commit `nix build`: 0 `error:` lines.
+- Queue row `gap-g06-lactate-gpr81-signaling` → `✅ done`.
+- **Report:** "Phase 13 complete: 3 commits (15e7f346, 4b8dd38e, a097e371). Shared-file entries verified present. Excluded: patient-record WIP."
 
 
