@@ -30,8 +30,5 @@
 #include "../speculations/speculation-8.typ"
 #include "../speculations/speculation-9.typ"
 #include "../hypotheses/hypothesis-12.typ"
-#include "../hypotheses/hypothesis-13.typ"
-#include "../proposals/proposal-4.typ"
-#include "../proposals/proposal-5.typ"
 #include "../proposals/proposal-6.typ"
 #include "../proposals/proposal-7.typ"
