@@ -40624,3 +40624,179 @@ This stream assembles evidence for the claim that pathological fatigue across au
     *Conclusion:* The largest modern synthesis of stimulant dose-response/tolerability; useful for dose-window and safety-ladder reasoning in the ME/CFS stimulant differential. ADHD population, not ME/CFS.
     *Limitations:* ADHD population only; does not address ME/CFS or chronic fatigue.
     *Certainty Assessment:* 0.80 raw × 0.75 (general/ADHD population) = *discounted 0.60* (network meta-analysis)
+
+=== Ahmed et al.\ 2010 — Lactate Activates GPR81 to Inhibit Lipolysis
+
+    *Full Citation:*: Ahmed K, Tunaru S, Tang C, Müller M, Gille A, Sassmann A, Hanson J, Offermanns S. An autocrine lactate loop mediates insulin-dependent inhibition of lipolysis through GPR81. _Cell Metabolism_. 2010;11(4):311–319. @Ahmed2010GPR81lipolysis
+    *DOI:*: #link("https://doi.org/10.1016/j.cmet.2010.02.012")[10.1016/j.cmet.2010.02.012]
+    *PMID:*: 20374963
+    *Study Design:*: Mouse GPR81-knockout and isolated-adipocyte mechanistic study
+    *Key Findings:*:
+        - Lactate activates the Gi-coupled receptor GPR81 (HCAR1) on adipocytes, inhibiting adenylyl cyclase.
+        - Insulin's antilipolytic effect is strongly reduced in GPR81-deficient mice, via a lactate autocrine/paracrine loop.
+        - Establishes lactate as a bona-fide cell-surface GPCR ligand, not inert metabolic waste.
+    *Conclusion:* Foundational demonstration that lactate signals through GPR81/HCAR1 with systemic metabolic function — the receptor axis underlying the lactate-as-signal hypothesis.
+    *Limitations:* Mouse and isolated adipocytes; adipose-restricted; does not test immune or brain GPR81.
+    *Certainty Assessment:* 0.70 raw × 0.50 (animal) = *discounted 0.35*
+
+=== Pucino et al.\ 2019 — Lactate Rewires CD4+ T Cells in Chronic Inflammation
+
+    *Full Citation:*: Pucino V, Certo M, Bulusu V, et al. Lactate buildup at the site of chronic inflammation promotes disease by inducing CD4+ T cell metabolic rewiring. _Cell Metabolism_. 2019;30(6):1055–1074.e8. @Pucino2019LactateCD4Tcell
+    *DOI:*: #link("https://doi.org/10.1016/j.cmet.2019.10.004")[10.1016/j.cmet.2019.10.004]
+    *PMID:*: 31708446
+    *Study Design:*: Human CD4+ T cells + mouse models + rheumatoid-arthritis patient tissue
+    *Key Findings:*:
+        - Lactate accumulated in inflamed synovium is taken up by CD4+ T cells and drives a pro-inflammatory IL-17-producing program via metabolic reprogramming (SLC5A12/MCT upregulation).
+        - Blocking lactate transport/uptake suppresses this inflammatory phenotype.
+    *Conclusion:* Lactate is a direct driver of T-cell effector programs in chronic inflammatory disease — the immune-metabolic reprogramming axis that links lactate to ME/CFS-relevant immune dysfunction.
+    *Limitations:* RA patients + mouse; CD4 subset only; ME/CFS not tested.
+    *Certainty Assessment:* 0.75 raw × 0.50 (animal/human-cell mechanism) = *discounted 0.38*
+
+=== Morland et al.\ 2017 — Exercise Signals the Brain via Lactate Receptor HCAR1
+
+    *Full Citation:*: Morland C, Andersson KA, Haugen ØP, et al. Exercise induces cerebral VEGF and angiogenesis via the lactate receptor HCAR1. _Nature Communications_. 2017;8:15557. @Morland2017HCAR1VEGF
+    *DOI:*: #link("https://doi.org/10.1038/ncomms15557")[10.1038/ncomms15557]
+    *PMID:*: 28534495
+    *Study Design:*: HCAR1-knockout mouse; exercise and lactate-injection paradigms
+    *Key Findings:*:
+        - HCAR1 is enriched on pial fibroblast-like and pericyte-like cells lining cerebral vessels.
+        - Lactate (from exercise or injection) raises brain VEGFA and capillary density in wild-type but not HCAR1-knockout mice.
+    *Conclusion:* Lactate is a concrete muscle-to-brain inter-organ signal coupling exertion to cerebrovascular adaptation — directly relevant to the exercise/PEM-vs-brain-perfusion axis.
+    *Limitations:* Mouse; no fatigue/behavioral readout; HCAR1-specific.
+    *Certainty Assessment:* 0.70 raw × 0.50 (animal) = *discounted 0.35*
+
+=== Hoque et al.\ 2014 — Lactate Suppresses Innate Immunity via GPR81
+
+    *Full Citation:*: Hoque R, Farooq A, Ghani A, Gorelick F, Mehal WZ. Lactate reduces liver and pancreatic injury in Toll-like receptor- and inflammasome-mediated inflammation via GPR81-mediated suppression of innate immunity. _Gastroenterology_. 2014;146(7):1763–1774. @Hoque2014GPR81innateimmunity
+    *DOI:*: #link("https://doi.org/10.1053/j.gastro.2014.03.014")[10.1053/j.gastro.2014.03.014]
+    *PMID:*: 24657625
+    *Study Design:*: Mouse TLR/inflammasome organ-injury model
+    *Key Findings:*:
+        - Lactate, via GPR81, suppresses TLR/NLRP3 inflammasome signal-1 in innate immune cells and reduces organ injury.
+    *Conclusion:* Defines the protective anti-inflammatory arm of lactate signaling, counterbalancing the pro-inflammatory T-cell axis — the dual GPR81 effector network posited as dysfunctional in ME/CFS.
+    *Limitations:* Mouse; liver/pancreas injury model, not chronic fatigue.
+    *Certainty Assessment:* 0.70 raw × 0.50 (animal) = *discounted 0.35*
+
+=== Colegio et al.\ 2014 — Lactic Acid Polarizes Macrophages
+
+    *Full Citation:*: Colegio OR, Chu NQ, Szabo AL, et al. Functional polarization of tumour-associated macrophages by tumour-derived lactic acid. _Nature_. 2014;513(7519):559–563. @Colegio2014TAMLacticAcid
+    *DOI:*: #link("https://doi.org/10.1038/nature13490")[10.1038/nature13490]
+    *PMID:*: 25043024
+    *Study Design:*: Mouse tumour model and macrophage polarization assays
+    *Key Findings:*:
+        - Tumour-derived lactic acid induces an M2-like macrophage program (VEGF, arginase 1) independent of hypoxia.
+    *Conclusion:* Canonical evidence that lactate is a direct immunomodulatory signal rather than a passive metabolite — supplying the macrophage-polarization arm relevant to ME/CFS neuroinflammation.
+    *Limitations:* Tumour model; mouse/cell; not ME/CFS.
+    *Certainty Assessment:* 0.75 raw × 0.50 (animal) = *discounted 0.38*
+
+=== Yang et al.\ 2014 — Lactate Potentiates NMDA Signaling and Plasticity
+
+    *Full Citation:*: Yang J, Ruchti E, Petit JM, Jourdain P, Grenningloh G, Allaman I, Magistretti PJ. Lactate promotes plasticity gene expression by potentiating NMDA signaling in neurons. _Proceedings of the National Academy of Sciences_. 2014;111(33):12228–12233. @Yang2014LactateNMDA
+    *DOI:*: #link("https://doi.org/10.1073/pnas.1322912111")[10.1073/pnas.1322912111]
+    *PMID:*: 25071212
+    *Study Design:*: Primary neuronal culture + in vivo mouse cortex
+    *Key Findings:*:
+        - Lactate potentiates NMDA-receptor currents and Erk1/2 signaling, and raises neuronal NADH (redox), inducing plasticity genes (Arc, c-Fos, Zif268).
+        - NADH alone mimics lactate's NMDA effects, pointing to redox as the mediator.
+    *Conclusion:* Extends lactate's CNS role beyond fuel into activity-dependent plasticity/redox signaling — the molecular substrate for a signaling (not merely energetic) astrocyte–neuron lactate shuttle.
+    *Limitations:* In vitro primary neurons + mouse cortex; no fatigue/behavioral readout.
+    *Certainty Assessment:* 0.65 raw × 0.40 (in vitro) = *discounted 0.26*
+
+=== Halestrap & Wilson 2012 — The Monocarboxylate Transporter Family
+
+    *Full Citation:*: Halestrap AP, Wilson MC. The monocarboxylate transporter family—role and regulation. _IUBMB Life_. 2012;64(2):109–119. @Halestrap2012MCTfamily
+    *DOI:*: #link("https://doi.org/10.1002/iub.572")[10.1002/iub.572]
+    *PMID:*: 22162139
+    *Study Design:*: Authoritative review of MCT1–4 (SLC16A1/3/7/8) transporter biology
+    *Key Findings:*:
+        - MCT1–4 catalyze proton-linked lactate transport with tissue-specific expression; roles in brain, muscle, heart, and T-cell activation.
+    *Conclusion:* Lactate's signaling reach is gated by MCT expression — so transporter (not only GPR81) expression is a candidate dysregulation node in ME/CFS.
+    *Limitations:* Review; general biology, not ME/CFS.
+    *Certainty Assessment:* 0.60 raw × 0.75 (general biology) = *discounted 0.45*
+
+=== Haunhorst et al.\ 2025 — PEM as Microvascular + Immunometabolic
+
+    *Full Citation:*: Haunhorst S, Dudziak D, Scheibenbogen C, et al. Towards an understanding of physical activity-induced post-exertional malaise: insights into microvascular alterations and immunometabolic interactions in post-COVID condition and ME/CFS. _Infection_. 2025;53(1):1–13. @Haunhorst2025PEMmicrovascular
+    *DOI:*: #link("https://doi.org/10.1007/s15010-024-02386-8")[10.1007/s15010-024-02386-8]
+    *PMID:*: 39240417
+    *Study Design:*: Narrative review spanning post-COVID condition and ME/CFS
+    *Key Findings:*:
+        - Frames PEM as microvascular alterations plus immunometabolic interactions.
+        - Positions glycolytic/lactate-immunometabolic reprogramming as a candidate PEM mechanism rather than mere lactate accumulation.
+    *Conclusion:* The ME/CFS-facing conceptual bridge for the lactate-signaling angle, and a competing account to the pure deconditioning explanation.
+    *Limitations:* Review, no new primary data; PEM pathomechanisms remain poorly elucidated.
+    *Certainty Assessment:* 0.55 raw × 0.85 (post-viral/ME/CFS review) = *discounted 0.47*
+
+=== Stacpoole et al.\ 2006 — DCA for Congenital Lactic Acidosis (RCT)
+
+    *Full Citation:*: Stacpoole PW, Kerr DS, Barnes C, et al. Controlled clinical trial of dichloroacetate for treatment of congenital lactic acidosis in children. _Pediatrics_. 2006;117(5):1519–1531. @Stacpoole2006DCA
+    *DOI:*: #link("https://doi.org/10.1542/peds.2005-1226")[10.1542/peds.2005-1226]
+    *PMID:*: 16651305
+    *Study Design:*: Double-blind randomized controlled trial (n=43 children)
+    *Key Findings:*:
+        - Oral DCA (a PDK inhibitor activating pyruvate dehydrogenase) reduced blood lactate and gave transient neurologic improvement.
+        - Dose-limiting peripheral neuropathy was the main toxicity.
+    *Conclusion:* The only RCT-grade evidence for the "inhibit PDK → lower lactate" strategy; its neuropathy toxicity is the safety ceiling for any ME/CFS use.
+    *Limitations:* Different disease (congenital lactic acidosis, not ME/CFS); small n; neuropathy toxicity.
+    *Certainty Assessment:* 0.70 raw × 0.75 (different disease population) = *discounted 0.53*
+
+=== Teitelbaum et al.\ 2006 — D-Ribose in CFS/Fibromyalgia (Pilot)
+
+    *Full Citation:*: Teitelbaum JE, Johnson C, St Cyr J. The use of D-ribose in chronic fatigue syndrome and fibromyalgia: a pilot study. _Journal of Alternative and Complementary Medicine_. 2006;12(9):857–862. @Teitelbaum2006ribose
+    *DOI:*: #link("https://doi.org/10.1089/acm.2006.12.857")[10.1089/acm.2006.12.857]
+    *PMID:*: 17109576
+    *Study Design:*: Open-label uncontrolled pilot (n=41 CFS/FMS patients)
+    *Key Findings:*:
+        - ~66% reported subjective improvement in energy, sleep, mental clarity and well-being with D-ribose 5g t.i.d.
+    *Conclusion:* Weak human signal for "energy-substrate support → relieve glycolytic strain"; hypothesis only, not a recommendation.
+    *Limitations:* Open-label; no placebo/blinding; mixed CFS+FM; subjective endpoints; low-tier journal.
+    *Certainty Assessment:* 0.40 raw × 0.80 (FM/comorbid) = *discounted 0.32*
+
+=== Kuratsune et al.\ 1998 — Serum Acylcarnitine Deficiency in ME/CFS
+
+    *Full Citation:*: Kuratsune H, Yamaguti K, Lindh G, et al. Low levels of serum acylcarnitine in chronic fatigue syndrome and chronic hepatitis type C, but not seen in other diseases. _International Journal of Molecular Medicine_. 1998;2(1):51–56. @Kuratsune1998Acylcarnitine
+    *DOI:*: #link("https://doi.org/10.3892/ijmm.2.1.51")[10.3892/ijmm.2.1.51]
+    *PMID:*: 9854142
+    *Study Design:*: Cross-national observational biomarker study (Swedish n=57 + Japanese cohorts)
+    *Key Findings:*:
+        - Serum acylcarnitine deficiency present in ME/CFS patients in two independent populations, but not in most other diseases.
+        - Implies impaired carnitine/fatty-acid energy metabolism and a compensatory glycolytic/lactate shift.
+    *Conclusion:* Foundational, cross-nationally replicated biomarker rationale for carnitine/acetyl-L-carnitine as a lactate-lowering (energy-rerouting) intervention in ME/CFS.
+    *Limitations:* Observational; single lab; 1998; no intervention arm.
+    *Certainty Assessment:* 0.50 raw × 1.00 (ME/CFS) = *discounted 0.50*
+
+=== Forsythe & Schmidt 2000 — Sodium Bicarbonate for Lactic Acidosis
+
+    *Full Citation:*: Forsythe SM, Schmidt GA. Sodium bicarbonate for the treatment of lactic acidosis. _Chest_. 2000;117(1):260–267. @Forsythe2000Bicarbonate
+    *DOI:*: #link("https://doi.org/10.1378/chest.117.1.260")[10.1378/chest.117.1.260]
+    *PMID:*: 10631227
+    *Study Design:*: Critical literature review (competing/harm arm)
+    *Key Findings:*:
+        - The rationale for IV sodium bicarbonate in lactic acidosis is not supported: it does not raise intracellular pH, may worsen hemodynamics, and lacks benefit evidence.
+    *Conclusion:* Establishes the null/harm boundary for the "buffer the lactate" intervention family — buffering lactate itself has no demonstrated efficacy and potential harm in ME/CFS.
+    *Limitations:* Critical-care context, not ME/CFS; review.
+    *Certainty Assessment:* 0.50 raw × 0.75 (general/critical-care population) = *discounted 0.38*
+
+=== Bager et al.\ 2021 — High-Dose Thiamine for Fatigue in IBD (RCT)
+
+    *Full Citation:*: Bager P, Hvas CL, Rud CL, Dahlerup JF. Randomised clinical trial: high-dose oral thiamine versus placebo for chronic fatigue in patients with quiescent inflammatory bowel disease. _Alimentary Pharmacology & Therapeutics_. 2021;53(1):79–86. @Bager2021thiamineIBD
+    *DOI:*: #link("https://doi.org/10.1111/apt.16166")[10.1111/apt.16166]
+    *PMID:*: 33210299
+    *Study Design:*: Randomized placebo-controlled trial (n=60)
+    *Key Findings:*:
+        - High-dose oral thiamine (vitamin B1, a pyruvate-dehydrogenase cofactor) significantly reduced fatigue vs placebo in quiescent IBD.
+    *Conclusion:* RCT-grade, fatigue-specific human evidence for the "B1 cofactor → restore PDH → lower lactate" strategy — the closest human data to a ME/CFS thiamine trial.
+    *Limitations:* IBD (not ME/CFS); moderate n; single study.
+    *Certainty Assessment:* 0.65 raw × 0.75 (different disease population) = *discounted 0.49*
+
+=== Colgan et al.\ 2026 — Ketogenic Metabolic Therapy for Post-viral Illness
+
+    *Full Citation:*: Colgan DD, Stadler DD, Grow T, Ruddick M, Weimbs T, Davenport TE, Zwickey H. Telehealth-based ketogenic metabolic therapy with lifestyle interventions for post-viral illness: a research brief. _Journal of Patient Experience_. 2026;13:23743735261459218. @Colgan2026KetogenicPostviral
+    *DOI:*: #link("https://doi.org/10.1177/23743735261459218")[10.1177/23743735261459218]
+    *PMID:*: 42416120
+    *Study Design:*: Fully remote pilot (ketogenic metabolic therapy + thiamine + behavioral strategies)
+    *Key Findings:*:
+        - Combined ketogenic metabolic therapy (ketone/lactate substrate shift) with thiamine and behavioral strategies; reports patient experiences in post-viral illness.
+    *Conclusion:* Early, low-certainty human signal for the "ketone/MCT substrate-shift to lower glycolytic-lactate burden" intervention family in a post-viral population.
+    *Limitations:* Pilot/protocol; low-tier journal; patient-experience outcomes only; no control.
+    *Certainty Assessment:* 0.35 raw × 0.85 (post-viral illness) = *discounted 0.30*
