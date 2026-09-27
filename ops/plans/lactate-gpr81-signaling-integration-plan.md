@@ -264,4 +264,17 @@
 - Queue row `gap-g06-lactate-gpr81-signaling` → `✅ done`.
 - **Report:** "Phase 13 complete: 3 commits (15e7f346, 4b8dd38e, a097e371). Shared-file entries verified present. Excluded: patient-record WIP."
 
+## Addendum (2026-09-27, user-requested)
+
+User follow-up: "shouldn't we add sections about how to get rid of lactic acid?" and two physiology questions (soft movement; cold-then-warm). Scope: consolidate the levers + fix a missed compatibility pair.
+
+- **Consolidated lever map** — expanded the intro of ch31 `=== Lactate-Lowering Strategies` into a two-group map: *reduce production* (thiamine, carnitine, MCT/ketogenic) vs *increase clearance* (perfusion/hydration `@spec:lactate-clearance-levers`; NAD⁺ route `@hyp:lactate-clearance` + `@spec:nad-lactate`), plus *substrate support* (D-ribose); flagged bicarbonate `@lim:bicarbonate-buffering-unsupported` and cold `@oq:cold-exposure-lactic-acid` as unsupported/unproven; anchored "safest lever is pacing" (`@sec:pacing`).
+- **New env** `@oq:cold-exposure-lactic-acid` (ch32): frames the "cold-exposed people look better" observation as dominated by **selection/reverse causation** (tolerance of cold is a marker of function; those who worsen stop — attrition), lists candidate mechanisms (catecholamine, hormesis) as *not established*, notes cold as a PEM trigger, and rebuts cold-then-warm contrast (cold constricts muscle flow; shivering adds lactate; rewarming risks pre-syncope/mast-cell symptoms). Falsifiable: unselected randomized cold/contrast vs warm control.
+- **Movement clarification** in `@spec:lactate-clearance-levers`: explicit "this is not an argument to move more" — safe default is pacing; only a narrow sub-threshold dose might help.
+- **Compat gap fixed:** added cross-refs to the pre-existing ch34 clearance entries (`@hyp:lactate-clearance`, `@spec:nad-lactate`) that the Phase 7 audit missed; registry `[compat note lactate-gpr81-signaling-addendum]` row added.
+- **Pre-existing bug fixed (surfaced by the new reference):** `hypothesis-13.typ`, `proposal-4.typ`, `proposal-5.typ` were each included **twice** in `ch34 .../sec-07-...typ` (directly + via `subsec-lactate-clearance-dysfunction`), producing duplicate labels `<hyp:lactate-clearance>`, `<prop:hif1a-stabilizer>`, `<prop:gpr4143-agonist>`. Removed the three redundant direct `#include` lines (content preserved via the aggregator). This latent defect had not been caught because nothing referenced those labels.
+- **Review:** addendum rigor + clinician passes → **0 CRITICAL/HIGH**; 2 MEDIUM fixed (uncited catecholamine claim hedged; D-ribose moved out of the "clearance" group; rewarming-hazard clause added). Build PASS.
+- **Registry:** 2 new rows (`[oq cold-exposure-lactic-acid]`, `[compat note lactate-gpr81-signaling-addendum]`).
+- **Commit:** `docs(ops)` + content addendum commit (see Phase 13 addendum hash below).
+
 
