@@ -4020,6 +4020,11 @@
     "category": "condition",
     "definition": "Hypertension: chronically elevated blood pressure. Paradoxically present in some hyperadrenergic ME/CFS/POTS patients despite orthostatic intolerance; supine hypertension with orthostatic hypotension/tachycardia complicates pharmacological management."
   },
+  "Human capital": {
+    "label": "Human capital",
+    "category": "method",
+    "definition": "A health-economics valuation approach that prices lost productivity by market wages. Human-capital costing underestimates disease burden for the unemployed, retired, young, and caregiver populations — the groups most affected by ME/CFS — because it only counts forgone earnings."
+  },
   "Hb": {
     "label": "Hb",
     "category": "measurement",
@@ -5949,6 +5954,11 @@
         "mechanism": "Overstimulation without additional therapeutic depth. Negative ME/CFS RCT (n=14 @Randall2005modafinil)."
       }
     ]
+  },
+  "Monte Carlo simulation": {
+    "label": "Monte Carlo simulation",
+    "category": "method",
+    "definition": "A computational modeling technique that samples random inputs many times to estimate outcomes and their uncertainty. The Risklayer/ME-CFS Research Foundation Germany cost report uses a Monte Carlo model to estimate Long COVID and ME/CFS prevalence and societal cost."
   },
   "Montelukast": {
     "label": "Montelukast",

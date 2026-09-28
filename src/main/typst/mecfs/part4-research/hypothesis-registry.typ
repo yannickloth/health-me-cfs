@@ -4794,6 +4794,10 @@ This registry collects all hypotheses, speculations, open questions, and predict
 
   [ach:kce-belgium], [KCE Belgian HTA needs assessment (Cornelis 2026, n=749): mean 8.6yr work invalidity; 73.2% ≥1 comorbidity; 50% >2yr diagnostic delay. Government HTA body formally evaluating ME/CFS signals institutional recognition.],[Phase 3 / 0.68],
 
+  [ach:germany-cost-report], [Risklayer 2026 Germany cost report: EUR 318.8B combined LC+ME/CFS cost 2020--2025; EUR 64.4B in 2025 = 1.44% of German GDP. Prevalence end-2025: 756,808 LC + 656,951 ME/CFS (>1.4M); ME/CFS rising, LC falling; ME/CFS recovery ~5%/yr. Gray-literature Monte Carlo model — modeled, not measured; authors state likely underestimate (non-COVID ME/CFS held constant). Walter 2022 confirms direct-cost component.],[Phase 3 / 0.55],
+
+  [spec:growing-steady-state], [ME/CFS prevalence has not reached steady state: positive incidence against ~5%/yr recovery implies eventual prevalence far above the current 656,951, so annual societal cost keeps climbing even if new SARS-CoV-2 conversions stop. Arithmetic consequence of the report's own inputs, conditional on the load-bearing infection correction.],[Phase 5 / 0.40],
+
   [ach:employment-gap], [Employment rates 16.6--27% across studies vs 60--84% general population. >75% unable to work (Podell 2020). NZ administrative data (Bowden 2026, n=1,902): 18.3% employed vs 83.8% general population. Spanish cohort (Castro-Marrero 2019): 52.3% unemployed, 45.3% on sick leave. Multiple countries, consistent direction.],[Phase 3 / 0.75],
 
   [oq:employment-retention], [No study has tested workplace accommodations, flexible scheduling, remote work, or phased return-to-work programs for ME/CFS. Intervention question well-defined and testable; no funding body has prioritized it.],[Phase 3 / 0.55],
@@ -4801,6 +4805,8 @@ This registry collects all hypotheses, speculations, open questions, and predict
   [ach:caregiver-burden], [Brittain 2021 (n=68 patients + 118 family members, FROM-16 tool): 87% family moderate/severe quality-of-life impact; 50.2% family-income reduction. No standalone monetary caregiver valuation exists. Informal care included in Australian cost-of-illness indirect-cost estimates.],[Phase 3 / 0.55],
 
   [ach:burden-funding-ratio], [Mirin 2020: ME/CFS burden:funding ratio ~1,000:1 (USD 17--24B cost vs USD 15M NIH funding). MS comparator ~30:1 (USD 39,000--68,000/patient vs USD 115M); RA comparator ~32:1 (USD 12,000--21,000/patient vs USD 86M). Three-order-of-magnitude gap. Funding figures public NIH data and verifiable.],[Phase 3 / 0.65],
+
+  [ach:germany-funding-gap], [German federal research spending ~EUR 40M/yr = 0.06% of 2025 cost. Since 2022: 22% biomedical (EUR 50M) vs 71% healthcare-services (EUR 157M) — services that do not alter disease state in PEM-characterized ME/CFS. National Decade Against Post-infectious Diseases: EUR 500M/10yr (EUR 50M/yr). Gandjour 2024 peer-reviewed model: optimal German ME/CFS R&D ~EUR 676M; prospective drug ~EUR 2.6B societal value.],[Phase 3 / 0.55],
 
   [lim:no-roi], [No formal return-on-investment analysis for ME/CFS research funding. Burden:funding ratio is descriptive, not causal. Cochrane 2021 systematic review confirmed zero cost-effectiveness studies for any ME/CFS intervention. This limitation is itself a consequence of the underfunding it critiques.],[Phase 3 / n/a],
 

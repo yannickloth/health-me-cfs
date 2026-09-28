@@ -32815,6 +32815,82 @@ sec-bib-rf-elevated-mecfs-duplicate
 
 // =============================================================================
 
+=== Risklayer / ME-CFS Research Foundation 2026 --- Germany Long COVID + ME/CFS Cost Report (Update)
+<sec:bib-risklayer-2026-germany-cost>
+
+    / *Full Citation:*: Daniell J, Brand J, Paessler D, Heydecke J, Schoening S, Nikoloudis ML, Manser V, McLennan AK. The rising cost of Long COVID and ME/CFS in Germany: 2026 update. April 2026. Hamburg and Karlsruhe: ME/CFS Research Foundation and Risklayer. @Risklayer2026GermanyCost
+    / *URL:*: #link("https://mecfs-research.org/wp-content/uploads/2026/04/The-rising-cost-of-Long-COVID-and-MECFS-in-Germany-2026-update.pdf")
+    / *Type:*: Gray literature — commissioned cost-of-illness report (NOT peer-reviewed)
+    / *Key Findings:*:
+        - Combined Long COVID + ME/CFS cost of EUR 318.8 billion across 2020--2025
+        - EUR 64.4 billion in 2025 alone = 1.44% of German GDP
+        - Prevalence end-2025: 756,808 Long COVID + 656,951 ME/CFS (combined >1.4M); ME/CFS caseload rising while Long COVID falls
+        - ME/CFS recovery rate ~5%/year — low recovery is a key cost driver
+        - Corrected SARS-CoV-2 infection estimate of 13--15 million in 2025 (80--200x the official RKI figure)
+        - Federal research spending ~EUR 40M/yr versus the EUR 64.4B 2025 cost = 0.06%
+        - "National Decade Against Post-infectious Diseases": EUR 500M over 10 years (EUR 50M/yr)
+        - Funding split since 2022: 22% biomedical (EUR 50M) vs 71% healthcare-services research (EUR 157M)
+    / *Conclusion:*: Long COVID and ME/CFS impose a substantial and rising societal cost in Germany (~1.44% of GDP in 2025), while research funding remains orders of magnitude below the modelled burden — motivating the National Decade policy initiative.
+    / *Limitations:*: Gray literature (not peer-reviewed); Monte Carlo modelled estimate from a risk-modelling firm + patient-advocacy-adjacent research foundation; cost figures depend on reconstructed (non-official) infection counts and assumed recovery/transition parameters; 2026 edition supersedes 2025 but shares the same model and team — a single evidence source, not independent replication.
+    / *Certainty:*: 0.55
+
+=== Risklayer / ME-CFS Research Foundation 2025 --- Germany Long COVID + ME/CFS Cost Report (Original)
+<sec:bib-risklayer-2025-germany-cost>
+
+    / *Full Citation:*: Daniell J, Brand J, Paessler D, Heydecke J, Schoening S, McLennan AK. The rising cost of Long COVID and ME/CFS in Germany. May 2025. Hamburg and Karlsruhe: ME/CFS Research Foundation and Risklayer. @Risklayer2025GermanyCost
+    / *URL:*: #link("https://mecfs-research.org/wp-content/uploads/2025/05/The-rising-cost-of-Long-COVID-and-MECFS-in-Germany.pdf")
+    / *Type:*: Gray literature — commissioned cost-of-illness report (NOT peer-reviewed)
+    / *Key Findings:*:
+        - Establishes the reproducible Monte Carlo framework modelling SARS-CoV-2 infection → Long COVID → ME/CFS progression
+        - Decomposes cost into societal, employer, personal, and medical components
+        - 2024 combined cost equating to ~1.5% of German GDP (superseded by the 2026 update's 1.44% for 2025)
+    / *Conclusion:*: The original framework establishing that Long COVID and ME/CFS together impose a cost on the scale of a percentage point of German GDP, with low recovery rates as the central driver.
+    / *Limitations:*: Superseded by the 2026 update; same model and author team as the update (single evidence source, not independent replication); gray literature, not peer-reviewed.
+    / *Certainty:*: 0.55
+
+=== Risklayer 2025 --- COVID-19 Infection-Number Modelling for Germany (Supporting Model Preprint)
+<sec:bib-risklayer-2025-covid-modelling>
+
+    / *Full Citation:*: Risklayer GmbH. Update 2025: Modellierung der COVID-Infektionszahlen in Deutschland 2020--2025. 2025. @Risklayer2025COVIDModelling
+    / *URL:*: #link("https://www.researchgate.net/publication/400861280_Update_2025_Modellierung_der_COVID-Infektionszahlen_in_Deutschland_2020-2025")
+    / *Type:*: Gray literature — supporting model preprint (German)
+    / *Key Findings:*:
+        - Documents the corrected SARS-CoV-2 infection-number reconstruction underpinning the cost report's caseload estimates
+        - Underpins the 13--15 million (80--200x official) 2025 infection estimate
+    / *Conclusion:*: Provides the epidemiological input to the cost model; companion code and data are public on GitHub (MIT / CC-BY-4.0).
+    / *Limitations:*: Preprint, not peer-reviewed; not independently re-analysed here; ResearchGate-hosted.
+    / *Certainty:*: 0.55
+
+=== Gandjour 2024 --- Societal Value of a Prospective ME/CFS Drug in Germany
+<sec:bib-gandjour-2024-germany-mecfs-value>
+
+    / *Full Citation:*: Gandjour A. Determining the societal value of a prospective drug for ME/CFS in Germany. _PLoS ONE_. 2024;19(7):e0307086. @Gandjour2024GermanyMEcfsValue
+    / *DOI:*: #link("https://doi.org/10.1371/journal.pone.0307086")[10.1371/journal.pone.0307086]
+    / *PMID:*: 39024303
+    / *Key Findings:*:
+        - A prospective ME/CFS drug is estimated to yield ~29,000 QALYs and ~EUR 2.6 billion societal value (German perspective)
+        - Optimal German public R&D investment estimated at EUR 676 million — about a quarter of total drug-development cost
+        - Results confirmed in sensitivity analysis; concludes a coordinated international approach is imperative
+    / *Conclusion:*: Peer-reviewed German health-economics modelling that quantifies the funding gap: the societal value of an effective ME/CFS drug far exceeds current investment — consistent with the cost report's funding-gap thesis.
+    / *Limitations:*: Single-author modelling of a hypothetical (not yet existing) drug; relies on assumed efficacy and cost parameters; measures prospective value rather than current measured burden.
+    / *Certainty:*: 0.55
+
+=== Walter et al.\ 2022 --- German Nationwide Inpatient Data on Post-COVID Syndrome Including Direct Costs
+<sec:bib-walter-2022-germany-pcs-cost>
+
+    / *Full Citation:*: Walter N, Rupp M, Lang S, Leinberger B, Alt V, Hinterberger T, Loew T. A Comprehensive Report of German Nationwide Inpatient Data on the Post-COVID-19 Syndrome Including Annual Direct Healthcare Costs. _Viruses_. 2022;14(12):2600. @Walter2022GermanyPCSCost
+    / *DOI:*: #link("https://doi.org/10.3390/v14122600")[10.3390/v14122600]
+    / *PMID:*: 36560604
+    / *Key Findings:*:
+        - Nationwide German claims-based overview of hospitalized Post-COVID Syndrome (PCS): case counts, in-hospital mortality, ICU treatment
+        - Documents main concomitant diagnoses and most frequent treatment procedures
+        - Quantifies annual direct healthcare costs of PCS
+    / *Conclusion:*: Peer-reviewed empirical (claims-data) estimate of the *direct* healthcare cost of Post-COVID Syndrome in Germany — a partial complement to the cost report's societal (direct + indirect) estimate.
+    / *Limitations:*: Direct/inpatient costs only — excludes productivity and other indirect costs, so not comparable in magnitude to the report's societal figure; pre-dates the 2026 caseload update; hospitalised PCS is not identical to the broader Long COVID/ME/CFS population.
+    / *Certainty:*: 0.65
+
+// =============================================================================
+
 <sec:bib-satellite-cell-regeneration>
 // =============================================================================
 
