@@ -40971,3 +40971,153 @@ This stream assembles evidence for the claim that pathological fatigue across au
     *Conclusion:* The compression lever for DOMS-relevant soreness — mechanistically most plausible in ME/CFS via the microvascular/capillary-hypoperfusion axis, though untested.
     *Limitations:* Healthy active population; short follow-up.
     *Certainty Assessment:* 0.55 raw × 0.75 (general population) = *discounted 0.41*
+
+
+= Noradrenergic Full Axis — Annotated Entries (added 2026-09-28)
+#set heading(numbering: none, outlined: false)
+
+=== Hartwig et al.\ 2020 — Attenuated beta2-Adrenergic IgG Activation in ME/CFS
+
+    *Full Citation:*: Hartwig J, Sotzny F, Bauer S, Heidecke H, Riemekasten G, Dragun D, Meisel C, Dames C, Grabowski P, Scheibenbogen C. IgG stimulated beta2 adrenergic receptor activation is attenuated in patients with ME/CFS. _Brain, Behavior, & Immunity - Health_. 2020;3:100047. @Hartwig2020Beta2AdrenergicIgG
+    *DOI:*: #link("https://doi.org/10.1016/j.bbih.2020.100047")[10.1016/j.bbih.2020.100047]
+    *PMID:*: 34589837
+    *Key Findings:*:
+        - ME/CFS patient IgG changed beta2-adrenergic receptor activation in a cell-based bioassay relative to controls.
+        - Supports an autoantibody-mediated adrenergic signalling defect upstream of the central NE deficit.
+    *Conclusion:* An adrenergic-receptor-directed autoimmune candidate fits the "upstream cause" arm; assay is a candidate stratification tool.
+    *Limitations:* Single centre (Charité Berlin); bioassay readout, not in-vivo receptor occupancy; not independently replicated.
+    *Certainty Assessment:* 0.70 raw x 1.00 (ME/CFS cohort) = *discounted 0.70*
+
+=== Hall et al.\ 2022 — GPCR Autoantibodies in POTS (Standard Methodology)
+
+    *Full Citation:*: Hall J, Bourne KM, Vernino S, Hamrefors V, Kharraziha I, Nilsson J, Sheldon RS, Fedorowski A, Raj SR. Detection of G Protein-Coupled Receptor Autoantibodies in Postural Orthostatic Tachycardia Syndrome Using Standard Methodology. _Circulation_. 2022;146(8):613-622. @Hall2022GPCRAutoantibodiesPOTS
+    *DOI:*: #link("https://doi.org/10.1161/CIRCULATIONAHA.122.059971")[10.1161/CIRCULATIONAHA.122.059971]
+    *PMID:*: 35766055
+    *Key Findings:*:
+        - Adrenergic/muscarinic GPCR autoantibodies detected in POTS using a standardized assay.
+        - Provides a transferable assay path for the ME/CFS+OI subset.
+    *Conclusion:* Downstream/parallel autoimmune mechanism; supplies the assay needed to test adrenergic autoantibodies in noradrenergic-deficient ME/CFS.
+    *Limitations:* POTS population, not ME/CFS; autoantibody prevalence and pathogenicity debated.
+    *Certainty Assessment:* 0.70 raw x 0.80 (POTS comorbid condition) = *discounted 0.56*
+
+=== Senard and Rouet 2006 — Dopamine beta-Hydroxylase Deficiency
+
+    *Full Citation:*: Senard JM, Rouet P. Dopamine beta-hydroxylase deficiency. _Orphanet Journal of Rare Diseases_. 2006;1:7. @Senard2006DBHdeficiency
+    *DOI:*: #link("https://doi.org/10.1186/1750-1172-1-7")[10.1186/1750-1172-1-7]
+    *PMID:*: 16722595
+    *Key Findings:*:
+        - Congenital DBH deficiency abolishes norepinephrine/epinephrine with preserved dopamine.
+        - Produces profound orthostatic hypotension and noradrenergic failure.
+    *Conclusion:* Human inborn-error proof that a selective NE deficit with intact DA is biologically coherent — the exact pattern Aregawi 2026 reports.
+    *Limitations:* Rare monogenic disease; not ME/CFS; no fatigue-outcome data.
+    *Certainty Assessment:* 0.80 raw x 0.50 (other disease model) = *discounted 0.40*
+
+=== Lutsenko et al.\ 2019 — Copper and the Brain Noradrenergic System
+
+    *Full Citation:*: Lutsenko S, Washington-Hughes C, Ralle M, Schmidt K. Copper and the brain noradrenergic system. _Journal of Biological Inorganic Chemistry_. 2019;24(8):1179-1188. @Lutsenko2019CopperNoradrenergic
+    *DOI:*: #link("https://doi.org/10.1007/s00775-019-01737-3")[10.1007/s00775-019-01737-3]
+    *PMID:*: 31691104
+    *Key Findings:*:
+        - DBH is a copper-dependent enzyme; brain copper handling constrains NE synthesis.
+    *Conclusion:* Adds copper status to the upstream-causes list for a selective NE deficit — a standard, checkable lab.
+    *Limitations:* Review; no ME/CFS copper data.
+    *Certainty Assessment:* 0.65 raw x 0.75 (general biology) = *discounted 0.49*
+
+=== Hahn et al.\ 2003 — SLC6A2 (NET) Mutation and Orthostatic Intolerance
+
+    *Full Citation:*: Hahn MK, Robertson D, Blakely RD. A mutation in the human norepinephrine transporter gene (SLC6A2) associated with orthostatic intolerance disrupts surface expression of mutant and wild-type transporters. _The Journal of Neuroscience_. 2003;23(11):4470-4478. @Hahn2003SLC6A2NET
+    *DOI:*: #link("https://doi.org/10.1523/JNEUROSCI.23-11-04470.2003")[10.1523/JNEUROSCI.23-11-04470.2003]
+    *PMID:*: 12805287
+    *Key Findings:*:
+        - A dominant-negative NET mutation reduces surface transporter and is linked to orthostatic intolerance.
+    *Conclusion:* Genetic evidence that altered NE reuptake capacity produces an autonomic phenotype; supports NET as both a mechanism and a drug target.
+    *Limitations:* Single family; in-vitro transporter assay; not ME/CFS.
+    *Certainty Assessment:* 0.65 raw x 0.50 (other disease model) = *discounted 0.33*
+
+=== Rivera et al.\ 2017 — BH4 Deficiency Amplifies Inflammation
+
+    *Full Citation:*: Rivera JC, Noueihed B, Madaan A, Lahaie I, Pan J, Belik J, Chemtob S. Tetrahydrobiopterin (BH4) deficiency is associated with augmented inflammation and microvascular degeneration in the retina. _Journal of Neuroinflammation_. 2017;14(1):181. @Rivera2017BH4deficiency
+    *DOI:*: #link("https://doi.org/10.1186/s12974-017-0955-x")[10.1186/s12974-017-0955-x]
+    *PMID:*: 28874201
+    *Key Findings:*:
+        - BH4 depletion augments inflammation and microvascular degeneration.
+    *Conclusion:* Links cofactor depletion (a TH/DBH constraint) to neuroinflammation — two upstream causes can reinforce each other.
+    *Limitations:* Animal/retina model; translation gap to human brain.
+    *Certainty Assessment:* 0.55 raw x 0.50 (animal model) = *discounted 0.28*
+
+=== Rangaraju et al.\ 2014 — Activity-Driven Local ATP Synthesis Required for Synaptic Function
+
+    *Full Citation:*: Rangaraju V, Calloway N, Ryan TA. Activity-driven local ATP synthesis is required for synaptic function. _Cell_. 2014;156(4):825-835. @Rangaraju2014ActivityDrivenATPsynapse
+    *DOI:*: #link("https://doi.org/10.1016/j.cell.2013.12.042")[10.1016/j.cell.2013.12.042]
+    *PMID:*: 24529383
+    *Key Findings:*:
+        - Synaptic vesicle cycling requires local, activity-driven ATP synthesis; ATP shortage impairs release.
+    *Conclusion:* Mechanistic foundation for "low ATP selectively impairs ATP-dependent vesicular NE release" — the paper's core upstream energy claim.
+    *Limitations:* In-vitro/animal neurons; not noradrenergic-specific; not ME/CFS.
+    *Certainty Assessment:* 0.75 raw x 0.40 (in vitro) = *discounted 0.30*
+
+=== Arnsten et al.\ 2023 — alpha2A Agonists for Neuroinflammatory Cognitive Disorders
+
+    *Full Citation:*: Arnsten AFT, Ishizawa Y, Xie Z. Scientific rationale for the use of alpha2A-adrenoceptor agonists in treating neuroinflammatory cognitive disorders. _Molecular Psychiatry_. 2023;28(11):4540-4552. @Arnsten2023Alpha2ANeuroinflammatory
+    *DOI:*: #link("https://doi.org/10.1038/s41380-023-02057-4")[10.1038/s41380-023-02057-4]
+    *PMID:*: 37029295
+    *Key Findings:*:
+        - Postsynaptic alpha2A agonists strengthen prefrontal noradrenergic signalling under neuroinflammatory conditions without suppressing LC firing.
+    *Conclusion:* Mechanistic rationale for guanfacine as a medication that raises PFC NE signal without worsening the central NE deficit.
+    *Limitations:* Review/rationale; no ME/CFS trial.
+    *Certainty Assessment:* 0.60 raw x 0.75 (general population) = *discounted 0.45*
+
+=== Osorio-Forero et al.\ 2021 — Noradrenergic Control of NREM Sleep Substates
+
+    *Full Citation:*: Osorio-Forero A, Cardis R, Vantomme G, Guillaume-Gentil A, Katsioudi G, Devenoges C, Fernandez LMJ, Luthi A. Noradrenergic circuit control of non-REM sleep substates. _Current Biology_. 2021;31(22):5009-5023.e7. @OsorioForero2021NoradrenergicNREM
+    *DOI:*: #link("https://doi.org/10.1016/j.cub.2021.09.041")[10.1016/j.cub.2021.09.041]
+    *PMID:*: 34648731
+    *Key Findings:*:
+        - Locus coeruleus NE activity sets NREM sleep substates and infraslow oscillations.
+    *Conclusion:* Downstream consequence: low LC-NE output is a candidate mechanism for unrefreshing sleep independent of sleep architecture.
+    *Limitations:* Animal circuit study; not ME/CFS.
+    *Certainty Assessment:* 0.75 raw x 0.50 (animal model) = *discounted 0.38*
+
+=== Luthi and Nedergaard 2025 — Microarousals, Noradrenaline, and Sleep Function
+
+    *Full Citation:*: Luthi A, Nedergaard M. Anything but small: Microarousals stand at the crossroad between noradrenaline signaling and key sleep functions. _Neuron_. 2025;113(4):509-523. @Luthi2025MicroarousalsNoradrenaline
+    *DOI:*: #link("https://doi.org/10.1016/j.neuron.2024.12.009")[10.1016/j.neuron.2024.12.009]
+    *PMID:*: 39809276
+    *Key Findings:*:
+        - Noradrenergic microarousals are coupled to glymphatic clearance and memory consolidation.
+    *Conclusion:* Ties the NE deficit to the clearance and sleep-refresh consequences the paper already models.
+    *Limitations:* Review; causal direction of NE-clearance coupling still debated.
+    *Certainty Assessment:* 0.60 raw x 0.75 (general population) = *discounted 0.45*
+
+=== Hayashida and Obata 2019 — Descending Noradrenergic Inhibitory System in Chronic Pain
+
+    *Full Citation:*: Hayashida K, Obata H. Strategies to Treat Chronic Pain and Strengthen Impaired Descending Noradrenergic Inhibitory System. _International Journal of Molecular Sciences_. 2019;20(4):822. @Hayashida2019DescendingNoradrenergic
+    *DOI:*: #link("https://doi.org/10.3390/ijms20040822")[10.3390/ijms20040822]
+    *PMID:*: 30769838
+    *Key Findings:*:
+        - Descending noradrenergic inhibition (alpha2) is a therapeutic lever in chronic pain.
+    *Conclusion:* Downstream consequence: low central NE disinhibits pain pathways — a mechanistic account of the pain-fatigue overlap.
+    *Limitations:* Review; not ME/CFS-specific.
+    *Certainty Assessment:* 0.60 raw x 0.75 (general population) = *discounted 0.45*
+
+=== Feng et al.\ 2024 — GRAB(NE) Sensors for In-Vivo Norepinephrine Monitoring
+
+    *Full Citation:*: Feng J, Dong H, Lischinsky JE, Zhou J, Deng F, Zhuang C, Miao X, Wang H, Li G, Cai R, Xie H, Cui G, Lin D, Li Y. Monitoring norepinephrine release in vivo using next-generation GRAB(NE) sensors. _Neuron_. 2024;112(12):1930-1942.e6. @Feng2024GRABneSensors
+    *DOI:*: #link("https://doi.org/10.1016/j.neuron.2024.03.001")[10.1016/j.neuron.2024.03.001]
+    *PMID:*: 38547869
+    *Key Findings:*:
+        - Genetically encoded NE sensors enable direct in-vivo measurement of noradrenergic release.
+    *Conclusion:* A measurement tool that could, in principle, test the central NE deficit without lumbar puncture.
+    *Limitations:* Animal/tool development; no human ME/CFS use yet.
+    *Certainty Assessment:* 0.75 raw x 0.50 (animal model) = *discounted 0.38*
+
+=== Ahmad et al.\ 2026 — Locus Coeruleus at the Crossroads of Inflammation and Neurodegeneration
+
+    *Full Citation:*: Ahmad I, Alemani R, Feinstein DL. The locus coeruleus at the crossroads of inflammation and neurodegeneration in multiple sclerosis. _Journal of Neuroinflammation_. 2026;23(1). @Ahmad2026LocusCoeruleusMS
+    *DOI:*: #link("https://doi.org/10.1186/s12974-026-03981-2")[10.1186/s12974-026-03981-2]
+    *PMID:*: 42711720
+    *Key Findings:*:
+        - LC is an inflammation-vulnerable noradrenergic hub in MS.
+    *Conclusion:* Cross-disease analogue: neuroinflammation targeting the LC is a plausible upstream cause of a central NE deficit.
+    *Limitations:* MS, not ME/CFS; review; no LC imaging in ME/CFS.
+    *Certainty Assessment:* 0.50 raw x 0.50 (other disease model) = *discounted 0.25*

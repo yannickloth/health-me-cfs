@@ -262,6 +262,15 @@ Prevents re-processing of already-integrated content.
 |-----|--------|---------|------------|--------|
 | PubMed API queries (12 queries, batch) | pubmed/eutils | 2026-06-07 | — | content-staging/noradrenergic-deficiency-literature-summary-2026-06-07.md, bib/appendix-h — Noradrenergic deficiency literature collection (13 papers, 9 new bib entries + 3 updated) |
 
+## Noradrenergic Full Axis Literature Search (Cycle 2)
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-09-28 | 30 queries across three prongs: medications (atomoxetine, reboxetine/viloxazine, droxidopa, bupropion, modafinil, guanfacine, pitolisant, amantadine, MAO-B, COMT, α2 antagonist, venlafaxine); upstream causes (DBH deficiency, LC neuroinflammation, adrenergic autoantibody, BH4, copper, NET/SLC6A2, mitochondrial-ATP vesicle); downstream consequences (NE-cerebral blood flow, glymphatic, descending pain, immune, sleep/LC, thermoregulation, GI motility) |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed E-utilities (30 queries, batch) | pubmed/eutils | 2026-09-28 | 2026-09-28 | ops/research/search-log-noradrenergic-full-scope-2026-09-28.md, bib/appendix-h — Noradrenergic full-axis collection (13 new bib entries) |
+
 ## Neuroimmune (Blitshteyn 2026) Literature Search
 | Source | Last Scraped | Notes |
 |--------|--------------|-------|

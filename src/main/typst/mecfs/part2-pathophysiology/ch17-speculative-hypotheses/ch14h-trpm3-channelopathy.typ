@@ -1193,3 +1193,51 @@ This hypothesis proposes a self-sustaining neuroinflammatory trap that operates 
 *Limitations.* No longitudinal MMP-9/BBB data in ME/CFS. All MMP-9 studies to date used serum, not plasma — the magnitudes are unreliable (Section @warn:mmp9-serum-plasma). The Bonetto 2022 BBB correlation is cross-sectional. The peripheral-to-CNS loop is inferred from separate studies in different populations (ME/CFS for IL-11, COVID-19 for BBB). No study has measured all 3 markers (MMP-9, S100B, IL-11) simultaneously in ME/CFS.
 ] <spec:mmp9-bbb-neuroinflammatory-trap>
 
+=== Upstream Causes and Downstream Consequences of the Noradrenergic Deficit
+<sec:noradrenergic-axis-causes-consequences>
+
+*Certainty: n/a (assembled model).* The selective central noradrenergic deficiency documented by Aregawi et al. (2026) @Aregawi2026Noradrenergic can be placed in a single axis that runs from upstream causes, through the deficit itself, to downstream consequences. This section states the axis and marks where evidence is direct (ME/CFS) and where it is inferred, so downstream treatment reasoning has an explicit causal map rather than a flat drug list.
+
+*Upstream causes (candidate, not established).* Four distinct constraints can each reduce central norepinephrine availability:
+
+    - *Copper-dependent synthesis.* Dopamine-beta-hydroxylase is a copper-dependent enzyme, so brain copper handling constrains norepinephrine synthesis @Lutsenko2019CopperNoradrenergic. Congenital DBH deficiency abolishes norepinephrine while preserving dopamine @Senard2006DBHdeficiency — a human inborn error that reproduces the *selective* NE-over-DA pattern Aregawi et al. report. Copper status is a standard, checkable laboratory variable.
+    - *Cofactor depletion.* Tetrahydrobiopterin (BH#sub[4]) is required for tyrosine hydroxylase flux; its depletion also amplifies inflammation and microvascular degeneration @Rivera2017BH4deficiency. This links a synthesis constraint to the neuroinflammatory arm.
+    - *Energy-dependent vesicular release.* Synaptic vesicle cycling and exocytosis require local, activity-driven ATP synthesis @Rangaraju2014ActivityDrivenATPsynapse. Low neuronal ATP therefore selectively impairs ATP-dependent vesicular norepinephrine release — the mechanism already advanced in Chapter @ch:neurological and Chapter @ch:causal-hierarchy.
+    - *Receptor-directed autoimmunity.* ME/CFS IgG changed beta2-adrenergic receptor activation in a cell-based bioassay @Hartwig2020Beta2AdrenergicIgG, and a standardized GPCR-autoantibody assay now exists @Hall2022GPCRAutoantibodiesPOTS. The direction of the autoantibody signal differs across studies (see Open Question @oq:adrenergic-autoantibody-direction).
+    - *Locus coeruleus inflammation.* The LC is an inflammation-vulnerable noradrenergic hub in multiple sclerosis @Ahmad2026LocusCoeruleusMS; the same vulnerability is a candidate upstream cause in ME/CFS but is unmeasured.
+
+*Downstream consequences (candidate).* A sustained central NE deficit would be expected to alter at least two domains beyond fatigue:
+
+    - *Sleep and clearance.* LC-NE activity sets NREM sleep substates and infraslow oscillations @OsorioForero2021NoradrenergicNREM, and noradrenergic microarousals couple to glymphatic clearance @Luthi2025MicroarousalsNoradrenaline. This is the mechanistic bridge between the NE deficit and unrefreshing sleep.
+    - *Pain.* Descending noradrenergic (alpha2) inhibition is a therapeutic lever in chronic pain @Hayashida2019DescendingNoradrenergic; low central NE would disinhibit pain pathways, providing a mechanistic account of the pain-fatigue overlap.
+
+*Competing explanations.* Deconditioning can lower CSF NE without causing symptoms; no ME/CFS study has eliminated this confound. The autoantibody direction is unresolved. Copper, BH#sub[4], DBH activity, and NET genotype are alternatives that are not mutually exclusive.
+
+*Falsifiable predictions.* (a) At least one upstream marker (serum/CSF copper, DBH activity, BH#sub[4]/BH#sub[2] ratio, adrenergic-receptor autoantibody, or a low-NE / high-pain / poor-sleep phenotype) will track the CSF NE Pathway deficit in a severity-stratified ME/CFS cohort. (b) The low-NE subgroup will show weakened conditioned pain modulation and altered NREM substate structure versus controls. (c) A mechanism-matched agent (e.g. a NET inhibitor) will improve the *matched* downstream domain (pain vs sleep vs cognition) in low-NE patients more than in normal-NE patients.
+
+*Limitations.* No ME/CFS study measures copper, DBH activity, BH#sub[4], or NET genotype against the CSF NE Pathway. All downstream links are cross-disease or animal evidence. The axis is a scaffold for testing, not a demonstrated causal chain.
+
+*Consequence:* reading the noradrenergic deficit as a single axis tells a clinician or researcher which upstream laboratory test and which downstream symptom domain belong to the same mechanism — so a treatment can be matched to the node it actually targets instead of prescribed as a generic "stimulant."
+
+#open-question(title: [Adrenergic-Receptor Autoantibody Direction — Attenuated or Agonistic?])[
+*Certainty: n/a.* Two lines of evidence point in different directions. ME/CFS IgG attenuated beta2-adrenergic receptor activation in a bioassay @Hartwig2020Beta2AdrenergicIgG, whereas antiadrenergic autoantibodies in POTS are reported as functionally agonistic @Fedorowski2017Antiadrenergic @Li2019AdrenergicRabbit. These may be subtype-specific or assay-specific rather than contradictory, but current data cannot adjudicate. The competing mechanisms have comparable-quality evidence, so neither is weighted.
+
+*Consequence:* until the direction is resolved, an adrenergic-autoantibody result cannot be interpreted as evidence for or against the central NE deficit.
+
+*Origin:* /integrate-topic noradrenergic-full-scope.
+] <oq:adrenergic-autoantibody-direction>
+
+#synthesis(title: [The Noradrenergic Axis — Upstream Causes to Downstream Consequences])[
+The evidence assembles a single axis. Upstream constraints — copper-dependent DBH @Lutsenko2019CopperNoradrenergic @Senard2006DBHdeficiency, BH#sub[4] cofactor depletion @Rivera2017BH4deficiency, ATP-dependent vesicular cycling @Rangaraju2014ActivityDrivenATPsynapse, NET genotype @Hahn2003SLC6A2NET, adrenergic autoantibodies @Hartwig2020Beta2AdrenergicIgG, and locus coeruleus inflammation @Ahmad2026LocusCoeruleusMS — converge on the selective central norepinephrine deficit documented in CSF @Aregawi2026Noradrenergic. That deficit is expected to produce downstream sleep @OsorioForero2021NoradrenergicNREM @Luthi2025MicroarousalsNoradrenaline and pain @Hayashida2019DescendingNoradrenergic consequences. Each upstream node maps to a distinct class of intervention (substrate/cofactor, synthesis bypass, reuptake inhibition, receptor-level signalling, or energy support), so differential drug response can in principle localize the bottleneck. The binding constraint is measurement: no ME/CFS study measures copper, DBH activity, BH#sub[4], or NET genotype against the CSF NE Pathway. Cross-references: (spec:adrenergic-autoantibody-upstream) (spec:dbh-copper-ne-synthesis) (spec:net-slc6a2-variant-oi) (spec:bh4-cofactor-depletion-ne) (spec:lc-neuroinflammation-ne) (spec:ne-downstream-sleep-substates) (spec:ne-descending-pain-disinhibition). The central unanswered question is whether the deficit is synthesis-limited, release-limited, or receptor-limited in a given patient.
+
+*Consequence:* the axis turns a flat list of "noradrenergic drugs" into a testable map — a clinician can ask which node a patient's deficit sits at, and choose the drug class that matches it.
+] <syn:noradrenergic-full-axis-model>
+
+#open-question(title: [Can the Noradrenergic Deficit Be Localised to a Node?])[
+*Certainty: n/a.* The axis above has at least five candidate nodes — copper-dependent DBH synthesis @Lutsenko2019CopperNoradrenergic @Senard2006DBHdeficiency, BH#sub[4] cofactor supply @Rivera2017BH4deficiency, ATP-dependent vesicular release @Rangaraju2014ActivityDrivenATPsynapse, NET reuptake capacity @Hahn2003SLC6A2NET, and adrenergic-receptor autoantibody signalling @Hartwig2020Beta2AdrenergicIgG — and these imply different drugs. No study has measured them together against the CSF NE Pathway in ME/CFS. A severity-stratified cohort assaying copper, DBH activity, BH#sub[4]/BH#sub[2] ratio, NET genotype, and adrenergic-receptor autoantibody against the NE Pathway index is the single measurement that would convert the axis from a scaffold into a stratification scheme.
+
+*Consequence:* if the nodes dissociate across patients, "noradrenergic deficiency" stops being one disease and becomes several drug-matchable subtypes.
+
+*Origin:* /integrate-topic noradrenergic-full-scope.
+] <oq:noradrenergic-node-localisation-panel>
+
