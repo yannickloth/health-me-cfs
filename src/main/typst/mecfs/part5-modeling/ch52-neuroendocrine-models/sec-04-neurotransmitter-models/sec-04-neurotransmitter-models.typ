@@ -7,3 +7,4 @@ Neurotransmitter dynamics link energy metabolism, immune function, and neurologi
 
 #include "subsec-01-tryptophan-kynurenine-pathway/subsec-01-tryptophan-kynurenine-pathway.typ"
 #include "subsec-02-catecholamine-dynamics/subsec-02-catecholamine-dynamics.typ"
+#include "subsec-03-ne-deficit-upstream-downstream/subsec-03-ne-deficit-upstream-downstream.typ"

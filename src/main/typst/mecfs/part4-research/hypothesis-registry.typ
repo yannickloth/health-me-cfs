@@ -6555,3 +6555,13 @@ This registry collects all hypotheses, speculations, open questions, and predict
 
   [spec peripheral-vs-central-autonomic-fork], [Speculation (ch14h (spec:peripheral-vs-central-autonomic-fork)): in orthostatic intolerance, the response to a noradrenergic drug may identify the lesion site — peripheral sympathetic denervation responds to norepinephrine precursors/agonists (droxidopa, midodrine), central autonomic failure to norepinephrine reuptake inhibitors (atomoxetine) @Park2020OHpharmacologic. If this fork transfers to ME/CFS, drug response becomes a subtyping probe. *Translation gap:* OH populations, not ME/CFS. *Falsifiability:* in ME/CFS+OI, the denervation status (standing NE, QSART) predicts droxidopa vs atomoxetine response; falsified if response is uncorrelated with denervation status. (ch14h (spec:peripheral-vs-central-autonomic-fork); cert 0.40; severity unknown; origin: /integrate-topic noradrenergic-full-scope session 3.)],[Phase 3 / 0.40],
 )
+
+
+= Entries added 2026-09-28 (session 4): Norepinephrine Deficit Model
+
+#table(
+  columns: (1fr, 2.4fr, 1fr),
+  [*ID / Label*], [*Details*], [*Phase / Cert*],
+
+  [model ne-deficit-upstream-downstream], [Model (ch52 @sec:ne-deficit-model): the ch52 catecholamine ODE is extended so the DBH step is scaled by ATP and copper availability, which reproduces the selective NE-over-DA pattern of @Aregawi2026Noradrenergic as a model output. Six upstream edges are tabulated with evidence tier and certainty (ATP 0.35, copper 0.40, BH4 0.28, NET 0.33, adrenergic autoantibody 0.30, LC neuroinflammation 0.25). Five downstream edges (fatigue 0.50, PEM 0.40, sleep 0.35, glymphatic 0.35, pain 0.30, PFC cognition 0.30). Critically, the model EXCLUDES the NE to autonomic and NE to mood edges because the source study found no correlation with orthostatic hypotension/tachycardia, pain, cognition, anxiety, or depression @Aregawi2026Noradrenergic. *Falsifiability:* upstream driver tracks CSF NE Pathway; NE Pathway predicts effort/motor sustain but not orthostatic HR or mood. *Limitation:* no ME/CFS measurement of any upstream driver; core finding single-centre n=16. (ch52 @sec:ne-deficit-model; cert n/a — model, per-edge certainties as above; severity unknown; origin: /integrate-topic noradrenergic-full-scope session 4.)],[Phase 3 / n/a],
+)

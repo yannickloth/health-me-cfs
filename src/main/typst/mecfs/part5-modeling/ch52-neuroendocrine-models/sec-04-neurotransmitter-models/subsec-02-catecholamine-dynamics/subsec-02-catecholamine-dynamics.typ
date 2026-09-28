@@ -1,6 +1,7 @@
 #import "../../../../shared/environments.typ": *
 
 === Catecholamine Dynamics
+<sec:catecholamine-dynamics>
 
 The NIH deep phenotyping study documented altered catecholamine metabolites in ME/CFS cerebrospinal fluid @walitt2024deep. Catecholamines (dopamine, norepinephrine, epinephrine) are synthesized from tyrosine through a sequential enzymatic pathway. The model tracks dopamine ($upright("DA")$) and norepinephrine ($upright("NE")$) in the CNS:
 

@@ -1213,6 +1213,8 @@ This hypothesis proposes a self-sustaining neuroinflammatory trap that operates 
 
 *Competing explanations.* Deconditioning can lower CSF NE without causing symptoms; no ME/CFS study has eliminated this confound. The autoantibody direction is unresolved. Copper, BH#sub[4], DBH activity, and NET genotype are alternatives that are not mutually exclusive.
 
+*What the ME/CFS data do not support.* The source study reports that the NE Pathway did not correlate with pain, cognition, anxiety, depression, orthostatic hypotension, or orthostatic tachycardia @Aregawi2026Noradrenergic. The autonomic and mood links are therefore **not** supported, and the pain and cognitive links are cross-disease inference only. The formal model for this axis, with an evidence tier and certainty on every upstream and downstream edge, is in Section @sec:ne-deficit-model.
+
 *Falsifiable predictions.* (a) At least one upstream marker (serum/CSF copper, DBH activity, BH#sub[4]/BH#sub[2] ratio, adrenergic-receptor autoantibody, or a low-NE / high-pain / poor-sleep phenotype) will track the CSF NE Pathway deficit in a severity-stratified ME/CFS cohort. (b) The low-NE subgroup will show weakened conditioned pain modulation and altered NREM substate structure versus controls. (c) A mechanism-matched agent (e.g. a NET inhibitor) will improve the *matched* downstream domain (pain vs sleep vs cognition) in low-NE patients more than in normal-NE patients.
 
 *Limitations.* No ME/CFS study measures copper, DBH activity, BH#sub[4], or NET genotype against the CSF NE Pathway. All downstream links are cross-disease or animal evidence. The axis is a scaffold for testing, not a demonstrated causal chain.
