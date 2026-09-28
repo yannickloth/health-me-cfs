@@ -83,5 +83,5 @@
     ])))
   })
   ),
-  caption: [Norepinephrine deficit axis. Upstream drivers and downstream consequences of the central norepinephrine deficit; the number in each node is the certainty of that node's edge (evidence tier in Section @sec:ne-deficit-model). Edges the source study does not support (autonomic, mood) are excluded; pain and cognition are cross-disease inference only.],
+  caption: [Norepinephrine deficit axis. Upstream drivers and downstream consequences of the central norepinephrine deficit; the number in each node is the certainty of that node's edge (evidence tier in the NE deficit model, ch52). Edges the source study does not support (autonomic, mood) are excluded; pain and cognition are cross-disease inference only.],
 ) <fig:ne-deficit-axis>
