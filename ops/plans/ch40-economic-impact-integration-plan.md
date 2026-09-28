@@ -142,6 +142,7 @@
 | 2026-09-28 | 10a | High-level synthesis: LEGIT-SKIP — existing `syn:economic-impact-model` already synthesizes the cross-national cost+funding argument; updated in Phase 6 to include Germany. No new synthesis box (would fragment the chapter's single synthesis). |
 | 2026-09-28 | 10b | Framing propagation: LEGIT-SKIP — synthesis is downstream economic quantification (no trigger/amplifier/genetic-architecture/clinical-strategy implication). Abstract's "underfunding" claim already general; no Germany-specific figure needed at framing layers. |
 | 2026-09-28 | 11 | Review convergence — **Lightweight tier** (single chapter, 3 new envs ≤3, non-treatment). Inline adversarial (6-persona) + xref passes scoped to changed regions (persona/auditor `.md` files absent from `.opencode/agents/`). 0 CRITICAL, 0 HIGH; figures verified (0.06% = 40M/64.4B ✓; 1.44% GDP consistent ✓); labels unique + resolve; build passes. Status: CONVERGED (1 round). |
+| 2026-09-28 | 13 | Commit: `d66c9500` (content — ch41 + registry + bib + appendix-h + glossary, 5 files, 186 insertions) + `f5a96351` (docs/ops — 7 files, 331 insertions). Shared entries verified present in HEAD. Build at HEAD: 0 errors. |
 
 ## Cycle 2 — Phase 12 Record
 
