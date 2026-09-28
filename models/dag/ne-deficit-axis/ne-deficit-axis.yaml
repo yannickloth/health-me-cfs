@@ -72,3 +72,19 @@ dag_model:
     - "Core finding single-centre, n=16, unvalidated composite index"
     - "Deconditioning confound not eliminated"
     - "Upstream drivers are not mutually exclusive"
+
+  clinical_expectations:
+    expected_to_improve:
+      - { symptom: "Fatigue / effort-motor sustain", basis: "ME/CFS CSF correlation (Aregawi2026)" }
+      - { symptom: "Post-exertional malaise", basis: "PASC-with-PEM subgroup (Aregawi2026)" }
+    possibly_improve:
+      - { symptom: "Unrefreshing sleep / arousal instability", basis: "animal LC-NREM (OsorioForero2021)" }
+    not_expected:
+      - { symptom: "Pain", basis: "no NE-pain correlation (Aregawi2026)" }
+      - { symptom: "Cognitive impairment", basis: "no NE-cognition correlation (Aregawi2026)" }
+      - { symptom: "Orthostatic intolerance / POTS", basis: "excluded edge; no NE-BP/HR correlation" }
+      - { symptom: "Mood / anxiety / depression", basis: "excluded edge; no NE-mood correlation" }
+      - { symptom: "Muscle soreness", basis: "descending route only; DOMS NE null (Pullinen2011)" }
+      - { symptom: "Excess lactate", basis: "beta2 signalling raises lactate (Jessen2020)" }
+    caveat: "No ME/CFS trial with PEM endpoint; stimulant-type agents risk masking/overexertion."
+    named_symptom_candidate: "Wired but tired (arousal-mismatch) — spec:wired-but-tired-arousal-mismatch"

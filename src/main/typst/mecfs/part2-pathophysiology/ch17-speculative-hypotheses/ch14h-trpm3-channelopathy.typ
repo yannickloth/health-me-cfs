@@ -1276,3 +1276,46 @@ This addresses the pipeline's drug-interaction pre-check: the common ME/CFS co-p
 *Consequence:* the medication map now states which human result supports each noradrenergic drug and which result undercuts it — so a reader sees an evidence-graded list, not a set of recommendations.
 
 
+
+
+=== Expected Effects of Noradrenergic Medications: A Symptom-Level Map
+<sec:ne-medication-expectations>
+
+*Certainty: n/a (expectation map).* A patient or clinician considering a drug aimed at the norepinephrine deficit needs to know which symptoms the axis *predicts* should change and which it predicts should not. The map below follows the model edges in Section @sec:ne-deficit-model and the human evidence in Section @sec:noradrenergic-medication-evidence. It is a testable expectation, not a promise.
+
+#table(
+  columns: (1.5fr, 1.1fr, 2.3fr),
+  [*Symptom domain*], [*Expect?*], [*Basis*],
+  [Fatigue / effort-motor sustain], [Improve — main target], [CSF NE Pathway tracks handgrip and fatigue scores @Aregawi2026Noradrenergic],
+  [Post-exertional malaise], [Plausible improvement], [Lower NE Pathway in the PASC-with-PEM subgroup @Aregawi2026Noradrenergic],
+  [Unrefreshing sleep / arousal instability], [Possible], [LC-NE sets NREM substates; animal evidence @OsorioForero2021NoradrenergicNREM],
+  [Pain], [Do not expect], [The NE Pathway did not correlate with pain @Aregawi2026Noradrenergic],
+  [Cognitive impairment], [Do not expect], [The NE Pathway did not correlate with cognition @Aregawi2026Noradrenergic],
+  [Orthostatic intolerance / POTS], [Do not expect via this axis], [No NE Pathway correlation with orthostatic BP or HR @Aregawi2026Noradrenergic],
+  [Mood / anxiety / depression], [Do not expect], [No NE Pathway correlation with mood or anxiety @Aregawi2026Noradrenergic],
+  [Muscle soreness], [Do not expect], [Descending-analgesia route only; human DOMS NE null @Pullinen2011DOMSne],
+  [Excess lactate], [No change, or lower], [$beta_2$ signalling raises muscle lactate @Jessen2020ClenbuterolLactate],
+)
+
+*The critical caveat — masking.* The agents with the largest short-term subjective benefit (amphetamines, methylphenidate, and to a lesser degree modafinil and solriamfetol) raise arousal and effort drive without restoring energy production. A patient who feels more capable may do more and crash harder — the masking hazard. If a trial improves how the patient *feels* but worsens PEM frequency, the drug is masking, not correcting, the deficit.
+
+*Falsifiable prediction:* in an ME/CFS trial stratified by CSF NE Pathway, a noradrenergic agent will improve fatigue and PEM in the low-NE group but will not change orthostatic heart-rate change or mood scores; falsified if it moves orthostatic HR or mood without an NE-trough subgroup difference.
+
+*Limitations.* No ME/CFS trial with PEM as an endpoint exists. The expectation map is derived from cross-sectional correlations and cross-disease evidence.
+
+*Consequence:* it tells a patient what a noradrenergic drug can and cannot be expected to do — most plausibly to reduce fatigue and PEM, and not to fix orthostatic intolerance, mood, soreness, or lactate.
+
+#speculation(title: [Wired But Tired: Arousal-Mismatch as a Named Noradrenergic Symptom])[
+*Certainty: 0.35.* "Wired but tired" — the inability to sleep or relax despite overwhelming exhaustion, with a subjective sense of internal over-arousal — is a common ME/CFS description that the paper mentions but does not treat as a named symptom. It is mechanistically consistent with a failure of the locus-coeruleus noradrenergic arousal system to *transition* between states: if LC-NE output is low and poorly regulated, arousal cannot be shut off at the right time or sustained when needed @OsorioForero2021NoradrenergicNREM @Luthi2025MicroarousalsNoradrenaline. This is distinct from the "tired but wired" failure to fall asleep that marks the *sleepiness* state in the four-states taxonomy (Section @clf:four-states-of-fatigue): there the patient cannot sleep because they are genuinely not sleepy, whereas here they are exhausted yet hyperaroused.
+
+*Competing explanations.* Hyperarousal can also arise from mast-cell/cytokine activation, HPA-axis dysregulation, anxiety, or sensory hypersensitivity — so "wired but tired" is not diagnostic of a noradrenergic lesion and should not be treated as one.
+
+*Falsifiable prediction:* ME/CFS patients reporting a prominent "wired but tired" pattern will show a noradrenergic arousal abnormality (e.g. blunted or shifted pupil/LC-NE dynamics, or altered sleep-onset latency with preserved sleep pressure) more than patients without the pattern; falsified if the pattern is explained entirely by anxiety or by objective sleepiness.
+
+*Severity applicability:* unknown — not severity-stratified.
+
+*Consequence:* naming the symptom makes it testable and separable from sleepiness, and links a common patient experience to a candidate mechanism rather than to a psychological label.
+
+*Origin:* /integrate-topic noradrenergic-full-scope.
+]
+<spec:wired-but-tired-arousal-mismatch>

@@ -55,6 +55,8 @@ The same study that reports the NE deficit also reports that the NE Pathway did 
 
 This distinction matters: a model that draws NE $arrow.r$ autonomic and NE $arrow.r$ mood edges would contradict the source data. The model keeps them out.
 
+*Clinical expectation.* The model's supported outputs are fatigue/effort-motor and PEM; the sleep output is weaker (animal evidence). The excluded edges (autonomic, mood) and the unmodelled edges (soreness, lactate) predict that a noradrenergic agent should *not* change orthostatic heart rate, mood, soreness, or lactate. The symptom-level expectation map is in Section @sec:ne-medication-expectations.
+
 *Falsifiable predictions.* (a) In a severity-stratified ME/CFS cohort, at least one upstream driver in Table 1 (copper, BH#sub[4]:BH#sub[2] ratio, DBH activity, NET genotype, adrenergic autoantibody) will track the CSF NE Pathway index. (b) The NE Pathway will predict effort/motor-sustain outcomes (handgrip, fatigue scores) but will *not* predict orthostatic heart-rate change or mood scores — reproducing the Aregawi dissociation. (c) A node-matched drug will improve the matched downstream domain in low-NE patients more than in normal-NE patients.
 
 *Limitations.* No ME/CFS study measures any upstream driver in Table 1 against the NE Pathway. Every downstream edge except fatigue and PEM rests on animal or cross-disease evidence. The core finding is single-centre, n = 16, and uses an unvalidated composite index. The deconditioning confound is not eliminated. The upstream factors are not mutually exclusive.
