@@ -1347,3 +1347,28 @@ The selective central norepinephrine deficit is usually described as a "fatigue 
 
 *Consequence:* the document should not assert "norepinephrine suppresses neuroinflammation" as fact — it is an open question with opposing evidence, and the loop is presented as contingent.
 ] <oq:ne-microglial-loop>
+
+
+#speculation(title: [Transcutaneous Vagus Nerve Stimulation as a Non-Pharmacological NE Modulator])[
+*Certainty: 0.30.* Vagal afferents project to the nucleus of the solitary tract, which excites the locus coeruleus, so transcutaneous auricular vagus nerve stimulation (taVNS) activates the LC-NE system @Hilz2022taVNS; in mice, taVNS activated LC tyrosine-hydroxylase-positive neurons that mediated its therapeutic effects @Lv2024taVNSLC. This makes taVNS a candidate *non-pharmacological* way to raise central NE without the masking hazard of stimulants — attractive therapeutically, and, because it is reversible and dose-controllable, a probe to test the axis. ME/CFS taVNS data remain preliminary; no trial has used noradrenergic readouts.
+
+*Evidence type / translation gap:* human review plus a mouse mechanism; no ME/CFS trial with NE readouts.
+
+*Falsifiability:* taVNS versus sham in ME/CFS changes a non-invasive NE readout (pupillometry, handgrip endurance, urinary VMA/HVA) and, if the clearance loop is real (@spec:ne-clearance-loop), a clearance or inflammatory proxy; falsified if it moves no NE readout.
+
+*Severity applicability:* unknown.
+
+*Consequence:* it offers a safe, non-drug lever on the same target node — and a test of the whole axis that does not depend on a pill.
+] <spec:tavns-lc-ne>
+
+#speculation(title: [Low NE Impairs Astrocytic Lactate Fuel Supply])[
+*Certainty: 0.30.* Noradrenaline acts on glial adrenoceptors to stimulate astrocytic glycogenolysis and increase astrocytic lactate release to neurons @Hertz2015neGlycogenolysis @Killeen2013neLactate. Low central NE would therefore predict *impaired fuel delivery* — less astrocyte-to-neuron lactate supply — rather than the "lactic acid accumulation" that popular accounts blame for soreness (@lim:soreness-not-lactic-acid). This places the NE axis on the *supply* side of the lactate story, the opposite direction from the soreness myth, and links it to the lactate/GPR81 content (@sec:carbohydrate).
+
+*Evidence type / translation gap:* review-level mechanism; no ME/CFS measurement of astrocytic lactate supply against the NE Pathway.
+
+*Falsifiability:* markers of astrocytic lactate supply should be lower, not higher, in low-NE ME/CFS and should track the CSF NE Pathway; falsified if supply is unchanged or higher.
+
+*Severity applicability:* unknown.
+
+*Consequence:* it links the NE deficit to the lactate system in the correct direction — fuel supply, not waste — and gives a mechanistic reason to abandon "lactic acid" framing.
+] <spec:ne-astrocyte-lactate-fuel>

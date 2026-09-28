@@ -6597,3 +6597,15 @@ This registry collects all hypotheses, speculations, open questions, and predict
 
   [oq ne-microglial-loop], [Open question (ch14h @oq:ne-microglial-loop): does NE suppress or promote neuroinflammation? Bu 2025 (mouse) found microglial β2-ADRB2 signalling suppressed microglial engagement @Bu2025NeuroMicrogliaNE; Evans 2024 (mouse) found β2 blockade/adrb2 deletion attenuated inflammation, female-specific @Evans2024LocusCoeruleusMicroglia. Opposing directions; the second loop depends on the suppression direction. (ch14h @oq:ne-microglial-loop; cert n/a — research question; severity unknown; origin: brainstorm P2.)],[Phase 3 / n/a],
 )
+
+
+= Entries added 2026-09-28 (session 7b): taVNS + NE-Astrocyte-Lactate
+
+#table(
+  columns: (1fr, 2.4fr, 1fr),
+  [*ID / Label*], [*Details*], [*Phase / Cert*],
+
+  [spec tavns-lc-ne], [Speculation (ch14h @spec:tavns-lc-ne): taVNS activates the LC-NE system via NTS @Hilz2022taVNS @Lv2024taVNSLC — a non-pharmacological NE modulator and a safe probe of the axis (P3). *Falsifiability:* taVNS vs sham moves a non-invasive NE readout (pupillometry/handgrip/VMA-HVA) and a clearance/inflammatory proxy. (ch14h @spec:tavns-lc-ne; cert 0.30; severity unknown; origin: brainstorm P3.)],[Phase 3 / 0.30],
+
+  [spec ne-astrocyte-lactate-fuel], [Speculation (ch14h @spec:ne-astrocyte-lactate-fuel): noradrenaline stimulates astrocytic glycogenolysis and lactate release to neurons @Hertz2015neGlycogenolysis @Killeen2013neLactate, so low NE predicts impaired astrocytic *fuel supply* (not lactate accumulation — opposite of the soreness myth @lim:soreness-not-lactic-acid) (P4). *Falsifiability:* astrocytic lactate-supply markers lower and tracking the NE Pathway. (ch14h @spec:ne-astrocyte-lactate-fuel; cert 0.30; severity unknown; origin: brainstorm P4.)],[Phase 3 / 0.30],
+)
