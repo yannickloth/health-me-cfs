@@ -49,7 +49,7 @@ Content topics (Part A, ranked; top 5 actionable first), then structural chapter
 | gap-b02-healthcare-systems-policy | gap-analysis-20260726 | Healthcare systems / policy / disability chapter (Part IV). Absent. | standalone (gap analysis) | 2026-08-29 | ⬜ pending |
 | gap-b03-comparative-nosology | gap-analysis-20260726 | ME/CFS, FM, PTLDS, IBS, LC, MCAS, EDS comparison chapter. Scattered across ch04/ch14d/ch35. | standalone (gap analysis) | 2026-08-29 | ⬜ pending |
 | gap-b04-research-methods | gap-analysis-20260726 | ME/CFS-specific research methods chapter (Part IV). Currently scattered. | standalone (gap analysis) | 2026-08-29 | ⬜ pending |
-| gap-b05-economic-impact | gap-analysis-20260726 | Economic impact — upgrade single subsection in ch01 to dedicated Part IV chapter. | standalone (gap analysis) | 2026-08-29 | ⬜ pending |
+| gap-b05-economic-impact | gap-analysis-20260726 | Economic impact — upgrade single subsection in ch01 to dedicated Part IV chapter. | standalone (gap analysis) | 2026-08-29 | 🔵 in progress (cycle 2: Germany cost report 2026) |
 | gap-b06-brain-clearance-consolidation | gap-analysis-20260726 | Consolidated brain-clearance architecture view; content currently spread across ch13 + ch29/30/31 sections + ch53. | standalone (gap analysis) | 2026-08-29 | ⬜ pending |
 | gap-b07-patient-generated-knowledge | gap-analysis-20260726 | Patient-generated knowledge / citizen science chapter (Part IV). Absent. | standalone (gap analysis) | 2026-08-29 | ⬜ pending |
 | gap-b08-global-low-resource-perspectives | gap-analysis-20260726 | Global / low-resource perspectives chapter (Part IV). Absent. | standalone (gap analysis) | 2026-08-29 | ⬜ pending |

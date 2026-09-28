@@ -13,6 +13,23 @@ Prevents re-processing of already-integrated content.
 
 ---
 
+## Germany Cost-of-Illness Report — Long COVID + ME/CFS (long-covid-mecfs-cost-report) — Risklayer + ME/CFS Research Foundation
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PDF (mecfs-research.org) | 2026-09-28 | 2026 update + 2025 original fetched (HTTP 200); title-page author/affiliation + exec-summary figures verified via pdftotext. Headline figures confirmed: €318.8B 2020–2025; €64.4B 2025 = 1.44% GDP; 756,808 LC + 656,951 ME/CFS; 13–15M infections (80–200× RKI); €500M National Decade (€50M/yr); 22% biomedical / 71% healthcare-services funding split; ~5%/yr ME/CFS recovery; ~€40M/yr research = 0.06%; Monte Carlo. 2025 + 2026 share one model/team → single evidence source, not independent replication. |
+| GitHub (risklayer) | 2026-09-28 | Model repo verified: MIT code + CC-BY-4.0 data; Part1 CaseTracker + Part2 TotalCostEstimate Python scripts; 4 model permutations; created 2025-05-08. |
+| PubMed (E-utilities API) | 2026-09-28 | 10 queries for peer-reviewed German LC/ME/CFS cost-of-illness / burden studies. **2 peer-reviewed complements added** (Gandjour 2024 PLoS One; Walter 2022 Viruses). **Honest null:** no peer-reviewed combined LC+ME/CFS German cost study exists — the gray-literature report fills the gap. Reused not duplicated: Vester 2026 (`vester2026burdenreview`). |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| https://mecfs-research.org/wp-content/uploads/2026/04/The-rising-cost-of-Long-COVID-and-MECFS-in-Germany-2026-update.pdf | mecfs-research.org | 2026-09-28 | — | bib/general.bib (Risklayer2026GermanyCost), appendix-h `<sec:bib-risklayer-2026-germany-cost>` |
+| https://mecfs-research.org/wp-content/uploads/2025/05/The-rising-cost-of-Long-COVID-and-MECFS-in-Germany.pdf | mecfs-research.org | 2026-09-28 | — | bib/general.bib (Risklayer2025GermanyCost), appendix-h `<sec:bib-risklayer-2025-germany-cost>` |
+| https://www.researchgate.net/publication/400861280_Update_2025_Modellierung_der_COVID-Infektionszahlen_in_Deutschland_2020-2025 | researchgate | 2026-09-28 | — | bib/general.bib (Risklayer2025COVIDModelling), appendix-h `<sec:bib-risklayer-2025-covid-modelling>` |
+| https://github.com/risklayer/long-covid-mecfs-costs-germany | github | 2026-09-28 | — | annotation only (model/code repo; no separate bib key) |
+| PubMed API (10 queries + efetch, 2 PMIDs) | pubmed/eutils | 2026-09-28 | — | bib/general.bib (Gandjour2024GermanyMEcfsValue, Walter2022GermanyPCSCost), appendix-h `<sec:bib-gandjour-2024-germany-mecfs-value>`, `<sec:bib-walter-2022-germany-pcs-cost>` |
+
+---
+
 ## Kay 2025 Stimulant Arousal/Reward vs Attention Networks (kay2025-stimulant-arousal-reward) Literature Search
 | Source | Last Scraped | Notes |
 |--------|--------------|-------|

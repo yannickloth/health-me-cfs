@@ -43,7 +43,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | history-of-mecfs | [subtrees/history-of-mecfs.md](subtrees/history-of-mecfs.md) | 2026-07-26 | 22 | 0 | 🔵 in progress |
 | brain-clearance-architecture | [subtrees/brain-clearance-architecture.md](subtrees/brain-clearance-architecture.md) | 2026-07-26 | 29 | 0 | 🔵 in progress |
 | subjective-measurable-discrepancy-index | [subtrees/subjective-measurable-discrepancy-index.md](subtrees/subjective-measurable-discrepancy-index.md) | 2026-07-27 | 40 | 0 | ⬜ pending |
-| economic-impact | [subtrees/economic-impact.md](subtrees/economic-impact.md) | 2026-07-26 | 12 | 12 | ✅ done |
+| economic-impact | [subtrees/economic-impact.md](subtrees/economic-impact.md) | 2026-07-26 | 21 | 15 | ✅ done (cycle 2: +3 integrated, +9 deferred) |
 
 ## Subtree index
 
