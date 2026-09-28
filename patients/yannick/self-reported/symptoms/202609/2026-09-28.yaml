@@ -1,0 +1,136 @@
+date: 2026-09-28
+
+sleep:
+  previous_night:
+    date: 2026-09-27
+    quality: ~
+    notes: "Not logged in detail."
+    source: patient_report
+    disruption_cause: ~
+  naps:
+    entries:
+      - time: morning
+        duration_hours: 2
+      - time: afternoon
+        duration_hours: 2
+    total_hours: 4
+    notes: "2h morning sieste + 2h afternoon sieste."
+
+medications_supplements:
+  prescribed_medications:
+    - "Aripiprazole (LDA) 1mg/day active (restored to 1mg ~2026-09-19)"
+    - "LDN 4mg/day active"
+    - "Rupatadine 20-30mg/day (3 pills) active"
+    - "Famotidine 20mg/day active"
+    - "Montelukast 10mg/day active"
+    - "Mestinon 1 pill/day active (time-boxed low-dose retrial since 2026-08-19)"
+    - "Ritalin MR 10mg intermittent (every few days)"
+  supplements:
+    - "Electrolyte mix in water"
+  notes: "Whether each dose was taken on 2026-09-28 not confirmed (~)."
+
+symptoms:
+  muscle_pain:
+    severity: high
+    location: ["generalized"]
+    character: "courbatures (muscle soreness) — still strong"
+    onset: "~48h after exertion (2026-09-26 Kärcher)"
+    trigger: "Kärcher pressure-washing courtyard 2026-09-26"
+    chronicity: "persistent post-exertional (day 2)"
+    symmetry: "generalized"
+    notes: >
+      Muscle pain and soreness (courbatures) STILL STRONG at ~48h after the
+      2026-09-26 Kärcher exertion. No resolution yet.
+  headache:
+    severity: none
+    notes: "No headache reported."
+  fatigue:
+    severity: high
+    notes: "Very little productive during awake time ('très peu productif lors du temps éveillé')."
+  overall:
+    severity: high
+    notes: >
+      Strong persistent courbatures + marked fatigue + 4h daytime sleep.
+      Patient attributes the state to PEM from Saturday's (2026-09-26)
+      activities.
+
+overall_wellbeing: "PEM-suspected crash day: very little productivity, 4h daytime sleep."
+
+activity:
+  activity_level:
+    - description: "Very little productive during awake time."
+      exertion_level: minimal
+      notes: "Awake time dominated by rest; 2h morning nap + 2h afternoon nap."
+  unable_to_rest: ~
+  notes: "Recovery/crash day 2 post-Kärcher (2026-09-26)."
+
+pem_tracking:
+  trigger_event: "Kärcher pressure-washing of the front courtyard, ~3-4h, 2026-09-26"
+  pem_day: 2
+  status: >
+    PEM now PROBABLE. At ~48h post-exertion the patient attributes today's
+    state to PEM from Saturday's (2026-09-26) activities: still strong
+    muscle pain/soreness (courbatures), marked fatigue, very little
+    productivity during awake time, and 4h daytime sleep (2h morning + 2h
+    afternoon). This is the confirming signal the 24-72h window predicted on
+    2026-09-27.
+  notes: >
+    Shift from 2026-09-27 ("NOT confirmed PEM") to 2026-09-28 ("probably
+    PEM"). Track whether the myalgia resolves on the usual 5-7 day PEM
+    timeline.
+
+pem_risk:
+  level: high
+  rationale: >
+    Patient now reports probable PEM at day 2: strong persistent generalized
+    courbatures + marked fatigue + very little productivity + 4h daytime
+    sleep, ~48h after the 2026-09-26 Kärcher exertion.
+  expected_onset: ~
+  monitoring: "Track fatigue/pain daily through 2026-10-04; confirm recovery timeline."
+
+hypotheses:
+  - id: karcher_pem_now_probable
+    text: >
+      At ~48h post-Kärcher (2026-09-28) the patient attributes the state to
+      PEM: strong persistent courbatures, marked fatigue, very little
+      productivity, and 4h daytime sleep. This confirms the post-exertional
+      mechanism that was only suspected on 2026-09-26/27. The 3-4h Kärcher
+      episode (sustained grip + vibration + repetitive arm/hand work) appears
+      to have induced a genuine PEM, unlike the 2026-07-17 ~5h chainsaw work
+      at the same LDA 1mg dose which produced no symptoms.
+    status: patient_hypothesis
+    falsifiable: true
+    test: >
+      Confirm by the recovery timeline: if courbatures/fatigue resolve on the
+      usual 5-7 day PEM course and function returns to baseline, supports PEM.
+      The exertion-profile contrast (sustained arm/hand-dominant vs heavy
+      intermittent) remains the open discriminator to test on future episodes.
+  - id: lda_effective_but_incomplete
+    text: >
+      Patient clarification (2026-09-27): aripiprazole (LDA) IS effective
+      but not perfect, and the patient could not do without it
+      ("l'aripiprazole est efficace mais pas parfaite et je ne pourrais m'en
+      passer"). It is indispensable, yet it does NOT cover the muscle-pain
+      axis ("l'aripiprazole n'améliore rien de ce côté-là"). So LDA is an
+      essential but PARTIAL therapy with an uncovered muscle dimension —
+      not an ineffective drug. Today's probable PEM at 1mg is consistent
+      with an LDA-uncovered muscle axis.
+    status: patient_hypothesis
+    falsifiable: true
+    test: >
+      Track both domains through future LDA changes: expect the
+      LDA-responsive domain (sleep / sleep-deprivation decoupling) to worsen
+      on reduction, while muscle pain remains unchanged at 0.75mg, 1mg, and
+      1.5mg — confirming an effective-but-incomplete profile.
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 19.0
+  temperature_max_c: 25.7
+  temperature_min_c: 13.1
+  humidity_pct: 69
+  pressure_msl_hpa: 1018.9
+  precipitation_mm: 0.0
+  wind_max_kmh: 8.1
+  conditions: ~
+  source: "Open-Meteo archive API (2026-09-28, lat 49.59/lon 5.82, elev 276m)"
