@@ -1,0 +1,20 @@
+---
+title: "Ein Hebel ohne Pille: der Vagus und der Locus coeruleus"
+description: "Transkutane Vagusnervstimulation könnte das Noradrenalin-Zentrum erreichen — ein medikamentenfreier Weg, das System zu testen."
+author: "Yannick Loth"
+date: "2026-10-13"
+categories: [Arousal system, Noradrenergic, Mechanisms]
+lang: de
+---
+
+Wenn das Problem ein Mangel an zentralem Noradrenalin ist, stellt sich die Frage, ob man es ohne Medikament erhöhen kann. Es gibt einen plausiblen Weg: den Vagusnerv.
+
+Vagale Afferenzen tragen Signale vom Körper zum Nucleus tractus solitarii im Hirnstamm, der zum **Locus coeruleus** projiziert — dem Haupt-Noradrenalin-Kern. Die transkutane aurikuläre Vagusnervstimulation (taVNS) setzt ein kleines elektrisches Signal am Ohr; Übersichten beschreiben sie als Aktivierung dieses Locus-coeruleus-Noradrenalin-Wegs (@Hilz2022taVNS). Bei Mäusen aktivierte taVNS noradrenalinproduzierende (TH-positive) Neurone im Locus coeruleus, die die Wirkung vermittelten (@Lv2024taVNSLC).
+
+**Warum attraktiv.** Anders als Stimulanzien drückt taVNS das System nicht mit einem Medikament, ist umkehrbar und dosierbar. Wenn es wirkt, ist es zugleich eine **Sonde**: ein sicherer Test, ob Noradrenalin-Erhöhung etwas Messbares verändert.
+
+**Die Grenzen.** Die Human-Evidenz liegt auf Übersichtsebene; die direkte Evidenz stammt aus Mäusen; ME/CFS-spezifische Daten sind vorläufig.
+
+**Wie man es wüsste.** Eine Studie könnte prüfen, ob taVNS ein nicht-invasives Noradrenalin-Maß verändert — Pupillen, Griffausdauer, ein Urin-Quotient — und, falls die Clearance-Schleife real ist, einen Clearance- oder Entzündungsmarker.
+
+*Keine Empfehlung — eine prüfbare Idee.*

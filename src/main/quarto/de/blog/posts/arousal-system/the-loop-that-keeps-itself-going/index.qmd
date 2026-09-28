@@ -1,0 +1,26 @@
+---
+title: "Die Schleife, die ME/CFS aufrechterhalten könnte"
+description: "Wenig Noradrenalin könnte die Hirnclearance beeinträchtigen und damit die Entzündung verschlimmern, die Noradrenalin unterdrückt — eine sich selbst verstärkende Schleife."
+author: "Yannick Loth"
+date: "2026-10-07"
+categories: [Arousal system, Noradrenergic, Mechanisms]
+lang: de
+---
+
+Viele chronische Erkrankungen werden sich selbst verstärkend genannt, aber eine Schleife ist nur dann ein ernsthafter Gedanke, wenn man die Pfeile benennen kann.
+
+Noradrenalin treibt langsame Vasomotion — das rhythmische Zusammenziehen von Gefäßen — die Liquor durch das Gehirn pumpt und im Schlaf Abfall ausspült (@Hauglund2025neVasomotion). Die Science-Übersicht von 2026 beschreibt Neuromodulatoren als die mechanische Kraft hinter dieser Clearance (@Nedergaard2026OscillatorySleep).
+
+Die Schleife:
+
+1. Zentrales Noradrenalin sinkt.
+2. Die Vasomotion wird schwächer, die Clearance fällt.
+3. Stoffwechselabfall und Entzündungssignale sammeln sich an.
+4. Neuroinflammation beeinträchtigt die Funktion des Locus coeruleus.
+5. Noradrenalin sinkt weiter. Zurück zu Schritt 1.
+
+Existiert diese Schleife, ist ME/CFS kein festes Defizit, sondern ein System, das langsam nach unten ratschen kann.
+
+**Was sie stützt und was nicht.** Der Pfeil Noradrenalin zu Clearance hat echte Evidenz (Tier-/Review-Ebene). Die Pfeile Clearance zu Entzündung zu Locus coeruleus sind abgeleitet, nicht in ME/CFS gemessen.
+
+**Eine konkurrierende Idee, die wir nicht verbergen.** Ein Arm hängt davon ab, ob Noradrenalin Neuroinflammation *unterdrückt*. Zwei Mausstudien widersprechen sich: eine fand, Noradrenalin unterdrücke die Mikroglia-Aktivität (@Bu2025NeuroMicrogliaNE); eine andere fand, dass Blockade des Noradrenalin-Signals die Entzündung senkte, nur bei weiblichen Tieren (@Evans2024LocusCoeruleusMicroglia). Die Richtung ist offen — die Schleife ist Hypothese, nicht Behauptung.

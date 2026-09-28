@@ -1,0 +1,20 @@
+---
+title: "Fatigué mais survolté : un éveil qui ne s'éteint pas"
+description: "Être épuisé mais incapable de dormir n'est pas la même chose que ne pas avoir sommeil. Le nommer le rend testable."
+author: "Yannick Loth"
+date: "2026-10-11"
+categories: [Arousal system, Noradrenergic, Mechanisms]
+lang: fr
+---
+
+« Fatigué mais survolté » est l'une des descriptions les plus fréquentes — et les moins étudiées.
+
+Il est facile de la classer sous « insomnie » ou « anxiété ». Une idée plus précise : c'est un **désaccord d'éveil** — le système qui allume et éteint l'éveil ne réussit pas la transition.
+
+La noradrénaline est l'interrupteur d'éveil du cerveau. Si sa production est à la fois basse *et* mal régulée, le système peut ne pas éteindre l'éveil au bon moment — produisant l'état épuisé mais hyperexcité (@OsorioForero2021NoradrenergicNREM; @Luthi2025MicroarousalsNoradrenaline).
+
+Cela diffère de la somnolence du cadre des « quatre visages de la fatigue ». Là, la personne ne dort pas parce qu'elle n'a pas sommeil. Ici, elle est profondément fatiguée mais ne peut pas s'éteindre.
+
+**Prudence.** Ce n'est pas une preuve de lésion noradrénergique. L'hyperéveil peut venir de cytokines, d'un axe du stress (HPA) dérégulé, de l'anxiété ou d'une hypersensibilité sensorielle. Un candidat, pas un diagnostic.
+
+**Comment le tester.** S'il s'agit d'un échec de transition, les mesures d'éveil — dynamique pupillaire, latence d'endormissement avec pression de sommeil préservée — devraient différer chez les patients rapportant ce motif et suivre la voie de la noradrénaline.

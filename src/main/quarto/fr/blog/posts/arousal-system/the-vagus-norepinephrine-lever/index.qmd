@@ -1,0 +1,20 @@
+---
+title: "Un levier sans pilule : le vague et le locus coeruleus"
+description: "La stimulation transcutanée du vague pourrait atteindre le centre de la noradrénaline — une voie non médicamenteuse pour tester le système."
+author: "Yannick Loth"
+date: "2026-10-13"
+categories: [Arousal system, Noradrenergic, Mechanisms]
+lang: fr
+---
+
+Si le problème est un manque de noradrénaline centrale, peut-on l'augmenter sans médicament ? Il existe une voie plausible : le nerf vague.
+
+Les afférences vagales portent des signaux du corps vers le noyau du tractus solitaire, qui projette vers le **locus coeruleus** — le principal noyau noradrénergique. La stimulation transcutanée auriculaire du vague (taVNS) applique un petit signal électrique à l'oreille ; les revues la décrivent comme activant cette voie locus coeruleus-noradrénaline (@Hilz2022taVNS). Chez la souris, la taVNS a activé les neurones noradrénergiques (TH-positifs) du locus coeruleus, qui étaient responsables de l'effet (@Lv2024taVNSLC).
+
+**Pourquoi c'est attrayant.** Contrairement aux stimulants, la taVNS ne pousse pas le système avec un médicament, est réversible et dosable. Si elle marche, c'est aussi une **sonde** : un test sûr.
+
+**Les limites.** Les preuves humaines sont au niveau des revues ; les preuves directes viennent de la souris ; les données EM/SFC sont préliminaires.
+
+**Comment on le saurait.** Un essai pourrait demander si la taVNS modifie une mesure non invasive de noradrénaline — pupilles, préhension, rapport urinaire — et, si la boucle de clairance est réelle, un marqueur de clairance ou d'inflammation.
+
+*Pas une recommandation — une idée testable.*

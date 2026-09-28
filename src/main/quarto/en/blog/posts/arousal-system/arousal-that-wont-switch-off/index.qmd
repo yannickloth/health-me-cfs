@@ -1,0 +1,21 @@
+---
+title: "Wired but tired: arousal that won't switch off"
+description: "Exhausted but unable to sleep is not the same as not being sleepy. Naming it makes it testable."
+author: "Yannick Loth"
+date: "2026-10-11"
+categories: [Arousal system, Noradrenergic, Mechanisms]
+---
+
+"Wired but tired" is one of the most common descriptions patients give — and one of the least examined. You are exhausted, but your system will not stand down. You cannot fall asleep, or cannot relax, even when you have no energy left.
+
+It is easy to file this under "insomnia" or "anxiety." A more specific idea is that it is an **arousal-mismatch**: the system that switches arousal on and off cannot make the transition it should.
+
+Norepinephrine is the brain's arousal switch. If its output is both low *and* poorly regulated, the system may fail to shut arousal off at the right time — producing the exhausted-but-hyperaroused state (@OsorioForero2021NoradrenergicNREM; @Luthi2025MicroarousalsNoradrenaline).
+
+This is distinct from the sleepiness state in the "four flavors of fatigue" framing. There, a person cannot sleep because they are genuinely not sleepy. Here, they are profoundly tired yet unable to switch off.
+
+**We should be careful.** "Wired but tired" is not proof of a norepinephrine lesion. Hyperarousal can also come from inflammatory cytokines, a dysregulated stress (HPA) axis, anxiety, or sensory hypersensitivity. So this is a candidate, not a diagnosis.
+
+**How to test it.** If it is an arousal-transition failure, then measures of arousal control — pupil dynamics, sleep-onset latency with preserved sleep pressure — should differ in patients who report the pattern, and should track the norepinephrine pathway. That is a testable prediction, not a vibe.
+
+*Why it matters:* giving a common, dismissed experience a mechanism makes it something research can study — and takes it out of the "it's just anxiety" bucket.

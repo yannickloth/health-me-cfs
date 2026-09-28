@@ -1,0 +1,21 @@
+---
+title: "Norepinephrine isn't a fuel — it's a regulator"
+description: "The brain chemical people call the alertness molecule does at least four jobs. That changes what a deficit would mean."
+author: "Yannick Loth"
+date: "2026-10-03"
+categories: [Arousal system, Noradrenergic, Mechanisms]
+---
+
+Norepinephrine is usually introduced as the "alertness" or "fight-or-flight" chemical. That is true but incomplete. Norepinephrine is better understood as a *regulator* — a signal that adjusts how other systems behave — and it has at least four jobs that matter for ME/CFS.
+
+**1. It sets arousal and sleep-state transitions.** Noradrenergic neurons in the locus coeruleus are active during wakefulness and quiet during sleep, and their activity sets the substates of non-REM sleep (@OsorioForero2021NoradrenergicNREM). Noradrenergic "microarousals" also sit at the centre of restorative sleep function (@Luthi2025MicroarousalsNoradrenaline).
+
+**2. It drives the pumping that clears the brain.** During sleep, norepinephrine drives slow waves of blood-vessel movement (vasomotion) that push cerebrospinal fluid through the brain and clear metabolic waste (@Hauglund2025neVasomotion; @Nedergaard2026OscillatorySleep).
+
+**3. It gates pain.** Descending pathways from the brainstem release norepinephrine in the spinal cord to damp pain signals (@Hayashida2019DescendingNoradrenergic). This is why drugs that raise norepinephrine are used for chronic pain.
+
+**4. It helps supply fuel.** Norepinephrine stimulates astrocytes — support cells — to break down glycogen and release lactate, the fuel neurons burn (@Hertz2015neGlycogenolysis; @Killeen2013neLactate).
+
+*Why this framing matters:* if the problem is a shortage of a fuel, you treat it by adding fuel. If the problem is a **regulator**, its failure shows up as disturbed sleep, poor clearance, pain amplification, and effort intolerance — and the fix is different.
+
+*A caveat:* this is a useful reframing, not proof. The added roles come from animal and general studies; they have not been measured in ME/CFS.

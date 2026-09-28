@@ -1,0 +1,20 @@
+---
+title: "Pupillen, Griffkraft und ein Urin-Quotient: das System ohne Lumbalpunktion testen"
+description: "Der Noradrenalin-Befund kam aus dem Liquor. Lässt sich dasselbe System von außen messen?"
+author: "Yannick Loth"
+date: "2026-10-15"
+categories: [Arousal system, Noradrenergic, Mechanisms]
+lang: de
+---
+
+Der Nachweis eines selektiven Noradrenalin-Mangels kam aus einer Lumbalpunktion — invasiv, einmalig. Für die Routine ungeeignet. Also: lässt sich dasselbe System von außen ablesen?
+
+Es gibt bereits Kandidaten:
+
+- **Pupillometrie.** Die Pupillengröße spiegelt noradrenerge Aktivität und ist in Sekunden messbar (@Kang2020Pupillometry). In einer Humanstudie erhöhte das NRI Atomoxetin die basale Pupillengröße, und die Änderung korrelierte mit der Verhaltensbesserung (@OCallaghan2025PupillaryNE).
+- **Griffausdauer.** In der Quellstudie korrelierte der Noradrenalin-Weg damit, wie lange jemand einen Griff halten konnte (r = 0,62) (@Aregawi2026Noradrenergic).
+- **Urin-VMA/HVA-Quotient.** Ein Verhältnis von Noradrenalin- zu Dopamin-Metaboliten, das den DBH-Schritt abbildet.
+
+Zusammen könnten sie eine **nicht-invasive Batterie** zur Stratifizierung bilden — und mit einem Zeittest den PEM-Absturz erfassen: Pupille und Griff alle paar Stunden über 72 Stunden nach einer kontrollierten Belastung messen.
+
+**Die Vorbehalte.** Keines dieser Maße ist in ME/CFS zusammen validiert; jedes wird von anderem beeinflusst (Licht, Medikamente, Anstrengung, Salz); und das Defizit ist unrepliziert. Aber das System ist ohne invasiven Eingriff *prüfbar*.

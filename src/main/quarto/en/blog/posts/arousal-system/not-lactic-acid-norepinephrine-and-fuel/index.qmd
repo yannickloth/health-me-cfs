@@ -1,0 +1,23 @@
+---
+title: "No, it's still not lactic acid — but norepinephrine is part of the fuel story"
+description: "Muscle soreness is not caused by lactic acid. But the arousal system does control how fuel reaches neurons — in the opposite direction to the myth."
+author: "Yannick Loth"
+date: "2026-10-17"
+categories: [Arousal system, Noradrenergic, Mechanisms]
+---
+
+The "lactic acid" explanation of muscle soreness refuses to die. It is wrong, and it is worth restating why: lactate clears within about an hour of exercise and does not follow the 24-to-72-hour soreness curve (@Miles1994musclePain). Soreness is mechanical micro-damage and inflammation. Keeping "lactic acid" as the culprit sends people chasing the wrong target.
+
+But there is a real norepinephrine-lactate connection — pointed in the **opposite** direction.
+
+Norepinephrine acts on support cells in the brain (astrocytes) to break down glycogen and release **lactate as fuel** for neurons (@Hertz2015neGlycogenolysis; @Killeen2013neLactate). In other words, norepinephrine helps *supply* fuel. It does not leave lactate behind as waste.
+
+That means, if anything, a norepinephrine deficit should **reduce** acute lactate availability — not create an "acid" overload. This fits the broader finding that norepinephrine and lactate rise *together* during exercise, and that β2-adrenergic signalling increases glycogen breakdown (@Jessen2020ClenbuterolLactate).
+
+So the correct statement is narrow and almost the opposite of the myth:
+
+- Soreness is not caused by lactate.
+- Norepinephrine is one of the signals that makes lactate *available* as fuel.
+- A norepinephrine deficit would impair fuel delivery, not cause a lactic-acid build-up.
+
+*Why it matters:* it replaces a folk explanation with a mechanism, and it stops an entire category of useless advice — "flush the lactic acid" — from being attached to a real problem.

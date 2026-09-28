@@ -1,0 +1,26 @@
+---
+title: "La boucle qui pourrait entretenir l'EM/SFC"
+description: "Une noradrénaline basse pourrait altérer la clairance cérébrale, aggravant l'inflammation qui supprime la noradrénaline — une boucle auto-entretenue."
+author: "Yannick Loth"
+date: "2026-10-07"
+categories: [Arousal system, Noradrenergic, Mechanisms]
+lang: fr
+---
+
+Beaucoup de maladies chroniques sont dites « auto-entretenues », mais une boucle n'est une idée sérieuse que si l'on peut nommer les flèches.
+
+La noradrénaline entraîne une lente vasomotion — la contraction rythmique des vaisseaux — qui pousse le liquide céphalorachidien et évacue les déchets pendant le sommeil (@Hauglund2025neVasomotion). La revue *Science* de 2026 décrit les neuromodulateurs comme la force mécanique de cette clairance (@Nedergaard2026OscillatorySleep).
+
+La boucle :
+
+1. La noradrénaline centrale baisse.
+2. La vasomotion faiblit, la clairance baisse.
+3. Les déchets et signaux inflammatoires s'accumulent.
+4. La neuroinflammation altère le locus coeruleus.
+5. La noradrénaline baisse encore. Retour à l'étape 1.
+
+Si cette boucle existe, l'EM/SFC n'est pas un déficit fixe mais un système qui peut descendre lentement.
+
+**Ce qui la soutient et ce qui ne la soutient pas.** La flèche noradrénaline vers clairance a de vraies preuves (animal/revue). Les flèches clairance vers inflammation vers locus coeruleus sont déduites, non mesurées dans l'EM/SFC.
+
+**Une idée concurrente que nous ne cachons pas.** Un bras dépend de savoir si la noradrénaline *supprime* la neuroinflammation. Deux études chez la souris se contredisent : l'une a trouvé que la noradrénaline supprimait l'activité microgliale (@Bu2025NeuroMicrogliaNE) ; l'autre a trouvé que bloquer le signal noradrénergique *réduisait* l'inflammation, chez les femelles seulement (@Evans2024LocusCoeruleusMicroglia). La direction est ouverte — c'est une hypothèse.

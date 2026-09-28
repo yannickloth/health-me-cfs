@@ -1,0 +1,19 @@
+---
+title: "Pupils, grip, and a urine ratio: testing the system without a lumbar puncture"
+description: "The norepinephrine finding came from cerebrospinal fluid. Can we test the same system from the outside?"
+author: "Yannick Loth"
+date: "2026-10-15"
+categories: [Arousal system, Noradrenergic, Mechanisms]
+---
+
+The discovery of a selective norepinephrine deficit came from a lumbar puncture — cerebrospinal fluid, collected invasively, once. That is fine for a study and useless for routine care. So the practical question is: can the same system be read from the outside?
+
+Several candidate measures already exist:
+
+- **Pupillometry.** Pupil size reflects noradrenergic activity, and it can be measured in seconds (@Kang2020Pupillometry). In a human drug study, the NRI atomoxetine raised baseline pupil diameter, and the change correlated with behavioural improvement (@OCallaghan2025PupillaryNE).
+- **Handgrip endurance.** In the source study, the norepinephrine pathway correlated with how long a patient could sustain a handgrip (r = 0.62) (@Aregawi2026Noradrenergic). A cheap, bedside measure.
+- **Urinary VMA/HVA ratio.** A ratio of norepinephrine to dopamine metabolites, reflecting the DBH step that the selectivity implicates.
+
+Put together, these could form a **non-invasive battery** to stratify patients — and, combined with a timing test, to capture the PEM crash: measure pupil and grip every few hours for 72 hours after a controlled exertion, and see whether they dip and recover on the same curve as symptoms. If the deficit causes PEM, that curve should exist.
+
+**The caveats are real.** None of these measures has been validated together in ME/CFS; each is affected by other things (light, drugs, effort, salt); and the underlying deficit is unreplicated. But the point is that the system is *testable* without an invasive procedure — which is what would make it clinically useful and would allow the replication study that the field actually needs.

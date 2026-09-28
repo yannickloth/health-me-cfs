@@ -1,0 +1,25 @@
+---
+title: "The Arousal System: a blog series on norepinephrine in ME/CFS"
+description: "Norepinephrine is usually called the brain's alertness chemical. In ME/CFS it may be doing something more structural — and the evidence is both promising and thin."
+author: "Yannick Loth"
+date: "2026-10-01"
+categories: [Arousal system, Noradrenergic, Mechanisms]
+---
+
+This series looks at one of the newest threads in ME/CFS research: a **selective deficit of central norepinephrine** — the brain's main arousal transmitter — and what it might explain.
+
+It is not a promise. The core finding comes from a single, small study and has not been replicated. But it connects several things patients report — effort intolerance, unrefreshing sleep, "wired but tired" — to one measurable system, and it makes testable predictions.
+
+**The parts:**
+
+1. [Norepinephrine isn't a fuel — it's a regulator](/en/blog/posts/arousal-system/what-norepinephrine-really-does/)
+2. [Why ME/CFS might be norepinephrine-low but dopamine-normal](/en/blog/posts/arousal-system/selective-norepinephrine-deficit/)
+3. [The loop that could keep ME/CFS going](/en/blog/posts/arousal-system/the-loop-that-keeps-itself-going/)
+4. [What a "norepinephrine drug" can and can't do](/en/blog/posts/arousal-system/what-a-norepinephrine-drug-can-and-cannot-do/)
+5. [Wired but tired: arousal that won't switch off](/en/blog/posts/arousal-system/arousal-that-wont-switch-off/)
+6. [A lever without a pill: the vagus and the locus coeruleus](/en/blog/posts/arousal-system/the-vagus-norepinephrine-lever/)
+7. [Pupils, grip, and a urine ratio: testing the system without a lumbar puncture](/en/blog/posts/arousal-system/testing-the-axis-without-a-lumbar-puncture/)
+8. [No, it's still not lactic acid — but norepinephrine is part of the fuel story](/en/blog/posts/arousal-system/not-lactic-acid-norepinephrine-and-fuel/)
+9. [The norepinephrine triangle: narcolepsy, POTS, and ME/CFS](/en/blog/posts/arousal-system/the-norepinephrine-triangle/)
+
+*A caveat that runs through the whole series: the central finding rests on one unreplicated cohort of 16 patients (@Aregawi2026Noradrenergic). Everything downstream is a hypothesis built on it.*

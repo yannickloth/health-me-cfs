@@ -1,0 +1,20 @@
+---
+title: "Pupilles, préhension et rapport urinaire : tester le système sans ponction lombaire"
+description: "Le résultat sur la noradrénaline vient du liquide céphalorachidien. Peut-on mesurer le même système de l'extérieur ?"
+author: "Yannick Loth"
+date: "2026-10-15"
+categories: [Arousal system, Noradrenergic, Mechanisms]
+lang: fr
+---
+
+La découverte d'un déficit sélectif de noradrénaline vient d'une ponction lombaire. Invasif, unique. Inutilisable en routine. Alors : peut-on lire le même système de l'extérieur ?
+
+Plusieurs mesures candidates existent déjà :
+
+- **Pupillométrie.** La taille de la pupille reflète l'activité noradrénergique et se mesure en secondes (@Kang2020Pupillometry). Dans une étude humaine, l'IRN atomoxétine a augmenté le diamètre pupillaire de base, corrélé à l'amélioration comportementale (@OCallaghan2025PupillaryNE).
+- **Force de préhension.** Dans l'étude source, la voie de la noradrénaline corrélait avec la durée de maintien d'une préhension (r = 0,62) (@Aregawi2026Noradrenergic).
+- **Rapport urinaire VMA/HVA.** Un rapport des métabolites de la noradrénaline et de la dopamine, reflétant l'étape DBH.
+
+Ensemble, ils pourraient former une **batterie non invasive** pour stratifier — et, avec un test temporel, capturer l'effondrement du PEM : pupille et préhension toutes les quelques heures pendant 72 heures après un effort contrôlé.
+
+**Les réserves.** Aucune de ces mesures n'est validée ensemble dans l'EM/SFC ; chacune est influencée par d'autres facteurs ; et le déficit n'est pas répliqué. Mais le système est *testable* sans geste invasif.

@@ -1,0 +1,27 @@
+---
+title: "The loop that could keep ME/CFS going"
+description: "Low norepinephrine could impair brain clearance, which could worsen the inflammation that suppresses norepinephrine — a self-reinforcing loop."
+author: "Yannick Loth"
+date: "2026-10-07"
+categories: [Arousal system, Noradrenergic, Mechanisms]
+---
+
+Many chronic illnesses are described as "self-reinforcing," but a loop is only a serious idea if you can name the arrows. Here is one candidate, built on the arousal system.
+
+Norepinephrine drives slow vasomotion — the rhythmic squeezing of blood vessels — that pumps cerebrospinal fluid through the brain and clears waste during sleep (@Hauglund2025neVasomotion). The 2026 *Science* review of sleep oscillations describes neuromodulators as the mechanical force behind this clearance (@Nedergaard2026OscillatorySleep).
+
+Now the loop:
+
+1. Central norepinephrine falls.
+2. Vasomotion weakens, so clearance falls.
+3. Metabolic waste and inflammatory signals accumulate.
+4. Neuroinflammation impairs locus-coeruleus function.
+5. Norepinephrine falls further. Back to step 1.
+
+If that loop exists, ME/CFS is not a fixed deficit — it is a system that can slowly ratchet downward, and progression is not "damage" so much as a loop tightening.
+
+**What supports it, and what does not.** The norepinephrine-to-clearance arrow has real evidence (animal and review level). The clearance-to-inflammation-to-locus-coeruleus arrows are inferred; they have not been measured in ME/CFS.
+
+**A competing idea we won't hide.** One arm of the loop depends on whether norepinephrine *suppresses* neuroinflammation. Two mouse studies disagree: one found norepinephrine suppressed microglial activity (@Bu2025NeuroMicrogliaNE); another found that blocking norepinephrine signalling *reduced* inflammation, in females only (@Evans2024LocusCoeruleusMicroglia). We do not yet know which direction holds — so this loop is a hypothesis, not a claim.
+
+*Why it matters:* if a loop drives progression, then treating one node (say, norepinephrine alone) may not be enough; the loop must be broken at more than one point.

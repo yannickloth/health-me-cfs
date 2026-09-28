@@ -1,0 +1,20 @@
+---
+title: "Warum ME/CFS noradrenalin-niedrig, aber dopamin-normal sein könnte"
+description: "Eine Liquorstudie von 2026 fand den Katecholamin-Mangel bei ME/CFS als selektiv: Noradrenalin niedrig, Dopamin normal. Die Selektivität ist der Hinweis."
+author: "Yannick Loth"
+date: "2026-10-05"
+categories: [Arousal system, Noradrenergic, Mechanisms]
+lang: de
+---
+
+Katecholamine sind eine Familie verwandter Hirnchemikalien: Dopamin, Noradrenalin und Adrenalin. Wäre einfach der Rohstoff oder ein gemeinsamer Kofaktor knapp, würde die ganze Familie sinken.
+
+Das ist nicht, was eine 2026er Analyse fand.
+
+Mithilfe von Liquor von Menschen mit ME/CFS und verwandten Erkrankungen bildeten Aregawi und Kollegen zusammengesetzte Indizes für die beiden Hauptwege. Der **Noradrenalin-Weg** (Noradrenalin plus seine Metaboliten DHPG und MHPG) war bei postinfektiösem ME/CFS und bei Post-COVID-Patienten mit Belastungsintoleranz (PEM) deutlich niedriger. Der **Dopamin-Weg** (Dopamin plus DOPAC und HVA) unterschied sich statistisch nicht von Gesunden (@Aregawi2026Noradrenergic). Innerhalb der Post-COVID-Gruppe war nur die PEM-Untergruppe niedrig.
+
+**Warum die Selektivität zählt.** Noradrenalin entsteht *aus* Dopamin durch das Enzym Dopamin-beta-Hydroxylase (DBH). DBH sitzt in synaptischen Vesikeln und braucht eine energiegetriebene Pumpe (ATP), um sein Substrat zu beladen. Zytoplasmatisches Dopamin braucht diesen Schritt nicht.
+
+Ein **Energiemangel am Vesikel** würde also die Umwandlung Dopamin zu Noradrenalin blockieren und Dopamin intakt lassen — genau das beobachtete selektive Muster, passend zu einer Erkrankung mit Energieversorgungsproblem.
+
+**Die ehrlichen Vorbehalte.** Die Studie war klein (n=16 in der ME/CFS-Gruppe), aus einem Zentrum, mit einem neuen zusammengesetzten Index, und nicht unabhängig repliziert. Körperliche Dekonditionierung könnte Noradrenalin senken, ohne Symptome zu verursachen; diese Verwechslung ist nicht ausgeschlossen. Die *Selektivität* ist der interessanteste Teil — und der, der am dringendsten repliziert werden muss.

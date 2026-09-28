@@ -1,0 +1,20 @@
+---
+title: "Müde, aber aufgedreht: Arousal, das sich nicht abschaltet"
+description: "Erschöpft, aber unfähig zu schlafen ist nicht dasselbe wie nicht müde. Es zu benennen macht es prüfbar."
+author: "Yannick Loth"
+date: "2026-10-11"
+categories: [Arousal system, Noradrenergic, Mechanisms]
+lang: de
+---
+
+Müde, aber aufgedreht ist eine der häufigsten Beschreibungen Betroffener — und eine der am wenigsten untersuchten. Man ist erschöpft, aber das System kommt nicht zur Ruhe.
+
+Es ist leicht, das unter Insomnie oder Angst abzulegen. Eine genauere Idee: es ist ein **Arousal-Mismatch** — das System, das Arousal ein- und ausschaltet, schafft den Übergang nicht.
+
+Noradrenalin ist der Arousal-Schalter des Gehirns. Ist seine Ausgabe zugleich niedrig *und* schlecht reguliert, kann das System Arousal nicht rechtzeitig abschalten — der erschöpfte, aber übererregte Zustand (@OsorioForero2021NoradrenergicNREM; @Luthi2025MicroarousalsNoradrenaline).
+
+Das unterscheidet sich von der Schläfrigkeit im Vier-Gesichter-der-Fatigue-Rahmen. Dort kann jemand nicht schlafen, weil er wirklich nicht müde ist. Hier ist man zutiefst müde und kann trotzdem nicht abschalten.
+
+**Vorsicht.** Müde, aber aufgedreht ist kein Beweis einer Noradrenalin-Läsion. Übererregung kann auch von Zytokinen, einer dysregulierten Stressachse (HPA), Angst oder sensorischer Überempfindlichkeit kommen. Also ein Kandidat, keine Diagnose.
+
+**Wie man es testet.** Ist es ein Übergangsfehler, sollten Arousal-Maße — Pupillendynamik, Einschlaflatenz bei erhaltem Schlafdruck — bei Betroffenen mit diesem Muster abweichen und dem Noradrenalin-Weg folgen.

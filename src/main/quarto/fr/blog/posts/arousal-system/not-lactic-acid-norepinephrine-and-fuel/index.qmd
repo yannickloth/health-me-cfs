@@ -1,0 +1,22 @@
+---
+title: "Non, ce n'est toujours pas l'acide lactique — mais la noradrénaline fait partie de l'histoire du carburant"
+description: "Les courbatures ne sont pas causées par l'acide lactique. Mais le système d'éveil contrôle l'apport de carburant aux neurones — à l'opposé du mythe."
+author: "Yannick Loth"
+date: "2026-10-17"
+categories: [Arousal system, Noradrenergic, Mechanisms]
+lang: fr
+---
+
+L'explication par « l'acide lactique » refuse de mourir. Elle est fausse : le lactate est éliminé en une heure environ et ne suit pas la courbe des courbatures de 24 à 72 heures (@Miles1994musclePain). Les courbatures sont une micro-lésion mécanique et une inflammation.
+
+Mais il existe un vrai lien noradrénaline-lactate — dans la direction **opposée**.
+
+La noradrénaline agit sur les astrocytes pour dégrader le glycogène et libérer du **lactate comme carburant** (@Hertz2015neGlycogenolysis; @Killeen2013neLactate). La noradrénaline aide donc à *fournir* le carburant.
+
+Un déficit de noradrénaline devrait donc **réduire** le lactate aigu, non créer un excès d'acide. Ce qui est cohérent avec le fait que noradrénaline et lactate montent ensemble à l'effort, et que le signal bêta2-adrénergique augmente la glycogénolyse (@Jessen2020ClenbuterolLactate).
+
+L'affirmation correcte est étroite et presque l'inverse du mythe :
+
+- Les courbatures ne sont pas causées par le lactate.
+- La noradrénaline fait partie des signaux qui rendent le lactate *disponible* comme carburant.
+- Un déficit de noradrénaline altère la fourniture de carburant, pas une surcharge acide.

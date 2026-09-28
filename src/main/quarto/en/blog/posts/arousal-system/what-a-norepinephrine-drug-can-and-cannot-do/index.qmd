@@ -1,0 +1,29 @@
+---
+title: "What a "norepinephrine drug" can and can't do"
+description: "If the deficit is real, which symptoms should improve — and which should not? A symptom-by-symptom expectation map."
+author: "Yannick Loth"
+date: "2026-10-09"
+categories: [Arousal system, Noradrenergic, Mechanisms]
+---
+
+Suppose the selective norepinephrine deficit is real, and you take a drug that raises norepinephrine signalling — an NRI like atomoxetine, or a wake-promoter like solriamfetol. What should you expect?
+
+The honest answer follows from what the deficit *correlates with*. In the source study, the norepinephrine pathway tracked **handgrip endurance and fatigue scores** — motor output and global health perception — and the largest reduction was in the **PEM subgroup** (@Aregawi2026Noradrenergic).
+
+**Reasonable to expect (modestly):**
+- **Fatigue / effort-motor endurance** — the strongest, if still cross-sectional, signal.
+- **Post-exertional malaise** — plausible; the deficit tracks PEM status.
+
+**Possible but weaker:** unrefreshing sleep and arousal stability — the role of norepinephrine in sleep substates is animal evidence (@OsorioForero2021NoradrenergicNREM).
+
+**Do not expect, from this pathway:**
+- **Orthostatic intolerance / POTS** — the study found *no* relationship between the norepinephrine pathway and orthostatic blood pressure or heart rate.
+- **Mood and anxiety** — no correlation either.
+- **Muscle soreness** — a different mechanism, and not lactate-driven.
+- **Lactate changes** — norepinephrine signalling *raises* acute lactate, so a deficit should lower it, not raise it.
+
+**The trap: masking.** Stimulant-type drugs that raise arousal and effort drive can make you *feel* more capable without restoring energy — so you do more and crash harder. If a drug improves how you feel but increases PEM frequency, it is masking the problem, not fixing it.
+
+**And the hard limit:** no ME/CFS trial of any of these drugs has used PEM as an endpoint. Human data are indirect — from orthostatic hypotension, narcolepsy, MS, and fibromyalgia. The one ME/CFS-adjacent trial, of solriamfetol, improved fatigue and executive function but did not measure PEM (@Young2025solriamfetol). Amantadine, a release enhancer, *failed* to help MS fatigue (@Cruccioli2026AmantadineMSfatigue).
+
+*This is not medical advice. Any trial of these drugs belongs with a clinician, with pacing and baseline autonomic checks.*

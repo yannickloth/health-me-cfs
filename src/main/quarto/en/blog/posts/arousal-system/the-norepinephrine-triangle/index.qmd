@@ -1,0 +1,15 @@
+---
+title: "The norepinephrine triangle: narcolepsy, POTS, and ME/CFS"
+description: "ME/CFS shares an arousal problem with narcolepsy and a treatment fork with POTS. The overlaps are informative — if stated carefully."
+author: "Yannick Loth"
+date: "2026-10-19"
+categories: [Arousal system, Noradrenergic, Mechanisms]
+---
+
+Norepinephrine sits at the centre of several conditions that ME/CFS is often compared with. Mapping them reveals both real connections and traps.
+
+**Narcolepsy — an arousal problem with a different cause.** Narcolepsy is caused by loss of hypocretin (orexin)-producing neurons. Orexin and the locus-coeruleus norepinephrine system are both waking systems, so it is tempting to lump them. The details resist that: a direct study found orexin had *minimal* effect on excitatory inputs to the locus coeruleus (@Barcomb2022LCexcitatoryInputs), while hypocretin acting *within* the locus coeruleus mediated stress-related sleep disruption (@Lo2022HypocretinLC). So the coupling is state- and stress-dependent, not a simple "orexin drives norepinephrine." Whether ME/CFS arousal symptoms are primarily a norepinephrine problem, an orexin problem, or both is unresolved — and it decides which drugs make sense.
+
+**POTS — a treatment fork.** In orthostatic intolerance, the response to a norepinephrine drug can reveal where the lesion is. Peripheral sympathetic denervation responds to norepinephrine *precursors* (droxidopa, midodrine); central autonomic failure responds to norepinephrine *reuptake inhibitors* (atomoxetine) (@Park2020OHpharmacologic; @Palma2020OHmanagement). If that fork transfers to ME/CFS with POTS, drug response becomes a subtype test.
+
+**Why the triangle matters.** These overlaps are not a slogan that "it's all the same disease." They are specific, testable differences — and getting them right is how a vague "norepinephrine" story becomes a set of decisions a clinician can act on.

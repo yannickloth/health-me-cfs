@@ -1,0 +1,20 @@
+---
+title: "Pourquoi l'EM/SFC pourrait être noradrénaline-bas mais dopamine-normal"
+description: "Une étude du LCR de 2026 a trouvé un déficit sélectif : noradrénaline basse, dopamine normale. La sélectivité est l'indice."
+author: "Yannick Loth"
+date: "2026-10-05"
+categories: [Arousal system, Noradrenergic, Mechanisms]
+lang: fr
+---
+
+Les catécholamines forment une famille : dopamine, noradrénaline et adrénaline. Si la matière première ou un cofacteur commun manquait, toute la famille baisserait.
+
+Ce n'est pas ce qu'a trouvé une analyse de 2026.
+
+À partir du liquide céphalorachidien de personnes atteintes d'EM/SFC et d'affections proches, Aregawi et ses collègues ont construit des indices composites pour les deux voies principales. La **voie de la noradrénaline** (noradrénaline plus ses métabolites DHPG et MHPG) était significativement plus basse dans l'EM/SFC post-infectieux et chez les patients post-COVID avec malaise post-effort. La **voie de la dopamine** (dopamine plus DOPAC et HVA) était statistiquement indiscernable des témoins (@Aregawi2026Noradrenergic). Dans le groupe post-COVID, seul le sous-groupe avec PEM était bas.
+
+**Pourquoi la sélectivité compte.** La noradrénaline est fabriquée *à partir* de la dopamine par la dopamine-bêta-hydroxylase (DBH). La DBH se trouve dans les vésicules synaptiques et a besoin d'une pompe alimentée par l'ATP pour charger son substrat. La dopamine cytoplasmique n'a pas besoin de cette étape.
+
+Un **manque d'énergie au niveau de la vésicule** bloquerait donc la conversion dopamine vers noradrénaline tout en laissant la dopamine intacte — exactement le motif sélectif observé, cohérent avec une maladie du métabolisme énergétique.
+
+**Les réserves honnêtes.** L'étude était petite (n=16 dans le bras EM/SFC), d'un seul centre, avec un indice composite nouveau, et non répliquée. Le déconditionnement physique pourrait abaisser la noradrénaline sans causer de symptômes ; ce facteur n'est pas écarté. La *sélectivité* est la partie la plus intéressante — et la plus urgente à répliquer.

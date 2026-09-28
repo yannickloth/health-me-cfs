@@ -1,0 +1,16 @@
+---
+title: "Le triangle de la noradrénaline : narcolepsie, POTS et EM/SFC"
+description: "L'EM/SFC partage un problème d'éveil avec la narcolepsie et une bifurcation thérapeutique avec le POTS."
+author: "Yannick Loth"
+date: "2026-10-19"
+categories: [Arousal system, Noradrenergic, Mechanisms]
+lang: fr
+---
+
+La noradrénaline est au centre de plusieurs affections auxquelles l'EM/SFC est souvent comparé.
+
+**Narcolepsie — un problème d'éveil d'une autre cause.** La narcolepsie résulte de la perte des neurones à hypocrétine (orexine). L'orexine et le système locus coeruleus-noradrénaline sont tous deux des systèmes d'éveil, mais les détails s'opposent à une assimilation : une étude directe a trouvé que l'orexine avait un effet *minime* sur les entrées excitatrices du locus coeruleus (@Barcomb2022LCexcitatoryInputs), tandis que l'hypocrétine *au sein* du locus coeruleus était responsable de les troubles du sommeil liés au stress (@Lo2022HypocretinLC). Savoir si les symptômes d'éveil de l'EM/SFC sont surtout noradrénergiques, orexinergiques ou communs reste ouvert.
+
+**POTS — une bifurcation thérapeutique.** Dans l'intolérance orthostatique, la réponse à un médicament noradrénergique peut révéler où est la lésion. La dénervation sympathique périphérique répond aux *précurseurs* (droxidopa, midodrine) ; la défaillance autonome centrale aux *inhibiteurs de recapture* (atomoxétine) (@Park2020OHpharmacologic; @Palma2020OHmanagement).
+
+**Pourquoi le triangle compte.** Ces recoupements ne sont pas un slogan, mais des différences concrètes et testables.

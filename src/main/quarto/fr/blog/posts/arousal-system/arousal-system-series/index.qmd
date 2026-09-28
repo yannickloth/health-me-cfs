@@ -1,0 +1,26 @@
+---
+title: "Le système d'éveil : une série de blog sur la noradrénaline dans l'EM/SFC"
+description: "La noradrénaline est souvent présentée comme la molécule de l'éveil. Dans l'EM/SFC, elle pourrait jouer un rôle plus structurel — les preuves sont à la fois prometteuses et minces."
+author: "Yannick Loth"
+date: "2026-10-01"
+categories: [Arousal system, Noradrenergic, Mechanisms]
+lang: fr
+---
+
+Cette série examine l'un des fils les plus récents de la recherche sur l'EM/SFC : un **déficit sélectif de noradrénaline centrale** — le principal neurotransmetteur d'éveil du cerveau — et ce qu'il pourrait expliquer.
+
+Ce n'est pas une promesse. Le résultat central vient d'une seule petite étude, non répliquée. Mais il relie plusieurs choses que rapportent les patients — intolérance à l'effort, sommeil non réparateur, « fatigué mais survolté » — à un système mesurable, et il fait des prédictions testables.
+
+**Les parties :**
+
+1. [La noradrénaline n'est pas un carburant — c'est un régulateur](/fr/blog/posts/arousal-system/what-norepinephrine-really-does/)
+2. [Pourquoi l'EM/SFC pourrait être noradrénaline-bas mais dopamine-normal](/fr/blog/posts/arousal-system/selective-norepinephrine-deficit/)
+3. [La boucle qui pourrait entretenir l'EM/SFC](/fr/blog/posts/arousal-system/the-loop-that-keeps-itself-going/)
+4. [Ce qu'un « médicament noradrénergique » peut et ne peut pas faire](/fr/blog/posts/arousal-system/what-a-norepinephrine-drug-can-and-cannot-do/)
+5. [Fatigué mais survolté : un éveil qui ne s'éteint pas](/fr/blog/posts/arousal-system/arousal-that-wont-switch-off/)
+6. [Un levier sans pilule : le vague et le locus coeruleus](/fr/blog/posts/arousal-system/the-vagus-norepinephrine-lever/)
+7. [Pupilles, force de préhension et un rapport urinaire : tester le système sans ponction lombaire](/fr/blog/posts/arousal-system/testing-the-axis-without-a-lumbar-puncture/)
+8. [Non, ce n'est toujours pas l'acide lactique — mais la noradrénaline fait partie de l'histoire du carburant](/fr/blog/posts/arousal-system/not-lactic-acid-norepinephrine-and-fuel/)
+9. [Le triangle de la noradrénaline : narcolepsie, POTS et EM/SFC](/fr/blog/posts/arousal-system/the-norepinephrine-triangle/)
+
+*Une réserve traverse toute la série : le résultat central repose sur une cohorte non répliquée de 16 patients (@Aregawi2026Noradrenergic). Tout le reste est une hypothèse construite dessus.*

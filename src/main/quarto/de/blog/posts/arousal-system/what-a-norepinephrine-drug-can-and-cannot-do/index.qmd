@@ -1,0 +1,30 @@
+---
+title: "Was ein Noradrenalin-Medikament kann und nicht kann"
+description: "Wenn das Defizit real ist: welche Symptome sollten sich bessern — und welche nicht?"
+author: "Yannick Loth"
+date: "2026-10-09"
+categories: [Arousal system, Noradrenergic, Mechanisms]
+lang: de
+---
+
+Angenommen, der selektive Noradrenalin-Mangel ist real, und man nimmt ein Medikament, das Noradrenalin verstärkt — ein NRI wie Atomoxetin oder ein Wachmacher wie Solriamfetol. Was ist zu erwarten?
+
+Die ehrliche Antwort folgt daraus, womit das Defizit *korreliert*. In der Quellstudie folgte der Noradrenalin-Weg der **Griffausdauer und Fatigue-Werten** — motorische Leistung und allgemeine Gesundheit — und die größte Reduktion lag in der **PEM-Untergruppe** (@Aregawi2026Noradrenergic).
+
+**Vernünftig zu erwarten (bescheiden):**
+- **Fatigue und Ausdauer** — das stärkste, wenn auch nur querschnittliche Signal.
+- **Belastungsintoleranz (PEM)** — plausibel; das Defizit folgt dem PEM-Status.
+
+**Möglich, aber schwächer:** nicht erholsamer Schlaf und Arousal-Stabilität — die Rolle in Schlafsubstadien ist Tier-Evidenz (@OsorioForero2021NoradrenergicNREM).
+
+**Nicht zu erwarten, über diesen Weg:**
+- **Orthostatische Intoleranz und POTS** — die Studie fand *keinen* Zusammenhang mit orthostatischem Blutdruck oder Herzfrequenz.
+- **Stimmung und Angst** — ebenfalls keine Korrelation.
+- **Muskelkater** — anderer Mechanismus, nicht laktatgetrieben.
+- **Laktatänderungen** — Noradrenalin *erhöht* akutes Laktat; ein Mangel sollte es senken, nicht erhöhen.
+
+**Die Falle: Maskierung.** Stimulanzartige Medikamente können mehr Leistungsfähigkeit fühlen lassen, ohne Energie wiederherzustellen — man tut mehr und stürzt stärker ab.
+
+**Und die harte Grenze:** keine ME/CFS-Studie hat PEM als Endpunkt genutzt. Die Human-Daten sind indirekt (orthostatische Hypotonie, Narkolepsie, MS, Fibromyalgie). Die einzige ME/CFS-nahe Studie (Solriamfetol) verbesserte Fatigue und Exekutivfunktion, maß PEM aber nicht (@Young2025solriamfetol). Amantadin, ein Freisetzungsverstärker, half bei MS-Fatigue *nicht* (@Cruccioli2026AmantadineMSfatigue).
+
+*Keine medizinische Beratung. Jeder Versuch gehört zu einer Ärztin oder einem Arzt, mit Pacing und autonomer Ausgangsdiagnostik.*

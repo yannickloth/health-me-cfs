@@ -1,0 +1,19 @@
+---
+title: "Why ME/CFS might be norepinephrine-low but dopamine-normal"
+description: "A 2026 CSF study found the catecholamine deficit in ME/CFS is selective: norepinephrine down, dopamine normal. The selectivity is the clue."
+author: "Yannick Loth"
+date: "2026-10-05"
+categories: [Arousal system, Noradrenergic, Mechanisms]
+---
+
+Catecholamines are a family of related brain chemicals: dopamine, norepinephrine, and epinephrine. If the body simply ran low on the raw material or a shared cofactor, you would expect the whole family to fall together.
+
+That is not what a 2026 analysis found.
+
+Using cerebrospinal fluid from people with ME/CFS and related conditions, Aregawi and colleagues built composite indices for the two main pathways. The **norepinephrine pathway** (norepinephrine plus its metabolites DHPG and MHPG) was significantly lower in post-infectious ME/CFS and in post-COVID patients with post-exertional malaise. The **dopamine pathway** (dopamine plus its metabolites DOPAC and HVA) was statistically indistinguishable from healthy controls (@Aregawi2026Noradrenergic). Within the post-COVID group, only the subgroup with PEM was low.
+
+**Why selectivity matters.** Norepinephrine is made *from* dopamine by an enzyme called dopamine-β-hydroxylase (DBH). DBH sits inside synaptic vesicles — small packets — and needs an energy-driven pump (ATP) to load its substrate. Cytoplasmic dopamine does not need that step.
+
+So a shortage of **energy at the vesicle** would block the dopamine-to-norepinephrine conversion while leaving dopamine itself intact. That is exactly the selective pattern observed — and it fits a disease built on an energy-supply problem.
+
+**The honest caveats.** The study was small (n=16 in the ME/CFS arm), from a single centre, used a novel composite index, and has not been independently replicated. Physical deconditioning could lower norepinephrine without causing symptoms; that confound has not been eliminated. The *selectivity* is the most interesting part of the finding — and the part most in need of replication.

@@ -1,0 +1,16 @@
+---
+title: "Das Noradrenalin-Dreieck: Narkolepsie, POTS und ME/CFS"
+description: "ME/CFS teilt ein Arousal-Problem mit Narkolepsie und eine Behandlungsgabelung mit POTS."
+author: "Yannick Loth"
+date: "2026-10-19"
+categories: [Arousal system, Noradrenergic, Mechanisms]
+lang: de
+---
+
+Noradrenalin steht im Zentrum mehrerer Erkrankungen, mit denen ME/CFS oft verglichen wird.
+
+**Narkolepsie — ein Arousal-Problem mit anderer Ursache.** Narkolepsie entsteht durch Verlust Hypocretin (Orexin)-produzierender Neurone. Orexin und das Locus-coeruleus-Noradrenalin-System sind beides Wachsysteme, aber die Details widersprechen einer Gleichsetzung: eine direkte Studie fand, dass Orexin *minimalen* Effekt auf exzitatorische Eingänge zum Locus coeruleus hatte (@Barcomb2022LCexcitatoryInputs), während Hypocretin *innerhalb* des Locus coeruleus stressbezogene Schlafstörungen vermittelte (@Lo2022HypocretinLC). Ob ME/CFS-Arousal-Symptome primär ein Noradrenalin-, ein Orexin- oder ein gemeinsames Problem sind, ist offen.
+
+**POTS — eine Behandlungsgabelung.** Bei orthostatischer Intoleranz kann die Reaktion auf ein Noradrenalin-Medikament zeigen, wo die Läsion liegt. Periphere sympathische Denervierung spricht auf Noradrenalin-*Vorstufen* (Droxidopa, Midodrin) an; zentrales autonomes Versagen auf *Wiederaufnahmehemmer* (Atomoxetin) (@Park2020OHpharmacologic; @Palma2020OHmanagement).
+
+**Warum das Dreieck zählt.** Diese Überschneidungen sind kein Slogan, sondern konkrete, prüfbare Unterschiede.

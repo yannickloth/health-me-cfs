@@ -1,0 +1,22 @@
+---
+title: "Nein, es ist immer noch keine Milchsäure — aber Noradrenalin gehört zur Brennstoffgeschichte"
+description: "Muskelkater entsteht nicht durch Milchsäure. Aber das Arousal-System steuert, wie Brennstoff zu Neuronen gelangt — entgegen dem Mythos."
+author: "Yannick Loth"
+date: "2026-10-17"
+categories: [Arousal system, Noradrenergic, Mechanisms]
+lang: de
+---
+
+Die Milchsäure-Erklärung des Muskelkaters will nicht verschwinden. Sie ist falsch: Laktat ist nach etwa einer Stunde abgebaut und folgt nicht der 24- bis 72-Stunden-Kurve (@Miles1994musclePain). Kater ist mechanische Mikroschädigung und Entzündung.
+
+Es gibt aber eine echte Noradrenalin-Laktat-Verbindung — in die **entgegengesetzte** Richtung.
+
+Noradrenalin wirkt auf Stützzellen (Astrozyten), Glykogen abzubauen und **Laktat als Brennstoff** freizusetzen (@Hertz2015neGlycogenolysis; @Killeen2013neLactate). Noradrenalin hilft also, Brennstoff zu *liefern*.
+
+Ein Noradrenalin-Mangel sollte daher akutes Laktat **senken**, nicht eine Säure erzeugen. Das passt dazu, dass Noradrenalin und Laktat bei Belastung zusammen steigen und beta2-adrenerges Signal den Glykogenabbau erhöht (@Jessen2020ClenbuterolLactate).
+
+Die korrekte Aussage ist schmal und fast das Gegenteil des Mythos:
+
+- Kater entsteht nicht durch Laktat.
+- Noradrenalin ist eines der Signale, die Laktat als Brennstoff *verfügbar* machen.
+- Ein Noradrenalin-Mangel beeinträchtigt die Brennstofflieferung, nicht einen Säureüberschuss.
