@@ -1,0 +1,149 @@
+date: 2026-09-26
+
+sleep:
+  previous_night:
+    date: 2026-09-25
+    quality: ~
+    notes: "Not logged in detail."
+    source: patient_report
+    disruption_cause: ~
+
+medications_supplements:
+  prescribed_medications:
+    - "Aripiprazole (LDA) 1mg/day active (restored to 1mg ~2026-09-19 after failed 0.75/1.5mg trials)"
+    - "LDN 4mg/day active"
+    - "Rupatadine 20-30mg/day (3 pills) active"
+    - "Famotidine 20mg/day active"
+    - "Montelukast 10mg/day active"
+    - "Mestinon 1 pill/day active (time-boxed low-dose retrial since 2026-08-19)"
+    - "Ritalin MR 10mg intermittent (every few days)"
+  supplements:
+    - "Electrolyte mix in water"
+  notes: "Regimen per current-regimen.yaml (last_updated 2026-09-19). Whether each dose was taken on 2026-09-26 not confirmed (~)."
+
+symptoms:
+  muscle_pain:
+    severity: notable
+    location: ["arms", "hands"]
+    character: "lactic-acid type (type acide lactique) — burning/fatigued muscle sensation"
+    onset: "abnormally EARLY relative to the exertion — patient flags 'trop rapidement, en réalité'"
+    trigger: "Kärcher pressure-washing of the front courtyard"
+    chronicity: "acute, onset during activity"
+    symmetry: "bilateral (both arms, both hands)"
+    notes: >
+      During Kärcher cleaning of the front courtyard, lactic-acid-type pain
+      arose in the ARMS and HANDS far too early for the workload. This early,
+      disproportionate onset is the notable event of the day. Duration of
+      activity before onset not precisely timed.
+  headache:
+    severity: none
+    type: "suspected ME/CFS-type — NOT confirmed, did not develop"
+    notes: >
+      Activity STOPPED at a SUSPICION of an ME/CFS-type headache. The
+      headache did NOT develop. No headache present. Patient terminated
+      exertion on the suspicion (protective self-termination).
+  fatigue:
+    severity: low
+    notes: "Day overall rather good (patient report). No notable fatigue on the exertion day."
+  overall:
+    severity: mild-to-notable
+    notes: >
+      A rather GOOD day overall. The single notable event was the early
+      lactic-acid-type arm/hand pain during Kärcher work. A headache was
+      only suspected; none developed.
+
+overall_wellbeing: "Rather good day (patient report), apart from the early arm/hand pain during exertion."
+
+activity:
+  activity_level:
+    - description: "Kärcher (pressure washer) — cleaning the front courtyard of the house."
+      exertion_level: high
+      duration_min: "180-240 (3-4h)"
+      time_of_day: ~
+      notes: >
+        Sustained upright/forward-posture work: repetitive arm/hand motion,
+        gripping the lance, whole-body vibration, possible damp/cold exposure.
+        Lactic-acid-type pain in arms/hands came on abnormally early. Stopped
+        on a headache SUSPICION that did not develop.
+  unable_to_rest: ~
+  notes: "Kärcher courtyard cleaning 3-4h; stopped on an unconfirmed headache suspicion."
+
+pem_tracking:
+  trigger_event: "Kärcher pressure-washing of the front courtyard, ~3-4h, 2026-09-26"
+  pem_day: ~
+  status: >
+    Exertion day, but a rather good day overall. Early lactic-acid-type
+    arm/hand pain was the notable event; a headache was only SUSPECTED and
+    did not develop. Insufficient to assert PEM. Watch post-exertional
+    muscle symptoms over the next 24-48h.
+  notes: >
+    PEM not affirmable at this point. Do not infer PEM from a headache
+    suspicion alone. Muscle symptoms are the axis to track.
+
+pem_risk:
+  level: moderate
+  rationale: >
+    3-4h high-exertion activity (repetitive arm/hand work + vibration +
+    forward posture) with early disproportionate arm/hand pain. A headache
+    was suspected but did not develop; no confirmed systemic PEM features.
+    Elevated watch, not a confirmed PEM.
+  expected_onset: ~
+  monitoring: "Track post-exertional muscle symptoms 2026-09-26 → 2026-09-29."
+
+hypotheses:
+  - id: karcher_early_lactic_pain_metabolic
+    text: >
+      Lactic-acid-type arm/hand pain appeared abnormally EARLY during
+      Kärcher work, too early for normal lactate kinetics. Disproportionate
+      early exertional metabolite/pain signals impaired oxidative metabolism
+      or early energy-envelope breach, not normal exercise lactate.
+    status: patient_hypothesis
+    falsifiable: true
+    test: >
+      Compare onset time-to-pain across exertion types and workloads. If
+      lactic-acid-type pain consistently arrives far earlier than expected
+      for the load, supports an early metabolic/energetic limit; if it tracks
+      load normally, the early onset is attributable to the specific
+      arm/hand posture and grip work.
+  - id: lda_effective_but_incomplete
+    text: >
+      Patient clarification (2026-09-27): aripiprazole (LDA) IS effective
+      but not perfect, and the patient could not do without it
+      ("l'aripiprazole est efficace mais pas parfaite et je ne pourrais m'en
+      passer"). It is indispensable, yet it does NOT cover the muscle-pain
+      axis ("l'aripiprazole n'améliore rien de ce côté-là"). So LDA is an
+      essential but PARTIAL therapy with an uncovered muscle dimension —
+      not an ineffective drug.
+    status: patient_hypothesis
+    falsifiable: true
+    test: >
+      Track both domains through future LDA changes: expect the
+      LDA-responsive domain (sleep / sleep-deprivation decoupling) to worsen
+      on reduction, while muscle pain remains unchanged at 0.75mg, 1mg, and
+      1.5mg — confirming an effective-but-incomplete profile.
+  - id: karcher_exertion_profile_trigger
+    text: >
+      Post-exertional symptoms followed 3-4h Kärcher work at LDA 1mg.
+      Contrast: 2026-07-17 at 1mg, ~5h chainsaw work produced no such
+      symptoms. Sustained grip + vibration + repetitive arm/hand motion +
+      forward posture may be a stronger trigger for this patient than heavy
+      intermittent work. Open question; whether this is PEM remains
+      unconfirmed.
+    status: patient_hypothesis
+    falsifiable: true
+    test: >
+      Log future 1mg-dose exertion episodes by type. Repeated post-exertional
+      symptoms after arm/hand-dominant sustained work, with none after heavy
+      intermittent work, implicates the exertion profile.
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 16.5
+  temperature_max_c: 24.1
+  temperature_min_c: 10.0
+  humidity_pct: 55
+  pressure_msl_hpa: 1020.3
+  precipitation_mm: 0.0
+  wind_max_kmh: 10.3
+  conditions: ~
+  source: "Open-Meteo archive API (2026-09-26, lat 49.59/lon 5.82, elev 276m)"

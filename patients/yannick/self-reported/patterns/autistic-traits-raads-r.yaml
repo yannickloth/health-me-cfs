@@ -1,0 +1,91 @@
+pattern: autistic_traits_raads_r
+category: premorbid_trait
+assessment_date: 2026-09-24
+instrument: "RAADS-R (Ritvo Autism Asperger Diagnostic Scale–Revised), 80 items"
+administration: self-administered (online, Embrace Autism), completed 2026-09-24 14:40 CEST
+result: "Very strong alignment with autistic traits"
+total_score: 159
+total_score_max: 240
+total_score_note: >
+  Computed from the four subscores (78+27+15+39=159). The report does not print
+  a separate total number. Both the original threshold (65) and the higher
+  specificity cutoffs (~120–129) are exceeded.
+
+subscores:
+  social_relatedness:
+    score: 78
+    max: 117
+    autistic_avg: 67.89
+    non_autistic_avg: 9.24
+    note: "Somewhat higher than the autistic reference average."
+  circumscribed_interests:
+    score: 27
+    max: 42
+    autistic_avg: 28.11
+    non_autistic_avg: 5.03
+    note: "Close to the autistic reference average."
+  language:
+    score: 15
+    max: 21
+    autistic_avg: 11.08
+    non_autistic_avg: 1.86
+    note: "Considerably higher than the autistic reference average — the strongest relative feature of the profile."
+  sensory_motor:
+    score: 39
+    max: 60
+    autistic_avg: 32.82
+    non_autistic_avg: 5.26
+    note: "Somewhat higher than the autistic reference average."
+
+profile_summary: |
+  All four subscores are substantially higher than the non-autistic reference
+  averages. Traits span all four RAADS-R domains, so the total is not driven by
+  a single domain. The strongest relative feature is Language; Social
+  Relatedness and Sensory-Motor are also above their autistic averages.
+
+description: |
+  On 2026-09-24 the patient completed the RAADS-R and reports a VERY STRONG
+  alignment with autistic traits. This is a self-administered screening
+  result, not a clinical diagnosis. The instrument report states that no single
+  RAADS-R score can diagnose or rule out autism, and that the original 65
+  threshold identifies many non-autistic people; results should be read
+  alongside developmental history, lived experience, masking, and other
+  questionnaires.
+
+interpretation:
+  - "Adds a neurodevelopmental dimension to the lifelong-trait picture that
+    already includes lifelong executive dysfunction (see
+    pattern:lifelong_executive_dysfunction)."
+  - "Reframes the earlier TDAH-vs-energetic-deficit differential: multiple
+    formal ADHD tests were NEGATIVE, yet the patient has lifelong
+    executive/attentional difficulty and a strong family history of ADHD
+    (mother + 2 sisters). A positive autism screen is a different axis."
+  - "Consistent with the project's documented neurodivergence–ME/CFS overlap
+    literature (sensory sensitivity, interoception, autonomic traits)."
+
+relationship_to_other_patterns:
+  lifelong_executive_dysfunction: "Complementary — same lifelong/premorbid
+    timeframe; autism traits may partly explain the executive profile that
+    was previously attributed to energetics alone."
+  family_history: "Mother and 2 sisters with ADHD diagnoses (per
+    lifelong_executive_dysfunction)."
+
+relevance_to_mecfs:
+  - "Premorbid-trait / multi-hit model: neurodevelopmental substrate present
+    long before the clinical ME/CFS threshold."
+  - "Sensory and interoceptive traits overlap with the sensory-sensitivity
+    and autonomic dimensions already documented for this patient."
+  - "Possible relevance to masking/compensation history and to interoceptive
+    accuracy in symptom self-report."
+
+uncertainty:
+  provisional: true
+  note: "Screening only. The instrument report itself states it is not a
+    diagnostic assessment; high scores have false-positive potential, and the
+    Low/Moderate/High banding is not validated. Formal diagnostic assessment
+    (ADOS-2 / ADI-R via a specialist) would be required for a diagnosis."
+
+documentation_status:
+  source: "Patient self-report (2026-09-24); RAADS-R report from Embrace Autism"
+  source_file: "/home/nicky/sync/10-19 - Personnes et Animaux/13 - Yannick/13.001 Santé/ADHD et Fatigue/20260924 RAADS-R-Results.YannickLoth.pdf"
+  verification: "Self-administered screen; no clinician confirmation"
