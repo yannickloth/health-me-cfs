@@ -12441,5 +12441,35 @@
         "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Sapropterin"
       }
     ]
+  },
+  "ADRB2": {
+    "label": "ADRB2",
+    "category": "gene",
+    "definition": "The gene encoding the beta2-adrenergic receptor, the receptor through which norepinephrine acts on many tissues, including microglia, blood vessels, and airway smooth muscle."
+  },
+  "Neuromelanin": {
+    "label": "Neuromelanin",
+    "category": "measurement",
+    "definition": "A dark pigment in certain brainstem neurons (including the locus coeruleus and substantia nigra); its signal on specialised MRI is used as a marker of those neurons' integrity."
+  },
+  "Microbial endocrinology": {
+    "label": "Microbial endocrinology",
+    "category": "concept",
+    "definition": "The study of how host hormones and neurotransmitters, including norepinephrine, influence the growth and behaviour of microbes, and how microbes in turn produce and respond to these molecules."
+  },
+  "Adaptive gain": {
+    "label": "Adaptive gain",
+    "category": "concept",
+    "definition": "A theory that locus-coeruleus noradrenergic activity adjusts the gain (responsiveness) of cortical networks to optimise performance across behavioural states."
+  },
+  "Interoception": {
+    "label": "Interoception",
+    "category": "concept",
+    "definition": "The sensing of internal bodily signals such as heartbeat, breathing, and visceral state; its precision (weighting) shapes how strongly such signals influence perception and feeling."
+  },
+  "Hypocretin": {
+    "label": "Hypocretin (orexin)",
+    "category": "neuropeptide",
+    "definition": "Neuropeptides made by hypothalamic neurons that promote wakefulness; loss of hypocretin-producing neurons causes narcolepsy."
   }
 }

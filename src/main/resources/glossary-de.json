@@ -13900,5 +13900,35 @@
         "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Sapropterin"
       }
     ]
+  },
+  "ADRB2": {
+    "label": "ADRB2",
+    "category": "gene",
+    "definition": "Das Gen für den beta2-adrenergen Rezeptor, über den Noradrenalin auf viele Gewebe wirkt, darunter Mikroglia, Gefäße und Bronchialmuskulatur."
+  },
+  "Neuromelanin": {
+    "label": "Neuromelanin",
+    "category": "measurement",
+    "definition": "Ein dunkles Pigment in bestimmten Hirnstammneuronen (u. a. Locus coeruleus und Substantia nigra); sein Signal in der speziellen MRT dient als Marker ihrer Integrität."
+  },
+  "Microbial endocrinology": {
+    "label": "Mikrobielle Endokrinologie",
+    "category": "concept",
+    "definition": "Die Untersuchung, wie Wirtshormone und Neurotransmitter (u. a. Noradrenalin) Wachstum und Verhalten von Mikroben beeinflussen und umgekehrt."
+  },
+  "Adaptive gain": {
+    "label": "Adaptiver Gain",
+    "category": "concept",
+    "definition": "Theorie, dass die noradrenerge Aktivität des Locus coeruleus die Verstärkung (Reaktionsfähigkeit) kortikaler Netzwerke anpasst, um die Leistung zu optimieren."
+  },
+  "Interoception": {
+    "label": "Interozeption",
+    "category": "concept",
+    "definition": "Die Wahrnehmung innerer Körpersignale (Herzschlag, Atmung, viszeraler Zustand); ihre Präzision beeinflusst, wie stark solche Signale die Wahrnehmung prägen."
+  },
+  "Hypocretin": {
+    "label": "Hypocretin (Orexin)",
+    "category": "neuropeptide",
+    "definition": "Neuropeptide aus hypothalamischen Neuronen, die Wachheit fördern; ihr Verlust verursacht Narkolepsie."
   }
 }

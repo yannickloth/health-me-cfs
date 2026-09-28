@@ -14135,5 +14135,35 @@
         "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Sapropterin"
       }
     ]
+  },
+  "ADRB2": {
+    "label": "ADRB2",
+    "category": "gene",
+    "definition": "Le gène codant le récepteur bêta-2 adrénergique, par lequel la noradrénaline agit sur de nombreux tissus, dont la microglie, les vaisseaux et les muscles lisses bronchiques."
+  },
+  "Neuromelanin": {
+    "label": "Neuromélanine",
+    "category": "measurement",
+    "definition": "Un pigment sombre présent dans certains neurones du tronc cérébral (dont le locus coeruleus et la substance noire) ; son signal en IRM spécialisée sert de marqueur de l'intégrité de ces neurones."
+  },
+  "Microbial endocrinology": {
+    "label": "Endocrinologie microbienne",
+    "category": "concept",
+    "definition": "L'étude de la façon dont les hormones et neurotransmetteurs de l'hôte, dont la noradrénaline, influencent la croissance et le comportement des microbes, et réciproquement."
+  },
+  "Adaptive gain": {
+    "label": "Gain adaptatif",
+    "category": "concept",
+    "definition": "Théorie selon laquelle l'activité noradrénergique du locus coeruleus ajuste le gain (la réactivité) des réseaux corticaux pour optimiser la performance."
+  },
+  "Interoception": {
+    "label": "Intéroception",
+    "category": "concept",
+    "definition": "La perception des signaux internes du corps (battement cardiaque, respiration, état viscéral) ; sa précision module l'influence de ces signaux sur la perception."
+  },
+  "Hypocretin": {
+    "label": "Hypocrétine (orexine)",
+    "category": "neuropeptide",
+    "definition": "Neuropeptides produits par des neurones hypothalamiques qui favorisent l'éveil ; leur perte cause la narcolepsie."
   }
 }
