@@ -1370,3 +1370,4 @@ Prevents re-processing of already-integrated content.
 | https://mrr.mecfs-research.org/ | web | 2026-09-28 | 2026-09-28 | appendices/appendix-d-resources.typ @sec:clinical-trials |
 | https://projects.mecfs-research.org/de/projects/registry-and-biobank | web | 2026-09-28 | 2026-09-28 | appendices/appendix-d-resources.typ @sec:registries — German ME/CFS Register and Biobank (TUM/MCFC, Behrends) |
 | https://mcfc.mri.tum.de/en/mecfs-registry | web | 2026-09-28 | 2026-09-28 | appendices/appendix-d-resources.typ @sec:registries — MCFC/TUM operator page for the German ME/CFS Registry and Biobank (access route + contact) |
+| https://mrr.mecfs-research.org/en/mrr (projects: /en/mrr/projects) | web | 2026-09-28 | 2026-09-28 | ops/plans/reference-mecfs-open-data-sources.md — ME/CFS Research Register: 149 projects (beta, ≥2019) + networks/publications/events/working groups/people/organisations; SeatTable-backed; extraction target for later integration |

@@ -208,10 +208,12 @@ ME/CFS specificity.
 - ME/CFS-specific: Yes
 
 **ME/CFS Research Register (MRR)**
-- URL: https://mrr.mecfs-research.org/
-- Access: 🟢 Fully open
-- Data: Systematic overview of ME/CFS research landscape. 39 working groups catalogued (35 Germany, 4 Austria). Since late 2024 also covers Netherlands and Switzerland.
+- URL: https://mrr.mecfs-research.org/en/mrr (German: /de/mrr)
+- Access: 🟢 Fully open and browsable; the backend is SeatTable (cloud.seatable.io) so bulk export/API is likely possible; corrections via the public feedback form
+- Data: Systematic overview of the ME/CFS research landscape (beta; projects from 2019 onward). Categories: research projects (**149 as of 2026-09-28**), research networks, publications, events, research types, research areas, working groups, people, organisations. Per project: title, status (ongoing/completed), country, principal investigator, organisations, research period, research types, research areas, linked people/publications. Country scope: Germany, Austria, Switzerland, Netherlands, Norway, Iceland (expanding); earlier summary catalogs 39 working groups (35 DE, 4 AT).
+- Maintainer: ME/CFS Research Foundation (Hamburg); curated and regularly updated, "provided without any guarantees"
 - ME/CFS-specific: Yes
+- Crunch note: the 149 project detail pages plus the category listings (networks, publications, people, organisations) are the extraction target for later integration into the paper.
 
 **ME/CFS Biobank Austria (MedUni Vienna / WE&ME Foundation)**
 - URL: https://www.meduniwien.ac.at/ (search ME/CFS Biobank)
