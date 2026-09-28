@@ -41392,3 +41392,106 @@ This stream assembles evidence for the claim that pathological fatigue across au
     *Conclusion:* Early framing of fatigue as low LC/NE arousal.
     *Limitations:* Review.
     *Certainty Assessment:* 0.55 raw x 0.75 (general) = *discounted 0.41*
+
+
+= NE Axis Probes and Cross-Links — Annotated Entries (P5-P14)
+#set heading(numbering: none, outlined: false)
+
+=== Kang and Banaji 2020
+
+    *Full Citation:*: Kang O, Banaji MR. Pupillometric decoding of high-level musical imagery. _Consciousness and Cognition_. 2020;77:102862. @Kang2020Pupillometry
+    *DOI:*: #link("https://doi.org/10.1016/j.concog.2019.102862")[10.1016/j.concog.2019.102862]
+    *PMID:*: 31863916
+    *Key Findings:*:
+        - Human: pupils dilate/constrict with noradrenergic activity, independent of light.
+    *Certainty Assessment:* 0.55 raw x 0.75 = 0.41
+
+=== O'Callaghan et al. 2025
+
+    *Full Citation:*: O'Callaghan C, Hezemans FH, Subramaniam N, et al. Pharmacological and pupillary evidence for the noradrenergic contribution to reinforcement learning in Parkinson's disease. _Communications Biology_. 2025;8(1):1223. @OCallaghan2025PupillaryNE
+    *DOI:*: #link("https://doi.org/10.1038/s42003-025-08627-2")[10.1038/s42003-025-08627-2]
+    *PMID:*: 40813904
+    *Key Findings:*:
+        - Human RCT: atomoxetine increased baseline pupil diameter, correlated with improvement.
+    *Certainty Assessment:* 0.65 raw x 0.75 = 0.49
+
+=== Barcomb et al. 2022
+
+    *Full Citation:*: Barcomb K, Olah SS, Kennedy MJ, et al. Properties and modulation of excitatory inputs to the locus coeruleus. _The Journal of Physiology_. 2022;600(22):4897-4916. @Barcomb2022LCexcitatoryInputs
+    *DOI:*: #link("https://doi.org/10.1113/JP283605")[10.1113/JP283605]
+    *PMID:*: 36156249
+    *Key Findings:*:
+        - Mouse: orexin had minimal effect on LC excitatory inputs.
+    *Certainty Assessment:* 0.60 raw x 0.50 = 0.30
+
+=== Zhou et al. 2023
+
+    *Full Citation:*: Zhou C, Wang L, Cheng W, et al. Two distinct trajectories of clinical and neurodegeneration events in Parkinson's disease. _NPJ Parkinson's Disease_. 2023;9(1):111. @Zhou2023PDtrajectories
+    *DOI:*: #link("https://doi.org/10.1038/s41531-023-00556-3")[10.1038/s41531-023-00556-3]
+    *PMID:*: 37443179
+    *Key Findings:*:
+        - Human imaging: a subtype shows early SN and LC degeneration.
+    *Certainty Assessment:* 0.65 raw x 0.50 = 0.33
+
+=== Aston-Jones and Cohen 2005
+
+    *Full Citation:*: Aston-Jones G, Cohen JD. An integrative theory of locus coeruleus-norepinephrine function: adaptive gain and optimal performance. _Annual Review of Neuroscience_. 2005;28:403-450. @AstonJones2005AdaptiveGain
+    *DOI:*: #link("https://doi.org/10.1146/annurev.neuro.28.061604.135709")[10.1146/annurev.neuro.28.061604.135709]
+    *PMID:*: 16022602
+    *Key Findings:*:
+        - Theory: LC phasic/tonic modes; adaptive gain.
+    *Certainty Assessment:* 0.70 raw x 0.75 = 0.53
+
+=== Medina-Coss Y Leon et al. 2025
+
+    *Full Citation:*: Medina-Coss Y Leon R, Lezama E, Marquez I, et al. Adrenergic Modulation of Cortical Gain and Sensory Processing in the Mouse Visual Cortex. _Brain Sciences_. 2025;15(4). @MedinaCoss2025CorticalGain
+    *DOI:*: #link("https://doi.org/10.3390/brainsci15040406")[10.3390/brainsci15040406]
+    *PMID:*: 40309887
+    *Key Findings:*:
+        - Mouse: NE modulates cortical E/I and signal-to-noise; atomoxetine flattened SNR.
+    *Certainty Assessment:* 0.55 raw x 0.50 = 0.28
+
+=== Lo et al. 2022
+
+    *Full Citation:*: Lo Y, Yi PL, Hsiao YT, et al. Hypocretin in locus coeruleus and dorsal raphe nucleus mediates inescapable footshock stimulation (IFS)-induced REM sleep alteration. _Sleep_. 2022;45(3). @Lo2022HypocretinLC
+    *DOI:*: #link("https://doi.org/10.1093/sleep/zsab301")[10.1093/sleep/zsab301]
+    *PMID:*: 34969120
+    *Key Findings:*:
+        - Rodent: hypocretin in LC mediates stress REM disruption.
+    *Certainty Assessment:* 0.55 raw x 0.50 = 0.28
+
+=== Del Campo et al. 2011
+
+    *Full Citation:*: Del Campo N, Chamberlain SR, Sahakian BJ, et al. The roles of dopamine and noradrenaline in the pathophysiology and treatment of attention-deficit/hyperactivity disorder. _Biological Psychiatry_. 2011;69(12):e145-e157. @DelCampo2011DANEinADHD
+    *DOI:*: #link("https://doi.org/10.1016/j.biopsych.2011.02.036")[10.1016/j.biopsych.2011.02.036]
+    *PMID:*: 21550021
+    *Key Findings:*:
+        - Review: DA/NA modulate fronto-striato-cerebellar executive circuits.
+    *Certainty Assessment:* 0.65 raw x 0.75 = 0.49
+
+=== Gao et al. 2019
+
+    *Full Citation:*: Gao J, Xi B, Chen K, et al. The stress hormone norepinephrine increases the growth and virulence of Aeromonas hydrophila. _MicrobiologyOpen_. 2019;8(4):e00664. @Gao2019NEAeromonas
+    *DOI:*: #link("https://doi.org/10.1002/mbo3.664")[10.1002/mbo3.664]
+    *PMID:*: 29897673
+    *Key Findings:*:
+        - NE increased bacterial growth and virulence.
+    *Certainty Assessment:* 0.60 raw x 0.40 = 0.24
+
+=== Dicks 2022
+
+    *Full Citation:*: Dicks LMT. Gut Bacteria and Neurotransmitters. _Microorganisms_. 2022;10(9). @Dicks2022GutBacteriaNeurotransmitters
+    *DOI:*: #link("https://doi.org/10.3390/microorganisms10091838")[10.3390/microorganisms10091838]
+    *PMID:*: 36144440
+    *Key Findings:*:
+        - Review: gut bacteria produce/consume neurotransmitters incl. NE.
+    *Certainty Assessment:* 0.55 raw x 0.50 = 0.28
+
+=== Matsuyama et al. 2021
+
+    *Full Citation:*: Matsuyama S, Tanaka Y, Hasebe R, et al. Gateway Reflex and Mechanotransduction. _Frontiers in Immunology_. 2021;12:780451. @Matsuyama2021GatewayReflex
+    *DOI:*: #link("https://doi.org/10.3389/fimmu.2021.780451")[10.3389/fimmu.2021.780451]
+    *PMID:*: 35003096
+    *Key Findings:*:
+        - NE reduces tight junctions and permits T-cell entry at specific vessels.
+    *Certainty Assessment:* 0.55 raw x 0.75 = 0.41

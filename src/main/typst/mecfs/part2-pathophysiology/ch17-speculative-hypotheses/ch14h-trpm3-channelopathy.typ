@@ -1372,3 +1372,95 @@ The selective central norepinephrine deficit is usually described as a "fatigue 
 
 *Consequence:* it links the NE deficit to the lactate system in the correct direction — fuel supply, not waste — and gives a mechanistic reason to abandon "lactic acid" framing.
 ] <spec:ne-astrocyte-lactate-fuel>
+
+
+=== Noradrenergic Axis — Probes and Cross-Links
+<sec:ne-crosslinks>
+
+The axis connects to several domains beyond the core fatigue and PEM outputs. This section records those extensions, each with its evidence tier, so the noradrenergic story is not confined to a single symptom.
+
+#speculation(title: [A Non-Invasive Noradrenergic Battery])[
+*Certainty: 0.30.* Pupil diameter reflects noradrenergic activity @Kang2020Pupillometry, and enhancing noradrenaline with atomoxetine raises baseline pupil diameter in humans in a way that correlates with behavioural improvement @OCallaghan2025PupillaryNE. Combined with handgrip endurance, which tracks the CSF NE Pathway (r = 0.62 @Aregawi2026Noradrenergic), and the urinary VMA/HVA ratio, these could form a non-invasive battery that stratifies patients without lumbar puncture.
+
+*Evidence type / translation gap:* human pupillometry and a human drug study; not assembled or validated in ME/CFS.
+
+*Falsifiability:* the battery components co-vary with one another and with the CSF NE Pathway, and predict drug response; falsified if they are mutually uncorrelated.
+
+*Severity applicability:* unknown.
+
+*Consequence:* it could make the noradrenergic axis clinically usable without a lumbar puncture.
+] <spec:ne-battery>
+
+#speculation(title: [The Post-Exertional NE Crash: A Measurable Curve])[
+*Certainty: 0.35.* If exertion depletes an already-small central norepinephrine pool, a serial probe — pupillometry and handgrip endurance every few hours for 72 h after a controlled exertion — should show a dip followed by slow recovery matching the 12–72 h post-exertional malaise curve. Within the PASC group, only the PEM subgroup had a significantly lower NE Pathway @Aregawi2026Noradrenergic, which makes this the most direct test of the axis.
+
+*Falsifiability:* the probe dips after exertion and recovers on the PEM time-course in patients with a low NE Pathway; falsified if the probe is flat or unrelated to PEM.
+
+*Severity applicability:* unknown.
+
+*Consequence:* it would give PEM an objective noradrenergic readout and a timing signature, moving "neurochemical crash" from metaphor to measurement.
+] <spec:pem-ne-crash-curve>
+
+#open-question(title: [Orexin, the Locus Coeruleus, and the ME/CFS-Narcolepsy Triangle])[
+ME/CFS and narcolepsy share an arousal pathology, and the ME/CFS-narcolepsy-Long-COVID triangle is mechanistically interesting because orexin and the LC-NE system are both waking systems. The coupling is not simple: a direct optogenetic study found orexin had *minimal* effect on excitatory inputs to the locus coeruleus @Barcomb2022LCexcitatoryInputs, whereas hypocretin acting within the LC and dorsal raphe mediated stress-induced REM-sleep disruption @Lo2022HypocretinLC. So "orexin excites the LC" is too strong; the link is state- and stress-dependent. Whether the ME/CFS arousal deficit is primarily LC-NE, primarily orexin, or a shared downstream failure is unresolved — and it matters for the drug logic (orexin antagonists versus noradrenergic agents).
+
+*Falsifiability:* an ME/CFS cohort with arousal/hypersomnolence symptoms shows an orexin or an LC-NE abnormality (not both) predicting response to the matching drug class.
+
+*Consequence:* it cautions against treating ME/CFS arousal symptoms as a narcolepsy-like orexin problem without measuring orexin directly.
+] <oq:orexin-lc-triangle>
+
+#speculation(title: [The POTS Noradrenergic Treatment Fork])[
+*Certainty: 0.40.* In orthostatic intolerance, the response to a noradrenergic drug can localise the lesion: peripheral sympathetic denervation responds to norepinephrine precursors/agonists (droxidopa, midodrine), whereas central autonomic failure responds to norepinephrine reuptake inhibitors (atomoxetine) @Park2020OHpharmacologic @Palma2020OHmanagement. If this fork transfers to ME/CFS with POTS, drug response becomes a subtype probe, and it explains why the central-low/peripheral-high noradrenergic mismatch makes a single "noradrenergic" strategy incoherent.
+
+*Falsifiability:* denervation status (standing norepinephrine, autonomic testing) predicts droxidopa versus atomoxetine response; falsified if response is uncorrelated with denervation status.
+
+*Severity applicability:* unknown.
+
+*Consequence:* it argues against a blanket noradrenergic drug and for a lesion-localised choice in ME/CFS with orthostatic intolerance.
+] <spec:pots-ne-fork>
+
+#speculation(title: [A Shared Noradrenergic Arousal Endophenotype with ADHD])[
+*Certainty: 0.35.* Noradrenaline and dopamine modulate the fronto-striato-cerebellar circuits that underlie the executive and attentional functions impaired in ADHD @DelCampo2011DANEinADHD, and the drugs that help — methylphenidate, amphetamine, atomoxetine — raise central catecholamine activity. The overlap with ME/CFS (stimulant and guanfacine response, arousal problems) suggests a shared noradrenergic-arousal endophenotype rather than a shared disease.
+
+*Falsifiability:* ME/CFS patients with prominent ADHD traits show a larger non-stimulant (atomoxetine or guanfacine) response than those without; falsified if the trait is not predictive.
+
+*Severity applicability:* unknown.
+
+*Consequence:* it frames the ADHD-ME/CFS overlap as an arousal endophenotype, guiding drug choice without conflating the two diagnoses.
+] <spec:adhd-ne-endophenotype>
+
+*Extension of the LC-imaging framing.* The existing functional-pre-PD speculation (@spec:functional-pre-pd) is supported by human neuromelanin-sensitive MRI showing a Parkinson's subtype with early degeneration of both the substantia nigra and the locus coeruleus @Zhou2023PDtrajectories. The descending-analgesia mechanism already documented (@spec:ne-descending-analgesia) is the same noradrenergic lever that SNRIs use in fibromyalgia, which is why the pain-fatigue overlap is not a separate mechanism.
+
+#speculation(title: [Noradrenaline and the Gut Microbiome: Microbial Endocrinology])[
+*Certainty: 0.25.* The stress hormone norepinephrine increases the growth and virulence of at least some bacteria @Gao2019NEAeromonas, and gut bacteria both produce and respond to mammalian neurotransmitters including norepinephrine @Dicks2022GutBacteriaNeurotransmitters. If noradrenergic tone is altered in ME/CFS, host-microbe signaling through catecholamines could shift the gut ecosystem — a bidirectional axis distinct from the immune pathways usually invoked.
+
+*Evidence type / translation gap:* in-vitro bacterial and review evidence; no ME/CFS measurement of catecholamine-microbe coupling.
+
+*Falsifiability:* norepinephrine exposure alters the growth or virulence of bacteria cultured from ME/CFS gut communities, and a noradrenergic index correlates with microbial composition; falsified if no coupling.
+
+*Severity applicability:* unknown.
+
+*Consequence:* it adds a host-catecholamine input to the gut-microbiome story that is not currently considered.
+] <spec:ne-gut-microbial-endocrinology>
+
+#speculation(title: [Locus-Coeruleus Adaptive Gain and Symptom Amplification])[
+*Certainty: 0.30.* Locus-coeruleus neurons operate in phasic and tonic modes, and the phasic mode is proposed to facilitate task performance — the adaptive-gain theory @AstonJones2005AdaptiveGain. If LC-NE output is dysregulated in ME/CFS, the responsiveness (gain) of cortical networks to sensory and interoceptive signals would be altered, giving a mechanism by which ordinary body signals are experienced as disproportionately salient or distressing.
+
+*Falsifiability:* an LC-NE index (pupillometry, NE Pathway) correlates with interoceptive or sensory-amplification measures in ME/CFS; falsified if uncorrelated.
+
+*Severity applicability:* unknown.
+
+*Consequence:* it links the noradrenergic deficit to sensory and interoceptive amplification through a single cortical-gain mechanism.
+] <spec:lc-ne-adaptive-gain>
+
+#speculation(title: [Noradrenaline, Cortical E/I Balance, and the Blood-Brain Barrier])[
+*Certainty: 0.25.* Norepinephrine modulates cortical excitation-inhibition balance, signal-to-noise, and sensory gain @MedinaCoss2025CorticalGain; separately, noradrenaline acting at specific vessels can reduce tight-junction molecules and permit immune-cell entry (the "gateway reflex") @Matsuyama2021GatewayReflex. Low or dysregulated LC-NE could therefore alter both cortical E/I balance and blood-brain-barrier immune surveillance — candidate mechanisms for sensory and cognitive symptoms and for neuroimmune entry, respectively.
+
+*Evidence type / translation gap:* mouse and review evidence; no ME/CFS measurement of NE against E/I or barrier markers.
+
+*Falsifiability:* an NE index correlates with an E/I or sensory-gating measure and with a blood-brain-barrier permeability marker in ME/CFS; falsified if uncorrelated.
+
+*Severity applicability:* unknown.
+
+*Consequence:* it links the noradrenergic deficit to two processes usually discussed apart — cortical gain and barrier immunity — and suggests they may share a modulator.
+] <spec:ne-ei-bbb>

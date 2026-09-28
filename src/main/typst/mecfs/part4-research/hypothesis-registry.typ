@@ -6609,3 +6609,19 @@ This registry collects all hypotheses, speculations, open questions, and predict
 
   [spec ne-astrocyte-lactate-fuel], [Speculation (ch14h @spec:ne-astrocyte-lactate-fuel): noradrenaline stimulates astrocytic glycogenolysis and lactate release to neurons @Hertz2015neGlycogenolysis @Killeen2013neLactate, so low NE predicts impaired astrocytic *fuel supply* (not lactate accumulation — opposite of the soreness myth @lim:soreness-not-lactic-acid) (P4). *Falsifiability:* astrocytic lactate-supply markers lower and tracking the NE Pathway. (ch14h @spec:ne-astrocyte-lactate-fuel; cert 0.30; severity unknown; origin: brainstorm P4.)],[Phase 3 / 0.30],
 )
+
+
+= Entries added 2026-09-28 (session 7c): NE Axis Probes and Cross-Links (P5-P14)
+
+#table(
+  columns: (1fr, 2.4fr, 1fr),
+  [*ID / Label*], [*Details*], [*Phase / Cert*],
+  [spec ne-battery], [Non-invasive NE battery (pupillometry + handgrip + VMA/HVA) for stratification without LP (P5). @Kang2020Pupillometry @OCallaghan2025PupillaryNE @Aregawi2026Noradrenergic. Falsifiable: components co-vary with CSF NE Pathway. (ch14h @spec:ne-battery; cert 0.30.)],[Phase 3 / 0.30],
+  [spec pem-ne-crash-curve], [Post-exertional NE crash curve test (serial pupil/handgrip 72 h) (P6). @Aregawi2026Noradrenergic. Falsifiable: dip and slow recovery match PEM timing. (ch14h @spec:pem-ne-crash-curve; cert 0.35.)],[Phase 3 / 0.35],
+  [oq orexin-lc-triangle], [Orexin-LC coupling is state/stress-dependent, not simple (P7). @Barcomb2022LCexcitatoryInputs (orexin minimal on LC inputs) @Lo2022HypocretinLC (hypocretin in LC mediates stress REM disruption). (ch14h @oq:orexin-lc-triangle; cert n/a.)],[Phase 3 / n/a],
+  [spec pots-ne-fork], [POTS noradrenergic treatment fork: denervation predicts droxidopa vs atomoxetine (P8). @Park2020OHpharmacologic @Palma2020OHmanagement. (ch14h @spec:pots-ne-fork; cert 0.40.)],[Phase 3 / 0.40],
+  [spec adhd-ne-endophenotype], [Shared noradrenergic arousal endophenotype with ADHD (P9). @DelCampo2011DANEinADHD. (ch14h @spec:adhd-ne-endophenotype; cert 0.35.)],[Phase 3 / 0.35],
+  [spec ne-gut-microbial-endocrinology], [NE-bacteria microbial endocrinology as a host-catecholamine input to the gut (P12). @Gao2019NEAeromonas @Dicks2022GutBacteriaNeurotransmitters. (ch14h @spec:ne-gut-microbial-endocrinology; cert 0.25.)],[Phase 3 / 0.25],
+  [spec lc-ne-adaptive-gain], [LC-NE adaptive gain links the deficit to sensory/interoceptive amplification (P13). @AstonJones2005AdaptiveGain. (ch14h @spec:lc-ne-adaptive-gain; cert 0.30.)],[Phase 3 / 0.30],
+  [spec ne-ei-bbb], [NE modulates cortical E/I and can open the BBB (gateway reflex) (P14). @MedinaCoss2025CorticalGain @Matsuyama2021GatewayReflex. (ch14h @spec:ne-ei-bbb; cert 0.25.)],[Phase 3 / 0.25],
+)
