@@ -51,6 +51,7 @@ The same study that reports the NE deficit also reports that the NE Pathway did 
     - *NE deficit $arrow.r$ autonomic cardiovascular symptoms*: *not supported* (no correlation with orthostatic hypotension or tachycardia). The deficit tracks motor output and global health perception, not autonomic cardiovascular regulation. Do not model this edge.
     - *NE deficit $arrow.r$ pain and $arrow.r$ cognition*: *not supported by ME/CFS data* (no correlation). The pain and cognitive edges in Table 2 are borrowed from other conditions and are marked as cross-disease inference; they are predictions, not ME/CFS findings.
     - *NE deficit $arrow.r$ mood/anxiety*: *not supported* (no correlation). Do not model this edge.
+    - *NE deficit $arrow.r$ muscle lactate or soreness*: *not modelled*. $beta_2$-adrenergic signalling raises muscle glycogenolysis and lactate @Jessen2020ClenbuterolLactate, so a deficit predicts *lower*, not higher, acute lactate; soreness is not lactate-mediated (@lim:soreness-not-lactic-acid). The descending-analgesia route to soreness is the only defensible one and is already captured by the `pain` edge (@spec:adrenergic-deficit-soreness-lactate).
 
 This distinction matters: a model that draws NE $arrow.r$ autonomic and NE $arrow.r$ mood edges would contradict the source data. The model keeps them out.
 

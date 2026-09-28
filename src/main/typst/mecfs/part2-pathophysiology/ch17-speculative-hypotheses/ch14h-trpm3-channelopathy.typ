@@ -903,7 +903,7 @@ This section builds on the selectively noradrenergic central catecholamine defic
 *Translational evidence from related conditions:*
     - SNRIs (duloxetine, milnacipran) have demonstrated efficacy for fatigue and pain in fibromyalgia, with the NE reuptake component believed to be central to their therapeutic effect @Arnold2004duloxetine @Malik2025SNRIfibromyalgia
     - Solriamfetol, a dopamine-norepinephrine reuptake inhibitor (DNRI), was tested in a Phase 4 RCT in ME/CFS (n=38) and improved fatigue severity (p=0.039) and executive function (p=0.004) over 8 weeks @Young2025solriamfetol --- though PEM was not measured, a critical gap
-    - Milnacipran, despite being an SNRI, did not reduce ventricular lactate in fibromyalgia (Chapter @ch:medications-mechanisms), suggesting the clinical benefit is via central mechanisms rather than peripheral metabolic effects @Natelson2015milnacipran
+    - Milnacipran, an SNRI, reduced *both* pain and ventricular lactate in fibromyalgia versus placebo, with a larger proportion of treated patients showing joint decreases in lactate and pain than placebo @Natelson2015milnacipran — i.e., noradrenergic enhancement lowered a brain metabolic marker, consistent with a central metabolic action rather than symptomatic analgesia alone.
 
 *Falsifiable predictions:*
     1. Atomoxetine (40--80 mg/day, titrated from 10 mg) over 12 weeks in ME/CFS will reduce MFI physical fatigue by ≥1 standardized mean difference vs placebo in a double-blind RCT, and this effect will be larger in the subgroup with more severe orthostatic intolerance

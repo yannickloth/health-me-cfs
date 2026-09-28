@@ -58,6 +58,8 @@ dag_model:
     # them would contradict the source data.
     - { from: "NE_deficit", to: "autonomic_cardiovascular", reason: "no correlation with orthostatic hypotension or tachycardia (Aregawi2026)" }
     - { from: "NE_deficit", to: "mood_anxiety", reason: "no correlation with anxiety or depression (Aregawi2026)" }
+    - { from: "NE_deficit", to: "muscle_lactate", reason: "beta2-adrenergic signalling raises muscle glycogenolysis/lactate (Jessen2020; clenbuterol +90%), so a deficit predicts lower not higher acute lactate; no ME/CFS muscle-lactate-vs-NE measurement" }
+    - { from: "NE_deficit", to: "muscle_soreness", reason: "soreness is not lactate-mediated (Miles1994); descending-analgesia route is the only defensible one and is already the pain edge; human DOMS NE null (Pullinen2011)" }
 
   predictions:
     - "At least one upstream driver tracks the CSF NE Pathway index in a severity-stratified cohort"

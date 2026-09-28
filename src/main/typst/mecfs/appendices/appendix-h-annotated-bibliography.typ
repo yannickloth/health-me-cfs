@@ -8509,7 +8509,7 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
     *PMID:*: 26335989
     *Study Design:*: RCT (milnacipran vs placebo); MRS lactate endpoint
     *Key Findings:*:
-        - Milnacipran (SNRI) did not lower ventricular lactate despite clinical improvement in some
+        - Milnacipran (SNRI) lowered ventricular lactate versus baseline and placebo (F1,18 = 8.18, P = .01) and reduced pain; a larger proportion of treated patients showed joint lactate-and-pain decreases than placebo (P = .03).
         - SNRIs clinically effective in FM but mechanism may not be via brain energy metabolism
         - Relevant to NE-PEM-metabolism connection
     *Conclusion:*: SNRIs improve FM symptoms but mechanism uncertain. Does not support brain lactate reduction as NE-mediated mechanism.

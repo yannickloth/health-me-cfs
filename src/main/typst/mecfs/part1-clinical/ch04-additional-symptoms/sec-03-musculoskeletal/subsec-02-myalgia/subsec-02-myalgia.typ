@@ -24,6 +24,25 @@ A persistent misconception — present in many patient-facing and even clinical 
 ]
 <lim:soreness-not-lactic-acid>
 
+#speculation(title: [Can an Adrenergic Deficit Explain Soreness or Excess Lactate?])[
+*Certainty: 0.25.* Two proposed links from low noradrenergic tone to muscle symptoms are sometimes fused into one chain — "adrenergic deficit #sym.arrow.r excess lactic acid #sym.arrow.r soreness." The literature does not support that chain; the two links behave differently.
+
+*Soreness — plausible but indirect.* Norepinephrine is the transmitter of descending analgesia: it acts on spinal $alpha_2$-adrenoceptors, and enhancing spinal noradrenergic activity (SNRIs) treats chronic pain @Hayashida2019DescendingNoradrenergic. Low central NE could therefore weaken endogenous analgesia and amplify soreness (see @spec:ne-descending-analgesia). The direct evidence is weak: a human resistance-exercise study found *no* change in norepinephrine under DOMS @Pullinen2011DOMSne, and the ME/CFS CSF study found the NE Pathway did *not* correlate with pain @Aregawi2026Noradrenergic.
+
+*Lactate — the direction is the opposite of the claim.* $beta_2$-adrenergic signalling *raises* muscle glycogenolysis and blood lactate — a $beta_2$-agonist increased lactate by about 90% in humans @Jessen2020ClenbuterolLactate — and norepinephrine and lactate rise together during exercise @Voss2024ExerciseNEcatecholamines. A pure adrenergic *deficit* therefore predicts *lower*, not higher, acute glycolytic lactate output. An adrenergic deficit could raise lactate only indirectly — through impaired muscle perfusion, reduced $beta_2$/cAMP-driven mitochondrial biogenesis, or reduced lactate clearance — routes that are plausible but unmeasured in ME/CFS. In ME/CFS, brain lactate is compartment-specific @Godlewska2025MRS, and the one relevant drug datum runs opposite to the claim: the SNRI milnacipran *lowered* ventricular lactate in fibromyalgia @Natelson2015milnacipran. Soreness and lactate are also dissociated (@lim:soreness-not-lactic-acid).
+
+*Verdict.* The chain fails at both links: soreness is not lactate-mediated, and an adrenergic deficit does not straightforwardly produce excess lactate. The defensible claim is narrower — low central NE may weaken descending analgesia (soreness-relevant) and may *reduce* acute muscle lactate output.
+
+*Evidence type / translation gap:* human exercise physiology, reviews, and one human null; no ME/CFS measurement of muscle lactate against the NE Pathway.
+
+*Severity applicability:* unknown.
+
+*Falsifiable prediction:* in ME/CFS, post-exertional *muscle* lactate and conditioned pain modulation will not both track the CSF NE Pathway; if a NE deficit raised lactate, post-exertional muscle lactate would be higher in low-NE patients — falsified if muscle lactate is instead lower or unrelated.
+
+*Consequence:* It blocks the common but incorrect shortcut "adrenergic deficit causes lactic-acid soreness", and the matching "flush the lactate" strategy, while keeping the narrower descending-analgesia route open as a testable claim.
+]
+<spec:adrenergic-deficit-soreness-lactate>
+
 #speculation(title: [ME/CFS Exertional Soreness Is Distinct From Ordinary DOMS])[
 *Certainty: 0.40.* Ordinary DOMS requires mechanical micro-damage and adapts — the repeated-bout effect means the same exercise produces less soreness next time @Clarkson2002DOMS. ME/CFS exertional soreness occurs after minimal or even non-eccentric exertion and does not adapt; it may worsen with repetition. Candidate mechanisms that fit this pattern include intramuscular acidosis activating acid-sensing nociceptors (ASIC3/TRPV1) @Chen2014ASIC3musclePain @Ugawa2002ASICnociceptor, muscle microvascular ischemia/hypoperfusion, and central sensitization @Goldenberg2025centralSensitization. This connects to the arteriolar-vasoconstriction/ischemia cascade (@sec:trpv1-cascade).
 
