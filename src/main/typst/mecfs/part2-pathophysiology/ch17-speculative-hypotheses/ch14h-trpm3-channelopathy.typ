@@ -1319,3 +1319,31 @@ This addresses the pipeline's drug-interaction pre-check: the common ME/CFS co-p
 *Origin:* /integrate-topic noradrenergic-full-scope.
 ]
 <spec:wired-but-tired-arousal-mismatch>
+
+
+=== The Noradrenergic Deficit as an Arousal-and-Clearance Regulator
+<sec:ne-arousal-clearance>
+
+#synthesis(title: [The Noradrenergic Deficit as an Arousal-and-Clearance Regulator])[
+The selective central norepinephrine deficit is usually described as a "fatigue transmitter" shortage. A more useful frame is a failure of a *regulator* with four jobs: setting arousal and sleep-state transitions @OsorioForero2021NoradrenergicNREM @Luthi2025MicroarousalsNoradrenaline @Arnsten2021ArousalPFC @Tsigos2002stressLC; driving the slow vasomotion that pumps cerebrospinal fluid during sleep, i.e. brain clearance @Hauglund2025neVasomotion @Nedergaard2026OscillatorySleep @Zhu2025noradrenergicGlymphatic; gating descending analgesia @Hayashida2019DescendingNoradrenergic; and stimulating astrocytic glycogenolysis that supplies neuronal lactate fuel @Killeen2013neLactate @Hertz2015neGlycogenolysis. Read this way, the deficit predicts disturbance across arousal, sleep, clearance, and effort — and, importantly, predicts that it can be *self-reinforcing* (@spec:ne-clearance-loop, @oq:ne-microglial-loop). The frame also explains why ME/CFS fatigue behaves as an arousal-and-effort problem rather than a simple energy shortage, and why the NE Pathway dissociates from mood and orthostatic cardiovascular regulation @Aregawi2026Noradrenergic. The binding constraint remains measurement: the deficit itself rests on one unreplicated cohort @Aregawi2026Noradrenergic.
+
+*Consequence:* it changes what one looks for — not merely "more norepinephrine," but a regulator whose failure propagates into sleep, clearance, and inflammation loops.
+] <syn:ne-arousal-clearance-regulator>
+
+#speculation(title: [The NE-Clearance Loop: A Self-Reinforcing Trajectory])[
+*Certainty: 0.35.* Norepinephrine drives synchronized slow vasomotion that pumps cerebrospinal fluid through the brain during NREM sleep @Hauglund2025neVasomotion @Nedergaard2026OscillatorySleep. If central NE is low, vasomotion amplitude and synchrony fall, clearance of metabolic waste falls, and the resulting neuroinflammatory milieu can further impair locus-coeruleus function — a loop: NE down → vasomotion down → clearance down → neuroinflammation up → LC output down → NE down. As a schematic dynamical system the fixed point is stable until a threshold, beyond which the loop can drive progressive decline (the "ratchet"). The loop predicts that a clearance proxy (DTI-ALPS), vasomotion, and an inflammatory marker should co-vary, that all three should track the CSF NE Pathway, and that breaking it requires addressing both NE support and inflammation.
+
+*Evidence type / translation gap:* the NE → vasomotion → clearance arm is mouse/review @Hauglund2025neVasomotion @Nedergaard2026OscillatorySleep; the clearance → inflammation → LC arm is inferred and unmeasured in ME/CFS.
+
+*Falsifiability:* in ME/CFS, a clearance proxy (DTI-ALPS or vasomotion) will correlate with an inflammatory marker and both with the CSF NE Pathway; falsified if uncorrelated, or if raising NE (e.g. taVNS) does not move clearance proxies.
+
+*Consequence:* it reframes progression as a breakable loop rather than fixed damage, and argues for combination (NE support plus anti-inflammatory) rather than single-target therapy.
+] <spec:ne-clearance-loop>
+
+#open-question(title: [Does Norepinephrine Suppress or Promote Neuroinflammation?])[
+*Certainty: n/a.* The microglial arm is contested. One mouse study found norepinephrine acting on microglial β2-adrenergic receptors *suppressed* microglial engagement @Bu2025NeuroMicrogliaNE; another found that blocking β2 signalling, or deleting adrb2 in microglia, *attenuated* inflammation — i.e. β2 signalling was pro-inflammatory — with a female-specific effect @Evans2024LocusCoeruleusMicroglia. The two directions cannot both be general; the difference may be context-, region-, or sex-specific. This matters because the second candidate self-reinforcing loop (NE down → less microglial restraint → inflammation up → LC down) depends on the suppression direction.
+
+*Falsifiability:* an ME/CFS-relevant microglial or inflammatory assay will show whether lowering NE tone increases or decreases the inflammatory readout; until then the loop is unresolved.
+
+*Consequence:* the document should not assert "norepinephrine suppresses neuroinflammation" as fact — it is an open question with opposing evidence, and the loop is presented as contingent.
+] <oq:ne-microglial-loop>

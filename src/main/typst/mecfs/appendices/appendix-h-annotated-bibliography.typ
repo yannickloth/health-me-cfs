@@ -41289,3 +41289,106 @@ This stream assembles evidence for the claim that pathological fatigue across au
     *Conclusion:* Safety basis for caution on α2-antagonist strategies in the hyperadrenergic/POTS population.
     *Limitations:* Hypertensive subjects; small n.
     *Certainty Assessment:* 0.65 raw x 0.75 (general population) = *discounted 0.49*
+
+
+= NE Arousal-and-Clearance Reframing + Loops — Annotated Entries (2026-09-28 session 7)
+#set heading(numbering: none, outlined: false)
+
+=== Bu et al.\ 2025 — Norepinephrine-ADRB2 Suppresses Microglia
+
+    *Full Citation:*: Bu S, Mou B, Xiang Z, Zhang L, et al. Hyperglycemia impairs microglia responding to retinal vasculopathy via enhanced norepinephrine-ADRB2 signaling. _Journal of Neuroinflammation_. 2025;23(1):14. @Bu2025NeuroMicrogliaNE
+    *DOI:*: #link("https://doi.org/10.1186/s12974-025-03647-5")[10.1186/s12974-025-03647-5]
+    *PMID:*: 41361454
+    *Key Findings:*:
+        - Mouse: norepinephrine acting on microglial β2-adrenergic receptors (ADRB2) suppressed microglial engagement.
+    *Conclusion:* One direction of the contested NE-microglia question: NE suppresses microglial activity.
+    *Limitations:* Mouse, retina; not ME/CFS.
+    *Certainty Assessment:* 0.55 raw x 0.50 (animal) = *discounted 0.28*
+
+=== Evans et al.\ 2024 — Noradrenergic Inhibition and Neuroinflammation (opposite direction)
+
+    *Full Citation:*: Evans AK, Park HH, Woods CE, Lam RK, et al. Impact of noradrenergic inhibition on neuroinflammation and pathophysiology in mouse models of Alzheimer's disease. _Journal of Neuroinflammation_. 2024;21(1):322. @Evans2024LocusCoeruleusMicroglia
+    *DOI:*: #link("https://doi.org/10.1186/s12974-024-03306-1")[10.1186/s12974-024-03306-1]
+    *PMID:*: 39696597
+    *Key Findings:*:
+        - Mouse: inhibiting locus-coeruleus adrenergic signalling or β-adrenergic receptors potentiated neuroinflammation; microglial adrb2 deletion attenuated inflammation in females only.
+    *Conclusion:* Opposite to Bu 2025 — β2 signalling pro-inflammatory here, sex-specific. Establishes the NE-microglia direction as unresolved.
+    *Limitations:* Mouse AD model; sex-specific; not ME/CFS.
+    *Certainty Assessment:* 0.55 raw x 0.50 (animal) = *discounted 0.28*
+
+=== Nedergaard 2026 — Oscillatory Sleep and Clearance
+
+    *Full Citation:*: Nedergaard M. The oscillatory biology of sleep: Linkage to dementia. _Science_. 2026;392(6800):821-826. @Nedergaard2026OscillatorySleep
+    *DOI:*: #link("https://doi.org/10.1126/science.aeg2276")[10.1126/science.aeg2276]
+    *PMID:*: 42166599
+    *Key Findings:*:
+        - Neuromodulators (norepinephrine, acetylcholine, serotonin, dopamine) are vasoactive and drive slow vasomotion (~50 s), the mechanical force for glymphatic clearance.
+    *Conclusion:* Supports the clearance arm of the loop and the arousal-and-clearance reframing.
+    *Limitations:* Review; not ME/CFS.
+    *Certainty Assessment:* 0.65 raw x 0.75 (general) = *discounted 0.49*
+
+=== Hilz 2022 — taVNS Activates the LC-NE System
+
+    *Full Citation:*: Hilz MJ. Transcutaneous vagus nerve stimulation - A brief introduction and overview. _Autonomic Neuroscience_. 2022;243:103038. @Hilz2022taVNS
+    *DOI:*: #link("https://doi.org/10.1016/j.autneu.2022.103038")[10.1016/j.autneu.2022.103038]
+    *PMID:*: 36201901
+    *Key Findings:*:
+        - tVNS impulses reach the nucleus of the solitary tract and activate the locus-coeruleus-norepinephrine system.
+    *Conclusion:* Basis for taVNS as a non-pharmacological NE modulator (P3).
+    *Limitations:* Review.
+    *Certainty Assessment:* 0.60 raw x 0.75 (general) = *discounted 0.45*
+
+=== Lv et al.\ 2024 — taVNS Acts via LC TH+ Neurons
+
+    *Full Citation:*: Lv H, Yu X, Wang P, Luo M, et al. Locus coeruleus tyrosine hydroxylase positive neurons mediated the peripheral and central therapeutic effects of transcutaneous auricular vagus nerve stimulation. _Brain Stimulation_. 2024;17(1):49-64. @Lv2024taVNSLC
+    *DOI:*: #link("https://doi.org/10.1016/j.brs.2023.12.008")[10.1016/j.brs.2023.12.008]
+    *PMID:*: 38145753
+    *Key Findings:*:
+        - Mouse: taVNS activated tyrosine-hydroxylase-positive neurons in the locus coeruleus, which mediated the therapeutic effects.
+    *Conclusion:* Direct evidence taVNS engages LC-NE neurons.
+    *Limitations:* Mouse; disease model.
+    *Certainty Assessment:* 0.55 raw x 0.50 (animal) = *discounted 0.28*
+
+=== Killeen et al.\ 2013 — NE and Astrocytic Lactate Supply
+
+    *Full Citation:*: Killeen PR, Russell VA, Sergeant JA. A behavioral neuroenergetics theory of ADHD. _Neuroscience and Biobehavioral Reviews_. 2013;37(4):625-657. @Killeen2013neLactate
+    *DOI:*: #link("https://doi.org/10.1016/j.neubiorev.2013.02.011")[10.1016/j.neubiorev.2013.02.011]
+    *PMID:*: 23454637
+    *Key Findings:*:
+        - Increasing norepinephrine activates glial adrenoceptors and increases astrocytic lactate release to fuel neurons.
+    *Conclusion:* NE controls neuronal fuel *supply* — the correct direction for the NE-lactate link (P4).
+    *Limitations:* Theoretical review.
+    *Certainty Assessment:* 0.50 raw x 0.75 (general) = *discounted 0.38*
+
+=== Hertz et al.\ 2015 — Noradrenaline Stimulates Astrocytic Glycogenolysis
+
+    *Full Citation:*: Hertz L, Xu J, Song D, Du T, et al. Astrocytic glycogenolysis: mechanisms and functions. _Metabolic Brain Disease_. 2015;30(1):317-333. @Hertz2015neGlycogenolysis
+    *DOI:*: #link("https://doi.org/10.1007/s11011-014-9536-1")[10.1007/s11011-014-9536-1]
+    *PMID:*: 24744118
+    *Key Findings:*:
+        - Noradrenaline and β-adrenergic agonists stimulate astrocytic glycogenolysis, supplying lactate.
+    *Conclusion:* Mechanistic arm linking low NE to impaired neuronal fuel delivery.
+    *Limitations:* Review.
+    *Certainty Assessment:* 0.55 raw x 0.75 (general) = *discounted 0.41*
+
+=== Arnsten and Shanafelt 2021 — Arousal Inverted-U and Prefrontal Function
+
+    *Full Citation:*: Arnsten AFT, Shanafelt T. Physician Distress and Burnout: The Neurobiological Perspective. _Mayo Clinic Proceedings_. 2021;96(3):763-769. @Arnsten2021ArousalPFC
+    *DOI:*: #link("https://doi.org/10.1016/j.mayocp.2020.12.027")[10.1016/j.mayocp.2020.12.027]
+    *PMID:*: 33673923
+    *Key Findings:*:
+        - Prefrontal function is impaired when arousal modulators (norepinephrine, dopamine, acetylcholine) are inadequate OR excessive — the inverted-U.
+    *Conclusion:* Supports the arousal arm of the reframing, with a ceiling as well as a floor.
+    *Limitations:* Review.
+    *Certainty Assessment:* 0.60 raw x 0.75 (general) = *discounted 0.45*
+
+=== Tsigos and Chrousos 2002 — LC/NE Arousal and Chronic Fatigue
+
+    *Full Citation:*: Tsigos C, Chrousos GP. Hypothalamic-pituitary-adrenal axis, neuroendocrine factors and stress. _Journal of Psychosomatic Research_. 2002;53(4):865-871. @Tsigos2002stressLC
+    *DOI:*: #link("https://doi.org/10.1016/s0022-3999(02)00429-4")[10.1016/s0022-3999(02)00429-4]
+    *PMID:*: 12377295
+    *Key Findings:*:
+        - The CRH and LC/NE systems stimulate arousal and attention; low HPA-axis and LC/NE activity is noted in chronic fatigue and fibromyalgia.
+    *Conclusion:* Early framing of fatigue as low LC/NE arousal.
+    *Limitations:* Review.
+    *Certainty Assessment:* 0.55 raw x 0.75 (general) = *discounted 0.41*

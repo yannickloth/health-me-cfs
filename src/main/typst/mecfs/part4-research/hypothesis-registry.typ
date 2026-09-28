@@ -6583,3 +6583,17 @@ This registry collects all hypotheses, speculations, open questions, and predict
 
   [spec wired-but-tired-arousal-mismatch], [Speculation (ch14h @spec:wired-but-tired-arousal-mismatch): "wired but tired" — inability to sleep despite exhaustion with subjective hyperarousal — is named as a candidate noradrenergic arousal-mismatch symptom, distinct from the sleepiness state @clf:four-states-of-fatigue. Mechanism: LC-NE arousal system fails to transition between states @OsorioForero2021NoradrenergicNREM @Luthi2025MicroarousalsNoradrenaline. *Competing:* mast-cell/cytokine hyperarousal, HPA dysregulation, anxiety, sensory hypersensitivity — not diagnostic of a noradrenergic lesion. *Falsifiability:* the pattern co-occurs with a noradrenergic arousal abnormality (pupil/LC-NE dynamics, altered sleep-onset latency with preserved pressure); falsified if fully explained by anxiety or objective sleepiness. (ch14h @spec:wired-but-tired-arousal-mismatch; cert 0.35; severity unknown; origin: /integrate-topic noradrenergic-full-scope session 6.)],[Phase 3 / 0.35],
 )
+
+
+= Entries added 2026-09-28 (session 7): NE Arousal-and-Clearance Reframing + Loops
+
+#table(
+  columns: (1fr, 2.4fr, 1fr),
+  [*ID / Label*], [*Details*], [*Phase / Cert*],
+
+  [syn ne-arousal-clearance-regulator], [Synthesis (ch14h @syn:ne-arousal-clearance-regulator): reframes the selective central NE deficit from a "fatigue transmitter" shortage to a four-job *regulator* — arousal/sleep-state transitions @OsorioForero2021NoradrenergicNREM @Luthi2025MicroarousalsNoradrenaline @Arnsten2021ArousalPFC, vasomotion-driven glymphatic clearance @Hauglund2025neVasomotion @Nedergaard2026OscillatorySleep, descending analgesia @Hayashida2019DescendingNoradrenergic, and astrocytic lactate fuel supply @Killeen2013neLactate @Hertz2015neGlycogenolysis — and predicts self-reinforcement. (ch14h @syn:ne-arousal-clearance-regulator; cert n/a — synthesis; severity unknown; origin: /integrate-topic noradrenergic-full-scope session 7.)],[Phase 10a / n/a],
+
+  [spec ne-clearance-loop], [Speculation (ch14h @spec:ne-clearance-loop): NE → vasomotion → glymphatic clearance loop. NE down → vasomotion amplitude/synchrony down → clearance down → neuroinflammation up → LC output down → NE down; thresholded loop can drive progressive decline (ratchet). Supported arm: NE→vasomotion→clearance (mouse/review @Hauglund2025neVasomotion @Nedergaard2026OscillatorySleep); inferred arm: clearance→inflammation→LC. *Falsifiability:* DTI-ALPS/vasomotion correlates with an inflammatory marker and both with the CSF NE Pathway; raising NE (taVNS) moves clearance proxies. (ch14h @spec:ne-clearance-loop; cert 0.35; severity unknown; origin: brainstorm P2.)],[Phase 3 / 0.35],
+
+  [oq ne-microglial-loop], [Open question (ch14h @oq:ne-microglial-loop): does NE suppress or promote neuroinflammation? Bu 2025 (mouse) found microglial β2-ADRB2 signalling suppressed microglial engagement @Bu2025NeuroMicrogliaNE; Evans 2024 (mouse) found β2 blockade/adrb2 deletion attenuated inflammation, female-specific @Evans2024LocusCoeruleusMicroglia. Opposing directions; the second loop depends on the suppression direction. (ch14h @oq:ne-microglial-loop; cert n/a — research question; severity unknown; origin: brainstorm P2.)],[Phase 3 / n/a],
+)
