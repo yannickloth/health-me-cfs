@@ -24,6 +24,7 @@ plasticity and recovery potential may be measurable and modifiable.
 *For researchers*: this chapter is an infrastructure blueprint — the deep-phenotyping-cohort, recovery-potential-index, crash-biomarkers, digital-twin, and model-organisms sections each stand as a fundable platform proposal.
 ]
 
+#include "./existing-research-landscape/existing-research-landscape.typ"
 #include "./longitudinal-deep-phenotyping/longitudinal-deep-phenotyping.typ"
 #include "./recovery-potential-index-devel/recovery-potential-index-devel.typ"
 #include "./crash-impact-biomarkers/crash-impact-biomarkers.typ"
