@@ -1,4 +1,5 @@
 #import "../../../../shared/environments.typ": *
+#include "../../../../figures/fig-ne-deficit-axis.typ"
 
 === Norepinephrine Deficit: Upstream Drivers and Downstream Consequences
 <sec:ne-deficit-model>
@@ -45,18 +46,18 @@ Substituting Equation @eq:dbh-upstream into Equation @eq:catecholamines shows wh
 
 ==== Edges the ME/CFS evidence does not support
 
-The same study that reports the NE deficit also reports that the NE Pathway did **not** correlate with pain, cognition, anxiety, depression, orthostatic hypotension, or orthostatic tachycardia @Aregawi2026Noradrenergic. These negative correlations constrain the model:
+The same study that reports the NE deficit also reports that the NE Pathway did *not* correlate with pain, cognition, anxiety, depression, orthostatic hypotension, or orthostatic tachycardia @Aregawi2026Noradrenergic. These negative correlations constrain the model:
 
-    - *NE deficit $arrow.r$ autonomic cardiovascular symptoms*: **not supported** (no correlation with orthostatic hypotension or tachycardia). The deficit tracks motor output and global health perception, not autonomic cardiovascular regulation. Do not model this edge.
-    - *NE deficit $arrow.r$ pain and $arrow.r$ cognition*: **not supported by ME/CFS data** (no correlation). The pain and cognitive edges in Table 2 are borrowed from other conditions and are marked as cross-disease inference; they are predictions, not ME/CFS findings.
-    - *NE deficit $arrow.r$ mood/anxiety*: **not supported** (no correlation). Do not model this edge.
+    - *NE deficit $arrow.r$ autonomic cardiovascular symptoms*: *not supported* (no correlation with orthostatic hypotension or tachycardia). The deficit tracks motor output and global health perception, not autonomic cardiovascular regulation. Do not model this edge.
+    - *NE deficit $arrow.r$ pain and $arrow.r$ cognition*: *not supported by ME/CFS data* (no correlation). The pain and cognitive edges in Table 2 are borrowed from other conditions and are marked as cross-disease inference; they are predictions, not ME/CFS findings.
+    - *NE deficit $arrow.r$ mood/anxiety*: *not supported* (no correlation). Do not model this edge.
 
 This distinction matters: a model that draws NE $arrow.r$ autonomic and NE $arrow.r$ mood edges would contradict the source data. The model keeps them out.
 
-*Falsifiable predictions.* (a) In a severity-stratified ME/CFS cohort, at least one upstream driver in Table 1 (copper, BH#sub[4]:BH#sub[2] ratio, DBH activity, NET genotype, adrenergic autoantibody) will track the CSF NE Pathway index. (b) The NE Pathway will predict effort/motor-sustain outcomes (handgrip, fatigue scores) but will **not** predict orthostatic heart-rate change or mood scores — reproducing the Aregawi dissociation. (c) A node-matched drug will improve the matched downstream domain in low-NE patients more than in normal-NE patients.
+*Falsifiable predictions.* (a) In a severity-stratified ME/CFS cohort, at least one upstream driver in Table 1 (copper, BH#sub[4]:BH#sub[2] ratio, DBH activity, NET genotype, adrenergic autoantibody) will track the CSF NE Pathway index. (b) The NE Pathway will predict effort/motor-sustain outcomes (handgrip, fatigue scores) but will *not* predict orthostatic heart-rate change or mood scores — reproducing the Aregawi dissociation. (c) A node-matched drug will improve the matched downstream domain in low-NE patients more than in normal-NE patients.
 
 *Limitations.* No ME/CFS study measures any upstream driver in Table 1 against the NE Pathway. Every downstream edge except fatigue and PEM rests on animal or cross-disease evidence. The core finding is single-centre, n = 16, and uses an unvalidated composite index. The deconditioning confound is not eliminated. The upstream factors are not mutually exclusive.
 
-*Consequence:* the model now states, edge by edge, which cause and which consequence the ME/CFS data actually support — so it predicts that a noradrenergic therapy should change fatigue and PEM, and should **not** be expected to change orthostatic heart rate or mood through this pathway.
+*Consequence:* the model now states, edge by edge, which cause and which consequence the ME/CFS data actually support — so it predicts that a noradrenergic therapy should change fatigue and PEM, and should *not* be expected to change orthostatic heart rate or mood through this pathway.
 
 *Cross-references:* @sec:noradrenergic-axis-causes-consequences (narrative), @syn:noradrenergic-full-axis-model (synthesis), @sec:bh4-competition, @sec:catecholamine-dynamics.

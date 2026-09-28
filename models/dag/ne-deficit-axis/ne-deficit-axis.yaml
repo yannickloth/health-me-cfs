@@ -1,0 +1,72 @@
+# Norepinephrine Deficit Axis — Causal DAG record
+# Machine-readable companion to ch52 @sec:ne-deficit-model and fig:ne-deficit-axis.
+# NOTE: models/ is NOT consumed by the Typst build; this is a source artifact of
+# record. The built representation is the ch52 ODE + figure in src/.
+#
+# Certainty is ordinal (±0.10 bands), per the formalization guide.
+
+dag_model:
+  metadata:
+    name: "Norepinephrine Deficit Axis"
+    scope: "Upstream drivers of the selective central NE deficit and its downstream consequences"
+    created: "2026-09-28"
+    source_finding: "Aregawi 2026 (Brain Communications) — selective CSF NE Pathway reduction, DA preserved"
+    certainty_scale: "ordinal ±0.10 (Low 0.2-0.4, Medium 0.5-0.7, High 0.8-1.0)"
+    integration_target: "src/main/typst/mecfs/part5-modeling/ch52-neuroendocrine-models/sec-04-neurotransmitter-models/subsec-03-ne-deficit-upstream-downstream"
+    figure: "src/main/typst/mecfs/figures/fig-ne-deficit-axis.typ"
+
+  nodes:
+    - id: "NE_deficit"
+      label: "Central NE deficit (CSF NE+DHPG+MHPG low; DA normal)"
+      compartment: "CNS"
+      certainty: 0.50
+      note: "Single-centre, n=16, unvalidated composite index; deconditioning confound not eliminated"
+
+    # upstream
+    - { id: "ATP", label: "Low neuronal ATP", compartment: "CNS", certainty: 0.35 }
+    - { id: "Cu", label: "Low bioavailable copper", compartment: "systemic", certainty: 0.40 }
+    - { id: "BH4", label: "BH4 depletion", compartment: "CNS/systemic", certainty: 0.28 }
+    - { id: "NET", label: "NET (SLC6A2) loss-of-function variant", compartment: "CNS", certainty: 0.33 }
+    - { id: "AAB", label: "Adrenergic-receptor autoantibody", compartment: "systemic", certainty: 0.30 }
+    - { id: "LC", label: "Locus coeruleus neuroinflammation", compartment: "CNS", certainty: 0.25 }
+
+    # downstream
+    - { id: "fatigue", label: "Fatigue / reduced effort-motor sustain", compartment: "clinical", certainty: 0.50 }
+    - { id: "PEM", label: "Post-exertional malaise", compartment: "clinical", certainty: 0.40 }
+    - { id: "sleep", label: "Unrefreshing sleep / arousal instability", compartment: "clinical", certainty: 0.35 }
+    - { id: "glymph", label: "Impaired glymphatic clearance", compartment: "clinical", certainty: 0.35 }
+    - { id: "pain", label: "Pain amplification", compartment: "clinical", certainty: 0.30 }
+    - { id: "cognition", label: "Prefrontal cognitive deficit", compartment: "clinical", certainty: 0.30 }
+
+  edges:
+    - { from: "ATP", to: "NE_deficit", sign: "+", mechanism: "ATP-dependent vesicular DBH step", evidence: "in vitro Rangaraju2014", certainty: 0.35 }
+    - { from: "Cu", to: "NE_deficit", sign: "+", mechanism: "copper-dependent DBH", evidence: "review Lutsenko2019; human inborn error Senard2006", certainty: 0.40 }
+    - { from: "BH4", to: "NE_deficit", sign: "+", mechanism: "TH cofactor", evidence: "animal Rivera2017", certainty: 0.28 }
+    - { from: "NET", to: "NE_deficit", sign: "±", mechanism: "synaptic NE dwell time", evidence: "human mutation in vitro Hahn2003", certainty: 0.33 }
+    - { from: "AAB", to: "NE_deficit", sign: "±", mechanism: "receptor-level signalling", evidence: "in-vitro subgroup Hartwig2020; null in POTS Hall2022", certainty: 0.30 }
+    - { from: "LC", to: "NE_deficit", sign: "+", mechanism: "reduced noradrenergic output", evidence: "MS analogue Ahmad2026", certainty: 0.25 }
+
+    - { from: "NE_deficit", to: "fatigue", sign: "+", evidence: "ME/CFS CSF correlation Aregawi2026 Walitt2024NIH", certainty: 0.50 }
+    - { from: "NE_deficit", to: "PEM", sign: "+", evidence: "PASC-with-PEM subgroup Aregawi2026", certainty: 0.40 }
+    - { from: "NE_deficit", to: "sleep", sign: "+", evidence: "animal OsorioForero2021; review Luthi2025", certainty: 0.35 }
+    - { from: "NE_deficit", to: "glymph", sign: "+", evidence: "mechanism Hauglund2025 Zhu2025", certainty: 0.35 }
+    - { from: "NE_deficit", to: "pain", sign: "+", evidence: "cross-disease review Hayashida2019", certainty: 0.30, cross_disease_only: true }
+    - { from: "NE_deficit", to: "cognition", sign: "+", evidence: "rationale Arnsten2023", certainty: 0.30, cross_disease_only: true }
+
+  excluded_edges:
+    # Aregawi 2026 reports the NE Pathway did NOT correlate with these; modeling
+    # them would contradict the source data.
+    - { from: "NE_deficit", to: "autonomic_cardiovascular", reason: "no correlation with orthostatic hypotension or tachycardia (Aregawi2026)" }
+    - { from: "NE_deficit", to: "mood_anxiety", reason: "no correlation with anxiety or depression (Aregawi2026)" }
+
+  predictions:
+    - "At least one upstream driver tracks the CSF NE Pathway index in a severity-stratified cohort"
+    - "NE Pathway predicts effort/motor sustain but NOT orthostatic heart-rate change or mood scores"
+    - "A node-matched drug improves the matched downstream domain in low-NE patients more than normal-NE patients"
+
+  limitations:
+    - "No ME/CFS study measures any upstream driver against the NE Pathway"
+    - "All downstream edges except fatigue and PEM rest on animal or cross-disease evidence"
+    - "Core finding single-centre, n=16, unvalidated composite index"
+    - "Deconditioning confound not eliminated"
+    - "Upstream drivers are not mutually exclusive"
