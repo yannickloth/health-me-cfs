@@ -13852,5 +13852,53 @@
     "label": "Myoglobin",
     "category": "measurement",
     "definition": "Sauerstoffbindendes Muskelprotein, das nach Muskelverletzung ins Blut freigesetzt wird; Marker mechanischer Muskelverletzung."
+  },
+  "Dopamine beta-hydroxylase": {
+    "label": "Dopamin-beta-Hydroxylase (DBH)",
+    "category": "enzyme",
+    "definition": "Das kupferabhängige Enzym, das Dopamin in synaptischen Vesikeln zu Noradrenalin umwandelt. Da es vesikuläres ATP und Kupfer benötigt, kann sein Ausfall Noradrenalin senken und Dopamin unberührt lassen."
+  },
+  "Tetrahydrobiopterin (BH4)": {
+    "label": "Tetrahydrobiopterin (BH4)",
+    "category": "supplement",
+    "definition": "Ein Cofaktor, der von der Tyrosinhydroxylase benötigt wird, dem geschwindigkeitsbestimmenden Enzym der Katecholaminsynthese. Oxidativer Stress kann BH4 verbrauchen und die Noradrenalinproduktion beeinträchtigen."
+  },
+  "Reboxetine": {
+    "label": "Reboxetin",
+    "category": "medication",
+    "definition": "Ein selektiver Noradrenalin-Wiederaufnahmehemmer, der in einigen Ländern bei Depression und Aufmerksamkeitsdefiziten eingesetzt wird. Er erhöht synaptisches Noradrenalin, ohne auf Dopamin zu wirken; keine ME/CFS-Studie.",
+    "generic": "Reboxetin",
+    "brand": "Edronax",
+    "class": "Noradrenalin-Wiederaufnahmehemmer (NRI)",
+    "rx": "Rx",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Reboxetine%5BMeSH%5D"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Reboxetine"
+      }
+    ]
+  },
+  "Sapropterin": {
+    "label": "Sapropterin",
+    "category": "medication",
+    "definition": "Eine synthetische Form des Cofaktors Tetrahydrobiopterin (BH4). Zugelassen für einige Formen der Phenylketonurie; vorgeschlagen, aber ungetestet zur Unterstützung der Katecholaminsynthese bei BH4-Mangel.",
+    "generic": "Sapropterin-Dihydrochlorid",
+    "brand": "Kuvan",
+    "class": "Cofaktor-Ersatz",
+    "rx": "Rx",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Sapropterin%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Sapropterin"
+      }
+    ]
   }
 }

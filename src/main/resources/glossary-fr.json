@@ -14087,5 +14087,53 @@
     "label": "Myoglobine",
     "category": "measurement",
     "definition": "Proteine musculaire liant l'oxygene, liberee dans le sang apres une lesion musculaire ; marqueur de lesion musculaire mecanique."
+  },
+  "Dopamine beta-hydroxylase": {
+    "label": "Dopamine bêta-hydroxylase (DBH)",
+    "category": "enzyme",
+    "definition": "L'enzyme dépendante du cuivre qui convertit la dopamine en noradrénaline à l'intérieur des vésicules synaptiques. Comme elle nécessite l'ATP vésiculaire et le cuivre, sa défaillance peut abaisser la noradrénaline tout en laissant la dopamine intacte."
+  },
+  "Tetrahydrobiopterin (BH4)": {
+    "label": "Tétrahydrobioptérine (BH4)",
+    "category": "supplement",
+    "definition": "Un cofacteur requis par la tyrosine hydroxylase, l'enzyme limitante de la synthèse des catécholamines. Le stress oxydatif peut épuiser le BH4 et altérer la production de noradrénaline."
+  },
+  "Reboxetine": {
+    "label": "Reboxetine",
+    "category": "medication",
+    "definition": "Un inhibiteur sélectif de la recapture de la noradrénaline utilisé dans certains pays pour la dépression et les déficits d'attention. Il augmente la noradrénaline synaptique sans agir sur la dopamine ; aucun essai dans l'EM/SFC.",
+    "generic": "Reboxetine",
+    "brand": "Edronax",
+    "class": "Inhibiteur de la recapture de la noradrénaline (IRN)",
+    "rx": "Rx",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Reboxetine%5BMeSH%5D"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Reboxetine"
+      }
+    ]
+  },
+  "Sapropterin": {
+    "label": "Sapropterin",
+    "category": "medication",
+    "definition": "Une forme synthétique du cofacteur tétrahydrobioptérine (BH4). Approuvé pour certaines formes de phénylcétonurie ; proposé mais non testé pour soutenir la synthèse des catécholamines lorsque le BH4 est épuisé.",
+    "generic": "Dichlorhydrate de sapropterine",
+    "brand": "Kuvan",
+    "class": "Remplacement de cofacteur",
+    "rx": "Rx",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Sapropterin%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Sapropterin"
+      }
+    ]
   }
 }

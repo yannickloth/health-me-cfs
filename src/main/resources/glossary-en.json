@@ -12212,7 +12212,21 @@
     "generic": "Methylphenidate",
     "brand": "Ritalin, Concerta",
     "class": "Stimulant (dopamine/norepinephrine reuptake inhibitor)",
-    "rx": "Rx"
+    "rx": "Rx",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Methylphenidate%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Methylphenidate"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Methylphenidate"
+      }
+    ]
   },
   "modafinil": {
     "label": "Modafinil",
@@ -12221,7 +12235,21 @@
     "generic": "Modafinil",
     "brand": "Provigil",
     "class": "Wake-promoting agent",
-    "rx": "Rx"
+    "rx": "Rx",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Modafinil%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Modafinil"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Modafinil"
+      }
+    ]
   },
   "pitolisant": {
     "label": "Pitolisant",
@@ -12230,7 +12258,21 @@
     "generic": "Pitolisant",
     "brand": "Wakix",
     "class": "Wake-promoting agent (H3 inverse agonist)",
-    "rx": "Rx"
+    "rx": "Rx",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Pitolisant%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Pitolisant"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Pitolisant"
+      }
+    ]
   },
   "solriamfetol": {
     "label": "Solriamfetol",
@@ -12239,7 +12281,21 @@
     "generic": "Solriamfetol",
     "brand": "Sunosi",
     "class": "Wake-promoting agent (DNRI)",
-    "rx": "Rx"
+    "rx": "Rx",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Solriamfetol%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Solriamfetol"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Solriamfetol"
+      }
+    ]
   },
   "wakefulness": {
     "label": "Wakefulness",
@@ -12267,7 +12323,17 @@
     "class": "Pyruvate dehydrogenase kinase inhibitor",
     "generic": "Dichloroacetate",
     "rx": "Investigational",
-    "definition": "A PDK inhibitor that reactivates pyruvate dehydrogenase and lowers lactate production. Used experimentally; causes cumulative peripheral neuropathy, which limits its use."
+    "definition": "A PDK inhibitor that reactivates pyruvate dehydrogenase and lowers lactate production. Used experimentally; causes cumulative peripheral neuropathy, which limits its use.",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Dichloroacetate%5BMeSH%5D"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Dichloroacetic%20acid"
+      }
+    ]
   },
   "Acylcarnitine": {
     "label": "Acylcarnitine",
@@ -12331,7 +12397,17 @@
     "generic": "Reboxetine",
     "brand": "Edronax",
     "class": "Norepinephrine reuptake inhibitor (NRI)",
-    "rx": "Rx"
+    "rx": "Rx",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Reboxetine%5BMeSH%5D"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Reboxetine"
+      }
+    ]
   },
   "Sapropterin": {
     "label": "Sapropterin",
@@ -12340,6 +12416,20 @@
     "generic": "Sapropterin dihydrochloride",
     "brand": "Kuvan",
     "class": "Cofactor replacement",
-    "rx": "Rx"
+    "rx": "Rx",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Sapropterin%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Sapropterin"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Sapropterin"
+      }
+    ]
   }
 }

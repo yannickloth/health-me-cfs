@@ -40,7 +40,7 @@
       imaging: 'Imaging', pathogen: 'Pathogen', diagnostic: 'Diagnostic', method: 'Method',
       treatment: 'Treatment', organization: 'Organization', regulation: 'Regulation',
       administration: 'Administration', neurotrophin: 'Neurotrophin', cofactor: 'Cofactor',
-      concept: 'Concept', mechanism: 'Mechanism', anatomy: 'Anatomy', vitamin: 'Vitamin',
+      concept: 'Concept', mechanism: 'Mechanism', anatomy: 'Anatomy', neuroanatomy: 'Neuroanatomy', vitamin: 'Vitamin',
       hypothesis: 'Hypothesis', physiology: 'Physiology', study: 'Study',
       neuropeptide: 'Neuropeptide', database: 'Database',
       'cell-biology': 'Cell Biology', 'immunology': 'Immunology',
