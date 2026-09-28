@@ -1,0 +1,20 @@
+---
+title: "Une étude, de grandes affirmations : pourquoi n=16 compte"
+description: "Le résultat sur la noradrénaline qui porte tout un axe de recherche vient de 16 patients dans un seul centre."
+author: "Yannick Loth"
+date: "2026-10-23"
+categories: [Self-correction, Metascience, Research]
+lang: fr
+---
+
+L'axe le plus enthousiasmant de la recherche récente sur l'EM/SFC — un déficit sélectif de noradrénaline centrale — vient d'une étude de **16 patients, dans un seul centre, avec une nouvelle mesure composite**, non répliquée (@Aregawi2026Noradrenergic).
+
+Cela ne la rend pas fausse. Cela la rend *provisoire*.
+
+**Ce qu'une petite étude monocentrique peut faire :** générer une hypothèse claire et testable ; montrer un motif frappant (noradrénaline basse, dopamine normale) ; fixer un agenda.
+
+**Ce qu'elle ne peut pas faire :** établir un mécanisme, prouver la causalité, ou soutenir des affirmations thérapeutiques assurées. Un nouvel indice n'est pas validé ; un seul centre porte des risques méthodologiques partagés ; et le déconditionnement physique peut abaisser la noradrénaline sans causer de symptômes.
+
+**Pourquoi nous en parlons quand même.** Parce qu'une hypothèse spécifique, mesurable et falsifiable a de la valeur — à condition d'énoncer sa fragilité à chaque fois. Dans le document, les environnements portent des valeurs de certitude ; les axes noradrénergiques sont surtout à 0,25–0,40.
+
+**La phrase honnête :** il pourrait exister un déficit sélectif de noradrénaline dans l'EM/SFC, et s'il est répliqué, il relierait intolérance à l'effort, sommeil non réparateur et problème de clairance. Le « s'il est répliqué » est porteur, pas décoratif.

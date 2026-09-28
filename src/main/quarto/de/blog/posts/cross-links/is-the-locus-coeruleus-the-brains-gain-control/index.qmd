@@ -1,0 +1,20 @@
+---
+title: "Ist der Locus coeruleus die Gain-Kontrolle des Gehirns?"
+description: "Eine Theorie: der Locus coeruleus stellt ein, wie stark der Kortex reagiert — das könnte einen Noradrenalin-Mangel mit sensorischer und interozeptiver Verstärkung verbinden."
+author: "Yannick Loth"
+date: "2026-11-05"
+categories: [Cross-links, Noradrenergic, Mechanisms]
+lang: de
+---
+
+Eine elegante Idee: der Locus coeruleus wirkt als **Gain-Kontrolle** für den Kortex — er stellt ein, wie stark Netzwerke auf Signale reagieren, statt selbst Information zu tragen. Die adaptive-gain-Theorie formalisiert das (@AstonJones2005AdaptiveGain).
+
+Zwei Stränge machen das für ME/CFS relevant.
+
+**Kortikaler Gain.** Noradrenalin moduliert die Exzitation-Inhibition-Balance und das Signal-Rausch-Verhältnis; bei Mäusen verschob adrenerge Modulation dies, und Atomoxetin flachte die Signal-Rausch-Kurve ab (@MedinaCoss2025CorticalGain).
+
+**Barriere-Immunität.** Noradrenalin kann an Gefäßen Tight-Junction-Moleküle vermindern und Immuneintritt erlauben — der Gateway-Reflex (@Matsuyama2021GatewayReflex).
+
+**Der spekulative Gewinn.** Ein Gain-Kontroll-Versagen gäbe eine einzige Erklärung für zwei sonst getrennte Erfahrungen: gewöhnliche Reize oder Körpersignale als übermäßig intensiv zu erleben und veränderten neuroimmunen Zugang zum Gehirn. Das ist eine stärkere Aussage als Noradrenalin ist niedrig.
+
+**Die Vorbehalte.** Beide Arme sind Tier-/Review-Evidenz; keiner wurde gegen einen noradrenergen Index in ME/CFS gemessen. Testbar, aber ungetestet.

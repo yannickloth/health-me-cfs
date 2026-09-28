@@ -1,0 +1,17 @@
+---
+title: "Wie die Wissenschaft sich selbst korrigiert: eine kurze Serie"
+description: "Ein patientenfinanziertes Papier, das seine eigenen Korrekturen zeigt — inklusive einer, bei der wir eine Studie falsch herum gelesen haben."
+author: "Yannick Loth"
+date: "2026-10-21"
+categories: [Self-correction, Metascience, Research]
+lang: de
+---
+
+Die meisten Advocacy-Texte präsentieren Schlussfolgerungen. Diese kurze Serie tut das Gegenteil: sie zeigt, wo unsere eigene Lesart falsch war, wie wir es bemerkt haben und warum eine Aussage auf weniger Evidenz beruht, als sie klingt.
+
+1. [Wir haben das Milnacipran-Ergebnis verdreht — hier die Korrektur](/de/blog/posts/self-correction/we-got-milnacipran-backwards/)
+2. [Eine Studie, große Behauptungen: warum n=16 zählt](/de/blog/posts/self-correction/single-study-big-claims/)
+3. [Die ME/CFS-Forschungslandschaft, kartiert](/de/blog/posts/self-correction/the-research-landscape-mapped/)
+4. [Wo unsere Evidenz dünn ist: ein Rundgang durch die Schwachstellen](/de/blog/posts/self-correction/where-the-evidence-is-thin/)
+
+*Der Faden: ein Dokument, das seine Fehler nicht zeigt, ist mit seinen Schlussfolgerungen nicht vertrauenswürdig.*

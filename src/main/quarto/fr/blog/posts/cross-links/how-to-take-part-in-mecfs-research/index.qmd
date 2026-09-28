@@ -1,0 +1,22 @@
+---
+title: "Comment participer à la recherche sur l'EM/SFC"
+description: "Registres et biobanques rendent la recherche possible. Ce qu'ils sont, comment l'accès fonctionne, comment les patients contribuent."
+author: "Yannick Loth"
+date: "2026-11-07"
+categories: [Cross-links, Noradrenergic, Mechanisms]
+lang: fr
+---
+
+La recherche a besoin de participants et d'échantillons. Deux infrastructures le permettent — et toutes deux sont plus ouvertes qu'on ne le pense.
+
+**Les registres** recensent qui fait quoi. Le **ME/CFS Research Register** (@mrr) indexe 149 projets plus réseaux, publications, personnes et organisations ; public, consultable, exportable.
+
+**Les biobanques** collectent et stockent des échantillons et données liées — par exemple le registre et biobanque allemands (MCFC Munich et Charité Berlin), la UK ME/CFS Biobank, la NMCB (Pays-Bas), la biobanque autrichienne et You+ME (Solve M.E.).
+
+**Comment les patients participent.** L'inclusion passe par les centres qui gèrent un registre ou une biobanque — pour la biobanque allemande, le MCFC de Munich (enfants/adolescents) et la Charité de Berlin (adultes) ; hors de leur zone, on trouve les centres via le réseau PEDNET-LC.
+
+**Comment les chercheurs y accèdent.** Pas en libre-service : par une proposition de projet, avec en général avis d'éthique et accord de transfert de données/matériel. Les échantillons sont mis à disposition de projets *coopérants*.
+
+**Les réserves.** Certaines ressources sont nationales ou régionales ; des limites d'âge et de zone s'appliquent ; les conditions d'accès sont fixées par chaque institution.
+
+Patients : demandez à votre centre s'il participe. Chercheurs : consultez le registre avant de conclure que personne n'étudie la question.

@@ -1,0 +1,18 @@
+---
+title: "Die ME/CFS-Forschungslandschaft, kartiert"
+description: "Es gibt jetzt ein kuratiertes Register der ME/CFS-Forschung — 149 Projekte zum Durchsuchen."
+author: "Yannick Loth"
+date: "2026-10-25"
+categories: [Self-correction, Metascience, Research]
+lang: de
+---
+
+Oft heißt es, niemand wisse, welche ME/CFS-Forschung tatsächlich läuft. Das stimmt zunehmend nicht mehr. Das **ME/CFS Research Register** (@mrr) ist ein kuratiertes, öffentlich durchsuchbares Verzeichnis der ME/CFS-Forschung, gepflegt von der ME/CFS Research Foundation.
+
+Stand 2026 katalogisiert es **149 Forschungsprojekte** (ab 2019) sowie Netzwerke, Publikationen, Veranstaltungen, Forschungstypen, Forschungsbereiche, Arbeitsgruppen, Personen und Organisationen. Jeder Projekteintrag trägt Status, Land, Hauptforscher, Organisationen, Zeitraum, Forschungstypen und -bereiche. Aktueller Umfang: Deutschland, Österreich, Schweiz, Niederlande, Norwegen, Island.
+
+**Warum das zählt.** Es macht Doppelarbeit sichtbar, Lücken beobachtbar und gibt Förderern eine Karte. Existiert ein Projekt, das Sie interessiert, finden Sie es; ist ein Bereich leer, ist auch das sichtbar.
+
+**Die Vorbehalte.** Es ist eine Beta, von einer Stiftung kuratiert, ohne Garantie; es spiegelt freiwillige Meldungen und kann nicht-regionale oder unveröffentlichte Arbeit untererfassen. Es indexiert Forschung — es veröffentlicht keine Bioproben oder Teilnehmerdaten.
+
+**Wie nutzen.** Vor neuen Vorhaben hineinschauen. Vor der Annahme, das erforsche niemand, hineinschauen.

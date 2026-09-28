@@ -1,0 +1,20 @@
+---
+title: "Où nos preuves sont minces : un tour des points faibles"
+description: "Un document n'est honnête que là où il admet sa fragilité."
+author: "Yannick Loth"
+date: "2026-10-27"
+categories: [Self-correction, Metascience, Research]
+lang: fr
+---
+
+Il est facile de produire un document qui sonne assuré. Plus difficile — et plus utile — est de marquer exactement où l'assurance n'est pas méritée.
+
+**Les points faibles :**
+
+- **Des axes issus d'une seule étude.** L'histoire de la noradrénaline, l'axe VMAT2/dopamine et d'autres reposent sur quelques petites études, parfois d'un même groupe. La réplication est attendue.
+- **Preuves animales et trans-maladie.** Beaucoup de flèches (noradrénaline et clairance, noradrénaline et microglie, modulateurs et gain cortical) sont établies chez l'animal ou dans d'autres maladies, non mesurées dans l'EM/SFC.
+- **Mesures composites.** Les nouveaux indices sont utiles mais non validés.
+- **Confusions non écartées.** Déconditionnement, médicaments, niveau d'activité.
+- **Le nul et le négatif.** Certaines de nos affirmations les plus fortes portent sur ce qui *ne* marche *pas* (amantadine dans la fatigue de la SEP, GET, clonidine). Elles méritent la même visibilité.
+
+**Pourquoi nous les signalons.** Parce que l'alternative — un récit lisse, l'incertitude effacée — trompe les patients et fixe les priorités sur du vide.

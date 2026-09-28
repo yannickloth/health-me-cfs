@@ -1,0 +1,19 @@
+---
+title: "Is the locus coeruleus the brain's gain control?"
+description: "A theory says the locus coeruleus tunes how strongly the cortex responds — which could link a norepinephrine deficit to sensory and interoceptive amplification."
+author: "Yannick Loth"
+date: "2026-11-05"
+categories: [Cross-links, Noradrenergic, Mechanisms]
+---
+
+One of the more elegant ideas in neuroscience is that the locus coeruleus acts as a **gain control** for the cortex — adjusting how strongly networks respond to signals rather than carrying specific information itself. The "adaptive gain" theory formalises this: phasic and tonic modes of locus-coeruleus firing tune performance (@AstonJones2005AdaptiveGain).
+
+Two threads make that relevant to ME/CFS.
+
+**Cortical gain.** Norepinephrine modulates cortical excitation-inhibition balance and signal-to-noise: in mice, manipulating adrenergic signalling shifted these, and atomoxetine flattened the cortical signal-to-noise curve (@MedinaCoss2025CorticalGain). If locus-coeruleus output is dysregulated, the *responsiveness* of cortical networks changes.
+
+**Barrier immunity.** Separately, norepinephrine can act on the vasculature to reduce tight-junction molecules and permit immune-cell entry — the "gateway reflex" (@Matsuyama2021GatewayReflex). A dysregulated gain signal could, in principle, touch both cortical processing and brain-barrier surveillance.
+
+**The speculative payoff.** A gain-control failure would give a single mechanism for two otherwise-separate experiences: ordinary sensory or bodily signals being felt as disproportionately intense, and altered neuroimmune access to the brain. That is a much stronger, more specific claim than "norepinephrine is low."
+
+**The caveats.** Both arms are mouse/review evidence; neither has been measured against a noradrenergic index in ME/CFS. The idea is testable — an arousal index should correlate with sensory-gating and with a barrier marker — but it is not yet tested.

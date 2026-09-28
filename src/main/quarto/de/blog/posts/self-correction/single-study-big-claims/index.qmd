@@ -1,0 +1,20 @@
+---
+title: "Eine Studie, große Behauptungen: warum n=16 zählt"
+description: "Der Noradrenalin-Befund, der einen ganzen Forschungsstrang trägt, stammt von 16 Patienten aus einem Zentrum."
+author: "Yannick Loth"
+date: "2026-10-23"
+categories: [Self-correction, Metascience, Research]
+lang: de
+---
+
+Der spannendste neuere ME/CFS-Strang — ein selektiver zentraler Noradrenalin-Mangel — stammt aus einer Studie mit **16 Patienten, an einem Zentrum, mit einem neuen zusammengesetzten Maß**, und ist nicht unabhängig repliziert (@Aregawi2026Noradrenergic).
+
+Das macht ihn nicht falsch. Es macht ihn *vorläufig*.
+
+**Was eine kleine Single-Center-Studie kann:** eine klare, prüfbare Hypothese erzeugen; ein auffälliges Muster zeigen (Noradrenalin niedrig, Dopamin normal); eine Agenda setzen.
+
+**Was sie nicht kann:** einen Krankheitsmechanismus belegen, Kausalität beweisen oder selbstsichere Behandlungsaussagen stützen. Ein neuer Index ist nicht validiert; ein Zentrum birgt gemeinsame Methoden- und Populationsrisiken; und körperliche Dekonditionierung kann Noradrenalin senken, ohne Symptome zu verursachen.
+
+**Warum wir trotzdem darüber schreiben.** Weil eine spezifische, messbare, falsifizierbare Hypothese wertvoll ist — solange die Dünnheit jedes Mal genannt wird. Im Papier tragen die Umgebungstypen Sicherheitswerte; die noradrenergen Stränge liegen meist bei 0,25–0,40.
+
+**Der ehrliche Satz:** Es könnte einen selektiven Noradrenalin-Mangel bei ME/CFS geben, und falls er repliziert, würde er Belastungsintoleranz, nicht erholsamen Schlaf und ein Clearance-Problem verbinden. Das Falls-er-repliziert ist tragend, nicht Dekoration.

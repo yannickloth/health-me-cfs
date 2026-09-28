@@ -1,0 +1,20 @@
+---
+title: "Le locus coeruleus est-il le contrôle de gain du cerveau ?"
+description: "Une théorie : le locus coeruleus règle la force de réponse du cortex — ce qui pourrait relier un déficit de noradrénaline à une amplification sensorielle et intéroceptive."
+author: "Yannick Loth"
+date: "2026-11-05"
+categories: [Cross-links, Noradrenergic, Mechanisms]
+lang: fr
+---
+
+Une idée élégante : le locus coeruleus agit comme **contrôle de gain** du cortex — il règle la force de réponse des réseaux, plutôt que de porter l'information lui-même. La théorie du « gain adaptatif » le formalise (@AstonJones2005AdaptiveGain).
+
+Deux axes rendent cela pertinent pour l'EM/SFC.
+
+**Gain cortical.** La noradrénaline module l'équilibre excitation-inhibition et le rapport signal-bruit ; chez la souris, manipuler le signal adrénergique modifiait cela, et l'atomoxétine a aplati la courbe signal-bruit (@MedinaCoss2025CorticalGain).
+
+**Immunité de barrière.** La noradrénaline peut réduire les molécules de jonction serrée des vaisseaux et permettre l'entrée de cellules immunitaires — le « réflexe de passerelle » (@Matsuyama2021GatewayReflex).
+
+**L'enjeu spéculatif.** Une défaillance du gain donnerait une seule explication à deux expériences distinctes : ressentir des signaux ordinaires comme disproportionnellement intenses, et un accès neuroimmun modifié au cerveau. C'est plus fort que « la noradrénaline est basse ».
+
+**Les réserves.** Les deux bras sont des preuves animales/revues ; aucun n'a été mesuré contre un index noradrénergique dans l'EM/SFC. Testable, mais non testé.

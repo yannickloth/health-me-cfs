@@ -1,0 +1,20 @@
+---
+title: "Wir haben das Milnacipran-Ergebnis verdreht — hier die Korrektur"
+description: "Wir zitierten eine Fibromyalgie-Studie als Beleg für keinen Effekt auf Hirnlaktat. Die Studie fand das Gegenteil."
+author: "Yannick Loth"
+date: "2026-10-21"
+categories: [Self-correction, Metascience, Research]
+lang: de
+---
+
+Ein kleines Geständnis, weil es mehr zählt als die Tatsache selbst.
+
+Wir hatten geschrieben, Milnacipran — ein SNRI gegen Fibromyalgie — habe ventrikuläres Laktat nicht gesenkt, und daraus geschlossen, der Nutzen sei nicht metabolisch. Dann lasen wir tatsächlich den Abstract.
+
+Die Studie fand das Gegenteil. Milnacipran **senkte** das ventrikuläre Laktat gegenüber Ausgangswert und Placebo (F1,18 = 8,18; p = 0,01), und wer beim Schmerz ansprach, hatte eher auch einen Laktatabfall (@Natelson2015milnacipran).
+
+**Warum das passierte.** Früh in einem langen Projekt wurde eine Zusammenfassung aus dem *Titel* einer Quelle statt aus dem Abstract abgeleitet. Genau dieser Fehlermodus soll von einem strengen Prozess erfasst werden — hier brauchte es ein bewusstes Nachlesen.
+
+**Warum wir es erzählen.** Nicht für Lob. Weil die Korrektur das *Argument ändert*: der Effekt des Medikaments wirkt teils metabolisch, was eine andere und teils interessantere Aussage ist.
+
+**Die Lehre.** Jedes Nicht im Text wird gegen den Abstract geprüft, nicht gegen den Titel. Eine Aussage, dass eine Studie scheiterte, ist eine Aussage — und verdient dieselbe Prüfung wie eine, die einen Erfolg behauptet.

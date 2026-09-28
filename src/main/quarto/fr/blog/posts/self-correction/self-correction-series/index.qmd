@@ -1,0 +1,17 @@
+---
+title: "Comment la science se corrige elle-même : une courte série"
+description: "Un document financé par des patients qui montre ses propres corrections — dont une où nous avons lu une étude à l'envers."
+author: "Yannick Loth"
+date: "2026-10-21"
+categories: [Self-correction, Metascience, Research]
+lang: fr
+---
+
+La plupart des textes militants présentent des conclusions. Cette courte série fait l'inverse : elle montre où notre propre lecture était fausse, comment nous l'avons remarqué, et pourquoi une affirmation repose sur moins de preuves qu'elle n'en a l'air.
+
+1. [Nous avons inversé le résultat du milnacipran — voici la correction](/fr/blog/posts/self-correction/we-got-milnacipran-backwards/)
+2. [Une étude, de grandes affirmations : pourquoi n=16 compte](/fr/blog/posts/self-correction/single-study-big-claims/)
+3. [Le paysage de la recherche sur l'EM/SFC, cartographié](/fr/blog/posts/self-correction/the-research-landscape-mapped/)
+4. [Où nos preuves sont minces : un tour des points faibles](/fr/blog/posts/self-correction/where-the-evidence-is-thin/)
+
+*Le fil conducteur : un document incapable de montrer ses erreurs n'est pas digne de confiance pour ses conclusions.*

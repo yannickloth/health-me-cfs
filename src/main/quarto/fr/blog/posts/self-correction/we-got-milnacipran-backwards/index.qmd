@@ -1,0 +1,20 @@
+---
+title: "Nous avons inversé le résultat du milnacipran — voici la correction"
+description: "Nous avons cité un essai sur la fibromyalgie comme montrant aucun effet sur le lactate cérébral. L'essai a trouvé l'inverse."
+author: "Yannick Loth"
+date: "2026-10-21"
+categories: [Self-correction, Metascience, Research]
+lang: fr
+---
+
+Un petit aveu, car il compte plus que le fait lui-même.
+
+Nous avions écrit que le milnacipran — un IRSNa utilisé dans la fibromyalgie — ne réduisait pas le lactate ventriculaire, et nous en avions conclu que son bénéfice n'était pas métabolique. Puis nous avons réellement lu le résumé.
+
+L'essai a trouvé l'inverse. Le milnacipran **a réduit** le lactate ventriculaire par rapport au départ et au placebo (F1,18 = 8,18 ; p = 0,01), et les patients dont la douleur s'améliorait étaient plus souvent aussi ceux dont le lactate baissait (@Natelson2015milnacipran).
+
+**Pourquoi cela est arrivé.** Tôt dans un long projet, un résumé a été déduit du *titre* d'une source plutôt que du résumé. C'est exactement le mode de défaillance qu'un processus rigoureux doit intercepter — ici, il a fallu une relecture délibérée.
+
+**Pourquoi nous le racontons.** Pas pour le mérite. Parce que la correction *change l'argument* : l'effet du médicament semble en partie métabolique, une affirmation différente et parfois plus intéressante.
+
+**La leçon.** Chaque « n'a pas » du texte est vérifié contre le résumé, pas le titre. Affirmer qu'un essai a échoué est une affirmation — et mérite le même examen.

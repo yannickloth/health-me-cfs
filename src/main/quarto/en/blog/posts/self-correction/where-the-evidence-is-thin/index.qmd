@@ -1,0 +1,19 @@
+---
+title: "Where our evidence is thin: a tour of the weak spots"
+description: "A paper is only as honest as the places it admits are soft. Here are ours."
+author: "Yannick Loth"
+date: "2026-10-27"
+categories: [Self-correction, Metascience, Research]
+---
+
+It is easy to produce a confident-sounding document. It is harder — and more useful — to mark exactly where the confidence is not earned. Our paper tags speculative content with certainty values and flags weak-evidence areas; here is a plain-language tour.
+
+**The soft spots:**
+
+- **Single-study threads.** The norepinephrine story, the VMAT2/dopamine-circuit thread, and several others rest on a handful of small studies, sometimes from one group. Replication is pending.
+- **Animal and cross-disease evidence.** Many mechanistic arrows (norepinephrine and clearance, norepinephrine and microglia, neuromodulators and cortical gain) are established in animals or other diseases, not measured in ME/CFS.
+- **Composite measures.** New indices (like the norepinephrine "pathway index") are useful but unvalidated; a striking result can partly be an artefact of the measure.
+- **Confounds that are not removed.** Deconditioning, medication, and activity level can all move the biomarkers we discuss, and most studies cannot rule them out.
+- **The null and the negative.** Some of our strongest statements are about what does *not* work — amantadine for MS fatigue, GET, clonidine in adolescent CFS. Those deserve as much prominence as the positive ones.
+
+**Why we flag them.** Because the alternative — a smooth narrative with the uncertainty sanded off — is how patients get misled, and how research priorities get set on air. A flag is not a weakness; hiding one would be.

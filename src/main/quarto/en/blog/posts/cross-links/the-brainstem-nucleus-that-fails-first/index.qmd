@@ -1,0 +1,17 @@
+---
+title: "The brainstem nucleus that fails first"
+description: "In Parkinson's disease, the locus coeruleus degenerates before the substantia nigra. In ME/CFS, the same nucleus may fail — without degenerating."
+author: "Yannick Loth"
+date: "2026-11-03"
+categories: [Cross-links, Noradrenergic, Mechanisms]
+---
+
+There is a small nucleus in the brainstem — the locus coeruleus — that is the brain's main source of norepinephrine. It is also unusually vulnerable.
+
+In Parkinson's disease, the locus coeruleus is affected *before* the dopamine-producing substantia nigra, and human imaging now uses neuromelanin-sensitive MRI to track its integrity; one Parkinson's subtype shows early degeneration of both nuclei (@Zhou2023PDtrajectories).
+
+**The ME/CFS parallel — and the crucial difference.** The selective norepinephrine deficit of ME/CFS has the same *signature* as early locus-coeruleus involvement (norepinephrine down, dopamine preserved). But ME/CFS shows no evidence of degeneration: no alpha-synuclein aggregates, no cell loss. That suggests a **functional** failure — the nucleus is not dying, it is underperforming because of energy limitation or inflammation.
+
+**Why the distinction matters.** Degeneration is largely irreversible; functional failure is, in principle, reversible. If ME/CFS locus-coeruleus dysfunction is functional, that is a reason for therapeutic optimism — and it predicts that 7T neuromelanin imaging should show *normal* locus-coeruleus volume in ME/CFS, unlike Parkinson's.
+
+**The caveats.** This parallel is an inference; no one has imaged the locus coeruleus in ME/CFS at this resolution. And the underlying norepinephrine finding is single-centre and unreplicated.

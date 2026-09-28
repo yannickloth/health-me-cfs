@@ -1,0 +1,21 @@
+---
+title: "How to take part in ME/CFS research"
+description: "Registers and biobanks make research possible. Here is what they are, how access works, and how patients contribute."
+author: "Yannick Loth"
+date: "2026-11-07"
+categories: [Cross-links, Research, Resources]
+---
+
+Research needs participants and samples. Two kinds of infrastructure make that possible — and both are more open than many patients assume.
+
+**Registers** catalogue who is doing what. The **ME/CFS Research Register** (@mrr) indexes 149 research projects plus networks, publications, people, and organisations; it is public, browsable, and exportable, so you can see whether anyone is studying the question you care about.
+
+**Biobanks** collect and store biosamples and linked data. Examples include the German ME/CFS Register and Biobank (a bicentric effort by the Munich MCFC and Charité Berlin), the UK ME/CFS Biobank, the Netherlands ME/CFS Cohort and Biobank (NMCB), the Austrian biobank, and Solve M.E.'s You+ME registry.
+
+**How patients take part.** Enrolment usually runs through the clinical centres that operate a register or biobank — for the German biobank, the Munich MCFC (children/adolescents) and Charité Berlin (adults); outside their catchment, national centres can be found via the paediatric network PEDNET-LC. Participation means contributing data and, sometimes, blood or other samples, under consent terms set by the institution.
+
+**How researchers get access.** Not self-service. Researchers apply to the operating centre with a project proposal, and access typically requires ethics approval and a data- or material-transfer agreement before samples or data are shared. Samples are made available to *cooperating* projects in Germany and internationally.
+
+**The honest caveats.** Some resources are national or regional; catchment and age limits apply; and access terms are set by each institution, not by this document. But the direction is toward openness — and the register makes the landscape visible in a way it simply was not a few years ago.
+
+If you are a patient: ask your specialist centre whether they participate. If you are a researcher: check the register before assuming nobody is studying your question.

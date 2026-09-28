@@ -1,0 +1,21 @@
+---
+title: "We got the milnacipran result backwards — here's the fix"
+description: "We cited a fibromyalgia drug trial as showing 'no effect on brain lactate.' The trial found the opposite. We corrected it."
+author: "Yannick Loth"
+date: "2026-10-21"
+categories: [Self-correction, Metascience, Research]
+---
+
+A small confession, because it matters more than the fact itself.
+
+We had written that milnacipran — an SNRI used in fibromyalgia — "did not reduce ventricular lactate," and used that to argue the drug's benefit must be non-metabolic. Then we actually read the abstract.
+
+The trial found the opposite. Milnacipran **lowered** ventricular lactate compared with both baseline and placebo (F1,18 = 8.18, P = .01), and patients who improved in pain were more likely to also drop in lactate (@Natelson2015milnacipran).
+
+**Why this happened.** Early in a long project, a summary was inferred from a citation's *title* rather than the abstract. That is exactly the failure mode a rigorous pipeline is meant to catch — and in this case it took a deliberate re-read to catch it.
+
+**Why we're telling you.** Not for credit. Because the correction *changed the argument*: the drug's effect looks partly metabolic after all, which is a different — and in some ways more interesting — claim than the one we first made.
+
+**The lesson we apply.** Every "did not" in our text gets checked against the source abstract, not the title. A claim that a trial failed is a claim, and it deserves the same scrutiny as one that says a trial worked.
+
+This is what a patient-commissioned document can do that a press release will not: publish its own corrections, and keep the trail visible.

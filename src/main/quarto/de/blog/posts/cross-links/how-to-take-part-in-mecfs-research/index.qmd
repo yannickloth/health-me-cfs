@@ -1,0 +1,22 @@
+---
+title: "Wie man an ME/CFS-Forschung teilnimmt"
+description: "Register und Biobanken machen Forschung möglich. Was sie sind, wie Zugang funktioniert, wie Patienten beitragen."
+author: "Yannick Loth"
+date: "2026-11-07"
+categories: [Cross-links, Noradrenergic, Mechanisms]
+lang: de
+---
+
+Forschung braucht Teilnehmende und Proben. Zwei Infrastrukturen ermöglichen das — und beide sind offener, als viele annehmen.
+
+**Register** katalogisieren, wer was tut. Das **ME/CFS Research Register** (@mrr) indexiert 149 Projekte plus Netzwerke, Publikationen, Personen, Organisationen; öffentlich, durchsuchbar, exportierbar.
+
+**Biobanken** sammeln und lagern Bioproben und verknüpfte Daten — z. B. das deutsche ME/CFS-Register und -Biobank (MCFC München und Charité Berlin), die UK ME/CFS Biobank, die NMCB (Niederlande), die österreichische Biobank und You+ME (Solve M.E.).
+
+**Wie Patienten teilnehmen.** Die Aufnahme läuft über die Zentren, die ein Register oder eine Biobank betreiben — für die deutsche Biobank das MCFC München (Kinder/Jugendliche) und die Charité Berlin (Erwachsene); außerhalb des Zuständigkeitsbereichs findet man Zentren über das Netzwerk PEDNET-LC.
+
+**Wie Forschende Zugang erhalten.** Nicht als Selbstbedienung: mit Projektantrag, in der Regel Ethikvotum und Daten-/Materialtransfer-Vereinbarung. Proben werden *kooperierenden* Projekten zur Verfügung gestellt.
+
+**Die Vorbehalte.** Manche Ressourcen sind national oder regional; Zuständigkeit und Alter gelten; die Zugangsbedingungen setzt die jeweilige Institution.
+
+Patient: fragen Sie Ihr Zentrum, ob es teilnimmt. Forschende: prüfen Sie das Register, bevor Sie annehmen, niemand forsche daran.

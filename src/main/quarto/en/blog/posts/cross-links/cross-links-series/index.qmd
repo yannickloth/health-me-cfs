@@ -1,0 +1,14 @@
+---
+title: "Cross-links worth a second look: a short series"
+description: "Four connections that fall outside the main noradrenergic thread — but are worth a look."
+author: "Yannick Loth"
+date: "2026-11-01"
+categories: [Cross-links, Noradrenergic, Mechanisms]
+---
+
+The main "Arousal System" series follows the norepinephrine deficit. This smaller series covers four connections that sit beside it.
+
+1. [Do gut bacteria listen to stress hormones?](/en/blog/posts/cross-links/do-gut-bacteria-listen-to-stress-hormones/)
+2. [The brainstem nucleus that fails first](/en/blog/posts/cross-links/the-brainstem-nucleus-that-fails-first/)
+3. [Is the locus coeruleus the brain's gain control?](/en/blog/posts/cross-links/is-the-locus-coeruleus-the-brains-gain-control/)
+4. [How to take part in ME/CFS research](/en/blog/posts/cross-links/how-to-take-part-in-mecfs-research/)

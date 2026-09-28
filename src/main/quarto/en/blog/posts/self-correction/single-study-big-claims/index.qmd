@@ -1,0 +1,19 @@
+---
+title: "Single study, big claims: why n=16 matters"
+description: "The norepinephrine finding that anchors an entire research thread comes from 16 patients at one centre. Here's what that means."
+author: "Yannick Loth"
+date: "2026-10-23"
+categories: [Self-correction, Metascience, Research]
+---
+
+The most exciting recent thread in ME/CFS — a selective central norepinephrine deficit — comes from a study of **16 patients, at one centre, using a new composite measure**, and it has not been independently replicated (@Aregawi2026Noradrenergic).
+
+That does not make it wrong. It makes it *provisional*, and it changes how every downstream claim should be read.
+
+**What a small single-centre study can do:** generate a clean, testable hypothesis; produce a striking pattern (norepinephrine down, dopamine normal) that is hard to explain by chance; and set an agenda.
+
+**What it cannot do:** establish a disease mechanism, prove causality, or support confident treatment claims. A novel composite index has not been validated against other cohorts; a single centre carries shared-method and shared-population risks; and physical deconditioning can lower norepinephrine without causing symptoms — a confound not eliminated.
+
+**Why we still write about it.** Because a hypothesis that is specific, measurable, and falsifiable is valuable even when the evidence is thin — provided the thinness is stated every time. In our paper, the environment types (speculation, hypothesis) carry certainty values, and the noradrenergic threads are mostly 0.25–0.40.
+
+**The honest sentence:** "there may be a selective norepinephrine deficit in ME/CFS, and if it replicates, it would tie together effort intolerance, unrefreshing sleep, and a clearance problem." The "if it replicates" is load-bearing, not decoration.

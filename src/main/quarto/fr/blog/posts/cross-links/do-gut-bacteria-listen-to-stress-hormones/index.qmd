@@ -1,0 +1,18 @@
+---
+title: "Les bactéries intestinales écoutent-elles les hormones du stress ?"
+description: "La noradrénaline est un signal de stress humain. Certaines bactéries poussent plus vite en sa présence."
+author: "Yannick Loth"
+date: "2026-11-01"
+categories: [Cross-links, Noradrenergic, Mechanisms]
+lang: fr
+---
+
+La plupart des discussions intestin-cerveau passent par le système immunitaire. Il existe un second canal, plus étrange : l'**endocrinologie microbienne**.
+
+Les preuves sont réelles mais précoces : la noradrénaline a augmenté la croissance et la virulence d'au moins une bactérie pathogène (@Gao2019NEAeromonas), et les bactéries intestinales produisent et consomment des neurotransmetteurs, dont la noradrénaline (@Dicks2022GutBacteriaNeurotransmitters).
+
+**Pourquoi cela pourrait compter dans l'EM/SFC.** Si la noradrénaline de l'hôte est altérée, l'environnement du microbiome pourrait changer — un effet *hôte vers microbe*, différent de la direction habituelle.
+
+**Les réserves honnêtes.** L'étude bactérienne a utilisé un pathogène de poisson, pas un microbe intestinal humain. Les revues décrivent une plausibilité, pas un mécanisme démontré. Et le résultat central n'est pas répliqué.
+
+**Comment tester.** Exposer des bactéries issues de communautés intestinales EM/SFC et témoins à la noradrénaline, et voir si croissance ou virulence changent, et si le tonus noradrénergique corrèle avec la composition du microbiome.

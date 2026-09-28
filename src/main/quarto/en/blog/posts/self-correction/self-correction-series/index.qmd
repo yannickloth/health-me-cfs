@@ -1,0 +1,16 @@
+---
+title: "How science corrects itself: a short series"
+description: "A patient-commissioned paper that shows its own corrections — including one where we got a study backwards."
+author: "Yannick Loth"
+date: "2026-10-21"
+categories: [Self-correction, Metascience, Research]
+---
+
+Most advocacy writing presents conclusions. This short series does the opposite: it shows where our own reading was wrong, how we caught it, and why a claim rests on less evidence than it sounds.
+
+1. [We got the milnacipran result backwards — here's the fix](/en/blog/posts/self-correction/we-got-milnacipran-backwards/)
+2. [Single study, big claims: why n=16 matters](/en/blog/posts/self-correction/single-study-big-claims/)
+3. [The ME/CFS research landscape, mapped](/en/blog/posts/self-correction/the-research-landscape-mapped/)
+4. [Where our evidence is thin: a tour of the weak spots](/en/blog/posts/self-correction/where-the-evidence-is-thin/)
+
+*The thread: a document that cannot show its errors cannot be trusted with its conclusions.*

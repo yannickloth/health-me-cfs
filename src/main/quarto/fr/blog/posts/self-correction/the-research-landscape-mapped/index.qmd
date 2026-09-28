@@ -1,0 +1,18 @@
+---
+title: "Le paysage de la recherche sur l'EM/SFC, cartographié"
+description: "Il existe désormais un registre curaté de la recherche sur l'EM/SFC — 149 projets consultables."
+author: "Yannick Loth"
+date: "2026-10-25"
+categories: [Self-correction, Metascience, Research]
+lang: fr
+---
+
+On entend souvent que personne ne sait quelle recherche sur l'EM/SFC est réellement en cours. Ce n'est plus tout à fait vrai. Le **ME/CFS Research Register** (@mrr) est un index curaté et public de la recherche sur l'EM/SFC, tenu par la ME/CFS Research Foundation.
+
+En 2026, il catalogue **149 projets de recherche** (depuis 2019) ainsi que des réseaux, publications, événements, types et domaines de recherche, groupes de travail, personnes et organisations. Chaque fiche indique le statut (en cours/terminé), le pays, l'investigateur principal, les organisations, la période, les types et domaines. Périmètre actuel : Allemagne, Autriche, Suisse, Pays-Bas, Norvège, Islande.
+
+**Pourquoi cela compte.** Cela rend la duplication visible, les lacunes observables, et donne aux financeurs une carte. Si un projet qui vous intéresse existe, vous le trouvez ; si un domaine est vide, cela se voit aussi.
+
+**Les réserves.** C'est une version bêta, curatée par une fondation, « sans garantie » ; elle reflète des déclarations volontaires et peut sous-compter le travail non régional ou non publié. Elle indexe l'activité — elle ne publie pas d'échantillons ni de données de participants.
+
+**Comment l'utiliser.** Avant tout nouveau projet, consultez-le. Avant de conclure que personne n'étudie un sujet, consultez-le.

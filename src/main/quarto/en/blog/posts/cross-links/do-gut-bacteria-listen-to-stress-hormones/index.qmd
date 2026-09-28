@@ -1,0 +1,17 @@
+---
+title: "Do gut bacteria listen to stress hormones?"
+description: "Norepinephrine is a human stress signal. Some bacteria also grow faster when it is around. That is a two-way street rarely discussed."
+author: "Yannick Loth"
+date: "2026-11-01"
+categories: [Cross-links, Noradrenergic, Mechanisms]
+---
+
+Most gut-brain discussions run through the immune system. There is a second, stranger channel: **microbial endocrinology** — the study of how host hormones and neurotransmitters influence microbes, and vice versa.
+
+The evidence is real but early. Norepinephrine increased the growth and virulence of at least one pathogenic bacterium, altering the expression of many virulence genes (@Gao2019NEAeromonas). And gut bacteria both produce and consume mammalian neurotransmitters, including norepinephrine (@Dicks2022GutBacteriaNeurotransmitters).
+
+**Why it might matter for ME/CFS.** If host norepinephrine availability is altered — as the selective-deficit hypothesis suggests — it could change the local environment the gut microbiome sees, shifting the ecosystem. That would be a *host-to-microbe* effect, distinct from the usual microbe-to-immune-to-brain direction.
+
+**The honest caveats.** The bacterial study used a fish pathogen, not a human gut organism. The reviews describe plausibility, not a demonstrated ME/CFS mechanism. And the core norepinephrine finding is unreplicated.
+
+**How to test it.** Expose bacteria cultured from ME/CFS and control gut communities to norepinephrine and ask whether growth or virulence changes, and whether a patient's noradrenergic tone correlates with their microbiome composition. If not, the channel is interesting but not operative here.

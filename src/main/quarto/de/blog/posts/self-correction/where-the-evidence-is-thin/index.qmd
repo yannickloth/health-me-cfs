@@ -1,0 +1,20 @@
+---
+title: "Wo unsere Evidenz dünn ist: ein Rundgang durch die Schwachstellen"
+description: "Ein Papier ist nur so ehrlich wie die Stellen, an denen es Schwäche zugibt."
+author: "Yannick Loth"
+date: "2026-10-27"
+categories: [Self-correction, Metascience, Research]
+lang: de
+---
+
+Es ist leicht, ein selbstsicher klingendes Dokument zu produzieren. Schwieriger — und nützlicher — ist es, genau zu markieren, wo die Sicherheit nicht verdient ist.
+
+**Die Schwachstellen:**
+
+- **Stränge aus einer Studie.** Die Noradrenalin-Geschichte, der VMAT2/Dopamin-Strang und andere ruhen auf wenigen kleinen Studien, teils einer Gruppe. Replikation steht aus.
+- **Tier- und Fremderkrankungs-Evidenz.** Viele Pfeile (Noradrenalin und Clearance, Noradrenalin und Mikroglia, Modulatoren und kortikaler Gain) sind bei Tieren oder anderen Krankheiten belegt, nicht in ME/CFS gemessen.
+- **Zusammengesetzte Maße.** Neue Indizes sind nützlich, aber unvalidiert.
+- **Nicht entfernte Störfaktoren.** Dekonditionierung, Medikamente, Aktivitätsniveau.
+- **Das Null und das Negative.** Manche unserer stärksten Aussagen betreffen das, was *nicht* wirkt (Amantadin bei MS-Fatigue, GET, Clonidin). Sie verdienen dieselbe Prominenz.
+
+**Warum wir sie markieren.** Weil die Alternative — eine glatte Erzählung mit weggeschliffener Unsicherheit — Patienten irreführt und Forschungsprioritäten auf Luft setzt. Eine Markierung ist keine Schwäche; sie zu verbergen wäre eine.

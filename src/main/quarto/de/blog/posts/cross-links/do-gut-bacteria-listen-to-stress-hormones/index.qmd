@@ -1,0 +1,18 @@
+---
+title: "Hören Darmbakterien auf Stresshormone?"
+description: "Noradrenalin ist ein menschliches Stresssignal. Manche Bakterien wachsen schneller, wenn es da ist."
+author: "Yannick Loth"
+date: "2026-11-01"
+categories: [Cross-links, Noradrenergic, Mechanisms]
+lang: de
+---
+
+Die meisten Darm-Hirn-Diskussionen laufen über das Immunsystem. Es gibt einen zweiten, seltsameren Kanal: die **mikrobielle Endokrinologie**.
+
+Die Evidenz ist real, aber früh: Noradrenalin erhöhte Wachstum und Virulenz mindestens eines pathogenen Bakteriums (@Gao2019NEAeromonas), und Darmbakterien produzieren und verbrauchen Neurotransmitter einschließlich Noradrenalin (@Dicks2022GutBacteriaNeurotransmitters).
+
+**Warum es für ME/CFS relevant sein könnte.** Ist die Noradrenalin-Verfügbarkeit verändert, könnte sich die Umgebung des Mikrobioms ändern — ein *Wirt-zu-Mikrobe*-Effekt, verschieden von der üblichen Richtung.
+
+**Die ehrlichen Vorbehalte.** Die Bakterienstudie nutzte einen Fischpathogen, keinen menschlichen Darmkeim. Die Reviews beschreiben Plausibilität, keinen belegten ME/CFS-Mechanismus. Und der Kernbefund ist unrepliziert.
+
+**Wie testen.** Bakterien aus ME/CFS- und Kontrollgemeinschaften Noradrenalin aussetzen und prüfen, ob Wachstum oder Virulenz sich ändern, und ob der noradrenerge Tonus mit der Mikrobiom-Zusammensetzung korreliert.
