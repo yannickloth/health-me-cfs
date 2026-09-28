@@ -1241,3 +1241,36 @@ The evidence assembles a single axis. Upstream constraints — copper-dependent 
 *Origin:* /integrate-topic noradrenergic-full-scope.
 ] <oq:noradrenergic-node-localisation-panel>
 
+=== Noradrenergic Medication Evidence — Human Data
+<sec:noradrenergic-medication-evidence>
+
+*Certainty: n/a (evidence summary).* No randomized trial of any noradrenergic medication has been run in an ME/CFS cohort with post-exertional malaise as an endpoint. The human evidence is indirect — from orthostatic hypotension, POTS, narcolepsy, multiple sclerosis, fibromyalgia, Parkinson's disease, and depression. This section records what that evidence supports and what it undercuts, so the drug list in this chapter is not read as an ME/CFS evidence base.
+
+    - *Droxidopa and midodrine* are first-line drugs for neurogenic orthostatic hypotension @Palma2020OHmanagement. A clinically important fork: patients with peripheral sympathetic denervation respond better to norepinephrine precursors/agonists (droxidopa, midodrine), whereas patients with central autonomic failure respond better to norepinephrine reuptake inhibitors @Park2020OHpharmacologic. This is a diagnostic distinction, not a dosing rule.
+    - *Atomoxetine* is an off-label option for orthostatic hypotension @Palma2020OHmanagement. In obstructive sleep apnea, an aroxybutynin+atomoxetine combination improved fatigue, but *atomoxetine alone reduced total sleep time* @Schweitzer2023MARIPOSA — a caution for sleep-fragile patients.
+    - *Reboxetine* was among the least efficacious and least well-tolerated antidepressants in a 21-drug network meta-analysis @Cipriani2018AntidepressantsNMA. This weakens the selective-NRI repurposing rationale; it does not eliminate it.
+    - *Duloxetine* reduces fibromyalgia pain versus placebo (NNTB 8) @Migliorini2023DuloxetineFM — the strongest positive human signal in this set, but in fibromyalgia, not ME/CFS.
+    - *Amantadine* did *not* reduce multiple-sclerosis fatigue versus placebo (SMD −0.22, p = 0.37) and increased insomnia @Cruccioli2026AmantadineMSfatigue. The best available human test of a catecholamine release enhancer for fatigue is negative.
+    - *Modafinil* reduced multiple-sclerosis fatigue to a similar degree as CBT, with no added benefit from combining them; insomnia and anxiety were the common adverse events @Braley2024COMBOmodafinilMS.
+    - *Solriamfetol and pitolisant* reduce excessive daytime sleepiness in narcolepsy and obstructive sleep apnea @Stahl2017solriamfetol @Krief2021pitolisant, but have no ME/CFS trial; the only ME/CFS-adjacent datum is the small solriamfetol RCT that improved fatigue and executive function @Young2025solriamfetol.
+    - *Yohimbine* raised plasma norepinephrine by 66% and mean blood pressure by about 5 mmHg @Grossman1993YohimbineNE — a safety basis for caution with α2-antagonist strategies in the hyperadrenergic/POTS population.
+
+#warning-env(title: [Drug Interactions — FDA Prescribing Information, Checked Online])[
+Interaction data were retrieved from current FDA prescribing information (openFDA label API). Key findings:
+
+    - *Atomoxetine:* contraindicated with monoamine oxidase inhibitors (serious, sometimes fatal reactions); CYP2D6 inhibitors raise exposure; may affect blood pressure with antihypertensives/pressor agents; potentiates β2-agonists (e.g. albuterol).
+    - *Solriamfetol:* do NOT use with MAOIs or within 14 days of stopping an MAOI (hypertensive-reaction risk); caution with other blood-pressure/heart-rate-raising or dopaminergic drugs.
+    - *Rasagiline/selegiline* (MAO-B inhibitors): meperidine risks serotonin syndrome; dextromethorphan risks psychosis; non-selective MAO inhibition risks hypertensive crisis.
+    - *Droxidopa and midodrine:* combining pressor agents (including each other) increases supine-hypertension risk; midodrine with cardiac glycosides risks bradycardia/AV block; midodrine must avoid MAOIs and linezolid.
+    - *Duloxetine:* metabolised by CYP1A2 and CYP2D6; potent inhibitors of either raise exposure.
+
+This addresses the pipeline's drug-interaction pre-check: the common ME/CFS co-prescriptions most at risk are MAOIs (do not combine with atomoxetine, solriamfetol, midodrine) and other pressor agents (avoid combining droxidopa with midodrine without supine-BP monitoring). *Data source: FDA labels via openFDA; not a substitute for clinician review.*
+]
+
+*Falsifiable predictions.* (a) A selective NRI will reduce PEM frequency, not only fatigue, in low-NE ME/CFS. (b) The peripheral-denervation vs central-autonomic fork @Park2020OHpharmacologic will predict whether a given patient responds to droxidopa or to an NRI. (c) A release enhancer will fail the amantadine test if the deficit is synthesis- or vesicle-limited rather than release-limited @Cruccioli2026AmantadineMSfatigue.
+
+*Limitations.* Every cited trial is in another population; some are narrative reviews. No ME/CFS dosing, no severity stratification, no ME/CFS interaction study. The negative amantadine and modafinil results may not transfer to ME/CFS, but they argue against assuming transfer in the positive direction.
+
+*Consequence:* the medication map now states which human result supports each noradrenergic drug and which result undercuts it — so a reader sees an evidence-graded list, not a set of recommendations.
+
+

@@ -41121,3 +41121,95 @@ This stream assembles evidence for the claim that pathological fatigue across au
     *Conclusion:* Cross-disease analogue: neuroinflammation targeting the LC is a plausible upstream cause of a central NE deficit.
     *Limitations:* MS, not ME/CFS; review; no LC imaging in ME/CFS.
     *Certainty Assessment:* 0.50 raw x 0.50 (other disease model) = *discounted 0.25*
+
+
+= Noradrenergic Medication Evidence — Annotated Entries (added 2026-09-28 session 3)
+#set heading(numbering: none, outlined: false)
+
+=== Cipriani et al.\ 2018 — 21 Antidepressants Network Meta-analysis
+
+    *Full Citation:*: Cipriani A, Furukawa TA, Salanti G, Chaimani A, Atkinson LZ, Ogawa Y, et al. Comparative efficacy and acceptability of 21 antidepressant drugs for the acute treatment of adults with major depressive disorder: a systematic review and network meta-analysis. _The Lancet_. 2018;391(10128):1357-1366. @Cipriani2018AntidepressantsNMA
+    *DOI:*: #link("https://doi.org/10.1016/S0140-6736(17)32802-7")[10.1016/S0140-6736(17)32802-7]
+    *PMID:*: 29477251
+    *Key Findings:*:
+        - All antidepressants beat placebo, but reboxetine was among the least efficacious agents and had the highest dropout rates.
+    *Conclusion:* A direct caution on selective-NRI repurposing for ME/CFS — weak efficacy and poor tolerability in the best-powered comparison available.
+    *Limitations:* Major depressive disorder, not ME/CFS; surrogate endpoints; industry data.
+    *Certainty Assessment:* 0.85 raw x 0.75 (general population) = *discounted 0.64*
+
+=== Migliorini et al.\ 2023 — Duloxetine for Fibromyalgia
+
+    *Full Citation:*: Migliorini F, Maffulli N, Eschweiler J, Baroncini A, Tingart M, Colarossi G. Duloxetine for fibromyalgia syndrome: a systematic review and meta-analysis. _Journal of Orthopaedic Surgery and Research_. 2023;18(1):504. @Migliorini2023DuloxetineFM
+    *DOI:*: #link("https://doi.org/10.1186/s13018-023-03995-z")[10.1186/s13018-023-03995-z]
+    *PMID:*: 37461044
+    *Key Findings:*:
+        - 11 RCTs, n=3432: duloxetine beat placebo on pain/fatigue across doses; discontinuations fewer at 30 mg.
+    *Conclusion:* The strongest positive human signal in the noradrenergic set, but in fibromyalgia — supports SNRIs for the pain-fatigue overlap, not for ME/CFS fatigue specifically.
+    *Limitations:* Fibromyalgia, mostly women; not ME/CFS.
+    *Certainty Assessment:* 0.75 raw x 0.80 (comorbid condition) = *discounted 0.60*
+
+=== Cruccioli et al.\ 2026 — Amantadine for MS Fatigue (negative)
+
+    *Full Citation:*: Cruccioli MM, Carneiro PHT, Pitanga JFJ, Rossi YI, et al. Amantadine for multiple sclerosis-related fatigue: a systematic review and meta-analysis of randomized controlled trials. _Neurodegenerative Disease Management_. 2026;16(5):643-649. @Cruccioli2026AmantadineMSfatigue
+    *DOI:*: #link("https://doi.org/10.1080/17582024.2025.2607678")[10.1080/17582024.2025.2607678]
+    *PMID:*: 41446963
+    *Key Findings:*:
+        - 9 RCTs, n=601: amantadine did not reduce fatigue vs placebo (SMD -0.22, p=0.37) and increased insomnia (OR 2.33).
+    *Conclusion:* The best human test of a catecholamine release enhancer for fatigue is negative — it argues against assuming a release-enhancer will work in ME/CFS.
+    *Limitations:* Multiple sclerosis, not ME/CFS; heterogeneous doses.
+    *Certainty Assessment:* 0.75 raw x 0.50 (other disease model) = *discounted 0.38*
+
+=== Braley et al.\ 2024 — COMBO-MS (modafinil vs CBT)
+
+    *Full Citation:*: Braley TJ, Ehde DM, Alschuler KN, Little R, et al. Comparative effectiveness of cognitive behavioural therapy, modafinil, and their combination for treating fatigue in multiple sclerosis (COMBO-MS): a randomised, statistician-blinded, parallel-arm trial. _The Lancet Neurology_. 2024;23(11):1108-1118. @Braley2024COMBOmodafinilMS
+    *DOI:*: #link("https://doi.org/10.1016/S1474-4422(24)00354-5")[10.1016/S1474-4422(24)00354-5]
+    *PMID:*: 39424559
+    *Key Findings:*:
+        - n=336: modafinil and CBT gave similar fatigue reductions; combining them added no benefit; insomnia/anxiety were common on modafinil.
+    *Conclusion:* Modafinil's fatigue effect is modest and not additive to behavioural treatment — sets expectations for wake-promoters in ME/CFS.
+    *Limitations:* Multiple sclerosis; 12-week horizon.
+    *Certainty Assessment:* 0.80 raw x 0.50 (other disease model) = *discounted 0.40*
+
+=== Palma and Kaufmann 2020 — Management of Orthostatic Hypotension
+
+    *Full Citation:*: Palma JA, Kaufmann H. Management of Orthostatic Hypotension. _Continuum (Minneapolis, Minn.)_. 2020;26(1):154-177. @Palma2020OHmanagement
+    *DOI:*: #link("https://doi.org/10.1212/CON.0000000000000816")[10.1212/CON.0000000000000816]
+    *PMID:*: 31996627
+    *Key Findings:*:
+        - Midodrine and droxidopa are first-line; atomoxetine is an off-label option; fludrocortisone has concerning long-term effects.
+    *Conclusion:* Frames the orthostatic-intolerance medication options relevant to ME/CFS+POTS.
+    *Limitations:* Review; neurogenic OH, not ME/CFS.
+    *Certainty Assessment:* 0.70 raw x 0.75 (general population) = *discounted 0.53*
+
+=== Park et al.\ 2020 — Pharmacologic Treatment of Orthostatic Hypotension
+
+    *Full Citation:*: Park JW, Okamoto LE, Shibao CA, Biaggioni I. Pharmacologic treatment of orthostatic hypotension. _Autonomic Neuroscience_. 2020;229:102721. @Park2020OHpharmacologic
+    *DOI:*: #link("https://doi.org/10.1016/j.autneu.2020.102721")[10.1016/j.autneu.2020.102721]
+    *PMID:*: 32979782
+    *Key Findings:*:
+        - Peripheral sympathetic denervation responds to NE precursors/agonists (droxidopa, midodrine); central autonomic failure responds to NE enhancers (atomoxetine, pyridostigmine, yohimbine).
+    *Conclusion:* Supplies a mechanistic differential — drug response can localise the autonomic lesion; the basis for `@spec:peripheral-vs-central-autonomic-fork`.
+    *Limitations:* Review; OH populations.
+    *Certainty Assessment:* 0.70 raw x 0.75 (general population) = *discounted 0.53*
+
+=== Schweitzer et al.\ 2023 — MARIPOSA (aroxybutynin + atomoxetine)
+
+    *Full Citation:*: Schweitzer PK, Taranto-Montemurro L, Ojile JM, Thein SG, et al. The Combination of Aroxybutynin and Atomoxetine in the Treatment of Obstructive Sleep Apnea (MARIPOSA): A Randomized Controlled Trial. _American Journal of Respiratory and Critical Care Medicine_. 2023;208(12):1316-1327. @Schweitzer2023MARIPOSA
+    *DOI:*: #link("https://doi.org/10.1164/rccm.202306-1036OC")[10.1164/rccm.202306-1036OC]
+    *PMID:*: 37812772
+    *Key Findings:*:
+        - Phase II RCT, n=211: the combination improved the apnea-hypopnea index and fatigue, but atomoxetine alone reduced total sleep time.
+    *Conclusion:* Atomoxetine's isolated sleep-time reduction is a caution for sleep-fragile ME/CFS patients.
+    *Limitations:* Obstructive sleep apnea; industry-supported.
+    *Certainty Assessment:* 0.70 raw x 0.75 (general population) = *discounted 0.53*
+
+=== Grossman et al.\ 1993 — Oral Yohimbine, BP, and Norepinephrine
+
+    *Full Citation:*: Grossman E, Rosenthal T, Peleg E, Holmes C, Goldstein DS. Oral yohimbine increases blood pressure and sympathetic nervous outflow in hypertensive patients. _Journal of Cardiovascular Pharmacology_. 1993;22(1):22-26. @Grossman1993YohimbineNE
+    *DOI:*: #link("https://doi.org/10.1097/00005344-199307000-00004")[10.1097/00005344-199307000-00004]
+    *PMID:*: 7690091
+    *Key Findings:*:
+        - Oral yohimbine raised mean blood pressure ~5 mmHg and plasma norepinephrine ~66%.
+    *Conclusion:* Safety basis for caution on α2-antagonist strategies in the hyperadrenergic/POTS population.
+    *Limitations:* Hypertensive subjects; small n.
+    *Certainty Assessment:* 0.65 raw x 0.75 (general population) = *discounted 0.49*
