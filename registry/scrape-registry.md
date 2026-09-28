@@ -1356,3 +1356,16 @@ Prevents re-processing of already-integrated content.
 | URL | Source | Scraped | Integrated | Target |
 |-----|--------|---------|------------|--------|
 | PubMed API queries (28 queries + efetch XML batches, 14 PMIDs) | pubmed/eutils | 2026-09-27 | — | ops/research/search-log-exertional-muscle-soreness-20260927.md, ops/research/literature-summary-exertional-muscle-soreness.md, bib/exercise-pem.bib (8), bib/treatments.bib (6), appendix-h `<sec:bib-exertional-muscle-soreness>` (14 annotated entries), ops/integration-guides/integration-guide-exertional-muscle-soreness.md |
+
+
+## ME/CFS Research Foundation + Research Register (resource links)
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| https://mecfs-research.org/ | 2026-09-28 | ME/CFS Research Foundation (Hamburg) — funds biomedical ME/CFS/Long COVID research; site EN/DE |
+| https://mrr.mecfs-research.org/ | 2026-09-28 | ME/CFS Research Register — curated register of ME/CFS research projects, networks, publications, events, working groups, people, organisations (scope: DE/AT/CH/NL/NO/IS); SeatTable-backed, exportable |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| https://mecfs-research.org/ | web | 2026-09-28 | 2026-09-28 | appendices/appendix-d-resources.typ @sec:research-funders |
+| https://mrr.mecfs-research.org/ | web | 2026-09-28 | 2026-09-28 | appendices/appendix-d-resources.typ @sec:clinical-trials |
+| https://projects.mecfs-research.org/de/projects/registry-and-biobank | web | 2026-09-28 | 2026-09-28 | appendices/appendix-d-resources.typ @sec:registries — German ME/CFS Register and Biobank (TUM/MCFC, Behrends) |

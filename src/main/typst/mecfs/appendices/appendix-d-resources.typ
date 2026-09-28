@@ -371,6 +371,14 @@ Run by Dr. David Kaufman. Known for complex chronic illness expertise.
 
 Site of rituximab trials and ongoing autoimmunity research.
 
+=== Research Funding Organizations
+<sec:research-funders>
+
+[style=nextline]
+/ *ME/CFS Research Foundation*:  #link("https://mecfs-research.org/") 
+
+German non-profit (Hamburg, founded 2022) that funds biomedical ME/CFS and Long COVID research and campaigns for research funding and recognition. Publishes a funding strategy and works with an international scientific advisory board. Operates the ME/CFS Research Register (@sec:clinical-trials), a curated register of the research landscape. Reports more than 650,000 ME/CFS patients in Germany (about 40% post-COVID). Website in English and German.
+
 // =============================================================================
 
 == Online Communities and Forums
@@ -733,9 +741,9 @@ Search for “myalgic encephalomyelitis” or “chronic fatigue syndrome.” Fi
 
 European clinical trials database.
 
-/ *ME/CFS Research Register*:  #link("https://mecfs-research.org/") 
+/ *ME/CFS Research Register*:  #link("https://mrr.mecfs-research.org/") 
 
-Specialized registry tracking ME/CFS research internationally.
+Curated, publicly browseable register of ME/CFS research (projects, networks, publications, events, research types, research areas, working groups, people, and organisations). Maintained by the ME/CFS Research Foundation (Hamburg). Current country scope: Germany, Austria, Switzerland, the Netherlands, Norway, and Iceland, with more countries planned. The data are regularly updated and exportable — useful for mapping the research landscape and for bulk extraction (see @sec:research-funders).
 
 *Questions to ask before participating:*
 
@@ -773,6 +781,10 @@ Solve M.E.'s patient registry. Collects patient-reported data and biospecimens. 
 / *Netherlands ME/CFS Cohort and Biobank (NMCB)*:  National Dutch infrastructure for ME/CFS research.
 
 / *DecodeME*:  UK-based genetic study with 15,000+ participants. Largest ME/CFS study ever conducted.
+
+/ *German ME/CFS Register and Biobank (Munich)*:  #link("https://projects.mecfs-research.org/de/projects/registry-and-biobank") 
+
+Standardized biobank of biosamples from patients with an ME/CFS diagnosis, built at the Technische Universität München (TUM) under the Münchner Chronische Fatigue Centrum (MCFC; lead: Prof.\ Uta Behrends). Established 2022--2024 with Bundesministerium für Gesundheit (BMG) funding; the ME/CFS Research Foundation covered 2025 storage costs, with continuation to be financed through cooperating research projects and public funding. Provides a translational base for diagnostic-marker, risk-factor, treatment, and prevention research.
 
 // =============================================================================
 
