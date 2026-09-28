@@ -40994,11 +40994,11 @@ This stream assembles evidence for the claim that pathological fatigue across au
     *DOI:*: #link("https://doi.org/10.1161/CIRCULATIONAHA.122.059971")[10.1161/CIRCULATIONAHA.122.059971]
     *PMID:*: 35766055
     *Key Findings:*:
-        - Adrenergic/muscarinic GPCR autoantibodies detected in POTS using a standardized assay.
-        - Provides a transferable assay path for the ME/CFS+OI subset.
-    *Conclusion:* Downstream/parallel autoimmune mechanism; supplies the assay needed to test adrenergic autoantibodies in noradrenergic-deficient ME/CFS.
-    *Limitations:* POTS population, not ME/CFS; autoantibody prevalence and pathogenicity debated.
-    *Certainty Assessment:* 0.70 raw x 0.80 (POTS comorbid condition) = *discounted 0.56*
+        - NULL study. Autoantibody concentrations to 11 cardiovascular GPCRs (adrenergic, muscarinic) did NOT differ between 116 POTS patients and 81 healthy controls; ROC discrimination was poor.
+        - Nearly all POTS patients (98.3%) and all controls (100%) were above the manufacturer's alpha1-adrenergic seropositive threshold, indicating the threshold is not disease-specific.
+    *Conclusion:* This is NEGATIVE evidence: standard ELISA GPCR-autoantibody tests did not distinguish POTS from controls and "are not useful for establishing the role of autoimmunity in POTS." It does NOT support an adrenergic-autoantibody upstream cause; it constrains it.
+    *Limitations:* POTS, not ME/CFS; ELISA methodology may miss functional antibodies (a competing explanation); single assay platform.
+    *Certainty Assessment:* 0.70 raw x 0.80 (POTS comorbid condition) = *discounted 0.56 — but this certainty applies to the NULL finding, not to the presence of autoantibodies.*
 
 === Senard and Rouet 2006 — Dopamine beta-Hydroxylase Deficiency
 
