@@ -13930,5 +13930,172 @@
     "label": "Hypocretin (Orexin)",
     "category": "neuropeptide",
     "definition": "Neuropeptide aus hypothalamischen Neuronen, die Wachheit fördern; ihr Verlust verursacht Narkolepsie."
+  },
+  "Human capital": {
+    "label": "Humankapital",
+    "category": "method",
+    "definition": "Ein gesundheitsökonomischer Bewertungsansatz, der entgangene Produktivität mit Marktlöhnen bewertet. Die Humankapital-Methode unterschätzt die Krankheitslast für Arbeitslose, Rentner, Junge und pflegende Angehörige — die von ME/CFS am stärksten betroffenen Gruppen —, da sie nur entgangene Einkommen zählt."
+  },
+  "Monte Carlo simulation": {
+    "label": "Monte-Carlo-Simulation",
+    "category": "method",
+    "definition": "Eine computergestützte Modellierungstechnik, die Zufallseingaben vielfach zieht, um Ergebnisse und deren Unsicherheit zu schätzen."
+  },
+  "drug-set enrichment": {
+    "label": "Drug-Set-Enrichment-Analyse",
+    "category": "method",
+    "definition": "Eine Methode, die Arzneimittel nach gemeinsamen molekularen Zielen gruppiert und prüft, ob eine Gen- oder Signalwegssignatur in dieser Gruppe angereichert ist — Mechanismus-Aggregation statt Einzelmedikament-Inferenz."
+  },
+  "split-half reliability": {
+    "label": "Split-Half-Reliabilität",
+    "category": "method",
+    "definition": "Ein Replikationstest, bei dem ein Datensatz zufällig halbiert, die Analyse getrennt auf beiden Hälften durchgeführt und die Ergebnisse verglichen werden (z. B. per Rangkorrelation). Hohe Übereinstimmung stützt, dass das Ergebnis kein Artefakt der Stichprobe ist."
+  },
+  "negative-constraint": {
+    "label": "Negative Randbedingung",
+    "category": "method",
+    "definition": "Information aus einem Mechanismus, der wiederholt durch eine Behandlung aktiviert wird, aber keinen Nutzen bringt — was nahelegt, dass der Signalweg nicht ratenbegrenzend ist. Negative Constraints verkleinern den Hypothesenraum."
+  },
+  "Net Assessment Score": {
+    "label": "Net Assessment Score (NAS)",
+    "category": "method",
+    "definition": "Die Gesamtnutzen-Rangfolge der Eckey-2025-Umfrage, berechnet für jede Intervention mit mindestens 20 Antworten. Sie drückt den wahrgenommenen Effekt auf den Gesamtzustand auf einer Sieben-Punkte-Skala aus, referenziert gegen orales nicht-liposomales Vitamin C und für Mehrfachvergleiche adjustiert."
+  },
+  "ICI": {
+    "label": "ICI",
+    "category": "treatment",
+    "definition": "Immune-Checkpoint-Inhibitor: eine Krebstherapie (z. B. Anti-PD-1/PD-L1 oder Anti-CTLA-4), die die Bremsen der T-Zell-Aktivierung löst. Hier als humanes Modell genutzt, in dem verstärkte Immunaktivierung Fatigue erzeugt."
+  },
+  "Immunometabolism": {
+    "label": "Immunmetabolismus",
+    "category": "pathway",
+    "definition": "Die Untersuchung, wie Immunzellen Energie aufnehmen und nutzen (Glukose, Aminosäuren, Fettsäuren) und wie dieser metabolische Bedarf mit dem übrigen Körper, einschließlich Gehirn und Muskel, wechselwirkt."
+  },
+  "arousal": {
+    "label": "Arousal (Wachheit)",
+    "category": "physiology",
+    "definition": "Der Wachheits- und Reaktionsbereitschaftszustand des Gehirns, vor allem getragen von noradrenergen, histaminergen und orexinergen Systemen. Niedriges Arousal erzeugt Schläfrigkeit und reduzierte Reaktivität; Stimulanzien erhöhen es."
+  },
+  "salience network": {
+    "label": "Salienznetzwerk",
+    "category": "neuroanatomy",
+    "definition": "Ein Hirnnetzwerk (verankert an der anterioren Insula und dem dorsalen anterioren Cingulum), das markiert, welche Reize und inneren Zustände wichtig genug zum Handeln sind. Es hilft, Aufwand und Aufmerksamkeit zu priorisieren."
+  },
+  "endophenotype": {
+    "label": "Endophänotyp",
+    "category": "method",
+    "definition": "Ein messbares, erbliches Merkmal zwischen einer Krankheit und ihren genetischen Ursachen — ein biologischer Subtyp statt einer Symptomgruppe. Zwei Patienten mit derselben Diagnose können verschiedene Endophänotypen haben."
+  },
+  "effort discounting": {
+    "label": "Effort-Discounting (Aufwandsabwertung)",
+    "category": "measurement",
+    "definition": "Die Neigung, eine Belohnung geringer zu bewerten, wenn mehr Aufwand nötig ist. Gemessen mit Aufgaben wie der EEfRT; starke Abwertung bedeutet, dass eine größere Belohnung nötig ist, um Aufwand zu rechtfertigen."
+  },
+  "ABCD Study": {
+    "label": "ABCD-Studie",
+    "category": "method",
+    "definition": "Adolescent Brain Cognitive Development Study — die größte Langzeitstudie zur Hirnentwicklung und Kindergesundheit in den USA (ca. 11 800 Kinder), genutzt für groß angelegte hirnweite Assoziationsanalysen."
+  },
+  "norepinephrine": {
+    "label": "Noradrenalin",
+    "category": "neurotransmitter",
+    "definition": "Ein Katecholamin-Neurotransmitter, der Wachheit, Aufmerksamkeit und die Kampf-oder-Flucht-Reaktion fördert. Reduzierte zentrale noradrenerge Signalübertragung trägt zu Fatigue und kognitiver Verlangsamung bei; sie unterscheidet sich von der Rolle des Dopamins bei Belohnung und Motivation."
+  },
+  "methylphenidate": {
+    "label": "Methylphenidat",
+    "category": "medication",
+    "definition": "Ein Stimulans, das die Dopamin- und Noradrenalin-Transporter blockiert und synaptische Katecholamine erhöht. Off-Label bei ME/CFS gegen Brain Fog; kann subjektive Wachheit und Motivation verbessern, während es Müdigkeit maskiert und Überanstrengung ermöglicht.",
+    "generic": "Methylphenidate",
+    "brand": "Ritalin, Concerta",
+    "class": "Stimulans (Dopamin-/Noradrenalin-Wiederaufnahmehemmer)",
+    "rx": "Rx",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Methylphenidate%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Methylphenidate"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Methylphenidate"
+      }
+    ]
+  },
+  "modafinil": {
+    "label": "Modafinil",
+    "category": "medication",
+    "definition": "Ein wachmachendes Mittel mit schwächerer Dopamin-Transporter-Blockade und zusätzlichen histaminergen/orexinergen Effekten. Off-Label bei Fatigue und Brain Fog; erhöht Arousal ohne das volle Nebenwirkungsprofil von Stimulanzien.",
+    "generic": "Modafinil",
+    "brand": "Provigil",
+    "class": "Wachmacher",
+    "rx": "Rx",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Modafinil%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Modafinil"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Modafinil"
+      }
+    ]
+  },
+  "pitolisant": {
+    "label": "Pitolisant",
+    "category": "medication",
+    "definition": "Ein inverser Agonist des Histamin-H3-Rezeptors, der die endogene Histaminfreisetzung erhöht und Wachheit fördert, ohne das sympathische Nervensystem direkt zu aktivieren. Die vermutlich risikoärmste wachmachende Option.",
+    "generic": "Pitolisant",
+    "brand": "Wakix",
+    "class": "Wachmacher (H3-inverser Agonist)",
+    "rx": "Rx",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Pitolisant%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Pitolisant"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Pitolisant"
+      }
+    ]
+  },
+  "solriamfetol": {
+    "label": "Solriamfetol",
+    "category": "medication",
+    "definition": "Ein Dopamin- und Noradrenalin-Wiederaufnahmehemmer, zugelassen für übermäßige Tagesschläfrigkeit; bei ME/CFS gegen Fatigue getestet mit moderatem signifikantem Effekt.",
+    "generic": "Solriamfetol",
+    "brand": "Sunosi",
+    "class": "Wachmacher (DNRI)",
+    "rx": "Rx",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Solriamfetol%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Solriamfetol"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Solriamfetol"
+      }
+    ]
+  },
+  "wakefulness": {
+    "label": "Wachheit",
+    "category": "physiology",
+    "definition": "Der Zustand des Wach- und Wachsamseins, aufrechterhalten durch Arousal-Systeme (noradrenerg, histaminerg, orexinerg). Er unterscheidet sich von Aufmerksamkeit, der selektiven Verarbeitung bestimmter Informationen."
   }
 }

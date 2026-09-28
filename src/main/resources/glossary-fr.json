@@ -14165,5 +14165,172 @@
     "label": "Hypocrétine (orexine)",
     "category": "neuropeptide",
     "definition": "Neuropeptides produits par des neurones hypothalamiques qui favorisent l'éveil ; leur perte cause la narcolepsie."
+  },
+  "Human capital": {
+    "label": "Capital humain",
+    "category": "method",
+    "definition": "Une approche d'évaluation en économie de la santé qui chiffre la productivité perdue selon les salaires du marché. Cette méthode sous-estime la charge de morbidité pour les personnes sans emploi, retraitées, jeunes ou soignantes — les groupes les plus touchés par l'EM/SFC — car elle ne compte que les revenus non perçus."
+  },
+  "Monte Carlo simulation": {
+    "label": "Simulation de Monte-Carlo",
+    "category": "method",
+    "definition": "Technique de modélisation qui échantillonne de nombreuses fois des entrées aléatoires pour estimer les résultats et leur incertitude."
+  },
+  "drug-set enrichment": {
+    "label": "Analyse d'enrichissement par ensembles de médicaments",
+    "category": "method",
+    "definition": "Méthode qui regroupe les médicaments par cibles moléculaires partagées et teste si une signature génique ou de voie est enrichie dans ce groupe, permettant une agrégation au niveau du mécanisme plutôt qu'une inférence par médicament."
+  },
+  "split-half reliability": {
+    "label": "Fiabilité split-half",
+    "category": "method",
+    "definition": "Test de réplication où un jeu de données est divisé au hasard en deux moitiés, l'analyse est menée séparément sur chacune et les deux résultats sont comparés (par ex. par corrélation de rang). Un bon accord soutient que le résultat n'est pas un artefact de l'échantillon."
+  },
+  "negative-constraint": {
+    "label": "Contrainte négative",
+    "category": "method",
+    "definition": "Information issue d'un mécanisme à plusieurs reprises sollicité par un traitement sans bénéfice, suggérant que la voie n'est pas limitante. Les contraintes négatives réduisent l'espace des hypothèses en éliminant des voies."
+  },
+  "Net Assessment Score": {
+    "label": "Net Assessment Score (NAS)",
+    "category": "method",
+    "definition": "Score de bénéfice global utilisé par l'enquête Eckey 2025, calculé pour chaque intervention ayant au moins 20 réponses; il exprime l'effet perçu sur l'état général sur une échelle à sept points, référencé à la vitamine C orale non liposomale et ajusté pour comparaisons multiples."
+  },
+  "ICI": {
+    "label": "ICI",
+    "category": "treatment",
+    "definition": "Inhibiteur de point de contrôle immunitaire : immunothérapie anticancéreuse (p. ex. anti-PD-1/PD-L1 ou anti-CTLA-4) qui lève les freins de l'activation des lymphocytes T. Employé ici comme modèle humain où une activation immunitaire intensifiée produit de la fatigue."
+  },
+  "Immunometabolism": {
+    "label": "Immunométabolisme",
+    "category": "pathway",
+    "definition": "Étude de la manière dont les cellules immunitaires captent et utilisent l'énergie (glucose, acides aminés, acides gras) et dont cette demande métabolique interagit avec le reste de l'organisme, cerveau et muscle inclus."
+  },
+  "arousal": {
+    "label": "Éveil (arousal)",
+    "category": "physiology",
+    "definition": "État de veille et de réactivité du cerveau, principalement soutenu par les systèmes noradrénergique, histaminergique et orexinergique. Un faible éveil produit somnolence et réactivité réduite ; les stimulants l'augmentent."
+  },
+  "salience network": {
+    "label": "Réseau de saillance",
+    "category": "neuroanatomy",
+    "definition": "Réseau cérébral (ancré sur l'insula antérieure et le cingulum antérieur dorsal) qui signale quels stimuli et états internes sont assez importants pour agir. Il aide à prioriser effort et attention."
+  },
+  "endophenotype": {
+    "label": "Endophénotype",
+    "category": "method",
+    "definition": "Trait mesurable et héritable situé entre une maladie et ses causes génétiques — un sous-type biologique plutôt qu'un ensemble de symptômes. Deux patients avec le même diagnostic peuvent avoir des endophénotypes différents."
+  },
+  "effort discounting": {
+    "label": "Dévalorisation de l'effort",
+    "category": "measurement",
+    "definition": "Tendance à valoriser moins une récompense lorsque plus d'effort est requis. Mesurée par des tâches comme l'EEfRT ; une dévalorisation forte signifie qu'une récompense plus grande est nécessaire pour justifier l'effort."
+  },
+  "ABCD Study": {
+    "label": "Étude ABCD",
+    "category": "method",
+    "definition": "Adolescent Brain Cognitive Development Study — la plus grande étude longitudinale du développement cérébral et de la santé de l'enfant aux États-Unis (environ 11 800 enfants), utilisée pour des analyses d'association cerveau-entier à grande échelle."
+  },
+  "norepinephrine": {
+    "label": "Noradrénaline",
+    "category": "neurotransmitter",
+    "definition": "Neurotransmetteur catécholaminergique qui favorise l'éveil, la vigilance et la réponse de lutte ou de fuite. Une signalisation noradrénergique centrale réduite contribue à la fatigue et au ralentissement cognitif ; elle se distingue du rôle de la dopamine dans la récompense et la motivation."
+  },
+  "methylphenidate": {
+    "label": "Méthylphénidate",
+    "category": "medication",
+    "definition": "Un stimulant qui bloque les transporteurs de la dopamine et de la noradrénaline, augmentant les catécholamines synaptiques. Utilisé hors AMM dans l'EM/SFC pour le brouillard mental ; peut améliorer l'alerte et la motivation subjectives tout en masquant la fatigue et en favorisant le sur-effort.",
+    "generic": "Methylphenidate",
+    "brand": "Ritalin, Concerta",
+    "class": "Stimulant (inhibiteur de la recapture de la dopamine/noradrénaline)",
+    "rx": "Rx",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Methylphenidate%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Methylphenidate"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Methylphenidate"
+      }
+    ]
+  },
+  "modafinil": {
+    "label": "Modafinil",
+    "category": "medication",
+    "definition": "Un agent éveillant avec un blocage plus faible du transporteur de la dopamine et des effets histaminergiques/orexinergiques additionnels. Utilisé hors AMM pour la fatigue et le brouillard mental dans l'EM/SFC ; augmente l'éveil sans le profil complet d'effets secondaires des stimulants.",
+    "generic": "Modafinil",
+    "brand": "Provigil",
+    "class": "Agent éveillant",
+    "rx": "Rx",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Modafinil%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Modafinil"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Modafinil"
+      }
+    ]
+  },
+  "pitolisant": {
+    "label": "Pitolisant",
+    "category": "medication",
+    "definition": "Un agoniste inverse du récepteur histaminique H3 qui augmente la libération d'histamine endogène et favorise l'éveil sans activer directement le système nerveux sympathique. L'option d'éveil vraisemblablement la moins à risque.",
+    "generic": "Pitolisant",
+    "brand": "Wakix",
+    "class": "Agent éveillant (agoniste inverse H3)",
+    "rx": "Rx",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Pitolisant%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Pitolisant"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Pitolisant"
+      }
+    ]
+  },
+  "solriamfetol": {
+    "label": "Solriamfetol",
+    "category": "medication",
+    "definition": "Un inhibiteur de la recapture de la dopamine et de la noradrénaline approuvé pour la somnolence diurne excessive ; testé dans l'EM/SFC pour la fatigue avec un effet significatif modeste.",
+    "generic": "Solriamfetol",
+    "brand": "Sunosi",
+    "class": "Agent éveillant (IRDN)",
+    "rx": "Rx",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Solriamfetol%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Solriamfetol"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Solriamfetol"
+      }
+    ]
+  },
+  "wakefulness": {
+    "label": "Vigilance (éveil)",
+    "category": "physiology",
+    "definition": "L'état d'éveil et d'alerte, maintenu par les systèmes d'éveil (noradrénergique, histaminergique, orexinergique). Distinct de l'attention, qui est le traitement sélectif d'informations spécifiques."
   }
 }

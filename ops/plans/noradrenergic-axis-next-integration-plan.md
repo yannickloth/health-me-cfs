@@ -52,8 +52,11 @@ Flags: WEAK-EVIDENCE (PARTIAL subset). No BLOAT/CLINICAL-RISK/G-UNSUSTAINED-CERT
 ## Phase 10 — Coherence
 See tmp/coherence-audit-noradrenergic-axis-next-2026-09-28.md. 0 inconsistencies.
 
-## Phase 10b — Strategic framing
-The P1 reframing (NE as arousal-and-clearance regulator) could warrant a one-sentence mention in the abstract / ch16 intro. Per the scope-boundary/editorial rule this is an emphasis decision — FLAGGED for user, not written unilaterally.
+## Phase 10b — Strategic framing (resolved 2026-09-28, user-approved "do as you recommend")
+Decision: propagate the reframing at the **mechanism level only**; do **not** add it to the abstract or reading guide.
+Rationale (strongest logic / scientific honesty): the abstract reports *established* findings and already states the CSF catecholamine deficit; the arousal-and-clearance reframing is an *interpretive* reading of a single-centre, unreplicated (n=16) finding with added roles from animal/cross-disease evidence. Placing a speculative reinterpretation in the front-door abstract would overstate it. Therefore:
+- Added a caveated sentence at the mechanism level in `ch19-causal-hierarchy/sec-02-trigger-capable-mechanisms` (the passage that already presents the Aregawi selective-NE finding), cross-referencing `@syn:ne-arousal-clearance-regulator` and restating the replication/translation limits.
+- Abstract and reading guide: no change (documented, not omitted).
 
 ## Phase 11 — Review
 Inline adversarial pass (user-directed): cynic/sophist/reductionist/devil-advocate. Findings: (a) every P-point rests on the single unreplicated Aregawi cohort plus animal/cross-disease evidence — already stated in each environment; (b) P12 microbial-endocrinology rests on a fish pathogen, not human gut — limitation stated; (c) P7 correctly downgraded to open-question given the null orexin-LC input result. 0 CRITICAL, 0 HIGH remaining after inline fixes already embedded.
