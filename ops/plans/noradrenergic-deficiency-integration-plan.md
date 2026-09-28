@@ -133,4 +133,4 @@ Integrate Aregawi et al. 2026 (Brain Comms) — first CSF study demonstrating se
 | 11 | RAN | lightweight review, 0 critical/high |
 | 12 | RAN | this record |
 | 12.5 | RAN | this ledger, 0 OMISSION, build PASS |
-| 13 | RAN | commit pending below |
+| 13 | RAN | commit 8104f60c |
