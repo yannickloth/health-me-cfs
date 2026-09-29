@@ -9,7 +9,7 @@ lang: de
 
 Die Hauptserie Das Arousal-System folgt dem Noradrenalin-Mangel. Diese kleinere Serie behandelt vier Verbindungen daneben.
 
-1. [Hören Darmbakterien auf Stresshormone?](/de/blog/posts/cross-links/do-gut-bacteria-listen-to-stress-hormones/)
-2. [Der Hirnstammkern, der zuerst versagt](/de/blog/posts/cross-links/the-brainstem-nucleus-that-fails-first/)
-3. [Ist der Locus coeruleus die Gain-Kontrolle des Gehirns?](/de/blog/posts/cross-links/is-the-locus-coeruleus-the-brains-gain-control/)
-4. [Wie man an ME/CFS-Forschung teilnimmt](/de/blog/posts/cross-links/how-to-take-part-in-mecfs-research/)
+1. [Hören Darmbakterien auf Stresshormone?](../do-gut-bacteria-listen-to-stress-hormones/)
+2. [Der Hirnstammkern, der zuerst versagt](../the-brainstem-nucleus-that-fails-first/)
+3. [Ist der Locus coeruleus die Gain-Kontrolle des Gehirns?](../is-the-locus-coeruleus-the-brains-gain-control/)
+4. [Wie man an ME/CFS-Forschung teilnimmt](../how-to-take-part-in-mecfs-research/)

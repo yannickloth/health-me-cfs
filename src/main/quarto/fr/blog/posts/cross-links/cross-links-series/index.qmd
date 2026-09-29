@@ -9,7 +9,7 @@ lang: fr
 
 La série principale « Le système d'éveil » suit le déficit de noradrénaline. Cette série plus courte couvre quatre connexions à côté.
 
-1. [Les bactéries intestinales écoutent-elles les hormones du stress ?](/fr/blog/posts/cross-links/do-gut-bacteria-listen-to-stress-hormones/)
-2. [Le noyau du tronc cérébral qui défaille en premier](/fr/blog/posts/cross-links/the-brainstem-nucleus-that-fails-first/)
-3. [Le locus coeruleus est-il le contrôle de gain du cerveau ?](/fr/blog/posts/cross-links/is-the-locus-coeruleus-the-brains-gain-control/)
-4. [Comment participer à la recherche sur l'EM/SFC](/fr/blog/posts/cross-links/how-to-take-part-in-mecfs-research/)
+1. [Les bactéries intestinales écoutent-elles les hormones du stress ?](../do-gut-bacteria-listen-to-stress-hormones/)
+2. [Le noyau du tronc cérébral qui défaille en premier](../the-brainstem-nucleus-that-fails-first/)
+3. [Le locus coeruleus est-il le contrôle de gain du cerveau ?](../is-the-locus-coeruleus-the-brains-gain-control/)
+4. [Comment participer à la recherche sur l'EM/SFC](../how-to-take-part-in-mecfs-research/)

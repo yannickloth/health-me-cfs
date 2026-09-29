@@ -13,14 +13,14 @@ Es ist kein Versprechen. Der Kernbefund stammt aus einer einzigen kleinen Studie
 
 **Die Teile:**
 
-1. [Noradrenalin ist kein Brennstoff — es ist ein Regler](/de/blog/posts/arousal-system/what-norepinephrine-really-does/)
-2. [Warum ME/CFS noradrenalin-niedrig, aber dopamin-normal sein könnte](/de/blog/posts/arousal-system/selective-norepinephrine-deficit/)
-3. [Die Schleife, die ME/CFS aufrechterhalten könnte](/de/blog/posts/arousal-system/the-loop-that-keeps-itself-going/)
-4. [Was ein Noradrenalin-Medikament kann und nicht kann](/de/blog/posts/arousal-system/what-a-norepinephrine-drug-can-and-cannot-do/)
-5. [Müde, aber aufgedreht: Arousal, das sich nicht abschaltet](/de/blog/posts/arousal-system/arousal-that-wont-switch-off/)
-6. [Ein Hebel ohne Pille: der Vagus und der Locus coeruleus](/de/blog/posts/arousal-system/the-vagus-norepinephrine-lever/)
-7. [Pupillen, Griffkraft und ein Urin-Quotient: das System ohne Lumbalpunktion testen](/de/blog/posts/arousal-system/testing-the-axis-without-a-lumbar-puncture/)
-8. [Nein, es ist immer noch keine Milchsäure — aber Noradrenalin gehört zur Brennstoffgeschichte](/de/blog/posts/arousal-system/not-lactic-acid-norepinephrine-and-fuel/)
-9. [Das Noradrenalin-Dreieck: Narkolepsie, POTS und ME/CFS](/de/blog/posts/arousal-system/the-norepinephrine-triangle/)
+1. [Noradrenalin ist kein Brennstoff — es ist ein Regler](../what-norepinephrine-really-does/)
+2. [Warum ME/CFS noradrenalin-niedrig, aber dopamin-normal sein könnte](../selective-norepinephrine-deficit/)
+3. [Die Schleife, die ME/CFS aufrechterhalten könnte](../the-loop-that-keeps-itself-going/)
+4. [Was ein Noradrenalin-Medikament kann und nicht kann](../what-a-norepinephrine-drug-can-and-cannot-do/)
+5. [Müde, aber aufgedreht: Arousal, das sich nicht abschaltet](../arousal-that-wont-switch-off/)
+6. [Ein Hebel ohne Pille: der Vagus und der Locus coeruleus](../the-vagus-norepinephrine-lever/)
+7. [Pupillen, Griffkraft und ein Urin-Quotient: das System ohne Lumbalpunktion testen](../testing-the-axis-without-a-lumbar-puncture/)
+8. [Nein, es ist immer noch keine Milchsäure — aber Noradrenalin gehört zur Brennstoffgeschichte](../not-lactic-acid-norepinephrine-and-fuel/)
+9. [Das Noradrenalin-Dreieck: Narkolepsie, POTS und ME/CFS](../the-norepinephrine-triangle/)
 
 *Ein Vorbehalt zieht sich durch die ganze Serie: der Kernbefund beruht auf einer unreplizierten Kohorte von 16 Patient:innen (@Aregawi2026Noradrenergic). Alles Weitere ist eine darauf aufgebaute Hypothese.*

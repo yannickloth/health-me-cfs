@@ -13,14 +13,14 @@ Ce n'est pas une promesse. Le résultat central vient d'une seule petite étude,
 
 **Les parties :**
 
-1. [La noradrénaline n'est pas un carburant — c'est un régulateur](/fr/blog/posts/arousal-system/what-norepinephrine-really-does/)
-2. [Pourquoi l'EM/SFC pourrait être noradrénaline-bas mais dopamine-normal](/fr/blog/posts/arousal-system/selective-norepinephrine-deficit/)
-3. [La boucle qui pourrait entretenir l'EM/SFC](/fr/blog/posts/arousal-system/the-loop-that-keeps-itself-going/)
-4. [Ce qu'un « médicament noradrénergique » peut et ne peut pas faire](/fr/blog/posts/arousal-system/what-a-norepinephrine-drug-can-and-cannot-do/)
-5. [Fatigué mais survolté : un éveil qui ne s'éteint pas](/fr/blog/posts/arousal-system/arousal-that-wont-switch-off/)
-6. [Un levier sans pilule : le vague et le locus coeruleus](/fr/blog/posts/arousal-system/the-vagus-norepinephrine-lever/)
-7. [Pupilles, force de préhension et un rapport urinaire : tester le système sans ponction lombaire](/fr/blog/posts/arousal-system/testing-the-axis-without-a-lumbar-puncture/)
-8. [Non, ce n'est toujours pas l'acide lactique — mais la noradrénaline fait partie de l'histoire du carburant](/fr/blog/posts/arousal-system/not-lactic-acid-norepinephrine-and-fuel/)
-9. [Le triangle de la noradrénaline : narcolepsie, POTS et EM/SFC](/fr/blog/posts/arousal-system/the-norepinephrine-triangle/)
+1. [La noradrénaline n'est pas un carburant — c'est un régulateur](../what-norepinephrine-really-does/)
+2. [Pourquoi l'EM/SFC pourrait être noradrénaline-bas mais dopamine-normal](../selective-norepinephrine-deficit/)
+3. [La boucle qui pourrait entretenir l'EM/SFC](../the-loop-that-keeps-itself-going/)
+4. [Ce qu'un « médicament noradrénergique » peut et ne peut pas faire](../what-a-norepinephrine-drug-can-and-cannot-do/)
+5. [Fatigué mais survolté : un éveil qui ne s'éteint pas](../arousal-that-wont-switch-off/)
+6. [Un levier sans pilule : le vague et le locus coeruleus](../the-vagus-norepinephrine-lever/)
+7. [Pupilles, force de préhension et un rapport urinaire : tester le système sans ponction lombaire](../testing-the-axis-without-a-lumbar-puncture/)
+8. [Non, ce n'est toujours pas l'acide lactique — mais la noradrénaline fait partie de l'histoire du carburant](../not-lactic-acid-norepinephrine-and-fuel/)
+9. [Le triangle de la noradrénaline : narcolepsie, POTS et EM/SFC](../the-norepinephrine-triangle/)
 
 *Une réserve traverse toute la série : le résultat central repose sur une cohorte non répliquée de 16 patients (@Aregawi2026Noradrenergic). Tout le reste est une hypothèse construite dessus.*
