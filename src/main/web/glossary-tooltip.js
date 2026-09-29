@@ -44,7 +44,7 @@
       hypothesis: 'Hypothesis', physiology: 'Physiology', study: 'Study',
       neuropeptide: 'Neuropeptide', database: 'Database',
       'cell-biology': 'Cell Biology', 'immunology': 'Immunology',
-      biochemical: 'Biochemical', phytochemical: 'Phytochemical'
+      biochemical: 'Biochemical', phytochemical: 'Phytochemical', mediator: 'Mediator'
     },
     fr: {
       medication: 'Médicament', supplement: 'Complément', medication_class: 'Classe',
@@ -64,7 +64,7 @@
       hypothesis: 'Hypothèse', physiology: 'Physiologie', study: 'Étude',
       neuropeptide: 'Neuropeptide', database: 'Base de données',
       'cell-biology': 'Biologie cellulaire', 'immunology': 'Immunologie',
-      biochemical: 'Biochimique', phytochemical: 'Phytochimique'
+      biochemical: 'Biochimique', phytochemical: 'Phytochimique', mediator: 'Médiateur'
     },
     de: {
       medication: 'Medikament', supplement: 'Nahrungsergänzung', medication_class: 'Klasse',
@@ -84,7 +84,7 @@
       hypothesis: 'Hypothese', physiology: 'Physiologie', study: 'Studie',
       neuropeptide: 'Neuropeptid', database: 'Datenbank',
       'cell-biology': 'Zellbiologie', 'immunology': 'Immunologie',
-      biochemical: 'Biochemisch', phytochemical: 'Phytochemisch'
+      biochemical: 'Biochemisch', mediator: 'Mediator', phytochemical: 'Phytochemisch'
     }
   };
   const CATEGORY_LABELS = CATEGORY_LABEL_SETS[LANG] || CATEGORY_LABEL_SETS.en;
