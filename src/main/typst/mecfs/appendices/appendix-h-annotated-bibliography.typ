@@ -41495,3 +41495,1078 @@ This stream assembles evidence for the claim that pathological fatigue across au
     *Key Findings:*:
         - NE reduces tight junctions and permits T-cell entry at specific vessels.
     *Certainty Assessment:* 0.55 raw x 0.75 = 0.41
+
+
+=== MCAS-Stack Drug Mechanisms (mcas-stack-drug-mechanisms) — added 2026-09-29
+
+=== Gibbs et al. 2012 — H4 Receptors in Mast Cells and Basophils (A1)
+
+    / *Full Citation:*: Gibbs BF, Levi-Schaffer F. H4 receptors in mast cells and basophils: a new therapeutic target for allergy? _Frontiers in Bioscience (Landmark Edition)_. 2012;17(2):430–437. @Gibbs2012H4MastBasophil
+    / *DOI:*: #link("https://doi.org/10.2741/3936")[10.2741/3936]
+    / *PMID:*: 22201753
+    / *Key Findings:*:
+        - Itch and other histamine functions are controlled by H4R, not H1R
+        - H4R expressed on mast-cell precursors, mature basophils, and eosinophils (chemotaxis/trafficking)
+        - Combined H1+H4 antagonism proposed
+    / *Conclusion:*: H4R covers histamine functions H1 blockade does not reach.
+    / *Limitations:*: Review; no original data.
+    / *Certainty:*: Raw 0.60; population general; discounted 0.45.
+
+=== Cowden et al. 2010 — H4 Receptor Mediates Inflammation and Pruritus (A1)
+
+    / *Full Citation:*: Cowden JM, Zhang M, Dunford PJ, Thurmond RL. The histamine H4 receptor mediates inflammation and pruritus in Th2-dependent dermal inflammation. _Journal of Investigative Dermatology_. 2010;130(4):1023–1033. @Cowden2010H4Pruritus
+    / *DOI:*: #link("https://doi.org/10.1038/jid.2009.358")[10.1038/jid.2009.358]
+    / *PMID:*: 19907432
+    / *Key Findings:*:
+        - Two H4R antagonists reduced oedema, mast-cell and eosinophil infiltration in Th2 skin model
+        - H4R antagonism reduced IL-4, IL-5, IL-17 and inhibited pruritus
+    / *Conclusion:*: H4R mediates pruritus and Th2 inflammation distinct from H1.
+    / *Limitations:*: Mouse model.
+    / *Certainty:*: Raw 0.65; population animal; discounted 0.33.
+
+=== Ohsawa and Hirasawa 2014 — H1 and H4 Receptors in Atopic Dermatitis (A1)
+
+    / *Full Citation:*: Ohsawa Y, Hirasawa N. The role of histamine H1 and H4 receptors in atopic dermatitis: from basic research to clinical study. _Allergology International_. 2014;63(4):533–542. @Ohsawa2014H1H4AtopicDerm
+    / *DOI:*: #link("https://doi.org/10.2332/allergolint.13-RA-0675")[10.2332/allergolint.13-RA-0675]
+    / *PMID:*: 25249063
+    / *Key Findings:*:
+        - H4R on eosinophils, mast cells, basophils, Th2 cells, and sensory neurons
+        - Combined H1R+H4R blockade inhibited itch and chronic allergic inflammation with efficacy comparable to prednisolone
+        - JNJ39758979 (H4R antagonist) markedly anti-pruritic in phase II AD
+    / *Conclusion:*: H1+H4 dual blockade is more effective than H1 alone.
+    / *Limitations:*: Review; H4R antagonists not approved.
+    / *Certainty:*: Raw 0.60; population general; discounted 0.45.
+
+=== Walter et al. 2011 — Histamine H4 Receptor: Targeting Inflammatory Disorders (A1)
+
+    / *Full Citation:*: Walter M, Kottke T, Stark H. The histamine H4 receptor: targeting inflammatory disorders. _European Journal of Pharmacology_. 2011;668(1-2):1–5. @Walter2011H4Inflammation
+    / *DOI:*: #link("https://doi.org/10.1016/j.ejphar.2011.06.029")[10.1016/j.ejphar.2011.06.029]
+    / *PMID:*: 21741967
+    / *Key Findings:*:
+        - H4R on immune cells mediates chemotaxis
+        - H1 antagonists unsatisfying in chronic pruritus/asthma/allergic rhinitis
+        - H1+H4 synergism proposed; first H4 antagonists reached clinical phase
+    / *Conclusion:*: H4R is a distinct, therapeutically relevant gap in the antihistamine stack.
+    / *Limitations:*: Review.
+    / *Certainty:*: Raw 0.55; population general; discounted 0.41.
+
+=== Jin et al. 2024 — Izuforant H4R Inhibitor Phase I (A1)
+
+    / *Full Citation:*: Jin BH, Hong T, Yoo BW, et al. Pharmacokinetics, pharmacodynamics, and safety of izuforant, an H4R inhibitor, in healthy subjects: a phase I single and multiple ascending dose study. _Clinical and Translational Science_. 2024;17(10):e70032. @Jin2024IzuforantH4R
+    / *DOI:*: #link("https://doi.org/10.1111/cts.70032")[10.1111/cts.70032]
+    / *PMID:*: 39432406
+    / *Key Findings:*:
+        - Phase I SAD/MAD of selective H4R antagonist izuforant in 64 healthy volunteers
+        - PK/PD/safety characterised; no approved H4R antagonist yet
+    / *Conclusion:*: H4R blockade remains at clinical-development stage.
+    / *Limitations:*: Healthy subjects only; no efficacy data.
+    / *Certainty:*: Raw 0.55; population general; discounted 0.41.
+
+=== Mehta et al. 2020 — Enigmatic Histamine Receptor H4 (A1)
+
+    / *Full Citation:*: Mehta P, Miszta P, Rzodkiewicz P, et al. Enigmatic histamine receptor H4 for potential treatment of multiple inflammatory, autoimmune, and related diseases. _Life_. 2020;10(4):50. @Mehta2020H4Enigmatic
+    / *DOI:*: #link("https://doi.org/10.3390/life10040050")[10.3390/life10040050]
+    / *PMID:*: 32344736
+    / *Key Findings:*:
+        - H4R activation mediates mast-cell activation and eosinophil chemotaxis
+        - H4R ligands studied across inflammation, allergy, autoimmunity, neuropathic pain
+    / *Conclusion:*: H4R is an unaddressed target relevant to mast-cell and neuroimmune disease.
+    / *Limitations:*: Review.
+    / *Certainty:*: Raw 0.55; population general; discounted 0.41.
+
+=== Ocak et al. 2020 — Tryptase Inhibition Attenuates Neuroinflammation via PAR-2 (A2)
+
+    / *Full Citation:*: Ocak U, Eser Ocak P, Huang L, et al. Inhibition of mast cell tryptase attenuates neuroinflammation via PAR-2/p38/NF-kB pathway following asphyxial cardiac arrest in rats. _Journal of Neuroinflammation_. 2020;17(1):144. @Ocak2020TryptasePAR2Neuroinflammation
+    / *DOI:*: #link("https://doi.org/10.1186/s12974-020-01808-2")[10.1186/s12974-020-01808-2]
+    / *PMID:*: 32366312
+    / *Key Findings:*:
+        - Tryptase acts via PAR-2/p38/NF-kB, independent of histamine receptors
+        - Tryptase inhibition attenuated neuroinflammation
+    / *Conclusion:*: Tryptase is a mast-cell mediator that H1/H2/CysLT1 blockade cannot neutralise (mediator escape).
+    / *Limitations:*: Rat model; cardiac-arrest context.
+    / *Certainty:*: Raw 0.55; population animal; discounted 0.28.
+
+=== Qin et al. 2021 — Mast Cells Aggravate Injury via Microglial PAR-2 (A2)
+
+    / *Full Citation:*: Qin B, Peng Y, Zhong C, et al. Mast cells mediate inflammatory injury and aggravate neurological impairment in experimental subarachnoid hemorrhage through microglial PAR-2 pathway. _Frontiers in Cellular Neuroscience_. 2021;15:710481. @Qin2021TryptaseMicrogliaPAR2
+    / *DOI:*: #link("https://doi.org/10.3389/fncel.2021.710481")[10.3389/fncel.2021.710481]
+    / *PMID:*: 34646122
+    / *Key Findings:*:
+        - Mast cells aggravate neurological injury via microglial PAR-2 (tryptase receptor)
+        - Links mast-cell tryptase directly to microglial activation
+    / *Conclusion:*: Supports the tryptase→PAR2→microglia arm of mediator escape.
+    / *Limitations:*: Rat model.
+    / *Certainty:*: Raw 0.55; population animal; discounted 0.28.
+
+=== Lakatos and Rosta 2025 — Bidirectional Microglia–Mast Cell Interplay (A2)
+
+    / *Full Citation:*: Lakatos S, Rosta J. Bidirectional interplay between microglia and mast cells. _International Journal of Molecular Sciences_. 2025;26(15):7556. @Lakatos2025MicrogliaMast
+    / *DOI:*: #link("https://doi.org/10.3390/ijms26157556")[10.3390/ijms26157556]
+    / *PMID:*: 40806683
+    / *Key Findings:*:
+        - Reviews mast-cell/microglia signalling in neuroinflammation and chronic pain
+        - Includes tryptase/PAR-2 and other non-histaminergic routes
+    / *Conclusion:*: Non-histaminergic mast-cell→microglia signalling exists and bypasses antihistamines.
+    / *Limitations:*: Review.
+    / *Certainty:*: Raw 0.55; population general; discounted 0.41.
+
+=== Kupczyk and Kuna 2017 — PGD2/CRTH2/DP1 Pathway (A2)
+
+    / *Full Citation:*: Kupczyk M, Kuna P. Targeting the PGD2/CRTH2/DP1 signaling pathway in asthma and allergic disease: current status and future perspectives. _Drugs_. 2017;77(12):1281–1294. @Kupczyk2017PGD2CRTH2
+    / *DOI:*: #link("https://doi.org/10.1007/s40265-017-0777-2")[10.1007/s40265-017-0777-2]
+    / *PMID:*: 28612233
+    / *Key Findings:*:
+        - PGD2 from degranulating mast cells acts via DP1, CRTH2 (DP2), TP receptors — none blocked by H1/H2 antihistamines or CysLT1 antagonists
+        - CRTH2 drives Th2, eosinophil and basophil migration/activation
+    / *Conclusion:*: PGD2 is a pharmacologically distinct mediator-escape route.
+    / *Limitations:*: Review; CRTH2 antagonists not widely approved.
+    / *Certainty:*: Raw 0.60; population general; discounted 0.45.
+
+=== Maintz and Novak 2007 — Histamine and Histamine Intolerance (A3)
+
+    / *Full Citation:*: Maintz L, Novak N. Histamine and histamine intolerance. _American Journal of Clinical Nutrition_. 2007;85(5):1185–1196. @Maintz2007HistamineIntolerance
+    / *DOI:*: #link("https://doi.org/10.1093/ajcn/85.5.1185")[10.1093/ajcn/85.5.1185]
+    / *PMID:*: 17490952
+    / *Key Findings:*:
+        - DAO is the main enzyme for ingested/extracellular histamine; HNMT is cytosolic (intracellular only)
+        - Reduced DAO activity drives symptoms mimicking allergy
+        - Symptoms respond to histamine-restricted diet or antihistamines
+    / *Conclusion:*: Clearance-side (DAO/HNMT) and receptor-side (H1/H2) are complementary arms of histamine management.
+    / *Limitations:*: Review; few double-blind provocation studies.
+    / *Certainty:*: Raw 0.65; population general; discounted 0.49.
+
+=== Rentzos et al. 2024 — DAO Measurement in Histamine Intolerance (A3)
+
+    / *Full Citation:*: Rentzos G, Weisheit A, Ekerljung L, van Odijk J. Measurement of diamine oxidase (DAO) during low-histamine or ordinary diet in patients with histamine intolerance. _European Journal of Clinical Nutrition_. 2024;78(8):726–731. @Rentzos2024DAOMeasurement
+    / *DOI:*: #link("https://doi.org/10.1038/s41430-024-01448-2")[10.1038/s41430-024-01448-2]
+    / *PMID:*: 38769188
+    / *Key Findings:*:
+        - Serum DAO did not reliably distinguish histamine-intolerance patients or track diet response
+        - Questions serum DAO as a diagnostic biomarker
+    / *Conclusion:*: DAO clearance is real, but serum DAO measurement is an unreliable diagnostic.
+    / *Limitations:*: Small clinical study; serum vs tissue DAO mismatch.
+    / *Certainty:*: Raw 0.55; population general; discounted 0.41.
+
+=== Zybul et al. 2026 — Diamine Oxidase and Gastrointestinal Diseases (A3)
+
+    / *Full Citation:*: Zybul P, Przybylkowski A, Wojas O, Samolinski B. Diamine oxidase and gastrointestinal diseases. _Biomolecules_. 2026;16(8):1136. @Zybul2026DAOGastro
+    / *DOI:*: #link("https://doi.org/10.3390/biom16081136")[10.3390/biom16081136]
+    / *PMID:*: 42650803
+    / *Key Findings:*:
+        - Reviews DAO in gastrointestinal disease and histamine intolerance
+        - Covers DAO activity measurement, AOC1 gene, dietary/supplemental DAO
+    / *Conclusion:*: Updates the clearance-side management of histamine.
+    / *Limitations:*: Review.
+    / *Certainty:*: Raw 0.55; population general; discounted 0.41.
+
+=== Protasio Netto et al. 2026 — Histamine Intolerance as Fibromyalgia Subtype (A3)
+
+    / *Full Citation:*: Protasio Netto J, Lana JF, Parma A, et al. Is histamine intolerance a treatable subtype of fibromyalgia? Evidence and clinical implications — narrative review. _Frontiers in Pain Research_. 2026;7:1786437. @ProtasioNetto2026HITFibromyalgia
+    / *DOI:*: #link("https://doi.org/10.3389/fpain.2026.1786437")[10.3389/fpain.2026.1786437]
+    / *PMID:*: 42146886
+    / *Key Findings:*:
+        - Proposes histamine intolerance (DAO deficiency) as a potentially treatable fibromyalgia subtype
+        - Relevant to ME/CFS-adjacent FM population
+    / *Conclusion:*: DAO deficiency may define a treatable subgroup in FM; untested in ME/CFS.
+    / *Limitations:*: Narrative review; no controlled trials.
+    / *Certainty:*: Raw 0.45; population fibromyalgia; discounted 0.36.
+
+=== Kadiyska et al. 2025 — AOC1 and HNMT Variants in ASD (A3)
+
+    / *Full Citation:*: Kadiyska T, Tourtourikov I, Madzharova D, et al. Impact of AOC1 and HNMT variants on the therapeutic outcomes of a histamine reducing diet in autism spectrum disorder. _Journal of Molecular Neuroscience_. 2025;75(3):105. @Kadiyska2025AOC1HNMT
+    / *DOI:*: #link("https://doi.org/10.1007/s12031-025-02399-4")[10.1007/s12031-025-02399-4]
+    / *PMID:*: 40794387
+    / *Key Findings:*:
+        - AOC1 (DAO) and HNMT variants associated with differential response to a histamine-reducing diet
+        - HNMT-specific literature otherwise dominated by CNS disorders, not histamine intolerance
+    / *Conclusion:*: HNMT variation modifies histamine-clearance outcomes; HNMT/HIT link remains understudied.
+    / *Limitations:*: ASD cohort; associative.
+    / *Certainty:*: Raw 0.45; population general; discounted 0.34.
+
+=== Hu Frisk et al. 2017 — Copper Regulates MITF:Tryptase Axis in Mast Cells (B1)
+
+    / *Full Citation:*: Hu Frisk JM, Kjellen L, Kaler SG, Pejler G, Ohrvik H. Copper regulates maturation and expression of an MITF:tryptase axis in mast cells. _Journal of Immunology_. 2017;199(12):4132–4141. @HuFrisk2017CopperTryptase
+    / *DOI:*: #link("https://doi.org/10.4049/jimmunol.1700786")[10.4049/jimmunol.1700786]
+    / *PMID:*: 29127151
+    / *Key Findings:*:
+        - Copper regulates an MITF:tryptase axis: copper overload decreased tryptase, starvation increased it
+        - Copper status did NOT alter histamine storage or IgE-mediated degranulation
+    / *Conclusion:*: Copper's mast-cell link is via tryptase, not histamine — refines the simple copper→DAO→histamine model.
+    / *Limitations:*: In vitro mast cells.
+    / *Certainty:*: Raw 0.60; population in vitro; discounted 0.24.
+
+=== Schuschke et al. 1994 — Copper Deficiency Increases Mast Cell Population (B1)
+
+    / *Full Citation:*: Schuschke DA, Saari JT, West CA, Miller FN. Dietary copper deficiency increases the mast cell population of the rat. _Proceedings of the Society for Experimental Biology and Medicine_. 1994;207(3):274–277. @Schuschke1994CopperMastCell
+    / *DOI:*: #link("https://doi.org/10.3181/00379727-207-43816")[10.3181/00379727-207-43816]
+    / *PMID:*: 7528379
+    / *Key Findings:*:
+        - Copper deficiency increased mast-cell numbers (78 vs 51 cells/section)
+        - No change in per-cell histamine content or degranulation sensitivity
+    / *Conclusion:*: Copper status links to mast-cell density, not histamine content.
+    / *Limitations:*: Rat model; dated.
+    / *Certainty:*: Raw 0.50; population animal; discounted 0.25.
+
+=== Murakawa et al. 2025 — Copper Amine Oxidase Catalysis (B1)
+
+    / *Full Citation:*: Murakawa T, Suzuki M, Fukui K, et al. Real-time capture of domain movements during copper amine oxidase catalysis by mix-and-inject serial crystallography. _Nature Communications_. 2025;16(1):11149. @Murakawa2025CopperAmineOxidase
+    / *DOI:*: #link("https://doi.org/10.1038/s41467-025-67230-5")[10.1038/s41467-025-67230-5]
+    / *PMID:*: 41413268
+    / *Key Findings:*:
+        - Structural confirmation of the copper-dependent catalytic mechanism of copper amine oxidase (DAO class)
+    / *Conclusion:*: Provides the biochemical anchor that DAO activity requires copper.
+    / *Limitations:*: Structural/in vitro; no clinical translation.
+    / *Certainty:*: Raw 0.55; population in vitro; discounted 0.22.
+
+=== Jutel et al. 2001 — Histamine Regulates T-Cell Responses via H1/H2 (B2)
+
+    / *Full Citation:*: Jutel M, Watanabe T, Klunker S, et al. Histamine regulates T-cell and antibody responses by differential expression of H1 and H2 receptors. _Nature_. 2001;413(6854):420–425. @Jutel2001H1H2Tcell
+    / *DOI:*: #link("https://doi.org/10.1038/35096564")[10.1038/35096564]
+    / *PMID:*: 11574888
+    / *Key Findings:*:
+        - Histamine enhances Th1 via H1R; negatively regulates both Th1 and Th2 via H2R
+        - H1R-knockout: suppressed IFN-gamma, Th2 shift; H2R-knockout: both up
+    / *Conclusion:*: Provides the receptor basis for H1-blockade redistributing histamine to H2 and the resulting immune-polarisation consequences.
+    / *Limitations:*: Mostly mouse knockout; human in vitro.
+    / *Certainty:*: Raw 0.70; population animal + in vitro; discounted 0.35.
+
+=== Elenkov et al. 1998 — Histamine Suppresses IL-12, Stimulates IL-10 via H2 (B2)
+
+    / *Full Citation:*: Elenkov IJ, Webster E, Papanicolaou DA, Fleisher TA, Chrousos GP, Wilder RL. Histamine potently suppresses human IL-12 and stimulates IL-10 production via H2 receptors. _Journal of Immunology_. 1998;161(5):2586–2593. @Elenkov1998HistamineIL12IL10
+    / *PMID:*: 9725260
+    / *Key Findings:*:
+        - Histamine suppresses IL-12 and stimulates IL-10 in human monocytes via H2R
+        - Th1-suppressive, Th2/anti-inflammatory signature
+    / *Conclusion:*: Mechanistic basis for H2-mediated immune suppression under histamine redistribution.
+    / *Limitations:*: In vitro human cells.
+    / *Certainty:*: Raw 0.55; population in vitro; discounted 0.22.
+
+=== Jutel et al. 2009 — Histamine, Histamine Receptors and Immune Pathology (B2)
+
+    / *Full Citation:*: Jutel M, Akdis M, Akdis CA. Histamine, histamine receptors and their role in immune pathology. _Clinical and Experimental Allergy_. 2009;39(12):1786–1800. @Jutel2009HistamineImmune
+    / *DOI:*: #link("https://doi.org/10.1111/j.1365-2222.2009.03374.x")[10.1111/j.1365-2222.2009.03374.x]
+    / *PMID:*: 20085595
+    / *Key Findings:*:
+        - Reviews the four histamine receptors in immune regulation
+        - H1 vs H2 differential effects on T-cell polarisation; H4 in chemotaxis
+    / *Conclusion:*: Consolidates the receptor-differential model of histamine immunomodulation.
+    / *Limitations:*: Review.
+    / *Certainty:*: Raw 0.60; population general; discounted 0.45.
+
+=== Packard and Khan 2003 — Histamine Effects on Th1/Th2 Balance (B2)
+
+    / *Full Citation:*: Packard KA, Khan MM. Effects of histamine on Th1/Th2 cytokine balance. _International Immunopharmacology_. 2003;3(7):909–920. @Packard2003HistamineTh1Th2
+    / *DOI:*: #link("https://doi.org/10.1016/S1567-5769(02)00235-7")[10.1016/S1567-5769(02)00235-7]
+    / *PMID:*: 12810348
+    / *Key Findings:*:
+        - Reviews receptor-specific (H1 vs H2) and dose-dependent histamine effects on Th1/Th2 cytokines
+    / *Conclusion:*: Supports the Th1/Th2 arm of the redistribution hypothesis.
+    / *Limitations:*: Review.
+    / *Certainty:*: Raw 0.50; population general; discounted 0.38.
+
+=== Bissonnette 1996 — Histamine Inhibits Mast-Cell TNF-alpha via H2/H3 (B3)
+
+    / *Full Citation:*: Bissonnette EY. Histamine inhibits tumor necrosis factor alpha release by mast cells through H2 and H3 receptors. _American Journal of Respiratory Cell and Molecular Biology_. 1996;14(6):620–626. @Bissonnette1996H2H3TNFalpha
+    / *DOI:*: #link("https://doi.org/10.1165/ajrcmb.14.6.8652190")[10.1165/ajrcmb.14.6.8652190]
+    / *PMID:*: 8652190
+    / *Key Findings:*:
+        - Histamine inhibits TNF-alpha release from mast cells via H2 and H3 receptors
+        - Partially mediated by PGE2
+    / *Conclusion:*: Direct evidence for autocrine negative feedback of histamine on mast-cell mediator release via H2/H3.
+    / *Limitations:*: Rat peritoneal mast cells; dated; single study.
+    / *Certainty:*: Raw 0.45; population animal (in vitro); discounted 0.23.
+
+=== Alstadhaug 2014 — Histamine in Migraine and Brain (B3)
+
+    / *Full Citation:*: Alstadhaug KB. Histamine in migraine and brain. _Headache_. 2014;54(2):246–259. @Alstadhaug2014HistamineMigraine
+    / *DOI:*: #link("https://doi.org/10.1111/head.12293")[10.1111/head.12293]
+    / *PMID:*: 24433203
+    / *Key Findings:*:
+        - Postulated negative feedback of histamine on mast-cell release via H3 autoreceptor
+        - Most antihistamines ineffective as acute migraine therapy
+    / *Conclusion:*: Secondary support for autocrine histamine feedback on mast cells (note: H3, not H2).
+    / *Limitations:*: Review; mechanism postulated not proven.
+    / *Certainty:*: Raw 0.45; population general; discounted 0.34.
+
+=== Kutukova et al. 2025 — Dual Effects of Acetylcholine on Mast Cells (B4)
+
+    / *Full Citation:*: Kutukova NA, Trulioff AS, Polevshchikov AV, Shamova OV. Dual effects of acetylcholine on mast cell-nerve interactions. _Doklady Biological Sciences_. 2025;525(1):350–353. @Kutukova2025DualAChMastCell
+    / *DOI:*: #link("https://doi.org/10.1134/S001249662560054X")[10.1134/S001249662560054X]
+    / *PMID:*: 41329279
+    / *Key Findings:*:
+        - ACh activates resting mast cells via M3 muscarinic receptor
+        - ACh suppresses degranulation in stimulated mast cells via a7 nicotinic receptor
+    / *Conclusion:*: Cholinergic–mast-cell interaction is receptor-dependent and bidirectional.
+    / *Limitations:*: HMC-1 cell line in vitro.
+    / *Certainty:*: Raw 0.50; population in vitro; discounted 0.20.
+
+=== Kilinc et al. 2024 — Cholinergic Modulation of Meningeal Mast Cells (B4)
+
+    / *Full Citation:*: Kilinc E, Torun IE, Baranoglu Kilinc Y. Meningeal mast cell-mediated mechanisms of cholinergic system modulation in neurogenic inflammation underlying the pathophysiology of migraine. _European Journal of Neuroscience_. 2024;59(9):2181–2192. @Kilinc2024MeningealMastCholinergic
+    / *DOI:*: #link("https://doi.org/10.1111/ejn.15888")[10.1111/ejn.15888]
+    / *PMID:*: 36485173
+    / *Key Findings:*:
+        - Neostigmine (cholinesterase inhibitor) augmented mast-cell degranulation, CGRP, C-fos (blocked by atropine)
+        - Cromolyn (mast-cell stabiliser) reduced these
+    / *Conclusion:*: Enhancing cholinergic tone increases mast-cell degranulation — directly relevant to pyridostigmine/mestinon.
+    / *Limitations:*: Rat model.
+    / *Certainty:*: Raw 0.55; population animal; discounted 0.28.
+
+=== Mishra et al. 2010 — Nicotine Inhibits Mast-Cell Leukotrienes via a7 (B4)
+
+    / *Full Citation:*: Mishra NC, Rir-sima-ah J, Boyd RT, et al. Nicotine inhibits Fc-epsilon-RI-induced cysteinyl leukotrienes and cytokine production without affecting mast cell degranulation through alpha7/alpha9/alpha10-nicotinic receptors. _Journal of Immunology_. 2010;185(1):588–596. @Mishra2010NicotineAlpha7LT
+    / *DOI:*: #link("https://doi.org/10.4049/jimmunol.0902227")[10.4049/jimmunol.0902227]
+    / *PMID:*: 20505147
+    / *Key Findings:*:
+        - Nicotine inhibits IgE-mediated cysteinyl leukotriene and cytokine production via a7/a9/a10 nicotinic receptors, without affecting degranulation
+    / *Conclusion:*: a7-nAChR agonism selectively suppresses mast-cell mediator release (cholinergic negative-control arm).
+    / *Limitations:*: In vitro.
+    / *Certainty:*: Raw 0.50; population in vitro; discounted 0.20.
+
+=== Woestemeier et al. 2026 — Vagal Signaling and Mesenteric Mast Cells (B4)
+
+    / *Full Citation:*: Woestemeier A, Schwandt T, Lingohr P, et al. Mast cell activation within the mesentery depends on vagal signaling following abdominal surgery. _Surgery Open Science_. 2026;31:44–53. @Woestemeier2026VagalMastCell
+    / *DOI:*: #link("https://doi.org/10.1016/j.sopen.2026.03.005")[10.1016/j.sopen.2026.03.005]
+    / *PMID:*: 41952969
+    / *Key Findings:*:
+        - Mesenteric mast-cell degranulation required intact vagal signalling (prevented by vagotomy)
+        - In vitro degranulation triggered by substance P, nicotine, bethanechol
+    / *Conclusion:*: Mast-cell activation is vagal/cholinergic-dependent in vivo.
+    / *Limitations:*: Mouse model.
+    / *Certainty:*: Raw 0.50; population animal; discounted 0.25.
+
+=== Wang et al. 2017 — Nicotine Accelerates Atherosclerosis via a7 on Mast Cells (B4)
+
+    / *Full Citation:*: Wang C, Chen H, Zhu W, et al. Nicotine accelerates atherosclerosis in apolipoprotein E-deficient mice by activating alpha7 nicotinic acetylcholine receptor on mast cells. _Arteriosclerosis, Thrombosis, and Vascular Biology_. 2017;37(1):53–65. @Wang2017NicotineAlpha7Athero
+    / *DOI:*: #link("https://doi.org/10.1161/ATVBAHA.116.307264")[10.1161/ATVBAHA.116.307264]
+    / *PMID:*: 27834689
+    / *Key Findings:*:
+        - Nicotine accelerates atherosclerosis via a7-nAChR on mast cells
+        - HARM SIGNAL: a7-nAChR agonism on mast cells can be pro-inflammatory/pro-atherogenic
+    / *Conclusion:*: Caution against cholinergic approaches that activate mast-cell a7 receptors.
+    / *Limitations:*: Mouse model.
+    / *Certainty:*: Raw 0.55; population animal; discounted 0.28.
+
+=== Elsaghir et al.\ 2026 — New Autoantibodies in Sjögren's Disease
+
+    *Full Citation:*: Elsaghir A, Witte T. New autoantibodies in Sjögren's disease. _Current Opinion in Immunology_. 2026;99:102722. @Elsaghir2026SjogrenAutoAbs
+    *DOI:*: #link("https://doi.org/10.1016/j.coi.2025.102722")[10.1016/j.coi.2025.102722]
+    *PMID:*: 41534451
+    *Study Design:*: Narrative review
+    *Key Findings:*:
+        - Anti-muscarinic M3 receptor (anti-M3R) autoantibodies show high diagnostic sensitivity and specificity for Ro/SS-A-negative Sjögren's disease
+        - M3R is a component of a validated 5-marker panel (FNBP4, SNRPC, CCL4, M3R, KDM6B): 46% sensitivity, 95% specificity
+        - Seronegative SjD diagnosis currently requires invasive salivary-gland biopsy, motivating non-invasive autoantibody biomarkers
+    *Conclusion:*: Anti-M3R is a bona fide diagnostic autoantibody in the Sjögren's terrain, supporting a functional M3-receptor-autoimmunity signal.
+    *Limitations:*: Review; no ME/CFS cohort; M3R panels still require large-cohort validation.
+    *Certainty:*: Raw 0.55 (review); population Sjögren's weight 0.75; discounted 0.41.
+
+=== Abe et al.\ 2020 — M3-Receptor-Reactive Th17 Cells in Primary Sjögren's Syndrome
+
+    *Full Citation:*: Abe S, Tsuboi H, Kudo H, et al.\ M3 muscarinic acetylcholine receptor-reactive Th17 cells in primary Sjögren's syndrome. _JCI Insight_. 2020;5(15):e135982. @Abe2020M3RTh17Sjogren
+    *DOI:*: #link("https://doi.org/10.1172/jci.insight.135982")[10.1172/jci.insight.135982]
+    *PMID:*: 32614803
+    *Study Design:*: ELISpot + functional T-cell assay
+    *Sample Size:*: 10 primary SjD, 10 healthy, 5 IgG4-related disease
+    *Key Findings:*:
+        - M3R-reactive IL-17-secreting Th17 cells detected in 5/10 pSS patients, 0/10 healthy, 0/5 IgG4-RD
+        - Dominant T-cell epitope = M3R peptide 83-95, partly HLA-DR-restricted
+        - M3R-reactive Th17 positivity correlated with higher anti-M3R antibody titers
+    *Conclusion:*: M3R is a tissue-specific autoantigen with both T-cell (Th17) and B-cell (antibody) arms, reinforcing its functional significance.
+    *Limitations:*: Small n; Sjögren's population, not ME/CFS.
+    *Certainty:*: Raw 0.50 (n=10, top journal); population weight 0.75; discounted 0.38.
+
+=== Schiweck et al.\ 2026 — Systematic Review of POTS Treatment
+
+    *Full Citation:*: Schiweck N, Langer K, Maier A, Vilser D, Spiegler J. Systematic literature review: treatment of postural orthostatic tachycardia syndrome (POTS). _Clinical Autonomic Research_. 2026;36(1):3-16. @Schiweck2026POTSTreatment
+    *DOI:*: #link("https://doi.org/10.1007/s10286-025-01172-2")[10.1007/s10286-025-01172-2]
+    *PMID:*: 41225175
+    *Study Design:*: Systematic literature review
+    *Sample Size:*: 45 of 3853 studies
+    *Key Findings:*:
+        - Single studies suggest pyridostigmine and midodrine have beneficial hemodynamic effects in POTS
+        - Ivabradine and beta-blockers show significant effects
+        - Evidence base limited by small studies and absence of large randomized trials
+    *Conclusion:*: Pyridostigmine is a recognized but weakly-evidenced POTS therapy, supporting its use as an autonomic/perfusion probe rather than a first-line treatment.
+    *Limitations:*: No randomized pyridostigmine trial; POTS population.
+    *Certainty:*: Raw 0.70 (systematic review); population POTS weight 0.80; discounted 0.56.
+
+=== Kwok et al.\ 2025 — Treatments for POTS: Systematic Review of Randomized Trials
+
+    *Full Citation:*: Kwok CS, Lee S, Hall M, et al.\ The evidence for treatments for postural orthostatic tachycardia syndrome: a systematic review of randomized trials. _Trends in Cardiovascular Medicine_. 2025;35(8):517-527. @Kwok2025POTSRCTs
+    *DOI:*: #link("https://doi.org/10.1016/j.tcm.2025.07.001")[10.1016/j.tcm.2025.07.001]
+    *PMID:*: 40653179
+    *Study Design:*: Systematic review of randomized trials
+    *Key Findings:*:
+        - Pyridostigmine is among the pharmacological agents evaluated for POTS
+        - Limited randomized-trial evidence for most POTS pharmacotherapies
+    *Conclusion:*: Confirms the weak RCT base for pyridostigmine in POTS.
+    *Limitations:*: Heterogeneous trials; POTS population.
+    *Certainty:*: Raw 0.70; population weight 0.80; discounted 0.56.
+
+=== Chung & Raj 2026 — POTS: A Review (JAMA)
+
+    *Full Citation:*: Chung TH, Raj SR. Postural Orthostatic Tachycardia Syndrome (POTS): A Review. _JAMA_. 2026. doi:10.1001/jama.2026.14809. @Chung2026POTSReview
+    *DOI:*: #link("https://doi.org/10.1001/jama.2026.14809")[10.1001/jama.2026.14809]
+    *PMID:*: 42635998
+    *Study Design:*: Clinical review
+    *Key Findings:*:
+        - Lists pyridostigmine among individualized pharmacological options for POTS
+        - Symptoms include gastroparesis and cognitive dysfunction
+        - Evidence for many interventions limited by small studies
+    *Conclusion:*: Pyridostigmine sits in the POTS pharmacopeia, supporting its use as a cholinergic/autonomic probe.
+    *Limitations:*: Review; no pyridostigmine-specific outcome data.
+    *Certainty:*: Raw 0.70; population weight 0.80; discounted 0.56.
+
+=== Kulin et al.\ 2026 — GI Symptoms and Comorbidities in POTS: Meta-Analysis
+
+    *Full Citation:*: Kulin D, Shah A, Fairlie T, et al.\ Gastrointestinal Symptoms and Systemic Comorbidities in Patients With POTS: A Systematic Review and Meta-Analysis. _Neurogastroenterology & Motility_. 2026;38(4):e70305. @Kulin2026POTSGIMeta
+    *DOI:*: #link("https://doi.org/10.1111/nmo.70305")[10.1111/nmo.70305]
+    *PMID:*: 41952073
+    *Study Design:*: Systematic review and meta-analysis
+    *Sample Size:*: 19 studies, 8268 POTS patients
+    *Key Findings:*:
+        - 36.3% (95% CI 17.8-60.0) of POTS patients report comorbid mast cell activation syndrome (MCAS)
+        - 31% report joint hypermobility syndrome
+        - 40.9% report chronic fatigue
+    *Conclusion:*: A large MCAS-overlap subset exists within POTS/dysautonomia — the population in whom mediator-arm drug probes would be informative.
+    *Limitations:*: Substantial heterogeneity; self-report MCAS diagnosis.
+    *Certainty:*: Raw 0.75 (meta-analysis); population weight 0.80; discounted 0.60.
+
+=== Rehman et al.\ 2026 — Rupatadine for Allergic Rhinitis: Meta-Analysis
+
+    *Full Citation:*: Rehman A, Ihtesham A, Raja HAA, et al.\ Efficacy and safety of rupatadine in allergic rhinitis: a systematic review and meta-analysis of randomized controlled trials. _Annals of Medicine and Surgery_. 2026;88(7):4410-4420. @Rehman2026RupatadineMeta
+    *DOI:*: #link("https://doi.org/10.1097/MS9.0000000000004930")[10.1097/MS9.0000000000004930]
+    *PMID:*: 42433781
+    *Study Design:*: Meta-analysis of RCTs
+    *Sample Size:*: 8 RCTs, 2442 participants
+    *Key Findings:*:
+        - Rupatadine (dual H1 + platelet-activating-factor antagonist) significantly reduces nasal symptoms
+        - Somnolence is the most common adverse event; no serious adverse events
+        - Dose-response trend favours 20 mg over 10 mg
+    *Conclusion:*: Establishes rupatadine's dual-arm pharmacology and the central-H1 sedation side-effect relevant to the histamine-arousal bridge.
+    *Limitations:*: Allergic rhinitis population; quality-of-life benefit inconclusive.
+    *Certainty:*: Raw 0.75; population general weight 0.75; discounted 0.56.
+
+=== Ortiz et al.\ 2026 — Acupressure and Hypnosis: A Series of N-of-1 Trials
+
+    *Full Citation:*: Ortiz M, Schreiner MM, Volz N, et al.\ Acupressure and hypnosis in arterial hypertension: a series of N-of-1 trials. _Frontiers in Medicine_. 2026;13:1871793. @Ortiz2026Nof1Trials
+    *DOI:*: #link("https://doi.org/10.3389/fmed.2026.1871793")[10.3389/fmed.2026.1871793]
+    *PMID:*: 42676430
+    *Study Design:*: Series of N-of-1 randomized trials
+    *Sample Size:*: 17 patients
+    *Key Findings:*:
+        - High feasibility and adherence (over 90%)
+        - No overall group effect in the meta-analysis, while selected individuals responded
+    *Conclusion:*: Individual response heterogeneity can coexist with a null group mean — the core methodological basis for non-response/responder-subset fingerprinting.
+    *Limitations:*: Small n; hypertension, not MCAS/ME/CFS.
+    *Certainty:*: Raw 0.55; population weight 0.75; discounted 0.41.
+
+=== Abbotts et al.\ 2025 — Histamine-Receptor Blockade and Exercise (Null)
+
+    *Full Citation:*: Abbotts KSS, Hudgins JH, Viveros IS, et al.\ Histamine-receptor blockade does not influence the heavy-severe domain boundary and time to task failure in the severe domain during cycling exercise in adults. _Physiological Reports_. 2025;13(19):e70587. @Abbotts2025HistamineExercise
+    *DOI:*: #link("https://doi.org/10.14814/phy2.70587")[10.14814/phy2.70587]
+    *PMID:*: 41017413
+    *Study Design:*: Double-blind randomized crossover
+    *Sample Size:*: 17 participants
+    *Key Findings:*:
+        - Histamine-receptor blockade did not change the heavy-severe exercise domain boundary (p = 0.41)
+        - No change in time to task failure (p = 0.95)
+    *Conclusion:*: NULL result — histamine is not required to sustain short-duration severe-domain exercise in healthy adults; constrains a simple histamine-to-exercise-capacity coupling.
+    *Limitations:*: Small n; healthy adults; short exercise protocol.
+    *Certainty:*: Raw 0.60 (RCT, small n); population weight 0.75; discounted 0.45.
+
+=== Kay 2000 — Effects of Antihistamines on Cognition and Performance
+
+    *Full Citation:*: Kay GG. The effects of antihistamines on cognition and performance. _Journal of Allergy and Clinical Immunology_. 2000;105(6 Pt 2):S622-S627. @Kay2000AntihistamineCognition
+    *DOI:*: #link("https://doi.org/10.1067/mai.2000.106153")[10.1067/mai.2000.106153]
+    *PMID:*: 10856168
+    *Study Design:*: Review
+    *Key Findings:*:
+        - First-generation H1 antihistamines are lipophilic, cross the blood-brain barrier, and impair divided attention, working memory, vigilance and speed
+        - Second-generation agents (e.g. loratadine) are largely non-sedating
+    *Conclusion:*: Central H1 blockade impairs wakefulness and performance — the pharmacological basis for histamine as a wake-promoting (anti-fatigue) signal.
+    *Limitations:*: Review; healthy/allergy populations.
+    *Certainty:*: Raw 0.60; population weight 0.75; discounted 0.45.
+
+=== Jones 2020 — Arousal and Sleep Circuits
+
+    *Full Citation:*: Jones BE. Arousal and sleep circuits. _Neuropsychopharmacology_. 2020;45(1):6-20. @Jones2020ArousalCircuits
+    *DOI:*: #link("https://doi.org/10.1038/s41386-019-0444-2")[10.1038/s41386-019-0444-2]
+    *PMID:*: 31216564
+    *Study Design:*: Review
+    *Key Findings:*:
+        - Wake-promoting neuromodulatory systems include acetylcholine, noradrenaline, dopamine, serotonin, histamine and orexin
+        - These systems discharge maximally during waking
+    *Conclusion:*: Positions histamine within the canonical arousal circuit that is plausibly dysregulated in "wired but tired" states.
+    *Limitations:*: General neuroscience review.
+    *Certainty:*: Raw 0.60; population weight 0.75; discounted 0.45.
+
+=== Niijima-Yaoita et al.\ 2012 — Roles of Histamine in Exercise-Induced Fatigue
+
+    *Full Citation:*: Niijima-Yaoita F, Tsuchiya M, Ohtsu H, et al.\ Roles of histamine in exercise-induced fatigue: favouring endurance and protecting against exhaustion. _Biological & Pharmaceutical Bulletin_. 2012;35(1):91-97. @NiijimaYaoita2012HistamineFatigue
+    *DOI:*: #link("https://doi.org/10.1248/bpb.35.91")[10.1248/bpb.35.91]
+    *PMID:*: 22223343
+    *Study Design:*: Animal study (mice)
+    *Key Findings:*:
+        - Histamine (via histidine decarboxylase / H1) favours endurance and protects against exercise exhaustion
+        - H1 blockade or histamine deficiency impairs endurance
+    *Conclusion:*: Directly supports the histamine-as-compensation premise — H1 blockade can unmask fatigue.
+    *Limitations:*: Mouse study; translation gap.
+    *Certainty:*: Raw 0.50 (animal); population weight 0.50; discounted 0.25.
+
+=== Nikolaeva-Koleva et al.\ 2021 — TRPV1-Mediated Histaminergic Neuron Excitability
+
+    *Full Citation:*: Nikolaeva-Koleva M, Butron L, González-Rodríguez S, et al.\ A capsaicinoid-based soft drug, AG1529, for attenuating TRPV1-mediated histaminergic and inflammatory sensory neuron excitability. _Scientific Reports_. 2021;11(1):246. @NikolaevaKoleva2021HistamineTRPV1
+    *DOI:*: #link("https://doi.org/10.1038/s41598-020-80725-z")[10.1038/s41598-020-80725-z]
+    *PMID:*: 33420359
+    *Study Design:*: In vitro (DRG) + rodent pruritus model
+    *Key Findings:*:
+        - The TRPV1 antagonist AG1529 abolished histaminergic and inflammation-mediated TRPV1 sensitization in primary DRG neuron cultures
+        - Attenuated histaminergic itch in vivo
+    *Conclusion:*: Directly demonstrates histamine sensitizes TRPV1 nociceptors — the molecular basis for an H1-to-TRPV1 pain bridge.
+    *Limitations:*: Preclinical; no human pain outcome.
+    *Certainty:*: Raw 0.50 (in vitro + animal); population weight 0.40; discounted 0.20.
+
+=== Kalangara et al.\ 2022 — Neuropathic Pain and Itch in Allergic Conjunctivitis
+
+    *Full Citation:*: Kalangara JP, Vanijcharoenkarn K, Chisolm S, Kuruvilla ME. Neuropathic pain and itch: mechanisms in allergic conjunctivitis. _Current Opinion in Allergy and Clinical Immunology_. 2022;22(5):298-303. @Kalangara2022TRPV1Histamine
+    *DOI:*: #link("https://doi.org/10.1097/ACI.0000000000000843")[10.1097/ACI.0000000000000843]
+    *PMID:*: 35916592
+    *Study Design:*: Review
+    *Key Findings:*:
+        - Ocular surface contains TRPV1+ (histamine-dependent) and TRPA1+ (histamine-independent) neurons
+        - Mast cell mediators directly activate C fibres; repeated activation produces peripheral and central sensitization
+    *Conclusion:*: Frames histamine-to-TRPV1 sensitization within mast-cell-driven neurogenic pain.
+    *Limitations:*: Review; ocular allergy focus.
+    *Certainty:*: Raw 0.55; population weight 0.75; discounted 0.41.
+
+=== Chen et al.\ 2023 — Antihistamines Exert Anti-Nociceptive Effects in Mice
+
+    *Full Citation:*: Chen Y, Xiao X, Huang C, et al.\ Flupirtine and antihistamines exert synergistic anti-nociceptive effects in mice. _Psychopharmacology_. 2023;240(4):881-897. @Chen2023AntihistamineAnalgesia
+    *DOI:*: #link("https://doi.org/10.1007/s00213-023-06329-3")[10.1007/s00213-023-06329-3]
+    *PMID:*: 36752814
+    *Study Design:*: Animal study (mice)
+    *Key Findings:*:
+        - Antihistamines (promethazine, fexofenadine) exert anti-nociceptive effects in inflammatory and neuropathic pain models
+        - Effects partially mediated by Kv7/M potassium channels (reversed by XE991)
+    *Conclusion:*: Independent evidence that H1 antagonists reduce pain, complementing the TRPV1-sensitization route.
+    *Limitations:*: Mouse models; Kv7-mediated, not clearly TRPV1-mediated.
+    *Certainty:*: Raw 0.50 (animal); population weight 0.50; discounted 0.25.
+
+=== Sakurai et al.\ 2021 — Interaction Between Orexin Neurons and Monoaminergic Systems
+
+    *Full Citation:*: Sakurai T, Saito YC, Yanagisawa M. Interaction between Orexin Neurons and Monoaminergic Systems. _Frontiers of Neurology and Neuroscience_. 2021;45:11-21. @Sakurai2021OrexinMonoamine
+    *DOI:*: #link("https://doi.org/10.1159/000514955")[10.1159/000514955]
+    *PMID:*: 34052806
+    *Study Design:*: Review
+    *Key Findings:*:
+        - Orexin neurons act primarily on monoaminergic neurons — including histaminergic tuberomammillary neurons — to maintain arousal and vigilance
+    *Conclusion:*: Documents the orexin-to-histamine arousal relay, the circuit basis for a histamine-orexin "wired but tired" mismatch.
+    *Limitations:*: General neuroscience review.
+    *Certainty:*: Raw 0.55; population weight 0.75; discounted 0.41.
+
+=== Pedersen et al.\ 2026 — Wake-Promoting Neuromodulators in Alzheimer's Disease
+
+    *Full Citation:*: Pedersen TJ, Clemens SG, Winer JR, et al.\ Wake-promoting neuromodulators in Alzheimer's disease: Implications for sleep and brain clearance. _Alzheimer's & Dementia_. 2026;22(3):e71298. @Pedersen2026WakeNeuromodulators
+    *DOI:*: #link("https://doi.org/10.1002/alz.71298")[10.1002/alz.71298]
+    *PMID:*: 41830117
+    *Study Design:*: Review
+    *Key Findings:*:
+        - Norepinephrine, histamine and orexin are wake-promoting neuromodulators linked to sleep and glymphatic clearance
+        - Their dysfunction may drive a cycle of sleep disruption, impaired clearance and neurodegeneration
+    *Conclusion:*: Extends the histamine/orexin arousal circuit to a clearance consequence relevant to brain-fog mechanisms.
+    *Limitations:*: Alzheimer's focus; extrapolation to ME/CFS.
+    *Certainty:*: Raw 0.55; population weight 0.75; discounted 0.41.
+
+=== Baker et al.\ 2023 — Microclots/Aggregates Reduce After Anticoagulation
+
+    *Full Citation:*: Baker SR, Halliday G, Ząbczyk M, et al.\ Plasma from patients with pulmonary embolism show aggregates that reduce after anticoagulation. _Communications Medicine_. 2023;3(1):12. @Baker2023MicroclotPE
+    *DOI:*: #link("https://doi.org/10.1038/s43856-023-00242-8")[10.1038/s43856-023-00242-8]
+    *PMID:*: 36709220
+    *Study Design:*: Cohort study
+    *Sample Size:*: 35 pulmonary embolism patients
+    *Key Findings:*:
+        - Microclot/amyloid-fibrin(ogen) aggregates in plasma are composed of fibrin and platelets
+        - Reduced by low-molecular-weight heparin
+    *Conclusion:*: Establishes the platelet + fibrin composition of microclots — the substrate a PAF antagonist (platelet activator) would theoretically modulate.
+    *Limitations:*: PE patients, not ME/CFS/long COVID.
+    *Certainty:*: Raw 0.55 (n=35); population weight 0.75; discounted 0.41.
+
+=== Hung et al.\ 2025 — Competitive Inhibition of the PAF Receptor by Acyl-PAF
+
+    *Full Citation:*: Hung SC, Chen CC, Chan HC, et al.\ Structural and molecular dynamics insights into the competitive inhibition of the platelet-activating factor receptor by acyl-PAF. _Journal of Biological Chemistry_. 2025;301(12):110831. @Hung2025PAFReceptor
+    *DOI:*: #link("https://doi.org/10.1016/j.jbc.2025.110831")[10.1016/j.jbc.2025.110831]
+    *PMID:*: 41109342
+    *Study Design:*: Structural biology (in vitro)
+    *Key Findings:*:
+        - Molecular pharmacology of PAF-receptor competitive inhibition by acyl-PAF
+    *Conclusion:*: Establishes the druggable PAF-receptor target — the second arm of rupatadine that links mast-cell PAF release to platelet activation.
+    *Limitations:*: In vitro structural; no clinical data.
+    *Certainty:*: Raw 0.50 (in vitro); population weight 0.40; discounted 0.20.
+
+=== Flores 2026 — Rupatadine Add-On for Dengue Hemorrhagic Fever (Case)
+
+    *Full Citation:*: Flores ME. Rupatadine as an Add-On Therapy for Dengue Hemorrhagic Fever: A Case Report. _Cureus_. 2026;18(4):e106343. @Flores2026RupatadineDengue
+    *DOI:*: #link("https://doi.org/10.7759/cureus.106343")[10.7759/cureus.106343]
+    *PMID:*: 42083698
+    *Study Design:*: Case report
+    *Key Findings:*:
+        - PAF is elevated in dengue hemorrhagic fever and drives vascular permeability
+        - Rupatadine used as a PAF antagonist
+    *Conclusion:*: Illustrates the clinical logic of targeting PAF-mediated vascular/platelet pathology with rupatadine's PAF arm.
+    *Limitations:*: Single case; dengue, not ME/CFS.
+    *Certainty:*: Raw 0.30 (case report); population weight 0.75; discounted 0.23.
+
+=== Fong et al.\ 2025 — In Silico Modelling of FDA Drugs Targeting T-Type Calcium Channels
+
+    *Full Citation:*: Fong P, Garcia SR, Stefan MI, Sterratt DC. In Silico identification and modelling of FDA-approved drugs targeting T-type calcium channels. _PLOS ONE_. 2025;20(8):e0327386. @Fong2025MontelukastBBB
+    *DOI:*: #link("https://doi.org/10.1371/journal.pone.0327386")[10.1371/journal.pone.0327386]
+    *PMID:*: 40779495
+    *Study Design:*: In silico drug screen
+    *Key Findings:*:
+        - Montelukast identified as a high-affinity Cav3.1 T-type calcium-channel binder
+        - Has drug-like properties to cross the human blood-brain barrier and reach synapses
+    *Conclusion:*: Computational support for montelukast as the CNS-penetrant member of the MCAS stack.
+    *Limitations:*: In silico only; no empirical CNS readout.
+    *Certainty:*: Raw 0.40 (in silico); population weight 0.30; discounted 0.12.
+
+=== Zhou et al.\ 2019 — Montelukast Protects Against Blood-Brain Barrier Injury
+
+    *Full Citation:*: Zhou L, Sun X, Shi Y, Liu J, Luan G, Yang Y. Cysteinyl leukotriene receptor type 1 antagonist montelukast protects against injury of blood-brain barrier. _Inflammopharmacology_. 2019;27(5):933-940. @Zhou2019MontelukastBBB
+    *DOI:*: #link("https://doi.org/10.1007/s10787-019-00611-7")[10.1007/s10787-019-00611-7]
+    *PMID:*: 31313075
+    *Study Design:*: In vitro + murine MCAO model
+    *Key Findings:*:
+        - Montelukast suppressed OGD/R-induced BBB permeability; restored occludin/ZO-1
+        - Reduced MMP-2/9 and IL-1β/TNF-α/IL-6; improved brain injury in vivo
+    *Conclusion:*: Establishes CysLT1 in brain-endothelial/BBB pathophysiology — the "brain MCAS" target of montelukast.
+    *Limitations:*: Preclinical; stroke model.
+    *Certainty:*: Raw 0.50 (in vitro + animal); population weight 0.50; discounted 0.25.
+
+=== Amezola-Herrera et al.\ 2026 — Sleep Disorders Associated With Montelukast (HARM)
+
+    *Full Citation:*: Amezola-Herrera E, Galindo-Pacheco LV, Sosa-Bustamante GP, et al.\ Sleep disorders associated with montelukast in children with respiratory allergy. _Revista Medica del Instituto Mexicano del Seguro Social_. 2026;64(5):e7135. @AmezolaHerrera2026MontelukastSleep
+    *DOI:*: #link("https://doi.org/10.5281/zenodo.21462729")[10.5281/zenodo.21462729]
+    *PMID:*: 42771719
+    *Study Design:*: Prospective cohort
+    *Sample Size:*: 120 children (60 montelukast users, 60 controls)
+    *Key Findings:*:
+        - 73.02% of montelukast users had sleep disorders vs 14.17% of non-users
+        - Association OR 8.31, p = 0.0001
+    *Conclusion:*: HARM SIGNAL — montelukast is associated with sleep disruption, consistent with its CNS activity.
+    *Limitations:*: Pediatric respiratory-allergy population; observational.
+    *Certainty:*: Raw 0.55 (cohort); population weight 0.75; discounted 0.41.
+
+=== Redfern & Smith 2026 — A Quarter-Century of Montelukast (HARM)
+
+    *Full Citation:*: Redfern JS, Smith MA. A quarter-century of montelukast: clinical lessons for adult and pediatric asthma and allergic rhinitis care. _Current Medical Research and Opinion_. 2026;42(6):1179-1194. @Redfern2026MontelukastQuarter
+    *DOI:*: #link("https://doi.org/10.1080/03007995.2026.2700973")[10.1080/03007995.2026.2700973]
+    *PMID:*: 42466635
+    *Study Design:*: Review
+    *Key Findings:*:
+        - Infrequent but potentially serious neuropsychiatric adverse events led to strengthened regulatory warnings
+        - Guidelines now position montelukast as add-on rather than first-line
+    *Conclusion:*: Documents the CNS side-effect burden that doubles as evidence of central leukotriene activity — a safety caveat for any "brain MCAS" framing.
+    *Limitations:*: Review.
+    *Certainty:*: Raw 0.60 (review); population weight 0.75; discounted 0.45.
+
+=== Smolensky et al.\ 2007 — Chronobiology and Chronotherapy of Allergic Rhinitis and Asthma
+
+    *Full Citation:*: Smolensky MH, Lemmer B, Reinberg AE. Chronobiology and chronotherapy of allergic rhinitis and bronchial asthma. _Advanced Drug Delivery Reviews_. 2007;59(9-10):852-882. @Smolensky2007Chronotherapy
+    *DOI:*: #link("https://doi.org/10.1016/j.addr.2007.08.016")[10.1016/j.addr.2007.08.016]
+    *PMID:*: 17900748
+    *Study Design:*: Authoritative narrative review of chronobiology/chronotherapy of allergic disease.
+    *Certainty / population / discounted:*: raw 0.60 | general 0.75 | discounted 0.45
+    *Key Findings:*:
+        - Allergic rhinitis and asthma symptoms show a well-documented nocturnal/early-morning peak (histamine and other mediators are elevated at night).
+        - Antihistamines and asthma controllers show time-of-day-dependent efficacy (chronotherapy); evening dosing of leukotriene antagonists is standard to cover the nocturnal peak.
+    *Conclusion:*: Timing antihistamine/anti-leukotriene dosing to the circadian mediator peak improves control at equal dose.
+    *Limitations:*: Narrative review; no ME/CFS-specific data; general allergy/asthma populations.
+
+=== Kurokawa et al.\ 2001 — Circadian Characteristics of Urinary Leukotriene E4
+
+    *Full Citation:*: Kurokawa K, Tanaka H, Tanaka S, Abe S. Circadian characteristics of urinary leukotriene E(4) in healthy subjects and nocturnal asthmatic patients. _Chest_. 2001;120(6):1822-1828. @Kurokawa2001LeukotrieneE4
+    *DOI:*: #link("https://doi.org/10.1378/chest.120.6.1822")[10.1378/chest.120.6.1822]
+    *PMID:*: 11742908
+    *Study Design:*: Observational diurnal sampling of urinary LTE4 (cysteinyl-leukotriene metabolite).
+    *Certainty / population / discounted:*: raw 0.50 | general 0.75 | discounted 0.38
+    *Key Findings:*:
+        - Urinary LTE4 (a marker of cysteinyl-leukotriene production) shows a circadian rhythm with a nocturnal/early-morning peak in both healthy and asthmatic subjects.
+        - This leukotriene peak parallels the nocturnal worsening of asthma.
+    *Conclusion:*: Cysteinyl-leukotriene production peaks at night, providing the mechanistic basis for evening (PM) montelukast dosing.
+    *Limitations:*: Small sample; surrogate urinary metabolite; general population.
+
+=== Tanaka et al.\ 2003 — Early-Morning Urinary LTE4 in Nocturnal Asthma
+
+    *Full Citation:*: Tanaka S, Tanaka H, Abe S. High dose of inhaled fluticasone reduces high levels of urinary leukotriene E4 in the early morning in mild and moderate nocturnal asthma. _Chest_. 2003;124(5):1768-1773. @Tanaka2003NocturnalLTE4
+    *DOI:*: #link("https://doi.org/10.1378/chest.124.5.1768")[10.1378/chest.124.5.1768]
+    *PMID:*: 14605047
+    *Study Design:*: Clinical observational, nocturnal asthma cohort.
+    *Certainty / population / discounted:*: raw 0.50 | general 0.75 | discounted 0.38
+    *Key Findings:*:
+        - Early-morning urinary LTE4 is elevated in nocturnal asthma; corticosteroid treatment lowers it in parallel with symptom improvement.
+    *Conclusion:*: Nocturnal leukotriene overproduction tracks nocturnal airway symptoms.
+    *Limitations:*: Asthma-specific; surrogate marker; no mast-cell-timing data.
+
+=== Ochfeld et al.\ 2021 — Diurnal Variations in Skin Prick Testing
+
+    *Full Citation:*: Ochfeld E, Cheng B, Bowsher N, Fishbein A. Diurnal Variations in Skin Prick Testing. _Pediatric Allergy, Immunology, and Pulmonology_. 2021;34(4):125-129. @Ochfeld2021DiurnalSPT
+    *DOI:*: #link("https://doi.org/10.1089/ped.2021.0055")[10.1089/ped.2021.0055]
+    *PMID:*: 34714138
+    *Study Design:*: Observational, diurnal skin-prick-test reactivity.
+    *Certainty / population / discounted:*: raw 0.45 | general 0.75 | discounted 0.34
+    *Key Findings:*:
+        - Skin-prick-test wheal size varies by time of day, consistent with a circadian rhythm in cutaneous histamine responsiveness.
+    *Conclusion:*: Cutaneous mast-cell/histamine reactivity has a circadian component.
+    *Limitations:*: Small; pediatric; surrogate (SPT reactivity, not direct histamine level).
+
+=== Mochizuki 2022 — Histamine as an Alert Signal in the Brain
+
+    *Full Citation:*: Mochizuki T. Histamine as an Alert Signal in the Brain. _Current Topics in Behavioral Neurosciences_. 2022;59:413-425. @Mochizuki2022HistamineAlert
+    *DOI:*: #link("https://doi.org/10.1007/7854_2021_249")[10.1007/7854_2021_249]
+    *PMID:*: 34448132
+    *Study Design:*: Narrative review of central histamine and wakefulness.
+    *Certainty / population / discounted:*: raw 0.50 | general 0.75 | discounted 0.38
+    *Key Findings:*:
+        - Histamine is a wake-promoting alert signal; histaminergic neuron activity is highest during wakefulness and falls during sleep.
+        - Central histamine and peripheral (mast-cell) histamine operate on different schedules, complicating any single "histamine peak" model.
+    *Conclusion:*: Histamine timing is system-dependent; central arousal histamine peaks during wake, while peripheral mediator histamine peaks at night.
+    *Limitations:*: Review; CNS-focus; no ME/CFS data.
+
+=== Lemmer 2005 — Chronopharmacology and Controlled Drug Release
+
+    *Full Citation:*: Lemmer B. Chronopharmacology and controlled drug release. _Expert Opinion on Drug Delivery_. 2005;2(4):667-681. @Lemmer2005Chronopharmacology
+    *DOI:*: #link("https://doi.org/10.1517/17425247.2.4.667")[10.1517/17425247.2.4.667]
+    *PMID:*: 16296793
+    *Study Design:*: Narrative review.
+    *Certainty / population / discounted:*: raw 0.50 | general 0.75 | discounted 0.38
+    *Key Findings:*:
+        - Drug response varies by circadian phase; chronotherapy (timing dosing to the disease's circadian peak) improves outcome for several drug classes.
+    *Conclusion:*: Chronopharmacology is a general principle applicable to antihistamines and leukotriene antagonists.
+    *Limitations:*: General pharmacology; no disease-specific mast-cell data.
+
+=== Raj et al.\ 2005 — Acetylcholinesterase Inhibition Improves Tachycardia in POTS
+
+    *Full Citation:*: Raj SR, Black BK, Biaggioni I, Harris PA. Acetylcholinesterase inhibition improves tachycardia in postural tachycardia syndrome. _Circulation_. 2005;111(21):2734-2740. @Raj2005PyridostigminePOTS
+    *DOI:*: #link("https://doi.org/10.1161/CIRCULATIONAHA.104.497594")[10.1161/CIRCULATIONAHA.104.497594]
+    *PMID:*: 15911704
+    *Study Design:*: Open-label, n=17 POTS patients; pyridostigmine 30 mg.
+    *Certainty / population / discounted:*: raw 0.55 | POTS 0.80 | discounted 0.44
+    *Key Findings:*:
+        - Pyridostigmine (30 mg) reduced standing heart rate but did not improve symptoms at that dose; muscarinic side effects (abdominal cramping, urgency) emerged.
+        - Defines the low-dose cholinergic side-effect threshold.
+    *Conclusion:*: Pyridostigmine narrows the tachycardia window in POTS but has a tight cholinergic side-effect ceiling.
+    *Limitations:*: Open-label; small n; single dose; no ME/CFS cohort.
+
+=== Schl{\"o}mer et al.\ 2025 — Pyridostigmine Improves Hand Grip Strength in ME/CFS
+
+    *Full Citation:*: Schl{\"o}mer E, Stein E, Kedor C, Rust R. Pyridostigmine improves hand grip strength in patients with myalgic encephalomyelitis/chronic fatigue syndrome. _Frontiers in Neuroscience_. 2025;19:1637838. @Schlomer2025PyridostigmineMECFS
+    *DOI:*: #link("https://doi.org/10.3389/fnins.2025.1637838")[10.3389/fnins.2025.1637838]
+    *PMID:*: 40970182
+    *Study Design:*: Prospective pilot in ME/CFS patients (direct target population).
+    *Certainty / population / discounted:*: raw 0.55 | ME/CFS 1.00 | discounted 0.55
+    *Key Findings:*:
+        - Pyridostigmine improved hand-grip strength in ME/CFS patients, implicating a cholinergic/muscarinic-reversible deficit.
+        - Tolerability was limited by dose-dependent cholinergic side effects, defining a practical therapeutic window.
+    *Conclusion:*: Direct ME/CFS signal that pyridostigmine's benefit/side-effect gap defines a cholinergic reserve index.
+    *Limitations:*: Pilot; small n; grip strength is a single endpoint; not yet independently replicated.
+
+=== Okamoto et al.\ 2025 — Clinical Correlates of Pyridostigmine Efficacy in Orthostatic Hypotension
+
+    *Full Citation:*: Okamoto LE, Walsh E, Diedrich A, Shibao CA. Clinical Correlates of Efficacy of Pyridostigmine in the Treatment of Orthostatic Hypotension. _Hypertension_. 2025;82(3):489-497. @Okamoto2025PyridostigmineOH
+    *DOI:*: #link("https://doi.org/10.1161/HYPERTENSIONAHA.124.24050")[10.1161/HYPERTENSIONAHA.124.24050]
+    *PMID:*: 39727053
+    *Study Design:*: Cohort study of pyridostigmine responders/non-responders in orthostatic hypotension.
+    *Certainty / population / discounted:*: raw 0.60 | autonomic 0.80 | discounted 0.48
+    *Key Findings:*:
+        - Pyridostigmine pressor efficacy varies between patients; clinical correlates (baseline autonomic function) predict response and tolerability.
+    *Conclusion:*: Individual cholinergic reserve shapes both efficacy and the side-effect ceiling.
+    *Limitations:*: Orthostatic-hypotension population; no ME/CFS data.
+
+=== Okamoto et al.\ 2019 — Synergistic Pressor Effect of Atomoxetine and Pyridostigmine
+
+    *Full Citation:*: Okamoto LE, Shibao CA, Gamboa A, Diedrich A. Synergistic Pressor Effect of Atomoxetine and Pyridostigmine in Patients With Neurogenic Orthostatic Hypotension. _Hypertension_. 2019;73(1):235-241. @Okamoto2019AtomoxetinePyrido
+    *DOI:*: #link("https://doi.org/10.1161/HYPERTENSIONAHA.118.11790")[10.1161/HYPERTENSIONAHA.118.11790]
+    *PMID:*: 30571543
+    *Study Design:*: Interventional, autonomic-failure cohort.
+    *Certainty / population / discounted:*: raw 0.55 | autonomic 0.80 | discounted 0.44
+    *Key Findings:*:
+        - Pyridostigmine and atomoxetine combined produce a greater pressor effect than either alone, implying additive cholinergic + noradrenergic mechanisms.
+    *Conclusion:*: Cholinergic augmentation interacts with adrenergic tone — relevant to combined-antagonist stacking.
+    *Limitations:*: Neurogenic OH population; small.
+
+=== Shibao et al.\ 2010 — Yohimbine vs Pyridostigmine in Autonomic Failure
+
+    *Full Citation:*: Shibao CA, Okamoto LE, Gamboa A, Yu C. Comparative efficacy of yohimbine against pyridostigmine for the treatment of orthostatic hypotension in autonomic failure. _Hypertension_. 2010;56(5):847-851. @Shibao2010YohimbinePyrido
+    *DOI:*: #link("https://doi.org/10.1161/HYPERTENSIONAHA.110.154898")[10.1161/HYPERTENSIONAHA.110.154898]
+    *PMID:*: 20837887
+    *Study Design:*: Comparative interventional study.
+    *Certainty / population / discounted:*: raw 0.55 | autonomic 0.80 | discounted 0.44
+    *Key Findings:*:
+        - Pyridostigmine and yohimbine differ in pressor efficacy and side-effect profile, confirming a drug-specific cholinergic vs adrenergic balance.
+    *Conclusion:*: Cholinergic vs adrenergic strategies have distinct efficacy/tolerability trade-offs.
+    *Limitations:*: Autonomic-failure cohort; no ME/CFS data.
+
+=== Seng et al.\ 2026 — Rebound Pruritus and Urticaria After Antihistamine Discontinuation (Scoping Review)
+
+    *Full Citation:*: Seng JJB, Oka P, Tan NC. Rebound Pruritus and Urticaria After Discontinuation of Chronic Antihistamine Use — A Scoping Review. _Clinical and Experimental Allergy_. 2026. @Seng2026ReboundReview
+    *DOI:*: #link("https://doi.org/10.1111/cea.70291")[10.1111/cea.70291]
+    *PMID:*: 41911848
+    *Study Design:*: Scoping review of rebound after chronic H1-antihistamine cessation.
+    *Certainty / population / discounted:*: raw 0.60 | general 0.75 | discounted 0.45
+    *Key Findings:*:
+        - Chronic H1-antihistamine use, especially cetirizine/levocetirizine, can be followed by rebound pruritus and urticaria on discontinuation.
+        - Supports a withdrawal/tachyphylaxis phenomenon consistent with H1-receptor upregulation.
+    *Conclusion:*: Antihistamine rebound is a documented clinical entity — supports E3's withdrawal-rebound arm.
+    *Limitations:*: Scoping review; heterogeneous case evidence; no ME/CFS data.
+
+=== Seng et al.\ 2025 — Rebound After Chronic Cetirizine Use (Case Report)
+
+    *Full Citation:*: Seng JJB, Cai M, Oka P. Rebound Pruritus and Urticaria Post-discontinuation of Chronic Cetirizine Use: A Case Report. _Cureus_. 2025;17(12):e100214. @Seng2025CetirizineRebound
+    *DOI:*: #link("https://doi.org/10.7759/cureus.100214")[10.7759/cureus.100214]
+    *PMID:*: 41602253
+    *Study Design:*: Case report.
+    *Certainty / population / discounted:*: raw 0.35 | general 0.75 | discounted 0.26
+    *Key Findings:*:
+        - A patient developed rebound pruritus/urticaria after stopping chronic cetirizine, resolving with taper.
+    *Conclusion:*: Individual-level illustration of the rebound mechanism.
+    *Limitations:*: Single case; anecdotal.
+
+=== Richardson et al.\ 2002 — Tolerance to Daytime Sedative Effects of H1 Antihistamines
+
+    *Full Citation:*: Richardson GS, Roehrs TA, Rosenthal L, Koshorek G. Tolerance to daytime sedative effects of H1 antihistamines. _Journal of Clinical Psychopharmacology_. 2002;22(5):511-515. @Richardson2002H1Tolerance
+    *DOI:*: #link("https://doi.org/10.1097/00004714-200210000-00012")[10.1097/00004714-200210000-00012]
+    *PMID:*: 12352276
+    *Study Design:*: Controlled repeated-dose study in healthy volunteers.
+    *Certainty / population / discounted:*: raw 0.50 | general 0.75 | discounted 0.38
+    *Key Findings:*:
+        - The sedative (H1-mediated) effect of antihistamines shows tolerance/tachyphylaxis with repeated dosing.
+    *Conclusion:*: H1-antihistamine tachyphylaxis is demonstrable for central H1 effects — supports the tolerance arm of E3.
+    *Limitations:*: Healthy volunteers; sedation endpoint only.
+
+=== Fukui 2007 — Targeting Histamine H1 Receptor Gene Expression
+
+    *Full Citation:*: Fukui H. Role of therapeutics for allergic diseases in targeting histamine H1 receptor gene expression. _Yakugaku Zasshi_. 2007;127(1):15-25. @Fukui2007H1GeneExpression
+    *DOI:*: #link("https://doi.org/10.1248/yakushi.127.15")[10.1248/yakushi.127.15]
+    *PMID:*: 17202781
+    *Study Design:*: Mechanistic review of H1-receptor expression regulation.
+    *Certainty / population / discounted:*: raw 0.45 | general 0.75 | discounted 0.34
+    *Key Findings:*:
+        - H1-antihistamines modulate H1-receptor gene expression; sustained blockade can upregulate receptor expression, a molecular basis for tolerance and rebound.
+    *Conclusion:*: H1-receptor upregulation provides a mechanistic substrate for antihistamine tachyphylaxis.
+    *Limitations:*: Review; predominantly in vitro/preclinical.
+
+=== Miyoshi et al.\ 2006 — Regulation of H1 Receptor Signaling by Expression Level
+
+    *Full Citation:*: Miyoshi K, Das AK, Fujimoto K, Horio S. Recent advances in molecular pharmacology of the histamine systems: regulation of histamine H1 receptor signaling by changing its expression level. _Journal of Pharmacological Sciences_. 2006;101(1):3-6. @Miyoshi2006H1Receptor
+    *DOI:*: #link("https://doi.org/10.1254/jphs.fmj06001x2")[10.1254/jphs.fmj06001x2]
+    *PMID:*: 16648669
+    *Study Design:*: Mechanistic review.
+    *Certainty / population / discounted:*: raw 0.45 | general 0.75 | discounted 0.34
+    *Key Findings:*:
+        - H1-receptor signaling is tuned by receptor expression level; antagonist exposure shifts expression, linking blockade to altered sensitivity.
+    *Conclusion:*: Receptor-expression plasticity underlies antihistamine tolerance/rebound.
+    *Limitations:*: Review; no clinical dosing data.
+
+=== Smit et al.\ 1996 — Inverse Agonism and H2-Receptor Upregulation (PNAS)
+
+    *Full Citation:*: Smit MJ, Leurs R, Alewijnse AE, Blauw J. Inverse agonism of histamine H2 antagonist accounts for upregulation of spontaneously active histamine H2 receptors. _Proceedings of the National Academy of Sciences_. 1996;93(13):6802-6807. @Smit1996H2InverseAgonism
+    *DOI:*: #link("https://doi.org/10.1073/pnas.93.13.6802")[10.1073/pnas.93.13.6802]
+    *PMID:*: 8692899
+    *Study Design:*: In vitro mechanistic (cell lines).
+    *Certainty / population / discounted:*: raw 0.55 | in vitro 0.40 | discounted 0.22
+    *Key Findings:*:
+        - H2 antagonists acting as inverse agonists upregulate spontaneously active H2 receptors — a molecular mechanism for receptor-compensation on chronic blockade.
+    *Conclusion:*: Receptor upregulation on antagonist exposure is a general (H1 and H2) phenomenon supporting tachyphylaxis/rebound reasoning.
+    *Limitations:*: In vitro; H2-focused.
+
+=== Zaitsu et al.\ 2007 — Estradiol Activates Mast Cells via Non-Genomic ERα
+
+    *Full Citation:*: Zaitsu M, Narita S, Lambert KC, Grady JJ. Estradiol activates mast cells via a non-genomic estrogen receptor-alpha and calcium influx. _Molecular Immunology_. 2007;44(8):1977-1985. @Zaitsu2007EstradiolMastCell
+    *DOI:*: #link("https://doi.org/10.1016/j.molimm.2006.09.030")[10.1016/j.molimm.2006.09.030]
+    *PMID:*: 17084457
+    *Study Design:*: In vitro (mast-cell lines + primary).
+    *Certainty / population / discounted:*: raw 0.55 | in vitro 0.40 | discounted 0.22
+    *Key Findings:*:
+        - Estradiol rapidly induces mast-cell degranulation/histamine release through a non-genomic ERα mechanism and calcium influx.
+    *Conclusion:*: Estrogen directly drives mast-cell histamine release — the mechanistic core of cycle-timed MCAS reasoning.
+    *Limitations:*: In vitro; no organismal or clinical validation.
+
+=== Xu et al.\ 2020 — GPER-Mediated Estrogen-Dependent Visceral Hypersensitivity and Mast Cells
+
+    *Full Citation:*: Xu S, Wang X, Zhao J, Yang S. GPER-mediated, oestrogen-dependent visceral hypersensitivity in stressed rats is associated with mast cell tryptase and histamine expression. _Fundamental \& Clinical Pharmacology_. 2020;34(4):433-443. @Xu2020GPERMastCell
+    *DOI:*: #link("https://doi.org/10.1111/fcp.12537")[10.1111/fcp.12537]
+    *PMID:*: 31967341
+    *Study Design:*: Animal (rat) mechanistic study.
+    *Certainty / population / discounted:*: raw 0.50 | animal 0.50 | discounted 0.25
+    *Key Findings:*:
+        - Estrogen (via GPER) increases mast-cell tryptase and histamine expression and drives visceral hypersensitivity in stressed rats.
+    *Conclusion:*: Estrogen-dependent mast-cell mediator upregulation has an in vivo correlate.
+    *Limitations:*: Rodent; stress model.
+
+=== Chen et al.\ 2008 — Gender, Sex Hormones, and Immediate-Type Hypersensitivity
+
+    *Full Citation:*: Chen W, Mempel M, Schober W, Behrendt H. Gender difference, sex hormones, and immediate type hypersensitivity reactions. _Allergy_. 2008;63(11):1418-1427. @Chen2008SexHormones
+    *DOI:*: #link("https://doi.org/10.1111/j.1398-9995.2008.01880.x")[10.1111/j.1398-9995.2008.01880.x]
+    *PMID:*: 18925878
+    *Study Design:*: Review of sex-hormone effects on hypersensitivity/mast cells.
+    *Certainty / population / discounted:*: raw 0.55 | general 0.75 | discounted 0.41
+    *Key Findings:*:
+        - Estrogen enhances mast-cell activity and immediate hypersensitivity; symptom severity can track the menstrual cycle (perimenstrual worsening).
+    *Conclusion:*: Estrogen-driven mast-cell reactivity supports cycle-synchronised dosing as a plausible strategy.
+    *Limitations:*: Review; general allergy population.
+
+=== Kasperska-Zaj{\c a}c et al.\ 2008 — Sex Hormones and Urticaria
+
+    *Full Citation:*: Kasperska-Zaj{\c a}c A, Brzoza Z, Rogala B. Sex hormones and urticaria. _Journal of Dermatological Science_. 2008;52(2):79-86. @KasperskaZajac2008SexHormonesUrticaria
+    *DOI:*: #link("https://doi.org/10.1016/j.jdermsci.2008.04.002")[10.1016/j.jdermsci.2008.04.002]
+    *PMID:*: 18485675
+    *Study Design:*: Review of sex-hormone influence on urticaria (a mast-cell disease).
+    *Certainty / population / discounted:*: raw 0.50 | general 0.75 | discounted 0.38
+    *Key Findings:*:
+        - Urticaria can worsen premenstrually, attributed to estrogen-driven mast-cell activation and relative progesterone withdrawal.
+    *Conclusion:*: Menstrual-cycle modulation of mast-cell disease is clinically recognised.
+    *Limitations:*: Review; urticaria focus; heterogeneous.
+
+=== Kov{\'a}cs and Larson 2006 — Mast-Cell Accumulation During Estrus
+
+    *Full Citation:*: Kov{\'a}cs KJ, Larson AA. Mast cells accumulate in the anogenital region of somatosensory thalamic nuclei during estrus in female mice. _Brain Research_. 2006;1114(1):85-97. @Kovacs2006EstrusMastCell
+    *DOI:*: #link("https://doi.org/10.1016/j.brainres.2006.07.100")[10.1016/j.brainres.2006.07.100]
+    *PMID:*: 16949055
+    *Study Design:*: Animal (mouse) study.
+    *Certainty / population / discounted:*: raw 0.45 | animal 0.50 | discounted 0.23
+    *Key Findings:*:
+        - Mast cells accumulate in CNS structures during estrus (the estrogen-dominant phase), showing cycle-dependent mast-cell trafficking.
+    *Conclusion:*: Mast-cell biology is cycle-sensitive at the tissue level.
+    *Limitations:*: Rodent; anatomical focus.
+
+=== Ridolo et al.\ 2019 — Sex in Respiratory and Skin Allergies
+
+    *Full Citation:*: Ridolo E, Incorvaia C, Martignago I, Caminati M. Sex in Respiratory and Skin Allergies. _Clinical Reviews in Allergy \& Immunology_. 2019;56(3):322-332. @Ridolo2019SexAllergies
+    *DOI:*: #link("https://doi.org/10.1007/s12016-017-8661-0")[10.1007/s12016-017-8661-0]
+    *PMID:*: 29306980
+    *Study Design:*: Review of sex differences in allergy/mast-cell disease.
+    *Certainty / population / discounted:*: raw 0.55 | general 0.75 | discounted 0.41
+    *Key Findings:*:
+        - Female sex and hormonal cycles modulate allergy severity, including mast-cell-mediated skin and respiratory disease.
+    *Conclusion:*: Sex-hormone modulation of mast-cell disease is well documented and supports E4's plausibility.
+    *Limitations:*: Review; no ME/CFS-specific cycle-timing data.
+
+=== Imhann et al.\ 2016 — Proton Pump Inhibitors Affect the Gut Microbiome
+
+    *Full Citation:*: Imhann F, Bonder MJ, Vich Vila A, Fu J. Proton pump inhibitors affect the gut microbiome. _Gut_. 2016;65(5):740-748. @Imhann2016PPIMicrobiome
+    *DOI:*: #link("https://doi.org/10.1136/gutjnl-2015-310376")[10.1136/gutjnl-2015-310376]
+    *PMID:*: 26657899
+    *Study Design:*: Large observational cohort (n=1815) with replication.
+    *Certainty / population / discounted:*: raw 0.70 | general 0.75 | discounted 0.53
+    *Key Findings:*:
+        - Acid suppression (PPI) shifts gut microbiome composition, enriching oral/GI taxa otherwise kept down by gastric acid.
+    *Conclusion:*: Acid suppression reliably alters the gut flora — the first link in the F1 chain.
+    *Limitations:*: PPI (not famotidine/H2RA) studied; composition, not histamine production, measured.
+
+=== Vich Vila et al.\ 2020 — Impact of Commonly Used Drugs on the Gut Microbiota
+
+    *Full Citation:*: Vich Vila A, Collij V, Sanna S, Sinha T. Impact of commonly used drugs on the composition and metabolic function of the gut microbiota. _Nature Communications_. 2020;11:362. @VichVila2020DrugsMicrobiota
+    *DOI:*: #link("https://doi.org/10.1038/s41467-019-14177-z")[10.1038/s41467-019-14177-z]
+    *PMID:*: 31953381
+    *Study Design:*: Population-scale metagenomics (n=1883).
+    *Certainty / population / discounted:*: raw 0.70 | general 0.75 | discounted 0.53
+    *Key Findings:*:
+        - PPI (and to a lesser degree H2-receptor antagonists) alter gut microbiota composition and metabolic function.
+    *Conclusion:*: H2-receptor antagonists also affect the gut microbiome, supporting the F1 premise for famotidine.
+    *Limitations:*: Association; functional histamine output not directly quantified.
+
+=== Barcik et al.\ 2017 — Immune Regulation by Histamine-Secreting Bacteria
+
+    *Full Citation:*: Barcik W, Wawrzyniak M, Akdis CA, O'Mahony L. Immune regulation by histamine and histamine-secreting bacteria. _Current Opinion in Immunology_. 2017;48:108-113. @Barcik2017HistamineBacteria
+    *DOI:*: #link("https://doi.org/10.1016/j.coi.2017.08.011")[10.1016/j.coi.2017.08.011]
+    *PMID:*: 28923468
+    *Study Design:*: Review.
+    *Certainty / population / discounted:*: raw 0.55 | general 0.75 | discounted 0.41
+    *Key Findings:*:
+        - Gut commensal bacteria can secrete histamine (histidine-decarboxylase-expressing taxa), which modulates host immunity and gut physiology.
+    *Conclusion:*: Bacterial histamine production is real and immunologically active — the second link in F1.
+    *Limitations:*: Review; no acid-suppression interaction data.
+
+=== Mou et al.\ 2021 — Taxonomic Distribution of Histamine-Secreting Bacteria
+
+    *Full Citation:*: Mou Z, Yang Y, Hall AB, Jiang X. The taxonomic distribution of histamine-secreting bacteria in the human gut microbiome. _BMC Genomics_. 2021;22:695. @Mou2021HistamineTaxonomy
+    *DOI:*: #link("https://doi.org/10.1186/s12864-021-08004-3")[10.1186/s12864-021-08004-3]
+    *PMID:*: 34563136
+    *Study Design:*: Genomic survey of histamine-producing taxa in the human gut.
+    *Certainty / population / discounted:*: raw 0.55 | general 0.75 | discounted 0.41
+    *Key Findings:*:
+        - Histidine-decarboxylase genes are widespread across human gut bacteria, establishing which taxa can produce histamine.
+    *Conclusion:*: Confirms the machinery for bacterial histamine synthesis is present in the human gut.
+    *Limitations:*: Metagenomic potential, not measured histamine output.
+
+=== De Palma et al.\ 2022 — Microbiota Histamine Drives Visceral Hyperalgesia via H4
+
+    *Full Citation:*: De Palma G, Shimbori C, Reed DE, Yu Y. Histamine production by the gut microbiota induces visceral hyperalgesia through histamine 4 receptor signaling in mice. _Science Translational Medicine_. 2022;14(656):eabj1895. @DePalma2022MicrobiotaHistamineH4
+    *DOI:*: #link("https://doi.org/10.1126/scitranslmed.abj1895")[10.1126/scitranslmed.abj1895]
+    *PMID:*: 35895832
+    *Study Design:*: Animal (mouse) mechanistic study.
+    *Certainty / population / discounted:*: raw 0.65 | animal 0.50 | discounted 0.33
+    *Key Findings:*:
+        - Microbial histamine production drives visceral pain via H4-receptor signaling, and is elevated in irritable-bowel-syndrome patients.
+    *Conclusion:*: Gut-bacterial histamine is functionally significant and can drive symptoms — the third (harm) link in F1.
+    *Limitations:*: Rodent mechanism + human IBS association; no acid-suppression arm.
+
+=== Engevik et al.\ 2024 — Phylogenetically Diverse Bacteria Produce Histamine
+
+    *Full Citation:*: Engevik KA, Hazzard A, Puckett B, Hoch KM. Phylogenetically diverse bacterial species produce histamine. _Systematic and Applied Microbiology_. 2024;47(5):126539. @Engevik2024BacteriaHistamine
+    *DOI:*: #link("https://doi.org/10.1016/j.syapm.2024.126539")[10.1016/j.syapm.2024.126539]
+    *PMID:*: 39029335
+    *Study Design:*: Microbial screening (in vitro culture).
+    *Certainty / population / discounted:*: raw 0.50 | in vitro 0.40 | discounted 0.20
+    *Key Findings:*:
+        - Multiple phylogenetically diverse gut and environmental bacteria produce histamine in culture.
+    *Conclusion:*: Bacterial histamine production is phylogenetically widespread.
+    *Limitations:*: Culture-based; no host or pH interaction.
+
+=== Lichtenstein and Gillespie 1973 — Histamine Release Inhibited by Histamine via H2 (Nature)
+
+    *Full Citation:*: Lichtenstein LM, Gillespie E. Inhibition of histamine release by histamine controlled by H2 receptor. _Nature_. 1973;244(5414):287-288. @Lichtenstein1973H2Feedback
+    *DOI:*: #link("https://doi.org/10.1038/244287a0")[10.1038/244287a0]
+    *PMID:*: 4126784
+    *Study Design:*: In vitro (human leukocytes).
+    *Certainty / population / discounted:*: raw 0.60 | in vitro 0.40 | discounted 0.24
+    *Key Findings:*:
+        - Histamine inhibits its own release from leukocytes via an H2-receptor negative-feedback loop.
+    *Conclusion:*: Establishes the autocrine negative-feedback brake that H2 blockade (famotidine) could remove.
+    *Limitations:*: In vitro; 1970s methodology; no clinical correlate.
+
+=== Lichtenstein and Gillespie 1975 — H1 and H2 Antihistamines and Histamine Release
+
+    *Full Citation:*: Lichtenstein LM, Gillespie E. The effects of the H1 and H2 antihistamines on "allergic" histamine release and its inhibition by histamine. _Journal of Pharmacology and Experimental Therapeutics_. 1975;192(2):441-450. @Lichtenstein1975H1H2Release
+    *PMID:*: 46921
+    *Study Design:*: In vitro (human leukocytes).
+    *Certainty / population / discounted:*: raw 0.55 | in vitro 0.40 | discounted 0.22
+    *Key Findings:*:
+        - H2 antihistamines interfere with the histamine-mediated self-inhibition of histamine release.
+    *Conclusion:*: Direct demonstration that H2 blockade removes the feedback brake on mediator release.
+    *Limitations:*: In vitro.
+
+=== Tung et al.\ 1982 — H2 Antihistamines Augment Antigen-Induced Histamine Release
+
+    *Full Citation:*: Tung R, Kagey-Sobotka A, Plaut M, Lichtenstein LM. H2 antihistamines augment antigen-induced histamine release from human basophils in vitro. _Journal of Immunology_. 1982;129(5):2113-2115. @Tung1982H2AugmentRelease
+    *PMID:*: 6181161
+    *Study Design:*: In vitro (human basophils).
+    *Certainty / population / discounted:*: raw 0.55 | in vitro 0.40 | discounted 0.22
+    *Key Findings:*:
+        - H2 antihistamines (famotidine-class) AUGMENT antigen-induced histamine release from human basophils — the strongest direct support for F2's compensatory-harm premise.
+    *Conclusion:*: H2 blockade can increase, not decrease, mediator release — a mechanistically grounded harm signal.
+    *Limitations:*: In vitro basophils; no human dosing study confirms clinically significant compensation.
+
+=== Masini et al.\ 1982 — H2-Receptor-Mediated Inhibition of Histamine Release
+
+    *Full Citation:*: Masini E, Blandina P, Brunelleschi S, Mannaioni PF. Evidence for H2-receptor-mediated inhibition of histamine release from isolated rat mast cells. _Agents and Actions_. 1982;12(1-2):85-88. @Masini1982H2InhibitRelease
+    *DOI:*: #link("https://doi.org/10.1007/BF01965111")[10.1007/BF01965111]
+    *PMID:*: 6177221
+    *Study Design:*: In vitro (rat mast cells).
+    *Certainty / population / discounted:*: raw 0.50 | in vitro 0.40 | discounted 0.20
+    *Key Findings:*:
+        - H2-receptor stimulation inhibits histamine release from mast cells, confirming the feedback brake in mast cells themselves.
+    *Conclusion:*: Corroborates the H2 autocrine brake at the mast-cell level.
+    *Limitations:*: Rodent mast cells; in vitro.

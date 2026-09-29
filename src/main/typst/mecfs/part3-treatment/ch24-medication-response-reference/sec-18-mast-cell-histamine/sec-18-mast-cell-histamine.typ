@@ -7,3 +7,5 @@
 #include "subsec-quercetin-and-luteolin/subsec-quercetin-and-luteolin.typ"
 #include "subsec-dao-diamine-oxidase/subsec-dao-diamine-oxidase.typ"
 
+
+#include "subsec-mcas-stack-drug-mechanisms/subsec-mcas-stack-drug-mechanisms.typ"

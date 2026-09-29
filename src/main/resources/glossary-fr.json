@@ -14332,5 +14332,30 @@
     "label": "Vigilance (éveil)",
     "category": "physiology",
     "definition": "L'état d'éveil et d'alerte, maintenu par les systèmes d'éveil (noradrénergique, histaminergique, orexinergique). Distinct de l'attention, qui est le traitement sélectif d'informations spécifiques."
+  },
+  "H4 receptor": {
+    "label": "Récepteur H4",
+    "category": "receptor",
+    "definition": "Le quatrième récepteur de l'histamine (H4R), exprimé surtout sur les cellules immunitaires — éosinophiles, mastocytes, lymphocytes T et cellules dendritiques — où il conduit la chimiotaxie et le prurit. Les récepteurs H1, H2 et H4 sont distincts ; les antagonistes H1/H2 ne bloquent pas le H4R. Les antagonistes H4 sont au stade de la recherche."
+  },
+  "platelet-activating factor": {
+    "label": "Facteur d'activation des plaquettes (PAF)",
+    "category": "mediator",
+    "definition": "Médiateur phospholipidique libéré par les mastocytes, les leucocytes et les cellules endothéliales. Le PAF augmente la perméabilité vasculaire et active les plaquettes ; il est antagonisé par la rupatadine en plus de son blocage H1."
+  },
+  "diamine oxidase": {
+    "label": "Diamine oxydase (DAO)",
+    "category": "enzyme",
+    "definition": "Enzyme dépendante du cuivre qui dégrade l'histamine alimentaire dans l'intestin. Une faible activité DAO produit une intolérance à l'histamine — des symptômes dus à une dégradation altérée de l'histamine plutôt qu'à une libération excessive par les mastocytes."
+  },
+  "histamine N-methyltransferase": {
+    "label": "Histamine N-méthyltransférase (HNMT)",
+    "category": "enzyme",
+    "definition": "Principale enzyme qui inactive l'histamine dans le système nerveux central et d'autres tissus par méthylation. Une activité HNMT réduite (p. ex. le polymorphisme Thr105Ile) prolonge l'action de l'histamine."
+  },
+  "prostaglandin D2": {
+    "label": "Prostaglandine D₂",
+    "category": "mediator",
+    "definition": "Médiateur lipidique dérivé des mastocytes agissant via les récepteurs DP et CRTH2. C'est un médiateur majeur du SAMA que le blocage H1/H2/CysLT1 ne cible pas."
   }
 }

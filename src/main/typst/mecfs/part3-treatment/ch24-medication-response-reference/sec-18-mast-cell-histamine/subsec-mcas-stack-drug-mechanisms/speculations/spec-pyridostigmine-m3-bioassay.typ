@@ -1,0 +1,11 @@
+#import "../../../../../shared/environments.typ": *
+
+#speculation(title: [Pyridostigmine as a Functional M3-Receptor Bioassay])[
+Pyridostigmine inhibits acetylcholinesterase, raising synaptic acetylcholine. A symptom that improves on pyridostigmine was, by that fact, at least partly cholinergic-reversible. If a ME/CFS subset carries autoantibodies that block muscarinic signalling, pyridostigmine — by amplifying residual acetylcholine drive against the block — would act as a functional bioassay for it: a response would mark M3-receptor-mediated pathophysiology. Anti-muscarinic M3-receptor (anti-M3R) autoantibodies are established in Sjögren's disease, where they discriminate seronegative cases @Elsaghir2026SjogrenAutoAbs, and M3R is a bona fide tissue autoantigen with both a T-cell (Th17) and an antibody arm @Abe2020M3RTh17Sjogren.
+
+The cholinergic-reversibility claim is not yet testable in ME/CFS. The pyridostigmine evidence base is POTS-specific and hemodynamic only: single studies report beneficial hemodynamic effects @Schiweck2026POTSTreatment, the randomized-trial base is limited @Kwok2025POTSRCTs, and pyridostigmine appears among individualized options for orthostatic tachycardia @Chung2026POTSReview. No study has validated pyridostigmine as an M3-receptor bioassay in ME/CFS, and anti-M3R autoantibodies have not been measured in ME/CFS cohorts. This is a translation from Sjögren's autoimmunity and POTS hemodynamics to an ME/CFS cholinergic mechanism. (Certainty: 0.35)
+
+_Falsifiable prediction:_ In ME/CFS patients with autonomic or secretomotor symptoms, serum anti-M3R positivity (ELISA or functional assay) predicts symptom improvement on pyridostigmine, responders showing higher anti-M3R titres than non-responders (OR $gt.eq$ 2.0); pyridostigmine non-response in anti-M3R-positive patients argues the block is not rate-limiting.
+
+*Consequence:* If validated, pyridostigmine would become a cheap, reversible probe that sorts ME/CFS patients into a cholinergic/M3R-autoantibody subtype. Until anti-M3R is measured in ME/CFS and a response bioassay is validated, a pyridostigmine response cannot be attributed to M3R blockade rather than to the drug's nonspecific autonomic and perfusion effects.
+] <spec:pyridostigmine-m3-bioassay>

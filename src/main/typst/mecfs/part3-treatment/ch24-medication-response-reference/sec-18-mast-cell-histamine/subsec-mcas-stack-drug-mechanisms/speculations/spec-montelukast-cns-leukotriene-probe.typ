@@ -1,0 +1,13 @@
+#import "../../../../../shared/environments.typ": *
+
+#speculation(title: [Montelukast as a CNS-Penetrant Leukotriene Probe])[
+Montelukast is the only member of the MCAS stack with a plausible route into the central nervous system: a computational screen predicts it binds a neuronal target (Cav3.1) and crosses the human blood-brain barrier @Fong2025MontelukastBBB, and it engages CysLT1 in brain endothelial pathophysiology, restoring tight junctions and reducing inflammatory mediators @Zhou2019MontelukastBBB. This makes montelukast a probe of a central leukotriene/CysLT1 arm — a "brain MCAS" — that peripheral antihistamines cannot reach.
+
+The probe is two-edged. Its central activity carries a harm signal: montelukast is associated with sleep disorders in children (OR 8.31) @AmezolaHerrera2026MontelukastSleep, and a quarter-century of use has produced strengthened regulatory warnings for neuropsychiatric adverse events and relegation to add-on status @Redfern2026MontelukastQuarter. The same CNS penetration that makes it a useful probe also makes it neuropsychiatrically risky. The "brain MCAS" target rests on in-silico prediction and in-vitro/animal data @Fong2025MontelukastBBB @Zhou2019MontelukastBBB; no study has shown a central leukotriene load in ME/CFS, and the sleep findings are pediatric (translation gap). (Certainty: 0.30)
+
+_Harm caution._ Do not read a montelukast sleep or neuropsychiatric adverse effect as benign. These effects are real, can be serious, and in a population already burdened by unrefreshing sleep they may do net harm. Montelukast as a CNS probe should remain a research construct, not a treatment rationale.
+
+_Falsifiable prediction:_ In ME/CFS patients with a "brain MCAS" profile (for example elevated cerebrospinal-fluid leukotrienes or CysLT1-dependent neuroinflammation markers), montelukast produces a larger, faster change in a central symptom (brain fog, sleep architecture) than in patients without that profile — while also raising the rate of new sleep disturbance above baseline.
+
+*Consequence:* A differential central-symptom response would localise a leukotriene/CysLT1 arm inside the CNS; but the harm signal means any positive result must be weighed against the drug's own capacity to worsen the very sleep it is proposed to probe.
+] <spec:montelukast-cns-leukotriene-probe>

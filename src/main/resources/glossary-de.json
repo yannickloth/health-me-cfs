@@ -14097,5 +14097,30 @@
     "label": "Wachheit",
     "category": "physiology",
     "definition": "Der Zustand des Wach- und Wachsamseins, aufrechterhalten durch Arousal-Systeme (noradrenerg, histaminerg, orexinerg). Er unterscheidet sich von Aufmerksamkeit, der selektiven Verarbeitung bestimmter Informationen."
+  },
+  "H4 receptor": {
+    "label": "H4-Rezeptor",
+    "category": "receptor",
+    "definition": "Der vierte Histaminrezeptor (H4R), überwiegend auf Immunzellen — Eosinophile, Mastzellen, T-Zellen und dendritische Zellen — exprimiert, wo er Chemotaxis und Juckreiz vermittelt. H1-, H2- und H4-Rezeptoren sind verschieden; H1/H2-Antagonisten blockieren den H4R nicht. H4-Antagonisten sind im Forschungsstadium."
+  },
+  "platelet-activating factor": {
+    "label": "Plättchenaktivierender Faktor (PAF)",
+    "category": "mediator",
+    "definition": "Ein Phospholipidmediator, freigesetzt von Mastzellen, Leukozyten und Endothelzellen. PAF erhöht die Gefäßpermeabilität und aktiviert Thrombozyten; Rupatadin antagonisiert ihn zusätzlich zu seiner H1-Blockade."
+  },
+  "diamine oxidase": {
+    "label": "Diaminoxidase (DAO)",
+    "category": "enzyme",
+    "definition": "Ein kupferabhängiges Enzym, das Nahrungshistamin im Darm abbaut. Niedrige DAO-Aktivität erzeugt eine Histaminintoleranz — Symptome durch beeinträchtigten Histaminabbau statt durch übermäßige Mastzellfreisetzung."
+  },
+  "histamine N-methyltransferase": {
+    "label": "Histamin-N-Methyltransferase (HNMT)",
+    "category": "enzyme",
+    "definition": "Das wichtigste Enzym, das Histamin im zentralen Nervensystem und anderen Geweben durch Methylierung inaktiviert. Verminderte HNMT-Aktivität (z. B. der Thr105Ile-Polymorphismus) verlängert die Histaminwirkung."
+  },
+  "prostaglandin D2": {
+    "label": "Prostaglandin D₂",
+    "category": "mediator",
+    "definition": "Ein von Mastzellen stammender Lipidmediator, der über DP- und CRTH2-Rezeptoren wirkt. Er ist ein wichtiger MCAS-Mediator, der durch H1/H2-CysLT1-Blockade nicht erfasst wird."
   }
 }

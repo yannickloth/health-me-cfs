@@ -392,3 +392,4 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | kay2025-stimulant-arousal-reward | [subtrees/kay2025-stimulant-arousal-reward.md](subtrees/kay2025-stimulant-arousal-reward.md) | 2026-09-13 | 58 | 10 | 🔵 in progress |
 | lactate-gpr81-signaling | [subtrees/lactate-gpr81-signaling.md](subtrees/lactate-gpr81-signaling.md) | 2026-09-27 | 26 | 0 | ✅ done |
 | exertional-muscle-soreness | [subtrees/exertional-muscle-soreness.md](subtrees/exertional-muscle-soreness.md) | 2026-09-27 | 27 | 0 | 🔵 in progress |
+| mcas-stack-drug-mechanisms | [subtrees/mcas-stack-drug-mechanisms.md](subtrees/mcas-stack-drug-mechanisms.md) | 2026-09-29 | 22 | 22 | ✅ done |

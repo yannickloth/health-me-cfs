@@ -12471,5 +12471,30 @@
     "label": "Hypocretin (orexin)",
     "category": "neuropeptide",
     "definition": "Neuropeptides made by hypothalamic neurons that promote wakefulness; loss of hypocretin-producing neurons causes narcolepsy."
+  },
+  "H4 receptor": {
+    "label": "H4 Receptor",
+    "category": "receptor",
+    "definition": "The fourth histamine receptor (H4R), expressed mainly on immune cells — eosinophils, mast cells, T cells, and dendritic cells — where it drives chemotaxis and itch. H1, H2, and H4 receptors are distinct; H1/H2 antagonists do not block H4R. H4 antagonists are research-stage."
+  },
+  "platelet-activating factor": {
+    "label": "Platelet-Activating Factor (PAF)",
+    "category": "mediator",
+    "definition": "A phospholipid mediator released by mast cells, leukocytes, and endothelial cells. PAF increases vascular permeability and activates platelets, and is antagonised by rupatadine alongside its H1 blockade."
+  },
+  "diamine oxidase": {
+    "label": "Diamine Oxidase (DAO)",
+    "category": "enzyme",
+    "definition": "A copper-dependent enzyme that degrades dietary histamine in the gut. Low DAO activity produces histamine intolerance — symptoms from impaired histamine breakdown rather than excessive mast-cell release."
+  },
+  "histamine N-methyltransferase": {
+    "label": "Histamine N-Methyltransferase (HNMT)",
+    "category": "enzyme",
+    "definition": "The main enzyme that inactivates histamine in the central nervous system and other tissues by methylation. Reduced HNMT activity (e.g. the Thr105Ile polymorphism) prolongs histamine action."
+  },
+  "prostaglandin D2": {
+    "label": "Prostaglandin D₂",
+    "category": "mediator",
+    "definition": "A mast-cell-derived lipid mediator that acts via the DP and CRTH2 receptors. It is a major MCAS mediator that H1/H2/CysLT1 blockade does not target."
   }
 }
