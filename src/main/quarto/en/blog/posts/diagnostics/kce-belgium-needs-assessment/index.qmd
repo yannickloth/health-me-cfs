@@ -130,7 +130,7 @@ The KCE authors are careful about boundaries. Their report:
 - **Does not include a cost-effectiveness analysis.**
 - **Was published in French and Dutch only.** German (Belgium's third official language) and English were not provided.
 
-These limitations are not failures — they are honest constraints of a needs assessment methodology. They also leave a research agenda that other countries can pick up.
+These limitations are not failures — they are constraints of a needs assessment methodology. They also leave a research agenda that other countries can pick up.
 
 ---
 

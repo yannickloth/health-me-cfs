@@ -75,7 +75,7 @@ In ME/CFS, several findings point to HHV-6 involvement:
 
 The mechanism debate mirrors the EBV debate: is there persistent Borrelia (antibiotic-refractory reservoirs, biofilm-protected spirochetes) or is PTLDS a post-infectious immune dysregulation that outlasts the pathogen? The evidence for persistent infection — culture, PCR, xenodiagnosis — exists but is inconsistent and technically challenging. The evidence for post-infectious immune dysregulation — elevated cytokines, T-cell exhaustion, autoantibody generation — is robust and mirrors ME/CFS [@Nawrocki2025LymeSymptomsCDC].
 
-**Bartonella and Babesia** are tick-borne co-infections that are less studied than Lyme. Bartonella DNA has been detected in ~26% and Babesia in ~24% of ME/CFS cohorts — but these studies lacked healthy controls, so the baseline community prevalence (which is not zero) is unknown. The honest position: tick-borne co-infections are plausible contributors in the exposed individual; the evidence for them as a general ME/CFS mechanism is weak.
+**Bartonella and Babesia** are tick-borne co-infections that are less studied than Lyme. Bartonella DNA has been detected in ~26% and Babesia in ~24% of ME/CFS cohorts — but these studies lacked healthy controls, so the baseline community prevalence (which is not zero) is unknown. The position: tick-borne co-infections are plausible contributors in the exposed individual; the evidence for them as a general ME/CFS mechanism is weak.
 
 ---
 
@@ -103,7 +103,7 @@ This creates a treatment problem. Valacyclovir inhibits EBV DNA polymerase (lyti
 
 Chronic infection is the most mechanistically central and therapeutically frustrating of the Septad conditions. The evidence that herpesviruses and tick-borne pathogens are involved in ME/CFS is strong — abortive lytic replication, poly-herpesvirus co-reactivation, EBV→mast cell→MMP-9, and HHV-6 mitochondrial fragmentation are not fringe hypotheses. But the evidence that targeting them with current antivirals improves ME/CFS is weak and unreplicated — and the distinction between ALR (which antivirals do not block) and lytic replication (which they do) explains why [@Loth2026website].
 
-The [treatment companion article](../chronic-infection-treatment/index.qmd) covers the antivirals (valacyclovir, valganciclovir, famciclovir), the immunomodulators (cimetidine), the mast-cell stabilisers that intercept the EBV→MMP-9 pathway downstream of the virus, and the honest "what if the antivirals don't work" discussion.
+The [treatment companion article](../chronic-infection-treatment/index.qmd) covers the antivirals (valacyclovir, valganciclovir, famciclovir), the immunomodulators (cimetidine), the mast-cell stabilisers that intercept the EBV→MMP-9 pathway downstream of the virus, and the "what if the antivirals don't work" discussion.
 
 **Next in this mini-series:** the antivirals, the evidence, and what a negative trial does and does not tell you [[see the companion article]](../chronic-infection-treatment/index.qmd).
 

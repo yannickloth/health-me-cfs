@@ -1,6 +1,6 @@
 ---
 title: "GI Dysmotility Article 2: Treating SIBO, Gastroparesis, and the Gut — Diet, Prokinetics, Antibiotics, DAO, and What It Means When Nothing Helps"
-description: "A plain-language guide to treating GI dysmotility and SIBO in ME/CFS — meal spacing and low-histamine elimination as the first lever, SIBO antibiotics and herbal antimicrobials, elemental diet, prokinetics for MMC support, DAO for histamine intolerance, butyrate for the barrier, expected results, the honest 'what if nothing helps' discussion, and what you can actually do."
+description: "A plain-language guide to treating GI dysmotility and SIBO in ME/CFS — meal spacing and low-histamine elimination as the first lever, SIBO antibiotics and herbal antimicrobials, elemental diet, prokinetics for MMC support, DAO for histamine intolerance, butyrate for the barrier, expected results, the 'what if nothing helps' discussion, and what you can actually do."
 author: "Yannick Loth"
 date: "2026-08-12"
 categories: [Treatment, GI Dysmotility, SIBO, ME/CFS, Gut]
@@ -54,7 +54,7 @@ DAO enzyme capsules (derived from porcine kidney), taken 15 minutes before meals
 
 - **Meal spacing works quickly or not at all.** If 4–5 hour gaps between meals reduce bloating within 2 weeks, the MMC is functional and motility is the lever. If it does nothing, the MMC may be too impaired for meal spacing alone to restore it.
 - **The low-histamine diet is a 3–4 week diagnostic probe.** If symptoms improve, continue with structured reintroduction. If nothing changes, stop the restriction — do not drift into long-term malnutrition.
-- **Rifaximin works within the 14-day course or not at all.** If bloating, distension, and bowel habits normalise, SIBO was present. If nothing changes — and the breath test was positive — one honest possibility is a false-positive breath test (~30–40% rate).
+- **Rifaximin works within the 14-day course or not at all.** If bloating, distension, and bowel habits normalise, SIBO was present. If nothing changes — and the breath test was positive — one possibility is a false-positive breath test (~30–40% rate).
 - **Prokinetics prevent recurrence, not acute SIBO.** If SIBO recurs within 3 months of antibiotics, the MMC is not being maintained — add a prokinetic. If SIBO does not recur without prokinetics, the MMC recovered on its own.
 - **DAO is a diagnostic probe, not a long-term fix.** If DAO supplementation improves post-meal symptoms, HIT is a likely contributor and dietary management is the strategy — though response can also reflect placebo. DAO supplementation is suggestive of the mechanism; it does not replace dietary histamine avoidance.
 
@@ -78,13 +78,13 @@ If all of the above fails and SIBO is confirmed on repeat testing, consider a 14
 
 ## What it means if the treatment does not help
 
-**One: SIBO treatment may fail because the breath test was a false positive.** Breath tests have a ~30–40% false-positive rate, and the 2024 consensus statement's "remains unproven" conclusion is a genuine epistemic limitation. If rifaximin and herbal antimicrobials produce no benefit, one honest possibility is that SIBO was never the problem — the symptoms had a different mechanism (visceral hypersensitivity, MCAS, rapid transit).
+**One: SIBO treatment may fail because the breath test was a false positive.** Breath tests have a ~30–40% false-positive rate, and the 2024 consensus statement's "remains unproven" conclusion is a genuine epistemic limitation. If rifaximin and herbal antimicrobials produce no benefit, one possibility is that SIBO was never the problem — the symptoms had a different mechanism (visceral hypersensitivity, MCAS, rapid transit).
 
 **Two: the low-histamine diet may fail because histamine is not the problem.** If 4 weeks of strict dietary histamine reduction produces no change, and DAO supplementation also fails, histamine is unlikely to be a major contributor — stop dietary restriction and look to other mechanisms.
 
 **Three: prokinetics may fail because the MMC is structurally damaged, not just slowed.** If ICCs are destroyed by autoantibodies, not just functionally suppressed, a drug that stimulates residual ICC function may have limited effect. The distinction matters for expectations — prokinetics support residual function; they do not regenerate lost pacemaker cells.
 
-**Four: the gut may not be the dominant amplifier.** If you have treated SIBO, eliminated histamine, restored butyrate, and taken prokinetics — and the fatigue, brain fog, and PEM are unchanged — the gut was a passenger, not a driver, in your specific case. That is honest and useful information. Stop pursuing gut-targeted treatments and move to the next amplifier.
+**Four: the gut may not be the dominant amplifier.** If you have treated SIBO, eliminated histamine, restored butyrate, and taken prokinetics — and the fatigue, brain fog, and PEM are unchanged — the gut was a passenger, not a driver, in your specific case. That is useful information. Stop pursuing gut-targeted treatments and move to the next amplifier.
 
 **Five: elemental diet may fail because the underlying cause was never the bacteria.** Elemental diet removes all dietary substrate for bacterial fermentation — if 14 days of exclusive elemental diet produces no improvement, the symptoms were not bacterial-overgrowth-driven. They may be visceral hypersensitivity, MCAS, or rapid transit. That is a finding — the most aggressive SIBO treatment available has been tested and has failed, and the probability that SIBO is the dominant mechanism drops substantially.
 

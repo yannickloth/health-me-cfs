@@ -51,7 +51,7 @@ Most of the raw material already exists. Patients have run these trials; registr
 
 That is a small thing to ask, and a large thing to change: it would turn a scattered archive of personal experience into the closest thing a biomarker-less disease has to a population-level ranking. The ranking would reflect the patients well enough to contribute (mostly mild-to-moderate), and it would take dedicated channels to reach severe and very-severe patients, whose reports are the most informative and the hardest to collect.
 
-*Next: [What a Pile of Drug Reports Can and Cannot Tell You](../what-a-pile-of-drug-reports-cannot-tell-you/index.qmd) — the honest limits, including the one that would kill the whole idea.*
+*Next: [What a Pile of Drug Reports Can and Cannot Tell You](../what-a-pile-of-drug-reports-cannot-tell-you/index.qmd) — the limits, including the one that would kill the whole idea.*
 
 *This is not medical advice. It describes a research proposal. No one should start, stop, or change a treatment on the basis of a pooled community ranking. Any dose figure here is an illustration from the primary document's analysis, not a prescribing guide. Discuss any medication decision with your clinician.*
 

@@ -38,7 +38,7 @@ The series opens with the most developed strand: a brain running on a thin fuel 
 
 Read the article:
 
-1. **[Autism as a Brain Energy Disorder: What the Science Says](../autism-brain-energy-disorder/index.qmd)** — the astrocyte/GLUT1 model, the mitochondrial and BH4 evidence, the modifiable targets, the honest limits, the CSF:glucose decisive experiment, and the multi-pathway treatment hypothesis.
+1. **[Autism as a Brain Energy Disorder: What the Science Says](../autism-brain-energy-disorder/index.qmd)** — the astrocyte/GLUT1 model, the mitochondrial and BH4 evidence, the modifiable targets, the limits, the CSF:glucose decisive experiment, and the multi-pathway treatment hypothesis.
 
 ---
 
@@ -58,7 +58,7 @@ A third strand is neither a fuel problem nor an immune problem: a wiring-level d
 
 Read the article:
 
-1. **[The Cerebellar-Glutamate Connection in Autism: A Wiring-Level Hypothesis](../autism-cerebellar-glutamate/index.qmd)** — the Purkinje-cell evidence, the glutamatergic genetic signal, the shared features, the testable sensory-sensitivity prediction, and the honest limits.
+1. **[The Cerebellar-Glutamate Connection in Autism: A Wiring-Level Hypothesis](../autism-cerebellar-glutamate/index.qmd)** — the Purkinje-cell evidence, the glutamatergic genetic signal, the shared features, the testable sensory-sensitivity prediction, and the limits.
 
 ---
 

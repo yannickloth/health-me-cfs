@@ -42,7 +42,7 @@ Our research frames the ADHD-chronic-fatigue relationship through three possible
 
 **Architecture C — bidirectional amplification.** ADHD and the illness each worsen the other — sleep disruption, energy depletion, and stress compound in a loop.
 
-The architectures are not mutually exclusive, and the temporal data matter: when ADHD is documented *before* fatigue onset — as in the studies where childhood ADHD predicts later chronic fatigue [@SaezFrancas2012adhdcfs @Quadt2024neurodivergentfatigue] — Architecture A or C is supported. Architecture B (acquired ADHD *from* the illness) applies to a subset of patients who develop new-onset inattention after the illness begins — though the population-level evidence cautions that much apparent "new onset" may be **unmasking** of pre-existing subclinical neurodivergence rather than true acquisition (see the honest limits below).
+The architectures are not mutually exclusive, and the temporal data matter: when ADHD is documented *before* fatigue onset — as in the studies where childhood ADHD predicts later chronic fatigue [@SaezFrancas2012adhdcfs @Quadt2024neurodivergentfatigue] — Architecture A or C is supported. Architecture B (acquired ADHD *from* the illness) applies to a subset of patients who develop new-onset inattention after the illness begins — though the population-level evidence cautions that much apparent "new onset" may be **unmasking** of pre-existing subclinical neurodivergence rather than true acquisition (see the limits below).
 
 ---
 

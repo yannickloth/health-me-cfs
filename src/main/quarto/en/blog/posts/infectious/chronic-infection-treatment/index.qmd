@@ -1,6 +1,6 @@
 ---
 title: "Chronic Infection Article 2: Antivirals, Immunomodulators, and What It Means When They Don't Work in ME/CFS"
-description: "A plain-language guide to treating chronic viral infection in ME/CFS — valacyclovir for EBV, valganciclovir for HHV-6/CMV, cimetidine as an immunomodulator, mast-cell stabilisers to intercept the EBV→MMP-9 pathway, why abortive lytic replication makes antivirals less effective than expected, and the honest 'what if nothing helps' discussion."
+description: "A plain-language guide to treating chronic viral infection in ME/CFS — valacyclovir for EBV, valganciclovir for HHV-6/CMV, cimetidine as an immunomodulator, mast-cell stabilisers to intercept the EBV→MMP-9 pathway, why abortive lytic replication makes antivirals less effective than expected, and the 'what if nothing helps' discussion."
 author: "Yannick Loth"
 date: "2026-08-14"
 categories: [Treatment, Chronic Infection, Antivirals, ME/CFS]
@@ -26,7 +26,7 @@ Valacyclovir is a prodrug of acyclovir. It is phosphorylated by the viral thymid
 
 The problem is that in ME/CFS, the viral proteins driving immune activation (dUTPases, immediate-early gene products) are produced **before** the DNA-polymerase step. Valacyclovir blocks a step that ALR does not reach. It is like locking a door that the intruder already walked through.
 
-**The evidence.** Lerner's open-label cohort studies (from the early 2000s onward) reported 30–40% response in herpesvirus-associated ME/CFS, most notably in the largest cohort (n=142) [@Lerner2010antivirals], and a 36-month blinded follow-up of valacyclovir in the EBV-subset was positive [@Lerner2007valacyclovir] [@Lerner2002valacyclovir]. But these come from a single group, have never been independently replicated, and used cardiac-output or clinical-status endpoints (not PEM or fatigue) as primary measures. The honest evidence grade: **weak and single-group**.
+**The evidence.** Lerner's open-label cohort studies (from the early 2000s onward) reported 30–40% response in herpesvirus-associated ME/CFS, most notably in the largest cohort (n=142) [@Lerner2010antivirals], and a 36-month blinded follow-up of valacyclovir in the EBV-subset was positive [@Lerner2007valacyclovir] [@Lerner2002valacyclovir]. But these come from a single group, have never been independently replicated, and used cardiac-output or clinical-status endpoints (not PEM or fatigue) as primary measures. The evidence grade: **weak and single-group**.
 
 **Practical considerations.** Valacyclovir is well tolerated (headache, nausea in ~10%) and requires adequate hydration to prevent crystalluria. The standard dose used in the structured trial below is **1 g three times daily** (3 g/day); higher amounts (up to 1.5 g four times daily) exist for some herpes indications but are exceptional and should only be used on explicit specialist advice, and always with careful fluid intake and renal-function awareness. A 3–6 month trial is the minimum to assess response; shorter trials are not informative.
 
@@ -82,7 +82,7 @@ Confirm that the clinical picture is post-infectious (documented EBV mono, HHV-6
 
 If valacyclovir fails and HHV-6 is documented (PCR positive, or ciHHV-6 known), discuss valganciclovir with a specialist. This is a toxic drug — bone-marrow suppression, teratogenicity — requiring regular CBC monitoring. A 3–6 month trial at 900 mg twice daily (taken with food, dose-adjusted for renal function) with pre-defined stopping rules and monthly CBC is the responsible approach. **Stop if neutropenia develops or if there is no improvement at 6 months.**
 
-If both antivirals fail — or if ALR is suspected (high EA-D without detectable viral load) — shift to the mast-cell intercept: H1 + H2 antihistamines plus a mast-cell stabiliser (cromolyn or ketotifen), targeting the EBV→mast cell→MMP-9 pathway downstream of the virus. Reassess at 12 weeks. A response supports the host-response model; a null result supports neither the antiviral nor the mast-cell model as the dominant mechanism, and the honest move is to stop pursuing the chronic-infection pathway.
+If both antivirals fail — or if ALR is suspected (high EA-D without detectable viral load) — shift to the mast-cell intercept: H1 + H2 antihistamines plus a mast-cell stabiliser (cromolyn or ketotifen), targeting the EBV→mast cell→MMP-9 pathway downstream of the virus. Reassess at 12 weeks. A response supports the host-response model; a null result supports neither the antiviral nor the mast-cell model as the dominant mechanism, and the move is to stop pursuing the chronic-infection pathway.
 
 ---
 
@@ -98,8 +98,8 @@ If both antivirals fail — or if ALR is suspected (high EA-D without detectable
 ## What it means if the treatment does not help
 
 **One: a failed valacyclovir trial says valacyclovir does not work for you — nothing more.** It does not say EBV is inactive. It does not say ALR is not happening. It says a drug that blocks lytic DNA replication, at the dose you took, for the duration you took it, did not produce a measurable benefit. That is useful pharmacology. It is not a verdict on the viral hypothesis.
-**Two: a failed valganciclovir trial narrows the possibilities more.** Valganciclovir covers the poly-herpesvirus spectrum. If a 6-month trial at an adequate dose produces no benefit, the probability that an antiviral — any currently available antiviral — will help you drops substantially. That is useful information, and the honest next step is to shift to mast-cell stabilisation (intercepting the downstream immune activation) and away from further antiviral trials.
-**Three: the threat-signal model from the primary document's ODE framework predicts that antivirals work only when the viral-load component dominates the threat signal** — early in the disease. In long-established ME/CFS, the threat signal is maintained by host factors (immune dysregulation, autoantibodies, metabolic dysfunction) and a ~20% reduction in viral protein production from antivirals is insufficient to shift the system. This model is theoretical, but it offers an honest reading of why antivirals might work for some recently-infected patients and fail for most long-ill patients [@Loth2026website].
+**Two: a failed valganciclovir trial narrows the possibilities more.** Valganciclovir covers the poly-herpesvirus spectrum. If a 6-month trial at an adequate dose produces no benefit, the probability that an antiviral — any currently available antiviral — will help you drops substantially. That is useful information, and the next step is to shift to mast-cell stabilisation (intercepting the downstream immune activation) and away from further antiviral trials.
+**Three: the threat-signal model from the primary document's ODE framework predicts that antivirals work only when the viral-load component dominates the threat signal** — early in the disease. In long-established ME/CFS, the threat signal is maintained by host factors (immune dysregulation, autoantibodies, metabolic dysfunction) and a ~20% reduction in viral protein production from antivirals is insufficient to shift the system. This model is theoretical, but it offers an reading of why antivirals might work for some recently-infected patients and fail for most long-ill patients [@Loth2026website].
 
 ---
 
@@ -117,7 +117,7 @@ If both antivirals fail — or if ALR is suspected (high EA-D without detectable
 
 Chronic infection is the most hypothesis-heavy treatment area in the Septad. The mechanisms are strong — EBV→mast cell→MMP-9, HHV-6 miR-aU14→mitochondrial fragmentation, poly-herpesvirus dUTPase co-activation — but the drugs that target these mechanisms are weak (valacyclovir misses ALR) or toxic (valganciclovir suppresses bone marrow). The mast-cell stabiliser intercept — blocking the host response downstream of the virus — is the one intervention that bypasses the ALR problem and is low-risk in the MCAS-positive subset [@Loth2026website].
 
-A failed antiviral trial is expected pharmacology, not a personal failure, and not a disproof of the viral-reactivation hypothesis. The honest clinical approach is a time-limited, endpoint-defined trial with a stopping rule — and if it fails, to shift to mast-cell stabilisation and accept that current antivirals are not the right tools for the job.
+A failed antiviral trial is expected pharmacology, not a personal failure, and not a disproof of the viral-reactivation hypothesis. The clinical approach is a time-limited, endpoint-defined trial with a stopping rule — and if it fails, to shift to mast-cell stabilisation and accept that current antivirals are not the right tools for the job.
 
 **Next in this series:** Autoimmunity — antibodies that talk to the nervous system, GPCR autoantibodies, and why removing them doesn't always fix the problem.
 

@@ -76,7 +76,7 @@ This does three things: it validates what is true, it replaces the untestable st
 
 *The move:* **address the abandonment fear explicitly, before addressing anything clinical.**
 
-> "I want to say something before we start. I may not have answers for you today — nobody honestly does yet. But I'm not going anywhere. You'll keep having a doctor here, and we'll keep working through this together."
+> "I want to say something before we start. I may not have answers for you today — nobody does yet. But I'm not going anywhere. You'll keep having a doctor here, and we'll keep working through this together."
 
 Then keep the promise in small, visible ways: a scheduled follow-up regardless of progress, documentation of their symptoms in their own words, one concrete next step per visit. For this patient, *being kept* is the clinical intervention. The ME/CFS literature is unambiguous about what the alternative costs: stigma and unsupportive medical interactions independently predict suicidal ideation in this population, controlling for depression [@McManimen2018UnsupportiveStigma; @Johnson2022SuicideRiskStigma].
 
@@ -86,7 +86,7 @@ Then keep the promise in small, visible ways: a scheduled follow-up regardless o
 
 The reflex to hide uncertainty is understandable and, for contested diseases, counterproductive. The patient has usually read the literature you haven't; bluffing is detectable, and one detected bluff converts your remaining authority into suspicion.
 
-Stigma research on medical encounters for persistent physical symptoms maps the alternative failure: consultations spiral through labeling, discrediting, and othering into patient distrust [@Treufeldt2024StigmaFramework]. The trust-preserving sentence structure is simple and honest:
+Stigma research on medical encounters for persistent physical symptoms maps the alternative failure: consultations spiral through labeling, discrediting, and othering into patient distrust [@Treufeldt2024StigmaFramework]. The trust-preserving sentence structure is simple:
 
 > "I don't know. Here's what I know that's relevant, here's what we can test, and here's when I'll see you again."
 

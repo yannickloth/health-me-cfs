@@ -1,6 +1,6 @@
 ---
 title: "What a Pile of Drug Reports Can and Cannot Tell You"
-description: "A pooled corpus of patient drug reports can rank which pathways are worth testing. It cannot prove which one is causal. Placebo, prescribing habits, who volunteers to report, and community enthusiasm all contaminate the signal — and if the signal tracks online discussion rather than pharmacology, the whole proposal should be abandoned. Here is the honest boundary."
+description: "A pooled corpus of patient drug reports can rank which pathways are worth testing. It cannot prove which one is causal. Placebo, prescribing habits, who volunteers to report, and community enthusiasm all contaminate the signal — and if the signal tracks online discussion rather than pharmacology, the whole proposal should be abandoned. Here is the boundary."
 author: "Yannick Loth"
 date: "2026-09-13"
 categories: [ME/CFS, Treatment, Methods, Evidence]
@@ -33,7 +33,7 @@ A worse possibility exists. A corpus recruited from a patient community is not a
 
 So the corpus has one governing test, and it must be able to fail it. If, after adjusting for severity, drug availability, and the corpus's own placebo floor, the residual ranking is explained at least as well by how much each drug is discussed online as by its dose and molecular target — then the corpus is measuring the community, not the disease. In that case the proposal is **abandoned**, not refined. More data will not fix it, and a better survey will not either. The test has to be a locked, pre-registered model comparison, not a correlation computed after the fact: discussion volume and dose are collinear (popular drugs are both talked about more and tried across more dose bands), so the comparison must be fixed before data collection.
 
-There is a second abandonment condition: if the number of distinct drugs needed to tell the competing hypotheses apart is larger than any realistic number of patients will ever try, then no amount of reporting can rank mechanisms, and the proposal is dead on arrival. Whether the accessible drug set is degenerate in this way is an open, testable question — and the honest answer today is that nobody knows.
+There is a second abandonment condition: if the number of distinct drugs needed to tell the competing hypotheses apart is larger than any realistic number of patients will ever try, then no amount of reporting can rank mechanisms, and the proposal is dead on arrival. Whether the accessible drug set is degenerate in this way is an open, testable question — and the answer today is that nobody knows.
 
 ## What the corpus can claim
 

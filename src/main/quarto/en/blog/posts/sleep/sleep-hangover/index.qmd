@@ -138,7 +138,7 @@ These interventions don't fix glymphatic failure directly, but they reduce the a
 
 ### The reality check: Limitations of the evidence base
 
-The framework above reflects mechanistic plausibility rather than proven efficacy in ME/CFS. The honest assessment from the research literature is this:
+The framework above reflects mechanistic plausibility rather than proven efficacy in ME/CFS. The assessment from the research literature is this:
 
 - **Moderate evidence:** Sleep hygiene components (morning light, cool environment) in the general population; gabapentin/pregabalin for pain in fibromyalgia. These have the strongest evidence bases, though fibromyalgia extrapolation to ME/CFS remains unvalidated.
 

@@ -269,7 +269,7 @@ The superset-failure is not a quirk of naltrexone. It is a *structural* conseque
 
 In every case the structure is identical: the benefit is a sum of dose-specific windows, so the failure of one window leaves the others untested. That is why the argument of this article is a general pharmacology principle, not an LDN-specific claim. What is LDN-specific — and taken from the paper, at low certainty — is the *position* of the bands; the *logic* of dose non-propagation is drug-independent.
 
-To be honest about the other direction too: LDN's *overall* evidence is weak, and that does not favor any dose. The FINAL trial (n = 99) found no significant primary pain difference [@DueBruun2024LDNFibromyalgia], a responder re-analysis of six secondary outcomes was null on all [@Nielsen2026LDNFMResponder], and a meta-analysis found no between-group benefit [@Ologunowa2025LDNFMMeta]. These nulls are real and must be weighed. But they were single-dose trials — none swept the dose axis. A null at one dose, in a drug whose targets engage at different bands, is exactly the ambiguity this article is about.
+About the other direction too: LDN's *overall* evidence is weak, and that does not favor any dose. The FINAL trial (n = 99) found no significant primary pain difference [@DueBruun2024LDNFibromyalgia], a responder re-analysis of six secondary outcomes was null on all [@Nielsen2026LDNFMResponder], and a meta-analysis found no between-group benefit [@Ologunowa2025LDNFMMeta]. These nulls are real and must be weighed. But they were single-dose trials — none swept the dose axis. A null at one dose, in a drug whose targets engage at different bands, is exactly the ambiguity this article is about.
 
 ---
 

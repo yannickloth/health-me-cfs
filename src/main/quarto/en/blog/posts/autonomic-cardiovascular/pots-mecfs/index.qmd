@@ -10,7 +10,7 @@ You are lying down. Horizontal, calm, and your heart is at 95. You check your pu
 
 Now add the rest of ME/CFS: the crashing fatigue after a short shower, the brain fog that makes a sentence feel like a puzzle, the sleep that does not refresh. Somewhere in the middle of it, a doctor or a tilt-table test says the word *POTS*, and you are handed a list of drugs you have never heard of — midodrine, fludrocortisone, ivabradine — and told to eat more salt.
 
-This article is the conceptual overview. What POTS actually is, why your blood volume is low but your body is not fixing it, whether POTS causes ME/CFS (it almost never does), and the difference between having POTS on its own and having it *on top of* ME/CFS. The treatments — the drug ladder from salt and compression through fludrocortisone, midodrine, ivabradine, and pyridostigmine — are covered in the [companion treatment article](../pots-mecfs-treatment/index.qmd), along with the honest "what if the drugs don't work" discussion.
+This article is the conceptual overview. What POTS actually is, why your blood volume is low but your body is not fixing it, whether POTS causes ME/CFS (it almost never does), and the difference between having POTS on its own and having it *on top of* ME/CFS. The treatments — the drug ladder from salt and compression through fludrocortisone, midodrine, ivabradine, and pyridostigmine — are covered in the [companion treatment article](../pots-mecfs-treatment/index.qmd), along with the "what if the drugs don't work" discussion.
 
 ---
 
@@ -69,7 +69,7 @@ Before you pin everything on the heart rate, here is what the data says — and 
 
 ## The order matters: POTS is usually downstream, not the cause
 
-Here is a fact that should shape how you think about treatment: **POTS almost always arrives as part of a cluster.** The POTS–MCAS–hypermobility triad is not coincidence. A recent critical review of the triad found that "an evidence-based, common pathophysiologic mechanism between any of the two, much less all three conditions, has yet to be described" [@Yao2025MCASPOTStriad] — so the honest position is that the three travel together, probably share mechanisms, but the causal arrows are not drawn.
+Here is a fact that should shape how you think about treatment: **POTS almost always arrives as part of a cluster.** The POTS–MCAS–hypermobility triad is not coincidence. A recent critical review of the triad found that "an evidence-based, common pathophysiologic mechanism between any of the two, much less all three conditions, has yet to be described" [@Yao2025MCASPOTStriad] — so the position is that the three travel together, probably share mechanisms, but the causal arrows are not drawn.
 
 What *is* clear: **in ME/CFS, POTS is usually one amplifier among several, not the core disease.** The blood-volume deficit, the renin-aldosterone paradox, the mast-cell vascular effects, and the connective-tissue pooling are all routes to the same endpoint — the heart races to compensate — but fixing the heart rate does not fix the energy failure. The treatment-response data support this indirectly: in a survey of nearly 4,000 ME/CFS and Long COVID patients, autonomic modulators (midodrine, beta-blockers, fludrocortisone) helped the POTS-dominant symptom cluster regardless of whether the originating diagnosis was ME/CFS or Long COVID — which suggests the autonomic problem is a *shared downstream consequence* rather than a disease-specific cause [@Eckey2025PatientReported].
 
@@ -86,7 +86,7 @@ A lot of the confusion around POTS comes from mixing up two situations that look
 **ME/CFS with POTS (the situation this series is about).** When POTS sits on top of ME/CFS, three things are different:
 
 - **POTS is one amplifier.** The blood-pooling and racing heart cost energy the system already lacks, and the orthostatic stress can trigger PEM — but fixing the rate does not fix the energy failure or the immune dysregulation [@Loth2026website].
-- **Treating POTS treats one contributor.** If midodrine or compression helps you stand longer, the honest reading is that *venous pooling was contributing to your orthostatic symptoms*. It says nothing about whether the energy production, the immune system, or the brain inflammation are better.
+- **Treating POTS treats one contributor.** If midodrine or compression helps you stand longer, the reading is that *venous pooling was contributing to your orthostatic symptoms*. It says nothing about whether the energy production, the immune system, or the brain inflammation are better.
 - **A failed POTS drug trial says nothing against your ME/CFS.** Because orthostatic intolerance in ME/CFS has multiple inputs — blood volume, renin-aldosterone axis, mast-cell mediators, endothelial function, connective-tissue integrity — a drug that blocks only one of these routes can fail while the overall dysautonomia remains real. And because the core illness is larger than any one pathway, a failed trial is a clue about *one medication in one mechanism*, not a verdict on whether your illness is real.
 
 Why this distinction matters practically: **in ME/CFS, a POTS treatment is best thought of as a timed trial aimed at one possible contributor** — with a clear idea of which symptoms it is meant to touch, and a plan for what a partial or null result does or does not mean.
@@ -99,6 +99,6 @@ POTS is real in ME/CFS — about 1 in 4 patients meet the criteria — but the 3
 
 The read: POTS is most often a downstream amplifier, not the cause, and treating the heart rate rarely fixes the energy failure — but it is still worth treating, because running your heart at a sprint while lying still costs energy you do not have [@Loth2026website].
 
-**Next in this mini-series:** how the actual medications work — salt and compression first, then fludrocortisone, midodrine, ivabradine, beta-blockers, and pyridostigmine, the drug you should probably *not* take (the SSRI pitfall), expected results, and the honest "what if the drugs don't work" discussion [[see the companion article]](../pots-mecfs-treatment/index.qmd).
+**Next in this mini-series:** how the actual medications work — salt and compression first, then fludrocortisone, midodrine, ivabradine, beta-blockers, and pyridostigmine, the drug you should probably *not* take (the SSRI pitfall), expected results, and the "what if the drugs don't work" discussion [[see the companion article]](../pots-mecfs-treatment/index.qmd).
 
 For the comprehensive, fully-cited picture of how cardiovascular dysfunction and autonomic dysregulation are weighed among the many candidate mechanisms in ME/CFS, see [@Loth2026website].

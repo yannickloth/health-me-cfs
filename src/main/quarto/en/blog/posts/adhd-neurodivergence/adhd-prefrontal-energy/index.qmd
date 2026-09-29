@@ -10,7 +10,7 @@ Why is a crowded room exhausting? Why is it so hard to start a task you know you
 
 The mainstream answer is that these are intrinsic features of how an ADHD brain is wired. A newer line of research asks a different question: **what if a significant part of it is an energy problem — specifically, a prefrontal energy problem?**
 
-This article explains that model, the five independent lines of evidence behind it, and — honestly — where it is still speculative. It draws on our research but is written to stand alone for anyone curious about ADHD and energy.
+This article explains that model, the five independent lines of evidence behind it, and — where it is still speculative. It draws on our research but is written to stand alone for anyone curious about ADHD and energy.
 
 Throughout, the series separates **what we know** from **what our research adds**. Here, the established findings are the prefrontal hypometabolism in ADHD [@Zametkin1990], the inverted-U catecholamine pharmacology [@Arnsten2011catecholaminePFC @Cools2011invertedU], and the epidemiological ADHD-to-chronic-fatigue gradient [@SaezFrancas2012adhdcfs @Quadt2024neurodivergentfatigue]. What our research adds is the prefrontal-energy convergence reading of those findings — that a fuel shortfall in the brain's most expensive region can explain a core slice of the ADHD experience — which is a hypothesis, not yet a finding.
 

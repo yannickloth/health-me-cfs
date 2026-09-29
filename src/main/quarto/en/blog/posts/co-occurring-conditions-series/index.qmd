@@ -14,7 +14,7 @@ This series explains one co-occurring condition at a time, in plain language, fo
 2. **What it is** — the mechanism, in ordinary words.
 3. **How it relates to ME/CFS** — including whether it's a *cause*, a *downstream amplifier*, or a *coincidental* companion (often: amplifier).
 4. **The treatments** — what they are, how they work.
-5. **What it means if the treatment doesn't work** — the honest part.
+5. **What it means if the treatment doesn't work** — the part.
 
 ---
 
@@ -37,7 +37,7 @@ The series continues with POTS — the heart that races when you stand, the bloo
 Read the two articles in order:
 
 1. **[POTS and the Heart That Races When You Stand](../autonomic-cardiovascular/pots-mecfs/index.qmd)** — what POTS is, the renin-aldosterone paradox, the cerebral blood flow data, and the difference between POTS-alone and ME/CFS-with-POTS.
-2. **[Treatments for POTS and Dysautonomia in ME/CFS — and What It Means When They Don't Work](../autonomic-cardiovascular/pots-mecfs-treatment/index.qmd)** — salt, compression, fludrocortisone, midodrine, ivabradine, beta-blockers, pyridostigmine, the SSRI pitfall, expected results, and the honest failure discussion.
+2. **[Treatments for POTS and Dysautonomia in ME/CFS — and What It Means When They Don't Work](../autonomic-cardiovascular/pots-mecfs-treatment/index.qmd)** — salt, compression, fludrocortisone, midodrine, ivabradine, beta-blockers, pyridostigmine, the SSRI pitfall, expected results, and the failure discussion.
 
 ---
 
@@ -60,7 +60,7 @@ The series continues with the wiring that is wrong — small fiber neuropathy ex
 Read the two articles in order:
 
 1. **[Small Fiber Neuropathy — When the Wiring Itself Is Wrong in ME/CFS](../neurology/sfn/index.qmd)** — what SFN is, the three mechanism families (mast-cell tryptase→PAR2, microvascular ischemia, IgG-mediated DRG autoimmunity), the visceral-vs-somatic distinction, the POTS–SFN–MCAS–hEDS intersection, and SFN-alone vs SFN-on-ME/CFS.
-2. **[Treating Small Fiber Neuropathy in ME/CFS](../neurology/sfn-treatment/index.qmd)** — gabapentinoids, SNRIs, topicals, IVIG for autoimmune SFN, alpha-lipoic acid, mast-cell stabilisers, expected results, the honest failure discussion, and practical guidance.
+2. **[Treating Small Fiber Neuropathy in ME/CFS](../neurology/sfn-treatment/index.qmd)** — gabapentinoids, SNRIs, topicals, IVIG for autoimmune SFN, alpha-lipoic acid, mast-cell stabilisers, expected results, the failure discussion, and practical guidance.
 
 ---
 
@@ -71,7 +71,7 @@ The pain that isn't muscle — when your nervous system turns the gain up, TRPV1
 Read the two articles in order:
 
 1. **[The Pain That Isn't Muscle — Fibromyalgia-Pattern Pain in ME/CFS](../pain/fibromyalgia-pattern-pain/index.qmd)** — central sensitisation, TRPV1/TRPA1 channels, the COX-2/PGE2 feed-forward loop, the nociplastic-neuropathic hybrid, and fibromyalgia-alone vs fibromyalgia-on-ME/CFS.
-2. **[Treating Fibromyalgia-Pattern Pain in ME/CFS](../pain/fibromyalgia-pain-treatment/index.qmd)** — LDN, SNRIs, gabapentinoids, COX-2 inhibitors, PEA, NMDA antagonists, expected results, the honest failure discussion, and practical guidance.
+2. **[Treating Fibromyalgia-Pattern Pain in ME/CFS](../pain/fibromyalgia-pain-treatment/index.qmd)** — LDN, SNRIs, gabapentinoids, COX-2 inhibitors, PEA, NMDA antagonists, expected results, the failure discussion, and practical guidance.
 
 ---
 
@@ -82,7 +82,7 @@ The gut that misbehaves — why your stomach empties slowly, how bacteria steal 
 Read the two articles in order:
 
 1. **[SIBO, Gastroparesis, and the Gut That Misbehaves in ME/CFS](../gut/sibo-gi-dysmotility/index.qmd)** — ICC/vagal motility failure, mast-cell–gut axis, H₂S mitochondrial toxicity, DAO and histamine intolerance, and GI-problems-alone vs GI-problems-on-ME/CFS.
-2. **[Treating SIBO, Gastroparesis, and the Gut](../gut/sibo-gi-treatment/index.qmd)** — meal spacing, low-histamine elimination, SIBO antibiotics and herbals, elemental diet, DAO, butyrate, prokinetics, expected results, a structured trial example, the honest failure discussion, falsifiable predictions, and practical guidance.
+2. **[Treating SIBO, Gastroparesis, and the Gut](../gut/sibo-gi-treatment/index.qmd)** — meal spacing, low-histamine elimination, SIBO antibiotics and herbals, elemental diet, DAO, butyrate, prokinetics, expected results, a structured trial example, the failure discussion, falsifiable predictions, and practical guidance.
 
 ---
 
@@ -93,7 +93,7 @@ The infection that never ended — EBV, HHV-6, tick-borne disease, abortive lyti
 Read the two articles in order:
 
 1. **[EBV, HHV-6, Tick-Borne Disease, and the Infection That Never Ended in ME/CFS](../infectious/chronic-infection/index.qmd)** — abortive-lytic-replication model, EBV→mast cell→MMP-9 pathway, HHV-6 miR-aU14→mitochondrial fragmentation, poly-herpesvirus co-reactivation, and chronic-infection-alone vs chronic-immune-stimulation-on-ME/CFS.
-2. **[Antivirals, Immunomodulators, and What It Means When They Don't Work in ME/CFS](../infectious/chronic-infection-treatment/index.qmd)** — valacyclovir, valganciclovir, cimetidine, mast-cell stabilisers to intercept the EBV→MMP-9 pathway downstream, why ALR makes antivirals less effective, expected results, the honest failure discussion, and practical guidance.
+2. **[Antivirals, Immunomodulators, and What It Means When They Don't Work in ME/CFS](../infectious/chronic-infection-treatment/index.qmd)** — valacyclovir, valganciclovir, cimetidine, mast-cell stabilisers to intercept the EBV→MMP-9 pathway downstream, why ALR makes antivirals less effective, expected results, the failure discussion, and practical guidance.
 
 ---
 
@@ -104,7 +104,7 @@ Antibodies that talk to your nervous system — GPCR autoantibodies targeting yo
 Read the two articles in order:
 
 1. **[GPCR Autoantibodies, Immune Attack on the Nervous System, and the Antibodies That Talk to Your Receptors in ME/CFS](../autoimmune/autoimmunity/index.qmd)** — what GPCR autoantibodies are, the 29–91% prevalence range and what it actually means, the Fc-glycoprofile, the post-infectious trigger, and autoimmunity-alone vs autoimmunity-on-ME/CFS.
-2. **[Immunoadsorption, IVIG, Rituximab, Daratumumab — Removing the Antibodies, and What It Means When That Doesn't Fix ME/CFS](../autoimmune/autoimmunity-treatment/index.qmd)** — the treatment evidence from most to least mature, the RituxME lesson, the daratumumab signal, expected results, the honest failure discussion, and practical guidance.
+2. **[Immunoadsorption, IVIG, Rituximab, Daratumumab — Removing the Antibodies, and What It Means When That Doesn't Fix ME/CFS](../autoimmune/autoimmunity-treatment/index.qmd)** — the treatment evidence from most to least mature, the RituxME lesson, the daratumumab signal, expected results, the failure discussion, and practical guidance.
 
 ---
 

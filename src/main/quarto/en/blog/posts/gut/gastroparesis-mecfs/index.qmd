@@ -1,6 +1,6 @@
 ---
 title: "Gastroparesis in ME/CFS: A Real, Measurable Slow Stomach — and a Safe Way to Manage It"
-description: "Delayed gastric emptying is a real, testable feature of ME/CFS, not a vague complaint. This article covers the evidence, the honest limits, the open mechanism question, the anxiety of living with a stomach you cannot trust, and a safe, ordered treatment pathway."
+description: "Delayed gastric emptying is a real, testable feature of ME/CFS, not a vague complaint. This article covers the evidence, the limits, the open mechanism question, the anxiety of living with a stomach you cannot trust, and a safe, ordered treatment pathway."
 author: "Yannick Loth"
 date: "2026-08-23"
 categories: [Autonomic, Gastrointestinal, Symptoms]
@@ -141,7 +141,7 @@ If this article matches what you feel, the finding is testable. You can ask your
 
 Gastroparesis in ME/CFS is real and testable. Delayed gastric emptying is a documented, measurable feature of the illness — not a vague complaint — and it can be assessed with a standard gastric emptying test [@Burnet2004GastricEmptyingCFS].
 
-The mechanism is genuinely unresolved. Three candidates are on the table — structural loss of the stomach's pacemaker cells and enteric nerves (open question, 0.40), autoimmune ganglionic blockade (speculation, 0.30), and functional vagal failure alone — and no test currently separates them in ME/CFS. This uncertainty is honest, and it is not a barrier to care.
+The mechanism is genuinely unresolved. Three candidates are on the table — structural loss of the stomach's pacemaker cells and enteric nerves (open question, 0.40), autoimmune ganglionic blockade (speculation, 0.30), and functional vagal failure alone — and no test currently separates them in ME/CFS. This uncertainty is real, and it is not a barrier to care.
 
 There is a safe treatment ladder. Dietary and nutritional management first — small, frequent, low-fat, low-fibre meals and liquid options, with enteral support reserved for feeding failure. Prokinetics second, safety-managed, time-limited, and only after a clinician has weighed the individual risks.
 

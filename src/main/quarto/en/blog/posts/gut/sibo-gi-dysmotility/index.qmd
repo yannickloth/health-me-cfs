@@ -82,7 +82,7 @@ But — as with every amplifier in this series — "downstream" does not mean "d
 
 - **The gut is one amplifier.** The histamine overload, the H₂S energy drain, and the nutrient malabsorption all worsen the systemic energy deficit — but fixing the gut does not fix the PEM or the immune dysregulation [@Loth2026website].
 - **Diet is the first lever — but it is a lever, not a cure.** A low-histamine diet reduces the histamine load but does not stop the mast cells from degranulating. Meal spacing supports the MMC but does not regenerate lost ICCs. The dietary interventions are partial, supportive, and worth doing — and they are not curative.
-- **A failed gut treatment says nothing against your ME/CFS.** Because the gut is one amplifier among several, a SIBO treatment that fails to improve fatigue does not mean the SIBO was not real — it means the SIBO was not the dominant drain on your energy budget, and the honest next step is to look elsewhere.
+- **A failed gut treatment says nothing against your ME/CFS.** Because the gut is one amplifier among several, a SIBO treatment that fails to improve fatigue does not mean the SIBO was not real — it means the SIBO was not the dominant drain on your energy budget, and the next step is to look elsewhere.
 
 ---
 
@@ -90,6 +90,6 @@ But — as with every amplifier in this series — "downstream" does not mean "d
 
 The gut is the most consistently involved organ system in ME/CFS outside the brain, and it is the one system where the patient has direct agency through diet. Three mechanisms — ICC/vagal motility failure, mast-cell–driven permeability and dysmotility, and hydrogen sulfide mitochondrial poisoning — are not mutually exclusive, and they converge on the same endpoint: a gut that steals energy rather than providing it [@Loth2026website].
 
-**Next in this mini-series:** how to actually treat the gut — meal spacing, low-histamine elimination, SIBO antibiotics and herbals, elemental diet, DAO, butyrate, prokinetics, and the honest "what if nothing helps" discussion [[see the companion article]](../sibo-gi-treatment/index.qmd).
+**Next in this mini-series:** how to actually treat the gut — meal spacing, low-histamine elimination, SIBO antibiotics and herbals, elemental diet, DAO, butyrate, prokinetics, and the "what if nothing helps" discussion [[see the companion article]](../sibo-gi-treatment/index.qmd).
 
 For the comprehensive, fully-cited picture of how GI dysmotility and the gut microbiome are weighed among the many candidate mechanisms in ME/CFS, see [@Loth2026website].
