@@ -22,7 +22,7 @@ During pregnancy, maternal antibodies cross the placenta. In most cases this is 
 
 The striking number: approximately **23% of mothers of autistic children carry anti-fetal-brain autoantibodies** targeting specific neuronal proteins [@Braunschweig2013MATAbs @Croen2008MaternalAbASD @Meltzer2017ImmuneASD]. These antibodies are associated with increased autism risk.
 
-The honest caveats are substantial:
+The caveats are substantial:
 - The causal pathway — from maternal antibody to the child's diagnosis — has **not been proven**.
 - The "attributable fraction" depends on assumptions about antibody pathogenicity that remain untested in prospective cohorts.
 - This defines a **distinct immune-associated subgroup**, but it is not yet clinically actionable.
@@ -65,7 +65,7 @@ The practical implication is radical: **diagnostic labels (PANDAS, ME/CFS, autis
 
 ---
 
-## The honest limits
+## Limits
 
 This framework is **explicitly speculative**, with low certainty.
 
@@ -96,7 +96,7 @@ The immune-mediated model does not claim that autism is an immune disease. It cl
 
 The encouraging part: the Connery/Plioplys contrast is proof-of-concept that selecting the right subset can turn a null treatment into a dramatic response.
 
-The honest part: this is a research framework, not a clinical recommendation. No screening, no prenatal intervention, and no immunotherapy is indicated for autism based on the current evidence. The decisive multi-disease antibody study has not been done.
+this is a research framework, not a clinical recommendation. No screening, no prenatal intervention, and no immunotherapy is indicated for autism based on the current evidence. The decisive multi-disease antibody study has not been done.
 
 *This is Part 2 of a four-part series on the biology of autism. Part 1 covers the brain-energy model and the multi-pathway treatment hypothesis. Part 3 explores the cerebellar-glutamate connection. Part 4 asks when autism-like features are acquired and reversible.*
 

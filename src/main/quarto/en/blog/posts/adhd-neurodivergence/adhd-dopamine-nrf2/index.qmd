@@ -85,7 +85,7 @@ Each prediction is testable with existing assays and existing cohorts. None has 
 
 ---
 
-## The honest limits
+## Limits
 
 This is a **speculative hypothesis**, with explicit low confidence — a registered speculation, not an established finding.
 

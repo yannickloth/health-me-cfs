@@ -66,7 +66,7 @@ This is the most speculative strand, with the lowest confidence, and it involves
 
 ---
 
-## The honest limits
+## Limits
 
 - The acquired model is **explicitly speculative** — a registered hypothesis with low confidence — and a simpler explanation (inflammation directly causing both the symptoms and the underlying process) may account for the findings without any interoceptive framework.
 - None of the theoretical components has been directly validated in this context.
@@ -82,7 +82,7 @@ The reason this distinction matters clinically:
 - **If acquired features are dismissed as "just autism"**, a treatable underlying process (inflammation, a metabolic deficit, disrupted sleep) goes unaddressed.
 - **If developmental features are treated as acquired and reversible**, patients are offered treatments that will not work, and may blame themselves when they don't.
 
-The honest position is that acquired autism-like features should be **supported, not pathologized** — and the underlying modifiable drivers (sleep, inflammation, iron, energy) should be addressed regardless of the label, because they affect overall wellbeing even when the core developmental wiring is unchanged.
+acquired autism-like features should be **supported, not pathologized** — and the underlying modifiable drivers (sleep, inflammation, iron, energy) should be addressed regardless of the label, because they affect overall wellbeing even when the core developmental wiring is unchanged.
 
 ---
 
@@ -92,7 +92,7 @@ Some autism-like features — sensory rigidity, withdrawal, apparent alexithymia
 
 The encouraging part: this means a meaningful fraction of the daily symptom burden in some people may be addressable without claiming to "fix" autism itself.
 
-The honest part: this is a low-confidence hypothesis, and the decisive test — showing that acquired rigidity fluctuates with underlying inflammation while developmental rigidity does not — has not been run.
+this is a low-confidence hypothesis, and the decisive test — showing that acquired rigidity fluctuates with underlying inflammation while developmental rigidity does not — has not been run.
 
 ---
 

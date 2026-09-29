@@ -53,7 +53,7 @@ Chinnappan et al. (2026) tested the direct effect of recombinant EBV protein on 
 - For comparison, LPS (a bacterial PAMP) produced 1,422 pg/ml — EBV was 1.7× more potent than LPS at driving MMP-9
 - The same study found elevated serum IL-11 in ME/CFS patients — a cytokine that amplifies MMP-9 expression from microglia, creating a **second MMP-9 amplification loop** in the brain
 
-**Honesty caveats, because they matter.** The study used cord-blood mast cells (not patient mast cells), n=3 (12-week culture requirement limits replication), serum rather than plasma (MMP-9 is 3–4× higher in serum due to platelet degranulation during clotting), and the ME/CFS and control groups were not age-matched. The finding has not been independently replicated. The effect direction — EBV protein activates mast cells to release MMP-9 — is mechanistically important and biologically plausible, but the magnitude and specificity are provisional [@Chinnappan2026IL11MMP9].
+**Caveats, because they matter.** The study used cord-blood mast cells (not patient mast cells), n=3 (12-week culture requirement limits replication), serum rather than plasma (MMP-9 is 3–4× higher in serum due to platelet degranulation during clotting), and the ME/CFS and control groups were not age-matched. The finding has not been independently replicated. The effect direction — EBV protein activates mast cells to release MMP-9 — is mechanistically important and biologically plausible, but the magnitude and specificity are provisional [@Chinnappan2026IL11MMP9].
 
 ---
 

@@ -44,7 +44,7 @@ Pregabalin (150–450 mg daily in divided doses) has the strongest fibromyalgia 
 
 If a COX-2/PGE₂/TRPV1 feed-forward loop is a contributor — a hypothesis suggested by the heat-hyperalgesia patients describe, though the loop itself is inferred rather than directly measured — then COX-2 inhibition (celecoxib, typically 200 mg daily) should reduce PGE₂ production and damp it. The prediction is specific: COX-2 inhibition should reduce resting burning pain and heat hypersensitivity without necessarily improving fatigue or PEM — because if the COX-2 loop contributes it is a pain amplifier, not an energy-failure mechanism.
 
-**Practical considerations.** COX-2 inhibitors have cardiovascular risks with long-term use and should not be combined with other NSAIDs. They are a timed trial for the COX-2/TRPV1-predominant pain phenotype, not a chronic maintenance strategy. The honest limitation: no ME/CFS-specific COX-2 trial exists, and the evidence is mechanistic, not clinical.
+**Practical considerations.** COX-2 inhibitors have cardiovascular risks with long-term use and should not be combined with other NSAIDs. They are a timed trial for the COX-2/TRPV1-predominant pain phenotype, not a chronic maintenance strategy. The limitation: no ME/CFS-specific COX-2 trial exists, and the evidence is mechanistic, not clinical.
 
 ### Palmitoylethanolamide (PEA): multi-modal, low-risk
 

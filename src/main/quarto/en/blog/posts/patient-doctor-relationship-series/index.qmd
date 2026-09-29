@@ -26,6 +26,6 @@ Read the one written for your side of the desk — or both, if you want to under
 
 ---
 
-## A note on honesty
+## About the evidence
 
 This series argues from the structure of the situation and cites the consultation, stigma, and patient-experience literature where it exists. It deliberately avoids fabricating numbers: where a claim about doctor–patient conflict is not quantified in studies, it is stated as structural reasoning, not statistics. The underlying medical science is fully cited in the primary document [@Loth2026mecfs].

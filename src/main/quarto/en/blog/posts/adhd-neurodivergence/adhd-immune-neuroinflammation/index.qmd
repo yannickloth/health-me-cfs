@@ -88,7 +88,7 @@ Several adjacent mechanisms have dedicated articles in this blog:
 
 ---
 
-## The honest limits
+## Limits
 
 This framework is **explicitly speculative**, with low certainty.
 
@@ -116,7 +116,7 @@ The immune and neuroinflammatory model does not claim that ADHD is an immune dis
 
 The encouraging part: if some ADHD-like features are immune-driven, they may be **acquired and reversible** — addressable by treating the inflammation rather than accepted as permanent wiring.
 
-The honest part: this is a research framework, not a clinical recommendation. The neuroinflammation premise is contested, no screening is indicated, and no immunomodulatory treatment for ADHD-like features is established. The decisive prospective study has not been done.
+this is a research framework, not a clinical recommendation. The neuroinflammation premise is contested, no screening is indicated, and no immunomodulatory treatment for ADHD-like features is established. The decisive prospective study has not been done.
 
 *This is Part 2 of a four-part series on the biology of ADHD. Part 1 covers the prefrontal-energy model and the multi-pathway treatment hypothesis. Part 3 explores the dopamine-Nrf2-NLRP3 axis. Part 4 asks when ADHD-like features are acquired and reversible. See the [series landing page](../adhd-series-landing/index.qmd).*
 

@@ -23,7 +23,7 @@ It is not a biomarker test, but it is the closest *proposed* instrument a diseas
 
 2. **[The Corpus That Reads Your Medicine Cabinet](./the-corpus-that-reads-your-medicine-cabinet/index.qmd)** — the design. What a poolable report actually has to contain, why "LDN helped me" pools to nothing, and how hundreds of uncoordinated single-patient trials become one population-level constraint-satisfaction problem.
 
-3. **[What a Pile of Drug Reports Can and Cannot Tell You](./what-a-pile-of-drug-reports-cannot-tell-you/index.qmd)** — the honest part. The corpus can rank hypotheses. It cannot confirm them. Its limits are real: placebo, who gets prescribed what, who volunteers to report, and — the failure mode that matters most — community enthusiasm. If the signal tracks how much a drug is discussed online rather than what it does biologically, the whole proposal should be abandoned.
+3. **[What a Pile of Drug Reports Can and Cannot Tell You](./what-a-pile-of-drug-reports-cannot-tell-you/index.qmd)** — the key point. The corpus can rank hypotheses. It cannot confirm them. Its limits are real: placebo, who gets prescribed what, who volunteers to report, and — the failure mode that matters most — community enthusiasm. If the signal tracks how much a drug is discussed online rather than what it does biologically, the whole proposal should be abandoned.
 
 ---
 

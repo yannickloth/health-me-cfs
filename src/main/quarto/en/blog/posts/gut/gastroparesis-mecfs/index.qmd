@@ -26,7 +26,7 @@ The result: **23 of 32 (72%) had delayed liquid emptying, and 12 of 32 (38%) had
 
 This is direct ME/CFS evidence that delayed gastric emptying is a real, measurable feature of the illness, not merely a subjective complaint. It can be assessed with a standard gastric emptying test, and it may be a target for treatment rather than something a patient must simply endure.
 
-**The honest caveat.** The finding rests on a single 2004 cohort of 32 people. The study predates the modern diagnostic criteria for ME/CFS (the 2015 IOM and 2011 ICC criteria), and the finding has not been replicated in a modern-criteria cohort. In our evidence register this is a clinical finding with a certainty of 0.60 — solid, but anchored on one old study. The study did not report the severity of its participants, so we do not know whether the delay is stronger in severe or very-severe patients.
+**The caveat.** The finding rests on a single 2004 cohort of 32 people. The study predates the modern diagnostic criteria for ME/CFS (the 2015 IOM and 2011 ICC criteria), and the finding has not been replicated in a modern-criteria cohort. In our evidence register this is a clinical finding with a certainty of 0.60 — solid, but anchored on one old study. The study did not report the severity of its participants, so we do not know whether the delay is stronger in severe or very-severe patients.
 
 One counterpoint: a single adolescent case report found normal gastric emptying and normal myoelectrical activity in a young person with CFS [@Corrado1998NormalGastricEmptying]. Delayed emptying is therefore not universal in the illness. The case is one person, pediatric, and carries low evidentiary weight — it does not overturn the larger cohort finding, but it shows the delay is not present in every case.
 
@@ -64,7 +64,7 @@ There is a second consequence that matters specifically in ME/CFS. Erratic empty
 
 ---
 
-## The honest limits
+## Limits
 
 Before the mechanism question, the limits. The evidence that ME/CFS patients have delayed gastric emptying is real but thin, and it has specific weaknesses:
 
@@ -88,7 +88,7 @@ This is the genuinely open part of the story. We do not yet know what is structu
 
 **Candidate 3 — functional vagal failure alone.** The stomach's motor program is under-driven by the autonomic nervous system, with no structural cell loss and no autoantibody. This is the simplest reading and the one the clinical picture fits, but it is a diagnosis of exclusion: it holds only if candidates 1 and 2 are ruled out. In our register it is a clinical reading rather than an independently evidenced finding, so we give it no separate certainty value.
 
-These three are not mutually exclusive, and the distinction matters clinically. A structural loss limits what a prokinetic can do. An autoimmune blockade is potentially reversible. A functional failure is the one most likely to respond to prokinetic drugs. The honest position is that we do not yet know which one — or which combination — applies to a given patient, and no test currently separates them in ME/CFS.
+These three are not mutually exclusive, and the distinction matters clinically. A structural loss limits what a prokinetic can do. An autoimmune blockade is potentially reversible. A functional failure is the one most likely to respond to prokinetic drugs. we do not yet know which one — or which combination — applies to a given patient, and no test currently separates them in ME/CFS.
 
 Each candidate has a falsifiable prediction. A gastric antral biopsy from ME/CFS patients with documented gastroparesis showing normal pacemaker-cell and enteric-nerve density would falsify the structural-loss reading; evidence of cell or nerve loss would support it. Measuring ganglionic acetylcholine-receptor antibodies in a ME/CFS gastroparesis cohort — if a meaningful subset is antibody-positive and their emptying improves after immunotherapy, the autoimmune-blockade claim is supported; if antibody levels do not track emptying delay or immunotherapy response, it is falsified. Candidate 3 is testable too: if emptying delay tracks non-invasive vagal-tone markers (such as heart-rate-variability indices) and improves with autonomic therapies that raise vagal drive, the functional-failure reading is supported; if emptying stays slow while those markers normalise, it is weakened. The emptying delay itself — the shared feature behind all three — can be measured with a standard gastric emptying scan; telling the candidates apart would need the biopsy and antibody testing above, alongside non-invasive autonomic measures, and none of that has been done in an ME/CFS cohort.
 

@@ -14,9 +14,9 @@ The previous post established that the GWAS pins ME/CFS risk to neurons, not imm
 
 ## The convergence hypothesis gains an address
 
-The DecodeME consortium analysed over 15,000 participants (including ~5,000 ME/CFS cases) and 8 million genetic variants. The genome-wide significant loci point to neuronal genes — *CA10, SHISA6, SOX6, LRRC7, DCC, UNC13C* — and the most significant cell-type enrichment from post-GWAS analysis points to medium spiny neurons (MSNs) in the striatum.
+The DecodeME consortium analysed over 15,000 participants (including ~5,000 ME/CFS cases) and 8 million genetic variants. The genome-wide significant loci point to neuronal genes — *CA10, SHISA6, SOX6, LRRC7, DCC, UNC13C* — and the GWAS showed brain-tissue (neuronal) enrichment. A later post-GWAS cell-type analysis (a preprint) pointed more specifically to medium spiny neurons (MSNs) in the striatum [@Maccallini2026metaGWAS].
 
-This signal survives multiple testing corrections across three independent cell-type atlases. Immune cell enrichment is null — the genetic signal does not come from microglia, astrocytes, or peripheral immune cells. It comes from the neurons at the centre of the brain's motor, motivational, and reward circuitry.
+The tissue-level brain enrichment is robust; the finer cell-type step rests on a single post-GWAS analysis and a reference atlas, so it is provisional pending replication. Immune cell enrichment is null — the genetic signal does not come from microglia, astrocytes, or peripheral immune cells. It comes from the neurons at the centre of the brain's motor, motivational, and reward circuitry.
 
 The striatum as a fatigue locus is not new. Chaudhuri and Behan proposed over two decades ago that central fatigue results from failure in the basal ganglia's integration of limbic input and motor function — specifically the striatal-thalamic-frontal cortical system — in which disrupted dopaminergic signalling impairs the brain's ability to translate effort into action [@Chaudhuri2000basalganglia]. A clinical hypothesis based on symptom overlap with Parkinson's and multiple sclerosis now has genetic evidence from the largest ME/CFS dataset ever assembled.
 
@@ -65,7 +65,7 @@ These treatment targets are not trigger-specific. They apply to post-viral, post
 
 ## The caveat: specificity within a shared substrate
 
-The MSN enrichment finding is not unique to ME/CFS. Schizophrenia, depression, and alcohol use disorder also show striatal enrichment. The striatum is a generic vulnerability node — a brain region susceptible to dysfunction from many upstream causes.
+The enrichment of risk in brain neurons is not unique to ME/CFS; many brain disorders show it. But the specific cell types differ — schizophrenia enriches cortical layer 2/3 neurons, depression layer 5/6, and alcohol use disorder MSNs [@Duncan2025cellTypeBrain] — so ME/CFS and AUD, not schizophrenia or depression, are the ones converging on MSNs. The striatum is a generic vulnerability node — a brain region susceptible to dysfunction from many upstream causes.
 
 But the dysfunction must differ. ME/CFS is not schizophrenia. The question: what specifically goes wrong with MSN function in ME/CFS? The D1/D2 balance? Firing rate? Dopamine response? Cortical input integration? The answer determines whether we can target the ME/CFS-specific dysfunction rather than broadly modulating striatal circuits.
 
@@ -83,7 +83,7 @@ Nothing in science is proved by a single prediction. But a model that generates 
 
 | Claim | Certainty |
 |---|---|
-| ME/CFS genetic risk variants are enriched in striatal MSNs | Very high — primary GWAS finding, survives multiple testing corrections [@DecodeME2025] |
+| ME/CFS genetic risk variants are enriched in striatal MSNs | Moderate — post-GWAS cell-type analysis (preprint), not the GWAS itself [@Maccallini2026metaGWAS] |
 | The striatum is the convergence point for multiple ME/CFS trigger types | Moderate — anatomically and mechanistically plausible; not directly demonstrated |
 | The four convergence pathways (neuroinflammation, metabolic, autoantibody, perfusion) co-occur in patients | Low-moderate — each pathway individually supported; no study has measured all four simultaneously |
 | Striatal dopamine interventions should work regardless of trigger type | Low — prediction from the model; untested |

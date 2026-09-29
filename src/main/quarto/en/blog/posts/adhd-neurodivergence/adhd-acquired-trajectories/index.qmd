@@ -26,7 +26,7 @@ That finding sparked a debate that has since refined the picture. A closer look 
 
 So the current, more careful conclusion is a **mix**: some adult ADHD is genuinely adolescent-onset; some reflects missed or misrecalled childhood symptoms; some is explained by substance use or other comorbidity. A clean "distinct adult-onset syndrome, appearing out of nowhere" is now the minority reading, not the consensus.
 
-An honest caveat: this "mix" conclusion rests on a **small US comparison cohort** (the MTA local normative comparison group, n = 239) rather than a population-grade birth cohort, and two of the key studies share a research lineage, so the evidence is a partly self-referential cluster rather than independent replication. The question is therefore best treated as open, not settled — a point the rest of this article's hedging reflects.
+A caveat: this "mix" conclusion rests on a **small US comparison cohort** (the MTA local normative comparison group, n = 239) rather than a population-grade birth cohort, and two of the key studies share a research lineage, so the evidence is a partly self-referential cluster rather than independent replication. The question is therefore best treated as open, not settled — a point the rest of this article's hedging reflects.
 
 The clinical implication is still direct: **an adult who develops ADHD-like symptoms in adulthood is not necessarily reliving an unbroken childhood condition.** They may be experiencing an *acquired* or *adolescent-onset* process — one that deserves investigation of its cause, not a shrug toward "lifelong wiring." But the degree to which that process is truly independent of childhood neurodevelopmental risk, rather than a missed childhood presentation, remains unresolved.
 
@@ -66,14 +66,14 @@ In other words: developmental inattention is always there. Acquired inattention 
 
 ---
 
-## The honest limits
+## Limits
 
 - The acquired model is **explicitly speculative** — a registered hypothesis with low confidence — and a simpler explanation (inflammation directly causing both the symptoms and the underlying process) may account for the findings without any interoceptive framework.
 - None of the theoretical components has been directly validated in this context.
 - The distinction between acquired and developmental is not yet usable at the bedside: no test currently separates the two in an individual patient.
 - Even if some features are acquired and reversible, this does not mean "ADHD can be cured." It means a *subset of the symptom burden* in some people may respond to treating its cause.
 - The finding that adult ADHD is often adolescent-onset or reflects missed childhood symptoms, rather than a clearly distinct adult-onset syndrome [@Moffitt2015adhdadult @Sibley2018lateonsetADHD @Asherson2019lateonsetADHD], establishes a difference between onset groups but does not by itself prove that group is *reversible* — only that it did not begin in childhood.
-- **The largest population-grade test found no infection-driven effect.** A 20-year national cohort found no independent effect of COVID-19 on ADHD diagnosis or treatment rates [@Zemer2024COVIDADHD20Year], and the post-COVID rise in ADHD medication is consistent with catch-up diagnosis rather than new onset [@Gimbach2024ADHDMedicationEurope]. This is the strongest counterweight to the "acquired from the illness" architecture (Architecture B): at population scale, infection does not appear to create new ADHD. The honest reading is that most post-infectious attention difficulty reflects **unmasking** of pre-existing (often subclinical) neurodivergence or symptom overlap, rather than *de novo* acquisition — though a narrow acquired subset cannot be excluded by the population data.
+- **The largest population-grade test found no infection-driven effect.** A 20-year national cohort found no independent effect of COVID-19 on ADHD diagnosis or treatment rates [@Zemer2024COVIDADHD20Year], and the post-COVID rise in ADHD medication is consistent with catch-up diagnosis rather than new onset [@Gimbach2024ADHDMedicationEurope]. This is the strongest counterweight to the "acquired from the illness" architecture (Architecture B): at population scale, infection does not appear to create new ADHD. most post-infectious attention difficulty reflects **unmasking** of pre-existing (often subclinical) neurodivergence or symptom overlap, rather than *de novo* acquisition — though a narrow acquired subset cannot be excluded by the population data.
 
 ---
 
@@ -85,7 +85,7 @@ The reason this distinction matters clinically:
 - **If developmental features are treated as acquired and reversible**, patients are offered treatments that will not work, and may blame themselves when they don't.
 - **The reverse mislabeling also occurs.** A "late-game fader" pattern — post-exertional cognitive fog that mimics the ADHD-inattentive type — can be misread as ADHD and trigger evaluation for an attention disorder, when the underlying issue is energy-driven (ATP-limited) rather than motivation-driven, and worsens with exertion rather than persisting constantly. Both directions of the error send the patient down the wrong treatment path.
 
-The honest position is that acquired ADHD-like features should be **supported, not pathologized** — and the underlying modifiable drivers (sleep, inflammation, iron, energy) should be addressed regardless of the label, because they affect overall wellbeing even when the core developmental wiring is unchanged.
+acquired ADHD-like features should be **supported, not pathologized** — and the underlying modifiable drivers (sleep, inflammation, iron, energy) should be addressed regardless of the label, because they affect overall wellbeing even when the core developmental wiring is unchanged.
 
 ---
 
@@ -95,7 +95,7 @@ Some ADHD-like features — inattention, impulsivity, executive difficulty — m
 
 The encouraging part: this means a meaningful fraction of the daily symptom burden in some people may be addressable without claiming to "fix" ADHD itself.
 
-The honest part: this is a low-confidence hypothesis, and the decisive test — showing that acquired inattention fluctuates with underlying inflammation while developmental inattention does not — has not been run.
+this is a low-confidence hypothesis, and the decisive test — showing that acquired inattention fluctuates with underlying inflammation while developmental inattention does not — has not been run.
 
 ---
 

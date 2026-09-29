@@ -55,7 +55,7 @@ If true, sensory sensitivity would be traceable to a specific, genetically measu
 
 ---
 
-## The honest limits
+## Limits
 
 This is a **speculative hypothesis**, with explicit low confidence — a registered speculation, not an established finding.
 

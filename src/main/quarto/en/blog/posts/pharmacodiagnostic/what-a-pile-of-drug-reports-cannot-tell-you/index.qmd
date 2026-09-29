@@ -35,7 +35,7 @@ So the corpus has one governing test, and it must be able to fail it. If, after 
 
 There is a second abandonment condition: if the number of distinct drugs needed to tell the competing hypotheses apart is larger than any realistic number of patients will ever try, then no amount of reporting can rank mechanisms, and the proposal is dead on arrival. Whether the accessible drug set is degenerate in this way is an open, testable question — and the honest answer today is that nobody knows.
 
-## What the corpus can honestly claim
+## What the corpus can claim
 
 If it survives those tests, the corpus can do something genuinely useful in a disease with no validated biomarker [@IOM2015]:
 

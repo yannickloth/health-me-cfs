@@ -14,11 +14,11 @@ This scene has played out tens of thousands of times. It is not malice — it is
 
 ## What the GWAS found
 
-The DecodeME consortium, led by Li et al. 2025, analysed ~5,000 ME/CFS cases against population controls in what is by far the most statistically powered genome-wide association study of the disease ever conducted [@DecodeME2025]. The headline finding is not a single "ME/CFS gene" — there isn't one. The finding is about *where the genetic variants that increase risk are expressed.*
+The DecodeME consortium analysed over 15,000 participants — about 5,000 ME/CFS cases — against population controls, in the largest genome-wide association study of the disease to date [@DecodeME2025]. The headline finding is not a single "ME/CFS gene" — there isn't one. The finding is about *where the genetic variants that increase risk are expressed.*
 
 The risk variants cluster overwhelmingly in **brain tissue**, specifically in **neurons.** Not microglia, not astrocytes, not immune cells. Neurons.
 
-The most significant cell-type enrichment was in **medium spiny neurons (MSNs)** of the striatum — a specific population of neurons in the basal ganglia involved in motor control, reward processing, and effort/reward decision-making. When your brain computes whether an action is worth the energy cost, MSNs are doing that calculation.
+The GWAS itself resolved the signal only to *tissue*: brain-enriched genes, not a specific cell type. A later post-GWAS cell-type enrichment analysis — a preprint, not the GWAS — pointed further, to **medium spiny neurons (MSNs)** of the striatum, the neurons involved in motor control, reward processing, and effort/reward decision-making [@Maccallini2026metaGWAS]. When your brain computes whether an action is worth the energy cost, MSNs are doing that calculation.
 
 ---
 
@@ -36,15 +36,15 @@ This ends the "autoimmune vs neurological" framing that has paralysed the field 
 
 ## The striatum and the basal ganglia hypothesis
 
-The MSN enrichment is the most specific finding in the GWAS, and it connects directly to a twenty-five-year-old hypothesis.
+The MSN signal — from the post-GWAS cell-type analysis, not the GWAS itself — is the most specific finding in this line of work, and it connects directly to a twenty-five-year-old hypothesis.
 
 Chaudhuri and Behan proposed in 2000 that ME/CFS involves basal ganglia dysfunction, specifically a disruption of dopaminergic signalling in the striatum that impairs the brain's ability to translate effort into action [@Chaudhuri2000basalganglia]. At the time, the hypothesis rested on functional imaging showing reduced striatal dopamine transporter binding and clinical observation of motor slowing, reduced motivation, and effort intolerance that did not fit a peripheral muscle pathology.
 
-The GWAS provides the genetic foundation for a hypothesis that until now rested entirely on functional imaging and clinical observation. The MSN is the cell type the hypothesis predicted. The genetics is the footnote: *the mechanism is written into the tissue.*
+This post-GWAS cell-type analysis provides genetic support for a hypothesis that until now rested on functional imaging and clinical observation. The MSN is the cell type the hypothesis predicted — though the cell-type step is a preprint and needs independent replication.
 
 But here is the caveat — and it is a substantial one.
 
-MSN enrichment is not specific to ME/CFS. It is shared with schizophrenia, depression, and alcohol use disorder. The striatum appears to be a generic "brain vulnerability" node — when its circuitry is compromised, the output is some form of motivational, motor, or reward-processing deficit, regardless of the upstream trigger. The GWAS tells us *where to look* — the striatum — but not yet *what is broken* inside it. The cell type is localised. The mechanism within that cell type is not.
+Brain-neuron enrichment is not specific to ME/CFS — many brain disorders show it. The specific cell types differ, though: applying the same atlas pipeline, schizophrenia enriches cortical layer 2/3 excitatory neurons, depression layer 5/6, and alcohol use disorder medium spiny neurons [@Duncan2025cellTypeBrain]. So the striatum is not a generic node shared by all of them; ME/CFS and AUD converge on MSNs while schizophrenia and depression converge elsewhere in the cortex. The GWAS tells us *where to look* — the striatum — but not yet *what is broken* inside it. The cell type is localised. The mechanism within that cell type is not.
 
 ---
 
@@ -87,10 +87,10 @@ The ME/CFS field needs a fifty-thousand-person GWAS. That number is what it has 
 | Claim | Certainty |
 |-------|-----------|
 | ME/CFS genetic risk variants are enriched in brain tissue (neurons) over immune cells | Very high — primary GWAS finding, statistically robust |
-| Medium spiny neurons are the most enriched cell type | High — supported by cell-type enrichment analysis, though dependent on reference dataset |
+| Medium spiny neurons are the most enriched cell type | Moderate — from a post-GWAS cell-type analysis (preprint), dependent on the reference atlas; not from the GWAS itself |
 | This rules out genetically primary immune dysfunction | High — immune enrichment is absent despite adequate power |
 | This establishes the brain as the primary locus of disease | Moderate — genetics points to brain; requires converging evidence from functional studies |
-| Striatal MSN enrichment is ME/CFS-specific | Low — shared with schizophrenia, depression, alcohol use disorder |
+| Striatal MSN enrichment is ME/CFS-specific | Unknown — other brain disorders enrich other cell types; overlap with AUD is plausible but ME/CFS/AUD convergence is unreplicated |
 | The genetics changes clinical practice | Low — no diagnostic test or treatment target yet from this finding |
 | Scaling to 50K+ cases would identify specific disrupted pathways | Moderate-high — based on analogous progress in psychiatric genetics |
 

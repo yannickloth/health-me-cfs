@@ -27,7 +27,7 @@ Each article follows the same shape:
 
 1. **What it is** — the mechanism, in ordinary words.
 2. **The evidence** — what supports it, and how strong that evidence is.
-3. **The honest limits** — what it does *not* claim.
+3. **The limits** — what it does *not* claim.
 4. **The decisive experiment** — how the idea could be confirmed or refuted.
 
 ---
@@ -72,7 +72,7 @@ Read the article:
 
 ---
 
-## A note on honesty
+## About the evidence
 
 Every article in this series distinguishes carefully what is *confirmed* by evidence, what is a *promising hypothesis*, and what is an *individual patient's experience*. Most of the content here is at the hypothesis end — the certainties are explicit, often low, and nothing is presented as established clinical fact or a treatment recommendation.
 

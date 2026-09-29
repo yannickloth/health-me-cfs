@@ -64,7 +64,7 @@ The strongest evidence for an autoimmune mechanism comes from passive-transfer e
 
 The hypothesis, developed extensively in the primary document, is that IgG targeting neuronal antigens in the DRG — where the blood-nerve barrier is naturally fenestrated and permeable to circulating antibodies — causes a cell-body-level injury to sensory neurons. The non-length-dependent pattern follows directly: if the cell body is damaged, all its peripheral branches are affected simultaneously, regardless of distance from the cell body [@Loth2026website].
 
-**The honest limit:** no ME/CFS-specific passive-transfer study has been published. All existing data come from fibromyalgia and Long COVID cohorts. The DRG-autoimmune hypothesis for ME/CFS is mechanistically coherent, supported by the non-length-dependent pattern, and consistent with the treatment signal from IVIG — but it has not been directly demonstrated.
+**The limit:** no ME/CFS-specific passive-transfer study has been published. All existing data come from fibromyalgia and Long COVID cohorts. The DRG-autoimmune hypothesis for ME/CFS is mechanistically coherent, supported by the non-length-dependent pattern, and consistent with the treatment signal from IVIG — but it has not been directly demonstrated.
 
 ---
 

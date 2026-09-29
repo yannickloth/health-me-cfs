@@ -159,7 +159,7 @@ That is the goal state of the whole search: every trial — positive or null —
 
 ---
 
-## The honesty layer
+## Assumptions and limits
 
 **Every number above is tiered for a reason.** The dose bands come from the pharmacopoeia framework (Part 4) and, ultimately, from the primary paper's inverted-U analysis — established pharmacology where marked E, community-and-model inference where marked C, and explicit bets where marked S. The cluster-correlation idea (windows tracking across mechanistically related drugs) is the framework's core falsifiable prediction, not a result. If the framework is wrong, the *dose-response data you collect with these protocols remains valid* — the interpretive layer on top is what would fall. The motivation is not hypothetical: the controlled LDN trials that exist are single-dose and returned null on their primary endpoints [@DueBruun2024LDNFibromyalgia; @Ologunowa2025LDNFMMeta] — no within-range dose-response trial has been run in any condition, which is precisely the gap these protocols are designed to fill [@Loth2026mecfs].
 

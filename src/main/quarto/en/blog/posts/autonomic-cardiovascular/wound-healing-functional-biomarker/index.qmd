@@ -58,7 +58,7 @@ There are at least three possibilities, and they're not mutually exclusive:
 
 3. **Subclinical impairment is real but subtle.** The healing rate difference might be 15–30% slower — clinically meaningful for a biomarker, but not dramatic enough for patients to spontaneously report it as a problem distinct from their other symptoms.
 
-The honest answer: we don't know which of these is correct because nobody has looked.
+The answer: we do not know which of these is correct because nobody has looked.
 
 ---
 

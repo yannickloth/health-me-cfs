@@ -12,9 +12,9 @@ Your doctor hands you a prescription for methylphenidate. *"Some patients find i
 
 ## The striatum is the target
 
-The DecodeME GWAS found that ME/CFS risk variants are enriched in medium spiny neurons (MSNs) of the striatum [@DecodeME2025]. These are the cells that compute effort-reward decisions — whether moving, thinking, or acting is worth the energy cost.
+A post-GWAS cell-type analysis found that ME/CFS risk variants are enriched in medium spiny neurons (MSNs) of the striatum [@Maccallini2026metaGWAS]; the DecodeME GWAS itself showed only brain-tissue enrichment. These are the cells that compute effort-reward decisions — whether moving, thinking, or acting is worth the energy cost.
 
-This is not a subtle signal. It's the strongest cell-type enrichment in the study, replicated across independent analyses. If the genetics point to the striatum, then drugs that modulate striatal dopamine are no longer empirical guesses — they are rational pharmacology targeting the genetically implicated circuit.
+This is the strongest cell-type signal in that analysis, though it is a preprint and the cell-type step is not yet independently replicated. If the genetics point to the striatum, then drugs that modulate striatal dopamine are no longer empirical guesses — they are rational pharmacology targeting the genetically implicated circuit.
 
 ---
 
@@ -68,7 +68,7 @@ None of this was enough for a confident treatment rationale before the GWAS. Now
 
 **3. All use is off-label.** None of these drugs are approved for ME/CFS. No regulatory body has reviewed safety or efficacy for this population.
 
-**4. The specificity question is unresolved.** MSN enrichment is shared with schizophrenia, depression, and alcohol use disorder. The same circuit is implicated in other conditions. Whether ME/CFS represents a distinct lesion within that circuit, or a general striatal vulnerability expressed differently depending on other genetic and environmental factors, is unknown.
+**4. The specificity question is unresolved.** Brain-neuron enrichment is common to many brain disorders, though the specific cell types differ — schizophrenia and depression enrich cortical neurons, not MSNs [@Duncan2025cellTypeBrain]. The same circuit is implicated in other conditions. Whether ME/CFS represents a distinct lesion within that circuit, or a general striatal vulnerability expressed differently depending on other genetic and environmental factors, is unknown.
 
 ---
 
@@ -88,7 +88,7 @@ That shift — from guessing to aiming — is the real progress.
 
 | Claim | Certainty |
 |-------|-----------|
-| ME/CFS genetic risk variants are enriched in striatal MSNs | Very high — primary GWAS finding [@DecodeME2025] |
+| ME/CFS genetic risk variants are enriched in striatal MSNs | Moderate — post-GWAS cell-type analysis (preprint) [@Maccallini2026metaGWAS] |
 | Dopamine-modulating drugs target the genetically implicated circuit | High — MSNs are dopamine-responsive neurons; the inference is direct |
 | Direct agonists will outperform reuptake inhibitors in ME/CFS | Low-moderate — depends on the VMAT2 lesion generalizing from long COVID to ME/CFS; untested |
 | VMAT2 imaging is a candidate diagnostic biomarker | Low — requires replication in ME/CFS cohorts, not just long COVID |

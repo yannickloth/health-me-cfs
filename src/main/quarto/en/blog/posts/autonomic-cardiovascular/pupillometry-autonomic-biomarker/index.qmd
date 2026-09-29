@@ -155,4 +155,4 @@ This article describes a research hypothesis, not a clinical tool. **No clinical
 - Do not order pupillometry for ME/CFS patients — it is not validated for this population and there are no interpretation norms.
 - Do not order GPCR autoantibody testing for clinical decision-making — the assay controversy (ELISA vs REAP/Luminex) means the result's meaning is unclear.
 - Do not pursue immunomodulatory therapy (IVIG, immunoadsorption, BC007) based on a positive autoantibody test — none are approved for ME/CFS and mechanistic rationale is unconfirmed.
-- If a patient asks about this topic, the honest answer is: "We don't know yet whether these antibodies matter. A study is needed."
+- If a patient asks about this topic, the answer is: "We don't know yet whether these antibodies matter. A study is needed."

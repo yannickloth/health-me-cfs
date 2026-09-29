@@ -94,7 +94,7 @@ One of the primary document's central insights about pain in ME/CFS is that most
 
 Fibromyalgia-pattern pain is real in ME/CFS — a large share of patients (commonly ~47%, ranging higher with looser criteria) meet criteria — and it is driven by central sensitisation (widely regarded as dominant in the great majority), stuck-open TRPV1/TRPA1 channels, a self-sustaining COX-2/PGE₂ loop, and PEM-driven re-sensitisation that fibromyalgia alone does not have [@RamirezMorales2022overlap][@Nijs2021sensitization].
 
-The honest read: the pain is an amplifier of the broader energy-immune disorder, not the core disease. Treating it improves quality of life; it does not fix the crash. The [treatment companion article](../fibromyalgia-pain-treatment/index.qmd) covers the multi-modal approach — LDN, SNRIs, gabapentinoids, COX-2 inhibitors, PEA, and the PEM-conscious dosing that distinguishes ME/CFS pain management from standard fibromyalgia care.
+The read: the pain is an amplifier of the broader energy-immune disorder, not the core disease. Treating it improves quality of life; it does not fix the crash. The [treatment companion article](../fibromyalgia-pain-treatment/index.qmd) covers the multi-modal approach — LDN, SNRIs, gabapentinoids, COX-2 inhibitors, PEA, and the PEM-conscious dosing that distinguishes ME/CFS pain management from standard fibromyalgia care.
 
 **Next in this mini-series:** how to actually treat the pain — the medications, the dosing, and the honest "what if nothing helps" discussion [[see the companion article]](../fibromyalgia-pain-treatment/index.qmd).
 

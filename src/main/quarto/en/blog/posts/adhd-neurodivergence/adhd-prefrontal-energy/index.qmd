@@ -47,7 +47,7 @@ If the prefrontal-energy model were an isolated idea, it would be easy to dismis
 
 **Line 2 — Brain glucose hypometabolism.** Position-emission tomography documents regional brain glucose hypometabolism in chronic fatigue [@siessmeier2003pet @VanDerGucht2017MMFFDG]. Directly in ADHD, the landmark Zametkin study showed **8.1% lower global cerebral glucose metabolism in ADHD adults**, with the largest reductions in the superior prefrontal cortex [@Zametkin1990]. The ADHD brain is a PFC-hypometabolic brain.
 
-**Line 3 — Cerebral creatine depletion.** The phosphocreatine shuttle is the brain's rapid ATP buffer — essential for the high-burst demands of working memory and executive function. Magnetic-resonance spectroscopy documents brain creatine deficiency in chronic fatigue, with significant depletion in the dorsolateral prefrontal cortex and pregenual anterior cingulate [@Godlewska2024creatineMRS]. *Honest caveat:* this MRS creatine-depletion evidence comes from the chronic-fatigue literature, not from a direct study of ADHD brains — no ADHD-specific MRS study has established creatine depletion, and in the ADHD MRS literature creatine is usually used as a reference metabolite rather than measured as a depletion signal. The extrapolation from chronic fatigue to ADHD is a hypothesis, not a finding. If the PFC cannot buffer ATP demand spikes, this directly predicts impaired sustained attention (the PFC runs out of ATP mid-task) and impaired working memory (insufficient phosphocreatine for persistent firing) — but that prediction awaits an ADHD-specific test.
+**Line 3 — Cerebral creatine depletion.** The phosphocreatine shuttle is the brain's rapid ATP buffer — essential for the high-burst demands of working memory and executive function. Magnetic-resonance spectroscopy documents brain creatine deficiency in chronic fatigue, with significant depletion in the dorsolateral prefrontal cortex and pregenual anterior cingulate [@Godlewska2024creatineMRS]. *Caveat:* this MRS creatine-depletion evidence comes from the chronic-fatigue literature, not from a direct study of ADHD brains — no ADHD-specific MRS study has established creatine depletion, and in the ADHD MRS literature creatine is usually used as a reference metabolite rather than measured as a depletion signal. The extrapolation from chronic fatigue to ADHD is a hypothesis, not a finding. If the PFC cannot buffer ATP demand spikes, this directly predicts impaired sustained attention (the PFC runs out of ATP mid-task) and impaired working memory (insufficient phosphocreatine for persistent firing) — but that prediction awaits an ADHD-specific test.
 
 **Line 4 — Dopaminergic-noradrenergic deficit.** Prefrontal D1 dopamine and alpha-2A noradrenergic receptors operate on an **inverted-U** dose-response curve: too little catecholamine tone impairs executive function through insufficient receptor activation, while too much impairs it through noise amplification [@Arnsten2011catecholaminePFC @Cools2011invertedU]. The chronic-fatigue literature documents reduced cerebrospinal-fluid catecholamines [@walitt2024deep], and the striking stimulant response for brain fog — reported by the large majority of surveyed patients [@Eckey2025PatientReported] — is consistent with left-arm (suboptimal) PFC catecholamine tone, where low ATP availability compounds low transmitter availability to doubly impair executive circuits.
 
@@ -93,7 +93,7 @@ Several of these mechanisms have dedicated articles in this blog. This series is
 
 ---
 
-## The honest limits: what the model does not claim
+## What the model does not claim
 
 It would be a disservice to patients to oversell this. The model is promising but far from proven, and it has sharp limits.
 
@@ -180,7 +180,7 @@ The strongest version of the multi-pathway idea is a **systematically escalated,
 
 *This combined protocol is a registered hypothesis. Each component has moderate individual evidence; the combination is untested and has not been run as a trial.*
 
-### The risks and honest limits
+### The risks and limits
 
 The multi-pathway hypothesis is compelling but carries real risks: **polypharmacy** (more interventions, more interactions and burden), **survey-based evidence** (not randomized), an **untested combination**, and — crucially — **not every pathway is modifiable**. Over-promising "normal life" sets patients up for failure and self-blame.
 
@@ -201,7 +201,7 @@ The prefrontal-energy model reframes a core piece of the ADHD experience — ina
 
 The encouraging part is that **some** of the fuel variables are modifiable: creatine, iron, BH4 cofactor status, the non-stimulant catecholamine modulators, and (as temporary compensation) stimulants. If even a subset of people with ADHD carries a fixable prefrontal energy deficit, targeted interventions could relieve a meaningful fraction of the daily symptom burden — without pretending to "fix" ADHD itself.
 
-The honest part is that this is a hypothesis, not a settled finding. It points to specific, cheap, and testable experiments, and it should be tested before it is treated as fact.
+this is a hypothesis, not a settled finding. It points to specific, cheap, and testable experiments, and it should be tested before it is treated as fact.
 
 *This is Part 1 of a four-part series on the biology of ADHD, drawn from our research. Part 1 covers the prefrontal-energy model and the multi-pathway treatment hypothesis. Part 2 examines the immune and neuroinflammatory strand. Part 3 explores the dopamine-Nrf2-NLRP3 axis. Part 4 asks when ADHD-like features are acquired and reversible. See the [series landing page](../adhd-series-landing/index.qmd).*
 

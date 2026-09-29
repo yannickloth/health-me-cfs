@@ -10,7 +10,7 @@ ME/CFS rarely shows up alone. In practice, it travels with a constellation of ot
 
 This series explains one co-occurring condition at a time, in plain language, for a reader who is sick and tired of jargon. Each article follows the same shape:
 
-1. **What it feels like** — a short, honest vignette.
+1. **What it feels like** — a short vignette.
 2. **What it is** — the mechanism, in ordinary words.
 3. **How it relates to ME/CFS** — including whether it's a *cause*, a *downstream amplifier*, or a *coincidental* companion (often: amplifier).
 4. **The treatments** — what they are, how they work.
@@ -118,7 +118,7 @@ Read the article:
 
 ---
 
-## A note on honesty
+## About the evidence
 
 Every article in this series distinguishes three things carefully: what is *confirmed* by evidence, what is a *promising hypothesis*, and what is *an individual patient's experience*. It also keeps the two ME/CFS situations distinct — a co-occurring condition on its own vs the same condition sitting on top of ME/CFS — because the treatment goal and the meaning of a failure usually differ (while acknowledging this is a clinical, judgment-dependent boundary rather than a hard biological wall).
 

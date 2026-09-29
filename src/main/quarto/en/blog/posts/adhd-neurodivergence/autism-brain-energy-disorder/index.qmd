@@ -60,7 +60,7 @@ This is where the model becomes encouraging rather than merely explanatory. If p
 
 ---
 
-## The honest limits: what the model does not claim
+## What the model does not claim
 
 It would be a disservice to patients to oversell this. The model is promising but far from proven, and it has sharp limits.
 
@@ -132,7 +132,7 @@ The strongest version of the multi-pathway idea is a **systematically escalated,
 
 *This combined protocol is a registered hypothesis. Each component has moderate individual evidence; the combination is untested and has not been run as a trial.*
 
-### The risks and honest limits
+### The risks and limits
 
 The multi-pathway hypothesis is compelling but carries real risks: **polypharmacy** (more interventions, more interactions and burden), **survey-based evidence** (not randomized), an **untested combination**, and — crucially — **not every pathway is modifiable**. Over-promising "normal life" sets patients up for failure and self-blame.
 
@@ -153,7 +153,7 @@ The brain-energy model reframes a core piece of the autism experience — sensor
 
 The encouraging part is that **some** of the fuel variables are modifiable: ketone-based fuel, BH4 cofactor status, and iron. If even a subset of autistic people carries a fixable energy deficit, targeted interventions could relieve a meaningful fraction of the daily symptom burden — without pretending to "fix" autism itself.
 
-The honest part is that this is a hypothesis, not a settled finding. It points to specific, cheap, and testable experiments, and it should be tested before it is treated as fact.
+this is a hypothesis, not a settled finding. It points to specific, cheap, and testable experiments, and it should be tested before it is treated as fact.
 
 *This is Part 1 of a four-part series on the biology of autism, drawn from our research. Part 1 covers the brain-energy model and the multi-pathway treatment hypothesis. Part 2 examines the immune-mediated autism subset. Part 3 explores the cerebellar-glutamate connection. Part 4 asks when autism-like features are acquired and reversible.*
 

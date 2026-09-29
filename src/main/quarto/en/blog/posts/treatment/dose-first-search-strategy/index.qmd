@@ -135,7 +135,7 @@ A trial run exactly this way, with prescriber agreement, can produce a decisive 
 
 ---
 
-## The honesty layer
+## Assumptions and limits
 
 Three caveats, stated plainly because the argument's strength invites overreach:
 
