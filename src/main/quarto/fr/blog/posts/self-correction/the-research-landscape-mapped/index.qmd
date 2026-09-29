@@ -7,7 +7,7 @@ categories: [Self-correction, Metascience, Research]
 lang: fr
 ---
 
-On entend souvent que personne ne sait quelle recherche sur l'EM/SFC est réellement en cours. Ce n'est plus tout à fait vrai. Le **ME/CFS Research Register** (@mrr) est un index curaté et public de la recherche sur l'EM/SFC, tenu par la ME/CFS Research Foundation.
+On entend souvent que personne ne sait quelle recherche sur l'EM/SFC est réellement en cours. Ce n'est plus tout à fait vrai. Le [**ME/CFS Research Register**](https://mrr.mecfs-research.org/en/mrr) est un index curaté et public de la recherche sur l'EM/SFC, tenu par la ME/CFS Research Foundation.
 
 En 2026, il catalogue **149 projets de recherche** (depuis 2019) ainsi que des réseaux, publications, événements, types et domaines de recherche, groupes de travail, personnes et organisations. Chaque fiche indique le statut (en cours/terminé), le pays, l'investigateur principal, les organisations, la période, les types et domaines. Périmètre actuel : Allemagne, Autriche, Suisse, Pays-Bas, Norvège, Islande.
 

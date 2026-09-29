@@ -6,7 +6,7 @@ date: "2026-09-27"
 categories: [Self-correction, Metascience, Research]
 ---
 
-It is a common complaint that nobody knows what ME/CFS research is actually happening. Increasingly, that is no longer true. The **ME/CFS Research Register** (@mrr) is a curated, publicly browsable index of ME/CFS research, maintained by the ME/CFS Research Foundation.
+It is a common complaint that nobody knows what ME/CFS research is actually happening. Increasingly, that is no longer true. The [**ME/CFS Research Register**](https://mrr.mecfs-research.org/en/mrr) is a curated, publicly browsable index of ME/CFS research, maintained by the ME/CFS Research Foundation.
 
 As of 2026 it catalogues **149 research projects** (from 2019 onward) plus research networks, publications, events, research types, research areas, working groups, people, and organisations. Each project entry carries its status (ongoing or completed), country, principal investigator, organisations, research period, research types, and research areas. Current scope: Germany, Austria, Switzerland, the Netherlands, Norway, and Iceland, with more planned.
 

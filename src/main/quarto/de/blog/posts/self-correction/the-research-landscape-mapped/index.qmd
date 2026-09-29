@@ -7,7 +7,7 @@ categories: [Self-correction, Metascience, Research]
 lang: de
 ---
 
-Oft heißt es, niemand wisse, welche ME/CFS-Forschung tatsächlich läuft. Das stimmt zunehmend nicht mehr. Das **ME/CFS Research Register** (@mrr) ist ein kuratiertes, öffentlich durchsuchbares Verzeichnis der ME/CFS-Forschung, gepflegt von der ME/CFS Research Foundation.
+Oft heißt es, niemand wisse, welche ME/CFS-Forschung tatsächlich läuft. Das stimmt zunehmend nicht mehr. Das [**ME/CFS Research Register**](https://mrr.mecfs-research.org/de/mrr) ist ein kuratiertes, öffentlich durchsuchbares Verzeichnis der ME/CFS-Forschung, gepflegt von der ME/CFS Research Foundation.
 
 Stand 2026 katalogisiert es **149 Forschungsprojekte** (ab 2019) sowie Netzwerke, Publikationen, Veranstaltungen, Forschungstypen, Forschungsbereiche, Arbeitsgruppen, Personen und Organisationen. Jeder Projekteintrag trägt Status, Land, Hauptforscher, Organisationen, Zeitraum, Forschungstypen und -bereiche. Aktueller Umfang: Deutschland, Österreich, Schweiz, Niederlande, Norwegen, Island.
 

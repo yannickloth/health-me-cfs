@@ -9,7 +9,7 @@ lang: fr
 
 La recherche a besoin de participants et d'échantillons. Deux infrastructures le permettent — et toutes deux sont plus ouvertes qu'on ne le pense.
 
-**Les registres** recensent qui fait quoi. Le **ME/CFS Research Register** (@mrr) indexe 149 projets plus réseaux, publications, personnes et organisations ; public, consultable, exportable.
+**Les registres** recensent qui fait quoi. Le [**ME/CFS Research Register**](https://mrr.mecfs-research.org/en/mrr) indexe 149 projets plus réseaux, publications, personnes et organisations ; public, consultable, exportable.
 
 **Les biobanques** collectent et stockent des échantillons et données liées — par exemple le registre et biobanque allemands (MCFC Munich et Charité Berlin), la UK ME/CFS Biobank, la NMCB (Pays-Bas), la biobanque autrichienne et You+ME (Solve M.E.).
 

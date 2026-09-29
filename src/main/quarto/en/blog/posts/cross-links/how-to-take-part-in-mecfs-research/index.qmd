@@ -8,7 +8,7 @@ categories: [Cross-links, Research, Resources]
 
 Research needs participants and samples. Two kinds of infrastructure make that possible — and both are more open than many patients assume.
 
-**Registers** catalogue who is doing what. The **ME/CFS Research Register** (@mrr) indexes 149 research projects plus networks, publications, people, and organisations; it is public, browsable, and exportable, so you can see whether anyone is studying the question you care about.
+**Registers** catalogue who is doing what. The [**ME/CFS Research Register**](https://mrr.mecfs-research.org/en/mrr) indexes 149 research projects plus networks, publications, people, and organisations; it is public, browsable, and exportable, so you can see whether anyone is studying the question you care about.
 
 **Biobanks** collect and store biosamples and linked data. Examples include the German ME/CFS Register and Biobank (a bicentric effort by the Munich MCFC and Charité Berlin), the UK ME/CFS Biobank, the Netherlands ME/CFS Cohort and Biobank (NMCB), the Austrian biobank, and Solve M.E.'s You+ME registry.
 
