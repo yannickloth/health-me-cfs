@@ -60,10 +60,10 @@ The analytical claims (which mechanisms are trigger-sufficient, which are necess
 
 What makes the analysis valuable is not that it proves the hierarchy, but that it makes the hierarchy testable in a specific way. The model makes predictions — about which intervention types should succeed, about which should plateau at improvement without recovery, about which combinations should produce qualitatively different outcomes — that can be checked against clinical data. When predictions fail, the failure tells you something specific about which part of the model's feedback structure is wrong.
 
-That is the contribution mathematics makes to a disease that cannot easily be studied experimentally. Not proof, but precision — the kind of precision that turns a verbal hypothesis into a falsifiable one.
+That is the contribution mathematics makes to a disease that cannot easily be studied experimentally: it supplies precision, and precision is what turns a verbal hypothesis into a falsifiable one.
 
 ---
 
-*Previous article in this series: [Why Single-Target Treatments Keep Failing in ME/CFS](https://www.linkedin.com/pulse/) (2026-04-09)*
+*Previous article in this series: Why Single-Target Treatments Keep Failing in ME/CFS (2026-04-09)*
 
 *Next in this series: The Multi-Hit Model — why only some people develop ME/CFS after infection, and what predisposing vulnerabilities look like mathematically*
