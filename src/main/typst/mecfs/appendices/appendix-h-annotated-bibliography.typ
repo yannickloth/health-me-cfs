@@ -42381,18 +42381,6 @@ This stream assembles evidence for the claim that pathological fatigue across au
     *Conclusion:*: Receptor upregulation on antagonist exposure is a general (H1 and H2) phenomenon supporting tachyphylaxis/rebound reasoning.
     *Limitations:*: In vitro; H2-focused.
 
-=== Zaitsu et al.\ 2007 — Estradiol Activates Mast Cells via Non-Genomic ERα
-
-    *Full Citation:*: Zaitsu M, Narita S, Lambert KC, Grady JJ. Estradiol activates mast cells via a non-genomic estrogen receptor-alpha and calcium influx. _Molecular Immunology_. 2007;44(8):1977-1985. @Zaitsu2007EstradiolMastCell
-    *DOI:*: #link("https://doi.org/10.1016/j.molimm.2006.09.030")[10.1016/j.molimm.2006.09.030]
-    *PMID:*: 17084457
-    *Study Design:*: In vitro (mast-cell lines + primary).
-    *Certainty / population / discounted:*: raw 0.55 | in vitro 0.40 | discounted 0.22
-    *Key Findings:*:
-        - Estradiol rapidly induces mast-cell degranulation/histamine release through a non-genomic ERα mechanism and calcium influx.
-    *Conclusion:*: Estrogen directly drives mast-cell histamine release — the mechanistic core of cycle-timed MCAS reasoning.
-    *Limitations:*: In vitro; no organismal or clinical validation.
-
 === Xu et al.\ 2020 — GPER-Mediated Estrogen-Dependent Visceral Hypersensitivity and Mast Cells
 
     *Full Citation:*: Xu S, Wang X, Zhao J, Yang S. GPER-mediated, oestrogen-dependent visceral hypersensitivity in stressed rats is associated with mast cell tryptase and histamine expression. _Fundamental \& Clinical Pharmacology_. 2020;34(4):433-443. @Xu2020GPERMastCell

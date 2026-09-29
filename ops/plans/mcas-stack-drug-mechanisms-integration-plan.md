@@ -214,3 +214,52 @@ Build after every fix: `typst compile --root .` → 0 errors.
 _Note:_ The Round-3 CRITICAL is the clearest demonstration of why the governor must not accept a
 self-reported "converged" — the error was introduced by the fix process itself and only a genuine
 independent re-review found it.
+
+## Phase 7 — Compatibility (FULL, inline — REVISED 2026-09-29)
+
+Subagent unavailable (API budget), so the audit ran inline with the same method; see
+`tmp/compat-audit-mcas-stack-drug-mechanisms.md` (full tables).
+- Reinforcement/feed-into: 15 pairs recorded. Notable: `copper-dao-histamine-bridge` ×
+  `@spec:dbh-copper-ne-synthesis` — one nutrient lesion would impair both DAO (histamine
+  clearance) and DBH (NE synthesis). Reinforcing, untested, no bump.
+- `histamine-orexin-arousal-bridge` + `histamine-compensatory-arousal` feed into the existing
+  `@spec:wired-but-tired-arousal-mismatch`, which had already listed mast-cell hyperarousal as a
+  competing mechanism — this supplies its route.
+- **Conflicts: 1, flagged not resolved** — cycle-timed vs `@sec:menstrual-cycle-dopaminergic-mast-cell-probe`
+  (estrogen sign). The spec now names both readings; ch25 untouched. Needs an owner decision.
+- Certainty bumps: 0 (PARTIAL cap). Reductions: 0.
+- Standing epistemic checklist: no violations.
+
+## Phase 6 — Retroactive Adaptation (FULL redundancy pass — REVISED 2026-09-29)
+`redundancy-auditor` found **2 genuine contradictions with existing content**, both now handled:
+1. Estrogen direction (above) — flagged in-text with both cross-references.
+2. Peripheral-histamine→CNS: the orexin-bridge claim now states the compartment question is
+   contested inside this corpus (H3 hypothesis treats systemic histamine as brain-active; other
+   chapters say histamine crosses the BBB) instead of asserting "does not cross".
+Plus 7 overlap sites — 4 already cross-referenced; 3 new cross-refs added (montelukast compendium,
+H1/H2 antihistamine section via the stack definition, DAO/HNMT loop already closed).
+
+## Phase 10 — Coherence (content-reviewer) + Phase 11c (notation/terminology) + 11a (logic)
+Findings and fixes:
+- Duplicate bibliography entries: 2 MINE (Zaitsu, Schiweck — deleted, citations remapped,
+  duplicate appendix-h annotation removed) + 3 PRE-EXISTING pairs surfaced (Weinstock ×2 —
+  both keys cited, so the PDF bibliography lists this paper twice; Rohrhofer/Frioni — same DOI,
+  different "first author", both cited; Roy ×2 — one uncited orphan). PRE-EXISTING pairs NOT
+  fixed here: remapping touches other cycles' chapters and ~30 quarto files. REPORTED for a
+  dedicated bibliography-integrity pass.
+- A corpus-wide DOI-duplication scan then surfaced ~133 DOIs carrying 2–4 keys each — a
+  document-level bibliography-integrity issue far outside this cycle. Reported, not fixed.
+- H3 omission from the "untargeted arm" framework — fixed (spec + synthesis now name H3).
+- "Montelukast is the only CNS member" — contradicted the H1 CNS-penetration text; reworded to
+  central *target arm*.
+- Reserve-index ratio was inverted vs its own thresholds — definition corrected.
+- H2-autocrine open question cited an H3 brake but concluded about famotidine (H2) — arm
+  coherence fixed; H4 now stated as untestable (no antagonist).
+- Orexin vs compensatory-arousal predicted OPPOSITE sedation-threshold directions — aligned.
+- Montelukast prediction was directionally unfalsifiable — made directional (benefit/harm
+  dissociation).
+- "MCAS stack" term defined as a working label (narrower than standard MCAS pharmacotherapy).
+- Terminology/notation sweep: PAR2, in vitro/ex vivo, M3R, α7, "mast cell" attributive (49),
+  em dashes, Ca#super[2+], Ca#sub[v]3.1, receptor-name hyphenation — unified with corpus forms.
+
+**Standing epistemic checklist (6/7/10/11a/11c): no violations.**
