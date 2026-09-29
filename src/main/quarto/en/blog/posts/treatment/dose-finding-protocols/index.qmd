@@ -33,7 +33,7 @@ Three universal rules before any protocol:
 
 ## Low-Dose Naltrexone (LDN)
 
-**Targets (dose-banded):** TLR4/Nrf2 hormetic priming (~0.5–1.5 mg) · opioid compensatory upregulation (~1.5–3 mg) · TRPM3 restoration (~3–4.5 mg) — see Part 1 for the full cascade. Each target is individually established in vitro or in animal models: naltrexone as a partial TLR4 antagonist on microglia [@Younger2013], opioid-receptor blockade with compensatory endorphin rebound [@Younger2013], TRPM3 calcium-flux restoration in ME/CFS NK cells [@Cabanas2018trpm3; @Cabanas2021], and the inflammation-to-orexin-suppression link [@Grossberg2011orexinLethargy]. What is *not* established is the mapping of each target onto a clinical dose band — that part is model inference [@Loth2026mecfs].
+**Targets (dose-banded):** TLR4/Nrf2 hormetic priming (~0.5–1.5 mg) · opioid compensatory upregulation (~1.5–3 mg) · TRPM3 restoration (~3–4.5 mg) — see Part 1 for the full cascade. Each target is individually established in vitro or in animal models: naltrexone as a partial TLR4 antagonist on microglia, shown in a mouse cell line and rodent models [@Kucic2021LDNmicroglia; @Kwilasz2021NTXmicroglia], opioid-receptor blockade with compensatory endorphin rebound [@Younger2013], TRPM3 calcium-flux restoration in ME/CFS NK cells [@Cabanas2018trpm3; @Cabanas2021], and the inflammation-to-orexin-suppression link [@Grossberg2011orexinLethargy]. What is *not* established is the mapping of each target onto a clinical dose band — that part is model inference [@Loth2026mecfs].
 
 | Field | Protocol | Tier |
 |-------|----------|------|

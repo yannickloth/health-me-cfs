@@ -123,7 +123,7 @@ This article elaborates these three, which carry the dose-testing argument. Part
 
 ## B1. TLR4/MD2 partial antagonism → Keap1–Nrf2–ARE induction
 
-**The target.** Naltrexone antagonises TLR4 — specifically the MD2 co-receptor interface — on microglia, an effect documented independently of the opioid receptors [@Osman2024naltrexoneTLR4; @Kwilasz2021NTXmicroglia]. TLR4 is the lipopolysaccharide receptor; its throughput sets the tone of microglial danger signalling.
+**The target.** Naltrexone antagonises TLR4 — specifically the MD2 co-receptor interface — on microglia, an effect documented in rodents (an intestinal ischemia-reperfusion model and mouse EAE) and a mouse microglial cell line, independent of the opioid receptors [@Osman2024naltrexoneTLR4; @Kwilasz2021NTXmicroglia; @Kucic2021LDNmicroglia]. TLR4 is the lipopolysaccharide receptor; its throughput sets the tone of microglial danger signalling.
 
 **The cascade.** Partial TLR4 antagonism lowers the flux of danger signals by a modest, sustained amount. The Keap1–Nrf2–ARE programme is the cell's master oxidative/inflammatory response:
 

@@ -17,7 +17,7 @@ That's the reality for many people with Myalgic Encephalomyelitis/Chronic Fatigu
 Blood volume deficits in ME/CFS are not subtle. They've been measured with gold-standard techniques — radiolabeled red blood cells and dual-isotope dilution — across multiple independent studies:
 
 - **Total blood volume**: 10-15% below predicted values [@Newton2016] [@Streeten1998blood]
-- **Plasma volume** (the liquid portion): 21% lower in POTS patients — a condition overlapping with ME/CFS in ~60% of cases [@Raj2005]; 11 ml/kg below reference in ME/CFS patients [@vanCampen2018]
+- **Plasma volume** (the liquid portion): 21% lower in POTS patients — a condition that overlaps substantially with ME/CFS (estimates vary widely, roughly 25–50%); 11 ml/kg below reference in ME/CFS patients [@vanCampen2018]
 - **Red blood cell mass**: reduced in 94% of female and 50% of male ME/CFS patients [@Streeten1998blood]
 
 To put this in perspective: a blood donation takes about 10% of your blood volume. These patients are living, permanently, in a state comparable to having just donated blood — except their body never replenishes the deficit.
@@ -44,7 +44,7 @@ In ME/CFS, this system is paradoxically suppressed.
 
 Miwa & Fujita [@Miwa2017] found that ME/CFS patients had 33% lower aldosterone and 33% lower antidiuretic hormone (ADH) than healthy controls — *despite* documented hypovolemia. The hormonal response was to retain *less* fluid, not more.
 
-Raj et al. [@Raj2005] found the same paradox in POTS patients (a condition overlapping with ME/CFS in about 60% of cases): blood volume was markedly reduced, but plasma renin activity was unchanged and aldosterone was low. The volume-sensing system was broken.
+Raj et al. [@Raj2005] found the same paradox in POTS patients (a condition that overlaps substantially with ME/CFS): blood volume was markedly reduced, but plasma renin activity was unchanged and aldosterone was low. The volume-sensing system was broken.
 
 The result is a self-perpetuating deficit. The body is low on blood, but the hormonal systems that should correct this are either suppressed or unresponsive. Why this happens — whether it's central nervous system dysregulation, autoimmune interference with hormone receptors, or something else — remains an open research question.
 

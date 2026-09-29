@@ -116,7 +116,7 @@ Binding is continuous; benefit is windowed. The row "TLR4/Nrf2 = 0.5–1.5 mg" t
 
 The four mechanisms, in their chemistry:
 
-- **TLR4/Nrf2 (0.5–1.5 mg).** Naltrexone is a partial TLR4 antagonist on microglia — the brain's resident immune cells. TLR4 is a danger sensor; when chronically activated, microglia release IL-1β and TNF-α, producing fatigue, cognitive slowing, and pain sensitivity. Partial blockade triggers the Nrf2-driven M1→M2 microglial switch described above. The TLR4 antagonism itself is established in vitro [@Younger2013]; the neuroinflammation it calms is documented in ME/CFS.
+- **TLR4/Nrf2 (0.5–1.5 mg).** Naltrexone is a partial TLR4 antagonist on microglia — the brain's resident immune cells. TLR4 is a danger sensor; when chronically activated, microglia release IL-1β and TNF-α, producing fatigue, cognitive slowing, and pain sensitivity. Partial blockade triggers the Nrf2-driven M1→M2 microglial switch described above. The TLR4 antagonism itself is established in a mouse microglial cell line and rodent models [@Kucic2021LDNmicroglia; @Kwilasz2021NTXmicroglia]; the neuroinflammation it calms is documented in ME/CFS.
 
 - **Opioid / endorphin (1.5–3.0 mg).** At standard doses (50 mg), naltrexone fully blocks opioid receptors. At low doses, the *brief* overnight blockade triggers a compensatory upregulation of endogenous endorphins — the body over-produces its own painkillers in response to the transient blockade. The ceiling is set by the cell's rate of precursor synthesis, not by drug dose — hence a plateau, not an escalation. This endorphin-rebound is documented in pain conditions [@Younger2013].
 
@@ -294,7 +294,7 @@ If you accept that "low dose works" does **not** predict "high dose works" (beca
 | Claim | Certainty |
 |-------|-----------|
 | Nrf2 hormesis is a real, established phenomenon (the Calabrese corpus) | High in toxicology; unproven as a *clinical LDN* mechanism — no LDN dose-response trial exists [@Calabrese2021Nrf2] |
-| LDN binds TLR4, TRPM3, and opioid receptors at distinct targets | High for the targets themselves (TLR4 in vitro [@Younger2013]; TRPM3 in vitro [@Cabanas2018trpm3]; opioid [@Younger2013]) |
+| LDN binds TLR4, TRPM3, and opioid receptors at distinct targets | High for the targets themselves (TLR4 in a mouse cell line/rodents [@Kucic2021LDNmicroglia]; TRPM3 in vitro [@Cabanas2018trpm3]; opioid [@Younger2013]) |
 | The targets engage at different optimal dose bands | Low to moderate — mechanistically grounded, but no within-range dose-response trial exists in any condition (paper's own certainty: 0.30) |
 | TLR4 antagonism at clinical LDN doses is real | Low — (+)-naltrexone is a weak TLR4 antagonist; an optimized derivative needed ~6,200× potency gain for nanomolar antagonism [@Gao2025CIAC101TLR4] |
 | A higher dose does not necessarily reproduce the effects of a lower dose | High — a general property of non-monotonic dose-response curves |

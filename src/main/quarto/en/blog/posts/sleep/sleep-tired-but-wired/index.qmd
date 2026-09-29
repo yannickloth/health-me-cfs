@@ -24,7 +24,7 @@ This handoff is actively driven by the hypothalamus, orchestrated through a casc
 
 In ME/CFS, this handoff fails at multiple points simultaneously, and the failures compound each other.
 
-Heart rate variability studies consistently show reduced parasympathetic tone in ME/CFS, even during sleep — lower high-frequency HRV power and elevated sympathetic-to-parasympathetic ratio throughout the night [@Rahman2019sleepCFS]. The sympathetic branch simply doesn't disengage at night — it keeps driving elevated heart rate, elevated blood pressure, and elevated norepinephrine. Physiologically, the patient's body is in "daytime mode" while lying in a dark room at midnight.
+Limited evidence (a single conference abstract) suggests reduced parasympathetic tone in ME/CFS sleep — lower high-frequency HRV power and a higher sympathetic-to-parasympathetic ratio [@Rahman2019sleepCFS]; better-powered HRV studies are needed. The sympathetic branch simply doesn't disengage at night — it keeps driving elevated heart rate, elevated blood pressure, and elevated norepinephrine. Physiologically, the patient's body is in "daytime mode" while lying in a dark room at midnight.
 
 Sustained norepinephrine carries a specific downstream consequence beyond wakefulness: it directly inhibits aquaporin-4 (AQP4) channels on astrocytes, suppressing glymphatic clearance [@Xie2013glymphatic]. The same neurochemical that keeps the patient awake also blocks the brain's waste-clearance system — so even when sleep eventually arrives, it arrives in a brain whose plumbing has been shut down by its own nervous system.
 

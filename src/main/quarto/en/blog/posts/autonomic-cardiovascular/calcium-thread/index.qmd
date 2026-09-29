@@ -32,9 +32,9 @@ Natural killer cells are the immune system's first-responder killers — the cel
 
 In ME/CFS, TRPM3 is broken.
 
-The Griffith University group (Marshall-Gradisnik et al.) has been documenting this for years. TRPM3 channel activity is significantly reduced in the natural killer cells of ME/CFS patients. Calcium influx is impaired. The cells cannot degranulate properly. Their killing capacity is demonstrably reduced. A large-scale 2025 study confirmed this finding across multiple laboratory sites [@marshall2025trpm3] — making it one of the most consistently observed biological abnormalities in ME/CFS, though independent replication by separate research groups is still needed.
+The Griffith University group (Marshall-Gradisnik et al.) has been documenting this for years. TRPM3 channel activity is significantly reduced in the natural killer cells of ME/CFS patients. Calcium influx is impaired. The cells cannot degranulate properly. Their killing capacity is demonstrably reduced. A large-scale study by the same group reproduced the finding [@marshall2025trpm3] — but this is not independent replication by a separate research group, which is still needed.
 
-Notably, low-dose naltrexone — a treatment many ME/CFS patients report benefit from — appears to partially restore TRPM3 function in these cells. The 2024 paper by Lohn et al. [@WirthLohn2024microvascular] documented this effect and proposed TRPM3 dysfunction as a mechanistic explanation for why low-dose naltrexone produces benefit in this population.
+Notably, low-dose naltrexone — a treatment many ME/CFS patients report benefit from — appears to partially restore TRPM3 function in these cells. The relevant work is the Griffith group's TRPM3/LDN studies [@Cabanas2019trpm3ldnFront], which proposed TRPM3 restoration as a mechanistic explanation for low-dose naltrexone benefit — in vitro, and not yet confirmed in ME/CFS patients.
 
 Here the calcium problem is upstream, not downstream. The channel itself is dysfunctional — not because of an energy crisis driving a cascade, but as a primary impairment. The immune cell cannot load calcium. It cannot fire. Pathogens or reactivated viruses that the immune system should be clearing are not cleared.
 

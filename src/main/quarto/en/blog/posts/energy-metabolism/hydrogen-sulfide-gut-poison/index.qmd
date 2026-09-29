@@ -62,7 +62,7 @@ The overlap with ME/CFS symptoms is substantial, and the H₂S contribution can 
 
 ## Testing
 
-Standard breath tests for SIBO measure hydrogen and methane. Until recently, H₂S was not measured. The trio-smart breath test (Gemelli Biotech) now measures all three gases, allowing identification of H₂S-dominant SIBO specifically [@Pimentel2003methane].
+Standard breath tests for SIBO measure hydrogen and methane. Until recently, H₂S was not measured. The trio-smart breath test (Gemelli Biotech) now measures all three gases, allowing identification of H₂S-dominant SIBO specifically.
 
 Urinary thiosulfate — a downstream metabolite of H₂S — can serve as a rough proxy for systemic H₂S exposure, though it is not specific and is not widely available.
 
