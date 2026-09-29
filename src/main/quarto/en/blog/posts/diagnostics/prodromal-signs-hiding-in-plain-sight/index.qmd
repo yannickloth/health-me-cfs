@@ -62,7 +62,7 @@ Each one individually: unremarkable. Collectively: a pattern of autonomic dysfun
 
 This isn't just pattern recognition from patient stories. There's data:
 
-**German insurance claims data (Wirth et al. [@WirthScheibenbogen2026glutamate], N=36,332):** Children later diagnosed with ME/CFS had significantly elevated rates of fatigue (OR 2.19), pain (OR 1.55), "somatoform disorders" (OR 1.32), and cognitive impairment (OR 2.93) — diagnosed up to five years before the ME/CFS diagnosis. Those "somatoform" codes are particularly telling: they likely represent doctors seeing real symptoms and having no explanation, so they defaulted to "medically unexplained." The symptoms were real. The explanation came five years later.
+**German insurance-claims data (N=36,332) [@Wirth2026prodromalICD]:** Children later diagnosed with ME/CFS had significantly elevated rates of fatigue (OR 2.19), pain (OR 1.55), "somatoform disorders" (OR 1.32), and cognitive impairment (OR 2.93) — diagnosed up to five years before the ME/CFS diagnosis. Those "somatoform" codes are particularly telling: they likely represent doctors seeing real symptoms and having no explanation, so they defaulted to "medically unexplained." The symptoms were real. The explanation came five years later.
 
 **ALSPAC birth cohort (Collin et al. [@Collin2018sleepCFS], N=13,978):** Children who later developed chronic disabling fatigue had measurably disrupted sleep — shorter duration, later bedtime, more nighttime awakenings — starting 4–7 years before any fatigue diagnosis. Each additional hour of sleep at age 9 cut later fatigue odds by 39%. Measured prospectively. Not recalled after the fact.
 

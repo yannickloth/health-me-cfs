@@ -16,7 +16,7 @@ People tell you to get better sleep. The issue isn't sleep duration—it's sleep
 
 Alpha waves (8-12 Hz) belong when you're awake. Delta waves (0.5-4 Hz) should be running the show during deep sleep. In ME/CFS, they get mixed together—alpha waves keep popping into deep sleep stages, so your brain never gets the pure delta oscillations that actually restore you [@Moldofsky1975alphaDeltaSleep; @Roizenblatt2001alphaFM].
 
-Your brain has a waste-clearance system called the glymphatic system [@Xie2013glymphatic; @NematGorgani2025GlymphaticMECFS]. During proper deep sleep, the spaces between brain cells open up 60%, letting cerebrospinal fluid wash out metabolic waste, inflammatory proteins, and toxic byproducts. Alpha intrusion stops this from happening. The waste piles up. You wake up feeling like you've been poisoned.
+Your brain has a waste-clearance system called the glymphatic system [@Xie2013glymphatic; @NematGorgani2025GlymphaticMECFS]. During proper deep sleep, the spaces between brain cells open up by about 60% in mouse models (human confirmation pending), letting cerebrospinal fluid wash out metabolic waste, inflammatory proteins, and toxic byproducts. Alpha intrusion stops this from happening. The waste piles up. You wake up feeling like you've been poisoned.
 
 ---
 
@@ -62,7 +62,7 @@ Track nap effects. Monitor whether naps improve or worsen night-time sleep. If n
 
 ### Circadian rhythm entrainment
 
-Your body's24-hour internal clock needs training. Light is the strongest signal.
+Your body's 24-hour internal clock needs training. Light is the strongest signal.
 
 Morning light exposure within 30 minutes of waking helps entrain circadian rhythm and signals "daytime" to the brain. Use bright light (10,000 lux light box or natural daylight). Patients with early work start times may need artificial light exposure before natural sunrise.
 

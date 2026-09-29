@@ -18,13 +18,13 @@ When that recycling machinery slows down, the account balance drops. Not dramati
 
 Energy production is a sequential process with three stages, each feeding the next.
 
-**Glycolysis** happens in the cytoplasm, outside the mitochondria. One molecule of glucose is split into two molecules of pyruvate, yielding 2 ATP. This is fast, doesn't require oxygen, and is the fallback when everything else fails. It's also inefficient — 2 ATP from a molecule that could yield 36.
+**Glycolysis** happens in the cytoplasm, outside the mitochondria. One molecule of glucose is split into two molecules of pyruvate, yielding 2 ATP. This is fast, doesn't require oxygen, and is the fallback when everything else fails. It's also inefficient — 2 ATP from a molecule that yields about 30–32 in total.
 
 **The Krebs cycle** (citric acid cycle) runs inside the mitochondrial matrix. Pyruvate enters the mitochondria, is converted to acetyl-CoA by the pyruvate dehydrogenase (PDH) complex, and feeds into an eight-step cycle that strips electrons from carbon bonds and loads them onto carrier molecules (NADH and FADH2). The carbon exits as CO2 — the same CO2 you exhale. The cycle itself produces only 2 ATP directly. Its real output is the loaded electron carriers.
 
-**The electron transport chain (ETC)** is where the electrons pay off. NADH and FADH2 deliver their electrons to a series of protein complexes (I through IV) embedded in the inner mitochondrial membrane. As electrons pass down the chain, the complexes pump hydrogen ions across the membrane, building an electrochemical gradient. That gradient drives ATP synthase — a literal rotary motor, the smallest engine in biology — which spins and assembles ATP from ADP and phosphate. This stage produces approximately 34 ATP per glucose molecule. It requires oxygen as the final electron acceptor.
+**The electron transport chain (ETC)** is where the electrons pay off. NADH and FADH2 deliver their electrons to a series of protein complexes (I through IV) embedded in the inner mitochondrial membrane. As electrons pass down the chain, the complexes pump hydrogen ions across the membrane, building an electrochemical gradient. That gradient drives ATP synthase — a literal rotary motor, the smallest engine in biology — which spins and assembles ATP from ADP and phosphate. This stage produces approximately 26–28 ATP per glucose molecule. It requires oxygen as the final electron acceptor.
 
-In total: 2 (glycolysis) + 2 (Krebs) + ~34 (ETC) = ~38 ATP per glucose. The assembly line is elegant, powerful, and utterly dependent on every stage functioning correctly.
+In total: 2 (glycolysis) + 2 (Krebs) + ~26–28 (ETC) = about 30–32 ATP per glucose — the consensus modern accounting, not the older textbook figures of 36–38. The assembly line is elegant, powerful, and utterly dependent on every stage functioning correctly.
 
 ---
 
