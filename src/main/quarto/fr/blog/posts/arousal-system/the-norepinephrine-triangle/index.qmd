@@ -2,7 +2,7 @@
 title: "Le triangle de la noradrénaline : narcolepsie, POTS et EM/SFC"
 description: "L'EM/SFC partage un problème d'éveil avec la narcolepsie et une bifurcation thérapeutique avec le POTS."
 author: "Yannick Loth"
-date: "2026-10-19"
+date: "2026-10-10"
 categories: [Arousal system, Noradrenergic, Mechanisms]
 lang: fr
 ---

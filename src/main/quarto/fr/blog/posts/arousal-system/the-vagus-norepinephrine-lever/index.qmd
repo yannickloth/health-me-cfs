@@ -2,7 +2,7 @@
 title: "Un levier sans pilule : le vague et le locus coeruleus"
 description: "La stimulation transcutanée du vague pourrait atteindre le centre de la noradrénaline — une voie non médicamenteuse pour tester le système."
 author: "Yannick Loth"
-date: "2026-10-13"
+date: "2026-10-07"
 categories: [Arousal system, Noradrenergic, Mechanisms]
 lang: fr
 ---

@@ -2,7 +2,7 @@
 title: "Une étude, de grandes affirmations : pourquoi n=16 compte"
 description: "Le résultat sur la noradrénaline qui porte tout un axe de recherche vient de 16 patients dans un seul centre."
 author: "Yannick Loth"
-date: "2026-10-23"
+date: "2026-10-13"
 categories: [Self-correction, Metascience, Research]
 lang: fr
 ---

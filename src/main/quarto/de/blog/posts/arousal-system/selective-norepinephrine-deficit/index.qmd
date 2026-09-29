@@ -2,7 +2,7 @@
 title: "Warum ME/CFS noradrenalin-niedrig, aber dopamin-normal sein könnte"
 description: "Eine Liquorstudie von 2026 fand den Katecholamin-Mangel bei ME/CFS als selektiv: Noradrenalin niedrig, Dopamin normal. Die Selektivität ist der Hinweis."
 author: "Yannick Loth"
-date: "2026-10-05"
+date: "2026-10-03"
 categories: [Arousal system, Noradrenergic, Mechanisms]
 lang: de
 ---

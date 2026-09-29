@@ -2,7 +2,7 @@
 title: "No, it's still not lactic acid — but norepinephrine is part of the fuel story"
 description: "Muscle soreness is not caused by lactic acid. But the arousal system does control how fuel reaches neurons — in the opposite direction to the myth."
 author: "Yannick Loth"
-date: "2026-10-17"
+date: "2026-10-09"
 categories: [Arousal system, Noradrenergic, Mechanisms]
 ---
 

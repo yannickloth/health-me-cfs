@@ -2,7 +2,7 @@
 title: "A lever without a pill: the vagus and the locus coeruleus"
 description: "Transcutaneous vagus nerve stimulation may reach the brain's norepinephrine centre — a non-drug way to test the system."
 author: "Yannick Loth"
-date: "2026-10-13"
+date: "2026-10-07"
 categories: [Arousal system, Noradrenergic, Mechanisms]
 ---
 

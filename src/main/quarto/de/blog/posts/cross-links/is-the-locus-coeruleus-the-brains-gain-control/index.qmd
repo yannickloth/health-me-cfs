@@ -2,7 +2,7 @@
 title: "Ist der Locus coeruleus die Gain-Kontrolle des Gehirns?"
 description: "Eine Theorie: der Locus coeruleus stellt ein, wie stark der Kortex reagiert — das könnte einen Noradrenalin-Mangel mit sensorischer und interozeptiver Verstärkung verbinden."
 author: "Yannick Loth"
-date: "2026-11-05"
+date: "2026-10-19"
 categories: [Cross-links, Noradrenergic, Mechanisms]
 lang: de
 ---

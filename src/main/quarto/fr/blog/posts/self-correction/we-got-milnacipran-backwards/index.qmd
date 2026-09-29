@@ -2,7 +2,7 @@
 title: "Nous avons inversé le résultat du milnacipran — voici la correction"
 description: "Nous avons cité un essai sur la fibromyalgie comme montrant aucun effet sur le lactate cérébral. L'essai a trouvé l'inverse."
 author: "Yannick Loth"
-date: "2026-10-21"
+date: "2026-10-12"
 categories: [Self-correction, Metascience, Research]
 lang: fr
 ---

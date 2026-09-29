@@ -2,7 +2,7 @@
 title: "Noradrenalin ist kein Brennstoff — es ist ein Regler"
 description: "Das sogenannte Wachheitsmolekül erfüllt mindestens vier Aufgaben. Das verändert, was ein Mangel bedeutet."
 author: "Yannick Loth"
-date: "2026-10-03"
+date: "2026-10-02"
 categories: [Arousal system, Noradrenergic, Mechanisms]
 lang: de
 ---

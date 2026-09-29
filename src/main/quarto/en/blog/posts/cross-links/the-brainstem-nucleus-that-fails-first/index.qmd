@@ -2,7 +2,7 @@
 title: "The brainstem nucleus that fails first"
 description: "In Parkinson's disease, the locus coeruleus degenerates before the substantia nigra. In ME/CFS, the same nucleus may fail — without degenerating."
 author: "Yannick Loth"
-date: "2026-11-03"
+date: "2026-10-18"
 categories: [Cross-links, Noradrenergic, Mechanisms]
 ---
 

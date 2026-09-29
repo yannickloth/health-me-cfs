@@ -2,7 +2,7 @@
 title: "Pupils, grip, and a urine ratio: testing the system without a lumbar puncture"
 description: "The norepinephrine finding came from cerebrospinal fluid. Can we test the same system from the outside?"
 author: "Yannick Loth"
-date: "2026-10-15"
+date: "2026-10-08"
 categories: [Arousal system, Noradrenergic, Mechanisms]
 ---
 

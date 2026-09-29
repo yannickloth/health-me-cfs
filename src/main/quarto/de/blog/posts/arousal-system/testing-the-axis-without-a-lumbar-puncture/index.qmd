@@ -2,7 +2,7 @@
 title: "Pupillen, Griffkraft und ein Urin-Quotient: das System ohne Lumbalpunktion testen"
 description: "Der Noradrenalin-Befund kam aus dem Liquor. Lässt sich dasselbe System von außen messen?"
 author: "Yannick Loth"
-date: "2026-10-15"
+date: "2026-10-08"
 categories: [Arousal system, Noradrenergic, Mechanisms]
 lang: de
 ---

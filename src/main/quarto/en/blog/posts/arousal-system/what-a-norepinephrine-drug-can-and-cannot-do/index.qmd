@@ -2,7 +2,7 @@
 title: "What a 'norepinephrine drug' can and can't do"
 description: "If the deficit is real, which symptoms should improve — and which should not? A symptom-by-symptom expectation map."
 author: "Yannick Loth"
-date: "2026-10-09"
+date: "2026-10-05"
 categories: [Arousal system, Noradrenergic, Mechanisms]
 ---
 

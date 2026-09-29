@@ -2,7 +2,7 @@
 title: "The norepinephrine triangle: narcolepsy, POTS, and ME/CFS"
 description: "ME/CFS shares an arousal problem with narcolepsy and a treatment fork with POTS. The overlaps are informative — if stated carefully."
 author: "Yannick Loth"
-date: "2026-10-19"
+date: "2026-10-10"
 categories: [Arousal system, Noradrenergic, Mechanisms]
 ---
 

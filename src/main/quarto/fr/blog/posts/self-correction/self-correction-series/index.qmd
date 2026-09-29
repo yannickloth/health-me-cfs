@@ -2,7 +2,7 @@
 title: "Comment la science se corrige elle-même : une courte série"
 description: "Un document financé par des patients qui montre ses propres corrections — dont une où nous avons lu une étude à l'envers."
 author: "Yannick Loth"
-date: "2026-10-21"
+date: "2026-10-11"
 categories: [Self-correction, Metascience, Research]
 lang: fr
 ---

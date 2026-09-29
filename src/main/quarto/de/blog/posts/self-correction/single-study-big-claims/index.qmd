@@ -2,7 +2,7 @@
 title: "Eine Studie, große Behauptungen: warum n=16 zählt"
 description: "Der Noradrenalin-Befund, der einen ganzen Forschungsstrang trägt, stammt von 16 Patienten aus einem Zentrum."
 author: "Yannick Loth"
-date: "2026-10-23"
+date: "2026-10-13"
 categories: [Self-correction, Metascience, Research]
 lang: de
 ---

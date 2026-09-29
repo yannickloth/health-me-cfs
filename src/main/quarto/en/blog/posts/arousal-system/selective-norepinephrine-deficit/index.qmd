@@ -2,7 +2,7 @@
 title: "Why ME/CFS might be norepinephrine-low but dopamine-normal"
 description: "A 2026 CSF study found the catecholamine deficit in ME/CFS is selective: norepinephrine down, dopamine normal. The selectivity is the clue."
 author: "Yannick Loth"
-date: "2026-10-05"
+date: "2026-10-03"
 categories: [Arousal system, Noradrenergic, Mechanisms]
 ---
 

@@ -2,7 +2,7 @@
 title: "Le paysage de la recherche sur l'EM/SFC, cartographié"
 description: "Il existe désormais un registre curaté de la recherche sur l'EM/SFC — 149 projets consultables."
 author: "Yannick Loth"
-date: "2026-10-25"
+date: "2026-10-14"
 categories: [Self-correction, Metascience, Research]
 lang: fr
 ---

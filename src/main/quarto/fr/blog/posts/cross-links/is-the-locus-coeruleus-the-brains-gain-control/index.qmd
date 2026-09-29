@@ -2,7 +2,7 @@
 title: "Le locus coeruleus est-il le contrôle de gain du cerveau ?"
 description: "Une théorie : le locus coeruleus règle la force de réponse du cortex — ce qui pourrait relier un déficit de noradrénaline à une amplification sensorielle et intéroceptive."
 author: "Yannick Loth"
-date: "2026-11-05"
+date: "2026-10-19"
 categories: [Cross-links, Noradrenergic, Mechanisms]
 lang: fr
 ---

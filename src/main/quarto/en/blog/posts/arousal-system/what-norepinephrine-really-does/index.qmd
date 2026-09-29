@@ -2,7 +2,7 @@
 title: "Norepinephrine isn't a fuel — it's a regulator"
 description: "The brain chemical people call the alertness molecule does at least four jobs. That changes what a deficit would mean."
 author: "Yannick Loth"
-date: "2026-10-03"
+date: "2026-10-02"
 categories: [Arousal system, Noradrenergic, Mechanisms]
 ---
 

@@ -2,7 +2,7 @@
 title: "We got the milnacipran result backwards — here's the fix"
 description: "We cited a fibromyalgia drug trial as showing 'no effect on brain lactate.' The trial found the opposite. We corrected it."
 author: "Yannick Loth"
-date: "2026-10-21"
+date: "2026-10-12"
 categories: [Self-correction, Metascience, Research]
 ---
 

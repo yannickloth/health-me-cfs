@@ -2,7 +2,7 @@
 title: "Pourquoi l'EM/SFC pourrait être noradrénaline-bas mais dopamine-normal"
 description: "Une étude du LCR de 2026 a trouvé un déficit sélectif : noradrénaline basse, dopamine normale. La sélectivité est l'indice."
 author: "Yannick Loth"
-date: "2026-10-05"
+date: "2026-10-03"
 categories: [Arousal system, Noradrenergic, Mechanisms]
 lang: fr
 ---

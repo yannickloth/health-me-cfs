@@ -2,7 +2,7 @@
 title: "Où nos preuves sont minces : un tour des points faibles"
 description: "Un document n'est honnête que là où il admet sa fragilité."
 author: "Yannick Loth"
-date: "2026-10-27"
+date: "2026-10-15"
 categories: [Self-correction, Metascience, Research]
 lang: fr
 ---

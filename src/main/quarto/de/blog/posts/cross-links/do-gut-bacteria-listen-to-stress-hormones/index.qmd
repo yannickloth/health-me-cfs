@@ -2,7 +2,7 @@
 title: "Hören Darmbakterien auf Stresshormone?"
 description: "Noradrenalin ist ein menschliches Stresssignal. Manche Bakterien wachsen schneller, wenn es da ist."
 author: "Yannick Loth"
-date: "2026-11-01"
+date: "2026-10-17"
 categories: [Cross-links, Noradrenergic, Mechanisms]
 lang: de
 ---
