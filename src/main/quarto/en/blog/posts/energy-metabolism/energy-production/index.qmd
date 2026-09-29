@@ -12,6 +12,8 @@ Now imagine that process breaking down.
 
 Not completely. Not like a power outage. More like a power grid running at half capacity, with damaged equipment that gets worse every time you push it. That's the metabolic reality facing millions of people with Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS).
 
+*A note on the numbers:* where a figure below is a measured value it is cited; where it is an illustrative model input it is marked as such. Several quantitative claims here describe the paper's energy model rather than agreed measurements.
+
 ---
 
 ## How your cells normally make energy

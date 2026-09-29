@@ -8,6 +8,8 @@ categories: [Sleep, Pathophysiology]
 
 There is a particular cruelty at the center of Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS): people with this illness are exhausted beyond description, yet sleep does not help. They wake up feeling as tired as when they went to bed — sometimes worse. They rest for hours and feel no better. This isn't psychological. It isn't laziness. It is a biological failure that science is beginning to understand in detail.
 
+*A note on the numbers:* several quantitative claims below (leak rates, permeability, repair timelines) are illustrative or model-based rather than measured in ME/CFS; they are flagged where they appear.
+
 This article explains why.
 
 ---

@@ -10,7 +10,7 @@ She's the quiet one in the group. The one sitting slightly apart, not chiming in
 
 Sometimes she's not just quiet — she's sharp. Critical. Negative. Snaps at small things. Points out what's wrong instead of what's right. People notice the silence first, the flatness second, and then the edge. They interpret the quiet as disengagement. The criticism as hostility. The withdrawal as rejection.
 
-They are wrong on all counts. What looks like absence, coldness, or difficult personality is actually biology. The person with ME/CFS is allocating scarce metabolic resources to staying conscious. The brain, running near empty, defaults to its most ancient, most energy-efficient mode: threat detection. Everything else — banter, animation, reciprocity, generosity of interpretation, even basic warmth — is a luxury the energy budget cannot afford.
+They are wrong on all counts. This apparent absence or coldness is biology, not personality. The person with ME/CFS is allocating scarce metabolic resources to staying conscious. The brain, running near empty, defaults to its most ancient, most energy-efficient mode: threat detection. Everything else — banter, animation, reciprocity, generosity of interpretation, even basic warmth — is a luxury the energy budget cannot afford.
 
 ---
 
@@ -160,7 +160,7 @@ Concretely: the person stops suggesting activities. Stops planning. Stops initia
 
 This narrowing has social consequences. The person who misses peripheral cues responds less appropriately, misreads situations more often, and appears socially clumsy or disconnected. They are not. They are operating with a reduced perceptual field, and the information they are missing is the information that healthy people use unconsciously to navigate social interaction.
 
-**The cumulative picture.** Taken together, these changes describe a person who is: less generous, more withdrawn, less motivated by reward, more self-focused, and processing a narrower slice of the social world. This is not a personality. It is not a moral failing. It is not who the person "really is underneath." It is the predictable behavioural output of a brain that has been forced into energy-conservation mode, and it maps almost perfectly onto the sickness-behaviour framework that evolution built for exactly this purpose [@Morris2013mecfsSickness].
+**The cumulative picture.** Taken together, these changes describe a person who is: less generous, more withdrawn, less motivated by reward, more self-focused, and processing a narrower slice of the social world. This reflects neither personality nor a moral failing. It is not who the person "really is underneath." It is the predictable behavioural output of a brain that has been forced into energy-conservation mode, and it maps almost perfectly onto the sickness-behaviour framework that evolution built for exactly this purpose [@Morris2013mecfsSickness].
 
 The tragedy is that without diagnosis — without understanding that these changes are symptoms of a metabolic disease — the person and everyone around them constructs explanations that place the cause in character. "They've become selfish." "They don't care anymore." "They're not the person I married." The biology of energy depletion is invisible. The behaviour it produces is interpreted as who the person has decided to be.
 
@@ -224,4 +224,4 @@ The sharpness, the negativity, the defensiveness — these are not character fla
 
 The guilt — the feeling that you should be more present, more engaged, more kind — is a cognitive load in itself. It costs energy. Every thought of "I should be nicer," "I should be more fun," "I should be a better friend" is an ATP expenditure your body cannot afford. Reducing that guilt is not self-indulgence. It is an energy-conserving intervention.
 
-Your limits are real. Your energy is not infinite. Protecting it is not selfish. When you sit quietly, when your face does not move, when your voice comes out sharper than you intended, when you are barely there — you are not failing at being human. You are surviving a disease that makes being human metabolically expensive, and you are doing it with whatever energy you have left. That is enough.
+Your limits are real. Your energy is not infinite. Protecting it is not selfish. When you sit quietly, when your face does not move, when your voice comes out sharper than you intended, when you are barely there — you are not failing at being human. You are surviving a disease that makes being human metabolically expensive, and you are doing it with whatever energy you have left.

@@ -22,7 +22,7 @@ Elevated intracellular sodium triggers the sodium-calcium exchanger — a transp
 
 The result is calcium overload inside muscle cells. Calcium at high intracellular concentrations is toxic. It floods the mitochondria, impairs energy production, triggers oxidative stress, and in severe cases causes structural damage to muscle fibers — visible under electron microscopy in ME/CFS patients. Sodium imaging — a specialized MRI technique that measures sodium ions directly inside muscle tissue — has confirmed the predicted accumulation: ME/CFS patients show a 30% increase in intracellular muscle sodium after exercise, compared to 17% in controls.
 
-This is one of the leading proposed mechanisms behind post-exertional malaise. Not deconditioning. Not psychology. A specific, measurable, ionic cascade that poisons muscle cells when they are pushed past a threshold.
+This is one of the leading proposed mechanisms behind post-exertional malaise. This is a specific, measurable, ionic cascade — not deconditioning or psychology — that poisons muscle cells when they are pushed past a threshold.
 
 ---
 

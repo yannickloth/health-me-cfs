@@ -76,7 +76,7 @@ The nap paradox points toward something about ME/CFS that healthy people find ge
 
 Adenosine clearance works — but adenosine regenerates immediately because ATP production is impaired. Sleep spindles can theoretically be generated — but the thalamic circuits lack the metabolic support to sustain them. Glymphatic clearance activates during delta sleep — but delta sleep is contaminated by alpha intrusion. Each repair system is intact in principle and failing in practice. The body knows what to do. It just can't do it.
 
-People say ME/CFS is "just being tired." It isn't. Being tired is a signal that the body needs rest, and rest answers that signal. In ME/CFS, the signal is present, rest is attempted, and the machinery that should respond is running on empty. A nap doesn't fix that. But understanding why it doesn't — at the level of adenosine kinetics, thalamic oscillations, and circadian coupling — is where any future intervention has to start.
+ME/CFS is not ordinary tiredness. Being tired is a signal that the body needs rest, and rest answers that signal. In ME/CFS, the signal is present, rest is attempted, and the machinery that should respond is running on empty. A nap doesn't fix that. But understanding why it doesn't — at the level of adenosine kinetics, thalamic oscillations, and circadian coupling — is where any future intervention has to start.
 
 ---
 
