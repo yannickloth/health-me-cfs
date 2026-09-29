@@ -189,3 +189,4 @@ Build: `typst compile --root .` → 0 errors/warnings.
 
 ## Phase 13 — Commit
 _(hash appended after commit.)_
+Commit: `50938a6e` — feat(mcas-stack-drug-mechanisms): integrate 22 MCAS-stack probe hypotheses (47 files, +2540/-3). Explicit-file staging; no quarto files included (parallel session untouched).
