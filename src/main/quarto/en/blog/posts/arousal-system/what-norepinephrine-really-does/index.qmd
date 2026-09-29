@@ -10,12 +10,12 @@ Norepinephrine is usually introduced as the "alertness" or "fight-or-flight" che
 
 **1. It sets arousal and sleep-state transitions.** Noradrenergic neurons in the locus coeruleus are active during wakefulness and quiet during sleep, and their activity sets the substates of non-REM sleep (@OsorioForero2021NoradrenergicNREM). Noradrenergic "microarousals" also sit at the centre of restorative sleep function (@Luthi2025MicroarousalsNoradrenaline).
 
-**2. It drives the pumping that clears the brain.** During sleep, norepinephrine drives slow waves of blood-vessel movement (vasomotion) that push cerebrospinal fluid through the brain and clear metabolic waste (@Hauglund2025neVasomotion; @Nedergaard2026OscillatorySleep).
+**2. It drives the pumping that clears the brain.** During sleep, norepinephrine drives slow waves of blood-vessel movement (vasomotion) that are thought to push cerebrospinal fluid through the brain and clear metabolic waste — shown in mice and reviewed, not measured in ME/CFS (@Hauglund2025neVasomotion; @Nedergaard2026OscillatorySleep).
 
-**3. It gates pain.** Descending pathways from the brainstem release norepinephrine in the spinal cord to damp pain signals (@Hayashida2019DescendingNoradrenergic). This is why drugs that raise norepinephrine are used for chronic pain.
+**3. It gates pain.** Descending pathways from the brainstem release norepinephrine in the spinal cord to damp pain signals (@Hayashida2019DescendingNoradrenergic), which is why noradrenergic drugs are used for chronic pain. In the ME/CFS CSF study, though, the norepinephrine pathway did *not* correlate with pain — so this role is established in other contexts, not demonstrated in ME/CFS (@Aregawi2026Noradrenergic).
 
 **4. It helps supply fuel.** Norepinephrine stimulates astrocytes — support cells — to break down glycogen and release lactate, the fuel neurons burn (@Hertz2015neGlycogenolysis; @Killeen2013neLactate).
 
-*Why this framing matters:* if the problem is a shortage of a fuel, you treat it by adding fuel. If the problem is a **regulator**, its failure shows up as disturbed sleep, poor clearance, pain amplification, and effort intolerance — and the fix is different.
+*Why this framing matters:* if the problem is mainly a shortage of fuel, you treat it by adding fuel; if the problem is more a **regulator**, its failure shows up as disturbed sleep, poor clearance, and effort intolerance, and the fix may be different. A molecule can be both, so this is a matter of emphasis.
 
 *A caveat:* this is a useful reframing, not proof. The added roles come from animal and general studies; they have not been measured in ME/CFS.

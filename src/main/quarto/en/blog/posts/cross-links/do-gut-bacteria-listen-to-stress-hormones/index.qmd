@@ -12,6 +12,6 @@ The evidence is real but early. Norepinephrine increased the growth and virulenc
 
 **Why it might matter for ME/CFS.** If host norepinephrine availability is altered — as the selective-deficit hypothesis suggests — it could change the local environment the gut microbiome sees, shifting the ecosystem. That would be a *host-to-microbe* effect, distinct from the usual microbe-to-immune-to-brain direction.
 
-**The honest caveats.** The bacterial study used a fish pathogen, not a human gut organism. The reviews describe plausibility, not a demonstrated ME/CFS mechanism. And the core norepinephrine finding is unreplicated.
+**The caveats.** The bacterial study used a fish pathogen, not a human gut organism. The reviews describe plausibility, not a demonstrated ME/CFS mechanism. And the core norepinephrine finding is unreplicated.
 
 **How to test it.** Expose bacteria cultured from ME/CFS and control gut communities to norepinephrine and ask whether growth or virulence changes, and whether a patient's noradrenergic tone correlates with their microbiome composition. If not, the channel is interesting but not operative here.

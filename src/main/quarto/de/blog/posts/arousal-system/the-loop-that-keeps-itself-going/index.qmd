@@ -9,7 +9,7 @@ lang: de
 
 Viele chronische Erkrankungen werden sich selbst verstärkend genannt, aber eine Schleife ist nur dann ein ernsthafter Gedanke, wenn man die Pfeile benennen kann.
 
-Noradrenalin treibt langsame Vasomotion — das rhythmische Zusammenziehen von Gefäßen — die Liquor durch das Gehirn pumpt und im Schlaf Abfall ausspült (@Hauglund2025neVasomotion). Die Science-Übersicht von 2026 beschreibt Neuromodulatoren als die mechanische Kraft hinter dieser Clearance (@Nedergaard2026OscillatorySleep).
+Noradrenalin treibt langsame Vasomotion — das rhythmische Zusammenziehen von Gefäßen — die Liquor durch das Gehirn pumpt und im Schlaf Abfall ausspült; dies wurde bei Mäusen gezeigt (@Hauglund2025neVasomotion). Die Science-Übersicht von 2026 beschreibt Neuromodulatoren als die mechanische Kraft hinter dieser Clearance (@Nedergaard2026OscillatorySleep).
 
 Die Schleife:
 
@@ -19,8 +19,10 @@ Die Schleife:
 4. Neuroinflammation beeinträchtigt die Funktion des Locus coeruleus.
 5. Noradrenalin sinkt weiter. Zurück zu Schritt 1.
 
-Existiert diese Schleife, ist ME/CFS kein festes Defizit, sondern ein System, das langsam nach unten ratschen kann.
+Existiert diese Schleife, ist ME/CFS kein festes Defizit, sondern ein System, das langsam nach unten ratschen kann — besser beschrieben als sich anziehende Schleife denn als bloß kumulativer Schaden.
 
 **Was sie stützt und was nicht.** Der Pfeil Noradrenalin zu Clearance hat echte Evidenz (Tier-/Review-Ebene). Die Pfeile Clearance zu Entzündung zu Locus coeruleus sind abgeleitet, nicht in ME/CFS gemessen.
 
-**Eine konkurrierende Idee, die wir nicht verbergen.** Ein Arm hängt davon ab, ob Noradrenalin Neuroinflammation *unterdrückt*. Zwei Mausstudien widersprechen sich: eine fand, Noradrenalin unterdrücke die Mikroglia-Aktivität (@Bu2025NeuroMicrogliaNE); eine andere fand, dass Blockade des Noradrenalin-Signals die Entzündung senkte, nur bei weiblichen Tieren (@Evans2024LocusCoeruleusMicroglia). Die Richtung ist offen — die Schleife ist Hypothese, nicht Behauptung.
+**Wo die Evidenz unsicher ist.** Der Pfeil Entzündung-zu-Locus-coeruleus nimmt an, dass Noradrenalin Neuroinflammation *unterdrückt*. Zwei Mausstudien stützen das weitgehend: Noradrenalin über Mikroglia-β2-Rezeptoren unterdrückte die Mikroglia-Aktivität (@Bu2025NeuroMicrogliaNE), und die Hemmung des adrenergen LC-Signals *erhöhte* die Neuroinflammation (@Evans2024LocusCoeruleusMicroglia). Eine Subanalyse der zweiten Studie fand jedoch, dass die Deletion des β2-Rezeptors in Mikroglia die Entzündung nur bei weiblichen Tieren senkte — die Richtung ist also nicht vollständig geklärt und könnte geschlechts- oder kontextabhängig sein. Die Schleife ist Hypothese, nicht Behauptung.
+
+Wie in der ganzen Serie beruht der zugrunde liegende Mangel auf einem einzigen unreplizierten Befund (@Aregawi2026Noradrenergic). *Warum es zählt:* wenn eine Schleife die Progression antreibt, dann reicht es vielleicht nicht, einen einzelnen Knoten (etwa Noradrenalin allein) zu behandeln; die Schleife muss möglicherweise an mehr als einer Stelle durchbrochen werden.

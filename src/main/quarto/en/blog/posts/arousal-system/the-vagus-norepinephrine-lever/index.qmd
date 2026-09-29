@@ -12,7 +12,7 @@ Vagal afferents carry signals from the body to the brainstem nucleus of the soli
 
 **Why this is attractive.** Unlike stimulants, taVNS does not push the system with a drug, is reversible, and can be dose-controlled. If it works, it is also a **probe**: a safe way to test whether raising norepinephrine changes anything measurable.
 
-**The honest limits.** The human evidence is at review level; the direct mechanistic evidence is in mice; and ME/CFS-specific data are preliminary. And a key caveat runs through the whole series: the underlying deficit itself is unreplicated.
+**The limits.** The human evidence is at review level; the direct mechanistic evidence is in mice; and ME/CFS-specific data are preliminary. And a key caveat runs through the whole series: the underlying deficit itself is unreplicated.
 
 **How we would know.** A trial could ask whether taVNS changes a non-invasive norepinephrine readout — pupil measures, handgrip endurance, a urine ratio — and, if the clearance loop is real, whether it changes a clearance or inflammatory marker. If it moves nothing, the non-drug route is unlikely to matter.
 

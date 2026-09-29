@@ -11,8 +11,8 @@ The discovery of a selective norepinephrine deficit came from a lumbar puncture 
 Several candidate measures already exist:
 
 - **Pupillometry.** Pupil size reflects noradrenergic activity, and it can be measured in seconds (@Kang2020Pupillometry). In a human drug study, the NRI atomoxetine raised baseline pupil diameter, and the change correlated with behavioural improvement (@OCallaghan2025PupillaryNE).
-- **Handgrip endurance.** In the source study, the norepinephrine pathway correlated with how long a patient could sustain a handgrip (r = 0.62) (@Aregawi2026Noradrenergic). A cheap, bedside measure.
-- **Urinary VMA/HVA ratio.** A ratio of norepinephrine to dopamine metabolites, reflecting the DBH step that the selectivity implicates.
+- **Handgrip endurance.** In the source study, the norepinephrine pathway correlated with how long a patient could sustain a handgrip (Spearman rho = 0.62, right hand, patient-only analysis, n = 38) (@Aregawi2026Noradrenergic). A cheap, bedside measure — though a single unreplicated correlation.
+- **Urinary VMA/HVA ratio.** A ratio of norepinephrine to dopamine metabolites, reflecting the DBH step — but caveat: urine reflects mostly *peripheral* turnover, and peripheral norepinephrine is if anything elevated in ME/CFS, so it may not track the *central* deficit.
 
 Put together, these could form a **non-invasive battery** to stratify patients — and, combined with a timing test, to capture the PEM crash: measure pupil and grip every few hours for 72 hours after a controlled exertion, and see whether they dip and recover on the same curve as symptoms. If the deficit causes PEM, that curve should exist.
 

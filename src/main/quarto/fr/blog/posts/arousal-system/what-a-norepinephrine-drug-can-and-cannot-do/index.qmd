@@ -7,9 +7,9 @@ categories: [Arousal system, Noradrenergic, Mechanisms]
 lang: fr
 ---
 
-Supposons le déficit sélectif réel, et prenons un médicament qui renforce la noradrénaline — un IRN comme l'atomoxétine, ou un éveillant comme le solriamfétol. À quoi s'attendre ?
+Supposons le déficit sélectif réel, et prenons un médicament qui renforce la noradrénaline — un IRN comme l'atomoxétine, ou un double inhibiteur de recapture dopamine/noradrénaline comme le solriamfétol. À quoi s'attendre ?
 
-La réponse honnête découle de ce avec quoi le déficit *corrèle*. Dans l'étude source, la voie de la noradrénaline suivait la **force de préhension et les scores de fatigue** — performance motrice et santé générale — et la plus forte réduction concernait le **sous-groupe PEM** (@Aregawi2026Noradrenergic).
+La réponse découle de ce avec quoi le déficit *corrèle*. Dans l'étude source, la voie de la noradrénaline suivait la **force de préhension et les scores de fatigue** — performance motrice et santé générale — et la plus forte réduction concernait le **sous-groupe PEM** (@Aregawi2026Noradrenergic).
 
 **Raisonnable d'attendre (modestement) :**
 - **Fatigue et endurance** — le signal le plus fort, quoique transversal.
@@ -17,14 +17,16 @@ La réponse honnête découle de ce avec quoi le déficit *corrèle*. Dans l'ét
 
 **Possible mais plus faible :** sommeil non réparateur et stabilité de l'éveil — preuves animales (@OsorioForero2021NoradrenergicNREM).
 
-**À ne pas attendre par cette voie :**
-- **Intolérance orthostatique et POTS** — l'étude n'a trouvé *aucun* lien avec la pression artérielle ou la fréquence cardiaque orthostatique.
-- **Humeur et anxiété** — aucune corrélation non plus.
+**Signal faible ou absent dans l'étude source (un nul sur petit échantillon ne prouve pas l'absence d'effet) :**
+- **Intolérance orthostatique et POTS** — aucun lien trouvé avec la pression artérielle ou la fréquence cardiaque orthostatique.
+- **Humeur et anxiété** — aucune corrélation trouvée.
+- **Douleur** — aucune corrélation trouvée, bien qu'une autre revue relie la noradrénaline au contrôle descendant de la douleur.
+- **Cognition** — aucune corrélation trouvée.
 - **Courbatures musculaires** — autre mécanisme, non lactique.
-- **Changements du lactate** — la noradrénaline *augmente* le lactate aigu ; un déficit devrait le baisser.
+- **Changements du lactate** — le signal noradrénergique *augmente* le lactate aigu ; un déficit le baisserait plutôt.
 
-**Le piège : le masquage.** Les médicaments stimulants peuvent faire *sentir* plus capable sans restaurer l'énergie — on en fait plus et on s'effondre plus fort.
+**Le piège : le masquage.** Les médicaments stimulants peuvent faire *sentir* plus capable sans restaurer l'énergie — on en fait plus et on s'effondre plus fort. Ce risque de masquage est une inquiétude clinique plausible, mais il n'a pas été mesuré dans un essai contrôlé de l'EM/SFC ; c'est une mise en garde à surveiller, pas un fait établi.
 
-**Et la limite dure :** aucun essai EM/SFC de ces médicaments n'a utilisé le PEM comme critère. Les données humaines sont indirectes (hypotension orthostatique, narcolepsie, SEP, fibromyalgie). Le seul essai proche de l'EM/SFC (solriamfétol) a amélioré fatigue et fonctions exécutives sans mesurer le PEM (@Young2025solriamfetol). L'amantadine a *échoué* sur la fatigue de la SEP (@Cruccioli2026AmantadineMSfatigue).
+**Et la limite dure :** aucun essai EM/SFC de ces médicaments n'a utilisé le PEM comme critère ; chaque « attente » ci-dessus est donc une inférence à partir de corrélations, pas un résultat mesuré. Les autres données humaines viennent d'autres affections (hypotension orthostatique, narcolepsie, SEP, fibromyalgie). Le seul essai EM/SFC de ces médicaments (solriamfétol) a amélioré fatigue et fonctions exécutives sans mesurer le PEM (@Young2025solriamfetol). L'amantadine, antagoniste NMDA à activité dopaminergique indirecte, a *échoué* sur la fatigue de la SEP (@Cruccioli2026AmantadineMSfatigue).
 
-*Ceci n'est pas un avis médical.*
+Tout ici repose sur une seule étude de LCR non répliquée portant sur 16 patients (@Aregawi2026Noradrenergic). *Ceci n'est pas un avis médical.*

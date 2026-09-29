@@ -8,7 +8,7 @@ categories: [Arousal system, Noradrenergic, Mechanisms]
 
 Many chronic illnesses are described as "self-reinforcing," but a loop is only a serious idea if you can name the arrows. Here is one candidate, built on the arousal system.
 
-Norepinephrine drives slow vasomotion — the rhythmic squeezing of blood vessels — that pumps cerebrospinal fluid through the brain and clears waste during sleep (@Hauglund2025neVasomotion). The 2026 *Science* review of sleep oscillations describes neuromodulators as the mechanical force behind this clearance (@Nedergaard2026OscillatorySleep).
+Norepinephrine drives slow vasomotion — the rhythmic squeezing of blood vessels — that pumps cerebrospinal fluid through the brain and clears waste during sleep; this has been shown in mice (@Hauglund2025neVasomotion). The 2026 *Science* review of sleep oscillations describes neuromodulators as the mechanical force behind this clearance (@Nedergaard2026OscillatorySleep).
 
 Now the loop:
 
@@ -18,10 +18,10 @@ Now the loop:
 4. Neuroinflammation impairs locus-coeruleus function.
 5. Norepinephrine falls further. Back to step 1.
 
-If that loop exists, ME/CFS is not a fixed deficit — it is a system that can slowly ratchet downward, and progression is not "damage" so much as a loop tightening.
+If that loop exists, ME/CFS is not a fixed deficit but a system that can slowly ratchet downward — progression better described as a loop tightening than as simple cumulative damage.
 
 **What supports it, and what does not.** The norepinephrine-to-clearance arrow has real evidence (animal and review level). The clearance-to-inflammation-to-locus-coeruleus arrows are inferred; they have not been measured in ME/CFS.
 
-**A competing idea we won't hide.** One arm of the loop depends on whether norepinephrine *suppresses* neuroinflammation. Two mouse studies disagree: one found norepinephrine suppressed microglial activity (@Bu2025NeuroMicrogliaNE); another found that blocking norepinephrine signalling *reduced* inflammation, in females only (@Evans2024LocusCoeruleusMicroglia). We do not yet know which direction holds — so this loop is a hypothesis, not a claim.
+**Where the evidence is unsettled.** The loop's inflammation-to-locus-coeruleus arrow assumes that norepinephrine *suppresses* neuroinflammation. Two mouse studies largely support that: norepinephrine acting on microglial β2 receptors suppressed microglial activity (@Bu2025NeuroMicrogliaNE), and inhibiting locus-coeruleus adrenergic signalling *increased* neuroinflammation (@Evans2024LocusCoeruleusMicroglia). But a sub-analysis of the second study found that deleting the β2 receptor in microglia *reduced* inflammation in females only — so the direction is not fully settled and may be sex- or context-dependent. The loop is a hypothesis, not a claim.
 
-*Why it matters:* if a loop drives progression, then treating one node (say, norepinephrine alone) may not be enough; the loop must be broken at more than one point.
+As throughout this series, the underlying deficit is a single unreplicated finding (@Aregawi2026Noradrenergic). *Why it matters:* if a loop drives progression, then treating one node (say, norepinephrine alone) may not be enough; the loop may need to be broken at more than one point.

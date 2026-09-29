@@ -11,8 +11,8 @@ Im Hirnstamm liegt ein kleiner Kern — der Locus coeruleus —, die Hauptquelle
 
 Bei Parkinson ist der Locus coeruleus *vor* der Substantia nigra betroffen; die Bildgebung nutzt Neuromelanin-sensible MRT, und ein Parkinson-Subtyp zeigt frühe Degeneration beider Kerne (@Zhou2023PDtrajectories).
 
-**Die ME/CFS-Parallele — und der entscheidende Unterschied.** Der selektive Noradrenalin-Mangel hat dieselbe *Signatur* wie eine frühe LC-Beteiligung (Noradrenalin niedrig, Dopamin erhalten). Aber ME/CFS zeigt keine Degeneration. Das legt ein **funktionelles** Versagen nahe — nicht Sterben, sondern Unterleistung wegen Energiemangel oder Entzündung.
+**Die ME/CFS-Parallele — und der entscheidende Unterschied.** Der selektive Noradrenalin-Mangel zeigt ein Stoffwechselmuster, das zu einer LC-Beteiligung passt (Noradrenalin niedrig, Dopamin erhalten) — dieselbe *Art* Muster wie früh bei Parkinson. Aber niemand hat den ME/CFS-Locus-coeruleus mit der nötigen Auflösung untersucht: keine Bildgebung, keine Post-mortem-Studie. Eine Degeneration ist also nicht *ausgeschlossen* — sie ist nur nicht nachgewiesen. Wäre das Versagen funktionell (Unterleistung statt Sterben), wäre das eine andere und hoffnungsvollere Situation.
 
-**Warum das zählt.** Degeneration ist weitgehend irreversibel; funktionelles Versagen ist prinzipiell reversibel. Wenn das LC-Versagen funktionell ist, ist das ein Grund für therapeutischen Optimismus — und es sagt vorher, dass 7T-Neuromelanin-Bildgebung bei ME/CFS *normale* LC-Volumina zeigt.
+**Warum das zählt.** Degeneration ist weitgehend irreversibel; funktionelles Versagen ist prinzipiell reversibel. Ob das ME/CFS-Versagen funktionell oder degenerativ ist, ist ungetestet — der Test wäre 7T-Neuromelanin-Bildgebung, die *normale* LC-Volumina zeigen sollte, wenn das Versagen funktionell ist, anders als bei Parkinson.
 
 **Die Vorbehalte.** Diese Parallele ist eine Ableitung; niemand hat den LC bei ME/CFS so abgebildet. Und der Kernbefund ist Single-Center und unrepliziert.

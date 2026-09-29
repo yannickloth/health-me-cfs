@@ -6,9 +6,9 @@ date: "2026-09-18"
 categories: [Arousal system, Noradrenergic, Mechanisms]
 ---
 
-Suppose the selective norepinephrine deficit is real, and you take a drug that raises norepinephrine signalling — an NRI like atomoxetine, or a wake-promoter like solriamfetol. What should you expect?
+Suppose the selective norepinephrine deficit is real, and you take a drug that raises norepinephrine signalling — an NRI like atomoxetine, or a dual dopamine/norepinephrine reuptake inhibitor like solriamfetol. What should you expect?
 
-The honest answer follows from what the deficit *correlates with*. In the source study, the norepinephrine pathway tracked **handgrip endurance and fatigue scores** — motor output and global health perception — and the largest reduction was in the **PEM subgroup** (@Aregawi2026Noradrenergic).
+The answer follows from what the deficit *correlates with*. In the source study, the norepinephrine pathway tracked **handgrip endurance and fatigue scores** — motor output and global health perception — and the largest reduction was in the **PEM subgroup** (@Aregawi2026Noradrenergic).
 
 **Reasonable to expect (modestly):**
 - **Fatigue / effort-motor endurance** — the strongest, if still cross-sectional, signal.
@@ -16,14 +16,16 @@ The honest answer follows from what the deficit *correlates with*. In the source
 
 **Possible but weaker:** unrefreshing sleep and arousal stability — the role of norepinephrine in sleep substates is animal evidence (@OsorioForero2021NoradrenergicNREM).
 
-**Do not expect, from this pathway:**
-- **Orthostatic intolerance / POTS** — the study found *no* relationship between the norepinephrine pathway and orthostatic blood pressure or heart rate.
-- **Mood and anxiety** — no correlation either.
+**Weak or absent signal in the source study (a null in a small sample does not prove there is no effect):**
+- **Orthostatic intolerance / POTS** — no relationship was found with orthostatic blood pressure or heart rate.
+- **Mood and anxiety** — no correlation found.
+- **Pain** — no correlation found, though a separate review links norepinephrine to descending pain control.
+- **Cognition** — no correlation found.
 - **Muscle soreness** — a different mechanism, and not lactate-driven.
-- **Lactate changes** — norepinephrine signalling *raises* acute lactate, so a deficit should lower it, not raise it.
+- **Lactate changes** — noradrenergic signalling *raises* acute lactate, so a deficit would more plausibly lower it than raise it.
 
-**The trap: masking.** Stimulant-type drugs that raise arousal and effort drive can make you *feel* more capable without restoring energy — so you do more and crash harder. If a drug improves how you feel but increases PEM frequency, it is masking the problem, not fixing it.
+**The trap: masking.** Stimulant-type drugs that raise arousal and effort drive can make you *feel* more capable without restoring energy — so you do more and crash harder. This masking hazard is a plausible clinical concern, but it has not been measured in a controlled ME/CFS trial; treat it as a caution to watch, not an established fact.
 
-**And the hard limit:** no ME/CFS trial of any of these drugs has used PEM as an endpoint. Human data are indirect — from orthostatic hypotension, narcolepsy, MS, and fibromyalgia. The one ME/CFS-adjacent trial, of solriamfetol, improved fatigue and executive function but did not measure PEM (@Young2025solriamfetol). Amantadine, a release enhancer, *failed* to help MS fatigue (@Cruccioli2026AmantadineMSfatigue).
+**And the hard limit:** no ME/CFS trial of these drugs has used PEM as an endpoint, so every "expect" above is an inference from correlation, not a measured outcome. Human data otherwise come from other conditions — orthostatic hypotension, narcolepsy, MS, fibromyalgia. The one ME/CFS trial of these drugs, of solriamfetol, improved fatigue and executive function but did not measure PEM (@Young2025solriamfetol). Amantadine, an NMDA antagonist with indirect dopaminergic activity, *failed* to help MS fatigue (@Cruccioli2026AmantadineMSfatigue).
 
-*This is not medical advice. Any trial of these drugs belongs with a clinician, with pacing and baseline autonomic checks.*
+Everything here rests on a single, unreplicated CSF study of 16 patients (@Aregawi2026Noradrenergic). *This is not medical advice. Any trial of these drugs belongs with a clinician, with pacing and baseline autonomic checks.*

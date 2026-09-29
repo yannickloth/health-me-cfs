@@ -11,12 +11,12 @@ Noradrenalin wird meist als Wachheits- oder Kampf-oder-Flucht-Chemikalie vorgest
 
 **1. Es setzt Arousal und Schlafzustands-Übergänge.** Noradrenerge Neurone im Locus coeruleus sind im Wachzustand aktiv und im Schlaf ruhig; ihre Aktivität bestimmt die Substadien des Non-REM-Schlafs (@OsorioForero2021NoradrenergicNREM). Noradrenerge Mikro-Arousals stehen zudem im Zentrum erholsamer Schlaffunktion (@Luthi2025MicroarousalsNoradrenaline).
 
-**2. Es treibt die Pumpe, die das Gehirn reinigt.** Im Schlaf treibt Noradrenalin langsame Gefäßbewegungen (Vasomotion) an, die Liquor durch das Gehirn drücken und Stoffwechselabfälle ausspülen (@Hauglund2025neVasomotion; @Nedergaard2026OscillatorySleep).
+**2. Es treibt die Pumpe, die das Gehirn reinigt.** Im Schlaf treibt Noradrenalin langsame Gefäßbewegungen (Vasomotion) an, die vermutlich Liquor durch das Gehirn drücken und Stoffwechselabfälle ausspülen — bei Mäusen gezeigt und in Übersichten beschrieben, nicht in ME/CFS gemessen (@Hauglund2025neVasomotion; @Nedergaard2026OscillatorySleep).
 
-**3. Es reguliert Schmerz.** Absteigende Bahnen aus dem Hirnstamm setzen Noradrenalin im Rückenmark frei, um Schmerzsignale zu dämpfen (@Hayashida2019DescendingNoradrenergic). Deshalb werden noradrenalinsteigernde Medikamente gegen chronischen Schmerz eingesetzt.
+**3. Es reguliert Schmerz.** Absteigende Bahnen aus dem Hirnstamm setzen Noradrenalin im Rückenmark frei, um Schmerzsignale zu dämpfen (@Hayashida2019DescendingNoradrenergic); deshalb werden noradrenerge Medikamente gegen chronischen Schmerz eingesetzt. In der ME/CFS-Liquorstudie korrelierte der Noradrenalin-Weg jedoch *nicht* mit Schmerz — die Rolle ist also in anderen Kontexten belegt, nicht in ME/CFS gezeigt (@Aregawi2026Noradrenergic).
 
 **4. Es hilft, Brennstoff bereitzustellen.** Noradrenalin regt Astrozyten — Stützzellen — an, Glykogen abzubauen und Laktat freizusetzen, den Brennstoff der Neurone (@Hertz2015neGlycogenolysis; @Killeen2013neLactate).
 
-*Warum diese Einordnung zählt:* Ist das Problem ein Brennstoffmangel, hilft Brennstoffzufuhr. Ist das Problem ein **Regler**, zeigt sich sein Ausfall als gestörter Schlaf, schlechte Clearance, Schmerzverstärkung und Belastungsintoleranz — und der Ansatz ist ein anderer.
+*Warum diese Einordnung zählt:* Ist das Problem vor allem ein Brennstoffmangel, hilft Brennstoffzufuhr; ist es eher ein **Regler**, zeigen sich Ausfälle als gestörter Schlaf, schlechte Clearance und Belastungsintoleranz, und der Ansatz kann anders sein. Ein Molekül kann beides sein — es ist eine Frage der Betonung.
 
 *Ein Vorbehalt:* das ist eine nützliche Umdeutung, kein Beweis. Die zusätzlichen Rollen stammen aus Tier- und allgemeinen Studien; in ME/CFS sind sie nicht gemessen.

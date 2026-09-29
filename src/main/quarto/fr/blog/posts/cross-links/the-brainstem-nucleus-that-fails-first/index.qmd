@@ -11,8 +11,8 @@ Dans le tronc cérébral se trouve un petit noyau — le locus coeruleus —, pr
 
 Dans la maladie de Parkinson, le locus coeruleus est atteint *avant* la substance noire ; l'imagerie utilise l'IRM sensible à la neuromélanine, et un sous-type montre une dégénérescence précoce des deux noyaux (@Zhou2023PDtrajectories).
 
-**Le parallèle EM/SFC — et la différence cruciale.** Le déficit sélectif de noradrénaline a la même *signature* qu'une atteinte précoce du locus coeruleus (noradrénaline basse, dopamine préservée). Mais l'EM/SFC ne montre aucune dégénérescence. Cela suggère une défaillance **fonctionnelle** — non une mort, mais une sous-performance par manque d'énergie ou inflammation.
+**Le parallèle EM/SFC — et la différence cruciale.** Le déficit sélectif de noradrénaline montre un motif métabolique compatible avec une atteinte du locus coeruleus (noradrénaline basse, dopamine préservée) — le même *type* de motif qu'au début de la maladie de Parkinson. Mais personne n'a examiné le locus coeruleus dans l'EM/SFC à la résolution nécessaire : ni imagerie, ni étude post-mortem. La dégénérescence n'est donc pas *exclue* — elle n'a simplement pas été mise en évidence. Si la défaillance était fonctionnelle (sous-performance plutôt que mort), ce serait une situation différente et plus encourageante.
 
-**Pourquoi cela compte.** La dégénérescence est largement irréversible ; la défaillance fonctionnelle est en principe réversible. Si elle est fonctionnelle, c'est un motif d'optimisme thérapeutique — et cela prédit que l'imagerie neuromélanine 7T montre des volumes *normaux* dans l'EM/SFC.
+**Pourquoi cela compte.** La dégénérescence est largement irréversible ; la défaillance fonctionnelle est en principe réversible. Savoir si la défaillance de l'EM/SFC est fonctionnelle ou dégénérative n'est pas testé — le test serait l'imagerie neuromélanine 7T, qui devrait montrer des volumes *normaux* du locus coeruleus si la défaillance est fonctionnelle, contrairement à Parkinson.
 
 **Les réserves.** Ce parallèle est une inférence ; personne n'a imagé le locus coeruleus dans l'EM/SFC à cette résolution. Et le résultat central est monocentrique et non répliqué.

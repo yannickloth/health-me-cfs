@@ -7,7 +7,7 @@ categories: [Cross-links, Noradrenergic, Mechanisms]
 lang: de
 ---
 
-Eine elegante Idee: der Locus coeruleus wirkt als **Gain-Kontrolle** für den Kortex — er stellt ein, wie stark Netzwerke auf Signale reagieren, statt selbst Information zu tragen. Die adaptive-gain-Theorie formalisiert das (@AstonJones2005AdaptiveGain).
+Eine bekannte Idee: der Locus coeruleus wirkt als **Gain-Kontrolle** für den Kortex — er stellt ein, wie stark Netzwerke auf Signale reagieren, statt selbst Information zu tragen. Die adaptive-gain-Theorie formalisiert das (@AstonJones2005AdaptiveGain).
 
 Zwei Stränge machen das für ME/CFS relevant.
 
@@ -15,6 +15,6 @@ Zwei Stränge machen das für ME/CFS relevant.
 
 **Barriere-Immunität.** Noradrenalin kann an Gefäßen Tight-Junction-Moleküle vermindern und Immuneintritt erlauben — der Gateway-Reflex (@Matsuyama2021GatewayReflex).
 
-**Der spekulative Gewinn.** Ein Gain-Kontroll-Versagen gäbe eine einzige Erklärung für zwei sonst getrennte Erfahrungen: gewöhnliche Reize oder Körpersignale als übermäßig intensiv zu erleben und veränderten neuroimmunen Zugang zum Gehirn. Das ist eine stärkere Aussage als Noradrenalin ist niedrig.
+**Der spekulative Gewinn.** Ein Gain-Kontroll-Versagen gäbe eine einzige Erklärung für zwei sonst getrennte Erfahrungen: gewöhnliche Reize oder Körpersignale als übermäßig intensiv zu erleben und veränderten neuroimmunen Zugang zum Gehirn. Das ist weitreichender als „Noradrenalin ist niedrig" — aber auch weniger direkt belegt.
 
 **Die Vorbehalte.** Beide Arme sind Tier-/Review-Evidenz; keiner wurde gegen einen noradrenergen Index in ME/CFS gemessen. Testbar, aber ungetestet.

@@ -15,6 +15,6 @@ Il est facile de produire un document qui sonne assuré. Plus difficile — et p
 - **Preuves animales et trans-maladie.** Beaucoup de flèches (noradrénaline et clairance, noradrénaline et microglie, modulateurs et gain cortical) sont établies chez l'animal ou dans d'autres maladies, non mesurées dans l'EM/SFC.
 - **Mesures composites.** Les nouveaux indices sont utiles mais non validés.
 - **Confusions non écartées.** Déconditionnement, médicaments, niveau d'activité.
-- **Le nul et le négatif.** Certaines de nos affirmations les plus fortes portent sur ce qui *ne* marche *pas* (amantadine dans la fatigue de la SEP, GET, clonidine). Elles méritent la même visibilité.
+- **Le nul et le négatif.** Certaines de nos affirmations les plus fortes portent sur ce qui *ne* marche *pas* : l'amantadine dans la fatigue de la SEP (un nul net), la clonidine dans le SFC adolescent (un nul net) et la thérapie par l'exercice gradué (GET — contestée ; ici c'est le critère « aggravation des symptômes » qui compte, non l'absence de tout effet). Elles méritent la même visibilité.
 
 **Pourquoi nous les signalons.** Parce que l'alternative — un récit lisse, l'incertitude effacée — trompe les patients et fixe les priorités sur du vide.

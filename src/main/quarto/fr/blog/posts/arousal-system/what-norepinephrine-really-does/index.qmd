@@ -11,12 +11,12 @@ La noradrénaline est généralement présentée comme la molécule de l'éveil 
 
 **1. Elle fixe l'éveil et les transitions d'état de sommeil.** Les neurones noradrénergiques du locus coeruleus sont actifs à l'éveil et silencieux pendant le sommeil ; leur activité détermine les sous-états du sommeil non-REM (@OsorioForero2021NoradrenergicNREM). Les micro-éveils noradrénergiques sont aussi au centre du sommeil réparateur (@Luthi2025MicroarousalsNoradrenaline).
 
-**2. Elle entraîne la pompe qui nettoie le cerveau.** Pendant le sommeil, la noradrénaline entraîne de lentes ondulations des vaisseaux (vasomotion) qui poussent le liquide céphalorachidien et évacuent les déchets (@Hauglund2025neVasomotion; @Nedergaard2026OscillatorySleep).
+**2. Elle entraîne la pompe qui nettoie le cerveau.** Pendant le sommeil, la noradrénaline entraîne de lentes ondulations des vaisseaux (vasomotion) qui pousseraient le liquide céphalorachidien et évacueraient les déchets — montré chez la souris et en revues, non mesuré dans l'EM/SFC (@Hauglund2025neVasomotion; @Nedergaard2026OscillatorySleep).
 
-**3. Elle contrôle la douleur.** Des voies descendantes libèrent de la noradrénaline dans la moelle épinière pour atténuer les signaux douloureux (@Hayashida2019DescendingNoradrenergic).
+**3. Elle contrôle la douleur.** Des voies descendantes libèrent de la noradrénaline dans la moelle épinière pour atténuer les signaux douloureux (@Hayashida2019DescendingNoradrenergic). Dans l'étude du LCR, cependant, la voie de la noradrénaline n'était *pas* corrélée à la douleur — le rôle est établi ailleurs, non démontré dans l'EM/SFC (@Aregawi2026Noradrenergic).
 
 **4. Elle aide à fournir le carburant.** La noradrénaline stimule les astrocytes à dégrader le glycogène et à libérer du lactate, le carburant des neurones (@Hertz2015neGlycogenolysis; @Killeen2013neLactate).
 
-*Pourquoi ce cadrage compte :* si le problème est un manque de carburant, on ajoute du carburant. Si le problème est un **régulateur**, sa défaillance se manifeste par un sommeil perturbé, une mauvaise clairance, une amplification de la douleur et une intolérance à l'effort — et la solution diffère.
+*Pourquoi ce cadrage compte :* si le problème est surtout un manque de carburant, on ajoute du carburant ; si c'est plutôt un **régulateur**, sa défaillance se manifeste par un sommeil perturbé, une mauvaise clairance et une intolérance à l'effort, et la solution peut différer. Une molécule peut être les deux — c'est une question d'accent.
 
 *Une réserve :* c'est un recadrage utile, non une preuve. Les rôles ajoutés viennent d'études animales et générales ; ils ne sont pas mesurés dans l'EM/SFC.

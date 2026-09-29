@@ -9,7 +9,7 @@ lang: de
 
 Forschung braucht Teilnehmende und Proben. Zwei Infrastrukturen ermöglichen das — und beide sind offener, als viele annehmen.
 
-**Register** katalogisieren, wer was tut. Das [**ME/CFS Research Register**](https://mrr.mecfs-research.org/de/mrr) indexiert 149 Projekte plus Netzwerke, Publikationen, Personen, Organisationen; öffentlich, durchsuchbar, exportierbar.
+**Register** katalogisieren, wer was tut. Das [**ME/CFS Research Register**](https://mrr.mecfs-research.org/de/mrr) indexiert 149 Projekte plus Netzwerke, Publikationen, Personen, Organisationen; öffentlich, durchsuchbar, exportierbar — im aktuellen Länderumfang (Deutschland, Österreich, Schweiz, Niederlande, Norwegen, Island) und mit dem Hinweis, dass freiwillige Meldungen nicht-regionale oder unveröffentlichte Arbeit untererfassen können.
 
 **Biobanken** sammeln und lagern Bioproben und verknüpfte Daten — z. B. das deutsche ME/CFS-Register und -Biobank (MCFC München und Charité Berlin), die UK ME/CFS Biobank, die NMCB (Niederlande), die österreichische Biobank und You+ME (Solve M.E.).
 

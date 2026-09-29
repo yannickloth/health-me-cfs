@@ -12,8 +12,8 @@ La découverte d'un déficit sélectif de noradrénaline vient d'une ponction lo
 Plusieurs mesures candidates existent déjà :
 
 - **Pupillométrie.** La taille de la pupille reflète l'activité noradrénergique et se mesure en secondes (@Kang2020Pupillometry). Dans une étude humaine, l'IRN atomoxétine a augmenté le diamètre pupillaire de base, corrélé à l'amélioration comportementale (@OCallaghan2025PupillaryNE).
-- **Force de préhension.** Dans l'étude source, la voie de la noradrénaline corrélait avec la durée de maintien d'une préhension (r = 0,62) (@Aregawi2026Noradrenergic).
-- **Rapport urinaire VMA/HVA.** Un rapport des métabolites de la noradrénaline et de la dopamine, reflétant l'étape DBH.
+- **Force de préhension.** Dans l'étude source, la voie de la noradrénaline corrélait avec la durée de maintien d'une préhension (rho de Spearman = 0,62, main droite, analyse des patients seuls, n = 38) (@Aregawi2026Noradrenergic) — une corrélation unique, non répliquée.
+- **Rapport urinaire VMA/HVA.** Un rapport des métabolites de la noradrénaline et de la dopamine, reflétant l'étape DBH — mais attention : l'urine reflète surtout le métabolisme *périphérique*, et la noradrénaline périphérique est plutôt élevée dans l'EM/SFC ; ce rapport pourrait donc ne pas suivre le déficit *central*.
 
 Ensemble, ils pourraient former une **batterie non invasive** pour stratifier — et, avec un test temporel, capturer l'effondrement du PEM : pupille et préhension toutes les quelques heures pendant 72 heures après un effort contrôlé.
 

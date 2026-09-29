@@ -15,6 +15,6 @@ Die Studie fand das Gegenteil. Milnacipran **senkte** das ventrikuläre Laktat g
 
 **Warum das passierte.** Früh in einem langen Projekt wurde eine Zusammenfassung aus dem *Titel* einer Quelle statt aus dem Abstract abgeleitet. Genau dieser Fehlermodus soll von einem strengen Prozess erfasst werden — hier brauchte es ein bewusstes Nachlesen.
 
-**Warum wir es erzählen.** Nicht für Lob. Weil die Korrektur das *Argument ändert*: der Effekt des Medikaments wirkt teils metabolisch, was eine andere und teils interessantere Aussage ist.
+**Warum wir es erzählen.** Nicht für Lob. Weil die Korrektur das *Argument ändert*: der Effekt des Medikaments könnte doch eine metabolische Komponente haben — eine andere Aussage. (Vorsicht mit der Richtung: der Laktatabfall könnte auch der Besserung folgen, statt sie zu verursachen.)
 
 **Die Lehre.** Jedes Nicht im Text wird gegen den Abstract geprüft, nicht gegen den Titel. Eine Aussage, dass eine Studie scheiterte, ist eine Aussage — und verdient dieselbe Prüfung wie eine, die einen Erfolg behauptet.

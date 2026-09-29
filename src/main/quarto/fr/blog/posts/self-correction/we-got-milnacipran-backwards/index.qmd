@@ -15,6 +15,6 @@ L'essai a trouvé l'inverse. Le milnacipran **a réduit** le lactate ventriculai
 
 **Pourquoi cela est arrivé.** Tôt dans un long projet, un résumé a été déduit du *titre* d'une source plutôt que du résumé. C'est exactement le mode de défaillance qu'un processus rigoureux doit intercepter — ici, il a fallu une relecture délibérée.
 
-**Pourquoi nous le racontons.** Pas pour le mérite. Parce que la correction *change l'argument* : l'effet du médicament semble en partie métabolique, une affirmation différente et parfois plus intéressante.
+**Pourquoi nous le racontons.** Pas pour le mérite. Parce que la correction *change l'argument* : l'effet du médicament pourrait avoir une composante métabolique — une affirmation différente. (Prudence sur la direction : la baisse de lactate pourrait aussi suivre l'amélioration plutôt que de la causer.)
 
 **La leçon.** Chaque « n'a pas » du texte est vérifié contre le résumé, pas le titre. Affirmer qu'un essai a échoué est une affirmation — et mérite le même examen.

@@ -14,7 +14,7 @@ The trial found the opposite. Milnacipran **lowered** ventricular lactate compar
 
 **Why this happened.** Early in a long project, a summary was inferred from a citation's *title* rather than the abstract. That is exactly the failure mode a rigorous pipeline is meant to catch — and in this case it took a deliberate re-read to catch it.
 
-**Why we're telling you.** Not for credit. Because the correction *changed the argument*: the drug's effect looks partly metabolic after all, which is a different — and in some ways more interesting — claim than the one we first made.
+**Why we're telling you.** Not for credit. Because the correction *changes the argument*: the drug's effect may have a metabolic component after all — a different claim from the one we first made. (Being careful about direction: the lactate drop could also follow improvement rather than drive it.)
 
 **The lesson we apply.** Every "did not" in our text gets checked against the source abstract, not the title. A claim that a trial failed is a claim, and it deserves the same scrutiny as one that says a trial worked.
 

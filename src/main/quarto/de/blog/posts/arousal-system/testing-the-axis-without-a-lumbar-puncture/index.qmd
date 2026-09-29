@@ -12,8 +12,8 @@ Der Nachweis eines selektiven Noradrenalin-Mangels kam aus einer Lumbalpunktion 
 Es gibt bereits Kandidaten:
 
 - **Pupillometrie.** Die Pupillengröße spiegelt noradrenerge Aktivität und ist in Sekunden messbar (@Kang2020Pupillometry). In einer Humanstudie erhöhte das NRI Atomoxetin die basale Pupillengröße, und die Änderung korrelierte mit der Verhaltensbesserung (@OCallaghan2025PupillaryNE).
-- **Griffausdauer.** In der Quellstudie korrelierte der Noradrenalin-Weg damit, wie lange jemand einen Griff halten konnte (r = 0,62) (@Aregawi2026Noradrenergic).
-- **Urin-VMA/HVA-Quotient.** Ein Verhältnis von Noradrenalin- zu Dopamin-Metaboliten, das den DBH-Schritt abbildet.
+- **Griffausdauer.** In der Quellstudie korrelierte der Noradrenalin-Weg damit, wie lange jemand einen Griff halten konnte (Spearman-Rho = 0,62, rechte Hand, Nur-Patienten-Analyse, n = 38) (@Aregawi2026Noradrenergic) — eine einzelne, unreplizierte Korrelation.
+- **Urin-VMA/HVA-Quotient.** Ein Verhältnis von Noradrenalin- zu Dopamin-Metaboliten, das den DBH-Schritt abbildet — aber Vorsicht: Urin spiegelt überwiegend den *peripheren* Umsatz, und peripheres Noradrenalin ist bei ME/CFS eher erhöht; der Quotient muss den *zentralen* Mangel also nicht abbilden.
 
 Zusammen könnten sie eine **nicht-invasive Batterie** zur Stratifizierung bilden — und mit einem Zeittest den PEM-Absturz erfassen: Pupille und Griff alle paar Stunden über 72 Stunden nach einer kontrollierten Belastung messen.
 

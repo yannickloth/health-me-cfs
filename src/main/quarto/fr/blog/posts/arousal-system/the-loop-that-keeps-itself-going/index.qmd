@@ -9,7 +9,7 @@ lang: fr
 
 Beaucoup de maladies chroniques sont dites « auto-entretenues », mais une boucle n'est une idée sérieuse que si l'on peut nommer les flèches.
 
-La noradrénaline entraîne une lente vasomotion — la contraction rythmique des vaisseaux — qui pousse le liquide céphalorachidien et évacue les déchets pendant le sommeil (@Hauglund2025neVasomotion). La revue *Science* de 2026 décrit les neuromodulateurs comme la force mécanique de cette clairance (@Nedergaard2026OscillatorySleep).
+La noradrénaline entraîne une lente vasomotion — la contraction rythmique des vaisseaux — qui pousse le liquide céphalorachidien et évacue les déchets pendant le sommeil ; cela a été montré chez la souris (@Hauglund2025neVasomotion). La revue *Science* de 2026 décrit les neuromodulateurs comme la force mécanique de cette clairance (@Nedergaard2026OscillatorySleep).
 
 La boucle :
 
@@ -19,8 +19,10 @@ La boucle :
 4. La neuroinflammation altère le locus coeruleus.
 5. La noradrénaline baisse encore. Retour à l'étape 1.
 
-Si cette boucle existe, l'EM/SFC n'est pas un déficit fixe mais un système qui peut descendre lentement.
+Si cette boucle existe, l'EM/SFC n'est pas un déficit fixe mais un système qui peut descendre lentement — mieux décrit comme une boucle qui se resserre que comme des dommages cumulés.
 
 **Ce qui la soutient et ce qui ne la soutient pas.** La flèche noradrénaline vers clairance a de vraies preuves (animal/revue). Les flèches clairance vers inflammation vers locus coeruleus sont déduites, non mesurées dans l'EM/SFC.
 
-**Une idée concurrente que nous ne cachons pas.** Un bras dépend de savoir si la noradrénaline *supprime* la neuroinflammation. Deux études chez la souris se contredisent : l'une a trouvé que la noradrénaline supprimait l'activité microgliale (@Bu2025NeuroMicrogliaNE) ; l'autre a trouvé que bloquer le signal noradrénergique *réduisait* l'inflammation, chez les femelles seulement (@Evans2024LocusCoeruleusMicroglia). La direction est ouverte — c'est une hypothèse.
+**Où les preuves restent incertaines.** La flèche inflammation-vers-locus coeruleus suppose que la noradrénaline *supprime* la neuroinflammation. Deux études chez la souris le soutiennent largement : la noradrénaline via les récepteurs β2 microgliaux supprimait l'activité microgliale (@Bu2025NeuroMicrogliaNE), et l'inhibition du signal adrénergique du locus coeruleus *augmentait* la neuroinflammation (@Evans2024LocusCoeruleusMicroglia). Mais une sous-analyse de la seconde a trouvé que la délétion du récepteur β2 dans la microglie *réduisait* l'inflammation, chez les femelles seulement — la direction n'est donc pas entièrement tranchée et pourrait dépendre du sexe ou du contexte. C'est une hypothèse, pas une affirmation.
+
+Comme dans toute la série, le déficit sous-jacent repose sur un seul résultat non répliqué (@Aregawi2026Noradrenergic). *Pourquoi ça compte :* si une boucle entraîne la progression, traiter un seul nœud (la noradrénaline seule, par exemple) pourrait ne pas suffire ; la boucle devra peut-être être brisée en plus d'un point.

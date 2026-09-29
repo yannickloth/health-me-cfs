@@ -13,6 +13,6 @@ Les preuves sont réelles mais précoces : la noradrénaline a augmenté la croi
 
 **Pourquoi cela pourrait compter dans l'EM/SFC.** Si la noradrénaline de l'hôte est altérée, l'environnement du microbiome pourrait changer — un effet *hôte vers microbe*, différent de la direction habituelle.
 
-**Les réserves honnêtes.** L'étude bactérienne a utilisé un pathogène de poisson, pas un microbe intestinal humain. Les revues décrivent une plausibilité, pas un mécanisme démontré. Et le résultat central n'est pas répliqué.
+**Les réserves.** L'étude bactérienne a utilisé un pathogène de poisson, pas un microbe intestinal humain. Les revues décrivent une plausibilité, pas un mécanisme démontré. Et le résultat central n'est pas répliqué.
 
 **Comment tester.** Exposer des bactéries issues de communautés intestinales EM/SFC et témoins à la noradrénaline, et voir si croissance ou virulence changent, et si le tonus noradrénergique corrèle avec la composition du microbiome.

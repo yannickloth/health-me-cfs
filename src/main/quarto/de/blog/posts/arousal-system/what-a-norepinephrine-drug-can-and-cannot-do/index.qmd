@@ -7,9 +7,9 @@ categories: [Arousal system, Noradrenergic, Mechanisms]
 lang: de
 ---
 
-Angenommen, der selektive Noradrenalin-Mangel ist real, und man nimmt ein Medikament, das Noradrenalin verstärkt — ein NRI wie Atomoxetin oder ein Wachmacher wie Solriamfetol. Was ist zu erwarten?
+Angenommen, der selektive Noradrenalin-Mangel ist real, und man nimmt ein Medikament, das Noradrenalin verstärkt — ein NRI wie Atomoxetin oder ein dualer Dopamin-/Noradrenalin-Wiederaufnahmehemmer wie Solriamfetol. Was ist zu erwarten?
 
-Die ehrliche Antwort folgt daraus, womit das Defizit *korreliert*. In der Quellstudie folgte der Noradrenalin-Weg der **Griffausdauer und Fatigue-Werten** — motorische Leistung und allgemeine Gesundheit — und die größte Reduktion lag in der **PEM-Untergruppe** (@Aregawi2026Noradrenergic).
+Die Antwort folgt daraus, womit das Defizit *korreliert*. In der Quellstudie folgte der Noradrenalin-Weg der **Griffausdauer und Fatigue-Werten** — motorische Leistung und allgemeine Gesundheit — und die größte Reduktion lag in der **PEM-Untergruppe** (@Aregawi2026Noradrenergic).
 
 **Vernünftig zu erwarten (bescheiden):**
 - **Fatigue und Ausdauer** — das stärkste, wenn auch nur querschnittliche Signal.
@@ -17,14 +17,16 @@ Die ehrliche Antwort folgt daraus, womit das Defizit *korreliert*. In der Quells
 
 **Möglich, aber schwächer:** nicht erholsamer Schlaf und Arousal-Stabilität — die Rolle in Schlafsubstadien ist Tier-Evidenz (@OsorioForero2021NoradrenergicNREM).
 
-**Nicht zu erwarten, über diesen Weg:**
-- **Orthostatische Intoleranz und POTS** — die Studie fand *keinen* Zusammenhang mit orthostatischem Blutdruck oder Herzfrequenz.
-- **Stimmung und Angst** — ebenfalls keine Korrelation.
+**Schwaches oder fehlendes Signal in der Quellstudie (ein Nullbefund in kleiner Stichprobe beweist nicht, dass es keinen Effekt gibt):**
+- **Orthostatische Intoleranz und POTS** — kein Zusammenhang mit orthostatischem Blutdruck oder Herzfrequenz gefunden.
+- **Stimmung und Angst** — keine Korrelation gefunden.
+- **Schmerz** — keine Korrelation gefunden, obwohl eine separate Übersicht Noradrenalin mit absteigender Schmerzkontrolle verbindet.
+- **Kognition** — keine Korrelation gefunden.
 - **Muskelkater** — anderer Mechanismus, nicht laktatgetrieben.
-- **Laktatänderungen** — Noradrenalin *erhöht* akutes Laktat; ein Mangel sollte es senken, nicht erhöhen.
+- **Laktatänderungen** — noradrenerges Signal *erhöht* akutes Laktat; ein Mangel würde es eher senken als erhöhen.
 
-**Die Falle: Maskierung.** Stimulanzartige Medikamente können mehr Leistungsfähigkeit fühlen lassen, ohne Energie wiederherzustellen — man tut mehr und stürzt stärker ab.
+**Die Falle: Maskierung.** Stimulanzartige Medikamente können mehr Leistungsfähigkeit fühlen lassen, ohne Energie wiederherzustellen — man tut mehr und stürzt stärker ab. Diese Maskierungsgefahr ist eine plausible klinische Sorge, aber in keiner kontrollierten ME/CFS-Studie gemessen; sie ist eine Warnung zum Beobachten, keine belegte Tatsache.
 
-**Und die harte Grenze:** keine ME/CFS-Studie hat PEM als Endpunkt genutzt. Die Human-Daten sind indirekt (orthostatische Hypotonie, Narkolepsie, MS, Fibromyalgie). Die einzige ME/CFS-nahe Studie (Solriamfetol) verbesserte Fatigue und Exekutivfunktion, maß PEM aber nicht (@Young2025solriamfetol). Amantadin, ein Freisetzungsverstärker, half bei MS-Fatigue *nicht* (@Cruccioli2026AmantadineMSfatigue).
+**Und die harte Grenze:** keine ME/CFS-Studie dieser Medikamente hat PEM als Endpunkt genutzt — jedes „erwarten" oben ist daher eine Schlussfolgerung aus Korrelation, kein gemessenes Ergebnis. Sonstige Human-Daten stammen aus anderen Erkrankungen (orthostatische Hypotonie, Narkolepsie, MS, Fibromyalgie). Die einzige ME/CFS-Studie dieser Medikamente (Solriamfetol) verbesserte Fatigue und Exekutivfunktion, maß PEM aber nicht (@Young2025solriamfetol). Amantadin, ein NMDA-Antagonist mit indirekter dopaminerger Aktivität, half bei MS-Fatigue *nicht* (@Cruccioli2026AmantadineMSfatigue).
 
-*Keine medizinische Beratung. Jeder Versuch gehört zu einer Ärztin oder einem Arzt, mit Pacing und autonomer Ausgangsdiagnostik.*
+Alles hier beruht auf einer einzigen unreplizierten Liquorstudie mit 16 Patienten (@Aregawi2026Noradrenergic). *Keine medizinische Beratung. Jeder Versuch gehört zu einer Ärztin oder einem Arzt, mit Pacing und autonomer Ausgangsdiagnostik.*

@@ -7,7 +7,7 @@ categories: [Cross-links, Noradrenergic, Mechanisms]
 lang: fr
 ---
 
-Une idée élégante : le locus coeruleus agit comme **contrôle de gain** du cortex — il règle la force de réponse des réseaux, plutôt que de porter l'information lui-même. La théorie du « gain adaptatif » le formalise (@AstonJones2005AdaptiveGain).
+Une idée connue : le locus coeruleus agit comme **contrôle de gain** du cortex — il règle la force de réponse des réseaux, plutôt que de porter l'information lui-même. La théorie du « gain adaptatif » le formalise (@AstonJones2005AdaptiveGain).
 
 Deux axes rendent cela pertinent pour l'EM/SFC.
 
@@ -15,6 +15,6 @@ Deux axes rendent cela pertinent pour l'EM/SFC.
 
 **Immunité de barrière.** La noradrénaline peut réduire les molécules de jonction serrée des vaisseaux et permettre l'entrée de cellules immunitaires — le « réflexe de passerelle » (@Matsuyama2021GatewayReflex).
 
-**L'enjeu spéculatif.** Une défaillance du gain donnerait une seule explication à deux expériences distinctes : ressentir des signaux ordinaires comme disproportionnellement intenses, et un accès neuroimmun modifié au cerveau. C'est plus fort que « la noradrénaline est basse ».
+**L'enjeu spéculatif.** Une défaillance du gain donnerait une seule explication à deux expériences distinctes : ressentir des signaux ordinaires comme disproportionnellement intenses, et un accès neuroimmun modifié au cerveau. C'est plus ambitieux que « la noradrénaline est basse » — mais aussi moins directement étayé.
 
 **Les réserves.** Les deux bras sont des preuves animales/revues ; aucun n'a été mesuré contre un index noradrénergique dans l'EM/SFC. Testable, mais non testé.
