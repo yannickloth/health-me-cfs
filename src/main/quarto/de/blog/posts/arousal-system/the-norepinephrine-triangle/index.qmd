@@ -2,7 +2,7 @@
 title: "Das Noradrenalin-Dreieck: Narkolepsie, POTS und ME/CFS"
 description: "ME/CFS teilt ein Arousal-Problem mit Narkolepsie und eine Behandlungsgabelung mit POTS."
 author: "Yannick Loth"
-date: "2026-10-10"
+date: "2026-09-23"
 categories: [Arousal system, Noradrenergic, Mechanisms]
 lang: de
 ---

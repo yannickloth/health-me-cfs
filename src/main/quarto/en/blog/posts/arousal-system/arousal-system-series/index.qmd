@@ -2,7 +2,7 @@
 title: "The Arousal System: a blog series on norepinephrine in ME/CFS"
 description: "Norepinephrine is usually called the brain's alertness chemical. In ME/CFS it may be doing something more structural — and the evidence is both promising and thin."
 author: "Yannick Loth"
-date: "2026-10-01"
+date: "2026-09-14"
 categories: [Arousal system, Noradrenergic, Mechanisms]
 ---
 

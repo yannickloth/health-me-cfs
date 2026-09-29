@@ -2,7 +2,7 @@
 title: "Fatigué mais survolté : un éveil qui ne s'éteint pas"
 description: "Être épuisé mais incapable de dormir n'est pas la même chose que ne pas avoir sommeil. Le nommer le rend testable."
 author: "Yannick Loth"
-date: "2026-10-06"
+date: "2026-09-19"
 categories: [Arousal system, Noradrenergic, Mechanisms]
 lang: fr
 ---

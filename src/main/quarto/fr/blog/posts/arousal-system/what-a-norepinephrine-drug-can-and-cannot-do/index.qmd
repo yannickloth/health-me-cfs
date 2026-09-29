@@ -2,7 +2,7 @@
 title: "Ce qu'un « médicament noradrénergique » peut et ne peut pas faire"
 description: "Si le déficit est réel, quels symptômes devraient s'améliorer — et lesquels non ?"
 author: "Yannick Loth"
-date: "2026-10-05"
+date: "2026-09-18"
 categories: [Arousal system, Noradrenergic, Mechanisms]
 lang: fr
 ---

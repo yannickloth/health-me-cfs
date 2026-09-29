@@ -2,7 +2,7 @@
 title: "Liens transversaux à revoir : une courte série"
 description: "Quatre connexions en marge de l'axe noradrénergique principal."
 author: "Yannick Loth"
-date: "2026-10-16"
+date: "2026-09-29"
 categories: [Cross-links, Noradrenergic, Mechanisms]
 lang: fr
 ---

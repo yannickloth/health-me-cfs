@@ -2,7 +2,7 @@
 title: "Single study, big claims: why n=16 matters"
 description: "The norepinephrine finding that anchors an entire research thread comes from 16 patients at one centre. Here's what that means."
 author: "Yannick Loth"
-date: "2026-10-13"
+date: "2026-09-26"
 categories: [Self-correction, Metascience, Research]
 ---
 

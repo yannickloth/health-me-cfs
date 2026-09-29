@@ -2,7 +2,7 @@
 title: "Pupilles, préhension et rapport urinaire : tester le système sans ponction lombaire"
 description: "Le résultat sur la noradrénaline vient du liquide céphalorachidien. Peut-on mesurer le même système de l'extérieur ?"
 author: "Yannick Loth"
-date: "2026-10-08"
+date: "2026-09-21"
 categories: [Arousal system, Noradrenergic, Mechanisms]
 lang: fr
 ---

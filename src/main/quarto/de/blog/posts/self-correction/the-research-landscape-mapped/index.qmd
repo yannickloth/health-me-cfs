@@ -2,7 +2,7 @@
 title: "Die ME/CFS-Forschungslandschaft, kartiert"
 description: "Es gibt jetzt ein kuratiertes Register der ME/CFS-Forschung — 149 Projekte zum Durchsuchen."
 author: "Yannick Loth"
-date: "2026-10-14"
+date: "2026-09-27"
 categories: [Self-correction, Metascience, Research]
 lang: de
 ---

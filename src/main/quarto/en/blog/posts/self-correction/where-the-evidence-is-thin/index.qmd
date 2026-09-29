@@ -2,7 +2,7 @@
 title: "Where our evidence is thin: a tour of the weak spots"
 description: "A paper is only as honest as the places it admits are soft. Here are ours."
 author: "Yannick Loth"
-date: "2026-10-15"
+date: "2026-09-28"
 categories: [Self-correction, Metascience, Research]
 ---
 

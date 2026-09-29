@@ -2,7 +2,7 @@
 title: "Is the locus coeruleus the brain's gain control?"
 description: "A theory says the locus coeruleus tunes how strongly the cortex responds — which could link a norepinephrine deficit to sensory and interoceptive amplification."
 author: "Yannick Loth"
-date: "2026-10-19"
+date: "2026-10-02"
 categories: [Cross-links, Noradrenergic, Mechanisms]
 ---
 

@@ -2,7 +2,7 @@
 title: "Comment participer à la recherche sur l'EM/SFC"
 description: "Registres et biobanques rendent la recherche possible. Ce qu'ils sont, comment l'accès fonctionne, comment les patients contribuent."
 author: "Yannick Loth"
-date: "2026-10-20"
+date: "2026-10-03"
 categories: [Cross-links, Noradrenergic, Mechanisms]
 lang: fr
 ---

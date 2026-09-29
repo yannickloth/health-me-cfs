@@ -2,7 +2,7 @@
 title: "Le système d'éveil : une série de blog sur la noradrénaline dans l'EM/SFC"
 description: "La noradrénaline est souvent présentée comme la molécule de l'éveil. Dans l'EM/SFC, elle pourrait jouer un rôle plus structurel — les preuves sont à la fois prometteuses et minces."
 author: "Yannick Loth"
-date: "2026-10-01"
+date: "2026-09-14"
 categories: [Arousal system, Noradrenergic, Mechanisms]
 lang: fr
 ---

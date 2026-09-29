@@ -2,7 +2,7 @@
 title: "Ein Hebel ohne Pille: der Vagus und der Locus coeruleus"
 description: "Transkutane Vagusnervstimulation könnte das Noradrenalin-Zentrum erreichen — ein medikamentenfreier Weg, das System zu testen."
 author: "Yannick Loth"
-date: "2026-10-07"
+date: "2026-09-20"
 categories: [Arousal system, Noradrenergic, Mechanisms]
 lang: de
 ---

@@ -2,7 +2,7 @@
 title: "La boucle qui pourrait entretenir l'EM/SFC"
 description: "Une noradrénaline basse pourrait altérer la clairance cérébrale, aggravant l'inflammation qui supprime la noradrénaline — une boucle auto-entretenue."
 author: "Yannick Loth"
-date: "2026-10-04"
+date: "2026-09-17"
 categories: [Arousal system, Noradrenergic, Mechanisms]
 lang: fr
 ---

@@ -2,7 +2,7 @@
 title: "Das Arousal-System: eine Blogserie über Noradrenalin bei ME/CFS"
 description: "Noradrenalin gilt als das Wachheitsmolekül des Gehirns. Bei ME/CFS könnte es etwas Strukturelleres tun — die Evidenz ist zugleich vielversprechend und dünn."
 author: "Yannick Loth"
-date: "2026-10-01"
+date: "2026-09-14"
 categories: [Arousal system, Noradrenergic, Mechanisms]
 lang: de
 ---

@@ -2,7 +2,7 @@
 title: "Wie die Wissenschaft sich selbst korrigiert: eine kurze Serie"
 description: "Ein patientenfinanziertes Papier, das seine eigenen Korrekturen zeigt — inklusive einer, bei der wir eine Studie falsch herum gelesen haben."
 author: "Yannick Loth"
-date: "2026-10-11"
+date: "2026-09-24"
 categories: [Self-correction, Metascience, Research]
 lang: de
 ---

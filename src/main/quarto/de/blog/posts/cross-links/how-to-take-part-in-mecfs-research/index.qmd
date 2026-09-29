@@ -2,7 +2,7 @@
 title: "Wie man an ME/CFS-Forschung teilnimmt"
 description: "Register und Biobanken machen Forschung möglich. Was sie sind, wie Zugang funktioniert, wie Patienten beitragen."
 author: "Yannick Loth"
-date: "2026-10-20"
+date: "2026-10-03"
 categories: [Cross-links, Noradrenergic, Mechanisms]
 lang: de
 ---

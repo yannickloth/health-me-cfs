@@ -2,7 +2,7 @@
 title: "Les bactéries intestinales écoutent-elles les hormones du stress ?"
 description: "La noradrénaline est un signal de stress humain. Certaines bactéries poussent plus vite en sa présence."
 author: "Yannick Loth"
-date: "2026-10-17"
+date: "2026-09-30"
 categories: [Cross-links, Noradrenergic, Mechanisms]
 lang: fr
 ---

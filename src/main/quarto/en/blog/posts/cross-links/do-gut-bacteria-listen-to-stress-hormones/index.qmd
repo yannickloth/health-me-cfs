@@ -2,7 +2,7 @@
 title: "Do gut bacteria listen to stress hormones?"
 description: "Norepinephrine is a human stress signal. Some bacteria also grow faster when it is around. That is a two-way street rarely discussed."
 author: "Yannick Loth"
-date: "2026-10-17"
+date: "2026-09-30"
 categories: [Cross-links, Noradrenergic, Mechanisms]
 ---
 

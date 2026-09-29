@@ -2,7 +2,7 @@
 title: "Wir haben das Milnacipran-Ergebnis verdreht — hier die Korrektur"
 description: "Wir zitierten eine Fibromyalgie-Studie als Beleg für keinen Effekt auf Hirnlaktat. Die Studie fand das Gegenteil."
 author: "Yannick Loth"
-date: "2026-10-12"
+date: "2026-09-25"
 categories: [Self-correction, Metascience, Research]
 lang: de
 ---

@@ -2,7 +2,7 @@
 title: "How to take part in ME/CFS research"
 description: "Registers and biobanks make research possible. Here is what they are, how access works, and how patients contribute."
 author: "Yannick Loth"
-date: "2026-10-20"
+date: "2026-10-03"
 categories: [Cross-links, Research, Resources]
 ---
 

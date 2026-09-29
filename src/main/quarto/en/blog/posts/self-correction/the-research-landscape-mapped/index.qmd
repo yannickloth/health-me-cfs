@@ -2,7 +2,7 @@
 title: "The ME/CFS research landscape, mapped"
 description: "There is now a curated register of ME/CFS research — 149 projects you can browse. Here's what it is and why it matters."
 author: "Yannick Loth"
-date: "2026-10-14"
+date: "2026-09-27"
 categories: [Self-correction, Metascience, Research]
 ---
 

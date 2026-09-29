@@ -2,7 +2,7 @@
 title: "Cross-links worth a second look: a short series"
 description: "Four connections that fall outside the main noradrenergic thread — but are worth a look."
 author: "Yannick Loth"
-date: "2026-10-16"
+date: "2026-09-29"
 categories: [Cross-links, Noradrenergic, Mechanisms]
 ---
 
