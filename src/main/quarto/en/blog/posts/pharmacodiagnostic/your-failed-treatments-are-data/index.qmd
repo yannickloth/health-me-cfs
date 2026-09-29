@@ -39,7 +39,7 @@ Failed trials are less easy to inflate. A patient cannot expect themselves into 
 
 This is a hypothesis, not a fact. It has a test — if null reports replicate better across independent groups of patients than positive reports do, the asymmetry is real — and it has a caveat that this series will not drop: nulls are not magically protected either. A trial that happens to coincide with a spontaneous worsening can record a failure that was never the drug's, and an unrecorded change in something else — a new co-prescription, a seasonal shift, a stretch of unusually good sleep — can suppress a real effect and manufacture a null. Whether failures are *net* more trustworthy is a question to be measured, not assumed.
 
-## Why this matters
+## Significance
 
 If the idea holds, it changes the status of something you already have. Your medication history — every trial, every dose you titrated, every drug you abandoned because it did nothing — becomes a contribution to the only kind of evidence a biomarker-less disease can currently produce. It is more than a private medical footnote. This does not mean trialling treatments to produce data: drug trials need a prescriber, and this series does not encourage self-experimentation. The corpus aggregates what patients have already done under clinical care.
 

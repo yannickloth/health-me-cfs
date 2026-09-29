@@ -80,7 +80,7 @@ Prokinetic agents (low-dose erythromycin, prucalopride) stimulate the MMC and re
 
 ---
 
-## Why this matters for ME/CFS specifically
+## What SIBO costs the energy budget
 
 A patient with ME/CFS and untreated SIBO has two energy drains running simultaneously: the disease itself and the bacterial parasitism in their small intestine. The SIBO is stealing nutrients that the compromised mitochondria need. It's producing H₂S that further inhibits those mitochondria. It's driving intestinal inflammation that activates the immune system, consuming yet more energy. And it's causing post-prandial symptoms that the patient and their doctor attribute to "just ME/CFS."
 

@@ -133,7 +133,7 @@ A subset of antibody-positive patients shows PLR abnormalities, but the effect i
 
 ---
 
-## Why this matters now
+## Why this gap is cheap to close
 
 There is a specific quality to this evidence gap that is unusual. Most biomarker gaps in ME/CFS are expensive to close. You need mass spectrometry for metabolomics. You need sequencing for genomics. You need specialised MRI for neuroimaging.
 

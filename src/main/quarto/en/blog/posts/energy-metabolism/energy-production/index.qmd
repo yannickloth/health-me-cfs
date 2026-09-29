@@ -128,7 +128,7 @@ Network controllability analysis from our modeling suggests that 4-6 simultaneou
 
 ---
 
-## Why mathematical models matter
+## What mathematical models add
 
 Verbal descriptions of disease mechanisms — "immune activation causes fatigue" — are useful but imprecise. They don't tell you *how much* immune activation produces *how much* fatigue, whether the relationship is linear or has tipping points, or what happens when multiple mechanisms interact simultaneously.
 

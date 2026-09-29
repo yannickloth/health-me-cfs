@@ -52,7 +52,7 @@ For those who find the framework useful, here is what would confirm or refute th
 
 ## What you can actually do
 
-*This is not medical advice; it is a map of the conversation to have with a clinician.*
+*This is a map of the conversation to have with a clinician, not medical advice.*
 
 - **Start with the Beighton score — but do not stop there.** A positive Beighton (≥5/9 in adults) should trigger a full hEDS diagnostic assessment, including skin, pain, and family-history criteria. Do not self-diagnose hEDS from the Beighton score alone — the Beighton is a screening tool for joint laxity, and joint laxity alone is not hEDS.
 - **Triage: congenital vs acquired.** If your hypermobility has been stable since childhood, the main levers are mechanical (physiotherapy, bracing, compression) and the treatment of downstream amplifiers. If it has worsened in adulthood — more subluxations, new joint involvement, correlation with MCAS flares — the acquired-degradation pathway may be active, and mast-cell stabilisation plus a discussion about low-dose doxycycline with your clinician may be worth having.

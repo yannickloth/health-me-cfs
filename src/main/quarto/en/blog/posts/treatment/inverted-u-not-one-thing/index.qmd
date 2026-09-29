@@ -299,7 +299,7 @@ The following tables give, for each of the eighteen medications, a row per dose 
 
 ---
 
-## Why the distinction matters
+## Practical implication
 
 The therapeutic implication of an inverted-U depends entirely on which category the drug belongs to.
 

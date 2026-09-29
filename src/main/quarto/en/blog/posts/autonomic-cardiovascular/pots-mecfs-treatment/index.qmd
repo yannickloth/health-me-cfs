@@ -127,7 +127,7 @@ For those who find the framework useful, here is what would confirm or refute th
 
 ## What you can actually do
 
-*This is not medical advice; it is a map of the conversation to have with a clinician.*
+*This is a map of the conversation to have with a clinician, not medical advice.*
 
 - **Do the simplest thing first — but do it well.** Salt, water, and compression are the evidence-supported foundation. A trial of waist-high 20–30 mmHg compression stockings during upright activity, combined with 3 L of water and 3–6 g of added sodium per day (adjusted by a prescriber), is a genuine trial before any drug. If you cannot physically pull on the stockings — a real problem in moderate-to-severe ME/CFS — ask a caregiver or use a donning aid.
 - **Track one symptom, not everything.** Pick the single orthostatic symptom that limits you most — dizziness on standing, brain fog when upright, the need to sit in the shower — and track it. A simple daily note ("stood 3 minutes before dizzy, midodrine 5 mg") is enough. Do not build a multi-column diary if the effort triggers PEM.

@@ -125,7 +125,7 @@ This combination supports *endogenous* BH4 recycling. It is not equivalent to BH
 
 ---
 
-## Why this matters for ME/CFS research
+## Relevance to ME/CFS
 
 The BH4 convergence hypothesis suggests that measuring one molecule could:
 
