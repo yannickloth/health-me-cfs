@@ -9,7 +9,7 @@ lang: fr
 
 Vous vous réveillez et votre corps pèse plus lourd qu'hier. Ce n'est pas une courbature — c'est une lourdeur. Chaque mouvement exige une négociation. Le café est à trois mètres, mais le circuit striato-thalamique-frontal qui traduit *je veux du café* en *marche jusqu'à la cuisine* a un rapport signal-bruit cassé. La commande est là. L'exécution ne l'est pas. Ce n'est pas un manque de motivation. C'est la sortie d'une région cérébrale qui se trouve à la convergence de tous les déclencheurs connus de l'EM/SFC.
 
-Le précédent article a établi que le GWAS attribue le risque d'EM/SFC aux neurones, pas aux cellules immunitaires — l'architecture génétique dit : le cerveau. L'épidémiologie nous dit le reste : divers agents pathogènes (EBV, SARS-CoV-2, HHV-6), les traumatismes physiques, la chirurgie et le stress sévère peuvent tous déclencher la même maladie. La convergence clinique exige une convergence anatomique — mêmes symptômes, même circuit. Le GWAS DecodeME fournit maintenant l'adresse physique de cet endroit [@Li2025decodeME].
+Le précédent article a établi que le GWAS attribue le risque d'EM/SFC aux neurones, pas aux cellules immunitaires — l'architecture génétique dit : le cerveau. L'épidémiologie nous dit le reste : divers agents pathogènes (EBV, SARS-CoV-2, HHV-6), les traumatismes physiques, la chirurgie et le stress sévère peuvent tous déclencher la même maladie. La convergence clinique exige une convergence anatomique — mêmes symptômes, même circuit. Le GWAS DecodeME fournit maintenant l'adresse physique de cet endroit [@DecodeME2025].
 
 ---
 
@@ -84,7 +84,7 @@ Rien en science n'est prouvé par une seule prédiction. Mais un modèle qui ne 
 
 | Affirmation | Certitude |
 |---|---|
-| Les variantes du risque génétique de l'EM/SFC sont enrichies dans les MSN striataux | Très élevée — principal résultat du GWAS, résiste aux corrections de tests multiples [@Li2025decodeME] |
+| Les variantes du risque génétique de l'EM/SFC sont enrichies dans les MSN striataux | Très élevée — principal résultat du GWAS, résiste aux corrections de tests multiples [@DecodeME2025] |
 | Le striatum est le point de convergence de plusieurs types de déclencheurs de l'EM/SFC | Modérée — plausible sur le plan anatomique et mécanistique ; non directement démontrée |
 | Les quatre voies de convergence (neuro-inflammation, métabolique, auto-anticorps, perfusion) coexistent chez les patients | Faible à modérée — chaque voie est soutenue individuellement ; aucune étude n'a mesuré les quatre simultanément |
 | Les interventions dopaminergiques striatales devraient fonctionner quel que soit le type de déclencheur | Faible — prédiction issue du modèle ; non testée |

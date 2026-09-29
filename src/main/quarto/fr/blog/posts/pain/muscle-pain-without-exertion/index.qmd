@@ -52,7 +52,7 @@ Ce qui est établi : la machinerie moléculaire qui convertirait un stress méta
 
 ### 2. Le stress oxydatif peut entretenir une boucle de douleur auto-amplifiante
 
-**Niveau de preuve : mécanisme établi in vitro, application à l'EM/SFC inférentielle.** Un stress oxydatif systémique élevé a été documenté dans l'EM/SFC, avec des preuves à la fois d'une production accrue d'ERO (espèces réactives de l'oxygène) et d'une capacité antioxydante réduite [@maes2012oxidative]. L'analyse par protéomique redox corrobore des schémas étendus de modification oxydative [@oxidativestress2025].
+**Niveau de preuve : mécanisme établi in vitro, application à l'EM/SFC inférentielle.** Un stress oxydatif systémique élevé a été documenté dans l'EM/SFC, avec des preuves à la fois d'une production accrue d'ERO (espèces réactives de l'oxygène) et d'une capacité antioxydante réduite [@maes2012oxidative]. L'analyse par protéomique redox corrobore des schémas étendus de modification oxydative [@Shankar2025oxidativestress].
 
 Deux canaux TRP traduisent le stress oxydatif en douleur :
 

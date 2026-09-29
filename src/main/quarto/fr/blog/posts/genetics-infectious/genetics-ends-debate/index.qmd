@@ -15,7 +15,7 @@ Cette scène s'est jouée des dizaines de milliers de fois. Ce n'est pas de la m
 
 ## Ce que le GWAS a trouvé
 
-Le consortium DecodeME, dirigé par Li et al. 2025, a analysé environ 5 000 cas d'EM/SFC par rapport à des témoins issus de la population, dans ce qui est de loin l'étude d'association pangénomique (GWAS) la plus puissante statistiquement jamais menée sur la maladie [@Li2025decodeME]. La découverte principale n'est pas un « gène de l'EM/SFC » unique — il n'y en a pas. La découverte concerne *l'endroit où les variants génétiques qui augmentent le risque sont exprimés.*
+Le consortium DecodeME, dirigé par Li et al. 2025, a analysé environ 5 000 cas d'EM/SFC par rapport à des témoins issus de la population, dans ce qui est de loin l'étude d'association pangénomique (GWAS) la plus puissante statistiquement jamais menée sur la maladie [@DecodeME2025]. La découverte principale n'est pas un « gène de l'EM/SFC » unique — il n'y en a pas. La découverte concerne *l'endroit où les variants génétiques qui augmentent le risque sont exprimés.*
 
 Les variants de risque se regroupent massivement dans le **tissu cérébral**, plus précisément dans les **neurones.** Pas les cellules de la microglie, pas les astrocytes, pas les cellules immunitaires. Les neurones.
 

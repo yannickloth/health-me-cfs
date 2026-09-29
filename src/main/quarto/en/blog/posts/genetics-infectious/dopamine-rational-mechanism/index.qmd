@@ -12,7 +12,7 @@ Your doctor hands you a prescription for methylphenidate. *"Some patients find i
 
 ## The striatum is the target
 
-The DecodeME GWAS found that ME/CFS risk variants are enriched in medium spiny neurons (MSNs) of the striatum [@Li2025decodeME]. These are the cells that compute effort-reward decisions — whether moving, thinking, or acting is worth the energy cost.
+The DecodeME GWAS found that ME/CFS risk variants are enriched in medium spiny neurons (MSNs) of the striatum [@DecodeME2025]. These are the cells that compute effort-reward decisions — whether moving, thinking, or acting is worth the energy cost.
 
 This is not a subtle signal. It's the strongest cell-type enrichment in the study, replicated across independent analyses. If the genetics point to the striatum, then drugs that modulate striatal dopamine are no longer empirical guesses — they are rational pharmacology targeting the genetically implicated circuit.
 
@@ -88,7 +88,7 @@ That shift — from guessing to aiming — is the real progress.
 
 | Claim | Certainty |
 |-------|-----------|
-| ME/CFS genetic risk variants are enriched in striatal MSNs | Very high — primary GWAS finding [@Li2025decodeME] |
+| ME/CFS genetic risk variants are enriched in striatal MSNs | Very high — primary GWAS finding [@DecodeME2025] |
 | Dopamine-modulating drugs target the genetically implicated circuit | High — MSNs are dopamine-responsive neurons; the inference is direct |
 | Direct agonists will outperform reuptake inhibitors in ME/CFS | Low-moderate — depends on the VMAT2 lesion generalizing from long COVID to ME/CFS; untested |
 | VMAT2 imaging is a candidate diagnostic biomarker | Low — requires replication in ME/CFS cohorts, not just long COVID |

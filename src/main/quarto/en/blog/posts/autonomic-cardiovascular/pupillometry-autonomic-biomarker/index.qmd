@@ -125,7 +125,7 @@ The pupil responds normally in all ME/CFS groups — antibody-positive, antibody
 
 A subset of antibody-positive patients shows PLR abnormalities, but the effect is small, or the overlap between groups is too large for individual diagnosis. PLR may track autonomic dysfunction but can't distinguish pathogenic from non-pathogenic antibodies at the individual patient level.
 
-**Interpretation boundary:** Scenario C is distinguishable from a true positive only if a pre-specified effect-size threshold is met (e.g., Cohen's d ≥ 0.5 for constriction velocity difference between antibody-positive and negative groups). Effects below this threshold should be treated as a null result, not as "partial support." Without this boundary, the hypothesis is unfalsifiable [@lakens2013calculating].
+**Interpretation boundary:** Scenario C is distinguishable from a true positive only if a pre-specified effect-size threshold is met (e.g., Cohen's d ≥ 0.5 for constriction velocity difference between antibody-positive and negative groups). Effects below this threshold should be treated as a null result, not as "partial support." Without this boundary, the hypothesis is unfalsifiable [@Lakens2013calculating].
 
 **What changes for patients:** Ambiguity persists. The PLR effect may be real but too small to guide individual clinical decisions. Larger cohorts or confound-standardised protocols would be needed. The GPCR autoantibody question remains open, but this would favour the view that if these antibodies are functional, their effect is modest or restricted to a narrow subset.
 
@@ -145,7 +145,7 @@ What's missing is a study — specifically, someone with an existing ME/CFS coho
 
 ---
 
-*Note: This article draws on the systematic literature review and evidence synthesis documented in the pupillometry-autonomic-biomarker integration plan and the formal integration into the ME/CFS paper (Chapter @ch-biomarker-research, Biomarker Research; Chapter 8, Neurological Dysfunction; Chapter 14d, Cross-Disease Connections) completed on 2026-07-09.*
+*Note: This article draws on the systematic literature review and evidence synthesis documented in the pupillometry-autonomic-biomarker integration plan and the formal integration into the ME/CFS paper (the Biomarker Research chapter; Chapter 8, Neurological Dysfunction; Chapter 14d, Cross-Disease Connections) completed on 2026-07-09.*
 
 ---
 

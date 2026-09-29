@@ -15,7 +15,7 @@ Diese Szene hat sich zig Tausende Male wiederholt. Es ist keine Böswilligkeit �
 
 ## Was die GWAS gefunden hat
 
-Das DecodeME-Konsortium unter der Leitung von Li et al. 2025 analysierte rund 5.000 ME/CFS-Fälle gegen Populationskontrollen in der mit Abstand statistisch aussagekräftigsten genomweiten Assoziationsstudie, die je zu dieser Krankheit durchgeführt wurde [@Li2025decodeME]. Die Haupterkenntnis ist kein einziges „ME/CFS-Gen" — es gibt keins. Die Erkenntnis betrifft *den Ort, an dem die genetischen Varianten, die das Risiko erhöhen, exprimiert werden.*
+Das DecodeME-Konsortium unter der Leitung von Li et al. 2025 analysierte rund 5.000 ME/CFS-Fälle gegen Populationskontrollen in der mit Abstand statistisch aussagekräftigsten genomweiten Assoziationsstudie, die je zu dieser Krankheit durchgeführt wurde [@DecodeME2025]. Die Haupterkenntnis ist kein einziges „ME/CFS-Gen" — es gibt keins. Die Erkenntnis betrifft *den Ort, an dem die genetischen Varianten, die das Risiko erhöhen, exprimiert werden.*
 
 Die Risikovarianten häufen sich überwiegend im **Hirngewebe**, insbesondere in **Neuronen.** Nicht in Mikroglia, nicht in Astrozyten, nicht in Immunzellen. In Neuronen.
 

@@ -52,7 +52,7 @@ Was etabliert ist: Die molekulare Maschinerie, die metabolische Not in Schmerzsi
 
 ### 2. Oxidativer Stress könnte eine sich selbst verstärkende Schmerzschleife aufrechterhalten
 
-**Evidenzstufe: Mechanismus in vitro etabliert, ME/CFS-Anwendung inferentiell.** Erhöhter systemischer oxidativer Stress wurde bei ME/CFS dokumentiert, mit Belegen sowohl für erhöhte ROS-Produktion als auch für reduzierte antioxidative Kapazität [@maes2012oxidative]. Redox-Proteomik-Analysen bestätigen breite oxidative Modifikationsmuster [@oxidativestress2025].
+**Evidenzstufe: Mechanismus in vitro etabliert, ME/CFS-Anwendung inferentiell.** Erhöhter systemischer oxidativer Stress wurde bei ME/CFS dokumentiert, mit Belegen sowohl für erhöhte ROS-Produktion als auch für reduzierte antioxidative Kapazität [@maes2012oxidative]. Redox-Proteomik-Analysen bestätigen breite oxidative Modifikationsmuster [@Shankar2025oxidativestress].
 
 Zwei TRP-Kanäle übersetzen oxidativen Stress in Schmerz:
 

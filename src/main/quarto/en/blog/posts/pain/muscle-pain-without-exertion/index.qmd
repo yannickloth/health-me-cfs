@@ -51,7 +51,7 @@ What is established: the molecular machinery that would convert metabolic distre
 
 ### 2. Oxidative stress may sustain a self-amplifying pain loop
 
-**Evidence tier: mechanism established in vitro, ME/CFS application inferential.** Elevated systemic oxidative stress has been documented in ME/CFS, with evidence for both increased ROS production and reduced antioxidant capacity [@maes2012oxidative]. Redox proteomics analysis corroborates broad oxidative modification patterns [@oxidativestress2025].
+**Evidence tier: mechanism established in vitro, ME/CFS application inferential.** Elevated systemic oxidative stress has been documented in ME/CFS, with evidence for both increased ROS production and reduced antioxidant capacity [@maes2012oxidative]. Redox proteomics analysis corroborates broad oxidative modification patterns [@Shankar2025oxidativestress].
 
 Two TRP channels translate oxidative stress into pain:
 

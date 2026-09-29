@@ -19,7 +19,7 @@ L'enrichissement des neurones épineux moyens issu des GWAS se retrouve dans :
 
 | Affection | Enrichissement MSN | Références clés |
 |---|---|---|
-| EM/SFC | Oui | Consortium DecodeME, Li et al. 2025 [@Li2025decodeME] |
+| EM/SFC | Oui | Consortium DecodeME, Li et al. 2025 [@DecodeME2025] |
 | Schizophrénie | Oui | PGC3, Trubetskoy et al. 2022 [@Trubetskoy2022schizophrenia] |
 | Dépression majeure | Oui | PGC MDD, Wray et al. 2018 [@Wray2018depression] |
 | Trouble lié à la consommation d'alcool | Oui | PGC AUD, Zhou et al. 2020 [@Zhou2020AUD] |

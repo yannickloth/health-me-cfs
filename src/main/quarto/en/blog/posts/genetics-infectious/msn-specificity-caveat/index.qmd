@@ -18,7 +18,7 @@ Medium spiny neuron enrichment from GWAS is found in:
 
 | Condition | MSN Enrichment | Key References |
 |---|---|---|
-| ME/CFS | Yes | DecodeME consortium, Li et al. 2025 [@Li2025decodeME] |
+| ME/CFS | Yes | DecodeME consortium, Li et al. 2025 [@DecodeME2025] |
 | Schizophrenia | Yes | PGC3, Trubetskoy et al. 2022 [@Trubetskoy2022schizophrenia] |
 | Major depression | Yes | PGC MDD, Wray et al. 2018 [@Wray2018depression] |
 | Alcohol use disorder | Yes | PGC AUD, Zhou et al. 2020 [@Zhou2020AUD] |

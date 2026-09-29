@@ -13,7 +13,7 @@ Votre médecin vous remet une ordonnance pour du méthylphénidate. *« Certains
 
 ## Le striatum est la cible
 
-Le GWAS DecodeME a montré que les variants de risque de l'EM/SFC sont enrichis dans les neurones épineux moyens (MSN) du striatum [@Li2025decodeME]. Ce sont les cellules qui calculent les décisions effort-récompense — savoir si bouger, penser ou agir vaut vraiment le coût énergétique.
+Le GWAS DecodeME a montré que les variants de risque de l'EM/SFC sont enrichis dans les neurones épineux moyens (MSN) du striatum [@DecodeME2025]. Ce sont les cellules qui calculent les décisions effort-récompense — savoir si bouger, penser ou agir vaut vraiment le coût énergétique.
 
 Ce n'est pas un signal subtil. C'est l'enrichissement en types cellulaires le plus fort de l'étude, répliqué dans des analyses indépendantes. Si la génétique pointe vers le striatum, alors les médicaments qui modulent la dopamine striatale ne sont plus des paris empiriques — ce sont des traitements rationnels ciblant le circuit impliqué génétiquement.
 
@@ -89,7 +89,7 @@ Ce changement — du tâtonnement à la visée — est le véritable progrès.
 
 | Affirmation | Certitude |
 |-------|-----------|
-| Les variants de risque génétique de l'EM/SFC sont enrichis dans les MSN striataux | Très élevée — découverte GWAS principale [@Li2025decodeME] |
+| Les variants de risque génétique de l'EM/SFC sont enrichis dans les MSN striataux | Très élevée — découverte GWAS principale [@DecodeME2025] |
 | Les médicaments modulant la dopamine ciblent le circuit impliqué génétiquement | Élevée — les MSN sont des neurones sensibles à la dopamine ; l'inférence est directe |
 | Les agonistes directs surpasseront les inhibiteurs de recapture dans l'EM/SFC | Faible à modérée — dépend de la généralisation de la lésion du VMAT2 du COVID long à l'EM/SFC ; non testé |
 | L'imagerie du VMAT2 est un biomarqueur diagnostique candidat | Faible — exige une réplication dans des cohortes d'EM/SFC, pas seulement de COVID long |

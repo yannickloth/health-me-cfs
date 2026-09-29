@@ -8,7 +8,7 @@ categories: [Genetics, Neurology, Systems Biology]
 
 You wake up and your body weighs more than it did yesterday. Not sore — heavy. Every movement requires a negotiation. The coffee is three metres away but the striatal-thalamic-frontal circuit that translates *want coffee* into *walk to kitchen* has a broken signal-to-noise ratio. The command is there. The execution is not. This is not lack of motivation. This is the output of a brain region that sits at the convergence of every known ME/CFS trigger.
 
-The previous post established that the GWAS pins ME/CFS risk to neurons, not immune cells — the genetic architecture says the brain. Epidemiology tells us the rest: diverse pathogens (EBV, SARS-CoV-2, HHV-6), physical trauma, surgery, and severe stress can all trigger the same disease. Clinical convergence requires anatomical convergence — same symptoms, same circuit. The DecodeME GWAS now provides the physical address for where that happens [@Li2025decodeME].
+The previous post established that the GWAS pins ME/CFS risk to neurons, not immune cells — the genetic architecture says the brain. Epidemiology tells us the rest: diverse pathogens (EBV, SARS-CoV-2, HHV-6), physical trauma, surgery, and severe stress can all trigger the same disease. Clinical convergence requires anatomical convergence — same symptoms, same circuit. The DecodeME GWAS now provides the physical address for where that happens [@DecodeME2025].
 
 ---
 
@@ -83,7 +83,7 @@ Nothing in science is proved by a single prediction. But a model that generates 
 
 | Claim | Certainty |
 |---|---|
-| ME/CFS genetic risk variants are enriched in striatal MSNs | Very high — primary GWAS finding, survives multiple testing corrections [@Li2025decodeME] |
+| ME/CFS genetic risk variants are enriched in striatal MSNs | Very high — primary GWAS finding, survives multiple testing corrections [@DecodeME2025] |
 | The striatum is the convergence point for multiple ME/CFS trigger types | Moderate — anatomically and mechanistically plausible; not directly demonstrated |
 | The four convergence pathways (neuroinflammation, metabolic, autoantibody, perfusion) co-occur in patients | Low-moderate — each pathway individually supported; no study has measured all four simultaneously |
 | Striatal dopamine interventions should work regardless of trigger type | Low — prediction from the model; untested |

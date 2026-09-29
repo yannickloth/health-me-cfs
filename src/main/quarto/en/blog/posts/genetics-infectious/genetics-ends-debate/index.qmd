@@ -14,7 +14,7 @@ This scene has played out tens of thousands of times. It is not malice — it is
 
 ## What the GWAS found
 
-The DecodeME consortium, led by Li et al. 2025, analysed ~5,000 ME/CFS cases against population controls in what is by far the most statistically powered genome-wide association study of the disease ever conducted [@Li2025decodeME]. The headline finding is not a single "ME/CFS gene" — there isn't one. The finding is about *where the genetic variants that increase risk are expressed.*
+The DecodeME consortium, led by Li et al. 2025, analysed ~5,000 ME/CFS cases against population controls in what is by far the most statistically powered genome-wide association study of the disease ever conducted [@DecodeME2025]. The headline finding is not a single "ME/CFS gene" — there isn't one. The finding is about *where the genetic variants that increase risk are expressed.*
 
 The risk variants cluster overwhelmingly in **brain tissue**, specifically in **neurons.** Not microglia, not astrocytes, not immune cells. Neurons.
 

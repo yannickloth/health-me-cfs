@@ -13,7 +13,7 @@ Ihr Arzt überreicht Ihnen ein Rezept für Methylphenidat. *„Bei manchen Patie
 
 ## Das Striatum ist das Ziel
 
-Die DecodeME-GWAS ergab, dass ME/CFS-Risikovarianten in den mittelgroßen Stachelneuronen (MSN) des Striatums angereichert sind [@Li2025decodeME]. Dies sind die Zellen, die Aufwand-Belohnungs-Entscheidungen berechnen — ob sich Bewegen, Denken oder Handeln die Energiekosten lohnt.
+Die DecodeME-GWAS ergab, dass ME/CFS-Risikovarianten in den mittelgroßen Stachelneuronen (MSN) des Striatums angereichert sind [@DecodeME2025]. Dies sind die Zellen, die Aufwand-Belohnungs-Entscheidungen berechnen — ob sich Bewegen, Denken oder Handeln die Energiekosten lohnt.
 
 Dies ist kein subtiles Signal. Es ist die stärkste Zelltyp-Anreicherung der Studie, in unabhängigen Analysen repliziert. Wenn die Genetik auf das Striatum deutet, dann sind Medikamente, die striatales Dopamin modulieren, keine empirischen Vermutungen mehr — sie sind rationale Pharmakologie, die den genetisch betroffenen Schaltkreis ansteuert.
 
@@ -89,7 +89,7 @@ Dieser Wandel — vom Raten zum Zielen — ist der eigentliche Fortschritt.
 
 | Behauptung | Sicherheit |
 |-------|-----------|
-| ME/CFS-Risikovarianten sind in striatalen MSN angereichert | Sehr hoch — primäres GWAS-Ergebnis [@Li2025decodeME] |
+| ME/CFS-Risikovarianten sind in striatalen MSN angereichert | Sehr hoch — primäres GWAS-Ergebnis [@DecodeME2025] |
 | Dopamin-modulierende Medikamente zielen auf den genetisch betroffenen Schaltkreis | Hoch — MSN sind dopaminresponsive Neuronen; die Schlussfolgerung ist direkt |
 | Direkte Agonisten werden Wiederaufnahmehemmer bei ME/CFS übertreffen | Niedrig bis mittel — hängt davon ab, ob sich die VMAT2-Läsion von Long COVID auf ME/CFS verallgemeinern lässt; ungetestet |
 | VMAT2-Bildgebung ist ein Kandidaten-Biomarker | Niedrig — erfordert Replikation in ME/CFS-Kohorten, nicht nur Long COVID |

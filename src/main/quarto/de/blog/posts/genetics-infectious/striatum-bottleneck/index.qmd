@@ -9,7 +9,7 @@ lang: de
 
 Sie wachen auf und Ihr Körper wiegt mehr als gestern. Nicht schmerzend — schwer. Jede Bewegung erfordert eine Verhandlung. Der Kaffee ist drei Meter entfernt, aber der striato-thalamisch-frontale Schaltkreis, der *Kaffee wollen* in *zur Küche gehen* übersetzt, hat ein gestörtes Signal-Rausch-Verhältnis. Der Befehl ist da. Die Ausführung nicht. Das ist kein Mangel an Motivation. Das ist die Ausgabe einer Gehirnregion, die am Konvergenzpunkt aller bekannten ME/CFS-Auslöser sitzt.
 
-Der vorherige Beitrag hat festgestellt, dass die GWAS das ME/CFS-Risiko den Neuronen zuordnet, nicht den Immunzellen — die genetische Architektur sagt: das Gehirn. Die Epidemiologie sagt uns den Rest: verschiedene Krankheitserreger (EBV, SARS-CoV-2, HHV-6), körperliche Traumata, Operationen und schwerer Stress können alle dieselbe Krankheit auslösen. Klinische Konvergenz erfordert anatomische Konvergenz — gleiche Symptome, gleicher Schaltkreis. Die DecodeME-GWAS liefert nun die physikalische Adresse dafür [@Li2025decodeME].
+Der vorherige Beitrag hat festgestellt, dass die GWAS das ME/CFS-Risiko den Neuronen zuordnet, nicht den Immunzellen — die genetische Architektur sagt: das Gehirn. Die Epidemiologie sagt uns den Rest: verschiedene Krankheitserreger (EBV, SARS-CoV-2, HHV-6), körperliche Traumata, Operationen und schwerer Stress können alle dieselbe Krankheit auslösen. Klinische Konvergenz erfordert anatomische Konvergenz — gleiche Symptome, gleicher Schaltkreis. Die DecodeME-GWAS liefert nun die physikalische Adresse dafür [@DecodeME2025].
 
 ---
 
@@ -84,7 +84,7 @@ Nichts in der Wissenschaft wird durch eine einzelne Vorhersage bewiesen. Aber ei
 
 | Behauptung | Sicherheit |
 |---|---|
-| ME/CFS-Risikovarianten sind in striatalen MSN angereichert | Sehr hoch — primärer GWAS-Befund, hält Korrekturen für multiples Testen stand [@Li2025decodeME] |
+| ME/CFS-Risikovarianten sind in striatalen MSN angereichert | Sehr hoch — primärer GWAS-Befund, hält Korrekturen für multiples Testen stand [@DecodeME2025] |
 | Das Striatum ist der Konvergenzpunkt für mehrere ME/CFS-Auslösertypen | Mittel — anatomisch und mechanistisch plausibel; nicht direkt nachgewiesen |
 | Die vier Konvergenzwege (Neuroinflammation, metabolisch, Autoantikörper, Perfusion) treten bei Patienten gemeinsam auf | Niedrig-mittel — jeder Weg ist einzeln gestützt; keine Studie hat alle vier gleichzeitig gemessen |
 | Striatale Dopamin-Interventionen sollten unabhängig vom Auslösertyp wirken | Niedrig — Vorhersage aus dem Modell; ungetestet |
