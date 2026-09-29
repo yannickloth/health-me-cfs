@@ -89,7 +89,7 @@ A ferritin of 22 in an otherwise healthy 25-year-old athlete may warrant no acti
 
 The tests to order beyond standard panels are not exotic:
 
-- **Ferritin** (with context: treat if <50-100 in symptomatic patients, regardless of anaemia status)
+- **Ferritin** (with context: if ferritin is below roughly 50–100 µg/L in a symptomatic patient, repletion is worth discussing with your clinician even without anaemia — iron is an active therapy with real risks, not something to start unmonitored)
 - **RBC magnesium** (imperfect but better than serum)
 - **Methylmalonic acid + homocysteine** (functional B12/folate status)
 - **25-OH vitamin D** (target 50-60 ng/mL, not just "above 30")

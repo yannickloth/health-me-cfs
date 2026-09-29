@@ -120,7 +120,7 @@ Staying within this envelope prevents PEM episodes. Over time, our model predict
 
 ## Why single treatments usually aren't enough
 
-When we coupled the energy model with immune dynamics, autonomic regulation (the nervous system's automatic control of heart rate, blood pressure, and digestion), and hormone signaling into an integrated 64-variable mathematical system, a striking result emerged: the model predicts that the disease state is *stable*. Not in the medical sense of "not getting worse," but in the mathematical sense: the system has settled into an alternative equilibrium — a disease attractor — that actively resists return to health. This remains a theoretical prediction, but it's consistent with the clinical reality that ME/CFS rarely resolves spontaneously.
+When we coupled the energy model with immune dynamics, autonomic regulation (the nervous system's automatic control of heart rate, blood pressure, and digestion), and hormone signaling into an integrated 67-variable mathematical system, a striking result emerged: the model predicts that the disease state is *stable*. Not in the medical sense of "not getting worse," but in the mathematical sense: the system has settled into an alternative equilibrium — a disease attractor — that actively resists return to health. This remains a theoretical prediction, but it's consistent with the clinical reality that ME/CFS rarely resolves spontaneously.
 
 The energy deficit impairs immune function. Impaired immunity allows chronic low-grade activation. Immune activation drains energy. Energy deficits impair stress hormones. Disrupted hormones fail to suppress inflammation. Inflammation damages mitochondria. And so on.
 

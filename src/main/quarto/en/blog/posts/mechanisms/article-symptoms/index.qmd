@@ -112,7 +112,7 @@ The autonomic nervous system regulates everything your body does without conscio
 
 For patients with hypermobile Ehlers-Danlos syndrome — overrepresented among ME/CFS patients — the math gets worse. Increased venous compliance means more blood pools during standing, requiring even greater compensatory effort. Our model predicts this imposes a 10–20% reduction in energy available for activity during upright hours, independent of any mitochondrial or immune dysfunction.
 
-**Gut motility failure.** The vagus nerve, which drives digestive motility, is part of this autonomic collapse. Reduced vagal tone means impaired intestinal movement, which allows bacterial overgrowth (SIBO) — documented in 48% of tested ME/CFS patients. The overgrown bacteria increase gut permeability, allowing bacterial products to leak into the bloodstream, triggering more immune activation, which drains more energy, which further impairs the autonomic system. Another vicious cycle.
+**Gut motility failure.** The vagus nerve, which drives digestive motility, is part of this autonomic collapse. Reduced vagal tone means impaired intestinal movement, which allows bacterial overgrowth (SIBO) — documented in 48% of tested ME/CFS patients in the largest series to date [@Pimentel2000SIBOcfs]. The overgrown bacteria increase gut permeability, allowing bacterial products to leak into the bloodstream, triggering more immune activation, which drains more energy, which further impairs the autonomic system. Another vicious cycle.
 
 ---
 
@@ -134,7 +134,7 @@ Post-exertional malaise (PEM) — the hallmark symptom of ME/CFS, covered in det
 
 But even at rest, these aren't six separate diseases. They're six downstream consequences of the same upstream failure, connected through shared substrates, signaling molecules, and feedback loops. The energy deficit impairs immune function. The immune response drains energy. Cytokines cross into the brain. Brain inflammation disrupts neurotransmitters. Neurotransmitter deficits impair autonomic regulation. Autonomic failure reduces blood flow. Reduced blood flow worsens the energy deficit.
 
-Our integrated mathematical model tracks all of these interactions through 64 coupled state variables. When we analyzed the network structure using control theory, a striking result emerged: the system requires **4–6 simultaneous intervention points** to be driven from the disease state back to health. These span across subsystems:
+Our integrated mathematical model tracks all of these interactions through 67 coupled state variables. When we analyzed the network structure using control theory, a striking result emerged: the system requires **4–6 simultaneous intervention points** to be driven from the disease state back to health. These span across subsystems:
 
 - Complex I activity (energy metabolism)
 - Cytokine production (immune system)
