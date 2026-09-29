@@ -39,7 +39,7 @@ Wenn ME/CFS das autonome Gleichgewicht zur sympathischen Dominanz kippt, ist die
 
 ### 3. Immunerschöpfung: nicht nur wenig Energie, wenig Reparaturkapazität
 
-Die Immunerschöpfung bei ME/CFS reicht über NK-Zellen hinaus. CD8+-T-Zellen zeigen eine transkriptionelle und epigenetische Umprogrammierung hin zu spätstadiger Erschöpfung [@Iu2024CD8exhaustion]. Zytokinprofile zeigen unterdrückte Interferon-Signalübertragung und reduzierte Immunglobulin-Genexpression [@EatonFitch2024ImmuneExhaustion].
+Die Immunerschöpfung bei ME/CFS reicht über NK-Zellen hinaus. CD8+-T-Zellen zeigen eine transkriptionelle und epigenetische Umprogrammierung hin zu spätstadiger Erschöpfung [@Iu2024CD8Exhaustion]. Zytokinprofile zeigen unterdrückte Interferon-Signalübertragung und reduzierte Immunglobulin-Genexpression [@EatonFitch2024ImmuneExhaustion].
 
 Was passiert, wenn das Immunsystem global erschöpft ist? Es existiert ein klinisches Modell: Verbrennungspatienten. Stanojcic et al. (2016) dokumentierten, dass die Immunerschöpfung bei älteren Verbrennungspatienten – ein Phänotyp aus NK-Dysfunktion, deregulierten Zytokinen und beeinträchtigter früher Immunantwort – eine klinisch signifikante Beeinträchtigung der Wundheilung erzeugte [@Stanojcic2016ImmuneExhaustionBurns]. Das Verbrennungsmodell ist extremer als ME/CFS, aber der Immunphänotyp überlappt: halbierte NK-Zytotoxizität, chronisch erhöhtes TGF-β, anhaltende Immunaktivierung und epigenetische Unterdrückung von Reparaturprogrammen [@Abhimanyu2021PostInfectiousEpigenetics].
 

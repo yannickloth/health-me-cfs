@@ -39,7 +39,7 @@ Das beendet den Rahmen „autoimmun vs. neurologisch", der das Feld seit zwei Ja
 
 Die MSN-Anreicherung ist die spezifischste Erkenntnis der GWAS, und sie verbindet direkt mit einer 25 Jahre alten Hypothese.
 
-Chaudhuri und Behan schlugen 2000 vor, dass ME/CFS eine Basalganglien-Dysfunktion beinhaltet, insbesondere eine Störung der dopaminergen Signalübertragung im Striatum, die die Fähigkeit des Gehirns beeinträchtigt, Anstrengung in Handlung zu übersetzen [@Chaudhuri2000basal]. Damals beruhte die Hypothese auf funktioneller Bildgebung, die eine reduzierte striatale Dopamin-Transporterbindung zeigte, sowie auf der klinischen Beobachtung von motorischer Verlangsamung, reduzierter Motivation und Belastungsintoleranz, die nicht zu einer peripheren Muskelpathologie passten.
+Chaudhuri und Behan schlugen 2000 vor, dass ME/CFS eine Basalganglien-Dysfunktion beinhaltet, insbesondere eine Störung der dopaminergen Signalübertragung im Striatum, die die Fähigkeit des Gehirns beeinträchtigt, Anstrengung in Handlung zu übersetzen [@Chaudhuri2000basalganglia]. Damals beruhte die Hypothese auf funktioneller Bildgebung, die eine reduzierte striatale Dopamin-Transporterbindung zeigte, sowie auf der klinischen Beobachtung von motorischer Verlangsamung, reduzierter Motivation und Belastungsintoleranz, die nicht zu einer peripheren Muskelpathologie passten.
 
 Die GWAS liefert das genetische Fundament für eine Hypothese, die bislang vollständig auf funktioneller Bildgebung und klinischer Beobachtung beruhte. Das MSN ist der Zelltyp, den die Hypothese vorhergesagt hatte. Die Genetik ist die Fußnote: *Der Mechanismus steckt im Gewebe.*
 

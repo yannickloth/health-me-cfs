@@ -19,7 +19,7 @@ Das DecodeME-Konsortium analysierte über 15.000 Teilnehmer (darunter rund 5.000
 
 Dieses Signal hält Korrekturen für multiples Testen in drei unabhängigen Zelltyp-Atlanten stand. Die Anreicherung in Immunzellen ist null — das genetische Signal stammt nicht von Mikroglia, Astrozyten oder peripheren Immunzellen. Es stammt von den Neuronen im Zentrum der motorischen, motivationalen und Belohnungs-Schaltkreise des Gehirns.
 
-Das Striatum als Ort der Fatigue ist nicht neu. Chaudhuri und Behan schlugen vor über zwei Jahrzehnten vor, dass zentrale Fatigue aus einem Versagen der Integration von limbischem Input und motorischer Funktion durch die Basalganglien resultiert — insbesondere das striato-thalamisch-frontale kortikale System — bei dem gestörte dopaminerge Signalübertragung die Fähigkeit des Gehirns beeinträchtigt, Anstrengung in Handlung zu übersetzen [@Chaudhuri2000basal]. Eine klinische Hypothese, die auf der Symptomüberschneidung mit Parkinson und Multipler Sklerose beruht, verfügt nun über genetische Belege aus dem größten je zusammengestellten ME/CFS-Datensatz.
+Das Striatum als Ort der Fatigue ist nicht neu. Chaudhuri und Behan schlugen vor über zwei Jahrzehnten vor, dass zentrale Fatigue aus einem Versagen der Integration von limbischem Input und motorischer Funktion durch die Basalganglien resultiert — insbesondere das striato-thalamisch-frontale kortikale System — bei dem gestörte dopaminerge Signalübertragung die Fähigkeit des Gehirns beeinträchtigt, Anstrengung in Handlung zu übersetzen [@Chaudhuri2000basalganglia]. Eine klinische Hypothese, die auf der Symptomüberschneidung mit Parkinson und Multipler Sklerose beruht, verfügt nun über genetische Belege aus dem größten je zusammengestellten ME/CFS-Datensatz.
 
 ---
 
@@ -43,7 +43,7 @@ Wenn das Striatum der Flaschenhals ist, wie erreichen unterschiedliche Auslöser
 
 **Metabolisches Versagen.** Das Striatum hat unter allen Gehirnregionen eine der höchsten metabolischen Anforderungen. MSN sind GABAerge Neuronen, die tonisch mit hohen Raten feuern und ATP in einem Tempo verbrauchen, das sie anfällig für jede Verringerung der Energieverfügbarkeit macht. Eine mitochondriale Beeinträchtigung trifft das Striatum zuerst und am härtesten.
 
-**Autoantikörper-Störung.** GPCR-Autoantikörper gegen adrenerge, muskarinerge und dopaminerge Rezeptoren wurden bei einer Untergruppe von ME/CFS-Patienten dokumentiert [@Loebel2016antibodies]. Selbst ein Zugang auf niedrigem Niveau an zirkumventrikulären Organen oder durch eine beeinträchtigte Barriere kann die Grundlinie der striatalen Dopamin-Signalübertragung verschieben.
+**Autoantikörper-Störung.** GPCR-Autoantikörper gegen adrenerge, muskarinerge und dopaminerge Rezeptoren wurden bei einer Untergruppe von ME/CFS-Patienten dokumentiert [@Loebel2016]. Selbst ein Zugang auf niedrigem Niveau an zirkumventrikulären Organen oder durch eine beeinträchtigte Barriere kann die Grundlinie der striatalen Dopamin-Signalübertragung verschieben.
 
 **Hypoperfusion.** Das Striatum liegt am distalen Ende von Gefäßgebieten, die es empfindlich für Perfusionsdefizite machen. Wenn das Herzzeitvolumen sinkt oder die Autoregulation versagt, verliert das Striatum früh die Sauerstoffversorgung — und Sauerstoff ist das limitierende Substrat für das ATP, das MSN kontinuierlich verbrennen.
 

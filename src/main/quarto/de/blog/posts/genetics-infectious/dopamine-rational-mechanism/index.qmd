@@ -55,7 +55,7 @@ Die klinischen Daten sind dünn, aber in der Richtung konsistent:
 
 - **Methylphenidat** verbessert die kognitiven Symptome bei einigen ME/CFS-Patienten — sowohl die Blockmans-RCT als auch Fallserien finden einen realen, aber variablen Nutzen [@Blockmans2006MPHCFS]
 - **Dopamin-Metabolite im Liquor** sind bei ME/CFS verändert, konsistent mit einem reduzierten zentralen Dopamin-Tonus [@Miller2014dopamine]
-- **Striatales Dopamin korreliert bei Parkinson stärker mit Fatigue** als nigrostriatale motorische Defizite — der striatale Fatigue-Schaltkreis ist nicht ME/CFS-spezifisch, sondern krankheitsübergreifend. Chaudhuri und Behan nutzten diese Parkinson-Parallele im Jahr 2000, um zu argumentieren, dass eine Basalganglien-Dysfunktion der zentralen Fatigue von ME/CFS zugrunde liegt [@Chaudhuri2000basal]
+- **Striatales Dopamin korreliert bei Parkinson stärker mit Fatigue** als nigrostriatale motorische Defizite — der striatale Fatigue-Schaltkreis ist nicht ME/CFS-spezifisch, sondern krankheitsübergreifend. Chaudhuri und Behan nutzten diese Parkinson-Parallele im Jahr 2000, um zu argumentieren, dass eine Basalganglien-Dysfunktion der zentralen Fatigue von ME/CFS zugrunde liegt [@Chaudhuri2000basalganglia]
 
 Nichts davon reichte vor der GWAS für eine sichere Behandlungsbegründung. Jetzt sieht es nach konvergierender Evidenz aus.
 

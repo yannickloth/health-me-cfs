@@ -39,7 +39,7 @@ Cela met fin au cadre « auto-immune ou neurologique » qui a paralysé le domai
 
 L'enrichissement des MSN est la découverte la plus spécifique du GWAS, et il se connecte directement à une hypothèse vieille de vingt-cinq ans.
 
-Chaudhuri et Behan ont proposé en 2000 que l'EM/SFC implique une dysfonction des ganglions de la base, plus précisément une perturbation de la signalisation dopaminergique dans le striatum qui altère la capacité du cerveau à traduire l'effort en action [@Chaudhuri2000basal]. À l'époque, l'hypothèse reposait sur l'imagerie fonctionnelle montrant une liaison réduite du transporteur de dopamine striatal et sur l'observation clinique d'un ralentissement moteur, d'une motivation réduite et d'une intolérance à l'effort ne correspondant pas à une pathologie musculaire périphérique.
+Chaudhuri et Behan ont proposé en 2000 que l'EM/SFC implique une dysfonction des ganglions de la base, plus précisément une perturbation de la signalisation dopaminergique dans le striatum qui altère la capacité du cerveau à traduire l'effort en action [@Chaudhuri2000basalganglia]. À l'époque, l'hypothèse reposait sur l'imagerie fonctionnelle montrant une liaison réduite du transporteur de dopamine striatal et sur l'observation clinique d'un ralentissement moteur, d'une motivation réduite et d'une intolérance à l'effort ne correspondant pas à une pathologie musculaire périphérique.
 
 Le GWAS fournit le fondement génétique d'une hypothèse qui jusqu'ici reposait entièrement sur l'imagerie fonctionnelle et l'observation clinique. Le MSN est le type cellulaire que l'hypothèse avait prédit. La génétique est la note de bas de page : *le mécanisme est inscrit dans le tissu.*
 

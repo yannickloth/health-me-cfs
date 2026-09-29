@@ -38,7 +38,7 @@ If ME/CFS tilts the autonomic balance toward sympathetic dominance, the predicti
 
 ### 3. Immune exhaustion: not just low energy, low repair capacity
 
-Immune exhaustion in ME/CFS extends beyond NK cells. CD8+ T cells show transcriptional and epigenetic reprogramming toward late-stage exhaustion [@Iu2024CD8exhaustion]. Cytokine profiles show suppressed interferon signaling and reduced immunoglobulin gene expression [@EatonFitch2024ImmuneExhaustion].
+Immune exhaustion in ME/CFS extends beyond NK cells. CD8+ T cells show transcriptional and epigenetic reprogramming toward late-stage exhaustion [@Iu2024CD8Exhaustion]. Cytokine profiles show suppressed interferon signaling and reduced immunoglobulin gene expression [@EatonFitch2024ImmuneExhaustion].
 
 What happens when the immune system is globally exhausted? A clinical model exists: burn patients. Stanojcic et al. (2016) documented that immune exhaustion in elderly burn patients — a phenotype of NK dysfunction, dysregulated cytokines, and impaired early immune response — produced clinically significant wound healing impairment [@Stanojcic2016ImmuneExhaustionBurns]. The burn model is more extreme than ME/CFS, but the immune phenotype overlaps: halved NK cytotoxicity, chronic TGF-β elevation, persistent immune activation, and epigenetic suppression of repair programs [@Abhimanyu2021PostInfectiousEpigenetics].
 

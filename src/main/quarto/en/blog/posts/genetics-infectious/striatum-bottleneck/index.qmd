@@ -18,7 +18,7 @@ The DecodeME consortium analysed over 15,000 participants (including ~5,000 ME/C
 
 This signal survives multiple testing corrections across three independent cell-type atlases. Immune cell enrichment is null — the genetic signal does not come from microglia, astrocytes, or peripheral immune cells. It comes from the neurons at the centre of the brain's motor, motivational, and reward circuitry.
 
-The striatum as a fatigue locus is not new. Chaudhuri and Behan proposed over two decades ago that central fatigue results from failure in the basal ganglia's integration of limbic input and motor function — specifically the striatal-thalamic-frontal cortical system — in which disrupted dopaminergic signalling impairs the brain's ability to translate effort into action [@Chaudhuri2000basal]. A clinical hypothesis based on symptom overlap with Parkinson's and multiple sclerosis now has genetic evidence from the largest ME/CFS dataset ever assembled.
+The striatum as a fatigue locus is not new. Chaudhuri and Behan proposed over two decades ago that central fatigue results from failure in the basal ganglia's integration of limbic input and motor function — specifically the striatal-thalamic-frontal cortical system — in which disrupted dopaminergic signalling impairs the brain's ability to translate effort into action [@Chaudhuri2000basalganglia]. A clinical hypothesis based on symptom overlap with Parkinson's and multiple sclerosis now has genetic evidence from the largest ME/CFS dataset ever assembled.
 
 ---
 
@@ -42,7 +42,7 @@ If the striatum is the bottleneck, how do diverse triggers reach it? The evidenc
 
 **Metabolic failure.** The striatum has among the highest metabolic demand of any brain region. MSNs are GABAergic neurons that fire tonically at high rates, consuming ATP at a pace that makes them vulnerable to any reduction in energy availability. Mitochondrial impairment hits the striatum first and hardest.
 
-**Autoantibody disruption.** GPCR autoantibodies against adrenergic, muscarinic, and dopaminergic receptors have been documented in a subset of ME/CFS patients [@Loebel2016antibodies]. Even low-level access at circumventricular organs or through a compromised barrier can shift the baseline of striatal dopamine signalling.
+**Autoantibody disruption.** GPCR autoantibodies against adrenergic, muscarinic, and dopaminergic receptors have been documented in a subset of ME/CFS patients [@Loebel2016]. Even low-level access at circumventricular organs or through a compromised barrier can shift the baseline of striatal dopamine signalling.
 
 **Hypoperfusion.** The striatum sits at the distal end of vascular territories that make it sensitive to perfusion deficits. When cardiac output drops or autoregulation fails, the striatum loses oxygen delivery early — and oxygen is the rate-limiting substrate for the ATP that MSNs burn continuously.
 

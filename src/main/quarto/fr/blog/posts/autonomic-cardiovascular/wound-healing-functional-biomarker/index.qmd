@@ -39,7 +39,7 @@ Si l'EM/SFC incline l'équilibre autonome vers la dominance sympathique, la pré
 
 ### 3. Épuisement immunitaire : pas seulement une faible énergie, une faible capacité de réparation
 
-L'épuisement immunitaire dans l'EM/SFC va au-delà des cellules NK. Les lymphocytes T CD8+ montrent une reprogrammation transcriptionnelle et épigénétique vers un épuisement de stade avancé [@Iu2024CD8exhaustion]. Les profils de cytokines montrent une signalisation de l'interféron supprimée et une expression réduite des gènes des immunoglobulines [@EatonFitch2024ImmuneExhaustion].
+L'épuisement immunitaire dans l'EM/SFC va au-delà des cellules NK. Les lymphocytes T CD8+ montrent une reprogrammation transcriptionnelle et épigénétique vers un épuisement de stade avancé [@Iu2024CD8Exhaustion]. Les profils de cytokines montrent une signalisation de l'interféron supprimée et une expression réduite des gènes des immunoglobulines [@EatonFitch2024ImmuneExhaustion].
 
 Que se passe-t-il lorsque le système immunitaire est globalement épuisé ? Un modèle clinique existe : les patients brûlés. Stanojcic et al. (2016) ont documenté que l'épuisement immunitaire chez les patients brûlés âgés — un phénotype de dysfonction NK, de cytokines dérégulées et de réponse immunitaire précoce altérée — produisait une altération cliniquement significative de la cicatrisation [@Stanojcic2016ImmuneExhaustionBurns]. Le modèle de la brûlure est plus extrême que l'EM/SFC, mais le phénotype immunitaire se recoupe : cytotoxicité NK réduite de moitié, élévation chronique du TGF-β, activation immunitaire persistante et suppression épigénétique des programmes de réparation [@Abhimanyu2021PostInfectiousEpigenetics].
 

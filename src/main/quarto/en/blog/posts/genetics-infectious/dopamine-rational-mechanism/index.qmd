@@ -54,7 +54,7 @@ The clinical data is thin but directionally consistent:
 
 - **Methylphenidate** improves cognitive symptoms in some ME/CFS patients — the Blockmans RCT and case series both find real but variable benefit [@Blockmans2006MPHCFS]
 - **CSF dopamine metabolites** are altered in ME/CFS, consistent with reduced central dopamine tone [@Miller2014dopamine]
-- **Striatal dopamine correlates with fatigue** in Parkinson's more strongly than nigrostriatal motor deficits — the striatal fatigue circuit is not ME/CFS-specific but disease-general. Chaudhuri and Behan used this Parkinson's parallel in 2000 to argue that basal ganglia dysfunction underlies the central fatigue of ME/CFS [@Chaudhuri2000basal]
+- **Striatal dopamine correlates with fatigue** in Parkinson's more strongly than nigrostriatal motor deficits — the striatal fatigue circuit is not ME/CFS-specific but disease-general. Chaudhuri and Behan used this Parkinson's parallel in 2000 to argue that basal ganglia dysfunction underlies the central fatigue of ME/CFS [@Chaudhuri2000basalganglia]
 
 None of this was enough for a confident treatment rationale before the GWAS. Now it looks like converging evidence.
 
