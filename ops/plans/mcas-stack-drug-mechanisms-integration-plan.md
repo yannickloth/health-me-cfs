@@ -190,3 +190,27 @@ Build: `typst compile --root .` → 0 errors/warnings.
 ## Phase 13 — Commit
 _(hash appended after commit.)_
 Commit: `50938a6e` — feat(mcas-stack-drug-mechanisms): integrate 22 MCAS-stack probe hypotheses (47 files, +2540/-3). Explicit-file staging; no quarto files included (parallel session untouched).
+
+## Phase 11 — Review to Convergence (REVISED 2026-09-29 — genuine Full-tier loop)
+
+**Tier:** FULL (22 environments > 3; PARTIAL + multi-environment defaults to Full). The first
+Phase-11 entry above was a lightweight wording scan and did NOT meet the bar; the real loop was
+run afterwards. Six reviewers per round (cynic, reductionist, devil's-advocate, clinician,
+scientific-rigor, xref), scoped to the new subsection + the new registry block.
+
+| Round | Result | Findings fixed |
+|-------|--------|----------------|
+| 1 | findings | 9 HIGH/MEDIUM: synthesis certainty inflation (0.40–0.55 → ≤0.40); peripheral-histamine→CNS leap; famotidine load-bearing step; α7 misattribution; pyridostigmine tautology; pulsing/dosing language; missing pyridostigmine/rupatadine cautions; oq numeric certainty; registry over-claims. |
+| 2 | findings | 2 HIGH: registry cited the atherosclerosis paper for degranulation; synthesis re-asserted pyridostigmine "was cholinergic-reversible". + registry hedge drift (PAF, montelukast, orexin, H1-TRPV1); Sjögren anti-M3R overstatement. |
+| 3 | 1 CRITICAL | **Reviewer caught a self-inflicted error:** the Round-2 "fix" had INVERTED Wang 2017 (the paper is α7 *on mast cells* → atherosclerosis). Restored to the correct source claim in spec + Consequence + registry. Also: famotidine principal cautions added (renal/QT/malignancy masking). |
+| 4 | CLEAN | 0 CRITICAL/HIGH; xref CLEAN. |
+| 5 | CLEAN | 0 CRITICAL/HIGH; xref CLEAN. |
+
+**Convergence:** Rounds 4–5 are two consecutive zero-finding rounds → **CONVERGED.**
+Build after every fix: `typst compile --root .` → 0 errors.
+**Gate C (missing topic surfaced):** none.
+**Post-convergence:** Phase 9 gains the `SLOW-CONVERGENCE` flag (5 rounds to converge).
+
+_Note:_ The Round-3 CRITICAL is the clearest demonstration of why the governor must not accept a
+self-reported "converged" — the error was introduced by the fix process itself and only a genuine
+independent re-review found it.

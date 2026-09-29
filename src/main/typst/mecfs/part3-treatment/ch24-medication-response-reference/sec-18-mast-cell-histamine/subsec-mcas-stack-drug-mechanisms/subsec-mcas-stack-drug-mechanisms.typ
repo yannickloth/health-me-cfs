@@ -2,7 +2,7 @@
 
 == MCAS-Stack Drug Mechanisms: Receptor Arms, Clearance, and Cross-System Bridges
 
-The MCAS-stack drugs — H1 + PAF antagonist (rupatadine), H2 antagonist (famotidine), CysLT1 antagonist (montelukast), and acetylcholinesterase inhibitor (pyridostigmine) — act on distinct arms of the mast-cell and cholinergic systems. This subsection treats each drug not as a treatment but as a *probe of a separate arm*, and consolidates the mechanistic hypotheses that follow from that view. All content here is `#speculation` or `#open-question` (Phase-2 decision: PARTIAL — most evidence is preclinical, general-population, or adjacent-condition, discounted below 0.40). None of it is a treatment recommendation, and no ME/CFS dosing is implied.
+The MCAS-stack drugs — H1 + PAF antagonist (rupatadine), H2 antagonist (famotidine), CysLT1 antagonist (montelukast), and acetylcholinesterase inhibitor (pyridostigmine) — act on distinct arms of the mast-cell and cholinergic systems. This subsection treats each drug not as a treatment but as a *probe of a separate arm*, and consolidates the mechanistic hypotheses that follow from that view. All content here is speculation, open-question, or limitation material (Phase-2 decision: PARTIAL — most evidence is preclinical, general-population, or adjacent-condition, with discounted certainty at or below 0.40). None of it is a treatment recommendation or a dosing guide; any actual use of these drugs must follow the safety, contraindication, and interaction information in the medication-reference chapters of this volume.
 
 === Receptor and mediator gaps
 
@@ -31,7 +31,7 @@ The MCAS-stack drugs — H1 + PAF antagonist (rupatadine), H2 antagonist (famoti
 #include "speculations/spec-paf-platelet-microclot-modulation.typ"
 #include "speculations/spec-montelukast-cns-leukotriene-probe.typ"
 
-=== Timing and dose
+=== Timing and dosing-window hypotheses
 
 #include "speculations/spec-circadian-mast-cell-drug-timing.typ"
 #include "speculations/spec-cholinergic-reserve-index.typ"

@@ -5,5 +5,5 @@ Allergic and asthmatic disease has a well-described circadian rhythm: symptoms a
 
 _Falsifiable prediction:_ In ME/CFS patients with mast-cell-type symptoms on a stable total daily dose of H1/H2 antihistamines or a CysLT1 antagonist, an evening-weighted schedule reduces overnight and early-morning symptom scores (and, where measured, nocturnal urinary leukotriene E4) relative to a morning-weighted schedule of the same total dose.
 
-*Consequence:* If confirmed, timing would be a zero-cost lever on symptom control that clinicians could adopt immediately. Until an AM-vs-PM trial is run in ME/CFS, this remains a scheduling hypothesis borrowed from asthma chronobiology, not a recommendation.
+*Consequence:* If confirmed, time-of-day dosing would be a low-cost lever on symptom control. Until an AM-vs-PM trial is run in ME/CFS, this remains a scheduling hypothesis borrowed from asthma chronobiology, not a recommendation; moving sedating agents to the evening also carries an unmeasured next-day sedation trade-off.
 ] <spec:circadian-mast-cell-drug-timing>
