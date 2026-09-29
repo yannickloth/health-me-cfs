@@ -46,7 +46,7 @@ Several prominent disease mechanisms are secondary. They matter — they drive s
 
 **Viral reactivation.** Antiviral therapy that suppresses EBV or HHV-6 reactivation removes one inflammatory input. But the loop sustaining the disease has other inputs, so the overall structural maintenance is not resolved by this alone. Note that this applies to reactivation as an amplifier; patients with confirmed persistent active viral reservoirs may have a different situation, as discussed in the previous article [Ch. 16 §Viral Reactivation and Immune Exhaustion].
 
-**Gut dysbiosis.** Microbiome disruption amplifies immune activation and systemic inflammation. It is real; it is worth treating. It is not load-bearing [Ch. 16 §Amplifier Mechanisms].
+**Gut dysbiosis.** Microbiome disruption amplifies immune activation and systemic inflammation. It is real and worth treating, but it is not load-bearing [Ch. 16 §Amplifier Mechanisms].
 
 ---
 
