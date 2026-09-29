@@ -100,7 +100,7 @@ Three practical consequences follow from the mechanism.
 
 ## The takeaway
 
-Aripiprazole needs to be neither too strong nor too weak because it is a partial agonist working in competition with a stronger natural signal. At low occupancy it tops up a depleted system; past a tipping point it silences it. Raising the dose does not turn up the low-dose effect — it switches the drug from a helper into a blocker. The window is not a nuisance. It is the entire point of the drug.
+Aripiprazole needs to be neither too strong nor too weak because it is a partial agonist working in competition with a stronger natural signal. At low occupancy it tops up a depleted system; past a tipping point it silences it. Raising the dose does not turn up the low-dose effect — it switches the drug from a helper into a blocker. The window is the point of the drug.
 
 ---
 

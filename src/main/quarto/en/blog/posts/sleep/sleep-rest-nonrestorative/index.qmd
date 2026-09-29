@@ -38,7 +38,7 @@ Objective evidence confirms this. Studies using cardiopulmonary exercise testing
 
 ## Sleep itself becomes metabolically expensive — and architecturally broken
 
-Here is where it becomes counterintuitive: sleep is not passive. Proper sleep — the kind that repairs — requires sustained, coordinated metabolic activity in the brain.
+Sleep is not passive. Proper sleep — the kind that repairs — requires sustained, coordinated metabolic activity in the brain.
 
 Generating sleep spindles (the 12–14 Hz bursts that characterize restorative slow-wave sleep) demands rhythmic firing from thalamic neurons. Maintaining slow-wave coordination across brain regions requires thalamo-cortical circuits to sustain synchronized oscillations. Stage transitions between light sleep, deep sleep, and REM are metabolically demanding network reconfiguration events. The hypothesis that energy deficits specifically disrupt these processes in ME/CFS is well-supported by what we know of brain energy requirements, and meta-analyses of objective sleep data confirm altered sleep microstructure — though direct spindle measurements in ME/CFS patients with simultaneous metabolic monitoring have not yet been published.
 

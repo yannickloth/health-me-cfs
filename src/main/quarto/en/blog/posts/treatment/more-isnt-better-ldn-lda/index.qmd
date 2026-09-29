@@ -18,7 +18,7 @@ This experience is common enough in ME/CFS communities to have earned a folk exp
 
 ## LDN: four drugs in one, each with its own dose
 
-The standard explanation for LDN is that it blocks TLR4 receptors on microglia, reducing neuroinflammation. This is true. It is also insufficient. LDN actually hits four targets, and each target has a different optimal concentration.
+The standard explanation for LDN is that it blocks TLR4 receptors on microglia, reducing neuroinflammation. This holds in animal and cell-line models (rodent EAE, mouse BV-2 microglia); human confirmation is limited. It is also insufficient. LDN actually hits four targets, and each target has a different optimal concentration.
 
 **TLR4 → Nrf2 hormetic priming (0.5–1.5 mg).** At very low doses, LDN *partially* blocks TLR4 — and partial blockade is the key. The cell detects reduced TLR4 signalling and compensates by upregulating Nrf2, a master transcription factor that activates dozens of anti-inflammatory and antioxidant genes. Microglia shift from M1 (pro-inflammatory, cytokine-spewing) to M2 (anti-inflammatory, debris-clearing). This is hormesis: the mild stress of partial receptor blockade triggers an adaptive response that is larger than the blockade itself.
 

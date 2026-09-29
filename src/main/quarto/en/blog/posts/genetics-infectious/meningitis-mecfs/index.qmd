@@ -16,8 +16,6 @@ The immune vulnerabilities here are well-established in peer-reviewed literature
 
 ## The blood-brain barrier problem
 
-Here's where it gets specific to meningitis.
-
 Meningitis works by crossing the blood-brain barrier (BBB) to infect the brain and its surrounding membranes — the entire disease depends on breaching this structure [@Pinas2022glymphatic]. ME/CFS patients show evidence that their BBB is already under strain: elevated CSF/serum albumin ratios indicating increased permeability, peripheral inflammatory markers appearing in cerebrospinal fluid, and ongoing neuroinflammation with microglial activation [@wallis2022atg13]. Meningeal mast cells, recently implicated in regulating CSF dynamics, may further amplify this vulnerability [@Christodoulides2024meningitis].
 
 This creates what I call a "double vulnerability": a pathogen that specifically attacks a structure already weakened by the underlying disease. The bacteria may have an easier route in, and the immune system may be slower to stop them.

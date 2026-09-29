@@ -38,7 +38,7 @@ The brain sits at the end of this chain and has nowhere to borrow from. Cerebral
 
 ## A hormonal system that fails to respond
 
-Here's where it gets strange. Your body has a well-tested system for detecting low blood volume and correcting it: the renin-angiotensin-aldosterone system (RAAS). When blood volume drops, the kidneys release renin, which triggers a cascade ending in aldosterone — a hormone that tells the kidneys to retain sodium and water, expanding blood volume.
+Your body has a well-tested system for detecting low blood volume and correcting it: the renin-angiotensin-aldosterone system (RAAS). When blood volume drops, the kidneys release renin, which triggers a cascade ending in aldosterone — a hormone that tells the kidneys to retain sodium and water, expanding blood volume.
 
 In ME/CFS, this system is paradoxically suppressed.
 

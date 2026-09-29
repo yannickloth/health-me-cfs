@@ -38,7 +38,7 @@ Epstein-Barr virus infects >90% of the world's population. In most people, it es
 
 In full lytic replication, the virus expresses immediate-early genes (BZLF1, BRLF1), then early genes (including BLLF3, the dUTPase), replicates its DNA, assembles virions, and lyses the cell. ALR stops after the early-gene stage — the viral proteins are made, but no infectious virus is produced. The cell is not killed, but it is expressing viral antigens that the immune system must continuously suppress.
 
-Why this matters for ME/CFS: ALR explains the immunological signature — high antibodies to lytic antigens (EA-D, VCA, dUTPase), but undetectable or low viral DNA in blood. The virus is not "replicating" in the conventional sense, but it is actively producing proteins that drive immune activation, inflammation, and — critically — mast-cell degranulation [@Cox2022dUTPaseMECFS].
+ALR explains the immunological signature — high antibodies to lytic antigens (EA-D, VCA, dUTPase), but undetectable or low viral DNA in blood. The virus is not "replicating" in the conventional sense, but it is actively producing proteins that drive immune activation, inflammation, and — critically — mast-cell degranulation [@Cox2022dUTPaseMECFS].
 
 ### The dUTPase problem
 

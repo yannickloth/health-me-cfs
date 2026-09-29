@@ -10,7 +10,7 @@ A handheld device that measures how fast your pupil constricts and dilates in re
 
 No modern automated pupillometry study has been published in ME/CFS. (No registered trials were identified in a search of ClinicalTrials.gov as of July 2026.)
 
-Why it matters: the receptors controlling your pupil are the exact same receptors targeted by autoantibodies found in many ME/CFS patients. Your pupil could tell us whether those autoantibodies are actually doing anything.
+The receptors controlling your pupil are the exact same receptors targeted by autoantibodies found in many ME/CFS patients. Your pupil could tell us whether those autoantibodies are actually doing anything.
 
 ---
 
@@ -39,7 +39,7 @@ But in 2025, Germain and colleagues ran the largest screen to date: 172 particip
 
 This is a genuine disagreement. Two different assay platforms — ELISA (positive) and REAP/Luminex (negative) — give opposite answers on the same biological question. The disagreement cuts both ways: ELISA may detect low-specificity binding, but REAP/Luminex uses recombinantly expressed linear epitopes that can misfold, potentially missing antibodies that require native GPCR conformation [@Germain2025autoantibody]. In 2022, Vernino and colleagues tried to replicate the ELISA findings in POTS: they found 100% of *healthy controls* tested positive, making the diagnostic value of the test zero [@POTS2022failed_replication]. A parsimonious interpretation is that the ELISA detects antibodies that bind but are functionally irrelevant (low specificity); the burden of proof falls on demonstrating functional significance.
 
-Here is where it gets clinically consequential. BC007, a DNA aptamer that neutralises GPCR autoantibodies, showed dramatic improvement in a Long COVID pilot case [@Hohberger2021bc007]. An immunoadsorption trial in ME/CFS is underway [@Stein2023immunoadsorptionInterim]. Some patients are getting tested for these antibodies. But nobody knows whether a positive ELISA result means the antibodies are actually impairing receptor function, or whether it means the test has a specificity problem — detecting antibodies that are present but harmless, or worse, detecting nothing real at all. **Important caveat:** None of these therapies are approved for ME/CFS. IVIG is off-label; immunoadsorption is trial-only; BC007 is not available as a clinical treatment. No clinical recommendation is implied by this discussion.
+BC007, a DNA aptamer that neutralises GPCR autoantibodies, showed dramatic improvement in a Long COVID pilot case [@Hohberger2021bc007]. An immunoadsorption trial in ME/CFS is underway [@Stein2023immunoadsorptionInterim]. Some patients are getting tested for these antibodies. But nobody knows whether a positive ELISA result means the antibodies are actually impairing receptor function, or whether it means the test has a specificity problem — detecting antibodies that are present but harmless, or worse, detecting nothing real at all. **Important caveat:** None of these therapies are approved for ME/CFS. IVIG is off-label; immunoadsorption is trial-only; BC007 is not available as a clinical treatment. No clinical recommendation is implied by this discussion.
 
 ---
 

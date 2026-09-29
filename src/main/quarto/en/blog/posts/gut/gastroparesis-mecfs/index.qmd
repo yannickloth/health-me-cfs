@@ -90,7 +90,15 @@ This is the genuinely open part of the story. We do not yet know what is structu
 
 These three are not mutually exclusive, and the distinction matters clinically. A structural loss limits what a prokinetic can do. An autoimmune blockade is potentially reversible. A functional failure is the one most likely to respond to prokinetic drugs. we do not yet know which one — or which combination — applies to a given patient, and no test currently separates them in ME/CFS.
 
-Each candidate has a falsifiable prediction. A gastric antral biopsy from ME/CFS patients with documented gastroparesis showing normal pacemaker-cell and enteric-nerve density would falsify the structural-loss reading; evidence of cell or nerve loss would support it. Measuring ganglionic acetylcholine-receptor antibodies in a ME/CFS gastroparesis cohort — if a meaningful subset is antibody-positive and their emptying improves after immunotherapy, the autoimmune-blockade claim is supported; if antibody levels do not track emptying delay or immunotherapy response, it is falsified. Candidate 3 is testable too: if emptying delay tracks non-invasive vagal-tone markers (such as heart-rate-variability indices) and improves with autonomic therapies that raise vagal drive, the functional-failure reading is supported; if emptying stays slow while those markers normalise, it is weakened. The emptying delay itself — the shared feature behind all three — can be measured with a standard gastric emptying scan; telling the candidates apart would need the biopsy and antibody testing above, alongside non-invasive autonomic measures, and none of that has been done in an ME/CFS cohort.
+Each candidate has a falsifiable prediction.
+
+For the structural-loss reading: a gastric antral biopsy from ME/CFS patients with documented gastroparesis showing normal pacemaker-cell and enteric-nerve density would falsify it; evidence of cell or nerve loss would support it.
+
+For the autoimmune-blockade claim: measure ganglionic acetylcholine-receptor antibodies in an ME/CFS gastroparesis cohort. If a meaningful subset is antibody-positive and emptying improves after immunotherapy, the claim is supported. If antibody levels do not track emptying delay or immunotherapy response, it is falsified.
+
+Candidate 3 is testable too: if emptying delay tracks non-invasive vagal-tone markers (such as heart-rate-variability indices) and improves with autonomic therapies that raise vagal drive, the functional-failure reading is supported; if emptying stays slow while those markers normalise, it is weakened.
+
+The emptying delay itself — the shared feature behind all three — can be measured with a standard gastric emptying scan. Telling the candidates apart would need the biopsy and antibody testing above, alongside non-invasive autonomic measures. None of that has been done in an ME/CFS cohort.
 
 ---
 

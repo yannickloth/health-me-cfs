@@ -32,7 +32,7 @@ In total: 2 (glycolysis) + 2 (Krebs) + ~26–28 (ETC) = about 30–32 ATP per gl
 
 The evidence for mitochondrial dysfunction in ME/CFS is no longer circumstantial. It comes from multiple independent lines of investigation.
 
-**The PDH bottleneck.** Fluge, Mella, and colleagues at Haukeland University Hospital reported that ME/CFS patients show evidence of impaired pyruvate dehydrogenase function — the enzyme complex that converts pyruvate to acetyl-CoA, the gateway from glycolysis to the Krebs cycle [@Fluge2016]. When PDH is inhibited, pyruvate can't enter the mitochondria efficiently. It backs up and is converted to lactate instead. The cell falls back on glycolysis — 2 ATP instead of 38. The same glucose, a twentieth of the energy.
+**The PDH bottleneck.** Fluge, Mella, and colleagues at Haukeland University Hospital reported that ME/CFS patients show evidence of impaired pyruvate dehydrogenase function — the enzyme complex that converts pyruvate to acetyl-CoA, the gateway from glycolysis to the Krebs cycle [@Fluge2016]. When PDH is inhibited, pyruvate can't enter the mitochondria efficiently. It backs up and is converted to lactate instead. The cell falls back on glycolysis — 2 ATP instead of about 30. The same glucose, roughly a fifteenth of the energy.
 
 **The metabolic shift.** Metabolomics studies consistently show that ME/CFS patients have altered amino acid profiles, disrupted lipid metabolism, and patterns consistent with impaired mitochondrial fatty acid oxidation [@Germain2017taurineME; @Naviaux2016metabolomics]. The picture is one of metabolic inflexibility: the machinery for burning fat (beta-oxidation) and for running the full Krebs cycle is underperforming, forcing greater reliance on the inefficient glycolytic pathway.
 

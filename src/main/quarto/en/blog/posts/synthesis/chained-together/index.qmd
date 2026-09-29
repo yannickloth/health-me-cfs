@@ -82,7 +82,7 @@ These two statements reconcile rather than contradict: the model describes the e
 
 **A necessary safety note before anyone aims at several targets at once.** Polypharmacy is where drug interactions concentrate, and the pieces flagged individually across this series need to be assembled before a multi-drug regimen is built: sedation stacking (e.g., a gabapentinoid plus amitriptyline plus ketotifen), orthostatic stacking (e.g., midodrine/fludrocortisone plus an anticholinergic TCA), QT/cardiac stacking (e.g., amitriptyline plus erythromycin plus cimetidine), and CYP3A4 collisions (e.g., cimetidine with ivabradine). Because the series tells patients a combination may be needed, it is obligatory that the interaction and dose review — ideally with one clinician holding the full medication list — happen *before* combining drugs, not after. A target count is a model estimate, not a license to stack drugs without a consolidated interaction check.
 
-This is slow. It requires patience. It means accepting partial wins — the flushing is better but the fatigue is not, the POTS is controlled but the pain persists — and documenting them, rather than concluding "nothing works" because no single drug fixed everything.
+This is slow: it requires patience and means accepting partial wins — the flushing is better but the fatigue is not, the POTS is controlled but the pain persists — and documenting them, rather than concluding "nothing works" because no single drug fixed everything.
 
 ---
 

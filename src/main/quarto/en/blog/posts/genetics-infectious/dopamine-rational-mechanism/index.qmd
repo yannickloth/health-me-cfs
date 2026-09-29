@@ -38,8 +38,6 @@ These bypass the presynaptic neuron entirely, stimulating postsynaptic D1/D2/D3 
 
 ### Tier 3: VMAT2 inhibitors (the indirect route)
 
-This is where the story gets interesting.
-
 The vesicular monoamine transporter 2 (VMAT2) packages cytosolic dopamine into synaptic vesicles for storage and release. PET imaging in long COVID patients shows **reduced VMAT2 binding in the striatum** — the dopamine storage mechanism itself appears damaged. If this VMAT2 lesion extends to ME/CFS (and the shared MSN vulnerability suggests it might), then the dopamine deficit in ME/CFS may not be "low production" but "impaired storage and release." Neither the long COVID VMAT2 PET finding nor its extension to ME/CFS has yet been published in a peer-reviewed journal; the evidence remains preliminary.
 
 The logic chain is falsifiable: if VMAT2 is the bottleneck, then direct agonists (rotigotine, pramipexole) should outperform reuptake inhibitors (methylphenidate) in clinical trials, because agonists bypass the broken storage machinery. If reuptake inhibitors work equally well, the VMAT2 mechanism is less central.

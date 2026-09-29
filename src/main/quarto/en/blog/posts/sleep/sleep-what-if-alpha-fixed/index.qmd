@@ -28,8 +28,6 @@ Finally, pain thresholds might improve. During normal slow-wave sleep, delta osc
 
 ## What would not improve
 
-Here is where the thought experiment earns its keep.
-
 Even with perfect delta oscillations, the aquaporin-4 water channels that form the molecular gateway for glymphatic exchange remain suppressed by elevated nocturnal norepinephrine — a consequence of autonomic dysfunction, not sleep architecture (Xie et al. 2013 [@Xie2013glymphatic]). You can restore the driving force while the plumbing stays partially blocked. Glymphatic clearance would improve but not normalise.
 
 The kynurenine pathway keeps running regardless. The tryptophan-to-kynurenine shunt — driven by chronic immune activation via IDO1/IDO2 enzymes — produces quinolinic acid, an NMDA receptor agonist that is directly excitotoxic to neurons. ME/CFS patients show significantly elevated quinolinic acid and reduced neuroprotective KA/QA ratios (Groven et al. 2021, *Psychoneuroendocrinology* [@Groven2021kynurenine]). Sleep oscillations have no bearing on this pathway. The brain fog driven by quinolinic acid-mediated excitotoxicity persists at whatever level it was at before.

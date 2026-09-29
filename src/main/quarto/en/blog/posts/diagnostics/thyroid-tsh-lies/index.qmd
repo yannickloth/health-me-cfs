@@ -56,7 +56,7 @@ The complete panel costs approximately €50-80 at most European laboratories. T
 
 ## The treatment controversy
 
-Here is where the terrain becomes politically charged. The standard endocrinology position is: if TSH is normal, the patient is euthyroid, no treatment is indicated. This position is defensible by the evidence base if you define "euthyroid" by lab values and define "treatment response" by TSH normalisation.
+The standard endocrinology position is: if TSH is normal, the patient is euthyroid, no treatment is indicated. This position is defensible by the evidence base if you define "euthyroid" by lab values and define "treatment response" by TSH normalisation.
 
 It becomes less defensible when you ask whether patients with normal TSH but symptoms of hypothyroidism, low free T3, or positive antibodies improve with thyroid hormone replacement. Several studies suggest they do, at least in subgroups — particularly with combination T4/T3 therapy rather than T4 monotherapy, and particularly in carriers of the DIO2 Thr92Ala polymorphism ([@Panicker2009]; [@Wiersinga2017T4T3]).
 
