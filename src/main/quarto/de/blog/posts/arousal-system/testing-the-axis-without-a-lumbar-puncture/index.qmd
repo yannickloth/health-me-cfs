@@ -12,9 +12,9 @@ Der Nachweis eines selektiven Noradrenalin-Mangels kam aus einer Lumbalpunktion 
 Es gibt bereits Kandidaten:
 
 - **Pupillometrie.** Die Pupillengröße spiegelt noradrenerge Aktivität und ist in Sekunden messbar (@Kang2020Pupillometry). In einer Humanstudie erhöhte das NRI Atomoxetin die basale Pupillengröße, und die Änderung korrelierte mit der Verhaltensbesserung (@OCallaghan2025PupillaryNE).
-- **Griffausdauer.** In der Quellstudie korrelierte der Noradrenalin-Weg damit, wie lange jemand einen Griff halten konnte (Spearman-Rho = 0,62, rechte Hand, Nur-Patienten-Analyse, n = 38) (@Aregawi2026Noradrenergic) — eine einzelne, unreplizierte Korrelation.
+- **Griffausdauer.** In der Quellstudie korrelierte der Noradrenalin-Weg damit, wie lange jemand einen Griff halten konnte (Spearman-Rho = 0,62, rechte Hand, Nur-Patienten-Analyse, n = 38 (die kombinierte Patientengruppe, größer als das ME/CFS-Arm mit n = 16)) (@Aregawi2026Noradrenergic) — eine einzelne, unreplizierte Korrelation.
 - **Urin-VMA/HVA-Quotient.** Ein Verhältnis von Noradrenalin- zu Dopamin-Metaboliten, das den DBH-Schritt abbildet — aber Vorsicht: Urin spiegelt überwiegend den *peripheren* Umsatz, und peripheres Noradrenalin ist bei ME/CFS eher erhöht; der Quotient muss den *zentralen* Mangel also nicht abbilden.
 
-Zusammen könnten sie eine **nicht-invasive Batterie** zur Stratifizierung bilden — und mit einem Zeittest den PEM-Absturz erfassen: Pupille und Griff alle paar Stunden über 72 Stunden nach einer kontrollierten Belastung messen.
+Zusammen könnten sie eine **nicht-invasive Batterie** zur Stratifizierung bilden — und mit einem Zeittest den PEM-Absturz erfassen: Pupille und Griff alle paar Stunden über 72 Stunden nach einer kontrollierten Belastung messen — und sehen, ob sie auf derselben Kurve wie die Symptome absinken und sich erholen; verursacht der Mangel PEM, sollte es diese Kurve geben.
 
-**Die Vorbehalte.** Keines dieser Maße ist in ME/CFS zusammen validiert; jedes wird von anderem beeinflusst (Licht, Medikamente, Anstrengung, Salz); und das Defizit ist unrepliziert. Aber das System ist ohne invasiven Eingriff *prüfbar*.
+**Die Vorbehalte.** Keines dieser Maße ist in ME/CFS zusammen validiert; jedes wird von anderem beeinflusst (Licht, Medikamente, Anstrengung, Salz); und das Defizit ist unrepliziert. Aber das System ist ohne invasiven Eingriff *prüfbar* — was es klinisch nützlich machen und die Replikationsstudie ermöglichen würde, die das Feld tatsächlich braucht.

@@ -13,7 +13,7 @@ La noradrénaline est généralement présentée comme la molécule de l'éveil 
 
 **2. Elle entraîne la pompe qui nettoie le cerveau.** Pendant le sommeil, la noradrénaline entraîne de lentes ondulations des vaisseaux (vasomotion) qui pousseraient le liquide céphalorachidien et évacueraient les déchets — montré chez la souris et en revues, non mesuré dans l'EM/SFC (@Hauglund2025neVasomotion; @Nedergaard2026OscillatorySleep).
 
-**3. Elle contrôle la douleur.** Des voies descendantes libèrent de la noradrénaline dans la moelle épinière pour atténuer les signaux douloureux (@Hayashida2019DescendingNoradrenergic). Dans l'étude du LCR, cependant, la voie de la noradrénaline n'était *pas* corrélée à la douleur — le rôle est établi ailleurs, non démontré dans l'EM/SFC (@Aregawi2026Noradrenergic).
+**3. Elle contrôle la douleur.** Des voies descendantes libèrent de la noradrénaline dans la moelle épinière pour atténuer les signaux douloureux (@Hayashida2019DescendingNoradrenergic) ; c'est pourquoi les médicaments noradrénergiques sont utilisés contre la douleur chronique. Dans l'étude du LCR, cependant, la voie de la noradrénaline n'était *pas* corrélée à la douleur — le rôle est établi ailleurs, non démontré dans l'EM/SFC (@Aregawi2026Noradrenergic).
 
 **4. Elle aide à fournir le carburant.** La noradrénaline stimule les astrocytes à dégrader le glycogène et à libérer du lactate, le carburant des neurones (@Hertz2015neGlycogenolysis; @Killeen2013neLactate).
 

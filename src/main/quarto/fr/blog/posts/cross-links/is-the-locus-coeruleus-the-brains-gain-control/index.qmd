@@ -11,10 +11,10 @@ Une idée connue : le locus coeruleus agit comme **contrôle de gain** du cortex
 
 Deux axes rendent cela pertinent pour l'EM/SFC.
 
-**Gain cortical.** La noradrénaline module l'équilibre excitation-inhibition et le rapport signal-bruit ; chez la souris, manipuler le signal adrénergique modifiait cela, et l'atomoxétine a aplati la courbe signal-bruit (@MedinaCoss2025CorticalGain).
+**Gain cortical.** La noradrénaline module l'équilibre excitation-inhibition et le rapport signal-bruit ; chez la souris, manipuler le signal adrénergique modifiait cela, et l'atomoxétine a aplati la courbe signal-bruit (@MedinaCoss2025CorticalGain). Si la production du locus coeruleus est dérégulée, la *réactivité* des réseaux corticaux change.
 
 **Immunité de barrière.** La noradrénaline peut réduire les molécules de jonction serrée des vaisseaux et permettre l'entrée de cellules immunitaires — le « réflexe de passerelle » (@Matsuyama2021GatewayReflex).
 
-**L'enjeu spéculatif.** Une défaillance du gain donnerait une seule explication à deux expériences distinctes : ressentir des signaux ordinaires comme disproportionnellement intenses, et un accès neuroimmun modifié au cerveau. C'est plus ambitieux que « la noradrénaline est basse » — mais aussi moins directement étayé.
+**L'enjeu spéculatif.** Une défaillance du gain donnerait une seule explication à deux expériences distinctes : ressentir des signaux ordinaires comme disproportionnellement intenses, et un accès neuroimmun modifié au cerveau. Un signal de gain dérégulé pourrait toucher à la fois le traitement cortical et la surveillance de la barrière. C'est plus ambitieux que « la noradrénaline est basse » — mais aussi moins directement étayé.
 
-**Les réserves.** Les deux bras sont des preuves animales/revues ; aucun n'a été mesuré contre un index noradrénergique dans l'EM/SFC. Testable, mais non testé.
+**Les réserves.** Les deux bras sont des preuves animales/revues ; aucun n'a été mesuré contre un index noradrénergique dans l'EM/SFC. Testable : un index d'éveil devrait corréler avec le gating sensoriel et un marqueur de barrière. Testable, mais non testé.

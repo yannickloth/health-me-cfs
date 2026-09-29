@@ -13,7 +13,7 @@ La réponse découle de ce avec quoi le déficit *corrèle*. Dans l'étude sourc
 
 **Raisonnable d'attendre (modestement) :**
 - **Fatigue et endurance** — le signal le plus fort, quoique transversal.
-- **Malaise post-effort (PEM)** — plausible.
+- **Malaise post-effort (PEM)** — plausible ; le déficit suit le statut PEM.
 
 **Possible mais plus faible :** sommeil non réparateur et stabilité de l'éveil — preuves animales (@OsorioForero2021NoradrenergicNREM).
 
@@ -29,4 +29,4 @@ La réponse découle de ce avec quoi le déficit *corrèle*. Dans l'étude sourc
 
 **Et la limite dure :** aucun essai EM/SFC de ces médicaments n'a utilisé le PEM comme critère ; chaque « attente » ci-dessus est donc une inférence à partir de corrélations, pas un résultat mesuré. Les autres données humaines viennent d'autres affections (hypotension orthostatique, narcolepsie, SEP, fibromyalgie). Le seul essai EM/SFC de ces médicaments (solriamfétol) a amélioré fatigue et fonctions exécutives sans mesurer le PEM (@Young2025solriamfetol). L'amantadine, antagoniste NMDA à activité dopaminergique indirecte, a *échoué* sur la fatigue de la SEP (@Cruccioli2026AmantadineMSfatigue).
 
-Tout ici repose sur une seule étude de LCR non répliquée portant sur 16 patients (@Aregawi2026Noradrenergic). *Ceci n'est pas un avis médical.*
+Tout ici repose sur une seule étude de LCR non répliquée portant sur 16 patients (@Aregawi2026Noradrenergic). Tout essai de ces médicaments appartient à un clinicien, avec pacing et bilan autonome de base. *Ceci n'est pas un avis médical.*

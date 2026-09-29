@@ -7,14 +7,14 @@ categories: [Cross-links, Noradrenergic, Mechanisms]
 lang: de
 ---
 
-Eine bekannte Idee: der Locus coeruleus wirkt als **Gain-Kontrolle** für den Kortex — er stellt ein, wie stark Netzwerke auf Signale reagieren, statt selbst Information zu tragen. Die adaptive-gain-Theorie formalisiert das (@AstonJones2005AdaptiveGain).
+Eine bekannte Idee: der Locus coeruleus wirkt als **Gain-Kontrolle** für den Kortex — er stellt ein, wie stark Netzwerke auf Signale reagieren, statt selbst Information zu tragen. Die adaptive-gain-Theorie formalisiert das: Der Locus coeruleus feuert in phasischen und tonischen Modi, die die Leistung abstimmen (@AstonJones2005AdaptiveGain).
 
 Zwei Stränge machen das für ME/CFS relevant.
 
-**Kortikaler Gain.** Noradrenalin moduliert die Exzitation-Inhibition-Balance und das Signal-Rausch-Verhältnis; bei Mäusen verschob adrenerge Modulation dies, und Atomoxetin flachte die Signal-Rausch-Kurve ab (@MedinaCoss2025CorticalGain).
+**Kortikaler Gain.** Noradrenalin moduliert die Exzitation-Inhibition-Balance und das Signal-Rausch-Verhältnis; bei Mäusen verschob adrenerge Modulation dies, und Atomoxetin flachte die Signal-Rausch-Kurve ab (@MedinaCoss2025CorticalGain). Ist die LC-Ausgabe dysreguliert, ändert sich die *Reaktionsfähigkeit* kortikaler Netzwerke.
 
 **Barriere-Immunität.** Noradrenalin kann an Gefäßen Tight-Junction-Moleküle vermindern und Immuneintritt erlauben — der Gateway-Reflex (@Matsuyama2021GatewayReflex).
 
-**Der spekulative Gewinn.** Ein Gain-Kontroll-Versagen gäbe eine einzige Erklärung für zwei sonst getrennte Erfahrungen: gewöhnliche Reize oder Körpersignale als übermäßig intensiv zu erleben und veränderten neuroimmunen Zugang zum Gehirn. Das ist weitreichender als „Noradrenalin ist niedrig" — aber auch weniger direkt belegt.
+**Der spekulative Gewinn.** Ein Gain-Kontroll-Versagen gäbe eine einzige Erklärung für zwei sonst getrennte Erfahrungen: gewöhnliche Reize oder Körpersignale als übermäßig intensiv zu erleben und veränderten neuroimmunen Zugang zum Gehirn. Ein dysreguliertes Gain-Signal könnte sowohl kortikale Verarbeitung als auch die Barriere-Überwachung berühren. Das ist weitreichender als „Noradrenalin ist niedrig" — aber auch weniger direkt belegt.
 
-**Die Vorbehalte.** Beide Arme sind Tier-/Review-Evidenz; keiner wurde gegen einen noradrenergen Index in ME/CFS gemessen. Testbar, aber ungetestet.
+**Die Vorbehalte.** Beide Arme sind Tier-/Review-Evidenz; keiner wurde gegen einen noradrenergen Index in ME/CFS gemessen. Testbar wäre: ein Arousal-Index sollte mit sensorischem Gating und einem Barrieremarker korrelieren. Testbar, aber ungetestet.
