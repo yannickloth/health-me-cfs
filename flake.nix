@@ -94,9 +94,32 @@
             !isTransient;
         };
 
+        # Build inputs: only what the derivations actually read. Keeps the
+        # non-build trees (Literature, .venv, node_modules, .history, patient
+        # data, ops scratch, ...) out of every derivation's input hash, so
+        # edits there no longer invalidate all builds. Everything under src/
+        # is allowed; ops/plans/pathway-registry.md is a real input
+        # (GeneratePathwayTable reads it during the PDF build).
+        buildSrc = pkgs.lib.cleanSourceWith {
+          src = cleanSrc;
+          filter =
+            path: type:
+            let
+              rel = pkgs.lib.removePrefix (toString ./. + "/") path;
+              # cleanSourceWith also asks about ancestor dirs: allow "src" and
+              # the ops ancestors, not only their children.
+              inSrc = rel == "src" || pkgs.lib.hasPrefix "src/" rel;
+              inOps =
+                rel == "ops"
+                || rel == "ops/plans"
+                || rel == "ops/plans/pathway-registry.md";
+            in
+              inSrc || inOps;
+        };
+
         buildTypstPdf = pkgs.stdenvNoCC.mkDerivation {
           name = "mecfs-pdf";
-          src = cleanSrc;
+          src = buildSrc;
           buildInputs = [
             pkgs.coreutils
             pkgs.typst
@@ -140,7 +163,7 @@
 
         buildWeb = pkgs.stdenvNoCC.mkDerivation {
           name = "mecfs-web";
-          src = cleanSrc;
+          src = buildSrc;
           buildInputs = [
             pkgs.coreutils
             pkgs.typst
@@ -191,7 +214,7 @@
 
         buildWebFull = pkgs.stdenvNoCC.mkDerivation {
           name = "mecfs-web-full";
-          src = cleanSrc;
+          src = buildSrc;
           buildInputs = [
             pkgs.coreutils
             pkgs.typst
@@ -303,7 +326,7 @@
         checks = {
           section-audit = pkgs.stdenvNoCC.mkDerivation {
             name = "mecfs-section-audit";
-            src = cleanSrc;
+            src = buildSrc;
             buildInputs = [ pkgs.jdk25 ];
             phases = [
               "unpackPhase"
@@ -320,7 +343,7 @@
           };
           qmd-label-audit = pkgs.stdenvNoCC.mkDerivation {
             name = "mecfs-qmd-label-audit";
-            src = cleanSrc;
+            src = buildSrc;
             buildInputs = [
               pkgs.jdk25
               pkgs.typst
@@ -352,7 +375,7 @@
           };
           typst-source-audit = pkgs.stdenvNoCC.mkDerivation {
             name = "mecfs-typst-source-audit";
-            src = cleanSrc;
+            src = buildSrc;
             buildInputs = [ pkgs.jdk25 ];
             phases = [
               "unpackPhase"
@@ -369,7 +392,7 @@
           };
           blog-audit = pkgs.stdenvNoCC.mkDerivation {
             name = "mecfs-blog-audit";
-            src = cleanSrc;
+            src = buildSrc;
             buildInputs = [
               pkgs.jdk25
               pkgs.typst
@@ -402,7 +425,7 @@
           };
           glossary-test = pkgs.stdenvNoCC.mkDerivation {
             name = "mecfs-glossary-test";
-            src = cleanSrc;
+            src = buildSrc;
             buildInputs = [ pkgs.nodejs_24 ];
             phases = [
               "unpackPhase"
