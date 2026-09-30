@@ -16,6 +16,32 @@ STAGE="$ROOT/target/units"
 SITE="$ROOT/target/site"
 UNIT_YML="$WEB/_quarto-unit.yml"
 
+# --- Skip-unchanged unit cache -------------------------------------------
+# target/units-cache/<unit>/ holds {_site, .hash}. A unit is reused when its
+# staged inputs (unit sources + shared assets + unit config + quarto version +
+# this script) hash identically to the last successful render. Only pays off
+# where target/ persists (local/dev runs); nix sandbox builds start cold
+# because cleanSrc excludes target/.
+CACHE="$ROOT/target/units-cache"
+mkdir -p "$CACHE"
+QUARTO_VERSION="$(quarto --version 2>/dev/null | head -1 || true)"
+SCRIPT_HASH="$(sha256sum "$ROOT/src/build/build-isolated.sh" 2>/dev/null | cut -d' ' -f1)"
+
+compute_hash() {
+  local proj="$1"
+  {
+    printf '%s\n%s\n' "$QUARTO_VERSION" "$SCRIPT_HASH"
+    sha256sum "$UNIT_YML" 2>/dev/null | cut -d' ' -f1
+    # Hash staged sources; exclude render outputs (render.log, _site, .done)
+    # so the pre-render and post-render hashes match.
+    ( cd "$proj" && find . -path ./_site -prune -o -path ./.quarto -prune -o -type f \
+        ! -name .gitignore ! -name _quarto.yml ! -name render.log ! -name .done \
+        -print0 | sort -z | xargs -0 cat 2>/dev/null | sha256sum | cut -d' ' -f1 )
+  } | sha256sum | cut -d' ' -f1
+}
+export -f compute_hash
+export CACHE QUARTO_VERSION SCRIPT_HASH UNIT_YML
+
 CORES=$(nproc)
 CONCURRENCY=$(( CORES > 8 ? 8 : CORES ))
 MAX_RETRIES=2
@@ -29,15 +55,32 @@ mkdir -p "$STAGE" "$SITE"
 
 # Units: <source-path-in-web> <render-target>. Rendering the whole unit dir or a
 # single file. Each becomes its own isolated project.
-# Directories:
-DIR_UNITS="front-matter part1-clinical part2-pathophysiology part3-treatment part4-research part5-modeling z-appendices faq patient-resources en/blog de/blog fr/blog"
+# Whole-directory units: light parts, faq, per-language blogs. The heavy parts
+# are split to chapter level below so the critical path is a chapter, not a
+# whole part (measured renders: part2=514s, z-appendices=494s, part3=450s,
+# part4=423s, vs faq=7s).
+DIR_UNITS="front-matter part1-clinical part5-modeling faq patient-resources en/blog de/blog fr/blog"
 # Single files (rendered into _site/ root):
 FILE_UNITS="index.qmd about.qmd"
+# Chapter-level units for the heavy parts. Each chapter subdir becomes its own
+# isolated project; the part's landing page (index.qmd) renders as a file unit.
+for _part in part2-pathophysiology part3-treatment part4-research z-appendices; do
+  for _ch in "$WEB/$_part"/*/; do
+    _name="$(basename "${_ch%/}")"
+    case "$_name" in _*) continue ;; esac
+    DIR_UNITS+=" $_part/$_name"
+  done
+  [ -f "$WEB/$_part/index.qmd" ] && FILE_UNITS+=" $_part/index.qmd"
+done
+unset _part _ch _name
 
 # Shared assets copied into every unit project.
 copy_shared() {
   local dst="$1"
-  cp -r "$WEB/bib" "$WEB/figures" "$WEB/logos" "$dst/" 2>/dev/null || true
+  # Hardlink the large read-only shared assets (figures ~18M, bib ~3M) instead
+  # of copying: staging 40+ unit projects stays nearly free. Assets are only
+  # read during render, so sharing inodes across projects is safe.
+  cp -al "$WEB/bib" "$WEB/figures" "$WEB/logos" "$dst/" 2>/dev/null || true
   cp "$WEB/glossary-en.json" "$WEB/glossary-fr.json" "$WEB/glossary-de.json" \
      "$WEB/styles.css" "$WEB/mecfs-sidebar.js" "$WEB/mecfs-sidebar.json" \
      "$WEB/mecfs-sidebar.html" "$WEB/mecfs-breadcrumb.js" "$WEB/part-accordion.js" "$WEB/part-chapters.json" \
@@ -77,10 +120,12 @@ stage_dir_unit() {
 
 # Stage one single-file unit (index.qmd, about.qmd).
 stage_file_unit() {
-  local f="$1" stem
+  local f="$1" stem proj
   stem="${f%.qmd}"
-  local proj="$STAGE/file-$stem"
-  mkdir -p "$proj"
+  # Replace / in nested stems (e.g. part2-pathophysiology/index) so each file
+  # unit gets a unique project AND a unique cache slug.
+  proj="$STAGE/file-$(echo "$stem" | tr '/' '_')"
+  mkdir -p "$proj/$(dirname "$f")"
   cp "$WEB/$f" "$proj/$f"
   copy_shared "$proj"
   cp "$UNIT_YML" "$proj/_quarto.yml"
@@ -104,16 +149,35 @@ for f in $FILE_UNITS; do
 done
 echo "Staged ${#PROJECTS[@]} unit projects."
 
+# --- Mark cache hits as done before rendering ---
+for p in "${PROJECTS[@]}"; do
+  slug="$(basename "$p")"
+  hash="$(compute_hash "$p")"
+  if [ -d "$CACHE/$slug/_site" ] \
+     && [ "$(cat "$CACHE/$slug/.hash" 2>/dev/null)" = "$hash" ]; then
+    cp -al "$CACHE/$slug/_site" "$p/_site" 2>/dev/null || cp -r "$CACHE/$slug/_site" "$p/_site"
+    touch "$p/.done"
+    echo "  CACHED: $slug"
+  fi
+done
+
 # --- Render a project (from its dir). Prints result to $proj/.done ---
 render_one() {
   local proj="$1"
-  local log="$proj/render.log"
+  [ -f "$proj/.done" ] && { echo "  SKIP (cached): $(basename "$proj")"; return 0; }
+  local log="$proj/render.log" slug cache
+  slug="$(basename "$proj")"
+  cache="$CACHE/$slug"
   if ( cd "$proj" && quarto render . --to html ) >"$log" 2>&1; then
-    echo "  DONE: $(basename "$proj")"
+    echo "  DONE: $slug"
+    rm -rf "$cache"
+    mkdir -p "$cache"
+    cp -al "$proj/_site" "$cache/_site" 2>/dev/null || cp -r "$proj/_site" "$cache/_site"
+    compute_hash "$proj" > "$cache/.hash"
     touch "$proj/.done"
     return 0
   else
-    echo "  FAILED: $(basename "$proj")"
+    echo "  FAILED: $slug"
     return 1
   fi
 }
