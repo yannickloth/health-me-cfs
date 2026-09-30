@@ -43,7 +43,9 @@ export -f compute_hash
 export CACHE QUARTO_VERSION SCRIPT_HASH UNIT_YML
 
 CORES=$(nproc)
-CONCURRENCY=$(( CORES > 8 ? 8 : CORES ))
+# Ceiling only binds machines with >16 cores (GH ubuntu-latest has 4 and is
+# unaffected: CONCURRENCY = min(CORES, ceiling)).
+CONCURRENCY=$(( CORES > 16 ? 16 : CORES ))
 MAX_RETRIES=2
 
 echo "=== Isolated parallel web build ==="
