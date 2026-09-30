@@ -176,3 +176,9 @@ target/                        # ALL web build output (gitignored)
 | `devShells.default` | shell | typst + quarto + jdk25 + nodejs24 + zg; TYPST_PACKAGE_CACHE_PATH, TYPST_FONT_PATHS preset |
 
 Note: `checks.qmd-label-audit` bundles generation (BuildWeb) + 3 audit tests under one check name.
+
+## Build inputs & render parallelism (2026-09-30)
+
+- `flake.nix` defines `buildSrc` (chained from `cleanSrc`): derivations hash only `src/**` plus `ops/plans/pathway-registry.md`. Edits outside those (Literature, .venv, .agentmem, patients, ops scratch, ...) no longer invalidate builds. Do not add new build inputs outside `src/` without extending the `buildSrc` filter.
+- `src/build/build-isolated.sh`: 65 chapter-level render units (heavy parts split per chapter), hardlinked shared assets, and a skip-unchanged cache at `target/units-cache/` (hash = unit sources + shared assets + quarto version + the script itself; any script edit invalidates it). Cache only persists for local runs — nix sandbox builds start cold.
+- Render concurrency: `min(CORES, 16)`; GitHub runners (4 cores) unaffected.
