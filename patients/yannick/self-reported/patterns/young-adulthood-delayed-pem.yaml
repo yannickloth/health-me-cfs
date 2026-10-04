@@ -1,0 +1,63 @@
+pattern: young_adulthood_delayed_pem
+category: disease_onset_evidence
+onset_noticed: "~age 25-27"
+context: "after social outings (staying out late)"
+
+description: |
+  Patient reports that, in his mid-twenties (~age 25-27), the day after a
+  night out was already difficult, but the SECOND day was even harder.
+  The worsening direction (day 2 > day 1) is the distinctive PEM signature —
+  a plain hangover or sleep-deprivation fatigue peaks on day 1 and improves;
+  ME/CFS PEM is delayed and peaks 24-72 h post-exertion.
+
+  Note the patient's own reframing: this is NOT a premorbid trait. If the
+  day-2-worse-than-day-1 pattern was PEM, then ME/CFS was already present
+  in the mid-twenties — the observation backdates disease onset rather than
+  describing a predisposing substrate.
+
+onset_implication:
+  - "Delayed post-exertional worsening (day 2 > day 1) is the pathognomonic
+    PEM feature (IOM/ICC/CCC criteria), not a fatigue/hangover pattern."
+  - "If genuine PEM, ME/CFS was intermittently present at ~age 25-27, decades
+    before the 2018 escalation currently recorded in the timeline."
+  - "Pushes the de facto onset well before the burnout/TBI sequence of
+    2017-2018 that is currently treated as the disease trigger."
+
+uncertainty:
+  provisional: false
+  direction_specific: |
+    What IS specific is the direction: day 2 worse than day 1. This is not
+    the normal recovery trajectory and is the signal that points toward
+    ME/CFS rather than ordinary fatigue.
+  confidence: high
+  contemporaneous: |
+    The pattern was noticed AT THE TIME (~age 25-27), not reconstructed in
+    hindsight — roughly two decades before the patient ever heard of ME/CFS.
+    This removes the distortion/retrospective-construction risk: the
+    observation predates any diagnostic framing.
+  residual_caveat: "The symptom pattern is reliably recalled; what remains
+    unproven is only its mechanistic attribution (PEM vs a non-ME/CFS
+    delayed-recovery cause). The recall itself is confirmed."
+
+relationship_to_timeline:
+  current_recorded_escalation: "2018 (burnout + TBI) → severe/very-severe"
+  proposed_reframe: |
+    The 2018 event may represent ESCALATION of already-present ME/CFS,
+    not disease onset. Precedent for this reframing already exists in the
+    case record: lifelong executive dysfunction (pattern:lifelong_executive_dysfunction)
+    and progressive brain fog from age ~13-15 document subthreshold energy
+    impairment decades earlier.
+
+relevance_to_mecfs:
+  - "Consistent with the multi-hit / prodromal-threshold model: the PEM
+    mechanism and its 24-72 h delay were operative long before diagnosis."
+  - "Aligned with the paper's 24-72 h delayed-PEM finding (2-day CPET,
+    @Lim2020)."
+  - "Supports moving the patient's disease onset earlier in the timeline
+    (onset backdating)."
+
+documentation_status:
+  source: "Patient self-report (2026-10-04)"
+  contemporaneous_recognition: true
+  verification: "Contemporaneous self-observation (~age 25-27), recalled as
+    a fact noticed at the time, ~2 decades before ME/CFS was known to the patient"
