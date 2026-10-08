@@ -144,7 +144,7 @@
 | 9 | RAN | Metrics + flags (NONE). |
 | 10 | RAN | Coherence clean. |
 | 10a | RAN | Synthesis added. |
-| 10b | RAN | Framing evaluated after 10a synthesis → outcome "no framing propagation needed" (downstream cross-disease finding; changes nothing in abstract / ch16 trigger-vs-amplifier / reading guide / ch13). |
+| 10b | RAN | Formal framing pass against all 5 layers (abstract, ch19 intro, ch19 root-cause sections, reading guide, ch15 unified model) → "no framing propagation needed" (downstream cross-disease finding). Report at `tmp/phase10b-framing-adhd-dementia-energy-deficit.md`. |
 | 11 | RAN | Full-tier review → CONVERGED. |
 | 12 | RAN | This plan record. |
 | 12.5 | RAN | This ledger — 0 OMISSION, 0 WAIVED. |
