@@ -12496,5 +12496,46 @@
     "label": "Prostaglandin D₂",
     "category": "mediator",
     "definition": "A mast-cell-derived lipid mediator that acts via the DP and CRTH2 receptors. It is a major MCAS mediator that H1/H2/CysLT1 blockade does not target."
+  },
+  "FDG-PET": {
+    "label": "FDG-PET",
+    "category": "imaging",
+    "definition": "Fluorodeoxyglucose Positron Emission Tomography: a PET scan using radiolabelled glucose to map regional brain glucose metabolism. Reduced uptake (hypometabolism) is a decades-early signature in Alzheimer's disease and is also reported in ME/CFS."
+  },
+  "MCI": {
+    "label": "Mild Cognitive Impairment (MCI)",
+    "category": "condition",
+    "definition": "A measurable decline in memory or thinking beyond normal ageing, not yet severe enough to meet dementia criteria; a frequent precursor to dementia."
+  },
+  "LBD": {
+    "label": "Lewy Body Dementia (LBD)",
+    "category": "condition",
+    "definition": "A dementia caused by abnormal alpha-synuclein protein deposits (Lewy bodies), presenting with fluctuating cognition, visual hallucinations, parkinsonism, and REM-sleep behaviour disorder."
+  },
+  "RBD": {
+    "label": "REM Sleep Behaviour Disorder (RBD)",
+    "category": "symptom",
+    "definition": "Acting out vivid dreams because the normal muscle paralysis of REM sleep is lost; a strong early marker of Parkinson's disease and Lewy body dementia."
+  },
+  "dementia": {
+    "label": "Dementia",
+    "category": "condition",
+    "definition": "A progressive decline in memory and thinking severe enough to impair daily function; Alzheimer's disease and Lewy body dementia are the most common forms."
+  },
+  "Lewy body": {
+    "label": "Lewy Body",
+    "category": "anatomy",
+    "definition": "An abnormal aggregate of alpha-synuclein protein inside neurons, the pathological hallmark of Parkinson's disease and Lewy body dementia."
+  },
+  "alpha-synuclein": {
+    "label": "Alpha-Synuclein",
+    "category": "protein",
+    "definition": "A neuronal protein whose misfolding into aggregates (Lewy bodies) drives Parkinson's disease and Lewy body dementia; detectable early via seed-amplification assays."
+  },
+  "neurodegeneration": {
+    "label": "Neurodegeneration",
+    "category": "mechanism",
+    "definition": "The progressive loss of neurons; in Alzheimer's and Parkinson's disease it is proposed to be gated by metabolic and mitochondrial failure as well as by protein aggregation."
   }
+
 }

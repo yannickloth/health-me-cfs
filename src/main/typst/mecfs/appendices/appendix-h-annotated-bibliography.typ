@@ -42558,3 +42558,280 @@ This stream assembles evidence for the claim that pathological fatigue across au
         - H2-receptor stimulation inhibits histamine release from mast cells, confirming the feedback brake in mast cells themselves.
     *Conclusion:*: Corroborates the H2 autocrine brake at the mast-cell level.
     *Limitations:*: Rodent mast cells; in vitro.
+
+== ADHD → Late-Life Cognitive Impairment / Energy-Deficit Mechanism <sec:bib-adhd-dementia-energy-deficit>
+
+=== Bauer-Negrini et al.\ 2026 — ADHD and Late-Life Cognitive Impairment
+
+    *Full Citation:*: Bauer-Negrini G, Leffa DT, Ferreira PCL, et al. Attention-Deficit/Hyperactivity Disorder and Late-Life Cognitive Impairment. _JAMA Psychiatry_. 2026. Published online 2026-10-07. @BauerNegrini2026ADHDdementia
+    *DOI:*: #link("https://doi.org/10.1001/jamapsychiatry.2026.3165")[10.1001/jamapsychiatry.2026.3165]
+    *PMID:*: 42842281
+    *Article Type:*: Retrospective cohort (EHR + polygenic risk score)
+    *Key Findings:*:
+        - All of Us cohort (n=187,341, ≥50 y, mean follow-up 10.26 y): ADHD (n=3,026; 1.6%) → incident MCI/dementia HR 4.60 (95% CI 3.99–5.29, P<.001)
+        - Attenuated but persistent after somatic comorbidity (4.04), neuropsychiatric comorbidity (3.19), full adjustment incl. education/utilization (3.08); 1:2 matched HR 2.26
+        - ADHD PRS highest-vs-lowest quintile HR 1.35 (1.25–1.46)
+        - Comorbid ADHD among incident-cases: worse mental health OR 1.69, QoL OR 1.66, social satisfaction OR 2.39, +20% healthcare utilization
+        - Reverse-causation lag ≥9 y → non-significant (HR 1.28, P=.07)
+    *Conclusion:*: Convergent clinical + genetic evidence that ADHD markedly raises late-life cognitive-impairment risk.
+    *Limitations:*: Observational residual confounding; EHR ascertainment; long dementia prodrome (reverse causation not fully excluded).
+    *ME/CFS Relevance:*: Driving paper for the ADHD→dementia link that frames the shared neuronal energy-deficit mechanism.
+    *Certainty Assessment:*:
+        - *Quality:* High (JAMA Psychiatry; large diverse cohort)
+        - *Sample:* n=187,341
+        - *Replication:* Consistent with Tzeng 2019, Dobrosavljevic 2021, Levine 2023
+        - *Score:* 0.85 (raw; population 0.75 → discounted 0.64)
+
+=== Tzeng et al.\ 2019 — Dementia Risk in Adults With ADHD (Taiwan)
+
+    *Full Citation:*: Tzeng NS, Chung CH, Lin FH, et al. Risk of Dementia in Adults With ADHD: A Nationwide, Population-Based Cohort Study in Taiwan. _Journal of Attention Disorders_. 2019;23(9):995–1006. @Tzeng2019ADHDdementia
+    *DOI:*: #link("https://doi.org/10.1177/1087054717714057")[10.1177/1087054717714057]
+    *PMID:*: 28629260
+    *Article Type:*: Nationwide register cohort
+    *Key Findings:*:
+        - Taiwan National Health Insurance; ADHD vs 1:3 matched controls; dementia 5.48% vs 4.0%
+        - Adjusted HR 4.008 (95% CI 2.526–6.361)
+    *Conclusion:*: Earliest large national demonstration of ADHD→dementia association; supports the driving paper.
+    *Limitations:*: EHR diagnosis; no stimulant/lifetime treatment data; limited covariate set.
+    *ME/CFS Relevance:*: Independent Asian-cohort replication of the direct association.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (national data, modest dementia events)
+        - *Sample:* national register
+        - *Replication:* Replicated by later cohorts
+        - *Score:* 0.60 (raw; population 0.75 → discounted 0.45)
+
+=== Dobrosavljevic et al.\ 2021 — ADHD as Risk Factor for Dementia and MCI (Sweden)
+
+    *Full Citation:*: Dobrosavljevic M, Zhang L, Garcia-Argibay M, et al. Attention-deficit/hyperactivity disorder as a risk factor for dementia and mild cognitive impairment: a population-based register study. _European Psychiatry_. 2021;65(1):1–19. @Dobrosavljevic2021ADHDdementia
+    *DOI:*: #link("https://doi.org/10.1192/j.eurpsy.2021.2261")[10.1192/j.eurpsy.2021.2261]
+    *PMID:*: 34924079
+    *Article Type:*: Population register cohort (n=3,591,689)
+    *Key Findings:*:
+        - ADHD → dementia HR 2.92 (2.40–3.57); MCI HR 6.21 (5.25–7.35)
+        - Psychiatric-comorbidity adjustment attenuated to dementia HR 1.62 (1.32–1.98), MCI 2.54 (2.14–3.01)
+        - Metabolic disorders, sleep, head injury, education had limited impact; stronger in men
+    *Conclusion:*: ADHD raises dementia/MCI risk but psychiatric comorbidity is a major confounder.
+    *Limitations:*: Register ICD codes; no treatment data; residual confounding.
+    *ME/CFS Relevance:*: Quantifies the psychiatric-comorbidity confound that must be weighed in cross-disease reasoning.
+    *Certainty Assessment:*:
+        - *Quality:* High (nearly 3.6M)
+        - *Sample:* n=3,591,689
+        - *Replication:* Consistent
+        - *Score:* 0.80 (raw; population 0.75 → discounted 0.60)
+
+=== Levine et al.\ 2023 — Adult ADHD and the Risk of Dementia
+
+    *Full Citation:*: Levine SZ, Rotstein A, Kodesh A, et al. Adult Attention-Deficit/Hyperactivity Disorder and the Risk of Dementia. _JAMA Network Open_. 2023;6(10):e2338088. @Levine2023ADHDdementia
+    *DOI:*: #link("https://doi.org/10.1001/jamanetworkopen.2023.38088")[10.1001/jamanetworkopen.2023.38088]
+    *PMID:*: 37847497
+    *Article Type:*: Prospective national cohort (n=109,218)
+    *Key Findings:*:
+        - Adult ADHD (n=730) → unadjusted dementia HR 3.62 (2.92–4.49); 18-confounder IPW-adjusted HR 2.77 (2.11–3.63)
+        - No clear dementia risk increase among psychostimulant-treated adults; mild reverse causation
+    *Conclusion:*: Replicates the association and supplies the stimulant-confounding null.
+    *Limitations:*: EHR diagnoses; 0.7% ADHD prevalence (under-ascertainment); treatment exposure imprecise.
+    *ME/CFS Relevance:*: Key source for the stimulant (harm/confounder) angle — stimulants do NOT appear to drive the dementia signal.
+    *Certainty Assessment:*:
+        - *Quality:* High (JAMA Netw Open; 18-confounder adjustment)
+        - *Sample:* n=109,218
+        - *Replication:* Consistent
+        - *Score:* 0.80 (raw; population 0.75 → discounted 0.60)
+
+=== Golimstok et al.\ 2024 — ADHD, Lewy Body Disease, and Cognitive Impairment
+
+    *Full Citation:*: Golimstok Á, Basalo MJG, Majul M, et al. Adult Attention Deficit-Hyperactivity Disorder is associated with Lewy Body Disease and Cognitive Impairment: A prospective cohort study with 15-year follow-up. _American Journal of Geriatric Psychiatry_. 2024;32(9):1063–1077. @Golimstok2024ADHDLewyBody
+    *DOI:*: #link("https://doi.org/10.1016/j.jagp.2024.04.005")[10.1016/j.jagp.2024.04.005]
+    *PMID:*: 38697886
+    *Article Type:*: Prospective 15-year cohort (n=161 ADHD, n=109 control)
+    *Key Findings:*:
+        - Dementia: 27 ADHD vs 4 control; DLB predominant (19/20 DLB in ADHD group)
+        - Adjusted HR dementia 3.33 (1.09–10.17); LBD HR 54.54 (7.48–397.50); non-amnestic MCI 67.1% of ADHD
+    *Conclusion:*: ADHD maps to a Lewy-body/synuclein (dopaminergic) trajectory, not amyloid-AD.
+    *Limitations:*: Small sample; clinic-recruited; wide CIs.
+    *ME/CFS Relevance:*: Supports a catecholaminergic/energy mechanism over an amyloid-centric one — more consistent with the energy-deficit hypothesis.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (small but long follow-up)
+        - *Sample:* n=270
+        - *Replication:* Partially replicated
+        - *Score:* 0.62 (raw; population 0.75 → discounted 0.47)
+
+=== Du Rietz et al.\ 2021 — ADHD and Physical Conditions in Adulthood (Sweden)
+
+    *Full Citation:*: Du Rietz E, Brikell I, Butwicka A, et al. Mapping phenotypic and aetiological associations between ADHD and physical conditions in adulthood in Sweden: a genetically informed register study. _The Lancet Psychiatry_. 2021;8(9):774–783. @DuRietz2021ADHDphysical
+    *DOI:*: #link("https://doi.org/10.1016/S2215-0366(21)00171-1")[10.1016/S2215-0366(21)00171-1]
+    *PMID:*: 34242595
+    *Article Type:*: Genetically informed register study (n=4,789,799)
+    *Key Findings:*:
+        - ADHD associated with multiple physical conditions (nervous-system, cardiovascular, metabolic) across adulthood
+        - Associations partly explained by shared genetic/familial factors
+    *Conclusion:*: Establishes the vascular/cardiometabolic burden channel (competing mechanism) linking ADHD to later dementia.
+    *Limitations:*: Register diagnoses; sibling design assumptions.
+    *ME/CFS Relevance:*: Competing-mechanism evidence — ADHD's elevated cardiometabolic load is an alternative (non-energy-specific) path to dementia.
+    *Certainty Assessment:*:
+        - *Quality:* High (large, genetically informed)
+        - *Sample:* n=4,789,799
+        - *Replication:* Consistent with ADHD-comorbidity literature
+        - *Score:* 0.78 (raw; population 0.75 → discounted 0.59)
+
+=== Rast et al.\ 2026 — Neurodevelopmental Conditions, ADRD, and Parkinson's Disease
+
+    *Full Citation:*: Rast JE, Rosso AL, James BD, et al. Association of neurodevelopmental conditions with Alzheimer's disease and related dementias and Parkinson's disease. _The Journals of Gerontology. Series A_. 2026;81(4):glaf281. @Rast2025NDCneurodegeneration
+    *DOI:*: #link("https://doi.org/10.1093/gerona/glaf281")[10.1093/gerona/glaf281]
+    *PMID:*: 41429566
+    *Article Type:*: Case-control (All of Us, n≈600,000)
+    *Key Findings:*:
+        - NDC (ADHD + autism) more prevalent in ADRD (7.8% vs 2.4%) and PD (4.5% vs 1.8%) cases
+        - Adjusted OR ADRD 2.68 (2.40–2.99); PD 2.09 (1.66–2.59)
+    *Conclusion:*: Extends ADHD-only finding to autism and other neurodevelopmental conditions.
+    *Limitations:*: Case-control; cross-sectional NDC ascertainment. Shares All of Us cohort with Bauer-Negrini 2026 (cohort overlap).
+    *ME/CFS Relevance:*: Brings autism into the neurodevelopmental→neurodegeneration link, strengthening the ADHD/ASD energy-deficit parallel.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (case-control; overlaps driving cohort)
+        - *Sample:* n≈600,000
+        - *Replication:* Consistent
+        - *Score:* 0.72 (raw; population 0.75 → discounted 0.54)
+
+=== Leffa et al.\ 2023 — ADHD Genetic Risk Predicts Cognitive Decline and AD Pathophysiology
+
+    *Full Citation:*: Leffa DT, Ferrari-Souza JP, Bellaver B, et al. Genetic risk for attention-deficit/hyperactivity disorder predicts cognitive decline and development of Alzheimer's disease pathophysiology in cognitively unimpaired older adults. _Molecular Psychiatry_. 2023;28(3):1248–1255. @Leffa2023ADHDprsAD
+    *DOI:*: #link("https://doi.org/10.1038/s41380-022-01867-2")[10.1038/s41380-022-01867-2]
+    *PMID:*: 36476732
+    *Article Type:*: Prospective genetic cohort (ADNI)
+    *Key Findings:*:
+        - ADHD PRS predicted longitudinal cognitive decline and development of AD pathophysiology (amyloid/tau) in cognitively unimpaired older adults
+    *Conclusion:*: Genetic (not diagnostic) evidence bypasses EHR ascertainment and reverse causation; supports shared liability.
+    *Limitations:*: ADNI sample ancestry homogeneity; PRS pleiotropy; same Pittsburgh group as driving paper (no cohort overlap).
+    *ME/CFS Relevance:*: Genetic arm of the ADHD→neurodegeneration link, consistent with a shared underlying liability rather than care-seeking confound.
+    *Certainty Assessment:*:
+        - *Quality:* High (ADNI; genetic)
+        - *Sample:* ADNI cohort
+        - *Replication:* Independent PRS literature emerging
+        - *Score:* 0.75 (raw; population 0.75 → discounted 0.56)
+
+=== Becker et al.\ 2022 — ADHD and Neurodegenerative Risk: A Critical Examination
+
+    *Full Citation:*: Becker S, Sharma MJ, Callahan BL. ADHD and Neurodegenerative Disease Risk: A Critical Examination of the Evidence. _Frontiers in Aging Neuroscience_. 2022;13:826213. @Becker2022ADHDcritical
+    *DOI:*: #link("https://doi.org/10.3389/fnagi.2021.826213")[10.3389/fnagi.2021.826213]
+    *PMID:*: 35145394
+    *Article Type:*: Critical narrative review
+    *Key Findings:*:
+        - Appraises the first 8 ADHD→neurodegeneration studies (Lewy-body risk up to 5-fold)
+        - Flags EHR diagnostic inaccuracy, ADHD-status measurement bias, cohort representativeness, bidirectional confounding (under- and over-estimation)
+    *Conclusion:*: Principal methodological-caution (null-tempering) source; risk estimates may be under- or over-stated.
+    *Limitations:*: Review; no new data.
+    *ME/CFS Relevance:*: Discipline against over-reading the direct ADHD→dementia association.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (critical review)
+        - *Sample:* n/a (8 studies reviewed)
+        - *Replication:* n/a
+        - *Score:* 0.58 (raw; population 0.75 → discounted 0.44)
+
+=== Becker et al.\ 2023 — Neurodegenerative Disease Risk in Adults With ADHD: Systematic Review
+
+    *Full Citation:*: Becker S, Chowdhury M, Tavilsup P, Seitz D, Callahan BL. Risk of neurodegenerative disease or dementia in adults with attention-deficit/hyperactivity disorder: a systematic review. _Frontiers in Psychiatry_. 2023;14:1158546. @Becker2023ADHDsysrev
+    *DOI:*: #link("https://doi.org/10.3389/fpsyt.2023.1158546")[10.3389/fpsyt.2023.1158546]
+    *PMID:*: 37663597
+    *Article Type:*: Systematic review (PROSPERO CRD42022348976)
+    *Key Findings:*:
+        - 2,137 screened; 7 studies (5 cohort, 2 case-control) met criteria
+        - Heterogeneous covariates precluded meta-analysis; narrative synthesis
+        - Evidence for a link exists but magnitude of a direct effect undetermined; mechanism unresolved
+    *Conclusion:*: Honest "limited/undetermined magnitude" synthesis of the ADHD→dementia literature.
+    *Limitations:*: Few studies; heterogeneity; no meta-analysis.
+    *ME/CFS Relevance:*: The null/uncertain-magnitude anchor for the direct association.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (systematic review, few primary studies)
+        - *Sample:* 7 studies
+        - *Replication:* n/a
+        - *Score:* 0.70 (raw; population 0.75 → discounted 0.53)
+
+=== Fluegge & Fluegge 2018 — Antecedent ADHD, Dementia, and Metabolic Dysregulation
+
+    *Full Citation:*: Fluegge K, Fluegge K. Antecedent ADHD, dementia, and metabolic dysregulation: A U.S. based cohort analysis. _Neurochemistry International_. 2018;112:255–258. @Fluegge2018ADHDmetabolic
+    *DOI:*: #link("https://doi.org/10.1016/j.neuint.2017.08.005")[10.1016/j.neuint.2017.08.005]
+    *PMID:*: 28811268
+    *Article Type:*: Hospitalization cohort (HCUP)
+    *Key Findings:*:
+        - 10-y lagged severe ADHD raised LBD hospitalization (IRR 1.21, 1.08–1.35) and AD discharge (IRR 1.15, 1.05–1.27)
+        - Controlling for diabetes removed the ADHD–AD association
+    *Conclusion:*: Metabolic/energy (glycemic) dysregulation mediates part of the ADHD→dementia link.
+    *Limitations:*: Administrative data; severe-phenotype proxy; small effect sizes.
+    *ME/CFS Relevance:*: Independent support for an energy/metabolic-mediation channel — foreshadows the energy-deficit mechanism.
+    *Certainty Assessment:*:
+        - *Quality:* Low-medium (administrative, proxy exposure)
+        - *Sample:* HCUP discharge data
+        - *Replication:* Not independently replicated
+        - *Score:* 0.52 (raw; population 0.75 → discounted 0.39)
+
+=== Golimstok & Berrios 2025 — Adult ADHD as Dementia Risk Factor: Mechanisms and Stimulant Role
+
+    *Full Citation:*: Golimstok A, Berrios W. Adult ADHD as a risk factor for dementia: integrating longitudinal evidence, mechanistic insights, and the role of stimulant treatment. _Frontiers in Dementia_. 2025;4:1735357. @Golimstok2025ADHDdementiaReview
+    *DOI:*: #link("https://doi.org/10.3389/frdem.2025.1735357")[10.3389/frdem.2025.1735357]
+    *PMID:*: 41477452
+    *Article Type:*: Narrative review
+    *Key Findings:*:
+        - Convergent mechanisms: dopaminergic dysregulation, possible Wnt/mTOR alterations, oxidative stress, chronic neuroinflammation; comorbidity/lifestyle/cognitive reserve amplify vulnerability
+        - Preliminary data suggest stimulants may attenuate dementia risk (dopaminergic tone/plasticity/oxidative stress); RCTs lacking
+    *Conclusion:*: ADHD is a developmental, potentially modifiable dementia risk factor; stimulant role unresolved.
+    *Limitations:*: Narrative review; stimulant-protective data preliminary.
+    *ME/CFS Relevance:*: Mechanism + stimulant-direction synthesis for the competing-mechanism angle.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (narrative review)
+        - *Sample:* n/a
+        - *Replication:* n/a
+        - *Score:* 0.58 (raw; population 0.75 → discounted 0.44)
+
+=== Cunnane et al.\ 2011 — Brain Fuel Metabolism, Aging, and Alzheimer's Disease
+
+    *Full Citation:*: Cunnane S, Nugent S, Roy M, et al. Brain fuel metabolism, aging, and Alzheimer's disease. _Nutrition_. 2011;27(1):3–20. @Cunnane2011BrainFuelAD
+    *DOI:*: #link("https://doi.org/10.1016/j.nut.2010.07.021")[10.1016/j.nut.2010.07.021]
+    *PMID:*: 21035308
+    *Article Type:*: Review (brain energy metabolism)
+    *Key Findings:*:
+        - Lower brain glucose metabolism precedes clinical cognitive decline in at-risk AD groups (APOE4 carriers, maternal AD family history)
+        - Candidate defects: brain glucose transport, disrupted glycolysis, impaired mitochondrial function
+        - Self-reinforcing vicious cycle (AD reduces synaptic energy demand, further lowering metabolism)
+    *Conclusion:*: Brain hypometabolism may precede and contribute to the neuropathologic cascade of AD.
+    *Limitations:*: Review; causal ordering (upstream vs downstream) unresolved.
+    *ME/CFS Relevance:*: Anchor for the "cerebral energy deficit → neurodegeneration" link of the energy-deficit hypothesis.
+    *Certainty Assessment:*:
+        - *Quality:* High (authoritative review)
+        - *Sample:* n/a
+        - *Replication:* Extensively corroborated by later FDG-PET literature
+        - *Score:* 0.72 (raw; population 0.75 → discounted 0.54)
+
+=== Swerdlow et al.\ 2014 — The Alzheimer's Disease Mitochondrial Cascade Hypothesis
+
+    *Full Citation:*: Swerdlow RH, Burns JM, Khan SM. The Alzheimer's disease mitochondrial cascade hypothesis: progress and perspectives. _Biochimica et Biophysica Acta (BBA) - Molecular Basis of Disease_. 2014;1842(8):1219–1231. @Swerdlow2014MitoCascadeAD
+    *DOI:*: #link("https://doi.org/10.1016/j.bbadis.2013.09.010")[10.1016/j.bbadis.2013.09.010]
+    *PMID:*: 24071439
+    *Article Type:*: Hypothesis/review (mitochondrial bioenergetics)
+    *Key Findings:*:
+        - Mitochondrial cascade: inherited baseline function + environmental change-rates drive sporadic AD chronology
+        - Mitochondrial function gates APP processing / Aβ accumulation (amyloid cascade is downstream of bioenergetic failure)
+    *Conclusion:*: Bioenergetic failure is upstream of amyloid pathology in sporadic late-onset AD.
+    *Limitations:*: Hypothesis; direct causal demonstration incomplete.
+    *ME/CFS Relevance:*: Theoretical anchor for mitochondrial/bioenergetic failure as the shared neurodegeneration mechanism.
+    *Certainty Assessment:*:
+        - *Quality:* High (leading hypothesis)
+        - *Sample:* n/a
+        - *Replication:* Supported by emerging biomarker/animal work
+        - *Score:* 0.70 (raw; population 0.75 → discounted 0.53)
+
+=== Mosconi 2013 — Glucose Metabolism in Normal Aging and Alzheimer's Disease
+
+    *Full Citation:*: Mosconi L. Glucose metabolism in normal aging and Alzheimer's disease: Methodological and physiological considerations for PET studies. _Clinical and Translational Imaging_. 2013;1(4):217–233. @Mosconi2013GlucoseAD
+    *DOI:*: #link("https://doi.org/10.1007/s40336-013-0026-y")[10.1007/s40336-013-0026-y]
+    *PMID:*: 24409422
+    *Article Type:*: Review (FDG-PET)
+    *Key Findings:*:
+        - FDG-PET metabolic reductions occur decades before AD symptom onset (upstream event)
+        - Hypometabolism present in at-risk individuals (maternal AD family history), in posterior cingulate/parietal/temporal association cortex
+    *Conclusion:*: FDG-PET hypometabolism is the measurable "cerebral energy deficit" signature of preclinical AD.
+    *Limitations:*: Review; methodological variability across PET studies.
+    *ME/CFS Relevance:*: Parallel to ME/CFS cerebral hypometabolism findings (already in corpus) — supports a shared imaging phenotype of cerebral energy deficit.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (review; PET methodology variance)
+        - *Sample:* n/a
+        - *Replication:* Well-replicated pattern
+        - *Score:* 0.60 (raw; population 0.75 → discounted 0.45)
