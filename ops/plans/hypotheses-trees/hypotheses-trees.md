@@ -393,3 +393,4 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | lactate-gpr81-signaling | [subtrees/lactate-gpr81-signaling.md](subtrees/lactate-gpr81-signaling.md) | 2026-09-27 | 26 | 0 | ✅ done |
 | exertional-muscle-soreness | [subtrees/exertional-muscle-soreness.md](subtrees/exertional-muscle-soreness.md) | 2026-09-27 | 27 | 0 | 🔵 in progress |
 | mcas-stack-drug-mechanisms | [subtrees/mcas-stack-drug-mechanisms.md](subtrees/mcas-stack-drug-mechanisms.md) | 2026-09-29 | 22 | 22 | ✅ done |
+| adhd-dementia-energy-deficit | [subtrees/adhd-dementia-energy-deficit.md](subtrees/adhd-dementia-energy-deficit.md) | 2026-10-08 | 36 | 0 | ⬜ pending |
