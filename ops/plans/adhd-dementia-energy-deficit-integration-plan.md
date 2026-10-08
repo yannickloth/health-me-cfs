@@ -86,7 +86,7 @@
 | 4a | ✅ | Subtree `subtrees/adhd-dementia-energy-deficit.md` (36 nodes); root index row added. |
 | 5 | ✅ | Certainty/usefulness reassessed (generator over-scored; most ideas tree-only). Integrated: 1.1 → `@spec:cumulative-energy-deficit-exposure` (0.35), 1.2 → `@spec:resting-vs-exertional-energy-deficit` (0.30), 1.3 → `@spec:energy-deficit-dopaminergic-trajectory` (0.28), 8.1 → `@oq:diabetes-dementia-ceiling`, 10.4 → `@lim:energy-deficit-regional-mismatch`, 12.4 → LBD-HR caveat fixed in Phase 3 text. Dedup (covered-by): 4.1 (ketone→sec-27), 10.1/10.2/10.5/12.7 (→@oq), 10.3/12.1/12.5/12.6 (→@lim), 11.x (→@oq/@lim). Tree-only (Tier 3): research directions (2.x), drug/supplement (3.1,5.1,6.1), math (7.x), bridges (8.2,8.3), biomarkers (9.x), 1.4, 12.2. ch30 tiers: all "None" (cross-disease epidemiology, no ME/CFS drug-interceptable cascade). |
 | 5c | ⏭️ | LEGIT-SKIP — non-pharmacological topic (no medication/drug/supplement integrated). |
-| 5d | ⏭️ | LEGIT-SKIP — no specifiable ME/CFS causal cascade with sec-12 drug interception; cross-disease inference only. |
+| 5d | ⏭️ | LEGIT-SKIP — ch30/25 relevance triage = None / citation-cross-ref-only (cross-disease ADHD→neurodegeneration cascade, no ME/CFS ch25 sec-12 drug-intercept point). |
 | 5b | ✅ | Build PASS (0 errors) after Phase 5 content. |
 | 5a | ✅ | `falsifiability-auditor`: 5/5 hypotheses/speculations fully falsifiable; 13/13 bib keys resolve; 3/3 claim-fidelity spot-checks match; 9/9 consequences present. No blocking findings. |
 | 5z | ✅ | 8 glossary entries added (FDG-PET, MCI, LBD, RBD, dementia, Lewy body, alpha-synuclein, neurodegeneration). |
@@ -98,9 +98,9 @@
 | 10a | ✅ | Synthesis `@syn:adhd-dementia-energy-deficit-model` added (auto-added per standing default, ≥2 envs converge). |
 | 10b | ✅ | No framing propagation needed — downstream cross-disease finding; does not change trigger-vs-amplifier argument, genetic architecture, or treatment strategy. |
 | 11 | ✅ | Full-tier review: adversarial (devil-advocate + cynic), patient-safety, citation/xref. Pass 1 → 1 HIGH + 3 MEDIUM + 2 patient-safety MEDIUM + 3 LOW; all fixed. Pass 2 → CONVERGED (0 new CRITICAL/HIGH). Citations 13/13, xrefs 16/16. |
-| 12 | ⬜ | — |
-| 12.5 | ⬜ | — |
-| 13 | ⬜ | — |
+| 12 | ✅ | Plan record written (no changelog.typ). |
+| 12.5 | ✅ | Phase Ledger: 25 RAN, 2 LEGIT-SKIP (5c/5d), 0 OMISSION, 0 WAIVED. |
+| 13 | ✅ | 2 commits: `60aeb1ae` (content) + `88ebb68f` (literature/plan artifacts). scrape-registry.md section left uncommitted — mixed with parallel Literature-rename session, will ship with that stream (shared-file ownership). Build PASS at HEAD (0 errors). |
 
 ## Notes
 
@@ -128,13 +128,13 @@
 | 2 | RAN | PROCEED; synthesis at `tmp/synthesis-adhd-dementia-energy-deficit-2026-10-08.md`; Active Caps written. |
 | 3 | RAN | 4 environments + registry block (Phase 3). |
 | 3a | RAN | Build PASS (0 errors). |
-| 3b | LEGIT-SKIP | Non-treatment topic → safety-gate bypass (only severity-applicability applies; recorded in `tmp/safety-gate-adhd-dementia-energy-deficit.md`). |
+| 3b | RAN | Safety gate run in bypass form (non-treatment content → only item 2 severity-applicability applies); `tmp/safety-gate-adhd-dementia-energy-deficit.md` written (4 envs gated, 0 blocked, 0 warnings). |
 | 3.5 | RAN | 4/4 consequences present (then 9/9 after Phase 5). |
 | 4 | RAN | 36 ideas → `ops/brainstorms/brainstorm-adhd-dementia-energy-deficit-2026-10-08.md`. |
 | 4a | RAN | Subtree `subtrees/adhd-dementia-energy-deficit.md` (36 nodes) + root index row. |
 | 5 | RAN | Reassessed + triaged; 5 new environments + 1 text fix (LBD caveat); 14 dedup'd; 16 tree-only. |
 | 5c | LEGIT-SKIP | Non-pharmacological topic (no medication/drug/supplement integrated). |
-| 5d | LEGIT-SKIP | No specifiable ME/CFS causal cascade with sec-12 drug interception (cross-disease inference). |
+| 5d | LEGIT-SKIP | ch30/25 relevance triage = None / citation-cross-ref-only — the integrated mechanism is a cross-disease ADHD→neurodegeneration cascade, not a ME/CFS cascade with a ch25 sec-12 drug-intercept point (no ME/CFS pharmacodiagnostic drug intercepts the AD/LBD cascade). |
 | 5b | RAN | Build PASS (0 errors). |
 | 5a | RAN | falsifiability-auditor: 5/5 falsifiable, 13/13 keys, 3/3 claim-fidelity, 9/9 consequences. |
 | 5z | RAN | 8 glossary entries added. |
@@ -144,7 +144,7 @@
 | 9 | RAN | Metrics + flags (NONE). |
 | 10 | RAN | Coherence clean. |
 | 10a | RAN | Synthesis added. |
-| 10b | LEGIT-SKIP | No framing implication (downstream cross-disease finding). |
+| 10b | RAN | Framing evaluated after 10a synthesis → outcome "no framing propagation needed" (downstream cross-disease finding; changes nothing in abstract / ch16 trigger-vs-amplifier / reading guide / ch13). |
 | 11 | RAN | Full-tier review → CONVERGED. |
 | 12 | RAN | This plan record. |
 | 12.5 | RAN | This ledger — 0 OMISSION, 0 WAIVED. |
