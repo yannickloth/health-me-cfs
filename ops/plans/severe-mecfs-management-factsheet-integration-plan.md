@@ -2,7 +2,7 @@
 
 **Purpose:** Integrate the Science for ME factsheet "Management of severe and very severe ME/CFS" (Prof. Jonathan Edwards + S4ME members, 2026) — fills gaps on practical severe/very-severe care: aids & ADL assessment, environmental-stimuli reduction as medical necessity, single-point-of-contact care model, nutritional/enteral-parenteral support, hospital admission adjustments, and critical appraisal of off-label treatments and rehabilitation.
 
-**Source:** Science for ME Fact Sheet by Prof. Jonathan Edwards and S4ME members (2026). PDF: `Literature/severe-care/S4ME2026ManagementSevereVerySevereMECFS.pdf`
+**Source:** Science for ME Fact Sheet by Prof. Jonathan Edwards and S4ME members (2026). PDF: `Literature/severe-care/S4ME2026ManagementSevereVerySevere.pdf`
 
 **Target chapters:**
 - ch06-disease-course — severe/very-severe grading tied to care needs; prevalence (~1/1000 housebound); fluctuating severity

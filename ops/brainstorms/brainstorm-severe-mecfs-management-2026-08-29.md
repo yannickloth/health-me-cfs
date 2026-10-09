@@ -1,6 +1,6 @@
 # Creative Brainstorm: Severe/Very-Severe ME/CFS Management (S4ME 2026 Factsheet)
 
-**Origin:** Science for ME fact sheet, "Management of severe and very severe ME/CFS" (Prof. Jonathan Edwards + S4ME members, 2026). Source PDF: `Literature/severe-care/S4ME2026ManagementSevereVerySevereMECFS.pdf`.
+**Origin:** Science for ME fact sheet, "Management of severe and very severe ME/CFS" (Prof. Jonathan Edwards + S4ME members, 2026). Source PDF: `Literature/severe-care/S4ME2026ManagementSevereVerySevere.pdf`.
 **Date:** 2026-08-29
 **Status:** Phase 4 Creative Brainstorm — **PARTIAL** scope (WEAK-EVIDENCE flag pre-fired)
 **Mode:** Research-directions + critical/contrarian assessment of a clinical-management/advocacy factsheet. Categories 3–9 (drugs, supplements, non-pharm, combinations, models, cross-disease, diagnostics) are DEFERRED under the PARTIAL cap and are absent here.

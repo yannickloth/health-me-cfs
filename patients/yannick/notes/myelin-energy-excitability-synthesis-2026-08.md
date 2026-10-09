@@ -3,7 +3,7 @@
 **Date:** 2026-08-18
 **Patient:** Yannick Loth
 **Context:** Integrates the Thapaliya et al. 2025 long-COVID brain myelin/microstructure/neurochemical MRI findings with the patient's existing three-layer model (aripiprazole response, spontaneous cramps, diffuse pain). Produces a unifying "membrane-energy" hypothesis for the brain (myelin) and muscle (cramps) domains, and a physician-appointment discussion plan.
-**Primary literature:** Thapaliya et al. 2025, *Brain, Behavior, & Immunity - Health* 50:101142 (multimodal MRI: T1w/T2w myelin-signal + DTI microstructure + MRS neurochemicals in long COVID vs COVID-recovered vs never-infected; n=47). PDF: `Literature/neurological/Thapaliya2025_BrainMicrostructureNeurochemicals/`.
+**Primary literature:** Thapaliya et al. 2025, *Brain, Behavior, & Immunity - Health* 50:101142 (multimodal MRI: T1w/T2w myelin-signal + DTI microstructure + MRS neurochemicals in long COVID vs COVID-recovered vs never-infected; n=47). PDF: `Literature/neurological/Thapaliya2025BrainMRI/`.
 
 ---
 
@@ -140,4 +140,4 @@ Prepared for the next appointment. All items are **passive monitoring / clinical
 - **GPCR/pain context:** `patients/yannick/notes/gpcr-muscle-pain.md`
 - **Sleep / alpha-intrusion:** `patients/yannick/notes/pour-dr-nicolas-sommeil-2026-04.md`
 - **Medication regimen:** `patients/yannick/medications/current-regimen.yaml`
-- **Primary literature:** `Literature/neurological/Thapaliya2025_BrainMicrostructureNeurochemicals/`
+- **Primary literature:** `Literature/neurological/Thapaliya2025BrainMRI/`

@@ -100,7 +100,7 @@ Tiers/certainty assigned in Phase 5 (reassessed). Cat 10–12 bypass triage (int
 - Standalone invocation, CLEAN mode, HEAD 1878d184.
 - Scratch checkpoints: `wip/vagal-gastric-denervation-longcovid-pre3`, `-pre6`.
 - Bib target: `src/main/typst/mecfs/bib/autonomic-cardiovascular.bib` (+ general.bib if cross-cutting).
-- PDF located: `Literature/pathophysiology/orthostatic/HRV-autonomic-dysfunction/Acanfora_2026_VagalGastricDenervation/`.
+- PDF located: `Literature/pathophysiology/orthostatic/HRV-autonomic-dysfunction/acanfora2026vagaldenervation/`.
 
 ## Active Caps (set by Phase 2 — decision: PROCEED)
 - Environments allowed: all

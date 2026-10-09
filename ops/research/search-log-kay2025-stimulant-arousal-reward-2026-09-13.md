@@ -3,7 +3,7 @@
 **Topic slug:** `kay2025-stimulant-arousal-reward`
 **Date:** 2026-09-13
 **Searcher:** Phase 1 literature-integrator (integrate-topic pipeline)
-**Primary source:** Kay BP et al. *Cell*. 2025;188(26):7529–7546.e20. doi:10.1016/j.cell.2025.11.039 (PMID 41448140). PDF: `Literature/neurological/1-s2.0-S009286742501373X-main.pdf`.
+**Primary source:** Kay BP et al. *Cell*. 2025;188(26):7529–7546.e20. doi:10.1016/j.cell.2025.11.039 (PMID 41448140). PDF: `Literature/neurological/Kay2025stimulantarousalreward.pdf`.
 
 **Core claim under evaluation:** In humans, therapeutic doses of methylphenidate/amphetamine improve subjective arousal (feeling awake/energized) and reward valuation (wanting to engage) but do NOT improve objective attention-network function or cognitive capacity. This reframes the ME/CFS stimulant differential inference: a positive stimulant response reveals low arousal/reward salience, not augmented attention capacity.
 

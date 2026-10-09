@@ -2,7 +2,7 @@
 
 **Topic slug:** dementia-inflammation
 **Date:** 2026-08-09
-**Primary paper PDF:** `Literature/reviews/Kuring2026_dementia_inflammation_meta.pdf`
+**Primary paper PDF:** `Literature/reviews/Kuring2026InflammatoryDementia.pdf`
 
 ## Overview
 

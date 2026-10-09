@@ -21,7 +21,7 @@
 - `ch19-causal-hierarchy` (trigger/acute-inflammation → chronic neuroinflammation → neurodegeneration reasoning)
 - Potential `ch15-neurodegeneration-risk` existing claim (retrospective adaptation, Phase 6)
 
-**Phase 0 note — MIXED tree:** Working tree is MIXED at cycle start (unrelated `web/en/blog/posts/**/*.qmd` edits present + untracked `Literature/reviews/Aditi2026_encephalitis_dementia_risk.pdf`). User confirmed: proceed in MIXED mode. No shared-branch WIP commits; checkpoint via scratch pointers only; rollback = `git checkout <ref> -- <file>` (NEVER reset/rebase/amend); commit scoped by explicit file lists.
+**Phase 0 note — MIXED tree:** Working tree is MIXED at cycle start (unrelated `web/en/blog/posts/**/*.qmd` edits present + untracked `Literature/reviews/Aditi2026EncephalitisDementia.pdf`). User confirmed: proceed in MIXED mode. No shared-branch WIP commits; checkpoint via scratch pointers only; rollback = `git checkout <ref> -- <file>` (NEVER reset/rebase/amend); commit scoped by explicit file lists.
 
 ## Pre-identified hypotheses
 

@@ -7,7 +7,7 @@
 **Tree mode:** CLEAN (working tree clean at start; opencode.json committed by user before cycle).
 
 ## Source
-- `Literature/viral-persistence/Shor2011-seronegative-lyme-cfs/shor-CRIDS-Lyme-IACFS.pdf` (IACFS/ME presentation; WIRB #1121119). Text extracted to `shor.txt`.
+- `Literature/viral-persistence/Shor2011SeronegativeLyme/Shor2011SeronegativeLyme.pdf` (IACFS/ME presentation; WIRB #1121119). Text extracted to `shor.txt`.
 
 ## Key prior observations (pre-Phase-1)
 - Design: single-site, single-author, retrospective, uncontrolled, unblinded chart review. No placebo, no control arm.

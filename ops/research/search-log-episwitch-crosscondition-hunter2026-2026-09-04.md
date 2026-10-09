@@ -3,7 +3,7 @@
 **Topic slug:** `episwitch-crosscondition-hunter2026`
 **Phase:** 1 — Literature Research (integrate-topic pipeline)
 **Date:** 2026-09-04
-**Primary paper:** Hunter E et al. 2026. Beyond genes: EpiSwitch and Orion platform-powered 3D genome architecture biomarkers reveal shared biology across ME/CFS, long COVID, PTSD, rheumatoid arthritis, and multiple sclerosis. *J Transl Med*. DOI 10.1186/s12967-026-08874-9. Full text read (Article-in-Press PDF at `Literature/mechanisms/s12967-026-08874-9_reference.pdf`).
+**Primary paper:** Hunter E et al. 2026. Beyond genes: EpiSwitch and Orion platform-powered 3D genome architecture biomarkers reveal shared biology across ME/CFS, long COVID, PTSD, rheumatoid arthritis, and multiple sclerosis. *J Transl Med*. DOI 10.1186/s12967-026-08874-9. Full text read (Article-in-Press PDF at `Literature/mechanisms/Hunter2026EpiSwitchCrossCondition.pdf`).
 **Source used:** PubMed E-utilities API (esearch/esummary/efetch) + primary-paper full-text PDF. No landing-page scraping.
 
 ## Queries

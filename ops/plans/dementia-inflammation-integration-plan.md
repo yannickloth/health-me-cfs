@@ -128,5 +128,5 @@ Pairs audited (5): bidirectional-template(0.40)↔neuroinflammation-cascade-gene
 - Primary relevance is cross-disease / indirect (dementia ≠ ME/CFS); expect population-relevance
   discount to lower raw certainties. The inflammatory-mediated neurodegeneration template is the
   transferable concept, not dementia itself.
-- Bib target: `bib/neuroinflammation.bib`; PDF filed at `Literature/reviews/Kuring2026_dementia_inflammation_meta.pdf`.
+- Bib target: `bib/neuroinflammation.bib`; PDF filed at `Literature/reviews/Kuring2026InflammatoryDementia.pdf`.
 - Related plans: `inflammation-registry-integration-plan.md` (check for overlap).

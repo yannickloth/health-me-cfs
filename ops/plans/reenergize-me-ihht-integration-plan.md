@@ -113,7 +113,7 @@ Standing epistemic checklist: no violations.
 ## Notes
 - Topic: non-pharmacological intervention (oxygen therapy). Phase 1 harm-search MANDATORY (IHHT adverse effects, contraindications, safety). No pregnancy/lactation/co-prescription drug-interaction dimension (non-pharmacological) — but IHHT has safety contraindications (obstructive lung disease, pneumothorax history, claustrophobia).
 - Overlaps existing `hypoxia-altitude-hif1a-integration-plan.md` (altitude paradox, HIF-1α preconditioning). NEW standalone cycle per user decision; cross-reference this plan in Phase 0/Phase 6/Phase 7 notes.
-- PDF filed at `Literature/treatments/Nochi2026_IHHT_MECFS/` (Nochi2026_IHHT_MECFS_protocol.pdf + abstract.txt + key-findings.md). Scrape-registry entry added (doi:10.1136/bmjopen-2026-117729).
+- PDF filed at `Literature/treatments/Nochi2026REenergizeME/` (Nochi2026REenergizeME.pdf + abstract.txt + key-findings.md). Scrape-registry entry added (doi:10.1136/bmjopen-2026-117729).
 - **Evidence status: PROTOCOL ONLY — no efficacy results.** Integration must present IHHT as a registered, hypothesis-driven trial, not an effective treatment.
 - Primary endpoint: SF-36 vitality domain change (ANCOVA, n=52/group, 80% power, 15% dropout, effect assumed +13.7 between-group from non-controlled long-COVID IHHT data). Recruits 1 June 2026, completes data collection Jan 2029.
 
@@ -146,7 +146,7 @@ Standing epistemic checklist verified per-claim: #1 ✓ (claims traced to protoc
 - **Key finding + why it matters:** REenergizeME is the first registered, blinded, placebo-controlled RCT of intermittent hypoxia-hyperoxia treatment (IHHT) in ME/CFS — the controlled clinical test of the paper's existing hypoxia-hormesis/HIF-1α hypothesis. Integrated as a research-stage protocol with the mechanism rationale and safety frame; NOT an efficacy claim. Key epistemic points: zero direct ME/CFS IHHT efficacy data; the trial's power-calc effect assumption derives from a COI-overlapping non-controlled cohort (Kapel2025), risking a non-informative 2029 result; mild-hormetic vs pathological chronic IH dosing distinction is the safety boundary but unmeasured in ME/CFS.
 - **Phase 9 quality flags:** **WEAK-EVIDENCE** (PARTIAL — all weak claims caveated).
 - **Phase 2 clinical relevance:** MEDIUM (mechanistic context + upcoming eligible trial); NOT an actionable treatment. Subset: mild-moderate, female.
-- **Driving source integrated:** The user-supplied REenergizeME protocol PDF (Nochi et al. 2026, BMJ Open) — integrated (provenance present). PDF filed at `Literature/treatments/Nochi2026_IHHT_MECFS/` + IHHT corpus at `Literature/treatments/IHHT-MECFS/`.
+- **Driving source integrated:** The user-supplied REenergizeME protocol PDF (Nochi et al. 2026, BMJ Open) — integrated (provenance present). PDF filed at `Literature/treatments/Nochi2026REenergizeME/` + IHHT corpus at `Literature/treatments/IHHT-MECFS/`.
 
 ## Certainty Bump Log
 

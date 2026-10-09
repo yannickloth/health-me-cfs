@@ -2,10 +2,10 @@
 
 **Topic slug:** `irisin-signaling-resistance-pem`
 **Topic:** Souma B, Elremaly W, Akoume MY, Elbakry M, Godbout C, Moreau A. "Irisin Signaling Resistance in Myalgic Encephalomyelitis: A Proposed Mechanistic Framework for Post-Exertional Malaise Involving the TSP-1–HSP90α–αvβ5 Axis." *Int J Mol Sci* 2026, 27(11), 4770. DOI: 10.3390/ijms27114770.
-**Source:** standalone `/integrate-topic` (user-supplied PDF moved to `Literature/pathophysiology/exercise-recovery-pem/Souma2026_IrisinSignalingPEM/`)
+**Source:** standalone `/integrate-topic` (user-supplied PDF moved to `Literature/pathophysiology/exercise-recovery-pem/Souma2026IrisinSignalingResistance/`)
 **Date:** 2026-08-15
 **Parent topic:** root (relates to `charlton2026-muscle-bedrest`, `biofabrication-mughal-3d-muscle-cfs-sera`, `appelman2025-reply-muscle`, PEM literature)
-**Mode:** MIXED tree (unrelated untracked `Literature/2day-CPET/Davenport_2025_EffortDeconditioning/` from parallel cycle; user approved MIXED mode 2026-08-15)
+**Mode:** MIXED tree (unrelated untracked `Literature/2day-CPET/Davenport2025EffortDeconditioning/` from parallel cycle; user approved MIXED mode 2026-08-15)
 
 ## Purpose
 
@@ -59,7 +59,7 @@ Evaluate and, if evidence warrants, integrate the Souma 2026 mechanistic framewo
 
 ## Notes
 - MIXED tree — no shared-branch WIP commits; rollback = `git checkout <ref> -- <file>` (NEVER reset/rebase/amend); all phases scoped by explicit file lists, NOT `git diff`.
-- Source PDF: `Literature/pathophysiology/exercise-recovery-pem/Souma2026_IrisinSignalingPEM/Souma2026_IrisinSignalingPEM.pdf`.
+- Source PDF: `Literature/pathophysiology/exercise-recovery-pem/Souma2026IrisinSignalingResistance/Souma2026IrisinSignalingResistance.pdf`.
 
 ## Phase 2 Report (2026-08-15)
 - Evidence: 1 strong (Boström 0.64), 7 ≥0.40, 6 <0.40 (46%), 2 null (Ercan, Lapauw), 1 controversy (Elsen). Missing: independent ME/CFS replication, longitudinal data.

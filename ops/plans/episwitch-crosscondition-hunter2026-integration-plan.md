@@ -4,7 +4,7 @@
 
 **Topic slug:** `episwitch-crosscondition-hunter2026`
 **Parent topic:** `episwitch-epigenetic-test` (subtree `new-contents-episwitch.md`, row #5 cross-condition proposal)
-**File:** `Literature/mechanisms/s12967-026-08874-9_reference.pdf`
+**File:** `Literature/mechanisms/Hunter2026EpiSwitchCrossCondition.pdf`
 **Date:** 2026-09-04
 **MIXED/CONCURRENT mode:** Tree dirty with untracked `ops/plans/mitochondrial-dysfunction-mecfs-longcovid-integration-plan.md`. No shared-branch WIP commits; rollback = `git checkout <ref> -- <file>`; phases scoped by explicit file lists, NOT `git diff`. Shared-file entries tracked by key.
 

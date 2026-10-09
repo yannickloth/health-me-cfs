@@ -3,7 +3,7 @@
 **Topic slug:** `davis2023-longcovid-review`
 **Status:** ✅ done (committed 9a7648df)
 **Topic:** Davis HE, McCorkell L, Vogel JM, Topol EJ. Long COVID: major findings, mechanisms and recommendations. _Nature Reviews Microbiology_. 2023;21(3):133–146. Landmark patient-led review.
-**Source:** Comprehensive narrative review (not systematic). PDF archived at `Literature/reviews/Davis_2023_LongCOVID_MajorFindings/`.
+**Source:** Comprehensive narrative review (not systematic). PDF archived at `Literature/reviews/Davis2023LongCOVIDmajorfindings/`.
 **Date:** 2026-08-26
 **Parent topic:** root — standalone invocation. User-requested full biomedical integration.
 **Tree mode:** CLEAN at start (only this-topic Literature/ folder untracked). CLEAN mode → scratch-pointer checkpoints available; rollback = `git checkout <ref> -- <file>`; never `git reset`/rebase/--amend/add -A.

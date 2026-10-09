@@ -13,6 +13,17 @@ Prevents re-processing of already-integrated content.
 
 ---
 
+## ADHD → Late-Life Cognitive Impairment / Energy-Deficit Mechanism (adhd-dementia-energy-deficit) Literature Search
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities esearch/esummary/efetch) | 2026-10-08 | 25 queries across required categories: direct (ADHD × dementia cohort=46 → 6 new cohort/register studies; ADHD × MCI=290; ADHD × Alzheimer risk=59), null/negative (ADHD dementia null/negative="no association"=40 → Becker2022critical + Becker2023sysrev; no standalone replication-failure cohort located — null carried by critical reviews + embedded nulls), competing-mechanism/confounder (stimulant dementia=139 → Levine2023 stimulant-treated null + Golimstok2025 review; vascular/cardiometabolic → DuRietz2021; diabetes metabolic mediation → Fluegge2018; psychiatric comorbidity attenuation → Dobrosavljevic2021), indirect energy-deficit (cerebral glucose hypometabolism × AD FDG-PET=284 → Cunnane2011 + Mosconi2013; mitochondrial × AD cascade=2384 → Swerdlow2014; brain energy × ADHD=29 → all corpus-reuse Zametkin1990/Killeen2013/Almutairi2024/Berthier2025). **15 new papers added** (12 neurology-comorbidities.bib + 3 energy-metabolism.bib). Reused NOT re-added (already in corpus): Zametkin1990, Killeen2013neLactate, Almutairi2024mitoadhd, Berthier2025cbfadhd, Chang2020haploADHD, Giannoulis2024sysrevmtADHD, Verma2016ADHDcybrid, Ogutlu2022ADHDmito, BlagojevicStokic2026brainenergy, Zhu2025MetabolicNeuroimaging, Mairal2021FDGHBOT, VanDerGucht2017MMFFDG, Tomas2017/2020, SaezFrancas2012adhdcfs, Quadt2024neurodivergentfatigue, Norris2017adhdfatigue, Rimes2015adhdcfs. **Zero-result queries (informative):** `ADHD Mendelian randomization Alzheimer dementia`→methodology papers only (no ADHD-dementia MR = gap); `methylphenidate dementia risk longitudinal`=0; `stimulant treatment ADHD dementia risk cohort`=0. **Cohort overlap flagged:** BauerNegrini2026 + Rast2025 share All of Us; Dobrosavljevic2021 + DuRietz2021 share Swedish registers/group; Leffa2023 (ADNI) same Pittsburgh group as driving paper, no sample overlap. Driving paper (BauerNegrini 2026, PMID 42842281) verified via efetch; PDF already local (no re-download). |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed API queries (25 queries + esummary/efetch, 15 PMIDs) | pubmed/eutils | 2026-10-08 | — | ops/research/search-log-adhd-dementia-energy-deficit-2026-10-08.md, ops/research/literature-adhd-dementia-energy-deficit-2026-10-08.md, bib/neurology-comorbidities.bib (12), bib/energy-metabolism.bib (3), appendix-h `<sec:bib-adhd-dementia-energy-deficit>` (15 annotated entries), Literature/neurological/BauerNegrini2026ADHDdementia/ (abstract.txt, key-findings.md, README.md) |
+
+---
+
 ## Germany Cost-of-Illness Report — Long COVID + ME/CFS (long-covid-mecfs-cost-report) — Risklayer + ME/CFS Research Foundation
 | Source | Last Scraped | Notes |
 |--------|--------------|-------|
@@ -34,7 +45,7 @@ Prevents re-processing of already-integrated content.
 | Source | Last Scraped | Notes |
 |--------|--------------|-------|
 | PubMed (E-utilities API) | 2026-09-13 | ~32 queries across required categories: direct (stimulant × ME/CFS = 72 hits, all corpus reuse; MPH cognitive fatigue = 93), effort/reward mechanism (MPH effort motivation; dopamine effort invigoration), indirect biochemical (LC-NE arousal, adenosine, histamine), harm (MPH cardiovascular, amphetamine psychosis, stimulant safety meta-analysis), null/negative (MPH cognitive enhancement null; stimulant do-not-improve-cognition), and competitor (Rubia stimulants-brain meta-analysis). **12 new papers added:** Kay2025stimulantarousalreward, Ilieva2015StimulantMetaAnalysis, Ilieva2013ObjectiveSubjective, Roberts2020CognitiveEnhancementMeta, Repantis2010ModafinilMPHenhancement, Marraccini2016StimulantMetaAnalysis, Chong2023AmphetamineMotivation, Bowman2023NotSoSmart, GreenhouseTucknott2025FatigueEffort, Rubia2014StimulantBrainMeta, Oliva2025StimulantSafety, Nourredine2026ADHDNetworkMeta. **Reused by PMID, not duplicated:** Hendrix2025AdrenergicDysfunction (neuroinflammation.bib — ME/CFS adrenergic), Koonce2024LongCovidStimulant, Eckey2025PatientReported, Blockmans2006MPHCFS, Walitt2024NIH, Young2025solriamfetol, Randall2005modafinil, Minzenberg2008modafinil, Graveling2023stimulantmitochondria. **Zero-result queries (informative):** `stimulant AND overexertion AND post-exertional malaise`=0, `methylphenidate AND cognitive enhancement AND null`=0, `stimulant AND ME/CFS safety`=0, `long COVID brain fog stimulant treatment`=0 → ME/CFS-specific stimulant-overexertion harm is essentially absent from the indexed literature; hazard must be framed as mechanistically inferred. **Verified:** Kay 2025 = Cell 188(26):7529–7546.e20 (task prompt said 7529–7566 — corrected); bioRxiv preprint PMID 40475604 superseded by peer-reviewed version. |
-| PDF (already local) | 2026-09-13 | `Literature/neurological/1-s2.0-S009286742501373X-main.pdf` (39 pp, extracted via pdftotext for primary evidence — no web scrape). |
+| PDF (already local) | 2026-09-13 | `Literature/neurological/Kay2025stimulantarousalreward.pdf` (39 pp, extracted via pdftotext for primary evidence — no web scrape). |
 
 | URL | Source | Scraped | Integrated | Target |
 |-----|--------|---------|------------|--------|
@@ -812,7 +823,7 @@ Prevents re-processing of already-integrated content.
 | https://pubmed.ncbi.nlm.nih.gov/23514626/ | pubmed | 2026-05-26 | 2026-05-26 | lit-muscle-preservation-bedbound — Deutz2013HMB — HMB preserves lean mass bed rest older adults RCT |
 | https://pubmed.ncbi.nlm.nih.gov/28705993/ | pubmed | 2026-05-26 | 2026-05-26 | lit-muscle-preservation-bedbound — Standley2017HMBMitochondria — HMB effects mitochondria bed rest |
 | https://pubmed.ncbi.nlm.nih.gov/25296344/ | pubmed | 2026-05-26 | 2026-05-26 | lit-muscle-preservation-bedbound — Dirks2015NMES — NMES prevents muscle wasting comatose ICU patients |
-| https://www.sciencedirect.com/science/article/pii/S0022395626001287 | sciencedirect | 2026-08-09 | — | ops/research/literature-dementia-inflammation-2026.md, ops/research/search-log-dementia-inflammation-2026.md, bib/neuroinflammation.bib, appendix-h, Literature/reviews/Kuring2026_dementia_inflammation_meta.pdf — Kuring 2026 dementia inflammatory markers meta-analysis (inflammatory-mediated neurodegeneration hypothesis) |
+| https://www.sciencedirect.com/science/article/pii/S0022395626001287 | sciencedirect | 2026-08-09 | — | ops/research/literature-dementia-inflammation-2026.md, ops/research/search-log-dementia-inflammation-2026.md, bib/neuroinflammation.bib, appendix-h, Literature/reviews/Kuring2026InflammatoryDementia.pdf — Kuring 2026 dementia inflammatory markers meta-analysis (inflammatory-mediated neurodegeneration hypothesis) |
 | https://pubmed.ncbi.nlm.nih.gov/37931509/ | pubmed | 2026-08-09 | — | Kuring 2023 depression/anxiety/PTSD inflammatory markers meta-analysis (companion paper) |
 | https://pubmed.ncbi.nlm.nih.gov/31465778/ | pubmed | 2026-08-09 | — | Strawbridge 2019 CFS inflammatory proteins meta-analysis (ME/CFS cross-disease support) |
 
@@ -967,7 +978,7 @@ Prevents re-processing of already-integrated content.
 | URL | Source | Scraped | Integrated | Target |
 |-----|--------|---------|------------|--------|
 | PubMed API queries (24 queries, batch) | pubmed/eutils | 2026-07-15 | 2026-07-15 | ops/research/search-log-inadequate-treatment-duration-research-2026-07-15.md, ops/research/literature-inadequate-treatment-duration-research.md, bib/treatments.bib (14 entries), bib/viral-infection.bib (1 entry), appendix-h (15 annotated entries) — Inadequate treatment duration literature collection |
-| http://www.christinegreenmd.com/uploads/shor-CRIDS-Lyme-IACFS.pdf | christinegreenmd.com | 2026-07-17 | — | Literature/viral-persistence/Shor2011-seronegative-lyme-cfs/ — Shor 2011 seronegative/chronic Lyme in CFS (IACFS presentation) |
+| http://www.christinegreenmd.com/uploads/Shor2011SeronegativeLyme.pdf | christinegreenmd.com | 2026-07-17 | — | Literature/viral-persistence/Shor2011SeronegativeLyme/ — Shor 2011 seronegative/chronic Lyme in CFS (IACFS presentation) |
 
 ## Glycolytic Reprogramming in Tick-Borne Pathogens Literature Search (2026-07-17)
 | Source | Last Scraped | Notes |
@@ -1262,7 +1273,7 @@ Prevents re-processing of already-integrated content.
 ## REenergizeME — Intermittent Hypoxia-Hyperoxia Treatment (IHHT) in ME/CFS — Literature Search (2026-08-29)
 | Source | Last Scraped | Notes |
 |--------|--------------|-------|
-| User-supplied PDF (protocol, BMJ Open 2026;16:e117729) | 2026-08-29 | User-supplied protocol paper: Nochi et al. 2026 REenergizeME — RCT protocol, IHHT in 104 female ME/CFS (ICC criteria, mild–moderate NICE), 1:1 IHHT vs sham, HypoxBreath device, 6 sessions/8 weeks, 4–7 hypoxia–hyperoxia cycles 22–40 min, primary = SF-36 vitality. Filed at `Literature/treatments/Nochi2026_IHHT_MECFS/`. PDF read fully (via pdftotext). Full PubMed literature search (direct/indirect-biochemical/harm/null) performed in integrate-topic Phase 1. |
+| User-supplied PDF (protocol, BMJ Open 2026;16:e117729) | 2026-08-29 | User-supplied protocol paper: Nochi et al. 2026 REenergizeME — RCT protocol, IHHT in 104 female ME/CFS (ICC criteria, mild–moderate NICE), 1:1 IHHT vs sham, HypoxBreath device, 6 sessions/8 weeks, 4–7 hypoxia–hyperoxia cycles 22–40 min, primary = SF-36 vitality. Filed at `Literature/treatments/Nochi2026REenergizeME/`. PDF read fully (via pdftotext). Full PubMed literature search (direct/indirect-biochemical/harm/null) performed in integrate-topic Phase 1. |
 
 | URL | Source | Scraped | Integrated | Target |
 |-----|--------|---------|------------|--------|
@@ -1273,7 +1284,7 @@ Prevents re-processing of already-integrated content.
 ## S4ME 2026 "Management of Severe and Very Severe ME/CFS" Factsheet — Literature Verification & Harm Search (2026-08-29)
 | Source | Last Scraped | Notes |
 |--------|--------------|-------|
-| User-supplied PDF (Science for ME, Edwards J + S4ME members 2026, severe/very-severe clinical-management factsheet) | 2026-08-29 | Filed at `Literature/severe-care/S4ME2026ManagementSevereVerySevereMECFS.pdf`. Read fully (prior session). 5 referenced papers verified via Crossref + PubMed: Gaunt 2024 (Eur J Pediatr), Wearden FINE protocol 2006 + results 2010 (BMJ), Devasahayam 2012, Page 2019, McPhee 2019. Metadata via Crossref (title/author/journal/vol/page/DOI) + PubMed esummary/efetch (PMID verified). MANDATORY harm/safety searches: (a) enteral/parenteral feeding in ME/CFS — no new ME/CFS-specific safety paper beyond Baxter2021 (already in corpus); (b) off-label drugs (antihistamines, naltrexone, fludrocortisone, ivabradine) ME/CFS safety — all harm evidence already in corpus (Rowe2001FludrocortisoneNMH, Marchetta2025ivabradine + POTS oral-meds review, Bolton2019NaltrexoneSAE + extensive LDN, mast-cell antihistamine coverage). No genuinely-new harm papers justified; none added (anti-padding). |
+| User-supplied PDF (Science for ME, Edwards J + S4ME members 2026, severe/very-severe clinical-management factsheet) | 2026-08-29 | Filed at `Literature/severe-care/S4ME2026ManagementSevereVerySevere.pdf`. Read fully (prior session). 5 referenced papers verified via Crossref + PubMed: Gaunt 2024 (Eur J Pediatr), Wearden FINE protocol 2006 + results 2010 (BMJ), Devasahayam 2012, Page 2019, McPhee 2019. Metadata via Crossref (title/author/journal/vol/page/DOI) + PubMed esummary/efetch (PMID verified). MANDATORY harm/safety searches: (a) enteral/parenteral feeding in ME/CFS — no new ME/CFS-specific safety paper beyond Baxter2021 (already in corpus); (b) off-label drugs (antihistamines, naltrexone, fludrocortisone, ivabradine) ME/CFS safety — all harm evidence already in corpus (Rowe2001FludrocortisoneNMH, Marchetta2025ivabradine + POTS oral-meds review, Bolton2019NaltrexoneSAE + extensive LDN, mast-cell antihistamine coverage). No genuinely-new harm papers justified; none added (anti-padding). |
 
 | URL | Source | Scraped | Integrated | Target |
 |-----|--------|---------|------------|--------|

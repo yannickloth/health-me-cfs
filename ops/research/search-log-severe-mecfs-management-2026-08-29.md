@@ -2,7 +2,7 @@
 
 **Topic:** `severe-mecfs-management`
 **Date:** 2026-08-29
-**Type:** Clinical-management factsheet. Integration source: Science for ME, "Management of severe and very severe ME/CFS" (Prof. Jonathan Edwards + S4ME members, 2026). PDF: `Literature/severe-care/S4ME2026ManagementSevereVerySevereMECFS.pdf` (read fully in prior session).
+**Type:** Clinical-management factsheet. Integration source: Science for ME, "Management of severe and very severe ME/CFS" (Prof. Jonathan Edwards + S4ME members, 2026). PDF: `Literature/severe-care/S4ME2026ManagementSevereVerySevere.pdf` (read fully in prior session).
 **Mandate:** Clinical-management factsheet → full verification of factsheet bibliography + MANDATORY harm/safety search (enteral/parenteral feeding; off-label drugs). Most supporting evidence already in corpus bib.
 
 ## Queries

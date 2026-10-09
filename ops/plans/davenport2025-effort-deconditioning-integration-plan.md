@@ -3,7 +3,7 @@
 **Date:** 2026-08-15
 **Purpose:** Integrate Davenport et al. 2025 (Nat. Commun. 16:9176, doi:10.1038/s41467-025-64538-0) — a *Matters Arising* rebuttal of Walitt et al. 2024's conclusion that post-infectious ME/CFS is defined by "altered effort preference → activity avoidance → deconditioning." The paper defends 2-day CPET as the correct method to study PEM, argues single-CPET invalidates Walitt's effort/deconditioning conclusion, and cites lower exercise HR (chronotropic incompetence) + impaired oxidative metabolism as better explanations than deconditioning.
 
-**Source file:** `Literature/2day-CPET/Davenport_2025_EffortDeconditioning/Davenport_2025_EffortDeconditioning.pdf`
+**Source file:** `Literature/2day-CPET/Davenport2025EffortDeconditioning/Davenport2025EffortDeconditioning.pdf`
 
 **Relationship to existing themes:** Standalone cycle but cross-references two existing plans:
 - `cpet-null-replication-integration-plan.md` (Mancini2026 null replication of 2-day CPET; directly contested evidence base for 2-day CPET)

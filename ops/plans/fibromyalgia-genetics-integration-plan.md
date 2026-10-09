@@ -2,7 +2,7 @@
 
 **Topic slug:** `fibromyalgia-genetics`
 **Purpose:** Integrate Kerrebijn et al. 2026 (Nat Med, doi:10.1038/s41591-026-04492-6), the largest multi-ancestry GWAS of fibromyalgia (2.56M individuals, 26 risk loci, HTT/GPR52/DRD2 neural genes, brain-enriched heritability, strong genetic correlation with chronic pain/psychiatric/somatic disorders) — establishing fibromyalgia as a CNS disorder and informing the ME/CFS comorbidity relationship.
-**PDF:** `Literature/comorbidities/Kerrebijn_2026_FibromyalgiaGenetics/Kerrebijn_2026_FibromyalgiaGenetics.pdf`
+**PDF:** `Literature/comorbidities/Kerrebijn2026FibromyalgiaGWAS/Kerrebijn2026FibromyalgiaGWAS.pdf`
 **Date:** 2026-08-22
 **Parent topic:** root
 
@@ -32,7 +32,7 @@
 ## Phase 1 record
 - **Search log:** `ops/research/search-log-fibromyalgia-genetics-2026-08-22.md` (16 queries, 10 papers included, 5 corpus reused)
 - **Lit summary:** `ops/research/literature-summary-fibromyalgia-genetics.md`
-- **Primary PDF:** read fully; notes/key-findings/integration-guide in `Literature/comorbidities/Kerrebijn_2026_FibromyalgiaGenetics/`
+- **Primary PDF:** read fully; notes/key-findings/integration-guide in `Literature/comorbidities/Kerrebijn2026FibromyalgiaGWAS/`
 - **Bib keys added (10, VERIFIED):** genetics-epigenetics.bib → Kerrebijn2026FibromyalgiaGWAS, Bright2026FibromyalgiaGenetics, Lin2026FibromyalgiaPsychiatric; pain-fibromyalgia.bib → Johnston2025NociplasticPain, Pan2025WidespreadPain, Rahman2021CWP, Clauw2024FMAutoimmune, Ablin2025FMGeneEnv, Hu2025BrainNetworkFM, Dagnelli2019FMGenetics
 - **Corpus reused (not re-added):** DecodeME2025, Hajdarevic2022gwas, Schlauch2016gwas, Steen2026sharedgenetic, Hirsch2025comparativeGWAS
 - **Primary cert:** raw 0.85 × 0.80 fibromyalgia weight = **discounted 0.68**

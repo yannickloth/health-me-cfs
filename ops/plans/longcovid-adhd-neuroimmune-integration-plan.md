@@ -2,7 +2,7 @@
 
 **Purpose:** Integrate Spanoghe et al. 2026 (Brain Behav Immun) — a translational viewpoint proposing convergent neuroimmune mechanisms linking Long Covid and AD(H)D, and a precision-immunopsychiatry framework. Evaluates whether this hypothesis-generating framework warrants addition to the ME/CFS cross-disease ADHD content.
 
-**Origin:** user request 2026-08-20 — /integrate-topic on newly-filed Spanoghe 2026 paper (Literature/comorbidities/Spanoghe_2026_LongCovidADHDNeuroimmune/).
+**Origin:** user request 2026-08-20 — /integrate-topic on newly-filed Spanoghe 2026 paper (Literature/comorbidities/Spanoghe2026LongCovidADHD/).
 
 ## Target chapters
 - `part2-pathophysiology/ch17-speculative-hypotheses/ch14d-cross-disease.typ` (ADHD–ME/CFS–Long Covid shared mechanisms)

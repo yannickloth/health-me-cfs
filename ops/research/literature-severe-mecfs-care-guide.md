@@ -8,7 +8,7 @@
 
 **Hermisson J, Schreiner C, Weichselbaumer S, et al. (2026).** Transdisziplinäres Expert:innen-Statement: Pflegeleitfaden für Menschen mit schwerem ME/CFS in der häuslichen Versorgung. *Wiener Medizinische Wochenschrift*. doi:10.1007/s10354-026-01155-6
 
-**File:** `Literature/Hermisson2026-care-guide/Hermisson2026.pdf` (548 KB, 38 pages, Open Access)
+**File:** `Literature/Hermisson2026-care-guide/Hermisson2026CareGuide.pdf` (548 KB, 38 pages, Open Access)
 
 **Key:** `Hermisson2026CareGuide` · certainty = 0.85
 

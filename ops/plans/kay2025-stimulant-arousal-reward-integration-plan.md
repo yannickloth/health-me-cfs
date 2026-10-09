@@ -2,7 +2,7 @@
 
 **Topic slug:** `kay2025-stimulant-arousal-reward`
 **Origin:** standalone `/integrate-topic` — Kay et al. 2025, *Cell* 188:7529–7566, "Stimulant medications affect arousal and reward, not attention networks" (doi:10.1016/j.cell.2025.11.039).
-**PDF:** `Literature/neurological/1-s2.0-S009286742501373X-main.pdf`
+**PDF:** `Literature/neurological/Kay2025stimulantarousalreward.pdf`
 
 **Purpose:** Refine the paper's stimulant differential-diagnostic inference. Kay 2025 provides direct human neuroimaging/behavioral evidence that therapeutic stimulants (methylphenidate, amphetamine) improve *subjective arousal and reward valuation* rather than enhancing *attention network capacity*. This changes what a positive stimulant response reveals: not "attention circuits were under-activated" but "the effort/reward and arousal-salience signal was low."
 

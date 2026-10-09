@@ -2,7 +2,7 @@
 
 **Status:** 🔵 in progress
 **Created:** 2026-09-03
-**Mode:** MIXED (unrelated untracked `Literature/mechanisms/s12967-026-08874-9_reference.pdf` present — not part of this topic; left untouched)
+**Mode:** MIXED (unrelated untracked `Literature/mechanisms/Hunter2026EpiSwitchCrossCondition.pdf` present — not part of this topic; left untouched)
 **Topic slug:** mitochondrial-dysfunction-mecfs-longcovid
 
 ## Purpose

@@ -2,7 +2,7 @@
 
 **Topic:** `severe-mecfs-management`
 **Date:** 2026-08-29
-**Type:** Clinical-management factsheet. Source: Science for ME, "Management of severe and very severe ME/CFS" (Prof. Jonathan Edwards + S4ME members, 2026). PDF: `Literature/severe-care/S4ME2026ManagementSevereVerySevereMECFS.pdf`.
+**Type:** Clinical-management factsheet. Source: Science for ME, "Management of severe and very severe ME/CFS" (Prof. Jonathan Edwards + S4ME members, 2026). PDF: `Literature/severe-care/S4ME2026ManagementSevereVerySevere.pdf`.
 
 ## Bottom Line
 

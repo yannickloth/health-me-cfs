@@ -29,7 +29,7 @@
 - **Limitations:** Young sample (mean 32.2), apathy-predominant phenotype, n=24, no pre-COVID baseline
 - **Certainty:** 0.72
 - **Bib key:** `Liu2026VMAT2longcovid`
-- **File:** Literature/neurological/PIIS2352396426002227.pdf
+- **File:** Literature/neurological/Liu2026VMAT2longcovid.pdf
 
 ---
 

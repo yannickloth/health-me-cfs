@@ -30,7 +30,7 @@
 - Studies unrelated to fatigue/post-viral states.
 - Conference abstracts without full data.
 - Duplicate or already-integrated entries (checked against existing bib: Godlewska2025MRS, Thapaliya2023Brainstem, Thapaliya2024glutamateMRS, Thapaliya2022brain, Barnden2018T1Brainstem, Douaud2022brain, and the godlewska stream's Sklinda/Bravi/Pajuelo already present).
-- The existing Thapaliya2026GlymphaticDTIALPS paper (PMID 42403482; already downloaded at Literature/neurological/Thapaliya2026_GlymphaticDTIALPS/ but NOT yet in bib — left for its own topic cycle; noted, not duplicated here).
+- The existing Thapaliya2026GlymphaticDTIALPS paper (PMID 42403482; already downloaded at Literature/neurological/Thapaliya2026GlymphaticDTIALPS/ but NOT yet in bib — left for its own topic cycle; noted, not duplicated here).
 
 ## Flow
 - Total raw hits across 8 queries: 28 (PMID-deduplicated).
