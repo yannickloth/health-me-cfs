@@ -1,0 +1,9 @@
+{
+  "name": "pubmed-mcp-server-tool",
+  "version": "2.10.21",
+  "description": "Wrapper package to pin @cyanheads/pubmed-mcp-server for the Nix dev shell",
+  "private": true,
+  "dependencies": {
+    "@cyanheads/pubmed-mcp-server": "2.10.21"
+  }
+}

@@ -314,13 +314,77 @@
           '';
         };
 
+        # biomcp-cli: single-binary biomedical MCP CLI (PubMed, ClinicalTrials.gov,
+        # OpenFDA, Semantic Scholar, cBioPortal). Not in nixpkgs; upstream ships
+        # prebuilt platform binaries, so fetch those and patch the ELF interpreter
+        # (autoPatchelfHook) instead of resolving the ~37-dep Python package.
+        biomcp =
+          let
+            release = "0.9.1";
+            tarball =
+              {
+                x86_64-linux = {
+                  url = "https://github.com/genomoncology/biomcp/releases/download/v${release}/biomcp-linux-x86_64.tar.gz";
+                  hash = "sha256-eo0CJyZ9YCw5Ph6szGPGLfgQSfR8YfOZ8OcUpE66ttQ=";
+                };
+                aarch64-linux = {
+                  url = "https://github.com/genomoncology/biomcp/releases/download/v${release}/biomcp-linux-arm64.tar.gz";
+                  hash = "sha256-CxvvVMUoGVGGDsoja0SbopHHuuZL6zVlwo+pBGwvqXo=";
+                };
+                x86_64-darwin = {
+                  url = "https://github.com/genomoncology/biomcp/releases/download/v${release}/biomcp-darwin-x86_64.tar.gz";
+                  hash = "sha256-zbt6DE93iw2zG40TaSXepwpuN/rJelVGo3YuU32NHoo=";
+                };
+                aarch64-darwin = {
+                  url = "https://github.com/genomoncology/biomcp/releases/download/v${release}/biomcp-darwin-arm64.tar.gz";
+                  hash = "sha256-ElcKYd9IcvuXypKVM/y2wI6D0a1doKQZMHtOjZuVqK0=";
+                };
+              }.${system};
+          in
+          pkgs.stdenv.mkDerivation {
+            pname = "biomcp";
+            version = release;
+            src = pkgs.fetchurl {
+              inherit (tarball) url hash;
+            };
+            nativeBuildInputs = pkgs.lib.optionals pkgs.stdenv.hostPlatform.isLinux [ pkgs.autoPatchelfHook ];
+            buildInputs = pkgs.lib.optionals pkgs.stdenv.hostPlatform.isLinux [ pkgs.stdenv.cc.cc.lib ];
+            sourceRoot = ".";
+            installPhase = ''
+              runHook preInstall
+              install -Dm755 biomcp $out/bin/biomcp
+              runHook postInstall
+            '';
+          };
+
+        # pubmed-mcp-server (@cyanheads, npm): PubMed + Europe PMC full-text search,
+        # MeSH lookup, citation formatting. Prebuilt dist/; wrapper package.json +
+        # lockfile pinned under nix/pubmed-mcp-server/ (same pattern as zvec-grep).
+        pubmed-mcp-server = pkgs.buildNpmPackage {
+          pname = "pubmed-mcp-server";
+          version = "2.10.21";
+          src = ./nix/pubmed-mcp-server;
+          nodejs = pkgs.nodejs_24;
+          npmDepsHash = "sha256-JhQ/J9letjBs99VpUxqqWR43HAE/xVWZAjcB4EoLl8I=";
+          npmRebuildFlags = [ "--ignore-scripts" ];
+          dontNpmBuild = true;
+          # The published package's bin is nested under node_modules (the wrapper
+          # declares none), so the npm-install-hook emits no $out/bin. Wrap the
+          # nested dist/index.js against the pinned nodejs (same as zvec-grep).
+          postInstall = ''
+            mkdir -p "$out/bin"
+            makeWrapper ${pkgs.nodejs_24}/bin/node "$out/bin/pubmed-mcp-server" \
+              --add-flags "$out/lib/node_modules/pubmed-mcp-server-tool/node_modules/@cyanheads/pubmed-mcp-server/dist/index.js"
+          '';
+        };
+
       in
       {
         packages = {
           default = buildTypstPdf;
           web = buildWeb;
           web-full = buildWebFull;
-          inherit zvec-grep;
+          inherit zvec-grep biomcp pubmed-mcp-server;
         };
 
         checks = {
@@ -454,6 +518,8 @@
             pkgs.nixfmt
             pkgs.gnuplot
             zvec-grep
+            biomcp
+            pubmed-mcp-server
           ];
           shellHook = ''
             export TYPST_PACKAGE_CACHE_PATH="${typst-package-cache}"
