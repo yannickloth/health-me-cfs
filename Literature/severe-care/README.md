@@ -34,4 +34,4 @@ This folder is the designated home for PDFs on severe/very-severe ME/CFS emergen
 
 | File | Source | Topic domain |
 |------|--------|--------------|
-| `S4ME2026ManagementSevereVerySevereMECFS.pdf` | Science for ME factsheet — Prof. Jonathan Edwards + S4ME members (2026) | Severe/very-severe ME/CFS management: aids, ADL, environmental-stimuli reduction, nutritional/enteral-parenteral support, hospital admission |
+| `S4ME2026ManagementSevereVerySevere.pdf` | Science for ME factsheet — Prof. Jonathan Edwards + S4ME members (2026) | Severe/very-severe ME/CFS management: aids, ADL, environmental-stimuli reduction, nutritional/enteral-parenteral support, hospital admission |

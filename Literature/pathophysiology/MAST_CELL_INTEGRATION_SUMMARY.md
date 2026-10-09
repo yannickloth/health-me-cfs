@@ -97,10 +97,10 @@
 ---
 
 #### ✅ 5. Christ et al., 2018 - Circadian Clock Drives Mast Cells (Review)
-**Folder:** `Literature/pathophysiology/mast-cell-circadian/Christ_2018_CircadianMastCell/`
+**Folder:** `Literature/pathophysiology/mast-cell-circadian/Christ2018/`
 - ✅ abstract.txt (summary with chronotherapy emphasis)
 - ✅ README.md (synthesis document)
-- ✅ Christ_2018.pdf (430 KB, downloaded from Frontiers - OPEN ACCESS)
+- ✅ Christ2018.pdf (430 KB, downloaded from Frontiers - OPEN ACCESS)
 - ✅ BibTeX entry: `@article{Christ2018,` (verified)
 - ⚠️ Appendix H: NOT YET ADDED (review paper, lower priority)
 
@@ -124,7 +124,7 @@ Literature/pathophysiology/
 └── mast-cell-circadian/
     ├── Nakamura_2014_MastCellClock/  [5 files] ✅
     ├── Nakao_2018_ClockworkAllergy/  [2 files] ✅
-    └── Christ_2018_CircadianMastCell/ [3 files + PDF] ✅
+    └── Christ2018/ [3 files + PDF] ✅
 ```
 
 ### BibTeX Entries ✅

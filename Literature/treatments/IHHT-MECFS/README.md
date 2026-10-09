@@ -12,17 +12,17 @@ Search provenance: `ops/research/search-log-reenergize-me-ihht-2026-08-29.md`.
 
 | File | Paper | Source |
 |------|-------|--------|
-| Nochi2026_IHHT_MECFS_protocol.pdf | REenergizeME protocol (anchor) | BMJ Open, from publisher |
-| Doehner2024_IHHT_LongCovid.pdf | IHHT long-COVID controlled pilot (ref 39) | Europe PMC PDF (PMC11634465) |
+| Nochi2026REenergizeME.pdf | REenergizeME protocol (anchor) | BMJ Open, from publisher |
+| Doehner2024IHHTLongCovid.pdf | IHHT long-COVID controlled pilot (ref 39) | Europe PMC PDF (PMC11634465) |
 | Doehner2024_IHHT_LongCovid_abstract.txt | abstract | PubMed efetch |
-| Kapel2025_IHHC_PCC.pdf | IHHC post-COVID open cohort (ref 40) | Europe PMC PDF (PMC11900126) |
+| Kapel2025IHHC.pdf | IHHC post-COVID open cohort (ref 40) | Europe PMC PDF (PMC11900126) |
 | Zha2024_IntermittentHypoxia_PASC_abstract.txt | intermittent-hypoxia PASC RCT (ref 41) | PubMed efetch (not OA) |
 | Serebrovska2019_IHHTvsIHT_Prediabetes_abstract.txt | IHHT vs IHT prediabetes RCT | PubMed efetch (not OA) |
-| Bestavashvili2022_IHHE_MetabolicSyndrome.pdf | IHHE metabolic syndrome RCT | Europe PMC PDF (PMC8945352) |
-| Afina2021_IHHT_MetabolicSyndrome.pdf | IHHT lipid/inflammation companion | Europe PMC PDF (PMC8429814) |
-| Zhang2023_HypoxiaConditioning.pdf | hypoxia conditioning mechanism review | Europe PMC PDF (PMC10583178) |
+| Bestavashvili2022IHHEmetabolic.pdf | IHHE metabolic syndrome RCT | Europe PMC PDF (PMC8945352) |
+| Afina2021IHHTLipidInflammation.pdf | IHHT lipid/inflammation companion | Europe PMC PDF (PMC8429814) |
+| Zhang2023HypoxiaConditioning.pdf | hypoxia conditioning mechanism review | Europe PMC PDF (PMC10583178) |
 | Erdem2026_HIF1a_OSA_Harm_abstract.txt | HIF-1α in OSA (harm contrast) | PubMed efetch (not OA) |
-| She2026_IH_Paradigms_Harm.pdf | IH paradigm structure (rats) | Europe PMC PDF (PMC13148984) |
+| She2026IHParadigms.pdf | IH paradigm structure (rats) | Europe PMC PDF (PMC13148984) |
 | She2026_IH_Paradigms_Harm_abstract.txt | abstract | PubMed efetch |
 
 ## Key facts
