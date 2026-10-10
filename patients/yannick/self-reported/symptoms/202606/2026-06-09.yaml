@@ -21,7 +21,7 @@ overall_wellbeing: good
 activity:
   exercise:
     - description: "WaterRower (on floor), moderate pace, 20 minutes"
-    purpose: "Deliberate exertion test after 3 symptom-free days"
+      purpose: "Deliberate exertion test after 3 symptom-free days"
 
 hypotheses:
   - id: exertion_test_post_recovery

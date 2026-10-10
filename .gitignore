@@ -417,3 +417,12 @@ tinymist.lock
 .idea/
 *.iml
 *.xml
+
+## Python cache (ops scripts)
+__pycache__/
+*.pyc
+
+## Generated own-data timelines (regenerate: python3 ops/scripts/own_timeline.py)
+# yannick's timeline is tracked explicitly; empty/generated views are not
+ops/research/own-timeline-*.md
+!ops/research/own-timeline-yannick-*.md
