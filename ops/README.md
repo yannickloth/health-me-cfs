@@ -46,6 +46,9 @@ Per-key audit of the 6 `mcas-stack-ws*` fragment files (88 unique bib keys +
 - 86/88 appendix-h entries verified by normalized title; the same 2 papers
   confirmed present (Schiwack POTS review: 2 title hits in the real appendix).
 - **Disposition: all 6 files deleted** (git history preserves them).
-- Still open: `hypothesis-registry-additions-viral-clearance-2026-05-14.md`
-  (8 IDs absent from the registry AND no topic equivalents — genuine unmerged
-  content; needs format-aware merge with owner OK).
+- Still open → CLOSED 2026-10-10: the viral-clearance registry fragment was
+  format-aware merged as `= Entries added 2026-10-10: Viral Clearance Dynamics
+  (viral-clearance-dynamics -- retroactive registry completion)` in
+  `hypothesis-registry.typ` (8 `#registry-entry` blocks, strict format, real bib
+  keys, chapter-refs pointing at built labels; 4 ch47 labels referenced as prose
+  because those files are not in the build). Fragment deleted. Build green.

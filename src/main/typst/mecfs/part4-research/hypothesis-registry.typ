@@ -6671,3 +6671,117 @@ This registry collects all hypotheses, speculations, open questions, and predict
   [oq diabetes-dementia-ceiling], [Open question (ch14d @oq:diabetes-dementia-ceiling): type-2 diabetes is the empirical ceiling for any acquired energy-deficit-to-dementia estimate (HR 1.5--2); any ME/CFS estimate should be of T2D's order or lower, not ADHD's @Fluegge2018ADHDmetabolic. Origin: brainstorm. (cert n/a.)],[Phase 5 / n/a],
   [lim energy-deficit-regional-mismatch], [Limitation (ch14d @lim:energy-deficit-regional-mismatch): the energy deficit sits in different regions across conditions (ME/CFS brainstem/cerebellar vs ADHD prefrontal vs prodromal AD temporoparietal), so a brainstem/cerebellar deficit has no path to cortical proteinopathy @Mosconi2013GlucoseAD. Origin: brainstorm. (cert n/a.)],[Phase 5 / n/a],
 )
+
+
+= Entries added 2026-10-10: Viral Clearance Dynamics (viral-clearance-dynamics -- retroactive registry completion)
+
+// Retroactive completion: the 2026-05-14 viral-clearance cycle integrated its
+// content into ch08, ch14d, ch38 and ch47 chapter environments, but the registry
+// section was never written. Merged 2026-10-10 from the viral-clearance registry
+// fragment in the ops integration guides (fragment now deleted; git history
+// preserves it). Certainties are the cycle's
+// original values; severity not stratified in any entry.
+
+#registry-entry(
+  [Critical Clearance Window Determining Chronic Outcomes],
+  type: "H",
+  certainty: "0.40",
+  evidence: [A time-limited window (roughly 2--8 weeks post-infection) during which effective viral clearance determines long-term outcome. The Dubbo cohort found a similar post-infectious-fatigue rate (about 10--12%) regardless of pathogen (EBV, Coxiella, Ross River virus), suggesting host-response pattern matters more than the specific pathogen @Hickie2006DubboCohort @Hickie2006postinfectious; Long COVID immune signatures at 3 months predict 12-month outcomes @Phetsouphanh2024longcovid24mo.],
+  citations: [@Hickie2006DubboCohort @Hickie2006postinfectious @Phetsouphanh2024longcovid24mo],
+  mechanism: [During the clearance window, viral eradication, immune resolution, tissue repair, and immune reprogramming must all succeed; failure at any step initiates self-sustaining pathological loops. Early antiviral or immunomodulatory intervention may prevent chronicity.],
+  chapter-ref: [ch08 viral persistence and clearance failure: @hyp:critical-clearance-window],
+  prediction: [Immune profiles at 4 weeks post-infection predict 6-month ME/CFS status with >80% accuracy; antiviral treatment within 2 weeks lowers ME/CFS incidence; inflammatory-marker elevation persisting beyond 8 weeks correlates with severity. Falsified if 4-week profiles carry no prospective information or early antivirals change nothing.],
+  treatment: [Early intervention (antivirals, immunomodulators) during the window; biomarker-based risk stratification to target high-risk patients. No current clinical recommendation.],
+  limitation: [Window timing likely varies by pathogen and individual; assumes clearance is the primary determinant when host factors may weigh equally; no prospective trial of early intervention. Severity not stratified. (ch08, 2026-05-14 cycle; retroactive registry completion 2026-10-10.)],
+)
+
+#registry-entry(
+  [Compartmentalized Viral Reservoirs in ME/CFS],
+  type: "H",
+  certainty: "0.35",
+  evidence: [ME/CFS patients may harbor viral reservoirs in immune-privileged compartments (gut lymphoid tissue, CNS, bone marrow) driving chronic immune activation via intermittent antigen release. Comparative virology: FIPV persists in B and T lymphocytes after antiviral treatment and clinical recovery @Kol2026fipv; Long COVID tissue studies report viral protein persistence in gut epithelium to 12 months @Peluso2024ViralPersistence.],
+  citations: [@Kol2026fipv @Peluso2024ViralPersistence],
+  mechanism: [Viral antigen is presented during any immune activation (infection, vaccination, exercise), explaining why diverse stimuli trigger symptom exacerbation. The reservoir maintains antigenic stimulation without productive replication; standard antivirals fail because they cannot access or eliminate it.],
+  chapter-ref: [ch08 viral persistence and clearance failure: @hyp:lymphocyte-reservoir; ch38 feline infectious peritonitis model (a related open question on viral-RNA lymphocyte biomarkers exists in the proposed-studies material but its label is not in the build)],
+  prediction: [Single-cell RNA-seq detects viral transcripts in a small fraction of ME/CFS lymphocytes; the virus-positive fraction correlates with severity and duration; in vitro activation of patient lymphocytes increases detectable viral antigen; recoverers show clearance of lymphocyte-associated viral RNA. Falsified if lymphocytes are consistently RNA-negative across sensitive assays.],
+  treatment: [Long-term antiviral therapy to outlast lymphocyte lifespan; targeted immune-cell depletion or reconstitution; reservoir detection and monitoring. Research directions only.],
+  limitation: [Cross-species extrapolation from felines to humans; no study has directly demonstrated persistence of the triggering virus in human lymphocytes; "below PCR threshold" claims are currently untestable with standard methods. Severity not stratified. (ch08/ch38, 2026-05-14 cycle; retroactive registry completion 2026-10-10.)],
+)
+
+#registry-entry(
+  [Viral-Immune-Metabolic Cascade],
+  type: "H",
+  certainty: "0.45",
+  evidence: [ME/CFS initiated by failed viral clearance triggers a self-sustaining cascade: viral persistence → chronic immune activation → metabolic reprogramming → energy crisis → impaired immune function → worsened clearance. Post-infectious onset in a majority of cases, immune activation, metabolic abnormalities, and immune exhaustion are each documented separately; the chain itself is inferred. Post-infectious epidemiology @Hickie2006postinfectious; longitudinal immune dysfunction @Phetsouphanh2022immuneDysfunction.],
+  citations: [@Hickie2006postinfectious @Phetsouphanh2022immuneDysfunction],
+  mechanism: [Each step reinforces the previous one, creating a vicious cycle that explains multi-system presentation and treatment resistance.],
+  chapter-ref: [No dedicated chapter environment (registry-only retroactive entry); nearest anchors: ch08 viral persistence content and the metabolic-cascade hypotheses in Part 2],
+  prediction: [Early antiviral intervention prevents cascade initiation in animal models; combination therapy targeting multiple cascade components outperforms single-target approaches; cascade-activity biomarkers correlate with severity. Falsified if single-target interventions match combination outcomes with no cascade biomarker correlation.],
+  treatment: [Multi-pronged: enhance clearance (antivirals), modulate immune activation, support mitochondrial function, reduce energy demand (pacing). Framework for research sequencing, not a clinical recommendation.],
+  limitation: [Cascade model is plausible but not proven; component weighting likely varies between patients; non-infectious triggers imply multiple routes to a similar endpoint. Severity not stratified. (2026-05-14 cycle; retroactive registry completion 2026-10-10.)],
+)
+
+#registry-entry(
+  [Long COVID to ME/CFS Progression Model],
+  type: "H",
+  certainty: "0.35",
+  evidence: [A subset of Long COVID patients may progress to an ME/CFS-like state marked by immune exhaustion, persistent energy limitation, and established metabolic dysfunction. Eaton-Fitch found ME/CFS more immunosuppressed versus Long COVID more immune-activated phenotypes, suggesting an activated → exhausted progression @EatonFitch2024ImmuneExhaustion; longitudinal post-viral conditions show comparable patterns.],
+  citations: [@EatonFitch2024ImmuneExhaustion],
+  mechanism: [Progression markers: rising PD-1/CTLA-4/Tim-3 expression, worsening mitochondrial function, emerging autonomic dysfunction and neurological symptoms, and the appearance of classic PEM. Early identification of high-risk patients could enable preventive intervention.],
+  chapter-ref: [ch14d cross-disease comparisons: @hyp:long-covid-progression],
+  prediction: [Long COVID patients with high exhaustion-marker levels at 6 months meet ME/CFS criteria at 24 months; the activation-to-exhaustion shift correlates with functional decline; intervention within 6 months prevents progression in high-risk patients. Falsified if exhaustion markers do not prospectively identify progressors.],
+  treatment: [Early intervention for high-risk Long COVID patients; immune-phenotype-based treatment selection; prognostic counseling. Research directions only.],
+  limitation: [Not all Long COVID patients progress; progression timeline and predictors unknown; ME/CFS and Long COVID may be distinct conditions rather than stages. Severity not stratified. (ch14d, 2026-05-14 cycle; retroactive registry completion 2026-10-10.)],
+)
+
+#registry-entry(
+  [Early Immune Profiles Predict Chronic Outcome],
+  type: "H",
+  certainty: "0.50",
+  evidence: [Immune profiles at 4 weeks post-infection predict 12-month ME/CFS status with >80% accuracy. Candidate predictors: impaired clearance (persistent viral RNA or protein) @Peluso2024ViralPersistence, immune dysregulation (cytokines, cell subsets) @Phetsouphanh2022immuneDysfunction, early exhaustion markers (PD-1, CTLA-4), metabolic dysfunction, autonomic signs. A composite panel should outperform single markers.],
+  citations: [@Peluso2024ViralPersistence @Phetsouphanh2022immuneDysfunction @Hickie2006DubboCohort],
+  mechanism: [Early immune-dysregulation patterns establish the trajectory toward chronicity; a multi-parameter approach captures the post-viral transition's complexity and enables risk stratification.],
+  chapter-ref: [ch47 proposed-studies hypothesis record for early prediction (label not in the build); a separate, related built ch08 label exists: @hyp:early-immune-prediction],
+  prediction: [Prospective validation achieves >80% accuracy; specific 4-week parameters emerge as strongest predictors; the composite panel beats individual markers; prediction-guided early intervention reduces ME/CFS incidence. Falsified if no parameter set reaches useful accuracy prospectively.],
+  treatment: [Biomarker-based risk stratification to guide early intervention during the clearance window; monitoring to track response. Research directions only.],
+  limitation: [Requires large prospective validation cohorts; panels may need pathogen-specific adjustment; early-intervention efficacy unproven. Severity not stratified. (ch47, 2026-05-14 cycle; retroactive registry completion 2026-10-10.)],
+)
+
+#registry-entry(
+  [Viral Reservoir Persistence Predicts Chronicity],
+  type: "H",
+  certainty: "0.40",
+  evidence: [Patients who develop ME/CFS will show reservoir persistence (viral RNA or protein in gut tissue, immune cells, or other compartments) at 6 and 12 months while recoverers clear completely; reservoir presence correlates with severity and immune-activation markers. Long COVID gut-epithelium protein persistence to 12 months @Peluso2024ViralPersistence; lymphocyte persistence after recovery in the FIPV model @Kol2026fipv.],
+  citations: [@Peluso2024ViralPersistence @Kol2026fipv],
+  mechanism: [Reservoirs maintain continuous antigenic stimulation driving chronic activation; tissue persistence explains chronicity despite negative blood tests; detection provides both mechanism explanation and a treatment target.],
+  chapter-ref: [ch47 proposed-studies hypothesis record for reservoir persistence (label not in the build); ch38 FIPV model; related open question on viral-RNA lymphocyte biomarkers (label not in the build)],
+  prediction: [Tissue biopsies (gut, lymph node) are RNA or protein positive in progressors and negative in recoverers at 6 and 12 months; reservoir load correlates with severity and activation markers; tissue clearance precedes clinical recovery. Falsified if reservoir measures do not distinguish outcomes.],
+  treatment: [Tissue-penetrating antivirals; immune enhancement to clear reservoir-harboring cells; monitoring. Research directions only.],
+  limitation: [Invasive repeated biopsy sampling; causality versus correlation unclear. Severity not stratified. (ch47, 2026-05-14 cycle; retroactive registry completion 2026-10-10.)],
+)
+
+#registry-entry(
+  [Immune Activation-to-Exhaustion Transition],
+  type: "H",
+  certainty: "0.45",
+  evidence: [Progressors show a temporal shift from immune activation (early) to exhaustion (late); recoverers resolve activation without exhaustion. Timing and rate of the shift predict outcome and explain the Eaton-Fitch finding of activated Long COVID versus exhausted ME/CFS phenotypes @EatonFitch2024ImmuneExhaustion; longitudinal immune dysfunction across 24 months documented in Long COVID @Phetsouphanh2024longcovid24mo.],
+  citations: [@EatonFitch2024ImmuneExhaustion @Phetsouphanh2024longcovid24mo],
+  mechanism: [Trajectory: initial activation → failed resolution → chronic activation → exhaustion. Transition timing and rate set the final outcome; intervention during the activation phase may prevent exhaustion.],
+  chapter-ref: [ch47 proposed-studies hypothesis record for the activation-to-exhaustion transition (label not in the build); related built ch08 exhaustion content: @hyp:tcell-exhaust-ev-downstream],
+  prediction: [Longitudinal profiling shows the transition in progressors but not recoverers; transition rate correlates with functional decline; intervention during the activation phase prevents exhaustion. Falsified if progressors and recoverers show indistinguishable trajectories.],
+  treatment: [Phase-matched strategy: anti-inflammatory during activation, immune enhancement during exhaustion; transition-marker monitoring to time adjustments. Research directions only.],
+  limitation: [Requires intensive longitudinal sampling; transition markers vary between individuals; optimal intervention timing unknown. Severity not stratified. (ch47, 2026-05-14 cycle; retroactive registry completion 2026-10-10.)],
+)
+
+#registry-entry(
+  [Temporal Window for Metabolic Lock Reversal],
+  type: "S",
+  certainty: "0.30",
+  evidence: [The metabolic "safe mode" lock may become progressively harder to reverse: early in the course (first 6--12 months), trigger-removing interventions (antivirals, immune modulation) may allow disengagement; later, epigenetic and neural changes may maintain the lock regardless of trigger removal, requiring different approaches. Related lock machinery in this registry: @hyp:lock-sequence and the ch16 metabolic safe-mode lock analysis. No direct study of reversal timing exists.],
+  citations: [@Hickie2006postinfectious],
+  mechanism: [Early stage: trigger-focused intervention may suffice. Late stage: lock-focused intervention (epigenetic modulators, neuromodulation, metabolic reset) required. Would explain why antivirals help some patients and not others, and why earlier treatment tends to do better.],
+  chapter-ref: [No dedicated chapter environment (registry-only retroactive entry); nearest anchors: ch16 metabolic safe-mode lock section and @hyp:lock-sequence],
+  prediction: [Disease duration correlates with epigenetic stability of metabolic gene expression; early antiviral treatment shows higher response rates than late; epigenetic-age acceleration scales with duration; epigenetic-reprogramming treatments work better in long-duration patients. Falsified if response rates are duration-independent.],
+  treatment: [Timing-stratified strategy: under 6 months trigger-focused; beyond 12 months lock-focused. Speculative framework, not a clinical recommendation.],
+  limitation: [Lock-reversal timing speculative; epigenetic-stability markers not established; individual variation in lock formation and reversal likely; treatment efficacy unknown. Severity not stratified. (2026-05-14 cycle; retroactive registry completion 2026-10-10.)],
+)
