@@ -49,6 +49,12 @@ the build; nothing in the built document may reference `ops/` paths.
    `ops/` artifacts for that topic by explicit path. Never `git add -A`. Never stage
    `tmp/`.
 
+7. **Creation cards for `ops/scripts/`.** A new script states in its module
+   docstring: what it replaces or extends (or "new capability"), how to verify it
+   (run command + expected outcome), and its warn/strict semantics. One concern per
+   script — prefer extending an existing script over creating a sibling (Polaris
+   fichas doctrine: a tool nobody can find gets rewritten, and then there are two).
+
 ## Un-merged fragments — open audit
 
 `ops/integration-guides/` currently holds bib/registry fragment files from past

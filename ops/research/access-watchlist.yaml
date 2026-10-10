@@ -11,7 +11,7 @@ trials:
   - name: Decode ME
     kind: genetic-chemistry trial
     region: UK
-    status: UNVERIFIED — decodeme.org.uk unreachable from here; ISRCTN search page is JS-rendered (no data, 2026-10-10); manual check needed
+    status: UNVERIFIED — decodeme.org.uk unreachable from harness; ISRCTN page JS-rendered (2026-10-10). Plan — user verifies via AI-browser session
   - name: INVEST (NIH intramural ME/CFS)
     kind: observational + substudies
     region: US

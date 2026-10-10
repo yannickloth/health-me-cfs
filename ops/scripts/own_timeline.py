@@ -8,7 +8,7 @@ Joins a patient's self-reported records into one timeline:
   - daily symptom YAMLs                       (self-reported/symptoms/**/*.yaml)
 
 Doctrine (inherited from Polaris biomarcadores.py):
-  - Joins only; interprets nothing. Stores value + flag, never meaning.
+  - Joins only; interprets nothing. Stores value + flag only — no meaning assigned.
   - Unknown item names are NOT silently dropped: they land on the
     CONFIRM list (por-confirmar) for the patient to validate.
   - A parsed-but-suspicious value goes to the confirm list with low confidence.
@@ -41,7 +41,7 @@ COUNT_KEYS = ("count_taken", "typical_daily_count")
 def load_yaml(path: Path):
     try:
         return yaml.safe_load(path.read_text())
-    except Exception as e:  # noqa: BLE001 — report, never crash the run
+    except Exception as e:  # noqa: BLE001 — report; the run continues
         return {"__parse_error__": str(e)}
 
 
