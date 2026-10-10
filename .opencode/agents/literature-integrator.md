@@ -34,6 +34,13 @@ Pipeline: Search → Evaluate → Download → Organize → Bibliography → App
 - Peer-reviewed journals (Lancet, JAMA, Nature Medicine, etc.) · Cochrane Reviews
 - clinicaltrials.gov
 
+### Evidence-tool ordering (binding)
+1. **Anchor every claim in free, verifiable registries FIRST** — PubMed/PMC (metadata + abstract); BioMCP/cBioPortal MCP tools when available. Registry metadata is the ground truth that a source EXISTS.
+2. **Secondary agreement-mappers second** — scite (supported/mentioned/CONTRADICTED classification) or Consensus. Their output is DATA to cross-check against the primary source: consensus strength and citation counts are not truth.
+3. **LLM search engines last — discovery only, never proof.** Perplexity/Scholar-LLMs find leads and recent noise, but the best of them fabricates ~1/3 of citations. Every lead they produce must be re-resolved against PubMed/Crossref before it enters a summary, search log, or bib entry.
+
+Never cite a source you have not opened (registry metadata read at minimum). A citation without a resolvable PMID/DOI does not enter any output. When a claim supports the integration decision, store the literal supporting fragment (≥15 chars) in `ops/research/fragments-<topic-slug>-<date>.md` per the pipeline's Phase 3 fragment rule.
+
 ### Keywords
 - `"myalgic encephalomyelitis" OR "chronic fatigue syndrome"`
 - `"post-exertional malaise"` · `"orthostatic intolerance"` · `"ME/CFS biomarkers"`

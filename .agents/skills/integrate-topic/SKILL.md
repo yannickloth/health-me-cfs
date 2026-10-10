@@ -164,6 +164,8 @@ Before starting any other phase:
 
 **Agent:** `literature-integrator` | **Model:** deepseek-v4-pro | **Execution:** foreground (must write files)
 
+**Step 0 — Rival framings BEFORE search (MANDATORY):** Before any query is written, generate 3–4 rival framings/hypotheses of the topic — deliberately including the framing that CONTRADICTS the consensus view — and search each. Tag every included paper with the framing it was found under; record the framings and per-framing paper counts at the top of the search log. Rationale: a single framing is a single blind spot — searching only the consensus view anchors the synthesis and loses minority signal. This step is GENERATIVE and runs FIRST; it is distinct from adversarial refutation (Phase 11, at the end) and from checklist item #4 (alternative enumeration at claim level).
+
 - Search PubMed, Google Scholar, preprint servers — include null results, contradicting evidence, and competing mechanisms:
   - Null/negative: "[topic] negative results", "[topic] failed replication", "[topic] meta-analysis null"
   - Competing: "[alternative mechanism] explains [phenomenon]", "[topic] vs [other mechanism]"
@@ -174,7 +176,7 @@ Before starting any other phase:
 - Download PDFs where available; abstracts otherwise
 - Create `Literature/` folder per literature-integration workflow
 - Add entries to the **topic-appropriate split bib file** under `src/main/typst/mecfs/bib/<topic-area>.bib` (e.g. `bib/immune.bib`, `bib/treatments.bib`, `bib/vascular.bib`). **There is NO `references.bib`** — the build wires the 27 `bib/*.bib` files into `#bibliography((...))` in `loth2026-mecfs.typ`. Entries written outside these listed files are invisible to the build → every `@Citation` to them silently fails. If a topic has no matching file, add to `bib/general.bib` (do NOT create a new `.bib` without also adding it to the `#bibliography(...)` tuple in `loth2026-mecfs.typ`).
-  - Standard BibTeX fields + `certainty = {0.XX}` + `research_stream = {topic-slug}`
+  - Standard BibTeX fields + `certainty = {0.XX}` + `research_stream = {topic-slug}` + `tier = {guideline|meta-analysis|systematic-review|rct|non-randomized|prospective|retrospective|case-series|case-report|animal|in-vitro|in-silico|narrative|preprint|unknown}` (deterministic evidence tier — see ladder below; applies to NEW entries; existing entries get a tier lazily when Phase 6 overlap touches them)
   - **Bib key convention (MANDATORY):** Format `AuthorYEARkeyword` — surname capitalized, no spaces/punctuation/Unicode (e.g. `Batham2024MECFSAutoimmunity`, `Sotzny2022postcovid`, `Loebel2016`). This matches the existing corpus (~91% of keys contain uppercase). Do **NOT** lowercase or "normalize" keys — mixed case is the convention. Phase 1 report includes a "bib keys produced" list, but it is advisory only.
   - **Bib is ground truth (MANDATORY, HARD):** The agent's key list HAS been observed to contain typos/omissions. The `.bib` file is the ONLY authority. Before Phase 3 writes any `@` reference, extract the actual keys from the bib (`grep '^@' bib/<file>.bib` or `awk '/^@/{print} /research_stream = \{<slug>\}/{print}' bib/<file>.bib`) and cite ONLY verified keys — preserving their exact case. At each build check, confirm every `@CiteKey` in new `.typ` files is present in the bib (grep each key). Never transcribe or re-case keys from the report.
 - Add annotated entries to `src/main/typst/mecfs/appendices/appendix-h-annotated-bibliography.typ`:
@@ -222,6 +224,10 @@ Write `ops/research/search-log-<topic-slug>-<date>.md`:
 - PubMed MeSH: ...
 - Scholar exact phrases: ...
 - Preprint servers: ...
+
+## Coverage Declaration (audited artifact — declares the search's blind spots)
+- Opened: <each database / registry / language actually queried>
+- Not opened: <declared gaps — e.g. non-EN literature, gray literature, trial registries (CT.gov / EU CTR / ISRCTN) — each with reason>
 ```
 
 **Purpose:** Reproducibility — a second run with the same queries should find the same papers. Selection bias is visible via the exclusion log.
@@ -236,6 +242,19 @@ Write `ops/research/search-log-<topic-slug>-<date>.md`:
 | Methodology | Rigorous | Adequate | Flawed |
 
 **Limitation:** This scale measures *research quality*, not clinical significance, effect size, or patient relevance. High-certainty animal studies ≠ clinical evidence. The certainty value gates procedural decisions in this pipeline; it does not represent clinical confidence.
+
+**Evidence tier (deterministic, per paper — fail-closed):** Assignment order: (1) registry signals are authoritative — PubMed publication type / MeSH Animals / Humans; (2) explicit questionnaire second; (3) keyword lexicon can only DOWNGRADE a tier, never upgrade. Insufficient signals → `unknown`. A model-assigned tier sits beside the registry tier only to expose disagreement — never to override it. Certainty above the tier cap is lowered to the cap, noted in the environment: `(tier: case-report → cap 0.45)`.
+
+| Tier (max → min) | Certainty cap |
+|---|---|
+| guideline > meta-analysis > systematic review | none |
+| RCT | 0.85 |
+| non-randomized trial | 0.70 |
+| prospective / retrospective cohort | 0.60 |
+| case series / case report | 0.45 |
+| animal / in vitro / in silico | 0.40 (population discount applies on top) |
+| narrative review / preprint | 0.50 (preprint also counts as unreplicated) |
+| unknown | 0.40 (fail-closed) |
 
 **Population-relevance discount (MANDATORY — applied at Phase 2 before integration decision):**
 
@@ -262,7 +281,7 @@ The raw certainty from the scale above measures study quality. It does not measu
 **Guard — Uniformly null evidence:** If all included papers report null results, failed replications, or conclude "no relationship to ME/CFS" → report: "Phase 1: N papers found, all null/negative. Evidence does not support this mechanism." Options: (a) integrate as `#limitation` or `#open-question` documenting the null evidence, (b) abandon topic. Do NOT proceed to brainstorming about a mechanism the evidence rejects.
 
 **Output:** Literature summary in `ops/research/` + annotated bib entries + `bib/<topic-area>.bib` updates + search log (`ops/research/`). (See `ops/AGENTS.md` for folder conventions.)
-**Report:** "Phase 1 complete: N papers found, M added to bib (`bib/<topic>.bib`), annotated bib updated, search log at `ops/research/search-log-<slug>-<date>.md`. Bib keys (VERIFIED against bib via awk, not transcribed): [list]. Any report/bib key mismatches noted."
+**Report:** "Phase 1 complete: N papers found, M added to bib (`bib/<topic>.bib`), annotated bib updated, search log at `ops/research/search-log-<slug>-<date>.md`. Bib keys (VERIFIED against bib via awk, not transcribed): [list]. Any report/bib key mismatches noted. Rival framings searched: [F1..Fn], papers per framing: [counts]. Coverage declaration: opened [X]; not opened [Y]."
 
 ---
 
@@ -290,6 +309,10 @@ Read all Phase 1 outputs. Produce a synthesis assessment:
    - **Gate:** If fundamental contradiction exists → decide framing before Phase 3 writes anything. Options: present both sides as `#open-question`, weight toward higher-certainty paper, or flag for user decision.
    - **Band rule:** If the certainty difference between contradicting papers is ≤ 0.15 (within the ±0.10 measurement uncertainty), treat as indistinguishable — default to presenting both sides as `#open-question`, not weighting toward either.
 
+2a. **Convergence audit (anti-inflation):** Synthesis language of the form "several sources converge" / "multiple studies agree" requires that EACH source was opened and carries its own content. Sources that cite each other count ONCE — three papers citing the same original are ONE source. For a term suddenly exploding in the literature, ask "what was this called before?" and verify the skeptic and the interested party were searched, not only proponents. Inflated convergence is reformulated as: "headline repeated in N places, M opened."
+
+2b. **PRISMA-lite decision gate:** This phase's output supports an integration decision, so the evidence base must be auditable. Full tier = all six: PICO-formulated question · reproducible search string + date (from the search log) · inclusion/exclusion criteria PRE-registered (if the log shows criteria written after screening → flag ⚠ post-hoc criteria) · screening flow with counts · included table with primary citations · limitations stated. Lite tier (search log alone) is acceptable only for reinforcement-only updates of existing content. Missing pieces → decision is marked "not auditable"; fix the log before deciding.
+
 3. **Evidence summary** (replaces "narrative arc" — the summary describes the evidence; it does not prescribe how to frame integration):
    - What does this evidence establish? (one paragraph)
    - What is the strongest mechanistic claim supportable?
@@ -304,6 +327,7 @@ Read all Phase 1 outputs. Produce a synthesis assessment:
     - **Patient subset applicability:** Which severity levels does this apply to (mild / moderate / severe / very severe)? If not specified in the evidence → state explicitly: "severity applicability unknown."
     - **Off-label clinical experience:** If applicable, note: "Off-label clinical experience: [present — see checklist #6 / none]." Clinical relevance assessment accounts for both published evidence AND off-label experience when the latter meets checklist #6 criteria (preclinical rationale + case series, clinician consensus, patient-reported outcomes).
     - Summary: "Clinical relevance: [HIGH — actionable for clinicians / MEDIUM — mechanistic context for treatment decisions / LOW — research-only / NONE — purely theoretical]. Subset: [mild/moderate/severe/very severe/all/unknown]."
+    - **Healing relevance (KPI field):** Which concrete decision could this topic change for the patient-author? One of: `treatment choice` / `diagnostic` / `pacing·management` / `none — knowledge only`. Recorded in the plan tracking table; tallied across completed integrations as the distance-to-goal metric (quarterly).
 
 5. **Integration decision** (MANDATORY — explicit outcome). **Evaluate in order; first matching row wins:**
 
@@ -329,7 +353,7 @@ Read all Phase 1 outputs. Produce a synthesis assessment:
    For PROCEED, write the block with "all"/"allowed"/"none" so downstream phases still have an explicit reference. For REJECT/DEFER, no caps block needed (cycle ends at Phase 2).
 
 **Output:** `tmp/synthesis-<topic-slug>-<date>.md`
-**Report:** "Phase 2 complete: N papers strong, M weak, K null, J missing. Decision: [PROCEED / PARTIAL / REJECT / DEFER]. Clinical relevance: [HIGH/MEDIUM/LOW/NONE]. Contradictions: [none / N pairs]. Standing epistemic checklist: [#1 ✓/⚠/N/A] / [#2 ✓/⚠/N/A] / [#3 ✓/⚠/N/A] / [#4 ✓/⚠/N/A] / [#5 ✓/⚠/N/A] / [#6 ✓/⚠/N/A]."
+**Report:** "Phase 2 complete: N papers strong, M weak, K null, J missing. Decision: [PROCEED / PARTIAL / REJECT / DEFER]. Clinical relevance: [HIGH/MEDIUM/LOW/NONE]. Healing relevance: [treatment choice/diagnostic/pacing·management/none]. Contradictions: [none / N pairs]. Decision auditability: [PRISMA-lite complete / ⚠ gaps: ...]. Standing epistemic checklist: [#1 ✓/⚠/N/A] / [#2 ✓/⚠/N/A] / [#3 ✓/⚠/N/A] / [#4 ✓/⚠/N/A] / [#5 ✓/⚠/N/A] / [#6 ✓/⚠/N/A] / [#7 ✓/⚠/N/A]."
 
 ---
 
@@ -337,7 +361,9 @@ Read all Phase 1 outputs. Produce a synthesis assessment:
 
 **Agent:** main session | **Model:** current
 
-Read Phase 2 synthesis. Use the evidence summary and contradiction framing to guide integration — do not impose a predetermined narrative; let the evidence structure determine emphasis. Before writing any content, verify each item on the Standing Epistemic Checklist (#1–#5) against the available evidence. Per finding, determine integration target:
+Read Phase 2 synthesis. Use the evidence summary and contradiction framing to guide integration — do not impose a predetermined narrative; let the evidence structure determine emphasis. Before writing any content, verify each item on the Standing Epistemic Checklist (#1–#7) against the available evidence. Per finding, determine integration target:
+
+**Fragment rule (feeds Phase 5a Stage 2):** While writing, every QUANTITATIVE claim (number, percentage, dose, N, effect size, p-value) taken from a cited source must have its supporting fragment stored the same session: append to `ops/research/fragments-<topic-slug>-<date>.md` one line per claim — `@CiteKey | figure(s) | "literal quoted fragment ≥15 chars" | page/section`. Translations and summaries are copies, never truth — quote from the original text. Phase 5a greps these fragments against the source and refutes mismatched claims; a figure without a fragment is an unverified figure (blocking for new content this cycle).
 
 **Chapter mapping:**
 - Pathophysiology mechanisms → Part 2 (ch06–ch16) | ch30 cascade sections (hypothesis tracing — see ch30 category router below)
@@ -713,6 +739,7 @@ Subtree status updates are deferred to after Phase 5a (which follows the Phase 5
 2. When prompted for medication name, provide `<topic-slug>`.
 3. Update the consolidated Response Pattern Synthesis and From Patterns to Root Causes sections in ch24 if they already exist (if this is the first medication differential entry, the consolidated sections will be generated by a retroactive `skill medication-differential-analysis` run with "all" as the medication name)
 4. Verify build after integration
+5. **Trial status epistemics (any clinical trial named in integrated content — applies to Phase 5c, 5d ch30 cascades, and any chapter text):** record registry status + verification date + registry URL next to the trial's first mention. A registry status NEVER confirms eligibility or activity — it only rules out: closed or nonexistent trial → discard the claim; unresolvable lookup → do not cite. "Recruiting" status has a verification TTL of 90 days — content citing recruiting status older than 90 days without re-check is flagged for re-verification at review (Phase 11 scope).
 
 **Report:** "Phase 5c complete: differential entry generated for <medication-name> (inference certainty: High/Medium/Low)."
 
@@ -1036,9 +1063,12 @@ Phase 5d requires reasoning across mechanistic biochemistry, pharmacology, and d
 
 **Gate:** ALL new hypotheses/speculations must be falsifiable or explicitly flagged as structurally unfalsifiable before Phase 6 begins. No hypothesis ships to review without a falsifiability check.
 
-**Checklist cross-check (delegated):** The `falsifiability-auditor` also verifies Standing Epistemic Checklist items #1–#2 on ALL new environments from Phases 3 and 5: (a) grep every `@CitationKey` in new environments, confirm bib existence; (b) sample 3 keys at random for claim-fidelity spot-check — read the cited paper's abstract/key findings, verify the claim in the environment is supported. Report discrepancies in the Phase 5a report.
+**Checklist cross-check (delegated, two-stage citation battery):** The `falsifiability-auditor` also verifies Standing Epistemic Checklist items #1–#2 on ALL new environments from Phases 3 and 5:
+- **Stage 1 — citation existence (deterministic, runs first, no LLM):** resolve each new `@CitationKey`'s DOI/PMID against public registries (Crossref → PubMed → ClinicalTrials.gov). Verdicts: `exists` → proceed; `FABRICATED` (no such record) → BLOCK, mark [refuted] in the report; `unresolvable` (network/rate-limit) → do NOT accuse — retry, then hand-check; `unparseable` (no resolvable id) → manual verification required, never auto-pass.
+- **Stage 2 — claim-vs-fragment (four axes):** verify every fragment in `ops/research/fragments-<topic-slug>-<date>.md` against the source PDF text (abstract if no PDF) — run `python3 ops/scripts/fragment_drift.py <fragment-files>` for the deterministic containment/figure/congruence checks, then apply the four-axis judgment on top (the script proves containment and figure presence; it cannot prove the claim is fairly represented). Judge four axes per figure-bearing claim: **direction** (improves/worsens; significant vs trend), **cohort** ("all patients" ≠ "HR+ subset"), **endpoint** (fatigue ≠ PEM; one outcome ≠ another), **arm** (which figure belongs to which treatment). Any axis mismatch → claim refuted → fix the environment or delete the figure. Missing fragment → unverified figure (blocking for this cycle's content).
+- (c) sample 3 additional keys at random for claim-fidelity spot-check beyond the fragment set. Report discrepancies in the Phase 5a report.
 
-**Report:** "Phase 5a complete: N hypotheses audited across Phases 3 and 5 (K fully falsifiable, L weakly, M unfalsifiable fixed/flagged). Standing epistemic checklist cross-check: [#1: P keys verified, Q discrepancies] / [#2: R claims checked, S evidence-type corrections]. Inline coverage: X% already handled during integration."
+**Report:** "Phase 5a complete: N hypotheses audited across Phases 3 and 5 (K fully falsifiable, L weakly, M unfalsifiable fixed/flagged). Stage 1 existence: [E exists / F fabricated-blocked / U unresolvable / P unparseable]. Stage 2 fragments: [N checked, M four-axis mismatches refuted]. Standing epistemic checklist cross-check: [#1: P keys verified, Q discrepancies] / [#2: R claims checked, S evidence-type corrections]. Inline coverage: X% already handled during integration."
 
 **Subtree status update (after Phase 5a):** Now update node statuses in `ops/plans/hypotheses-trees/subtrees/<topic-slug>.md`:
 - Integrated (Tier 1–2) → `✅`
@@ -1375,6 +1405,8 @@ The Nix derivation uses `git ls-files` to enumerate source files. Untracked `.ty
 
 ### Metrics to Compute
 
+**Deterministic honesty lint (run first):** `python3 ops/scripts/honesty_lint.py <changed .typ files>` (warn mode). Adjudicate every finding inline: fix the claim, add a citation or hedge, or justify it (methodological statement, not an evidential one). Record counts in the report.
+
 | Metric | Source | Signal |
 |--------|--------|--------|
 | Net certainty change | Sum of all certainty bumps and reductions across Phases 6–7 | Direction of evidential impact on existing claims |
@@ -1383,6 +1415,7 @@ The Nix derivation uses `git ls-files` to enumerate source files. Untracked `.ty
 | Paper length delta | `wc -w` on modified `.typ` files before/after for net delta; use `git diff --word-diff --stat` for gross additions count | Gross addition with few new hypotheses = verbose integration. |
 | Tier distribution | Phase 5 report | High Tier-3 ratio = brainstorm produced mostly low-value ideas |
 | Clinical relevance | Phase 2 clinical relevance assessment | HIGH/MEDIUM/LOW/NONE — carried from Phase 2 |
+| Honesty-lint findings | `ops/scripts/honesty_lint.py` on changed `.typ` | Strong claims (absolutes, option-killers) without citation/hedge/stamp — each adjudicated: fixed, stamped, or justified |
 
 ### Quality Flags
 
@@ -1393,13 +1426,14 @@ The Nix derivation uses `git ls-files` to enumerate source files. Untracked `.ty
 | `CLINICAL-RISK` | Treatment environment integrated without harm literature search, OR `#clinical-finding` without evidence type stated, OR treatment claim with only preclinical evidence, OR treatment/clinical content without severity applicability statement, OR drug idea integrated without checking interactions with common ME/CFS co-prescriptions (Phase 5, Instruction H: Drug-Interaction Pre-Check) | Verify adverse effect search was done; add missing safety caveats; add severity applicability; run drug interaction check |
 | `G-UNSUSTAINED-CERTAINTY` | ≥2 certainty bumps for the same hypothesis in a single cycle (detected via bump log) | Flag for human review — hypothesis certainty may be artificially inflated. Require explicit justification or revert to pre-cycle certainty. |
 | `SLOW-CONVERGENCE` | (computed after Phase 11 — added to report retroactively; informational, not actionable) | Integration introduced structural issues |
+| `HONESTY-LINT` | Unadjudicated honesty-lint findings remain after Phase 9 | List them for Phase 11 review scope. Flag is advisory while the lint runs in warn mode — switch the script to `--strict` (blocking) only after two cycles of measured false-positive rate |
 
 **Note on net certainty direction:** Negative net certainty change is a *successful correction*, not a failure. Report direction without valence judgment: "Net certainty change: −0.15 (corrections predominated)." Positive direction is not inherently better than negative.
 
 **Actionability:** If `BLOAT`, `WEAK-EVIDENCE`, or `CLINICAL-RISK` flags fire, address before Phase 10 (coherence) and Phase 11 (review convergence). BLOAT → condense verbose sections. WEAK-EVIDENCE → ensure all weak claims carry appropriate caveats. CLINICAL-RISK → verify adverse effect search was done; add missing safety caveats; ensure severity applicability is stated.
 
 **Output:** Append quality summary to `tmp/synthesis-<topic-slug>-<date>.md`
-**Report:** "Phase 9 complete: [metrics summary]. Quality flags: [flags or NONE]."
+**Report:** "Phase 9 complete: [metrics summary]. Honesty lint: [N findings, M fixed, K stamped, J justified]. Quality flags: [flags or NONE]."
 
 ---
 
@@ -1612,6 +1646,8 @@ Pass combined list (space-separated paths) to each review skill.
 | 11a | `/review-convergence <changed-files>` | 2 consecutive zero-finding rounds |
 | 11b | `/review-adversarial <changed-files>` | all 6 personas; 2 consecutive passes with zero HIGH or CRITICAL severity findings (LOW/MEDIUM findings documented but do not block convergence) |
 | 11c | `/review-typst <changed-files>` | 2 consecutive zero-finding rounds |
+
+**Abstention rule (all personas, 11b and the lightweight adversarial pass):** A persona whose lens finds insufficient evidence for a finding ABSTAINS on that axis — it reports "abstain: insufficient evidence for <lens>" instead of manufacturing a finding. An abstention is not a finding and does not block convergence; a persona may abstain on all axes for a file (recorded in the pass report, not a failure). Independence rule: a persona never verifies its own output, and a verifier's verdict is not sealed by the agent it checked — verify across different agents.
 
 Between passes: run `nix build` — confirm no regressions from fixes.
 
@@ -1853,12 +1889,13 @@ These are cross-cutting constraints that apply regardless of phase. Phase-specif
 | 4 | **Competing explanations** | Has the paper acknowledged that the same observations could be explained by a different mechanism? Are alternative hypotheses visible alongside the favored one? | Monocausal framing: the pipeline picks the most narratively satisfying mechanism and ignores others that explain the same data equally well. | For each major mechanistic claim: enumerate at least one alternative explanation from Phase 1 competing-mechanism search. If none found → state "no competing mechanism identified in literature search." (Phase 4 categories 10–11 generate additional alternatives after Phase 2 — not retroactively gated but noted as enrichment in Phase 5.) | Every `#hypothesis-box` must enumerate competing mechanisms in the Phase 2 report (not inline in every box — avoids boilerplate). Competing mechanisms that are *equally* well-evidenced (certainty diff ≤ 0.10 with comparable methodology) → `#open-question`, not `#hypothesis-box`. (See Phase 3 environment table for this override — cross-ref `@rule:competing-mechanism-elevation`.) |
 | 5 | **Clinical testability** | Can the proposed inference be tested in a clinical setting? | A mechanism is presented as clinically relevant when no measurement method exists, or a treatment is discussed as though trials are imminent when basic science is decades from application. | For each proposed clinical implication: state whether testable now or not testable with current methods (binary). | `*Consequence:*` fields inherit testability statements per Phase 3.5 quality criteria. No additional horizon clause needed — Phase 3.5's "concrete, specific, honest" rules already require temporal honesty. If consequence = none (per Instruction F), testability is N/A. |
 | 6 | **Clinical utility** | Does this content inform a patient or clinician decision? Would checklist-driven demotion to `#speculation` or `#open-question` remove content that has clinical value despite falling short of epistemic standards? | A paper so epistemically pure it is clinically useless — the checklist is a one-way ratchet toward demotion without a balancing term for utility. A symmetric "clinical hazard" override: content that fails epistemic standards AND carries clinical risk (incorrectly elevated environment type could mislead patients/clinicians) should face *stricter* demotion — flag ⚠ with "clinical-hazard tension." | For clinical claims: if a checklist item (esp. #3 or #5) would demote or caveat content that an educated clinician would find actionable → flag ⚠ with "clinical-utility tension" and let human decide. For clinical claims that carry risk if overstated (treatment efficacy implied from preclinical evidence, unvalidated diagnostic claims): if checklist items would normally permit the current environment type, override to demote OR flag with "clinical-hazard tension." | Same. Off-label clinical experience (case series, clinician consensus, patient-reported outcomes) is a legitimate evidence class for ME/CFS — claims with preclinical rationale + off-label experience → `#clinical-finding` with certainty ≤ cap, not `#speculation`. |
+| 7 | **Biomarker-inference integrity** | Does a biomarker/statistics claim respect what the study design can support? | "Marker X predicts response" claimed from a single-arm study; an omics signature called "validated" on its own discovery cohort; PPV/NPV quoted without the prevalence they assume. | For each biomarker claim: classify prognostic vs predictive — a single-arm study CANNOT support "predictive" (requires a control arm or a treatment×biomarker interaction). "Validated" requires an external cohort with model + threshold locked beforehand. Red-flag sweep: variable selection outside the CV loop · per-sample (not per-patient) splits · threshold tuned on the test set · no calibration · no CI · few events per candidate variable · site/batch confounded with outcome. State PPV/NPV only with their assumed prevalence. Utility test: which decision changes, at what threshold? | Every environment with a biomarker/diagnostic claim carries: (a) prognostic-or-predictive label, (b) validation status (discovery-only / external replication / locked threshold), (c) the red-flag sweep result, or N/A if the claim makes no predictive or diagnostic inference. |
 
-**Phase 2 report must include:** `"Standing epistemic checklist: [#1 ✓/⚠/N/A] / [#2 ✓/⚠/N/A] / [#3 ✓/⚠/N/A] / [#4 ✓/⚠/N/A] / [#5 ✓/⚠/N/A] / [#6 ✓/⚠/N/A]."` Each item: ✓ (verified clean) / ⚠ (issues flagged, with one-line explanation) / N/A (not applicable — #1 always applicable; #2: no mechanistic pathways; #3: all evidence human ME/CFS; #4: zero mechanistic claims; #5: no clinical implications; #6: no clinical/patient-facing content).
+**Phase 2 report must include:** `"Standing epistemic checklist: [#1 ✓/⚠/N/A] / [#2 ✓/⚠/N/A] / [#3 ✓/⚠/N/A] / [#4 ✓/⚠/N/A] / [#5 ✓/⚠/N/A] / [#6 ✓/⚠/N/A] / [#7 ✓/⚠/N/A]."` Each item: ✓ (verified clean) / ⚠ (issues flagged, with one-line explanation) / N/A (not applicable — #1 always applicable; #2: no mechanistic pathways; #3: all evidence human ME/CFS; #4: zero mechanistic claims; #5: no clinical implications; #6: no clinical/patient-facing content; #7: no biomarker or diagnostic-inference claims).
 
-**Phase 3 report must include:** `"Standing epistemic checklist verified per-claim: [#1 ✓/⚠] / [#2 ✓/⚠] / [#3 ✓/⚠] / [#4 ✓/⚠] / [#5 ✓/⚠] / [#6 ✓/⚠]."` N/A allowed when genuinely inapplicable per the Phase 2 N/A rules above. Phase 3 applies the same N/A criteria — the "no N/A" rule from the prior version is removed (forced ✓ invites rubber-stamping). Any ⚠ items detailed per-claim.
+**Phase 3 report must include:** `"Standing epistemic checklist verified per-claim: [#1 ✓/⚠] / [#2 ✓/⚠] / [#3 ✓/⚠] / [#4 ✓/⚠] / [#5 ✓/⚠] / [#6 ✓/⚠] / [#7 ✓/⚠]."` N/A allowed when genuinely inapplicable per the Phase 2 N/A rules above. Phase 3 applies the same N/A criteria — the "no N/A" rule from the prior version is removed (forced ✓ invites rubber-stamping). Any ⚠ items detailed per-claim.
 
-**Cross-check (delegated):** Phase 5a falsifiability auditor also verifies checklist items #1–#2 on ALL new environments from Phases 3 and 5: grep every `@CitationKey`, confirm bib existence, sample 3 keys at random for claim-fidelity spot-check against the cited paper's abstract/findings. Report discrepancies.
+**Cross-check (delegated):** Phase 5a falsifiability auditor also verifies checklist items #1–#2 via the two-stage citation battery (Phase 5a: Stage 1 registry existence check → Stage 2 four-axis fragment cotejo against `ops/research/fragments-*.md`), plus checklist item #7 on biomarker claims. Report discrepancies.
 
 **Publication-time honesty (meta-invariant):** The willingness to revise publicly when wording outruns evidence is what makes the process trustworthy — especially in ME/CFS where premature mechanistic certainty can misdirect both research and desperate patients. If any claim in published text is later discovered to overstate the evidence → it must be corrected, not defended. The Phase 6 retroactive adaptation is the formal mechanism for this. The checklist is the prevention mechanism. Both mechanisms depend on discovery: Phase 6 discovers overstatements via new-evidence overlap; adversarial review (Phase 11) discovers them during convergence passes. No separate retroactive audit phase exists — discovery is passive, not scheduled.
 
