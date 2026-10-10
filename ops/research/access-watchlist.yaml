@@ -1,0 +1,96 @@
+# Access watchlist — seeds (human-maintained)
+
+# Policy:
+#  - Every row starts as a SEED: `status: seed` — unverified by definition.
+#  - access-navigator verifies live and writes back status + verified date + url.
+#  - Never delete rows; mark `retired: <date>`.
+#  - Trial rows: registry status NEVER confirms eligibility (rules out only).
+#  - 90-day TTL on "recruiting" claims.
+
+trials:
+  - name: Decode ME
+    kind: genetic-chemistry trial
+    region: UK
+    status: UNVERIFIED — decodeme.org.uk unreachable from here; ISRCTN search page is JS-rendered (no data, 2026-10-10); manual check needed
+  - name: INVEST (NIH intramural ME/CFS)
+    kind: observational + substudies
+    region: US
+    status: EXISTENCE DOUBTFUL — not on CT.gov; Europe PMC search (415 hits, none named INVEST for ME/CFS, checked 2026-10-10). NIH intramural ME/CFS work exists (Nath/Walitt papers) but no trial named INVEST found. Probable seed error — confirm or retire
+  - name: BC007 (Berlin Cures, autoantibody apheresis)
+    kind: functional-autoantibody trial
+    region: EU
+    status: no-open-enrollment — CT.gov ME/CFS-relevant study NCT05911009 (Long COVID) COMPLETED (verified 2026-10-10); adjacent apheresis lane NCT05710770 (Immunoadsorption CFS) also COMPLETED
+    verified: 2026-10-10
+    url: https://clinicaltrials.gov/study/NCT05911009
+  - name: aBTKi (BTK-inhibitor class, autoimmune-target)
+    kind: trial — verify exact compound and sponsor live
+    region: US/EU
+    status: NOT FOUND — CT.gov negative (2026-10-10); Europe PMC literature search (31 hits, none a specific ME/CFS BTK trial, checked 2026-10-10). Existence not established — probable seed error; confirm source or retire
+  - name: Rapamycin / mTOR ME/CFS studies
+    kind: repurposing trials
+    region: multi
+    status: OPEN — NCT06257420 "Low Dose Rapamycin in ME/CFS, Long-COVID, and Other Infection Associated Chronic Conditions" ENROLLING_BY_INVITATION (verified 2026-10-10)
+    verified: 2026-10-10
+    url: https://clinicaltrials.gov/study/NCT06257420
+    constraint-draft: FIT+ACCESS — invitation-only; contact route via treating clinician; get inclusion/exclusion before anything else
+
+clinics:
+  - name: Bateman Horne Center
+    region: Salt Lake City, US
+    offers: clinical care, 2-day CPET, research enrollment
+    status: seed
+  - name: Workwell Foundation
+    region: US
+    offers: 2-day CPET testing
+    status: seed
+  - name: Stanford ME/CFS program
+    region: US
+    offers: specialist care, research
+    status: seed
+  - name: ME/CFS specialty clinics (Europe — nearest to patient region)
+    region: EU/BE
+    offers: TBD by scan
+    status: seed
+
+tests:
+  - name: 2-day CPET
+    measures: PEM trigger reproducibility (ventilatory anaerobic threshold drop day 2)
+    status: seed
+  - name: NK cell function (not just counts)
+    measures: immune dysfunction signature
+    status: seed
+  - name: Functional autoantibody panel (beta2-adrenergic, M4/M5 muscarinic)
+    measures: GPCR autoantibody activity
+    status: seed
+  - name: Cytokine panel (rest + post-exertion)
+    measures: post-exertional immune shift
+    status: seed
+
+# Bonus rows found during the 2026-10-10 verification run (CT.gov API v2)
+trials-extra:
+  - nct: NCT07256795
+    title: Blood-Brain Barrier Integrity, post-SARS-CoV-2 ME/CFS vs pre-pandemic ME/CFS
+    status: ENROLLING_BY_INVITATION (verified 2026-10-10)
+    constraint-draft: ACCESS — invitation-only; check sites/location on the study page
+  - nct: NCT04542161
+    title: N-Acetylcysteine therapy for ME/CFS
+    status: ACTIVE_NOT_RECRUITING (verified 2026-10-10)
+    constraint-draft: KNOW — no enrollment; watch for results
+  - nct: NCT05710770
+    title: Immunoadsorption in CFS incl. post-COVID
+    status: COMPLETED (verified 2026-10-10)
+    constraint-draft: KNOW — watch for publication
+
+orgs:
+  - name: Open Medicine Foundation (OMF)
+    offers: research programs, funded centers
+    status: seed
+  - name: Solve M.E.
+    offers: registry (You + ME), advocacy, trial listings
+    status: seed
+  - name: #MEAction
+    offers: trial alerts, community research
+    status: seed
+  - name: EU/BE patient organizations
+    offers: local clinic/test leads
+    status: seed

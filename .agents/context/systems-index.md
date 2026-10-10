@@ -63,7 +63,7 @@ Full pipeline: `/integrate-topic` skill (`.agents/skills/integrate-topic/SKILL.m
 
 **Triggers:** "Log today's symptoms..." · "Help me plan my activities" · "Analyze my treatment trial" · "I'm crashing, what do I do?" · "What's new in ME/CFS research?"
 
-**Agents:** `case-documenter`, `medical-advisor`, `treatment-analyst`, `crisis-manager`, `pacing-coach`, `data-validator`, `hypothesis-generator`, `research-monitor`, `benefit-navigator`, `caregiver-coordinator`
+**Agents:** `case-documenter`, `medical-advisor`, `treatment-analyst`, `crisis-manager`, `pacing-coach`, `data-validator`, `hypothesis-generator`, `research-monitor`, `benefit-navigator`, `caregiver-coordinator`, `access-navigator` (trials/clinics/tests access engine; watchlist `ops/research/access-watchlist.yaml`; drafts only, trial TTL 90 d)
 
 - System docs: `.agents/context/medical-agent-system.md`
 - Recommendations: `appendix-j-recommendations.tex`
