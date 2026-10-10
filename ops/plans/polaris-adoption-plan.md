@@ -61,7 +61,7 @@ Rule: one wave at a time; verify after each; update status here.
 |---|------|--------|
 | C1 | Egress gate (single door out; drafts until human OK) | W6 |
 | C2 | Sensitivity wall: health/PII content routes only to trusted lanes; fail-closed | W6 |
-| C3 | permissions.deny backstop to hooks (hook timeout ≠ block) | W6 |
+| C3 | permissions.deny backstop to hooks (hook timeout ≠ block) | ✅ 2026-10-10 config-level: `opencode.json` permission block (deny: `git push --force*`, `git reset --hard*`; ask: push/reset/rebase/branch -D/tag -d/rm -rf; edit-ask on opencode.json/flake.nix/.github). RESTART NEEDED to load. Plugin-bypass caveat → debt ledger |
 | C4 | Debt ledger + deliberately-red tests while known debt open | W6 |
 | C5 | Rules-that-cannot-depend-on-recall file + deterministic response gate (warn→block) | W6 |
 | C6 | Catalog hygiene: creation cards ("what does this replace"), cadence field, usage census, retirement path | W6 |

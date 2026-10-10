@@ -32,3 +32,20 @@ registry fragment was kept (see below). Dispositions:
 
 No bib files were modified (all keys already-present or unused). No duplicate
 bib keys introduced. The registry fragment remains for a format-aware merge.
+
+### Follow-up audit (2026-10-10): `mcas-stack-ws1/2/3` fragments
+
+Per-key audit of the 6 `mcas-stack-ws*` fragment files (88 unique bib keys +
+88 appendix-h entries across 3 workstreams). Result: **fully merged**.
+
+- 86/88 bib keys present in `bib/mast-cell.bib` (1 in `treatments.bib`).
+  The 2 apparent misses resolve: `Schiweck2026POTSSystematic` = same paper
+  already present as `Schiweck2026POTSTreatment` (identical title);
+  `Zaitsu2007EstradiolMastCell` = case-variant of tracked
+  `Zaitsu2007estradiolMastCell`. **No new keys needed merging.**
+- 86/88 appendix-h entries verified by normalized title; the same 2 papers
+  confirmed present (Schiwack POTS review: 2 title hits in the real appendix).
+- **Disposition: all 6 files deleted** (git history preserves them).
+- Still open: `hypothesis-registry-additions-viral-clearance-2026-05-14.md`
+  (8 IDs absent from the registry AND no topic equivalents — genuine unmerged
+  content; needs format-aware merge with owner OK).
