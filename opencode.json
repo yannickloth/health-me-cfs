@@ -1335,5 +1335,24 @@
       },
       "prompt": "{file:../llm-harness-plugins/premium-read-offload/agents/code-writer.md}"
     }
+  },
+  "permission": {
+    "bash": {
+      "*": "allow",
+      "rm -rf*": "ask",
+      "git tag -d*": "ask",
+      "git branch -D*": "ask",
+      "git rebase*": "ask",
+      "git reset*": "ask",
+      "git push*": "ask",
+      "git push --force*": "deny",
+      "git reset --hard*": "deny"
+    },
+    "edit": {
+      "*": "allow",
+      "opencode.json": "ask",
+      "flake.nix": "ask",
+      ".github/**": "ask"
+    }
   }
 }
