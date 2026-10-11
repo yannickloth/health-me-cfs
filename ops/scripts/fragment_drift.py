@@ -33,6 +33,7 @@ No fragment files given -> all ops/research/fragments-*.md.
 from __future__ import annotations
 
 import argparse
+import html
 import re
 import shutil
 import subprocess
@@ -57,6 +58,9 @@ def norm(s: str) -> str:
     return re.sub(r"\s+", " ", s).strip()
 
 
+TAG_RE = re.compile(r"<[^>]+>")
+
+
 def pdf_text(pdf: Path) -> str | None:
     if shutil.which("pdftotext") is None:
         return None
@@ -70,23 +74,39 @@ def pdf_text(pdf: Path) -> str | None:
         return None
 
 
+def source_text(path: Path) -> str | None:
+    """Faithful text of the held source copy: PDF, or full-text XML/TXT twin."""
+    if path.suffix == ".pdf":
+        return pdf_text(path)
+    try:
+        raw = path.read_text(errors="ignore")
+    except OSError:
+        return None
+    if path.suffix == ".xml":
+        return html.unescape(TAG_RE.sub(" ", raw))
+    return raw
+
+
 class SourceIndex:
     """One cached listing + one cached text per PDF."""
 
     def __init__(self, lit_root: Path):
         self.root = lit_root
-        self.pdfs = sorted(lit_root.rglob("*.pdf")) if lit_root.exists() else []
+        exts = ("*.pdf", "*.xml", "*.txt")
+        self.sources = sorted({p for e in exts for p in lit_root.rglob(e)}) if lit_root.exists() else []
         self._text: dict[Path, str | None] = {}
 
     def resolve(self, key: str) -> Path | None:
         stem = key.lstrip("@").lower()
-        cands = [p for p in self.pdfs if stem in p.stem.lower()]
+        cands = [p for p in self.sources if stem in p.stem.lower()]
+        if not cands:
+            cands = [p for p in self.sources if p.stem.endswith(".fulltext") and stem in p.stem.lower()]
         return min(cands, key=lambda p: len(p.stem)) if cands else None
 
-    def text(self, pdf: Path) -> str | None:
-        if pdf not in self._text:
-            self._text[pdf] = pdf_text(pdf)
-        return self._text[pdf]
+    def text(self, path: Path) -> str | None:
+        if path not in self._text:
+            self._text[path] = source_text(path)
+        return self._text[path]
 
 
 def parse_fragments(path: Path):
@@ -124,8 +144,8 @@ def main() -> int:
         print("fragment_drift: no fragment ledgers found — nothing to check")
         return 0
     src = SourceIndex(Path(args.literature))
-    if not src.pdfs:
-        print(f"fragment_drift: no PDFs under '{args.literature}' — SOURCE checks degrade to unresolvable")
+    if not src.sources:
+        print(f"fragment_drift: no source files (pdf/xml/txt) under '{args.literature}' — SOURCE checks degrade to unresolvable")
 
     rows = []
     for f in frag_files:
@@ -148,7 +168,7 @@ def main() -> int:
             continue
         text = src.text(pdf)
         if text is None:
-            verdicts.append(f'{r["file"]}:{r["line"]}: [SOURCE_UNREADABLE] {pdf.name} — pdftotext failed/missing; check by hand')
+            verdicts.append(f'{r["file"]}:{r["line"]}: [SOURCE_UNREADABLE] {pdf.name} — extraction failed/missing; check by hand')
             continue
         n_frag, n_text = norm(r["fragment"]), norm(text)
         if n_frag and n_frag not in n_text:

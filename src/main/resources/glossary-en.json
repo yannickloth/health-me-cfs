@@ -12566,5 +12566,25 @@
     "label": "meditation",
     "category": "treatment",
     "definition": "A family of attention-training practices, including mindfulness. Used supportively in ME/CFS for sleep and distress; evidence for a core-disease effect is lacking."
+  },
+  "NMES": {
+    "label": "NMES",
+    "category": "treatment",
+    "definition": "Neuromuscular Electrical Stimulation: electrical pulses applied to muscle to produce contraction without voluntary effort. Proposed (research-stage only) as a muscle-preservation countermeasure for bedbound ME/CFS patients; whether electrically-induced contraction triggers PEM is untested."
+  },
+  "EMS": {
+    "label": "EMS",
+    "category": "treatment",
+    "definition": "Electrical Muscle Stimulation: see NMES. Electrical stimulation of muscle for contraction; raises oxygen uptake and heart rate comparably to voluntary effort, so it is not metabolically free."
+  },
+  "M-wave": {
+    "label": "M-wave",
+    "category": "measurement",
+    "definition": "The compound muscle action potential recorded after direct electrical stimulation of a motor nerve or muscle, reflecting peripheral membrane excitability. Reduced amplitude and lengthened duration in ME/CFS indicate a peripheral membrane defect."
+  },
+  "rhabdomyolysis": {
+    "label": "rhabdomyolysis",
+    "category": "condition",
+    "definition": "Breakdown of skeletal muscle releasing contents into the bloodstream, which can damage the kidneys. A rare harm reported in electrical muscle stimulation."
   }
 }

@@ -1408,3 +1408,15 @@ Prevents re-processing of already-integrated content.
 | URL | Source | Scraped | Integrated | Target |
 |-----|--------|---------|------------|--------|
 | PubMed E-utilities API (11 queries + efetch abstracts, batch) | pubmed/eutils | 2026-10-10 | — | ops/research/search-log-sleep-mindfulness-resting-2026-10-10.md, ops/research/literature-sleep-mindfulness-resting-2026-10-10.md, ops/research/fragments-sleep-mindfulness-resting-2026-10-10.md, bib/sleep.bib (3: Thapaliya2026GlymphaticMECFS, Mariman2013SleepCFS, Chao2021CBTIGulfWar), bib/treatments.bib (10: Hausswirth2023NeuroMeditation, Meng2024MindfulnessFM, Schmidt2011MBSRFibromyalgia, Porter2022MindfulnessLongCOVID, Cossu2025HRVBFLongCOVID, Windthorst2017HRVBFCFS, Carta2024HRVBFFibromyalgia, Kos2015ActivityPacing, Meeus2010PainPhysiologyEducation, Xie2024QigongCFSProtocol), appendix-h (13 entries, sec:bib-sleep-mindfulness-resting), ops/integration-guides/INTEGRATION_GUIDE_sleep-mindfulness-resting.md — sleep/mindfulness/resting non-pharmacological management (13 papers) |
+
+---
+
+## Muscle Electro-Stimulation and Fatigue (muscle-electrostimulation-fatigue) Literature Search
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities esearch/efetch) | 2026-10-11 | 9 PubMed queries across required categories: direct (NMES/EMS × ME/CFS = 1 hit → vonDeneen2024 case report; "electrical stimulation" AND "post-exertional malaise" = 0), null/negative (1990s ME/CFS muscle physiology → Gibson1993, Edwards1993, Jamal1991), competing/adjacent (NMES × fibromyalgia/longCOVID/ICU/spaceflight/bedrest → Jacobsen1991, Burgess2021, Maffiuletti2019, Inns2021, Tajima2021), indirect biochemical (electrical pulse stimulation × CFS muscle AMPK/ATP/mitochondrial → Brown2015 + reuse Brown2018AMPK; oxidative-stress × electrical-threshold → Vecchiet2003), harm (EMS rhabdomyolysis/adverse/safety = 102 hits → vonDeneen2024 harm context). **12 new papers added** to exercise-pem.bib. Reused NOT re-added: Brown2018AMPK, Bao2022NMESICU, Dirks2015NMES, Jammes2020MembranePotential, Jammes2021muscle, Charlton2026MuscleBedrest. **Zero-result (informative):** no EMS/NMES clinical trial in ME/CFS; no preprint (SRC:PPR) hit. |
+| Europe PMC (PPR+MED+PMC) | 2026-10-11 | 1 query → Jammes2019neuromuscularCFS (F1000Research review: direct muscle stimulation reveals peripheral membrane defect in ME/CFS). Confirmed vonDeneen2024 as sole direct EMS-in-CFS adverse-event report. |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed API queries (9 queries + efetch, 12 PMIDs) | pubmed/eutils | 2026-10-11 | — | ops/research/search-log-muscle-electrostimulation-fatigue-2026-10-11.md, ops/research/literature-muscle-electrostimulation-fatigue-2026-10-11.md, bib/exercise-pem.bib (12), appendix-h `<sec:bib-muscle-electrostimulation-fatigue>` (12 annotated entries) |
