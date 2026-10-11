@@ -601,3 +601,11 @@ A PEM-positive post-infectious fibromyalgia patient may respond more like a PEM-
 
 *Consequence:* The three-axis framework replaces "do you have ME/CFS or fibromyalgia or Long COVID?" with "what is your trigger type, your dominant pathophysiology, and your PEM status?" — shifting nosology from categorical assignment to dimensional profiling, and treatment from disease-specific guidelines to mechanism-specific protocols.
 ] <syn:comparative-nosology-framework>
+
+#synthesis(title: [Energy Failure as the Unifying Substrate])[
+Beneath the three classification axes lies one deeper substrate: every condition in this cluster is a disorder of *energy allocation* — how the body produces, distributes, and prioritizes metabolic energy. ME/CFS sits at the extreme of this spectrum, with a documented, genetically anchored collapse of energy coordination in neuronal circuits (@ch:causal-hierarchy). The other conditions in this chapter occupy points on the same spectrum — post-infectious fatigue (Long COVID, PTLDS, QFS), immune-metabolic fatigue (cancer-related fatigue, cachexia, autoimmune fatigue), structural-autonomic fatigue (EDS/CCI, POTS), and pain-dominant variants (fibromyalgia, CRPS).
+
+Framing the cluster this way does not dilute the diagnosis; it sharpens it. It turns the comparative exercise into a *comparative energy nosology*: each related condition becomes a stress test of the same energy-failure principle, revealing which components are shared (cytokine-to-brain signalling, mitochondrial reserve, autonomic control of cerebral perfusion) and which are disease-specific (the PEM ratchet, the trigger-capable root causes).
+
+*Consequence:* Reading the cluster as one energy-allocation spectrum reframes the research agenda — a mechanism found in any member condition is a candidate for all of them, and a discriminating difference between two members is a probe into the exact site of energy failure, turning related diseases from diagnostic rivals into experimental controls.
+] <syn:energy-failure-unifying-substrate>

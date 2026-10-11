@@ -5,6 +5,8 @@
 
 The survey above identifies *20 universal disease mechanism families* and enumerates approximately *95 concrete mechanisms* within them. ME/CFS shows documented involvement in at least 18 of 20 families — 10 Established, 5 Probable, 3 Emerging; the remaining 3 (transcriptional/nuclear, purinergic/danger signalling, and inflammation resolution) are theoretically implicated but lack direct experimental evidence in ME/CFS. Family 20 (inflammation resolution and lipid mediators) is newly characterized — theoretical for ME/CFS (no SPM measurements exist), with probable cross-disease precedent in Long COVID.
 
+Viewed through the paper's central lens, the twenty families are not independent systems but the *energy economy of the cell and organism*. Families 1 and 2 (energy, redox) are the currency and its protection; families 4, 7, 8, and 10 (immune, vascular, autonomic, neurological) are its principal regulators and consumers; families 12, 13, 14, 18, 19, and 20 (epigenetic, proteostasis, senescence, transcriptional, danger signalling, resolution) are the maintenance and signalling layers that set how much energy is available and how it is spent. ME/CFS disturbs this whole economy; its related conditions (@ch:comparative-nosology) disturb overlapping parts of it. This is the comparative energy nosology framing developed in @syn:energy-failure-unifying-substrate.
+
 #figure(
   table(
     columns: 3,
