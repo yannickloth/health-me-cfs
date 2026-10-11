@@ -65,3 +65,43 @@
 - Integration guide: `ops/integration-guides/integration-guide-muscle-electrostimulation-fatigue.md`.
 - Rival framings: F1 safe-substitute (3), F2 contraction-triggers-PEM (2), F3 null (3), F4 harmful (3), indirect (1).
 - Key finding: no EMS/NMES clinical trial in ME/CFS exists; evidence is indirect + one harm case report. Likely PARTIAL.
+
+## Phase 12 record
+
+- Topic slug + decision: `muscle-electrostimulation-fatigue` — **PARTIAL** (mixed, no clinical trial)
+- Content: reinforced existing NMES content (ch26 `lim-nmes-safety` + `spec-nmes-cns-bypass`, ch14j `pred:direct-stim`, registry "NMES/EMS as Muscle Preservation Strategy") with 12 new papers
+- Chapters touched: ch26 (urgent-action-severe), ch14j/ch17 (selective-dysfunction)
+- Bib: 12 entries (exercise-pem.bib) · Registry: 1 entry updated · Glossary: 4 entries (NMES, EMS, M-wave, rhabdomyolysis)
+- Key finding: EMS imposes a metabolic load and is not PEM-neutral; ME/CFS muscle has an impaired contraction-metabolic response (Brown2015 AMPK) + peripheral membrane defect (Jammes2019) + one harm case (vonDeneen2024); legacy nulls (normal force) counterweight this — the central-vs-peripheral question is unresolved without a trial.
+- Quality flags: WEAK-EVIDENCE (PARTIAL)
+- Clinical relevance: LOW-to-MEDIUM · Healing relevance: pacing·management
+
+## Phase Ledger
+
+| Phase | State | Evidence |
+|-------|-------|----------|
+| 0 | RAN | plan created + validated |
+| 1 | RAN | search-log + 12 bib entries (exercise-pem.bib, keys verified) |
+| 2 | RAN | tmp/synthesis — DECISION=PARTIAL |
+| 3 | RAN | reinforced ch26/ch14j/registry (topic already covered) |
+| 3a | RAN | build PASS |
+| 3b | RAN | safety-gate (harm evidence added, 0 blocked) |
+| 3.5 | LEGIT-SKIP | no new environments (reinforcement only) |
+| 4 | RAN | brainstorm (14 ideas) |
+| 4a | RAN | subtree + root index |
+| 5 | RAN | triage (7 folded/covered, 7 tree-only) |
+| 5c | LEGIT-SKIP | NMES is a device, not a medication |
+| 5d | LEGIT-SKIP | no drug-interception cascade |
+| 5b | RAN | build PASS |
+| 5a | RAN | no new envs; citations resolve (build) |
+| 5z | RAN | 4 glossary entries |
+| 6 | RAN | 4 reinforcements + counterweight; synonym-map |
+| 7 | RAN | compat-audit; 0 certainty adjustments |
+| 8 | RAN | build PASS |
+| 9 | RAN | quality flags (WEAK-EVIDENCE only) |
+| 10 | RAN | coherence (consolidated, no inconsistency) |
+| 10a | LEGIT-SKIP | no new standalone envs |
+| 10b | LEGIT-SKIP | no synthesis → no framing propagation |
+| 11 | RAN | light pass, 0 CRITICAL/HIGH |
+| 12 | RAN | plan-record written |
+| 13 | (next) | commit |
