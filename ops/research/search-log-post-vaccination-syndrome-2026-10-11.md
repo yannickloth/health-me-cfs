@@ -87,3 +87,9 @@ Per-framing new-paper counts (papers may be tagged under >1 framing): F1=5, F2=5
 - `COVID-19 vaccine no increased risk myalgic encephalomyelitis chronic fatigue syndrome registry` → **0 results** (no single combined null-query; the null is carried by four separate registry studies: Feiring2017, Hviid2020, Jensen2025, Kwan2022).
 - The strongest *direct* population-level null is Jensen2025 (Danish BiCoVac): vaccinated unconcerned individuals had LOWER odds of post-acute symptoms; only vaccine-concerned individuals reported higher odds (nocebo).
 - No prospective controlled cohort of PVS with a comparison group and objective outcome measures exists — flagged by YangWang2026 as the critical gap.
+
+## Re-open recheck — 2026-10-11 (run as-if-fresh; stop where data says)
+- Opened prior blind spots: ClinicalTrials.gov API v2 (registered trials), preprints (Europe PMC PPR), recent re-search (date + relevance sorts).
+- Trial registries: no PVS/PACVS-specific registered trial.
+- New candidates screened, none included: 41832317 (general-population PVS MedDRA series), 42516718 (post-acute infection, not vaccination), 42074751 (PEM phenotype). 41467340 already held.
+- Decision: unchanged — PARTIAL (mixed; vaccine→ME/CFS causation refuted by registries). See `tmp/synthesis-post-vaccination-syndrome-recheck-2026-10-11.md`.

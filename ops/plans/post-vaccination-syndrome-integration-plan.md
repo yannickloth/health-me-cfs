@@ -192,3 +192,13 @@ Result: integrated PVS as a *reported* ME/CFS-like syndrome whose entity status 
 **0 OMISSION.** Build PASS. Ledger clean.
 
 ## Notes
+
+---
+
+## Re-open Recheck (2026-10-11) — run as-if-fresh per user
+
+**Phase 0:** plan located; MIXED tree (flake.nix + intervention-target) — no shared-branch WIP commits.
+**Phase 1 (recheck):** blind spots opened (ClinicalTrials.gov v2, preprints). No PVS-specific registered trial. New candidates screened, none qualifying. Search log appended.
+**Phase 2:** decision rule re-applied → **PARTIAL (unchanged)**. Reason: mixed evidence; PVS exists as phenomenon; vaccine→ME/CFS causation refuted by registries (Magnus2015, Feiring2017, Hviid2020).
+**STOP:** Phase 2 (PARTIAL). No new qualifying evidence → no new content. Active Caps stand.
+**Synthesis:** `tmp/synthesis-post-vaccination-syndrome-recheck-2026-10-11.md`.

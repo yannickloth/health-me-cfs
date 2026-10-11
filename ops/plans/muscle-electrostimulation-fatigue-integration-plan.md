@@ -105,3 +105,13 @@
 | 11 | RAN | light pass, 0 CRITICAL/HIGH |
 | 12 | RAN | plan-record written |
 | 13 | (next) | commit |
+
+---
+
+## Re-open Recheck (2026-10-11) — run as-if-fresh per user
+
+**Phase 0:** plan located; MIXED tree — no shared-branch WIP commits.
+**Phase 1 (recheck):** blind spots opened (ClinicalTrials.gov v2, preprints). No EMS/NMES trial in ME/CFS. New candidates screened, none qualifying. Search log appended.
+**Phase 2:** decision rule re-applied → **PARTIAL (unchanged)**. Reason: no clinical trial; mixed legacy nulls (Gibson1993, Edwards1993, Jamal1991) vs modern peripheral (Jammes2019, Brown2015, Vecchiet2003).
+**STOP:** Phase 2 (PARTIAL). No new qualifying evidence → no new content. Active Caps stand.
+**Synthesis:** `tmp/synthesis-muscle-electrostimulation-fatigue-recheck-2026-10-11.md`.

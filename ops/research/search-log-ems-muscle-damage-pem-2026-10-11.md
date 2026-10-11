@@ -34,3 +34,9 @@
 | Vanderthommen2015NMESrepeatedBout | 0.50 | rct (0.85) | 0.75 | 0.38 |
 | Fessard2025NMESnoDamage | 0.40 | animal (0.40) | 0.40 | 0.16 |
 | Pfeifer2024ESmyofiberDamage | 0.50 | rct (0.85) | 0.75 | 0.38 |
+
+## Re-open recheck — 2026-10-11 (run as-if-fresh; stop where data says)
+- Opened prior blind spots: ClinicalTrials.gov API v2, preprints.
+- Trial registries: no EMS/NMES muscle-damage study in ME/CFS.
+- New candidates screened, none included: 42757634 (NMES dialysis), 42551185 (central fatigability — not damage), 42561257/42851292/42543542 (healthy/general NMES physiology).
+- Decision: unchanged — PARTIAL (100% papers <0.40 discounted; general/animal). See `tmp/synthesis-ems-muscle-damage-pem-recheck-2026-10-11.md`.

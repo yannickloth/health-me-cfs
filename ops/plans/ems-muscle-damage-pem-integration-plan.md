@@ -97,3 +97,13 @@
 | 11 | RAN | light pass, 0 CRITICAL/HIGH |
 | 12 | RAN | plan-record written |
 | 13 | (next) | commit |
+
+---
+
+## Re-open Recheck (2026-10-11) — run as-if-fresh per user
+
+**Phase 0:** plan located; MIXED tree — no shared-branch WIP commits.
+**Phase 1 (recheck):** blind spots opened (ClinicalTrials.gov v2, preprints). No ME/CFS ES muscle-damage data. New candidates screened, none qualifying. Search log appended.
+**Phase 2:** decision rule re-applied → **PARTIAL (unchanged)**. Reason: 100% of papers discounted <0.40 (all general-population/animal); ME/CFS PEM link inferred.
+**STOP:** Phase 2 (PARTIAL). No new qualifying evidence → no new content. Active Caps stand.
+**Synthesis:** `tmp/synthesis-ems-muscle-damage-pem-recheck-2026-10-11.md`.

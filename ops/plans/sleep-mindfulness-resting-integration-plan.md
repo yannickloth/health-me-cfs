@@ -126,3 +126,13 @@
 | 11 | RAN | 11a 0 findings; 11b 0 CRITICAL/HIGH; 11c build PASS |
 | 12 | RAN | plan-record written |
 | 13 | (next) | commit |
+
+---
+
+## Re-open Recheck (2026-10-11) — run as-if-fresh per user
+
+**Phase 0:** plan located; MIXED tree — no shared-branch WIP commits.
+**Phase 1 (recheck):** blind spots opened (ClinicalTrials.gov v2, preprints). No ME/CFS sleep/mindfulness RCT. New candidates screened, none qualifying. Search log appended.
+**Phase 2:** decision rule re-applied → **PARTIAL (unchanged)**. Reason: mixed (nulls Carta2024, Schmidt2011, Mariman2013, Kos2015, Meeus2010 vs positives Chao2021, Thapaliya2026, Meng2024).
+**STOP:** Phase 2 (PARTIAL). No new qualifying evidence → no new content. Active Caps stand.
+**Synthesis:** `tmp/synthesis-sleep-mindfulness-resting-recheck-2026-10-11.md`.

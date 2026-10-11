@@ -123,3 +123,9 @@ Excluded with reasons:
 | Sleep intervention (CBT-I) | insomnia → fatigue/cognitive | "cognitive behavioral therapy insomnia chronic fatigue syndrome" | @Chao2021CBTIGulfWar (cross-disease GWI) |
 
 **Documented gap:** No direct DMN/neuroimaging meditation-mechanism study in ME/CFS was found; the meditation→DMN link rests on general-population literature already partially in corpus (brain-clearance/sleep streams), not re-opened this cycle.
+
+## Re-open recheck — 2026-10-11 (run as-if-fresh; stop where data says)
+- Opened prior blind spots: ClinicalTrials.gov API v2, preprints.
+- Trial registries: no sleep/mindfulness/resting RCT in ME/CFS (nearest: VNS-ear, tDCS fatigue, brain-fog rehab — off-topic).
+- New candidates screened, none included: 42409395 (FM protocol, no results), 42073381 (low-maturity digital brain-fog review), 42487142 (psychotherapy), 38886814 (telemedicine psychotherapy pilot).
+- Decision: unchanged — PARTIAL (mixed; nulls Carta2024/Schmidt2011/Mariman2013/Kos2015/Meeus2010). See `tmp/synthesis-sleep-mindfulness-resting-recheck-2026-10-11.md`.

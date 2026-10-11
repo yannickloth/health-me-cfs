@@ -79,3 +79,9 @@
 - `"electrical stimulation" AND "post-exertional malaise"` → **0 results**.
 - Combined direct query (framing-agnostic) → **exactly 1 hit** (vonDeneen2024 case report).
 - Conclusion: **there are no published randomized/cohort clinical trials of EMS/NMES as an intervention in ME/CFS.** The evidence is (a) one harm case report, (b) in-vitro EPS mechanistic studies, (c) legacy electrical-stimulation probe studies of ME/CFS muscle (mostly 1990s), (d) EMS/NMES deconditioning literature in adjacent populations (ICU, spaceflight, Long COVID).
+
+## Re-open recheck — 2026-10-11 (run as-if-fresh; stop where data says)
+- Opened prior blind spots: ClinicalTrials.gov API v2, preprints.
+- Trial registries: no EMS/NMES trial in ME/CFS (gap confirmed).
+- New candidates screened, none included: 42757634 (Cochrane NMES, dialysis), 42851292 (NMES feasibility youth), 42561257 (pulse-width NMES), 42543542 (acute NMES).
+- Decision: unchanged — PARTIAL (no clinical trial; mixed legacy-vs-modern). See `tmp/synthesis-muscle-electrostimulation-fatigue-recheck-2026-10-11.md`.
