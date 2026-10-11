@@ -6785,3 +6785,58 @@ This registry collects all hypotheses, speculations, open questions, and predict
   treatment: [Timing-stratified strategy: under 6 months trigger-focused; beyond 12 months lock-focused. Speculative framework, not a clinical recommendation.],
   limitation: [Lock-reversal timing speculative; epigenetic-stability markers not established; individual variation in lock formation and reversal likely; treatment efficacy unknown. Severity not stratified. (2026-05-14 cycle; retroactive registry completion 2026-10-10.)],
 )
+
+
+= Entries added 2026-10-10: Sleep, Mindfulness, and Resting (sleep-mindfulness-resting)
+
+#registry-entry(
+  [Glymphatic Dysfunction as a Substrate for Unrefreshing Sleep],
+  type: "S",
+  certainty: "0.55",
+  evidence: [The first diffusion-tensor-imaging (DTI-ALPS) study of brain clearance in ME/CFS found a lower global DTI-ALPS index in patients (1.44 +- 0.086 vs 1.51 +- 0.11, p = 0.014), right-hemisphere reduction (p = 0.009), and inverse correlation with sleep disturbance (r = -0.47, p = 0.013) and impaired concentration (r = -0.43, p = 0.026) @Thapaliya2026GlymphaticMECFS; combined with the absence of a polysomnographic substrate for unrefreshing sleep @Mariman2013SleepCFS.],
+  citations: [@Thapaliya2026GlymphaticMECFS @Mariman2013SleepCFS],
+  mechanism: [Impaired glymphatic clearance during sleep co-varies with unrefreshing sleep and cognitive symptoms, supporting a disease-driven (not primary-insomnia) account of ME/CFS sleep disturbance. Cross-sectional correlation, not demonstrated causation. Reinforces the pre-existing ch03 hypothesis @hyp:unrefreshing-sleep-glymphatic.],
+  chapter-ref: [ch03 unrefreshing sleep: reinforces @hyp:unrefreshing-sleep-glymphatic],
+  prediction: [Prospective/interventional study finds the glymphatic index tracks sleep-quality improvement or predicts cognitive decline independently; falsified if DTI-ALPS fails to replicate across sites or the sleep correlation vanishes after controlling for severity and sleep-disordered breathing.],
+  treatment: [None directly; provides an imaging target for sleep-focused trials.],
+  limitation: [Single site, cross-sectional, correlation not causation; severity not stratified. (ch03, 2026-10-10 cycle; first direct ME/CFS evidence reinforcing a pre-existing 0.75 hypothesis.)],
+)
+
+#registry-entry(
+  [Does Behavioural Sleep Therapy Transfer to ME/CFS?],
+  type: "OQ",
+  certainty: "n/a",
+  evidence: [CBT-I in Gulf War Illness (n = 85) improved overall symptom severity, fatigue, cognitive dysfunction, depression, and anxiety, maintained at six months @Chao2021CBTIGulfWar; no CBT-I or behavioural sleep trial has been conducted in ME/CFS.],
+  citations: [@Chao2021CBTIGulfWar],
+  mechanism: [Whether a structured behavioural sleep intervention can move non-sleep fatigue and cognitive symptoms in ME/CFS, where unrefreshing sleep is disease-driven rather than primary insomnia.],
+  chapter-ref: [ch23 sleep management: @oq:cbt-i-transfer-mecfs],
+  prediction: [A randomised CBT-I/behavioural sleep trial in ME/CFS shows whether sleep-targeted behaviour improves fatigue and PEM or only sleep continuity; transfer hypothesis falsified if insomnia scores improve but fatigue, PEM, and function are unchanged.],
+  treatment: [Potential low-risk behavioural sleep programme for symptom management, unproven in ME/CFS.],
+  limitation: [Cross-disease evidence only; severity not stratified. (ch23, 2026-10-10 cycle.)],
+)
+
+#registry-entry(
+  [Mindfulness Meditation: Narrow Secondary-Outcome Efficacy],
+  type: "S",
+  certainty: "0.45",
+  evidence: [A three-arm MBSR trial in fibromyalgia (n = 177) found no between-group difference on the primary HRQoL outcome while the mindfulness arm improved 6 of 8 secondary variables @Schmidt2011MBSRFibromyalgia; a meta-analysis of ten mindfulness trials (n = 818) found short-term FIQ reduction (MD -6.20) and PSQI improvement (MD -1.84) that attenuated to non-significance at medium term @Meng2024MindfulnessFM.],
+  citations: [@Schmidt2011MBSRFibromyalgia @Meng2024MindfulnessFM @Porter2022MindfulnessLongCOVID],
+  mechanism: [Meditation plausibly improves sleep, distress, and quality of life, without a demonstrated effect on the energy deficit defining ME/CFS; no PEM or energy-envelope endpoint has been tested in ME/CFS.],
+  chapter-ref: [ch32 lifestyle interventions (meditation-rest): @sec:meditation-rest],
+  prediction: [A mindfulness trial in ME/CFS with a PEM or energy-envelope primary endpoint shows whether meditation affects core disease; narrow-efficacy account falsified if meditation improves PEM, recovery time, or objective activity, not only sleep and distress.],
+  treatment: [Low-risk symptom support for sleep and distress; not a core-disease treatment.],
+  limitation: [Cross-disease (fibromyalgia) evidence, population-discounted; severity not stratified; sit-still format may be intolerable for severe/very-severe patients. (ch32, 2026-10-10 cycle.)],
+)
+
+#registry-entry(
+  [Heart Rate Variability Biofeedback: Mixed and Null Evidence],
+  type: "LIM",
+  certainty: "n/a",
+  evidence: [HRV-BF improved severe fatigue in Long COVID (H = 4.083, p = 0.043, low drop-out) @Cossu2025HRVBFLongCOVID; in ME/CFS an exploratory trial found fatigue improved after both HRV-BF and the graded-exercise comparator with no between-group advantage @Windthorst2017HRVBFCFS; in fibromyalgia a phase II trial (n = 64) found no between-group difference on any outcome (null) @Carta2024HRVBFFibromyalgia.],
+  citations: [@Cossu2025HRVBFLongCOVID @Windthorst2017HRVBFCFS @Carta2024HRVBFFibromyalgia],
+  mechanism: [Positive HRV-BF signals are small, cross-disease, or confounded by comparator effects; the disease-adjacent controlled null cautions against over-recommending HRV-BF as a core autonomic therapy.],
+  chapter-ref: [ch32 lifestyle interventions (biofeedback section)],
+  prediction: [Not applicable — evidence summary limitation, not a falsifiable mechanism claim.],
+  treatment: [Low-risk self-management option with contested efficacy; frame as symptom support, not validated autonomic retraining.],
+  limitation: [Mixed/null trial evidence; severity not stratified. (ch32, 2026-10-10 cycle.)],
+)

@@ -42835,3 +42835,256 @@ This stream assembles evidence for the claim that pathological fatigue across au
         - *Sample:* n/a
         - *Replication:* Well-replicated pattern
         - *Score:* 0.60 (raw; population 0.75 → discounted 0.45)
+
+// =============================================================================
+
+== Sleep, Mindfulness, and Resting (sleep-mindfulness-resting)
+<sec:bib-sleep-mindfulness-resting>
+// =============================================================================
+
+=== Thapaliya et al.\ 2026 — Glymphatic Function in ME/CFS (DTI-ALPS)
+
+    *Full Citation:*: Thapaliya K, Marshall-Gradisnik S, Inderyas M, Barnden L. Disrupted glymphatic function and its relationship with sleep and cognitive impairment in ME/CFS assessed via DTI-ALPS. _Frontiers in Neuroscience_. 2026;20:1875420. @Thapaliya2026GlymphaticMECFS
+    *DOI:*: #link("https://doi.org/10.3389/fnins.2026.1875420")[10.3389/fnins.2026.1875420]
+    *PMID:*: 42403482
+    *Article Type:*: Cross-sectional MRI study (preliminary)
+    *Key Findings:*:
+        - Global DTI-ALPS index lower in ME/CFS (1.44 ± 0.086) vs healthy controls (1.51 ± 0.11, p = 0.014)
+        - Right-hemisphere DTI-ALPS lower in ME/CFS (1.41 ± 0.097 vs 1.49 ± 0.12, p = 0.009); left hemisphere not different
+        - Global DTI-ALPS correlated with sleep-disturbance severity (r = -0.47, p = 0.013) and impaired concentration (r = -0.43, p = 0.026)
+    *Conclusion:*: Impaired glymphatic clearance during sleep may underlie unrefreshing sleep and cognitive dysfunction in ME/CFS.
+    *Limitations:*: Preliminary, n = 58 (31 ME/CFS, 27 controls); cross-sectional; single site; diagnostic criteria unspecified.
+    *ME/CFS Relevance:*: First DTI-ALPS glymphatic study in ME/CFS — provides a biological substrate for the unrefreshing-sleep symptom, arguing it is disease-driven (F2) rather than primary behavioural insomnia.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (peer-reviewed, moderate journal)
+        - *Sample:* n = 58
+        - *Replication:* Single study, not yet replicated
+        - *Score:* 0.55 (raw; population 1.00 → discounted 0.55)
+
+=== Mariman et al.\ 2013 — Sleep in Chronic Fatigue Syndrome
+
+    *Full Citation:*: Mariman AN, Vogelaers DP, Tobback E, Delesie LM, Hanoulle IP, Pevernagie DA. Sleep in the chronic fatigue syndrome. _Sleep Medicine Reviews_. 2013;17(3):193–199. @Mariman2013SleepCFS
+    *DOI:*: #link("https://doi.org/10.1016/j.smrv.2012.06.003")[10.1016/j.smrv.2012.06.003]
+    *PMID:*: 23046847
+    *Article Type:*: Narrative review
+    *Key Findings:*:
+        - Unrefreshing/nonrestorative sleep is a Fukuda minor criterion and very common in CFS
+        - No demonstrable neurophysiological correlate: PSG findings are not significantly different between CFS and controls
+        - Discrepancy between subjectively poor and objectively normal sleep suggests psychosocial factors affect sleep-quality perception
+        - Insufficient evidence that treating primary sleep disorders improves CFS fatigue
+    *Conclusion:*: Sleep disturbance in CFS may be comorbid rather than causal; behavioural sleep treatment targets a secondary symptom.
+    *Limitations:*: Narrative review; heterogeneous diagnostic criteria across source studies.
+    *ME/CFS Relevance:*: F2 anchor — supports the mechanism-skeptic framing that unrefreshing sleep is a downstream epiphenomenon with no objective PSG substrate.
+    *Certainty Assessment:*:
+        - *Quality:* High (leading sleep-medicine review journal)
+        - *Sample:* n/a (review)
+        - *Replication:* Consistent with Watson 2003/2004 twin studies already in corpus
+        - *Score:* 0.50 (raw; population 1.00 → discounted 0.50)
+
+=== Chao et al.\ 2021 — CBT-I in Gulf War Illness
+
+    *Full Citation:*: Chao LL, Kanady JC, Crocker N, et al. Cognitive behavioral therapy for insomnia in veterans with gulf war illness: Results from a randomized controlled trial. _Life Sciences_. 2021;279:119147. @Chao2021CBTIGulfWar
+    *DOI:*: #link("https://doi.org/10.1016/j.lfs.2021.119147")[10.1016/j.lfs.2021.119147]
+    *PMID:*: 33549595
+    *Article Type:*: Randomized controlled trial
+    *Key Findings:*:
+        - n = 85 Gulf War veterans (Kansas GWI + CDC chronic multisymptom illness + insomnia), telephone CBT-I vs waitlist
+        - CBT-I improved overall GWI symptom severity, fatigue, cognitive dysfunction, depression, anxiety, insomnia severity, and subjective sleep quality
+        - Benefits on overall GWI severity and most individual measures maintained at 6 months
+    *Conclusion:*: A behavioural sleep intervention improves both sleep and non-sleep fatigue/cognitive symptoms in a chronic multisymptom illness.
+    *Limitations:*: Cross-disease (GWI, not ME/CFS); waitlist control (no active control); single study.
+    *ME/CFS Relevance:*: F1 cross-disease evidence that CBT-I can improve fatigue/cognitive symptoms alongside sleep — the strongest behavioural-sleep-intervention signal available for a ME/CFS-adjacent multisymptom illness.
+    *Certainty Assessment:*:
+        - *Quality:* Medium-High (RCT, peer-reviewed)
+        - *Sample:* n = 85
+        - *Replication:* Single study
+        - *Score:* 0.70 (raw; population 0.80 → discounted 0.56)
+
+=== Hausswirth et al.\ 2023 — Neuro-Meditation for Long COVID
+
+    *Full Citation:*: Hausswirth C, Schmit C, Rougier Y, Coste A. Positive Impacts of a Four-Week Neuro-Meditation Program on Cognitive Function in Post-Acute Sequelae of COVID-19 Patients: A Randomized Controlled Trial. _International Journal of Environmental Research and Public Health_. 2023;20(2):1361. @Hausswirth2023NeuroMeditation
+    *DOI:*: #link("https://doi.org/10.3390/ijerph20021361")[10.3390/ijerph20021361]
+    *PMID:*: 36674117
+    *Article Type:*: Randomized controlled trial
+    *Key Findings:*:
+        - n = 34 long COVID (17/17) + 15 healthy normative; ten 30-min Rebalance sessions over 5 weeks
+        - Choice reaction time shortened only in intervention group (593 ± 121 → 521 ± 86 ms, p < 0.001)
+        - Improved physical/mental fatigue, pain, depression, anxiety, mood, and sleep quality
+    *Conclusion:*: Neuro-meditation reduces cognitive impairment and secondary symptoms in long COVID.
+    *Limitations:*: Small n; single study; commercial program (Rebalance); no PEM/energy-envelope endpoint.
+    *ME/CFS Relevance:*: F3 — mindfulness helps secondary outcomes (sleep, cognition, mood) in a post-viral fatigue population but does not test PEM or energy-envelope outcomes.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (RCT, moderate journal)
+        - *Sample:* n = 34
+        - *Replication:* Single study
+        - *Score:* 0.50 (raw; population 0.85 → discounted 0.43)
+
+=== Meng et al.\ 2024 — Mindfulness Meditation for Fibromyalgia (Meta-analysis)
+
+    *Full Citation:*: Meng S, Cao C, Zhang M, Dong J, Lu M. Mindfulness Meditation for Fibromyalgia Syndrome: A Systematic Review and Meta-analysis. _Pain Physician_. 2024;27(8):479–494. @Meng2024MindfulnessFM
+    *PMID:*: 39621973
+    *Article Type:*: Systematic review + meta-analysis
+    *Key Findings:*:
+        - 10 RCTs (n = 818) from 1,377 citations
+        - Short-term: FIQ MD -6.20 (95% CI -8.51 to -3.89); PSQI -1.84 (-3.35 to -0.33); BDI -3.26; PSS -4.85 (all P < 0.05)
+        - Medium-term: BDI and PSS maintained, but FIQ (MD -2.78, P > 0.05) and PSQI (P > 0.05) no longer significant
+        - Long-term: FIQ still reduced (MD -6.09); GRADE very low to moderate
+    *Conclusion:*: Mindfulness improves quality of life, stress, insomnia, and depression short-term, with modest and partly attenuating impact on the core FIQ.
+    *Limitations:*: Heterogeneous meditation regimens; small/average study quality; GRADE very low to moderate.
+    *ME/CFS Relevance:*: F3 anchor — the most current quantitative estimate of mindfulness effect size in a fibromyalgia (cross-disease) cohort; benefits cluster in secondary outcomes.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (meta-analysis, moderate journal)
+        - *Sample:* n = 818 (10 RCTs)
+        - *Replication:* n/a (synthesis)
+        - *Score:* 0.65 (raw; population 0.80 → discounted 0.52)
+
+=== Schmidt et al.\ 2011 — MBSR for Fibromyalgia (3-arm RCT)
+
+    *Full Citation:*: Schmidt S, Grossman P, Schwarzer B, Jena S, Naumann J, Walach H. Treating fibromyalgia with mindfulness-based stress reduction: results from a 3-armed randomized controlled trial. _Pain_. 2011;152(2):361–369. @Schmidt2011MBSRFibromyalgia
+    *DOI:*: #link("https://doi.org/10.1016/j.pain.2010.10.043")[10.1016/j.pain.2010.10.043]
+    *PMID:*: 21146930
+    *Article Type:*: Randomized controlled trial (3-arm)
+    *Key Findings:*:
+        - n = 177 female fibromyalgia; MBSR vs active control vs waitlist; 82% completed
+        - No significant between-group difference on primary outcome (HRQoL at 2 months)
+        - Only MBSR showed significant pre-to-post HRQoL improvement (P = 0.02); MBSR improved 6/8 secondary outcomes vs active control 3 and waitlist 2
+    *Conclusion:*: Primary-outcome analysis did not support MBSR efficacy; MBSR patients benefited most on secondary measures with small effect sizes.
+    *Limitations:*: Null on primary; effect sizes small; patient burden/motivation confounds.
+    *ME/CFS Relevance:*: F3 null-on-primary anchor — mindfulness helps secondary/wellbeing outcomes but does not robustly beat active control on the core QoL endpoint.
+    *Certainty Assessment:*:
+        - *Quality:* High (top-tier journal, large RCT)
+        - *Sample:* n = 177
+        - *Replication:* Null primary consistent with EUDAIMON 2019 (screened, not added)
+        - *Score:* 0.75 (raw; population 0.80 → discounted 0.60)
+
+=== Porter and Jason 2022 — Mindfulness for Long COVID / ME/CFS
+
+    *Full Citation:*: Porter N, Jason LA. Mindfulness Meditation Interventions for Long COVID: Biobehavioral Gene Expression and Neuroimmune Functioning. _Neuropsychiatric Disease and Treatment_. 2022;18:2599–2626. @Porter2022MindfulnessLongCOVID
+    *DOI:*: #link("https://doi.org/10.2147/NDT.S379653")[10.2147/NDT.S379653]
+    *PMID:*: 36387947
+    *Article Type:*: Narrative review
+    *Key Findings:*:
+        - Meditation has been found to reduce fatigue and unrefreshing sleep
+        - In post-viral infection, meditation is reported to enhance immunity and reduce inflammatory-driven pathogenesis
+        - Argues for mindfulness as a treatment strategy for Long COVID and ME/CFS symptom and underlying pathology
+    *Conclusion:*: Mindfulness is a plausible adjunct for post-viral fatigue (Long COVID / ME/CFS), but direct trial evidence remains limited.
+    *Limitations:*: Narrative review; proponent framing; no new primary data.
+    *ME/CFS Relevance:*: F1 consensus-adjacent source — establishes the mindfulness-for-ME/CFS research program and its claimed mechanism (neuroimmune/gene-expression).
+    *Certainty Assessment:*:
+        - *Quality:* Medium (narrative review)
+        - *Sample:* n/a
+        - *Replication:* n/a
+        - *Score:* 0.45 (raw; population 0.85 → discounted 0.38)
+
+=== Cossu et al.\ 2025 — HRV-BF in Long COVID CFS/ME (Phase II)
+
+    *Full Citation:*: Cossu G, Kalcev G, Primavera D, et al. The Use of Heart Rate Variability-Biofeedback (HRV-BF) as an Adjunctive Intervention in Chronic Fatigue Syndrome (CSF/ME) in Long COVID: Results of a Phase II Controlled Feasibility Trial. _Journal of Clinical Medicine_. 2025;14(15):5363. @Cossu2025HRVBFLongCOVID
+    *DOI:*: #link("https://doi.org/10.3390/jcm14155363")[10.3390/jcm14155363]
+    *PMID:*: 40806985
+    *Article Type:*: Phase II controlled feasibility trial (quasirandom)
+    *Key Findings:*:
+        - 10 HRV-BF sessions twice weekly over 5 weeks vs treatment-as-usual; drop-out 5.56%
+        - Significantly greater improvement in severe fatigue in intervention group (H = 4.083, p = 0.043)
+        - Across all outcomes, tendency toward improvement (binomial test, p < 0.0001)
+    *Conclusion:*: HRV-BF is feasible and well-tolerated; supports Phase III trials for fatigue in Long COVID CFS/ME.
+    *Limitations:*: Quasirandom (not true randomization); small; feasibility design.
+    *ME/CFS Relevance:*: F1 — direct CFS/ME-criteria autonomic intervention; engages the vagal/parasympathetic-tone mechanism relevant to ME/CFS dysautonomia.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (controlled feasibility)
+        - *Sample:* small (drop-out 5.56%)
+        - *Replication:* Single study
+        - *Score:* 0.55 (raw; population 0.85 → discounted 0.47)
+
+=== Windthorst et al.\ 2017 — HRV-BF vs GET in CFS
+
+    *Full Citation:*: Windthorst P, Mazurak N, Kuske M, et al. Heart rate variability biofeedback therapy and graded exercise training in management of chronic fatigue syndrome: An exploratory pilot study. _Journal of Psychosomatic Research_. 2017;93:6–13. @Windthorst2017HRVBFCFS
+    *DOI:*: #link("https://doi.org/10.1016/j.jpsychores.2016.11.014")[10.1016/j.jpsychores.2016.11.014]
+    *PMID:*: 28107894
+    *Article Type:*: Exploratory pilot RCT
+    *Key Findings:*:
+        - n = 28 women with CFS (50.3 ± 9.3 y); HRV-BF vs GET, 5-month follow-up
+        - General fatigue improved significantly after both HRV-BF and GET
+        - HRV-BF improved cognitive fatigue, mental QoL, and depression; GET improved physical QoL
+    *Conclusion:*: Both interventions reduce fatigue; HRV-BF has additional mental-health benefit, GET additional physical benefit.
+    *Limitations:*: Small pilot; single study; GET used as comparator (not a BPS-promotion study).
+    *ME/CFS Relevance:*: F1 — direct ME/CFS HRV-BF pilot; suggests autonomic retraining is viable and complements (rather than replaces) physical approaches.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (pilot RCT)
+        - *Sample:* n = 28
+        - *Replication:* Single study
+        - *Score:* 0.45 (raw; population 1.00 → discounted 0.45)
+
+=== Carta et al.\ 2024 — HRV-BF in Fibromyalgia (NULL)
+
+    *Full Citation:*: Carta MG, Testa G, Stocchino S, et al. The efficacy of heart rate variability biofeedback training on sleep disorders and impact of fibromyalgia: Results of a phase II randomized controlled trial. _Journal of Psychosomatic Research_. 2024;181:111664. @Carta2024HRVBFFibromyalgia
+    *DOI:*: #link("https://doi.org/10.1016/j.jpsychores.2024.111664")[10.1016/j.jpsychores.2024.111664]
+    *PMID:*: 38652978
+    *Article Type:*: Phase II randomized controlled trial
+    *Key Findings:*:
+        - n = 64 fibromyalgia; HRV-BF + standard therapy vs standard therapy
+        - No statistical differences between groups over time in any primary or secondary outcome
+        - Feasible: 71.9% completion, no side effects
+    *Conclusion:*: HRV-BF did not demonstrate efficacy in fibromyalgia; further larger studies needed.
+    *Limitations:*: Small phase II; null result.
+    *ME/CFS Relevance:*: F2/F3 null result — direct negative evidence that the parasympathetic-tone rationale does not translate to measurable benefit in fibromyalgia, tempering enthusiasm for HRV-BF as a general fatigue intervention.
+    *Certainty Assessment:*:
+        - *Quality:* Medium-High (RCT, peer-reviewed)
+        - *Sample:* n = 64
+        - *Replication:* Null (consistent with fibromyalgia null literature)
+        - *Score:* 0.60 (raw; population 0.80 → discounted 0.48)
+
+=== Kos et al.\ 2015 — Activity Pacing Self-Management in CFS
+
+    *Full Citation:*: Kos D, van Eupen I, Meirte J, et al. Activity Pacing Self-Management in Chronic Fatigue Syndrome: A Randomized Controlled Trial. _The American Journal of Occupational Therapy_. 2015;69(5):6905290020. @Kos2015ActivityPacing
+    *DOI:*: #link("https://doi.org/10.5014/ajot.2015.016287")[10.5014/ajot.2015.016287]
+    *PMID:*: 26356665
+    *Article Type:*: Randomized controlled trial
+    *Key Findings:*:
+        - n = 33 women with CFS (41.1 ± 11.2 y); activity pacing self-management vs relaxation
+        - COPM scores improved in both groups (p = .03); only Satisfaction significantly favored pacing (effect size 0.74 [0.11, 1.4])
+        - CIS decreased only in the pacing group (p < .01)
+    *Conclusion:*: Pacing is feasible and modestly effective for participation, but shows no advantage on the primary performance endpoint.
+    *Limitations:*: Small n; single study; control (relaxation) also improved.
+    *ME/CFS Relevance:*: F4 pacing-debate — direct ME/CFS pacing RCT with modest/partial benefit, consistent with contested pacing efficacy.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (RCT)
+        - *Sample:* n = 33
+        - *Replication:* Single study
+        - *Score:* 0.45 (raw; population 1.00 → discounted 0.45)
+
+=== Meeus et al.\ 2010 — Pain Physiology Education vs Pacing
+
+    *Full Citation:*: Meeus M, Nijs J, Van Oosterwijck J, Van Alsenoy V, Truijen S. Pain physiology education improves pain beliefs in patients with chronic fatigue syndrome compared with pacing and self-management education: a double-blind randomized controlled trial. _Archives of Physical Medicine and Rehabilitation_. 2010;91(8):1153–1159. @Meeus2010PainPhysiologyEducation
+    *DOI:*: #link("https://doi.org/10.1016/j.apmr.2010.04.020")[10.1016/j.apmr.2010.04.020]
+    *PMID:*: 20684894
+    *Article Type:*: Double-blind randomized controlled trial
+    *Key Findings:*:
+        - N = 48 CFS patients with chronic pain; single session pain physiology education vs pacing/self-management education
+        - Education group had better pain neurophysiology understanding (P < .001) and reduced pain-catastrophizing rumination (P = .009)
+        - Cohen d effect sizes 0.79–2.53
+    *Conclusion:*: Pain physiology education outperforms pacing education for pain beliefs in the short term.
+    *Limitations:*: Single session; short-term outcome only; pacing was the control arm.
+    *ME/CFS Relevance:*: F4 pacing-debate — a single pacing/self-management session changed pain cognitions less than pain-physiology education, questioning the standalone efficacy of brief pacing education.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (double-blind RCT)
+        - *Sample:* N = 48
+        - *Replication:* Single study
+        - *Score:* 0.50 (raw; population 1.00 → discounted 0.50)
+
+=== Xie et al.\ 2024 — PLWNT Qigong for CFS (Protocol)
+
+    *Full Citation:*: Xie F, You Y, Gu Y, Xu J, Yao F. Effects of the Prolong Life With Nine Turn-Method Qigong on Fatigue, Insomnia, Anxiety, and Gastrointestinal Disorders in Patients With Chronic Fatigue Syndrome: Protocol for a Randomized Controlled Trial. _JMIR Research Protocols_. 2024;13:e53347. @Xie2024QigongCFSProtocol
+    *DOI:*: #link("https://doi.org/10.2196/53347")[10.2196/53347]
+    *PMID:*: 38407950
+    *Article Type:*: Registered RCT protocol
+    *Key Findings:*:
+        - n = 208 planned (age 20–60); 12-week PLWNT Qigong vs CBT (1:1); 8-week follow-up
+        - Primary = Multidimensional Fatigue Inventory 20; secondary = PSQI, GSRS, HADS, fMRI, gut microbiota
+    *Conclusion:*: Will test whether mind-body Qigong relieves fatigue, insomnia, anxiety, and GI symptoms in CFS.
+    *Limitations:*: Protocol only — no efficacy data yet.
+    *ME/CFS Relevance:*: F1 pipeline marker — documents an active mind-body RCT in CFS with sleep (PSQI) as a named secondary outcome.
+    *Certainty Assessment:*:
+        - *Quality:* Low (protocol, no results)
+        - *Sample:* planned n = 208
+        - *Replication:* n/a
+        - *Score:* 0.35 (raw; population 1.00 → discounted 0.35)

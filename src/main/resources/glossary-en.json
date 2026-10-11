@@ -12536,6 +12536,35 @@
     "label": "Neurodegeneration",
     "category": "mechanism",
     "definition": "The progressive loss of neurons; in Alzheimer's and Parkinson's disease it is proposed to be gated by metabolic and mitochondrial failure as well as by protein aggregation."
+  },
+  "CBT-I": {
+    "label": "CBT-I",
+    "category": "treatment",
+    "definition": "Cognitive Behavioural Therapy for Insomnia: a structured behavioural sleep intervention targeting sleep behaviours and beliefs. Shown to improve fatigue and cognitive symptoms in Gulf War Illness, but not yet trialled in ME/CFS."
+  },
+  "COPM": {
+    "label": "COPM",
+    "category": "measurement",
+    "definition": "Canadian Occupational Performance Measure: a client-centred outcome measure of self-perceived performance and satisfaction in everyday activities, used in activity-pacing trials in chronic fatigue syndrome."
+  },
+  "glymphatic": {
+    "label": "glymphatic system",
+    "category": "pathway",
+    "definition": "The brain-wide clearance system in which cerebrospinal fluid flows along perivascular spaces and clears metabolic waste during sleep. Measured indirectly by DTI-ALPS; impaired in ME/CFS per a single cross-sectional study."
+  },
+  "HRV-BF": {
+    "label": "HRV-BF",
+    "category": "treatment",
+    "definition": "Heart Rate Variability Biofeedback: a paced-breathing technique that trains heart-rate variability to increase parasympathetic (vagal) tone. Trial evidence in ME/CFS and fibromyalgia is mixed to null."
+  },
+  "mindfulness": {
+    "label": "mindfulness",
+    "category": "treatment",
+    "definition": "A meditation practice that trains present-moment, non-judgemental attention. In fatigue-related illnesses it improves secondary outcomes (sleep, distress, quality of life) with narrow, short-term efficacy and no demonstrated effect on core disease."
+  },
+  "meditation": {
+    "label": "meditation",
+    "category": "treatment",
+    "definition": "A family of attention-training practices, including mindfulness. Used supportively in ME/CFS for sleep and distress; evidence for a core-disease effect is lacking."
   }
-
 }
