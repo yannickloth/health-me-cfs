@@ -43594,3 +43594,307 @@ This stream assembles evidence for the claim that pathological fatigue across au
         - *Sample:* N/A (review)
         - *Replication:* N/A
         - *Score:* 0.40 (raw; population 0.75 → discounted 0.30)
+
+== Post-Vaccination Syndrome (post-vaccination-syndrome)
+<sec:bib-post-vaccination-syndrome>
+// =============================================================================
+
+=== Krumholz et al.\ 2023 — Post-Vaccination Syndrome: A Descriptive Analysis
+
+    *Full Citation:*: Krumholz HM, Wu Y, Sawano M, et al. Post-Vaccination Syndrome: A Descriptive Analysis of Reported Symptoms and Patient Experiences After COVID-19 Immunization. _medRxiv_. 2023. @Krumholz2023PVS
+    *DOI:*: #link("https://doi.org/10.1101/2023.11.09.23298266")[10.1101/2023.11.09.23298266]
+    *PMID:*: 37986769
+    *Article Type:*: Preprint (descriptive cross-sectional, Yale LISTEN study)
+    *Key Findings:*:
+        - n = 241 self-reported PVS after COVID-19 vaccination; median age 46 y; 80% female; 55% BNT162b2 / 37% mRNA-1273; median symptom onset 3 days post-vaccination
+        - Top symptoms: exercise intolerance 71%, excessive fatigue 69%, numbness 63%, brain fog 63%, neuropathy 63%
+        - Median EuroQoL VAS 50; participants reported a median of 20 interventions tried; high psychosocial distress
+    *Conclusion:*: Self-reported PVS carries low health status, high symptom burden, and high distress despite many treatments.
+    *Limitations:*: Self-selected online cohort; no controls; preprint (not yet peer-reviewed); self-report without objective verification of vaccination or symptom attribution.
+    *ME/CFS Relevance:*: F1 — the foundational descriptive phenotype of PVS; symptoms (fatigue, PEM-like exercise intolerance, brain fog, neuropathy) overlap ME/CFS.
+    *Certainty Assessment:*:
+        - *Quality:* Low (preprint, self-selected)
+        - *Sample:* n = 241
+        - *Replication:* Single study
+        - *Score:* 0.40 (raw; population 0.75 → discounted 0.30)
+
+=== Mundorf et al.\ 2024 — Clinical and Diagnostic Features of PACVS
+
+    *Full Citation:*: Mundorf AK, Semmler A, Heidecke H, et al. Clinical and Diagnostic Features of Post-Acute COVID-19 Vaccination Syndrome (PACVS). _Vaccines_. 2024;12(7):790. @Mundorf2024PACVS
+    *DOI:*: #link("https://doi.org/10.3390/vaccines12070790")[10.3390/vaccines12070790]
+    *PMID:*: 39066428
+    *Article Type:*: Prospective registry cohort (PACVS)
+    *Key Findings:*:
+        - n = 191 PACVS (159 F / 32 M); unbiased symptom clustering: malaise + chronic fatigue in >80% of cases
+        - IL-6 and IL-8 elevated in >80%; low free T3 in >80%; IgG subclass imbalance >50%; elevated serum NfL >30%
+        - 131/191 fit ME/CFS plus several dysautonomia syndromes; 31/191 fit none
+    *Conclusion:*: PACVS is a chronic disease with a core malaise/fatigue phenotype plus overlapping peripheral-nerve, cardiovascular, and cognitive clusters; may be an ME/CFS outlier or a dysautonomia syndrome sui generis.
+    *Limitations:*: Self-help-group recruitment; no pre-vaccination baseline; cross-sectional single-center.
+    *ME/CFS Relevance:*: F1 — establishes the PACVS clinical phenotype and its ME/CFS overlap (131/191 fit ME/CFS).
+    *Certainty Assessment:*:
+        - *Quality:* Medium (peer-reviewed registry cohort)
+        - *Sample:* n = 191
+        - *Replication:* Single cohort (overlaps Semmler 2023)
+        - *Score:* 0.55 (raw; population 0.85 → discounted 0.47)
+
+=== Semmler et al.\ 2023 — Chronic Fatigue and Dysautonomia: Altered Blood Markers
+
+    *Full Citation:*: Semmler A, Mundorf AK, Kuechler AS, et al. Chronic Fatigue and Dysautonomia following COVID-19 Vaccination Is Distinguished from Normal Vaccination Response by Altered Blood Markers. _Vaccines_. 2023;11(11):1642. @Semmler2023PACVSmarkers
+    *DOI:*: #link("https://doi.org/10.3390/vaccines11111642")[10.3390/vaccines11111642]
+    *PMID:*: 38005974
+    *Article Type:*: Prospective cohort + healthy controls
+    *Key Findings:*:
+        - n = 191 PACVS vs 89 healthy controls, blood markers before vs 6 months after vaccination
+        - PACVS discriminated from normal post-vaccination state (sensitivity 90%) by increased AT1 receptor antibodies (AUC 0.824), decreased alpha-2B adrenergic antibodies (AUC 0.828), increased IL-6 (AUC 0.850)
+    *Conclusion:*: PACVS is a somatic syndrome delineated and detectable by diagnostic blood markers (receptor antibodies + IL-6).
+    *Limitations:*: Self-help-group recruitment; same PACVS cohort as Mundorf 2024 (overlap); case-control without independent replication.
+    *ME/CFS Relevance:*: F1 — the strongest biomarker evidence distinguishing PACVS from normal vaccine response; implicates GPCR autoantibodies.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (peer-reviewed)
+        - *Sample:* n = 280 total
+        - *Replication:* Single cohort
+        - *Score:* 0.55 (raw; population 0.85 → discounted 0.47)
+
+=== Yong et al.\ 2025 — Long Vax Syndrome: Manifestation, Pathophysiology, Therapies
+
+    *Full Citation:*: Yong SJ, Kenny TA, Halim A, et al. Post-COVID-19 Vaccination (or Long Vax) Syndrome: Putative Manifestation, Pathophysiology, and Therapeutic Options. _Reviews in Medical Virology_. 2025;35(5):e70070. @Yong2025LongVax
+    *DOI:*: #link("https://doi.org/10.1002/rmv.70070")[10.1002/rmv.70070]
+    *PMID:*: 40944962
+    *Article Type:*: Narrative review
+    *Key Findings:*:
+        - PCVS manifests days–weeks post-vaccination, symptoms lasting months–years; may present as POTS, SFN, ME/CFS, or sequelae of myocarditis/VITT/ITP
+        - Symptomatically overlaps long COVID (fatigue, brain fog) but with more paraesthesia and less dyspnoea
+        - Reviews vaccine-derived spike protein + immune-response hypotheses and case-report-based therapies
+    *Conclusion:*: PCVS is poorly understood; needs research on prevalence, prognosis, risk factors, and treatments.
+    *Limitations:*: Narrative; evidence mostly case reports/series and observational; no primary data.
+    *ME/CFS Relevance:*: F1 — the reference narrative review naming PCVS and its ME/CFS presentation.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (peer-reviewed review)
+        - *Sample:* N/A (review)
+        - *Replication:* N/A
+        - *Score:* 0.40 (raw; population 0.75 → discounted 0.30)
+
+=== Hanc et al.\ 2026 — Cognitive Impairment, Depression, Fatigue in PC and PVS
+
+    *Full Citation:*: Hanc E, Koller K, Herold R, Erim Y, Morawa E. Cognitive impairment, depression, and fatigue in post-COVID and post-vaccination syndrome: a large-scale cross-sectional study. _European Archives of Psychiatry and Clinical Neuroscience_. 2026;276(1):221–234. @Hanc2026PVScognitive
+    *DOI:*: #link("https://doi.org/10.1007/s00406-025-02144-3")[10.1007/s00406-025-02144-3]
+    *PMID:*: 41258118
+    *Article Type:*: Large cross-sectional study
+    *Key Findings:*:
+        - N = 793 (723 PASC + 70 PVS), mean age 46 y, 67% female; Erlangen Post-COVID Center
+        - Deficits most frequent in working speed 61.7%, attention 54.7%, verbal fluency 48.8%; fatigue 92.4%; depressive symptoms 64.5%
+        - Cognitive patterns, depression, and fatigue in PVS closely resembled PASC — shared mechanisms
+    *Conclusion:*: Cognitive impairment is highly prevalent in both PASC and PVS and is influenced by psychological and biological factors.
+    *Limitations:*: Cross-sectional; PVS group small (n = 70); self-report symptom attribution; single-center.
+    *ME/CFS Relevance:*: F1/F3 — the largest direct PVS-vs-PASC neuropsychological comparison.
+    *Certainty Assessment:*:
+        - *Quality:* Medium–high (peer-reviewed, large N)
+        - *Sample:* N = 793
+        - *Replication:* Single center
+        - *Score:* 0.55 (raw; population 0.85 → discounted 0.47)
+
+=== Bhattacharjee et al.\ 2025 — Immunological and Antigenic Signatures of PVS
+
+    *Full Citation:*: Bhattacharjee B, Lu P, Monteiro VS, et al. Immunological and Antigenic Signatures Associated with Chronic Illnesses after COVID-19 Vaccination. _medRxiv_. 2025. @Bhattacharjee2025PVSsignatures
+    *DOI:*: #link("https://doi.org/10.1101/2025.02.18.25322379")[10.1101/2025.02.18.25322379]
+    *Article Type:*: Preprint (cross-sectional mechanistic)
+    *Key Findings:*:
+        - n = 42 PVS vs 22 healthy vaccinated controls (Yale LISTEN, Iwasaki/Krumholz)
+        - Reports longer-lasting spike protein detection, reactivated EBV, and distinct immune signatures in PVS vs controls
+    *Conclusion:*: PVS is associated with measurable antigenic and immunological alterations (spike persistence, EBV reactivation).
+    *Limitations:*: Preprint (not yet peer-reviewed at search time); small n; cross-sectional; overlaps Yale LISTEN PVS cohort.
+    *ME/CFS Relevance:*: F3 — mechanistic link between PVS and the spike-persistence / EBV-reactivation pathways shared with Long COVID.
+    *Certainty Assessment:*:
+        - *Quality:* Low (preprint)
+        - *Sample:* n = 64
+        - *Replication:* Single study
+        - *Score:* 0.40 (raw; population 0.85 → discounted 0.34)
+
+=== Arlt et al.\ 2024 — Autoreactive IgG Against Peripheral Nerve in PCVS
+
+    *Full Citation:*: Arlt FA, Breuer A, Trampenau E, et al. High serum prevalence of autoreactive IgG antibodies against peripheral nerve structures in patients with neurological post-COVID-19 vaccination syndrome. _Frontiers in Immunology_. 2024;15:1404800. @Arlt2024PVSnerveIgG
+    *DOI:*: #link("https://doi.org/10.3389/fimmu.2024.1404800")[10.3389/fimmu.2024.1404800]
+    *PMID:*: 39156891
+    *Article Type:*: Case-control
+    *Key Findings:*:
+        - n = 50 PCVS (peripheral neurological symptoms) vs 35 vaccinated controls
+        - IgG autoantibodies against peripheral-nerve structures more frequent in PCVS (18% vs 3%, p = 0.04); bound paranodes, axons, Schmidt-Lanterman incisures, Schwann nuclei
+        - Target epitopes: neurofilament subunits and DFS-70; anti-ganglioside antibodies absent
+    *Conclusion:*: Autoantibodies against nervous system tissue may be relevant in PCVS; neurofilament and DFS-70 autoantibodies have biomarker potential.
+    *Limitations:*: Small n; autoantibody pathogenicity not demonstrated; no longitudinal follow-up.
+    *ME/CFS Relevance:*: F3 — autoantibody (anti-nerve) evidence tying PVS to the immune-mediated mechanism shared with ME/CFS/Long COVID.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (peer-reviewed case-control)
+        - *Sample:* n = 85
+        - *Replication:* Single study
+        - *Score:* 0.50 (raw; population 0.85 → discounted 0.43)
+
+=== Purpura et al.\ 2026 — Long COVID vs PACVS: Phenotypes, Severity, Biomarkers
+
+    *Full Citation:*: Purpura L, Heisler T, Palmer S, et al. Overlapping Clinical Presentation of Long COVID and Postacute COVID-19 Vaccination Syndrome: Phenotypes, Severity, and Biomarkers. _Clinical Infectious Diseases_. 2026;82(5):e923–e931. @Purpura2026PVSoverlap
+    *DOI:*: #link("https://doi.org/10.1093/cid/ciaf624")[10.1093/cid/ciaf624]
+    *PMID:*: 41510565
+    *Article Type:*: Cross-sectional cohort
+    *Key Findings:*:
+        - n = 181 from a Columbia PASC clinic (PASC-MECFS, PASC-LC, PACVS); fatigue most common (total 88.95%; MECFS 100%; PACVS 92.86%)
+        - PACVS higher atypical complaints: peripheral neuropathy 17.9%, tinnitus 7.1%, rash 10.7% (p < 0.01)
+        - PACVS higher anticardiolipin IgM (42.9% vs 11.6%, p = 0.02) and anti-U1-RNP (21.4% vs 2.3%, p = 0.04); functional impairment comparable between MECFS and PACVS
+    *Conclusion:*: PASC and PACVS share symptoms but PACVS shows distinct autoantibody elevations — autoimmune involvement.
+    *Limitations:*: Cross-sectional; PACVS group modest size; single-center; self-report.
+    *ME/CFS Relevance:*: F3 — direct head-to-head LC-vs-PACVS biomarker comparison showing autoantibody signature.
+    *Certainty Assessment:*:
+        - *Quality:* Medium–high (peer-reviewed)
+        - *Sample:* n = 181
+        - *Replication:* Single center
+        - *Score:* 0.55 (raw; population 0.85 → discounted 0.47)
+
+=== Donadio et al.\ 2025 — Small Fiber Neuropathy: Infection vs Vaccination
+
+    *Full Citation:*: Donadio V, Incensi A, Furia A, et al. Small fiber neuropathy associated with COVID-19 infection and vaccination: A prospective case-control study. _European Journal of Neurology_. 2025;32(1):e16538. @Donadio2025SFN
+    *DOI:*: #link("https://doi.org/10.1111/ene.16538")[10.1111/ene.16538]
+    *PMID:*: 39526678
+    *Article Type:*: Prospective case-control
+    *Key Findings:*:
+        - n = 33 post-COVID + 33 post-mRNA-vaccination + 33 pre-2019 controls (skin biopsy)
+        - Somatic small-nerve-fiber density reduced in both vs controls; SFN more frequent post-infection (94%) than post-vaccination (79%)
+        - Autoimmune abnormalities frequent in both but NOT correlated with SFN; skin autonomic innervation spared
+    *Conclusion:*: Somatic SFN is common after both infection and vaccination, with infection the stronger driver; SFN is not explained by autoimmune markers.
+    *Limitations:*: Modest n; no causal attribution; single center.
+    *ME/CFS Relevance:*: F3/F4 — SFN (a proposed ME/CFS/POTS substrate) occurs after both triggers, more so after infection.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (peer-reviewed)
+        - *Sample:* n = 99
+        - *Replication:* Single study
+        - *Score:* 0.55 (raw; population 0.85 → discounted 0.47)
+
+=== Leys et al.\ 2025 — POTS After COVID-19 Infection or Vaccination
+
+    *Full Citation:*: Leys F, Verginer M, Kirchler E, et al. Postural orthostatic tachycardia syndrome is the most frequent cardiovascular autonomic disorder following COVID-19 infection or vaccination. _Journal of Neurology_. 2025;272(12):783. @Leys2025POTS
+    *DOI:*: #link("https://doi.org/10.1007/s00415-025-13518-x")[10.1007/s00415-025-13518-x]
+    *PMID:*: 41275041
+    *Article Type:*: Retrospective cohort
+    *Key Findings:*:
+        - Innsbruck Dysautonomia Center (03/2020–03/2023): post-infection n = 75 (29% POTS); post-vaccination n = 26 (42% POTS)
+        - In 49/101 (49%) new referrals, workup excluded any cardiovascular autonomic disorder
+        - Multimodal treatment improved symptoms in 26/42 (62%) with follow-up
+    *Conclusion:*: POTS is the most frequent cardiovascular autonomic disorder after either trigger; a specialist workup is pivotal and treatment is often helpful.
+    *Limitations:*: Retrospective; referral bias; small vaccinated subgroup.
+    *ME/CFS Relevance:*: F3/F4 — quantifies POTS (a ME/CFS-overlap dysautonomia) after both infection and vaccination.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (peer-reviewed)
+        - *Sample:* n = 101
+        - *Replication:* Single center
+        - *Score:* 0.55 (raw; population 0.85 → discounted 0.47)
+
+=== Feiring et al.\ 2017 — HPV Vaccine and CFS/ME Risk (Norway)
+
+    *Full Citation:*: Feiring B, Laake I, Bakken IJ, et al. HPV vaccination and risk of chronic fatigue syndrome/myalgic encephalomyelitis: A nationwide register-based study from Norway. _Vaccine_. 2017;35(33):4203–4212. @Feiring2017HPVCFS
+    *DOI:*: #link("https://doi.org/10.1016/j.vaccine.2017.06.031")[10.1016/j.vaccine.2017.06.031]
+    *PMID:*: 28648542
+    *Article Type:*: Nationwide register-based cohort
+    *Key Findings:*:
+        - 176,453 girls born 1997–2002 (824,133 age 10–17); linked national registries
+        - HPV vaccination NOT associated with CFS/ME: HR 0.86 (0.69–1.08) full follow-up; 0.96 (0.64–1.43) first two years
+        - Prior hospital contacts strongly predicted CFS/ME (HR 5.23 for ≥7 contacts)
+    *Conclusion:*: No increased CFS/ME risk following HPV vaccination in the first six birth cohorts offered it.
+    *Limitations:*: Observational; CFS/ME registry codes (no research criteria); residual confounding.
+    *ME/CFS Relevance:*: F2 null — a large national negative result against vaccine causation of ME/CFS.
+    *Certainty Assessment:*:
+        - *Quality:* High (nationwide register)
+        - *Sample:* n = 176,453
+        - *Replication:* Independent of Magnus 2015 (same NIPH group)
+        - *Score:* 0.70 (raw; population 0.75 → discounted 0.53)
+
+=== Hviid et al.\ 2020 — HPV Vaccine and Autonomic Dysfunction Syndromes (Denmark)
+
+    *Full Citation:*: Hviid A, Thorsen NM, Valentiner-Branth P, Frisch M, Mølbak K. Association between quadrivalent human papillomavirus vaccination and selected syndromes with autonomic dysfunction in Danish females: population based, self-controlled, case series analysis. _BMJ_. 2020;370:m2930. @Hviid2020HPVautonomic
+    *DOI:*: #link("https://doi.org/10.1136/bmj.m2930")[10.1136/bmj.m2930]
+    *PMID:*: 32878745
+    *Article Type:*: Population-based self-controlled case series
+    *Key Findings:*:
+        - 869 autonomic-dysfunction cases (136 CFS, 535 CRPS, 198 POTS) from 1,375,737 Danish females
+        - HPV vaccination did NOT increase composite outcome in 365-day risk period (RR 0.99, 0.74–1.32), nor CFS (0.38, 0.13–1.09)
+        - Up to 32% increased risk not formally excluded
+    *Conclusion:*: No causal association between HPV vaccination and CFS, CRPS, or POTS.
+    *Limitations:*: Self-controlled design (no external comparison); low syndrome counts; up to 32% risk not excludable.
+    *ME/CFS Relevance:*: F2 null — a high-quality Danish negative against HPV-vaccine causation of CFS/dysautonomia.
+    *Certainty Assessment:*:
+        - *Quality:* High (national register, SCCS)
+        - *Sample:* n = 1,375,737
+        - *Replication:* Independent
+        - *Score:* 0.70 (raw; population 0.75 → discounted 0.53)
+
+=== Jensen et al.\ 2025 — Post-Acute Non-Specific Symptoms After COVID-19 Vaccination
+
+    *Full Citation:*: Jensen CB, Hansen KT, Bech BH, et al. Post-acute non-specific symptoms following COVID-19 vaccination: a Danish population-based study. _International Journal of Epidemiology_. 2025;54(5):dyaf173. @Jensen2025DanishPVS
+    *DOI:*: #link("https://doi.org/10.1093/ije/dyaf173")[10.1093/ije/dyaf173]
+    *PMID:*: 41070980
+    *Article Type:*: Longitudinal population cohort (BiCoVac)
+    *Key Findings:*:
+        - 132,776 observations from 61,316 unconcerned / 25,272 sceptical / 5,064 concerned individuals
+        - Among unconcerned, vaccinated had LOWER odds of most symptoms >4 weeks post-vaccination (muscular pain OR 0.56, 0.47–0.68)
+        - Only vaccine-concerned individuals reported higher odds (muscular pain OR 1.23, 0.91–1.67) — reporting bias / nocebo
+    *Conclusion:*: For most people there is no evidence of post-acute symptoms after COVID-19 vaccination; symptom reporting is concentrated in vaccine-concerned individuals.
+    *Limitations:*: Self-report symptoms; observational; no clinical verification of symptoms.
+    *ME/CFS Relevance:*: F2 null/nocebo — the strongest direct population-level null against post-vaccination symptom causation.
+    *Certainty Assessment:*:
+        - *Quality:* High (large longitudinal cohort)
+        - *Sample:* 132,776 observations
+        - *Replication:* Independent
+        - *Score:* 0.65 (raw; population 0.75 → discounted 0.49)
+
+=== Kwan et al.\ 2022 — POTS Risk After Vaccination vs Infection
+
+    *Full Citation:*: Kwan AC, Ebinger JE, Wei J, et al. Apparent Risks of Postural Orthostatic Tachycardia Syndrome Diagnoses After COVID-19 Vaccination and SARS-CoV-2 Infection. _Nature Cardiovascular Research_. 2022;1(12):1187–1194. @Kwan2022POTSrisk
+    *DOI:*: #link("https://doi.org/10.1038/s44161-022-00177-8")[10.1038/s44161-022-00177-8]
+    *PMID:*: 37303827
+    *Article Type:*: Sequence-symmetry analysis
+    *Key Findings:*:
+        - n = 284,592 vaccinated (Cedars-Sinai); POTS odds higher 90 days after vaccine than 90 days before
+        - Post-vaccination POTS odds lower than post-infection odds (post-infection ~5× higher)
+    *Conclusion:*: A possible association between COVID-19 vaccination and POTS exists but is small relative to post-infection POTS.
+    *Limitations:*: Observational sequence-symmetry; diagnostic code reliance; no mechanistic data.
+    *ME/CFS Relevance:*: F2 relative null — vaccine-POTS is real but far lower than infection-POTS.
+    *Certainty Assessment:*:
+        - *Quality:* Medium–high (peer-reviewed)
+        - *Sample:* n = 284,592
+        - *Replication:* Single cohort (re-used in Bushi 2024 SR)
+        - *Score:* 0.65 (raw; population 0.75 → discounted 0.49)
+
+=== Yang & Wang 2026 — Post-Vaccination Syndromes: Evidence and Roadmap
+
+    *Full Citation:*: Yang D, Wang G. Post-Vaccination Syndromes: The Evidence and a Roadmap for Rigorous Research. _Reviews in Medical Virology_. 2026;36(1):e70100. @YangWang2026roadmap
+    *DOI:*: #link("https://doi.org/10.1002/rmv.70100")[10.1002/rmv.70100]
+    *PMID:*: 41467340
+    *Article Type:*: Letter / critique
+    *Key Findings:*:
+        - Critical appraisal of Yong 2025: methodological limitations, ascertainment bias, conflation of correlation with causation
+        - Argues background prevalence of POTS/chronic fatigue is non-negligible; mechanisms speculative without human validation; proposed therapies empiric and untested
+        - Calls for prospective controlled cohorts, deep phenotyping, and standardised criteria before RCTs
+    *Conclusion:*: The PVS evidence base is premature; disciplined research is needed before clinical guidance.
+    *Limitations:*: Letter (not primary evidence); no new data.
+    *ME/CFS Relevance:*: F2 critique — the formal counterpoint to the PCVS narrative; frames the causal-inference weakness.
+    *Certainty Assessment:*:
+        - *Quality:* Low (letter)
+        - *Sample:* N/A
+        - *Replication:* N/A
+        - *Score:* 0.35 (raw; population 0.75 → discounted 0.26)
+
+=== Patone et al.\ 2022 — Myocarditis/Pericarditis Risk After Vaccination vs Infection
+
+    *Full Citation:*: Patone M, Mei XW, Handunnetthi L, et al. Risks of myocarditis, pericarditis, and cardiac arrhythmias associated with COVID-19 vaccination or SARS-CoV-2 infection. _Nature Medicine_. 2022;28(2):410–422. @Patone2022myocarditis
+    *DOI:*: #link("https://doi.org/10.1038/s41591-021-01630-0")[10.1038/s41591-021-01630-0]
+    *PMID:*: 34907393
+    *Article Type:*: Self-controlled case series (England)
+    *Key Findings:*:
+        - ~38M vaccinated (ChAdOx1 20.6M; BNT162b2 17.0M; mRNA-1273 1.0M) + 3.0M SARS-CoV-2 positive
+        - Myocarditis risk increased after first/second mRNA doses (extra 1–10 events per million in 28 days), confined to age under 40
+        - SARS-CoV-2 infection carried far higher risk (extra 40 myocarditis events per million in 28 days)
+    *Conclusion:*: mRNA vaccine myocarditis is real but rare, and far lower than myocarditis following infection.
+    *Limitations:*: Observational SCCS; short follow-up window; administrative data.
+    *ME/CFS Relevance:*: Harm — quantifies the vaccine-safety context (myocarditis) relevant to PVS/chronic-sequelae discussion.
+    *Certainty Assessment:*:
+        - *Quality:* High (large national SCCS)
+        - *Sample:* ~38M vaccinated
+        - *Replication:* Multiple
+        - *Score:* 0.75 (raw; population 0.75 → discounted 0.56)

@@ -12606,5 +12606,71 @@
     "label": "HCP",
     "category": "concept",
     "definition": "Healthcare Professional: a clinician (physician, psychologist, physiotherapist, nurse, or similar) involved in the assessment and management of patients."
+  },
+  "PVS": {
+    "label": "PVS",
+    "category": "condition",
+    "definition": "Post-Vaccination Syndrome: a reported chronic syndrome of fatigue, exercise intolerance, brain fog, dysautonomia and small-fiber neuropathy arising days to weeks after vaccination in a small minority of recipients; clinically overlapping ME/CFS and Long COVID. Entity status is unresolved and vaccine causation is not established.",
+    "also": "Also written PCVS (post-COVID-19 vaccination syndrome), PACVS (post-acute COVID-19 vaccination syndrome), or colloquially Long Vax."
+  },
+  "PCVS": {
+    "label": "PCVS",
+    "category": "condition",
+    "definition": "Post-COVID-19 Vaccination Syndrome: the COVID-19-vaccine-specific form of post-vaccination syndrome (PVS), reported as a ME/CFS-like illness after COVID-19 vaccination."
+  },
+  "PACVS": {
+    "label": "PACVS",
+    "category": "condition",
+    "definition": "Post-Acute COVID-19 Vaccination Syndrome: a chronic syndrome reported after SARS-CoV-2 vaccination, characterised in a German registry by fatigue, malaise and autoantibody/cytokine changes; overlaps ME/CFS."
+  },
+  "mRNA": {
+    "label": "mRNA",
+    "category": "concept",
+    "definition": "Messenger RNA: the molecule that carries genetic instructions from DNA to the ribosome for protein synthesis. mRNA vaccines (e.g. BNT162b2, mRNA-1273) deliver an mRNA encoding the SARS-CoV-2 spike protein so the body transiently makes that antigen."
+  },
+  "nocebo": {
+    "label": "nocebo",
+    "category": "concept",
+    "definition": "Nocebo effect: symptoms or side effects produced by negative expectation or prior belief about a treatment, rather than by the treatment's pharmacology. The counterpart of the placebo effect; a reason symptom reports after vaccination can differ by prior concern."
+  },
+  "immunoadsorption": {
+    "label": "immunoadsorption",
+    "category": "treatment",
+    "definition": "A blood-purification (apheresis) technique that removes immunoglobulins, including autoantibodies, from plasma. Investigated as a research-stage therapy for ME/CFS and post-acute syndromes; not established clinical practice."
+  },
+  "ROC-AUC": {
+    "label": "ROC-AUC",
+    "category": "measurement",
+    "definition": "Receiver Operating Characteristic — Area Under the Curve: a summary statistic (0.5 = chance, 1.0 = perfect) for how well a test separates two groups. Used to report the discrimination of biomarker panels."
+  },
+  "anti-N": {
+    "label": "anti-N",
+    "category": "measurement",
+    "definition": "Anti-nucleocapsid antibody: an antibody against the SARS-CoV-2 nucleocapsid protein. Because mRNA vaccines encode only the spike protein, a positive anti-N test indicates past natural SARS-CoV-2 infection rather than vaccination — useful for separating infection from vaccination in studies."
+  },
+  "anti-S": {
+    "label": "anti-S",
+    "category": "measurement",
+    "definition": "Anti-spike antibody: an antibody against the SARS-CoV-2 spike protein, produced after both natural infection and spike-based (mRNA/vector) vaccination; unlike anti-N, it does not distinguish infection from vaccination."
+  },
+  "IL-8": {
+    "label": "IL-8",
+    "category": "cytokine",
+    "definition": "Interleukin-8: a pro-inflammatory chemokine that recruits neutrophils; reported elevated in some post-vaccination syndrome and ME/CFS cohorts, though its role is not established."
+  },
+  "AT1-R": {
+    "label": "AT1-R",
+    "category": "protein",
+    "definition": "Angiotensin II type 1 receptor: the receptor through which angiotensin II raises blood pressure and drives aldosterone release. Functional autoantibodies against AT1-R are reported in some ME/CFS and post-vaccination cohorts."
+  },
+  "alpha-2B": {
+    "label": "alpha-2B",
+    "category": "protein",
+    "definition": "Alpha-2B adrenergic receptor: a receptor for noradrenaline/adrenaline involved in vascular and autonomic regulation. Autoantibodies against it are reported in some ME/CFS and post-vaccination syndrome cohorts."
+  },
+  "spike protein": {
+    "label": "spike protein",
+    "category": "protein",
+    "definition": "The surface glycoprotein of SARS-CoV-2 that binds the ACE2 receptor and is the antigen encoded by most COVID-19 vaccines; its persistence has been proposed as a driver of Long COVID and post-vaccination symptoms, though evidence is incomplete."
   }
 }

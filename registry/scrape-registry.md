@@ -1420,3 +1420,34 @@ Prevents re-processing of already-integrated content.
 | URL | Source | Scraped | Integrated | Target |
 |-----|--------|---------|------------|--------|
 | PubMed API queries (9 queries + efetch, 12 PMIDs) | pubmed/eutils | 2026-10-11 | — | ops/research/search-log-muscle-electrostimulation-fatigue-2026-10-11.md, ops/research/literature-muscle-electrostimulation-fatigue-2026-10-11.md, bib/exercise-pem.bib (12), appendix-h `<sec:bib-muscle-electrostimulation-fatigue>` (12 annotated entries) |
+
+## 2026-10-11 — polaris-adoption session downloads
+
+| Source | Access | Date | Saved to | Integrated |
+|---|---|---|---|---|
+| Literature PDF/XML download (3 papers, adhd-dementia range verification) | europepmc.org fullTextXML REST + abstract | 2026-10-11 | Dobrosavljevic2021ADHDdementia (PMC8792867 XML), Levine2023ADHDdementia (PMC10582792 XML), Tzeng2019ADHDdementia (abstract copy; paywalled) → Literature/neurological/<Key>/ | ops/research/fragments-adhd-dementia-energy-deficit-20261011.md |
+
+---
+
+## Bakken 2026 "Making Recovery Conceivable" (HCP BPS Perspectives) — Literature Search (2026-10-11)
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities esearch/efetch) | 2026-10-11 | Phase 1 integrate-topic for `bakken2026-recovery-conceivable`. 12 framing queries (F1 BPS-legitimate / F2 harm / F3 biomedical / F4 epistemic-trust-alliance) + 1 PMID efetch batch. Primary PMID 42853299. Added 13 new keys to bib/stigma.bib. Reused NOT re-added: Blease2017/Blease2018/deBoer2021 (general.bib), Byrne2021/Ireson2022/Schomerus2026/Buchner2025/Bayliss2014/Cooper2025 (stigma.bib), Wormgoor2021 + White2023 (exercise-pem.bib). Castell 2011 not PubMed/EPMC-indexed → dropped. Zero-result (informative): `GET ... post-exertional malaise harm`=0; `ME biological disease psychosomatic critique evidence`=0 (recovered via Thoma2023 query). |
+| Europe PMC (DOI resolver, MED+PMC+PPR) | 2026-10-11 | 6 DOI-field resolutions for reference-list candidates (Ingman2022, Ingman2025, Flückiger2018, Fisher2025, Devendorf2019, Castell2011-404) → PMID/PMCID confirmation. |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed E-utilities (12 framing queries + efetch; PMIDs 42853299, 17426416, 36059125, 41347569, 29929450, 38256344, 28982247, 42601195, 23639303, 29792475, 24773092, 39467536) + Europe PMC DOI resolvers | pubmed/eutils + europepmc | 2026-10-11 | — | ops/research/search-log-bakken2026-recovery-conceivable-2026-10-11.md, ops/research/literature-summary-bakken2026-recovery-conceivable-2026-10-11.md, bib/stigma.bib (13 new), appendix-h `<sec:bib-bakken2026-recovery-conceivable>` (13 annotated entries) — BPS/psychobehavioural CFS recovery efficacy+harm + epistemic trust/alliance + HCP-perspective (13 papers) |
+
+---
+
+## Post-Vaccination Syndrome (post-vaccination-syndrome) — Literature Search (2026-10-11)
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities esearch/efetch) | 2026-10-11 | 13 queries across required categories: direct ("post-vaccination syndrome"=13; "post-COVID-19 vaccination syndrome"=13; combined OR=56; `COVID-19 vaccine chronic fatigue syndrome`=48), null/negative (combined-null query=0; HPV×CFS=10; nocebo=8), competing (nocebo/media-contagion → Jensen2025, Schäfer2023), indirect-biochemical (SFN×vaccination=45; POTS×vaccination=33; spike persistence=14; MCAS×vaccination=17; GPCR-autoantibody×vaccination=4), harm (mRNA myocarditis=130 → Patone2022). **16 new papers added** to long-covid.bib. Reused NOT re-added: Magnus2015influenza, Prinsen2012vaccine, Tsuchida2022vaccineLC, Buchner2025Psychologization, Skare2024, Ruiz2024hpa, Perez2026adjuvants, Eisenbarth2008nalp3 + alum/MMF cluster. **Cohort overlap flagged:** Semmler2023↔Mundorf2024 (same Düsseldorf PACVS n=191); Krumholz2023↔Bhattacharjee2025 (same Yale LISTEN); Kwan2022 reused by Bushi2024 SR. Excluded as alum-cluster territory: Ameratunga2017 (ASIA refutation). |
+| Europe PMC (PPR) | 2026-10-11 | 1 query `"post-vaccination syndrome" OR "post-COVID-19 vaccination syndrome" OR "long vax"` SRC:PPR → Bhattacharjee2025 preprint (immunological/antigenic signatures, Yale LISTEN n=42 vs 22) recovered; also Krumholz2025-comparative + Said2022 preprints noted (not added). |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed API queries (13 queries + efetch batch, 16 PMIDs) | pubmed/eutils | 2026-10-11 | — | ops/research/search-log-post-vaccination-syndrome-2026-10-11.md, ops/research/literature-post-vaccination-syndrome-2026-10-11.md, ops/research/fragments-post-vaccination-syndrome-2026-10-11.md, bib/long-covid.bib (16), appendix-h `<sec:bib-post-vaccination-syndrome>` (16 annotated entries), ops/integration-guides/integration-guide-post-vaccination-syndrome-2026-10-11.md — PVS/PCVS phenotype + null/negative registry + autoantibody/SFN/POTS mechanism + myocarditis harm (16 papers) |
+| Europe PMC PPR (1 query) | europepmc | 2026-10-11 | — | bib/long-covid.bib (Bhattacharjee2025PVSsignatures preprint entry) |
