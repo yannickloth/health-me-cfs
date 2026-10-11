@@ -27,3 +27,9 @@ Literal supporting fragments for quantitative claims. Format: `@Key | figure(s) 
 - @Tajima2021hybridNMESoxygen | VO2/HR increase with NMES | "relative oxygen uptake during knee bending exercise with HTS were significantly greater... (7.29 ± 0.91 ml/kg/min vs. 8.29 ± 1.06 ml/kg/min; p = 0.0115)... increment... a mean of 14.42 ± 13.99%" | Abstract
 - @Vecchiet2003oxidativeElectrical | oxidative stress + lower electrical threshold | "lower muscle pain thresholds to electrical stimulation... significantly: lower Lag Phase and Vitamin E... higher LDL thiobarbituric acid reactive substances (TBARS)" | Abstract
 - @Vecchiet2003oxidativeElectrical | n | "In 21 patients with chronic fatigue syndrome (CFS) versus 20 normal subjects" | Abstract
+@Nosaka2011ESmuscleDamage | ES damage comparable to maximal voluntary eccentric | "the magnitude of muscle damage induced by ES-evoked isometric contractions is comparable to that induced by maximal voluntary eccentric contractions" | Abstract
+@Nosaka2011ESmuscleDamage | non-selective synchronous fixed recruitment | "high mechanical stress on the activated muscle fibres due to the specificity of motor unit recruitment (i.e., non-selective, synchronous and spatially fixed manner)" | Abstract
+@Vanderthommen2015NMESrepeatedBout | CK ~2307 IU/L after NMES bout | "CK activity = 2307 ± 3774 and 1671 ± 1790 IU l(-1)" | Abstract
+@Vanderthommen2015NMESrepeatedBout | CK falls to 218 IU/L second bout | "post-T2, VAS score = 2·68 ± 1·27 cm and CK activity = 218 ± 72 IU l(-1)" | Abstract
+@Fessard2025NMESnoDamage | 80 isometric contractions ~15% max tetanic | "80 isometric contractions delivered at ∼15% of maximal tetanic force to avoid muscle damage" | Abstract
+@Fessard2025NMESnoDamage | hypertrophy without overt damage | "NMES-induced myonuclear accretion and muscle hypertrophy are driven by a mild increase in mechanical loading in the absence of overt signs of muscle injury" | Abstract
