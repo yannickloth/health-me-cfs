@@ -20,6 +20,7 @@ All pipelines are skills or agents. Invoke via `/skill-name`.
 | `/medication-differential-analysis` | "what does LDN response tell us" · "differential analysis for all meds" · "retroactive differential" |
 | `/typst-write` | "write/edit [file].typ" · "create a typst file with valid syntax" |
 | `/review-english-prose-style` | "review prose style" · "de-AI-ify prose" · "naturalize english text" |
+| `/file-pdf` | "file this PDF" · "move [paper] into Literature/" · "rename PDF to bib key" |
 
 ## Agents (Direct Invocation)
 
