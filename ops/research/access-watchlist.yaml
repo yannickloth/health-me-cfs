@@ -3,7 +3,11 @@
 # Policy:
 #  - Every row starts as a SEED: `status: seed` — unverified by definition.
 #  - access-navigator verifies live and writes back status + verified date + url.
-#  - Never delete rows; mark `retired: <date>`.
+#  - Never delete rows. Two closure states:
+#      retired: <date>            — existed/was actionable, now closed
+#      NO EVIDENCE FOUND          — searched, nothing located; honest absence, kept as a re-check hook
+#  - (2026-10-11 owner decision: aBTKi + INVEST kept as NO EVIDENCE FOUND, not retired —
+#    their only provenance is assistant seeding; absence was established by search, not by history.)
 #  - Trial rows: registry status NEVER confirms eligibility (rules out only).
 #  - 90-day TTL on "recruiting" claims.
 
@@ -15,7 +19,7 @@ trials:
   - name: INVEST (NIH intramural ME/CFS)
     kind: observational + substudies
     region: US
-    status: EXISTENCE DOUBTFUL — not on CT.gov; Europe PMC search (415 hits, none named INVEST for ME/CFS, checked 2026-10-10). NIH intramural ME/CFS work exists (Nath/Walitt papers) but no trial named INVEST found. Probable seed error — confirm or retire
+    status: NO EVIDENCE FOUND (kept, honest absence — not retired) — seed originated from assistant memory only; searched CT.gov 2026-10-10 (never surfaced) + Europe PMC (415 hits, none named INVEST for ME/CFS); the NIH intramural ME/CFS research itself IS real (Nath/Walitt; Bedard 2026 held in Literature/) but no trial named INVEST located; kept as a re-check hook
   - name: BC007 (Berlin Cures, autoantibody apheresis)
     kind: functional-autoantibody trial
     region: EU
@@ -25,7 +29,7 @@ trials:
   - name: aBTKi (BTK-inhibitor class, autoimmune-target)
     kind: trial — verify exact compound and sponsor live
     region: US/EU
-    status: NOT FOUND — CT.gov negative (2026-10-10); Europe PMC literature search (31 hits, none a specific ME/CFS BTK trial, checked 2026-10-10). Existence not established — probable seed error; confirm source or retire
+    status: NO EVIDENCE FOUND (kept, honest absence — not retired; retirement would imply existence was ever established) — seed originated from assistant memory only, no real-world anchor known; searched CT.gov 2026-10-10 (0 hits) + Europe PMC 2026-10-10 (31 hits, none a specific ME/CFS BTK trial); kept as a re-check hook — if any source names a specific trial, verify live and promote
   - name: Rapamycin / mTOR ME/CFS studies
     kind: repurposing trials
     region: multi
