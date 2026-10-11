@@ -43351,3 +43351,246 @@ This stream assembles evidence for the claim that pathological fatigue across au
         - Demonstrates ES injury triggers the full damage-then-inflammatory cascade.
     / *Conclusion:*: ES-induced muscle injury recruits the inflammatory response, the same cascade as exercise-induced damage.
     / *Limitations:*: n=28 healthy women; no ME/CFS.
+
+// =============================================================================
+
+== BPS Models, Recovery, and Epistemic Trust in ME/CFS
+<sec:bib-bakken2026-recovery-conceivable>
+// =============================================================================
+
+=== Bakken et al.\ 2026 — Making Recovery Conceivable (HCP BPS Perspectives)
+
+    *Full Citation:*: Bakken AK, Mengshoel AM, Synnes O. Making recovery conceivable: perspectives from healthcare professionals using psychologically and behaviourally informed approaches to chronic fatigue syndrome. _International Journal of Qualitative Studies on Health and Well-being_. 2026;21(1):2745089. @Bakken2026RecoveryConceivable
+    *DOI:*: #link("https://doi.org/10.1080/17482631.2026.2745089")[10.1080/17482631.2026.2745089]
+    *PMID:*: 42853299
+    *Article Type:*: Qualitative reflexive thematic analysis (2 focus groups + 3 individual interviews; n=16 HCPs, 5 professions; Norwegian specialist care)
+    *Key Findings:*:
+        - Four themes: (1) meeting patients in a "no-man's-land" — validation and separating the patient's experience from a proposed explanation; (2) offering a new explanatory "map" (biopsychosocial) with two orientations, one centred on stress/overload/regulation and one on maladaptive-learning/predictive-processing; (3) navigating by the map — graded exposure, gradual re-engagement, "retraining the brain"; (4) maintaining trust in a contested field.
+        - HCPs viewed the value of the "map" as orientation for change, not causal resolution; embodied improvement (not explanation alone) was the pivotal trust-builder ("the proof of the pudding is in the eating").
+        - Trust was experienced as fragile: competing narratives ("recovery isn't possible"), patient-organisation criticism, and anticipated future biological findings made some HCPs feel insecure about their legitimacy.
+        - HCPs with personal CFS-recovery experience were described as "living proof" and unusually credible.
+    *Conclusion:*: For this purposively selected group of HCPs, therapeutic change rests on an interplay of explanatory framework, its application in practice, the trusting relationship, and the patient's embodied experience of improvement — not on any single explanation or technique.
+    *Limitations:*: Purposive sample of HCPs who already endorse psychobehavioural approaches (selection bias); patients described may be unusually receptive; no patient-side data on non-improvers or deterioration; single-country (Norwegian specialist) context; does not test effectiveness.
+    *ME/CFS Relevance:*: Primary source — the HCP-side operationalisation of the BPS "map", epistemic trust, and the trust-balancing act in a contested field. Complements the patient/critical side already in ch42/ch46.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (rigorous, reflexive qualitative analysis)
+        - *Sample:* n=16 HCPs (small, purposive)
+        - *Replication:* Single study
+        - *Score:* 0.35 (raw; population 1.00 → discounted 0.35)
+
+=== Knoop et al.\ 2007 — Is Full Recovery Possible After CBT for CFS?
+
+    *Full Citation:*: Knoop H, Bleijenberg G, Gielissen MFM, van der Meer JWM, White PD. Is a full recovery possible after cognitive behavioural therapy for chronic fatigue syndrome? _Psychotherapy and Psychosomatics_. 2007;76(3):171–176. @Knoop2007FullRecoveryCBT
+    *DOI:*: #link("https://doi.org/10.1159/000099844")[10.1159/000099844]
+    *PMID:*: 17426416
+    *Article Type:*: Prospective treatment cohort (secondary outcome analysis)
+    *Key Findings:*:
+        - After CBT, 69% of n=96 CFS patients no longer met CDC (Fukuda) CFS criteria.
+        - Full recovery (most comprehensive definition) was achieved by 23%; recovery rate varied with the criteria applied.
+        - Fewer patients with a comorbid medical condition recovered.
+    *Conclusion:*: Significant improvement after CBT is probable and full recovery is possible but uncommon; sharing this may raise expectations without false hope.
+    *Limitations:*: Single-centre cohort; no untreated comparator; recovery definition contested (see @Devendorf2019RecoveryPhysician); n=96.
+    *ME/CFS Relevance:*: F1 anchor — grounds the "recovery is conceivable" premise with a quantified recovery rate (23%) that both supports and bounds it.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (cohort)
+        - *Sample:* n=96
+        - *Replication:* Single study
+        - *Score:* 0.50 (raw; population 1.00 → discounted 0.50)
+
+=== Ingman et al.\ 2022 — Systematic Review of RCT Prognosis After CBT/GET for CFS
+
+    *Full Citation:*: Ingman T, Smakowski A, Goldsmith K, Chalder T. A systematic literature review of randomized controlled trials evaluating prognosis following treatment for adults with chronic fatigue syndrome. _Psychological Medicine_. 2022;52(14):2917–2929. @Ingman2022RecoveryRCTReview
+    *DOI:*: #link("https://doi.org/10.1017/S0033291722002471")[10.1017/S0033291722002471]
+    *PMID:*: 36059125
+    *Article Type:*: Systematic review (PROSPERO CRD42018086002)
+    *Key Findings:*:
+        - 15 RCT publications, 1990 participants (1988–2021). After CBT, 44% self-rated better and 11% worse at short-to-medium term; after GET, 43% better and 14% worse; outcomes 8–26% more favourable than control conditions.
+        - Two-thirds of studies moderate quality, the remainder weak; most outcomes self-reported.
+    *Conclusion:*: There is some support for positive effects of CBT/GET at short-to-medium term, though this requires further investigation given inconsistent prior reviews and heterogeneity.
+    *Limitations:*: Clinical heterogeneity; self-report outcomes; findings may not generalise to severe CFS; moderate/weak study quality.
+    *ME/CFS Relevance:*: F1 anchor — the most recent synthesis of the CBT/GET evidence base, and it explicitly notes the "worse" tail (11–14%) that feeds the F2 harm framing.
+    *Certainty Assessment:*:
+        - *Quality:* Moderate (systematic review of weak-to-moderate RCTs)
+        - *Sample:* 1990 participants across 15 RCTs
+        - *Replication:* Synthesis
+        - *Score:* 0.60 (raw; population 1.00 → discounted 0.60)
+
+=== Ingman et al.\ 2025 — Recovery From CFS: Reflexive Thematic Analysis (Patient Side)
+
+    *Full Citation:*: Ingman T, Chalder T, Lawrence V. Recovery from chronic fatigue syndrome: a reflexive thematic analysis of experiences of people before, during and after treatment. _International Journal of Qualitative Studies on Health and Well-being_. 2025;20(1):2595829. @Ingman2025RecoveryThematic
+    *DOI:*: #link("https://doi.org/10.1080/17482631.2025.2595829")[10.1080/17482631.2025.2595829]
+    *PMID:*: 41347569
+    *Article Type:*: Qualitative reflexive thematic analysis
+    *Key Findings:*:
+        - Explored how people with CFS receiving CBT understand recovery before, during and after treatment, and how treatment reshapes that understanding.
+        - Recovery is contested and variably operationalised; treatment experience itself shifts how recovery is viewed.
+    *Conclusion:*: Patient-side accounts of recovery co-evolve with treatment, informing what "making recovery conceivable" means from the patient perspective.
+    *Limitations:*: Qualitative; treatment-linked sample; single UK CBT context; no measure of who recovers vs who does not.
+    *ME/CFS Relevance:*: F1/F4 bridge — the patient-side complement to @Bakken2026RecoveryConceivable's HCP-side account.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (qualitative)
+        - *Sample:* Qualitative sample (n unspecified here)
+        - *Replication:* Single study
+        - *Score:* 0.40 (raw; population 1.00 → discounted 0.40)
+
+=== Geraghty & Blease 2019 — BPS Model: Review of Patient Harm and Distress
+
+    *Full Citation:*: Geraghty KJ, Blease C. Myalgic encephalomyelitis/chronic fatigue syndrome and the biopsychosocial model: a review of patient harm and distress in the medical encounter. _Disability and Rehabilitation_. 2019;41(25):3092–3102. @Geraghty2019BPSHarm
+    *DOI:*: #link("https://doi.org/10.1080/09638288.2018.1481149")[10.1080/09638288.2018.1481149]
+    *PMID:*: 29929450
+    *Article Type:*: Narrative review
+    *Key Findings:*:
+        - Identifies seven modalities of potential iatrogenesis under the BPS model: diagnostic difficulty; misdiagnosis; impaired sick-role/social-support access; dissatisfaction with care; negative responses to CBT/GET; challenge to the patient narrative; and psychological (individual and collective) harm.
+        - Documents two divergent models — BPS and a patient-preferred biomedical model — and notes many patients reject the premise that their illness is perpetuated by beliefs, personality, or behaviour.
+    *Conclusion:*: The BPS framework applied to ME/CFS is too narrow and can cause harm; clinicians should adopt more concordant, patient-centred approaches that foreground the patient narrative.
+    *Limitations:*: Narrative (non-systematic) review; patient-reported harm; cannot establish causal link from BPS model to harm.
+    *ME/CFS Relevance:*: F2 anchor — the canonical patient-harm counterweight to the BPS "map" the Bakken HCPs deploy; already central to the psychologisation critique stream.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (well-cited narrative review)
+        - *Sample:* N/A (review)
+        - *Replication:* Independent corroboration (e.g. @Thoma2023PsychosomaticHarmful, @Cooper2025PacingVsGET)
+        - *Score:* 0.50 (raw; population 1.00 → discounted 0.50)
+
+=== Thoma et al.\ 2023 — Psychosomatic View Inconsistent With Evidence and Harmful
+
+    *Full Citation:*: Thoma M, Froehlich L, Hattesohl DBR, Quante S, Jason LA, Scheibenbogen C. Why the psychosomatic view on myalgic encephalomyelitis/chronic fatigue syndrome is inconsistent with current evidence and harmful to patients. _Medicina (Kaunas)_. 2024;60(1):83. @Thoma2023PsychosomaticHarmful
+    *DOI:*: #link("https://doi.org/10.3390/medicina60010083")[10.3390/medicina60010083]
+    *PMID:*: 38256344
+    *Article Type:*: Narrative position review
+    *Key Findings:*:
+        - ME/CFS has been ICD-classified as neurological since 1969; numerous studies document organic abnormalities, and most researchers classify it as organic.
+        - Persistent psychosomatic attribution drives misdiagnosis, mistreatment, and stigmatisation; physician and public education is urged.
+    *Conclusion:*: The psychosomatic/BPS attribution of ME/CFS is inconsistent with current evidence and harmful; it must be corrected to protect patient care.
+    *Limitations:*: Position/opinion review, not a systematic synthesis; advocacy-affiliated authorship (German Association for ME/CFS); no primary data.
+    *ME/CFS Relevance:*: F2/F3 anchor — the strongest recent biomedical rebuttal to the framing the Bakken HCPs operationalise.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (review, aligned with prior evidence)
+        - *Sample:* N/A (review)
+        - *Replication:* Concordant with biomedical literature
+        - *Score:* 0.50 (raw; population 1.00 → discounted 0.50)
+
+=== Devendorf et al.\ 2019 — Defining and Measuring Recovery: The Physician Perspective
+
+    *Full Citation:*: Devendorf AR, Jackson CT, Sunnquist M, Jason LA. Defining and measuring recovery from myalgic encephalomyelitis and chronic fatigue syndrome: the physician perspective. _Disability and Rehabilitation_. 2019;41(2):158–165. @Devendorf2019RecoveryPhysician
+    *DOI:*: #link("https://doi.org/10.1080/09638288.2017.1383518")[10.1080/09638288.2017.1383518]
+    *PMID:*: 28982247
+    *Article Type:*: Qualitative (semi-structured interviews; deductive thematic analysis)
+    *Key Findings:*:
+        - n=10 ME/CFS-expert physicians conceptualised recovery as complete symptom remission and return to premorbid functioning (age-adjusted), distinct from "significant improvement" (substantial symptom reduction with functional gains but ongoing coping/treatment).
+        - Offered recommendations for measuring daily functioning, symptomatology, quality of life, and physical functioning.
+    *Conclusion:*: Recovery should be operationalised multidimensionally; without a consensus definition, treatment-outcome interpretation remains contested.
+    *Limitations:*: Small sample (n=10); physician-only perspective; definitional question, not outcome data.
+    *ME/CFS Relevance:*: F3/F4 anchor — shows that even among sympathetic physicians, "recovery" is narrowly defined (full remission), which tensions with the BPS "recovery conceivable" framing and with the 23% figure in @Knoop2007FullRecoveryCBT.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (qualitative)
+        - *Sample:* n=10
+        - *Replication:* Single study
+        - *Score:* 0.40 (raw; population 1.00 → discounted 0.40)
+
+=== Cross 2026 — Transforming Biomedical Uncertainty: Sociohistorical Origins of ME/CFS
+
+    *Full Citation:*: Cross S. Transforming biomedical uncertainty: the sociohistorical origins of myalgic encephalomyelitis (ME) and chronic fatigue syndrome (CFS). _Medical Humanities_. 2026. @Cross2026BiomedicalUncertainty
+    *DOI:*: #link("https://doi.org/10.1136/medhum-2025-013657")[10.1136/medhum-2025-013657]
+    *PMID:*: 42601195
+    *Article Type:*: Critical literature/historical analysis (medical texts 1950–1990)
+    *Key Findings:*:
+        - Traces how ME (UK) and CFS (US) emerged as distinct medical/scientific objects through the regulation of biomedical uncertainty, which systematically obscured certain aspects of illness.
+        - Argues these transformations underpin the epistemic injustices patients experience and cautions that biomedicine itself can generate ignorance about complex conditions.
+    *Conclusion:*: The contested, uncertain status of ME/CFS is historically produced, not incidental; this shapes what can be known and is a root of patient epistemic injustice.
+    *Limitations:*: Historical/archival method, not empirical cohort; single-author interpretation; English-language sources.
+    *ME/CFS Relevance:*: F3 anchor — explains the sociohistorical substrate of the "contested field" within which the Bakken HCPs must maintain trust.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (scholarly history)
+        - *Sample:* N/A (archival)
+        - *Replication:* Independent of cohort replication
+        - *Score:* 0.40 (raw; population 0.75 → discounted 0.30)
+
+=== Heins et al.\ 2013 — Therapeutic Relationship in CBT for CFS
+
+    *Full Citation:*: Heins MJ, Knoop H, Bleijenberg G. The role of the therapeutic relationship in cognitive behaviour therapy for chronic fatigue syndrome. _Behaviour Research and Therapy_. 2013;51(7):368–376. @Heins2013TherapeuticRelationship
+    *DOI:*: #link("https://doi.org/10.1016/j.brat.2013.02.001")[10.1016/j.brat.2013.02.001]
+    *PMID:*: 23639303
+    *Article Type:*: Prospective cohort (secondary analysis of CBT trial participants)
+    *Key Findings:*:
+        - Baseline outcome expectations and agreement about therapy content predicted post-treatment fatigue in n=217 CFS patients.
+        - 25% of post-treatment fatigue variance was jointly explained by outcome expectations, working alliance, and changes in fatigue-perpetuating factors.
+        - Positive expectations and task agreement appeared to facilitate change in fatigue-perpetuating factors.
+    *Conclusion:*: A positive therapeutic relationship early in CBT facilitates the cognitive/behavioural changes that reduce fatigue.
+    *Limitations:*: Correlational within-treatment cohort; cannot prove the alliance causes improvement independent of therapy content; single centre.
+    *ME/CFS Relevance:*: F4 anchor — the only CFS-specific quantitative evidence that the alliance/trust mechanism (the core of Bakken's theme 4) predicts outcome.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (cohort)
+        - *Sample:* n=217
+        - *Replication:* Single study
+        - *Score:* 0.55 (raw; population 1.00 → discounted 0.55)
+
+=== Bordin 1979 — The Working Alliance (Foundational)
+
+    *Full Citation:*: Bordin ES. The generalizability of the psychoanalytic concept of the working alliance. _Psychotherapy: Theory, Research and Practice_. 1979;16(3):252–260. @Bordin1979WorkingAlliance
+    *DOI:*: #link("https://doi.org/10.1037/h0085885")[10.1037/h0085885]
+    *Article Type:*: Theoretical/conceptual (classic)
+    *Key Findings:*:
+        - Defines the working alliance as agreement on treatment goals and tasks plus a personal bond.
+        - Generalises the alliance concept beyond psychoanalysis to all change-oriented relationships.
+    *Conclusion:*: The alliance is a pan-theoretical construct central to therapeutic change.
+    *Limitations:*: Conceptual, no empirical data; predates modern measurement.
+    *ME/CFS Relevance:*: F4 foundational citation — the definition Bakken invokes for the therapeutic relationship.
+    *Certainty Assessment:*:
+        - *Quality:* Foundational concept
+        - *Sample:* N/A
+        - *Replication:* Universally adopted
+        - *Score:* 0.35 (raw; population 0.75 → discounted 0.26)
+
+=== Fonagy & Allison 2014 — Mentalizing and Epistemic Trust
+
+    *Full Citation:*: Fonagy P, Allison E. The role of mentalizing and epistemic trust in the therapeutic relationship. _Psychotherapy_. 2014;51(3):372–380. @Fonagy2014EpistemicTrust
+    *DOI:*: #link("https://doi.org/10.1037/a0036505")[10.1037/a0036505]
+    *PMID:*: 24773092
+    *Article Type:*: Theoretical
+    *Key Findings:*:
+        - Proposes epistemic trust — the extent to which communicated knowledge is experienced as credible, personally relevant, and applicable — as a central component of effective therapy.
+        - Links epistemic trust to mentalizing and the therapeutic relationship.
+    *Conclusion:*: Epistemic trust is a core mechanism through which patients take up and apply new knowledge.
+    *Limitations:*: Theoretical; no ME/CFS data; concept's measurement still evolving (see @Fisher2025EpistemicTrustPanoramic).
+    *ME/CFS Relevance:*: F4 foundational citation — the concept Bakken uses to interpret how embodied improvement makes the HCP's "map" credible.
+    *Certainty Assessment:*:
+        - *Quality:* Foundational concept
+        - *Sample:* N/A
+        - *Replication:* Broad uptake
+        - *Score:* 0.35 (raw; population 0.75 → discounted 0.26)
+
+=== Flückiger et al.\ 2018 — Alliance in Adult Psychotherapy: Meta-Analytic Synthesis
+
+    *Full Citation:*: Flückiger C, Del Re AC, Wampold BE, Horvath AO. The alliance in adult psychotherapy: a meta-analytic synthesis. _Psychotherapy_. 2018;55(4):316–340. @Fluckiger2018AllianceMeta
+    *DOI:*: #link("https://doi.org/10.1037/pst0000172")[10.1037/pst0000172]
+    *PMID:*: 29792475
+    *Article Type:*: Meta-analysis
+    *Key Findings:*:
+        - 295 independent studies, >30,000 patients (1978–2017).
+        - Alliance robustly associated with outcome (r ≈ .28) across orientations and conditions.
+    *Conclusion:*: The therapeutic alliance is a reliable, moderate predictor of psychotherapy outcome.
+    *Limitations:*: General psychotherapy population (not ME/CFS); correlational (alliance may partly reflect early improvement).
+    *ME/CFS Relevance:*: F4 anchor — the large-N evidence base for the alliance mechanism, extrapolated (population-discounted) to CFS where direct evidence is limited to @Heins2013TherapeuticRelationship.
+    *Certainty Assessment:*:
+        - *Quality:* High (meta-analysis)
+        - *Sample:* >30,000 patients
+        - *Replication:* Meta-analytic
+        - *Score:* 0.70 (raw; population 0.75 → discounted 0.53)
+
+=== Fisher et al.\ 2025 — A Panoramic View of Epistemic Trust in Psychotherapy
+
+    *Full Citation:*: Fisher S, Fonagy P, Zilcha-Mano S. More than meets the "I": a panoramic view of epistemic trust in psychotherapy. _Psychopathology_. 2025;58(2):80–93. @Fisher2025EpistemicTrustPanoramic
+    *DOI:*: #link("https://doi.org/10.1159/000541667")[10.1159/000541667]
+    *PMID:*: 39467536
+    *Article Type:*: Narrative review
+    *Key Findings:*:
+        - Reviews whether epistemic trust is an inherent patient characteristic or a catalyst for therapeutic change.
+        - Notes comprehensive empirical support is still lacking despite clinical significance.
+    *Conclusion:*: Epistemic trust is a promising but under-validated construct in psychotherapy.
+    *Limitations:*: Narrative; limited empirical base; general psychotherapy, not ME/CFS.
+    *ME/CFS Relevance:*: F4 current-synthesis anchor — the epistemic-trust framework Bakken cites, with the caveat that its empirical support is still limited.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (review)
+        - *Sample:* N/A (review)
+        - *Replication:* N/A
+        - *Score:* 0.40 (raw; population 0.75 → discounted 0.30)

@@ -6840,3 +6840,18 @@ This registry collects all hypotheses, speculations, open questions, and predict
   treatment: [Low-risk self-management option with contested efficacy; frame as symptom support, not validated autonomic retraining.],
   limitation: [Mixed/null trial evidence; severity not stratified. (ch32, 2026-10-10 cycle.)],
 )
+
+= Entries added 2026-10-11: Recovery Conceivable (bakken2026-recovery-conceivable)
+
+#registry-entry(
+  [What "Recovery" Means: Three Incommensurate Referents],
+  type: "OQ",
+  certainty: "n/a",
+  evidence: [Physicians define recovery as full remission to premorbid functioning @Devendorf2019RecoveryPhysician; in a CBT cohort full recovery is reached by roughly one in four patients while over two in three exit diagnostic criteria — two different outcomes in the same study @Knoop2007FullRecoveryCBT; about 44% self-rate as "better" after CBT @Ingman2022RecoveryRCTReview; the "recovery conceivable" framing adds a fourth referent — a shift in illness understanding plus felt improvement and hope @Bakken2026RecoveryConceivable.],
+  citations: [@Devendorf2019RecoveryPhysician @Knoop2007FullRecoveryCBT @Ingman2022RecoveryRCTReview @Bakken2026RecoveryConceivable],
+  mechanism: [The recovery-efficacy dispute is partly a definitional contest: the same study is read as showing recovery is a minority outcome (full remission), a common outcome (self-rated improvement), or a matter of orientation (conceivability). No single measure serves all three referents.],
+  chapter-ref: [ch42 psychogenic-vs-biomedical-mode: @oq:recovery-definitional-drift],
+  prediction: [A consensus (Delphi/mixed-methods) recovery taxonomy would expose whether patients, clinicians, and researchers converge or diverge on a single referent; the definitional-drift account is falsified if they converge on one operational measure.],
+  treatment: [None directly; clarifies what any "recovery" claim in treatment research actually measures.],
+  limitation: [Conceptual/synthesis point, not new empirical data; the referent counts are illustrative, not an exhaustive taxonomy. (ch42, 2026-10-11 cycle.)],
+)

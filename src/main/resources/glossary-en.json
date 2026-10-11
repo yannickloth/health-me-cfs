@@ -12596,5 +12596,15 @@
     "label": "myofiber",
     "category": "anatomy",
     "definition": "A single skeletal muscle cell (muscle fibre). Myofiber damage/necrosis is the histological signature of exercise- or stimulation-induced muscle injury."
+  },
+  "BPS": {
+    "label": "BPS",
+    "category": "concept",
+    "definition": "Biopsychosocial model: an explanatory framework proposing that symptoms arise from interacting biological, psychological, and social processes. In ME/CFS it is contested because, in the absence of an identifiable biological substrate, it can be used to justify psychological attribution that is protected from empirical challenge."
+  },
+  "HCP": {
+    "label": "HCP",
+    "category": "concept",
+    "definition": "Healthcare Professional: a clinician (physician, psychologist, physiotherapist, nurse, or similar) involved in the assessment and management of patients."
   }
 }
