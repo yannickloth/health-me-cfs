@@ -32,6 +32,54 @@
           config.allowUnfree = true;
         };
 
+        # graphrag (microsoft/graphrag 2.7.0) provides the `graphrag` CLI that
+        # the graphrag opencode plugin drives to index and query the workspace
+        # (semantic access to the ME/CFS corpus, including the DecodeME
+        # material). Not on PATH by default. Overlay mirrors
+        # llm-harness-plugins/flake.nix: test suites of transitive deps fail at
+        # this nixpkgs rev (pot: scipy removed distance metrics; hyppo: flaky
+        # hardcoded statistical tests; graspologic: same risk class), and
+        # graphrag itself needs a one-line NumPy 2.0 compat patch (np.float_
+        # removed; imported at CLI startup). Remove once the pinned nixpkgs
+        # carries fixed derivations.
+        graphragPkgs = (nixpkgs.legacyPackages.${system}).extend (
+          final: prev: {
+            python312 = prev.python312.override (old: {
+              packageOverrides =
+                self: super:
+                let
+                  base = (old.packageOverrides or (s: p: { })) self super;
+                  unchecked = builtins.listToAttrs (
+                    map
+                      (name: {
+                        inherit name;
+                        value = super.${name}.overridePythonAttrs (_: {
+                          doCheck = false;
+                        });
+                      })
+                      [
+                        "pot"
+                        "hyppo"
+                        "graspologic"
+                      ]
+                  );
+                in
+                base
+                // unchecked
+                // {
+                  graphrag = super.graphrag.overridePythonAttrs (_: {
+                    doCheck = false;
+                    postPatch = ''
+                      sed -i 's/np\.float_/np.float64/g' graphrag/prompt_tune/loader/input.py
+                    '';
+                  });
+                };
+            });
+          }
+        );
+
+        graphrag = graphragPkgs.python312Packages.graphrag;
+
         # HTML-capable Quarto (1.8.26) from the pinned good nixpkgs rev. Used
         # instead of pkgs.quarto (1.10.18, broken HTML) in every derivation
         # that renders the web site. Self-contained; independent of nodejs/etc.
@@ -520,6 +568,7 @@
             zvec-grep
             biomcp
             pubmed-mcp-server
+            graphrag
           ];
           shellHook = ''
             export TYPST_PACKAGE_CACHE_PATH="${typst-package-cache}"
