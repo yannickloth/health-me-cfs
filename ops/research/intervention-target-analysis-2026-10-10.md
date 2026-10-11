@@ -323,8 +323,97 @@ It is the single highest-leverage node (5/5 symptoms) with the strongest evidenc
 
 ---
 
+## 8. Cross-references and deep-dives
+
+### 8.1 ch55 (64-variable) parameter ↔ YAML-node crosswalk
+
+The two model layers do **not** share a vocabulary. Only two axes are common.
+
+| ch55 parameter / mechanism | closest YAML node | relation | note |
+|----------------------------|-------------------|----------|------|
+| $\alpha_{CI}$ (Complex I) | ATP | same metabolic axis (ODE param vs DAG node) | ch55 rank #1 ($S_T$=0.22); DAG ATP certainty 0.35 |
+| $k_{BH4syn}$ (BH4 synthesis) | BH4 | direct | ch55 rank #7 ($S_T$=0.05); DAG BH4 0.28 |
+| $C_{pro}$ (cytokine aggregate) | E3 (immune activation) | direct | ch55 sec-09 driver; EPC prob 0.87 |
+| $k_{exh}$ (immune exhaustion) | E3 / viral reactivation | related | ch55 rank #3 ($S_T$=0.12) |
+| $K_{MC}$ (mast cell threshold) | E3 / mast cell loop | related | ch55 rank #5 ($S_T$=0.08) |
+| $P_0$ (BBB permeability) | — no YAML node | **gap** | ch55 rank #2 ($S_T$=0.14) |
+| $n_F$ (HPA feedback sensitivity) | — no YAML node | **gap** | ch55 rank #4; CRH prose-only |
+| $\beta_{epoxy}$ (microclot rate) | — no YAML node | **gap** | ch55 rank #6 |
+| $\mathcal{G}_{set}$ (gut motility setpoint) | — no YAML node | **gap** | ch55 rank #8 |
+| $G_{baro}$ (baroreflex gain) | — (DAG excludes NE→autonomic) | **gap** | ch55 sec-09 driver |
+| $V_{blood}$ (blood volume) | — no YAML node | **gap** | ch55 sec-08 |
+| $M$ (epigenetic state) | — no YAML node | **gap** | ch55 sec-09 severe/locked |
+| **NE_deficit** | NE_deficit | **no ch55 parameter** | **critical gap: highest-leverage DAG node (rank 1, §3a) is absent from the 64-variable ranking** |
+| Cu, NET, AAB, LC | NE_deficit only | not modelled in ch55 | the whole NE-deficit upstream axis is invisible to ch55 |
+
+**Finding:** the NE-deficit axis (7 of 13 DAG nodes, including the top-leverage node) is orthogonal to the ch55 model. Only $\alpha_{CI}$↔ATP and $k_{BH4syn}$↔BH4 bridge the two. A unified ranking cannot be built without adding a NE variable to the 64-variable system.
+
+### 8.2 Deep-dive: why the DAG excludes orthostatic intolerance
+
+- `ne-deficit-axis.yaml` `excluded_edges`: NE_deficit→autonomic_cardiovascular, reason *"no correlation with orthostatic hypotension or tachycardia (Aregawi2026)"*.
+- Aregawi2026 (source: `ops/research/noradrenergic-deficiency-literature-summary-2026-06-07.md`, paper 1): "No correlation with orthostatic hypotension or tachycardia → dissociation from peripheral autonomic."
+- The literature summary's Hypothesis 6 (central–peripheral NE mismatch) adds direction: Winkler2016 shows *elevated* plasma NE at rest, Sulheim2014 shows sympathetic overactivity, Wyller2016 shows SAM-system enhancement. So the DAG models a **selective central** deficit whose peripheral sympathetic tone is normal-or-high.
+- **Consequence:** orthostatic intolerance — a cardinal ME/CFS symptom (ch18, ch19) — cannot be attached to the NE axis under current evidence and must be driven by an un-modelled node (baroreflex $G_{baro}$ or blood volume $V_{blood}$, ch55 sec-08/09). This is the single largest structural gap between the formal DAG and the clinical symptom list.
+
+### 8.3 Deep-dive: upstream-driver trace against the noradrenergic literature summary
+
+Source: `ops/research/noradrenergic-deficiency-literature-summary-2026-06-07.md` (13 papers, 92 PMIDs screened).
+
+| DAG driver | mechanism per `ne-deficit-axis.yaml` | literature-summary status | gap |
+|------------|--------------------------------------|---------------------------|-----|
+| ATP (vesicular DBH) | Rangaraju2014 in vitro | Hypothesis 5 "ATP-dependent vesicular NE deficiency" **supported** by the selective NE↓/DA-normal pattern; MECHANISTIC only | no direct VMAT2/pH data in ME/CFS |
+| Cu (copper-dependent DBH) | Lutsenko2019; Senard2006 | **not covered** by the summary | no ME/CFS copper/ceruloplasmin measurement |
+| BH4 (TH cofactor) | Rivera2017 animal | **not covered** | no ME/CFS upstream BH4/neopterin measurement |
+| NET (SLC6A2 variant) | Hahn2003 in vitro | no ME/CFS NET-variant study; Mwesigwa2024 tested atomoxetine in nOH, not ME/CFS | no genotype-stratified ME/CFS response |
+| AAB (adrenergic-receptor) | Hartwig2020; null Hall2022 POTS | Hendrix2025 confirms adrenergic dysfunction but not AAB-specific | AAB and central NE never measured jointly |
+| LC (coeruleus neuroinflammation) | Ahmad2026 MS analogue | summary Gap: "No direct LC imaging in ME/CFS" | no LC imaging |
+
+**Corroborated gaps (summary, Gap Analysis):** "No atomoxetine/reboxetine trial in ME/CFS specifically" (High); "No yohimbine/idazoxan trial" (High); "No independent replication of CSF NE deficiency — Aregawi/Walitt/Goldstein all same NIH center" (Critical); "No simultaneous CSF + plasma NE" (Medium); "No longitudinal CSF NE data (trait vs state)" (Medium). These directly reinforce List B entries 1 and 3 and the §6 low-confidence flag.
+
+### 8.4 Per-patient List B contraindication matrix
+
+Legend: **R** = case evidence the target pathway is active; **C** = documented contraindication / decisive risk; **?** = case file not assessable; **–** = no data.
+
+| patient | NE_deficit | AAB | NET | fatigue | cognition | E5b (chronic) | TRPM3 | safe-mode | epigenetic | ferroptosis |
+|---------|-----------|-----|-----|---------|-----------|---------------|-------|-----------|------------|-------------|
+| yannick | R | – | – | R | R | R | – | R | R | – |
+| ursula | R | – | – | R | R | R | – | – | R | – |
+| amy-cordy | R | – | – | R | ? | R | – | R | – | – |
+| marie | R | R | – | R | – | – | – | R | – | R |
+| aeiuno | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? |
+| sven | ? | ? | – | – | R | – | – | – | – | – |
+
+**Decisive contraindications / cautions (source: patient case files):**
+- **ursula** — paradoxical reactor (start 1/4–1/10 dose); LDN caused a psychiatric adverse reaction → **C on any LDN-based entry (List A #5, List B #1 upstream)**; Mestinon 60 mg intolerable.
+- **amy-cordy** — Mestinon intolerant; prior prokinetics caused problems → C on cholinergic/prokinetic options.
+- **marie** — hypothyroidism and iron deficiency are live differentials → **must be excluded before attributing the phenotype to ME/CFS mechanisms**.
+- **aeiuno, sven** — no ME/CFS staging in the case files → all cells "?" (no inference, per rule 6).
+- **yannick** — lifelong stimulant (methylphenidate/modafinil) → strong NE-axis evidence but PEM-masking risk on any NE-restoring intervention.
+
+---
+
+## 9. EPC leverage mapped onto named symptoms (alternate terminal set)
+
+Script: `/tmp/it_epc_map.py`. Method: map each EPC event to the symptom domains it directly generates (from the event's detection criteria and mechanism text in `pem-cascade.yaml`), then take the union over all downstream events. Symptom map: E2→{PEM, fatigue}; E3→{fatigue, pain, sleep}; E4→{PEM, fatigue, pain, cognition, sleep}; E5b→{PEM, fatigue}; E5a→{}.
+
+| rank | event | n symptoms | symptoms reached |
+|------|-------|-----------|------------------|
+| 1 | E1 | 5 | PEM, cognition, fatigue, pain, sleep |
+| 1 | E2 | 5 | PEM, cognition, fatigue, pain, sleep |
+| 1 | E3 | 5 | PEM, cognition, fatigue, pain, sleep |
+| 1 | E4 | 5 | PEM, cognition, fatigue, pain, sleep |
+| 5 | E5b | 2 | PEM, fatigue |
+| 6 | E5a | 0 | — |
+
+**Alternate terminal set.** Demoting orthostatic intolerance (unreachable in every model) and rerunning the DAG changes nothing: upstream nodes still reach exactly 5 symptoms; NE_deficit remains tied-highest. No node gains OI by inclusion, because no edge to it exists (§8.2).
+
+**Interpretation.** Under this mapping the EPC's early events (E1–E4) are all maximally leveraged — the trigger, the metabolic shift, the immune activation, and the symptom peak each reach every symptom domain. This reproduces, from the EPC side, the same conclusion as the DAG (§3a): the leverage is concentrated at the **upstream/central** events, and the terminal ones (E5a/E5b) carry little. It also shows the EPC and the DAG agree that the highest-yield intervention points are preventive (E1/E2) and immune-centred (E3), not the end-state (E5b).
+
+---
+
 ### Provenance of analysis
 
-- Parser: `/tmp/it_analysis.py` (PyYAML 6.0.3). Output reproduced verbatim in §3.
+- Parsers (scratch, `/tmp/` only): `/tmp/it_analysis.py` (PyYAML 6.0.3) — DAG + EPC inventory and DAG leverage, output in §3; `/tmp/it_epc_map.py` — EPC→named-symptom mapping, output in §9.
 - Models parsed: `models/dag/ne-deficit-axis/ne-deficit-axis.yaml` (13 nodes, 12 edges), `models/epc/pem-cascade/pem-cascade.yaml` (6 events, 5 activities).
+- External cross-reference: `ops/research/noradrenergic-deficiency-literature-summary-2026-06-07.md`.
 - Read-only on `src/`, `models/`, `patients/`, `contents/`. One new file created: this report.
