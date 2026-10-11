@@ -16,6 +16,6 @@
 
 *Falsifiable prediction:* A dose-escalation pilot (n=6--10 moderate-to-severe ME/CFS) starting at 5 min NMES single quadriceps will identify a dose-response curve establishing either a therapeutic window or a universal PEM contraindication.
 
-*Limitations:* Dirks 2015 n=6, 7 days, fully sedated — not generalizable to chronic ME/CFS. If ME/CFS muscle is intrinsically impaired via mitochondrial dysfunction independent of CNS status, NMES provides no advantage. ICU NMES evidence uses doses (twice daily, 30 min, visible contraction) that are likely excessive for any ME/CFS patient.
+*Limitations:* Dirks 2015 n=6, 7 days, fully sedated — not generalizable to chronic ME/CFS. If ME/CFS muscle is intrinsically impaired via mitochondrial dysfunction independent of CNS status, NMES provides no advantage. This peripheral-impairment branch is now directly evidenced: electrical pulse stimulation fails to activate AMPK and glucose uptake in ME/CFS muscle @Brown2015EPSAMPK, and direct muscle stimulation reveals a peripheral membrane defect (reduced M-wave amplitude, lengthened duration, tracking sarcolemmal oxidative stress) @Jammes2019neuromuscularCFS @Vecchiet2003oxidativeElectrical. ICU NMES evidence uses doses (twice daily, 30 min, visible contraction) that are likely excessive for any ME/CFS patient.
 
 ] <rec:nmes-severe>

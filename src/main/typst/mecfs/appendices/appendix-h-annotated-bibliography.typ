@@ -43088,3 +43088,228 @@ This stream assembles evidence for the claim that pathological fatigue across au
         - *Sample:* planned n = 208
         - *Replication:* n/a
         - *Score:* 0.35 (raw; population 1.00 → discounted 0.35)
+
+// =============================================================================
+
+== Muscle Electro-Stimulation and Fatigue (muscle-electrostimulation-fatigue)
+<sec:bib-muscle-electrostimulation-fatigue>
+// =============================================================================
+
+=== von Deneen et al.\ 2024 — Rhabdomyolysis From a Single EMS Session (FM + CFS)
+
+    *Full Citation:*: von Deneen KM, Alemayehu DG, Khosla A. Acute Compartment Syndrome and Rhabdomyolysis Caused by a Single Electrical Muscle Stimulation in a 46-Year-Old Female Professional Athlete With Fibromyalgia, Chronic Fatigue Syndrome, and Myofascial Disorder: A Case Report. _Clinical Journal of Sport Medicine_. 2024;34(5):506–508. @vonDeneen2024EMSrhabdo
+    *DOI:*: #link("https://doi.org/10.1097/JSM.0000000000001216")[10.1097/JSM.0000000000001216]
+    *PMID:*: 38456638
+    *Article Type:*: Case report
+    *Key Findings:*:
+        - Single EMS training session in a 46-year-old professional athlete with fibromyalgia, CFS, and myofascial disorder caused rhabdomyolysis and gluteal compartment syndrome
+        - Managed with intensive IV fluids, sodium bicarbonate, electrolyte/renal monitoring
+        - Authors conclude EMS poses increased risk of severe complications in chronic disease and myopathy; recommend against high-frequency EMS for first-time users
+    *Conclusion:*: EMS can cause severe muscle injury (rhabdomyolysis) in chronic-disease patients — direct evidence against "EMS is always safe."
+    *Limitations:*: Single case (n = 1); athlete with triple comorbidity; cannot estimate population risk.
+    *ME/CFS Relevance:*: F4 harm — the only published direct EMS-in-CFS adverse-event report; grounds the contraindication warning.
+    *Certainty Assessment:*:
+        - *Quality:* Low (case report)
+        - *Sample:* n = 1
+        - *Replication:* Single case
+        - *Score:* 0.35 (raw; population 0.80 → discounted 0.28)
+
+=== Brown et al.\ 2015 — Electrical Pulse Stimulation in CFS Muscle Cells
+
+    *Full Citation:*: Brown AE, Jones DE, Walker M, Newton JL. Abnormalities of AMPK activation and glucose uptake in cultured skeletal muscle cells from individuals with chronic fatigue syndrome. _PLoS One_. 2015;10(4):e0122982. @Brown2015EPSAMPK
+    *DOI:*: #link("https://doi.org/10.1371/journal.pone.0122982")[10.1371/journal.pone.0122982]
+    *PMID:*: 25836975
+    *Article Type:*: In vitro (primary cell culture)
+    *Key Findings:*:
+        - Electrical pulse stimulation (EPS) for 16 h raised AMPK phosphorylation and glucose uptake in control muscle cells but NOT in CFS cells
+        - CFS cells showed increased myogenin expression and diminished IL-6 secretion at baseline and after EPS
+        - Glucose uptake remained insulin-responsive — a contraction-specific, not global, metabolic defect
+    *Conclusion:*: Electrically-driven contraction fails to trigger normal AMPK/glucose response in ME/CFS muscle — the exercise-metabolic response is impaired at the cell level.
+    *Limitations:*: In vitro (n = 10 CFS, 7 controls); cell culture may not reflect in vivo contraction.
+    *ME/CFS Relevance:*: F2 mechanism — electrical contraction (exercise mimetic) reproduces the ME/CFS bioenergetic defect; foundational for the contraction-metabolism trigger hypothesis.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (in vitro, well-controlled)
+        - *Sample:* n = 10 CFS vs 7 controls
+        - *Replication:* Replicated in Brown 2018 follow-up
+        - *Score:* 0.40 (raw; in vitro 0.40 → discounted 0.16)
+
+=== Gibson et al.\ 1993 — Exercise Fatiguability in CFS
+
+    *Full Citation:*: Gibson H, Carroll N, Clague JE, Edwards RH. Exercise performance and fatiguability in patients with chronic fatigue syndrome. _Journal of Neurology, Neurosurgery, and Psychiatry_. 1993;56(9):993–998. @Gibson1993CFSmuscle
+    *DOI:*: #link("https://doi.org/10.1136/jnnp.56.9.993")[10.1136/jnnp.56.9.993]
+    *PMID:*: 8410041
+    *Article Type:*: Prospective case-control
+    *Key Findings:*:
+        - Quadriceps contractile properties (MVC, 20:50 Hz tetanic force ratio, relaxation rate) assessed by percutaneous electrical stimulation were normal before and up to 48 h after exercise in 12 CFS patients
+        - Exercise duration and heart-rate/work-rate relationship matched controls
+        - CFS patients had raised perceived exertion at matched heart rate (Borg +3.2 units)
+    *Conclusion:*: Peripheral muscle function (including electrically-stimulated force) is normal in CFS; central/effort factors limit exercise.
+    *Limitations:*: Small n (12 + 12); 1993 study predates modern PEM criteria.
+    *ME/CFS Relevance:*: F3 null — electrically-driven contraction produces no abnormal peripheral muscle response, arguing against contraction metabolism as the fatigue trigger.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (top journal, small n)
+        - *Sample:* n = 12 CFS + 12 controls
+        - *Replication:* Consistent with Edwards 1993
+        - *Score:* 0.55 (raw; population 1.00 → discounted 0.55)
+
+=== Edwards et al.\ 1993 — Muscle Histopathology and Physiology in CFS
+
+    *Full Citation:*: Edwards RH, Gibson H, Clague JE, Helliwell T. Muscle histopathology and physiology in chronic fatigue syndrome. _Ciba Foundation Symposium_. 1993;173:102–117. @Edwards1993muscleHistopathology
+    *DOI:*: #link("https://doi.org/10.1002/9780470514382.ch7")[10.1002/9780470514382.ch7]
+    *PMID:*: 8491096
+    *Article Type:*: Prospective cohort (biopsy + physiology)
+    *Key Findings:*:
+        - 108 CFS/muscle-pain patients + 22 controls: no consistent correlation between symptoms and fibre-type, fibre-size, degeneration/regeneration, glycogen depletion, or mitochondrial changes
+        - Voluntary and electrically-stimulated force normal at rest and during recovery in 12 CFS patients
+    *Conclusion:*: On physiological and pathological grounds CFS is not a myopathy.
+    *Limitations:*: Physiology subset small (12 + 12); histopathology semi-quantitative.
+    *ME/CFS Relevance:*: F3 null — the largest early study finding no muscle-contraction abnormality in CFS.
+    *Certainty Assessment:*:
+        - *Quality:* Medium
+        - *Sample:* n = 108 (histopathology) / 12 (physiology)
+        - *Replication:* Consistent with Gibson 1993
+        - *Score:* 0.55 (raw; population 1.00 → discounted 0.55)
+
+=== Jamal & Miller 1991 — Neurophysiology of Postviral Fatigue
+
+    *Full Citation:*: Jamal GA, Miller RG. Neurophysiology of postviral fatigue syndrome. _British Medical Bulletin_. 1991;47(4):815–825. @Jamal1991postviralNeurophysiology
+    *DOI:*: #link("https://doi.org/10.1093/oxfordjournals.bmb.a072513")[10.1093/oxfordjournals.bmb.a072513]
+    *PMID:*: 1794086
+    *Article Type:*: Narrative review
+    *Key Findings:*:
+        - Impaired muscular activation with added force in response to superimposed electrical stimulation suggests an extra-muscular/central component of fatigue
+        - Increased jitter on single-fibre EMG is the one peripheral abnormality (non-specific)
+        - Strength/endurance studies and excitation-contraction coupling showed no consistent abnormality
+    *Conclusion:*: Fatigue in postviral fatigue syndrome is predominantly central; electrical stimulation fails to reveal consistent peripheral muscle dysfunction.
+    *Limitations:*: 1991 review; heterogeneous "postviral fatigue" definition.
+    *ME/CFS Relevance:*: F3/F4 central — superimposed electrical stimulation exposes central-activation deficit rather than muscle failure.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (review)
+        - *Sample:* n/a (synthesis)
+        - *Replication:* Consistent with 1990s cohort studies
+        - *Score:* 0.45 (raw; population 1.00 → discounted 0.45)
+
+=== Jammes & Retornaz 2019 — Neuromuscular Disorders in CFS
+
+    *Full Citation:*: Jammes Y, Retornaz F. Understanding neuromuscular disorders in chronic fatigue syndrome. _F1000Research_. 2019;8:F1000 Faculty Rev-2020. @Jammes2019neuromuscularCFS
+    *DOI:*: #link("https://doi.org/10.12688/f1000research.18660.1")[10.12688/f1000research.18660.1]
+    *PMID:*: 31814961
+    *Article Type:*: Narrative review
+    *Key Findings:*:
+        - Both central and peripheral fatigue demonstrated in ME/CFS by neurophysiological tools
+        - Peripheral fatigue = reduced amplitude + lengthened duration of myopotentials evoked by direct muscle stimulation (impaired membrane conduction)
+        - Lipid hydroperoxide formation in the sarcolemma and reduced heat-shock-protein formation explain oxidative-stress-driven membrane inexcitability
+    *Conclusion:*: ME/CFS muscle shows abnormal responses to direct electrical stimulation — a peripheral membrane/conduction defect driven by oxidative stress.
+    *Limitations:*: Review; open peer-review venue (F1000).
+    *ME/CFS Relevance:*: F2 mechanism — strongest evidence that ME/CFS muscle responds abnormally to electrically-driven contraction.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (synthesis of replicated findings)
+        - *Sample:* n/a (synthesis)
+        - *Replication:* Multiple underlying Jammes studies (2005–2021)
+        - *Score:* 0.50 (raw 0.55 capped at narrative-review tier 0.50; population 1.00 → discounted 0.50)
+
+=== Jacobsen et al.\ 1991 — Electrical Twitch Interpolation in Fibromyalgia
+
+    *Full Citation:*: Jacobsen S, Wildschiødtz G, Danneskiold-Samsøe B. Isokinetic and isometric muscle strength combined with transcutaneous electrical muscle stimulation in primary fibromyalgia syndrome. _The Journal of Rheumatology_. 1991;18(9):1390–1393. @Jacobsen1991fibromyalgiaTwitch
+    *PMID:*: 1757942
+    *Article Type:*: Prospective case-control
+    *Key Findings:*:
+        - Fibromyalgia (n = 20) strength 44–45% lower than controls (p = 0.0001)
+        - Superimposed electrically-elicited twitches present in 65% of patients vs 15% controls during maximal voluntary contraction (p = 0.003)
+    *Conclusion:*: Increased superimposed twitch indicates submaximal volitional force — central activation failure in fibromyalgia.
+    *Limitations:*: Small n; 1991 study; fibromyalgia (not ME/CFS).
+    *ME/CFS Relevance:*: F4 central — electrically-evoked twitch exposes impaired central motor drive in a chronic-fatigue condition.
+    *Certainty Assessment:*:
+        - *Quality:* Medium
+        - *Sample:* n = 20 + 20
+        - *Replication:* Single study
+        - *Score:* 0.50 (raw; population 0.80 → discounted 0.40)
+
+=== Burgess et al.\ 2021 — NMES for COVID-19 ICU Recovery
+
+    *Full Citation:*: Burgess LC, Venugopalan L, Badger J, et al. Effect of neuromuscular electrical stimulation on the recovery of people with COVID-19 admitted to the intensive care unit: A narrative review. _Journal of Rehabilitation Medicine_. 2021;53(3):jrm00164. @Burgess2021NMEScovidICU
+    *DOI:*: #link("https://doi.org/10.2340/16501977-2805")[10.2340/16501977-2805]
+    *PMID:*: 33634830
+    *Article Type:*: Narrative review
+    *Key Findings:*:
+        - NMES can prevent muscle atrophy, improve strength and function, maintain blood flow, and reduce oedema when voluntary contraction is difficult or impossible
+        - ICU-acquired weakness affects ~40% of ICU admissions; NMES usable during ventilator weaning and into post-acute/long-COVID phases
+    *Conclusion:*: NMES is a viable muscle-preservation modality for deconditioned patients who cannot exercise voluntarily.
+    *Limitations:*: Narrative review; COVID-19/ICU population; no ME/CFS-specific data.
+    *ME/CFS Relevance:*: F1 safe-substitute — transfers the bedbound muscle-preservation rationale to deconditioned ME/CFS patients.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (review)
+        - *Sample:* n/a (synthesis)
+        - *Replication:* n/a
+        - *Score:* 0.50 (raw; population 0.85 → discounted 0.43)
+
+=== Maffiuletti et al.\ 2019 — NMES Countermeasure for Spaceflight Atrophy
+
+    *Full Citation:*: Maffiuletti NA, Green DA, Vaz MA, Dirks ML. Neuromuscular Electrical Stimulation as a Potential Countermeasure for Skeletal Muscle Atrophy and Weakness During Human Spaceflight. _Frontiers in Physiology_. 2019;10:1031. @Maffiuletti2019NMESspaceflight
+    *DOI:*: #link("https://doi.org/10.3389/fphys.2019.01031")[10.3389/fphys.2019.01031]
+    *PMID:*: 31456697
+    *Article Type:*: Narrative/mini-review
+    *Key Findings:*:
+        - NMES evokes involuntary contractions that preserve/restore muscle mass and neuromuscular function during disuse, per terrestrial immobilization evidence
+        - Knee extensors and plantar flexors are most susceptible to deconditioning
+    *Conclusion:*: NMES is an evidence-based disuse-atrophy countermeasure requiring no large exercise equipment.
+    *Limitations:*: Spaceflight/disuse population; healthy-subject extrapolation.
+    *ME/CFS Relevance:*: F1 — underpins the physiological case for NMES as a bedbound deconditioning countermeasure.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (review)
+        - *Sample:* n/a (synthesis)
+        - *Replication:* n/a
+        - *Score:* 0.50 (raw; population 0.75 → discounted 0.38)
+
+=== Inns et al.\ 2021 — NMES vs PNS Fatigability
+
+    *Full Citation:*: Inns TB, McCormick D, Greig CA, Atherton PJ, Phillips BE, Piasecki M. Factors associated with electrical stimulation-induced performance fatigability are dependent upon stimulation location. _Experimental Physiology_. 2021;106(4):828–836. @Inns2021NMESPNSfatigability
+    *DOI:*: #link("https://doi.org/10.1113/EP089204")[10.1113/EP089204]
+    *PMID:*: 33638246
+    *Article Type:*: Experimental physiology study
+    *Key Findings:*:
+        - NMES induced progressive M-wave duration increase and delayed muscle relaxation during stimulation — superficial-fibre-only recruitment and performance fatigability
+        - Peripheral nerve stimulation (PNS) recruited a wider motor-unit pool with less fatigability
+    *Conclusion:*: Standard over-muscle NMES fatigues a superficial fibre subset; PNS is a favourable alternative for rehabilitation.
+    *Limitations:*: Healthy young volunteers; acute single-session design.
+    *ME/CFS Relevance:*: F4 — NMES may preferentially overload a shallow fibre pool, relevant to a disease with impaired recovery.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (experimental)
+        - *Sample:* small (healthy volunteers)
+        - *Replication:* Single study
+        - *Score:* 0.45 (raw; population 0.75 → discounted 0.34)
+
+=== Tajima et al.\ 2021 — Hybrid NMES Increases Oxygen Uptake
+
+    *Full Citation:*: Tajima H, Matsuse H, Hashida R, et al. Electrically stimulated eccentric contraction during non-weight bearing knee bending exercise in the supine position increases oxygen uptake: A randomized, controlled, exploratory crossover trial. _PLoS One_. 2021;16(11):e0259856. @Tajima2021hybridNMESoxygen
+    *DOI:*: #link("https://doi.org/10.1371/journal.pone.0259856")[10.1371/journal.pone.0259856]
+    *PMID:*: 34793521
+    *Article Type:*: Randomized crossover trial
+    *Key Findings:*:
+        - Hybrid NMES (synchronized with volitional knee bending) raised oxygen uptake by ~14% (7.29 → 8.29 ml/kg/min, p = 0.0115) and heart rate (80.8 → 86.4 bpm, p = 0.0153) vs unstimulated exercise
+    *Conclusion:*: Adding EMS to bed-exercise imposes measurable additional metabolic and cardiorespiratory load.
+    *Limitations:*: n = 10 healthy subjects; exploratory; single acute session.
+    *ME/CFS Relevance:*: F1/F2 bridge — EMS is a bed-rest countermeasure but is not metabolically "free"; it adds contractile demand that could contribute to PEM.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (RCT crossover)
+        - *Sample:* n = 10
+        - *Replication:* Single study
+        - *Score:* 0.45 (raw; population 0.75 → discounted 0.34)
+
+=== Vecchiet et al.\ 2003 — Electrical Pain Threshold and Oxidative Stress in CFS
+
+    *Full Citation:*: Vecchiet J, Cipollone F, Falasca K, et al. Relationship between musculoskeletal symptoms and blood markers of oxidative stress in patients with chronic fatigue syndrome. _Neuroscience Letters_. 2003;335(3):151–154. @Vecchiet2003oxidativeElectrical
+    *DOI:*: #link("https://doi.org/10.1016/s0304-3940(02)01058-3")[10.1016/s0304-3940(02)01058-3]
+    *PMID:*: 12531455
+    *Article Type:*: Case-control
+    *Key Findings:*:
+        - CFS (n = 21) vs controls: higher LDL-TBARS, lower vitamin E and lag phase (oxidative stress), and lower muscle pain threshold to electrical stimulation
+        - Fatigue correlated directly with TBARS and inversely with lag phase and vitamin E
+    *Conclusion:*: Muscle is more electrically sensitive in CFS, tracking oxidative stress and symptom severity.
+    *Limitations:*: Small n; electrical stimulation used as a pain-threshold probe, not a contraction intervention.
+    *ME/CFS Relevance:*: Indirect link — electrically-elicited muscle sensitivity is elevated in CFS and reflects oxidative stress.
+    *Certainty Assessment:*:
+        - *Quality:* Medium
+        - *Sample:* n = 21 CFS + 20 controls
+        - *Replication:* Single study
+        - *Score:* 0.50 (raw; population 1.00 → discounted 0.50)

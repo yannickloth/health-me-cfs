@@ -61,4 +61,6 @@ The evidence tables that motivate and constrain these proposed studies are conso
 #include "./thermoregulatory-research-prot/thermoregulatory-research-prot.typ"
 #include "./buspirone-challenge-replication/buspirone-challenge-replication.typ"
 
+#include "./hypotheses/sec-hypothesis-records.typ"
+
 #include "../hypothesis-registry.typ"

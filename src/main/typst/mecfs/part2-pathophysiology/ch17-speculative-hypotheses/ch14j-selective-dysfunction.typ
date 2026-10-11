@@ -393,6 +393,8 @@ The selective dysfunction hypothesis generates specific, falsifiable predictions
     - If confirmed: Peripheral muscle capable; CNS drive impaired
     - If refuted: Peripheral muscle intrinsically impaired
 
+*Current evidence state:* The 1990s studies found normal electrically-stimulated force in ME/CFS, favouring a central-only limitation @Gibson1993CFSmuscle @Edwards1993muscleHistopathology @Jamal1991postviralNeurophysiology. More recent direct-stimulation measures find a peripheral membrane defect (reduced M-wave amplitude, lengthened duration, tracking sarcolemmal oxidative stress) @Jammes2019neuromuscularCFS @Vecchiet2003oxidativeElectrical, and in-vitro electrical pulse stimulation fails to activate AMPK/glucose in ME/CFS muscle @Brown2015EPSAMPK. The field has therefore moved from a "central-only" to a "central plus peripheral" account — the ratio is likely intermediate, not cleanly $> 1$ or $approx 1$.
+
 ] <pred:direct-stim>
 
 #prediction(title: [Cognitive Triage Hierarchy])[

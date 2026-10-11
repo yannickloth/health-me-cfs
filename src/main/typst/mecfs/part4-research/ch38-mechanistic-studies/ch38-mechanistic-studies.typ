@@ -27,3 +27,4 @@ This chapter reviews the experimental and mechanistic studies that probe the bio
 #include "./priority-gpcr-autoantibody-res/priority-gpcr-autoantibody-res.typ"
 #include "./integrative-multi-omics-studie/integrative-multi-omics-studie.typ"
 
+#include "./open-questions/sec-open-questions.typ"
