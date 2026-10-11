@@ -33,3 +33,5 @@ Literal supporting fragments for quantitative claims. Format: `@Key | figure(s) 
 @Vanderthommen2015NMESrepeatedBout | CK falls to 218 IU/L second bout | "post-T2, VAS score = 2·68 ± 1·27 cm and CK activity = 218 ± 72 IU l(-1)" | Abstract
 @Fessard2025NMESnoDamage | 80 isometric contractions ~15% max tetanic | "80 isometric contractions delivered at ∼15% of maximal tetanic force to avoid muscle damage" | Abstract
 @Fessard2025NMESnoDamage | hypertrophy without overt damage | "NMES-induced myonuclear accretion and muscle hypertrophy are driven by a mild increase in mechanical loading in the absence of overt signs of muscle injury" | Abstract
+@Pfeifer2024ESmyofiberDamage | 200 ES eccentric contractions, n=28 | "subjects underwent 200 electrically stimulated eccentric muscle contractions" | Abstract
+@Pfeifer2024ESmyofiberDamage | myofiber necrosis + macrophage infiltration | "significant and consistent evidence of myofiber necrosis and regeneration pre- to post-ES" | Abstract

@@ -12586,5 +12586,15 @@
     "label": "rhabdomyolysis",
     "category": "condition",
     "definition": "Breakdown of skeletal muscle releasing contents into the bloodstream, which can damage the kidneys. A rare harm reported in electrical muscle stimulation."
+  },
+  "micro-tear": {
+    "label": "micro-tear",
+    "category": "condition",
+    "definition": "Microscopic damage to muscle fibres (sarcomere disruption) caused by unaccustomed or eccentric contraction, triggering the exercise-induced muscle-damage and inflammation cascade. Electrical stimulation can provoke the same micro-tears as exercise."
+  },
+  "myofiber": {
+    "label": "myofiber",
+    "category": "anatomy",
+    "definition": "A single skeletal muscle cell (muscle fibre). Myofiber damage/necrosis is the histological signature of exercise- or stimulation-induced muscle injury."
   }
 }

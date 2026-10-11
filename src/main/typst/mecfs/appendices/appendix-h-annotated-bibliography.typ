@@ -43313,3 +43313,41 @@ This stream assembles evidence for the claim that pathological fatigue across au
         - *Sample:* n = 21 CFS + 20 controls
         - *Replication:* Single study
         - *Score:* 0.50 (raw; population 1.00 → discounted 0.50)
+
+=== Nosaka2011 — Muscle Damage Induced by Electrical Stimulation
+    / *Full Citation:*: Nosaka, K., Aldayel, A., Jubeau, M., & Chen, T.C. (2011). Muscle damage induced by electrical stimulation. European Journal of Applied Physiology, 111(10), 2427–2437.
+    / *DOI:*: 10.1007/s00421-011-2086-x
+    / *Key Findings:*:
+        - Electrical stimulation induces muscle damage: histological fibre and connective-tissue alteration, circulating creatine kinase (CK) elevation, strength loss, and DOMS — from both eccentric and isometric ES contractions.
+        - ES-evoked isometric damage is comparable in magnitude to maximal voluntary eccentric contractions.
+        - Mechanism: non-selective, synchronous, spatially-fixed motor-unit recruitment → high mechanical stress on activated (type II) fibres.
+        - Repeated-bout effect: damage markedly reduced on a second bout 2–4 weeks later.
+    / *Conclusion:*: ES provokes the same micro-trauma pathway as unaccustomed exercise; damage is first-exposure-driven and preconditionable.
+    / *Limitations:*: General/athletic population; no ME/CFS.
+
+=== Vanderthommen2015 — Protection Against NMES-Induced Muscle Damage
+    / *Full Citation:*: Vanderthommen, M., Chamayou, R., Demoulin, C., Crielaard, J.-M., & Croisier, J.-L. (2015). Protection against muscle damage induced by electrical stimulation. Clinical Physiology and Functional Imaging, 35(4), 267–274.
+    / *DOI:*: 10.1111/cpf.12160
+    / *Key Findings:*:
+        - One NMES bout (100 quadriceps + 100 hamstrings contractions) raised serum CK to ~2307 IU/L and VAS soreness to ~4.2 cm in unaccustomed muscle.
+        - Damage markers fell markedly on the second bout 5 weeks later (CK 218 IU/L) — repeated-bout protective effect.
+    / *Conclusion:*: NMES causes measurable muscle damage on first exposure; a single prior bout confers protection.
+    / *Limitations:*: n=16 healthy men; no ME/CFS.
+
+=== Fessard2025 — NMES Hypertrophy Without Overt Muscle Damage
+    / *Full Citation:*: Fessard, A., Zavoriti, A., Boyer, N., et al. (2025). NMES training induces myonuclear accretion and hypertrophy in mice without overt signs of muscle damage and regeneration. Skeletal Muscle, 15(1), 3.
+    / *DOI:*: 10.1186/s13395-024-00372-0
+    / *Key Findings:*:
+        - Low-intensity NMES (~15% of maximal tetanic force, 80 isometric contractions/session) induced myonuclear accretion and hypertrophy without overt damage/regeneration.
+        - Establishes intensity-dependence: NMES damage occurs only above a threshold; low-intensity NMES is non-damaging.
+    / *Conclusion:*: The damaging vs. non-damaging character of NMES is intensity-dependent.
+    / *Limitations:*: Animal model; isometric only; generalizability to human high-intensity protocols uncertain.
+
+=== Pfeifer2024 — ES-Induced Myofiber Damage and Macrophage Infiltration
+    / *Full Citation:*: Pfeifer, B., King, B., Ahmadi, M., et al. (2024). Menstrual cycle phase differences in myofiber damage and macrophage infiltration following electrical stimulation-induced muscle injury. Am J Physiol Endocrinol Metab, 327(5), E616–E625.
+    / *DOI:*: 10.1152/ajpendo.00168.2024
+    / *Key Findings:*:
+        - 200 electrically stimulated eccentric contractions produced biopsy-confirmed myofiber necrosis, regeneration, and macrophage infiltration.
+        - Demonstrates ES injury triggers the full damage-then-inflammatory cascade.
+    / *Conclusion:*: ES-induced muscle injury recruits the inflammatory response, the same cascade as exercise-induced damage.
+    / *Limitations:*: n=28 healthy women; no ME/CFS.
