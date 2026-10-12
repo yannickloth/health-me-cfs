@@ -17,3 +17,17 @@
 | 2026-10-10 | W6 remainder: egress gate machinery (single outward door), canary proving hooks loaded, precompact handoff comparison; permissions.deny backstop done at config level but `permission-modes` plugin may bypass it in bypass modes — verify interaction | harness | no | Each implemented as plugin/config work; tracked in `ops/plans/polaris-adoption-plan.md` Catalog C |
 | (closed 2026-10-10) | viral-clearance registry fragment: 8 hypotheses merged as retroactive registry section (strict format, real bib keys, chapter-refs to built labels; 4 non-built ch47 labels cited as prose); fragment deleted; nix build green | data-hygiene | — | DONE: registry section `= Entries added 2026-10-10: Viral Clearance Dynamics` |
  | (closed 2026-10-10) | `ops/integration-guides/` fragment audit: six old fragments were closed by a prior audit; 6 `mcas-stack-ws*` files audited 2026-10-10 — all 88 keys + 88 appendix entries merged; files deleted | data-hygiene | — | DONE: see ops/README.md follow-up audit |
+
+## Open findings — cell-tissue-enrichment-li2023-atac (Phase 11 residuals, 2026-10-12)
+
+Pre-existing / out-of-cycle items surfaced during the full Phase 11 adversarial loop (15 rounds × 6 personas) on the cell-tissue-enrichment-li2023-atac cycle. Not part of that cycle's content; recorded for future cycles.
+
+| Item | File | Class |
+|------|------|-------|
+| Rare-variant→synaptic claim cited to @Birch2025rare (should be @Snyder2025rareBrain) | `ch14/.../subsec-18-.../achievements/ach-maccallini-meta-gwas-brain-first-genetic.typ` | citation-fidelity |
+| eMSN "most specific hit" attributed to @Maccallini2026metaGWAS (bib places eMSN in unpublished HBA/Duncan analysis) | ch09 subsec-01 achievement; registry row 81 | citation-fidelity |
+| Tryptophan/kynurenine flux figures 95% vs "up to 90%" vs 99% internally inconsistent | ch09 subsec-01 (`obs` tryptophan block) | numeric |
+| Duplicate bib entries for Walitt 2024 (`walitt2024deep`, `Walitt2024NIH`) | bib/modeling.bib, bib/neuroinflammation.bib | bibliography |
+| Aregawi group sizes n=16/34/40 vs correlation N 63/38 | ch09 subsec-01 | numeric |
+| Buspirone characterised as dopamine-D2 blocker (it is a 5-HT1A partial agonist) | ch09 subsec-01 `obs:dopamine` | factual |
+| Solriamfetol (dual DA/NE) cited as dopaminergic-specific support | ch09 `syn:vmat2-dopaminergic-convergence` | factual |

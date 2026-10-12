@@ -2733,17 +2733,9 @@ If memory B cells in ME/CFS are overactive and preferentially differentiate to p
         - snATAC-seq of 1.1M cells across 42 brain regions from 3 adult donors; 107 cell types, 42 subclasses, 544,735 candidate cis-regulatory elements (cCREs).
         - s-LDSC across 19 neuropsychiatric traits revealed strong cell-type links for schizophrenia, bipolar disorder, Alzheimer's, and major depression.
         - Deep-learning models predict regulatory roles of noncoding risk variants.
-    *Conclusion:*: The primary chromatin-accessibility (snATAC) resource newly applied to DecodeME ME/CFS GWAS; replicates the RNA-atlas neuronal enrichment (intratelencephalic neurons IT-L4/IT-V1C plus medium spiny neurons).
+    *Conclusion:*: The primary chromatin-accessibility (snATAC) resource newly applied to DecodeME ME/CFS GWAS; is consistent with the RNA-atlas neuronal enrichment (intratelencephalic neurons IT-L4/IT-V1C plus medium spiny neurons).
     *Limitations:*: n=3 donors; the DecodeME enrichment itself is single-investigator unpublished analysis, not peer-reviewed.
 
-=== Siletti et al.\ 2023 — Transcriptomic Diversity of Cell Types Across the Adult Human Brain
-    *Full Citation:*: Siletti K, Hodge R, Mossi Albiach A, et al.\ Transcriptomic diversity of cell types across the adult human brain. _Science_. 2023;382(6667):eadd7046.
-    *DOI:*: #link("https://doi.org/10.1126/science.add7046")[10.1126/science.add7046]
-    *Key Findings:*:
-        - Human Brain Atlas (HBA) snRNA-seq: 3.3M cells, 461 cell types, 31 brain regions, 3 donors.
-        - The RNA-modality reference atlas against which the Li 2023 snATAC enrichment is cross-checked.
-    *Conclusion:*: Provides the expression-side comparator demonstrating the chromatin-accessibility enrichment is concordant with, not divergent from, RNA-based cell-type enrichment.
-    *Limitations:*: n=3 donors; RNA steady-state proxy.
 
 === Fullard et al.\ 2018 — An Atlas of Chromatin Accessibility in the Adult Human Brain
     *Full Citation:*: Fullard JF, Hauberg ME, Bendl J, et al.\ An atlas of chromatin accessibility in the adult human brain. _Genome Research_. 2018;28(8):1243--1252.

@@ -150,7 +150,20 @@
 | 10 | Cross-chapter coherence: 4 files / 2 chapters audited (ch14, ch09). 0 inconsistencies, 0 fixes. Certainty, terminology, cross-refs, narrative all consistent. Output: tmp/coherence-audit-cell-tissue-enrichment-li2023-atac-2026-10-12.md. |
 | 10a | **LEGIT-SKIP — convergence already expressed.** Pre-existing @syn:genetic-neuronal-convergence already condenses the neuronal-convergence argument and was extended this cycle with the chromatin modality; no additional #synthesis needed. |
 | 10b | No framing propagation needed — the new chromatin modality REINFORCES the already-propagated brain-first/neuronal framing (Cycle 1); it introduces no new claim, so abstract / ch16 intro / root-cause sections are unchanged. Documented. |
-| 11 | **Lightweight tier** chosen (1 new environment; no treatment/clinical content; the multi-chapter touch is reinforcement-only citations added to pre-existing environments — rationale documented). Adversarial pass (devil-advocate-auditor): round 1 = 8 findings (2 HIGH, 2 MEDIUM, 4 LOW) → all fixed; round 2 = 0 HIGH/CRIT (2 residual MED/LOW) → fixed; round 3 = 0 findings. Xref pass (typst-xref-checker): 230 refs, 0 unresolved, 0 dup labels. Build re-verified PASS after every fix round. **CONVERGED (2 consecutive passes with 0 HIGH/CRITICAL).** |
+| 11 | **FULL tier (corrected — multi-chapter: ch14 + ch09 forces Full per the skill).** Ran all 6 adversarial personas (cynic, sophist, strawman, reductionist, clinician, devil-advocate) × **15 rounds**, plus a typst-xref check (230 refs, 0 unresolved). The loop systematically removed independence/immune-null/certainty/attribution/summary overclaims across the new achievement, the synthesis, the DecodeME achievement, ch09, the registry rows, and appendix-h — 25+ distinct fixes; build re-verified PASS after each round. **Literal convergence (2 consecutive zero-HIGH passes) NOT reached** — each round surfaced ≥1 in-cycle HIGH. Residuals trend to pre-existing/out-of-cycle text (listed below, moved to debt ledger). |
+
+### Phase 11 residuals (max-rounds reached; unresolved)
+
+**Pre-existing / out-of-cycle (not this cycle's content — routed to ops/debt-ledger.md):**
+- `ach-maccallini-…`: `@Birch2025rare` cited for "rare variant → synaptic genes" (that claim is @Snyder2025rareBrain).
+- `ach:cell-type-enrichment-convergence`: eMSN "most specific cell-type hit" attributed to `@Maccallini2026metaGWAS`; bib notes place eMSN in the unpublished HBA/Duncan analysis.
+- ch09 tryptophan/kynurenine figures (95%/90%/99%) — internal inconsistency (earlier cycle).
+- Duplicate bib keys `walitt2024deep` / `Walitt2024NIH` (same paper).
+- Aregawi group sizes (n=16/34/40) vs correlation N (63/38).
+- ch09 `obs:dopamine` buspirone characterised as a D2-blocker (it is a 5-HT1A partial agonist).
+- solriamfetol (dual DA/NE) cited as dopaminergic-specific support.
+
+**Addressed this cycle (all fixed):** independence/"replicated"/"first"/"exclusive" overclaims; immune-null power/scope; certainty 0.64→0.45; registry-row desync; duplicate `@Siletti2023transcriptomicBrain` bib key (deduped to `@Siletti2023`); decidive-test logic; MSN-vs-DecodeME attribution; headline certainty 0.70→0.50; peripheral-immune scope.
 | 12 | Plan-record written below (no changelog.typ). See "## Phase 12 — Plan Record (Cycle 2)". |
 
 ## Certainty Bump Log (Cycle 2)
