@@ -276,7 +276,7 @@ GWAS also enables Mendelian randomisation analyses testing causal relationships 
 {{/* Phase 10a retroactive synthesis: brain-first glutamatergic genetic architecture (condenses ~20 environments across ch12/ch14d/ch14h/ch16) */}}
 #include "subsec-18-maccallini-2026-meta-gwas-brain-first-ge/syntheses/syn-brain-first-glutamatergic-genetic-architecture.typ"
 
-{{/* Phase 3 synthesis: three-line genetic convergence on neuronal biology (cell-type enrichment findings, 2026-07-21) */}}
+{{/* Phase 3 synthesis: genetic convergence on neuronal biology (cell-type enrichment findings, 2026-07-21; reframed to two data types 2026-10-12) */}}
 #include "subsec-18-maccallini-2026-meta-gwas-brain-first-ge/syntheses/syn-genetic-neuronal-convergence.typ"
 
 === Kerrebijn 2026 Fibromyalgia GWAS: CNS Genetic Architecture of a Key Comorbidity

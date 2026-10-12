@@ -221,3 +221,5 @@
 | 13 | RAN | commit (below) |
 
 **Independent checks:** `nix build` → 0 errors; hypothesis registry updated (ach row); no new hypothesis/speculation/prediction (falsifiability N/A); new env has *Consequence:*; all new bib keys resolve case-exact. **0 OMISSION.**
+
+**Round-16-20 addendum (2026-10-12):** continued the full-tier loop 5 more rounds (16–20). It reached a **propagation cycle**: hardening the synthesis (`syn:genetic-neuronal-convergence`) surfaced the same overclaim class one layer up (`shared/abstract.typ`, `ch19-causal-hierarchy.typ`, the cited `@hyp:brain-first-genetic`, registry row, `syn-brain-first-glutamatergic`), and fixing those surfaced it again in the next layer (ch19 MSN-subtype, hyp limitation 4). Per the operator's stop condition (fixing creates the same new issue elsewhere), the loop halted after a bounded cross-file propagation fix. Residual distinct issue: the pre-existing `#achievement`-vs-certainty taxonomy convention (an `#achievement` carrying 0.45/0.50 for an unpublished/preprint result) — a document-wide convention, not this cycle's. Build: PASS. Committed as the follow-up fix commit.
