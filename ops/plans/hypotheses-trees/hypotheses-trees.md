@@ -345,6 +345,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | maladie-de-verneuil | [subtrees/maladie-de-verneuil.md](subtrees/maladie-de-verneuil.md) | 2026-07-20 | 15 | 9 | 🔵 in progress |
 | kce-belgium-guideline | [subtrees/kce-belgium-guideline.md](subtrees/kce-belgium-guideline.md) | 2026-07-21 | 30 | 30 | ✅ triaged |
 | cell-tissue-enrichment | [subtrees/cell-tissue-enrichment.md](subtrees/cell-tissue-enrichment.md) | 2026-07-21 | 25 | 0 | ⬜ pending |
+| cell-tissue-enrichment-li2023-atac | [subtrees/cell-tissue-enrichment-li2023-atac.md](subtrees/cell-tissue-enrichment-li2023-atac.md) | 2026-10-12 | 12 | 0 | 🔵 in progress |
 | pharmacodiagnostic-matrix | [subtrees/pharmacodiagnostic-matrix.md](subtrees/pharmacodiagnostic-matrix.md) | 2026-07-25 | 16 | 0 | ⬜ pending |
 | tcell-mitochondrial-exhaustion | [subtrees/tcell-mitochondrial-exhaustion.md](subtrees/tcell-mitochondrial-exhaustion.md) | 2026-07-26 | 24 | 0 | ⬜ pending |
 | global-perspectives-mecfs | [subtrees/global-perspectives-mecfs.md](subtrees/global-perspectives-mecfs.md) | 2026-07-26 | 14 | 6 | 🔵 in progress |

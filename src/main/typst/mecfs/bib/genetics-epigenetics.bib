@@ -2402,3 +2402,177 @@
   keywords = {effect size, statistics, methods},
   research_stream = {methods}, certainty = {0.85}
 }
+
+% ============================================================================
+% CELL & TISSUE ENRICHMENT — Li 2023 snATAC chromatin-accessibility atlas
+% Added 2026-10-12 (literature-cell-tissue-enrichment-li2023-atac)
+% ============================================================================
+
+@article{Li2023ATACbrain,
+  author       = {Li, Yang Eric and Preissl, Sebastian and Miller, Michael and Johnson, Nicholas D and Wang, Zihan and Jiao, Henry and Zhu, Chenxu and Wang, Zhaoning and Xie, Yang and Poirion, Olivier and Kern, Colin and Pinto-Duarte, Antonio and Tian, Wei and Siletti, Kimberly and Emerson, Nor and Osteen, Julia and Lucero, Jacinta and Lin, Lin and Yang, Qiuyu and Zhu, Quan and Zemke, Nathan and Espinoza, Samantha and Yanny, Anna Marie and Nyhus, Julie and Dee, Nick and Casper, Tamara and Shapovalova, Nadiya and Hirschstein, Daniel and Hodge, Rebecca D and Linnarsson, Sten and Bakken, Trygve and Levi, Boaz and Keene, C Dirk and Shang, Jingbo and Lein, Ed and Wang, Allen and Behrens, M Margarita and Ecker, Joseph R and Ren, Bing},
+  title        = {A comparative atlas of single-cell chromatin accessibility in the human brain},
+  journal      = {Science},
+  year         = {2023},
+  volume       = {382},
+  number       = {6667},
+  pages        = {eadf7044},
+  doi          = {10.1126/science.adf7044},
+  pmid         = {37824643},
+  pmcid        = {PMC10852054},
+  note         = {snATAC-seq atlas of 1.1M cells across 42 brain regions from 3 neurotypical adult donors; 107 cell types, 42 subclasses, 544,735 candidate cis-regulatory elements (cCREs). Applied stratified LD score regression (S-LDSC) to 19 neuropsychiatric traits; strong links to schizophrenia, bipolar disorder, Alzheimer's, major depression. Deep-learning models predict regulatory roles of noncoding risk variants. The chromatin-accessibility modality NEWLY applied to DecodeME ME/CFS GWAS by mecfsscience.org (s4me thread 53034) — replicates RNA-atlas neuronal enrichment (IT-L4/IT-V1C intratelencephalic neurons + medium spiny neurons). LIMITATIONS: n=3 donors limits generalizability; enrichment of DecodeME is single-investigator unpublished analysis, not peer-reviewed. Population weight 0.75 (healthy human tissue). Discounted certainty 0.64.},
+  research_stream = {cell-tissue-enrichment-li2023-atac},
+  tier           = {unknown},
+  certainty      = {0.85}
+}
+
+@article{Siletti2023transcriptomicBrain,
+  author       = {Siletti, Kimberly and Hodge, Rebecca and Mossi Albiach, Alejandro and Lee, Ka Wai and Ding, Song-Lin and Hu, Lijuan and L{\"o}nnerberg, Peter and Bakken, Trygve and Casper, Tamara and Clark, Michael and Dee, Nick and Gloe, Jessica and Hirschstein, Daniel and Shapovalova, Nadiya and others and Linnarsson, Sten and Lein, Ed},
+  title        = {Transcriptomic diversity of cell types across the adult human brain},
+  journal      = {Science},
+  year         = {2023},
+  volume       = {382},
+  number       = {6667},
+  pages        = {eadd7046},
+  doi          = {10.1126/science.add7046},
+  pmid         = {37824663},
+  note         = {Human Brain Atlas (HBA) single-nucleus RNA-seq: 3.3M cells, 461 cell types, 31 brain regions from 3 donors. The RNA-modality reference against which the Li 2023 snATAC chromatin atlas enrichment is cross-checked. Used by Duncan 2025 h2-MAGMA pipeline and mecfsscience.org Cycle-1 RNA enrichment of DecodeME (eMSN + intratelencephalic neurons). LIMITATIONS: n=3 donors. Population weight 0.75. Discounted certainty 0.64.},
+  research_stream = {cell-tissue-enrichment-li2023-atac},
+  tier           = {unknown},
+  certainty      = {0.85}
+}
+
+@article{Fullard2018brainATAC,
+  author       = {Fullard, John F and Hauberg, Mads E and Bendl, Jaroslav and Egervari, Gabor and Cirnaru, Maria-Daniela and Reach, Sarah M and Motl, Jan and Ehrlich, Michelle E and Hurd, Yasmin L and Roussos, Panos},
+  title        = {An atlas of chromatin accessibility in the adult human brain},
+  journal      = {Genome Research},
+  year         = {2018},
+  volume       = {28},
+  number       = {8},
+  pages        = {1243--1252},
+  doi          = {10.1101/gr.232488.117},
+  pmid         = {29945882},
+  note         = {First large-scale atlas of open chromatin (snATAC-seq) across the adult human brain. Predecessor to Li 2023; established that cell-type-specific chromatin accessibility varies by brain region and neuron subtype. Foundational resource for the snATAC modality later applied to GWAS cell-type enrichment. LIMITATIONS: smaller scale than Li 2023; limited donor count. Population weight 0.75. Discounted certainty 0.53.},
+  research_stream = {cell-tissue-enrichment-li2023-atac},
+  tier           = {unknown},
+  certainty      = {0.70}
+}
+
+@article{Nott2019enhancerPromoter,
+  author       = {Nott, Alexi and Holtman, Inge R and Coufal, Nicole G and Schlachetzki, Johannes C M and Yu, Miao and Hu, Rong and Han, Claudia Z and Pena, Monique and Xiao, Jiayang and Wu, Yin and Keulen, Zahara and Pasillas, Martina P and O'Connor, Carolyn and Nickl, Christian K and others and Glass, Christopher K and Ren, Bing and Gage, Fred H},
+  title        = {Brain cell type-specific enhancer-promoter interactome maps and disease-risk association},
+  journal      = {Science},
+  year         = {2019},
+  volume       = {366},
+  number       = {6469},
+  pages        = {1134--1139},
+  doi          = {10.1126/science.aay0793},
+  pmid         = {31727856},
+  note         = {Cell-type-specific enhancer-promoter interactome maps in human brain (glia and neurons); linked disease-risk variants to cell types via chromatin interactions. Demonstrates that noncoding disease-risk variants localize to cell-type-specific regulatory elements — the mechanistic basis for interpreting snATAC/s-LDSC cell-type enrichment. LIMITATIONS: single modality (Hi-C + ATAC); n limited. Population weight 0.75. Discounted certainty 0.60.},
+  research_stream = {cell-tissue-enrichment-li2023-atac},
+  tier           = {unknown},
+  certainty      = {0.80}
+}
+
+@article{Hauberg2020openChromatin,
+  author       = {Hauberg, Mads E and Creus-Muncunill, Jordi and Bendl, Jaroslav and Kozlenkov, Alexey and Zeng, Biao and Corwin, Chuhyon and Chowdhury, Sarah and Kranz, Harald and Hurd, Yasmin L and Wegner, Michael and B{\o}rglum, Anders D and Dracheva, Stella and Ehrlich, Michelle E and others and Roussos, Panos},
+  title        = {Common schizophrenia risk variants are enriched in open chromatin regions of human glutamatergic neurons},
+  journal      = {Nature Communications},
+  year         = {2020},
+  volume       = {11},
+  number       = {1},
+  pages        = {5581},
+  doi          = {10.1038/s41467-020-19319-2},
+  pmid         = {33149216},
+  note         = {Direct precedent for the snATAC + GWAS enrichment method: schizophrenia common-variant signal enriched in open chromatin of glutamatergic (excitatory) neurons. Establishes that chromatin-accessibility cell-type enrichment recapitulates neuronal enrichment previously seen with RNA atlases. The exact methodological template mecfsscience.org applied to DecodeME with the Li 2023 atlas. LIMITATIONS: general-population psychiatric trait, not ME/CFS. Population weight 0.75. Discounted certainty 0.60.},
+  research_stream = {cell-tissue-enrichment-li2023-atac},
+  tier           = {unknown},
+  certainty      = {0.80}
+}
+
+@article{Corces2020snATACcausalVariants,
+  author       = {Corces, M Ryan and Shcherbina, Anna and Kundu, Soumya and Gloudemans, Michael J and Fr{\'e}sard, Laure and Granja, Jeffrey M and Louie, Bryan H and Eulalio, Tiffany and Shams, Shadi and Bagdatli, S Tansu and Mumbach, Maxwell R and Liu, Boxiang and Montine, Kathleen S and others and Greenleaf, William J and Roussos, Panos and Chang, Howard Y and Montine, Thomas J},
+  title        = {Single-cell epigenomic analyses implicate candidate causal variants at inherited risk loci for {Alzheimer}'s and {Parkinson}'s diseases},
+  journal      = {Nature Genetics},
+  year         = {2020},
+  volume       = {52},
+  number       = {11},
+  pages        = {1158--1168},
+  doi          = {10.1038/s41588-020-00721-x},
+  pmid         = {33106633},
+  note         = {Single-cell epigenomic (snATAC-seq) analysis linking inherited AD/PD risk variants to cell-type-specific regulatory elements (microglia for AD). Demonstrates chromatin-accessibility cell-type mapping of disease risk across neurodegenerative traits. Competing-modality anchor: shows glial/microglial enrichment for AD vs neuronal enrichment for psychiatric/ME/CFS traits — cell-type signal is disease-specific, not a universal technical artifact. LIMITATIONS: general population, not ME/CFS. Population weight 0.75. Discounted certainty 0.60.},
+  research_stream = {cell-tissue-enrichment-li2023-atac},
+  tier           = {unknown},
+  certainty      = {0.80}
+}
+
+@article{Jagadeesh2022scDRS,
+  author       = {Jagadeesh, Karthik A and Dey, Kushal K and Montoro, Daniel T and Mohan, Rahul and Gazal, Steven and Engreitz, Jesse M and Xavier, Ramnik J and Price, Alkes L and Regev, Aviv},
+  title        = {Identifying disease-critical cell types and cellular processes by integrating single-cell {RNA}-sequencing and human genetics},
+  journal      = {Nature Genetics},
+  year         = {2022},
+  volume       = {54},
+  number       = {10},
+  pages        = {1479--1492},
+  doi          = {10.1038/s41588-022-01187-9},
+  pmid         = {36175791},
+  note         = {Introduced scDRS; documents limitations of MAGMA/s-LDSC cell-type enrichment (gene-set specificity dependence, limited power for closely related subtypes, sensitivity to atlas annotation granularity). Methodological-context paper for interpreting the mecfsscience.org DecodeME cell-type enrichment — flags why single-atlas, single-investigator enrichment requires corroboration. LIMITATIONS: computational method, not a replication of ME/CFS enrichment. Population weight 0.75. Discounted certainty 0.64.},
+  research_stream = {cell-tissue-enrichment-li2023-atac},
+  tier           = {in-silico},
+  certainty      = {0.85}
+}
+
+@article{Phung2025cellTypeBrain,
+  author       = {Phung, Thuong N and Seoane, Sofia L and Li, Wenyi and Brouwer, Rachel and Posthuma, Danielle},
+  title        = {Identification of cell types associated with 14 brain phenotypes from more than 10 million single cells},
+  journal      = {medRxiv [Preprint]},
+  year         = {2025},
+  doi          = {10.64898/2025.12.05.692533},
+  note         = {PREPRINT (Posthuma/de Leeuw lab — authors of MAGMA). Comprehensive cell-type enrichment benchmark: 388 scRNA-seq datasets from 36 studies, >10M cells, 14 brain phenotypes, incorporated into FUMA. Confirms microglia-AD entorhinal enrichment; novel findings (astrocytes-alcohol, prenatal neurons-ADHD). Systematically demonstrates that cell-type enrichment is atlas- and granularity-dependent — the authoritative methodological cross-check for whether the Li 2023 snATAC enrichment agrees with RNA-based enrichment. Author R. Brouwer is the closest match to the task's 'Brouwer 2026 methodology critique' search target; no separate 2026 critique located. LIMITATIONS: preprint, not yet peer reviewed; RNA modality only. Population weight 0.75. Discounted certainty 0.38.},
+  research_stream = {cell-tissue-enrichment-li2023-atac},
+  tier           = {preprint},
+  certainty      = {0.50}
+}
+
+@article{Yu2021limitedAssociation,
+  author       = {Yu, Alice W and Peery, J David and Won, Hyejung},
+  title        = {Limited Association between Schizophrenia Genetic Risk Factors and Transcriptomic Features},
+  journal      = {Genes},
+  year         = {2021},
+  volume       = {12},
+  number       = {7},
+  pages        = {1062},
+  doi          = {10.3390/genes12071062},
+  pmid         = {34356078},
+  note         = {NULL/NEGATIVE anchor. Reports limited/attenuated association between schizophrenia genetic risk and transcriptomic cell-type features across pipelines — a caution that transcriptomic/expression-based enrichment can be fragile and method-dependent. Used to bound the certainty of the chromatin-accessibility enrichment claim: single-modality, single-investigator cell-type enrichment has precedent for non-replication. LIMITATIONS: schizophrenia, not ME/CFS; modest journal (Genes). Population weight 0.75. Discounted certainty 0.34.},
+  research_stream = {cell-tissue-enrichment-li2023-atac},
+  tier           = {unknown},
+  certainty      = {0.45}
+}
+
+@article{Deary2018tiredness,
+  author       = {Deary, Vincent and Hagenaars, Saskia P and Harris, Sarah E and Hill, W David and Davies, Gail and Liewald, David C M and McIntosh, Andrew M and Gale, Catharine R and Deary, Ian J},
+  title        = {Genetic contributions to self-reported tiredness},
+  journal      = {Molecular Psychiatry},
+  year         = {2018},
+  volume       = {23},
+  number       = {3},
+  pages        = {609--620},
+  doi          = {10.1038/mp.2017.5},
+  pmid         = {28194004},
+  note         = {GWAS of self-reported tiredness (UK Biobank-derived). DISCRIMINATING comparison trait: in the Li 2023 snATAC atlas, tiredness shows a distinctly different cell-type enrichment profile from ME/CFS (no medium spiny neuron peak) — arguing the ME/CFS neuronal/MSN signal is not merely generic fatigue biology. Used to support the specificity of the ME/CFS enrichment. LIMITATIONS: self-report tiredness phenotype, general population. Population weight 0.75. Discounted certainty 0.60.},
+  research_stream = {cell-tissue-enrichment-li2023-atac},
+  tier           = {unknown},
+  certainty      = {0.80}
+}
+
+@article{Ding2026basalGangliaEpigenome,
+  author       = {Ding, Wubin and Klein, Amit and B{\'a}ez-Becerra, Cindy Tatiana and Rink, Jonathan A and Bartlett, Anna and Zeng, Qiurui and Wang, Ruoxuan and Castanon, Rosa Gomez and Nery, Joseph R and Osgood, Emma and Owens, William and Petrella, Alaina and Chen, Chumo and others and Ren, Bing},
+  title        = {A Multimodal Single-Cell Epigenomic and 3D Genome Atlas of the Human Basal Ganglia},
+  journal      = {bioRxiv [Preprint]},
+  year         = {2026},
+  doi          = {10.64898/2026.02.12.705594},
+  note         = {PREPRINT. Multimodal single-cell epigenomic (snATAC + snmC) and 3D-genome atlas of the human basal ganglia (striatum), the region containing medium spiny neurons (MSNs). Cross-check resource for the MSN peak in the DecodeME chromatin-accessibility enrichment — provides striatal cell-type resolution (D1/D2 MSN subtypes) absent from whole-brain Li 2023 taxonomy granularity. LIMITATIONS: preprint; basal ganglia only. Population weight 0.75. Discounted certainty 0.30.},
+  research_stream = {cell-tissue-enrichment-li2023-atac},
+  tier           = {preprint},
+  certainty      = {0.40}
+}

@@ -1451,3 +1451,17 @@ Prevents re-processing of already-integrated content.
 |-----|--------|---------|------------|--------|
 | PubMed API queries (13 queries + efetch batch, 16 PMIDs) | pubmed/eutils | 2026-10-11 | — | ops/research/search-log-post-vaccination-syndrome-2026-10-11.md, ops/research/literature-post-vaccination-syndrome-2026-10-11.md, ops/research/fragments-post-vaccination-syndrome-2026-10-11.md, bib/long-covid.bib (16), appendix-h `<sec:bib-post-vaccination-syndrome>` (16 annotated entries), ops/integration-guides/integration-guide-post-vaccination-syndrome-2026-10-11.md — PVS/PCVS phenotype + null/negative registry + autoantibody/SFN/POTS mechanism + myocarditis harm (16 papers) |
 | Europe PMC PPR (1 query) | europepmc | 2026-10-11 | — | bib/long-covid.bib (Bhattacharjee2025PVSsignatures preprint entry) |
+
+---
+
+## Cell & Tissue Enrichment (Li 2023 snATAC chromatin atlas) — cell-tissue-enrichment-li2023-atac
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| s4me.info thread 53034 (Li et al. 2023 snATAC atlas applied to DecodeME via s-LDSC) | 2026-10-12 | New modality (chromatin accessibility) vs Cycle-1 RNA atlases. 1.1M cells, 42 regions, 107 cell types; MSN peak + IT-neuron (L4) peaks; MSN shared with substance-use traits; author self-calibrated s-LDSC vs published schizophrenia/tiredness (r=0.99). Primary paper: Science 10.1126/science.adf7044. |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| https://mecfsscience.org/cell-and-tissue-enrichment-in-me-cfs/ | mecfsscience.org | 2026-07-21 | 2026-07-21 (Cycle 1 / commit 4893880) | ch08, ch12, registry, bib/genetics-epigenetics.bib |
+| PubMed/BioMCP/Europe PMC queries (17 queries + efetch, 11 papers) | pubmed/eutils, biomcp, europepmc | 2026-10-12 | — | ops/research/search-log-cell-tissue-enrichment-li2023-atac-2026-10-12.md, ops/research/literature-summary-cell-tissue-enrichment-li2023-atac-2026-10-12.md, bib/genetics-epigenetics.bib (11), appendix-h `<sec:bib-cell-tissue-enrichment-li2023-atac>` (11 annotated entries), ops/integration-guides/integration-guide-cell-tissue-enrichment-li2023-atac-2026-10-12.md |
+| https://s4me.info/threads/a-comparative-atlas-of-single-cell-chromatin-accessibility-in-the-human-brain-li-et-al-2023.53034/#post-728476 | s4me.info | 2026-10-12 | 2026-10-12 | driving source (thread 53034) — Li2023ATACbrain + 10 supporting bib entries |
+| https://www.science.org/doi/10.1126/science.adf7044 (Li et al. 2023) | science.org | 2026-10-12 | 2026-10-12 | Li2023ATACbrain bib entry + appendix-h annotation |

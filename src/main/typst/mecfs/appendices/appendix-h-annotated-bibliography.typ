@@ -2719,6 +2719,110 @@ If memory B cells in ME/CFS are overactive and preferentially differentiate to p
     *Full Citation:*: Trivedi MS, Oltra E, Engelbrecht B, et al.\ Recursive ensemble feature selection provides a robust mRNA expression signature for myalgic encephalomyelitis/chronic fatigue syndrome. _Scientific Reports_. 2021;11(1):4541.
     *DOI:*: #link("https://doi.org/10.1038/s41598-021-83660-9")[10.1038/s41598-021-83660-9]
 
+
+// =============================================================================
+
+== Cell \& Tissue Enrichment: Li 2023 snATAC Chromatin-Accessibility Atlas
+<sec:bib-cell-tissue-enrichment-li2023-atac>
+// =============================================================================
+
+=== Li et al.\ 2023 — Comparative Atlas of Single-Cell Chromatin Accessibility in the Human Brain
+    *Full Citation:*: Li YE, Preissl S, Miller M, et al.\ A comparative atlas of single-cell chromatin accessibility in the human brain. _Science_. 2023;382(6667):eadf7044.
+    *DOI:*: #link("https://doi.org/10.1126/science.adf7044")[10.1126/science.adf7044]
+    *Key Findings:*:
+        - snATAC-seq of 1.1M cells across 42 brain regions from 3 adult donors; 107 cell types, 42 subclasses, 544,735 candidate cis-regulatory elements (cCREs).
+        - s-LDSC across 19 neuropsychiatric traits revealed strong cell-type links for schizophrenia, bipolar disorder, Alzheimer's, and major depression.
+        - Deep-learning models predict regulatory roles of noncoding risk variants.
+    *Conclusion:*: The primary chromatin-accessibility (snATAC) resource newly applied to DecodeME ME/CFS GWAS; replicates the RNA-atlas neuronal enrichment (intratelencephalic neurons IT-L4/IT-V1C plus medium spiny neurons).
+    *Limitations:*: n=3 donors; the DecodeME enrichment itself is single-investigator unpublished analysis, not peer-reviewed.
+
+=== Siletti et al.\ 2023 — Transcriptomic Diversity of Cell Types Across the Adult Human Brain
+    *Full Citation:*: Siletti K, Hodge R, Mossi Albiach A, et al.\ Transcriptomic diversity of cell types across the adult human brain. _Science_. 2023;382(6667):eadd7046.
+    *DOI:*: #link("https://doi.org/10.1126/science.add7046")[10.1126/science.add7046]
+    *Key Findings:*:
+        - Human Brain Atlas (HBA) snRNA-seq: 3.3M cells, 461 cell types, 31 brain regions, 3 donors.
+        - The RNA-modality reference atlas against which the Li 2023 snATAC enrichment is cross-checked.
+    *Conclusion:*: Provides the expression-side comparator demonstrating the chromatin-accessibility enrichment is concordant with, not divergent from, RNA-based cell-type enrichment.
+    *Limitations:*: n=3 donors; RNA steady-state proxy.
+
+=== Fullard et al.\ 2018 — An Atlas of Chromatin Accessibility in the Adult Human Brain
+    *Full Citation:*: Fullard JF, Hauberg ME, Bendl J, et al.\ An atlas of chromatin accessibility in the adult human brain. _Genome Research_. 2018;28(8):1243--1252.
+    *DOI:*: #link("https://doi.org/10.1101/gr.232488.117")[10.1101/gr.232488.117]
+    *Key Findings:*:
+        - First large-scale snATAC-seq atlas of open chromatin across the adult human brain.
+        - Established cell-type- and region-specific variation in chromatin accessibility.
+    *Conclusion:*: Foundational predecessor of the Li 2023 atlas; defines the snATAC modality later applied to GWAS cell-type enrichment.
+    *Limitations:*: Smaller scale and fewer donors than Li 2023.
+
+=== Nott et al.\ 2019 — Brain Cell Type-Specific Enhancer-Promoter Interactome Maps and Disease-Risk Association
+    *Full Citation:*: Nott A, Holtman IR, Coufal NG, et al.\ Brain cell type-specific enhancer-promoter interactome maps and disease-risk association. _Science_. 2019;366(6469):1134--1139.
+    *DOI:*: #link("https://doi.org/10.1126/science.aay0793")[10.1126/science.aay0793]
+    *Key Findings:*:
+        - Cell-type-specific enhancer-promoter interactomes in human brain neurons and glia.
+        - Disease-risk variants localize to cell-type-specific regulatory elements via chromatin interactions.
+    *Conclusion:*: Provides the mechanistic basis for interpreting snATAC/s-LDSC cell-type enrichment — noncoding risk variants act through cell-type-specific regulatory DNA.
+    *Limitations:*: Single modality (Hi-C + ATAC); limited donor number.
+
+=== Hauberg et al.\ 2020 — Schizophrenia Risk Variants Enriched in Open Chromatin of Glutamatergic Neurons
+    *Full Citation:*: Hauberg ME, Creus-Muncunill J, Bendl J, et al.\ Common schizophrenia risk variants are enriched in open chromatin regions of human glutamatergic neurons. _Nature Communications_. 2020;11(1):5581.
+    *DOI:*: #link("https://doi.org/10.1038/s41467-020-19319-2")[10.1038/s41467-020-19319-2]
+    *Key Findings:*:
+        - Schizophrenia common-variant signal enriched in open chromatin of glutamatergic (excitatory) neurons.
+        - Demonstrates chromatin-accessibility cell-type enrichment recapitulates RNA-atlas neuronal enrichment.
+    *Conclusion:*: The direct methodological template the mecfsscience.org author applied to DecodeME with the Li 2023 atlas.
+    *Limitations:*: General-population psychiatric trait, not ME/CFS.
+
+=== Corces et al.\ 2020 — Single-Cell Epigenomic Analyses of AD/PD Risk Variants
+    *Full Citation:*: Corces MR, Shcherbina A, Kundu S, et al.\ Single-cell epigenomic analyses implicate candidate causal variants at inherited risk loci for Alzheimer's and Parkinson's diseases. _Nature Genetics_. 2020;52(11):1158--1168.
+    *DOI:*: #link("https://doi.org/10.1038/s41588-020-00721-x")[10.1038/s41588-020-00721-x]
+    *Key Findings:*:
+        - snATAC-seq maps AD/PD risk variants to cell-type-specific regulatory elements (microglia for AD).
+        - Chromatin-accessibility cell-type mapping of disease risk across neurodegenerative traits.
+    *Conclusion:*: Competing-modality anchor — shows glial/microglial enrichment for AD versus neuronal enrichment for psychiatric/ME/CFS traits, i.e.\ cell-type signal is disease-specific, not a universal technical artifact.
+    *Limitations:*: General population; not ME/CFS.
+
+=== Jagadeesh et al.\ 2022 — scDRS: Identifying Disease-Critical Cell Types
+    *Full Citation:*: Jagadeesh KA, Dey KK, Montoro DT, et al.\ Identifying disease-critical cell types and cellular processes by integrating single-cell RNA-sequencing and human genetics. _Nature Genetics_. 2022;54(10):1479--1492.
+    *DOI:*: #link("https://doi.org/10.1038/s41588-022-01187-9")[10.1038/s41588-022-01187-9]
+    *Key Findings:*:
+        - Introduces scDRS; documents limitations of MAGMA/s-LDSC cell-type enrichment (gene-set specificity dependence, low power for closely related subtypes, atlas-granularity sensitivity).
+    *Conclusion:*: Methodological-context paper — establishes why single-atlas, single-investigator enrichment requires corroboration (as the Li 2023 snATAC result now provides for DecodeME).
+    *Limitations:*: Computational method; does not itself replicate the ME/CFS enrichment.
+
+=== Phung et al.\ 2025 — Cell Types Associated with 14 Brain Phenotypes from 10M Cells
+    *Full Citation:*: Phung TN, Seoane SL, Li W, Brouwer R, Posthuma D.\ Identification of cell types associated with 14 brain phenotypes from more than 10 million single cells. _medRxiv_. 2025.
+    *DOI:*: #link("https://doi.org/10.64898/2025.12.05.692533")[10.64898/2025.12.05.692533]
+    *Key Findings:*:
+        - Comprehensive cell-type enrichment benchmark: 388 scRNA-seq datasets from 36 studies, >10M cells, 14 brain phenotypes, incorporated into FUMA.
+        - Confirms microglia-AD entorhinal enrichment; novel findings (astrocytes-alcohol, prenatal neurons-ADHD).
+    *Conclusion:*: The Posthuma/de Leeuw lab (MAGMA authors) systematic benchmark — demonstrates cell-type enrichment is atlas- and granularity-dependent; the authoritative cross-check for RNA-vs-ATAC enrichment agreement.
+    *Limitations:*: Preprint, not yet peer reviewed; RNA modality only.
+
+=== Yu et al.\ 2021 — Limited Association Between Schizophrenia Genetic Risk and Transcriptomic Features
+    *Full Citation:*: Yu AW, Peery JD, Won H.\ Limited Association between Schizophrenia Genetic Risk Factors and Transcriptomic Features. _Genes_. 2021;12(7):1062.
+    *DOI:*: #link("https://doi.org/10.3390/genes12071062")[10.3390/genes12071062]
+    *Key Findings:*:
+        - Reports limited/attenuated association between schizophrenia genetic risk and transcriptomic cell-type features across pipelines.
+    *Conclusion:*: NULL/NEGATIVE anchor — demonstrates expression-based cell-type enrichment can be fragile and method-dependent, bounding the certainty of the single-modality DecodeME enrichment claim.
+    *Limitations:*: Schizophrenia, not ME/CFS; modest journal.
+
+=== Deary et al.\ 2018 — Genetic Contributions to Self-Reported Tiredness
+    *Full Citation:*: Deary V, Hagenaars SP, Harris SE, et al.\ Genetic contributions to self-reported tiredness. _Molecular Psychiatry_. 2018;23(3):609--620.
+    *DOI:*: #link("https://doi.org/10.1038/mp.2017.5")[10.1038/mp.2017.5]
+    *Key Findings:*:
+        - GWAS of self-reported tiredness (UK Biobank-derived).
+    *Conclusion:*: DISCRIMINATING comparison trait — tiredness shows a distinctly different cell-type enrichment profile from ME/CFS in the Li 2023 atlas (no medium spiny neuron peak), arguing the ME/CFS neuronal/MSN signal is not generic fatigue biology.
+    *Limitations:*: Self-report tiredness phenotype, general population.
+
+=== Ding et al.\ 2026 — Multimodal Single-Cell Epigenomic and 3D Genome Atlas of the Human Basal Ganglia
+    *Full Citation:*: Ding W, Klein A, Báez-Becerra CT, et al.\ A Multimodal Single-Cell Epigenomic and 3D Genome Atlas of the Human Basal Ganglia. _bioRxiv_. 2026.
+    *DOI:*: #link("https://doi.org/10.64898/2026.02.12.705594")[10.64898/2026.02.12.705594]
+    *Key Findings:*:
+        - Multimodal single-cell epigenomic (snATAC + snmC) and 3D-genome atlas of the human basal ganglia (striatum).
+    *Conclusion:*: Cross-check resource for the medium spiny neuron (MSN) peak in the DecodeME enrichment — supplies striatal D1/D2 MSN resolution absent from the Li 2023 whole-brain taxonomy.
+    *Limitations:*: Preprint; basal ganglia region only.
+
+
 // =============================================================================
 
 == Biomarkers: Tetrahydrobiopterin (BH4) and Orthostatic Intolerance

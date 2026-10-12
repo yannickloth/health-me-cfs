@@ -12672,5 +12672,25 @@
     "label": "spike protein",
     "category": "protein",
     "definition": "The surface glycoprotein of SARS-CoV-2 that binds the ACE2 receptor and is the antigen encoded by most COVID-19 vaccines; its persistence has been proposed as a driver of Long COVID and post-vaccination symptoms, though evidence is incomplete."
+  },
+  "MSN": {
+    "label": "MSN",
+    "category": "cell type",
+    "definition": "Medium spiny neuron: the principal inhibitory output neuron of the striatum (basal ganglia). Cell-type genetic enrichment analyses implicate MSNs as the most specific neuronal subtype enriched for ME/CFS risk variants."
+  },
+  "S-LDSC": {
+    "label": "S-LDSC",
+    "category": "method",
+    "definition": "Stratified linkage-disequilibrium score regression: a statistical-genetics method that partitions trait heritability across cell types or tissues by testing whether genes expressed in a given cell type are enriched for disease-associated variants."
+  },
+  "snATAC-seq": {
+    "label": "snATAC-seq",
+    "category": "method",
+    "definition": "Single-nucleus assay for transposase-accessible chromatin using sequencing: measures open (accessible) chromatin in individual cells, indicating which regulatory DNA regions are active in each cell type."
+  },
+  "cCRE": {
+    "label": "cCRE",
+    "category": "genomics",
+    "definition": "Candidate cis-regulatory element: a DNA sequence (promoter or enhancer) predicted to regulate gene expression, as catalogued in single-cell chromatin atlases."
   }
 }

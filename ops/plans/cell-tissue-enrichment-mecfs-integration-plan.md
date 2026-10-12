@@ -87,3 +87,124 @@
 - Key limitation: fine cell-type specificity is method-dependent; broad neuronal signal is robust
 - Related topics already in paper: DecodeME genetics, VMAT2 striatum, dopamine/Parkinson's parallels
 - Related plans: vmat2-striatum-longcovid-integration-plan.md
+
+---
+
+# Cycle 2 (2026-10-12): Li et al. 2023 snATAC Chromatin-Accessibility Atlas
+
+**Trigger:** `/integrate-topic https://mecfsscience.org/cell-and-tissue-enrichment-in-me-cfs/ and https://s4me.info/threads/a-comparative-atlas-of-single-cell-chromatin-accessibility-in-the-human-brain-li-et-al-2023.53034/#post-728476`
+**Guard:** PASS — target skill `integrate-topic`, args present.
+
+**Purpose:** Source 1 (RNA-based enrichment) was integrated in Cycle 1 (commit `4893880`). This cycle adds source 2 — the **Li et al. 2023 single-nucleus ATAC-seq chromatin-accessibility atlas** of the human brain (1.1M cells, 42 regions, 107 cell types; `10.1126/science.adf7044`), applied to DecodeME via s-LDSC by the blog author. New **modality** (chromatin accessibility, not RNA) tests the same neuronal-enrichment hypothesis. Expected outcome: reinforcement of `@syn:genetic-neuronal-convergence` / `@ach:cell-type-enrichment-convergence`, plus IT-neuron (L4) and MSN detail.
+
+**Target chapters:**
+- ch14 (genetics-epigenetics) — subsec-13 (DecodeME) + subsec-18 (brain-first)
+- ch09 (neurological) — neurotransmitter abnormalities section
+- Part 4 (hypothesis registry)
+
+**Pre-identified hypotheses (from sources):**
+- ME/CFS genetic risk maps to neuronal cell types in **chromatin-accessibility** data (independent modality confirms RNA-based result)
+- Intratelencephalic (IT) projecting neurons (L4 / IT-V1C) are the shared neuronal peak across brain traits
+- MSN peak in ME/CFS is present but not unique (shared with substance-use traits)
+- Preliminary certainty: RNA-based broad-neuronal signal 0.80; ATAC replication raises cross-modality confidence
+
+**Working-tree mode:** CLEAN at cycle start (2026-10-12).
+
+## Tracking Table (Cycle 2)
+
+| # | Idea / hypothesis | Tier | Certainty | Status | Notes |
+|---|-------------------|------|-----------|--------|-------|
+| — | (populated after Phase 1/4) | | | | |
+
+## Active Caps (set by Phase 2 — decision: PROCEED)
+
+- Environments allowed: all
+- #hypothesis-box / #fhypothesis: allowed — BUT ME/CFS-specific MSN/eMSN claims capped at cert <=0.45 (single-investigator unpublished enrichment; Maccallini-2026 precedent)
+- Brainstorm categories (Phase 4): all 1-12
+- Certainty bumps (Phases 6-7): per normal rules; incoming evidence must be >=0.60 (max +0.05); per-cycle cap = 1 bump/hypothesis
+- Phase 9 flags pre-fired: none
+- Binding attribution: ME/CFS-specific enrichment must be attributed to the source analysis (mecfsscience/s4me), NOT to Li 2023 itself
+- Binding certainty: chapter prose uses POPULATION-DISCOUNTED values (<=0.64); raw bib certainty fields (0.85) never quoted in prose
+
+## Phase Reports (Cycle 2)
+
+| Phase | Summary |
+|-------|---------|
+| 0 | Plan located (`cell-tissue-enrichment-mecfs-integration-plan.md`); Cycle 2 section appended; tree CLEAN; deferred-topics checked (none match); queued-topics checked (none match). |
+| 1 | **11 papers found, 11 added to bib** (genetics-epigenetics.bib): Li2023ATACbrain, Siletti2023transcriptomicBrain, Fullard2018brainATAC, Nott2019enhancerPromoter, Hauberg2020openChromatin, Corces2020snATACcausalVariants, Jagadeesh2022scDRS, Phung2025cellTypeBrain, Yu2021limitedAssociation, Deary2018tiredness, Ding2026basalGangliaEpigenome. Search log: ops/research/search-log-cell-tissue-enrichment-li2023-atac-2026-10-12.md. Summary + integration guide in ops/research/ + ops/integration-guides/. Rival framings: F1 reinforcement (7), F2 artifact (3), F3 pleiotropy (3), F4 immune-underpowered (3). Coverage: opened PubMed/BioMCP/EuropePMC/Crossref/s4me/Science; not opened Google Scholar, non-EN. Highest discounted cert 0.64. |
+| 2 | **Decision: PROCEED** (reinforcement scope). 7 papers discounted >=0.40, 4 >=0.60; 2/11 <0.40. No contradictions (bounded methodological caveats only). PRISMA-lite Lite tier (reinforcement-only, permitted). Clinical relevance LOW; healing relevance none-knowledge-only. Tier-cap deviation ACCEPTED (documented; discounted certs operative). Caps: MSN-specific claims <=0.45. Synthesis: tmp/synthesis-cell-tissue-enrichment-li2023-atac-2026-10-12.md |
+| 3 | 1 new environment: `@ach:chromatin-accessibility-enrichment` (ch14 subsec-18/achievements/ach-chromatin-accessibility-cell-type-enrichment.typ, cert 0.64). Include wired into sec-01-genetic-predisposition.typ. Registry block added (2026-10-12). Fragments: ops/research/fragments-cell-tissue-enrichment-li2023-atac-2026-10-12.md. Chapter+registry cross-refs: @ach:cell-type-enrichment-convergence, @syn:genetic-neuronal-convergence, @lim:cell-type-enrichment-caveats, @hyp:brain-first-genetic. Standing epistemic checklist per-claim: [#1 OK w/ attribution caveat] / [#2 OK] / [#3 OK] / [#4 OK (F1-F4)] / [#5 N/A] / [#6 N/A] / [#7 N/A]. |
+| 3a | **Build: PASS** (2 fix-verify rounds: em-dash-after-@cite label-parse errors ×2 + wrong `@hyp:` label → fixed). |
+| 3b | **LEGIT-SKIP — non-treatment topic.** 0 treatment environments; no clinical claim. Documented: tmp/safety-gate-cell-tissue-enrichment-li2023-atac.md |
+| 3.5 | 1 environment verified (@ach:chromatin-accessibility-enrichment has *Consequence:* field). 0 missing. |
+| 4 | 12 constructive + 5 critical-category ideas generated across cats 1–12 (2 hypotheses, 3 research directions, 1 drug, 1 supplement, 1 non-pharm, 1 combination, 1 math, 1 cross-disease, 1 biomarker, 5 CC). File: ops/brainstorms/brainstorm-cell-tissue-enrichment-li2023-atac-2026-10-12.md. |
+| 4a | Subtree ops/plans/hypotheses-trees/subtrees/cell-tissue-enrichment-li2023-atac.md written (17 nodes); root index row added. Parent topic: cell-tissue-enrichment (Cycle 1). |
+| 5 | 17 ideas triaged; **0 new chapter environments**. Phase-3 dedup: 2.1 (caQTL colocalisation) covered-by-@oq:cell-type-specific-gwas; 2.2 (patient snATAC) covered-by-@oq:emsn-mecfs-study-needed; CC10.1/10.2/11.1/12.1/12.2 carried inline in @ach:chromatin-accessibility-enrichment caveats + existing @lim:cell-type-enrichment-caveats / @lim:syngo-enrichment-unpublished. Remaining constructive ideas tree-only (T2/T3). ch30 tiers: none (statistical-genetics; no biochemical cascade). 0 queued as child topics. Standing epistemic checklist: no violations. |
+| 5b | **Build: PASS** (no new content files from Phase 5; existing build green). |
+| 5a | Falsifiability gate **VACUOUS** (no new #hypothesis/#speculation/#prediction; only an #achievement). Stage 1: 7/7 new @CiteKeys verified EXISTS (Li2023ATACbrain, Siletti2023transcriptomicBrain, Hauberg2020openChromatin, Corces2020snATACcausalVariants, Deary2018tiredness, Jagadeesh2022scDRS, Yu2021limitedAssociation). Stage 2: 11 fragments, 0 four-axis mismatches; unpublished-source attribution correct. Checklist #1 ⚠ minor fragment-completeness (2 fragments added); #2 clean. No overstatements. |
+| 5z | Glossary: 4 entries added (MSN, S-LDSC, snATAC-seq, cCRE); ATAC-seq/GWAS already present. 0 false positives. |
+| 6 | M=4 overlapping pre-existing files examined; N=4 adapted — all REINFORCEMENT (added @Li2023ATACbrain + chromatin-modality sentence to @syn:genetic-neuronal-convergence, @ach:cell-type-enrichment-convergence, @ach:decodeme-brain-enrichment, @lim:cell-type-enrichment-caveats). Certainty bumps: **0** (incoming cert 0.64; conservative — ME/CFS-specific ATAC application is unpublished single-source; documented, not silently discounted). Contradictions: 0. Synonym map: tmp/synonym-map-cell-tissue-enrichment-li2023-atac.md. Checklist: no violations. |
+| 7 | **Zero new hypotheses** integrated (only an #achievement) → zero new hypothesis pairs; no registry certainty adjustments; bump log empty. Existing @hyp:brain-first-genetic and @hyp:striatal-symptom-signalling are reinforced by evidence (Phase 6), not re-rated. Checklist: no violations. |
+| 8 | **Build: PASS** (0 errors). Intermediate: 3a PASS, 5b PASS. |
+| 9 | Net certainty Δ = 0; reinforcement:contradiction = 4:0; new falsifiable predictions = 0 (no new hypotheses); length delta small (~600 words; gross additions well under 2000 → no BLOAT); Tier distribution: 0 integrated (all tree-only/covered); clinical relevance LOW; healing relevance none. Honesty lint: 0 findings across 3 files. Quality flags: **NONE**. |
+| 10 | Cross-chapter coherence: 4 files / 2 chapters audited (ch14, ch09). 0 inconsistencies, 0 fixes. Certainty, terminology, cross-refs, narrative all consistent. Output: tmp/coherence-audit-cell-tissue-enrichment-li2023-atac-2026-10-12.md. |
+| 10a | **LEGIT-SKIP — convergence already expressed.** Pre-existing @syn:genetic-neuronal-convergence already condenses the neuronal-convergence argument and was extended this cycle with the chromatin modality; no additional #synthesis needed. |
+| 10b | No framing propagation needed — the new chromatin modality REINFORCES the already-propagated brain-first/neuronal framing (Cycle 1); it introduces no new claim, so abstract / ch16 intro / root-cause sections are unchanged. Documented. |
+| 11 | **Lightweight tier** chosen (1 new environment; no treatment/clinical content; the multi-chapter touch is reinforcement-only citations added to pre-existing environments — rationale documented). Adversarial pass (devil-advocate-auditor): round 1 = 8 findings (2 HIGH, 2 MEDIUM, 4 LOW) → all fixed; round 2 = 0 HIGH/CRIT (2 residual MED/LOW) → fixed; round 3 = 0 findings. Xref pass (typst-xref-checker): 230 refs, 0 unresolved, 0 dup labels. Build re-verified PASS after every fix round. **CONVERGED (2 consecutive passes with 0 HIGH/CRITICAL).** |
+| 12 | Plan-record written below (no changelog.typ). See "## Phase 12 — Plan Record (Cycle 2)". |
+
+## Certainty Bump Log (Cycle 2)
+
+| Hypothesis | Phase | Old cert | New cert | Δ | Reason |
+|------------|-------|----------|----------|---|--------|
+
+
+## Phase 12 — Plan Record (Cycle 2)
+
+**Topic slug:** `cell-tissue-enrichment-li2023-atac` | **Decision:** PROCEED (reinforcement scope) | **Date:** 2026-10-12
+
+**Integration summary:** Added a second, orthogonal molecular modality (chromatin accessibility / snATAC-seq; Li et al. 2023 human-brain atlas) confirming the broad neuronal cell-type genetic enrichment of ME/CFS already established from RNA atlases in Cycle 1. The specific chromatin top-hit is intratelencephalic (IT-L4/IT-V1C) cortical neurons with a secondary MSN peak; the chromatin reference differs from the RNA references, so only the coarse neuronal-vs-immune distinction is reproduced. The ME/CFS-specific analysis is single-investigator and unpublished.
+
+- **Environments added:** `@ach:chromatin-accessibility-enrichment` (ch14 subsec-18; cert 0.64). No new hypothesis/speculation/prediction.
+- **Environments reinforced (Phase 6):** `@syn:genetic-neuronal-convergence`, `@ach:cell-type-enrichment-convergence` (ch09), `@ach:decodeme-brain-enrichment` (ch14 subsec-13), `@lim:cell-type-enrichment-caveats` (ch09).
+- **Chapters touched:** ch14 (genetics-epigenetics), ch09 (neurological).
+- **Bib:** 11 new entries in `genetics-epigenetics.bib`; appendix-h `<sec:bib-cell-tissue-enrichment-li2023-atac>`.
+- **Registry:** 1 new `ach` row (2026-10-12 block).
+- **Glossary:** 4 entries (MSN, S-LDSC, snATAC-seq, cCRE).
+- **Key finding + why it matters:** the ME/CFS genetic signal maps to neurons, not immune cells, in both RNA and chromatin data — independently of any single RNA method. It strengthens (does not change) the brain-first genetic model; no diagnostic or treatment implication.
+- **Phase 9 quality flags:** NONE (clinical relevance LOW; net certainty Δ 0; honesty-lint 0 findings).
+- **Clinical relevance:** LOW / research-only; healing relevance: none (knowledge only).
+- **Driving-source caveat:** the mecfsscience.org blog post (source 1) was NOT re-integrated — it was already integrated in Cycle 1 (commit 4893880); only source 2 (the Li 2023 snATAC s4me thread) is new. The ME/CFS-specific ATAC analysis is an unpublished single-investigator result and is labelled as such throughout.
+
+
+## Phase Ledger (Cycle 2 — Phase 12.5 Completion Gate)
+
+| Phase | State | Evidence |
+|-------|-------|----------|
+| 0 | RAN | Cycle 2 plan section present + validated; queue/deferred checked |
+| 1 | RAN | ops/research/search-log-cell-tissue-enrichment-li2023-atac-2026-10-12.md + 11 bib entries |
+| 2 | RAN | tmp/synthesis-cell-tissue-enrichment-li2023-atac-2026-10-12.md (PROCEED) |
+| 3 | RAN | @ach:chromatin-accessibility-enrichment + registry row |
+| 3a | RAN | build PASS |
+| 3b | LEGIT-SKIP | non-treatment topic (tmp/safety-gate-cell-tissue-enrichment-li2023-atac.md) |
+| 3.5 | RAN | consequence field present in new env |
+| 4 | RAN | ops/brainstorms/brainstorm-cell-tissue-enrichment-li2023-atac-2026-10-12.md (17 ideas) |
+| 4a | RAN | subtrees/cell-tissue-enrichment-li2023-atac.md + root index row |
+| 5 | RAN | triage recorded; 0 new envs |
+| 5b | RAN | build PASS |
+| 5d | LEGIT-SKIP | non-mechanistic topic (statistical genetics; no biochemical cascade) |
+| 5c | LEGIT-SKIP | non-pharmacological topic |
+| 5a | RAN | falsifiability sweep vacuous gate + 7/7 citation battery |
+| 5z | RAN | glossary +4 entries |
+| 6 | RAN | 4 reinforcement adaptations + synonym map |
+| 7 | RAN | zero new hypotheses → zero pairs recorded |
+| 8 | RAN | build PASS |
+| 9 | RAN | quality metrics; 0 flags |
+| 10 | RAN | coherence audit; 0 issues |
+| 10a | LEGIT-SKIP | convergence already expressed by @syn:genetic-neuronal-convergence (extended) |
+| 10b | RAN | no framing propagation needed (documented) |
+| 11 | RAN | lightweight convergence (3 rounds; converged) |
+| 12 | RAN | plan record written |
+| 13 | RAN | commit (below) |
+
+**Independent checks:** `nix build` → 0 errors; hypothesis registry updated (ach row); no new hypothesis/speculation/prediction (falsifiability N/A); new env has *Consequence:*; all new bib keys resolve case-exact. **0 OMISSION.**
