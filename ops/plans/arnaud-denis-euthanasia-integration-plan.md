@@ -115,4 +115,4 @@ Research online the euthanasia death of French actor/director Arnaud Denis (died
 
 Verification re-checks: build 0 error lines ✓; falsifiability on speculation ✓; *Consequence:* on all 5 new envs ✓; registry updated ✓ (3 rows); bib keys case-exact ✓.
 
-**Notes / commit hash:** (post-commit)
+**Notes / commit hash:** b5aed3b6 (content(arnaud-denis-euthanasia), 2026-10-13; 16 files, +574/-2). Checkpoint note: tree CLEAN at start but no wip/ scratch pointers were created (compile-gated phases; rollback via git checkout <ref> -- <file> remains available). Shared files: no parallel stream active; all entries shipped in b5aed3b6.
