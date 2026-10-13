@@ -1,6 +1,6 @@
 #import "../../../../../shared/environments.typ": *
 
-#achievement(title: [Chromatin Accessibility Is Consistent With the Broad Neuronal Cell-Type Enrichment (Same-Analyst, Unpublished)])[
+#hypothesis(title: [Chromatin Accessibility Is Consistent With the Broad Neuronal Cell-Type Enrichment (Same-Analyst, Unpublished)])[
 *Certainty: 0.45 (a same-analyst sensitivity check on an unpublished analysis; the ME/CFS-specific result is not independently replicated).* A second molecular modality---chromatin accessibility---was applied to the *same* DecodeME ME/CFS GWAS, using the *same* stratified LD score regression (S-LDSC) pipeline by the *same* investigator, against the Li et al.\ (2023) single-nucleus ATAC-seq atlas of the human brain (1.1 million cells, 42 brain regions, 107 cell types) @Li2023ATACbrain. Because only the reference atlas changes while the GWAS, analyst, and method are held constant, this is a sensitivity check across reference datasets, not an independent replication, and it cannot exclude a shared pipeline- or annotation-level explanation.
 
 What it does show is a *coarse* consistency: the analysis is again enriched in neurons rather than in the CNS-resident immune cells (microglia); the brain-only atlas contains no peripheral immune cells. The specific top cell type, however, disagrees with the earlier RNA atlases: where those highlighted striatal medium spiny neurons, the chromatin atlas's strongest signal falls on intratelencephalic (IT)-projecting cortical neurons (IT-L4/IT-V1C), with a medium spiny neuron peak present but secondary. The subtype therefore remains unresolved---only the broad neuronal-versus-microglial (CNS-resident immune) distinction is reproduced across modalities.
@@ -14,4 +14,4 @@ Three caveats bound the finding. First, the ME/CFS-specific enrichment is a sing
 *Consequence:* The broad finding---ME/CFS genetic risk enriches in brain neurons rather than in CNS-resident immune cells---holds in a second molecular modality, so it is unlikely to be an artefact of RNA-based measurement alone, though a shared S-LDSC- or annotation-level artefact is not excluded. This is consistent with the existing brain-first genetic model @hyp:brain-first-genetic and does not change it; it alters no diagnosis or treatment, and it leaves the specific neuronal subtype unresolved.
 
 Study: (snATAC atlas n=1.1M cells / 3 donors, 42 regions, 107 cell types; DecodeME ME/CFS S-LDSC, single-investigator, unpublished, same-analyst/same-pipeline as the RNA atlases; broad neuronal-versus-immune pattern consistent).
-] <ach:chromatin-accessibility-enrichment>
+] <hyp:chromatin-accessibility-enrichment>

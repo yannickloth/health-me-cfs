@@ -241,7 +241,7 @@ Ideas ranked within category by **certainty × novelty** (provisional). `CC` = c
 
 **What it would mean if H₀ is true.** If the ATAC result is fully redundant with the RNA result — i.e., accessibility enrichment is a statistical shadow of expression enrichment (accessibility is a prerequisite of expression, so the two are collinear) — then:
 
-1. The `@ach:chromatin-accessibility-enrichment` achievement (certainty 0.64) would be mis-framed. Its core sentence — "the neuronal enrichment is not an artefact of any single RNA-based method" — would be **false**, because a shared gene-length/LD/breadth confound is common to *both* modalities. The achievement would need to be reframed from "independent cross-modality confirmation" to "consistent across two collinear molecular layers."
+1. The `@hyp:chromatin-accessibility-enrichment` achievement (certainty 0.64) would be mis-framed. Its core sentence — "the neuronal enrichment is not an artefact of any single RNA-based method" — would be **false**, because a shared gene-length/LD/breadth confound is common to *both* modalities. The achievement would need to be reframed from "independent cross-modality confirmation" to "consistent across two collinear molecular layers."
 
 2. The claimed upgrade in confidence (from RNA-only to cross-modality) would not be justified; the certainty should fall back toward the RNA-only value, not rise.
 
