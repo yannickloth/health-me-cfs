@@ -27,7 +27,7 @@ Integrate the largest ME/CFS GWAS/WGS meta-analysis to date (Maccallini 2026, 19
 |---|-------------------|------|-----------|--------|-------|
 | 1 | Glutamatergic synapse as genetically-driven core mechanism | 1 | 0.60 | ✅ done | @hyp:glutamatergic-synaptic-dysfunction in ch12; registry entry; cert lowered 0.80→0.60 (preprint) |
 | 2 | Brain-first genetic model (no peripheral enrichment) | 1 | 0.55 | ✅ done | @hyp:brain-first-genetic in ch12; registry entry; cert lowered 0.75→0.55 (preprint + annotation bias caveats) |
-| 3 | Subcortical + cerebellar neuron vulnerability loci | 1 | 0.50 | ✅ done | Regional neuronal enrichment noted in @ach:maccallini-metagwas; CCAS hyp @hyp:ch14h-ccas-cerebellar in ch14h |
+| 3 | Subcortical + cerebellar neuron vulnerability loci | 1 | 0.50 | ✅ done | Regional neuronal enrichment noted in @hyp:maccallini-metagwas; CCAS hyp @hyp:ch14h-ccas-cerebellar in ch14h |
 | 4 | GWAS-WGS convergence strengthens causal inference | 1 | 0.55 | ✅ done | Registry entry; Birch2025rare cited in ch12 achievement + GWAS-WGS convergence hypothesis |
 | 5 | GWAS → E/I imbalance genetic anchoring | 1 | 0.60 | ✅ done | Registry entry; cross-referenced in ch12 glutamatergic hypothesis + ch14d cross-disease |
 | 6 | Astrocytic GABA-glutamate cycling disruption | 2 | 0.50 | ↩️ parked | Not yet integrated inline; speculative secondary signal behind glutamatergic core |

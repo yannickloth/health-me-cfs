@@ -4551,7 +4551,7 @@ The four Typst-relevant checks (`section-audit`, `qmd-label-audit`,
 @ach:immune-gene-dysregulation
 @ach:invalidation-model
 @ach:low-t3
-@ach:maccallini-metagwas
+@hyp:maccallini-metagwas
 @ach:neglected-disease-framing
 @ach:nelson2021-brainstem
 @ach:neurasthenia-cultural-idiom

@@ -1,11 +1,13 @@
 #import "../../../../../shared/environments.typ": *
 
-#achievement(title: [Maccallini Meta-GWAS: Brain-Enriched Genetic Architecture])[
+#hypothesis(title: [Maccallini Meta-GWAS: Brain-Enriched Genetic Architecture])[
 *Certainty: 0.50 (preprint; not yet peer reviewed).* The Maccallini 2026 meta-analysis combines DecodeME with the Million Veteran Program (MVP) GWAS, yielding a total of 19,470 ME/CFS cases and 699,111 controls---the largest genetic investigation of ME/CFS to date @Maccallini2026metaGWAS. The study provides several lines of evidence supporting a brain-enriched genetic architecture.
 
 First, tissue enrichment across 30 tissue types found significant enrichment confined to 14 brain regions and pituitary, with no peripheral tissue reaching significance. This extends the DecodeME brain enrichment finding (the meta-GWAS incorporates DecodeME, so the two are partially overlapping rather than independent; Achievement @ach:decodeme-brain-enrichment) and is consistent with a brain-enriched genetic origin rather than a peripheral one — though a primarily peripheral disorder need not show peripheral common-variant tissue enrichment. Second, gene-set analysis re-found neuronal and synaptic gene sets, with glutamatergic synapses emerging as the most specific signal---converging with the DecodeME identification of _SHISA6_ and _UNC13C_ (Section @sec:decodeme-genes). Third, cell-type enrichment identified neuronal signals in distinct populations of subcortical and cerebellar regions, including medium spiny neurons in the striatum as the most specific hit (method-dependent; Achievement @ach:cell-type-enrichment-convergence), providing regional neuronal resolution of ME/CFS genetic architecture. Fourth, a secondary signal in dopaminergic midbrain (ventral tegmental area/substantia nigra) was identified, with convergent support from both common (GWAS) and rare (whole-genome sequencing) variant data within the meta-analysis @Maccallini2026metaGWAS; a separate rare-variant (whole-exome) analysis implicates neuronal/synaptic genes @Snyder2025rareBrain.
 
 The absence of peripheral tissue enrichment is consistent with, but does not establish, a brain-enriched model in which genetic liability is concentrated in neuronal circuits and peripheral pathology arises downstream: a primarily peripheral immune or metabolic disorder need not show peripheral common-variant *tissue* enrichment, so this null does not rule out acquired or rare-variant peripheral contributions.
 
+*Falsifiable prediction.* The brain-enriched architecture would be weakened or refuted if an independent, non-overlapping GWAS (or a well-powered functional study) found peripheral immune or metabolic tissue enrichment to exceed brain enrichment, or if the glutamatergic gene-set signal failed to replicate in an independent cohort.
+
 Meta-analysis of DecodeME + MVP: n=19,470 cases, n=699,111 controls. Tissue enrichment in 30 tissues, cell-type analysis, gene-set re-analysis.
-] <ach:maccallini-metagwas>
+] <hyp:maccallini-metagwas>

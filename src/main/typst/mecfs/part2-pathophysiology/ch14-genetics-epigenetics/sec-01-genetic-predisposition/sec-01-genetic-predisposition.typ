@@ -242,7 +242,7 @@ GWAS also enables Mendelian randomisation analyses testing causal relationships 
 === Maccallini 2026 Meta-GWAS: Brain-First Genetic Architecture
 <sec:maccallini-metagwas>
 
-#include "subsec-18-maccallini-2026-meta-gwas-brain-first-ge/achievements/ach-maccallini-meta-gwas-brain-first-genetic.typ"
+#include "subsec-18-maccallini-2026-meta-gwas-brain-first-ge/hypotheses/hyp-maccallini-meta-gwas-brain-first-genetic.typ"
 #include "subsec-18-maccallini-2026-meta-gwas-brain-first-ge/hypotheses/hyp-chromatin-accessibility-cell-type-enrichment.typ"
 
 #include "subsec-18-maccallini-2026-meta-gwas-brain-first-ge/warnings/warn-single-anchoring-risk-and-methodological.typ"

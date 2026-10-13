@@ -108,5 +108,5 @@ where "Efferent Coupling" is a composite node representing autonomic (sympatheti
 - Causal mediation analysis will show that central glutamate measures (MRS, fMRI) mediate the relationship between glutamatergic PRS and peripheral symptoms (orthostatic intolerance, GI symptoms). The direct path from PRS to peripheral symptoms should be non-significant when central glutamate is included as mediator.
 - Patients with high peripheral symptom burden but moderate genetic liability should have high $theta_"EC"$ — i.e., their efferent coupling amplifies a modest CNS signal into substantial peripheral pathology, explaining the brain-periphery discordance observed in some ME/CFS patients.
 
-*Cross-reference:* Brain-first genetic model @hyp:brain-first-genetic; entry points discussion @sec:entry-points; Maccallini 2026 tissue enrichment @ach:maccallini-metagwas.
+*Cross-reference:* Brain-first genetic model @hyp:brain-first-genetic; entry points discussion @sec:entry-points; Maccallini 2026 tissue enrichment @hyp:maccallini-metagwas.
 ]
