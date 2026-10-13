@@ -561,6 +561,10 @@ The severity of ME/CFS has led to difficult conversations within the patient com
 
     - *Austrian Policy Discussion* – Reddit r/Austria community discussion on euthanasia policies: #link("https://www.reddit.com/r/Austria/s/JUzy5LM6O7")
 
+    - *Arnaud Denis (France, died 22 September 2026, aged 43)* – Actor and stage director (comédien et metteur en scène). Severe, unremitting pain and progressive disability following a 2023 polypropylene hernia-mesh implant; French media reported that he had ultimately been diagnosed with myalgic encephalomyelitis (the diagnosis is patient-reported in his final statement—no independent medical confirmation has been published). He became a patient-safety whistleblower, founding the “Victimes de prothèses de hernies” support group (6,000+ members) and pressing the ANSM on mesh adverse-event reporting; his complaint was dismissed without pursuit. He died by euthanasia in Belgium (Namur), where assisted dying is legal for unbearable suffering, after France offered no comparable route. His final message: “À tous les malades de l'Encéphalomyélite Myalgique, dont on nie les souffrances dans le corps médical en France et dans le monde. Il y a urgence sanitaire… Honte à ceux qui psychiatrisent les malades, au lieu de se tenir au courant de la recherche internationale.”
+
+    Sources: Radio France investigation: #link("https://www.franceinfo.fr/enquetes-franceinfo/je-rends-les-armes-le-comedien-arnaud-denis-euthanasie-en-belgique_8204882.html"); ME diagnosis and final statement: #link("https://www.20minutes.fr/sante/4247968-20260923-mort-arnaud-denis-encephalite-myalgique-dont-souffrait-comedien")
+
 // =============================================================================
 
 == Podcasts

@@ -29,3 +29,6 @@ Research has identified ME/CFS-specific suicide risk factors distinct from typic
     - Stigma and gaslighting from healthcare providers, which independently predicts suicidal ideation after controlling for depression @McManimen2018UnsupportiveStigma @Johnson2022SuicideRiskStigma
 Notably, 60% of ME/CFS patients who died by suicide in the Roberts cohort had _no documented depression diagnosis_, suggesting that ME/CFS-specific suffering—not psychiatric comorbidity—drives suicide risk.
 
+*Prospective post-viral evidence.*
+The only prospective effect estimate available comes from a post-viral population: among 63 survivors of Middle East respiratory syndrome followed for two years, participants meeting chronic-fatigue-syndrome criteria at baseline had a 7.5-fold higher rate of suicidality over follow-up (95% CI 2.4–23.1; adjusted RR 7.6) @Ahn2021MersCfsSuicidality. The cohort is small, the confidence interval wide, the CFS operationalization questionnaire-based, and the finding unreplicated—so it anchors, rather than establishes, the temporal direction from post-viral fatigue to suicidality.
+

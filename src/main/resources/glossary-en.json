@@ -12692,5 +12692,10 @@
     "label": "cCRE",
     "category": "genomics",
     "definition": "Candidate cis-regulatory element: a DNA sequence (promoter or enhancer) predicted to regulate gene expression, as catalogued in single-cell chromatin atlases."
+  },
+  "ANSM": {
+    "label": "ANSM",
+    "category": "agency",
+    "definition": "Agence nationale de sécurité du médicament — the French national agency that regulates medicines and medical devices and collects adverse-event reports, including reports on hernia meshes."
   }
 }

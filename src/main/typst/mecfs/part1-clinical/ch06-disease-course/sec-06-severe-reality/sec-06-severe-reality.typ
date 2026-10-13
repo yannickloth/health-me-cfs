@@ -8,7 +8,7 @@
 
 This chapter documents the extreme suffering experienced by patients with severe and very severe ME/CFS. The content is intentionally disturbing because the reality of this disease is disturbing. Readers—particularly healthcare providers, policymakers, and family members—must understand that ME/CFS at its worst represents one of the most devastating conditions in medicine. This is not hyperbole. The evidence presented here demonstrates that severe ME/CFS produces suffering comparable to or exceeding that of terminal cancer, yet without the certainty of death's release.
 
-*ME/CFS kills.* It kills through suicide when patients can no longer endure the suffering. It kills through cardiac complications from years of autonomic dysfunction. It kills through malnutrition when patients become too weak to eat. It kills through medical neglect when healthcare systems refuse to believe or treat patients adequately.
+*ME/CFS kills.* It kills through suicide when patients can no longer endure the suffering @Johnson2022SuicideRiskStigma. It kills through cardiac complications from years of autonomic dysfunction. It kills through malnutrition when patients become too weak to eat. It kills through medical neglect when healthcare systems refuse to believe or treat patients adequately.
 
 This chapter exists because the medical community's failure to recognize the severity of this disease has cost lives. Every reader who finishes this chapter should be afraid—not of catching ME/CFS, but of the consequences of continued medical and societal indifference to those who already suffer from it.
 === The Scale of Catastrophe
@@ -342,16 +342,60 @@ But my death should not be in vain.”
 
 Pauline Hongnat, 34 ans, sévèrement atteinte d'EM et d'un syndrome d'activation mastocytaire (SAMA), a mis fin à ses jours le 17 mars 2026 en France. Malgré un suivi médical et un soutien de ses proches, elle ne supportait plus les souffrances quotidiennes. Sa mère, Emmanuelle, a demandé que son histoire soit partagée publiquement, “pour que ces morts servent les vivants”, dénonçant “le parcours infernal de souffrances et d'indifférence médicale”. Pauline avait 34 ans.
 
+Three months later, the pattern repeated at national scale in France. Arnaud Denis---actor and stage director, 43 years old---died by euthanasia in Belgium on 22 September 2026, surrounded by his family @FranceInfo2026ArnaudDenisEuthanasia. His suffering began with an ordinary operation: in 2023 he received a polypropylene mesh implant for an inguinal hernia, one of roughly 200,000 such implants placed in France each year. Severe, unremitting pain followed---“like stab wounds, electric shocks,” in his words---and never left. He became severely disabled and emaciated. His complaint was dismissed without pursuit, which he described as a humiliation, and he spent his remaining years as a patient-safety whistleblower, founding a support group of more than 6,000 mesh-injury patients and pressing authorities on informed consent and follow-up care @FranceInfo2026ArnaudDenisEuthanasia. French media reported that he had ultimately been diagnosed with myalgic encephalomyelitis. In his final message he addressed the medical profession directly @TwentyMinutes2026MEArnaudDenis:
+
+#quote[
+“To all the patients with myalgic encephalomyelitis, whose suffering is denied by the medical profession in France and around the world: there is a health emergency. Unless you have lived six months in the body of a patient with severe myalgic encephalomyelitis, you cannot understand what absolute horror is. Shame on those who psychiatrize patients instead of keeping up with international research.”
+]
+
+Two cautions attach to this account. First, the attribution of his illness is patient-reported: whether the mesh complications and his myalgic encephalomyelitis were related has not been established by any published evaluation, and this document does not assert that they were. Second, his case---like Samuel's and Pauline Hongnat's---is documentation, not statistics, and media-amplified cases overrepresent patients with public voice and resources: the documented cases are the ones that made news, not a representative sample of severe-disease deaths. The peer-reviewed evidence beneath these stories is assembled below.
+
 ==== Assisted Dying and ME/CFS
 <subsec:assisted-dying>
 
 In jurisdictions where assisted dying is legal (Belgium, Netherlands, Switzerland, Canada, and others), ME/CFS patients have increasingly sought this option as the only escape from their suffering. This is not evidence of psychiatric illness requiring prevention—it is evidence of a medical system that has failed to provide any other form of relief.
 
+The case-level narrative now has peer-reviewed company on three fronts. First, the assisted-death end point itself: a 2026 case report documents a patient in her late thirties who developed severe ME/CFS after Epstein-Barr virus infection, deteriorated over two years of multidisciplinary treatment despite an elevated cytokine profile, and ultimately pursued assisted suicide @Opala2026SevereMECFSAssistedSuicide.
+
+#clinical-finding(title: [Severe ME/CFS Leading to Assisted Suicide: First Peer-Reviewed Case Report])[
+A case report describes severe, post-infectious ME/CFS (onset after Epstein-Barr virus infection; elevated IL-2, IL-6, and IFN-gamma without a recognized autoimmune or autoinflammatory entity) that progressed over two years of multidisciplinary treatment---medical, psychological, and rehabilitative---toward deterioration and treatment-related hypersensitivities, ending in the patient's pursuit of assisted suicide @Opala2026SevereMECFSAssistedSuicide. (Evidence type: case report---single patient; not yet replicated; tier cap 0.45.) (Severity applicability: very severe---the case describes late-stage disease; no transfer to mild or moderate patients is implied.) *Certainty: 0.40.*
+*Consequence:* Assisted death in severe ME/CFS now has a citable clinical report rather than news accounts alone, which means clinicians, ethicists, and policymakers can no longer dismiss these deaths as anecdotal when they weigh end-of-life policy for this disease.
+] <cf:assisted-death-case-report>
+
+Second, the more common end point, suicide, is quantitatively documented in the post-viral context: in a two-year prospective cohort of 63 survivors of Middle East respiratory syndrome, participants meeting chronic-fatigue-syndrome criteria at baseline had a 7.5-fold higher rate of suicidality over follow-up (95% CI 2.4--23.1, adjusted RR 7.6) @Ahn2021MersCfsSuicidality — small, unreplicated, but the largest effect estimate available for any post-infectious fatigue population. It is consistent with archival ME/CFS data identifying limited overall functioning, stigma attached to the CFS label, and absence of comorbid illness as risk factors for suicide @Johnson2022SuicideRiskStigma.
+
+Third, the legal frame is documented. Dutch euthanasia review committee case summaries for non-terminal multiple geriatric syndromes show the category these deaths occupy: across 53 published case summaries, not one patient had a life-threatening condition, and chronic tiredness was present in 42% @VanDenBerg2021EASGeriatric. A cross-jurisdiction scoping review of euthanasia requests found no leading ME/CFS category at all---ME/CFS assisted deaths occur under the generic heading of unbearable suffering and remain case-level facts, with no epidemiologic estimate available @Rahimian2024EuthanasiaScoping.
+
+Three questions remain open. First, scale: how many ME/CFS patients die by assisted death? No registry-level count exists—ME/CFS appears in no leading euthanasia category, and commission reports have not been systematically extracted for condition-level data @Rahimian2024EuthanasiaScoping. Until such an extraction exists, every statement about prevalence—including any suggestion that assisted death is a population-level phenomenon in this disease—remains unquantified.
+
+#open-question(title: [Registry-Level Epidemiology of Assisted Death in ME/CFS])[
+Do national euthanasia registries (Belgian Federal Control and Evaluation Committee; Dutch Regional Euthanasia Review Committees) contain condition-level codings that would permit the first systematic count of ME/CFS assisted deaths? A structured extraction of published annual reports is feasible now, with existing documents and no primary data collection @Rahimian2024EuthanasiaScoping.
+*Consequence:* a registry count would convert a case-level narrative into an auditable statistic—and either confirm or retire any claim that assisted death is common in this disease.
+] <oq:eas-registry-epidemiology>
+
+Second, prevention: whether low-burden suicidality screening at severe-disease care transitions (diagnosis, deterioration events, benefit rejections) changes outcomes is untested. Existing data identify who is at risk—patients with limited overall functioning, stigma exposure, and no comorbid illness @Johnson2022SuicideRiskStigma—but no study has evaluated screening in this population.
+
+#open-question(title: [Suicidality Screening in Severe ME/CFS])[
+Can a caregiver-administered, pen-and-paper screening checkpoint at care transitions identify suicidal ideation in very severe patients early enough to intervene? No implementation study exists; the population's communication and energy constraints make standard screening instruments questionable without adaptation.
+*Consequence:* severe patients currently attract suicide-risk attention mainly at crisis points; a validated low-burden checkpoint would move prevention upstream of the crisis.
+] <oq:severe-me-suicide-screening>
+
+Third, at the level of mechanism: stigma and dismissal correlate with suicide risk—including after controlling for depression @Johnson2022SuicideRiskStigma @McManimen2018UnsupportiveStigma—but the existing evidence is cross-sectional and archival; no longitudinal cohort has tested the mediation pathway.
+
+#speculation(title: [Medical Dismissal as a Modifiable Driver of Suicidality in Severe ME/CFS])[
+The mediation pathway—dismissal and psychiatricization erode hope and care access, elevating suicidality independent of symptom severity—would make clinician communication a modifiable suicide-prevention target. It is consistent with the CFS-label stigma effect on suicide risk @Johnson2022SuicideRiskStigma and with first-person testimony at the end of life @TwentyMinutes2026MEArnaudDenis. It shares its upstream driver with the registered hypothesis that healthcare dismissal acts as a chronic stressor accelerating disease progression (ch01)—same driver, distinct endpoint (suicidality rather than biological progression). *Falsifiable prediction:* longitudinal cohorts measuring perceived medical dismissal will show a dose-dependent gradient in suicidal ideation after adjustment for symptom severity; if severity alone suffices and dismissal adds no predictive contribution, the pathway is refuted. (Certainty: 0.30 — associational evidence from one archival cohort plus testimony; mediation untested; not replicated.) (Origin: brainstorm.) (Severity applicability: severe/very severe—the relevant care-contact failures are most frequent there.)
+*Consequence:* if supported, communication and belief interventions become testable suicide-prevention levers—among the few interventions available to clinicians today that require no drug.
+] <spec:dismissal-suicidality-pathway>
+
 The medical-ethical questions are profound:
 
     - If a disease causes suffering worse than terminal cancer, with no approved treatments and no prospect of relief, is assisted dying a reasonable option?
     - Should society invest in preventing ME/CFS suicides by forcing patients to continue suffering, or by actually treating their disease?
-    - What does it say about our healthcare system that death has become the preferred treatment for hundreds of thousands of patients?
+    - What does it say about our healthcare system that death has become the preferred option for the most severely affected documented patients—case by case, with no registry-level count yet existing for this disease @Rahimian2024EuthanasiaScoping?
+
+#synthesis(title: [What the Assisted-Death Cases Establish—and What They Do Not])[
+Four documented end-of-life cases—Samuel (Austria), Pauline Hongnat (France), Arnaud Denis (France/Belgium), and the patient in the Swiss case report—show very severe ME/CFS ending in assisted death or suicide, but they establish different things at different evidential grades @FranceInfo2026ArnaudDenisEuthanasia @TwentyMinutes2026MEArnaudDenis @Opala2026SevereMECFSAssistedSuicide. Supported: assisted death is a real, documented end point of very severe disease, now anchored by a peer-reviewed case report (@cf:assisted-death-case-report); post-viral fatigue carries a large prospective suicidality signal in one small cohort; and medical dismissal tracks suicide risk even after controlling for depression. Still speculative: the dismissal-to-suicidality mediation pathway itself (@spec:dismissal-suicidality-pathway), and any statement about how common assisted death is in this disease (@oq:eas-registry-epidemiology). The central unanswered question is epidemiological—until euthanasia registries are extracted for condition-level counts, every narrative here rests on cases that made the news, which overrepresent patients with public voice. *Consequence:* these deaths can now be discussed as documented clinical outcomes with citable evidence, while honesty about the case-level base prevents the moral argument from outrunning the data.
+] <syn:arnaud-denis-euthanasia-model>
 
 === Impact on Caregivers and Families
 <sec:impact-others>

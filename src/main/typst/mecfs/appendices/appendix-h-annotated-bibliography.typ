@@ -43994,3 +43994,97 @@ This stream assembles evidence for the claim that pathological fatigue across au
         - *Sample:* ~38M vaccinated
         - *Replication:* Multiple
         - *Score:* 0.75 (raw; population 0.75 → discounted 0.56)
+
+=== Opala et al. 2026 — Severe ME/CFS Leading to Assisted Suicide (Cureus)
+    / *Full Citation:*: Opala D, Villiger E, Levenfus I. Severe Myalgic Encephalomyelitis/Chronic Fatigue Syndrome Leading to Assisted Suicide in a Patient in Her Late 30s: A Case Report. _Cureus_. 2026. @Opala2026SevereMECFSAssistedSuicide
+    / *DOI:*: 10.7759/cureus.109798 — PMID 42222634 (open access, PMC13217520)
+    / *Key Findings:*:
+        - Severe ME/CFS following Epstein-Barr virus infection in a patient in her late 30s
+        - Cytokine elevations (IL-2, IL-6, IFN-gamma) without a recognized autoimmune or autoinflammatory disease entity
+        - Two years of multidisciplinary treatment (medical, psychological, rehabilitative) produced deterioration; treatment-related hypersensitivities emerged
+        - The patient ultimately pursued assisted suicide
+    / *Conclusion:*: Severe, treatment-refractory ME/CFS can lead a patient to seek assisted death; the case documents the end point of untreated severe disease.
+    / *Limitations:*: Single case; Cureus (case-report venue); not replicated; diagnostic criteria not stated in the abstract; no follow-up data on the assisted-death process itself.
+    / *ME/CFS Relevance:*: First peer-reviewed case report located of assisted death in severe ME/CFS — upgrades the paper's end-of-life narrative (previously news/reddit-sourced only) with a citable clinical report.
+    / *Certainty Assessment:*:
+        - *Quality:* Low-Medium (single case report, adequate for design)
+        - *Sample:* 1
+        - *Replication:* None
+        - *Score:* 0.40 (raw; population 1.00 ME/CFS → discounted 0.40; tier case-report → cap 0.45)
+
+=== Ahn et al. 2021 — CFS and Suicidality in MERS Survivors (J Psychiatr Res)
+    / *Full Citation:*: Ahn SH, Kim JL, Kim JR, Lee SH, Yim HW, Jeong H, Chae JH, Park HY, Lee JJ, Lee H. Association between chronic fatigue syndrome and suicidality among survivors of Middle East respiratory syndrome over a 2-year follow-up period. _Journal of Psychiatric Research_. 2021. @Ahn2021MersCfsSuicidality
+    / *DOI:*: 10.1016/j.jpsychires.2021.02.029 — PMID 33631632 (open access, PMC7888998)
+    / *Key Findings:*:
+        - Prospective 2-year cohort, 63 MERS survivors; 29 met CFS criteria at 12 months (Fatigue Severity Scale)
+        - Suicidality (MINI module): 22.2 percent, 15.1 percent, 10.0 percent at 12/18/24 months
+        - CFS at baseline predicted suicidality: RR 7.5 (95 percent CI 2.4–23.1); adjusted RR 7.6 (95 percent CI 2.2–26.0), generalized estimating equations
+    / *Conclusion:*: Post-viral chronic fatigue is a strong independent predictor of suicidality in a post-epidemic cohort — the closest prospective quantitative precedent for suicide risk in post-infectious fatigue states.
+    / *Limitations:*: Small n (63); wide confidence interval; FSS-based CFS operationalization (not case-definition ME/CFS); MERS-specific population; single cohort, not independently replicated.
+    / *ME/CFS Relevance:*: Quantitative post-infectious anchor for the ch06/ch01 suicidality discussion; complements Johnson/Jason 2022 archival cohort (already in bib).
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (prospective, adjusted analysis)
+        - *Sample:* 63
+        - *Replication:* None
+        - *Score:* 0.55 (raw; population 0.85 post-viral → discounted 0.47; tier prospective → cap 0.60)
+
+=== van den Berg et al. 2021 — Euthanasia/Assisted Suicide in Multiple Geriatric Syndromes (JAMA Intern Med)
+    / *Full Citation:*: van den Berg V, van Thiel G, Zomers M, Hartog I, Leget C, Sachs A, Uiterwaal C, van Wijngaarden E. Euthanasia and Physician-Assisted Suicide in Patients With Multiple Geriatric Syndromes. _JAMA Internal Medicine_. 2021. @VanDenBerg2021EASGeriatric
+    / *DOI:*: 10.1001/jamainternmed.2020.6895 — PMID 33284324 (open access, PMC7851730)
+    / *Key Findings:*:
+        - Qualitative content analysis of 53 Dutch Regional Euthanasia Review Committee case summaries (2013–2019)
+        - None of the patients had a life-threatening condition
+        - Chronic tiredness present in 42 percent of cases; visual impairment 64 percent; pain 47 percent
+    / *Conclusion:*: Regulated euthanasia practice in the Netherlands explicitly extends to unbearable suffering from accumulating non-terminal chronic syndromes — the legal framework class within which severe-ME assisted deaths in BE/NL occur.
+    / *Limitations:*: Geriatric population (translation to ME/CFS is contextual, not direct); published case summaries are a curated subset of 1,605 reported cases; qualitative design.
+    / *ME/CFS Relevance:*: Policy context for the cross-border asymmetry (BE/NL lawful access vs France) discussed around the Denis case.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (rigorous qualitative registry analysis, top-tier journal)
+        - *Sample:* 53 cases
+        - *Replication:* None
+        - *Score:* 0.55 (raw; population 0.75 general → discounted 0.41; tier retrospective → cap 0.60)
+
+=== Rahimian et al. 2024 — Conditions Leading to Euthanasia Requests, Scoping Review (Health Sci Rep)
+    / *Full Citation:*: Rahimian Z, Rahimian L, Lopez-Castroman J, Ostovarfar J, Fallahi MJ, Nayeri MA, Vardanjani HM. What medical conditions lead to a request for euthanasia? A rapid scoping review. _Health Science Reports_. 2024. @Rahimian2024EuthanasiaScoping
+    / *DOI:*: 10.1002/hsr2.1978 — PMID 38515545 (open access, PMC10955044)
+    / *Key Findings:*:
+        - PRISMA-ScR; 197 papers included from 3,323 records (2000–2022)
+        - Leading conditions in euthanasia requests: terminal cancer 45.4 percent; Alzheimer disease/dementia 19.8 percent; constant unbearable physical or mental suffering 19.8 percent; treatment-resistant mood disorders 12.2 percent
+        - ME/CFS appears in no leading category
+    / *Conclusion:*: Assisted death for ME/CFS (as in the Samuel and Denis cases) rides the generic unbearable-suffering category; no epidemiologic estimate of ME/CFS euthanasia exists.
+    / *Limitations:*: Scoping review — no quality appraisal of included studies; heterogeneous jurisdictions and legal frameworks aggregated.
+    / *ME/CFS Relevance:*: Frames the honest baseline — documented ME/CFS assisted deaths are case-level facts, not registry-level statistics.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium-High (systematic search, transparent flow)
+        - *Sample:* 197 papers
+        - *Replication:* N/A (review)
+        - *Score:* 0.60 (raw; population 0.75 general → discounted 0.45; tier systematic-review → no cap)
+
+=== FranceInfo/Radio France 2026 — Arnaud Denis euthanasié en Belgique (news documentation)
+    / *Full Citation:*: Pietri J, Cellule investigation de Radio France. ``Je rends les armes'' : le comédien Arnaud Denis euthanasié en Belgique. franceinfo. 2026-09-22. @FranceInfo2026ArnaudDenisEuthanasia
+    / *DOI:*: none (URL in bib) — cross-checked via La Croix, RTL (lawyer statement via AFP)
+    / *Key Findings:*:
+        - French actor and stage director, 43, died 2026-09-22 by euthanasia in Belgium (Namur), surrounded by family
+        - Severe unremitting pain for 3 years after 2023 polypropylene hernia-mesh implant; severe disability and weight loss
+        - Founded the 6,000-member ``Victimes de prothèses de hernies'' group; ANSM adverse-event reports rose after his advocacy; his complaint was dismissed (classement sans suite)
+        - Surgeon-society counterview (2025 communiqué): mesh is the recommended standard; chronic pain in 5–10 percent, disabling in 1–5 percent; about 200,000 meshes implanted yearly in France
+    / *Conclusion:*: A nationally visible, documented end-of-life case in a patient who ultimately received a severe-ME diagnosis (per 20minutes report of his final statement).
+    / *Limitations:*: News documentation, not peer review; the ME diagnosis rests on the patient's own final testimony as relayed by media — no independent medical confirmation located; causal relation between mesh complications and ME is NOT established and must not be asserted.
+    / *ME/CFS Relevance:*: Extends the ch06 severe-reality end-of-life narrative (Samuel 2024, Hongnat 2026-03) with the most recent French case; names medical dismissal in the patient's own words.
+    / *Certainty Assessment:*:
+        - *Event facts:* High (multi-outlet consistent, lawyer statement via AFP)
+        - *ME attribution:* Patient-reported only — treated as testimony, not evidence
+
+=== 20Minutes 2026 — Qu'est-ce que l'encéphalite myalgique (news documentation)
+    / *Full Citation:*: Furic M. Mort d'Arnaud Denis : Qu'est-ce que l'encéphalite myalgique, dont souffrait le comédien ? 20 Minutes. 2026-09-23. @TwentyMinutes2026MEArnaudDenis
+    / *DOI:*: none (URL in bib)
+    / *Key Findings:*:
+        - Reports Denis ``avait fini par être diagnostiqué d'une Encephalomyélite myalgique'' (had ultimately been diagnosed with ME)
+        - Quotes his final statement: severe-state ME as ``l'horreur absolue''; ``À tous les malades de l'Encéphalomyélite Myalgique... Il y a urgence sanitaire''
+        - ``Honte à ceux qui psychiatrisent les malades, au lieu de se tenir au courant de la recherche internationale''
+        - Lists complications he described: craniocervical instability, occult tethered cord, CSF leaks, vascular compressions with cerebral hypoperfusion; warns patients die of malnutrition at home
+    / *Conclusion:*: Primary testimony relayed through national media — the medical-dismissal and psychiatricization themes in a patient's own words, at the end of life.
+    / *Limitations:*: Journalist explainer; ME diagnosis patient-reported; post-infectious attribution hedged in source itself (``selon lui''); symptom list is patient testimony, not clinical documentation.
+    / *ME/CFS Relevance:*: Direct first-person account of severe-ME suffering, medical denial, and the assisted-death decision — usable as quoted testimony with attribution.
+    / *Certainty Assessment:*:
+        - *Testimony:* Attributed quotes — treated as patient voice, not evidence

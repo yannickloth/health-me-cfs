@@ -1,0 +1,13 @@
+# Fragments: arnaud-denis-euthanasia (2026-10-13)
+
+Format: @CiteKey | figure(s) | "literal quoted fragment" | page/section
+
+@Ahn2021MersCfsSuicidality | RR 7.5 (95% CI 2.4-23.1); aRR 7.6 (2.2-26.0) | "The group that reported chronic fatigue syndrome at T1 was more likely to experience suicidality during the 2-year follow-up than the group that reported otherwise (RR: 7.5, 95% CI: 2.4-23.1)" | PubMed abstract (PMC7888998)
+@Ahn2021MersCfsSuicidality | 22.2/15.1/10.0%; n=63; 29 CFS | "The suicidality rates were 22.2% (n = 14), 15.1% (n = 8), and 10.0% (n = 5) at T1-T3, respectively. Of the 63 participants, 29 had chronic fatigue syndrome at T1" | PubMed abstract
+@Opala2026SevereMECFSAssistedSuicide | outcome | "The severity and progressive nature of her symptoms, compounded by the absence of effective therapeutic options, ultimately led the patient to pursue assisted suicide" | PubMed abstract (PMC13217520)
+@Opala2026SevereMECFSAssistedSuicide | cytokines | "the observed constellation of cytokine elevations (IL-2, IL-6, and IFN-gamma) was not consistent with any known or established disease entity" | PubMed abstract
+@VanDenBerg2021EASGeriatric | 53 cases; no life-threatening condition; tiredness 42% | "The RTEs published 53 cases (41 [77%] female)... None of the patients suffered from life-threatening conditions... chronic tiredness (22 cases [42%]), were common" | PubMed abstract (PMC7851730)
+@Rahimian2024EuthanasiaScoping | 197/3,323; condition shares | "Out of 3323 records, a total of 197 papers were included. The most common medical conditions in euthanasia requests are cancer in a terminal phase (45.4%), Alzheimer's disease and dementia (19.8%), constant unbearable physical or mental suffering (19.8%), treatment-resistant mood disorders (12.2%)" | PubMed abstract (PMC10955044)
+@FranceInfo2026ArnaudDenisEuthanasia | 200,000/yr; 5-10%; 1-5%; 6,000 members | "200 000 personnes sont \"implantées\" chaque année en France"; "Elles surviennent chez 5 à 10% des patients et sont invalidantes dans 1 à 5% des cas"; "qui rassemble aujourd'hui plus de 6 000 membres" | franceinfo article body
+@TwentyMinutes2026MEArnaudDenis | ME diagnosis; testimony | "Il avait fini par être diagnostiqué d'une Encephalomyelite myalgique"; "À moins de vivre 6 mois dans le corps d'un malade d'Encephalomyelite myalgique en état sévère"; "Honte à ceux qui psychiatrisent les malades" | 20minutes article body
+@FranceInfo2026ArnaudDenisEuthanasia | age 43; date 2026-09-22; Namur | "le comédien Arnaud Denis euthanasié en Belgique... Arnaud Denis, comédien et metteur en scène de 43 ans, est mort ce mardi, euthanasié en Belgique, entouré de ses proches" | franceinfo article body + standfirst (2026-09-22)

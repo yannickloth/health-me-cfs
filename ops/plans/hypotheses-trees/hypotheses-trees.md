@@ -399,3 +399,4 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | sleep-mindfulness-resting | [subtrees/sleep-mindfulness-resting.md](subtrees/sleep-mindfulness-resting.md) | 2026-10-10 | 17 | 0 | ⬜ pending |
 | muscle-electrostimulation-fatigue | [subtrees/muscle-electrostimulation-fatigue.md](subtrees/muscle-electrostimulation-fatigue.md) | 2026-10-11 | 14 | 0 | ⬜ pending |
 | ems-muscle-damage-pem | [subtrees/ems-muscle-damage-pem.md](subtrees/ems-muscle-damage-pem.md) | 2026-10-11 | 15 | 0 | ⬜ pending |
+| arnaud-denis-euthanasia | [subtrees/arnaud-denis-euthanasia.md](subtrees/arnaud-denis-euthanasia.md) | 2026-10-13 | 8 | 6 | ✅ done |

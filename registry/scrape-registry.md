@@ -1465,3 +1465,17 @@ Prevents re-processing of already-integrated content.
 | PubMed/BioMCP/Europe PMC queries (17 queries + efetch, 11 papers) | pubmed/eutils, biomcp, europepmc | 2026-10-12 | — | ops/research/search-log-cell-tissue-enrichment-li2023-atac-2026-10-12.md, ops/research/literature-summary-cell-tissue-enrichment-li2023-atac-2026-10-12.md, bib/genetics-epigenetics.bib (11), appendix-h `<sec:bib-cell-tissue-enrichment-li2023-atac>` (11 annotated entries), ops/integration-guides/integration-guide-cell-tissue-enrichment-li2023-atac-2026-10-12.md |
 | https://s4me.info/threads/a-comparative-atlas-of-single-cell-chromatin-accessibility-in-the-human-brain-li-et-al-2023.53034/#post-728476 | s4me.info | 2026-10-12 | 2026-10-12 | driving source (thread 53034) — Li2023ATACbrain + 10 supporting bib entries |
 | https://www.science.org/doi/10.1126/science.adf7044 (Li et al. 2023) | science.org | 2026-10-12 | 2026-10-12 | Li2023ATACbrain bib entry + appendix-h annotation |
+
+## Arnaud Denis Euthanasia Case — Severe ME End-of-Life (arnaud-denis-euthanasia) Literature Search
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (BioMCP: PubTator3/EuropePMC/PubMed/S2 hybrid; S2 degraded) | 2026-10-13 | 3 queries (euthanasia×CFS; suicide×ME/CFS; euthanasia×Belgium×chronic). 4 new papers (Opala2026 case report severe-ME→assisted suicide; Ahn2021 MERS-CFS suicidality RR 7.5; VanDenBerg2021 Dutch RTE EAS non-terminal; Rahimian2024 EAS-conditions scoping review). Reused NOT re-added: Johnson2022 (stigma.bib PMID 32527207), 40310228 (general.bib). De Corte case screened out (mental-disorder EAS frame). |
+| franceinfo.fr (Radio France investigation cell) | 2026-10-13 | Full text fetched. Event facts verified: died 2026-09-22 Namur BE, 43 y, post-2023 hernia-mesh suffering; 6,000-member FB group; ANSM signal rise; classement sans suite; Debuisson collective action; SFCD 2025 communiqué counterframe (chronic pain 5–10%, disabling 1–5%; ~200k meshes/yr). |
+| 20minutes.fr | 2026-10-13 | Full text fetched. ME attribution: "avait fini par être diagnostiqué d'une Encephalomyélite myalgique"; final-statement quotes; psychiatricization denunciation; post-infectious attribution hedged ("selon lui"). |
+| DuckDuckGo news index | 2026-10-13 | 9 results screened; 5 celebrity outlets title-only cross-check (not cited). |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| https://www.franceinfo.fr/enquetes-franceinfo/je-rends-les-armes-le-comedien-arnaud-denis-euthanasie-en-belgique_8204882.html | franceinfo.fr | 2026-10-13 | — | bib/general.bib (@FranceInfo2026ArnaudDenisEuthanasia), appendix-h, ch06 sec-06 (planned) |
+| https://www.20minutes.fr/sante/4247968-20260923-mort-arnaud-denis-encephalite-myalgique-dont-souffrait-comedien | 20minutes.fr | 2026-10-13 | — | bib/general.bib (@TwentyMinutes2026MEArnaudDenis), appendix-h, ch06 sec-06 (planned) |
+| PubMed BioMCP queries (3 + efetch, 4 PMIDs) | pubmed/eutils (biomcp) | 2026-10-13 | — | ops/research/search-log-arnaud-denis-euthanasia-2026-10-13.md, ops/research/literature-arnaud-denis-euthanasia-2026-10-13.md, bib/general.bib (3), bib/stigma.bib (1), appendix-h (6 annotated entries) |
