@@ -14122,5 +14122,206 @@
     "label": "Prostaglandin D₂",
     "category": "mediator",
     "definition": "Ein von Mastzellen stammender Lipidmediator, der über DP- und CRTH2-Rezeptoren wirkt. Er ist ein wichtiger MCAS-Mediator, der durch H1/H2-CysLT1-Blockade nicht erfasst wird."
+  },
+  "FDG-PET": {
+    "label": "FDG-PET",
+    "category": "imaging",
+    "definition": "Fluordesoxyglucose-Positronen-Emissions-Tomographie: ein PET-Scan mit radioaktiv markierter Glukose, der den regionalen Glukosestoffwechsel des Gehirns kartiert. Eine reduzierte Aufnahme (Hypometabolismus) ist ein um Jahrzehnte frühes Kennzeichen der Alzheimer-Krankheit und wird auch bei ME/CFS berichtet."
+  },
+  "MCI": {
+    "label": "MCI",
+    "category": "condition",
+    "definition": "Eine messbare Abnahme von Gedächtnis oder Denkvermögen über das normale Altern hinaus, die noch nicht schwer genug ist, um die Demenzkriterien zu erfüllen; ein häufiger Vorläufer der Demenz."
+  },
+  "LBD": {
+    "label": "LBD",
+    "category": "condition",
+    "definition": "Eine Demenz, die durch abnorme Ablagerungen des Proteins Alpha-Synuclein (Lewy-Körperchen) verursacht wird und mit fluktuierender Kognition, visuellen Halluzinationen, Parkinsonismus und REM-Schlafverhaltensstörung einhergeht."
+  },
+  "RBD": {
+    "label": "RBD",
+    "category": "symptom",
+    "definition": "Ausagieren lebhafter Träume, weil die normale Muskelparalyse des REM-Schlafs verloren geht; ein starker früher Marker der Parkinson-Krankheit und der Lewy-Körperchen-Demenz."
+  },
+  "dementia": {
+    "label": "Demenz",
+    "category": "condition",
+    "definition": "Ein fortschreitender Abbau von Gedächtnis und Denkvermögen, der schwer genug ist, um die Alltagsfunktion zu beeinträchtigen; die Alzheimer-Krankheit und die Lewy-Körperchen-Demenz sind die häufigsten Formen."
+  },
+  "Lewy body": {
+    "label": "Lewy-Körperchen",
+    "category": "anatomy",
+    "definition": "Ein abnormales Aggregat des Proteins Alpha-Synuclein im Inneren von Neuronen, das pathologische Kennzeichen der Parkinson-Krankheit und der Lewy-Körperchen-Demenz."
+  },
+  "alpha-synuclein": {
+    "label": "Alpha-Synuclein",
+    "category": "protein",
+    "definition": "Ein neuronales Protein, dessen Fehlfaltung zu Aggregaten (Lewy-Körperchen) die Parkinson-Krankheit und die Lewy-Körperchen-Demenz antreibt; früh nachweisbar über Seed-Amplifikations-Assays."
+  },
+  "neurodegeneration": {
+    "label": "Neurodegeneration",
+    "category": "mechanism",
+    "definition": "Der fortschreitende Verlust von Neuronen; bei der Alzheimer- und der Parkinson-Krankheit wird angenommen, dass er sowohl durch metabolisches und mitochondriales Versagen als auch durch Proteinaggregation gesteuert wird."
+  },
+  "CBT-I": {
+    "label": "CBT-I",
+    "category": "treatment",
+    "definition": "Kognitive Verhaltenstherapie für Insomnie: eine strukturierte verhaltensbezogene Schlafintervention, die auf Schlafverhalten und Schlafüberzeugungen abzielt. Bei der Golfkriegskrankheit nachweislich zur Verbesserung von Fatigue und kognitiven Symptomen, aber bei ME/CFS noch nicht untersucht."
+  },
+  "COPM": {
+    "label": "COPM",
+    "category": "measurement",
+    "definition": "Canadian Occupational Performance Measure: ein klientenzentriertes Ergebnisinstrument zur Selbsteinschätzung von Leistung und Zufriedenheit bei Alltagsaktivitäten, das in Aktivitäts-Pacing-Studien beim chronischen Fatigue-Syndrom eingesetzt wird."
+  },
+  "glymphatic": {
+    "label": "Glymphatisches System",
+    "category": "pathway",
+    "definition": "Das hirnweite Clearance-System, bei dem Liquor cerebrospinalis entlang der perivaskulären Räume fließt und während des Schlafs Stoffwechselabfälle beseitigt. Indirekt über DTI-ALPS gemessen; laut einer einzelnen Querschnittsstudie bei ME/CFS beeinträchtigt."
+  },
+  "HRV-BF": {
+    "label": "HRV-BF",
+    "category": "treatment",
+    "definition": "Herzfrequenzvariabilitäts-Biofeedback: eine Technik der geführten Atmung, die die Herzfrequenzvariabilität trainiert, um den parasympathischen (vagalen) Tonus zu erhöhen. Die Studienevidenz bei ME/CFS und Fibromyalgie ist gemischt bis null."
+  },
+  "mindfulness": {
+    "label": "Achtsamkeit",
+    "category": "treatment",
+    "definition": "Eine Meditationspraxis, die gegenwärtige, nicht wertende Aufmerksamkeit schult. Bei fatiguebezogenen Erkrankungen verbessert sie sekundäre Endpunkte (Schlaf, Belastung, Lebensqualität) mit engem, kurzfristigem Nutzen und ohne nachgewiesenen Effekt auf die Kernerkrankung."
+  },
+  "meditation": {
+    "label": "Meditation",
+    "category": "treatment",
+    "definition": "Eine Familie von Aufmerksamkeitstrainingspraktiken, einschließlich der Achtsamkeit. Bei ME/CFS unterstützend für Schlaf und Belastung eingesetzt; Evidenz für einen Effekt auf die Kernerkrankung fehlt."
+  },
+  "NMES": {
+    "label": "NMES",
+    "category": "treatment",
+    "definition": "Neuromuskuläre Elektrostimulation: elektrische Impulse, die am Muskel angelegt werden, um eine Kontraktion ohne willkürliche Anstrengung zu erzeugen. Vorgeschlagen (nur im Forschungsstadium) als muskelerhaltende Maßnahme für bettlägerige ME/CFS-Patienten; ob eine elektrisch ausgelöste Kontraktion PEM auslöst, ist ungetestet."
+  },
+  "EMS": {
+    "label": "EMS",
+    "category": "treatment",
+    "definition": "Elektrische Muskelstimulation: siehe NMES. Elektrische Stimulation des Muskels zur Kontraktion; erhöht die Sauerstoffaufnahme und die Herzfrequenz vergleichbar mit willkürlicher Anstrengung und ist daher nicht ohne metabolische Kosten."
+  },
+  "M-wave": {
+    "label": "M-wave",
+    "category": "measurement",
+    "definition": "Das Muskel-Summenaktionspotential, das nach direkter elektrischer Stimulation eines motorischen Nervs oder Muskels abgeleitet wird und die periphere Membranerregbarkeit widerspiegelt. Reduzierte Amplitude und verlängerte Dauer bei ME/CFS weisen auf einen peripheren Membrandefekt hin."
+  },
+  "rhabdomyolysis": {
+    "label": "Rhabdomyolyse",
+    "category": "condition",
+    "definition": "Abbau der Skelettmuskulatur, bei dem Muskelinhaltsstoffe in den Blutkreislauf freigesetzt werden, die die Nieren schädigen können. Ein seltener Schaden, der bei der elektrischen Muskelstimulation berichtet wird."
+  },
+  "micro-tear": {
+    "label": "Mikroriss",
+    "category": "condition",
+    "definition": "Mikroskopische Schädigung von Muskelfasern (Sarkomer-Disruption), verursacht durch ungewohnte oder exzentrische Kontraktion, die die belastungsinduzierte Kaskade aus Muskelschädigung und Entzündung auslöst. Elektrische Stimulation kann dieselben Mikrorisse wie Bewegung hervorrufen."
+  },
+  "myofiber": {
+    "label": "Muskelfaser",
+    "category": "anatomy",
+    "definition": "Eine einzelne Skelettmuskelzelle (Muskelfaser). Muskelfaserschädigung und -nekrose sind die histologische Signatur einer durch Bewegung oder Stimulation verursachten Muskelverletzung."
+  },
+  "BPS": {
+    "label": "BPS",
+    "category": "concept",
+    "definition": "Biopsychosoziales Modell: ein Erklärungsrahmen, der postuliert, dass Symptome aus dem Zusammenspiel biologischer, psychologischer und sozialer Prozesse entstehen. Bei ME/CFS ist es umstritten, weil es in Ermangelung eines identifizierbaren biologischen Substrats dazu dienen kann, eine psychologische Zuschreibung zu rechtfertigen, die gegen empirische Überprüfung abgeschirmt ist."
+  },
+  "HCP": {
+    "label": "HCP",
+    "category": "concept",
+    "definition": "Angehöriger eines Gesundheitsberufs: ein Kliniker (Arzt, Psychologe, Physiotherapeut, Pflegekraft oder ähnlich), der an der Beurteilung und Behandlung von Patienten beteiligt ist."
+  },
+  "PVS": {
+    "label": "PVS",
+    "category": "condition",
+    "definition": "Post-Vaccination Syndrome (Syndrom nach Impfung): ein berichtetes chronisches Syndrom aus Fatigue, Belastungsintoleranz, Brain Fog, Dysautonomie und Small-Fiber-Neuropathie, das Tage bis Wochen nach einer Impfung bei einer kleinen Minderheit der Empfänger auftritt und klinisch mit ME/CFS und Long COVID überlappt. Der Entitätsstatus ist ungeklärt und eine kausale Rolle der Impfung ist nicht belegt.",
+    "also": "Auch geschrieben PCVS (Post-COVID-19-Impfstoff-Syndrom), PACVS (Post-akutes-COVID-19-Impfstoff-Syndrom) oder umgangssprachlich Long Vax."
+  },
+  "PCVS": {
+    "label": "PCVS",
+    "category": "condition",
+    "definition": "Post-COVID-19-Impfstoff-Syndrom: die COVID-19-impfstoffspezifische Form des Syndroms nach Impfung (PVS), berichtet als ME/CFS-ähnliche Erkrankung nach COVID-19-Impfung."
+  },
+  "PACVS": {
+    "label": "PACVS",
+    "category": "condition",
+    "definition": "Post-akutes COVID-19-Impfstoff-Syndrom: ein chronisches Syndrom, das nach SARS-CoV-2-Impfung berichtet wird und in einem deutschen Register durch Fatigue, Unwohlsein sowie Autoantikörper- und Zytokinveränderungen gekennzeichnet ist; überlappt mit ME/CFS."
+  },
+  "mRNA": {
+    "label": "mRNA",
+    "category": "concept",
+    "definition": "Boten-RNA: das Molekül, das genetische Anweisungen von der DNA zum Ribosom für die Proteinsynthese trägt. mRNA-Impfstoffe (z. B. BNT162b2, mRNA-1273) liefern eine mRNA, die für das SARS-CoV-2-Spike-Protein kodiert, sodass der Körper dieses Antigen vorübergehend selbst bildet."
+  },
+  "nocebo": {
+    "label": "Nocebo",
+    "category": "concept",
+    "definition": "Noceboeffekt: Symptome oder Nebenwirkungen, die durch negative Erwartung oder vorherige Überzeugung über eine Behandlung entstehen und nicht durch deren Pharmakologie. Das Gegenstück zum Placeboeffekt; ein Grund, warum Symptomberichte nach einer Impfung je nach vorheriger Besorgnis variieren können."
+  },
+  "immunoadsorption": {
+    "label": "Immunadsorption",
+    "category": "treatment",
+    "definition": "Eine Blutreinigungs- (Apherese-)Technik, die Immunglobuline, einschließlich Autoantikörper, aus dem Plasma entfernt. Als Therapie im Forschungsstadium bei ME/CFS und postakuten Syndromen untersucht; keine etablierte klinische Praxis."
+  },
+  "ROC-AUC": {
+    "label": "ROC-AUC",
+    "category": "measurement",
+    "definition": "Receiver Operating Characteristic — Area Under the Curve: eine zusammenfassende Statistik (0,5 = Zufall, 1,0 = perfekt) dafür, wie gut ein Test zwei Gruppen trennt. Wird verwendet, um die Diskriminationsfähigkeit von Biomarker-Panels anzugeben."
+  },
+  "anti-N": {
+    "label": "anti-N",
+    "category": "measurement",
+    "definition": "Anti-Nukleokapsid-Antikörper: ein Antikörper gegen das Nukleokapsid-Protein von SARS-CoV-2. Da mRNA-Impfstoffe nur das Spike-Protein kodieren, zeigt ein positiver Anti-N-Test eine frühere natürliche SARS-CoV-2-Infektion und nicht eine Impfung an — nützlich, um in Studien Infektion von Impfung zu unterscheiden."
+  },
+  "anti-S": {
+    "label": "anti-S",
+    "category": "measurement",
+    "definition": "Anti-Spike-Antikörper: ein Antikörper gegen das Spike-Protein von SARS-CoV-2, der sowohl nach natürlicher Infektion als auch nach spike-basierter (mRNA-/Vektor-)Impfung gebildet wird; anders als Anti-N unterscheidet er nicht zwischen Infektion und Impfung."
+  },
+  "IL-8": {
+    "label": "IL-8",
+    "category": "cytokine",
+    "definition": "Interleukin-8: ein proinflammatorisches Chemokin, das Neutrophile rekrutiert; in einigen Kohorten mit Syndrom nach Impfung und ME/CFS erhöht berichtet, wobei seine Rolle nicht gesichert ist."
+  },
+  "AT1-R": {
+    "label": "AT1-R",
+    "category": "protein",
+    "definition": "Angiotensin-II-Typ-1-Rezeptor: der Rezeptor, über den Angiotensin II den Blutdruck erhöht und die Aldosteronfreisetzung antreibt. Funktionelle Autoantikörper gegen AT1-R werden in einigen ME/CFS- und Post-Impfungs-Kohorten berichtet."
+  },
+  "alpha-2B": {
+    "label": "alpha-2B",
+    "category": "protein",
+    "definition": "Alpha-2B-adrenerger Rezeptor: ein Rezeptor für Noradrenalin/Adrenalin, der an der vaskulären und autonomen Regulation beteiligt ist. Autoantikörper dagegen werden in einigen ME/CFS- und Post-Impfungs-Syndrom-Kohorten berichtet."
+  },
+  "spike protein": {
+    "label": "Spike-Protein",
+    "category": "protein",
+    "definition": "Das Oberflächen-Glykoprotein von SARS-CoV-2, das den ACE2-Rezeptor bindet und das Antigen ist, das von den meisten COVID-19-Impfstoffen kodiert wird; seine Persistenz wurde als Treiber von Long COVID und Post-Impfungssymptomen vorgeschlagen, obwohl die Evidenz unvollständig ist."
+  },
+  "MSN": {
+    "label": "MSN",
+    "category": "cell_type",
+    "definition": "Medium Spiny Neuron: das wichtigste inhibitorische Ausgangsneuron des Striatums (Basalganglien). Genetische Zelltyp-Anreicherungsanalysen weisen MSNs als den spezifischsten neuronalen Subtyp aus, der für ME/CFS-Risikovarianten angereichert ist."
+  },
+  "S-LDSC": {
+    "label": "S-LDSC",
+    "category": "method",
+    "definition": "Stratified Linkage-Disequilibrium Score Regression: eine statistisch-genetische Methode, die die Heritabilität eines Merkmals über Zelltypen oder Gewebe aufteilt, indem sie prüft, ob in einem bestimmten Zelltyp exprimierte Gene für krankheitsassoziierte Varianten angereichert sind."
+  },
+  "snATAC-seq": {
+    "label": "snATAC-seq",
+    "category": "method",
+    "definition": "Single-Nucleus Assay for Transposase-Accessible Chromatin using sequencing: misst offenes (zugängliches) Chromatin in einzelnen Zellen und zeigt so an, welche regulatorischen DNA-Regionen in jedem Zelltyp aktiv sind."
+  },
+  "cCRE": {
+    "label": "cCRE",
+    "category": "genomics",
+    "definition": "Kandidat für ein cis-regulatorisches Element: eine DNA-Sequenz (Promotor oder Enhancer), von der vorhergesagt wird, dass sie die Genexpression reguliert, wie in Einzelzell-Chromatin-Atlanten katalogisiert."
+  },
+  "ANSM": {
+    "label": "ANSM",
+    "category": "agency",
+    "definition": "Agence nationale de sécurité du médicament — die französische nationale Behörde, die Arzneimittel und Medizinprodukte reguliert und Nebenwirkungsmeldungen sammelt, einschließlich Meldungen zu Herniennetzen."
   }
 }

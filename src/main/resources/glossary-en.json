@@ -12675,7 +12675,7 @@
   },
   "MSN": {
     "label": "MSN",
-    "category": "cell type",
+    "category": "cell_type",
     "definition": "Medium spiny neuron: the principal inhibitory output neuron of the striatum (basal ganglia). Cell-type genetic enrichment analyses implicate MSNs as the most specific neuronal subtype enriched for ME/CFS risk variants."
   },
   "S-LDSC": {

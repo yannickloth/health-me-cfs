@@ -14357,5 +14357,206 @@
     "label": "Prostaglandine D₂",
     "category": "mediator",
     "definition": "Médiateur lipidique dérivé des mastocytes agissant via les récepteurs DP et CRTH2. C'est un médiateur majeur du SAMA que le blocage H1/H2/CysLT1 ne cible pas."
+  },
+  "FDG-PET": {
+    "label": "FDG-PET",
+    "category": "imaging",
+    "definition": "Tomographie par émission de positons au fluorodésoxyglucose : une TEP utilisant du glucose radiomarqué pour cartographier le métabolisme glucidique cérébral régional. Une captation réduite (hypométabolisme) est une signature apparaissant des décennies plus tôt dans la maladie d'Alzheimer et est également rapportée dans l'EM/SFC."
+  },
+  "MCI": {
+    "label": "MCI",
+    "category": "condition",
+    "definition": "Déclin mesurable de la mémoire ou de la cognition allant au-delà du vieillissement normal, pas encore assez sévère pour répondre aux critères de démence ; un précurseur fréquent de la démence."
+  },
+  "LBD": {
+    "label": "LBD",
+    "category": "condition",
+    "definition": "Une démence causée par des dépôts anormaux de la protéine alpha-synucléine (corps de Lewy), se présentant par une cognition fluctuante, des hallucinations visuelles, un parkinsonisme et un trouble du comportement en sommeil paradoxal."
+  },
+  "RBD": {
+    "label": "RBD",
+    "category": "symptom",
+    "definition": "Le fait de mimer ses rêves vifs parce que la paralysie musculaire normale du sommeil paradoxal est perdue ; un marqueur précoce fort de la maladie de Parkinson et de la démence à corps de Lewy."
+  },
+  "dementia": {
+    "label": "Démence",
+    "category": "condition",
+    "definition": "Un déclin progressif de la mémoire et de la cognition suffisamment sévère pour altérer le fonctionnement quotidien ; la maladie d'Alzheimer et la démence à corps de Lewy en sont les formes les plus courantes."
+  },
+  "Lewy body": {
+    "label": "Corps de Lewy",
+    "category": "anatomy",
+    "definition": "Un agrégat anormal de protéine alpha-synucléine à l'intérieur des neurones, marqueur pathologique caractéristique de la maladie de Parkinson et de la démence à corps de Lewy."
+  },
+  "alpha-synuclein": {
+    "label": "Alpha-synucléine",
+    "category": "protein",
+    "definition": "Une protéine neuronale dont le mauvais repliement en agrégats (corps de Lewy) entraîne la maladie de Parkinson et la démence à corps de Lewy ; détectable précocement par des tests d'amplification par ensemencement."
+  },
+  "neurodegeneration": {
+    "label": "Neurodégénérescence",
+    "category": "mechanism",
+    "definition": "La perte progressive de neurones ; dans la maladie d'Alzheimer et la maladie de Parkinson, on propose qu'elle soit conditionnée par une défaillance métabolique et mitochondriale autant que par l'agrégation protéique."
+  },
+  "CBT-I": {
+    "label": "CBT-I",
+    "category": "treatment",
+    "definition": "Thérapie cognitivo-comportementale de l'insomnie : une intervention comportementale structurée du sommeil ciblant les comportements et les croyances liés au sommeil. A montré une amélioration de la fatigue et des symptômes cognitifs dans la maladie de la guerre du Golfe, mais n'a pas encore été testée dans l'EM/SFC."
+  },
+  "COPM": {
+    "label": "COPM",
+    "category": "measurement",
+    "definition": "Mesure canadienne du rendement occupationnel : une mesure de résultat centrée sur le client portant sur la performance et la satisfaction auto-perçues dans les activités quotidiennes, utilisée dans les essais de pacing de l'activité dans le syndrome de fatigue chronique."
+  },
+  "glymphatic": {
+    "label": "Système glymphatique",
+    "category": "pathway",
+    "definition": "Le système d'élimination des déchets à l'échelle du cerveau, dans lequel le liquide céphalo-rachidien s'écoule le long des espaces périvasculaires et élimine les déchets métaboliques pendant le sommeil. Mesuré indirectement par DTI-ALPS ; altéré dans l'EM/SFC selon une seule étude transversale."
+  },
+  "HRV-BF": {
+    "label": "HRV-BF",
+    "category": "treatment",
+    "definition": "Biofeedback de la variabilité de la fréquence cardiaque : une technique de respiration rythmée qui entraîne la variabilité de la fréquence cardiaque afin d'augmenter le tonus parasympathique (vagal). Les preuves issues des essais dans l'EM/SFC et la fibromyalgie vont de mitigées à nulles."
+  },
+  "mindfulness": {
+    "label": "Pleine conscience",
+    "category": "treatment",
+    "definition": "Une pratique de méditation qui entraîne une attention portée au moment présent, sans jugement. Dans les maladies liées à la fatigue, elle améliore les critères secondaires (sommeil, détresse, qualité de vie) avec une efficacité étroite et à court terme, sans effet démontré sur la maladie centrale."
+  },
+  "meditation": {
+    "label": "Méditation",
+    "category": "treatment",
+    "definition": "Une famille de pratiques d'entraînement de l'attention, incluant la pleine conscience. Utilisée en soutien dans l'EM/SFC pour le sommeil et la détresse ; les preuves d'un effet sur la maladie centrale font défaut."
+  },
+  "NMES": {
+    "label": "NMES",
+    "category": "treatment",
+    "definition": "Électrostimulation neuromusculaire : des impulsions électriques appliquées au muscle pour produire une contraction sans effort volontaire. Proposée (au stade de la recherche uniquement) comme contre-mesure de préservation musculaire chez les patients EM/SFC alités ; la question de savoir si une contraction induite électriquement déclenche le PEM n'a pas été testée."
+  },
+  "EMS": {
+    "label": "EMS",
+    "category": "treatment",
+    "definition": "Électrostimulation musculaire : voir NMES. Stimulation électrique du muscle pour provoquer une contraction ; augmente la consommation d'oxygène et la fréquence cardiaque de façon comparable à un effort volontaire, elle n'est donc pas métaboliquement gratuite."
+  },
+  "M-wave": {
+    "label": "M-wave",
+    "category": "measurement",
+    "definition": "Le potentiel d'action musculaire composite enregistré après stimulation électrique directe d'un nerf moteur ou d'un muscle, reflétant l'excitabilité membranaire périphérique. Une amplitude réduite et une durée allongée dans l'EM/SFC indiquent un défaut membranaire périphérique."
+  },
+  "rhabdomyolysis": {
+    "label": "Rhabdomyolyse",
+    "category": "condition",
+    "definition": "Une dégradation du muscle squelettique libérant son contenu dans la circulation sanguine, ce qui peut endommager les reins. Un dommage rare rapporté avec l'électrostimulation musculaire."
+  },
+  "micro-tear": {
+    "label": "Micro-déchirure",
+    "category": "condition",
+    "definition": "Un dommage microscopique des fibres musculaires (rupture des sarcomères) causé par une contraction inhabituelle ou excentrique, déclenchant la cascade de lésion musculaire et d'inflammation induite par l'effort. L'électrostimulation peut provoquer les mêmes micro-déchirures que l'effort."
+  },
+  "myofiber": {
+    "label": "Myofibre",
+    "category": "anatomy",
+    "definition": "Une cellule musculaire squelettique unique (fibre musculaire). La lésion ou la nécrose des myofibres est la signature histologique d'une lésion musculaire induite par l'effort ou la stimulation."
+  },
+  "BPS": {
+    "label": "BPS",
+    "category": "concept",
+    "definition": "Modèle biopsychosocial : un cadre explicatif proposant que les symptômes résultent de processus biologiques, psychologiques et sociaux en interaction. Dans l'EM/SFC, il est contesté car, en l'absence de substrat biologique identifiable, il peut servir à justifier une attribution psychologique protégée de toute réfutation empirique."
+  },
+  "HCP": {
+    "label": "HCP",
+    "category": "concept",
+    "definition": "Professionnel de santé : un clinicien (médecin, psychologue, kinésithérapeute, infirmier ou équivalent) impliqué dans l'évaluation et la prise en charge des patients."
+  },
+  "PVS": {
+    "label": "PVS",
+    "category": "condition",
+    "definition": "Syndrome post-vaccinal : un syndrome chronique rapporté associant fatigue, intolérance à l'effort, brouillard cérébral, dysautonomie et neuropathie des petites fibres, survenant de quelques jours à quelques semaines après la vaccination chez une petite minorité de receveurs ; chevauchement clinique avec l'EM/SFC et le Covid long. Le statut d'entité n'est pas résolu et la causalité vaccinale n'est pas établie.",
+    "also": "Aussi écrit PCVS (syndrome post-vaccination contre la COVID-19), PACVS (syndrome post-aigu de la vaccination contre la COVID-19), ou familièrement Long Vax."
+  },
+  "PCVS": {
+    "label": "PCVS",
+    "category": "condition",
+    "definition": "Syndrome post-vaccination contre la COVID-19 : la forme spécifique au vaccin contre la COVID-19 du syndrome post-vaccinal (PVS), rapportée comme une maladie de type EM/SFC après la vaccination contre la COVID-19."
+  },
+  "PACVS": {
+    "label": "PACVS",
+    "category": "condition",
+    "definition": "Syndrome post-aigu de la vaccination contre la COVID-19 : un syndrome chronique rapporté après la vaccination contre le SARS-CoV-2, caractérisé dans un registre allemand par une fatigue, un malaise et des modifications des auto-anticorps et des cytokines ; chevauche l'EM/SFC."
+  },
+  "mRNA": {
+    "label": "ARNm",
+    "category": "concept",
+    "definition": "ARN messager : la molécule qui transporte les instructions génétiques de l'ADN vers le ribosome pour la synthèse des protéines. Les vaccins à ARNm (par ex. BNT162b2, mRNA-1273) délivrent un ARNm codant la protéine de pointe du SARS-CoV-2 afin que l'organisme produise transitoirement cet antigène."
+  },
+  "nocebo": {
+    "label": "Nocebo",
+    "category": "concept",
+    "definition": "Effet nocebo : des symptômes ou effets indésirables produits par une attente négative ou une croyance préalable à l'égard d'un traitement, plutôt que par la pharmacologie de ce traitement. Le pendant de l'effet placebo ; une raison pour laquelle les symptômes rapportés après une vaccination peuvent varier selon les inquiétudes préalables."
+  },
+  "immunoadsorption": {
+    "label": "Immunoadsorption",
+    "category": "treatment",
+    "definition": "Une technique de purification du sang (aphérèse) qui élimine les immunoglobulines, y compris les auto-anticorps, du plasma. Étudiée comme thérapie au stade de la recherche pour l'EM/SFC et les syndromes post-aigus ; ne fait pas partie de la pratique clinique établie."
+  },
+  "ROC-AUC": {
+    "label": "ROC-AUC",
+    "category": "measurement",
+    "definition": "Courbe caractéristique de fonctionnement du récepteur — aire sous la courbe : une statistique de synthèse (0,5 = hasard, 1,0 = parfait) mesurant la capacité d'un test à séparer deux groupes. Utilisée pour rapporter la discrimination des panels de biomarqueurs."
+  },
+  "anti-N": {
+    "label": "anti-N",
+    "category": "measurement",
+    "definition": "Anticorps anti-nucléocapside : un anticorps dirigé contre la protéine de nucléocapside du SARS-CoV-2. Comme les vaccins à ARNm ne codent que la protéine de pointe, un test anti-N positif indique une infection naturelle antérieure par le SARS-CoV-2 plutôt qu'une vaccination — utile pour distinguer l'infection de la vaccination dans les études."
+  },
+  "anti-S": {
+    "label": "anti-S",
+    "category": "measurement",
+    "definition": "Anticorps anti-protéine de pointe : un anticorps dirigé contre la protéine de pointe du SARS-CoV-2, produit à la fois après une infection naturelle et après une vaccination à base de protéine de pointe (ARNm/vecteur) ; contrairement à l'anti-N, il ne distingue pas l'infection de la vaccination."
+  },
+  "IL-8": {
+    "label": "IL-8",
+    "category": "cytokine",
+    "definition": "Interleukine-8 : une chimiokine pro-inflammatoire qui recrute les neutrophiles ; rapportée élevée dans certaines cohortes de syndrome post-vaccinal et d'EM/SFC, bien que son rôle ne soit pas établi."
+  },
+  "AT1-R": {
+    "label": "AT1-R",
+    "category": "protein",
+    "definition": "Récepteur de type 1 de l'angiotensine II : le récepteur par lequel l'angiotensine II augmente la pression artérielle et stimule la libération d'aldostérone. Des auto-anticorps fonctionnels dirigés contre l'AT1-R sont rapportés dans certaines cohortes d'EM/SFC et post-vaccinales."
+  },
+  "alpha-2B": {
+    "label": "alpha-2B",
+    "category": "protein",
+    "definition": "Récepteur adrénergique alpha-2B : un récepteur de la noradrénaline et de l'adrénaline impliqué dans la régulation vasculaire et autonome. Des auto-anticorps dirigés contre lui sont rapportés dans certaines cohortes d'EM/SFC et de syndrome post-vaccinal."
+  },
+  "spike protein": {
+    "label": "Protéine de pointe",
+    "category": "protein",
+    "definition": "La glycoprotéine de surface du SARS-CoV-2 qui se lie au récepteur ACE2 et constitue l'antigène codé par la plupart des vaccins contre la COVID-19 ; sa persistance a été proposée comme moteur du Covid long et des symptômes post-vaccinaux, bien que les preuves soient incomplètes."
+  },
+  "MSN": {
+    "label": "MSN",
+    "category": "cell_type",
+    "definition": "Neurone épineux moyen : le principal neurone de sortie inhibiteur du striatum (ganglions de la base). Les analyses d'enrichissement génétique par type cellulaire impliquent les MSN comme le sous-type neuronal le plus spécifiquement enrichi en variants de risque de l'EM/SFC."
+  },
+  "S-LDSC": {
+    "label": "S-LDSC",
+    "category": "method",
+    "definition": "Régression stratifiée sur le score de déséquilibre de liaison : une méthode de génétique statistique qui répartit l'héritabilité d'un trait entre types cellulaires ou tissus en testant si les gènes exprimés dans un type cellulaire donné sont enrichis en variants associés à la maladie."
+  },
+  "snATAC-seq": {
+    "label": "snATAC-seq",
+    "category": "method",
+    "definition": "Test sur noyau unique de chromatine accessible à la transposase par séquençage : mesure la chromatine ouverte (accessible) dans des cellules individuelles, indiquant quelles régions d'ADN régulatrices sont actives dans chaque type cellulaire."
+  },
+  "cCRE": {
+    "label": "cCRE",
+    "category": "genomics",
+    "definition": "Élément cis-régulateur candidat : une séquence d'ADN (promoteur ou amplificateur) prédite pour réguler l'expression génique, telle que cataloguée dans les atlas de chromatine unicellulaire."
+  },
+  "ANSM": {
+    "label": "ANSM",
+    "category": "agency",
+    "definition": "Agence nationale de sécurité du médicament : l'agence nationale française qui régule les médicaments et les dispositifs médicaux et recueille les déclarations d'effets indésirables, y compris les signalements concernant les prothèses herniaires."
   }
 }
