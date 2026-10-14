@@ -191,4 +191,49 @@ void auditFile(List<String> lines, String relPath, List<QualityFinding> findings
             }
         }
     }
+
+    // Check 11: YAML frontmatter double-quoted scalars with invalid escapes.
+    // Quarto's YAML parser aborts the whole unit on one bad escape, so a Typst
+    // escaped space (`\ `) leaking into a `title:` breaks the web build.
+    // Validate every quoted scalar in the frontmatter block.
+    {
+        if (lines.isEmpty() || !yamlBoundary.matcher(lines.get(0)).matches()) return;
+        var scalar = Pattern.compile("^([A-Za-z0-9_.-]+):\\s*\"((?:[^\"\\\\]|\\\\.)*)\"\\s*$");
+        for (int i = 1; i < lines.size(); i++) {
+            var line = lines.get(i);
+            if (yamlBoundary.matcher(line).matches()) break;
+            var m = scalar.matcher(line);
+            if (!m.matches()) continue;
+            var s = m.group(2);
+            int j = 0;
+            while (j < s.length()) {
+                if (s.charAt(j) != '\\') { j++; continue; }
+                var c = j + 1 < s.length() ? s.charAt(j + 1) : '\0';
+                if (c == 'x') { if (!hexAt(s, j + 2, 2)) { yamlEscapeFinding(findings, relPath, i + 1, line, j); break; } j += 4; continue; }
+                if (c == 'u') { if (!hexAt(s, j + 2, 4)) { yamlEscapeFinding(findings, relPath, i + 1, line, j); break; } j += 6; continue; }
+                if (c == 'U') { if (!hexAt(s, j + 2, 8)) { yamlEscapeFinding(findings, relPath, i + 1, line, j); break; } j += 10; continue; }
+                if (YAML_ESCAPES.indexOf(c) < 0) { yamlEscapeFinding(findings, relPath, i + 1, line, j); break; }
+                j += 2;
+            }
+        }
+    }
+}
+
+static final String YAML_ESCAPES = "\\\"'/0abtnvfreNLP";
+
+boolean hexAt(String s, int at, int len) {
+    if (at + len > s.length()) return false;
+    for (int k = at; k < at + len; k++) {
+        var c = s.charAt(k);
+        if (!((c >= '0' && c <= '9') || (c >= 'a' && c <= 'f') || (c >= 'A' && c <= 'F'))) return false;
+    }
+    return true;
+}
+
+void yamlEscapeFinding(List<QualityFinding> findings, String relPath, int lineNo, String line, int at) {
+    var s = line.substring(line.indexOf('"') + 1);
+    var esc = at + 1 < s.length() ? String.valueOf(s.charAt(at + 1)) : "";
+    findings.add(new QualityFinding(11, relPath, lineNo,
+        "invalid YAML escape in double-quoted scalar: '\\%s' in %s — Quarto aborts the unit"
+            .formatted(esc, line.strip())));
 }

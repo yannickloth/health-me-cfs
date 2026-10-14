@@ -331,7 +331,7 @@ final class RegexConversion implements TypstToQmd {
             var indexPath = outDir.resolve("index.qmd");
             var ib = new StringBuilder();
             ib.append("---\n");
-            ib.append("title: \"").append(esc(chapTitle)).append("\"\n");
+            ib.append("title: \"").append(escYaml(chapTitle)).append("\"\n");
             ib.append("---\n\n");
 
             // Chapter label anchor + any preamble-only labels resolve on the intro page.
@@ -378,7 +378,7 @@ final class RegexConversion implements TypstToQmd {
 
             var sb = new StringBuilder();
             sb.append("---\n");
-            sb.append("title: \"").append(esc(slugTitle)).append("\"\n");
+            sb.append("title: \"").append(escYaml(slugTitle)).append("\"\n");
             sb.append("---\n\n");
 
             var headingLabels = new ArrayList<String>();
@@ -839,6 +839,17 @@ final class RegexConversion implements TypstToQmd {
     }
 
     String esc(String s) { return s.replace("\"", "\\\""); }
+
+    // YAML double-quoted scalars treat a backslash as an escape introducer, so a
+    // Typst escaped space (`\ `) in a heading title is an invalid escape and
+    // Quarto's YAML parser aborts the unit. Typst writes a literal punctuation
+    // character as `\X`, so drop those escapes in titles, then escape the
+    // remaining backslashes and quotes for YAML.
+    String escYaml(String s) {
+        var plain = s.replace("\\ ", " ")
+            .replaceAll("\\\\([!\"#$%&'()*+,\\-./:;<=>?@\\[\\]^_{|}~])", "$1");
+        return plain.replace("\\", "\\\\").replace("\"", "\\\"");
+    }
 
     String preprocessBlockMath(String src) {
         var lines = src.split("\n", -1);
