@@ -183,6 +183,14 @@ and symptom profile.
     / *Publication Medium:*: _Journal of Translational Medicine_
         (published); future validation studies not yet announced
         (checked 2026-08)
+    / *Post-publication status (2026-10):*: No independent replication
+        published.  Cross-condition discrimination (ME/CFS versus
+        fibromyalgia) remains untested; the first independent
+        cross-condition DNA-methylation comparison of ME/CFS with
+        fibromyalgia found a shared symptom-burden axis alongside an
+        ME/CFS-specific one (@Polli2026MethylationAxes).  A critical methodological appraisal
+        of the original study has appeared in the same journal
+        (@Tirelli2026WheatAndChaff).
     / *Document Relevance:*: Ch. 12 (genetic and epigenetic factors),
         Ch. 20 (biomarker research), Ch. 25 (translational findings)
 
