@@ -12697,5 +12697,45 @@
     "label": "ANSM",
     "category": "agency",
     "definition": "Agence nationale de sécurité du médicament — the French national agency that regulates medicines and medical devices and collects adverse-event reports, including reports on hernia meshes."
+  },
+  "WM": {
+    "label": "WM",
+    "category": "measurement",
+    "definition": "Working memory: the limited-capacity system that temporarily holds and manipulates information needed for reasoning, learning, and complex tasks. It depends on sustained prefrontal activity and is among the first functions to degrade when brain energy is limited."
+  },
+  "working memory": {
+    "label": "Working memory",
+    "category": "measurement",
+    "definition": "The limited-capacity cognitive system that temporarily stores and manipulates information for reasoning, comprehension, and learning. It is energetically expensive because it requires continuous prefrontal firing."
+  },
+  "actigraphy": {
+    "label": "Actigraphy",
+    "category": "method",
+    "definition": "Objective measurement of movement using a body-worn accelerometer, typically at the wrist or ankle. Used in ADHD research to quantify gross motor activity during cognitive tasks."
+  },
+  "delay aversion": {
+    "label": "Delay aversion",
+    "category": "concept",
+    "definition": "A motivational account of ADHD in which excessive activity and impulsivity reflect attempts to escape or avoid aversive waiting. It is a competing explanation for hyperactivity alongside the arousal-compensation model."
+  },
+  "state regulation": {
+    "label": "State regulation",
+    "category": "concept",
+    "definition": "The ability to hold a task-appropriate level of activation/arousal under varying task demands (e.g. very fast or very slow event rates). Difficulties with state regulation are proposed as one mechanism of ADHD-related performance variability."
+  },
+  "creatine": {
+    "label": "Creatine",
+    "category": "supplement",
+    "definition": "A compound that buffers cellular energy by regenerating ATP from phosphocreatine. In brain, phosphocreatine buffers the high burst-energy demands of working memory; brain creatine depletion has been reported in ME/CFS by magnetic resonance spectroscopy."
+  },
+  "noradrenaline": {
+    "label": "Noradrenaline",
+    "category": "neurotransmitter",
+    "definition": "Alternative name for norepinephrine: a catecholamine neurotransmitter that promotes arousal, alertness, and the stress response. Reduced central noradrenergic signalling contributes to fatigue and cognitive slowing."
+  },
+  "AD(H)D": {
+    "label": "AD(H)D",
+    "category": "condition",
+    "definition": "Variant spelling of ADHD (Attention-Deficit/Hyperactivity Disorder) used in some literature to make the hyperactive component optional: attention-deficit disorder with or without hyperactivity."
   }
 }

@@ -49,6 +49,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 
 | Topic slug            | Subtree file                                                          | Brainstorm date | Root ideas | Integrated | Status         |
 |-----------------------|-----------------------------------------------------------------------|-----------------|------------|------------|----------------|
+| adhd-movement-arousal-energy | [subtrees/adhd-movement-arousal-energy.md](subtrees/adhd-movement-arousal-energy.md) | 2026-10-15 | 13 | 0 | ⬜ pending |
 | bakken2026-recovery-conceivable | [subtrees/bakken2026-recovery-conceivable.md](subtrees/bakken2026-recovery-conceivable.md) | 2026-10-11 | 28 | 5 | ✅ done |
 | post-viral-post-acute-syndromes | [subtrees/post-viral-post-acute-syndromes.md](subtrees/post-viral-post-acute-syndromes.md) | 2026-09-02 | 10 | 1 | ✅ done |
 | neurodivergent-psychological-consequences-mecfs | [subtrees/neurodivergent-psychological-consequences-mecfs.md](subtrees/neurodivergent-psychological-consequences-mecfs.md) | 2026-09-02 | 22 | 9 | ✅ done |

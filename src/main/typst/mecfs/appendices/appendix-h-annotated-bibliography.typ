@@ -44088,3 +44088,254 @@ This stream assembles evidence for the claim that pathological fatigue across au
     / *ME/CFS Relevance:*: Direct first-person account of severe-ME suffering, medical denial, and the assisted-death decision — usable as quoted testimony with attribution.
     / *Certainty Assessment:*:
         - *Testimony:* Attributed quotes — treated as patient voice, not evidence
+
+=== Sarver et al.\ 2015 — Hyperactivity in ADHD: Deficit or Compensatory Behavior?
+
+@Sarver2015HyperactivityCompensatory
+
+/ *Full Citation:*: Sarver DE, Rapport MD, Kofler MJ, Raiker JS, Friedman LM. Hyperactivity in Attention-Deficit/Hyperactivity Disorder (ADHD): Impairing Deficit or Compensatory Behavior? _Journal of Abnormal Child Psychology_. 2015;43(7):1219--1232.
+/ *DOI:*: #link("https://doi.org/10.1007/s10802-015-0011-1")[10.1007/s10802-015-0011-1]
+/ *PMID:*: 25863472
+/ *Study Design:*: Counterbalanced within-subject experimental study with objective actigraphy
+/ *Sample Size:*: n=52 boys (29 ADHD, 23 typically developing), ages 8--12
+/ *Key Findings:*:
+    - Higher observed gross-motor activity predicted significantly better but not normalized phonological WM in ADHD
+    - The same higher activity predicted somewhat lower WM in typically developing children
+    - ADHD children were more likely to be classified "reliably Improved" at their highest vs lowest activity
+/ *Conclusion:*: In ADHD, movement during cognitive work appears functionally recruited rather than purely impairing; the practical implication is to avoid over-correcting gross motor activity during academic tasks.
+/ *Limitations:*: Small single-lab sample; association-based; no ME/CFS cohort; movement predicted cognitive performance but not attention change.
+/ *Certainty Assessment:*:
+    - *Quality:* High (Journal of Abnormal Child Psychology, objective actigraphy)
+    - *Sample:* Medium
+    - *Replication:* Same-lab programme (UCF series)
+    - *Score:* 0.65
+
+=== Orban et al.\ 2018 — Inattention in ADHD Classrooms Is Working-Memory Driven
+
+@Orban2018InattentiveBehaviorWM
+
+/ *Full Citation:*: Orban SA, Rapport MD, Friedman LM, Eckrich SJ, Kofler MJ. Inattentive Behavior in Boys with ADHD during Classroom Instruction: the Mediating Role of Working Memory Processes. _Journal of Abnormal Child Psychology_. 2018;46(5):951--965.
+/ *DOI:*: #link("https://doi.org/10.1007/s10802-017-0338-x")[10.1007/s10802-017-0338-x]
+/ *PMID:*: 28825170
+/ *Study Design:*: Counterbalanced experimental observation with bias-corrected bootstrapped serial mediation
+/ *Sample Size:*: n=62 boys (32 ADHD, 30 typically developing)
+/ *Key Findings:*:
+    - Attentive behavior did not differ during a low-WM-demand "preferred-activity" video (d=-0.02)
+    - ADHD showed disproportionate attentive-behavior decrements during analogue classroom instruction (d=-0.71)
+    - 59% of the between-group difference was mediated by central-executive WM impairment (41% direct, 15% via phonological STM coordination)
+    - After accounting for WM, the group difference was no longer detectable (d=-0.29, ns)
+/ *Conclusion:*: Classroom inattention in ADHD is largely downstream of executive/WM capacity limits rather than an independent "attention" defect — attention is intact where WM load is low.
+/ *Limitations:*: Boys only; single lab; association/mediation, not causal manipulation; no ME/CFS cohort.
+/ *Certainty Assessment:*:
+    - *Quality:* High (Journal of Abnormal Child Psychology)
+    - *Sample:* Medium
+    - *Replication:* Same-lab programme (UCF series)
+    - *Score:* 0.65
+
+=== Rapport et al.\ 2009 — Hyperactivity Is Working-Memory Linked
+
+@Rapport2009HyperactivityWMDeficits
+
+/ *Full Citation:*: Rapport MD, Bolden J, Kofler MJ, Sarver DE, Raiker JS, Alderson RM. Hyperactivity in boys with attention-deficit/hyperactivity disorder (ADHD): a ubiquitous core symptom or manifestation of working memory deficits? _Journal of Abnormal Child Psychology_. 2009;37(4):521--534.
+/ *DOI:*: #link("https://doi.org/10.1007/s10802-008-9287-8")[10.1007/s10802-008-9287-8]
+/ *PMID:*: 19083090
+/ *Study Design:*: Actigraphy (16 Hz) across control and graded-memory-load tasks
+/ *Sample Size:*: n=23 boys (12 ADHD, 11 typically developing)
+/ *Key Findings:*:
+    - Activity level was associated with central-executive but not storage/rehearsal function
+    - ADHD children moved more under all conditions
+    - The elevated ADHD activity under control conditions was fully attenuated when central-executive variance was removed
+/ *Conclusion:*: The "ubiquitous" hyperactivity of ADHD is better understood as linked to working-memory/executive demand than as a context-free core symptom.
+/ *Limitations:*: Very small sample; same-lab; association-based.
+/ *Certainty Assessment:*:
+    - *Quality:* High (foundational, widely cited)
+    - *Sample:* Small
+    - *Replication:* Programmatic (later UCF + Buffalo studies)
+    - *Score:* 0.55
+
+=== Kofler et al.\ 2015 — Experimental Activity--WM Relation
+
+@Kofler2015ActivityWM
+
+/ *Full Citation:*: Kofler MJ, Sarver DE, Wells EL. Working Memory and Increased Activity Level (Hyperactivity) in ADHD: Experimental Evidence for a Functional Relation. _Journal of Attention Disorders_. 2020;24(10):1411--1425.
+/ *DOI:*: #link("https://doi.org/10.1177/1087054715608439")[10.1177/1087054715608439]
+/ *PMID:*: 26494505
+/ *Study Design:*: Within-subject experimental manipulation of memory-set predictability
+/ *Sample Size:*: n=25 children with ADHD
+/ *Key Findings:*:
+    - Unpredictable memory sets raised central-executive demand (response-time d=1.74--4.16; variability d=0.93--3.16)
+    - Activity stayed stable when the memory set was unpredictable but fell over time when predictable
+/ *Conclusion:*: Movement is sustained specifically while central-executive demand is sustained — experimental support for a functional activity--WM relation.
+/ *Limitations:*: ADHD-only, no control comparison; small sample; single lab.
+/ *Certainty Assessment:*:
+    - *Quality:* Medium-High (Journal of Attention Disorders)
+    - *Sample:* Small
+    - *Replication:* Same-lab programme
+    - *Score:* 0.55
+
+=== Dekkers et al.\ 2021 — Cognitive Demand and Gross Motor Activity
+
+@Dekkers2021CognitiveDemandActivity
+
+/ *Full Citation:*: Dekkers TJ, Rapport MD, Calub CA, Eckrich SJ, Irurita C. ADHD and hyperactivity: The influence of cognitive processing demands on gross motor activity level in children. _Child Neuropsychology_. 2021;27(1):63--82.
+/ *DOI:*: #link("https://doi.org/10.1080/09297049.2020.1793924")[10.1080/09297049.2020.1793924]
+/ *PMID:*: 32662360
+/ *Study Design:*: Dose-response experimental design (control, STM, graded WM)
+/ *Sample Size:*: n=60 (36 ADHD, 24 typically developing)
+/ *Key Findings:*:
+    - Activity rose from control to WM conditions for all children
+    - ADHD children were motorically more active under every WM condition
+    - The increase did not scale with load — it stepped up and stayed relatively stable
+/ *Conclusion:*: Movement is upregulated to promote arousal during WM tasks for all children, and to a greater extent in ADHD; the pattern argues against a strict graded dose-response.
+/ *Limitations:*: Same-lab series; association-based; no ME/CFS cohort.
+/ *Certainty Assessment:*:
+    - *Quality:* High (Child Neuropsychology)
+    - *Sample:* Medium
+    - *Replication:* Same-lab programme
+    - *Score:* 0.60
+
+=== Wiegers et al.\ 2024 — Stimulant x Activity x Working Memory
+
+@Wiegers2024StimulantActivityWM
+
+/ *Full Citation:*: Wiegers E, Garner A, Jusko M, Smith JN, Campez M, Greiner A, Gnagy E, Pelham WE, Raiker JS. The Impact of Stimulant Medication on the Relation Between Working Memory and Activity Level in ADHD. _Research on Child and Adolescent Psychopathology_. 2024;52(9):1405--1416.
+/ *DOI:*: #link("https://doi.org/10.1007/s10802-024-01210-z")[10.1007/s10802-024-01210-z]
+/ *PMID:*: 38836913
+/ *PMCID:*: PMC12574681
+/ *Study Design:*: Repeated-measures on/off stimulant medication with actigraphy
+/ *Sample Size:*: n=43 children with ADHD (7--12 y)
+/ *Key Findings:*:
+    - Large medication main effects on phonological (eta2=.14) and visuospatial (eta2=.30) WM
+    - Medium activity-level main effects on both WM domains
+    - Significant medication x activity interaction for visuospatial WM (.11): the medication benefit was greatest at the highest activity level
+/ *Conclusion:*: Stimulant and endogenous movement appear to act on a shared arousal/energetics substrate; combining medication with an "optimal" movement level may be most effective for visuospatial WM.
+/ *Limitations:*: No ME/CFS cohort; short-term medication manipulation; clinical cohort not severity-stratified.
+/ *Certainty Assessment:*:
+    - *Quality:* High (independent cohort, Buffalo/FSU network)
+    - *Sample:* Medium
+    - *Replication:* Partially independent of the UCF series
+    - *Score:* 0.60
+
+=== Sergeant 2000 — The Cognitive-Energetic Model
+
+@Sergeant2000CognitiveEnergetic
+
+/ *Full Citation:*: Sergeant JA. The cognitive-energetic model: an empirical approach to attention-deficit hyperactivity disorder. _Neuroscience & Biobehavioral Reviews_. 2000;24(1):7--12.
+/ *DOI:*: #link("https://doi.org/10.1016/s0149-7634(99)00060-3")[10.1016/s0149-7634(99)00060-3]
+/ *PMID:*: 10654654
+/ *Study Design:*: Theoretical/model review
+/ *Sample Size:*: N/A
+/ *Key Findings:*:
+    - Processing is intact at encoding/central levels but deficient in motor organisation
+    - The core deficit sits in the energetic pools — activation and (partly) effort
+    - A third level is the executive/management system
+/ *Conclusion:*: Supplies the canonical arousal/activation/effort vocabulary for interpreting ADHD behaviour, and is itself a competing explanation for the movement pattern.
+/ *Limitations:*: Model/review, not primary data; predates much of the actigraphy evidence.
+/ *Certainty Assessment:*:
+    - *Quality:* High influence (seminal model)
+    - *Sample:* N/A
+    - *Replication:* Widely elaborated since
+    - *Score:* 0.50
+
+=== Metin et al.\ 2016 — State-Regulation Deficit at Event-Rate Extremes
+
+@Metin2016StateRegulationEventRate
+
+/ *Full Citation:*: Metin B, Wiersema JR, Verguts T, Gasthuys R, van der Meere JJ, Roeyers H, Sonuga-Barke E. Event rate and reaction time performance in ADHD: Testing predictions from the state regulation deficit hypothesis using an ex-Gaussian model. _Child Neuropsychology_. 2016;22(1):79--97.
+/ *DOI:*: #link("https://doi.org/10.1080/09297049.2014.986082")[10.1080/09297049.2014.986082]
+/ *PMID:*: 26835532
+/ *Study Design:*: Theory-driven experimental test (ex-Gaussian decomposition)
+/ *Sample Size:*: n=54 (25 ADHD, 29 typically developing)
+/ *Key Findings:*:
+    - ADHD showed an accentuated quadratic event-rate effect on Gaussian response variability
+    - Greater variability at very fast and very slow rates, but not at moderate rates
+/ *Conclusion:*: Direct behavioural support for the state-regulation/energetic account; however, the model did not explain all group differences, implicating additional cognitive/motivational processes.
+/ *Limitations:*: Behavioural only; no direct neural/arousal measure; single lab.
+/ *Certainty Assessment:*:
+    - *Quality:* High (theory-driven, Child Neuropsychology)
+    - *Sample:* Medium
+    - *Replication:* Consistent with wider SRD literature
+    - *Score:* 0.55
+
+=== Drescher et al.\ 2021 — Pupillometry State Regulation (Null Arousal Proxy)
+
+@Drescher2021PupillometryStateRegulation
+
+/ *Full Citation:*: Drescher LH, Boehler CN, Wiersema JR. State regulation in adults scoring high versus low on ADHD symptomatology: A pupillometry study. _Neuropsychology_. 2021;35(5):544--559.
+/ *DOI:*: #link("https://doi.org/10.1037/neu0000738")[10.1037/neu0000738]
+/ *PMID:*: 34292008
+/ *Study Design:*: Behavioural + pupillometry, three event rates, high vs low symptoms
+/ *Sample Size:*: Adults scoring high vs low on ADHD symptomatology (not a diagnostic cohort)
+/ *Key Findings:*:
+    - Performance and self-report indicated state-regulation difficulties in the high-ADHD group
+    - Phasic pupil dilation (effort) was increased during slow event rates
+    - Tonic pupil size (tonic arousal) showed no group effect
+/ *Conclusion:*: Effort compensation is detectable while the direct arousal proxy is not — a caution against over-literal hypoarousal claims.
+/ *Limitations:*: Symptom-scale groups not clinical diagnosis; null arousal proxy; adult sample.
+/ *Certainty Assessment:*:
+    - *Quality:* High (Neuropsychology)
+    - *Sample:* Small-Medium
+    - *Replication:* Single study; null finding
+    - *Score:* 0.45
+
+=== Antrop et al.\ 2005 — Activity in Classroom Waiting Situations
+
+@Antrop2005WaitingActivity
+
+/ *Full Citation:*: Antrop I, Buysse A, Roeyers H, Van Oost P. Activity in children with ADHD during waiting situations in the classroom: a pilot study. _British Journal of Educational Psychology_. 2005;75(1):51--69.
+/ *DOI:*: #link("https://doi.org/10.1348/000709905x36100")[10.1348/000709905x36100]
+/ *PMID:*: 15831181
+/ *Study Design:*: Classroom observation pilot (waiting vs non-waiting)
+/ *Sample Size:*: n=28 (14 ADHD, 14 control)
+/ *Key Findings:*:
+    - Both groups were more active during waiting than non-waiting situations
+    - Additive waiting + group effects on behaviour
+    - Additional stimulation during waiting altered behaviour for all children
+/ *Conclusion:*: Activity also rises in low-cognitive-demand delay — boundary evidence that constrains a purely WM-demand-locked reading and supports the optimal-stimulation/delay-aversion accounts.
+/ *Limitations:*: Pilot; small sample; classroom observation only.
+/ *Certainty Assessment:*:
+    - *Quality:* Medium (pilot)
+    - *Sample:* Small
+    - *Replication:* Single study
+    - *Score:* 0.40
+
+=== Abikoff et al.\ 1996 — Auditory Stimulation and ADHD Arithmetic
+
+@Abikoff1996AuditoryStimulation
+
+/ *Full Citation:*: Abikoff H, Courtney ME, Szeibel PJ, Koplewicz HS. The effects of auditory stimulation on the arithmetic performance of children with ADHD and nondisabled children. _Journal of Learning Disabilities_. 1996;29(3):238--246.
+/ *DOI:*: #link("https://doi.org/10.1177/002221949602900302")[10.1177/002221949602900302]
+/ *PMID:*: 8732885
+/ *Study Design:*: Within-subject counterbalanced stimulation conditions
+/ *Sample Size:*: n=40 (20 ADHD, 20 nondisabled)
+/ *Key Findings:*:
+    - Group x Condition interaction favoured music for ADHD children
+    - Group x Order interaction: the benefit held only when music was presented first
+/ *Conclusion:*: Partial, order-sensitive support for the underarousal/optimal-stimulation account — stimulation is not uniformly facilitative.
+/ *Limitations:*: Small; order confound limits interpretation; old study.
+/ *Certainty Assessment:*:
+    - *Quality:* Medium
+    - *Sample:* Small
+    - *Replication:* Mixed in later literature
+    - *Score:* 0.50
+
+=== Sonuga-Barke 2003 — Dual Pathway Model (Delay Aversion)
+
+@SonugaBarke2003DualPathway
+
+/ *Full Citation:*: Sonuga-Barke EJS. The dual pathway model of AD/HD: an elaboration of neuro-developmental characteristics. _Neuroscience & Biobehavioral Reviews_. 2003;27(7):593--604.
+/ *DOI:*: #link("https://doi.org/10.1016/j.neubiorev.2003.08.005")[10.1016/j.neubiorev.2003.08.005]
+/ *PMID:*: 14624804
+/ *Study Design:*: Theoretical model paper
+/ *Sample Size:*: N/A
+/ *Key Findings:*:
+    - Executive-dysfunction and delay-aversion are proposed as parallel pathways
+    - Delay aversion frames excessive activity as escape from/avoidance of aversive delay
+    - Different cortico-striatal circuits and dopamine branches underpin each pathway
+/ *Conclusion:*: The principal competing mechanism to the arousal-compensation account — retained so the integration does not present a monocausal story.
+/ *Limitations:*: Model paper; pathway separation debated.
+/ *Certainty Assessment:*:
+    - *Quality:* High influence (canonical model)
+    - *Sample:* N/A
+    - *Replication:* Widely tested/elaborated
+    - *Score:* 0.50
