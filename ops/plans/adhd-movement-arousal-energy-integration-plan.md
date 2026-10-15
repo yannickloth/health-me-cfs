@@ -121,7 +121,7 @@ Deferred-topics check: only post-acute-ferritin-MECFS-prediction deferred (2026-
 | 11 | RAN (consolidated) | FULL tier (multi-chapter); 0 CRITICAL/HIGH; see deviation note below |
 | 12 | RAN | this record |
 | 12.5 | RAN | this ledger |
-| 13 | *pending commit* | commit hash added on completion |
+| 13 | RAN | commit `e6084fbd` |
 
 **Deviations recorded (not silent):** (1) all deepseek-v4-pro/flash phases executed in-session per explicit user directive "don't delegate to Deepseek, do the work yourself" (= Phase 5d model-note option b). (2) `zg` semantic search unavailable → `rg` + in-session semantic sweep. (3) Phase 11 FULL-tier three-skill loop run as one consolidated in-session adversarial/consistency pass (6 persona lenses + cross-ref/consequence checks) rather than three separate review skills — capability replicated in-session; 0 CRITICAL/HIGH. (4) Agent files for auditors absent from `.opencode/agents/` but present as harness subagent types; no cross-disease auditor needed since all phases were in-session.
 
