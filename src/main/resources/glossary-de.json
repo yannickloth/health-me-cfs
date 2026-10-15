@@ -14324,4 +14324,19 @@
     "category": "agency",
     "definition": "Agence nationale de sécurité du médicament — die französische nationale Behörde, die Arzneimittel und Medizinprodukte reguliert und Nebenwirkungsmeldungen sammelt, einschließlich Meldungen zu Herniennetzen."
   }
-}
+,
+  "JAK-STAT": {
+    "label": "JAK-STAT-Signalweg",
+    "category": "pathway",
+    "definition": "Signalkaskade, bei der Janus-Kinasen (JAK) Signaltransduktoren und Aktivatoren der Transkription (STAT) phosphorylieren, die dann im Zellkern Immun- und Wachstumsgene aktivieren. Zytokine wie IL-2 wirken überwiegend über JAK-STAT; JAK-Inhibitoren (z. B. Tofacitinib) blockieren diesen Weg und werden bei Autoimmunerkrankungen eingesetzt."
+  },
+  "CD20": {
+    "label": "CD20 (MS4A1)",
+    "category": "protein",
+    "definition": "Ein Oberflächenprotein auf B-Zellen. Der Wirkstoff Rituximab richtet sich gegen CD20 und führt zur B-Zell-Depletion; er wird bei Autoimmunerkrankungen und Lymphomen eingesetzt, versagte jedoch in einer Phase-III-Studie bei ME/CFS."
+  },
+  "EWAS": {
+    "label": "EWAS (epigenomweite Assoziationsstudie)",
+    "category": "method",
+    "definition": "Studiendesign, bei dem die DNA-Methylierung (oder eine andere epigenetische Markierung) an Hunderttausenden von Genomstellen gemessen und geprüft wird, welche Stellen sich zwischen Gruppen unterscheiden. Das methylierungsspezifische Gegenstück zu einer GWAS."
+  }}

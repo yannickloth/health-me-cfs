@@ -14559,4 +14559,19 @@
     "category": "agency",
     "definition": "Agence nationale de sécurité du médicament : l'agence nationale française qui régule les médicaments et les dispositifs médicaux et recueille les déclarations d'effets indésirables, y compris les signalements concernant les prothèses herniaires."
   }
-}
+,
+  "JAK-STAT": {
+    "label": "Voie JAK-STAT",
+    "category": "pathway",
+    "definition": "Cascade de signalisation dans laquelle les Janus kinases (JAK) phosphorylent les transducteurs de signal et activateurs de transcription (STAT), qui activent ensuite des gènes immunitaires et de croissance dans le noyau. Des cytokines comme l'IL-2 agissent principalement via JAK-STAT ; les inhibiteurs de JAK (p. ex. tofacitinib) bloquent cette voie et sont utilisés dans les maladies auto-immunes."
+  },
+  "CD20": {
+    "label": "CD20 (MS4A1)",
+    "category": "protein",
+    "definition": "Une protéine de surface des lymphocytes B. Le rituximab cible le CD20 et entraîne une déplétion des lymphocytes B ; il est utilisé dans les maladies auto-immunes et les lymphomes, mais a échoué dans un essai de phase III dans l'EM/SFC."
+  },
+  "EWAS": {
+    "label": "EWAS (étude d'association à l'échelle de l'épigénome)",
+    "category": "method",
+    "definition": "Protocole d'étude qui mesure la méthylation de l'ADN (ou une autre marque épigénétique) à des centaines de milliers de sites du génome et teste quels sites diffèrent entre les groupes. L'équivalent méthylomique d'une GWAS."
+  }}

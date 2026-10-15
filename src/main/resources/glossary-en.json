@@ -12738,4 +12738,19 @@
     "category": "condition",
     "definition": "Variant spelling of ADHD (Attention-Deficit/Hyperactivity Disorder) used in some literature to make the hyperactive component optional: attention-deficit disorder with or without hyperactivity."
   }
-}
+,
+  "JAK-STAT": {
+    "label": "JAK-STAT pathway",
+    "category": "pathway",
+    "definition": "A signalling cascade in which Janus kinases (JAKs) phosphorylate signal transducer and activator of transcription (STAT) proteins, which then move to the nucleus and switch on immune and growth genes. Cytokines such as IL-2 act largely through JAK-STAT; JAK inhibitors (e.g. tofacitinib) block this pathway and are used in autoimmune disease."
+  },
+  "CD20": {
+    "label": "CD20 (MS4A1)",
+    "category": "protein",
+    "definition": "A protein on the surface of B cells. The drug rituximab targets CD20 and depletes B cells; it is used in autoimmune diseases and lymphoma, but failed a Phase III trial in ME/CFS."
+  },
+  "EWAS": {
+    "label": "EWAS (epigenome-wide association study)",
+    "category": "method",
+    "definition": "A study design that measures DNA methylation (or another epigenetic mark) at hundreds of thousands of sites across the genome and tests which sites differ between groups. The methylation counterpart of a GWAS."
+  }}
