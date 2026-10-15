@@ -46,6 +46,25 @@
 | 11 | Longitudinal EpiSwitch state-vs-trait across PEM | proposal | 0.30 | 2 | 1 | 2 | 1 | 3 | ⏭️ | — |
 | 12 | Critical: generic-illness signature, null, overfitting, COI/severity | open-question | 0.30-0.45 | 1 | 0 | 2 | 0 | 1 | ✅ | — |
 | 13 | Cross-condition network convergence (Hunter 2026, PARTIAL/WEAK) | speculation | 0.20 | 4 | 0 | 4 | 0 | 3 | ✅ | child |
+| 14 | Two-axis architecture is a general property of blood epigenetics | speculation | 0.40 | 3 | 0 | 4 | 2 | 3 | ✅ | — |
+| 15 | Disease-specific signal tracks PEM/cognition, not immune hub | speculation | 0.35 | 3 | 1 | 4 | 1 | 2 | ✅ | — |
+| 16 | Map 200 EpiSwitch markers onto Polli PC5/PC6 DMRs | proposal | 0.15 | 2 | 0 | 2 | 1 | 4 | ⏭️ | — |
+| 17 | Confounder-controlled replication (CMV/EBV/SARS-CoV-2, meds) | proposal | 0.15 | 1 | 0 | 1 | 1 | 4 | ⏭️ | — |
+| 18 | Rituximab null narrows the immune-drug space to T-cell/cytokine targets | speculation | 0.45 | 2 | 3 | 2 | 0 | 0 | 🚫 | — |
+| 19 | One-carbon substrate probe of CpG-axis modifiability | proposal | 0.15 | 2 | 2 | 1 | 0 | 0 | ⏭️ | — |
+| 20 | Pacing preferentially shifts burden axis, not disease axis | speculation | 0.25 | 2 | 2 | 2 | 1 | 2 | ⏭️ | — |
+| 21 | Burden-adjusted composite: score the disease axis only | proposal | 0.30 | 2 | 0 | 2 | 2 | 4 | ⏭️ | — |
+| 22 | Two-latent-variable formalization D(t) + B(t) | proposal | 0.25 | 3 | 0 | 2 | 5 | 1 | ⏭️ | — |
+| 23 | Burden axis as substrate for ME/CFS–FM–LC–hEDS overlap | speculation | 0.40 | 3 | 1 | 4 | 1 | 2 | ✅ | — |
+| 24 | Rituximab null cautions against shared-autoimmune convergence | open-question | 0.40 | 2 | 1 | 3 | 1 | 0 | ✅ | — |
+| 25 | Disease-axis score is the correct diagnostic target | speculation | 0.44 | 2 | 0 | 2 | 1 | 5 | ✅ | — |
+| 26 | EpiSwitch specificity may be 100% burden-axis signal | open-question | 0.50 | 2 | 0 | 3 | 1 | 3 | ✅ | — |
+| 27 | Better alternative: CpG methylation beats 3D genome | open-question | 0.45 | 1 | 0 | 2 | 0 | 3 | ✅ | — |
+| 28 | Null: if burden-only, IL-2 hub is generic and convergence collapses | open-question | 0.45 | 1 | 0 | 2 | 1 | 2 | ✅ | — |
+| 29 | Cell-type composition + unmeasured confounders unaddressed | open-question | 0.45 | 0 | 0 | 1 | 1 | 2 | ✅ | — |
+| 30 | Both sides interest-polluted (vendor COI vs critic OOT advocacy) | open-question | 0.40 | 0 | 0 | 1 | 0 | 1 | ✅ | — |
 
-Status legend: ✅ integrated; ⏭️ recorded as future-cycle proposal (research direction / safety-gated treatment idea); — no child subtree.
+**Update-cycle node block (2026-10-15):** rows 14–30 are the update cycle's brainstorm (critique + competing methylation evidence). Source: `ops/brainstorms/brainstorm-episwitch-epigenetic-test-2026-10-15.md`. Certainties are the phase-4 provisional values; the critique-associated nodes (26–30) carry the highest *certainty of being correct* because they rest on the strongest evidence (Polli's empirical burden axis + the established Fluge rituximab null), not on the unvalidated vendor claim.
+
+Status legend: ✅ integrated; ⏭️ recorded as future-cycle proposal (research direction / safety-gated treatment idea); ↩️ parked (tree-only, insufficient literature); 🚫 skipped; ⬜ pending; — no child subtree.
 Child subtree (2026-09-04): `new-contents-episwitch-crosscondition-hunter2026.md` — Hunter et al. 2026 cross-condition network-convergence cycle (PARTIAL, integrated as speculation+limitation in ch36; research-direction proposals recorded ⏭️).

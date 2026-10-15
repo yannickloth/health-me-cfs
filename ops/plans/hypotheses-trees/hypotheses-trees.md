@@ -204,7 +204,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | new-contents-viral-reservoir | [subtrees/new-contents-viral-reservoir.md](subtrees/new-contents-viral-reservoir.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
 | new-contents-ebv-serology | [subtrees/new-contents-ebv-serology.md](subtrees/new-contents-ebv-serology.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
 | new-contents-immune-checkpoint | [subtrees/new-contents-immune-checkpoint.md](subtrees/new-contents-immune-checkpoint.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
-| new-contents-episwitch | [subtrees/new-contents-episwitch.md](subtrees/new-contents-episwitch.md) | 2026-08-15 | 12 | 5 | 🔵 in progress |
+| new-contents-episwitch | [subtrees/new-contents-episwitch.md](subtrees/new-contents-episwitch.md) | 2026-10-15 | 30 | 16 | 🔵 in progress (update cycle 2026-10-15: post-publication critique + cross-condition methylation evidence) |
 | new-contents-episwitch-crosscondition-hunter2026 | [subtrees/new-contents-episwitch-crosscondition-hunter2026.md](subtrees/new-contents-episwitch-crosscondition-hunter2026.md) | 2026-09-04 | 7 | 3 | 🔵 in progress |
 | new-contents-gut-brain | [subtrees/new-contents-gut-brain.md](subtrees/new-contents-gut-brain.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
 | new-contents-economic-burden | [subtrees/new-contents-economic-burden.md](subtrees/new-contents-economic-burden.md) | 2026-05-03 | 0 | 0 | ⬜ stub |

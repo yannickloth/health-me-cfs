@@ -13,6 +13,21 @@ Prevents re-processing of already-integrated content.
 
 ---
 
+## EpiSwitch ME/CFS Diagnostic — UPDATE CYCLE (episwitch-epigenetic-test) Literature Search
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed / Europe PMC / biomcp (BioMCP hybrid: PubTator3 + Europe PMC + PubMed) | 2026-10-15 | Update-cycle probe for evidence published after 2026-08-15. **No independent replication** of the EpiSwitch ME/CFS classifier found; **no Hi-C/TAD study in ME/CFS**. Three new bib entries added: (1) **Tirelli2026WheatAndChaff** — post-publication critique letter (J Transl Med 24:20, DOI 10.1186/s12967-025-07397-z, PMID 41491817) of Hunter 2025, raising 10 methodological objections + counter-COI (OOT advocacy); (2) **Polli2026MethylationAxes** (PMID 42811334) — competing cross-condition EWAS (PC5 ME/CFS-specific vs PC6 shared symptom-burden axis); (3) **Sharma2026MethylationUnifying** (PMID 42786072) — competing DNA-methylation framework review. PMID 42693463 = Hunter-2026 cross-condition already integrated as `Hunter2026EpiSwitchCrossCondition` (not new). **Data-integrity fix:** the "Wheat and chaff" letter was previously keyed as `Wormgoor2026Chaff` (wrong author) in bib/diagnosis-assessment.bib; corrected to `Tirelli2026WheatAndChaff` and moved to bib/genetics-epigenetics.bib. |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| https://link.springer.com/article/10.1186/s12967-025-07203-w (Hunter 2025, DOI 10.1186/s12967-025-07203-w, PMID 41057909) | springer / J Transl Med | 2026-10-15 | 2026-08-15 (commit 87b4f012) | driving paper — already integrated as `Hunter2025` (bib/genetics-epigenetics.bib), ch36 episwitch-3d-genomic |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC12772095/ (Tirelli 2026 critique, DOI 10.1186/s12967-025-07397-z, PMID 41491817) | pmc.ncbi.nlm.nih.gov | 2026-10-15 | — | update cycle — bib/genetics-epigenetics.bib (@Tirelli2026WheatAndChaff), ch36 episwitch-3d-genomic critique/caveat, appendix-h |
+| https://pubmed.ncbi.nlm.nih.gov/42811334/ (Polli 2026 EWAS, DOI 10.1186/s12967-026-08824-5, PMID 42811334) | pubmed/eutils + PMC13625321 | 2026-10-15 | — | update cycle — bib/genetics-epigenetics.bib (@Polli2026MethylationAxes), appendix-h `<sec:bib-episwitch-3d-genomic>` |
+| https://pubmed.ncbi.nlm.nih.gov/42786072/ (Sharma 2026 review, DOI 10.1016/j.tig.2026.09.001, PMID 42786072) | pubmed/eutils | 2026-10-15 | — | update cycle — bib/genetics-epigenetics.bib (@Sharma2026MethylationUnifying), appendix-h `<sec:bib-episwitch-3d-genomic>` |
+| https://api.crossref.org/works/10.1186/s12967-025-07203-w | crossref | 2026-10-15 | — | metadata verification (title/authors/abstract/DOI) for Hunter2025 |
+
+---
+
 ## ADHD → Late-Life Cognitive Impairment / Energy-Deficit Mechanism (adhd-dementia-energy-deficit) Literature Search
 | Source | Last Scraped | Notes |
 |--------|--------------|-------|
