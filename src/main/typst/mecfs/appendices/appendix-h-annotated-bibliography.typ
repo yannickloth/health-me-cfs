@@ -15092,6 +15092,56 @@ deficiency, supporting a pharmacological rather than replacement rationale.
 
 *Scope:* Literature surrounding the EpiSwitch 3D-genomic blood test for ME/CFS (Hunter 2025). Covers: (1) the EpiSwitch platform's prior-art and cross-disease clinical use; (2) independent mechanistic evidence that 3D chromatin topology regulates the IL-2/JAK-STAT axis the test reports; (3) competing blood epigenetic biomarkers (HERV, OPRM1 methylation, lncRNA) that partially overlap the EpiSwitch claims; (4) null/replication-gap findings. Hunter 2025 itself is annotated in the Immune Dysfunction section.
 
+// --- UPDATE CYCLE (2026-10-15, episwitch-epigenetic-test): post-publication critique + post-2026-08-15 competing DNA-methylation evidence ---
+
+=== Tirelli et al.\ 2026 --- Wheat and Chaff: Post-Publication Critique of the EpiSwitch ME/CFS Diagnostic
+
+    @Tirelli2026WheatAndChaff
+
+    / *Full Citation:*: Tirelli U, Franzini M, Chirumbolo S. "Wheat and chaff in Myalgic Encephalomyelitis/Chronic fatigue syndrome (ME/CFS) in clinics and laboratory." _Journal of Translational Medicine_. 2026;24:20. (Letter to the Editor)
+    / *DOI:*: #link("https://doi.org/10.1186/s12967-025-07397-z")[10.1186/s12967-025-07397-z]
+    / *PMID:*: 41491817
+    / *PMCID:*: PMC12772095
+    / *Study Design:*: Letter to the Editor (post-publication critique of Hunter 2025); no new empirical data.
+    / *Key Findings:*:
+        - 10 methodological objections to Hunter 2025: (1) selective citation omitting foundational 1994 immunology (Tirelli 1994); (2) diagnostic criteria unspecified ("housebound" is not a validated stratifier); (3) ambiguous control definition ("preferably" glandular fever/COVID history); (4) unjustified MS/RA pathway-overlap claims (IL-2/IL-10/CD4/TLR are pleiotropic); (5) rituximab comparator flawed — Phase III was null and rituximab targets CD20, not IL-2; (6) omission of oxygen-ozone autohemotherapy (OOT); (7) no confounder analysis (medications, CMV/EBV/SARS-CoV-2 status); (8) conflation of chromatin-conformation statistical association with causal mechanism; (9) limited reproducibility across populations (n=47, retrospective, overlapping biobank test cohort); (10) category error applying an oncology-validated platform to ME/CFS.
+    / *Conclusion:*: The diagnostic utility of the 200-marker panel remains unproven outside a narrowly defined severe/housebound cohort. Multi-centre prospective validation, rigorous phenotyping, functional marker validation, and comparative studies against other chronic illnesses are required before a "near-definitive" diagnostic claim is justified.
+    / *Counter-COI (must record):*: The authors declare "no conflict of interest," yet Franzini is affiliated with SIOOT (Italian Society of Oxygen-Ozone Therapy) and references 5--7 are the authors' own oxygen-ozone autohemotherapy papers; the demand that Hunter cite OOT is self-serving advocacy. Objection (5) is independently verifiable: the rituximab Phase III null is confirmed by Fluge 2019 (Ann Intern Med, @Fluge2019RituximabPhase3, already in bib).
+    / *Limitations:*: Opinion/letter tier; no empirical data; author COI in the OOT dimension; the critique's own therapeutic alternative (OOT) lacks high-tier RCT evidence.
+    / *Certainty:*: 0.35 (raw); population weight 1.0 → discounted 0.35
+
+=== Polli et al.\ 2026 --- DNA Methylation Axes: ME/CFS-Specific vs Shared Symptom-Burden Signal
+
+    @Polli2026MethylationAxes
+
+    / *Full Citation:*: Polli A, Hendrix J, Wyns A, Van Campenhout J, Allard S, Aerts JL, Laeremans T, Xiong H, Buntinx Y, Michiels J, Ben Amar J, Godderis L, Thienpont B, Nijs J. "Epigenome-wide profiling identifies distinct DNA methylation architecture underlying ME/CFS and fibromyalgia symptom burden." _Journal of Translational Medicine_. 2026;24(1):1222.
+    / *DOI:*: #link("https://doi.org/10.1186/s12967-026-08824-5")[10.1186/s12967-026-08824-5]
+    / *PMID:*: 42811334
+    / *PMCID:*: PMC13625321
+    / *Study Design:*: Cross-sectional EWAS; n=188 women (73 healthy controls, 71 ME/CFS, 44 fibromyalgia); Illumina MethylationEPIC v2 array on PBMCs; PCA-derived methylation axes; age/BMI/immune-cell-composition-adjusted linear models; bootstrap, permutation, leave-one-out, and medication/comorbidity sensitivity analyses.
+    / *Key Findings:*:
+        - Two latent methylation axes. PC5 differentiated ME/CFS from fibromyalgia AND healthy controls, associated mainly with post-exertional malaise and cognitive symptoms (an ME/CFS-specific signal).
+        - PC6 separated both patient groups from healthy controls but NOT from each other, associated with broader symptom burden (widespread pain, pain impact, sleep disturbance, visceral symptoms, temporal summation) — a shared/general illness-burden signal.
+        - 591 PC5-associated and 54 PC6-associated high-confidence differentially methylated regions; enrichment in neuroimmune, metabolic, cytokine, NF-κB, JAK-STAT, TGF-β, and immune-regulatory pathways.
+    / *Conclusion:*: Blood DNA methylation contains both an ME/CFS-specific axis (PC5, PEM/cognitive-aligned) and a shared symptom-burden axis (PC6, pain/multisystem-aligned). Directly tests the cross-condition specificity question Hunter 2025 did not (ME/CFS vs FM), and partially supports the concern that blood epigenetic signatures can reflect general illness severity rather than disease-specific biology. Competing technology to EpiSwitch (DNA methylation array vs chromosome-conformation signature).
+    / *Limitations:*: Female-only cohort (excludes male ME/CFS); diagnostic criteria not stated in the abstract; single study awaiting replication; same Brussels Pain-in-Motion group as prior OPRM1 methylation work (potential cohort overlap).
+    / *Certainty:*: 0.55 (raw); population weight 0.80 (female-only) → discounted 0.44
+
+=== Sharma et al.\ 2026 --- DNA Methylation as a Unifying Framework Across ME/CFS, Long COVID, FM, hEDS
+
+    @Sharma2026MethylationUnifying
+
+    / *Full Citation:*: Sharma S, Rodger EJ, Chatterjee A, Tate WP. "DNA methylation: unifying framework for complex chronic conditions." _Trends in Genetics_. 2026 (online ahead of print).
+    / *DOI:*: #link("https://doi.org/10.1016/j.tig.2026.09.001")[10.1016/j.tig.2026.09.001]
+    / *PMID:*: 42786072
+    / *Study Design:*: Narrative review (Otago group; same lab as Helliwell 2020 and Peppercorn 2025).
+    / *Key Findings:*:
+        - Synthesises DNA methylation studies across ME/CFS, long COVID, fibromyalgia, and hypermobile Ehlers-Danlos syndrome (hEDS).
+        - Argues DNA methylation provides a tractable framework for comparative and longitudinal cross-condition studies, diagnostic stratification, and mechanistic insight.
+    / *Conclusion:*: Positions DNA methylation — not 3D-genome/chromosome-conformation — as the unifying blood epigenetic readout for these overlapping conditions. Represents a competing biomarker framework to the EpiSwitch approach.
+    / *Limitations:*: Review tier (no new empirical data); online ahead of print; no direct comparison to EpiSwitch/chromosome-conformation signatures.
+    / *Certainty:*: 0.45 (raw); population weight 1.0 (framework) → discounted 0.45
+
 === Peppercorn et al.\ 2025 --- DNA Methylation Landscapes in ME/CFS vs Long COVID PBMCs
 
     @Peppercorn2025methylation
@@ -34013,18 +34063,11 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
     / *Pharmacodiagnostic Relevance:*: Platform trial architecture is the design needed for a proper pharmacodiagnostic matrix: multiple drugs tested in parallel against common control producing cross-drug response comparisons and origin inferences. Demonstrates this is feasible in post-infectious fatigue syndromes.
     / *Certainty:*: 0.40 (protocol only; no results)
 
-=== Wormgoor et al.\ 2026 — Wheat and Chaff in ME/CFS
-
-    / *Full Citation:*: Wormgoor M, et al.\ Wheat and chaff in Myalgic Encephalomyelitis/Chronic fatigue syndrome (ME/CFS) in clinics and laboratory. _Journal of Translational Medicine_. 2026;24. @Wormgoor2026Chaff
-    / *DOI:*: #link("https://doi.org/10.1186/s12967-025-07397-z")[10.1186/s12967-025-07397-z]
-    / *PMID:*: 41491817
-    / *Study Design:*: Critical review / opinion
-    / *Key Findings:*:
-        - Systematic separation of evidence-based from speculative claims in ME/CFS diagnostics and therapy
-        - Wheat and chaff framing applied to both clinical and laboratory claims
-    / *Conclusion:*: Significant portion of ME/CFS clinical claims lack adequate evidence. Pharmacodiagnostic inference must distinguish treatment responses that genuinely narrow mechanism from those confounded by placebo or natural history.
-    / *Pharmacodiagnostic Relevance:*: The pharmacodiagnostic matrix must include quality filters for which drug responses count as evidence. Some responses are informative (true wheat) while others are noise (chaff).
-    / *Certainty:*: 0.35 (opinion/review; no empirical data)
+// NOTE (2026-10-15): the "Wheat and chaff in ME/CFS ..." letter was previously
+// annotated here under the incorrect attribution "Wormgoor et al." (wrong author).
+// Correct authors are Tirelli U, Franzini M, Chirumbolo S. Entry re-keyed as
+// @Tirelli2026WheatAndChaff and re-annotated in the EpiSwitch block
+// (<sec:bib-episwitch-3d-genomic>).
 
 // =============================================================================
 
