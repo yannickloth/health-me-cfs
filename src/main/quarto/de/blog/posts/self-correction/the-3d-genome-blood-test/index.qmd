@@ -1,0 +1,68 @@
+---
+title: "Der 3D-Genom-Bluttest: Was die 98-%-Zahl tatsächlich gemessen hat"
+description: "Ein Bluttest für ME/CFS wurde mit 98 % Spezifität gemeldet. Hier steht, wogegen diese Zahl gemessen wurde — und was wir in unserem eigenen Text korrigieren mussten."
+author: "Yannick Loth"
+date: "2026-10-14"
+categories: [Self-correction, Diagnostics, Research]
+lang: de
+---
+
+In der Presse wurde über einen Bluttest für ME/CFS berichtet. Die genannten Zahlen sind eindrucksvoll: **92 % Sensitivität, 98 % Spezifität, 96 % Genauigkeit.** Wenn Sie ME/CFS haben, klingt ein solcher Test nach genau dem, worauf Sie jahrelang gewartet haben.
+
+Dieser Beitrag handelt von dem Vergleich hinter dieser Zahl — und von einem Satz in unserem eigenen Dokument, den wir korrigieren mussten.
+
+## Was der Test misst
+
+Die Plattform liest die **3D-Chromosomenarchitektur** aus: wie sich die DNA im Zellkern zu Schleifen faltet. Das ist eine echte epigenetische Ebene, verschieden von der DNA-Sequenz und verschieden von den Methylierungsmarkierungen, die Standard-Arrays messen. Es ist eine reale Messung mit einer realen biologischen Grundlage — genau deshalb verdient sie einen sorgfältigen Blick statt entweder Abtun oder Begeisterung.
+
+Die Studie untersuchte Blut von **47 schwer betroffenen (ans Haus gebundenen) ME/CFS-Patienten und 61 gesunden Kontrollen.** Ein Panel aus 200 Markern trennte die beiden Gruppen. Die Pfadanalyse deutete auf IL-2-Signalübertragung und JAK-STAT hin.
+
+## Die Zahl, die einen Satz Kontext braucht
+
+„98 % Spezifität" bedeutet: Von den gesunden Kontrollen wurden 98 % korrekt als nicht an ME/CFS erkrankt identifiziert.
+
+Das ist die ganze Behauptung. Sie wird **nur gegen gesunde Menschen gemessen.**
+
+Sie ist *keine* Behauptung, dass der Test ME/CFS von anderen Erschöpfungserkrankungen trennt. Das Panel wurde nie gegen Fibromyalgie, Depression oder Long-COVID-Erschöpfung getestet. Und das ist die eigentliche klinische Frage, denn das sind die Erkrankungen, von denen ein echter Patient üblicherweise abgegrenzt wird.
+
+## Unsere eigene Korrektur
+
+Unser Dokument beschrieb die Zahlen 92 %/98 %/96 % zuvor als aus der **Entdeckungskohorte** stammend. Das war falsch, und wir bemerkten es beim erneuten Prüfen der Quelle.
+
+Die Zahlen stammen aus der **internen (retrospektiven) Validierungskohorte** der Studie selbst — einer zurückgehaltenen Teilmenge derselben Proben. Das ist ein bedeutsamer Unterschied. Es ist auch keine externe Kohorte.
+
+Wir haben den Wortlaut an drei Stellen korrigiert. Der Unterschied zählt aus demselben Grund, aus dem die Serie existiert: Eine Zahl, die stärker klingt, als sie ist, wird wiederholt, als wäre sie stärker, als sie ist.
+
+## Neue Evidenz, in diesem Jahr veröffentlicht
+
+Seit der ursprünglichen Arbeit sind zwei Dinge erschienen — keines davon eine Replikation.
+
+**Eine veröffentlichte Kritik.** Ein Leserbrief in derselben Zeitschrift greift die Studie aus zehn Gründen an. Zwei davon gehen über das hinaus, was wir unten sagen, und erscheinen fundiert: Die Kohorte wird als „schwer/ans Haus gebunden" beschrieben, ohne die verwendeten diagnostischen Kriterien zu nennen, sodass die Stichprobe aus der Arbeit nicht reproduziert werden kann; und der Vergleich der Studie mit rituximab-responsiven Erkrankungen ist irreführend, weil die Rituximab-Studie bei ME/CFS ein Nullbefund war. Mehrere der übrigen Einwände des Briefes überschneiden sich mit Punkten, die wir weiter unten anführen — eine uneindeutige Kontrollgruppe und das Fehlen externer Validierung —, und einer verdient eine Ergänzung: Die Studie korrigierte nicht für Unterschiede bei Medikamenten, früheren Infektionen oder Rauchen zwischen den Gruppen. Die ursprünglichen Autoren haben nicht geantwortet.
+
+Die Kritik ist selbst interessant. Ihre Autoren bewerben die Sauerstoff-Ozon-Therapie bei ME/CFS, und ihre Forderung, die Arbeit solle ihre eigene frühere Arbeit zitieren, ist der am wenigsten überzeugende ihrer Punkte. Die Zitat-Behauptung des Briefes hält allerdings stand: Die Studie zitiert Arbeiten zu Zytokinen und natürlichen Killerzellen, aber nicht die Studien der 1990er-Jahre, die dem Brief vorschweben. Wir zitieren die Kritik als Kritik, nicht als Beweis, dass der Test ungültig ist.
+
+**Eine Methylierungsstudie über Erkrankungsgrenzen hinweg.** Eine einzelne, noch nicht replizierte Studie an 188 Frauen, unabhängig vom Anbieter der Plattform durchgeführt, verglich ME/CFS direkt mit **Fibromyalgie** — der Vergleich, den das EpiSwitch-Panel nie angestellt hat. Sie fand zwei getrennte Methylierungsachsen:
+
+- Eine Achse trennte ME/CFS von **sowohl** Fibromyalgie als auch Kontrollen und folgte der post-exertionellen Malaise und kognitiven Symptomen;
+- Eine zweite Achse trennte **beide** Patientengruppen von Kontrollen, aber **nicht** voneinander, und folgte der allgemeinen Symptomlast.
+
+Die zweite dieser Achsen ist die, die hier zählt: Sie folgt der allgemeinen Krankheitslast statt der Diagnose.
+
+Und weil der EpiSwitch-Klassifikator nur gegen gesunde Kontrollen trainiert wurde, **können wir nicht ausschließen**, dass ein Teil seines Signals dieselbe Art von Lastkomponente ist.
+
+Ein Vorbehalt gehört zu diesem Satz. Die Lastachse wurde in der **Methylierung** gefunden; EpiSwitch misst die **3D-Architektur**. Das sind verschiedene molekulare Ebenen, also ist dies eine Analogie und eine Warnung — keine Messung des EpiSwitch-Panels.
+
+## Was das für Patienten bedeutet
+
+- Der Test ist **in der Forschungsphase**. Er ist keine validierte klinische Diagnostik.
+- Die Zahl, die Sie vielleicht gesehen haben, wurde gegen gesunde Menschen gemessen. Es ist nicht gezeigt, dass sie ME/CFS von Fibromyalgie, Depression oder Long COVID unterscheidet.
+- Die Studie ist eine einzelne Analyse des Unternehmens, das die Plattform herstellt. Die Interessenkonflikt-Erklärung der Arbeit führt ihre Autoren als Vollzeitbeschäftigte von Oxford BioDynamics auf, und das Unternehmen finanzierte die Arbeit. Es gibt keine unabhängige Replikation.
+- Der Pfad, den sie berichtet, ist plausibel, und unabhängige T-Zell-Arbeit verbindet die 3D-Chromatin-Topologie mit der IL-2/JAK-STAT-Signalübertragung — allerdings nicht bei ME/CFS. Der *Klassifikator* ist der unbewiesene Teil.
+
+Möglicherweise wird Ihnen dieser Test zum Verkauf angeboten. **Verfügbarkeit ist keine Validierung.** Ein Test kann vermarktet werden, während seine Spezifitätsfrage noch offen ist, und wir können nicht empfehlen, dafür zu bezahlen, um eine klinische Entscheidung zu treffen.
+
+Der nächste Schritt ist eine unabhängige Kohorte, durchgeführt von einer Gruppe ohne Eigeninteresse an der Plattform, die ME/CFS gegen andere Erschöpfungserkrankungen testet.
+
+Unterdessen ändert nichts hier, was Sie heute tun sollten. Die Ansätze, die die Arbeit stützen kann — Pacing innerhalb einer Energie-Hülle und die individuelle Behandlung von Symptomen — hängen nicht davon ab, dass es diesen Test gibt.
+
+*Der Faden dieser Serie: Ein Dokument, das seine Fehler nicht zeigen kann, ist mit seinen Schlussfolgerungen nicht vertrauenswürdig. Wir haben einen der unseren gefunden — eine Zahl, die als aus der falschen Kohorte stammend beschrieben wurde — und korrigiert.*

@@ -1,0 +1,54 @@
+---
+title: "Electrical muscle stimulation is not a free lunch"
+description: "Clinics offer EMS as 'passive exercise' for people who cannot exercise. It may engage the same pathway implicated in post-exertional malaise — and no trial has tested this."
+author: "Yannick Loth"
+date: "2026-10-15"
+categories: [Treatment, PEM, Energy metabolism]
+---
+
+If you cannot exercise, electrical muscle stimulation sounds appealing. A device contracts your muscles for you. You do not move. It gets marketed as **passive exercise** — a way to keep muscle without spending energy you do not have. We looked at the mechanism, and the phrase "passive" is doing more work than it can support.
+
+## What EMS actually does
+
+Electrical muscle stimulation (EMS), and its nerve-targeted cousin NMES, send current through the skin to make a muscle contract. The muscle does mechanical work. That work has a metabolic cost. It also puts mechanical stress on the muscle fibres — and that is the part whose downstream consequences have been traced, as far as inflammation, so it is the part this post follows.
+
+## The finding
+
+The evidence indicates that, **at higher intensities**, electrical stimulation provokes micro-trauma of the same kind as voluntary exercise — in healthy-muscle studies, broadly comparable to eccentric contraction — and drives the same damage-to-inflammation cascade that follows exercise-induced muscle damage.
+
+That cascade is **a candidate pathway implicated in** post-exertional malaise, not a settled one. So there are grounds to think EMS engages it. The claim is *not* that EMS causes a crash in everyone. It is that the reassuring assumption — "this is passive, therefore it is PEM-neutral" — has never been tested.
+
+Note also that "activating muscle" and "causing micro-trauma" are not the same mechanism. Low-intensity stimulation used for circulation or atrophy prevention, at a dose a deconditioned patient can tolerate, may never reach the damage threshold. Whether the protocols actually offered to patients reach it is unknown — and no ME/CFS study has measured it.
+
+EMS-induced PEM is therefore a hypothesis worth testing, not a demonstrated effect.
+
+## What we do *not* know — and this is a lot
+
+We are not going to overstate this. The evidence is graded **weak**, and the list of unknowns is longer than the reassuring one:
+
+- **No clinical trial of EMS or NMES exists in ME/CFS.** Nobody has measured what happens to PEM in this population.
+- **The evidence is indirect.** The micro-trauma and inflammatory findings come from general and animal work, not from ME/CFS patients.
+- **The timescales do not match.** Delayed-onset muscle soreness peaks in days. A PEM crash can run for weeks. That difference is unexplained.
+- **The dose matters and is uncontrolled.** Effect is intensity-dependent, and no protocol exists for this population.
+- **There are legacy nulls.** Older work found normal muscle force and normal contractile behaviour in some ME/CFS studies, which cuts against a clean story.
+- **There is one harm case report.** One, not a series.
+
+So the claim is narrower than "EMS is dangerous": the reassurance was never tested, and there is a mechanism that gives grounds for caution. That is a reason to measure, not a verdict.
+
+## What this means in practice
+
+If a clinician offers you EMS as a safe, non-exertional option:
+
+- Treat it as **an exertion**, with a budget — not as rest.
+- The **dose is set by the clinician or operator, not by you.** You cannot "start low" yourself. Ask who controls intensity, duration, and frequency.
+- Watch for a **delayed** reaction, not an immediate one. PEM does not arrive during the session. There is no validated monitoring window, so agree one in advance — and agree a stopping rule: if a crash follows, stop and do not re-trial at that dose.
+- Remember that a normal force measurement does not mean the metabolic and recovery response is normal.
+- The unanswered question — is the problem central or peripheral? — is a question a trial would begin to answer. No trial exists.
+
+**Rest is the safe default after a crash. You are not obliged to add anything.** As an ongoing strategy, though, stopping EMS and doing nothing may forgo an unproven benefit — whether EMS prevents deconditioning in ME/CFS is itself untested. We do not know the best alternative either: gentle movement inside your energy envelope, and pacing, are also under-evidenced in this population. They are simply the options the paper can currently support. Discuss any change with a clinician who understands PEM.
+
+## The general principle
+
+Anything that makes a muscle work imposes a load, whoever or whatever sets it going. In an illness defined by an abnormal response to exertion, the label matters less than the mechanism.
+
+*This is the same rule we apply across every intervention in the paper: a plausible mechanism is not evidence of safety, and absence of a trial is not evidence of harm. Both are reasons to say "we do not know yet" — and to measure.*

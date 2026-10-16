@@ -1,0 +1,63 @@
+---
+title: "Post-vaccination syndrome: what the evidence does and does not show"
+description: "Some people develop ME/CFS-like symptoms after vaccination. The symptoms are real and reported. Whether vaccination caused them is unproven — and there are two common ways to get this wrong."
+author: "Yannick Loth"
+date: "2026-10-16"
+categories: [Post-vaccination syndrome, Post-infectious, Research]
+---
+
+This is one of the hardest questions to write about, because it arrives already loaded. A patient who became ill after a vaccination wants to know whether the vaccine caused it. Two camps are waiting to answer. One says yes. One says no. Both are often more confident than the evidence allows.
+
+Here is what we can actually support.
+
+## What post-vaccination syndrome is
+
+Post-vaccination syndrome (PVS) describes a cluster of symptoms appearing after vaccination that resembles ME/CFS: persistent fatigue, post-exertional malaise, cognitive impairment, autonomic symptoms, unrefreshing sleep. It is a **reported** phenomenon. It is not yet a formally defined diagnosis.
+
+The overlap with post-infectious ME/CFS is plausible, and the same broad kinds of mechanism — immune activation, neuroimmune signalling, autonomic dysregulation — could well be involved in both. That is a hypothesis about a shared route, not a demonstration of one.
+
+## Why the question is not absurd
+
+ME/CFS is known to follow some infections: Epstein-Barr virus, other herpesviruses, SARS-CoV-2. The logic that an immune stimulus can occasionally be followed by a chronic fatigue syndrome is neither new nor fringe. Vaccination is also an immune stimulus — generally a weaker and briefer one than a replicating infection, though the gap varies by platform. That weakens the analogy rather than breaking it: it makes the vaccination case a possibility to investigate, not a strong prior.
+
+That is the honest case *for* taking the question seriously. It is a plausibility argument, not proof.
+
+## What is unproven
+
+- **Causation in an individual is not established.** A temporal sequence — vaccinated, then ill — is not by itself causation. People fall ill for unrelated reasons all the time, including in the weeks after a vaccination.
+- **The mRNA-specific question is essentially untested.** Claims that mRNA vaccines specifically drive this are ahead of the data.
+- **Some of the symptom burden has another explanation.** Nocebo effects — symptoms produced by expectation rather than by the product — are well documented after vaccination, and they are real symptoms. How much of the ME/CFS-like presentation they explain has not been measured. Treating nocebo as the complete explanation is its own form of dismissal.
+- **Population-level signals are hard to read in either direction.** Absence of a clear population signal is not proof that an individual's illness was unrelated; a cluster of reported cases is not proof of causation. Both directions of inference fail here, which is why the question stays open rather than settled.
+
+## Two common ways to get this wrong
+
+**Getting it wrong, direction one: dismissing the patient.** Telling someone their illness is "not real", or that it is anxiety, or that the timing is coincidence, on the basis that no mechanism has been proven. That is not scepticism. It is dismissal wearing the clothes of rigour, and it is the same move that ME/CFS patients have endured for decades.
+
+**Getting it wrong, direction two: over-attribution.** Asserting that a vaccine caused an individual's ME/CFS when no study can support that claim for that person. This is not harmless either. It forecloses other treatable contributors, it builds public certainty on an untested premise, and it hands opponents an easy target.
+
+The position that survives both errors is uncomfortable but correct: **we do not know, and we cannot answer that for you either.**
+
+## Symptoms that need urgent attention, whatever the cause
+
+One thing does not depend on the causation debate at all. Some symptoms appearing after vaccination are medical emergencies. They should be assessed immediately — not attributed to a syndrome, and not waited out:
+
+- **Chest pain, breathlessness, or a racing or irregular heartbeat** — possible myocarditis or pericarditis.
+- **A severe persistent headache, or new confusion, visual disturbance, or focal weakness** — possible vaccine-induced thrombosis with thrombocytopenia.
+- **Ascending numbness or weakness, or new difficulty walking** — possible Guillain–Barré syndrome.
+- **Anything severe, worsening, or unlike anything you have had before.**
+
+This list is not about blaming a vaccine or exonerating one. It is about not letting the argument about cause delay an assessment of something treatable.
+
+## What follows for management
+
+This is the part that matters most.
+
+Whatever started it, the management the paper can currently support is **pacing** — staying inside an energy envelope, avoiding the exertion-crash cycle — plus treating symptoms individually. Like most management in this illness, pacing is itself under-evidenced; it is simply what fits what we know. And it does not depend on resolving the trigger question. A patient whose illness followed a vaccination and a patient whose illness followed an infection need the same approach.
+
+Management is therefore not "nothing": it means screening for the urgent causes above, then pacing and symptom-by-symptom treatment with a clinician who understands PEM. If a specific trigger is ever shown to have a specific treatment, that would be an addition rather than a replacement.
+
+## Why we are careful here
+
+Our integrated assessment of this topic is graded **weak evidence** — the phenomenon is reported and overlaps a well-characterised illness, but causation is unproven and the specifics are untested. That is a reason to say less, not more.
+
+*What a patient should be told: that their symptoms are taken seriously, that the timing is noted, that no one can presently say whether the vaccine caused it — and that they should not be told, by anyone, that it definitely did or definitely did not.*

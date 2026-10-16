@@ -1,0 +1,55 @@
+---
+title: "La stimulation musculaire électrique n'est pas un repas gratuit"
+description: "Les cliniques proposent l'EMS comme « exercice passif » aux personnes qui ne peuvent pas faire d'exercice. Elle pourrait engager la même voie impliquée dans le malaise post-effort — et aucun essai ne l'a testé."
+author: "Yannick Loth"
+date: "2026-10-15"
+categories: [Treatment, PEM, Energy metabolism]
+lang: fr
+---
+
+Si vous ne pouvez pas faire d'exercice, la stimulation musculaire électrique semble séduisante. Un appareil contracte vos muscles à votre place. Vous ne bougez pas. Elle est commercialisée comme **exercice passif** — un moyen de garder du muscle sans dépenser l'énergie que vous n'avez pas. Nous avons examiné le mécanisme, et le mot « passif » travaille plus qu'il ne peut supporter.
+
+## Ce que l'EMS fait réellement
+
+La stimulation musculaire électrique (EMS), et son cousin ciblant les nerfs, le NMES, envoient un courant à travers la peau pour faire contracter un muscle. Le muscle effectue un travail mécanique. Ce travail a un coût métabolique. Il impose aussi une contrainte mécanique aux fibres musculaires — et c'est la partie dont les conséquences en aval ont été tracées, jusqu'à l'inflammation, donc c'est la partie que cet article suit.
+
+## Le résultat
+
+Les preuves indiquent que, **à des intensités plus élevées**, la stimulation électrique provoque un micro-traumatisme du même type que l'exercice volontaire — dans les études sur le muscle sain, globalement comparable à la contraction excentrique — et déclenche la même cascade de dommage vers l'inflammation qui suit un dommage musculaire induit par l'exercice.
+
+Cette cascade est **une voie candidate impliquée dans** le malaise post-effort, pas une voie établie. Il y a donc des raisons de penser que l'EMS l'engage. L'affirmation n'est *pas* que l'EMS provoque un crash chez tout le monde. C'est que l'hypothèse rassurante — « c'est passif, donc c'est neutre vis-à-vis du PEM » — n'a jamais été testée.
+
+Notez aussi que « activer le muscle » et « causer un micro-traumatisme » ne sont pas le même mécanisme. Une stimulation de faible intensité utilisée pour la circulation ou la prévention de l'atrophie, à une dose qu'un patient déconditionné peut tolérer, peut ne jamais atteindre le seuil de dommage. On ne sait pas si les protocoles réellement proposés aux patients l'atteignent — et aucune étude sur l'EM/SFC ne l'a mesuré.
+
+Le PEM induit par l'EMS est donc une hypothèse qui mérite d'être testée, pas un effet démontré.
+
+## Ce que nous ne savons *pas* — et c'est beaucoup
+
+Nous n'allons pas exagérer cela. Les preuves sont classées **faibles**, et la liste des inconnues est plus longue que la liste rassurante :
+
+- **Aucun essai clinique de l'EMS ou du NMES n'existe dans l'EM/SFC.** Personne n'a mesuré ce qui arrive au PEM dans cette population.
+- **Les preuves sont indirectes.** Les résultats sur le micro-traumatisme et l'inflammation viennent de travaux généraux et animaux, pas de patients EM/SFC.
+- **Les échelles de temps ne correspondent pas.** Les courbatures d'apparition retardée culminent en quelques jours. Un crash de PEM peut durer des semaines. Cette différence n'est pas expliquée.
+- **La dose compte et n'est pas contrôlée.** L'effet dépend de l'intensité, et aucun protocole n'existe pour cette population.
+- **Il existe des résultats nuls hérités.** Des travaux plus anciens ont trouvé une force musculaire normale et un comportement contractile normal dans certaines études EM/SFC, ce qui va à l'encontre d'un récit propre.
+- **Il existe un cas rapporté de préjudice.** Un, pas une série.
+
+Donc l'affirmation est plus étroite que « l'EMS est dangereuse » : la garantie n'a jamais été testée, et il existe un mécanisme qui donne des raisons de prudence. C'est une raison de mesurer, pas un verdict.
+
+## Ce que cela signifie en pratique
+
+Si un clinicien vous propose l'EMS comme option sûre et sans effort :
+
+- Traitez-la comme **un effort**, avec un budget — pas comme du repos.
+- La **dose est fixée par le clinicien ou l'opérateur, pas par vous.** Vous ne pouvez pas « commencer bas » vous-même. Demandez qui contrôle l'intensité, la durée et la fréquence.
+- Surveillez une réaction **retardée**, pas immédiate. Le PEM n'arrive pas pendant la séance. Il n'existe aucune fenêtre de surveillance validée, donc convenez-en une à l'avance — et convenez d'une règle d'arrêt : si un crash suit, arrêtez et ne refaites pas d'essai à cette dose.
+- Rappelez-vous qu'une mesure de force normale ne signifie pas que la réponse métabolique et de récupération est normale.
+- La question sans réponse — le problème est-il central ou périphérique ? — est une question à laquelle un essai commencerait à répondre. Aucun essai n'existe.
+
+**Le repos est l'option sûre par défaut après un crash. Vous n'êtes pas obligé d'ajouter quoi que ce soit.** Comme stratégie continue, toutefois, arrêter l'EMS et ne rien faire peut renoncer à un bénéfice non prouvé — savoir si l'EMS prévient le déconditionnement dans l'EM/SFC n'est lui-même pas testé. Nous ne connaissons pas non plus la meilleure alternative : le mouvement doux à l'intérieur de votre enveloppe d'énergie, et le pacing, sont eux aussi sous-étayés dans cette population. Ce sont simplement les options que l'article peut actuellement soutenir. Discutez tout changement avec un clinicien qui comprend le PEM.
+
+## Le principe général
+
+Tout ce qui fait travailler un muscle impose une charge, quelle que soit la personne ou la chose qui la déclenche. Dans une maladie définie par une réponse anormale à l'effort, l'étiquette compte moins que le mécanisme.
+
+*C'est la même règle que nous appliquons à chaque intervention de l'article : un mécanisme plausible n'est pas une preuve de sécurité, et l'absence d'essai n'est pas une preuve de préjudice. Les deux sont des raisons de dire « nous ne savons pas encore » — et de mesurer.*

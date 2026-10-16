@@ -1,0 +1,67 @@
+---
+title: "The 3D-genome blood test: what the 98% figure actually measured"
+description: "A blood test for ME/CFS was reported with 98% specificity. Here is what that number was measured against — and what we had to correct in our own text."
+author: "Yannick Loth"
+date: "2026-10-14"
+categories: [Self-correction, Diagnostics, Research]
+---
+
+A blood test for ME/CFS has been reported in the press. The numbers quoted are striking: **92% sensitivity, 98% specificity, 96% accuracy.** If you have ME/CFS, a test like that sounds like the thing you have waited years for.
+
+This post is about the comparison behind that figure — and about a sentence in our own document that we had to fix.
+
+## What the test measures
+
+The platform reads **3D chromosome architecture**: how DNA folds into loops inside the cell nucleus. That is a genuine epigenetic layer, different from DNA sequence and different from the methylation marks measured by standard arrays. It is a real measurement with a real biological basis — which is exactly why it deserves a careful look rather than either dismissal or enthusiasm.
+
+The study profiled blood from **47 severely affected (housebound) ME/CFS patients and 61 healthy controls.** A 200-marker panel separated the two groups. Pathway analysis pointed at IL-2 signalling and JAK-STAT.
+
+## The number that needs a sentence of context
+
+"98% specificity" means: of the healthy controls, 98% were correctly identified as not having ME/CFS.
+
+That is the whole claim. It is measured **against healthy people only.**
+
+It is *not* a claim that the test separates ME/CFS from other fatiguing illnesses. The panel has never been tested against fibromyalgia, depression, or long-COVID fatigue. And that is the actual clinical question, because those are the conditions a real patient is usually being distinguished from.
+
+## Our own correction
+
+Our document previously described the 92%/98%/96% figures as coming from the **discovery cohort**. That was wrong, and we caught it while re-checking the source.
+
+The figures come from the study's own **internal (retrospective) validation cohort** — a held-out split of the same samples. That is a meaningful distinction. It is also not an external cohort.
+
+We have corrected the wording in three places. The distinction matters for the same reason the series exists: a number that sounds stronger than it is will be repeated as if it were stronger than it is.
+
+## New evidence, published this year
+
+Two things have appeared since the original paper — neither of them replication.
+
+**A published critique.** A letter in the same journal challenges the study on ten grounds. Two of them go beyond what we say below, and appear well-founded: the cohort is described as "severe/housebound" without naming the diagnostic criteria used, so the sample cannot be reproduced from the paper; and the study's comparison to rituximab-responsive conditions is misleading, because the rituximab trial in ME/CFS was null. Several of the letter's other objections overlap points we make further down — an ambiguous control group, and the absence of external validation — and one is worth adding: the study did not adjust for medication, prior infection, or smoking differences between the groups. The original authors have not replied.
+
+The critique has its own interest. Its authors promote oxygen-ozone therapy for ME/CFS, and their demand that the paper cite their own earlier work is the least persuasive of its points. The letter's citation claim does hold up: the study cites cytokine and natural-killer-cell work, but not the 1990s studies the letter has in mind. We cite the critique as a critique, not as proof that the test is invalid.
+
+**A cross-condition methylation study.** A single, not-yet-replicated study of 188 women, run independently of the platform vendor, compared ME/CFS with **fibromyalgia** directly — the comparison the EpiSwitch panel never made. It found two separate methylation axes:
+
+- one axis separated ME/CFS from **both** fibromyalgia and controls, and tracked post-exertional malaise and cognitive symptoms;
+- a second axis separated **both** patient groups from controls but **not** from each other, and tracked broad symptom burden.
+
+The second of those axes is the one that matters here: it tracks general illness burden rather than the diagnosis.
+
+And because the EpiSwitch classifier was trained against healthy controls only, we **cannot rule out** that a portion of its signal is the same kind of burden component.
+
+One caveat belongs on that sentence. The burden axis was found in **methylation**; EpiSwitch measures **3D architecture**. Those are different molecular layers, so this is an analogy and a warning — not a measurement of the EpiSwitch panel.
+
+## What this means for patients
+
+- The test is **research-stage**. It is not a validated clinical diagnostic.
+- The figure you may have seen was measured against healthy people. It has not been shown to distinguish ME/CFS from fibromyalgia, depression, or long COVID.
+- The study is a single analysis by the company that makes the platform. The paper's competing-interest statement lists its authors as full-time Oxford BioDynamics employees, and the company funded the work. There is no independent replication.
+- The pathway it reports is plausible, and independent T-cell work links 3D chromatin topology to IL-2/JAK-STAT signalling — though not in ME/CFS. The *classifier* is the unproven part.
+
+You may find this test offered for sale. **Availability is not validation.** A test can be marketed while its specificity question is still open, and we cannot recommend paying for it to make a clinical decision.
+
+The next step is an independent cohort, run by a group with no stake in the platform, that tests ME/CFS against other fatiguing illnesses.
+
+Meanwhile, nothing here changes what you should do today. The approaches the paper can support — pacing inside an energy envelope, and treating symptoms individually — do not depend on this test existing.
+
+*The thread of this series: a document that cannot show its errors cannot be trusted with its conclusions. We found one of ours — a figure described as coming from the wrong cohort — and corrected it.*

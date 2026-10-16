@@ -13,5 +13,6 @@ La plupart des textes militants présentent des conclusions. Cette courte série
 2. [Une étude, de grandes affirmations : pourquoi n=16 compte](../single-study-big-claims/)
 3. [Le paysage de la recherche sur l'EM/SFC, cartographié](../the-research-landscape-mapped/)
 4. [Où nos preuves sont minces : un tour des points faibles](../where-the-evidence-is-thin/)
+5. [Le test sanguin du génome 3D : ce que le chiffre de 98 % a réellement mesuré](../the-3d-genome-blood-test/)
 
 *Le fil conducteur : un document incapable de montrer ses erreurs n'est pas digne de confiance pour ses conclusions.*

@@ -1,0 +1,55 @@
+---
+title: "Elektrische Muskelstimulation ist kein kostenloses Mittagessen"
+description: "Kliniken bieten EMS als „passive Bewegung" für Menschen an, die nicht trainieren können. Es könnte denselben Pfad aktivieren, der an der post-exertionellen Malaise beteiligt sein könnte — und keine Studie hat das getestet."
+author: "Yannick Loth"
+date: "2026-10-15"
+categories: [Treatment, PEM, Energy metabolism]
+lang: de
+---
+
+Wenn Sie nicht trainieren können, klingt elektrische Muskelstimulation verlockend. Ein Gerät zieht Ihre Muskeln für Sie zusammen. Sie bewegen sich nicht. Sie wird als **passive Bewegung** vermarktet — ein Weg, Muskeln zu erhalten, ohne Energie zu verbrauchen, die Sie nicht haben. Wir haben den Mechanismus geprüft, und das Wort „passiv" leistet mehr Arbeit, als es tragen kann.
+
+## Was EMS tatsächlich tut
+
+Elektrische Muskelstimulation (EMS) und ihr auf Nerven gerichteter Verwandter NMES schicken Strom durch die Haut, um einen Muskel zur Kontraktion zu bringen. Der Muskel verrichtet mechanische Arbeit. Diese Arbeit hat metabolische Kosten. Sie übt außerdem mechanische Belastung auf die Muskelfasern aus — und das ist der Teil, dessen nachgelagerte Folgen bis hin zur Entzündung nachverfolgt wurden, also der Teil, dem dieser Beitrag folgt.
+
+## Der Befund
+
+Die Evidenz deutet darauf hin, dass elektrische Stimulation **bei höheren Intensitäten** Mikrotraumata derselben Art wie willkürliche Bewegung auslöst — in Studien an gesunder Muskulatur grob vergleichbar mit exzentrischer Kontraktion — und dieselbe Kaskade von Schädigung zu Entzündung antreibt, die einem trainingsinduzierten Muskelschaden folgt.
+
+Diese Kaskade ist **ein Kandidatenpfad, der an der post-exertionellen Malaise beteiligt sein könnte**, kein gesicherter. Es gibt also Gründe zu denken, dass EMS ihn aktiviert. Die Behauptung ist *nicht*, dass EMS bei jedem einen Crash auslöst. Sie besagt, dass die beruhigende Annahme — „das ist passiv, also ist es PEM-neutral" — nie getestet wurde.
+
+Beachten Sie außerdem, dass „den Muskel aktivieren" und „Mikrotraumata verursachen" nicht derselbe Mechanismus sind. Niedrigintensive Stimulation, die zur Durchblutung oder Atrophievorbeugung eingesetzt wird, bei einer Dosis, die ein dekonditionierter Patient tolerieren kann, erreicht möglicherweise nie die Schadensschwelle. Ob die den Patienten tatsächlich angebotenen Protokolle sie erreichen, ist unbekannt — und keine ME/CFS-Studie hat es gemessen.
+
+EMS-induzierte PEM ist daher eine Hypothese, die es zu testen lohnt, kein nachgewiesener Effekt.
+
+## Was wir *nicht* wissen — und das ist viel
+
+Wir werden das nicht überzeichnen. Die Evidenz wird als **schwach** eingestuft, und die Liste der Unbekannten ist länger als die beruhigende:
+
+- **Es gibt keine klinische Studie zu EMS oder NMES bei ME/CFS.** Niemand hat gemessen, was mit der PEM in dieser Population geschieht.
+- **Die Evidenz ist indirekt.** Die Mikrotrauma- und Entzündungsbefunde stammen aus allgemeiner und Tier-Forschung, nicht von ME/CFS-Patienten.
+- **Die Zeitskalen passen nicht zusammen.** Der verzögert einsetzende Muskelkater gipfelt in Tagen. Ein PEM-Crash kann Wochen dauern. Dieser Unterschied ist unerklärt.
+- **Die Dosis zählt und ist unkontrolliert.** Der Effekt ist intensitätsabhängig, und für diese Population existiert kein Protokoll.
+- **Es gibt ältere Nullbefunde.** Ältere Arbeiten fanden in einigen ME/CFS-Studien normale Muskelkraft und normales Kontraktionsverhalten, was gegen eine saubere Geschichte spricht.
+- **Es gibt einen Fallbericht über einen Schaden.** Einen, keine Fallserie.
+
+Die Behauptung ist also enger gefasst als „EMS ist gefährlich": Die beruhigende Annahme wurde nie getestet, und es gibt einen Mechanismus, der Anlass zur Vorsicht gibt. Das ist ein Grund zu messen, kein Urteil.
+
+## Was das in der Praxis bedeutet
+
+Wenn ein Kliniker Ihnen EMS als sichere, nicht belastende Option anbietet:
+
+- Behandeln Sie es als **eine Belastung** mit einem Budget — nicht als Ruhe.
+- Die **Dosis wird vom Kliniker oder Bediener festgelegt, nicht von Ihnen.** Sie können nicht selbst „niedrig anfangen". Fragen Sie, wer Intensität, Dauer und Häufigkeit steuert.
+- Achten Sie auf eine **verzögerte** Reaktion, nicht auf eine sofortige. Die PEM tritt nicht während der Sitzung auf. Es gibt kein validiertes Überwachungsfenster, vereinbaren Sie also eines im Voraus — und vereinbaren Sie eine Abbruchregel: Wenn ein Crash folgt, stoppen Sie und versuchen Sie es nicht erneut mit dieser Dosis.
+- Denken Sie daran, dass eine normale Kraftmessung nicht bedeutet, dass die metabolische und die Erholungsreaktion normal sind.
+- Die unbeantwortete Frage — ist das Problem zentral oder peripher? — ist eine Frage, die eine Studie erst beginnen würde zu beantworten. Es existiert keine Studie.
+
+**Ruhe ist der sichere Standard nach einem Crash. Sie sind nicht verpflichtet, irgendetwas hinzuzufügen.** Als dauerhafte Strategie jedoch kann es ein nicht belegter Nutzen sein, EMS zu beenden und nichts zu tun — ob EMS eine Dekonditionierung bei ME/CFS verhindert, ist selbst ungetestet. Wir kennen auch nicht die beste Alternative: sanfte Bewegung innerhalb Ihrer Energie-Hülle und Pacing sind in dieser Population ebenfalls unzureichend belegt. Sie sind einfach die Optionen, die die Arbeit derzeit stützen kann. Besprechen Sie jede Änderung mit einem Kliniker, der PEM versteht.
+
+## Das allgemeine Prinzip
+
+Alles, was einen Muskel arbeiten lässt, erzeugt eine Last — wer oder was ihn auch in Gang setzt. Bei einer Erkrankung, die durch eine abnorme Reaktion auf Belastung definiert ist, zählt das Etikett weniger als der Mechanismus.
+
+*Das ist dieselbe Regel, die wir auf jede Intervention in der Arbeit anwenden: Ein plausibler Mechanismus ist kein Beleg für Sicherheit, und das Fehlen einer Studie ist kein Beleg für Schaden. Beides sind Gründe zu sagen „wir wissen es noch nicht" — und zu messen.*

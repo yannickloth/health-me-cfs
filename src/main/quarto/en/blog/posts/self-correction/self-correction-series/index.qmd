@@ -12,5 +12,6 @@ Most advocacy writing presents conclusions. This short series does the opposite:
 2. [Single study, big claims: why n=16 matters](../single-study-big-claims/)
 3. [The ME/CFS research landscape, mapped](../the-research-landscape-mapped/)
 4. [Where our evidence is thin: a tour of the weak spots](../where-the-evidence-is-thin/)
+5. [The 3D-genome blood test: what the 98% figure actually measured](../the-3d-genome-blood-test/)
 
 *The thread: a document that cannot show its errors cannot be trusted with its conclusions.*

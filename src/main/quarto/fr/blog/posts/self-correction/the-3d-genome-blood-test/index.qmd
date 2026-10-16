@@ -1,0 +1,68 @@
+---
+title: "Le test sanguin du génome 3D : ce que le chiffre de 98 % a réellement mesuré"
+description: "Un test sanguin pour l'EM/SFC a été rapporté avec une spécificité de 98 %. Voici contre quoi ce chiffre a été mesuré — et ce que nous avons dû corriger dans notre propre texte."
+author: "Yannick Loth"
+date: "2026-10-14"
+categories: [Self-correction, Diagnostics, Research]
+lang: fr
+---
+
+Un test sanguin pour l'EM/SFC a été rapporté dans la presse. Les chiffres cités sont frappants : **92 % de sensibilité, 98 % de spécificité, 96 % de précision.** Si vous avez l'EM/SFC, un test comme celui-là ressemble à ce que vous attendez depuis des années.
+
+Cet article porte sur la comparaison qui se cache derrière ce chiffre — et sur une phrase de notre propre document que nous avons dû corriger.
+
+## Ce que le test mesure
+
+La plateforme lit **l'architecture 3D du génome** : la façon dont l'ADN se replie en boucles à l'intérieur du noyau cellulaire. C'est une véritable couche épigénétique, différente de la séquence d'ADN et différente des marques de méthylation mesurées par les puces standards. C'est une mesure réelle avec une base biologique réelle — c'est exactement pourquoi elle mérite un examen attentif plutôt qu'un rejet ou un enthousiasme.
+
+L'étude a profilé le sang de **47 patients EM/SFC sévèrement atteints (confinés à domicile) et 61 témoins sains.** Un panel de 200 marqueurs a séparé les deux groupes. L'analyse des voies a pointé vers la signalisation IL-2 et JAK-STAT.
+
+## Le chiffre qui a besoin d'une phrase de contexte
+
+« 98 % de spécificité » signifie : parmi les témoins sains, 98 % ont été correctement identifiés comme n'ayant pas l'EM/SFC.
+
+C'est toute l'affirmation. Elle est mesurée **contre des personnes en bonne santé uniquement.**
+
+Ce n'est *pas* une affirmation selon laquelle le test sépare l'EM/SFC d'autres maladies fatigantes. Le panel n'a jamais été testé contre la fibromyalgie, la dépression ou la fatigue du COVID long. Et c'est là la véritable question clinique, parce que ce sont les affections dont un vrai patient est habituellement différencié.
+
+## Notre propre correction
+
+Notre document décrivait auparavant les chiffres de 92 %/98 %/96 % comme provenant de la **cohorte de découverte**. C'était faux, et nous l'avons remarqué en revérifiant la source.
+
+Les chiffres proviennent de la **cohorte de validation interne (rétrospective)** de l'étude elle-même — une partition mise de côté des mêmes échantillons. C'est une distinction qui compte. Ce n'est pas non plus une cohorte externe.
+
+Nous avons corrigé la formulation à trois endroits. La distinction compte pour la même raison que la série existe : un chiffre qui sonne plus fort qu'il ne l'est sera répété comme s'il était plus fort qu'il ne l'est.
+
+## De nouvelles preuves, publiées cette année
+
+Deux choses sont apparues depuis l'article original — aucune des deux n'est une réplication.
+
+**Une critique publiée.** Une lettre dans la même revue conteste l'étude sur dix points. Deux d'entre eux vont au-delà de ce que nous disons ci-dessous, et semblent bien fondés : la cohorte est décrite comme « sévère/confinée à domicile » sans nommer les critères diagnostiques utilisés, donc l'échantillon ne peut pas être reproduit à partir de l'article ; et la comparaison de l'étude avec les affections répondant au rituximab est trompeuse, parce que l'essai de rituximab dans l'EM/SFC était nul. Plusieurs des autres objections de la lettre recoupent des points que nous faisons plus bas — un groupe témoin ambigu, et l'absence de validation externe — et l'une mérite d'être ajoutée : l'étude n'a pas ajusté pour les différences de médicaments, d'infection antérieure ou de tabagisme entre les groupes. Les auteurs originaux n'ont pas répondu.
+
+La critique a son propre intérêt. Ses auteurs promeuvent la thérapie par oxygène-ozone pour l'EM/SFC, et leur exigence que l'article cite leurs propres travaux antérieurs est le moins convaincant de ses points. L'argument de citation de la lettre tient bel et bien : l'étude cite des travaux sur les cytokines et les cellules NK, mais pas les études des années 1990 que la lettre a en tête. Nous citons la critique en tant que critique, non comme preuve que le test est invalide.
+
+**Une étude de méthylation trans-maladie.** Une étude unique, pas encore répliquée, de 188 femmes, menée indépendamment du fournisseur de la plateforme, a comparé directement l'EM/SFC avec la **fibromyalgie** — la comparaison que le panel EpiSwitch n'a jamais faite. Elle a trouvé deux axes de méthylation distincts :
+
+- un axe séparait l'EM/SFC **à la fois** de la fibromyalgie et des témoins, et suivait le malaise post-effort et les symptômes cognitifs ;
+- un second axe séparait **les deux** groupes de patients des témoins mais **pas** l'un de l'autre, et suivait une charge symptomatique globale.
+
+Le second de ces axes est celui qui compte ici : il suit la charge de maladie générale plutôt que le diagnostic.
+
+Et parce que le classificateur EpiSwitch a été entraîné uniquement contre des témoins sains, nous **ne pouvons pas exclure** qu'une partie de son signal soit le même type de composante de charge.
+
+Une mise en garde s'impose sur cette phrase. L'axe de charge a été trouvé dans la **méthylation** ; EpiSwitch mesure l'**architecture 3D**. Ce sont des couches moléculaires différentes, donc c'est une analogie et un avertissement — pas une mesure du panel EpiSwitch.
+
+## Ce que cela signifie pour les patients
+
+- Le test est **au stade de la recherche**. Ce n'est pas un diagnostic clinique validé.
+- Le chiffre que vous avez peut-être vu a été mesuré contre des personnes en bonne santé. Il n'a pas été démontré qu'il distingue l'EM/SFC de la fibromyalgie, de la dépression ou du COVID long.
+- L'étude est une analyse unique réalisée par l'entreprise qui fabrique la plateforme. La déclaration de conflits d'intérêts de l'article liste ses auteurs comme employés à plein temps d'Oxford BioDynamics, et l'entreprise a financé le travail. Il n'y a pas de réplication indépendante.
+- La voie qu'il rapporte est plausible, et des travaux indépendants sur les lymphocytes T relient la topologie de la chromatine 3D à la signalisation IL-2/JAK-STAT — mais pas dans l'EM/SFC. Le *classificateur* est la partie non prouvée.
+
+Il se peut que ce test vous soit proposé à la vente. **La disponibilité n'est pas une validation.** Un test peut être commercialisé alors que sa question de spécificité est encore ouverte, et nous ne pouvons pas recommander de payer pour lui afin de prendre une décision clinique.
+
+L'étape suivante est une cohorte indépendante, menée par un groupe sans intérêt dans la plateforme, qui teste l'EM/SFC contre d'autres maladies fatigantes.
+
+En attendant, rien ici ne change ce que vous devriez faire aujourd'hui. Les approches que l'article peut soutenir — le pacing à l'intérieur d'une enveloppe d'énergie, et le traitement des symptômes individuellement — ne dépendent pas de l'existence de ce test.
+
+*Le fil de cette série : un document qui ne peut pas montrer ses erreurs ne peut pas être digne de confiance pour ses conclusions. Nous avons trouvé l'une des nôtres — un chiffre décrit comme provenant de la mauvaise cohorte — et nous l'avons corrigée.*

@@ -13,5 +13,6 @@ Die meisten Advocacy-Texte präsentieren Schlussfolgerungen. Diese kurze Serie t
 2. [Eine Studie, große Behauptungen: warum n=16 zählt](../single-study-big-claims/)
 3. [Die ME/CFS-Forschungslandschaft, kartiert](../the-research-landscape-mapped/)
 4. [Wo unsere Evidenz dünn ist: ein Rundgang durch die Schwachstellen](../where-the-evidence-is-thin/)
+5. [Der 3D-Genom-Bluttest: Was die 98-%-Zahl tatsächlich gemessen hat](../the-3d-genome-blood-test/)
 
 *Der Faden: ein Dokument, das seine Fehler nicht zeigt, ist mit seinen Schlussfolgerungen nicht vertrauenswürdig.*
