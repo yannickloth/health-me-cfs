@@ -58,6 +58,7 @@
   ],
   "agent": {
     "backward-reader-auditor": {
+      "description": "Adversarial auditor that reads from conclusions/theorems backward to premises — catches results that depend on unstated lemmas, hand-waved steps, or support chains with missing links. Format-agnostic (Typst or LaTeX).",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
@@ -77,6 +78,7 @@
       }
     },
     "bibliography-auditor": {
+      "description": "Audit bibliography files and citation usage for duplicates, missing fields, broken citations, uncited entries, and retracted papers.",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
@@ -158,6 +160,7 @@
       }
     },
     "citation-fidelity-auditor": {
+      "description": "Verify that cited sources actually support the claims they back — catches misrepresented sources, cherry-picked quotations, and scope mismatches.",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
@@ -168,6 +171,7 @@
       "prompt": "{file:../llm-harness-plugins/general-skills/agents/citation-fidelity-auditor.md}"
     },
     "claim-substance-auditor": {
+      "description": "Audit formal claims (theorems, corollaries, propositions) for substantive content — catches tautologies, circular conclusions, vacuous preconditions, and claims that merely restate definitions or axioms without adding insight. Format-agnostic (Typst or LaTeX).",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
@@ -196,6 +200,7 @@
       }
     },
     "common-error-claim-auditor": {
+      "description": "Detects prose claims about errors/interpretations/consequences that \"people/practitioners often do/see,\" and practice-grounding claims (\"In practice...\", \"Usually...\", \"Experience shows...\") that assert accumulated experience as evidence. New or novel concepts require no such history and such claims are suspect; preexisting concepts require citations or careful hedging. Format-agnostic (Typst or LaTeX).",
       "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
@@ -214,6 +219,7 @@
       }
     },
     "config-auditor": {
+      "description": "Audit AI coding agent configuration stacks for conflicts, inconsistencies, or undefined references across config files, agents, and workflows.",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
@@ -242,6 +248,7 @@
       }
     },
     "content-splitter": {
+      "description": "Split a monolithic Typst file into the canonical content hierarchy (part/chapter/section/subsection + typed subdirs per environment). Reads the global content-structure-convention.md. Iso-functional operation — all post-conditions must hold after split. Use when a chapter or section file contains prose and environment instances that should be extracted into typed subdirectory files.",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
@@ -261,6 +268,7 @@
       }
     },
     "cynic-auditor": {
+      "description": "Adversarial reviewer who assumes the worst about every claim — looks for motivated reasoning, cherry-picking, confirmation bias, and arguments that are technically true but misleading. The hostile reviewer who thinks a document is advocacy disguised as science. Format-agnostic (Typst or LaTeX).",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
@@ -280,6 +288,7 @@
       }
     },
     "definition-auditor": {
+      "description": "Audit formal definitions for rigor, circularity, undefined terms, ambiguity, and rootedness in the theory's primitives. Ensures definitions form a well-founded hierarchy traceable to the axiomatic foundation.",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
@@ -290,6 +299,7 @@
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/definition-auditor.md}"
     },
     "definition-use-checker": {
+      "description": "Verify every formal term is defined before first use (definitions, axioms, notation appear before prose/proof/example references).",
       "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
@@ -299,6 +309,7 @@
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/definition-use-checker.md}"
     },
     "devil-advocate-auditor": {
+      "description": "Adversarial reviewer who systematically constructs the strongest possible counter-argument to every major claim — not to disprove the work, but to identify which claims can withstand the strongest opposition and which cannot. The reviewer who asks \"what's the best argument AGAINST this?\" Format-agnostic (Typst or LaTeX).",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
@@ -339,6 +350,7 @@
       }
     },
     "document-health-monitor": {
+      "description": "Generate structural health metrics for a document — section lengths, citation density, empty-section detection, placeholder identification. Use when checking document balance, finding stub sections, or assessing how complete a document skeleton is. Format-agnostic (Typst or LaTeX).",
       "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
@@ -348,6 +360,7 @@
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/document-health-monitor.md}"
     },
     "driver-assignment-auditor": {
+      "description": "Adversarially audit a change-driver registry and its element→driver assignments for IVP soundness — proxy grounding, missed drivers, conflation, admissibility violations, unanchored drivers. Read-only; reports findings only.",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
@@ -358,6 +371,7 @@
       "prompt": "{file:../llm-harness-plugins/ivp/agents/driver-assignment-auditor.md}"
     },
     "driver-identifier": {
+      "description": "Review all code elements in scope, identify their change drivers, and write the change-driver registry into the codebase's native doc convention (Javadoc/docblock). Read-mostly; edits only the driver registry.",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
@@ -404,6 +418,7 @@
       }
     },
     "falsifiability-auditor": {
+      "description": "Audit hypothesis/speculation environments for falsifiable predictions, claim-registry consistency, competing hypotheses, and overclaiming language. Use when checking the intellectual rigor of scientific claims. Format-agnostic (Typst or LaTeX).",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
@@ -414,6 +429,7 @@
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/falsifiability-auditor.md}"
     },
     "falsificationist-auditor": {
+      "description": "Adversarial auditor adopting the Popperian philosophy of science — checks whether a theory states its falsifiability conditions, whether its claims are testable, and whether the theory could in principle be shown wrong. Format-agnostic (Typst or LaTeX).",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
@@ -458,6 +474,7 @@
       }
     },
     "functional-paradigm-auditor": {
+      "description": "Adversarial auditor adopting the persona of a functional programming practitioner — catches implicit OOP assumptions, paradigm-specific examples presented as universal, and gaps in a document's applicability to non-OO paradigms. Format-agnostic (Typst or LaTeX).",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
@@ -468,6 +485,7 @@
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/functional-paradigm-auditor.md}"
     },
     "gamma-modularizer": {
+      "description": "Sort code elements into modules by gamma-equivalence — group elements with identical change-driver sets into the same module, split elements with different driver sets apart. Edits module boundaries, not driver assignments.",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
@@ -487,6 +505,7 @@
       }
     },
     "haiku-general": {
+      "description": "Fast, cost-effective agent for mechanical tasks with no specialized agent available. Use when task requires speed over reasoning and involves no judgment calls or significant consequences. Explicit file paths required for modifications.",
       "mode": "subagent",
       "model": "deepseek/deepseek-flash",
       "options": {
@@ -550,6 +569,7 @@
       }
     },
     "industry-architect-auditor": {
+      "description": "Adversarial auditor adopting the persona of a senior software architect with 15+ years of production experience — catches theory that never lands practically, missing decision procedures, and gaps between formal results and actionable guidance. Format-agnostic (Typst or LaTeX).",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
@@ -560,6 +580,7 @@
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/industry-architect-auditor.md}"
     },
     "ivp-refactor-auditor": {
+      "description": "Verify a post-modularization codebase against the four IVP conditions — Separation, Unification, Admissibility, Element Form — and nesting soundness. Read-only; reports violations only.",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
@@ -570,6 +591,7 @@
       "prompt": "{file:../llm-harness-plugins/ivp/agents/ivp-refactor-auditor.md}"
     },
     "latex-citation-checker": {
+      "description": "Verify all LaTeX citations are valid, find undefined citations, check bibliography consistency.",
       "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
@@ -579,6 +601,7 @@
       "prompt": "{file:../llm-harness-plugins/latex-toolkit/agents/latex-citation-checker.md}"
     },
     "latex-figure-caption-auditor": {
+      "description": "Audit LaTeX figure/table captions — must state a claim, be standalone-readable, have labels, and be referenced in text.",
       "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
@@ -588,6 +611,7 @@
       "prompt": "{file:../llm-harness-plugins/latex-toolkit/agents/latex-figure-caption-auditor.md}"
     },
     "latex-formatting-fixer": {
+      "description": "Convert Markdown formatting to LaTeX and normalize formatting conventions.",
       "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
@@ -597,6 +621,7 @@
       "prompt": "{file:../llm-harness-plugins/latex-toolkit/agents/latex-formatting-fixer.md}"
     },
     "latex-index-auditor": {
+      "description": "Audit \\index coverage — verify key terms, theorems, definitions, and named concepts are indexed, and index entries are consistent.",
       "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
@@ -606,6 +631,7 @@
       "prompt": "{file:../llm-harness-plugins/latex-toolkit/agents/latex-index-auditor.md}"
     },
     "latex-notation-consistency-checker": {
+      "description": "Audit LaTeX source files for notation consistency against a notation reconciliation document. Catch symbol drift across files.",
       "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
@@ -615,6 +641,7 @@
       "prompt": "{file:../llm-harness-plugins/latex-toolkit/agents/latex-notation-consistency-checker.md}"
     },
     "latex-production-readiness-checker": {
+      "description": "Scan LaTeX files for TODO markers, placeholders, debug artifacts, draft mode, and production issues.",
       "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
@@ -624,6 +651,7 @@
       "prompt": "{file:../llm-harness-plugins/latex-toolkit/agents/latex-production-readiness-checker.md}"
     },
     "latex-syntax-fixer": {
+      "description": "Fix LaTeX compilation errors and warnings. Use when LaTeX build fails.",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
@@ -634,6 +662,7 @@
       "prompt": "{file:../llm-harness-plugins/latex-toolkit/agents/latex-syntax-fixer.md}"
     },
     "latex-xref-checker": {
+      "description": "Verify all LaTeX cross-references (\\ref, \\cref, \\pageref, \\autoref, \\nameref, \\eqref) resolve within and across files.",
       "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
@@ -660,6 +689,7 @@
       }
     },
     "logic-auditor": {
+      "description": "Audit document for circular reasoning, completeness gaps, hidden assumptions, forward references, and ambiguous statements.",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
@@ -670,6 +700,7 @@
       "prompt": "{file:../llm-harness-plugins/general-skills/agents/logic-auditor.md}"
     },
     "math-verifier": {
+      "description": "Verify mathematical proofs, derivations, and calculations — step-by-step correctness, hidden assumptions, logical structure.",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
@@ -716,6 +747,7 @@
       }
     },
     "misconception-auditor": {
+      "description": "Verify chapters include explicit misconception inoculation — common misunderstandings anticipated and addressed, not left for readers to stumble into.",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
@@ -756,6 +788,7 @@
       "mode": "subagent"
     },
     "nest-decider": {
+      "description": "Decide whether module pairs are siblings or parent/child (nested) modules, using the rule Gamma(P) strictly subset Gamma(C), with a reducibility guard that forbids force-splitting pure or irreducible-composite elements. Read-only; recommends structure.",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
@@ -783,6 +816,7 @@
       }
     },
     "opus-general": {
+      "description": "High-capability agent for complex reasoning tasks with no specialized agent available. Use when task requires deep analysis beyond Sonnet's capabilities — mathematical proofs, sophisticated logical verification, detecting subtle flaws, or high-stakes decisions where errors would be very costly.",
       "mode": "subagent",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
@@ -838,6 +872,7 @@
       }
     },
     "proof-soundness-auditor": {
+      "description": "Deep adversarial review of formal proofs for logical soundness, hidden assumptions, gap detection, and circularity.",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
@@ -875,6 +910,7 @@
       }
     },
     "reductionist-auditor": {
+      "description": "Adversarial reviewer who attacks complexity and integration claims — finds where multi-system explanations are asserted without rigorous justification, where Occam's razor would prefer simpler explanations, and where \"everything is connected\" substitutes for actual mechanistic evidence. Format-agnostic (Typst or LaTeX).",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
@@ -885,6 +921,7 @@
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/reductionist-auditor.md}"
     },
     "redundancy-auditor": {
+      "description": "Detect repeated statements, arguments, and conclusions across documents. Paragraph-level semantic redundancy analysis.",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
@@ -931,6 +968,7 @@
       }
     },
     "scenario-validity-auditor": {
+      "description": "Audit examples and case discussions for scenario validity — catches scenarios that fail to exhibit the pitfall or principle they claim to illustrate, cases where the \"wrong\" design is actually correct application of the text's own principles, cases where the \"correct\" design smuggles in the same errors the text flags elsewhere, and cases where the concrete story contradicts the abstract claim. Format-agnostic (Typst or LaTeX).",
       "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
@@ -958,6 +996,7 @@
       }
     },
     "scope-qualifier-checker": {
+      "description": "Verify that claims and advice explicitly state their level of applicability — class-level vs module-level vs system-level, paradigm scope, technology context, and temporal validity.",
       "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
@@ -967,6 +1006,7 @@
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/scope-qualifier-checker.md}"
     },
     "skimmer-auditor": {
+      "description": "Adversarial auditor adopting the persona of a reader who only reads headings, first/last sentences, figures, boxed environments, and highlighted text — catches key points buried in paragraphs rather than surfaced structurally. Format-agnostic (Typst or LaTeX).",
       "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
@@ -976,6 +1016,7 @@
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/skimmer-auditor.md}"
     },
     "sonnet-general": {
+      "description": "Balanced agent for general tasks with no specialized agent available. Use when task requires reasoning, analysis, judgment calls, or assessing trade-offs. Default choice for non-specialized work. Handles multi-step planning, cross-referencing, and coordination.",
       "mode": "subagent",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
@@ -987,6 +1028,7 @@
       "prompt": "{file:../llm-harness-plugins/tier-router/agents/sonnet-general.md}"
     },
     "sophist-attacker": {
+      "description": "Adversarial auditor that deliberately misreads claims, exploits ambiguous wording, constructs strawmen from loose phrasing, and deploys rhetorical fallacies — forces the text to be airtight against motivated misinterpretation by hostile commenters, blog posts, and conference hallway attacks. Format-agnostic (Typst or LaTeX).",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
@@ -997,6 +1039,7 @@
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/sophist-attacker.md}"
     },
     "sophist-auditor": {
+      "description": "Adversarial reviewer who attacks the logical structure of arguments — finds non sequiturs, equivocation, false dichotomies, argument from authority, and rhetorical tricks that substitute for actual reasoning. The reviewer who ignores what you meant and attacks what you actually wrote. Format-agnostic (Typst or LaTeX).",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
@@ -1007,6 +1050,7 @@
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/sophist-auditor.md}"
     },
     "ste-100-auditor": {
+      "description": "Audit technical and scientific writing for compliance with ASD-STE100 Simplified Technical English. Read-only. Reports violations grouped by category with severity and suggested rewrites.",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
@@ -1017,6 +1061,7 @@
       "prompt": "{file:../llm-harness-plugins/general-skills/agents/ste-100-auditor.md}"
     },
     "strawman-auditor": {
+      "description": "Adversarial reviewer who checks whether opposing viewpoints are represented fairly — finds strawman arguments, mischaracterized positions, omitted steelman arguments, and one-sided dismissals. The reviewer who asks \"did you actually engage with the other side?\" Format-agnostic (Typst or LaTeX).",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
@@ -1027,6 +1072,7 @@
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/strawman-auditor.md}"
     },
     "structure-auditor": {
+      "description": "Read-only audit of Typst book content structure against the canonical hierarchy in content-structure-convention.md. Checks aggregator purity, typed subdir placement, file naming, orphan files, and import chain integrity. Use to verify structure compliance before committing or after authoring new content.",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
@@ -1037,6 +1083,7 @@
       "prompt": "{file:../llm-harness-plugins/typst-toolkit/agents/structure-auditor.md}"
     },
     "style-auditor": {
+      "description": "Audit writing for AI-generated markers, rhetorical calibration, tone, and vocabulary precision. Pair with style-naturalizer for rewriting flagged passages.",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
@@ -1047,6 +1094,7 @@
       "prompt": "{file:../llm-harness-plugins/general-skills/agents/style-auditor.md}"
     },
     "style-naturalizer": {
+      "description": "Transform AI-typical writing patterns into natural human prose. Pairs with style-auditor which flags issues; this agent rewrites flagged passages.",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
@@ -1096,6 +1144,7 @@
       }
     },
     "theory-devil-advocate": {
+      "description": "Adversarial critic that systematically attacks the foundations, claims, and conclusions of whatever theory or framework the document presents — surfaces objections a hostile reviewer, skeptical practitioner, or competing theorist would raise, so the text can preemptively address them. Format-agnostic (Typst or LaTeX).",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
@@ -1122,6 +1171,7 @@
       }
     },
     "tone-auditor": {
+      "description": "Adversarial auditor that assesses whether the text's tone would alienate readers sympathetic to established approaches — catches condescension, unfair characterization of prior authors' intent, and rhetoric that would repel rather than persuade the target audience. Format-agnostic (Typst or LaTeX).",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
@@ -1132,6 +1182,7 @@
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/tone-auditor.md}"
     },
     "trade-off-auditor": {
+      "description": "Verify that design advice, pattern recommendations, and architectural guidance explicitly state trade-offs — every design decision has costs, and the book must present them honestly.",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
@@ -1151,6 +1202,7 @@
       }
     },
     "typst-citation-checker": {
+      "description": "Verify all Typst citations are valid, find undefined citations, check bibliography consistency in .typ files.",
       "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
@@ -1160,6 +1212,7 @@
       "prompt": "{file:../llm-harness-plugins/typst-toolkit/agents/typst-citation-checker.md}"
     },
     "typst-diagram-checker": {
+      "description": "Review diagrams in Typst files (CeTZ, grid layouts, inline figures) for layout issues — overlaps, overflows, margin violations, color contrast, arrow visibility, spacing, and print safety.",
       "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
@@ -1186,6 +1239,7 @@
       }
     },
     "typst-formatting-fixer": {
+      "description": "Convert Markdown formatting to Typst and normalize formatting conventions. Use when text in .typ files has markdown syntax or inconsistent formatting.",
       "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
@@ -1211,6 +1265,7 @@
       }
     },
     "typst-production-readiness-checker": {
+      "description": "Scan Typst files for TODO markers, placeholders, debug artifacts, LaTeX remnants, and production issues.",
       "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
@@ -1229,6 +1284,7 @@
       }
     },
     "typst-syntax-fixer": {
+      "description": "Fix Typst compilation errors and warnings. Use when Typst build fails or has errors in .typ files.",
       "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
@@ -1247,6 +1303,7 @@
       }
     },
     "typst-writer": {
+      "description": "Typst (.typ) file writer — syntax-correct output guaranteed. Reads the project syntax rules first, verifies against a checklist, then writes content. Use when writing or editing Typst source files.",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
@@ -1257,6 +1314,7 @@
       "prompt": "{file:../llm-harness-plugins/typst-toolkit/agents/typst-writer.md}"
     },
     "typst-xref-checker": {
+      "description": "Verify all Typst cross-references (@label) resolve correctly. Use when checking label integrity or after renaming/moving labeled elements.",
       "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
@@ -1275,6 +1333,7 @@
       }
     },
     "undergraduate-reader-auditor": {
+      "description": "Adversarial auditor adopting the persona of an undergraduate reader with no industry experience — catches assumed prerequisites, unexplained jargon, abstraction jumps, and examples requiring background the target audience lacks. Format-agnostic (Typst or LaTeX).",
       "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
@@ -1284,6 +1343,7 @@
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/undergraduate-reader-auditor.md}"
     },
     "whataboutist-auditor": {
+      "description": "Adversarial auditor that systematically asks \"But what about X?\" for domains, paradigms, scales, and edge cases the text implicitly ignores — catches missing scope qualifiers and undiscussed applicability boundaries. Format-agnostic (Typst or LaTeX).",
       "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
@@ -1293,6 +1353,7 @@
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/whataboutist-auditor.md}"
     },
     "xref-checker": {
+      "description": "Audit internal cross-references — verify labels resolve, detect broken refs, orphans, duplicates. Adapts to project citation format (LaTeX, Typst, Markdown, reST, AsciiDoc).",
       "model": "deepseek/deepseek-flash",
       "options": {
         "thinking": {
@@ -1302,6 +1363,7 @@
       "prompt": "{file:../llm-harness-plugins/general-skills/agents/xref-checker.md}"
     },
     "bulk-reader": {
+      "description": "Bulk file reader for premium-read-offload. Reads a corpus of files and answers a focused question with cited structured bullets. Used as the cheap worker for offloaded reads.",
       "mode": "all",
       "model": "deepseek/deepseek-flash",
       "options": {
@@ -1319,6 +1381,7 @@
       "prompt": "{file:../llm-harness-plugins/premium-read-offload/agents/bulk-reader.md}"
     },
     "code-writer": {
+      "description": "Boilerplate code generator for premium-read-offload. Generates code matching a reference file's patterns. Used as the cheap worker for offloaded generation.",
       "mode": "all",
       "model": "deepseek/deepseek-flash",
       "options": {
