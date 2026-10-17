@@ -1240,6 +1240,18 @@
       },
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/trade-off-auditor.md}"
     },
+    "translation-auditor": {
+      "description": "Audit translated content (source → target, e.g. en → de/fr) against the source for literal idiom translation, semantic inversions, false friends, and register shifts. Read-only. Reports findings with idiomatic rewrite suggestions.",
+      "mode": "subagent",
+      "model": "deepseek/deepseek-v4-pro",
+      "options": {
+        "thinking": {
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
+      },
+      "prompt": "{file:../llm-harness-plugins/general-skills/agents/translation-auditor.md}"
+    },
     "treatment-analyst": {
       "model": "deepseek/deepseek-v4-pro",
       "options": {
