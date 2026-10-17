@@ -1,5 +1,5 @@
 ---
-title: "Elektrische Muskelstimulation ist kein kostenloses Mittagessen"
+title: "Elektrische Muskelstimulation ist kein Geschenk"
 description: "Kliniken bieten EMS als „passive Bewegung\" für Menschen an, die nicht trainieren können. Es könnte denselben Pfad aktivieren, der an der post-exertionellen Malaise beteiligt sein könnte — und keine Studie hat das getestet."
 author: "Yannick Loth"
 date: "2026-10-15"
@@ -31,7 +31,7 @@ Wir werden das nicht überzeichnen. Die Evidenz wird als **schwach** eingestuft,
 - **Die Evidenz ist indirekt.** Die Mikrotrauma- und Entzündungsbefunde stammen aus allgemeiner und Tier-Forschung, nicht von ME/CFS-Patienten.
 - **Die Zeitskalen passen nicht zusammen.** Der verzögert einsetzende Muskelkater gipfelt in Tagen. Ein PEM-Crash kann Wochen dauern. Dieser Unterschied ist unerklärt.
 - **Die Dosis zählt und ist unkontrolliert.** Der Effekt ist intensitätsabhängig, und für diese Population existiert kein Protokoll.
-- **Es gibt ältere Nullbefunde.** Ältere Arbeiten fanden in einigen ME/CFS-Studien normale Muskelkraft und normales Kontraktionsverhalten, was gegen eine saubere Geschichte spricht.
+- **Es gibt ältere Nullbefunde.** Ältere Arbeiten fanden in einigen ME/CFS-Studien normale Muskelkraft und normales Kontraktionsverhalten, was gegen eine glatte Geschichte spricht.
 - **Es gibt einen Fallbericht über einen Schaden.** Einen, keine Fallserie.
 
 Die Behauptung ist also enger gefasst als „EMS ist gefährlich": Die beruhigende Annahme wurde nie getestet, und es gibt einen Mechanismus, der Anlass zur Vorsicht gibt. Das ist ein Grund zu messen, kein Urteil.
@@ -46,7 +46,7 @@ Wenn ein Kliniker Ihnen EMS als sichere, nicht belastende Option anbietet:
 - Denken Sie daran, dass eine normale Kraftmessung nicht bedeutet, dass die metabolische und die Erholungsreaktion normal sind.
 - Die unbeantwortete Frage — ist das Problem zentral oder peripher? — ist eine Frage, die eine Studie erst beginnen würde zu beantworten. Es existiert keine Studie.
 
-**Ruhe ist der sichere Standard nach einem Crash. Sie sind nicht verpflichtet, irgendetwas hinzuzufügen.** Als dauerhafte Strategie jedoch kann es ein nicht belegter Nutzen sein, EMS zu beenden und nichts zu tun — ob EMS eine Dekonditionierung bei ME/CFS verhindert, ist selbst ungetestet. Wir kennen auch nicht die beste Alternative: sanfte Bewegung innerhalb Ihrer Energie-Hülle und Pacing sind in dieser Population ebenfalls unzureichend belegt. Sie sind einfach die Optionen, die die Arbeit derzeit stützen kann. Besprechen Sie jede Änderung mit einem Kliniker, der PEM versteht.
+**Ruhe ist der sichere Standard nach einem Crash. Sie sind nicht verpflichtet, irgendetwas hinzuzufügen.** Als dauerhafte Strategie jedoch kann das Beenden von EMS und das Nichtstun bedeuten, auf einen — selbst nicht belegten — Nutzen zu verzichten — ob EMS eine Dekonditionierung bei ME/CFS verhindert, ist selbst ungetestet. Wir kennen auch nicht die beste Alternative: sanfte Bewegung innerhalb Ihrer Energie-Hülle und Pacing sind in dieser Population ebenfalls unzureichend belegt. Sie sind einfach die Optionen, die die Arbeit derzeit stützen kann. Besprechen Sie jede Änderung mit einem Kliniker, der PEM versteht.
 
 ## Das allgemeine Prinzip
 

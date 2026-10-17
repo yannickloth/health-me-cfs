@@ -1,5 +1,5 @@
 ---
-title: "La stimulation musculaire électrique n'est pas un repas gratuit"
+title: "La stimulation musculaire électrique n'est pas un cadeau"
 description: "Les cliniques proposent l'EMS comme « exercice passif » aux personnes qui ne peuvent pas faire d'exercice. Elle pourrait engager la même voie impliquée dans le malaise post-effort — et aucun essai ne l'a testé."
 author: "Yannick Loth"
 date: "2026-10-15"
@@ -31,7 +31,7 @@ Nous n'allons pas exagérer cela. Les preuves sont classées **faibles**, et la 
 - **Les preuves sont indirectes.** Les résultats sur le micro-traumatisme et l'inflammation viennent de travaux généraux et animaux, pas de patients EM/SFC.
 - **Les échelles de temps ne correspondent pas.** Les courbatures d'apparition retardée culminent en quelques jours. Un crash de PEM peut durer des semaines. Cette différence n'est pas expliquée.
 - **La dose compte et n'est pas contrôlée.** L'effet dépend de l'intensité, et aucun protocole n'existe pour cette population.
-- **Il existe des résultats nuls hérités.** Des travaux plus anciens ont trouvé une force musculaire normale et un comportement contractile normal dans certaines études EM/SFC, ce qui va à l'encontre d'un récit propre.
+- **Il existe des résultats nuls hérités.** Des travaux plus anciens ont trouvé une force musculaire normale et un comportement contractile normal dans certaines études EM/SFC, ce qui va à l'encontre d'un récit net.
 - **Il existe un cas rapporté de préjudice.** Un, pas une série.
 
 Donc l'affirmation est plus étroite que « l'EMS est dangereuse » : la garantie n'a jamais été testée, et il existe un mécanisme qui donne des raisons de prudence. C'est une raison de mesurer, pas un verdict.
