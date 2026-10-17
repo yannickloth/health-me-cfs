@@ -1,6 +1,6 @@
 ---
 title: "Elektrische Muskelstimulation ist kein kostenloses Mittagessen"
-description: "Kliniken bieten EMS als „passive Bewegung" für Menschen an, die nicht trainieren können. Es könnte denselben Pfad aktivieren, der an der post-exertionellen Malaise beteiligt sein könnte — und keine Studie hat das getestet."
+description: "Kliniken bieten EMS als „passive Bewegung\" für Menschen an, die nicht trainieren können. Es könnte denselben Pfad aktivieren, der an der post-exertionellen Malaise beteiligt sein könnte — und keine Studie hat das getestet."
 author: "Yannick Loth"
 date: "2026-10-15"
 categories: [Treatment, PEM, Energy metabolism]
