@@ -1,0 +1,12 @@
+Title: Reduced muscle strength in patients with long-COVID-19 syndrome is mediated by limb muscle mass
+Authors: Ramírez-Vélez R, Legarra-Gorgoñon G, Oscoz-Ochandorena S, García-Alonso Y, García-Alonso N, Oteiza J, Ernaga Lorea A, Correa-Rodríguez M, Izquierdo M
+Journal: Journal of Applied Physiology 2023;134(1):50-58
+DOI: 10.1152/japplphysiol.00599.2022
+PMID: 36448687
+PMCID: PMC9762963
+URL: https://doi.org/10.1152/japplphysiol.00599.2022
+Retrieved: 2026-10-18
+Note: PDF unavailable — Europe PMC holds HTML full text only (author manuscript, no PDF file).
+
+Abstract:
+Understanding the impact of COVID-19 on muscle strength may help to elucidate the organ systems that contribute to acute and chronic COVID-19 sequelae. We questioned whether patients with postdischarge symptoms after COVID-19 had compromised muscle strength compared with a control group, and if this potential relationship was mediated by the lower appendicular lean mass index (ALMI). A total of 99 patients with long-COVID-19 and 97 control participants were screened. Maximal grip strength was assessed with a TKK 5101 digital dynamometer, and leg extension 1RM was measured using EGYM Smart Strength machines. Body composition was determined using a whole body dual-energy X-ray densitometer. Results showed that grip strength and leg extension strength were significantly higher in controls than in COVID-19 survivors (mean [SD], 32.82 [10.01] vs. 26.94 [10.33] kg; difference, 5.87 kg; P < 0.001) and (93.98 [33.73] vs. 71.59 [33.70] kg; difference, 22.38 kg; P < 0.001), respectively. The relationship between long-COVID syndrome and grip/leg strength levels was partly mediated by ALMI, which explained 52% of the association for grip strength and 39% for leg extension. Our findings support the negative effects of long-COVID syndrome on muscle function being substantially mediated by limb muscle mass.

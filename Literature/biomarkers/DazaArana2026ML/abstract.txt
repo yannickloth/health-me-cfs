@@ -1,0 +1,11 @@
+Title: Beyond Sarcopenia: An Exploratory Machine Learning Analysis of Fatigue, Sleep Quality and Acute-Phase Severity as Correlates of Post-COVID Functional Status in a Colombian Cohort
+Authors: Daza-Arana JE, Liscano Y, Varela-Miranda RE, Lozada-Ramos H, Rodríguez-Scarpetta MA
+Journal: Biomedicines 2026;14(9):1885
+DOI: 10.3390/biomedicines14091885
+PMID: 42792630
+PMCID: PMC13604082
+URL: https://doi.org/10.3390/biomedicines14091885
+Retrieved: 2026-10-18
+
+Abstract:
+Background: Handgrip strength has been proposed as an objective marker of post-COVID functional impairment, but its contribution relative to fatigue and sleep quality has not been formally evaluated in Latin American populations. Methods: We conducted an exploratory cross-sectional analysis of 130 adults with post-COVID condition in Palmira, Colombia. The outcome was any functional limitation on the Post-COVID Functional Status (PCFS) scale. Eight predictors were pre-specified; ridge-penalized logistic regression was pre-specified as the primary model. Results: Functional limitation affected 91/130 participants (70.0%). The optimism-corrected area under the curve was 0.748 (95% CI 0.669-0.830), with calibration slope 1.15 (0.71-1.69). Fatigue ranked first in SHAP importance (54.0% of resamples), whereas grip strength ranked fifth (median rank 6). Conclusions: Fatigue, sleep quality and acute-phase severity, rather than grip strength, emerged as the most influential correlates. These hypothesis-generating findings require confirmation in adequately powered cohorts.

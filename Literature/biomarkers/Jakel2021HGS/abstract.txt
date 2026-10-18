@@ -1,0 +1,11 @@
+Title: Hand grip strength and fatigability: correlation with clinical parameters and diagnostic suitability in ME/CFS
+Authors: Jäkel B, Kedor C, Grabowski P, Wittke K, Thiel S, Scherbakov N, Doehner W, Scheibenbogen C, Freitag H
+Journal: Journal of Translational Medicine 2021;19(1):159
+DOI: 10.1186/s12967-021-02774-w
+PMID: 33874961
+PMCID: PMC8056497
+URL: https://doi.org/10.1186/s12967-021-02774-w
+Retrieved: 2026-10-18
+
+Abstract:
+BACKGROUND: Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) is a complex and debilitating disease accompanied by muscular fatigue and pain. A functional measure to assess muscle fatigability of ME/CFS patients is, however, not established in clinical routine. METHODS: We assessed the HGS of 105 patients with ME/CFS, 18 patients with Cancer related fatigue (CRF) and 66 healthy controls (HC) using an electric dynamometer assessing maximal (Fmax) and mean force (Fmean) of ten repetitive measurements. Results were correlated with clinical parameters, creatinine kinase (CK) and lactate dehydrogenase (LDH). RESULTS: ME/CFS patients have a significantly lower Fmax and Fmean HGS compared to HC (p < 0.0001). Fatigue Ratio (Fmax/Fmean) was higher (p <= 0.0012). Recovery Ratio after an identical second testing 60 min later was significantly lower in ME/CFS (Fmean2/Fmean1; p <= 0.0020). Lower HGS parameters correlated with severity of disease, post-exertional malaise and muscle pain and with higher CK and LDH levels after exertion. CONCLUSION: Repeat HGS assessment is a sensitive diagnostic test to assess muscular fatigue and fatigability and an objective measure to assess disease severity in ME/CFS.

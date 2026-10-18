@@ -1,0 +1,11 @@
+Title: Comment on "Variation in Repeated Handgrip Strength Testing Indicates Submaximal Force Production in Patients With Myalgic Encephalomyelitis/Chronic Fatigue Syndrome"
+Authors: Steinkirchner F, Kimmerling V, Kaufmann C, Schieffer E, Gruber M, Dejaco A
+Journal: European Journal of Neurology 2026;33:e70511
+DOI: 10.1111/ene.70511
+PMID: 41574647
+PMCID: PMC12828664
+URL: https://doi.org/10.1111/ene.70511
+Retrieved: 2026-10-18
+
+Abstract (letter to the editor, no formal abstract):
+The authors raise methodological concerns about Popkirov's use of the coefficient of variation (CV) to infer submaximal force production in ME/CFS: (1) the CV is not validated for effort assessment (Shechtman review concluded CV is inappropriate for determining effort sincerity); (2) CV from rapid repeated HGS trials is confounded by fatigability, and the fatigability-based exclusion criterion removes the most severely affected participants, distorting variance estimates; (3) the 10-repetition protocol differs substantially from the studies in which CV was originally proposed; (4) the reported participant numbers could not be reproduced from the publicly available dataset. They conclude the analytical framework rests on insufficiently supported methodological premises and recommend caution in inferring higher-order motor processes from HGS variability.

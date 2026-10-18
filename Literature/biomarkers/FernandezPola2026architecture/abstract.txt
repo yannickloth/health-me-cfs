@@ -1,0 +1,11 @@
+Title: Analysis of muscle architecture variables and their relationship with functional capacity in patients with fibromyalgia: A cross-sectional study
+Authors: Fernández-Pola EC, Navas-Mosqueda Á, Gutiérrez-Maturana Gázquez MDM, Pedauyé-Rueda B, Hervás-Pérez JP, Fernández-Aceñero MJ, Ojedo-Martín C, Úbeda-D'Ocasar E
+Journal: Therapeutic Advances in Musculoskeletal Disease 2026;18:1759720X261481908
+DOI: 10.1177/1759720x261481908
+PMID: 42633068
+PMCID: PMC13498830
+URL: https://doi.org/10.1177/1759720x261481908
+Retrieved: 2026-10-18
+
+Abstract:
+Background: Fibromyalgia (FM) is a chronic syndrome characterised by widespread musculoskeletal pain, accompanied by fatigue, functional alterations, and changes in body composition. Methods: 80 patients with FM (54.06 +/- 9.66 years) were assessed. Functional capacity (5-sit-to-stand-test, Handgrip (HGS), Timed Up and Go, 4-metres-walk-test) and muscle architecture variables (cross-sectional-area of vastus lateralis (VL-CSA) and rectus femoralis, thickness of vastus lateralis, and pennation angle) were collected. Results: Participants reported high pain intensity (VAS: 7.03 +/- 1.94). Mean VL-CSA was 11.73 +/- 3.76 cm2. Ultrasound-derived muscle parameters showed significant positive associations with lean mass and anthropometric variables. The regression model explained 46.6% of VL-CSA variance (p < 0.001), with BMI, trochanteric circumference, 5-STST, and handgrip strength emerging as independent predictors (p < 0.05), while gait speed was not significant. Conclusions: VL-CSA was significantly and independently related to BMI, 4-meter test, 5 sit-stand test, handgrip strength, and trochanter circumference.

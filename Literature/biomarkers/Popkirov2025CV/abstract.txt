@@ -1,0 +1,11 @@
+Title: Variation in Repeated Handgrip Strength Testing Indicates Submaximal Force Production in Patients With Myalgic Encephalomyelitis/Chronic Fatigue Syndrome
+Authors: Popkirov S
+Journal: European Journal of Neurology 2025;32:e70273
+DOI: 10.1111/ene.70273
+PMID: 40923211
+PMCID: PMC12417963
+URL: https://doi.org/10.1111/ene.70273
+Retrieved: 2026-10-18
+
+Abstract:
+BACKGROUND: Changes in handgrip strength have recently been adapted as clinical biomarkers for ME/CFS under the assumption of a disease-specific peripheral neuromuscular dysfunction. However, some have proposed that strength impairments in ME/CFS are better explained by alterations in higher-order motor control. METHODS: Serial handgrip strength measurements of 105 ME/CFS patients and 66 healthy controls from a previously published biomarker validation study are analyzed post hoc regarding their coefficient of variation (CV). RESULTS: Compared to healthy controls, patients had significantly higher CV, largely over the conservative 15% cutoff associated with submaximal exertion. In the subsample with normal within-session fatigability, CV was still significantly higher in female patients; the difference in male patients was not statistically significant (p = 0.06). CONCLUSIONS: Loss of grip strength is likely compounded by alterations in higher-order motor control, challenging its utility as a biomarker of peripheral dysfunction.

@@ -1,0 +1,17 @@
+Title: Handgrip strength in children, adolescents, and young adults with suspected myalgic encephalomyelitis/chronic fatigue syndrome
+Authors: Mihatsch L, Schartner L, Lange de Luna J, Höhler C, Bucka L, Lovrenovic L, Eidenschink S, Schmuck B, Bienemann V, Christa C, Mittelstraß K, Hausruckinger A, Warlitz C, Michel K, Gerrer K, Freitag H, Scheibenbogen C, Pricoco R, Behrends U
+Journal: Journal of Translational Medicine 2026;24:947
+DOI: 10.1186/s12967-026-08654-5
+PMID: 42458481
+PMCID: PMC13393269
+URL: https://link.springer.com/article/10.1186/s12967-026-08654-5
+Retrieved: 2026-10-18
+
+Abstract:
+Background: Myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) in children and young people (CYP) lacks validated diagnostic biomarkers. Post-exertional malaise (PEM) is central to case definitions and is usually assessed by patient report. We evaluated the feasibility and clinical value of handgrip strength (HGS) testing in PEM-reporting CYP referred for suspected ME/CFS.
+
+Methods: In this prospective observational study at the Munich Chronic Fatigue Center for Young People (November 2022-November 2024), 147 patients (10-25 years) referred for the assessment of ME/CFS with positive DSQ-PEM screening and 83 healthy controls (HC) completed two HGS sessions (10 maximal grips/session; 3-s contraction/5-s rest; 60-minute inter-session break) using a digital dynamometer. We derived maximal force (Fmax), mean force (Fmean), fatigue ratio (FR = Fmax/Fmean), and recovery ratio (RR = Fmean session 2 / session 1). Analyses used repeated-measures ANCOVA, linear regression, partial Spearman correlations (adjusted for sex, age, and BMI), and proportional odds models for group membership (HC, noME/CFS, ME/CFS), reporting accuracy, and the C-statistic. Sensitivity analyses compared noME/CFS with confirmed CCC-ME/CFS.
+
+Results: After clinical work-up, 84/147 (57%) patients were classified as ME/CFS (confirmed or probable) and 63/147 (43%) as noME/CFS. HGS test completion rate was high (session 1: 146/147, 99.3%; session 2: 142/147, 96.6%). Compared with HC, patients had substantially lower HGS (mean difference -9.93 kg, 95% CI: -12.00 to -7.85), and HGS indices correlated modestly with physical functioning (SF-12 PCS), but not with PEM duration. Both noME/CFS and ME/CFS groups differed from HC in absolute strength indices (Fmean, Fmax) and FR. RR differed between ME/CFS and HC, whereas no HGS index significantly separated noME/CFS from ME/CFS. In proportional odds models, each HGS index improved fit (all p < 0.001), but discrimination across HC, noME/CFS, and ME/CFS patients was moderate (accuracy 49.2-57.3% vs no-information rate 36.5%, with best performance for Fmean in session 2). In the CCC-restricted sensitivity analysis, discrimination between confirmed CCC-ME/CFS and noME/CFS was moderate (accuracy 62.8-70.7%; C-statistic 0.63-0.73), with best performance for absolute strength indices and RR.
+
+Conclusions: Standardized two-session repeated HGS testing is feasible in CYP with chronic fatigue and self-reported PEM and provides an objective marker of functional impairment that aligns with physical health status but not with PEM duration. However, HGS alone shows limited ability to discriminate ME/CFS from other fatiguing noME/CFS conditions. HGS may be useful for quantitative phenotyping, patient stratification, and longitudinal outcome assessment rather than as a standalone diagnostic biomarker.

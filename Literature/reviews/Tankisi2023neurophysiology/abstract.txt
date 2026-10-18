@@ -1,0 +1,11 @@
+Title: The role of clinical neurophysiology in the definition and assessment of fatigue and fatigability
+Authors: Tankisi H, Versace V, Kuppuswamy A, Cole J
+Journal: Clinical Neurophysiology Practice 2024;9:39-50
+DOI: 10.1016/j.cnp.2023.12.004
+PMID: 38274859
+PMCID: PMC10808861
+URL: https://doi.org/10.1016/j.cnp.2023.12.004
+Retrieved: 2026-10-18
+
+Abstract:
+Though a common symptom, fatigue is difficult to define and investigate, occurs in a wide variety of neurological and systemic disorders, with differing pathological causes. It is also often accompanied by a psychological component. As a symptom of long-term COVID-19 it has gained more attention. In this review, we begin by differentiating fatigue, a perception, from fatigability, quantifiable through biomarkers. Central and peripheral nervous system and muscle disorders associated with these are summarised. We provide a comprehensive and objective framework to help identify potential causes of fatigue and fatigability in a given disease condition. It also considers the effectiveness of neurophysiological tests as objective biomarkers for its assessment, including twitch interpolation, motor cortex stimulation, electroencephalography and magnetencephalography, and readiness potentials.
