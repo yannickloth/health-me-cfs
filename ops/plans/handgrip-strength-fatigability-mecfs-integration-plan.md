@@ -54,8 +54,8 @@ Evaluate whether standardized repeated handgrip strength (HGS) dynamometry quali
 | 4 | 26 positive ideas + 15 mandatory critical-category assessments across 12 categories | — | — | ✅ | `ops/brainstorms/brainstorm-handgrip-strength-fatigability-mecfs-2026-10-18.md` |
 | 4a | Subtree 41 rows (26 positive + 15 critical) + root index row | — | — | ✅ | `ops/plans/hypotheses-trees/subtrees/handgrip-strength-fatigability-mecfs.md` |
 | 5 | 5 new OQs integrated (time constants, deconditioning, treatment probes, prospective PEM, severe protocol); 3 ideas covered-by-existing (B1/B2/B3); 7 tree-only; no sub-research needed (Phase 1 papers cover the claims) | — | — | ✅ | ch36 + ch23 open-questions |
-| 5d | LEGIT-SKIP — no new mechanism cascade this cycle: HGS is a measurement, not a causal chain; cascade logic for the central arm already exists at @sec:central-motor-drive-cascade | — | — | LEGIT-SKIP | decision recorded here |
-| 5c | LEGIT-SKIP — non-pharmacological topic (no medication in scope; treatment probes are open questions, no differential entry) | — | — | LEGIT-SKIP | decision recorded here |
+| 5d | **RAN (ops-only)** — first labelled LEGIT-SKIP, then re-audited: the microvascular speculation and the peripheral/transmission arms *are* specifiable cascades, so the skip did not hold. Traced 4 branches; all pruned below the chapter threshold (best cumulative inference 0.028, best branch cert 0.25). Per the 0.10–0.29 rule the trace stays in ops and no ch30/sec-12/sec-13 edit is made | — | — | ✅ | `ops/integration-guides/pathway-drug-trace-handgrip-strength-fatigability-mecfs.md` |
+| 5c | **RAN** — first labelled LEGIT-SKIP, then re-audited: the cycle integrated a medication (pyridostigmine) with a known MOA and human ME/CFS evidence, so the skip did not hold. Result: one differential dimension added to the existing ch24 pyridostigmine entry (force-versus-ratio dissociation), certainty Low, research-probe framing | — | — | ✅ | `ch24/.../subsec-pyridostigmine-mestinon/` |
 | 5b | Build PASS | — | — | ✅ | `nix build` |
 | 5a | 12 envs audited: 0 CRITICAL/0 HIGH; 2 MEDIUM + 6 LOW fixed (F1–F8); citations all resolve | — | — | ✅ | `falsifiability-auditor` report |
 | 5z | 7 glossary entries added (CSA, FSS, ICAM-1, MVC, PCS, SF-12, Handgrip strength); 11 false positives filtered | — | — | ✅ | `src/main/resources/glossary-en.json` (1575 entries, valid JSON) |
@@ -66,7 +66,7 @@ Evaluate whether standardized repeated handgrip strength (HGS) dynamometry quali
 | 10 | 2 tensions resolved, 4 coherence fixes, 0 user decisions | — | — | ✅ | `tmp/coherence-audit-handgrip-strength-fatigability-mecfs-2026-10-18.md` |
 | 10a | `#synthesis` @syn:handgrip-fatigability-model added (condenses 11 envs) | — | — | ✅ | ch36 handgrip-dynamometry.typ |
 | 10b | LEGIT-SKIP — no framing propagation: the finding is a measurement-tool verdict (monitoring yes / diagnostic no); it adds no trigger, amplifier, genetic-architecture, or causal-hierarchy claim, so abstract/ch16/reading-guide/ch13 are not in scope | — | — | LEGIT-SKIP | decision matrix row "Downstream consequence (non-actionable)" |
-| 11 | Full tier (multi-chapter, 11 envs). 11b: 19 findings (2 CRITICAL, 2 HIGH, 8 MEDIUM, 7 LOW) — all CRITICAL/HIGH/MEDIUM fixed. 11c: 7 findings — fixed; 2 pre-existing items moved to debt ledger. Round 2: 0 CRITICAL, 0 HIGH, 2 MEDIUM fixed. Round 3: deterministic re-check 0 findings | — | — | ✅ | review reports in session; debt rows in `ops/debt-ledger.md` |
+| 11 | Full tier (multi-chapter, 13 envs). Round 1: 19 findings (2 CRITICAL, 2 HIGH, 8 MEDIUM, 7 LOW) — all fixed. Round 1b (Typst/logic): 7 findings — fixed; 2 pre-existing items to debt ledger. Round 2: 0 CRITICAL, 0 HIGH, 2 MEDIUM fixed. Round 3: 4 minor attribution/hygiene findings fixed. Round 4: targeted verification — 4/4 PASS, no new findings. Round 5: logic pass — 0 CRITICAL, 2 warnings (cancer-fatigue comparator contradiction; time-constant rationale) fixed. Round 6: deterministic re-verification of the fixed lines — 0 findings. **Convergence: 0 CRITICAL, 0 HIGH, 0 open findings.** | — | — | ✅ | review reports in session; debt rows in `ops/debt-ledger.md` |
 
 ## Phase 12 — Plan record
 
@@ -113,5 +113,7 @@ Evaluate whether standardized repeated handgrip strength (HGS) dynamometry quali
 | 12 | RAN | this section |
 | 12.5 | RAN | this table |
 | 13 | RAN | commit hash recorded in the Phase 13 report |
+
+**Re-audit note (2026-10-18, after user challenge):** the first ledger marked 5c and 5d as LEGIT-SKIP. Neither survived re-examination against the skill's exact skip text — 5d against "the hypothesis has no specifiable cascade" (the microvascular and transmission arms are specifiable), 5c against "the topic is non-pharmacological" (a medication with human ME/CFS evidence was integrated as a probe). Both now RAN with narrow artifacts. 10b remains LEGIT-SKIP: the finding is a measurement-tool verdict with no trigger/amplifier/framing implication.
 
 **No OMISSION. No WAIVED phases.**
