@@ -44382,3 +44382,208 @@ This stream assembles evidence for the claim that pathological fatigue across au
     - *Sample:* N/A
     - *Replication:* Widely tested/elaborated
     - *Score:* 0.50
+
+// =============================================================================
+
+== Handgrip Strength / Fatigability in ME/CFS (2026-10-18)
+<sec:bib-handgrip-strength-fatigability>
+// =============================================================================
+
+=== Mihatsch 2026 — Handgrip Strength in CYP with Suspected ME/CFS
+@Mihatsch2026HandgripCYP
+
+/ *Full Citation:*: Mihatsch L, Schartner L, Lange de Luna J, et al. Handgrip strength in children, adolescents, and young adults with suspected myalgic encephalomyelitis/chronic fatigue syndrome. _Journal of Translational Medicine_. 2026;24:947.
+/ *DOI:*: #link("https://doi.org/10.1186/s12967-026-08654-5")[10.1186/s12967-026-08654-5]
+/ *PMID:*: 42458481
+/ *Study Design:*: Prospective observational (two-session repeated HGS protocol, 10 grips/session, 60-min apart)
+/ *Sample Size:*: n=147 patients (10--25 y) + 83 healthy controls
+/ *Key Findings:*:
+    - Patients had lower HGS than controls (mean difference −9.93 kg; 95% CI −12.00 to −7.85)
+    - High completion (99.3% session 1, 96.6% session 2) — feasible; post-test PEM provocation was not systematically assessed
+    - HGS correlated modestly with physical functioning (SF-12 PCS) but NOT with PEM duration
+    - No HGS index separated noME/CFS from ME/CFS; recovery ratio differed ME/CFS vs HC only
+    - Discrimination accuracy 49.2–57.3% (no-information rate 36.5%); CCC-restricted 62.8–70.7% (C-statistic 0.63–0.73)
+/ *Conclusion:*: Two-session HGS is a feasible objective functional marker in CYP, useful for phenotyping and longitudinal assessment, but NOT a standalone diagnostic biomarker.
+/ *Limitations:*: Single pediatric center; moderate discrimination; no replication; CYP population (10–25 y).
+/ *Certainty Assessment:*:
+    - *Quality:* High (J Transl Med, prospective, well-powered)
+    - *Sample:* Large (n=230)
+    - *Replication:* Single study
+    - *Score:* 0.60
+
+=== Wallraven 2026 — HGS Predictors of PCS Severity and Muscle Weakness
+@Wallraven2026HandgripPCS
+
+/ *Full Citation:*: Wallraven T, Basta-Wunderle M, Ribeiro A, et al. Handgrip strength parameters as predictors of post-COVID syndrome severity and muscle weakness in an observational study. _Scientific Reports_. 2026;16:31481.
+/ *DOI:*: #link("https://doi.org/10.1038/s41598-026-75170-3")[10.1038/s41598-026-75170-3]
+/ *Study Design:*: Prospective observational secondary analysis ("All Eyes on PCS")
+/ *Sample Size:*: n=102 PCS (62 of 101 classified = 61.4% CCC-ME/CFS)
+/ *Key Findings:*:
+    - ME/CFS subgroup had lower mean HGS (p=0.031), greater fatigability (p=0.042), poorer recovery (p=0.048)
+    - Fmean correlated with PCS severity (r=−0.31) and Fatigue Severity Scale (r=−0.36)
+    - ICAM-1 elevated with abnormal recovery (p=0.014); male ferritin–Fmean r=0.42 (p=0.036); female anti-S1 IgG–Fmean r=−0.24 (p=0.040)
+    - ME/CFS subgroup: VEGF inversely correlated with fatigability (r=−0.26, p=0.044)
+    - ROC AUC only 0.61–0.63 for ME/CFS discrimination
+/ *Conclusion:*: HGS tracks PCS severity and endothelial/inflammatory markers, but weak discrimination argues against dynapenia as an ME/CFS-specific marker.
+/ *Limitations:*: Exploratory; no a priori HGS power; single tertiary center; social-media recruitment.
+/ *Certainty Assessment:*:
+    - *Quality:* Medium-High (Sci Rep, prospective)
+    - *Sample:* Medium (n=102)
+    - *Replication:* Partial (converges with Paffrath 2024, Kedor 2022)
+    - *Score:* 0.60
+
+=== Jäkel 2021 — Hand Grip Strength and Fatigability in ME/CFS
+@Jakel2021HGS
+
+/ *Full Citation:*: Jäkel B, Kedor C, Grabowski P, et al. Hand grip strength and fatigability: correlation with clinical parameters and diagnostic suitability in ME/CFS. _Journal of Translational Medicine_. 2021;19(1):159.
+/ *DOI:*: #link("https://doi.org/10.1186/s12967-021-02774-w")[10.1186/s12967-021-02774-w]
+/ *PMID:*: 33874961
+/ *Study Design:*: Cross-sectional diagnostic validation (two-session repeated HGS protocol)
+/ *Sample Size:*: n=105 ME/CFS + 18 cancer-related fatigue + 66 healthy controls
+/ *Key Findings:*:
+    - ME/CFS lower Fmax and Fmean vs HC (p \< 0.0001); higher fatigue ratio (p≤0.0012); lower recovery ratio (p≤0.0020)
+    - Female Fmax1 18.1 vs 28.2 kg; fatigue ratio 1.300 vs 1.105; recovery ratio 0.87 vs 1.0
+    - HGS indices correlated with disease severity, PEM, muscle pain, and CK/LDH after exertion
+/ *Conclusion:*: Repeated HGS is presented by the authors as a sensitive diagnostic test of muscular fatigue/fatigability and an objective severity measure — the protocol on which later HGS work builds. *Editor's note:* the diagnostic endorsement is not carried forward; discrimination against other fatiguing conditions proved moderate (@lim:handgrip-diagnostic-discrimination).
+/ *Limitations:*: Single center; interpretation (peripheral fatigability) later challenged by Popkirov 2025; no independent replication at publication.
+/ *Certainty Assessment:*:
+    - *Quality:* High (foundational, 74 citations)
+    - *Sample:* Large (n=189)
+    - *Replication:* Protocol widely adopted; mechanism contested
+    - *Score:* 0.60
+
+=== Popkirov 2025 — Variation in Repeated HGS Indicates Submaximal Force
+@Popkirov2025CV
+
+/ *Full Citation:*: Popkirov S. Variation in Repeated Handgrip Strength Testing Indicates Submaximal Force Production in Patients With Myalgic Encephalomyelitis/Chronic Fatigue Syndrome. _European Journal of Neurology_. 2025;32:e70273.
+/ *DOI:*: #link("https://doi.org/10.1111/ene.70273")[10.1111/ene.70273]
+/ *PMID:*: 40923211
+/ *Study Design:*: Post-hoc reanalysis of Jäkel 2021 raw data
+/ *Sample Size:*: n=105 ME/CFS + 66 HC (61 F / 44 M; median disease duration 4 y; 88% post-infectious)
+/ *Key Findings:*:
+    - Coefficient of variation (CV) higher in patients: female CV1 14.73% vs 5.87% (p \< 0.00001)
+    - Patient CV largely over the 15% cutoff associated with submaximal exertion (94% specificity)
+    - In the normal-fatigability subsample, CV still higher in female patients (male p=0.06)
+/ *Conclusion:*: Low grip strength is compounded by altered higher-order motor control, challenging HGS as a biomarker of peripheral dysfunction.
+/ *Limitations:*: Single author; secondary analysis; CV validity contested (see Steinkirchner 2026).
+/ *Certainty Assessment:*:
+    - *Quality:* Medium (secondary analysis)
+    - *Sample:* Large (n=171)
+    - *Replication:* Contested
+    - *Score:* 0.50
+
+=== Steinkirchner 2026 — Comment on Popkirov 2025
+@Steinkirchner2026comment
+
+/ *Full Citation:*: Steinkirchner F, Kimmerling V, Kaufmann C, et al. Comment on "Variation in Repeated Handgrip Strength Testing Indicates Submaximal Force Production in Patients With Myalgic Encephalomyelitis/Chronic Fatigue Syndrome". _European Journal of Neurology_. 2026;33:e70511.
+/ *DOI:*: #link("https://doi.org/10.1111/ene.70511")[10.1111/ene.70511]
+/ *PMID:*: 41574647
+/ *Study Design:*: Letter to the editor (methodological critique)
+/ *Sample Size:*: N/A
+/ *Key Findings:*:
+    - CV is not validated for effort assessment (Shechtman) and is confounded by fatigability
+    - Protocol differs from the CV-origin studies; participant numbers not reproducible from public dataset
+/ *Conclusion:*: The submaximal-effort interpretation rests on insufficiently supported methodological premises.
+/ *Limitations:*: Letter; no new data.
+/ *Certainty Assessment:*:
+    - *Quality:* Medium (peer-reviewed exchange)
+    - *Sample:* N/A
+    - *Replication:* N/A
+    - *Score:* 0.40
+
+=== Kent-Braun 1993 — Central Basis of Muscle Fatigue in CFS
+@KentBraun1993central
+
+/ *Full Citation:*: Kent-Braun JA, Sharma KR, Weiner MW, Massie B, Miller RG. Central basis of muscle fatigue in chronic fatigue syndrome. _Neurology_. 1993;43(1 Part 1):125–131.
+/ *DOI:*: #link("https://doi.org/10.1212/wnl.43.1_part_1.125")[10.1212/wnl.43.1_part_1.125]
+/ *PMID:*: 8423875
+/ *Study Design:*: Case-control (tibialis anterior intermittent submaximal + sustained maximal voluntary isometric exercise)
+/ *Sample Size:*: small case-control (CFS vs sedentary controls)
+/ *Key Findings:*:
+    - Normal muscle fatigability, metabolism, M-wave amplitude, and twitch tension during exercise
+    - Normal systemic exercise response
+    - Significantly lower voluntary activation during sustained MVC — central activation failure
+/ *Conclusion:*: CFS muscle weakness is central (activation failure), not peripheral muscle failure — the foundational null-peripheral result.
+/ *Limitations:*: Small n; 1993; pre-CCC criteria; tibialis anterior not handgrip.
+/ *Certainty Assessment:*:
+    - *Quality:* High (landmark, 92 citations)
+    - *Sample:* Small
+    - *Replication:* Consistent with later central-fatigue literature
+    - *Score:* 0.55
+
+=== Ramírez-Vélez 2023 — Muscle Strength Mediated by Limb Mass in Long COVID
+@RamirezVelez2023ALMI
+
+/ *Full Citation:*: Ramírez-Vélez R, Legarra-Gorgoñon G, Oscoz-Ochandorena S, et al. Reduced muscle strength in patients with long-COVID-19 syndrome is mediated by limb muscle mass. _Journal of Applied Physiology_. 2023;134(1):50–58.
+/ *DOI:*: #link("https://doi.org/10.1152/japplphysiol.00599.2022")[10.1152/japplphysiol.00599.2022]
+/ *PMID:*: 36448687
+/ *Study Design:*: Cross-sectional case-control
+/ *Sample Size:*: n=99 long-COVID + 97 controls
+/ *Key Findings:*:
+    - Grip strength lower in long-COVID (26.94 vs 32.82 kg; difference 5.87 kg; p \< 0.001)
+    - Leg-extension 1RM lower (71.59 vs 93.98 kg; difference 22.38 kg; p \< 0.001)
+    - Appendicular lean mass index mediated 52% of grip-strength and 39% of leg-extension associations
+/ *Conclusion:*: Strength deficit is substantially explained by low muscle mass (deconditioning/dynapenia), not an independent neuromuscular lesion.
+/ *Limitations:*: Long-COVID (not ME/CFS-specific); cross-sectional; HTML full-text only (no PDF).
+/ *Certainty Assessment:*:
+    - *Quality:* Medium-High (J Appl Physiol)
+    - *Sample:* Large (n=196)
+    - *Replication:* Consistent with dynapenia literature
+    - *Score:* 0.60
+
+=== Tankisi 2024 — Neurophysiology of Fatigue and Fatigability
+@Tankisi2023neurophysiology
+
+/ *Full Citation:*: Tankisi H, Versace V, Kuppuswamy A, Cole J. The role of clinical neurophysiology in the definition and assessment of fatigue and fatigability. _Clinical Neurophysiology Practice_. 2024;9:39–50.
+/ *DOI:*: #link("https://doi.org/10.1016/j.cnp.2023.12.004")[10.1016/j.cnp.2023.12.004]
+/ *PMID:*: 38274859
+/ *Study Design:*: Narrative review
+/ *Sample Size:*: N/A
+/ *Key Findings:*:
+    - Distinguishes fatigue (perception) from fatigability (quantifiable via biomarkers)
+    - Summarizes neurophysiological tests (twitch interpolation, motor cortex stimulation, EEG/MEG, readiness potentials)
+/ *Conclusion:*: Provides the measurement-validity framework for separating effort-dependent from objective muscle-fatigue measures.
+/ *Limitations:*: Narrative; not ME/CFS-specific.
+/ *Certainty Assessment:*:
+    - *Quality:* Medium
+    - *Sample:* N/A
+    - *Replication:* N/A
+    - *Score:* 0.50
+
+=== Daza-Arana 2026 — Beyond Sarcopenia (ML of Post-COVID Functional Status)
+@DazaArana2026ML
+
+/ *Full Citation:*: Daza-Arana JE, Liscano Y, Varela-Miranda RE, Lozada-Ramos H, Rodríguez-Scarpetta MA. Beyond Sarcopenia: An Exploratory Machine Learning Analysis of Fatigue, Sleep Quality and Acute-Phase Severity as Correlates of Post-COVID Functional Status in a Colombian Cohort. _Biomedicines_. 2026;14(9):1885.
+/ *DOI:*: #link("https://doi.org/10.3390/biomedicines14091885")[10.3390/biomedicines14091885]
+/ *PMID:*: 42792630
+/ *Study Design:*: Exploratory cross-sectional machine learning
+/ *Sample Size:*: n=130 post-COVID (Colombia); functional limitation 91/130 (70.0%)
+/ *Key Findings:*:
+    - Optimism-corrected AUC 0.748 (95% CI 0.669–0.830)
+    - Fatigue ranked FIRST in SHAP importance (54.0% of resamples); grip strength ranked FIFTH (median rank 6)
+/ *Conclusion:*: Fatigue, sleep quality, and acute-phase severity — not grip strength — are the most influential functional-status correlates.
+/ *Limitations:*: Severely underpowered (23% of required n=566); exploratory; post-COVID (not ME/CFS-specific).
+/ *Certainty Assessment:*:
+    - *Quality:* Medium
+    - *Sample:* Small (n=130, underpowered)
+    - *Replication:* None
+    - *Score:* 0.50
+
+=== Fernández-Pola 2026 — Muscle Architecture and Functional Capacity in FM
+@FernandezPola2026architecture
+
+/ *Full Citation:*: Fernández-Pola EC, Navas-Mosqueda Á, Gutiérrez-Maturana Gázquez MDM, et al. Analysis of muscle architecture variables and their relationship with functional capacity in patients with fibromyalgia: A cross-sectional study. _Therapeutic Advances in Musculoskeletal Disease_. 2026;18:1759720X261481908.
+/ *DOI:*: #link("https://doi.org/10.1177/1759720x261481908")[10.1177/1759720x261481908]
+/ *PMID:*: 42633068
+/ *Study Design:*: Cross-sectional observational (STROBE)
+/ *Sample Size:*: n=80 fibromyalgia (54.06 ± 9.66 y)
+/ *Key Findings:*:
+    - Mean VL-CSA 11.73 ± 3.76 cm²
+    - Regression explained 46.6% of VL-CSA variance (p \< 0.001); BMI, trochanteric circumference, 5-STST, and HGS were independent predictors
+/ *Conclusion:*: Muscle architecture/mass is structurally linked to handgrip strength (dynapenia mechanism) in a chronic-fatigue-adjacent condition.
+/ *Limitations:*: No healthy controls; fibromyalgia (not ME/CFS); single center.
+/ *Certainty Assessment:*:
+    - *Quality:* Medium
+    - *Sample:* Medium (n=80)
+    - *Replication:* None
+    - *Score:* 0.50

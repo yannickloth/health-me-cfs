@@ -12753,4 +12753,39 @@
     "label": "EWAS (epigenome-wide association study)",
     "category": "method",
     "definition": "A study design that measures DNA methylation (or another epigenetic mark) at hundreds of thousands of sites across the genome and tests which sites differ between groups. The methylation counterpart of a GWAS."
+  },
+  "CSA": {
+    "label": "CSA (cross-sectional area)",
+    "category": "measurement",
+    "definition": "The area of a muscle cut across its short axis, measured by ultrasound, CT, or MRI. Used as a proxy for muscle size when judging whether weakness reflects less muscle or reduced force per unit muscle."
+  },
+  "FSS": {
+    "label": "FSS (Fatigue Severity Scale)",
+    "category": "measurement",
+    "definition": "A nine-item self-report questionnaire scoring how much fatigue interferes with daily activities, from 1 (strongly disagree) to 7 (strongly agree). Widely used in ME/CFS and multiple sclerosis; it measures perceived fatigue, not performance."
+  },
+  "ICAM-1": {
+    "label": "ICAM-1",
+    "category": "protein",
+    "definition": "Intercellular Adhesion Molecule 1: a surface protein on endothelial cells and immune cells that mediates leukocyte adhesion and transmigration. Elevated soluble ICAM-1 is a marker of endothelial activation."
+  },
+  "MVC": {
+    "label": "MVC (maximal voluntary contraction)",
+    "category": "measurement",
+    "definition": "The greatest force a person can produce in a single deliberate maximal effort. The reference against which fatigability is expressed: a decline across repeated MVCs is the standard laboratory definition of muscle fatigue."
+  },
+  "PCS": {
+    "label": "PCS (post-COVID syndrome)",
+    "category": "condition",
+    "definition": "Post-COVID Syndrome, also called Long COVID: persistent or new symptoms more than 12 weeks after SARS-CoV-2 infection. A substantial subgroup meets ME/CFS criteria. Not to be confused with the SF-12 Physical Component Summary, also abbreviated PCS."
+  },
+  "SF-12": {
+    "label": "SF-12 (12-Item Short Form Health Survey)",
+    "category": "measurement",
+    "definition": "A 12-item patient-reported health survey producing a Physical Component Summary (PCS) and a Mental Component Summary (MCS). Used to quantify functional impairment in ME/CFS cohorts."
+  },
+  "Handgrip strength": {
+    "label": "Handgrip strength",
+    "category": "measurement",
+    "definition": "The force produced by squeezing a handheld dynamometer. Measured repeatedly in two sessions, it yields absolute force, a within-session fatigue ratio, and a between-session recovery ratio; in ME/CFS it is used as a functional and severity measure, not as a diagnostic test."
   }}

@@ -7,4 +7,5 @@
 #include "./nasa-lean-test/nasa-lean-test.typ"
 #include "./cognitive-testing/cognitive-testing.typ"
 #include "./digital-physiological-biomarke/digital-physiological-biomarke.typ"
+#include "./handgrip-dynamometry/handgrip-dynamometry.typ"
 

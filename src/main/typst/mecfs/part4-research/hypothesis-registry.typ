@@ -6962,3 +6962,40 @@ This registry collects all hypotheses, speculations, open questions, and predict
 
   [oq severe-me-suicide-screening], [Open question (ch06 @oq:severe-me-suicide-screening): can a caregiver-administered, pen-and-paper suicidality screening checkpoint at severe-disease care transitions (diagnosis, deterioration events, benefit rejections) identify suicidal ideation early enough to intervene? Risk factors known — limited functioning, stigma exposure, absence of comorbid illness @Johnson2022SuicideRiskStigma — but no implementation study exists in this population; standard instruments untested under communication/energy constraints. Complementary to pediatric practice guidance (ch28 practical warning). Origin: brainstorm.],[Phase 5 / n/a (open question)],
 )
+
+= Entries added 2026-10-18: Handgrip strength / fatigability (handgrip-strength-fatigability-mecfs)
+
+#table(
+  columns: (1fr, 2.4fr, 1fr),
+  [*ID / Label*], [*Details*], [*Phase / Cert*],
+
+  [oq handgrip-peripheral-vs-central], [Open question (ch36 @oq:handgrip-peripheral-vs-central): the reproducible grip-force and recovery deficit in ME/CFS is compatible with peripheral muscle failure and with reduced central drive, and current data cannot separate them (certainty 0.47–0.60 for either arm). Peripheral reading rests on stable group separation of fatigue and recovery ratios @Jakel2021HGS @Mihatsch2026HandgripCYP @Wallraven2026HandgripPCS. Central-activation reading rests on normal peripheral fatigue with reduced voluntary activation during sustained maximal exercise @KentBraun1993central and on the independent multimodal finding of absent up-regulation of cortical output during a sustained grip task at equal maximum force @Bedard2026centralFatigability. A third reading — elevated within-subject force variability @Popkirov2025CV, contested on method grounds @Steinkirchner2026comment — describes inconsistent force production and is not a disease mechanism. Discriminating test: twitch interpolation or motor-cortex stimulation during the standard two-session grip protocol. Falsified (peripheral arm) if voluntary activation is preserved while peripheral twitch force declines; falsified (central arm) if peripheral twitch force declines disproportionately with normal activation. Severity not stratified; adult and pediatric cohorts only. Origin: literature integration.],[Phase 3 / n/a (open question)],
+
+  [spec handgrip-microvascular], [Speculation (ch36 @spec:handgrip-microvascular): part of the handgrip recovery deficit may reflect microvascular delivery limitation rather than muscle bulk loss. In one post-COVID cohort, ICAM-1 was higher in patients with reduced recovery, VEGF correlated inversely with the fatigue ratio in ME/CFS (r = −0.26), and anti-S1 IgG correlated negatively with grip force in women (r = −0.24) @Wallraven2026HandgripPCS. Exploratory secondary analyses, many comparisons, no multiplicity control, single cohort, blood markers vs muscle-level inference. Falsifiable: near-infrared spectroscopy during the two-session protocol should show slower reoxygenation in patients with poor recovery, and the marker associations should replicate independently; refuted if muscle oxygenation recovery is normal in low-recovery patients. Origin: literature integration.],[Phase 3 / 0.25],
+)
+
+= Entries added 2026-10-18 (Phase 5): Handgrip research directions
+
+#table(
+  columns: (1fr, 2.4fr, 1fr),
+  [*ID / Label*], [*Details*], [*Phase / Cert*],
+
+  [oq handgrip-time-constants], [Open question (ch36 @oq:handgrip-time-constants): the two published HGS indices discard the shape of the ten-grip decline. A two-parameter exponential fit (fatigue and recovery time constants) could separate a linear decline from a threshold collapse at equal fatigue ratio, and could become a mechanistic readout at zero extra patient burden. Blocked by data access, not by method. Prediction: time constants separate ME/CFS from controls more strongly than the ratios and correlate with severity independently of absolute force. Falsified if the fit is unstable or adds no discrimination. Origin: brainstorm.],[Phase 5 / 0.25],
+
+  [oq handgrip-deconditioning-vs-disease], [Open question (ch36 @oq:handgrip-deconditioning-vs-disease): how much of the grip deficit survives adjustment for muscle mass and habitual activity? Lean mass explains 52% of the grip association in long COVID @RamirezVelez2023ALMI, and in fibromyalgia grip strength independently predicts vastus lateralis cross-sectional area (model R² = 46.6% for muscle size) @FernandezPola2026architecture — muscle size and strength co-vary rather than dissociate. No ME/CFS study adjusted for body composition or matched activity, so the residual deficit in ME/CFS is unknown rather than established. No ME/CFS study adjusted for body composition or matched activity; cancer-related fatigue (already in the adult cohort) and myasthenia gravis are the discriminating comparators @Jakel2021HGS. Falsified if adjustment for mass and activity removes every group difference. Origin: brainstorm.],[Phase 5 / 0.30],
+
+  [oq handgrip-treatment-probes], [Open question (ch36 @oq:handgrip-treatment-probes): five probe designs could test whether the recovery ratio measures a druggable process — pyridostigmine (neuromuscular transmission @Schlomer2025PyridostigmineMECFS), immunoadsorption (autoantibody subgroup @Scheibenbogen2025immunoadsorption @Stein2024immunoadsorption), creatine (substrate refilling @Godlewska2024creatineMRS @DosSantos2026creatineCovid), citrulline malate (perfusion @Bendahan2002citrulline), iron repletion (oxygen delivery). None has been run with HGS as a pre-registered endpoint; discriminating value is currently zero. Origin: brainstorm.],[Phase 5 / 0.20],
+
+  [oq handgrip-prospective-pem-tracking], [Open question (ch23 @oq:handgrip-prospective-pem-tracking): the monitoring use is extrapolated from cross-sectional data. Proposed test: weekly dynamometry + daily PEM diary for 8–12 weeks, asking whether a recovery-ratio drop precedes a crash by 12–72 h. Design traps: testing is itself exertion; general symptom burden must be separated from acute change. Prediction: ratio drop precedes PEM in most events, stronger than absolute force. Falsified if changes are concurrent only. Origin: brainstorm.],[Phase 5 / 0.20],
+
+  [oq handgrip-severe-submax-protocol], [Open question (ch23 @oq:handgrip-severe-submax-protocol): no published HGS cohort includes severe or very severe patients, and the standard two-session maximal protocol likely exceeds their capacity. A fixed low-load protocol with 72-hour symptom monitoring is proposed; obstacles are the absent maximal reference, provocation risk, and unknown measurement properties. Prediction: feasible in ≥80% of severe patients without 72-hour worsening, with larger decline than sedentary controls. Falsified if the protocol cannot be completed or does not differ from controls. Origin: brainstorm.],[Phase 5 / 0.20],
+)
+
+= Entries added 2026-10-18 (Phase 10a): Handgrip synthesis
+
+#table(
+  columns: (1fr, 2.4fr, 1fr),
+  [*ID / Label*], [*Details*], [*Phase / Cert*],
+
+  [syn handgrip-fatigability-model], [Synthesis (ch36 @syn:handgrip-fatigability-model): three independent cohorts converge on a narrow conclusion — a reproducible force and recovery deficit exists in adult and pediatric ME/CFS @Jakel2021HGS @Mihatsch2026HandgripCYP @Wallraven2026HandgripPCS; it tracks severity but does not discriminate ME/CFS from other fatiguing conditions @Mihatsch2026HandgripCYP @DazaArana2026ML; and its mechanism (peripheral muscle, central drive, or deconditioning) is unresolved @oq:handgrip-peripheral-vs-central @oq:handgrip-deconditioning-vs-disease. Purpose separation follows: monitoring/phenotyping yes (@cf:handgrip-functional-monitor), diagnosis no (@lim:handgrip-diagnostic-discrimination). The decisive open test is temporal — whether a recovery-ratio fall precedes PEM within a patient (@oq:handgrip-prospective-pem-tracking). No new citations. Severity: mild/moderate ambulatory; severe unknown.],[Phase 10a / n/a],
+)

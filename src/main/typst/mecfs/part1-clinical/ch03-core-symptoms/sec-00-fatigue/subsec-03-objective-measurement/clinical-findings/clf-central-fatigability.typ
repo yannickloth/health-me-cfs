@@ -9,7 +9,7 @@ Multimodal neuroimaging during a sustained grip-force task showed that ME/CFS pa
 
 *Reputation:* A single study; the central-origin conclusion requires replication before it is weighted heavily.
 
-*Falsifiable prediction:* Central fatigability in ME/CFS should respond to central-acting interventions (e.g. dopaminergic or wakefulness-promoting agents) but not to peripheral ergogenic aids. The mechanistic motor-drive cascade and its differential-diagnostic drug probes are traced in Section @sec:central-motor-drive-cascade.
+*Falsifiable prediction:* Central fatigability in ME/CFS should respond to central-acting interventions (e.g. dopaminergic or wakefulness-promoting agents) but not to peripheral ergogenic aids. The mechanistic motor-drive cascade and its differential-diagnostic drug probes are traced in Section @sec:central-motor-drive-cascade. The competing peripheral reading of the same grip deficit, and the unresolved peripheral-versus-central question, are set out at @oq:handgrip-peripheral-vs-central.
 
 *Consequence:* If replicated, this reframes ME/CFS fatigability as a brain-level failure to push the body, directing research and treatment toward the central nervous system rather than muscle physiology.
 ] <clf:central-fatigability>
