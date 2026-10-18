@@ -5,7 +5,7 @@ description: Use this skill to evaluate and integrate a new topic into the ME/CF
 
 # Evaluate and Integrate New Topic into the ME/CFS Paper
 
-End-to-end: research → synthesize → **integration decision** → develop → **safety gate** → brainstorm → **drug-interaction check** → triage → integrate (tiered) → pathway-to-drug tracing → falsifiability sweep → retroactive adaptation → cross-hypothesis compatibility → build → quality assessment → cross-chapter coherence → high-level synthesis → strategic-framing propagation → review convergence → plan-record (Phase 12) → **completion gate (Phase Ledger)** → commit.
+End-to-end: research (+ full-text PDF filed under `Literature/<category>/<BibKey>/`) → synthesize → **integration decision** → develop → **safety gate** → brainstorm → **drug-interaction check** → triage → integrate (tiered) → pathway-to-drug tracing → falsifiability sweep → retroactive adaptation → cross-hypothesis compatibility → build → quality assessment → cross-chapter coherence → high-level synthesis → strategic-framing propagation → review convergence → plan-record (Phase 12) → **completion gate (Phase Ledger)** → commit.
 
 **Null hypothesis:** The default outcome is *non-integration*. The burden of proof is on demonstrating that the topic has sufficient evidence and relevance to warrant inclusion. Integration must be earned by passing evidence gates — not assumed.
 
@@ -173,8 +173,40 @@ Before starting any other phase:
   - **Indirect biochemical/systemic links (MANDATORY):** Not just direct "[topic] AND ME/CFS" — also map what the topic *does* biochemically (its mechanism of action, its downstream effects, the pathways it touches) and search for those mechanisms in ME/CFS. A biomarker/drug/antibody/etc. may lack direct ME/CFS studies but its known biochemistry may intersect with documented ME/CFS pathophysiology. Search pattern: "[downstream effect] ME/CFS", "[pathway touched by topic] chronic fatigue", "[biochemical consequence] myalgic encephalomyelitis". Examples: RF → search "immune complex complement ME/CFS" and "cryoglobulin fatigue" and "Fc receptor chronic fatigue" because RF forms IgG ICs that activate complement, engage FcγRs, and can precipitate as cryoglobulins — all biochemically downstream of the topic even if RF itself isn't named. Document the logic: "Topic X does Y (literature: @ref); searched for 'Y AND ME/CFS' → N results."
 - Target 5–15 papers (peer-reviewed preferred; preprints if recent + relevant)
 - Per paper: evaluate quality (sample size, design, journal, replication status)
-- Download PDFs where available; abstracts otherwise
-- Create `Literature/` folder per literature-integration workflow
+
+### Phase 1 PDF acquisition and filing (MANDATORY)
+
+Every INCLUDED paper (Phase 1 set + the driving paper) gets a full-text PDF on disk. Abstract-only is a FAIL, not a fallback.
+
+**Step A — resolve the OA link.** DOI → Crossref/Unpaywall → publisher PDF → PMC (`europepmc.org/api/fulltextRepo`/`PMC<id>`) → preprint server. J Transl Med / BMC / Frontiers / MDPI / Nature OA serve PDFs directly.
+
+**Step B — download.** Try in this order; stop at the first success:
+1. `curl -sSL -A "<browser UA>" -o tmp.pdf "<publisher-pdf-url>"` then `file tmp.pdf` — must report PDF and `pdfinfo` page count ≥ 2.
+2. PMC: `https://europepmc.org/articles/PMC<id>?pdf=render` or `https://pmc.ncbi.nlm.nih.gov/articles/PMC<id>/pdf/`.
+3. **BrowserOS neo** (when 1–2 return an HTML bot-check/challenge page, or the publisher needs JS):
+   - `browseros-neo` `tabs` action=`new` with the article URL (do not hijack the user's tab)
+   - dismiss cookie/consent banners, then `snapshot`, then click the PDF/Download link
+   - read the finished download path (default `~/Downloads/<name>.pdf`), then `mv` it into the target folder
+   - verify with `file` + `pdfinfo` before accepting; a 3 KB HTML file is a challenge page, not a PDF
+4. If all three fail → record `PDF unavailable — <publisher> challenge` in the search log and mark the paper abstract-only. This is the ONLY accepted fallback, and it must be recorded per paper.
+
+**Step C — file it (naming contract).** `Literature/` folder == PDF stem == bib key:
+
+```
+Literature/<category>/<AuthorYEARkeyword>/<AuthorYEARkeyword>.pdf
+```
+
+- `<AuthorYEARkeyword>` = the exact key written to `bib/<topic-area>.bib` (surname capitalized, no spaces/punctuation/Unicode). Never use a DOI, article number, or platform ID as the filename.
+- `<category>` = the existing thematic subfolder that fits the paper's domain (`biomarkers/`, `immune-dysfunction/`, `neurological/`, `endocrine/`, `genetics/`, `epidemiology/`, `comorbidities/`, `clinical-studies/`, `treatments/`, `mechanisms/`, `pathophysiology/`, `reviews/`, `clinical-guidelines/`, `sociology/`, `severe-care/`, `severity-prognosis/`, `pediatric-insights/`, `respiratory/`, `tissue-level-findings/`, `cross-paper-synthesis/`). `ls Literature/` first — reuse before creating a new folder.
+- Existing paper folder (with `abstract.txt`/`notes.md`) → reuse it; never create a second folder under a different name.
+- The PDF is a source artifact → it IS committed in Phase 13 (only build-generated PDFs are excluded).
+
+**Step D — sidecar.** Write `abstract.txt` (abstract + title/authors/journal/DOI/PMID/URL/retrieved date) in the same folder. `notes.md` only when the integration guide needs per-paper notes.
+
+**Step E — verify.** `ls -l Literature/<category>/<key>/<key>.pdf` non-empty + `pdfinfo` pages ≥ 2 + `pdftotext` returns the paper's own title. Register the URL in `registry/scrape-registry.md`.
+
+**Report line:** "PDFs filed: N/M papers — `<key>` → `Literature/<category>/<key>/<key>.pdf` (…); PDF unavailable: [papers + reason]."
+
 - Add entries to the **topic-appropriate split bib file** under `src/main/typst/mecfs/bib/<topic-area>.bib` (e.g. `bib/immune.bib`, `bib/treatments.bib`, `bib/vascular.bib`). **There is NO `references.bib`** — the build wires the 27 `bib/*.bib` files into `#bibliography((...))` in `loth2026-mecfs.typ`. Entries written outside these listed files are invisible to the build → every `@Citation` to them silently fails. If a topic has no matching file, add to `bib/general.bib` (do NOT create a new `.bib` without also adding it to the `#bibliography(...)` tuple in `loth2026-mecfs.typ`).
   - Standard BibTeX fields + `certainty = {0.XX}` + `research_stream = {topic-slug}` + `tier = {guideline|meta-analysis|systematic-review|rct|non-randomized|prospective|retrospective|case-series|case-report|animal|in-vitro|in-silico|narrative|preprint|unknown}` (deterministic evidence tier — see ladder below; applies to NEW entries; existing entries get a tier lazily when Phase 6 overlap touches them)
   - **Bib key convention (MANDATORY):** Format `AuthorYEARkeyword` — surname capitalized, no spaces/punctuation/Unicode (e.g. `Batham2024MECFSAutoimmunity`, `Sotzny2022postcovid`, `Loebel2016`). This matches the existing corpus (~91% of keys contain uppercase). Do **NOT** lowercase or "normalize" keys — mixed case is the convention. Phase 1 report includes a "bib keys produced" list, but it is advisory only.
@@ -1714,7 +1746,7 @@ section. For **each** phase listed below, mark exactly one state:
 | Phase | Must-run unless… | Required artifact if RAN |
 |-------|------------------|--------------------------|
 | 0 | always | plan file present + validated |
-| 1 | gap-fill scope w/ already-cited lit (record WHY) | search-log + bib entries |
+| 1 | gap-fill scope w/ already-cited lit (record WHY) | search-log + bib entries + PDF filed at `Literature/<category>/<BibKey>/<BibKey>.pdf` (or recorded unavailability) |
 | 2 | always (REJECT/DEFER are RAN outcomes) | `tmp/synthesis-*` OR decision recorded (REJECT/DEFER branch) |
 | 3 | always after PROCEED/PARTIAL | chapter envs + registry rows |
 | 3a | always after 3 | build PASS (report) |
@@ -1748,7 +1780,9 @@ section. For **each** phase listed below, mark exactly one state:
   `#hypothesis-box`/`#speculation`/`#prediction` has a falsifiability statement;
   every new environment has a `*Consequence:*` field; the hypothesis registry was
   updated if any new claim environment was added; bib keys used in new content
-  resolve (case-exact) in the split `bib/*.bib`.
+  resolve (case-exact) in the split `bib/*.bib`; every Phase 1 included paper has
+  a filed PDF (or a recorded unavailability reason) at
+  `Literature/<category>/<BibKey>/<BibKey>.pdf`.
 
 **Actionable message on gate fail:** "Phase Ledger blocked: `<Phase N>` is OMISSION
 (no artifact, no documented skip). Run it or waive it with a reason before Phase 13."
@@ -1859,6 +1893,7 @@ These are cross-cutting constraints that apply regardless of phase. Phase-specif
 - **Hypothesis registry always updated** — new hypothesis/speculation/prediction/open-question → `hypothesis-registry.typ`
 - **Scrape registry checked** before scraping any URL
 - **Build must pass** — do not declare completion if `nix build` fails
+- **Full-text PDFs are filed** — every included paper's PDF lives at `Literature/<category>/<BibKey>/<BibKey>.pdf` (folder == stem == bib key); BrowserOS neo is the fallback when curl/PMC hits a bot challenge; abstract-only is allowed only with a recorded per-paper unavailability reason
 - **Queue persistence** — all queued topics written to `ops/queued-topics.md`; survives context rotation
 - **Non-specialist consequence required** — every `#hypothesis-box`, `#fhypothesis`, `#speculation`, `#synthesis`, `#achievement`, `#clinical-finding`, `#prediction`, `#open-question`, and `#limitation` must carry a `*Consequence:*` field translating why the finding matters in language an educated non-specialist can grasp. This is translation of significance — scientific precision is preserved, not diluted. If the finding has zero current practical consequence, that is the honest answer.
 - **Tree-mode discipline** — run the Working-Tree State Check first; never use `git add -A`, and in MIXED/CONCURRENT mode never scope phases by `git diff` (use explicit plan file lists); use scratch-pointer checkpoints (not shared-branch WIP commits); NEVER `git reset`/`rebase`/`--amend`/squash/force-push — history rewriting has dropped parallel cycles' work; ask before any destructive-looking git step
