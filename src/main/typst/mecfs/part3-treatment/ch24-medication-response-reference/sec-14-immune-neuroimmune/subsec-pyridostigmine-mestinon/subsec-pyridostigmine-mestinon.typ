@@ -32,6 +32,16 @@ Non-response does not exclude autonomic dysfunction. Pyridostigmine can only pot
 - Pyridostigmine + fludrocortisone/midodrine → multi-mechanism preload failure (ganglionic + volume + vasoconstriction). Meta-analysis: combined therapy −6.74 mmHg systolic drop (p \< 0.05) @Pavic2025pyridostigmine.
 - Pyridostigmine does not work + ivabradine works → insufficient ganglionic reserve; excessive sinus node automaticity or inadequate parasympathetic restraint predominates.
 
+==== Handgrip recovery as a transmission probe
+
+Repeated-grip testing offers a second, independent read of the same cholinergic mechanism. If part of the two-session handgrip deficit is use-dependent transmission failure, then pyridostigmine should improve the *recovery ratio* more than it improves maximal single-grip force (@oq:handgrip-treatment-probes). A force-versus-ratio dissociation would point to transmission or perfusion; a rise in both would be indistinguishable from a general effort or arousal effect.
+
+#finding(claim: [Use-dependent transmission limitation contributed to the grip deficit], explanation: [The recovery ratio (mean force session 2 / session 1) improves while maximal single-grip force changes little. Force maintenance across ten maximal grips depends on sustained endplate transmission more than a single maximal effort does, so a selective ratio effect localises the limitation to transmission rather than to muscle bulk or global effort.], certainty: [Low — inference from the autonomic trial literature; no ME/CFS trial has used handgrip recovery as an endpoint.], dntu: [whether the effect is nicotinic (endplate, ganglionic) or muscarinic (peripheral vasodilation improving delivery).], action: [Supports an extended trial with a pre-registered handgrip recovery endpoint; does not change current prescribing.], level: [Research probe — not a clinical recommendation.])
+
+#finding(claim: [The grip deficit was not transmission-limited], explanation: [Maximal force and recovery ratio are unchanged, or both rise together. A joint rise is compatible with improved general condition, arousal, or effort and cannot be attributed to the endplate.], certainty: [Low.], action: [Shifts the differential toward muscle energetics, microvascular delivery, or central drive (@oq:handgrip-peripheral-vs-central); does not exclude autonomic benefit on other endpoints.], level: [Research probe.])
+
+*Caveats.* Handgrip recovery has never been measured in a pyridostigmine trial; within-patient reliability and minimal detectable change are unstudied in ME/CFS; and the same drug affects vascular tone, so a positive result cannot separate nicotinic from muscarinic action. Certainty: Low. The full cascade trace is retained in the integration record for this cycle (Phase 5d), not in the book.
+
 ==== Compendium
 
 The full pharmacodiagnostic entry — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — is at @ch:mechanistic-cascade-tracing (sec-12, Pyridostigmine entry).
