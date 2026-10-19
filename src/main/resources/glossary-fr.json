@@ -14639,5 +14639,95 @@
     "category": null,
     "definition": "Amas d'antigènes liés par des anticorps. Les complexes immuns IgG multivalents sont la forme qui pontent les récepteurs Fcγ des mastocytes et d'autres cellules immunitaires.",
     "synonyms": []
+  },
+  "WM": {
+    "label": "WM",
+    "category": "measurement",
+    "definition": "Mémoire de travail : le système à capacité limitée qui maintient et manipule temporairement les informations nécessaires au raisonnement, à l'apprentissage et aux tâches complexes. Elle dépend d'une activité préfrontale soutenue et fait partie des premières fonctions à se dégrader lorsque l'énergie cérébrale est limitée.",
+    "synonyms": []
+  },
+  "working memory": {
+    "label": "working memory",
+    "category": "measurement",
+    "definition": "Le système cognitif à capacité limitée qui stocke et manipule temporairement les informations pour le raisonnement, la compréhension et l'apprentissage. Il est coûteux en énergie car il exige une activité préfrontale continue.",
+    "synonyms": []
+  },
+  "actigraphy": {
+    "label": "actigraphy",
+    "category": "method",
+    "definition": "Mesure objective du mouvement à l'aide d'un accéléromètre porté sur le corps, généralement au poignet ou à la cheville. Utilisée en recherche sur le TDAH pour quantifier l'activité motrice globale pendant les tâches cognitives.",
+    "synonyms": []
+  },
+  "delay aversion": {
+    "label": "delay aversion",
+    "category": "concept",
+    "definition": "Modèle motivationnel du TDAH selon lequel l'hyperactivité et l'impulsivité reflètent des tentatives d'échapper à une attente aversive ou de l'éviter. C'est une explication concurrente de l'hyperactivité, à côté du modèle de compensation de l'éveil.",
+    "synonyms": []
+  },
+  "state regulation": {
+    "label": "state regulation",
+    "category": "concept",
+    "definition": "Capacité à maintenir un niveau d'activation/éveil adapté à la tâche sous des exigences variables (par exemple des rythmes d'événements très rapides ou très lents). Les difficultés de régulation de l'état sont proposées comme l'un des mécanismes de la variabilité des performances liée au TDAH.",
+    "synonyms": []
+  },
+  "creatine": {
+    "label": "creatine",
+    "category": "supplement",
+    "definition": "Composé qui tamponne l'énergie cellulaire en régénérant l'ATP à partir de la phosphocréatine. Dans le cerveau, la phosphocréatine tamponne les besoins énergétiques élevés et brefs de la mémoire de travail ; une déplétion cérébrale en créatine a été rapportée dans l'EM/SFC par spectroscopie par résonance magnétique.",
+    "synonyms": []
+  },
+  "noradrenaline": {
+    "label": "noradrenaline",
+    "category": "neurotransmitter",
+    "definition": "Autre nom de la norépinéphrine : un neurotransmetteur catécholaminergique qui favorise l'éveil, la vigilance et la réponse au stress. Une signalisation noradrénergique centrale réduite contribue à la fatigue et au ralentissement cognitif.",
+    "synonyms": []
+  },
+  "AD(H)D": {
+    "label": "AD(H)D",
+    "category": "condition",
+    "definition": "Variante orthographique du TDAH (trouble du déficit de l'attention avec ou sans hyperactivité) utilisée dans certaines publications pour rendre la composante hyperactive facultative : trouble déficitaire de l'attention avec ou sans hyperactivité.",
+    "synonyms": []
+  },
+  "CSA": {
+    "label": "CSA",
+    "category": "measurement",
+    "definition": "Surface d'une coupe musculaire perpendiculaire à son axe court, mesurée par échographie, tomodensitométrie ou IRM. Utilisée comme approximation de la taille du muscle pour juger si une faiblesse reflète moins de muscle ou une force réduite par unité de muscle.",
+    "synonyms": []
+  },
+  "FSS": {
+    "label": "FSS",
+    "category": "measurement",
+    "definition": "Questionnaire d'auto-évaluation à neuf items notant à quel point la fatigue interfère avec les activités quotidiennes, de 1 (pas du tout d'accord) à 7 (tout à fait d'accord). Largement utilisé dans l'EM/SFC et la sclérose en plaques ; il mesure la fatigue perçue, pas la performance.",
+    "synonyms": []
+  },
+  "ICAM-1": {
+    "label": "ICAM-1",
+    "category": "protein",
+    "definition": "Molécule d'adhésion intercellulaire 1 : une protéine de surface des cellules endothéliales et immunitaires qui médie l'adhésion et la transmigration des leucocytes. Un ICAM-1 soluble élevé est un marqueur d'activation endothéliale.",
+    "synonyms": []
+  },
+  "MVC": {
+    "label": "MVC",
+    "category": "measurement",
+    "definition": "La plus grande force qu'une personne peut produire lors d'un effort maximal délibéré unique. Référence par rapport à laquelle la fatigabilité est exprimée : une baisse au fil de MVC répétées est la définition standard en laboratoire de la fatigue musculaire.",
+    "synonyms": []
+  },
+  "PCS": {
+    "label": "PCS",
+    "category": "condition",
+    "definition": "Syndrome post-COVID, aussi appelé COVID long : symptômes persistants ou nouveaux plus de 12 semaines après l'infection par le SARS-CoV-2. Un sous-groupe substantiel répond aux critères de l'EM/SFC. À ne pas confondre avec le résumé de la composante physique du SF-12, également abrégé PCS.",
+    "synonyms": []
+  },
+  "SF-12": {
+    "label": "SF-12",
+    "category": "measurement",
+    "definition": "Enquête de santé en 12 items rapportée par le patient, produisant un résumé de la composante physique (PCS) et un résumé de la composante mentale (MCS). Utilisée pour quantifier l'incapacité fonctionnelle dans les cohortes d'EM/SFC.",
+    "synonyms": []
+  },
+  "Handgrip strength": {
+    "label": "Handgrip strength",
+    "category": "measurement",
+    "definition": "La force produite en serrant un dynamomètre à main. Mesurée de façon répétée lors de deux séances, elle fournit une force absolue, un ratio de fatigabilité intra-séance et un ratio de récupération entre séances ; dans l'EM/SFC, elle sert de mesure fonctionnelle et de gravité, pas de test diagnostique.",
+    "synonyms": []
   }
 }

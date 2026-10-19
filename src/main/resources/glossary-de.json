@@ -14404,5 +14404,95 @@
     "category": null,
     "definition": "Ein Cluster aus Antigen und gebundenem Antikörper. Multivalente IgG-Immunkomplexe sind die Form, die Fcγ-Rezeptoren auf Mastzellen und anderen Immunzellen quervernetzt.",
     "synonyms": []
+  },
+  "WM": {
+    "label": "WM",
+    "category": "measurement",
+    "definition": "Arbeitsgedächtnis: das kapazitätsbegrenzte System, das Informationen für Schlussfolgern, Lernen und komplexe Aufgaben kurzzeitig hält und bearbeitet. Es hängt von anhaltender präfrontaler Aktivität ab und gehört zu den ersten Funktionen, die bei begrenzter Hirnenergie nachlassen.",
+    "synonyms": []
+  },
+  "working memory": {
+    "label": "working memory",
+    "category": "measurement",
+    "definition": "Das kapazitätsbegrenzte kognitive System, das Informationen für Schlussfolgern, Verstehen und Lernen kurzzeitig speichert und bearbeitet. Es ist energetisch teuer, weil es kontinuierliche präfrontale Aktivität erfordert.",
+    "synonyms": []
+  },
+  "actigraphy": {
+    "label": "actigraphy",
+    "category": "method",
+    "definition": "Objektive Messung der Bewegung mit einem am Körper getragenen Beschleunigungsmesser, meist am Handgelenk oder Knöchel. Wird in der ADHS-Forschung genutzt, um die grobmotorische Aktivität während kognitiver Aufgaben zu quantifizieren.",
+    "synonyms": []
+  },
+  "delay aversion": {
+    "label": "delay aversion",
+    "category": "concept",
+    "definition": "Ein motivationales ADHS-Modell, in dem Überaktivität und Impulsivität als Versuche gelten, aversives Warten zu vermeiden oder ihm zu entkommen. Es ist eine konkurrierende Erklärung der Hyperaktivität neben dem Modell der Arousal-Kompensation.",
+    "synonyms": []
+  },
+  "state regulation": {
+    "label": "state regulation",
+    "category": "concept",
+    "definition": "Die Fähigkeit, unter wechselnden Aufgabenanforderungen (z. B. sehr schnelle oder sehr langsame Ereignisraten) ein aufgabenangemessenes Aktivierungs-/Arousalniveau zu halten. Schwierigkeiten mit der Zustandsregulation gelten als ein Mechanismus der ADHS-bedingten Leistungsvariabilität.",
+    "synonyms": []
+  },
+  "creatine": {
+    "label": "creatine",
+    "category": "supplement",
+    "definition": "Eine Verbindung, die zelluläre Energie puffert, indem sie ATP aus Phosphokreatin regeneriert. Im Gehirn puffert Phosphokreatin den hohen kurzzeitigen Energiebedarf des Arbeitsgedächtnisses; ein zerebraler Kreatinmangel wurde bei ME/CFS mittels Magnetresonanzspektroskopie berichtet.",
+    "synonyms": []
+  },
+  "noradrenaline": {
+    "label": "noradrenaline",
+    "category": "neurotransmitter",
+    "definition": "Alternativname für Noradrenalin: ein Katecholamin-Neurotransmitter, der Wachheit, Aufmerksamkeit und die Stressantwort fördert. Eine verminderte zentrale noradrenerge Signalübertragung trägt zu Fatigue und kognitiver Verlangsamung bei.",
+    "synonyms": []
+  },
+  "AD(H)D": {
+    "label": "AD(H)D",
+    "category": "condition",
+    "definition": "Schreibvariante von ADHS (Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung), die in manchen Publikationen die hyperaktive Komponente optional macht: Aufmerksamkeitsdefizitstörung mit oder ohne Hyperaktivität.",
+    "synonyms": []
+  },
+  "CSA": {
+    "label": "CSA",
+    "category": "measurement",
+    "definition": "Die Fläche eines quer zur kurzen Achse geschnittenen Muskels, gemessen mit Ultraschall, CT oder MRT. Dient als Näherung für die Muskelgröße, wenn beurteilt werden soll, ob eine Schwäche auf weniger Muskel oder auf geringere Kraft pro Muskeleinheit zurückgeht.",
+    "synonyms": []
+  },
+  "FSS": {
+    "label": "FSS",
+    "category": "measurement",
+    "definition": "Ein neun Items umfassender Selbstbeurteilungsfragebogen, der erfasst, wie stark Fatigue Alltagsaktivitäten beeinträchtigt, von 1 (stimme gar nicht zu) bis 7 (stimme völlig zu). Weit verbreitet bei ME/CFS und Multipler Sklerose; er misst wahrgenommene Fatigue, nicht die Leistung.",
+    "synonyms": []
+  },
+  "ICAM-1": {
+    "label": "ICAM-1",
+    "category": "protein",
+    "definition": "Interzelluläres Adhäsionsmolekül 1: ein Oberflächenprotein auf Endothel- und Immunzellen, das Adhäsion und Transmigration von Leukozyten vermittelt. Erhöhtes lösliches ICAM-1 ist ein Marker endothelialer Aktivierung.",
+    "synonyms": []
+  },
+  "MVC": {
+    "label": "MVC",
+    "category": "measurement",
+    "definition": "Die größte Kraft, die eine Person bei einer einzelnen willkürlichen Maximalanstrengung aufbringen kann. Die Bezugsgröße, in der Fatigability ausgedrückt wird: ein Abfall über wiederholte MVCs ist die laborübliche Definition von Muskelermüdung.",
+    "synonyms": []
+  },
+  "PCS": {
+    "label": "PCS",
+    "category": "condition",
+    "definition": "Post-COVID-Syndrom, auch Long COVID genannt: anhaltende oder neue Symptome mehr als 12 Wochen nach SARS-CoV-2-Infektion. Eine erhebliche Untergruppe erfüllt ME/CFS-Kriterien. Nicht zu verwechseln mit der körperlichen Summenskala des SF-12, ebenfalls mit PCS abgekürzt.",
+    "synonyms": []
+  },
+  "SF-12": {
+    "label": "SF-12",
+    "category": "measurement",
+    "definition": "Ein 12 Items umfassender, patientenberichteter Gesundheitsfragebogen, der eine körperliche Summenskala (PCS) und eine psychische Summenskala (MCS) ergibt. Wird zur Quantifizierung funktioneller Beeinträchtigung in ME/CFS-Kohorten verwendet.",
+    "synonyms": []
+  },
+  "Handgrip strength": {
+    "label": "Handgrip strength",
+    "category": "measurement",
+    "definition": "Die Kraft beim Drücken eines Handdynamometers. Wiederholt in zwei Sitzungen gemessen, ergibt sie eine absolute Kraft, ein Fatigue-Verhältnis innerhalb der Sitzung und ein Erholungsverhältnis zwischen den Sitzungen; bei ME/CFS dient sie als Funktions- und Schweregradmaß, nicht als diagnostischer Test.",
+    "synonyms": []
   }
 }
