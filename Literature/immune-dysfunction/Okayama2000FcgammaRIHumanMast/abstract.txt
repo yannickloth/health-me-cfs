@@ -1,0 +1,11 @@
+Title:    Expression of a functional high-affinity IgG receptor, Fc gamma RI, on human mast cells: Up-regulation by IFN-gamma.
+Authors:  Okayama Y, Kirshenbaum AS, Metcalfe DD.
+Journal:  Journal of Immunology. 2000;164(8):4332-4339.
+DOI:      10.4049/jimmunol.164.8.4332
+PMID:     10754333
+URL:      https://pubmed.ncbi.nlm.nih.gov/10754333/
+Retrieved: 2026-10-19
+PDF:      unavailable — OUP/aai.org Cloudflare bot challenge (no PMC deposit; Unpaywall lists an aai.org OA copy that is bot-gated)
+
+ABSTRACT
+Biologically relevant activation of human mast cells through Fc receptors is believed to occur primarily through the high-affinity IgE receptor Fc epsilon RI. However, the demonstration in animal models that allergic reactions do not necessarily require Ag-specific IgE, nor the presence of a functional IgE receptor, and the clinical occurrence of some allergic reactions in situations where Ag-specific IgE appears to be lacking, led us to examine the hypothesis that human mast cells might express the high-affinity IgG receptor Fc gamma RI and in turn be activated through aggregation of this receptor. We thus first determined by RT-PCR that resting human mast cells exhibit minimal message for Fc gamma RI. We next found that IFN-gamma up-regulated the expression of Fc gamma RI. This was confirmed by flow cytometry, where Fc gamma RI expression on human mast cells was increased from approximately 2 to 44% by IFN-gamma exposure. Fc epsilon RI, Fc gamma RII, and Fc gamma RIII expression was not affected. Scatchard plots were consisted with these data where the average binding sites for monomeric IgG1 (Ka = 4-5 x 108 M-1) increased from approximately 2,400 to 12,100-17,300 per cell. Aggregation of Fc gamma RI on human mast cells, and only after IFN-gamma exposure, led to significant degranulation as evidenced by histamine release (24.5 +/- 4.4%): and up-regulation of mRNA expression for specific cytokines including TNF-alpha, GM-CSF, IL-3 and IL-13. These findings thus suggest another mechanism by which human mast cells may be recruited into the inflammatory processes associated with some immunologic and infectious diseases.

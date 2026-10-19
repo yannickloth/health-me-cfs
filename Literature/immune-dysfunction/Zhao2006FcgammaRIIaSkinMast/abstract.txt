@@ -1,0 +1,12 @@
+Title:    Fc gamma RIIa, not Fc gamma RIIb, is constitutively and functionally expressed on skin-derived human mast cells.
+Authors:  Zhao W, Kepley CL, Morel PA, Okumoto LM, Fukuoka Y, Schwartz LB.
+Journal:  Journal of Immunology. 2006;177(1):694-701.
+DOI:      10.4049/jimmunol.177.1.694
+PMID:     16785568
+PMCID:    PMC2176083
+URL:      https://pubmed.ncbi.nlm.nih.gov/16785568/
+Retrieved: 2026-10-19
+PDF:      unavailable — PMC deposit is not served as downloadable PDF; aai.org copy is bot-gated
+
+ABSTRACT (truncated in retrieved record)
+The expression of FcgammaR by human skin-derived mast cells of the MC(TC) type was determined in the current study. Expression of mRNA was analyzed with microarray gene chips and RT-PCR; protein by Western blotting and flow cytometry; function by release of beta-hexosaminidase, PGD(2), leukotriene C(4) (LTC(4)), IL-5, IL-6, IL-13, GM-CSF, and TNF-alpha. FcgammaRIIa was consistently detected along with FcepsilonRI at the mRNA and protein levels; FcgammaRIIc was sometimes detected only by RT-PCR; but FcgammaRIIb, FcgammaRI, and FcgammaRIII mRNA and protein were not detected. FcgammaRIIa-specific mAb caused skin MC(TC) cells to degranulate and secrete PGD(2), LTC(4), GM-CSF, IL-5, IL-6, IL-13, and TNF-alpha in a dose-dependent fashion. FcepsilonRI-specific mAb caused similar amounts of each mediator to be released with the exception of LTC(4), which was not released by this agonist. Simultaneous but independent cross-linking of FcepsilonRI and FcgammaRIIa did not substantially alter mediator release above or below levels observed with each agent alone. Skin MC(TC) cells sensitized with dust-mite-specific IgE and IgG, when coaggregated by Der p2, exhibited enhanced degranulation compar... [record truncated]

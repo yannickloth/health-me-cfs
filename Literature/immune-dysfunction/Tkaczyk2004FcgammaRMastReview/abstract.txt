@@ -1,0 +1,11 @@
+Title:    Fcgamma receptors on mast cells: activatory and inhibitory regulation of mediator release.
+Authors:  Tkaczyk C, Okayama Y, Metcalfe DD, Gilfillan AM.
+Journal:  International Archives of Allergy and Immunology. 2004;133(3):305-315.
+DOI:      10.1159/000077213
+PMID:     15017113
+URL:      https://pubmed.ncbi.nlm.nih.gov/15017113/
+Retrieved: 2026-10-19
+PDF:      unavailable — Karger paywall, no open-access version (Unpaywall is_oa = false)
+
+ABSTRACT
+Mast cell activation and subsequent release of proinflammatory mediators are primarily a consequence of aggregation of the high affinity receptors for IgE (FcepsilonRI) on the mast cell surface following antigen-dependent ligation of FcepsilonRI-bound IgE. However, data obtained from rodent and human mast cells have revealed that IgG receptors (FcgammaR) can both promote and inhibit mast cell activation. These responses appear to be species and/or mast cell phenotype dependent. In CD34+-derived human mast cells exposed to interferon-gamma, FcgammaRI is upregulated, FcgammaRII is expressed but not upregulated, and FcgammaRIII is not expressed. In contrast, in mouse mast cells, FcgammaRII and FcgammaRIII receptors are expressed, whereas FcgammaRI is not. Aggregation of FcgammaRI on human mast cells promotes mediator release in a manner generally similar to that observed following FcepsilonRI aggregation. Aggregation of FcgammaRIIb in mouse mast cells fails to influence cellular processes; however, when coligated with FcepsilonRI, signaling events thus activated downregulate antigen-dependent mediator release. These divergent responses are a consequence of different motifs contained within the cytosolic tails of the signaling subunits of these receptors and the specific signaling molecules recruited by these receptors following ligation. The studies described imply that data obtained in rodent models regarding the influence of FcgammaRs on mast cells may not be directly translatable to the human. The exploitation of FcgammaRs for a potential therapy for the treatment of allergic disorders is discussed in this context.

@@ -1,0 +1,11 @@
+Title:    Tissue-Specific Expression of the Low-Affinity IgG Receptor, FcgammaRIIb, on Human Mast Cells.
+Authors:  Burton OT, Epp A, Fanny ME, Miller SJ, Stranks AJ, Teague JE, Clark RA, van de Rijn M, Oettgen HC.
+Journal:  Frontiers in Immunology. 2018;9:1244.
+DOI:      10.3389/fimmu.2018.01244
+PMID:     29928276
+URL:      https://pubmed.ncbi.nlm.nih.gov/29928276/
+Retrieved: 2026-10-19
+PDF:      FILED — Burton2018FcgammaRIIbTissueMast.pdf (22 pp, open access)
+
+ABSTRACT (truncated in this record; full text on file)
+Immediate hypersensitivity reactions are induced by the interaction of allergens with specific IgE antibodies bound via FcεRI to mast cells and basophils. While these specific IgE antibodies are needed to trigger such reactions, not all individuals harboring IgE exhibit symptoms of allergy. The lack of responsiveness seen in some subjects correlates with the presence of IgG antibodies of the same specificity. In cell culture studies and in vivo animal models of food allergy and anaphylaxis such IgG antibodies have been shown to exert suppression via FcγRIIb. However, the reported absence of this inhibitory receptor on primary mast cells derived from human skin has raised questions about the role of IgG-mediated inhibition of immediate hypersensitivity in human subjects. Here, we tested the hypothesis that mast cell FcγRIIb expression might be tissue specific. Utilizing a combination of flow cytometry, quantitative PCR, and immunofluorescence staining of mast cells derived from the tissues of humanized mice, human skin, or in fixed paraffin-embedded sections of human tissues, we confirm that FcγRIIb is absent from dermal mast cells but is expressed by mast cells throughout the gastrointestinal tract. IgE-induced systemic anaphylaxi... [record truncated]

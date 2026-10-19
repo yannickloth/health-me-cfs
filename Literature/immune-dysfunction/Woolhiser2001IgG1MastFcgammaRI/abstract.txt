@@ -1,0 +1,11 @@
+Title:    IgG-dependent activation of human mast cells following up-regulation of FcgammaRI by IFN-gamma.
+Authors:  Woolhiser MR, Okayama Y, Gilfillan AM, Metcalfe DD.
+Journal:  European Journal of Immunology. 2001;31(11):3298-3307.
+DOI:      10.1002/1521-4141(200111)31:11<3298::aid-immu3298>3.0.co;2-u
+PMID:     11745347
+URL:      https://pubmed.ncbi.nlm.nih.gov/11745347/
+Retrieved: 2026-10-19
+PDF:      unavailable — Wiley paywall, no open-access version (Unpaywall is_oa = false)
+
+ABSTRACT
+It has been reported that FcgammaRI is up-regulated on human mast cells (huMC) by IFN-gamma and aggregation of this receptor using mouse F(ab')(2) specific for receptor-bound, mouse anti-CD64 F(ab')(2) results in activation. To determine whether huMC can similarly be stimulated by aggregation of FcgammaRI-bound human IgG, IFN-gamma-treated, CD34(+)-derived, cultured huMC were sensitized with human immunoglobulins and activation was evaluated following addition of antibodies specific for each IgG isotype. Degranulation was also examined following simultaneous IgG- and IgE-dependent aggregation of FcgammaRI and Fc(epsilon)RI. Activation of IFN-gamma-treated huMC sensitized with 100 ng/ml IgG(1) resulted in 40% beta-hexosaminidase (beta-hex) release; minimal degranulation was observed using IgG(2), IgG(3) or IgG(4). IgG(1)-dependent activation led to PGD(2) and LTC(4) generation as well as elevated cytokine production, most notably TNF-alpha. Preincubation of cells with F(ab')(2) from CD64-specific clones 10.1 and 32.2 reduced IgG(1)-mediated beta-hex release by 46% and 74%, respectively. While IgG-dependent cell stimulation induced half-maximal degranulation by 11 min, IgE-dependent activation resulted in half maximal responses within 1 min. Simultaneous activation of huMC via FcgammaRI and Fc(epsilon)RI led to additive degranulation using suboptimal concentrations of IgG(1) and IgE. Activation of huMC thus may occur via monomeric IgG and FcgammaRI thereby providing a novel paradigm for huMC recruitment into inflammation.
