@@ -49,6 +49,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 
 | Topic slug            | Subtree file                                                          | Brainstorm date | Root ideas | Integrated | Status         |
 |-----------------------|-----------------------------------------------------------------------|-----------------|------------|------------|----------------|
+| igg-fcgammar-mast-cell | [subtrees/igg-fcgammar-mast-cell.md](subtrees/igg-fcgammar-mast-cell.md) | 2026-10-19 | 17 | 0 | 🔵 in progress |
 | handgrip-strength-fatigability-mecfs | [subtrees/handgrip-strength-fatigability-mecfs.md](subtrees/handgrip-strength-fatigability-mecfs.md) | 2026-10-18 | 26 | 16 | ✅ done |
 | adhd-movement-arousal-energy | [subtrees/adhd-movement-arousal-energy.md](subtrees/adhd-movement-arousal-energy.md) | 2026-10-15 | 13 | 0 | ⬜ pending |
 | bakken2026-recovery-conceivable | [subtrees/bakken2026-recovery-conceivable.md](subtrees/bakken2026-recovery-conceivable.md) | 2026-10-11 | 28 | 5 | ✅ done |
