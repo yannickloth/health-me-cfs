@@ -99,12 +99,18 @@ Deliberately NOT changed: `ch16-comparative-nosology.typ` four-pathway list (foo
 FcRn-antagonist ideas rest entirely on in-vitro immunology with **zero human ME/CFS evidence**.
 No ch24 differential entry is written. The ideas remain in the brainstorm backlog.
 
+*User decision 2026-10-19:* 5c skip accepted. No waiver is requested or recorded — the
+earlier "full integration including drug chapters" instruction is superseded by this
+acceptance, so the gate stands as written.
+
 ## Phase 5d — Pathway-to-drug tracing: RAN, ops-only
 
 `SKILL.md:791` — certainty 0.10–0.29 → *"Do NOT write to chapter — ops-only. Tag trace:
 speculative — below chapter integration threshold (cert < 0.30)."* Mechanism certainty is
 0.16. Trace written to `ops/integration-guides/pathway-drug-trace-igg-fcgammar-mast-cell.md`.
 No ch25 cascade file, no sec-12 entry.
+
+*User decision 2026-10-19:* 5d ops-only accepted. No waiver is requested or recorded.
 
 ---
 
