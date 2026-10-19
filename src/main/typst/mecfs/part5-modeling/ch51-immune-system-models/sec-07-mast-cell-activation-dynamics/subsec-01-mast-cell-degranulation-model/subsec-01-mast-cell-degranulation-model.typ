@@ -10,5 +10,5 @@ frac(d upright("MC")_p, d t) &= k_(upright("prime"))(bold(S)_(upright("MC"))) do
 frac(d upright("MC")_d, d t) &= k_(upright("degran"))(bold(T)_(upright("MC"))) dot.op upright("MC")_p - k_(upright("restab")) dot.op upright("MC")_d
 $ <eq:mast-cell-dynamics>
 
-where $s_(upright("MC"))$ is the tissue replenishment rate, $k_(upright("prime"))(bold(S)_(upright("MC")))$ is the priming rate driven by signals $bold(S)_(upright("MC"))$ (IgE, complement C3a/C5a, SCF), $k_(upright("degran"))(bold(T)_(upright("MC")))$ is the degranulation trigger rate driven by stimuli $bold(T)_(upright("MC"))$ (mechanical stress, temperature, exercise, neuropeptides), and $k_(upright("restab"))$ is the restabilization rate.
+where $s_(upright("MC"))$ is the tissue replenishment rate, $k_(upright("prime"))(bold(S)_(upright("MC")))$ is the priming rate driven by signals $bold(S)_(upright("MC"))$ (IgE, IgG immune complexes, complement C3a/C5a, SCF), $k_(upright("degran"))(bold(T)_(upright("MC")))$ is the degranulation trigger rate driven by stimuli $bold(T)_(upright("MC"))$ (mechanical stress, temperature, exercise, neuropeptides), and $k_(upright("restab"))$ is the restabilization rate. IgG immune complexes add an IgE-independent activation input to human mast cells @Woolhiser2001IgG1MastFcgammaRI @Zhao2006FcgammaRIIaSkinMast.
 

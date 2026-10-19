@@ -25321,6 +25321,83 @@ This section reviews biomechanical literature on rowing ergometer physics, speci
     *Limitations:*: Mouse model; LAD2 cell line; quercetin has multiple targets (not specific).
     *Certainty:*: 0.60
 
+=== Okayama 2000 — Functional FcγRI on Human Mast Cells
+
+    *Full Citation:*: Okayama Y, Kirshenbaum AS, Metcalfe DD. Expression of a functional high-affinity IgG receptor, Fc gamma RI, on human mast cells: Up-regulation by IFN-gamma. _J Immunol_. 2000;164(8):4332-4339. @Okayama2000FcgammaRIHumanMast
+    *DOI:*: #link("https://doi.org/10.4049/jimmunol.164.8.4332")[10.4049/jimmunol.164.8.4332]
+    *PMID:*: 10754333
+    *Published:*: 2000
+    *Study Design:*: In vitro; CD34#super[+]-derived human mast cells; RT-PCR, flow cytometry, Scatchard binding, histamine release
+    *Key Findings:*:
+        - Resting human mast cells carry minimal FcγRI message; IFN-γ up-regulates surface FcγRI from ~2% to ~44%
+        - Monomeric IgG1 binding sites rise from ~2,400 to 12,100--17,300 per cell; FcεRI, FcγRII and FcγRIII unchanged
+        - FcγRI aggregation (only after IFN-γ) triggers histamine release (24.5 ± 4.4%) and up-regulates TNF-α, GM-CSF, IL-3, IL-13 mRNA
+    *Conclusion:*: Human mast cells can be activated through the high-affinity IgG receptor FcγRI, independently of IgE.
+    *Limitations:*: In vitro (cultured mast cells); no ME/CFS cells. FcγRI expression requires IFN-γ conditioning.
+    *Certainty:*: 0.40 (in-vitro tier cap; ME/CFS population-relevance discount not applied --- general immunology)
+
+=== Woolhiser 2001 — IgG1-Dependent Activation of Human Mast Cells
+
+    *Full Citation:*: Woolhiser MR, Okayama Y, Gilfillan AM, Metcalfe DD. IgG-dependent activation of human mast cells following up-regulation of FcgammaRI by IFN-gamma. _Eur J Immunol_. 2001;31(11):3298-3307. @Woolhiser2001IgG1MastFcgammaRI
+    *DOI:*: #link("https://doi.org/10.1002/1521-4141(200111)31:11<3298::aid-immu3298>3.0.co;2-u")[10.1002/1521-4141(200111)31:11\<3298::aid-immu3298\>3.0.co;2-u]
+    *PMID:*: 11745347
+    *Published:*: 2001
+    *Study Design:*: In vitro; IFN-γ-treated CD34#super[+]-derived human mast cells; β-hexosaminidase, PGD#sub[2], LTC#sub[4] and cytokine assays
+    *Key Findings:*:
+        - IgG1 (100 ng/ml) produced 40% β-hexosaminidase release; IgG2, IgG3 and IgG4 produced minimal release
+        - IgG1-dependent activation generated PGD#sub[2] and LTC#sub[4] and raised cytokine output (most notably TNF-α)
+        - Anti-CD64 F(ab')#sub[2] reduced IgG1-mediated release by 46--74%
+        - IgG-driven degranulation was slower than IgE-driven (half-maximal 11 min vs 1 min); combined FcγRI + FcεRI activation was additive
+    *Conclusion:*: Human IgG1 is the dominant isotype for FcγRI-mediated mast cell activation, and this route adds to IgE-driven activation.
+    *Limitations:*: In vitro; IgG2--4 largely inactive, so isotype composition governs the response; no ME/CFS cells.
+    *Certainty:*: 0.40 (in-vitro tier cap)
+
+=== Zhao 2006 — Constitutive Activating FcγRIIa on Skin Mast Cells
+
+    *Full Citation:*: Zhao W, Kepley CL, Morel PA, Okumoto LM, Fukuoka Y, Schwartz LB. FcγRIIa, not FcγRIIb, is constitutively and functionally expressed on skin-derived human mast cells. _J Immunol_. 2006;177(1):694-701. @Zhao2006FcgammaRIIaSkinMast
+    *DOI:*: #link("https://doi.org/10.4049/jimmunol.177.1.694")[10.4049/jimmunol.177.1.694]
+    *PMID:*: 16785568
+    *PMCID:*: PMC2176083
+    *Published:*: 2006
+    *Study Design:*: In vitro; skin-derived human MC#sub[TC]; microarray, RT-PCR, Western blot, flow cytometry, mediator release
+    *Key Findings:*:
+        - Skin MC#sub[TC] constitutively express activating FcγRIIa (CD32a) alongside FcεRI; FcγRI, FcγRIIb and FcγRIII were not detected
+        - FcγRIIa cross-linking caused degranulation and release of PGD#sub[2], LTC#sub[4], GM-CSF, IL-5, IL-6, IL-13 and TNF-α
+        - Co-aggregation of antigen-specific IgE and IgG by Der p2 enhanced degranulation
+    *Conclusion:*: Skin mast cells carry a constitutive, IFN-γ-independent IgG activation receptor (FcγRIIa); IgG can amplify IgE-driven skin mast cell activation.
+    *Limitations:*: Skin-derived cells only; in vitro; healthy donors.
+    *Certainty:*: 0.40 (in-vitro tier cap)
+
+=== Burton 2018 — Tissue-Specific FcγRIIb on Human Mast Cells
+
+    *Full Citation:*: Burton OT, Epp A, Fanny ME, et al. Tissue-Specific Expression of the Low-Affinity IgG Receptor, FcγRIIb, on Human Mast Cells. _Front Immunol_. 2018;9:1244. @Burton2018FcgammaRIIbTissueMast
+    *DOI:*: #link("https://doi.org/10.3389/fimmu.2018.01244")[10.3389/fimmu.2018.01244]
+    *PMID:*: 29928276
+    *Published:*: 2018
+    *Study Design:*: Humanized-mouse and human tissue mast cells; flow cytometry, qPCR, immunofluorescence
+    *Key Findings:*:
+        - The inhibitory IgG receptor FcγRIIb is absent from dermal mast cells but present on mast cells in other human tissues
+        - FcγRIIb expression is tissue-specific rather than a fixed property of human mast cells
+    *Conclusion:*: IgG has tissue-dependent net effects on mast cells --- activating where FcγRIIb is absent (e.g. skin), potentially inhibitory where it is present.
+    *Limitations:*: Expression-level study; the functional consequence in each tissue is inferred, not measured in vivo in humans.
+    *Certainty:*: 0.40 (in-vitro / humanized-model tier cap)
+
+=== Tkaczyk 2004 — Fcγ Receptors on Mast Cells: Activatory and Inhibitory Regulation
+
+    *Full Citation:*: Tkaczyk C, Okayama Y, Metcalfe DD, Gilfillan AM. Fcgamma receptors on mast cells: activatory and inhibitory regulation of mediator release. _Int Arch Allergy Immunol_. 2004;133(3):305-315. @Tkaczyk2004FcgammaRMastReview
+    *DOI:*: #link("https://doi.org/10.1159/000077213")[10.1159/000077213]
+    *PMID:*: 15017113
+    *Published:*: 2004
+    *Study Design:*: Review (rodent and human mast cell data)
+    *Key Findings:*:
+        - Human mast cells express FcγRI (IFN-γ-up-regulated) and FcγRII but not FcγRIII; mouse mast cells express FcγRII/III but not FcγRI
+        - Human FcγRI aggregation promotes mediator release broadly similar to FcεRI activation
+        - Mouse FcγRIIb is inhibitory and down-regulates IgE-dependent release when co-ligated
+        - FcγR responses are species- and phenotype-dependent --- rodent data may not translate to humans
+    *Conclusion:*: IgG receptors both promote and inhibit mast cell mediator release; the net effect depends on species, mast cell phenotype and which receptor is engaged.
+    *Limitations:*: Narrative review; 2004 vintage; no ME/CFS data.
+    *Certainty:*: 0.50 (narrative-review tier cap)
+
 // =============================================================================
 
 == Stigmatisation in ME/CFS
