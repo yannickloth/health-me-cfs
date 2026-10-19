@@ -12737,8 +12737,7 @@
     "label": "AD(H)D",
     "category": "condition",
     "definition": "Variant spelling of ADHD (Attention-Deficit/Hyperactivity Disorder) used in some literature to make the hyperactive component optional: attention-deficit disorder with or without hyperactivity."
-  }
-,
+  },
   "JAK-STAT": {
     "label": "JAK-STAT pathway",
     "category": "pathway",
@@ -12788,4 +12787,60 @@
     "label": "Handgrip strength",
     "category": "measurement",
     "definition": "The force produced by squeezing a handheld dynamometer. Measured repeatedly in two sessions, it yields absolute force, a within-session fatigue ratio, and a between-session recovery ratio; in ME/CFS it is used as a functional and severity measure, not as a diagnostic test."
-  }}
+  },
+  "FcγRI": {
+    "label": "FcγRI",
+    "category": "receptor",
+    "definition": "High-affinity IgG receptor (CD64). Resting human mast cells carry it on only about 2% of cells; interferon-gamma (IFN-γ) raises this to about 44%, after which IgG immune complexes can trigger mast cell degranulation without IgE."
+  },
+  "FcγRIIA": {
+    "label": "FcγRIIA",
+    "category": "receptor",
+    "definition": "Activating low-affinity IgG receptor (CD32a). It is constitutively expressed on skin-derived human mast cells, so IgG can activate them without prior IFN-γ priming. Human mast cells lack the rodent FcγRIII route."
+  },
+  "FcγRIIB": {
+    "label": "FcγRIIB",
+    "category": "receptor",
+    "definition": "Inhibitory low-affinity IgG receptor (CD32b). It is present on gastrointestinal mast cells but absent from dermal mast cells, so the same IgG signal can activate mast cells in skin and damp them in the gut."
+  },
+  "FcεRI": {
+    "label": "FcεRI",
+    "category": "receptor",
+    "definition": "High-affinity IgE receptor on mast cells and basophils. Cross-linking by IgE-allergen complexes, or by IgG autoantibodies directed against the receptor itself, triggers degranulation."
+  },
+  "Syk": {
+    "label": "Syk",
+    "category": "enzyme",
+    "definition": "Spleen tyrosine kinase: the kinase that propagates signalling after an IgE or IgG receptor on a mast cell is cross-linked, leading to degranulation and mediator release."
+  },
+  "SCF": {
+    "label": "SCF",
+    "category": "cytokine",
+    "definition": "Stem cell factor (KIT ligand): the growth factor that sustains mast cell survival, proliferation and priming. It is one of the priming inputs in the mast cell activation model."
+  },
+  "LTE4": {
+    "label": "LTE4",
+    "category": "metabolite",
+    "definition": "Leukotriene E4: a stable cysteinyl-leukotriene metabolite formed after mast cell activation and measured in urine as a marker of mast cell mediator release."
+  },
+  "LAD2": {
+    "label": "LAD2",
+    "category": "cell_type",
+    "definition": "A human mast cell line derived from a patient with mastocytosis, widely used in vitro to study mast cell activation, including IgG/FcγR-driven degranulation."
+  },
+  "CD34": {
+    "label": "CD34",
+    "category": "protein",
+    "definition": "A surface marker of haematopoietic progenitor cells. CD34⁺-derived cultured mast cells are the standard human in-vitro model for mast cell function studies."
+  },
+  "β-hexosaminidase": {
+    "label": "β-hexosaminidase",
+    "category": "enzyme",
+    "definition": "A granule enzyme released when mast cells degranulate, commonly used in the laboratory as the readout of degranulation."
+  },
+  "immune complex": {
+    "label": "immune complex",
+    "category": "concept",
+    "definition": "A cluster of antigen bound by antibody. Multivalent IgG immune complexes are the form that cross-links Fcγ receptors on mast cells and other immune cells."
+  }
+}

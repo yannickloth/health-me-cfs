@@ -479,11 +479,63 @@ This registry collects all hypotheses, speculations, open questions, and predict
   certainty: "0.35",
   evidence: [GPCR autoantibodies may directly sensitize mast cells via β2-AR and M3 receptors expressed on mast cells, creating a bidirectional amplification loop.],
   citations: [@Blitshteyn2026Neuroimmune @Blitshteyn2025Neuroinflammation @Okayama2000FcgammaRIHumanMast @Woolhiser2001IgG1MastFcgammaRI],
-  mechanism: [GPCR AAb → mast cell β2-AR desensitization (removing adrenergic brake) + M3 activation (triggering degranulation) — plus a parallel IgG-FcγRI/FcγRIIA immune-complex route → histamine/tryptase release → increased BBB permeability → more AAb CNS access → brainstem neuroinflammation → autonomic dysregulation.],
+  mechanism: [GPCR AAb → mast cell β2-AR desensitization (removing adrenergic brake) + M3 activation (triggering degranulation) — plus a parallel, IFN-γ-gated IgG-FcγRI/FcγRIIA immune-complex route → histamine/tryptase release → increased BBB permeability → more AAb CNS access → brainstem neuroinflammation → autonomic dysregulation.],
   chapter-ref: [ch13: gpcr mast cell loop],
   prediction: [ME/CFS with elevated GPCR AAb and MCAS show correlation between AAb titer and tryptase (r\>0.4). Ex vivo mast cells from AAb+ patients show heightened degranulation to substance P (≥2× histamine release). IA reduces both AAb and tryptase. Falsified if no correlation between AAb and mast cell markers.],
   treatment: [Dual targeting: IA (remove AAb) + mast cell stabilizers (cromolyn, ketotifen) may show synergy. The loop model predicts monotherapy with either is less effective than combination.],
   limitation: [No direct evidence of GPCR AAb binding to mast cells from ME/CFS patients. Direction of β2-AR AAb effect on mast cells unknown. Loop model is hypothesis requiring direct cellular testing.],
+)
+
+#registry-entry(
+  [IFN-γ-Gated FcγRI Opens an IgE-Independent IgG Route to Mast Cell Activation],
+  type: "S",
+  certainty: "0.16",
+  evidence: [Human mast cells express functional FcγRI (CD64) at low basal levels (approximately 2%) that IFN-γ up-regulates to approximately 44%; aggregated FcγRI triggers histamine release plus cytokine mRNA. All evidence is in-vitro from a single laboratory; no ME/CFS cells have been tested.],
+  citations: [@Okayama2000FcgammaRIHumanMast @Woolhiser2001IgG1MastFcgammaRI @Tkaczyk2004FcgammaRMastReview],
+  mechanism: [Early ME/CFS IFN-γ activity → mast cell FcγRI up-regulation → the patient's own IgG1 immune complexes cross-link FcγRI → Syk/PLCγ signalling → degranulation plus eicosanoids and cytokines without IgE → allergic-like symptoms despite normal IgE.],
+  chapter-ref: [ch08: igg mast cell ifn gate],
+  prediction: [Mast cells from ME/CFS patients with elevated plasma IFN-γ show increased surface FcγRI (greater than fivefold versus healthy controls) and degranulate to IgG1 immune complexes (β-hexosaminidase release above 20%); patients without IFN-γ elevation show no such FcγRI up-regulation. Falsified if surface FcγRI does not correlate with plasma IFN-γ (r ≤ 0.2), or if no ME/CFS patient's mast cells respond to IgG1.],
+  treatment: [None actionable. If confirmed, attenuating the IFN-γ arm would attenuate the route — a research question only, since no agent has ME/CFS efficacy evidence for this endpoint.],
+  limitation: [No ME/CFS measurement of mast cell FcγRI exists; the ME/CFS step is analogical. IFN-γ induction was shown in vitro, possibly at supraphysiological doses. Single-laboratory finding, no independent replication. Rodent FcγRIII data do not transfer to human mast cells.],
+)
+
+#registry-entry(
+  [Tissue-Asymmetric FcγRIIB Predicts Compartment-Specific IgG Effects on Mast Cells],
+  type: "S",
+  certainty: "0.16",
+  evidence: [Inhibitory FcγRIIB is absent from dermal mast cells but expressed throughout the gastrointestinal tract, so the net effect of IgG on mast cells has the opposite sign in skin (activating) and gut (neutral/inhibitory). Expression-level study; single independent laboratory.],
+  citations: [@Burton2018FcgammaRIIbTissueMast @Zhao2006FcgammaRIIaSkinMast],
+  mechanism: [Tissue-specific FcγRIIB expression → in skin, IgG immune complexes cross-link activating FcγRIIA without an inhibitory brake → degranulation; in gut, FcγRIIB co-ligation damps the same signal → little net mediator release. Result is symptom topography: the same antibodies produce skin-predominant disease in one patient and gut-predominant disease in another.],
+  chapter-ref: [ch08: fcgriib tissue asymmetry],
+  prediction: [Skin-predominant and gut-predominant MC-overlap ME/CFS patients show opposite net IgG-driven mediator responses in ex-vivo tissue assays. Falsified if FcγRIIB tissue distribution does not alter the functional response to IgG.],
+  treatment: [None actionable. Warns that IgG-depleting or IgG-adding therapies cannot be assumed tissue-neutral — a design consideration for future trials, not a current recommendation.],
+  limitation: [Expression-level study; the functional consequence in each tissue is inferred, not measured in vivo in humans. No ME/CFS tissue examined. Single-laboratory expression finding.],
+)
+
+#registry-entry(
+  [IFN-γ-Gated, Slower IgG Priming Term in the Mast Cell Degranulation Model],
+  type: "S",
+  certainty: "0.16",
+  evidence: [The IgG priming input in the mast cell model is currently flat; biologically, FcγRI availability is IFN-γ-gated (approximately 2% to approximately 44%) and IgG-driven degranulation is slower than IgE-driven (half-maximal approximately 11 min vs approximately 1 min).],
+  citations: [@Okayama2000FcgammaRIHumanMast @Woolhiser2001IgG1MastFcgammaRI @Burton2018FcgammaRIIbTissueMast],
+  mechanism: [Model extension: the flat IgG priming term is replaced by a rate gated by an IFN-γ-dependent FcγRI availability term and damped by tissue FcγRIIB presence, with its own slower time constant than the FcεRI/neuropeptide routes.],
+  chapter-ref: [ch51: mast cell igg gating],
+  prediction: [An IFN-γ pulse produces a delayed, sustained mediator output with time-to-peak \>10 min, distinguishable from the immediate neuropeptide route. Falsified if the IFN-γ-gated term does not materially change model output at physiological IFN-γ concentrations.],
+  treatment: [None. Model-level only; no parameter has been calibrated to ME/CFS, so no treatment inference follows.],
+  limitation: [No ME/CFS parameter estimates exist for the FcγRI availability constants or the slow IgG time constant. The IFN-γ dependence is a single-laboratory in-vitro finding. All other model parameters remain uncalibrated.],
+)
+
+#registry-entry(
+  [Mast Cell IgG-Subclass Activation Assay],
+  type: "OQ",
+  certainty: "0.16",
+  evidence: [The paper already proposes reading FcγR activation on monocytes (see the FcγR-monocyte open question). The mast cell analog has not been performed: no assay reports whether a specific patient's IgG can make mast cells release mediators.],
+  citations: [@Okayama2000FcgammaRIHumanMast @Woolhiser2001IgG1MastFcgammaRI @Zhao2006FcgammaRIIaSkinMast],
+  mechanism: [Human mast cell line or CD34⁺-derived cells incubated with subclass-purified patient IgG (IgG1 vs IgG4 fractions), read by β-hexosaminidase and PGD₂/LTC₄/TNF-α release, with and without anti-CD64/anti-CD32a blockade. A functional readout that total-IgG panels cannot supply.],
+  chapter-ref: [ch08: mast cell igg activation assay],
+  prediction: [IgG1-enriched fractions from MC-overlap ME/CFS patients produce ≥2× the degranulation of IgG4-enriched fractions, and the signal is blocked by anti-CD64/anti-CD32a. Falsified if subclass fractions do not differ or the signal is not receptor-blockable.],
+  treatment: [Would classify patients for future IgG-route-directed trials; not itself a treatment. No result exists yet.],
+  limitation: [Assay does not exist for ME/CFS; cell-source heterogeneity (mast cell line vs skin-derived) and artificial cross-linking may not represent natural immune-complex valency. Requires first establishing that provoked mast cell activation is real in ME/CFS.],
 )
 
 #registry-entry(

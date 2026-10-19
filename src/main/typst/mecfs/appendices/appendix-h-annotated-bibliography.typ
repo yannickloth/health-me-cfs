@@ -25398,6 +25398,49 @@ This section reviews biomechanical literature on rowing ergometer physics, speci
     *Limitations:*: Narrative review; 2004 vintage; no ME/CFS data.
     *Certainty:*: 0.50 (narrative-review tier cap)
 
+=== Hide 1993 — Autoantibodies Against FcεRIα as a Cause of Histamine Release in Chronic Urticaria
+
+    *Full Citation:*: Hide M, Francis DM, Grattan CE, Hakimi J, Kochan JP, Greaves MW. Autoantibodies against the high-affinity IgE receptor as a cause of histamine release in chronic urticaria. _N Engl J Med_. 1993;328(22):1599-1604. @Hide1993AntiFcepsilonRIUrticaria
+    *DOI:*: #link("https://doi.org/10.1056/NEJM199306033282204")[10.1056/NEJM199306033282204]
+    *PMID:*: 7683772
+    *Published:*: 1993
+    *Study Design:*: Human serum-transfer / ex-vivo histamine-release study (chronic spontaneous urticaria)
+    *Key Findings:*:
+        - A subset of chronic urticaria sera release histamine from basophils and skin mast cells without allergen
+        - The releasing activity resides in the IgG fraction
+        - Activity is neutralised by recombinant FcεRIα, identifying the autoantibody target
+    *Conclusion:*: IgG autoantibodies can drive human mast cell/basophil histamine release in disease, with no requirement for allergen or IgE-antigen complexes.
+    *Limitations:*: Chronic urticaria, not ME/CFS. The autoantibody cross-links the IgE receptor (FcεRIα) — this is an IgG-driven but *FcεRI-directed* route, *not* a demonstration of FcγR-mediated skin mast cell activation. Cited as an IgG-driven precedent, not as FcγR evidence.
+    *Certainty:*: 0.70 (well-replicated human functional finding; non-ME/CFS population)
+
+=== Niimi 1996 — Dermal Mast Cell Activation by Anti-FcεRIα Autoantibodies in Chronic Urticaria
+
+    *Full Citation:*: Niimi N, Francis DM, Kermani F, O'Donnell BF, Hide M, Kobza-Black A, Winkelmann RK, Greaves MW, Barr RM. Dermal mast cell activation by autoantibodies against the high affinity IgE receptor in chronic urticaria. _J Invest Dermatol_. 1996;106(5):1001-1006. @Niimi1996DermalMastFcepsilonRIUrticaria
+    *DOI:*: #link("https://doi.org/10.1111/1523-1747.ep12338544")[10.1111/1523-1747.ep12338544]
+    *PMID:*: 8618029
+    *Published:*: 1996
+    *Study Design:*: Human ex-vivo skin mast cell study (chronic spontaneous urticaria)
+    *Key Findings:*:
+        - Sera containing anti-FcεRIα autoantibodies activate *dermal mast cells*, not only circulating basophils
+        - Confirms the target cell population is the tissue mast cell in human skin
+    *Conclusion:*: IgG autoantibodies can activate human skin mast cells directly — evidence that mast cell activation in disease is not exclusively IgE-antigen-driven.
+    *Limitations:*: Chronic urticaria, not ME/CFS; route is FcεRIα-directed rather than FcγR-mediated. Supports the general principle only.
+    *Certainty:*: 0.70 (human functional finding; non-ME/CFS population)
+
+=== Syenina 2015 — Dengue Vascular Leakage Augmented by Fcγ-Receptor-Mediated Mast Cell Degranulation
+
+    *Full Citation:*: Syenina A, Jagaraj CJ, Aman SA, Sridharan A, St John AL. Dengue vascular leakage is augmented by mast cell degranulation mediated by immunoglobulin Fcγ receptors. _eLife_. 2015;4:e05291. @Syenina2015DengueMastFcgammaR
+    *DOI:*: #link("https://doi.org/10.7554/eLife.05291")[10.7554/eLife.05291]
+    *PMID:*: 25783751
+    *Published:*: 2015
+    *Study Design:*: Mouse model (dengue infection; mast cell FcγR)
+    *Key Findings:*:
+        - Mast cell degranulation via immunoglobulin Fcγ receptors augments dengue vascular leakage
+        - Demonstrates in-vivo, disease-context FcγR-mediated (IgE-independent) mast cell activation
+    *Conclusion:*: FcγR-mediated mast cell activation is a real in-vivo mechanism in an infectious disease, not only an in-vitro phenomenon.
+    *Limitations:*: Mouse, and the route runs through mouse FcγRII/III; human mast cells lack FcγRIII, so the rodent receptor combination does not transfer @Tkaczyk2004FcgammaRMastReview. Dengue, not ME/CFS. Mechanistic analogy only; does not transfer receptor-for-receptor.
+    *Certainty:*: 0.40 (animal tier cap)
+
 // =============================================================================
 
 == Stigmatisation in ME/CFS
