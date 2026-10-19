@@ -14558,8 +14558,7 @@
     "label": "ANSM",
     "category": "agency",
     "definition": "Agence nationale de sécurité du médicament : l'agence nationale française qui régule les médicaments et les dispositifs médicaux et recueille les déclarations d'effets indésirables, y compris les signalements concernant les prothèses herniaires."
-  }
-,
+  },
   "JAK-STAT": {
     "label": "Voie JAK-STAT",
     "category": "pathway",
@@ -14574,4 +14573,71 @@
     "label": "EWAS (étude d'association à l'échelle de l'épigénome)",
     "category": "method",
     "definition": "Protocole d'étude qui mesure la méthylation de l'ADN (ou une autre marque épigénétique) à des centaines de milliers de sites du génome et teste quels sites diffèrent entre les groupes. L'équivalent méthylomique d'une GWAS."
-  }}
+  },
+  "FcγRI": {
+    "label": "FcγRI",
+    "category": null,
+    "definition": "Récepteur IgG de haute affinité (CD64). Les mastocytes humains au repos ne l'expriment que sur environ 2 % des cellules ; l'interféron gamma (IFN-γ) porte ce chiffre à environ 44 %, après quoi les complexes immuns IgG peuvent déclencher la dégranulation sans IgE.",
+    "synonyms": []
+  },
+  "FcγRIIA": {
+    "label": "FcγRIIA",
+    "category": null,
+    "definition": "Récepteur IgG activateur de faible affinité (CD32a). Il est exprimé de façon constitutive sur les mastocytes dérivés de la peau, de sorte que les IgG peuvent les activer sans amorçage préalable par l'IFN-γ. Les mastocytes humains n'ont pas la voie FcγRIII des rongeurs.",
+    "synonyms": []
+  },
+  "FcγRIIB": {
+    "label": "FcγRIIB",
+    "category": null,
+    "definition": "Récepteur IgG inhibiteur de faible affinité (CD32b). Il est présent sur les mastocytes gastro-intestinaux mais absent des mastocytes dermiques ; le même signal IgG peut donc activer les mastocytes dans la peau et les freiner dans l'intestin.",
+    "synonyms": []
+  },
+  "FcεRI": {
+    "label": "FcεRI",
+    "category": null,
+    "definition": "Récepteur de haute affinité pour l'IgE, présent sur les mastocytes et les basophiles. Le pontage par des complexes IgE-allergène, ou par des autoanticorps IgG dirigés contre le récepteur lui-même, déclenche la dégranulation.",
+    "synonyms": []
+  },
+  "Syk": {
+    "label": "Syk",
+    "category": null,
+    "definition": "Tyrosine kinase de la rate (Syk) : la kinase qui propage le signal après le pontage d'un récepteur IgE ou IgG sur un mastocyte, conduisant à la dégranulation et à la libération de médiateurs.",
+    "synonyms": []
+  },
+  "SCF": {
+    "label": "SCF",
+    "category": null,
+    "definition": "Facteur des cellules souches (ligand de KIT) : le facteur de croissance qui assure la survie, la prolifération et l'amorçage des mastocytes. C'est l'une des entrées d'amorçage du modèle d'activation mastocytaire.",
+    "synonyms": []
+  },
+  "LTE4": {
+    "label": "LTE4",
+    "category": null,
+    "definition": "Leucotriène E4 : métabolite stable des cystéinyl-leucotriènes formé après l'activation mastocytaire, mesuré dans les urines comme marqueur de la libération de médiateurs mastocytaires.",
+    "synonyms": []
+  },
+  "LAD2": {
+    "label": "LAD2",
+    "category": null,
+    "definition": "Lignée de mastocytes humains issue d'un patient atteint de mastocytose, largement utilisée in vitro pour étudier l'activation mastocytaire, y compris la dégranulation dépendante des IgG/FcγR.",
+    "synonyms": []
+  },
+  "CD34": {
+    "label": "CD34",
+    "category": null,
+    "definition": "Marqueur de surface des cellules progénitrices hématopoïétiques. Les mastocytes cultivés dérivés de cellules CD34⁺ constituent le modèle humain standard in vitro pour l'étude de la fonction mastocytaire.",
+    "synonyms": []
+  },
+  "β-hexosaminidase": {
+    "label": "β-hexosaminidase",
+    "category": null,
+    "definition": "Enzyme des granules libérée lors de la dégranulation mastocytaire, couramment utilisée au laboratoire comme mesure de la dégranulation.",
+    "synonyms": []
+  },
+  "immune complex": {
+    "label": "immune complex",
+    "category": null,
+    "definition": "Amas d'antigènes liés par des anticorps. Les complexes immuns IgG multivalents sont la forme qui pontent les récepteurs Fcγ des mastocytes et d'autres cellules immunitaires.",
+    "synonyms": []
+  }
+}

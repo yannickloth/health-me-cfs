@@ -14323,8 +14323,7 @@
     "label": "ANSM",
     "category": "agency",
     "definition": "Agence nationale de sécurité du médicament — die französische nationale Behörde, die Arzneimittel und Medizinprodukte reguliert und Nebenwirkungsmeldungen sammelt, einschließlich Meldungen zu Herniennetzen."
-  }
-,
+  },
   "JAK-STAT": {
     "label": "JAK-STAT-Signalweg",
     "category": "pathway",
@@ -14339,4 +14338,71 @@
     "label": "EWAS (epigenomweite Assoziationsstudie)",
     "category": "method",
     "definition": "Studiendesign, bei dem die DNA-Methylierung (oder eine andere epigenetische Markierung) an Hunderttausenden von Genomstellen gemessen und geprüft wird, welche Stellen sich zwischen Gruppen unterscheiden. Das methylierungsspezifische Gegenstück zu einer GWAS."
-  }}
+  },
+  "FcγRI": {
+    "label": "FcγRI",
+    "category": null,
+    "definition": "Hochaffiner IgG-Rezeptor (CD64). Ruhende menschliche Mastzellen tragen ihn nur auf etwa 2 % der Zellen; Interferon-gamma (IFN-γ) erhöht dies auf etwa 44 %, danach können IgG-Immunkomplexe die Degranulation ohne IgE auslösen.",
+    "synonyms": []
+  },
+  "FcγRIIA": {
+    "label": "FcγRIIA",
+    "category": null,
+    "definition": "Aktivierender niedrigaffiner IgG-Rezeptor (CD32a). Er wird auf aus der Haut stammenden menschlichen Mastzellen konstitutiv exprimiert, sodass IgG sie ohne vorheriges IFN-γ-Priming aktivieren kann. Menschliche Mastzellen besitzen den FcγRIII-Weg der Nager nicht.",
+    "synonyms": []
+  },
+  "FcγRIIB": {
+    "label": "FcγRIIB",
+    "category": null,
+    "definition": "Inhibitorischer niedrigaffiner IgG-Rezeptor (CD32b). Er ist auf gastrointestinalen Mastzellen vorhanden, fehlt aber auf dermalen Mastzellen; dasselbe IgG-Signal kann Mastzellen in der Haut aktivieren und im Darm dämpfen.",
+    "synonyms": []
+  },
+  "FcεRI": {
+    "label": "FcεRI",
+    "category": null,
+    "definition": "Hochaffiner IgE-Rezeptor auf Mastzellen und basophilen Granulozyten. Die Quervernetzung durch IgE-Allergen-Komplexe oder durch IgG-Autoantikörper gegen den Rezeptor selbst löst die Degranulation aus.",
+    "synonyms": []
+  },
+  "Syk": {
+    "label": "Syk",
+    "category": null,
+    "definition": "Milz-Tyrosinkinase (Syk): die Kinase, die das Signal nach Quervernetzung eines IgE- oder IgG-Rezeptors auf einer Mastzelle weiterleitet und zur Degranulation und Mediatorfreisetzung führt.",
+    "synonyms": []
+  },
+  "SCF": {
+    "label": "SCF",
+    "category": null,
+    "definition": "Stammzellfaktor (KIT-Ligand): der Wachstumsfaktor, der Überleben, Proliferation und Priming von Mastzellen erhält. Er ist einer der Priming-Eingänge im Mastzellaktivierungsmodell.",
+    "synonyms": []
+  },
+  "LTE4": {
+    "label": "LTE4",
+    "category": null,
+    "definition": "Leukotrien E4: ein stabiler Cysteinyl-Leukotrien-Metabolit, der nach Mastzellaktivierung entsteht und im Urin als Marker der Mastzell-Mediatorfreisetzung gemessen wird.",
+    "synonyms": []
+  },
+  "LAD2": {
+    "label": "LAD2",
+    "category": null,
+    "definition": "Eine menschliche Mastzelllinie von einem Patienten mit Mastozytose, die in vitro häufig zur Untersuchung der Mastzellaktivierung, einschließlich IgG/FcγR-vermittelter Degranulation, verwendet wird.",
+    "synonyms": []
+  },
+  "CD34": {
+    "label": "CD34",
+    "category": null,
+    "definition": "Oberflächenmarker hämatopoetischer Vorläuferzellen. Aus CD34⁺-Zellen gezüchtete Mastzellen sind das Standardmodell in vitro für Untersuchungen der Mastzellfunktion.",
+    "synonyms": []
+  },
+  "β-hexosaminidase": {
+    "label": "β-hexosaminidase",
+    "category": null,
+    "definition": "Ein Granulaenzym, das bei der Mastzelldegranulation freigesetzt wird und im Labor häufig als Maß für die Degranulation dient.",
+    "synonyms": []
+  },
+  "immune complex": {
+    "label": "immune complex",
+    "category": null,
+    "definition": "Ein Cluster aus Antigen und gebundenem Antikörper. Multivalente IgG-Immunkomplexe sind die Form, die Fcγ-Rezeptoren auf Mastzellen und anderen Immunzellen quervernetzt.",
+    "synonyms": []
+  }
+}
