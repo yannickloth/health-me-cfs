@@ -1498,3 +1498,19 @@ Prevents re-processing of already-integrated content.
 | https://www.ucf.edu/news/kids-with-adhd-must-squirm-to-learn/ | ucf.edu (news release) | 2026-10-15 | — | bib/neurology-comorbidities.bib (@Sarver2015HyperactivityCompensatory), appendix-h — press release for Sarver 2015; integrate-topic adhd-movement-arousal-energy |
 | https://link.springer.com/article/10.1186/s12967-026-08654-5 | springer (J Transl Med; PDF via europepmc getPdf + Referer) | 2026-10-18 | — | Literature/pediatric-insights/Mihatsch2026HandgripCYP/, bib/pediatric.bib (@Mihatsch2026HandgripCYP), appendix-h, ch23 pediatric — integrate-topic handgrip-strength-fatigability-mecfs |
 | https://www.nature.com/articles/s41598-026-75170-3 | nature.com (Sci Rep, OA PDF) | 2026-10-18 | — | Literature/biomarkers/Wallraven2026HandgripPCS/, bib (@Wallraven2026HandgripPCS), appendix-h — integrate-topic handgrip-strength-fatigability-mecfs |
+
+---
+
+## IgG/FcγR-Mediated Mast Cell Activation (mast-cell-fcgammar-igg) — LITE integration
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed + Europe PMC (via BioMCP search/get) + Unpaywall | 2026-10-19 | LITE / reinforcement-only: name IgG-FcγRI/FcγRIIA as an IgE-independent mast cell activation pathway in two existing five-pathway lists. 5 papers verified. 1 PDF filed (Burton 2018, OA); 4 abstract-only (paywall / bot-gated). No new hypothesis or certainty value created. |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| https://pubmed.ncbi.nlm.nih.gov/10754333/ (Okayama 2000, DOI 10.4049/jimmunol.164.8.4332) | pubmed (via biomcp get) | 2026-10-19 | — | bib/mast-cell.bib (@Okayama2000FcgammaRIHumanMast), appendix-h, ch08 subsec-08-MCAS + ch14d pathway lists |
+| https://pubmed.ncbi.nlm.nih.gov/11745347/ (Woolhiser 2001, DOI 10.1002/1521-4141(200111)31:11<3298::aid-immu3298>3.0.co;2-u) | pubmed (via biomcp get) | 2026-10-19 | — | bib/mast-cell.bib (@Woolhiser2001IgG1MastFcgammaRI), appendix-h, ch08/ch14d/ch15-spec/ch51 |
+| https://pubmed.ncbi.nlm.nih.gov/16785568/ (Zhao 2006, PMC2176083, DOI 10.4049/jimmunol.177.1.694) | pubmed + europepmc | 2026-10-19 | — | bib/mast-cell.bib (@Zhao2006FcgammaRIIaSkinMast), appendix-h, ch08/ch14d/ch51 |
+| https://pubmed.ncbi.nlm.nih.gov/29928276/ (Burton 2018, DOI 10.3389/fimmu.2018.01244) | pubmed + frontiersin.org (OA PDF) | 2026-10-19 | — | Literature/immune-dysfunction/Burton2018FcgammaRIIbTissueMast/ (PDF + abstract.txt), bib/mast-cell.bib (@Burton2018FcgammaRIIbTissueMast), appendix-h |
+| https://pubmed.ncbi.nlm.nih.gov/15017113/ (Tkaczyk 2004, DOI 10.1159/000077213) | pubmed (via biomcp get) | 2026-10-19 | — | bib/mast-cell.bib (@Tkaczyk2004FcgammaRMastReview), appendix-h, ch08 (rodent-translation caveat) |
+| https://api.unpaywall.org/v2/ (OA status) + https://www.ebi.ac.uk/europepmc/webservices/rest/search (PMC lookup) | unpaywall + europepmc | 2026-10-19 | — | PDF-availability verification (1 OA, 4 unavailable) |
