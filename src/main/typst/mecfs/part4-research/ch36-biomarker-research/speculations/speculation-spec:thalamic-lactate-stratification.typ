@@ -1,7 +1,7 @@
 #import "../../../shared/environments.typ": *
 
 #speculation(title: [Thalamic Lac/tCr as a Candidate Stratification Biomarker for Energy-Metabolism Trials])[
-*(Certainty: 0.40. Raw 0.40, population 1.00, discounted 0.40.)* The Vienna experimental-hypoxia probe reported elevated resting thalamic lactate (Lac/tCr ~27% higher in ME/CFS than controls) alongside blunted metabolic reactivity to hypoxia @Bader2026Hypoxia.
+*(Certainty: 0.40. Raw 0.40, population 1.00, discounted 0.40.)* The Vienna experimental-hypoxia probe reported elevated resting thalamic lactate (Lac/tCr approximately 27% higher in ME/CFS than controls) alongside blunted metabolic reactivity to hypoxia @Bader2026Hypoxia.
 Elevated baseline brain lactate could therefore serve as a mechanism-based stratification biomarker for trials of tissue-oxygenation or mitochondrial interventions (e.g., hyperbaric oxygen therapy), identifying a biologically coherent "virtual-hypoxia" subgroup hypothesized to respond @Hadanny2024HBOTLongCovid.
 
 *(Origin: brainstorm.)*

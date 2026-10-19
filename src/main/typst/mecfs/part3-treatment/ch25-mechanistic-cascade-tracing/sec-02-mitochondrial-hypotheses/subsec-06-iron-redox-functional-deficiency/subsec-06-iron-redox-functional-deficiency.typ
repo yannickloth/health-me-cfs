@@ -5,7 +5,7 @@
 
 *Cascade:*
 - Chronic inflammation → IL-6/STAT3 signalling (established in ME/CFS, cert 0.50)
-- Hepcidin paradox: hepcidin is LOW (~50% reduction, @Kavyani2023Hepcidin) — NOT high as classic inflammatory anemia predicts
+- Hepcidin paradox: hepcidin is LOW (approximately 50% reduction, @Kavyani2023Hepcidin) — NOT high as classic inflammatory anemia predicts
 - Despite low hepcidin, functional iron deficiency persists: high ferritin, low serum iron, low TSAT (@Swiatczak2022, @Baklund2021RoutineBlood)
 - Four candidate hepcidin-independent trapping mechanisms (@spec:hepcidin-independent-ferroportin-blockade, cert 0.40):
   (a) ferroportin trafficking defect via IRP/IRE dysregulation,

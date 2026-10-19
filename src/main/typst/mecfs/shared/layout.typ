@@ -13,7 +13,7 @@
 // KOMA DIV=12 on A4 (210×297mm), oneside (symmetric left/right):
 //   text width  ≈ 160mm  → margins ≈ 25mm each side
 //   text height ≈ 237mm  → top ≈ 20mm, bottom ≈ 40mm (KOMA asymmetric default)
-// After \KOMAoptions{DIV=12}: ~20-25mm reclaimed from bottom.
+// After \KOMAoptions{DIV=12}: approximately 20-25mm reclaimed from bottom.
 #let page-margins = (
   top:    20mm,
   bottom: 40mm,

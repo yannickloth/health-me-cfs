@@ -31,7 +31,7 @@ Significant symptom overlap exists between ME/CFS and fibromyalgia, with 20-70% 
 
 The primary clinical distinction between ME/CFS and fibromyalgia is the presence and prominence of PEM:
 
-- *PEM in ME/CFS*: Post-exertional malaise is the cardinal feature; disproportionate symptom worsening occurs 12-72 hours after physical, cognitive, or emotional exertion. PEM is frequent in Long COVID (~70% of cases) but rare or absent in pure fibromyalgia.
+- *PEM in ME/CFS*: Post-exertional malaise is the cardinal feature; disproportionate symptom worsening occurs 12-72 hours after physical, cognitive, or emotional exertion. PEM is frequent in Long COVID (approximately 70% of cases) but rare or absent in pure fibromyalgia.
 
 - *Pain prominence in fibromyalgia*: Widespread chronic pain affecting ≥ 4 of 5 body regions is the defining feature, with tender points and widespread hypersensitivity.
 

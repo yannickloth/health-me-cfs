@@ -11,7 +11,7 @@ Multiple validated instruments have been applied to ME/CFS pain, though none was
 Key quantitative findings across instruments:
 
     - *McGill Pain Questionnaire (MPQ):* Pain Rating Index 23.6 #sym.plus.minus 10.8; significantly higher in severely disabled patients ($p < 0.05$) @Marshall2010PainCharacteristics
-    - *Visual Analogue Scale (VAS):* Current intensity 43.2 mm; 24-hour retrospective ~58 mm (better reflects fluctuating pain) @Marshall2010PainCharacteristics
+    - *Visual Analogue Scale (VAS):* Current intensity 43.2 mm; 24-hour retrospective approximately 58 mm (better reflects fluctuating pain) @Marshall2010PainCharacteristics
     - *Brief Pain Inventory (BPI):* ME/CFS patients with chronic low back pain show BPI Interference mean difference = 3.77 (Cohen's $d = 1.6$); those with comorbid fibromyalgia show mean difference = 2.39 ($d = 0.9$) @Fall2024COPCsMECFS
     - *Dolorimetry:* Female ME/CFS patients AUC = 0.730 versus controls ($p < 0.005$); male patients AUC = 0.816 ($p < 10^(-6)$). Dolorimetry correlates with self-reported pain (Spearman $R = -0.574$ to $-0.629$, $p < 0.001$) @Baraniuk2025NociplasticMECFS
     - *Quantitative sensory testing (QST):* Pressure pain thresholds at standard sites, thermal thresholds, and temporal summation protocols can objectively document pain hypersensitivity and support disability claims @Nijs2021sensitization @Baraniuk2025NociplasticMECFS

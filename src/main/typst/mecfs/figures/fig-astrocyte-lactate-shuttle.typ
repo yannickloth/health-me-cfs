@@ -151,7 +151,7 @@
       $ L_n = k_"MCT" dot [L_a] dot f("transporter integrity") $
       where $L_n$ = neuronal lactate uptake, $L_a$ = astrocyte lactate, $k_"MCT"$ = transporter efficiency.\
       #text(weight: "bold")[ME/CFS prediction:] If $k_"MCT"$ or $f(dot)$ reduced #sym.arrow.r.double $L_n arrow.b$ despite normal $L_a$ #sym.arrow.r.double neuronal ATP deficit.\
-      #text(weight: "bold")[Key insight:] Peripheral tissues have direct glucose access (no astrocyte gate). Only CNS depends on this shuttle for ~30–50% of neuronal ATP, explaining CNS-specific vulnerability.
+      #text(weight: "bold")[Key insight:] Peripheral tissues have direct glucose access (no astrocyte gate). Only CNS depends on this shuttle for approximately 30–50% of neuronal ATP, explaining CNS-specific vulnerability.
     ])))
 
     // =================== CERTAINTY =================================

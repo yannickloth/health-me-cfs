@@ -724,7 +724,7 @@ A second line of convergent evidence comes from Long COVID: Ruijgt et al. (2026,
 
 *Consequence:* If post-cold-pressor recovery kinetics are discriminating, a consumer pulse oximeter (~EUR 30) and a bowl of ice water becomes a validated autonomic stress test — completely removing cost as a barrier to objective monitoring of ME/CFS autonomic function.
 
-*Limitation of existing data.* Both De Becker 1998 (CDC-1988 criteria, n=21 CFS) and Wyller 2007 (CDC criteria, n=15 adolescent CFS, n=57 healthy) measured acute cold challenge responses, not recovery kinetics. The re-analysis hypothesis cannot be tested without access to the raw time-series data, and even if recovery was recorded, the sample sizes are small (detecting a medium effect in a 15--21 patient sample requires 80% power for d=0.5 — the N per group at α=0.05 is ~64). A definitive cold pressor recovery study would require n≥40 per group for ≥80% power.
+*Limitation of existing data.* Both De Becker 1998 (CDC-1988 criteria, n=21 CFS) and Wyller 2007 (CDC criteria, n=15 adolescent CFS, n=57 healthy) measured acute cold challenge responses, not recovery kinetics. The re-analysis hypothesis cannot be tested without access to the raw time-series data, and even if recovery was recorded, the sample sizes are small (detecting a medium effect in a 15--21 patient sample requires 80% power for d=0.5 — the N per group at α=0.05 is approximately 64). A definitive cold pressor recovery study would require n≥40 per group for ≥80% power.
 ] <spec:cold-pressor-recovery-convergence>
 
 === The Piezo1-RBC Microcirculation Hypothesis
@@ -989,7 +989,7 @@ The P2X7 link bridges NE deficiency to neuroinflammation: activated P2X7 on micr
 
 *Falsifiable predictions:* (a) P2X7 antagonist reduces NE release from patient-derived LC neurons in vitro. (b) P2X7 SNP rs3751143 predicts CSF NE Pathway status in ME/CFS. (c) P2X7 expression on PBMCs correlates negatively with NE Pathway index.
 
-*Limitations.* No direct P2X7 measurement in ME/CFS LC neurons. All evidence from preclinical models. P2X7-KO mouse data may not translate to human ME/CFS. The ATP threshold for P2X7 gating (~1 mM) may be above typical intracellular ATP ranges.
+*Limitations.* No direct P2X7 measurement in ME/CFS LC neurons. All evidence from preclinical models. P2X7-KO mouse data may not translate to human ME/CFS. The ATP threshold for P2X7 gating (approximately 1 mM) may be above typical intracellular ATP ranges.
 ] <spec:p2x7-atp-vmat2>
 
 === Pupillometry as Non-Invasive LC-NE Functional Probe

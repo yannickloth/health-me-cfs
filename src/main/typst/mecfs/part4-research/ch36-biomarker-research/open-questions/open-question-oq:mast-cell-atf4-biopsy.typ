@@ -1,7 +1,7 @@
 #import "../../../shared/environments.typ": *
 
 #open-question(title: [ATF4 Expression in Skin Mast Cells as an MCAS-Subgroup ISR Biomarker])[
-In ME/CFS patients with concurrent MCAS (~25% of the population), skin mast cells represent an accessible tissue compartment for measuring ISR activity at the immune--stromal interface. The PERK--eIF2α--ATF4 axis is functional in mast cells, and mast cell UPR is constitutively active due to the secretory burden of granule-rich mast cell biology If MCAS-pattern chronic degranulation amplifies PERK activation (via cumulative ER calcium depletion), ATF4 should be elevated in mast cells in ME/CFS+MCAS patients compared to ME/CFS-only controls, providing a tissue-level readout of the MCAS--ISR loop ([NO SPECULATION]).
+In ME/CFS patients with concurrent MCAS (approximately 25% of the population), skin mast cells represent an accessible tissue compartment for measuring ISR activity at the immune--stromal interface. The PERK--eIF2α--ATF4 axis is functional in mast cells, and mast cell UPR is constitutively active due to the secretory burden of granule-rich mast cell biology If MCAS-pattern chronic degranulation amplifies PERK activation (via cumulative ER calcium depletion), ATF4 should be elevated in mast cells in ME/CFS+MCAS patients compared to ME/CFS-only controls, providing a tissue-level readout of the MCAS--ISR loop ([NO SPECULATION]).
 
 *What this would test:* The skin biopsy three-marker panel already proposed ([NO OPEN QUESTION]) includes mast cell tryptase density. Extending it with mast cell-specific ATF4 IHC (co-staining tryptase+ cells for ATF4) would add the ISR readout within the same biopsy at minimal additional cost.
 

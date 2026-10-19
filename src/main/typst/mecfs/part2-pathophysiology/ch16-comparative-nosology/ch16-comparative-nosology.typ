@@ -115,7 +115,7 @@ PTLDS offers a different window: a condition defined by a specific pathogen (Bor
 The symptom overlap between PTLDS and ME/CFS is striking: 26 of 29 core ME/CFS symptoms (DePaul Symptom Questionnaire) are present in PTLDS.
 However, a critical methodological caveat applies: part of this overlap is *definitional* — both syndromes are constructed from the same core features (fatigue, cognitive dysfunction, unrefreshing sleep, pain), so shared checklists partly guarantee concordance.
 CDC claims data ($n = 24{,}503$ Lyme vs $122{,}095$ controls) provide the key discrimination: pain and cognitive diagnostic codes normalize by 6--12 months post-treatment, but *fatigue codes persist beyond one year* — the single domain that does not normalize @Nawrocki2025LymeSymptomsCDC.
-The population-level excess risk is modest (~5% above controls) but the lingering domain is the defining ME/CFS feature.
+The population-level excess risk is modest (approximately 5% above controls) but the lingering domain is the defining ME/CFS feature.
 
 *Consequence:* The fatigue-persistence finding reframes PTLDS/ME/CFS as a domain-specific overlap rather than a global identity — the two conditions share a fatigue mechanism downstream of different triggers, but diverge on pain and cognitive trajectories.
 This suggests trigger-based stratification: "which ME/CFS patients have a tick-borne trigger?" rather than "do you have ME/CFS or PTLDS?"
@@ -156,7 +156,7 @@ This boundary has direct clinical consequences: patients diagnosed with "chronic
 === Other Post-Infectious Syndromes
 
 *Q Fever Fatigue Syndrome (QFS):* post-Coxiella burnetii chronic fatigue, documented in the Dutch Q fever epidemic (2007--2010), provides the strongest evidence that a single well-characterized bacterial infection can produce an ME/CFS-identical picture in a subset of patients.
-The Dutch Q-support program's longitudinal data ($n = 431$, 10-year follow-up) show that post-infectious fatigue follows a slow natural history with partial recovery in ~40% at 10 years — directly relevant to ME/CFS prognosis data.
+The Dutch Q-support program's longitudinal data ($n = 431$, 10-year follow-up) show that post-infectious fatigue follows a slow natural history with partial recovery in approximately 40% at 10 years — directly relevant to ME/CFS prognosis data.
 
 *Post-meningitis fatigue:* persistent fatigue after bacterial or viral meningitis, documented in follow-up studies, suggests that CNS infection (as opposed to systemic infection) may be a particularly potent trigger.
 
@@ -348,7 +348,7 @@ If the diagnosis-stratified trial shows equal or larger interaction, the PEM-sta
 == The Connective Tissue Axis: Ehlers-Danlos, Hypermobility, and Craniocervical Instability
 
 #achievement(title: [EDS as Susceptibility Factor, Not Direct Cause])[
-Joint hypermobility is substantially overrepresented in ME/CFS (15.5% of 815 patients), POTS (up to 57%), Long COVID (~30%), and fibromyalgia (~27%).
+Joint hypermobility is substantially overrepresented in ME/CFS (15.5% of 815 patients), POTS (up to 57%), Long COVID (approximately 30%), and fibromyalgia (approximately 27%).
 However, hypermobile EDS (hEDS) has no identified connective tissue defect despite extensive genetic investigation, and benign joint hypermobility affects 10--20% of the general population — far more than ME/CFS prevalence.
 These facts argue against hEDS as a direct cause of ME/CFS and in favour of a susceptibility-factor model: EDS/hypermobility lowers the threshold for developing ME/CFS, adds perpetuating mechanisms (vascular laxity → autonomic dysfunction, CCI → brainstem compression), and impairs recovery, but is neither necessary nor sufficient.
 
@@ -392,7 +392,7 @@ Until hEDS acquires a molecular definition, the ME/CFS-EDS comparative nosology 
 
 #achievement(title: [MCAS Prevalence and Diagnostic Stringency])[
 MCAS in ME/CFS is estimated at 16.7--25.3% depending on diagnostic criteria.
-Under strict international consensus criteria, idiopathic MCAS prevalence falls to ~4.4% — fewer than 5% of patients suspected of MCAS meet stringent criteria.
+Under strict international consensus criteria, idiopathic MCAS prevalence falls to approximately 4.4% — fewer than 5% of patients suspected of MCAS meet stringent criteria.
 The MCAS diagnostic problem mirrors the ME/CFS diagnostic problem: a clinical syndrome defined by symptom patterns and exclusion with no validated biomarker, vulnerable to both overdiagnosis (attributing non-specific symptoms to a trendy diagnosis) and underdiagnosis (dismissing genuine mast cell pathology as "just ME/CFS").
 
 *Consequence:* MCAS's status as a contested diagnosis within a contested diagnosis makes it a nosological hall of mirrors — the boundary between "ME/CFS patient with mast cell activation" and "MCAS patient with fatigue" depends on which criteria are applied and by whom.
@@ -403,6 +403,7 @@ The MCAS diagnostic problem mirrors the ME/CFS diagnostic problem: a clinical sy
 #speculation(title: [Non-IgE Mast Cell Activation Pathways as Cross-Condition Mechanism])[
 *(Certainty: 0.40.)* Four mechanistically distinct non-IgE pathways can trigger mast cell degranulation — MRGPRX2-mediated, complement C3a/C5a, lectin-IgE glycan cross-linking, and food additive/oxidative pathways.
 These pathways are not IgE-dependent and would not be detected by standard allergy testing, yet they provide mechanistic plausibility for the 68--70% food intolerance rate in ME/CFS.
+The list is restricted to routes with a plausible food-antigen link: a further non-IgE route, IgG immune complexes cross-linking mast-cell FcγRI/FcγRIIA, is set out in @sec:mcas, but it has no established food-antigen evidence and is therefore not counted here.
 
 The nosological significance: these pathways are condition-agnostic.
 MRGPRX2 activation by substance P (released during PEM) would trigger mast cells in ME/CFS, fibromyalgia, and Long COVID identically, regardless of the diagnostic label.
@@ -426,7 +427,7 @@ The clinical hazard: labelling every ME/CFS patient with food sensitivities as M
 
 #open-question(title: [Is POTS a Coherent Diagnostic Category?])[
 The POTS defining criterion (heart rate increase ≥30 bpm on standing) has poor specificity — 10--15% of healthy controls meet it.
-Only 21% of ME/CFS patients with orthostatic symptoms meet formal POTS criteria, and symptom severity correlates poorly with heart rate magnitude (~2% of variance).
+Only 21% of ME/CFS patients with orthostatic symptoms meet formal POTS criteria, and symptom severity correlates poorly with heart rate magnitude (approximately 2% of variance).
 POTS test results show poor day-to-day reproducibility.
 These limitations suggest that POTS may be a poorly specified diagnostic category rather than a coherent pathophysiological entity, and that the comorbidity with ME/CFS may partly reflect diagnostic threshold artefacts rather than shared biology.
 
@@ -500,7 +501,7 @@ Falsified if anti-5-HT autoantibodies are specific to either ME/CFS or IBS but n
 
 #limitation(title: [Contested Diagnoses and Diagnostic Hierarchy])[
 Every condition in this chapter shares a history of psychosomatic framing — being dismissed as "not real" or "all in the mind" before biological evidence accumulated.
-The psychosomatic-lag pattern (how long a contested condition took from first clinical description to biological acceptance) is instructive: multiple sclerosis ~100 years, epilepsy ~2,500 years, rheumatoid arthritis was distinguished from "rheumatism" only with the discovery of RF in 1940.
+The psychosomatic-lag pattern (how long a contested condition took from first clinical description to biological acceptance) is instructive: multiple sclerosis approximately 100 years, epilepsy approximately 2,500 years, rheumatoid arthritis was distinguished from "rheumatism" only with the discovery of RF in 1940.
 
 ME/CFS and its neighbors currently occupy the "contested" phase of this trajectory.
 The hierarchical relationship between psychiatric and physical diagnosis is a structural feature of the nosological landscape: when a condition lacks a biomarker, it defaults to psychiatric classification (somatic symptom disorder in DSM-5, bodily distress disorder in ICD-11).
@@ -512,7 +513,7 @@ Addressing the nosological problem requires not just better biomarkers but struc
 
 #speculation(title: [Molecular Reclassification of Depression and the Depression-ME/CFS Boundary])[
 The nosological argument that "markers resolve disputes" has a growing precedent *within* the psychiatric axis that typically absorbs contested physical diagnoses.
-A single-cell atlas of the adult human hippocampus (~500,000 nuclei) reported that neurogenesis is stalled in major depressive disorder, and argued for reclassifying depression by its molecular features — analogous to the shift that moved cancer classification from anatomical site to cellular/molecular characteristics @Peng2026NeurogenesisNatureMed.
+A single-cell atlas of the adult human hippocampus (approximately 500,000 nuclei) reported that neurogenesis is stalled in major depressive disorder, and argued for reclassifying depression by its molecular features — analogous to the shift that moved cancer classification from anatomical site to cellular/molecular characteristics @Peng2026NeurogenesisNatureMed.
 This reframes the depression-ME/CFS boundary: rather than a hard psychiatric-vs-physical divide, it suggests both conditions may occupy overlapping molecular space that is *not* yet resolved by a validated biomarker.
 
 The relevance to ME/CFS is indirect and currently unsupported by direct data — there are no published studies of adult hippocampal neurogenesis in ME/CFS.

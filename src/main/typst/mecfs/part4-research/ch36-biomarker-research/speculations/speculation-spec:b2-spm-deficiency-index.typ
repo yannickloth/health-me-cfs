@@ -28,7 +28,7 @@ where SDI < 0.5 indicates severe SPM deficiency (all SPMs \u{3c}50% of healthy c
 3. Does SPM deficiency correlate with PEM duration and severity (predicted: longer PEM = lower SPM)?
 4. Do the four predicted root-cause subgroups (CNS energy, safe mode, GPCR autoantibody, TRPM3) show different SPM profiles, or is SPM deficiency a pan-hierarchy phenomenon?
 
-*Limitations:* SPMs have never been measured in ME/CFS. LC-MS/MS lipidomics is specialized (few clinical labs offer it). Reference ranges for SPMs in healthy populations are not well-established. SPM levels fluctuate with diet, exercise, and circadian rhythm — standardized collection conditions are essential. Cost per sample is high (~200--400 USD).
+*Limitations:* SPMs have never been measured in ME/CFS. LC-MS/MS lipidomics is specialized (few clinical labs offer it). Reference ranges for SPMs in healthy populations are not well-established. SPM levels fluctuate with diet, exercise, and circadian rhythm — standardized collection conditions are essential. Cost per sample is high (approximately 200--400 USD).
 
 *Cross-reference:* SPM deficiency hypothesis (@sec:um-resolution). SPM restoration protocol (@spec:c1-spm-restoration, Chapter @ch:emerging-therapies). Aspirin + omega-3 speculation (@spec:aspirin-omega3-spm, Chapter @ch:speculative-hypotheses). tVNS-SPM induction (@spec:tvns-spm-induction, Chapter @ch:emerging-therapies).
 ] <spec:b2-spm-deficiency-index>

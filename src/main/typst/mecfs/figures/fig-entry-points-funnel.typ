@@ -45,7 +45,7 @@
       fill: rgb("#3355aa"), [Final common pathway]))
 
     // === TOP ROW: Precipitants ===
-    fbox((0.5, 0), [Viral Infection\ #text(size: 8pt)[(~70%)]], precip-fill, precip-stroke, w: 2.8)
+    fbox((0.5, 0), [Viral Infection\ #text(size: 8pt)[(approximately 70%)]], precip-fill, precip-stroke, w: 2.8)
     fbox((4.5, 0), [Severe Stress], precip-fill, precip-stroke, w: 2.8)
     fbox((8.5, 0), [Surgery / Trauma], precip-fill, precip-stroke, w: 2.8)
     fbox((12.5, 0), [Vaccination\ #text(size: 8pt)[(rare)]], precip-fill, precip-stroke, w: 2.8)

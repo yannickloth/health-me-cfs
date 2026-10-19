@@ -11,7 +11,7 @@ DNA methylation changes and histone modifications observed in ME/CFS patients ma
     fill: (_, row) => if calc.odd(row) { luma(245) } else { white },
     [*Treatment*], [*Mechanism of action*], [*Category*], [*Energy*], [*Evidence*],
 
-    [Rapamycin], [mTOR inhibition → epigenetic aging ↓; histone modifications], [Medication], [B/C], [Pilot — ~34% ITT; cross-tier mechanism],
+    [Rapamycin], [mTOR inhibition → epigenetic aging ↓; histone modifications], [Medication], [B/C], [Pilot — approximately 34% ITT; cross-tier mechanism],
     [Spermidine], [Histone acetylation modulation; autophagy induction], [Supplement], [A], [Experimental; pre-clinical only],
     [SAMe (S-Adenosylmethionine)], [Methyl donor; supplies DNMT substrate; supports remethylation at hypomethylated loci], [Supplement], [A], [Mixed ME/CFS evidence; dosing inadequately studied],
     [Methyl-folate + methyl-B12], [MTHFR bypass; cofactor substrates for methylation cycle], [Supplement], [A], [Clinical use; MTHFR genotype relevant],

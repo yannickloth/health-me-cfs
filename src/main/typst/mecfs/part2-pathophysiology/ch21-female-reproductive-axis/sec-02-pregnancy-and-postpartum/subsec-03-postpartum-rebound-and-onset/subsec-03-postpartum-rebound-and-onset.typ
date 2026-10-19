@@ -40,7 +40,7 @@ The postpartum window is a defined, time-bounded event with an identifiable trig
 
 *Certainty:* 0.45 — as a feasible, high-value research design. The underlying onset signal is real (see @warn:fra-postpartum-planning) but its immune mechanism is unproven.
 
-*Falsifiable prediction:* Among ~150 primiparous at-risk women followed through 12 months postpartum, ≥2% develop new-onset or relapsed ME/CFS within the 3–6 month window, and those who do show a steeper Treg decline and higher EBV/HHV-6 reactivation signal between the third trimester and 3 months postpartum than matched postpartum-healthy controls. Falsified if no cases arise in the window or if immune-reconstitution markers do not distinguish onset cases. (Origin: brainstorm.)
+*Falsifiable prediction:* Among approximately 150 primiparous at-risk women followed through 12 months postpartum, ≥2% develop new-onset or relapsed ME/CFS within the 3–6 month window, and those who do show a steeper Treg decline and higher EBV/HHV-6 reactivation signal between the third trimester and 3 months postpartum than matched postpartum-healthy controls. Falsified if no cases arise in the window or if immune-reconstitution markers do not distinguish onset cases. (Origin: brainstorm.)
 
 *Consequence:* Catching ME/CFS at its moment of onset in the postpartum window would transform the study of a disease that is almost always studied years after the fact — enabling early biomarkers, early intervention, and a direct test of whether immune reconstitution drives onset.
 ] <pred:fra-postpartum-cohort>

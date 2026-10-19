@@ -34,4 +34,4 @@
 // ── Array / matrix row spacing ─────────────────────────────────────────────────
 // LaTeX sets \arraystretch=1.1 for slightly more breathing room in matrices.
 // In Typst this is controlled per-table via `row-gutter`; export a constant.
-#let matrix-row-gutter = 0.3em   // ~10% extra over default; apply in table environments
+#let matrix-row-gutter = 0.3em   // approximately 10% extra over default; apply in table environments

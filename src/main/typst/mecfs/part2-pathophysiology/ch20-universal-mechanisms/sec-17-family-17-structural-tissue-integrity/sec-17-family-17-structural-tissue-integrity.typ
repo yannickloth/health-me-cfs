@@ -38,7 +38,7 @@ The trending FAP cell reduction adds a niche-level dimension: even if some satel
 
 *Certainty: 0.37* — conference abstract only (no full paper); single biobank, unreplicated; no adjustment for age, sex, menopause, or physical activity (all of which affect satellite cell count); no functional satellite cell assays (ex vivo differentiation); all Wüst-lab publications on this cohort are re-analyses of the same patient biobank, not independent replications.
 
-*Evidence source:* Vastus lateralis biopsy, 26 ME/CFS + 25 Long COVID + 30 healthy controls (mixed cohort, ~50% non-ME/CFS). Inference target: ME/CFS specific. Link is direct — measurement made in target tissue.
+*Evidence source:* Vastus lateralis biopsy, 26 ME/CFS + 25 Long COVID + 30 healthy controls (mixed cohort, approximately 50% non-ME/CFS). Inference target: ME/CFS specific. Link is direct — measurement made in target tissue.
 
 *Severity applicability:* Mild to moderate (daily step counts 733–8609 from the full cohort @Charlton2026MuscleBedrest, confirming ambulant population). Severe/bedbound patients who exert minimally may have different satellite cell profiles (disuse atrophy vs disease-specific depletion). Physical activity was not reported stratified by satellite cell count in the abstract — satellite cells are mechanosensitive and decline with prolonged disuse in healthy individuals (losses are reported after several weeks of bed rest or immobilisation, particularly in older adults @Dumont2015SCbiology). The bed-rest comparator in the full paper confirms disease-specific structural changes @Charlton2026MuscleBedrest, but satellite cell-specific bed-rest data from this biobank has not been published.
 

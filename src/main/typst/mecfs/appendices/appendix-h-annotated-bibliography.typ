@@ -198,7 +198,7 @@ First official institutional medication list for ME/CFS with insurance coverage 
     - Combined Babesia/Bartonella infection: 46% (23/50); 2/50 co-infected with both
     - Blood enrichment culture increased detection yield vs direct PCR
     - Fatigue duration ranged from 6 months to 19 years
-*Conclusion:*: Provides PCR-based evidence of Babesia and Bartonella infection in chronic fatigue patients with neurological symptoms. Combined 46% infection rate is the basis for the "~50%" claim circulating in patient communities, though Babesia alone is 24%.
+*Conclusion:*: Provides PCR-based evidence of Babesia and Bartonella infection in chronic fatigue patients with neurological symptoms. Combined 46% infection rate is the basis for the "approximately 50%" claim circulating in patient communities, though Babesia alone is 24%.
 *Limitations:*: No healthy control group (cannot determine if rate exceeds background seroprevalence); small n; enrichment culture specificity debated; authors are Galaxy Diagnostics co-founders (COI); no species identification for most Babesia detections; self-selected sample.
 *Certainty Assessment:*:
     - *Quality:* Low (Pathogens; pilot; no controls; significant COI)
@@ -1687,7 +1687,7 @@ Represents pioneering early work (1990s–2000s) establishing that a subset of C
     *Full Citation:*: Marshall R, Paul L, McFadyen AK, Rafferty D, Wood L.\ Pain Characteristics of People with Chronic Fatigue Syndrome. _Journal of Musculoskeletal Pain_. 2010;18(2):127--137.
     *DOI:*: #link("https://doi.org/10.3109/10582452.2010.483966")[10.3109/10582452.2010.483966]
     *Study Design:*: Cross-sectional with McGill Pain Questionnaire, VAS, PASS-20, Margolis Body Chart
-    *Key Findings:*: Mean Pain Rating Index 23.6 $plus.minus$ 10.8. Current VAS intensity 43.2 $plus.minus$ 20.8 mm; 24-hour retrospective VAS ~58 mm (higher, reflecting fluctuation). Most selected MPQ descriptors: _throbbing_, _aching_, _tender_, _gnawing_, _burning_; severe patients additionally: _exhausting_, _nagging_, _gruelling_. Most common pain locations: cervical spine (66%), anterior thighs (44--46%), lumbar spine (42%), posterior calves (38%). PASS-20 total 37.9 $plus.minus$ 17.6; significantly elevated in severely disabled.
+    *Key Findings:*: Mean Pain Rating Index 23.6 $plus.minus$ 10.8. Current VAS intensity 43.2 $plus.minus$ 20.8 mm; 24-hour retrospective VAS approximately 58 mm (higher, reflecting fluctuation). Most selected MPQ descriptors: _throbbing_, _aching_, _tender_, _gnawing_, _burning_; severe patients additionally: _exhausting_, _nagging_, _gruelling_. Most common pain locations: cervical spine (66%), anterior thighs (44--46%), lumbar spine (42%), posterior calves (38%). PASS-20 total 37.9 $plus.minus$ 17.6; significantly elevated in severely disabled.
     *Relevance:*: The only study systematically documenting ME/CFS pain quality using the McGill Pain Questionnaire with body mapping. Provides the qualitative pain language data essential for understanding patient experience and for instrument development.
     *Certainty:*: Medium (single-centre, small sample, but validated instruments and detailed pain characterisation).
 
@@ -1712,7 +1712,7 @@ Represents pioneering early work (1990s–2000s) establishing that a subset of C
     *PMID:*: 35816681
     *PMCID:*: PMC9369615
     *Study Design:*: Registry protocol paper describing design, data collection, and governance
-    *Key Findings:*: Patient-powered registry with 4,200+ participants (3,033 ME/CFS, 833 long COVID, 473 controls as of 2021). Mobile app captures longitudinal symptom tracking on 0--4 severity scale including pain. Designed to harmonize with other ME/CFS registries. Growing at ~72 registrants/week. Governance includes patient advisory board.
+    *Key Findings:*: Patient-powered registry with 4,200+ participants (3,033 ME/CFS, 833 long COVID, 473 controls as of 2021). Mobile app captures longitudinal symptom tracking on 0--4 severity scale including pain. Designed to harmonize with other ME/CFS registries. Growing at approximately 72 registrants/week. Governance includes patient advisory board.
     *Relevance:*: The largest patient-powered ME/CFS research platform. Longitudinal pain tracking enables time-series analysis of pain patterns, PEM-pain relationships, and treatment response monitoring at scale. Harmonization design facilitates cross-registry analyses.
     *Certainty:*: High for protocol design and enrolment data; data quality depends on patient self-report adherence.
 
@@ -2143,7 +2143,7 @@ Provides theoretical framework for understanding chronic ME/CFS and suggests tes
     *Study Design:*: 10-year follow-up of the Bergen Giardia outbreak cohort
     *Key Findings:*:
 
-        - 26% of exposed individuals had chronic fatigue at 10 years vs 11% of unexposed controls (RR ~2.4)
+        - 26% of exposed individuals had chronic fatigue at 10 years vs 11% of unexposed controls (RR approximately 2.4)
         - IBS prevalence 43% vs 14% in controls
         - Duodenal mucosal changes (villous atrophy, intraepithelial lymphocytes) persisted in a subset
         - Fatigue and bowel dysfunction outlasted any detectable active infection by at least 9–10 years
@@ -2504,7 +2504,7 @@ Provides quantitative meta-analytic evidence for viral associations in ME/CFS et
 @Amanna2007Duration
 
 *Key Findings:*
-45 subjects followed longitudinally for up to 26 years. Antiviral antibody responses were remarkably stable, with half-lives of ~50 years for VZV and >200 years for EBV, measles, and mumps. Tetanus and diphtheria antibodies waned faster (half-lives 11–19 years). Critically, memory B-cell numbers did NOT correlate with serum antibody titers for 5 of 8 antigens tested, indicating that long-lived plasma cells (LLPCs) — not memory B cells — are the primary maintainers of long-term serological memory. This is the foundational human study for understanding why antiviral antibodies persist for decades without antigenic re-exposure.
+45 subjects followed longitudinally for up to 26 years. Antiviral antibody responses were remarkably stable, with half-lives of approximately 50 years for VZV and >200 years for EBV, measles, and mumps. Tetanus and diphtheria antibodies waned faster (half-lives 11–19 years). Critically, memory B-cell numbers did NOT correlate with serum antibody titers for 5 of 8 antigens tested, indicating that long-lived plasma cells (LLPCs) — not memory B cells — are the primary maintainers of long-term serological memory. This is the foundational human study for understanding why antiviral antibodies persist for decades without antigenic re-exposure.
 
 *Relevance to antibody persistence question:*
 Demonstrates that EBV and VZV IgG antibodies have half-lives measured in decades, meaning elevated titres in ME/CFS cannot be assumed to reflect active viral reactivation. The dissociation between memory B cells and antibody titers suggests LLPCs independently maintain antibody output. An alternative explanation for elevated titres in ME/CFS could be a larger LLPC pool established during primary infection, not ongoing viral replication.
@@ -2536,7 +2536,7 @@ Direct experimental proof that antibody levels are maintained by bone marrow LLP
 @Robinson2022LLPC
 
 *Key Findings:*
-Mouse genetic timestamping study showed persistent plasma cells accrue in bone marrow at a constant rate (~1 cell/hour) over weeks following immunization. LLPC lifespan is partly intrinsic and preprogrammed. The final number of LLPCs is related to the duration of the germinal centre response, implying that a larger or prolonged initial infection will produce a larger LLPC pool and thus higher sustained antibody titres.
+Mouse genetic timestamping study showed persistent plasma cells accrue in bone marrow at a constant rate (approximately 1 cell/hour) over weeks following immunization. LLPC lifespan is partly intrinsic and preprogrammed. The final number of LLPCs is related to the duration of the germinal centre response, implying that a larger or prolonged initial infection will produce a larger LLPC pool and thus higher sustained antibody titres.
 
 *Relevance to antibody persistence question:*
 Provides the quantitative framework for understanding how the magnitude of the initial infection determines long-term antibody levels. In ME/CFS, if the primary EBV infection (e.g., infectious mononucleosis) was more severe or prolonged, this alone would predict higher antibody titres decades later — even without reactivation. This is a testable prediction: ME/CFS patients with post-EBV onset should have higher EBV antibodies than those with non-EBV triggers, which would be consistent with a larger LLPC pool rather than reactivation.
@@ -2616,7 +2616,7 @@ Provides evidence for a "chronically aroused" anti-viral state in ME/CFS. The fa
 @Hannestad2025Sputum
 
 *Key Findings:*
-13 ME/CFS patients, 10 healthy controls, 4 elderly controls, 2 immunosuppressed controls. Higher EBV viral load in sputum of ME/CFS patients (p=0.0256). HHV-6 present in ~50% of all participants at similar levels. HAdV detected in immunosuppression and severe ME/CFS cases. Anti-IFN-I autoantibodies not different between groups except in one severe ME/CFS case. Concluded that ME/CFS patients have significantly higher EBV load and that IFN-I autoantibodies cannot explain IFN-I dysfunction except possibly in severe cases.
+13 ME/CFS patients, 10 healthy controls, 4 elderly controls, 2 immunosuppressed controls. Higher EBV viral load in sputum of ME/CFS patients (p=0.0256). HHV-6 present in approximately 50% of all participants at similar levels. HAdV detected in immunosuppression and severe ME/CFS cases. Anti-IFN-I autoantibodies not different between groups except in one severe ME/CFS case. Concluded that ME/CFS patients have significantly higher EBV load and that IFN-I autoantibodies cannot explain IFN-I dysfunction except possibly in severe cases.
 
 *Relevance to antibody persistence question:*
 Direct detection of higher EBV viral load in ME/CFS goes beyond antibody evidence to suggest active or increased viral replication. However, sputum may reflect local respiratory mucosal shedding rather than systemic reactivation. Small sample size limits confidence.
@@ -3697,7 +3697,7 @@ Of 101 patients taking low-dose aripiprazole (0.2–2.0 mg/day, mean 1.1 mg/da
     - 12% no response; 14% discontinued due to side effects
 
 *Mechanism:*
-Aripiprazole is a D2 receptor *partial agonist* (intrinsic activity ~25% of full agonism) at all doses — the molecule's mechanism does not change with dose. Because it binds with high affinity and clamps receptor output toward this fixed intermediate set point, its net effect is *tone-dependent*: where ambient dopamine is high (e.g., mesolimbic overactivity in psychosis) it displaces dopamine and reduces signaling, appearing antagonist-like; where ambient dopamine is low (the proposed hypodopaminergic state in ME/CFS) it holds signaling up, appearing agonist-like. Hence the “dopamine stabilizer” label. The relevance of *low* doses (0.2–2 mg) is a matter of fractional receptor occupancy and possible preferential engagement of non-D2 / microglial targets, not a switch in intrinsic activity; whether this constitutes a therapeutically distinct regime versus simply a low, better-tolerated dose has not been established. Proposed mechanisms for ME/CFS benefit:
+Aripiprazole is a D2 receptor *partial agonist* (intrinsic activity approximately 25% of full agonism) at all doses — the molecule's mechanism does not change with dose. Because it binds with high affinity and clamps receptor output toward this fixed intermediate set point, its net effect is *tone-dependent*: where ambient dopamine is high (e.g., mesolimbic overactivity in psychosis) it displaces dopamine and reduces signaling, appearing antagonist-like; where ambient dopamine is low (the proposed hypodopaminergic state in ME/CFS) it holds signaling up, appearing agonist-like. Hence the “dopamine stabilizer” label. The relevance of *low* doses (0.2–2 mg) is a matter of fractional receptor occupancy and possible preferential engagement of non-D2 / microglial targets, not a switch in intrinsic activity; whether this constitutes a therapeutically distinct regime versus simply a low, better-tolerated dose has not been established. Proposed mechanisms for ME/CFS benefit:
 
     - D2 receptor partial agonism may reduce neuroinflammation
     - Modulation of microglial activation
@@ -3905,7 +3905,7 @@ tVNS represents a potential non-pharmacological, home-based intervention for aut
     *Limitations:*: Moderate sample size; TSPO tracers bind to both microglia and astrocytes; single timepoint.
     *Certainty Assessment:*:
         - *Quality:* Medium-High (Brain, Behavior, and Immunity; PET imaging gold standard)
-        - *Sample:* Moderate (n~20)
+        - *Sample:* Moderate (n ≈ 20)
         - *Replication:* First published PASC TSPO PET study
         - *Score:* 0.55
 
@@ -4053,7 +4053,7 @@ tVNS represents a potential non-pharmacological, home-based intervention for aut
     *Limitations:*: Cross-sectional; correlation between neuroinflammation and connectivity cannot establish directionality.
     *Certainty Assessment:*:
         - *Quality:* Medium-High (NeuroImage)
-        - *Sample:* n~50
+        - *Sample:* n ≈ 50
         - *Replication:* Complements VanElzakker 2024
         - *Score:* 0.55
 
@@ -7716,7 +7716,7 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
         - First quantitative in vivo measure of impaired muscle OXPHOS in post-COVID
         - *Certainty: 0.60* — high-quality (Radiology, Oxford), prospective; applies to long COVID, not directly ME/CFS
 
-    *Relevance:*: Establishes a non-invasive quantitative measure of muscle mitochondrial capacity impairment in a condition overlapping ME/CFS. The ~78% prolongation of PCr recovery is a large effect size. This methodology could be applied directly to ME/CFS to close or narrow G7/G8 without requiring invasive biopsy.
+    *Relevance:*: Establishes a non-invasive quantitative measure of muscle mitochondrial capacity impairment in a condition overlapping ME/CFS. The approximately 78% prolongation of PCr recovery is a large effect size. This methodology could be applied directly to ME/CFS to close or narrow G7/G8 without requiring invasive biopsy.
 
 === Park & Jeoung 2016 — Inflammation Drives PDK4 in Skeletal Muscle via JNK
 
@@ -8278,7 +8278,7 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
         - NET markers (MPO-DNA, H3cit, H3cit-DNA complexes) correlated positively with CRP and neutrophil/lymphocyte ratio
         - NET/DNase ratios were markedly elevated in severe patients, indicating insufficient NET clearance
         - DNase1 antigen was lower in severe/critical vs.\ ambulatory COVID-19; DNase1L3 antigen did not rise proportionally
-        - Nine linked _DNASE1_ polymorphisms associated with ~75% reduction in DNase1 antigen (all carriers were critical patients)
+        - Nine linked _DNASE1_ polymorphisms associated with approximately 75% reduction in DNase1 antigen (all carriers were critical patients)
         - Plasmacytoid dendritic cell (pDC) counts reduced in critical patients; scRNAseq showed reduced _DNASE1L3_ expression in pDCs with increasing severity
         - H3cit and H3cit-DNA levels predicted hospitalisation among ambulatory patients
 
@@ -8856,7 +8856,7 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
     - IMC-2+Paxlovid (IP) vs IMC-2-only (IO): PGIC fatigue 2 points higher (p < 0.0001, Cohen's d = 1.8)
     - VAS: IP group reported on average 55.3% greater reduction in fatigue than IO (p < 0.0001)
     - Dysautonomia (d=1.4, p < 0.001) and brain fog (d=1.4, p < 0.001, 7-pt) also favored IP
-    - IP improvements appeared durable: no significant symptom change across 120/305/731-day follow-ups (~600 days post-protocol)
+    - IP improvements appeared durable: no significant symptom change across 120/305/731-day follow-ups (approximately 600 days post-protocol)
     - Regimen tolerated: no AEs in the IO arm; IP-arm side effects were transient and confined to the Paxlovid window (dysgeusia 86.7%, increased fatigue 40%, body aches 26.6%)
     - Renal/hepatic function monitored pre-protocol and q6–8 wk; medication stopped if abnormal
 
@@ -9337,7 +9337,7 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
     *Sample Size:*: $n = 167$ ME/CFS patients across two cohorts, $n = 545$ healthy controls
     *Key Findings:*:
 
-        - Autoantibodies to selenoprotein P (SELENOP-aAb) present in 9.6--15.6% of ME/CFS patients vs 0.9--2.0% of controls (~10-fold enrichment)
+        - Autoantibodies to selenoprotein P (SELENOP-aAb) present in 9.6--15.6% of ME/CFS patients vs 0.9--2.0% of controls (approximately 10-fold enrichment)
         - SELENOP-aAb--positive patients showed lowest deiodinase activity (SPINA-GD: 13.1 vs 15.8, $p < 0.001$)
         - Reduced FT3/FT4 ratio (27.7 vs 34.0, $p < 0.001$) and TT3/TT4 ratio (1.84 vs 2.19, $p = 0.005$)
         - Dramatically lower urinary iodine (43.2 vs 89.0 $mu$g/L, $p < 0.001$)
@@ -9384,7 +9384,7 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
     *Key Findings:*:
 
         - Cardiolipin content directly tracks thyroid status; hypothyroidism depletes cardiolipin
-        - ~4 shared cardiolipins per Complex III/IV interface in supercomplexes
+        - approximately 4 shared cardiolipins per Complex III/IV interface in supercomplexes
         - T3 regulates phospholipid remodeling and membrane unsaturation
         - Clinical disease states with mitochondrial dysfunction show consistent thyroid hormone abnormalities
 
@@ -9405,10 +9405,10 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
     *Study Design:*: Methodological review with experimental data
     *Key Findings:*:
 
-        - p43 (~43 kDa) is a truncated TR$alpha$1 product imported into the mitochondrial matrix
+        - p43 (approximately 43 kDa) is a truncated TR$alpha$1 product imported into the mitochondrial matrix
         - p43 binds T3 and functions as a T3-dependent transcription factor of mitochondrial DNA
         - p43 promotes transcription of all 13 mtDNA-encoded OXPHOS subunits
-        - p28 (~28 kDa) localises to the inner mitochondrial membrane; function unknown
+        - p28 (approximately 28 kDa) localises to the inner mitochondrial membrane; function unknown
 
     *Conclusion:*: Mitochondria have their own thyroid hormone receptor system that directly regulates mtDNA gene expression, independent of nuclear thyroid hormone signaling.
     *Relevance:*: Explains how T3 deficiency can impair mitochondrial function through a direct pathway that bypasses nuclear gene regulation entirely---tissue T3 deficit reduces both nuclear and mitochondrial OXPHOS gene expression simultaneously.
@@ -9590,7 +9590,7 @@ The ME Association recommends checking serum calcium before an ME/CFS diagnosis 
     *PMID:*: 41504896
     *Study Design:*: Narrative review
     *Key Findings:*:
-        - Neuropsychiatric manifestations occur in ~25% of patients with primary hyperparathyroidism
+        - Neuropsychiatric manifestations occur in approximately 25% of patients with primary hyperparathyroidism
         - Symptoms range from depression, anxiety, fatigue and cognitive dysfunction (common) to mania, delirium, psychosis (rare)
         - Proposed multifactorial pathophysiology: elevated PTH and hypercalcemia affecting monoamine neurotransmission and neuroinflammation
     *Conclusion:*: Fatigue and cognitive symptoms of PHPT overlap those of ME/CFS, supporting hyperparathyroidism as a differential to exclude in the pre-ME/CFS-diagnosis workup. (Raw certainty: 0.50, from general population → discounted to 0.38.)
@@ -9629,7 +9629,7 @@ The ME Association recommends checking serum calcium before an ME/CFS diagnosis 
     *PMID:*: 42132449
     *Study Design:*: Narrative review
     *Key Findings:*:
-        - PHPT prevalence ~1% in the general population
+        - PHPT prevalence approximately 1% in the general population
         - Diagnosis requires biochemical testing of serum calcium and PTH plus urine calcium, and screening for complications including neuropsychiatric disturbance
         - Up to 10% have hereditary PHPT; surgery is curative
     *Conclusion:*: Provides the diagnostic workup basis for excluding hyperparathyroidism (serum calcium + PTH) in the pre-ME/CFS-diagnosis evaluation. (Raw certainty: 0.50, from general population → discounted to 0.38.)
@@ -9804,7 +9804,7 @@ _Added 2026-04-10. This section covers the 2022--2026 vascular literature integr
 
     *Full Citation:*: Nunes JM, Kruger A, Proal A, Kell DB, Pretorius E. The Occurrence of Hyperactivated Platelets and Fibrinaloid Microclots in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS). _Pharmaceuticals (Basel)_. 2022;15(8):931.
     *DOI:*: #link("https://doi.org/10.3390/ph15080931")[10.3390/ph15080931]
-    *Key Finding:*: First paper to document fibrinaloid microclots in ME/CFS (not just Long COVID). Microclot area >10-fold greater than controls. Platelet spreading score 2.72 ± 1.24 vs 1.00 (PAC-1 and CD62P markers). Hypercoagulable state in ~50% by thromboelastography.
+    *Key Finding:*: First paper to document fibrinaloid microclots in ME/CFS (not just Long COVID). Microclot area >10-fold greater than controls. Platelet spreading score 2.72 ± 1.24 vs 1.00 (PAC-1 and CD62P markers). Hypercoagulable state in approximately 50% by thromboelastography.
     *Certainty:*: 0.55 — replicated within the Pretorius group; independent replication needed
     *Integrated into:*: Chapter 10 (@sec:hypercoagulability)
 
@@ -9853,7 +9853,7 @@ _Added 2026-04-10. This section covers the 2022--2026 vascular literature integr
 
     *Full Citation:*: Rogers SC, Brummet M, Safari Z, Wang Q, Rowden T, Boyer T, Doctor A. COVID-19 impairs oxygen delivery by altering red blood cell hematological, hemorheological, and oxygen transport properties. _Frontiers in Physiology_. 2024;15:1320697.
     *DOI:*: #link("https://doi.org/10.3389/fphys.2023.1320697")[10.3389/fphys.2023.1320697]
-    *Key Finding:*: Three concurrent RBC defects in COVID-19. Maintaining equivalent oxygen delivery would require ~135% increase in cardiac output — physiologically impossible. Blood type O shows greater deformability impairment than blood type A.
+    *Key Finding:*: Three concurrent RBC defects in COVID-19. Maintaining equivalent oxygen delivery would require approximately 135% increase in cardiac output — physiologically impossible. Blood type O shows greater deformability impairment than blood type A.
     *Certainty:*: 0.55 — quantitative modeling validates clinical severity; COVID-19 acute phase, not ME/CFS
     *Integrated into:*: Chapter 10 (@sec:fibrin, @sec:rbc-deformability)
 
@@ -10195,7 +10195,7 @@ _Added 2026-04-10. This section covers the 2022--2026 vascular literature integr
         - G1409T polymorphism in ANT2 not associated with DCM or functional impairment
         - No autoantibody measurements in this study
 
-    *Conclusion:*: ANT expression-level changes (isoform shift) independently produce a severe (~55%) reduction in ATP transport capacity in diseased cardiac tissue. In ME/CFS, ANT1 expression changes may compound any autoantibody-mediated inhibition, suggesting multiple convergent mechanisms at Step 7.
+    *Conclusion:*: ANT expression-level changes (isoform shift) independently produce a severe (approximately 55%) reduction in ATP transport capacity in diseased cardiac tissue. In ME/CFS, ANT1 expression changes may compound any autoantibody-mediated inhibition, suggesting multiple convergent mechanisms at Step 7.
     *Limitations:*: DCM cardiac tissue only; no ME/CFS data; no autoantibody measurements; whether similar isoform shifts occur in ME/CFS muscle or PBMCs is unknown.
     *Certainty:*: 0.65 (peer-reviewed; quantitatively rigorous; DCM-specific, not ME/CFS)
     *Integrated into:*: G28 integration guide (ANT expression-level dysfunction as independent mechanism)
@@ -10438,7 +10438,7 @@ _Added 2026-04-10. This section covers the 2022--2026 vascular literature integr
         - Heterogeneity in effect sizes attributable to varying methodology and effector-to-target ratios, not absence of effect
         - Dysfunction confirmed across multiple independent research groups
 
-    *Wound Healing Relevance:*: NK cells are mechanistically required for wound healing (see Sobecki 2021 and Petri 2017). ME/CFS NK cells are reduced to ~50% functional capacity by the most rigorous meta-analytic standard available. This directly undermines any claim that wound healing proceeds normally in ME/CFS.
+    *Wound Healing Relevance:*: NK cells are mechanistically required for wound healing (see Sobecki 2021 and Petri 2017). ME/CFS NK cells are reduced to approximately 50% functional capacity by the most rigorous meta-analytic standard available. This directly undermines any claim that wound healing proceeds normally in ME/CFS.
     *Limitations:*: Meta-analysis of heterogeneous studies; effect size variability; does not directly measure wound healing outcomes.
     *Certainty:*: 0.90 (high --- large multi-study meta-analysis; well-powered; independent replication across 28 studies)
     *Integrated into:*: Wound healing integration guide for ch06-energy-metabolism
@@ -10571,7 +10571,7 @@ _Added 2026-04-10. This section covers the 2022--2026 vascular literature integr
         - Sufficient at this range for partial GSK-3$beta$ inhibition and BDNF upregulation
         - First RCT testing lithium at sub-psychiatric doses in a post-infectious condition with substantial ME/CFS overlap
 
-    *Relevance:*: Only existing RCT testing low-dose lithium in a condition closely overlapping ME/CFS (many Long COVID patients meet IOM ME/CFS criteria). Establishes a clear dose--response threshold (~40 mg/day). Provides proof-of-concept for a ME/CFS-specific trial. Mechanistically interpretable: partial GSK-3$beta$ inhibition and BDNF upregulation occur at sub-therapeutic serum concentrations, consistent with Dwivedi 2016 preclinical data.
+    *Relevance:*: Only existing RCT testing low-dose lithium in a condition closely overlapping ME/CFS (many Long COVID patients meet IOM ME/CFS criteria). Establishes a clear dose--response threshold (approximately 40 mg/day). Provides proof-of-concept for a ME/CFS-specific trial. Mechanistically interpretable: partial GSK-3$beta$ inhibition and BDNF upregulation occur at sub-therapeutic serum concentrations, consistent with Dwivedi 2016 preclinical data.
     *Limitations:*: Not ME/CFS-specific; no mechanistic biomarker measurements (BDNF, GSK-3$beta$ phosphorylation); serum concentration data only from the non-randomized dose-escalation substudy; sample size insufficient for subgroup analyses.
     *Certainty Assessment:*:
 
@@ -10861,7 +10861,7 @@ This section covers the foundational mechanosensation and nociception literature
     *Published:*: February 2021
     *Study Design:*: In vitro primary sensory neuron cultures; COX2 inhibitors; RT-PCR and calcium imaging
     *Key Findings:*:
-        - TRPV1 activation induces COX2 (cyclooxygenase-2) upregulation in sensory neurons within ~30 minutes
+        - TRPV1 activation induces COX2 (cyclooxygenase-2) upregulation in sensory neurons within approximately 30 minutes
         - COX2-derived prostaglandins re-sensitize TRPV1 via EP receptors, creating a feed-forward amplification loop
         - Loop can be broken by COX2 inhibitors (NSAIDs) or TRPV1 antagonists
         - Demonstrates TRPV1 is both sensor and amplifier in nociceptive sensitization
@@ -11127,13 +11127,13 @@ This section covers the foundational mechanosensation and nociception literature
         - Early onset peak: mean 16.0 years (SD 4.3); late onset peak: mean 36.6 years (SD 10.5)
         - Dip test highly significant for Norway and all-other-countries combined ($p lt 2 times 10^(-16)$)
         - Six of nine non-Norway countries individually significant
-        - Replicated in DecodeME (early peak ~18.8, late peak ~40.1)
+        - Replicated in DecodeME (early peak approximately 18.8, late peak approximately 40.1)
         - Infection as trigger: 57% early vs.\ 47% late onset ($p = 2.1 times 10^(-13)$)
         - Infectious mononucleosis specifically: OR 2.32 for early onset ($p = 2.4 times 10^(-24)$)
         - Severity: early onset OR 2.15 for severe/very severe ($p lt 2 times 10^(-16)$)
         - Familial clustering: OR 1.43 for early onset with affected first-degree relative ($p = 4.4 times 10^(-7)$)
         - No significant gender difference between peaks ($p = 0.21$)
-    *Conclusion:*: ME/CFS has two robust onset age peaks (~16 and ~37 years) replicated across multiple European countries and an independent dataset. Early onset is associated with infectious triggers (especially IM), greater severity, and familial clustering, suggesting distinct biological substrates for the two peaks.
+    *Conclusion:*: ME/CFS has two robust onset age peaks (approximately 16 and approximately 37 years) replicated across multiple European countries and an independent dataset. Early onset is associated with infectious triggers (especially IM), greater severity, and familial clustering, suggesting distinct biological substrates for the two peaks.
     *Limitations:*: Self-report survey data; selection bias (promoted by ME organisations); only diagnosed patients; onset age from recall; DecodeME onset age approximated (±2.5 year error). Cross-sectional design cannot establish causation for observed associations.
     *Certainty Assessment:*:
         - *Quality:* Medium (self-report; moderate journal; but large n and independent replication)
@@ -11193,11 +11193,11 @@ This section covers the foundational mechanosensation and nociception literature
         - 13% of adolescents met CFS criteria 6 months after acute IM
         - IM is a specific risk factor for CFS in adolescents
         - Onset in adolescence consistent with early ME/CFS peak
-    *Conclusion:*: Infectious mononucleosis is a major driver of the early-onset ME/CFS peak, with ~13% of affected adolescents progressing to CFS.
+    *Conclusion:*: Infectious mononucleosis is a major driver of the early-onset ME/CFS peak, with approximately 13% of affected adolescents progressing to CFS.
     *Limitations:*: Small sample; single centre.
     *Certainty Assessment:*:
         - *Quality:* Medium (prospective design, peer-reviewed, but small n)
-        - *Sample:* Small (n~200)
+        - *Sample:* Small (n ≈ 200)
         - *Replication:* Consistent with McGrath 2026 DecodeME finding (IM OR 2.32 for early onset)
         - *Score:* 0.55
 
@@ -11558,7 +11558,7 @@ This section covers the foundational mechanosensation and nociception literature
     *Sample Size:*: Large multi-arm; human cross-sectional cohort (n not specified in abstract); rodent lifespan study (hundreds of mice)
     *Key Findings:*:
         - Taurine concentrations decline progressively with age across mice, monkeys, and humans
-        - Taurine supplementation extended average lifespan in mice by ~10--12%; improved healthspan in primates
+        - Taurine supplementation extended average lifespan in mice by approximately 10--12%; improved healthspan in primates
         - Mechanisms: reduced cellular senescence, telomerase protection, suppressed mitochondrial dysfunction, decreased DNA damage, attenuated inflammaging
         - Exercise transiently elevates taurine levels in humans
         - Human clinical trials recommended
@@ -11654,7 +11654,7 @@ This section covers the foundational mechanosensation and nociception literature
     *DOI:*: #link("https://doi.org/10.1177/1753944717711138")[10.1177/1753944717711138]
     *PMID:*: 28580833
     *Study Design:*: Randomized controlled trial; 2-week intervention; before/after incremental exercise test
-    *Sample Size:*: ~30 heart failure patients (taurine 1,500 mg/day vs placebo)
+    *Sample Size:*: approximately 30 heart failure patients (taurine 1,500 mg/day vs placebo)
     *Key Findings:*:
         - CRP and platelet counts decreased significantly in taurine group post-supplementation
         - Atherogenic indices (Castelli risk indices, atherogenic coefficient) improved with taurine but not placebo
@@ -12007,8 +12007,8 @@ This section covers: (1) the discovery that TRP channels can adopt pentameric st
     *Study Design:*: High-speed atomic force microscopy (HS-AFM) + cryo-EM structural biology; lipid bilayer reconstitution
     *Key Findings:*:
         - TRPV3 channels exist in dynamic equilibrium between canonical tetramers and pentamers via membrane diffusive protomer exchange
-        - Pentamer average lifetime ~3 minutes; DPBA agonist significantly increases pentamer frequency
-        - Pentameric pore is ~2.4-fold wider at selectivity filter vs.\ tetramer; subunits undergo 18-degree hinge motion
+        - Pentamer average lifetime approximately 3 minutes; DPBA agonist significantly increases pentamer frequency
+        - Pentameric pore is approximately 2.4-fold wider at selectivity filter vs.\ tetramer; subunits undergo 18-degree hinge motion
         - Enlarged pore explains the well-documented "pore-dilation phenomenon": prolonged activation leads to increased conductance and permeability to large ions
         - First demonstration of non-tetrameric stoichiometry with functional consequence in any TRP channel
     *Conclusion:*: TRP channels are not constrained to tetrameric stoichiometry; pentamer formation represents a structurally distinct hyper-conductive state with dramatically increased ion flux.
@@ -12173,7 +12173,7 @@ This section covers: (1) the discovery that TRP channels can adopt pentameric st
         - Tightly synchronized infraslow oscillations in norepinephrine (NE), cerebral blood volume (CBV), and CSF are the strongest predictors of glymphatic clearance during NREM sleep
         - NE released from locus coeruleus (LC) drives slow rhythmic constriction and dilation of cerebral arteries (vasomotion); because CBV and CSF share the confined intracranial space, arterial contraction displaces CSF inward --- a hydraulic pump
         - Optogenetic stimulation of LC induced anti-correlated changes in vasomotion and CSF signal; artificial arterial oscillations enhanced CSF inflow into brain parenchyma
-        - Zolpidem (common sleep aid) suppressed NE oscillations by ~50% and proportionally reduced glymphatic flow, despite maintaining sleep --- dissociating sleep duration from clearance efficacy
+        - Zolpidem (common sleep aid) suppressed NE oscillations by approximately 50% and proportionally reduced glymphatic flow, despite maintaining sleep --- dissociating sleep duration from clearance efficacy
         - Adrenergic receptor blockade (pan-adrenergic) eliminated LC-induced vascular effects, confirming NE-adrenergic signaling as the mechanistic driver
     *Conclusion:*: The LC-NE axis is a master regulator of glymphatic clearance during sleep. Chronic autonomic dysfunction (including ME/CFS dysautonomia) and medications that suppress NE oscillations may directly impair brain waste clearance regardless of total sleep time.
     *Limitations:*: Mouse model; human validation pending; multiple experiments use small n; zolpidem effects in humans require dedicated study.
@@ -12192,8 +12192,8 @@ This section covers: (1) the discovery that TRP channels can adopt pentameric st
     *Study Design:*: Observational human neuroimaging study; simultaneous EEG + accelerated fMRI measuring neural activity, hemodynamics, and fourth-ventricle CSF flow during sleep and wakefulness
     *Sample Size:*: n=13 subjects (sleep); n=11 (wakefulness); 129 analyzed sleep segments
     *Key Findings:*:
-        - During NREM sleep, neural slow waves are followed by hemodynamic oscillations (CBV decrease), which are coupled to large inward pulses of CSF through the fourth ventricle --- one wave every ~20 seconds
-        - CSF waves during sleep are macroscopically visible and far larger than those during wakefulness (~4-second smaller waves while awake)
+        - During NREM sleep, neural slow waves are followed by hemodynamic oscillations (CBV decrease), which are coupled to large inward pulses of CSF through the fourth ventricle --- one wave every approximately 20 seconds
+        - CSF waves during sleep are macroscopically visible and far larger than those during wakefulness (approximately 4-second smaller waves while awake)
         - The three signals (EEG slow waves #sym.arrow blood volume #sym.arrow CSF flow) form a temporally ordered, predictable cascade
         - Provides the first direct human evidence that NREM slow wave activity mechanistically drives CSF clearance
     *Conclusion:*: Human confirmatory data showing that the glymphatic pump is engaged during NREM sleep and driven by the slow-wave EEG signature. NREM slow-wave deficits (documented in ME/CFS) would directly reduce this CSF pump activity.
@@ -12213,7 +12213,7 @@ This section covers: (1) the discovery that TRP channels can adopt pentameric st
     *Study Design:*: Combined mouse ISF microdialysis, human CSF sampling during acute sleep deprivation, chemogenetic wakefulness induction, tau seeding/spreading model
     *Sample Size:*: Human arm n=4--6; mouse arms n=6--16 per condition
     *Key Findings:*:
-        - Brain ISF tau was ~90% higher during normal wakefulness vs.\ sleep; ~100% higher during sleep deprivation (SD) vs.\ sleep
+        - Brain ISF tau was approximately 90% higher during normal wakefulness vs.\ sleep; approximately 100% higher during sleep deprivation (SD) vs.\ sleep
         - Human CSF tau increased >50% after one night of total sleep deprivation
         - Chemogenetically driven wakefulness in mice significantly increased both ISF amyloid-#sym.beta and tau
         - Chronic SD enhanced tau pathology spreading in a tau seeding-and-spreading model, suggesting accumulation is not merely transient
@@ -12277,7 +12277,7 @@ This section covers: (1) the discovery that TRP channels can adopt pentameric st
     *Study Design:*: Invited review; comprehensive synthesis of glymphatic system biology from Nedergaard lab
     *Key Findings:*:
         - Describes structural basis: perivascular channels around arteries (CSF influx) and veins (ISF efflux), facilitated by AQP4 water channels on astrocytic endfeet
-        - Astrocyte and blood vessel geometry determines perivascular space shape and fluid transport rate; AQP4 deletion reduces clearance by ~70%
+        - Astrocyte and blood vessel geometry determines perivascular space shape and fluid transport rate; AQP4 deletion reduces clearance by approximately 70%
         - Acute hypertension stiffens arterial walls, reduces pulsatility, and reduces perivascular fluid flow by up to 50%
         - Cross-talk documented between glymphatic, cardiovascular, gastrointestinal, and lymphatic systems; positions glymphatic/lymphatic axis as a "cornerstone in signaling between the brain and body"
     *Conclusion:*: Authoritative review establishing the biological foundation for glymphatic-ME/CFS hypotheses. The cardiovascular cross-talk is directly relevant: ME/CFS cardiovascular dysfunction (reduced cardiac output, OI, POTS) reduces the arterial pulsatility driving glymphatic flow.
@@ -12571,9 +12571,9 @@ This section covers: (1) the discovery that TRP channels can adopt pentameric st
         - 29.7% of 158 adult CFS patients had childhood ADHD; 20.9% had persistent adult ADHD
         - CFS + ADHD patients: earlier CFS onset, more anxiety/depression, higher suicide risk
         - ADHD severity and depressive symptoms independently predicted fatigue intensity
-    *Conclusion:*: ADHD is a common comorbidity in CFS (~30% childhood prevalence). Comorbid ADHD worsens prognosis.
+    *Conclusion:*: ADHD is a common comorbidity in CFS (approximately 30% childhood prevalence). Comorbid ADHD worsens prognosis.
     *Limitations:*: Cross-sectional; recall bias; single specialist clinic; Oxford CFS criteria.
-    *ME/CFS Relevance:*: Primary source for ~30% childhood ADHD prevalence in CFS. Consistent with lower metabolic baseline predisposing to ME/CFS.
+    *ME/CFS Relevance:*: Primary source for approximately 30% childhood ADHD prevalence in CFS. Consistent with lower metabolic baseline predisposing to ME/CFS.
     *Certainty Assessment:*:
         - *Quality:* Medium (single-centre)
         - *Sample:* n=158
@@ -12625,11 +12625,11 @@ This section covers: (1) the discovery that TRP channels can adopt pentameric st
     *PMID:*: 29050505
     *Article Type:*: Longitudinal follow-up (MTA comparison group, n=239)
     *Key Findings:*:
-        - ~95% of individuals who screened positive on symptom checklists were excluded from a late-onset ADHD diagnosis on comprehensive assessment
+        - approximately 95% of individuals who screened positive on symptom checklists were excluded from a late-onset ADHD diagnosis on comprehensive assessment
         - Most common exclusion: symptoms occurring exclusively in the context of heavy substance use
         - Most late-onset cases were adolescence-limited; no evidence for adult-onset ADHD independent of a complex psychiatric history
     *Conclusion:*: Strongly qualifies the Moffitt 2015 distinct-syndrome reading: much apparent adult-onset ADHD reflects measurement artifact, comorbidity, or substance use.
-    *Limitations:*: Single US cohort (MTA comparison group); ADHD assessment every ~2 years.
+    *Limitations:*: Single US cohort (MTA comparison group); ADHD assessment every approximately 2 years.
     *ME/CFS Relevance:*: If most adult-onset ADHD is adolescent-onset or missed-childhood rather than a distinct adult-onset syndrome, the "ADHD as acquired post-infectious catecholamine depletion" reading applies to a narrower subset.
     *Certainty Assessment:*:
         - *Quality:* High (repeated comprehensive multi-informant assessments)
@@ -12745,7 +12745,7 @@ This section covers: (1) the discovery that TRP channels can adopt pentameric st
     *ME/CFS Relevance:*: If ADHD and ASD co-occur 22× more often than expected by chance, ME/CFS patients carrying one neurodevelopmental condition have dramatically elevated probability of carrying both — relevant to the multiplicative reserve reduction model.
     *Certainty Assessment:*:
         - *Quality:* High (largest familial co-aggregation study; top journal)
-        - *Sample:* ~1.9M individuals
+        - *Sample:* approximately 1.9M individuals
         - *Replication:* Consistent with twin literature
         - *Score:* 0.92
 
@@ -12830,7 +12830,7 @@ This section covers: (1) the discovery that TRP channels can adopt pentameric st
     *Article Type:*: GWAS
     *Key Findings:*:
         - Largest ASD GWAS at publication (N=18,381 cases, 27,969 controls)
-        - 5 genome-wide significant loci + 7 likely; SNP heritability ~0.12
+        - 5 genome-wide significant loci + 7 likely; SNP heritability approximately 0.12
         - Genetic correlation ASD--ADHD: r#sub[g]=0.35--0.41
     *Conclusion:*: Common variants contribute to ASD risk; confirmed molecular overlap with ADHD.
     *Limitations:*: Modest SNP heritability suggests rare variants play larger role in ASD; European only.
@@ -12884,7 +12884,7 @@ This section covers: (1) the discovery that TRP channels can adopt pentameric st
     *Article Type:*: MiXeR genomic analysis
     *Key Findings:*:
         - MiXeR analysis across 8 mental disorders (N up to 500K)
-        - ADHD and ASD extensively polygenic (~10K variants each)
+        - ADHD and ASD extensively polygenic (approximately 10K variants each)
         - Highly overlapping variant sets across neurodevelopmental disorders
         - ADHD shared more variants with ASD than with mood disorders
     *Conclusion:*: The genetic overlap between neurodevelopmental disorders is more extensive than genetic correlation estimates alone suggest — variant-level overlap exceeds what r#sub[g] captures.
@@ -12921,7 +12921,7 @@ This section covers: (1) the discovery that TRP channels can adopt pentameric st
     *Article Type:*: GWAS
     *Key Findings:*:
         - N=301,732 anxiety GWAS (UKB + MVP)
-        - Anxiety polygenic with ~12.9K variants
+        - Anxiety polygenic with approximately 12.9K variants
         - Shared loci: 20 with ADHD, 5 with ASD
         - Cell adhesion and neurofibrillary pathways enriched
     *Conclusion:*: Anxiety shares extensive polygenic overlap with ADHD and ASD — anxiety may be a genetic bridge linking neurodevelopmental disorders to internalising symptoms (including fatigue).
@@ -12998,7 +12998,7 @@ This section covers: (1) the discovery that TRP channels can adopt pentameric st
     *Article Type:*: Retrospective cohort
     *Key Findings:*:
         - Taiwan NHIRD: n=6,902 migraine vs. n=27,608 controls
-        - CFS incidence IRR ~1.5; age ≥65: IRR=2.11
+        - CFS incidence IRR approximately 1.5; age ≥65: IRR=2.11
         - Dose-response with migraine frequency
     *Conclusion:*: Migraine history predisposes to CFS, with cumulative mitochondrial depletion as proposed mechanism.
     *Limitations:*: ICD-based diagnoses; Taiwan cohort; CFS criteria unspecified.
@@ -13054,7 +13054,7 @@ This section covers: (1) the discovery that TRP channels can adopt pentameric st
     *PMID:*: 40869351
     *Article Type:*: Narrative review with case series
     *Key Findings:*:
-        - GCH1 rs841 AA (~4% population): reduced BH4 → impaired dopamine/NE/serotonin/NO synthesis
+        - GCH1 rs841 AA (approximately 4% population): reduced BH4 → impaired dopamine/NE/serotonin/NO synthesis
         - Associated with ADHD, ASD, depression, PMDD, insomnia
         - n=5 case reports: BH4 supplementation improved ADHD behavior
     *Conclusion:*: GCH1 rs841 as a high-frequency shared genetic vulnerability across neurodevelopmental conditions and ME/CFS.
@@ -13171,7 +13171,7 @@ This section covers: (1) the discovery that TRP channels can adopt pentameric st
     *PMC:*: PMC11163340
     *Article Type:*: Narrative review
     *Key Findings:*:
-        - mtDNA copy number ~1.3x higher in ADHD vs controls (multiple studies)
+        - mtDNA copy number approximately 1.3x higher in ADHD vs controls (multiple studies)
         - Haplogroup B4 increases ADHD risk; K and U reduce risk in European populations
         - 10398 A/G polymorphism significantly associated with ADHD in Korean cohort
         - Mitochondrial apoptotic signaling: second strongest mechanism in ADHD cases (GWAS data)
@@ -13626,7 +13626,7 @@ This section covers: (1) the discovery that TRP channels can adopt pentameric st
         - H2S inhibits mitochondrial Complex IV (cytochrome c oxidase) via the binuclear center (CuB + heme a3) — the same site as cyanide
         - Inhibition is biphasic: at least two successive inhibited enzyme states, with partial reversibility if sulfide oxidation clears the active site
         - At low concentrations H2S acts as an electron donor to the ETC; at 3–30× higher concentrations it switches to being a Complex IV inhibitor
-        - IC50 for the related bacterial bo3 terminal oxidase: ~1.1 μM — eukaryotic Complex IV is in a similar range
+        - IC50 for the related bacterial bo3 terminal oxidase: approximately 1.1 μM — eukaryotic Complex IV is in a similar range
 
     *Conclusion:*: H2S is a concentration-dependent reversible inhibitor of Complex IV. The therapeutic/toxicological boundary is at low micromolar levels.
     *Quality:*: High — foundational mechanistic biochemistry
@@ -13924,7 +13924,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     *Study Design:*: Narrative review
     *Key Findings:*:
 
-        - Only ~1% of total body magnesium is in blood; 99% is intracellular (53% bone, 27% muscle, 19% other tissues)
+        - Only approximately 1% of total body magnesium is in blood; 99% is intracellular (53% bone, 27% muscle, 19% other tissues)
         - Standard serum magnesium assay has "no reliable correlation" with total body or tissue magnesium levels
         - Serum levels are tightly regulated by renal excretion and remain "normal" even when total body stores are depleted
         - No validated rapid bedside test for true magnesium status exists
@@ -14102,7 +14102,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
         - Meta-epidemiological analysis (BRANDO collaboration): 1,973 RCTs within 234 meta-analyses
         - Trials lacking double-blinding exaggerate intervention effects by average 13% (ROR 0.87)
         - Bias driven entirely by trials with subjective outcomes; negligible in objective/mortality outcome trials
-        - Subjective-outcome trials without blinding: ~23% exaggeration (ROR ~0.77)
+        - Subjective-outcome trials without blinding: approximately 23% exaggeration (ROR approximately 0.77)
 
     *Relevance:*: Primary BRANDO project publication. Establishes the quantitative basis for critiquing all unblinded ME/CFS behavioral intervention trials. Directly applicable to the 2025--2026 exercise meta-analysis cluster.
     *Certainty Assessment:*:
@@ -14510,7 +14510,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
         - Suspected mast cell activation syndrome (MCAS) in 70% of cases
         - Joint hypermobility in 78.3% (more prevalent in females); consistent with hypermobile EDS overlap
         - Migraine in 51.6%; tension-type headache in 57.4%
-        - Head trauma or concussion history in ~40%
+        - Head trauma or concussion history in approximately 40%
         - Vestibular dysfunction and convergence disorder identified as previously underrecognized comorbidities
         - Telemedicine format shown feasible for comprehensive POTS evaluation
     *Conclusion:*: Largest pediatric/young adult telemedicine POTS cohort to date. The high prevalence of MCAS (70%), joint hypermobility (78.3%), and neurological comorbidities (migraine, vestibular, convergence) in this cohort aligns with the emerging "dysautonomia triad" framework linking POTS, MCAS, and hypermobile connective tissue disorders. The concussion history finding (40%) raises questions about head trauma as a precipitant or comorbidity. Telemedicine feasibility is relevant for the severely affected ME/CFS subgroup.
@@ -15072,7 +15072,7 @@ deficiency, supporting a pharmacological rather than replacement rationale.
     *Full Citation:*: Chalder L, Elremaly W, Li D, Fang Y, Caraus I, Leveau C, Elbakry M, Franco A, Godbout C, Di Tomasso G, Nepotchatykh E, Rostami-Afshari B, Gimenez M, Moreau A. "PTPRN2 hypomethylation and PHB2-associated miR-153-3p maturation define dual epigenetic features linked to symptom variability in myalgic encephalomyelitis." _Journal of Translational Medicine_. 2026.
     *DOI:*: #link("https://doi.org/10.1186/s12967-026-08162-6")[10.1186/s12967-026-08162-6]
     *PMID:*: not available at time of writing
-    *Study Design:*: Cross-sectional EWAS; saliva DNA methylation (~850,000 CpG sites, Illumina EPIC array); n=54 ME/CFS vs 21 sedentary controls; University of Montreal group (Moreau).
+    *Study Design:*: Cross-sectional EWAS; saliva DNA methylation (approximately 850,000 CpG sites, Illumina EPIC array); n=54 ME/CFS vs 21 sedentary controls; University of Montreal group (Moreau).
     *Key Findings:*:
         - PTPRN2 hypomethylation identified and survives multiple-testing correction; enables patient subgrouping by epigenetic profile
         - PTPRN2 hypomethylation associated with brain fog and cognitive difficulties
@@ -15159,7 +15159,7 @@ deficiency, supporting a pharmacological rather than replacement rationale.
         - PCA separates ME/CFS, LC, and HC into three distinct clusters; global methylomes otherwise similar across chromosomes except sex chromosomes.
         - Promoter/exon DMFs mainly hypermethylated; 12 promoter and 6 exon DMFs linked to genes (e.g., LGALS3, CHD7, STAT5A, ABCA7) relevant to immune and metabolic function.
         - 6 of 26 divergent DMFs show opposite-direction methylation between LC and ME/CFS (five hypermethylated in LC but hypomethylated in ME/CFS; one the reverse) — potential disease-specific signatures.
-    *Conclusion:*: Documents a generally shared epigenetic makeup between ME/CFS and Long COVID with specific, distinct methylation changes. Differences likely reflect disease stage (LC ~1 year vs ME/CFS ~12 years from onset) or SARS-CoV-2-specific effects. Establishes the comparative methylome as a foundation for larger, stage-matched studies.
+    *Conclusion:*: Documents a generally shared epigenetic makeup between ME/CFS and Long COVID with specific, distinct methylation changes. Differences likely reflect disease stage (LC approximately 1 year vs ME/CFS approximately 12 years from onset) or SARS-CoV-2-specific effects. Establishes the comparative methylome as a foundation for larger, stage-matched studies.
     *Limitations:*: Very small n (5 per cohort); single lab (Otago, no independent replication); cross-sectional (no directionality); PBMC proxy, not tissue/brain; functional significance of DMFs not experimentally validated; stage mismatch (LC 1 yr vs ME/CFS 12 yr) confounds disease-specific vs time-from-onset attribution.
     *Certainty:*: 0.52
 
@@ -15274,7 +15274,7 @@ deficiency, supporting a pharmacological rather than replacement rationale.
         - 59% of identified genes overlap with prior ME/CFS methylation studies (cross-study convergence signal)
         - Enriched pathways: immune, metabolic, and neurological functions
     *Conclusion:*: RRBS-based evidence for systematic DNA methylation dysregulation in ME/CFS PBMCs, with neurological pathway enrichment. Provides independent support for epigenetic involvement in ME/CFS distinct from the saliva-based Chalder 2026 approach.
-    *Limitations:*: Very small n=10; RRBS covers ~1% of CpG sites; no sex stratification.
+    *Limitations:*: Very small n=10; RRBS covers approximately 1% of CpG sites; no sex stratification.
     *Certainty:*: 0.40
 
 === Przybylowicz et al.\ 2023 --- DNA Methylation Re-Analysis in Fibromyalgia and CFS
@@ -15510,7 +15510,7 @@ deficiency, supporting a pharmacological rather than replacement rationale.
     *Key Findings:*:
         - All SARS-CoV-2 variants activate PKR-mediated eIF2alpha phosphorylation
         - Delta: weaker PKR activation and eIF2alpha phosphorylation than ancestral
-        - Omicron: ~60% of infected cells form stress granules vs ~5% for ancestral/Delta
+        - Omicron: approximately 60% of infected cells form stress granules vs approximately 5% for ancestral/Delta
         - Omicron nucleocapsid less efficient at suppressing ISR than earlier variants
     *Conclusion:*: Variant-specific ISR manipulation differences may contribute to different clinical and long COVID profiles across pandemic waves. Omicron's reduced ISR suppression correlates with different acute severity and possibly different long COVID patterns.
     *Limitations:*: Cell-based only; no direct long COVID patient data; mechanism-to-symptom extrapolation requires clinical studies.
@@ -15586,7 +15586,7 @@ deficiency, supporting a pharmacological rather than replacement rationale.
         - Immunosuppressive mediators induced: IL-10, IL-35, IDO1, TGFβ
         - Recipient fibroblasts (MRC5) upregulate centromere/kinetochore genes (CENPA/NDC80, PLK1/NEK2 modules) by up to 10-fold
         - "Infected" fibroblasts become secondary transmitters, packaging and releasing HSAT2 in their own EVs; transmitted through ≥3 serial passages
-        - RT inhibitor AZT reduces HSAT2 accumulation ~1.6-fold, suggesting partial RT-dependent propagation
+        - RT inhibitor AZT reduces HSAT2 accumulation approximately 1.6-fold, suggesting partial RT-dependent propagation
         - Pol II inhibitor DRB strongly blocks HSAT2 accumulation
     *Conclusion:*: Pericentromeric (HSAT2) and retroelement (HERV-K, LINE-1) RNAs are selectively packaged into exosomes and transmitted cell-to-cell, inducing sustained immunosuppressive phenotypes that propagate autonomously. This represents a novel paracrine immune suppression mechanism with viral-infection-like spread properties.
     *ME/CFS Relevance:*: If viral triggers (EBV, HHV-6, SARS-CoV-2) induce HSAT2 expression — as demonstrated for HSV-1 @Nogalski2019HSATII and plausible via DNA methylation disruption @Shadle2019HSATII — the exosomal propagation mechanism could sustain MDSC expansion and T-cell exhaustion long after viral clearance. Provides a concrete mechanism for chronic self-perpetuating immune suppression without persistent viral replication.
@@ -15709,7 +15709,7 @@ deficiency, supporting a pharmacological rather than replacement rationale.
     *PMID:*: 39483457
     *Study Design:*: Systematic meta-analysis; 28 publications; 55 effector:target ratio data points comparing ME/CFS patients to healthy controls.
     *Key Findings:*:
-        - NK cytotoxicity in ME/CFS significantly reduced to ~50% of healthy control levels
+        - NK cytotoxicity in ME/CFS significantly reduced to approximately 50% of healthy control levels
         - Overall Hedges' g = 0.96 (95% CI: 0.75--1.18) — large effect size
         - Finding replicated across 30+ years of independent studies
         - Establishes NK cell dysfunction as the most reproducible immune abnormality in ME/CFS
@@ -15764,7 +15764,7 @@ deficiency, supporting a pharmacological rather than replacement rationale.
     *Full Citation:*: Beliakova-Bethell N, Maruthai K, Xu R, Salvador LCM, Garg A. "Monocytic-Myeloid Derived Suppressor Cells Suppress T-Cell Responses in Recovered SARS CoV2-Infected Individuals." _Frontiers in Immunology_. 2022;13:894543.
     *DOI:*: #link("https://doi.org/10.3389/fimmu.2022.894543")[10.3389/fimmu.2022.894543]
     *PMID:*: 35812392
-    *Study Design:*: Cross-sectional; n=22 (13 CoV2+, 9 CoV2- controls) at ~5 months post-infection; flow cytometry + MDSC depletion assays + transcriptomics.
+    *Study Design:*: Cross-sectional; n=22 (13 CoV2+, 9 CoV2- controls) at approximately 5 months post-infection; flow cytometry + MDSC depletion assays + transcriptomics.
     *Key Findings:*:
         - M-MDSC frequency significantly elevated at 5 months post-SARS-CoV-2 (0.9 ± 0.2% vs 0.2 ± 0.09%; p=0.03)
         - Elevated M-MDSC correlates with persistent IL-6 elevation (Pearson r=0.62; p=0.02)
@@ -15866,7 +15866,7 @@ deficiency, supporting a pharmacological rather than replacement rationale.
         - Standard threshold for nSB induction: 42°C in most human cell lines; non-cancer primary cell data limited
     *Conclusion:*: HSF1 directly regulates HSAT2 transcription under heat shock via nuclear stress body formation. Establishes the molecular basis for spec:heat-hsat2-caution.
     *ME/CFS Relevance:*: Provides the mechanistic link between heat-stress interventions (sauna, hot bath) and HSAT2 transcription. If patients reach HSF1-activating temperatures in immune cells or stromal fibroblasts, pericentromeric HSAT2 transcription could increase. T lymphocytes activate HSF1 at 39°C (fever-range) per Murapa 2007, but nSB formation at this temperature is undocumented.
-    *Limitations:*: Cancer cell lines primarily; 42°C exceeds normal therapeutic sauna temperatures (core temperature rise during 15-min sauna typically ~0.5–1.5°C); primary non-cancer immune cell data absent.
+    *Limitations:*: Cancer cell lines primarily; 42°C exceeds normal therapeutic sauna temperatures (core temperature rise during 15-min sauna typically approximately 0.5–1.5°C); primary non-cancer immune cell data absent.
     *Certainty:*: 0.70 (mechanistic; direct evidence for HSF1-HSAT2 binding; generalization to physiological sauna conditions and ME/CFS immune cells is speculative)
 
 === Heat Shock Pathway as Primary Regulator of Satellite 2 Transcription (Not DNA Methylation)
@@ -16063,7 +16063,7 @@ deficiency, supporting a pharmacological rather than replacement rationale.
         - Detected 5/7 early-stage cases with normal CA19-9
         - Median serum HSATII: 14.75 vs 3.17 copies/µL (cancer vs control)
     *Conclusion:*: Circulating HSATII RNA is detectable and diagnostically useful in pancreatic cancer. TRAP-ddPCR is currently the only published validated method.
-    *ME/CFS Relevance:*: Provides the technical precedent for spec:hsat2-biomarker-panel. Any ME/CFS EV-HSAT2 study must adapt or validate TRAP-ddPCR from serum to plasma EV fractions. Expected concentrations in ME/CFS are far below the 14.75 copies/µL cancer signal; the method's sensitivity limit (~1 copy/µL) may be a constraint in non-cancer chronic disease settings.
+    *ME/CFS Relevance:*: Provides the technical precedent for spec:hsat2-biomarker-panel. Any ME/CFS EV-HSAT2 study must adapt or validate TRAP-ddPCR from serum to plasma EV fractions. Expected concentrations in ME/CFS are far below the 14.75 copies/µL cancer signal; the method's sensitivity limit (approximately 1 copy/µL) may be a constraint in non-cancer chronic disease settings.
     *Limitations:*: Serum not plasma; EV fraction not separately analyzed; single group (University of Tokyo / Harvard); not independently replicated in pancreatic cancer or any other disease; small cohorts.
     *Certainty:*: 0.65 (cancer biomarker; reasonable n; AUC >0.9; single group; serum vs plasma distinction relevant to ME/CFS protocol)
 
@@ -16082,7 +16082,7 @@ deficiency, supporting a pharmacological rather than replacement rationale.
         - Decreases significantly after treatment
         - Suppression is iNOS-dependent (L-NMMA restores CD4+ T cell proliferation and IFN-γ); distinct from arginase-1 mechanism in cancer/post-COVID
     *Conclusion:*: M-MDSCs are elevated in active SLE and correlate with disease activity; iNOS-dependent suppression.
-    *ME/CFS Relevance:*: Best available chronic non-viral autoimmune reference for spec:mdsc-biomarker. Provides M-MDSC frequency benchmark in healthy adults (~0.2–0.5% PBMCs) and in a chronic immune dysregulation context. Note: no ME/CFS-specific MDSC data exists; SLE has distinct pathophysiology (active autoantibody-driven inflammation). The iNOS mechanism may differ from mechanisms relevant to ME/CFS. Used only as frequency benchmark and mechanistic example.
+    *ME/CFS Relevance:*: Best available chronic non-viral autoimmune reference for spec:mdsc-biomarker. Provides M-MDSC frequency benchmark in healthy adults (approximately 0.2–0.5% PBMCs) and in a chronic immune dysregulation context. Note: no ME/CFS-specific MDSC data exists; SLE has distinct pathophysiology (active autoantibody-driven inflammation). The iNOS mechanism may differ from mechanisms relevant to ME/CFS. Used only as frequency benchmark and mechanistic example.
     *Limitations:*: SLE-specific; n=32; newly diagnosed patients (disease state different from chronic stable ME/CFS); iNOS mechanism may not apply to ME/CFS MDSCs; no NK cytotoxicity assay.
     *Certainty:*: 0.70 (peer-reviewed; controlled comparison; mechanism confirmed; cross-disease extrapolation limited)
 
@@ -16281,7 +16281,7 @@ deficiency, supporting a pharmacological rather than replacement rationale.
         - Mast cells express ACE2; SARS-CoV-2 triggers dysregulated degranulation in MCAS patients
         - Post-COVID chronic illness proposed as sustained MCAS escalation through epigenetic-genetic mechanisms
         - Same mechanism applied to post-viral ME/CFS: MCAS as primary initiator, not secondary comorbidity
-        - Authors estimate ~17% MCAS prevalence in general population may explain why only a subset develop chronic illness
+        - Authors estimate approximately 17% MCAS prevalence in general population may explain why only a subset develop chronic illness
     *Relevance to Septad Diagnostic Map -- MCAS-Induced ME/CFS Pathway:*: Provides the conceptual anchor for the missing MCAS-as-primary-driver branch. This paper explicitly frames MCAS as upstream cause of ME/CFS phenotype via post-viral trigger -- the pathway gap #4 in the Septad map. However: certainty is intentionally low (hypothesis without controlled data). Must be cited as "proposed mechanism" not established fact.
     *Contradicting evidence:*: Wirth and Löhn (2023) argue bidirectional causality, not unidirectional MCAS primacy. The Rohrhofer (2025) Austrian cohort found only 2.8% of ME/CFS patients had prior MCAS diagnosis, suggesting most MCAS in ME/CFS is concurrent or secondary.
     *Limitations:*: No original data; no controlled observations; MCAS prevalence estimate unvalidated; hypothesis only.
@@ -16358,7 +16358,7 @@ deficiency, supporting a pharmacological rather than replacement rationale.
     *Study Design:*: Narrative review; no original data; synthesizes cytokine literature including comparative cohorts (up to 507 women).
     *Key Findings:*:
         - Confirms Th1 cytokine signature: IL-1, IL-7, IL-15, IFN-gamma, TNF-alpha; reduced IL-10
-        - Anti-ECM1 IgG autoantibodies in ~75% of vulvar LS patients; 94% specificity vs. other autoimmune diseases
+        - Anti-ECM1 IgG autoantibodies in approximately 75% of vulvar LS patients; 94% specificity vs. other autoimmune diseases
         - miR-155 overexpression reduces Foxp3+ Tregs: molecular mechanism for immune tolerance failure
         - IL-17 role conflicting across studies (no resolution) -- suggests heterogeneous LS subgroups
         - No single definitive biomarker for LS established despite multiple candidates
@@ -16626,7 +16626,7 @@ This section covers mechanistic and clinical literature on the intersection of m
         - Mast cell-targeted treatment (antihistamines, mast cell stabilizers) yielded significantly more symptom alleviation in MCAS-positive ME/CFS vs MCAS-negative (p < 0.0001)
         - If-channel inhibitors showed non-significant trend toward better response in MCAS group (p = 0.076)
         - Supports MCAS as a clinically relevant and therapeutically distinct ME/CFS subgroup
-    *Relevance to MCAS--ISR Hypothesis:*: Provides clinical grounding for the mechanistic hypothesis. If ~25% of ME/CFS patients have active mast cell involvement, the MCAS--ISR crosstalk hypothesis could explain a substantial subgroup's pathophysiology: mast cell-driven ISR activation contributing to the translational suppression and energy-metabolism dysfunction central to ME/CFS. Stratification by MCAS status should be a design requirement for any ME/CFS--ISR biomarker study.
+    *Relevance to MCAS--ISR Hypothesis:*: Provides clinical grounding for the mechanistic hypothesis. If approximately 25% of ME/CFS patients have active mast cell involvement, the MCAS--ISR crosstalk hypothesis could explain a substantial subgroup's pathophysiology: mast cell-driven ISR activation contributing to the translational suppression and energy-metabolism dysfunction central to ME/CFS. Stratification by MCAS status should be a design requirement for any ME/CFS--ISR biomarker study.
     *Null result note:*: No ISR or ER stress biomarkers measured; clinical study only. This paper motivates but does not evidence the MCAS--ISR mechanism.
     *Limitations:*: Retrospective cohort; MCAS criteria varied across cohorts; no mechanistic biomarkers; treatment response is self-reported symptom alleviation, not objective outcome.
     *Certainty:*: 0.62 (Diagnostics peer-reviewed; reasonable sample sizes; retrospective; no mechanistic data)
@@ -16860,7 +16860,7 @@ This section covers mechanistic and clinical literature on the intersection of m
         - 29.7% of 158 adult CFS patients had childhood ADHD; 20.9% had persistent adult ADHD
         - CFS + ADHD patients showed earlier CFS onset, more anxiety/depression, higher suicide risk
         - ADHD severity and depressive symptoms were independent significant predictors of fatigue intensity
-    *Conclusion:*: ADHD is a common and clinically significant comorbidity in CFS; ~30% childhood prevalence figure is the most cited reference for this estimate. Comorbidity worsens prognosis.
+    *Conclusion:*: ADHD is a common and clinically significant comorbidity in CFS; approximately 30% childhood prevalence figure is the most cited reference for this estimate. Comorbidity worsens prognosis.
     *Limitations:*: Cross-sectional; recall bias for childhood ADHD; single specialist CFS clinic (selection bias); Oxford CFS criteria.
     *Certainty:*: 0.55 — Medium. Consistent with similar single-centre studies; no large multicentre replication.
 
@@ -17109,7 +17109,7 @@ This section covers mechanistic and clinical literature on the intersection of m
     *PMID:*: 35627530
     *Article Type:*: Population-based cohort
     *Key Findings:*:
-        - ADHD associated with increased risk of Long COVID diagnosis in youth (~300,000 population)
+        - ADHD associated with increased risk of Long COVID diagnosis in youth (approximately 300,000 population)
         - Supports ADHD as a pre-existing risk factor for LC
     *Conclusion:*: Corroborates the bidirectional LC--ADHD link (ADHD → higher LC risk).
     *Limitations:*: Registry/claims-based diagnosis; pediatric population; ADHD recorded pre-infection.
@@ -17178,7 +17178,7 @@ This section covers mechanistic and clinical literature on the intersection of m
         - H2S inhibits mitochondrial Complex IV (cytochrome c oxidase) via the binuclear center (CuB + heme a3) — the same site as cyanide
         - Inhibition is biphasic: at least two successive inhibited enzyme states, with partial reversibility if sulfide oxidation clears the active site
         - At low concentrations H2S acts as an electron donor to the ETC; at 3–30× higher concentrations it switches to being a Complex IV inhibitor
-        - IC50 for the related bacterial bo3 terminal oxidase: ~1.1 μM — eukaryotic Complex IV is in a similar range
+        - IC50 for the related bacterial bo3 terminal oxidase: approximately 1.1 μM — eukaryotic Complex IV is in a similar range
 
     *Conclusion:*: H2S is a concentration-dependent reversible inhibitor of Complex IV. The therapeutic/toxicological boundary is at low micromolar levels.
     *Quality:*: High — foundational mechanistic biochemistry
@@ -17420,8 +17420,8 @@ This section covers mechanistic and clinical literature on the intersection of m
     *PMID:*: 33603376
     *Key Findings:*:
         - Retrospective study, n=201 children ages 6–18 with hEDS or HSD
-        - 16% had verified ADHD diagnosis; additional 7% under investigation (total suspected ~23%)
-        - 6% had ASD diagnosis (vs. ~2.6% general population prevalence)
+        - 16% had verified ADHD diagnosis; additional 7% under investigation (total suspected approximately 23%)
+        - 6% had ASD diagnosis (vs. approximately 2.6% general population prevalence)
         - In the 17–18 age cohort, ADHD was present in 46%
         - hEDS children had significantly higher ADHD prevalence than HSD children
     *Conclusion:*: Children with connective tissue hypermobility disorders carry a substantially elevated burden of neurodevelopmental conditions. The hEDS–ADHD–ASD cluster is not coincidental; shared genetic/developmental pathways likely link collagen/extracellular matrix biology to neural circuit development and autonomic regulation.
@@ -17463,7 +17463,7 @@ This section covers mechanistic and clinical literature on the intersection of m
     *PMID:*: 26505533
     *Key Findings:*:
         - Retrospective cohort, Taiwan NHIRD, n=6,902 migraine patients vs. n=27,608 controls (2006–2010)
-        - CFS incidence: 52.72 vs. 28.85 per 10,000 person-years (migraine vs. controls); IRR ~1.5
+        - CFS incidence: 52.72 vs. 28.85 per 10,000 person-years (migraine vs. controls); IRR approximately 1.5
         - Strongest risk in age ≥65 years: IRR=2.11
         - Proposed mechanisms: mitochondrial dysfunction and central sensitization as shared substrate
     *Conclusion:*: Migraine history confers a 1.5× elevated risk of developing CFS. The dose-response (risk scales with migraine frequency/chronicity) and the age-related amplification suggest that cumulative mitochondrial burden from repeated cortical spreading depression events may progressively deplete neuronal energy reserves, lowering the threshold for post-infectious collapse.
@@ -17501,11 +17501,11 @@ This section covers mechanistic and clinical literature on the intersection of m
     *DOI:*: 10.3390/ijms26168030
     *PMCID:*: PMC12386507
     *Key Findings:*:
-        - GCH1 rs841 AA genotype (~4% of population): reduced GCH1 expression → lower BH4 synthesis
+        - GCH1 rs841 AA genotype (approximately 4% of population): reduced GCH1 expression → lower BH4 synthesis
         - Associated conditions: ADHD, ASD, depression, PMDD, treatment-resistant anxiety, chronic insomnia
         - Low-dose BH4 supplementation (0.088–0.292 mg/kg/day) improved all five case patients
         - Precision psychiatry approach: genomic targeting of BH4 pathway vs. trial-and-error pharmacotherapy
-    *Conclusion:*: GCH1 rs841 represents a high-frequency predisposing variant (~4% homozygous, higher heterozygous carrier rate) that reduces BH4 across multiple neurodevelopmental and psychiatric conditions. As GCH1 variants are already documented in ME/CFS literature (in the project's existing BH4 section), this paper establishes the cross-condition shared genetic vulnerability hypothesis.
+    *Conclusion:*: GCH1 rs841 represents a high-frequency predisposing variant (approximately 4% homozygous, higher heterozygous carrier rate) that reduces BH4 across multiple neurodevelopmental and psychiatric conditions. As GCH1 variants are already documented in ME/CFS literature (in the project's existing BH4 section), this paper establishes the cross-condition shared genetic vulnerability hypothesis.
     *Limitations:*: Case series n=5 only; no controls; PMID not confirmed in PubMed indexing at time of research; precision genomics approach may have COI implications; treatment outcomes self-reported.
     *Certainty:*: Low (0.35) — hypothesis-generating only; use cautiously; flag as speculative.
 
@@ -17644,7 +17644,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     *Study Design:*: Narrative review
     *Key Findings:*:
 
-        - Only ~1% of total body magnesium is in blood; 99% is intracellular (53% bone, 27% muscle, 19% other tissues)
+        - Only approximately 1% of total body magnesium is in blood; 99% is intracellular (53% bone, 27% muscle, 19% other tissues)
         - Standard serum magnesium assay has "no reliable correlation" with total body or tissue magnesium levels
         - Serum levels are tightly regulated by renal excretion and remain "normal" even when total body stores are depleted
         - No validated rapid bedside test for true magnesium status exists
@@ -18099,7 +18099,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
         - Alpha-2A (not alpha-2C) adrenoreceptor is the genetic risk signal for Raynaud's
     *Conclusion:*: ADRA2A is the primary genetic risk locus for Raynaud's phenotype, implicating catecholamine-induced vasoconstriction via alpha-2A adrenoreceptors.
     *Limitations:*: European ancestry only; EHR diagnosis codes may miss mild cases; does not include ME/CFS subjects; alpha-2C role in SSc-associated Raynaud's not directly tested.
-    *ME/CFS Relevance:*: The ME/CFS vasospasm hypothesis invokes alpha-2C adrenoreceptor upregulation. This study maps genetic risk to alpha-2A. These are different subtypes --- overlap exists (both mediate vasoconstriction in small vessels; co-expressed in vascular smooth muscle) but the receptor subtype distinction matters for therapeutic targeting. The Raynaud's prevalence in ME/CFS (~20--28%) remains unexplained by this GWAS but the shared adrenergic pathway is relevant context.
+    *ME/CFS Relevance:*: The ME/CFS vasospasm hypothesis invokes alpha-2C adrenoreceptor upregulation. This study maps genetic risk to alpha-2A. These are different subtypes --- overlap exists (both mediate vasoconstriction in small vessels; co-expressed in vascular smooth muscle) but the receptor subtype distinction matters for therapeutic targeting. The Raynaud's prevalence in ME/CFS (approximately 20--28%) remains unexplained by this GWAS but the shared adrenergic pathway is relevant context.
     *Certainty Assessment:*:
         - *Quality:* High (GWAS; large sample; functional validation)
         - *Sample:* n=444,441 total
@@ -18122,7 +18122,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
         - Paper explicitly identifies Raynaud's as ME/CFS and long-COVID comorbidity
     *Conclusion:*: Raynaud's genetic architecture spans adrenergic signalling, endothelial function, microvasculature, and immune pathways --- multi-mechanism disorder. NOS3/eNOS pathway is functionally confirmed.
     *Limitations:*: European ancestry only; EHR-based; primary vs. secondary Raynaud's not fully distinguished in all cohorts; functional studies focused on cold-triggered mechanisms.
-    *ME/CFS Relevance:*: NOS3/eNOS endothelial dysfunction independently documented in ME/CFS vascular pathology (Scherbakov 2020). Shared genetic architecture between Raynaud's and ME/CFS vascular features (eNOS, adrenergic, HLA immune signals) supports a common endothelial-adrenergic vulnerability model. The ~20--28% Raynaud's prevalence in ME/CFS may reflect this shared genetic background rather than secondary SSc-type structural disease.
+    *ME/CFS Relevance:*: NOS3/eNOS endothelial dysfunction independently documented in ME/CFS vascular pathology (Scherbakov 2020). Shared genetic architecture between Raynaud's and ME/CFS vascular features (eNOS, adrenergic, HLA immune signals) supports a common endothelial-adrenergic vulnerability model. The approximately 20--28% Raynaud's prevalence in ME/CFS may reflect this shared genetic background rather than secondary SSc-type structural disease.
     *Certainty Assessment:*:
         - *Quality:* High (GWAS meta-analysis, 4 independent biobanks, functional CRISPRi validation)
         - *Sample:* n=1,118,229 total across 4 cohorts
@@ -18168,7 +18168,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
         - Induces MDSC-like immunosuppressive phenotypes (CD33+HLA-DR-, CD33+PD-1+)
         - Recipient fibroblasts upregulate centromere/kinetochore genes (CENPA/NDC80 module)
         - Secondary transmission: recipient fibroblasts release their own HSAT2-containing EVs
-        - RT inhibitor AZT reduces HSAT2 accumulation (~1.6-fold)
+        - RT inhibitor AZT reduces HSAT2 accumulation (approximately 1.6-fold)
 
     *Conclusion:*: HSAT2-containing exosomes drive intercellular transmission of immunosuppressive signals in cancer, with potential therapeutic targetability by RT inhibitors.
     *Limitations:*: Preprint status (not peer-reviewed), small sample size, single study, Ewing sarcoma context only, no ME/CFS data.
@@ -18259,7 +18259,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     *Key Findings:*:
 
         - Apoptotic endothelial cells release exosome-like nanovesicles (ApoExos)
-        - ApoExos loaded with immunostimulatory "viral-like" RNAs: endogenous retroelements (~50% of total RNA), unedited Alu repeats, U1 RNA, Y RNA
+        - ApoExos loaded with immunostimulatory "viral-like" RNAs: endogenous retroelements (approximately 50% of total RNA), unedited Alu repeats, U1 RNA, Y RNA
         - ApoExos injection causes inflammation and autoimmunity in mice
         - RNAs stimulate RIG-I-like receptors and endosomal TLRs
         - Demonstrates mechanistic link between endothelial apoptosis and EV-mediated immune activation
@@ -19077,7 +19077,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
         - Chronic fatigue 40.9%
         - Establishes high comorbidity prevalence: MCAS, hypermobility, chronic fatigue in POTS
 
-    *Conclusion:* POTS has high prevalence of MCAS, hypermobility, and chronic fatigue. These comorbidities occur in ~30-40% of POTS patients.
+    *Conclusion:* POTS has high prevalence of MCAS, hypermobility, and chronic fatigue. These comorbidities occur in approximately 30-40% of POTS patients.
     *Limitations:* GI symptoms focus — comorbidity data may be incomplete. Wide confidence intervals (e.g., MCAS 17.8-60.0%).
     *Certainty Assessment:*:
         - *high* Quality: High — meta-analysis with rigorous methodology
@@ -19603,7 +19603,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
         - Facial skin temp ↓ 34→13°C with 0°C ice bag
         - Sham (34°C) produced no changes
 
-    *Conclusion:* Face cooling produces differential time-dependent autonomic activation: brief parasympathetic surge (peak ~2 min) followed by sustained sympathetic vasoconstriction and blood pressure elevation.
+    *Conclusion:* Face cooling produces differential time-dependent autonomic activation: brief parasympathetic surge (peak approximately 2 min) followed by sustained sympathetic vasoconstriction and blood pressure elevation.
     *Limitations:* N=10 healthy. Ice bag not full immersion. Vagal index (RMSSD) only time-domain.
     *Certainty Assessment:*:
         - *medium* Quality: Medium — well-controlled sham design
@@ -20544,7 +20544,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     *Full Citation*: Fonseca DN et al.\ Classifying Myalgic Encephalomyelitis/Chronic Fatigue Syndrome Using Machine Learning and IgG Antibody Responses to Epstein-Barr Virus Peptides.\ (Preprint/Early access).\ 2024.
     *Published*: 2024
     *Study Design*: ML classifier on EBV IgG peptide array
-    *Sample Size*: n=~200 (estimated)
+    *Sample Size*: n=approximately 200 (estimated)
     *Journal Impact*: N/A (preprint)
     *Key Findings*:
 
@@ -20604,10 +20604,10 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     *Journal Impact*: Cell (top-tier scientific journal)
     *Key Findings*:
 
-        - LC norepinephrine oscillations (~0.05 Hz) are necessary and sufficient for glymphatic clearance
+        - LC norepinephrine oscillations (approximately 0.05 Hz) are necessary and sufficient for glymphatic clearance
         - Optogenetic silencing of LC abolished glymphatic transport
         - Patterned LC stimulation restored clearance
-        - Zolpidem suppressed NE oscillation amplitude by ~50% and reduced glymphatic flow
+        - Zolpidem suppressed NE oscillation amplitude by approximately 50% and reduced glymphatic flow
         - Establishes LC-NE oscillatory dynamics as primary driver of glymphatic pumping
 
     *Conclusion*: LC-NE oscillations are the primary physical driver of glymphatic clearance during NREM sleep. Sleep medications suppressing NE oscillations may impair waste clearance.
@@ -20797,7 +20797,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
         - Vagal activation (decreased HR) while maintaining or increasing stroke volume — potentially beneficial for POTS/orthostatic intolerance
         - Horizontal posture in water reduces gravitational stress — may improve orthostatic tolerance during exercise
         - Thermoneutral water (32°C) reduces thermal stress — important for ME/CFS patients with thermoregulatory dysfunction
-        - Swimming at tested intensity (~4 METs or 14 ml/kg/min VO2) below anaerobic threshold even in reduced cardiac function patients
+        - Swimming at tested intensity (approximately 4 METs or 14 ml/kg/min VO2) below anaerobic threshold even in reduced cardiac function patients
     *Certainty Assessment:*:
 
         - *Quality:* Medium-High (Heart/BMJ; controlled design; validated non-invasive cardiac output measurement; thermoneutral water)
@@ -21154,7 +21154,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     *Key Findings:*:
         - DNMT1 operates via an allosteric binary switch — processive on highly methylated DNA, inactivated on poorly methylated/unmethylated sites.
         - MeCP2 interacts directly with DNMT1 via the TRD domain, recruiting DNMT1 to methylated regions.
-        - UHRF1 recognizes hemimethylated CpGs and guides DNMT1; PCNA binding enhances processivity ~2-fold.
+        - UHRF1 recognizes hemimethylated CpGs and guides DNMT1; PCNA binding enhances processivity approximately 2-fold.
         - This biphasic behavior creates stable methylation maintenance at high-density regions while preserving unmethylated regions — density-dependent maintenance fidelity.
     *Conclusion:*: DNMT1 maintenance fidelity is not uniform across the genome. Methylation density determines maintenance robustness, with low-density CpG regions at higher risk of maintenance failure.
     *Relevance:*: Provides mechanistic foundation for the irreversibility threshold in the methylation vector model.
@@ -21212,7 +21212,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
         - Confirmed D1/D2 hybrid neurons (eMSN) in primate striatum
         - eMSN marker gene: RXFP1 (highly specific)
         - eMSN express both DRD1 and DRD2 dopamine receptors
-        - eMSN constitute ~10% of MSNs in dorsal striatum
+        - eMSN constitute approximately 10% of MSNs in dorsal striatum
         - Uniformly distributed throughout dorsal striatum
         - Express high DRD1, low DRD2 compared to D2-MSNs
     *Conclusion:*: eMSN are distinct MSN subtype with hybrid D1/D2 receptor expression, potentially integrating both direct and indirect basal ganglia pathways.
@@ -21546,8 +21546,8 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     *Study Design:*: Randomized controlled trial (single-dose, acute)
     *Sample Size:*: n=38 cognitively unimpaired adults (45--65 yr); placebo n=13, suvorexant 10 mg n=13, suvorexant 20 mg n=12
     *Key Findings:*
-        - Suvorexant 20 mg decreased p-tau181/T181 ratio ~10--15\% vs placebo (p $<$ 0.05)
-        - Aβ decreased ~10--20\% starting 5 hours post-dose
+        - Suvorexant 20 mg decreased p-tau181/T181 ratio approximately 10--15\% vs placebo (p $<$ 0.05)
+        - Aβ decreased approximately 10--20\% starting 5 hours post-dose
         - Site-specific effect: phosphorylation at S202 and T217 NOT decreased (only T181 affected)
         - Effects apparent 5--10 hours post-dose, consistent with drug PK
         - 10 mg dose: effects unclear (possibly subtherapeutic for acute dosing)
@@ -21566,7 +21566,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
         - ISF Aβ levels correlated with wakefulness (higher during wake, lower during sleep)
         - Acute sleep deprivation increased ISF Aβ significantly
         - Orexin-A infusion increased ISF Aβ (mimicking wake state)
-        - Chronic DORA treatment decreased Aβ plaque formation ~25\%
+        - Chronic DORA treatment decreased Aβ plaque formation approximately 25\%
     *Conclusion:*: Seminal paper establishing orexin as the mechanistic link between sleep-wake state and protein aggregation. Foundation for subsequent work (Holth 2019, Lucey 2023, Parhizkar 2025) extending the principle to tau.
     *Limitations:*: Preclinical only; Aβ focus (not tau); methods dated (2009); single APP model.
     *ME/CFS Relevance:*: MEDIUM-HIGH relevance: (1) established that orexin tone modulates protein aggregation pathways (general principle, not Aβ-specific); (2) DORA precedent for reducing protein aggregation pathology; (3) orexin signaling→intracellular pathways (cAMP/PKA)→protein phosphorylation/aggregation is a convergent mechanism across subsequent papers; (4) cross-disease relevance if ME/CFS involves protein aggregation or neuronal stress pathways. However, ME/CFS orexin deficiency (lower-than-normal) may have opposite effects from orexin elevation.
@@ -21579,7 +21579,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     *Study Design:*: Preclinical; physics-informed neural networks on DCE-MRI in mice (n=5); validated against synthetic ground truth
     *Key Findings:*
         - MR-AIV framework reconstructs 3D fluid velocity fields from DCE-MRI without requiring direct velocity measurements
-        - Dual-speed glymphatic flow: fast surface/perivascular flow ~3 \u03bcm/s vs.\ slow deep tissue diffusion ~0.1 \u03bcm/s (~30\u00d7 difference)
+        - Dual-speed glymphatic flow: fast surface/perivascular flow approximately 3 \u03bcm/s vs.\ slow deep tissue diffusion approximately 0.1 \u03bcm/s (approximately 30\u00d7 difference)
         - Quantitatively distinguishes advective (fast, perivascular) from diffusion-driven (slow, interstitial) transport
         - Provides tissue permeability estimates and pressure field maps --- quantities inaccessible to other methods
         - $<2%$ reconstruction error against synthetic validation
@@ -21945,7 +21945,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     *PMID:*: 42129562
     *Published:*: May 13, 2026
     *Study Design:*: Cohort analysis (UK Biobank)
-    *Sample Size:*: ~500,000 participants aged 37–84 years
+    *Sample Size:*: approximately 500,000 participants aged 37–84 years
     *Key Findings*:
         - U-shaped relationship between sleep duration and biological age gaps across 23 biological aging clocks (imaging, plasma proteomics, metabolomics)
         - Optimal sleep duration: 6.4–7.8 hours for minimal biological age gaps (varies by organ and sex)
@@ -22252,7 +22252,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     *PMCID*: PMC8150292
     *Published*: May 11, 2021
     *Study Design*: Systematic review with 20 included studies
-    *Total Sample*: ~532 ME/CFS patients, ~480 healthy controls
+    *Total Sample*: approximately 532 ME/CFS patients, approximately 480 healthy controls
     *Methods*: Polysomnography (PSG) and Multiple Sleep Latency Test (MSLT) comparisons
     *Key Findings*:
 
@@ -22265,7 +22265,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
         - Spectral activity: diminished alpha power during stage 2, SWS, REM in one study
         - MSLT: reduced in 1/6 studies
         - Critical discrepancy: subjective sleep complaints vs. objective PSG measures
-        - ~91% of ME/CFS patients report unrefreshing sleep despite normal architecture
+        - approximately 91% of ME/CFS patients report unrefreshing sleep despite normal architecture
         - Brain imaging: medial prefrontal cortex deficits correlate with unrefreshing sleep
 
     *Conclusion*: Objective sleep measures in ME/CFS show inconsistent findings except for increased micro-arousals. Subjective unrefreshing sleep is not reflected in conventional PSG measures. Suggests non-structural metabolic/circadian disruption.
@@ -22526,7 +22526,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
         - Lithium prevented LPS-induced increases in PGE2, cPLA2-IV, sPLA2
         - Unesterified DHA and DPA unaffected — effect on DHA oxygenation, not substrate release
     *Conclusion:*: Lithium diverts brain ω-3 fatty acid metabolism toward the 17-HDHA → resolvin/protectin pathway while suppressing COX-2/AA cascade. This is the only direct evidence that Li enhances SPM biosynthetic intermediate formation.
-    *Limitations:*: Rat brain only; therapeutic Li doses (~0.6-0.8 mM); acute LPS model; no ME/CFS data; measured 17-HDHA, not mature SPMs.
+    *Limitations:*: Rat brain only; therapeutic Li doses (approximately 0.6-0.8 mM); acute LPS model; no ME/CFS data; measured 17-HDHA, not mature SPMs.
     *Certainty:*: 0.70/1.0 — single study, no replication for 17-HDHA finding, but consistent with Rapoport lab's AA cascade program.
 
 ==== Abe et al.\ 2025 — Lithium-Releasing Glasses Promote Resolution via GSK3β/CD206
@@ -22709,7 +22709,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     *Study Design:*: Prospective observational, n=34, 12-month follow-up
     *Key Findings:*:
         - Fully recovered patients (ECOG 0) had higher iron parameters (ferritin, hepcidin, transferrin) at 12 months vs those with restricted work ability
-        - Kynurenine/tryptophan ratio and Phe/Tyr ratio still exceeding 95th percentile of healthy controls in ~2/3 of cohort at 12 months
+        - Kynurenine/tryptophan ratio and Phe/Tyr ratio still exceeding 95th percentile of healthy controls in approximately 2/3 of cohort at 12 months
         - Lower tryptophan associated with B vitamin availability
         - Women more frequently affected by long-term symptoms
     *Conclusion:*: Persistent inflammation-mediated biochemical changes (KP activation, iron dysregulation) are related to long COVID symptoms. Adequate hepcidin recovery may be protective.
@@ -23099,7 +23099,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
         - OR 3.10 for NMDAR-Ab seropositivity (high-specificity thresholds)
         - NR2A/NR2B titers elevated in first-episode schizophrenia and acute mania
         - Titers declined 58% over 8 weeks in first-episode schizophrenia
-    *Conclusion:*: Individuals with psychiatric disorders are ~3× more likely to have NMDAR antibodies by high-specificity assays. Temporal titer decline suggests state-dependent production.
+    *Conclusion:*: Individuals with psychiatric disorders are approximately 3× more likely to have NMDAR antibodies by high-specificity assays. Temporal titer decline suggests state-dependent production.
     *Limitations:*: Heterogeneous thresholds; ELISA vs CBA discrepancies; serum only.
     *Certainty:*: 0.75/1.0
     *Research Stream:*: schizophrenia-autoantibodies
@@ -23135,7 +23135,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
         - I²=91% — extreme heterogeneity across studies
         - Few studies controlled for comorbid type 1 diabetes (inflating GAD65 estimates)
         - 21 treatment-resistant cases: zero VGKC antibodies
-    *Conclusion:*: GAD65 autoantibodies are ~2× more common in psychosis but estimates likely inflated by undiagnosed diabetes.
+    *Conclusion:*: GAD65 autoantibodies are approximately 2× more common in psychosis but estimates likely inflated by undiagnosed diabetes.
     *Limitations:*: Extreme heterogeneity; diabetes comorbidity not controlled; variable titer thresholds.
     *Certainty:*: 0.68/1.0
     *Research Stream:*: schizophrenia-autoantibodies
@@ -23193,7 +23193,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     *Certainty:*: 0.78/1.0
     *Research Stream:*: schizophrenia-autoantibodies
 
-=== Ermakov et al.\ 2022 — Immune Abnormalities in Schizophrenia: ~1/3 Inflammatory
+=== Ermakov et al.\ 2022 — Immune Abnormalities in Schizophrenia: approximately 1/3 Inflammatory
 
     *Full Citation:*: Ermakov EA, Melamud MM, Buneva VN, Ivanova SA. Immune System Abnormalities in Schizophrenia: An Integrative View and Translational Perspectives. _Frontiers in Psychiatry_. 2022;13:880568.
     *DOI:*: #link("https://doi.org/10.3389/fpsyt.2022.880568")[10.3389/fpsyt.2022.880568]
@@ -23203,10 +23203,10 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     *Sample Size:*: N/A
     *Key Findings:*:
         - All immune components affected: innate to adaptive, humoral to cellular
-        - Signs of severe inflammation in only ~1/3 of patients
+        - Signs of severe inflammation in only approximately 1/3 of patients
         - CRP, cytokines, neutrophils, autoantibodies, microbiota: lowest bias evidence
         - Direct parallel to ME/CFS: only a subset has elevated inflammatory markers
-    *Conclusion:*: Inflammation in ~1/3 of schizophrenia — immunological parameters may identify treatment-responsive subgroups, as proposed for ME/CFS.
+    *Conclusion:*: Inflammation in approximately 1/3 of schizophrenia — immunological parameters may identify treatment-responsive subgroups, as proposed for ME/CFS.
     *Limitations:*: Narrative elements; no quantitative meta-analysis.
     *Certainty:*: 0.75/1.0
     *Research Stream:*: schizophrenia-autoantibodies
@@ -23330,7 +23330,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     *Study Design:*: Case-control with proteome-scale autoantibody profiling (REAP)
     *Sample Size:*: 352 schizophrenia, 971 community controls
     *Key Findings:*:
-        - Striking elevation in extracellular autoantibody burden — ~2× control levels in most severely ill
+        - Striking elevation in extracellular autoantibody burden — approximately 2× control levels in most severely ill
         - Present near disease onset; increases with age divergently from controls
         - Targets CNS antigens: neuroactive receptors, ion channels, synaptic proteins, BBB antigens
         - Anti-BBB autoantibodies impair barrier function ex vivo
@@ -23373,7 +23373,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     *Study Design:*: Perspective/Review
     *Sample Size:*: N/A
     *Key Findings:*:
-        - Rare inborn errors → common autoantibody determinants: IFN-α/β autoantibodies in ~15% critical COVID-19
+        - Rare inborn errors → common autoantibody determinants: IFN-α/β autoantibodies in approximately 15% critical COVID-19
         - Paradigm: rare Mendelian mechanisms reveal common autoimmune pathways
         - Application: rare autoimmune encephalitis → common autoantibody subgroups in idiopathic psychosis and ME/CFS
     *Conclusion:*: The rare-to-common paradigm has heuristic value for autoantibody research across neuropsychiatric diseases including ME/CFS.
@@ -23556,7 +23556,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
 
     *Full Citation:*: Science for ME (Edwards J, et al.)\ Management of severe and very severe ME/CFS. _Science for ME (S4ME) fact sheet_. 2026. @S4ME2026ManagementSevereVerySevere
     *Key Findings:*:
-        - Severity grading tied to care needs; ~1/1000 patients housebound
+        - Severity grading tied to care needs; approximately 1/1000 patients housebound
         - Environmental-stimuli reduction as medical necessity (not kindness) to prevent deterioration
         - Single-point-of-contact care (specialist nurse) preferred over multidisciplinary teams
         - Rehabilitation-based approaches "have no place in management" (GET/CBT critique)
@@ -23659,7 +23659,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     *DOI:*: #link("https://doi.org/10.1371/journal.pone.0280942")[10.1371/journal.pone.0280942]
     *PMID:*: 36730360
     *Study Design:*: Cross-sectional substudy of RituxME RCT
-    *Sample Size:*: N~60 ME/CFS patients
+    *Sample Size:*: N ≈ 60 ME/CFS patients
     *Key Findings:*:
         - Impaired flow-mediated dilation (FMD) in large vessels
         - Impaired post-occlusive reactive hyperemia (PORH) in small vessels
@@ -23680,8 +23680,8 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     *Key Findings:*:
         - Immunoadsorption reduced β2AR autoantibodies
         - Symptom improvement correlated with autoantibody reduction
-        - Defines β2AR autoantibody-positive ME/CFS subgroup (~30% of post-COVID ME/CFS)
-    *Conclusion:*: Autoimmune mechanism in β2AR-positive subgroup; the remaining ~70% β2AR-negative patients require alternative mechanism — HIF-2α-driven ED is a candidate.
+        - Defines β2AR autoantibody-positive ME/CFS subgroup (approximately 30% of post-COVID ME/CFS)
+    *Conclusion:*: Autoimmune mechanism in β2AR-positive subgroup; the remaining approximately 70% β2AR-negative patients require alternative mechanism — HIF-2α-driven ED is a candidate.
     *Limitations:*: Pre-post design, no sham control; small sample; β2AR-negative group not analyzed separately.
     *Certainty:*: 0.55/1.0
     *Research Stream:*: hif2a-endothelial-postviral
@@ -23835,7 +23835,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
 @Laborde2022SlowBreathingHRV
 
 *Key Findings:*
-Systematic review and meta-analysis of 15 studies demonstrating that voluntary slow breathing (VSB) consistently increases vagally-mediated HRV (RMSSD) and reduces heart rate during and immediately after breathing sessions. The effect is most pronounced at ~6 breaths/min (resonance frequency). Effect sizes moderate: g = 0.31–0.46 for RMSSD. Prolonged exhalation (vs equal inspiratory/expiratory ratio) also specifically enhances vagal activation.
+Systematic review and meta-analysis of 15 studies demonstrating that voluntary slow breathing (VSB) consistently increases vagally-mediated HRV (RMSSD) and reduces heart rate during and immediately after breathing sessions. The effect is most pronounced at approximately 6 breaths/min (resonance frequency). Effect sizes moderate: g = 0.31–0.46 for RMSSD. Prolonged exhalation (vs equal inspiratory/expiratory ratio) also specifically enhances vagal activation.
 
 *Mechanism:*
 Baroreflex entrainment + pulmonary stretch receptor vagal afferent activation. The baroreflex resonance phenomenon at 0.1 Hz produces maximal HRV amplitude because respiratory sinus arrhythmia (RSA) and baroreflex oscillations reinforce each other at this specific frequency.
@@ -23855,7 +23855,7 @@ Establishes SPB as an evidence-based non-pharmacological vagal activator. If ME/
 @Lehrer2014ResonanceBreathing
 
 *Key Findings:*
-Foundational theoretical paper establishing the resonance frequency model. Breathing at ~6 breaths/min (0.1 Hz) maximally entrains the baroreflex, producing the largest HRV oscillations. Baroreflex resetting occurs within a single session. HRV biofeedback uses this mechanism to improve baroreflex gain, with clinical applications for asthma, hypertension, and anxiety.
+Foundational theoretical paper establishing the resonance frequency model. Breathing at approximately 6 breaths/min (0.1 Hz) maximally entrains the baroreflex, producing the largest HRV oscillations. Baroreflex resetting occurs within a single session. HRV biofeedback uses this mechanism to improve baroreflex gain, with clinical applications for asthma, hypertension, and anxiety.
 
 *Relevance to ME/CFS:*
 Provides the physiological rationale for SPB at resonance frequency. If ME/CFS is characterized by baroreflex impairment (Ryabkova 2024), resonance frequency breathing may restore baroreflex sensitivity and improve autonomic balance.
@@ -23950,7 +23950,7 @@ One of few studies showing chronic (30-day) SPB training improves sleep quality 
 @Sakakibara2020PacedBreathingBaroreflex
 
 *Key Findings:*
-Experimental study of paced breathing at the individual's low-frequency peak (~6 breaths/min, range 4.5–6.5) vs spontaneous breathing in 20 healthy adults. Paced breathing significantly increased baroreflex sensitivity (BRS, measured by sequence method) and HRV. BRS improvement is the specific mechanism linking SPB to blood pressure regulation and vagal enhancement. Demonstrates that individualised resonance frequency assessment is superior to fixed-rate pacing.
+Experimental study of paced breathing at the individual's low-frequency peak (approximately 6 breaths/min, range 4.5–6.5) vs spontaneous breathing in 20 healthy adults. Paced breathing significantly increased baroreflex sensitivity (BRS, measured by sequence method) and HRV. BRS improvement is the specific mechanism linking SPB to blood pressure regulation and vagal enhancement. Demonstrates that individualised resonance frequency assessment is superior to fixed-rate pacing.
 
 *Relevance to ME/CFS:*
 Directly measures the baroreflex mechanism that is impaired in ME/CFS (Ryabkova 2024). Suggests SPB could improve BRS — but individualised frequency assessment may be necessary for optimal effect. ME/CFS patients with PoTS or orthostatic intolerance may particularly benefit from improved BRS.
@@ -24034,7 +24034,7 @@ Integrates SPB mechanism with the orexin/hypocretin system (Section @sec:bib-ore
 *Total papers in this section:* 11 (including Ryabkova2024 for contrast and Noble2019 for mechanism)
 
 *Key findings synthesis:*
-    1. SPB at ~6 breaths/min is a well-validated vagal activator (Laborde2022, Lehrer2014, Kromenacker2018)
+    1. SPB at approximately 6 breaths/min is a well-validated vagal activator (Laborde2022, Lehrer2014, Kromenacker2018)
     2. The mechanism involves pulmonary stretch receptor → vagal afferent → NTS → baroreflex entrainment at 0.1 Hz resonance (Gerritsen2018, SevozCouche2022, Zaccaro2018)
     3. LF-HRV during resonance breathing is definitively vagal (Kromenacker2018 — pharmacological blockade)
     4. 30-day SPB training improves sleep quality and resting vagal tone (Laborde2019)
@@ -24097,8 +24097,8 @@ This section reviews biomechanical literature on rowing ergometer physics, speci
     *Full Citation:*: Martindale WO, Robertson DGE\@. Mechanical energy in sculling and in rowing an ergometer. In: Terauds J, et al.\ (eds.), _Biomechanics in Sports_. Academic Publishers; 1984:171–182.
     *Key Findings:*:
         - "Because the flywheel's revolution rate drops too much between strokes" at low rates
-        - At conventional rowing rates (24–36 spm), the flywheel retains ~30–50% of peak speed at the catch
-        - Below ~18 spm, energy recovery between strokes falls below useful threshold
+        - At conventional rowing rates (24–36 spm), the flywheel retains approximately 30–50% of peak speed at the catch
+        - Below approximately 18 spm, energy recovery between strokes falls below useful threshold
         - Each stroke at very low rates requires near-complete re-acceleration of flywheel from rest
     *Relevance:*: Foundational physics understanding of why ultra-low stroke rates are fundamentally different from conventional training rates. This paper is the most-cited for the principle that flywheel momentum conservation breaks down at low SR.
     *Certainty:*: 0.45 (conference proceedings, limited peer review, but physics is sound and principle widely accepted).
@@ -24567,7 +24567,7 @@ This section reviews biomechanical literature on rowing ergometer physics, speci
     *PMID:*: 42635998
     *Key Findings:*:
         - Confirms current consensus criteria: sustained HR rise ≥30 bpm (≥40 bpm in adolescents 12–19 y) within 10 min, no orthostatic hypotension
-        - Survey of 4,835 patients: ~70% report substantial functional impairment; median diagnostic delay 24 months
+        - Survey of 4,835 patients: approximately 70% report substantial functional impairment; median diagnostic delay 24 months
         - 30–40% of cases begin within 3 months after infection (SARS-CoV-2, EBV, influenza)
         - True prevalence uncertain due to underrecognition and lack of a specific diagnostic code until 2022
     *Conclusion:*: POTS is underrecognized; the HR-threshold-based diagnostic model misses a substantial symptomatic population, motivating the 2026 consensus critique.
@@ -24879,12 +24879,12 @@ This section reviews biomechanical literature on rowing ergometer physics, speci
         - Schizophrenia genetic signal significantly enriched in: CA1 pyramidal neurons, subiculum neurons, medium spiny neurons (D1 and D2 subtypes), somatostatin-positive interneurons
         - Validation across 7 independent cell-type datasets showed consistent neuronal enrichment
         - Published analysis pipeline via R package `MAGMA_celltyping` (still widely used)
-        - Level 1 taxonomy (~70 broad cell types) used by mecfsscience.org analysis 7
+        - Level 1 taxonomy (approximately 70 broad cell types) used by mecfsscience.org analysis 7
     *Conclusion:*: Demonstrates that MAGMA + single-cell atlases can identify specific brain cell types underlying psychiatric disease risk. MSN-related findings for schizophrenia prefigure the MSN enrichment now observed in ME/CFS.
     *Relevance:*: Pipeline and methodology directly transferred to ME/CFS by mecfsscience.org. The MSN finding for schizophrenia establishes precedent: MSN enrichment is a biologically meaningful signal, not an artifact of the method. However, MSN enrichment is shared across multiple brain traits — not specific to any single condition.
     *Quality:*: Very High (Nature Genetics, peer-reviewed, highly cited, published package)
     *Certainty:*: 0.88
-    *Limitations:*: Mouse-to-human gene mapping introduces noise; limited to ~70 broad cell-type categories; cross-species cell-type homology assumptions; Level 2/3 fine cell types require higher-resolution atlases.
+    *Limitations:*: Mouse-to-human gene mapping introduces noise; limited to approximately 70 broad cell-type categories; cross-species cell-type homology assumptions; Level 2/3 fine cell types require higher-resolution atlases.
 
 === Saunders et al.\ 2018 — Dropviz Mouse Brain Atlas (Reference Resource)
 
@@ -25208,7 +25208,7 @@ This section reviews biomechanical literature on rowing ergometer physics, speci
         - Unlike 48/80, LiCl did NOT cause mesenteric mast cell degranulation
         - Mast cell degranulation is not required for CTA
     *Conclusion:*: LiCl is not a mast cell secretagogue. Negative control result.
-    *Limitations:*: Old study (1978); rat mast cells only; LiCl at high dose (~100-200 mg/kg i.p.); mast cell histology assessed by light microscopy only.
+    *Limitations:*: Old study (1978); rat mast cells only; LiCl at high dose (approximately 100-200 mg/kg i.p.); mast cell histology assessed by light microscopy only.
     *Certainty:*: 0.35
 
 === Patkar 1980 — LiF Activates Mast Cells via Fluoride Ion
@@ -25236,7 +25236,7 @@ This section reviews biomechanical literature on rowing ergometer physics, speci
     *Key Findings:*:
         - NCS-1 (frequenin) is expressed in mast cells (RBL-2H3)
         - NCS-1 binds phosphatidylinositol 4-kinase β (PI4Kβ)
-        - NCS-1 overexpression enhances IgE-mediated exocytosis ~2-3 fold
+        - NCS-1 overexpression enhances IgE-mediated exocytosis approximately 2-3 fold
         - Dominant-negative NCS-1 suppresses exocytosis
         - Links NCS-1 to the PLC/PIP₂ resynthesis cycle via PI4Kβ
     *Conclusion:*: NCS-1 is a positive regulator of mast cell degranulation, acting through PI4Kβ to support PIP₂ resynthesis.
@@ -25329,8 +25329,8 @@ This section reviews biomechanical literature on rowing ergometer physics, speci
     *Published:*: 2000
     *Study Design:*: In vitro; CD34#super[+]-derived human mast cells; RT-PCR, flow cytometry, Scatchard binding, histamine release
     *Key Findings:*:
-        - Resting human mast cells carry minimal FcγRI message; IFN-γ up-regulates surface FcγRI from ~2% to ~44%
-        - Monomeric IgG1 binding sites rise from ~2,400 to 12,100--17,300 per cell; FcεRI, FcγRII and FcγRIII unchanged
+        - Resting human mast cells carry minimal FcγRI message; IFN-γ up-regulates surface FcγRI from approximately 2% to approximately 44%
+        - Monomeric IgG1 binding sites rise from approximately 2,400 to 12,100--17,300 per cell; FcεRI, FcγRII and FcγRIII unchanged
         - FcγRI aggregation (only after IFN-γ) triggers histamine release (24.5 ± 4.4%) and up-regulates TNF-α, GM-CSF, IL-3, IL-13 mRNA
     *Conclusion:*: Human mast cells can be activated through the high-affinity IgG receptor FcγRI, independently of IgE.
     *Limitations:*: In vitro (cultured mast cells); no ME/CFS cells. FcγRI expression requires IFN-γ conditioning.
@@ -25361,10 +25361,10 @@ This section reviews biomechanical literature on rowing ergometer physics, speci
     *Published:*: 2006
     *Study Design:*: In vitro; skin-derived human MC#sub[TC]; microarray, RT-PCR, Western blot, flow cytometry, mediator release
     *Key Findings:*:
-        - Skin MC#sub[TC] constitutively express activating FcγRIIa (CD32a) alongside FcεRI; FcγRI, FcγRIIb and FcγRIII were not detected
-        - FcγRIIa cross-linking caused degranulation and release of PGD#sub[2], LTC#sub[4], GM-CSF, IL-5, IL-6, IL-13 and TNF-α
+        - Skin MC#sub[TC] constitutively express activating FcγRIIA (CD32a) alongside FcεRI; FcγRI, FcγRIIB and FcγRIII were not detected
+        - FcγRIIA cross-linking caused degranulation and release of PGD#sub[2], LTC#sub[4], GM-CSF, IL-5, IL-6, IL-13 and TNF-α
         - Co-aggregation of antigen-specific IgE and IgG by Der p2 enhanced degranulation
-    *Conclusion:*: Skin mast cells carry a constitutive, IFN-γ-independent IgG activation receptor (FcγRIIa); IgG can amplify IgE-driven skin mast cell activation.
+    *Conclusion:*: Skin mast cells carry a constitutive, IFN-γ-independent IgG activation receptor (FcγRIIA); IgG can amplify IgE-driven skin mast cell activation.
     *Limitations:*: Skin-derived cells only; in vitro; healthy donors.
     *Certainty:*: 0.40 (in-vitro tier cap)
 
@@ -25376,9 +25376,9 @@ This section reviews biomechanical literature on rowing ergometer physics, speci
     *Published:*: 2018
     *Study Design:*: Humanized-mouse and human tissue mast cells; flow cytometry, qPCR, immunofluorescence
     *Key Findings:*:
-        - The inhibitory IgG receptor FcγRIIb is absent from dermal mast cells but present on mast cells in other human tissues
-        - FcγRIIb expression is tissue-specific rather than a fixed property of human mast cells
-    *Conclusion:*: IgG has tissue-dependent net effects on mast cells --- activating where FcγRIIb is absent (e.g. skin), potentially inhibitory where it is present.
+        - The inhibitory IgG receptor FcγRIIB is absent from dermal mast cells but present on mast cells in other human tissues
+        - FcγRIIB expression is tissue-specific rather than a fixed property of human mast cells
+    *Conclusion:*: IgG has tissue-dependent net effects on mast cells --- activating where FcγRIIB is absent (e.g. skin), potentially inhibitory where it is present.
     *Limitations:*: Expression-level study; the functional consequence in each tissue is inferred, not measured in vivo in humans.
     *Certainty:*: 0.40 (in-vitro / humanized-model tier cap)
 
@@ -25392,7 +25392,7 @@ This section reviews biomechanical literature on rowing ergometer physics, speci
     *Key Findings:*:
         - Human mast cells express FcγRI (IFN-γ-up-regulated) and FcγRII but not FcγRIII; mouse mast cells express FcγRII/III but not FcγRI
         - Human FcγRI aggregation promotes mediator release broadly similar to FcεRI activation
-        - Mouse FcγRIIb is inhibitory and down-regulates IgE-dependent release when co-ligated
+        - Mouse FcγRIIB is inhibitory and down-regulates IgE-dependent release when co-ligated
         - FcγR responses are species- and phenotype-dependent --- rodent data may not translate to humans
     *Conclusion:*: IgG receptors both promote and inhibit mast cell mediator release; the net effect depends on species, mast cell phenotype and which receptor is engaged.
     *Limitations:*: Narrative review; 2004 vintage; no ME/CFS data.
@@ -26014,8 +26014,8 @@ This section covers literature at the intersection of ME/CFS genetics (Precision
     *Sample Size:*: n=1961
     *Key Findings:*:
         - Semaglutide 2.4 mg: -14.9% body weight vs -2.4% placebo
-        - ~40% of weight lost from lean mass
-        - GI adverse events in ~75%
+        - approximately 40% of weight lost from lean mass
+        - GI adverse events in approximately 75%
     *Conclusion:*: GLP-1 RAs effective for weight but lean mass loss is a major concern in ME/CFS.
     *Limitations:*: Excluded chronic illness populations; no ME/CFS patients.
     *Certainty:*: 0.90
@@ -26422,7 +26422,7 @@ Note: The literature on RF in ME/CFS is strikingly sparse. Only one study has di
         - 77.5% had flu-like onset
         - Most common age: 20-30 years (45% of cohort)
         - No control group for RF comparison
-    *Conclusion:*: RF positivity in ~12% of CFS patients suggests possible autoimmune subset, but no control comparison precludes inference about elevated prevalence.
+    *Conclusion:*: RF positivity in approximately 12% of CFS patients suggests possible autoimmune subset, but no control comparison precludes inference about elevated prevalence.
     *Limitations:*: Small sample; single-center Japan; CDC 1988 criteria (broad, pre-IOM); no healthy controls for RF; no replication in 34 years. Certainty: 0.25.
 
 === Kerr 2002 — Chronic Fatigue Syndrome and Arthralgia Following Parvovirus B19 Infection
@@ -26489,7 +26489,7 @@ Note: The literature on RF in ME/CFS is strikingly sparse. Only one study has di
         - TNXB homozygous variants cause hypermobility via tenascin-X deficiency
         - Tenascin-X is an ECM glycoprotein; its deficiency impairs collagen matrix organization
         - Represents a genetic mechanism for hypermobility independent of mast cells
-    *Conclusion:*: ~5-10% of hypermobility may be explained by TNXB haploinsufficiency. Competing mechanism that accounts for a subset of patients without MC involvement.
+    *Conclusion:*: approximately 5-10% of hypermobility may be explained by TNXB haploinsufficiency. Competing mechanism that accounts for a subset of patients without MC involvement.
     *Limitations:*: Rare variant; classical-like EDS, not hEDS; single case.
     *Certainty:*: 0.55
 
@@ -26549,7 +26549,7 @@ sec-bib-rf-elevated-mecfs-duplicate
         - Inflammatory markers (ESR, SJC) contributed 9.2% to fatigue variance in RA
         - Patient global assessment explained 43.1% of fatigue variance
         - RA and OA fatigue levels did not differ (4.5 vs 4.4, NS) after age/sex adjustment
-        - FM fatigue (7.6) was substantially higher than RA/OA (~4.8)
+        - FM fatigue (7.6) was substantially higher than RA/OA (approximately 4.8)
         - RF seropositivity not associated with fatigue level
     *Conclusion:*: Fatigue in RA is not driven by inflammation. RF status does not predict fatigue severity.
     *Limitations:*: Cross-sectional, VAS fatigue measurement, multiple cohorts with different methodologies.
@@ -26947,7 +26947,7 @@ sec-bib-rf-elevated-mecfs-duplicate
     *Study Design:*: Prospective physiologic study: 100% O2 method for Qs/Qt
     *Sample Size:*: n=26 post-COVID, n=13 healthy controls
     *Key Findings:*:
-        - Qs/Qt elevated in post-COVID (~8%) vs healthy (~3%), persisted at 6-month follow-up
+        - Qs/Qt elevated in post-COVID (approximately 8%) vs healthy (approximately 3%), persisted at 6-month follow-up
         - Alveolar dead space also elevated
         - Worsened with exercise
         - Normal spirometry and DLCO in most patients — the "normal PFTs with desaturation" paradox
@@ -27007,7 +27007,7 @@ sec-bib-rf-elevated-mecfs-duplicate
     *Study Design:*: Case report + mechanistic narrative review
     *Sample Size:*: 1 case
     *Key Findings:*:
-        - Intrapulmonary arteriovenous anastomoses persist in ~30% of adults at rest
+        - Intrapulmonary arteriovenous anastomoses persist in approximately 30% of adults at rest
         - These anastomoses open in nearly all adults during exertion
         - Blood flowing through these anastomoses bypasses the alveolar capillary bed, causing hypoxemia
         - This mechanism contributes to hypoxemia in COVID-19 and influenza A
@@ -27133,7 +27133,7 @@ sec-bib-rf-elevated-mecfs-duplicate
     *Full Citation:*: Percin A, Ozden AV, Yenisehir S, et al. Effects of transcutaneous auricular vagus nerve stimulation on fatigue in post-COVID syndrome: a randomized, single-blind, sham-controlled study. _International Journal of Clinical Practice_. 2025;2025:5641307. @Percin2025taVNS
     *DOI:*: #link("https://doi.org/10.1155/ijcp/5641307")[10.1155/ijcp/5641307]
     *Study Design:*: Randomized, double-blind, sham-controlled trial
-    *Sample Size:*: ~50 participants
+    *Sample Size:*: approximately 50 participants
     *Key Findings:*:
         - *Primary null result:* No significant difference between active taVNS and sham on fatigue improvement
         - *Paradoxical finding:* Sham stimulation produced significantly greater fatigue improvement than active taVNS
@@ -27230,7 +27230,7 @@ sec-bib-rf-elevated-mecfs-duplicate
     *Full Citation:*: Genç H, Tahmaz T, et al. The impact of non-invasive vagus nerve stimulation on recovery following aerobic exercise in individuals with post-COVID syndrome: a randomized controlled clinical trial. _Eurasian Journal of Pulmonology_. 2024. @Genc2024taVNS
     *DOI:*: #link("https://doi.org/10.14744/ejp.2024.1204")[10.14744/ejp.2024.1204]
     *Study Design:*: Randomized, controlled clinical trial
-    *Sample Size:*: ~40 participants
+    *Sample Size:*: approximately 40 participants
     *Key Findings:*:
         - taVNS showed no significant effect on recovery following aerobic exercise compared to sham
         - Post-exercise outcomes not different between groups
@@ -27354,9 +27354,9 @@ sec-bib-rf-elevated-mecfs-duplicate
     *Study Design:*: Population database analysis (Hospital Episode Statistics, NHS England)
     *Sample Size:*: 100,055 diagnosed with ME/CFS (G93.3)
     *Key Findings:*:
-        - White individuals ~5x more likely diagnosed than other ethnicities
+        - White individuals approximately 5x more likely diagnosed than other ethnicities
         - Deprivation associated with lower diagnosis rates
-        - Female:male ratio 3.88:1, peaking at ~6:1 in 4th-5th decades
+        - Female:male ratio 3.88:1, peaking at approximately 6:1 in 4th-5th decades
         - Prevalence varies 10x across NHS Integrated Care Boards
     *Conclusion:*: Ethnic minorities, older adults, and deprived populations are disproportionately undiagnosed. Estimated lifetime prevalence up to 0.92% (females) and 0.25% (males).
     *Limitations:*: Relies on diagnostic coding; only diagnosed cases captured; England-specific.
@@ -27765,7 +27765,7 @@ sec-bib-rf-elevated-mecfs-duplicate
     *Full Citation:*: de Vivo L, Bellesi M, Marshall W, et al.\ Ultrastructural evidence for synaptic scaling across the wake/sleep cycle. _Science_. 2017;355(6324):507-510. @DeVivo2017SHYultrastructural
     *DOI:*: #link("https://doi.org/10.1126/science.aah5982")[10.1126/science.aah5982]
     *Study Design:*: Serial block-face electron microscopy in mouse sensorimotor cortex
-    *Key Findings:*: ~18% decrease in synapse density and length after sleep vs wake periods. Direct structural evidence for SHY.
+    *Key Findings:*: approximately 18% decrease in synapse density and length after sleep vs wake periods. Direct structural evidence for SHY.
     *Citations:*: 556+
     *Certainty:*: 0.88 (Science; rigorous ultrastructural quantification; animal model)
     *Relevance:*: Demonstrates that synaptic downscaling involves physical removal/reduction of synaptic structures — not just functional depression.
@@ -28020,7 +28020,7 @@ sec-bib-rf-elevated-mecfs-duplicate
     *Full Citation:*: Clarion J, Berill Z, Susi A, Mitre E, Schwartz D, Nylund CM. Post-COVID-19 onset of allergic conditions in a propensity-matched cohort of children and adults. _Annals of Allergy, Asthma and Immunology_. 2026. @clarion2026postcovid
     *DOI:*: #link("https://doi.org/10.1016/j.anai.2026.05.022")[10.1016/j.anai.2026.05.022]
     *Study Design:*: 1:2 propensity-matched retrospective cohort
-    *Sample Size:*: ~200,000 individuals, 18-month follow-up
+    *Sample Size:*: approximately 200,000 individuals, 18-month follow-up
     *Key Findings:*:
         - COVID-19 associated with significantly increased HR for all six allergic conditions studied
         - Asthma and rhinoconjunctivitis significant in active-duty adult subset
@@ -28178,7 +28178,7 @@ sec-bib-rf-elevated-mecfs-duplicate
     *Full Citation:*: Portilho AI, Silva VO, Da Costa HHM, Silva VH, Barbosa APM, Villar LM, De Gaspari EN. An unexpected IgE anti-receptor binding domain response following natural infection and different types of SARS-CoV-2 vaccination. _Scientific Reports_. 2024;14:18950. @portilho2024igeanti
     *DOI:*: #link("https://doi.org/10.1038/s41598-024-71047-5")[10.1038/s41598-024-71047-5]
     *Study Design:*: Cross-sectional serology
-    *Sample Size:*: n~50
+    *Sample Size:*: n ≈ 50
     *Key Findings:*:
         - Spike RBD-specific IgE detected after both natural infection and vaccination
         - Demonstrates anti-spike IgE is not restricted to acute infection
@@ -28247,7 +28247,7 @@ sec-bib-rf-elevated-mecfs-duplicate
     *Full Citation:*: Giménez-Orenga K, Pierquin J, Brunel J, Charvet B, Martín-Martínez E, Lemarinier M, Fried S, Lucas A, Perron H, Oltra E. Blood parameters differentiate post COVID-19 condition from Myalgic Encephalomyelitis/Chronic Fatigue Syndrome and Fibromyalgia. _Brain, Behavior, and Immunity — Health_. 2025;48:101058. @gimenezorenga2025blood
     *DOI:*: #link("https://doi.org/10.1016/j.bbih.2025.101058")[10.1016/j.bbih.2025.101058]
     *Study Design:*: Cross-sectional serological comparison
-    *Sample Size:*: ~100 total (post-COVID, ME/CFS, FM, controls)
+    *Sample Size:*: approximately 100 total (post-COVID, ME/CFS, FM, controls)
     *Key Findings:*:
         - Anti-spike IgE levels differentiate post-COVID condition from prepandemic ME/CFS
         - 100% sensitivity, 71.9% specificity for discrimination
@@ -28271,7 +28271,7 @@ sec-bib-rf-elevated-mecfs-duplicate
     *DOI:*: #link("https://doi.org/10.1016/j.cell.2023.09.013")[10.1016/j.cell.2023.09.013]
     *PMID:*: 37848036
     *Study Design:*: Multi-mechanism translational study
-    *Sample Size:*: Multiple cohorts; ~100+ Long COVID patients + controls + animal models
+    *Sample Size:*: Multiple cohorts; approximately 100+ Long COVID patients + controls + animal models
     *Key Findings:*:
         - Reduced serum serotonin in Long COVID via 3 converging mechanisms: (1) IFN-gamma-driven IDO activation diverting tryptophan from serotonin synthesis; (2) viral persistence reducing enteric serotonin absorption (impaired enterochromaffin cell function); (3) impaired platelet serotonin storage and release
         - Serotonin reduction correlates with fatigue and cognitive impairment
@@ -28394,7 +28394,7 @@ sec-bib-rf-elevated-mecfs-duplicate
     *PMID:*: 39202077
     *Key Findings:*:
         - Lower serotonin correlated with higher pain in FM; IL-6 inversely correlated with serotonin
-    *Limitations:*: Small (~40); unreplicated.
+    *Limitations:*: Small (approximately 40); unreplicated.
     *Certainty:*: 0.45
 
 === Paredes et al.\ 2019 — Serotonin, Pain Disorders, and Estrogen
@@ -28504,7 +28504,7 @@ sec-bib-rf-elevated-mecfs-duplicate
         - Tear fluid proteomics: abnormal pattern of nerve-regulating and T-cell-regulating proteins; same protein pattern found in blood/tissue of severe/fatal COVID (other studies)
         - Upregulation of ITGB6, NFASC, CTGF, TPSAB1, CKMT1A-CKMT1B
         - Pupil dysfunction correlated with elevated JUN; dendritic/T-cell dysregulation correlated with ANGPTL2, SKAP2, DAPP1
-        - Two diagnostic models proposed: instrument-only (eye clinic measurements, ~77% accuracy) and instrument + tear proteomics (~91% accuracy)
+        - Two diagnostic models proposed: instrument-only (eye clinic measurements, approximately 77% accuracy) and instrument + tear proteomics (approximately 91% accuracy)
     *Conclusion:*: Post-COVID ocular syndrome is a debilitating condition driven by immune dysregulation, dysautonomia, and peripheral neuropathy manifesting in the eye. Tear proteomics implicates chronic T-cell-mediated neuroinflammation. Requires specialised testing for diagnosis; standard ophthalmic exams are insufficient.
     *Limitations:*: Cross-sectional design; single center (Linköping, Sweden); non-hospitalised cohort only; no ME/CFS subgroup analysis; controls were mild-COVID without ocular symptoms (not infection-naïve). Diagnostic models need external validation.
     *ME/CFS Relevance:*: Directly demonstrates small-fiber neuropathy, dysautonomia, and immune dysregulation in a post-COVID cohort. The tear proteomic signature (T-cell dysregulation, nerve-regulatory proteins) parallels mechanisms implicated in ME/CFS. Documented corneal nerve degeneration provides accessible tissue-level window into small-fiber pathology shared with ME/CFS. Self-report photophobia + accommodation deficits overlap with ME/CFS cognitive/visual symptoms.
@@ -28987,7 +28987,7 @@ sec-bib-rf-elevated-mecfs-duplicate
         - Corneal nerve changes suggest neuro-immune phenotype in FM dry eye
     *Conclusion:*: FM-associated dry eye is a neuro-immune condition with detectable corneal nerve changes.
     *Limitations:*: Cross-sectional; moderate sample; novel finding requiring replication.
-    *ME/CFS Relevance:*: Directly demonstrates that fatigue-spectrum conditions (FM) have measurable ocular surface abnormalities. Provides evidence for the ocular surface as window into neuro-immune status. ME/CFS may show similar patterns given high FM-ME/CFS overlap (~47%).
+    *ME/CFS Relevance:*: Directly demonstrates that fatigue-spectrum conditions (FM) have measurable ocular surface abnormalities. Provides evidence for the ocular surface as window into neuro-immune status. ME/CFS may show similar patterns given high FM-ME/CFS overlap (approximately 47%).
     *Certainty Assessment:*:
         - *Score:* 0.50
 
@@ -29078,8 +29078,8 @@ sec-bib-rf-elevated-mecfs-duplicate
     *PMID:*: 39726855
     *Study Design:*: Narrative review with evidence synthesis
     *Key Findings:*:
-        - ~50% of women with fibromyalgia have reduced skin innervation
-        - CCM detects SFN in ~59% of FMS patients
+        - approximately 50% of women with fibromyalgia have reduced skin innervation
+        - CCM detects SFN in approximately 59% of FMS patients
         - Microneurography shows spontaneous C-fiber activity, mechanosensitivity, enhanced activity-induced slowing
         - Consistent across cohorts from different global regions
     *Conclusion:*: Converging evidence supports a neuropathic SFN subset in fibromyalgia.
@@ -29881,7 +29881,7 @@ sec-bib-rf-elevated-mecfs-duplicate
     *Sample Size:*: n=24,503 LD cases, n=122,095 matched controls
     *Key Findings:*:
         - Pain/fatigue/cognitive codes 5.0% more frequent in LD vs controls
-        - Symptom codes comprised ~11% of total codes in LD patients
+        - Symptom codes comprised approximately 11% of total codes in LD patients
         - Symptoms declined at 6-12 months
         - Fatigue specifically persisted beyond 12 months (only domain not normalizing)
     *Conclusion:*: Absolute risk of persistent post-Lyme symptoms may be lower than 10-20% in general LD population, but fatigue is the most persistent domain.
@@ -30111,7 +30111,7 @@ sec-bib-rf-elevated-mecfs-duplicate
     *Full Citation:*: Oosting M, Kerstholt M, Ter Horst R, et al.\ Functional and genomic architecture of Borrelia burgdorferi-induced cytokine responses in humans. _Cell Host & Microbe_. 2016;20(6):822-833. @Oosting2016BorreliaCytokine
     *DOI:*: #link("https://doi.org/10.1016/j.chom.2016.10.006")[10.1016/j.chom.2016.10.006]
     *PMID:*: 27818078
-    *Study Design:*: Human in vitro (primary monocytes, two healthy cohorts, n=~500)
+    *Study Design:*: Human in vitro (primary monocytes, two healthy cohorts, n=approximately 500)
     *Key Findings:*:
         - Non-genetic and genetic host factors influence Borrelia-induced cytokine production
         - Age strongly impairs IL-22 responses
@@ -30363,7 +30363,7 @@ sec-bib-rf-elevated-mecfs-duplicate
         - ME/CFS exosomes activate HMC3 microglia to release IL-1β
         - DNase treatment blocks activation → mtDNA is the active moiety
     *Conclusion:*: Exercise-induced exosomal mtDNA release in ME/CFS directly activates microglia — bridges mitochondrial dysfunction to neuroinflammation.
-    *Limitations:*: HMC3 cell line; small n (~20 ME/CFS, ~10 controls); post-exercise only; no subtyping.
+    *Limitations:*: HMC3 cell line; small n (approximately 20 ME/CFS, approximately 10 controls); post-exercise only; no subtyping.
 
 === Chaves-Filho 2019 — Shared Microglial Mechanisms in CFS and Depression
 
@@ -30385,7 +30385,7 @@ sec-bib-rf-elevated-mecfs-duplicate
     *PMID:*: 39994562
     *Study Design:*: GWAS comparing PTLDS, FM, and ME/CFS
     *Key Findings:*:
-        - No genome-wide significant loci for PTLDS (underpowered, ~200 cases)
+        - No genome-wide significant loci for PTLDS (underpowered, approximately 200 cases)
         - Suggestive genetic overlap between PTLDS, FM, and ME/CFS
         - Shared pathways include immune function and neuroinflammation
     *Conclusion:*: Tentative genetic evidence linking PTLDS to ME/CFS — supports shared neuroinflammatory susceptibility.
@@ -30894,7 +30894,7 @@ sec-bib-rf-elevated-mecfs-duplicate
     - *Symptoms:* Abnormal fatigue (98.7%), PEM (97.7%), sleep disorders (97.2%) reported by nearly all respondents; >75% rated these very/extremely burdensome
     - *Comorbidities:* Fibromyalgia (63.3%), IBS (56.9%), orthostatic hypotension (20.6%), POTS (17.0%), long COVID (16.4%), SFN (12.8%), MCAS (10.5%)
     - *Diagnostic delay:* 50% waited >2 years from first consultation to diagnosis; 39% waited >5 years; delay associated with significantly worse HRQoL (p=0.010)
-    - *Treatment experiences:* GET predominantly perceived as harmful (majority reported PEM exacerbation); CBT mixed (~50% improved, ~20% deteriorated); physiotherapy and psychological counselling generally positive; pacing widely used but evidence base limited
+    - *Treatment experiences:* GET predominantly perceived as harmful (majority reported PEM exacerbation); CBT mixed (approximately 50% improved, approximately 20% deteriorated); physiotherapy and psychological counselling generally positive; pacing widely used but evidence base limited
     - *Care organisation:* Only one NIHDI-funded reference centre in Belgium (Dutch-speaking Flanders); other centres entail out-of-pocket costs; 50% reported care rarely/never well organised
     - *Work impact:* 1,189 individuals in Belgian invalidity database (31 Dec 2024); mean invalidity duration 8.6 years — among the longest of any condition studied under NEED
     - *Social impact:* 75% reported negative impact on personal relationships; majority stopped working or reduced hours; majority reported financial difficulties
@@ -31331,7 +31331,7 @@ sec-bib-rf-elevated-mecfs-duplicate
         - *Quality:* High (peer-reviewed in Acta Neuropathologica Communications; IHC + EM + proteomics + transcriptomics)
         - *Sample:* Low (n=11 PCS, small for mechanistic study)
         - *Replication:* Partially replicated by Charlton 2025 (capillary BM thickening, more comprehensive n=50 patient biopsies); Agergaard 2023 (capillary injury in Long COVID n=18)
-        - *Cohort:* Charité — Universitätsmedizin Berlin, Germany; recruitment ~2021--2022; PIs: Stenzel, Dengler, Heppner, Scheibenbogen
+        - *Cohort:* Charité — Universitätsmedizin Berlin, Germany; recruitment approximately 2021--2022; PIs: Stenzel, Dengler, Heppner, Scheibenbogen
         - *Score:* 0.65
     / *Limitations:*: Small n (11 PCS); no ME/CFS biopsy arm — comparison to ME/CFS is by literature; historical controls (not contemporaneous); no longitudinal follow-up; CD169+ macrophage finding not replicated yet.
 
@@ -31351,7 +31351,7 @@ sec-bib-rf-elevated-mecfs-duplicate
         - *Quality:* High (randomized crossover; Chest journal; invasive CPET gold-standard hemodynamics)
         - *Sample:* Medium (n=45 ME/CFS, well-powered for primary endpoint)
         - *Replication:* Partial — consistent with Franklin 2022 meta-analysis of 2-day CPET; consistent with Squires 2026 invasive CPET + biopsy
-        - *Cohort:* Brigham and Women's Hospital, Boston, MA; recruitment ~2018--2021; PI: Systrom
+        - *Cohort:* Brigham and Women's Hospital, Boston, MA; recruitment approximately 2018--2021; PI: Systrom
         - *Score:* 0.65
     / *Limitations:*: Fukuda criteria (not CCC/IOM — may include patients without PEM); single center; pyridostigmine effect size modest (+0.9 mL/kg/min); study assesses acute exercise response, not PEM.
 
@@ -31373,7 +31373,7 @@ sec-bib-rf-elevated-mecfs-duplicate
         - *Quality:* Medium-High (peer-reviewed; comprehensive EMG + histopathology)
         - *Sample:* Low-Medium (n=18 Long COVID)
         - *Replication:* Partially replicated — capillary BM thickening confirmed by Aschman 2023 and Charlton 2025; capillarization finding partially contradictory to Charlton 2025
-        - *Cohort:* Aarhus University Hospital, Denmark; recruitment ~2021--2022; PIs: Agergaard, Tankisi
+        - *Cohort:* Aarhus University Hospital, Denmark; recruitment approximately 2021--2022; PIs: Agergaard, Tankisi
         - *Score:* 0.60
     / *Limitations:*: Small n (18); no healthy control biopsies — comparisons to literature standards; biceps and anterior tibialis rather than vastus lateralis (different fiber types); qEMG/sfEMG normative data from different labs.
 
@@ -32459,7 +32459,7 @@ sec-bib-rf-elevated-mecfs-duplicate
          - Plasma exchange: positive case series but no RCT
          - Overall quality of evidence: low
      / *Relevance:*: Gold standard summary of PANDAS/PANS treatment evidence. The pattern — positive case series, negative or weak RCTs — mirrors early ME/CFS immunotherapy literature and highlights the stratification imperative.
-     / *Limitations:*: Covers only studies through ~2017; most included studies had high risk of bias.
+     / *Limitations:*: Covers only studies through approximately 2017; most included studies had high risk of bias.
      / *Certainty:*: 0.80
 
 === Chiarello et al.\ 2017 — PANDAS/PANS Controversies
@@ -32557,10 +32557,10 @@ sec-bib-rf-elevated-mecfs-duplicate
      / *PMID:*: 27534269
      / *Study Design:*: Authoritative review
      / *Key Findings:*:
-         - Two axes of immune involvement: prenatal (maternal infection/MIA, maternal anti-brain autoantibodies in ~20% of ASD mothers) and postnatal (inflammation, cytokines, endogenous autoantibodies, T-cell/NK dysfunction)
+         - Two axes of immune involvement: prenatal (maternal infection/MIA, maternal anti-brain autoantibodies in approximately 20% of ASD mothers) and postnatal (inflammation, cytokines, endogenous autoantibodies, T-cell/NK dysfunction)
          - Maternal anti-brain IgG defines a specific ASD subphenotype
          - Animal models: MIA produces ASD-like behavior in offspring
-     / *Relevance:*: Defines the immune-mechanism ASD subgroup that could fit within a broader "neuroimmune encephalopathy spectrum." The maternal autoantibody subtype (~20%) is a prenatal Architecture B example.
+     / *Relevance:*: Defines the immune-mechanism ASD subgroup that could fit within a broader "neuroimmune encephalopathy spectrum." The maternal autoantibody subtype (approximately 20%) is a prenatal Architecture B example.
      / *Limitations:*: Review; causal direction in postnatal immune findings unclear; many associations not replicated.
      / *Certainty:*: 0.70
 
@@ -32570,7 +32570,7 @@ sec-bib-rf-elevated-mecfs-duplicate
      / *PMID:*: 22689191
      / *Study Design:*: Review
      / *Key Findings:*:
-         - ~10--23% of mothers of children with ASD have anti-fetal brain protein IgG autoantibodies
+         - approximately 10--23% of mothers of children with ASD have anti-fetal brain protein IgG autoantibodies
          - Gestational immune aberrations (infection, cytokine dysregulation) independently associated with ASD risk
          - Proposal: ASD may contain an immune-mediated subphenotype detectable during pregnancy
      / *Relevance:*: Establishes prenatal autoantibody-mediated neurodevelopmental phenotype. Different temporality than PANDAS (in utero vs postnatal) but same Architecture B logic: antibody → brain target → psychiatric/neurodevelopmental phenotype.
@@ -32586,7 +32586,7 @@ sec-bib-rf-elevated-mecfs-duplicate
          - Identified 7 primary antigens of maternal autoantibody-related (MAR) ASD: LDH-A, LDH-B, cypin, STIP1, CRMP1, CRMP2, YB-1
          - All antigens are highly expressed in developing brain
          - MAR autoantibodies bound fetal but not adult neurons — developmental stage specificity
-         - MAR pattern present in ~23% of ASD cases
+         - MAR pattern present in approximately 23% of ASD cases
      / *Relevance:*: The most specific immune-mechanism ASD biomarker to date. Defines a prenatal autoimmune ASD subgroup analogous to the anti-GPCR autoantibody subgroup in ME/CFS. Demonstrates the principle that autoantibodies can have temporally-specific, development-stage-dependent effects.
      / *Limitations:*: Single research group; replication ongoing; role of MAR Abs in disease causation vs risk marker unclear.
      / *Certainty:*: 0.75
@@ -32682,8 +32682,8 @@ sec-bib-rf-elevated-mecfs-duplicate
          - 24 with autistic regression, 26 with classic non-regressive ASD
          - Anti-basal ganglia antibodies and anti-dopamine receptor antibodies measured
          - No significant difference between regressive and non-regressive groups in antibody prevalence
-         - ~20% of all ASD had elevated anti-neuronal antibodies — immune subgroup exists regardless of onset type
-     / *Relevance:*: Weakens the argument that regression specifically indicates immune etiology, but strengthens the argument that an immune subgroup exists across ASD. Anti-neuronal antibody prevalence (~20%) roughly matches maternal autoantibody prevalence — suggesting immune mechanisms may characterize a consistent fraction.
+         - approximately 20% of all ASD had elevated anti-neuronal antibodies — immune subgroup exists regardless of onset type
+     / *Relevance:*: Weakens the argument that regression specifically indicates immune etiology, but strengthens the argument that an immune subgroup exists across ASD. Anti-neuronal antibody prevalence (approximately 20%) roughly matches maternal autoantibody prevalence — suggesting immune mechanisms may characterize a consistent fraction.
      / *Limitations:*: Very small sample (n=50); single center; antibody assays of uncertain sensitivity.
       / *Certainty:*: 0.45
 
@@ -32769,7 +32769,7 @@ sec-bib-rf-elevated-mecfs-duplicate
 *PMCID:*: PMC12790524
 *Study Design:*: Scoping review
 *Key Findings:*:
-    - Consistent severe QoL impairment in ME/CFS (EQ-5D scores ~0.40--0.55, lower than MS/stroke)
+    - Consistent severe QoL impairment in ME/CFS (EQ-5D scores approximately 0.40--0.55, lower than MS/stroke)
     - Economic burden estimated at \$18--51B in the US
     - No non-high-income-country burden estimates identified in the review
     - Gap: burden of disease data entirely absent from LMICs
@@ -33091,12 +33091,12 @@ sec-bib-rf-elevated-mecfs-duplicate
         - Combined Long COVID + ME/CFS cost of EUR 318.8 billion across 2020--2025
         - EUR 64.4 billion in 2025 alone = 1.44% of German GDP
         - Prevalence end-2025: 756,808 Long COVID + 656,951 ME/CFS (combined >1.4M); ME/CFS caseload rising while Long COVID falls
-        - ME/CFS recovery rate ~5%/year — low recovery is a key cost driver
+        - ME/CFS recovery rate approximately 5%/year — low recovery is a key cost driver
         - Corrected SARS-CoV-2 infection estimate of 13--15 million in 2025 (80--200x the official RKI figure)
         - Federal research spending ~EUR 40M/yr versus the EUR 64.4B 2025 cost = 0.06%
         - "National Decade Against Post-infectious Diseases": EUR 500M over 10 years (EUR 50M/yr)
         - Funding split since 2022: 22% biomedical (EUR 50M) vs 71% healthcare-services research (EUR 157M)
-    / *Conclusion:*: Long COVID and ME/CFS impose a substantial and rising societal cost in Germany (~1.44% of GDP in 2025), while research funding remains orders of magnitude below the modelled burden — motivating the National Decade policy initiative.
+    / *Conclusion:*: Long COVID and ME/CFS impose a substantial and rising societal cost in Germany (approximately 1.44% of GDP in 2025), while research funding remains orders of magnitude below the modelled burden — motivating the National Decade policy initiative.
     / *Limitations:*: Gray literature (not peer-reviewed); Monte Carlo modelled estimate from a risk-modelling firm + patient-advocacy-adjacent research foundation; cost figures depend on reconstructed (non-official) infection counts and assumed recovery/transition parameters; 2026 edition supersedes 2025 but shares the same model and team — a single evidence source, not independent replication.
     / *Certainty:*: 0.55
 
@@ -33109,7 +33109,7 @@ sec-bib-rf-elevated-mecfs-duplicate
     / *Key Findings:*:
         - Establishes the reproducible Monte Carlo framework modelling SARS-CoV-2 infection → Long COVID → ME/CFS progression
         - Decomposes cost into societal, employer, personal, and medical components
-        - 2024 combined cost equating to ~1.5% of German GDP (superseded by the 2026 update's 1.44% for 2025)
+        - 2024 combined cost equating to approximately 1.5% of German GDP (superseded by the 2026 update's 1.44% for 2025)
     / *Conclusion:*: The original framework establishing that Long COVID and ME/CFS together impose a cost on the scale of a percentage point of German GDP, with low recovery rates as the central driver.
     / *Limitations:*: Superseded by the 2026 update; same model and author team as the update (single evidence source, not independent replication); gray literature, not peer-reviewed.
     / *Certainty:*: 0.55
@@ -33134,7 +33134,7 @@ sec-bib-rf-elevated-mecfs-duplicate
     / *DOI:*: #link("https://doi.org/10.1371/journal.pone.0307086")[10.1371/journal.pone.0307086]
     / *PMID:*: 39024303
     / *Key Findings:*:
-        - A prospective ME/CFS drug is estimated to yield ~29,000 QALYs and ~EUR 2.6 billion societal value (German perspective)
+        - A prospective ME/CFS drug is estimated to yield approximately 29,000 QALYs and ~EUR 2.6 billion societal value (German perspective)
         - Optimal German public R&D investment estimated at EUR 676 million — about a quarter of total drug-development cost
         - Results confirmed in sensitivity analysis; concludes a coordinated international approach is imperative
     / *Conclusion:*: Peer-reviewed German health-economics modelling that quantifies the funding gap: the societal value of an effective ME/CFS drug far exceeds current investment — consistent with the cost report's funding-gap thesis.
@@ -33311,7 +33311,7 @@ sec-bib-rf-elevated-mecfs-duplicate
 
     / *Full Citation:*: Charlton BT, Slaghekke A, Appelman B, Eggelbusch M, Huijts JY, Noort W, Hendrickse PW, Bloemers FW, Posthuma JJ, van Amstel P, Goulding RP, Degens H, Jaspers RT, van Vugt M, Wüst RCI. Skeletal Muscle Properties in Long COVID and ME/CFS Differ from Those Induced by Bed Rest. _Nature Communications_. 2026. Article in Press. @Charlton2026MuscleBedrest
     / *DOI:*: #link("https://doi.org/10.1038/s41467-026-75725-y")[10.1038/s41467-026-75725-y]
-    / *Study Design:*: Cross-sectional comparison: strict 60d head-down tilt bed rest (n=24 healthy, longitudinal pre-post) vs long COVID (n~25), ME/CFS (n~26, pre-2020 dx), age/sex-matched healthy controls (n=30)
+    / *Study Design:*: Cross-sectional comparison: strict 60d head-down tilt bed rest (n=24 healthy, longitudinal pre-post) vs long COVID (n ≈ 25), ME/CFS (n ≈ 26, pre-2020 dx), age/sex-matched healthy controls (n=30)
     / *Key Findings:*:
         - VO#sub[2]max similarly reduced in patient groups and post-bed rest — but via different physiological mechanisms
         - Bed rest: reduced VEmax, increased VE/VCO#sub[2] slope; patients: increased HR-VO#sub[2] slope (suggestive of impaired O#sub[2] extraction or stroke volume)
@@ -33558,7 +33558,7 @@ sec-bib-rf-elevated-mecfs-duplicate
     / *Study Design:*: Comprehensive review
     / *Sample Size:*: N/A (literature review)
     / *Key Findings:*:
-        - HSV-1 global prevalence ~67% in individuals aged \<50
+        - HSV-1 global prevalence approximately 67% in individuals aged \<50
         - Recurrence rate: 20–40% of seropositive individuals
         - Known recurrence triggers: UV radiation, psychological stress, fever, menstruation, trauma
     / *Conclusion:*: Provides essential baseline epidemiology for interpreting HSV outbreak frequency in ME/CFS. Expected recurrence rate 20–40% must be exceeded for outlier PEM-triggered signal.
@@ -33573,7 +33573,7 @@ sec-bib-rf-elevated-mecfs-duplicate
     / *Study Design:*: Review
     / *Sample Size:*: N/A (literature review)
     / *Key Findings:*:
-        - Acyclovir resistance in immunocompetent patients: ~0.3%
+        - Acyclovir resistance in immunocompetent patients: approximately 0.3%
         - Higher resistance rate in immunocompromised (5–14%)
         - Alternative therapies: foscarnet, cidofovir, helicase-primase inhibitors
     / *Conclusion:*: Supports long-term safety and low resistance risk of valacyclovir suppressive therapy, relevant for any HSV-suppression protocols in ME/CFS trials.
@@ -33796,7 +33796,7 @@ sec-bib-rf-elevated-mecfs-duplicate
         - mTORS6 phosphorylation as candidate biomarker for pathway activation
         - Motivates mTOR-targeted interventions (rapamycin) in pediatric post-infectious neuropsychiatric syndromes
     / *Conclusion:*: Extends the mTOR hyperactivation framework to pediatric populations. Reinforces the infection→mTOR→BBB→neuroinflammation cascade proposed in adult ME/CFS literature (Bar-Tana 2025, Drosen 2025). Pediatric focus is novel.
-    / *Limitations:*: Review only — no primary human data. Pediatrics-focused; adult ME/CFS translational relevance inferred but not directly tested. mTOR→psychiatric symptoms link is plausible but many steps lack pediatric human evidence. Single-proponent model (Fronticelli Baldelli). Journal quality: MDPI Children (impact factor ~2.5).
+    / *Limitations:*: Review only — no primary human data. Pediatrics-focused; adult ME/CFS translational relevance inferred but not directly tested. mTOR→psychiatric symptoms link is plausible but many steps lack pediatric human evidence. Single-proponent model (Fronticelli Baldelli). Journal quality: MDPI Children (impact factor approximately 2.5).
     / *Certainty:*: 0.35
 
 === Hodding et al.\ 1980 — Drug Withdrawal Syndromes: Foundational Review
@@ -34489,7 +34489,7 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
         - CYP1A2 inhibition produces clinically significant duloxetine exposure increase — listed in prescribing information
         - Smoking associated with 30% decrease in duloxetine concentration (CYP1A2 induction)
         - Duloxetine is a moderate CYP2D6 inhibitor; duloxetine PK affected by CYP2D6 poor metabolizer status but to a lesser extent
-    *Conclusion:*: Fluvoxamine–duloxetine is a Level 2 (PK catastrophe) contraindicated combination. The ~5× increase in duloxetine exposure carries risk of serotonin syndrome, hepatotoxicity, and exaggerated adverse effects. Documented in FDA labeling.
+    *Conclusion:*: Fluvoxamine–duloxetine is a Level 2 (PK catastrophe) contraindicated combination. The approximately 5× increase in duloxetine exposure carries risk of serotonin syndrome, hepatotoxicity, and exaggerated adverse effects. Documented in FDA labeling.
     *Certainty Assessment:*:
         - *Quality:*: High (Clin Pharmacokinet; manufacturer data)
         - *Sample:*: Formal PK interaction study
@@ -34838,10 +34838,10 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
     *Sample Size:*: n=350 symptomatic RA patients on DMARDs; randomized 2:1 to DR-prednisone 5mg vs placebo (12 weeks)
     *Diagnostic Criteria:*: ACR/EULAR RA criteria
     *Key Findings:*:
-        - Delayed-release prednisone (administered ~22:00, releases at ~02:00) significantly improved fatigue beyond DMARD alone (FACIT-F: +3.8 vs +1.6 placebo; p=0.0032)
+        - Delayed-release prednisone (administered approximately 22:00, releases at approximately 02:00) significantly improved fatigue beyond DMARD alone (FACIT-F: +3.8 vs +1.6 placebo; p=0.0032)
         - Improvement in FACIT-F correlated positively with clinical response
         - Significantly greater improvement in SF-36 vitality score (+5.6, p=0.001), physical component (+2.3, p=0.0003), and FACT-G general quality of life (+2.6, p=0.0233)
-        - Mechanism: evening administration timed so drug release at ~02:00 coincides with nocturnal rise of pro-inflammatory cytokines (IL-6, TNF-α) that drive morning stiffness and fatigue
+        - Mechanism: evening administration timed so drug release at approximately 02:00 coincides with nocturnal rise of pro-inflammatory cytokines (IL-6, TNF-α) that drive morning stiffness and fatigue
     *Relevance:*: Proof-of-concept demonstration that timing of drug administration predicts efficacy specifically for the fatigue dimension — the exact probe logic. Establishes that chronotherapy for fatigue is clinically feasible, measurable, and significant. If evening prednisone improves RA fatigue by timing anti-inflammatory action to the nocturnal cytokine surge, the same principle is applicable to ME/CFS where nocturnal immune activation is suspected. Demonstrates that chronotherapy is not merely theoretical — it produces clinically meaningful effect sizes (FACIT-F 2.2 points above placebo).
     *Certainty Assessment:*:
         - *Quality:*: High (RMD Open; double-blind RCT; n=350)
@@ -34863,7 +34863,7 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
         - Pain and stiffness peaked in early morning (plateau 04:00–08:00), declined to nadir at 16:00 (2P < 0.05)
         - Plasma IL-6, IL-8, TNF-α, IL-1β, and IL-4 varied with diurnal time in both groups, peaking between 04:00 and 08:00
         - Cytokine concentrations (except IL-1β) and IL-10 were higher in patients throughout 24h
-        - Melatonin and cortisol consistently higher in patients, peaking ~02:00 and ~08:00 respectively
+        - Melatonin and cortisol consistently higher in patients, peaking approximately 02:00 and approximately 08:00 respectively
         - Prednisolone 20mg/day for 14 days abolished symptoms, normalized CRP, reduced melatonin, IL-6, IL-8, and TNF-α; IL-10 increased at 10:00–14:00
         - Findings support melatonin → cytokine production → symptoms pathway, with cortisol acting as anti-inflammatory counter-regulator
     *Relevance:*: Demonstrates diurnal symptom-cytokine coupling in an autoimmune fatigue condition — provides precedent for time-of-day drug testing in fatigue syndromes. The 04:00–08:00 inflammatory peak is the target window for chronotherapy. Extending this logic to ME/CFS: a drug effective at 08:00 but not 20:00 may reflect anti-cytokine action timed to the nocturnal inflammatory surge. A drug effective at 20:00 but not 08:00 may reflect an anticipatory anti-inflammatory mechanism. The cytokine time-course data provides the circadian biomarker against which drug response timing can be interpreted.
@@ -34885,7 +34885,7 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
         - Nighttime rise of pro-inflammatory cytokines (especially IL-6, TNF-α) precedes clinical symptoms
         - Cortisol circadian rhythm relatively preserved but insufficient in magnitude to suppress the increased inflammation — relative adrenal insufficiency
         - Melatonin stimulates production of inflammatory cytokines (contrasts with its sleep-promoting role)
-        - Chronotherapy with modified-release prednisone administered at bedtime delays drug release to ~02:00–04:00, optimizing cytokine suppression
+        - Chronotherapy with modified-release prednisone administered at bedtime delays drug release to approximately 02:00–04:00, optimizing cytokine suppression
         - Circadian-informed timing of NSAIDs and DMARDs also under investigation
     *Relevance:*: Clinical template for the diurnal probe concept. RA serves as the best-studied exemplar where timing of drug administration is mechanistically linked to diurnal pathophysiology (nocturnal cytokine surge → morning symptoms → bedtime drug timing). The "relative adrenal insufficiency" in RA is structurally analogous to the blunted cortisol axis in ME/CFS (Woo 2026) — if endogenous cortisol is already low, the diurnal drug response window for HPA-axis-modulating drugs may be amplified compared to healthy controls.
     *Certainty Assessment:*:
@@ -34944,7 +34944,7 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
     *Published:*: October 2021
     *Study Design:*: Review
     *Key Findings:*:
-        - In adrenal insufficiency, hydrocortisone replacement must mimic the physiological circadian cortisol rhythm: peak at ~08:00, trough at midnight
+        - In adrenal insufficiency, hydrocortisone replacement must mimic the physiological circadian cortisol rhythm: peak at approximately 08:00, trough at midnight
         - Standard bid/tid dosing regimens fail to replicate the normal diurnal curve — supraphysiological peaks then subphysiological troughs
         - Modified-release hydrocortisone formulations (dual-release, once-daily at bedtime; Chronocort) better approximate the physiological rhythm
         - Circadian-matched replacement reduces metabolic comorbidities (obesity, insulin resistance, osteoporosis, cardiovascular risk) compared to flat-dosing regimens
@@ -35068,7 +35068,7 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
     *Study Design:*: Urinary 1H-NMR metabolomics; case-control with multiple control groups.
     *Key Findings:*:
         - Significant increases in gut-microbiome-related metabolites (hippuric, succinic, lactic acids) in fibromyalgia vs controls
-        - Diagnostic algorithm (succinic acid, taurine, creatine) achieved ROC AUC ~0.90
+        - Diagnostic algorithm (succinic acid, taurine, creatine) achieved ROC AUC approximately 0.90
         - Supports hippuric acid as a cross-condition marker of altered microbiome–host metabolite flux in chronic pain/fatigue
     *Conclusion:*: Independent evidence that gut-microbiome-derived hippurate is elevated in a chronic pain syndrome overlapping ME/CFS, reinforcing the benzoate→hippurate axis the Xiong model links to symptoms.
     *Limitations:*: Small (n=18 FMS patients), single centre, largely female cohort; cross-sectional; associative.
@@ -35259,10 +35259,10 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
         - Long COVID PEM patients show reduced gas exchange threshold and respiratory compensation point, both effort-independent — indicates genuine reduction in aerobic function, not effort limitation
         - Intrinsic mitochondrial respiration reduced in Long COVID vs controls (qualitative alteration in mitochondrial function, not loss of mitochondrial content as in bed rest)
         - No differences in capillarization or fibre cross-sectional area between Long COVID and controls, unlike bed-rest deconditioning
-        - GET/graded-exercise meta-analyses (Larun 2017, REGAIN 2024, Espinoza-Bravo 2023, Jimeno-Almazán 2022) include up to ~30% participants with comorbidities that would benefit from exercise
+        - GET/graded-exercise meta-analyses (Larun 2017, REGAIN 2024, Espinoza-Bravo 2023, Jimeno-Almazán 2022) include up to approximately 30% participants with comorbidities that would benefit from exercise
         - Walitt et al.\ (2024) deep phenotyping supports physiological (autonomic dysfunction, CSF catecholamines, lower post-exercise cortisol) rather than psychological explanations of PEM, and peak measures did not correlate with effort preference
     / *Conclusion:*: Skeletal muscle alterations in Long COVID PEM are not explained by deconditioning; the phenotype differs fundamentally from bed-rest deconditioning, and submaximal effort-independent thresholds confirm a genuine aerobic deficit. Authors advocate caution regarding intense exercise while PEM thresholds remain ill-defined.
-    / *Limitations:*: Commentary/reply (not primary data); no full age/sex/activity-matched control group (acknowledged by authors); limited to Long COVID PEM patients (~90% of Long COVID); GET/Larun critique based on trial-design confounds rather than new data.
+    / *Limitations:*: Commentary/reply (not primary data); no full age/sex/activity-matched control group (acknowledged by authors); limited to Long COVID PEM patients (approximately 90% of Long COVID); GET/Larun critique based on trial-design confounds rather than new data.
     / *Certainty Assessment:*:
         - *Quality:*: Medium-High (primary data re-analysis + argument; reply to commentary)
         - *Sample:*: Re-analysis of n=46 (25 LC + 21 HC) + matched step-count subset
@@ -35893,7 +35893,7 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
     / *Full Citation:*: Aditi, Blackwell T, Fang X, Sharma S, Mendoza M, Landay A, Golovko G, Samir P. Long-term risk of dementia following encephalitis: a large-scale retrospective cohort study of electronic health records. _Journal of Neurology_. 2026;273(9):511. @Aditi2026EncephalitisDementia
     / *DOI:*: #link("https://doi.org/10.1007/s00415-026-14017-3")[10.1007/s00415-026-14017-3]
     / *PMID:*: 42557422
-    / *Study Design:*: Retrospective cohort, TriNetX US electronic health records (~129M patients, 72 healthcare organizations); encephalitis (onset ≥2005) vs propensity-score-matched controls, 10-year follow-up; comparator cohorts sepsis/meningitis/stroke.
+    / *Study Design:*: Retrospective cohort, TriNetX US electronic health records (approximately 129M patients, 72 healthcare organizations); encephalitis (onset ≥2005) vs propensity-score-matched controls, 10-year follow-up; comparator cohorts sepsis/meningitis/stroke.
     / *Key Findings:*:
         - Cumulative incidence 74.3/100,000; prevalence 90.2/100,000 (2014–2024).
         - Composite dementia risk ratio (RR) by age: >60y = 2.11 (95% CI 1.98–2.25); 40–60y = 5.16 (4.46–5.98); younger groups elevated in composite but driven by post-encephalitic G31 sequelae, not AD/F03.
@@ -36000,11 +36000,11 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
 
     / *Full Citation:*: Bader V, Estermann K, Niess E, Zrzavy T, Fischmeister F, Haider T, Ludwig B, Barkhof F, Mutsaerts HJMM, Kasprian G, Niess F, Bogner W, Kollndorfer K, Haider L. Experimental hypoxia to probe neuro-metabolic and vascular dysregulation in ME/CFS: a multimodal proof-of-concept MRI study. _medRxiv_. 2026. @Bader2026Hypoxia
     / *DOI:*: #link("https://doi.org/10.64898/2026.08.10.26359935")[10.64898/2026.08.10.26359935]
-    / *Study Design:*: Single-session multimodal 3T MRI (brain volumetry, arterial spin labeling, multivoxel proton MRS) under normoxia and two controlled hypoxic challenges (SpO#sub[2] ~87±3%).
+    / *Study Design:*: Single-session multimodal 3T MRI (brain volumetry, arterial spin labeling, multivoxel proton MRS) under normoxia and two controlled hypoxic challenges (SpO#sub[2] approximately 87±3%).
     / *Sample Size:*: 26 ME/CFS patients, 27 age-/sex-matched healthy controls.
     / *Key Findings:*:
         - Reduced brainstem volume in patients (1.46 vs 1.55% of eTIV; p=0.013, FDR-p=0.039); deep grey matter and whole-brain parenchymal fraction did not differ.
-        - Thalamic lactate-to-creatine (Lac/tCr) elevated at normoxia in patients (0.171 vs 0.135; FDR-p=0.021; ~27% higher).
+        - Thalamic lactate-to-creatine (Lac/tCr) elevated at normoxia in patients (0.171 vs 0.135; FDR-p=0.021; approximately 27% higher).
         - Thalamic Lac/tCr rose under hypoxia in controls only (FDR-p=0.028) and did not rise further in patients (FDR-p=0.38) — blunted metabolic reactivity.
         - Whole-brain CBF rose under hypoxia in both groups (controls +4.8%, patients +3.7%), with greater initial inter-individual variability in patients (patient-to-control variance ratio up to 6.94; FDR-p=0.001), absent at the second challenge.
         - Exploratory: exaggerated inverse coupling between thalamic total N-acetylaspartate (tNAA/tCr) and white-matter CBF in patients.
@@ -36118,7 +36118,7 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
     / *Full Citation:*: Hadanny A, Zilberman-Itskovich S, Catalogna M, Elman-Shina K, Lang E, Finci S, Polak N, Shorer R, Parag Y, Efrati S. Long term outcomes of hyperbaric oxygen therapy in post covid condition: longitudinal follow-up of a randomized controlled trial. _Scientific Reports_. 2024;14(1):3604. @Hadanny2024HBOTLongCovid
     / *DOI:*: #link("https://doi.org/10.1038/s41598-024-53091-3")[10.1038/s41598-024-53091-3]
     / *Key Findings:*:
-        - Improvements in quality of life, sleep, psychiatric, and pain symptoms persisted ~1 year after 40 HBOT sessions in 31 post-COVID patients (sleep ES 0.47–0.79; pain severity ES 0.69; pain interference ES 0.83).
+        - Improvements in quality of life, sleep, psychiatric, and pain symptoms persisted approximately 1 year after 40 HBOT sessions in 31 post-COVID patients (sleep ES 0.47–0.79; pain severity ES 0.69; pain interference ES 0.83).
         - Prior RCT reported cognitive, fatigue, sleep, and pain improvements.
     / *Conclusion:*: HBOT as a downstream treatment candidate for the virtual-hypoxia / brain-metabolic phenotype, with durable long-term benefit in long COVID.
     / *Limitations:*: Long-COVID population (not ME/CFS); open follow-up (no sham control); Efrati holds a financial stake in AVIV Scientific LTD.
@@ -37084,7 +37084,7 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
 *Key Findings:*:
     - Subcutaneous "leptin factory" (encapsulated human RPE cells constitutively producing leptin) yields sustained blood-leptin elevation >1 day.
     - Accelerates re-entrainment to BOTH phase delays and phase advances.
-    - In diurnal cynomolgus macaques: safe, reduces entrainment time by ~1 day.
+    - In diurnal cynomolgus macaques: safe, reduces entrainment time by approximately 1 day.
     - No adverse sleep effect — increases NREM slow-wave energy.
 *Conclusion:*: Metabolic (leptin) regulation is a novel lever for accelerating circadian adaptation — the first demonstration that a metabolic signal can be engineered to speed entrainment. INDIRECT relevance to ME/CFS (no ME/CFS cohort); bears on the metabolic→circadian modulation mechanism underlying ME/CFS circadian/sleep-wake instability.
 *Limitations:*: Preclinical only; entrainment-speed endpoint not clinical symptom endpoint; no human or ME/CFS data.
@@ -37572,7 +37572,7 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
 *PMID:*: 41265859
 *Study Design:*: Medicinal chemistry + preclinical (in vitro BV-2 microglia + in vivo mouse)
 *Key Findings:*:
-    - (+)-naltrexone enantiomer antagonizes TLR4 without engaging classical opioid receptors; dual-site (C3/N17) optimization produced CIAC101 with nanomolar TLR4 antagonism (~6200-fold more potent than (+)-naltrexone).
+    - (+)-naltrexone enantiomer antagonizes TLR4 without engaging classical opioid receptors; dual-site (C3/N17) optimization produced CIAC101 with nanomolar TLR4 antagonism (approximately 6200-fold more potent than (+)-naltrexone).
     - Blocks LPS-induced NF-κB activation and pro-inflammatory mediators in BV-2 microglia.
     - In vivo: reduces microglial activation and inflammatory gene expression (mPFC, VTA).
 *Conclusion:*: Directly establishes the TLR4→microglial anti-neuroinflammatory mechanism hypothesized to underlie LDN's action, independent of opioid signaling. Context for the null clinical results: even if the TLR4 mechanism is real, it may not translate to measurable FM symptom benefit at LDN doses.
@@ -37608,7 +37608,7 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
 *Full Citation:*: Peng MS, Jiang J, Polizzi L, Shi T, Ramkumar R, Anosike VO, Guasoni G, Wamalwa AM, Mariani MB, Sissoko CA, Tartt AN, Fulmore C, Rosoklija GB, Huang Y, Arango V, McDonald ST, Bitoljanu N, Mann JJ, Nguyen PT, Dwork AJ, Brown LM, Hen R, Galfalvy H, Dupont MB. Dysregulated adult hippocampal neurogenesis in major depressive disorders. _Nature Medicine_. 2026;32.
 *DOI:*: #link("https://doi.org/10.1038/s41591-026-04571-8")[10.1038/s41591-026-04571-8]
 *Study Design:*: Multimodal single-cell/post-mortem molecular atlas: single-nucleus RNA + ATAC (snMultiome), spatial transcriptomics (Visium, Xenium), regional proteomics
-*Sample Size:*: ~500,000 hippocampal nuclei; 11 nonmedicated MDD vs 19 controls (initial 14 MDD / 24 CTRL)
+*Sample Size:*: approximately 500,000 hippocampal nuclei; 11 nonmedicated MDD vs 19 controls (initial 14 MDD / 24 CTRL)
 *Key Findings:*:
     - Identified an adult human hippocampal neurogenic lineage (NSCa, NSCb, INP, NB, ImGC) in the dentate gyrus subgranular zone, validated by fetal-hippocampus integration and spatial transcriptomics.
     - Neurogenesis is STALLED in MDD: more NSCa (quiescent stem-like), fewer neuroblasts (NBs), reduced nestin/Ki67/DCX protein — impaired progression rather than stem-cell depletion.
@@ -37645,7 +37645,7 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
 *PMID:*: 29625071 · *PMCID:*: PMC5957089
 *Study Design:*: Post-mortem stereology and quantitative neurogenesis markers across the lifespan
 *Key Findings:*:
-    - Thousands of immature neurons are present in the adult human dentate gyrus, with ~35,000 neural stem cells per hippocampus.
+    - Thousands of immature neurons are present in the adult human dentate gyrus, with approximately 35,000 neural stem cells per hippocampus.
     - Neurogenesis persists throughout aging into the ninth decade.
 *Conclusion:*: Directly counters the Sorrells null position, supporting that adult hippocampal neurogenesis persists at meaningful levels — the premise of the depression-neurogenesis literature.
 *Limitations:*: Post-mortem; within-field methodological disagreement with Sorrells; subject to the adult-human-neurogenesis controversy.
@@ -38090,7 +38090,7 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
 *PMID:*: 41939549
 *Study Design:*: Literature review (RCTs, meta-analyses, safety, mechanisms)
 *Key Findings:*:
-    - Across placebo-controlled trials in mild-to-moderate depression, saffron (commonly 30 mg/day x ~6 weeks) produces clinically meaningful HAM-D reductions.
+    - Across placebo-controlled trials in mild-to-moderate depression, saffron (commonly 30 mg/day x approximately 6 weeks) produces clinically meaningful HAM-D reductions.
     - Head-to-head studies suggest comparable short-term efficacy to fluoxetine/imipramine but are underpowered.
 *Conclusion:*: Establishes saffron's serotonergic/mood-modulating profile; GENERAL depression evidence, not ME/CFS- or fatigue-specific.
 *Limitations:*: General depression focus; underpowered head-to-head trials; no ME/CFS data.
@@ -38119,7 +38119,7 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
 *PMID:*: 42186868
 *Study Design:*: Integrative review (12 studies)
 *Key Findings:*:
-    - Low-dose saffron (~250 mg/day) may facilitate cervical ripening, reduce labor pain/anxiety, shorten labor — dose-dependent.
+    - Low-dose saffron (approximately 250 mg/day) may facilitate cervical ripening, reduce labor pain/anxiety, shorten labor — dose-dependent.
     - Higher doses or occupational exposure linked to uterine stimulation (potential abortifacient/uterine-contraction risk).
 *Conclusion:*: Mandatory harm reference for a nutraceutical treatment topic: cautions against saffron in pregnancy, especially at high dose.
 *Limitations:*: Integrative review; limited high-quality trial data.
@@ -38790,7 +38790,7 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
 *Study Design:*: ASBMR Task Force report / consensus
 *Key Findings:*:
     - Atypical femur fractures (AFFs) significantly associated with long-term bisphosphonate and denosumab use.
-    - Absolute risk low (3.2–50 per 100,000 person-years) but ~100 per 100,000 with long-term use.
+    - Absolute risk low (3.2–50 per 100,000 person-years) but approximately 100 per 100,000 with long-term use.
     - Suppression of intracortical remodeling impairs stress-fracture healing; risk declines after stopping.
 *Conclusion:*: Long-term antiresorptive (alendronate/risedronate) use carries an AFF risk that must be weighed, especially when prolonged in a population with reduced weight-bearing load.
 *Limitations:*: Consensus; observational association; absolute risk low; not ME/CFS-specific.
@@ -39113,7 +39113,7 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
     / *Study Design:*: Open-label, NON-controlled cohort of individualized algorithm-based IHHC (SANA Therapy, HypoxBreath/INVATIO); 199 PCC patients (11–87 y, 67% female), moderate-severe fatigue, 2020–2023; mean 6 sessions (2–21); hypoxia 9–13% O2 3–8 min, hyperoxia 34–36% 1–3 min.
     / *Sample Size:*: 199 PCC.
     / *Key Findings:*:
-        - SF-36 increased ~102 points (p\<0.001) at 6 weeks, ~106 at 6 months.
+        - SF-36 increased approximately 102 points (p\<0.001) at 6 weeks, approximately 106 at 6 months.
         - Pain reduced 28–32% (above clinically relevant threshold) at both time points.
         - No serious adverse events.
     / *Conclusion:*: Personalized algorithm-based IHHC alleviated pain and improved QoL in long-term post-COVID sequelae, sustained to 6 months.
@@ -39233,7 +39233,7 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
     / *Full Citation:*: Rigolet M, Aouizerate J, Couette M, et al. Clinical features in patients with long-lasting macrophages myofasciitis. _Frontiers in Neurology_. 2014;5:230. @Rigolet2014clinical
     / *DOI:*: #link("https://doi.org/10.3389/fneur.2014.00230")[10.3389/fneur.2014.00230]
     / *Study Design:*: Clinical case series (Garches–Necker–Mondor–Hendaye referral center).
-    / *Sample Size:*: MMF cohort (~70; Henri-Mondor referral cohort).
+    / *Sample Size:*: MMF cohort (approximately 70; Henri-Mondor referral cohort).
     / *Key Findings:*:
         - MMF patients present with diffuse arthromyalgias, chronic fatigue, and cognitive deficits (dysexecutive syndrome, visual memory impairment, left-ear extinction).
         - Clinical features described as "corresponding to" CFS/ME; most meet non-amnestic/dysexecutive MCI.
@@ -39426,7 +39426,7 @@ Research stream: `lifetime-energy-mild-cases`. Evidence on the mild / lifetime /
     / *Study Design:*: Cluster analysis (CFS patients grouped by physical functioning, PEM severity, extent outside energy envelope).
     / *Key Findings:*:
         - Identified 3 clusters: Clusters 1–2 consistent with energy-envelope theory; Cluster 3 = most impaired, closest to staying within their energy envelope, and using MORE adaptive coping — yet more functionally limited than Cluster 2.
-        - Coping explained only ~10\% of cluster variance.
+        - Coping explained only approximately 10\% of cluster variance.
     / *Conclusion:*: The 'energy envelope' (energy available minus required) operationalizes a low-baseline-energy reserve. Cluster 3 shows that patients running a low daily energy reserve are severely limited even without acute overexertion — illustrating that a low-baseline-energy phenotype carries its own severity independent of overexertion-triggered PEM.
     / *Limitations:*: Coping is not a strong differentiator; cluster interpretation partially speculative; cross-sectional.
     / *Certainty Assessment:*: 0.48 raw × 1.00 ME/CFS-cohort weight = *discounted 0.48*
@@ -39435,7 +39435,7 @@ Research stream: `lifetime-energy-mild-cases`. Evidence on the mild / lifetime /
 
     / *Full Citation:*: Smith MS, Mitchell J, Corey L, Gold D, McCauley EA, Glover D, Tenover FC. Chronic fatigue in adolescents. _Pediatrics_. 1991;88(2):195–202. @Smith1991AdolescentCF
     / *DOI:*: none (pre-DOI publication).
-    / *Study Design:*: Descriptive pediatric case series (n=15 adolescents; fatigue + ≥3 symptoms ~18 months).
+    / *Study Design:*: Descriptive pediatric case series (n=15 adolescents; fatigue + ≥3 symptoms approximately 18 months).
     / *Key Findings:*:
         - 11/15 acute-infectious onset (7 Monospot-positive); extensive serology (Coxsackie B, CMV, EBV, HHV-6, Toxoplasma) showed little evidence of infectious cause vs controls.
         - K-SADS: 5 met major-depression criteria; 10 non-depressed fatigued subjects endorsed secondary but not primary depression symptoms.
@@ -39472,7 +39472,7 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
     - The exhaustion phenotype is phenomenologically continuous with ME/CFS energy loss — an overlap/differential-diagnosis claim, not comorbidity equivalence.
 *Conclusion:* Foundational definition of the ND exhaustion construct relevant to ME/CFS energy-loss overlap.
 *Limitations:* Autistic-only sample; defines burnout, does not diagnose ME/CFS.
-*Certainty Assessment:* 0.78 raw × 0.90 ND-exhaustion overlap weight = *discounted ~0.70*
+*Certainty Assessment:* 0.78 raw × 0.90 ND-exhaustion overlap weight = *discounted approximately 0.70*
 
 === Higgins et al.\ 2021 — Defining Autistic Burnout by Lived Experience (Delphi)
 @Higgins2021burnoutDelphi
@@ -39483,7 +39483,7 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
     - Autistic burnout explicitly distinguished from clinical depression.
 *Conclusion:* Lived-experience consensus definition; separates ND burnout from depression.
 *Limitations:* Expert consensus, not empirical outcome data.
-*Certainty Assessment:* 0.68 raw × 0.90 = *discounted ~0.61*
+*Certainty Assessment:* 0.68 raw × 0.90 = *discounted approximately 0.61*
 
 === Clarey et al.\ 2026 — Shame, Identity Disruption, and Functional Collapse in Autistic Burnout
 @Clarey2026burnoutShame
@@ -39495,7 +39495,7 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
     - Identity disruption is central to the burnout experience.
 *Conclusion:* ND-specific shame + identity disruption + dual masking — psychological-consequence texture absent from general ME/CFS psych chapters.
 *Limitations:* Small qualitative n=11.
-*Certainty Assessment:* 0.48 raw × 0.90 = *discounted ~0.43*
+*Certainty Assessment:* 0.48 raw × 0.90 = *discounted approximately 0.43*
 
 === Ali et al.\ 2026 — How Autistic Burnout Feels (Earlier vs Later Diagnosis)
 @Ali2026burnoutFeel
@@ -39506,7 +39506,7 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
     - Later-diagnosed adults: burnout more chronic and confusing; substance coping; "not knowing why" took a (sometimes dangerous) toll — a few contemplated suicide.
 *Conclusion:* Energy-regulatory reading of ND exhaustion; later diagnosis = double burden (undiagnosed ND + unexplained chronic exhaustion).
 *Limitations:* Qualitative; suicidality reported anecdotally within themes, not quantified.
-*Certainty Assessment:* 0.52 raw × 0.90 = *discounted ~0.47*
+*Certainty Assessment:* 0.52 raw × 0.90 = *discounted approximately 0.47*
 
 === Pagán et al.\ 2025 — Autistic Burnout and Posttraumatic Stress
 @Pagan2025burnoutPTSS
@@ -39517,7 +39517,7 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
     - Burnout related to depression (PHQ-9) and anxiety (GAD-7).
 *Conclusion:* Quantifies the psychiatric-correlate burden of the ND exhaustion phenotype.
 *Limitations:* Cross-sectional; novel burnout instrument.
-*Certainty Assessment:* 0.55 raw × 0.85 = *discounted ~0.47*
+*Certainty Assessment:* 0.55 raw × 0.85 = *discounted approximately 0.47*
 
 === Kentrou et al.\ 2024 — Perceived Misdiagnosis of Psychiatric Conditions in Autistic Adults
 @Kentrou2024autisticMisdiagnosis
@@ -39530,7 +39530,7 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
     - Autistic women (31.7%) report perceived misdiagnoses more often than men (16.7%).
 *Conclusion:* Evidence of diagnostic confusion / overshadowing around fatigue and energy-related conditions in autistic adults; CFS/burnout is one of the perceived prior misdiagnoses. Does not demonstrate that clinicians dismiss ME/CFS as "just autism."
 *Limitations:* Perceived (self-report) misdiagnosis; register sample skewed educated.
-*Certainty Assessment:* 0.72 raw × 0.90 = *discounted ~0.65*; further discounted to *~0.55* for the corrected, more indirect ME/CFS framing.
+*Certainty Assessment:* 0.72 raw × 0.90 = *discounted approximately 0.65*; further discounted to *approximately 0.55* for the corrected, more indirect ME/CFS framing.
 
 === Grant, Norton & Hoekstra\ 2026 — Camouflaging and Illness Perceptions in Central Sensitivity Syndromes
 @Grant2026camouflagingCSS
@@ -39542,7 +39542,7 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
     - Authors raise diagnostic overshadowing of autism by a CSS label.
 *Conclusion:* Direct masking + central-sensitivity link; autistic people with chronic-fatigue-adjacent syndromes carry disproportionate mental-health/identity burden.
 *Limitations:* CSS (not pure ME/CFS); online self-report.
-*Certainty Assessment:* 0.60 raw × 0.85 = *discounted ~0.51*
+*Certainty Assessment:* 0.60 raw × 0.85 = *discounted approximately 0.51*
 
 === Rogers et al.\ 2017 — Fatigue in Adult ADHD: A Trans-Diagnostic Approach
 @Rogers2017ADHDFatigue
@@ -39553,7 +39553,7 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
     - ADHD and CFS groups did not differ on functional impairment, mood, or self-efficacy — shared transdiagnostic psychological characteristics.
 *Conclusion:* Nearest ADHD-specific overlap anchor: adult ADHD and CFS share a mood/self-efficacy/functional psychological profile.
 *Limitations:* Group comparison, not a formal comorbidity cohort.
-*Certainty Assessment:* 0.60 raw × 0.85 = *discounted ~0.51*
+*Certainty Assessment:* 0.60 raw × 0.85 = *discounted approximately 0.51*
 
 === Hodge & Meltzoff\ 2026 — Autistic Camouflaging and Mental Health: Scoping Review
 @Hodge2026camouflagingMH
@@ -39564,7 +39564,7 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
     - Bidirectional in qualitative studies; association stronger for assimilation than masking subscales.
 *Conclusion:* Broad support that masking is a psychological-burden mechanism relevant to the ND double burden with energy limits.
 *Limitations:* No ME/CFS-specific content.
-*Certainty Assessment:* 0.62 raw × 0.80 = *discounted ~0.50*
+*Certainty Assessment:* 0.62 raw × 0.80 = *discounted approximately 0.50*
 
 === Whaling et al.\ 2026 — Health-Condition Profiles Among Autistic Adults (Latent Class)
 @Whaling2026autismLCA
@@ -39575,7 +39575,7 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
     - Mental + Physical class shows mood/anxiety alongside chronic pain, chronic fatigue, headaches, dizziness, IBS, hormone problems.
 *Conclusion:* Documents autism + chronic fatigue + psych comorbidity clustering as a distinct higher-need class.
 *Limitations:* Chronic fatigue is a reported indicator, not an ME/CFS diagnosis; telehealth sample.
-*Certainty Assessment:* 0.50 raw × 0.55 = *discounted ~0.28* (context only)
+*Certainty Assessment:* 0.50 raw × 0.55 = *discounted approximately 0.28* (context only)
 
 === Quadt et al.\ 2026 — Neurodivergence and Variant Connective Tissue in Chronic Pain/Chronic Fatigue
 @Quadt2026neurodivergentCPCF
@@ -39587,7 +39587,7 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
     - Authors urge routine ND screening in CP/CF to improve fair access and quality of life.
 *Conclusion:* Reinforces high ND prevalence in chronic fatigue; flags fair-access/QoL need.
 *Limitations:* Predominantly prevalence/mechanism (overlaps predisposition stream); QoL peripheral. Supporting context only for this psych-consequence stream.
-*Certainty Assessment:* 0.62 raw × 0.50 (psych-consequence angle) = *discounted ~0.31* (supporting)
+*Certainty Assessment:* 0.62 raw × 0.50 (psych-consequence angle) = *discounted approximately 0.31* (supporting)
 
 // =============================================================================
 // == Autism Social Perception & First-Impression Stigma (Sasson 2017 anchor) ==
@@ -39610,7 +39610,7 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
         - Biases disappeared when impressions were based on conversational content WITHOUT audio-visual cues (transcript only).
     *Conclusion:* The anchor establishing that negative first impressions of autistic people are driven by presentational "style" (facial affect, prosody, movement), not the "substance" of what is said — the mechanism this topic maps onto invisible-illness (ME/CFS) first-impression dismissal.
     *Limitations:* Autism-specific target population; general-population (typically-developing) perceivers; no clinical/illness application tested. Authors from UT Dallas (Sasson), Indiana U, Emerson College.
-    *Certainty Assessment:* 0.85 raw × 0.75 (general-population perceivers of another condition) = *discounted ~0.64* (supporting mechanism for ME/CFS by analogy)
+    *Certainty Assessment:* 0.85 raw × 0.75 (general-population perceivers of another condition) = *discounted approximately 0.64* (supporting mechanism for ME/CFS by analogy)
 
 === Wanigasekera et al.\ 2025 — First Impressions Towards Autistic People: Systematic Review and Meta-Analysis
 
@@ -39623,7 +39623,7 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
         - Non-autistic observer characteristics (autism knowledge, quality of contact) moderated impressions.
     *Conclusion:* Independent (Western Australia) meta-analytic confirmation that negative thin-slice impressions of autistic people are robust and modality-specific (audio-visual "style" vs verbal transcript "substance"), strengthening the generalizability of the anchor mechanism.
     *Limitations:* Synthesis of autism-target studies only; no ME/CFS/illness application; observer-moderation findings are correlational.
-    *Certainty Assessment:* 0.80 raw × 0.75 (general-population perceivers of another condition) = *discounted ~0.60* (supporting mechanism for ME/CFS by analogy)
+    *Certainty Assessment:* 0.80 raw × 0.75 (general-population perceivers of another condition) = *discounted approximately 0.60* (supporting mechanism for ME/CFS by analogy)
 
 === DeBrabander et al.\ 2019 — Do First Impressions Differ Between Autistic and Nonautistic Observers?
 
@@ -39635,7 +39635,7 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
         - Diagnostic disclosure did not improve first impressions for autistic raters (as it did for TD raters).
     *Conclusion:* IN-GROUP / NULL-RELEVANT evidence: autistic raters separate trait judgments from willingness-to-interact — dissociation that suggests the reduced-willingness-to-interact effect (the stigmatizing component) is strongest in cross-neurotype (TD perceiver) judgment, informing where perceiver bias vs stylistic difference operates.
     *Limitations:* Same Sasson lab (cohort-overlap with anchor); moderate sample (n=64 raters); hypothetical interaction intentions, not real behavior.
-    *Certainty Assessment:* 0.60 raw × 0.75 (general-population) = *discounted ~0.45* (supporting mechanism)
+    *Certainty Assessment:* 0.60 raw × 0.75 (general-population) = *discounted approximately 0.45* (supporting mechanism)
 
 === Morrison et al.\ 2019 — Rater Characteristics Drive First-Impression Variability
 
@@ -39645,7 +39645,7 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
         - Individual differences among neurotypical RATERS (autism knowledge, contact, personality) explained more variability in first impressions of autistic adults than characteristics of the autistic targets.
     *Conclusion:* Supports the relational framing (impression is co-produced by the perceiver, not a deficit solely in the target): the modifiable locus of first-impression bias is the perceiver, not the patient's presentation.
     *Limitations:* Sasson lab (cohort-overlap); general-population raters; autism targets.
-    *Certainty Assessment:* 0.62 raw × 0.75 = *discounted ~0.47* (supporting mechanism)
+    *Certainty Assessment:* 0.62 raw × 0.75 = *discounted approximately 0.47* (supporting mechanism)
 
 === Morrison et al.\ 2020 — Real-World Interaction: Autistic Paired with Autistic vs TD Partners
 
@@ -39656,7 +39656,7 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
         - Autistic–autistic dyads showed greater interaction success.
     *Conclusion:* Direct behavioral support for the relational/double-empathy model: social difficulty is co-produced by neurotype mismatch rather than an intrinsic deficit — the frame by which first-impression stigma toward presentational style is understood.
     *Limitations:* Sasson lab (cohort-overlap); self-report + observer outcomes; real-world context but lab-facilitated pairing.
-    *Certainty Assessment:* 0.62 raw × 0.75 = *discounted ~0.47* (supporting mechanism)
+    *Certainty Assessment:* 0.62 raw × 0.75 = *discounted approximately 0.47* (supporting mechanism)
 
 === Foster et al.\ 2025 — Facial Affect Differences and First-Impression Formation
 
@@ -39666,7 +39666,7 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
         - Quantified reduced/atypical facial affect in autistic vs non-autistic adults across contexts and linked it to first-impression formation.
     *Conclusion:* Mechanism paper identifying the specific presentational signal (facial expressivity) that drives negative thin-slice impressions — the most direct analogue for how reduced facial affect in invisible-illness patients (flat affect of chronic fatigue) could drive first-impression dismissal.
     *Limitations:* Sasson lab + Pinkham (cohort-overlap); autism context; cross-sectional.
-    *Certainty Assessment:* 0.60 raw × 0.75 = *discounted ~0.45* (supporting mechanism)
+    *Certainty Assessment:* 0.60 raw × 0.75 = *discounted approximately 0.45* (supporting mechanism)
 
 === Jones et al.\ 2024 — Non-autistic Observers Both Detect and Demonstrate the Double Empathy Problem
 
@@ -39676,7 +39676,7 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
         - Non-autistic observers both detect and themselves demonstrate reduced empathy toward autistic adults when evaluating cross-neurotype interactions.
     *Conclusion:* Empirical operationalization of Milton's double-empathy problem — the relational framework underpinning the claim that first-impression bias is a two-way (perceiver + target) phenomenon, applicable to invisible-illness stigma.
     *Limitations:* Sasson lab + Botha (cohort-overlap); evaluation of interaction vignettes, not clinical/illness settings.
-    *Certainty Assessment:* 0.60 raw × 0.75 = *discounted ~0.45* (supporting mechanism)
+    *Certainty Assessment:* 0.60 raw × 0.75 = *discounted approximately 0.45* (supporting mechanism)
 
 === Boucher et al.\ 2023 — Negative First Impressions of Autistic Children by Non-Autistic Adults
 
@@ -39686,7 +39686,7 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
         - Independent lab (Simon Fraser University) confirmed non-autistic adults form negative first impressions of autistic children from brief video exposure.
     *Conclusion:* Independent replication of the thin-slice first-impression effect in the pediatric population, outside the Sasson lab — reduces cohort-overlap concern for the core effect.
     *Limitations:* Pediatric autism targets; general-population adult perceivers; independent but single study.
-    *Certainty Assessment:* 0.55 raw × 0.75 = *discounted ~0.41* (supporting mechanism)
+    *Certainty Assessment:* 0.55 raw × 0.75 = *discounted approximately 0.41* (supporting mechanism)
 
 === Norris et al.\ 2024 — Disclosing an Autism Diagnosis Improves Employment Interview Ratings
 
@@ -39697,7 +39697,7 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
         - Providing additional information about autism alongside the label did not add further benefit.
     *Conclusion:* NULL-OF-BIAS-WHEN-INFORMED evidence: first-impression bias toward presentational style is partially reducible when perceivers know the diagnosis — the mechanism implication that informing clinicians/peers of a patient's condition can attenuate dismissal.
     *Limitations:* Independent UK group; employment-interview context; ratings not diagnostic-dismissal context.
-    *Certainty Assessment:* 0.58 raw × 0.75 = *discounted ~0.44* (supporting mechanism)
+    *Certainty Assessment:* 0.58 raw × 0.75 = *discounted approximately 0.44* (supporting mechanism)
 
 === Efthimiou et al.\ 2025 — Diagnostic Status Influences Rapport in Dyadic Interaction
 
@@ -39709,7 +39709,7 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
         - Behavioural/kinematic indices did NOT mediate the neurotype–rapport gap.
     *Conclusion:* Diagnostic awareness moderates cross-neurotype rapport; behavior alone does not explain the rapport gap — refining the relational account and reinforcing that information/knowledge (not behavior change alone) shifts perception.
     *Limitations:* Multi-lab (Edinburgh, Sasson UT Dallas, UCL — partial cohort-overlap); dyadic rapport, not clinical dismissal.
-    *Certainty Assessment:* 0.62 raw × 0.75 = *discounted ~0.47* (supporting mechanism)
+    *Certainty Assessment:* 0.62 raw × 0.75 = *discounted approximately 0.47* (supporting mechanism)
 
 === Edey et al.\ 2016 — Interaction Takes Two: Mind-Blindness Toward Those with Autism
 
@@ -39719,7 +39719,7 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
         - Typical adults were less accurate at reading the mental states of autistic compared to typical targets — the mind-reading difficulty in cross-neurotype interaction is BIDIRECTIONAL ("double mind-blindness").
     *Conclusion:* Foundational experimental support that the perceptual/cognitive gap in cross-neurotype interaction is not confined to the autistic individual — underpinning the relational framing and its generalization to how perceivers misread the mental state of invisible-illness patients.
     *Limitations:* UCL/Birkbeck group (independent of Sasson); mental-state reading accuracy, not social interaction intention.
-    *Certainty Assessment:* 0.62 raw × 0.75 = *discounted ~0.47* (supporting mechanism)
+    *Certainty Assessment:* 0.62 raw × 0.75 = *discounted approximately 0.47* (supporting mechanism)
 
 === Grossman et al.\ 2015 — Judgments of Social Awkwardness from Brief Exposure
 
@@ -39729,7 +39729,7 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
         - Observers judged social awkwardness of children with vs without high-functioning autism from brief exposure, establishing the thin-slice paradigm later extended in Sasson 2017.
     *Conclusion:* Precursor study showing brief-exposure judgments of presentational style distinguish autistic from non-autistic children — the paradigm foundation for the anchor.
     *Limitations:* Grossman senior authorship (Emerson College; overlaps Sasson anchor lineage); autism context.
-    *Certainty Assessment:* 0.58 raw × 0.75 = *discounted ~0.44* (supporting mechanism)
+    *Certainty Assessment:* 0.58 raw × 0.75 = *discounted approximately 0.44* (supporting mechanism)
 
 === Hemmesch et al.\ 2014 — Atypical Nonverbal Behavior and First Impressions in Parkinson's Disease (Comparator)
 
@@ -39741,7 +39741,7 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
         - Masking was more detrimental for impressions of women and emotional-relationship goals; abnormal movement more detrimental for instrumental goals.
     *Conclusion:* TRANSDIAGNOSTIC COMPARATOR: atypical nonverbal "style" (facial masking — directly analogous to flat affect) drives negative first impressions in a chronic neurological condition, supporting that the mechanism generalizes beyond autism to chronic conditions with altered movement/expressivity.
     *Limitations:* Single author; older-adult perceivers; Parkinson's target (not ME/CFS); first impressions only, not clinical dismissal.
-    *Certainty Assessment:* 0.60 raw × 0.75 = *discounted ~0.45* (supporting mechanism, comparator)
+    *Certainty Assessment:* 0.60 raw × 0.75 = *discounted approximately 0.45* (supporting mechanism, comparator)
 
 === Slepian et al.\ 2014 — Thin-Slice Judgments in the Clinical Context
 
@@ -39751,7 +39751,7 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
         - Review establishing that clinicians form rapid thin-slice judgments from patients' nonverbal behavior, and these can bias clinical decisions.
     *Conclusion:* MECHANISM FRAMING bridge: the general thin-slice-judgment phenomenon (from the Ambady lab) applies in clinical contexts, providing the mechanism connecting autism first-impression findings to clinician first-impression bias toward invisible-illness (e.g. ME/CFS) patients.
     *Limitations:* Review (no primary data); general clinical context, not ME/CFS or autism specifically; Ambady lab.
-    *Certainty Assessment:* 0.75 raw × 0.75 = *discounted ~0.56* (supporting mechanism framing)
+    *Certainty Assessment:* 0.75 raw × 0.75 = *discounted approximately 0.56* (supporting mechanism framing)
 
 === Parisi et al.\ 2026 — Reduced Facial Expression and Stigma in First Impressions of Schizophrenia (Comparator)
 
@@ -39763,7 +39763,7 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
         - Disclosing a SCHIZOPHRENIA diagnosis WORSENED ratings (stigma); mislabeling the same targets as autistic IMPROVED ratings.
     *Conclusion:* TRANSDIAGNOSTIC COMPARATOR + disclosure nuance: reduced facial affect drives negative impressions in another condition, AND diagnostic disclosure effects are CONDITION-SPECIFIC (helps for autism, harms for schizophrenia) — critical for how the paper frames diagnosis-disclosure as a stigma-reduction intervention for invisible illness.
     *Limitations:* Schizophrenia context; disclosure manipulation in abstracted video, not real clinical encounter; independent (Montpellier) group.
-    *Certainty Assessment:* 0.62 raw × 0.75 = *discounted ~0.47* (supporting mechanism, comparator)
+    *Certainty Assessment:* 0.62 raw × 0.75 = *discounted approximately 0.47* (supporting mechanism, comparator)
 
 // =============================================================================
 // == Mitochondrial Dysfunction in ME/CFS and Long COVID (2025-2026 gap-fill) ==
@@ -39783,7 +39783,7 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
         - Links bioenergetic suppression to chronic immune activation.
     *Conclusion:* Integrative multi-omics identify persistent mitochondrial repression + immune dysregulation as recurring features of post-COVID condition, reinforcing the OXPHOS-suppression / reduced-ATP-yield cascade.
     *Limitations:* Secondary re-analysis of public datasets; hamster (animal) + in silico components; authors employed by commercial Guarnieri Research Group LLC (COI disclosed).
-    *Certainty Assessment:* 0.55 raw × 0.70 (mixed LC human + animal + in silico) = *discounted ~0.39*
+    *Certainty Assessment:* 0.55 raw × 0.70 (mixed LC human + animal + in silico) = *discounted approximately 0.39*
 
 === Weber-Fahr et al.\ 2026 — Reduced Brain ATP/PCr Ratios in Neuropsychiatric Post-COVID (³¹P MRS)
 
@@ -39796,7 +39796,7 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
         - A post-COVID subgroup meeting ME/CFS criteria showed similar metabolic alterations.
     *Conclusion:* First in-vivo human evidence of impaired brain energy metabolism in post-COVID condition, directly linking anterior-cingulate bioenergetic deficit to cognitive impairment — reinforcing the brain energy-crisis / reduced-ATP claim.
     *Limitations:* Moderate n; primarily Long-COVID population (ME/CFS only a subgroup); cross-sectional.
-    *Certainty Assessment:* 0.72 raw × 0.85 (Long COVID; ME/CFS subgroup) = *discounted ~0.61*
+    *Certainty Assessment:* 0.72 raw × 0.85 (Long COVID; ME/CFS subgroup) = *discounted approximately 0.61*
 
 === Germain et al.\ 2025 — Plasma Proteomic Maladaptation in ME/CFS Following Exertion
 
@@ -39809,7 +39809,7 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
         - Sex-stratified molecular responses differ between females and males.
     *Conclusion:* Dynamic proteomic profiling shows maladaptive immune-metabolic responses to exertion in ME/CFS, with a sedentary-control arm distinguishing disease effects from deconditioning — reinforcing the glycolytic-shift and exercise-maladaptation cascade claims.
     *Limitations:* Circulating-proteome proxy (not tissue); same Cornell (Hanson/Giloteaux) cohort as other Germain entries in corpus (site overlap).
-    *Certainty Assessment:* 0.72 raw × 1.00 (ME/CFS) = *discounted ~0.72*
+    *Certainty Assessment:* 0.72 raw × 1.00 (ME/CFS) = *discounted approximately 0.72*
 
 === Keele et al.\ 2026 — Cross-Tissue Gene/Proteomic Evidence Supports Mitochondrial Dysregulation in ME/CFS
 
@@ -39821,7 +39821,7 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
         - ME/CFS-associated genes map to approved compounds targeting mitochondrial-support/energy-metabolism genes.
     *Conclusion:* Bioinformatic re-analysis supports a role for mitochondrial dysregulation in ME/CFS across independent datasets, reinforcing the general mitochondrial-defect cascade.
     *Limitations:* No new primary data; in silico; authors note little cross-study consistency in specific genes (heterogeneity caveat).
-    *Certainty Assessment:* 0.45 raw × 0.30 (in silico) = *discounted ~0.14* (supporting)
+    *Certainty Assessment:* 0.45 raw × 0.30 (in silico) = *discounted approximately 0.14* (supporting)
 
 === Magawa et al.\ 2026 — Deficient TRPM3-Linked Mitochondrial Ca²⁺ Influx in ME/CFS NK Cells
 
@@ -39832,7 +39832,7 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
         - TRPM3-dependent cytosolic and mitochondrial Ca²⁺ mobilization significantly reduced in ME/CFS.
     *Conclusion:* Altered TRPM3-mediated Ca²⁺ handling affects mitochondrial Ca²⁺ mobilization in ME/CFS immune cells — extending the mitochondrial-Ca²⁺ dysregulation cascade into the immune compartment.
     *Limitations:* Small n; single lab (Griffith University TRPM3-NK line already extensive in corpus); ex-vivo/in-vitro readout, not muscle. Long-COVID companion paper (PMID 42484498, same lab) not separately added to avoid redundancy.
-    *Certainty Assessment:* 0.50 raw × 0.60 (ME/CFS population, in-vitro readout) = *discounted ~0.30*
+    *Certainty Assessment:* 0.50 raw × 0.60 (ME/CFS population, in-vitro readout) = *discounted approximately 0.30*
 
 === Groysman et al.\ 2026 — Fragile Mitophagy as a Recovery-Failure Endotype for PEM (Hypothesis)
 
@@ -39844,7 +39844,7 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
         - Predicts PEM severity tracks impaired lysosomal completion / danger signaling more than baseline ATP deficit.
     *Conclusion:* Hypothesis offering a novel recovery-failure framing that extends the mitochondrial-damage → mitophagy-impairment cascade into PEM endotyping.
     *Limitations:* Single-author opinion/hypothesis article with no primary data; Long-COVID framing; conceptual only.
-    *Certainty Assessment:* 0.30 raw × 0.40 (conceptual Long-COVID) = *discounted ~0.12* (concept only)
+    *Certainty Assessment:* 0.30 raw × 0.40 (conceptual Long-COVID) = *discounted approximately 0.12* (concept only)
 
 === Ryback et al.\ 2026 — Indistinguishable Mitochondrial Phenotypes After ME/CFS vs Control Serum (Failed Replication)
 
@@ -39855,7 +39855,7 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
         - NO significant difference in maximal respiratory capacity between ME/CFS and control serum treatment of healthy myoblasts.
     *Conclusion:* Strong evidence against the hypothesis that ME serum factors differentially alter healthy-myoblast mitochondrial phenotype in vitro — a null result limiting the serum-transferable layer of the mitochondrial-defect cascade.
     *Limitations:* In-vitro model only; does not refute in-vivo tissue-mitochondrial findings (muscle biopsy WASF3/supercomplex/PDH; bed-rest comparison; brain ³¹P-MRS) which rest on tissue rather than serum-cell transfer.
-    *Certainty Assessment:* 0.75 raw × 0.40 (in vitro mechanistic test) = *discounted ~0.30* (negative)
+    *Certainty Assessment:* 0.75 raw × 0.40 (in vitro mechanistic test) = *discounted approximately 0.30* (negative)
 
 == Epigenetics: EpiSwitch Cross-Condition Network Convergence
 
@@ -39871,19 +39871,19 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
         - Claimed shared pathways: immune/cytokine signalling, interferon responses, mitochondrial function, metabolic regulation, neuroendocrine processes.
     *Conclusion:* Proposes that clinically-overlapping fatigue syndromes arise from perturbations of interconnected regulatory networks rather than discrete disease-specific pathways; advocates 3D-genomic biomarkers for cross-disease diagnostics. Hypothesis-generating only.
     *Limitations:* VENDOR COI — 11/14 authors are Oxford BioDynamics employees and the work is OBD-funded; proprietary EpiSwitch/Orion platform. No experimental validation of hub genes; validation cohort tested only the diagnostic classifier, not the hubs. NO permutation-based statistical validation of network convergence against a random null (explicitly acknowledged). In-silico; heterogeneous GWAS summary statistics; disease-centric not phenotype-centric; hubs are network-derived, not causally established.
-    *Certainty Assessment:* 0.35 raw × 0.30 (in silico, computational only) = *discounted ~0.11* (hypothesis-generating)
+    *Certainty Assessment:* 0.35 raw × 0.30 (in silico, computational only) = *discounted approximately 0.11* (hypothesis-generating)
 
 === Lammi et al.\ 2025 — Genome-Wide Association Study of Long COVID
 
     *Full Citation:*: Lammi V, Nakanishi T, Jones SE, et al., Long COVID Host Genetics Initiative. Genome-wide association study of long COVID. _Nature Genetics_. 2025;57(6):1402-1417. @Lammi2025LongCOVIDGWAS
     *DOI:*: #link("https://doi.org/10.1038/s41588-025-02100-w")[10.1038/s41588-025-02100-w]
     *Key Findings:*:
-        - Large multi-ancestry Long COVID GWAS (primary discovery model 11 studies, ~3,018 cases/994,582 broad controls; combined up to 15,950 cases).
+        - Large multi-ancestry Long COVID GWAS (primary discovery model 11 studies, approximately 3,018 cases/994,582 broad controls; combined up to 15,950 cases).
         - FOXP4 (rs9367106) reached genome-wide significance (OR 1.63).
         - Serves as a GWAS input dataset to the Hunter 2026 EpiSwitch cross-condition network analysis.
     *Conclusion:* Defines the Long COVID genetic architecture; its genome-wide-significant loci do NOT substantially overlap ME/CFS (DecodeME) loci, contesting gene-level sharing between the two conditions that the network-convergence model seeks to explain at a higher level.
     *Limitations:* Long COVID (not strict ME/CFS) population; shared-loci absence here is descriptive, not itself a test of the network-convergence claim; case/control definitions vary across component studies.
-    *Certainty Assessment:* 0.85 raw × 0.85 (Long COVID population) = *discounted ~0.72* (GWAS-level context / gene-overlap contest)
+    *Certainty Assessment:* 0.85 raw × 0.85 (Long COVID population) = *discounted approximately 0.72* (GWAS-level context / gene-overlap contest)
 
 === Ueland et al.\ 2025 — Plasma T-Cell Activation/Exhaustion Markers in Persistent Post-COVID Symptoms
 
@@ -39895,7 +39895,7 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
         - No relation of these markers to symptoms in hospitalized patients, where disease severity may dominate.
     *Conclusion:* Independent (non-vendor) evidence that soluble LAG-3 and other T-cell exhaustion/activation markers track persistent post-viral symptoms — supporting the LAG3/T-cell-exhaustion mechanism Hunter 2026 flags as a shared hub, in a post-viral-fatigue population.
     *Limitations:* Post-COVID (mild/moderate, not strict ME/CFS) cohort; single-cohort, plasma surrogate markers; does not validate the cross-condition network-convergence claim itself.
-    *Certainty Assessment:* 0.55 raw × 0.85 (post-COVID population) = *discounted ~0.47* (supporting)
+    *Certainty Assessment:* 0.55 raw × 0.85 (post-COVID population) = *discounted approximately 0.47* (supporting)
 
 === Dudova et al.\ 2025 — The Complex Biological Network Underlying ME/CFS
 
@@ -39906,7 +39906,7 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
         - Documents T-cell exhaustion, reduced NK-cell cytotoxicity, abnormal B-cell subsets, ATP/redox imbalance, and HPA-axis hypofunction as interacting network components.
     *Conclusion:* Provides an independent single-condition network/systems framing of ME/CFS that conceptually parallels the cross-condition network-convergence model Hunter 2026 extends across ME/CFS, Long COVID, PTSD, RA and MS; does not itself test cross-condition convergence.
     *Limitations:* Narrative/systematic review with no primary data; single-condition scope (not cross-disease); Plovdiv group.
-    *Certainty Assessment:* 0.30 raw × 1.00 (ME/CFS content) = *discounted ~0.30* (supporting-framing only)
+    *Certainty Assessment:* 0.30 raw × 1.00 (ME/CFS content) = *discounted approximately 0.30* (supporting-framing only)
 
 === Bubak et al.\ 2026 — Varicella Zoster Virus Infection
 
@@ -39922,7 +39922,7 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
         - Postherpetic neuralgia is a major chronic-pain cause; shingles can recur with undiagnosed immune problems. Antivirals treat VZV; chickenpox + recombinant shingles vaccination reduces risk.
     *Conclusion:* The authoritative, comprehensive overview of VZV infection — establishes the rash-less VZV disease (zoster sine herpete) and VZV neurovascular disease concepts that this paper's ch08 VZV subsection currently lacks. Provides the general-population/mechanism scaffold into which ME/CFS-specific and indirect neurovascular evidence can be placed.
     *Limitations:* A disease-primers review (secondary synthesis, no new primary data); covers all-population VZV disease, not ME/CFS specifically; does not establish whether VZV reactivation contributes to ME/CFS.
-    *Certainty Assessment:* 0.85 raw × 0.75 (general-population/mechanism review) = *discounted ~0.64* (supporting scaffold)
+    *Certainty Assessment:* 0.85 raw × 0.75 (general-population/mechanism review) = *discounted approximately 0.64* (supporting scaffold)
 
 === Shapiro\ 2009 — Varicella-Zoster Peripheral Ganglia as a Cause of Chronic Fatigue (Hypothesis)
 
@@ -39936,7 +39936,7 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
         - Suggests reduced VZV re-exposure (declining chickenpox) lowers immunity and may explain increased CFS incidence.
     *Conclusion:* The single most direct published proposal that rash-less VZV (zoster sine herpete) reactivation in peripheral/autonomic ganglia could produce ME/CFS-like symptoms — the exact novel framing this integration targets. Directly connects to the existing ch08 note that VZV sensory-ganglion neurotropism "may contribute to sensory and autonomic symptoms" in ME/CFS.
     *Limitations:* Pure hypothesis essay (Medical Hypotheses, non-peer-reviewed-empirical), single author, no primary data, no direct VZV-reactivation measurement in a CFS cohort, never formally validated.
-    *Certainty Assessment:* 0.30 raw × 1.00 (conceptual ME/CFS relevance) = *discounted ~0.30* (supporting hypothesis only)
+    *Certainty Assessment:* 0.30 raw × 1.00 (conceptual ME/CFS relevance) = *discounted approximately 0.30* (supporting hypothesis only)
 
 === Halpin et al.\ 2017 — Increased Anti-Herpesvirus dUTPase Antibodies (incl. VZV) in ME/CFS
 
@@ -39948,7 +39948,7 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
         - ME/CFS showed highest anti-EBV-dUTPase; GWI higher anti-HHV-6 and anti-human dUTPase.
     *Conclusion:* The foundational primary study establishing that VZV (via its dUTPase/ORF8) participates in the poly-herpesvirus co-reactivation serologic signature in ME/CFS — the anchor for the existing ch08 VZV line and the Palomo 2026 72.5% finding already cited.
     *Limitations:* Single-lab series (Ariza/Williams/Ohio State + Klimas/Fletcher/Nova Southeastern); cross-sectional serology, no causal inference; diagnostic criteria not specified in abstract; cohort lineage overlaps Palomo2026/Ariza2025 already in corpus.
-    *Certainty Assessment:* 0.55 raw × 1.00 (ME/CFS cohort) = *discounted ~0.55* (supporting)
+    *Certainty Assessment:* 0.55 raw × 1.00 (ME/CFS cohort) = *discounted approximately 0.55* (supporting)
     *Cohort-overlap note:* Ariza/Williams (Ohio State) + Klimas/Fletcher (Nova Southeastern) site lineage — overlaps Palomo2026herpesvirus and Ariza2025polyherpesvirus; count once across the three.
 
 === Karachaliou et al.\ 2024 — VZV IgG Elevated in Post-Acute Sequelae of COVID-19
@@ -39960,7 +39960,7 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
         - Ever PASC, active persistent PASC, and PASC with neuropsychiatric symptoms were associated with higher IgG to EBV early-antigen-diffuse, VZV, and WUPyV — even among those without prior severe COVID-19.
     *Conclusion:* Direct serologic evidence that VZV reactivation accompanies long-COVID/post-acute sequelae, including the neuropsychiatric subtype — supporting VZV as part of a post-infectious latent-virus reactivation picture relevant to post-viral fatigue/ME/CFS overlap.
     *Limitations:* Serologic (antibody) evidence, not direct VZV detection; PASC self-reported; single cohort; general-population/long-COVID, not strict ME/CFS.
-    *Certainty Assessment:* 0.65 raw × 0.85 (long-COVID population) = *discounted ~0.55* (supporting)
+    *Certainty Assessment:* 0.65 raw × 0.85 (long-COVID population) = *discounted approximately 0.55* (supporting)
 
 === Li et al.\ 2026 — Post-COVID VZV Reactivation as Immune-Threshold Lowering (Consequence)
 
@@ -39973,7 +39973,7 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
         - Long COVID is a setting of persistent immune dysregulation but is not yet a proven causal framework for VZV disease.
     *Conclusion:* Frames VZV reactivation primarily as a CONSEQUENCE of immune disturbance in susceptible hosts — directly relevant to the ch08 "reactivation as consequence vs cause" debate for ME/CFS, and cautions against over-reading a causal/trigger role for VZV in post-viral syndromes.
     *Limitations:* Review/opinion (no primary data); interpretive threshold model; post-COVID context, not ME/CFS cohort.
-    *Certainty Assessment:* 0.45 raw × 0.85 (long-COVID population) = *discounted ~0.38* (framing)
+    *Certainty Assessment:* 0.45 raw × 0.85 (long-COVID population) = *discounted approximately 0.38* (framing)
 
 === Fullerton et al.\ 2025 — Asymptomatic VZV Reactivation in Childhood Arterial Ischemic Stroke (VIPS II)
 
@@ -39985,7 +39985,7 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
         - Reactivation concentrated in focal cerebral arteriopathy (4/32, 12.5%), not in dissection or moyamoya.
     *Conclusion:* High-quality primary evidence that asymptomatic/rash-less VZV reactivation accompanies arterial inflammation and stroke — demonstrating that VZV vasculopathy can proceed without clinical rash, and supporting the ME/CFS-relevant concept that serologically-detectable VZV reactivation need not be clinically visible (rash-less) to be biologically active.
     *Limitations:* Childhood stroke population (not ME/CFS); serologic reactivation markers (IgM/IgG) rather than direct virus detection; moderate effect, vaccinated population.
-    *Certainty Assessment:* 0.75 raw × 0.75 (general-population/mechanism) = *discounted ~0.56* (supporting mechanism)
+    *Certainty Assessment:* 0.75 raw × 0.75 (general-population/mechanism) = *discounted approximately 0.56* (supporting mechanism)
 
 === Livieratos et al.\ 2025 — Varicella Zoster Virus and Stroke: An Intricate Relationship
 
@@ -39996,7 +39996,7 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
         - Documents the vascular-inflammatory pathway by which VZV reactivation injures cerebral vasculature.
     *Conclusion:* Maps the downstream VZV mechanism (ganglion reactivation → cerebral arterial inflammation) that potentially intersects documented ME/CFS findings on cerebral vasculature and neuroinflammation, even though VZV-stroke epidemiology is not ME/CFS-specific. Complements the Bubak 2026 NRDP review with a dedicated stroke-mechanism synthesis.
     *Limitations:* Narrative review (no primary data); general-population VZV-stroke, not ME/CFS; partially redundant with the Bubak 2026 review's stroke content.
-    *Certainty Assessment:* 0.50 raw × 0.75 (general-population/mechanism) = *discounted ~0.38* (supporting mechanism)
+    *Certainty Assessment:* 0.50 raw × 0.75 (general-population/mechanism) = *discounted approximately 0.38* (supporting mechanism)
 
 === Gouda et al.\ 2026 — Low-Dose Naltrexone: What is the Evidence? A Narrative Review
 
@@ -40013,7 +40013,7 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
         - Calls for larger RCTs with objective endpoints and N-of-1 designs to identify responders.
     *Conclusion:* Reinforces the evidence-caution framing already present in ch28 LDN: mechanistic/observational promise has not yet translated into controlled-trial proof. Supports presenting LDN as off-label with limited controlled evidence rather than as established therapy.
     *Limitations:* Narrative review (not systematic); cross-disorder synthesis; does not adjudicate ME/CFS-specific controlled evidence (which remains thin).
-    *Certainty Assessment:* 0.75 raw × 0.75 (general-population, not ME/CFS-specific) = *discounted ~0.56* (supporting — review-level evidence framework)
+    *Certainty Assessment:* 0.75 raw × 0.75 (general-population, not ME/CFS-specific) = *discounted approximately 0.56* (supporting — review-level evidence framework)
 
 === Byambasuren et al.\ 2026 — LDN for Long COVID: Systematic Review and Meta-Analysis
 
@@ -40030,7 +40030,7 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
         - Certainty of evidence rated LOW.
     *Conclusion:* Supports the observational-signal framing in ch28 LDN for post-infectious fatigue — a promising but low-certainty signal from uncontrolled studies. Directly exemplifies why controlled evidence (e.g. the completed-but-unpublished NCT05430152 RCT) is the missing piece.
     *Limitations:* No RCTs; observational pre-post designs subject to regression-to-mean and expectation effects; long COVID population (weight 0.85) rather than ME/CFS.
-    *Certainty Assessment:* 0.60 raw × 0.85 (long COVID) = *discounted ~0.51* (supporting — low-certainty observational meta)
+    *Certainty Assessment:* 0.60 raw × 0.85 (long COVID) = *discounted approximately 0.51* (supporting — low-certainty observational meta)
 
 === Wang et al.\ 2026 — EBV + HLA-DR15 Jointly Drive MS by Myelin Peptide Presentation
 
@@ -40044,7 +40044,7 @@ Research stream: `neurodivergent-psychological-consequences-mecfs`
         - Provides direct mechanistic linkage between infection (EBV), genetically determined HLA-restricted presentation (HLA-DR15), and presentation of CNS self-antigen.
     *Conclusion:* Strengthens the infection + HLA-restricted presentation + autoimmunity proof-of-principle for which MS is the canonical model (complementing Lanz 2022 EBNA1/GlialCAM and the HLA-restricted-antigen framework of Georgopoulos 2025). Provides precedent for how EBV could interact with HLA class II to surface self-antigens — a mechanism relevant to ME/CFS only as a testable hypothesis, not a demonstration.
     *Limitations:* In vitro / structural (not organism-level); mechanism demonstrated in MS (HLA-DR15), not in ME/CFS; no direct ME/CFS data.
-    *Certainty Assessment:* 0.65 raw × 0.40 (in vitro) = *discounted ~0.26* (supporting mechanism — MS-specific in vitro proof-of-principle)
+    *Certainty Assessment:* 0.65 raw × 0.40 (in vitro) = *discounted approximately 0.26* (supporting mechanism — MS-specific in vitro proof-of-principle)
 
 // =============================================================================
 
@@ -40066,7 +40066,7 @@ This stream assembles the methodological precedents and their limits for the pro
         - Demonstrates that uncoordinated single-patient trials form a coherent, poolable evidence base.
     *Conclusion:* The central feasibility precedent for the pharmacodiagnostic corpus: a distributed set of single-patient trials can be aggregated into a population estimate. The claim the paper supports is a group-mean treatment effect, not individual mechanism — the same epistemic ceiling the corpus proposal must respect.
     *Limitations:* ADHD (not ME/CFS); pediatric populations; aggregation yields group means and cannot resolve which mechanism operated in any one patient.
-    *Certainty Assessment:* 0.75 raw × 0.75 (general/methodological) = *discounted ~0.56* (supporting methodology)
+    *Certainty Assessment:* 0.75 raw × 0.75 (general/methodological) = *discounted approximately 0.56* (supporting methodology)
 
 === Schmid & Yang\ 2022 — Bayesian Models for N-of-1 Trials
 
@@ -40080,7 +40080,7 @@ This stream assembles the methodological precedents and their limits for the pro
         - Models accommodate trend, carryover, and autocorrelation — the practical confounders of repeated single-patient data.
     *Conclusion:* Supplies the formal statistical machinery for turning a set of single-patient drug trials into a population/subgroup instrument. This is the exact inferential step the corpus proposal needs, with the honest caveat that posterior subgroup estimates depend on priors and design.
     *Limitations:* Methodological, not empirical; no ME/CFS application; sensitivity to prior specification is substantial.
-    *Certainty Assessment:* 0.70 raw × 0.75 (general/methodological) = *discounted ~0.53* (supporting methodology)
+    *Certainty Assessment:* 0.70 raw × 0.75 (general/methodological) = *discounted approximately 0.53* (supporting methodology)
 
 === Hendrickson et al.\ 2020 — Optimizing Aggregated N-of-1 Trial Designs for Predictive Biomarker Validation
 
@@ -40094,7 +40094,7 @@ This stream assembles the methodological precedents and their limits for the pro
         - Frames aggregation as a tool for mechanism/subgroup discovery, not merely efficacy estimation.
     *Conclusion:* Provides the design theory for a corpus intended to rank pathways or identify responder subgroups. Directly bridges n-of-1 aggregation and biomarker/mechanism inference — the corpus proposal's core inferential goal.
     *Limitations:* Theoretical; no empirical application; assumes a specified candidate biomarker, whereas the corpus proposal must also generate candidates.
-    *Certainty Assessment:* 0.65 raw × 0.75 (general/methodological) = *discounted ~0.49* (supporting methodology)
+    *Certainty Assessment:* 0.65 raw × 0.75 (general/methodological) = *discounted approximately 0.49* (supporting methodology)
 
 === Samuel et al.\ 2022 — Impact of N-of-1 Trials on Clinical Outcomes: Scoping Review
 
@@ -40108,7 +40108,7 @@ This stream assembles the methodological precedents and their limits for the pro
         - N-of-1 trials are established as individual decision tools; their population-outcome impact is not established.
     *Conclusion:* A boundary condition for the corpus proposal: aggregation supports individual selection and hypothesis generation, but evidence that it changes population outcomes is thin. Supports honest scoping of the corpus's claims.
     *Limitations:* Scoping (not systematic) review; heterogeneous conditions; no ME/CFS focus.
-    *Certainty Assessment:* 0.55 raw × 0.75 (general/methodological) = *discounted ~0.41* (supporting/limiting methodology)
+    *Certainty Assessment:* 0.55 raw × 0.75 (general/methodological) = *discounted approximately 0.41* (supporting/limiting methodology)
 
 === Nikles et al.\ 2022 — N-of-1 and Single-Case Designs in Musculoskeletal Physiotherapy
 
@@ -40123,7 +40123,7 @@ This stream assembles the methodological precedents and their limits for the pro
         - Overall risk of bias was high.
     *Conclusion:* A direct empirical warning for the corpus proposal: unblinded single-case designs report near-universal favourable response. A pooled corpus of such reports will inflate apparent efficacy and cannot, without controls, distinguish drug effect from expectation and regression to the mean.
     *Limitations:* Physiotherapy/musculoskeletal, not pharmacological; SCED rather than n-of-1 drug trials; review-level.
-    *Certainty Assessment:* 0.60 raw × 0.75 (general/methodological) = *discounted ~0.45* (null/critique)
+    *Certainty Assessment:* 0.60 raw × 0.75 (general/methodological) = *discounted approximately 0.45* (null/critique)
 
 === Bourke et al.\ 2020 — Incorporating Patient-Generated Health Data into Pharmacoepidemiology
 
@@ -40137,7 +40137,7 @@ This stream assembles the methodological precedents and their limits for the pro
         - PGHD is complementary to, not a substitute for, conventional pharmacoepidemiological sources.
     *Conclusion:* Defines the practical requirements and validation burden for a pooled patient-report corpus. Supports the proposal's data-collection design while cautioning that validation is a prerequisite, not an afterthought.
     *Limitations:* Review; no primary data; not ME/CFS-specific.
-    *Certainty Assessment:* 0.60 raw × 0.75 (general/methodological) = *discounted ~0.45* (supporting methodology)
+    *Certainty Assessment:* 0.60 raw × 0.75 (general/methodological) = *discounted approximately 0.45* (supporting methodology)
 
 === Frost & Massagli\ 2009 — PatientsLikeMe: A Data-Centered Patient Community
 
@@ -40151,7 +40151,7 @@ This stream assembles the methodological precedents and their limits for the pro
         - The platform is the canonical real-world example of a patient-generated drug-response corpus.
     *Conclusion:* The closest existing precedent for the corpus proposal: a structured, patient-populated drug-response database used for decisions. It also exemplifies the self-selected, unblinded character that limits mechanistic inference.
     *Limitations:* Case study, not an analytic validation; self-selected membership; ALS-specific; no mechanism confirmation.
-    *Certainty Assessment:* 0.55 raw × 0.75 (general/methodological) = *discounted ~0.41* (supporting precedent)
+    *Certainty Assessment:* 0.55 raw × 0.75 (general/methodological) = *discounted approximately 0.41* (supporting precedent)
 
 === van Puijenbroek et al.\ 2002 — Comparison of Disproportionality Measures for Signal Detection
 
@@ -40165,7 +40165,7 @@ This stream assembles the methodological precedents and their limits for the pro
         - Disproportionality quantifies how much more a drug-event pair is reported than expected from the database as a whole.
     *Conclusion:* The statistical template for extracting signal from pooled uncoordinated reports — the same formal move the corpus proposal makes, but for drug-response instead of drug-harm. Demonstrates that pooled reports can rank associations despite having no denominators.
     *Limitations:* Adverse-event (harm) domain, not therapeutic response; disproportionality does not measure incidence or causation.
-    *Certainty Assessment:* 0.70 raw × 0.75 (general/methodological) = *discounted ~0.53* (supporting methodology)
+    *Certainty Assessment:* 0.70 raw × 0.75 (general/methodological) = *discounted approximately 0.53* (supporting methodology)
 
 === Cutroneo et al.\ 2023 — Conducting and Interpreting Disproportionality Analyses
 
@@ -40179,7 +40179,7 @@ This stream assembles the methodological precedents and their limits for the pro
         - Interpretation must account for reporting bias, notoriety effects, and confounding.
     *Conclusion:* The mandatory-limits counterpart to van Puijenbroek: pooled reports generate hypotheses, not conclusions. Anchors the corpus proposal's explicit statement that it cannot confirm mechanism.
     *Limitations:* Methodological review; no primary data; focuses on harm signals.
-    *Certainty Assessment:* 0.65 raw × 0.75 (general/methodological) = *discounted ~0.49* (limiting methodology)
+    *Certainty Assessment:* 0.65 raw × 0.75 (general/methodological) = *discounted approximately 0.49* (limiting methodology)
 
 === Noguchi et al.\ 2021 — Detection Algorithms for Safety Signals from Spontaneous Reports
 
@@ -40193,7 +40193,7 @@ This stream assembles the methodological precedents and their limits for the pro
         - A core limitation is the absence of a denominator (total number exposed).
     *Conclusion:* Supplies the algorithmic toolbox for extracting structure from heterogeneous pooled reports and names the denominator problem as the central interpretive limit — directly relevant to any drug-response corpus built from self-report.
     *Limitations:* Adverse-event domain; review-level; no ME/CFS application.
-    *Certainty Assessment:* 0.55 raw × 0.75 (general/methodological) = *discounted ~0.41* (supporting/limiting methodology)
+    *Certainty Assessment:* 0.55 raw × 0.75 (general/methodological) = *discounted approximately 0.41* (supporting/limiting methodology)
 
 === Đogatović et al.\ 2026 — Inverse Pharmacovigilance Signal Detection for Drug Repurposing (FAERS)
 
@@ -40207,7 +40207,7 @@ This stream assembles the methodological precedents and their limits for the pro
         - Demonstrates that a spontaneous-report corpus can be mined for therapeutic-mechanism hypotheses.
     *Conclusion:* The closest published analogue to treating a spontaneous-report corpus as a source of therapeutic-mechanism signal. Supports feasibility of the corpus proposal's inferential direction while inheriting the same reporting biases.
     *Limitations:* IBD, not ME/CFS; spontaneous reports carry reporting bias and no denominators; computational inference only, not validated clinically.
-    *Certainty Assessment:* 0.50 raw × 0.75 (general/methodological) = *discounted ~0.38* (supporting methodology)
+    *Certainty Assessment:* 0.50 raw × 0.75 (general/methodological) = *discounted approximately 0.38* (supporting methodology)
 
 === Richiardi et al.\ 2007 — Internet-Recruited Birth Cohort (NINFEA): Self-Selection
 
@@ -40221,7 +40221,7 @@ This stream assembles the methodological precedents and their limits for the pro
         - Complete and partial responders also differ from one another.
     *Conclusion:* Empirical basis for the self-selection bias that limits any web-collected drug-response corpus. Participants are not a random sample, so corpus-derived pathway rankings describe respondents, not the ME/CFS population.
     *Limitations:* Pregnancy/birth cohort, not drug response; Italian population; no ME/CFS.
-    *Certainty Assessment:* 0.65 raw × 0.75 (general/methodological) = *discounted ~0.49* (limiting methodology)
+    *Certainty Assessment:* 0.65 raw × 0.75 (general/methodological) = *discounted approximately 0.49* (limiting methodology)
 
 === Micale et al.\ 2024 — Patient-Reported Reasons for Antihypertensive Medication Change from Social Media
 
@@ -40235,7 +40235,7 @@ This stream assembles the methodological precedents and their limits for the pro
         - Demonstrates feasibility of harvesting structured stop-reason data from patient forums at scale.
     *Conclusion:* Direct precedent for the corpus's stop-reason field, showing that drug-response and discontinuation reasons can be extracted from self-selected patient text. It also inherits the biases of online self-report.
     *Limitations:* Hypertension, not ME/CFS; social-media population is self-selected; NLP extraction error; no verification against clinical records.
-    *Certainty Assessment:* 0.55 raw × 0.75 (general/methodological) = *discounted ~0.41* (supporting methodology)
+    *Certainty Assessment:* 0.55 raw × 0.75 (general/methodological) = *discounted approximately 0.41* (supporting methodology)
 
 === Zong et al.\ 2022 — Computational Drug Repurposing Based on Electronic Health Records
 
@@ -40250,7 +40250,7 @@ This stream assembles the methodological precedents and their limits for the pro
         - Establishes a recognized pipeline from observational drug-response data to mechanistic/repurposing hypotheses.
     *Conclusion:* Shows that observational drug-response data can generate mechanistic hypotheses at scale — the corpus proposal's goal — while making clear that validation is a separate, necessary step.
     *Limitations:* Review; EHR rather than patient-report; no ME/CFS application; observational confounding.
-    *Certainty Assessment:* 0.60 raw × 0.75 (general/methodological) = *discounted ~0.45* (supporting methodology)
+    *Certainty Assessment:* 0.60 raw × 0.75 (general/methodological) = *discounted approximately 0.45* (supporting methodology)
 
 === Shahn et al.\ 2022 — Systematically Exploring Repurposing Effects of Antihypertensives
 
@@ -40264,7 +40264,7 @@ This stream assembles the methodological precedents and their limits for the pro
         - Demonstrates a principled pipeline for surfacing drug-response signals across many drugs and outcomes.
     *Conclusion:* A working model for reading many drug trials against many hypotheses while controlling false discovery — structurally analogous to the corpus proposal's constraint-satisfaction instrument.
     *Limitations:* Hypertension drugs/outcomes; observational confounding; claims data, not patient-reported mechanism; no ME/CFS.
-    *Certainty Assessment:* 0.60 raw × 0.75 (general/methodological) = *discounted ~0.45* (supporting methodology)
+    *Certainty Assessment:* 0.60 raw × 0.75 (general/methodological) = *discounted approximately 0.45* (supporting methodology)
 
 === Vaes et al.\ 2023 — Symptom-Based Clusters in ME/CFS
 
@@ -40279,7 +40279,7 @@ This stream assembles the methodological precedents and their limits for the pro
         - Demonstrates substantial within-diagnosis heterogeneity.
     *Conclusion:* Establishes the population structure any mechanism-ranking corpus must respect: ME/CFS is not one disease state, so a single pooled average is misleading and subgroup structure is essential.
     *Limitations:* Cross-sectional; self-reported symptoms; clustering solution stability only partial; no drug-response data.
-    *Certainty Assessment:* 0.65 raw × 1.00 (ME/CFS cohort) = *discounted ~0.65* (supporting context)
+    *Certainty Assessment:* 0.65 raw × 1.00 (ME/CFS cohort) = *discounted approximately 0.65* (supporting context)
 
 === Calfee et al.\ 2018 — ARDS Subphenotypes and Differential Response to Simvastatin
 
@@ -40293,7 +40293,7 @@ This stream assembles the methodological precedents and their limits for the pro
         - A trial that is null overall can contain a real, mechanism-revealing differential response.
     *Conclusion:* The canonical demonstration that heterogeneous drug response within a syndrome discloses subtypes — exactly the inferential move the corpus proposal generalizes across many drugs. Supports the proposal's logic while showing that mechanism inference requires predefined subphenotypes.
     *Limitations:* ARDS, not ME/CFS; secondary (post-hoc) analysis; subphenotypes predefined from prior work, not discovered de novo.
-    *Certainty Assessment:* 0.75 raw × 0.75 (general/mechanism) = *discounted ~0.56* (supporting mechanism)
+    *Certainty Assessment:* 0.75 raw × 0.75 (general/mechanism) = *discounted approximately 0.56* (supporting mechanism)
 
 === Flávio-Reis et al.\ 2025 — Open-Label Placebo for Chronic Low Back Pain
 
@@ -40308,7 +40308,7 @@ This stream assembles the methodological precedents and their limits for the pro
         - Certainty of evidence rated very low.
     *Conclusion:* Direct evidence that non-deceptive expectation alone moves chronic-illness symptoms. An unblinded drug-response corpus therefore cannot attribute reported benefit to the drug's mechanism — the mandatory null/critique anchor.
     *Limitations:* Chronic low back pain, not ME/CFS; small pooled sample; very low certainty; heterogeneous durations.
-    *Certainty Assessment:* 0.55 raw × 0.75 (general/mechanism) = *discounted ~0.41* (null/critique)
+    *Certainty Assessment:* 0.55 raw × 0.75 (general/mechanism) = *discounted approximately 0.41* (null/critique)
 
 === Kleine-Borgmann & Bingel\ 2025 — Open-Label Nondeceptive Placebos
 
@@ -40322,7 +40322,7 @@ This stream assembles the methodological precedents and their limits for the pro
         - Neurobiologic studies suggest OLP shares mechanisms with traditional placebo, but mechanisms remain unclear and robustness concerns persist.
     *Conclusion:* Reinforces the corpus proposal's honest limit: subjective response domains are placebo-contaminated and cannot by themselves confirm mechanism. Supports restricting corpus claims to hypothesis generation.
     *Limitations:* Narrative review; not ME/CFS-specific; mechanism uncertainty; generalizability concerns noted by the authors.
-    *Certainty Assessment:* 0.55 raw × 0.75 (general/mechanism) = *discounted ~0.41* (null/critique)
+    *Certainty Assessment:* 0.55 raw × 0.75 (general/mechanism) = *discounted approximately 0.41* (null/critique)
 
 == Eckey 2025 Mechanism Re-analysis: Projecting Treatment Rankings onto Mechanisms <sec:bib-eckey2025-mechanism-reanalysis>
 // =============================================================================
@@ -40357,7 +40357,7 @@ This stream assembles the literature that makes or breaks the proposal to re-ana
         - Demonstrated on Connectivity Map perturbation data to identify drug classes with shared mechanisms.
     *Conclusion:* The core methodological precedent for projecting a treatment list onto target/mechanism classes — the exact operation the Eckey re-analysis needs. It shows mechanism-level aggregation is achievable but depends on reliable drug-to-target assignment and on a reference signature to score against.
     *Limitations:* Computational; requires accurate drug-target annotation; validated in cancer cell lines, not patient-reported benefit data; enrichment does not establish causal target mediation.
-    *Certainty Assessment:* 0.65 raw × 0.30 (in silico) = *discounted ~0.20* (supporting method)
+    *Certainty Assessment:* 0.65 raw × 0.30 (in silico) = *discounted approximately 0.20* (supporting method)
 
 === Napolitano et al.\ 2019 — gep2pep: Pathway-Based Expression Profiles
 
@@ -40370,7 +40370,7 @@ This stream assembles the literature that makes or breaks the proposal to re-ana
         - Enables mechanism/pathway-resolution aggregation of drug sets, extending DSEA from drug sets to pathways.
     *Conclusion:* Supplies the pathway-resolution implementation for the treatment-to-pathway projection. Useful only if the re-analysis adopts a pathway (not merely drug-class) hypothesis space.
     *Limitations:* Depends on curated pathway databases and expression data; no patient-reported inputs; software note with limited independent benchmarking.
-    *Certainty Assessment:* 0.55 raw × 0.30 (in silico) = *discounted ~0.17* (supporting method)
+    *Certainty Assessment:* 0.55 raw × 0.30 (in silico) = *discounted approximately 0.17* (supporting method)
 
 === Lipkovich et al.\ 2017 — Data-Driven Subgroup Identification in Clinical Trials
 
@@ -40384,7 +40384,7 @@ This stream assembles the literature that makes or breaks the proposal to re-ana
         - A null overall effect can conceal a real, subgroup-specific effect — and vice versa.
     *Conclusion:* The canonical statistical machinery for producing subgroup-specific mechanism rankings from outcome data and for guarding against the false subgroup that a large survey will inevitably contain. Directly supports the re-analysis's split-half replication requirement.
     *Limitations:* Methodological, not empirical; the worked examples are not ME/CFS; subgroup stability under data-driven search remains the principal risk the tutorial documents rather than solves.
-    *Certainty Assessment:* 0.70 raw × 0.75 (general/methodological) = *discounted ~0.53* (supporting method)
+    *Certainty Assessment:* 0.70 raw × 0.75 (general/methodological) = *discounted approximately 0.53* (supporting method)
 
 === Wang et al.\ 2017 — Network Analysis of the Genomic Basis of the Placebo Effect
 
@@ -40397,7 +40397,7 @@ This stream assembles the literature that makes or breaks the proposal to re-ana
         - Expectation and context engage measurable, non-random molecular programs rather than unstructured noise.
     *Conclusion:* Establishes that expectation can produce a biologically *structured* signal — so an apparent mechanism ranking can arise from placebo/expectation without the drug's target. This is the strongest form of the re-analysis's alternative explanation and must be modelled explicitly.
     *Limitations:* Computational; placebo-response genomic data from heterogeneous trials; no direct ME/CFS application.
-    *Certainty Assessment:* 0.55 raw × 0.30 (in silico) = *discounted ~0.17* (competing explanation)
+    *Certainty Assessment:* 0.55 raw × 0.30 (in silico) = *discounted approximately 0.17* (competing explanation)
 
 === Simmering et al.\ 2014 — Web Search Query Volume as a Measure of Pharmaceutical Utilization
 
@@ -40410,7 +40410,7 @@ This stream assembles the literature that makes or breaks the proposal to re-ana
         - Validates search volume as an operational proxy for treatment popularity/community discussion.
     *Conclusion:* Supplies the measurable popularity covariate the re-analysis must include. If the mechanism ranking tracks search popularity as well as target assignment, the pharmacological interpretation fails the proposal's stated falsification condition.
     *Limitations:* General population; specific drug classes; search volume reflects interest, not necessarily patient uptake; not ME/CFS-specific.
-    *Certainty Assessment:* 0.55 raw × 0.75 (general/methodological) = *discounted ~0.41* (confounder measure)
+    *Certainty Assessment:* 0.55 raw × 0.75 (general/methodological) = *discounted approximately 0.41* (confounder measure)
 
 === Stallion et al.\ 2026 — Social Media Discussions and the Popularity of GLP-1 Therapies
 
@@ -40423,7 +40423,7 @@ This stream assembles the literature that makes or breaks the proposal to re-ana
         - Community discourse can outrun formal evidence in shaping perceived standing of a therapy.
     *Conclusion:* Concrete, quantified evidence that community discussion drives a drug's perceived position — the pathway by which a patient-reported benefit ranking could be popularity rather than pharmacology. Directly motivates the re-analysis's popularity control.
     *Limitations:* GLP-1 anti-diabetic drugs, not ME/CFS; content analysis cannot establish causality; platform-specific.
-    *Certainty Assessment:* 0.50 raw × 0.75 (general/methodological) = *discounted ~0.38* (confounder evidence)
+    *Certainty Assessment:* 0.50 raw × 0.75 (general/methodological) = *discounted approximately 0.38* (confounder evidence)
 
 === Yom-Tov & Gabrilovich\ 2013 — Postmarket Drug Surveillance from Web Search Queries
 
@@ -40436,7 +40436,7 @@ This stream assembles the literature that makes or breaks the proposal to re-ana
         - Web data can reflect genuine drug effects, not only interest.
     *Conclusion:* Two-edged precedent: search/discussion volume is both a confounder to control and a partially valid pharmacological channel. The re-analysis should not treat popularity as pure noise, but as a covariate that may itself carry signal.
     *Limitations:* General population; ADR detection (harm), not benefit ranking; search volume sensitive to media events; not ME/CFS-specific.
-    *Certainty Assessment:* 0.50 raw × 0.75 (general/methodological) = *discounted ~0.38* (confounder evidence)
+    *Certainty Assessment:* 0.50 raw × 0.75 (general/methodological) = *discounted approximately 0.38* (confounder evidence)
 
 === Rekeland et al.\ 2022 — Activity Monitoring and Patient-Reported Outcome Measures in ME/CFS
 
@@ -40462,7 +40462,7 @@ This stream assembles the literature that makes or breaks the proposal to re-ana
         - PROM selection materially affects measured treatment response.
     *Conclusion:* Documents that the instrument determines the measured ranking. A re-analysis of self-reported benefit inherits the psychometric limits of the survey instrument; cross-survey concordance must account for instrument differences.
     *Limitations:* Paediatric population; instrument-methodological, not a treatment study; older review.
-    *Certainty Assessment:* 0.55 raw × 0.80 (comorbid/population-specific) = *discounted ~0.44* (measurement validity)
+    *Certainty Assessment:* 0.55 raw × 0.80 (comorbid/population-specific) = *discounted approximately 0.44* (measurement validity)
 
 === Dorczok et al.\ 2026 — Use and Perceived Helpfulness of Interventions in ME/CFS and Depression
 
@@ -40560,7 +40560,7 @@ This stream assembles evidence for the claim that pathological fatigue across au
     *Limitations:* Review; wide prevalence range; determinants contested.
     *Certainty Assessment:* 0.50 raw × 1.00 (other disease cohort) = *discounted 0.50* (disease-specific prevalence)
 
-=== Tang et al.\ 2025 — Fatigue in Psoriatic Arthritis (~51%)
+=== Tang et al.\ 2025 — Fatigue in Psoriatic Arthritis (approximately 51%)
 
     *Full Citation:*: Tang H, Chew TLT, Fong W. Prevalence and factors associated with fatigue in patients with psoriatic arthritis: a systematic review and meta-analysis. _BMC Rheumatology_. 2025;9(1):44. @Tang2025PsoriaticArthritisFatigue
     *DOI:*: #link("https://doi.org/10.1186/s41927-025-00498-8")[10.1186/s41927-025-00498-8]
@@ -40600,7 +40600,7 @@ This stream assembles evidence for the claim that pathological fatigue across au
     *Limitations:* Feasibility design, not powered for efficacy; single centre; no mechanistic sampling.
     *Certainty Assessment:* 0.55 raw × 1.00 (other disease cohort) = *discounted 0.55* (remission-fatigue dissociation)
 
-=== Tang et al.\ 2023 — Fatigue in Axial Spondyloarthritis (~56%)
+=== Tang et al.\ 2023 — Fatigue in Axial Spondyloarthritis (approximately 56%)
 
     *Full Citation:*: Tang H, Singh BSM, Fong W. Prevalence and factors associated with fatigue in patients with axial spondyloarthritis: a systematic review and meta-analysis. _Rheumatology Advances in Practice_. 2023;7(3):rkad084. @Tang2023AxialSpAFatigue
     *DOI:*: #link("https://doi.org/10.1093/rap/rkad084")[10.1093/rap/rkad084]
@@ -40653,7 +40653,7 @@ This stream assembles evidence for the claim that pathological fatigue across au
     *Limitations:* Varied assessment instruments; observational studies; no mechanistic data.
     *Certainty Assessment:* 0.60 raw × 1.00 (other disease cohort) = *discounted 0.60* (fatigue/fatigability dissociation)
 
-=== Khan et al.\ 2014 — Fatigue in Multiple Sclerosis (~80%)
+=== Khan et al.\ 2014 — Fatigue in Multiple Sclerosis (approximately 80%)
 
     *Full Citation:*: Khan F, Amatya B, Galea M. Management of fatigue in persons with multiple sclerosis. _Frontiers in Neurology_. 2014;5:177. @Khan2014MSfatigue
     *DOI:*: #link("https://doi.org/10.3389/fneur.2014.00177")[10.3389/fneur.2014.00177]
@@ -41082,7 +41082,7 @@ This stream assembles evidence for the claim that pathological fatigue across au
     *PMID:*: 17109576
     *Study Design:*: Open-label uncontrolled pilot (n=41 CFS/FMS patients)
     *Key Findings:*:
-        - ~66% reported subjective improvement in energy, sleep, mental clarity and well-being with D-ribose 5g t.i.d.
+        - approximately 66% reported subjective improvement in energy, sleep, mental clarity and well-being with D-ribose 5g t.i.d.
     *Conclusion:* Weak human signal for "energy-substrate support → relieve glycolytic strain"; hypothesis only, not a recommendation.
     *Limitations:* Open-label; no placebo/blinding; mixed CFS+FM; subjective endpoints; low-tier journal.
     *Certainty Assessment:* 0.40 raw × 0.80 (FM/comorbid) = *discounted 0.32*
@@ -41145,7 +41145,7 @@ This stream assembles evidence for the claim that pathological fatigue across au
     *Study Design:*: Narrative review of DOMS mechanisms (healthy population)
     *Key Findings:*:
         - DOMS peaks 24–72 h after unaccustomed (especially eccentric) exercise and reflects ultrastructural muscle damage plus a subsequent inflammatory response.
-        - Lactic acid is cleared within ~1 h of exercise and cannot account for the delayed pain — the explicit correction of the lactate-myth.
+        - Lactic acid is cleared within approximately 1 h of exercise and cannot account for the delayed pain — the explicit correction of the lactate-myth.
     *Conclusion:* Supplies the healthy-person DOMS physiology that is the false comparator patients and clinicians invoke when framing ME/CFS post-exertional muscle pain.
     *Limitations:* 1984 narrative review; no ME/CFS data.
     *Certainty Assessment:* 0.55 raw × 0.75 (general population) = *discounted 0.41*
@@ -41218,7 +41218,7 @@ This stream assembles evidence for the claim that pathological fatigue across au
     *PMID:*: 37967833
     *Study Design:*: Review of myalgia origin and mechanisms (general/fibromyalgia)
     *Key Findings:*:
-        - Myalgia (lifetime prevalence ~60–85%) is framed through muscle nociceptor sensitization, acid-sensing (ASIC3/TRPV1) signaling, and peripheral-vs-central contributions.
+        - Myalgia (lifetime prevalence approximately 60–85%) is framed through muscle nociceptor sensitization, acid-sensing (ASIC3/TRPV1) signaling, and peripheral-vs-central contributions.
     *Conclusion:* Mechanistically grounded "where does myalgia come from" scaffold for the ME/CFS muscle-pain-dominant phenotype.
     *Limitations:* General review; no dedicated ME/CFS cohort; no DOI.
     *Certainty Assessment:* 0.45 raw × 0.75 (general review) = *discounted 0.34*
@@ -41544,7 +41544,7 @@ This stream assembles evidence for the claim that pathological fatigue across au
     *DOI:*: #link("https://doi.org/10.1097/00005344-199307000-00004")[10.1097/00005344-199307000-00004]
     *PMID:*: 7690091
     *Key Findings:*:
-        - Oral yohimbine raised mean blood pressure ~5 mmHg and plasma norepinephrine ~66%.
+        - Oral yohimbine raised mean blood pressure approximately 5 mmHg and plasma norepinephrine approximately 66%.
     *Conclusion:* Safety basis for caution on α2-antagonist strategies in the hyperadrenergic/POTS population.
     *Limitations:* Hypertensive subjects; small n.
     *Certainty Assessment:* 0.65 raw x 0.75 (general population) = *discounted 0.49*
@@ -41581,7 +41581,7 @@ This stream assembles evidence for the claim that pathological fatigue across au
     *DOI:*: #link("https://doi.org/10.1126/science.aeg2276")[10.1126/science.aeg2276]
     *PMID:*: 42166599
     *Key Findings:*:
-        - Neuromodulators (norepinephrine, acetylcholine, serotonin, dopamine) are vasoactive and drive slow vasomotion (~50 s), the mechanical force for glymphatic clearance.
+        - Neuromodulators (norepinephrine, acetylcholine, serotonin, dopamine) are vasoactive and drive slow vasomotion (approximately 50 s), the mechanical force for glymphatic clearance.
     *Conclusion:* Supports the clearance arm of the loop and the arousal-and-clearance reframing.
     *Limitations:* Review; not ME/CFS.
     *Certainty Assessment:* 0.65 raw x 0.75 (general) = *discounted 0.49*
@@ -43492,7 +43492,7 @@ This stream assembles evidence for the claim that pathological fatigue across au
     *Article Type:*: Narrative review
     *Key Findings:*:
         - NMES can prevent muscle atrophy, improve strength and function, maintain blood flow, and reduce oedema when voluntary contraction is difficult or impossible
-        - ICU-acquired weakness affects ~40% of ICU admissions; NMES usable during ventilator weaning and into post-acute/long-COVID phases
+        - ICU-acquired weakness affects approximately 40% of ICU admissions; NMES usable during ventilator weaning and into post-acute/long-COVID phases
     *Conclusion:*: NMES is a viable muscle-preservation modality for deconditioned patients who cannot exercise voluntarily.
     *Limitations:*: Narrative review; COVID-19/ICU population; no ME/CFS-specific data.
     *ME/CFS Relevance:*: F1 safe-substitute — transfers the bedbound muscle-preservation rationale to deconditioned ME/CFS patients.
@@ -43545,7 +43545,7 @@ This stream assembles evidence for the claim that pathological fatigue across au
     *PMID:*: 34793521
     *Article Type:*: Randomized crossover trial
     *Key Findings:*:
-        - Hybrid NMES (synchronized with volitional knee bending) raised oxygen uptake by ~14% (7.29 → 8.29 ml/kg/min, p = 0.0115) and heart rate (80.8 → 86.4 bpm, p = 0.0153) vs unstimulated exercise
+        - Hybrid NMES (synchronized with volitional knee bending) raised oxygen uptake by approximately 14% (7.29 → 8.29 ml/kg/min, p = 0.0115) and heart rate (80.8 → 86.4 bpm, p = 0.0153) vs unstimulated exercise
     *Conclusion:*: Adding EMS to bed-exercise imposes measurable additional metabolic and cardiorespiratory load.
     *Limitations:*: n = 10 healthy subjects; exploratory; single acute session.
     *ME/CFS Relevance:*: F1/F2 bridge — EMS is a bed-rest countermeasure but is not metabolically "free"; it adds contractile demand that could contribute to PEM.
@@ -43588,7 +43588,7 @@ This stream assembles evidence for the claim that pathological fatigue across au
     / *Full Citation:*: Vanderthommen, M., Chamayou, R., Demoulin, C., Crielaard, J.-M., & Croisier, J.-L. (2015). Protection against muscle damage induced by electrical stimulation. Clinical Physiology and Functional Imaging, 35(4), 267–274.
     / *DOI:*: 10.1111/cpf.12160
     / *Key Findings:*:
-        - One NMES bout (100 quadriceps + 100 hamstrings contractions) raised serum CK to ~2307 IU/L and VAS soreness to ~4.2 cm in unaccustomed muscle.
+        - One NMES bout (100 quadriceps + 100 hamstrings contractions) raised serum CK to approximately 2307 IU/L and VAS soreness to approximately 4.2 cm in unaccustomed muscle.
         - Damage markers fell markedly on the second bout 5 weeks later (CK 218 IU/L) — repeated-bout protective effect.
     / *Conclusion:*: NMES causes measurable muscle damage on first exposure; a single prior bout confers protection.
     / *Limitations:*: n=16 healthy men; no ME/CFS.
@@ -43597,7 +43597,7 @@ This stream assembles evidence for the claim that pathological fatigue across au
     / *Full Citation:*: Fessard, A., Zavoriti, A., Boyer, N., et al. (2025). NMES training induces myonuclear accretion and hypertrophy in mice without overt signs of muscle damage and regeneration. Skeletal Muscle, 15(1), 3.
     / *DOI:*: 10.1186/s13395-024-00372-0
     / *Key Findings:*:
-        - Low-intensity NMES (~15% of maximal tetanic force, 80 isometric contractions/session) induced myonuclear accretion and hypertrophy without overt damage/regeneration.
+        - Low-intensity NMES (approximately 15% of maximal tetanic force, 80 isometric contractions/session) induced myonuclear accretion and hypertrophy without overt damage/regeneration.
         - Establishes intensity-dependence: NMES damage occurs only above a threshold; low-intensity NMES is non-damaging.
     / *Conclusion:*: The damaging vs. non-damaging character of NMES is intensity-dependent.
     / *Limitations:*: Animal model; isometric only; generalizability to human high-intensity protocols uncertain.
@@ -44110,7 +44110,7 @@ This stream assembles evidence for the claim that pathological fatigue across au
     *Article Type:*: Sequence-symmetry analysis
     *Key Findings:*:
         - n = 284,592 vaccinated (Cedars-Sinai); POTS odds higher 90 days after vaccine than 90 days before
-        - Post-vaccination POTS odds lower than post-infection odds (post-infection ~5× higher)
+        - Post-vaccination POTS odds lower than post-infection odds (post-infection approximately 5× higher)
     *Conclusion:*: A possible association between COVID-19 vaccination and POTS exists but is small relative to post-infection POTS.
     *Limitations:*: Observational sequence-symmetry; diagnostic code reliance; no mechanistic data.
     *ME/CFS Relevance:*: F2 relative null — vaccine-POTS is real but far lower than infection-POTS.
@@ -44146,7 +44146,7 @@ This stream assembles evidence for the claim that pathological fatigue across au
     *PMID:*: 34907393
     *Article Type:*: Self-controlled case series (England)
     *Key Findings:*:
-        - ~38M vaccinated (ChAdOx1 20.6M; BNT162b2 17.0M; mRNA-1273 1.0M) + 3.0M SARS-CoV-2 positive
+        - approximately 38M vaccinated (ChAdOx1 20.6M; BNT162b2 17.0M; mRNA-1273 1.0M) + 3.0M SARS-CoV-2 positive
         - Myocarditis risk increased after first/second mRNA doses (extra 1–10 events per million in 28 days), confined to age under 40
         - SARS-CoV-2 infection carried far higher risk (extra 40 myocarditis events per million in 28 days)
     *Conclusion:*: mRNA vaccine myocarditis is real but rare, and far lower than myocarditis following infection.
@@ -44154,7 +44154,7 @@ This stream assembles evidence for the claim that pathological fatigue across au
     *ME/CFS Relevance:*: Harm — quantifies the vaccine-safety context (myocarditis) relevant to PVS/chronic-sequelae discussion.
     *Certainty Assessment:*:
         - *Quality:* High (large national SCCS)
-        - *Sample:* ~38M vaccinated
+        - *Sample:* approximately 38M vaccinated
         - *Replication:* Multiple
         - *Score:* 0.75 (raw; population 0.75 → discounted 0.56)
 

@@ -15,7 +15,7 @@
 
 - *Na⁺/K⁺-ATPase dysfunction.* Ion pump failure contributes to cellular energy burden and membrane potential instability; documented indirectly via elevated intracellular sodium in skeletal muscle MRI @scheibenbogen2025muscle. Direct ATPase activity measurements are lacking.
 
-- *Red blood cell membrane stiffness.* RBCs from ME/CFS patients show ~14% reduced elongation index, ~30% lower membrane fluidity, ~18% reduced net negative surface charge, and elevated RBC ROS; stiffened RBCs cannot transit narrow capillaries, impairing microvascular perfusion @marshall2018rbc.
+- *Red blood cell membrane stiffness.* RBCs from ME/CFS patients show approximately 14% reduced elongation index, approximately 30% lower membrane fluidity, approximately 18% reduced net negative surface charge, and elevated RBC ROS; stiffened RBCs cannot transit narrow capillaries, impairing microvascular perfusion @marshall2018rbc.
 
 - *Aquaporin-4 and glymphatic function.* AQP4 water channels on astrocyte perivascular endfeet drive glymphatic CSF clearance during slow-wave sleep; oscillatory disruption reduces the driving force. AQP4 expression and function have not been directly studied in ME/CFS.
 

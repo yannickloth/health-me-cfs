@@ -12,7 +12,7 @@ Only one gap at Step 7, but it is _high-impact if confirmed_ and _entirely unstu
     columns: (auto, auto, auto, auto, auto, auto, auto),
     align: (left, left, left, left, left, left, center),
     table.header([*Gap*], [*Essentiality*], [*Worst-case impact*], [*Tractability*], [*Therapeutic leverage*], [*Measurement*], [*Priority*]),
-    [G28: Anti-ANT1 autoantibodies], [High — ANT is the sole ATP export route; no redundancy], [~93% of gated yield (~28/30 ATP, the matrix-produced fraction)], [Easy — human ANT1-specific ELISA; epitopes mapped ], [Medium-term — immunoadsorption already piloted in ME/CFS for GPCR autoantibodies ], [Blood draw (ANT1-specific ELISA)], [1],
+    [G28: Anti-ANT1 autoantibodies], [High — ANT is the sole ATP export route; no redundancy], [approximately 93% of gated yield (approximately 28/30 ATP, the matrix-produced fraction)], [Easy — human ANT1-specific ELISA; epitopes mapped ], [Medium-term — immunoadsorption already piloted in ME/CFS for GPCR autoantibodies ], [Blood draw (ANT1-specific ELISA)], [1],
   )
 ) <tab:step7-gap-priorities>
 

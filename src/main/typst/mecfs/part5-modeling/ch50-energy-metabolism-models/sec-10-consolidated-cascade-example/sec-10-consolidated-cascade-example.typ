@@ -29,7 +29,7 @@ $
 J_(upright("ROS")) prop 1 - frac(J_(upright("CI")), J_(upright("CI,max")))
 $
 
-In health, Complex I runs at ~95% capacity: ROS factor $= 1 - 0.95 = 0.05$. At $alpha_(upright("CI")) = 0.65$: ROS factor $= 1 - 0.65 = 0.35$. Ratio: $0.35/0.05 =$ *7-fold increase* in ROS production. This elevated ROS damages ETC complexes further, creating a positive feedback loop that the antioxidant system must counterbalance. If antioxidant capacity is not proportionally upregulated, oxidative damage accumulates, progressively reducing $alpha_(upright("CI"))$ and deepening the deficit.
+In health, Complex I runs at approximately 95% capacity: ROS factor $= 1 - 0.95 = 0.05$. At $alpha_(upright("CI")) = 0.65$: ROS factor $= 1 - 0.65 = 0.35$. Ratio: $0.35/0.05 =$ *7-fold increase* in ROS production. This elevated ROS damages ETC complexes further, creating a positive feedback loop that the antioxidant system must counterbalance. If antioxidant capacity is not proportionally upregulated, oxidative damage accumulates, progressively reducing $alpha_(upright("CI"))$ and deepening the deficit.
 
 *Combined picture.* Two individually moderate deficits (35% Complex I impairment, 30% $"NAD"^"+"$ depletion) produce: 57% reduced ATP production (multiplicative), 7-fold elevated ROS (self-reinforcing damage), and an energy envelope so narrow that ordinary activities trigger PEM. This cascade explains why ME/CFS severity is often disproportionate to any single measurable abnormality---it is the _interaction_ between subsystems that generates the clinical phenotype.
 

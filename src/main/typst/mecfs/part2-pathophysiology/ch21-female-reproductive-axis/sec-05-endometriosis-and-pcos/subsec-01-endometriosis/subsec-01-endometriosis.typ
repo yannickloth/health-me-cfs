@@ -5,8 +5,8 @@
 
 Endometriosis co-occurs with ME/CFS at a substantially elevated rate, and the association is supported by the strongest evidence in this chapter — a recent systematic review and meta-analysis.
 
-#achievement(title: [Endometriosis Is Associated with a ~2.8-Fold Higher Risk of ME/CFS])[
-A systematic review and meta-analysis (13 studies, sample sizes from 84 to 134,805) found endometriosis associated with an odds ratio of 2.79 (95% CI 2.00–3.89) for developing ME/CFS, with a pooled OR of 2.52 (95% CI 2.45–2.60) for the ME/CFS–endometriosis association @Compton2025endometriosis. ME/CFS prevalence in endometriosis patients was ~17%; endometriosis prevalence in ME/CFS patients was ~13%. The association showed minimal heterogeneity (I² = 0.0%); the prevalence estimates showed extreme heterogeneity (I² > 98%), meaning the *association* is robust but the *prevalence* is context-dependent.
+#achievement(title: [Endometriosis Is Associated with a approximately 2.8-Fold Higher Risk of ME/CFS])[
+A systematic review and meta-analysis (13 studies, sample sizes from 84 to 134,805) found endometriosis associated with an odds ratio of 2.79 (95% CI 2.00–3.89) for developing ME/CFS, with a pooled OR of 2.52 (95% CI 2.45–2.60) for the ME/CFS–endometriosis association @Compton2025endometriosis. ME/CFS prevalence in endometriosis patients was approximately 17%; endometriosis prevalence in ME/CFS patients was approximately 13%. The association showed minimal heterogeneity (I² = 0.0%); the prevalence estimates showed extreme heterogeneity (I² > 98%), meaning the *association* is robust but the *prevalence* is context-dependent.
 
 This is consistent with the earlier population-based finding that ME/CFS cases reported endometriosis at 36% versus 17% in controls @boneva2011gynecological. A twofold-to-nearly-threefold association of this magnitude, from a meta-analysis with a large combined sample, is not plausibly explained by referral bias alone.
 

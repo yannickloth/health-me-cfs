@@ -9,7 +9,7 @@
 (4) Quinolinic acid and kynurenic acid (why: neurotoxic vs. neuroprotective branches of the kynurenine pathway).
 
 *Worked example.*
-Healthy: $v_(upright("IDO")) = v_(upright("IDO,basal")) = 0.5$ $mu$M/h, $v_(upright("TPH")) = 1.0$ $mu$M/h. With dietary tryptophan input $I_W = 2.0$ $mu$M/h: steady-state $W approx 60$ $mu$M, serotonin production = $1.0 times 60/(K_(upright("TPH")) + 60) approx 0.86$ $mu$M/h. In ME/CFS with $[upright("IFN-") gamma] = 20$ pg/mL (vs. 5 healthy): $v_(upright("IDO")) = 0.5 + 2.0 times 20^2/(15^2 + 20^2) = 0.5 + 1.28 = 1.78$ $mu$M/h. Now IDO outcompetes TPH: tryptophan drops to ~35 $mu$M, serotonin production falls to 0.54 $mu$M/h (37% reduction), and kynurenine production increases to 1.1 $mu$M/h (doubled). This quantifies the "serotonin steal" mechanism.
+Healthy: $v_(upright("IDO")) = v_(upright("IDO,basal")) = 0.5$ $mu$M/h, $v_(upright("TPH")) = 1.0$ $mu$M/h. With dietary tryptophan input $I_W = 2.0$ $mu$M/h: steady-state $W approx 60$ $mu$M, serotonin production = $1.0 times 60/(K_(upright("TPH")) + 60) approx 0.86$ $mu$M/h. In ME/CFS with $[upright("IFN-") gamma] = 20$ pg/mL (vs. 5 healthy): $v_(upright("IDO")) = 0.5 + 2.0 times 20^2/(15^2 + 20^2) = 0.5 + 1.28 = 1.78$ $mu$M/h. Now IDO outcompetes TPH: tryptophan drops to approximately 35 $mu$M, serotonin production falls to 0.54 $mu$M/h (37% reduction), and kynurenine production increases to 1.1 $mu$M/h (doubled). This quantifies the "serotonin steal" mechanism.
 
 *Inter-model dependencies.*
 _Inputs_: IFN-$gamma$ from immune model drives IDO. _Outputs_: serotonin level affects mood, sleep (via sleep model), and pain modulation; kynurenine metabolites contribute to neurotoxicity and microglial activation.

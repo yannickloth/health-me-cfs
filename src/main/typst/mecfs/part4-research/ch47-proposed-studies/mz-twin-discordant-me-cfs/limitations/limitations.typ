@@ -3,13 +3,13 @@
 === Limitations
 
 #limitation(title: [Recruitment: Rare Population with Geographic Constraints])[
-Discordant MZ twins with ME/CFS are rare. The disease prevalence (~0.2--0.4%) multiplied by the MZ twin birth rate (~0.3% of births) yields approximately 0.6--1.2 affected MZ twins per 100,000 individuals. Of these, only the subset whose co-twin remains healthy AND who can travel to the imaging site is eligible. The yield from all available registries and outreach is uncertain — the study may recruit fewer than 30 pairs. At n=15, power is ~54% for δ = 0.53 SD, and only large effects (δ > 1.0) would be detectable. The study's feasibility depends on comprehensive, multi-national recruitment with the willingness to fund travel.
+Discordant MZ twins with ME/CFS are rare. The disease prevalence (approximately 0.2--0.4%) multiplied by the MZ twin birth rate (approximately 0.3% of births) yields approximately 0.6--1.2 affected MZ twins per 100,000 individuals. Of these, only the subset whose co-twin remains healthy AND who can travel to the imaging site is eligible. The yield from all available registries and outreach is uncertain — the study may recruit fewer than 30 pairs. At n=15, power is approximately 54% for δ = 0.53 SD, and only large effects (δ > 1.0) would be detectable. The study's feasibility depends on comprehensive, multi-national recruitment with the willingness to fund travel.
 
 *Mitigation:* If recruitment lags behind schedule at month 18 (fewer than 15 pairs enrolled), the study pivots from a powered primary analysis to a descriptive/pilot design with effect size estimation and Bayesian analysis (reporting posterior distributions rather than hypothesis tests). The data would still be uniquely informative — even n=10 pairs with imaging is the largest MZ twin imaging study in ME/CFS by an order of magnitude.
 ]
 
 #limitation(title: [Selection Bias Toward Less Severe Patients])[
-The requirement to travel to an imaging site and undergo two days of testing selects for mild-to-moderate ME/CFS patients who can tolerate travel, sustained upright posture, and cognitive testing. Severe and very severe patients (~25% of the ME/CFS population) are systematically excluded. This matters because the striatal pathology might be more pronounced in severe patients — the observed effect size could underestimate the true population effect. If the null hypothesis is not rejected, it could be because VMAT2 reduction exists only in the severe subgroup that was not sampled.
+The requirement to travel to an imaging site and undergo two days of testing selects for mild-to-moderate ME/CFS patients who can tolerate travel, sustained upright posture, and cognitive testing. Severe and very severe patients (approximately 25% of the ME/CFS population) are systematically excluded. This matters because the striatal pathology might be more pronounced in severe patients — the observed effect size could underestimate the true population effect. If the null hypothesis is not rejected, it could be because VMAT2 reduction exists only in the severe subgroup that was not sampled.
 
 *Mitigation:* Include home-visit options for clinical phenotyping in patients who cannot travel. Consider a mobile imaging unit (MRI truck with PET capability) in a future extension. Acknowledge that generalisability to severe/very severe patients is unknown.
 ]
@@ -45,7 +45,7 @@ Many ME/CFS patients take medications that affect dopaminergic signalling: SSRIs
 ]
 
 #limitation(title: [Radiation Exposure Cumulation])[
-VMAT2 PET + DAT SPECT + (optional) TSPO PET exposes each participant to ~15--25 mSv total effective dose, depending on tracers and administered activities. Within research ethics guidelines for studies with direct participant benefit potential; precludes repeated imaging (longitudinal design requires separate ethics justification) and may deter participation.
+VMAT2 PET + DAT SPECT + (optional) TSPO PET exposes each participant to approximately 15--25 mSv total effective dose, depending on tracers and administered activities. Within research ethics guidelines for studies with direct participant benefit potential; precludes repeated imaging (longitudinal design requires separate ethics justification) and may deter participation.
 
 *Mitigation:* Explicit informed consent with personalised radiation risk counselling. Participant information materials include plain-language radiation dose comparison (e.g., equivalent to 5--8 years of background radiation). The single-site design avoids cumulative exposure from repeated visits.
 ] <sec:mz-twin-limitations>

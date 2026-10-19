@@ -21,7 +21,7 @@ Red flags that warrant a working diagnosis rather than reassurance:
 These align with the chapter's existing occult-malignancy warning (Chapter
 @ch:diagnostic-criteria, Section @sec:differential). What the evidence does *not* support
 is blanket malignancy screening in every patient with fatigue: in primary care, malignancy
-is present in only ~0.6% of tiredness presentations and investigation is warranted on
+is present in only approximately 0.6% of tiredness presentations and investigation is warranted on
 specific findings, not routinely @Stadje2016 @Levine1992.
 
 *Certainty:* 0.48 (Kobayashi2022 — documented missed organic disease; raw 0.60 × weight

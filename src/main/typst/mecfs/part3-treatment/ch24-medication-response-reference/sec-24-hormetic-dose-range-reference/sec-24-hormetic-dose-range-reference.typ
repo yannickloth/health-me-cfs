@@ -71,7 +71,7 @@ NAC has two concurrent dose-response phenomena: the thiol-radical burst at low d
 
 | Dose range | Interpretation if benefit | Interpretation if lost or no benefit | Side effects |
 |------------|--------------------------|--------------------------------------|--------------|
-| 600 mg (single dose) | Glutathione synthesis rate exceeds thiol burst. Nrf2 activation via redox-sensitive Keap1 is functional | Paradoxical worsening (thiol burst exhausts glutathione before net synthesis) — expected in ~20--30% of patients. This is transient biochemistry, not drug failure | Paradoxical worsening: flu-like, oxidative symptoms. Mitigation: start at 300 mg × 2/day; or bypass with liposomal glutathione |
+| 600 mg (single dose) | Glutathione synthesis rate exceeds thiol burst. Nrf2 activation via redox-sensitive Keap1 is functional | Paradoxical worsening (thiol burst exhausts glutathione before net synthesis) — expected in approximately 20--30% of patients. This is transient biochemistry, not drug failure | Paradoxical worsening: flu-like, oxidative symptoms. Mitigation: start at 300 mg × 2/day; or bypass with liposomal glutathione |
 | 1,200 mg | Net glutathione synthesis established. Nrf2 activation functional. Predicts response to other Nrf2 activators | No benefit → glutathione synthesis rate-limited OR Nrf2 already maximally activated | GI side effects (nausea, bloating) → split dose: 600 mg × 2 |
 | 1,800--2,400 mg | Any benefit already achieved at 1,200 mg | Plateau — no additional Nrf2 benefit | Dose-limiting GI toxicity |
 
@@ -93,7 +93,7 @@ The inverted-U is a receptor-occupancy property — not biological adaptation. T
 
 ==== LDA (Low-Dose Aripiprazole, 0.2--2 mg)
 
-*Mechanism:* D2/D3 partial agonist (~25% intrinsic activity), 5-HT1A partial agonist. Therapeutic targets: microglial D2 (<=1 mg → cytokine suppression), mesocorticolimbic D2 (<=2 mg → cognition/motivation), 5-HT1A autoreceptor (<=2 mg → serotonergic stabilization). All extinguished above 2 mg.
+*Mechanism:* D2/D3 partial agonist (approximately 25% intrinsic activity), 5-HT1A partial agonist. Therapeutic targets: microglial D2 (<=1 mg → cytokine suppression), mesocorticolimbic D2 (<=2 mg → cognition/motivation), 5-HT1A autoreceptor (<=2 mg → serotonergic stabilization). All extinguished above 2 mg.
 
 | Dose range | Interpretation if benefit | Interpretation if lost or no benefit | Side effects |
 |------------|--------------------------|--------------------------------------|--------------|
@@ -217,7 +217,7 @@ These drugs' non-monotonic patterns arise from mechanisms specific to each drug.
 
 | Dose range | Interpretation if benefit | Interpretation if lost or no benefit | Side effects |
 |------------|--------------------------|--------------------------------------|--------------|
-| Cetirizine 5 mg / Loratadine 10 mg / Fexofenadine 180 mg | MCAS or histamine-mediated component confirmed. Peripheral-only H1 target | No benefit → histamine component absent or requires mast-cell stabilization (ketotifen, cromolyn) beyond H1 blockade alone | Minimal. Cetirizine: mild sedation in ~10% |
+| Cetirizine 5 mg / Loratadine 10 mg / Fexofenadine 180 mg | MCAS or histamine-mediated component confirmed. Peripheral-only H1 target | No benefit → histamine component absent or requires mast-cell stabilization (ketotifen, cromolyn) beyond H1 blockade alone | Minimal. Cetirizine: mild sedation in approximately 10% |
 | Cetirizine 10--20 mg / Loratadine 20 mg | Additional peripheral H1 benefit. If cetirizine only: CNS sedation may be contributing to perceived relief — not a peripheral H1 effect | Sedation → CNS penetration crossing clinical threshold. Peripheral benefit persists but cognitive cost introduced | Sedation from CNS H1 blockade. Switch to fexofenadine to isolate peripheral from central effects |
 
 *Diagnostic use:* Fexofenadine (peripheral-only) vs. cetirizine (partial central). Fexofenadine controls symptoms → peripheral H1 target. Only cetirizine works → central H1/sedation is contributing; the perceived benefit may not be through peripheral H1.
@@ -228,7 +228,7 @@ These drugs' non-monotonic patterns arise from mechanisms specific to each drug.
 
 | Dose range | Interpretation if benefit | Interpretation if lost or no benefit | Side effects |
 |------------|--------------------------|--------------------------------------|--------------|
-| Very low (~1--5 nM equivalent) | Benefit (calming, anxiolysis) → NOT in the paradoxical anxiogenic subset. Low-concentration GABA-A PAM is anxiolytic for you | Anxiety, agitation → paradoxical anxiogenic effect documented in PMDD. Skip to higher dose or avoid allopregnanolone | Anxiety (paradoxical) — skip this dose range |
+| Very low (approximately 1--5 nM equivalent) | Benefit (calming, anxiolysis) → NOT in the paradoxical anxiogenic subset. Low-concentration GABA-A PAM is anxiolytic for you | Anxiety, agitation → paradoxical anxiogenic effect documented in PMDD. Skip to higher dose or avoid allopregnanolone | Anxiety (paradoxical) — skip this dose range |
 | Moderate (>10 nM equivalent) | Allopregnanolone-responsive GABA-A dysfunction. Benefit → GABAergic system deficient in neurosteroid tone. Predicts possible benefit from other neurosteroids | No benefit → GABA-A neurosteroid site not rate-limiting. OR paradoxical low-dose mechanism overshadowing | Sedation, dizziness |
 
 *Cross-drug predictions:* Highly individual — depends on GABA-A subunit composition (α, β, γ, δ expression), which varies with hormonal state, stress history, and possibly ME/CFS. No valid cross-drug predictions to other clusters.

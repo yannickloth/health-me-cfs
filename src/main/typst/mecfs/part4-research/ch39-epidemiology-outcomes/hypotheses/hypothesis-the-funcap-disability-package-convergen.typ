@@ -24,7 +24,7 @@ Each component is validated individually: FUNCAP @Sommerfelt2024FUNCAP, 2-day CP
 
 *Practical Implementation.*
 The package can be administered over 2-3 weeks:
-- Week 1: FUNCAP-55 and COMPASS-31 (single session, ~45 minutes)
+- Week 1: FUNCAP-55 and COMPASS-31 (single session, approximately 45 minutes)
 - Week 2: 2-day CPET (requires two visits to testing center)
 - Weeks 2-3: Actigraphy (wearable device, 7-day wear period)
 

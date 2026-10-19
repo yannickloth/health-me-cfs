@@ -7,7 +7,7 @@
 
 *Concrete mechanisms and ME/CFS evidence:*
 
-- *ROS overproduction.* Elevated ROS in PBMCs and RBCs; RBC ROS ~30% higher than healthy controls; correlates with symptom severity and membrane stiffness @marshall2018rbc.
+- *ROS overproduction.* Elevated ROS in PBMCs and RBCs; RBC ROS approximately 30% higher than healthy controls; correlates with symptom severity and membrane stiffness @marshall2018rbc.
 
 - *Glutathione depletion and compensatory upregulation.* Paradoxically elevated total glutathione levels alongside glutathione peroxidase 4 (GPx4)-mediated lipid oxidative damage in memory lymphocytes, suggesting compensatory upregulation under chronic oxidative load that nonetheless fails to contain damage @Shankar2025oxidativestress.
 

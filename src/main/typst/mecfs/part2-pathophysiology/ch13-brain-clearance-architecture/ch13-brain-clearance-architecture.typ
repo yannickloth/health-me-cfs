@@ -19,7 +19,7 @@ The glymphatic system, meningeal lymphatics, and brain clearance in ME/CFS — c
 
 == The Brain's Waste Clearance System
 
-The brain is metabolically expensive — consuming ~20% of the body's oxygen while representing ~2% of body mass — and generates substantial metabolic waste: amyloid-β, tau, lactate, and other byproducts of neural activity. Unlike peripheral tissues, the brain lacks a conventional lymphatic system for waste drainage. Instead, it relies on two interconnected clearance pathways: the glymphatic system and the meningeal lymphatic vessels.
+The brain is metabolically expensive — consuming approximately 20% of the body's oxygen while representing approximately 2% of body mass — and generates substantial metabolic waste: amyloid-β, tau, lactate, and other byproducts of neural activity. Unlike peripheral tissues, the brain lacks a conventional lymphatic system for waste drainage. Instead, it relies on two interconnected clearance pathways: the glymphatic system and the meningeal lymphatic vessels.
 
 === The Glymphatic System
 

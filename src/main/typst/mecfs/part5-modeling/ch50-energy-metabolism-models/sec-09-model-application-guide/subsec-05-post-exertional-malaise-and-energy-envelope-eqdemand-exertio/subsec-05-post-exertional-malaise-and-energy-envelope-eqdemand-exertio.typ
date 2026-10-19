@@ -4,7 +4,7 @@
 
 *Measurements required.* (1) Two-day CPET: peak VO₂, anaerobic threshold, day-2 decrement (why: directly constrains $J_(upright("production,max"))$ and the ROS-mediated damage magnitude). (2) Resting metabolic rate by indirect calorimetry (why: constrains $E_(upright("basal"))$). (3) Daily activity data from wearable accelerometry/HR monitor (why: estimates $J_(upright("demand"))(t)$ for energy envelope calculation). (4) CRP, cytokine panel (why: estimates $E_(upright("repair"))$ through the immune energy demand). (5) Patient-reported PEM onset timing and severity after standardized exertion (why: constrains $tau_(upright("PEM"))$ and the damage threshold).
 
-*Worked example.* A patient with peak VO₂ = 18 mL/kg/min (healthy age-matched: 35) has $J_(upright("production,max")) approx 51%$ of normal. Resting metabolic rate = 1500 kcal/day ($E_(upright("basal"))$). With elevated CRP suggesting $E_(upright("repair")) approx 200$ kcal/day (vs. ~50 healthy). Available energy budget:
+*Worked example.* A patient with peak VO₂ = 18 mL/kg/min (healthy age-matched: 35) has $J_(upright("production,max")) approx 51%$ of normal. Resting metabolic rate = 1500 kcal/day ($E_(upright("basal"))$). With elevated CRP suggesting $E_(upright("repair")) approx 200$ kcal/day (vs. approximately 50 healthy). Available energy budget:
 
 $
 E_(upright("budget")) = (0.51 times 2400) - 1500 - 200 = 1224 - 1500 - 200 = -476 upright(" kcal/day")

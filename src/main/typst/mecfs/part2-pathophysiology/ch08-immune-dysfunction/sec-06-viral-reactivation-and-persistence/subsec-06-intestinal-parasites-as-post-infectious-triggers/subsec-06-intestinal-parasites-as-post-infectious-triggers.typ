@@ -79,7 +79,7 @@ Intestinal parasite infection, including _Giardia_, is hypothesized to upregulat
 ] <spec:parasite-ido1-kynurenine>
 
 #open-question(title: [Secretory IgA Deficiency as ME/CFS Conversion Risk Factor])[
-Selective or partial secretory IgA (sIgA) deficiency predisposes to protracted and recurrent _Giardia_ infection. If sub-clinical mucosal IgA insufficiency — not reaching the threshold for clinical diagnosis of selective IgA deficiency, but functionally reduced at intestinal mucosal surfaces — is more prevalent in individuals who converted to ME/CFS after Bergen Giardia exposure, this would: (1) identify a measurable immunogenetic risk factor for parasite-triggered ME/CFS, (2) explain the ~5% conversion rate, and (3) identify a potential prevention target. Serum IgA and secretory IgA measurement in the Bergen cohort ME/CFS subgroup vs non-converters would directly test this at low cost.
+Selective or partial secretory IgA (sIgA) deficiency predisposes to protracted and recurrent _Giardia_ infection. If sub-clinical mucosal IgA insufficiency — not reaching the threshold for clinical diagnosis of selective IgA deficiency, but functionally reduced at intestinal mucosal surfaces — is more prevalent in individuals who converted to ME/CFS after Bergen Giardia exposure, this would: (1) identify a measurable immunogenetic risk factor for parasite-triggered ME/CFS, (2) explain the approximately 5% conversion rate, and (3) identify a potential prevention target. Serum IgA and secretory IgA measurement in the Bergen cohort ME/CFS subgroup vs non-converters would directly test this at low cost.
 ] <oq:siga-parasite-mecfs>
 
 #speculation(title: [Mucosal Checkpoint Failure: GALT NK Depletion Permits Autoreactive Escape])[

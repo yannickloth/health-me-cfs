@@ -6,7 +6,7 @@ The pharmacodiagnostic matrix is a formal constraint-satisfaction structure: eac
 
 === Matrix Structure
 
-*Rows:* Every medication for which the paper provides pharmacodiagnostic reasoning (~192 entries). Each row encodes the medication's expected response under every hypothesis in the paper.
+*Rows:* Every medication for which the paper provides pharmacodiagnostic reasoning (approximately 192 entries). Each row encodes the medication's expected response under every hypothesis in the paper.
 
 *Columns:* Every mechanistic hypothesis with at least one pharmacologically probe-able node. Grouped by hypothesis class: ion channel (TRPM3, TRPM7, TRPV1, PIP2 convergence), mitochondrial (PDH inhibition, NAD+ depletion, IDO metabolic trap, WASF3), autoimmune (GPCR-AAb, B-cell, T-cell, complement), neuroinflammatory (microglial priming, brainstem neuroinflammation, glymphatic failure), connective tissue (hEDS/HSD, CCI/AAI), autonomic (POTS subtypes, baroreflex failure), Gerlier (4 pathways).
 
@@ -43,7 +43,7 @@ The matrix resolves down to a small set of surviving hypotheses — the intersec
 | Gerlier Pathway 2 (sympathetic) | Positive | Yes — D2 agonism compensates for dopamine depletion from DBH overactivity |
 | Glymphatic failure | Null | No — no direct glymphatic mechanism |
 
-Chapter @ch:mechanistic-cascade-tracing sec-10 provides the full drug × hypothesis cross-reference for all ~192 entries.
+Chapter @ch:mechanistic-cascade-tracing sec-10 provides the full drug × hypothesis cross-reference for all approximately 192 entries.
 
 === Spectral Resolution Limits
 

@@ -42,7 +42,7 @@
 // after #set text(...) is in effect.
 #let apply-heading-styles(body) = {
   // Generous spacing for readability.  Chapters get a large top drop
-  // (like a LaTeX \chapter with its ~50pt top skip) and ample room below.
+  // (like a LaTeX \chapter with its approximately 50pt top skip) and ample room below.
 
   // Level 1 (chapters): pagebreak + big top drop + generous gap below
   show heading.where(level: 1): it => {

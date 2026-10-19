@@ -39,14 +39,14 @@ Approximately 36% of cases develop gradually without clear infectious trigger @J
 *Early vs.\ Late Onset Subgroups.*
 Beyond the binary post-infectious vs.\ gradual distinction, recent evidence reveals a bimodal age-at-onset distribution with two distinct peaks (Section @sec:bimodal-onset-age). These two onset-age subgroups differ in clinically meaningful ways @McGrath2026bimodalOnset:
 
-    - *Early onset* (~age 16): Higher rates of infectious triggers (especially infectious mononucleosis), greater severity (OR 2.15 for severe/very severe), and more familial clustering (OR 1.43). The prominence of IM in this peak is consistent with prospective evidence that ~13% of adolescents develop CFS after acute IM @Katz2009IMadolescentCFS
+    - *Early onset* (~age 16): Higher rates of infectious triggers (especially infectious mononucleosis), greater severity (OR 2.15 for severe/very severe), and more familial clustering (OR 1.43). The prominence of IM in this peak is consistent with prospective evidence that approximately 13% of adolescents develop CFS after acute IM @Katz2009IMadolescentCFS
     - *Late onset* (~age 37): Lower severity on average, less infectious trigger predominance, less familial aggregation
 
 The vitiligo precedent demonstrates that bimodal onset can reveal fundamentally different genetic architectures: early-onset vitiligo harbours an MHC class II haplotype with OR > 8 that is absent from late-onset disease @Jin2019vitiligoBimodal. Whether early- and late-onset ME/CFS similarly reflect distinct biological subtypes remains an open question, but the clinical differences in severity, trigger profile, and familial aggregation are consistent with this possibility.
 
 #include "open-questions/oq-do-early-and-late-onset-me-cfs-have-distinct-genetic-architectures.typ"
 
-The constant ~80% female predominance across both onset-age peaks @McGrath2026bimodalOnset, despite divergent pubertal vs.\ perimenopausal hormonal environments, raises the question of whether sex hormone fluctuations are the primary driver of female susceptibility. An alternative explanation---X chromosome immune-gene dosage effects---is examined in Section @sec:bimodal-cross-disease.
+The constant approximately 80% female predominance across both onset-age peaks @McGrath2026bimodalOnset, despite divergent pubertal vs.\ perimenopausal hormonal environments, raises the question of whether sex hormone fluctuations are the primary driver of female susceptibility. An alternative explanation---X chromosome immune-gene dosage effects---is examined in Section @sec:bimodal-cross-disease.
 
 *Clinical Implications of Onset Type.*
 While onset type may have research significance for identifying biological subgroups, its clinical utility remains unclear:
@@ -662,7 +662,7 @@ Initiate MCAS-targeted therapy first when MCAS is confirmed or clinically suspec
 Apply the operationalized criterion in Section @sec:septad-confirmation-criterion. Multi-domain downstream improvement confirms cascade; MCAS-only improvement indicates independent comorbidity requiring independent treatment.
 
 *Step 5 — MCAS-triggered ME/CFS pathway (minority subset):*
-If MCAS onset demonstrably preceded ME/CFS onset AND PEM triggers overlap MCAS triggers: suspect MCAS-triggered ME/CFS phenotype (@spec:mcas-mecfs-phenotype). Monitor for $gt.eq$50% core symptom improvement with MCAS treatment. Acknowledge the Rohrhofer 2025 temporal data: this pathway applies to at most ~3% of ME/CFS patients based on available evidence.
+If MCAS onset demonstrably preceded ME/CFS onset AND PEM triggers overlap MCAS triggers: suspect MCAS-triggered ME/CFS phenotype (@spec:mcas-mecfs-phenotype). Monitor for $gt.eq$50% core symptom improvement with MCAS treatment. Acknowledge the Rohrhofer 2025 temporal data: this pathway applies to at most approximately 3% of ME/CFS patients based on available evidence.
 
 #include "observations/obs-quick-reference-strengthened-septad-assessment-checklist.typ"
 

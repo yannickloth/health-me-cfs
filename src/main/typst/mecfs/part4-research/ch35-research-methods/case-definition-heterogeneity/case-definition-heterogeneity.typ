@@ -43,14 +43,14 @@ The DecodeME GWAS (n $>$ 15,000) @DecodeME2025Criteria is the first large-scale 
 
 === Recommendations for Readers
 
-When evaluating published ME/CFS research, the single most important metadata field is the diagnostic criteria used. A study reporting "elevated cytokine X in ME/CFS" requires checking whether the cohort was Fukuda-defined (likely ~25% idiopathic chronic fatigue), Oxford-defined (likely depression/deconditioning), or CCC/ICC-defined (more likely genuine ME/CFS). The evidentiary weight of a finding scales with criteria specificity.
+When evaluating published ME/CFS research, the single most important metadata field is the diagnostic criteria used. A study reporting "elevated cytokine X in ME/CFS" requires checking whether the cohort was Fukuda-defined (likely approximately 25% idiopathic chronic fatigue), Oxford-defined (likely depression/deconditioning), or CCC/ICC-defined (more likely genuine ME/CFS). The evidentiary weight of a finding scales with criteria specificity.
 
 *Consequence:* The "replication crisis" in ME/CFS is largely a criteria problem — not a failure of science but a predictable consequence of studying different diseases under the same name. Standardizing on PEM-required criteria would resolve more replication failures than any improvement in study design alone.
 
 === A Formal Test of the Central Claim: Criteria-Dose-Response Meta-Analysis
 
 #proposal(title: [Quantifying the criteria-to-biology gradient across the entire literature])[
-The chapter's core qualitative argument — that diagnostic criteria stringency determines which biology is studied — has never been quantified across the full ME/CFS literature. This can be tested: (a) score every set of diagnostic criteria by stringency (PEM required, orthostatic intolerance required, cognitive impairment required, minimum symptom count, functional impairment threshold), producing a "criteria stringency index" (CSI) from ~1 (Oxford) to ~8 (ICC), (b) meta-analyze every published finding separately by criteria group, computing the effect size for each CSI tier, (c) regress effect size against CSI.
+The chapter's core qualitative argument — that diagnostic criteria stringency determines which biology is studied — has never been quantified across the full ME/CFS literature. This can be tested: (a) score every set of diagnostic criteria by stringency (PEM required, orthostatic intolerance required, cognitive impairment required, minimum symptom count, functional impairment threshold), producing a "criteria stringency index" (CSI) from approximately 1 (Oxford) to approximately 8 (ICC), (b) meta-analyze every published finding separately by criteria group, computing the effect size for each CSI tier, (c) regress effect size against CSI.
 
 For disease-specific biomarkers (NK cell function, lactate, Day-2 CPET decline), the slope should be positive — stricter criteria → larger, more specific effect sizes. For non-specific markers (fatigue, depression, deconditioning), the slope should be zero or negative. A significant CSI×outcome interaction would confirm that criteria stringency predicts what you find, converting the chapter's qualitative narrative into a single quantifiable meta-regression parameter.
 

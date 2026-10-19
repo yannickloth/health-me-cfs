@@ -4,7 +4,7 @@
 
 *Cascade:*
 - Fixed skeletal asymmetry (rotoscoliosis, pelvic obliquity >10 mm, DAMI/ILMI)
-- Chronic compensatory postural muscle overuse → elevated basal energy consumption (~5--10%)
+- Chronic compensatory postural muscle overuse → elevated basal energy consumption (approximately 5--10%)
 - Continuous low-grade ATP drain → breached critical ATP threshold (@sec:sodium-calcium-cascade)
 - Anaerobic shift, intracellular Na⁺ overload, NCX1 reverse, mitochondrial Ca²⁺ overload
 - PEM from trivial activity

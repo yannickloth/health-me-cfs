@@ -11,7 +11,7 @@ Herpesvirus antibodies are commonly cited as evidence of viral reactivation in M
 After an acute infection, short-lived plasma cells in secondary lymphoid organs produce the initial antibody burst. A fraction of activated B cells differentiate into long-lived plasma cells that migrate to survival niches in the bone marrow, where they constitutively secrete antibody for the lifetime of the host — without requiring re-exposure to antigen, without dividing, and independently of memory B cell replenishment @Amanna2007Duration @Hammarlund2017PlasmaCell @Robinson2022LLPC.
 
 The Amanna–Slifka longitudinal cohort (n=45, followed up to 26 years) established the quantitative foundation @Amanna2007Duration:
-    - Antiviral antibody half-lives: VZV ~50 years; EBV, measles, mumps >200 years
+    - Antiviral antibody half-lives: VZV approximately 50 years; EBV, measles, mumps >200 years
     - By contrast, vaccine-induced antibodies to non-replicating antigens (tetanus: 11 years; diphtheria: 19 years) wane much faster
     - Memory B cell numbers did NOT correlate with serum antibody titres for 5/8 antigens tested — demonstrating that antibody levels and B cell memory are independently regulated
 

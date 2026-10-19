@@ -12,4 +12,6 @@ Among IgG subclasses, only IgG1 drives degranulation in the FcγRI-dependent sys
 *Limitations:* No direct evidence of GPCR autoantibody binding to mast cells from ME/CFS patients. The direction of β2-AR autoantibody effect (agonistic vs antagonistic) on mast cells is unknown. The loop model is a hypothesis requiring direct cellular testing.
 
 *Falsifiable prediction:* Plasma tryptase will correlate with β2-AR AAb titer (r \> 0.4, p \< 0.01) in ME/CFS patients (n ≥ 30). Falsified if r ≤ 0.2 or no significant correlation.
+
+*Consequence:* If confirmed, one autoantibody measurement would mark both a driver and a possible treatment point, and mast-cell-directed and immunomodulatory treatments would act at different links of the same loop; while unmeasured, the loop explains overlapping treatment effects only as a hypothesis and cannot direct their use.
 ] <spec:gpcr-mast-cell-loop>

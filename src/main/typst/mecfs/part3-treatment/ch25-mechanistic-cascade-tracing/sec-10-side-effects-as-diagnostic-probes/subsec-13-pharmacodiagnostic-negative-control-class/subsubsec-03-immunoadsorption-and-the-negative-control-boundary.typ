@@ -28,7 +28,7 @@ Four explanations, only one of which (a) is the negative-control inference. This
 #speculation(title: [General Principle — Compartment Specificity Determines Negative-Control Strength])[
 The general principle emerging from these two cases is:
 
-The negative-control strength of a drug is proportional to how narrowly its mechanism targets the hypothesized node AND how completely it covers the hypothesized compartment. Rituximab is strong because CD20 covers essentially all B cells (the source compartment is well-defined and the drug covers it). IA is weaker because protein A columns cover only ~70% of IgG subclasses and only the circulating compartment — multiple subcompartments escape coverage.
+The negative-control strength of a drug is proportional to how narrowly its mechanism targets the hypothesized node AND how completely it covers the hypothesized compartment. Rituximab is strong because CD20 covers essentially all B cells (the source compartment is well-defined and the drug covers it). IA is weaker because protein A columns cover only approximately 70% of IgG subclasses and only the circulating compartment — multiple subcompartments escape coverage.
 
 A hypothetical drug that depletes ALL antibody-producing cells regardless of lineage or differentiation state (CD19+CD20+CD38+CD138+) would be the strongest negative-control for the AAb hypothesis — if it failed, autoantibodies of any class from any source would be excluded as rate-limiting. Such a drug does not exist. The clinical implication: negative-control strength maps onto the pharmacological coverage gap.
 

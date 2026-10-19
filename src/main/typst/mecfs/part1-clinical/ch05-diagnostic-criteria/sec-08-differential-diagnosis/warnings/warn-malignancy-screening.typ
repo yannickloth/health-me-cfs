@@ -8,7 +8,7 @@ Cancer-related fatigue can mimic ME/CFS, particularly in early stages without ob
     - *Laboratory clues*: Anemia, elevated ESR, abnormal WBC count
 
 The evidence supports *targeted* red-flag investigation rather than blanket screening in
-every patient with fatigue: in primary care, malignancy is found in only ~0.6% of tiredness
+every patient with fatigue: in primary care, malignancy is found in only approximately 0.6% of tiredness
 presentations, so investigation is warranted on specific findings, not routinely @Stadje2016.
 But the reverse danger is real — serious organic disease (including malignancy) can be missed
 when chronic multi-system symptoms are attributed to a syndromic diagnosis such as ME/CFS

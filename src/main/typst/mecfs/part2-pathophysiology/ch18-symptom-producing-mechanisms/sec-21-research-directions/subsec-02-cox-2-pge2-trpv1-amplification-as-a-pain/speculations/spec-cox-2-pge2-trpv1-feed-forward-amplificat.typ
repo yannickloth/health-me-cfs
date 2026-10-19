@@ -4,8 +4,8 @@
 *Certainty: 0.50.* The COX-2/PGE2/TRPV1 amplification loop is a self-sustaining pain-producing mechanism distinct from the capacity-limiting mechanisms described in Chapters 6-13. While mitochondrial dysfunction and cerebral hypoperfusion limit what a patient *can do*, the TRPV1/PGE2 loop generates the *symptom* of pain disproportionately to the initiating stimulus.
 
 *How the loop produces pain symptoms:*
-1. *Threshold lowering.* PGE2 binds EP1 receptors on TRPV1-expressing nociceptors, reducing the thermal activation threshold from ~43°C (normal) to as low as 35°C (body temperature) @Moriyama2005. This means normal body warmth, mild exercise-induced temperature rise, or slight metabolic heat from minimal exertion becomes sufficient to activate pain fibers.
-2. *Feed-forward maintenance.* TRPV1 activation triggers COX-2 upregulation in the same neurons (~30 min), generating more PGE2 and further lowering the threshold. The loop converts a transient trigger into sustained sensitization without ongoing peripheral injury.
+1. *Threshold lowering.* PGE2 binds EP1 receptors on TRPV1-expressing nociceptors, reducing the thermal activation threshold from approximately 43°C (normal) to as low as 35°C (body temperature) @Moriyama2005. This means normal body warmth, mild exercise-induced temperature rise, or slight metabolic heat from minimal exertion becomes sufficient to activate pain fibers.
+2. *Feed-forward maintenance.* TRPV1 activation triggers COX-2 upregulation in the same neurons (approximately 30 min), generating more PGE2 and further lowering the threshold. The loop converts a transient trigger into sustained sensitization without ongoing peripheral injury.
 3. *Symptom-to-symptom amplification.* Pain → sympathetic activation → vasoconstriction → tissue hypoxia → metabolic byproducts (lactate, ROS) → further TRPV1 activation. The loop links pain to autonomic and metabolic symptoms, creating the multiplicative symptom burden described in Section @sec:ch15-conceptual-framework.
 
 *Why this is a symptom-producing (not capacity-limiting) mechanism.*

@@ -1,7 +1,7 @@
 #import "../../../shared/environments.typ": *
 
 #speculation(title: [Oral Micronized Progesterone as Immunological and Neurosteroid Bridge Therapy in ME/CFS])[
-If the ~30% symptom improvement during pregnancy in ME/CFS @Schacterle2004pregnancy reflects progesterone-mediated immune modulation, oral micronized progesterone (100–200 mg/day; Prometrium or Utrogestan) may partially replicate this effect outside pregnancy via two pharmacologically validated pathways. (Certainty: 0.25 — complete evidence chain is indirect; no ME/CFS trial data exist; not replicated in this population.)
+If the approximately 30% symptom improvement during pregnancy in ME/CFS @Schacterle2004pregnancy reflects progesterone-mediated immune modulation, oral micronized progesterone (100–200 mg/day; Prometrium or Utrogestan) may partially replicate this effect outside pregnancy via two pharmacologically validated pathways. (Certainty: 0.25 — complete evidence chain is indirect; no ME/CFS trial data exist; not replicated in this population.)
 
 *Mechanism 1 — Progesterone-Induced Blocking Factor (PIBF).* Progesterone induces PIBF, which mediates a Th2 cytokine shift (elevated IL-4, IL-10) and inhibits NK cell degranulation @SzekeresBartho2019progestogens @Raghupathy2009PIBF. ME/CFS features elevated NK cytotoxicity and Th1-skewed immune responses; PIBF-driven reversal could reduce immune-driven symptom burden. Critical gap: PIBF induction was absent in non-pregnant controls in one in vitro study @Raghupathy2009PIBF — whether ME/CFS patients outside pregnancy produce sufficient PIBF in response to exogenous progesterone is unknown.
 

@@ -57,7 +57,7 @@ Brain fog in ME/CFS can arise from glymphatic failure (waste accumulation during
 
 ====== Interpretation 2 — Wrong dose for this individual
 
-Partial agonist net effect is dose-dependent. Within the 0.2–2 mg window, even 1–2 mg may produce net dopamine blockade in some patients (narrow receptor reserve), while others require the 1–2 mg postsynaptic end for cognitive benefit — so both microdose (≤1 mg) and postsynaptic (1–2 mg) ranges must be explored before declaring failure. Above ~2 mg, all D2-mechanism benefit is extinguished and D2 antagonism dominates, so no benefit should be expected from escalation beyond the window. Without a biomarker of receptor occupancy, dose optimization is empiric.
+Partial agonist net effect is dose-dependent. Within the 0.2–2 mg window, even 1–2 mg may produce net dopamine blockade in some patients (narrow receptor reserve), while others require the 1–2 mg postsynaptic end for cognitive benefit — so both microdose (≤1 mg) and postsynaptic (1–2 mg) ranges must be explored before declaring failure. Above approximately 2 mg, all D2-mechanism benefit is extinguished and D2 antagonism dominates, so no benefit should be expected from escalation beyond the window. Without a biomarker of receptor occupancy, dose optimization is empiric.
 
 ====== Interpretation 3 — Dopamine receptors may be downregulated
 
@@ -96,7 +96,7 @@ Step 1: LDA → dopamine deficient. Step 2: CoQ10/NADH → mitochondrial energy 
 ===== Limitations
 
 - *No controlled ME/CFS trials of LDA:* All evidence is case reports and community experience.
-- *Significant safety risks beyond those discussed above:* Akathisia (severe uncontrollable restlessness — catastrophic for patients needing profound rest), serotonin syndrome when combined with SSRIs/SNRIs/triptans, and variable exposure from CYP2D6 polymorphisms (~7% of Caucasians are poor metabolizers with 3–5× higher drug levels). See Warning @warn:lda-metabolic.
+- *Significant safety risks beyond those discussed above:* Akathisia (severe uncontrollable restlessness — catastrophic for patients needing profound rest), serotonin syndrome when combined with SSRIs/SNRIs/triptans, and variable exposure from CYP2D6 polymorphisms (approximately 7% of Caucasians are poor metabolizers with 3–5× higher drug levels). See Warning @warn:lda-metabolic.
 - *Metabolic risk creates a therapeutic paradox:* LDA probes dopamine while potentially worsening the metabolic dysfunction driving the illness. See Warning @warn:lda-metabolic.
 - *Multiple receptor targets limit specificity:* D2/D3 (only 25–30% intrinsic activity — net effect agonist or antagonist depending on regional dopamine tone), 5-HT1A, 5-HT2A, H1.
 - *No biomarker confirms target engagement:* Cannot measure receptor occupancy. CSF HVA might predict response but requires lumbar puncture.

@@ -13,7 +13,7 @@ An evolutionarily conserved metabolic suppression programme — initiated by inf
 
     [MDC002 (Mitodicure)], [Ion homeostasis restoration → AIMM reversal], [Medication], [A#super[\*]], [Phase I — safety only; no efficacy data; not prescribable],
     [NAD⁺ precursors (NR/NMN)], [Kynurenine bypass + PARP substrate replenishment], [Supplement], [A], [Clinical use; emerging Long COVID data],
-    [Rapamycin (sirolimus)], [mTORC1 inhibition → ATG13 dephosphorylation → autophagy/mitophagy restored; SASP suppression via IL-1α→NF-κB block @Laberge2015SASP (see also @sec:map-cross-tier)], [Medication], [B/C], [Pilot — Ruan 2025 n=86 uncontrolled @Ruan2025rapamycin; ~34% ITT response; RCT needed],
+    [Rapamycin (sirolimus)], [mTORC1 inhibition → ATG13 dephosphorylation → autophagy/mitophagy restored; SASP suppression via IL-1α→NF-κB block @Laberge2015SASP (see also @sec:map-cross-tier)], [Medication], [B/C], [Pilot — Ruan 2025 n=86 uncontrolled @Ruan2025rapamycin; approximately 34% ITT response; RCT needed],
     [Metformin], [AMPK activation → mTORC1 inhibition + mitochondrial biogenesis; AMPK rescue in ME/CFS myotubes @Brown2018AMPK], [Medication], [B], [Off-label; Long COVID RCT null for established fatigue (REVIVE-TOGETHER); prevention signal (COVID-OUT); Fineberg 2025 perspective @Fineberg2025Metformin],
     [Berberine], [AMPK activation (Complex I inhibition) → mTORC1 suppression], [Supplement], [B], [Experimental; _caution_ — AMPK role may be protective (same caveat applies to metformin given shared AMPK mechanism)],
     [Ketogenic diet], [Ketone bodies bypass glycolytic bottlenecks; NAD⁺-dependent OXPHOS ↑], [Dietary], [A], [Feasibility study; no outcome improvement shown],

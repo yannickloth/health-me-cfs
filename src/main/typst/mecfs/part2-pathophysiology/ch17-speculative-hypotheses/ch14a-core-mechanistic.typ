@@ -191,7 +191,7 @@ This hypothesis is motivated by the observation that the glymphatic hypothesis i
 *Testable predictions.*
 
     - CSF flow metrics (phase-contrast MRI, diffusion tensor imaging along perivascular spaces) will improve with combination therapy more than with either intervention alone
-    - Patients with intracranial hypertension signs (measured opening pressure > 25 cm H~2~O, papilledema, or MRI signs) will respond better than those without
+    - Patients with intracranial hypertension signs (measured opening pressure > 25 cm H₂O, papilledema, or MRI signs) will respond better than those without
     - Cognitive symptoms (brain fog, processing speed) will improve before fatigue symptoms, reflecting direct CSF clearance effects rather than systemic metabolic changes
     - The combination will show measurable benefit at lower CA inhibitor doses than required for classical IIH, consistent with Midtlien et al.'s finding of pressure hypersensitivity in CTD patients @Midtlien2024CVDphenotype
     - Addition of the Perrin Technique will allow dose reduction of CA inhibitors while maintaining clinical effect
@@ -241,7 +241,7 @@ If glymphatic clearance operates primarily during sleep (Xie et al. 2013 @Xie201
 
 This approach addresses a critical gap identified in Phase 1: no non-invasive, repeatable measure of glymphatic function exists. It is immediately implementable with existing ultrasound equipment, costs nothing after the initial probe, and can be performed serially to track treatment response to Perrin Technique, CA inhibitors, or sleep interventions.
 
-*Technical rationale.* CSF production occurs continuously at approximately 0.35 mL/min (21 mL/h). Overnight (9 hours at typical sleep duration), the choroid plexus produces ~189 mL. If glymphatic clearance during sleep is normal, this volume should be cleared, reducing intracranial pressure and CSF volume. ONSD reflects intracranial pressure dynamics continuously and responds rapidly to pressure changes (under 15 seconds for acute ICP elevation). Diurnal ONSD variation in healthy individuals is minimal (≤0.3 mm), but in IIH it shows larger fluctuations. In ME/CFS with glymphatic dysfunction, overnight clearance may be impaired, leading to either no decrease or paradoxical increase in ONSD (if CSF production continues without adequate drainage).
+*Technical rationale.* CSF production occurs continuously at approximately 0.35 mL/min (21 mL/h). Overnight (9 hours at typical sleep duration), the choroid plexus produces approximately 189 mL. If glymphatic clearance during sleep is normal, this volume should be cleared, reducing intracranial pressure and CSF volume. ONSD reflects intracranial pressure dynamics continuously and responds rapidly to pressure changes (under 15 seconds for acute ICP elevation). Diurnal ONSD variation in healthy individuals is minimal (≤0.3 mm), but in IIH it shows larger fluctuations. In ME/CFS with glymphatic dysfunction, overnight clearance may be impaired, leading to either no decrease or paradoxical increase in ONSD (if CSF production continues without adequate drainage).
 
 *Applications.*
 
@@ -271,14 +271,14 @@ ME/CFS could be conceptualized as "micro-NPH"—CSF dynamics impairment below th
 
 *Clinical implications.* The NPH literature provides well-characterized outcome measures (gait speed, cognitive test batteries, urodynamic studies) that ME/CFS research could adapt. If ME/CFS cognitive symptoms reflect inadequate CSF turnover rather than inflammation or neurodegeneration, then a subset of patients should respond to CSF drainage strategies. This predicts that: (a) ME/CFS patients with brain-fog–predominant phenotype and no structural CSF obstruction (normal ventricles on MRI) may benefit from diagnostic lumbar puncture with removal of 20–30 mL (tap test analog), producing measurable cognitive improvement; (b) Phase-contrast MRI CSF flow studies will show reduced aqueductal CSF stroke volume and slower perivascular diffusion in responders; (c) ONSD diurnal pattern (Section @sec:onsd-overnight) will normalize with successful drainage.
 
-*Key distinctions from classical NPH.* In NPH, ventriculomegaly is visible on MRI; in ME/CFS, ventricular size may be normal, suggesting the impairment is functional (turnover dynamics) rather than anatomical obstruction. CSF opening pressure may be normal or only mildly elevated in ME/CFS, whereas NPH patients typically have higher pressures (>25 cm H~2~O). This suggests that ME/CFS may involve a milder form of CSF dynamics disorder that is nonetheless functionally significant due to neurochemical sensitivity (reduced catecholamines) or glymphatic AQP4 dysfunction.
+*Key distinctions from classical NPH.* In NPH, ventriculomegaly is visible on MRI; in ME/CFS, ventricular size may be normal, suggesting the impairment is functional (turnover dynamics) rather than anatomical obstruction. CSF opening pressure may be normal or only mildly elevated in ME/CFS, whereas NPH patients typically have higher pressures (>25 cm H₂O). This suggests that ME/CFS may involve a milder form of CSF dynamics disorder that is nonetheless functionally significant due to neurochemical sensitivity (reduced catecholamines) or glymphatic AQP4 dysfunction.
 
 *Testable predictions.*
 
     - ME/CFS patients with brain-fog–predominant phenotype will show improvement in processing speed, executive function, and working memory after diagnostic lumbar puncture with 20–30 mL CSF removal, mirroring NPH cognitive recovery
     - Phase-contrast MRI in these patients will show reduced aqueductal CSF stroke volume and increased CSF pulsatility compared to baseline, indicating improved CSF turnover
     - ME/CFS patients with normal ventricles on MRI will respond equally well to CSF drainage as NPH patients with ventriculomegaly, provided CSF turnover is the limiting factor
-    - Patients with documented intracranial hypertension signs (opening pressure >25 cm H~2~O, papilledema) will show larger cognitive benefit from CSF drainage than patients with normal pressures, predicting that elevated ICP is a positive predictor of response
+    - Patients with documented intracranial hypertension signs (opening pressure >25 cm H₂O, papilledema) will show larger cognitive benefit from CSF drainage than patients with normal pressures, predicting that elevated ICP is a positive predictor of response
     - Combining CSF drainage with existing ME/CFS treatments (Perrin Technique, sleep optimization) will produce additive cognitive benefit in responder subgroup
 ] <spec:micro-nph-bridge>
 
@@ -1268,7 +1268,7 @@ The glucocorticoid receptor exists in multiple isoforms with opposing functions:
 
 *Testable prediction:* ME/CFS patients receiving aspirin 81 mg + EPA 2g/DHA 1g daily show elevated plasma AT-RvD1 and AT-RvE1 levels at 8 weeks compared to omega-3 alone or placebo, correlating with reduced PEM duration and severity. Falsified if AT-SPM levels do not change or do not correlate with clinical outcomes.
 
-*Cross-reference:* SPM deficiency hypothesis (@sec:um-resolution). Omega-3 for FcgammaR modulation (@spec:omega3-fcgr-modulation, Chapter @ch:emerging-therapies). Emergency PEM protocol (Chapter @ch:emerging-therapies).
+*Cross-reference:* SPM deficiency hypothesis (@sec:um-resolution). Omega-3 for FcγR modulation (@spec:omega3-fcgr-modulation, Chapter @ch:emerging-therapies). Emergency PEM protocol (Chapter @ch:emerging-therapies).
 ] <spec:aspirin-omega3-spm>
 
 #speculation(title: [Ziritaxestat/Autotaxin-LPA Inhibition for Fibrotic-Neuroinflammatory Crosstalk])[

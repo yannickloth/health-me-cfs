@@ -20,7 +20,7 @@ A further concern specific to ME/CFS is a _metabolic paradox_ created by stimula
 Bragee et al. (2020) documented that 78% of ME/CFS patients meet IIH (idiopathic intracranial hypertension) criteria, suggesting elevated intracranial pressure that may impair glymphatic drainage @Bragee2020. Capillary basement membrane thickening (Wüst et al. 2024 @Wust2024capillary) physically restricts glymphatic flow through perivascular spaces. Slow breathing improves POTS symptoms (Ryabkova et al. 2024 @Ryabkova2024dysautonomia) via enhanced vagal tone, suggesting central autonomic benefits.
 
 *Proposed mechanism:*
-Slow breathing (6 breaths/min, ~10-second cycle: 4-second inhale, 6-second exhale) increases respiratory sinus arrhythmia and arterial pulsatility amplitude. This enhanced pulsation drives CSF flow through perivascular spaces, mechanically overcoming basement membrane restriction. Elevated head position uses gravity to assist venous drainage, reducing intracranial pressure and facilitating glymphatic efflux.
+Slow breathing (6 breaths/min, approximately 10-second cycle: 4-second inhale, 6-second exhale) increases respiratory sinus arrhythmia and arterial pulsatility amplitude. This enhanced pulsation drives CSF flow through perivascular spaces, mechanically overcoming basement membrane restriction. Elevated head position uses gravity to assist venous drainage, reducing intracranial pressure and facilitating glymphatic efflux.
 
 *Testable predictions:*
 - ME/CFS patients practicing 6 breaths/min breathing for 15 minutes before sleep will show improved next-morning cognitive performance (processing speed, working memory) compared to normal breathing

@@ -26,7 +26,7 @@ The finding has three properties that make it unusually worth replicating: it wa
 
 === If Confirmed
 
-A positive replication would (a) establish a candidate objective challenge-test discriminator between ME/CFS and depression — with the nausea-adjusted analysis showing the signal is hormonal rather than a tolerability artifact — (b) revive the mechanistic question of whether the exaggerated response reflects reduced dopaminergic inhibitory tone, serotonergic or estradiol modulation, or none of these (@oq:prolactin-buspirone-mechanism), and (c) justify the follow-up mechanistic and biomarker work, after independent-group replication. It would also argue for sex-stratifying the test, potentially connecting to the ~80% female predominance (@spec:fra-estradiol-prolactin-link).
+A positive replication would (a) establish a candidate objective challenge-test discriminator between ME/CFS and depression — with the nausea-adjusted analysis showing the signal is hormonal rather than a tolerability artifact — (b) revive the mechanistic question of whether the exaggerated response reflects reduced dopaminergic inhibitory tone, serotonergic or estradiol modulation, or none of these (@oq:prolactin-buspirone-mechanism), and (c) justify the follow-up mechanistic and biomarker work, after independent-group replication. It would also argue for sex-stratifying the test, potentially connecting to the approximately 80% female predominance (@spec:fra-estradiol-prolactin-link).
 
 === If Null
 

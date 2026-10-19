@@ -24,7 +24,7 @@
 ] <spec:fibronectin-immunological-memory>
 
 #speculation(title: [SMPDL3B as Sex-Stratified Mechanistic Substrate])[
-*Certainty: 0.30. Probability of clinical relevance: 0.02.* ME/CFS shows ~3:1 female predominance. SMPDL3B regulation may be estrogen-responsive, providing a mechanistic substrate for sex differences in lipid raft organization and clinical presentation. This is entirely speculative — SMPDL3B sex-specificity has not been studied in any condition. Falsifiable: SMPDL3B expression will correlate with estrogen levels across menstrual cycle phases and differ between males and females with matched ME/CFS severity.
+*Certainty: 0.30. Probability of clinical relevance: 0.02.* ME/CFS shows approximately 3:1 female predominance. SMPDL3B regulation may be estrogen-responsive, providing a mechanistic substrate for sex differences in lipid raft organization and clinical presentation. This is entirely speculative — SMPDL3B sex-specificity has not been studied in any condition. Falsifiable: SMPDL3B expression will correlate with estrogen levels across menstrual cycle phases and differ between males and females with matched ME/CFS severity.
 ] <spec:smpdl3b-sex-stratification>
 
 #speculation(title: [Compensatory $beta_2$-AR Upregulation in AAb-Positive ME/CFS])[

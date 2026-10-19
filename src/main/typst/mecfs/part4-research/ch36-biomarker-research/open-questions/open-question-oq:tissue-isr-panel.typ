@@ -5,5 +5,5 @@ A panel of ISR activation markers in skeletal muscle biopsy constitutes the high
 
 *What this would establish:* Tissue ISR panel sensitivity/specificity; correlation between tissue signature and symptom severity; whether tissue signature predicts response to ISR-modulating interventions.
 
-*Feasibility:* Muscle biopsy is invasive but clinically routine. Existing ME/CFS biopsy programs (NIH cohort, Davis/Stanford, UK Biobank) could add this panel. ChIP-seq requires ~50 mg tissue; IHC/Western are straightforward. (Certainty of diagnostic utility: 0.50.)
+*Feasibility:* Muscle biopsy is invasive but clinically routine. Existing ME/CFS biopsy programs (NIH cohort, Davis/Stanford, UK Biobank) could add this panel. ChIP-seq requires approximately 50 mg tissue; IHC/Western are straightforward. (Certainty of diagnostic utility: 0.50.)
 ] <oq:tissue-isr-panel>

@@ -395,7 +395,7 @@ Antiresorptive — inhibit osteoclast-mediated bone resorption (farnesyl pyropho
 
 #finding(claim: [Side effects overlapping ME/CFS symptoms], explanation: [Side effects overlapping ME/CFS symptoms — the MEA reports trial-and-error difficulty. Musculoskeletal pain, oesophageal irritation, and (for some) fatigue can be indistinguishable from ME/CFS baseline, complicating attribution. If a ME/CFS patient worsens on bisphosphonate, distinguish drug-related musculoskeletal pain from PEM before attributing to disease flare.], certainty: [Low], level: [Partial root cause])
 
-#strong[W] *Mechanism:* B (pharmacological side-effects overlapping ME/CFS symptom burden complicate differential attribution), H (atypical femur fracture on long-term use, ~100 per 100,000 person-years; calcium-only supplementation ↑ MI risk — see @subsec:bone-density-osteoporosis). *Protracted risk:* Low. *Permanent risk:* Low (atypical femur fracture is permanent once it occurs). *Rechallenge:* After a trial-offer for non-response. Administration constraints (upright posture, empty stomach) are difficult or impossible for many bedbound patients — this is a practical, not mechanistic, limitation. Pregnancy/lactation: not recommended.
+#strong[W] *Mechanism:* B (pharmacological side-effects overlapping ME/CFS symptom burden complicate differential attribution), H (atypical femur fracture on long-term use, approximately 100 per 100,000 person-years; calcium-only supplementation ↑ MI risk — see @subsec:bone-density-osteoporosis). *Protracted risk:* Low. *Permanent risk:* Low (atypical femur fracture is permanent once it occurs). *Rechallenge:* After a trial-offer for non-response. Administration constraints (upright posture, empty stomach) are difficult or impossible for many bedbound patients — this is a practical, not mechanistic, limitation. Pregnancy/lactation: not recommended.
 
 === Bromocriptine / Rotigotine
 
@@ -451,7 +451,7 @@ Corrective — blocks IL-1β specifically, interrupting autoinflammatory amplifi
 
 #strong[SE] Infection on canakinumab → IL-1β host defense was load-bearing — same principle as anakinra but narrower (IL-1β-specific immunosuppression). The infection rate relative to anakinra informs whether IL-1α is load-bearing for host defense.
 
-#strong[W] *Mechanism:* D (IL-1β blockade → immunosuppression). The clinical trial data (CANTOS) show modest infection increase but significant cardiovascular benefit — the risk-benefit in ME/CFS is unknown. *Protracted risk:* Low. *Permanent risk:* Very Low. *Rechallenge:* Only with response confirmation and infection surveillance. Long half-life (~26 days) means effects persist for weeks after last dose — advantage for sustained effect, disadvantage if adverse event.
+#strong[W] *Mechanism:* D (IL-1β blockade → immunosuppression). The clinical trial data (CANTOS) show modest infection increase but significant cardiovascular benefit — the risk-benefit in ME/CFS is unknown. *Protracted risk:* Low. *Permanent risk:* Very Low. *Rechallenge:* Only with response confirmation and infection surveillance. Long half-life (approximately 26 days) means effects persist for weeks after last dose — advantage for sustained effect, disadvantage if adverse event.
 
 === CBD (Cannabidiol)
 
@@ -777,7 +777,7 @@ Corrective — PDK inhibitor restoring PDH activity and pyruvate entry into TCA 
 
 #finding(claim: [Neuropathy at low cumulative dose], explanation: [Neuropathy at low cumulative dose → pre-existing SFN vulnerability (Pattern 4). No lactate reduction at therapeutic dose → PDH not the bottleneck (Pattern 5).], certainty: [Low], level: [Partial root cause])
 
-#strong[W] *Mechanism:* A (direct cumulative axonal toxicity) + G (cumulative dose-dependent — above ~25--30 g lifetime dose, irreversible neuropathy risk increases substantially; ME/CFS patients with pre-existing IENFD reduction have lower threshold). *Protracted risk:* Moderate. *Permanent risk:* Moderate. DCA-induced neuropathy can be permanent — nerve regeneration machinery is already stressed in ME/CFS. *Rechallenge:* Only if no neuropathy develops, PDH is the last remaining hypothesis, and cumulative lifetime dose is monitored. Thiamine (which supports PDH without neurotoxicity) should be trialed first. If pre-existing IENFD reduction is documented, DCA is relatively contraindicated.
+#strong[W] *Mechanism:* A (direct cumulative axonal toxicity) + G (cumulative dose-dependent — above approximately 25--30 g lifetime dose, irreversible neuropathy risk increases substantially; ME/CFS patients with pre-existing IENFD reduction have lower threshold). *Protracted risk:* Moderate. *Permanent risk:* Moderate. DCA-induced neuropathy can be permanent — nerve regeneration machinery is already stressed in ME/CFS. *Rechallenge:* Only if no neuropathy develops, PDH is the last remaining hypothesis, and cumulative lifetime dose is monitored. Thiamine (which supports PDH without neurotoxicity) should be trialed first. If pre-existing IENFD reduction is documented, DCA is relatively contraindicated.
 
 === Devil's Claw (Harpagophytum procumbens)
 
@@ -860,7 +860,7 @@ Corrective — Nrf2 activator + immunomodulator; activates endogenous anti-infla
 
 #finding(claim: [GI cramping + bradycardia], explanation: [GI cramping + bradycardia → peripheral AChE inhibition at CNS doses — confirms the drug crosses into the periphery at cognitive-effective dose (Pattern 4). The GI cramping IS diagnostic: it confirms the peripheral and central cholinergic systems are both deficient — the drug is filling both. Vivid dreams at 5 mg → REM cholinergic activation — confirms CNS AChE engagement. No GI effect + no cognitive effect → AChE non-responsive — cholinergic lesion is postsynaptic (receptor desensitization) (Pattern 5).], certainty: [Low], level: [Partial root cause])
 
-#strong[W] *Mechanism:* C (bradycardia from peripheral AChE inhibition → if excessive → cerebral hypoperfusion in POTS patients). Reversible with drug clearance (half-life ~70h). *Protracted risk:* Very Low. *Permanent risk:* Very Low. *Rechallenge:* Yes, at 2.5 mg with HR monitoring. If GI cramping + bradycardia: the peripheral cholinergic hypersensitivity is confirmed — start at 1.25 mg with very slow titration (2--4 weeks per dose increment). If only GI effect without cognitive benefit: the cholinergic lesion is peripheral, not central — switch to pyridostigmine.
+#strong[W] *Mechanism:* C (bradycardia from peripheral AChE inhibition → if excessive → cerebral hypoperfusion in POTS patients). Reversible with drug clearance (half-life approximately 70h). *Protracted risk:* Very Low. *Permanent risk:* Very Low. *Rechallenge:* Yes, at 2.5 mg with HR monitoring. If GI cramping + bradycardia: the peripheral cholinergic hypersensitivity is confirmed — start at 1.25 mg with very slow titration (2--4 weeks per dose increment). If only GI effect without cognitive benefit: the cholinergic lesion is peripheral, not central — switch to pyridostigmine.
 
 === DORAs (Daridorexant, Suvorexant, Lemborexant)
 
@@ -944,7 +944,7 @@ Corrective — MMP inhibition at sub-antimicrobial doses reduces ECM degradation
 
 #finding(claim: [Supine HTN without orthostatic benefit], explanation: [Supine HTN without orthostatic benefit → postsynaptic α1 desensitized — confirms hyperadrenergic POTS (Pattern 4). NE cannot further activate already-maximally stimulated α1 receptors.], certainty: [Low], level: [Partial root cause])
 
-#strong[W] *Mechanism:* A (supine HTN from NE overload in non-upright positions → potential baroreflex reset), B (metabolic cost of increased sympathetic tone — modest). *Protracted risk:* Low. *Permanent risk:* Very Low. Effects reverse with drug clearance (half-life ~2.5h for droxidopa, ~1.5h for NE). *Rechallenge:* Yes, with supine BP monitoring. If supine HTN without orthostatic benefit: the diagnostic information is obtained — no rechallenge needed.
+#strong[W] *Mechanism:* A (supine HTN from NE overload in non-upright positions → potential baroreflex reset), B (metabolic cost of increased sympathetic tone — modest). *Protracted risk:* Low. *Permanent risk:* Very Low. Effects reverse with drug clearance (half-life approximately 2.5h for droxidopa, approximately 1.5h for NE). *Rechallenge:* Yes, with supine BP monitoring. If supine HTN without orthostatic benefit: the diagnostic information is obtained — no rechallenge needed.
 
 === Duloxetine
 
@@ -1022,7 +1022,7 @@ Corrective — MMP inhibition at sub-antimicrobial doses reduces ECM degradation
 #strong[HD] Symptomatic — selective GABA-A α1 agonism for sleep onset; does not restore restorative sleep.
 
 
-#finding(claim: [GABA-A α1-mediated sleep initiation AND maintenance rate-limiting], explanation: [GABA-A α1-mediated sleep initiation AND maintenance rate-limiting. Eszopiclone's longer half-life (~6h) vs zolpidem (~2.5h) targets sleep maintenance — confirmed by improved WASO if sleep maintenance is the dominant insomnia component.], certainty: [Low], level: [Partial root cause])
+#finding(claim: [GABA-A α1-mediated sleep initiation AND maintenance rate-limiting], explanation: [GABA-A α1-mediated sleep initiation AND maintenance rate-limiting. Eszopiclone's longer half-life (approximately 6h) vs zolpidem (approximately 2.5h) targets sleep maintenance — confirmed by improved WASO if sleep maintenance is the dominant insomnia component.], certainty: [Low], level: [Partial root cause])
 
 #finding(claim: [GABA-A not rate-limiting for sleep maintenance], explanation: [GABA-A not rate-limiting for sleep maintenance. If eszopiclone induces sleep onset but doesn't maintain → the sleep-maintenance pathology is non-GABAergic (orexin hyperarousal, adrenergic night-time surges, pain). If DORA works for maintenance but eszopiclone doesn't → orexin is the dominant maintenance pathology.], certainty: [Low], level: [Partial root cause])
 
@@ -1070,7 +1070,7 @@ Restorative — suppresses active herpesvirus replication; suppression only, not
 
 #finding(claim: [Worsening orthostasis], explanation: [Worsening orthostasis → venous pooling — volume expansion pools in legs rather than increasing cardiac preload in CT-lax patients (Pattern 2). Hypokalemia → RAAS defect localized to renin — confirms the RAAS paradox: renin is high but aldosterone is inappropriately normal or low. The hypokalemia from fludrocortisone reveals that aldosterone receptor activation is intact but endogenous aldosterone is deficient.], certainty: [Low], level: [Partial root cause])
 
-#strong[W] *Mechanism:* C (paradoxical — in hEDS patients with venous compliance from CT laxity, volume expansion pools peripherally; hypokalemia worsens vascular smooth muscle function). *Protracted risk:* Low. *Permanent risk:* Very Low. Effects on volume and electrolytes are fully reversible with drug clearance (~3.5h half-life). *Rechallenge:* Yes, at 0.025 mg (half standard starting dose) with concurrent compression garments and potassium monitoring. If orthostatic symptoms worsen: the worsening confirms CT-driven venous pooling, not hypovolemia — compression garments should work; fludrocortisone should not.
+#strong[W] *Mechanism:* C (paradoxical — in hEDS patients with venous compliance from CT laxity, volume expansion pools peripherally; hypokalemia worsens vascular smooth muscle function). *Protracted risk:* Low. *Permanent risk:* Very Low. Effects on volume and electrolytes are fully reversible with drug clearance (approximately 3.5h half-life). *Rechallenge:* Yes, at 0.025 mg (half standard starting dose) with concurrent compression garments and potassium monitoring. If orthostatic symptoms worsen: the worsening confirms CT-driven venous pooling, not hypovolemia — compression garments should work; fludrocortisone should not.
 
 === Fluvoxamine (Low-Dose)
 
@@ -1412,7 +1412,7 @@ Corrective — zonulin antagonist reducing intestinal permeability; if leaky gut
 
 *Dose-response diagnostic logic:*
 - Benefit peaks at 0.5--1.5 mg and declines at 3.0--4.5 mg → TLR4 hormetic window is the dominant mechanism. Microglial Nrf2 reserve is narrow — this patient will likely show narrow hormetic windows for other Nrf2-activating drugs (sulforaphane, lithium). Neuroinflammation is confirmed but the anti-inflammatory benefit requires the priming-toxicity balance, not maximal TLR4 blockade.
-- Benefit monotonic up to 4.5 mg with no decline → TRPM3 or endorphin mechanism is dominant (opioid compensatory ceiling not yet reached). This patient may tolerate well above 4.5 mg but risks catastrophic inversion at the μ-blockade threshold (~50 mg).
+- Benefit monotonic up to 4.5 mg with no decline → TRPM3 or endorphin mechanism is dominant (opioid compensatory ceiling not yet reached). This patient may tolerate well above 4.5 mg but risks catastrophic inversion at the μ-blockade threshold (approximately 50 mg).
 - Benefit plateau from 1.5 mg upward → endorphin ceiling reached early; further dose escalation adds nothing. Try dropping to 1.5 mg — if benefit is preserved, the therapeutic mechanism is opioid compensatory, not TRPM3.
 - No dose matters (equivalent benefit at all doses or no benefit at any dose) → either LDN effective via a saturating mechanism (receptor reserve high) or LDN ineffective for this patient.
 - Worsening at 0.5 mg (paradoxical reactor) → opioid systems critically load-bearing for mood/pain homeostasis; avoid all opioid-modulating drugs.
@@ -1738,7 +1738,7 @@ Corrective — AMPK activation restoring metabolic efficiency + reducing mTORC1 
 
 #finding(claim: [HTN at 2.5 mg → denervation hypersensitivity], explanation: [HTN at 2.5 mg → denervation hypersensitivity — α1 receptors are supersensitive from chronic NE deficiency, responding violently to even low-dose agonism (Pattern 1). No piloerection at standing dose → length-dependent SFN — the piloerection reflex requires intact small-fiber innervation (Pattern 5). Scalp tingling → normal α1-mediated piloerection — confirms drug engagement, not an adverse effect.], certainty: [Low], level: [Partial root cause])
 
-#strong[W] *Mechanism:* A (supine HTN if taken before lying down → potential baroreflex reset with chronic use — reversible). *Protracted risk:* Very Low. *Permanent risk:* Very Low. Effects reverse within hours of drug clearance (half-life ~3h for active metabolite desglymidodrine). *Rechallenge:* Always acceptable — one of the safest drugs in the ME/CFS pharmacopeia. If HTN at 2.5 mg: reduce to 1.25 mg or lower. The denervation hypersensitivity confirmed is diagnostic, not harmful.
+#strong[W] *Mechanism:* A (supine HTN if taken before lying down → potential baroreflex reset with chronic use — reversible). *Protracted risk:* Very Low. *Permanent risk:* Very Low. Effects reverse within hours of drug clearance (half-life approximately 3h for active metabolite desglymidodrine). *Rechallenge:* Always acceptable — one of the safest drugs in the ME/CFS pharmacopeia. If HTN at 2.5 mg: reduce to 1.25 mg or lower. The denervation hypersensitivity confirmed is diagnostic, not harmful.
 
 === Minocycline
 
@@ -1892,7 +1892,7 @@ Corrective — fibrinolytic enzyme degrading fibrin microthrombi — research-st
 
 #finding(claim: [Reflex tachycardia at therapeutic dose], explanation: [Reflex tachycardia at therapeutic dose → baroreflex intact and sensitive — rapid vasodilation drops BP; baroreflex responds with HR increase (Pattern 4). The tachycardia IS diagnostic: it confirms the baroreflex arc is functional; the sympathetic response is intact. Flushing, headache → rapid vasodilation — confirms drug engagement. The reflex tachycardia distinguishes nifedipine from amlodipine: amlodipine's gradual onset avoids baroreflex triggering — the comparison maps the patient's baroreflex sensitivity.], certainty: [Low], level: [Partial root cause])
 
-#strong[W] *Mechanism:* C (paradoxical — reflex tachycardia + hypotension in POTS) + B (tachycardia → metabolic PEM). Shorter half-life than amlodipine (~2--5h vs 30--50h) means effects reverse faster. *Protracted risk:* Very Low. *Permanent risk:* Very Low. *Rechallenge:* Yes, with HR monitoring. The reflex tachycardia confirms baroreflex integrity — diagnostic information obtained rapidly with fast drug clearance. If reflex tachycardia without benefit: switch to amlodipine (slower onset, no reflex HR increase). The nifedipine-to-amlodipine comparison maps baroreflex sensitivity with high temporal resolution.
+#strong[W] *Mechanism:* C (paradoxical — reflex tachycardia + hypotension in POTS) + B (tachycardia → metabolic PEM). Shorter half-life than amlodipine (approximately 2--5h vs 30--50h) means effects reverse faster. *Protracted risk:* Very Low. *Permanent risk:* Very Low. *Rechallenge:* Yes, with HR monitoring. The reflex tachycardia confirms baroreflex integrity — diagnostic information obtained rapidly with fast drug clearance. If reflex tachycardia without benefit: switch to amlodipine (slower onset, no reflex HR increase). The nifedipine-to-amlodipine comparison maps baroreflex sensitivity with high temporal resolution.
 
 === NMN / NR (NAD⁺ Precursors)
 
@@ -1918,7 +1918,7 @@ Corrective — fibrinolytic enzyme degrading fibrin microthrombi — research-st
 
 #finding(claim: [NE/5-HT not rate-limiting], explanation: [NE/5-HT not rate-limiting. If nortriptyline fails but amitriptyline works → the additional H1/M1 blockade (sedation, anticholinergic) was the therapeutic component. If nortriptyline fails but duloxetine works → the serotonergic component (5-HT reuptake) is dominant; the NE component alone insufficient.], certainty: [Low], level: [Partial root cause])
 
-#finding(claim: [Tachycardia at subtherapeutic dose], explanation: [Tachycardia at subtherapeutic dose → NET inhibition sensitive — confirms NE transporter is functional and blocking it increases synaptic NE (Pattern 4). The tachycardia threshold identifies the dose at which NET blockade becomes hemodynamically significant. Anticholinergic symptoms milder than amitriptyline at equivalent doses → the secondary amine has ~5--10× lower M1 affinity — confirms the patient's anticholinergic sensitivity was to the tertiary amine, not the M1 receptor.], certainty: [Low], level: [Partial root cause])
+#finding(claim: [Tachycardia at subtherapeutic dose], explanation: [Tachycardia at subtherapeutic dose → NET inhibition sensitive — confirms NE transporter is functional and blocking it increases synaptic NE (Pattern 4). The tachycardia threshold identifies the dose at which NET blockade becomes hemodynamically significant. Anticholinergic symptoms milder than amitriptyline at equivalent doses → the secondary amine has approximately 5--10× lower M1 affinity — confirms the patient's anticholinergic sensitivity was to the tertiary amine, not the M1 receptor.], certainty: [Low], level: [Partial root cause])
 
 #strong[W] *Mechanism:* E (withdrawal after chronic use — same TCA withdrawal as amitriptyline but milder), J (anticholinergic effects — milder than amitriptyline). *Protracted risk:* Low. *Permanent risk:* Very Low. *Rechallenge:* Yes, with slow taper planned in advance. Nortriptyline is preferred over amitriptyline for patients sensitive to sedation or anticholinergic effects — the reduced side-effect burden provides a wider therapeutic window. The nortriptyline/amitriptyline comparison maps the contribution of H1/M1 vs NE reuptake to therapeutic benefit.
 
@@ -2116,7 +2116,7 @@ Corrective — statin with pleiotropic anti-inflammatory effects; may reduce end
 
 #finding(claim: [OH at 0.5 mg → α1-dependent standing BP], explanation: [OH at 0.5 mg → α1-dependent standing BP — neuropathic POTS confirmed (Pattern 1). No OH at 1 mg → BP not α1-dependent — hyperadrenergic POTS with central sympathetic overactivation (Pattern 5). Nightmares/vivid dreams → REM sleep α1 regulation — confirms α1 blockade enhances REM.], certainty: [Low], level: [Partial root cause])
 
-#strong[W] *Mechanism:* A (OH → cerebral hypoperfusion → PEM from ischemic stress if dose too high or taken during daytime). Reversible with drug clearance (half-life ~2--3h). *Protracted risk:* Very Low. *Permanent risk:* Very Low. *Rechallenge:* Yes, at 0.25--0.5 mg at bedtime only. If OH at 0.5 mg: α1-dependent BP confirmed — diagnostic; the dose was too high. If no OH at 1 mg + no glymphatic benefit: glymphatic pathology is not NE-driven.
+#strong[W] *Mechanism:* A (OH → cerebral hypoperfusion → PEM from ischemic stress if dose too high or taken during daytime). Reversible with drug clearance (half-life approximately 2--3h). *Protracted risk:* Very Low. *Permanent risk:* Very Low. *Rechallenge:* Yes, at 0.25--0.5 mg at bedtime only. If OH at 0.5 mg: α1-dependent BP confirmed — diagnostic; the dose was too high. If no OH at 1 mg + no glymphatic benefit: glymphatic pathology is not NE-driven.
 
 === Prucalopride
 
@@ -2180,7 +2180,7 @@ Corrective — statin with pleiotropic anti-inflammatory effects; may reduce end
 Corrective — acetylcholinesterase inhibitor enhancing ganglionic transmission + parasympathetic tone; compensates for impaired autonomic neurotransmission
 
 
-#finding(claim: [Cholinergic signaling intact], explanation: [Cholinergic signaling intact — improves preload, HRV, and GI motility. AChE inhibition confirms the vagal efferent pathway is functional and rate-limiting. Modest VO₂ improvement (+0.9~mL/kg/min, $p = 0.002$ @Joseph2022neurovascularDysreg) suggests ~10% of the O₂ extraction deficit is perfusion-mediated; the remaining ~90% may be structural (capillary BM thickening — Step F0 @sec:aimm-cascade).], certainty: [Low], level: [Partial root cause])
+#finding(claim: [Cholinergic signaling intact], explanation: [Cholinergic signaling intact — improves preload, HRV, and GI motility. AChE inhibition confirms the vagal efferent pathway is functional and rate-limiting. Modest VO₂ improvement (+0.9~mL/kg/min, $p = 0.002$ @Joseph2022neurovascularDysreg) suggests approximately 10% of the O₂ extraction deficit is perfusion-mediated; the remaining approximately 90% may be structural (capillary BM thickening — Step F0 @sec:aimm-cascade).], certainty: [Low], level: [Partial root cause])
 
 #finding(claim: [Vagal efferent non-functional], explanation: [Vagal efferent non-functional — DMV damage, ganglionic AChR AAb, or structural vagal lesion. If pyridostigmine fails but ivabradine works → HR is the bottleneck, not vagal tone. If pyridostigmine fails AND all other perfusion-enhancing interventions (midodrine, compression, pentoxifylline) also fail → the deficit is structural capillary BM thickening (Step F0) — no amount of improved blood flow can accelerate O₂ diffusion through a pathologically thickened capillary wall. This is the most important null inference: pyridostigmine failure in the context of multi-modal perfusion intervention failure shifts the diagnostic focus from functional perfusion deficits to structural capillary pathology.], certainty: [Low], level: [Partial root cause])
 
@@ -2271,7 +2271,7 @@ Corrective — mTORC1 inhibition restoring autophagy and reducing senescence; mT
 
 #finding(claim: [SIRT1/AMPK not rate-limiting], explanation: [SIRT1/AMPK not rate-limiting. If resveratrol fails but metformin works → AMPK is rate-limiting but resveratrol's AMPK activation is too weak. If resveratrol fails but NMN works → NAD⁺ is the bottleneck; SIRT1 activation alone (without NAD⁺ substrate) is insufficient.], certainty: [Low], level: [Partial root cause])
 
-#strong[SE] Minimal — polyphenol supplement. Poor bioavailability is the main confound — standard resveratrol has ~0% systemic bioavailability; only specific formulations (micronized, combined with piperine) achieve detectable plasma levels. GI upset at high doses.
+#strong[SE] Minimal — polyphenol supplement. Poor bioavailability is the main confound — standard resveratrol has approximately 0% systemic bioavailability; only specific formulations (micronized, combined with piperine) achieve detectable plasma levels. GI upset at high doses.
 
 #strong[W] *Mechanism:* None plausibly causing protracted or permanent worsening. Polyphenol supplement. *Protracted risk:* Very Low. *Permanent risk:* Very Low. *Rechallenge:* Always acceptable. Bioavailability confound is critical for diagnostic interpretation — only micronized or piperine-combined formulations should be used for probing. Non-bioavailable resveratrol produces guaranteed false negatives.
 
@@ -2407,7 +2407,7 @@ Corrective — mitochondria-targeted antioxidant reducing mitochondrial ROS at s
 #strong[HD] Threshold-modulatory — DAT/NET inhibitor with mild TAAR1 agonism; pro-cognitive without amphetamine-level permanent risk.
 
 
-#finding(claim: [DA/NE reuptake rate-limiting], explanation: [DA/NE reuptake rate-limiting — pure DNRI confirms presynaptic monoamine terminals are intact. Similar to methylphenidate but with different PK profile (longer half-life ~7h vs ~3--4h for methylphenidate).], certainty: [Low], level: [Partial root cause])
+#finding(claim: [DA/NE reuptake rate-limiting], explanation: [DA/NE reuptake rate-limiting — pure DNRI confirms presynaptic monoamine terminals are intact. Similar to methylphenidate but with different PK profile (longer half-life approximately 7h vs approximately 3--4h for methylphenidate).], certainty: [Low], level: [Partial root cause])
 
 #finding(claim: [NE/DA reuptake not rate-limiting], explanation: [NE/DA reuptake not rate-limiting. Or cognitive lesion is postsynaptic. If atomoxetine worked but solriamfetol didn't → NE is rate-limiting but the DA component adds no benefit (pure NRI sufficient).], certainty: [Low], level: [Partial root cause])
 
@@ -2441,7 +2441,7 @@ Corrective — autophagy inducer supporting cellular renewal — research-stage;
 
 #finding(claim: [Activation syndrome at initiation (anxiety, agitation, insomnia)], explanation: [Activation syndrome at initiation (anxiety, agitation, insomnia) → 5-HT1A autoreceptor desensitization lag — serotonergic system is present but slow to adapt. Severity of activation syndrome is ordinal: mild and transient → normal receptor adaptation; severe and prolonged → serotonergic system is hypersensitive and fragile (Pattern 4).], certainty: [Low], level: [Partial root cause])
 
-#strong[W] *Mechanism:* E (withdrawal-PEM convergence — SSRI/SNRI discontinuation syndrome: brain zaps, dizziness, dysautonomia, anxiety). The severity depends on: (a) drug half-life — fluoxetine (4--6 days, active metabolite 4--16 days) self-tapers and produces mildest withdrawal; paroxetine (~21h, no active metabolite) produces most severe; (b) dose and duration; (c) taper speed — ME/CFS patients require 2--4× standard taper duration. *Protracted risk:* Low--Moderate. *Permanent risk:* Low. Withdrawal-triggered PEM can advance the ratchet. *Rechallenge:* Plan the exit before the entry. Choose long-half-life drug (fluoxetine first-line). Never start high-dose SNRI as first-line. Taper over months — 5--10% dose reduction every 2--4 weeks. If crash on discontinuation: reinstate low dose to stabilize, taper more slowly.
+#strong[W] *Mechanism:* E (withdrawal-PEM convergence — SSRI/SNRI discontinuation syndrome: brain zaps, dizziness, dysautonomia, anxiety). The severity depends on: (a) drug half-life — fluoxetine (4--6 days, active metabolite 4--16 days) self-tapers and produces mildest withdrawal; paroxetine (approximately 21h, no active metabolite) produces most severe; (b) dose and duration; (c) taper speed — ME/CFS patients require 2--4× standard taper duration. *Protracted risk:* Low--Moderate. *Permanent risk:* Low. Withdrawal-triggered PEM can advance the ratchet. *Rechallenge:* Plan the exit before the entry. Choose long-half-life drug (fluoxetine first-line). Never start high-dose SNRI as first-line. Taper over months — 5--10% dose reduction every 2--4 weeks. If crash on discontinuation: reinstate low dose to stabilize, taper more slowly.
 
 === Sulforaphane
 
@@ -2449,7 +2449,7 @@ Corrective — autophagy inducer supporting cellular renewal — research-stage;
 Corrective — Nrf2 activator via Keap1 modification; activates endogenous anti-inflammatory programs; does not address Nrf2 activation trigger
 
 
-#finding(claim: [Nrf2-dependent antioxidant defense deficiency rate-limiting], explanation: [Nrf2-dependent antioxidant defense deficiency rate-limiting. Sulforaphane is the most potent dietary Nrf2 activator → induces ~200+ cytoprotective genes including HO-1, NQO1, and glutathione synthesis enzymes. Improvement confirms the Nrf2 pathway is intact but under-activated.], certainty: [Low], level: [Partial root cause])
+#finding(claim: [Nrf2-dependent antioxidant defense deficiency rate-limiting], explanation: [Nrf2-dependent antioxidant defense deficiency rate-limiting. Sulforaphane is the most potent dietary Nrf2 activator → induces approximately 200+ cytoprotective genes including HO-1, NQO1, and glutathione synthesis enzymes. Improvement confirms the Nrf2 pathway is intact but under-activated.], certainty: [Low], level: [Partial root cause])
 
 #finding(claim: [Nrf2 pathway not the lesion], explanation: [Nrf2 pathway not the lesion — either Nrf2 is already maximally activated (ineffective due to downstream block) or the lesion is Nrf2-independent. If sulforaphane fails but NAC works → the ROS is thiol-mediated; direct glutathione precursor (not Nrf2 enzyme induction) is needed. If sulforaphane fails but DMF works → Nrf2 is rate-limiting but dimethyl fumarate's Nrf2 activation is more potent.], certainty: [Low], level: [Partial root cause])
 
@@ -2621,7 +2621,7 @@ Corrective — mitophagy activator clearing damaged mitochondria; restores mitoc
 
 #finding(claim: [Mitophagy not rate-limiting], explanation: [Mitophagy not rate-limiting — the lesion is in mitochondrial biogenesis (not clearance), or the PINK1/Parkin pathway is deficient. If urolithin A fails but PQQ works → the lesion is quantitative (too few mitochondria); biogenesis is the bottleneck, not clearance. If urolithin A fails but spermidine works → general autophagy (EP300-mediated) is the lesion; mitophagy-specific clearance is inadequate.], certainty: [Low], level: [Partial root cause])
 
-#strong[SE] Minimal — gut-microbiome-derived metabolite. Only ~40% of people can convert ellagitannins to urolithin A (depends on gut microbiome composition). The null may reflect the patient's microbiome type, not mitophagy status — a critical confound. Direct urolithin A supplementation (Mitopure) bypasses the microbiome conversion bottleneck.
+#strong[SE] Minimal — gut-microbiome-derived metabolite. Only approximately 40% of people can convert ellagitannins to urolithin A (depends on gut microbiome composition). The null may reflect the patient's microbiome type, not mitophagy status — a critical confound. Direct urolithin A supplementation (Mitopure) bypasses the microbiome conversion bottleneck.
 
 #strong[W] *Mechanism:* None plausibly causing protracted or permanent worsening. Gut-derived metabolite. *Protracted risk:* Very Low. *Permanent risk:* Very Low. *Rechallenge:* Always acceptable. Direct urolithin A supplementation (Mitopure) preferred over dietary ellagitannin precursors — avoids the microbiome conversion confound. Combination with spermidine distinguishes general autophagy vs mitophagy-specific lesions.
 
@@ -2753,7 +2753,7 @@ Corrective — Vitamin K antagonist reducing coagulation cascade — narrow ther
 
 #finding(claim: [GI upset (nausea) on empty stomach], explanation: [GI upset (nausea) on empty stomach → standard zinc GI effect — take with food. Copper deficiency with prolonged high-dose zinc supplementation (>50 mg/day for months) → zinc-induced metallothionein blocks copper absorption → anemia, neuropathy. Taste disturbance (metallic taste, hypogeusia) → confirms zinc receptor engagement but not ME/CFS-diagnostic.], certainty: [Low], level: [Partial root cause])
 
-#strong[W] *Mechanism:* A (copper deficiency from prolonged high-dose zinc → anemia, myeloneuropathy). *Protracted risk:* Very Low at standard doses (15--30 mg/day). *Permanent risk:* Very Low (copper-deficiency myeloneuropathy reverses with copper repletion and zinc cessation). *Rechallenge:* Always acceptable at standard doses. Zinc should be combined with copper (zinc:copper ratio ~15:1) for any supplementation >30 mg/day lasting >3 months. Like iron and B12, zinc deficiency must be excluded as a correctable fatigue driver.
+#strong[W] *Mechanism:* A (copper deficiency from prolonged high-dose zinc → anemia, myeloneuropathy). *Protracted risk:* Very Low at standard doses (15--30 mg/day). *Permanent risk:* Very Low (copper-deficiency myeloneuropathy reverses with copper repletion and zinc cessation). *Rechallenge:* Always acceptable at standard doses. Zinc should be combined with copper (zinc:copper ratio approximately 15:1) for any supplementation >30 mg/day lasting >3 months. Like iron and B12, zinc deficiency must be excluded as a correctable fatigue driver.
 
 === Zolpidem
 

@@ -139,7 +139,7 @@
       stroke: rgb("#88aa88") + 1pt, dash: "dashed", mark: (end: ">"))
 
     content((-4.5, y-synth), text(size: 7pt, style: "italic", fill: rgb("#558855"),
-      [~30--32 ATP\ (theoretical max)]))
+      [approximately 30--32 ATP\ (theoretical max)]))
     line((-2.25, y-synth), (-3.5, y-synth),
       stroke: rgb("#88aa88") + 1pt, dash: "dashed", mark: (end: ">"))
 

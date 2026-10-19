@@ -8,7 +8,7 @@ $
 upright("CBF") = frac(upright("CPP"), upright("CVR")), quad upright("CPP") = upright("MAP") - upright("ICP")
 $ <eq:cbf-model>
 
-where ICP is intracranial pressure (~10 mmHg normally). Autoregulation adjusts CVR to maintain CBF constant across a MAP range of approximately 60--150 mmHg:
+where ICP is intracranial pressure (approximately 10 mmHg normally). Autoregulation adjusts CVR to maintain CBF constant across a MAP range of approximately 60--150 mmHg:
 
 $
 frac(d upright("CVR"), d t) = frac(1, tau_(upright("auto"))) [upright("CVR")_0 dot.op frac(upright("MAP"), upright("MAP")_(upright("target"))) dot.op g_(upright("CO")_2)(upright("PaCO")_2) dot.op g_(upright("NO"))([upright("NO")]) - upright("CVR")]

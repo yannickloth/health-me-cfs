@@ -50,7 +50,7 @@ Petrov et al.\ demonstrated reduced CD80 expression on M1-like monocytes in ME/C
 #speculation(title: [CD80 Costimulatory Agonists to Restore T Cell Priming])[
 *Certainty: 0.20.* CD80 provides the essential second signal for T cell activation via CD28. Without adequate costimulation, T cells encountering antigen become anergic or tolerised rather than activated. CD28 superagonists (modified from the TGN1412 antibody family, with safety modifications following the 2006 cytokine storm event) could bypass deficient CD80 on monocytes and directly activate CD28 on T cells.
 
-*Critical immunological caveat: CD80-CTLA-4 axis omitted from simplified rationale.* CD80 is a dual ligand: it binds both CD28 (costimulatory) AND CTLA-4 (inhibitory), with ~20-fold higher affinity for CTLA-4 than CD28. CD28 superagonist strategies that bypass CD80 lose the opportunity for CD80-CTLA-4 inhibitory engagement but could also fail to mimic the normal CD28/CTLA-4 balance. The net immunological effect of CD28 agonism without CD80-mediated CTLA-4 engagement is uncertain. Additionally, if CD80 suppression in ME/CFS is an adaptive protective mechanism (see Open Questions below), then restoring CD80 signaling — by any mechanism — could trigger autoimmune pathology, making the entire therapeutic rationale contingent on resolving the adaptive vs maladaptive question first.
+*Critical immunological caveat: CD80-CTLA-4 axis omitted from simplified rationale.* CD80 is a dual ligand: it binds both CD28 (costimulatory) AND CTLA-4 (inhibitory), with approximately 20-fold higher affinity for CTLA-4 than CD28. CD28 superagonist strategies that bypass CD80 lose the opportunity for CD80-CTLA-4 inhibitory engagement but could also fail to mimic the normal CD28/CTLA-4 balance. The net immunological effect of CD28 agonism without CD80-mediated CTLA-4 engagement is uncertain. Additionally, if CD80 suppression in ME/CFS is an adaptive protective mechanism (see Open Questions below), then restoring CD80 signaling — by any mechanism — could trigger autoimmune pathology, making the entire therapeutic rationale contingent on resolving the adaptive vs maladaptive question first.
 
 *Safety.* CRITICAL: TGN1412 caused life-threatening cytokine release syndrome in 6 healthy volunteers in a 2006 Phase I trial — a seminal drug safety disaster. All 6 volunteers developed multi-organ failure within hours of infusion from a massive cytokine storm (IL-6, TNF-α, IFN-γ). Modified versions (dose titration starting 1--2 orders of magnitude below the expected pharmacologically active dose, partial agonism, Fc-silent antibodies) are under investigation but NONE are approved for clinical use. This approach would require:
     + Confirmed CD80 deficiency on M1-like monocytes by flow cytometry before consideration
@@ -558,7 +558,7 @@ This does not question LDN's favorable safety profile — a meta-analysis found 
 ] <lim:ldn-fm-responder-null>
 
 #speculation(title: [Low-Dose Naltrexone: The TLR4 Mechanism May Never Be Engaged at Clinical Dose])[
-*Certainty: 0.30.* The null fibromyalgia responder results may be mechanistically *expected* rather than contradictory. (+)-naltrexone is a weak TLR4 antagonist; the optimized derivative CIAC101 required ~6200× potency gain to reach nanomolar TLR4 antagonism @Gao2025CIAC101TLR4. Clinical LDN is racemic (both enantiomers) at 4.5–6 mg. If the TLR4-blocking species needs concentrations orders of magnitude above what LDN achieves at these doses, then the FM null reflects a dose-to-target translation failure — the TLR4 rationale was never actually tested by LDN at clinical dose. This is consistent with the alternative OGFr/enkephalin-rebound mechanism @Zagon2018OGFrBlockade, which may require longer duration or a fatigue-specific subtype not captured by the FM responder categories @Nielsen2026LDNFMResponder. Note this occupancy question stands in tension with the hormetic-window framing in @sec:hormetic-dose-response, which assumes LDN engages TLR4 at low doses to trigger Nrf2 priming — if the TLR4 target is never engaged at clinical dose, that specific arm of the hormetic model is conditional on a dose-occupancy measurement. Severity applicability: fibromyalgia, not severity-stratified; ME/CFS applicability unknown.
+*Certainty: 0.30.* The null fibromyalgia responder results may be mechanistically *expected* rather than contradictory. (+)-naltrexone is a weak TLR4 antagonist; the optimized derivative CIAC101 required approximately 6200× potency gain to reach nanomolar TLR4 antagonism @Gao2025CIAC101TLR4. Clinical LDN is racemic (both enantiomers) at 4.5–6 mg. If the TLR4-blocking species needs concentrations orders of magnitude above what LDN achieves at these doses, then the FM null reflects a dose-to-target translation failure — the TLR4 rationale was never actually tested by LDN at clinical dose. This is consistent with the alternative OGFr/enkephalin-rebound mechanism @Zagon2018OGFrBlockade, which may require longer duration or a fatigue-specific subtype not captured by the FM responder categories @Nielsen2026LDNFMResponder. Note this occupancy question stands in tension with the hormetic-window framing in @sec:hormetic-dose-response, which assumes LDN engages TLR4 at low doses to trigger Nrf2 priming — if the TLR4 target is never engaged at clinical dose, that specific arm of the hormetic model is conditional on a dose-occupancy measurement. Severity applicability: fibromyalgia, not severity-stratified; ME/CFS applicability unknown.
 
 *Consequence:* The fibromyalgia null result does not disprove the TLR4/microglial rationale for naltrexone-class drugs — it may mean the dose never reached the target, which changes the research direction from "does the mechanism work" to "was it ever tested at an engaging dose." *Falsifiable:* a dose-occupancy study showing clinical-dose LDN achieves below 10% TLR4 occupancy (no downstream NF-$kappa$B suppression) in patient PBMCs would support this below-threshold reading; measurable TLR4 antagonism at these doses would falsify it.
 ] <spec:ldn-tlr4-occupancy-gap>
@@ -581,8 +581,8 @@ All below are research-stage only; no ME/CFS human dosing data exists for any. N
 Experimental M1/M4 PAMs (e.g., VU0467154) enhance endogenous acetylcholine signaling without direct agonism, potentially synergizing with moderate M1/M4-AAb-mediated cognitive protection. Could benefit M1/M4-AAb-low ME/CFS with cognitive impairment. No approved M1/M4 PAMs exist; all are experimental compounds. Prediction: greater cognitive improvement in moderate-AAb vs low-AAb patients on PAM. Safety: cholinergic excess (bradycardia, GI upset) at high doses. @Azcue2026gpcr.
 ] <oq:m1-m4-pam-muscarinic-cognition>
 
-#speculation(title: [Fc$gamma$R Blockade with Fc(ab')$""_2$ Fragments])[
-*Certainty: 0.45.* If $beta_2$-AAbs are pathogenic via Fc$gamma$R engagement (not direct receptor agonism), Fc(ab')$""_2$ fragments (IVIG digested, Fc removed) would block Fc$gamma$R-mediated monocyte activation without removing antibodies. Requires experimental compounding. Prediction: Fc$gamma$R blockade reduces IL-6 and TNF$alpha$ in $beta_2$-AAb-positive patients vs placebo. High cost. @Hackel2025monocyte @Azcue2026gpcr.
+#speculation(title: [FcγR Blockade with Fc(ab')$""_2$ Fragments])[
+*Certainty: 0.45.* If $beta_2$-AAbs are pathogenic via FcγR engagement (not direct receptor agonism), Fc(ab')$""_2$ fragments (IVIG digested, Fc removed) would block FcγR-mediated monocyte activation without removing antibodies. Requires experimental compounding. Prediction: FcγR blockade reduces IL-6 and TNF$alpha$ in $beta_2$-AAb-positive patients vs placebo. High cost. @Hackel2025monocyte @Azcue2026gpcr.
 ] <spec:fcgr-blockade-ivig-fragment>
 
 #speculation(title: [Raloxifene for $beta_2$-AAb Reduction in Postmenopausal Females])[
@@ -597,8 +597,8 @@ Experimental M1/M4 PAMs (e.g., VU0467154) enhance endogenous acetylcholine signa
 *Certainty: 0.40.* Quercetin 500mg phytosome BID upregulates $beta_2$-AR expression via CREB pathway, potentially resensitizing receptors desensitized by chronic $beta_2$-AAb binding. Prediction: HRV improvement in $beta_2$-AAb-positive vs negative patients at 12 weeks. Caution: quinolone antibiotic interaction reduces absorption. @Azcue2026gpcr.
 ] <spec:quercetin-beta2-ar-resensitization>
 
-#speculation(title: [Omega-3 (EPA/DHA) for Fc$gamma$R Modulation])[
-*Certainty: 0.45.* EPA 2g + DHA 1g daily incorporates into immune cell membranes, altering lipid raft composition and reducing Fc$gamma$R signaling affinity. May dampen Fc$gamma$R-mediated cytokine production triggered by GPCR-IgG1 AAbs. Prediction: IL-6 reduction correlates with omega-3 index >8% at 24 weeks. Well-tolerated; low risk. @Hackel2025monocyte @Azcue2026gpcr.
+#speculation(title: [Omega-3 (EPA/DHA) for FcγR Modulation])[
+*Certainty: 0.45.* EPA 2g + DHA 1g daily incorporates into immune cell membranes, altering lipid raft composition and reducing FcγR signaling affinity. May dampen FcγR-mediated cytokine production triggered by GPCR-IgG1 AAbs. Prediction: IL-6 reduction correlates with omega-3 index >8% at 24 weeks. Well-tolerated; low risk. @Hackel2025monocyte @Azcue2026gpcr.
 ] <spec:omega3-fcgr-modulation>
 
 #speculation(title: [NAC for GPCR AAb Bystander Suppression])[
@@ -637,7 +637,7 @@ Experimental M1/M4 PAMs (e.g., VU0467154) enhance endogenous acetylcholine signa
 - Prevents HMGB1-mediated microglial activation (reducing neuroinflammatory amplification)
 - Reduces HMGB1-driven TNF-alpha and IL-1beta release
 - Does not affect HMGB1's nuclear function (DNA chaperone), preserving normal cellular stress responses
-- Half-life ~8h; oral bioavailability limited but sufficient
+- Half-life approximately 8h; oral bioavailability limited but sufficient
 
 *Implementation:* Oral glycyrrhizin 200-400 mg (50-100 mg glycyrrhizic acid) taken before planned exertion or at first sign of PEM onset. Drug interaction: glycyrrhizin inhibits 11beta-HSD2, increasing cortisol availability at mineralocorticoid receptors — this mechanism causes pseudoaldosteronism (hypertension, hypokalemia, edema) in susceptible individuals.
 
@@ -662,7 +662,7 @@ Experimental M1/M4 PAMs (e.g., VU0467154) enhance endogenous acetylcholine signa
 - Endogenous bile acid that acts as a chemical chaperone, stabilizing protein folding in the ER
 - Reduces ER stress markers (GRP78, CHOP, spliced XBP1) in multiple disease models
 - FDA-approved (as ursodiol) for primary biliary cholangitis at 13-15 mg/kg/day; TUDCA is the taurine-conjugated form with better solubility
-- Half-life ~4-6h; well-tolerated (diarrhea most common AE at high doses)
+- Half-life approximately 4-6h; well-tolerated (diarrhea most common AE at high doses)
 - Neuroprotective in preclinical models of Huntington's, Parkinson's, and Alzheimer's
 
 *4-Phenylbutyrate (4-PBA):*
@@ -824,7 +824,7 @@ Experimental M1/M4 PAMs (e.g., VU0467154) enhance endogenous acetylcholine signa
 == Hypoxia and Oxygen-Sensing Pathway Modulation
 
 #speculation(title: [Normobaric Intermittent Hypoxic Training (IHT) for ME/CFS])[
-*Certainty: 0.45.* Brief controlled hypoxic exposures may induce beneficial HIF-1$alpha$-dependent adaptations including mitochondrial biogenesis, angiogenesis, and metabolic efficiency @Gangwar2019IHTaltitude. IHT has shown promise in Parkinson's disease @JanssenDaalen2025hypoxicPD and in athletic conditioning. The ME/CFS adaptation requires: supine position (eliminates orthostatic stress), mild hypoxia (FiO#sub[2] 0.16, equivalent to ~2000~m), short cycles (3--5~min hypoxia alternating with 3~min normoxia, total 30~min), and strict PEM monitoring (48~h post-session).
+*Certainty: 0.45.* Brief controlled hypoxic exposures may induce beneficial HIF-1$alpha$-dependent adaptations including mitochondrial biogenesis, angiogenesis, and metabolic efficiency @Gangwar2019IHTaltitude. IHT has shown promise in Parkinson's disease @JanssenDaalen2025hypoxicPD and in athletic conditioning. The ME/CFS adaptation requires: supine position (eliminates orthostatic stress), mild hypoxia (FiO#sub[2] 0.16, equivalent to approximately 2000~m), short cycles (3--5~min hypoxia alternating with 3~min normoxia, total 30~min), and strict PEM monitoring (48~h post-session).
 
 *Mechanistic rationale.* Brief hypoxia → HIF-1$alpha$ stabilization → transcriptional programme activation → VEGF (angiogenesis), EPO (erythropoiesis), PGC-1$alpha$ (mitochondrial biogenesis), GLUT1 (glycolytic capacity). Repeated sessions are hypothesised to raise the hypoxic threshold and improve exercise tolerance.
 
@@ -834,7 +834,7 @@ Experimental M1/M4 PAMs (e.g., VU0467154) enhance endogenous acetylcholine signa
 ] <spec:iht-mecfs>
 
 #speculation(title: [Intermittent Hypoxia-Hyperoxia Treatment (IHHT) — REenergizeME Trial])[
-*Certainty: 0.30.* IHHT — repeated cycles of hypoxic (FiO#sub[2] 9--13%) and hyperoxic (FiO#sub[2] ~36%) exposure — is distinct from the hypoxia-only IHT above: the alternating hyperoxic restitution phase is hypothesised to enhance mitochondrial antioxidant/repair pathway activation via hormetic redox signalling @Zhang2023HypoxiaConditioning. The registered, blinded, placebo-controlled REenergizeME RCT (Nochi et al.\ 2026) is testing this in 104 female ME/CFS patients (International Consensus Criteria, mild--moderate NICE) over 6 sessions in 8 weeks, primary endpoint SF-36 vitality @Nochi2026REenergizeME.
+*Certainty: 0.30.* IHHT — repeated cycles of hypoxic (FiO#sub[2] 9--13%) and hyperoxic (FiO#sub[2] approximately 36%) exposure — is distinct from the hypoxia-only IHT above: the alternating hyperoxic restitution phase is hypothesised to enhance mitochondrial antioxidant/repair pathway activation via hormetic redox signalling @Zhang2023HypoxiaConditioning. The registered, blinded, placebo-controlled REenergizeME RCT (Nochi et al.\ 2026) is testing this in 104 female ME/CFS patients (International Consensus Criteria, mild--moderate NICE) over 6 sessions in 8 weeks, primary endpoint SF-36 vitality @Nochi2026REenergizeME.
 
 *Mechanistic rationale (hypothesis, not established).* Recurrent mild hypoxic injury to brain and muscle — from microvascular dysfunction and functional GPCR autoantibodies disrupting oxygen delivery — is hypothesised to contribute to the mitochondrial dysfunction, oxidative stress and inflammation associated with PEM; each step is a candidate, not a confirmed chain. Mild hormetic hypoxia stabilises HIF-1$alpha$, activating mitochondrial antioxidant/repair, angiogenesis and vascular regulation pathways. This is the controlled ambulatory instantiation of the altitude/HIF-1$alpha$ preconditioning hypothesis in this paper (@spec:hif-pathway-inertia, hypoxia-altitude corpus) @Nochi2026REenergizeME @Zhang2023HypoxiaConditioning.
 
@@ -870,7 +870,7 @@ Experimental M1/M4 PAMs (e.g., VU0467154) enhance endogenous acetylcholine signa
 
 *Mechanistic rationale.* SARS-CoV-2 spike protein upregulates HIF-2$alpha$ in pulmonary and retinal endothelium, promoting VEGF production, intercellular gap formation, and increased permeability. If a similar mechanism operates in ME/CFS (whether from SARS-CoV-2, EBV, HHV-6, or other viral triggers), HIF-2$alpha$ inhibition could restore endothelial barrier integrity. The antiviral signaling protein IRF3 directly regulates HIF-$alpha$ cytoplasmic retention — viral infection relieves this retention, linking diverse viral triggers to the same HIF-2$alpha$ pathway @Deng2026IRF3HIFalpha.
 
-*Selection criteria:* Post-viral onset, elevated VEGF/vWF, $beta_2$AR-autoantibody-negative (the ~70% subgroup with no known ED mechanism — Section @sec:hif2a-endothelial).
+*Selection criteria:* Post-viral onset, elevated VEGF/vWF, $beta_2$AR-autoantibody-negative (the approximately 70% subgroup with no known ED mechanism — Section @sec:hif2a-endothelial).
 
 *Dosing:* Start 40~mg daily. Monitor hemoglobin (risk of anemia — HIF-2$alpha$ supports renal EPO production), blood pressure, VEGF q2 wks.
 

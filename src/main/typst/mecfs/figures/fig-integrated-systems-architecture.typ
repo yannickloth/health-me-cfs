@@ -46,7 +46,7 @@
     content((0, 10.5), text(size: 13pt, weight: "bold",
       [Whole-Body ME/CFS Systems Model Architecture]))
     content((0, 9.9), text(size: 8pt, style: "italic", fill: gray,
-      [~42 coupled state variables across 7 subsystems]))
+      [approximately 42 coupled state variables across 7 subsystems]))
 
     // === SUBSYSTEM NODES ===
     // Energy Metabolism (top-left)

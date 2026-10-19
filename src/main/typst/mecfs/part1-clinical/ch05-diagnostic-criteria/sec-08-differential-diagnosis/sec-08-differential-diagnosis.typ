@@ -254,7 +254,7 @@ Several conditions frequently co-occur with ME/CFS at rates far exceeding chance
 
     - *ME/CFS* (Myalgic Encephalomyelitis/Chronic Fatigue Syndrome)
     - *Fibromyalgia*: Widespread pain with tender points (30–70% of ME/CFS patients)
-    - *POTS* (Postural Orthostatic Tachycardia Syndrome): Orthostatic intolerance is present in 70–90% of ME/CFS patients, but only a subset meet full POTS heart-rate criteria (~25–50% by pooled estimates; ~27% in a formal tilt-table series @Hoad2008pots). Orthostatic intolerance and POTS are distinct — see the important distinction in @cf:pots-hr-threshold-nonpredictive.
+    - *POTS* (Postural Orthostatic Tachycardia Syndrome): Orthostatic intolerance is present in 70–90% of ME/CFS patients, but only a subset meet full POTS heart-rate criteria (approximately 25–50% by pooled estimates; approximately 27% in a formal tilt-table series @Hoad2008pots). Orthostatic intolerance and POTS are distinct — see the important distinction in @cf:pots-hr-threshold-nonpredictive.
     - *MCAS* (Mast Cell Activation Syndrome): Histamine-mediated symptoms (estimates 10–50%)
     - *hEDS* (Hypermobile Ehlers-Danlos Syndrome): Joint hypermobility (higher in ME/CFS than general population)
     - *IBS* (Irritable Bowel Syndrome): Functional GI symptoms (30–50% of ME/CFS patients)

@@ -58,7 +58,7 @@ Toll-like receptor (TLR) genes, which recognize pathogen-associated molecular pa
 
 Complement system genes have received less attention but merit investigation given emerging evidence for complement dysregulation in ME/CFS. Genetic variants affecting complement activation thresholds or regulatory protein function might predispose to excessive inflammatory responses or impaired clearance of immune complexes.
 
-*DNASE1 and DNASE1L3 — Potential Post-Viral Susceptibility Loci.* Garcia et al. @GarciaLabroucheColomer2024 identified nine linked _DNASE1_ promoter polymorphisms associated with ~75% reduction in DNase1 antigen in COVID-19 patients, all three minor-allele carriers being critical cases. These variants reduce circulating DNase1—one of two enzymes responsible for degrading neutrophil extracellular traps (NETs)—creating a constitutional vulnerability to NET/DNase imbalance during severe infection. If post-infectious ME/CFS involves impaired NET clearance (Chapter @ch:immune-dysfunction), then _DNASE1_ loss-of-function variants could represent genetic susceptibility factors predisposing to chronic post-viral pathology. _DNASE1L3_ variants did not show significant associations in this cohort, though sample size ($n=52$ hospitalized) limited power for rare variant detection. No _DNASE1_ or _DNASE1L3_ genotyping has been performed in ME/CFS cohorts.
+*DNASE1 and DNASE1L3 — Potential Post-Viral Susceptibility Loci.* Garcia et al. @GarciaLabroucheColomer2024 identified nine linked _DNASE1_ promoter polymorphisms associated with approximately 75% reduction in DNase1 antigen in COVID-19 patients, all three minor-allele carriers being critical cases. These variants reduce circulating DNase1—one of two enzymes responsible for degrading neutrophil extracellular traps (NETs)—creating a constitutional vulnerability to NET/DNase imbalance during severe infection. If post-infectious ME/CFS involves impaired NET clearance (Chapter @ch:immune-dysfunction), then _DNASE1_ loss-of-function variants could represent genetic susceptibility factors predisposing to chronic post-viral pathology. _DNASE1L3_ variants did not show significant associations in this cohort, though sample size ($n=52$ hospitalized) limited power for rare variant detection. No _DNASE1_ or _DNASE1L3_ genotyping has been performed in ME/CFS cohorts.
 
 Certainty: 0.15 (ME/CFS extrapolation; variant-phenotype association established in COVID-19 only; no ME/CFS-specific genotyping data; mechanism plausibility moderate).
 
@@ -273,7 +273,7 @@ GWAS also enables Mendelian randomisation analyses testing causal relationships 
 
 #include "subsec-18-maccallini-2026-meta-gwas-brain-first-ge/speculations/spec-syngo-postsynaptic-assembly-localizes-g.typ"
 
-{{/* Phase 10a retroactive synthesis: brain-first glutamatergic genetic architecture (condenses ~20 environments across ch12/ch14d/ch14h/ch16) */}}
+{{/* Phase 10a retroactive synthesis: brain-first glutamatergic genetic architecture (condenses approximately 20 environments across ch12/ch14d/ch14h/ch16) */}}
 #include "subsec-18-maccallini-2026-meta-gwas-brain-first-ge/syntheses/syn-brain-first-glutamatergic-genetic-architecture.typ"
 
 {{/* Phase 3 synthesis: genetic convergence on neuronal biology (cell-type enrichment findings, 2026-07-21; reframed to two data types 2026-10-12) */}}

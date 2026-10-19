@@ -131,7 +131,7 @@ S_i &= frac(upright("Var")(bb(E)[Y | theta_i]), upright("Var")(Y)) \
 S_(T i) &= 1 - frac(upright("Var")(bb(E)[Y | bold(theta)_(tilde i)]), upright("Var")(Y))
 $ <eq:sobol-indices>
 
-where $bold(theta)_(tilde i)$ denotes all parameters except $theta_i$. A sample size of $N(2p+2)$ model evaluations is required, where $p$ is the number of parameters and $N >= 1000$ for convergent estimates. For the full 42-variable model with approximately 60 parameters, this requires ~122,000 model evaluations---computationally feasible given the sub-second integration time per evaluation.
+where $bold(theta)_(tilde i)$ denotes all parameters except $theta_i$. A sample size of $N(2p+2)$ model evaluations is required, where $p$ is the number of parameters and $N >= 1000$ for convergent estimates. For the full 42-variable model with approximately 60 parameters, this requires approximately 122,000 model evaluations---computationally feasible given the sub-second integration time per evaluation.
 
 Parameters with $S_(T i) < 0.01$ are classified as insensitive and can be fixed at nominal values without affecting model predictions. Parameters with $S_i > 0.1$ are classified as influential and are prioritized for experimental measurement.
 

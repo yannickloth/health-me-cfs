@@ -6,7 +6,7 @@
   *Mechanistic chain:*
   + Dysbiosis shifts microbiome toward sulfate-reducing bacteria (favoured by Western diet, dietary sulfur, impaired motility)
   + Sulfate-reducing bacteria produce H#sub[2]S as metabolic waste @Pimenta2024sulfidogenic
-  + H#sub[2]S enters portal circulation; liver clears >97% when oxygenated, but clearance drops to ~23% under hypoxic conditions @Norris2011liverH2S
+  + H#sub[2]S enters portal circulation; liver clears >97% when oxygenated, but clearance drops to approximately 23% under hypoxic conditions @Norris2011liverH2S
   + Orthostatic hypoperfusion (common in ME/CFS) may reduce hepatic oxygen delivery, impairing portal H#sub[2]S clearance
   + Systemic H#sub[2]S reaches skeletal muscle, cardiac muscle, and brain mitochondria
   + Complex IV inhibition reduces ATP ceiling in all affected tissues

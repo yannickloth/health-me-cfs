@@ -10,7 +10,7 @@ $
 v_(upright("PFK-1")) = 1.2 dot.op frac(0.15^(2.5), 0.12^(2.5) + 0.15^(2.5)) dot.op frac(3.0, 3.0 + 4.5) dot.op frac(0.3, 0.15 + 0.3) approx 0.29 upright(" mM/min")
 $
 
-For a healthy individual ($[upright("ATP")] = 5.0$, $[upright("AMP")] = 0.1$): $v approx 0.18$ mM/min. The ME/CFS patient has ~60% higher glycolytic flux at rest due to the lower ATP (releasing PFK-1 inhibition) and higher AMP (activating PFK-1)---consistent with the elevated resting lactate observed clinically.
+For a healthy individual ($[upright("ATP")] = 5.0$, $[upright("AMP")] = 0.1$): $v approx 0.18$ mM/min. The ME/CFS patient has approximately 60% higher glycolytic flux at rest due to the lower ATP (releasing PFK-1 inhibition) and higher AMP (activating PFK-1)---consistent with the elevated resting lactate observed clinically.
 
 *Inter-model dependencies.* _Inputs_: ATP and AMP concentrations from the integrated energy production model (@sec:integrated-energy). _Outputs_: pyruvate production rate, which feeds the Krebs cycle model (@sec:krebs-cycle-model) and lactate kinetics (@sec:lactate-kinetics).
 

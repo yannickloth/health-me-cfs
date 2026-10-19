@@ -123,26 +123,26 @@
     line((ox + 0.8, 0), (ox + 0.8, 7.0), stroke: (paint: gray, dash: "densely-dotted", thickness: 0.9pt))
     content((ox + 0.8, 7.3), box(fill: white, inset: 1pt, text(size: 9pt, fill: gray, [Onset])))
 
-    // --- Trajectory 1: Recovery (~5%) ---
+    // --- Trajectory 1: Recovery (approximately 5%) ---
     line((ox, 0.6), (ox + 0.8, 0.6), stroke: (paint: green-recov, thickness: 2pt))
     bezier((ox + 0.8, 0.6), (ox + 5.0, 0.9),
       (ox + 1.0, 2.8), (ox + 2.2, 2.3), stroke: (paint: green-recov, thickness: 2pt))
     line((ox + 5.0, 0.9), (ox + 7.5, 0.7), stroke: (paint: green-recov, thickness: 2pt))
 
-    // --- Trajectory 2: Improvement (~25%) ---
+    // --- Trajectory 2: Improvement (approximately 25%) ---
     line((ox, 0.6), (ox + 0.8, 0.6), stroke: (paint: teal-impr, thickness: 2pt))
     bezier((ox + 0.8, 0.6), (ox + 6.0, 2.3),
       (ox + 1.0, 3.0), (ox + 2.8, 3.3), stroke: (paint: teal-impr, thickness: 2pt))
     bezier((ox + 6.0, 2.3), (ox + 7.5, 2.0),
       (ox + 6.8, 2.1), (ox + 7.2, 2.0), stroke: (paint: teal-impr, thickness: 2pt))
 
-    // --- Trajectory 3: Stable (~50%) ---
+    // --- Trajectory 3: Stable (approximately 50%) ---
     line((ox, 0.6), (ox + 0.8, 0.6), stroke: (paint: blue-stable, thickness: 2pt))
     bezier((ox + 0.8, 0.6), (ox + 1.6, 4.2),
       (ox + 1.0, 3.2), (ox + 1.3, 4.2), stroke: (paint: blue-stable, thickness: 2pt))
     line((ox + 1.6, 4.2), (ox + 7.5, 4.2), stroke: (paint: blue-stable, thickness: 2pt))
 
-    // --- Trajectory 4: Progressive (~20%) ---
+    // --- Trajectory 4: Progressive (approximately 20%) ---
     line((ox, 0.6), (ox + 0.8, 0.6), stroke: (paint: red-prog, thickness: 2pt))
     bezier((ox + 0.8, 0.6), (ox + 1.6, 4.8),
       (ox + 1.0, 3.5), (ox + 1.3, 4.6), stroke: (paint: red-prog, thickness: 2pt))
@@ -165,13 +165,13 @@
     let ly = 7.6
     rect((lx, ly - 2.4), (lx + 3.4, ly), fill: white, stroke: gray + 0.9pt, radius: 0.1)
     line((lx + 0.2, ly - 0.35), (lx + 0.9, ly - 0.35), stroke: (paint: green-recov, thickness: 2pt))
-    content((lx + 2.0, ly - 0.35), text(size: 9pt, [Recovery (~5%)]))
+    content((lx + 2.0, ly - 0.35), text(size: 9pt, [Recovery (approximately 5%)]))
     line((lx + 0.2, ly - 0.85), (lx + 0.9, ly - 0.85), stroke: (paint: teal-impr, thickness: 2pt))
-    content((lx + 2.0, ly - 0.85), text(size: 9pt, [Improvement (~25%)]))
+    content((lx + 2.0, ly - 0.85), text(size: 9pt, [Improvement (approximately 25%)]))
     line((lx + 0.2, ly - 1.35), (lx + 0.9, ly - 1.35), stroke: (paint: blue-stable, thickness: 2pt))
-    content((lx + 2.0, ly - 1.35), text(size: 9pt, [Stable (~50%)]))
+    content((lx + 2.0, ly - 1.35), text(size: 9pt, [Stable (approximately 50%)]))
     line((lx + 0.2, ly - 1.85), (lx + 0.9, ly - 1.85), stroke: (paint: red-prog, thickness: 2pt))
-    content((lx + 2.0, ly - 1.85), text(size: 9pt, [Progressive (~20%)]))
+    content((lx + 2.0, ly - 1.85), text(size: 9pt, [Progressive (approximately 20%)]))
 
     content((ox + 0.6, -1.0), text(weight: "bold", [(b)]))
   })),

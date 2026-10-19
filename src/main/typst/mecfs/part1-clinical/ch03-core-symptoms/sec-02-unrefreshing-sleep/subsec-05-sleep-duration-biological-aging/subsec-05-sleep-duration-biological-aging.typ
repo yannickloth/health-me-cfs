@@ -6,7 +6,7 @@ The relationship between sleep duration and biological aging follows a U-shaped 
 
 ==== U-Shaped Aging Curve
 
-The MULTI Consortium et al. (2026) analyzed UK Biobank data from ~500,000 participants aged 37–84 years using 23 biological aging clocks derived from imaging, plasma proteomics, and metabolomics @MULTIConsortium2026SleepChartBiologicalAging. Key findings:
+The MULTI Consortium et al. (2026) analyzed UK Biobank data from approximately 500,000 participants aged 37–84 years using 23 biological aging clocks derived from imaging, plasma proteomics, and metabolomics @MULTIConsortium2026SleepChartBiologicalAging. Key findings:
 
 - *Optimal sleep duration*: 6.4–7.8 hours for minimal biological age gaps (varies by organ and sex)
 - *Short sleep* (\u003c6h) and *long sleep* (\u003e8h) both associated with increased risk of systemic diseases and all-cause mortality

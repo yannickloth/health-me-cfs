@@ -10,7 +10,7 @@ Three substrate-delivery mechanisms remain uncharacterized in ME/CFS despite bei
 To decide which gaps to study first, the following four criteria are applied to each gap:
 
     / *Essentiality*: Is the mechanism a _sole_ pathway (no redundancy) or one of several parallel routes? A sole pathway's failure is catastrophic; a redundant pathway's failure is compensable.
-    / *Worst-case impact*: If the mechanism is fully failed, what fraction of the ~30 ATP/glucose total is lost downstream? Expressed as a percentage of Step 1's gated yield (100% of ~30 ATP).
+    / *Worst-case impact*: If the mechanism is fully failed, what fraction of the approximately 30 ATP/glucose total is lost downstream? Expressed as a percentage of Step 1's gated yield (100% of approximately 30 ATP).
     / *Tractability*: How hard is the measurement to perform in patients? Scored as _easy_ (plasma/serum, existing assay), _moderate_ (PBMC or imaging, specialist lab), _hard_ (muscle biopsy, research-only assay), or _very hard_ (tissue that requires invasive sampling or post-mortem).
     / *Therapeutic leverage*: Is a correction already available, or would development be required? _Immediate_ (FDA-approved drug exists for analogous indication), _near-term_ (off-label repurposing with reasonable prior), _long-term_ (new drug development required).
 
@@ -28,7 +28,7 @@ None of the three listed Step 1 gaps is _individually essential_ to cellular ene
 
 #figure(
   kind: table,
-  caption: [Step 1 research gaps — essentiality, worst-case impact, tractability, therapeutic leverage, measurement accessibility, and priority tier. Worst-case impact is expressed as the fraction of Step 1's gated ATP yield (~30 ATP/glucose = 100%) that would be lost if the mechanism fully failed, assuming no compensation from parallel routes. Priority tiers integrate all four criteria.],
+  caption: [Step 1 research gaps — essentiality, worst-case impact, tractability, therapeutic leverage, measurement accessibility, and priority tier. Worst-case impact is expressed as the fraction of Step 1's gated ATP yield (approximately 30 ATP/glucose = 100%) that would be lost if the mechanism fully failed, assuming no compensation from parallel routes. Priority tiers integrate all four criteria.],
   table(
     columns: (auto, auto, auto, auto, auto, auto, auto),
     align: (left, left, left, left, left, left, center),
@@ -37,14 +37,14 @@ None of the three listed Step 1 gaps is _individually essential_ to cellular ene
     ),
     [G1: GLUT4 trafficking (skeletal muscle)],
     [Medium — one of 4 GLUT isoforms; GLUT1/3 compensate partially at rest but not under insulin-stimulated demand; glucose uptake impaired in ME/CFS muscle cells with defect proximal to AMPK @Brown2018AMPK],
-    [~30--60% of gated yield in insulin-sensitive tissues during exertion; negligible at rest],
+    [approximately 30--60% of gated yield in insulin-sensitive tissues during exertion; negligible at rest],
     [Hard — muscle biopsy with GLUT4 immunofluorescence or surface-biotinylation assay],
     [Immediate — metformin, berberine, exercise-mimetics (AICAR research-grade)],
     [Muscle biopsy (IF)],
     [2],
     [G2: Malonyl-CoA/CPT1 fuel switch],
     [High — sole gate between glucose-preferential and fatty-acid-preferential metabolism; no parallel switch; Reuter 2011 inferred reduced CPT-I from 30--40% lower long-chain acylcarnitines ],
-    [~20--40% of gated yield if the switch is locked in either mode (prevents substrate-flexible compensation during exertion or fasting)],
+    [approximately 20--40% of gated yield if the switch is locked in either mode (prevents substrate-flexible compensation during exertion or fasting)],
     [Moderate — plasma malonyl-CoA (specialist LC-MS) + PBMC ACC/AMPK phospho-Western],
     [Near-term — AMPK activators (metformin); ACC inhibitors (firsocostat) in phase II for NASH],
     [Blood draw (specialist LC-MS)],

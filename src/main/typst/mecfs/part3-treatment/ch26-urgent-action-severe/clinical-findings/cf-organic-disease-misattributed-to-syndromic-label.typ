@@ -13,7 +13,7 @@ when those symptoms are attributed to a syndromic diagnosis such as ME/CFS.
   and ALS (n = 4) @Kobayashi2022.
 - *Interpretation:* A patient labelled with a chronic multi-system syndrome can have a
   serious organic illness that is missed *because* the label absorbs the symptoms.
-- *Counter-evidence:* In primary care, malignancy is present in only ~0.6% of tiredness
+- *Counter-evidence:* In primary care, malignancy is present in only approximately 0.6% of tiredness
   presentations and serious somatic disease 4.3%, so the answer is targeted red-flag
   investigation, not blanket screening @Stadje2016; population data show no excess
   lymphoma after ME/CFS outbreaks @Levine1992.

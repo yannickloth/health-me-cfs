@@ -18,7 +18,7 @@ These drugs trigger compensatory anti-inflammatory and antioxidant gene expressi
 
 The inverted-U is a receptor-occupancy property — not biological adaptation. The drug activates the receptor with lower intrinsic activity than the natural ligand (dopamine). At low occupancy: net agonism. At high occupancy: displacement of dopamine produces net antagonism. This applies identically in any population with dopamine deficit.
 
-*Drugs in this category:* LDA (aripiprazole 0.2--2 mg, D2/D3, ~25% intrinsic activity). Single member in ME/CFS.
+*Drugs in this category:* LDA (aripiprazole 0.2--2 mg, D2/D3, approximately 25% intrinsic activity). Single member in ME/CFS.
 
 *How to read:* Benefit at low dose (≤1 mg for microglial D2) → D2 receptors present and functional; microglial D2-mediated cytokine suppression is rate-limiting. Benefit at 1--2 mg → mesocorticolimbic D2 + 5-HT1A engaged — broad D2 reserve. Benefit lost above 2 mg or akathisia → inversion point crossed; occupancy exceeding 50% produces net D2 antagonism. The threshold dose at which benefit disappears maps the receptor reserve.
 

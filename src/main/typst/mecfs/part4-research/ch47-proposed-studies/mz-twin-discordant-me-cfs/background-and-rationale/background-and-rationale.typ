@@ -20,7 +20,7 @@ DecodeME (n=15,579 cases, n=259,909 controls) identified eight genome-wide signi
 
 *Rare variant convergence.* An independent rare-variant analysis (Snyder 2025) identified synaptic genes (NLGN2, SYNGAP1) — two independent methodological paths converging on neuronal biology @Snyder2025rareBrain.
 
-*Heritability estimates.* Twin studies yield h² ≈ 0.51 (95% CI: 0.37--0.65) for ME/CFS, while DecodeME's SNP-based heritability is h²_SNP = 0.095 — the 5.4-fold gap means ~81% of the genetic liability is "missing" @Buchwald2001 @DecodeME2025. Shared environment, rare variants, epistasis, and gene-environment interactions fill the gap.
+*Heritability estimates.* Twin studies yield h² ≈ 0.51 (95% CI: 0.37--0.65) for ME/CFS, while DecodeME's SNP-based heritability is h²_SNP = 0.095 — the 5.4-fold gap means approximately 81% of the genetic liability is "missing" @Buchwald2001 @DecodeME2025. Shared environment, rare variants, epistasis, and gene-environment interactions fill the gap.
 
 These findings create a specific prediction: if ME/CFS genetic risk operates through striatal circuits, and if environmental triggers (infection, stress) activate this vulnerability, then discordant MZ twins should differ in striatal imaging markers despite identical genomes. The unaffected co-twin carries the same genetic vulnerability — but lacks the illness, meaning the difference between twins isolates the acquired pathology.
 

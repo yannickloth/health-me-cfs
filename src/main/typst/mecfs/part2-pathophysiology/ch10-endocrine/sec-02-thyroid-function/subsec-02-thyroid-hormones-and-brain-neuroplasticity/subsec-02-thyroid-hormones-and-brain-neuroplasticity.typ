@@ -35,7 +35,7 @@ If this vicious cycle model is correct, T3 supplementation could break it at the
 
   - ME/CFS patients with documented Low T3 Syndrome treated with liothyronine (25--37.5 $mu$g/day) should show reduction in serum IL-6 and TNF-$alpha$ at 8--12 weeks, in addition to cognitive improvement.
   - CSF or plasma BDNF should increase with T3 supplementation proportionally to the improvement in free T3 levels.
-  - Patients with the DIO2 Thr92Ala polymorphism (present in ~50% of the population), which impairs local brain T3 production, should show greater cognitive response to exogenous T3 than wild-type patients.
+  - Patients with the DIO2 Thr92Ala polymorphism (present in approximately 50% of the population), which impairs local brain T3 production, should show greater cognitive response to exogenous T3 than wild-type patients.
 
 *Limitations*
 
@@ -48,11 +48,11 @@ This vicious cycle is formalized as Loop 2 in the neuroplasticity attractor dyna
 
 ==== The DIO2 Polymorphism: A Vulnerability Factor
 
-The type 2 deiodinase Thr92Ala polymorphism (rs225014) is present in approximately 50% of the global population. The Ala92 variant causes endoplasmic reticulum stress and aberrant accumulation of DIO2 protein in the trans-Golgi apparatus, where it is catalytically inactive. This reduces local T3 production in astrocytes---the primary source of brain T3 via the paracrine astrocyte-to-neuron T3 supply pathway. Carrier mice show impaired short-term memory, reduced physical activity, and increased sleep @Bianco2018DIO2. The polymorphism has been associated with bipolar disorder, Alzheimer's disease, and post-COVID-19 depression, though at least one large study found no association with cognitive impairment in older adults, and the functional significance of the polymorphism remains contested. The high population frequency (~50%) means any clinical effect is likely modest in the absence of additional insults.
+The type 2 deiodinase Thr92Ala polymorphism (rs225014) is present in approximately 50% of the global population. The Ala92 variant causes endoplasmic reticulum stress and aberrant accumulation of DIO2 protein in the trans-Golgi apparatus, where it is catalytically inactive. This reduces local T3 production in astrocytes---the primary source of brain T3 via the paracrine astrocyte-to-neuron T3 supply pathway. Carrier mice show impaired short-term memory, reduced physical activity, and increased sleep @Bianco2018DIO2. The polymorphism has been associated with bipolar disorder, Alzheimer's disease, and post-COVID-19 depression, though at least one large study found no association with cognitive impairment in older adults, and the functional significance of the polymorphism remains contested. The high population frequency (approximately 50%) means any clinical effect is likely modest in the absence of additional insults.
 
 #speculation(title: [DIO2 Thr92Ala as ME/CFS Cognitive Vulnerability Factor])[
 *Certainty: 0.25.* In the ME/CFS context, DIO2 Thr92Ala carriers could represent a subgroup with constitutively impaired brain T3 availability that is further compromised by the cytokine-mediated deiodinase suppression documented in Section @sec:thyroid. If so, these patients would be predicted to: (1) have more severe cognitive symptoms relative to their systemic thyroid hormone levels; (2) show preferential response to T3 supplementation over T4 monotherapy; and (3) experience greater neurological benefit from any intervention that restores brain T3 levels. Genotyping could serve as a stratification biomarker in future T3 supplementation trials.
 
-However, the ~50% population prevalence presents a challenge: if this variant meaningfully impairs brain T3 in the presence of ME/CFS, one would expect stronger clustering of cognitive severity in carriers---a prediction that has not been tested. The null prediction (carriers respond like non-carriers) is equally plausible given the contested functional significance of this polymorphism.
+However, the approximately 50% population prevalence presents a challenge: if this variant meaningfully impairs brain T3 in the presence of ME/CFS, one would expect stronger clustering of cognitive severity in carriers---a prediction that has not been tested. The null prediction (carriers respond like non-carriers) is equally plausible given the contested functional significance of this polymorphism.
 ] <spec:dio2-thr92ala>
 

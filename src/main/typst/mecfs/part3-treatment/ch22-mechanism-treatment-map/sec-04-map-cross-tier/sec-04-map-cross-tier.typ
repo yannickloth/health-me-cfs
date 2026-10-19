@@ -16,7 +16,7 @@ Some interventions target multiple mechanisms simultaneously, or address disease
     [CPAP (if OSA comorbid)], [Tier 2: sleep fragmentation ↓; dysautonomia ↓; treats comorbidity only], [A/B], [Clinical; does _not_ resolve core ME/CFS],
     [Mediterranean / anti-inflammatory diet], [Tier 2: oxidative stress ↓, gut barrier ↑, mast cell load ↓], [A], [Lifestyle; no ME/CFS RCT],
     [MCT oil], [Ketone substrate; bypasses glycolytic bottleneck], [A], [Supplement; no ME/CFS RCT],
-    [Rapamycin (sirolimus)], [Tier 1 (immune brake) + Tier 2 (mitophagy, epigenetic aging ↓)], [B/C], [Pilot — ~34% ITT response],
+    [Rapamycin (sirolimus)], [Tier 1 (immune brake) + Tier 2 (mitophagy, epigenetic aging ↓)], [B/C], [Pilot — approximately 34% ITT response],
     [GLP-1 agonists (semaglutide)], [Neuroinflammation ↓ + metabolic + vagal tone; genetic pathway enrichment (PrecisionLife @Gardner2026BRMEC15)], [B/C], [Experimental; Long COVID signal; no ME/CFS data; liraglutide preferred for CNS endpoints (see @spec:glp1-subgroup-stratified-repurposing)],
     [LOLA (L-ornithine L-aspartate)], [Ammonia detoxification + mitochondrial substrate], [A/B], [Experimental],
     [Perrin technique (lymphatic drainage)], [Glymphatic clearance of CNS neurotoxins; ANS normalization], [A], [Very low evidence; mechanistically plausible],

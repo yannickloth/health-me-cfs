@@ -19,7 +19,7 @@ The logical structure is:
 
 *Certainty: 0.90.* The RCT is definitive. The inference chain from "no clinical improvement" to "hypothesis falsified" carries its own certainty, moderated by the remaining alternatives.
 
-*Consequence:* The rituximab null eliminates an entire class of therapeutic strategies — B-cell depletion — from the first-line treatment toolkit. It does NOT eliminate all autoantibody mechanisms: plasma-cell-driven AAb (daratumumab-sensitive), non-IgG AAb, or intracellular AAb compartments remain viable. But the null establishes that whatever is producing the autoantibodies, it isn't CD20+ B cells. This is the most expensive negative result in ME/CFS research (\$5M, \~10 years) — and the most informative.
+*Consequence:* The rituximab null eliminates an entire class of therapeutic strategies — B-cell depletion — from the first-line treatment toolkit. It does NOT eliminate all autoantibody mechanisms: plasma-cell-driven AAb (daratumumab-sensitive), non-IgG AAb, or intracellular AAb compartments remain viable. But the null establishes that whatever is producing the autoantibodies, it isn't CD20+ B cells. This is the most expensive negative result in ME/CFS research (\$5M, \approximately 10 years) — and the most informative.
 (Origin: literature-derived — Fluge2019.)
 
 ] <ach:rituximab-canonical-negative-control>

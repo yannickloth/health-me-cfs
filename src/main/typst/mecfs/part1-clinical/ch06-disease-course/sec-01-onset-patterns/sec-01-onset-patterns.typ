@@ -222,7 +222,7 @@ The two peaks are not merely statistical artefacts---they correspond to clinical
     - *Infectious triggers*: More common in early onset (57% vs.\ 47%, $p = 2.1 times 10^(-13)$), with infectious mononucleosis (glandular fever) particularly prominent (OR 2.32 for early onset, $p = 2.4 times 10^(-24)$ in DecodeME)
     - *Severity*: Early-onset cases are more than twice as likely to be severe or very severe (OR 2.15, $p lt 2 times 10^(-16)$), and this association is independent of illness duration
     - *Familial clustering*: First-degree relatives with ME/CFS are more common in the early peak (22.5% vs.\ 14.9%, OR 1.43, $p = 4.4 times 10^(-7)$), suggesting greater genetic or shared-environment contribution
-    - *Gender ratio*: No significant difference between peaks (~80% female in both)
+    - *Gender ratio*: No significant difference between peaks (approximately 80% female in both)
 
 #include "clinical-findings/cf-early-onset-me-cfs-carries-higher-severity-and-greater-familial-clustering.typ"
 
@@ -234,9 +234,9 @@ The bimodal pattern has direct implications for ME/CFS research design:
 
     - *Stratification*: Future studies should stratify by onset age (early vs.\ late) to detect subgroup-specific biological mechanisms, as has been done successfully in vitiligo (see below)
     - *Genetic analysis*: The vitiligo precedent demonstrates that bimodal onset can reveal distinct genetic architectures---early-onset vitiligo has an MHC class II haplotype with OR > 8 @Jin2019vitiligoBimodal. No GWAS has yet stratified ME/CFS by onset age
-    - *Mechanistic investigation*: The specific ages (~16 and ~37) may correspond to windows of biological vulnerability (pubertal immune changes, hormonal transitions, cumulative exposures)
-    - *Infection prevention*: Vaccination against EBV and other common triggers could preferentially reduce the early-onset peak, as EBV vaccines are in development. Post-licensure surveillance should test whether the early peak (~16) flattens while the late peak (~37) remains unchanged---a differential pattern that would confirm EBV as the primary driver of early-onset disease
-    - *Female predominance parity*: The ~80% female ratio is identical between peaks despite divergent hormonal contexts (puberty vs.\ perimenopause). Investigating non-hormonal female susceptibility mechanisms---such as X chromosome immune-gene dosage effects (Section @sec:bimodal-cross-disease)---could reveal universal ME/CFS risk architecture independent of age and reproductive stage
+    - *Mechanistic investigation*: The specific ages (approximately 16 and approximately 37) may correspond to windows of biological vulnerability (pubertal immune changes, hormonal transitions, cumulative exposures)
+    - *Infection prevention*: Vaccination against EBV and other common triggers could preferentially reduce the early-onset peak, as EBV vaccines are in development. Post-licensure surveillance should test whether the early peak (approximately 16) flattens while the late peak (approximately 37) remains unchanged---a differential pattern that would confirm EBV as the primary driver of early-onset disease
+    - *Female predominance parity*: The approximately 80% female ratio is identical between peaks despite divergent hormonal contexts (puberty vs.\ perimenopause). Investigating non-hormonal female susceptibility mechanisms---such as X chromosome immune-gene dosage effects (Section @sec:bimodal-cross-disease)---could reveal universal ME/CFS risk architecture independent of age and reproductive stage
 
 The cross-disease precedent is examined in Section @sec:bimodal-cross-disease.
 

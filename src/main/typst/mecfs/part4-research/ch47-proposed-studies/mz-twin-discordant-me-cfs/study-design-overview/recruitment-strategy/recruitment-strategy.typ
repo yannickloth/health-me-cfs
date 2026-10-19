@@ -10,7 +10,7 @@
 
 *Primary sample:* 30 MZ twin pairs discordant for ME/CFS (n=60 individuals).
 
-*Rationale for n=30 pairs:* A feasibility-constrained maximum, not a power-driven optimum. MZ twins discordant for ME/CFS are rare. The disease affects ~0.2--0.4% of the population, and MZ twins constitute ~0.3% of births. The expected yield from comprehensive recruitment across all available registries is 20--40 pairs.
+*Rationale for n=30 pairs:* A feasibility-constrained maximum, not a power-driven optimum. MZ twins discordant for ME/CFS are rare. The disease affects approximately 0.2--0.4% of the population, and MZ twins constitute approximately 0.3% of births. The expected yield from comprehensive recruitment across all available registries is 20--40 pairs.
 
 *Power analysis at n=30 pairs:*
 - Paired t-test (within-pair comparison of affected vs unaffected twin): 80% power to detect δ = 0.53 SD at α = 0.05 (two-tailed). The Liu 2026 long COVID VMAT2 effect size was δ ≈ 1.4 -- 1.6 SD for ventral striatum and dorsal putamen @Liu2026VMAT2longcovid, so n=30 pairs has adequate power to detect effects ≥half the magnitude reported in long COVID.
