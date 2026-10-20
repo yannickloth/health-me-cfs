@@ -553,6 +553,8 @@
               java --source 25 src/test/java/web/BlogAuditTest.java target/quarto/en/blog
               java --source 25 src/test/java/web/BlogAuditTest.java target/quarto/de/blog
               java --source 25 src/test/java/web/BlogAuditTest.java target/quarto/fr/blog
+              java --source 25 src/test/java/web/BlogAuditTest.java target/quarto/es/blog
+              java --source 25 src/test/java/web/BlogAuditTest.java target/quarto/pt/blog
             '';
             installPhase = ''
               mkdir -p $out

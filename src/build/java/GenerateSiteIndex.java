@@ -166,6 +166,8 @@ void generateListings(Path siteDir, Path webSrcDir) throws IOException {
     addListing(entries, webSrcDir, "/en/blog/index.html", webSrcDir.resolve("en/blog"));
     addListing(entries, webSrcDir, "/de/blog/index.html", webSrcDir.resolve("de/blog"));
     addListing(entries, webSrcDir, "/fr/blog/index.html", webSrcDir.resolve("fr/blog"));
+    addListing(entries, webSrcDir, "/es/blog/index.html", webSrcDir.resolve("es/blog"));
+    addListing(entries, webSrcDir, "/pt/blog/index.html", webSrcDir.resolve("pt/blog"));
     addListing(entries, webSrcDir, "/index.html", webSrcDir.resolve("en/blog"));
     writeListings(siteDir, entries);
     System.out.println("listings.json entries: " + entries.size());
@@ -235,6 +237,8 @@ String navbarTextFor(String rel) {
     if (rel.startsWith("en/blog/")) return "🇬🇧 Blog (EN)";
     if (rel.startsWith("de/blog/")) return "🇩🇪 Blog (DE)";
     if (rel.startsWith("fr/blog/")) return "🇫🇷 Blog (FR)";
+    if (rel.startsWith("es/blog/")) return "🇪🇸 Blog (ES)";
+    if (rel.startsWith("pt/blog/")) return "🇵🇹 Blog (PT)";
     return "Home";
 }
 

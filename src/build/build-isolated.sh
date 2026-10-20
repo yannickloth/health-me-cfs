@@ -61,7 +61,7 @@ mkdir -p "$STAGE" "$SITE"
 # are split to chapter level below so the critical path is a chapter, not a
 # whole part (measured renders: part2=514s, z-appendices=494s, part3=450s,
 # part4=423s, vs faq=7s).
-DIR_UNITS="front-matter part1-clinical part5-modeling faq patient-resources en/blog de/blog fr/blog"
+DIR_UNITS="front-matter part1-clinical part5-modeling faq patient-resources en/blog de/blog fr/blog es/blog pt/blog"
 # Single files (rendered into _site/ root):
 FILE_UNITS="index.qmd about.qmd"
 # Chapter-level units for the heavy parts. Each chapter subdir becomes its own

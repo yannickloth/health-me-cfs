@@ -17,5 +17,5 @@ page-layout: full
 ---
 
 ::: {.blog-lang-links}
-Also available in: English · [Français](/fr/blog/) · [Deutsch](/de/blog/)
+Also available in: English · [Français](/fr/blog/) · [Deutsch](/de/blog/) · [Español](/es/blog/) · [Português](/pt/blog/)
 :::
