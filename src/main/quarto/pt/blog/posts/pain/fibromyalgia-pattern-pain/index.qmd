@@ -25,7 +25,7 @@ Este artigo é uma visão conceitual. O que realmente é a dor do padrão de fib
 
 - **Fibromialgia** é uma doença de dor crónica definida por dor generalizada, fadiga e sintomas cognitivos — mas, ao contrário da EM/SFC, não possui PEM como característica principal. A sobreposição com a EM/SFC é significativa — uma meta-análise indica uma média de aproximadamente 47%, mas com heterogeneidade muito alta entre estudos (I²=98%), pois os critérios de diagnóstico variam amplamente; assim, as estimativas individuais variam de cerca de 47% até os 70% [@RamirezMorales2022overlap].
 - **Sensibilização central** — a medula espinhal e o cérebro amplificando sinais de dor — é amplamente considerada o mecanismo dominante em ambas as condições, com estudos baseados em QST reportando isso numa grande maioria dos pacientes. Uma observação que a restante série insistiria: a sensibilização central é inferida a partir de testes psicofísicos (testes sensoriais quantitativos), e não como um biomarcador medido diretamente; as estimativas de prevalência dependem dos limiares de QST utilizados — o mesmo ceticismo em relação aos limiares da POTS e aos testes de GPCR aplica-se aqui também [@Nijs2021sensitization].
-- **Os canais TRPV1 e TRPA1 nos nervos sensoriais estão abertos.** O TRPV1 é o receptor de calor e capsaicina — normalmente ativado em ~43°C, mas no estado sensibilizado, os prostaglandinas inflamatórios reduzem seu limiar para a temperatura corporal (~35°C), tornando o calor normal doloroso. O TRPA1 é o sensor de estresse oxidativo — ativado por ROS, H₂O₂ e aldeídos reativos que se acumulam durante a PEM [@Macpherson2007].
+- **Os canais TRPV1 e TRPA1 nos nervos sensoriais estão abertos.** O TRPV1 é o recetor de calor e capsaicina — normalmente ativado em ~43°C, mas no estado sensibilizado, os prostaglandinas inflamatórios reduzem seu limiar para a temperatura corporal (~35°C), tornando o calor normal doloroso. O TRPA1 é o sensor de estresse oxidativo — ativado por ROS, H₂O₂ e aldeídos reativos que se acumulam durante a PEM [@Macpherson2007].
 - **A dor não está “na sua cabeça” — ela está nos canais de íons, na medula espinhal e nas pequenas fibras nervosas.** E, especificamente na EM/SFC, é amplificada por mecanismos pós-esforço (ASIC3, P2X4, TLR4) que não operam apenas na fibromialgia — por isso a PEM torna a dor ainda pior.
 - **A distinção é importante.** Fibromialgia apenas: trate a amplificação central. Fibromialgia em conjunto com EM/SFC: trate a amplificação central ALÉM da sensibilização reativa impulsionada pela PEM, que continua reativando a dor após cada crise.
 
@@ -37,7 +37,7 @@ num sistema nervoso saudável, um estímulo doloroso — calor, pressão, corte 
 
 Na sensibilização central, o ganho fica alto. Três processos convergem:
 
-1. **Sumação temporal aumentada (wind-up).** Estímulos idênticos repetidos produzem respostas dolorosas cada vez maiores — o cordão espinhal amplifica em vez de habituar. Isso é dependente de receptores NMDA e é um dos resultados mais reprodutíveis de QST na fibromialgia.
+1. **Sumação temporal aumentada (wind-up).** Estímulos idênticos repetidos produzem respostas dolorosas cada vez maiores — o cordão espinhal amplifica em vez de habituar. Isso é dependente de recetores NMDA e é um dos resultados mais reprodutíveis de QST na fibromialgia.
 
 2. **Modulação dolorosa condicionada deficiente (CPM).** numa pessoa saudável, um estímulo doloroso numa área (por exemplo, água fria na mão) reduz a sensibilidade à dor em outras áreas — o fenómeno “a dor inibe a dor”, mediado por caminhos noradrenérgicos e serotonérgicos descendentes do tronco cerebral. Na fibromialgia e EM/SFC, esse sistema inibitório é fraco ou ausente — o cérebro não consegue reduzir o volume [@Nijs2017neuroinflammation].
 
@@ -51,9 +51,9 @@ O resultado: pressão que deveria sentir-se como toque sente-se como dor (allody
 
 ### TRPV1: por que o calor corporal dói
 
-TRPV1 é o "receptor capsaicin" — um canal iónico permeável a cálcio em pequenas fibras nervosas sensoriais que se abre em resposta ao calor (>43°C), prótons (acidez tecidual) e capsaicin. numa pessoa saudável, TRPV1 é um interruptor de segurança contra calor: ele ativa quando a temperatura do tecido se aproxima do limite de dano.
+TRPV1 é o "recetor capsaicin" — um canal iónico permeável a cálcio em pequenas fibras nervosas sensoriais que se abre em resposta ao calor (>43°C), prótons (acidez tecidual) e capsaicin. numa pessoa saudável, TRPV1 é um interruptor de segurança contra calor: ele ativa quando a temperatura do tecido se aproxima do limite de dano.
 
-No estado sensibilizado, **prostaglandina E₂ (PGE₂)**, liberada de tecidos inflamados ou estressados, se liga aos receptores EP1 nas terminações nervosas que expressam TRPV1. Isso reduz quimicamente o limite térmico do TRPV1 — de ~43°C para até ~35°C, que é a temperatura corporal normal [@Moriyama2005]. O resultado: o calor de um cobertor parece uma queimadura. Uma chuveiça quente é insuportável. O calor corporal — gerado pelo metabolismo normal — é suficiente para manter o TRPV1 parcialmente aberto, produzindo uma sensação de queimadura leve contínua em repouso.
+No estado sensibilizado, **prostaglandina E₂ (PGE₂)**, liberada de tecidos inflamados ou estressados, se liga aos recetores EP1 nas terminações nervosas que expressam TRPV1. Isso reduz quimicamente o limite térmico do TRPV1 — de ~43°C para até ~35°C, que é a temperatura corporal normal [@Moriyama2005]. O resultado: o calor de um cobertor parece uma queimadura. Uma chuveiça quente é insuportável. O calor corporal — gerado pelo metabolismo normal — é suficiente para manter o TRPV1 parcialmente aberto, produzindo uma sensação de queimadura leve contínua em repouso.
 
 O problema da PGE₂ é autoamplificador. A ativação do TRPV1 aumenta a **COX-2** em ~30 minutos, produzindo mais PGE₂, que ainda reduz o limite do TRPV1 — um ciclo de alimentação antecipada que não precisa de lesão tecidual em curso para se manter [@Moriyama2005]. Uma vez estabelecido, o ciclo funciona de forma autónoma.
 
@@ -61,7 +61,7 @@ O problema da PGE₂ é autoamplificador. A ativação do TRPV1 aumenta a **COX-
 
 ### TRPA1: por que o stress oxidativo dói
 
-TRPA1 é o "receptor wasabi" — ativado por óleo de mostarda, alho e irritantes ambientais. Mas seu gatilho fisiológico é o **stress oxidativo**: espécies reativas de oxigénio (H₂O₂), aldeídos reativos (4-HNE, da peroxidação lipídica) e eletrófilos modificam resíduos de cisteína específicos no TRPA1, abrindo o canal [@Macpherson2007].
+TRPA1 é o "recetor wasabi" — ativado por óleo de mostarda, alho e irritantes ambientais. Mas seu gatilho fisiológico é o **stress oxidativo**: espécies reativas de oxigénio (H₂O₂), aldeídos reativos (4-HNE, da peroxidação lipídica) e eletrófilos modificam resíduos de cisteína específicos no TRPA1, abrindo o canal [@Macpherson2007].
 
 Durante a PEM, a disfunção mitocondrial gera uma onda de ROS. Microlesões no músculo esquelético liberam produtos da peroxidação lipídica. O sinal de stress oxidativo ativa diretamente o TRPA1 nas terminações nervosas sensoriais, produzindo um sinal de dor sem correlação mecânica — o músculo não está lesionado de forma visível nas imagens, mas o nervo relata danos porque o TRPA1 foi quimicamente aberto pelo efeito metabólico do esforço.
 

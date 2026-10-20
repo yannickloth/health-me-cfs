@@ -53,7 +53,7 @@ Si las tres vías predicen una cicatrización deteriorada, ¿por qué los pacien
 
 Existen al menos tres posibilidades, y no son mutuamente excluyentes:
 
-1. **Los pacientes sedentarios sufren menos heridas.** Si estás confinado en casa o en la cama, simplemente no te cortas, tropiezas ni te raspas la rodilla con frecuencia como alguien que lleva una vida activa. El silencio clínico podría reflejar una baja incidencia de heridas, y no una curación normal de heridas.
+1. **Los pacientes sedentarios se encuentran con menos heridas.** Si estás confinado en casa o en la cama, simplemente no te cortas, tropiezas ni te raspas la rodilla con frecuencia como alguien que lleva una vida activa. El silencio clínico podría reflejar una baja incidencia de heridas, y no una curación normal de heridas.
 
 2. **Mecanismos compensatorios ocultan el déficit.** El aumento de TGF-β promueve la fibrosis — la formación de cicatrices. Una herida podría cerrarse a un ritmo normal, pero produciría una calidad de cicatriz inferior, dejando tejido que es estructuralmente más débil y más susceptible a nuevas lesiones. Si los pacientes no examinan sus cicatrices histológicamente, no lo notarían.
 

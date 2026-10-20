@@ -56,7 +56,7 @@ O que está estabelecido: a maquinaria molecular que converte o sofrimento metab
 
 Dois canais TRP traduzem o stress oxidativo em dor:
 
-- **TRPA1** — o “receptor wasabi” — detecta diretamente danos teciduais oxidativos. ROS, produtos de peroxidação lipídica e aldeídos reativos ativam TRPA1 por meio de modificações covalentes de resíduos de cisteína reativos [@Macpherson2007]. Se o stress oxidativo na EM/SFC atinge a concentração e compartimento tecidual necessários para ativar TRPA1 nos nociceptores musculares, isso ainda não foi testado diretamente. **Previsão:** se os antagonistas de TRPA1 reduzirem a dor muscular em repouso em pacientes com EM/SFC mais do que em pacientes com fibromialgia, TRPA1 está a contribuir especificamente.
+- **TRPA1** — o “recetor wasabi” — detecta diretamente danos teciduais oxidativos. ROS, produtos de peroxidação lipídica e aldeídos reativos ativam TRPA1 por meio de modificações covalentes de resíduos de cisteína reativos [@Macpherson2007]. Se o stress oxidativo na EM/SFC atinge a concentração e compartimento tecidual necessários para ativar TRPA1 nos nociceptores musculares, isso ainda não foi testado diretamente. **Previsão:** se os antagonistas de TRPA1 reduzirem a dor muscular em repouso em pacientes com EM/SFC mais do que em pacientes com fibromialgia, TRPA1 está a contribuir especificamente.
 
 - **TRPV1** participa num ciclo de feedback positivo: ROS aumentam a COX-2 → aumento da produção de prostaglandinas → sensibilização de TRPV1 → disparo de nociceptores → inflamação neurogénica (substância P, liberação de CGRP) → ativação sustentada da COX-2 [@Li2021]. Em princípio, o stress oxidativo crónico poderia levar este ciclo a um estado de baixa intensidade constante. Se isso acontece na EM/SFC em níveis suficientes para manter a dor, ainda não se sabe. **Previsão:** se este ciclo está a causar dor, inibidores da COX-2 ou antagonistas de TRPV1 devem reduzir os relatos de dor espontânea.
 
@@ -84,7 +84,7 @@ O TRPV1 arteriolar no músculo liso vascular — distinto do TRPV1 neuronal — 
 
 **A perda de sono desestabiliza o controlo autonómico.** Uma única noite de mau sono aumenta significativamente o tom simpático e reduz a atividade parassimpática em populações saudáveis. Como a perfusão microvascular muscular depende de uma regulação autonómica equilibrada, isso agrava diretamente os ciclos de isquemia-reperfusão nos músculos.
 
-A imagem geral: uma má noite de sono muda plausivelmente o perfil bioquímico nos músculos em direção aos efeitos de esforço físico — ROS elevados, receptores de dor sensibilizados, caminhos inflamatórios ativados, perfusão microvascular prejudicada e processamento da dor central amplificado. Os diferentes caminhos convergem para o mesmo resultado através de mecanismos independentes. Cada mecanismo isoladamente seria uma explicação fraca; sua convergência é o que confere peso ao modelo.
+A imagem geral: uma má noite de sono muda plausivelmente o perfil bioquímico nos músculos em direção aos efeitos de esforço físico — ROS elevados, recetores de dor sensibilizados, caminhos inflamatórios ativados, perfusão microvascular prejudicada e processamento da dor central amplificado. Os diferentes caminhos convergem para o mesmo resultado através de mecanismos independentes. Cada mecanismo isoladamente seria uma explicação fraca; sua convergência é o que confere peso ao modelo.
 
 ---
 

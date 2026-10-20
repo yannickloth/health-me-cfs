@@ -33,7 +33,7 @@ Três regras universais antes de qualquer protocolo:
 
 ## Naltrexona em Doses Baixas (LDN)
 
-**Alvos (faixa de doses):** Primerização hormonal TLR4/Nrf2 (~0,5–1,5 mg) · aumento compensatório de opioides (~1,5–3 mg) · restauração TRPM3 (~3–4,5 mg) — consulte a Parte 1 para a cadeia completa. Cada alvo é estabelecido individualmente in vitro ou em modelos animais: naltrexona como antagonista parcial da TLR4 nas microglia, demonstrado em linha celular de ratos e modelos de roedores [@Kucic2021LDNmicroglia; @Kwilasz2021NTXmicroglia], bloqueio dos receptores opioides com rebote de endorfina compensatório [@Younger2013], restauração do fluxo de cálcio TRPM3 nas células NK de EM/SFC [@Cabanas2018trpm3; @Cabanas2021] e a ligação entre inflamação e supressão de orexina [@Grossberg2011orexinLethargy]. O que *não* foi estabelecido é o mapeamento de cada alvo para uma faixa de dose clínica — essa parte é inferência de modelo [@Loth2026mecfs].
+**Alvos (faixa de doses):** Primerização hormonal TLR4/Nrf2 (~0,5–1,5 mg) · aumento compensatório de opioides (~1,5–3 mg) · restauração TRPM3 (~3–4,5 mg) — consulte a Parte 1 para a cadeia completa. Cada alvo é estabelecido individualmente in vitro ou em modelos animais: naltrexona como antagonista parcial da TLR4 nas microglia, demonstrado em linha celular de ratos e modelos de roedores [@Kucic2021LDNmicroglia; @Kwilasz2021NTXmicroglia], bloqueio dos recetores opioides com rebote de endorfina compensatório [@Younger2013], restauração do fluxo de cálcio TRPM3 nas células NK de EM/SFC [@Cabanas2018trpm3; @Cabanas2021] e a ligação entre inflamação e supressão de orexina [@Grossberg2011orexinLethargy]. O que *não* foi estabelecido é o mapeamento de cada alvo para uma faixa de dose clínica — essa parte é inferência de modelo [@Loth2026mecfs].
 
 | Campo | Protocolo | Nível |
 |-------|----------|------|
@@ -169,6 +169,6 @@ Esse é o estado-alvo de toda a busca: cada estudo — positivo ou nulo — deix
 
 ---
 
-*A análise paciente-paciente baseada no quadro farmacológico de @Loth2026mecfs — não constitui aconselhamento médico. Cada estudo requer o consentimento do prescritor. As faixas de dose são referenciadas na Parte 4 desta série; as estratégias e modos de falha são abordados no artigo complementar, [Dismiss the Dose, Not the Drug](../dose-first-search-strategy/).*
+*A análise paciente-paciente baseada no quadro farmacológico de @Loth2026mecfs — não constitui aconselhamento médico. Cada estudo requer o consentimento do prescritor. As faixas de dose são referenciadas na Parte 4 desta série; as estratégias e modos de falha são abordados no artigo complementar, [Descarta a dose, não o fármaco](../dose-first-search-strategy/).*
 
-*Séries dose-resposta: [Parte 1: Por que mais não é melhor](../more-isnt-better-ldn-lda/) · [Parte 2: O U invertido não é uma única coisa](../inverted-u-not-one-thing/) · [Parte 3: A sua dose de LDN é um diagnóstico](../dose-is-diagnostic-ldn/) · [Parte 4: A Farmacopeia](../pharmacopoeia-dose-meaning/) · Parte 5 (este artigo) · Relacionado: [Dismiss the Dose, Not the Drug](../dose-first-search-strategy/)*
+*Séries dose-resposta: [Parte 1: Por que mais não é melhor](../more-isnt-better-ldn-lda/) · [Parte 2: O U invertido não é uma única coisa](../inverted-u-not-one-thing/) · [Parte 3: A sua dose de LDN é um diagnóstico](../dose-is-diagnostic-ldn/) · [Parte 4: A Farmacopeia](../pharmacopoeia-dose-meaning/) · Parte 5 (este artigo) · Relacionado: [Descarta a dose, não o fármaco](../dose-first-search-strategy/)*

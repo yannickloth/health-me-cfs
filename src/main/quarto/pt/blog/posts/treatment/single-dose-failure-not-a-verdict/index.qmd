@@ -19,7 +19,7 @@ Este artigo explica por que — não atribuindo o erro a ninguém, mas mostrando
 
 Todo o argumento se encaixa num parágrafo e uma tabela. A prova detalhada — separando o que é ciência estabelecida do que é um modelo proposto — segue depois.
 
-O benefício da LDN em dose baixa depende da **bloqueio parcial** do seu receptor: a célula ainda precisa sentir algum sinal residual para montar sua resposta anti-inflamatória compensatória. Se um receptor está bloqueado parcialmente ou completamente é determinado pela concentração do medicamento em relação à sensibilidade do receptor — a razão $c = D/K_d$, dose dividida pela constante de dissociação do receptor. Aumente a dose e $c$ aumenta; a fração $f$ de receptores bloqueados sobe para 100%. A 1 mg, o receptor microglial TLR4 está na zona de bloqueio parcial e o mecanismo de benefício funciona. A 4 mg, o mesmo receptor é bloqueado quase completamente, o sinal residual desaparece e **o mecanismo da 1 mg é desligado — não amplificado.** Enquanto isso, 4 mg ativa um alvo diferente (TRPM3) que a 1 mg nunca alcança. Portanto, um valor nulo a 4 mg testou o mecanismo da 4 mg. Não testou o mecanismo da 1 mg — esse mecanismo não estava a funcionar durante o teste de 4 mg.
+O benefício da LDN em dose baixa depende da **bloqueio parcial** do seu recetor: a célula ainda precisa sentir algum sinal residual para montar sua resposta anti-inflamatória compensatória. Se um recetor está bloqueado parcialmente ou completamente é determinado pela concentração do medicamento em relação à sensibilidade do recetor — a razão $c = D/K_d$, dose dividida pela constante de dissociação do recetor. Aumente a dose e $c$ aumenta; a fração $f$ de recetores bloqueados sobe para 100%. A 1 mg, o recetor microglial TLR4 está na zona de bloqueio parcial e o mecanismo de benefício funciona. A 4 mg, o mesmo recetor é bloqueado quase completamente, o sinal residual desaparece e **o mecanismo da 1 mg é desligado — não amplificado.** Enquanto isso, 4 mg ativa um alvo diferente (TRPM3) que a 1 mg nunca alcança. Portanto, um valor nulo a 4 mg testou o mecanismo da 4 mg. Não testou o mecanismo da 1 mg — esse mecanismo não estava a funcionar durante o teste de 4 mg.
 
 Os números tornam isso concreto. A coluna de ocupação utiliza a equação padrão de Hill $f = c^2/(1+c^2)$ (farmacologia estabelecida); a coluna de benefício utiliza o modelo simples $B \propto f(1-f)^2$ proposto na Parte B deste artigo (uma hipótese). As escolhas dos parâmetros são ilustrativas e não medidas: $K_d = 1$ mg, o coeficiente de Hill $n = 2$ e o expoente de inclinação $m = 2$ (o modelo geral na Parte B deixa $n$ e $m$ livres):
 
@@ -34,7 +34,7 @@ Os números tornam isso concreto. A coluna de ocupação utiliza a equação pad
 
 Leia a tabela da parte inferior para cima. Uma dose nula em 4 mg diz apenas sobre a linha inferior. Não informa nada sobre as duas primeiras linhas, pois essas linhas descrevem um estado — bloqueio parcial — que uma dose de 4 mg nunca produz. E 3 mg é outro experimento: a janela de dose baixa fecha também lá, mas diferentes mecanismos estão ativos — o platô de endorfinas e a janela aberta do TRPM3. Cada dose é um experimento diferente, e o fracasso de um não condena os outros.
 
-Uma esclarecimento: desativar um benefício não é o mesmo que causar dano. Em 4 mg, o mecanismo de dose baixa simplesmente não funciona — o paciente está no seu nível de base não tratado para esse caminho, não abaixo dele. A experiência em 4 mg, portanto, é uma dose nula, não uma piora — e uma dose nula fornece informações apenas sobre o estado que foi realmente testado.
+Um esclarecimento: desativar um benefício não é o mesmo que causar dano. Em 4 mg, o mecanismo de dose baixa simplesmente não funciona — o paciente está no seu nível de base não tratado para esse caminho, não abaixo dele. A experiência em 4 mg, portanto, é uma dose nula, não uma piora — e uma dose nula fornece informações apenas sobre o estado que foi realmente testado.
 
 ---
 
@@ -54,34 +54,34 @@ O problema: essa hipótese só é verdadeira para um medicamento que atinge **um
 
 A suposição do superset trata uma dose como um controle de volume — mais medicamento, mais do mesmo efeito. Mas a LDN é um medicamento hormético, multi-alvo, e isso muda tudo.
 
-### O que é um receptor e por que uma dose pode ser muito baixa
+### O que é um recetor e por que uma dose pode ser muito baixa
 
-O artigo baseia-se na imagem de como um medicamento e um receptor interagem. Esta subseção descreve essa imagem, separando a biologia estabelecida da hipótese do artigo.
+O artigo baseia-se na imagem de como um medicamento e um recetor interagem. Esta subseção descreve essa imagem, separando a biologia estabelecida da hipótese do artigo.
 
-**O que é um receptor (estabelecido).** Um receptor é uma proteína — geralmente na superfície de uma célula — à qual uma molécula de sinalização ou um medicamento se liga. O ligamento faz algo dentro da célula: um **agonista** imita o sinal natural e ativa uma resposta; um **antagonista** se liga ao mesmo local, bloqueia o sinal natural e desativa-o. Para a dose, a quantidade importante é a **fração de receptores ocupados** — a porcentagem das cópias desse receptor na célula que carregam uma molécula de medicamento. A equação de Hill da Parte A3 transforma uma concentração nesse fração.
+**O que é um recetor (estabelecido).** Um recetor é uma proteína — geralmente na superfície de uma célula — à qual uma molécula de sinalização ou um medicamento se liga. O ligamento faz algo dentro da célula: um **agonista** imita o sinal natural e ativa uma resposta; um **antagonista** se liga ao mesmo local, bloqueia o sinal natural e desativa-o. Para a dose, a quantidade importante é a **fração de recetores ocupados** — a porcentagem das cópias desse recetor na célula que carregam uma molécula de medicamento. A equação de Hill da Parte A3 transforma uma concentração nesse fração.
 
-**Por que essa fração segue a concentração (estabelecido).** O ligamento é um equilíbrio reversível, $D + R \rightleftharpoons DR$. A constante de dissociação $K_d$ é a razão entre as duas taxas — quão rápido o medicamento diminui e quão rápido se liga. Uma concentração igual a $K_d$ ocupa metade dos receptores; muito acima, quase todos; muito abaixo, quase nenhum. É por isso que a razão dimensional $c = D/K_d$ permeia o artigo: ela mede uma concentração em unidades da sensibilidade desse receptor. (Ação de massa, ligamento Langmuir–Hill — farmacologia de texto, citada na Parte A3.)
+**Por que essa fração segue a concentração (estabelecido).** O ligamento é um equilíbrio reversível, $D + R \rightleftharpoons DR$. A constante de dissociação $K_d$ é a razão entre as duas taxas — quão rápido o medicamento diminui e quão rápido se liga. Uma concentração igual a $K_d$ ocupa metade dos recetores; muito acima, quase todos; muito abaixo, quase nenhum. É por isso que a razão dimensional $c = D/K_d$ permeia o artigo: ela mede uma concentração em unidades da sensibilidade desse recetor. (Ação de massa, ligamento Langmuir–Hill — farmacologia de texto, citada na Parte A3.)
 
-Para o mecanismo de dose baixa da LDN, o receptor é o sensor de perigo microglial TLR4, e a LDN é um **antagonista** dele: ela ocupa o sensor e impede que ele reporte um sinal de perigo. Se bloqueia um pouco ou muito é determinado por $c = D/K_d$.
+Para o mecanismo de dose baixa da LDN, o recetor é o sensor de perigo microglial TLR4, e a LDN é um **antagonista** dele: ela ocupa o sensor e impede que ele reporte um sinal de perigo. Se bloqueia um pouco ou muito é determinado por $c = D/K_d$.
 
-**Por que uma dose insuficiente falha (confirmado).** Se quase nenhum receptor está ocupado, o bloqueio é insignificante e a célula permanece essencialmente inalterada — sem resposta, sem benefício. Abaixo de um limiar de ocupação, o medicamento não produz efeito visível.
+**Por que uma dose insuficiente falha (confirmado).** Se quase nenhum recetor está ocupado, o bloqueio é insignificante e a célula permanece essencialmente inalterada — sem resposta, sem benefício. Abaixo de um limiar de ocupação, o medicamento não produz efeito visível.
 
 Até agora, a situação é monótona: mais medicamento, mais bloqueio. A questão é por que **muito** medicamento também falha — por que o benefício não aumenta continuamente. Este é o tema da próxima subseção, hormese.
 
 ### O que é hormese
 
-Hormese é um fenómeno biológico específico, não um slogan: um estressor de baixo nível desencadeia uma *resposta adaptativa compensatória* que é maior que o próprio estressor. O caso clássico é a via Keap1-Nrf2-ARE. Sob condições de base, a proteína Keap1 liga ao fator de transcrição Nrf2 e a destina à degradação. Quando um estresse oxidativo ou inflamatório leve chega — aqui, bloqueio parcial do receptor microglial TLR4 — os resíduos de cisteína reativo na Keap1 são modificados, Nrf2 é liberado, translocado para o núcleo e ativa uma grande variedade de genes anti-inflamatórios e antioxidantes (centenas, segundo a literatura Nrf2/ARE). O *benefício é o programa adaptativo da própria célula*, não a ação direta do medicamento. Este é o corpus de hormese Calabrese, aplicado à dose de LDN [@Calabrese2021Nrf2].
+Hormese é um fenómeno biológico específico, não um slogan: um estressor de baixo nível desencadeia uma *resposta adaptativa compensatória* que é maior que o próprio estressor. O caso clássico é a via Keap1-Nrf2-ARE. Sob condições de base, a proteína Keap1 liga ao fator de transcrição Nrf2 e a destina à degradação. Quando um estresse oxidativo ou inflamatório leve chega — aqui, bloqueio parcial do recetor microglial TLR4 — os resíduos de cisteína reativo na Keap1 são modificados, Nrf2 é liberado, translocado para o núcleo e ativa uma grande variedade de genes anti-inflamatórios e antioxidantes (centenas, segundo a literatura Nrf2/ARE). O *benefício é o programa adaptativo da própria célula*, não a ação direta do medicamento. Este é o corpus de hormese Calabrese, aplicado à dose de LDN [@Calabrese2021Nrf2].
 
 Duas consequências derivam da química:
 
 - **Muito pouco medicamento** não modifica o suficiente a Keap1 — o sinal nunca é disparado, Nrf2 permanece ligado, sem benefício.
-- **Muito medicamento** extingue o próprio sinal de estresse que liberou Nrf2. Aos 0,5–1,5 mg, o TLR4 é bloqueado apenas *parcialmente*, então as microglia ainda percebem o sinal e ativam a resposta Nrf2. Acima dessa faixa, o TLR4 é bloqueado completamente — a célula não detecta mais nenhum estresse, Nrf2 permanece ligado à Keap1 e o programa anti-inflamatório colapsa. O medicamento ainda está ligado ao seu receptor; simplesmente parou de produzir a resposta adaptativa que o tornava terapêutico.
+- **Muito medicamento** extingue o próprio sinal de estresse que liberou Nrf2. Aos 0,5–1,5 mg, o TLR4 é bloqueado apenas *parcialmente*, então as microglia ainda percebem o sinal e ativam a resposta Nrf2. Acima dessa faixa, o TLR4 é bloqueado completamente — a célula não detecta mais nenhum estresse, Nrf2 permanece ligado à Keap1 e o programa anti-inflamatório colapsa. O medicamento ainda está ligado ao seu recetor; simplesmente parou de produzir a resposta adaptativa que o tornava terapêutico.
 
 Portanto, hormese é o *oposto* do modelo do superset: existe uma faixa e ultrapassá-la não gera mais nada — ela desliga o benefício. Para LDN, este "muito" é uma hipótese: o mecanismo de hormese Nrf2 está estabelecido em toxicologia, mas seu papel como mecanismo clínico da LDN ainda não está comprovado.
 
 Duas consequências se seguem, e ambas sustentam o argumento do artigo:
 
-- **O vínculo é contínuo; o benefício é limitado.** O bloco cresce de forma monótona com a dose. O benefício é uma forma de U invertida. Isso não é contraditório: em 4 mg, o receptor é *mais* bloqueado do que em 1 mg, e o benefício *desaparece* — ele desaparece exatamente porque o bloqueio é muito completo.
+- **O vínculo é contínuo; o benefício é limitado.** O bloco cresce de forma monótona com a dose. O benefício é uma forma de U invertida. Isso não é contraditório: em 4 mg, o recetor é *mais* bloqueado do que em 1 mg, e o benefício *desaparece* — ele desaparece exatamente porque o bloqueio é muito completo.
 
 - **Os dois zeros são falhas opostas.** Abaixo da janela, a perturbação é muito fraca para desencadear efeitos. Acima da janela, ela é muito completa para ser detectada. Ambos geram zero benefício, por razões opostas — por isso, um valor nulo em 4 mg (um ponto “acima da janela” para TLR4) não pode ser interpretado como um valor nulo em 1 mg (um ponto “dentro da janela”).
 
@@ -170,7 +170,7 @@ Em toda a Parte B, “braço” significa uma das duas influências opostas na c
 
 ### B1. Dois braços: ocupação (aumentando) e tom residual (diminuindo)
 
-O benefício hormético não é a própria ocupação do receptor. É a **resposta adaptativa compensatória da célula a uma perturbação parcial** — e uma resposta compensatória requer que algum *sinal residual não bloqueado* permaneça para sustentá-la. Defina:
+O benefício hormético não é a própria ocupação do recetor. É a **resposta adaptativa compensatória da célula a uma perturbação parcial** — e uma resposta compensatória requer que algum *sinal residual não bloqueado* permaneça para sustentá-la. Defina:
 
 $$ f(c) = \frac{c^n}{c^n+1} \quad\text{(occupancy, rising)}, \qquad r(c) = 1 - f(c) = \frac{1}{c^n+1} \quad\text{(residual tone, falling)} $$
 

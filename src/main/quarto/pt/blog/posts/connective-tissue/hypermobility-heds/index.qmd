@@ -62,7 +62,7 @@ Aqui está a estrutura profunda que permeia todo o documento principal e que a m
 
 Os mastócitos armazenam duas proteases de serina — triptase e quimase — dentro de seus grânulos. Quando os mastócitos se desgranulam, essas enzimas são liberadas no tecido circundante. Sua função normal é o remodelamento e a defesa do tecido, mas na ativação crónica dos mastócitos, eles se tornam uma máquina de destruição de colágeno:
 
-- **Triptase** ativa a pro-MMP-3 (stromelysin) e a pro-MMP-13 (colagenase-3), enzimas que cortam o colágeno e proteoglicanos [@Magarinos2013TryptaseMMP]. A triptase também corta o receptor ativado por protease 2 (PAR2) nos fibroblastos, desencadeando mais liberação de MMP.
+- **Triptase** ativa a pro-MMP-3 (stromelysin) e a pro-MMP-13 (colagenase-3), enzimas que cortam o colágeno e proteoglicanos [@Magarinos2013TryptaseMMP]. A triptase também corta o recetor ativado por protease 2 (PAR2) nos fibroblastos, desencadeando mais liberação de MMP.
 - **Quimase** corta diretamente a pro-MMP-1 (colagenase-1), a enzima principal que degrada o colágeno fibroso tipo I — o colágeno estrutural principal dos ligamentos, tendões e paredes dos vasos sanguíneos [@Saarinen1994ChymaseMMP1].
 - **A cadeia triptase–quimase–MMP** degrada o colágeno e a elastina no tecido cardíaco, paredes dos vasos e ligamentos articulares — tecido conjuntivo em todos os lugares onde os mastócitos estão presentes [@Janicki2006CardiacMastMMP].
 
@@ -79,12 +79,12 @@ Na prática, muitos pacientes têm ambos — laxidade base congênita mais uma c
 
 ### O ciclo de feedback de rigidez da matriz
 
-Os mastócitos se ancoram às proteínas da matriz extracelular (fibronectina, vitronectina) através de receptores de integrina e — criticamente — através da CADM1, uma molécula de adesão celular que liga fisicamente os mastócitos às terminações nervosas sensoriais. No tecido hiperlaxo, a ECM é mais macia, então a pressão mecânica que seria amortecida numa matriz normal transmite-se à superfície do mastócito com menos atenuação [@Magadmi2019]. Este é um **ciclo de feedback bidirecional positivo**:
+Os mastócitos se ancoram às proteínas da matriz extracelular (fibronectina, vitronectina) através de recetores de integrina e — criticamente — através da CADM1, uma molécula de adesão celular que liga fisicamente os mastócitos às terminações nervosas sensoriais. No tecido hiperlaxo, a ECM é mais macia, então a pressão mecânica que seria amortecida numa matriz normal transmite-se à superfície do mastócito com menos atenuação [@Magadmi2019]. Este é um **ciclo de feedback bidirecional positivo**:
 
 ```
-loose ECM → less mechanical damping → mast cells fire more easily
-→ release tryptase/chymase → activate MMPs → degrade ECM further
-→ even looser ECM → mast cells fire even more easily → ...
+MEC laxa → menos amortecimento mecânico → os mastócitos disparam com mais facilidade
+→ libertam triptase/quimase → ativam as MMP → degradam ainda mais a MEC
+→ MEC ainda mais laxa → os mastócitos disparam com ainda mais facilidade → ...
 ```
 
 O documento principal formaliza isso como um **modelo bistável**: o sistema de mastócito-ECM tem dois estados estáveis — um estado “saudável” com matriz firme e mastócitos silenciosos, e um estado “degradado” com matriz macia e mastócitos hiperreativos. Uma vez que o sistema cruza o ponto de transição (uma exacerbação grave de MCAS, uma infeção viral que ativa massivamente os mastócitos, um período de inatividade prolongada que enfraquece o tecido conjuntivo), pode não retornar espontaneamente ao estado saudável. O modelo prevê que o tratamento deve ser *sustentado* — anti-histamínicos intermitentes ou estabilizadores ocasionais podem não ser suficientes para reverter o sistema — e que, uma vez que o colágeno é degradado estruturalmente além de um certo ponto, até mesmo o controle total dos mastócitos pode não reverter a laxidade [@Loth2026website].
@@ -124,7 +124,7 @@ O documento principal identifica cinco vias mecânicas pelas quais a laxidade do
 
 Esta é a ligação mais bem sustentada e a que explica diretamente a sobreposição com POTS. A anomalia do tecido conjuntivo nas paredes dos vasos sanguíneos tem consequências mensuráveis:
 
-- **Aumento da complacência arterial.** Pacientes com hEDS apresentam velocidade da onda pulsátil significativamente menor do que os controles — as artérias são muito elásticas. Isso prejudica a sinalização barorreflexa: os receptores de estiramento nas paredes dos vasos não conseguem detectar com precisão as mudanças da pressão arterial quando as paredes são excessivamente complacentes, de modo que o cérebro recebe um sinal de pressão degradado [@Hakim2017cardiovascular].
+- **Aumento da complacência arterial.** Pacientes com hEDS apresentam velocidade da onda pulsátil significativamente menor do que os controles — as artérias são muito elásticas. Isso prejudica a sinalização barorreflexa: os recetores de estiramento nas paredes dos vasos não conseguem detectar com precisão as mudanças da pressão arterial quando as paredes são excessivamente complacentes, de modo que o cérebro recebe um sinal de pressão degradado [@Hakim2017cardiovascular].
 - **Acúmulo excessivo de sangue venoso.** A anomalia do tecido conjuntivo nas veias permite uma distensão excessiva sob pressões hidrostáticas normais. O sangue acumula nos membros inferiores ao ficar em pé, reduzindo o retorno venoso e a pré-carga cardíaca. O coração acelera para compensar [@Mathias2021dysautonomia].
 - **Hipoperfusão cerebral segue.** A mesma cadeia — vasos frouxos → mau barorreflexo → acúmulo venoso → taquicardia compensatória → fluxo sanguíneo cerebral insuficiente ao ficar em pé — produz tontura, névoa cerebral e intolerância ortostática indistinguíveis de POTS [@VanCampenEtAl2020].
 
@@ -146,9 +146,9 @@ Mas, como mencionado anteriormente, uma revisão crítica de 2025 não encontrou
 
 ### Percurso 4: Fragilidade do tecido → sinalização purinérgica (ESPECULATIVA)
 
-A hipótese da resposta de perigo celular propõe que as células danificadas liberem ATP para o espaço extracelular, ativando receptores purinérgicos P2X e P2Y e desencadeando um estado hipometabólico protetor. Os pacientes com hEDS experimentam mais microtrauma devido às atividades diárias, pois seus tecidos são mecanicamente frágeis. Se este microtrauma persistir, a sinalização purinérgica pode nunca ser restaurada, mantendo o estado hipometabólico característico da EM/SFC.
+A hipótese da resposta de perigo celular propõe que as células danificadas liberem ATP para o espaço extracelular, ativando recetores purinérgicos P2X e P2Y e desencadeando um estado hipometabólico protetor. Os pacientes com hEDS experimentam mais microtrauma devido às atividades diárias, pois seus tecidos são mecanicamente frágeis. Se este microtrauma persistir, a sinalização purinérgica pode nunca ser restaurada, mantendo o estado hipometabólico característico da EM/SFC.
 
-**O limite.** Nenhum estudo mediu ATP extracelular ou ativação de receptores purinérgicos em pacientes com hEDS. Este percurso é mecanicamente coerente, mas completamente não validado [@Wirth2026CTDMECFS].
+**O limite.** Nenhum estudo mediu ATP extracelular ou ativação de recetores purinérgicos em pacientes com hEDS. Este percurso é mecanicamente coerente, mas completamente não validado [@Wirth2026CTDMECFS].
 
 ### Percurso 5: Neuropatia de fibra pequena como percurso downstream comum (EVIDÊNCIA MODERADA)
 

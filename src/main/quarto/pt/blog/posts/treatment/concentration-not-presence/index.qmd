@@ -37,15 +37,15 @@ Reorganização:
 
 $$\frac{[DR]}{[D]\,[R]} = \frac{k_{\text{on}}}{k_{\text{off}}} \equiv \frac{1}{K_d}$$
 
-Isso define a **constante de dissociação** $K_d = k_{\text{off}}/k_{\text{on}}$ — a concentração livre na qual um receptor está ocupado metade do tempo (equivalentemente, metade dos receptores está ocupada). Observe de que se trata: uma razão entre a taxa de queda e a taxa de ligação. Um pequeno $K_d$ significa que o fármaco raramente cai — afinidade alta. Este é todo o conteúdo físico da “afinidade”.
+Isso define a **constante de dissociação** $K_d = k_{\text{off}}/k_{\text{on}}$ — a concentração livre na qual um recetor está ocupado metade do tempo (equivalentemente, metade dos recetores está ocupada). Observe de que se trata: uma razão entre a taxa de queda e a taxa de ligação. Um pequeno $K_d$ significa que o fármaco raramente cai — afinidade alta. Este é todo o conteúdo físico da “afinidade”.
 
 ## A2. A isóterma de Langmuir
 
-Agora, adicione as suposições clássicas do modelo de adsorção de Langmuir [@Langmuir1918], aplicado pela primeira vez à ligação fármaco-receptor por Clark [@Clark1926]:
+Agora, adicione as suposições clássicas do modelo de adsorção de Langmuir [@Langmuir1918], aplicado pela primeira vez à ligação fármaco-recetor por Clark [@Clark1926]:
 
-1. A população de receptores tem um total fixo, $R_{\text{tot}} = [R] + [DR]$.
-2. Cada receptor liga no máximo uma molécula de fármaco por vez.
-3. Todos os receptores são idênticos e independentes — a ligação num não altera a ligação em outro.
+1. A população de recetores tem um total fixo, $R_{\text{tot}} = [R] + [DR]$.
+2. Cada recetor liga no máximo uma molécula de fármaco por vez.
+3. Todos os recetores são idênticos e independentes — a ligação num não altera a ligação em outro.
 
 Substituindo $[R] = R_{\text{tot}} - [DR]$ na condição de equilíbrio:
 
@@ -80,11 +80,11 @@ com $n$ um expoente livre. A definição de $n = 1$ recupera exatamente a isoter
 Dois desenvolvimentos posteriores deram $n$ uma interpretação mecanicista:
 
 - **Adair (1925)** derivou o polinômio de ligação passo a passo exato para uma proteína com quatro sítios [@Adair1925], mostrando que a ligação cooperativa entre os sítios produz curvas sigmoide como caso limite.
-- **Monod, Wyman e Changeux (1965)** modelaram a alosteria como uma transição conjunta entre estados de receptor com diferentes afinidades [@Monod1965], fundamentando $n \neq 1$ no acoplamento conformacional entre eventos de ligação.
+- **Monod, Wyman e Changeux (1965)** modelaram a alosteria como uma transição conjunta entre estados de recetor com diferentes afinidades [@Monod1965], fundamentando $n \neq 1$ no acoplamento conformacional entre eventos de ligação.
 
 A interpretação utilizada neste artigo: $n$ é o **coeficiente de Hill**, a inclinação do gráfico log–log (Hill) $\log\frac{f}{1-f}$ em relação a $\log[D]$ na metade de ocupação. Seu efeito é concentrar a transição de ocupação num intervalo de concentração mais estreito; $n > 1$ acentua a transição, $n < 1$ a dilui. Toda conclusão qualitativa a seguir é válida para qualquer $n > 0$, portanto o argumento nunca se baseia num valor específico.
 
-O quadro de ocupação-receptor, aplicado à dose terapêutica, está descrito em [@Finlay2020receptorOccupancy].
+O quadro de ocupação-recetor, aplicado à dose terapêutica, está descrito em [@Finlay2020receptorOccupancy].
 
 ## A4. A fração de sinal residual
 
@@ -92,7 +92,7 @@ A quantidade que a Parte B revelará ser clinicamente crítica é o complemento:
 
 $$1 - f = \frac{1}{1 + c^n}, \qquad c \equiv \frac{[D]}{K_d}$$
 
-$c$ é a concentração medida em unidades da própria sensibilidade do receptor — um número sem dimensão. O resíduo $1-f$ é a fração de recetores *ainda carregando sinal endógeno*. Numéricamente ($n = 2$ para ilustração):
+$c$ é a concentração medida em unidades da própria sensibilidade do recetor — um número sem dimensão. O resíduo $1-f$ é a fração de recetores *ainda carregando sinal endógeno*. Numéricamente ($n = 2$ para ilustração):
 
 | $c = [D]/K_d$ | ocupado $f$ | sinal residual $1-f$ |
 |---|---|---|
@@ -113,7 +113,7 @@ Dois fatos estruturais, independentes de $n$:
 
 # Parte B — A biologia dos mecanismos de baixa dose
 
-A LDN é um exemplo claro. Em doses antagónicas padrão (≥50 mg/dia), a naltrexona é um antagónico competitivo do receptor mu-opióide utilizado na medicina da dependência. Ao nível de 0,5–4,5 mg/dia, ela ativa um conjunto de alvos diferentes, parcialmente não opióidicos. O quadro de referência propõe quatro mecanismos de baixa dose — hormesia TLR4/Nrf2, compensação opioide, restauração do TRPM3 e desinibição da orexina (este último a rastrear a resposta dose-alvo da TLR4) [@Loth2026website]. Não todos comportam-se da mesma forma, e essa distinção é a parte essencial deste artigo, por isso é mencionada desde o início:
+A LDN é um exemplo claro. Em doses antagónicas padrão (≥50 mg/dia), a naltrexona é um antagónico competitivo do recetor mu-opióide utilizado na medicina da dependência. Ao nível de 0,5–4,5 mg/dia, ela ativa um conjunto de alvos diferentes, parcialmente não opióidicos. O quadro de referência propõe quatro mecanismos de baixa dose — hormesia TLR4/Nrf2, compensação opioide, restauração do TRPM3 e desinibição da orexina (este último a rastrear a resposta dose-alvo da TLR4) [@Loth2026website]. Não todos comportam-se da mesma forma, e essa distinção é a parte essencial deste artigo, por isso é mencionada desde o início:
 
 - **TLR4/Nrf2 hormesia (B1)** — *invertendo a hormesia*, Categoria 1: o benefício existe apenas dentro de uma janela de ocupação limitada e desaparece após ela. Este é o benefício dominante em baixa dose.
 - **Compensação opioide (B2)** — *monotónica*, não hormética: o benefício aumenta com o bloqueio até um limite précursor e não se inverte dentro da faixa.
@@ -123,7 +123,7 @@ Este artigo desenvolve estes três mecanismos, que sustentam o argumento de test
 
 ## B1. Antagónio parcial do TLR4/MD2 → Indução de Keap1–Nrf2–ARE
 
-**O alvo.** A naltrexona antagona o TLR4 — especificamente a interface do co-receptor MD2 — nas microglias, efeito documentado em roedores (um modelo de isquemia-reperfusão intestinal e linha celular de microglia de rato) e numa linha celular de microglia de rato, independentemente dos recetores opioides [@Osman2024naltrexoneTLR4; @Kwilasz2021NTXmicroglia; @Kucic2021LDNmicroglia]. O TLR4 é o receptor de lipopolissacarídeo; o seu fluxo define o tom da sinalização de perigo das microglias.
+**O alvo.** A naltrexona antagona o TLR4 — especificamente a interface do co-recetor MD2 — nas microglias, efeito documentado em roedores (um modelo de isquemia-reperfusão intestinal e linha celular de microglia de rato) e numa linha celular de microglia de rato, independentemente dos recetores opioides [@Osman2024naltrexoneTLR4; @Kwilasz2021NTXmicroglia; @Kucic2021LDNmicroglia]. O TLR4 é o recetor de lipopolissacarídeo; o seu fluxo define o tom da sinalização de perigo das microglias.
 
 **A cascata.** O antagónio parcial do TLR4 reduz o fluxo de sinais de perigo por uma quantidade modesta e sustentada. O programa Keap1–Nrf2–ARE é a resposta oxidativa/inflamatória principal da célula:
 

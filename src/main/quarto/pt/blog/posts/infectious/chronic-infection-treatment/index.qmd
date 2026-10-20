@@ -7,7 +7,7 @@ categories: [Treatment, Chronic Infection, Antivirals, ME/CFS]
 lang: pt
 ---
 
-Se você tem EM/SFC e evidências de reativação do herpesvírus — alto EA-D IgG, anticorpos elevados de dUTPase, DNA de HHV-6 documentado ou uma história clínica de EBV-mono-then-never-recovered — enfrenta um cenário de tratamento em que os medicamentos antivirais existem, mas as evidências para eles na EM/SFC são escassas. Os alvos de medicamento mais bem estudados abordam um passo de replicação que a replicação lítica abortiva evita, e os ensaios controlados com placebo são pequenos, antigos e não replicados.
+Se você tem EM/SFC e evidências de reativação do herpesvírus — alto EA-D IgG, anticorpos elevados de dUTPase, DNA de HHV-6 documentado ou uma história clínica de mononucleose por VEB da qual nunca recuperou — enfrenta um cenário de tratamento em que os medicamentos antivirais existem, mas as evidências para eles na EM/SFC são escassas. Os alvos de medicamento mais bem estudados abordam um passo de replicação que a replicação lítica abortiva evita, e os ensaios controlados com placebo são pequenos, antigos e não replicados.
 
 Este artigo explica a arquitetura do tratamento. Para o contexto conceitual — o que é a replicação lítica abortiva, a via EBV→mastócito→MMP-9 e a co-reativação de poli-herpesvírus — consulte o [artigo de visão geral](../chronic-infection/index.qmd).
 

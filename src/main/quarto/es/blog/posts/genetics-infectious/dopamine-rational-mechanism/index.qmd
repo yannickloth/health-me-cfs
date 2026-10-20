@@ -93,4 +93,4 @@ Ese cambio — de adivinar a dirigirse — es el verdadero progreso.
 | La imagenología de VMAT2 es un candidato a biomarcador diagnóstico | Baja — requiere replicación en cohortes de EM/SFC, no solo en la COVID larga |
 | Los ensayos existentes con metilfenidato son suficientemente positivos para justificar ensayos más grandes | Moderada — señal consistente, estudios pequeños, resultados variables |
 
-*Post 3 de 4 en la serie GWAS DecodeME. Anterior: [The Genetics Settled It](../genetics-ends-debate/) · [The Striatum Is the Bottleneck](../striatum-bottleneck/) · Siguiente: [The Striatum Isn't Ours](../msn-specificity-caveat/)*
+*Post 3 de 4 en la serie GWAS DecodeME. Anterior: [La genética ha resuelto el misterio](../genetics-ends-debate/) · [El Striatum es el cuello de botella](../striatum-bottleneck/) · Siguiente: [El enriquecimiento cerebral no es exclusivo nuestro](../msn-specificity-caveat/)*

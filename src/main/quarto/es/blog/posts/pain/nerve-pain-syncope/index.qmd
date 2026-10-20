@@ -1,6 +1,6 @@
 ---
 title: "La reacción en cadena de 3 segundos: Por qué un golpe en un nervio puede hacer que pierdas la conciencia"
-description: "Da un golpe en un nervio —en el interior de un codo, en la parte inferior de un muñeco, en el rincón de una mesa contra una espinilla— y durante aproximadamente un segundo sientes un fuerte golpe. *Oh, me he golpeado allí.* Luego el dolor comienza a aparecer y a intensificarse —no de forma gradual, sino..."
+description: "Da un golpe en un nervio —en el interior de un codo, en la cara interna de una muñeca, en el rincón de una mesa contra una espinilla— y durante aproximadamente un segundo sientes un fuerte golpe. *Oh, me he golpeado allí.* Luego el dolor comienza a aparecer y a intensificarse —no de forma gradual, sino..."
 author: "Yannick Loth"
 date: "2026-05-09"
 categories: [Pain, Autonomic Dysfunction, Neurology]

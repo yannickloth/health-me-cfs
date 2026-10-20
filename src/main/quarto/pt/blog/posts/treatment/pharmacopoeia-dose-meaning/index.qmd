@@ -127,7 +127,7 @@ O modafinilo bloqueia DAT e NET, elevando a dopamina sináptica e a noradrenalin
 | 100–200 mg | Bloqueio total DAT/NET | **Se funciona:** Dopamina basal mais alta, janelas mais amplas. **Se não funciona:** — **Efeitos colaterais:** Ativação simpática excessiva, insônia. |
 | 200–400 mg | Bloqueio supra-terapêutico DAT/NET | **Se funciona:** Benefício sustentado → dopamina basal alta, janelas muito amplas. Raro. **Se não funciona:** Nenhum benefício em qualquer dose → o guanfacina (α2A, distinto de DAT) pode funcionar onde o modafinilo não funciona. **Efeitos colaterais:** Ansiedade, insônia, estresse cardiovascular. Não recomendado como primeira linha. |
 
-**Teste chave entre medicamentos:** Testes de correlação entre LDN × ponto de inversão do modafinilo para verificar se a reserva hormética é uma característica genuína do sistema que abrange receptores completamente distintos (TLR4 vs. DAT/NET) e tipos de células (microglia vs. terminais presináticos).
+**Teste chave entre medicamentos:** Testes de correlação entre LDN × ponto de inversão do modafinilo para verificar se a reserva hormética é uma característica genuína do sistema que abrange recetores completamente distintos (TLR4 vs. DAT/NET) e tipos de células (microglia vs. terminais presináticos).
 
 ### Duloxetina
 
@@ -219,12 +219,12 @@ A questão clínica é se o anti-histamínico é benéfico devido à bloqueaçã
 
 ### Allopregnanolone — Categoria 4c
 
-A allopregnanolona é bifásica no receptor GABA-A porque provavelmente se liga a dois sítios com curvas de concentração-resposta opostas. A relação dose-resposta é altamente individual, dependendo da composição da subunidade GABA-A, do estado hormonal e da história de estresse.
+A allopregnanolona é bifásica no recetor GABA-A porque provavelmente se liga a dois sítios com curvas de concentração-resposta opostas. A relação dose-resposta é altamente individual, dependendo da composição da subunidade GABA-A, do estado hormonal e da história de estresse.
 
 | Concentração / Contexto | Mecanismo | Interpretação |
 |------|-----------|----------------|
-| ~1–5 nM (equivalente à fase luteílica) | Sítio 1 do GABA-A: anxiogénico paradoxal | **Se causa ansiedade:** Anxiogénico paradoxal em baixas concentrações — fenómeno conhecido na PMDD. A composição da subunidade GABA-A favorece uma resposta excitatória em baixas concentrações de allopregnanolona. **Se não causa ansiedade:** O perfil do subtipo de receptor GABA-A favorece a inibição mesmo em baixas concentrações. **Efeitos colaterais:** Ansiedade, agitação, irritabilidade. |
-| >10 nM (nível de gravidez) | Sítio 2 do GABA-A: ansiolise e sedação | **Se funciona:** Ansiolítico e sedativo em concentrações mais altas. O perfil do receptor GABA-A apoia a inibição nestes níveis. **Se não funciona:** Insensibilidade do receptor GABA-A ou tono excitatório competente. **Efeitos colaterais:** Sedação, tolerância com uso prolongado. |
+| ~1–5 nM (equivalente à fase luteílica) | Sítio 1 do GABA-A: anxiogénico paradoxal | **Se causa ansiedade:** Anxiogénico paradoxal em baixas concentrações — fenómeno conhecido na PMDD. A composição da subunidade GABA-A favorece uma resposta excitatória em baixas concentrações de allopregnanolona. **Se não causa ansiedade:** O perfil do subtipo de recetor GABA-A favorece a inibição mesmo em baixas concentrações. **Efeitos colaterais:** Ansiedade, agitação, irritabilidade. |
+| >10 nM (nível de gravidez) | Sítio 2 do GABA-A: ansiolise e sedação | **Se funciona:** Ansiolítico e sedativo em concentrações mais altas. O perfil do recetor GABA-A apoia a inibição nestes níveis. **Se não funciona:** Insensibilidade do recetor GABA-A ou tono excitatório competente. **Efeitos colaterais:** Sedação, tolerância com uso prolongado. |
 
 ### Ketotifeno — Categoria 4b
 

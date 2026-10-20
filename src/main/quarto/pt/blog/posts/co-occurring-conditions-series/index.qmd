@@ -26,7 +26,7 @@ A série começa com MCAS — a condição em que as células imunitárias dispa
 Leia os três artigos na ordem:
 
 1. **[MCAS e EM/SFC: Por que o seu corpo reage a nada](../mast-cell-mcas/mcas-mecfs-overview/index.qmd)** — o que é o MCAS, por que aparece após a EM/SFC (não antes) e a diferença entre MCAS sozinho e EM/SFC com MCAS.
-2. **[Anti-histamínicos para EM/SFC e MCAS: H1 vs H2, e por que o seu médico aumenta a dose](../mast-cell-mcas/antihistamines-mcas-mecfs-treatment/index.qmd)** — os medicamentos, histamina e seus receptores, e os estabilizadores.
+2. **[Anti-histamínicos para EM/SFC e MCAS: H1 vs H2, e por que o seu médico aumenta a dose](../mast-cell-mcas/antihistamines-mcas-mecfs-treatment/index.qmd)** — os medicamentos, histamina e seus recetores, e os estabilizadores.
 3. **[Quando o anti-histamínico não funciona](../mast-cell-mcas/when-antihistamine-doesnt-work/index.qmd)** — testes normais, intolerância à histamina, os "sabores" dos mastócitos, o mecanismo de amplificação e o que fazer a seguir.
 
 ---

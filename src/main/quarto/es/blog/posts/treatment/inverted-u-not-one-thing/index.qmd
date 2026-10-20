@@ -172,7 +172,7 @@ Las siguientes tablas proporcionan, para cada uno de los dieciocho medicamentos,
 | Rango de dosis | Actividad / efecto | Mecanismo |
 |-----------|-------------------|-----------|
 | 250–500 mg | Enfoque cognitivo a través de la inhibición de COMT; antiinflamatorio a través de Nrf2 | Inhibición de COMT + Nrf2 |
-| 500–1000 mg | Ambos mecanismos contribuyen; 500 mg cada dos horas como estabilizador de mastocitos | COMT + Nrf2 |
+| 500–1000 mg | Ambos mecanismos contribuyen; 500 mg dos veces al día como estabilizador de mastocitos | COMT + Nrf2 |
 | 1000–2000 mg | No hay beneficio adicional; inversión de objetivos duales; hipertensión, taquicardia | Exceso de COMT + oxidación autónoma de catecolaminas pro-oxidantes |
 
 **NAC (N-acético sulfato de cisteína)**

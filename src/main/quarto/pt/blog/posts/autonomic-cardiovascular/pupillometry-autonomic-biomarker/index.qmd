@@ -46,15 +46,15 @@ BC007, um aptamer de DNA que neutraliza autoanticorpos de GPCR, mostrou melhoria
 
 ## O que a pupila pode dizer-nos
 
-Receptores muscarínicos M3 e receptores adrenérgicos alfa-1 estão presentes em todo o corpo — nos vasos sanguíneos, no coração, no músculo liso do intestino, nas células imunológicas e nos mastócitos. No entanto, em praticamente todos os tecidos, medir a função dos receptores é tecnicamente difícil. Seria necessária uma biópsia, ou um cateter invasivo, ou uma tomografia por emissão de pósitrons (PET) especializada.
+Receptores muscarínicos M3 e recetores adrenérgicos alfa-1 estão presentes em todo o corpo — nos vasos sanguíneos, no coração, no músculo liso do intestino, nas células imunológicas e nos mastócitos. No entanto, em praticamente todos os tecidos, medir a função dos recetores é tecnicamente difícil. Seria necessária uma biópsia, ou um cateter invasivo, ou uma tomografia por emissão de pósitrons (PET) especializada.
 
-A pupila é diferente. Os receptores M3 e alfa-1 na íris são acessíveis através de um meio transparente (a córnea). Eles são ativados por um estímulo preciso e repetível (um flash de luz). A sua resposta é mecânica simples — constrição ou dilatação — e pode ser quantificada com resolução em milissegundos com um dispositivo do tamanho de uma lanterna pequena.
+A pupila é diferente. Os recetores M3 e alfa-1 na íris são acessíveis através de um meio transparente (a córnea). Eles são ativados por um estímulo preciso e repetível (um flash de luz). A sua resposta é mecânica simples — constrição ou dilatação — e pode ser quantificada com resolução em milissegundos com um dispositivo do tamanho de uma lanterna pequena.
 
-Se os autoanticorpos de GPCRs na EM/SFC forem *funcionais* — o que significa que se ligam aos receptores e prejudicam a sua sinalização — um pupilómetro pode detetar o comprometimento, assumindo que (a) o anticorpo atinge a íris com concentração suficiente através da barreira hemato-ocular, (b) as isoformas de receptores expressas no tecido da íris correspondem às alvo, e (c) nenhum mecanismo compensatório (por exemplo, aumento dos receptores) mascara o efeito. Os anticorpos que bloqueiam M3 devem retardar a constrição. Os anticorpos que bloqueiam alfa-1 devem retardar a dilatação.
+Se os autoanticorpos de GPCRs na EM/SFC forem *funcionais* — o que significa que se ligam aos recetores e prejudicam a sua sinalização — um pupilómetro pode detetar o comprometimento, assumindo que (a) o anticorpo atinge a íris com concentração suficiente através da barreira hemato-ocular, (b) as isoformas de recetores expressas no tecido da íris correspondem às alvo, e (c) nenhum mecanismo compensatório (por exemplo, aumento dos recetores) mascara o efeito. Os anticorpos que bloqueiam M3 devem retardar a constrição. Os anticorpos que bloqueiam alfa-1 devem retardar a dilatação.
 
-Se os autoanticorpos de GPCRs forem *não funcionais* — o que significa que se ligam aos receptores sem afetar a sua sinalização, ou se ligam a outra coisa que reage com o ELISA — a pupila deve ser normal, independentemente do que o exame de sangue indica. (O oposto não se aplica: uma PLR anormal num paciente com anticorpos também pode surgir de medicamentos, patologias do tronco cerebral, descondicionamento ou disfunção autonómica independente de qualquer autoanticorpo — equifinalidade.)
+Se os autoanticorpos de GPCRs forem *não funcionais* — o que significa que se ligam aos recetores sem afetar a sua sinalização, ou se ligam a outra coisa que reage com o ELISA — a pupila deve ser normal, independentemente do que o exame de sangue indica. (O oposto não se aplica: uma PLR anormal num paciente com anticorpos também pode surgir de medicamentos, patologias do tronco cerebral, descondicionamento ou disfunção autonómica independente de qualquer autoanticorpo — equifinalidade.)
 
-Este método aproxima um bioensaio in vivo, utilizando tecido nativo com densidades de receptores fisiológicas.
+Este método aproxima um bioensaio in vivo, utilizando tecido nativo com densidades de recetores fisiológicas.
 
 ---
 
@@ -98,7 +98,7 @@ A análise principal testa duas previsões:
 1. Pacientes com EM/SFC e autoanticorpos GPCR elevados mostrarão velocidade de constrição PLR mais lenta (se os anticorpos M3 forem funcionais) e/ou velocidade de dilatação mais lenta (se os anticorpos alfa-1 forem funcionais) em comparação com pacientes e controles sem autoanticorpo.
 2. Parâmetros PLR correlacionarão com a gravidade dos sintomas autonômicos (escore COMPASS-31) e medidas de intolerância ortostática.
 
-A análise secundária testa se o subtipo de autoanticorpo — dominante M3 ou dominante alfa-1 — prevê qual parâmetro PLR será afetado. Se essa dissociação dupla se mantiver, a pupilometria poderá servir como um bioensaio específico para receptores, indicando aos médicos qual via autonômica está prejudicada sem necessidade de coleta de sangue.
+A análise secundária testa se o subtipo de autoanticorpo — dominante M3 ou dominante alfa-1 — prevê qual parâmetro PLR será afetado. Se essa dissociação dupla se mantiver, a pupilometria poderá servir como um bioensaio específico para recetores, indicando aos médicos qual via autonômica está prejudicada sem necessidade de coleta de sangue.
 
 ---
 
@@ -106,9 +106,9 @@ A análise secundária testa se o subtipo de autoanticorpo — dominante M3 ou d
 
 ### Cenário A: Positivo — O PLR é anormal em pacientes com autoanticorpos positivos
 
-A pupilometria revela comprometimento do receptor funcional em pacientes com títulos de autoanticorpos positivos — mas não em pacientes com títulos negativos e também não em controles saudáveis. A dissociação entre anticorpos M3 e constrição (em contraste com anticorpos alfa-1 e dilatação) é clara.
+A pupilometria revela comprometimento do recetor funcional em pacientes com títulos de autoanticorpos positivos — mas não em pacientes com títulos negativos e também não em controles saudáveis. A dissociação entre anticorpos M3 e constrição (em contraste com anticorpos alfa-1 e dilatação) é clara.
 
-**O que muda para os pacientes:** Um resultado positivo da pupilometria seria a primeira evidência de que os autoanticorpos de GPCR são *patogênicos* na EM/SFC — e não apenas um achado laboratorial. Significaria que os autoanticorpos comprometem a função dos receptores autonômicos em concentrações fisiológicas no tecido nativo. Isso reforça diretamente a justificativa para terapias imunomoduladoras (IVIG, imunoadsorção, BC007). A um paciente poderia ser dito: "Os seus anticorpos estão a comprometer os seus recetores. Terapias que os eliminam ou neutralizam têm um alvo mecânico que podemos realmente medir."
+**O que muda para os pacientes:** Um resultado positivo da pupilometria seria a primeira evidência de que os autoanticorpos de GPCR são *patogênicos* na EM/SFC — e não apenas um achado laboratorial. Significaria que os autoanticorpos comprometem a função dos recetores autonômicos em concentrações fisiológicas no tecido nativo. Isso reforça diretamente a justificativa para terapias imunomoduladoras (IVIG, imunoadsorção, BC007). A um paciente poderia ser dito: "Os seus anticorpos estão a comprometer os seus recetores. Terapias que os eliminam ou neutralizam têm um alvo mecânico que podemos realmente medir."
 
 A pupilometria também poderia servir como monitor de resposta ao tratamento. Se uma terapia funciona, a função pupilar deveria melhorar. Uma medição de 30 segundos antes e depois do tratamento substitui os relatos subjetivos de sintomas por um endpoint fisiológico objetivo.
 
@@ -116,7 +116,7 @@ A pupilometria também poderia servir como monitor de resposta ao tratamento. Se
 
 A pupila responde normalmente em todos os grupos de EM/SFC — ambos com anticorpos positivos e ambos com anticorpos negativos, sem diferença em relação aos controles. Os autoanticorpos detectados por ELISA são ou não funcionais, não patogênicos ou não detectados de forma confiável.
 
-**O que muda para os pacientes:** O resultado nulo de Germain 2025 é confirmado funcionalmente. A busca por terapias que eliminam autoanticorpos de GPCR deve ser despriorizada. Pacientes com resultados positivos de ELISA mas sem comprometimento do receptor funcional podem evitar tratamentos que não têm uma justificativa mecânica.
+**O que muda para os pacientes:** O resultado nulo de Germain 2025 é confirmado funcionalmente. A busca por terapias que eliminam autoanticorpos de GPCR deve ser despriorizada. Pacientes com resultados positivos de ELISA mas sem comprometimento do recetor funcional podem evitar tratamentos que não têm uma justificativa mecânica.
 
 **O que muda para os pesquisadores:** A seção sobre autoanticorpos de GPCR na EM/SFC seria encerrada ou drasticamente reduzida — **desde que a barreira sangue-olho não bloqueie o acesso dos anticorpos**. Um anticorpo que seja funcionalmente relevante, mas que não possa atravessar a barreira, produziria um resultado negativo falso no PLR, ainda que patogênico em outros locais. Isso pode ser abordado medindo a concentração de anticorpos no fluido lacrimal ou no humor aquoso num subgrupo de participantes. Se a penetração da barreira for confirmada e o PLR ainda for normal, a hipótese de GPCR na EM/SFC seria drasticamente reduzida. Os recursos se voltariam para alvos de anticorpos não-GPCR (ANT, tiróide, AChR ganglionar), que são uma questão separada não abordada por este estudo. O método de pupilometria, tendo falhado em detectar qualquer efeito funcional, não seria seguido como biomarcador na EM/SFC — embora continue sendo útil nas condições sobrepostas em que já foi validado.
 
@@ -130,7 +130,7 @@ Uma subpopulação de pacientes positivos para autoanticorpos apresenta anomalia
 
 **O que muda para os pacientes:** A ambiguidade persiste. O efeito do PLR pode ser real, mas é muito pequeno para orientar decisões clínicas individuais. Seria necessário grupos maiores ou protocolos estandardizados para confundir. A questão do autoanticorpo GPCR permanece em aberto, mas isso favoreceria a visão de que, se esses autoanticorpos são funcionais, seu efeito é modesto ou restrito a uma subpopulação restrita.
 
-**O que não acontece neste cenário:** nenhum teste clínico, nenhum monitoramento de tratamento, nenhum bioensaio específico para receptor, nenhuma estratificação diagnóstica ao nível individual.
+**O que não acontece neste cenário:** nenhum teste clínico, nenhum monitoramento de tratamento, nenhum bioensaio específico para recetor, nenhuma estratificação diagnóstica ao nível individual.
 
 ---
 
@@ -140,7 +140,7 @@ Existe uma qualidade específica nesta lacuna de evidências que é incomum. A m
 
 A pupilometria requer um dispositivo no valor de €3.000, um ambiente escuro e 30 segundos por paciente. (O custo do dispositivo representa cerca de 1–5% do custo total do estudo; o tempo dos pesquisadores, o recrutamento de participantes e o teste de autoanticorpos são os principais custos.)
 
-A tecnologia está aprovada pela FDA. Dados normativos existem. A validação de transversal entre doenças já foi realizada. A justificativa mecânica — autoanticorpos de GPCR que atingem os receptores específicos que controlam a pupil — é específica e falsificável.
+A tecnologia está aprovada pela FDA. Dados normativos existem. A validação de transversal entre doenças já foi realizada. A justificativa mecânica — autoanticorpos de GPCR que atingem os recetores específicos que controlam a pupil — é específica e falsificável.
 
 O que está a faltar é um estudo — especificamente, alguém com um grupo de pacientes com EM/SFC existente, um conjunto de dados de autoanticorpos de GPCR e um orçamento de equipamento de ~€3.000 para passar um ano respondendo uma questão sobre a qual o campo discute há uma década.
 

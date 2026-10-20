@@ -92,4 +92,4 @@ Nada en la ciencia se demuestra mediante una única predicción. Pero un modelo 
 
 La hipótesis del cuello de botella es un marco para organizar lo que sabemos, no un mecanismo comprobado. Dirige la atención hacia el circuito del striatum como el locus crítico para la investigación. Si este esfuerzo da resultados depende de la próxima ronda de experimentos.
 
-*Post 2 de 4 en la serie GWAS DecodeME. Prev: [La genética se ha aclarado](../genetics-ends-debate/) · Next: [Medicinas para EM/SFC en Parkinson?](../dopamine-rational-mechanism/) · [El striatum no es nuestro](../msn-specificity-caveat/)*
+*Post 2 de 4 en la serie GWAS DecodeME. Anterior: [La genética se ha aclarado](../genetics-ends-debate/) · Siguiente: [Medicinas para EM/SFC en Parkinson?](../dopamine-rational-mechanism/) · [El striatum no es nuestro](../msn-specificity-caveat/)*

@@ -82,9 +82,9 @@ En la práctica, muchos pacientes tienen ambos —la laxitud base congénita má
 Los mastocitos se anclan a las proteínas de la matriz extracelular (fibronectina, vitronectina) a través de receptores de integrina y —crucialmente— a través de CADM1, una molécula de adherencia celular que conecta físicamente a los mastocitos con las terminaciones nerviosas sensoriales. En el tejido hipermóvil, la ECM es más suave, por lo que la presión mecánica que se amortiguaría en una matriz normal se transmite a la superficie del mastocito con menos atenuación [@Magadmi2019]. Este es un **bucle de retroalimentación positiva bidireccional**:
 
 ```
-loose ECM → less mechanical damping → mast cells fire more easily
-→ release tryptase/chymase → activate MMPs → degrade ECM further
-→ even looser ECM → mast cells fire even more easily → ...
+MEC laxa → menos amortiguación mecánica → los mastocitos se activan con más facilidad
+→ liberan triptasa/quimasa → activan las MMP → degradan aún más la MEC
+→ MEC aún más laxa → los mastocitos se activan todavía con más facilidad → ...
 ```
 
 El documento principal formaliza esto como un **modelo bistable**: el sistema de mastocitos y ECM tiene dos estados estables — un estado “saludable” con matriz firme y mastocitos tranquilos, y un estado “degradado” con matriz blanda y mastocitos hiperreactivos. Una vez que el sistema cruza el punto de inflexión (un brote severo de MCAS, una infección viral que active masivamente los mastocitos, un período de inactividad prolongada que debilita el tejido conectivo), puede que no vuelva espontáneamente al estado saludable. El modelo predice que el tratamiento debe ser *sostenido* — los antihistamínicos intermitentes o los estabilizadores ocasionales pueden no ser suficientes para revertir el sistema — y que, una vez que el colágeno se degrada estructuralmente por encima de un cierto punto, incluso un control total de los mastocitos podría no revertir la laxitud [@Loth2026website].

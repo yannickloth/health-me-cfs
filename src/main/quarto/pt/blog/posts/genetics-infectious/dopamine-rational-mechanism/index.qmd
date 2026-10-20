@@ -93,4 +93,4 @@ Essa mudança — de adivinhar para direcionar — é o verdadeiro progresso.
 | A imagiologia do VMAT2 é um candidato a biomarcador diagnóstico | Baixa — requer replicação em coortes de EM/SFC, não apenas no long COVID |
 | Os ensaios existentes com metilfenidato são suficientemente positivos para justificar ensaios maiores | Moderada — sinal consistente, estudos pequenos, resultados variáveis |
 
-*3 de 4 na série GWAS DecodeME. Anterior: [The Genetics Settled It](../genetics-ends-debate/) · [The Striatum Is the Bottleneck](../striatum-bottleneck/) · Próximo: [The Striatum Isn't Ours](../msn-specificity-caveat/)*
+*3 de 4 na série GWAS DecodeME. Anterior: [A Genética Resolveu a Questão](../genetics-ends-debate/) · [O Striatum é o Gargalo](../striatum-bottleneck/) · Próximo: [O enriquecimento cerebral não é exclusivo nosso](../msn-specificity-caveat/)*
