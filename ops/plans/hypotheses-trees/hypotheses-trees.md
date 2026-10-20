@@ -399,6 +399,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | exertional-muscle-soreness | [subtrees/exertional-muscle-soreness.md](subtrees/exertional-muscle-soreness.md) | 2026-09-27 | 27 | 0 | 🔵 in progress |
 | mcas-stack-drug-mechanisms | [subtrees/mcas-stack-drug-mechanisms.md](subtrees/mcas-stack-drug-mechanisms.md) | 2026-09-29 | 22 | 22 | ✅ done |
 | adhd-dementia-energy-deficit | [subtrees/adhd-dementia-energy-deficit.md](subtrees/adhd-dementia-energy-deficit.md) | 2026-10-08 | 36 | 0 | ⬜ pending |
+| adhd-mortality | [subtrees/adhd-mortality.md](subtrees/adhd-mortality.md) | 2026-10-20 | 16 | 8 | 🔵 in progress |
 | sleep-mindfulness-resting | [subtrees/sleep-mindfulness-resting.md](subtrees/sleep-mindfulness-resting.md) | 2026-10-10 | 17 | 0 | ⬜ pending |
 | muscle-electrostimulation-fatigue | [subtrees/muscle-electrostimulation-fatigue.md](subtrees/muscle-electrostimulation-fatigue.md) | 2026-10-11 | 14 | 0 | ⬜ pending |
 | ems-muscle-damage-pem | [subtrees/ems-muscle-damage-pem.md](subtrees/ems-muscle-damage-pem.md) | 2026-10-11 | 15 | 0 | ⬜ pending |
