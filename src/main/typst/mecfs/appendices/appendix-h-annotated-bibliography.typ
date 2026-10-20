@@ -975,7 +975,7 @@ Represents pioneering early work (1990s–2000s) establishing that a subset of C
 
 === Neuroinflammation
 
-    *Full Citation:*: Nakatomi Y, Mizuno K, Ishii A, et al.\ Neuroinflammation in Patients with Chronic Fatigue Syndrome/Myalgic Encephalomyelitis: An #super[11]C-(R)-PK11195-PET Study. _Journal of Nuclear Medicine_. 2014;55(6):945–950.
+    *Full Citation:*: Nakatomi Y, Mizuno K, Ishii A, et al.\ Neuroinflammation in Patients with Chronic Fatigue Syndrome/Myalgic Encephalomyelitis: An #super[11]C-(R)-PK11195-PET Study. _Journal of Nuclear Medicine_. 2014;55(6):945–950. @Nakatomi2014neuroinflammation
     *DOI:*: #link("https://doi.org/10.2967/jnumed.113.131045")[10.2967/jnumed.113.131045]
     *PMID:*: 24665088
     *Key Findings:*: PET imaging demonstrates widespread neuroinflammation correlating with symptom severity.
@@ -7333,17 +7333,6 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
         - Establishes the neuroimmune basis for fatigue, anhedonia, and social withdrawal
 
     *Relevance to Part V:*: Foundational framework for neuroendocrine models linking peripheral inflammation to central symptoms.
-
-=== Raijmakers et al.\ 2021 — Neuroinflammation and Microglia
-
-    *Full Citation:*: Raijmakers R, Teunissen S, Moens B, Daemen MA, Adriaensen D. Neuroinflammation and microglia in chronic pain and itch. _Frontiers in Pain Research_. 2021;2:78. @Raijmakers2021Neuroinflammation
-    *DOI:*: #link("https://doi.org/10.3389/fpain.2021.644542")[10.3389/fpain.2021.644542]
-    *Key Findings:*:
-
-        - Reviews microglial activation and neuroinflammatory pathways in chronic pain
-        - Links peripheral immune signals to central sensitization
-
-    *Relevance to Part V:*: Microglial activation dynamics for neuroinflammation sub-models in neuroendocrine modeling.
 
 === Novak et al.\ 2022 — Cerebral Blood Flow Regulation Review
 

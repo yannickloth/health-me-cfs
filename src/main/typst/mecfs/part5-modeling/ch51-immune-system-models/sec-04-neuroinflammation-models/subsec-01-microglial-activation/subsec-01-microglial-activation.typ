@@ -3,7 +3,7 @@
 === Microglial Activation
 <sec:microglia-model>
 
-Microglia are the resident immune cells of the central nervous system. PET imaging studies have shown increased neuroinflammatory markers in ME/CFS patients @Raijmakers2021Neuroinflammation. Microglia exist in a continuum of activation states, simplified here to resting ($mu_r$), activated pro-inflammatory ($mu_1$), and activated anti-inflammatory/reparative ($mu_2$):
+Microglia are the resident immune cells of the central nervous system. PET imaging studies have reported increased TSPO binding in ME/CFS, but a later cohort found no difference @Nakatomi2014neuroinflammation @Raijmakers2021neuroinflammation. Microglia exist in a continuum of activation states, simplified here to resting ($mu_r$), activated pro-inflammatory ($mu_1$), and activated anti-inflammatory/reparative ($mu_2$):
 
 $
 frac(d mu_r, d t) &= -k_1(bold(S)) mu_r - k_2(bold(S)) mu_r + k_(upright("deact"),1) mu_1 + k_(upright("deact"),2) mu_2 \
