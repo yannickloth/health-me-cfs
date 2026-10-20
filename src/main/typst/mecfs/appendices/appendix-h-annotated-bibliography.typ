@@ -44873,3 +44873,274 @@ This stream assembles evidence for the claim that pathological fatigue across au
     - *Sample:* N/A
     - *Replication:* N/A
     - *Score:* 0.40 (raw); population weight 0.80 → 0.32
+
+
+=== Corrigan 2026 — ADHD Mortality Meta-Analysis
+@Corrigan2026ADHDmortality
+
+/ *Full Citation:*: Corrigan L, Heywood L, Stewart GR, O'Nions E, Shelford H, Stott J, John A. Mortality Among People With Attention-Deficit/Hyperactivity Disorder: A Systematic Review and Meta-Analysis. _JAMA Network Open_. 2026;9(10):e2639448.
+/ *DOI:*: #link("https://doi.org/10.1001/jamanetworkopen.2026.39448")[10.1001/jamanetworkopen.2026.39448]
+/ *PMID:*: 42895743
+/ *Study Design:*: Systematic review + random-effects meta-analysis (6 databases, inception to 2025-07-08)
+/ *Sample Size:*: 19 studies; 15,920,970 participants (36.1% female)
+/ *Diagnostic Criteria:*: N/A (ADHD; no ME/CFS cohort)
+/ *Key Findings:*:
+    - ADHD associated with increased all-cause mortality (HR 1.71; 1.31–2.24)
+    - Cause-specific: suicide HR 1.89 (1.21–2.95); unintentional/intentional injury HR 1.55 (1.22–2.00); natural-cause HR 1.27 (1.16–1.38)
+    - ADHD medication vs no medication: all-cause HR 0.75 (0.64–0.87) — from only 3 observational studies
+    - Substantial heterogeneity (I² up to 98%) across studies
+/ *Conclusion:*: ADHD is associated with increased mortality across multiple causes; ADHD medication is associated with decreased all-cause mortality, underscoring timely diagnosis and treatment.
+/ *Limitations:*: Medication analysis rests on 3 observational studies (confounding by indication); high heterogeneity; natural-cause and suicide estimates imprecise.
+/ *Certainty Assessment:*:
+    - *Quality:* High (meta-analysis)
+    - *Sample:* Very large (n≈15.9M pooled)
+    - *Replication:* Pooled across 19 studies (consistent direction, high I²)
+    - *Score:* 0.80 (raw); population weight 0.80 → 0.64
+
+=== Dalsgaard 2015 — ADHD Nationwide Mortality Cohort
+@Dalsgaard2015ADHDmortality
+
+/ *Full Citation:*: Dalsgaard S, Østergaard SD, Leckman JF, Mortensen PB, Pedersen MG. Mortality in children, adolescents, and adults with attention deficit hyperactivity disorder: a nationwide cohort study. _Lancet_. 2015;385(9983):2190–2196.
+/ *DOI:*: #link("https://doi.org/10.1016/S0140-6736(14)61684-6")[10.1016/S0140-6736(14)61684-6]
+/ *PMID:*: 25726514
+/ *Study Design:*: Nationwide Danish register cohort (prospective)
+/ *Sample Size:*: 1.92M individuals incl. 32,061 with ADHD; 24.9M person-years; 5580 deaths
+/ *Diagnostic Criteria:*: N/A (ADHD; no ME/CFS cohort)
+/ *Key Findings:*:
+    - Fully adjusted mortality rate ratio 2.07 (1.70–2.50); 5.85 vs 2.21 deaths/10,000 person-years
+    - Excess mortality driven by unnatural causes (accidents most common)
+    - MRR 4.25 (3.05–5.78) for those diagnosed ≥18y vs 1.58 (6–17y)
+    - After excluding ODD/conduct/substance-use disorder, MRR 1.50 (1.11–1.98); higher in girls/women (2.85) than boys/men (1.27)
+/ *Conclusion:*: Foundational evidence that ADHD itself carries excess mortality, mainly unnatural/accidental deaths, persisting after comorbidity exclusion.
+/ *Limitations:*: Registry diagnosis ascertainment; register follow-up to 2013; residual confounding by unmeasured factors.
+/ *Certainty Assessment:*:
+    - *Quality:* High (nationwide register)
+    - *Sample:* Very large (n≈1.92M)
+    - *Replication:* Replicated in Sweden/Taiwan/UK cohorts
+    - *Score:* 0.82 (raw); population weight 0.78 → 0.64
+
+=== Catalá-López 2022 — ASD/ADHD Mortality Meta-Analysis
+@CatalaLopez2022mortality
+
+/ *Full Citation:*: Catalá-López F, Hutton B, Page MJ, Driver JA, Ridao M, Alonso-Arroyo A, et al. Mortality in Persons With Autism Spectrum Disorder or Attention-Deficit/Hyperactivity Disorder: A Systematic Review and Meta-analysis. _JAMA Pediatrics_. 2022;176(4):e216401.
+/ *DOI:*: #link("https://doi.org/10.1001/jamapediatrics.2021.6401")[10.1001/jamapediatrics.2021.6401]
+/ *PMID:*: 35157020
+/ *Study Design:*: Systematic review + random-effects meta-analysis
+/ *Sample Size:*: 27 studies; 642,260 individuals (ADHD subset: 8 studies, 396,488)
+/ *Diagnostic Criteria:*: N/A (ADHD/ASD; no ME/CFS cohort)
+/ *Key Findings:*:
+    - ADHD all-cause mortality RR 2.13 (1.13–4.02), I² 98%, GRADE low confidence
+    - Unnatural-cause RR 2.81 (1.73–4.55); natural-cause not significant (1.62, 0.89–2.96)
+    - ASD all-cause RR 2.37 (1.97–2.85)
+/ *Conclusion:*: Direct predecessor to Corrigan 2026: ADHD is associated with significantly increased mortality, driven by unnatural causes, but with high unexplained heterogeneity.
+/ *Limitations:*: High heterogeneity (I² 98%) precludes precise magnitude; low GRADE confidence; studies heterogeneous in covariates.
+/ *Certainty Assessment:*:
+    - *Quality:* Medium-High (meta-analysis)
+    - *Sample:* Large (n≈642k)
+    - *Replication:* Meta-analytic; heterogeneous
+    - *Score:* 0.72 (raw); population weight 0.78 → 0.56
+
+=== O'Nions 2025 — ADHD Life-Expectancy Deficit
+@ONions2025lifexpectancy
+
+/ *Full Citation:*: O'Nions E, El Baou C, John A, Lewer D, Mandy W, McKechnie DGJ, Petersen I, Stott J. Life expectancy and years of life lost for adults with diagnosed ADHD in the UK: matched cohort study. _The British Journal of Psychiatry_. 2025;226(5):261–268.
+/ *DOI:*: #link("https://doi.org/10.1192/bjp.2024.199")[10.1192/bjp.2024.199]
+/ *PMID:*: 39844532
+/ *Study Design:*: Matched cohort (retrospective) using UK primary care
+/ *Sample Size:*: 30,039 adults with diagnosed ADHD vs 300,390 matched 1:10 (792 practices; 9.56M people, 2000–2019)
+/ *Diagnostic Criteria:*: N/A (ADHD; no ME/CFS cohort)
+/ *Key Findings:*:
+    - Life-expectancy reduction vs general population: men 6.78y (4.50–9.11), women 8.64y (6.55–10.91)
+    - ~0.32% of adults had an ADHD diagnosis (~1 in 9 of all adults with ADHD)
+    - Physical and mental-health diagnoses more common in the ADHD group
+/ *Conclusion:*: Adults with diagnosed ADHD live shorter lives, attributed to modifiable risk factors and unmet treatment/support needs for ADHD and co-occurring conditions.
+/ *Limitations:*: Diagnosed-only population (may not generalise to undiagnosed majority); primary-care diagnosis ascertainment; observational.
+/ *Certainty Assessment:*:
+    - *Quality:* High (large matched cohort)
+    - *Sample:* Large (n≈330k)
+    - *Replication:* Consistent with register cohorts
+    - *Score:* 0.78 (raw); population weight 0.80 → 0.62
+
+=== Chen 2019 — ADHD Mortality in Taiwan
+@Chen2019ADHDmortality
+
+/ *Full Citation:*: Chen VC, Chan HL, Wu SI, Lee M, Lu ML, Liang HY, et al. Attention-Deficit/Hyperactivity Disorder and Mortality Risk in Taiwan. _JAMA Network Open_. 2019;2(8):e198714.
+/ *DOI:*: #link("https://doi.org/10.1001/jamanetworkopen.2019.8714")[10.1001/jamanetworkopen.2019.8714]
+/ *PMID:*: 31390039
+/ *Study Design:*: Nationwide population-based cohort (retrospective)
+/ *Sample Size:*: 275,980 with ADHD vs 1,931,860 matched controls (15.1M person-years; 4321 deaths)
+/ *Diagnostic Criteria:*: N/A (ADHD; no ME/CFS cohort)
+/ *Key Findings:*:
+    - Adjusted HR all-cause 1.07 (1.00–1.17); suicide 2.09 (1.62–2.71); unintentional injury 1.30 (1.10–1.52); homicide 2.00 (1.09–3.68)
+    - No increased natural-cause mortality after adjustment
+    - Absolute mortality risk low despite elevated HRs
+/ *Conclusion:*: East Asian replication: ADHD confers excess injury-cause mortality (suicide, injury, homicide) but not natural-cause mortality; absolute risk low.
+/ *Limitations:*: Registry diagnosis; young cohort (mean 9.6y); competing-risk model limitations.
+/ *Certainty Assessment:*:
+    - *Quality:* High (nationwide register)
+    - *Sample:* Very large (n≈2.2M)
+    - *Replication:* Replication (Taiwan)
+    - *Score:* 0.75 (raw); population weight 0.75 → 0.56
+
+=== Sun 2019 — Psychiatric Comorbidity and Premature Death in ADHD
+@Sun2019prematuredeath
+
+/ *Full Citation:*: Sun S, Kuja-Halkola R, Faraone SV, D'Onofrio BM, Dalsgaard S, Chang Z, Larsson H. Association of Psychiatric Comorbidity With the Risk of Premature Death Among Children and Adults With Attention-Deficit/Hyperactivity Disorder. _JAMA Psychiatry_. 2019;76(11):1141–1149.
+/ *DOI:*: #link("https://doi.org/10.1001/jamapsychiatry.2019.1944")[10.1001/jamapsychiatry.2019.1944]
+/ *PMID:*: 31389973
+/ *Study Design:*: Prospective nationwide cohort (Swedish registers)
+/ *Sample Size:*: 2,675,615 born 1983–2009; 86,670 (3.2%) with ADHD; follow-up to 2013
+/ *Diagnostic Criteria:*: N/A (ADHD; no ME/CFS cohort)
+/ *Key Findings:*:
+    - Mortality 11.57 vs 2.16 per 10,000 person-years; HR adult 4.64 vs childhood 1.41
+    - HR rises with psychiatric-comorbidity count (ADHD-only 1.41 → ≥4 comorbidities 25.22)
+    - Early-onset comorbidity attenuates natural-cause death (HR 1.32, ns); later-onset comorbidity attenuates suicide (HR 1.13, ns); unintentional injury persists (2.14)
+/ *Conclusion:*: Psychiatric comorbidity plays a major role in ADHD mortality — the strongest confounder-quantification study; part of the association is attributable to comorbidity.
+/ *Limitations:*: Cannot fully separate comorbidity as confounder vs mediator; register diagnosis.
+/ *Certainty Assessment:*:
+    - *Quality:* High (nationwide register)
+    - *Sample:* Very large (n≈2.68M)
+    - *Replication:* Confounder-quantification (unique)
+    - *Score:* 0.80 (raw); population weight 0.78 → 0.62
+
+=== Mustonen 2023 — Adolescent ADHD Symptoms and Mortality (NFBC1986)
+@Mustonen2023mortality
+
+/ *Full Citation:*: Mustonen A, Alakokkare AE, Scott JG, Halt AH, Vuori M, Hurtig T, et al. Association of ADHD symptoms in adolescence and mortality in Northern Finland Birth Cohort 1986. _Nordic Journal of Psychiatry_. 2023;77(2):165–171.
+/ *DOI:*: #link("https://doi.org/10.1080/08039488.2022.2073389")[10.1080/08039488.2022.2073389]
+/ *PMID:*: 35549976
+/ *Study Design:*: Prospective birth cohort (NFBC1986) linked to death register
+/ *Sample Size:*: 6685 with data; 63 deaths (0.9%) to age 33
+/ *Diagnostic Criteria:*: N/A (ADHD symptoms, SWAN; no ME/CFS cohort)
+/ *Key Findings:*:
+    - Parent-rated SWAN inattentive crude HR 2.30 (1.46–3.63); hyperactive 2.43 (1.29–4.56); combined 2.69 (1.57–4.61)
+    - Persisted after sex/family structure/parental psychiatric disorder
+    - Attenuated to non-significance after adolescent alcohol/cannabis/substance use
+/ *Conclusion:*: Extends ADHD-mortality findings to symptom-level general-population data; the association may be partly mediated/confounded by adolescent substance use.
+/ *Limitations:*: Small event count (63 deaths); symptom-based (not diagnosis); cannot disentangle confounding vs mediation by substance use.
+/ *Certainty Assessment:*:
+    - *Quality:* Medium (birth cohort, low events)
+    - *Sample:* Small events (n=63)
+    - *Replication:* Single cohort
+    - *Score:* 0.58 (raw); population weight 0.72 → 0.42
+
+=== Li 2024 — ADHD Pharmacotherapy and Mortality
+@Li2024ADHDpharmmortality
+
+/ *Full Citation:*: Li L, Zhu N, Zhang L, Kuja-Halkola R, D'Onofrio BM, Brikell I, et al. ADHD Pharmacotherapy and Mortality in Individuals With ADHD. _JAMA_. 2024;331(10):850–860.
+/ *DOI:*: #link("https://doi.org/10.1001/jama.2024.0851")[10.1001/jama.2024.0851]
+/ *PMID:*: 38470385
+/ *Study Design:*: Nationwide cohort applying target trial emulation (prospective)
+/ *Sample Size:*: 148,578 with ADHD; 84,204 (56.7%) initiated medication
+/ *Diagnostic Criteria:*: N/A (ADHD; no ME/CFS cohort)
+/ *Key Findings:*:
+    - 2-year mortality risk 39.1 vs 48.1 per 10,000 (risk difference −8.9; −17.3 to −0.6)
+    - Medication initiation: all-cause HR 0.79 (0.70–0.88); unnatural-cause HR 0.75 (0.66–0.86); natural-cause ns (0.86, 0.71–1.05)
+/ *Conclusion:*: Initiating ADHD pharmacotherapy is associated with lower all-cause mortality, driven by unnatural causes — the strongest medication-protective evidence.
+/ *Limitations:*: Observational (confounding by indication); 2-year window; Swedish context.
+/ *Certainty Assessment:*:
+    - *Quality:* High (target trial emulation)
+    - *Sample:* Large (n≈149k)
+    - *Replication:* Consistent with Vasiliadis 2024 / Rice 2024
+    - *Score:* 0.80 (raw); population weight 0.80 → 0.64
+
+=== Vasiliadis 2024 — ADHD Medications, Mortality and Injury
+@Vasiliadis2024mortality
+
+/ *Full Citation:*: Vasiliadis HM, Lunghi C, Rahme E, Rochette L, Gignac M, Massamba V, et al. ADHD medications use and risk of mortality and unintentional injuries: a population-based cohort study. _Translational Psychiatry_. 2024;14(1):128.
+/ *DOI:*: #link("https://doi.org/10.1038/s41398-024-02825-y")[10.1038/s41398-024-02825-y]
+/ *PMID:*: 38418443
+/ *Study Design:*: Population-based retrospective cohort (Quebec administrative data, 2000–2021)
+/ *Sample Size:*: 217,192 individuals aged 1–24 with ADHD
+/ *Diagnostic Criteria:*: N/A (ADHD; no ME/CFS cohort)
+/ *Key Findings:*:
+    - ADHD-medication episodes vs non-use: all-cause mortality aHR 0.61 (0.48–0.76)
+    - Unintentional injury: ED 0.75 (0.74–0.77); hospitalisation 0.71 (0.68–0.75)
+    - Stimulants reduced all-cause mortality + injuries; non-stimulants reduced injuries only
+/ *Conclusion:*: Stimulants may be protective for all-cause mortality and injuries in youth with ADHD; residual confounding cannot be excluded.
+/ *Limitations:*: Administrative-data exposure/diagnosis; residual confounding; youth (≤24y) population.
+/ *Certainty Assessment:*:
+    - *Quality:* Medium-High (population cohort)
+    - *Sample:* Large (n≈217k)
+    - *Replication:* Consistent with Li 2024
+    - *Score:* 0.72 (raw); population weight 0.78 → 0.56
+
+=== Rice 2024 — Stimulant Medication and Suicide Mortality
+@Rice2024stimulantsuicide
+
+/ *Full Citation:*: Rice KM, Peltzman T, Gottlieb D, Shiner B, Watts BV. Stimulant medication and suicide mortality in attention-deficit hyperactivity disorder. _BJPsych Open_. 2024;10(1):e33.
+/ *DOI:*: #link("https://doi.org/10.1192/bjo.2023.643")[10.1192/bjo.2023.643]
+/ *PMID:*: 38251676
+/ *Study Design:*: Retrospective cohort (US Veterans Affairs)
+/ *Sample Size:*: VA patients with active ADHD diagnosis receiving stimulants 2016–2019
+/ *Diagnostic Criteria:*: N/A (ADHD; no ME/CFS cohort)
+/ *Key Findings:*:
+    - Months with active stimulant prescription vs without: suicide mortality OR 0.57 (0.36–0.88)
+/ *Conclusion:*: Stimulant prescribing for ADHD is associated with decreased suicide mortality, within-person comparison reducing some confounding.
+/ *Limitations:*: Observational; VA (predominantly male) population; stimulant exposure defined by prescription fills.
+/ *Certainty Assessment:*:
+    - *Quality:* Medium (retrospective cohort)
+    - *Sample:* Unstated (VA sample)
+    - *Replication:* Consistent with Li 2024 direction
+    - *Score:* 0.60 (raw); population weight 0.72 → 0.43
+
+=== Kapur & Webb 2016 — Suicide Risk in CFS
+@Kapur2016suicide
+
+/ *Full Citation:*: Kapur N, Webb R. Suicide risk in people with chronic fatigue syndrome. _Lancet_. 2016;387(10028):1596–1597.
+/ *DOI:*: #link("https://doi.org/10.1016/S0140-6736(16)00270-1")[10.1016/S0140-6736(16)00270-1]
+/ *PMID:*: 26873809
+/ *Study Design:*: Lancet Comment (editorial) on Roberts 2016 CRIS/SLaM ME/CFS mortality study
+/ *Sample Size:*: N/A (commentary)
+/ *Diagnostic Criteria:*: ME/CFS (commentary on Roberts 2016)
+/ *Key Findings:*:
+    - Interprets the elevated proportion of suicide-attributed deaths in ME/CFS from Roberts 2016
+    - Urges vigilance about suicidality in ME/CFS while cautioning against over-reading register cause-of-death data (small numbers, ascertainment, depression confounding)
+/ *Conclusion:*: ME/CFS may carry elevated suicide mortality; this anchors the ME/CFS-side comparison for the ADHD-mortality topic.
+/ *Limitations:*: Commentary (no primary data); relies on a single register study.
+/ *Certainty Assessment:*:
+    - *Quality:* Low (opinion/comment)
+    - *Sample:* N/A
+    - *Replication:* N/A
+    - *Score:* 0.35 (raw); population weight 0.90 → 0.32
+
+=== Farhat 2025 — Comparative Cardiovascular Safety of ADHD Medications
+@Farhat2025CVsafety
+
+/ *Full Citation:*: Farhat LC, Lannes A, Del Giovane C, Parlatini V, Garcia-Argibay M, Ostinelli EG, et al. Comparative cardiovascular safety of medications for attention-deficit hyperactivity disorder in children, adolescents, and adults: a systematic review and network meta-analysis. _The Lancet Psychiatry_. 2025;12(5):355–365.
+/ *DOI:*: #link("https://doi.org/10.1016/S2215-0366(25)00062-8")[10.1016/S2215-0366(25)00062-8]
+/ *PMID:*: 40203844
+/ *Study Design:*: Systematic review + network meta-analysis (102 RCTs)
+/ *Sample Size:*: 13,315 children/adolescents + 9387 adults
+/ *Diagnostic Criteria:*: N/A (ADHD; no ME/CFS cohort)
+/ *Key Findings:*:
+    - Amphetamines, atomoxetine, lisdexamfetamine, methylphenidate, viloxazine increase SBP/DBP/pulse
+    - Children: SBP +1.07 (atomoxetine) to +1.81 (methylphenidate) mm Hg; pulse +2.79 to +5.58 bpm
+    - Guanfacine decreases BP/pulse; only 4 RCTs medium-term, none long-term
+/ *Conclusion:*: ADHD medications (not only stimulants) raise blood pressure and pulse — monitor haemodynamics; long-term cardiovascular causal data lacking.
+/ *Limitations:*: Short-term RCTs (median 7 weeks); no long-term mortality/cardiovascular-event data.
+/ *Certainty Assessment:*:
+    - *Quality:* High (network meta-analysis)
+    - *Sample:* Large (n≈22.7k)
+    - *Replication:* Consistent with Hennissen 2017
+    - *Score:* 0.82 (raw); population weight 0.75 → 0.62
+
+=== Hennissen 2017 — Cardiovascular Effects of ADHD Medication (Meta-Analysis)
+@Hennissen2017CVmeta
+
+/ *Full Citation:*: Hennissen L, Bakker MJ, Banaschewski T, Carucci S, Coghill D, Danckaerts M, et al. Cardiovascular Effects of Stimulant and Non-Stimulant Medication for Children and Adolescents with ADHD: A Systematic Review and Meta-Analysis of Trials of Methylphenidate, Amphetamines and Atomoxetine. _CNS Drugs_. 2017;31(3):199–215.
+/ *DOI:*: #link("https://doi.org/10.1007/s40263-017-0410-7")[10.1007/s40263-017-0410-7]
+/ *PMID:*: 28236285
+/ *Study Design:*: Systematic review + meta-analysis of pre-post BP/HR (18 trials)
+/ *Sample Size:*: 5837 children/adolescents (80.7% boys); avg 28.7 weeks
+/ *Diagnostic Criteria:*: N/A (ADHD; no ME/CFS cohort)
+/ *Key Findings:*:
+    - MPH/AMP/ATX all raise SBP (SMD 0.09–0.25); AMP and ATX raise DBP (0.16/0.22) and HR (0.37/0.43)
+    - MPH had no pre-post DBP or HR effect; 12.6% reported other CV effects; 2% discontinued for CV effects
+/ *Conclusion:*: Small but significant BP/HR increases with ADHD medication, clinically relevant in a minority; monitor BP/HR.
+/ *Limitations:*: Pre-post (no placebo control) design; paediatric population; no hard cardiovascular events.
+/ *Certainty Assessment:*:
+    - *Quality:* Medium-High (meta-analysis)
+    - *Sample:* Moderate (n≈5.8k)
+    - *Replication:* Consistent with Farhat 2025
+    - *Score:* 0.72 (raw); population weight 0.75 → 0.54
