@@ -1,0 +1,18 @@
+---
+title: "As bactérias intestinais ouvem os hormônios do estresse?"
+description: "A noradrenalina é um sinal de estresse humano. Algumas bactérias também crescem mais rapidamente quando está presente. Esse é um fenómeno bidirecional que raramente é discutido."
+author: "Yannick Loth"
+date: "2026-09-30"
+categories: [Cross-links, Noradrenergic, Mechanisms]
+lang: pt
+---
+
+A maioria das discussões sobre intestino-cérebro passa pelo sistema imunitário. Existe um segundo canal mais estranho: **endocrinologia microbiana** — o estudo de como hormônios e neurotransmissores do hospedeiro influenciam micróbios, e vice-versa.
+
+As evidências são reais, mas ainda iniciais. A noradrenalina aumentou o crescimento e a virulência de pelo menos um bactério patogênico, alterando a expressão de muitos genes de virulência (@Gao2019NEAeromonas). E os bactérias intestinais produzem e consomem neurotransmissores de mamíferos, incluindo noradrenalina (@Dicks2022GutBacteriaNeurotransmitters).
+
+**Por que pode ser importante para EM/SFC.** Se a disponibilidade de noradrenalina no hospedeiro for alterada — como sugere a hipótese do déficit seletivo — isso pode mudar o ambiente local que o microbioma intestinal percebe, alterando o ecossistema. Isso seria um efeito *hospedeiro-micróbio*, distinto da direção usual micróbio-imunidade-cérebro.
+
+**As considerações.** O estudo bacteriano utilizou um patógeno de peixe, não um organismo intestinal humano. As revisões descrevem a plausibilidade, não um mecanismo comprovado para EM/SFC. E a descoberta central sobre noradrenalina não foi replicada.
+
+**Como testá-lo.** Expor bactérias cultivadas de pacientes com EM/SFC e comunidades intestinais de controle à noradrenalina e verificar se ocorrem mudanças no crescimento ou virulência, e se o tom noradrenérgico do paciente está correlacionado com a composição do seu microbioma. Se não, o canal é interessante, mas não é operativo neste caso.

@@ -1,0 +1,165 @@
+---
+title: "Gastroparesia em EM/SFC: Um estômago lento, real e mensurável — e uma forma segura de gerenciá-lo"
+description: "O esvaziamento gástrico retardado é uma característica real e testável da EM/SFC, e não uma queixa vaga. Este artigo aborda as evidências, os limites, a questão do mecanismo por trás disso, a ansiedade de viver com um estômago em que não se pode confiar, e um caminho de tratamento seguro e organizado."
+author: "Yannick Loth"
+date: "2026-08-23"
+categories: [Autonomic, Gastrointestinal, Symptoms]
+lang: pt
+---
+
+Você come uma pequena quantidade e fica satisfeito por horas. Sente-se nauseado. O abdômen fica inchado. Às vezes, vomita alimentos que ainda consegue ver. Com o tempo, começa a ter medo de comer. Começa a comer apenas líquidos. Deixa de comer com outras pessoas.
+
+Este artigo faz uma pergunta direta: **a digestão lenta do estômago é uma característica real e mensurável da EM/SFC — ou é apenas como se sente?**
+
+A resposta curta: é real e é mensurável. Um estudo controlado mediu a velocidade de esvaziamento do estômago em 32 pessoas com síndrome de fadiga crónica e constatou que a maioria delas esvaziava lentamente; o atraso acompanhava o quanto se sentiam doentes [@Burnet2004GastricEmptyingCFS]. Esta não é uma queixa vaga. É um achado que pode ser testado com um exame padrão.
+
+Este artigo separa **o que sabemos** de **o que a nossa investigação acrescenta**. O que sabemos: o atraso no esvaziamento gástrico está documentado num grupo de EM/SFC, e a gastroparesis é um problema bem caracterizado no diabetes e, cada vez mais, no contexto pós-viral. O que a nossa investigação acrescenta: a interpretação específica de que a gastroparesis EM/SFC é uma manifestação autonómica mensurável, com uma escala de tratamento segura e organizada — e que o seu mecanismo é realmente não resolvido, com três explicações candidatas e nenhuma confirmada na EM/SFC.
+
+Para uma visão mais abrangente de como a dismotilidade gastrointestinal e a SIBO se relacionam na EM/SFC — o eixo de mastócitos, o mecanismo de hidrogênio-sulfeto e a lista completa de tratamentos — consulte [Artigo sobre Dismotilidade Gastrointestina lenta 1](../sibo-gi-dysmotility/index.qmd) e [o artigo de tratamento complementar](../sibo-gi-treatment/index.qmd). Este artigo não repete esse conteúdo. Aborda mais profundamente a medição do esvaziamento, a incerteza do mecanismo e a escala de tratamento segura e controlada.
+
+---
+
+## O achado mensurável
+
+O ponto de referência é um estudo de radionuclídeo controlado. Ele mediu o esvaziamento gástrico — o tempo que o estômago leva para limpar uma refeição — em 32 pessoas com síndrome de fadiga crónica, utilizando uma tomografia padronizada que acompanha uma pequena quantidade de marcador radioativo numa refeição líquida e sólida [@Burnet2004GastricEmptyingCFS].
+
+O resultado: **23 de 32 (72%) tiveram esvaziamento líquido atrasado, e 12 de 32 (38%) tiveram esvaziamento sólido atrasado.** O atraso correlacionou-se significativamente com a pontuação média de sintomas (p < 0,001) — quanto mais grave o paciente, mais lento o esvaziamento do estômago.
+
+Esta é evidência direta de EM/SFC de que o esvaziamento gástrico atrasado é uma característica real e mensurável da doença, e não apenas uma queixa subjetiva. Pode ser avaliado com um teste padrão de esvaziamento gástrico, e pode ser um alvo para tratamento em vez de algo que o paciente simplesmente tenha de suportar.
+
+**A advertência.** O achado baseia-se numa única coorte de 2004 com 32 pessoas. O estudo é anterior aos critérios diagnósticos modernos para EM/SFC (os critérios de 2015 IOM e 2011 ICC), e o achado não foi replicado numa coorte com critérios modernos. No nosso registo de evidências, este é um achado clínico com uma certeza de 0,60 — sólido, mas ancorado num estudo antigo. O estudo não relatou a gravidade dos seus participantes, portanto, não sabemos se o atraso é mais forte em pacientes graves ou muito graves.
+
+Um contraponto: um relatório de caso de adolescente encontrou esvaziamento gástrico normal e atividade mioelectrónica normal num jovem com CFS [@Corrado1998NormalGastricEmptying]. Portanto, o esvaziamento atrasado não é universal na doença. O caso é de uma pessoa, pediátrica, e tem baixo peso evidencial — não anula o achado da coorte maior, mas mostra que o atraso não está presente em todos os casos.
+
+---
+
+## Como é a sensação: a ansiedade de um estômago em que não se pode confiar
+
+Os números acima são uma varredura. A experiência é diferente.
+
+Quando o estômago esvai-se lentamente, comer deixa de ser um ato neutro. Torna-se um risco. Você come e, em poucos minutos, sente-se cheio, inchado ou nauseado. Você aprende a temer a refeição. Aprende a temer o momento em que pode vomitar na frente de outras pessoas. Para de comer com outras pessoas, porque não consegue prever o que acontecerá. Começa a pesar cada mordida.
+
+Com o tempo, as pessoas tendem a mudar a sua alimentação na mesma direção. Comem quantidades menores, com mais frequência. Eliminam os alimentos que ficam mais pesados — os gordurosos, os ricos em fibras. E muitos passam a consumir líquidos: smoothies, caldos, bebidas nutricionais, sopas. Líquidos esviam-se mais rapidamente do que sólidos, por isso se sentem mais seguros. Comer apenas líquidos não é uma escolha aleatória. É uma adaptação racional a um estômago que realmente esvai sólidos lentamente.
+
+Isso importa por duas razões. Primeiro, a ansiedade é real e tem um custo. O medo de comer pode limitar a dieta ao ponto da desnutrição e perda de peso, e pode levar a uma relação desordenada com a alimentação que precisa de apoio próprio — não apenas de uma lista de dieta. Um paciente que tem medo de comer é um paciente que precisa de um médico, não mais força de vontade.
+
+Em segundo lugar, a adaptação não está errada. A mudança para refeições pequenas, frequentes, baixo-gordurosas, baixo-fibrasas e para nutrição líquida ou semi-líquida é exatamente a estratégia de primeira linha, de menor risco que a evidência apoia (veja a seção de tratamento abaixo). O instinto do paciente e a evidência apontam na mesma direção. A diferença é que o paciente geralmente chega a isso sozinho, por tentativa e erro, sem a rede de segurança de um médico a monitorizar o peso e a nutrição.
+
+---
+
+## O que o estômago está fazendo
+
+A imagem clínica da gastroparesis em EM/SFC é um conjunto reconhecível de sintomas:
+
+- Sentir-se cheio após pequenas quantidades de alimento
+- Náusea persistente
+- Vomito, especialmente de alimento não digerido
+- Inchaço abdominal e desconforto
+- Flutuações imprevisíveis no nível de açúcar no sangue
+
+Acredita-se que o mecanismo seja autônomo. O nervo vago controla a motilidade do estômago — as ondas de contração que moem o alimento e o empurram para frente. A interpretação predominante é que a disfunção autônoma reduz o impulso do nervo vago para o estômago em EM/SFC, fazendo com que ele esvaziasse lentamente; essa interpretação é uma hipótese, ainda não comprovada em EM/SFC. Seja qual for a causa, a esvaziamento prejudicado gera os sintomas digestivos e as dificuldades nutricionais mencionadas anteriormente.
+
+Esta é a interpretação funcional: o programa motor do estômago é subimpulsionado pelo sistema nervoso autônomo. É a explicação mais simples e se encaixa na disfunção autônoma característica da EM/SFC. No entanto, não é a única explicação, e não é a que as evidências determinaram. Voltaremos às alternativas após analisar os limites das evidências.
+
+Existe uma segunda consequência que é especialmente relevante em EM/SFC. Um esvaziamento irregular provavelmente significa uma absorção irregular — o açúcar e os nutrientes chegam ao sangue em surtos imprevisíveis, em vez de um fluxo constante, pois a taxa de esvaziamento do estômago molda a resposta de açúcar pós-prandial [@Camilleri2026GastroparesisReview]. Esta é uma inferência razoável da fisiologia, ainda não comprovada num grupo de EM/SFC. Para uma pessoa que já lida com um envelope de energia restrito e intolerância ortostática, essa instabilidade adicionaria uma carga metabólica à desconforto gástrico. É mais um motivo pelo qual o estômago lento não é apenas um incómodo local, mas parte da imagem mais ampla da energia.
+
+---
+
+## Limites
+
+Antes da questão do mecanismo, os limites. A evidência de que os pacientes com EM/SFC têm esvaziamento gástrico retardado é real, mas fraca, e apresenta fraquezas específicas:
+
+- **Uma coorte antiga.** A evidência direta baseia-se em grande parte na única coorte de 2004 com 32 pessoas, que antecede os critérios de diagnóstico modernos [@Burnet2004GastricEmptyingCFS].
+- **Um caso nulo.** O único exemplo contrário é um adolescente com esvaziamento normal [@Corrado1998NormalGastricEmptying].
+- **Nenhuma replicação moderna.** Nenhuma coorte que use os critérios atuais da IOM/ICC replicou o achado.
+- **Alternativas não específicas.** Várias explicações além de uma lesão específica de gastroparesis EM/SFC podem produzir o mesmo padrão de sintomas: efeitos colaterais de medicamentos (muitos medicamentos usados em EM/SFC retardam o esvaziamento gástrico), dispepsia funcional com acomodação gástrica anormal e hipersensibilidade visceral em vez de um verdadeiro atraso no esvaziamento [@Debourdeau2024GastricVolumetry], descondicionamento ou os efeitos gerais de uma doença grave, e viés de relatórios subjetivos que aumenta a prevalência baseada em sintomas.
+- **Apoio de transversal entre doenças desvalorizado.** O apoio mecânico da histologia de diabetes e gastroparesis idiopática [@Grover2011CellularChangesGastroparesis] e modelos animais [@Wang2009ICCLossDiabetes] vem de outras populações e não estabelece por si só que a EM/SFC compartilha essa patologia.
+
+A consequência prática: antes de agir com base numa diagnóstico de gastroparesis em EM/SFC, o clínico deve reconhecer que a evidência é de uma única coorte antiga e deve excluir as causas comuns não específicas — efeitos de medicamentos, dispepsia — com testes objetivos, em vez de assumir um defeito de esvaziamento específico para a EM/SFC. Esta é uma avaliação de risco, não uma afirmação positiva, e a cautela aplica-se a todas as gravidades.
+
+---
+
+## A questão do mecanismo: três candidatos, nenhum confirmado
+
+Esta é a parte verdadeiramente aberta da história. Ainda não sabemos o que está errado estrutural ou funcional no estômago em EM/SFC. Três candidatos estão em discussão, e eles apontam para tratamentos diferentes.
+
+**Candidato 1 — perda estrutural das células motoras do estômago e dos nervos entéricos.** Em gastroparesia diabética e idiopática, o tecido gástrico humano mostra perda das células intersticiais de Cajal (as células motoras do estômago), redução das fibras nervosas entéricas e alteração dos macrófagos residentes [@Grover2011CellularChangesGastroparesis]. Um modelo animal de gastroparesia diabética confirma que a perda dessas células e nervos é acompanhada por um esvaziamento mais lento [@Wang2009ICCLossDiabetes]. Se a EM/SFC compartilha essa degeneração estrutural, ainda não se sabe — nenhuma histologia gástrica de EM/SFC foi publicada. No nosso registo, a extrapolação deste achado para a EM/SFC é uma questão aberta com uma certeza de 0,40. Se for verdade, então os medicamentos prokinéticos que estimulam os nervos sobreviventes têm um limite inerente, e o tratamento precisaria visar a prevenção ou substituição da perda de células.
+
+**Candidato 2 — bloqueio autoimune do receptor de acetilcolina ganglionar.** Um caso de dismotilidade gastrointestinal autoimune após infeção por SARS-CoV-2 apresentou náuseas intratáveis, saturação precoce, esvaziamento gástrico atrasado e anticorpos contra o receptor de acetilcolina ganglionar — e melhorou significativamente com imunoterapia [@Montalvo2022LongCovidGIDysmotility]. Por analogia, um subgrupo de pacientes com EM/SFC e gastroparesia poderia ter um bloqueio autoimune ganglionar (vagal/entérico) em vez de perda estrutural de nervos — um mecanismo que seria potencialmente reversível com imunoterapia e não irreversível. Esta é uma especulação para a EM/SFC com uma certeza de 0,30: nenhuma coorte de EM/SFC foi testada para esses anticorpos, e a única evidência diretamente análoga é um único relatório de caso pós-viral (Long COVID).
+
+**Candidato 3 — falha funcional vagal isolada.** O programa motor do estômago é subdriven pelo sistema nervoso autônomo, sem perda estrutural de células e sem autoanticorpo. Esta é a interpretação mais simples e a que o quadro clínico se encaixa, mas é um diagnóstico de exclusão: só se aplica se os candidatos 1 e 2 forem descartados. No nosso registo, é uma interpretação clínica e não um achado comprovado independentemente, por isso não atribuímos nenhum valor de certeza separado.
+
+Estes três não são mutuamente exclusivos, e a distinção é importante clinicamente. Uma perda estrutural limita o que um prokinético pode fazer. Um bloqueio autoimune é potencialmente reversível. Uma falha funcional é a que tem maior probabilidade de responder aos medicamentos prokinéticos. Ainda não sabemos qual deles — ou qual combinação — aplica-se a um paciente específico, e atualmente não há teste que os separe na EM/SFC.
+
+Cada candidato tem uma previsão falsificável.
+
+Para a leitura de perda estrutural: uma biópsia antral gástrica de pacientes com EM/SFC e gastroparesis documentada, que mostre densidade normal de células pacemaker e nervo entérico, a falsificaria essa previsão; evidências de perda de células ou nervo apoiam-na.
+
+Para a afirmação de bloqueio autoimune: medir anticorpos de receptor de acetilcolina ganglionar num grupo de pacientes com EM/SFC e gastroparesis. Se um subconjunto significativo for positivo em anticorpos e o esvaziamento do estômago melhora após imunoterapia, a afirmação é sustentada. Se os níveis de anticorpos não acompanham o atraso no esvaziamento ou a resposta à imunoterapia, ela é falsificada.
+
+O candidato 3 também é testável: se o atraso no esvaziamento acompanha marcadores de tono vagal não invasivos (como índices de variabilidade da frequência cardíaca) e melhora com terapias autonômicas que aumentam o impulso vagal, a leitura de falha funcional é sustentada; se o esvaziamento permanece lento enquanto esses marcadores se normalizam, ela é enfraquecida.
+
+O próprio atraso no esvaziamento — a característica comum em todos os três — pode ser medido com um escaneamento padrão de esvaziamento gástrico. Distinguir os candidatos exigiria a biópsia e os testes de anticorpos mencionados acima, além de medidas autonômicas não invasivas. Nada disso foi realizado num grupo de pacientes com EM/SFC.
+
+---
+
+## O espelho da transversal entre doenças
+
+A gastroparesis não é exclusiva da EM/SFC. É bem caracterizada em outras condições, e os paralelos são informativos:
+
+- **Diabetes.** A gastroparesis é uma complicação bem caracterizada da diabetes mellitus, onde a perda estrutural de células paceristas e nervos intestinais é documentada em tecidos humanos [@Grover2011CellularChangesGastroparesis] e em modelos animais [@Wang2009ICCLossDiabetes].
+- **Post-viral (Long COVID).** A dismotilidade gastrointestinal autoimune foi relatada após a infeção por SARS-CoV-2, apresentando náuseas intratáveis, satiologia precoce, esvaziamento gástrico retardado e anticorpos contra os recetores de acetilcolina ganglionares, com melhoria após imunoterapia [@Montalvo2022LongCovidGIDysmotility].
+- **POTS e hipermobilidade.** Na sobreposição autónoma/hipermobilidade — POTS e síndrome de Ehlers–Danlos hipermóvel — a dismotilidade gastrointestinal e a gastroparesis são comuns e podem exigir suporte nutricional não oral em casos graves [@Tseng2019POTSNutritionalSupport @Aziz2025AGAGIHyperEhlersDanlos].
+
+Estes paralelos apoiam a gastroparesis como uma manifestação plausível da disfunção autónoma e autoimune envolvida na EM/SFC, e como uma fonte de risco nutricional em doenças graves. Eles também fornecem aos clínicos um manual de gestão — o quadro POTS/hipermobilidade é o mais transferível — enquanto a lacuna entre as populações é apontada: o que está estabelecido nessas populações ainda não foi comprovado na EM/SFC.
+
+---
+
+## O que fazer: um caminho seguro e organizado
+
+A história do tratamento tem dois níveis, e a ordem é importante. A etapa de menor risco vem em primeiro lugar.
+
+**Primeira linha: gestão alimentar e nutricional.** Para gastroparesis moderada a grave, modificações alimentares e estratégias de alimentação são as intervenções de primeira linha, de menor risco: refeições pequenas e frequentes, refeições com baixo teor de gordura e fibras para reduzir a carga mecânica no estômago, e opções de nutrientes líquidos ou semi-líquidos quando o esvaziamento sólido é lento [@Gupta2016GastroparesisDiet]. Nem todos os líquidos são iguais: caldos e sopas finas têm baixo teor de calorias, portanto, a mudança para líquidos requer orientação sobre metas de energia e proteínas, e não apenas uma alteração de textura. Na população com autonomia/POTS, a dismotilidade GI com intolerância alimentar é um fator reconhecido que justifica a necessidade de suporte nutricional não oral (enteral ou parenteral) nos pacientes mais afetados [@Tseng2019POTSNutritionalSupport]. Essas medidas não revertem a disfunção autonômica subjacente, mas são essenciais para manter a nutrição e prevenir perda de peso evitável em EM/SFC grave e muito grave. Elas são aplicadas em todas as gravidades; a escalada enteral é uma medida para EM/SFC muito grave, com falha na alimentação. Esta etapa de primeira linha também é onde a revisão de medicamentos deve ser feita — incluindo, quando relevante, um agonista do receptor GLP-1 (ver abaixo).
+
+Esta é a etapa à qual o instinto do paciente geralmente chega primeiro — a mudança para refeições pequenas, frequentes e líquidas descritas acima. As evidências confirmam o instinto e acrescentam uma rede de segurança: um médico a monitorar o peso, a nutrição e o ponto em que a alimentação oral não é mais suficiente.
+
+**Segunda linha: prokinéticos, com segurança controlada.** Os medicamentos prokinéticos são a principal opção farmacológica para gastroparesis e são baseados em evidências na população geral de gastroparesis [@Ingrosso2023GastroparesisDrugsNMA]. Eles apresentam riscos sérios que são especialmente relevantes para pacientes de EM/SFC grave e muito grave, e nenhum está validado em EM/SFC; tampouco qualquer suplemento herbal ou de venda livre de “motilidade”, que pode interagir com medicamentos cardíacos e outros — não prescreva suplementos por conta própria para este caso. Os medicamentos prescritos considerados são:
+
+- **Metoclopramida** é o único medicamento aprovado pela FDA para gastroparesis, mas apresenta um aviso de “caixa preta” para uso além de 12 semanas devido à discinesia tardia, que pode ser irreversível; também causa sonolência, inquietação e hiperprolactinemia [@Shakhatreh2019Metoclopramide]. Na gravidez, possui dados tranquilizadores no primeiro trimestre sobre malformações congênitas graves [@Sun2021MetoclopramidePregnancy], mas ainda precisa de revisão especializada na gravidez ou amamentação.
+- **Domperidone** pode prolongar o intervalo QT cardíaco — uma avaliação inicial de ECG/QT e monitorização de QTc são prudentes antes e durante o uso [@Ingrosso2023GastroparesisDrugsNMA]; na Europa, é restrito ao uso de curta duração por essas razões cardíacas (EMA, 2014) [@Yuksel2019DomperidoneEMA].
+- **Eritromicina** (como agonista de motilina) perde eficácia com uso prolongado devido à desensibilização do receptor [@Ingrosso2023GastroparesisDrugsNMA].
+- **Agonistas de 5-HT4 altamente seletivos** (por exemplo, prucalopride) mostram eficácia sem sinais excessivos de impacto cardiovascular/QT nos ensaios [@Patel2024SHT4Gastroparesis], mas não são aprovados para gastroparesis em todas as jurisdições.
+
+**Uma classe a verificar, não uma opção prokinética: os agonistas dos recetores GLP-1 são contraindicados em gastroparesis estabelecida.** Eles retardam o esvaziamento gástrico [@Nauck2011GLP1TachyphylaxisGastricEmptying] e são uma causa reconhecida de gastroparesis induzida por medicamentos [@Camilleri2025PharmacologicTreatmentsGastroparesis]; também suprimem o apetite e podem agravar a perda de peso e a náusea — todos os quais já são problemáticos em EM/SFC grave. Se um paciente que toma GLP-1 apresenta esvaziamento lento, vale perguntar ao prescritor se o atraso começou após o início do medicamento; se for claramente assim, um clínico pode considerar uma suspensão supervisionada ou interrupção, o que, em alguns casos, resolve o quadro antes de considerar qualquer prokinético. Este é um julgamento clínico, não uma orientação estabelecida, e a questão do momento é da responsabilidade do prescritor, não algo a ser decidido sozinho. Não interrompa o uso prescrito de GLP-1 por conta própria. O seu uso em pacientes com gastroparesis requer uma revisão explícita em relação a este risco.
+
+Duas limitações rígidas aplicam-se. Primeiro, **nenhuma prokinética foi testada num estudo controlado de EM/SFC**, portanto, a dose e a segurança devem ser extrapoladas de outras populações. Segundo, **os prokinéticos não tratam a disfunção autonómica subjacente**; são melhores combinados com as medidas dietéticas mencionadas acima. Para um paciente grave ou muito grave, a abordagem cautelosa consiste num estudo baseado em evidências com o agente de menor risco, monitorização atenta para efeitos extrapyramídicos, cardíacos e autonómicos, e uso explícito com tempo limitado. É necessária uma revisão completa das interações medicamentosas em relação à lista de medicamentos do paciente antes do uso; se essa revisão, ou um exame de gravidez ou amamentação, for positiva, não inicie um prokinético sem a participação de um especialista.
+
+**Uma escala de vigilância e escalonamento.** Neste artigo, “grave” tem um significado operacional concreto: perda de peso não intencional ao longo de semanas, incapacidade de segurar alimentos ou líquidos, ou dependência de líquidos apenas para manter o peso estável — e, em termos de EM/SFC, isto geralmente coincide com estar confinado à cama ou ser praticamente incapaz de gerir a ingestão oral. Estes são os nossos limiares de trabalho, não critérios de triagem publicados. Um paciente que já vive com líquidos e ainda perde peso não está a aproximar-se do ponto de escalonamento; eles já estão no ponto em que uma revisão da alimentação não oral deve ser considerada. Estes são os sinais que levam um caso a subir a escala, desde as medidas dietéticas acima até nutrição líquida ou semi-líquida, e, se o peso e a nutrição continuarem a diminuir apesar disso, até alimentação não oral sob supervisão médica. Estes são limiares que um clínico deve vigiar e responder — não linhas que o paciente deve traçar sozinho. Três precauções seguem. Primeiro, o escalonamento além da dieta — alimentação não oral, e num paciente grave iniciar qualquer prokinético — geralmente é uma decisão de um especialista (gastroenterologia ou equipa de nutrição). Segundo, alguns sinais exigem atenção urgente em vez de um passo lento: perda de peso contínua semana após semana, incapacidade de segurar líquidos por cerca de um dia, ou fraqueza ou tontura nova ou pior, relacionada a líquidos que não são seguidos, em vez dos sintomas ortostáticos habituais. Terceiro, procure cuidados urgentes em vez de esperar por qualquer um dos itens acima para vómito de sangue ou suspeita de aspiração. Na prática, os exames laboratoriais para o equilíbrio de eletrólitos e micronutrientes apoiam a decisão em cada etapa.
+
+**Esta não é uma recomendação para tomar nenhum destes medicamentos.** As decisões de medicação exigem um médico qualificado que possa avaliar a gravidade do paciente individual, as comorbidades e a lista atual de medicamentos.
+
+---
+
+## Como abordar isso com o seu médico
+
+Se este artigo corresponde ao que você sente, o achado pode ser testado. Você pode perguntar ao seu médico se um estudo de esvaziamento gástrico vale a pena ser considerado, tendo em conta a escassez de evidências para EM/SFC, e mencionar que gostaria que o resultado fosse analisado contra um protocolo padrão. O estudo pode confirmar se o esvaziamento está atrasado e descartar um estômago normal, mas não identifica o mecanismo por si só — é um teste útil, mas não a resposta completa. E se você está perdendo peso, apenas alimentando-se com líquidos ou vomitar regularmente, diga isso claramente: esses são os sinais que tornam um estudo de esvaziamento e uma avaliação nutricional valiosos, e não extras opcionais. É papel do médico decidir se e como agir com base nesses sinais, e não apenas seu. Se um estudo de esvaziamento não estiver disponível imediatamente, os passos mais seguros na primeira linha — medidas alimentares e revisão de medicamentos — ainda são o ponto de partida correto, para que você não seja impedido pela espera pelo teste.
+
+---
+
+## O que levar para casa
+
+A gastroparesia em EM/SFC é real e testável. O atraso no esvaziamento gástrico é uma característica documentada e mensurável da doença — não é uma queixa vaga — e pode ser avaliado com um teste padrão de esvaziamento gástrico [@Burnet2004GastricEmptyingCFS].
+
+O mecanismo é realmente não resolvido. Três possibilidades estão em consideração — perda estrutural das células motoras do estômago e dos nervos intestinais (pergunta aberta, 0,40), bloqueio autoinmune dos ganglios (especulação, 0,30) e falha funcional do nervo vago sozinho — e atualmente nenhum teste distingue entre eles em EM/SFC. Essa incerteza é real, e não é um obstáculo para o cuidado.
+
+Existe uma ligeira escala de tratamento seguro. Primeiro, gestão alimentar e nutricional — refeições pequenas, frequentes, com baixo teor de gordura e fibras e opções líquidas, com suporte enteral reservado para casos de falha na alimentação. Em segundo lugar, prokinéticos, com segurança controlada, de tempo limitado e apenas após um médico ter avaliado os riscos individuais.
+
+A única conclusão mais operacional para um caso grave: **começar com medidas de menor risco — dieta e revisão de medicamentos — independentemente da avaliação de imagem, e tratar o problema mensurável de forma objetiva, em vez de assumir uma lesão específica até que seja comprovada.** O estudo de esvaziamento é o teste de confirmação, quando disponível, e não uma condição prévia para iniciar os passos de primeira linha mais seguros.
+
+---
+
+*Este artigo reflete pesquisas com certeza explícita e calibrada — um achado clínico documentado (0,60), uma questão de mecanismo aberta (0,40) e uma especulação registrada (0,30) — não sendo um facto clínico estabelecido. Discuta qualquer decisão médica, incluindo qualquer alteração na dieta ou medicamento, com um médico qualificado.*
+
+*Para o contexto mais amplo de dismotilidade GI e SIBO, consulte [Artigo sobre Dismotilidade GI 1](../sibo-gi-dysmotility/index.qmd) e [o artigo de tratamento complementar](../sibo-gi-treatment/index.qmd).*
+
+*Para uma visão abrangente e totalmente citada de como a gastroparesis é considerada entre os muitos mecanismos candidatos em EM/SFC, consulte [@Loth2026website].*

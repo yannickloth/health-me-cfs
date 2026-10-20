@@ -1,0 +1,108 @@
+---
+title: "E se corrigíssemos a Alpha-Intrusion? Um experimento mental sobre EM/SFC"
+description: "Ninguém realizou este experimento ainda. Mas a pergunta vale a pena ser feita de qualquer forma."
+author: "Yannick Loth"
+date: "2026-05-04"
+categories: [Sleep, Treatment]
+lang: pt
+---
+
+Ninguém realizou este experimento ainda. Mas a pergunta vale a pena ser feita de qualquer forma.
+
+O sono alfa-delta — a intrusão de ondas alfa de frequência de vigília no sono profundo — é uma das anomalias objetivas mais documentadas na EM/SFC e fibromialgia (Moldofsky et al. 1975, *Psychosomatic Medicine* [@Moldofsky1975alphaDeltaSleep]; Roizenblatt et al. 2001, *Arthritis & Rheumatism* [@Roizenblatt2001alphaFM]). Ele impede que o cérebro entre nas oscilações de ondas lentas, que impulsionam a restauração durante a noite. Um artigo anterior desta série descreveu a disfunção dos canais de cálcio do tálamo, que se supõe ser a causa (ainda não testada diretamente em pacientes com EM/SFC).
+
+Suponhamos que um medicamento, um protocolo de estimulação cerebral ou alguma intervenção futura pudesse eliminar claramente essa intrusão e restaurar as oscilações puramente delta durante o sono de ondas lentas. O que mudaria? O que não mudaria? A resposta revela algo importante sobre por que a EM/SFC resiste às intervenções focadas num único alvo — e a situação não é particularmente alentadora.
+
+---
+
+## O que melhoraria
+
+O primeiro e mais direto benefício seria a restauração parcial da depuração glifática. As oscilações delta são o principal motor do fluxo glifático — o sistema de eliminação de resíduos do cérebro que remove detritos metabólicos durante o sono profundo (Xie et al. 2013, *Science* [@Xie2013glymphatic]). Os espaços entre as células cerebrais expandem durante o sono delta, permitindo que o líquido cefalorraquidiano flua e elimine os resíduos acumulados. Com a intrusão alfa eliminada e épocas delta sustentadas restauradas, este sistema de depuração recuperaria sua força motriz. O resultado: menos acumulação de mediadores inflamatórios, proteínas mal dobradas e resíduos metabólicos no tecido cerebral. A sensação de “ressaca” da manhã — aquela sensação tóxica e envenenada que os pacientes descrevem ao acordar — provavelmente melhoraria. As cefaleias matinais causadas por uma depuração prejudicada durante a noite provavelmente diminuiriam.
+
+A consolidação da memória também melhoraria. Os spindles do sono (explosões thalamais de 12–14 Hz) combinam-se com ondas agudas do hipocampo durante os estados elevados das oscilações lentas, transferindo memórias do armazenamento de curto prazo do hipocampo para o armazenamento de longo prazo do córtex (Diekelmann & Born 2010, *Nature Reviews Neuroscience* [@Diekelmann2010sleepMemory]; Staresina et al. 2015, *Nature Neuroscience* [@Staresina2015sleepOscillations]) — mas essa combinação requer oscilações lentas intactas como suporte. Com ondas delta restauradas, um componente da disfunção cognitiva EM/SFC, a dificuldade em consolidação de novas informações, provavelmente melhoraria.
+
+O ciclo vicioso de neuroinflamação seria parcialmente interrompido. A depuração glifática prejudicada deixa mediadores inflamatórios no cérebro, que ativam o inflamassoma NLRP3 nas microglia, produzindo citocinas que ainda mais perturbam a arquitetura do sono. Um sono delta melhorado e uma depuração aprimorada removeriam um dos fatores que impulsionam este ciclo — sono ruim → acumulação de resíduos → neuroinflamação → sono pior — embora não eliminassem o ciclo completamente.
+
+Finalmente, os limites da dor poderiam melhorar. Durante o sono lento normal, as oscilações delta suprimem ativamente a atividade da via nociceptiva — os circuitos de dor do cérebro são desregulados por meio do gatilho thalamal, e isso faz parte do que torna o sono restaurador. A intrusão alfa deixa essas vias dolorosas parcialmente ativas durante toda a noite. A restauração das ondas delta poderia restaurar essa supressão durante a noite, melhorando a dor da manhã e potencialmente reduzindo a sensibilização central ao longo do tempo.
+
+---
+
+## O que não melhoraria
+
+Mesmo com oscilações delta perfeitas, os canais de água da aquaporina-4 que formam a passagem molecular para a depuração glifática permanecem suprimidos por noradrenalina noturna elevada — uma consequência de disfunção autonómica, e não da arquitetura do sono (Xie et al. 2013 [@Xie2013glymphatic]). Você pode restaurar a força motriz enquanto a tubagem permanece parcialmente bloqueada. A depuração glifática melhoraria, mas não se normalizaria.
+
+A via da quinurenina continua a funcionar independentemente. O desvio do triptofano para quinurenina — impulsionado pela ativação imune crónica através das enzimas IDO1/IDO2 — produz ácido quinolínico, um agonista do receptor NMDA que é diretamente excitotóxico para os neurónios. Pacientes com EM/SFC mostram uma elevação significativa de ácido quinolínico e uma redução dos rácios neuroprotetores KA/QA (Groven et al. 2021, *Psychoneuroendocrinology* [@Groven2021kynurenine]). As oscilações do sono não têm influência nesta via. A névoa cerebral causada pela excitotoxidade mediada pelo ácido quinolínico persiste no nível em que estava antes.
+
+O comprometimento cognitivo mediado por mastócitos também permanece inalterado. A histamina liberada dos mastócitos ativados atravessa para o cérebro e atua nos recetores H3 para suprimir a libertação de acetilcolina, prejudicando diretamente a atenção, a memória de trabalho e a função executiva. As oscilações do sono não fazem parte desse circuito.
+
+A hipoperfusão cerebral continua. Pacientes com EM/SFC apresentam um fluxo sanguíneo cerebral reduzido — 26% de redução documentada durante o desafio ortostático em comparação com 7% nos controles (van Campen et al. 2020, *Clinical Neurophysiology Practice* [@VanCampenEtAl2020]) — impulsionada por disfunção autonómica, disfunção endotelial e reduzido volume sanguíneo. O fornecimento de oxigénio ao cérebro é limitado independentemente de quão bem a pessoa dorme. Tarefas cognitivas que exigem um aumento do fluxo sanguíneo ainda falhariam no nível do fornecimento.
+
+A situação mitocôndrial também não muda. O défice de energia que impulsiona a EM/SFC — a falha na fosforilação oxidativa, a disfunção da cadeia de transporte de eletrões e a elevação dos ROS mitocôndricos — é um problema periférico e sistémico que a arquitetura do sono sozinho não pode resolver. Um sono melhor poderia melhorar modestamente a reparação mitocôndrial durante a noite, mas o defeito metabólico fundamental persiste.
+
+E a disfunção autonómica que causou grande parte do problema do sono desde o início permanece. O desequilíbrio simpático-parasimpático, a intolerância ortostática, a taquicardia inadequada e a desregulação vascular que caracterizam a EM/SFC estão num nível upstream da arquitetura do sono, e não downstream. O estado “cansado, mas alerta” à hora de dormir, os despertares noturnos, os suores noturnos — todos estes provavelmente persistiriam mesmo com melhorias nas oscilações delta durante o sono que ocorre.
+
+---
+
+## O problema da melhoria parcial
+
+Ao combinar as previsões, obtém-se: uma melhoria significativa, mas incompleta na névoa cerebral, uma melhoria moderada na dor, uma melhoria modesta na fadiga e, essencialmente, nenhum alteração nos sintomas autonómicos, PEM ou intolerância ao exercício.
+
+Essa assimetria ilustra algo fundamental sobre a EM/SFC que a maioria das discussões sobre tratamento não reconhece. A doença possui vários mecanismos patológicos independentes que operam simultaneamente, e eles não partilham uma única causa upstream. Eles partilham um gatilho comum — em muitos casos, uma infeção viral — e um ambiente comum de desregulação imunitária e falha metabólica, mas, uma vez estabelecidos, os mecanismos individuais operam em caminhos parcialmente independentes.
+
+A névoa cerebral é o exemplo mais claro. Possui pelo menos três fatores mecânicos independentes: falha na depuração glifática (dependente do sono, potencialmente corrigível restaurado via delta); excitotoxicidade na via da quinurenina (dependente da imunidade, não afetada pelo sono); e supressão do histamínico pelo acetylcholine através dos recetores H3 (dependente do mastócito, também não afetada pelo sono). Corrigir o primeiro desses ajuda. O paciente pode se sentir significativamente melhor — mas não bem. Este é exatamente o padrão de melhoria parcial que os clínicos observam na prática: cada intervenção eficaz move algo na direção certa, sem resolver a doença.
+
+---
+
+## O que não se deve fazer — e por que os conselhos padrão acabam por causar problemas
+
+A maioria dos conselhos sobre sono para pacientes com EM/SFC foi retirada da literatura geral sobre insônia, onde funcionam. Em EM/SFC, onde a disfunção do sono tem uma base neurológica e autonômica, além de qualquer componente comportamental, algumas recomendações padrão precisam ser modificadas — não porque a medicina comportamental do sono não tem nada a oferecer, mas porque componentes específicos interagem mal com a fisiologia subjacente.
+
+A terapia de restrição do sono é o caso mais claro. Os protocolos de CBT-I geralmente reduzem o tempo na cama para criar “pressão de sono” — uma falta leve de sono que consolida o sono fragmentado. Em EM/SFC, essa lógica falha no primeiro passo: o déficit de energia significa que a falta de sono não cria normalmente a pressão homeostática do sono, porque o mecanismo de adenosina já está disfuncional (Porkka-Heiskanen et al. 1997, *Science* [@PorkkaHeiskanen1997adenosine]; abordado no artigo anterior desta série). Em vez disso, a restrição do sono esgota uma reserva de energia já esgotada, pode desencadear mal-estar pós-esforço e agravar a disfunção autonômica que impulsiona o problema do sono. A diretriz NICE para EM/SFC (2021, atualizada [@NICE2021mecfs]) recomenda explicitamente uma gestão personalizada do sono em vez da restrição do sono. Se um médico especialista em sono propõe CBT-I, a componente de restrição do sono deve ser discutida explicitamente — os pacientes devem garantir que seu médico entenda que a fisiologia específica de EM/SFC torna a falta de sono contraproducente. Outras componentes da CBT-I são uma questão diferente: o controle de estímulos pode abordar a excitação condicionada à hora de dormir (um fenômeno real que se acumula sobre a disfunção orgânica do sono), a reestruturação cognitiva pode ajudar com a ansiedade que se acumula em torno do sono e o planeamento do sono pode apoiar o alinhamento circadiano. O problema é especificamente a restrição do sono, não a medicina comportamental do sono como um todo.
+
+A regra “sem cochonadas” está errada em EM/SFC, embora a cochonada não controlada seja um problema em si. Os conselhos padrão de insônia proíbem cochonadas durante o dia para preservar a motivação para o sono noturno. As cochonadas em EM/SFC têm um propósito diferente: o descanso horizontal reduz a demanda de précarga cardíaca (importante na intolerância ortostática), diminui o gasto de energia dos músculos esqueléticos e pode melhorar a perfusão cerebral mesmo quando o paciente não adormece de verdade. O problema é que as cochonadas em EM/SFC também não são restauradoras da maneira que uma cochonada de uma pessoa saudável seria, porque o mecanismo de eliminação de adenosina que torna as cochonadas revigorantes está em desfavor. A orientação prática é *cochonadas controladas* — tarde da tarde (13:00–15:00), no máximo 15–20 minutos, com alarme. As cochonadas tarde podem deslocar a fase circadiana já frágil. E se a sonolência da tarde ocorre após um esforço incomum nas 24–72 horas anteriores, pode ser o prodromo de PEM em vez de tédio comum; a avaliação de ritmo é mais apropriada do que o sono.
+
+O tempo de cochonada é onde o dano real se acumula. Depois de 30–40 minutos, o cérebro entra no sono de ondas lentas. numa pessoa saudável, acordar desse estado produz inércia do sono que desaparece em 15–30 minutos; em EM/SFC, essa mesma transição leva 2–4 horas, porque a coordenação thalamocortical é ela mesma limitada por energia. Uma cochonada de 90 minutos que entra e sai de um ciclo completo de sono pode deixar o paciente incapacitado funcionalmente para o resto do dia. Cochonadas muito longas — 2–3 horas ou mais — comprimem ainda mais isso, roubando o sono de ondas lentas da noite. O orçamento total diário de sono de ondas lentas é finito e a parte diurna já está contaminada por alfa, então o paciente acaba com dois blocos de sono de baixa qualidade em vez de um.
+
+A exceção é importante: durante uma crise ou episódio grave de PEM, o corpo pode exigir um sono prolongado de 12–16 horas. Isso não é um piquenique — é uma resposta fisiológica de emergência, e lutar contra isso é contraproducente. A distinção relevante está entre o sono diurno prolongado *habitual* (um padrão que vale a pena discutir com um clínico, pois pode indicar disfunção na arquitetura do sono não tratada ou sobrecarga crónica não reconhecida) e a hipersonia *impulsionada por crise* (o corpo impõe repouso para limitar danos adicionais).
+
+O zolpidem merece menção específica, pois pode agravar o problema para o qual foi prescrito. Como descrito no artigo anterior, em modelos de ratinho, o zolpidem suprime as oscilações de noradrenalina que impulsionam a depuração glifática durante o sono (Hauglund et al. 2025, *Cell* [@Hauglund2025neVasomotion]; validação em humanos em pendência). Se isso se traduzir em humanos, o paciente dorme mais tempo, mas o sistema de eliminação de resíduos do cérebro não ativa corretamente. A sensação de "toxicidade" da manhã pode persistir ou piorar, apesar do aumento do tempo total de sono. *Importante: pacientes que atualmente tomam zolpidem ou qualquer droga do grupo Z não devem interromper o uso por conta própria. A abstinência abrupta traz riscos, incluindo insônia recorrente e, em usuários de longa duração, convulsões. Qualquer mudança deve ser discutida com o prescritor.*
+
+Outras duas hábitos merecem uma breve menção. Forçar-se a permanecer acordado o dia todo para "guardar sono para esta noite" custa mais metabolicamente do que gera: a energia necessária para manter um sistema esgotado em posição e ativo por horas geralmente excede o custo circadiano de um breve descanso no início da tarde, e os pacientes frequentemente chegam à hora de dormir numa forma metabólica pior e com qualidade do sono paradoxalmente pior. O álcool é igualmente contraproducente — promove uma sedação inicial, mas fragmenta a segunda metade da noite, suprime o sono REM, agrava a instabilidade autonômica e prejudica a função glifática. num sistema em que cada minuto de sono de ondas lentas é importante, seu efeito líquido é fortemente negativo.
+
+---
+
+## Abordagens farmacológicas atuais para o sono alfa-delta
+
+Vários medicamentos existentes atacam parcialmente a intrusão alfa, embora nenhum elimine completamente esse fenómeno. As faixas de dose abaixo refletem o uso clínico publicado — não constituem orientações de prescrição. Todos exigem avaliação e monitorização por parte do médico, especialmente considerando os riscos cardíacos, autonómicos e de interações medicamentosas comuns na EM/SFC. Não inicie, interrompa ou ajuste nenhum medicamento com base neste artigo.
+
+Gabapentina e pregabalina são os mais frequentemente prescritos. Eles se ligam às subunidades dos canais de cálcio voltage-gated alfa-2-delta, aumentando o sono de ondas lentas e reduzindo a atividade de frequência alfa durante o NREM (Lo et al. 2002, *Epilepsia* [@Lo2002gabapentinSWS]). A gabapentina (100–600 mg antes de dormir) é a primeira linha de tratamento quando dor e distúrbios do sono ocorrem simultaneamente; a pregabalina (25–150 mg) tem eficácia semelhante e farmacocinética mais previsível. Ambos melhoram a potência delta na polisomnografia, mas nenhum elimina completamente a intrusão alfa — eles apenas alteram a proporção em vez de resolver a disfunção oscilatória subjacente.
+
+Os triciclicos de baixa dose (amitriptilina 5–25 mg, doxepina 3–6 mg) melhoram a qualidade subjetiva do sono através do bloqueio do receptor H1 da histamina e dos efeitos da serotonina, mas o seu impacto na arquitetura alfa-delta é modesto. A trazodona (25–100 mg) é amplamente utilizada para o início do sono, mas não altera consistentemente a proporção delta/alfa-delta.
+
+Os antagonistas duplos do receptor orexina, suvorexant e lemborexant, atacam o hiperarousal impulsionado pela orexina que pode sustentar a intrusão alfa (López-Amador et al. 2025, *Exploration* [@LopezAmador2025orexin]) e são interessantes do ponto de vista mecânico, tendo em conta a disfunção documentada do sistema orexina na EM/SFC — embora a experiência clínica nesta população ainda seja limitada. Os Z-drugs (zolpidem, eszopiclona) são eficazes para o início do sono, mas não abordam a qualidade insuficiente do sono na EM/SFC; a supressão das oscilações de noradrenalina pelo zolpidem pode agravar a acumulação de resíduos (Hauglund et al. 2025 [@Hauglund2025neVasomotion]).
+
+O padrão em todos estes casos é o mesmo: melhoria parcial na qualidade do sono, sem correção específica da disfunção oscilatória thalamocêntrica que produz a intrusão alfa-delta. Ainda não temos um instrumento farmacológico que ataque diretamente o mecanismo.
+
+## Um alvo mais específico — e um ensaio que poderia testá-lo
+
+A etosuximida é um bloqueador seletivo dos canais de cálcio tipo T usado na epilepsia da ausência (Coulter et al. 1989, *Neuroscience Letters* [@Coulter1989anticonvulsantCalcium]) e ataca diretamente os canais CaV3.1 que geram as oscilações thalamocêntricas. Um estudo de crossover de dose única — etosuximida 250 mg versus placebo, polisomnografia durante a noite medindo a potência delta e o índice alfa-delta — responderia diretamente se o bloqueio dos canais tipo T pode transformar o sono da EM/SFC de alfa-contaminado para puro delta.
+
+A direção é realmente incerta. Se a intrusão alfa-delta resulta de *insuficiência* de corrente tipo T para a geração delta (o canal já é hipoativo devido à falha energética), então bloquear ainda mais pioraria o sono. Se resulta de *reserva* de corrente tipo T que dispara na frequência errada (o canal dispara, mas em frequência alfa em vez de delta devido a correntes competentes alteradas), então o bloqueio seletivo poderia suprimir especificamente a componente alfa anormal. Essas duas possibilidades preveem resultados opostos com o mesmo medicamento. Uma noite, um medicamento, um PSG — e a hipótese de cálcio thalamocêntrico para a disfunção do sono na EM/SFC é ou confirmada ou refutada, e descobrimos se é possível fixar farmacologicamente a intrusão alfa com os instrumentos atualmente disponíveis.
+
+---
+
+## O que isso revela sobre a doença com múltiplos mecanismos
+
+O valor real do experimento mental não está em prever até que ponto uma intervenção única ajudaria. Está em tornar visível uma característica estrutural da doença que frequentemente não é nomeada: a EM/SFC é multi-mecanismo, e esses mecanismos são parcialmente independentes um do outro.
+
+Cada artigo desta série sobre sono descreveu um aspecto diferente — intrusão de onda alfa, falha glilâmica, desregulação de adenosina, falha de transferência autonómica, instabilidade do termorregulação, desassíncronização circadiana, supressão de orexina. Todos eles prejudicam independentemente a qualidade do sono e têm suas próprias causas upstream parcialmente distintas. Abordar um deles realmente ajuda, e isso é importante para as pessoas que vivem com esta doença. Mas não é suficiente.
+
+Alguns pacientes já entendem isso intuitivamente. Eles monitoram seu sono com dispositivos portáteis, percebem que algumas noites são claramente “noites de alfa” enquanto outras são “noites autonómicas” ou “noites de temperatura”, e estão efetivamente realizando fenotipagem empírica de sua própria doença. A comunidade de pesquisa deve alcançar essa granularidade. A polisomnografia com análise espectral, testes autonómicos e medição da fase circadiana devem ser o padrão de avaliação do cuidado, e não a exceção.
+
+O campo não está esperando por um único medicamento revolucionário. Está esperando por o reconhecimento de que a EM/SFC requer o mesmo pensamento multi-alvo e alinhado com mecanismos que se tornou padrão em oncologia e cardiologia décadas atrás — e que ainda não foi aplicado sistematicamente aqui.
+
+---
+
+---
+
+*Artigo anterior desta série: Cansado, mas conectado — a traição autonómica à hora de dormir.*

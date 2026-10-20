@@ -1,0 +1,126 @@
+---
+title: "Artigo 2 do MCAS: Anti-histamínicos para EM/SFC e MCAS: H1 vs H2, e por que o seu médico aumenta a dose"
+description: "Guia em linguagem simples sobre os medicamentos utilizados para a ativação de mastócitos na EM/SFC — a verdadeira diferença entre anti-histamínicos H1 e H2, onde a histamina e seus recetores estão localizados, os estabilizadores de mastócitos, quais sintomas os medicamentos podem tratar e quais não podem, e por que doses superiores ao normal às vezes são necessárias."
+author: "Yannick Loth"
+date: "2026-07-16"
+categories: [Treatment, MCAS, Pharmacology]
+lang: pt
+---
+
+Se você tem EM/SFC e MCAS — ou mesmo apenas alguns dos sintomas de tipo alérgico — a primeira coisa que provavelmente receberá é um anti-histamínico. E a receita, ou o conselho médico, provavelmente virá com a expressão confusa “H1 e H2”.
+
+Este artigo explica os medicamentos em si: o que é a histamina e onde estão localizados os seus dois pontos de recepção relevantes, os anti-histamínicos H1 e H2, e os estabilizadores de mastócitos que atuam um passo antes. Também responde à pergunta mais frequente: *por que o meu médico quer aumentar a dose acima do que está indicado na bula?*
+
+Para o contexto conceitual — o que é o MCAS, por que aparece após a EM/SFC e a diferença entre MCAS sozinho e EM/SFC com MCAS — consulte o [artigo de visão geral relacionado](../mcas-mecfs-overview/index.qmd). E para a discussão sobre “e se não funcionar”, consulte o [artigo relacionado ao fracasso no tratamento](../when-antihistamine-doesnt-work/index.qmd).
+
+---
+
+## Primeiro, um aviso simples
+
+*Tudo o que se segue é um medicamento que provavelmente será oferecido a você, e não é conselho de automedicação. A histamina não é a única substância envolvida aqui; os anti-histamínicos não são água inofensiva, e eu não sou médico. Converse com um prescritor antes de iniciar, parar ou alterar qualquer um desses medicamentos. Se os seus sintomas forem súbitos, graves ou ameaçadores da vida — especialmente qualquer dificuldade respiratória ou inchaço na garganta — isso é uma emergência. Vá a um hospital. Este artigo é uma explicação, não uma receita médica. E, em EM/SFC, um diagnóstico errado ou o medicamento errado pode prejudicar o seu tratamento, portanto, trabalhe com alguém que leve o problema a sério.*
+
+---
+
+## O que é histamina e onde ela está presente?
+
+A histamina é uma pequena mensageira química. É produzida por mastócitos, mas também por certos glóbulos brancos (basófilos) e está armazenada por todo o corpo. Sua função em condições saudáveis é normal e útil: ajuda a dilatar vasos sanguíneos, promove a secreção de ácido estomacal e atua como um sinal no sistema nervoso.
+
+A histamina realiza seu trabalho ao se ligar a *receptores* — portas de recebimento localizadas na superfície das células. Existem quatro tipos conhecidos, H1 a H4. Para o seu caso, apenas dois são relevantes:
+
+**Onde a histamina e seus receptores atuam:**
+
+- **Receptores H1** estão localizados na músculo liso das vias respiratórias, nos vasos sanguíneos da pele, no nariz e nos olhos. Quando a histamina se liga aos receptores H1, ocorrem coceira, vermelhidão, urticária, nariz escorrendo, espirros e apertamento das vias respiratórias. Os bloqueadores de H1 tratam esses sintomas de alergia [@Molderings2016pharmacological].
+- **Receptores H2** estão principalmente na camada interna do estômago (controlando a secreção de ácido) e em células imunológicas. Quando a histamina se liga aos receptores H2, promove a secreção de ácido estomacal e interage com as células imunológicas. Os bloqueadores de H2 são os medicamentos que você provavelmente conhece como pílulas para azia. No tratamento com mastócitos, eles são usados *junto* com bloqueadores de H1 porque os mastócitos liberam histamina em ambos os locais [@Simons2019cimetidine].
+
+**Por que as pessoas dizem “H1 e H2 juntos”:** um mastócito libera histamina em todos os lugares ao mesmo tempo. Bloquear apenas o local H1 deixa os receptores H2 no estômago e nas células imunológicas ainda atingidos. Por essa razão, o tratamento com mastócitos **geralmente** (mas não sempre) combina um anti-histamínico de tipo H1 com um de tipo H2 [@Molderings2016pharmacological]. Saiba exatamente em que base está essa combinação: a combinação H1+H2 é uma prática clínica comum, mas, como observado abaixo, o benefício adicional do componente H2 **não** é comprovado por evidências de alto nível — é uma prática razoável, mas não uma necessidade comprovada.
+
+---
+
+## Os anti-histamínicos H1
+
+**O que são.** São os “pílulas de alergia”. Cetirizina, loratadina, fexofenadina, bilastina, levocetirizina, desloratadina. Os de segunda geração são os mais usados a longo prazo, pois foram desenvolvidos para não atravessar muito para o cérebro, o que reduz a sonolência [@Podder2023updosing].
+
+**Para que servem.** Ardor, coceira, urticária, nariz escorrendo, espirros, aperto no pescoço — os sintomas clássicos causados pela eliminação de histamina nos H1.
+
+**Como funcionam.** Não impedem a liberação de histamina. Não impedem a ativação dos mastócitos. Eles **ficam no receptor H1 e bloqueiam a histamina de se ligar a ele**. A histamina continua no sangue; simplesmente não consegue alcançar um dos seus alvos [@Molderings2016pharmacological].
+
+**Um truque importante que os médicos conhecem — e *por que* doses altas são necessárias.** Na urticária crónica (urticária sem causa óbvia), as doses padrão muitas vezes não funcionam, e as diretrizes internacionais recomendam aumentar a dose para duas, três ou até quatro vezes a quantidade normal [@Zuberbier2022urticaria]. O aumento da dose tem evidência real: uma revisão sistemática encontrou apoio de grau A para cetirizina, fexofenadina e bilastina em doses mais altas, com a fexofenadina atingindo uma taxa de resposta de 83% [@Podder2023updosing].
+
+Por que mais ajuda? Uma imagem simplificada útil: pense no receptor H1 como uma fechadura e na histamina como uma chave. Um anti-histamínico é uma chave de bloqueio que se encaixa na mesma fechadura, fica lá e impede que outras chaves entrem. Quando os mastócitos atuam intensamente, há muito mais histamina do que o normal, então é necessário mais bloqueador para manter a maioria das fechaduras fechadas. (Estritamente falando, os anti-histamínicos H1 de segunda geração são *inversos* agonistas de alta afinidade e a farmacologia real é mais complexa do que uma simples chave e fechadura — esta analogia serve apenas para intuição, não para mecanismo.) Seja qual for a química exata, o ponto prático e bem comprovado permanece: na urticária crónica, a dose padrão muitas vezes não é suficiente e aumentar a dose recupera o controle — por isso as diretrizes e os médicos do MCAS aumentam a dose.
+
+É por isso que o aumento da dose funciona na urticária crónica e por que os médicos do MCAS usam a mesma ideia — embora isso deva ser feito sob supervisão, e a base de evidência específica no MCAS é muito mais fraca do que na urticária [@Nurmatov2015H1systematic]. O número de 83% vem de ensaios de urticária, onde os pacientes já estavam insensíveis à dose padrão; esse contexto, e não uma promessa absoluta, é o que o número significa. Uma nota importante de segurança: nas doses padrão, os anti-histamínicos de segunda geração raramente causam sonolência, mas em doses várias vezes maiores, a sonolência e outros efeitos colaterais aumentam — e a sedação é um custo elevado no EM/SFC. Os dados de segurança para doses até quatro vezes maiores são tranquilizadores (num estudo, apenas 10% relataram algum efeito colateral, principalmente sonolência, sem eventos graves), mas não é livre de risco — e esses números vêm de populações de urticária, não da população de EM/SFC sensível aos medicamentos, portanto devem ser vistos como indicativos e não vinculativos [@VandenElzen2017updosing][@Podder2023updosing]. **Aumentar a dose *não* é para todos:** pessoas com comprometimento renal (cetirizina e levocetirizina acumulam), idosos (sonolência, quedas, retenção urinária) e qualquer pessoa grávida ou amamentando precisam de avaliação explícita do médico antes de aumentar a dose — e ninguém deve ajustar sua própria dose sem essa avaliação. Um estudo estruturado aumenta a dose lentamente (geralmente um passo de cada vez, avaliado ao longo de uma ou duas semanas) e para de funcionar se a sedação supera o benefício. Praticamente, isso também significa **não dirigir ou operar equipamentos até saber como a dose aumentada afeta você**, já que a sedação em doses várias vezes maiores é comum e imprevisível.
+
+**A limitação.** Uma revisão sistemática encontrou apenas cinco ensaios pequenos de anti-histamínicos H1 especificamente em síndromes de ativação de mastócitos — portanto, embora esses medicamentos sejam amplamente utilizados e claramente interrompam os sintomas de “histamina na pele/nariz”, a evidência de alta qualidade *especificamente para MCAS* é fraca [@Nurmatov2015H1systematic].
+
+---
+
+## Os anti-histamínicos H2
+
+**O que são.** Famotidina e cimetidina. Você os reconhece como medicamentos para azia. (A ranitidina, um antagólogo H2 outrora comum, foi retirada mundialmente entre 2019 e 2020 devido a uma contaminação de risco de câncer; qualquer comprimido num arquivo antigo rotulado ‘ranitidina’ não deve ser tomado.) No tratamento de mastócitos, eles desempenham um segundo papel.
+
+**Para que servem.** Juntamente com um antagólogo H1, eles reduzem sintomas estomacais (azia, refluxo, inchaço) e acalmam o lado das células imunológicas na sinalização da histamina [@Simons2019cimetidine].
+
+**Como funcionam.** Eles se localizam nos recetores H2 no estômago e nas células imunológicas, bloqueando a histamina ali. Seus efeitos imunológicos são reais, mas complexos: o bloqueio do H2 altera o comportamento de algumas células imunológicas T e B [@vanderPol2021H2ReceptorImmune].
+
+**A limitação.** A famotidina e seus derivados são muito seguros e bem estudados *como medicamentos para úlceras/azia*. Se o bloqueio H2 adicionado melhora significativamente os sintomas de mastócitos além de um antagólogo H1, isso não foi comprovado com rigor — é uma boa prática clínica, mas não há evidência de alto grau [@Simons2019cimetidine].
+
+**Uma ideia distinta: o subgrupo H2-responder.** Como os recetores H2 também se localizam nas células imunológicas, um pequeno conjunto de pensamento clínico propõe que *alguns* pacientes com EM/SFC — caracteristicamente aqueles com início pós-infeccioso (após EBV ou outros herpesvírus), POTS pronunciado e problemas de histamina — possam ser excepcionalmente beneficiados pelo antagólogo H2 específico **cimetidina**. O mecanismo sugerido é duplo: o bloqueio do H2 em certas células imunológicas pode estimular uma resposta imunológica celular alerta a um vírus que se reativa de forma crónica, enquanto a via mastócitos/histamina aborda o lado metabólico [@Goldstein1986cimetidine][@Simons2019cimetidine]. Seja cético aqui: este fenótipo se baseia numa afirmação e mecanismo de 1986, e cerca de quatro décadas depois **nenhuma pesquisa controlada o confirmou**. Note a interpretação desse silêncio: pode significar que o efeito é raro ou fraco — mas um genérico barato tem pouco incentivo comercial para ser testado, então pode significar também que nenhuma pesquisa adequada foi realizada. De qualquer forma, é uma hipótese de relatos de casos, não uma regra, e é uma razão fraca para escolher cimetidina em vez de um H2 mais seguro. **E a cimetidina tem um limite de segurança rigoroso:** ao contrário da famotidina, é um inibidor potente de várias enzimas hepáticas (CYP1A2, 2C9, 2D6, 3A4), então eleva os níveis sanguíneos de warfarina, teofilina, muitos antidepressivos, beta-bloqueadores e antiarrítmicos, entre outros, e com uso a longo prazo pode ter efeitos anti-androgênicos. num paciente com EM/SFC/POTS que já esteja frequentemente em vários desses medicamentos, **o prescritor deve rever a lista completa de medicamentos antes de usar cimetidina; a famotidina é o padrão mais seguro por essa razão.** [@Loth2026website]
+
+---
+
+## Os estabilizadores de mastócitos
+
+Os anti-histamínicos bloqueiam as substâncias após a sua libertação. Uma família diferente de medicamentos tenta impedir a própria explosão das células.
+
+- **Cromolyn (cromoglicato)** — um estabilizador de mastócitos, frequentemente administrado por via oral para sintomas intestinais ou por inalação/nebulização para sintomas pulmonares. Tenta impedir a degranulação dos mastócitos [@Molderings2016pharmacological].
+- **Ketotifen** — um anti-histamínico H1 *além* de um estabilizador de mastócitos. É frequentemente utilizado no cuidado de mastócitos / POTS [@Weinstock2024Ketotifen]. **A sedação é um problema real:** o ketotifen é fortemente sedativo para muitas pessoas, por isso geralmente é iniciado à noite com uma dose baixa e aumentado lentamente. Para um paciente com EM/SFC, essa sedação diurna pode ser mais onerosa do que o benefício, pelo que é necessário um teste cuidadoso com o médico.
+- **Rupatadine** — um anti-histamínico H1 que também bloqueia um segundo mediador (PAF). O benefício de doses mais altas foi estudado principalmente na mastocitose (uma doença mais grave e clonal), que é uma base razoável, mas não idêntica, para o seu uso em MCAS [@Izquierdo2024rupatadine].
+- **Montelukast** — bloqueia os leucotrienos, outra família de produtos mastocíticos; por vezes adicionado quando os bloqueadores de histamínio são insuficientes (baseado na prática de séries de casos, não em ensaios específicos para MCAS) [@Afrin2013MCAS]. **Possui um aviso de caixa dos EUA** para mudanças graves de humor e comportamento (agitação, depressão, em casos raros pensamentos suicidas); quem o utiliza deve parar e relatar imediatamente se houver mudanças de humor ou comportamento.
+
+**A limitação — e uma importante.** Em casos graves ou resistentes, medicamentos mais fortes (omaluzima, um anticorpo que atinge a via da alergia) mostram resposta em séries de casos [@Matheny2025OmalizumabMCAS]. No entanto, os ensaios de maior nível de estabilizadores de mastócitos em *condições sobrepostas* foram decepcionantes: um ensaio randomizado de ketotifen na fibromialgia não encontrou **nenhum benefício geral além do placebo** [@Moldofsky2015]. Este é um ponto de dados preocupante, e voltaremos a discutir o seu significado no [artigo complementar sobre falha no tratamento](../when-antihistamine-doesnt-work/index.qmd).
+
+---
+
+## Os sintomas que os anti-histamínicos podem tratar e aqueles que não podem
+
+**O que eles podem ajudar (se os sintomas forem impulsionados por mastócitos):** vermelhidão, coceira, urticária, nariz entupido ou abertura constante, alguns dores de cabeça, cólicas intestinais e refluxo, e possivelmente alguns sintomas ortostáticos, pois a histamina e o prostaglandina D₂ trabalham para dilatar os vasos sanguíneos e reduzir a pressão arterial [@Kohno2021potsmast]. numa coorte de long-COVID/MCAS tratada com fexofenadina e famotidina, subgrupos de pacientes relataram resolução da fadiga, névoa cerebral e taquicardia — embora o estudo não tivesse um grupo de controle, portanto não pode provar causa e efeito [@Salvucci2023antihistamineLongCOVID].
+
+**Defina expectativas com cuidado, pois as evidências contrárias existem.** O único estudo randomizado de um anti-histamínico H1 especificamente na síndrome de fadiga crónica — um estudo duplo-cego de 1996 — não encontrou **nenhum benefício**, e nunca foi revogado por um estudo RCT positivo específico para MCAS [@Steinberg1996]. As melhorias relacionadas à long-COVID acima são não controladas, e os dados positivos de aumento da dose vêm de urticária crónica, não de EM/SFC. O que isso significa: “valer a pena tentar para o subgrupo com perfil alérgico” é uma esperança razoável, mas a evidência anterior é modesta e não garantida — e é exatamente por isso que um estudo estruturado com regra de parada (abaixo) é importante, e por que um estudo fracassado é um resultado comum, não um fracasso pessoal.
+
+**O que eles geralmente NÃO resolverão sozinhos:** o problema da produção de energia no core da EM/SFC, independentemente do mecanismo exato. Mesmo onde o bloqueio da histamina ajuda os sintomas, ela não aborda diretamente as disfunções de energia celular e imunidade que são amplamente consideradas centrais na doença [@Loth2026website]. Nenhum medicamento para mastócitos é vendido como cura para EM/SFC, e a perspectiva cuidadosa é que isso é *parte* da situação para *algumas* pessoas — não para toda a doença [@Castells2024mcasreview].
+
+---
+
+## Resultados esperados
+
+Seja realista e tenha paciência. O cuidado com as células mastoideas na EM/SFC é geralmente descrito como um *teste*, não como um tratamento garantido. O que isso significa na prática:
+
+- **O teste requer tempo.** A resposta é normalmente avaliada ao longo de semanas ou meses, não dias. Uma única tarde em que “não funcionou” diz pouco.
+- **Pode ser um efeito parcial.** Você pode reduzir o rubor e as dores de cabeça, mas ainda ter fadiga, e considerar isso uma vitória.
+- **Às vezes são necessárias doses mais altas** para os bloqueadores H1, sob supervisão, e devem ser aumentadas com cuidado, pois podem causar sedação — e a sedação é a última coisa que um paciente com EM/SFC precisa [@Zuberbier2022urticaria].
+- **Combinar H1 + H2 (e às vezes um estabilizador) é comum, mas não está firmemente comprovado por evidências** — especialmente a parte H2 baseia-se na prática, não em testes robustos [@Molderings2016pharmacological].
+- **A expectativa importa.** A expectativa clínica — ainda não comprovada por um teste prospectivo — é que o tratamento com células mastoideas provavelmente ajudará pessoas que também têm sintomas alérgicos episódicos claros (rubor, urticária, reações de tipo histamínico) [@Rohrhofer2025mecfsmast][@Weinstock2023MCASneuro]. Se esse “perfil alérgico” realmente previne a resposta, ainda não foi testado num estudo controlado, então trate-o como uma premissa razoável, não como uma garantia. Se você não tem nenhum desses sintomas, isso torna uma resposta drástica menos provável com base nisso — mas não anula a incerteza das evidências mencionadas acima.
+
+---
+
+## Um exemplo de "estudo estruturado" — e descartar causas primeiro
+
+*Este é um exemplo para fornecer ao seu médico algo com o qual trabalhar — não é uma auto-prescrição. O prescritor escolhe o medicamento, a dose e o período de uso.*
+
+**Um quadro prático que o médico pode escrever:** escolha um único sintoma-alvo (por exemplo, rubor, urticária ou cólicas intestinais). Inicie um H1 de segunda geração (por exemplo, fexofenadina 180 mg diariamente, ou a escolha preferida do prescritor). Reavaliar o único sintoma-alvo após 4–6 semanas. **Só após a titulação até a dose mais tolerada** (que, para estes medicamentos, pode ser até quatro vezes a dose inicial, conforme a seção de aumento da dose acima — a dose inicial *não* é a dose alvo) o medicamento é avaliado. Se não houver melhoria na dose mais alta tolerada, a regra de parar é aplicada: **parar com aquele agente (ou tentar outro H1 de segunda geração — o fracasso de uma molécula não significa fracasso da classe), em vez de adicionar outro medicamento**, o que é uma resposta mais limpa. Se o medicamento ajudar na dose padrão, não há razão para aumentá-la. Só quando um H1 adequadamente doseado realmente não ajuda é que a conversa passa para a adição de um H2 ou um estabilizador. Todos os aumentos de dose são feitos pelo prescritor, nunca por auto-escalada.
+
+**Coisas a descartar primeiro / saber antes de aumentar a dose:** certas doenças produzem a mesma imagem de rubor e sintomas episódicos e não devem ser tratadas como "apenas MCAS" — notadamente mastocitose sistêmica (um exame de sangue de triptase de base é amplamente disponível e é a primeira avaliação), alergia alimentar verdadeira à IgE, doença da tiróide e, raramente, tumores que secretam hormônios (carcinoides, feocromocitoma). O prescritor deve descartar ou excluir essas condições antes de iniciar um tratamento contínuo com anti-histamínico.
+
+**Quando encaminhar para o próximo passo:** reações graves recorrentes, um valor basal elevado de triptase, desmaio/síncope com reações ou fracasso dos agentes de primeira e segunda linha bem conduzidos exigem encaminhamento a um alergista-imunologista com experiência em MCAS, em vez de continuar com a dose empírica na atenção primária.
+
+**Se você também está a tomar medicamentos para POTS** (fludrocortisona, midodrina, beta-bloqueadores), os efeitos da pressão arterial e da sedação de um anti-histamínico aumentado, bem como qualquer interação com cimetidina, precisam ser avaliados juntos — este é um caso em que um médico deve manter a lista completa de medicamentos, e não uma combinação de suplementos autoadministrada.
+
+---
+
+## A conclusão principal
+
+Anti-histamínicos — os H1 e os H2 — são medicamentos que bloqueiam a histamina em dois locais diferentes. Eles acalmam os sintomas de tipo alérgico, não a crise de energia [@Molderings2016pharmacological]. Doses mais altas às vezes são realmente necessárias, pois uma tempestade de mastócitos simplesmente supera uma dose padrão, mas essa aumentação da dose deve ser feita sob supervisão e acarreta um custo de sedação. E a verdade é que a evidência *específica* desses medicamentos no EM/SFC é mais fraca do que a evidência de urticária, da qual muitas regras de dose são emprestadas [@Nurmatov2015H1systematic].
+
+Eles valem a pena serem levados a sério *como parte da imagem* para pessoas que têm um perfil alérgico episódico. Mas eles não são uma cura, e um ensaio falho diz mais do que “os medicamentos não funcionam” — ele aponta para as questões mais complexas abordadas no [artigo complementar sobre o que significa quando eles não ajudam](../when-antihistamine-doesnt-work/index.qmd).
+
+Para uma visão abrangente e totalmente citada de como os mastócitos são considerados entre os muitos mecanismos candidatos no EM/SFC, consulte [@Loth2026website].

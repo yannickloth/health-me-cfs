@@ -1,0 +1,18 @@
+---
+title: "O núcleo do tronco cerebral que falha primeiro"
+description: "Na doença de Parkinson, o locus coeruleus degenera antes da substantia nigra. Na EM/SFC, o mesmo núcleo pode falhar — sem degenerar."
+author: "Yannick Loth"
+date: "2026-10-01"
+categories: [Cross-links, Noradrenergic, Mechanisms]
+lang: pt
+---
+
+Existe um pequeno núcleo no tronco cerebral — o locus coeruleus — que é a principal fonte de noradrenalina do cérebro. Ele também é excepcionalmente vulnerável.
+
+Na doença de Parkinson, o locus coeruleus é afetado *antes* da substantia nigra, que produz dopamina, e a imagemologia humana agora utiliza MRI sensível a neuromelanina para monitorizar a sua integridade; um subtipo de Parkinson mostra degeneração precoce de ambos os núcleos (@Zhou2023PDtrajectories).
+
+**A paralela EM/SFC — e a diferença crucial.** O défice seletivo de noradrenalina na EM/SFC apresenta um padrão de metabolitos consistente com a participação do locus coeruleus (noradrenalina reduzida, dopamina preservada) — o mesmo padrão observado precocemente em Parkinson. No entanto, ninguém analisou o locus coeruleus da EM/SFC com a resolução necessária para detetar a degeneração: nenhuma imagemologia ou estudo post-mortem foi realizada. Portanto, a degeneração não foi *excluída* — simplesmente não foi demonstrada. Se a falha for funcional (subdesempenho em vez de morte), seria uma situação diferente e mais esperançadora.
+
+**Por que a distinção importa.** A degeneração é em grande parte irreversível; a falha funcional, em princípio, é reversível. Se a falha na EM/SFC for funcional ou degenerativa, ainda não foi testada — o teste seria a imagemologia 7T de neuromelanina, que deveria mostrar *volume normal* do locus coeruleus se a falha for funcional, diferente do que acontece em Parkinson.
+
+**As ressalvas.** Esta paralela é uma inferência; ninguém analisou o locus coeruleus na EM/SFC com esta resolução. E a constatação da noradrenalina é de um único centro e não replicada.

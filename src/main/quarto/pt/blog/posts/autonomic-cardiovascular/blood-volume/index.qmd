@@ -1,0 +1,101 @@
+---
+title: "Correr com Fonte Insuficiente: Pacientes com EM/SFC Perdem Até 15% de seu Sangue"
+description: "O adulto médio tem cerca de 5 litros de sangue. Agora imagine acordar todas as manhãs com 500 a 750 ml a menos — permanentemente. Sem lesão, sem sangramento, sem causa óbvia. Apenas... menos sangue."
+author: "Yannick Loth"
+date: "2026-03-03"
+categories: [Cardiovascular, Pathophysiology]
+lang: pt
+---
+
+O adulto médio possui cerca de 5 litros de sangue. Agora imagine acordar todas as manhãs com 500 a 750 ml a menos — permanentemente. Sem lesão, sem sangramento, sem causa óbvia. Apenas... menos sangue.
+
+Essa é a realidade para muitas pessoas com Encefalomielite Miálgica/Síndrome de Fadiga Crónica. E pode ser uma das explicações mais simples para por que estão exaustas.
+
+---
+
+## Quão grandes são os déficits?
+
+Os déficits no volume sanguíneo em EM/SFC não são sutis. Foram medidos com técnicas de padrão-ouro — glóbulos vermelhos radiolabelados e diluição de isótopos duplos — em vários estudos independentes:
+
+- **Volume total de sangue**: 10-15% abaixo dos valores previstos [@Newton2016] [@Streeten1998blood]
+- **Volume plasmático** (a porção líquida): 21% menor em pacientes com POTS — uma condição que se sobrepõe significativamente à EM/SFC (as estimativas variam amplamente, aproximadamente 25–50%); 11 ml/kg abaixo do referencial em pacientes com EM/SFC [@vanCampen2018]
+- **Massa de glóbulos vermelhos**: reduzida em 94% dos pacientes mulheres e 50% dos pacientes homens com EM/SFC [@Streeten1998blood]
+
+Para contextualizar: uma doação de sangue requer cerca de 10% do seu volume sanguíneo. Esses pacientes vivem, permanentemente, num estado comparável ao de ter feito uma doação de sangue — exceto que o seu corpo nunca repõe o déficit.
+
+---
+
+## Volume sanguíneo, produção cardíaca e a cadeia energética
+
+A conexão entre volume sanguíneo e energia não é complicada:
+
+**Menor volume sanguíneo significa menos sangue retornando ao coração** (retorno venoso reduzido). **Menor retorno venoso significa que o coração enche-se menos** com cada batimento (précarga reduzida). **Menor précarga significa que cada batimento cardíaco bomba menos sangue** (volume de fluxo reduzido). **Menos sangue bombado significa menos oxigénio chegando aos tecidos.** Menos oxigénio significa menos ATP — o combustível molecular que impulsiona tudo o que fazemos.
+
+Estudos de RM cardíaca confirmam diretamente esta cadeia: pacientes com EM/SFC têm volume end-diastólico do ventrículo esquerdo reduzido (o coração enche-se menos) e volume de fluxo reduzido (cada batimento bomba menos sangue), com forte correlação com o volume sanguíneo medido [@Newton2016]. Crucialmente, essas reduções são *desproporcionais ao nível de inatividade* — isso não é descondicionamento. O mesmo estudo não encontrou relação entre a duração da doença e os volumes cardíacos, descartando uma declinação física gradual como explicação.
+
+O cérebro está no final desta cadeia e não tem onde buscar recursos. O fluxo sanguíneo cerebral pode ser reduzido em até 40% em EM/SFC, impulsionado por baixa produção cardíaca, disfunção autonómica, volume sanguíneo reduzido e autoregulação prejudicada, agindo em conjunto. Diferente de outros órgãos, o cérebro não pode compensar significativamente — é por isso que os pacientes relatam disfunção cognitiva (“névoa cerebral”) e dificuldade de concentração, e por que muitos se sentem mais aguçados deitados, onde o retorno venoso melhorado restaura a perfusão cerebral.
+
+---
+
+## O sistema hormonal que não responde
+
+O seu corpo possui um sistema bem testado para detetar um volume sanguíneo baixo e corrigi-lo: o sistema renina-angiotensina-aldosterona (RAAS). Quando o volume sanguíneo diminui, os rins liberam renina, o que desencadeia uma cascata que termina com a aldosterona — um hormônio que orienta os rins a reter sódio e água, expandindo o volume sanguíneo.
+
+Na EM/SFC, este sistema é paradoxalmente suprimido.
+
+Miwa e Fujita [@Miwa2017] descobriram que pacientes com EM/SFC tinham 33% menos aldosterona e 33% menos hormônio antidiurético (ADH) em comparação com controles saudáveis — *apesar* de uma hipovolemia documentada. A resposta hormonal foi reter *menos* fluido, e não mais.
+
+Raj et al. [@Raj2005] encontraram o mesmo paradoxo em pacientes com POTS (uma condição que se sobrepõe significativamente à EM/SFC): o volume sanguíneo foi reduzido significativamente, mas a atividade de renina no plasma permaneceu inalterada e a aldosterona foi baixa. O sistema de deteção de volume ficou danificado.
+
+O resultado é um défice auto-perpetuador. O corpo tem pouco sangue, mas os sistemas hormonais que deveriam corrigir isso estão suprimidos ou insensíveis. Por que isso acontece — seja por desregulação do sistema nervoso central, interferência autoimune nos recetores hormonais ou outra causa — continua sendo uma questão de pesquisa em aberto.
+
+---
+
+## Quantidade reduzida, qualidade comprometida
+
+Até o sangue que resta não funciona de forma ideal. Os glóbulos vermelhos em pacientes com EM/SFC apresentam reduzida deformabilidade [@Saha2019] — eles são mais rígidos e menos capazes de passar pelos capilares para transportar oxigénio. Isso significa que, mesmo que você pudesse restaurar o volume sanguíneo magicamente durante a noite, o fornecimento de oxigénio ainda ficaria prejudicado no nível dos tecidos.
+
+Além disso, citocinas inflamatórias (IL-6, TNF-alfa) — que estão elevadas na EM/SFC — suprimem a produção de novos glóbulos vermelhos (eritropoiese) e retiram ferro, criando um padrão semelhante à anemia de doença crónica. O sangue não está apenas com quantidade reduzida; a sua qualidade também está comprometida.
+
+---
+
+## Aumentar o volume sanguíneo com um défice de 15%
+
+O baixo volume sanguíneo afeta mais intensamente no momento em que o paciente se levanta. Quando se levanta da posição de deitar para a posição ereta, a gravidade puxa cerca de 500-700 ml de sangue para as pernas e o abdômen; uma pessoa saudável compensa isso contraindo os vasos sanguíneos e acelerando a frequência cardíaca. Alguém que já está com 500-750 ml a menos inicia esse esforço compensatório num vazio do qual não pode sair.
+
+É por isso que 70-90% dos pacientes com EM/SFC experimentam intolerância ortostática — e não é ansiedade ou descondicionamento. É física: literalmente não há sangue suficiente para manter a perfusão adequada do cérebro enquanto se está em pé.
+
+O lado oposto é igualmente revelador: muitos pacientes sentem-se significativamente melhor deitados. A posição horizontal elimina a perda gravitacional, permitindo que o volume limitado de sangue seja distribuído uniformemente e chegue ao cérebro. Quando um paciente diz que só consegue pensar claramente deitado, isso não é uma preferência psicológica — é o seu sistema cardiovascular a funcionar dentro das suas limitações.
+
+---
+
+## Gerenciar o déficit — e procurar a causa
+
+Várias abordagens abordam o déficit diretamente, com mecanismos variados:
+
+- **Carga de sal e líquidos** (8-10 g de sódio/dia, 2-3 L de líquidos): expande o volume do plasma. Em alguém com volume sanguíneo normal, isso aumentaria a pressão arterial de forma prejudicial. Em pacientes com EM/SFC hipovolemico, corrige parcialmente o déficit.
+- **Fludrocortisona**: um mineralocorticoide que faz o que o próprio aldosterona do paciente não consegue fazer — orienta os rins a reter sódio e água. Leva 1-2 semanas para ter efeito completo.
+- **Roupas de compressão**: contrapressão mecânica que reduz o acúmulo venoso nas pernas e no abdômen, mantendo mais sangue na circulação central.
+- **Desmopressina**: um análogo da ADH que substitui a hormona antidiurética ausente. Melhorou os sintomas ortostáticos em 50% dos pacientes no estudo de Miwa.
+
+Essas intervenções ajudam — mas são apenas gerenciar o déficit, não corrigir a causa. Então, por que as hormonas reguladoras do volume são suprimidas?
+
+Uma teoria dominante aponta para autoanticorpos — proteínas imunes que atacam erroneamente os próprios recetores do corpo. Pacientes com EM/SFC mostram autoanticorpos elevados contra recetores acoplados a G proteínas (GPCRs), incluindo recetores de angiotensin II AT1 [@Loebel2016] [@Sotzny2021] [@Bynke2020]. O recetor AT1 é um elo chave na cadeia RAAS: o angiotensin II se liga a ele para desencadear a liberação de aldosterona. Autoanticorpos que interferem com esse recetor explicariam diretamente por que o sistema não corrige o volume sanguíneo baixo — a sinalização chega, mas o recetor não responde normalmente.
+
+Isso ainda é uma hipótese, não um facto estabelecido. Mas é testável: três abordagens complementares — imunoadsorção (filtragem de autoanticorpos do sangue), BC007 (uma molécula sintética que os neutraliza) e daratumumabe (visando as células que os produzem) — estão em ensaios clínicos ativos. Se a teoria do autoanticorpo estiver correta, esses tratamentos poderiam corrigir a supressão da RAAS na sua origem — restaurando a capacidade do corpo de regular seu próprio volume sanguíneo.
+
+---
+
+## Um défice mensurável que raramente é avaliado
+
+O volume sanguíneo não é um resultado de um questionário ou um sintoma auto-relatado. É o volume de fluido medido com radioisótopos em mililitros, e os défices aqui documentados são suficientemente grandes para explicar uma parte significativa da incapacidade.
+
+No entanto, a medição do volume sanguíneo raramente é realizada na prática clínica. A maioria dos pacientes com EM/SFC nunca teve seu volume sanguíneo medido. Os exames de sangue padrão (cálculo completo de sangue, hemoglobina) podem parecer completamente normais mesmo com um défice de 15% no volume sanguíneo — porque a *concentração* de glóbulos vermelhos é preservada mesmo quando o *volume total* diminui.
+
+Esta é, sem dúvida, uma das descobertas mais úteis na pesquisa sobre EM/SFC: um défice mensurável com tratamentos disponíveis. A barreira não é o conhecimento — é a implementação.
+
+---
+
+## Considerações e escopo
+
+Nem todos os pacientes com EM/SFC apresentam o mesmo grau de hipovolemia. A redução do volume sanguíneo pode representar um subtipo ou um fator contribuinte, e não um mecanismo universal. Os números citados aqui vêm de estudos com tamanho de amostra de 14-42 pacientes — significativos para a pesquisa sobre EM/SFC, mas não grandes segundo os padrões médicos gerais. E a relação entre o volume sanguíneo e a gravidade geral da EM/SFC, embora correlacionada, não representa a imagem completa — disfunção imunológica, comprometimento mitocôndrial e fatores neurológicos contribuem de forma independente.

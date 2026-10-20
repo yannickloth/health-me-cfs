@@ -1,0 +1,100 @@
+---
+title: "A Trama de Cálcio"
+description: "Existe um único elemento que aparece em pelo menos três modos de falha distintos de EM/SFC. Não como causa raiz em cada caso — os mecanismos são diferentes. Mas como um caractere recorrente: a coisa que dá errado, em diferentes tecidos, para diferentes r..."
+author: "Yannick Loth"
+date: "2026-04-08"
+categories: [Pathophysiology, Ion Channels]
+lang: pt
+---
+
+Existe um único elemento que aparece em pelo menos três modos de falha da EM/SFC distintos. Não como causa raiz em cada caso — os mecanismos são diferentes. Mas como um característica recorrente: a coisa que dá errado, em diferentes tecidos, por diferentes razões, produzindo sintomas diferentes que todos remontam ao mesmo íon.
+
+Cálcio.
+
+---
+
+## Modo de falha 1: o músculo que não pode se recuperar
+
+Após esforço físico ou cognitivo, muitos pacientes com EM/SFC experimentam uma crise retardada — mal-estar pós-esforço — que pode não atingir o pico até 24 a 48 horas depois e pode durar dias ou semanas. O mecanismo proposto por Wirth e Scheibenbogen [@WirthScheibenbogen2021muscle] segue uma cadeia iónica específica.
+
+As células musculares necessitam de uma bomba de sódio-potássio (a enzima Na⁺/K⁺-ATPase) para manter a química interna. Na EM/SFC, esta bomba parece não funcionar adequadamente — possivelmente porque os recetores beta-2 adrenérgicos que a ativam são disfuncionais, possivelmente devido à interferência de autoanticorpos. Quando a bomba falha, o sódio acumula-se dentro da célula.
+
+O aumento do sódio intracelular desencadeia o trocador de sódio e cálcio — um transportador que normalmente exporta cálcio — para funcionar em sentido inverso. Em vez de expulsar cálcio, ele o importa.
+
+O resultado é a sobrecarga de cálcio dentro das células musculares. O cálcio em altas concentrações intracelulares é tóxico. Ele inunda as mitocôndrias, prejudica a produção de energia, desencadeia stress oxidativo e, em casos graves, causa danos estruturais nas fibras musculares — visíveis sob microscopia eletrônica em pacientes com EM/SFC. A imagemção de sódio — uma técnica de RM especializada que mede íons de sódio diretamente no tecido muscular — confirmou a acumulação prevista: pacientes com EM/SFC apresentam um aumento de 30% no sódio intracelular nas células musculares após o exercício, em comparação com 17% nos grupos de controle.
+
+Esta é uma das principais explicações propostas por trás do mal-estar pós-esforço. Trata-se de uma cascata iônica específica e mensurável — não de descondicionamento ou psicologia — que envenena as células musculares quando elas ultrapassam um limite.
+
+---
+
+## Modo de falha 2: a célula imune que não pode disparar
+
+As células killer naturais são as assassinas de primeira resposta do sistema imunitário — as células que identificam e destroem células infectadas ou anormais. Seu mecanismo de matança depende do cálcio. Quando uma célula killer naturais reconhece um alvo, o cálcio flui através de um canal específico chamado TRPM3, desencadeando a degranulação que transporta a carga de destruição.
+
+No EM/SFC, o TRPM3 está danificado.
+
+O grupo da Griffith University (Marshall-Gradisnik et al.) tem documentado isso há anos. A atividade do canal TRPM3 é significativamente reduzida nas células killer naturais dos pacientes com EM/SFC. O fluxo de cálcio é prejudicado. As células não conseguem degranular adequadamente. Sua capacidade de matança é claramente reduzida. Um estudo em grande escala pelo mesmo grupo reproduziu o achado [@marshall2025trpm3] — mas isso não é uma replicação independente de um grupo de pesquisa separado, o que ainda é necessário.
+
+Notavelmente, a naltrexona em doses baixas — um tratamento de que muitos pacientes com EM/SFC relatam benefício — parece restaurar parcialmente a função do TRPM3 nessas células. O trabalho relevante são os estudos TRPM3/LDN do grupo da Griffith [@Cabanas2019trpm3ldnFront], que propuseram a restauração do TRPM3 como uma explicação mecânica para o benefício da naltrexona em doses baixas — in vitro, e ainda não confirmado em pacientes com EM/SFC.
+
+Aqui, o problema do cálcio está na origem, não na sequência. O canal em si é disfuncional — não por causa de uma crise de energia que impulsiona uma cascada, mas como uma deficiência primária. A célula imune não pode carregar cálcio. Ela não pode disparar. Patógenos ou vírus reativados que o sistema imunitário deveria eliminar não são eliminados.
+
+---
+
+## Modo de falha 3: o cérebro que não pode descansar
+
+Durante o sono de ondas lentas profundo, os neurónios tálamo precisam oscilar a baixa frequência — cerca de 1 Hz, o ritmo delta. Este é o estado em que o sistema de eliminação de resíduos do cérebro (o sistema glifático, que depende destas oscilações lentas) pode funcionar. Quando você acorda verdadeiramente restaurado, é por esta razão.
+
+Em alguns pacientes com EM/SFC e na maioria dos pacientes com fibromialgia, estas oscilações lentas são contaminadas pela atividade alfa — a frequência de vigília do cérebro (~10 Hz) que interfere no sono profundo. O resultado: um sono que parece normal em duração, mas não consegue restaurar.
+
+O mecanismo, caracterizado por Timofeev et al. [@timofeev2015thalamic], remonta ao canal de cálcio tálamo. Especificamente, uma classe de canais de cálcio sensíveis à tensão nos neurónios tálamo-corticais — que se abrem e fecham a baixa tensão, gerando surtos rítmicos — é responsável pela produção da atividade oscilatória lenta que cria ondas delta. Quando a excitabilidade tálamo é anormalmente elevada — quando o circuito não consegue silenciar adequadamente — estes canais produzem oscilações de maior frequência. Alfa interfere. O sono profundo torna-se não restaurador.
+
+O canal de cálcio envolvido é diferente do canal TRPM3 nas células imunitárias e do trocador de sódio-cálcio no músculo. Mesmo elemento, maquinaria molecular diferente, tecido diferente, consequência clínica diferente.
+
+---
+
+## Três falhas, três mecanismos — ou um só?
+
+Neste ponto, a situação parece esta:
+
+| Tecido | Problema de cálcio | Consequência clínica |
+|--------|-------------------|---------------------|
+| Músculo | Reversão do trocador de sódio-cálcio → sobrecarga de cálcio (secundária à falha de sódio/energia) | Mal-estar pós-esforço, intolerância ao exercício |
+| Células imunológicas | Disfunção do canal TRPM3 (primário) | Impedimento na eliminação de patógenos, exaustão imunológica |
+| Tálamo | Hiperexcitabilidade dos canais de cálcio sensíveis à tensão elétrica | Sono não restaurador, comprometimento cognitivo |
+
+Serão esses três problemas independentes que ocorrem simultaneamente apenas por acaso, já que a EM/SFC é uma doença multissistémica? Ou são expressões de uma única desregulação de cálcio subjacente?
+
+A hipótese do TRPM3 oferece um candidato para uma explicação unificadora. O TRPM3 não é expresso apenas em células imunológicas. É expresso em todo o sistema nervoso central, incluindo neurónios cerebrais. Desempenha um papel na libertação espontânea de neurotransmissores, na homeostase de cálcio neuronal e na excitabilidade dos circuitos sensoriais e cerebrais. Se a disfunção do TRPM3 fosse sistémica, em vez de restrita a células imunológicas — afetando tanto neurónios quanto células killer naturais —, alteraria o processamento de cálcio nos circuitos do tálamo, potencialmente contribuindo para as anomalias de oscilação observadas em estudos de sono.
+
+Isso ainda não está estabelecido. A disfunção do TRPM3 na EM/SFC foi demonstrada apenas em células imunológicas. Se o mesmo comprometimento existe em neurónios do tálamo, nunca foi medido. É uma hipótese, não um facto.
+
+Mas é uma hipótese falsificável. Um único experimento — medindo a função do TRPM3 em modelos de células neuronais, ou em tecidos cerebrais post-mortem de pacientes com EM/SFC, ou indiretamente através de imagens da dinâmica de cálcio no tálamo — poderia responder à questão.
+
+---
+
+## O que isso significa para subtipos
+
+A via muscular (inversão do trocador de sódio-cálcio, sobrecarga de sódio, falha energética que gera toxicidade de cálcio) é provavelmente um mecanismo secundário — desregulação de cálcio a jusante da crise metabólica. Pacientes com hipoperfusão grave, envolvimento cardiovascular significativo ou esforço físico intenso podem expressar esta via de forma mais intensa.
+
+A via TRPM3 pode ser primária — o canal é quebrado primeiro, e falha energética, disfunção imunológica e possivelmente perturbação do sono seguem como consequências a jusante. Isso seria um subtipo distinto: um fenótipo impulsionado por canalopatia, onde a lesão raiz está no nível do canal, e não no nível metabólico.
+
+Estes dois subtipos preverem respostas terapêuticas diferentes. Abordar a cascata de sódio-cálcio (com estimuladores da Na⁺/K⁺-ATPase, bloqueadores de canal de sódio ou suporte mitocondrial) atinge o mecanismo secundário. Restaurar a função do TRPM3 (LDN sendo o candidato atual) atinge o primário. num paciente onde ambos estão ativos, ambos podem ser necessários.
+
+O mesmo medicamento aplicado ao subtipo errado não produziria resposta — e isso pode explicar uma parte significativa dos fracassos dos ensaios clínicos em EM/SFC que têm confundido pesquisadores há décadas.
+
+---
+
+## A linha
+
+Um elemento, três sistemas, pelo menos dois mecanismos distintos, possivelmente uma causa raiz.
+
+O cálcio não é a única história relacionada à EM/SFC. Mas pode ser uma linha que, quando puxada, conecta mais aspectos da doença do que qualquer outra molécula individual. A via muscular e as vias imunológica/sono usam mecanismos moleculares diferentes — a conexão entre elas pode ser metabólica e não canalopatológica. No entanto, o problema imunológico e o problema do sono podem compartilhar uma causa comum no TRPM3. O paciente que apresenta os três pode não ter três doenças separadas. Pode ter dois problemas relacionados ao cálcio, não um — e um desses dois pode ser reversível.
+
+Aquele experimento — medir a função do TRPM3 nos neurônios tálamicos na EM/SFC — ainda não foi realizado. Quando for feito, a resposta será importante.
+
+---
+
+*Parte de uma série em curso sobre a biologia da EM/SFC.*
+
+---

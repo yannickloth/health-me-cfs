@@ -1,0 +1,125 @@
+---
+title: "Artigo 2: Infecção crónica: Antivirais, Imunomoduladores e o que significa quando eles não funcionam na EM/SFC"
+description: "Guia em linguagem simples para o tratamento de infeção viral crónica em EM/SFC — valaciclovir para EBV, valganciclovir para HHV-6/CMV, cimetidina como imunomodulador, estabilizadores de células mast para interromper a via EBV→MMP-9, por que a replicação lítica abortiva torna os antivirais menos eficazes do que o esperado, e a discussão sobre o caso de nada ajudar."
+author: "Yannick Loth"
+date: "2026-08-14"
+categories: [Treatment, Chronic Infection, Antivirals, ME/CFS]
+lang: pt
+---
+
+Se você tem EM/SFC e evidências de reativação do herpesvírus — alto EA-D IgG, anticorpos elevados de dUTPase, DNA de HHV-6 documentado ou uma história clínica de EBV-mono-then-never-recovered — enfrenta um cenário de tratamento em que os medicamentos antivirais existem, mas as evidências para eles na EM/SFC são escassas. Os alvos de medicamento mais bem estudados abordam um passo de replicação que a replicação lítica abortiva evita, e os ensaios controlados com placebo são pequenos, antigos e não replicados.
+
+Este artigo explica a arquitetura do tratamento. Para o contexto conceitual — o que é a replicação lítica abortiva, a via EBV→mastócito→MMP-9 e a co-reativação de poli-herpesvírus — consulte a [artigo de visão geral](../chronic-infection/index.qmd).
+
+---
+
+## Primeiro, um aviso simples
+
+*Tudo o que se segue é uma conversa a ter com um médico clínico, não automedicação. Valaciclovir e valganciclovir exigem monitorização renal; o valganciclovir é um teratogénico e causa supressão da medula óssea; o famciclovir requer ajuste da dose em caso de comprometimento renal. A cimetidina é um inibidor do CYP450 com interações medicamentosas extensas. Os estabilizadores de células mastóticas não são antivirais — eles interrompem a ativação imune downstream, não o gatilho viral. Nenhum desses medicamentos deve ser iniciado, interrompido ou alterado sem um prescritor.*
+
+---
+
+## O panorama antiviral
+
+### Valacyclovir — o medicamento mais estudado, mas menos eficaz para esta finalidade
+
+O Valacyclovir é um prodrug do acyclovir. É fosforilado pela kinase de timidina viral (EBV BXLF1) e depois por kinases celulares para acyclovir trifosfato, que inibe a polimerase de DNA viral. Ele atua contra a **replicação lítica do EBV** — quando o vírus está copiando ativamente o seu genoma.
+
+O problema é que, na EM/SFC, as proteínas virais que estimulam a ativação imune (dUTPases, produtos de genes imediatos) são produzidas **antes** da etapa da polimerase de DNA. O Valacyclovir bloqueia uma etapa que o ALR não alcança. É como trancar uma porta pela qual o intruso já passou.
+
+**As evidências.** Os estudos de coorte aberta de Lerner (a partir do início dos anos 2000) relataram 30–40% de resposta na EM/SFC associada a herpesvírus, especialmente na maior coorte (n=142) [@Lerner2010antivirals], e um acompanhamento cego de 36 meses com Valacyclovir no subgrupo do EBV foi positivo [@Lerner2007valacyclovir] [@Lerner2002valacyclovir]. No entanto, estas resultados vêm de um único grupo, nunca foram independentemente replicados e utilizam endpoints de saída cardíaca ou estado clínico (não PEM ou fadiga) como medidas primárias. Grau de evidência: **fraco e de grupo único**.
+
+**Considerações práticas.** O Valacyclovir é bem tolerado (cócegas, náusea em ~10%) e requer hidratação adequada para prevenir cristalura. A dose padrão usada no estudo estruturado abaixo é **1 g três vezes ao dia** (3 g/dia); quantidades maiores (até 1,5 g quatro vezes ao dia) existem para algumas indicações de herpes, mas são excepcionais e devem ser usadas apenas com orientação especializada, sempre com ingestão cuidadosa de líquidos e atenção à função renal. Um período de teste de 3–6 meses é o mínimo para avaliar a resposta; testes mais curtos não são informativos.
+
+### Valganciclovir — espectro mais amplo, maior toxicidade, melhor sinal
+
+O Valganciclovir é um prodrug do ganciclovir, que é fosforilado por uma kinase viral diferente (CMV UL97, HHV-6 U69) e também inibe a polimerase de DNA viral. Ele abrange EBV, HHV-6 e CMV — um espectro mais amplo que corresponde ao padrão de reativação polo-herpesvírus. Mas também inibe a polimerase de DNA γ das mitocôndrias do hospedeiro, causando **supressão do medula óssea** (neutropenia, anemia, trombocitopenia) e teratogenicidade.
+
+**As evidências.** O estudo EVOLVE de Montoya (2013, n=30) foi um RCT controlado por placebo que encontrou uma taxa de resposta de 50–60%, melhorias significativas na fadiga mental, gravidade da fadiga e cognição, e os respondentes tinham 7,4 vezes mais probabilidade de melhorar com o Valganciclovir em comparação com o placebo. Estes são números excepcionalmente fortes para um estudo de EM/SFC — mas o estudo foi pequeno, orientado por subgrupo (os respondentes tinham titers de anticorpos elevados) e nunca foi independentemente replicado [@Montoya2013valganciclovir].
+
+**Considerações práticas.** A dose padrão de Valganciclovir é **900 mg duas vezes ao dia** — o Valganciclovir é sempre tomado com alimentos para melhorar a absorção — com exames de sangue completo antes do tratamento e mensalmente, e redução da dose se a clareza de creatinina estiver prejudicada. Os ciclos geralmente são de 6 meses para estudos relacionados a HHV-6/CMV neste contexto. Este é um medicamento prescrito por especialista; não automedique.
+
+**O que pode explicar o sinal, se for real.** O valganciclovir tem efeitos anti-inflamatórios independentes da sua atividade antiviral — inibe a produção de TNF-α e IL-6 por monócitos infectados, impulsionada pelo CMV. A resposta 7,4× pode refletir um mecanismo anti-inflamatório e não um puramente antiviral. Se isso estiver correto, o subgrupo positivo para anticorpos respondeu não porque o vírus era mais ativo, mas porque a ativação imunitária era mais impulsionada pelo CMV. O medicamento funcionou como um anti-inflamatório, não como um antiviral — uma distinção clinicamente útil que o design do ensaio não pode resolver.
+
+### Famciclovir e acyclovir — as opções mais antigas e mais fracas
+
+O famciclovir (prodrug do penciclovir) cobre HSV e VZV, mas não EBV, HHV-6 ou CMV. Não há evidência de ensaios EM/SFC. Nos protocolos de tratamento do documento principal, o famciclovir é usado como profilático no protocolo de EM/SFC grave — não como um antiviral terapêutico, mas para prevenir a reativação de HSV/VZV, que aumentaria a carga viral num sistema imunitário já esgotado. Para esse papel supressor, a dose padrão é **500 mg duas vezes ao dia**, e não 250 mg diariamente; a dose mais baixa de 250 mg diariamente não supriria significativamente a reativação de HSV/VZV, e o famciclovir requer redução da dose em caso de insuficiência renal.
+
+O acyclovir (o medicamento ativo por trás do valacyclovir, mas com menor biodisponibilidade) foi utilizado historicamente. Se o valacyclovir estiver disponível, não há razão para usar acyclovir — mesmo mecanismo, mas farmacocinética pior.
+
+---
+
+## A história da cimetidina: um anti-histamínico H2 que modula a imunidade
+
+A cimetidina é um antagonista do receptor H2 — um medicamento para azia. Mas, ao contrário da famotidina (o outro bloqueador H2 comumente usado no MCAS), a cimetidina tem efeitos imunológicos adicionais: inibe a atividade de células T supressoras, melhora a função das células assassinas naturais e — numa série de casos de 1986 — foi associada a uma melhoria no fenótipo de fadiga pós-EBV caracterizado por POTS, problemas de histamina e início pós-infeccioso [@Goldstein1986CimetidineEBV].
+
+**O limite.** Trata-se de uma série de casos de 40 anos sem ensaio controlado. O mecanismo — bloqueio H2 nas células supressoras T → imunidade celular melhorada → eliminação de vírus mais eficaz — é plausível, mas não comprovado. Para referência, a dose habitual de bloqueio H2 é **400 mg duas vezes ao dia**, tomada com ou sem alimentos; um ensaio para este fenótipo geralmente dura 4–8 semanas com uma reavaliação definida. A cimetidina é um **inhibidor potente de CYP450** (CYP1A2, 2C9, 2D6, 3A4), o que significa que aumenta os níveis sanguíneos de beta-bloqueadores, muitos antidepressivos, warfarina, antiarrítmicos e outros medicamentos para POTS/EM/SFC. num paciente que já está a tomar vários desses medicamentos, a cimetidina representa um risco de interação medicamentosa, e não um adicional benigno. A famotidina é o bloqueador H2 mais seguro para o tratamento de rotina no MCAS; a cimetidina é um ensaio imunomodulador específico — e especulativo — no fenótipo pós-infeccioso, e requer uma revisão completa da medicação por parte do prescritor antes do uso.
+
+---
+
+## O estabilizador de mastócitos: a parte downstream do vírus
+
+Se a EBV dUTPase ativa os mastócitos para liberar MMP-9, e o MMP-9 degrada a barreira hematoencefálica, então **estabilizadores de mastócitos (cromoglicato, ketotifeno) e inibidores de MMP-9 (doxiciclina em baixa dose)** intercetam o caminho **downstream** do vírus. Isso não é tratamento antiviral — não reduz a produção de proteínas virais nem elimina a infeção. Ele bloqueia a resposta do hospedeiro às proteínas virais.
+
+Isso é importante porque evita o problema da ALR. Os estabilizadores de mastócitos não precisam que o vírus esteja em replicação lítica — eles atuam sobre o mastócito que foi ativado pela proteína virais, independentemente da fase em que o vírus esteja. O tratamento do MCAS — anti-histamínicos H1 e H2, estabilizadores de mastócitos e evitação de gatilhos não específicos — está abordado nos artigos sobre MCAS. O ponto específico da infeção crónica é que, no subgrupo positivo para EBV e MCAS, os estabilizadores de mastócitos podem reduzir a perturbação da barreira hematoencefálica mediada pelo MMP-9 mesmo quando os antivirais falham, pois visam o lado do hospedeiro da interação vírus-hospedeiro, e não o lado do vírus [@Loth2026website].
+
+---
+
+## Resultados esperados
+
+- **A resposta antiviral ideal é parcial.** Mesmo no estudo com valganciclovir positivo, “responder” significava uma melhoria clinicamente significativa na fadiga e cognição — não recuperação, não retorno ao trabalho, não normalização da PEM. Defina as expectativas de acordo.
+- **Espera-se um estudo negativo com valacyclovir, não algo anómalo.** O valacyclovir ataca a replicação de DNA lítica; o ALR interrompe antes dessa etapa. Um medicamento que não atinge seu alvo porque o alvo não é ativado é um fracasso do mecanismo, não um fracasso do paciente.
+- **O sinal do valganciclovir pode ou não se replicar.** Até que haja um estudo independente de replicação — e nenhum está registrado atualmente — o resultado do EVOLVE é um único estudo positivo num campo de resultados nulos. Trate-o como um sinal promissor, não como um tratamento estabelecido.
+- **A cimetidina, se ajudar, melhora o fenótipo POTS-MCAS pós-infeccioso.** Se a sua EM/SFC teve início gradual, não pós-infeccioso, ou se você não tem POTS e sintomas de histamina, o fenótipo de cimetidina é pouco adequado, e a famotidina é o bloqueador H2 mais seguro.
+- **Os estabilizadores de mastócitos abordam a resposta do hospedeiro, não o gatilho viral.** Se o EBV está impulsionando o seu MCAS, estabilizar os mastócitos pode reduzir os sintomas sem afetar a atividade viral subjacente. Você ainda terá altos títulos de anticorpos. Os sintomas melhoram porque a resposta do hospedeiro ao vírus é reduzida, não porque o vírus desapareceu.
+
+---
+
+## Um exemplo de estudo estruturado
+
+*Este é um exemplo para fornecer ao seu médico algo com o qual trabalhar — não é uma prescrição autônoma.*
+
+Confirme que a situação clínica é pós-infecciosa (documentada mono EBV, roseola HHV-6 ou infeção transmitida por carrapato que antecede o início da EM/SFC). Obtenha resultados séricos significativos — EA-D IgG, VCA IgG elevada/em ascensão e PCR de HHV-6 a partir de sangue total (VCA IgM é um marcador de infeção recente/primária, não de reativação). Se os resultados séricos sugerem reativação, inicie valaciclovir 1 g três vezes ao dia. Reavaliar após 6 meses. **Interrompa se não houver melhoria** — continuar um antiviral após 6 meses sem benefício não é baseado em evidências.
+
+Se o valaciclovir falhar e a HHV-6 estiver documentada (PCR positiva ou ciHHV-6 conhecida), discuta valganciclovir com um especialista. Este é um medicamento tóxico — supressão da medula óssea, teratogenicidade — que requer monitorização regular de CBC. Um estudo de 3–6 meses com 900 mg duas vezes ao dia (tomado com alimento, dose ajustada para função renal) com regras de interrupção pré-definidas e monitorização de CBC mensal é a abordagem responsável. **Interrompa se ocorrer neutropenia ou se não houver melhoria após 6 meses.**
+
+Se ambos os antivirais falharem — ou se houver suspeita de ALR (EA-D elevado sem carga viral detetável) — passe para a interceção de mastócitos: anti-histamínicos H1 + H2 mais um estabilizador de mastócitos (cromoglicato ou ketotifeno), visando a via EBV→mastócito→MMP-9 a jusante do vírus. Reavaliar após 12 semanas. Uma resposta apoia o modelo de resposta do hospedeiro; um resultado nulo não apoia nem o antiviral nem o modelo de mastócitos como mecanismo dominante, e a decisão é interromper a abordagem da infeção crónica.
+
+---
+
+## As previsões falsificáveis
+
+- **Se os estabilizadores de mastócitos reduzirem o MMP-9 no plasma em pacientes com EM/SFC reativos ao EBV, mas o valaciclovir não o faça**, o caminho EBV→mastócito→MMP-9 é mediado pelo hospedeiro, e não pela replicação viral, e o intercepto dos mastócitos é o alvo do tratamento racional, independentemente da resposta antiviral [@Loth2026website].
+- **Se o modelo de ameaça-sinal estiver correto**, a resposta antiviral deveria ser mais forte em pacientes com <3 years illness duration (where the viral-load component w_V·V still dominates the threat signal) than in patients with >10 anos (onde os fatores do hospedeiro dominam) — e a diferença deveria ultrapassar a diferença de titúro de anticorpos base.
+- **Se a EA-D IgG e o DNA de HHV-6 predizerem a resposta ao valganciclovir, mas a VCA IgG e a EBNA IgG (marcadores de infeção passada, não de reativação) não o façam**, a triagem serológica é clinicamente operacional e deve orientar a prescrição antiviral, em vez da abordagem atual de “tentar e ver”.
+- **Se a cimetidina + valaciclovir produzir um índice de resposta mais alto do que o valaciclovir sozinho no fenótipo POTS-MCAS pós-infeccioso**, a componente imunomoduladora é real e o sinal histórico da cimetidina merece um estudo controlado — mas esta previsão requer um estudo controlado, e não experiência individual.
+
+---
+
+## O que significa se o tratamento não ajuda
+
+**Um: um estudo com valaciclovir fracassado indica que o valaciclovir não funciona para você — nada mais.** Não diz que o EBV está inativo. Não diz que a ALR não está ocorrendo. Diz que um medicamento que bloqueia a replicação de DNA lítico, na dose que você tomou e durante o tempo em que a tomou, não produziu um benefício mensurável. Essa é farmacologia útil. Não é um veredito sobre a hipótese viral.
+**Dois: um estudo com valganciclovir fracassado reduz ainda mais as possibilidades.** O valganciclovir abrange o espectro do poli-herpesvírus. Se um estudo de 6 meses numa dose adequada não produz nenhum benefício, a probabilidade de que um antiviral — qualquer antiviral atualmente disponível — ajude você diminui significativamente. Essa é informação útil, e o próximo passo é passar para a estabilização de mastócitos (interceptando a ativação imune posterior) e evitar mais estudos com antivirais.
+**Três: o modelo de sinal-ameaça do quadro ODE do documento principal prevê que os antivirais funcionam apenas quando o componente de carga viral domina o sinal de ameaça** — no início da doença. Em EM/SFC de longa duração, o sinal de ameaça é mantido por fatores do hospedeiro (desregulação imune, autoanticorpos, disfunção metabólica) e uma redução de ~20% na produção de proteínas virais causada pelos antivirais é insuficiente para mudar o sistema. Este modelo é teórico, mas oferece uma explicação de por que os antivirais podem funcionar para alguns pacientes recentemente infectados e falhar para a maioria dos pacientes com EM/SFC de longa duração [@Loth2026website].
+
+---
+
+## O que você pode fazer de facto
+
+- **Obter sorologia significativa, não apenas IgG.** Os painéis padrão de EBV (VCA IgG, EBNA IgG) indicam que você foi exposto — o que >90% dos adultos faz. A sorologia significativa para *reativação* inclui EA-D (antígeno precoce, padrão difuso), VCA IgG elevada/em ascensão (e VCA IgM apenas para indicar que a infecção foi recente/primária, e não uma reativação), anticorpos dUTPase (apenas para pesquisa, ainda não disponíveis clinicamente) e — onde acessível — PCR quantitativa de EBV. A PCR de HHV-6 a partir de sangue total distingue a replicação ativa do vírus integrado da infecção integrada.
+- **Se a sorologia sugere e a situação clínica é pós-infecciosa, um estudo de valaciclovir de tempo limitado (1 g TID, 6 meses) é uma conversa razoável a ter com um médico.** É bem tolerado e um resultado negativo pelo menos fecha uma porta. Não fique em uso de valaciclovir indefinidamente — se não houver mudança após 6 meses, interrompa.
+- **Valganciclovir é uma decisão especializada.** A toxicidade (supressão da medula óssea, teratogenicidade), o custo (geralmente vários milhares de dólares por mês, frequentemente exigindo aprovação da segurança social para a indicação de EM/SFC e frequentemente negada) e o custo de monitorização significam que deve ser gerenciado por um médico experiente com o medicamento, com monitorização regular de CBC. Um estudo de 3–6 meses com regras de interrupção pré-definidas é a abordagem responsável.
+- **Trate o MCAS se ele estiver presente.** Os estabilizadores de mastócitos interrompem a via EBV→MMP-9 a jusante do vírus e podem reduzir os sintomas, independentemente de os antivirais ajudarem. Consulte os artigos sobre tratamento do MCAS.
+- **Aceite que os antivirais atuais podem não ser os medicamentos adequados para o problema ALR.** Medicamentos que visam diretamente a expressão do gene imediato ou a sinalização dUTPase não existem. Os antivirais que temos foram projetados para infecções de herpesvírus totalmente líticas (unha do pé, retinite CMV, herpes genital). Usá-los para ALR em EM/SFC é um descompasso entre mecanismo e farmacologia — e um resultado negativo não é um fracasso da hipótese viral; é um fracasso dos medicamentos disponíveis para abordar o estado viral específico que está ativo.
+
+---
+
+## A conclusão principal
+
+A infeção crónica é a área de tratamento mais carregada de hipóteses no Septad. Os mecanismos são fortes — EBV→mastócito→MMP-9, HHV-6 miR-aU14→fragmentação mitocôndrial, co-ativação de poly-herpesvirus dUTPase — mas os medicamentos que visam esses mecanismos são fracos (valacyclovir falha no ALR) ou tóxicos (valganciclovir suprime a medula óssea). O estabilizador de mastócitos — bloqueando a resposta do hospedeiro a jusante do vírus — é a única intervenção que evita o problema do ALR e tem baixo risco no subgrupo MCAS-positive [@Loth2026website].
+
+Um ensaio antiviral fracassado é considerado uma questão de farmacologia, não um fracasso pessoal, e não uma refutação da hipótese de reativação viral. A abordagem clínica é um ensaio de tempo limitado, com definição de endpoint e regra de interrupção — e, se falhar, mudar para estabilização de mastócitos e aceitar que os antivirais atuais não são as ferramentas adequadas para o problema.
+
+**Próximo tópico desta série:** Autoimunidade — anticorpos que interagem com o sistema nervoso, autoanticorpos de GPCR e por que sua remoção nem sempre resolve o problema.
+
+Para uma visão abrangente e totalmente citada de como a infeção crónica é avaliada entre os muitos mecanismos candidatos no EM/SFC, consulte [@Loth2026website].

@@ -1,0 +1,134 @@
+---
+title: "Artigo 2 sobre SFN: Tratamento da Neuropatia de Fibra Pequena na EM/SFC — Medicamentos para a Dor, IVIG, Estabilizadores de Células Mastoide e o Que Significa Quando a Dor Não Parar"
+description: "Guia em linguagem simples para o tratamento da neuropatia de fibra pequena em EM/SFC — a escala de tratamento da dor neuropática, desde gabapentinoides e SNRIs até lidocaína tópica e capsaicina, IVIG para SFN autoimune, ácido alfa-lipóico e suporte metabólico, estabilizadores de células mast que interrompem o ciclo tryptase→PAR2, resultados esperados e a discussão sobre “e se nada ajudar”."
+author: "Yannick Loth"
+date: "2026-08-07"
+categories: [Treatment, SFN, Neuropathy, ME/CFS, Pain]
+lang: pt
+---
+
+Se você tem EM/SFC e neuropatia de pequenas fibras — confirmada por biópsia de pele ou fortemente sugerida por dor ardente, dor aguda e sintomas autonómicos — enfrenta um cenário de tratamento em que os medicamentos padrão para dor neuropática têm evidências para neuropatia diabética e neuralgia pós-herpética, e não para EM/SFC. O custo da sedação de gabapentínoides é maior quando a névoa cerebral já é uma realidade diária. E o subgrupo autoimune-SFN — aquele que é mais propício a responder ao IVIG — está apenas começando a ser definido.
+
+Este artigo explica a arquitetura do tratamento. Para o contexto conceitual — o que é SFN, as três famílias de mecanismos e a distinção entre visceral e somático — consulte o [artigo de visão geral](../sfn/index.qmd).
+
+---
+
+## Primeiro, um aviso simples
+
+*Tudo o que está abaixo é uma conversa a ter com um médico clínico, não automedicação. Os medicamentos para dor neuropática causam sedação, desaceleração cognitiva e — no caso dos gabapentinoides — dependência fisiológica que requer redução supervisionada. O IVIG é um produto sanguíneo com riscos de meningite assética, tromboembolismo e anafilaxia. Trabalhe com um neurologista ou especialista em dor que entenda EM/SFC. Se tiver fraqueza progressiva rapidamente ou perda de controle da bexiga ou do intestino, vá a um hospital.*
+
+---
+
+## A escada terapêutica
+
+### Passo um: agentes tópicos — risco mínimo, entrega direcionada
+
+**Placa medicada com lidocaína 5%**. Aplicada diretamente na área mais dolorosa por 12 horas, a lidocaína bloqueia os canais de sódio controlados por voltagem nas fibras nervosas pequenas na pele — os mesmos canais que são hiperexcitados na SFN. Ela tem praticamente nenhuma absorção sistêmica e nenhum efeito colateral cognitivo. A limitação é prática: ela trata apenas a área sob a placa, e a dor na SFN é frequentemente generalizada.
+
+**Capsaicina**. Creme de capsaicina de baixa concentração (0,025–0,1%) aplicada 3–4 vezes ao dia, inicialmente piora a queima por ativar o TRPV1, e depois esgota a substância P das terminações nervosas ao longo de semanas, reduzindo a sinalização da dor. A queima inicial é uma barreira — muitos pacientes param antes que o benefício apareça. Adesão de capsaicina de alta concentração 8%, aplicada por um médico por 30–60 minutos sob anestesia local, oferece um único tratamento que pode proporcionar alívio da dor por até 3 meses, desfuncionando as terminações nervosas que expressam TRPV1. O mecanismo faz sentido para a SFN — o TRPV1 está concentrado nas fibras pequenas — mas as evidências estão na neuralgia pós-herpética e neuropatia por HIV, não na EM/SFC.
+
+### Passo dois: medicamentos orais para dor neuropática — com a advertência sobre sedação
+
+**Gabapentinoides** (gabapentina, pregabalina). Estes ligam à subunidade α2δ dos canais de cálcio controlados por voltagem, reduzindo a libertação de neurotransmissores das terminações nervosas hiperexcitadas. São a primeira linha para dor neuropática na maioria das diretrizes. O problema na EM/SFC é **sedação, tontura e desaceleração cognitiva** — os mesmos sintomas que o paciente já luta contra. Comece em baixa dose (gabapentina 100–300 mg à noite, pregabalina 25–50 mg), ajuste lentamente ao longo de semanas e pare se a sedação superar o benefício antes de alcançar uma dose eficaz. Os gabapentinoides causam dependência fisiológica; não pare abruptamente.
+
+**SNRIs** (duloxetina 30–60 mg, venlafaxina 75–225 mg). Estes aumentam os caminhos inibitores de dor descendentes, aumentando noradrenalina e serotonina no cordão espinhal. A duloxetina tem a melhor evidência para dor neuropática (neuropatia diabética, fibromialgia). Os SNRIs podem ser estimulantes em vez de sedativos — o que pode ser vantajoso na fadiga na EM/SFC — mas também podem piorar insônia e ansiedade no início. Uma advertência relevante nesta série: **a venlafaxina aumenta a pressão arterial em doses mais altas**, o que requer monitorização em populações com POTS/ortostática. A limitação: a evidência para fibromialgia é positiva para a duloxetina; a evidência específica para EM/SFC está ausente.
+
+**Antidepressivos tricíclicos** (amitriptilina 10–50 mg à noite, nortriptilina 10–50 mg). Estes funcionam através do bloqueio dos canais de sódio e da inibição da recaptação de noradrenalina. São eficazes para dor neuropática e têm a vantagem de melhorar o sono quando tomados à noite — mas os efeitos colaterais anticolinérgicos (boca seca, constipação, retenção urinária), sedação matinal e **a hipotensão ortostática piorada pelo bloqueio α₁ pode não ser adequado para pacientes com POTS** — relevante porque esta série trata diretamente de POTS.
+
+### Terceiro passo: apoio metabólico e nutricional
+
+**Ácido alfa-lipóico** 600–1800 mg diariamente. Este antioxidante melhora o fluxo sanguíneo dos nervos e reduz o stress oxidativo na neuropatia diabética, com um tamanho de efeito moderado. A justificação se estende à EM/SFC — se a isquemia microvascular contribui para a perda de fibras pequenas, melhorar a função endotelial e reduzir o dano oxidativo pode retardar a progressão. A evidência está no diabetes; não existe ensaio para EM/SFC. Geralmente, é bem tolerado nestas doses.
+
+**Acetil-L-carnitina** 1500–3000 mg diariamente. A carnitina apoia o transporte de ácidos gordos mitocôndria, e as pequenas fibras nervosas têm alta densidade mitocôndria em seus terminais. A justificação é o apoio metabólico para neurônios stressados. Mais uma vez, a evidência está na neuropatia diabética, não na EM/SFC.
+
+**B vitaminas** (B12, benfotiamina, B6). A deficiência de B12 causa uma mieloneuropatia que pode imitar o SFN; os níveis de B12 devem ser verificados e corrigidos se estiverem baixos. A benfotiamina (um análogo lipossolúvel de B1) tem alguma evidência na neuropatia diabética. **Toxicidade de B6** — em doses acima de 100 mg diariamente — pode causar uma neuropatia sensorial que se parece exatamente com o SFN. Não suplemente B6 em altas doses sem monitorar os níveis.
+
+### Quarto passo: IVIG — para o subgrupo autoimune-SFN
+
+Se o SFN é mediado por IgG — e as evidências de transferência passiva da fibromialgia e Long COVID, o padrão não dependente de comprimento e a hipótese de nível DRG apontam para um mecanismo autoimune numa subgrupo — então o IVIG é o tratamento mais direto do ponto de vista mecânico. O IVIG em 0,4 g/kg diariamente por 5 dias, depois mensalmente, foi utilizado para SFN autoimune em outras condições (Sjögren, sarcoidose) e mostrou um sinal no subtipo não dependente de comprimento da EM/SFC [@Loth2026website].
+
+**O que prediz resposta.** Padrão não dependente de comprimento em biopsia de pele (proximal = envolvimento distal), disfunção autônoma documentada (QSART anormal), e — onde disponível — evidência de autoanticorpos neuronais ou IgG que se liga ao DRG. O padrão dependente de comprimento (stocking-glove, pés pior que coxas) é menos provável ser autoimune e mais provável ser metabólico ou isquêmico.
+
+**Considerações práticas.** O IVIG é caro (geralmente vários milhares de dólares por ciclo de infusão), frequentemente sujeito a autorização prévia da segurança de seguro e — sendo off-label para SFN/EM/SFC — normalmente recusado, portanto o acesso é um verdadeiro obstáculo prático na maioria dos sistemas. Também requer acesso a centro de infusão (um fardo físico em EM/SFC moderado a grave) e apresenta riscos — meningite assética (dor de cabeça grave 24–48 horas após a infusão), tromboembolismo e anafilaxia rara. O exame de segurança padrão antes do IVIG — IgA sérico (para excluir deficiência de IgA, onde o risco de anafilaxia é maior), função renal e avaliação de risco tromboembolico — deve ser feito antes de iniciar, e é discutido no [artigo de tratamento autoimune](../../autoimmune/autoimmunity-treatment/index.qmd). Não é um tratamento de primeira linha. É uma opção racional do ponto de vista mecânico para o paciente com perfil autoimune confirmado por biopsia, não dependente de comprimento e que falhou com medicamentos orais — e requer um neurologista familiarizado com a indicação off-label.
+
+### Passo cinco: estabilizadores de mastócitos — interrompendo o ciclo tryptase→PAR2
+
+Se o ciclo tryptase→PAR2→sensibilização nervosa estiver ativo — e no subgrupo positivo para MCAS, quase certamente está — então os estabilizadores de mastócitos (cromoglicato, ketotifeno) e os anti-histamínicos que reduzem a degranulação de mastócitos podem diminuir a influência neurotóxica na fibra pequena [@Loth2026website].
+
+Para referência: **cromoglicato de sódio** é administrado por via oral em **200 mg quatro vezes ao dia** antes das refeições e à hora de dormir; **ketotifeno** é tomado em **1 mg duas vezes ao dia** (geralmente começando com 1 mg à hora de dormir porque é sedativo, depois aumentando para duas vezes ao dia). Ambos são discutidos no artigo de tratamento para MCAS e devem ser administrados sob supervisão de um médico. A sedação do ketotifeno é um obstáculo prático na EM/SFC — iniciar em baixas doses e programar as doses para evitar o agravamento da névoa cerebral durante o dia.
+
+A justificativa é de origem upstream: em vez de bloquear o sinal de dor após a sensibilização do nervo (gabapentina, SNRI), estabilizar os mastócitos impede que eles liberem tryptase desde o início, interrompendo o ciclo de autoamplificação. O tratamento é detalhado no [artigo de tratamento para MCAS](../../mast-cell-mcas/antihistamines-mcas-mecfs-treatment/index.qmd). A evidência específica para SFN é indireta — a prevalência de 80% em distúrbios de mastócitos e o mecanismo PAR2 — mas a intervenção tem baixo risco no subgrupo positivo para MCAS e é mecanicamente coerente.
+
+---
+
+## Um exemplo de estudo estruturado
+
+*Este é um exemplo para fornecer ao seu médico algo com o qual trabalhar — não é uma auto-prescrição.*
+
+Confirme o diagnóstico de SFN com uma biopsia de pele (PGP9.5 IENFD). Note o padrão — não dependente de comprimento (perfil autoimune) vs dependente de comprimento (perfil metabólico/ischemico). Isso orienta a sequência de tratamento.
+
+Comece com a opção de menor risco: placa de lidocaína 5% na área mais dolorosa, 12 horas de uso / 12 horas de descanso. Reavaliar após 2 semanas. Se a dor localizada melhora, continue — há um componente periférico, mediado por canais de sódio.
+
+Se a dor for generalizada ou a lidocaína não for suficiente, adicione gabapentina 100–300 mg antes de dormir, ajustando lentamente ao longo de 4 semanas até a dose máxima tolerada. Reavaliar após 8 semanas. **Interrompa se a sedação impede o atingimento de uma dose eficaz** — a dose máxima tolerada em EM/SFC pode estar abaixo da dose analgésica, e isso é um problema de acesso farmacológico, não um fracasso do paciente. Se a gabapentina falhar, tentar duloxetina 30 mg diariamente, ajustando para 60 mg, reavaliar após 8 semanas.
+
+Se a biopsia mostrar SFN não dependente de comprimento e os medicamentos orais falharam, discuta IVIG com um neurologista: 0,4 g/kg diariamente por 5 dias, depois 0,4 g/kg a cada 3–4 semanas. Reavaliar após 6 meses. **Interrompa se não houver melhoria** — um teste de 6 meses sem IVIG é prova suficiente de que a terapia de imunoglobulinas não é a solução.
+
+Se o MCAS estiver presente (vermelhidão, urticária, sintomas de histamina), adicione estabilizadores de mastócitos (cromoglicato, ketotifeno) como complemento — eles atacam o ciclo triptase→PAR2 antes dos medicamentos analgésicos, mas não substituem a lógica de tratamento da dor neuropática.
+
+Adicione apenas uma intervenção de cada vez. O uso de múltiplos medicamentos antes da avaliação de monoterapia torna impossível saber o que ajudou.
+
+---
+
+## Resultados esperados
+
+- **Os tratamentos tópicos funcionam rapidamente ou não funcionam nada.** A lidocaína proporciona alívio em poucas horas; o capsaicina leva semanas. Se nenhum dos dois ajudar após um período adequado (lidocaína 2 semanas, capsaicina 4–6 semanas), a dor pode não ser mantida na pele — pode ser central ou no nível DRG.
+- **Os gabapentínicos e SNRIs exigem titulação da dose ao longo de semanas ou meses.** A dose eficaz para a dor no SFN é frequentemente maior do que a dose inicial, e o efeito colateral de sedação no início não prevê o sedação no estado estável. Uma dose que é interrompida após 3 dias devido à sonolência nunca foi submetida a um período de teste adequado.
+- **A resposta com IVIG pode levar 3–6 meses.** A dose de carga de 5 dias é seguida por infusões mensais; a melhoria é gradual. Um único ciclo não é um período de teste adequado.
+- **Os estabilizadores de células mastoide, se ajudarem, ajudam indiretamente.** Eles não tratam o SFN — eles eliminam a entrada inflamatória que mantém o SFN ativo. Se o dano das pequenas fibras já é estrutural (fibras perdidas, não apenas sensibilizadas), os estabilizadores podem reduzir a dor sem restaurar a densidade das fibras.
+- **A combinação é frequentemente necessária.** Adesivos de lidocaína tópica na área mais dolorosa + baixa dose de gabapentina ou duloxetina para a dor de fundo + estabilizadores de células mastoide se MCAS estiver presente é uma abordagem multi-alvo comum e mecanicamente racional.
+
+---
+
+## O que significa se o tratamento não ajuda
+
+**Um: um ensaio de gabapentinoides fracassado não é um diagnóstico de SFN fracassado.** Os nervos estão objetivamente danificados — a biópsia é a evidência. Um medicamento que não controla a dor é um fracasso farmacológico, não um fracasso diagnóstico.
+
+**Dois: a sedação pode impedir o alcance de uma dose eficaz.** A dose máxima tolerada de gabapentina em EM/SFC pode estar abaixo da dose eficaz para a dor neuropática. Este é um problema de acesso ao tratamento, não uma prova de que a dor não é neuropática.
+
+**Três: o SFN dependente da duração (stocking-glove) é menos propício a responder ao IVIG.** Se o padrão for distal-to-proximal, o mecanismo é mais provavelmente metabólico ou isquémico do que autoimune. O IVIG neste grupo tem um rendimento esperado mais baixo.
+
+**Quatro: a sensibilização central pode dominar.** Se a QST mostrar uma função de pequenas fibras normal, mas um aumento na somativa temporal (o sinal de dor se amplifica no cordão espinhal), o mecanismo dominante pode ser central, não periférico, e o alvo do tratamento muda para antagonistas de NMDA (memantina, ketamina em baixa dose) e LDN — [abordado no artigo sobre fibromialgia e dor](../../pain/fibromyalgia-pain-treatment/index.qmd).
+
+**Cinco: uma sequência de fracassos bem executados — topicais, gabapentinoides, SNRIs, IVIG se indicado — é uma evidência real de que a farmacologia da dor neuropática não é o principal recurso.** Isso não significa que os nervos estejam bem. Significa que os medicamentos disponíveis não são suficientes, e o foco muda para gerir a função dentro de limites, em vez de buscar alívio da dor com medicamentos que não o oferecem.
+
+---
+
+## Previsões falsificáveis
+
+- **Se pacientes com EM/SFC e SFN positivo respondem de forma diferente ao IVIG em comparação com pacientes com SFN negativo**, a subgrupo autoimune-SFN constitui uma distinção terapêuticamente significativa [@Loth2026website].
+- **Se estabilizadores de mastócitos reduzam a hipersensibilidade de pequenas fibras avaliada pelo QST em pacientes com SFN e MCAS positivo**, o mecanismo tryptase→PAR2 é clinicamente relevante e alvo de tratamento.
+- **Se a microscopia confocal corneal detete a perda de pequenas fibras que está correlacionada com a gravidade dos sintomas autonômicos, mas não é refletida na biopsia da pele**, a distinção visceral-vs-somática é clinicamente operacional — e a CCM deve ser adicionada ao kit de diagnóstico.
+- **Se o padrão não dependente do comprimento prevê uma resposta ao IVIG melhor do que o total IENFD**, o mecanismo autoimune DRG é sustentado e o padrão deve orientar a triagem do tratamento.
+
+---
+
+## O que você pode fazer de facto
+
+- **Realizar a biópsia se a dor neuropática for um sintoma dominante.** Uma biópsia de punção de pele de 3 mm (imunostilação PGP9.5) é o padrão-ouro. É objetiva, distingue o SFN da sensibilização central e orienta a triagem do tratamento (não dependente do comprimento → exame autoimune → consideração de IVIG).
+- **Começar com produtos tópicos.** Adesões de lidocaína 5% e creme de capsaicina não têm efeitos colaterais sistêmicos e não causam impacto cognitivo — uma vantagem significativa em EM/SFC.
+- **Para medicamentos orais, começar em baixa dose, avançar lentamente e estabelecer uma regra de parada.** Gabapentina 100 mg antes de dormir, reavaliar após 4 semanas. Se a sedação impede alcançar uma dose eficaz, interromper e tentar um SNRI. Um medicamento que nunca foi ajustado para uma dose eficaz nunca foi submetido a um teste justo; um medicamento que causa efeitos colaterais insuportáveis antes de atingir a eficácia deve ser interrompido — ambos são resultados válidos.
+- **Verificar os níveis de B12, folato e B6 antes de complementar.** Corrigir deficiências. Não complementar B6 em alta dose se os níveis são normais — a toxicidade de B6 causa SFN.
+- **Se o MCAS estiver presente, tratar.** O ciclo tryptase→PAR2 está ativo e a estabilização dos mastócitos está na origem da dor. Consulte o artigo sobre o tratamento do MCAS.
+- **Aceitar que a dor pode não resolver completamente.** O objetivo no SFN associado a EM/SFC é a melhoria funcional — ficar em pé por mais tempo, dormir durante a noite, tolerar roupas — e não dor zero. A alívio parcial de uma abordagem multi-alvo é frequentemente o resultado realista. Isso não é fracasso. É um alinhamento preciso num sistema complexo.
+
+---
+
+## A conclusão principal
+
+O tratamento do SFN em EM/SFC segue uma hierarquia: produtos tópicos (lidocaína, capsaicina), medicamentos neuropáticos para via oral (gabapentínoides, SNRIs, TCAs — todos com uma consideração sobre sedação), suporte metabólico (ácido alfa-lipóico, acetil-L-carnitina), IVIG para o subgrupo autoimune e estabilizadores de mastócitos para interromper o ciclo tryptase→PAR2. A evidência para cada etapa é extrapolada a partir de neuropatia diabética, fibromialgia e SFN autoimune em outras condições — não existem RCTs específicas para EM/SFC [@Loth2026website].
+
+Um ensaio falho de qualquer um dos medicamentos não falsifica o diagnóstico de SFN. Os nervos estão objetivamente danificados. Os medicamentos são imperfeitos. O objetivo clínico é encontrar a combinação que reduza a dor o suficiente para melhorar a função, sem adicionar sedação que agrave a doença central.
+
+**Próximo tópico desta série:** Dor de padrão fibromialgico — quando o sistema nervoso aumenta o ganho, e a dor surge sem danos teciduais.
+
+Para uma visão abrangente e totalmente citada de como a neuropatia de pequenas fibras é avaliada entre os muitos mecanismos candidatos em EM/SFC, consulte [@Loth2026website].

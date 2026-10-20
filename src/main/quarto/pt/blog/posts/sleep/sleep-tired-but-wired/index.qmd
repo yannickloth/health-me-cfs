@@ -1,0 +1,94 @@
+---
+title: "Cansado, Mas Energizado: A Traição Autónoma à Noite"
+description: "Existe uma crueldade específica que os pacientes com EM/SFC conhecem bem, mas raramente é descrita na literatura médica. Você está exausto — não cansado, não sonolento, mas a exaustão profunda, celular, de um corpo que tem funcionado sem energia durante todo o dia. Cada..."
+author: "Yannick Loth"
+date: "2026-05-03"
+categories: [Sleep, Autonomic Dysfunction]
+lang: pt
+---
+
+Existe uma crueldade específica que os pacientes com EM/SFC conhecem bem, mas raramente é descrita na literatura médica. Você está exausto — não cansado, não sonolento, mas a exaustão profunda, celular, de um corpo que tem funcionado sem energia o dia todo. Cada fibra diz: dormir. Agora.
+
+Você deita-se. Fecha os olhos. E o seu cérebro liga.
+
+A frequência cardíaca aumenta em vez de diminuir. Os pensamentos se aceleram — não são pensamentos produtivos, nem exatamente ansiedade, mas uma sensação de alerta elétrica que não pode ser desligada. O corpo está flácido por exaustão; o sistema nervoso está agitado por ativação. Você está simultaneamente muito cansado para se mover e muito conectado para dormir.
+
+Isso não é insônia em sentido convencional, e também não é má higiene do sono. O sistema nervoso autônomo perdeu a capacidade de passar do modo diurno para o modo noturno, e tudo o que depende dessa transição falha junto com ele.
+
+---
+
+## A mudança que não acontece
+
+Em fisiologia saudável, a transição da vigília para o sono envolve uma transferência coordenada entre o sistema nervoso simpático (o ramo “luta ou fuga” que domina durante o dia) e o sistema nervoso parassimpático (o ramo “descanso e digestão” que deveria dominar à noite).
+
+Esta transferência é impulsionada ativamente pelo hipotálamo, orquestrada por uma cascata: diminuição do cortisol, aumento do melatonina, aumento do tónus vagal parassimpático, diminuição da noradrenalina e epinefrina, vasodilatação periférica (para dissipar calor e reduzir a temperatura corporal central) e supressão progressiva de neurónios orexina que promovem a vigília. Cada etapa depende das anteriores, e a sequência completa leva de 60 a 90 minutos em pessoas saudáveis — o período de “desligamento” que as recomendações de higiene do sono visam.
+
+Em EM/SFC, esta transferência falha em múltiplos pontos simultaneamente, e as falhas se acumulam.
+
+Evidências limitadas (um resumo de conferência) sugerem um tónus parassimpático reduzido no sono em EM/SFC — menor potência do HRV de alta frequência e uma proporção mais alta entre simpático e parassimpático [@Rahman2019sleepCFS]; são necessários estudos de HRV com maior poder. O ramo simpático simplesmente não desliga à noite — mantém o ritmo cardíaco elevado, a pressão arterial elevada e a noradrenalina elevada. Fisicamente, o corpo do paciente está no “modo diurno” enquanto está deitado num quarto escuro à meia-noite.
+
+A noradrenalina sustentada tem uma consequência específica após a vigília: inibe diretamente os canais de aquaporina-4 (AQP4) nos astrócitos, suprimiendo a depuração glifática [@Xie2013glymphatic]. A mesma neuroquímica que mantém o paciente acordado bloqueia também o sistema de depuração de resíduos do cérebro — assim, mesmo quando o sono finalmente chega, ele chega num cérebro cuja tubagem foi desligada pelo próprio sistema nervoso.
+
+Existe ainda o problema de temperatura. A adesão ao sono requer uma queda de ~1°C na temperatura corporal central, alcançada através da vasodilatação nas mãos e nos pés. A disfunção autonómica prejudica exatamente esta resposta vascular. O corpo não consegue dissipar calor adequadamente, a temperatura corporal central permanece elevada e a porta de sono hipotálamica não abre. Os pacientes frequentemente percebem que as suas mãos e pés estão frios à hora de dormir — o que é o oposto do que deveria acontecer, já que a vasoconstrição periférica retém o calor em vez de irradiá-lo.
+
+Por fim, a regulação da orexina falha. Os neurónios orexina no hipotálamo são o sistema principal que promove a vigília; eles deveriam ser suprimidos todas as noites pela pressão do sono e pelos sinais circadianos. Uma recente revisão integrada de 27 estudos encontrou uma redução consistente nos níveis de orexina-A em EM/SFC, mas o padrão temporal de supressão e ativação parece desregulado, resultando em vigília inadequada à noite e sonolidade inadequada durante o dia [@LopezAmador2025orexin].
+
+---
+
+## A contribuição inflamatória
+
+A falha autonómica também não é tudo. Citocinas inflamatórias periféricas — IL-1β, IL-6, TNF-α, elevadas em muitos pacientes com EM/SFC — atravessam para o cérebro através de órgãos circunvalares e vago-aferentes, onde atuam nos circuitos hipotálamos que regulam tanto o sono quanto a excitação. O efeito é verdadeiramente paradoxal: essas citocinas aumentam simultaneamente a pressão do sono (o cérebro sabe que o corpo está doente e quer forçar repouso) e fragmentam a arquitetura do sono (o estado inflamatório perturba a coordenação oscilatória necessária para um sono profundo sustentado). Esta ação dupla — pro-somnogénica, mas fragmentadora do sono — está bem caracterizada na literatura sobre citocinas e sono [@Krueger2001cytokinesSleep].
+
+Portanto, há uma força inflamatória que impulsiona em direção ao sono, enquanto a ativação simpática e a perturbação inflamatória do sono impedem que o sono seja restaurador. Ambos os sistemas são ativados pela doença. Eles se movem em direções opostas, e o paciente fica preso entre eles, exausto e incapaz de descansar.
+
+---
+
+## Como será a noite que se aproxima
+
+Se o paciente acaba adormecendo — geralmente horas após deitar — o sono que se segue tem as marcas de uma transição fracassada ao longo do tempo.
+
+Os despertares noturnos são frequentes: de cinco a vinte ou mais vezes por noite, muitas vezes com plena vigília e dificuldade em voltar a dormir. Cada despertar reativa o sistema simpático, eleva a noradrenalina e repõe o sono de ondas lentas que tenha sido alcançado. O sono saudável também envolve uma queda de pressão arterial de 10–20% durante a noite, mas muitos pacientes com EM/SFC são “não-dippers” — a sua pressão arterial permanece elevada ou até aumenta durante o sono, um marcador confiável de ativação simpática persistente ao longo da noite.
+
+A instabilidade do termorregulação que impediu o início do sono não desaparece assim que o sono chega. A degranulação de mastócitos libera histamina e prostaglandinas que alteram o tônus vascular de forma imprevisível, e alguns pacientes passam por suores intensos e arrepios várias vezes por noite, cada ciclo desencadeando uma ativação que fragmenta ainda mais o sono. A frequência cardíaca conta a mesma história: em vez de cair para os 50–60 BPM típicos do sono tranquilo, permanece entre 75–90 ou mais. Pacientes com telemóveis podem observar isso diretamente — o gráfico da frequência cardíaca durante a noite, que deveria mostrar uma queda suave em forma de U, revela um platô ruidoso e elevado.
+
+---
+
+## Por que os conselhos de higiene do sono não atingem o objetivo
+
+As recomendações padrão de higiene do sono — horário de dormir consistente, quarto escuro, ausência de telas antes de dormir, evitar cafeína — não estão erradas, apenas insuficientes. Elas abordam os fatores comportamentais e ambientais que apoiam a transferência autonómica, mas um sistema autonómico que é estruturalmente incapaz de fazer a transição não será corrigido apenas ajustando as rotinas de horário de dormir.
+
+Dizer a um paciente com EM/SFC para “praticar melhor higiene do sono” para o seu estado cansado-mas-conectado é como dizer a alguém com um termostato avariado para abrir uma janela. A janela ajuda. O termostato ainda está avariado.
+
+Existem intervenções mais direcionadas, embora nenhuma seja curativa e todas exigem avaliação pelo médico prescritor — especialmente considerando as comorbidades autonómicas comuns na EM/SFC. Do ponto de vista autonómico, estratégias que reduzam a ativação simpática — estimulação do nervo vago, exercícios de respiração lenta se tolerados e abordagens farmacológicas como clonidina em baixa dose ou guanfacina (ambos agentes cardiovasculares que exigem monitorização em pacientes com hipotensão ortostática) — abordam o desequilíbrio de raiz em vez dos seus efeitos downstream. As evidências na EM/SFC são limitadas, mas fundamentadas mecanicamente.
+
+A temperatura pode ser manipulada diretamente: um banho quente 90 minutos antes de dormir seguido por arrefecimento pode provocar artificialmente a queda da temperatura central que o sistema autonómico não fornece [@Haghayegh2019warmBathSleep] (meta-análise mostrando ~10 minutos de redução na latência de início do sono). Alguns pacientes percebem que aquecer as extremidades — meias aquecidas, garrafa de água quente nos pés) promove a vasodilatação periférica que deveria iniciar o sono espontaneamente.
+
+Para o problema da orexina, os antagonistas duplos dos receptores de orexina (DORAs) como suvorexant e lemborexant suprimem a sinalização de orexina que promove o despertar sem a sedação bruta das benzodiazepinas ou Z-drugs. Eles consolidam o sono reduzindo os períodos prolongados de despertar e preservam a arquitetura normal do sono melhor do que as opções mais antigas. A experiência clínica inicial na EM/SFC tem sido cautelosamente positiva, embora os ensaios controlados ainda estejam em falta.
+
+A ancoragem circadiana vale a pena ser considerada separadamente da sedação. A melatonina em baixa dose (0,5–1 mg) ajustada ao início do sono à luz fraca do indivíduo — e não à instrução arbitrária “tomar à hora de dormir” no pacote — pode ajudar a ancorar a fase circadiana e fortalecer a queda do cortisol à noite. A exposição à luz brilhante pela manhã reforça o sinal circadiano do outro lado, mas deve ser abordada com cautela: para pacientes graves e muito graves, a luz brilhante pode provocar sobrecarga sensorial e agravar os sintomas.
+
+---
+
+## O custo da noite perdida
+
+Cada hora passada no estado de cansado, mas conectado tem um custo que vai além da exaustão do dia seguinte. A ativação simpática contínua mantém a noradrenalina elevada e a depuração glifática suprimida durante toda a noite; o atraso no início do sono reduz o sono de ondas lentas total; e qualquer sono fragmentado que ocorra perturbe a consolidação da memória, prejudica a secreção do hormônio do crescimento e deixa a recalibração imunológica incompleta.
+
+A má noite se acumula. O paciente não sente-se apenas pior no dia seguinte — há danos acumulados devido à falha na manutenção durante a noite, danos que podem levar dias ou semanas para se manifestar como névoa cerebral mais profunda, dor agravada ou um episódio completo de mal-estar pós-esforço desencadeado por atividades que poderiam ser gerenciadas após uma noite verdadeiramente restauradora.
+
+---
+
+## As pernas que não descansam
+
+Mesmo quando o sono finalmente chega, o corpo pode não cooperar.
+
+O síndrome das pernas inquietas (RLS) e o distúrbio do movimento periódico dos membros (PLMD) são condições associadas ao EM/SFC, embora a prevalência específica no EM/SFC não tenha sido estudada de forma rigorosa. O RLS envolve uma vontade irresistível de mover as pernas, geralmente pior no repouso e à noite — precisamente quando os pacientes com EM/SFC tentam adormecer. As ligações mecanicas mais fortes estão relacionadas à desregulação do ferro (a deficiência de ferro no sistema nervoso central pode ocorrer mesmo com níveis normais de ferro no soro) e à disfunção dopaminérgica. O estudo de fenotipagem profunda do NIH constatou uma diminuição nos níveis de líquido cefalorraquidiano de DOPA, DOPAC e DHPG — metabólitos da via de catecolaminas — em pacientes com EM/SFC em comparação com o grupo de controle [@walitt2024deep]. Um achado de uma pequena coorte (n=17 em comparação com 21 em controle), ainda não replicado independentemente, mas que implica diretamente nas vias dopaminérgicas envolvidas no RLS.
+
+O PLMD — flexão periódica do quadril e joelho com dorsiflexão do pé, ocorrendo a cada 20–40 segundos durante o sono — perturba a arquitetura do sono sem que o paciente acorde necessariamente. Um índice de PLMD acima de 15 eventos por hora é diagnóstico (critérios ICSD-3). Cada movimento desencadeia um microacordamento, fragmentando a continuidade do sono e impedindo as épocas de ondas lentas necessárias para a depuração glifática.
+
+Para os pacientes com EM/SFC, a combinação é cruel: a falha na transição autonômica atrasa o início do sono, o RLS impede o adormecimento, a intrusão das ondas alfa degrada a qualidade do sono de ondas lentas uma vez que o sono chega, e o PLMD fragmenta o que resta. Cada mecanismo prejudica independentemente a restauração; juntos, eles podem eliminar o sono — um fracasso noturno em todos os níveis, desde a transição autonômica até o controle motor, refletindo em todos os outros fracassos do sistema.
+
+---
+
+---
+
+*Artigo anterior desta série: O Paradoxo do Sono — por que o descanso não restaura o estado em EM/SFC.*

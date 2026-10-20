@@ -1,0 +1,105 @@
+---
+title: "Artigo 1 sobre POTS: POTS e o Coração que Acelera ao Ficar em pé — O que isso significa em relação à EM/SFC"
+description: "Guia em linguagem simples sobre o síndrome da taquicardia ortostática postural e como ela se sobrepõe à EM/SFC — por que ficar em pé faz o coração acelerar, por que o volume sanguíneo é baixo, mas a hormona que o corrige está paradoxalmente ausente, como mastócitos e tecido conjuntivo contribuem para o problema, e a diferença entre POTS por si só e POTS sobreposta à EM/SFC."
+author: "Yannick Loth"
+date: "2026-08-01"
+categories: [POTS, ME/CFS, Dysautonomia, Pathophysiology]
+lang: pt
+---
+
+Você está deitado. Horizontal, calmo, e seu coração está em 95. Você verifica seu pulso porque parece errado — uma sala silenciosa, um corpo descansado, e seu coração está a correr como se você acabasse de subir escadas. Você se levanta. Antes de ter caminhado para onde quer que fosse, ele ultrapassa 120. A sala se inclina. Sua visão se estreita. Você se senta novamente porque seu corpo decidiu que a gravidade é uma emergência.
+
+Agora adicione o resto da EM/SFC: a fadiga intensa após um banho curto, a névoa cerebral que faz uma frase parecer um enigma, o sono que não reabastece. Em algum lugar no meio disso, um médico ou um teste de mesa inclinada diz a palavra *POTS*, e lhe é entregue uma lista de medicamentos dos quais nunca ouviu falar — midodrina, fludrocortisona, ivabradina — e lhe é dito para comer mais sal.
+
+Este artigo é a visão conceitual. O que a POTS realmente é, por que o volume sanguíneo é baixo mas o corpo não está a resolver isso, se a POTS causa EM/SFC (quase nunca acontece) e a diferença entre ter POTS por si só e ter ela *sob* a EM/SFC. Os tratamentos — a escala de medicamentos desde sal e compressão até fludrocortisona, midodrina, ivabradina e piridostigmina — estão abordados no [artigo de tratamento complementar](../pots-mecfs-treatment/index.qmd), juntamente com a discussão sobre “e se os medicamentos não funcionarem”.
+
+---
+
+## Primeiro, um aviso simples
+
+*Esta é uma explicação, não um conselho de automedicação, e eu não sou médico. Se os seus sintomas forem súbitos, graves ou ameaçadores para a vida — especialmente dor no peito, perda de consciência ou qualquer sintoma que pareça um ataque cardíaco — isso é uma emergência. Vá a um hospital. Tudo o que está abaixo é medicamento que provavelmente lhe será oferecido; fale com um médico antes de iniciar, parar ou alterar qualquer um deles.*
+
+---
+
+## A versão curta, se você ler apenas uma parte
+
+- **POTS** significa *síndrome da taquicardia ortostática postural*. Em adultos, significa que a frequência cardíaca aumenta pelo menos 30 batimentos por minuto dentro de dez minutos após a posição de pé (em adolescentes, o critério é um aumento de pelo menos 40 batimentos por minuto), sem que a pressão arterial caia o suficiente para ser considerada hipotensão ortostática [@Hoad2008pots].
+- **É realmente mais comum em EM/SFC.** Aproximadamente 27% dos pacientes com EM/SFC atendem aos critérios de POTS, em comparação com cerca de 9% dos controles [@Hoad2008pots]. No entanto, o limite de 30 bpm tem baixa especificidade diagnóstica — 10–15% das pessoas saudáveis ultrapassam esse valor [@MECFSScience2024pots] — e a reprodutibilidade diária é fraca, portanto um único teste deve ser interpretado com cautela.
+- **O problema central não é apenas o coração.** Baixo volume sanguíneo, hormônios reguladores do volume sanguíneo paradoxalmente suprimidos (renina, aldosterona, ADH), autoanticorpos que atacam recetores em vasos sanguíneos e nervos, e laxidade do tecido conjuntivo que acumula sangue nas pernas contribuem todos [@Raj2005][@Miwa2017][@Streeten1998blood].
+- **POTS geralmente surge após a EM/SFC, não é a causa.** Ela compartilha mecanismos com a ativação de mastócitos e hipermobilidade — os três ocorrem frequentemente juntos, sendo chamados de tríade [@Yao2025MCASPOTStriad] — e tratar a taquicardia sozinha raramente resolve a falha de energia.
+- **Há uma distinção útil entre POTS isolada e EM/SFC com POTS.** Tratar o fluxo sanguíneo e a frequência cardíaca no primeiro caso trata a condição primária; no segundo, trata um dos fatores que amplificam a condição.
+
+---
+
+## O que é POTS, de verdade?
+
+numa pessoa saudável, levantar-se é um ato breve e silencioso de coordenação. A gravidade puxa cerca de 500–800 mL de sangue para as pernas. Baroreceptores — sensores de pressão nas artérias carótidas e na aorta — detectam essa queda. Em segundos, o sistema nervoso simpático contrai os vasos sanguíneos, acelera um pouco o coração e o sistema renina-angiotensina-aldostéron (RAAS) retém sal e água. O sangue flui de volta para cima. O cérebro permanece perfundado. A frequência cardíaca aumenta talvez 10–15 batimentos, depois se estabiliza. Você não percebe isso.
+
+No POTS, vários componentes deste sistema falham ao mesmo tempo:
+
+**O volume sanguíneo é muito baixo.** Medidas diretas usando a técnica de rerespiração com monóxido de carbono confirmam que os pacientes com POTS têm um déficit significativo de volume sanguíneo — uma redução média de cerca de 14% no volume total de sangue, com o volume de plasma sendo desproporcionalmente baixo [@Kulapatana2024]. Especificamente na EM/SFC, a massa de glóbulos vermelhos foi reduzida em 93,8% das mulheres e 50% dos homens, e o volume de plasma foi subnormal em 52,6% [@Streeten1998blood]. Menos sangue no tanque significa menos sangue disponível para ser bombeado para cima quando você se levanta.
+
+**O hormônio que deveria reparar isso está paradoxalmente desregulado.** Normalmente, um volume sanguíneo baixo desencadeia a liberação de renina, que aumenta a aldostérona, que orienta os rins a retenir sódio e água — expandindo o volume sanguíneo de volta ao normal. No POTS e na EM/SFC com sintomas ortostáticos, a atividade da renina é normal a baixa e a aldostérona é francamente baixa, apesar do volume sanguíneo ser medidamente baixo [@Raj2005][@Miwa2017]. Este é o *paradoxo renina-aldostéron* — o termostato de regulação de volume está errado, então o corpo não tenta corrigir o déficit mesmo quando ele está objetivamente presente.
+
+**Os vasos podem não se contrair adequadamente.** Quando você se levanta, os vasos das pernas precisam se contrair para empurrar o sangue de volta para cima. Mediadores de mastócitos — histamina, prostaglandina D₂ — dilatam os vasos sanguíneos e reduzem a pressão arterial, e os mastócitos estão diretamente ao lado dos vasos e terminações nervosas [@Kohno2021potsmast]. numa pessoa cujos mastócitos estão atuando demais (MCAS), ou cujo tecido conjuntivo é muito flexível para manter os vasos sob tensão (hipermobilidade), essa contração pode falhar [@Yao2025MCASPOTStriad]. E há um terceiro mecanismo em investigação: autoanticorpos que visam os recetores α-adrenérgicos e β-adrenérgicos — os mesmos recetores que o sistema nervoso simpático usa para contrair vasos e ajustar a frequência cardíaca — foram encontrados em pacientes com POTS, embora sua prevalência e papel causal ainda estejam sendo estudados [@Garland2015POTSbeyond].
+
+**O cérebro pode estar subperfundido mesmo quando a frequência cardíaca e a pressão arterial pareçam normais.** Esta é a descoberta que deve mudar a forma como se pensa sobre a intolerância ortostática na EM/SFC. num grande estudo holandês usando Doppler transcraniano durante o teste de mesa inclinada, 82% dos pacientes com EM/SFC com *frequência cardíaca e pressão arterial normais* ainda mostraram uma queda anormal no fluxo sanguíneo cerebral. Nos pacientes que *realmente* atenderam aos critérios de POTS, 100% mostrou essa queda. No final do inclinação, a redução no fluxo sanguíneo cerebral foi de 7% nos controles em comparação com 26% na EM/SFC — quase quatro vezes maior [@VanCampenEtAl2020]. Um estudo de acompanhamento de mais de 500 pacientes confirmou que 91% dos pacientes com EM/SFC com frequência cardíaca e pressão arterial normais ainda tinham um fluxo cardíaco anormal e reduções no fluxo sanguíneo cerebral durante o teste de inclinação, sugerindo disfunção endotelial em vez de um problema simples de frequência [@VanCampenEtAl2024].
+
+Em termos simples: **você pode ter sinais vitais normais no papel, mas ainda assim o seu cérebro perde fluxo sanguíneo quando se levanta.** A frequência cardíaca é um sinal visível de um problema mais profundo e menos visível — e na EM/SFC, o defeito de fluxo sanguíneo existe na maioria dos pacientes, independentemente de eles ultrapassarem ou não o limiar de 30 bpm do POTS.
+
+---
+
+## A sobreposição entre POTS e EM/SFC, em números
+
+Antes de atribuir tudo ao ritmo cardíaco, aqui estão os dados que dizem — e o que não dizem.
+
+**Cerca de 1 em 4 pacientes com EM/SFC atende aos critérios formais de POTS** (um aumento do ritmo cardíaco de ≥30 bpm ao ficar em pé), em comparação com cerca de 9% dos controles [@Hoad2008pots]. No entanto, o próprio limite de 30 bpm apresenta problemas:
+
+- 10–15% dos controles saudáveis atendem a esse limite em estudos populacionais [@MECFSScience2024pots].
+- A gravidade dos sintomas está pouco correlacionada com a magnitude do aumento do ritmo cardíaco — a correlação explica apenas cerca de 2% da variância. Uma pessoa com um aumento modesto de 32 bpm pode ficar gravemente incapacitada; uma pessoa com um aumento de 55 bpm pode se sentir relativamente bem [@MECFSScience2024pots].
+- Os resultados dos testes mostram baixa reprodutibilidade no dia a dia — um paciente pode atender aos critérios na terça-feira e não na quinta-feira [@MECFSScience2024pots].
+- Entre os pacientes com EM/SFC que apresentam sintomas de intolerância ortostática, apenas 21% atendem aos critérios formais de POTS — o que significa que a maioria dos sintomas ortostáticos na EM/SFC *não* é capturada pela etiqueta POTS [@MECFSScience2024pots].
+
+**O que isso significa para você:** O POTS, como definido atualmente, pode ser uma categoria diagnóstica mal especificada, em vez de uma entidade fisiopatológica clara. Sua aparente comorbidade com a EM/SFC pode refletir parcialmente artefatos nos limites diagnósticos. A abordagem mais útil é: **a maioria das pessoas com EM/SFC tem algum tipo de intolerância ortostática**, independentemente de o número de ritmo cardíaco cruzar um limite arbitrário num único dia de teste. Os dados do fluxo sanguíneo cerebral ajudam a enfatizar isso — um grande acompanhamento revelou que cerca de 91% dos pacientes com EM/SFC com ritmo cardíaco e pressão arterial aparentemente normais ainda apresentavam perfusão anormal durante o teste de inclinação, o que um rótulo POTS baseado apenas no número de ritmo cardíaco perderia [@VanCampenEtAl2024].
+
+**A sobreposição tem uma química plausível.** Os mastócitos produzem mediadores que dilatam os vasos e reduzem a pressão sanguínea — uma química inadequada para um sistema que já luta para bombear sangue para cima. numa coorte de POTS, 42% tinham mediadores mastócitos elevados; produtos da decomposição da histamina foram elevados em 52%, prostaglandina D₂ em 36%, mas triptase em apenas 9% — demonstrando que o teste de sangue padrão de mastócitos (triptase) é um filme insuficiente para detectar a disfunção autonômica impulsionada por mastócitos [@Kohno2021potsmast]. Isso está em conformidade com — mas não prova — a ideia de que os mastócitos contribuem para o lado vascular do POTS no subgrupo de pacientes que têm ambos [@Yao2025MCASPOTStriad].
+
+**O lado do tecido conjuntivo é ainda mais direto.** Até 70% das pessoas com síndrome de Ehlers-Danlos hipermóvel (hEDS) ou distúrbio do espectro da hipermobilidade relatam sintomas de disautonomia, e até 40% atendem aos critérios de POTS [@Mathias2021dysautonomia]. O mecanismo é estrutural: o tecido conjuntivo laxo nas paredes dos vasos sanguíneos permite o acúmulo excessivo de sangue venoso, de modo que ficar em pé traz mais sangue para as pernas do que o sistema foi projetado para recuperar [@Hakim2017cardiovascular].
+
+---
+
+## A ordem importa: POTS geralmente é um efeito secundário, não a causa
+
+Existe um facto que deve influenciar a sua forma de pensar sobre o tratamento: **POTS quase sempre surge como parte de um grupo de sintomas.** A tríade POTS–MCAS–hipermobilidade não é coincidência. Uma recente revisão crítica sobre essa tríade constatou que “um mecanismo patofisiológico com base em evidências, comum entre qualquer uma das duas condições, muito menos entre todas as três, ainda não foi descrito” [@Yao2025MCASPOTStriad] — portanto, a posição é que os três ocorrem juntos, provavelmente compartilham mecanismos, mas as relações causais não são definidas.
+
+O que *é* claro: **na EM/SFC, POTS geralmente é apenas um dos vários fatores, não a doença central.** O défice de volume sanguíneo, o paradoxo renin-aldosterona, os efeitos vasculares das células mastoide e a acumulação de tecido conjuntivo são todos caminhos para o mesmo objetivo — o coração acelera para compensar — mas corrigir a frequência cardíaca não resolve a falha de energia. Os dados de resposta ao tratamento apoiam isso indiretamente: numa pesquisa com quase 4.000 pacientes com EM/SFC e Long COVID, os moduladores autonómicos (midodrina, beta-bloqueadores, fludrocortisona) ajudaram o grupo de sintomas dominado por POTS, independentemente de a condição original ser EM/SFC ou Long COVID — o que sugere que o problema autonômico é uma *consequência secundária compartilhada* e não uma causa específica da doença [@Eckey2025PatientReported].
+
+Pense num carro com um problema na bomba de combustível. O motor acelera quando você sobe uma colina — não porque o motor esteja defeituoso, mas porque a fonte de combustível é fraca e o motor está tentando compensar. Corrigir a aceleração (a frequência cardíaca) não resolve a bomba de combustível (o defeito de energia/imunidade). Mas tratar a aceleração ainda vale a pena, porque operar o motor no limite consome combustível que não existe.
+
+---
+
+## POTS por si só vs EM/SFC com POTS
+
+Muita confusão em torno do POTS vem da mistura de duas situações que parecem semelhantes — o mesmo coração acelerado, o mesmo tontura ao ficar em pé — mas têm objetivos de tratamento diferentes.
+
+**POTS por si só (sem EM/SFC).** Em alguém que não tem EM/SFC, o POTS é a queixa dominante. O déficit de volume sanguíneo, a acumulação venosa e a taquicardia compensatória são os problemas a serem tratados. Restaurar o volume sanguíneo (sal, fludrocortisona), apertar os vasos (midodrina) e reduzir a taxa (ivabradina, betabloqueadores) visam ao problema principal. Se os sintomas respondem, o objetivo é em grande parte cumprido — a pessoa pode ficar em pé, caminhar e funcionar normalmente.
+
+**EM/SFC com POTS (a situação desta série).** Quando o POTS se acumula sobre a EM/SFC, três coisas são diferentes:
+
+- **O POTS é um amplificador.** A acumulação de sangue e o coração acelerado consumem energia que o sistema já não tem, e o estresse ortostático pode desencadear PEM — mas corrigir a taxa não resolve a falha de energia ou a desregulação do sistema imunitário [@Loth2026website].
+- **Tratar o POTS trata um único fator.** Se a midodrina ou compressão ajuda a ficar em pé por mais tempo, isso indica que *a acumulação venosa estava contribuindo para os sintomas ortostáticos*. Isso não diz nada sobre se a produção de energia, o sistema imunitário ou a inflamação cerebral estão melhorados.
+- **Um fracasso de ensaio de medicamento para POTS não diz nada contra a EM/SFC.** Porque a intolerância ortostática na EM/SFC tem vários fatores — volume sanguíneo, eixo renin-aldosterona, mediadores de mastócitos, função endotelial e integridade do tecido conjuntivo — um medicamento que bloqueia apenas um desses caminhos pode falhar, enquanto a desregulação geral permanece real. E como a doença central é maior do que qualquer um desses caminhos, um fracasso de ensaio é uma pista sobre *um medicamento num mecanismo*, não um veredito sobre se a doença é real.
+
+Por que essa distinção é importante na prática: **na EM/SFC, o tratamento do POTS deve ser visto como um ensaio temporário voltado para um possível fator** — com uma ideia clara de quais sintomas ele pretende atingir e um plano para o que um resultado parcial ou nulo significa ou não.
+
+---
+
+## A conclusão
+
+A POTS é real em EM/SFC — cerca de 1 em 4 pacientes atende aos critérios — mas o limiar de 30 bpm é um critério de diagnóstico insuficiente, e a maioria das pessoas com EM/SFC tem intolerância ortostática que a etiqueta formal de POTS captura apenas parcialmente [@Hoad2008pots][@MECFSScience2024pots]. O problema central não é apenas a frequência cardíaca: volume sanguíneo baixo, hormonas reguladoras de volume paradoxalmente suprimidas, vasodilatação mediada por células mastoide, disfunção endotelial e laxidade do tecido conjuntivo convergem para o mesmo resultado final — o coração acelera para compensar um sistema que não consegue manter o sangue em movimento para cima [@Raj2005][@Streeten1998blood][@Miwa2017][@VanCampenEtAl2020].
+
+A interpretação é: a POTS é mais frequentemente um amplificador posterior, não a causa, e tratar a frequência cardíaca raramente resolve a falha de energia — mas ainda vale a pena tratar, porque fazer o coração correr a todo o ritmo enquanto está imóvel custa energia que você não tem [@Loth2026website].
+
+**Próximo tópico desta mini-série:** como os medicamentos reais funcionam — sal e compressão primeiro, depois fludrocortisona, midodrina, ivabradina, beta-bloqueadores e piridostigmina, o medicamento que provavelmente *não* deve ser tomado (o erro do SSRI), resultados esperados e a discussão sobre “e se os medicamentos não funcionarem” [[ver o artigo complementar]](../pots-mecfs-treatment/index.qmd).
+
+Para uma visão abrangente e totalmente citada de como a disfunção cardiovascular e a desregulação autonómica são consideradas entre os muitos mecanismos candidatos em EM/SFC, consulte [@Loth2026website].

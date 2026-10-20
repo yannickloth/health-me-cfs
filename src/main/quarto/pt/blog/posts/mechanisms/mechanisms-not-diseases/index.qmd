@@ -1,0 +1,101 @@
+---
+title: "A medicina possui 10.000 doenças e cerca de 40 mecanismos. Ela treina para o errado."
+description: "A medicina está organizada em torno de doenças. Os médicos aprendem 10.000 condições nomeadas — seus critérios de diagnóstico, seus tratamentos padrão e suas manifestações típicas. Quando um paciente chega, o sistema tenta associá-lo a uma categoria conhecida. Se o ma..."
+author: "Yannick Loth"
+date: "2026-04-05"
+categories: [Medical Education, Systems Medicine]
+lang: pt
+---
+
+A medicina está organizada em torno de doenças. Os médicos aprendem 10.000 condições nomeadas — seus critérios de diagnóstico, seus tratamentos padrão e suas manifestações típicas. Quando um paciente chega, o sistema tenta associá-lo a uma categoria conhecida. Se a correspondência for encontrada, o tratamento segue o protocolo. Se não, o paciente fica sem solução.
+
+Isso funciona bem para doenças comuns e bem caracterizadas. Falha sistematicamente para todo o resto.
+
+---
+
+## A assimetria sobre a qual ninguém fala
+
+Quantos mecanismos biológicos fundamentais estão por trás dessas 10.000 doenças?
+
+Aproximadamente 30 a 50, dependendo de como você contar:
+
+- Inflamação e desregulação imunitária
+- Disfunção mitocondrial e falha energética
+- Hiperexcitabilidade talamocortical
+- Desregulação autonómica
+- Falha na perfusão vascular
+- Rompimento da barreira biológica (intestino, sangue-cérebro)
+- Desregulação do eixo hipotálamo-hipófise-suprarrenal
+- Senescência celular
+- Disbiose microbiana
+- Consolidação epigenética
+
+As 10.000 doenças não são 10.000 fenómenos independentes. São combinações e expressões diferentes desse pequeno conjunto de mecanismos, em diferentes tecidos, com diferentes gravidades e gatilhos.
+
+Um médico que entende profundamente a hiperexcitabilidade talamocortical pode reconhecê-la na fibromialgia, na EM/SFC, em certas enxaquecas, no PTSD e na insônia resistente ao tratamento — sem precisar de um protocolo específico para cada condição. Um médico treinado apenas por protocolos precisa de uma entrada separada para cada condição, e não produz nada quando a apresentação não corresponde a uma entrada conhecida.
+
+---
+
+## O que isso significa na prática
+
+Considere um paciente que teve uma polisomnografia. Ela mostra intrusão de ondas alfa no sono profundo (N3) — um padrão em que a atividade cerebral durante o despertar contamina o sono de ondas lentas, impedindo a função de restauração. A quantidade de N3 é normal. A qualidade, não.
+
+Esse padrão foi documentado na pesquisa sobre fibromialgia desde 1975 [@Moldofsky1975alphaDeltaSleep]. O mecanismo é razoavelmente compreendido: a excitabilidade anormal entre tálamo e córtex faz com que a frequência de oscilação permaneça na faixa de alfa (~10 Hz) em vez de passar para delta (~1 Hz). O resultado é um sono que parece adequado em termos de duração, mas falha no nível celular — a depuração glifática não ocorre, os resíduos metabólicos se acumulam e o cérebro acorda exausto.
+
+A gabapentina atua diretamente nesse mecanismo, através da modulação dos canais de cálcio no tálamo.
+
+Ninguém recomenda a gabapentina após a PSG. Não porque os dados estejam ausentes. Não porque o mecanismo seja desconhecido. Mas porque o neurologista consultante procura por epilepsia ou apneia — categorias com protocolos claros — e a intrusão de alfa sem um diagnóstico correspondente não é uma categoria. É um achado sem caso para verificar.
+
+Anos depois, com um diagnóstico de EM/SFC, os mesmos dados da PSG contam uma história completamente diferente. Os dados não mudaram. O quadro interpretativo mudou.
+
+---
+
+## O problema estrutural
+
+A organização nosológica da medicina — categorias de doenças em primeiro lugar, mecanismos em segundo — é um produto da história. A observação clínica precedeu a compreensão mecanística há séculos. Síndromes foram nomeadas antes que alguém soubesse por que ocorriam. A infraestrutura (códigos de faturamento, aprovações de medicamentos, currículos de treinamento, comitês de diretrizes) foi construída em torno dessa estrutura e agora é extremamente resistente a mudanças.
+
+O resultado é um sistema com três modos de falha sistemática:
+
+**Modo de falha 1: Combinações desconhecidas.** Quando um paciente apresenta um quadro que não corresponde a nenhuma doença conhecida, mas pode ser explicado como uma combinação de dois ou três mecanismos conhecidos, o sistema não tem um registo para isso. O paciente é mal diagnosticado, rotulado como psicossomático ou enviado para casa com “nada encontrado”.
+
+**Modo de falha 2: Cegueira entre especialidades.** Os mecanismos não respeitam as fronteiras entre especialidades. A hiperexcitabilidade talamo-cortical aparece na medicina do sono, neurologia, medicina da dor e psiquiatria — mas estas são organizadas como departamentos separados com pouca interação mútua. Um achado feito na medicina do sono não se propaga automaticamente para o neurologista, e vice-versa. Os dados existem; ninguém os sintetiza.
+
+**Modo de falha 3: Atraso nas diretrizes.** As diretrizes codificam o que era conhecido quando foram escritas. As diretrizes para EM/SFC em muitos países ainda refletem a compreensão do início dos anos 2000. Um médico que segue as diretrizes atuais, em algumas áreas, está praticando medicina de 20 anos atrás — não porque esteja ignorante, mas porque o sistema em que opera é atualizado lentamente.
+
+---
+
+## Esta não é uma crítica a médicos individuais
+
+O médico de família abrange aproximadamente 10.000 condições. Nenhum ser humano pode manter uma expertise profunda em mecanismos para todas elas. O sistema pede o impossível e, em seguida, culpa os indivíduos quando eles não conseguem cumprir.
+
+O problema é arquitetural. O sistema foi concebido para um mundo em que as doenças eram, em sua maioria, de um único mecanismo, principalmente infecciosas e facilmente resolvíveis com uma intervenção definida. Esse mundo já não descreve a maior parte da carga de doenças nos países ricos. Doenças crónicas multissistêmicas — EM/SFC, Long COVID, fibromialgia, disautonomia — não se enquadram na arquitetura anterior. Elas não são casos marginais; afetam dezenas de milhões de pessoas.
+
+---
+
+## Como seria a medicina focada nos mecanismos
+
+Um médico treinado em torno dos mecanismos, em vez das doenças, abordaria um paciente complexo de maneira diferente:
+
+1. **Mapear os mecanismos ativos** — não “qual doença o paciente tem?”, mas “quais processos biológicos estão desregulados e como interagem?”
+2. **Alinhar os mecanismos acessíveis** — não “qual é o protocolo para este diagnóstico?”, mas “qual desses mecanismos pode ser alcançado com ferramentas disponíveis e em que ordem?”
+3. **Sintetizar entre especialidades** — o PSG, o teste autonómico, o painel de imunologia, a metabolómica — como entradas para uma imagem mecânica unificada, e não como resultados de departamentos separados.
+
+Isso é o que alguns centros especializados em EM/SFC fazem atualmente. Não é padrão. Requer tempo que não é reembolsado, síntese que não é ensinada e um quadro que não está nos guias.
+
+---
+
+## A implicação mais profunda
+
+A EM/SFC é talvez o exemplo mais claro contemporâneo de uma doença que se situa completamente fora da competência do sistema nosológico. É multisistémica, impulsionada por mecanismos, sem um único biomarcador, sem uma especialidade definida e com uma base de pesquisa que supera as diretrizes clínicas numa década.
+
+Pacientes com EM/SFC frequentemente precisam realizar a síntese mecânica por conta própria — lendo a literatura, relacionando os dados PSG com os dados autonómicos e a imunologia, chegando às consultas médicas com uma compreensão mais integrada da própria fisiopatologia do que o médico a quem consultam.
+
+Esse não é o modo em que deveria funcionar. Mas é o que acontece quando o quadro interpretativo fica para trás em relação aos dados.
+
+Os dados estão disponíveis. Os mecanismos são conhecidos. As ferramentas geralmente existem.
+
+O que está faltando é a arquitetura que os conecta.
+
+---
+
+*Parte de uma série em curso sobre a biologia da EM/SFC e o que ela revela sobre os sistemas médicos.*

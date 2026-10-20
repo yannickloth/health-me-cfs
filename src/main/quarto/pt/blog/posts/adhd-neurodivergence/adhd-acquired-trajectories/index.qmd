@@ -1,0 +1,105 @@
+---
+title: "Adquirido vs. Desenvolvimental: Quando características semelhantes à PHDA podem ser reversíveis"
+description: "Algumas características semelhantes ao PHDA — desatenção, impulsividade, dificuldade executiva — podem surgir após o desenvolvimento, em vez de ser resultado dele. Esta parte final analisa as evidências de que o PHDA adulto geralmente não é uma continuação direta do PHDA da infância, e como distinguir características adquiridas da estrutura desenvolvimental."
+author: "Yannick Loth"
+date: "2026-08-28"
+categories: [Neurodivergence, Pathophysiology, Symptoms]
+lang: pt
+---
+
+As partes 1–3 analisaram mecanismos que podem produzir características semelhantes à PHDA: um défice de energia no pré-frontal, uma estrutura neuroinflamatória imune, e um eixo dopamina-Nrf2-NLRP3. Esta parte final levanta uma questão diferente e clinicamente relevante:
+
+**Quando características semelhantes à PHDA estão presentes, elas são necessariamente presentes desde o desenvolvimento — ou algumas delas podem ser adquiridas e, portanto, reversíveis?**
+
+A resposta é importante porque uma característica *adquirida* pode responder ao tratamento da sua causa, enquanto uma característica *desenvolvimental* geralmente não responderá. Confundir os dois gera tanto esperança falsa quanto oportunidades perdidas.
+
+A série separa **o que sabemos** de **o que a nossa pesquisa acrescenta**. O contexto estabelecido inclui a descoberta de que a PHDA adulta muitas vezes não é uma continuação direta da PHDA infantil [@Moffitt2015adhdadult @Sibley2018lateonsetADHD @Asherson2019lateonsetADHD], e — a partir da literatura de neuroimunologia mais ampla de que o nosso projeto se baseia — que a neuroinflamação e o sono perturbado podem degradar a função cognitiva. O que a nossa pesquisa acrescenta é a interpretação específica — de que algumas características semelhantes à PHDA são adquiridas e reversíveis com o tratamento da sua causa subjacente, em contraste com um wiring desenvolvimental estável. Essa interpretação é uma especulação registada, e não uma descoberta estabelecida.
+
+---
+
+## O principal achado: o PHDA que surge na idade adulta não é simplesmente o PHDA da infância que persiste
+
+O achado mais importante neste campo é que **muitos casos de PHDA na idade adulta não parecem ser uma continuação direta do PHDA da infância** — embora a situação atual seja mais complexa do que o achado marcante inicial sugeria.
+
+Um estudo longitudinal marcante que acompanhou uma grande coorte de nascimentos até a idade adulta descobriu que a maioria dos adultos que atingiram os critérios de PHDA nos seus vinte anos **não** teve PHDA na infância — e, de forma surpreendente, a maioria das crianças com PHDA **não** continuou a atender aos critérios completos na idade adulta [@Moffitt2015adhdadult]. Apenas uma pequena parte do PHDA da infância persiste como PHDA na idade adulta.
+
+Esse achado desencadeou uma discussão que, desde então, ajudou a aprofundar a compreensão. Uma análise mais detalhada do mesmo fenómeno — incluindo avaliações abrangentes repetidas de um grupo de comparação entre os 10 e os 25 anos — revelou que **a maioria do PHDA que surge na idade adulta é de origem adolescente (12–16 anos), e não de origem adulta de novo**, e que, em muitos casos, os sintomas refletem uma apresentação infantil não reconhecida, um distúrbio associado ou os efeitos cognitivos do uso de substâncias, em vez de um síndrome de origem adulta verdadeiramente distinta [@Sibley2018lateonsetADHD @Asherson2019lateonsetADHD]. A recordação retrospectiva dos sintomas de PHDA na infância é em si não confiável — a precisão é de apenas cerca de 55% [@Breda2020adhdrecall] — o que significa que alguns relatos de “inicio adulto” são na verdade inícios infantis esquecidos.
+
+Portanto, a conclusão atual, mais cuidadosa, é uma **mistura**: algum PHDA na idade adulta é realmente de origem adolescente; algum reflete sintomas infantis não reconhecidos ou mal recordados; algum é explicado pelo uso de substâncias ou outras comorbidades. Uma interpretação de “síndrome de origem adulta distinta, que surge de repente” é agora a minoria, e não a consenso.
+
+Observação: esta conclusão de “mistura” baseia-se numa **pequena coorte de comparação dos EUA** (a coorte normativa local do MTA, n = 239) em vez de uma coorte de nascimentos em nível populacional, e dois dos estudos-chave compartilham uma linha de pesquisa, portanto as evidências são um cluster parcialmente auto-referencial, e não replicações independentes. A questão, portanto, é melhor tratada como aberta, e não resolvida — um ponto que a cautela do resto deste artigo reflete.
+
+A implicação clínica ainda é direta: **um adulto que desenvolve sintomas semelhantes ao PHDA na idade adulta não necessariamente está revivendo uma condição infantil ininterrupta.** Eles podem estar a experimentar um processo **adquirido** ou **de origem adolescente** — um processo que merece investigação da sua causa, e não uma aceitação de “fios de ligação vitalícios”. No entanto, o grau em que esse processo é verdadeiramente independente do risco neurodesenvolvimental infantil, e não uma apresentação infantil não reconhecida, permanece não resolvido.
+
+---
+
+## Três arquiteturas da sobreposição
+
+Nossa pesquisa aborda a relação entre PHDA e fadiga crónica através de três arquiteturas possíveis:
+
+**Arquitetura A — vulnerabilidade compartilhada.** Um fator upstream comum — genético, imunológico ou de desenvolvimento — predispõe uma pessoa a tanto PHDA quanto fadiga crónica de forma independente. A ocorrência conjunta é um artefato de seleção: a mesma vulnerabilidade gera ambos. A arquitetura genética das condições neurodesenvolvimentistas apoia isso: PHDA e autismo compartilham uma grande parte de suas influências genéticas [@Demontis2023GWASadhd @Grove2019GWASasd @CrossDisorderPGC2013].
+
+**Arquitetura B — cascata secundária.** O processo da doença — neuroinflamação, depleção dopaminérgica, disfunção autonômica — produz fenótipos neuropsiquiátricos semelhantes à PHDA em pessoas que, de outra forma, não teriam desenvolvido esses sintomas. A PHDA surge *devido à* doença, e não ao lado dela.
+
+**Arquitetura C — amplificação bidirecional.** Tanto a PHDA quanto a doença pioram uma à outra — interrupções do sono, depleção de energia e estresse se combinam num ciclo.
+
+As arquiteturas não são mutuamente exclusivas, e os dados temporais são importantes: quando a PHDA é documentada *antes* do início da fadiga — como nos estudos em que a PHDA na infância prevê fadiga crónica posterior [@SaezFrancas2012adhdcfs @Quadt2024neurodivergentfatigue] — a Arquitetura A ou C é sustentada. A Arquitetura B (PHDA adquirida *devido à* doença) aplica-se a um subgrupo de pacientes que desenvolvem desatenção de início novo após o início da doença — embora as evidências em nível populacional alertem que muita "desatenção de início novo" pode ser **revelação** de subclínica de neurodivergência pré-existente, e não uma verdadeira aquisição (ver limites abaixo).
+
+---
+
+## O mecanismo: interocepção perturbada e neuroinflamação
+
+Duas rotas propostas para características semelhantes à PHDA adquirida:
+
+**Interrupção da interocepção.** O cérebro mantém um equilíbrio entre as suas *previsões* sobre o corpo e as *evidências sensoriais* que o corpo envia de volta. Acredita-se que as características adquiridas envolvem *sinais de nível inferior corrompidos* — as vias do tronco cerebral e do talamo-cortical não conseguem transmitir informações precisas sobre o corpo. O cérebro compensa apertando os seus antecedentes, gerando uma aparência externa de desatenção e dificuldade na regulação da excitação. O local de processamento é diferente do PHDA de desenvolvimento, e assim deve ser a resposta ao tratamento.
+
+**Neuroinflamação e ativação das microglia.** A neuroinflamação sustentada que degrada os circuitos pré-frontal, mesolimbic e talamo-cortical pode ser *suficiente* para produzir características semelhantes à PHDA em pessoas cujo desenvolvimento neuropreventivo estava intacto — a especulação registada analisada na Parte 2. Se esta cascata é a causa imediata, então as intervenções que visam a neuroinflamação devem reverter parcialmente estas características secundárias — uma previsão testável e ainda não testada.
+
+---
+
+## O teste: dependência de contexto
+
+Como as duas vias diferem em *estabilidade*, podem ser distinguidas empiricamente:
+
+> Se a inatenção semelhante ao PHDA adquirido apresenta a **mesma estabilidade de características e independência de contexto** do PHDA desenvolvimental — permanecendo inalterada e não correlacionando com marcadores de neuroinflamação — o modelo adquirido não é sustentado.
+
+Em outras palavras: a inatenção desenvolvimental está sempre presente. A inatenção adquirida deve variar de acordo com o processo subjacente (inflamação, estado metabólico) e deve melhorar quando esse processo é tratado.
+
+---
+
+## Limites
+
+- O modelo adquirido é **explicitamente especulativo** — uma hipótese registada com baixa confiança — e uma explicação mais simples (inflamação causando diretamente tanto os sintomas quanto o processo subjacente) pode explicar os resultados sem qualquer quadro interoceptivo.
+- Nenhum dos componentes teóricos foi validado diretamente neste contexto.
+- A distinção entre adquirido e desenvolvido ainda não é útil no leito: atualmente não existe teste que separe os dois num paciente individual.
+- Mesmo que algumas características sejam adquiridas e reversíveis, isso não significa que “a PHDA pode ser curada”. Significa que um *subconjunto da carga de sintomas* em algumas pessoas pode responder ao tratamento da sua causa.
+- O facto de a PHDA em adultos geralmente começar na adolescência ou refletir sintomas da infância não atendidos, em vez de uma síndrome de início adulto claramente distinta [@Moffitt2015adhdadult @Sibley2018lateonsetADHD @Asherson2019lateonsetADHD], estabelece uma diferença entre os grupos de início, mas não prova por si só que esse grupo é *reversível* — apenas que não começou na infância.
+- **O maior teste em escala populacional não encontrou efeito impulsionado por infeção.** Uma coorte nacional de 20 anos não encontrou efeito independente do COVID-19 na diagnóstico ou taxas de tratamento da PHDA [@Zemer2024COVIDADHD20Year], e o aumento da utilização de medicamentos para PHDA após o COVID está consistente com diagnósticos de recuperação, e não com início novo [@Gimbach2024ADHDMedicationEurope]. Este é o contraponto mais forte à arquitetura “adquirida a partir da doença” (Arquitetura B): em escala populacional, a infeção não parece criar nova PHDA. a maioria das dificuldades de atenção pós-infeciosa reflete a **revelação** de neurodivergência ou sobreposição de sintomas pré-existentes (geralmente subclínicos), e não *de novo* aquisição — embora um subconjunto restrito de adquirido não possa ser excluído pelos dados populacionais.
+
+---
+
+## A consequência clínica — e o dano de interpretar erradamente
+
+A razão pela qual essa distinção é importante clinicamente:
+
+- **Se as características adquiridas forem consideradas "apenas PHDA"**, um processo subjacente tratável (inflamação, défice metabólico, sono perturbado) fica sem tratamento.
+- **Se as características desenvolvimentais forem tratadas como adquiridas e reversíveis**, os pacientes recebem tratamentos que não funcionarão e podem culpar a si mesmos quando não funcionam.
+- **A classificação errada também ocorre no sentido inverso**. Um padrão de "fader tardio" — névoa cognitiva pós-exercício que imita o tipo de PHDA de desatenção — pode ser interpretado como PHDA e desencadear avaliação de transtorno de atenção, quando a causa subjacente é energética (limitação de ATP) e não motivacional, e piora com esforço em vez de persistir constantemente. Ambas as direções do erro levam o paciente a seguir o caminho errado de tratamento.
+
+as características de PHDA-like adquiridas devem ser **sustentadas, não patologizadas** — e os fatores modificáveis subjacentes (sono, inflamação, ferro, energia) devem ser abordados independentemente da classificação, porque afetam o bem-estar geral mesmo quando o circuito desenvolvimental central permanece inalterado.
+
+---
+
+## O que levar para casa
+
+Algumas características semelhantes à PHDA — desatenção, impulsividade, dificuldade executiva — podem ser **adquiridas** após o desenvolvimento, em vez de serem incorporadas a partir dele. O facto de o PHDA em adultos geralmente não ser uma continuação direta do PHDA na infância [@Moffitt2015adhdadult @Sibley2018lateonsetADHD @Asherson2019lateonsetADHD] apoia essa possibilidade. Se tais características são adquiridas, elas devem ser **contexto-dependentes e potencialmente reversíveis** com o tratamento da causa subjacente: neuroinflamação, distúrbios metabólicos ou perturbações do sono.
+
+A parte encorajadora: isso significa que uma parte significativa da carga sintomática diária em algumas pessoas pode ser abordada sem a pretensão de "corrigir" a PHDA em si.
+
+esta é uma hipótese de baixa confiança, e o teste decisivo — mostrando que a desatenção adquirida varia com a inflamação subjacente, enquanto a desatenção desenvolvimental não varia — ainda não foi realizado.
+
+---
+
+*Isso encerra a série de quatro partes sobre a biologia do PHDA. A Parte 1 analisou o modelo de energia pré-frontal e a hipótese de tratamento multivias, a Parte 2 o aspecto imunológico e neuroinflamatório, a Parte 3 o eixo dopamina-Nrf2-NLRP3, e a Parte 4 a distinção entre características adquiridas e desenvolvidas. Consulte a [página de destino da série](../adhd-series-landing/index.qmd).*
+
+*Este artigo reflete hipóteses de pesquisa com baixa confiança explícita — não é um facto clínico estabelecido. Discuta qualquer decisão médica com um médico qualificado.*

@@ -1,0 +1,82 @@
+---
+title: "A Biologia da PHDA — uma Série"
+description: "A PHDA não é uma única condição. Quatro áreas biológicas independentes — energia pré-frontal, neuroinflamação impulsionada por imunidade, o eixo dopamina-Nrf2-NLRP3 e trajetórias adquiridas — podem contribuir cada uma para o fardo dos sintomas, e a abordagem futura pode envolver o tratamento de várias delas ao mesmo tempo. Esta é a página inicial de uma série que analisa cada área e a hipótese de tratamento multivias."
+author: "Yannick Loth"
+date: "2026-08-24"
+categories: [Neurodivergence, Series, Pathophysiology]
+lang: pt
+---
+
+A PHDA não é uma única condição.
+
+Uma suposição comum é que a condição tenha uma única causa e uma única explicação. Nossa pesquisa aponta para algo mais detalhado: **quatro estratégias biológicas distintas** podem estar por trás dos sintomas relacionados à PHDA — um déficit de energia no pré-frontal, um subgrupo neuroinflamatório impulsionado por imunidade, um eixo dopamina-Nrf2-NLRP3 e características adquiridas que não são de desenvolvimento. Pacientes diferentes provavelmente apresentam combinações diferentes dessas estratégias, e cada uma contribui para uma parte diferente da carga de sintomas diária.
+
+Esta série analisa cada estratégia em linguagem simples, e depois faz a pergunta à qual todas convergem: **é possível tratar várias vias ao mesmo tempo para eliminar ou reduzir os sintomas e permitir que o paciente tenha uma vida mais normal?**
+
+---
+
+## O que sabemos e o que a nossa pesquisa acrescenta
+
+Cada artigo desta série distingue claramente duas coisas:
+
+1. **O que sabemos** — descobertas científicas estabelecidas, citadas na literatura revisada por pares. Isso inclui a ciência bem estabelecida da PHDA — sua neurobiologia de dopamina [@Volkow2011adhddopamine], sua arquitetura genética e sobreposição com o autismo [@Demontis2023GWASadhd @Lai2019metaADHDasd], e seus tratamentos padrão — juntamente com os resultados transversais entre doenças (o hipometabolismo pré-frontal na PHDA [@Zametkin1990], a farmacologia de catecolaminas em forma de U invertida [@Arnsten2011catecholaminePFC] e a trajetória de início adulto debatida [@Moffitt2015adhdadult @Sibley2018lateonsetADHD @Asherson2019lateonsetADHD]).
+2. **O que a nossa pesquisa acrescenta** — as hipóteses que o nosso projeto de documentação desenvolveu ao atravessar fronteiras de doenças, e que ainda não estão estabelecidas: o modelo de convergência de energia pré-frontal, a hipótese de tratamento multivias, o enquadramento reversível adquirido e o eixo transversal entre doenças da dopamina-Nrf2-NLRP3.
+
+A distinção é importante porque os dois não representam a mesma confiança. "O que sabemos" são evidências; "o que a nossa pesquisa acrescenta" são hipóteses testáveis. A série os mantém separados para que não sejam confundidos com descobertas.
+
+Cada artigo segue a mesma estrutura:
+
+1. **O que é** — o mecanismo, em palavras simples.
+2. **A evidência** — o que o apoia e quão forte é essa evidência.
+3. **Os limites** — o que não afirma.
+4. **O experimento decisivo** — como a ideia pode ser confirmada ou refutada.
+
+---
+
+## Parte 1: PHDA como um Distúrbio de Energia do Córtex Prefrontal — e a Hipótese de Tratamento Multivias
+
+A série começa com a vertente mais desenvolvida: um córtex prefrontal que opera com um fornecimento de combustível fino. O córtex prefrontal é a região mais dispendiosa em energia no cérebro humano, por isso é a primeira a degradar em situações de escassez de energia. Cinco linhas independentes — falha no fluxo sanguíneo, hipometabolismo de glicose, esgotamento de creatina, défice de catecolaminas e um gradiente epidemiológico — convergem neste ponto único. A Parte 1 também apresenta a síntese da série: a hipótese de tratamento multivias e o que tratar vários mecanismos ao mesmo tempo pode significar.
+
+Leia o artigo:
+
+1. **[PHDA como um Distúrbio de Energia do Córtex Prefrontal: Cinco Linhas de Evidências, Um Mecanismo](../adhd-prefrontal-energy/index.qmd)** — o que é a PHDA por si só, as evidências cerebrovasculares, de glicose, creatina e catecolaminas, o gradiente epidemiológico, os limites, o experimento decisivo, a pergunta aberta lenta mas precisa e a hipótese de tratamento multivias.
+
+---
+
+## Parte 2: O Aspecto Imunológico e Neuroinflamatório da PHDA
+
+Nem toda PHDA tem a mesma causa. Uma crescente linha de evidências relaciona características semelhantes à PHDA a neuroinflamação crónica e ativação de microglia — um processo impulsionado por imunidade que pode esgotar a dopamina e degradar os mesmos circuitos préfrontais que a PHDA primária afeta durante o desenvolvimento. Se alguns sintomas semelhantes à PHDA são impulsionados pela inflamação, eles podem ser adquiridos, reversíveis e identificáveis.
+
+Leia o artigo:
+
+1. **[O Aspecto Imunológico e Neuroinflamatório da PHDA: Quando a Inflamação Define a Atenção](../adhd-immune-neuroinflammation/index.qmd)** — as evidências sobre microglia, a rota de esgotamento dopaminérgico, o sinal pró-inflamatório compartilhado, a ponte orexina-dopamina, a ponte quinurenina-dopamina, a hipótese de mesma raiz e os limites.
+
+---
+
+## Parte 3: O Eixo Dopamina-Nrf2-NLRP3
+
+Um terceiro eixo conecta a biologia da dopamina ao sistema de defesa antioxidante da célula e ao interruptor inflamatório central do sistema imunitário. Um baixo nível de dopamina prejudica as defesas antioxidantes impulsionadas pela Nrf2, o que, por sua vez, remove um freio na ativação do inflamassoma NLRP3 — e a inflamação resultante esgota ainda mais a dopamina, fechando um ciclo autoamplificador. Este eixo transversal entre doenças pode explicar por que pessoas com PHDA apresentam um limite mais baixo para a fadiga pós-infeciosa.
+
+Leia o artigo:
+
+1. **[O Eixo Dopamina-Nrf2-NLRP3: Um Ciclo Inflamatório por Trás da PHDA e da Fadiga](../adhd-dopamine-nrf2/index.qmd)** — a ligação dopamina-Nrf2, o freio Nrf2-NLRP3, o retorno de informação à síntese de dopamina, o gargalo BH4, a arquitetura genética própria da PHDA e sua sobreposição com o autismo, a cadeia mitocôndria-genética compartilhada (haplogrupo U, evidência de cybrid), e as previsões testáveis.
+
+---
+
+## Parte 4: Adquirido vs. Desenvolvimental — Quando características semelhantes à PHDA podem ser reversíveis
+
+A questão clinicamente relevante: as características semelhantes à PHDA estão necessariamente presentes desde o desenvolvimento, ou algumas podem ser *adquiridas* — e, portanto, reversíveis? Muita PHDA em adultos não é uma continuação direta da PHDA da infância — algumas têm início na adolescência, algumas refletem sintomas da infância não reconhecidos ou mal registrados, algumas são explicadas pelo uso de substâncias ou comorbidades — e a negligência adquirida após um gatilho imunológico pode ser reversível quando a sua causa é tratada. Diferenciar os dois determina se um sintoma pode responder ao tratamento da sua causa ou se é uma configuração estática.
+
+Leia o artigo:
+
+1. **[Adquirido vs. Desenvolvimental: Quando características semelhantes à PHDA podem ser reversíveis](../adhd-acquired-trajectories/index.qmd)** — a trajetória de início em adultos, a estrutura A/B/C, os caminhos interoceptivo e neuroinflamatório, e as consequências clínicas de errar na distinção.
+
+---
+
+## Sobre as evidências
+
+Cada artigo desta série distingue cuidadosamente o que é *confirmado* por evidências, o que é uma *hipótese promissora* e o que é a *experiência de um paciente individual*. A maior parte do conteúdo aqui pertence à hipótese — as certezas são explícitas, frequentemente limitadas, e nada é apresentado como facto clínico estabelecido ou recomendação de tratamento.
+
+A ciência subjacente é retirada do nosso projeto de documentação, que desenvolve estes modelos de energia e imunidade transversais entre doenças em detalhe. A abordagem específica para PHDA é a nossa leitura da literatura, escrita para funcionar independentemente para qualquer pessoa curiosa sobre a biologia.
+
+*Discuta qualquer decisão médica com um clínico qualificado.*

@@ -1,0 +1,84 @@
+---
+title: "Se você nasceu antes de 2015, não tem proteção contra o tipo de meningite que causou o surto no Reino Unido"
+description: "Ninguém que tenha nascido antes de setembro de 2015 não recebeu a vacinação regular contra o grupo B de meningococo — o serogrupo responsável pela maioria dos casos de meningite bacteriana na Europa — e isso inclui você e seus filhos, a menos que sejam muito jovens..."
+author: "Yannick Loth"
+date: "2026-03-06"
+categories: [Immunology, Public Health]
+lang: pt
+---
+
+Ninguém que cresceu antes de setembro de 2015 recebeu a vacinação regular contra o grupo B de meningocócico — o serogrupo responsável pela maioria dos casos de meningite bacteriana na Europa — e isso inclui você, seus filhos, a menos que sejam muito jovens, seus pais e seu médico. A maioria das pessoas não sabe disso, porque assume que as vacinas contra a meningite que eles ou seus filhos receberam a abrangem. Não abrangem: essas vacinas (MenC, posteriormente MenACWY) abrangem os serogrupos A, C, W e Y, mas não B.
+
+Esta semana, duas pessoas morreram e vinte casos — nove confirmados em laboratório — foram reportados num surto de MenB em Canterbury, Kent, relacionado a um clube noturno e à Universidade de Kent[@UKHSA2026meningitisKent; @LBC2026meningitisKent]. A propagação foi descrita como “explosiva” e “sem precedentes” pelos funcionários de saúde, e o surto foi declarado um incidente nacional depois que um caso relacionado foi identificado fora de Kent. Os estudantes afetados têm entre 18 e 24 anos — nascidos diretamente na década anterior à existência da vacina MenB — mas a vulnerabilidade não é de geração em sentido significativo. Todos os adultos vivos hoje têm o mesmo status de vacinação contra MenB: nenhum.
+
+Se você acha isso alarmante — e deve — compartilhe este artigo com sua autoridade local de saúde, seu parlamentar ou representante eleito, seu ministério da saúde nacional. A vacina existe. As evidências estão disponíveis. O que falta é a decisão política de usá-la além dos bebês.
+
+A razão pela qual essa lacuna existe em primeiro lugar — e por que levaram trinta anos a mais para desenvolver uma vacina contra MenB do que uma vacina contra MenC — é uma das histórias mais interessantes da vacinologia moderna.
+
+## O problema da cápsula
+
+A maioria das vacinas bacterianas funciona treinando o sistema imunitário para reconhecer a cobertura de açúcar — a cápsula polissacarídica — que envolve o bactério. As vacinas contra os serogrupos A, C, W e Y de meningocócico foram desenvolvidas dessa maneira: os pesquisadores isolaram a cápsula, apresentaram-na ao sistema imunitário e funcionou. A vacina MenC chegou ao Reino Unido em 1999, e as vacinas conjugadas MenACWY seguiram.
+
+O grupo B de meningocócico foi uma exceção. Sua cápsula polissacarídica é feita de ácido polisialico — uma molécula estruturalmente quase idêntica às moléculas encontradas na superfície dos neurônios humanos, especialmente durante o desenvolvimento cerebral fetal. Se você criasse uma vacina que ensinasse o sistema imunitário a atacar a cápsula do MenB, arriscaria ensiná-lo a atacar o próprio sistema nervoso do corpo. A abordagem tradicional não era apenas ineficaz — era potencialmente perigosa.
+
+Isso não foi um fracasso de esforço. Os pesquisadores compreenderam claramente o problema na década de 1980 e passaram as próximas duas décadas tentando resolvê-lo. O MenB era a causa mais comum de meningite bacteriana na Europa e a segunda mais comum na América do Norte, matando e incapacitando milhares de jovens a cada ano, e simplesmente não havia maneira de vacinar contra ele.
+
+## Vacunologia inversa: sequenciamento para a criação de uma vacina
+
+O avanço veio de uma direção completamente diferente. Em 2000, Rino Rappuoli e sua equipa na então Chiron (mais tarde Novartis, agora GSK) decidiram ignorar completamente a cápsula. Em vez disso, sequenciaram o genoma completo de uma estirpe MenB[@Pizza2000menB] e identificaram computacionalmente cada proteína que a bactéria poderia exibir na superfície — 570 candidatos no total —, depois expressaram cada uma em laboratório, testaram quais provocavam anticorpos bactericidas e reduziram a lista para um punhado de alvos que funcionavam em várias estirpes MenB.
+
+O resultado foi Bexsero (4CMenB), que visa quatro proteínas da superfície: a proteína de ligação ao fator H (fHbp), o Antígeno de Ligação ao Heparina de Neisseria (NHBA), a Adhesina de Neisseria A (NadA) e uma vesícula de membrana externa contendo o porin PorA de uma estirpe epidémica da Nova Zelândia. Nenhuma delas é a cápsula; todas são proteínas que a bactéria precisa para sobreviver no sangue e invadir tecidos, portanto a vacina atinge as armas da bactéria, não sua armadura.
+
+Esta abordagem baseada no genoma — chamada “vacunologia inversa” porque começa a partir da sequência de DNA e não da superfície do patógeno — foi verdadeiramente nova, e Bexsero foi o primeiro exemplo de prova de conceito[@Rappuoli2000reverseVaccinology]. A equipa de Rappuoli publicou o método em 2000; a abordagem foi aplicada posteriormente ao Streptococcus do Grupo B e ao *Staphylococcus aureus*, e a lógica subjacente contribuiu para a rapidez no desenvolvimento da vacina contra a COVID-19 vinte anos depois.
+
+## Treze anos do genoma à aprovação
+
+Mesmo com o avanço, o progresso foi lento segundo padrões pandémicos: o genoma foi sequenciado em 2000, Bexsero recebeu aprovação da Agência Europeia de Medicamentos em janeiro de 2013 e o Reino Unido — o primeiro país do mundo a adicioná-lo a um calendário nacional de imunização rotineiro — só começou o programa para bebês em setembro de 2015.
+
+Os resultados desde então foram significativos. Dados reais do Reino Unido mostram 83% de eficácia da vacina contra qualquer estirpe MenB, 94% contra estirpes que podem ser prevenidas por vacinação e uma redução de 75% nos casos de MenB em crianças elegíveis para vacina desde o início do programa[@Ladhani2020menB4CMenB]. Mais de três milhões de doses foram administradas sem preocupações de segurança adicionais além das reações esperadas (febre, reações no local da injeção).
+
+Mas o programa abrange apenas bebês. No Reino Unido, o calendário é de duas doses aos 8 e 16 semanas de idade, com um reforço aos 12 meses. Isso significa que a proteção se estende a crianças nascidas a partir de setembro de 2015. Todos os outros — todos os adultos, todos os adolescentes, todas as crianças nascidas antes dessa data — nunca receberam vacinação contra MenB rotineiramente.
+
+## A lacuna não é geracional — é universal
+
+É tentador descrever isso como uma lacuna geracional, já que a epidemia de Kent afeta estudantes universitários — pessoas entre 18 e 24 anos nascidas entre 2001 e 2007, justamente na faixa de tempo em que a vacinação contra MenB ainda não existia. Mas a lacuna é muito maior do que isso. Nenhum adulto vivo hoje recebeu vacinação rotineira contra MenB quando era criança, porque não havia vacina contra MenB para dar. Um homem de 40 anos e um homem de 20 anos têm o mesmo status de vacinação contra MenB: nenhum.
+
+A razão pela qual idosos geralmente não desenvolvem doença meningocócica na mesma taxa que adolescentes não se deve à vacinação, mas à imunidade natural adquirida através de carregamento assintomático. Cerca de 10% da população adulta carrega *Neisseria meningitidis* no nasofaringe a qualquer momento sem adoecer, e esse carregamento gera anticorpos ao longo de anos de exposição.
+
+Mas aqui está o ponto que a política de saúde pública tende a errar: o pico de risco em adolescentes não está fundamentalmente relacionado com a idade. Está relacionado com o comportamento. Estudantes recém-formados, multidões em clubes noturnos, dormitórios compartilhados, beijos, distribuição de bebidas — estas são as condições de transmissão que causam surtos, e o cluster de Kent é um exemplo clássico: clube de música Club Chemistry, salas da Universidade de Kent. Um homem de 35 anos que frequenta locais de vida noturna lotada tem mais risco de exposição a meningococo do que um jovem de 19 anos que fica em casa. Enquadrar a política de vacinação em faixas etárias — bebês são vacinados, todos os outros não — ignora completamente isso.
+
+O que contribui é o ponto de partida imunológico. Adolescentes e jovens adultos ainda não acumularam anos suficientes de carregamento assintomático para construir uma imunidade natural robusta, portanto, quando entram em ambientes de alta exposição, estão tanto mais expostos quanto menos protegidos. Mas o lado da exposição dessa equação aplica-se a qualquer pessoa cujo comportamento social os coloca em ambientes de contacto próximo — independentemente da idade e independentemente de a política de saúde os considerar um grupo-alvo.
+
+Essa imunidade baseada no carregamento natural também é variável: depende dos estirpes que você carrega e pode ser insuficiente contra novas variantes. Para qualquer pessoa com um sistema imunitário comprometido — incluindo os milhões de pessoas que vivem com condições pós-infecciosas como EM/SFC e Long COVID — a suposição de que o carregamento assintomático fornece proteção adequada pode não ser válida.
+
+## O que Bexsero abrange e não abrange
+
+Mesmo Bexsero não é uma solução completa. Como ataca proteínas de superfície específicas em vez da cápsula, sua eficácia depende de se uma determinada estirpe MenB expressa suficientes dessas proteínas para que os anticorpos induzidos pela vacina a reconheçam[@Parikh2016menBcoverage]. A cobertura varia significativamente dependendo da linhagem da estirpe[@Vogel2013menBcoverage; @Hong2018menBsurveillance]:
+
+- Complexo clonal cc41/44: ~94% de cobertura
+- Complexo clonal cc32: ~96% de cobertura
+- Complexo clonal cc269: em declínio — de 73% em 2007–08 para 53% em 2014–15
+
+A estirpe do surto de Kent foi confirmada como MenB, mas o complexo clonal específico ainda não foi identificado publicamente. O professor Andrew Pollard do Oxford Vaccine Group observou em resposta ao surto que “a primeira questão sobre a vacinação é se esta estirpe B está coberta pela vacina, pois isso nem sempre acontece.”[@SMC2026meningitisKent]
+
+Existe uma segunda vacina de MenB: Trumenba (Pfizer), que ataca duas variantes da proteína de ligação do fator H e tem uma cobertura específica para MenB maior (90% em comparação com 67% do Bexsero). Foi aprovada pela EMA em 2017 e está tecnicamente licenciada em todos os estados membros da UE, mas, na prática, é muito mais difícil de obter do que Bexsero na maioria dos países europeus — farmácias raramente o têm em estoque, nenhum país o inclui num calendário de rotina e geralmente precisa ser encomendado especialmente por um médico. Nos EUA, onde Trumenba faz parte do calendário de rotina de adolescentes, custa aproximadamente $200–230 por dose. As duas vacinas são complementares e não substituíveis: a UKHSA usou Trumenba pela primeira vez em 2023 para controlar um surto numa creche onde a estirpe foi mal coberta pelo Bexsero[@Willerton2026menBoutbreak], demonstrando que cada vacina atinge estirpes que a outra não. Juntas, elas cobririam cerca de 95% das estirpes de MenB em circulação — e, por extensão, uma proporção similar de casos — mas nenhum país usa ambas rotineiramente.
+
+## O que isso significa na prática
+
+Se você é um adulto na Europa, é quase certamente não vacinado contra o tipo de meningite que causou o surto no Reino Unido. Você pode ter recebido a vacina MenC (introduzida no Reino Unido em 1999, posteriormente em outros lugares) ou MenACWY (adicionada a muitos calendários europeus a partir de 2015), mas nenhuma delas cobre o grupo serogênico B.
+
+A situação na Europa Ocidental é notavelmente uniforme nesse aspecto. O Reino Unido e a Irlanda incluem o MenB nos seus calendários de vacinação de bebês, e a Itália também faz o mesmo — mas a França, a Alemanha, a Bélgica e o Luxemburgo não fazem. O STIKO da Alemanha recomenda a Bexsero apenas para grupos de alto risco definidos (deficiência de complemento, asplenia). O conselho de orientação à vacinação da França não recomendou sua inclusão rotineira. O Conselho de Saúde Superior da Bélgica adota uma abordagem intermediária, recomendando decisões individualizadas em consulta com um médico, mas sem adicioná-la ao calendário rotineiro. O Luxemburgo segue o mesmo método não rotineiro[@ECDC2026vaccineScheduler; @Findlow2019menBstrategies]. Em termos práticos, isso significa que em todo o Benelux, França e Alemanha — cerca de 200 milhões de pessoas — ninguém é vacinado contra o MenB rotineiramente, a menos que procure e pague por ele por conta própria.
+
+A Bexsero foi aprovada pela EMA desde janeiro de 2013 e está licenciada em todos os estados membros da UE. Diferentemente da Trumenba, é amplamente disponível em farmácias e fácil de obter por receita médica — qualquer médico pode prescrevê-la. Na Bélgica, o custo é de aproximadamente €80–90 por dose, sendo necessárias duas doses com pelo menos um mês de intervalo (geralmente administradas aos 0 e 2 meses de idade). No Reino Unido, pode ser comprada individualmente por cerca de £100 por dose. Parte da razão para o preço mais alto em comparação com vacinas meningocócicas mais antigas é a complexidade da produção: vacinas polissacarídicas-conjugadas tradicionais como MenACWY envolvem o cultivo da bactéria e a extração de sua cápsula, o que é relativamente simples. A Bexsero requer a produção de quatro proteínas recomburentas separadas, além de vesículas da membrana externa de um estirme de referência específico, cada uma com seu próprio sistema de expressão, purificação e controle de qualidade — um processo fundamentalmente mais complexo que reflete a dificuldade científica do problema que foi projetado para resolver.
+
+Para quem está considerando a vacinação — seja por causa do surto em Kent, viagens futuras ao Reino Unido ou simplesmente porque acabou de saber que não tem proteção contra o MenB — o cronograma é importante entender. As respostas de anticorpos atingem o pico cerca de duas a quatro semanas após cada dose. Após a primeira dose, os níveis de anticorpos seroprotecionais são alcançados por cerca de 60–80% dos adultos num mês, dependendo do antígeno medido. Após a segunda dose, esse número sobe para 85–95%. Portanto, a proteção não é imediata, mas se constrói significativamente em semanas: alguém que recebe a primeira dose hoje e a segunda um mês depois teria imunidade completa após cerca de seis a oito semanas. A implementação de emergência em Kent está fornecendo doses individuais exatamente porque a proteção parcial em semanas é melhor do que esperar meses por uma série completa enquanto o surto está ativo.
+
+Após o surto em Kent [@DHSC2026meningitisStatement], o Secretário de Estado da Saúde do Reino Unido pediu ao JCVI (Comitê Conjunto de Vacinação e Imunização) que reexamine a elegibilidade para vacinas contra a meningite de forma mais ampla. Se isso levar à expansão da vacinação rotineira contra MenB para além dos bebés — e se outros países europeus seguirão o mesmo caminho — ainda está por ser visto.
+
+## A lição de trinta anos
+
+Desde a década de 1980, quando o problema da mimetização da cápsula foi claramente compreendido, até 2013, quando a Bexsero foi finalmente aprovada, passaram três décadas em que a forma mais comum de meningite na Europa não tinha vacina. A revolução que encerrou essa lacuna — a vacinologia inversa — não veio da melhoria incremental da abordagem antiga. Veio do abandono total da abordagem antiga e do início a partir do genoma.
+
+Essa mudança metodológica — de isolar a química de superfície para ler diretamente o genoma — foi aplicada posteriormente ao Streptococcus do Grupo B, *Staphylococcus aureus*, e contribuiu para o rápido desenvolvimento das vacinas contra a COVID-19 vinte anos depois. No entanto, a consequência prática do atraso original de trinta anos é algo que o surto em Kent trouxe de volta à tona: todos os adultos vivos hoje cresceram sem proteção contra MenB, e a maioria não sabe disso. Duas pessoas morreram e vinte casos foram relatados porque uma bactéria encontrou uma população não vacinada num ambiente social de alto contacto.
+
+O Reino Unido está agora reexaminando a elegibilidade através do JCVI. O resto da Europa não deve esperar por seu próprio surto para fazer o mesmo. A vacina está disponível há mais de uma década, com dados de eficácia no mundo real de milhões de doses no Reino Unido, e o custo da inação é medido em mortes evitáveis e deficiência vital para toda a vida. Os ministérios da saúde em toda a UE — na França, Alemanha, Bélgica, Países Baixos e além — têm as evidências necessárias para expandir a vacinação contra MenB para além da infância. A questão neste momento não é se a ciência apoia isso, mas quantos surtos ainda serão necessários antes que a política alcance esse objetivo.

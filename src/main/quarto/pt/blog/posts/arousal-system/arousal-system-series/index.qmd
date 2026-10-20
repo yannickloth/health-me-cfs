@@ -1,0 +1,26 @@
+---
+title: "O Sistema de Excitação: uma série de blogue sobre noradrenalina na EM/SFC"
+description: "A noradrenalina é normalmente chamada de substância química que mantém o cérebro alerta. Em EM/SFC, ela pode desempenhar um papel mais estrutural — e as evidências são tanto promissoras quanto escassas."
+author: "Yannick Loth"
+date: "2026-09-14"
+categories: [Arousal system, Noradrenergic, Mechanisms]
+lang: pt
+---
+
+Esta série analisa um dos mais recentes temas na pesquisa EM/SFC: um **defeito seletivo da noradrenalina central** — o principal transmissor de excitação do cérebro — e o que isso pode explicar.
+
+Não é uma promessa. A constatação principal provém de um único estudo pequeno e não foi replicada. Mas conecta vários sintomas relatados pelos pacientes — intolerância ao esforço, sono insatisfatório, “estimulado, mas cansado” — a um sistema mensurável, e faz previsões testáveis.
+
+**As partes:**
+
+1. [A noradrenalina não é um combustível — é um regulador](../what-norepinephrine-really-does/)
+2. [Por que a EM/SFC pode ter baixo nível de noradrenalina, mas normalidade de dopamina](../selective-norepinephrine-deficit/)
+3. [O ciclo que pode manter a EM/SFC ativa](../the-loop-that-keeps-itself-going/)
+4. [O que um “medicamento de noradrenalina” pode e não pode fazer](../what-a-norepinephrine-drug-can-and-cannot-do/)
+5. [Estimulado, mas cansado: excitação que não desliga](../arousal-that-wont-switch-off/)
+6. [Uma alavanca sem comprimido: o vago e o locus coeruleus](../the-vagus-norepinephrine-lever/)
+7. [Pupilas, aperto e uma proporção de urina: testando o sistema sem punção lombar](../testing-the-axis-without-a-lumbar-puncture/)
+8. [Não, ainda não é ácido lático — mas a noradrenalina faz parte da história do combustível](../not-lactic-acid-norepinephrine-and-fuel/)
+9. [O triângulo da noradrenalina: narcolepsia, POTS e EM/SFC](../the-norepinephrine-triangle/)
+
+*Uma advertência que permeia toda a série: a constatação central se baseia num grupo de 16 pacientes não replicado (@Aregawi2026Noradrenergic). Tudo o que vem depois é uma hipótese construída sobre isso.*

@@ -1,0 +1,36 @@
+---
+title: "Corpo de Diagnóstico Farmacológico — uma Série"
+description: "A EM/SFC não possui biomarcadores validados, por isso os pacientes inferem sua própria biologia a partir dos medicamentos que ajudam e dos medicamentos que não funcionam. Esta série levanta uma pergunta mais específica: se esses relatórios de medicamentos fossem coletados de forma compartilhável, seria possível identificar, por meio do padrão compartilhado, quais vias biológicas estão mais provavelmente danificadas? Três artigos: a ideia, o design e os limites."
+author: "Yannick Loth"
+date: "2026-09-10"
+categories: [ME/CFS, Treatment, Methods, Series]
+lang: pt
+---
+
+Não existe biomarcador validado para EM/SFC [@IOM2015]. Não há exame de sangue que indique qual via está danificada, nem exame que mostre qual mecanismo está causando os seus sintomas. Na ausência de algo assim, os pacientes fazem a única coisa disponível para eles: tentam diferentes tratamentos. Uma baixa dose de naltrexona aqui, um estimulante ali, um anti-histamínico, um suplemento de mitocôndria, um beta-bloqueador. Algumas dessas opções ajudam. Outras não fazem nada. Algumas ajudam por um tempo e depois param.
+
+A maior parte dessa experiência é descartada como anedota. Vive em tópicos de fóruns, em notas clínicas, em histórias meio lembradas — não estruturadas, não quantificadas, na sua maioria reduzidas a um único ponto: *ajudou* ou *não ajudou*. Esta série argumenta que isso é um desperdício e que esse desperdício pode ser evitado.
+
+O documento principal por trás deste site contém um framework chamado **farmacodiagnóstico** — interpretar a resposta a um medicamento como uma sonda diagnóstica, e não apenas como tratamento. A história de medicamentos de um único paciente é um conjunto de restrições sobre quais mecanismos estão ativos. Esse framework já foi desenvolvido para um paciente de cada vez. Esta série o estende à população: se centenas de pacientes tentaram algumas drogas e os relatórios foram coletados de uma forma que possa ser combinada, o conjunto combinado pode se tornar um instrumento para classificar as **candidas** vias limitantes nos sintomas de EM/SFC.
+
+Não é um teste de biomarcador, mas é o instrumento *proposto* mais próximo que uma doença sem biomarcador poderia ter — com limites rígidos, esta série não esconde isso.
+
+---
+
+## Os artigos
+
+1. **[Os seus Tratamentos Fracassados São Dados](./your-failed-treatments-are-data/index.qmd)** — a ideia central. Um único ensaio de medicamento é uma restrição, não uma anedota. Ao serem agrupados entre pacientes, o padrão do que funciona e do que falha — na dose e durante quanto tempo — pode classificar as vias de tratamento envolvidas na doença. E a parte contra-intuitiva: os *fracassos* podem transmitir mais sinal do que os sucessos.
+
+2. **[O Corpus que Lê o seu Armário de Medicamentos](./the-corpus-that-reads-your-medicine-cabinet/index.qmd)** — o design. O que um relatório agrupável deve conter, por que "LDN me ajudou" se torna inútil e como centenas de ensaios de paciente único não coordenados se transformam num problema de satisfação de restrições em nível de população.
+
+3. **[O que um Montão de Relatórios de Medicamentos Pode e Não Pode Dizer a Você](./what-a-pile-of-drug-reports-cannot-tell-you/index.qmd)** — o ponto chave. O corpus pode classificar hipóteses. Não pode confirmá-las. Seus limites são reais: o placebo, a pessoa que recebe o que é prescrito, a pessoa que se voluntaria a relatar e — o modo de fracasso que é mais importante — o entusiasmo da comunidade. Se o sinal reflete o quanto um medicamento é discutido online em vez do que ele faz biologicamente, toda a proposta deve ser abandonada.
+
+---
+
+## Onde se enquadra
+
+Esta série é um complemento em escala populacional à **[série dose-resposta](../treatment/more-isnt-better-ldn-lda/index.qmd)** e ao **[histórico de medicação do paciente](../treatment/dose-is-diagnostic-ldn/index.qmd)**. A série dose-resposta trata de interpretar a curva de um paciente. Esta série, por sua vez, trata de interpretar as curvas de vários pacientes ao mesmo tempo.
+
+O mecanismo, o método de agregação e os limites estão detalhados em detalhe no capítulo *Referência de Resposta à Medicação* do documento principal. Esta série foi criada para ser lida sem esse material.
+
+*Não é aconselhamento médico. O corpus descrito aqui ainda não existe; é uma proposta de pesquisa. Ninguém deve iniciar, interromper ou alterar um tratamento com base numa classificação coletiva da comunidade. Consulte o artigo 3 para saber por que essa advertência faz parte da proposta, e não é uma formalidade.*

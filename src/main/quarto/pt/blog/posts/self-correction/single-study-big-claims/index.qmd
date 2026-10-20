@@ -1,0 +1,20 @@
+---
+title: "Estudo único, afirmações grandiosas: por que n=16 é importante"
+description: "A constatação da noradrenalina que sustenta todo um fio de investigação provém de 16 pacientes num centro. Eis o que isso significa."
+author: "Yannick Loth"
+date: "2026-09-26"
+categories: [Self-correction, Metascience, Research]
+lang: pt
+---
+
+O mais interessante tópico recente na EM/SFC — um défice seletivo de noradrenalina central — vem de um estudo com **16 pacientes, num único centro, utilizando uma nova medida composta**, e não foi replicado de forma independente (@Aregawi2026Noradrenergic).
+
+Isso não torna o estudo errado. Torna-o *provisório*, e muda a maneira como cada afirmação subsequente deve ser interpretada.
+
+**O que um pequeno estudo de um único centro pode fazer:** gerar uma hipótese limpa e testável; produzir um padrão impressionante (noradrenalina reduzida, dopamina estatisticamente indistinguível dos controles) que é difícil de descartar como mera coincidência, embora possa ser parcialmente um artefato do novo índice; e estabelecer uma agenda.
+
+**O que não pode fazer:** estabelecer um mecanismo de doença, provar causalidade ou apoiar afirmações de tratamento confiantes. Um novo índice composto ainda não foi validado contra outras coortes; um único centro apresenta riscos de método compartilhado e população compartilhada; e a descondicionamento físico pode reduzir a noradrenalina sem causar sintomas — um conflito que não foi eliminado.
+
+**Por que ainda escrevemos sobre isso.** Porque uma hipótese que é específica, mensurável e falsificável é valiosa mesmo quando as evidências são escasas — desde que a escassez seja mencionada sempre. Em nosso artigo, os tipos de ambiente (especulação, hipótese) carregam valores de certeza, e os tópicos noradrenérgicos são principalmente de 0,25–0,40.
+
+**A conclusão:** “pode haver um défice seletivo de noradrenalina na EM/SFC, e se for replicado, ligará a intolerância ao esforço, sono insatisfatório e um problema de clearance.” A cláusula “se for replicado” é a parte crucial.

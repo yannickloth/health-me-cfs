@@ -1,0 +1,62 @@
+---
+title: "O surto de meningite no Reino Unido e EM/SFC: por que os pacientes com disfunção imunológica devem prestar atenção"
+description: "Duas pessoas morreram e vinte casos foram reportados num surto de meningococo grupo B centrado em Canterbury, Kent. O surto está relacionado a um clube noturno e à Universidade de Kent, e o UKHSA está distribuindo antibióticos e vacinas Bexsero direcionadas..."
+author: "Yannick Loth"
+date: "2026-03-05"
+categories: [Immunology, Public Health]
+lang: pt
+---
+
+Duas pessoas morreram e vinte casos foram relatados num surto de meningocócico grupo B centrado em Canterbury, Kent. O surto está relacionado com um clube noturno e a Universidade de Kent, e a UKHSA está a distribuir antibióticos e vacinação direcionada com Bexsero para conter o problema.
+
+Para o público em geral na Europa continental, isso ainda não é motivo de alarme. Mas se você tem EM/SFC — ou cuidar de alguém que tenha — a biologia desta situação merece uma análise mais detalhada.
+
+## Pacientes com EM/SFC apresentam desregulação imunitária documentada
+
+As vulnerabilidades imunitárias aqui estão bem estabelecidas na literatura revisada por pares, e não são teóricas. Comece com **células NK** — células killer naturais, parte do arsenal de resposta rápida do sistema imunitário inato. Em pacientes com EM/SFC, a citotoxicidade das células NK é consistentemente reduzida, um dos resultados mais replicados no campo, documentado desde Caligiuri et al. em 1987 [@Caligiuri1987nk] e confirmado em dezenas de estudos desde então; estas células contribuem para a contenção precoce de patógenos através da ativação de macrófagos e neutrófilos mediada por citocinas. Depois há **exaustão de linfócitos T**: um estudo marcante de 2024 do laboratório Hanson da Cornell (Iu et al., PNAS) [@iu2024tcell_exhaustion] demonstrou que os linfócitos T CD8+ em pacientes com EM/SFC mostram reprogramação epigenética em direção à exaustão — marcadores elevados de SLAMF6, SLAMF7, EOMES e TOX — o que não é fadiga de ativação temporária, mas um estado programado que reduz permanentemente a capacidade do sistema imunitário adaptativo de combater infeções. Finalmente, **consumo de complemento**: pacientes com EM/SFC mostram ativação contínua de complemento — Sorensen et al. (2003) [@Sorensen2003complement] encontraram produtos divididos C4a elevados indicando consumo da via clássica, e Glass et al. (2025) [@Glass2025ev] confirmaram desregulação mais ampla do complemento após exercício. A deficiência terminal de complemento é o único fator de risco individual mais forte para doenças meningocócicas invasivas recorrentes. O fenótipo de complemento em pacientes com EM/SFC não é deficiência genética terminal, mas o consumo contínuo de componentes de complemento também não é normal, e qualquer redução na disponibilidade de complemento é importante, pois o complemento é crítico para a eliminação de patógenos.
+
+## O problema da barreira hematoencefálica
+
+A meningite funciona ao atravessar a barreira hematoencefálica (BBB) para infectar o cérebro e as membranas que o rodeiam — toda a doença depende da quebra desta estrutura [@Pinas2022glymphatic]. Pacientes com EM/SFC mostram evidências de que a sua BBB já está sob estresse: razões elevadas de líquido cefalorraquidiano/albumina sérica indicando permeabilidade aumentada, marcadores inflamatórios periféricos que aparecem no líquido cefalorraquidiano e neuroinflamação contínua com ativação de microglia [@wallis2022atg13]. Mastócitos meníngeos, recentemente envolvidos na regulação da dinâmica do líquido cefalorraquidiano, podem amplificar ainda mais esta vulnerabilidade [@Christodoulides2024meningitis].
+
+Isso cria o que chamo de "vulnerabilidade dupla": um patógeno que ataca especificamente uma estrutura já enfraquecida pela doença subjacente. As bactérias podem ter um caminho mais fácil para entrar, e o sistema imunitário pode ser mais lento para detê-las.
+
+## A meningite pode desencadear ou agravar EM/SFC
+
+O risco não se limita à infeção aguda. Dois estudos recentes descobriram que 31–34% dos sobreviventes de meningite relatam fadiga persistente no acompanhamento, independentemente da gravidade da doença aguda (Schwitter 2024 [@Schwitter2024meningitis], Ungureanu 2021 [@Ungureanu2021meningitis]); um estudo anterior (Hotopf et al., 1996 [@Hotopf1996meningitis]) documentou de forma semelhante fadiga crónica após meningite viral. De forma ainda mais impressionante, Ungureanu et al. [@Ungureanu2021meningitis] descobriram que 53% dos pacientes após meningite relataram “exaustão rápida após esforço cognitivo” — um sintoma que se sobrepõe significativamente à componente cognitiva do mal-estar pós-esforço, que é a característica marcante da EM/SFC.
+
+Para quem já tem EM/SFC, uma infeção grave como a meningite representa um grande risco de declínio funcional permanente. O modelo “ratchet de infeção” — em consonância com os dados da síndrome da fadiga da febre Q, que mostram 98,9% dos pacientes ainda sofrendo PEM após 10 anos (Spronk et al., 2023 [@Spronk2023qfever]), e com o padrão mais amplo de síndromes de fadiga pós-infecciosa que se tornam duradouras uma vez estabelecidas — sugere que cada infeção significativa arrisca uma queda progressiva e potencialmente irreversível no funcionamento base.
+
+## A boa notícia: a vacinação é segura e eficaz para pacientes com EM/SFC
+
+Dados em nível populacional da Noruega (Magnus et al., 2015 [@Magnus2015influenza]) mostraram que a infeção real de gripe dobrou o risco de desenvolver EM/SFC (razão de risco: 2,04), enquanto a vacina pandêmica adjuvante mostrou zero aumento de risco (razão de risco: 0,97). Um estudo norueguês separado (Magnus et al., 2009 [@Magnus2009meningococcal]) não encontrou associação entre a vacina meningocócica B OMV (MenBvac, não Bexsero) e EM (OR ajustado: 1,06). O único estudo que mede diretamente a imunogenicidade da vacina em pacientes com EM (Prinsen et al., 2012 [@Prinsen2012vaccine]) descobriu que os pacientes desenvolveram respostas de anticorpos idênticas aos controles saudáveis.
+
+Em outras palavras: a vacinação protege contra o que desencadeia o agravamento da doença, sem adicionar qualquer risco. Para pacientes com EM/SFC, essa assimetria é o cerne da questão.
+
+## Uma complicação: o que o COVID pode ter feito com a memória imunológica
+
+Houve muita discussão sobre se o COVID-19 “reinicia” o sistema imunitário — se uma infeção por SARS-CoV-2 pode eliminar a imunidade que se construiu através de vacinas ou infeções anteriores, da mesma forma que o sarampo faz. A imagem que emerge das pesquisas é mais complexa do que as manchetes sugerem, e isso é importante aqui.
+
+Primeiro, o aspecto reconfortante: o COVID não parece causar amnésia imunológica semelhante à do sarampo. Estudos que rastrearam anticorpos pré-existentes contra difteria, tétano e coqueluche descobriram que os títulos permaneceram estáveis após a infeção por COVID-19. Em outras palavras, as vacinas de infância provavelmente ainda funcionam.
+
+Mas o COVID causa danos imunológicos mensuráveis por outros mecanismos. A linfopenia persistente — baixos níveis crónicos de linfócitos — afeta 7–12% das pessoas que tiveram COVID moderado a grave (Phetsouphanh et al., 2022 [@Phetsouphanh2022immuneDysfunction]). Marcadores de exaustão de linfócitos T (PD-1, TIM-3, CTLA-4) permanecem elevados muito depois que a infeção aguda resolve, e um estudo com 190 participantes descobriu que pacientes com Long COVID e EM/SFC têm perfis imunológicos comparáveis: linfócitos mais baixos, linfócitos CD8+ mais baixos, células NK mais baixos e citocinas inflamatórias mais altas (Rohrhofer et al., 2024 [@Rohrhofer2024stratification]). A desregulação persistente do complemento — consumo contínuo de componentes do complemento — foi confirmada em pacientes com Long COVID por um artigo de *Science* de 2024 (Klein et al. [@Klein2024longcovid]).
+
+O que isso significa para a proteção contra vacinas no futuro? Ninguém estudou isso diretamente em pacientes com EM/SFC, e isso é uma lacuna significativa. Mas a preocupação é esta: se você já teve disfunção imunológica em EM/SFC — redução de células NK, linfócitos T esgotados, consumo de complemento — e depois a COVID causou danos imunológicos adicionais, pode não responder às novas vacinas tão bem quanto o estudo de Prinsen de 2012 (que antecede a COVID numa década) previria. Se pacientes com EM/SFC que tiveram COVID precisam de doses de reforço adicionais ou devem monitorar seus títulos de anticorpos após a vacinação, são questões que ainda não têm respostas, mas provavelmente deveriam ter.
+
+## O que o Bexsero realmente abrange?
+
+Bexsero (4CMenB) é a vacina utilizada em Kent. Ela atinge quatro antígenos na superfície do meningococo B: fHbp, NHBA, NadA e PorA. Dados reais no Reino Unido mostram 83% de eficácia contra qualquer estirpe de MenB e 94% contra estirpes que podem ser prevenidas por vacinação (Ladhani et al. 2020 [@Ladhani2020menB4CMenB], dados GSK); desde que o programa infantil do NHS começou em 2015, os casos de MenB em crianças elegíveis para vacinação diminuíram 75%.
+
+No entanto — e isso é importante — o Bexsero não abrange todas as estirpes de MenB da mesma forma. A cobertura varia de acordo com o complexo clonal: excelente para cc41/44 (~94%) e cc32 (~96%), mas diminui para cc269 (para 53%). O complexo clonal específico da estirpe do surto em Kent ainda não foi identificado publicamente, e o Prof. Andrew Pollard (Oxford) observou que “a primeira pergunta sobre vacinação é se esta estirpe de B está coberta pela vacina, pois isso nem sempre acontece”. Outra vacina de MenB, Trumenba (Pfizer), tem maior cobertura prevista de MenB específica (90% vs 67%) devido ao foco em duas subfamílias de fHbp; ela está licenciada, mas não está no programa regular do Reino Unido ou da Bélica.
+
+## O que pacientes com EM/SFC deve considerar fazer
+
+Nada do que segue é aconselhamento médico — são considerações baseadas em evidências para discutir com seu médico, e valem a pena ser discutidas.
+
+Se você nasceu antes de 2015 no Reino Unido ou é adulto em qualquer lugar da Europa, quase certamente não foi vacinado contra MenB; MenACWY pode estar na sua história, dependendo do cronograma do seu país. Na Bélica, o Bexsero está disponível sob prescrição (~€80–90 por dose, duas doses necessárias), e pacientes com EM/SFC com registo de consumo de complemento ou outra disfunção imunológica podem discutir com seu médico se atendem aos critérios para grupos de risco segundo as diretrizes do Conselho Superior de Saúde da Bélica (que abrangem deficiência de complemento e asplenia). O momento é importante se você seguir isso: não vacine-se durante uma crise ou exacerbação, e planeje 3–5 dias de descanso após cada dose, já que o Bexsero tende a ser mais reativo em comparação com as vacinas de MenACWY.
+
+Além da vacinação, a prevenção básica de infeções — higiene das mãos, não compartilhar bebidas ou utensílios, evitar contacto próximo prolongado em espaços fechados e lotados — é um comportamento efetivo que modifica a doença em pacientes com EM/SFC, e não uma cautela excessiva. Cada infeção que se previne é um passo na redução do risco que se evita. E se você está viajando para a região de Canterbury/Kent, vale a pena conversar com seu médico de família sobre a vacinação antes da viagem; o surto está atualmente geograficamente contido, mas ambientes de contacto próximo, como clubes noturnos e dormitórios, são ambientes de alto risco.
+
+## A visão geral
+
+O que torna a EM/SFC tão difícil de conviver é precisamente isso: a disfunção imunológica subjacente à doença torna cada infeção subsequente mais perigosa e mais propensa a causar piora permanente. Cada surto — COVID, gripe, meningite — apresenta risco desproporcional para essa população, e a pesquisa é inequívoca de que as infeções desencadeiam o início e a progressão da doença, enquanto a vacinação não faz. Para pacientes com EM/SFC, essa assimetria deve orientar todas as decisões relacionadas ao risco de infeção.

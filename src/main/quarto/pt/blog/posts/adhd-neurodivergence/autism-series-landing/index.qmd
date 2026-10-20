@@ -1,0 +1,82 @@
+---
+title: "A Biologia do Autismo — uma Série"
+description: "O autismo não é uma única condição. Quatro áreas biológicas independentes — energia, imunidade, conexões e características adquiridas — podem contribuir cada uma para o fardo dos sintomas, e o caminho a seguir pode ser o tratamento de várias delas ao mesmo tempo. Esta é a página inicial de uma série que analisa cada área e a hipótese de tratamento multivias."
+author: "Yannick Loth"
+date: "2026-08-18"
+categories: [Neurodivergence, Series, Pathophysiology]
+lang: pt
+---
+
+O autismo não é uma única entidade.
+
+Uma suposição comum é que a condição tenha uma única causa e uma única explicação. Nossa pesquisa aponta para algo mais detalhado: **quatro eixos biológicos distintos** podem estar na base dos sintomas relacionados ao autismo — um déficit de energia cerebral, um subgrupo mediado por imunidade, uma diferença no funcionamento cerebral e características adquiridas que não são relacionadas ao desenvolvimento. Pacientes diferentes provavelmente apresentam combinações diferentes desses eixos, e cada um contribui com uma parte diferente da carga de sintomas diária.
+
+Esta série analisa cada eixo de forma simples, e depois faz a pergunta à qual todos convergem: **podem vários caminhos ser tratados ao mesmo tempo para eliminar ou reduzir os sintomas e permitir que o paciente tenha uma vida mais normal?**
+
+---
+
+## O que sabemos e o que a nossa pesquisa acrescenta
+
+Cada artigo desta série distingue claramente duas coisas:
+
+1. **O que sabemos** — descobertas científicas estabelecidas, citadas na literatura revisada por pares (a evidência mitocôndria em autismo [@Frye2024ASDmitochondria], a descoberta de BH4 [@ColpaniFilho2025BH4ASD], a evidência de anticorpos maternos [@Braunschweig2013MATAbs] e o sinal genético glutamatergico no cerebelo [@Maccallini2026metaGWAS]).
+2. **O que a nossa pesquisa acrescenta** — as hipóteses desenvolvidas pelo nosso projeto de documentação através da leitura entre fronteiras de doenças, e que ainda não estão estabelecidas: o modelo de convergência de energia cerebral, a hipótese de tratamento multivias, o framework do espectro de neuroimunoencefalopatia e a distinção entre adquirido e desenvolvimental.
+
+A distinção é importante porque os dois não representam a mesma confiança. “O que sabemos” são evidências; “o que a nossa pesquisa acrescenta” são hipóteses testáveis. A série os mantém separados para que não sejam confundidos com descobertas.
+
+Cada artigo segue a mesma estrutura:
+
+1. **O que é** — o mecanismo, em palavras simples.
+2. **A evidência** — o que o apoia e quão forte é essa evidência.
+3. **Os limites** — o que não afirma.
+4. **O experimento decisivo** — como a ideia pode ser confirmada ou refutada.
+
+---
+
+## Parte 1: O autismo como um distúrbio de energia cerebral — e a hipótese de tratamento multivias
+
+A série começa com a abordagem mais desenvolvida: um cérebro que opera com uma fonte de combustível fina. Quando o cérebro não consegue realizar as operações mais caras em termos de energia — filtrar ruído, alternar tarefas, ler rostos — ele economiza recursos, e essas funções economizadas são exatamente aquelas que reconhecemos como fundamentais no autismo. A Parte 1 também apresenta a síntese da série: a hipótese de tratamento multivias e o que tratar vários mecanismos ao mesmo tempo pode significar.
+
+Leia o artigo:
+
+1. **[Autismo como um distúrbio de energia cerebral: o que a ciência diz](../autism-brain-energy-disorder/index.qmd)** — o modelo astrócito/GLUT1, as evidências mitocôndria e BH4, os alvos modificáveis, os limites, o experimento decisivo de glucose no CSF, e a hipótese de tratamento multivias.
+
+---
+
+## Parte 2: O Subconjunto Imunomediado do Autismo
+
+Nem todo autismo tem a mesma causa. Um subconjunto pode ser impulsionado pelo sistema imunitário — anticorpos maternos que atacam proteínas do cérebro fetal durante o desenvolvimento, ou respostas anti-neuronais desencadeadas por infeção após o nascimento. O achado chave: a imunoterapia funciona em pacientes com estratificação de anticorpos, mas não em aqueles sem seleção. O subconjunto é importante porque pode ser identificável e tratável.
+
+Leia o artigo:
+
+1. **[O Subconjunto Imunomediado do Autismo: Quando o Sistema Imunitário Modela o Cérebro](../autism-immune-subset/index.qmd)** — a via de anticorpos maternos, a via pós-natal, a evidência da estratificação com IVIG, o framework do espectro de neuroimunoencefalopatia e o estudo decisivo de anticorpos em múltiplas doenças.
+
+---
+
+## Parte 3: A Conexão Cerebelo-Glutamato
+
+O terceiro aspecto não é um problema de combustível nem um problema imunológico: uma diferença no nível do circuito no cerebelo e nos circuitos glutamatergicos — as vias excitatórias do cérebro. A perda de células Purkinje cerebelares está entre os resultados mais frequentes no autismo, e um sinal genético a liga à sensibilidade sensorial. Este aspecto é explicativo e diagnóstico, mas ainda não é um alvo de tratamento.
+
+Leia o artigo:
+
+1. **[A Conexão Cerebelo-Glutamato no Autismo: Uma Hipótese de Nível de Circuito](../autism-cerebellar-glutamate/index.qmd)** — as evidências das células Purkinje, o sinal genético glutamatergico, as características comuns, a previsão de sensibilidade sensorial testável e os limites.
+
+---
+
+## Parte 4: Adquirido vs. Desenvolvimental — Quando Características Semelhantes ao Autismo Podem Ser Reversíveis
+
+A questão clinicamente relevante: as características semelhantes ao autismo estão necessariamente presentes desde o desenvolvimento, ou algumas podem ser *adquiridas* — e, portanto, reversíveis? Rigidez sensorial, retirada e aparente alexitimia podem surgir após o desenvolvimento, em vez de a partir dele. Diferenciar os dois determina se um sintoma pode responder ao tratamento da sua causa ou se é uma configuração estável.
+
+Leia o artigo:
+
+1. **[Adquirido vs. Desenvolvimental: Quando Características Semelhantes ao Autismo Podem Ser Reversíveis](../autism-acquired-reversible/index.qmd)** — o mecanismo interoceptivo, a via de neuroinflamação, o teste de dependência de contexto e as consequências clínicas de errar na distinção.
+
+---
+
+## Sobre as evidências
+
+Cada artigo desta série distingue cuidadosamente o que é *confirmado* por evidências, o que é uma *hipótese promissora* e o que é a *experiência de um paciente individual*. A maior parte do conteúdo aqui pertence ao lado da hipótese — as certezas são explícitas, frequentemente limitadas, e nada é apresentado como facto clínico estabelecido ou recomendação de tratamento.
+
+A ciência subjacente é retirada do nosso projeto de documentação, que desenvolve estes modelos de energia e imunidade transversais em detalhe. A abordagem específica para o autismo é a nossa leitura da literatura, escrita para funcionar independentemente para qualquer pessoa curiosa sobre a biologia.
+
+*Discuta qualquer decisão médica com um clínico qualificado.*

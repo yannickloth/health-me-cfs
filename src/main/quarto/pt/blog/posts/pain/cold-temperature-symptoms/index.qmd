@@ -1,0 +1,126 @@
+---
+title: "Sempre frio, nunca quente o suficiente: a biologia da desregulação da temperatura na EM/SFC"
+description: "Existe um momento que muitas pessoas com EM/SFC conhecem bem: deitar-se sob duas cobertores num quarto que não está frio, ainda incapazes de se aquecer. Ou suar de repente sem esforço. Ou os dedos ficarem brancos e entorpecidos num quarto levemente frio. Ou descobrir que..."
+author: "Yannick Loth"
+date: "2026-03-08"
+categories: [Autonomic Dysfunction, Symptoms]
+lang: pt
+---
+
+Existe um momento que muitas pessoas com EM/SFC conhecem bem: deitar-se sob duas cobertores num quarto que não está frio, ainda incapazes de se aquecer. Ou suar de repente sem esforço. Ou os dedos ficarem brancos e entorpecidos num quarto levemente frio. Ou descobrir que um banho quente — algo que pessoas saudáveis consideram restaurador — os deixa exaustos pelo resto do dia.
+
+A regulação da temperatura deveria ser automática. Para pessoas com EM/SFC, ela é inconfiável, metabólicamente dispendiosa e, muitas vezes, simplesmente falha.
+
+Este artigo explica por que — e relaciona a desregulação da temperatura a vários outros sintomas que parecem não estar relacionados, mas compartilham os mesmos problemas fundamentais.
+
+---
+
+## O termostato no cérebro
+
+O sistema de regulação da temperatura do corpo é controlado principalmente pelo tálamo, uma pequena, mas metaboliticamente densa região cerebral que monitoriza continuamente a temperatura corporal central e coordena a resposta através do sistema nervoso autónomo: dilatação dos vasos sanguíneos para liberar calor quando estiver muito quente, contração dos mesmos e desencadeamento de tremores para reter calor quando estiver muito frio, direcionamento das glândulas sudoríparas e ajuste da distribuição de sangue entre a zona central e a periferia.
+
+Tudo isto é autónomo — deve acontecer automaticamente, abaixo da consciência. Na EM/SFC, três falhas interligadas perturbam todo o sistema simultaneamente.
+
+---
+
+## Falha 1: O sistema nervoso autónomo está desregulado
+
+O sistema nervoso autónomo — a rede de controlo involuntário do corpo para a frequência cardíaca, a pressão arterial, o fluxo sanguíneo, a digestão, a secreção de glândulas e a temperatura — está funcionalmente prejudicado na maioria das pessoas com EM/SFC. Este não é um achado periférico. É agora uma das características mais consistentemente documentadas da doença.
+
+As duas ramificações do sistema autónomo — simpática e parassimpática — estão normalmente em equilíbrio dinâmico. Na EM/SFC, este equilíbrio é perturbado. Vários mecanismos contribuem para isso:
+
+**Autoanticorpos contra recetores autónomos.** A investigação documentou a presença de autoanticorpos elevados contra os recetores beta-adrenérgico (β₁ e β₂) e muscarínico colinérgico (M3 e M4) que as fibras nervosas autónomas utilizam para comunicar com tecidos-alvo, incluindo vasos sanguíneos e glândulas sudoríparas. Estes anticorpos podem atuar agonisticamente (ativar de forma inadequada) ou antagonisticamente (bloquear) nestes recetores, produzindo sinais autónomos erráticos que não podem ser corrigidos pela feedback regulatória normal do cérebro.
+
+**Noreadrenalina esgotada no sistema central.** A medição direta do líquido cefalorraquidiano no estudo de fenotipagem profunda do NIH sobre EM/SFC revelou a redução dos metabólitos de noradrenalina — evidência química direta de que o circuito autónomo central está a ficar sem a sua molécula de sinalização principal. A noradrenalina impulsiona as respostas simpáticas que, entre muitas outras funções, contraem os vasos sanguíneos periféricos para manter a temperatura central no frio.
+
+**Neuropatia de fibras pequenas.** Biópsias de punção na pele confirmam que 30–38% dos pacientes com EM/SFC têm uma redução mensurável na densidade das fibras nervosas pequenas, não mielinizadas, que transportam tanto a dor como sinais autónomos — incluindo as fibras autónomas que controlam o fluxo sanguíneo cutâneo e a atividade das glândulas sudoríparas. Em pacientes com envolvimento nervoso subclínico, a proporção é quase certamente maior. São estas as fibras exatamente responsáveis por direcionar os vasos sanguíneos a contrair ou dilatar em resposta à temperatura.
+
+O resultado: a vasculatura periférica recebe instruções imprecisas, inconsistentes ou atenuadas do cérebro. Quando o corpo precisa de reter calor, os vasos sanguíneos podem não contrair adequadamente. Quando precisa de liberar calor, eles podem não dilatar a tempo. O termostato envia comandos; os atuadores respondem de forma errática.
+
+---
+
+## Falha 2: Gerar calor é caro, e não há energia suficiente
+
+A termorregulação não é passiva. Gerar calor — seja através de tremores, através de termogénese não-tremora no tecido adiposo marrom, ou simplesmente através da manutenção da atividade metabólica normal nas células — requer ATP, a moeda energética universal do corpo.
+
+Em EM/SFC, a produção de ATP é prejudicada no nível mitocondrial. A cadeia de transporte de eletrões — a máquina que gera a grande maioria do ATP celular — perde eletrões em várias vezes o ritmo normal, produzindo espécies reativas de oxigénio em vez de energia útil e degradando as próprias estruturas mitocondriais. O resultado é uma redução na produção de ATP por unidade de substrato metabólico consumido.
+
+Para a termorregulação, isso cria um problema direto: **a geração de calor consome energia que o corpo não tem para economizar.**
+
+Tremores — um dos principais mecanismos de defesa contra o frio — são contrações musculares rápidas e involuntárias. A contração muscular consome ATP. num corpo onde a produção de ATP já está abaixo da capacidade, a demanda contínua de ATP do tremores pode não ser sustentável. Os músculos podem tremer brevemente, mas depois não conseguir manter a resposta. A pessoa permanece fria.
+
+A termogénese não-tremora, que envolve o tecido adiposo marrom que queima gordura para gerar calor diretamente, também depende da atividade mitocondrial. No contexto de uma disfunção mitocondrial generalizada, este caminho provavelmente também está prejudicado.
+
+O frio que as pessoas com EM/SFC sentem, em muitos casos, não é um problema de percepção. É a consequência física de um sistema de termorregulação que não tem o combustível necessário para funcionar corretamente.
+
+---
+
+## Falha 3: O sangue não vai para onde é necessário
+
+A temperatura do corpo central é mantida em parte ao manter o sangue oxigenado e quente próximo aos órgãos vitais. Isso exige que o sistema cardiovascular distribua o sangue de forma adequada — e, no EM/SFC, essa distribuição é perturbada.
+
+A maioria das pessoas com EM/SFC apresenta reduções documentadas no volume total de sangue — o volume de plasma costuma ser 10–20% abaixo do normal. Com menos sangue total, o corpo prioriza cada vez mais a perfusão dos órgãos centrais, deixando menos fluxo arterial disponível para as extremidades.
+
+Além disso, a intolerância ortostática — a incapacidade de manter um fluxo sanguíneo adequado quando em posição ereta — está presente na maioria dos pacientes com EM/SFC. Quando em pé, o sangue acumula na circulação venosa do corpo inferior. O sistema autônomo deve contrair esses vasos e aumentar a saída cardíaca (preload — o volume que preenche o coração antes de cada batida) para compensar; no EM/SFC, essa resposta é prejudicada. A saída cardíaca diminui. O cérebro e as extremidades recebem menos sangue arterial.
+
+As extremidades recebem menos sangue quente. Elas esfriam mais rapidamente. E, como a vasoconstrição que normalmente limita a perda de calor nas mãos e nos pés está desregulada, o corpo não consegue direcionar eficientemente o calor que possui.
+
+O fenómeno de Raynaud — em que os dedos das mãos e dos pés ficam brancos, depois azuis e depois vermelhos em resposta ao frio ou ao estresse — aparece num subgrupo significativo de pacientes com EM/SFC. Reflete o problema oposto ao da vasoconstrição inadequada descrito anteriormente: uma resposta vasoconstritora simpática exagerada que corta completamente o fluxo sanguíneo para os dedos. A fase branca é a constrição arterial máxima; a fase azul é isquemia devido à ausência de fluxo; a fase vermelha é um reencontro após a liberação da constrição. Tanto a falha em contrair adequadamente (extremidades frias crónicas) quanto a constrição excessiva dos episódios de Raynaud são expressões do mesmo sistema autônomo desregulado — um que não consegue manter respostas proporcionais e calibradas aos sinais térmicos e circulatórios.
+
+---
+
+## Por que o calor também é um problema
+
+Pacientes com EM/SFC que sentem frio na maior parte do tempo frequentemente também apresentam intolerância ao calor — dificuldade em tolerar ambientes quentes, sensação de mal-estar imediato ao sol, ou crise após um banho ou duche quente.
+
+Isso parece contraditório. Na verdade, não é.
+
+A mesma disfunção na termorregulação que impede a defesa adequada contra o frio também impede a defesa adequada contra o calor. A dissipação do calor requer o dilatação dos vasos sanguíneos na pele, a ativação da sudorese e o aumento do fluxo cardíaco para levar sangue quente à superfície da pele para resfriamento. Tudo isso requer sinalização autônoma robusta e reserva cardiovascular adequada. Na EM/SFC, nenhum desses fatores é confiável.
+
+Além disso, ambientes quentes causam vasodilatação — o sangue acumula-se na periferia, reduzindo o retorno venoso ao coração e o fluxo cardíaco. num sistema cardiovascular saudável, isso é compensado por um aumento da frequência cardíaca e vasoconstrição em outras áreas. Na EM/SFC, onde a falha no carregamento pré (sangue insuficiente no coração) já está presente, essa vasodilatação reduz ainda mais o volume sistólico e o fluxo cardíaco. O cérebro fica hipoperfundido. Os sintomas ortostáticos pioram. A pessoa sente-se desanimada, nauseada e com deficiência cognitiva — não porque esteja superaquecida, mas porque o sistema cardiovascular não consegue manter uma perfusão adequada sob estresse térmico.
+
+Um banho ou duche quente causa a mesma vasodilatação. O calor físico é real. A crise depois é cardiovascular e autônoma, não térmica.
+
+---
+
+## O suor noturno
+
+O suor noturno na EM/SFC é comum e muitas vezes grave — acordar encharcado apesar de uma sala fresca, ou suar através das roupas durante o repouso.
+
+Em pessoas saudáveis, a sudorese é um mecanismo de termorregulação: o corpo ativa as glândulas sudoríparas para se resfriar. Na EM/SFC, a sudorese pode ocorrer como um evento disautonômico: o sistema autônomo envia o sinal errado no momento errado, ativando as glândulas sudoríparas não porque o corpo esteja muito quente, mas porque o circuito autônomo está falhando. As citocinas resultantes da ativação imunológica crónica também podem desencadear diretamente a sudorese — o mesmo mecanismo responsável pelos "suores noturnos" associados a infecções ativas.
+
+A pessoa não está muito quente. Pode ficar fria novamente minutos depois. O suor é uma saída de termorregulação de um sistema que perdeu entrada sensorial precisa.
+
+---
+
+## Outros sintomas surpreendentes com mesmas raízes
+
+A desregulação da temperatura é uma manifestação de um conjunto de falhas — disfunção autonómica, défices de energia, reduzido volume sanguíneo, hipoperfusão cerebral — que produzem uma gama de sintomas que parecem não estar relacionados até compreender a biologia subjacente.
+
+**Dificuldade respiratória com níveis normais de oxigénio.** Muitas pessoas com EM/SFC experimentam falta de ar ou a sensação de não conseguir respirar de forma satisfatória, mesmo quando a oximetria mostra saturação normal de oxigénio. O problema não está no consumo de oxigénio — é a entrega e utilização de oxigénio no nível celular. A disfunção autonómica altera o impulso respiratório. A falha no pré-carga reduz a produção cardíaca, o que significa que menos sangue é entregue aos tecidos por respiração. Os músculos respiratórios podem ficar cansados rapidamente em estados de défice de energia. Um estudo de 2025 constatou que aproximadamente 70% dos pacientes com EM/SFC apresentam padrões respiratórios anormais com desassociação entre o movimento do peito e do abdómen — utilizando músculos respiratórios auxiliares em vez do diafragma, o que consome aproximadamente três vezes mais energia por respiração.
+
+**Visão turva que varia ao longo do dia.** A qualidade visual na EM/SFC pode variar drasticamente com o estado de energia. O músculo ciliar que ajusta o foco da lente requer ATP sustentado para funcionar. As fibras autonómicas que controlam o diâmetro da pupila fazem parte do mesmo sistema desregulado. num dia de baixa energia, o músculo ciliar fica cansado, o foco torna-se difícil ou impossível, e a diplopia (visão dupla) pode ocorrer. num dia de melhor energia, a visão melhora. Isso não é um problema de visão no sentido oftalmológico — é um problema de energia e autonomia com consequências visuais.
+
+**Sintomas cognitivos que pioram ao ficar em pé.** A névoa cerebral na EM/SFC não é um estado fixo — ela piora de forma confiável ao ficar em pé e em posição vertical, e muitas vezes melhora ao deitar. Isso está diretamente relacionado à perfusão cerebral: quando em posição vertical, a produção cardíaca cai e o sangue acumula abaixo do coração. O cérebro recebe menos sangue. A função cognitiva — que está entre os processos mais dependentes de energia e perfusão no corpo — deteriora rapidamente. Estudos de mesa inclinada de um centro de referência holandês descobriram que 91% dos pacientes com EM/SFC apresentaram redução mensurável na produção cardíaca e no fluxo sanguíneo cerebral durante o estresse ortostático, com sintomas cognitivos correlacionados diretamente com o grau de redução do fluxo sanguíneo [@vanCampen2018] — resultados que aguardam replicação independente, mas são consistentes com a imagem clínica. A névoa cerebral não é metafórica. É hipoperfusão.
+
+**Sensibilidade a som e luz.** Hiperacúcia (sensibilidade ao som) e fotofobia (sensibilidade à luz) estão presentes em 60–90% das pessoas com EM/SFC, frequentemente em níveis que exigem ambientes escuros ou tampões de ouvido em ambientes normais. O volume normal de conversa pode ser dolorosamente alto. A luz solar através de uma janela pode ser insuportável. Os mecanismos se sobrepõem àqueles descritos em artigos anteriores: a sensibilização central reduziu os limiares dos neurónios de processamento sensorial em todo o sistema nervoso, e as células metabólicamente exigentes da retina e da cóclea são particularmente vulneráveis aos défices de energia que prejudicam a sua função. O sistema nervoso sensorial, assim como o sistema nervoso motor e autonómico, está em estado sensibilizado e com défice de energia.
+
+**"Hipoglicemia subjetiva" com glicose sanguínea normal.** Muitos pacientes com EM/SFC experimentam episódios em que sentem como se a sua glicose no sangue tivesse caído — tremores, fraqueza, diminuição da capacidade cognitiva, fome intensa — mesmo quando a glicose sanguínea está normal. O mecanismo é a intolerância ortostática, não metabólica: a queda no fluxo cardíaco e a hipoperfusão cerebral que acompanham a posição de pé imitam a experiência subjetiva da hipoglicemia. Os pacientes podem ter passado anos tentando gerir esses episódios comendo frequentemente, quando a intervenção real necessária é cardiovascular — aumentar o fluido, o sódio e, potencialmente, roupas de compressão para apoiar o retorno venoso.
+
+---
+
+## O que todos estes têm em comum
+
+Intolerância ao frio, intolerância à calor, sudorese noturna, Raynaud, falta de fôlego, visão variável, sintomas cognitivos que acompanham a postura, hipersensibilidade sensorial: estas não são uma coleção aleatória de queixas não relacionadas. São um padrão coerente.
+
+A disfunção autonômica — comunicação imprecisa e não confiável entre o cérebro e os sistemas involuntários do corpo — explica as falhas cardiovasculares e de termorregulação. Os déficits de energia mitocondrial explicam por que a reparação e compensação são impossíveis. O volume reduzido de sangue explica por que até pequenos estresses cardiovasculares produzem consequências enormes. A hipoperfusão cerebral explica por que a cognição, a visão e a gating sensorial pioram de maneira dependente de energia e de postura. A sensibilização central explica por que os inputs sensoriais que seriam considerados irrelevantes num sistema nervoso saudável são vistos como excessivos.
+
+A pessoa que está debaixo de duas cobertores, ainda fria, exausta pelo esforço de se aquecer, não está exagerando sua desconforto. Seu sistema de termorregulação perdeu o controle confiável dos processos que geram e retêm calor — o combustível é insuficiente, a sinalização é imprecisa, o sangue que transporta calor para os membros está reduzido em volume e distribuído de forma imprevisível.
+
+Isso não é fraqueza — é fisiologia: o frio contrai os vasos periféricos num sistema já enfrentando dificuldades com a perfusão.
+
+---
+
+## Nota sobre a pesquisa
+
+Os mecanismos descritos aqui se baseiam em estudos de teste autonômico, imagem cardiovascular (incluindo espectroscopia de infravermelho próximo e protocolos de mesa de inclinação), pesquisas de biópsia de pele, análise do líquido cefalorraquidiano a partir do estudo de fenotipagem profunda do NIH sobre EM/SFC, e a literatura sobre autoanticorpos contra receptores autonômicos. A desregulação da temperatura e a disfunção autonômica estão entre as características mais consistentemente documentadas da EM/SFC em diferentes coortes. Nos casos em que os resultados são específicos para grupos individuais ou ainda não foram replicados de forma independente, isso é indicado na documentação subjacente.

@@ -1,0 +1,126 @@
+---
+title: "O treinamento médico ensina o nível errado de abstração"
+description: "O paciente chega com décadas de sono não restaurador — presente desde a adolescência, e documentado anos depois por um estudo do sono que mostra algo específico. A gravação revela duração normal do sono de ondas lentas profundo, mas com 5–6% de onda alfa int..."
+author: "Yannick Loth"
+date: "2026-04-06"
+categories: [Medical Education, Systems Medicine]
+lang: pt
+---
+
+O paciente chega com décadas de sono perturbado — presente desde a adolescência, e documentado anos depois por um estudo do sono que mostra algo específico. A gravação revela uma duração normal de sono de ondas lentas profundo, mas com 5–6% de interferência de ondas alfa: oscilações cerebrais acordadas que contaminam o sono de ondas lentas na taxa de vários minutos por hora. O mecanismo do circuito tálamo é descrito na literatura de pesquisa [@timofeev2015thalamic]. Uma consequência plausível, apoiada principalmente por evidências de modelos animais, é que a depuração glifática — que parece depender da atividade de ondas lentas não perturbada — está prejudicada durante o sono contaminado, permitindo que resíduos metabólicos acumulem no tecido cerebral; o paciente acorda exausto, independentemente de quantas horas tenha dormido. Gabapentin, um medicamento já em uso clínico comum há décadas, atua nesse circuito reduzindo a excitabilidade dos canais de cálcio no tálamo, e uma hipótese mecânica razoável é que ele possa suprimir as oscilações anormais na sua origem.
+
+Apesar de tudo isso, o medicamento não é prescrito — nem após o estudo do sono, nem após o encaminhamento para neurologia, nem após anos de acompanhamento. Os dados não estavam ausentes, e o mecanismo não era desconhecido. Uma possível interpretação é que o obstáculo à prescrição era prático — uso off-label, uma base de evidências fraca para essa indicação específica, cautela razoável. Outra é que o que faltava era um quadro para conectar o achado documentado à farmacologia disponível. Ambos podem ser verdadeos simultaneamente, e nenhum exime o outro.
+
+---
+
+## Primeiro, os números
+
+O ICD-11, a classificação internacional de doenças atual, contém aproximadamente **17.000 categorias de diagnóstico** e mais de **130.000 termos clínicos** [@WHOICD11]. É assim que o treinamento médico está organizado: uma enorme taxonomia de condições nomeadas, cada uma com seus próprios critérios, seu próprio protocolo e seu próprio especialista.
+
+Uma maneira proposta de organizar a biologia subjacente agrupa essas 17.000 condições em aproximadamente **20 famílias de mecanismos fundamentais**, cada uma contendo vários mecanismos concretos — aproximadamente 80–100 mecanismos distintos no total, dependendo do nível de resolução utilizado. O número e as fronteiras dessas famílias dependem da granularidade escolhida; o que se segue é uma possível decomposição, oferecida como uma estrutura organizadora, e não como um consenso científico estabelecido:
+
+- Regulação energética e metabólica (disfunção mitocondrial, bloqueio PDH/PDK, desvio glicolítico, esgotamento de NAD⁺)
+- Equilíbrio redox e oxidativo (superprodução de ROS/RNS, peroxidação de lipídios, estresse nitrosativo)
+- Canais iônicos e transporte de membrana (canalopatias, rigidez de membrana, falha na sinalização de Ca²⁺)
+- Ativação imune e sinalização de citocinas (hiperativação inata, exaustão de NK, complemento)
+- Autoimunidade e mimetismo molecular (anticorpos autoimunes de recetor, desvio imune pós-viral)
+- Coagulação e hematologia (formação de microclot, hiperativação de plaquetas, hipercoagulabilidade)
+- Disfunção vascular e endotelial (falha endotelial, hipoperfusão cerebral, paradoxo RAAS)
+- Sistema nervoso autônomo e periférico (POTS, falha no barorreflexo, neuropatia de fibras pequenas)
+- Regulação neuroendócrina e hormonal (desvanecimento HPA, falha na conversão tireoide, hormônios sexuais)
+- Neurologia e thalamocortical (neuroinflamação, desequilíbrio E/I, intrusão alfa, falha glilâmica)
+- Metabolismo de aminoácidos e neurotransmissores (IDO/quinurenina, esgotamento de serotonina, via NAD⁺)
+- Regulação genômica e epigenética (sinais de metilação, atrito de telômeros, bloqueio epigenético pós-viral)
+- Homeostase e degradação de proteínas (desregulação HSP, falha na autofagia, agregação)
+- Morte celular e senescência (exaustão, SASP, piroptose, ferroptose)
+- Eixo intestino-microbioma-imune (disbiose, intestino permeável, translocação LPS, eixo intestino-cérebro)
+- Persistência viral e evasão imune (reativação de herpesvírus, persistência de enterovírus)
+- Integridade estrutural e tecidual (danos musculares, rarefação capilar, perda de fibras nervosas)
+- Sinalização transcripcional e nuclear (NF-κB, Nrf2, desregulação de recetores nucleares)
+- Sinalização purinérgica e de perigo (ATP-DAMP, P2X7, resposta celular ao perigo, NLRP3)
+
+Nesse quadro, as 17.000 doenças não são 17.000 fenómenos independentes, mas diferentes combinações e expressões tecidual específicas de um conjunto menor de famílias de mecanismos — e o grande número de doenças nomeadas se deve em parte ao facto de que suas combinações, expressas em diferentes tecidos, idades, gravidades e gatilhos, produzem uma enorme variedade de imagens clínicas distintas. As categorias de diagnóstico têm valor real: elas codificam taxas básicas epidemiológicas, prognóstico e dados de resposta ao tratamento acumulados em milhões de pacientes. A argumentação não é que as categorias devem ser descartadas, mas sim que o treinamento médico está organizado quase exclusivamente em torno dessas 17.000 categorias, e que a camada de mecanismos subjacente — aquela compartilhada entre as condições — recebe relativamente pouca ênfase no raciocínio clínico.
+
+---
+
+## Como o modo de falha se apresenta em escala
+
+Erros de diagnóstico causam, estima-se, **800.000 mortes ou deficiências permanentes por ano apenas nos Estados Unidos**, tornando a má diagnóstica a principal fonte de danos graves causados por erro médico — maior que os erros de medicação e maior que as complicações cirúrgicas [@NewmanToker2023diagnosticError]. Apenas nos serviços de emergência, aproximadamente **7,4 milhões de pacientes por ano são mal diagnosticados** em relação a 130 milhões de visitas anuais, o que corresponde a quase 1 em 18 [@AHRQ2022diagnosticErrors].
+
+Estes números refletem os danos agudos e mensuráveis de uma diagnóstica errada — a identificação incorreta que leva à omissão do tratamento e à deterioração mensurável. São uma categoria de falha diferente daquela no centro deste artigo, que diz respeito a um *diagnóstico correto* associado a uma *pictura mecânica incompleta*: o paciente é correctamente identificado como EM/SFC, como tendo sono não restaurador, mas cujo mecanismo específico de desregulação do sono nunca é caracterizado nem tratado. Esse dano é invisível nas estatísticas e acumula ao longo dos anos. A literatura sobre erros de diagnóstico documenta o fim agudo; o fim crónico permanece em grande parte não medido.
+
+---
+
+## Por que o treinamento de reconhecimento de padrões falha em pacientes complexos
+
+O treinamento médico é baseado no **reconhecimento de padrões no nível diagnóstico**:
+
+> cluster de sintomas → diagnóstico → protocolo
+
+A camada mecânica — *por que* os sintomas surgem, *qual processo biológico* está desregulado, *como* um tratamento corrige isso no nível celular — é muito importante no treinamento pré-clínico, onde fisiologia e patofisiopatologia são centrais. No entanto, nos anos clínicos e na prática, ela tende a desaparecer numa teoria de apoio: conhecimento de fundo que informa, mas não impulsiona a sequência de raciocínio.
+
+Este modelo é eficiente no contexto. Um médico de família atende milhares de condições, e o reconhecimento de padrões no nível diagnóstico é rápido e geralmente adequado para doenças de mecanismo único, bem caracterizadas e comuns, onde a abordagem de correspondência de protocolo produz bons resultados. No entanto, o mesmo modelo falha de forma previsível em três situações específicas.
+
+**Situação 1: A apresentação não se encaixa num padrão conhecido.** A desregulação do paciente existe e é real, mas produz uma constelação de sintomas que não se encaixa claramente em nenhum registo diagnóstico. O sistema não retorna nenhum correspondente, e o paciente é rotulado como “não explicado”, “funcional” ou “psicossomático”. Isso não é um caso de borda diagnóstica; é a experiência padrão de pacientes com doenças crónicas multissistêmicas.
+
+**Situação 2: Desregulações interativas abrangem limites de especialidade.** O problema de excitabilidade thalamo-cortical documentado na medicina do sono é diretamente relevante para o neurologista, o especialista em dor e o clínico de doenças pós-infecciosas — mas estes são departamentos separados com registros distintos e comunicação limitada. Os dados gerados numa especialidade não se propagam automaticamente: o resultado do estudo do sono fica num arquivo de medicina do sono, e o neurologista ou nunca o vê ou o vê sem o quadro para agir fora do contexto de sua especialidade.
+
+**Situação 3: O tratamento correto existe, mas não está indicado no protocolo para o diagnóstico correspondente.** Aqui, o diagnóstico é correto e a desregulação está documentada, mas o medicamento disponível não está no protocolo para essa categoria de diagnóstico porque o protocolo foi escrito em torno da categoria, e não em torno do mecanismo. Apesar da existência de um caminho farmacológico, nada é prescrito.
+
+Todos os três modos de falha são estruturais e previsíveis. São resultados de um modelo de treinamento otimizado para correspondência diagnóstica, e aparecem como falhas individuais do médico quando, na realidade, são sistemáticos.
+
+---
+
+## O desajuste de abstração
+
+Um médico formado no nível mecânico reconhece a mesma desregulação em múltiplas categorias de diagnóstico simultaneamente. A hiperexcitabilidade tálamo-cortical — o mecanismo por trás da intrusão de ondas alfa no sono profundo — aparece em fibromialgia (documentada desde [@Moldofsky1975alphaDeltaSleep]), EM/SFC (descobertas semelhantes de ondas cerebrais durante o sono, vários estudos), enxaqueca crónica, transtorno de estresse pós-traumático e insônia resistente ao tratamento: um mecanismo que abrange cinco entradas de diagnóstico, sem uma conexão formal estabelecida entre eles nos currículos de treinamento padrão.
+
+Pesquisa publicada em [@timofeev2015thalamic] caracterizou as alterações no circuito tálamo-cortical envolvidas: mudanças na sinalização inibitória e duas correntes elétricas tálamo-corticais transformam um circuito que normalmente produz oscilações delta lentas num que produz atividade alfa mais rápida. O trabalho foi realizado principalmente em preparações animais, e a tradução clínica envolve as incertezas habituais — mas identificou um alvo farmacológico concreto.
+
+Um médico familiarizado com essa literatura pode analisar um estudo do sono que mostra intrusão de alfa e indicar os medicamentos disponíveis que reduzem a excitabilidade dos canais de cálcio no tálamo — a gabapentina, que já está em uso clínico, tem um perfil de segurança conhecido e já é prescrita pelo mesmo neurologista para outras indicações. Um médico formado apenas no nível diagnóstico não tem uma entrada no registo para “intrusão de alfa sem epilepsia”, e assim a descoberta anómala é registrada no prontuário sem qualquer raciocínio terapêutico.
+
+---
+
+## A explicação estrutural
+
+Esse padrão de falha não é uma história sobre incompetência médica. A taxa média de erro diagnóstico entre as categorias de doenças é aproximadamente **13,6%**, variando de 2,2% para infarto do miocárdio até mais de 60% para apresentações raras [@Zwaan2012diagnosticErrors]. Não se trata de médicos descuidados; são médicos cujo modelo de treinamento possui um ponto cego sistemático.
+
+O sistema de classificação de doenças — medicina organizada em torno de doenças nomeadas — é um artefato histórico com mais de 260 anos, anterior a qualquer compreensão da biologia celular, genética ou mecanismos moleculares. A observação clínica precedeu a compreensão mecânica por séculos, e os síndromes foram nomeados muito antes de alguém saber por que ocorriam. A infraestrutura da medicina moderna — códigos de faturamento, categorias de aprovação de medicamentos, limites de especialidade, comitês de diretrizes, exames de licenciamento — foi posteriormente construída sobre essa estrutura, e tem sido difícil reorganizá-la.
+
+Os comitês de diretrizes codificam o que era conhecido quando as diretrizes foram escritas. No EM/SFC, muitas diretrizes clínicas atuais refletem a compreensão do início dos anos 2000, e em alguns países a intervenção recomendada principalmente continua sendo a terapia de exercício gradual — uma abordagem que foi progressivamente removida das diretrizes no Reino Unido, EUA e em outros lugares, em parte por razões metodológicas e em parte em resposta a evidências acumuladas de que pode agravar os sintomas pós-exercício numa parte significativa dos pacientes. As evidências aqui ainda são verdadeiramente contestadas, mas um médico seguindo uma diretriz local mais antiga pode estar praticando medicina que diverge significativamente do consenso atual de pesquisa.
+
+A proposta de currículo médico [@Frenk2014medicalEducation] formulou a alternativa diretamente: o corpo pode responder a insultos de apenas um número limitado de maneiras, e um currículo baseado em mecanismos organizaria o treinamento clínico em torno dessas respostas finais, com casos de pacientes ilustrando apresentações específicas de mecanismos, em vez de adicionar mais uma entrada específica de doença a uma taxonomia em expansão constante. Essa proposta existe na literatura e ainda não se tornou prática padrão.
+
+---
+
+## O que o paciente é obrigado a fazer
+
+Quando o sistema não consegue sintetizar os dados disponíveis, alguém tem que fazê-lo — e em doenças crónicas complexas, essa pessoa costuma ser o paciente. O estudo do sono que documenta a intrusão alfa é concluído; a consulta de neurologia é feita; os anos passam. O paciente então lê a literatura de pesquisa, encontra o trabalho de Moldofsky e o modelo mecânico de Timofeev, analisa a farmacologia dos canais de cálcio do tálamo e chega a uma consulta com um documento que relaciona esses achados aos dados do seu próprio estudo do sono e propõe uma intervenção específica com justificativa mecânica.
+
+Esse não é um cenário excepcional. Nas comunidades de EM/SFC e Long COVID — pelo menos entre aqueles que estão suficientemente bem e conectados para participar em redes de pacientes e discussões de pesquisa — pacientes autodidatas com compreensão mecânica da própria fisiopatologia parecem ser comuns. O incentivo é simples: o sistema não realizou a sintese, então o paciente tenta fazer isso. Esse processo tem seus próprios riscos: leitura seletiva, viés de confirmação, modelos mecânicos que são plausíveis, mas errados. No entanto, o facto de os pacientes estarem fazendo isso reflete uma lacuna que o sistema clínico ainda não resolveu, e a falha estrutural upstream é o que cria as condições para isso.
+
+---
+
+## O que precisa mudar
+
+O modelo de treinamento é o ponto de intervenção, e as mudanças necessárias são identificáveis.
+
+**Ensinar os agrupamentos de mecanismos como conteúdo principal.** Um módulo sobre desregulação talamocortical abrange fibromialgia, EM/SFC, enxaqueca crónica, transtorno de estresse pós-traumático e sono não restaurador simultaneamente — um mecanismo com múltiplas expressões — de modo que os estudantes aprendam a reconhecer a mesma desregulação entre cinco categorias de diagnóstico, em vez de tratar cinco protocolos desconectados como conhecimento não relacionado.
+
+**Ensinar o raciocínio terapêutico a partir do mecanismo.** O fluxo atual *diagnóstico → protocolo* deve ser complementado com treinamento na forma: *desregulação documentada → ferramentas disponíveis que atuam nesse mecanismo → qualidade da evidência, tractabilidade, risco de interação.* Isso produz médicos capazes de raciocinar a partir da fisiopatologia documentada mesmo quando não existe protocolo para a categoria de diagnóstico correspondente — mantendo, ao mesmo tempo, a disciplina para distinguir a plausibilidade mecânica da eficácia clínica demonstrada.
+
+**Ensinar a síntese entre especialidades como habilidade clínica.** Pacientes complexos geram dados entre departamentos, e o treinamento deve incluir prática explícita na integração de resultados de diferentes especialidades — um estudo do sono, um teste autonômico, um painel de imunologia — numa imagem mecânica unificada. Essa síntese não é atualmente ensinada como habilidade formal, e é precisamente o que os pacientes complexos necessitam.
+
+**Ensinar a categoria de diagnóstico como ponto de partida, não como ponto final.** Um diagnóstico confirmado não significa que toda a desregulação do paciente seja capturada por essa etiqueta. A EM/SFC não é um único mecanismo, mas um padrão de desregulação multi-sistêmica com heterogeneidade biológica documentada, e tratar a etiqueta da categoria como uma caracterização completa produz cuidados sistematicamente incompletos.
+
+---
+
+## O custo de não mudar
+
+A literatura sobre erros de diagnóstico documenta 800.000 mortes ou deficiências permanentes por ano devido a diagnósticos errados — etiquetas incorretas, condições negligenciadas e tratamentos inadequados. Essa é uma das categorias de danos. Uma segunda categoria, estruturalmente diferente e em grande parte não medida, diz respeito a pacientes com diagnósticos corretos e caracterização mecânica incompleta: pessoas cujas desregulações específicas foram documentadas, cujos mecanismos eram conhecidos e cujos tratamentos existiam, mas que nunca foram relacionados a eles. Estes não são o mesmo problema e podem não ter a mesma solução — mas ambos apontam para uma lacuna no raciocínio clínico que o treinamento pretende, pelo menos em parte, resolver.
+
+---
+
+*Parte de uma série em curso sobre a biologia do EM/SFC e o que ela revela sobre os sistemas médicos.*
+
+---

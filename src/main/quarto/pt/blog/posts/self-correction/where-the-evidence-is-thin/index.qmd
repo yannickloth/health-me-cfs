@@ -1,0 +1,20 @@
+---
+title: "Onde as nossas evidências são escassas: uma visita às áreas fracas"
+description: "O artigo é tão honesto quanto os locais que admitem serem fracos. Aqui estão os nossos."
+author: "Yannick Loth"
+date: "2026-09-28"
+categories: [Self-correction, Metascience, Research]
+lang: pt
+---
+
+É fácil criar um documento que soe confiante. É mais difícil — e mais útil — indicar exatamente onde a confiança não foi obtida. Nosso artigo marca o conteúdo especulativo com valores de certeza e sinaliza áreas de evidência fraca; aqui está uma explicação em linguagem simples.
+
+**As áreas fracas:**
+
+- **Fios de estudo único.** A história da noradrenalina, o fio do circuito VMAT2/dopamina e vários outros dependem de poucos pequenos estudos, às vezes de um único grupo. A replicação ainda está em andamento.
+- **Evidência em animais e transversal entre doenças.** Muitas direções mecânicas (noradrenalina e clearance, noradrenalina e microglia, neuromoduladores e ganho cortical) estão estabelecidas em animais ou outras doenças, mas não são medidas no EM/SFC.
+- **Medidas compostas.** Novos índices (como o índice de "via de acesso" da noradrenalina) são úteis, mas não validados; um resultado impressionante pode ser parcialmente um artefato da medida.
+- **Confusões que não são removidas.** Descondicionamento, medicamentos e nível de atividade podem alterar os biomarcadores que discutimos, e a maioria dos estudos não pode excluí-los.
+- **O nulo e o negativo.** Algumas de nossas afirmações mais fortes são sobre o que *não* funciona — amantadina para a fadiga da MS (um nulo limpo), clonidina no CFS adolescente (um nulo limpo) e terapia de exercício gradual (contestada, e um caso em que o endpoint — piora dos sintomas — é o que importa, não a ausência de qualquer efeito). Essas merecem tanta destaque quanto as afirmativas positivas.
+
+**Por que as sinalizamos.** Porque a alternativa — uma narrativa fluida com a incerteza eliminada — é como os pacientes são enganados e como as prioridades da pesquisa são definidas de forma imprecisa. Um sinal não é uma fraqueza; esconder um seria.

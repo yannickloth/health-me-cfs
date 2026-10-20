@@ -1,0 +1,164 @@
+---
+title: "Rejeite a dose, não o medicamento — Como um único teste fracassado faz os pacientes enfrentar buscas de anos"
+description: "\"Tentei a LDN. Não funcionou.\" Essa frase regista um veredito sobre um medicamento quando as evidências apenas apoiam um veredito sobre uma dose, uma duração e uma medida de resultado. A assimetria é brutal: um novo teste com dose adjacente custa dias; um medicamento descartado erroneamente pode custar anos. Aqui está a estratégia de busca que controla ambos os modos de falha."
+author: "Yannick Loth"
+date: "2026-09-01"
+categories: [Treatment, Pharmacology, ME/CFS]
+lang: pt
+---
+
+Você tentou um medicamento. Não funcionou. Você continua em frente — e a busca pela substância que *vai* funcionar continua: outro medicamento, depois outro, depois um suplemento, depois um protocolo publicado às 3 da manhã. Dois anos passam. Em algum lugar nessa história existe um medicamento que falhou em 0,75 mg, cujo intervalo terapêutico ficava em 1,2 mg. Você nunca saberá. O veredito está selado, e foi registrado contra a variável errada.
+
+Este artigo não trata da farmacologia dos intervalos de dose — esse tema é abordado nos quatro artigos complementares a este. (Por que aumentar a dose eficaz pode eliminar o benefício, por que uma dose nula não exclui as outras, como ler uma curva dose-resposta como um diagnóstico, e o atlas de doses por medicamento). Este artigo fala sobre a camada de decisão *acima* dessa farmacologia: como pacientes e médicos transformam um ensaio fracassado numa estratégia de busca, e por que a estratégia padrão — tentar novos medicamentos em vez de doses adjacentes — geralmente é a mais cara.
+
+---
+
+## A assimetria que deve guiar tudo
+
+Duas erros são possíveis quando um ensaio falha:
+
+| Erro | Custo |
+|---------|------|
+| **Rejeição prematura** — o medicamento funciona numa dose que nunca foi testada; você procura em outros lugares por anos | Anos, mais o risco acumulado de todas as alternativas tentadas durante esse período |
+| **Busca interminável de dose** — sem condições de parada; a ideia de “talvez a dose estivesse errada” justifica tentar novamente repetidamente | Orçamento de energia, risco PEM e uma busca que nunca pode chegar a um fim |
+
+Os custos são assimétricos e apontam em direções opostas — exatamente por isso nenhum erro pode ser resolvido apenas com avisos sobre o outro. “Não rejeite rápido demais”, quando utilizado sozinho, torna-se a busca interminável. “Prossiga rapidamente”, quando utilizado sozinho, torna-se o veredito prematuro. A única saída é uma estratégia de busca com *estrutura*: passos subsequentes classificados, medidas de resultado definidas e condições de parada. O resto deste artigo constrói essa estrutura.
+
+Um exemplo ilustrativo (uma combinação, não uma pessoa específica) descreve a situação completa. Um paciente recebendo uma dose baixa de aripiprazol (LDA) de 1 mg — uma dose com benefícios bem documentados no piloto de dose baixa de aripiprazol EM/SFC (médio da coorte ~1,1 mg/dia) [@Crosby2021LDA] — participa de um teste de 5 dias com 0,75 mg para verificar se o sono melhoraria. Não melhorou. Pior: a fadiga piora e um episódio de PEM ocorre após três horas de condução, acompanhado por uma enxaqueca grave. Uma breve escalada para 1,5 mg também não resolve nada. O paciente volta para 1 mg e se recupera.
+
+Lido em ambos os sentidos:
+
+- **Leitura errada:** “As doses de aripiprazol são imprevisíveis; o medicamento é frágil; evite experimentar.” (Também tentador: “o teste falhou, algo está errado.”)
+- **Leitura correta:** um resultado negativo, limpo, barato e com tempo limitado que *fortalece* o caso a favor do medicamento. A janela foi testada com 0,75 mg (insuficiente — a proteção contra PEM perdida) e 1,5 mg (sem benefício adicional), e o pico permanece em 1 mg. Sete dias de risco geram um mapa de dose-resposta mais preciso.
+
+Isso é o que acontece com um teste falho quando a estratégia de busca é adequada. A reputação do medicamento melhorou porque a *dose* absorveu o fracasso.
+
+---
+
+## O que deve ser registado para que um ensaio fracassado permaneça re-triável
+
+A armadilha da dispensa prematura ocorre no momento do registo, não no momento da decisão. Compare duas entradas de registo:
+
+| Entrada | Fala sobre o medicamento | Re-triável? |
+|-------|--------------------|-------------|
+| "A naltrexona em doses baixas não funcionou." | Nada útil | Não — a variável que falhou não está registada |
+| "LDN 3,5–4 mg, ~6 meses, fadiga como resultado: sem resposta. ~1 mg não testada; farmacologia diferente nessa faixa." | Uma dose específica, um período de duração adequado, um resultado definido — e um vizinho não testado nomeado | Sim — e a hipótese de re-ensaio já está escrita |
+
+A segunda entrada explica por que um re-ensaio com dose mais baixa de naltrexona pode ser *defendível* no registo de um paciente e indefendível em outro: em doses mais altas, a naltrexona em doses baixas exibe um perfil farmacológico diferente do que em ~1 mg — a dose de 4 mg não testou um mecanismo e ficou em silêncio sobre o outro (ver [Um fracasso de uma dose única não é um veredito](../single-dose-failure-not-a-verdict/) para o argumento de ocupação de recetor).
+
+A disciplina se generaliza. Cada ensaio concluído deve registar quatro variáveis:
+
+1. **Dose** — dose real administrada, não dose prescrita (as lacunas de adesão e preparação são comuns).
+2. **Duração** — em contraste com o cronograma esperado do medicamento. Dois dias é um veredito sobre nada para um medicamento cujo mecanismo é transcricional; seis semanas pode ainda ser curto para outros.
+3. **Medida de resultado** — definida *antes* de iniciar, idealmente uma única principal. Um ensaio “para o sono” que termina com uma impressão sobre o humor não testou nada.
+4. **Confundores** — clima, esforço, outras mudanças na combinação, infeção. Um ensaio realizado através de uma crise é um ensaio da crise.
+
+Um ensaio com todos os quatro registos permanece re-triável para sempre. Um ensaio sem nenhum registo torna-se folclore — e folclore é o que é dispensado.
+
+---
+
+## Tabela de explicações alternativas
+
+“O medicamento X falhou” é uma conclusão que se baseia em pelo menos seis premissas. Eles não são igualmente baratos para testar:
+
+| Explicação de um teste nulo | Teste discriminativo mais barato |
+|---------------------------|-------------------------------|
+| Dose incorreta | Teste de dose adjacente — mesmo medicamento, apenas uma variável alterada |
+| Duração inadequada | Estender o mesmo teste para além do período esperado pelo mecanismo |
+| Medida de resultado incorreta | Reescrever os dados do *teste existente* com um resultado diferente |
+| Mecanismo incorreto para este paciente | O próprio teste nulo com dose e duração adequadas — este é um mecanismo real, não um fracasso da técnica |
+| O sintoma não é impulsionado pelo alvo | Trabalho diferencial *antes* do teste; muitas vezes o teste mais barato de todos |
+| Intolerância, não não-resposta | O perfil de efeitos colaterais distingue esses casos — uma resposta de dose prejudicial é informação suficiente |
+
+Observe a ordem por custo. Avançando na tabela, os testes tornam-se mais caros e menos reversíveis. O teste de dose é o mais alto porque altera exatamente uma variável farmacocinética de um medicamento cuja tolerabilidade já é conhecida. Um novo medicamento muda tudo de uma vez — novos alvos, novos efeitos colaterais, novas interações com a stack existente — e responde a uma pergunta mais *vital* como resultado.
+
+Este é o princípio da dose primeiro: **quando um teste falha, o próximo experimento mais barato geralmente é uma dose adjacente do mesmo medicamento, e não um novo agente.** Novos medicamentos pertencem depois que a linha de dose do medicamento atual foi mapeada — ou depois que um argumento de mecanismo real descarta o alvo do medicamento.
+
+---
+
+## As três patologias de busca
+
+Pacientes em buscas prolongadas tendem a cair num dos três padrões reconhecíveis. Chamá-los é útil porque cada um tem uma solução diferente:
+
+**O veredito de um único ensaio.** Cada medicamento recebe uma dose única. A busca é ampla e superficial: vinte medicamentos, zero mapas de resposta à dose. *Solução:* antes de adicionar o vigésimo primeiro medicamento, voltar à lista e encontrar os ensaios com a cobertura de dose mais restrita. Esses são os mais prováveis falsos negativos.
+
+**O coletor de medicamentos.** O padrão oposto: um novo agente a cada poucas semanas, nenhum mantido por tempo suficiente para produzir um resultado nulo legível. O armário de remédios se enche; o mapa permanece em branco. *Solução:* um comprimento mínimo de ensaio por classe de medicamento, acordado antecipadamente, e uma regra que nenhum novo agente comece antes que o ensaio atual atinja um veredito.
+
+**A deriva da dose.** Nenhuma escada planejada — a dose flutua para cima e para baixo pela sensação, em resposta aos sintomas, sem passos definidos e sem resultado definido. Cada dose tomada é dados, mas nenhuma dose é comparável, então nada é aprendido. *Solução:* uma escada escrita antes da primeira mudança de dose (o artigo dois neste par fornece modelos).
+
+Todas as três patologias compartilham uma causa raiz: o ensaio não foi concebido como um *experimento* — com uma pergunta, uma medida e uma condição de parada — mas é vivido como um estado de espírito. A solução é a mesma em todos os casos.
+
+---
+
+## O sinal “quase funcionou” merece atenção especial
+
+A informação mais subutilizada nos relatórios de pacientes é a resposta parcial: o sono melhora ligeiramente, mas a fadiga piora; a dor diminui, mas a intolerância ortostática aumenta. Os pacientes tendem a considerar isso como “nenhum efeito real”. Esse cálculo médio destrói o sinal mais útil no conjunto de dados.
+
+Uma resposta parcial diz algo que um resultado nulo estático não diz: **o alvo é relevante** — algum sistema afetado pelo medicamento está relacionado a algum sintoma — mas a dose ou a correspondência sintoma-mecanismo está errada. A resposta correta a uma resposta parcial quase nunca é descartar. É a decomposição: qual sintoma mudou, em que direção, a qual dose — e essa padrão corresponde a uma das faixas de dose conhecidas do medicamento? (Para medicamentos com múltiplos mecanismos em diferentes concentrações, essa decomposição é exatamente para o atlas de doses — veja [A Farmacopeia](../pharmacopoeia-dose-meaning/).)
+
+O exemplo ilustrativo acima continha uma resposta parcial que seria invisível sem decomposição: em 0,75 mg, a proteção contra PEM *piora* enquanto a questão do sono permanece sem resposta. Essa dissociação — perda de proteção enquanto o sono permanece inalterado — é o que distingue “dose errada para tudo” de “dose errada apenas para o sono”, e basta olhar para uma tabela para perceber.
+
+---
+
+## Quando o descartar *é* correto
+
+Um artigo que argumenta contra o descartar prematuro deve oferecer ao leitor uma tabela inversa. O descartar é a decisão certa — e seguir em frente é a vitória — quando:
+
+| Condição | Por que fecha a questão |
+|-----------|---------------------------|
+| Faixa de dose adequada abrangida (incluindo as faixas conhecidas, onde estabelecidas) | A explicação da dose foi testada, não assumida |
+| Duração adequada para a escala temporal do mecanismo | A explicação da duração foi testada |
+| Medida de resultado correspondente à indicação do medicamento, medida corretamente | A explicação da medição foi testada |
+| Nenhuma resposta, nenhuma resposta parcial, nenhum sinal de efeito colateral dependente da dose | Não há sinal em nenhum lugar na linha |
+| Existe um argumento mecânico para a não resposta | O nulo é *esperado* considerando as outras respostas do paciente |
+
+A última linha é a mais importante e também a mais negligenciada. As respostas a um medicamento limitam as expectativas para outros: um paciente que responde num grupo mecânico e não em outro já realizou, de forma gratuita, um experimento que prevê onde a busca adicional será vantajosa. O nulo que chega *após* essa previsão não é uma decepção — é uma confirmação de que o mapa está funcionando, e deixar esse território é a recompensa correta.
+
+---
+
+## O que levar ao médico
+
+A maioria dos pacientes não pode ajustar as doses unilateralmente — e não deve. Várias dessas medicamentos exigem preparação personalizada, prescrição fora da indicação ou simplesmente o consentimento do prescritor. Portanto, o reteste depende de se a proposta é fácil de aceitar. Um pedido de reteste que cabe numa página faz isso; um “podemos tentar novamente, talvez diminuir?” vago não faz.
+
+O protocolo de uma página:
+
+| Campo | Exemplo |
+|-------|---------|
+| Medicamento e pergunta | Aripiprazol 0,75 mg — a qualidade do sono melhora em comparação com 1 mg? |
+| Escala de doses e comprimento do passo | 0,75 mg × 5 dias; aumentar ou retornar conforme o resultado |
+| Resultado principal (definido com antecedência) | Qualidade/quantidade do sono, autoavaliação noturna |
+| Condições de interrupção | Sem mudança no dia 5 → retornar a 1 mg; pioramento → retornar imediatamente |
+| Data de revisão | Fixa, registrada por escrito |
+| Riscos conhecidos e monitorização | Resposta anterior com 1 mg documentada; risco de PEM reconhecido |
+
+Um teste seguindo exatamente esse método, com consentimento do prescritor, pode produzir uma resposta decisiva numa semana. O protocolo é a persuasão: ele mostra ao médico que “retentar com uma dose diferente” não é reabrir um antigo debate, mas sim realizar um pequeno experimento limitado com um ponto de saída definido.
+
+---
+
+## Presunções e limitações
+
+Três advertências, expressas de forma clara, pois a força do argumento leva a excessos:
+
+**A base de evidências do quadro é o raciocínio farmacológico mais a experiência da comunidade, e não ensaios controlados.** O comportamento na faixa de dose aqui ilustrado — 1 mg funcionando, acompanhado por 0,75 mg não funcionando abaixo e 1,5 mg não funcionando acima — é um mapa de um único paciente hipotético, construído para ser farmacologicamente consistente. Esse comportamento não monotônico de dose-resposta *é um fenômeno real e documentado* em muitos sistemas biológicos — o corpus da hormesia [@Calabrese2021Nrf2; @Calabrese2002hormesisHistory] e a farmacologia multi-banda documentada da naltrexona em doses baixas em particular [@Younger2013; @Cabanas2018trpm3; @Loth2026mecfs]. Mas a previsão de que os “drogas fracassadas” de qualquer paciente *dado* são frequentemente falhas de dose é uma *hipótese*, motivada por essas curvas íngremes e não monotônicas e pela variabilidade entre pacientes na exposição (metabolismo, peso, gravidade, medicamentos interativos). Não é um facto estabelecido sobre qualquer paciente.
+
+**A versão não falsificável desta ideia é uma armadilha.** “A dose estava sempre errada em algum lugar” pode justificar qualquer fracasso e justificar qualquer busca. É por isso que as condições de parada neste artigo não são decoração opcional — elas são o que separa uma estratégia de dose-first de uma estratégia interminável. Se um novo ensaio não pode especificar antecipadamente a medida do resultado e a data de parada, não deve ser realizado.
+
+**E o quadro clínico:** nada aqui é uma recomendação para ajustar as doses por conta própria. Os medicamentos discutidos têm perfis reais de efeitos colaterais, riscos reais de interações e — em doses baixas — reais barreiras práticas (compounding, status fora da indicação). O princípio de dose-first é uma proposta sobre o que discutir com seu médico prescritor, em que ordem e a que custo. O modelo de protocolo acima é o formato para essa discussão, não um substituto dele.
+
+---
+
+## Versão resumida
+
+- “O medicamento X falhou” é quase sempre uma afirmação sobre uma dose, uma duração e uma medida de resultado. Registre todos os três, caso contrário, o veredito será aplicado à variável errada.
+- Quando um ensaio falha, o experimento mais barato seguinte costuma ser uma dose adjacente do mesmo medicamento — uma variável alterada — e não um novo agente.
+- Uma resposta parcial não é um resultado nulo. Indica que o alvo é relevante. Descomponha-o antes de descartar.
+- O descartamento é correto — e uma vitória — quando a dose, a duração, o resultado e o mecanismo foram analisados. As condições de parada são o que tornam a busca finita.
+- Leve ao médico um protocolo de uma página: pergunta, escala, resultado principal, condições de parada e data de revisão. O protocolo é a persuasão.
+
+**Leitura complementar:** [Parte 5: Como realizar um ensaio de identificação de dose](../dose-finding-protocols/) transforma essa estratégia em protocolos por medicamento — escalas, cronogramas, medidas de resultado e condições de parada para oito medicamentos.
+
+---
+
+*Este artigo é uma análise entre pacientes, baseada em farmacologia estabelecida — consulte [@Loth2026mecfs] para o quadro de dose-resposta subjacente — e não constitui aconselhamento médico. Cada estudo discutido requer a concordância do prescritor; vários dos medicamentos mencionados exigem preparação personalizada ou prescrição fora do espectro indicado. Os estudos EM/SFC apresentam risco de PEM — a atividade durante um estudo de dose é uma atividade durante um experimento no seu próprio limite.*
+
+*Série de series de dose-resposta: [Parte 1: Por que mais não é melhor](../more-isnt-better-ldn-lda/) · [Parte 2: O U invertido não é uma única coisa](../inverted-u-not-one-thing/) · [Parte 3: A sua dose LDN é um diagnóstico](../dose-is-diagnostic-ldn/) · [Parte 4: A farmacopeia](../pharmacopoeia-dose-meaning/) · [Parte 5: Como realizar um estudo de identificação de dose](../dose-finding-protocols/) · Relacionado (este post)*

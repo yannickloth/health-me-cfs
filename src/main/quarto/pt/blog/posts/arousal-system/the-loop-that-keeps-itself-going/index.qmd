@@ -1,0 +1,28 @@
+---
+title: "O ciclo que pode manter a EM/SFC em funcionamento"
+description: "Baixa noradrenalina pode prejudicar a eliminação do cérebro, o que pode agravar a inflamação que suprime a noradrenalina — um ciclo auto-reforçador."
+author: "Yannick Loth"
+date: "2026-09-17"
+categories: [Arousal system, Noradrenergic, Mechanisms]
+lang: pt
+---
+
+Muitas doenças crónicas são descritas como “auto-reforçadoras”, mas um ciclo só é uma ideia séria se você conseguir identificar as setas. Aqui está um candidato, baseado no sistema de excitação.
+
+A noradrenalina impulsiona um vasomotoma lento — a contração rítmica dos vasos sanguíneos — que bombeia o líquido cefalorraquidiano através do cérebro e elimina resíduos durante o sono; isso foi demonstrado em ratinhos (@Hauglund2025neVasomotion). A revisão de 2026 *Science* sobre as oscilações do sono descreve os neuromoduladores como a força mecânica por trás dessa eliminação (@Nedergaard2026OscillatorySleep).
+
+Agora o ciclo:
+
+1. A noradrenalina central diminui.
+2. O vasomotoma enfraquece, então a eliminação diminui.
+3. Resíduos metabólicos e sinais inflamatórios acumulam-se.
+4. A neuroinflamação prejudica a função do locus-coeruleus.
+5. A noradrenalina diminui ainda mais. De volta ao passo 1.
+
+Se esse ciclo existe, a EM/SFC não é um défice fixo, mas um sistema que pode diminuir lentamente — a progressão é melhor descrita como um ciclo apertando-se do que como dano acumulativo simples.
+
+**O que o sustenta e o que não sustenta.** A seta da noradrenalina para a eliminação tem evidências reais (nível animal e de revisão). As setas da eliminação para a inflamação para o locus-coeruleus são inferidas; elas não foram medidas na EM/SFC.
+
+**Onde as evidências estão incertas.** A seta do ciclo da inflamação para o locus-coeruleus assume que a noradrenalina *suprime* a neuroinflamação. Duas pesquisas com ratinhos apoiam em grande parte isso: a noradrenalina atuando nos recetores β2 das microglia suprimiu a atividade das microglia (@Bu2025NeuroMicrogliaNE), e inibir a sinalização adrenérgica do locus-coeruleus *aumentou* a neuroinflamação (@Evans2024LocusCoeruleusMicroglia). Mas uma subanálise da segunda pesquisa descobriu que eliminar o recetor β2 nas microglia *reduziu* a inflamação apenas em fêmeas — então a direção não está totalmente estabilizada e pode ser dependente de sexo ou contexto. O ciclo é uma hipótese, não uma afirmação.
+
+Como em toda esta série, o défice subjacente é uma única descoberta não replicada (@Aregawi2026Noradrenergic). *Por que isso importa:* se um ciclo impulsiona a progressão, então tratar um nó (por exemplo, apenas a noradrenalina) pode não ser suficiente; o ciclo pode precisar ser quebrado em mais de um ponto.

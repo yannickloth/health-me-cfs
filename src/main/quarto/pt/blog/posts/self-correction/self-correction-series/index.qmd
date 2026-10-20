@@ -1,0 +1,18 @@
+---
+title: "Como a ciência corrige-se: uma série curta"
+description: "Um artigo elaborado por um paciente e uma comissão que demonstra suas próprias correções — incluindo um em que realizamos um estudo ao contrário."
+author: "Yannick Loth"
+date: "2026-09-24"
+categories: [Self-correction, Metascience, Research]
+lang: pt
+---
+
+A maioria dos textos de defesa apresenta conclusões. Esta série curta faz o oposto: mostra onde a nossa própria leitura estava errada, como a identificamos e por que uma afirmação se baseia em menos evidências do que parece.
+
+1. [O resultado do milnacipran foi interpretado ao contrário — aqui está a correção](../we-got-milnacipran-backwards/)
+2. [Estudo único, afirmações grandiosas: por que n=16 é importante](../single-study-big-claims/)
+3. [O panorama de pesquisa EM/SFC, mapeado](../the-research-landscape-mapped/)
+4. [Onde a nossa evidência é fraca: uma visita às áreas fracas](../where-the-evidence-is-thin/)
+5. [O teste de sangue com genoma 3D: o que a figura de 98% realmente mediu](../the-3d-genome-blood-test/)
+
+*A tese: um documento que não pode mostrar seus erros não pode ser confiado com suas conclusões.*

@@ -1,0 +1,140 @@
+---
+title: "Arquitetura do Sono Alfa-Delta na EM/SFC"
+description: "Dormir oito, nove ou dez horas não impede o despertar sem reabastecimento de energia na EM/SFC."
+author: "Yannick Loth"
+date: "2026-05-06"
+categories: [Sleep, Treatment, Neurology]
+lang: pt
+---
+
+Dormir oito, nove ou dez horas não impede o despertar sem recuperação em EM/SFC.
+
+As pessoas dizem que você deve dormir melhor. O problema é a qualidade do sono, não a duração do sono.
+
+---
+
+## Arquitetura da Intrusão Alfa-Delta
+
+As ondas alfa (8-12 Hz) ocorrem quando você está acordado. As ondas delta (0.5-4 Hz) devem ser as responsáveis durante o sono profundo. Em EM/SFC, elas se misturam — as ondas alfa continuam a entrar nas fases do sono profundo, fazendo com que o cérebro nunca tenha as oscilações puras delta que realmente o restauram [@Moldofsky1975alphaDeltaSleep; @Roizenblatt2001alphaFM].
+
+O cérebro possui um sistema de eliminação de resíduos chamado sistema glifático [@Xie2013glymphatic; @NematGorgani2025GlymphaticMECFS]. Durante o sono profundo adequado, os espaços entre as células cerebrais se abrem em cerca de 60% em modelos em ratinho (confirmação em humanos ainda em espera), permitindo que o líquido cefalorraquidiano elimine resíduos metabólicos, proteínas inflamatórias e subprodutos tóxicos. A intrusão alfa impede que isso aconteça. Os resíduos acumulam. Você acorda sentindo como se tivesse sido envenenado.
+
+---
+
+## A pressão do sono não se acumula corretamente
+
+A pressão do sono é o sinal do "preciso dormir" do seu cérebro. Uma substância química chamada adenosina se acumula ao longo do dia. Quando os níveis atingem um ponto suficiente, desencadeiam um sono profundo e restaurador [@Reichert2022adenosine].
+
+Pesquisas mostram que pacientes com EM/SFC têm uma pressão do sono reduzida — o sistema de adenosina não se acumula corretamente. Mesmo quando você está exausto, o cérebro não recebe o sinal forte de que necessita para um sono profundo. Você está cansado, mas o cérebro não entra no sono profundo que ajuda.
+
+O tálamo — o gerador de ondas de sono do seu cérebro — pode estar disfuncional. Os canais de cálcio tipo T (CaV3.1) criam as oscilações delta que impulsionam o sono profundo [@Crunelli2006thalamicTtype]. Pesquisas sobre fibromialgia sugerem que neuroinflamação, stress oxidativo ou canalopatias podem alterar o equilíbrio das correntes iônicas no tálamo, transformando as oscilações delta em padrões alfa-delta [@Vijayan2015alphaDelta]. Isso pode estar acontecendo também na EM/SFC.
+
+---
+
+## Modificações no protocolo de sono para EM/SFC
+
+A disfunção thalamica e a canalopatia não podem ser modificadas diretamente. O protocolo abaixo foca nos sistemas que podem ser influenciados por mudanças comportamentais.
+
+### Aumento da pressão do sono em EM/SFC
+
+A terapia padrão de restrição do sono faz as pessoas passarem menos tempo na cama do que o necessário para forçar a pressão do sono. Isso não funciona para EM/SFC — gera mal-estar pós-esforço. A versão adaptada mantém o tempo na cama 30-45 minutos acima do tempo real de sono, evitando dívida de energia e fortalecendo a pressão do sono através da consistência.
+
+**Rastreamento de base.** Rastre o tempo real de sono (não o tempo na cama) por 1-2 semanas usando um diário de sono ou actigrafia.
+
+**Cálculo do alvo.** O tempo inicial na cama deve ser 30-45 minutos acima do tempo médio de sono real. Se o sono real for de 6 horas, isso significa 6,5-6,75 horas na cama. Para pacientes com horários de trabalho fixos, o tempo na cama pode precisar alinhar-se com os horários de início do trabalho, mesmo que diferir do cronotipo circadiano ideal.
+
+**Monitorização e ajuste.** Calcule a eficiência do sono: (tempo dormido ÷ tempo na cama) × 100. Se a eficiência ultrapassar 85%, o tempo na cama deve ser reduzido em 15 minutos semanalmente. Se a eficiência cair abaixo de 80% ou o PEM for desencadeado, o tempo na cama deve ser aumentado em 15 minutos semanalmente. A faixa de eficiência alvo é de 80-85% — inferior à meta saudável de 85-90%, pois o sono em EM/SFC é fragmentado. Pacientes que trabalham podem alvo inicial de 75-80% de eficiência, com aumento gradual para 80-85% se tolerado.
+
+**Manutenção regular.** Uma vez estável na eficiência alvo, isso continua por 2-4 semanas antes de considerar mais redução. A consistência fortalece o sistema de pressão do sono. Mudanças no horário de trabalho podem exigir recalcular a base.
+
+**Restrições no horário de trabalho.** Pacientes com horários de início de trabalho fixos podem precisar calcular o horário de dormir voltando para trás do tempo de acordar necessário, em vez de avançando do início natural do sono. Isso cria intervalos de tempo na cama que podem não alinhar-se com a preferência circadiana individual, mas garantem a duração necessária de sono dentro das restrições de trabalho. Os trabalhadores em turnos variados devem manter consistência dentro de cada bloco de turno (turno da manhã, turno da noite, turno da tarde) em vez de tentar adaptação diária a horários rotativos.
+
+### Horário e duração dos cochilos
+
+O cochilo em EM/SFC é complicado. O descanso é essencial para a gestão de energia, mas os cochilos podem perturbar a arquitetura do sono noturno. Cochilos prevêm resultados cognitivos piores — porque a intrusão alfa-delta ocorre também durante os cochilos diurnos [@Gotts2015napCFS].
+
+Mantenha os cochilos abaixo de 20 minutos para evitar entrar em estágios de sono profundo onde ocorre a intrusão alfa-delta. Cochilos mais longos (60+ minutos) aumentam o risco de entrar no N3, onde as ondas alfa podem interferir e impedir o sono restaurador.
+
+O horário do cochilo é importante. Cochilos antes das 14h podem reduzir a pressão do sono noturno. Cochilos à tarde (15-17h) são menos perturbadores, mas ainda devem ser curtos. Pacientes com horários de trabalho fixos podem precisar programar os cochilos durante as pausas da refeição ou imediatamente após o trabalho, dependendo da tolerância individual e dos padrões de pressão do sono.
+
+O ambiente afeta a qualidade do sono. Sala escura, temperatura fresca (18-20°C) e redução do ruído ajudam mesmo em períodos de curta duração.
+
+Acompanhe os efeitos do sono. Monitore se os pausas de sono melhoram ou pioram o sono noturno. Se o sono noturno piora após o sono, tente intercalar pausas de descanso.
+
+### Entrenamento do ritmo circadiano
+
+O relógio interno de 24 horas do seu corpo precisa de treinamento. A luz é o sinal mais forte.
+
+A exposição à luz da manhã dentro de 30 minutos após acordar ajuda a entrar no ritmo circadiano e sinaliza “dia” ao cérebro. Use luz brilhante (caixa de luz de 10.000 lux ou luz natural). Pacientes com inícios de trabalho mais cedo podem precisar de exposição à luz artificial antes do nascer do sol natural.
+
+A redução da luz azul à noite começa algumas horas antes de dormir. Óculos com cor âmbar ou filtros de ecrã ajudam. A luz azul suprime a melatonina e atrasa o início do sono. Uso de telas à noite quando há trabalho pode limitar a eficácia da redução da luz azul; nesses casos, filtros de ecrã ou óculos âmbar tornam-se mais importantes.
+
+Horários de acordar consistentes fortalecem os ritmos circadianos e melhoram a pressão do sono. Acorde na mesma hora todos os dias, mesmo nos fins de semana. Pacientes com horários de trabalho variáveis devem manter consistência dentro de cada bloco de horário em vez de tentar adaptação diária.
+
+### Hiperarousal durante o sono
+
+O sono alfa-delta está correlacionado com os níveis de ansiedade na EM/SFC — não com a doença em si, mas com a ansiedade como condição separada [@Buysse2015alphaDeltaCFS]. Fatores psicológicos, especialmente o hiperarousal, podem contribuir para intrusões de ondas alfa ao manter a atividade cortical semelhante ao acordar durante o sono.
+
+O descanso antes do sono envolve 30-60 minutos de atividades de baixa estimulação antes de dormir. Sem telas, sem trabalho, sem conteúdo emocionalmente envolvente, sem discussões de resolução de problemas.
+
+A relaxação muscular progressiva utiliza tensão e liberação muscular sequencial (5 segundos de tensão, 10 segundos de relaxamento) para reduzir o hiperarousal somático que pode persistir durante o sono.
+
+A gravação de pensamentos mantém um “diário de preocupações” fora do quarto. Escrever pensamentos agitados, tarefas do dia seguinte ou preocupações previne a reprisão mental durante o início do sono.
+
+### Parâmetros do ambiente de sono
+
+Muitos pacientes com EM/SFC têm dificuldade na regulação térmica. O controle da temperatura é mais importante do que para pessoas saudáveis.
+
+A temperatura da sala deve ser de 18-20°C. Almofadas de colchão refrigeradas, roupa de cama respirável, cobertores em camadas — qualquer coisa que ajude a ajustar a temperatura.
+
+Total escuridão com cortinas pretas, máscaras para os olhos e remoção de todas as fontes de luz. A luz suprime a melatonina mesmo em baixos níveis.
+
+Redução do ruído através de máquinas de ruído branco, tampões para os ouvidos ou isolamento acústico. A fragmentação do ruído perturba a arquitetura do sono.
+
+### Evitar cafeína
+
+Evitar completamente a cafeína requer compromisso, mas vale a pena. A cafeína bloqueia a adenosina — a substância química que impulsiona a pressão do sono. Evitar completamente (incluindo bebidas sem cafeína, que contêm pequenas quantidades) por 4-6 semanas pode melhorar o sono de ondas lentas e reduzir as intrusões alfa.
+
+### Considerações sobre movimento
+
+Exercício aumenta o sono de ondas lentas em populações saudáveis [@Kredlow2015exerciseSleep]. Mas os pacientes com EM/SFC têm mal-estar pós-esforço — exercício além do envelope de energia causa agravamento dos sintomas que dura dias a semanas.
+
+Se tolerado, exercício de baixa intensidade em posição de repouso (ciclismo de repouso, alongamento suave) realizado pelo menos 4 horas antes de dormir pode melhorar a arquitetura do sono sem desencadear PEM. Os pacientes não devem praticar exercício para benefícios de sono se isso piora a função de base.
+
+### Considerações relacionadas ao trabalho
+
+Os horários de trabalho frequentemente entram em conflito com as recomendações do protocolo de sono, especialmente para pacientes com EM/SFC que precisam equilibrar as necessidades de rendimento com a gestão dos sintomas.
+
+O trabalho em turnos e os horários rotativos perturbam os ritmos circadianos de forma mais grave do que os horários fixos. Manter a consistência dentro de cada bloco de turno, em vez de adaptar diariamente, pode reduzir as interrupções. Terapia com luz à partida do turno e bloqueio de luz azul por 2-3 horas antes do período de sono previsto, independentemente do horário do relógio, pode ajudar.
+
+O trabalho remoto permite flexibilidade, mas complica a associação entre sono e vigília. Trabalhar na cama desfoca a distinção entre descanso e atividade, dificultando que o cérebro reconheça o quarto como espaço para sono. Separe áreas de trabalho e sono sempre que possível. Um período de transição de 15-30 minutos entre o fim do trabalho e a preparação para o sono (caminhar fora, trocar de roupa, atividades não em ecrã) pode ajudar a separar os períodos de trabalho e descanso.
+
+O estresse relacionado ao trabalho e o hiperarousal afetam a preparação para o sono. A transição do modo de trabalho para o modo de descanso muitas vezes falha automaticamente em pacientes com EM/SFC. Rituais de transição explícitos podem ajudar a sinalizar ao sistema nervoso que o trabalho foi concluído, separado das exigências profissionais.
+
+As tarefas de trabalho consomem energia que, de outra forma, estaria disponível para a preparação para o sono. Pacientes que trabalham podem alcançar metas de eficiência do sono mais baixas (75-80% em vez de 80-85%) e tempos de adaptação mais longos em comparação com pacientes que não trabalham.
+
+---
+
+## Resultados e limites do protocolo
+
+Isso não cura EM/SFC, mal-estar pós-esforço, disfunção mitocondrial ou anomalias imunológicas. O que faz é abordar a arquitetura do sono perturbada e melhorar o sono que você realmente obtém.
+
+Uma maior eficiência do sono significa menos tempo acordado e mais tempo em fases de sono restaurador. Uma depuração glifática melhorada significa menos névoa cerebral pela manhã. Um maior estímulo do sono significa entrada mais confiável em sono profundo.
+
+As mudanças na arquitetura do sono geralmente levam 4-6 semanas com implementação consistente. Alguns pacientes percebem os benefícios mais cedo, outros levam mais tempo. Acompanhar a eficiência do sono ajuda a monitorar o progresso mesmo quando a melhoria subjetiva parece lenta.
+
+---
+
+## Qualidade do sono e resultados funcionais
+
+Você pode dormir doze horas e não obter restauração se as ondas alfa interfiram. Este protocolo foca na qualidade do sono — especificamente, na maximização das oscilações delta e na minimização da interferência alfa.
+
+Cada pequeno melhoramento na qualidade do sono se traduz em melhoria na função no dia seguinte. Menos névoa cerebral pela manhã significa maior agilidade. Sono profundo mais confiável significa melhor função cognitiva. Depuração glifática melhorada significa redução da neuroinflamação.
+
+Estes são melhoramentos, não curas.
+
+A qualidade da arquitetura do sono não pode ser restaurada farmacologicamente sem compromissos. Gabapentin aumenta a duração do N3, mas pode causar sono profundo fisiologicamente anormal. Benzodiazepinas aumentam o tempo total de sono, mas não resolvem a interferência das ondas alfa. A abordagem comportamental descrita aqui é livre de riscos e funciona ao fortalecer os mecanismos naturais de pressão do sono.
+
+As ondas alfa interferem nos estágios do sono profundo na EM/SFC. O protocolo foca em adaptações comportamentais à perturbação da arquitetura do sono.
+
+---

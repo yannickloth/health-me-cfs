@@ -1,0 +1,119 @@
+---
+title: "Autoimunidade Artigo 2: Imunoadsorção, IVIG, Rituximab, Daratumumab — Remoção dos Autoanticorpos e o que isso significa quando isso não resolve a EM/SFC"
+description: "Guia em linguagem simples sobre tratamentos direcionados a autoimunidade em EM/SFC — imunoadsorção para remoção de autoanticorpos de GPCR, IVIG para imunomodulação, rituximab e a lição da fase III com tratamento nulo, daratumumab para depleção de células plasmáticas, por que os ensaios controlados não correspondem aos sinais de tratamento aberto, resultados esperados e a discussão sobre “e se nada ajudar”."
+author: "Yannick Loth"
+date: "2026-08-16"
+categories: [Treatment, Autoimmunity, IVIG, Immunoadsorption, ME/CFS]
+lang: pt
+---
+
+Se você tem EM/SFC e evidências de autoanticorpos de GPCR, a próxima pergunta lógica é: podemos eliminá-los? Existem tratamentos — a imunoadsorção remove fisicamente o IgG do sangue, o IVIG dilui os anticorpos patogênicos com imunoglobulinas saudáveis acumuladas, o rituximab mata as células B que os produzem, e o daratumumab vai além e mata as células plasmáticas. No entanto, as evidências de cada tratamento contam uma história consistente: os resultados de estudo aberto são dramáticos; os resultados controlados são preocupantes.
+
+Este artigo explica as evidências dos tratamentos. Para o contexto conceitual — o que são os autoanticorpos de GPCR, o perfil glicoprotéico Fc e a controvérsia nas medições — consulte a [artigo de visão geral](../autoimmunity/index.qmd).
+
+---
+
+## Primeiro, um aviso simples
+
+*Tudo o que se segue descreve intervenções hospitalares com riscos significativos: a imunoadsorção requer acesso venoso central e apresenta riscos de infeção, trombose e hipotensão. O IVIG causa meningite assética, tromboembolismo e anafilaxia. O Rituximab apresenta risco de leuceo encefalopatia multifocal progressiva. O Daratumumab causa reações de infusão e imunossupressão. Estas são tratamentos para os pacientes gravemente afetados, discutidos com um imunologista — não são tratamentos autolíticos e não são a primeira linha de tratamento.*
+
+---
+
+## Evidências de tratamento, do mais maduro ao menos maduro
+
+### Imunoadsorção — o mecanismo mais direto, as evidências mais contestadas
+
+A imunoadsorção (IA) é semelhante à diálise para anticorpos. O sangue é passado por uma coluna revestida com um ligante que se liga ao IgG — triptofano, proteína A ou um peptídeo sintético — eliminando cerca de 80% do IgG circulante numa única sessão. Um curso típico consiste em 5 sessões ao longo de 10–14 dias.
+
+A vantagem em relação à troca de plasma é a seletividade: a IA remove o IgG sem remover albumina, fatores de coagulação ou outras proteínas do plasma. A desvantagem é que ela remove *todos* os IgG — anticorpos protetores, respostas a vacinas e anticorpos autoimunes — e os anticorpos autoimunes reagem em poucos semanas a meses se as células B e células plasmáticas que os produzem não forem tratadas.
+
+**As evidências de estudo aberto são fortes.** O grupo Scheibenbogen publicou uma série consistente:
+- Piloto de 2018 (n=10): 70% de melhoria rápida, 30% de melhoria sustentada por 6–12 meses [@Scheibenbogen2018immunoadsorption].
+- Retratamento de 2020 (n=5): 80–90% redução de IgG e β2AR-AAb, 4/5 de melhoria sustentada [@Tolle2020immunoadsorption].
+- 2025 (n=20 pós-COVID): IgG reduzida 79%, AAbs 77%, **70% de taxa de resposta** (SF-36 PF ≥10 pontos), duradoura após 6 meses [@Stein2024immunoadsorption].
+
+**As evidências controladas são preocupantes.** Dois desenvolvimentos em 2025–2026 mudaram a situação:
+- **Anft 2025** (centro independente, n=12): Os AAbs foram eliminados, as citocinas reduzidas, a melhoria neuropsicológica medida — mas **os pontos de sintoma da EM/SFC não melhoraram**, e os AAbs reagiram em 1 mês [@Anft2025immunoadsorption]. Este é o resultado discordante que precisa de explicação: a remoção dos anticorpos funcionou bioquimicamente, mas não se traduziu em benefício clínico.
+- **IA-PACS-CFS** (Charité, NCT05710770, controlado por farsa, ~65–66 pacientes): **relatório de conferência preliminar (maio de 2026) indicou nenhuma diferença estatisticamente significativa entre imunoadsorção e farsa na escala de fadiga Chalder** [@Pressler2024IAPACSCFSprotocol][@Rucker2026WirthScheibenbogen]. Uma ressalva: o estudo não selecionou previamente pacientes com anticorpos positivos, então um resultado negativo geral não refuta a hipótese autoimune — pode simplesmente significar que é necessário remover anticorpos de alguém que os possui.
+
+**A lição da discordância.** A imunoadsorção remove anticorpos. Se a remoção deles não melhora os sintomas, então (a) os anticorpos não eram patogênicos (perfil de glicoproteína Fc errado), (b) a patologia que causaram já é irreversível (internação de recetores, dano estrutural), (c) os anticorpos não eram a patologia dominante naquele paciente, ou (d) a reação dos anticorpos é muito rápida para gerar benefício clínico. Todas as quatro são plausíveis, e os dados atuais não conseguem distinguir entre elas.
+
+### IVIG — imunomodulação, não apenas diluição de anticorpos
+
+A imunoglobulina intravenosa (IVIG) a 0,4 g/kg diariamente por 5 dias, seguida de 0,4 g/kg a cada 3–4 semanas, faz duas coisas: dilui os anticorpos autoimunes patogênicos (um efeito menor que a IA) e — o que é mais importante — fornece glicanas Fc imunomoduladoras de milhares de doadores saudáveis. O IgG sialilado na IVIG ativa DC-SIGN nos macrófagos reguladores, induzindo uma mudança anti-inflamatória. É por isso que a IVIG funciona em doenças (Kawasaki, CIDP, ITP) onde a simples diluição de anticorpos não seria suficiente.
+
+**As evidências em EM/SFC são incontroladas.** A pesquisa de pacientes Eckey 2025 (n=3.925) relatou o IVIG entre as opções mais positivamente avaliadas no cluster de sintomas multisistêmico (uma taxa de cerca de 73% foi reportada como positiva) — mas isso é relatado por pacientes, incontrolado e sujeito a viés de seleção; a descrição completa da pesquisa deve ser lida diretamente [@Eckey2025PatientReported]. Não existe um ensaio clínico randomizado controlado com placebo para IVIG em EM/SFC.
+
+**IVIG para PANDAS — um paralelo advertidor.** A PANDAS (distúrbio neuropsiquiátrico autoimune pediátrico associado a infeção estreptocócica) é mecanicamente análoga: autoanticorpos pós-infecciosos que atacam os gânglios da base causam sintomas neuropsiquiáticos. Um ensaio clínico randomizado controlado com placebo para IVIG em PANDAS em 2024 foi **nulo** — o IVIG não foi melhor que o placebo. A interpretação otimista é que o ensaio não foi suficientemente potente ou que os pacientes errados foram incluídos. A interpretação pessimista — a que deve limitar as expectativas para EM/SFC — é que as síndromes de autoanticorpos pós-infecciosos podem não responder apenas à diluição de anticorpos [@Loth2026website].
+
+### Rituximab — a lição da depleção de células B
+
+O Rituximab (anti-CD20) depleta as células B — os precursores das células plasmáticas que produzem anticorpos. Ele preserva as células plasmáticas de longa duração (CD20-negativas) que residem na medula óssea e continuam a secretar anticorpos por décadas. Esta é a explicação mecânica pela qual o Rituximab falhou em EM/SFC.
+
+**A trajetória das evidências é instrutiva.** Os estudos abertos iniciais de Fluge e Mella (2009–2011) relataram taxas de resposta de 67% — dramáticas, amplamente reportadas e que serviram de base para o ensaio clínico de fase III RituxME. O RituxME (n=151, duplo-cego, controlado com placebo) encontrou **26% de Rituximab vs 35% de placebo em 24 meses — o grupo de placebo teve melhor desempenho** [@Fluge2019]. O sinal de estudo aberto foi ruído, amplificado por expectativas e regressão ao meio.
+
+A lição aplica-se a todos os outros sinais de tratamento de estudo aberto em EM/SFC: as taxas de resposta incontroladas superestimam o benefício. O resultado nulo do RituxME não refutou a hipótese autoimune — provou que depletar células B sem depletar células plasmáticas não funciona.
+
+---
+
+## Resultados esperados
+
+- **A resposta ao tratamento no melhor caso é parcial.** Mesmo nas séries de estudo aberto positivas, “responder” significava uma melhoria clinicamente significativa — não recuperação, não retorno ao trabalho, não normalização da PEM. Os tratamentos reduzem a contribuição autoimune; eles não curam a EM/SFC.
+- **A resposta ao IVIG pode levar 3–6 meses.** A combinação da diluição de anticorpos e dos efeitos imunomoduladores dos glicanos Fc é gradual. Um único ciclo não é um teste adequado, mas um resultado nulo após 6 meses de dose adequada é suficiente para parar.
+- **A imunoadsorção funciona bioquimicamente — a IgG diminui em 80% — mas isso não garante melhoria clínica.** A discordância Anft 2025 (anticorpos desaparecidos, sintomas inalterados) é o ponto de dados de cautela. A IA diz algo sobre o anticorpo; a resposta clínica diz algo sobre se o anticorpo foi patogênico.
+- **O Daratumumab responde com uma latência de 8–9 meses, se o sinal for real.** Esta é a latência mais longa de qualquer tratamento direcionado a imunidade, e significa que um teste de 3–6 meses pode ser falsamente negativo. Um teste de 12 meses é o mínimo para avaliar o sinal do Daratumumab — e tal teste ainda não foi realizado.
+- **As decisões de tratamento em 2026 são tomadas sob incerteza real.** O resultado IA-PACS-CFS foi relatado preliminarmente (um relatório de conferência de maio de 2026 sugeriu que não havia benefício significativo em comparação com o placebo) e o resultado controlado do EXTINCT ainda está à espera [@Rucker2026WirthScheibenbogen]. A hipótese do glicoprofilo é mecanicamente elegante, mas clinicamente não testada. A abordagem é um teste com limite de tempo e definição de endpoint — e a disciplina para aceitar a resposta que ela fornece.
+
+---
+
+## Um exemplo de estudo estruturado
+
+*Este é um exemplo para fornecer ao seu médico algo com o qual trabalhar — não é uma auto-prescrição.*
+
+A condição pré-requisito é a presença de anticorpos GPCR documentados num ensaio funcional (bioensaio, não ELISA comercial), um início pós-infeccioso e um perfil autonómico dominado por POTS. Se essas condições não forem atendidas, a probabilidade de um mecanismo autoimune dominante antes do teste é baixa e esses tratamentos provavelmente não serão adequados.
+
+**Uma advertência prática sobre o pré-requisito:** o ensaio funcional de GPCR está principalmente disponível em ambientes de pesquisa, não em laboratórios clínicos de rotina — portanto, para a maioria dos pacientes, a condição de anticorpos não pode ser atendida antes que um estudo possa ser discutido. Quando o ensaio funcional é inacessível, o pré-requisito prático reduz-se apenas à situação clínica: início pós-infeccioso claro, além de um perfil autonómico dominado por POTS com sintomas orthostáticos documentados. Essa é uma condição mais fraca que o teste de anticorpos e deve ser lida assim — ela reduz a confiança de que o paciente é positivo em anticorpos, mas não torna o tratamento inadequado para ser discutido com um especialista.
+
+Se o perfil estiver correto, comece com a opção menos invasiva: IVIG 0,4 g/kg diariamente por 5 dias, depois 0,4 g/kg a cada 3–4 semanas. Escolha um único sintoma-alvo — o sintoma autonómico que mais o limita (tempo de estática, frequência de presincope, variabilidade da frequência cardíaca em desafio orthostático). Reavaliar após 6 meses. **Pare se não houver melhoria** — um estudo de 6 meses sem resultados é suficiente para demonstrar que a terapia de imunoglobulinas não é a solução. Tenha em conta que o IVIG é caro (geralmente vários milhares de dólares por ciclo de infusão) e, sendo fora da indicação para EM/SFC, frequentemente requer autorização prévia e é frequentemente negado — portanto, o acesso, não apenas a adequação clínica, é um obstáculo real que deve ser discutido desde o início.
+
+Se o IVIG produz melhoria parcial, mas os AAbs ainda estão elevados e o paciente está severamente afetado (fisicamente limitado ou confinado à cama), discuta a imunoadsorção com um centro especializado. Um curso de IA de 5 sessões (10–14 dias) deve reduzir o IgG em ~80%. Reavaliar após 1 mês do tratamento. **Se os sintomas não melhorarem apesar da redução adequada do IgG, a interpretação de “os anticorpos são a patologia dominante” não é sustentada** — isso pode significar que os anticorpos não foram patogênicos, que o dano causado é irreversível ou que eles não foram o principal fator; os dados desta série não separam claramente esses casos. Em qualquer caso, a conclusão clínica acionável é a mesma: pare de buscar a remoção de anticorpos e passe para um manejo que amplifique os efeitos positivos.
+
+Só escalar para daratumumab (quando disponível e sob supervisão especializada) se tanto o IVIG quanto a IA falharam no subgrupo pós-infeccioso positivo em AAbs — e apenas dentro de um protocolo de pesquisa controlado, considerando o estágio inicial de evidência e a depleção de células NK-alvo. O daratumumab é um biólogo oncológico caro sem indicação aprovada para EM/SFC; na prática, está efetivamente restrito a centros especializados/pesquisa que possam obtê-lo, portanto, para a maioria dos pacientes não é uma opção realmente acessível.
+
+---
+
+---
+
+## O que significa se o tratamento não ajuda
+
+**Um: um ensaio de imunoadsorção fracassado é informativo.** Se a IgG foi reduzida em 80% e os sintomas não melhoraram, ou os anticorpos não eram patogênicos (desajuste no glicoprofilo Fc), a patologia que causaram é irreversível (internação de recetores) ou a recuperação dos anticorpos foi muito rápida. No primeiro caso, um tratamento mais específico para anticorpos provavelmente não ajudará. No segundo e no terceiro, pode ajudar — mas com uma estratégia diferente (manutenção com daratumumab, e não pulso com IA).
+**Dois: um ensaio fracassado de IVIG indica que o IVIG não funciona para você — nada mais.** Isso não exclui um mecanismo autoimune. O IVIG é imunomodulador, não é depletor de anticorpos, e a dose, a marca e a taxa de infusão afetam a tolerabilidade e possivelmente a eficácia. Mas se o IVIG em doses padrão por mais de 6 meses não produz benefício, continuar indefinidamente não é baseado em evidências nem livre de riscos.
+**Três: o RituxME null foi um fracasso do ensaio, não um fracasso da hipótese.** O rituximabe poupa as células plasmáticas. O modelo da fábrica de células plasmáticas — apoiado pelo sinal do daratumumab e pela latência de 8–9 meses — ainda está em discussão. A lição do RituxME não é “a autoimunidade não é o mecanismo”. É “não depletar as células B e esperar depletar os anticorpos”.
+**Quatro: uma sequência de fracassos — imunoadsorção remove os anticorpos, mas os sintomas persistem, IVIG não produz benefício, daratumumab está indisponível — é evidência real de que a autoimunidade não é a patologia dominante, ou de que foi dominante uma vez, mas o dano que causou agora é auto-sustentável.** Em qualquer caso, é informação útil. Pare de buscar tratamentos específicos para anticorpos e concentre-se nos amplificadores downstream (POTS, MCAS, SFN) que a autoimunidade pode ter desencadeado.
+
+---
+
+## As previsões falsificáveis
+
+- **Se o perfil de glicoproteína previr uma resposta IA** — os perfis dominados por G0F (pro-inflamatórios) respondem; os perfis dominados por sialilação não respondem — o modelo do mecanismo Fc é clinicamente aplicável e deve ser adicionado aos testes pré-tratamento [@Loth2026website].
+- **Se os respondentes ao daratumumab mostrarem uma diminuição no título de anticorpos patogênicos ao longo de 6–9 meses, com melhoria clínica a atrasar**, o modelo da fábrica de células plasmáticas é sustentado e a latência é um fenómeno biológico real, não um efeito placebo.
+- **Se EM/SFC e EXTINCT (Hannover, NCT05954325, n=63) ambos retornarem null em subgrupos com anticorpos positivos**, a hipótese autoimune "sofre um golpe comparável ao colapso do rituximab para RituxME" — conforme o enquadramento do documento principal.
+- **Se a transferência passiva de IgG de EM/SFC reproduz disfunção autonómica em ratinhos** — o experimento foi realizado em fibromialgia e Long COVID, mas nunca em EM/SFC — o mecanismo autoimune passa da associação para a causalidade.
+
+---
+
+## O que você pode fazer de facto
+
+- **Obtenha o exame adequado, mas leia-o criticamente.** O teste de autoanticorpo de GPCR funcional (bioassay, não ELISA) é o mais significativo — mas está disponível apenas em contextos de pesquisa. Se lhe for oferecido o teste comercial CellTrend ELISA, saiba que o estudo de replicação de 2022 constatou que 100% dos controles saudáveis apresentavam α1-AAb positivo, e a utilidade clínica do teste é contestada. Um resultado positivo é ambíguo. Um resultado negativo num assay funcional de alta qualidade é mais informativo do que um resultado positivo num ELISA não específico. - **O melhor preditor de resposta ao tratamento não é o título do anticorpo — é se você tem um início pós-infeccioso claro e um perfil autonômico dominado por POTS.** O sinal do β2-AAb está correlacionado com a gravidade autonômica; a história pós-infecciosa coloca você no subgrupo onde a mimetização molecular é o gatilho plausível. Se o seu EM/SFC foi gradual, não pós-infeccioso e dominado pela dor em vez de POTS, a probabilidade pré-teste de que um mecanismo autoimune seja o fator dominante é menor. - **A imunoadsorção é uma decisão especializada para os afetados gravemente, com autoanticorpos de GPCR documentados e perfil dominado por POTS.** Não é um tratamento de primeira linha nem uma recomendação genérica. Exige um centro com experiência em IA e um prescritor que entenda as limitações das evidências — incluindo o resultado IA-PACS-CFS pendente e a discordância de Anft 2025. Também está entre as intervenções mais caras e menos disponíveis descritas nesta série (centro especializado, acesso venoso central, um curso de ~5 sessões), portanto, o acesso realista deve ser considerado uma barreira na maioria dos sistemas. - **IVIG é uma opção de risco mais alto, com menos evidências do que sugere sua reputação entre pacientes.** O resultado nulo do PANDAS IVIG é um exemplo de cautela. Os dados da pesquisa Eckey 2025 são encorajadores, mas não controlados. Um estudo de 6 meses com IVIG com endpoints definidos e uma regra de interrupção é uma conversa racional com um imunologista se os autoanticorpos de GPCR estiverem documentados e as opções menos invasivas falharam — mas IVIG indefinido sem evidência de benefício não é medicina adequada. Os exames de segurança padrão antes do IVIG — nível de IgA sérica (para excluir deficiência de IgA, onde o risco de anafilaxia é maior), função renal e uma avaliação de risco tromboembolico — fazem parte de um exame responsável e devem ser discutidos com o prescritor. - **Aceite que o campo ainda está incerto.** O sinal do daratumumab é real, mas não controlado. O resultado IA-PACS-CFS está sendo avaliado em sua forma preliminar (sugerendo nenhum benefício claro em relação ao placebo) e o resultado EXTINCT ainda está pendente [@Rucker2026WirthScheibenbogen]. A hipótese do glicoprofilo é mecanicamente elegante, mas não testada clinicamente. 
+
+---
+
+## A conclusão
+
+Tratamentos direcionados à autoimunidade para EM/SFC existem — imunoadsorção, IVIG, rituximab, daratumumab — mas as evidências são desiguais; os sinais em estudo aberto superam os resultados controlados, um padrão que tornou o RituxME impossível de ignorar; e os instrumentos de medição que identificariam quem responderá (bioanálises funcionais, perfis de glicoproteínas Fc) não estão disponíveis clinicamente. O sinal do daratumumab — melhoria marcante de 60% num piloto não controlado — é a mais encorajadora evolução recente, mas o precedente do RituxME exige replicação controlada antes que possa mudar a prática [@Fluge2025daratumumab][@Loth2026website].
+
+A abordagem clínica é um estudo com tempo limitado e endpoint definido, no subgrupo de pacientes positivos para anticorpos, pós-infeccioso e dominado por POTS — e a disciplina é parar se o estudo falhar e redirecionar a atenção para os amplificadores downstream que a autoimunidade, se presente, tenha ativado.
+
+**Próximo tópico desta série:** “Chained together” — a síntese final. Como os amplificadores se tornam uma doença única e o que isso significa para o tratamento.
+
+Para uma visão abrangente e totalmente citada de como a autoimunidade é considerada entre os muitos mecanismos candidatos na EM/SFC, consulte [@Loth2026website].

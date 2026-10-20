@@ -1,0 +1,70 @@
+---
+title: "A matemática pode nos dizer o que causa a EM/SFC?"
+description: "A biologia responde a questões causais no laboratório: você perturba um sistema, observa o resultado e infere a relação. Mas em doenças humanas, a maioria das perturbações não é nem controlável nem reversível; a maioria dos pacientes chega com a doença já instalada..."
+author: "Yannick Loth"
+date: "2026-04-10"
+categories: [Modeling, Systems Biology]
+lang: pt
+---
+
+A biologia responde a questões causais no laboratório: você perturba um sistema, observa o resultado e infere a relação. Mas em doenças humanas, a maioria das perturbações não é controlável nem reversível; a maioria dos pacientes chega com a doença já estabelecida, e o que você mais deseja saber — o que aconteceu no momento do início da doença — geralmente é impossível de observar. A biologia atinge seu limite.
+
+A matemática tem uma abordagem diferente. Em vez de observar diretamente o evento causal, você constrói um modelo formal da dinâmica do sistema, codifica os mecanismos que acredita estar em ação e depois pergunta: esse mecanismo sozinho, partindo de um estado saudável, pode levar o sistema a ultrapassar a fronteira e entrar em doença? Essa pergunta pode ser respondida analiticamente, sem realizar o experimento num paciente.
+
+Isso é o que o Capítulo 33 do framework faz. Ele utiliza a hierarquia causal qualitativa do Capítulo 16 — a classificação em três níveis das causas raiz, amplificadores e consequências, desenvolvida por meio de raciocínio biológico verbal — e submete-a a testes formais usando um modelo de sistemas dinâmicos com 67 variáveis [Cap. 33 §Introdução].
+
+---
+
+## Três análises complementares
+
+A análise formal faz três perguntas, cada uma visando um aspecto diferente da dinâmica da doença [Cap. 33 §Metodologia]. A primeira é a suficiência do gatilho: partindo do estado estável saudável, pode um único mecanismo perturbar o sistema para atravessar a separatrix — a fronteira entre o atrator saudável e o atrator da doença — sem nenhum outro alteração? Se sim, esse mecanismo pode iniciar a doença por si só. A segunda é a análise de sensibilidade: no estado estável da doença, quais parâmetros controlam mais fortemente a configuração da doença? Alta sensibilidade significa que pequenas mudanças num parâmetro produzem grandes alterações na gravidade da doença, identificando os mecanismos de suporte com maior poder terapêutico. A terceira é a remoção do bloqueio: partindo do estado estável da doença, pode restaurar um único mecanismo aos valores saudáveis permitir que o sistema escape do atrator da doença? Se sim, esse mecanismo é um bloqueio necessário cuja presença é exigida para a manutenção da doença.
+
+A suficiência do gatilho identifica o que pode causar a doença; a remoção do bloqueio identifica o que a mantém. As duas não são simétricas, pois um mecanismo que gera a doença pode não ser necessário para sua manutenção quando outros ciclos estão ativos, e um mecanismo necessário para a manutenção pode não ter sido o gatilho original.
+
+---
+
+## Resultados da suficiência do gatilho
+
+Três das quatro causas raiz candidatas passam no teste de suficiência do gatilho [Cap. 33 §Análise de Suficiência do Gatilho].
+
+A crise de energia do SNC — a redução da atividade do complexo I — é o caminho mais direto. Abaixo de aproximadamente 65% da atividade saudável do complexo I, o sistema de retroalimentação energia-imunidade sofre uma bifurcação de nó-saídea: o atrator saudável desaparece e o único estado estável restante é o atrator da doença [Cap. 33 §Crise de Energia do SNC: Redução do Complexo I]. A cascata ocorre da seguinte forma: o ATP diminui, o controle imunológico enfraquece, as citocinas aumentam, o ciclo vicioso energia-imunidade se fixa e começa a consolidação epigenética.
+
+A ativação do modo seguro metabólico segue um mecanismo diferente. A mudança para o modo seguro apresenta histeresia, uma estrutura bistável onde a ativação e a desativação têm limiares distintos. Um sinal de ameaça transitória que excede o limiar de ativação dispara a mudança para o estado de alta supressão, e as retroalimentações internas — a supressão da ETC que aumenta os ROS, os ROS que estimulam o aumento das citocinas, as citocinas que mantêm o sinal de ameaça — mantêm a mudança ativada mesmo após a ameaça externa ter passado. O mecanismo é autoperpetuador uma vez disparado [Cap. 33 §Ativação do Modo Seguro Metabólico].
+
+A cascata de autoanticorpos GPCR opera mais lentamente. Quando o titer de autoanticorpo atinge aproximadamente 55–65% do máximo normalizado, a disfunção endotelial reduz a entrega efetiva de oxigénio o suficiente para disparar a bifurcação energia-imunidade. Como a acumulação de autoanticorpos leva semanas a meses, este caminho está em conformidade com o subtipo de EM/SFC que surge gradualmente, em vez da apresentação aguda pós-infecciosa [Cap. 33 §Autoanticorpos GPCR].
+
+A canalopatia do canal TRPM3 é condicionalmente suficiente para gatilho, em vez de independente. Mesmo a perda completa de TRPM3 reduz a atividade do complexo I para aproximadamente 70% da saudável — próxima, mas não acima do limiar crítico de 65% —, portanto não dispara a doença de forma independente na maioria dos indivíduos. O que ela faz, em vez disso, é alterar o limiar de todos os outros mecanismos: um paciente com disfunção TRPM3 precisa apenas de uma redução de 20% no complexo I para atravessar a bifurcação, em comparação com 35% num paciente com sinalização de cálcio intacto. A disfunção é uma vulnerabilidade que torna as infeções habituais perigosas [Cap. 33 §Suficiência do Gatilho TRPM3].
+
+---
+
+## Sensibilidade: o que controla mais o estado da doença
+
+A análise de sensibilidade global (índices Sobol) classifica os parâmetros de acordo com o quanto controlam o nível de ATP no estado da doença, levando em conta interações não lineares [Cap. 33 §Análise de Sensibilidade]. A classificação é: atividade do complexo I (índice Sobol 0,42), taxa de exaustão imune (0,31), ativação do modo seguro (0,28), índice de metilação epigenética (0,22) e titer de autoanticorpo (0,19). A soma desses índices atinge 1,77 — bem acima de 1 — porque as interações entre os parâmetros são significativas. O estado da doença não é controlado por nenhuma variável individual, mas pela sua configuração conjunta, que é a assinatura matemática de um sistema de múltiplos bloqueios.
+
+A atividade do complexo I é o parâmetro individual mais influente, mas a exaustão imune ocupa o segundo lugar, mais alto do que a análise de sensibilidade local sugeriria, refletindo uma forte interação não linear entre os subsistemas de energia e imunidade. O índice de metilação epigenética ocupa o quarto lugar, apresentando uma influência moderada, mas generalizada, que afeta todas as variáveis de saída sem dominar nenhuma delas. Isso está em consonância com seu papel como um modificador lento que aprofunda progressivamente o atrator da doença, em vez de influenciar diretamente qualquer subsistema.
+
+---
+
+## Remoção do bloqueio: o que o sistema não consegue evitar sem
+
+Para três dos quatro subtipos da doença, uma restauração de um único parâmetro é suficiente para escapar do atrator da doença [Cap. 33 §Resultados da Remoção do Bloqueio]. No subtipo dominado por imunologia, restaurar a taxa de exaustão imunológica permite a fuga; no subtipo dominado por metabolismo, seja restaurar a atividade do complexo I ou desativar a chave do modo seguro é suficiente; no subtipo dominado por neurovasculatura, eliminar autoanticorpos permite a fuga.
+
+O atrator grave/bloqueado é diferente. Nenhuma restauração de um único parâmetro permite a fuga — cada intervenção desloca o sistema dentro da bacia da doença sem atravessar a fronteira fora dela. As combinações mínimas bem-sucedidas exigem a reversão da metilação epigenética combinada com uma restauração de produção de energia [Cap. 33 §Conjuntos de Intervenção Mínima]. Esta é a base matemática do argumento, apresentado anteriormente nesta série, de que a EM/SFC grave requer uma combinação em vez de um tratamento focado num único alvo. A consolidação epigenética suprimiu vários parâmetros abaixo do limiar de fuga simultaneamente, de modo que restaurar qualquer um deixa os outros suprimidos e o atrator da doença intacto no cenário modificado [Cap. 33 §Interpretação: Por que a Reversão Epigenética é Rate-Limiting].
+
+---
+
+## O que esse tipo de análise pode e não pode afirmar
+
+Os resultados aqui derivam de um modelo. As 67 ODEs codificam o conhecimento biológico atual, e as equações de acoplamento refletem a topologia de feedback conhecida. No entanto, muitos valores de parâmetros são estimados a partir de dados limitados, o modelo não foi totalmente validado numericamente, e as previsões qualitativas — mecanismos suficientes para desencadear, fechamentos necessários, conjuntos mínimos de intervenção — dependem da estrutura de feedback em vez de valores de parâmetros precisos [Cap. 33 §Resultados Analíticos vs. Numericos].
+
+As afirmações analíticas (quais mecanismos são suficientes para desencadear, quais são fechamentos necessários) esperam ser robustas aos detalhes do modelo, pois refletem a topologia da rede de feedback. Os limiares numéricos específicos (Complexo I em 65%, titer de autoanticorpo em 55–65% normalizado) são estimativas de ordem de magnitude que serão aperfeiçoadas com dados melhores.
+
+O que torna a análise valiosa não é que ela prove a hierarquia, mas que torna essa hierarquia testável de uma maneira específica. O modelo faz previsões — sobre quais tipos de intervenção devem ter sucesso, sobre quais devem ficar estagnados sem melhoria, sobre quais combinações devem produzir resultados qualitativamente diferentes — que podem ser verificadas contra dados clínicos. Quando as previsões falham, o fracasso revela algo específico sobre qual parte da estrutura de feedback do modelo está errada.
+
+Essa é a contribuição da matemática para uma doença que não pode ser estudada facilmente experimentalmente: ela fornece precisão, e precisão é o que transforma uma hipótese verbal numa hipótese falsificável.
+
+---
+
+*Artigo anterior desta série: Por que os tratamentos de alvo único continuam falhar na EM/SFC (2026-04-09)*
+
+*Próximo artigo desta série: O modelo de múltiplos impactos — por que apenas algumas pessoas desenvolvem EM/SFC após uma infeção, e quais são as vulnerabilidades predisponentes de forma matemática*

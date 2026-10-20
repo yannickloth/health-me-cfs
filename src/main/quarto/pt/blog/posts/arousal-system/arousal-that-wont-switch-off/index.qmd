@@ -1,0 +1,22 @@
+---
+title: "Conectado, mas cansado: excitação que não desliga"
+description: "Estar exausto, mas incapaz de dormir, não é o mesmo que não ter sonolência. Chamá-lo de nome torna-o testável."
+author: "Yannick Loth"
+date: "2026-09-19"
+categories: [Arousal system, Noradrenergic, Mechanisms]
+lang: pt
+---
+
+“Conectado, mas cansado” é uma das descrições mais comuns dadas pelos pacientes — e uma das menos analisadas. Você está exausto, mas o seu sistema não consegue desligar. Não consegue adormecer ou relaxar, mesmo quando não tem mais energia.
+
+É fácil classificar isso como “insônia” ou “ansiedade”. Uma ideia mais específica é que se trata de um **desajuste de estimulação**: o sistema que liga e desliga a estimulação não consegue fazer a transição que deveria.
+
+A noradrenalina é um dos principais interruptores de estimulação do cérebro. Se a sua produção for baixa — e, plausivelmente, mal regulada (a desregulação não é medida no EM/SFC) — o sistema pode não conseguir desligar a estimulação no momento certo, produzindo o estado de exaustão, mas hiperestimulado (@OsorioForero2021NoradrenergicNREM; @Luthi2025MicroarousalsNoradrenaline).
+
+Isso é distinto do estado de sonolência no contexto das “quatro facetas da fadiga”. Nesse caso, uma pessoa não consegue dormir porque realmente não está sonolenta. Aqui, ela está profundamente cansada, mas incapaz de desligar.
+
+**Devemos ter cuidado.** “Conectado, mas cansado” não é prova de uma lesão na noradrenalina. A hiperestimulação também pode vir de citocinas inflamatórias, um eixo de estresse desregulado (HPA), ansiedade ou hipersensibilidade sensorial. Portanto, este é um candidato, não um diagnóstico.
+
+**Como testá-lo.** Se for um fracasso na transição da estimulação, então os indicadores do controle da estimulação — dinâmica das pupilas, latência para adormecer com pressão do sono preservada — devem diferir entre pacientes que relatam esse padrão, e devem acompanhar a via da noradrenalina. Essa é uma predição testável.
+
+*Por que isso importa:* dar um mecanismo a uma experiência comum e desprezada faz com que seja algo que a pesquisa possa estudar — e o tira do “é apenas ansiedade”.

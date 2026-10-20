@@ -1,0 +1,92 @@
+---
+title: "O Corpo que Não Come — e o Corpo que Não Para Armazenar: Alimentos, Peso e EM/SFC"
+description: "Existe uma história que os clínicos às vezes contam sobre pacientes com EM/SFC que param de comer. A história é esta: ela é uma adolescente, está perdendo peso, recusa alimentos e deve ter um distúrbio alimentar."
+author: "Yannick Loth"
+date: "2026-04-01"
+categories: [Comorbidities, Misdiagnosis]
+lang: pt
+---
+
+Existe uma história que os médicos às vezes contam sobre pacientes com EM/SFC que param de comer. A história é assim: ela é uma adolescente, está perdendo peso, recusa alimentos e deve ter um distúrbio alimentar.
+
+A história às vezes está errada. E quando está errada, as consequências são graves.
+
+---
+
+## Por que os pacientes com EM/SFC param de comer
+
+As estimativas vêm de pequenos estudos pediátricos de um único centro, mas sugerem que as dificuldades de alimentação afetam aproximadamente um em dez adolescentes com EM/SFC, com mais de metade sofrendo de náusea significativa ou dor abdominal. A evitação não é psicológica — os mecanismos são orgânicos e se acumulam uns sobre os outros.
+
+Refeições grandes, alimentos pesados e até mesmo o esforço de ficar sentado de forma ereta por tempo suficiente para terminar um prato podem levar um paciente além do seu limite de energia e desencadear uma crise retardada. A comida torna-se associada a um agravamento, não de forma irracional, mas com precisão. Estudos que utilizam testes de bebida por ultrassom documentaram hipersensibilidade visceral e dano na acomodação gástrica em pacientes com EM/SFC: o estômago não se expande normalmente para receber alimentos e os nervos na parede intestinal são hipersensíveis. Dor abdominal superior e náusea pioram de forma mensurável nos minutos após a alimentação, pelo mesmo mecanismo da dispepsia funcional.
+
+Enquanto isso, moléculas de sinalização pró-inflamatórias — GDF-15, IL-6, TNF-α — atuam nos centros de apetite no cérebro e reduzem a fome independentemente de qualquer estado psicológico. Este é um comportamento de doença: o mesmo mecanismo evolutivo que faz você não querer comer quando tem a gripe, exceto que em EM/SFC não desliga. A anorexia é imunológica, não psiquiátrica. E em casos muito graves, morder, engolir e ficar sentado de forma ereta não são atos triviais — são gastos de energia. Para um paciente cuja energia disponível durante um dia inteiro é equivalente à que uma pessoa saudável usa numa hora, uma refeição não é algo insignificante.
+
+---
+
+## O diagnóstico errado que custa vidas
+
+Quando uma adolescente com EM/SFC perde peso significativo porque não consegue comer sem sofrer crise, um clínico desconhecido sobre EM/SFC pode observar: paciente feminina, perda de peso, evitação de alimentos, fadiga. A possível causa que lhe ocorre é anorexia nervosa.
+
+Este diagnóstico errado está documentado. Possui consequências específicas e graves.
+
+O suporte nutricional — incluindo alimentação por sonda — é retido enquanto as equipas buscam explicações psiquiátricas. São aplicados tratamentos padrão para transtorno alimentar: ativação comportamental, exposição gradual a alimentos temidos, reforço motivacional voltado para a "recusa" de comer. Essas intervenções assumem que a restrição do paciente é voluntária e que a solução é psicológica. Quando a restrição é orgânica, elas falham. Pior: a ativação comportamental pode desencadear mal-estar pós-esforço num paciente que já está gravemente doente.
+
+Em 2021, Baxter, Speight e Weir publicaram uma série de casos em *Healthcare*, documentando cinco pacientes com EM/SFC muito graves que tornaram-se malnutridos de forma letal [@Baxter2021malnutrition]. Em todos os casos, o atraso foi causado por hesitação do clínico — as equipas "supunham teorias psicológicas" em vez de abordar uma necessidade médica primária. As consequências incluíram danos neurológicos, osteoporose, complicações cardíacas e recuperação deficiente de feridas.
+
+As características distintivas que devem evitar este diagnóstico errado são claras assim que se sabe procurá-las. Uma paciente com dificuldade alimentar causada por EM/SFC está *afetada* pela sua incapacidade de comer. Ela quer comer normalmente. Não há distorção da imagem corporal. A perda de peso não é desejada — é lamentada. A dificuldade alimentar acompanha a gravidade da doença, piorando durante exacerbações e melhorando quando a doença melhora. Ela apresenta sinais objetivos de EM/SFC: intolerância ortostática no teste de inclinação, mal-estar pós-esforço documentado ao longo de dias, a assinatura específica desta doença.
+
+A paciente com anorexia nervosa se apresenta de forma diferente em quase todas as dimensões.
+
+---
+
+## O problema oposto: ganho de peso que não responde aos conselhos habituais
+
+A história alimentar no EM/SFC ocorre em ambas as direções.
+
+Para pacientes que podem comer, o ganho de peso involuntário é comum. Os mecanismos são claros: inatividade física quase total imposta pela doença, metabolismo desacelerado e regulação hormonal perturbada. O que é menos óbvio — e clinicamente importante — é o padrão específico de alteração de peso que ocorre.
+
+O EM/SFC está associado a um aumento aproximadamente de duas vezes no risco de síndrome metabólica: circunferência da cintura elevada, triglicerídeos elevados, glicose em jejum elevada e HDL reduzido. A relação é dose-dependente — num estudo de caso-controlo baseado em população, cada componente adicional de síndrome metabólica estava associado a um aumento de 37% nas probabilidades de diagnóstico de EM/SFC.
+
+Mais notável é um padrão chamado **obesidade sarcopénica**: a massa de gordura aumenta enquanto a massa muscular diminui, mesmo em pacientes cujo peso total do corpo parece normal. Os mecanismos convergem de várias direções. O corpo não consegue queimar gordura de forma eficiente — estudos identificaram deficiências específicas nos enzimas que oxidam ácidos gordos (ACAD e CPT), o que significa que a gordura armazenada acumula em vez de ser usada como combustível. Ao mesmo tempo, a síntese de proteínas musculares é prejudicada porque a disfunção mitocondrial que causa fadiga também prejudica o processo energético de construção e manutenção do músculo. Anomalias do músculo esquelético no EM/SFC — atrofia, capacidade oxidativa reduzida, composição de fibras alterada — foram documentadas histologicamente.
+
+O resultado: um paciente que pode parecer "peso normal" na balança, mas cuja composição corporal mudou significativamente para gordura e para longe do músculo. As medidas padrão de IMC ignoram completamente isso.
+
+---
+
+## Por que o conselho padrão falha neste caso
+
+“Perda de peso através de dieta e exercício.” Para a maioria das condições associadas à obesidade, esta é uma orientação razoável. Para a EM/SFC, é contraindicada.
+
+O gestão de peso baseada no exercício desencadeia mal-estar pós-esforço. A NICE retirou sua recomendação para a terapia de exercício gradual na EM/SFC em 2021 com base em evidências de danos obtidas de pesquisas de pacientes e reanálises de ensaios — e o mesmo mecanismo aplica-se independentemente de o objetivo ser reabilitação ou gestão de peso. A prescrição de exercício progressivo para reduzir a gordura corporal na EM/SFC segue o mesmo caminho que causa crises e piora; o resultado não altera as consequências.
+
+A restrição calórica sem atenção cuidadosa à densidade de nutrientes compõe os déficits nutricionais já presentes. Os pacientes com EM/SFC frequentemente têm deficiências em vitaminas B, magnésio, zinco, vitamina D e ácidos gordos ômega-3 — nutrientes que apoiam a função mitocôndria e a regulação imunológica. A restrição de calorias sem abordar a densidade de micronutrientes esgota os processos metabólicos já prejudicados dos cofatores essenciais.
+
+A abordagem médica de “apenas perder peso” também ignora por que o peso está presente. A acumulação de gordura na EM/SFC não é um problema comportamental. É uma consequência da oxidação de gordura prejudicada, da inatividade forçada e da regulação metabólica perturbada. Abordar isso requer abordar essas causas upstream — não simplesmente reduzir calorias ou aumentar o movimento.
+
+---
+
+## A regulação do apetite falhou
+
+A regulação do apetite não é simplesmente uma questão de vontade ou hábito; ela é mediada por hormônios e sinais imunológicos, e a EM/SFC perturba vários deles.
+
+A leptina é o hormônio que diz ao cérebro “você tem suficiente reserva de gordura, pare de comer”. Estudos descobriram níveis elevados de leptina circulante no subtipo de EM/SFC resistente à insulina — paradoxalmente alto, considerando que a leptina alta deveria suprimir o apetite e o armazenamento de gordura. Este padrão está em conformidade com a resistência à leptina, em que o cérebro não responde adequadamente ao sinal, uma consequência conhecida da inflamação crónica. A gordura continua a acumular-se apesar do sinal que deveria impedir isso.
+
+A AMPK adiciona mais um nível de perturbação. É o sensor de energia primário das células, ativado quando o ATP celular cai, o que, na EM/SFC, acontece de forma crónica. A AMPK normalmente estimula a fome e promove a oxidação de gordura. Mas quando a maquinaria de oxidação de gordura seguinte está danificada, o sinal é gerado sem a resposta desejada: o paciente tem fome, ou deveria ter fome, mas comer não resolve a crise de energia celular, pois o problema não é a falta de alimento — é a incapacidade de converter o alimento em energia.
+
+---
+
+## O que realmente ajuda
+
+A base de evidências para a intervenção nutricional em EM/SFC é escassa, mas os princípios são claros. Comidas pequenas e frequentes reduzem o gasto energético de qualquer evento alimentar e diminuem o estresse ortostático pós-prandial. Carboidratos de baixo índice glicémico — aveia, arroz, batata — ajudam a estabilizar o glicose no sangue sem desencadear grandes picos de insulina que possam agravar a resistência à insulina, e a proteína adequada retarda a perda de massa muscular associada à inatividade. A participação de nutricionistas é essencial; restrições dietéticas não orientadas em EM/SFC apresentam um risco documentado de deficiência nutricional grave.
+
+Para pacientes que não conseguem manter uma ingestão adequada por via oral, a nutrição enteral — alimentação por via nasogástrica ou nasojejunal — às vezes é necessária e não deve ser adiada. A decisão de iniciar alimentação por via de tubo em EM/SFC é uma decisão médica, não psiquiátrica. Esperar por uma avaliação psiquiátrica antes de alimentar um paciente desnutrido não é um padrão de cuidado — é uma falha no cuidado.
+
+---
+
+## A imagem geral
+
+A EM/SFC perturba a alimentação de ambos os lados simultaneamente. Alguns pacientes não conseguem comer o suficiente. Outros não conseguem impedir que o seu corpo mude de composição de maneiras que pareçam além do seu controle. Ambos os grupos enfrentam um adicional de estigma: o paciente magro é assumido como ter um distúrbio alimentar; o paciente acima do peso é assumido como não estar a esforçar-se o suficiente.
+
+Nenhuma das suposições é apropriada, e ambas ignoram a biologia subjacente.
+
+O problema alimentar na EM/SFC é um problema metabólico, imunológico e neurológico — vestir as roupas de algo mais familiar e mais conveniente para descartar.

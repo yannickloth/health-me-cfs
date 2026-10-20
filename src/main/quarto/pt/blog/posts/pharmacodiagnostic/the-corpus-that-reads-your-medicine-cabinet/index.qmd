@@ -1,0 +1,58 @@
+---
+title: "O Corpus que Lê o seu Armário de Medicamentos"
+description: "O relatório de medicamento para poolagem não é um sinal de \"sim\" ou \"não\". Ele deve registrar a dose, a faixa de dose, o período de duração, quais sintomas mudaram, quais efeitos colaterais apareceram e por que você parou. Este é o design mínimo que pode permitir que centenas de ensaios de paciente único não coordenados produzam uma classificação em nível de população de caminhos candidatos."
+author: "Yannick Loth"
+date: "2026-09-12"
+categories: [ME/CFS, Treatment, Methods, Pharmacology]
+lang: pt
+---
+
+Existe já uma pesquisa online que pergunta a milhares de pacientes com EM/SFC e COVID de longa duração quais tratamentos consideram que ajudaram. Ela reporta mais de 150 tratamentos classificados por benefício percebido [@Eckey2025PatientReported]. A pesquisa é verdadeiramente útil, mas não pode indicar qual via biológica está danificada, pois pergunta apenas se um tratamento ajudou — não em que dose, por quanto tempo ou por que mecanismo agiu.
+
+A diferença entre uma classificação de popularidade e uma classificação de mecanismo é quase inteiramente uma questão do que o relatório contém. Este artigo fala sobre essa diferença.
+
+## Por que "LDN ajudou-me" não se acumula nada
+
+A proposta central do trabalho de dose-resposta do documento principal é que, em EM/SFC, *onde* na escala de dose um medicamento funciona pode ser a própria informação. Nessa análise, a naltrexona em doses baixas ajuda alguns pacientes em 0,5–1,5 mg e depois deixa de ajudar à medida que a dose aumenta, porque seu mecanismo dominante em baixas doses (um bloqueio parcial do TLR4 que ativa o programa anti-inflamatório Nrf2 das células) propõe-se a desligar quando o bloqueio se torna excessivo [@Younger2013; @Kucic2021LDNmicroglia; @Calabrese2021Nrf2]. Um paciente cujo benefício desaparece à medida que a dose aumenta pode ter dito algo sobre sua biologia. Um paciente que relata apenas "LDN ajudou" não disse nada.
+
+É por isso que o corpus precisa da dose. Um relatório de "LDN não ajudou" não pode ser acumulado, porque não distingue um paciente que falhou numa dose onde o medicamento poderia funcionar de um paciente que falhou no topo da faixa, onde o mecanismo nunca foi ativado. A série de dose-resposta explica isso para a titulação de um único paciente; na escala populacional, o mesmo princípio decide se todo o corpus é útil ou inativo.
+
+O conjunto mínimo de campos, e por que cada campo ganha seu lugar:
+
+- **Medicamento** — a intervenção em si.
+- **Dose e faixa de dose** — a variável de carga. Um valor nulo dentro de uma janela testada é informação; um valor nulo no topo da faixa não é.
+- **Duração** — porque um benefício que aparece em três semanas e diminui em três meses é um achado diferente de um que nunca aparece. Um ensaio adequado tem que ter durado o suficiente para mostrar seu efeito.
+- **Domínio de resposta** — *qual sintoma* mudou. Um medicamento que resolve a névoa cerebral sem afetar a dor está dizendo que esses dois sintomas operam por caminhos diferentes. Uma única pontuação "melhor/pior" destrói esse sinal.
+- **Tipo de efeito colateral** — porque um efeito colateral é uma indicação de que o alvo foi ativado, independentemente de a correção ter ajudado. Um paciente que interrompe um medicamento por um efeito colateral específico ainda contribuiu com dados mecânicos.
+- **Motivo da interrupção** — a forma mais próxima de uma avaliação livre do que realmente aconteceu.
+- **Volume de discussão da comunidade** — um campo incomum, e necessário, explicado abaixo.
+
+## Como centenas de ensaios de um único paciente se tornam um único instrumento
+
+Uma vez que os relatórios podem ser agrupados, formam uma matriz. Cada medicamento é uma linha; cada hipótese mecânica (neuroinflamação TLR4, disfunção do canal TRPM3, limitação do substrato mitocôndrial, ativação de células mastoide, sinalização autoimune, etc.) é uma coluna. Cada célula pergunta: se essa hipótese fosse o problema limitante do paciente, o que esse medicamento teria feito?
+
+Uma resposta positiva mantém as hipóteses que o medicamento deveria abordar, mas apenas após subtrair o nível de placebo abaixo, já que uma resposta positiva não oculta é parcialmente expectativa. Uma resposta nula, registrada dentro da janela do medicamento, os remove do conjunto de candidatos — a menos que as hipóteses sejam "espectralmente idênticas" (dois mecanismos que preverem a mesma resposta para todo o medicamento que podemos testar com segurança, de modo que nenhuma resposta pode distingui-los) ou o alvo tenha se adaptado. Um efeito colateral específico identifica um sistema que o medicamento atingiu. O corpus seria projetado para resolver, por restrição, o pequeno conjunto de hipóteses compatíveis com tudo o que foi observado. Essa é a mesma lógica que o documento principal aplica ao histórico de medicamentos de um único paciente, executado em escala populacional.
+
+Duas refinamentos são importantes.
+
+Primeiro, o corpus deve procurar **subgrupos de respondentes**, não uma média. A resposta heterogênea a um medicamento é em si um diagnóstico. Quando um grande ensaio ARDS divide pacientes por um marcador biológico simples, os dois grupos respondem de forma diferente ao mesmo medicamento, de modo que um ensaio que foi "nulo" no geral continha uma divisão real que revela o mecanismo [@Calfee2018ARDSsubphenotypes]. A EM/SFC mostra uma heterogeneidade substancial, parcialmente reprodutível dentro do diagnóstico [@Vaes2023SymptomClusters]. Um corpus que relata "o paciente médio melhorou um pouco" descartou seu achado mais valioso; aquele que relata *quem* respondeu encontrou um subtipo.
+
+Segundo, o corpus precisa de seu próprio **nível de placebo**. Se você agrupar todos os relatórios, captura não apenas os efeitos do medicamento, mas também a expectativa base da comunidade, a flutuação natural da doença e o viés de lembrança ao olhar para trás. A maneira de medir esse nível base é incluir intervenções sem mecanismo plausível: os suplementos e tendências que os pacientes tentam e que nenhuma hipótese prevê devem funcionar. Sua resposta agrupada *é* o nível. Subtraia-o, e o que resta está mais próximo de um sinal de mecanismo. Sem ele, o corpus não pode distinguir um sinal real fraco de um efeito de expectativa forte. O nível tem uma limitação que vale a pena mencionar: sua validade depende de que o espaço de hipóteses seja completo, e um nível medido em suplementos inertes não precisa ser igual à expectativa associada a um medicamento específico e popular, de modo que corrige a expectativa média da comunidade, não a inflação específica do medicamento.
+
+## O campo de discussão comunitária e por que existe
+
+O sétimo campo é desconfortável, mas essencial. Se os relatos são recrutados de uma comunidade, eles carregam as crenças dessa comunidade, e essas crenças influenciam tanto quais medicamentos são testados quanto a forma como seus efeitos são relatados. Um tratamento amplamente discutido acumulará relatos entusiastas independentemente de funcionar ou não. Se o corpus não conseguir distinguir a farmacologia de um medicamento da sua popularidade, os leitores arriscam tomar o consenso prévio da comunidade como evidência independente.
+
+Portanto, o corpus deve registrar, por medicamento, alguma medida de quanto ele é discutido online ou prescrito nas clínicas de recrutamento. Os caminhos de topo são então testados contra isso: o sinal acompanha a dose e o alvo molecular, ou acompanha o quanto o medicamento é discutido? Se for o último, a proposta falha. Sem esse teste, a proposta não pode separar sinal da popularidade; é a condição sob a qual a ideia pode existir de todo.
+
+## O que isso exigiria
+
+A maior parte do material bruto já existe. Pacientes realizaram esses ensaios; registros e pesquisas já coletam parte dos campos; a máquina estatística para agrupar experimentos de único paciente está madura [@Bourke2020PatientGeneratedData; @Schmid2022BayesianNof1; @Punja2016Nof1Aggregation]. O que falta é um esquema compartilhado (uma convenção sobre o que um relatório deve conter) e a disciplina para coletar fracassos com a mesma cuidado que sucessos.
+
+Isso é uma pequena coisa a pedir e uma grande coisa a mudar: transformaria um arquivo disperso de experiências pessoais no mais próximo que uma doença sem biomarcador tem de uma classificação em nível populacional. A classificação refletiria os pacientes de forma suficiente para contribuir (principalmente leve a moderada), e seriam necessários canais dedicados para alcançar pacientes graves e muito graves, cujos relatos são mais informativos e mais difíceis de coletar.
+
+*Próximo: [O que um monte de relatos de medicamentos pode e não pode dizer](../what-a-pile-of-drug-reports-cannot-tell-you/index.qmd) — os limites, incluindo aquele que poderia destruir toda a ideia.*
+
+*Esta não é orientação médica. Descreve uma proposta de pesquisa. Ninguém deve iniciar, parar ou alterar um tratamento com base numa classificação comunitária agrupada. Qualquer figura de dose aqui é uma ilustração da análise do documento principal, não um guia de prescrição. Discuta qualquer decisão de medicação com seu clínico.*
+
+*Esta publicação se baseia na especificação do corpus farmacodiagnóstico e no esquema de dados mínimo em [Loth 2026](https://yannickloth.github.io/health-me-cfs/). A subtipagem de resposta heterogênea segue [@Calfee2018ARDSsubphenotypes]; o substrato de prática emergente segue [@Bourke2020PatientGeneratedData].*

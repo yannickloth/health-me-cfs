@@ -1,0 +1,20 @@
+---
+title: "Pupilas, aperto e a proporção de urina: testar o sistema sem punção lombar"
+description: "A deteção de noradrenalina veio do líquido cefalorraquidiano. Podemos testar o mesmo sistema de fora?"
+author: "Yannick Loth"
+date: "2026-09-21"
+categories: [Arousal system, Noradrenergic, Mechanisms]
+lang: pt
+---
+
+A descoberta de um défice seletivo de noradrenalina veio de uma punção lombar — líquido cefalorraquidiano, coletado de forma invasiva, uma vez. Isso é adequado para um estudo, mas inútil para cuidados de rotina. Portanto, a questão prática é: o mesmo sistema pode ser analisado de fora?
+
+Várias medidas candidatas já existem:
+
+- **Pupillometria.** O tamanho das pupilas reflete a atividade noradrenérgica e pode ser medido em segundos (@Kang2020Pupillometry). num estudo de medicamento em humanos, a atomoxetina aumentou o diâmetro basal das pupilas, e essa mudança correlacionou-se com a melhoria do comportamento (@OCallaghan2025PupillaryNE).
+- **Resistência ao aperto de mão.** No estudo original, o caminho da noradrenalina correlacionou-se com o tempo que o paciente conseguia manter o aperto de mão (@Aregawi2026Noradrenergic). Uma medida barata e de canto de cama — embora seja uma única correlação não replicada.
+- **Rácio VMA/HVA urinário.** Um rácio de noradrenalina para metabólitos de dopamina, refletindo a etapa DBH — mas atenção: a urina reflete principalmente a rotatividade periférica, e a noradrenalina periférica é, se houver, elevada em EM/SFC, portanto pode não acompanhar o défice central.
+
+Juntas, essas medidas poderiam formar uma **bateria não invasiva** para estratificar pacientes — e, combinadas com um teste de cronometria, para capturar a crise de PEM: medir pupilas e aperto de mão a cada poucas horas durante 72 horas após um esforço controlado, e ver se eles caem e se recuperam na mesma curva que os sintomas. Se o défice causa PEM, essa curva deve existir.
+
+**As advertências são reais.** Nenhuma dessas medidas foi validada juntas em EM/SFC; cada uma é afetada por outras coisas (luz, medicamentos, esforço, sal); e o défice subjacente não foi replicado. Mas o ponto é que o sistema é *testável* sem procedimento invasivo — o que o tornaria útil clinicamente e permitiria o estudo de replicação que o campo realmente precisa.

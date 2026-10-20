@@ -1,0 +1,126 @@
+---
+title: "Artigo 2 sobre fibromialgia: Tratamento da Dor de Padrão de Fibromialgia em EM/SFC — naltrexona em doses baixas, SNRIs, inibidores de COX-2, PEA e o que isso significa quando a dor não para"
+description: "Guia em linguagem simples para o tratamento da dor de padrão da fibromialgia em EM/SFC — naltrexona em doses baixas para microglia TLR4, SNRIs para inibição descendente, gabapentinoides para amplificação central, inibidores de COX-2 para o circuito PGE2/TRPV1, PEA para dor multimodal, antagonistas de NMDA para casos graves, resultados esperados e a discussão sobre \"e se nada ajudar\"."
+author: "Yannick Loth"
+date: "2026-08-10"
+categories: [Treatment, Fibromyalgia, Pain, ME/CFS]
+lang: pt
+---
+
+Se você tem EM/SFC e dor de padrão da fibromialgia, as diretrizes padrão de tratamento da fibromialgia — SNRIs, gabapentoides, exercício graduado — não foram desenvolvidas para um paciente cuja dor aumenta após um esforço mínimo. Os medicamentos que funcionam na fibromialgia pura podem causar sedação e desaceleração cognitiva, o que é proporcionalmente mais caro quando a névoa cerebral já está presente. E alguns dos tratamentos mais eficazes para a dor da fibromialgia — LDN, PEA, inibidores de COX-2 — atuam por mecanismos que são particularmente relevantes para a sobreposição EM/SFC.
+
+Este artigo explica a arquitetura do tratamento. Para o contexto conceitual — o que é sensibilização central, os canais TRPV1/TRPA1 e o híbrido neuropatológico-nocíptico — consulte a [artigo de visão geral](../fibromyalgia-pattern-pain/index.qmd).
+
+---
+
+## Primeiro, um aviso simples
+
+*Tudo o que se segue é uma conversa a ter com um médico clínico, não automedicação. A LDN é um medicamento composto que requer receita médica. Os inibidores de COX-2 apresentam riscos cardiovasculares e renais. Os gabapentinoides causam dependência fisiológica. Os antagonistas de NMDA (ketamina) são substâncias controladas que requerem administração supervisionada. Trabalhe com um especialista em dor que entenda o EM/SFC.*
+
+---
+
+## A arquitetura do tratamento
+
+### Naltrexona em doses baixas (LDN): o melhor primeiro passo para a sobreposição
+
+A LDN em 1–4,5 mg diariamente é o tratamento mais coerente mecanicamente para a dor de padrão da fibromialgia em EM/SFC. A naltrexona é um antagonista de opioides em doses padrão (50 mg), mas em doses baixas reduz a dor de forma paradoxal através de um mecanismo diferente: **bloqueio do TLR4 nas microglia**.
+
+Microglia — as células imunitárias do cérebro — expressam receptor Toll-like 4 (TLR4). Quando o TLR4 é ativado por DAMPs provenientes do estresse tecidual, LPS da permeabilidade intestinal ou sinais inflamatórios, as microglia liberam citocinas pró-inflamatórias que sensibilizam neurônios próximos no cordão espinhal e no cérebro — a base celular da sensibilização central. A LDN bloqueia a sinalização do TLR4 nas microglia, reduzindo essa amplificação neuroinflamatória (a evidência mecânica é apenas animal e em linhas celulares) [@Kucic2021LDNmicroglia; @Kwilasz2021NTXmicroglia].
+
+Na fibromialgia, a LDN tem evidência de ensaios clínicos: um pequeno ensaio cruzado (n=31) mostrou redução modesta da dor em comparação com placebo, com um perfil de efeitos colaterais favorável [@Younger2014LDN] — mas o maior ensaio FINAL (n=99) e uma meta-análise foram nulos [@DueBruun2024LDNFibromyalgia; @Ologunowa2025LDNFMMeta], e os ensaios clínicos de fibromialgia como grupo têm altas taxas de resposta com placebo. Em EM/SFC, a evidência é de pesquisas de registo de pacientes não controladas — mas o mecanismo (bloqueio do TLR4 nas microglia pré-ativadas) é diretamente relevante tanto para a componente de sensibilização central quanto para a reativação das microglia impulsionada pela PEM. A LDN é geralmente bem tolerada — sonhos vívidos e insônia inicial são os efeitos colaterais mais comuns, mitigados ao tomá-la pela manhã em vez de à noite. Começar com 0,5–1,5 mg e aumentar lentamente ao longo de semanas.
+
+**Nenhuma interação pode ser ignorada.** A naltrexona é um antagonista de opioides — mesmo em doses baixas bloqueia os receptores de opioides o suficiente para **enfraquecer ou reverter a analgesia de opioides e provocar abstinência em pacientes que tomam analgésicos de opioides**. Se você estiver tomando algum opioide (codeína, tramadol, hidrocodona, morfina, etc.), a LDN não deve ser iniciada sem um plano explícito acordado com o médico prescritor. Este é um ponto de segurança real, não uma advertência teórica — é o único controle mais importante antes da LDN numa população de pacientes com dor.
+
+### SNRIs: duloxetina e milnacipran
+
+A duloxetina (30–60 mg diariamente) aumenta a noradrenalina e a serotonina nas vias de dor inibitórias descendentes. Possui evidência de nível Cochrane para a dor na fibromialgia. Em EM/SFC, a mesma farmacologia que melhora a dor pode agravar o estado “cansado-mas-atento” no início — os SNRIs podem ser ativadores, com insônia, ansiedade e náusea iniciais que se resolvem em 2–4 semanas. Começar com 30 mg, reavaliar após 4 semanas e parar se a ativação persistir.
+
+O milnacipran está aprovado para fibromialgia, mas é mais noradrenérgico, o que pode ser excessivamente ativador para o perfil autonômico de EM/SFC. A duloxetina é a opção mais segura padrão.
+
+### Gabapentinoides (pregabalina, gabapentina)
+
+O pregabalina (150–450 mg diariamente em doses divididas) apresenta a maior evidência para a fibromialgia entre os gabapentinoides. Ele reduz a liberação de neurotransmissores dependente de cálcio dos neurônios centrais hiperexcitáveis — um mecanismo diferente do dos SNRIs. Os efeitos colaterais de sedação e retardamento cognitivo são o fator limitante no EM/SFC. Comece em baixa dose (pregabalina 25–50 mg à noite) e ajuste lentamente. O resultado em muitos pacientes com EM/SFC é que a dose máxima tolerada está abaixo da dose eficaz para a dor — e isso é um problema de acesso farmacológico, não um problema de conformidade do paciente.
+
+### Inibidores de COX-2: quebrando o ciclo PGE₂/TRPV1
+
+Se um ciclo feed-forward COX-2/PGE₂/TRPV1 é um contribuinte — uma hipótese sugerida pelos pacientes com hiperalgesia por calor — embora o ciclo em si seja inferido e não medido diretamente — então a inibição da COX-2 (celecoxib, tipicamente 200 mg diariamente) deve reduzir a produção de PGE₂ e diminuir essa atividade. A previsão é específica: a inibição da COX-2 deve reduzir a dor de queimação em repouso e a hipersensibilidade ao calor, sem necessariamente melhorar a fadiga ou a PEM — porque se o ciclo COX-2 contribuir, é um amplificador de dor, não um mecanismo de falha energética.
+
+**Considerações práticas.** Os inibidores de COX-2 apresentam riscos cardiovasculares com uso a longo prazo e não devem ser combinados com outros AINEs. São um teste temporário para o fenótipo de dor dominado por COX-2/TRPV1, e não uma estratégia de manutenção crónica. A limitação é que não existe um teste específico para EM/SFC, e a evidência é mecânica, não clínica.
+
+### Palmitoiletanolamida (PEA): multimodal, baixo risco
+
+A PEA é um amido de ácido gordo endógeno que atua através do PPAR-α e indiretamente no sistema endocanabinóico. Uma meta-análise de 2025 constatou que a PEA é eficaz para dor nociceptiva, neuropática E nociplastic — um perfil excepcionalmente amplo. Ela reduz a degranulação de mastócitos, a ativação de microglia e a sensibilização dos nervos periféricos — todos os três mecanismos relevantes para a dor no EM/SFC [@Vina2025pea].
+
+A PEA é geralmente bem tolerada (desconforto gastrointestinal leve numa minoria), disponível sem receita em muitos países e não apresenta interações medicamentosas significativas. A dose habitual é 300–600 mg duas vezes ao dia. A evidência é mais forte para dor pélvica crónica e síndromes de compressão neuropática; a extensão para a dor na fibromialgia no EM/SFC é mecanicamente plausível, mas não testada diretamente. O baixo risco e o perfil de mecanismo amplo tornam-a um passo razoável no caminho do tratamento.
+
+### Antagonistas de NMDA: ketamina e memantina
+
+Para a dor grave, resistente ao tratamento, impulsionada por wind-up central (sumação temporal aumentada na QST), o bloqueio das receptores NMDA é o mecanismo mais direto. Infusões de **dose baixa de ketamina** (0,5 mg/kg em 40 minutos, tipicamente uma série de 3–5 infusões ao longo de 2 semanas) produzem alívio rápido da dor na fibromialgia — mas o alívio é temporário (dias a semanas), e os efeitos colaterais dissociativos (despersonalização, alucinações, fragmentação cognitiva) não se adaptam aos pacientes com EM/SFC que já experimentam névoa cerebral e sensibilidade sensorial [@Walitt2021KetamineFibro].
+
+**Memantina** (10–20 mg diariamente, ajustada lentamente) é um antagonista NMDA oral com perfil de efeitos colaterais mais leves. É utilizada na doença de Alzheimer e possui evidências de series de casos para a fibromialgia. Em EM/SFC, o motivo é reduzir o custo metabólico do processamento da dor sensibilizada — mas a memantina pode causar névoa cerebral, tontura e agitação no início do tratamento, e a janela terapêutica em EM/SFC é estreita. É uma opção para o paciente que falhou com LDN, SNRIs e gabapentinoides, e que tenha registo documentado de wind-up no QST.
+
+---
+
+## Um exemplo de estudo estruturado
+
+*Este é um exemplo para fornecer ao seu médico algo com o qual trabalhar — não é uma auto-prescrição.*
+
+Comece com LDN 0,5–1,5 mg diariamente (na manhã, para evitar insônia — veja acima), aumentando para 4,5 mg em 4–8 semanas. Reavaliar o sintoma-alvo único — dor ardente no repouso, sensibilidade em pontos sensíveis ou amplificação da dor pós-atividade — após 12 semanas. **Se não houver benefício com 4,5 mg, interrompa** — doses acima de 4,5 mg perdem o efeito seletivo para TLR4.
+
+Se o LDN produz benefício parcial, adicione celecoxíbulo 200 mg diariamente por 2 semanas como teste diagnóstico. Se a dor ardente e a sensibilidade ao calor melhorarem em 2 semanas, um componente mediado por COX-2/PGE₂ é *sugeído* (não confirmado — o placebo ou um efeito analgésico geral podem parecer idênticos) — mas a inibição prolongada da COX-2 traz riscos cardiovasculares, portanto use-o para esclarecer o mecanismo e considere uma administração intermitente em vez de contínua. Se o celecoxíbulo não tiver efeito após 2 semanas, interrompa — a via COX-2 provavelmente não é um amplificador dominante.
+
+Se tanto o LDN quanto o celecoxíbulo foram testados, adicione um SNRI (duloxetina 30 mg, aumentando para 60 mg em 4 semanas) ou pregabalina (25–50 mg à noite, aumentando até a dose máxima tolerada). Reavaliar após 8 semanas. **Interrompa se sedação ou ativação impedir a obtenção de uma dose eficaz** — a janela terapêutica em EM/SFC é mais estreita do que na fibromialgia pura, e um resultado nulo na dose máxima tolerada é um resultado válido para o estudo.
+
+Adicione PEA 300–600 mg duas vezes ao dia como um complemento de baixo risco em qualquer momento da sequência. Seu mecanismo de espectro amplo (estabilização de mastócitos, modulação de microglia, redução da sensibilização periférica) o torna complementar ao LDN e aos SNRIs, em vez de redundante. Reavaliar após 8 semanas.
+
+Adicione apenas uma intervenção de cada vez. O objetivo é encontrar a combinação que reduza a dor o suficiente para melhorar a função sem adicionar sedação ou retardamento cognitivo que agrava a doença principal. A arquitetura do estudo estruturado é a única maneira de saber qual contribuição cada medicamento tem.
+
+---
+
+## Resultados esperados
+
+- **LDN leva semanas, não dias.** O efeito anti-microglial se constrói gradualmente. Aumente a dose para 4,5 mg ao longo de 4–8 semanas; reavaliar após 12 semanas. Sonhos vívidos e insônia inicial são comuns e geralmente resolvem. Se não houver benefício com 4,5 mg após 12 semanas, interrompa — a LDN tem uma curva dose-resposta acentuada, e doses acima de 4,5 mg perdem o efeito seletivo para TLR4 e entram no território dos antagonistas opioides padrão.
+- **SNRIs e gabapentinoides têm um atraso terapêutico e um custo de efeitos colaterais.** A dose eficaz para a dor geralmente é maior que a dose inicial. Um medicamento interrompido após 2 semanas devido à sedação nunca foi submetido a uma avaliação justa — mas um medicamento que cause sedação insuportável na menor dose é uma falha real e deve ser interrompido.
+- **Inibidores de COX-2 funcionam rapidamente (dias) ou não funcionam nada.** Se o celecoxib reduz a dor ardente dentro de uma semana, um componente mediado por COX-2/PGE₂ é *sugerente* — embora não comprovado, já que um efeito analgésico não COX-2 ou placebo pode parecer idêntico. Se não faz nada após 2 semanas, o fator provavelmente não é o principal responsável, e a inibição prolongada da COX-2 traz riscos cardiovasculares — interrompa.
+- **PEA é lenta e sutil.** Espere uma melhoria gradual ao longo de 4–8 semanas, não um alívio dramático. O benefício, se ocorrer, geralmente é descrito como “menos sensibilizado” em vez de “menos dor” — uma redução na amplificação em vez do sinal.
+- **Resposta parcial é o resultado mais comum.** A dor reduzida de 8/10 para 5/10 com LDN + PEA, com SNRIs adicionando mais um ponto, mas causando efeitos colaterais inaceitáveis — esse é um resultado de tratamento no mundo real, não uma falha.
+
+---
+
+## O que significa que o tratamento não ajuda
+
+**Um: o fracasso do LDN não nega a sensibilização central.** O LDN bloqueia a TLR4 das microglia — uma das várias vias. Se o mecanismo dominante for uma inibição descendente deficiente (noradrenalina baixa no líquido cefalorraquidiano), um SNRI pode ajudar onde o LDN não fez.
+**Dois: a sedação pode impedir a obtenção de uma dose eficaz de gabapentinóide.** A dose máxima tolerada em EM/SFC pode estar abaixo da dose analgésica. Este é um problema de acesso farmacológico, não uma evidência de que a dor não é central.
+**Três: o ciclo de re-sensibilização impulsionado pelo PEM pode sobrecarregar o tratamento.** Se cada esforço menor desencadeie uma cascada de re-sensibilização ASIC3/P2X4/TLR4, então até os medicamentos eficazes estão lutando contra um alvo em movimento. O manejo da dor não pode ter sucesso se o envelope de energia não for respeitado — o pacing não é uma alternativa aos medicamentos; é a condição sob a qual os medicamentos têm uma chance de funcionar.
+**Quatro: uma sequência de ensaios bem conduzidos (LDN, SNRI, gabapentinóide, PEA, COX-2 inhibitor) sem benefício é uma evidência real de que a farmacologia disponível não é suficiente.** Essa é uma limitação da medicina atual, não um veredito sobre a dor ser “psicológica”. Isso significa que o foco muda para estratégias não farmacológicas (pacing, exposição sensorial graduada, estratégias cognitivas) e conservação radical de energia — não porque a dor não seja real, mas porque os medicamentos não são adequados.
+
+---
+
+## Previsões falsificáveis
+
+- **Se o LDN reduz a dor em EM/SFC mais no subgrupo de dor amplificada PEM (a dor piora 12–48h após a atividade) do que no subgrupo de dor estável**, a re-sensibilização da PEM impulsionada pela TLR4 é clinicamente relevante [@Loth2026website].
+- **Se o celecoxib reduz a hiperalgesia por calor no QST, mas não melhora o pico de VO₂ ou o limiar da PEM**, o ciclo COX-2/PGE₂/TRPV1 é um amplificador de dor, e não um mecanismo de falha energética — consistente com o modelo do amplificador nociplastic.
+- **Se os antagonistas de TRPA1 reduzem a dor pós-atividade mais do que a dor basal**, a via de estresse oxidativo para TRPA1 é um mecanismo de dor específico para PEM.
+- **Se pacientes com fibromialgia isolada (sem EM/SFC) mostrem perfusão muscular normal durante a atividade pelo NIRS, enquanto pacientes com EM/SFC e fibromialgia mostram perfusão prejudicada**, o mecanismo vascular-TRPV1 distingue a dor com sobreposição EM/SFC da dor pura de fibromialgia.
+
+---
+
+## O que você pode realmente fazer
+
+- **Comece com LDN.** Possui o menor impacto colateral, é mecanicamente relevante para a sensibilização central induzida por microglia e tem evidências em fibromialgia. Ajuste lentamente, dê 12 semanas e pare se não houver benefício com 4,5 mg.
+- **Use inibidores de COX-2 como uma sonda de diagnóstico, não como uma estratégia de manutenção.** Se o celecoxib 200 mg diariamente por 2 semanas reduz a dor ardente, um componente mediado por COX-2/PGE₂ é *sugeído* (não comprovado — um placebo ou efeito analgésico geral pode ser o mesmo), o que informa algo sobre o mecanismo da dor mesmo que você não continue com o medicamento a longo prazo.
+- **Adicione PEA.** Baixo risco, mecanismo multimodal, eficaz meta-analiticamente em todos os tipos de dor. Não é um substituto para LDN ou SNRIs — é um complemento que pode alterar a sensibilidade sem adicionar efeitos colaterais.
+- **Para SNRIs e gabapentinoides, comece baixo, avance lentamente e estabeleça uma regra de parada.** O objetivo é encontrar uma dose que reduza a dor sem agravar a névoa cerebral. Se nenhuma dose na faixa terapêutica atinge esse objetivo, o medicamento falhou — documente isso e continue.
+- **Respeite o envelope de energia.** A dor que piora após crises é um sinal de PEM. Medicamentos que melhoram a dor não podem compensar um orçamento de energia que está constantemente deficitário. O ritmo é a base sobre a qual o manejo da dor é construído — não uma alternativa a ele.
+
+---
+
+## A conclusão
+
+A dor de padrão da fibromialgia em EM/SFC é tratada com uma abordagem multimodal: LDN para a TLR4 das microglia, SNRIs e gabapentinoides para a amplificação central (com precauções sobre sedação), inibidores de COX-2 para o loop PGE₂/TRPV1, PEA para a redução da sensibilização de amplo espectro e antagonistas de NMDA para o despertamento grave. A re-sensibilização impulsionada pela PEM — ausente na fibromialgia pura — significa que o envelope de energia e o envelope de dor estão ligados, e o ritmo cardíaco é a base sobre a qual toda a gestão da dor farmacológica se baseia [@Loth2026website].
+
+O fracasso de um ensaio com qualquer um dos medicamentos não significa que a dor não seja real. Significa que aquele medicamento, naquela dose, naquele paciente, não foi suficiente — e o próximo passo é tentar o próximo mecanismo ou aceitar que a farmacologia atual tem limites e mudar o foco para a função dentro desses limites.
+
+**Próximo artigo desta série:** O intestino que não funciona corretamente — dismotilidade GI, SIBO e por que o estômago é a primeira alavanca que os pacientes EM/SFC podem usar.
+
+Para uma visão abrangente e totalmente citada de como a dor de padrão da fibromialgia é avaliada entre os muitos mecanismos candidatos em EM/SFC, consulte [@Loth2026website].

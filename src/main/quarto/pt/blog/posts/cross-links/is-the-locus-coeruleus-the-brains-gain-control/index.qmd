@@ -1,0 +1,20 @@
+---
+title: "O locus coeruleus é o sistema de controle de ganho do cérebro?"
+description: "A teoria sugere que o locus coeruleus regula a intensidade da resposta do córtex — o que poderia relacionar um défice de noradrenalina com a amplificação sensorial e interoceptiva."
+author: "Yannick Loth"
+date: "2026-10-02"
+categories: [Cross-links, Noradrenergic, Mechanisms]
+lang: pt
+---
+
+Uma ideia proeminente em neurociência é que o locus coeruleus atua como um **controle de ganhos** para o córtex — ajustando a intensidade com que as redes respondem a sinais, em vez de transmitir informações específicas. A teoria do “ganho adaptativo” formaliza isso: os modos fásicos e tonais de disparo do locus-coeruleus ajustam o desempenho (@AstonJones2005AdaptiveGain).
+
+Duas questões tornam isso relevante para a EM/SFC.
+
+**Ganho cortical.** A noradrenalina modula o equilíbrio entre excitação e inibição no córtex e a relação sinal-ruído: em ratinhos, manipular a sinalização adrenérgica alterou esses parâmetros, e a atomoxetina achatou a curva sinal-ruído no córtex (@MedinaCoss2025CorticalGain). Se a saída do locus-coeruleus estiver desregulada, a *responsividade* das redes corticais muda.
+
+**Imunidade de barreira.** Independentemente, a noradrenalina pode atuar na vasculatura para reduzir as moléculas de junção firme e permitir a entrada de células imunitárias — o “reflexo de porta” (@Matsuyama2021GatewayReflex). Um sinal de ganho desregulado pode afetar tanto o processamento cortical quanto a vigilância da barreira cerebral.
+
+**O benefício especulativo.** Uma falha no controle de ganhos ofereceria um mecanismo único para duas experiências distintas: sinais sensoriais ou corporais comuns serem sentidos como intensos de forma desproporcional, e acesso neuroimune alterado ao cérebro. Isso é mais abrangente do que “a noradrenalina está baixa” — embora também não tenha evidências diretas.
+
+**As reservas.** Ambos os argumentos são baseados em evidências em ratinhos/revisões; nenhum foi medido em comparação com um índice de noradrenalina na EM/SFC. A ideia é testável — um índice de excitação deveria correlacionar com o fechamento sensorial e com um marcador de barreira — mas ainda não foi testada.

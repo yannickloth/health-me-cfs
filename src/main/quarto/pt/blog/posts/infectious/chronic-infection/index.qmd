@@ -1,0 +1,111 @@
+---
+title: "Artigo 1: Infecção crónica – EBV, HHV-6, Doença Transmitida por Carrapato e a Infecção que Nunca Acaba na EM/SFC"
+description: "Um guia em linguagem simples sobre infeção crónica e reativação viral na EM/SFC — por que EBV, HHV-6 e patógenos transmitidos por carrapatos continuam a sinalizar ao sistema imunitário anos após a doença aguda, a via EBV→mastócito→MMP-9, replicação lítica abortiva, co-reativação de poli-herpesvírus e a diferença entre infeção ativa por si só e estimulação imunológica crónica em conjunto com a EM/SFC."
+author: "Yannick Loth"
+date: "2026-08-13"
+categories: [Chronic Infection, EBV, HHV-6, ME/CFS, Pathophysiology]
+lang: pt
+---
+
+A glândula no pescoço tem estado ativa desde que você "recuperou" da mononucleose há alguns anos. Você tem exacerbações quando está estressado — a dor de garganta volta, os gânglios linfáticos doem, a fadiga aumenta — e lhe é dito que é "infecção passada". Os testes de anticorpos mostram altos títulos de EBV e HHV-6, mas o especialista em doenças infecciosas diz que isso significa apenas que você foi exposto, não que o vírus esteja ativo. Algo ainda está interagindo com o seu sistema imunitário.
+
+Agora adicione o resto da EM/SFC: a PEM, o sono não revigorante, a névoa cerebral. Cerca de 70% dos casos de EM/SFC seguem uma infecção aguda — mononucleose por EBV, roseola por HHV-6, Borrelia transmitida por carrapatos, enterovírus, SARS-CoV-2 — e a questão que tem assombrado o campo há décadas é se o patógeno ainda está lá, ainda causando a doença, ou se ele acendeu um incêndio e se afastou. O precedente mais forte é a coorte de Dubbo, onde uma parte significativa de pessoas com infecções por EBV, vírus Ross River ou febre Q desenvolveu uma síndrome de fadiga pós-infecciosa [@Hickie2006postinfectious].
+
+Este artigo é uma visão conceitual. O que EBV, HHV-6 e patógenos transmitidos por carrapatos realmente fazem na EM/SFC, o modelo abortivo-lítico-replicativo que explica por que os anticorpos antivirais são altos mas a carga viral é indetectável, o caminho EBV→mastócito→MMP-9, o padrão de co-reativação de poli-herpesvírus e a diferença entre infecção ativa por si só e estimulação imunológica crónica na EM/SFC. Os tratamentos — antivirais, imunomoduladores e por que a evidência é mais fraca do que os mecanismos — são abordados no [artigo de tratamento complementar](../chronic-infection-treatment/index.qmd).
+
+---
+
+## Primeiro, um aviso simples
+
+*Esta é uma explicação, não um conselho de automedicação, e eu não sou médico. Os medicamentos antivíricos (valaciclovir, valganciclovir) exigem um prescritor e monitorização renal. As infeções transmitidas por carrapatos requerem avaliação especializada — a Lyme não tratada pode evoluir para complicações neurológicas e cardíacas. Se você tiver uma nova erupção em forma de círculo, paralisia facial ou inchaço nas articulações após uma mordida de carrapato, procure atenção médica urgente.*
+
+---
+
+## A versão curta, se você ler apenas uma parte
+
+- **Uma grande parte dos casos de EM/SFC segue uma infeção aguda** (geralmente citada em torno de 70%, embora a proporção exata seja discutida e retrospectiva), e os quatro principais são EBV/mononucleose, HHV-6 (roseola → neurotrópico, integrado aos cromossomos), Borrelia transmitida por carrapatos (Lyme) e SARS-CoV-2 — cada um dos quais está documentado para preceder um subgrupo de casos de EM/SFC e fadiga pós-infeciosa.
+- **O enigma central é a replicação lítica abortiva (ALR).** O vírus entra no ciclo lítico — expressando proteínas imunostimuladoras — mas para de produzir virion. Não há carga viral mensurável no sangue, mas as proteínas virais (dUTPases, genes imediatos) ainda estão sendo produzidas, e o sistema imunitário ainda as reconhece. Isso explica por que os títulos de anticorpos são altos, mas o PCR é negativo [@Cox2022dUTPaseMECFS].
+- **EBV ativa diretamente os mastócitos.** A proteína recombinante de EBV adicionada aos mastócitos humanos aumentou a liberação de MMP-9 quase seis vezes (2.464 vs 433 pg/ml) — e a MMP-9 degrada a barreira hematoencefálica, permitindo que os mediadores inflamatórios periféricos acessem o cérebro [@Chinnappan2026IL11MMP9].
+- **A co-reativação de poli-herpesvírus é a regra, não a exceção.** 72,5% dos pacientes com EM/SFC tinham anticorpos elevados contra múltiplos herpesvírus dUTPases em comparação com 31% dos controles. EBV, HHV-6, CMV e VZV podem reativar juntos — o sistema imunitário está lutando contra uma guerra viral em múltiplas frentes com recursos esgotados [@Palomo2026herpesvirus].
+- **A infeção crónica é o tópico mais carregado de hipóteses no Septad.** É mecanicamente central, mas mais difícil de tratar de forma clara — os antivíricos que bloqueiam a replicação de DNA em vírus totalmente lítico podem ser ineficazes contra a ALR, e as evidências para isso em EM/SFC são fracas e não replicadas.
+
+---
+
+## A conexão com o EBV: mecanismo, não serologia
+
+O vírus de Epstein-Barr infeta mais de 90% da população mundial. Na maioria das pessoas, estabelece latência nas células B e permanece inativo durante toda a vida, suprimido pela vigilância dos linfócitos T. Em EM/SFC, várias evidências apontam para a reativação do EBV — mas “reativação” não significa a mesma coisa que mononucleose aguda.
+
+### Replicação lítica abortiva (ALR)
+
+Na replicação lítica completa, o vírus expressa genes imediatos (BZLF1, BRLF1), depois genes precoces (incluindo BLLF3, a dUTPase), replica seu DNA, forma virionos e lise a célula. A ALR interrompe após a fase dos genes precoces — as proteínas virais são produzidas, mas nenhum vírus infeccioso é criado. A célula não é destruída, mas expressa antígenos virais que o sistema imunitário deve suprimir continuamente.
+
+A ALR explica o sinal imunológico — altas anticorpos contra antígenos líticos (EA-D, VCA, dUTPase), mas DNA viral indetectável ou baixo no sangue. O vírus não está “replicando” no sentido convencional, mas produz ativamente proteínas que impulsionam a ativação imunitária, inflamação e — criticamente — a degranulação dos mastócitos [@Cox2022dUTPaseMECFS].
+
+### O problema da dUTPase
+
+A dUTPase é uma enzima de herpesvírus conservada que converte dUTP em dUMP, impedindo a incorporação errada de uracila no DNA viral. É também um potente **padrão molecular associado a patógenos (PAMP)** — o sistema imunitário inato reconhece a dUTPase através do TLR2 e desencadeia a produção de citocinas impulsionada por NF-κB. As dUTPases do EBV (BLLF3), HHV-6 (U45), VZV (ORF8) e CMV são estruturalmente suficientemente semelhantes que um vírus reativado pode produzir uma dUTPase que estimule a resposta imunitária a outro — uma base mecânica para a co-reativação de vários herpesvírus [@Cox2022dUTPaseMECFS].
+
+A dUTPase do EBV também ativa NF-κB nos mastócitos, o que impulsiona a expressão da MMP-9. Esta é a ponte entre a história da reativação viraal e a história da degradação do tecido conjuntivo abordada nos artigos sobre hipermobilidade: um herpesvírus reativado produz uma proteína (dUTPase) que orienta os mastócitos a liberar uma enzima (MMP-9) que degrada colágeno e abre a barreira hematoencefálica. O vírus não está no cérebro. Mas seus produtos downstream chegam lá.
+
+### EBV→mastócito→MMP-9: o caminho em números
+
+Chinnappan et al. (2026) testaram o efeito direto da proteína recombinante do EBV sobre mastócitos humanos em cultura:
+- Liberação da MMP-9: **2.464 pg/ml (EBV) vs 433 pg/ml (não estimulado), p<0.001, n=3**
+- Para comparação, o LPS (um PAMP bacteriano) produziu 1.422 pg/ml — o EBV foi 1,7× mais potente que o LPS em impulsionar a MMP-9
+- O mesmo estudo encontrou IL-11 elevado no soro em pacientes com EM/SFC — uma citocina que amplifica a expressão da MMP-9 das microglia, criando um **segundo ciclo de amplificação da MMP-9** no cérebro
+
+**Observações, pois são importantes.** O estudo utilizou mastócitos do sangue do cordão (não mastócitos do paciente), n=3 (requerimento de cultura de 12 semanas limita a replicação), soro em vez de plasma (a MMP-9 é 3–4× mais alta no soro devido à degranulação das plaquetas durante a coagulação) e os grupos de EM/SFC e controle não foram comparados por idade. O achado não foi replicado independentemente. A direção do efeito — a proteína do EBV ativa os mastócitos para liberar a MMP-9 — é mecanicamente importante e biologicamente plausível, mas a magnitude e a especificidade são provisórias [@Chinnappan2026IL11MMP9].
+
+---
+
+## HHV-6: o integrador neurotrópico
+
+O Herpesvírus Humano 6 (HHV-6) infeta quase todos os crianças até os 2 anos de idade (causando roseola) e estabelece latência em células T, monócitos e — criticamente — no sistema nervoso central. O HHV-6 é o único herpesvírus humano que pode **integrar-se nos cromossomos do hospedeiro** (ciHHV-6), criando um reservatório genético permanente que os antivirais padrão não conseguem eliminar.
+
+Em EM/SFC, vários achados apontam para a participação do HHV-6:
+
+- **miR-aU14 encontra mitocôndria.** O HHV-6 codifica um microRNA, miR-aU14, que inibe a família de miR-30 do hospedeiro. A miR-30 normalmente suprime p53 e DRP1 — a remoção dessa inibição ativa a translocação de DRP1 dependente de p53 para as mitocôndrias, causando **fragmentação mitocôndrial**. O vírus não infeta as mitocôndrias diretamente. Ele envia um microRNA que orienta a célula a quebrar suas próprias mitocôndrias [@Schreiner2020HHV6MitoME].
+- **Invasão neurológica pós-morte.** O HHV-6 miR-aU14 foi encontrado no plexo coróideo, hipocampo, amígdala e gânglios da raiz dorsal de pacientes com EM/SFC após a autópsia — e estava ausente em 24 controles. O número de amostras foi n=3, portanto este é um achado, não um facto estabelecido. Mas isso indica a presença de ácido nucleico viral nas regiões cerebrais exatamente onde os sintomas cognitivos, autonômicos e sensoriais da EM/SFC são observados.
+- **Prevalência.** Latente ou persistente HHV-6 foi relatada em cerca de 47% dos pacientes com EM/SFC, em comparação com aproximadamente 10% dos controles em alguns estudos (dados de estudo único; intervalos variam de acordo com o método de análise e definição).
+
+---
+
+## Doença transmitida por carrapato: Lyme, Bartonella, Babesia
+
+**Doença de Lyme (Borrelia burgdorferi)** causa infeção aguda que é tratada com 2–4 semanas de antibióticos. Em 10–20% dos casos, os sintomas persistem por meses a anos — síndrome de Lyme pós-tratamento (PTLDS). Relata-se que a PTLDS se sobrepõe significativamente à EM/SFC no conjunto de sintomas centrais (fadiga, disfunção cognitiva, dor musculoesquelética, distúrbios do sono), tornando as duas condições quase clinicamente indistintas na fase pós-infecciosa.
+
+A discussão sobre o mecanismo reflete a discussão sobre o EBV: existe uma Borrelia persistente (reservatórios refratários a antibióticos, espiroquetas protegidas por biofilme) ou a PTLDS é uma desregulação imune pós-infecciosa que persiste após o patógeno? As evidências para infeção persistente — cultura, PCR, xenodiagnóstico — existem, mas são inconsistentes e tecnicamente desafiadoras. As evidências para desregulação imune pós-infecciosa — citocinas elevadas, exaustão de células T, geração de autoanticorpos — são robustas e correspondem à EM/SFC [@Nawrocki2025LymeSymptomsCDC].
+
+**Bartonella e Babesia** são co-infecções transmitidas por carrapato que são menos estudadas que a Lyme. O DNA de Bartonella foi detectado em ~26% e Babesia em ~24% das coortes de EM/SFC — mas esses estudos não tinham controles saudáveis, portanto a prevalência comunitária de base (que não é zero) é desconhecida. A posição é: as co-infecções transmitidas por carrapato são possíveis contribuintes em indivíduos expostos; as evidências para que sejam um mecanismo geral de EM/SFC são fracas.
+
+---
+
+## Co-reativação de polo-herpesvírus
+
+O sistema imunitário não luta contra um herpesvírus de cada vez. A taxa de seroreatividade de polo-herpesvírus de 72,5% (em comparação com 31% nos grupos de controle) indica que, quando a vigilância imunitária enfraquece — e a exaustão de células T, a disfunção de NK e a senescência de CD8+ estão documentadas na EM/SFC — múltiplos herpesvírus latentes reativam-se simultaneamente [@Palomo2026herpesvirus].
+
+Isso cria um problema no tratamento. O Valacyclovir inibe a polimerase de DNA do EBV (replicação lítica), mas não tem efeito sobre o HHV-6. O Valganciclovir abrange o HHV-6 e o CMV, mas é mais tóxico. Nenhum antiviral individual abrange todos os quatro (EBV, HHV-6, CMV, VZV) sem toxicidade aditiva. E nenhum deles bloqueia a ALR, pois as proteínas virais iniciais são produzidas antes da etapa da polimerase de DNA que os medicamentos visam.
+
+---
+
+## Infecção crónica em si vs EM/SFC com infecção crónica
+
+**Infecção crónica ativa por si só (sem EM/SFC).** Replicação ativa do EBV (positivo em PCR, carga viral detectável), Lyme ativa (confirmada por cultura ou PCR), HHV-6 ativa (viremia em pacientes de transplante) — estas são doenças infecciosas tratadas com antivirais ou antibióticos. Se o patógeno for identificado e houver um medicamento que o atinja, o tratamento é simples: administrar o medicamento, monitorar o patógeno e confirmar a eliminação.
+
+**EM/SFC com estimulação imunológica crónica (a situação desta série).** Quando a história de infecção já passou e o problema atual é ALR, desregulação imunológica ou autoimunidade pós-infeciosa, a lógica do tratamento muda:
+
+- **Antivirais que atuam contra a replicação lítica podem não funcionar contra ALR.** As proteínas virais que impulsionam a resposta imunológica são produzidas antes do passo-alvo do medicamento. Um resultado negativo em ensaio antiviral não prova que o vírus é irrelevante — prova apenas que o medicamento, naquela dose, não interrompeu a fase específica de replicação que está ativa.
+- **A erradicação pode ser impossível.** O HHV-6 integrado não pode ser removido. O EBV latente nas células B de memória é vitalício. O objetivo do tratamento muda de “eliminar o patógeno” para “suprimir a ativação imunológica causada pelo patógeno”.
+- **O defeito imunológico do hospedeiro pode ser o fator limitante, e não a carga viral.** Se as células T estão esgotadas e as células NK são disfuncionais, administrar um antiviral sem abordar o defeito imunológico é como dar a um bombeiro uma mangueira menor enquanto a pressão da água está diminuindo. O fogo não é o patógeno; o fogo é a resposta imunológica ao patógeno, e essa resposta falha porque o sistema imunitário está esgotado.
+
+---
+
+## A conclusão principal
+
+A infeção crónica é a condição mais mecanisticamente central e terapeuticamente frustrante entre as condições de Septad. A evidência de que herpesvírus e patógenos transmitidos por carrapatos estão envolvidos no EM/SFC é forte — a replicação lítica abortiva, a co-reativação de poli-herpesvírus, EBV→mastócito→MMP-9 e HHV-6 fragmentação mitocondrial não são hipóteses marginales. No entanto, a evidência de que o uso de antivirais atuais que visam esses agentes melhora o EM/SFC é fraca e não replicada — e a distinção entre ALR (que os antivirais não bloqueiam) e replicação lítica (que eles bloqueiam) explica por que [@Loth2026website].
+
+O [artigo complementar sobre tratamento](../chronic-infection-treatment/index.qmd) aborda os antivirais (valacyclovir, valganciclovir, famciclovir), os imunomoduladores (cimetidina), os estabilizadores de mastócitos que interrompem o caminho EBV→MMP-9 a jusante do vírus e a discussão sobre “e se os antivirais não funcionarem”.
+
+**Próximo tópico desta mini-série:** os antivirais, a evidência e o que um estudo negativo revela ou não [[ver o artigo complementar]](../chronic-infection-treatment/index.qmd).
+
+Para uma visão abrangente e totalmente citada de como a infeção crónica é considerada entre os muitos mecanismos candidatos no EM/SFC, consulte [@Loth2026website].

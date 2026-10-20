@@ -1,0 +1,68 @@
+---
+title: "Teste de sangue do genoma 3D: o que a cifra de 98% realmente mede"
+description: "Um teste de sangue para EM/SFC foi relatado com 98% de especificidade. Eis contra o que esse número foi medido — e o que tivemos de corrigir no nosso texto."
+author: "Yannick Loth"
+date: "2026-10-14"
+categories: [Self-correction, Diagnostics, Research]
+lang: pt
+---
+
+Um teste de sangue para EM/SFC foi relatado na imprensa. Os números citados são impressionantes: **92% de sensibilidade, 98% de especificidade e 96% de precisão.** Se você tem EM/SFC, um teste assim soa como algo que você esperou há anos.
+
+Este artigo fala sobre a comparação por trás desses números — e sobre uma frase em nosso próprio documento que tivemos que corrigir.
+
+## O que o teste mede
+
+A plataforma lê **arquitetura cromossómica 3D**: como o DNA se dobra em laços dentro do núcleo celular. É uma camada epigenética autêntica, diferente da sequência de DNA e diferente das marcas de metilação medidas por arrays padrão. É uma medição real com uma base biológica real — e é exatamente por isso que merece uma análise cuidadosa, em vez de ser ignorada ou receber entusiasmo excessivo.
+
+O estudo analisou sangue de **47 pacientes com EM/SFC gravemente afetados (acamados) e 61 controles saudáveis.** Um painel de 200 marcadores separou os dois grupos. A análise de caminhos apontou para a sinalização IL-2 e JAK-STAT.
+
+## O número que precisa de um contexto
+
+“98% de especificidade” significa: entre os controles saudáveis, 98% foram identificados corretamente como não tendo EM/SFC.
+
+Essa é toda a afirmação. É medida **apenas em comparação com pessoas saudáveis.**
+
+Não é uma afirmação de que o teste separa a EM/SFC de outras doenças que causam fadiga. O painel nunca foi testado contra fibromialgia, depressão ou fadiga do COVID longo. E essa é a verdadeira questão clínica, pois são essas condições que um paciente real geralmente precisa ser distinguido de.
+
+## Nossa própria correção
+
+Nosso documento descreveu anteriormente os números 92%/98%/96% como vindo da **coorte de descoberta**. Isso estava errado, e percebemos isso ao reverificar a fonte.
+
+Os números vêm da própria **coorte de validação interna (retrospectiva)** do estudo — uma divisão dos mesmos amostras. Essa é uma distinção significativa. Também não é uma coorte externa.
+
+Corrigimos a linguagem em três lugares. A distinção importa pelo mesmo motivo pela qual a série existe: um número que soa mais forte do que é será repetido como se fosse mais forte do que é.
+
+## Novas evidências, publicadas este ano
+
+Duas coisas apareceram desde o artigo original — nenhuma delas é replicação.
+
+**Uma crítica publicada.** Uma carta no mesmo jornal questiona o estudo em dez pontos. Dois deles vão além do que dizemos abaixo e parecem bem fundamentados: a coorte é descrita como “grave/acamada” sem mencionar os critérios de diagnóstico usados, então a amostra não pode ser reproduzida a partir do artigo; e a comparação do estudo com condições responsivas a rituximabe é enganosa, porque o estudo de rituximabe em EM/SFC foi nulo. Várias das outras objeções da carta se sobrepõem aos pontos que abordamos mais adiante — um grupo de controle ambíguo e a ausência de validação externa — e uma vale a pena acrescentar: o estudo não ajustou por medicamentos, infeções prévias ou diferenças no tabagismo entre os grupos. Os autores originais não responderam.
+
+A crítica tem o seu próprio interesse. Os seus autores promovem a terapia de oxigénio-ozono para EM/SFC, e a sua exigência de que o artigo cite o seu próprio trabalho anterior é o ponto menos persuasivo. A afirmação de citação da carta é válida: o estudo cita trabalhos de citocina e células assassinas naturais, mas não os estudos dos anos 1990 que a carta se refere. Citamos a crítica como uma crítica, e não como prova de que o teste é inválido.
+
+**Um estudo de metilação entre condições.** Um estudo único, ainda não replicado, com 188 mulheres, realizado independentemente do fornecedor da plataforma, comparou diretamente EM/SFC com **fibromialgia** — a comparação que o painel EpiSwitch nunca fez. Encontrou dois eixos de metilação distintos:
+
+- um eixo separou a EM/SFC de **ambas** as fibromialgias e grupos de controle, e monitorizou o mal-estar pós-esforço e sintomas cognitivos;
+- um segundo eixo separou **ambos** os grupos de pacientes dos grupos de controle, mas **não** um do outro, e monitorizou a carga de sintomas geral.
+
+O segundo desses eixos é o que importa aqui: ele monitoriza a carga geral de doença em vez do diagnóstico.
+
+E como o classificador EpiSwitch foi treinado apenas contra grupos de controle saudáveis, **não podemos excluir** que parte do seu sinal seja do mesmo tipo de componente de carga.
+
+Há uma advertência nesta frase. O eixo de carga foi encontrado na **metilação**; o EpiSwitch mede a **arquitetura 3D**. São camadas moleculares diferentes, portanto esta é uma analogia e um aviso — não uma medição do painel EpiSwitch.
+
+## O que isso significa para os pacientes
+
+- O teste está **no estágio de pesquisa**. Não é um diagnóstico clínico validado.
+- O número que você pode ter visto foi medido contra pessoas saudáveis. Não foi demonstrado que distinga a EM/SFC da fibromialgia, depressão ou COVID longo.
+- O estudo é uma análise única da empresa que fabrica a plataforma. A declaração de interesse concorrente do artigo lista os autores como funcionários em tempo integral da Oxford BioDynamics, e a empresa financiou o trabalho. Não há replicação independente.
+- O caminho que ele relata é plausível, e trabalhos independentes de células T ligam a topologia da cromatina 3D à sinalização IL-2/JAK-STAT — embora não na EM/SFC. O *classificador* é a parte não comprovada.
+
+Você pode encontrar este teste disponível para venda. **A disponibilidade não é validação.** Um teste pode ser comercializado enquanto a questão da sua especificidade ainda está em aberto, e não podemos recomendar pagar por ele para tomar uma decisão clínica.
+
+O próximo passo é uma coorte independente, realizada por um grupo sem interesse na plataforma, que teste a EM/SFC contra outras doenças que causam fadiga.
+
+Enquanto isso, nada aqui muda o que você deve fazer hoje. As abordagens que o artigo pode apoiar — ritmo de exercício dentro de um envelope de energia e tratamento individual dos sintomas — não dependem da existência deste teste.
+
+*A temática desta série: um documento que não pode revelar seus erros não pode ser confiado com suas conclusões. Encontramos um dos nossos — uma figura descrita como vinda de um grupo diferente — e o corrigimos.*
