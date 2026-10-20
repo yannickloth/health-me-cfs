@@ -1,0 +1,119 @@
+---
+title: "Inflammation cérébrale chronique dans l'EM/SFC : ce que trois études TEP montrent réellement"
+description: "Trois études TEP-TSPO ne sont pas d'accord sur l'inflammation cérébrale dans l'EM/SFC. Cet article explique ce que mesure le traceur, pourquoi un petit résultat positif et un petit résultat nul peuvent coexister, et pourquoi le signal le plus important n'a pas résisté à la correction statistique."
+author: "Yannick Loth"
+date: "2026-10-20"
+lang: fr
+categories: [Neurologie, Neuroinflammation, Biomarqueurs, Méthodes de recherche]
+---
+
+"L'inflammation cérébrale" est l'une des expressions les plus répétées dans l'EM/SFC. C'est aussi l'une des moins établies. Trois études TEP humaines dominent le tableau, et elles ne sont pas d'accord. Deux sont petites. Une n'est pas du tout une cohorte d'EM/SFC. Le signal positif le plus important s'affaiblit lorsqu'on lit ses statistiques de près.
+
+Cela ne rend pas l'idée sans valeur. Cela rend l'affirmation plus étroite que le marketing qui l'entoure. Cet article sépare ce que mesure le traceur, ce que les trois études ont trouvé, pourquoi elles sont en désaccord et quelle mesure trancherait réellement la question.
+
+::: {.callout-warning}
+Ceci est une explication de recherche, pas un avis médical. La TEP-TSPO est un outil de recherche. Elle n'est pas validée pour diagnostiquer l'EM/SFC ni pour choisir un traitement. N'utilisez pas cet article pour commencer, arrêter ou modifier un médicament ou un complément.
+:::
+
+## La version courte
+
+- **La TEP-TSPO ne mesure pas l'inflammation.** Elle mesure la liaison à une protéine mitochondriale présente dans la microglie, les astrocytes, les cellules vasculaires et le muscle lisse. Le signal n'est pas spécifique d'un type cellulaire [@Nutma2023TSPO].
+- **Les deux études sur l'EM/SFC sont en désaccord.** Nakatomi et al. (2014) ont trouvé une liaison plus élevée chez neuf patients que chez dix témoins [@Nakatomi2014neuroinflammation]. Raijmakers et al. (2022) n'ont trouvé aucune différence entre neuf patients et neuf témoins, et une corrélation en sens inverse [@Raijmakers2021neuroinflammation].
+- **L'étude la plus importante est post-COVID, pas EM/SFC.** Visser et al. (2025) ont scanné 47 personnes avec une fatigue persistante après la COVID-19. Certaines personnes avaient une liaison cérébrale élevée, mais la différence de groupe n'a pas résisté à la correction pour comparaisons multiples [@Visser2025TSPOfatigue].
+- **Un scanner nul au repos n'exclut pas un état amorcé.** Une valeur de départ d'apparence normale peut encore produire une réponse exagérée à une provocation ultérieure.
+- **La TEP-TSPO n'est pas un test clinique.** Elle ne peut pas vous dire si vous avez une inflammation cérébrale, ni quel traitement prendre.
+
+## Ce que le traceur mesure réellement
+
+La TSPO est une protéine de la membrane mitochondriale externe. Elle est abondante dans la microglie activée, ce qui en a fait la cible standard de l'imagerie de la "neuro-inflammation". Mais elle est aussi exprimée par les astrocytes, les cellules endothéliales et le muscle lisse vasculaire. Dans les lésions humaines de sclérose en plaques, seuls environ 40 % du signal TSPO proviennent de la microglie et des macrophages ; le reste provient d'autres types cellulaires [@Nutma2023TSPO].
+
+Un deuxième problème est vasculaire. Dans une cohorte présentant des séquelles post-aiguës de la COVID-19, la liaison TSPO corrélait avec des mesures de maladie vasculaire plutôt qu'avec un signal inflammatoire net [@VanElzakker2024PASCneuro]. Un troisième problème est génétique. Un polymorphisme courant, rs6971, produit des liants de haute, mixte et faible affinité. Les traceurs de deuxième génération comme le DPA-714 sont sensibles à ce polymorphisme, si bien qu'une cohorte non stratifiée peut fabriquer une différence de groupe ou en masquer une réelle [@Visser2025TSPOfatigue]. L'étude Visser a génotypé tous les participants et a restreint son analyse principale aux liants de haute affinité [@Visser2025TSPOfatigue]. Cela protège le résultat, mais le restreint aussi : le résultat s'applique aux liants de haute affinité et ne peut pas être étendu aux autres génotypes sans preuve.
+
+Le traceur de première génération utilisé dans les deux études sur l'EM/SFC, le PK11195, n'est pas sensible au génotype. Le génotype ne peut donc pas expliquer le désaccord Nakatomi–Raijmakers [@Nakatomi2014neuroinflammation; @Raijmakers2021neuroinflammation]. Il peut expliquer un désaccord entre études de deuxième génération, y compris une future réplication de Visser.
+
+## Les trois études, côte à côte
+
+| Étude | Cohorte | Traceur (génération) | Génotype | n | Résultat principal |
+|---|---|---|---|---|---|
+| Nakatomi 2014 | EM/SFC | [11C]PK11195 (première) | Non sensible | 9 vs 10 | Liaison plus élevée dans six régions ; corrélation positive avec la gravité |
+| Raijmakers 2022 | EM/SFC | [11C]PK11195 (première) | Non sensible | 9 vs 9 | Aucune différence ; corrélation négative avec la gravité |
+| Visser 2025 | Fatigue post-COVID | [18F]DPA-714 (deuxième) | Liants de haute affinité uniquement | 47 (33 avec plaintes persistantes) | Liaison élevée chez certaines personnes ; différence de groupe nulle après correction |
+
+**Nakatomi et al. (2014)** ont rapporté une liaison TSPO supérieure de 45 à 199 % dans le cortex cingulaire, l'hippocampe, l'amygdale, le thalamus, le mésencéphale et le pont chez neuf patients par rapport à dix témoins, avec une corrélation positive entre la liaison et la gravité des symptômes [@Nakatomi2014neuroinflammation]. C'est l'étude qui a lancé l'histoire de l'"inflammation cérébrale". C'est aussi une étude à neuf patients avec un traceur de première génération connu pour un mauvais rapport signal-bruit.
+
+**Raijmakers et al. (2022)** ont utilisé le même traceur chez neuf patients et neuf témoins et n'ont trouvé aucune différence significative. La corrélation avec la gravité allait dans le sens inverse : une liaison plus élevée était associée à une gravité moindre [@Raijmakers2021neuroinflammation]. Un résultat nul chez neuf patients n'est pas une réfutation, mais ce n'est pas non plus une réplication. Deux petites études pointant dans des directions opposées sont un signal que la mesure est instable.
+
+**Visser et al. (2025)** est l'étude la plus importante et la plus avancée techniquement. Quarante-sept personnes avec une fatigue persistante et des difficultés de concentration après la COVID-19 ont été scannées avec le [18F]DPA-714 environ 27 mois après l'infection ; 33 avaient des plaintes persistantes et 14 n'en avaient pas [@Visser2025TSPOfatigue]. Les auteurs ont trouvé une liaison cérébrale plus élevée chez certaines personnes avec des plaintes persistantes et aucune différence au niveau du groupe pour la liaison extracérébrale. Ils n'ont pas non plus trouvé de corrélation entre la liaison cérébrale et extracérébrale, ni entre l'une ou l'autre et la gravité des symptômes.
+
+Les statistiques doivent être énoncées précisément, car le résumé ne les contient pas. La différence paramétrique dans la substance grise globale était de P = 0,036 avant correction. Après correction de Benjamini–Hochberg, elle était de P = 0,144, et sur un test non paramétrique non ajusté, de P = 0,216. Aucune région cérébrale n'a survécu à la correction. Les auteurs décrivent un "sous-type" parce qu'un sous-ensemble de personnes avait une liaison élevée, pas parce que la comparaison de groupe était statistiquement robuste [@Visser2025TSPOfatigue].
+
+Deux détails de conception comptent pour l'interprétation. Premièrement, le type de scanner corrélait avec la liaison à rho = 0,61, et l'indice de masse corporelle différait entre les groupes (29 ± 6 contre 25 ± 3). Les deux ont été inclus comme covariables de nuisance, mais un effet de scanner de cette taille est un avertissement. Deuxièmement, les analyses extracérébrales n'incluaient que les 25 participants avec et 11 sans plaintes scannés sur le scanner à champ axial long. Le sous-groupe avec une liaison cérébrale élevée n'est pas chiffré dans l'article. "Certaines personnes" est donc une queue non quantifiée, pas un sous-type défini.
+
+## Pourquoi les études sont en désaccord
+
+Il y a au moins six raisons, et elles ne s'excluent pas mutuellement.
+
+**Taille de l'échantillon.** Neuf patients contre neuf témoins donnent des intervalles de confiance larges. Un véritable petit effet peut produire un résultat positif dans une cohorte et un résultat nul dans une autre. L'étude la plus importante compte 47 participants, mais seulement 33 avec des plaintes persistantes, et le sous-groupe des liants élevés est encore plus petit.
+
+**Génération du traceur.** Le PK11195 de première génération a un mauvais rapport signal-bruit et une liaison non spécifique élevée. Le DPA-714 de deuxième génération a un meilleur signal, mais il est sensible au génotype. Les deux générations ne sont pas interchangeables.
+
+**Définition de la cohorte.** Nakatomi et Raijmakers ont utilisé des critères d'EM/SFC. Visser a utilisé une fatigue post-COVID avec des critères personnalisés, pas une définition de cas d'EM/SFC. Une cohorte de fatigue post-COVID est pertinente, mais ce n'est pas la même population.
+
+**Choix d'analyse.** Une comparaison globale de la substance grise, une comparaison région par région et une comparaison voxel par voxel posent des questions différentes. La correction pour comparaisons multiples change la réponse. La différence de groupe de Visser était présente avant correction et absente après. Ce n'est pas une faute ; c'est de la fragilité.
+
+**Appariement de l'activité.** Aucune des trois études ne rapporte de témoins appariés sur l'activité. Une activité réduite, qui est elle-même une conséquence de la fatigue, modifie la régulation immunitaire, l'adiposité, le sommeil et la fonction vasculaire. La signalisation de la leptine vers la microglie réactive est une voie concrète par laquelle un état périphérique lié à l'activité pourrait produire un signal central [@Abdelrheem2026leptinfm]. L'objection s'applique aussi aux études nulles : un groupe de témoins sédentaires serait le bon comparateur, et aucune des études citées n'en a utilisé [@Nakatomi2014neuroinflammation; @Raijmakers2021neuroinflammation; @Visser2025TSPOfatigue].
+
+**Corrélation avec la gravité.** Nakatomi a rapporté une corrélation positive, Raijmakers une négative et Visser aucune. Trois directions d'effet sur trois études ne constituent pas une relation dose-réponse. C'est un avertissement sur la mesure.
+
+## Ce que les données animales ajoutent, et ce qu'elles n'ajoutent pas
+
+La preuve de chronicité la plus forte n'est pas humaine. Dans un modèle murin de colite répétée, la microglie corticale a conservé un état d'activation enrichi en iNOS pendant la rémission, après la résolution de l'inflammation périphérique, avec des marqueurs synaptiques glutamatergiques élevés et GABAergiques réduits [@Morton2026persistentmicroglia]. La même étude a trouvé le schéma opposé dans l'hippocampe : un programme réparateur enrichi en ARG1/TREM2/P2Y12R que les auteurs décrivent comme préservant l'intégrité des circuits. Un seul cerveau contenait deux états microgliaux différents en même temps. C'est un avertissement contre le fait de traiter l'"activation microgliale" comme une seule quantité à l'échelle du cerveau.
+
+Chez des souris infectées par des prions, la délétion de TREM2 a aggravé la neuropathologie sans modifier le dépôt de protéine mal repliée [@Carpanini2025trem2prion]. TREM2 régule donc la réactivité de la microglie activée de façon chronique, et non la clairance du déclencheur. Cette distinction compte pour la thérapie : un médicament qui modifie la réactivité n'est pas la même chose qu'un médicament qui élimine la cause.
+
+Le fossé translationnel est important. Ce sont des études sur rongeurs. Deux sont des modèles de maladie inflammatoire périphérique plutôt que de fatigue post-infectieuse. Seul le modèle de rémission de colite élimine le déclencheur. Aucune étude humaine sur l'EM/SFC n'a mesuré si l'activation microgliale persiste après la résolution d'un déclencheur [@Loth2026website].
+
+## sTREM2 : un ancrage de mesure, pas un biomarqueur de l'EM/SFC
+
+Une mesure dans un fluide biologique rendrait la question testable à un coût raisonnable. Chez 46 patients atteints d'encéphalite à anti-LGI1, le TREM2 soluble du liquide céphalo-rachidien corrélait avec la liaison TSPO hippocampique à R² = 0,18 (P = 0,04), et la captation hippocampique prédisait le pronostic [@Wang2025dpa714strem2]. Il s'agit d'une validation humaine croisée entre modalités : elle montre qu'un marqueur du LCR peut suivre un signal TEP chez les mêmes patients.
+
+Ce n'est pas un résultat sur l'EM/SFC. La maladie est différente, l'inflammation est aiguë et de haute intensité, la corrélation est modeste, et la cohorte est une cohorte de découverte monocentrique sans réplication externe. Le sTREM2 est un outil de mesure prometteur pour une future étude, pas un test qu'un patient peut commander.
+
+## Quatre lectures restent ouvertes
+
+Le schéma d'un petit positif, d'un petit nul et d'un signal de sous-groupe non corrigé est compatible avec au moins quatre interprétations. Les données ne choisissent pas entre elles.
+
+1. **Le modèle du sous-type est correct.** Une minorité de patients a un véritable état inflammatoire central, et les cohortes nulles sont dominées par des patients qui ne l'ont pas.
+2. **Le marqueur est faux.** Le signal TSPO reflète des processus vasculaires, astrocytaires ou métaboliques plutôt qu'une activation microgliale. La corrélation vasculaire dans le PASC soutient cette lecture [@VanElzakker2024PASCneuro].
+3. **Les compartiments sont en désaccord.** Les marqueurs sanguins et la TEP mesurent des compartiments différents, si bien qu'un résultat nul périphérique et un signal central ne sont pas contradictoires.
+4. **Le signal est la queue supérieure de la variation normale.** Un seul scanner de 33 patients ne peut pas séparer un vrai sous-groupe de l'extrémité haute de la variance inter-sujets, surtout lorsque le sous-groupe n'est pas chiffré et que la différence de groupe ne survit pas à la correction.
+
+La lecture 4 est la moins chère à tester et la plus dommageable si elle est vraie, car elle supprime le besoin de toute explication biologique. Les statistiques corrigées la rendent plus plausible, pas moins.
+
+## Deux axes sans aucune étude sur l'EM/SFC
+
+Deux mesures peu coûteuses n'ont aucune littérature sur l'EM/SFC. La protéine CHI3L1 (chitinase-3-like protein 1, aussi appelée YKL-40) est un marqueur d'activation astrogliale et microgliale. La trans-signalisation de l'interleukine-6, via le récepteur soluble de l'IL-6 et gp130, est la voie par laquelle l'IL-6 produit des effets inflammatoires chroniques plutôt qu'aigus. Une recherche documentaire pour le livre sous-jacent n'a trouvé aucune étude sur l'EM/SFC pour l'un ou l'autre axe [@Loth2026website]. C'est une lacune de la littérature, pas une preuve d'absence. Les deux sont moins chers que la TEP et feraient progresser la question de manière substantielle.
+
+## La mesure qui trancherait la question
+
+La conception discriminante est longitudinale et compartimentale. Échantillonnez des marqueurs périphériques et centraux chez les mêmes patients, au même moment, et demandez si les marqueurs centraux restent élevés après la normalisation des marqueurs périphériques.
+
+- Si l'état central est **retenu**, la CRP et l'IL-6 devraient baisser tandis que le sTREM2 du LCR ou la liaison TSPO reste élevée.
+- Si l'état est **continuellement entraîné**, les marqueurs périphériques et centraux devraient monter et descendre ensemble.
+- Si le signal est la **queue supérieure**, un nouveau scanner des mêmes personnes devrait régresser vers la plage des témoins tandis que les symptômes persistent.
+
+Une première étape réalisable est un échantillon apparié lors d'une ponction lombaire cliniquement indiquée, avec un échantillon plasmatique prélevé le même jour. Une étude complète ajouterait une TEP-TSPO sérielle, une accélérométrie objective et une lecture centrale spécifique du type cellulaire. L'étude d'imagerie longitudinale proposée par le livre adopte ces contraintes : analyse principale restreinte par génotype, comparateurs appariés sur l'activité, une région principale prédéfinie et une analyse de persistance chez les participants dont les marqueurs périphériques se normalisent [@Loth2026website].
+
+## Ce que cela signifie cliniquement
+
+La TEP-TSPO n'est pas un test qui sélectionne un traitement. Un scanner positif ne prouve pas une activation microgliale, car le traceur n'est pas spécifique d'un type cellulaire. Un scanner négatif ne prouve pas l'absence, car un scanner au repos ne peut pas détecter un état amorcé. Aucun des deux résultats ne dit à un patient s'il doit prendre de la naltrexone à faible dose, de la minocycline ou tout autre immunomodulateur.
+
+L'affirmation clinique défendable est plus étroite : "l'inflammation cérébrale" est un facteur de stratification possible pour la recherche, pas une cause démontrée de l'EM/SFC. Si un essai montrait un jour qu'un traitement fonctionne dans un sous-groupe à TSPO élevée et pas dans un sous-groupe à TSPO basse, le scanner deviendrait utile. Cet essai n'a pas été fait.
+
+## Limites de cet article
+
+Ceci n'est pas une revue systématique. Cet article repose sur trois études humaines, deux modèles animaux et une validation croisée entre maladies. L'étude humaine la plus importante est une cohorte post-COVID, pas une cohorte d'EM/SFC. Le sous-groupe à liaison élevée n'est pas chiffré. Aucune des études ne rapporte de témoins appariés sur l'activité. La spécificité de la TSPO reste non résolue. Les données animales de chronicité proviennent uniquement de rongeurs, et un seul modèle élimine le déclencheur. L'analyse complète du livre, y compris les hypothèses concurrentes et leurs conditions de falsification, est citée tout au long de l'article [@Loth2026website].
+
+## L'essentiel
+
+Trois études n'établissent pas une inflammation cérébrale chronique dans l'EM/SFC. Une petite étude a trouvé un signal, une autre non, et l'étude la plus importante a trouvé une liaison élevée chez certaines personnes sans différence de groupe corrigée. Les données soutiennent un sous-type possible, pas une cause universelle. La prochaine étape est une meilleure mesure : échantillonnage central et périphérique apparié, conceptions restreintes par génotype, témoins appariés sur l'activité et un nouveau scanner longitudinal des mêmes personnes. D'ici là, "l'inflammation cérébrale" est une hypothèse qui vaut la peine d'être testée, pas un résultat prêt pour la clinique.

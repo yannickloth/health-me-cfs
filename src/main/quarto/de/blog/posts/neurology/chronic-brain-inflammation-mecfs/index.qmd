@@ -1,0 +1,119 @@
+---
+title: "Chronische Gehirnentzündung bei ME/CFS: Was drei PET-Studien tatsächlich zeigen"
+description: "Drei TSPO-PET-Studien widersprechen sich bei der Frage nach einer Gehirnentzündung bei ME/CFS. Dieser Artikel erklärt, was der Tracer misst, warum ein kleiner positiver und ein kleiner Nullbefund nebeneinander bestehen können und warum das größte Signal der statistischen Korrektur nicht standhielt."
+author: "Yannick Loth"
+date: "2026-10-20"
+categories: [Neurologie, Neuroinflammation, Biomarker, Forschungsmethoden]
+lang: de
+---
+
+"Gehirnentzündung" ist einer der am häufigsten wiederholten Ausdrücke bei ME/CFS. Er ist auch einer der am wenigsten geklärten Punkte. Drei humane PET-Studien bestimmen das Bild, und sie stimmen nicht überein. Zwei sind klein. Eine davon ist überhaupt keine ME/CFS-Kohorte. Das größte positive Signal schwächt sich ab, wenn man seine Statistiken genau liest.
+
+Das macht die Idee nicht wertlos. Es macht die Aussage enger als das Marketing um sie herum. Dieser Artikel trennt, was der Tracer misst, was die drei Studien fanden, warum sie sich widersprechen und welche Messung die Frage tatsächlich klären würde.
+
+::: {.callout-warning}
+Dies ist eine Erklärung von Forschung, keine medizinische Beratung. TSPO-PET ist ein Forschungsinstrument. Es ist nicht validiert, um ME/CFS zu diagnostizieren oder eine Behandlung auszuwählen. Verwenden Sie diesen Artikel nicht, um ein Medikament oder Nahrungsergänzungsmittel zu beginnen, abzusetzen oder zu ändern.
+:::
+
+## Die Kurzfassung
+
+- **TSPO-PET misst keine Entzündung.** Es misst die Bindung an ein mitochondriales Protein, das in Mikroglia, Astrozyten, Gefäßzellen und glatter Muskulatur vorkommt. Das Signal ist nicht zellspezifisch [@Nutma2023TSPO].
+- **Die beiden ME/CFS-Studien widersprechen sich.** Nakatomi et al. (2014) fanden bei neun Patienten eine höhere Bindung als bei zehn Kontrollen [@Nakatomi2014neuroinflammation]. Raijmakers et al. (2022) fanden keinen Unterschied zwischen neun Patienten und neun Kontrollen sowie eine Korrelation in der entgegengesetzten Richtung [@Raijmakers2021neuroinflammation].
+- **Die größte Studie ist Post-COVID, nicht ME/CFS.** Visser et al. (2025) scannten 47 Menschen mit anhaltender Fatigue nach COVID-19. Bei einigen Personen war die zerebrale Bindung hoch, aber der Gruppenunterschied hielt der Korrektur für multiples Testen nicht stand [@Visser2025TSPOfatigue].
+- **Ein Nullbefund in Ruhe schließt einen geprimten Zustand nicht aus.** Ein normal erscheinender Ausgangswert kann später auf eine Provokation eine übersteigerte Antwort erzeugen.
+- **TSPO-PET ist kein klinischer Test.** Er kann Ihnen nicht sagen, ob Sie eine Gehirnentzündung haben, und nicht, welche Behandlung Sie nehmen sollen.
+
+## Was der Tracer tatsächlich misst
+
+TSPO ist ein Protein an der äußeren Mitochondrienmembran. Es ist in aktivierter Mikroglia reichlich vorhanden, weshalb es zum Standardziel für die Bildgebung von "Neuroinflammation" wurde. Es wird aber auch von Astrozyten, Endothelzellen und vaskulärer glatter Muskulatur exprimiert. In humanen Läsionen der Multiplen Sklerose stammen nur etwa 40 % des TSPO-Signals aus Mikroglia und Makrophagen; der Rest kommt aus anderen Zelltypen [@Nutma2023TSPO].
+
+Ein zweites Problem ist vaskulär. In einer Kohorte mit postakuten Folgen von COVID-19 (PASC) korrelierte die TSPO-Bindung mit Maßen für vaskuläre Erkrankung statt mit einem sauberen Entzündungssignal [@VanElzakker2024PASCneuro]. Ein drittes Problem ist genetisch. Ein häufiger Polymorphismus, rs6971, erzeugt Binder mit hoher, gemischter und niedriger Affinität. Tracer der zweiten Generation wie DPA-714 sind gegenüber diesem Polymorphismus empfindlich, sodass eine nicht stratifizierte Kohorte einen Gruppenunterschied erzeugen oder einen echten verbergen kann [@Visser2025TSPOfatigue]. Die Visser-Studie genotypisierte alle Teilnehmenden und beschränkte ihre Hauptanalyse auf Binder mit hoher Affinität [@Visser2025TSPOfatigue]. Das schützt den Befund, verengt ihn aber auch: Das Ergebnis gilt für Binder mit hoher Affinität und lässt sich ohne Evidenz nicht auf die anderen Genotypen übertragen.
+
+Der in beiden ME/CFS-Studien verwendete Tracer der ersten Generation, PK11195, ist nicht genotypempfindlich. Der Genotyp kann den Widerspruch zwischen Nakatomi und Raijmakers daher nicht erklären [@Nakatomi2014neuroinflammation; @Raijmakers2021neuroinflammation]. Er kann Widersprüche zwischen Studien der zweiten Generation erklären, einschließlich einer künftigen Replikation von Visser.
+
+## Die drei Studien im Vergleich
+
+| Studie | Kohorte | Tracer (Generation) | Genotyp | n | Hauptergebnis |
+|---|---|---|---|---|---|
+| Nakatomi 2014 | ME/CFS | [11C]PK11195 (erste) | Nicht empfindlich | 9 vs 10 | Höhere Bindung in sechs Regionen; positive Korrelation mit der Schwere |
+| Raijmakers 2022 | ME/CFS | [11C]PK11195 (erste) | Nicht empfindlich | 9 vs 9 | Kein Unterschied; negative Korrelation mit der Schwere |
+| Visser 2025 | Post-COVID-Fatigue | [18F]DPA-714 (zweite) | Nur Binder mit hoher Affinität | 47 (33 mit anhaltenden Beschwerden) | Hohe Bindung bei einigen Personen; korrigierter Gruppenunterschied null |
+
+**Nakatomi et al. (2014)** berichteten bei neun Patienten 45–199 % höhere TSPO-Bindung im zingulären Kortex, im Hippocampus, in der Amygdala, im Thalamus, im Mittelhirn und in der Pons im Vergleich zu zehn Kontrollen, mit einer positiven Korrelation zwischen Bindung und Symptomschwere [@Nakatomi2014neuroinflammation]. Diese Studie hat die Geschichte von der "Gehirnentzündung" ausgelöst. Sie ist zugleich eine Studie mit neun Patienten und einem Tracer der ersten Generation, der für ein schlechtes Signal-Rausch-Verhältnis bekannt ist.
+
+**Raijmakers et al. (2022)** verwendeten denselben Tracer bei neun Patienten und neun Kontrollen und fanden keinen signifikanten Unterschied. Die Korrelation mit der Schwere lief in die entgegengesetzte Richtung: Höhere Bindung ging mit geringerer Schwere einher [@Raijmakers2021neuroinflammation]. Ein Nullbefund bei neun Patienten ist keine Widerlegung, aber auch keine Replikation. Zwei kleine Studien mit entgegengesetzter Richtung sind ein Signal dafür, dass die Messung instabil ist.
+
+**Visser et al. (2025)** ist die größte und technisch fortschrittlichste Studie. 47 Menschen mit anhaltender Fatigue und Konzentrationsschwierigkeiten nach COVID-19 wurden etwa 27 Monate nach der Infektion mit [18F]DPA-714 gescannt; 33 hatten anhaltende Beschwerden und 14 nicht [@Visser2025TSPOfatigue]. Die Autorinnen und Autoren fanden bei einigen Personen mit anhaltenden Beschwerden eine höhere zerebrale Bindung und keinen Unterschied auf Gruppenebene bei der extrazerebralen Bindung. Sie fanden auch keine Korrelation zwischen zerebraler und extrazerebraler Bindung und keine Korrelation zwischen beiden und der Symptomschwere.
+
+Die Statistik muss genau benannt werden, weil die Zusammenfassung sie nicht enthält. Der parametrische Unterschied in der globalen grauen Substanz betrug P = 0,036 vor der Korrektur. Nach Benjamini–Hochberg-Korrektur betrug er P = 0,144, und bei einem unadjustierten nichtparametrischen Test P = 0,216. Keine Hirnregion überstand die Korrektur. Die Autorinnen und Autoren beschreiben einen "Subtyp", weil eine Teilgruppe von Personen eine hohe Bindung hatte, nicht weil der Gruppenvergleich statistisch robust war [@Visser2025TSPOfatigue].
+
+Zwei Designdetails sind für die Interpretation wichtig. Erstens korrelierte der Scannertyp mit der Bindung (rho = 0,61), und der Body-Mass-Index unterschied sich zwischen den Gruppen (29 ± 6 gegenüber 25 ± 3). Beides wurde als Störkovariaten einbezogen, aber ein Scannereffekt dieser Größe ist eine Warnung. Zweitens umfassten die extrazerebralen Analysen nur die 25 Teilnehmenden mit und 11 ohne Beschwerden, die am Scanner mit langem axialem Sichtfeld untersucht wurden. Die Teilgruppe mit hoher zerebraler Bindung wird in der Arbeit nicht beziffert. "Einige Personen" ist daher ein nicht quantifiziertes Ende der Verteilung, kein definierter Subtyp.
+
+## Warum die Studien sich widersprechen
+
+Es gibt mindestens sechs Gründe, und sie schließen sich nicht gegenseitig aus.
+
+**Stichprobengröße.** Neun Patienten gegenüber neun Kontrollen ergeben breite Konfidenzintervalle. Ein echter kleiner Effekt kann in einer Kohorte ein positives Ergebnis und in einer anderen einen Nullbefund erzeugen. Die größte Studie hat 47 Teilnehmende, aber nur 33 mit anhaltenden Beschwerden, und die Teilgruppe mit hoher Bindung ist noch kleiner.
+
+**Tracer-Generation.** PK11195 der ersten Generation hat ein schlechtes Signal-Rausch-Verhältnis und eine hohe unspezifische Bindung. DPA-714 der zweiten Generation hat ein besseres Signal, ist aber genotypempfindlich. Die beiden Generationen sind nicht austauschbar.
+
+**Kohortendefinition.** Nakatomi und Raijmakers verwendeten ME/CFS-Kriterien. Visser verwendete Post-COVID-Fatigue mit eigenen Kriterien, nicht eine ME/CFS-Falldefinition. Eine Post-COVID-Fatigue-Kohorte ist relevant, aber nicht dieselbe Population.
+
+**Analyseentscheidungen.** Ein globaler Vergleich der grauen Substanz, ein regionenweiser Vergleich und ein voxelweiser Vergleich stellen unterschiedliche Fragen. Die Korrektur für multiples Testen verändert die Antwort. Der Gruppenunterschied bei Visser war vor der Korrektur vorhanden und nach ihr nicht mehr. Das ist kein Fehlverhalten; es ist Fragilität.
+
+**Aktivitätsabgleich.** Keine der drei Studien berichtet aktivitätsangepasste Kontrollen. Verminderte Aktivität, die selbst eine Folge der Fatigue ist, verändert Immunregulation, Adipositas, Schlaf und Gefäßfunktion. Die Leptin-Signalisierung an reaktive Mikroglia ist ein konkreter Weg, auf dem ein peripherer, aktivitätsgebundener Zustand ein zentrales Signal erzeugen könnte [@Abdelrheem2026leptinfm]. Der Einwand gilt auch für die Nullstudien: Eine sitzende Kontrollgruppe wäre der richtige Vergleich, und keine der zitierten Studien verwendete eine [@Nakatomi2014neuroinflammation; @Raijmakers2021neuroinflammation; @Visser2025TSPOfatigue].
+
+**Schweregrad-Korrelation.** Nakatomi et al. berichteten eine positive Korrelation, Raijmakers eine negative und Visser keine. Drei Wirkrichtungen über drei Studien sind keine Dosis-Wirkungs-Beziehung. Sie sind eine Warnung über die Messung.
+
+## Was die Tierdaten ergänzen — und was nicht
+
+Die stärkste Evidenz für Chronizität ist nicht human. In einem Mausmodell mit wiederholter Kolitis behielt die kortikale Mikroglia während der Remission einen iNOS-angereicherten Aktivierungszustand, nachdem sich die periphere Entzündung zurückgebildet hatte, mit erhöhten glutamatergen und reduzierten GABAergen synaptischen Markern [@Morton2026persistentmicroglia]. Dieselbe Studie fand im Hippocampus das entgegengesetzte Muster: ein reparatives, ARG1/TREM2/P2Y12R-angereichertes Programm, das die Autorinnen und Autoren als Bewahrung der Integrität der neuronalen Schaltkreise beschreiben. Ein Gehirn enthielt zwei verschiedene Mikroglia-Zustände gleichzeitig. Das ist eine Warnung davor, "Mikroglia-Aktivierung" als eine einzige gehirnweite Größe zu behandeln.
+
+Bei prioneninfizierten Mäusen verschlechterte die Deletion von TREM2 die Neuropathologie, ohne die Ablagerung des fehlgefalteten Proteins zu verändern [@Carpanini2025trem2prion]. TREM2 reguliert daher die Reaktivität chronisch aktivierter Mikroglia, nicht die Clearance des Auslösers. Diese Unterscheidung ist für die Therapie wichtig: Ein Medikament, das die Reaktivität verändert, ist nicht dasselbe wie ein Medikament, das die Ursache beseitigt.
+
+Die Translationslücke ist groß. Dies sind Nagetierstudien. Zwei sind Modelle einer peripheren entzündlichen Erkrankung statt einer postinfektiösen Fatigue. Nur das Kolitis-Remissionsmodell entfernt den Auslöser. Keine humane ME/CFS-Studie hat gemessen, ob eine Mikroglia-Aktivierung nach dem Abklingen eines Auslösers bestehen bleibt [@Loth2026website].
+
+## sTREM2: ein Messanker, kein ME/CFS-Biomarker
+
+Ein flüssigkeitsbasierter Messwert würde die Frage zu vertretbaren Kosten testbar machen. Bei 46 Patienten mit Anti-LGI1-Enzephalitis korrelierte lösliches TREM2 im Liquor mit der hippocampalen TSPO-Bindung bei R² = 0,18 (P = 0,04), und die hippocampale Aufnahme sagte die Prognose vorher [@Wang2025dpa714strem2]. Dies ist eine humane Kreuzvalidierung zwischen Modalitäten: Sie zeigt, dass ein Liquormarker ein PET-Signal bei denselben Patienten abbilden kann.
+
+Es ist kein ME/CFS-Befund. Die Erkrankung ist anders, die Entzündung akut und hochintensiv, die Korrelation bescheiden, und die Kohorte ist eine Entdeckungskohorte an einem einzelnen Zentrum ohne externe Replikation. sTREM2 ist ein vielversprechendes Messinstrument für eine künftige Studie, kein Test, den eine Patientin oder ein Patient bestellen kann.
+
+## Vier Lesarten sind weiterhin möglich
+
+Das Muster aus einem kleinen positiven Befund, einem kleinen Nullbefund und einem unkorrigierten Teilgruppensignal ist mit mindestens vier Interpretationen vereinbar. Die Evidenz entscheidet nicht zwischen ihnen.
+
+1. **Das Subtypmodell ist richtig.** Eine Minderheit der Patienten hat einen echten zentralen Entzündungszustand, und Nullkohorten werden von Patienten dominiert, die ihn nicht haben.
+2. **Der Marker ist falsch.** Das TSPO-Signal spiegelt vaskuläre, astrozytäre oder metabolische Prozesse statt einer mikroglialen Aktivierung wider. Die vaskuläre Korrelation bei PASC stützt diese Lesart [@VanElzakker2024PASCneuro].
+3. **Die Kompartimente widersprechen sich.** Blutmarker und PET messen verschiedene Kompartimente, sodass ein peripherer Nullbefund und ein zentrales Signal keinen Widerspruch darstellen.
+4. **Das Signal ist der obere Schwanz der normalen Variation.** Ein einzelner Scan von 33 Patienten kann eine echte Teilgruppe nicht vom oberen Ende der Zwischenpersonen-Varianz trennen, besonders wenn die Teilgruppe nicht beziffert ist und der Gruppenunterschied der Korrektur nicht standhält.
+
+Lesart 4 ist am kostengünstigsten zu testen und am schädlichsten, wenn sie zutrifft, weil sie jede biologische Erklärung überflüssig macht. Die korrigierten Statistiken machen sie plausibler, nicht weniger plausibel.
+
+## Zwei Achsen ohne eine einzige ME/CFS-Studie
+
+Zwei kostengünstige Messungen haben überhaupt keine ME/CFS-Literatur. Chitinase-3-like protein 1 (CHI3L1, auch YKL-40 genannt) ist ein Marker für astrogliale und mikrogliare Aktivierung. Interleukin-6-Trans-Signaling über den löslichen IL-6-Rezeptor und gp130 ist der Weg, über den IL-6 chronische statt akute Entzündungseffekte erzeugt. Eine Literatursuche für das zugrunde liegende Buch fand keine ME/CFS-Studie zu einer der beiden Achsen [@Loth2026website]. Das ist eine Lücke in der Literatur, kein Beleg für Abwesenheit. Beide sind kostengünstiger als PET und würden die Frage wesentlich voranbringen.
+
+## Die Messung, die die Frage klären würde
+
+Das diskriminierende Design ist longitudinal und kompartimentell. Messen Sie periphere und zentrale Marker bei denselben Patienten zur selben Zeit und fragen Sie, ob zentrale Marker erhöht bleiben, nachdem periphere Marker normalisiert sind.
+
+- Wenn der zentrale Zustand **erhalten bleibt**, sollten CRP und IL-6 fallen, während Liquor-sTREM2 oder die TSPO-Bindung hoch bleibt.
+- Wenn der Zustand **kontinuierlich getrieben** wird, sollten periphere und zentrale Marker gemeinsam steigen und fallen.
+- Wenn das Signal der **obere Schwanz** ist, sollte ein erneuter Scan derselben Personen zur Kontrollspanne zurückfallen, während die Symptome bestehen bleiben.
+
+Ein machbarer erster Schritt ist eine gepaarte Probe während einer klinisch indizierten Lumbalpunktion, mit einer am selben Tag entnommenen Plasmaprobe. Eine vollständige Studie würde serielle TSPO-PET, objektive Akzelerometrie und einen zelltypspezifischen zentralen Messwert ergänzen. Die im Buch vorgeschlagene longitudinale Bildgebungsstudie übernimmt diese Vorgaben: genotypbeschränkte Hauptanalyse, aktivitätsangepasste Vergleichsgruppen, eine vorab festgelegte Primärregion und eine Persistenzanalyse bei Teilnehmenden, deren periphere Marker sich normalisieren [@Loth2026website].
+
+## Was das klinisch bedeutet
+
+TSPO-PET ist kein Test zur Behandlungsauswahl. Ein positiver Scan beweist keine Mikroglia-Aktivierung, weil der Tracer nicht zellspezifisch ist. Ein negativer Scan beweist keine Abwesenheit, weil ein Ruhescan einen geprimten Zustand nicht erkennen kann. Keines der beiden Ergebnisse sagt einer Patientin oder einem Patienten, ob er niedrig dosiertes Naltrexon, Minocyclin oder einen anderen Immunmodulator einnehmen soll.
+
+Die vertretbare klinische Aussage ist enger: "Gehirnentzündung" ist ein mögliches Stratifizierungsmerkmal für die Forschung, keine nachgewiesene Ursache von ME/CFS. Wenn eine Studie jemals zeigt, dass eine Behandlung in einer TSPO-hohen Teilgruppe wirkt und in einer TSPO-niedrigen nicht, würde der Scan nützlich. Diese Studie wurde nicht durchgeführt.
+
+## Grenzen dieses Artikels
+
+Dies ist keine systematische Übersicht. Dieser Artikel stützt sich auf drei humane Studien, zwei Tiermodelle und eine krankheitsübergreifende Validierung. Die größte humane Studie ist eine Post-COVID-Kohorte, keine ME/CFS-Kohorte. Die Teilgruppe mit hoher Bindung ist nicht beziffert. Keine der Studien berichtet aktivitätsangepasste Kontrollen. Die Spezifität von TSPO bleibt ungelöst. Die tierischen Chronizitätsdaten stammen nur von Nagetieren, und nur ein Modell entfernt den Auslöser. Die vollständige Analyse des Buches, einschließlich der konkurrierenden Hypothesen und ihrer Falsifikationsbedingungen, wird durchgehend zitiert [@Loth2026website].
+
+## Das Fazit
+
+Drei Studien belegen keine chronische Gehirnentzündung bei ME/CFS. Eine kleine Studie fand ein Signal, eine kleine fand keines, und die größte Studie fand bei einigen Personen eine hohe Bindung ohne korrigierten Gruppenunterschied. Die Evidenz stützt einen möglichen Subtyp, nicht eine universelle Ursache. Der nächste Schritt ist eine bessere Messung: gepaarte zentrale und periphere Probenahme, genotypbeschränkte Designs, aktivitätsangepasste Kontrollen und ein longitudinaler erneuter Scan derselben Personen. Bis dahin ist "Gehirnentzündung" eine Hypothese, die es zu testen lohnt, kein Ergebnis, das für die Klinik bereit ist.
