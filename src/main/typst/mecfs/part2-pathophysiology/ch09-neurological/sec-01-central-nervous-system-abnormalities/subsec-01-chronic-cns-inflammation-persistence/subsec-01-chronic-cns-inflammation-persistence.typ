@@ -22,16 +22,28 @@ Second, the paper already carries a brainstem-specific senescence model
 question and must not be read as a second, independent senescence claim.
 
 #speculation(title: [The Compartmentalised Neuroinflammatory Subtype])[
-*Certainty: 0.44 (source 0.47 after the Long COVID population weight, reduced a
-further 0.03 for the unquantified subgroup and the absent severity relationship;
-speculation-grade, not hypothesis-grade).* A
+*Certainty: 0.30 (source 0.47 after the Long COVID population weight, reduced for
+the unquantified subgroup, the absent severity relationship, and the failure of the
+group difference to survive correction; speculation-grade, not hypothesis-grade).* A
 whole-body second-generation TSPO-PET study ([18F]DPA-714 with arterial input,
 $n = 47$ post-COVID; the 33 with persistent complaints were scanned 27 ± 9 months
 after infection and the 14 without at 25 ± 10 months) found globally increased
 *cerebral* tracer binding in some individuals with persistent fatigue and difficulty
 concentrating, while finding *no* group-level differences in extracerebral binding,
 and *no* correlation between cerebral and extracerebral binding or between either
-and symptom severity @Visser2025TSPOfatigue. The authors conclude that an
+and symptom severity @Visser2025TSPOfatigue.
+
+The group comparison is fragile. The parametric difference in global gray matter was
+$P = 0.036$ before correction, $P_("FDR") = 0.144$ after Benjamini--Hochberg
+correction, and $P = 0.216$ on an unadjusted nonparametric test; no region survived
+correction. The authors describe a subtype because a subset of individuals had high
+binding, not because the group difference was statistically robust. Age, body-mass
+index, and PET scanner type correlated with binding (scanner type $rho = 0.61$), and
+body-mass index differed between groups ($29 plus.minus 6$ versus $25 plus.minus 3$);
+all three were nuisance covariates. Extracerebral analyses included only the 25
+participants with and 11 without complaints who were scanned on the long-axial-field
+scanner. The reported elevation is therefore an individual-level pattern that
+survived visual inspection, not a corrected group effect. The authors conclude that an
 "inflammatory subtype" is present. Stated most defensibly: sustained cerebral
 TSPO-binding elevation is *possible* in a post-COVID fatigue cohort (not an
 ME/CFS-defined cohort) two to three years after infection, is *not universal*, and is
@@ -74,6 +86,31 @@ testable retrospectively, which is the main weakness of a single-scan design.
 trials — rather than a universal explanation of ME/CFS; a negative or unstable
 rescan would remove that rationale.
 ] <spec:chronic-inflammation-subtype>
+
+Table @tab:tspo-chronic-studies places the three human studies side by side. The two
+ME/CFS rows disagree in direction, and the post-COVID row is a subgroup-level pattern
+that did not survive correction. The table summarises the disagreement; it does not
+resolve it.
+
+#figure(
+  table(
+    columns: (1.2fr, 1fr, 1.1fr, 1fr, 0.7fr, 2fr),
+    [*Study*], [*Cohort*], [*Tracer*], [*Genotype*], [*n*], [*Result*],
+    [Nakatomi 2014], [ME/CFS], [#super[11]C-PK11195, first generation],
+      [Not sensitive], [9 vs 10],
+      [Higher binding in six regions; positive correlation with severity],
+    [Raijmakers 2022], [ME/CFS], [#super[11]C-PK11195, first generation],
+      [Not sensitive], [9 vs 9],
+      [No difference; negative correlation with severity],
+    [Visser 2025], [Post-COVID fatigue], [#super[18]F-DPA-714, second generation],
+      [High-affinity binders only], [47 (33 persistent)],
+      [Cerebral binding higher in some; group difference $P_("FDR") = 0.144$; no extracerebral difference; no severity correlation],
+  ),
+  caption: [Three TSPO-PET studies of ME/CFS and post-COVID fatigue disagree. The
+    first-generation tracer is not genotype-sensitive, so rs6971 cannot explain the
+    Nakatomi--Raijmakers difference; the second-generation finding is restricted to
+    high-affinity binders and is not sized in the available record.],
+) <tab:tspo-chronic-studies>
 
 #speculation(title: [CNS Immune Memory: Microglial Activation That Outlasts Its Trigger])[
 *Certainty: 0.20 (discounted; raw 0.40, animal population weight 0.50).* A candidate
@@ -194,8 +231,8 @@ the positive PET signals reflect vascular or metabolic tracer handling; (c) bloo
 markers and PET measure different compartments and cannot corroborate or refute each
 other; (d) the elevated subgroup is the upper tail of normal between-subject variance,
 which a single scan of 33 patients cannot exclude — the record available to this
-review does not give the subgroup count, the effect size for the subgroup, or whether
-the region-wise comparisons were corrected for multiplicity. Reading (d) is the cheapest to test and the most damaging if
+review does not give the subgroup count or the effect size for the subgroup, and the
+reported group difference did not survive correction. Reading (d) is the cheapest to test and the most damaging if
 true, because it removes the need for any biological explanation. The absence of any
 ME/CFS study that measures the *chronicity* axis directly — as opposed to a single
 time-point — means the question is currently underdetermined rather than settled in

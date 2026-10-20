@@ -29499,9 +29499,9 @@ sec-bib-rf-elevated-mecfs-duplicate
     *Full Citation:*: Visser D, Golla SSV, Palard-Novello X, et al.\ Varying levels of inflammatory activity in brain and body of patients with persistent fatigue and difficulty concentrating after COVID-19: a TSPO PET study. _Journal of Nuclear Medicine_. 2025;66(11):1787--1794. @Visser2025TSPOfatigue
     *DOI:*: #link("https://doi.org/10.2967/jnumed.124.269297")[10.2967/jnumed.124.269297]
     *Sample Size:*: n=47 post-COVID (33 with severe fatigue/concentration, 14 without), 27±9 months post-infection; whole-body [18F]DPA-714 TSPO PET with arterial input
-    *Key Findings:*: "Globally increased cerebral [18F]DPA-714 binding in some individuals" with persistent complaints; *no* group-level extracerebral differences; cerebral and extracerebral binding uncorrelated with each other or with severity — "indicating the presence of an inflammatory subtype"
+    *Key Findings:*: "Globally increased cerebral [18F]DPA-714 binding in some individuals" with persistent complaints; *no* group-level extracerebral differences; cerebral and extracerebral binding uncorrelated with each other or with severity — "indicating the presence of an inflammatory subtype". The parametric global gray-matter difference ($P = 0.036$) did not survive Benjamini--Hochberg correction ($P_("FDR") = 0.144$) or an unadjusted nonparametric test ($P = 0.216$); no region survived correction. Scanner type correlated with binding ($rho = 0.61$).
     *ME/CFS Relevance:*: Neuroinflammatory heterogeneity is likely also present in ME/CFS, complicating interpretation of the Raijmakers 2022 null TSPO finding. The chronicity axis (27 months post-infection) is the longest TSPO-PET follow-up window in a post-viral-fatigue population.
-    *Certainty Assessment:*: - *Quality:* High (second-generation tracer, arterial input) - *Sample:* Moderate (n=47) - *Replication:* Single study - *Score:* 0.55 raw → population weight 0.85 → discounted 0.47
+    *Certainty Assessment:*: - *Quality:* High (second-generation tracer, arterial input) - *Sample:* Moderate (n=47) - *Replication:* Single study - *Score:* 0.55 raw → population weight 0.85 → discounted 0.47 (evidence certainty; the claim certainty is 0.30 because the corrected group difference was null)
 
 === VanElzakker et al.\ 2024 — Vascular-Linked TSPO in PASC
 

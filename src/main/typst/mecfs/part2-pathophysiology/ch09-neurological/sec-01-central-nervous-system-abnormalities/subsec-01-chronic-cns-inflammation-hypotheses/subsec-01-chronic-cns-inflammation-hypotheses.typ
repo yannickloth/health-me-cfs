@@ -172,11 +172,11 @@ would be actively misleading.
 
 #synthesis(title: [What the Chronic-Inflammation Evidence Does and Does Not Settle])[
 The environments above, read together with the persistence evidence that precedes them,
-support a narrow conclusion and leave a wide one open. What survives scrutiny: a
-measurable cerebral
-TSPO-binding elevation exists in a minority of post-infectious patients roughly two to
-three years after infection, it is not proportional to symptom burden, and it is not
-universal (@spec:chronic-inflammation-subtype). What does not survive: that chronic CNS
+support a narrow conclusion and leave a wide one open. What survives scrutiny:
+individual-level high cerebral TSPO binding is present in a minority of
+post-infectious patients roughly two to three years after infection, it is not
+proportional to symptom burden, it is not universal, and the group difference did not
+survive correction (@spec:chronic-inflammation-subtype). What does not survive: that chronic CNS
 inflammation is a general feature of ME/CFS, that any measurement to date establishes
 chronicity in humans, or that suppression is the correct therapeutic direction. Three
 proposals in this subsection are ways the surviving evidence could be organised — resolution

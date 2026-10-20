@@ -7,12 +7,12 @@ Beyond neurons and neurotransmitters, glial cells play critical support roles in
 
 ==== Microglial Activation and Neuroinflammation
 
-Microglia, the resident immune cells of the central nervous system, have emerged as key players in ME/CFS neuroinflammation. Evidence for microglial activation includes elevated markers in CSF (soluble CD14, chitotriosidase), PET imaging showing increased translocator protein (TSPO) binding in specific brain regions @Nakatomi2014neuroinflammation, correlation between neuroinflammatory markers and symptom severity, and persistence of microglial activation years after initial infection.
+Microglia, the resident immune cells of the central nervous system, have emerged as key players in ME/CFS neuroinflammation. Evidence for microglial activation includes elevated CSF markers (soluble CD14, chitotriosidase) and PET imaging showing increased translocator protein (TSPO) binding in specific brain regions in one small cohort @Nakatomi2014neuroinflammation; a second cohort of the same size found no difference and a negative correlation with symptom severity @Raijmakers2021neuroinflammation. Human data on persistence after the trigger resolves do not exist; the chronicity evidence is animal-only (Section @sec:chronic-cns-inflammation).
 
 #warning-env(title: [Replication Status and Specificity of TSPO-PET Findings])[
 The Nakatomi et al.\ 2014 study (n=9) reported 45--199% higher TSPO binding in six brain regions @Nakatomi2014neuroinflammation. However, Raijmakers et al.\ (2022) found _no_ significant differences in TSPO binding between 9 CFS patients and 9 controls using the same tracer @Raijmakers2021neuroinflammation\ ---and observed a _negative_ correlation between binding and symptom severity, opposite to Nakatomi's findings. Both studies used only 9 patients with a first-generation tracer known for poor signal-to-noise ratio.
 
-Beyond replication failure, the interpretation of TSPO signal as "neuroinflammation" faces fundamental specificity concerns. Nutma et al.\ (2023) demonstrated that TSPO is a reliable marker of activated microglia in rodent models but _not_ in human neurodegenerative diseases @Nutma2023TSPO. In human MS lesions, only approximately 40% of TSPO signal originates from microglia/macrophages; the remainder comes from astrocytes, endothelial cells, and other cell types. TSPO elevation indicates metabolic changes and energy production, not necessarily classical inflammation. No truly TSPO-negative brain reference region exists, complicating quantification. These limitations apply to all ME/CFS TSPO-PET studies and mean that even positive findings cannot be interpreted as definitive evidence of microglial activation.
+Beyond replication failure, the interpretation of TSPO signal as "neuroinflammation" faces fundamental specificity concerns. Nutma et al.\ (2023) demonstrated that TSPO is a reliable marker of activated microglia in rodent models but _not_ in human neurodegenerative diseases @Nutma2023TSPO. In human MS lesions, only approximately 40% of TSPO signal originates from microglia/macrophages; the remainder comes from astrocytes, endothelial cells, and other cell types. TSPO elevation indicates metabolic changes and energy production, not necessarily classical inflammation. No truly TSPO-negative brain reference region exists, complicating quantification. These limitations apply to all ME/CFS TSPO-PET studies and mean that even positive findings cannot be interpreted as definitive evidence of microglial activation. Table @tab:tspo-chronic-studies compares the three human studies.
 ]
 
 <obs:omdal2026-null-nfl>
@@ -22,13 +22,16 @@ long-COVID patients and recovered controls @Omdal2026LongCovidNeuroinflammation
 suggesting that neuronal injury detectable via standard blood biomarkers is not a
 universal feature of long COVID. This null finding does not exclude localised
 microglial activation: NfL and GFAP primarily reflect neuronal injury, whereas
-PET imaging studies report a subtype-level, possibly partly vascular TSPO signal in
-ME/CFS without overt neurodegeneration @Nakatomi2014neuroinflammation.
+PET imaging in a post-COVID fatigue cohort reports a subtype-level, possibly partly
+vascular TSPO signal without overt neurodegeneration; the group difference did not
+survive false-discovery-rate correction @Visser2025TSPOfatigue. In ME/CFS
+itself, the small positive and null TSPO cohorts disagree
+@Nakatomi2014neuroinflammation @Raijmakers2021neuroinflammation.
 Two qualifications now travel with that sentence. The elevation is subtype-level and
 possibly partly vascular (Section @sec:chronic-cns-inflammation), and every
 second-generation TSPO inference inherits the genotype composition of its cohort
-(@lim:chronic-inflammation-rs6971). "Elevated TSPO binding in ME/CFS" therefore means
-a subtype-level signal, not a general feature of the disease.
+(@lim:chronic-inflammation-rs6971). "Elevated TSPO binding" therefore means
+a subtype-level signal in one post-COVID cohort, not a general feature of ME/CFS.
 
 A caveat to that reading comes from a large electronic-health-record cohort: acute brain-parenchymal inflammation (encephalitis) predicts a two- to five-fold increase in long-term dementia risk, strongest for non-infectious/post-infectious inflammatory (autoimmune) etiologies, though part of the younger-cohort excess reflects post-encephalitic sequelae rather than Alzheimer-type disease @Aditi2026EncephalitisDementia (@spec:encephalitis-dementia-precedent) — so whether sustained neuroinflammation progresses to measurable degeneration may depend on its intensity, duration and etiology, a question the short-window long-COVID NfL null cannot settle.
 Study: (case-control, $n=96$, Scientific Reports 2026, certainty: 0.55).
@@ -52,7 +55,7 @@ The kindling hypothesis (Section @sec:pem-kindling) proposes that each PEM episo
 
 #hypothesis(title: [Glial Maturation Window and Pediatric Recovery])[
 
-*Certainty: 0.45.* Adolescent ME/CFS patients may benefit from a developmental window during which active microglial remodeling can reset pathological activation states—a mechanism unavailable to adult patients whose glial maturation is complete. The certainty level reflects: (1) the Nakatomi et al.\ 2014 PET findings documenting microglial activation have not been consistently replicated; (2) the proposed mechanism extrapolates from developmental neuroscience to ME/CFS pathophysiology; (3) testable predictions can directly address these uncertainties through age-stratified neuroimaging studies.
+*Certainty: 0.45.* Adolescent ME/CFS patients may benefit from a developmental window during which active microglial remodeling can reset pathological activation states—a mechanism unavailable to adult patients whose glial maturation is complete. The certainty level reflects: (1) the Nakatomi et al.\ 2014 PET findings suggesting microglial activation have not consistently replicated, and a later post-COVID cohort found no corrected group difference @Visser2025TSPOfatigue; (2) the proposed mechanism extrapolates from developmental neuroscience to ME/CFS pathophysiology; (3) testable predictions can directly address these uncertainties through age-stratified neuroimaging studies.
 
 *Background: Adolescent Microglial Maturation*
 
