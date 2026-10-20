@@ -40,8 +40,8 @@ void main(String[] args) throws IOException {
     var sitemapUrls = new ArrayList<String>();
 
     // Determine each page's navbar parent text (the merge-navbar-crumbs prefix).
-    // Pages under en/blog -> "🇬🇧 Blog (EN)", de/blog -> "🇩🇪 Blog (DE)",
-    // fr/blog -> "🇫🇷 Blog (FR)", everything else (paper) -> "Home".
+    // Every language's blog lives under the single "Blog" navbar dropdown, so
+    // all of them use "Blog"; everything else (the paper) uses "Home".
     for (var file : htmlFiles) {
         String rel = siteDir.relativize(file).toString().replace('\\', '/');
         String href = rel.replaceFirst("\\.html$", "").endsWith("/index")
@@ -234,11 +234,10 @@ void writeListings(Path siteDir, List<Map<String, Object>> entries) throws IOExc
 }
 
 String navbarTextFor(String rel) {
-    if (rel.startsWith("en/blog/")) return "🇬🇧 Blog (EN)";
-    if (rel.startsWith("de/blog/")) return "🇩🇪 Blog (DE)";
-    if (rel.startsWith("fr/blog/")) return "🇫🇷 Blog (FR)";
-    if (rel.startsWith("es/blog/")) return "🇪🇸 Blog (ES)";
-    if (rel.startsWith("pt/blog/")) return "🇵🇹 Blog (PT)";
+    // Every language's blog lives under the single "Blog" navbar dropdown.
+    for (var lang : List.of("en", "de", "fr", "es", "pt")) {
+        if (rel.startsWith(lang + "/blog/")) return "Blog";
+    }
     return "Home";
 }
 

@@ -42,16 +42,18 @@ website:
     left:
       - text: "Home"
         href: index.qmd
-      - text: "🇬🇧 Blog (EN)"
-        href: en/blog/index.qmd
-      - text: "🇫🇷 Blog (FR)"
-        href: fr/blog/index.qmd
-      - text: "🇩🇪 Blog (DE)"
-        href: de/blog/index.qmd
-      - text: "🇪🇸 Blog (ES)"
-        href: es/blog/index.qmd
-      - text: "🇵🇹 Blog (PT)"
-        href: pt/blog/index.qmd
+      - text: "Blog"
+        menu:
+          - text: "🇩🇪 Blog (DE)"
+            href: de/blog/index.qmd
+          - text: "🇬🇧 Blog (EN)"
+            href: en/blog/index.qmd
+          - text: "🇪🇸 Blog (ES)"
+            href: es/blog/index.qmd
+          - text: "🇫🇷 Blog (FR)"
+            href: fr/blog/index.qmd
+          - text: "🇵🇹 Blog (PT)"
+            href: pt/blog/index.qmd
       - text: "FAQ"
         href: faq/index.qmd
     right:

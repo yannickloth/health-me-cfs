@@ -201,27 +201,42 @@
   }
   customElements.define('mecfs-sidebar', MecfsSidebar);
 
-  // Mark the active top-level navbar item based on the current page.
-  // Matches the navbar link whose href is a prefix of (or equals) the current path.
+  // Mark the active navbar item based on the current page: a link is active
+  // when it is the current page or an ancestor directory of it.
+  // Also covers dropdown entries (class `dropdown-item`): when one matches, its
+  // parent dropdown toggle (class `nav-link dropdown-toggle`) is highlighted too,
+  // so the "Blog" menu shows as active while reading any language's blog.
   function syncNavbar(current) {
-    document.querySelectorAll('.navbar-nav .nav-link').forEach(a => {
+    const links = document.querySelectorAll('.navbar-nav .nav-link, .navbar-nav .dropdown-item');
+    links.forEach(a => {
       const href = a.getAttribute('href');
       if (!href || href === '#' || href.endsWith('.pdf')) return;
       // Resolve the nav link against the current page to a root-relative path.
       let target;
       try { target = normalize(new URL(href, location.href).pathname); }
       catch (e) { return; }
+      // A navbar link is active for the current page itself, or for any page
+      // nested under it. Index targets (/en/blog/index.html) match their
+      // directory prefix (/en/blog/...), but the site root (/index.html) maps
+      // to "/" and must match only the root page, never every path.
+      const dir = target.endsWith('/index.html')
+        ? target.slice(0, -'index.html'.length)   // "/en/blog/" or "/"
+        : null;
       const match = target === current
-        || (current.startsWith(target) && target.endsWith('/'))
-        || (current.startsWith(target) && !target.endsWith('.html'))
-        || current.startsWith(target.slice(0, -'/index.html'.length) + '/');
-      if (match) {
-        a.classList.add('active');
-        a.setAttribute('aria-current', 'page');
-      } else {
-        a.classList.remove('active');
-        a.removeAttribute('aria-current');
-      }
+        || (dir !== null && dir !== '/' && current.startsWith(dir));
+      a.classList.toggle('active', match);
+      if (match) a.setAttribute('aria-current', 'page');
+      else a.removeAttribute('aria-current');
+    });
+    // A dropdown whose entry matched highlights its parent toggle, so the
+    // collapsed "Blog" menu reads as active while reading any language's blog.
+    document.querySelectorAll('.navbar-nav .dropdown').forEach(dropdown => {
+      const activeChild = dropdown.querySelector('.dropdown-item.active');
+      const toggle = dropdown.querySelector('.nav-link.dropdown-toggle');
+      if (!toggle) return;
+      toggle.classList.toggle('active', !!activeChild);
+      if (activeChild) toggle.setAttribute('aria-current', 'page');
+      else toggle.removeAttribute('aria-current');
     });
   }
 
