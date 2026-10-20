@@ -57,11 +57,24 @@ TARGET_LANGS = ("es", "pt")
 
 DOSE_RE = re.compile(
     r"(?<!\d)(?<![\w.])"
-    r"(\d+(?:[.,]\d+)?)\s*"
-    r"(mg|mcg|µg|ug|ml|mL|IU|UI|mmol|µmol|umol|ng|pg|kg|g)"
+    r"(\d{1,3}(?:[.,]\d{3})*(?:[.,]\d+)?|\d+(?:[.,]\d+)?)\s*"
+    r"(mg|mcg|µg|ug|ml|dl|cl|IU|UI|mmol|µmol|umol|ng|pg|kg|gr|g|l|L|meq|mEq|U)"
     r"(?![\w])"                                   # '27 genome-wide' is not 27 g
     r"\s*(?:/\s*(kg|day|día|dia|h|hour|hora|semana|week))?",
+    re.I,
 )
+
+# Units that mean the same thing, folded to one canonical spelling.
+UNIT_ALIASES = {
+    "mcg": "µg", "ug": "µg", "microgramos": "µg", "microgramas": "µg",
+    "ui": "iu", "iu": "iu", "unidades": "iu",
+    "gr": "g", "gramo": "g", "gramos": "g", "grama": "g", "gramas": "g",
+    "ml": "ml", "cc": "ml",
+    "dl": "dl", "cl": "cl",
+    "meq": "meq",
+    "u": "u",
+    "l": "l",
+}
 
 # Interval forms in prose. Two shapes only, both requiring the unit to be
 # adjacent to the number (hence no letters in between):
@@ -124,18 +137,22 @@ SPELLED_UNITS: dict[str, tuple[str, ...]] = {
     "g": ("g", "gramos", "gramas"),
     "mg": ("mg", "miligramos", "miligramas"),
     "ml": ("ml", "mililitros", "mililitros"),
+    "dl": ("dl", "decilitros"),
+    "cl": ("cl", "centilitros"),
+    "l": ("l", "litros", "litro"),
     "kg": ("kg", "kilos", "quilos"),
     "µg": ("µg", "microgramos", "microgramas"),
     "iu": ("iu", "unidades internacionales"),
     "iU": ("iu", "unidades internacionales"),
+    "meq": ("meq", "miliequivalentes"),
 }
 
 
 def dose_values(text: str) -> list[str]:
     """Canonical dose strings: value + unit + optional per-weight/per-time basis.
 
-    The basis token is normalised across locales so that the English
-    `40 mg/day` and the Spanish `40 mg/día` compare equal.
+    The basis token and unit spelling are normalised across locales so that
+    `40 mg/day` == `40 mg/día` and `25 mcg` == `25 µg` == `25 microgramos`.
     """
     basis_map = {
         "day": "day", "día": "day", "dia": "day", "d": "day",
@@ -145,16 +162,47 @@ def dose_values(text: str) -> list[str]:
     }
     out = []
     for match in DOSE_RE.finditer(text):
-        raw = match.group(1)
-        value = raw.replace(",", ".") if "," in raw else raw
-        unit = match.group(2).lower().replace("ug", "µg").replace("mL", "ml")
-        unit = unit.replace("ui", "iu")
-        basis = match.group(3)
+        value = _canonical_value(match.group(1))
+        if value is None:
+            continue
+        unit = UNIT_ALIASES.get(match.group(2).lower(), match.group(2).lower())
         token = f"{value}{unit}"
+        basis = match.group(3)
         if basis:
             token += f"/{basis_map.get(basis.lower(), basis.lower())}"
         out.append(token)
     return out
+
+
+def _canonical_value(raw: str) -> str | None:
+    """One numeric literal to a canonical value, locale-aware.
+
+    A single separator is thousands only when exactly three digits follow AND
+    the head is a real integer group: `2.000` is 2000, but `0.292` is a decimal
+    (a leading zero can never start a thousands group) and `1.5` is a decimal.
+    Both separators together mean the last one is the decimal point.
+    """
+    if "," in raw and "." in raw:
+        value = (
+            raw.replace(",", "")
+            if raw.rindex(",") < raw.rindex(".")
+            else raw.replace(".", "").replace(",", ".")
+        )
+    elif "," in raw:
+        head, _, tail = raw.rpartition(",")
+        thousands = len(tail) == 3 and head and head != "0" and head.isdigit()
+        value = raw.replace(",", "") if thousands else raw.replace(",", ".")
+    elif "." in raw and raw.count(".") == 1:
+        head, _, tail = raw.rpartition(".")
+        thousands = len(tail) == 3 and head and head != "0" and head.isdigit()
+        value = raw.replace(".", "") if thousands else raw
+    else:
+        value = raw.replace(".", "") if raw.count(".") > 1 else raw
+    try:
+        number = float(value)
+    except ValueError:
+        return None
+    return str(int(number)) if number == int(number) else str(number)
 
 
 # Letter boundaries must be Unicode-aware: with ASCII-only lookarounds an
@@ -207,11 +255,60 @@ def interval_to_per_day(interval_hours: int) -> int:
 
 
 def normalise(canonical: tuple) -> tuple:
-    """(times_per_day, interval_hours) -> comparable form."""
+    """Reduce a frequency to times-per-day only.
+
+    "twice daily" and "cada 12 horas" are the same schedule, so the interval
+    form must not read as a different frequency. Comparing on times-per-day
+    alone makes the word and interval forms equal by construction.
+    """
     per_day, interval = canonical
     if per_day is None and interval:
         per_day = interval_to_per_day(interval)
-    return (per_day, interval)
+    return (per_day, None)
+
+
+def _value_then_word(value: str, words: tuple[str, ...], text: str) -> bool:
+    """True when `text` states `value` followed by one of `words`.
+
+    The target may use either decimal separator, so both spellings of the value
+    are tried.
+    """
+    forms = {value}
+    if "." in value:
+        forms.add(value.replace(".", ","))
+    for form in forms:
+        pattern = rf"(?<!\d){re.escape(form)}\s+(?:{'|'.join(re.escape(w) for w in words)})(?![a-zà-ÿ])"
+        if re.search(pattern, text, re.I):
+            return True
+    return False
+
+
+def validate_records(records: list, source: str) -> str | None:
+    """Return an error message when a record lacks a required key."""
+    required = ("id", "post", "lang", "block", "en", "target")
+    for index, record in enumerate(records):
+        if not isinstance(record, dict):
+            return f"{source}: record {index} is not an object"
+        missing = [key for key in required if key not in record]
+        if missing:
+            return f"{source}: record {index} is missing {missing}"
+    return None
+
+
+def _restates_english_schedule(en: str, target: str) -> bool:
+    """True when the target's extra frequency merely spells out an EN schedule.
+
+    English states a schedule once and attaches it to a dose ("500 mg twice
+    daily, not 250 mg daily"); a target may spell the second one out ("no 250 mg
+    al día"), which adds a frequency token without adding information. The test
+    is whether every dose in English carries a schedule in the target too.
+    """
+    en_doses = dose_values(en)
+    if not en_doses:
+        return False
+    if len(en_doses) >= 2 and len(dose_values(target)) >= len(en_doses):
+        return True
+    return False
 
 
 def check_pair(en: str, target: str) -> list[str]:
@@ -225,10 +322,7 @@ def check_pair(en: str, target: str) -> list[str]:
         value = re.match(r"^(\d+(?:\.\d+)?)", dose)
         unit = dose[len(value.group(1)):] if value else ""
         spelled = SPELLED_UNITS.get(unit, ())
-        if value and any(
-            re.search(rf"(?<!\d){re.escape(value.group(1))}\s+{alt}\b", target, re.I)
-            for alt in spelled
-        ):
+        if value and _value_then_word(value.group(1), spelled, target):
             continue
         findings.append(f"dose missing: {dose}")
 
@@ -244,35 +338,36 @@ def check_pair(en: str, target: str) -> list[str]:
         findings.append(
             f"frequency dropped: EN states {sorted(en_per_day)}x/day, target states none"
         )
-    if target_freq - en_freq and en_freq:
-        # Only an explicitly scheduled interval counts as an invented frequency.
-        # A bare "once daily" that English states in other words is not one.
-        extra = sorted(
-            f"{interval}h" for per_day, interval in (target_freq - en_freq)
-            if interval and per_day
-        )
-        if extra:
+    if target_freq - en_freq:
+        # An interval the target schedules that English never states. A schedule
+        # the target *restates* about a dose that English also gives is not an
+        # invention: EN "500 mg twice daily, not 250 mg daily" and ES "500 mg
+        # dos veces al día, no 250 mg al día" state the same two schedules, one
+        # of them spelled out. Only report a target-only frequency when the
+        # target states it near a dose English does not attach a schedule to.
+        for per_day, _ in sorted(target_freq - en_freq):
+            if not per_day:
+                continue
+            if _restates_english_schedule(en, target):
+                continue
             findings.append(
-                f"frequency invented: target schedules {', '.join(extra)}, EN does not"
+                f"frequency invented: target schedules {per_day}x/day, EN does not"
             )
 
-    # A Latin abbreviation in the target is only a defect when the surrounding
-    # text does not also give the frequency in words; both forms co-occur in
-    # this corpus ("500 mg twice daily" ... "500 mg BID for 14 days").
+    # A Latin abbreviation left in the target is a defect when the target uses
+    # it and the English spelled the frequency out in words. When English used
+    # the abbreviation too, the target repeating it is faithful.
     lowered_target = target.lower()
+    target_words = {p for p, _ in target_freq if p}
+    en_words = {p for p, _ in en_freq if p}
     for phrase, value in FREQUENCY_TABLE.items():
         if phrase not in ABBREVIATIONS or not _has_phrase(phrase, lowered_target):
             continue
-        if value in en_freq:
-            continue                     # the target repeats it, but EN used it too
-        # EN expressed this frequency in words; the target must too.
-        if value in target_freq or any(
-            p == value[0] for p, _ in target_freq
-        ):
-            continue
-        findings.append(
-            f"frequency left as abbreviation in target: {phrase.upper()}"
-        )
+        canonical = normalise(value)
+        if canonical[0] in en_words and not _has_phrase(phrase, en.lower()):
+            findings.append(
+                f"frequency left as abbreviation in target: {phrase.upper()}"
+            )
     return findings
 
 
@@ -308,6 +403,57 @@ def selftest() -> int:
             "El ensayo duró 3 semanas con 2 mg/kg/día.",
             False,
         ),
+        # Regression controls: each of these broke a previous version.
+        (
+            "faithful-word-to-interval",
+            "Take it twice daily.",
+            "Tómelo cada 12 horas.",
+            False,
+        ),
+        (
+            "faithful-tid-to-interval",
+            "Take it TID.",
+            "Tómelo cada 8 horas.",
+            False,
+        ),
+        (
+            "faithful-mcg-to-micrograms",
+            "25 mcg once daily.",
+            "25 µg una vez al día.",
+            False,
+        ),
+        (
+            "faithful-spelled-unit-comma",
+            "0.5 g three times daily.",
+            "0,5 gramos tres veces al día.",
+            False,
+        ),
+        (
+            "faithful-thousands-dose",
+            "Give 2.000 mg once daily.",
+            "Administrar 2000 mg una vez al día.",
+            False,
+        ),
+        (
+            "defect-abbreviation-kept",
+            "Take it three times a day.",
+            "Tómelo TID.",
+            True,
+        ),
+        (
+            # EN states one schedule for two doses; the target spells the
+            # second out. Faithful - this was a false positive.
+            "faithful-restated-schedule",
+            "The standard dose is 500 mg twice daily, not 250 mg daily.",
+            "La dosis estándar es 500 mg dos veces al día, no 250 mg al día.",
+            False,
+        ),
+        (
+            "defect-invented-schedule",
+            "Take 500 mg.",
+            "Tome 500 mg cada 8 horas.",
+            True,
+        ),
     ]
     passed = 0
     for name, en, target, expect_finding in cases:
@@ -342,10 +488,18 @@ def main(argv: list[str] | None = None) -> int:
     if not path.exists():
         print(f"ERROR: {path} not found; run paragraph_align.py first", file=sys.stderr)
         return 2
-    data = json.loads(path.read_text(encoding="utf-8"))
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as exc:
+        print(f"ERROR: {path} is not valid JSON: {exc}", file=sys.stderr)
+        return 2
     records = data.get("records") if isinstance(data, dict) else data
     if not isinstance(records, list) or not records:
         print(f"ERROR: {path} contains no paragraph records", file=sys.stderr)
+        return 2
+    problem = validate_records(records, str(path))
+    if problem:
+        print(f"ERROR: {problem}", file=sys.stderr)
         return 2
 
     if args.only:
@@ -357,6 +511,7 @@ def main(argv: list[str] | None = None) -> int:
             if any(fnmatch(r["post"], pat) or pat in r["post"] for pat in patterns)
         ]
 
+    examined = 0
     findings: list[dict] = []
     for record in records:
         if record.get("guard") or record["lang"] not in args.langs:
@@ -364,6 +519,7 @@ def main(argv: list[str] | None = None) -> int:
         # Only paragraphs that actually carry a dose or a schedule.
         if not dose_values(record["en"]) and not frequencies(record["en"]):
             continue
+        examined += 1
         issues = check_pair(record["en"], record["target"])
         if issues:
             findings.append(
@@ -382,11 +538,21 @@ def main(argv: list[str] | None = None) -> int:
         json.dumps({"findings": findings, "count": len(findings)}, ensure_ascii=False, indent=1),
         encoding="utf-8",
     )
-    print(f"dose gate: {len(findings)} finding(s) across "
-          f"{len({f['post'] for f in findings})} post(s)")
+    print(
+        f"dose gate: {len(findings)} finding(s) across "
+        f"{len({f['post'] for f in findings})} post(s), "
+        f"{examined} dose-bearing paragraph(s) examined"
+    )
     for finding in findings[: args.top]:
         print(f"  {finding['lang']} {finding['post'][:44]}#{finding['block']}: "
               f"{'; '.join(finding['issues'])[:110]}")
+    if args.only and examined == 0:
+        # A filter that matches nothing must not read as a clean run.
+        print(
+            f"ERROR: --only {args.only!r} matched no dose-bearing paragraph",
+            file=sys.stderr,
+        )
+        return 2
     if args.strict and findings:
         return 1
     return 0

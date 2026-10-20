@@ -63,28 +63,72 @@ ENTITY_STOP = {
 def numbers(text: str) -> list[str]:
     """Comparable numeric values, locale- and format-normalised.
 
-    Normalisation must erase presentation differences, because a second
-    translator legitimately reformats. All of these are the same value and
-    must compare equal: `2000`, `2.000`, `2,000`, `€2K`/`€2000`, `2 000`.
+    Erases presentation differences a second translator may legitimately
+    introduce: `2000`, `2.000`, `2,000` and `2 000` are one value; `1,234.56`
+    and `1.234,56` are one value. A `K`/`M` suffix is expanded (`€2K` == `€2000`).
     """
     cleaned = text.replace("\u00a0", " ").replace("\u202f", " ")
-    out = []
-    for token in NUMBER_RE.findall(cleaned):
-        if "," in token and "." in token:
-            value = token.replace(",", "")
-        elif "," in token:
-            value = token.replace(",", "") if len(token.split(",")[-1]) == 3 else token.replace(",", ".")
-        elif "." in token and len(token.split(".")[-1]) == 3 and len(token.split(".")[0]) <= 3:
-            value = token.replace(".", "")
-        else:
-            value = token
+    cleaned = re.sub(r"(?<=\d)\s+(?=\d{3}\b)", "", cleaned)      # 2 000 -> 2000
+    values: dict[int, str] = {}
+
+    # An elided currency range carries one suffix for both ends ("€2–5K" =
+    # €2 000–5 000). It cannot be expanded from the first number alone, so the
+    # whole range is treated as opaque: both renderings of a paragraph write
+    # the same elided form, and a partial value would create a false mismatch.
+    # The span must include the leading number, which the lookbehind excludes.
+    elided = re.compile(r"(\d+(?:[.,]\d+)?)\s*[–—-]\s*(\d+(?:[.,]\d+)?)\s*[KM]\b")
+    ranges = [
+        (match.start(1), match.end(2)) for match in elided.finditer(cleaned)
+    ]
+
+    def in_elided_range(position: int) -> bool:
+        return any(start <= position < stop for start, stop in ranges)
+
+    for match in NUMBER_RE.finditer(cleaned):
+        if in_elided_range(match.start()):
+            continue
+        value = _normalise_number(match.group(0))
+        if value is not None:
+            values[match.start()] = value
+    for match in re.finditer(r"(?<![\w.])(\d+(?:[.,]\d+)?)\s*([KM])\b", cleaned):
+        if in_elided_range(match.start()):
+            continue
+        value = _normalise_number(match.group(1))
+        if value is None:
+            continue
+        factor = 1000 if match.group(2).upper() == "K" else 1_000_000
         try:
-            number = float(value)
+            values[match.start()] = str(int(float(value) * factor))
         except ValueError:
             continue
-        # Integers compare as integers so 2000 == 2.000 == 2,000.
-        out.append(str(int(number)) if number == int(number) else str(number))
-    return sorted(set(out))
+    return sorted(set(values.values()))
+
+
+def _normalise_number(token: str) -> str | None:
+    """One numeric token to a canonical string, or None when unparsable.
+
+    The ambiguous case is a single separator: `2.000` and `2,000` are thousands
+    (three trailing digits after a non-zero head), while `0.292` and `1.5` are
+    decimals — a leading zero can never start a thousands group. Both
+    separators together mean the last one is the decimal point.
+    """
+    if "," in token and "." in token:
+        value = token.replace(",", "") if token.rindex(",") < token.rindex(".") else token.replace(".", "").replace(",", ".")
+    elif "," in token:
+        head, _, tail = token.rpartition(",")
+        thousands = len(tail) == 3 and head and head != "0" and head.isdigit()
+        value = token.replace(",", "") if thousands else token.replace(",", ".")
+    elif "." in token and token.count(".") == 1:
+        head, _, tail = token.rpartition(".")
+        thousands = len(tail) == 3 and head and head != "0" and head.isdigit()
+        value = token.replace(".", "") if thousands else token
+    else:
+        value = token.replace(".", "") if token.count(".") > 1 else token
+    try:
+        number = float(value)
+    except ValueError:
+        return None
+    return str(int(number)) if number == int(number) else str(number)
 
 
 def negation_count(text: str) -> int:
@@ -110,13 +154,15 @@ def canonical_dose(dose: str) -> str:
         return dose
     value, unit = match.group(1), match.group(2)
     unit = unit.lower()
-    for spelled, factor in SPELLED_UNIT_VALUES.items():
-        if unit.startswith(spelled) and spelled != "mg":
-            try:
-                grams = float(value) * float(factor)
-            except ValueError:
-                return dose
-            return f"{int(grams) if grams == int(grams) else grams}g" + unit[len(spelled):]
+    for spelled, factor in sorted(SPELLED_UNIT_VALUES.items(), key=lambda kv: -len(kv[0])):
+        if not unit.startswith(spelled):
+            continue
+        try:
+            grams = float(value) * float(factor)
+        except ValueError:
+            return dose
+        grams_text = int(grams) if grams == int(grams) else grams
+        return f"{grams_text}g" + unit[len(spelled):]
     return dose
 
 
@@ -158,10 +204,13 @@ def compare(en: str, corpus: str, cross: str) -> list[str]:
     # Named entities present in English should appear in both renderings.
     en_entities = entities(en)
     if en_entities:
-        missing_corpus = en_entities - entities(corpus) - entities(cross) if False else en_entities - entities(corpus)
+        missing_corpus = en_entities - entities(corpus)
         missing_cross = en_entities - entities(cross)
         if missing_corpus and not missing_cross and corpus_doses == cross_doses:
-            issues.append(f"entity only in cross-check: {sorted(missing_corpus)[:6]}")
+            issues.append(
+                f"entity missing from corpus but present in cross-check: "
+                f"{sorted(missing_corpus)[:6]}"
+            )
 
     return issues
 
@@ -254,12 +303,25 @@ def main(argv: list[str] | None = None) -> int:
     if not path.exists():
         print(f"ERROR: {path} not found", file=sys.stderr)
         return 2
-    pairs = json.loads(path.read_text(encoding="utf-8"))
+    try:
+        pairs = json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as exc:
+        print(f"ERROR: {path} is not valid JSON: {exc}", file=sys.stderr)
+        return 2
     if isinstance(pairs, dict):
         pairs = pairs.get("records") or []
     if not isinstance(pairs, list) or not pairs:
         print(f"ERROR: {path} contains no paragraph records", file=sys.stderr)
         return 2
+    required = ("id", "post", "lang", "block", "en", "target")
+    for index, pair in enumerate(pairs):
+        if not isinstance(pair, dict):
+            print(f"ERROR: {path}: record {index} is not an object", file=sys.stderr)
+            return 2
+        missing = [key for key in required if key not in pair]
+        if missing:
+            print(f"ERROR: {path}: record {index} is missing {missing}", file=sys.stderr)
+            return 2
     if args.limit:
         pairs = pairs[: args.limit]
 
@@ -296,7 +358,10 @@ def main(argv: list[str] | None = None) -> int:
                 print(f"  {index}/{len(pairs)} checked, {disagree} disagree", flush=True)
 
     print(f"{checked}/{len(pairs)} checked, {disagree} disagree, {errors} errors -> {out_path}")
-    if args.strict and disagree:
+    if errors:
+        print(f"WARNING: {errors} paragraph(s) could not be cross-checked", file=sys.stderr)
+    if args.strict and (disagree or errors):
+        # A gate must not go green on paragraphs it never checked.
         return 1
     return 0
 
