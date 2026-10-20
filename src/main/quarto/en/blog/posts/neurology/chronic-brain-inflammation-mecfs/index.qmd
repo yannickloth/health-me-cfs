@@ -1,0 +1,118 @@
+---
+title: "Chronic Brain Inflammation in ME/CFS: What Three PET Studies Actually Show"
+description: "Three TSPO-PET studies disagree about brain inflammation in ME/CFS. This article explains what the tracer measures, why a small positive and a small null can coexist, and why the largest signal did not survive statistical correction."
+author: "Yannick Loth"
+date: "2026-10-20"
+categories: [Neurology, Neuroinflammation, Biomarkers, Research Methods]
+---
+
+"Brain inflammation" is one of the most repeated phrases in ME/CFS. It is also one of the least settled. Three human PET studies dominate the picture, and they do not agree. Two are small. One is not an ME/CFS cohort at all. The largest positive signal weakens when its statistics are read closely.
+
+That does not make the idea worthless. It makes the claim narrower than the marketing around it. This article separates what the tracer measures, what the three studies found, why they disagree, and what measurement would actually settle the question.
+
+::: {.callout-warning}
+This is an explanation of research, not medical advice. TSPO-PET is a research tool. It is not validated to diagnose ME/CFS or to choose a treatment. Do not use this article to start, stop, or change any medication or supplement.
+:::
+
+## The short version
+
+- **TSPO-PET does not measure inflammation.** It measures binding to a mitochondrial protein that is present in microglia, astrocytes, blood-vessel cells, and smooth muscle. The signal is not cell-specific [@Nutma2023TSPO].
+- **The two ME/CFS studies disagree.** Nakatomi et al. (2014) found higher binding in nine patients than in ten controls [@Nakatomi2014neuroinflammation]. Raijmakers et al. (2022) found no difference between nine patients and nine controls, and a correlation in the opposite direction [@Raijmakers2021neuroinflammation].
+- **The largest study is post-COVID, not ME/CFS.** Visser et al. (2025) scanned 47 people with persistent fatigue after COVID-19. Some individuals had high cerebral binding, but the group difference did not survive correction for multiple comparisons [@Visser2025TSPOfatigue].
+- **A null scan at rest does not exclude a primed state.** A normal-looking baseline can still produce an exaggerated response to a later challenge.
+- **TSPO-PET is not a clinical test.** It cannot tell you whether you have brain inflammation, and it cannot tell you which treatment to take.
+
+## What the tracer actually measures
+
+TSPO is a protein on the outer mitochondrial membrane. It is abundant in activated microglia, which is why it became the standard target for "neuroinflammation" imaging. But it is also expressed by astrocytes, endothelial cells, and vascular smooth muscle. In human multiple-sclerosis lesions, only about 40% of the TSPO signal comes from microglia and macrophages; the rest comes from other cell types [@Nutma2023TSPO].
+
+A second problem is vascular. In a cohort with post-acute sequelae of COVID-19, TSPO binding correlated with measures of vascular disease rather than with a clean inflammatory signal [@VanElzakker2024PASCneuro]. A third problem is genetic. A common polymorphism, rs6971, produces high-, mixed-, and low-affinity binders. Second-generation tracers such as DPA-714 are sensitive to this polymorphism, so an unstratified cohort can manufacture a group difference or hide a real one [@Visser2025TSPOfatigue]. The Visser study genotyped all participants and restricted its primary analysis to high-affinity binders [@Visser2025TSPOfatigue]. That protects the finding, but it also narrows it: the result applies to high-affinity binders and cannot be extended to the other genotypes without evidence.
+
+The first-generation tracer used in both ME/CFS studies, PK11195, is not genotype-sensitive. Genotype therefore cannot explain the Nakatomi–Raijmakers disagreement [@Nakatomi2014neuroinflammation; @Raijmakers2021neuroinflammation]. It can explain disagreement among second-generation studies, including any future replication of Visser.
+
+## The three studies, side by side
+
+| Study | Cohort | Tracer (generation) | Genotype | n | Main result |
+|---|---|---|---|---|---|
+| Nakatomi 2014 | ME/CFS | [11C]PK11195 (first) | Not sensitive | 9 vs 10 | Higher binding in six regions; positive severity correlation |
+| Raijmakers 2022 | ME/CFS | [11C]PK11195 (first) | Not sensitive | 9 vs 9 | No difference; negative severity correlation |
+| Visser 2025 | Post-COVID fatigue | [18F]DPA-714 (second) | High-affinity binders only | 47 (33 with persistent complaints) | High binding in some individuals; corrected group difference null |
+
+**Nakatomi et al. (2014)** reported 45–199% higher TSPO binding in cingulate cortex, hippocampus, amygdala, thalamus, midbrain, and pons in nine patients compared with ten controls, with a positive correlation between binding and symptom severity [@Nakatomi2014neuroinflammation]. This is the study that launched the "brain inflammation" story. It is also a nine-patient study with a first-generation tracer known for a poor signal-to-noise ratio.
+
+**Raijmakers et al. (2022)** used the same tracer in nine patients and nine controls and found no significant difference. The correlation with severity ran in the opposite direction: higher binding was associated with lower severity [@Raijmakers2021neuroinflammation]. A null result in nine patients is not a refutation, but it is not a replication either. Two small studies pointing in opposite directions are a signal that the measurement is unstable.
+
+**Visser et al. (2025)** is the largest and most technically advanced study. Forty-seven people with persistent fatigue and difficulty concentrating after COVID-19 were scanned with [18F]DPA-714 about 27 months after infection; 33 had persistent complaints and 14 did not [@Visser2025TSPOfatigue]. The authors found higher cerebral binding in some individuals with persistent complaints and no group-level difference in extracerebral binding. They also found no correlation between cerebral and extracerebral binding, and no correlation between either and symptom severity.
+
+The statistics need to be stated precisely, because the abstract does not carry them. The parametric difference in global gray matter was P = 0.036 before correction. After Benjamini–Hochberg correction it was P = 0.144, and on an unadjusted nonparametric test it was P = 0.216. No brain region survived correction. The authors describe a "subtype" because a subset of individuals had high binding, not because the group comparison was statistically robust [@Visser2025TSPOfatigue].
+
+Two design details matter for interpretation. First, scanner type correlated with binding at rho = 0.61, and body-mass index differed between groups (29 ± 6 versus 25 ± 3). Both were included as nuisance covariates, but a scanner effect of that size is a warning. Second, the extracerebral analyses included only the 25 participants with and 11 without complaints who were scanned on the long-axial-field scanner. The subgroup with high cerebral binding is not sized in the paper. "Some individuals" is therefore an unquantified tail, not a defined subtype.
+
+## Why the studies disagree
+
+There are at least six reasons, and they are not mutually exclusive.
+
+**Sample size.** Nine patients versus nine controls gives wide confidence intervals. A true small effect can produce a positive result in one cohort and a null in another. The largest study has 47 participants, but only 33 with persistent complaints, and the subgroup of high binders is smaller still.
+
+**Tracer generation.** First-generation PK11195 has poor signal-to-noise and high non-specific binding. Second-generation DPA-714 has better signal, but it is genotype-sensitive. The two generations are not interchangeable.
+
+**Cohort definition.** Nakatomi and Raijmakers used ME/CFS criteria. Visser used post-COVID fatigue with custom criteria, not an ME/CFS case definition. A post-COVID fatigue cohort is relevant, but it is not the same population.
+
+**Analysis choices.** A global gray-matter comparison, a region-wise comparison, and a voxel-wise comparison ask different questions. Correction for multiple comparisons changes the answer. The Visser group difference was present before correction and absent after it. That is not misconduct; it is fragility.
+
+**Activity matching.** None of the three studies reports activity-matched controls. Reduced activity, which is itself a consequence of fatigue, alters immune regulation, adiposity, sleep, and vascular function. Leptin signalling to reactive microglia is one concrete route by which a peripheral, activity-linked state could produce a central signal [@Abdelrheem2026leptinfm]. The objection applies to the null studies too: a sedentary control group would be the correct comparator, and none of the cited studies used one [@Nakatomi2014neuroinflammation; @Raijmakers2021neuroinflammation; @Visser2025TSPOfatigue].
+
+**Severity correlation.** Nakatomi reported a positive correlation, Raijmakers a negative one, and Visser none. Three directions of effect across three studies is not a dose–response relationship. It is a warning about measurement.
+
+## What the animal data add, and what they do not
+
+The strongest chronicity evidence is not human. In a repeated-colitis mouse model, cortical microglia retained an iNOS-enriched activation state during remission, after peripheral inflammation had resolved, with raised glutamatergic and reduced GABAergic synaptic markers [@Morton2026persistentmicroglia]. The same study found the opposite pattern in the hippocampus: a reparative ARG1/TREM2/P2Y12R-enriched program that the authors describe as preserving circuit integrity. One brain contained two different microglial states at the same time. That is a warning against treating "microglial activation" as a single whole-brain quantity.
+
+In prion-infected mice, deleting TREM2 worsened neuropathology without changing the deposition of misfolded protein [@Carpanini2025trem2prion]. TREM2 therefore regulates the reactivity of chronically activated microglia, not the clearance of the trigger. That distinction matters for therapy: a drug that changes reactivity is not the same as a drug that removes the cause.
+
+The translation gap is large. These are rodent studies. Two are models of peripheral inflammatory disease rather than post-infectious fatigue. Only the colitis remission model removes the trigger. No human ME/CFS study has measured whether microglial activation persists after a trigger resolves [@Loth2026website].
+
+## sTREM2: a measurement anchor, not an ME/CFS biomarker
+
+A fluid readout would make the question testable at reasonable cost. In 46 patients with anti-LGI1 encephalitis, cerebrospinal-fluid soluble TREM2 correlated with hippocampal TSPO binding at R² = 0.18 (P = 0.04), and hippocampal uptake predicted prognosis [@Wang2025dpa714strem2]. This is a human cross-modality validation: it shows that a CSF marker can track a PET signal in the same patients.
+
+It is not an ME/CFS finding. The disease is different, the inflammation is acute and high-intensity, the correlation is modest, and the cohort is a single-site discovery cohort with no external replication. sTREM2 is a promising measurement tool for a future study, not a test that a patient can order.
+
+## Four readings are still live
+
+The pattern of one small positive, one small null, and one uncorrected subgroup signal is compatible with at least four interpretations. The evidence does not choose between them.
+
+1. **The subtype model is correct.** A minority of patients has a real central inflammatory state, and null cohorts are dominated by patients who do not have it.
+2. **The marker is wrong.** TSPO signal reflects vascular, astrocytic, or metabolic processes rather than microglial activation. The vascular correlation in PASC supports this reading [@VanElzakker2024PASCneuro].
+3. **The compartments disagree.** Blood markers and PET measure different compartments, so a peripheral null and a central signal are not contradictory.
+4. **The signal is the upper tail of normal variation.** A single scan of 33 patients cannot separate a true subgroup from the high end of between-subject variance, especially when the subgroup is not sized and the group difference does not survive correction.
+
+Reading 4 is the cheapest to test and the most damaging if true, because it removes the need for any biological explanation. The corrected statistics make it more plausible, not less.
+
+## Two axes with zero ME/CFS studies
+
+Two cheap measurements have no ME/CFS literature at all. Chitinase-3-like protein 1 (CHI3L1, also called YKL-40) is an astroglial and microglial activation marker. Interleukin-6 trans-signalling, through soluble IL-6 receptor and gp130, is the route by which IL-6 produces chronic rather than acute inflammatory effects. A literature search for the underlying book found no ME/CFS study of either axis [@Loth2026website]. That is a gap in the literature, not evidence of absence. Both are cheaper than PET and would materially advance the question.
+
+## The measurement that would settle it
+
+The discriminating design is longitudinal and compartmental. Sample peripheral and central markers in the same patients, at the same time, and ask whether central markers stay elevated after peripheral markers normalise.
+
+- If the central state is **retained**, CRP and IL-6 should fall while CSF sTREM2 or TSPO binding stays high.
+- If the state is **continuously driven**, peripheral and central markers should rise and fall together.
+- If the signal is the **upper tail**, a rescan of the same individuals should regress toward the control range while symptoms persist.
+
+A feasible first step is one paired sample during a clinically indicated lumbar puncture, with a plasma sample drawn on the same day. A full study would add serial TSPO-PET, objective accelerometry, and a cell-type-specific central readout. The book's proposed longitudinal imaging study adopts these constraints: genotype-restricted primary analysis, activity-matched comparators, a pre-specified primary region, and a persistence analysis in participants whose peripheral markers normalise [@Loth2026website].
+
+## What this means clinically
+
+TSPO-PET is not a treatment-selecting test. A positive scan does not prove microglial activation, because the tracer is not cell-specific. A negative scan does not prove absence, because a resting scan cannot detect a primed state. Neither result tells a patient whether to take low-dose naltrexone, minocycline, or any other immunomodulator.
+
+The defensible clinical statement is narrower: "brain inflammation" is a possible stratifier for research, not a demonstrated cause of ME/CFS. If a trial ever shows that a treatment works in a TSPO-high subgroup and not in a TSPO-low subgroup, the scan would become useful. That trial has not been done.
+
+## Limitations of this article
+
+This is not a systematic review. It rests on three human studies, two animal models, and one cross-disease validation. The largest human study is a post-COVID cohort, not an ME/CFS cohort. The high-binding subgroup is not sized. None of the studies reports activity-matched controls. TSPO specificity remains unresolved. The animal chronicity data are rodent-only, and only one model removes the trigger. The book's full analysis, including the competing hypotheses and their falsification conditions, is cited throughout [@Loth2026website].
+
+## The bottom line
+
+Three studies do not establish chronic brain inflammation in ME/CFS. One small study found a signal, one small study did not, and the largest study found high binding in some individuals without a corrected group difference. The evidence supports a possible subtype, not a universal cause. The next step is better measurement: paired central and peripheral sampling, genotype-restricted designs, activity-matched controls, and a longitudinal rescan of the same people. Until then, "brain inflammation" is a hypothesis worth testing, not a result that is ready for the clinic.
