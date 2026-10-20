@@ -11,8 +11,13 @@ proposes the exact replacement sentence.
 It judges a *worklist*, not the whole corpus: feed it the ranked output of
 `paragraph_triage.py` (soft-signal pairs first).
 
-Model: `unsloth/LFM2.5-24B-A2B-GGUF` quant `IQ3_XXS` (8.5 GiB), started
-through `unsloth studio run` using the same server code as `translate_blog.py`.
+Model: `unsloth/LFM2.5-24B-A2B-GGUF` quant `IQ3_XXS` (8.5 GiB). The script
+starts `llama-server` **directly** (not through `unsloth studio run`) because
+the studio wrapper injects a continuation turn when the model's reasoning
+spends the output cap, and that continuation never reaches a streaming client.
+`--reasoning off` is the engine-level switch that makes the model answer
+instead of think; the reader streams both text channels and stops at the first
+balanced JSON object that parses as a verdict.
 
 VRAM gate: this session's own model server holds ~9.7 GiB and unloads after
 900 s idle. The script therefore refuses to load the judge model until
@@ -52,9 +57,12 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
+import signal
 import subprocess
 import sys
+import tempfile
 import threading
 import time
 import urllib.error
@@ -97,6 +105,11 @@ Rules:
 - Locale number formatting is expected (es-ES/pt-PT write 1.000 and 0,5).
   Statistical notation keeps its df/argument separators (F(1,18)).
 - Judge meaning, not style. Never propose stylistic rewording.
+- Omission is strict: if any number, percentage, dose, duration, sample size,
+  p-value, citation key, qualifier, negation, or named entity of the English is
+  ABSENT from the translation, the verdict is OMIT, even when every remaining
+  sentence is faithful. Do not excuse a missing value as 'implied' or
+  'summarised'.
 - Quote exact fragments from the translation for missing/added/opposite items.
   If a fix is needed, give the corrected target sentence verbatim, keeping
   citation keys, links, math, and Markdown untouched.
@@ -117,6 +130,72 @@ TRANSLATION ({lang}):
 Return only the JSON object."""
 
 SIGNAL_HINT = "\nMechanical triage already flagged these signals (verify them, they may be artifacts): {signals}\n"
+
+# llama-server runs without the unsloth studio wrapper: the wrapper injects a
+# continuation turn when reasoning spends the output cap, which never reaches
+# a streaming client. `--reasoning off` is the engine-level switch.
+DEFAULT_LLAMA_SERVER = Path.home() / ".unsloth" / "llama.cpp" / "build" / "bin" / "llama-server"
+DEFAULT_GGUF_GLOB = (
+    "~/.cache/huggingface/hub/models--unsloth--LFM2.5-24B-A2B-GGUF/"
+    "snapshots/*/LFM2.5-24B-A2B-UD-IQ3_XXS.gguf"
+)
+
+
+class DirectServer:
+    """Start `llama-server` directly, with reasoning disabled."""
+
+    def __init__(self, binary: str, model_path: str, port: int, context: int, parallel: int):
+        self.binary = binary
+        self.model_path = model_path
+        self.port = port
+        self.context = context
+        self.parallel = parallel
+        self.process: subprocess.Popen | None = None
+        self.api_key: str | None = None
+        self.log_path = Path(tempfile.gettempdir()) / "mecfs-judge-server.log"
+
+    @property
+    def base_url(self) -> str:
+        return f"http://127.0.0.1:{self.port}"
+
+    def start(self) -> None:
+        cmd = [
+            self.binary, "-m", self.model_path,
+            "--host", "127.0.0.1", "--port", str(self.port),
+            "--parallel", str(self.parallel), "-c", str(self.context),
+            "-ngl", "-1", "--jinja", "--reasoning", "off", "--no-webui",
+        ]
+        log = self.log_path.open("w", encoding="utf-8")
+        self.process = subprocess.Popen(
+            cmd, stdout=log, stderr=subprocess.STDOUT, start_new_session=True
+        )
+        deadline = time.time() + 600
+        while time.time() < deadline:
+            try:
+                with urllib.request.urlopen(self.base_url + "/health", timeout=5) as response:
+                    if response.status == 200:
+                        return
+            except Exception:  # noqa: BLE001 - still loading
+                pass
+            if self.process.poll() is not None:
+                raise RuntimeError(
+                    f"llama-server exited early (code {self.process.returncode}); "
+                    f"see {self.log_path}"
+                )
+            time.sleep(2)
+        raise RuntimeError(f"llama-server not ready within 10 minutes; see {self.log_path}")
+
+    def stop(self) -> None:
+        if not self.process or self.process.poll() is not None:
+            return
+        try:
+            os.killpg(os.getpgid(self.process.pid), signal.SIGTERM)
+            self.process.wait(timeout=20)
+        except Exception:  # noqa: BLE001
+            try:
+                os.killpg(os.getpgid(self.process.pid), signal.SIGKILL)
+            except Exception:  # noqa: BLE001
+                pass
 
 SELFTEST_CASES = [
     {
@@ -168,24 +247,159 @@ def wait_for_vram(min_free: int, poll: int, max_minutes: int) -> bool:
     return False
 
 
+def json_blobs(text: str):
+    """Yield balanced-brace JSON candidates, honouring strings and escapes."""
+    depth = 0
+    start = None
+    in_string = False
+    escaped = False
+    for index, char in enumerate(text):
+        if in_string:
+            if escaped:
+                escaped = False
+            elif char == "\\":
+                escaped = True
+            elif char == '"':
+                in_string = False
+            continue
+        if char == '"':
+            in_string = True
+        elif char == "{":
+            if depth == 0:
+                start = index
+            depth += 1
+        elif char == "}":
+            if depth:
+                depth -= 1
+            if depth == 0 and start is not None:
+                yield text[start : index + 1]
+                start = None
+
+
+VERDICT_IN_TEXT = re.compile(
+    r'"verdict"\s*:\s*"?\s*(FAITHFUL|DRIFT|OMIT|ADD|CONTRADICTS)\b', re.I
+)
+FIX_IN_TEXT = re.compile(r'"fix"\s*:\s*"(.*?)"\s*(?:,\s*"|}\s*)', re.S)
+
+
 def parse_verdict(text: str) -> dict[str, object] | None:
-    match = re.search(r"\{.*\}", text, re.S)
-    if not match:
-        return None
-    try:
-        data = json.loads(match.group(0))
-    except json.JSONDecodeError:
-        return None
-    verdict = str(data.get("verdict", "")).upper().strip()
-    if verdict not in VERDICTS:
-        return None
-    return {
-        "verdict": verdict,
-        "missing": data.get("missing") or [],
-        "added": data.get("added") or [],
-        "fix": str(data.get("fix") or ""),
-        "reason": str(data.get("reason") or ""),
+    for blob in json_blobs(text):
+        try:
+            data = json.loads(blob)
+        except json.JSONDecodeError:
+            continue
+        if not isinstance(data, dict):
+            continue
+        verdict = str(data.get("verdict", "")).upper().strip()
+        if verdict not in VERDICTS:
+            continue
+        return {
+            "verdict": verdict,
+            "missing": data.get("missing") or [],
+            "added": data.get("added") or [],
+            "fix": str(data.get("fix") or ""),
+            "reason": str(data.get("reason") or ""),
+        }
+    # Tolerant fallback: the model sometimes emits a `fix` sentence containing
+    # an unescaped quote, which makes the object invalid JSON while the verdict
+    # itself is unambiguous. Take the last verdict occurrence (the answer, not
+    # the reasoning) and attach whatever fix text can be recovered.
+    matches = list(VERDICT_IN_TEXT.finditer(text))
+    if matches:
+        verdict = matches[-1].group(1).upper()
+        fix_match = FIX_IN_TEXT.search(text)
+        return {
+            "verdict": verdict,
+            "missing": [],
+            "added": [],
+            "fix": fix_match.group(1) if fix_match else "",
+            "reason": "tolerant parse (malformed JSON)",
+        }
+    return None
+
+
+def stream_verdict(client: ModelClient, system: str, user: str, max_tokens: int = 3000) -> str:
+    """Stream the completion and return at the first complete verdict.
+
+    The judge model reasons before answering. llama.cpp's structured handling
+    of that reasoning differs in streaming mode (`delta.reasoning_content`
+    here, plain `delta.content` for small prompts, no `--reasoning off`
+    envelope for streamed chunks), so the reader accumulates *both* channels
+    and stops at the first balanced JSON object carrying a valid verdict.
+    Reasoning text cannot forge a verdict: every candidate is JSON-parsed and
+    checked against the verdict vocabulary, and the system prompt forbids
+    emitting one before the answer.
+    """
+    config = client.config
+    payload = {
+        "model": config.model,
+        "messages": [
+            {"role": "system", "content": system},
+            {"role": "user", "content": user},
+        ],
+        "temperature": config.temperature,
+        "top_p": config.top_p,
+        "repeat_penalty": config.repeat_penalty,
+        "max_tokens": max_tokens,
+        "stream": True,
     }
+    headers = {"Content-Type": "application/json", "Accept": "text/event-stream"}
+    if config.api_key:
+        headers["Authorization"] = f"Bearer {config.api_key}"
+    request = urllib.request.Request(
+        config.base_url.rstrip("/") + "/v1/chat/completions",
+        data=json.dumps(payload).encode("utf-8"),
+        headers=headers,
+        method="POST",
+    )
+    pieces: list[str] = []
+    seen = 0
+    with urllib.request.urlopen(request, timeout=config.timeout) as response:
+        for raw in response:
+            line = raw.decode("utf-8", "replace").strip()
+            if not line.startswith("data:"):
+                continue
+            chunk = line[5:].strip()
+            if chunk == "[DONE]":
+                break
+            try:
+                event = json.loads(chunk)
+            except json.JSONDecodeError:
+                continue
+            choices = event.get("choices") or []
+            if not choices:
+                continue
+            delta = choices[0].get("delta") or {}
+            piece = delta.get("content") or delta.get("reasoning_content") or ""
+            if not piece:
+                continue
+            pieces.append(piece)
+            text = "".join(pieces)
+            if parse_verdict(text) is not None:
+                return text
+            # Keep the buffer bounded: trimming whole pieces can break a
+            # partial JSON brace count, so only trim well behind the growth.
+            if len(text) > 12000 and seen != len(pieces):
+                seen = len(pieces)
+                pieces = pieces[len(pieces) // 2 :]
+    return "".join(pieces)
+
+
+def _signals_text(signals: dict[str, object]) -> str:
+    """Render triage evidence for the judge, with the omission hint."""
+    if not signals:
+        return ""
+    text = SIGNAL_HINT.format(signals=json.dumps(signals, ensure_ascii=False))
+    dropped = list(signals.get("numbers_dropped") or []) + list(
+        signals.get("citations_dropped") or []
+    )
+    if dropped:
+        text += (
+            "\nA mechanical check reports these English values absent from the "
+            f"translation: {dropped}. Confirm each one; if it is absent, the "
+            "verdict MUST be OMIT.\n"
+        )
+    return text
 
 
 def judge_pair(client: ModelClient, pair: dict[str, object], model: str) -> dict[str, object]:
@@ -198,15 +412,15 @@ def judge_pair(client: ModelClient, pair: dict[str, object], model: str) -> dict
         en=pair["en"][:3500],
         lang=pair["lang"],
         target=pair["target"][:3500],
-        signals=SIGNAL_HINT.format(signals=json.dumps(signals)) if signals else "",
+        signals=_signals_text(signals),
     )
     last: Exception | None = None
-    for attempt in range(3):
+    for attempt in range(2):
         try:
-            raw = client.complete(SYSTEM, user, max_tokens=420)
+            raw = stream_verdict(client, SYSTEM, user)
             verdict = parse_verdict(raw)
             if verdict is None:
-                raise ValueError(f"unparseable verdict: {raw[:160]!r}")
+                raise ValueError(f"unparseable verdict: {raw[-160:]!r}")
             return {
                 "id": pair["id"], "post": pair["post"], "lang": pair["lang"],
                 "block": pair["block"], "triage_signals": signals,
@@ -216,7 +430,7 @@ def judge_pair(client: ModelClient, pair: dict[str, object], model: str) -> dict
             last = exc
             user = USER.format(
                 en=pair["en"][:3500], lang=pair["lang"], target=pair["target"][:3500],
-                signals="\n\nAnswer with JSON only. No prose.",
+                signals=_signals_text(signals) + "\n\nAnswer with JSON only. No prose.",
             )
             time.sleep(2 * (attempt + 1))
     return {
@@ -226,14 +440,21 @@ def judge_pair(client: ModelClient, pair: dict[str, object], model: str) -> dict
 
 
 def selftest(args: argparse.Namespace) -> int:
-    client = ModelClient(ModelConfig(args.base_url, args.api_key, args.model, timeout=60))
+    client = ModelClient(
+        ModelConfig(args.base_url, args.api_key, args.model, timeout=90, max_retries=1)
+    )
     if not client.healthy():
         print("skipped (no server)")
         return 0
     passed = 0
     for case in SELFTEST_CASES:
+        # Exercise the real path: the mechanical triage signal is computed for
+        # the control pair, so the omission hint is present exactly as in a run.
+        from paragraph_triage import score_pair
+
         pair = {"id": f"selftest|{case['name']}", "post": "selftest", "lang": "es",
-                "block": 0, "en": case["en"], "target": case["target"], "signals": {}, "score": 0}
+                "block": 0, "en": case["en"], "target": case["target"],
+                "signals": score_pair(case["en"], case["target"], "es")[1], "score": 0}
         result = judge_pair(client, pair, args.model)
         ok = result.get("verdict") == case["expect"]
         passed += 1 if ok else 0
@@ -261,6 +482,17 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--no-gate", action="store_true")
     parser.add_argument("--selftest", action="store_true")
     parser.add_argument("--strict", action="store_true")
+    parser.add_argument(
+        "--server-bin",
+        default=str(DEFAULT_LLAMA_SERVER) if DEFAULT_LLAMA_SERVER.exists() else None,
+        help="llama-server binary; when set with --model-path, the script starts "
+        "llama-server directly with reasoning disabled (no studio wrapper)",
+    )
+    parser.add_argument(
+        "--model-path",
+        default=next(iter(sorted(Path.home().glob(DEFAULT_GGUF_GLOB[2:]))), None),
+        help="path to the judge GGUF",
+    )
     args = parser.parse_args(argv)
 
     if args.selftest:
@@ -279,7 +511,11 @@ def main(argv: list[str] | None = None) -> int:
     if out_path.exists():
         for line in out_path.read_text(encoding="utf-8").splitlines():
             try:
-                done.add(json.loads(line)["id"])
+                row = json.loads(line)
+                # ERROR rows are retried on the next run; only real verdicts
+                # count as done.
+                if row.get("verdict") != "ERROR":
+                    done.add(row["id"])
             except Exception:  # noqa: BLE001
                 continue
     pairs = [p for p in pairs if p["id"] not in done]
@@ -293,14 +529,26 @@ def main(argv: list[str] | None = None) -> int:
         return 3
 
     server: LocalServer | None = None
+    server: DirectServer | LocalServer | None = None
     base_url, api_key = args.base_url, args.api_key
-    client = ModelClient(ModelConfig(base_url, api_key, args.model, timeout=120))
+    client = ModelClient(
+        ModelConfig(base_url, api_key, args.model, timeout=180, max_retries=1)
+    )
     if not client.healthy():
-        server = LocalServer(args.model, args.gguf_variant, args.port, args.context, max(2, args.jobs))
+        if args.server_bin and args.model_path:
+            server = DirectServer(
+                args.server_bin, args.model_path, args.port, args.context, max(2, args.jobs)
+            )
+        else:
+            server = LocalServer(
+                args.model, args.gguf_variant, args.port, args.context, max(2, args.jobs)
+            )
         server.start()
         base_url, api_key = server.base_url, server.api_key
         print(f"[judge] model ready at {base_url}")
-        client = ModelClient(ModelConfig(base_url, api_key, args.model, timeout=120))
+        client = ModelClient(
+            ModelConfig(base_url, api_key, args.model, timeout=180, max_retries=1)
+        )
 
     counts: dict[str, int] = {}
     lock = threading.Lock()

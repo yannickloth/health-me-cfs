@@ -652,7 +652,9 @@ class ModelClient:
         with urllib.request.urlopen(request, timeout=self.config.timeout) as response:
             return json.load(response)
 
-    def complete(self, system: str, user: str, max_tokens: int) -> str:
+    def complete(
+        self, system: str, user: str, max_tokens: int, extra: dict | None = None
+    ) -> str:
         payload = {
             "model": self.config.model,
             "messages": [
@@ -665,6 +667,11 @@ class ModelClient:
             "max_tokens": max_tokens,
             "stream": False,
         }
+        if extra:
+            # Caller-supplied sampling/template options. The judge uses this to
+            # disable a reasoning model's thinking mode: with thinking on, the
+            # output cap is spent inside the reasoning and no verdict is emitted.
+            payload.update(extra)
         last_error: Exception | None = None
         for attempt in range(self.config.max_retries):
             try:
