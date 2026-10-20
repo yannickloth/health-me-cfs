@@ -16,7 +16,7 @@ What it can be used for:
 
 What it cannot be used for:
     - Ruling ME/CFS in or out. Discrimination against other fatiguing conditions is moderate at best (see @lim:handgrip-diagnostic-discrimination).
-    - Inferring effort, sincerity, or symptom validity from test variability (see @pwarn:handgrip-effort-judgment).
+    - Inferring effort, sincerity, or symptom validity from test variability (see @pwarn-handgrip-effort-judgment).
     - Concluding that exertional intolerance is absent because grip force is normal. Maximal force and PEM are different constructs, and in the pediatric cohort grip indices did not correlate with PEM duration @Mihatsch2026HandgripCYP.
     - Guiding a treatment decision. No trial has used HGS as a treatment-response endpoint in ME/CFS.
 

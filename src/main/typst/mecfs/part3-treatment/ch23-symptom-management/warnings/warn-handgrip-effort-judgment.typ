@@ -13,4 +13,4 @@ Clinical rule:
 *Certainty: 0.55* that the variability-based effort inference is unsafe (one derivation study, one direct methodological rebuttal, no external validation).
 
 *Consequence:* Patients are still routinely described as not trying hard enough; attaching that judgment to a grip-strength number would give it false objectivity and could delay diagnosis or damage the clinical relationship.
-] <pwarn:handgrip-effort-judgment>
+] <pwarn-handgrip-effort-judgment>
