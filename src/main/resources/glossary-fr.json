@@ -14870,5 +14870,10 @@
         "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Wender+Utah+Rating+Scale"
       }
     ]
+  },
+  "démoralisation": {
+    "label": "démoralisation",
+    "category": "symptom",
+    "definition": "Un état de désespoir, d'impuissance et de perte de sens, avec la capacité de ressentir du plaisir partiellement préservée. Fréquent dans les maladies chroniques sévères ; peut exister sans dépression et la précéder."
   }
 }

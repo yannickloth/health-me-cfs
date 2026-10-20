@@ -12972,5 +12972,10 @@
         "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Wender+Utah+Rating+Scale"
       }
     ]
+  },
+  "demoralization": {
+    "label": "demoralization",
+    "category": "symptom",
+    "definition": "A state of hopelessness, helplessness and loss of meaning in which the capacity for pleasure is partly preserved. Common in severe chronic illness; can exist without depression and often precedes it."
   }
 }
