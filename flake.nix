@@ -77,6 +77,12 @@
                         # differently, so 3 tests fail (see fastapi -> openai ->
                         # graphrag check chain).
                         "inline-snapshot"
+                        # fnllm (openai SDK internals, transitively under graphrag)
+                        # ships a test suite that imports numpy, but numpy is not
+                        # declared in its check inputs, so collection fails with
+                        # `ModuleNotFoundError: No module named 'numpy'` (12 errors).
+                        # Same broken-check class as the deps above.
+                        "fnllm"
                       ]
                   );
                 in
