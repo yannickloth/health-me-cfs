@@ -288,8 +288,17 @@ def canon_token(tok: str, lang: str) -> str:
     return tok.replace(",", ".")  # 8,1 -> 8.1
 
 
+# Statistical degrees-of-freedom notation: F(1,18), t(24), F1,18. These are
+# notation arguments, not quantities — locale conversion (F1,18 -> F(1,18))
+# is faithful, so the number ledger must not read them as values.
+STAT_DF_RE = re.compile(
+    r"\b[FfTtZz]\(\s*\d+(?:\s*[,;]\s*\d+)+\s*\)|\b[FfTt]\d+(?:\s*[,;]\s*\d+)+"
+)
+
+
 def numbers(text: str, lang: str) -> Counter:
-    return Counter(canon_token(t, lang) for t in NUM_RE.findall(CITATION_RE.sub(" ", text)))
+    cleaned = STAT_DF_RE.sub(" ", CITATION_RE.sub(" ", text))
+    return Counter(canon_token(t, lang) for t in NUM_RE.findall(cleaned))
 
 
 def spelled(text: str, lang: str) -> Counter:
