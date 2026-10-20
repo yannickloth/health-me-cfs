@@ -205,6 +205,7 @@
               src/main/typst/mecfs/shared/reader-matrix.typ
 
             typst compile \
+              --jobs 1 \
               --package-cache-path "${typst-package-cache}" \
               --font-path src/main/typst/mecfs/fonts \
               --root . \
@@ -310,6 +311,7 @@
               src/main/typst/mecfs/part3-treatment/ch25-mechanistic-cascade-tracing/sec-14-pathway-coverage/pathway-status-table.typ
 
             typst compile \
+              --jobs 1 \
               --package-cache-path "${typst-package-cache}" \
               --font-path src/main/typst/mecfs/fonts \
               --root . \
