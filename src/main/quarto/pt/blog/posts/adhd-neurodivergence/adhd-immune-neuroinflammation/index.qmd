@@ -19,16 +19,16 @@ A série separa **o que sabemos** de **o que nossa pesquisa acrescenta**. Aqui, 
 
 ## A ideia: a inflamação degrada os circuitos de atenção
 
-A imagem clássica do PHDA é de desenvolvimento: os circuitos dopaminérgicos e prefrontais do cérebro foram construídos com uma configuração específica desde a infância. No entanto, uma apresentação semelhante ao PHDA não requer uma causa de desenvolvimento. Um **processo inflamatório posterior** pode degradar os mesmos circuitos, produzindo os mesmos sintomas por um caminho diferente.
+A imagem clássica da PHDA é de desenvolvimento: os circuitos dopaminérgicos e prefrontais do cérebro foram construídos com uma configuração específica desde a infância. No entanto, uma apresentação semelhante à PHDA não requer uma causa de desenvolvimento. Um **processo inflamatório posterior** pode degradar os mesmos circuitos, produzindo os mesmos sintomas por um caminho diferente.
 
 O mecanismo proposto é uma cascata:
 
-1. **A inflamação aumenta seus marcadores.** O aumento das citocinas pró-inflamatórias — notadamente IL-6 e TNF-alfa — está documentado de forma independente tanto no PHDA quanto na fadiga crónica [@Quadt2024neurodivergentfatigue @Dunn2019neuroinflammationadhd].
-2. **Microglia são ativadas.** As microglia ativadas são as células imunitárias residentes no cérebro, e sua ativação está documentada no PHDA [@Yokokura2021D1Rmicroglia] e na fadiga crónica [@Nakatomi2014neuroinflammation].
-3. **Dopamina é esgotada.** A inflamação desvia o cofator BH4 da síntese de dopamina para outra ramificação do seu metabolismo, e gera stress oxidativo que danifica os terminais dopaminérgicos. O resultado é uma menor oferta de dopamina nos mesmos circuitos que afetam o PHDA primário.
-4. **Função prefrontal é degradada.** O resultado é um fenótipo clínico semelhante ao PHDA — desatenção, impulsividade, dificuldade executiva — numa pessoa cujo desenvolvimento neurocognitivo antes da doença estava intacto.
+1. **A inflamação aumenta seus marcadores.** O aumento das citocinas pró-inflamatórias — notadamente IL-6 e TNF-alfa — está documentado de forma independente tanto na PHDA quanto na fadiga crónica [@Quadt2024neurodivergentfatigue @Dunn2019neuroinflammationadhd].
+2. **Microglia são ativadas.** As microglia ativadas são as células imunitárias residentes no cérebro, e sua ativação está documentada na PHDA [@Yokokura2021D1Rmicroglia] e na fadiga crónica [@Nakatomi2014neuroinflammation].
+3. **Dopamina é esgotada.** A inflamação desvia o cofator BH4 da síntese de dopamina para outra ramificação do seu metabolismo, e gera stress oxidativo que danifica os terminais dopaminérgicos. O resultado é uma menor oferta de dopamina nos mesmos circuitos que afetam a PHDA primária.
+4. **Função prefrontal é degradada.** O resultado é um fenótipo clínico semelhante à PHDA — desatenção, impulsividade, dificuldade executiva — numa pessoa cujo desenvolvimento neurocognitivo antes da doença estava intacto.
 
-A afirmação chave: **a neuroinflamação sustentada pode ser suficiente para produzir características semelhantes ao PHDA em pessoas que não tinham PHDA antes.** Essa afirmação é uma especulação de pesquisa registrada, e não um achado estabelecido.
+A afirmação chave: **a neuroinflamação sustentada pode ser suficiente para produzir características semelhantes à PHDA em pessoas que não tinham PHDA antes.** Essa afirmação é uma especulação de pesquisa registrada, e não um achado estabelecido.
 
 ---
 
@@ -48,9 +48,9 @@ Quatro descobertas aprofundam o caso:
 
 ## A ponte orexina-dopamina
 
-Outra hipótese no nosso artigo relaciona a estirão inflamatória ao défice de dopamina na PHDA através da **orexina** — o peptídeo que promove a vigília. Neurônios orexina projetam-se para a área tegmental ventral, onde regulam a atividade dopaminérgica. A deficiência neste sistema reduz a dopamina préfrontal (névoa cerebral) e a recompensa mesolimbic (anhedonia) [@Sakurai1998orexin].
+Outra hipótese no nosso artigo relaciona a estirão inflamatória ao défice de dopamina na PHDA através da **orexina** — o peptídeo que promove a vigília. Neurónios orexina projetam-se para a área tegmental ventral, onde regulam a atividade dopaminérgica. A deficiência neste sistema reduz a dopamina préfrontal (névoa cerebral) e a recompensa mesolímbica (anhedonia) [@Sakurai1998orexin].
 
-A relevância para a PHDA é específica: o mesmo metabolismo de glicose cerebral 8,1% inferior observado na PHDA pode refletir uma deficiência hypothalamica comum de orexina, e a hipótese do nosso artigo propõe que um baixo tónus orexina está relacionado com um baixo metabólito de dopamina e resultados mais baixos de atenção. Existem agora evidências diretas em humanos: um estudo de crianças sem uso de medicamentos com PHDA encontrou níveis reduzidos de orexina A sérica em comparação com grupos de controle [@Baykal2019orexinADHD]. Como a inflamação pode suprimir a função dos neurônios orexina (o caminho pelo qual a neuroinflamação crónica de baixo grau é proposta para gerar fadiga), um impacto inflamatório que suprime orexina reduziria ainda mais a já baixa dopamina préfrontal do cérebro afetado pela PHDA — fechando um segundo caminho da inflamação para características semelhantes à PHDA.
+A relevância para a PHDA é específica: o mesmo metabolismo de glicose cerebral 8,1% inferior observado na PHDA pode refletir uma deficiência hipotalâmica comum de orexina, e a hipótese do nosso artigo propõe que um baixo tónus orexina está relacionado com um baixo metabólito de dopamina e resultados mais baixos de atenção. Existem agora evidências diretas em humanos: um estudo de crianças sem uso de medicamentos com PHDA encontrou níveis reduzidos de orexina A sérica em comparação com grupos de controlo [@Baykal2019orexinADHD]. Como a inflamação pode suprimir a função dos neurônios orexina (o caminho pelo qual a neuroinflamação crónica de baixo grau é proposta para gerar fadiga), um impacto inflamatório que suprime orexina reduziria ainda mais a já baixa dopamina préfrontal do cérebro afetado pela PHDA — fechando um segundo caminho da inflamação para características semelhantes à PHDA.
 
 Esta é uma **especulação registada com baixa confiança** — a cadeia completa orexina-inflamação-dopamina-PHDA é uma inferência entre literaturas, e a descoberta direta em humanos de orexina-PHDA é baseada na sérica e em estudo único. É incluída aqui para completude como um mecanismo distinto desenvolvido pelo nosso artigo, e não como uma descoberta estabelecida.
 
@@ -60,12 +60,12 @@ Esta é uma **especulação registada com baixa confiança** — a cadeia comple
 
 Uma segunda rota, mais específica, da inflamação para a depleção de dopamina passa pela **via da kynurenina** — o ramo do metabolismo do triptofano que a inflamação (via IDO) direciona para metabolitos neuroativos. Dois de seus produtos são diretamente relevantes para a dopamina:
 
-- **Ácido kynurenico** é neuroprotetor no receptor NMDA, mas, em baixas concentrações, também **reduz a liberação de dopamina no striado** — um achado animal que conecta a sobreativação da kynurenina diretamente ao défice de dopamina implicado na PHDA [@Rassoulpour2005KynurenicAcid].
+- **Ácido kynurénico** é neuroprotetor no receptor NMDA, mas, em baixas concentrações, também **reduz a liberação de dopamina no estriado** — um achado animal que conecta a sobreativação da kynurenina diretamente ao défice de dopamina implicado na PHDA [@Rassoulpour2005KynurenicAcid].
 - A sobreativação da via no cérebro consome NAD+, o mesmo cofator que as mitocôndrias necessitam para o ATP, levantando a possibilidade de que a carga de kynurenina e a disfunção mitocondrial se combinem, com o córtex pré-frontal (a região mais energeticamente dispendiosa) mostrando o primeiro défice.
 
-Em humanos recuperando de COVID, a ativação da via kynurenina está correlacionada com comprometimento cognitivo objetivo [@Cysique2023KynureninePASC], e a supressão dos genes de complexos mitocondriais acompanha o declínio cognitivo do COVID [@Xu2025MitoComplexesADHD]. Um ponto de vista translacional de 2026 em *Brain, Behavior, and Immunity* integra esses resultados explicitamente, propondo uma estrutura neuroimune compartilhada que liga Long Covid e PHDA através de mecanismos convergentes — disfunção frontal-striado-hippocampal, desregulação neuroimune de catecolaminas, sobreativação de kynurenina e defeitos bioenergéticos mitocondriais [@Spanoghe2026LongCovidADHD]. Também observa que alguns pacientes com Long Covid relatam benefício parcial com medicamentos direcionados à PHDA (metilfenidato, guanfacina, ligeira dose de lítio, dexamfetamina), com a desregulação autonómica pré-existente e o mal-estar pós-esforço como fatores limitantes [@Krishnan2022BrainFogMultidisciplinary @FesharakiZadeh2023Guanfacine].
+Em humanos recuperando de COVID, a ativação da via kynurenina está correlacionada com comprometimento cognitivo objetivo [@Cysique2023KynureninePASC], e a supressão dos genes de complexos mitocondriais acompanha o declínio cognitivo do COVID [@Xu2025MitoComplexesADHD]. Um ponto de vista translacional de 2026 em *Brain, Behavior, and Immunity* integra esses resultados explicitamente, propondo uma estrutura neuroimune compartilhada que liga Long Covid e PHDA através de mecanismos convergentes — disfunção frontal-estriado-hipocampal, desregulação neuroimune de catecolaminas, sobreativação de kynurenina e defeitos bioenergéticos mitocondriais [@Spanoghe2026LongCovidADHD]. Também observa que alguns pacientes com Long Covid relatam benefício parcial com medicamentos direcionados à PHDA (metilfenidato, guanfacina, ligeira dose de lítio, dexamfetamina), com a desregulação autonómica pré-existente e o mal-estar pós-esforço como fatores limitantes [@Krishnan2022BrainFogMultidisciplinary @FesharakiZadeh2023Guanfacine].
 
-Esta é uma **especulação registada**: o achado do ácido kynurenico-abaixador de dopamina é baseado em dados de animais, e a estrutura unificada é um ponto de vista sem dados primários próprios. Mas ela esclarece o mecanismo na cascada deste artigo — a inflamação não apenas desvia o BH4 da síntese de dopamina; seu braço kynurenino também pode atuar diretamente na liberação de dopamina. Os relatos de farmacoterapia off-label são observações clínicas, não uma recomendação de tratamento.
+Esta é uma **especulação registada**: o achado do ácido kynurénico-abaixador de dopamina é baseado em dados de animais, e a estrutura unificada é um ponto de vista sem dados primários próprios. Mas ela esclarece o mecanismo na cascada deste artigo — a inflamação não apenas desvia o BH4 da síntese de dopamina; seu braço kynurenino também pode atuar diretamente na liberação de dopamina. Os relatos de farmacoterapia fora de indicação são observações clínicas, não uma recomendação de tratamento.
 
 ---
 
@@ -73,9 +73,9 @@ Esta é uma **especulação registada**: o achado do ácido kynurenico-abaixador
 
 Em conjunto, essas ideias apontam para uma proposta da nossa pesquisa — a **hipótese de mesma raiz**: a PHDA e a fadiga crónica (juntamente com outras condições neuroinflamatórias) podem compartilhar uma causa comum — a inflamação crónica que leva à disfunção mitocondrial e ao colapso energético —, com o diagnóstico específico determinado pelo tipo de tecidos afetados. A cadeia causal é: **inflamação → supressão metabólica mediada por citocina → déficit de ATP mitocondrial → colapso energético cerebral (um fenótipo de PHDA quando compartimentado) ou colapso energético sistêmico (um fenótipo de fadiga quando generalizado).**
 
-A inflamação é considerada o principal motor proposto; a disfunção mitocondrial é o intermediário mecânico; a expressão dos sintomas é determinada pelo facto de quais tecidos cruzerem o limite de energia primeiro.
+A inflamação é considerada o principal motor proposto; a disfunção mitocondrial é o intermediário mecânico; a expressão dos sintomas é determinada pelo facto de quais tecidos cruzarem o limite de energia primeiro.
 
-Esta é uma **especulação registrada com baixa confiança** — uma hipótese para ser testada, não um achado estabelecido. Não se trata da afirmação de que toda PHDA é inflamatória; trata-se da afirmação de que um subconjunto de características semelhantes à PHDA pode ser adquirido e impulsionado por imunologia.
+Esta é uma **especulação registrada com baixa confiança** — uma hipótese para ser testada, não um achado estabelecido. Não se trata da afirmação de que toda PHDA é inflamatória; trata-se da afirmação de que um subconjunto de características semelhantes à PHDA pode ser adquirido e impulsionado pelo sistema imunitário.
 
 ---
 
@@ -83,7 +83,7 @@ Esta é uma **especulação registrada com baixa confiança** — uma hipótese 
 
 Vários mecanismos adjacentes possuem artigos dedicados neste blog:
 
-- **[Por que pessoas com PHDA têm EM/SFC em duas vezes a taxa](../adhd-mecfs-predisposition/index.qmd)** — a ponte epidemiológica entre PHDA e fadiga pós-infecciosa.
+- **[Por que pessoas com PHDA têm EM/SFC ao dobro da taxa](../adhd-mecfs-predisposition/index.qmd)** — a ponte epidemiológica entre PHDA e fadiga pós-infecciosa.
 - **[Sua PHDA é um problema de energia](../adhd-energy-problem/index.qmd)** — o argumento sobre a produção de energia que esta vertente conecta.
 - **[Um cofator, seis condições, um gargalo](../bh4-one-cofactor-six-conditions/index.qmd)** — o cofator BH4 que a inflamação desvia da síntese de dopamina.
 
@@ -94,8 +94,8 @@ Vários mecanismos adjacentes possuem artigos dedicados neste blog:
 Este framework é **explicitamente especulativo**, com baixa certeza.
 
 - A premissa da neuroinflamação no cansaço crónico é **contestada** — um estudo a confirmou, mas outra replicação não [@Nakatomi2014neuroinflammation @Raijmakers2021TSPOCFS].
-- Nenhum estudo mediu o mesmo painel inflamatório e microglial simultaneamente em PHDA, cansaço crónico e controles saudáveis.
-- A mesma hipótese de raiz baseia-se em designs transversais e retrospectivos; nenhum estudo prospectivo rastreou o surgimento de sintomas semelhantes à PHDA *após* um gatilho inflamatório numa coorte caracterizada por pré- doença.
+- Nenhum estudo mediu o mesmo painel inflamatório e microglial simultaneamente em PHDA, cansaço crónico e controlos saudáveis.
+- A mesma hipótese de raiz baseia-se em designs transversais e retrospectivos; nenhum estudo prospectivo rastreou o surgimento de sintomas semelhantes à PHDA *após* um gatilho inflamatório numa coorte caracterizada antes da doença.
 - O framework abrange um **subconjunto** de características semelhantes à PHDA, não a condição inteira. A maioria da PHDA é desenvolvimental e estável, não adquirida.
 - Mesmo onde a inflamação está presente, a direção causal não está resolvida: a inflamação pode causar depleção de dopamina, ou a desregulação crónica da dopamina pode estressar secundariamente o sistema imunitário.
 
@@ -115,7 +115,7 @@ Se a inatenção adquirida segue a inflamação e se inverte com tratamento anti
 
 O modelo imunológico e neuroinflamatório não afirma que a PHDA é uma doença imunológica. Afirma que **um subconjunto** de características semelhantes à PHDA pode ser impulsionado por inflamação e ativação de microglia — um processo imunológico que pode esgotar a dopamina e degradar os mesmos circuitos préfrontais que a PHDA primária afeta durante o desenvolvimento.
 
-A parte encorajadora: se algumas características semelhantes à PHDA são impulsionadas por imunologia, elas podem ser **adquiridas e reversíveis** — tratáveis ao abordar a inflamação, em vez de serem aceitas como estruturas permanentes.
+A parte encorajadora: se algumas características semelhantes à PHDA são impulsionadas pelo sistema imunitário, elas podem ser **adquiridas e reversíveis** — tratáveis ao abordar a inflamação, em vez de serem aceitas como estruturas permanentes.
 
 este é um quadro de investigação, não uma recomendação clínica. A premissa da neuroinflamação é contestada, não há indicação de triagem e nenhum tratamento imunomodulador para características semelhantes à PHDA está estabelecido. O estudo prospectivo decisivo ainda não foi realizado.
 

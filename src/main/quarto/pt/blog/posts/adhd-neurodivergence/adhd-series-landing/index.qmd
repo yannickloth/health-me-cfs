@@ -1,6 +1,6 @@
 ---
 title: "A Biologia da PHDA — uma Série"
-description: "A PHDA não é uma única condição. Quatro áreas biológicas independentes — energia pré-frontal, neuroinflamação impulsionada por imunidade, o eixo dopamina-Nrf2-NLRP3 e trajetórias adquiridas — podem contribuir cada uma para o fardo dos sintomas, e a abordagem futura pode envolver o tratamento de várias delas ao mesmo tempo. Esta é a página inicial de uma série que analisa cada área e a hipótese de tratamento multivias."
+description: "A PHDA não é uma única condição. Quatro vertentes biológicas independentes — energia pré-frontal, neuroinflamação impulsionada por imunidade, o eixo dopamina-Nrf2-NLRP3 e trajetórias adquiridas — podem contribuir cada uma para o fardo dos sintomas, e a abordagem futura pode envolver o tratamento de várias delas ao mesmo tempo. Esta é a página inicial de uma série que analisa cada área e a hipótese de tratamento multivias."
 author: "Yannick Loth"
 date: "2026-08-24"
 categories: [Neurodivergence, Series, Pathophysiology]
@@ -9,9 +9,9 @@ lang: pt
 
 A PHDA não é uma única condição.
 
-Uma suposição comum é que a condição tenha uma única causa e uma única explicação. Nossa pesquisa aponta para algo mais detalhado: **quatro estratégias biológicas distintas** podem estar por trás dos sintomas relacionados à PHDA — um déficit de energia no pré-frontal, um subgrupo neuroinflamatório impulsionado por imunidade, um eixo dopamina-Nrf2-NLRP3 e características adquiridas que não são de desenvolvimento. Pacientes diferentes provavelmente apresentam combinações diferentes dessas estratégias, e cada uma contribui para uma parte diferente da carga de sintomas diária.
+Uma suposição comum é que a condição tenha uma única causa e uma única explicação. Nossa pesquisa aponta para algo mais detalhado: **quatro vertentes biológicas distintas** podem estar por trás dos sintomas relacionados à PHDA — um déficit de energia no pré-frontal, um subgrupo neuroinflamatório impulsionado por imunidade, um eixo dopamina-Nrf2-NLRP3 e características adquiridas que não são de desenvolvimento. Pacientes diferentes provavelmente apresentam combinações diferentes dessas estratégias, e cada uma contribui para uma parte diferente da carga de sintomas diária.
 
-Esta série analisa cada estratégia em linguagem simples, e depois faz a pergunta à qual todas convergem: **é possível tratar várias vias ao mesmo tempo para eliminar ou reduzir os sintomas e permitir que o paciente tenha uma vida mais normal?**
+Esta série analisa cada vertente em linguagem simples, e depois faz a pergunta à qual todas convergem: **é possível tratar várias vias ao mesmo tempo para eliminar ou reduzir os sintomas e permitir que o paciente tenha uma vida mais normal?**
 
 ---
 
@@ -45,7 +45,7 @@ Leia o artigo:
 
 ## Parte 2: O Aspecto Imunológico e Neuroinflamatório da PHDA
 
-Nem toda PHDA tem a mesma causa. Uma crescente linha de evidências relaciona características semelhantes à PHDA a neuroinflamação crónica e ativação de microglia — um processo impulsionado por imunidade que pode esgotar a dopamina e degradar os mesmos circuitos préfrontais que a PHDA primária afeta durante o desenvolvimento. Se alguns sintomas semelhantes à PHDA são impulsionados pela inflamação, eles podem ser adquiridos, reversíveis e identificáveis.
+Nem toda PHDA pode ter a mesma causa. Uma crescente linha de evidências relaciona características semelhantes à PHDA a neuroinflamação crónica e ativação de microglia — um processo impulsionado por imunidade que pode esgotar a dopamina e degradar os mesmos circuitos préfrontais que a PHDA primária afeta durante o desenvolvimento. Se alguns sintomas semelhantes à PHDA são impulsionados pela inflamação, eles podem ser adquiridos, reversíveis e identificáveis.
 
 Leia o artigo:
 
@@ -65,7 +65,7 @@ Leia o artigo:
 
 ## Parte 4: Adquirido vs. Desenvolvimental — Quando características semelhantes à PHDA podem ser reversíveis
 
-A questão clinicamente relevante: as características semelhantes à PHDA estão necessariamente presentes desde o desenvolvimento, ou algumas podem ser *adquiridas* — e, portanto, reversíveis? Muita PHDA em adultos não é uma continuação direta da PHDA da infância — algumas têm início na adolescência, algumas refletem sintomas da infância não reconhecidos ou mal registrados, algumas são explicadas pelo uso de substâncias ou comorbidades — e a negligência adquirida após um gatilho imunológico pode ser reversível quando a sua causa é tratada. Diferenciar os dois determina se um sintoma pode responder ao tratamento da sua causa ou se é uma configuração estática.
+A questão clinicamente relevante: as características semelhantes à PHDA estão necessariamente presentes desde o desenvolvimento, ou algumas podem ser *adquiridas* — e, portanto, reversíveis? Muita PHDA em adultos não é uma continuação direta da PHDA da infância — algumas têm início na adolescência, algumas refletem sintomas da infância não reconhecidos ou mal recordados, algumas são explicadas pelo uso de substâncias ou comorbidades — e a desatenção adquirida após um gatilho imunológico pode ser reversível quando a sua causa é tratada. Diferenciar os dois determina se um sintoma pode responder ao tratamento da sua causa ou se é uma configuração estática.
 
 Leia o artigo:
 

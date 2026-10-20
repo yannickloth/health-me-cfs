@@ -1,6 +1,6 @@
 ---
-title: "Clube de Neurodivergência-Hipermobilidade-Fadiga: Risco Metabólico Composto"
-description: "Este é o quarto artigo de uma série sobre a biologia da energia que relaciona PHDA, autismo e EM/SFC. Este artigo analisa por que a interseção entre neurodivergência e hipermobilitade do tecido conjuntivo pode representar o fenótipo de maior risco para o desenvolvimento de EM/SFC..."
+title: "Cluster de Neurodivergência-Hipermobilidade-Fadiga: Risco Metabólico Composto"
+description: "Este é o quarto artigo de uma série sobre a biologia da energia que relaciona PHDA, autismo e EM/SFC. Este artigo analisa por que a interseção entre neurodivergência e hipermobilidade do tecido conjuntivo pode representar o fenótipo de maior risco para o desenvolvimento de EM/SFC..."
 author: "Yannick Loth"
 date: "2026-05-11"
 categories: [Neurodivergence, Hypermobility, Comorbidities]
@@ -25,16 +25,16 @@ Estas condições ocorrem em taxas muito superiores ao acaso:
 
 ## Por que o cluster existe: dois déficits energéticos independentes
 
-Cada condição neste cluster reduz a reserva metabólica cerebral por meio de mecanismos diferentes. Quando ocorrem em conjunto, os efeitos se somam.
+Cada condição neste cluster reduz a reserva metabólica cerebral por meio de mecanismos diferentes. Quando ocorrem em conjunto, os efeitos se combinam.
 
 ### Mecanismo 1: Redução da produção de energia (ASD/PHDA)
 
 Uma meta-análise de **204 estudos** identificou disfunção mitocondrial sistêmica no espectro autista [@Frye2024ASDmitochondria]:
 
-- Lactato elevado (17% dos amostras de ASD)
+- Lactato elevado (17% das amostras de ASD)
 - Piruvato elevado (41%)
 - Creatinaquinase elevada (9%)
-- Deficit significativo de ATP com **tamanho de efeito ≥ 0,6** (moderado-a-grande)
+- Déficit significativo de ATP com **tamanho de efeito ≥ 0,6** (de moderado a grande)
 
 Estas são as mesmas deficiências na cadeia de transporte de eletrões documentadas na EM/SFC. No ASD, elas existem como uma **característica de base** — presentes antes de qualquer gatilho infeccioso.
 
@@ -77,17 +77,17 @@ Uma pessoa com ASD + hEDS + deficiência de ferro pode estar operando com **73% 
 
 A via do BH4 (tetrahydrobiopterin) conecta estas condições no nível molecular:
 
-- **ASD:** O nível de BH4 é consistentemente mais baixo em amostras biológicas em comparação com os controles. A suplementação de BH4 mostra potencial em alguns estudos sobre ASD.
+- **ASD:** O nível de BH4 é consistentemente mais baixo em amostras biológicas em comparação com os controles. A suplementação de BH4 mostra potencial em alguns ensaios sobre ASD.
 - **PHDA:** A alta demanda por dopamina aumenta o consumo de BH4.
 - **hEDS/POTS:** O stress oxidativo causado por isquemia-reperfusão oxida o BH4 para sua forma inativa (BH2).
 
-O BH4 é necessário tanto para a síntese de neurotransmissores (dopamina, serotonina) quanto para a produção de óxido nítrico (tônus vascular). O baixo nível de BH4 prejudica a capacidade do cérebro de produzir moléculas de sinal e de regular seu próprio fluxo sanguíneo [@ColpaniFilho2025BH4ASD].
+O BH4 é necessário tanto para a síntese de neurotransmissores (dopamina, serotonina) quanto para a produção de óxido nítrico (tónus vascular). O baixo nível de BH4 prejudica a capacidade do cérebro de produzir moléculas de sinal e de regular seu próprio fluxo sanguíneo [@ColpaniFilho2025BH4ASD].
 
 ---
 
 ## O gatilho da infeção: vulnerabilidade composta
 
-Quando COVID, EBV ou gripe atinge uma pessoa com este cluster, a resposta imunológica impõe exigências metabólicas num sistema que já está próximo dos seus limites. A produção de citocina, a proliferação de linfócitos e a neuroinflamação — tudo depende do mesmo pool limitado de energia.
+Quando COVID, EBV ou gripe atinge uma pessoa com este cluster, a resposta imunológica impõe exigências metabólicas num sistema que já está próximo dos seus limites. A produção de citocina, a proliferação de linfócitos e a neuroinflamação — tudo depende da mesma reserva limitada de energia.
 
 Em alguém com 73% de capacidade, a demanda imunológica adicional pode levá-lo abaixo do limiar crítico para danos mitocondriais autossustentáveis. O ciclo feed-forward é iniciado. A fadiga pós-infecciosa não se resolve.
 
@@ -97,13 +97,13 @@ Isso nunca foi testado diretamente. Os dados existem nos registros de hEDS e em 
 
 ---
 
-## Neurodivergência como fator de risco pós-Covid: evidências preliminares
+## Neurodivergência como fator de risco pós-COVID: evidências preliminares
 
 Um estudo transversal de 2025 com 267 profissionais de cuidados de saúde descobriu que valores mais altos de traços autistas — especificamente a **subescala de reatividade sensorial** — previram sintomas de COVID-19 que duraram mais de 12 semanas [@Raw2025neurodivergencePostCOVID]. Isso foi independente de um diagnóstico formal de autismo.
 
-O achado é dimensional: ele opera num espectro de traços autistas, e não apenas no limite diagnóstico. Sob o modelo de reserva metabólica, qualquer grau de biologia neurodivergente que aumente o consumo de energia neural de base estreita o espaço para a absorção de um insulto imunológico.
+O achado é dimensional: ele opera num espectro de traços autistas, e não apenas no limite diagnóstico. Sob o modelo de reserva metabólica, qualquer grau de biologia neurodivergente que aumente o consumo de energia neural de base estreita a margem para a absorção de um insulto imunológico.
 
-*Limitações: Este é um pequeno estudo transversal que não pode estabelecer causalidade. O design não pode excluir explicações alternativas — traços autistas podem estar correlacionados com diferentes padrões de relatório de sintomas, comportamento de busca por cuidados de saúde ou exposições ocupacionais, em vez de vulnerabilidade biológica.*
+*Limitações: Este é um pequeno estudo transversal que não pode estabelecer causalidade. O design não pode excluir explicações alternativas — traços autistas podem estar correlacionados com diferentes padrões de relato de sintomas, comportamento de busca por cuidados de saúde ou exposições ocupacionais, em vez de vulnerabilidade biológica.*
 
 ---
 
@@ -113,15 +113,15 @@ Nem tudo é destino. Vários componentes do déficit composto podem ser corrigid
 
 | Componente | Intervenção | Custo |
 | --- | --- | --- |
-| Estado de ferro | Meta de ferritina >50–100 ng/mL; ferro intravenoso se intolerante oral | Baixo |
+| Estado de ferro | Meta de ferritina >50–100 ng/mL; ferro intravenoso se houver intolerância oral | Baixo |
 | Perfusão cerebral | Roupas de compressão, carga de fluido/sal, trabalho cognitivo reclinado | Baixo |
-| Apoio ao reciclagem de BH4 | Ácido folínico, vitamina C, ferro (apoia a enzima DHPR) | Baixo |
+| Apoio à reciclagem de BH4 | Ácido folínico, vitamina C, ferro (apoia a enzima DHPR) | Baixo |
 | Gestão de POTS | Protocolo padrão (midodrina, fludrocortisona ou não farmacológico) | Moderado |
 | BH4 direto | Sapropterina para portadores confirmados de GCH1 | Alto |
 
 *Nota: Esta tabela apresenta uma estrutura mecânica em fase de pesquisa. Midodrina, fludrocortisona e sapropterina são medicamentos sob prescrição com indicações e contraindicações específicas. Discuta qualquer intervenção com um médico qualificado.*
 
-A abordagem importa. Tratar POTS como uma diagnóstica isolada ignora o ponto principal. Neste cluster, **a gestão de POTS é a construção de reserva metabólica**. Cada ponto de fluxo sanguíneo cerebral recuperado é energia que o cérebro pode usar para pensar, trabalhar e viver.
+A abordagem importa. Tratar POTS como um diagnóstico isolado ignora o ponto principal. Neste cluster, **a gestão de POTS é a construção de reserva metabólica**. Cada ponto de fluxo sanguíneo cerebral recuperado é energia que o cérebro pode usar para pensar, trabalhar e viver.
 
 ---
 

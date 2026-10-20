@@ -15,11 +15,11 @@ Este é o quinto artigo de uma série sobre a biologia da energia que relaciona 
 
 A tetrahidrobiopterina (BH4) é um cofator — uma molécula auxiliar necessária por enzimas específicas para funcionar. É essencial para:
 
-- **Tirosinase hidroxilase (TH)** → a enzima limitadora da taxa para a síntese de dopamina e noradrenalina
+- **Tirosina hidroxilase (TH)** → a enzima limitadora da taxa para a síntese de dopamina e noradrenalina
 - **Triptofano hidroxilase (TPH)** → a enzima limitadora da taxa para a síntese de serotonina
-- **As três isoformas de síntese de óxido nítrico (NOS)** → produção de óxido nítrico, o principal regulador do tônus vascular
+- **As três isoformas da óxido nítrico sintase (NOS)** → produção de óxido nítrico, o principal regulador do tônus vascular
 
-Sem BH4 adequado, o cérebro não pode produzir suas três principais neurotransmissores monoaminados E NÃO pode regular seu próprio fluxo sanguíneo. Um défice. Quatro falhas downstream. [@Fanet2021BH4neuro]
+Sem BH4 adequado, o cérebro não pode produzir seus três principais neurotransmissores monoaminados E NÃO pode regular seu próprio fluxo sanguíneo. Um défice. Quatro falhas a jusante. [@Fanet2021BH4neuro]
 
 ---
 
@@ -69,7 +69,7 @@ Quando o BH4 cai abaixo dos limiares funcionais, quatro sistemas falham simultan
 | --- | --- | --- |
 | Dopamina | Atividade TH reduzida → menos dopamina | Falha de atenção, colapso de motivação, disfunção executiva |
 | Serotonina | Atividade TPH reduzida → menos serotonina | Perturbação do sono, instabilidade de humor, amplificação da dor |
-| Noradrenalina | Síntese downstream de NE reduzida | Desregulação da excitação, intolerância ortostática |
+| Noradrenalina | Síntese de NE a jusante reduzida | Desregulação da excitação, intolerância ortostática |
 | Oxido nítrico | Atividade NOS reduzida → menos NO | Vasodilatação prejudicada, fluxo sanguíneo cerebral reduzido, pior fornecimento de energia |
 
 A via NO é particularmente importante para o modelo de reserva metabólica. O oxido nítrico é o principal vasodilatador nas arteríolas cerebrais. Quando a produção de NO diminui, o cérebro perde a capacidade de aumentar o fluxo sanguíneo em resposta à demanda aumentada. Isso significa que o esforço cognitivo — que normalmente desencadeia vasodilatação local para fornecer mais combustível — não consegue produzir o aumento esperado de perfusão.
@@ -114,7 +114,7 @@ Esta combinação apoia o reciclagem *endógena* de BH4. Não é equivalente à 
 
 **Categoria 2 — Suplementação direta de BH4 (prescrição, alto custo):**
 
-- Sapropterina (Kuvan): BH4 sintético. Aprovada pela FDA para fenilcetonúria. Uso off-label para deficiência de neurotransmissores relacionada ao BH4. Custo: aproximadamente $1.000–3.000/mês.
+- Sapropterina (Kuvan): BH4 sintético. Aprovada pela FDA para fenilcetonúria. Uso fora da indicação para deficiência de neurotransmissores relacionada ao BH4. Custo: aproximadamente $1.000–3.000/mês.
 - População-alvo: portadores homozigóticos confirmados de GCH1 rs841 com biopterina baixa documentada.
 
 **Categoria 3 — Reduzir o consumo de BH4 (experimental):**

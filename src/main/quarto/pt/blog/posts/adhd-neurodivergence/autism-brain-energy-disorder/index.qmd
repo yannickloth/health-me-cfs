@@ -13,19 +13,19 @@ A resposta comum é que essas são características intrínsecas do funcionament
 
 Este artigo explica esse modelo, as evidências por trás dele e — onde ainda é especulativo. Ele se baseia em nossa pesquisa, mas foi escrito para ser independente para qualquer pessoa curiosa sobre autismo e energia.
 
-Ao longo do texto, a série separa **o que sabemos** de **o que nossa pesquisa acrescenta**. Aqui, os resultados estabelecidos são a evidência sistêmica das mitocôndria no autismo [@Frye2024ASDmitochondria] e a descoberta do cofator BH4 [@ColpaniFilho2025BH4ASD]. O que nossa pesquisa acrescenta é a interpretação da convergência de energia no cérebro — que uma falta de combustível pode explicar uma parte central da experiência autista — o que é uma hipótese, e não ainda um facto.
+Ao longo do texto, a série separa **o que sabemos** de **o que nossa pesquisa acrescenta**. Aqui, os resultados estabelecidos são a evidência sistémica das mitocôndrias no autismo [@Frye2024ASDmitochondria] e a descoberta do cofator BH4 [@ColpaniFilho2025BH4ASD]. O que nossa pesquisa acrescenta é a interpretação da convergência de energia no cérebro — que uma falta de combustível pode explicar uma parte central da experiência autista — o que é uma hipótese, e não ainda um facto.
 
 ---
 
 ## O modelo: um cérebro operando com um fornecimento de combustível limitado
 
-Em 2026, uma revisão propôs um modelo abrangente do autismo como uma **disorder de energia cerebral** [@BlagojevicStokic2026brainenergy]. A afirmação é específica:
+Em 2026, uma revisão propôs um modelo abrangente do autismo como um **distúrbio de energia cerebral** [@BlagojevicStokic2026brainenergy]. A afirmação é específica:
 
-- O fornecimento de combustível ao cérebro depende dos **astrócitos** — células de suporte que convertem glicose em lactato e transportam-no para neurônios.
-- No modelo, esse transporte é prejudicado: redução na absorção de glicose, falha no armazenamento de glicogênio e interrupção na transferência de lactato de astrócitos para neurônios.
+- O fornecimento de combustível ao cérebro depende dos **astrócitos** — células de suporte que convertem glicose em lactato e transportam-no para neurónios.
+- No modelo, esse transporte é prejudicado: redução na absorção de glicose, falha no armazenamento de glicogénio e interrupção na transferência de lactato de astrócitos para neurónios.
 - O resultado é **uma disponibilidade de ATP subótima** — o cérebro literalmente não tem combustível suficiente.
 
-A principal característica do modelo é a **"adaptação de economia de energia."** Diante de um déficit, o cérebro não entra em crise. Ele *economiza*: prioriza as operações mais caras em energia para proteger as funções necessárias para a sobrevivência. Essas operações mais caras em energia são precisamente aquelas que reconhecemos como essenciais para a vida social:
+A principal característica do modelo é a **"adaptação de economia de energia."** Diante de um défice, o cérebro não entra em crise. Ele *economiza*: prioriza as operações mais caras em energia para proteger as funções necessárias para a sobrevivência. Essas operações mais caras em energia são precisamente aquelas que reconhecemos como essenciais para a vida social:
 
 - **Comunicação social** — reconhecer rostos, tom e intenção
 - **Flexibilidade cognitiva** — alternar tarefas, adaptar-se às mudanças
@@ -39,7 +39,7 @@ Sob este modelo, a sobrecarga sensorial não é uma peculiaridade de personalida
 
 Se o modelo de energia cerebral fosse uma ideia isolada, seria fácil descartá-lo. Não é isolado. Três linhas de evidências independentes apontam na mesma direção.
 
-**1. A disfunção mitocondrial é sistêmica e basal.** Uma revisão sistemática e meta-análise de 204 estudos encontrou lactato, piruvato e alanina elevados em pessoas autistas, juntamente com creatina quinase e um índice lactato/piruvato elevado — os mesmos marcadores da cadeia de transporte de eletrões observados em distúrbios do metabolismo energético [@Frye2024ASDmitochondria]. Crucialmente, estes estão presentes na **base**, não apenas após estresse. É uma característica constitutiva do corpo, e não um artefato da demanda cerebral.
+**1. A disfunção mitocondrial é sistémica e basal.** Uma revisão sistemática e meta-análise de 204 estudos encontrou lactato, piruvato e alanina elevados em pessoas autistas, juntamente com creatina quinase e um índice lactato/piruvato elevado — os mesmos marcadores da cadeia de transporte de eletrões observados em distúrbios do metabolismo energético [@Frye2024ASDmitochondria]. Crucialmente, estes estão presentes na **base**, não apenas após stresse. É uma característica constitutiva do corpo, e não um artefato da demanda cerebral.
 
 **2. Um cofator específico está consistentemente baixo.** A tetrahidrobiopterina (BH4) é a molécula auxiliar essencial para as enzimas que produzem dopamina, serotonina e óxido nítrico. Uma revisão sistemática encontrou **BH4 consistentemente mais baixo** em amostras biológicas de indivíduos autistas [@ColpaniFilho2025BH4ASD]. BH4 baixo significa que o cérebro não pode produzir seus principais neurotransmissores *e* não pode regular seu próprio fluxo sanguíneo — um défice, múltiplos falhas downstream.
 
@@ -51,11 +51,11 @@ Se o modelo de energia cerebral fosse uma ideia isolada, seria fácil descartá-
 
 Aqui o modelo se torna mais encorajador do que apenas explicativo. Se parte da carga sintomática é uma falta de combustível, então **parte dela pode ser abordada** — não alterando o cérebro autista, mas melhorando a sua fonte de energia. Três objetivos têm evidências reais:
 
-**1. Dieta cetogénica — fornecendo combustível alternativo ao cérebro.** Ketones (moléculas derivadas de gordura que o cérebro pode queimar) contornam o passo da glicose/astrocito danificada e entram diretamente na mitocôndria. Dietas cetogénicas modificadas melhoraram o comportamento em crianças com autismo [@Lee2018modifiedKD], e um relatório de caso documentou mudanças metabólicas em exames de cérebro [@Zarnowska2018KD]. Esta é uma prova de conceito de que o combustível alternativo pode ajudar *alguns* pacientes — não uma evidência de que ajuda a todos.
+**1. Dieta cetogénica — fornecendo combustível alternativo ao cérebro.** Cetonas (moléculas derivadas de gordura que o cérebro pode queimar) contornam o passo da glicose/astrócito danificada e entram diretamente na mitocôndria. Dietas cetogénicas modificadas melhoraram o comportamento em crianças com autismo [@Lee2018modifiedKD], e um relatório de caso documentou mudanças metabólicas em exames de cérebro [@Zarnowska2018KD]. Esta é uma prova de conceito de que o combustível alternativo pode ajudar *alguns* pacientes — não uma evidência de que ajuda a todos.
 
 **2. Suporte à BH4.** Se a baixa BH4 é um verdadeiro gargalo, intervenções que apoiam a sua produção ou reciclagem — como ácido folínico (que alimenta a enzima de reciclagem) ou vitamina C (que protege a BH4 da oxidação) — podem aliviar os défices de monoamina e vascular a jusante. Esta é uma base mecânica, mas ainda não foi testada em ensaios específicos para autismo.
 
-**3. Ferro.** O ferro é necessário tanto para a síntese de dopamina como para a função do complexo mitocôndrial I/II. Para fenótipos de sono em ASD, um limite de ferritina abaixo de 50 ng/mL é recomendado para suplementação [@DelRosso2026ironNeurodevelopmental]; abaixo desse nível, a deficiência de ferro afeta tanto a produção de neurotransmissores como a energia. Corrigir a deficiência de ferro é barato, seguro e reversível.
+**3. Ferro.** O ferro é necessário tanto para a síntese de dopamina como para a função do complexo mitocondrial I/II. Para fenótipos de sono em ASD, um limite de ferritina abaixo de 50 ng/mL é recomendado para suplementação [@DelRosso2026ironNeurodevelopmental]; abaixo desse nível, a deficiência de ferro afeta tanto a produção de neurotransmissores como a energia. Corrigir a deficiência de ferro é barato, seguro e reversível.
 
 *Estas são hipóteses de pesquisa sobre fatores modificáveis, não recomendações clínicas. Discuta qualquer intervenção com um médico qualificado.*
 
@@ -69,17 +69,17 @@ Seria uma falha para os pacientes vender este modelo de forma exagerada. O model
 
 **A causa poderia ser outra.** O hipometabolismo cerebral observado pode surgir igualmente de fluxo sanguíneo reduzido, inflamação crónica ou descondicionamento físico — nada desses requer um defeito no transporte de glicose. Se o verdadeiro problema for a entrega ou a inflamação, em vez de o transporte, abordagens com cetonas e glicose-bypass não ajudarão.
 
-**A evidência direta é escassa.** O modelo central baseia-se numa única revisão de 2026, e não num achado replicado. Não há medição direta do transportador de glicose (GLUT1) no tecido cerebral autista, e nenhum estudo mede o metabolismo cerebral controlando o nível de atividade, sono e inflamação.
+**A evidência direta é escassa.** O modelo central baseia-se numa única revisão de 2026, e não num achado replicado. Não há medição direta do transportador de glicose (GLUT1) no tecido cerebral autista, e nenhum estudo mede o metabolismo cerebral controlando o nível de atividade, sono e inflamação em conjunto.
 
-**Baseado, não adquirido.** Os sistemas de energia no cérebro autista foram perturbados durante o desenvolvimento — os circuitos foram *construídos em torno* do déficit. Isso é importante porque um cérebro construído em torno de uma restrição pode responder de maneira diferente a uma intervenção em comparação com um cérebro que se desenvolveu com plena capacidade e só perdeu essa capacidade posteriormente. O modelo é de desenvolvimento, portanto, qualquer intervenção testada em adultos deve levar em conta o processo de desenvolvimento que se formou sob restrição energética, e não em torno dela.
+**Basal, não adquirido.** Os sistemas de energia no cérebro autista foram perturbados durante o desenvolvimento — os circuitos foram *construídos em torno* do défice. Isso é importante porque um cérebro construído em torno de uma restrição pode responder de maneira diferente a uma intervenção em comparação com um cérebro que se desenvolveu com plena capacidade e só perdeu essa capacidade posteriormente. O modelo é de desenvolvimento, portanto, qualquer intervenção testada em adultos deve levar em conta o processo de desenvolvimento que se formou sob restrição energética, e não em torno dela.
 
 ---
 
 ## O experimento decisivo
 
-Existe um teste que pode separar o modelo dos alternativos: a medição da razão **glucosa CSF-plasma**. Se realmente existir um gargalo no transporte de glicose, a glucosa do fluido espinhal deveria ser baixa em relação à glucosa do sangue — a mesma indicação usada para diagnosticar a deficiência de GLUT1. Este é um teste clínico padrão, já utilizado para a deficiência de GLUT1, e nunca foi realizado em populações de autistas para testar esta questão específica.
+Existe um teste que pode separar o modelo dos alternativos: a medição da razão **glicose CSF-plasma**. Se realmente existir um gargalo no transporte de glicose, a glicose do fluido espinhal deveria ser baixa em relação à glicose do sangue — a mesma indicação usada para diagnosticar a deficiência de GLUT1. Este é um teste clínico padrão, já utilizado para a deficiência de GLUT1, e nunca foi realizado em populações de autistas para testar esta questão específica.
 
-Se a razão for anormal, isso definiria um subgrupo biológicamente distinto com uma justificativa clara para o tratamento. Se for normal, a versão do modelo com defeito de transporte provavelmente está errada, e o verdadeiro problema é a entrega ou a inflamação.
+Se a razão for anormal, isso definiria um subgrupo biologicamente distinto com uma justificativa clara para o tratamento. Se for normal, a versão do modelo com defeito de transporte provavelmente está errada, e o verdadeiro problema é a entrega ou a inflamação.
 
 ---
 
@@ -125,11 +125,11 @@ Nem todos os tratamentos são iguais. Nossa pesquisa distingue cinco níveis de 
 | **Reposição de substrato** | Substitui algo que a doença esgota | Cofactores de ferro, CoQ10, BH4 |
 | **Sintomático** | Suprime o sintoma sem tocar a causa | Um auxílio para o sono que não corrige por que o sono é insuficiente |
 
-Diferentes mecanismos exigem diferentes níveis de intervenção: o défice de energia requer *repleção de substrato* (ferroso, BH4, cetonas) e abordagens *moduladoras de limiar*; o subgrupo imune requer intervenção *corretiva*; a diferença na conexão elétrica *não é modificável no nível estrutural* no momento. Uma "vida mais normal" realista não significa que todos os mecanismos sejam curáveis — significa que a repleção de substrato e os caminhos corretivos podem ser abordados agora, e sua correção pode eliminar ou reduzir uma parte significativa da carga de sintomas.
+Diferentes mecanismos exigem diferentes níveis de intervenção: o défice de energia requer *repleção de substrato* (ferroso, BH4, cetonas) e abordagens *moduladoras de limiar*; o subgrupo imune requer intervenção *corretiva*; a diferença na conexão neuronal *não é modificável no nível estrutural* no momento. Uma "vida mais normal" realista não significa que todos os mecanismos sejam curáveis — significa que a repleção de substrato e os caminhos corretivos podem ser abordados agora, e sua correção pode eliminar ou reduzir uma parte significativa da carga de sintomas.
 
 ### A hipótese do tratamento combinado
 
-A versão mais forte da ideia multivias é um **protocolo sistematicamente escalado e estratificado por gravidade** que aborda vários caminhos que reduzem os reservatórios ao mesmo tempo — combinando *repleção de ferro, suporte de cofator BH4, amortecimento de fosfocreatina, otimização da perfusão e estimulação adaptada*. Se vários mecanismos independentes reduzirem uma parte da função, então a correção de todos eles deve restaurar mais do que a correção de um único componente — os efeitos podem ser aditivos ou cumulativos.
+A versão mais forte da ideia multivias é um **protocolo sistematicamente escalado e estratificado por gravidade** que aborda vários caminhos que reduzem os reservatórios ao mesmo tempo — combinando **repleção de ferro, suporte de cofator BH4, amortecimento de fosfocreatina, otimização da perfusão e estimulação adaptada**. Se vários mecanismos independentes reduzirem uma parte da função, então a correção de todos eles deve restaurar mais do que a correção de um único componente — os efeitos podem ser aditivos ou cumulativos.
 
 *Este protocolo combinado é uma hipótese registada. Cada componente tem evidência moderada individual; a combinação não foi testada e ainda não foi realizada como estudo clínico.*
 
@@ -152,7 +152,7 @@ Isso é barato, viável e decisivo. Ainda não foi realizado.
 
 O modelo de energia cerebral reestrutura um aspecto central da experiência do autismo — sobrecarga sensorial, rigidez cognitiva e esgotamento da socialização — como a realidade metabólica do cérebro, e não como uma escolha comportamental. Só essa reestruturação é importante: ela valida experiências que são frequentemente ignoradas.
 
-A parte positiva é que **algumas** variáveis de combustível são modificáveis: combustível baseado em cetonas, estado de cofator BH4 e ferro. Se até mesmo um subgrupo de pessoas autistas apresenta um déficit de energia a ser corrigido, intervenções direcionadas podem aliviar uma parte significativa da carga de sintomas diária — sem pretender "corrigir" o autismo em si.
+A parte positiva é que **algumas** variáveis de combustível são modificáveis: combustível baseado em cetonas, estado de cofator BH4 e ferro. Se até mesmo um subgrupo de pessoas autistas apresenta um défice de energia a ser corrigido, intervenções direcionadas podem aliviar uma parte significativa da carga de sintomas diária — sem pretender "corrigir" o autismo em si.
 
 esta é uma hipótese, não um facto estabelecido. Aponta para experimentos específicos, baratos e testáveis, e deve ser testada antes de ser considerada um facto.
 

@@ -15,7 +15,7 @@ Uma análise causal formal da fisiopatologia da EM/SFC distingue três níveis d
 
 ## Três níveis de envolvimento causal
 
-A *causa raiz* é um mecanismo cuja falha, por si só, é suficiente para se transformar no síndrome completo de EM/SFC, capaz, em princípio, de explicar a transição da saúde para a doença sem exigir disfunção prévia em outros sistemas. Na prática, as causas raiz raramente atuam isoladamente, mas o que as distingue é que elas *podem* [Cap. 16 §Mecanismos Capazes de Gatilho].
+A *causa raiz* é um mecanismo cuja falha, por si só, é suficiente para se transformar na síndrome completa de EM/SFC, capaz, em princípio, de explicar a transição da saúde para a doença sem exigir disfunção prévia em outros sistemas. Na prática, as causas raiz raramente atuam isoladamente, mas o que as distingue é que elas *podem* [Cap. 16 §Mecanismos Capazes de Gatilho].
 
 Um *amplificador* agrava, perpetua ou bloqueia o estado da doença, mas não pode iniciá-lo; os amplificadores entram em ação uma vez que uma causa raiz desestabilizou a homeostase. Alguns são *carregadores de carga* — sua remoção é necessária para a recuperação — enquanto outros são secundários, o que significa que sua remoção melhora a experiência do paciente sem permitir a fuga do estado da doença. Essa distinção será o tema do próximo artigo desta série [Cap. 16 §Mecanismos de Amplificador].
 
@@ -25,7 +25,7 @@ Um *amplificador* agrava, perpetua ou bloqueia o estado da doença, mas não pod
 
 ## Quatro critérios para uma causa raiz
 
-Nem todos os mecanismos iniciais ou upstream qualificam-se. O framework exige quatro critérios, todos dos quais devem ser cumpridos [Cap. 16 §Mecanismos Capazes de Ser Ativados por Gatilhos].
+Nem todos os mecanismos iniciais ou upstream qualificam-se. O framework exige quatro critérios, todos os quais devem ser cumpridos [Cap. 16 §Mecanismos Capazes de Ser Ativados por Gatilhos].
 
 O primeiro é a compatibilidade com gatilhos precipitantes: o mecanismo deve poder ser ativado por gatilhos conhecidos da EM/SFC — infeção viral, estresse fisiológico grave, cirurgia, trauma, vacinação. Estudos epidemiológicos relatam consistentemente que cerca de 70% dos casos de EM/SFC são precedidos por infeção aguda, embora as estimativas publicadas variem; o framework utiliza este valor como aproximação funcional [Cap. 16 §Mecanismos Capazes de Ser Ativados por Gatilhos]. Qualquer causa raiz proposta deve ser compatível com esse padrão e com os gatilhos não infecciosos que explicam o resto.
 
@@ -43,7 +43,7 @@ Estes critérios são filtros, não prova. Um mecanismo que passar por todos os 
 
 A categoria a que um mecanismo pertence determina o tipo de trabalho terapêutico que pode realizar [Cap. 16 §Implicações terapêuticas da Hierarquia Causal].
 
-Tratar uma consequência produz alívio sintomático sem abordar o que mantém a doença. Os medicamentos para o fragmentação do sono relacionada à EM/SFC são o exemplo mais claro: as evidências disponíveis sugerem que os pacientes cujo sono se normaliza farmacologicamente geralmente não se recuperam — eles dormem melhor dentro do estado da doença, embora os resultados variem [Cap. 16 §Consequências downstream]. O limite terapêutico está definido pela categoria.
+Tratar uma consequência produz alívio sintomático sem abordar o que mantém a doença. Os medicamentos para a fragmentação do sono relacionada à EM/SFC são o exemplo mais claro: as evidências disponíveis sugerem que os pacientes cujo sono se normaliza farmacologicamente geralmente não se recuperam — eles dormem melhor dentro do estado da doença, embora os resultados variem [Cap. 16 §Consequências downstream]. O limite terapêutico está definido pela categoria.
 
 Tratar um amplificador pode retardar significativamente a progressão e reduzir a carga da doença, e se o amplificador é de suporte, sua remoção pode ser um componente necessário para a recuperação. Mesmo assim, o tratamento do amplificador sozinho ainda deixa o mecanismo subjacente da doença intacto [Cap. 16 §Mecanismos de amplificador].
 
@@ -55,13 +55,13 @@ A implicação decorre disto: o mecanismo mais fundamental causal na história d
 
 ## Quais mecanismos se qualificam
 
-Com base na análise de quatro critérios, três mecanismos são avaliados como causas raiz capazes de desencadear EM/SFC — o que significa que atendem a todos os quatro filtros no âmbito da análise mecânica atual do framework, não que esta classificação tenha sido confirmada experimentalmente [Cap. 16 §Mecanismos Capazes de Desencadear].
+Com base na análise de quatro critérios, três mecanismos são avaliados como causas raiz candidatas capazes de desencadear EM/SFC — o que significa que atendem a todos os quatro filtros no âmbito da análise mecânica atual do framework, não que esta classificação tenha sido confirmada experimentalmente [Cap. 16 §Mecanismos Capazes de Desencadear].
 
-*Crise de energia do SNC* envolve falha na energia do hipotálamo e do tronco cerebral, que perturba a coordenação central das funções imunológicas, autonómicas e metabólicas. Ele atende a todos os quatro critérios e tem um caminho direto para PEM através da regulação energética central prejudicada na resposta ao esforço [Cap. 16 §Crise de Energia do SNC].
+*Crise de energia do SNC* envolve falha na energia do hipotálamo e do tronco cerebral, que perturba a coordenação central das funções imunológicas, autonómicas e metabólicas. Ela atende a todos os quatro critérios e tem um caminho direto para PEM através da regulação energética central prejudicada na resposta ao esforço [Cap. 16 §Crise de Energia do SNC].
 
 *Cascata de autoanticorpos GPCR* envolve autoanticorpos que visam recetores acoplados a g-proteínas, que desregulam o sistema nervoso autonómico através de um mecanismo suficiente, em princípio, para manter a doença por si só, e que pode ser desencadeado pela perturbação imunitária após infeção ou estresse grave [Cap. 16 §Cascata de Autoanticorpos GPCR].
 
-*Consolidação epigenética* é a estabilização do programa de expressão gênica adequado à doença através da metilação do DNA e modificações de histona. Uma vez estabelecido, é — segundo a hipótese deste modelo — auto-sustentável: as células expressam o programa da doença não porque ainda recebem o sinal, mas porque está codificado no estrato de regulação gênica. As marcas epigenéticas são dinâmicas e, em princípio, reversíveis, mas o framework propõe que sejam resistentes à reversão homeostática normal neste contexto. O framework propõe que a infeção aguda crie os sinais inflamatórios que iniciam as mudanças de metilação, que, uma vez estabelecidas, este mecanismo produz disfunção multi-sistêmica persistente, e que não resolve-se por si só — embora a confirmação experimental direta desta sequência no EM/SFC humano permaneça incompleta [Cap. 16 §Consolidação Epigenética].
+*Consolidação epigenética* é a estabilização do programa de expressão gênica adequado à doença através da metilação do DNA e modificações de histona. Uma vez estabelecido, é — segundo a hipótese deste modelo — auto-sustentável: as células expressam o programa da doença não porque ainda recebem o sinal, mas porque está codificado no estrato de regulação gênica. As marcas epigenéticas são dinâmicas e, em princípio, reversíveis, mas o framework propõe que sejam resistentes à reversão homeostática normal neste contexto. O framework propõe que a infeção aguda crie os sinais inflamatórios que iniciam as mudanças de metilação, que, uma vez estabelecidas, este mecanismo produz disfunção multi-sistêmica persistente, e que não se resolve por si só — embora a confirmação experimental direta desta sequência no EM/SFC humano permaneça incompleta [Cap. 16 §Consolidação Epigenética].
 
 Vários mecanismos que são clinicamente proeminentes — stress oxidativo, reativação viral, fragmentação do sono, disbiose intestinal — pertencem aos níveis de amplificador ou consequência. São reais e importantes, mas não são causas raiz [Cap. 16 §Mecanismos de Amplificador; §Consequências de Downstream].
 

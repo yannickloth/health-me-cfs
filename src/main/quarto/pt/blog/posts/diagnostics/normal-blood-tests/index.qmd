@@ -25,7 +25,7 @@ Primeiro, a população de referência não é uma população saudável. É qua
 
 Segundo, a faixa descreve uma distribuição estatística, não uma exigência fisiológica. Não há razão biológica para acreditar que o terceiro percentil de ferritina numa população hospitalar represente o mínimo de ferro necessário para a função mitocondrial. As necessidades do corpo não se organizam de acordo com estatísticas populacionais. Uma ferritina de 15 evita que você desenvolva anemia de deficiência de ferro evidente. Não mantém o citocromo c oxidase satisfeito.
 
-Terceiro, as faixas de referência tratam cada analito de forma isolada. Uma ferritina de 30 em alguém com deficiência simultânea de B12 e magnésio baixo é uma situação fisiológica diferente de uma ferritina de 30 em alguém cujos outros cofatores estão em quantidade adequada. As interações entre deficiências são multiplicativas, não aditivas. Mas cada resultado de laboratório chega sozinho, avaliado contra sua própria faixa de referência, criando a ilusão de que "todos os resultados são normais" significa "todos os sistemas estão funcionando".
+Terceiro, as faixas de referência tratam cada analito de forma isolada. Uma ferritina de 30 em alguém com deficiência simultânea de B12 e magnésio baixo é uma situação fisiológica diferente de uma ferritina de 30 em alguém cujos outros cofatores estão em quantidade adequada. As interações entre deficiências são multiplicativas, não aditivas. Mas cada resultado de laboratório chega sozinho, avaliado contra sua própria faixa de referência, criando a ilusão de que "todos os resultados são normais" significa "todos os sistemas estão a funcionar".
 
 ---
 
@@ -33,7 +33,7 @@ Terceiro, as faixas de referência tratam cada analito de forma isolada. Uma fer
 
 O ferro é o exemplo mais evidente. Existe agora evidência suficiente de que a deficiência de ferro causa fadiga, disfunção cognitiva e intolerância ao exercício em níveis de ferritina muito acima do limite padrão de anemia.
 
-[@Vaucher2012] demonstrou num estudo randomizado controlado que o ferro intravenoso melhorou a fadiga em mulheres não anemias com ferritina inferior a 50 ng/mL — mulheres cujos resultados de laboratório estavam “normais” segundo critérios convencionais. [@Krayenbuehl2011] mostrou que a gravidade da fadiga estava correlacionada com níveis de ferritina inferiores a 100, e não a 15. A OMS define a deficiência de ferro como ferritina inferior a 15. As suas células definem isso como “não suficiente para o que preciso”, o que, para enzimas mitocondriais, é consideravelmente maior.
+[@Vaucher2012] demonstrou num estudo randomizado controlado que o ferro intravenoso melhorou a fadiga em mulheres não anémicas com ferritina inferior a 50 ng/mL — mulheres cujos resultados de laboratório estavam “normais” segundo critérios convencionais. [@Krayenbuehl2011] mostrou que a gravidade da fadiga estava correlacionada com níveis de ferritina inferiores a 100, e não a 15. A OMS define a deficiência de ferro como ferritina inferior a 15. As suas células definem isso como “não suficiente para o que preciso”, o que, para enzimas mitocondriais, é consideravelmente maior.
 
 A lacuna entre esses limiares — a lacuna de 15 anos entre a depleção funcional de ferro e um sinal anormal de laboratório — é o espaço em que os pacientes vivem com fadiga tratável e são informados de que estão bem. Para pacientes com EM/SFC, cuja capacidade de produção de energia já está comprometida por outros mecanismos, um nível de ferritina de 25 não é uma sub-optimização menor. É mais um fardo num sistema que já está no seu limite.
 
@@ -41,11 +41,11 @@ A lacuna entre esses limiares — a lacuna de 15 anos entre a depleção funcion
 
 ## Magnésio: a medição que não funciona
 
-O magnésio sérico é o exame mais frequentemente solicitado. Também é quase inútil. Menos de 1% do magnésio total do corpo está no sangue. O corpo protege o magnésio sérico com extraordinária vigor — retirando-o dos ossos, dos músculos, dos reservatórios intracelulares — porque o ritmo cardíaco depende dele. Quando o magnésio sérico cai abaixo da faixa de referência, o magnésio intracelular já foi esgotado há meses.
+O magnésio sérico é o exame mais frequentemente solicitado. Também é quase inútil. Menos de 1% do magnésio total do corpo está no sangue. O corpo protege o magnésio sérico com extraordinário vigor — retirando-o dos ossos, dos músculos, dos reservatórios intracelulares — porque o ritmo cardíaco depende dele. Quando o magnésio sérico cai abaixo da faixa de referência, o magnésio intracelular já foi esgotado há meses.
 
-O magnésio nas hemácias é marginalmente melhor, mas ainda não reflete o que é importante: o magnésio ligado ao ATP dentro das mitocôndria. O ATP é biologicamente inerte sem magnésio. Existe na forma Mg-ATP, e essa é a forma reconhecida por todas as quinases no corpo. Uma célula pode ter ATP adequado e ATP ligado ao magnésio insuficiente, e nenhum exame laboratorial padrão mede este último.
+O magnésio nas hemácias é marginalmente melhor, mas ainda não reflete o que é importante: o magnésio ligado ao ATP dentro das mitocôndrias. O ATP é biologicamente inerte sem magnésio. Existe na forma Mg-ATP, e essa é a forma reconhecida por todas as quinases no corpo. Uma célula pode ter ATP adequado e ATP ligado ao magnésio insuficiente, e nenhum exame laboratorial padrão mede este último.
 
-A consequência prática: um paciente que toma 400mg de magnésio glicinato diariamente, que "testou normal" no magnésio sérico, pode realmente estar melhorando a produção de energia celular de uma maneira que nenhum exame de sangue poderá confirmar ou negar. O exame e a biologia operam em domínios diferentes.
+A consequência prática: um paciente que toma 400mg de magnésio glicinato diariamente, que "testou normal" no magnésio sérico, pode realmente estar a melhorar a produção de energia celular de uma maneira que nenhum exame de sangue poderá confirmar ou negar. O exame e a biologia operam em domínios diferentes.
 
 ---
 
@@ -53,9 +53,9 @@ A consequência prática: um paciente que toma 400mg de magnésio glicinato diar
 
 A deficiência de vitamina B12 segue o mesmo padrão, com uma crueldade adicional: o dano neurológico começa antes da aparição das alterações hematológicas. Um paciente pode apresentar degeneração subaguda combinada do cordão espinhal — dano nervoso irreversível — com um hemograma completo “normal”. A anemia macrocítica que os manuais descrevem como marcador característico da deficiência de B12 é um achado tardio, não um achado precoce.
 
-Um B12 sérico abaixo de 200 pg/mL é marcado como deficiente. No entanto, a insuficiência funcional de B12 — mámetemação prejudicada, homocisteína elevada, síntese de mielina prejudicada — pode ocorrer em níveis até 400-500 pg/mL, dependendo dos polimorfismos genéticos nos genes MTHFR e TCN2. O ácido metilmalónico (MMA) e a homocisteína são marcadores funcionais mais adequados, mas não são solicitados a menos que alguém tenha vontade de perguntar.
+Um B12 sérico abaixo de 200 pg/mL é marcado como deficiente. No entanto, a insuficiência funcional de B12 — metilação prejudicada, homocisteína elevada, síntese de mielina prejudicada — pode ocorrer em níveis até 400-500 pg/mL, dependendo dos polimorfismos genéticos nos genes MTHFR e TCN2. O ácido metilmalónico (MMA) e a homocisteína são marcadores funcionais mais adequados, mas não são solicitados a menos que alguém tenha vontade de perguntar.
 
-Para pacientes com EM/SFC, onde a disfunção da metemação está documentada e onde os sintomas neurológicos (névoa cerebral, neuropatia periférica, declínio cognitivo) são características principais, um B12 de 250 pg/mL não é tranquilizador. É um fator potencialmente tratável que contribui para um complexo de sintomas com o qual o paciente foi instruído a conviver.
+Para pacientes com EM/SFC, onde a disfunção da metilação está documentada e onde os sintomas neurológicos (névoa cerebral, neuropatia periférica, declínio cognitivo) são características principais, um B12 de 250 pg/mL não é tranquilizador. É um fator potencialmente tratável que contribui para um complexo de sintomas com o qual o paciente foi instruído a conviver.
 
 ---
 
@@ -63,7 +63,7 @@ Para pacientes com EM/SFC, onde a disfunção da metemação está documentada e
 
 O limiar para a suficiência de vitamina D — 30 ng/mL (75 nmol/L) na maioria dos laboratórios — foi estabelecido para prevenir raquitismo e osteomalacia. Ele nunca foi estabelecido para otimizar a função imunológica, a biogênese mitocondrial ou a modulação inflamatória [@Holick2007vitaminD]. Esses efeitos exigem níveis mais altos, e as evidências de benefício continuam até pelo menos 50-60 ng/mL.
 
-Um paciente com 32 ng/mL tem um nível de vitamina D "normal". Eles também têm um nível em que a função das células T reguladoras imunológicas é subótima [@Bscheider2016vitaminD], onde a transcrição gênica mediada pelo receptor de vitamina D nas células imunológicas não é totalmente ativada, e onde os efeitos anti-inflamatórios da vitamina D no inflamassoma NLRP3 são incompletos.
+Um paciente com 32 ng/mL tem um nível de vitamina D "normal". Também tem um nível em que a função das células T reguladoras imunológicas é subótima [@Bscheider2016vitaminD], onde a transcrição gênica mediada pelo receptor de vitamina D nas células imunológicas não é totalmente ativada, e onde os efeitos anti-inflamatórios da vitamina D no inflamassoma NLRP3 são incompletos.
 
 Para um paciente com EM/SFC, onde a desregulação imunológica e a inflamação crónica são a fisiopatologia central, uma vitamina D de 32 não é suficiente. É acima do limiar para doenças ósseas. É abaixo do limiar para otimização imunológica. E o relatório de laboratório diz "normal".
 
@@ -90,8 +90,8 @@ Uma ferritina de 22 num atleta de 25 anos, de outra forma saudável, pode não e
 
 Os exames a serem solicitados além dos painéis padrão não são exóticos:
 
-- **Ferritina** (com contexto: se a ferritina estiver abaixo de aproximadamente 50–100 µg/L num paciente sintomático, a repleção vale a pena de discussão com o seu médico, mesmo sem anemia — o ferro é uma terapia ativa com riscos reais, não algo que deve ser iniciado sem monitoramento)
-- **Magnésio nos RBC** (imperfeito, mas melhor que o soro)
+- **Ferritina** (com contexto: se a ferritina estiver abaixo de aproximadamente 50–100 µg/L num paciente sintomático, a repleção vale a pena discutir com o seu médico, mesmo sem anemia — o ferro é uma terapia ativa com riscos reais, não algo que deve ser iniciado sem monitoramento)
+- **Magnésio nas hemácias** (imperfeito, mas melhor que o soro)
 - **Ácido metilmalónico + homocisteína** (status funcional de B12/folato)
 - **Vitamina D 25-OH** (alvo 50-60 ng/mL, não apenas "acima de 30")
 - **Painel completo de tiróide** (TSH + T3 livre + T4 livre + anticorpos — não apenas TSH)

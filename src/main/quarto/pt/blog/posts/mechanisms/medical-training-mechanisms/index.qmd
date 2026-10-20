@@ -9,7 +9,7 @@ lang: pt
 
 O paciente chega com décadas de sono perturbado — presente desde a adolescência, e documentado anos depois por um estudo do sono que mostra algo específico. A gravação revela uma duração normal de sono de ondas lentas profundo, mas com 5–6% de interferência de ondas alfa: oscilações cerebrais acordadas que contaminam o sono de ondas lentas na taxa de vários minutos por hora. O mecanismo do circuito tálamo é descrito na literatura de pesquisa [@timofeev2015thalamic]. Uma consequência plausível, apoiada principalmente por evidências de modelos animais, é que a depuração glifática — que parece depender da atividade de ondas lentas não perturbada — está prejudicada durante o sono contaminado, permitindo que resíduos metabólicos acumulem no tecido cerebral; o paciente acorda exausto, independentemente de quantas horas tenha dormido. Gabapentin, um medicamento já em uso clínico comum há décadas, atua nesse circuito reduzindo a excitabilidade dos canais de cálcio no tálamo, e uma hipótese mecânica razoável é que ele possa suprimir as oscilações anormais na sua origem.
 
-Apesar de tudo isso, o medicamento não é prescrito — nem após o estudo do sono, nem após o encaminhamento para neurologia, nem após anos de acompanhamento. Os dados não estavam ausentes, e o mecanismo não era desconhecido. Uma possível interpretação é que o obstáculo à prescrição era prático — uso off-label, uma base de evidências fraca para essa indicação específica, cautela razoável. Outra é que o que faltava era um quadro para conectar o achado documentado à farmacologia disponível. Ambos podem ser verdadeos simultaneamente, e nenhum exime o outro.
+Apesar de tudo isso, o medicamento não é prescrito — nem após o estudo do sono, nem após o encaminhamento para neurologia, nem após anos de acompanhamento. Os dados não estavam ausentes, e o mecanismo não era desconhecido. Uma possível interpretação é que o obstáculo à prescrição era prático — uso fora da indicação, uma base de evidências fraca para essa indicação específica, cautela razoável. Outra é que o que faltava era um quadro para conectar o achado documentado à farmacologia disponível. Ambos podem ser verdadeiros simultaneamente, e nenhum exime o outro.
 
 ---
 
@@ -27,8 +27,8 @@ Uma maneira proposta de organizar a biologia subjacente agrupa essas 17.000 cond
 - Coagulação e hematologia (formação de microclot, hiperativação de plaquetas, hipercoagulabilidade)
 - Disfunção vascular e endotelial (falha endotelial, hipoperfusão cerebral, paradoxo RAAS)
 - Sistema nervoso autônomo e periférico (POTS, falha no barorreflexo, neuropatia de fibras pequenas)
-- Regulação neuroendócrina e hormonal (desvanecimento HPA, falha na conversão tireoide, hormônios sexuais)
-- Neurologia e thalamocortical (neuroinflamação, desequilíbrio E/I, intrusão alfa, falha glilâmica)
+- Regulação neuroendócrina e hormonal (desvanecimento HPA, falha na conversão tiróide, hormônios sexuais)
+- Neurologia e thalamocortical (neuroinflamação, desequilíbrio E/I, intrusão alfa, falha glifática)
 - Metabolismo de aminoácidos e neurotransmissores (IDO/quinurenina, esgotamento de serotonina, via NAD⁺)
 - Regulação genômica e epigenética (sinais de metilação, atrito de telômeros, bloqueio epigenético pós-viral)
 - Homeostase e degradação de proteínas (desregulação HSP, falha na autofagia, agregação)
@@ -47,7 +47,7 @@ Nesse quadro, as 17.000 doenças não são 17.000 fenómenos independentes, mas 
 
 Erros de diagnóstico causam, estima-se, **800.000 mortes ou deficiências permanentes por ano apenas nos Estados Unidos**, tornando a má diagnóstica a principal fonte de danos graves causados por erro médico — maior que os erros de medicação e maior que as complicações cirúrgicas [@NewmanToker2023diagnosticError]. Apenas nos serviços de emergência, aproximadamente **7,4 milhões de pacientes por ano são mal diagnosticados** em relação a 130 milhões de visitas anuais, o que corresponde a quase 1 em 18 [@AHRQ2022diagnosticErrors].
 
-Estes números refletem os danos agudos e mensuráveis de uma diagnóstica errada — a identificação incorreta que leva à omissão do tratamento e à deterioração mensurável. São uma categoria de falha diferente daquela no centro deste artigo, que diz respeito a um *diagnóstico correto* associado a uma *pictura mecânica incompleta*: o paciente é correctamente identificado como EM/SFC, como tendo sono não restaurador, mas cujo mecanismo específico de desregulação do sono nunca é caracterizado nem tratado. Esse dano é invisível nas estatísticas e acumula ao longo dos anos. A literatura sobre erros de diagnóstico documenta o fim agudo; o fim crónico permanece em grande parte não medido.
+Estes números refletem os danos agudos e mensuráveis de uma diagnóstica errada — a identificação incorreta que leva à omissão do tratamento e à deterioração mensurável. São uma categoria de falha diferente daquela no centro deste artigo, que diz respeito a um *diagnóstico correto* associado a uma *imagem mecânica incompleta*: o paciente é correctamente identificado como EM/SFC, como tendo sono não restaurador, mas cujo mecanismo específico de desregulação do sono nunca é caracterizado nem tratado. Esse dano é invisível nas estatísticas e acumula ao longo dos anos. A literatura sobre erros de diagnóstico documenta o fim agudo; o fim crónico permanece em grande parte não medido.
 
 ---
 

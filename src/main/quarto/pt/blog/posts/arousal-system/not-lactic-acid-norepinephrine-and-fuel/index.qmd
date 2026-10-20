@@ -1,6 +1,6 @@
 ---
 title: "Não, ainda não é ácido lático — mas a noradrenalina faz parte da história do combustível"
-description: "A dor muscular não é causada por ácido lático. No entanto, o sistema de excitação controla como o combustível chega aos neurônios — na direção oposta ao mito."
+description: "A dor muscular não é causada por ácido lático. No entanto, o sistema de excitação controla como o combustível chega aos neurónios — na direção oposta ao mito."
 author: "Yannick Loth"
 date: "2026-09-22"
 categories: [Arousal system, Noradrenergic, Mechanisms]
@@ -11,9 +11,9 @@ A explicação de "ácido láctico" para a dor muscular não desaparece. É inco
 
 Mas existe uma verdadeira conexão entre noradrenalina e lactato — apontada na direção **oposta**.
 
-A noradrenalina atua nas células de suporte no cérebro (astrócitos) para quebrar o glicogênio e liberar **lactato como combustível** para os neurônios (@Hertz2015neGlycogenolysis; @Killeen2013neLactate). Em outras palavras, a noradrenalina ajuda a *fornecer* combustível. Ela não deixa o lactato para trás como resíduo.
+A noradrenalina atua nas células de suporte no cérebro (astrócitos) para quebrar o glicogénio e liberar **lactato como combustível** para os neurónios (@Hertz2015neGlycogenolysis; @Killeen2013neLactate). Em outras palavras, a noradrenalina ajuda a *fornecer* combustível. Ela não deixa o lactato para trás como resíduo.
 
-Isso significa que, se algo acontecer, um déficit de noradrenalina deveria **reduzir** a disponibilidade de lactato agudo — e não criar uma sobrecarga de "ácido". Isso se encaixa na constatação geral de que noradrenalina e lactato aumentam *juntas* durante o exercício, e que a sinalização β2-adrenérgica aumenta a quebra do glicogênio (@Jessen2020ClenbuterolLactate).
+Isso significa que, se tanto, um déficit de noradrenalina deveria **reduzir** a disponibilidade aguda de lactato — e não criar uma sobrecarga de "ácido". Isso se encaixa na constatação geral de que noradrenalina e lactato aumentam *juntas* durante o exercício, e que a sinalização β2-adrenérgica aumenta a quebra do glicogénio (@Jessen2020ClenbuterolLactate).
 
 Portanto, a afirmação correta é restrita e quase o oposto do mito:
 

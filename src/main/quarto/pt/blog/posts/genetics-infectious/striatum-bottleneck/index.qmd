@@ -7,7 +7,7 @@ categories: [Genetics, Neurology, Systems Biology]
 lang: pt
 ---
 
-Você acorda e o seu corpo pesa mais do que ontem. Não dor — peso. Cada movimento requer uma negociação. O café está a três metros de distância, mas o circuito striatum-talemic-frontal que traduz *quero café* em *caminhar para a cozinha* tem um índice de sinal a ruído quebrado. A ordem está lá. A execução não está. Isso não é falta de motivação. Isso é a saída de uma região cerebral que se encontra na convergência de todos os gatilhos conhecidos de EM/SFC.
+Você acorda e o seu corpo pesa mais do que ontem. Não dor — peso. Cada movimento requer uma negociação. O café está a três metros de distância, mas o circuito striatum-talâmico-frontal que traduz *quero café* em *caminhar para a cozinha* tem um índice de sinal a ruído quebrado. A ordem está lá. A execução não está. Isso não é falta de motivação. Isso é a saída de uma região cerebral que se encontra na convergência de todos os gatilhos conhecidos de EM/SFC.
 
 O post anterior estabeleceu que o GWAS atribui o risco de EM/SFC aos neurônios, não às células imunitárias — a arquitetura genética diz o cérebro. A epidemiologia nos diz o resto: patógenos diversos (EBV, SARS-CoV-2, HHV-6), trauma físico, cirurgia e estresse severo podem todos desencadear a mesma doença. A convergência clínica requer convergência anatômica — mesmas sintomas, mesmo circuito. O DecodeME GWAS agora fornece o endereço físico onde isso acontece [@DecodeME2025].
 
@@ -19,7 +19,7 @@ O consórcio DecodeME analisou mais de 15.000 participantes (incluindo ~5.000 ca
 
 O enriquecimento de tecidos cerebrais em nível de tecido é robusto; a análise mais detalhada de tipo de célula baseia-se numa única análise pós-GWAS e num atlas de referência, portanto é provisória até que seja replicada. O enriquecimento de células imunitárias é nulo — o sinal genético não vem das microglias, astrócitos ou células imunitárias periféricas. Ele vem dos neurônios no centro do circuito motor, motivacional e de recompensa do cérebro.
 
-O striatum como locus de fadiga não é algo novo. Chaudhuri e Behan propuseram há mais de duas décadas que a fadiga central resulta da falha na integração dos gânglios da base com a entrada do sistema límbico e a função motora — especificamente o sistema striato-talamico-frontal cortical —, no qual a sinalização dopaminérgica perturbada prejudica a capacidade do cérebro de transformar esforço em ação [@Chaudhuri2000basalganglia]. Uma hipótese clínica baseada na sobreposição de sintomas com Parkinson e esclerose múltipla agora tem evidências genéticas do maior conjunto de dados de EM/SFC já reunido.
+O striatum como locus de fadiga não é algo novo. Chaudhuri e Behan propuseram há mais de duas décadas que a fadiga central resulta da falha na integração dos gânglios da base com a entrada do sistema límbico e a função motora — especificamente o sistema striato-talâmico-frontal cortical —, no qual a sinalização dopaminérgica perturbada prejudica a capacidade do cérebro de transformar esforço em ação [@Chaudhuri2000basalganglia]. Uma hipótese clínica baseada na sobreposição de sintomas com Parkinson e esclerose múltipla agora tem evidências genéticas do maior conjunto de dados de EM/SFC já reunido.
 
 ---
 
@@ -31,7 +31,7 @@ O striatum não é uma região cerebral obscura. É o centro de controle para:
 
 **Tomada de decisão sobre esforço/recompensa.** O striatum ventral integra sinais de dopamina que codificam o valor esperado de uma ação. Toda ação, todo tarefa cognitiva passa por este cálculo de custo-benefício. Na EM/SFC, a estimativa de custo é patologicamente elevada — não por causa da depressão, mas porque o circuito que calcula esses valores recebe entrada corrompida.
 
-**Sinalização de dopamina.** Os MSNs são os principais alvos dos neurônios de dopamina do midbrain. Os MSNs com receptor D1 formam a via “sim”; os MSNs com receptor D2 formam a via “não”. O equilíbrio determina se a ação é iniciada ou inibida. A sinalização de dopamina perturbada inclina esse equilíbrio para a inibição.
+**Sinalização de dopamina.** Os MSNs são os principais alvos dos neurônios de dopamina do mesencéfalo. Os MSNs com receptor D1 formam a via “sim”; os MSNs com receptor D2 formam a via “não”. O equilíbrio determina se a ação é iniciada ou inibida. A sinalização de dopamina perturbada inclina esse equilíbrio para a inibição.
 
 ---
 
@@ -41,11 +41,11 @@ Se o striatum é o gargalo, como diferentes gatilhos o alcançam? As evidências
 
 **Neuroinflamação.** A ativação imune periférica estimula as microglia em todo o cérebro, mas o striatum é especialmente vulnerável devido à sua alta densidade de terminações de dopamina. As microglia ativadas liberam citocinas que suprimem o disparo dos MSN e perturbam o equilíbrio da via D1/D2, transformando um evento imune periférico num défice motor ao nível do circuito.
 
-**Falha metabólica.** O striatum tem uma das maiores demandas metabólicas de qualquer região cerebral. Os MSN são neurônios GABAérgicos que se activam de forma tonica a altas taxas, consumindo ATP a um ritmo que os torna vulneráveis a qualquer redução na disponibilidade de energia. O comprometimento mitocondrial afeta o striatum primeiro e de forma mais grave.
+**Falha metabólica.** O striatum tem uma das maiores demandas metabólicas de qualquer região cerebral. Os MSN são neurônios GABAérgicos que se activam de forma tónica a altas taxas, consumindo ATP a um ritmo que os torna vulneráveis a qualquer redução na disponibilidade de energia. O comprometimento mitocondrial afeta o striatum primeiro e de forma mais grave.
 
 **Interrupção do autoanticorpo.** Autoanticorpos GPCR contra recetores adrenérgicos, muscarínicos e dopaminérgicos foram documentados num subgrupo de pacientes com EM/SFC [@Loebel2016]. Mesmo um nível baixo de acesso aos órgãos circunvalares ou através de uma barreira comprometida pode alterar o padrão de sinalização de dopamina no striatum.
 
-**Hipoperfusão.** O striatum está localizado na extremidade distal dos territórios vasculares, o que o torna sensível a déficits de perfusão. Quando a saída cardíaca diminui ou a autoregulação falha, o striatum perde o fornecimento de oxigênio precocemente — e o oxigênio é o substrato limitante da taxa de ATP que os MSN consomem continuamente.
+**Hipoperfusão.** O striatum está localizado na extremidade distal dos territórios vasculares, o que o torna sensível a déficits de perfusão. Quando a saída cardíaca diminui ou a autorregulação falha, o striatum perde o fornecimento de oxigênio precocemente — e o oxigênio é o substrato limitante da taxa de ATP que os MSN consomem continuamente.
 
 Estes caminhos ocorrem em conjunto. Um paciente pós-viral com ativação imune, comprometimento mitocondrial e hipoperfusão tem três agressões independentes que atingem os mesmos neurônios. O gargalo é atingido de múltiplas maneiras simultaneamente — é por isso que a doença é grave e persistente.
 
@@ -53,7 +53,7 @@ Estes caminhos ocorrem em conjunto. Um paciente pós-viral com ativação imune,
 
 ## O que isso significa para o tratamento
 
-Se o striatum é o gargalo, a estratégia de tratamento muda. Em vez de perguntar "o que provocou este paciente?", pergunte "o que está atualmente perturbando a função do circuito striatal?". Isso reestrutura o tratamento de uma forma mais racional do ponto de vista neurológico.
+Se o striatum é o gargalo, a estratégia de tratamento muda. Em vez de perguntar "o que provocou este paciente?", pergunte "o que está atualmente a perturbar a função do circuito striatal?". Isso reestrutura o tratamento de uma forma mais racional do ponto de vista neurológico.
 
 - **Sinalização de dopamina** — agonistas da dopamina, bupropion e amantadina merecem investigação sistemática como moduladores do circuito striatal, e não como intervenções psiquiátricas.
 - **Neuroinflamação** — naltrexona em doses baixas, minocicina ou abordagens anti-inflamatórias direcionadas que reduzam a ativação das microglia no striatum.
@@ -66,9 +66,9 @@ Estes alvos de tratamento não são específicos para um gatilho. Eles se aplica
 
 ## A advertência: especificidade dentro de um substrato compartilhado
 
-A enriquecimento de risco em neurônios cerebrais não é exclusivo do EM/SFC; muitos distúrbios cerebrais apresentam isso. No entanto, os tipos de células específicos variam — a esquizofrenia enriquece os neurônios da camada cortical 2/3, a depressão a camada 5/6, e o transtorno por uso de álcool enriquece os neurônios cerebrais [@Duncan2025cellTypeBrain] — portanto, o EM/SFC e o AUD, e não a esquizofrenia ou a depressão, são os que convergem nos neurônios cerebrais. O striatum é um nó de vulnerabilidade geral — uma região cerebral suscetível a disfunção devido a muitas causas upstream.
+O enriquecimento de risco em neurônios cerebrais não é exclusivo do EM/SFC; muitos distúrbios cerebrais apresentam isso. No entanto, os tipos de células específicos variam — a esquizofrenia enriquece os neurônios da camada cortical 2/3, a depressão a camada 5/6, e o transtorno por uso de álcool enriquece os MSNs [@Duncan2025cellTypeBrain] — portanto, o EM/SFC e o AUD, e não a esquizofrenia ou a depressão, são os que convergem nos MSNs. O striatum é um nó de vulnerabilidade geral — uma região cerebral suscetível a disfunção devido a muitas causas upstream.
 
-Mas a disfunção deve ser diferente. O EM/SFC não é esquizofrenia. A pergunta é: o que específicamente falha na função dos neurônios cerebrais no EM/SFC? O equilíbrio D1/D2? A taxa de disparo? A resposta de dopamina? A integração de entrada cortical? A resposta determina se podemos alvo a disfunção específica do EM/SFC em vez de modular amplamente os circuitos do striatum.
+Mas a disfunção deve ser diferente. O EM/SFC não é esquizofrenia. A pergunta é: o que especificamente falha na função dos MSNs no EM/SFC? O equilíbrio D1/D2? A taxa de disparo? A resposta de dopamina? A integração de entrada cortical? A resposta determina se podemos atingir a disfunção específica do EM/SFC em vez de modular amplamente os circuitos do striatum.
 
 ---
 
@@ -92,4 +92,4 @@ Nada na ciência é comprovado por uma única previsão. Mas um modelo que não 
 
 A hipótese do gargalo é uma estrutura para organizar o que sabemos, não um mecanismo comprovado. Ela direciona a atenção para o circuito do striatum como o local crítico para investigação. Se esse investimento rende ou não depende da próxima rodada de experimentos.
 
-*2 de 4 na série GWAS DecodeME. Antecedente: [A Genética Resolveu a Questão](../genetics-ends-debate/) · Próximo: [Medicamentos para EM/SFC em Parkinson?](../dopamine-rational-mechanism/) · [O Striatum Não É Nosso](../msn-specificity-caveat/)*
+*Post 2 de 4 na série GWAS DecodeME. Antecedente: [A Genética Resolveu a Questão](../genetics-ends-debate/) · Próximo: [Medicamentos para EM/SFC em Parkinson?](../dopamine-rational-mechanism/) · [O Striatum Não É Nosso](../msn-specificity-caveat/)*

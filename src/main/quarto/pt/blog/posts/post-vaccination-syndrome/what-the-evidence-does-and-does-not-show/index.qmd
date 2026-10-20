@@ -26,7 +26,7 @@ Esse é o caso honesto *a favor* de levar a questão a sério. É um argumento d
 ## O que não foi comprovado
 
 - **A causalidade num indivíduo não está estabelecida.** Uma sequência temporal — vacinado, depois adoecido — não é por si só causalidade. As pessoas adoecem por razões não relacionadas o tempo todo, inclusive nas semanas após uma vacinação.
-- **A questão específica sobre o mRNA está essencialmente não testada.** Afirmações de que as vacinas de mRNA são a causa específica disso está à frente dos dados.
+- **A questão específica sobre o mRNA está essencialmente não testada.** Afirmações de que as vacinas de mRNA são a causa específica disso estão à frente dos dados.
 - **Parte da carga dos sintomas tem outra explicação.** Efeitos de nocebo — sintomas produzidos pela expectativa e não pelo produto — são bem documentados após a vacinação, e são sintomas reais. A quantidade de apresentação semelhante à EM/SFC que eles explicam ainda não foi medida. Tratar o nocebo como a explicação completa é uma forma de descartá-lo.
 - **Os sinais em nível populacional são difíceis de interpretar em ambas as direções.** A ausência de um sinal claro em nível populacional não prova que a doença do indivíduo foi não relacionada; um conjunto de casos relatados não prova causalidade. Ambas as direções de inferência falham aqui, e é por isso que a questão permanece aberta em vez de ser resolvida.
 
@@ -40,14 +40,14 @@ A posição que sobrevive a ambos os erros é desconfortável, mas correta: **n�
 
 ## Sintomas que requerem atenção urgente, independentemente da causa
 
-Uma coisa não depende em absoluto da discussão sobre a causalidade. Alguns sintomas que aparecem após a vacinação são emergências médicas. Eles devem ser avaliados imediatamente — não atribuídos a um síndrome e não esperados:
+Uma coisa não depende em absoluto da discussão sobre a causalidade. Alguns sintomas que aparecem após a vacinação são emergências médicas. Eles devem ser avaliados imediatamente — não atribuídos a uma síndrome e não esperados:
 
 - **Dor no peito, falta de ar, ou batimento cardíaco acelerado ou irregular** — possível miocardite ou pericardite.
 - **Dor de cabeça grave e persistente, ou confusão nova, distúrbios visuais ou fraqueza focal** — possível trombose induzida por vacina com trombocitopenia.
 - **Entorpecimento ou fraqueza progressiva, ou nova dificuldade em caminhar** — possível síndrome de Guillain–Barré.
 - **Qualquer sintoma grave, que piora ou que não se parece com nada que você tenha tido antes.**
 
-Esta lista não é sobre culpar a vacina ou isentir a vacina. É sobre não deixar o argumento sobre a causa atrasar a avaliação de algo tratável.
+Esta lista não é sobre culpar a vacina ou isentar a vacina. É sobre não deixar o argumento sobre a causa atrasar a avaliação de algo tratável.
 
 ## O que segue na gestão
 
@@ -59,6 +59,6 @@ A gestão, portanto, não é “nada”: significa rastrear as causas urgentes a
 
 ## Por que somos cautelosos aqui
 
-Nossa avaliação integrada deste tópico é classificada como **evidência fraca** — o fenômeno é relatado e se sobrepõe a uma doença bem caracterizada, mas a causalidade é não comprovada e os detalhes são não testados. Isso é um motivo para dizer menos, não mais.
+Nossa avaliação integrada deste tópico é classificada como **evidência fraca** — o fenómeno é relatado e se sobrepõe a uma doença bem caracterizada, mas a causalidade não está comprovada e os detalhes não foram testados. Isso é um motivo para dizer menos, não mais.
 
 *O que um paciente deve ser informado: que seus sintomas são levados a sério, que o momento é observado, que ninguém pode dizer atualmente se a vacina causou isso — e que eles não devem ser informados por ninguém de que definitivamente causou ou definitivamente não causou.*

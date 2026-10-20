@@ -13,7 +13,7 @@ A primeira parte desta série analisou o autismo como uma desordem de energia ce
 
 As duas ideias não competem. Elas descrevem pacientes diferentes, e distingui-los tem grande importância para o tratamento.
 
-A série separa **o que sabemos** de **o que nossa pesquisa acrescenta**. Aqui, os resultados estabelecidos são as evidências dos anticorpos anti-fetal-cérebro materno [@Braunschweig2013MATAbs @Croen2008MaternalAbASD @Meltzer2017ImmuneASD] e o contraste da estratificação do IVIG [@Connery2018IVIGautism @Plioplys1998IVIGautism]. O que nossa pesquisa acrescenta é a leitura do espectro de neuroimunoencefalopatia — que os circuitos direcionados a anticorpos, e não rótulos de diagnóstico, podem definir o subconjunto tratável — o que é uma especulação registrada, não um achado estabelecido.
+A série separa **o que sabemos** de **o que nossa pesquisa acrescenta**. Aqui, os resultados estabelecidos são as evidências dos anticorpos anti-fetal-cérebro materno [@Braunschweig2013MATAbs @Croen2008MaternalAbASD @Meltzer2017ImmuneASD] e o contraste da estratificação do IVIG [@Connery2018IVIGautism @Plioplys1998IVIGautism]. O que nossa pesquisa acrescenta é a leitura do espectro de neuroimunoencefalopatia — que os circuitos alvo de anticorpos, e não rótulos de diagnóstico, podem definir o subconjunto tratável — o que é uma especulação registrada, não um achado estabelecido.
 
 ---
 
@@ -24,11 +24,11 @@ Durante a gravidez, os anticorpos maternos atravessam a placenta. Na maioria dos
 O número impressionante: aproximadamente **23% das mães de crianças autistas carregam autoanticorpos anti-cérebro-fetal** que atacam proteínas neuronais específicas [@Braunschweig2013MATAbs @Croen2008MaternalAbASD @Meltzer2017ImmuneASD]. Esses anticorpos estão associados a um aumento do risco de autismo.
 
 As considerações são significativas:
-- A via causal — do anticorpo maternos ao diagnóstico da criança — **não foi comprovada**.
+- A via causal — do anticorpo materno ao diagnóstico da criança — **não foi comprovada**.
 - A “fração atribuível” depende de suposições sobre a patogenicidade do anticorpo que ainda não foram testadas em coortes prospectivas.
-- Isso define um **subgrupo distinto associado ao sistema imunológico**, mas ainda não é clínicamente aplicável.
+- Isso define um **subgrupo distinto associado ao sistema imunológico**, mas ainda não é clinicamente aplicável.
 
-Crucialmente, **não existe aplicação clínica atual**: não há recomendação de triagem pré-natal para anticorpos anti-cérebro-fetal, e a imunomodulação durante a gravidez para essa indicação é não testada e potencialmente prejudicial.
+Crucialmente, **não existe aplicação clínica atual**: não há recomendação de triagem pré-natal para anticorpos anti-cérebro-fetal, e a imunomodulação durante a gravidez para essa indicação não foi testada e potencialmente prejudicial.
 
 ---
 
@@ -36,30 +36,30 @@ Crucialmente, **não existe aplicação clínica atual**: não há recomendaçã
 
 O padrão pré-natal tem um equivalente pós-natal. A infeção pode desencadear anticorpos anti-neurónicos que produzem sintomas semelhantes aos do autismo em crianças previamente neurotípicas — estruturalmente análogos ao PANDAS/PANS (Síndrome Neuropsiquiátrica Aguda Pediátrica de Início Rápido), diferenciando-se apenas na janela de desenvolvimento e nos circuitos alvo [@Endres2022AutoimmuneOCD @Whiteley2021AutoimmuneASD].
 
-Isso não é medicina marginal. É a mesma lógica da doença que está por trás do PANDAS/PANS: infeção → resposta imunitária → anticorpos anti-neurónicos → fenótipo neuropsiquiátrico específico de circuito [@Swedo1998PANDAS50 @Kirvan2003MimicryChorea @Kirvan2006CaMKII]. O mecanismo principal é a mimetização molecular — anticorpos formados contra uma bactéria que também reconhece proteínas neuronais no cérebro.
+Isso não é medicina marginal. É a mesma lógica da doença que está por trás do PANDAS/PANS: infeção → resposta imunitária → anticorpos anti-neurónicos → fenótipo neuropsiquiátrico específico de circuito [@Swedo1998PANDAS50 @Kirvan2003MimicryChorea @Kirvan2006CaMKII]. O mecanismo principal é a mimetização molecular — anticorpos formados contra uma bactéria que também reconhecem proteínas neuronais no cérebro.
 
 ---
 
 ## Evidências de um subgrupo imune dentro do autismo
 
-Dois achados esclarecem o caso de que um subgrupo imune mediado existe *dentro* da classificação de autismo:
+Dois achados esclarecem o caso de que um subgrupo imunomediado existe *dentro* da classificação de autismo:
 
 **1. Anticorpos anti-neurónicos estão elevados numa fração de pacientes com autismo — independentemente do estado de regressão.** Cerca de **20% dos pacientes com ASD apresentam anticorpos anti-neurónicos elevados**, e isso não se alinha perfeitamente com o fenótipo de regressão [@Aslan2021AntiNeuronalASD]. O subgrupo imune não respeita a fronteira sindrómica entre autismo regressivo e autismo clássico.
 
-**2. A resposta à imunoterapia depende da estratificação dos anticorpos, não do diagnóstico.** A prova mais clara vem de um par de estudos com IVIG (imunoglobulina intravenosa) no autismo. num dos estudos, a imunoterapia produziu uma **resposta dramática em pacientes com anticorpos estratificados**; no outro, o mesmo tratamento foi **nulo em autismo não selecionado** [@Connery2018IVIGautism @Plioplys1998IVIGautism]. Quando o recrutamento se baseia apenas no diagnóstico, o ensaio é diluído por pacientes que não são imune-mediados. Quando utiliza a análise de anticorpos, a intervenção funciona no subgrupo que alvo.
+**2. A resposta à imunoterapia depende da estratificação dos anticorpos, não do diagnóstico.** A prova mais clara vem de um par de estudos com IVIG (imunoglobulina intravenosa) no autismo. Num dos estudos, a imunoterapia produziu uma **resposta dramática em pacientes com anticorpos estratificados**; no outro, o mesmo tratamento foi **nulo em autismo não selecionado** [@Connery2018IVIGautism @Plioplys1998IVIGautism]. Quando o recrutamento se baseia apenas no diagnóstico, o ensaio é diluído por pacientes que não são imunomediados. Quando utiliza a análise de anticorpos, a intervenção funciona no subgrupo que visa.
 
-Este contraste é o achado mais instructivo no campo: **a terapia não é “eficaz” ou “ineficaz” para o autismo — ela é eficaz para o subgrupo imune-mediado.**
+Este contraste é o achado mais instrutivo no campo: **a terapia não é “eficaz” ou “ineficaz” para o autismo — ela é eficaz para o subgrupo imunomediado.**
 
 ---
 
 ## O quadro unificador: um espectro de encefalopatia neuroimune
 
-Em conjunto, essas ideias apontam para uma proposta mais abrangente da nossa pesquisa — o **Espectro de Encefalopatia Neuroimune (NES)** — uma classe de doenças única definida por um gatilho imune, anticorpos anti-neurónicos que atacam circuitos específicos e um fenótipo clínico determinado por **quais circuitos são afetados**, e não pelo gatilho. É uma especulação de pesquisa registada, e não um achado estabelecido.
+Em conjunto, essas ideias apontam para uma proposta mais abrangente da nossa pesquisa — o **Espectro de Encefalopatia Neuroimune (NES)** — uma única classe de doenças definida por um gatilho imune, anticorpos anti-neurónicos que atacam circuitos específicos e um fenótipo clínico determinado por **quais circuitos são afetados**, e não pelo gatilho. É uma especulação de pesquisa registada, e não um achado estabelecido.
 
 Neste quadro:
-- Anticorpos direcionados para a ganglia basal → OCD, tics, regressão comportamental (PANDAS/PANS)
-- Anticorpos do tronco cerebral/talemo → fadiga, instabilidade autonómica
-- Anticorpos difusos do córtex → psicose, colapso cognitivo (encefalite autoimune)
+- Anticorpos direcionados para os gânglios da base → OCD, tics, regressão comportamental (PANDAS/PANS)
+- Anticorpos do tronco cerebral/talâmicos → fadiga, instabilidade autonómica
+- Anticorpos corticais difusos → psicose, colapso cognitivo (encefalite autoimune)
 - Transferência de anticorpos da mãe durante a gravidez → um fenótipo de desenvolvimento semelhante ao autismo
 
 A implicação prática é radical: **rótulos de diagnóstico (PANDAS, EM/SFC, autismo) podem ser substitutos para a identidade dos circuitos.** A mesma biologia produz os três, dependendo dos circuitos que os anticorpos atacam. Se isso for verdade, a pergunta correta não é “este paciente tem autismo?”, mas “quais circuitos, e eles são alvo de anticorpos?”
@@ -76,18 +76,18 @@ Este quadro é **explicitamente especulativo**, com baixa certeza.
 - Nenhum estudo prospectivo selecionou crianças com "autismo regressivo" para os critérios de PANS/PANDAS.
 - O quadro abrange um **subconjunto** dentro de cada categoria de diagnóstico, e não a condição inteira. A maior parte do autismo não é imunomediada.
 
-A convergência não aumenta a certeza acima do elo mais fraco. Até que exista um estudo de profiling de anticorpos multi-medicinares, este é um quadro de pesquisa, não uma descoberta.
+A convergência não aumenta a certeza acima do elo mais fraco. Até que exista um estudo de perfilagem de anticorpos para múltiplas doenças, este é um quadro de pesquisa, não uma descoberta.
 
 ---
 
 ## O experimento decisivo
 
-O campo precisa de um estudo: executar o mesmo painel de anticorpos anti-neuronal abrangente (basal-ganglia, D1/D2 receptor, CaMKII, lysoganglioside, NMDAR e outros) em **PANDAS/PANS, autismo regressivo, EM/SFC e controles saudáveis simultaneamente**, e testar duas previsões:
+O campo precisa de um estudo: executar o mesmo painel de anticorpos anti-neuronal abrangente (gânglios da base, receptor D1/D2, CaMKII, lisogangliosídeo, NMDAR e outros) em **PANDAS/PANS, autismo regressivo, EM/SFC e controles saudáveis simultaneamente**, e testar duas previsões:
 
 1. Os perfis de anticorpos se agrupam por **alvo do circuito**, e não por rótulo de diagnóstico.
-2. A resposta à imunoterapia é prevista pelo **perfil de anticorpos**, e não pela diagnóstico.
+2. A resposta à imunoterapia é prevista pelo **perfil de anticorpos**, e não pelo diagnóstico.
 
-Se isso for verdade, o subconjunto imunomediado do autismo torna-se identificável e tratável — independentemente do rótulo do síndrome que ele possua. Se falhar, a abordagem baseada no síndrome estava correta, afinal.
+Se isso for verdade, o subconjunto imunomediado do autismo torna-se identificável e tratável — independentemente do rótulo do síndrome que ele possua. Se falharem, a abordagem baseada no síndrome estava correta, afinal.
 
 ---
 
@@ -97,8 +97,8 @@ O modelo imunomediado não afirma que o autismo é uma doença imunológica. Afi
 
 A parte encorajadora: o contraste Connery/Plioplys é uma prova de conceito de que selecionar o subconjunto correto pode transformar um tratamento nulo numa resposta significativa.
 
-este é um quadro de pesquisa, não uma recomendação clínica. Sem screening, sem intervenção pré-natal e sem imunoterapia, não há indicação para o autismo com base nas evidências atuais. O estudo decisivo sobre anticorpos para múltiplas doenças ainda não foi realizado.
+este é um quadro de pesquisa, não uma recomendação clínica. Sem triagem, sem intervenção pré-natal e sem imunoterapia, não há indicação para o autismo com base nas evidências atuais. O estudo decisivo sobre anticorpos para múltiplas doenças ainda não foi realizado.
 
-*Esta é a Parte 2 de uma série de quatro partes sobre a biologia do autismo. A Parte 1 aborda o modelo de energia cerebral e a hipótese de tratamento multivias. A Parte 3 explora a conexão entre o cerebelro e o glutamato. A Parte 4 pergunta quando as características semelhantes ao autismo são adquiridas e reversíveis.*
+*Esta é a Parte 2 de uma série de quatro partes sobre a biologia do autismo. A Parte 1 aborda o modelo de energia cerebral e a hipótese de tratamento multivias. A Parte 3 explora a conexão entre o cerebelo e o glutamato. A Parte 4 pergunta quando as características semelhantes ao autismo são adquiridas e reversíveis.*
 
 *Este artigo reflete hipóteses de pesquisa do nosso projeto de documentação. O subconjunto de autismo imunomediado é uma área de investigação ativa com confiança explícita e baixa — não é um facto clínico estabelecido. Discuta qualquer decisão médica com um médico qualificado.*

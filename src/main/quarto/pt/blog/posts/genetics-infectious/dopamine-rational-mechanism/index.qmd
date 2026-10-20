@@ -1,5 +1,5 @@
 ---
-title: "Parte 3: Medicamentos para EM/SFC contra Parkinson? A Genética diz sim"
+title: "Parte 3: Medicamentos para Parkinson para EM/SFC? A Genética diz sim"
 description: "Os medicamentos moduladores da dopamina já não são usados apenas para o manejo dos sintomas — os estudos GWAS mostram que eles visam o circuito geneticamente envolvido. Desde o Ritalin até a rotigotina, aqui está como a justificativa se apresenta atualmente."
 author: "Yannick Loth"
 date: "2026-07-06"
@@ -11,15 +11,15 @@ O seu médico entrega-lhe uma receita para metilfenidato. *"Alguns pacientes ach
 
 ---
 
-## O striatum é o alvo
+## O estriado é o alvo
 
-Uma análise de tipo de célula pós-GWAS revelou que as variantes de risco da EM/SFC estão concentradas em neurônios médios espinhosos (MSNs) do striatum [@Maccallini2026metaGWAS]; a própria análise GWAS DecodeME mostrou apenas enriquecimento em tecido cerebral. São essas células que tomam decisões sobre recompensa em relação ao esforço — se mover, pensar ou agir vale o custo energético.
+Uma análise de tipo de célula pós-GWAS revelou que as variantes de risco da EM/SFC estão enriquecidas em neurônios espinhosos médios (MSNs) do estriado [@Maccallini2026metaGWAS]; a própria análise GWAS DecodeME mostrou apenas enriquecimento em tecido cerebral. São essas células que tomam decisões sobre recompensa em relação ao esforço — se mover, pensar ou agir vale o custo energético.
 
-Este é o sinal de tipo de célula mais forte nessa análise, embora seja um pré-impresso e a etapa de tipo de célula ainda não tenha sido replicada de forma independente. Se a genética aponta para o striatum, então os medicamentos que modulam a dopamina do striatum não são mais meras suposições empíricas — são farmacologia racional que atinge o circuito geneticamente envolvido.
+Este é o sinal de tipo de célula mais forte nessa análise, embora seja um pré-impresso e a etapa de tipo de célula ainda não tenha sido replicada de forma independente. Se a genética aponta para o estriado, então os medicamentos que modulam a dopamina do estriado não são mais meras suposições empíricas — são farmacologia racional que atinge o circuito geneticamente envolvido.
 
 ---
 
-## Três níveis de medicamentos de dopamina para EM/SFC? A Genética diz sim
+## Três níveis de medicamentos de dopamina
 
 ### Nível 1: Precursores e inibidores de reabsorção
 
@@ -27,11 +27,11 @@ Este é o sinal de tipo de célula mais forte nessa análise, embora seja um pr�
 
 **Bupropiona (Wellbutrin).** Um inibidor do DAT/NET com menos potencial de abuso em comparação com o metilfenidato. Usado para depressão e cessação do tabagismo. Possui um efeito anti-inflamatório fraco através da redução do TNF-alfa, o que pode ser relevante numa doença com neuroinflamação documentada.
 
-**Levodopa/carbidopa.** O precursor direto de dopamina, usado no Parkinson. Passa pela barreira hematoencefálica e aumenta a síntese de dopamina no striado de forma direta. Não existem ensaios em EM/SFC — mas a justificativa é agora mais forte do que nunca.
+**Levodopa/carbidopa.** O precursor direto de dopamina, usado no Parkinson. Passa pela barreira hematoencefálica e aumenta a síntese de dopamina no estriado de forma direta. Não existem ensaios em EM/SFC — mas a justificativa é agora mais forte do que nunca.
 
 ### Nível 2: Agonistas de dopamina
 
-Estes contornam completamente o neurônio presináptico, estimulando diretamente os recetores D1/D2/D3 postsinápticos. Diferença crítica em relação ao Nível 1: eles não exigem a liberação ou armazenamento endógeno de dopamina para funcionar.
+Estes contornam completamente o neurônio presináptico, estimulando diretamente os recetores D1/D2/D3 pós-sinápticos. Diferença crítica em relação ao Nível 1: eles não exigem a liberação ou armazenamento endógeno de dopamina para funcionar.
 
 **Rotigotina (Neupro patch).** Agonista D1/D2/D3 administrado por via transdérmica — útil para os muitos pacientes com EM/SFC que apresentam disfunção gastrointestinal. Já aprovada para Parkinson e RLS. Não há ensaios em EM/SFC, mas a via de administração e o perfil de recetores a tornam atraentes.
 
@@ -39,7 +39,7 @@ Estes contornam completamente o neurônio presináptico, estimulando diretamente
 
 ### Nível 3: Inibidores do VMAT2 (o caminho indireto)
 
-O transportador monoamina vesicular 2 (VMAT2) embala a dopamina citosólica em vesículas sinápticas para armazenamento e liberação. A imagem por PET em pacientes com long COVID mostra **redução da ligação do VMAT2 no striado** — o próprio mecanismo de armazenamento de dopamina parece ser danificado. Se essa lesão do VMAT2 se estender à EM/SFC (e a vulnerabilidade compartilhada do MSN sugere que possa), então o déficit de dopamina na EM/SFC pode não ser "baixa produção", mas "armazenamento e liberação prejudicados". Nem a descoberta do VMAT2 por PET em long COVID nem sua extensão à EM/SFC foram publicados numa revista revisada por pares; a evidência ainda é preliminar.
+O transportador monoamina vesicular 2 (VMAT2) embala a dopamina citosólica em vesículas sinápticas para armazenamento e liberação. A imagem por PET em pacientes com long COVID mostra **redução da ligação do VMAT2 no estriado** — o próprio mecanismo de armazenamento de dopamina parece ser danificado. Se essa lesão do VMAT2 se estender à EM/SFC (e a vulnerabilidade compartilhada do MSN sugere que possa), então o déficit de dopamina na EM/SFC pode não ser "baixa produção", mas "armazenamento e liberação prejudicados". Nem a descoberta do VMAT2 por PET em long COVID nem sua extensão à EM/SFC foram publicados numa revista revisada por pares; a evidência ainda é preliminar.
 
 A cadeia lógica é falsificável: se o VMAT2 for o gargalo, então os agonistas diretos (rotigotina, pramipexol) deveriam superar os inibidores de reabsorção (metilfenidato) em ensaios clínicos, porque os agonistas contornam a máquina de armazenamento danificada. Se os inibidores de reabsorção funcionam tão bem quanto, o mecanismo do VMAT2 é menos central.
 
@@ -53,33 +53,33 @@ Os dados clínicos são escassos, mas consistentes em direção:
 
 - **Metilfenidato** melhora os sintomas cognitivos em alguns pacientes com EM/SFC — tanto o estudo de intervenção de Blockmans quanto as séries de casos constatam benefício real, mas variável [@Blockmans2006MPHCFS]
 - **Metabolitos de dopamina no líquido cefalorraquidiano** são alterados na EM/SFC, consistentes com redução do tónus dopamínico central [@Miller2014dopamine]
-- **Dopamina no estriado está relacionada com a fadiga** no Parkinson de forma mais forte do que os défices motoristas nigrostriatais — o circuito de fadiga no estriado não é específico para a EM/SFC, mas é comum a toda a doença. Chaudhuri e Behan utilizaram este paralelismo no Parkinson em 2000 para argumentar que a disfunção dos gânglios da base subjace a a fadiga central na EM/SFC [@Chaudhuri2000basalganglia]
+- **Dopamina no estriado está relacionada com a fadiga** no Parkinson de forma mais forte do que os défices motores nigrostriatais — o circuito de fadiga no estriado não é específico para a EM/SFC, mas é comum a toda a doença. Chaudhuri e Behan utilizaram este paralelismo no Parkinson em 2000 para argumentar que a disfunção dos gânglios da base subjaz à fadiga central na EM/SFC [@Chaudhuri2000basalganglia]
 
-Nenhum deste dado foi suficiente para uma justificação de tratamento confiante antes do GWAS. Agora parece que há evidências convergentes.
+Nada disto foi suficiente para uma justificação de tratamento confiante antes do GWAS. Agora parece que há evidências convergentes.
 
 ---
 
 ## Considerações importantes: quatro razões para ter cuidado
 
-**1. Estimulantes podem mascarar PEM.** Metilfenidato e bupropion melhoram a energia subjetiva e a cognição. O paciente se sente mais capaz — e pode ultrapassar sua verdadeira envelope de energia. O resultado não é um melhor resultado, mas uma crise atrasada.
+**1. Estimulantes podem mascarar PEM.** Metilfenidato e bupropiona melhoram a energia subjetiva e a cognição. O paciente se sente mais capaz — e pode ultrapassar seu verdadeiro envelope de energia. O resultado não é um melhor resultado, mas uma crise atrasada.
 
-**2. Agonistas de dopamina têm efeitos colaterais significativos.** Distúrbios de controle de impulsos não são raros com pramipexol e ropinirole. Aumento dos sintomas com escalada da dose ocorre em pacientes com RLS que tomam esses medicamentos. Náusea e hipotensão ortostática são comuns no início do tratamento.
+**2. Agonistas de dopamina têm efeitos colaterais significativos.** Distúrbios de controle de impulsos não são raros com pramipexol e ropinirol. Aumento dos sintomas com escalada da dose ocorre em pacientes com RLS que tomam esses medicamentos. Náusea e hipotensão ortostática são comuns no início do tratamento.
 
 **3. Todo o uso é fora da indicação.** Nenhum desses medicamentos está aprovado para EM/SFC. Nenhum órgão regulador revisou a segurança ou eficácia para essa população.
 
-**4. A questão da especificidade ainda não está resolvida.** O enriquecimento de neurônios cerebrais é comum em muitos distúrbios cerebrais, embora os tipos de células sejam diferentes — esquizofrenia e depressão enriquecem neurônios corticais, não MSNs [@Duncan2025cellTypeBrain]. O mesmo circuito está envolvido em outras condições. Se a EM/SFC representa uma lesão distinta dentro desse circuito, ou uma vulnerabilidade generalizada do striado que se expressa de maneira diferente dependendo de outros fatores genéticos e ambientais, ainda é desconhecido.
+**4. A questão da especificidade ainda não está resolvida.** O enriquecimento de neurônios cerebrais é comum em muitos distúrbios cerebrais, embora os tipos de células sejam diferentes — esquizofrenia e depressão enriquecem neurônios corticais, não MSNs [@Duncan2025cellTypeBrain]. O mesmo circuito está envolvido em outras condições. Se a EM/SFC representa uma lesão distinta dentro desse circuito, ou uma vulnerabilidade generalizada do estriado que se expressa de maneira diferente dependendo de outros fatores genéticos e ambientais, ainda é desconhecido.
 
 ---
 
 ## O que isto é — e não é
 
-Esta publicação não é uma recomendação para tomar estes medicamentos. É uma afirmação sobre o que a descoberta genética afeta a lógica farmacológica.
+Esta publicação não é uma recomendação para tomar estes medicamentos. É uma afirmação sobre o que a descoberta genética faz à lógica farmacológica.
 
 Antes do GWAS: os medicamentos de dopamina para EM/SFC eram empíricos. Experimente um estimulante, veja o que acontece e espere o melhor.
 
 Após o GWAS: existe uma base racional para investigar estes medicamentos de forma sistemática. A genética aponta para o estriado. Os medicamentos que modulam a dopamina no estriado visam o local onde a doença se manifesta. A questão já não é *deveríamos tentar isto*, mas *qual deles funciona, para quais pacientes e em que combinação*.
 
-Esse mudar — de adivinhar para direcionar — é o verdadeiro progresso.
+Essa mudança — de adivinhar para direcionar — é o verdadeiro progresso.
 
 ---
 
@@ -87,10 +87,10 @@ Esse mudar — de adivinhar para direcionar — é o verdadeiro progresso.
 
 | Afirmação | Certeza |
 |-------|-----------|
-| Variantes de risco genético EM/SFC são abundantes em neurônios espinhosos | Moderada — análise de tipo de célula pós-GWAS (preprint) [@Maccallini2026metaGWAS] |
-| Medicamentos moduladores da dopamina atingem o circuito geneticamente envolvido | Alta — os neurônios espinhosos são neurônios responsivos à dopamina; a inferência é direta |
+| Variantes de risco genético da EM/SFC estão enriquecidas em neurônios espinhosos médios do estriado | Moderada — análise de tipo de célula pós-GWAS (preprint) [@Maccallini2026metaGWAS] |
+| Medicamentos moduladores da dopamina atingem o circuito geneticamente envolvido | Alta — os neurônios espinhosos médios são neurônios responsivos à dopamina; a inferência é direta |
 | Agonistas diretos superarão os inibidores de reabsorção em EM/SFC | Baixa-moderada — depende da lesão do VMAT2 que se generaliza do long COVID para EM/SFC; não testada |
-| A imagemagem do VMAT2 é um biomarcador diagnóstico candidato | Baixa — requer replicação em coortes de EM/SFC, não apenas no long COVID |
+| A imagiologia do VMAT2 é um candidato a biomarcador diagnóstico | Baixa — requer replicação em coortes de EM/SFC, não apenas no long COVID |
 | Os ensaios existentes com metilfenidato são suficientemente positivos para justificar ensaios maiores | Moderada — sinal consistente, estudos pequenos, resultados variáveis |
 
-*3 de 4 na série GWAS DecodeME. Antecedente: [The Genetics Settled It](../genetics-ends-debate/) · [The Striatum Is the Bottleneck](../striatum-bottleneck/) · Próximo: [The Striatum Isn't Ours](../msn-specificity-caveat/)*
+*3 de 4 na série GWAS DecodeME. Anterior: [The Genetics Settled It](../genetics-ends-debate/) · [The Striatum Is the Bottleneck](../striatum-bottleneck/) · Próximo: [The Striatum Isn't Ours](../msn-specificity-caveat/)*

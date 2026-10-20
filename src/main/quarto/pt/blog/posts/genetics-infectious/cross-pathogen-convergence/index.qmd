@@ -19,21 +19,21 @@ Os dados de Dubbo diziam algo diferente. O patógeno não importa. A resposta do
 
 ## A lista fica mais longa
 
-Nas duas décadas desde Dubbo, o mesmo padrão foi documentado após uma ampla gama de infeções.
+Nas duas décadas desde Dubbo, o mesmo padrão foi documentado após uma gama de infeções alarmantemente ampla.
 
 **Vírus de Epstein-Barr**: o agente patogénico original da "fadiga pós-viral". A infeção primária por EBV (mononucleose/febre glandular) é seguida por uma síndrome de fadiga crónica em aproximadamente 10-12% dos casos, com sintomas persistindo por seis meses e além [@Katz2009IMadolescentCFS; @White2001mononucleosis].
 
-**SARS-CoV-2**: o agente patogénico que comprovou esse padrão em escala. A COVID longa afeta cerca de 10-20% dos indivíduos infectados — dezenas de milhões em todo o mundo —, com um perfil de sintomas que se sobrepõe significativamente à EM/SFC: mal-estar pós-esforço, disfunção cognitiva, instabilidade autonómica e sono não revigorante [@Davis2023]. Pela primeira vez, o sistema médico foi forçado a confrontar a fadiga pós-infecciosa como um evento em massa, e não como uma curiosidade individual.
+**SARS-CoV-2**: o agente patogénico que comprovou esse padrão em escala. A COVID longa afeta uma estimativa de 10-20% dos indivíduos infectados — dezenas de milhões em todo o mundo —, com um perfil de sintomas que se sobrepõe significativamente à EM/SFC: mal-estar pós-esforço, disfunção cognitiva, instabilidade autonómica e sono não revigorante [@Davis2023]. Pela primeira vez, o sistema médico foi forçado a confrontar a fadiga pós-infecciosa como um evento em massa, e não como uma curiosidade individual.
 
 **Febre Q**: o agente patogénico de Dubbo que comprovou o ponto da forma mais clara. A síndrome de fadiga da febre Q é reconhecida como uma entidade distinta, desenvolvendo-se em 20% dos casos agudos de febre Q, com fadiga, mialgia, suores noturnos e distúrbios de humor persistindo por anos [@Marmion2005Qfever].
 
-**Vírus do rio Ross**: a fadiga pós-rio do rio Ross dura meses a anos e apresenta dores nas articulações, fadiga e queixas cognitivas indistinguíveis da EM/SFC [@Harley2002rossRiver].
+**Vírus do rio Ross**: a fadiga pós-vírus do rio Ross dura meses a anos e apresenta dores nas articulações, fadiga e queixas cognitivas indistinguíveis da EM/SFC [@Harley2002rossRiver].
 
 **Chikungunya e dengue**: ambos associados a uma fadiga pós-infecciosa prolongada e artralgia crónica que persiste muito após a eliminação viral [@Gerardin2011chikungunya; @Garcia2011dengueFatigue].
 
 **Giardia**: o grupo de Dubbo mostrou posteriormente que até uma infeção parasitária — taxonomicamente distante de vírus e bactérias — produz fadiga pós-infecciosa num subgrupo de indivíduos infectados [@Naess2012giardia_cfs]. O surto de giardíase hídrica em Bergen foi seguido por um aumento documentado de casos de fadiga crónica.
 
-**Gripe, SARS, MERS**: os surtos históricos deixaram um rastro de casos de fadiga crónica em seu rastro, embora sem a documentação prospectiva fornecida por Dubbo e COVID longa.
+**Gripe, SARS, MERS**: os surtos históricos deixaram um rastro de casos de fadiga crónica na sua esteira, embora sem a documentação prospectiva fornecida por Dubbo e COVID longa.
 
 A lista é uma lista de tudo o que pode causar uma doença aguda significativa. Os organismos não partilham nada — nem taxonomia, nem tropismo tecidual, nem mecanismo de replicação. O que eles partilham é a capacidade de desencadear uma resposta imunitária grave.
 
@@ -41,13 +41,13 @@ A lista é uma lista de tudo o que pode causar uma doença aguda significativa. 
 
 ## O que a convergência significa
 
-Se o patógeno fosse a causa, cada infeção produziria um síndrome crónica diferente com um mecanismo distinto. A fadiga pós-EBV seria diferente da fadiga pós-febre Q, da fadiga pós-giárdia. Não são. Os síndromes são clinicamente indistinguíveis uma da outra uma vez estabelecidas.
+Se o patógeno fosse a causa, cada infeção produziria uma síndrome crónica diferente com um mecanismo distinto. A fadiga pós-EBV seria diferente da fadiga pós-febre Q, da fadiga pós-giárdia. Não são. As síndromes são clinicamente indistinguíveis uma vez estabelecidas.
 
 Se o patógeno fosse a causa, a taxa de fadiga crónica correlacionar-se-ia com características específicas do patógeno — carga viral, tropismo tecidual, capacidade de persistência. Não é esse o caso. A taxa correlaciona-se com a gravidade da doença aguda e, em menor grau, com fatores do hospedeiro, como sexo feminino e variantes genéticas imunológicas pré-existentes.
 
-Se o patógeno fosse a causa, eliminar o patógeno curaria a fadiga. Não é esse o caso. O síndrome da doença Lyme pós-tratamento persiste após a erradicação de Borrelia. O COVID longo persiste após a eliminação de SARS-CoV-2. A fadiga da febre Q persiste por muito tempo após a ausência de detecção de Coxiella.
+Se o patógeno fosse a causa, eliminar o patógeno curaria a fadiga. Não é esse o caso. A síndrome da doença Lyme pós-tratamento persiste após a erradicação de Borrelia. A COVID longa persiste após a eliminação de SARS-CoV-2. A fadiga da febre Q persiste por muito tempo após a ausência de deteção de Coxiella.
 
-A convergência entre patógenos radicalmente diferentes obriga a uma conclusão: a EM/SFC (e os síndromes de fadiga pós-infecciosa que atendem aos seus critérios) não é uma doença de infeção crónica. É uma doença de resposta do hospedeiro. O patógeno é o gatilho. A doença é o que o sistema imunitário faz após o gatilho ter desaparecido.
+A convergência entre patógenos radicalmente diferentes obriga a uma conclusão: a EM/SFC (e as síndromes de fadiga pós-infecciosa que atendem aos seus critérios) não é uma doença de infeção crónica. É uma doença de resposta do hospedeiro. O patógeno é o gatilho. A doença é o que o sistema imunitário faz após o gatilho ter desaparecido.
 
 ---
 
@@ -57,11 +57,11 @@ A resposta imune normal a uma infeção segue um percurso: deteção, alarme, mo
 
 O modelo de trabalho para a EM/SFC pós-infecciosa é que essa resolução falha. A fase de combate não transita para a resolução, mas para um estado crónico e auto-sustentável de ativação imunitária. Vários mecanismos foram propostos, e eles não são mutuamente exclusivos:
 
-**Mimicry molecular e formação de autoanticorpos.** A resposta imune aguda gera anticorpos contra proteínas patógenas. Alguns desses anticorpos reagem com as proteínas do hospedeiro — particularmente com recetores ligados a G-proteínas que regulam a função autónoma e o sistema vascular [@Bynke2020]. Uma vez formados, esses autoanticorpos persistem independentemente do patógeno e continuam a causar disfunção.
+**Mimetismo molecular e formação de autoanticorpos.** A resposta imune aguda gera anticorpos contra proteínas patogénicas. Alguns desses anticorpos reagem com as proteínas do hospedeiro — particularmente com recetores ligados a G-proteínas que regulam a função autónoma e o sistema vascular [@Bynke2020]. Uma vez formados, esses autoanticorpos persistem independentemente do patógeno e continuam a causar disfunção.
 
 **DAMPs persistentes.** O dano tecidual causado pela infeção aguda deixa para trás detritos — DNA mitocondrial, ATP extracelular, proteínas nucleares — que o sistema imunitário inato interpreta como sinais de perigo em curso. Mesmo após a ausência do patógeno, esses sinais de perigo endógenos mantêm o sistema imunitário em modo de combate.
 
-**Imprinting epigenética.** Uma infeção grave altera a programação epigenética das células imunitárias — padrões de metilação do DNA, modificações de histona — de forma que persiste após a resolução da infeção. O sistema imunitário "lembra" a infeção não através da imunidade adaptativa (anticorpos e linfócitos de memória, que é normal), mas através da reprogramação imunitária inata (imunidade treinada), que fixa a expressão de genes inflamatórios num estado aumentado [@Netea2020trainedImmunity].
+**Imprinting epigenética.** Uma infeção grave altera a programação epigenética das células imunitárias — padrões de metilação do DNA, modificações de histona — de forma que persiste após a resolução da infeção. O sistema imunitário "lembra" a infeção não através da imunidade adaptativa (anticorpos e linfócitos T de memória, que é normal), mas através da reprogramação imunitária inata (imunidade treinada), que fixa a expressão de genes inflamatórios num estado aumentado [@Netea2020trainedImmunity].
 
 **Linfócitos T exaustos.** A exposição crónica a antígenos durante a fase aguda pode levar à exaustão dos linfócitos T — um estado em que os linfócitos T expressam recetores inibitores (PD-1, CTLA-4, LAG-3) e perdem a sua capacidade de gerar respostas eficazes. Isso deixa vírus latentes (EBV, HHV-6, CMV) que os sistemas imunitários saudáveis mantêm suprimidos para reativar, criando uma fonte secundária de ativação imunitária crónica que não fazia parte da infeção original.
 
@@ -73,7 +73,7 @@ Se a EM/SFC fosse uma infeção crónica, o tratamento seria encontrar e elimina
 
 Se a EM/SFC for uma doença de resposta do hospedeiro, o alvo do tratamento muda para o próprio estado imunológico preso:
 
-- **Modulação imunológica**: naltrexona em doses baixas, que modula a ativação das microglia; IVIg, que redefina os perfis de autoanticorpos; rituximabe, que elimina linfócitos B (incluindo aqueles que produzem autoanticorpos patogênicos)
+- **Modulação imunológica**: naltrexona em doses baixas, que modula a ativação das microglia; IVIg, que redefina os perfis de autoanticorpos; rituximabe, que elimina linfócitos B (incluindo aqueles que produzem autoanticorpos patogénicos)
 - **Remoção de autoanticorpos**: imunoadsorção, que remove fisicamente o IgG da circulação — testes na EM/SFC estão em andamento com resultados preliminares positivos
 - **Abordagens anti-inflamatórias**: visando citocinas e vias específicas que permanecem hiperativas (inibidores de JAK, bloqueio de IL-6)
 - **Resolução do sinal DAMP**: reduzindo o dano mitocondrial (que produz os DAMPs que sustentam a ativação imunológica), restaurando a depuração glifática (que os elimina do cérebro)
@@ -88,7 +88,7 @@ A convergência entre patógenos é uma das descobertas mais importantes na pesq
 
 **Pare de procurar um único patógeno.** Não existe um único organismo causador. Existem dezenas de organismos capazes de desencadear a doença, e a lista continuará crescendo. A convergência dos resultados de gatilhos divergentes significa que o mecanismo da doença ocorre mais adiante, após o gatilho.
 
-**Estudar a transição.** O evento crítico não é a infecção — é a transição da doença aguda para a disfunção imunológica crónica. Estudos prospectivos que capturam essa transição em tempo real (como o de Dubbo e como os estudos da Long COVID estão fazendo em escala) valem mais do que mil pesquisas retrospectivas de pacientes já estabelecidos.
+**Estudar a transição.** O evento crítico não é a infecção — é a transição da doença aguda para a disfunção imunológica crónica. Estudos prospectivos que capturam essa transição em tempo real (como o de Dubbo e como os estudos da Long COVID estão a fazer em escala) valem mais do que mil pesquisas retrospectivas de pacientes já estabelecidos.
 
 **Tratar o estado, não a história.** Um paciente que desenvolveu EM/SFC após EBV e um paciente que desenvolveu-a após cirurgia, uma vez que a doença está estabelecida, são o mesmo paciente. Eles têm o mesmo estado imunológico fixo, as mesmas consequências metabólicas, os mesmos alvos de tratamento. Seus pontos de entrada são diferentes. A doença atual deles não é.
 

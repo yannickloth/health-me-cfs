@@ -1,13 +1,13 @@
 ---
 title: "As suas células operam como uma central elétrica. Eis como isso pode falhar."
-description: "O seu corpo contém aproximadamente 37 trilhões de células. Quase todas elas contêm centenas a milhares de mitocôndria — organelas que evoluíram a partir de bactérias há dois bilhões de anos e nunca saíram. A sua função é simples na descrição e surpreendente..."
+description: "O seu corpo contém aproximadamente 37 trilhões de células. Quase todas elas contêm centenas a milhares de mitocôndrias — organelas que evoluíram a partir de bactérias há dois bilhões de anos e nunca saíram. A sua função é simples na descrição e surpreendente..."
 author: "Yannick Loth"
 date: "2026-06-08"
 categories: [Energy Metabolism, Mitochondria]
 lang: pt
 ---
 
-O seu corpo contém aproximadamente 37 trilhões de células. Quase todas delas contêm centenas a milhares de mitocôndria — organelas que evoluíram a partir de bactérias há dois bilhões de anos e nunca saíram. A sua função é simples em descrição e impressionante em escala: converter alimentos e oxigênio em ATP, a molécula que alimenta tudo o resto.
+O seu corpo contém aproximadamente 37 trilhões de células. Quase todas delas contêm centenas a milhares de mitocôndrias — organelas que evoluíram a partir de bactérias há dois bilhões de anos e nunca saíram. A sua função é simples em descrição e impressionante em escala: converter alimentos e oxigénio em ATP, a molécula que alimenta tudo o resto.
 
 Uma pessoa saudável recicla aproximadamente 50 kg de ATP por dia. Não produz — recicla. O total de ATP no corpo em qualquer momento é apenas cerca de 50 gramas. Esse total se renova aproximadamente mil vezes por dia. Cada batimento cardíaco, cada pensamento, cada resposta imunológica e cada contração muscular retira do mesmo recurso e o reabastece em tempo real.
 
@@ -19,11 +19,11 @@ Quando essa máquina de reciclagem diminui, o saldo do recurso cai. Não drastic
 
 A produção de energia é um processo sequencial com três etapas, cada uma alimentando a seguinte.
 
-**Glicólise** ocorre no citoplasma, fora das mitocôndrias. Uma molécula de glicose é dividida em duas moléculas de piruvato, gerando 2 ATP. Este processo é rápido, não requer oxigénio e serve como fallback quando tudo o resto falha. É também ineficiente — 2 ATP a partir de uma molécula que produz cerca de 30–32 no total.
+**Glicólise** ocorre no citoplasma, fora das mitocôndrias. Uma molécula de glicose é dividida em duas moléculas de piruvato, gerando 2 ATP. Este processo é rápido, não requer oxigénio e serve como alternativa quando tudo o resto falha. É também ineficiente — 2 ATP a partir de uma molécula que produz cerca de 30–32 no total.
 
 **O ciclo de Krebs** (ciclo do ácido cítrico) ocorre dentro da matriz mitocondrial. O piruvato entra nas mitocôndrias, é convertido em acetil-CoA pelo complexo piruvato desidrogenase (PDH), e entra num ciclo de oito etapas que retira eletrões das ligações de carbono e os carrega em moléculas transportadoras (NADH e FADH2). O carbono sai como CO2 — o mesmo CO2 que você exala. O ciclo em si produz apenas 2 ATP diretamente. O seu verdadeiro resultado são os transportadores de eletrões carregados.
 
-**A cadeia de transporte de eletrões (ETC)** é onde os eletrões são utilizados. NADH e FADH2 entregam os seus eletrões a uma série de complexos proteicos (I a IV) inseridos na membrana interna mitocondrial. À medida que os eletrões passam pela cadeia, os complexos bombeiam íons de hidrogénio através da membrana, criando um gradiente eletroquímico. Esse gradiente impulsiona a ATP sintase — um motor rotativo literal, o menor motor da biologia — que gira e monta ATP a partir de ADP e fosfato. Esta etapa produz aproximadamente 26–28 ATP por molécula de glicose. Requer oxigénio como o acepador final de eletrões.
+**A cadeia de transporte de eletrões (ETC)** é onde os eletrões são utilizados. NADH e FADH2 entregam os seus eletrões a uma série de complexos proteicos (I a IV) inseridos na membrana interna mitocondrial. À medida que os eletrões passam pela cadeia, os complexos bombeiam íons de hidrogénio através da membrana, criando um gradiente eletroquímico. Esse gradiente impulsiona a ATP sintase — um motor rotativo literal, o menor motor da biologia — que gira e monta ATP a partir de ADP e fosfato. Esta etapa produz aproximadamente 26–28 ATP por molécula de glicose. Requer oxigénio como o aceitador final de eletrões.
 
 No total: 2 (glicólise) + 2 (Krebs) + ~26–28 (ETC) = cerca de 30–32 ATP por glicose — o cálculo consensual moderno, não os números dos livros didáticos antigos de 36–38. A linha de montagem é elegante, poderosa e totalmente dependente da correta funcionalidade de cada etapa.
 
@@ -33,11 +33,11 @@ No total: 2 (glicólise) + 2 (Krebs) + ~26–28 (ETC) = cerca de 30–32 ATP por
 
 As evidências da disfunção mitocondrial na EM/SFC já não são circunstanciais. Provêm de múltiplas linhas de investigação independentes.
 
-**O estreito de passagem da PDH.** Fluge, Mella e colaboradores do Hospital Universitário Haukeland relataram que pacientes com EM/SFC apresentam evidências de comprometida função da enzima piruvato desidrogenase — o complexo enzimático que converte piruvato em acetil-CoA, a via de passagem da glicólise para o ciclo de Krebs [@Fluge2016]. Quando a PDH é inibida, o piruvato não pode entrar nas mitocôndrias de forma eficiente. Ele é redirecionado e convertido em lactato. A célula recorre à glicólise — 2 ATP em vez de cerca de 30. A mesma glucose, aproximadamente um décimo da energia.
+**O estreito de passagem da PDH.** Fluge, Mella e colaboradores do Hospital Universitário Haukeland relataram que pacientes com EM/SFC apresentam evidências de comprometida função da enzima piruvato desidrogenase — o complexo enzimático que converte piruvato em acetil-CoA, a via de passagem da glicólise para o ciclo de Krebs [@Fluge2016]. Quando a PDH é inibida, o piruvato não pode entrar nas mitocôndrias de forma eficiente. Ele é redirecionado e convertido em lactato. A célula recorre à glicólise — 2 ATP em vez de cerca de 30. A mesma glucose, aproximadamente um décimo quinto da energia.
 
-**A mudança metabólica.** Estudos de metabolomica mostram consistentemente que pacientes com EM/SFC têm perfis de aminoácidos alterados, metabolismo lipídico perturbado e padrões compatíveis com oxidação de ácidos gordos mitocondriais comprometida [@Germain2017taurineME; @Naviaux2016metabolomics]. A situação é uma de inflexibilidade metabólica: a maquinaria para queimar gordura (beta-oxidação) e para executar todo o ciclo de Krebs está subdesenvolvida, forçando uma maior dependência da via glicolítica ineficiente.
+**A mudança metabólica.** Estudos de metabolómica mostram consistentemente que pacientes com EM/SFC têm perfis de aminoácidos alterados, metabolismo lipídico perturbado e padrões compatíveis com oxidação de ácidos gordos mitocondriais comprometida [@Germain2017taurineME; @Naviaux2016metabolomics]. A situação é uma de inflexibilidade metabólica: a maquinaria para queimar gordura (beta-oxidação) e para executar todo o ciclo de Krebs está subdesenvolvida, forçando uma maior dependência da via glicolítica ineficiente.
 
-**A evidência do CPET.** O teste de exercício cardiopulmonar de dois dias (CPET) oferece a visão mais direta. No primeiro dia, pacientes com EM/SFC exercitam até a capacidade máxima e mostram um consumo de oxigénio máximo reduzido em comparação com controles sedentários — mas isso sozinho poderia ser de descondicionamento. No segundo dia, 24 horas depois, controles saudáveis reproduzem o desempenho do primeiro dia. Pacientes com EM/SFC não conseguem. O limite ventilatório diminui, o VO2 máximo diminui e eles entram no metabolismo anaeróbico com cargas de trabalho mais baixas [@Snell2013CPET; @Stevens2018CPETmethod]. O sistema está objetivamente pior após um único episódio de esforço máximo. Esta é a assinatura metabólica da PEM — mal-estar pós-esforço escrita nas curvas de consumo de oxigénio.
+**A evidência do CPET.** O teste de exercício cardiopulmonar de dois dias (CPET) oferece a visão mais direta. No primeiro dia, pacientes com EM/SFC exercitam até a capacidade máxima e mostram um consumo de oxigénio máximo reduzido em comparação com controles sedentários — mas isso sozinho poderia ser descondicionamento. No segundo dia, 24 horas depois, controles saudáveis reproduzem o desempenho do primeiro dia. Pacientes com EM/SFC não conseguem. O limite ventilatório diminui, o VO2 máximo diminui e eles entram no metabolismo anaeróbico com cargas de trabalho mais baixas [@Snell2013CPET; @Stevens2018CPETmethod]. O sistema está objetivamente pior após um único episódio de esforço máximo. Esta é a assinatura metabólica da PEM — mal-estar pós-esforço escrita nas curvas de consumo de oxigénio.
 
 **Os dados de lactato.** Pacientes com EM/SFC mostram lactato venoso elevado após exercício em intensidades que não produzem lactato significativo nos controles [@Jones2012lactate]. Isso significa que eles cruzam o limite anaeróbico — o ponto em que a glicólise supera a fosforilação oxidativa — com cargas de trabalho que uma pessoa saudável suporta aeróbico. Caminhar até a cozinha pode ultrapassar o limite anaeróbico. A queima, a exaustão e a recuperação de vários dias — esses não são sintomas imaginados. São a experiência subjetiva da acidose láctica em atividade de nível de repouso.
 
@@ -59,7 +59,7 @@ Vários mecanismos contribuem para o atraso. O exercício produz espécies reati
 
 Além disso, a cascata inflamatória desencadeada pelo esforço — liberação de citocinas, ativação de microglia, recrutamento de células imunitárias — leva 12-24 horas para atingir o pico. A crise subjetiva coincide com o pico inflamatório, e não com o esforço mecânico.
 
-O resultado cruel: o paciente se sente bem durante e imediatamente após o esforço. Eles acreditam que estão melhorando. Fazem mais. A crise chega um dia depois, sem ensinar nada sobre qual atividade específica a causou, porque a ligação temporal entre a ação e a consequência está quebrada.
+O resultado cruel: o paciente se sente bem durante e imediatamente após o esforço. Eles acreditam que estão a melhorar. Fazem mais. A crise chega um dia depois, sem ensinar nada sobre qual atividade específica a causou, porque a ligação temporal entre a ação e a consequência está quebrada.
 
 ---
 

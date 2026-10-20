@@ -7,7 +7,7 @@ categories: [Genetics, Neurology, Cross-Disease]
 lang: pt
 ---
 
-Você leu os três primeiros posts desta série. Uma análise de tipo de célula após a GWAS implica os neurónios de espinha média. O striatum é o gargalo. Os medicamentos de dopamina tornam-se subitamente razoáveis. É uma história clara e satisfatória — e, como todas as histórias claras e satisfatórias em biologia, tem um problema.
+Você leu os três primeiros posts desta série. Uma análise de tipo de célula após a GWAS implica os neurónios espinhosos médios. O striatum é o gargalo. Os medicamentos de dopamina tornam-se subitamente razoáveis. É uma história clara e satisfatória — e, como todas as histórias claras e satisfatórias em biologia, tem um problema.
 
 O sinal a que a genética aponta não é uma impressão digital da EM/SFC. O enriquecimento de neurónios cerebrais aparece em muitos distúrbios cerebrais.
 
@@ -24,11 +24,11 @@ A EM/SFC não é a única condição cujo risco genético enriquece nos neuróni
 | Depressão major | Neurónios da camada cortical 5/6 | Wray et al. 2018 [@Wray2018depression]; pipeline de tipo de célula [@Duncan2025cellTypeBrain] |
 | Transtorno de consumo de álcool | Neurónios meio-espinhados | Zhou et al. 2020 [@Zhou2020AUD]; pipeline de tipo de célula [@Duncan2025cellTypeBrain] |
 
-Portanto, não é correto dizer que estas doenças partilham o *mesmo* tipo de célula. O que elas partilham é que o seu risco genético é expresso nos neurónios cerebrais, e não nas células imunitárias. A resolução mais detalhada do tipo de célula difere — e no mesmo pipeline, a EM/SFC e o transtorno de consumo de álcool são as duas que convergem nos neurónios do sistema nervoso central, enquanto a esquizofrenia e a depressão convergem nos neurónios corticais.
+Portanto, não é correto dizer que estas doenças partilham o *mesmo* tipo de célula. O que elas partilham é que o seu risco genético é expresso nos neurónios cerebrais, e não nas células imunitárias. A resolução mais detalhada do tipo de célula difere — e no mesmo pipeline, a EM/SFC e o transtorno de consumo de álcool são as duas que convergem nos neurónios espinhosos médios, enquanto a esquizofrenia e a depressão convergem nos neurónios corticais.
 
 A vulnerabilidade cerebral é ampla. A EM/SFC, a esquizofrenia, a depressão e o transtorno de consumo de álcool afetam todos os circuitos cerebrais — mas através de diferentes tipos de células e diferentes moléculas. A característica comum é o *órgão*, não o rastro molecular.
 
-Mas as doenças não são claramente as mesmas. Um paciente com esquizofrenia experimenta alucinações e distúrbios de pensamento. Um paciente deprimido experimenta anhedonia e desvalorização. Um paciente com EM/SFC experimenta mal-estar pós-esforço e intolerância ortostática. Diferentes tipos de células, diferentes fenótipos — um sinal sobre o que estamos medindo e o que nos falta.
+Mas as doenças não são claramente as mesmas. Um paciente com esquizofrenia experimenta alucinações e distúrbios de pensamento. Um paciente deprimido experimenta anhedonia e desvalorização. Um paciente com EM/SFC experimenta mal-estar pós-esforço e intolerância ortostática. Diferentes tipos de células, diferentes fenótipos — um sinal sobre o que estamos a medir e o que nos falta.
 
 ---
 
@@ -40,7 +40,7 @@ O GWAS para esquizofrenia implica genes de corte sináptico (C4, via de compleme
 
 Para EM/SFC, ainda não sabemos quais genes específicos dentro das MSNs estão afetados — se as MSNs são de facto o local onde o sinal se concentra. O resultado do tipo de célula é um pré-impresso e ainda não nos diz se o mecanismo é:
 
-- **Desequilíbrio na via D1/D2** — uma mudança na proporção do sinal “sim”/“não sim” que torna a iniciação de ação neurologicamente dispendiosa
+- **Desequilíbrio na via D1/D2** — uma mudança na proporção do sinal de “avanço”/“travão” que torna a iniciação de ação neurologicamente dispendiosa
 - **Insuficiência metabólica** — as MSNs são neurônios GABAérgicos que se activam tonicamente a altas taxas; se a função mitocondrial estiver globalmente prejudicada, as MSNs falham primeiro
 - **Desensibilização dos recetores de dopamina** — inflamação crónica de baixo grau que rebaixa a sinalização de dopamina independentemente da variação genética
 - **Disfunção sináptica cortico-striatal** — integração de entrada prejudicada do córtex frontal para o estriado
@@ -95,4 +95,4 @@ Até então, todos os medicamentos de dopamina para EM/SFC visam um circuito pla
 | O perfil transcriptômico ou PET poderia distinguir a patologia striata de EM/SFC de outras condições | Moderada — a estratégia funcionou em psiquiatria; não foi aplicada à EM/SFC |
 | O desequilíbrio D1/D2 é o mecanismo mais provável | Baixa — um dos vários candidatos; sem evidência direta especificamente em EM/SFC |
 
-*Posto 4 de 4 na série GWAS DecodeME. Previos: [A Genética Resolveu a Questão](../genetics-ends-debate/) · [O Striatum É o Gargalo](../striatum-bottleneck/) · [Medicamentos para EM/SFC em Parkinson?](../dopamine-rational-mechanism/)*
+*Posto 4 de 4 na série GWAS DecodeME. Anteriores: [A Genética Resolveu a Questão](../genetics-ends-debate/) · [O Striatum É o Gargalo](../striatum-bottleneck/) · [Medicamentos para Parkinson para EM/SFC?](../dopamine-rational-mechanism/)*

@@ -1,13 +1,13 @@
 ---
 title: "Janela de Tratamento Precoce na EM/SFC"
-description: "Pacientes tratados no primeiro ou segundo ano após o início da EM/SFC tendem a ter melhor desempenho do que pacientes tratados cinco ou dez anos depois. Isso não é exclusivo da EM/SFC — muitas condições crónicas apresentam resistência ao tratamento dependente da duração — mas na EM/SFC a situação é ainda mais específica..."
+description: "Pacientes tratados no primeiro ou segundo ano após o início da EM/SFC tendem a ter melhor desempenho do que pacientes tratados cinco ou dez anos depois. Isso não é exclusivo da EM/SFC — muitas condições crónicas apresentam resistência ao tratamento dependente da duração — mas na EM/SFC o padrão é particularmente marcante..."
 author: "Yannick Loth"
 date: "2026-04-12"
 categories: [Epigenetics, Treatment, Pathophysiology]
 lang: pt
 ---
 
-Pacientes tratados no primeiro ou segundo ano após o início da EM/SFC tendem a ter melhor desempenho do que pacientes tratados cinco ou dez anos depois. Isso não é exclusivo da EM/SFC — muitas condições crónicas apresentam resistência ao tratamento dependente do tempo — mas, na EM/SFC, esse padrão é particularmente marcante. Pacientes com duração prolongada frequentemente mostram resposta mínima a intervenções que produziram melhorias significativas em outros [Cap. 16 §Epigenética Consolidada].
+Pacientes tratados no primeiro ou segundo ano após o início da EM/SFC tendem a ter melhor desempenho do que pacientes tratados cinco ou dez anos depois. Isso não é exclusivo da EM/SFC — muitas condições crónicas apresentam resistência ao tratamento dependente da duração — mas, na EM/SFC, esse padrão é particularmente marcante. Pacientes com duração prolongada frequentemente mostram resposta mínima a intervenções que produziram melhorias significativas em outros [Cap. 16 §Epigenética Consolidada].
 
 Por que isso acontece ainda não foi completamente explicado. O modelo formal da fisiopatologia da EM/SFC oferece uma explicação mecânica específica e uma previsão sobre o período temporal em que a janela de tratamento se fecha [Cap. 33 §Previsão 3: Janela de Intervenção Precoce].
 
@@ -21,7 +21,7 @@ Durante a fase aguda da EM/SFC — nas semanas e meses após o início da doenç
 
 Ao longo de meses a anos, algo diferente acontece. A sinalização inflamatória repetida inscreve estas mudanças na expressão na camada de cromatina: as marcas de metilação do DNA acumulam-se nos promotores de genes que deveriam estar ativos na saúde, as enzimas DNMT (os escritores de metilação) são recrutadas pelo ambiente inflamatório sustentado, e a metilação resultante silencia progressivamente o programa de “retorno à saúde”. A célula já não precisa do sinal em curso. Ela codificou o estado da doença [Cap. 16 §Consolidação Epigenética].
 
-A consolidação segue um caminho exponencial para um estado completamente consolidado, governado pela escala de tempo de consolidação τ_epi. O modelo estima τ_epi em aproximadamente 18–24 meses após o início da doença — derivado de valores estimados da constante de taxa de metilação e da taxa de demetilação passiva [Cap. 33 §Modelo de Consolidação Epigenética, Curva de consolidação da equação].
+A consolidação segue uma aproximação exponencial para um estado completamente consolidado, governado pela escala de tempo de consolidação τ_epi. O modelo estima τ_epi em aproximadamente 18–24 meses após o início da doença — derivado de valores estimados da constante de taxa de metilação e da taxa de demetilação passiva [Cap. 33 §Modelo de Consolidação Epigenética, Curva de consolidação da equação].
 
 ---
 
@@ -39,7 +39,7 @@ A previsão quantitativa é que os pacientes tratados dentro desta janela aprese
 
 ---
 
-## Quais tratamentos a janela se aplica
+## A quais tratamentos a janela se aplica
 
 O mecanismo sugere algo específico sobre quais tipos de tratamento provavelmente se beneficiarão da intervenção precoce.
 
@@ -69,7 +69,7 @@ O diagnóstico de EM/SFC é geralmente atrasado. Estudos indicam que 29% dos pac
 
 Mesmo quando diagnosticado cedo, não existem tratamentos modificadores da doença aprovados para EM/SFC e não há consenso clínico sobre o que a intervenção precoce deve consistir. O caminho acessível ao paciente proposto pelo modelo — suporte anti-inflamatório contínuo combinado com suplementação metabólica — é uma sugestão em fase de pesquisa, e não um protocolo validado.
 
-A janela também pode ser variável. Pacientes com predisposição genética mais forte ou início agudo mais grave podem se recuperar mais rapidamente; a estimativa de 18–24 meses é uma estimativa central do modelo, e não um número uniforme aplicável a todos os pacientes.
+A janela também pode ser variável. Pacientes com predisposição genética mais forte ou início agudo mais grave podem consolidar mais rapidamente; a estimativa de 18–24 meses é uma estimativa central do modelo, e não um número uniforme aplicável a todos os pacientes.
 
 ---
 
@@ -83,7 +83,7 @@ Ainda não foi realizado nenhum desses ensaios com estratificação adequada da 
 
 Uma outra explicação alternativa também merece ser mencionada: a resistência ao tratamento dependente da duração pode refletir mudanças estruturais nos tecidos — neurodegeneração, remodelação vascular ou fibrose — em vez de, ou juntamente com, consolidação epigenética. Ambos os mecanismos prevêem uma diminuição da resposta ao tratamento ao longo do tempo, mas têm implicações diferentes em relação às intervenções que poderiam revertê-la. As estratégias de reversão epigenética não abordariam os danos estruturais, e as intervenções estruturais não abordariam os padrões de metilação. Distinguir essas condições empiricamente exigiria estudos longitudinais de tecidos ou imagemologia juntamente com os ensaios de tratamento.
 
-Confiança: 0.40–0.50. A associação entre duração da doença e resposta ao tratamento é uma observação clínica estabelecida (0.50); o mecanismo epigenético específico e a escala de tempo são a inferência do modelo (0.40); a previsão da taxa de resposta 2–3× é derivada do modelo e aguarda teste empírico.
+Confiança: 0,40–0,50. A associação entre duração da doença e resposta ao tratamento é uma observação clínica estabelecida (0,50); o mecanismo epigenético específico e a escala de tempo são a inferência do modelo (0,40); a previsão da taxa de resposta 2–3× é derivada do modelo e aguarda teste empírico.
 
 ---
 

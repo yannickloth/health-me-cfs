@@ -1,5 +1,5 @@
 ---
-title: "Correr com Fonte Insuficiente: Pacientes com EM/SFC Perdem Até 15% de seu Sangue"
+title: "A Funcionar no Vazio: Pacientes com EM/SFC Perdem Até 15% do seu Sangue"
 description: "O adulto médio tem cerca de 5 litros de sangue. Agora imagine acordar todas as manhãs com 500 a 750 ml a menos — permanentemente. Sem lesão, sem sangramento, sem causa óbvia. Apenas... menos sangue."
 author: "Yannick Loth"
 date: "2026-03-03"
@@ -9,11 +9,11 @@ lang: pt
 
 O adulto médio possui cerca de 5 litros de sangue. Agora imagine acordar todas as manhãs com 500 a 750 ml a menos — permanentemente. Sem lesão, sem sangramento, sem causa óbvia. Apenas... menos sangue.
 
-Essa é a realidade para muitas pessoas com Encefalomielite Miálgica/Síndrome de Fadiga Crónica. E pode ser uma das explicações mais simples para por que estão exaustas.
+Essa é a realidade para muitas pessoas com Encefalomielite Miálgica/Síndrome de Fadiga Crónica (EM/SFC). E pode ser uma das explicações mais simples para por que estão exaustas.
 
 ---
 
-## Quão grandes são os déficits?
+## Quão grandes são os défices?
 
 Os déficits no volume sanguíneo em EM/SFC não são sutis. Foram medidos com técnicas de padrão-ouro — glóbulos vermelhos radiolabelados e diluição de isótopos duplos — em vários estudos independentes:
 
@@ -59,7 +59,7 @@ Além disso, citocinas inflamatórias (IL-6, TNF-alfa) — que estão elevadas n
 
 ---
 
-## Aumentar o volume sanguíneo com um défice de 15%
+## Pôr-se de pé com um défice de 15%
 
 O baixo volume sanguíneo afeta mais intensamente no momento em que o paciente se levanta. Quando se levanta da posição de deitar para a posição ereta, a gravidade puxa cerca de 500-700 ml de sangue para as pernas e o abdômen; uma pessoa saudável compensa isso contraindo os vasos sanguíneos e acelerando a frequência cardíaca. Alguém que já está com 500-750 ml a menos inicia esse esforço compensatório num vazio do qual não pode sair.
 
@@ -69,16 +69,16 @@ O lado oposto é igualmente revelador: muitos pacientes sentem-se significativam
 
 ---
 
-## Gerenciar o déficit — e procurar a causa
+## Gerir o défice — e procurar a causa
 
-Várias abordagens abordam o déficit diretamente, com mecanismos variados:
+Várias abordagens abordam o défice diretamente, com mecanismos variados:
 
-- **Carga de sal e líquidos** (8-10 g de sódio/dia, 2-3 L de líquidos): expande o volume do plasma. Em alguém com volume sanguíneo normal, isso aumentaria a pressão arterial de forma prejudicial. Em pacientes com EM/SFC hipovolemico, corrige parcialmente o déficit.
+- **Carga de sal e líquidos** (8-10 g de sódio/dia, 2-3 L de líquidos): expande o volume do plasma. Em alguém com volume sanguíneo normal, isso aumentaria a pressão arterial de forma prejudicial. Em pacientes com EM/SFC hipovolemico, corrige parcialmente o défice.
 - **Fludrocortisona**: um mineralocorticoide que faz o que o próprio aldosterona do paciente não consegue fazer — orienta os rins a reter sódio e água. Leva 1-2 semanas para ter efeito completo.
 - **Roupas de compressão**: contrapressão mecânica que reduz o acúmulo venoso nas pernas e no abdômen, mantendo mais sangue na circulação central.
 - **Desmopressina**: um análogo da ADH que substitui a hormona antidiurética ausente. Melhorou os sintomas ortostáticos em 50% dos pacientes no estudo de Miwa.
 
-Essas intervenções ajudam — mas são apenas gerenciar o déficit, não corrigir a causa. Então, por que as hormonas reguladoras do volume são suprimidas?
+Essas intervenções ajudam — mas estão apenas a gerir o défice, não a corrigir a causa. Então, por que as hormonas reguladoras do volume são suprimidas?
 
 Uma teoria dominante aponta para autoanticorpos — proteínas imunes que atacam erroneamente os próprios recetores do corpo. Pacientes com EM/SFC mostram autoanticorpos elevados contra recetores acoplados a G proteínas (GPCRs), incluindo recetores de angiotensin II AT1 [@Loebel2016] [@Sotzny2021] [@Bynke2020]. O recetor AT1 é um elo chave na cadeia RAAS: o angiotensin II se liga a ele para desencadear a liberação de aldosterona. Autoanticorpos que interferem com esse recetor explicariam diretamente por que o sistema não corrige o volume sanguíneo baixo — a sinalização chega, mas o recetor não responde normalmente.
 

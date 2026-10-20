@@ -1,6 +1,6 @@
 ---
 title: "O seu PHDA é um problema de energia"
-description: "Este é o primeiro artigo de uma série sobre a biologia da energia que relaciona PHDA, autismo e EM/SFC. As evidências apresentadas aqui são retiradas de um projeto de documentação EM/SFC de acesso aberto (CC-BY 4.0) que integra patofisiologia, matemática formal, etc."
+description: "Este é o primeiro artigo de uma série sobre a biologia da energia que relaciona PHDA, autismo e EM/SFC. As evidências apresentadas aqui são retiradas de um projeto de documentação EM/SFC de acesso aberto (CC-BY 4.0) que integra fisiopatologia, matemática formal..."
 author: "Yannick Loth"
 date: "2026-05-07"
 categories: [ADHD, Neurodivergence, Energy Metabolism]
@@ -19,7 +19,7 @@ O resultado: **8,1% menor metabolismo de glicose cerebral global** em adultos co
 
 *Aviso importante: uma acompanhamento em 1993 pela mesma equipa em adolescentes não replicou o achado global após a correção do tamanho do cérebro, e a literatura de PET subsequente tem sido mista. O sinal de hipometabolismo é real, mas sua interpretação — falha no fornecimento de energia vs. redução da demanda nos circuitos menos ativos — ainda é debatida.*
 
-Sob a perspectiva energética, o cérebro com PHDA está operando sua região mais exigente em energia com um fornecimento reduzido de combustível.
+Sob a perspectiva energética, o cérebro com PHDA está a operar sua região mais exigente em energia com um fornecimento reduzido de combustível.
 
 ---
 
@@ -29,13 +29,13 @@ Uma **revisão sistemática de 2025** combinou 20 estudos de fluxo sanguíneo ce
 
 Na interpretação energética, menos fluxo sanguíneo significa menos oxigênio, menos glicose e menos ATP. Uma interpretação alternativa — que a atividade neural reduzida *causa* a redução do fluxo sanguíneo em vez do contrário — ainda é possível; a direção não está totalmente esclarecida [@Berthier2025cbfadhd].
 
-Metilfenidato — o medicamento mais comum para PHDA — normaliza o fluxo sanguíneo no striado, thalamo e précentral. Ele não corrige a conexão neural. Nesse modelo, restaura o fornecimento de combustível.
+Metilfenidato — o medicamento mais comum para PHDA — normaliza o fluxo sanguíneo no estriado, tálamo e précentral. Ele não corrige a conexão neural. Nesse modelo, restaura o fornecimento de combustível.
 
 ---
 
 ## Falha de energia e neuroinflamação — no mesmo cérebro
 
-Um estudo PET de duplo rastreamento de 2021 imaginou simultaneamente duas coisas em 24 adultos com PHDA sem uso de medicamentos vs 24 controles:
+Um estudo PET de duplo rastreamento de 2021 obteve imagens simultaneamente de duas coisas em 24 adultos com PHDA sem uso de medicamentos vs 24 controles:
 
 1. **Disponibilidade dos recetores de dopamina D1** — reduzida no córtex cingulado anterior, correlacionada com a gravidade da hiperatividade
 2. **Ativação das microglias** — aumentada no córtex pré-frontal dorsolateral e córtex orbitofrontal, correlacionada com a velocidade de processamento e déficits de atenção
@@ -44,7 +44,7 @@ O achado crítico: essas duas medidas foram **positivamente correlacionadas — 
 
 O mesmo cérebro mostra déficit de catecolaminas e ativação imune. No estágio inicial. Antes de qualquer doença.
 
-Isso é importante porque a EM/SFC é caracterizada por um achado duplo semelhante: depleção de catecolaminas + neuroinflamação. O estudo de fenotipagem profunda do NIH documentou redução dos metabólitos de dopamina no líquido cefalorraquidiano em pacientes com EM/SFC [@walitt2024deep]. Sob o modelo de energia, isso sugere que o cérebro com PHDA pode já ocupar um ponto mais leve no mesmo continuum metabólico — embora os biomarcadores compartilhados não provem um mecanismo compartilhado. O mesmo padrão downstream (baixa dopamina + inflamação) pode surgir de causas upstream diferentes.
+Isso é importante porque a EM/SFC é caracterizada por um achado duplo semelhante: depleção de catecolaminas + neuroinflamação. O estudo de fenotipagem profunda do NIH documentou redução dos metabólitos de dopamina no líquido cefalorraquidiano em pacientes com EM/SFC [@walitt2024deep]. Sob o modelo de energia, isso sugere que o cérebro com PHDA pode já ocupar um ponto mais leve no mesmo continuum metabólico — embora os biomarcadores compartilhados não provem um mecanismo compartilhado. O mesmo padrão a jusante (baixa dopamina + inflamação) pode surgir de causas a montante diferentes.
 
 ---
 
@@ -65,9 +65,9 @@ Limites recomendados de ferritina de acordo com as diretrizes de neurodesenvolvi
 ## O gargalo do BH4
 
 A tetrahidrobiopterina (BH4) é o cofator limitante da taxa para:
-- **Tirosinase hidroxilase** → síntese de dopamina e noradrenalina
-- **Triptofan hidroxilase** → síntese de serotonina
-- **Todos os três isoformas de NOS** → síntese de óxido nítrico (regulação do tônus vascular)
+- **tirosina hidroxilase** → síntese de dopamina e noradrenalina
+- **triptofano hidroxilase** → síntese de serotonina
+- **Todas as três isoformas de NOS** → síntese de óxido nítrico (regulação do tônus vascular)
 
 Um défice de um único cofator prejudica simultaneamente três sistemas de neurotransmissores E a regulação do fluxo sanguíneo cerebral [@Williams2025GCH1BH4].
 
@@ -128,7 +128,7 @@ E isso tem implicações muito além da atenção. Sob este modelo, o mesmo sist
 
 Este artigo apresenta UM ponto de vista interpretativo — o enquadramento energético/metabólico. Alternativas-chave que o leitor deve considerar:
 
-1. **Causa vs consequência:** O reduzido metabolismo da glicose pode refletir uma atividade neural reduzida (efeito de configurações diferentes), e não uma oferta insuficiente de energia (causa da disfunção). Nesse caso, a PHDA permanece uma desordem de conectividade de desenvolvimento e os resultados metabólicos são sinais downstream.
+1. **Causa vs consequência:** O reduzido metabolismo da glicose pode refletir uma atividade neural reduzida (efeito de configurações diferentes), e não uma oferta insuficiente de energia (causa da disfunção). Nesse caso, a PHDA permanece uma desordem de conectividade de desenvolvimento e os resultados metabólicos são sinais a jusante.
 2. **Pleiotropia genética:** A PHDA e a EM/SFC podem partilhar variantes de risco genético que produzem ambas as condições de forma independente, sem que uma cause a outra através de um caminho metabólico.
 3. **Inflamação como explicação mais simples:** A inflamação crónica de baixo grau (como mostrado pelo IL-6 nos dados do ALSPAC) pode causar diretamente ambos os traços neurodivergentes e a vulnerabilidade à fadiga, sem necessitar do conceito de “reserva metabólica”.
 

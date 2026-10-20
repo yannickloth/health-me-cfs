@@ -11,10 +11,10 @@ Se o problema é uma escassez de noradrenalina central, uma questão óbvia é s
 
 Os aferentes vagais transportam sinais do corpo para o núcleo do tronco cerebral do tracto solitário, que se projeta para o **locus coeruleus** — o núcleo principal de noradrenalina do cérebro. A estimulação transcutânea auricular do nervo vago (taVNS) aplica um pequeno sinal elétrico à orelha, e as revisões descrevem isso como ativar esta via do locus-coeruleus-noradrenalina (@Hilz2022taVNS). Em ratinhos, a taVNS ativou neurônios produtores de noradrenalina (positivos para tirosina-hidroxilase) no locus coeruleus, e esses neurônios mediaram os efeitos do tratamento (@Lv2024taVNSLC).
 
-**Por que isso é atraente.** Diferentemente dos estimulantes, a taVNS não impulsiona o sistema com um medicamento, é reversível e pode ser controlada por dose. Se funcionar, também é um **protótipo**: uma maneira segura de testar se aumentar a noradrenalina altera algo mensurável.
+**Por que isso é atraente.** Diferentemente dos estimulantes, a taVNS não impulsiona o sistema com um medicamento, é reversível e pode ser controlada por dose. Se funcionar, também é uma **sonda**: uma maneira segura de testar se aumentar a noradrenalina altera algo mensurável.
 
-**Os limites.** A evidência em humanos está no nível de revisão; a evidência mecânica direta está em ratinhos; e os dados específicos para EM/SFC são preliminares. E uma advertência importante permeia toda a série: o déficit subjacente em si não foi replicado.
+**Os limites.** A evidência em humanos está no nível de revisão; a evidência mecanicista direta está em ratinhos; e os dados específicos para EM/SFC são preliminares. E uma advertência importante permeia toda a série: o déficit subjacente em si não foi replicado.
 
-**Como saberíamos.** Um estudo poderia perguntar se a taVNS altera uma leitura não invasiva de noradrenalina — medidas de pupila, resistência ao aperto de mão, razão de urina — e, se o ciclo de eliminação é real, se altera um marcador de eliminação ou inflamação. Se nada mudar, a via sem medicamento provavelmente não terá importância.
+**Como saberíamos.** Um ensaio poderia perguntar se a taVNS altera uma leitura não invasiva de noradrenalina — medidas de pupila, resistência ao aperto de mão, razão de urina — e, se o ciclo de eliminação é real, se altera um marcador de eliminação ou inflamação. Se nada mudar, a via sem medicamento provavelmente não terá importância.
 
 *Não é uma recomendação — uma ideia testável.*

@@ -1,6 +1,6 @@
 ---
 title: "Adquirido vs. Desenvolvimental: Quando as Características Semelhantes ao Autismo Podem Ser Reversíveis"
-description: "Algumas características semelhantes ao autismo — rigidez sensorial, retirada, alexithymia aparente — podem surgir após o desenvolvimento em vez de decorrer dele. Esta seção examina as evidências de que algumas delas são adquiridas e potencialmente reversíveis, e como distingui-las do autismo desenvolvimental."
+description: "Algumas características semelhantes ao autismo — rigidez sensorial, retirada, alexitimia aparente — podem surgir após o desenvolvimento em vez de decorrer dele. Esta seção examina as evidências de que algumas delas são adquiridas e potencialmente reversíveis, e como distingui-las do autismo desenvolvimental."
 author: "Yannick Loth"
 date: "2026-08-22"
 categories: [Neurodivergence, Pathophysiology, Symptoms]
@@ -9,7 +9,7 @@ lang: pt
 
 As partes 1–3 analisaram as causas de desenvolvimento do autismo: um défice de energia, um subgrupo imune e uma diferença na conexão neural. Esta última parte levanta uma questão diferente e clinicamente relevante:
 
-**Quando características semelhantes ao autismo estão presentes, elas são necessariamente presentes desde o início do desenvolvimento — ou algumas podem ser adquiridas e, portanto, reversíveis?**
+**Quando características semelhantes ao autismo estão presentes, elas estão necessariamente presentes desde o início do desenvolvimento — ou algumas podem ser adquiridas e, portanto, reversíveis?**
 
 A resposta é importante porque uma característica *adquirida* pode responder a tratamento da sua causa, enquanto uma característica de conexão neural *de desenvolvimento* geralmente não responderá. Confundir os dois gera tanto esperança falsa quanto oportunidades desperdiçadas.
 
@@ -34,10 +34,10 @@ A rota proposta para características semelhantes ao autismo adquirido passa pel
 
 Normalmente, o cérebro mantém um equilíbrio entre as suas *previsões* sobre o corpo e as *evidências sensoriais* que o corpo envia de volta. Duas formas de falha produzem sintomas externos semelhantes, mas de pontos opostos:
 
-- **ASD de desenvolvimento** é considerada envolver *prévisões excessivamente precisas* — as previsões do cérebro são demasiado rígidas, suprimir as atualizações sensoriais recebidas. O resultado: rigidez perceptual estável, semelhante a traços característicos.
+- **ASD de desenvolvimento** é considerada envolver *prévisões excessivamente precisas* — as previsões do cérebro são demasiado rígidas, suprimindo as atualizações sensoriais recebidas. O resultado: rigidez perceptual estável, semelhante a traços característicos.
 - **Características adquiridas** são consideradas envolver *sinais de nível inferior corrompidos* — o tronco cerebral e as vias thalamocortical falham em transmitir informações precisas sobre o corpo. O cérebro compensa aumentando a precisão das suas previsões para suprimir o ruído.
 
-O resultado fenomenológico pode parecer idêntico: sobrecarga sensorial, dificuldade em interpretar estados internos, aparente alexithymia (incapacidade de nomear as emoções — não por ausência de emoção, mas por incapacidade de ligá-la a um estado corporal específico). Mas o local computacional difere — e assim deve ser a resposta ao tratamento.
+O resultado fenomenológico pode parecer idêntico: sobrecarga sensorial, dificuldade em interpretar estados internos, aparente alexitimia (incapacidade de nomear as emoções — não por ausência de emoção, mas por incapacidade de ligá-la a um estado corporal específico). Mas o local computacional difere — e assim deve ser a resposta ao tratamento.
 
 ---
 
@@ -55,13 +55,13 @@ Em outras palavras: a rigidez desenvolvimental está sempre presente. A rigidez 
 
 Uma rota relacionada é a **neuroinflamação crónica** — ativação sustentada de microglia e astroglia que degrada os circuitos préfrontal, mesolímbico e talamocortical. A proposta é que a neuroinflamação sustentada possa ser *suficiente* para produzir fenótipos semelhantes ao autismo e ao PHDA em pessoas cujo desenvolvimento neurocognitivo antes da doença estava intacto — uma especulação de investigação registada.
 
-Se esta cascata é a causa imediata, então **intervenções direcionadas à neuroinflamação devem reversar parcialmente esses fenótipos secundários** — uma previsão testável e ainda não testada.
+Se esta cascata é a causa imediata, então **intervenções direcionadas à neuroinflamação devem reverter parcialmente esses fenótipos secundários** — uma previsão testável e ainda não testada.
 
 ---
 
 ## Um terceiro mecanismo: interrupção do sono e eliminação de resíduos
 
-Outra via adquirida funciona através do sono. Pessoas neurodivergent apresentam altos índices de interrupção do sono. Se o sono — a principal janela do cérebro para reparação e para a eliminação de resíduos metabólicos (sistema glifático) — for degradado de forma crónica, isso agrava qualquer distúrbio energético ou inflamatório subjacente e pode piorar os sintomas cognitivos e sensoriais ao longo do tempo.
+Outra via adquirida funciona através do sono. Pessoas neurodivergentes apresentam altos índices de interrupção do sono. Se o sono — a principal janela do cérebro para reparação e para a eliminação de resíduos metabólicos (sistema glifático) — for degradado de forma crónica, isso agrava qualquer distúrbio energético ou inflamatório subjacente e pode piorar os sintomas cognitivos e sensoriais ao longo do tempo.
 
 Esta é a teoria mais especulativa, com o menor grau de confiança, e envolve uma longa cadeia de conexões não testadas. Foi incluída para completude, não porque seja bem sustentada.
 
@@ -83,7 +83,7 @@ A razão pela qual essa distinção é importante clinicamente:
 - **Se as características adquiridas forem consideradas “apenas autismo”**, um processo subjacente tratável (inflamação, déficit metabólico, sono perturbado) fica sem tratamento.
 - **Se as características desenvolvimentais forem tratadas como adquiridas e reversíveis**, os pacientes recebem tratamentos que não funcionarão, e podem culpar a si mesmos quando não funcionam.
 
-as características do autismo-like adquiridas devem ser **apoiadas, não patologizadas** — e os fatores modificáveis subjacentes (sono, inflamação, ferro, energia) devem ser abordados independentemente da etiqueta, porque afetam o bem-estar geral mesmo quando o circuito desenvolvimental central permanece inalterado.
+as características semelhantes ao autismo adquiridas devem ser **apoiadas, não patologizadas** — e os fatores modificáveis subjacentes (sono, inflamação, ferro, energia) devem ser abordados independentemente da etiqueta, porque afetam o bem-estar geral mesmo quando o circuito desenvolvimental central permanece inalterado.
 
 ---
 
@@ -97,6 +97,6 @@ esta é uma hipótese de baixa confiança, e o teste decisivo — que mostre que
 
 ---
 
-*Isso encerra a série de quatro partes sobre a biologia do autismo. A Parte 1 analisou o modelo de energia cerebral e a hipótese de tratamento multivias, a Parte 2 o subgrupo mediado por imunidade, a Parte 3 a conexão entre o cerebelro e o glutamato, e a Parte 4 a distinção entre características adquiridas e desenvolvidas.*
+*Isso encerra a série de quatro partes sobre a biologia do autismo. A Parte 1 analisou o modelo de energia cerebral e a hipótese de tratamento multivias, a Parte 2 o subgrupo mediado por imunidade, a Parte 3 a conexão entre o cerebelo e o glutamato, e a Parte 4 a distinção entre características adquiridas e desenvolvidas.*
 
 *Este artigo reflete hipóteses de pesquisa com baixa confiança explícita — não é um facto clínico estabelecido. Discuta qualquer decisão médica com um médico qualificado.*

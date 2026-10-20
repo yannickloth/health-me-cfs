@@ -11,7 +11,7 @@ Você tomou 0,5 mg de naltrexona em doses baixas por três meses. A névoa cereb
 
 “Isso é ótimo”, ela diz. “Vamos tentar 4,5 mg e ver se pode obter ainda mais benefício.”
 
-Você concorda. numa semana, a névoa volta. O mal-estar volta. O que funcionava parou de funcionar — e você não alterou o medicamento, apenas aumentou a dose.
+Você concorda. Numa semana, a névoa volta. O mal-estar volta. O que funcionava parou de funcionar — e você não alterou o medicamento, apenas aumentou a dose.
 
 Esta experiência é tão comum nas comunidades de EM/SFC que ganhou uma explicação popular: *começar baixo e avançar devagar*. A explicação popular está correta. O que ela não diz é *por quê* — e por entender o porquê, tudo muda na forma como você pensa sobre o seu tratamento.
 
@@ -21,21 +21,21 @@ Esta experiência é tão comum nas comunidades de EM/SFC que ganhou uma explica
 
 A explicação padrão para a LDN é que ela bloqueia os recetores TLR4 nas microglias, reduzindo a neuroinflamação. Isso é verificado em modelos de animais e linhas celulares (rodent EAE, microglias BV-2 de ratos); a confirmação em humanos é limitada. Além disso, a LDN não é suficiente. Na verdade, a LDN atinge quatro alvos, e cada alvo tem uma concentração ótima diferente.
 
-**TLR4 → Primerização hormética Nrf2 (0,5–1,5 mg).** Em doses muito baixas, a LDN *parcialmente* bloqueia o TLR4 — e o bloqueio parcial é o ponto chave. A célula detecta a redução da sinalização TLR4 e compensa aumentando a expressão de Nrf2, um fator de transcrição principal que ativa dezenas de genes anti-inflamatórios e antioxidantes. As microglias passam da M1 (pro-inflamatória, liberadora de citocinas) para a M2 (anti-inflamatória, eliminação de detritos). Isso é hormese: o estresse leve do bloqueio parcial dos recetores desencadeia uma resposta adaptativa que é maior do que o próprio bloqueio.
+**TLR4 → Priming hormético de Nrf2 (0,5–1,5 mg).** Em doses muito baixas, a LDN *parcialmente* bloqueia o TLR4 — e o bloqueio parcial é o ponto chave. A célula detecta a redução da sinalização TLR4 e compensa aumentando a expressão de Nrf2, um fator de transcrição principal que ativa dezenas de genes anti-inflamatórios e antioxidantes. As microglias passam da M1 (pro-inflamatória, liberadora de citocinas) para a M2 (anti-inflamatória, eliminação de detritos). Isso é hormese: o estresse leve do bloqueio parcial dos recetores desencadeia uma resposta adaptativa que é maior do que o próprio bloqueio.
 
-Mas esse mecanismo requer algum tono residual de TLR4. Se o TLR4 for bloqueado completamente, a célula não detecta mais o estresse, e a aumentação compensatória de Nrf2 é desligada. O benefício hormético não desaparece — ele colapsa. Aumentar a LDN de 1,5 mg para 3,0 mg pode ser a diferença entre um programa anti-inflamatório ativo e um silencioso.
+Mas esse mecanismo requer algum tono residual de TLR4. Se o TLR4 for bloqueado completamente, a célula não detecta mais o estresse, e o aumento compensatório de Nrf2 é desligado. O benefício hormético não desaparece — ele colapsa. Aumentar a LDN de 1,5 mg para 3,0 mg pode ser a diferença entre um programa anti-inflamatório ativo e um silencioso.
 
-**Aumento compensatório de opioides (1,5–3,0 mg).** A LDN também bloqueia os recetores opioides, e o corpo responde aumentando a produção de opioides endógenos — beta-endorfina e met-enkephalina. Essa compensação é transcriicional: a célula lê a redução da sinalização opioide e escreve instruções para mais precursores de opioides. O limite é definido pela velocidade com que a célula pode produzir esses precursores, não pela dose de LDN tomada.
+**Aumento compensatório de opioides (1,5–3,0 mg).** A LDN também bloqueia os recetores opioides, e o corpo responde aumentando a produção de opioides endógenos — beta-endorfina e met-enkephalina. Essa compensação é transcricional: a célula lê a redução da sinalização opioide e escreve instruções para mais precursores de opioides. O limite é definido pela velocidade com que a célula pode produzir esses precursores, não pela dose de LDN tomada.
 
-**Restauração do canal iônico TRPM3 (dose incerta, provavelmente 3,0–4,5 mg in vivo).** O TRPM3 é um canal de cálcio expresso nas células killer naturais e nos neurônios sensoriais. Sua função é prejudicada na EM/SFC — replicada independentemente em vários laboratórios. A LDN restaura o fluxo de cálcio do TRPM3 in vitro, provavelmente removendo um sinal inibitório mediado por recetor de opioides. A concentração necessária para a restauração do TRPM3 parece ser maior do que a da hormese do TLR4.
+**Restauração do canal iónico TRPM3 (dose incerta, provavelmente 3,0–4,5 mg in vivo).** O TRPM3 é um canal de cálcio expresso nas células assassinas naturais (NK) e nos neurónios sensoriais. Sua função é prejudicada na EM/SFC — replicada independentemente em vários laboratórios. A LDN restaura o fluxo de cálcio do TRPM3 in vitro, provavelmente removendo um sinal inibitório mediado por recetor de opioides. A concentração necessária para a restauração do TRPM3 parece ser maior do que a da hormese do TLR4.
 
-**Desinibilação da orexina (monitora a dose-resposta do TLR4 no tálamo).** A LDN remove um sinal inibitório tonico nos neurônios de orexina, que regulam o estado de vigília e o equilíbrio energético. Isso pode contribuir para a sensação de "excitado" que alguns pacientes relatam em doses mais altas de LDN — o sinal de orexina é desinibulado enquanto o programa anti-inflamatório perde sua eficácia.
+**Desinibição da orexina (monitora a dose-resposta do TLR4 no hipotálamo).** A LDN remove um sinal inibitório tónico nos neurónios de orexina, que regulam o estado de vigília e o equilíbrio energético. Isso pode contribuir para a sensação de "acelerado" que alguns pacientes relatam em doses mais altas de LDN — o sinal de orexina é desinibido enquanto o programa anti-inflamatório perde sua eficácia.
 
 ### A consequência clínica
 
 Esses quatro mecanismos têm ótimas doses não sobrepostas. A "dose correta" varia entre pacientes porque o mecanismo dominante de cada paciente é diferente.
 
-Um paciente cujos sintomas são impulsionados pela neuroinflamação mediada pelo TLR4 beneficia-se com 0,5–1,5 mg e perde esse benefício com 3,0 mg e acima. A médica que aumenta a dose habitual de 1,5 mg para 4,5 mg não encontrou uma "dose eficaz maior" — ela extinguiu o mecanismo que estava funcionando e substituiu por um perfil de medicamento diferente, que o paciente pode ou não precisar.
+Um paciente cujos sintomas são impulsionados pela neuroinflamação mediada pelo TLR4 beneficia-se com 0,5–1,5 mg e perde esse benefício com 3,0 mg e acima. A médica que aumenta a dose habitual de 1,5 mg para 4,5 mg não encontrou uma "dose eficaz maior" — ela extinguiu o mecanismo que estava a funcionar e substituiu por um perfil de medicamento diferente, que o paciente pode ou não precisar.
 
 Um paciente cujos sintomas são causados por uma doença do canal TRPM3 pode não obter nenhum efeito com 0,5 mg, pois a restauração do TRPM3 ainda não atingiu seu efeito. Eles precisam de 3,0–4,5 mg. O médico que os inicia com 0,5 mg e conclui que “a LDN não funciona” pode estar errado — a dose estava simplesmente abaixo do mecanismo de ação.
 
@@ -49,7 +49,7 @@ Esta é a parte que precisa ser declarada explicitamente, pois a lógica intuiti
 
 A dose padrão de naltrexona é de 50 mg. Nessa dose, a naltrexona é um completo antagonista de mu-opioides — ela bloqueia a elevação compensatória de endorfinas que mantém o humor e a regulação da dor. O benefício inverte não porque a curva dose-resposta desceu, mas porque um receptor completamente diferente é ativado. Seleção de alvo dependente da dose: entre 0,5 e 4,5 mg, você modula TLR4, TRPM3 e o tom dos opioides; a 50 mg, você bloqueia completamente os recetores opioides. Nenhum paciente cujo mecanismo terapêutico é a hormese TLR4/Nrf2, a elevação de opioides ou a restauração de TRPM3 beneficia de um bloqueio completo de opioides.
 
-E quanto ao dobrar — digamos, passar de 4,5 para 9 mg? Isso é o pior de ambos os mundos. A hormese TLR4/Nrf2 já é completamente extinta com 3,0 mg. A restauração de TRPM3 está saturada nas concentrações alcançadas com 4,5 mg. A elevação compensatória de opioides atingiu o limite do precursor endógeno. A desinibição de orexina segue a curva dose-resposta de TLR4 e, da mesma forma, é desligada. Não existe um quinto mecanismo com um ótimo de dose acima de 4,5 mg. Dobrar para 9 mg impulsiona todos os quatro mecanismos para além do seu ótimo simultaneamente, aproximando-se da faixa de 50 mg, onde o antagonismo de mu-opioides domina, sem ativar nenhum novo alvo terapêutico. Todos os mecanismos que poderiam ajudar desapareceram, e o mecanismo que causará danos está se aproximando.
+E quanto ao dobrar — digamos, passar de 4,5 para 9 mg? Isso é o pior de ambos os mundos. A hormese TLR4/Nrf2 já é completamente extinta com 3,0 mg. A restauração de TRPM3 está saturada nas concentrações alcançadas com 4,5 mg. A elevação compensatória de opioides atingiu o limite do precursor endógeno. A desinibição de orexina segue a curva dose-resposta de TLR4 e, da mesma forma, é desligada. Não existe um quinto mecanismo com um ótimo de dose acima de 4,5 mg. Dobrar para 9 mg impulsiona todos os quatro mecanismos para além do seu ótimo simultaneamente, aproximando-se da faixa de 50 mg, onde o antagonismo de mu-opioides domina, sem ativar nenhum novo alvo terapêutico. Todos os mecanismos que poderiam ajudar desapareceram, e o mecanismo que causará danos está a aproximar-se.
 
 ---
 
@@ -85,11 +85,11 @@ Não existe um quarto nível. Não há mecanismo terapêutico que atue a 3 mg, m
 
 É aqui que a lógica diagnóstica se transforma em estratégia clínica.
 
-LDN bloqueia o TLR4 nas microglias. A LDA estimula o D2 nas microglias. São receptores diferentes na mesma população celular, convergindo na mesma mecanismo de produção de citocina através de diferentes vias de sinalização.
+LDN bloqueia o TLR4 nas microglias. A LDA estimula o D2 nas microglias. São receptores diferentes na mesma população celular, convergindo no mesmo mecanismo de produção de citocina através de diferentes vias de sinalização.
 
-Um paciente que é um não-resposta completa a LDN ainda pode responder drasticamente à LDA — não porque a LDN foi o erro de julgamento, mas porque o TLR4 não é a entrada limitadora na sua microglia. O agonismo ao D2 suprime a produção de citocina por uma via diferente. A não-resposta à LDN seguida pela resposta à LDA não é evidência contra a neuroinflamação. É evidência *para* o envolvimento das microglias, através de um receptor que a LDN não atinge.
+Um paciente que é um não-respondedor completo à LDN ainda pode responder drasticamente à LDA — não porque a LDN foi o erro de julgamento, mas porque o TLR4 não é a entrada limitadora na sua microglia. O agonismo ao D2 suprime a produção de citocina por uma via diferente. A não-resposta à LDN seguida pela resposta à LDA não é evidência contra a neuroinflamação. É evidência *para* o envolvimento das microglias, através de um receptor que a LDN não atinge.
 
-Um paciente que responde a ambos tem envolvimento de microglias com múltiplos receptores — as vias TLR4 *e* D2 estão contribuindo. O tratamento combinado pode ser sinérgico: a LDN reduz uma entrada pró-inflamatória, enquanto a LDA aumenta o limiar de ativação em todas as entradas simultaneamente.
+Um paciente que responde a ambos tem envolvimento de microglias com múltiplos receptores — as vias TLR4 *e* D2 estão a contribuir. O tratamento combinado pode ser sinérgico: a LDN reduz uma entrada pró-inflamatória, enquanto a LDA aumenta o limiar de ativação em todas as entradas simultaneamente.
 
 ---
 
@@ -97,13 +97,13 @@ Um paciente que responde a ambos tem envolvimento de microglias com múltiplos r
 
 A sabedoria popular — “comece baixo e vá devagar” — acaba ser mecanicamente precisa. Mas esse mecanismo acrescenta algo que a sabedoria popular não tem: **a determinação da dose é um diagnóstico.**
 
-Se você se beneficia com 0,5–1,5 mg de LDN e perde o benefício com 3,0+ mg, seu mecanismo dominante é a hormesis do TLR4/Nrf2. Sua neuroinflamação é impulsionada pelo TLR4 e suas microglia são responsivas ao Nrf2. Isso prevê a resposta a outros medicamentos que ativam o Nrf2 (sulforafano, melatonina, lantano em baixa dose).
+Se você se beneficia com 0,5–1,5 mg de LDN e perde o benefício com 3,0+ mg, seu mecanismo dominante é a hormesis do TLR4/Nrf2. Sua neuroinflamação é impulsionada pelo TLR4 e suas microglia são responsivas ao Nrf2. Isso prevê a resposta a outros medicamentos que ativam o Nrf2 (sulforafano, melatonina, lítio em baixa dose).
 
 Se você se beneficia apenas com 3,0–4,5 mg e não obtém nenhum efeito abaixo disso, seu mecanismo dominante é o TRPM3 ou opioides. Sua patologia está no nível dos canais iônicos, não impulsionada pela inflamação. Medicamentos que reduzem a inflamação sem afetar o TRPM3 podem não ajudar.
 
 Se você se beneficia em todo o intervalo da LDN sem perder o benefício com 4,5 mg, seu mecanismo dominante é a regulação positiva compensatória dos opioides. O benefício não inverte em 4,5 mg porque a regulação positiva dos opioides, ao contrário do TLR4/Nrf2, não requer um tom residual — é impulsionada pela bloqueação dos recetores em si.
 
-Se você perde o benefício da LDA quando passa de 1 mg para 2 mg, sua reserva de recetores D2 é limitada — poucos recetores, e a agonização de cada um é importante. Se o seu benefício persiste até 2 mg, sua reserva de recetores é ampla.
+Se você perde o benefício da LDA quando passa de 1 mg para 2 mg, sua reserva de recetores D2 é limitada — poucos recetores, e o agonismo de cada um é importante. Se o seu benefício persiste até 2 mg, sua reserva de recetores é ampla.
 
 Nenhum desses fatos requer um biomarcador. A curva dose-resposta *é* o indicador.
 
@@ -113,7 +113,7 @@ Nenhum desses fatos requer um biomarcador. A curva dose-resposta *é* o indicado
 
 | Afirmação | Certeza |
 |-------|-----------|
-| A LDN apresenta ótimos níveis de dose não sobrepostos em quatro alvos | Moderada — fundamentada mecanicamente (hormese TLR4/Nrf2, compensação por opioides, restauração do TRPM3, desinibição da orexina, todos documentados independentemente) mas não existe nenhum estudo de dose-resposta dentro do intervalo em nenhum estado |
+| A LDN apresenta ótimos níveis de dose não sobrepostos em quatro alvos | Moderada — fundamentada mecanicamente (hormese TLR4/Nrf2, compensação por opioides, restauração do TRPM3, desinibição da orexina, todos documentados independentemente) mas não existe nenhum estudo de dose-resposta dentro do intervalo em nenhuma condição |
 | O benefício da hormese TLR4/Nrf2 é perdido quando a TLR4 é sobrebloqueada | Moderada — sustentado pela literatura sobre hormese Nrf2 (corpo de Calabrese) e pela dose-dependência microglia M1→M2 in vitro; nunca testado prospectivamente na LDN |
 | A LDA segue um padrão de U invertido parcialmente agonista | Alto — propriedade de ocupação de recetor, não específica para EM/SFC; aplica-se em qualquer população com deficiência de dopamina |
 | A LDA perde a ação terapêutica acima de 2 mg | Moderada — modelos de ocupação de D2 preveem inversão acima de ~50%; o piloto de Crosby de 2021 constatou benefício apenas em ≤2 mg |
@@ -123,6 +123,6 @@ Nenhum desses fatos requer um biomarcador. A curva dose-resposta *é* o indicado
 
 ---
 
-*Esta publicação baseia-se no quadro de hormeseia desenvolvido em [Loth 2026](https://yannickloth.github.io/health-me-cfs/). A análise de dose-resposta da LDN foi desencadeada por uma observação clínica de Kevin Lee (comunicação pessoal, julho de 2026); a expansão para 17 medicamentos foi desencadeada pela observação de Yannick L., que indicou que a mesma lógica aplica-se à LDA e a outros medicamentos de baixa dose. Para a análise completa da cascata mecânica — incluindo a cascata de dose-resposta de múltiplos alvos da LDN, o padrão de diagnóstico de U invertido entre 17 medicamentos e a especificação do estudo HIP-B — consulte o artigo principal.*
+*Esta publicação baseia-se no quadro de hormese desenvolvido em [Loth 2026](https://yannickloth.github.io/health-me-cfs/). A análise de dose-resposta da LDN foi desencadeada por uma observação clínica de Kevin Lee (comunicação pessoal, julho de 2026); a expansão para 17 medicamentos foi desencadeada pela observação de Yannick L., que indicou que a mesma lógica aplica-se à LDA e a outros medicamentos de baixa dose. Para a análise completa da cascata mecânica — incluindo a cascata de dose-resposta de múltiplos alvos da LDN, o padrão de diagnóstico de U invertido entre 17 medicamentos e a especificação do estudo HIP-B — consulte o artigo principal.*
 
 *Início da série de dose-resposta (esta publicação) · [Parte 2: O U invertido não é uma única coisa](../inverted-u-not-one-thing/) · [Parte 3: A sua dose de LDN é um diagnóstico](../dose-is-diagnostic-ldn/) · [Parte 4: A farmacopeia](../pharmacopoeia-dose-meaning/) · [Parte 5: Como realizar um estudo de identificação de dose](../dose-finding-protocols/) · Relacionado: [Rejeite a dose, não o medicamento](../dose-first-search-strategy/)*

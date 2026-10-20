@@ -1,5 +1,5 @@
 ---
-title: "As crianças que mais tarde desenvolveram EM/SFC não dormiam muito. Eles dormiam muito pouco."
+title: "As crianças que mais tarde desenvolveram EM/SFC não dormiam muito. Elas dormiam muito pouco."
 description: "Existe um estereótipo sobre as condições de fadiga: o paciente que dorme o dia todo. O que dorme demais. Aquele que \"apenas precisa se levantar e fazer algo\"."
 author: "Yannick Loth"
 date: "2026-06-05"
@@ -34,7 +34,7 @@ Cada hora extra de sono aos 9 anos reduziu as probabilidades de fadiga crónica 
 
 Cada hora extra aos 11 anos reduziu as probabilidades aos 16 anos em **51%**.
 
-Essas crianças não estavam dormindo demais. Elas não conseguiam dormir bem — anos antes da doença ter um nome.
+Essas crianças não estavam a dormir demais. Elas não conseguiam dormir bem — anos antes da doença ter um nome.
 
 ---
 
@@ -44,11 +44,11 @@ A narrativa do "sono preguiçoso" está completamente invertida. Essas crianças
 
 O que poderia explicar a perturbação do sono que aparece anos antes do colapso energético? Várias possibilidades:
 
-**Desregulação autonómica já presente.** O início do sono requer uma transmissão entre o sistema simpático e o parasimpático. Se o sistema autonómico for subtonalmente disfuncional desde o nascimento ou a primeira infância, essa transmissão falha — causando dificuldade em adormecer, sono mais leve e mais despertares. A criança que "nunca consegue descansar" pode ter disfunção autonómica subclínica, e não maus hábitos.
+**Desregulação autonómica já presente.** O início do sono requer uma transmissão entre o sistema simpático e o parasimpático. Se o sistema autonómico for subtilmente disfuncional desde o nascimento ou a primeira infância, essa transmissão falha — causando dificuldade em adormecer, sono mais leve e mais despertares. A criança que "nunca consegue descansar" pode ter disfunção autonómica subclínica, e não maus hábitos.
 
 **Produção de energia que afeta a arquitetura do sono.** Os estágios de sono profundo são metabolicamente ativos — o cérebro realiza trabalho de reparação, elimina resíduos e consolida memórias. Se a capacidade mitocondrial for ligeiramente reduzida, o cérebro pode não conseguir sustentar o sono profundo normalmente. O resultado: mais tempo na cama, sono menos restaurador e privação de sono parcial crónica acumulada ao longo dos anos.
 
-**O oposto do que se espera.** Uma criança cuja produção de energia é subtonicamente prejudicada não dorme mais — dorme *pior*. O corpo precisa de energia para dormir bem. Quando não consegue produzir o suficiente, o sono se fragmenta.
+**O oposto do que se espera.** Uma criança cuja produção de energia é subtilmente prejudicada não dorme mais — dorme *pior*. O corpo precisa de energia para dormir bem. Quando não consegue produzir o suficiente, o sono se fragmenta.
 
 ---
 
@@ -64,7 +64,7 @@ Também não se aplica a todas as pessoas com EM/SFC. Aproximadamente metade dos
 
 Porque muda a conversa de “por que você dorme tanto?” para “há quanto tempo o seu sono está interrompido?”
 
-Porque sugere que o processo da doença pode estar ocorrendo anos antes de se tornar visível — quando ninguém está observando, e a criança parece “bem” porque está compensando.
+Porque sugere que o processo da doença pode estar ocorrendo anos antes de se tornar visível — quando ninguém está a observar, e a criança parece “bem” porque está a compensar.
 
 E porque destrói o estereótipo da criança que dorme demais com dados prospectivos de quase 14.000 crianças. Não foram lembradas. Não foram relatadas por si mesmas após o diagnóstico. Medidas em tempo real por pesquisadores que não sabiam quais crianças seriam afetadas posteriormente.
 
@@ -78,15 +78,15 @@ Pense no que a privação crónica de sono parcial faz com o corpo em desenvolvi
 
 **A reparação mitocondrial ocorre durante o sono profundo.** As fábricas de energia do cérebro — as mitocôndrias — acumulam danos durante as horas de vigília (espécies reativas de oxigénio, malformação de proteínas, estresse da membrana). O sono de ondas lentas profundo é quando os enzimas de reparação são mais ativos, quando os organelos danificados são eliminados por mitofagia e quando novos componentes mitocondriais são sintetizados. Menos sono profundo = menos reparação = acumulação progressiva de danos mitocondriais.
 
-**A depuração de resíduos glifático requer sono contínuo.** O sistema de eliminação de resíduos do cérebro — a rede glifática — opera principalmente durante o sono, impulsionado por oscilações neurais de ondas lentas que bombeiam o líquido cefalorraquidiano através do tecido cerebral (Xie et al. [@Xie2013glymphatic], 2013, *Science*; Hauglund et al. [@Hauglund2025neVasomotion], 2025, *Cell*). O sono fragmentado com despertares frequentes interrompe este processo. Os resíduos metabólicos que deveriam ser eliminados durante a noite permanecem. A regulação do sono-wake das proteínas de resíduo cerebral está bem documentada (Holth et al. [@Holth2019tauSleep], 2019). Noite após noite, ano após ano.
+**A depuração de resíduos glifático requer sono contínuo.** O sistema de eliminação de resíduos do cérebro — a rede glifática — opera principalmente durante o sono, impulsionado por oscilações neurais de ondas lentas que bombeiam o líquido cefalorraquidiano através do tecido cerebral (Xie et al. [@Xie2013glymphatic], 2013, *Science*; Hauglund et al. [@Hauglund2025neVasomotion], 2025, *Cell*). O sono fragmentado com despertares frequentes interrompe este processo. Os resíduos metabólicos que deveriam ser eliminados durante a noite permanecem. A regulação do sono-vigília das proteínas de resíduo cerebral está bem documentada (Holth et al. [@Holth2019tauSleep], 2019). Noite após noite, ano após ano.
 
 **A privação crónica de sono gera inflamação.** Mesmo uma restrição modesta de sono (6 horas em vez de 8) aumenta os marcadores inflamatórios — IL-6, TNF-α, CRP — em dias — um efeito documentado em estudos controlados de restrição de sono [@Aho2016SleepRestrictionMetabolism]. Em crianças que dormem ligeiramente menos que seus pares durante anos, isso cria um estado inflamatório de baixo grau crónico que prejudica ainda mais a função mitocondrial, criando um ciclo vicioso.
 
-**A analogia de juros compostos.** Cada noite de sono ligeiramente curto e ligeiramente fragmentado significa menos reparação, mais danos oxidativos e mais inflamação. Como os juros compostos sobre dívida, o efeito é invisível no dia a dia, mas devastador ao longo dos anos. Quando uma infeção chega — EBV aos 16 anos, uma gripe grave aos 14 — as reservas metabólicas que deveriam amortecer a resposta imune já foram erodidas silenciosamente por meio de década.
+**A analogia de juros compostos.** Cada noite de sono ligeiramente curto e ligeiramente fragmentado significa menos reparação, mais danos oxidativos e mais inflamação. Como os juros compostos sobre dívida, o efeito é invisível no dia a dia, mas devastador ao longo dos anos. Quando uma infeção chega — EBV aos 16 anos, uma gripe grave aos 14 — as reservas metabólicas que deveriam amortecer a resposta imune já foram erodidas silenciosamente durante meia década.
 
-Os dados do Collin [@Collin2018sleepCFS] podem não nos mostrar um biomarcador para a EM/SFC futura. Pode nos mostrar um dos mecanismos pelo qual ela se desenvolve: anos de sono insuficiente que progressivamente esgotam as reservas de energia, que acabam sendo insuficientes quando um grande estressor fisiológico chega.
+Os dados do Collin [@Collin2018sleepCFS] podem não nos mostrar um biomarcador para a EM/SFC futura. Pode nos mostrar um dos mecanismos pelo qual ela se desenvolve: anos de sono insuficiente que progressivamente esgotam as reservas de energia, que acabam por ser insuficientes quando um grande estressor fisiológico chega.
 
-Isso não significa que o mau sono *causa* a EM/SFC. Muitas crianças dormem mal e nunca desenvolvem a doença. Mas numa criança que já tem capacidade metabólica reduzida (predisposição genética, condição neurodesenvolvimental, distúrbio do tecido conjuntivo), a insuficiência crónica de sono pode ser o fator que acelera o processo — o fator que converte uma vulnerabilidade numa doença, dada tempo e um gatilho.
+Isso não significa que o mau sono *causa* a EM/SFC. Muitas crianças dormem mal e nunca desenvolvem a doença. Mas numa criança que já tem capacidade metabólica reduzida (predisposição genética, condição neurodesenvolvimental, distúrbio do tecido conjuntivo), a insuficiência crónica de sono pode ser o rastilho de combustão lenta — o fator que converte uma vulnerabilidade numa doença, dado tempo e um gatilho.
 
 ---
 

@@ -9,7 +9,7 @@ lang: pt
 
 O autismo não é uma única entidade.
 
-Uma suposição comum é que a condição tenha uma única causa e uma única explicação. Nossa pesquisa aponta para algo mais detalhado: **quatro eixos biológicos distintos** podem estar na base dos sintomas relacionados ao autismo — um déficit de energia cerebral, um subgrupo mediado por imunidade, uma diferença no funcionamento cerebral e características adquiridas que não são relacionadas ao desenvolvimento. Pacientes diferentes provavelmente apresentam combinações diferentes desses eixos, e cada um contribui com uma parte diferente da carga de sintomas diária.
+Uma suposição comum é que a condição tenha uma única causa e uma única explicação. Nossa pesquisa aponta para algo mais detalhado: **quatro eixos biológicos distintos** podem estar na base dos sintomas relacionados ao autismo — um déficit de energia cerebral, um subgrupo mediado por imunidade, uma diferença no funcionamento cerebral e características adquiridas que não estão relacionadas ao desenvolvimento. Pacientes diferentes provavelmente apresentam combinações diferentes desses eixos, e cada um contribui com uma parte diferente da carga de sintomas diária.
 
 Esta série analisa cada eixo de forma simples, e depois faz a pergunta à qual todos convergem: **podem vários caminhos ser tratados ao mesmo tempo para eliminar ou reduzir os sintomas e permitir que o paciente tenha uma vida mais normal?**
 
@@ -19,7 +19,7 @@ Esta série analisa cada eixo de forma simples, e depois faz a pergunta à qual 
 
 Cada artigo desta série distingue claramente duas coisas:
 
-1. **O que sabemos** — descobertas científicas estabelecidas, citadas na literatura revisada por pares (a evidência mitocôndria em autismo [@Frye2024ASDmitochondria], a descoberta de BH4 [@ColpaniFilho2025BH4ASD], a evidência de anticorpos maternos [@Braunschweig2013MATAbs] e o sinal genético glutamatergico no cerebelo [@Maccallini2026metaGWAS]).
+1. **O que sabemos** — descobertas científicas estabelecidas, citadas na literatura revisada por pares (a evidência mitocondrial em autismo [@Frye2024ASDmitochondria], a descoberta de BH4 [@ColpaniFilho2025BH4ASD], a evidência de anticorpos maternos [@Braunschweig2013MATAbs] e o sinal genético glutamatérgico no cerebelo [@Maccallini2026metaGWAS]).
 2. **O que a nossa pesquisa acrescenta** — as hipóteses desenvolvidas pelo nosso projeto de documentação através da leitura entre fronteiras de doenças, e que ainda não estão estabelecidas: o modelo de convergência de energia cerebral, a hipótese de tratamento multivias, o framework do espectro de neuroimunoencefalopatia e a distinção entre adquirido e desenvolvimental.
 
 A distinção é importante porque os dois não representam a mesma confiança. “O que sabemos” são evidências; “o que a nossa pesquisa acrescenta” são hipóteses testáveis. A série os mantém separados para que não sejam confundidos com descobertas.
@@ -39,7 +39,7 @@ A série começa com a abordagem mais desenvolvida: um cérebro que opera com um
 
 Leia o artigo:
 
-1. **[Autismo como um distúrbio de energia cerebral: o que a ciência diz](../autism-brain-energy-disorder/index.qmd)** — o modelo astrócito/GLUT1, as evidências mitocôndria e BH4, os alvos modificáveis, os limites, o experimento decisivo de glucose no CSF, e a hipótese de tratamento multivias.
+1. **[Autismo como um distúrbio de energia cerebral: o que a ciência diz](../autism-brain-energy-disorder/index.qmd)** — o modelo astrócito/GLUT1, as evidências mitocondrial e BH4, os alvos modificáveis, os limites, o experimento decisivo de glicose no líquido cefalorraquidiano, e a hipótese de tratamento multivias.
 
 ---
 
@@ -55,11 +55,11 @@ Leia o artigo:
 
 ## Parte 3: A Conexão Cerebelo-Glutamato
 
-O terceiro aspecto não é um problema de combustível nem um problema imunológico: uma diferença no nível do circuito no cerebelo e nos circuitos glutamatergicos — as vias excitatórias do cérebro. A perda de células Purkinje cerebelares está entre os resultados mais frequentes no autismo, e um sinal genético a liga à sensibilidade sensorial. Este aspecto é explicativo e diagnóstico, mas ainda não é um alvo de tratamento.
+O terceiro aspecto não é um problema de combustível nem um problema imunológico: uma diferença no nível do circuito no cerebelo e nos circuitos glutamatérgicos — as vias excitatórias do cérebro. A perda de células Purkinje cerebelares está entre os resultados mais frequentes no autismo, e um sinal genético a liga à sensibilidade sensorial. Este aspecto é explicativo e diagnóstico, mas ainda não é um alvo de tratamento.
 
 Leia o artigo:
 
-1. **[A Conexão Cerebelo-Glutamato no Autismo: Uma Hipótese de Nível de Circuito](../autism-cerebellar-glutamate/index.qmd)** — as evidências das células Purkinje, o sinal genético glutamatergico, as características comuns, a previsão de sensibilidade sensorial testável e os limites.
+1. **[A Conexão Cerebelo-Glutamato no Autismo: Uma Hipótese de Nível de Circuito](../autism-cerebellar-glutamate/index.qmd)** — as evidências das células Purkinje, o sinal genético glutamatérgico, as características comuns, a previsão de sensibilidade sensorial testável e os limites.
 
 ---
 

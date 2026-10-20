@@ -1,13 +1,13 @@
 ---
 title: "EM/SFC após epidemias: um padrão de noventa anos de 1934 até o COVID"
-description: "Se a onda de EM/SFC pós-COVID parecer algo novo, isso acontece apenas porque as ondas anteriores eram suficientemente pequenas para ser esquecidas. As epidemias virais estão causando EM/SFC desde pelo menos 1934 — ..."
+description: "Se a onda de EM/SFC pós-COVID parecer algo novo, isso acontece apenas porque as ondas anteriores eram suficientemente pequenas para ser esquecidas. As epidemias virais estão a causar EM/SFC desde pelo menos 1934 — ..."
 author: "Yannick Loth"
 date: "2026-03-04"
 categories: [Epidemiology, History]
 lang: pt
 ---
 
-Se a onda pós-COVID da Encefalomielite Miálgica/Síndrome de Fadiga Crónica (EM/SFC) parecer algo novo, isso se deve apenas ao facto de que as ondas anteriores foram suficientemente pequenas para serem esquecidas. As epidemias virais estão causando EM/SFC desde pelo menos 1934 — e a doença que deixou em cada vez foi a mesma que milhões são diagnosticados hoje.
+Se a onda pós-COVID da Encefalomielite Miálgica/Síndrome de Fadiga Crónica (EM/SFC) parecer algo novo, isso se deve apenas ao facto de que as ondas anteriores foram suficientemente pequenas para serem esquecidas. As epidemias virais estão a causar EM/SFC desde pelo menos 1934 — e a doença que deixou em cada vez foi a mesma com que milhões são diagnosticados hoje.
 
 ## Quatro surtos antes da COVID
 
@@ -19,7 +19,7 @@ Em seguida, em 1955, o Hospital Royal Free em Londres viu 292 funcionários adoe
 
 Trinta anos depois, um surto em Incline Village, perto do Lago Tahoe, afetou 259 pacientes. O CDC investigou, encontrou anticorpos elevados do vírus de Epstein-Barr e — numa das decisões de branding mais significativas da história médica — renomeou a doença como “síndrome de fadiga crónica” em 1988. Um nome que a trivializou nos trinta anos seguintes [@Buchwald1992; @Holmes1988].
 
-Quatro surtos ao longo de cinquenta anos, cada um seguindo uma epidemia viraica, cada um produzindo a mesma doença crónica pós-infecciosa. O gatilho mudava a cada vez; a doença não.
+Quatro surtos ao longo de cinquenta anos, cada um seguindo uma epidemia viral, cada um produzindo a mesma doença crónica pós-infecciosa. O gatilho mudava a cada vez; a doença não.
 
 ## A onda da COVID-19
 
@@ -27,13 +27,13 @@ O SARS-CoV-2 criou milhões de novos pacientes com uma doença antiga.
 
 O estudo RECOVER-Adult [@RECOVER2025] descobriu que 4,5% das pessoas infectadas com SARS-CoV-2 desenvolveram EM/SFC que atende aos critérios de diagnóstico formais, em comparação com 0,6% dos controles não infectados — um aumento quase cinco vezes no risco (razão de risco: 4,93). Entre os pacientes classificados como “long COVID”, 51% atendem aos critérios completos de diagnóstico de EM/SFC.
 
-O que isso significa na prática: os Estados Unidos sofreram, sozinhos, de um número estimado de 1,5 milhão de pacientes com EM/SFC antes da pandemia para entre 5 e 9 milhões, e o custo econômico anual aumentou de $36–51 billion to $149–362 bilhões [@Jason2022prevalence].
+O que isso significa na prática: os Estados Unidos passaram, sozinhos, de um número estimado de 1,5 milhão de pacientes com EM/SFC antes da pandemia para entre 5 e 9 milhões, e o custo econômico anual aumentou de $36–51 mil milhões a $149–362 mil milhões [@Jason2022prevalence].
 
-Esse padrão também se aplica fora dos EUA. Na Alemanha, o número de pacientes cresceu de aproximadamente 250.000 para mais de 650.000 até o final de 2024. As estimativas globais pré-pandemia colocavam a população de EM/SFC entre 15 e 30 milhões; a onda pós-COVID quase certamente elevou esse número, embora os números precisos ainda estejam sendo compilados.
+Esse padrão também se aplica fora dos EUA. Na Alemanha, o número de pacientes cresceu de aproximadamente 250.000 para mais de 650.000 até o final de 2024. As estimativas globais pré-pandemia colocavam a população de EM/SFC entre 15 e 30 milhões; a onda pós-COVID quase certamente elevou esse número, embora os números precisos ainda estejam a ser compilados.
 
 ## Décadas de descartamento
 
-Cada onda anterior foi suficientemente pequena para ser descartada. Algumas centenas de pacientes num hospital. Milhares numa cidade islandesa. Algumas centenas perto de um lago no Nevada. Cada vez, o sistema médico investigou brevemente, não conseguiu isolar uma única causa viral e continuou. Os pacientes ficaram sem diagnóstico ou tratamento — e depois de McEvedy e Beard publicarem a sua infame reanálise de 1970 sobre “histeria de massa” dos surtos anteriores [@McEvedy1970], muitos enfrentaram descrença ativa dos seus próprios médicos. A modelação matemática subsequente dos dados dos surtos mostrou que os padrões epidemiológicos se encaçam em modelos de doenças infecciosas, não em modelos psicogênicos [@Underhill2021] — mas já então, o dano à credibilidade do campo estava feito.
+Cada onda anterior foi suficientemente pequena para ser descartada. Algumas centenas de pacientes num hospital. Mil numa cidade islandesa. Algumas centenas perto de um lago no Nevada. Cada vez, o sistema médico investigou brevemente, não conseguiu isolar uma única causa viral e continuou. Os pacientes ficaram sem diagnóstico ou tratamento — e depois de McEvedy e Beard publicarem a sua infame reanálise de 1970 sobre “histeria de massa” dos surtos anteriores [@McEvedy1970], muitos enfrentaram descrença ativa dos seus próprios médicos. A modelação matemática subsequente dos dados dos surtos mostrou que os padrões epidemiológicos se encaçam em modelos de doenças infecciosas, não em modelos psicogênicos [@Underhill2021] — mas já então, o dano à credibilidade do campo estava feito.
 
 A onda de COVID-19 quebrou esse ciclo, por uma razão: escala. Quando milhões de pessoas desenvolvem o mesmo síndrome pós-infecciosa simultaneamente após um vírus rastreado globalmente, torna-se muito difícil chamá-lo de psicossomático. A pandemia fez o que noventa anos de surtos e defesa de pacientes não conseguiram — forçou a medicina a olhar.
 
@@ -41,7 +41,7 @@ O que os pesquisadores descobriram confirmou o que o campo da EM/SFC relatava h�
 
 ## Nova infraestrutura de pesquisa
 
-A pandemia criou uma infraestrutura de pesquisa que não existia antes. Programas de COVID longo como RECOVER e PHOSP-COVID incluíram grupos de comparação de EM/SFC, produzindo dados de alta qualidade sobre ambas as condições. Tratamentos estudados para COVID longo — incluindo naltrexona em doses baixas — estão mostrando promessa para a EM/SFC, e a pesquisa de biomarcadores acelerada pela urgência da crise é diretamente aplicável.
+A pandemia criou uma infraestrutura de pesquisa que não existia antes. Programas de COVID longo como RECOVER e PHOSP-COVID incluíram grupos de comparação de EM/SFC, produzindo dados de alta qualidade sobre ambas as condições. Tratamentos estudados para COVID longo — incluindo naltrexona em doses baixas — estão a mostrar promessa para a EM/SFC, e a pesquisa de biomarcadores acelerada pela urgência da crise é diretamente aplicável.
 
 A mudança na percepção pública é tão importante. Quando o seu colega, o seu vizinho ou o seu membro da família desenvolve uma doença crónica pós-infecciosa após o COVID, torna-se mais difícil descartar a pessoa que desenvolveu a mesma doença após mononucleose em 2015 — ou após uma gripe em 1987. Para milhões de pacientes com EM/SFC, o COVID longo fez algo que décadas de defesa não conseguiram: tornou a sua doença visível.
 

@@ -1,6 +1,6 @@
 ---
-title: "Artigo 2 sobre SFN: Tratamento da Neuropatia de Fibra Pequena na EM/SFC — Medicamentos para a Dor, IVIG, Estabilizadores de Células Mastoide e o Que Significa Quando a Dor Não Parar"
-description: "Guia em linguagem simples para o tratamento da neuropatia de fibra pequena em EM/SFC — a escala de tratamento da dor neuropática, desde gabapentinoides e SNRIs até lidocaína tópica e capsaicina, IVIG para SFN autoimune, ácido alfa-lipóico e suporte metabólico, estabilizadores de células mast que interrompem o ciclo tryptase→PAR2, resultados esperados e a discussão sobre “e se nada ajudar”."
+title: "Artigo 2 sobre SFN: Tratamento da Neuropatia de Fibra Pequena na EM/SFC — Medicamentos para a Dor, IVIG, Estabilizadores de Mastócitos e o Que Significa Quando a Dor Não Parar"
+description: "Guia em linguagem simples para o tratamento da neuropatia de fibra pequena em EM/SFC — a escala de tratamento da dor neuropática, desde gabapentinoides e SNRIs até lidocaína tópica e capsaicina, IVIG para SFN autoimune, ácido alfa-lipóico e suporte metabólico, estabilizadores de mastócitos que interrompem o ciclo tryptase→PAR2, resultados esperados e a discussão sobre “e se nada ajudar”."
 author: "Yannick Loth"
 date: "2026-08-07"
 categories: [Treatment, SFN, Neuropathy, ME/CFS, Pain]
@@ -45,11 +45,11 @@ Este artigo explica a arquitetura do tratamento. Para o contexto conceitual — 
 
 ### Quarto passo: IVIG — para o subgrupo autoimune-SFN
 
-Se o SFN é mediado por IgG — e as evidências de transferência passiva da fibromialgia e Long COVID, o padrão não dependente de comprimento e a hipótese de nível DRG apontam para um mecanismo autoimune numa subgrupo — então o IVIG é o tratamento mais direto do ponto de vista mecânico. O IVIG em 0,4 g/kg diariamente por 5 dias, depois mensalmente, foi utilizado para SFN autoimune em outras condições (Sjögren, sarcoidose) e mostrou um sinal no subtipo não dependente de comprimento da EM/SFC [@Loth2026website].
+Se o SFN é mediado por IgG — e as evidências de transferência passiva da fibromialgia e Long COVID, o padrão não dependente de comprimento e a hipótese de nível DRG apontam para um mecanismo autoimune num subgrupo — então o IVIG é o tratamento mais direto do ponto de vista mecânico. O IVIG em 0,4 g/kg diariamente por 5 dias, depois mensalmente, foi utilizado para SFN autoimune em outras condições (Sjögren, sarcoidose) e mostrou um sinal no subtipo não dependente de comprimento da EM/SFC [@Loth2026website].
 
-**O que prediz resposta.** Padrão não dependente de comprimento em biopsia de pele (proximal = envolvimento distal), disfunção autônoma documentada (QSART anormal), e — onde disponível — evidência de autoanticorpos neuronais ou IgG que se liga ao DRG. O padrão dependente de comprimento (stocking-glove, pés pior que coxas) é menos provável ser autoimune e mais provável ser metabólico ou isquêmico.
+**O que prediz resposta.** Padrão não dependente de comprimento em biopsia de pele (proximal = envolvimento distal), disfunção autônoma documentada (QSART anormal), e — onde disponível — evidência de autoanticorpos neuronais ou IgG que se liga ao DRG. O padrão dependente de comprimento (em meia e luva, pés pior que coxas) é menos provável ser autoimune e mais provável ser metabólico ou isquêmico.
 
-**Considerações práticas.** O IVIG é caro (geralmente vários milhares de dólares por ciclo de infusão), frequentemente sujeito a autorização prévia da segurança de seguro e — sendo off-label para SFN/EM/SFC — normalmente recusado, portanto o acesso é um verdadeiro obstáculo prático na maioria dos sistemas. Também requer acesso a centro de infusão (um fardo físico em EM/SFC moderado a grave) e apresenta riscos — meningite assética (dor de cabeça grave 24–48 horas após a infusão), tromboembolismo e anafilaxia rara. O exame de segurança padrão antes do IVIG — IgA sérico (para excluir deficiência de IgA, onde o risco de anafilaxia é maior), função renal e avaliação de risco tromboembolico — deve ser feito antes de iniciar, e é discutido no [artigo de tratamento autoimune](../../autoimmune/autoimmunity-treatment/index.qmd). Não é um tratamento de primeira linha. É uma opção racional do ponto de vista mecânico para o paciente com perfil autoimune confirmado por biopsia, não dependente de comprimento e que falhou com medicamentos orais — e requer um neurologista familiarizado com a indicação off-label.
+**Considerações práticas.** O IVIG é caro (geralmente vários milhares de dólares por ciclo de infusão), frequentemente sujeito a autorização prévia da segurança de seguro e — sendo de uso fora da indicação para SFN/EM/SFC — normalmente recusado, portanto o acesso é um verdadeiro obstáculo prático na maioria dos sistemas. Também requer acesso a centro de infusão (um fardo físico em EM/SFC moderado a grave) e apresenta riscos — meningite assética (dor de cabeça grave 24–48 horas após a infusão), tromboembolismo e anafilaxia rara. O exame de segurança padrão antes do IVIG — IgA sérico (para excluir deficiência de IgA, onde o risco de anafilaxia é maior), função renal e avaliação de risco tromboembólico — deve ser feito antes de iniciar, e é discutido no [artigo de tratamento autoimune](../../autoimmune/autoimmunity-treatment/index.qmd). Não é um tratamento de primeira linha. É uma opção racional do ponto de vista mecânico para o paciente com perfil autoimune confirmado por biopsia, não dependente de comprimento e que falhou com medicamentos orais — e requer um neurologista familiarizado com o uso fora da indicação.
 
 ### Passo cinco: estabilizadores de mastócitos — interrompendo o ciclo tryptase→PAR2
 
@@ -65,7 +65,7 @@ A justificativa é de origem upstream: em vez de bloquear o sinal de dor após a
 
 *Este é um exemplo para fornecer ao seu médico algo com o qual trabalhar — não é uma auto-prescrição.*
 
-Confirme o diagnóstico de SFN com uma biopsia de pele (PGP9.5 IENFD). Note o padrão — não dependente de comprimento (perfil autoimune) vs dependente de comprimento (perfil metabólico/ischemico). Isso orienta a sequência de tratamento.
+Confirme o diagnóstico de SFN com uma biopsia de pele (PGP9,5 IENFD). Note o padrão — não dependente de comprimento (perfil autoimune) vs dependente de comprimento (perfil metabólico/isquémico). Isso orienta a sequência de tratamento.
 
 Comece com a opção de menor risco: placa de lidocaína 5% na área mais dolorosa, 12 horas de uso / 12 horas de descanso. Reavaliar após 2 semanas. Se a dor localizada melhora, continue — há um componente periférico, mediado por canais de sódio.
 
@@ -81,11 +81,11 @@ Adicione apenas uma intervenção de cada vez. O uso de múltiplos medicamentos 
 
 ## Resultados esperados
 
-- **Os tratamentos tópicos funcionam rapidamente ou não funcionam nada.** A lidocaína proporciona alívio em poucas horas; o capsaicina leva semanas. Se nenhum dos dois ajudar após um período adequado (lidocaína 2 semanas, capsaicina 4–6 semanas), a dor pode não ser mantida na pele — pode ser central ou no nível DRG.
-- **Os gabapentínicos e SNRIs exigem titulação da dose ao longo de semanas ou meses.** A dose eficaz para a dor no SFN é frequentemente maior do que a dose inicial, e o efeito colateral de sedação no início não prevê o sedação no estado estável. Uma dose que é interrompida após 3 dias devido à sonolência nunca foi submetida a um período de teste adequado.
+- **Os tratamentos tópicos funcionam rapidamente ou não funcionam nada.** A lidocaína proporciona alívio em poucas horas; a capsaicina leva semanas. Se nenhum dos dois ajudar após um período adequado (lidocaína 2 semanas, capsaicina 4–6 semanas), a dor pode não ser mantida na pele — pode ser central ou no nível DRG.
+- **Os gabapentínicos e SNRIs exigem titulação da dose ao longo de semanas ou meses.** A dose eficaz para a dor no SFN é frequentemente maior do que a dose inicial, e o efeito colateral de sedação no início não prevê a sedação no estado estável. Uma dose que é interrompida após 3 dias devido à sonolência nunca foi submetida a um período de teste adequado.
 - **A resposta com IVIG pode levar 3–6 meses.** A dose de carga de 5 dias é seguida por infusões mensais; a melhoria é gradual. Um único ciclo não é um período de teste adequado.
-- **Os estabilizadores de células mastoide, se ajudarem, ajudam indiretamente.** Eles não tratam o SFN — eles eliminam a entrada inflamatória que mantém o SFN ativo. Se o dano das pequenas fibras já é estrutural (fibras perdidas, não apenas sensibilizadas), os estabilizadores podem reduzir a dor sem restaurar a densidade das fibras.
-- **A combinação é frequentemente necessária.** Adesivos de lidocaína tópica na área mais dolorosa + baixa dose de gabapentina ou duloxetina para a dor de fundo + estabilizadores de células mastoide se MCAS estiver presente é uma abordagem multi-alvo comum e mecanicamente racional.
+- **Os estabilizadores de mastócitos, se ajudarem, ajudam indiretamente.** Eles não tratam o SFN — eles eliminam a entrada inflamatória que mantém o SFN ativo. Se o dano das pequenas fibras já é estrutural (fibras perdidas, não apenas sensibilizadas), os estabilizadores podem reduzir a dor sem restaurar a densidade das fibras.
+- **A combinação é frequentemente necessária.** Adesivos de lidocaína tópica na área mais dolorosa + baixa dose de gabapentina ou duloxetina para a dor de fundo + estabilizadores de mastócitos se MCAS estiver presente é uma abordagem multi-alvo comum e mecanicamente racional.
 
 ---
 
@@ -95,7 +95,7 @@ Adicione apenas uma intervenção de cada vez. O uso de múltiplos medicamentos 
 
 **Dois: a sedação pode impedir o alcance de uma dose eficaz.** A dose máxima tolerada de gabapentina em EM/SFC pode estar abaixo da dose eficaz para a dor neuropática. Este é um problema de acesso ao tratamento, não uma prova de que a dor não é neuropática.
 
-**Três: o SFN dependente da duração (stocking-glove) é menos propício a responder ao IVIG.** Se o padrão for distal-to-proximal, o mecanismo é mais provavelmente metabólico ou isquémico do que autoimune. O IVIG neste grupo tem um rendimento esperado mais baixo.
+**Três: o SFN dependente do comprimento (em meia e luva) é menos propício a responder ao IVIG.** Se o padrão for distal-to-proximal, o mecanismo é mais provavelmente metabólico ou isquémico do que autoimune. O IVIG neste grupo tem um rendimento esperado mais baixo.
 
 **Quatro: a sensibilização central pode dominar.** Se a QST mostrar uma função de pequenas fibras normal, mas um aumento na somativa temporal (o sinal de dor se amplifica no cordão espinhal), o mecanismo dominante pode ser central, não periférico, e o alvo do tratamento muda para antagonistas de NMDA (memantina, ketamina em baixa dose) e LDN — [abordado no artigo sobre fibromialgia e dor](../../pain/fibromyalgia-pain-treatment/index.qmd).
 
@@ -105,7 +105,7 @@ Adicione apenas uma intervenção de cada vez. O uso de múltiplos medicamentos 
 
 ## Previsões falsificáveis
 
-- **Se pacientes com EM/SFC e SFN positivo respondem de forma diferente ao IVIG em comparação com pacientes com SFN negativo**, a subgrupo autoimune-SFN constitui uma distinção terapêuticamente significativa [@Loth2026website].
+- **Se pacientes com EM/SFC e SFN positivo respondem de forma diferente ao IVIG em comparação com pacientes com SFN negativo**, o subgrupo autoimune-SFN constitui uma distinção terapêuticamente significativa [@Loth2026website].
 - **Se estabilizadores de mastócitos reduzam a hipersensibilidade de pequenas fibras avaliada pelo QST em pacientes com SFN e MCAS positivo**, o mecanismo tryptase→PAR2 é clinicamente relevante e alvo de tratamento.
 - **Se a microscopia confocal corneal detete a perda de pequenas fibras que está correlacionada com a gravidade dos sintomas autonômicos, mas não é refletida na biopsia da pele**, a distinção visceral-vs-somática é clinicamente operacional — e a CCM deve ser adicionada ao kit de diagnóstico.
 - **Se o padrão não dependente do comprimento prevê uma resposta ao IVIG melhor do que o total IENFD**, o mecanismo autoimune DRG é sustentado e o padrão deve orientar a triagem do tratamento.
@@ -114,7 +114,7 @@ Adicione apenas uma intervenção de cada vez. O uso de múltiplos medicamentos 
 
 ## O que você pode fazer de facto
 
-- **Realizar a biópsia se a dor neuropática for um sintoma dominante.** Uma biópsia de punção de pele de 3 mm (imunostilação PGP9.5) é o padrão-ouro. É objetiva, distingue o SFN da sensibilização central e orienta a triagem do tratamento (não dependente do comprimento → exame autoimune → consideração de IVIG).
+- **Realizar a biópsia se a dor neuropática for um sintoma dominante.** Uma biópsia de punção de pele de 3 mm (imunostilação PGP9,5) é o padrão-ouro. É objetiva, distingue o SFN da sensibilização central e orienta a triagem do tratamento (não dependente do comprimento → exame autoimune → consideração de IVIG).
 - **Começar com produtos tópicos.** Adesões de lidocaína 5% e creme de capsaicina não têm efeitos colaterais sistêmicos e não causam impacto cognitivo — uma vantagem significativa em EM/SFC.
 - **Para medicamentos orais, começar em baixa dose, avançar lentamente e estabelecer uma regra de parada.** Gabapentina 100 mg antes de dormir, reavaliar após 4 semanas. Se a sedação impede alcançar uma dose eficaz, interromper e tentar um SNRI. Um medicamento que nunca foi ajustado para uma dose eficaz nunca foi submetido a um teste justo; um medicamento que causa efeitos colaterais insuportáveis antes de atingir a eficácia deve ser interrompido — ambos são resultados válidos.
 - **Verificar os níveis de B12, folato e B6 antes de complementar.** Corrigir deficiências. Não complementar B6 em alta dose se os níveis são normais — a toxicidade de B6 causa SFN.

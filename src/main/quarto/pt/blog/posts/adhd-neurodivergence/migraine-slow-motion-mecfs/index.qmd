@@ -1,6 +1,6 @@
 ---
 title: "Enxaqueca como EM/SFC em Câmara Lenta: Erosão Acumulada da Reserva Metabólica"
-description: "Este é o sétimo e último artigo de uma série sobre a biologia energética que relaciona PHDA, autismo e EM/SFC. Este artigo analisa a enxaqueca — não como uma condição de dor, mas como uma doença de depleção mitocondrial progressiva que erosão lentamente o metabolismo..."
+description: "Este é o sétimo e último artigo de uma série sobre a biologia energética que relaciona PHDA, autismo e EM/SFC. Este artigo analisa a enxaqueca — não como uma condição de dor, mas como uma doença de depleção mitocondrial progressiva que erode lentamente o metabolismo..."
 author: "Yannick Loth"
 date: "2026-06-03"
 categories: [Migraine, Neurodivergence, Energy Metabolism]
@@ -28,27 +28,27 @@ O risco aumenta com a idade. Aumenta com a frequência. Acumula-se.
 
 ## O que acontece durante uma enxaqueca
 
-Cada enxaqueca começa com **depressão de propagação cortical (CSD)** — uma onda de depolarização neural intensa que percorre a superfície do cérebro a 2–5 mm/minuto. Durante a CSD:
+Cada enxaqueca começa com **depressão de propagação cortical (CSD)** — uma onda de despolarização neural intensa que percorre a superfície do cérebro a 2–5 mm/minuto. Durante a CSD:
 
-- Ocorre um fluxo massivo de íons (potássio sai das células, sódio e cálcio entram)
-- Neurônios se depolarizam completamente e disparam simultaneamente
-- **O consumo de ATP sobe** para restaurar os gradientes de íons através da Na⁺/K⁺-ATPase
+- Ocorre um fluxo massivo de iões (potássio sai das células, sódio e cálcio entram)
+- Neurónios se despolarizam completamente e disparam simultaneamente
+- **O consumo de ATP sobe** para restaurar os gradientes de iões através da Na⁺/K⁺-ATPase
 - O córtex fica silencioso eletricamente no período posterior à onda — porque cada neurônio esgotou suas reservas de energia
 
-A CSD é um dos eventos mais energeticos na neurobiologia. A recuperação — restaurar os gradientes de íons, reconstruir os estoques de ATP e reparar os danos oxidativos — requer horas de trabalho mitocondrial.
+A CSD é um dos eventos mais exigentes em energia na neurobiologia. A recuperação — restaurar os gradientes de iões, reconstruir os estoques de ATP e reparar os danos oxidativos — requer horas de trabalho mitocondrial.
 
 ---
 
 ## O déficit crónico entre ataques
 
-Os pacientes com enxaqueca não estão metabolicamente normais entre ataques. Várias linhas de evidência mostram **impairment crónico das mitocôndrias** mesmo no período interictal [@Wang2023migraineMito]:
+Os pacientes com enxaqueca não estão metabolicamente normais entre ataques. Várias linhas de evidência mostram **comprometimento crónico das mitocôndrias** mesmo no período interictal [@Wang2023migraineMito]:
 
 - **Lactato elevado no sangue** (indicando compensação por glicólise anaeróbica)
 - **NAA mais baixo** na espectroscopia de ressonância magnética (um marcador da capacidade de energia neuronal e da função mitocondrial)
 - **Diminuição das atividades de:**
   - NADH desidrogenase (Complexo I)
   - Citrato sintase (enzima de entrada no ciclo de Krebs)
-  - Oxidase de citocromo c (Complexo IV — o acepador terminal de eletrões)
+  - Oxidase de citocromo c (Complexo IV — o aceitador terminal de eletrões)
 - **Desregulação do cálcio** que gera danos oxidativos feed-forward
 
 Entre ataques de enxaqueca, o cérebro não está “normal”. Ele opera com capacidade mitocondrial reduzida. Sob o modelo de depleção cumulativa, cada ataque esgota as reservas e cada recuperação é ligeiramente incompleta.
@@ -57,31 +57,31 @@ Entre ataques de enxaqueca, o cérebro não está “normal”. Ele opera com ca
 
 ## O modelo de esgotamento cumulativo
 
-É aqui que a enxaqueca se diferencia do PHDA como reduzora da reserva metabólica. O PHDA e o TDAH representam déficits de base **estáticos** — o gerador foi construído de tamanho menor. A enxaqueca representa uma erosão **progressiva** — o gerador era de tamanho normal, mas é danificado ao longo do tempo.
+É aqui que a enxaqueca se diferencia do PHDA e do autismo como redutora da reserva metabólica. O PHDA e o autismo representam déficits de base **estáticos** — o gerador foi construído de tamanho menor. A enxaqueca representa uma erosão **progressiva** — o gerador era de tamanho normal, mas é danificado ao longo do tempo.
 
 Cada evento de depressão de propagação cortical:
 
 1. Cria uma demanda massiva e transitória de ATP
 2. Gera espécies reativas de oxigénio durante a fase de recuperação
-3. Danifica oxidativamente as membranas mitocôndria e o mtDNA
-4. Requer reparação mitocôndria e biogénese para recuperação completa
-5. num cérebro cujas mitocôndria já estão prejudicadas, a recuperação completa pode não ocorrer
+3. Danifica oxidativamente as membranas mitocondriais e o mtDNA
+4. Requer reparação mitocondrial e biogénese para recuperação completa
+5. Num cérebro cujas mitocôndrias já estão prejudicadas, a recuperação completa pode não ocorrer
 
 O resultado: um **efeito ratchet**. Cada episódio de CSD esgota e danifica. A recuperação é incompleta. A capacidade de base diminui ligeiramente. O próximo episódio começa de um nível mais baixo.
 
-Mais de 10 anos de enxaqueca episódica: centenas de eventos de CSD. Mais de 30 anos: milhares. O efeito cumulativo é medível nos marcadores metabólicos interictais mencionados acima.
+Mais de 10 anos de enxaqueca episódica: centenas de eventos de CSD. Mais de 30 anos: milhares. O efeito cumulativo é mensurável nos marcadores metabólicos interictais mencionados acima.
 
 ---
 
 ## Por que o risco aumenta com a idade
 
-A descoberta de Lau et al., de que o risco de ME/CFS é **2,11× na idade ≥65** (vs 1,5× em geral), faz sentido imediato neste modelo:
+A descoberta de Lau et al., de que o risco de EM/SFC é **2,11× na idade ≥65** (vs 1,5× em geral), faz sentido imediato neste modelo:
 
 - Um jovem de 25 anos com 10 anos de enxaqueca episódica experimentou talvez 100–500 eventos de CSD (estimativa aproximada baseada na frequência dos ataques)
-- Um idoso de 65 anos com 50 anos de enxaqueca experimentou talvez 1,000–5,000 eventos de CSD (mesma lógica, período de tempo mais longo)
+- Um idoso de 65 anos com 50 anos de enxaqueca experimentou talvez 1.000–5.000 eventos de CSD (mesma lógica, período de tempo mais longo)
 - Mais eventos = mais dano acumulado = reserva restante menor = limiar de descompensação menor
 
-O envelhecimento normal também reduz a função mitocôndria (queda na atividade do complexo I, acúmulo de mutações em mtDNA, redução da mitofagia). A enxaqueca acelera esse processo. As curvas convergem em idades mais avançadas.
+O envelhecimento normal também reduz a função mitocondrial (queda na atividade do complexo I, acúmulo de mutações em mtDNA, redução da mitofagia). A enxaqueca acelera esse processo. As curvas convergem em idades mais avançadas.
 
 ---
 
@@ -141,11 +141,11 @@ O quadro gera prioridades claras para a investigação:
 
 1. Medir a reserva metabólica pré-doença em populações de risco
 2. Acompanhar os resultados pós-infecciosos estratificados por marcadores de reserva
-3. Testar se a correção de reduzidores de reserva modificáveis (ferroso, BH4, perfusão cerebral) previne ou melhora o EM/SFC
+3. Testar se a correção de redutores de reserva modificáveis (ferro, BH4, perfusão cerebral) previne EM/SFC ou melhora os resultados
 
 Estes estudos ainda não foram realizados. Mas, pela primeira vez, a hipótese é suficientemente clara para ser testada.
 
-**O que refutaria este modelo?** Se os marcadores de reserva metabólica pré-doença (ferritina, BH4, perfusão cerebral) NÃO previrem o risco de EM/SFC pós-infecciosos após o controle dos marcadores inflamatórios, a hipótese da reserva metabólica seria falsificada em favor de um modelo de inflamação mais simples. Se a correção dos déficits modificáveis (ferroso, BH4, perfusão) em populações de risco não tiver efeito na incidência de EM/SFC, o quadro perderia a sua utilidade clínica. O modelo faz previsões específicas e testáveis — e pode falhar.
+**O que refutaria este modelo?** Se os marcadores de reserva metabólica pré-doença (ferritina, BH4, perfusão cerebral) NÃO preverem o risco de EM/SFC pós-infeccioso após o controlo dos marcadores inflamatórios, a hipótese da reserva metabólica seria falsificada em favor de um modelo de inflamação mais simples. Se a correção dos déficits modificáveis (ferro, BH4, perfusão) em populações de risco não tiver efeito na incidência de EM/SFC, o quadro perderia a sua utilidade clínica. O modelo faz previsões específicas e testáveis — e pode falhar.
 
 ---
 

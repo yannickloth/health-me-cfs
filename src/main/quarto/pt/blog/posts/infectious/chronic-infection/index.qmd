@@ -7,7 +7,7 @@ categories: [Chronic Infection, EBV, HHV-6, ME/CFS, Pathophysiology]
 lang: pt
 ---
 
-A glândula no pescoço tem estado ativa desde que você "recuperou" da mononucleose há alguns anos. Você tem exacerbações quando está estressado — a dor de garganta volta, os gânglios linfáticos doem, a fadiga aumenta — e lhe é dito que é "infecção passada". Os testes de anticorpos mostram altos títulos de EBV e HHV-6, mas o especialista em doenças infecciosas diz que isso significa apenas que você foi exposto, não que o vírus esteja ativo. Algo ainda está interagindo com o seu sistema imunitário.
+A glândula no pescoço tem estado ativa desde que você "recuperou" da mononucleose há alguns anos. Você tem exacerbações quando está estressado — a dor de garganta volta, os gânglios linfáticos doem, a fadiga aumenta — e lhe é dito que é "infecção passada". Os testes de anticorpos mostram altos títulos de EBV e HHV-6, mas o especialista em doenças infecciosas diz que isso significa apenas que você foi exposto, não que o vírus esteja ativo. Algo ainda está a interagir com o seu sistema imunitário.
 
 Agora adicione o resto da EM/SFC: a PEM, o sono não revigorante, a névoa cerebral. Cerca de 70% dos casos de EM/SFC seguem uma infecção aguda — mononucleose por EBV, roseola por HHV-6, Borrelia transmitida por carrapatos, enterovírus, SARS-CoV-2 — e a questão que tem assombrado o campo há décadas é se o patógeno ainda está lá, ainda causando a doença, ou se ele acendeu um incêndio e se afastou. O precedente mais forte é a coorte de Dubbo, onde uma parte significativa de pessoas com infecções por EBV, vírus Ross River ou febre Q desenvolveu uma síndrome de fadiga pós-infecciosa [@Hickie2006postinfectious].
 
@@ -24,9 +24,9 @@ Este artigo é uma visão conceitual. O que EBV, HHV-6 e patógenos transmitidos
 ## A versão curta, se você ler apenas uma parte
 
 - **Uma grande parte dos casos de EM/SFC segue uma infeção aguda** (geralmente citada em torno de 70%, embora a proporção exata seja discutida e retrospectiva), e os quatro principais são EBV/mononucleose, HHV-6 (roseola → neurotrópico, integrado aos cromossomos), Borrelia transmitida por carrapatos (Lyme) e SARS-CoV-2 — cada um dos quais está documentado para preceder um subgrupo de casos de EM/SFC e fadiga pós-infeciosa.
-- **O enigma central é a replicação lítica abortiva (ALR).** O vírus entra no ciclo lítico — expressando proteínas imunostimuladoras — mas para de produzir virion. Não há carga viral mensurável no sangue, mas as proteínas virais (dUTPases, genes imediatos) ainda estão sendo produzidas, e o sistema imunitário ainda as reconhece. Isso explica por que os títulos de anticorpos são altos, mas o PCR é negativo [@Cox2022dUTPaseMECFS].
+- **O enigma central é a replicação lítica abortiva (ALR).** O vírus entra no ciclo lítico — expressando proteínas imunostimuladoras — mas para de produzir vírions. Não há carga viral mensurável no sangue, mas as proteínas virais (dUTPases, genes imediatos) ainda estão a ser produzidas, e o sistema imunitário ainda as reconhece. Isso explica por que os títulos de anticorpos são altos, mas o PCR é negativo [@Cox2022dUTPaseMECFS].
 - **EBV ativa diretamente os mastócitos.** A proteína recombinante de EBV adicionada aos mastócitos humanos aumentou a liberação de MMP-9 quase seis vezes (2.464 vs 433 pg/ml) — e a MMP-9 degrada a barreira hematoencefálica, permitindo que os mediadores inflamatórios periféricos acessem o cérebro [@Chinnappan2026IL11MMP9].
-- **A co-reativação de poli-herpesvírus é a regra, não a exceção.** 72,5% dos pacientes com EM/SFC tinham anticorpos elevados contra múltiplos herpesvírus dUTPases em comparação com 31% dos controles. EBV, HHV-6, CMV e VZV podem reativar juntos — o sistema imunitário está lutando contra uma guerra viral em múltiplas frentes com recursos esgotados [@Palomo2026herpesvirus].
+- **A co-reativação de poli-herpesvírus é a regra, não a exceção.** 72,5% dos pacientes com EM/SFC tinham anticorpos elevados contra múltiplos herpesvírus dUTPases em comparação com 31% dos controles. EBV, HHV-6, CMV e VZV podem reativar juntos — o sistema imunitário está a lutar contra uma guerra viral em múltiplas frentes com recursos esgotados [@Palomo2026herpesvirus].
 - **A infeção crónica é o tópico mais carregado de hipóteses no Septad.** É mecanicamente central, mas mais difícil de tratar de forma clara — os antivíricos que bloqueiam a replicação de DNA em vírus totalmente lítico podem ser ineficazes contra a ALR, e as evidências para isso em EM/SFC são fracas e não replicadas.
 
 ---
@@ -37,20 +37,20 @@ O vírus de Epstein-Barr infeta mais de 90% da população mundial. Na maioria d
 
 ### Replicação lítica abortiva (ALR)
 
-Na replicação lítica completa, o vírus expressa genes imediatos (BZLF1, BRLF1), depois genes precoces (incluindo BLLF3, a dUTPase), replica seu DNA, forma virionos e lise a célula. A ALR interrompe após a fase dos genes precoces — as proteínas virais são produzidas, mas nenhum vírus infeccioso é criado. A célula não é destruída, mas expressa antígenos virais que o sistema imunitário deve suprimir continuamente.
+Na replicação lítica completa, o vírus expressa genes imediatos (BZLF1, BRLF1), depois genes precoces (incluindo BLLF3, a dUTPase), replica seu DNA, forma vírions e lisa a célula. A ALR para após a fase dos genes precoces — as proteínas virais são produzidas, mas nenhum vírus infeccioso é criado. A célula não é destruída, mas expressa antígenos virais que o sistema imunitário deve suprimir continuamente.
 
-A ALR explica o sinal imunológico — altas anticorpos contra antígenos líticos (EA-D, VCA, dUTPase), mas DNA viral indetectável ou baixo no sangue. O vírus não está “replicando” no sentido convencional, mas produz ativamente proteínas que impulsionam a ativação imunitária, inflamação e — criticamente — a degranulação dos mastócitos [@Cox2022dUTPaseMECFS].
+A ALR explica o sinal imunológico — altos anticorpos contra antígenos líticos (EA-D, VCA, dUTPase), mas DNA viral indetectável ou baixo no sangue. O vírus não está “replicando” no sentido convencional, mas produz ativamente proteínas que impulsionam a ativação imunitária, inflamação e — criticamente — a degranulação dos mastócitos [@Cox2022dUTPaseMECFS].
 
 ### O problema da dUTPase
 
 A dUTPase é uma enzima de herpesvírus conservada que converte dUTP em dUMP, impedindo a incorporação errada de uracila no DNA viral. É também um potente **padrão molecular associado a patógenos (PAMP)** — o sistema imunitário inato reconhece a dUTPase através do TLR2 e desencadeia a produção de citocinas impulsionada por NF-κB. As dUTPases do EBV (BLLF3), HHV-6 (U45), VZV (ORF8) e CMV são estruturalmente suficientemente semelhantes que um vírus reativado pode produzir uma dUTPase que estimule a resposta imunitária a outro — uma base mecânica para a co-reativação de vários herpesvírus [@Cox2022dUTPaseMECFS].
 
-A dUTPase do EBV também ativa NF-κB nos mastócitos, o que impulsiona a expressão da MMP-9. Esta é a ponte entre a história da reativação viraal e a história da degradação do tecido conjuntivo abordada nos artigos sobre hipermobilidade: um herpesvírus reativado produz uma proteína (dUTPase) que orienta os mastócitos a liberar uma enzima (MMP-9) que degrada colágeno e abre a barreira hematoencefálica. O vírus não está no cérebro. Mas seus produtos downstream chegam lá.
+A dUTPase do EBV também ativa NF-κB nos mastócitos, o que impulsiona a expressão da MMP-9. Esta é a ponte entre a história da reativação viral e a história da degradação do tecido conjuntivo abordada nos artigos sobre hipermobilidade: um herpesvírus reativado produz uma proteína (dUTPase) que orienta os mastócitos a liberar uma enzima (MMP-9) que degrada colágeno e abre a barreira hematoencefálica. O vírus não está no cérebro. Mas seus produtos downstream chegam lá.
 
 ### EBV→mastócito→MMP-9: o caminho em números
 
 Chinnappan et al. (2026) testaram o efeito direto da proteína recombinante do EBV sobre mastócitos humanos em cultura:
-- Liberação da MMP-9: **2.464 pg/ml (EBV) vs 433 pg/ml (não estimulado), p<0.001, n=3**
+- Liberação da MMP-9: **2.464 pg/ml (EBV) vs 433 pg/ml (não estimulado), p<0,001, n=3**
 - Para comparação, o LPS (um PAMP bacteriano) produziu 1.422 pg/ml — o EBV foi 1,7× mais potente que o LPS em impulsionar a MMP-9
 - O mesmo estudo encontrou IL-11 elevado no soro em pacientes com EM/SFC — uma citocina que amplifica a expressão da MMP-9 das microglia, criando um **segundo ciclo de amplificação da MMP-9** no cérebro
 
@@ -60,7 +60,7 @@ Chinnappan et al. (2026) testaram o efeito direto da proteína recombinante do E
 
 ## HHV-6: o integrador neurotrópico
 
-O Herpesvírus Humano 6 (HHV-6) infeta quase todos os crianças até os 2 anos de idade (causando roseola) e estabelece latência em células T, monócitos e — criticamente — no sistema nervoso central. O HHV-6 é o único herpesvírus humano que pode **integrar-se nos cromossomos do hospedeiro** (ciHHV-6), criando um reservatório genético permanente que os antivirais padrão não conseguem eliminar.
+O Herpesvírus Humano 6 (HHV-6) infeta quase todas as crianças até os 2 anos de idade (causando roseola) e estabelece latência em células T, monócitos e — criticamente — no sistema nervoso central. O HHV-6 é o único herpesvírus humano que pode **integrar-se nos cromossomos do hospedeiro** (ciHHV-6), criando um reservatório genético permanente que os antivirais padrão não conseguem eliminar.
 
 Em EM/SFC, vários achados apontam para a participação do HHV-6:
 
@@ -96,16 +96,16 @@ Isso cria um problema no tratamento. O Valacyclovir inibe a polimerase de DNA do
 
 - **Antivirais que atuam contra a replicação lítica podem não funcionar contra ALR.** As proteínas virais que impulsionam a resposta imunológica são produzidas antes do passo-alvo do medicamento. Um resultado negativo em ensaio antiviral não prova que o vírus é irrelevante — prova apenas que o medicamento, naquela dose, não interrompeu a fase específica de replicação que está ativa.
 - **A erradicação pode ser impossível.** O HHV-6 integrado não pode ser removido. O EBV latente nas células B de memória é vitalício. O objetivo do tratamento muda de “eliminar o patógeno” para “suprimir a ativação imunológica causada pelo patógeno”.
-- **O defeito imunológico do hospedeiro pode ser o fator limitante, e não a carga viral.** Se as células T estão esgotadas e as células NK são disfuncionais, administrar um antiviral sem abordar o defeito imunológico é como dar a um bombeiro uma mangueira menor enquanto a pressão da água está diminuindo. O fogo não é o patógeno; o fogo é a resposta imunológica ao patógeno, e essa resposta falha porque o sistema imunitário está esgotado.
+- **O defeito imunológico do hospedeiro pode ser o fator limitante, e não a carga viral.** Se as células T estão esgotadas e as células NK são disfuncionais, administrar um antiviral sem abordar o defeito imunológico é como dar a um bombeiro uma mangueira menor enquanto a pressão da água está a diminuir. O fogo não é o patógeno; o fogo é a resposta imunológica ao patógeno, e essa resposta falha porque o sistema imunitário está esgotado.
 
 ---
 
 ## A conclusão principal
 
-A infeção crónica é a condição mais mecanisticamente central e terapeuticamente frustrante entre as condições de Septad. A evidência de que herpesvírus e patógenos transmitidos por carrapatos estão envolvidos no EM/SFC é forte — a replicação lítica abortiva, a co-reativação de poli-herpesvírus, EBV→mastócito→MMP-9 e HHV-6 fragmentação mitocondrial não são hipóteses marginales. No entanto, a evidência de que o uso de antivirais atuais que visam esses agentes melhora o EM/SFC é fraca e não replicada — e a distinção entre ALR (que os antivirais não bloqueiam) e replicação lítica (que eles bloqueiam) explica por que [@Loth2026website].
+A infeção crónica é a condição mais mecanisticamente central e terapeuticamente frustrante entre as condições de Septad. A evidência de que herpesvírus e patógenos transmitidos por carrapatos estão envolvidos na EM/SFC é forte — a replicação lítica abortiva, a co-reativação de poli-herpesvírus, EBV→mastócito→MMP-9 e a fragmentação mitocondrial do HHV-6 não são hipóteses marginais. No entanto, a evidência de que o uso de antivirais atuais que visam esses agentes melhora a EM/SFC é fraca e não replicada — e a distinção entre ALR (que os antivirais não bloqueiam) e replicação lítica (que eles bloqueiam) explica por que [@Loth2026website].
 
 O [artigo complementar sobre tratamento](../chronic-infection-treatment/index.qmd) aborda os antivirais (valacyclovir, valganciclovir, famciclovir), os imunomoduladores (cimetidina), os estabilizadores de mastócitos que interrompem o caminho EBV→MMP-9 a jusante do vírus e a discussão sobre “e se os antivirais não funcionarem”.
 
 **Próximo tópico desta mini-série:** os antivirais, a evidência e o que um estudo negativo revela ou não [[ver o artigo complementar]](../chronic-infection-treatment/index.qmd).
 
-Para uma visão abrangente e totalmente citada de como a infeção crónica é considerada entre os muitos mecanismos candidatos no EM/SFC, consulte [@Loth2026website].
+Para uma visão abrangente e totalmente citada de como a infeção crónica é considerada entre os muitos mecanismos candidatos na EM/SFC, consulte [@Loth2026website].

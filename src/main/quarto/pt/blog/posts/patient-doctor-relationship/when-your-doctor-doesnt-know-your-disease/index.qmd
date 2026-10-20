@@ -9,9 +9,9 @@ lang: pt
 
 A consulta dura doze minutos. Você se preparou para isso há três semanas. Você tem uma cópia impressa — doze páginas, com anotações. Quarenta e cinco segundos antes, você diz a palavra “TRPM3”. Você observa o rosto do médico mudar. Não para interesse. Para algo mais frio.
 
-A consulta termina com uma referência a um psiquiatra. Você sai com sua cópia impressa, sua raiva e um médico a menos disposto a atendê-lo.
+A consulta termina com um encaminhamento para um psiquiatra. Você sai com sua cópia impressa, sua raiva e um médico a menos disposto a atendê-lo.
 
-Se você tem EM/SFC, essa cena — ou uma versão dela — está no seu futuro. Não porque seu médico seja ruim, e não porque você esteja errado. Porque a situação é estruturalmente quase garantida que vai dar errado, a menos que você entenda o que realmente está acontecendo naquela sala. Este artigo fala sobre o que está acontecendo e o que fazer a respeito.
+Se você tem EM/SFC, essa cena — ou uma versão dela — está no seu futuro. Não porque seu médico seja ruim, e não porque você esteja errado. Porque a situação é estruturalmente quase garantida que vai dar errado, a menos que você entenda o que realmente está a acontecer naquela sala. Este artigo fala sobre o que está a acontecer e o que fazer a respeito.
 
 ---
 
@@ -19,7 +19,7 @@ Se você tem EM/SFC, essa cena — ou uma versão dela — está no seu futuro. 
 
 A EM/SFC ocupa uma posição patológica na medicina: é uma doença física grave sem biomarcadores nos laboratórios de rotina, sem tratamento curativo aprovado e com um histórico de ser classificada como psiquiatria — um padrão que compartilha com doenças que posteriormente se revelaram orgânicas [@MECFSScience2021psychosomatic; @Loth2026mecfs]. A pesquisa sobre encontros médicos para condições contestadas mostra o que resulta dessa posição.
 
-Pacientes com EM/SFC relatam uma deslegitimização sistemática: descrença, rotulagem psicossomática e o trabalho exaustivo de ter de *provar* que estão doentes em cada consulta [@Guise2010DiscourseDoctors]. numa coorte de clínica especializada, 64% dos pacientes com SFC relataram insatisfação com o cuidado médico, com a falta de empatia e o atraso no diagnóstico como queixas principais [@Deale2001PerceptionsCare]. Uma meta-síntese de estudos de atenção primária encontrou o mesmo padrão do lado do médico: os médicos de família relatam frustração, impotência e incerteza sobre uma doença para a qual nunca foram treinados [@Bayliss2014BarriersPrimaryCare]. Uma revisão abrangente de consultas para sintomas físicos persistentes identificou o padrão recorrente: incerteza diagnóstica, nósologia contestada, atitudes negativas, falha na comunicação — e a desconfiança do paciente como o resultado final [@Treufeldt2024StigmaScoping].
+Pacientes com EM/SFC relatam uma deslegitimização sistemática: descrença, rotulagem psicossomática e o trabalho exaustivo de ter de *provar* que estão doentes em cada consulta [@Guise2010DiscourseDoctors]. Numa coorte de clínica especializada, 64% dos pacientes com SFC relataram insatisfação com o cuidado médico, com a falta de empatia e o atraso no diagnóstico como queixas principais [@Deale2001PerceptionsCare]. Uma meta-síntese de estudos de atenção primária encontrou o mesmo padrão do lado do médico: os médicos de família relatam frustração, impotência e incerteza sobre uma doença para a qual nunca foram treinados [@Bayliss2014BarriersPrimaryCare]. Uma revisão abrangente de consultas para sintomas físicos persistentes identificou o padrão recorrente: incerteza diagnóstica, nosologia contestada, atitudes negativas, falha na comunicação — e a desconfiança do paciente como o resultado final [@Treufeldt2024StigmaScoping].
 
 Coloque essas duas imagens uma ao lado da outra e o conflito deixa de parecer uma falha individual de um ou outro lado. Parece duas pessoas presas na mesma lacuna estrutural: o médico não tem uma resposta que o manual de texto endossaria, e o paciente não tem uma resposta que o médico acreditaria.
 
@@ -37,7 +37,7 @@ Mas há a segunda metade, igualmente verdadeira e igualmente desconfortável: **
 
 Ambas as afirmações são verdadeiras ao mesmo tempo. Toda consulta fracassada fracassa porque pelo menos uma pessoa na sala age como se apenas uma delas estivesse lá.
 
-Existe um nome na literatura de ética para o que acontece quando a primeira metade é ignorada: injustiça de testemunho — o relatório do paciente é desconsiderado por quem fala, não pelo que é dito [@Byrne2021EpistemicInjustice]. A dinâmica paciente-pesquisa adiciona um segundo modo de fracasso: o médico desconsidera não apenas o seu *relato de sintomas* mas também a sua *análise*, e compara o seu conhecimento com o de "Dr. Google" — malingering, ansiedade de saúde, o paciente difícil.
+Existe um nome na literatura de ética para o que acontece quando a primeira metade é ignorada: injustiça de testemunho — o relatório do paciente é desconsiderado por quem fala, não pelo que é dito [@Byrne2021EpistemicInjustice]. A dinâmica paciente-pesquisa adiciona um segundo modo de fracasso: o médico desconsidera não apenas o seu *relato de sintomas* mas também a sua *análise*, e compara o seu conhecimento com o de "Dr. Google" — simulação, ansiedade de saúde, o paciente difícil.
 
 ---
 
@@ -94,7 +94,7 @@ Transforme cada afirmação numa pergunta à qual o médico está qualificado pa
 - “O que precisaria ser verdade para que isso seja relevante, e podemos testar isso?”
 - “O que faria você descartar isso?”
 
-Cada pergunta faz três coisas ao mesmo tempo: entrega suas informações, dá ao médico o papel de especialista e cria um *caminho falsificável* — um teste, uma referência, um ‘não’ documentado — em vez de uma argumentação.
+Cada pergunta faz três coisas ao mesmo tempo: entrega suas informações, dá ao médico o papel de especialista e cria um *caminho falsificável* — um teste, um encaminhamento, um ‘não’ documentado — em vez de uma argumentação.
 
 ### 4. Um tópico por visita
 
@@ -102,7 +102,7 @@ Você tem anos de acúmulo. O médico tem doze minutos. Uma lista de cinco hipó
 
 ### 5. Peça a decisão, não o acordo
 
-Antes da visita, decida o que você realmente precisa. Geralmente não é “o médico concorda que TRPM3 é importante”. É um teste de medicamento, uma referência, um teste, uma carta. Formule a pergunta no nível da decisão: “Se não pudermos descartar isso, você me referiria a um cardiologista para um teste de inclinação?” Os médicos dizem sim e não para decisões o dia todo. Pedir que eles concedam primeiro um mecanismo é pedir algo que eles não podem honestamente dar — e a recusa será lembrada como conflito, enquanto a concessão não teria mudado nada no seu próximo passo.
+Antes da visita, decida o que você realmente precisa. Geralmente não é “o médico concorda que TRPM3 é importante”. É um teste de medicamento, um encaminhamento, um teste, uma carta. Formule a pergunta no nível da decisão: “Se não pudermos descartar isso, você me referiria a um cardiologista para um teste de inclinação?” Os médicos dizem sim e não para decisões o dia todo. Pedir que eles concedam primeiro um mecanismo é pedir algo que eles não podem honestamente dar — e a recusa será lembrada como conflito, enquanto a concessão não teria mudado nada no seu próximo passo.
 
 ### 6. Traga registos de dados, não conclusões
 
@@ -113,13 +113,13 @@ Um diário de sintomas de quatro semanas, uma tabela de frequência cardíaca de
 Se você traz algo que o médico não sabe, construa a frase de modo que a *sua* expertise seja a resposta, não o obstáculo:
 
 - "Isso está fora do que normalmente se observa — é exatamente por isso que quero a sua análise sobre isso."
-- "Vocês conhecem toda a minha situação; eu conheço apenas este artigo. Eles se encaixam?"
+- "Você conhece toda a minha situação; eu conheço apenas este artigo. Eles se encaixam?"
 
 Ambos sabem que existe uma lacuna na literatura. Chamá-la de *complementar* — a sua profundidade, a deles a amplitude — transforma a assimetria de uma ameaça em trabalho em equipa. Os médicos de família que trataram pacientes informados melhor nos estudos qualitativos fizeram exatamente isso, reestruturando [@Ahluwalia2010Heartbeat].
 
 ### 8. Evite a correspondência de padrões psiquiátricos
 
-Diga uma vez, claramente, desde o início: "Hoje não estou aqui para uma discussão de psicologia — quero que isso fique registrado — mas também quero deixar claro que não estou pedindo que você resolva tudo. Estou perguntando sobre uma coisa específica." Isso protege o encontro: mostrou que entendeu o status contestado da doença, estabeleceu o quadro e demonstrou moderação — três coisas que tornam o modelo do "paciente difícil" mais difícil de aplicar.
+Diga uma vez, claramente, desde o início: "Hoje não estou aqui para uma discussão de psicologia — quero que isso fique registrado — mas também quero deixar claro que não estou a pedir que você resolva tudo. Estou a perguntar sobre uma coisa específica." Isso protege o encontro: mostrou que entendeu o status contestado da doença, estabeleceu o quadro e demonstrou moderação — três coisas que tornam o modelo do "paciente difícil" mais difícil de aplicar.
 
 ### 9. Triagem do médico, deliberadamente
 

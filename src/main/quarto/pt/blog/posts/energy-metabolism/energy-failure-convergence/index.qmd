@@ -27,19 +27,19 @@ A diversidade dos pontos de entrada é o que torna as condições de falha energ
 
 A EM/SFC não é um dos quatorze mecanismos. É o que acontece quando vários deles se tornam ativos simultaneamente e se reforçam mutuamente.
 
-Um paciente com ativação imunológica pós-viral (mecanismo 4) [@Hickie2006postinfectious] desenvolve disfunção mitocondrial secundária (mecanismo 1) devido ao custo metabólico da vigilância imunológica crónica. A perturbação mitocondrial reduz a qualidade do sono (mecanismo 12), pois os canais de cálcio do tálamo que geram oscilações de onda lenta são dependentes de ATP. O sono ruim prejudica a depuração glifática, deixando mediadores inflamatórios no cérebro que sustentam a neuroinflamação (mecanismo 5). A neuroinflamação perturba a regulação autonómica (mecanismo 13), produzindo POTS e hipoperfusão cerebral. A hipoperfusão prejudica a depuração hepática de toxinas provenientes do intestino, agravando o impacto da disbiose existente (mecanismo 8). A disbiose produz H₂S, que inibe ainda mais as mitocôndria (voltando ao mecanismo 1).
+Um paciente com ativação imunológica pós-viral (mecanismo 4) [@Hickie2006postinfectious] desenvolve disfunção mitocondrial secundária (mecanismo 1) devido ao custo metabólico da vigilância imunológica crónica. A perturbação mitocondrial reduz a qualidade do sono (mecanismo 12), pois os canais de cálcio do tálamo que geram oscilações de onda lenta são dependentes de ATP. O mau sono prejudica a depuração glifática, deixando mediadores inflamatórios no cérebro que sustentam a neuroinflamação (mecanismo 5). A neuroinflamação perturba a regulação autonómica (mecanismo 13), produzindo POTS e hipoperfusão cerebral. A hipoperfusão prejudica a depuração hepática de toxinas provenientes do intestino, agravando o impacto da disbiose existente (mecanismo 8). A disbiose produz H₂S, que inibe ainda mais as mitocôndrias (voltando ao mecanismo 1).
 
 Os loops se fecham. Cada mecanismo alimenta os outros. Nenhum mecanismo individual é "a causa". A doença é o loop [@Davis2023] — o estado auto-sustentável em que múltiplos mecanismos de consumo de energia se reforçam mais rapidamente do que o corpo pode resolver qualquer um deles.
 
-É por isso que a EM/SFC se apresenta como um estado de atração nos modelos matemáticos: uma vez que o sistema ultrapassa um limiar de ativação cumulativa de mecanismos, ele estabiliza num equilíbrio patológico estável que resiste a perturbações. Se um mecanismo for reduzido com tratamento, os outros mantêm o sistema no lugar. A bola está num vale, e o vale tem paredes íngremes.
+É por isso que a EM/SFC se apresenta como um estado atrator nos modelos matemáticos: uma vez que o sistema ultrapassa um limiar de ativação cumulativa de mecanismos, ele estabiliza num equilíbrio patológico estável que resiste a perturbações. Se um mecanismo for reduzido com tratamento, os outros mantêm o sistema no lugar. A bola está num vale, e o vale tem paredes íngremes.
 
 ---
 
 ## Por que os tratamentos focados num único alvo falham
 
-A história dos ensaios clínicos de tratamento da EM/SFC é um cemitério de medicamentos que ajudaram um subgrupo e falharam em média. O Rituximab ajudou alguns pacientes de forma significativa num ensaio clínico aberto de fase II, mas não fez nada em média nos ensaios clínicos de fase III mais amplos [@Fluge2011rituximab; @Fluge2019RituximabPhase3]. O Rintatolimod mostrou efeito em alguns ensaios, mas não em outros. O Valaciclovir ajudou pacientes com reativação documentada de EBV, mas não pacientes sem ela. A substituição de tiróide ajudou o subgrupo de baixo T3. As infusões de ferro ajudaram o subgrupo de baixa ferritina. O CoQ10 ajudou pacientes com deficiência documentada.
+A história dos ensaios clínicos de tratamento da EM/SFC é um cemitério de medicamentos que ajudaram um subgrupo e falharam em média. O Rituximab ajudou alguns pacientes de forma significativa num ensaio clínico aberto de fase II, mas não fez nada em média nos ensaios clínicos de fase III mais amplos [@Fluge2011rituximab; @Fluge2019RituximabPhase3]. O Rintatolimod mostrou sinal em alguns ensaios, mas não em outros. O Valaciclovir ajudou pacientes com reativação documentada de EBV, mas não pacientes sem ela. A substituição de tiróide ajudou o subgrupo de baixo T3. As infusões de ferro ajudaram o subgrupo de baixa ferritina. O CoQ10 ajudou pacientes com deficiência documentada.
 
-Cada tratamento visava um dos quatorze mecanismos. Cada um funcionou — quando esse mecanismo estava ativo no paciente em questão. Em coortes não selecionadas, o efeito foi diluído em ruído.
+Cada tratamento visava um dos quatorze mecanismos. Cada um funcionou — quando esse mecanismo estava ativo no paciente em questão. Em coortes não selecionadas, o sinal foi diluído em ruído.
 
 Isso não é evidência de que os tratamentos não funcionam. É evidência de que a EM/SFC não é uma única doença, mas uma convergência de mecanismos, e que um tratamento eficaz requer identificar quais mecanismos estão ativos em cada paciente e visar especificamente esses mecanismos.
 
@@ -64,23 +64,23 @@ O framework desenvolvido por esta série implica uma abordagem clínica que dife
 **Passo 2: Tratar o tratável.** Nem tudo que é identificado será tratável. Alguns mecanismos (por exemplo, consolidação epigenética) não têm intervenção atual. Mas muitos sim:
 
 - Ferritina baixa → infusão de ferro
-- SIBO → rifaximina + prokinéticos
+- SIBO → rifaximina + procinéticos
 - POTS → compressão, fluidos, fludrocortisona/midodrina
 - MCAS → anti-histamínico, cromoglicato
 - T3 livre baixo → tentativa de substituição de tiróide supervisionada
 - Reativação EBV → tentativa antiviral
 - Sono alfa-delta → estudo DORA (suvorexant), ou protocolos de pesquisa de neuroestimulação
 - Disbiose H₂S → restrição de enxofre, bismuto, probióticos direcionados
-- Autoanticorpos → adsorção imunológica [@Scheibenbogen2018immunoadsorption] (se disponível)
+- Autoanticorpos → imunoadsorção [@Scheibenbogen2018immunoadsorption] (se disponível)
 - Baixa vitamina D, B12, magnésio → reposição para o ideal (não apenas "dentro da faixa")
 
-**Passo 3: Reduzir a carga total.** Cada mecanismo tratado reduz a carga energética total do sistema. Nenhuma intervenção isolada cura EM/SFC. Mas cinco intervenções, cada uma reduzindo o déficit energético em 5-10%, em conjunto criam uma melhoria de 25-50% — o que, num paciente cuja capacidade funcional é medida em porcentagens de um dígito em relação ao normal, pode ser transformador.
+**Passo 3: Reduzir a carga total.** Cada mecanismo tratado reduz a carga energética total do sistema. Nenhuma intervenção isolada cura EM/SFC. Mas cinco intervenções, cada uma reduzindo o déficit energético em 5-10%, em conjunto criam uma melhoria de 25-50% — o que, num paciente cuja capacidade funcional é medida em percentagens de um dígito em relação ao normal, pode ser transformador.
 
-Isso não é cura. É redução sistemática da carga. É a diferença entre estar em cama e estar em casa, ou entre estar em casa e poder trabalhar em part-time. Aceita que o estado de atrator da EM/SFC pode não ser reversível com os ferramentas atuais, reconhecendo ao mesmo tempo que muitos de seus mecanismos de manutenção são individualmente tratáveis.
+Isso não é cura. É redução sistemática da carga. É a diferença entre estar em cama e estar em casa, ou entre estar em casa e poder trabalhar em tempo parcial. Aceita que o estado de atrator da EM/SFC pode não ser reversível com as ferramentas atuais, reconhecendo ao mesmo tempo que muitos de seus mecanismos de manutenção são individualmente tratáveis.
 
 ---
 
-## A imperativa subtipagem
+## O imperativo da subtipagem
 
 Se este framework estiver correto, então a "EM/SFC" como diagnóstico unitário é aproximadamente tão útil como a "febre" como diagnóstico. Ela descreve um estado, não um mecanismo. O estado é real — a convergência é real, a incapacidade é real, a dinâmica do atrator é real. Mas os mecanismos que a impulsionam variam entre pacientes, e o tratamento deve ser específico para o mecanismo.
 
@@ -98,9 +98,9 @@ Se você tem EM/SFC, o framework desenvolvido por esta série indica três coisa
 
 **Primeiro:** sua doença é real, biológica, mensurável e explicável mecanicamente [@IOM2015]. Não é uma única condição — é uma convergência de mecanismos — mas isso não a torna menos real. Ela torna-a mais complexa e mais difícil de tratar, o que é uma propriedade da doença, não da sua psicologia.
 
-**Segundo:** provavelmente existem componentes tratáveis dentro do seu portfólio de mecanismos. A maioria dos pacientes com EM/SFC nunca teve um inventário sistemático de mecanismos. Eles tiveram exames de sangue padrão (que não identificam deficiências subclínicas), um TSH (que não detecta hipotireoidismo de nível tecidual) e talvez uma referência psiquiátrica (que não identifica doenças metabólicas). Um exame abrangente pode identificar três, quatro ou cinco fatores tratáveis que nunca foram abordados.
+**Segundo:** provavelmente existem componentes tratáveis dentro do seu portfólio de mecanismos. A maioria dos pacientes com EM/SFC nunca teve um inventário sistemático de mecanismos. Eles tiveram exames de sangue padrão (que não identificam deficiências subclínicas), um TSH (que não detecta hipotireoidismo de nível tecidual) e talvez um encaminhamento psiquiátrico (que não identifica doenças metabólicas). Um exame abrangente pode identificar três, quatro ou cinco fatores tratáveis que nunca foram abordados.
 
-**Terceiro:** o tratamento é uma subtração, não magia. Não existe um único medicamento que cure a EM/SFC restaurando o sistema ao seu estado pré-doença. O que existe é um conjunto de intervenções direcionadas, cada uma abordando um mecanismo, que, em conjunto, reduz o fardo total o suficiente para melhorar a função. Isso é menos satisfatório que uma cura. É também o estado real da ciência e é mais do que a maioria dos pacientes está recebendo atualmente.
+**Terceiro:** o tratamento é uma subtração, não magia. Não existe um único medicamento que cure a EM/SFC restaurando o sistema ao seu estado pré-doença. O que existe é um conjunto de intervenções direcionadas, cada uma abordando um mecanismo, que, em conjunto, reduz o fardo total o suficiente para melhorar a função. Isso é menos satisfatório que uma cura. É também o estado real da ciência e é mais do que a maioria dos pacientes está a receber atualmente.
 
 ---
 
@@ -108,7 +108,7 @@ Se você tem EM/SFC, o framework desenvolvido por esta série indica três coisa
 
 Esta série [@Loth2026website] começou com uma pergunta: por que você está tão cansado? A resposta revelou-se: por quatorze razões possíveis, em combinações variadas, mantidas por ciclos de feedback que resistem à intervenção individual.
 
-O cenário da falha energética não é um único caminho para um único destino. É um terreno com muitos pontos de entrada, muitos caminhos e uma vale no centro onde os caminhos se convergem. Sair da vale requer saber quais caminhos o levaram até lá — e trabalhar em cada um deles.
+O cenário da falha energética não é um único caminho para um único destino. É um terreno com muitos pontos de entrada, muitos caminhos e um vale no centro onde os caminhos se convergem. Sair do vale requer saber quais caminhos o levaram até lá — e trabalhar em cada um deles.
 
 Os testes existem. Os tratamentos existem para muitos dos mecanismos. O que ainda não existe é um sistema clínico que os integre para pacientes individuais. Construir esse sistema — consciente dos mecanismos, específico para o paciente, sistematicamente em vez de guiado empiricamente — é o desafio para a próxima década da assistência EM/SFC.
 

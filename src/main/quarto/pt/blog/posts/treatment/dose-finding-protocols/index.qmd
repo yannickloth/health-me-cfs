@@ -9,7 +9,7 @@ lang: pt
 
 O artigo anterior argumentou que um ensaio fracassado deveria significar “esta dose falhou”, e não “este medicamento falhou” — e que o experimento mais barato seguinte costuma ser uma dose adjacente do mesmo medicamento. Esse argumento não tem valor sem um nível de execução: *quais* doses, *por quanto tempo*, *em relação a quê* e *quando interromper*.
 
-Este artigo fornece esse nível para oito medicamentos. É o complemento ao farmacopé: a [Parte 4](../pharmacopoeia-dose-meaning/) lista quais significados cada faixa de dose; este artigo especifica como *executar* o ensaio que gera os dados. Os dois compartilham as mesmas faixas de dose e devem ser lidos juntos.
+Este artigo fornece esse nível para oito medicamentos. É o complemento à farmacopeia: a [Parte 4](../pharmacopoeia-dose-meaning/) lista quais significados cada faixa de dose; este artigo especifica como *executar* o ensaio que gera os dados. Os dois compartilham as mesmas faixas de dose e devem ser lidos juntos.
 
 ---
 
@@ -58,7 +58,7 @@ Três regras universais antes de qualquer protocolo:
 | Duração do passo | Dias para tolerabilidade, **semanas para eficácia** — não julgar o efeito antes de expirar a janela do prescritor | C |
 | Resultado principal | Escolher conforme o sintoma dominante: frequência de PEM, clareza cognitiva ou sono — apenas um | C |
 | Condições de paragem | Akatisia, agitação ou preocupações com mudança de humor → parar e relatar · sem benefício após 6 semanas → limite definido pelo prescritor de acordo com sua prática | C |
-| Compounding | Abaixo de 2 mg necessário: farmácia de complanação (comprimidos padrão ≥2 mg) | E |
+| Compounding | Abaixo de 2 mg necessário: farmácia de manipulação (comprimidos padrão ≥2 mg) | E |
 | Monitorização | Arquitetura do sono e auto-verificações de humor (os efeitos documentados do LDA são qualitativamente distintos da ativação do tipo estimulante — mas a distinção deve ser *verificada*, não assumida) | C |
 | Regra de re-trial | Uma dose que preservou o sono mas perdeu a proteção da PEM (o padrão de 0,75 mg) significa que a janela é específica para o sintoma — mapear por sintoma, não por droga | S |
 
@@ -97,7 +97,7 @@ Três regras universais antes de qualquer protocolo:
 
 ## Metilfenidato (Ritalin MR) e estimulantes de baixa dose
 
-**Alvo:** inibição da recaptação de catecolaminas. No EM/SFC, o padrão documentado é uma curva invertida-U *e* indução de PEM em doses altas de estimulantes. O estudo RCT de crossover duplo-cego constatou que o metilfenidato reduz a fadiga no EM/SFC [@Blockmans2006MPHCFS], e o acompanhamento de longo prazo revelou benefícios duradouros em cerca de um terço dos participantes que continuaram o tratamento, com uma alta taxa de abandono — consistente com o trade-off entre estimulantes e PEM que o protocolo foi desenvolvido para medir [@Blockmans2016LongTermMPH].
+**Alvo:** inibição da recaptação de catecolaminas. No EM/SFC, o padrão documentado é uma curva invertida-U *e* indução de PEM em doses altas de estimulantes. O estudo RCT de crossover duplo-cego constatou que o metilfenidato reduz a fadiga na SFC [@Blockmans2006MPHCFS], e o acompanhamento de longo prazo revelou benefícios duradouros em cerca de um terço dos participantes que continuaram o tratamento, com uma alta taxa de abandono — consistente com o compromisso entre estimulantes e PEM que o protocolo foi desenvolvido para medir [@Blockmans2016LongTermMPH].
 
 | Campo | Protocolo | Nível |
 |-------|----------|------|
@@ -126,7 +126,7 @@ Três regras universais antes de qualquer protocolo:
 
 ## Melatonina (dose baixa)
 
-**Alvo:** cronobiótico em doses baixas; hipnótico (e com diferentes perfil de recetores) em doses altas — um padrão de U invertido que a maioria dos pacientes aplica de forma inversa. A melatonina em dose baixa (0,5 mg) desloca o relógio circadiano sem suprimir a secreção endógena [@Burgess2010melatonin]; no EM/SFC, o cronograma da melatonina guiado pelo DLMO melhorou a fadiga em pacientes com fase atrasada [@vanHeukelom2006melatonin]. A formação “dose baixa é cronobiótica, dose alta é hipnótica” e sua aplicação no EM/SFC representa inferência de modelo [@Loth2026mecfs].
+**Alvo:** cronobiótico em doses baixas; hipnótico (e com um perfil de recetores diferente) em doses altas — um padrão de U invertido que a maioria dos pacientes aplica de forma inversa. A melatonina em dose baixa (0,5 mg) desloca o relógio circadiano sem suprimir a secreção endógena [@Burgess2010melatonin]; na SFC, o cronograma da melatonina guiado pelo DLMO melhorou a fadiga em pacientes com fase atrasada [@vanHeukelom2006melatonin]. A formação “dose baixa é cronobiótica, dose alta é hipnótica” e sua aplicação no EM/SFC representa inferência de modelo [@Loth2026mecfs].
 
 | Campo | Protocolo | Nível |
 |-------|----------|------|
@@ -134,20 +134,20 @@ Três regras universais antes de qualquer protocolo:
 | Duração do passo | 1 semana por nível, avaliada diariamente | C |
 | Resultado principal | Latência para o início do sono ou acordar à noite — a afirmação de cronobiótico refere-se ao *cronograma*, não à profundidade da sedação | C |
 | Cronograma | 2–4 h antes do início do sono desejado em doses baixas (janela cronobiótica), não à hora de dormir (hábito hipnótico) — o cronograma é metade da dose para este medicamento | C/E misto |
-| Condições de parada | Manhãs confusas no momento da parada → fora da janela, reduzir a dose · nenhum efeito em nenhum nível → tentar mudar o cronograma antes de abandonar | C |
+| Condições de parada | Manhãs confusas num nível → fora da janela, reduzir a dose · nenhum efeito em nenhum nível → tentar mudar o cronograma antes de abandonar | C |
 
 ---
 
 ## Modafinilo
 
-**Objetivo:** promoção da vigília, catecholaminérgico/orexina‑associado [@Volkow2009modafinil]. A lógica da dose aplica-se como para os outros estimulantes: curva invertida‑U com ansiedade/sobreestimulação na extremidade do braço. Na síndrome de fadiga crónica, um estudo duplo-cego de cruzamento mostrou que a dose padrão de modafinilo não produz benefício na fadiga e piora a cognição em 400 mg [@Randall2005modafinil] — o ponto de referência para iniciar *abaixo* da faixa padrão.
+**Objetivo:** promoção da vigília, catecolaminérgico/orexina‑associado [@Volkow2009modafinil]. A lógica da dose aplica-se como para os outros estimulantes: curva invertida‑U com ansiedade/sobreestimulação na extremidade do braço. Na síndrome de fadiga crónica, um estudo duplo-cego de cruzamento mostrou que a dose padrão de modafinilo não produz benefício na fadiga e piora a cognição em 400 mg [@Randall2005modafinil] — o ponto de referência para iniciar *abaixo* da faixa padrão.
 
 | Campo | Protocolo | Nível |
 |-------|----------|------|
 | Escala de doses | Quarto comprimido (25–50 mg) → metade (100 mg) — iniciar *abaixo* dos 100–200 mg padrão, diferente da dose para a população geral | C |
 | Duração do passo | Provas de um único dia, com intervalo ≥48 h, antes de ensaios de dias consecutivos | C |
 | Resultado principal | Vigilância **e** verificação da PEM no dia seguinte — este medicamento provoca mais o erro de “pegar do amanhã” que a medida de resultado do Ritalin visa identificar | C |
-| Condições de paragem | Ansiedade, sobreestimulação → acima da janela · crise no dia seguinte → a interrupção acumula dívida de PEM; o medicamento está custando mais do que o que paga | C |
+| Condições de paragem | Ansiedade, sobreestimulação → acima da janela · crise no dia seguinte → a interrupção acumula dívida de PEM; o medicamento está a custar mais do que o que paga | C |
 
 ---
 
@@ -163,9 +163,9 @@ Esse é o estado-alvo de toda a busca: cada estudo — positivo ou nulo — deix
 
 **Todos os números acima têm uma razão específica.** As faixas de dose vêm do quadro da farmacopeia (Parte 4) e, em última análise, da análise de U invertido do artigo principal — uma farmacologia estabelecida onde E é marcado, C na inferência comunitária e modelo, e S em apostas explícitas. A ideia de correlação de cluster (rastreamento de janelas entre medicamentos mecanicamente relacionados) é a previsão falsificável central do quadro, não um resultado. Se o quadro estiver errado, os *dados de resposta-dose que você coleta com esses protocolos permanecerão válidos* — a camada interpretativa acima é o que cairia. A motivação não é hipotética: os ensaios controlados de LDN que existem são de dose única e retornaram nulo nos seus endpoints principais [@DueBruun2024LDNFibromyalgia; @Ologunowa2025LDNFMMeta] — nenhum ensaio de resposta-dose dentro da faixa foi realizado em nenhuma condição, o que é precisamente o vazio que esses protocolos foram criados para preencher [@Loth2026mecfs].
 
-**Os protocolos são modelos, não prescrições.** As doses interagem — entre si, com a fase da doença, com a história pessoal do paciente. Os números ilustrativos vêm da razão farmacológica e da experiência da comunidade EM/SFC, não de ensaios validados; a extrapolação entre pacientes é hipotética. O seu prescritor define os números reais; esses protocolos estruturam a conversa, e vários desses medicamentos (doses baixas compostas, uso off-label, estimulantes) são inacessíveis sem eles.
+**Os protocolos são modelos, não prescrições.** As doses interagem — entre si, com a fase da doença, com a história pessoal do paciente. Os números ilustrativos vêm da razão farmacológica e da experiência da comunidade EM/SFC, não de ensaios validados; a extrapolação entre pacientes é hipotética. O seu prescritor define os números reais; esses protocolos estruturam a conversa, e vários desses medicamentos (doses baixas compostas, uso fora da indicação, estimulantes) são inacessíveis sem eles.
 
-**O risco PEM é uma variável de ensaio, não uma nota de rodapé.** Cada degrau de cada escada é um experimento realizado num orçamento de energia que não perdoa o excesso. O esforço durante um ensaio de dose é esforço durante um experimento no seu próprio limite — as curtas duração dos protocolos existe em parte por causa disso.
+**O risco PEM é uma variável de ensaio, não uma nota de rodapé.** Cada degrau de cada escada é um experimento realizado num orçamento de energia que não perdoa o excesso. O esforço durante um ensaio de dose é esforço durante um experimento no seu próprio limite — as curtas durações dos protocolos existem em parte por causa disso.
 
 ---
 

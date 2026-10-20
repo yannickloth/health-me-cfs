@@ -1,6 +1,6 @@
 ---
 title: "A estimulação muscular elétrica não é um benefício ilimitado"
-description: "As clínicas oferecem serviços de emergência médica como ‘exercício passivo’ para pessoas que não conseguem exercitar-se. Isso pode ativar a mesma via envolvida no mal-estar pós-esforço — e nenhum estudo testou isso."
+description: "As clínicas oferecem EMS como 'exercício passivo' para pessoas que não conseguem exercitar-se. Isso pode ativar a mesma via envolvida no mal-estar pós-esforço — e nenhum estudo testou isso."
 author: "Yannick Loth"
 date: "2026-10-15"
 categories: [Treatment, PEM, Energy metabolism]
@@ -11,15 +11,15 @@ Se você não pode exercitar, a estimulação elétrica muscular parece atraente
 
 ## O que a EMS realmente faz
 
-A estimulação elétrica muscular (EMS), e seu parente NMES direcionado aos nervos, envia corrente pela pele para fazer um músculo contrair. O músculo realiza trabalho mecânico. Esse trabalho tem um custo metabólico. Também exerce estresse mecânico nas fibras musculares — e é essa parte que as consequências downstream foram rastreadas, até a inflamação, portanto é a parte que este artigo aborda.
+A estimulação elétrica muscular (EMS), e seu parente NMES direcionado aos nervos, envia corrente pela pele para fazer um músculo contrair. O músculo realiza trabalho mecânico. Esse trabalho tem um custo metabólico. Também exerce estresse mecânico nas fibras musculares — e é essa a parte cujas consequências a jusante foram rastreadas, até à inflamação, portanto é a parte que este artigo aborda.
 
 ## A descoberta
 
 As evidências indicam que, **em intensidades mais altas**, a estimulação elétrica provoca micro-trauma do mesmo tipo que o exercício voluntário — em estudos de músculos saudáveis, amplamente comparáveis à contração excêntrica — e impulsiona a mesma cascata de dano para inflamação que ocorre após o dano muscular induzido pelo exercício.
 
-Essa cascata é **uma via envolvida** no mal-estar pós-esforço, mas não está estabilizada. Portanto, há motivos para pensar que a EMS a envolva. A afirmação **não** é que a EMS causa uma crise em todos. É que a suposição tranquilizadora — “isso é passivo, portanto é neutra em EM/SFC” — nunca foi testada.
+Essa cascata é **uma via envolvida** no mal-estar pós-esforço, mas não está estabilizada. Portanto, há motivos para pensar que a EMS a envolva. A afirmação **não** é que a EMS causa uma crise em todos. É que a suposição tranquilizadora — “isso é passivo, portanto é neutra em relação à PEM” — nunca foi testada.
 
-Note também que “ativar o músculo” e “causar micro-trauma” não são o mesmo mecanismo. A estimulação de baixa intensidade usada para circulação ou prevenção da atrofia, numa dose tolerável por um paciente de baixa condição, pode nunca atingir o limite de dano. Se os protocolos oferecidos aos pacientes realmente atingem esse limite, é desconhecido — e nenhum estudo EM/SFC mede isso.
+Note também que “ativar o músculo” e “causar micro-trauma” não são o mesmo mecanismo. A estimulação de baixa intensidade usada para circulação ou prevenção da atrofia, numa dose tolerável por um paciente descondicionado, pode nunca atingir o limite de dano. Se os protocolos que são realmente oferecidos aos pacientes atingem esse limite, é desconhecido — e nenhum estudo EM/SFC mede isso.
 
 A PEM induzida pela EMS é, portanto, uma hipótese valiosa para testar, e não um efeito comprovado.
 
@@ -42,11 +42,11 @@ Se um médico lhe oferecer EMS como uma opção segura e não esforçadora:
 
 - Trate-o como **esforço**, com um orçamento — não como descanso.
 - A **dose é definida pelo médico ou operador, não por você.** Você não pode “começar baixo” por conta própria. Pergunte quem controla a intensidade, duração e frequência.
-- Fique atento a uma **reação retardada**, não imediata. A PEM não aparece durante a sessão. Não há um período de monitorização validado, então acordem um com antecedência — e uma regra de interrupção: se ocorrer uma crise, pare e não teste novamente naquela dose.
+- Fique atento a uma **reação retardada**, não imediata. A PEM não aparece durante a sessão. Não há um período de monitorização validado, então acorde um com antecedência — e uma regra de interrupção: se ocorrer uma crise, pare e não teste novamente naquela dose.
 - Lembre-se de que uma medição normal de força não significa que a resposta metabólica e de recuperação seja normal.
 - A pergunta não respondida — o problema é central ou periférico? — é algo que um ensaio começaria a responder. Não existe nenhum ensaio.
 
-**Descanso é a opção segura padrão após uma crise. Você não é obrigado a adicionar nada.** No entanto, como estratégia contínua, parar a EMS e não fazer nada pode evitar um benefício não comprovado — mesmo que a EMS previna a descondicionamento na EM/SFC é em si não testada. Também não sabemos qual é a melhor alternativa: movimento suave dentro do envelope de energia e ritmo, também são pouco comprovados nesta população. São simplesmente as opções que o artigo pode apoiar atualmente. Discuta qualquer mudança com um médico que entenda a PEM.
+**Descanso é a opção segura padrão após uma crise. Você não é obrigado a adicionar nada.** No entanto, como estratégia contínua, parar a EMS e não fazer nada pode renunciar a um benefício não comprovado — se a EMS previne o descondicionamento na EM/SFC é, em si, algo não testado. Também não sabemos qual é a melhor alternativa: movimento suave dentro do envelope de energia e ritmo, também são pouco comprovados nesta população. São simplesmente as opções que o artigo pode apoiar atualmente. Discuta qualquer mudança com um médico que entenda a PEM.
 
 ## O princípio geral
 

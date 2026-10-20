@@ -88,7 +88,7 @@ O quadro de ocupação-receptor, aplicado à dose terapêutica, está descrito e
 
 ## A4. A fração de sinal residual
 
-A quantidade Part B revelará ser clinicamente crítica é o complemento:
+A quantidade que a Parte B revelará ser clinicamente crítica é o complemento:
 
 $$1 - f = \frac{1}{1 + c^n}, \qquad c \equiv \frac{[D]}{K_d}$$
 
@@ -156,12 +156,12 @@ A combinação de P2 com B1–B3 revela que um medicamento em diferentes doses a
 
 | Dose | TLR4/Nrf2 hormese (B1) | compensação de opioides (B2) | restauração de TRPM3 (B3) |
 |---|---|---|---|
-| 0.5–1.5 mg | na janela | aumentando | não ativada |
-| ~3.0 mg | extinta | platô | início |
-| 4.5 mg | extinta | platô | ativada |
+| 0,5–1,5 mg | na janela | aumentando | não ativada |
+| ~3,0 mg | extinta | platô | início |
+| 4,5 mg | extinta | platô | ativada |
 | 50 mg | extinta | bloqueada (antagonismo total) | saturada |
 
-Leia as colunas como três curvas independentes, não como uma única. A coluna TLR4/Nrf2 é a única *invertida hormética*: presente apenas em dose baixa, desaparece por volta de ~3.0 mg. A coluna de opioides é monótona (aumenta, atinge platô e apenas no regime de 50 mg ocorre supressão de antagonismo total). A coluna de TRPM3 é de limiar (ausente em dose baixa, ativa e saturada em dose mais alta). Nenhuma dessas formas corresponde a um mapa clínico estabelecido — mas cada uma deriva apenas das afinidades alvo, independentemente dos valores reais dos parâmetros.
+Leia as colunas como três curvas independentes, não como uma única. A coluna TLR4/Nrf2 é a única *invertida hormética*: presente apenas em dose baixa, desaparece por volta de ~3,0 mg. A coluna de opioides é monótona (aumenta, atinge platô e apenas no regime de 50 mg ocorre supressão de antagonismo total). A coluna de TRPM3 é de limiar (ausente em dose baixa, ativa e saturada em dose mais alta). Nenhuma dessas formas corresponde a um mapa clínico estabelecido — mas cada uma deriva apenas das afinidades alvo, independentemente dos valores reais dos parâmetros.
 
 ---
 
@@ -228,9 +228,9 @@ Corolário para interpretação experimental: para um mecanismo hormético inver
 
 Duas esclarecimentos de limites:
 
-- **Off ≠ reversed.** Em $D_2$, o paciente está na linha de base não tratada para o mecanismo $i$, não abaixo dela. A previsão para uma dose além da janela é um valor nulo (ou efeitos de novo mecanismo), não uma deterioração — o que é importante clinicamente para entender como um fracasso em dose alta deve ser interpretado.
+- **Desligado ≠ invertido.** Em $D_2$, o paciente está na linha de base não tratada para o mecanismo $i$, não abaixo dela. A previsão para uma dose além da janela é um valor nulo (ou efeitos de novo mecanismo), não uma deterioração — o que é importante clinicamente para entender como um fracasso em dose alta deve ser interpretado.
 - **Os mecanismos que não invertem são exceções, e não constituem o argumento.** A compensação com opióides (B2) não se extingue dentro de sua faixa — atinge um limite de síntese —, portanto um valor nulo em alta dose *dentro dessa faixa* realmente testa esse mecanismo. TRPM3 (B3) não está ativo em baixa dose, portanto seu benefício nunca faz parte de uma dose mais baixa a ser propagada. O que faz a inferência do superset falhar para a LDN é que o benefício dominante em baixa dose é o hormético inversor (TLR4/Nrf2), que a dose padrão já superou e passou — assim, o valor nulo da dose padrão é não informativo sobre o mecanismo que é mais importante. A tese do artigo é, portanto, específica: trata-se de medicamentos cujo principal benefício em baixa dose é hormético, e não de medicamentos com mecanismo monótono único.
-- **O resultado é condicional, não empírico.** Ele se aplica *se* o mecanismo de benefício é hormético (ação direta inibitória, benefício = resposta à inibição que se extingue na ocupação total). Não depende dos valores de $K_d$, $n$ ou $m$, nem de qualquer mapa de alvo específico. Se o benefício clínico da LDN é, de facto, hormético, é a questão empírica que o Part D aborda.
+- **O resultado é condicional, não empírico.** Ele se aplica *se* o mecanismo de benefício é hormético (ação direta inibitória, benefício = resposta à inibição que se extingue na ocupação total). Não depende dos valores de $K_d$, $n$ ou $m$, nem de qualquer mapa de alvo específico. Se o benefício clínico da LDN é, de facto, hormético, é a questão empírica que a Parte D aborda.
 
 ---
 

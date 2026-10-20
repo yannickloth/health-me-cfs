@@ -1,6 +1,6 @@
 ---
 title: "Artigo 1 sobre hipermobilidade: EM/SFC e a conexão do tecido conjuntivo com EM/SFC — Por que o tecido flexível alimenta a cascata"
-description: "Guia em linguagem simples sobre a síndrome de Ehlers-Danlos hipermóbila e como ela se sobrepõe à EM/SFC — por que o tecido flexível não se mantém unido, as cinco vias mecânicas que ligam o tecido conjuntivo solto à doença sistêmica, como os mastócitos podem degradar ativamente o colágeno (hipermobilidade adquirida), a genética TNXB, a linha de neurodivergência e a diferença entre ser hipermóbilo por si só e ser hipermóbilo em conjunto com a EM/SFC."
+description: "Guia em linguagem simples sobre a síndrome de Ehlers-Danlos hipermóvel e como ela se sobrepõe à EM/SFC — por que o tecido flexível não se mantém unido, as cinco vias mecânicas que ligam o tecido conjuntivo solto à doença sistêmica, como os mastócitos podem degradar ativamente o colágeno (hipermobilidade adquirida), a genética TNXB, a linha de neurodivergência e a diferença entre ser hipermóvel por si só e ser hipermóvel em conjunto com a EM/SFC."
 author: "Yannick Loth"
 date: "2026-08-03"
 categories: [Hypermobility, hEDS, ME/CFS, Pathophysiology, Connective Tissue]
@@ -11,7 +11,7 @@ Os seus joelhos dobram um pouco mais do que deveriam — sempre foi assim. Você
 
 Agora, anos depois, os tecidos não se mantêm unidos. O sangue acumula nas pernas quando você fica em pé. O coração acelera para compensar — o POTS que já leu sobre nesta série. A pele estica. O intestino esvazia lentamente. E em algum lugar nesse tecido conjuntivo solto, os mastócitos — os sentinelas imunológicas inseridas no esqueleto de colágeno de cada tecido — disparam a pressão trivial, porque a matriz que deveria mantê-los silenciosos é muito macia para abafar o sinal [@Magadmi2019][@Wilson2026MastCellScorehEDS].
 
-Este artigo é uma visão conceitual. O que é a síndrome de Ehlers-Danlos hipermóbile, por que não há defeito genético identificado (ao contrário de todos os outros subtipos de EDS), as cinco vias mecânicas que a ligam à EM/SFC, a história do mastócito → degradação de colágeno que significa que a hipermobilidade pode ser *adquirida* assim como congênita, a genética do TNXB, a linha de neurodivergência e a diferença entre ser hipermóbilo por si só e ser hipermóbilo *sobre* a EM/SFC. Os tratamentos — fisioterapia, suporte, suplementos, terapias emergentes e o modelo de taxação de energia permanente — são abordados no [artigo de tratamento complementar](../hypermobility-heds-treatment/index.qmd), e a discussão sobre "e se os medicamentos não funcionarem" no [artigo complementar sobre falha no tratamento](../hypermobility-heds-failure/index.qmd).
+Este artigo é uma visão conceitual. O que é a síndrome de Ehlers-Danlos hipermóvel, por que não há defeito genético identificado (ao contrário de todos os outros subtipos de EDS), as cinco vias mecânicas que a ligam à EM/SFC, a história do mastócito → degradação de colágeno que significa que a hipermobilidade pode ser *adquirida* assim como congênita, a genética do TNXB, a linha de neurodivergência e a diferença entre ser hipermóvel por si só e ser hipermóvel *sobre* a EM/SFC. Os tratamentos — fisioterapia, suporte, suplementos, terapias emergentes e o modelo de taxação de energia permanente — são abordados no [artigo de tratamento complementar](../hypermobility-heds-treatment/index.qmd), e a discussão sobre "e se os medicamentos não funcionarem" no [artigo complementar sobre falha no tratamento](../hypermobility-heds-failure/index.qmd).
 
 ---
 
@@ -23,20 +23,20 @@ Este artigo é uma visão conceitual. O que é a síndrome de Ehlers-Danlos hipe
 
 ## A versão curta, se você ler apenas uma parte
 
-- **hEDS** significa *síndrome de Ehlers-Danlos hipermóbile*. Diferentemente de outros subtipos de EDS (clássico, vascular, kyphoscoliotic), que possuem defeitos genéticos identificados em genes específicos de colágeno ou de processamento de colágeno, hEDS **não possui defeito identificado no tecido conjuntivo**, apesar de investigações extensivas [@MECFSScience2024heds].
+- **hEDS** significa *síndrome de Ehlers-Danlos hipermóvel*. Diferentemente de outros subtipos de EDS (clássico, vascular, kyphoscoliotic), que possuem defeitos genéticos identificados em genes específicos de colágeno ou de processamento de colágeno, hEDS **não possui defeito identificado no tecido conjuntivo**, apesar de investigações extensivas [@MECFSScience2024heds].
 - **Cerca de 15,5% dos pacientes com EM/SFC atendem aos critérios rigorosos de hEDS, e até 81% são positivos para hipermobilidade nos critérios mais amplos de Brighton** — e este subgrupo apresenta uma saúde significativamente pior: qualidade de vida mais baixa, mais sintomas autonómicos, taxas mais altas de POTS (33% em comparação com 20%) e diagnóstico formal de EDS (29% em comparação com 3%) [@Eccles2021hypermobility].
-- **O sobreposicionamento não é coincidência.** Existem cinco caminhos mecânicos, além de duas linhas biológicas mais profundas: (1) mastócitos podem degradar ativamente o colágeno através de tryptase e chymase, produzindo uma hipermobilidade progressiva *adquirida* em cima de qualquer laxidade congênita; (2) a insuficiência parcial de TNXB explica cerca de 5–10% da hipermobilidade independentemente dos mastócitos [@Imanaka2026TNXBHypermobility].
+- **O sobreposicionamento não é coincidência.** Existem cinco caminhos mecânicos, além de duas linhas biológicas mais profundas: (1) mastócitos podem degradar ativamente o colágeno através de triptase e quimase, produzindo uma hipermobilidade progressiva *adquirida* em cima de qualquer laxidade congênita; (2) a insuficiência parcial de TNXB explica cerca de 5–10% da hipermobilidade independentemente dos mastócitos [@Imanaka2026TNXBHypermobility].
 - **Existe uma conexão com neurodivergência.** Indivíduos autistas apresentam 22,3% de hipermobilidade articular; crianças com hEDS mostram 16% de PHDA e 6% de autismo — a ligação entre tecido conjuntivo e neurodesenvolvimento é real e subestimada [@BaezaVelasco2025autismEDS][@Kindgren2021hEDSadhd].
 - **Os modelos ODE preveem um imposto energético permanente de 10–20%** na postura ereta em hEDS — não proveniente de mitocôndrias ou disfunção imunológica, mas da física dos vasos soltos e do trabalho compensatório do coração — oferecendo uma explicação quantitativa para por que pacientes com hEDS+EM/SFC tendem a apresentar maior gravidade [@Loth2026website].
 - **hEDS não é a causa da EM/SFC.** É um *substrato permissivo* — uma característica tecidual constitucional que reduz o limite para que a cascada ocorra. Corrigir o próprio tecido conjuntivo não é possível com a medicina atual; tratar os amplificadores downstream (POTS, MCAS) é onde estão as ações clínicas.
 
 ---
 
-## O que é a EDS hipermóbila, de verdade?
+## O que é a EDS hipermóvel, de verdade?
 
-O tecido conjuntivo é o suporte do corpo. O colágeno, a proteína mais abundante nos seres humanos, forma a matriz extracelular — a malha estrutural que mantém os órgãos no lugar, dá tônus aos vasos sanguíneos, ancla os músculos ao osso e envolve cada mastócito e termo nervoso com um ambiente físico calibrado.
+O tecido conjuntivo é o suporte do corpo. O colágeno, a proteína mais abundante nos seres humanos, forma a matriz extracelular — a malha estrutural que mantém os órgãos no lugar, dá tônus aos vasos sanguíneos, ancora os músculos ao osso e envolve cada mastócito e termo nervoso com um ambiente físico calibrado.
 
-Na EDS clássica, um gene específico de colágeno (COL5A1, COL5A2) é quebrado e o defeito molecular é conhecido. Na EDS vascular, COL3A1 é quebrado, e as artérias frágeis e órgãos ocos são compreendidos. Na EDS hipermóbila — o subtipo mais comum e o que se sobrepõe à EM/SFC — **nenhuma gene, nenhuma proteína e nenhum defeito estrutural foi identificado** apesar de décadas de busca [@MECFSScience2024heds].
+Na EDS clássica, um gene específico de colágeno (COL5A1, COL5A2) é quebrado e o defeito molecular é conhecido. Na EDS vascular, COL3A1 é quebrado, e as artérias frágeis e órgãos ocos são compreendidos. Na EDS hipermóvel — o subtipo mais comum e o que se sobrepõe à EM/SFC — **nenhum gene, nenhuma proteína e nenhum defeito estrutural foi identificado** apesar de décadas de busca [@MECFSScience2024heds].
 
 Isso cria uma situação desconfortável. O diagnóstico da hEDS baseia-se inteiramente em características clínicas: hipermobilidade articular medida pelo índice Beighton, hyperextensibilidade da pele, dor crónica e histórico familiar. Mas 10–20% da população geral apresenta hipermobilidade articular em algum grau, e estiramento da pele, clique nos joelhos e dor crónica são comuns individualmente [@HakimGrahame2003hypermobility]. Se a hEDS é uma doença distinta ou o final de uma distribuição normal é uma controvérsia atual — e o diagnóstico permanece clínico, não molecular [@Wirth2026CTDMECFS].
 
@@ -79,7 +79,7 @@ Na prática, muitos pacientes têm ambos — laxidade base congênita mais uma c
 
 ### O ciclo de feedback de rigidez da matriz
 
-Os mastócitos se ancoram às proteínas da matriz extracelular (fibronectina, vitronectina) através de receptores de integrina e — criticalamente — através da CADM1, uma molécula de adesão celular que liga fisicamente os mastócitos às terminações nervosas sensoriais. No tecido hiperlaxo, a ECM é mais macia, então a pressão mecânica que seria amortecida numa matriz normal transmite-se à superfície do mastócito com menos atenuação [@Magadmi2019]. Este é um **ciclo de feedback bidirecional positivo**:
+Os mastócitos se ancoram às proteínas da matriz extracelular (fibronectina, vitronectina) através de receptores de integrina e — criticamente — através da CADM1, uma molécula de adesão celular que liga fisicamente os mastócitos às terminações nervosas sensoriais. No tecido hiperlaxo, a ECM é mais macia, então a pressão mecânica que seria amortecida numa matriz normal transmite-se à superfície do mastócito com menos atenuação [@Magadmi2019]. Este é um **ciclo de feedback bidirecional positivo**:
 
 ```
 loose ECM → less mechanical damping → mast cells fire more easily
@@ -98,7 +98,7 @@ A evidência epidemiológica para o enriquecimento da hipermobilidade no EM/SFC 
 **Num registo do Reino Unido de 815 pacientes com EM/SFC:**
 - 81% atenderam aos critérios gerais de Brighton para hipermobilidade
 - 15,5% atenderam aos critérios diagnósticos rigorosos de hEDS de 2017
-- O subgrupo positivo para hipermobilidade apresentou qualidade de vida significativamente pior, mais sintomas autonómicos, taxas mais altas de POTS (33% em comparação com 20%) e taxas mais altas de diagnóstico formal de EDS (29% em comparação com 3%) em comparação com pacientes com EM/SFC não hipermóbiles [@Eccles2021hypermobility]
+- O subgrupo positivo para hipermobilidade apresentou qualidade de vida significativamente pior, mais sintomas autonómicos, taxas mais altas de POTS (33% em comparação com 20%) e taxas mais altas de diagnóstico formal de EDS (29% em comparação com 3%) em comparação com pacientes com EM/SFC não hipermóveis [@Eccles2021hypermobility]
 
 **Nos dados hEDS-autonómicos:**
 - Até 70% dos pacientes com hEDS relatam sintomas de disautonomia
@@ -110,7 +110,7 @@ A evidência epidemiológica para o enriquecimento da hipermobilidade no EM/SFC 
 - Aproximadamente 31% dos pacientes com tanto POTS quanto EDS também têm MCAS, em comparação com 2% daqueles sem EDS — um odds ratio de 32,5, um dos sinais de comorbidade mais fortes em toda a literatura de EM/SFC [@Wang2021triad]
 - Mas uma revisão crítica de 2025 constatou que “um mecanismo patofisiológico com base em evidências, comum entre qualquer uma das duas condições, muito menos entre todas as três, ainda não foi descrito” [@Yao2025MCASPOTStriad] — portanto, a tríade é real em nível epidemiológico, mas as direções causais não estão claramente definidas
 
-**Uma verificação rigorosa.** O perfil autonómico do hEDS — medido pela variabilidade da frequência cardíaca, teste de tilt-table e sensibilidade do baroreflexo — se assemelha mais ao fibromialgia do que a outros subtipos de EDS. Se o hEDS compartilhasse o mesmo mecanismo estrutural de tecido conjuntivo que os EDS clássicos ou vasculares, esperaria-se que fenótipos autonómicos semelhantes existissem entre todos os tipos de EDS. O facto de o hEDS ser o outlier — com um perfil autonómico que se assemelha mais a um distúrbio de sensibilização central do que a uma colagenopatia estrutural — é evidência de que o mecanismo pode não ser o que a narrativa “tecido frouxo → vasos esticados → POTS” implica [@MECFSScience2024heds].
+**Uma verificação rigorosa.** O perfil autonómico do hEDS — medido pela variabilidade da frequência cardíaca, teste de tilt-table e sensibilidade do barorreflexo — se assemelha mais à fibromialgia do que a outros subtipos de EDS. Se o hEDS compartilhasse o mesmo mecanismo estrutural de tecido conjuntivo que os EDS clássicos ou vasculares, esperaria-se que fenótipos autonómicos semelhantes existissem entre todos os tipos de EDS. O facto de o hEDS ser o outlier — com um perfil autonómico que se assemelha mais a um distúrbio de sensibilização central do que a uma colagenopatia estrutural — é evidência de que o mecanismo pode não ser o que a narrativa “tecido frouxo → vasos esticados → POTS” implica [@MECFSScience2024heds].
 
 A posição: **a associação clínica entre hipermobilidade e EM/SFC é real, mas a base mecânica é incerta.** A história do tecido conjuntivo é plausível e internamente consistente; também compete com explicações mais simples (a hipermobilidade e o EM/SFC ocorrem juntas porque ambos são comuns na mesma população; a hipermobilidade amplifica os sintomas sem uma via causal específica). Nenhuma das partes resolveu a questão.
 
@@ -125,7 +125,7 @@ O documento principal identifica cinco vias mecânicas pelas quais a laxidade do
 Esta é a ligação mais bem sustentada e a que explica diretamente a sobreposição com POTS. A anomalia do tecido conjuntivo nas paredes dos vasos sanguíneos tem consequências mensuráveis:
 
 - **Aumento da complacência arterial.** Pacientes com hEDS apresentam velocidade da onda pulsátil significativamente menor do que os controles — as artérias são muito elásticas. Isso prejudica a sinalização barorreflexa: os receptores de estiramento nas paredes dos vasos não conseguem detectar com precisão as mudanças da pressão arterial quando as paredes são excessivamente complacentes, de modo que o cérebro recebe um sinal de pressão degradado [@Hakim2017cardiovascular].
-- **Acúmulo excessivo de sangue venoso.** A anomalia do tecido conjuntivo nas veias permite um distensão excessiva sob pressões hidrostaticas normais. O sangue acumula nos membros inferiores ao ficar em pé, reduzindo o retorno venoso e o précarga cardíaca. O coração acelera para compensar [@Mathias2021dysautonomia].
+- **Acúmulo excessivo de sangue venoso.** A anomalia do tecido conjuntivo nas veias permite uma distensão excessiva sob pressões hidrostáticas normais. O sangue acumula nos membros inferiores ao ficar em pé, reduzindo o retorno venoso e a pré-carga cardíaca. O coração acelera para compensar [@Mathias2021dysautonomia].
 - **Hipoperfusão cerebral segue.** A mesma cadeia — vasos frouxos → mau barorreflexo → acúmulo venoso → taquicardia compensatória → fluxo sanguíneo cerebral insuficiente ao ficar em pé — produz tontura, névoa cerebral e intolerância ortostática indistinguíveis de POTS [@VanCampenEtAl2020].
 
 Esta via não requer nenhuma biologia nova. É uma consequência estrutural direta da mesma anomalia do tecido conjuntivo que torna as articulações hipermóveis, aplicada aos vasos sanguíneos em vez de ligamentos.
@@ -138,7 +138,7 @@ Bragée et al. estudaram 229 pacientes com EM/SFC que apresentavam MRI em posiç
 
 **O limite.** A conexão entre a CCI e EM/SFC permanece em grande parte anedótica. Nenhum estudo controlado estabeleceu a prevalência real da CCI em EM/SFC, se a CCI causa sintomas ou simplesmente ocorre em conjunto, ou quais são os resultados a longo prazo da cirurgia [@Wirth2026CTDMECFS]. Alguns pacientes relatam melhoria drástica após estabilização cirúrgica (uma série relatou taxas de melhoria de 60–80%), mas estes são casos individuais não controlados, e a cirurgia na junção crânio-coluna apresenta riscos sérios, incluindo uma taxa de complicações de 19%. O rastreamento da CCI pode ser apropriado em pacientes com EM/SFC e hipermobilidade, além de sintomas neurológicos progressivos, mas a base de evidência não apoia referências cirúrgicas rotineiras.
 
-### Percurso 3: Matriz extracelular → desregulação de mastócitos (BASTA PROVAS)
+### Percurso 3: Matriz extracelular → desregulação de mastócitos (BAIXA EVIDÊNCIA)
 
 Os mastócitos se ancoram às proteínas da ECM através de integrinas e CADM1. A sinalização bidirecional significa que a composição anormal da ECM pode alterar os limiares de ativação dos mastócitos. A hipótese, desenvolvida extensivamente no documento principal, é que uma ECM mais macia (como na hipermobilidade) transmite força mecânica aos mastócitos com menos amortecimento — portanto, uma determinada pressão no tecido é mais propensa a desgranulação [@Magadmi2019].
 
@@ -150,9 +150,9 @@ A hipótese da resposta de perigo celular propõe que as células danificadas li
 
 **O limite.** Nenhum estudo mediu ATP extracelular ou ativação de receptores purinérgicos em pacientes com hEDS. Este percurso é mecanicamente coerente, mas completamente não validado [@Wirth2026CTDMECFS].
 
-### Percurso 5: Neuropatia de fibra pequena como percurso downstream comum (BASTA PROVAS)
+### Percurso 5: Neuropatia de fibra pequena como percurso downstream comum (EVIDÊNCIA MODERADA)
 
-num estudo, todos os 24 pacientes com hEDS mostraram diminuição na densidade de fibra nervosa intraepidérmica, consistente com a SFN, com 95% atendendo aos critérios para dor neuropática [@Cazzato2016sfn]. Os pacientes com EM/SFC mostram evidências de denervação da fibra C nos testes qualitativos sensoriais, com 31% atendendo aos critérios da POTS e 34% apresentando padrões de SFN não dependentes da extensão [@Azcue2023sfn]. A SFN afeta tanto as fibras sensoriais quanto as autonômicas, explicando a disfunção autonômica generalizada em ambas as condições. A SFN pode ser o ponto onde a anomalia estrutural da EDS e a anomalia funcional da EM/SFC convergem, embora a etiologia seja a mesma em ambas as condições ainda seja desconhecida.
+Num estudo, todos os 24 pacientes com hEDS mostraram diminuição na densidade de fibra nervosa intraepidérmica, consistente com a SFN, com 95% atendendo aos critérios para dor neuropática [@Cazzato2016sfn]. Os pacientes com EM/SFC mostram evidências de denervação da fibra C nos testes qualitativos sensoriais, com 31% atendendo aos critérios da POTS e 34% apresentando padrões de SFN não dependentes da extensão [@Azcue2023sfn]. A SFN afeta tanto as fibras sensoriais quanto as autonômicas, explicando a disfunção autonômica generalizada em ambas as condições. A SFN pode ser o ponto onde a anomalia estrutural da EDS e a anomalia funcional da EM/SFC convergem, embora a etiologia seja a mesma em ambas as condições ainda seja desconhecida.
 
 ---
 
@@ -160,9 +160,9 @@ num estudo, todos os 24 pacientes com hEDS mostraram diminuição na densidade d
 
 Um dos resultados mais notáveis da última década é a relação estatística entre a laxidade do tecido conjuntivo e as condições neurodesenvolvimentais:
 
-- **Autismo + hipermobilidade.** Uma meta-análise de 2025 de 20 estudos constatou 22,3% de hipermobilidade articular em indivíduos autistas (subindo para 31% quando apenas avaliações clínicas foram consideradas). A direção não está estabelecida — a hipermobilidade pode predispor a diferenças no processamento sensorial relacionadas ao autismo através de alterações na sinalização interoceptiva (o cérebro recebe entrada proprioceptiva degradada de juntas laxas), ou os mesmos genes de desenvolvimento podem afetar tanto o tecido conjuntivo quanto o wiring neural [@BaezaVelasco2025autismEDS].
-- **PHDA e autismo em crianças.** num estudo de crianças com hEDS/HSD, 16% atenderam aos critérios de PHDA e 6% aos de autismo — taxas significativamente superiores à população pediátrica geral [@Kindgren2021hEDSadhd].
-- **A via mediadora parece ser a disautonomia.** Um estudo constatou que 51% da coorte de neurodivergentes-hipermóveis tinha hipermobilidade articular, e que a hipermobilidade mediava estatisticamente a relação entre neurodivergência e disautonomia — sugerindo que a característica do tecido conjuntivo é o vínculo físico entre a diferença no wiring neural e os sintomas autonômicos [@Csecs2022hypermobility].
+- **Autismo + hipermobilidade.** Uma meta-análise de 2025 de 20 estudos constatou 22,3% de hipermobilidade articular em indivíduos autistas (subindo para 31% quando apenas avaliações clínicas foram consideradas). A direção não está estabelecida — a hipermobilidade pode predispor a diferenças no processamento sensorial relacionadas ao autismo através de alterações na sinalização interoceptiva (o cérebro recebe entrada proprioceptiva degradada de juntas laxas), ou os mesmos genes de desenvolvimento podem afetar tanto o tecido conjuntivo quanto o circuito neural [@BaezaVelasco2025autismEDS].
+- **PHDA e hEDS em crianças.** Num estudo de crianças com hEDS/HSD, 16% atenderam aos critérios de PHDA e 6% aos de autismo — taxas significativamente superiores à população pediátrica geral [@Kindgren2021hEDSadhd].
+- **A via mediadora parece ser a disautonomia.** Um estudo constatou que 51% da coorte de neurodivergentes-hipermóveis tinha hipermobilidade articular, e que a hipermobilidade mediava estatisticamente a relação entre neurodivergência e disautonomia — sugerindo que a característica do tecido conjuntivo é o vínculo físico entre a diferença no circuito neural e os sintomas autonômicos [@Csecs2022hypermobility].
 
 Esta não é uma afirmação causal. Não significa que a hipermobilidade "causa" autismo ou PHDA, ou que a neurodivergência "causa" a laxidade do tecido. As mesmas vias de desenvolvimento — possivelmente envolvendo proteínas de matriz extracelular compartilhadas que guiam tanto a formação do tecido conjuntivo quanto a migração neural durante a embriogênese — produzem ambos os fenotipos, e a correlação é uma pista para uma biologia compartilhada mais profunda que ainda não entendemos.
 
@@ -192,7 +192,7 @@ Esta previsão tem implicações clínicas diretas: a posição supina e os teci
 
 ## A conclusão
 
-A EDS hipermóbila é uma entidade clínica real — cerca de 1 em 6 pacientes com EM/SFC atende aos critérios de diagnóstico rigorosos, e até 81% são positivos para hipermobilidade em rastros mais amplos — mas não possui defeito molecular identificado, seus limites diagnósticos são contestados, e sua relação mecânica com a EM/SFC é sustentada pela plausibilidade fisiológica mais do que por evidências diretas [@Eccles2021hypermobility][@MECFSScience2024heds].
+A EDS hipermóvel é uma entidade clínica real — cerca de 1 em 6 pacientes com EM/SFC atende aos critérios de diagnóstico rigorosos, e até 81% são positivos para hipermobilidade em rastros mais amplos — mas não possui defeito molecular identificado, seus limites diagnósticos são contestados, e sua relação mecânica com a EM/SFC é sustentada pela plausibilidade fisiológica mais do que por evidências diretas [@Eccles2021hypermobility][@MECFSScience2024heds].
 
 A biologia mais profunda, desenvolvida extensivamente no documento principal, propõe que a hipermobilidade não é apenas uma característica congênita, mas pode ser *adquirida* através da degradação de colágeno mediada por mastócitos (triptase → MMP-3/-13, quimase → MMP-1, histaminilação), e que o ciclo de retroalimentação de rigidez da matriz cria um sistema bistável que, uma vez virado, pode não recuperar espontaneamente [@Loth2026website][@Zhu2026HistaminylationCollagen]. Uma pequena fração (~5–10%) da hipermobilidade é explicada pela insuficiência do haplo de TNXB, um mecanismo genético independente [@Imanaka2026TNXBHypermobility].
 

@@ -1,19 +1,19 @@
 ---
 title: "Depressão, Burnout, EM/SFC: Três Doenças, Uma Palavra"
-description: "Uma mulher na casa dos trinta anos diz ao seu médico que está exausta. Ela não consegue trabalhar. Apenas consegue passar o dia. Ela costumava correr meias-maratones e agora não consegue caminhar até a loja do centro da cidade sem consequências que duram dias."
+description: "Uma mulher na casa dos trinta anos diz ao seu médico que está exausta. Ela não consegue trabalhar. Apenas consegue passar o dia. Ela costumava correr meias-maratonas e agora não consegue caminhar até a loja do centro da cidade sem consequências que duram dias."
 author: "Yannick Loth"
 date: "2026-06-10"
 categories: [Misdiagnosis, Comorbidities, Diagnostics]
 lang: pt
 ---
 
-Uma mulher na casa dos trinta anos diz ao seu médico que está exausta. Ela não consegue trabalhar. Apenas consegue sobreviver ao dia. Antigamente participava de meias-maratones e agora não consegue caminhar até a loja sem consequências que duram dias.
+Uma mulher na casa dos trinta anos diz ao seu médico que está exausta. Ela não consegue trabalhar. Apenas consegue sobreviver ao dia. Antigamente participava de meias-maratonas e agora não consegue caminhar até a loja sem consequências que duram dias.
 
-O médico vê uma jovem com exames de sangue normais que diz estar cansada. A diferenciação é curta: depressão, estresse, burnout. Talvez tiróide, mas o TSH está normal. Um antidepressivo é prescrito. É feito um encaminhamento a um psicólogo. Exercícios graduados são recomendados — comece pequeno, vá aumentando, você se sentirá melhor quando voltar a se mover.
+O médico vê uma jovem com exames de sangue normais que diz estar cansada. A diferenciação é curta: depressão, stresse, burnout. Talvez tiróide, mas o TSH está normal. Um antidepressivo é prescrito. É feito um encaminhamento a um psicólogo. Exercícios graduados são recomendados — começa pequeno, vais aumentando, sentir-te-ás melhor quando voltares a mover-te.
 
-Ela tenta. Exercita-se. Tem uma crise tão grave que não consegue sair da cama por uma semana. Diz ao médico. O médico ajusta o antidepressivo. Ela tenta novamente. Tem outra crise, ainda pior desta vez. O médico suspeita que ela não está realmente tentando, ou que a depressão seja mais grave do que inicialmente avaliada. Um antidepressivo mais forte é prescrito. Talvez um encaminhamento para hospital.
+Ela tenta. Exercita-se. Tem uma crise tão grave que não consegue sair da cama por uma semana. Diz ao médico. O médico ajusta o antidepressivo. Ela tenta novamente. Tem outra crise, ainda pior desta vez. O médico suspeita que ela não está realmente a tentar, ou que a depressão seja mais grave do que inicialmente avaliada. Um antidepressivo mais forte é prescrito. Talvez um encaminhamento para hospital.
 
-Em nenhum momento desta sequência alguém fez a pergunta que mudaria tudo: o exercício faz você se sentir melhor ou pior?
+Em nenhum momento desta sequência alguém fez a pergunta que mudaria tudo: o exercício faz-te sentir melhor ou pior?
 
 ---
 
@@ -27,13 +27,13 @@ Elas são biologicamente não relacionadas. Seus tratamentos são incompatíveis
 
 ## Depressão: o circuito de recompensa que ficou silencioso
 
-O transtorno depressivo majeur, em seu núcleo biológico, é um distúrbio do processamento de recompensa e da sinalização de monoaminas. A anedonia — a incapacidade de sentir prazer ou antecipá-lo — não é uma tristeza metafórica, mas um déficit mensurável na função dopaminérgica e serotonérgica. A neuroimagem mostra redução da atividade no estriado ventral e no córtex pré-frontal durante tarefas de recompensa [@Pizzagalli2009reward].
+O transtorno depressivo major, em seu núcleo biológico, é um distúrbio do processamento de recompensa e da sinalização de monoaminas. A anedonia — a incapacidade de sentir prazer ou antecipá-lo — não é uma tristeza metafórica, mas um déficit mensurável na função dopaminérgica e serotonérgica. A neuroimagem mostra redução da atividade no estriado ventral e no córtex pré-frontal durante tarefas de recompensa [@Pizzagalli2009reward].
 
-A fadiga da depressão é principalmente amotivação: o corpo pode realizar atividades, mas o cérebro não gera o impulso para começar. Um paciente deprimido colocado num ambiente estruturado externamente — uma sessão de fisioterapia, uma caminhada com um amigo que insiste — frequentemente descobre que a atividade em si é gerenciável, até mesmo ligeiramente agradável. A barreira era o início, não a capacidade.
+A fadiga da depressão é principalmente amotivação: o corpo pode realizar atividades, mas o cérebro não gera o impulso para começar. Um paciente deprimido colocado num ambiente estruturado externamente — uma sessão de fisioterapia, uma caminhada com um amigo que insiste — frequentemente descobre que a atividade em si é gerível, até mesmo ligeiramente agradável. A barreira era o início, não a capacidade.
 
-O exercício é verdadeiramente terapêutico para a depressão. Não como uma afirmação genérica, mas como uma ação farmacológica: aumenta o BDNF, promove a neurogênese do hipocampo, normaliza a função do eixo hipotálamo-hipófise-suprarrenal e regula a transmissão de monoaminas [@Schuch2016exerciseDepression]. As meta-análises mostram consistentemente tamanhos de efeito comparáveis aos antidepresivos para a depressão leve a moderada.
+O exercício é verdadeiramente terapêutico para a depressão. Não como uma afirmação genérica, mas como uma ação farmacológica: aumenta o BDNF, promove a neurogênese do hipocampo, normaliza a função do eixo hipotálamo-hipófise-suprarrenal e regula a transmissão de monoaminas [@Schuch2016exerciseDepression]. As meta-análises mostram consistentemente tamanhos de efeito comparáveis aos antidepressivos para a depressão leve a moderada.
 
-**O padrão de cortisol na depressão** é hiperativo. O eixo hipotálamo-hipófise-suprarrenal é excessivamente responsivo: cortisol elevado, resposta de despertar de cortisol exagerada, inibição de feedback atenuada. A resposta ao estresse funciona demais.
+**O padrão de cortisol na depressão** é hiperativo. O eixo hipotálamo-hipófise-suprarrenal é excessivamente responsivo: cortisol elevado, resposta de despertar de cortisol exagerada, inibição de feedback atenuada. A resposta ao stresse funciona demais.
 
 **O padrão de sono** inclui acordar cedo pela manhã, redução da latência REM e perturbação do sono de ondas lentas — mas, crucialmente, a privação de sono pode temporariamente *melhorar* o humor na depressão. Isso é paradoxal e específico: reflete o papel do sono na consolidação de memórias emocionais negativas. A depressão é uma das poucas condições em que menos sono pode ajudar temporariamente.
 
@@ -41,13 +41,13 @@ O exercício é verdadeiramente terapêutico para a depressão. Não como uma af
 
 ## Burnout: o poço que secou
 
-O burnout é um fenómeno ocupacional — reconhecido na ICD-11 como um síndrome resultante de estresse crónico no local de trabalho que não foi gerido com sucesso. É caracterizado por três dimensões: exaustão, cinismo/depersonalização e redução da eficácia profissional [@Maslach2016burnout].
+O burnout é um fenómeno ocupacional — reconhecido na ICD-11 como uma síndrome resultante de stresse crónico no local de trabalho que não foi gerido com sucesso. É caracterizado por três dimensões: exaustão, cinismo/depersonalização e redução da eficácia profissional [@Maslach2016burnout].
 
 A fadiga do burnout é a exaustão de um sistema que opera com alta produção sem recuperação adequada. A diferença em relação à depressão: o burnout tem um motor externo claro, e a remoção desse motor leva à recuperação. Um professor exausto que toma um período sabático de seis meses normalmente se recupera. Uma pessoa deprimida que toma o mesmo período sabático não se recupera — porque o motor é interno.
 
-**O padrão de cortisol no burnout** começa a ser hiperativo (como na depressão) mas evolui para um estado de atenuação com crónica. No estágio avançado do burnout, pode-se observar a mesma curva de cortisol plana que no EM/SFC, o que explica por que o burnout de longa duração pode ser difícil de distinguir do EM/SFC inicial.
+**O padrão de cortisol no burnout** começa a ser hiperativo (como na depressão) mas evolui para um estado de atenuação com a cronicidade. No estágio avançado do burnout, pode-se observar a mesma curva de cortisol plana que no EM/SFC, o que explica por que o burnout de longa duração pode ser difícil de distinguir do EM/SFC inicial.
 
-**Exercício no burnout** é geralmente benéfico — ajuda na recuperação quando combinado com a redução do estresse. Mas o exercício sozinho, sem abordar a fonte da demanda crónica, é insuficiente.
+**Exercício no burnout** é geralmente benéfico — ajuda na recuperação quando combinado com a redução do stresse. Mas o exercício sozinho, sem abordar a fonte da demanda crónica, é insuficiente.
 
 **A distinção crítica em relação ao EM/SFC:** o burnout melhora com descanso. Descanso genuíno e sustentado — não um fim de semana, mas semanas ou meses com redução da demanda — reverte a exaustão. Se o descanso não ajudar, o burnout é o diagnóstico errado.
 
@@ -55,11 +55,11 @@ A fadiga do burnout é a exaustão de um sistema que opera com alta produção s
 
 ## EM/SFC: a máquina que quebrou
 
-A EM/SFC é uma doença neuroimune caracterizada pelo mal-estar pós-esforço — uma resposta patológica ao esforço que produz deterioração retardada, desproporcional e prolongada nas funções físicas, cognitivas e neurológicas. O relatório da IOM de 2015 identificou o mal-estar pós-esforço como a característica central: “os pacientes têm uma incapacidade patológica de produzir energia suficiente conforme a necessidade” [@IOM2015].
+A EM/SFC é uma doença neuroimune caracterizada pelo mal-estar pós-esforço (PEM) — uma resposta patológica ao esforço que produz deterioração retardada, desproporcional e prolongada nas funções físicas, cognitivas e neurológicas. O relatório da IOM de 2015 identificou o PEM como a característica central: “os pacientes têm uma incapacidade patológica de produzir energia suficiente conforme a necessidade” [@IOM2015].
 
-A fadiga não é amotivação (o cérebro quer agir, mas o corpo não consegue produzir energia suficiente) e não é descondicionamento (o exercício piora a situação, e não melhora, como demonstrado no teste CPET de 2 dias). É metabólica: função mitocôndria prejudicada, utilização alterada de substratos, lactato elevado em cargas de trabalho em repouso, ativação imune após o esforço.
+A fadiga não é amotivação (o cérebro quer agir, mas o corpo não consegue produzir energia suficiente) e não é descondicionamento (o exercício piora a situação, e não melhora, como demonstrado no teste CPET de 2 dias). É metabólica: função mitocondrial prejudicada, utilização alterada de substratos, lactato elevado em cargas de trabalho em repouso, ativação imune após o esforço.
 
-**O padrão de cortisol na EM/SFC** é atenuado — produção total reduzida, curva diurna achatada, ausência ou diminuição da resposta de despertar de cortisol [@papadopoulos2009hypothalamus]. Isso é o oposto do hiperativo sistema HPA da depressão. A resposta ao estresse é muito fraca.
+**O padrão de cortisol na EM/SFC** é atenuado — produção total reduzida, curva diurna achatada, ausência ou diminuição da resposta de despertar de cortisol [@papadopoulos2009hypothalamus]. Isso é o oposto do hiperativo sistema HPA da depressão. A resposta ao stresse é muito fraca.
 
 **A resposta ao exercício** é o teste de diagnóstico. Se o exercício consistentemente produz deterioração retardada (24-72 horas depois, durando dias a semanas, desproporcional ao esforço), não é depressão e não é burnout. O teste CPET de 2 dias confirma isso objetivamente: limite ventilatório reduzido, VO2 máximo reduzido e transição anaeróbica mais precoce no segundo dia. Nenhuma outra condição de fadiga mostra esse padrão.
 
@@ -93,10 +93,10 @@ Cinco perguntas distinguem estas três condições num encontro clínico:
 
 **5. Houve um gatilho claro?**
 - Início gradual ligado a uma demanda profissional contínua → burnout
-- Início gradual sem estresse externo proporcional → depressão
+- Início gradual sem stresse externo proporcional → depressão
 - Início súbito após infeção, cirurgia, trauma ou evento identificável → EM/SFC (em cerca de 70% dos casos)
 
-Nenhuma única pergunta é diagnóstica. O padrão em todas as cinco é o mesmo.
+Nenhuma única pergunta é diagnóstica. O padrão das cinco juntas é diagnóstico.
 
 ---
 
@@ -104,7 +104,7 @@ Nenhuma única pergunta é diagnóstica. O padrão em todas as cinco é o mesmo.
 
 Existe um quarto estado de fadiga que não se enquadra perfeitamente nos três anteriores e é cada vez mais reconhecido: burnout autista. Este não é burnout profissional com um diagnóstico de autismo associado. É um fenómeno específico: a depleção progressiva de energia resultante da mascaramento contínuo de traços autistas em ambientes neurotípicos.
 
-Mascaramento — suprimir estímulos, forçar contacto visual, monitorizar e imitar sinais sociais em tempo real, gerir a sobrecarga sensorial sem demonstrar sofrimento — é cognitivo e metabólico dispendioso. Exige uma função executiva contínua que pessoas neurotípicas não dispõem. Ao longo de meses e anos, esta exposição crónica esgota as reservas. A crise, quando ocorre, se assemelha a EM/SFC: fadiga profunda, desligamento cognitivo, hiperreatividade sensorial e retirada.
+Mascaramento — suprimir a autoestimulação, forçar contacto visual, monitorizar e imitar sinais sociais em tempo real, gerir a sobrecarga sensorial sem demonstrar sofrimento — é cognitivo e metabólico dispendioso. Exige uma função executiva contínua que pessoas neurotípicas não dispõem. Ao longo de meses e anos, esta exposição crónica esgota as reservas. A crise, quando ocorre, se assemelha a EM/SFC: fadiga profunda, desligamento cognitivo, hiperreatividade sensorial e retirada.
 
 A distinção chave: o burnout autista resolve-se quando as exigências de mascaramento são reduzidas. Uma pessoa autista que passa para um ambiente sensorialmente amigável com exigências sociais reduzidas normalmente recupera, por vezes rapidamente. Se o burnout persistiu durante anos, a recuperação pode ser mais lenta e incompleta — mas a trajetória é de melhoria uma vez que a fonte da exigência seja abordada.
 

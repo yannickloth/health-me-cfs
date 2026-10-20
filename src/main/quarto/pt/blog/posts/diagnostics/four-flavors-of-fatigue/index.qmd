@@ -1,5 +1,5 @@
 ---
-title: "As Quatro Sintomas de Cansaço que a Medicina Pretende Ser Uma Coisa"
+title: "Os Quatro Sabores de Fadiga que a Medicina Finge Serem Uma Coisa Só"
 description: "Estou cansado."
 author: "Yannick Loth"
 date: "2026-06-04"
@@ -13,33 +13,33 @@ Uma mãe de 32 anos diz isso ao seu médico de família. Ela quer dizer que não
 
 Um executivo de 45 anos diz as mesmas três palavras ao mesmo médico de família uma hora depois. Ele quer dizer que não consegue reunir a vontade de abrir o seu computador portátil. Ele dormiu quatro horas. Ele poderia correr fisicamente as escadas se o prédio estivesse em chamas. O seu corpo funciona. A sua motivação não.
 
-O médico de família ouve "Estou cansado" duas vezes e abre o mesmo registo diferencial: tiróide, ferro, depressão. A língua inglesa tem uma palavra para pelo menos quatro estados biológicos não relacionados. Esta pobreza linguística não é uma curiosidade. Ela leva a diagnósticos errados, tratamentos inadequados e danos mensuráveis.
+O médico de família ouve "Estou cansado" duas vezes e abre o mesmo diagnóstico diferencial: tiróide, ferro, depressão. A língua inglesa tem uma palavra para pelo menos quatro estados biológicos não relacionados. Esta pobreza linguística não é uma curiosidade. Ela leva a diagnósticos errados, tratamentos inadequados e danos mensuráveis.
 
 ---
 
 ## Os quatro estados
 
-**Fadiga periférica** é a incapacidade dos músculos de gerar força. Tem uma fisiologia específica: esgotamento de ATP nos miocitos, lactato e íons de hidrogênio acumulados, e deficiência na liberação de cálcio do retículo sarcoplasmático. Pode-se medir com um dinamômetro — o músculo literalmente não consegue contrair com tanta força. Um corredor de maratona no kilômetro 38 apresenta fadiga periférica. Ela resolve-se com descanso, reposição de glicogênio e tempo. O mecanismo é local, a recuperação é previsível, e ninguém discute se é real.
+**Fadiga periférica** é a incapacidade dos músculos de gerar força. Tem uma fisiologia específica: esgotamento de ATP nos miócitos, lactato e iões de hidrogénio acumulados, e deficiência na libertação de cálcio do retículo sarcoplasmático. Pode-se medir com um dinamómetro — o músculo literalmente não consegue contrair com tanta força. Um corredor de maratona no quilómetro 38 apresenta fadiga periférica. Ela resolve-se com descanso, reposição de glicogénio e tempo. O mecanismo é local, a recuperação é previsível, e ninguém discute se é real.
 
-**Fadigabilidade** — também chamada de mal-estar pós-esforço — é diferente da fadiga por uma dimensão que a maioria dos clínicos não pensa em considerar: o tempo. A característica definidora é o atraso. O esforço ocorre na segunda-feira. O colapso acontece na terça ou quarta-feira. Entre o esforço e o colapso, o paciente pode se sentir bem ou até energizado. Depois, o mundo desaba. A função cognitiva degrada. A dor aumenta. Atividades básicas tornam-se impossíveis. A recuperação leva dias a semanas, não horas. Esta é a característica principal da EM/SFC, e não tem equivalente em nenhum outro estado que use a palavra “fadiga”. Não é a incapacidade dos músculos sob carga. É uma crise metabólica sistêmica que segue o esforço com um atraso característico [@Jason2015CFSvsME; @VanNess2010PEM].
+**Fadigabilidade** — também chamada de mal-estar pós-esforço — é diferente da fadiga por uma dimensão que a maioria dos clínicos não pensa em considerar: o tempo. A característica definidora é o atraso. O esforço ocorre na segunda-feira. O colapso acontece na terça ou quarta-feira. Entre o esforço e o colapso, o paciente pode se sentir bem ou até energizado. Depois, o mundo desaba. A função cognitiva degrada. A dor aumenta. Atividades básicas tornam-se impossíveis. A recuperação leva dias a semanas, não horas. Esta é a característica principal da EM/SFC, e não tem equivalente em nenhum outro estado que use a palavra “fadiga”. Não é a incapacidade dos músculos sob carga. É uma crise metabólica sistémica que segue o esforço com um atraso característico [@Jason2015CFSvsME; @VanNess2010PEM].
 
-**Sonolência** (somnolência) é a tendência a adormecer. É impulsionada pela acumulação de adenosina e pela pressão circadiana. Uma pessoa com narcolepsia está sonolenta. Uma pessoa que dormiu três horas está sonolenta. Podem ser distinguidas de pacientes fatigados por um observação: colocá-las num quarto escuro e silencioso, e elas adormem em minutos. Um paciente com fadigabilidade do tipo EM/SFC, colocado no mesmo quarto, muitas vezes não consegue adormecer — o estado “cansado, mas alerta” em que exaustão e insônia coexistem. A sonolência responde a estimulantes, cafeína e sono. A fadigabilidade não.
+**Sonolência** (somnolência) é a tendência a adormecer. É impulsionada pela acumulação de adenosina e pela pressão circadiana. Uma pessoa com narcolepsia está sonolenta. Uma pessoa que dormiu três horas está sonolenta. Podem ser distinguidas de pacientes fatigados por uma observação: colocá-las num quarto escuro e silencioso, e elas adormecem em minutos. Um paciente com fadigabilidade do tipo EM/SFC, colocado no mesmo quarto, muitas vezes não consegue adormecer — o estado “cansado, mas alerta” em que exaustão e insónia coexistem. A sonolência responde a estimulantes, cafeína e sono. A fadigabilidade não.
 
-**Amotivação** (anergia) é a ausência de motivação para iniciar ação. O corpo pode executar a ação; o cérebro não emite o comando. Isso é principalmente dopaminérgico — um déficit no circuito de recompensa-predicação que atribui valor às ações futuras e gera o impulso para iniciá-las. A depressão produz amotivação. O PHDA executivo também, embora por um mecanismo diferente: não é a ausência de avaliação de recompensa, mas a incapacidade de traduzir essa avaliação em início de ação sem suficiente ênfase. O paciente com amotivação muitas vezes pode executar a ação quando forçado externamente — o bombeiro que não sente motivação, mas ainda corre para o prédio. O paciente com fadiga periférica ou fadigabilidade não pode.
+**Amotivação** (anergia) é a ausência de motivação para iniciar ação. O corpo pode executar a ação; o cérebro não emite o comando. Isso é principalmente dopaminérgico — um déficit no circuito de recompensa-predicação que atribui valor às ações futuras e gera o impulso para iniciá-las. A depressão produz amotivação. A disfunção executiva da PHDA também, embora por um mecanismo diferente: não é a ausência de avaliação de recompensa, mas a incapacidade de traduzir essa avaliação em início de ação sem suficiente saliência. O paciente com amotivação muitas vezes pode executar a ação quando forçado externamente — o bombeiro que não sente motivação, mas ainda corre para o prédio. O paciente com fadiga periférica ou fadigabilidade não pode.
 
 ---
 
 ## Por que a confusão é fatal
 
-Os quatro estados têm tratamentos diferentes. Aplicar o tratamento para um paciente com outro varia de inútil a perigoso.
+Os quatro estados têm tratamentos diferentes. Aplicar o tratamento de um a um paciente que sofre de outro varia de inútil a perigoso.
 
 **Exercício** é terapêutico para a amotivação causada pela depressão. Existe forte evidência de que melhora o humor, restaura a função dopaminérgica e interrompe o ciclo de abstinência de atividade. Os clínicos sabem isso. Eles a generalizam. Um paciente que diz "estou cansado" e não tem exames de sangue anormais recebe terapia de exercício gradual ou é encorajado a "superar".
 
 Se aquele paciente apresenta fatigabilidade do tipo EM/SFC, o exercício não falha apenas — causa uma deterioração fisiológica mensurável. O teste de exercício cardiopulmonar de dois dias (CPET) mostra que pacientes com EM/SFC que exercitam até o limite no primeiro dia têm um limite de ventilação reduzido, consumo de oxigénio máximo diminuído e transição anaeróbica mais precoce no segundo dia [@Snell2013CPET]. O estado é objetivamente pior após a atividade. Isso é o oposto da descondição, onde o desempenho no segundo dia é preservado ou melhorado. A terapia de exercício gradual aplicada a pacientes com EM/SFC no estudo PACE resultou em relatos de deterioração significativa do paciente — e nenhuma melhoria objetiva nos critérios do próprio estudo quando o protocolo foi reanalisado independentemente [@Wilshire2018].
 
-**Estimulantes** (metilfenidato, modafinilo) ajudam na amotivação e sonolência. Eles aumentam o tónus dopaminérgico e noradrenérgico, melhorando a motivação e a alerta. Na PHDA, são a primeira linha de tratamento. Na EM/SFC, podem melhorar temporariamente a função cognitiva e reduzir a sensação de neblina — mas não impedem a PEM e podem piorá-la ao mascarar sinais de alerta. Um paciente que usa estimulantes sente-se capaz de fazer mais, faz mais e sofre uma crise mais grave.
+**Estimulantes** (metilfenidato, modafinilo) ajudam na amotivação e sonolência. Eles aumentam o tónus dopaminérgico e noradrenérgico, melhorando a motivação e o estado de alerta. Na PHDA, são a primeira linha de tratamento. Na EM/SFC, podem melhorar temporariamente a função cognitiva e reduzir a sensação de neblina — mas não impedem a PEM e podem piorá-la ao mascarar sinais de alerta. Um paciente que usa estimulantes sente-se capaz de fazer mais, faz mais e sofre uma crise mais grave.
 
-**Sono** resolve a sonolência por definição. Parcialmente resolve a fatiga periférica através da reposição de glicogénio e reparação tecidual. Não resolve a fatigabilidade da EM/SFC — os pacientes relatam um sono insuficiente independentemente da duração, e o mecanismo subjacente à PEM não é responsivo ao sono. E também não resolve a amotivação — um paciente deprimido pode dormir doze horas e acordar com a mesma ausência de motivação.
+**Sono** resolve a sonolência por definição. Parcialmente resolve a fatiga periférica através da reposição de glicogénio e reparação tecidual. Não resolve a fatigabilidade da EM/SFC — os pacientes relatam um sono não reparador independentemente da duração, e o mecanismo subjacente à PEM não é responsivo ao sono. E também não resolve a amotivação — um paciente deprimido pode dormir doze horas e acordar com a mesma ausência de motivação.
 
 ---
 
@@ -49,25 +49,25 @@ Se aquele paciente apresenta fatigabilidade do tipo EM/SFC, o exercício não fa
 
 Especificamente:
 
-1. **Os seus músculos falham sob carga?** (A força de preensão diminui durante esforço contínuo, as pernas não conseguem subir escadas) → Cansaço periférico. Verificar: dinâmometria, CK, EMG. Considerar: doença mitocondrial, miastenia gravis, descondicionamento, anemia.
+1. **Os seus músculos falham sob carga?** (A força de preensão diminui durante esforço contínuo, as pernas não conseguem subir escadas) → Fadiga periférica. Verificar: dinamometria, CK, EMG. Considerar: doença mitocondrial, miastenia gravis, descondicionamento, anemia.
 
-2. **Você desmorona 24-72 horas após a atividade, não durante ela?** → Fatigabilidade / PEM. Verificar: 2-dia CPET, diário de atividade e sintomas com rastreamento de atraso. Considerar: EM/SFC, síndrome pós-infecciosa.
+2. **Você desmorona 24-72 horas após a atividade, não durante ela?** → Fatigabilidade / PEM. Verificar: CPET de 2 dias, diário de atividade e sintomas com registo do atraso. Considerar: EM/SFC, síndrome pós-infecciosa.
 
-3. **Você adormece involuntariamente em situações passivas?** → Sonolência. Verificar: Escala de Sonolidade de Epworth, polissomnografia, MSLT. Considerar: apneia do sono, narcolepsia, hipersomnia idiopática, privação do sono.
+3. **Você adormece involuntariamente em situações passivas?** → Sonolência. Verificar: Escala de Sonolência de Epworth, polissomnografia, MSLT. Considerar: apneia do sono, narcolepsia, hipersomnia idiopática, privação do sono.
 
-4. **O seu corpo pode realizar as atividades, mas você não consegue iniciar?** → Amotivação. Verificar: PHQ-9, rastreamento de PHDA, avaliação de anedonia. Considerar: depressão, PHDA, déficit dopaminérgico, burnout.
+4. **O seu corpo pode realizar as atividades, mas você não consegue iniciar?** → Amotivação. Verificar: PHQ-9, rastreio de PHDA, avaliação de anedonia. Considerar: depressão, PHDA, déficit dopaminérgico, burnout.
 
-A maioria dos pacientes tem um sabor dominante, mas elementos de mais de um. Um paciente com EM/SFC geralmente apresenta fatigabilidade (primária) mais cansaço periférico (secundário, devido ao descondicionamento) mais distúrbios do sono (contribuindo) e possível amotivação (devido à depressão causada pela doença crónica). A questão clínica não é qual deles eles têm — é qual é o principal, pois o mecanismo principal determina se o exercício ajuda ou prejudica.
+A maioria dos pacientes tem um sabor dominante, mas elementos de mais de um. Um paciente com EM/SFC geralmente apresenta fatigabilidade (primária) mais fadiga periférica (secundário, devido ao descondicionamento) mais distúrbios do sono (contribuindo) e possível amotivação (devido à depressão causada pela doença crónica). A questão clínica não é qual deles eles têm — é qual é o principal, pois o mecanismo principal determina se o exercício ajuda ou prejudica.
 
 ---
 
 ## O problema da linguagem é estrutural
 
-Isso não é um apelo aos pacientes para "descrever seus sintomas melhor". A carga recai sobre a medicina, não sobre os pacientes. Os instrumentos de avaliação clínica que utilizam uma única escala de fadiga — uma escala visual analógica de 0 a 10 ou uma lista de verificação que pergunta "você sente fadiga: sim/nega" — são estruturalmente incapazes de distinguir os quatro estados. Eles misturam patofisiologias distintas numa única dimensão e, em seguida, se perguntam por que o tratamento não funcionou.
+Isso não é um apelo aos pacientes para "descrever seus sintomas melhor". A carga recai sobre a medicina, não sobre os pacientes. Os instrumentos de avaliação clínica que utilizam uma única escala de fadiga — uma escala visual analógica de 0 a 10 ou uma lista de verificação que pergunta "você sente fadiga: sim/não" — são estruturalmente incapazes de distinguir os quatro estados. Eles misturam fisiopatologias distintas numa única dimensão e, em seguida, se perguntam por que o tratamento não funcionou.
 
 A Escala de Fadiga Chalder, utilizada no estudo PACE para afirmar que a terapia de exercício gradual "funcionou" para EM/SFC, não distingue a fadiga de qualquer outra forma de cansaço. Um paciente pode melhorar na escala Chalder ao se tornar menos deprimido, enquanto desenvolve uma PEM pior. Isso não é uma preocupação teórica.
 
-Uma avaliação clínica que pergunta "você sente fadiga?" está perguntando "você sente patologia?" A resposta é sempre sim. Isso não diz nada sobre qual patologia, qual mecanismo ou qual tratamento. É uma pergunta projetada para a epidemiologia, não para o paciente individual sentado à sua frente.
+Uma avaliação clínica que pergunta "você sente fadiga?" está a perguntar "você sente patologia?" A resposta é sempre sim. Isso não diz nada sobre qual patologia, qual mecanismo ou qual tratamento. É uma pergunta projetada para a epidemiologia, não para o paciente individual sentado à sua frente.
 
 A solução não é complicada. Pergunte sobre o momento. Pergunte sobre o atraso. Pergunte sobre a resposta ao exercício. Pergunte se o paciente pode realizar atividades quando forçado externamente. Quatro perguntas, cinco minutos, e a diferenciação se estreita de "fadiga: veja tudo" para uma categoria mecânica específica, com testes de diagnóstico específicos e implicações de tratamento específicas.
 

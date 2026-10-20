@@ -1,31 +1,31 @@
 ---
-title: "Por que seus medicamentos para sono não estão resolvendo seu sono insuficiente"
-description: "Você começou a usar trazodona. O seu rastreador de sono mostra mais sono profundo. Você está dormindo a noite toda pela primeira vez em anos. E ainda acorda exausto."
+title: "Por que os seus medicamentos para o sono não estão a resolver o seu sono não reparador"
+description: "Você começou a usar trazodona. O seu rastreador de sono mostra mais sono profundo. Você está a dormir a noite toda pela primeira vez em anos. E ainda acorda exausto."
 author: "Yannick Loth"
 date: "2026-06-16"
 categories: [Sleep, Glymphatic System, Treatment]
 lang: pt
 ---
 
-Você começou a usar trazodona. O seu rastreador de sono mostra mais sono profundo. Você está dormindo a noite toda pela primeira vez em anos. E ainda acorda exausto.
+Você começou a usar trazodona. O seu rastreador de sono mostra mais sono profundo. Você está a dormir a noite toda pela primeira vez em anos. E ainda acorda exausto.
 
 Isso é biologia, não falha no tratamento.
 
 ---
 
-## A Bomba vs. As Tubos
+## A Bomba vs. Os Tubos
 
-O cérebro possui um sistema de eliminação de resíduos — o sistema glifático [@Xie2013glymphatic] — que funciona durante o sono de ondas lentas. Pense nisso como uma rede de bomba e tubo: as oscilações de noradrenalina impulsionam a vasomotion cerebral (a bomba), que impulsiona o líquido cefalorraquidiano através dos espaços perivasculares cercados por pés astrocitários (os tubos), eliminando resíduos metabólicos — tau, amiloido, mediadores inflamatórios.
+O cérebro possui um sistema de eliminação de resíduos — o sistema glifático [@Xie2013glymphatic] — que funciona durante o sono de ondas lentas. Pense nisso como uma rede de bomba e tubo: as oscilações de noradrenalina impulsionam a vasomotilidade cerebral (a bomba), que impulsiona o líquido cefalorraquidiano através dos espaços perivasculares cercados por pés astrocitários (os tubos), eliminando resíduos metabólicos — tau, amiloide, mediadores inflamatórios.
 
-Medicamentos para o sono, como a trazodona e os DORAs [@Hauglund2025neVasomotion], podem restaurar a bomba em poucos dias. Eles aumentam a duração do sono de ondas lentas, normalizam a potência delta e consolida a estrutura do sono. Os resultados podem ser medidos no EEG na primeira noite.
+Medicamentos para o sono, como a trazodona e os DORAs [@Hauglund2025neVasomotion], podem restaurar a bomba em poucos dias. Eles aumentam a duração do sono de ondas lentas, normalizam a potência delta e consolidam a arquitetura do sono. Os resultados podem ser medidos no EEG na primeira noite.
 
 Mas os tubos? Após anos de sono não restaurador, eles não são os mesmos tubos com os quais você começou.
 
 ---
 
-## Que anos de sono ruim afetam os canais
+## O que anos de sono ruim fazem aos tubos
 
-A deficiência crónica na função glilâmica causa danos estruturais em três locais, e cada um se repara num ritmo diferente:
+A deficiência crónica na função glifática causa danos estruturais em três locais, e cada um se repara num ritmo diferente:
 
 | Componente | O que é danificado | Tempo de reparação estrutural | Relação com a bomba |
 |-----------|-------------------|------------------------------|---------------------|
@@ -33,7 +33,7 @@ A deficiência crónica na função glilâmica causa danos estruturais em três 
 | Pés astrocitários | Retraídos das paredes dos vasos — área de contacto reduzida para troca de fluidos | 3–6 meses | ~40× |
 | Membrana basal perivascular | Espessada e fibrótica — a meia-vida do colágeno IV é de 120–300 dias | 6–18 meses | ~100× |
 
-A bomba (arquitetura do sono) se normaliza em ~5 dias. A recuperação estrutural completa dos canais leva ~12 meses. **Composição ponderada: ~70× o período de restauração.**
+A bomba (arquitetura do sono) se normaliza em ~5 dias. A recuperação estrutural completa dos tubos leva ~12 meses. **Composição ponderada: ~70× o período de restauração.**
 
 Este não é um número preciso. É uma estimativa de ordem de magnitude baseada na biologia do transporte de proteínas, da reorganização do citoesqueleto e da rotatividade da matriz extracelular. Mas a mensagem é a mesma: seus medicamentos para sono resolveram o problema agudo numa semana. O problema crónico levará a maior parte do ano.
 
@@ -41,32 +41,32 @@ Este não é um número preciso. É uma estimativa de ordem de magnitude baseada
 
 ## A Trajetória Mensal
 
-**Semana 1:** A arquitetura do sono se normaliza [@Holth2019tauSleep]. Você dorme a noite toda. Acorda ainda cansado. Isso é esperado — a bomba está funcionando, os tubos ainda estão danificados.
+**Semana 1:** A arquitetura do sono se normaliza [@Holth2019tauSleep]. Você dorme a noite toda. Acorda ainda cansado. Isso é esperado — a bomba está a funcionar, os tubos ainda estão danificados.
 
-**Semanas 2–8:** A imagem DTI-ALPS [@NematGorgani2025GlymphaticMECFS] mostra que a função glilâmica melhora talvez 10–15% do déficit. Os canais AQP4 estão lentamente se redistribuindo para os pés astrocitários. Você não sente diferença. O cérebro está reduzindo sua dívida de resíduos antes que o balanço patrimonial mostre uma limpeza positiva.
+**Semanas 2–8:** A imagem DTI-ALPS [@NematGorgani2025GlymphaticMECFS] mostra que a função glifática melhora talvez 10–15% do déficit. Os canais AQP4 estão a redistribuir-se lentamente para os pés astrocitários. Você não sente diferença. O cérebro está a reduzir a sua dívida de resíduos antes que o balanço patrimonial mostre uma limpeza positiva.
 
-**Mês 3:** AQP4 é totalmente repolarizado. Os pés astrocitários são parcialmente reestendidos. A resíduo acumulada é significativamente eliminada. **Este é o limite.** É aí que os pacientes começam a notar menos névoa cerebral, menor sensibilidade ao PEM e maior resistência cognitiva consistente. É por isso que as pessoas dizem que “finalmente começou a funcionar” após 8–12 semanas.
+**Mês 3:** AQP4 é totalmente repolarizado. Os pés astrocitários são parcialmente reestendidos. O resíduo acumulado é significativamente eliminado. **Este é o limite.** É aí que os pacientes começam a notar menos névoa cerebral, menor sensibilidade aos desencadeadores de PEM e maior resistência cognitiva consistente. É por isso que as pessoas dizem que “finalmente começou a funcionar” após 8–12 semanas.
 
 **Mês 6:** Os pés astrocitários são em grande parte restaurados. A imagem DTI-ALPS [@Ding2025glymphaticAD] atinge cerca de 50–60% da recuperação do déficit. Benefício sintomático significativo — mas ainda não 100%.
 
-**Mês 12+:** A remodelação da membrana basal perivascular se aproxima do fim. Este é o limite estrutural da recuperação. Se você não melhorar significativamente após 12 meses, o restante do comprometimento não é relacionado à função glilâmica — precisa de outro tipo de intervenção.
+**Mês 12+:** A remodelação da membrana basal perivascular se aproxima do fim. Este é o limite estrutural da recuperação. Se você não melhorar significativamente após 12 meses, o restante do comprometimento não está relacionado à função glifática — precisa de outro tipo de intervenção.
 
 ---
 
 ## A Previsão Falsificável
 
-Este modelo faz uma afirmação específica e testável: pacientes com EM/SFC que tenham >5 anos de sono não restaurador e tenham alcançado uma arquitetura do sono objetivamente normal (potência delta, %, densidade de espinhos no PSG) após 4 semanas de trazodone + DORA [@Lucey2023SuvorexantTau] **ainda** apresentarão um índice glifático DTI-ALPS reduzido [@NematGorgani2025GlymphaticMECFS] em comparação com os controles correspondentes pela idade. Os mesmos pacientes tratados por >6 meses apresentarão uma melhoria progressiva no DTI-ALPS.
+Este modelo faz uma afirmação específica e testável: pacientes com EM/SFC que tenham >5 anos de sono não restaurador e tenham alcançado uma arquitetura do sono objetivamente normal (potência delta, % de SWS, densidade de fusos no PSG) após 4 semanas de trazodona + DORA [@Lucey2023SuvorexantTau] **ainda** apresentarão um índice glifático DTI-ALPS reduzido [@NematGorgani2025GlymphaticMECFS] em comparação com os controles correspondentes pela idade. Os mesmos pacientes tratados por >6 meses apresentarão uma melhoria progressiva no DTI-ALPS.
 
-Um resultado nulo — normalização do DTI-ALPS dentro de 4 semanas após a restauração da arquitetura do sono — refutaria o modelo de degradação estrutural e apoiasse um modelo puramente funcional (reversível). Ninguém realizou este estudo.
+Um resultado nulo — normalização do DTI-ALPS dentro de 4 semanas após a restauração da arquitetura do sono — refutaria o modelo de degradação estrutural e apoiaria um modelo puramente funcional (reversível). Ninguém realizou este estudo.
 
 ---
 
 ## O que isso significa se você é um paciente
 
-1. **Paciência é uma fisiologia, não um fracasso pessoal.** Se você está dormindo melhor e ainda não está se recuperando, não está fazendo algo errado. O prazo de recuperação é 70 vezes maior que o prazo de restauração do sono. A biologia prevê esse atraso.
+1. **Paciência é uma fisiologia, não um fracasso pessoal.** Se você está a dormir melhor e ainda não está a recuperar-se, não está a fazer algo de errado. O prazo de recuperação é 70 vezes maior que o prazo de restauração do sono. A biologia prevê esse atraso.
 
-2. **Parar após 4 semanas garante que não haverá benefício.** Se você interromper seu protocolo de sono após um mês porque “não está funcionando”, os dados dizem que você está certo — mas apenas porque parou antes que os sistemas começassem a se recuperar.
+2. **Parar após 4 semanas garante que não haverá benefício.** Se você interromper seu protocolo de sono após um mês porque “não está a funcionar”, os dados dizem que você está certo — mas apenas porque parou antes que os tubos começassem a se recuperar.
 
-3. **O limite de 12 meses é real.** Se você manteve um sono restaurador consistente por um ano e atingiu um patamar estável, já extraiu tudo o que o eixo glifático pode oferecer. Melhorias adicionais exigem o foco em outros mecanismos — apoio mitocôndrial, ritmo do sono, estratégias anti-inflamatórias e, potencialmente, abordar problemas de raiz como persistência autoimune.
+3. **O limite de 12 meses é real.** Se você manteve um sono restaurador consistente por um ano e atingiu um patamar estável, já extraiu tudo o que o eixo glifático pode oferecer. Melhorias adicionais exigem o foco em outros mecanismos — apoio mitocondrial, gestão de energia (pacing), estratégias anti-inflamatórias e, potencialmente, abordar problemas de raiz como persistência autoimune.
 
-4. **A qualidade do sono é mais importante que a duração do sono.** A bomba funciona com oscilações delta, não com minutos na cama. DORAs e trazodona [@Parhizkar2025LemborexantTau] melhoram o sinal que impulsiona a eliminação. Medicamentos de classe Z, como zolpidem, aumentam a duração do sono, mas suprimem as oscilações NE que impulsionam a bomba [@Fultz2019csfOscillations] — e não oferecem proteção neurológica ao tau zero [@Parhizkar2025LemborexantTau]. A classe de medicamento importa.
+4. **A qualidade do sono é mais importante que a duração do sono.** A bomba funciona com oscilações delta, não com minutos na cama. DORAs e trazodona [@Parhizkar2025LemborexantTau] melhoram o sinal que impulsiona a eliminação. Medicamentos de classe Z, como zolpidem, aumentam a duração do sono, mas suprimem as oscilações NE que impulsionam a bomba [@Fultz2019csfOscillations] — e não oferecem nenhuma neuroproteção para a tau [@Parhizkar2025LemborexantTau]. A classe de medicamento importa.

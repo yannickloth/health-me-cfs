@@ -1,17 +1,17 @@
 ---
 title: "Artigo 1 sobre fibromialgia: A Dor que Não é Muscular — Dor de Padrão de Fibromialgia EM/SFC e Por Que o Sistema Nervoso do seu corpo se tornou mais sensível"
-description: "Um guia em linguagem simples sobre a dor do padrão da fibromialgia e como ela se sobrepõe à EM/SFC — por que a dor surge sem danos teciduais, como os canais TRPV1 e TRPA1 estão abertos, o ciclo de alimentação antecipada COX-2/PGE2 que faz o calor corporal parecer queimadura, o híbrido neuropático-nocíptico, e a diferença entre a fibromialgia por si só e a dor da fibromialgia sobreposta à EM/SFC."
+description: "Um guia em linguagem simples sobre a dor do padrão da fibromialgia e como ela se sobrepõe à EM/SFC — por que a dor surge sem danos teciduais, como os canais TRPV1 e TRPA1 estão abertos, o ciclo de alimentação antecipada COX-2/PGE2 que faz o calor corporal parecer queimadura, o híbrido nociplástico-neuropático, e a diferença entre a fibromialgia por si só e a dor da fibromialgia sobreposta à EM/SFC."
 author: "Yannick Loth"
 date: "2026-08-09"
 categories: [Fibromyalgia, Pain, ME/CFS, Pathophysiology]
 lang: pt
 ---
 
-Dor em toda a parte, mas nenhum tecido está lesionado. Você pressiona um músculo e sente dor — mas a ressonância magnética está limpa, os exames de sangue são normais e o reumatologista diz que não há inflamação. A iluminação errada dói. Calor e barulho rastejam. Um toque leve no braço permanece como uma sensação ardente após alguns minutos após a mão ter ido embora. Dor sem dano — o seu sistema nervoso aumentou o volume, e ninguém pode reduzi-lo.
+Dor em toda a parte, mas nenhum tecido está lesionado. Você pressiona um músculo e sente dor — mas a ressonância magnética está limpa, os exames de sangue são normais e o reumatologista diz que não há inflamação. A iluminação errada dói. Calor e barulho rastejam. Um toque leve no braço permanece como uma sensação ardente durante alguns minutos após a mão ter ido embora. Dor sem dano — o seu sistema nervoso aumentou o volume, e ninguém pode reduzi-lo.
 
 Agora adicione o resto da EM/SFC: a fadiga intensa, o sono insuficiente, a névoa cerebral. Entre 47% e 76% dos pacientes com EM/SFC atendem aos critérios para fibromialgia — e este subgrupo tem mais dor, pior função e um maior fardo de todos os outros sintomas [@RamirezMorales2022overlap].
 
-Este artigo é uma visão conceitual. O que realmente é a dor do padrão de fibromialgia, como funciona a sensibilização central, os canais TRPV1/TRPA1 que estão abertos, o ciclo feed-forward COX-2/PGE2 que faz a temperatura corporal normal parecer ardente, o híbrido neuropatológico nociplastico e a diferença entre fibromialgia por si só e dor de fibromialgia *sobre* a EM/SFC. Os tratamentos — LDN, SNRIs, gabapentinoides, inibidores de COX-2, PEA, antagonistas de NMDA — são abordados no [artigo de tratamento complementar](../fibromyalgia-pain-treatment/index.qmd).
+Este artigo é uma visão conceitual. O que realmente é a dor do padrão de fibromialgia, como funciona a sensibilização central, os canais TRPV1/TRPA1 que estão abertos, o ciclo de alimentação antecipada COX-2/PGE2 que faz a temperatura corporal normal parecer ardente, o híbrido nociplástico-neuropático e a diferença entre fibromialgia por si só e dor de fibromialgia *sobre* a EM/SFC. Os tratamentos — LDN, SNRIs, gabapentinoides, inibidores de COX-2, PEA, antagonistas de NMDA — são abordados no [artigo de tratamento complementar](../fibromyalgia-pain-treatment/index.qmd).
 
 ---
 
@@ -39,9 +39,9 @@ Na sensibilização central, o ganho fica alto. Três processos convergem:
 
 1. **Sumação temporal aumentada (wind-up).** Estímulos idênticos repetidos produzem respostas dolorosas cada vez maiores — o cordão espinhal amplifica em vez de habituar. Isso é dependente de receptores NMDA e é um dos resultados mais reprodutíveis de QST na fibromialgia.
 
-2. **Modulação dolorosa condicionada deficiente (CPM).** numa pessoa saudável, um estímulo doloroso numa área (por exemplo, água fria na mão) reduz a sensibilidade à dor em outras áreas — o fenômeno “a dor inibe a dor”, mediado por caminhos noradrenérgicos e serotonérgicos descendentes do tronco cerebral. Na fibromialgia e EM/SFC, esse sistema inibitório é fraco ou ausente — o cérebro não consegue reduzir o volume [@Nijs2017neuroinflammation].
+2. **Modulação dolorosa condicionada deficiente (CPM).** numa pessoa saudável, um estímulo doloroso numa área (por exemplo, água fria na mão) reduz a sensibilidade à dor em outras áreas — o fenómeno “a dor inibe a dor”, mediado por caminhos noradrenérgicos e serotonérgicos descendentes do tronco cerebral. Na fibromialgia e EM/SFC, esse sistema inibitório é fraco ou ausente — o cérebro não consegue reduzir o volume [@Nijs2017neuroinflammation].
 
-3. **Ativação glial.** Microglia e astrócitos no cordão espinhal e no cérebro se tornam preparados — eles liberam citocinas pró-inflamatórias (IL-1β, TNF-α, IL-6) e espécies reativas de oxigénio que sensibilizam os neurônios próximos. Isso não é “inflamação” no sentido reumatológico — CRP e ESR estão normais. É neuroinflamação, invisível aos exames de sangue padrão, medível apenas por imagem de PET ou análise de líquido cefalorraquidiano.
+3. **Ativação glial.** Microglia e astrócitos no cordão espinhal e no cérebro se tornam preparados — eles liberam citocinas pró-inflamatórias (IL-1β, TNF-α, IL-6) e espécies reativas de oxigénio que sensibilizam os neurónios próximos. Isso não é “inflamação” no sentido reumatológico — CRP e ESR estão normais. É neuroinflamação, invisível aos exames de sangue padrão, medível apenas por imagem de PET ou análise de líquido cefalorraquidiano.
 
 O resultado: pressão que deveria sentir-se como toque sente-se como dor (allodynia). Calor que deveria sentir-se neutro sente-se como queimadura (hiperalgesia por calor). Dor que deveria ser localizada se espalha para áreas adjacentes (hiperalgesia secundária). **O estímulo é real. A amplificação é patológica.**
 
@@ -51,11 +51,11 @@ O resultado: pressão que deveria sentir-se como toque sente-se como dor (allody
 
 ### TRPV1: por que o calor corporal dói
 
-TRPV1 é o "receptor capsaicin" — um canal iônico permeável a cálcio em pequenas fibras nervosas sensoriais que se abre em resposta ao calor (>43°C), prótons (acidez tecidual) e capsaicin. numa pessoa saudável, TRPV1 é um interruptor de segurança contra calor: ele ativa quando a temperatura do tecido se aproxima do limite de dano.
+TRPV1 é o "receptor capsaicin" — um canal iónico permeável a cálcio em pequenas fibras nervosas sensoriais que se abre em resposta ao calor (>43°C), prótons (acidez tecidual) e capsaicin. numa pessoa saudável, TRPV1 é um interruptor de segurança contra calor: ele ativa quando a temperatura do tecido se aproxima do limite de dano.
 
 No estado sensibilizado, **prostaglandina E₂ (PGE₂)**, liberada de tecidos inflamados ou estressados, se liga aos receptores EP1 nas terminações nervosas que expressam TRPV1. Isso reduz quimicamente o limite térmico do TRPV1 — de ~43°C para até ~35°C, que é a temperatura corporal normal [@Moriyama2005]. O resultado: o calor de um cobertor parece uma queimadura. Uma chuveiça quente é insuportável. O calor corporal — gerado pelo metabolismo normal — é suficiente para manter o TRPV1 parcialmente aberto, produzindo uma sensação de queimadura leve contínua em repouso.
 
-O problema da PGE₂ é autoamplificador. A ativação do TRPV1 aumenta a **COX-2** em ~30 minutos, produzindo mais PGE₂, que ainda reduz o limite do TRPV1 — um ciclo feed-forward que não precisa de lesão tecidual em curso para se manter [@Moriyama2005]. Uma vez estabelecido, o ciclo funciona de forma autônoma.
+O problema da PGE₂ é autoamplificador. A ativação do TRPV1 aumenta a **COX-2** em ~30 minutos, produzindo mais PGE₂, que ainda reduz o limite do TRPV1 — um ciclo de alimentação antecipada que não precisa de lesão tecidual em curso para se manter [@Moriyama2005]. Uma vez estabelecido, o ciclo funciona de forma autónoma.
 
 **Um TRPV1 vascular distinto** no músculo liso arterial complica a situação. Diferente do TRPV1 neuronal, o TRPV1 vascular causa *vasoconstrição* e não desensiva. Durante a PEM, lipídios inflamatórios (LPA) ativam o TRPV1 vascular, prejudicando a perfusão muscular — um mecanismo que pode explicar por que a dor muscular pós-exercício no EM/SFC é desproporcional ao esforço realizado [@Phan2020trpv1arterial].
 
@@ -65,16 +65,16 @@ TRPA1 é o "receptor wasabi" — ativado por óleo de mostarda, alho e irritante
 
 Durante a PEM, a disfunção mitocondrial gera uma onda de ROS. Microlesões no músculo esquelético liberam produtos da peroxidação lipídica. O sinal de stress oxidativo ativa diretamente o TRPA1 nas terminações nervosas sensoriais, produzindo um sinal de dor sem correlação mecânica — o músculo não está lesionado de forma visível nas imagens, mas o nervo relata danos porque o TRPA1 foi quimicamente aberto pelo efeito metabólico do esforço.
 
-O TRPA1 também está expresso nas **células de Schwann** — as células gliais que envolvem os nervos periféricos. Quando o TRPA1 nas células de Schwann é ativado pelos ROS, a célula de Schwann libera prostaglandinas, citocinas e CGRP no espaço endoneural, produzindo inflamação neurogênica *dentro da bainha do nervo* — independente de lesão axonal. Este é um mecanismo plausível para a dor da bainha do nervo que os pacientes com SFN descrevem: o próprio tronco do nervo está inflamado, não apenas as terminações [@Loth2026website].
+O TRPA1 também está expresso nas **células de Schwann** — as células gliais que envolvem os nervos periféricos. Quando o TRPA1 nas células de Schwann é ativado pelos ROS, a célula de Schwann libera prostaglandinas, citocinas e CGRP no espaço endoneural, produzindo inflamação neurogénica *dentro da bainha do nervo* — independente de lesão axonal. Este é um mecanismo plausível para a dor da bainha do nervo que os pacientes com SFN descrevem: o próprio tronco do nervo está inflamado, não apenas as terminações [@Loth2026website].
 
 ---
 
-## O híbrido nociplastic-neuropático
+## O híbrido nociplástico-neuropático
 
-Uma das principais ideias centrais do documento sobre a dor em EM/SFC é que a maioria dos pacientes não tem dor puramente nociplastic ou puramente neuropática — eles têm ambas, e a interação entre elas torna a dor mais grave do que qualquer uma delas isoladamente [@Loth2026website].
+Uma das principais ideias centrais do documento sobre a dor em EM/SFC é que a maioria dos pacientes não tem dor puramente nociplástica ou puramente neuropática — eles têm ambas, e a interação entre elas torna a dor mais grave do que qualquer uma delas isoladamente [@Loth2026website].
 
 - **A componente neuropática** vem do SFN — as fibras pequenas são perdidas (confirmadas por biópsia, 30–38%), e as fibras restantes são hiperexcitáveis devido à sensibilização da tryptase das mastócitos→PAR2. Isso gera a qualidade de queimadura, estouro e choque elétrico que os questionários de dor neuropática captam.
-- **A componente nociplastic** vem da sensibilização central — o cordão espinhal e o cérebro amplificam o sinal dessas fibras hiperexcitáveis. Isso gera a dor generalizada, sensível à pressão e multissensorial que os critérios da fibromialgia captam.
+- **A componente nociplástica** vem da sensibilização central — o cordão espinhal e o cérebro amplificam o sinal dessas fibras hiperexcitáveis. Isso gera a dor generalizada, sensível à pressão e multissensorial que os critérios da fibromialgia captam.
 - **O PEM amplifica ambos.** A acidose pós-exercício ativa os canais ASIC3 nos nervos sensoriais; o ATP liberado pelo músculo metabolicamente estressado ativa os recetores P2X4 nas microglia; o TLR4 nas microglia é ativado por DAMPs provenientes do estresse tecidual. Esses três sinais convergem para re-sensibilizar todo o caminho da dor sempre que o paciente ultrapassa seu envelope de energia. É por isso que a dor fica pior após crises — e por isso a dor em EM/SFC é mais resistente ao tratamento do que a dor na fibromialgia isolada: a entrada de re-sensibilização continua a chegar [@Loth2026website].
 
 ---

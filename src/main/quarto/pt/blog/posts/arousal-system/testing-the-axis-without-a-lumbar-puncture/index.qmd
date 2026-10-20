@@ -11,9 +11,9 @@ A descoberta de um défice seletivo de noradrenalina veio de uma punção lombar
 
 Várias medidas candidatas já existem:
 
-- **Pupillometria.** O tamanho das pupilas reflete a atividade noradrenérgica e pode ser medido em segundos (@Kang2020Pupillometry). num estudo de medicamento em humanos, a atomoxetina aumentou o diâmetro basal das pupilas, e essa mudança correlacionou-se com a melhoria do comportamento (@OCallaghan2025PupillaryNE).
-- **Resistência ao aperto de mão.** No estudo original, o caminho da noradrenalina correlacionou-se com o tempo que o paciente conseguia manter o aperto de mão (@Aregawi2026Noradrenergic). Uma medida barata e de canto de cama — embora seja uma única correlação não replicada.
-- **Rácio VMA/HVA urinário.** Um rácio de noradrenalina para metabólitos de dopamina, refletindo a etapa DBH — mas atenção: a urina reflete principalmente a rotatividade periférica, e a noradrenalina periférica é, se houver, elevada em EM/SFC, portanto pode não acompanhar o défice central.
+- **Pupillometria.** O tamanho das pupilas reflete a atividade noradrenérgica e pode ser medido em segundos (@Kang2020Pupillometry). Num estudo de medicamentos em humanos, a atomoxetina aumentou o diâmetro basal das pupilas, e essa mudança correlacionou-se com a melhoria do comportamento (@OCallaghan2025PupillaryNE).
+- **Resistência ao aperto de mão.** No estudo original, o caminho da noradrenalina correlacionou-se com o tempo que o paciente conseguia manter o aperto de mão (Spearman rho = 0,62, mão direita, análise apenas de pacientes, n = 38 (o grupo de pacientes combinado, maior que o grupo n=16 de EM/SFC)) (@Aregawi2026Noradrenergic). Uma medida barata e de canto de cama — embora seja uma única correlação não replicada.
+- **Rácio VMA/HVA urinário.** Um rácio de noradrenalina para metabólitos de dopamina, refletindo a etapa DBH — mas atenção: a urina reflete principalmente a rotatividade *periférica*, e a noradrenalina periférica é, se houver, elevada em EM/SFC, portanto pode não acompanhar o défice *central*.
 
 Juntas, essas medidas poderiam formar uma **bateria não invasiva** para estratificar pacientes — e, combinadas com um teste de cronometria, para capturar a crise de PEM: medir pupilas e aperto de mão a cada poucas horas durante 72 horas após um esforço controlado, e ver se eles caem e se recuperam na mesma curva que os sintomas. Se o défice causa PEM, essa curva deve existir.
 

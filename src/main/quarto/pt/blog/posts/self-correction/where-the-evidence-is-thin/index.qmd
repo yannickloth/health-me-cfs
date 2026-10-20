@@ -11,10 +11,10 @@ lang: pt
 
 **As áreas fracas:**
 
-- **Fios de estudo único.** A história da noradrenalina, o fio do circuito VMAT2/dopamina e vários outros dependem de poucos pequenos estudos, às vezes de um único grupo. A replicação ainda está em andamento.
-- **Evidência em animais e transversal entre doenças.** Muitas direções mecânicas (noradrenalina e clearance, noradrenalina e microglia, neuromoduladores e ganho cortical) estão estabelecidas em animais ou outras doenças, mas não são medidas no EM/SFC.
-- **Medidas compostas.** Novos índices (como o índice de "via de acesso" da noradrenalina) são úteis, mas não validados; um resultado impressionante pode ser parcialmente um artefato da medida.
-- **Confusões que não são removidas.** Descondicionamento, medicamentos e nível de atividade podem alterar os biomarcadores que discutimos, e a maioria dos estudos não pode excluí-los.
-- **O nulo e o negativo.** Algumas de nossas afirmações mais fortes são sobre o que *não* funciona — amantadina para a fadiga da MS (um nulo limpo), clonidina no CFS adolescente (um nulo limpo) e terapia de exercício gradual (contestada, e um caso em que o endpoint — piora dos sintomas — é o que importa, não a ausência de qualquer efeito). Essas merecem tanta destaque quanto as afirmativas positivas.
+- **Fios de estudo único.** A história da noradrenalina, o fio do circuito VMAT2/dopamina e vários outros dependem de poucos pequenos estudos, às vezes de um único grupo. A replicação está pendente.
+- **Evidência em animais e transversal entre doenças.** Muitas setas mecanicistas (noradrenalina e depuração, noradrenalina e microglia, neuromoduladores e ganho cortical) estão estabelecidas em animais ou outras doenças, mas não são medidas no EM/SFC.
+- **Medidas compostas.** Novos índices (como o "índice de via" da noradrenalina) são úteis, mas não validados; um resultado impressionante pode ser parcialmente um artefato da medida.
+- **Fatores de confusão que não são removidos.** Descondicionamento, medicamentos e nível de atividade podem alterar os biomarcadores que discutimos, e a maioria dos estudos não pode excluí-los.
+- **O nulo e o negativo.** Algumas de nossas afirmações mais fortes são sobre o que *não* funciona — amantadina para a fadiga da EM (um nulo limpo), clonidina no SFC adolescente (um nulo limpo) e terapia de exercício gradual (contestada, e um caso em que o desfecho — piora dos sintomas — é o que importa, não a ausência de qualquer efeito). Essas merecem tanto destaque quanto as positivas.
 
-**Por que as sinalizamos.** Porque a alternativa — uma narrativa fluida com a incerteza eliminada — é como os pacientes são enganados e como as prioridades da pesquisa são definidas de forma imprecisa. Um sinal não é uma fraqueza; esconder um seria.
+**Por que as sinalizamos.** Porque a alternativa — uma narrativa fluida com a incerteza eliminada — é como os pacientes são enganados e como as prioridades da pesquisa são definidas sem fundamento. Um sinal não é uma fraqueza; esconder um seria.

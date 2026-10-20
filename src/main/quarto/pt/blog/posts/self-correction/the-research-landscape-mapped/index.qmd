@@ -7,12 +7,12 @@ categories: [Self-correction, Metascience, Research]
 lang: pt
 ---
 
-É uma queixa comum que ninguém saiba o que está realmente acontecendo com a pesquisa EM/SFC. Cada vez mais, isso não é mais verdade. O [**REGISTO DE PESQUISA EM EM/SFC**](https://mrr.mecfs-research.org/en/mrr) é um índice selecionado e acessível publicamente de pesquisa EM/SFC, mantido pela Fundação de Pesquisa EM/SFC.
+É uma queixa comum que ninguém saiba o que está realmente a acontecer com a pesquisa EM/SFC. Cada vez mais, isso não é mais verdade. O [**REGISTO DE PESQUISA EM EM/SFC**](https://mrr.mecfs-research.org/en/mrr) é um índice selecionado e acessível publicamente de pesquisa EM/SFC, mantido pela Fundação de Pesquisa EM/SFC.
 
 Em 2026, ele cataloga **149 projetos de pesquisa** (a partir de 2019) além de redes de pesquisa, publicações, eventos, tipos de pesquisa, áreas de pesquisa, grupos de trabalho, pessoas e organizações. Cada entrada de projeto indica seu status (em andamento ou concluído), país, pesquisador principal, organizações, período de pesquisa, tipos de pesquisa e áreas de pesquisa. Escopo atual: Alemanha, Áustria, Suíça, Países Baixos, Noruega e Islândia, com mais planos em desenvolvimento.
 
-**Por que isso é importante para pacientes e pesquisadores.** Ele torna a duplicação visível, faz as lacunas serem observáveis e fornece aos financiadores um mapa de quem já está estudando o que. Se um projeto que lhe interessa existe, você pode descobrir; se uma área inteira está vazia, isso também fica visível agora.
+**Por que isso é importante para pacientes e pesquisadores.** Ele torna a duplicação visível, faz as lacunas serem observáveis e fornece aos financiadores um mapa de quem já está a estudar o que. Se um projeto que lhe interessa existe, você pode descobrir; se uma área inteira está vazia, isso também fica visível agora.
 
-**As considerações.** É um produto beta, selecionado por uma fundação e fornecido “sem quaisquer garantias”; reflete relatórios voluntários e pode subestimar trabalhos não publicados ou não regionais. Ele indexa a atividade de pesquisa — não publica amostras biológicas ou dados de participantes (esse é o trabalho dos biobanks).
+**As considerações.** É um produto beta, selecionado por uma fundação e fornecido “sem quaisquer garantias”; reflete relatórios voluntários e pode subestimar trabalhos não publicados ou não regionais. Ele indexa a atividade de pesquisa — não publica amostras biológicas ou dados de participantes (esse é o trabalho dos biobancos).
 
-**Como usá-lo.** Antes de propor novos trabalhos, verifique o registo. Antes de assumir “ninguém está estudando isso”, verifique o registo. É um pequeno, concreto passo em direção a um campo que se conhece por si só.
+**Como usá-lo.** Antes de propor novos trabalhos, verifique o registo. Antes de assumir “ninguém está a estudar isso”, verifique o registo. É um pequeno, concreto passo em direção a um campo que se conhece por si só.

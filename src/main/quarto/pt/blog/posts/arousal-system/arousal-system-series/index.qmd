@@ -7,7 +7,7 @@ categories: [Arousal system, Noradrenergic, Mechanisms]
 lang: pt
 ---
 
-Esta série analisa um dos mais recentes temas na pesquisa EM/SFC: um **defeito seletivo da noradrenalina central** — o principal transmissor de excitação do cérebro — e o que isso pode explicar.
+Esta série analisa um dos mais recentes temas na pesquisa EM/SFC: um **défice seletivo da noradrenalina central** — o principal transmissor de excitação do cérebro — e o que isso pode explicar.
 
 Não é uma promessa. A constatação principal provém de um único estudo pequeno e não foi replicada. Mas conecta vários sintomas relatados pelos pacientes — intolerância ao esforço, sono insatisfatório, “estimulado, mas cansado” — a um sistema mensurável, e faz previsões testáveis.
 

@@ -1,6 +1,6 @@
 ---
-title: "O resultado do milnacipran foi interpretado de forma errada — aqui está a correção"
-description: "Citámos um estudo de ensaio com um medicamento para fibromialgia que indicava 'nenhum efeito no lactato cerebral'. O estudo revelou o contrário. Corrigimos isso."
+title: "Interpretámos o resultado do milnacipran ao contrário — aqui está a correção"
+description: "Citámos um ensaio clínico com um medicamento para a fibromialgia que indicava 'nenhum efeito no lactato cerebral'. O estudo revelou o contrário. Corrigimos isso."
 author: "Yannick Loth"
 date: "2026-09-25"
 categories: [Self-correction, Metascience, Research]
@@ -9,14 +9,14 @@ lang: pt
 
 Uma pequena confissão, porque isso é mais importante do que o facto em si.
 
-Escrevemos que o milnacipran — um SNRI usado no fibromialgia — “não reduziu o lactato ventricular”, e usamos isso para argumentar que o benefício do medicamento deve ser não metabólico. Então, na verdade, lemos o resumo.
+Escrevemos que o milnacipran — um SNRI usado na fibromialgia — “não reduziu o lactato ventricular”, e usamos isso para argumentar que o benefício do medicamento deve ser não metabólico. Então, na verdade, lemos o resumo.
 
-O estudo encontrou o oposto. O milnacipran **reduziu** o lactato ventricular em comparação com o estado basal e o placebo (F1,18 = 8.18, P = .01), e os pacientes que melhoraram na dor tinham maior probabilidade de também reduzir o lactato (@Natelson2015milnacipran).
+O estudo encontrou o oposto. O milnacipran **reduziu** o lactato ventricular em comparação tanto com o estado basal como com o placebo (F118 = 8,18, P = .01), e os pacientes que melhoraram na dor tinham maior probabilidade de também reduzir o lactato (@Natelson2015milnacipran).
 
 **Por que isso aconteceu.** No início de um projeto longo, um resumo foi inferido a partir do *título* de uma citação, e não do resumo. Esse é exatamente o modo de falha que um pipeline rigoroso deve detectar — e, neste caso, foi necessária uma leitura deliberada para identificá-lo.
 
-**Por que contamos a vocês.** Não para dar crédito. Porque a correção *muda o argumento*: o efeito do medicamento pode ter uma componente metabólica, afinal — uma afirmação diferente daquela que fizemos inicialmente. (É importante ter cuidado com a direção: a redução do lactato também pode seguir a melhoria, em vez de a provocar.)
+**Por que contamos isto.** Não para dar crédito. Porque a correção *muda o argumento*: o efeito do medicamento pode ter uma componente metabólica, afinal — uma afirmação diferente daquela que fizemos inicialmente. (É importante ter cuidado com a direção: a redução do lactato também pode seguir a melhoria, em vez de a provocar.)
 
 **A lição que aplicamos.** Cada “não” em nosso texto deve ser verificado contra o resumo da fonte, e não contra o título. Uma afirmação de que o estudo falhou é uma afirmação, e merece a mesma análise que uma afirmação de que o estudo funcionou.
 
-Isso é o que um documento feito por pacientes e comissões pode fazer que uma nota de imprensa não fará: publicar suas próprias correções e manter o registo visível.
+Isso é o que um documento encomendado por um paciente pode fazer que uma nota de imprensa não fará: publicar suas próprias correções e manter o registo visível.

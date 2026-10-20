@@ -35,17 +35,17 @@ A crise energética do SNC, classificada como o mecanismo mais causalmente impor
 
 ## Por que o mecanismo mais importante ocupa a sétima posição
 
-A importância causal e a tractabilidade terapêutica são eixos ortogonais. Um mecanismo pode ocupar a posição mais importante num e uma posição ruim no outro, e a estratégia de tratamento deve lidar com ambos. A classificação do CNS como sendo a sétima não é um erro no raciocínio; é o ponto central.
+A importância causal e a tractabilidade terapêutica são eixos ortogonais. Um mecanismo pode ocupar a posição mais importante num e uma posição ruim no outro, e a estratégia de tratamento deve lidar com ambos. A classificação do SNC como sendo a sétima não é um erro no raciocínio; é o ponto central.
 
-Isso não significa que os abordagens direcionadas ao CNS devam ser abandonadas. Significa apenas que elas devem ficar mais atrás na sequência imediata de tratamento. Na prática, a sequência deve ser mais ou menos a seguinte: começar com intervenções tractáveis que proporcionem alívio sintomático imediato, adicionar intervenções direcionadas à causa raiz onde o mecanismo ainda esteja ativo e acessível, e incorporar abordagens experimentais que visam mecanismos de baixa tractabilidade à medida que a base de evidências se desenvolve.
+Isso não significa que as abordagens direcionadas ao SNC devam ser abandonadas. Significa apenas que elas devem ficar mais atrás na sequência imediata de tratamento. Na prática, a sequência deve ser mais ou menos a seguinte: começar com intervenções tractáveis que proporcionem alívio sintomático imediato, adicionar intervenções direcionadas à causa raiz onde o mecanismo ainda esteja ativo e acessível, e incorporar abordagens experimentais que visam mecanismos de baixa tractabilidade à medida que a base de evidências se desenvolve.
 
 ---
 
 ## O que isso prediz sobre ensaios clínicos
 
-O mesmo raciocínio explica um padrão que tem frustrado as pesquisas sobre tratamentos para EM/SFC há décadas: a quase universal decepção dos ensaios focados num único alvo. Se a doença é multi-lock e se a prioridade do tratamento correto é "acessível e combinável" em vez de "mais causacional na parte superior do fluxo", então um ensaio que testa um único agente altamente causal contra placebo quase certamente produzirá um resultado modesto ou nulo. Não porque o agente não funcione, mas porque o design do ensaio está testando uma única intervenção contra uma doença que não pode ser alterada por intervenções isoladas [Cap. 16 §Implicações da Pesquisa].
+O mesmo raciocínio explica um padrão que tem frustrado as pesquisas sobre tratamentos para EM/SFC há décadas: a quase universal decepção dos ensaios focados num único alvo. Se a doença é de múltiplos bloqueios e se a prioridade do tratamento correto é "acessível e combinável" em vez de "mais causalmente a montante", então um ensaio que testa um único agente altamente causal contra placebo quase certamente produzirá um resultado modesto ou nulo. Não porque o agente não funcione, mas porque o design do ensaio está a testar uma única intervenção contra uma doença que não pode ser alterada por intervenções isoladas [Cap. 16 §Implicações da Pesquisa].
 
-O framework prevê isso. Também sugere como um design de ensaio mais produtivo seria: stratificar por mecanismo ativo, combinar intervenções que atacam diferentes partes da arquitetura do lock e medir não apenas a melhoria dos sintomas, mas também as mudanças na trajetória da doença [Cap. 16 §Implicações da Pesquisa].
+O quadro prevê isso. Também sugere como um design de ensaio mais produtivo seria: estratificar por mecanismo ativo, combinar intervenções que atacam diferentes partes da arquitetura do bloqueio e medir não apenas a melhoria dos sintomas, mas também as mudanças na trajetória da doença [Cap. 16 §Implicações da Pesquisa].
 
 ---
 

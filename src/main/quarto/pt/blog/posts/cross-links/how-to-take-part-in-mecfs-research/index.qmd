@@ -9,14 +9,14 @@ lang: pt
 
 A pesquisa precisa de participantes e amostras. Dois tipos de infraestrutura tornam isso possível — e ambos são mais abertos do que muitos pacientes imaginam.
 
-**Registos** catalogam quem faz o quê. O [**Registo de Pesquisa EM/SFC**](https://mrr.mecfs-research.org/en/mrr) indexa 149 projetos de pesquisa, além de redes, publicações, pessoas e organizações; é público, navegável e exportável, de modo que você pode ver se alguém está estudando a questão que lhe interessa — dentro do escopo atual do país (Alemanha, Áustria, Suíça, Países Baixos, Noruega, Islândia), e lembre-se de que a declaração voluntária pode subestimar o trabalho não regional ou não publicado.
+**Registos** catalogam quem faz o quê. O [**Registo de Pesquisa EM/SFC**](https://mrr.mecfs-research.org/en/mrr) indexa 149 projetos de pesquisa, além de redes, publicações, pessoas e organizações; é público, navegável e exportável, de modo que você pode ver se alguém está a estudar a questão que lhe interessa — dentro do escopo atual do país (Alemanha, Áustria, Suíça, Países Baixos, Noruega, Islândia), e lembre-se de que a declaração voluntária pode subestimar o trabalho não regional ou não publicado.
 
-**Biobancos** coletam e armazenam amostras biológicas e dados vinculados. Exemplos incluem o Registo e Biobanco EM/SFC alemão (uma iniciativa bicentrica da Munich MCFC e Charité Berlin), o Biobanco EM/SFC do Reino Unido, o Coorte e Biobanco EM/SFC dos Países Baixos (NMCB), o biobanco austríaco e o registo Solve M.E.'s You+ME.
+**Biobancos** coletam e armazenam amostras biológicas e dados vinculados. Exemplos incluem o Registo e Biobanco EM/SFC alemão (uma iniciativa bicêntrica da Munich MCFC e Charité Berlin), o Biobanco EM/SFC do Reino Unido, o Coorte e Biobanco EM/SFC dos Países Baixos (NMCB), o biobanco austríaco e o registo Solve M.E.'s You+ME.
 
 **Como os pacientes participam.** O registo geralmente ocorre através dos centros clínicos que operam um registo ou biobanco — para o biobanco alemão, a Munich MCFC (crianças/adolescentes) e Charité Berlin (adultos); fora do seu alcance, centros nacionais podem ser encontrados através da rede pediátrica PEDNET-LC. A participação significa contribuir com dados e, às vezes, sangue ou outras amostras, sob termos de consentimento estabelecidos pela instituição.
 
 **Como os pesquisadores têm acesso.** Não é autosserviço. Os pesquisadores solicitam acesso ao centro operador com uma proposta de projeto, e o acesso geralmente requer aprovação ética e um acordo de transferência de dados ou materiais antes que amostras ou dados sejam compartilhados. As amostras são disponibilizadas para projetos *cooperativos* na Alemanha e internacionalmente.
 
-**As considerações importantes.** Algumas recursos são nacionais ou regionais; há limites de alcance e idade; e os termos de acesso são estabelecidos por cada instituição, não por este documento. Mas a direção é em direção à abertura — e o registo torna o panorama visível de uma forma que não era possível há alguns anos.
+**As considerações importantes.** Alguns recursos são nacionais ou regionais; há limites de alcance e idade; e os termos de acesso são estabelecidos por cada instituição, não por este documento. Mas a direção é em direção à abertura — e o registo torna o panorama visível de uma forma que não era possível há alguns anos.
 
-Se você é um paciente: pergunte ao seu centro especialista se eles participam. Se você é um pesquisador: verifique o registo antes de assumir que ninguém está estudando a sua questão.
+Se você é um paciente: pergunte ao seu centro especialista se eles participam. Se você é um pesquisador: verifique o registo antes de assumir que ninguém está a estudar a sua questão.

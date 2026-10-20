@@ -1,5 +1,5 @@
 ---
-title: "Por que pessoas com PHDA têm EM/SFC a duas vezes mais frequentemente"
+title: "Por que pessoas com PHDA têm EM/SFC duas vezes mais frequentemente"
 description: "Este é o segundo artigo de uma série sobre a biologia da energia que relaciona PHDA, autismo e EM/SFC. O primeiro artigo apresentou a hipótese da PHDA como um défice na produção de energia cerebral. Este artigo responde à próxima pergunta: por que esse défice pode tornar as pessoas vulnera..."
 author: "Yannick Loth"
 date: "2026-05-08"
@@ -15,8 +15,8 @@ Este é o segundo artigo de uma série sobre a biologia da energia que relaciona
 
 A coorte de nascimento ALSPAC — uma das maiores pesquisas longitudinais do mundo — acompanhou 4.563 crianças desde o nascimento até os 18 anos de idade. Os resultados sobre características neurodivergentes e fadiga são impressionantes [@Quadt2024neurodivergentfatigue]:
 
-- **Características PHDA aos 9 anos → OR = 2.18** (95% CI 1.33–3.56, p = 0.002) para fadiga crónica incapacitante aos 18 anos *(nota: o resultado medido foi "fadiga crónica incapacitante", não EM/SFC diagnosticada pelos critérios ICC ou CCC)*
-- **Características autismo aos 7 anos → OR = 1.78** (95% CI 1.17–2.72, p = 0.004)
+- **Características PHDA aos 9 anos → OR = 2,18** (95% CI 1,33–3,56, p = 0,002) para fadiga crónica incapacitante aos 18 anos *(nota: o resultado medido foi "fadiga crónica incapacitante", não EM/SFC diagnosticada pelos critérios ICC ou CCC)*
+- **Características autismo aos 7 anos → OR = 1,78** (95% CI 1,17–2,72, p = 0,004)
 - **IL-6 aos 9 anos mediou o caminho** — independente da depressão
 
 As crianças que desenvolveram fadiga não eram apenas neurodivergentes. Eram neurodivergentes E já inflamadas. A inflamação foi medível nove anos antes da fadiga aparecer.
@@ -30,7 +30,7 @@ Entre adultos com CFS confirmado (n = 158, clínica especialista única) [@SaezF
 - **29,7% tinham PHDA na infância** — em comparação com aproximadamente 5–7% na população geral. Um enriquecimento 5 vezes maior.
 - **20,9% ainda atendiam aos critérios de PHDA em adulto**
 - Aqueles com PHDA concomitante tiveram **início precoce de CFS e prognóstico pior**
-- A gravidade da PHDA e os sintomas depressivos foram **predicadores independentes da intensidade da fadiga**
+- A gravidade da PHDA e os sintomas depressivos foram **preditores independentes** da intensidade da fadiga
 
 *Observações: esta é uma amostra de clínica especialista de um único local (possível viés de referência), a PHDA foi avaliada retrospectivamente em adultos que recordavam sintomas da infância (viés de recordação) e a CFS foi diagnosticada segundo os critérios de Fukuda (mais amplos que ICC/CCC). O enriquecimento pode ser menor em amostras baseadas na comunidade.*
 
@@ -46,20 +46,20 @@ Agora adicione um gatilho imunológico.
 
 Lutar contra uma infeção é metabólicamente caro. A produção de citocina, a proliferação de linfócitos, a neuroinflamação — tudo consome energia. Em alguém com uma reserva grande, o sistema pode sustentar a resposta imunológica enquanto os processos de reparação operam em segundo plano. A fadiga é temporária. A recuperação segue.
 
-Em alguém cuja reserva já era marginal — cujo cérebro já estava operando perto do limite para manter a atenção — a mesma infeção coloca o sistema abaixo de um limite crítico.
+Em alguém cuja reserva já era marginal — cujo cérebro já estava a operar perto do limite para manter a atenção — a mesma infeção coloca o sistema abaixo de um limite crítico.
 
 ---
 
 ## O modelo do limiar de dois golpes
 
-A transição da fadiga pós-infecciosa para a EM/SFC pode ocorrer num limiar específico — embora isso continue sendo uma hipótese, não um evento biofísico comprovado. O mecanismo proposto: quando o dano mitocôndrial causado por espécies reativas de oxigénio ultrapassa a capacidade de reparação, um ciclo autossustentável começa: mitocôndrias danificadas produzem mais ROS, que danificam mais mitocôndrias, que produzem mais ROS. O sistema não retorna espontaneamente ao seu estado pré-doença.
+A transição da fadiga pós-infecciosa para a EM/SFC pode ocorrer num limiar específico — embora isso continue a ser uma hipótese, não um evento biofísico comprovado. O mecanismo proposto: quando o dano mitocôndrial causado por espécies reativas de oxigénio ultrapassa a capacidade de reparação, um ciclo autossustentável começa: mitocôndrias danificadas produzem mais ROS, que danificam mais mitocôndrias, que produzem mais ROS. O sistema não retorna espontaneamente ao seu estado pré-doença.
 
 A reserva metabólica pré-existente determina quem cruza esse limiar:
 
 - **Alta reserva** (neurotípica, sem fatores de risco metabólico): infeção → fadiga transitória → recuperação
 - **Baixa reserva** (PHDA, ASD, deficiente em ferro, hEDS): infeção → cruzamento do limiar → EM/SFC
 
-O modelo prevê **hiestasia** — a reversão da infeção não reverte a EM/SFC, porque o ciclo de dano feed-forward torna-se agora autossustentável.
+O modelo prevê **histerese** — a reversão da infeção não reverte a EM/SFC, porque o ciclo de dano feed-forward torna-se agora autossustentável.
 
 *Uma explicação alternativa mais simples: os dados do ALSPAC mostraram que a IL-6 media a via. A inflamação crónica sozinha — sem qualquer conceito de "reserva" — pode causar diretamente tanto as características neurodivergentes quanto a vulnerabilidade à fadiga posterior. O modelo de reserva metabólica adiciona valor explicativo apenas se a correção dos défices de reserva (ferro, BH4, perfusão) previne o início da EM/SFC — uma previsão que ainda não foi testada.*
 
@@ -69,9 +69,9 @@ O modelo prevê **hiestasia** — a reversão da infeção não reverte a EM/SFC
 
 Uma pesquisa PNAS de 2025 com 3.925 pacientes com EM/SFC descobriu [@Eckey2025PatientReported]:
 
-- Estimulantes melhoraram a **névoa cerebral em 77.1%**
-- Estimulantes melhoraram a **percepção de fadiga em 71.7%**
-- Estimulantes tiveram um **efeito líquido de -1.5% no PEM**
+- Estimulantes melhoraram a **névoa cerebral em 77,1%**
+- Estimulantes melhoraram a **percepção de fadiga em 71,7%**
+- Estimulantes tiveram um **efeito líquido de -1,5% no PEM**
 
 Esta dissociação é exatamente o que o modelo de reserva metabólica prevê. Os estimulantes aumentam a eficiência das catecolaminas — reduzindo o custo energético de cada unidade cognitiva. Eles aumentam efetivamente o espaço cognitivo. No entanto, eles não aumentam a capacidade máxima das mitocôndria. O PEM é desencadeado pelo gasto metabólico total que excede a capacidade de produção, algo que os estimulantes não alteram.
 
@@ -81,9 +81,9 @@ A melhoria na cognição frequentemente leva a um aumento da atividade — gasta
 
 ## Precedência temporal: PHDA surge primeiro
 
-Um ponto crítico frequentemente ignorado: os dados do ALSPAC mostram que **as características da PHDA precedem o início da fadiga em quase um décimo de ano** [@Quadt2024neurodivergentfatigue]. Isso não significa que a EM/SFC cause a PHDA. É a PHDA que indica os cérebros que se quebrarão primeiro quando um gatilho imunológico chegar.
+Um ponto crítico frequentemente ignorado: os dados do ALSPAC mostram que **as características da PHDA precedem o início da fadiga em quase uma década** [@Quadt2024neurodivergentfatigue]. Isso não significa que a EM/SFC cause a PHDA. É a PHDA que indica os cérebros que se quebrarão primeiro quando um gatilho imunológico chegar.
 
-A prevalência de 29,7% de PHDA na infância nas coortes de CFS conta a mesma história, por outro lado [@SaezFrancas2012adhdcfs]: quase um terço dos pacientes com EM/SFC tinha um déficit de energia pré-existente que podia ser diagnosticado como PHDA na infância.
+A prevalência de 29,7% de PHDA na infância nas coortes de CFS conta a mesma história, por outro lado [@SaezFrancas2012adhdcfs]: quase um terço dos pacientes com EM/SFC tinha um défice de energia pré-existente que podia ser diagnosticado como PHDA na infância.
 
 ---
 
@@ -95,11 +95,11 @@ Se a hipótese da reserva metabólica estiver correta, a predisposição não é
 
 **Suporte ao cofator BH4.** Para portadores de GCH1 rs841 (~4% da população), a suplementação de BH4 ou o suporte ao cofator (ácido folínico, vitamina C, ferro para reciclagem) podem aumentar a reserva [@Williams2025GCH1BH4].
 
-**Perfusão cerebral.** Em pacientes com POTS/dysautonomia concomitante, o manejo padrão da perfusão (compressão, carga de fluido/sal, posições de trabalho reclinadas) aumenta diretamente a entrega de energia ao cérebro.
+**Perfusão cerebral.** Em pacientes com POTS/disautonomia concomitante, o manejo padrão da perfusão (compressão, carga de fluido/sal, posições de trabalho reclinadas) aumenta diretamente a entrega de energia ao cérebro.
 
-Nenhum estudo testou se a correção preventiva desses reduzidores de reserva modificáveis em pacientes neurodivergent reduz a incidência de EM/SFC após uma infecção. A previsão é clara. O estudo ainda não foi realizado.
+Nenhum estudo testou se a correção preventiva desses reduzidores de reserva modificáveis em pacientes neurodivergentes reduz a incidência de EM/SFC após uma infecção. A previsão é clara. O estudo ainda não foi realizado.
 
-*Nota: As above são hipóteses de pesquisa sobre fatores de risco modificáveis, não são recomendações clínicas. Discuta qualquer intervenção com um médico qualificado.*
+*Nota: As informações acima são hipóteses de pesquisa sobre fatores de risco modificáveis, não são recomendações clínicas. Discuta qualquer intervenção com um médico qualificado.*
 
 ---
 
