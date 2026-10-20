@@ -1553,3 +1553,33 @@ Prevents re-processing of already-integrated content.
 | URL | Source | Scraped | Integrated | Target |
 |-----|--------|---------|------------|--------|
 | https://www.bbc.com/sport/athletics/articles/crd6dj26v4e4o | bbc.com (BBC Sport) | 2026-10-20 | 2026-10-20 | appendix-d-resources.typ `<sec:patient-advocates>` (new "Athletes and Sportspersons" subsection) |
+
+
+## ADHD and Mortality (adhd-mortality) — Literature Search (2026-10-20)
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed E-utilities (esearch/esummary/efetch via eutils.ncbi.nlm.nih.gov) | 2026-10-20 | 10 query families across rival framings (F1 independent risk / F2 confounding / F3 medication-protective / F4 medication-harm) + ME/CFS treatment & mortality context. 13 net-new papers added. Reused NOT re-added: Roberts2016, McManimen2018, Chu2021suicide, SaezFrancas2012adhdcfs, Norris2017adhdfatigue, Rimes2015adhdcfs, Blockmans2006MPHCFS, Blockmans2016LongTermMPH, Kaiser2015KPAX002, Randall2005modafinil (existing in treatments.bib — NOTE: existing Randall2005modafinil entry has WRONG DOI 10.1177/0269881105058816 and wrong author list; correct DOI 10.1177/0269881105056531, authors Randall DC, Cafferty FH, Shneerson JM, Smith IE, Llewelyn MB, File SE — flagged for main-session fix, not edited per append-only rule). |
+| Crossref API (api.crossref.org) | 2026-10-20 | Driving paper DOI 10.1001/jamanetworkopen.2026.39448 metadata confirmation (title/authors/journal/year). |
+| Europe PMC REST (ebi.ac.uk/europepmc/webservices/rest) | 2026-10-20 | search/core metadata + fullTextUrlList for OA PDF discovery (6 papers). |
+| PMC OA OpenData S3 (pmc-oa-opendata.s3.amazonaws.com) | 2026-10-20 | Direct PDFs for 3 papers: Vasiliadis2024 (PMC10901868, 7pp), Rice2024 (PMC10897683, 3pp), Hennissen2017 (PMC5336546, 17pp). NoSuchKey for the 6 JAMA/Lancet-hosted PMCIDs (not in OA package). |
+| jamanetwork.com articlepdf + europepmc.org render/ptpmcrender + pmc.ncbi.nlm.nih.gov /pdf/ | 2026-10-20 | ALL return Cloudflare "Just a moment…" challenge pages to non-browser HTTP (curl + browser UA, webfetch 403). PDFs unavailable for JAMA/Lancet-hosted papers. |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| https://pubmed.ncbi.nlm.nih.gov/42895743/ (Corrigan 2026) | pubmed/europepmc (eutils) | 2026-10-20 | — | bib/epidemiology.bib (@Corrigan2026ADHDmortality), appendix-h — PDF unavailable (jamanetwork Cloudflare; OA journal, full abstract captured) |
+| https://doi.org/10.1001/jamanetworkopen.2026.39448 | crossref | 2026-10-20 | — | driving-paper metadata confirm |
+| https://pubmed.ncbi.nlm.nih.gov/25726514/ (Dalsgaard 2015) | pubmed (eutils) | 2026-10-20 | — | bib/epidemiology.bib (@Dalsgaard2015ADHDmortality), appendix-h — PDF unavailable (Lancet paywall, no OA) |
+| https://pubmed.ncbi.nlm.nih.gov/35157020/ (Catalá-López 2022) | pubmed/europepmc (eutils) | 2026-10-20 | — | bib/epidemiology.bib (@CatalaLopez2022mortality), appendix-h — PDF unavailable (jamanetwork Cloudflare) |
+| https://pubmed.ncbi.nlm.nih.gov/39844532/ (O'Nions 2025) | pubmed/europepmc (eutils) | 2026-10-20 | — | bib/epidemiology.bib (@ONions2025lifexpectancy), appendix-h — PDF unavailable (europepmc render Cloudflare; author manuscript) |
+| https://pubmed.ncbi.nlm.nih.gov/31390039/ (Chen 2019) | pubmed/europepmc (eutils) | 2026-10-20 | — | bib/epidemiology.bib (@Chen2019ADHDmortality), appendix-h — PDF unavailable (jamanetwork Cloudflare) |
+| https://pubmed.ncbi.nlm.nih.gov/31389973/ (Sun 2019) | pubmed/europepmc (eutils) | 2026-10-20 | — | bib/epidemiology.bib (@Sun2019prematuredeath), appendix-h — PDF unavailable (jamanetwork Cloudflare) |
+| https://pubmed.ncbi.nlm.nih.gov/35549976/ (Mustonen 2023) | pubmed (eutils) | 2026-10-20 | — | bib/epidemiology.bib (@Mustonen2023mortality), appendix-h — PDF unavailable (Nord J Psychiatry paywall) |
+| https://pubmed.ncbi.nlm.nih.gov/38470385/ (Li 2024) | pubmed/europepmc (eutils) | 2026-10-20 | — | bib/epidemiology.bib (@Li2024ADHDpharmmortality), appendix-h — PDF unavailable (jamanetwork Cloudflare; Europe PMC HTML 'Free') |
+| https://pubmed.ncbi.nlm.nih.gov/38418443/ (Vasiliadis 2024) | pubmed/europepmc (eutils) | 2026-10-20 | — | bib/epidemiology.bib (@Vasiliadis2024mortality), appendix-h |
+| https://pmc-oa-opendata.s3.amazonaws.com/PMC10901868.1/PMC10901868.1.pdf | PMC OA S3 | 2026-10-20 | — | Literature/epidemiology/Vasiliadis2024mortality/ |
+| https://pubmed.ncbi.nlm.nih.gov/38251676/ (Rice 2024) | pubmed/europepmc (eutils) | 2026-10-20 | — | bib/epidemiology.bib (@Rice2024stimulantsuicide), appendix-h |
+| https://pmc-oa-opendata.s3.amazonaws.com/PMC10897683.1/PMC10897683.1.pdf | PMC OA S3 | 2026-10-20 | — | Literature/epidemiology/Rice2024stimulantsuicide/ |
+| https://pubmed.ncbi.nlm.nih.gov/26873809/ (Kapur & Webb 2016) | pubmed (eutils) | 2026-10-20 | — | bib/epidemiology.bib (@Kapur2016suicide), appendix-h — PDF unavailable (Lancet comment paywall) |
+| https://pubmed.ncbi.nlm.nih.gov/40203844/ (Farhat 2025) | pubmed (eutils) | 2026-10-20 | — | bib/neurology-comorbidities.bib (@Farhat2025CVsafety), appendix-h — PDF unavailable (Lancet Psychiatry paywall) |
+| https://pubmed.ncbi.nlm.nih.gov/28236285/ (Hennissen 2017) | pubmed/europepmc (eutils) | 2026-10-20 | — | bib/neurology-comorbidities.bib (@Hennissen2017CVmeta), appendix-h |
+| https://pmc-oa-opendata.s3.amazonaws.com/PMC5336546.1/PMC5336546.1.pdf | PMC OA S3 | 2026-10-20 | — | Literature/treatments/Hennissen2017CVmeta/ |

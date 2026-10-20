@@ -12897,5 +12897,80 @@
     "label": "PPV / NPV",
     "category": "method",
     "definition": "Positive and negative predictive value: the probability that a positive or negative test result is correct in the tested population; unlike sensitivity and specificity, they depend on prevalence."
+  },
+  "guanfacine": {
+    "label": "guanfacine",
+    "category": "medication",
+    "definition": "A central alpha-2A adrenergic agonist with preferential prefrontal action. Used off-label in ME/CFS for cognitive dysfunction ('brain fog') and hyperadrenergic symptoms; may improve working memory via prefrontal noradrenergic signaling.",
+    "generic": "Guanfacine",
+    "brand": "Intuniv, Tenex",
+    "class": "Central alpha-2A adrenergic agonist / sympatholytic",
+    "rx": "Prescription (US, EU)",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Guanfacine%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Guanfacine"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Guanfacine"
+      }
+    ],
+    "therapeuticCategory": "Threshold-modulatory",
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "0.5–4 mg",
+        "category": "Threshold-modulatory",
+        "mechanism": "α2A-adrenergic agonist with prefrontal specificity. Modulates catecholamine inverted-U in prefrontal circuits."
+      }
+    ]
+  },
+  "atomoxetine": {
+    "label": "atomoxetine",
+    "category": "medication",
+    "definition": "A selective norepinephrine reuptake inhibitor (NRI) used for ADHD. Used off-label in ME/CFS for cognitive dysfunction and fatigue; increases prefrontal norepinephrine and dopamine without the abuse potential of stimulants.",
+    "generic": "Atomoxetine",
+    "brand": "Strattera",
+    "class": "Selective norepinephrine reuptake inhibitor (NRI)",
+    "rx": "Prescription (US, EU)",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Atomoxetine%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Atomoxetine"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Atomoxetine"
+      }
+    ],
+    "therapeuticCategory": "Threshold-modulatory",
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "Selective NET inhibitor increasing NE tone. Does not correct why NE is deficient."
+      }
+    ]
+  },
+  "WURS-25": {
+    "label": "WURS-25",
+    "category": "method",
+    "definition": "Wender Utah Rating Scale, 25-item version: a validated retrospective questionnaire that scores childhood ADHD symptoms; a total above 36 is the usual screening threshold.",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Wender+Utah+Rating+Scale"
+      }
+    ]
   }
 }
