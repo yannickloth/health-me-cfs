@@ -653,14 +653,25 @@ class ModelClient:
             return json.load(response)
 
     def complete(
-        self, system: str, user: str, max_tokens: int, extra: dict | None = None
+        self,
+        system: str,
+        user: str,
+        max_tokens: int,
+        extra: dict | None = None,
+        prefill: str | None = None,
     ) -> str:
+        messages = [
+            {"role": "system", "content": system},
+            {"role": "user", "content": user},
+        ]
+        if prefill:
+            # Assistant prefill: the model continues this turn instead of
+            # opening a reasoning block. Used by the judge to obtain a JSON
+            # answer from a reasoning model.
+            messages.append({"role": "assistant", "content": prefill})
         payload = {
             "model": self.config.model,
-            "messages": [
-                {"role": "system", "content": system},
-                {"role": "user", "content": user},
-            ],
+            "messages": messages,
             "temperature": self.config.temperature,
             "top_p": self.config.top_p,
             "repeat_penalty": self.config.repeat_penalty,

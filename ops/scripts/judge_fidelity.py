@@ -15,9 +15,11 @@ Model: `unsloth/LFM2.5-24B-A2B-GGUF` quant `IQ3_XXS` (8.5 GiB). The script
 starts `llama-server` **directly** (not through `unsloth studio run`) because
 the studio wrapper injects a continuation turn when the model's reasoning
 spends the output cap, and that continuation never reaches a streaming client.
-`--reasoning off` is the engine-level switch that makes the model answer
-instead of think; the reader streams both text channels and stops at the first
-balanced JSON object that parses as a verdict.
+`--reasoning off` at the engine and an assistant prefill of `{"verdict":"` are
+what make the model answer instead of think: without the prefill it spends the
+whole output budget on reasoning and returns finish_reason=length with empty
+content. Requests are non-streaming (the streamed path keeps reasoning enabled
+and truncates at the slot limit).
 
 VRAM gate: this session's own model server holds ~9.7 GiB and unloads after
 900 s idle. The script therefore refuses to load the judge model until
@@ -80,6 +82,13 @@ DEFAULT_VARIANT = "IQ3_XXS"
 
 VERDICTS = ("FAITHFUL", "DRIFT", "OMIT", "ADD", "CONTRADICTS")
 
+# Assistant prefill that suppresses the model's reasoning block. Probe result
+# on a real paragraph: plain request -> 2780 chars of reasoning, finish=length,
+# empty content; prefilled request -> 0 chars of reasoning, finish=stop, valid
+# JSON. The model continues the prefilled turn instead of opening a thinking
+# section, so the output budget goes to the verdict.
+PREFILL = '{"verdict":"'
+
 SYSTEM = """You are a strict translation-fidelity judge for medical text.
 
 You receive one English source paragraph and its translation (Spanish or
@@ -116,7 +125,9 @@ Rules:
 
 Answer with a single JSON object only:
 {"verdict":"FAITHFUL|DRIFT|OMIT|ADD|CONTRADICTS","missing":[...],"added":[...],
- "fix":"<replacement sentence, empty string if none>","reason":"<one short line>"}"""
+ "fix":"<replacement sentence, empty string if none>","reason":"<one short line>"}
+
+Keep "reason" to 12 words or fewer and "fix" to one sentence."""
 
 USER = """Judge this pair. English source first, then the translation.
 
@@ -163,7 +174,8 @@ class DirectServer:
             self.binary, "-m", self.model_path,
             "--host", "127.0.0.1", "--port", str(self.port),
             "--parallel", str(self.parallel), "-c", str(self.context),
-            "-ngl", "-1", "--jinja", "--reasoning", "off", "--no-webui",
+            "-ngl", "-1", "--jinja", "--reasoning", "off",
+            "--chat-template-kwargs", '{"enable_thinking":false}', "--no-webui",
         ]
         log = self.log_path.open("w", encoding="utf-8")
         self.process = subprocess.Popen(
@@ -318,73 +330,6 @@ def parse_verdict(text: str) -> dict[str, object] | None:
     return None
 
 
-def stream_verdict(client: ModelClient, system: str, user: str, max_tokens: int = 3000) -> str:
-    """Stream the completion and return at the first complete verdict.
-
-    The judge model reasons before answering. llama.cpp's structured handling
-    of that reasoning differs in streaming mode (`delta.reasoning_content`
-    here, plain `delta.content` for small prompts, no `--reasoning off`
-    envelope for streamed chunks), so the reader accumulates *both* channels
-    and stops at the first balanced JSON object carrying a valid verdict.
-    Reasoning text cannot forge a verdict: every candidate is JSON-parsed and
-    checked against the verdict vocabulary, and the system prompt forbids
-    emitting one before the answer.
-    """
-    config = client.config
-    payload = {
-        "model": config.model,
-        "messages": [
-            {"role": "system", "content": system},
-            {"role": "user", "content": user},
-        ],
-        "temperature": config.temperature,
-        "top_p": config.top_p,
-        "repeat_penalty": config.repeat_penalty,
-        "max_tokens": max_tokens,
-        "stream": True,
-    }
-    headers = {"Content-Type": "application/json", "Accept": "text/event-stream"}
-    if config.api_key:
-        headers["Authorization"] = f"Bearer {config.api_key}"
-    request = urllib.request.Request(
-        config.base_url.rstrip("/") + "/v1/chat/completions",
-        data=json.dumps(payload).encode("utf-8"),
-        headers=headers,
-        method="POST",
-    )
-    pieces: list[str] = []
-    seen = 0
-    with urllib.request.urlopen(request, timeout=config.timeout) as response:
-        for raw in response:
-            line = raw.decode("utf-8", "replace").strip()
-            if not line.startswith("data:"):
-                continue
-            chunk = line[5:].strip()
-            if chunk == "[DONE]":
-                break
-            try:
-                event = json.loads(chunk)
-            except json.JSONDecodeError:
-                continue
-            choices = event.get("choices") or []
-            if not choices:
-                continue
-            delta = choices[0].get("delta") or {}
-            piece = delta.get("content") or delta.get("reasoning_content") or ""
-            if not piece:
-                continue
-            pieces.append(piece)
-            text = "".join(pieces)
-            if parse_verdict(text) is not None:
-                return text
-            # Keep the buffer bounded: trimming whole pieces can break a
-            # partial JSON brace count, so only trim well behind the growth.
-            if len(text) > 12000 and seen != len(pieces):
-                seen = len(pieces)
-                pieces = pieces[len(pieces) // 2 :]
-    return "".join(pieces)
-
-
 def _signals_text(signals: dict[str, object]) -> str:
     """Render triage evidence for the judge, with the omission hint."""
     if not signals:
@@ -417,7 +362,11 @@ def judge_pair(client: ModelClient, pair: dict[str, object], model: str) -> dict
     last: Exception | None = None
     for attempt in range(2):
         try:
-            raw = stream_verdict(client, SYSTEM, user)
+            # Always prefill the assistant turn: the unprefilled request is a
+            # known truncation failure for this model (reasoning eats the cap).
+            raw = PREFILL + client.complete(
+                SYSTEM, user, max_tokens=900 if attempt else 700, prefill=PREFILL
+            )
             verdict = parse_verdict(raw)
             if verdict is None:
                 raise ValueError(f"unparseable verdict: {raw[-160:]!r}")
@@ -428,9 +377,12 @@ def judge_pair(client: ModelClient, pair: dict[str, object], model: str) -> dict
             }
         except Exception as exc:  # noqa: BLE001
             last = exc
+            # Retry with the same prefill: the unprefilled path is a known
+            # truncation failure for this model.
             user = USER.format(
-                en=pair["en"][:3500], lang=pair["lang"], target=pair["target"][:3500],
-                signals=_signals_text(signals) + "\n\nAnswer with JSON only. No prose.",
+                en=pair["en"][:2500], lang=pair["lang"], target=pair["target"][:2500],
+                signals=_signals_text(signals)
+                + "\n\nReturn the JSON object now. Keep reason under 12 words.",
             )
             time.sleep(2 * (attempt + 1))
     return {
