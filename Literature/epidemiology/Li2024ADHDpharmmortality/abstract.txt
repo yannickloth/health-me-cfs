@@ -1,0 +1,14 @@
+Title: ADHD Pharmacotherapy and Mortality in Individuals With ADHD
+Authors: Li L, Zhu N, Zhang L, Kuja-Halkola R, D'Onofrio BM, Brikell I, Lichtenstein P, Cortese S, Larsson H, Chang Z
+Journal: JAMA
+Year: 2024
+Volume: 331
+Issue: 10
+Pages: 850-860
+DOI: 10.1001/jama.2024.0851
+PMID: 38470385
+URL: https://doi.org/10.1001/jama.2024.0851
+Retrieved: 2026-10-20
+
+ABSTRACT
+OBJECTIVE: investigate whether initiation of ADHD pharmacotherapy was associated with reduced mortality in individuals with ADHD. DESIGN: observational nationwide cohort in Sweden applying target trial emulation; 148,578 individuals aged 6-64y with incident ADHD diagnosis 2007-2018, no prior medication; follow-up to death/emigration/2 years after diagnosis/Dec 31 2020. Exposure: medication dispensing within 3 months of diagnosis. RESULTS: 84,204 (56.7%) initiated medication. 2-year mortality risk 39.1 vs 48.1 per 10,000 (risk difference -8.9; 95% CI -17.3 to -0.6). Medication initiation associated with lower all-cause mortality (HR 0.79; 0.70-0.88) and unnatural-cause mortality (HR 0.75; 0.66-0.86), but not natural-cause mortality (HR 0.86; 0.71-1.05). CONCLUSIONS: ADHD medication initiation associated with lower all-cause mortality, particularly unnatural causes.

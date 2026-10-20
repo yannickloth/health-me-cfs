@@ -1,0 +1,14 @@
+Title: Attention-Deficit/Hyperactivity Disorder and Mortality Risk in Taiwan
+Authors: Chen VC, Chan HL, Wu SI, Lee M, Lu ML, Liang HY, Dewey ME, Stewart R, Lee CT
+Journal: JAMA Network Open
+Year: 2019
+Volume: 2
+Issue: 8
+Pages: e198714
+DOI: 10.1001/jamanetworkopen.2019.8714
+PMID: 31390039
+URL: https://doi.org/10.1001/jamanetworkopen.2019.8714
+Retrieved: 2026-10-20
+
+ABSTRACT
+OBJECTIVE: investigate the association between ADHD and causes of death in Taiwan. DESIGN: nationwide population-based cohort; 275,980 individuals aged 4-44y with new ADHD diagnosis 2000-2012 vs 1,931,860 sex/age-matched controls. Cox regression controlling for sex, age, residence, insurance premium, outpatient visits, congenital anomaly, intellectual disability, depression, autism, substance use, conduct disorder, oppositional defiant disorder. RESULTS: 4321 deaths (15.1 million person-years); 727 (0.26%) ADHD vs 3594 (0.19%) non-ADHD. Adjusted HR: all-cause 1.07 (1.00-1.17); suicide 2.09 (1.62-2.71); unintentional injury 1.30 (1.10-1.52); homicide 2.00 (1.09-3.68). No increased natural-cause mortality after adjustment. CONCLUSIONS: ADHD associated with higher injury-cause mortality (suicide, unintentional injury, homicide); absolute risk low.

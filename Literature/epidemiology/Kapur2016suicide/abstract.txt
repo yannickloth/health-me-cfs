@@ -1,0 +1,14 @@
+Title: Suicide risk in people with chronic fatigue syndrome
+Authors: Kapur N, Webb R
+Journal: Lancet
+Year: 2016
+Volume: 387
+Issue: 10028
+Pages: 1596-7
+DOI: 10.1016/S0140-6736(16)00270-1
+PMID: 26873809
+URL: https://doi.org/10.1016/S0140-6736(16)00270-1
+Retrieved: 2026-10-20
+
+ABSTRACT
+Comment on Roberts E, et al. (Lancet 2016;387:1638-43), the CRIS/SLaM register study of ME/CFS mortality. Kapur & Webb interpret the finding that the proportion of ME/CFS deaths attributed to suicide was elevated relative to the general population, and discuss the challenges of establishing suicide risk in ME/CFS (small numbers, ascertainment, confounding by comorbid depression), arguing for vigilance about suicidality in this patient group while cautioning against over-interpretation of register-based cause-of-death data.

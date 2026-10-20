@@ -1,0 +1,14 @@
+Title: Chronic treatment with modafinil may not be beneficial in patients with chronic fatigue syndrome
+Authors: Randall DC, Cafferty FH, Shneerson JM, Smith IE, Llewelyn MB, File SE
+Journal: Journal of Psychopharmacology
+Year: 2005
+Volume: 19
+Issue: 6
+Pages: 647-60
+DOI: 10.1177/0269881105056531
+PMID: 16272188
+URL: https://doi.org/10.1177/0269881105056531
+Retrieved: 2026-10-20
+
+ABSTRACT
+Fourteen patients (7 male, 7 female, 22-63y) classified as chronic fatigue syndrome (CFS), without concurrent major depression, significant sleepiness, or psychoactive medication, completed a double-blind, placebo-controlled, crossover study of modafinil (200 and 400 mg/day). Treatment periods 20 days with 2-week washouts. Primary aim: cognition; secondary: self-ratings of fatigue, quality of life, mood. RESULTS: mixed effects on cognition (200 mg reduced latency in sustained attention but 400 mg increased missed targets; 400 mg worsened mental flexibility and motor speed). No effects on fatigue, quality of life, or mood. CONCLUSION: limited and mixed cognitive effects; no fatigue benefit; a daytime-sleepiness subgroup might differ.

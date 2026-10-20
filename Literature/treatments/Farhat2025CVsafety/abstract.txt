@@ -1,0 +1,14 @@
+Title: Comparative cardiovascular safety of medications for attention-deficit hyperactivity disorder in children, adolescents, and adults: a systematic review and network meta-analysis
+Authors: Farhat LC, Lannes A, Del Giovane C, Parlatini V, Garcia-Argibay M, Ostinelli EG, Tomlinson A, Chang Z, Larsson H, Fava C, Montastruc F, Cipriani A, Revet A, Cortese S
+Journal: The Lancet Psychiatry
+Year: 2025
+Volume: 12
+Issue: 5
+Pages: 355-365
+DOI: 10.1016/S2215-0366(25)00062-8
+PMID: 40203844
+URL: https://doi.org/10.1016/S2215-0366(25)00062-8
+Retrieved: 2026-10-20
+
+ABSTRACT
+BACKGROUND: concerns about cardiovascular safety of ADHD medications remain. METHODS: systematic review and network meta-analysis; 12 databases to Jan 18 2024; randomised controlled trials of amphetamines, atomoxetine, bupropion, clonidine, guanfacine, lisdexamfetamine, methylphenidate, modafinil, viloxazine vs each other or placebo. Primary outcomes: change in SBP, DBP (mm Hg), pulse (bpm) near 12/26/52 weeks. CINeMA certainty. FINDINGS: 102 RCTs; 13,315 children/adolescents + 9387 adults. Amphetamines, atomoxetine, lisdexamfetamine, methylphenidate, viloxazine increased haemodynamic values. Children: SBP +1.07 (atomoxetine) to +1.81 (methylphenidate); pulse +2.79 (viloxazine) to +5.58 (atomoxetine). Adults: SBP +1.66 (methylphenidate) to +2.3 (amphetamines); pulse +4.37 (methylphenidate) to +5.8 (viloxazine). Guanfacine decreased BP/pulse. Only 4 RCTs medium term, none long term. INTERPRETATION: monitor BP and pulse in any ADHD medication, not stimulants only; long-term causal cardiovascular data lacking.

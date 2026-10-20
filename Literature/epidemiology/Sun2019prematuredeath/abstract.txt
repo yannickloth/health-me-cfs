@@ -1,0 +1,14 @@
+Title: Association of Psychiatric Comorbidity With the Risk of Premature Death Among Children and Adults With Attention-Deficit/Hyperactivity Disorder
+Authors: Sun S, Kuja-Halkola R, Faraone SV, D'Onofrio BM, Dalsgaard S, Chang Z, Larsson H
+Journal: JAMA Psychiatry
+Year: 2019
+Volume: 76
+Issue: 11
+Pages: 1141-1149
+DOI: 10.1001/jamapsychiatry.2019.1944
+PMID: 31389973
+URL: https://doi.org/10.1001/jamapsychiatry.2019.1944
+Retrieved: 2026-10-20
+
+ABSTRACT
+OBJECTIVES: investigate all-cause and cause-specific mortality in ADHD and the role of psychiatric comorbidity. DESIGN: Swedish national registers; 2,675,615 individuals born 1983-2009; 86,670 (3.2%) with ADHD; follow-up to 2013. RESULTS: 424 with ADHD and 6231 without died; mortality 11.57 vs 2.16 per 10,000 person-years. Association stronger in adulthood (HR 4.64; 4.11-5.25) than childhood (HR 1.41; 0.97-2.04). HR increased with number of psychiatric comorbidities (ADHD only 1.41 [1.01-1.97]; >=4 comorbidities 25.22 [19.60-32.46]). In adulthood, adjusting for early-onset comorbidity attenuated natural-cause death to non-significance (HR 1.32; 0.94-1.85); adjusting for later-onset comorbidity attenuated suicide to non-significance (HR 1.13; 0.88-1.45) but unintentional injury remained significant (HR 2.14; 1.71-2.68). CONCLUSIONS: psychiatric comorbidity plays an important role in ADHD mortality.

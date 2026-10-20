@@ -1,0 +1,14 @@
+Title: Stimulant medication and suicide mortality in attention-deficit hyperactivity disorder
+Authors: Rice KM, Peltzman T, Gottlieb D, Shiner B, Watts BV
+Journal: BJPsych Open
+Year: 2024
+Volume: 10
+Issue: 1
+Pages: e33
+DOI: 10.1192/bjo.2023.643
+PMID: 38251676
+URL: https://doi.org/10.1192/bjo.2023.643
+Retrieved: 2026-10-20
+
+ABSTRACT
+Patients with ADHD are at elevated risk for suicide; no prior work had assessed stimulant prescriptions and death by suicide. Retrospective cohort of US Department of Veterans Affairs patients with active ADHD diagnosis receiving stimulants 2016-2019. Months with active stimulant prescription were associated with decreased suicide mortality vs months without (OR 0.57; 95% CI 0.36-0.88). CONCLUSION: prescribing stimulants for ADHD is associated with decreased suicide mortality.

@@ -1,0 +1,14 @@
+Title: Mortality Among People With Attention-Deficit/Hyperactivity Disorder: A Systematic Review and Meta-Analysis
+Authors: Corrigan L, Heywood L, Stewart GR, O'Nions E, Shelford H, Stott J, John A
+Journal: JAMA Network Open
+Year: 2026
+Volume: 9
+Issue: 10
+Pages: e2639448
+DOI: 10.1001/jamanetworkopen.2026.39448
+PMID: 42895743
+URL: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2855472
+Retrieved: 2026-10-20
+
+ABSTRACT
+IMPORTANCE: Attention-deficit/hyperactivity disorder (ADHD) is associated with adverse life outcomes and increased mortality. Clarifying the magnitude of mortality risks using international data and the potential association between medication and mortality is essential to inform clinical care and motivate public health strategies. OBJECTIVES: To examine the association between ADHD and all-cause and cause-specific mortality and to assess whether mortality risk differs according to ADHD medication use. DATA SOURCES: PubMed, Web of Science, PsycINFO, EMBASE, MEDLINE, and CINAHL from inception to July 8, 2025. STUDY SELECTION: Quantitative research across all age groups reporting all-cause and/or cause-specific mortality in individuals with ADHD, defined via diagnostic criteria, self-identification, trait measures, or ADHD polygenic risk scores. DATA EXTRACTION AND SYNTHESIS: Independent dual extraction; random-effects meta-analysis of pooled hazard ratios (HRs). MAIN OUTCOMES: all-cause and cause-specific mortality (suicide, unintentional or intentional injury, natural causes). RESULTS: 19 studies, 15,920,970 participants (36.1% female). ADHD was associated with increased all-cause mortality (HR 1.71; 95% CI 1.31-2.24; P<.001); suicide (HR 1.89; 1.21-2.95; P=.005); unintentional or intentional injury (HR 1.55; 1.22-2.00; P<.001); and natural-cause mortality (HR 1.27; 1.16-1.38; P<.001). ADHD medication use in people with ADHD was associated with reduced all-cause mortality (HR 0.75; 0.64-0.87; P<.001). Substantial heterogeneity was observed across studies. CONCLUSIONS: ADHD was associated with increased mortality across multiple causes; ADHD medication was associated with decreased all-cause mortality, underscoring the importance of timely diagnosis and treatment. However, the heterogeneity highlights the need for standardized methods and improved control of confounding factors.

@@ -1,0 +1,14 @@
+Title: Mortality in children, adolescents, and adults with attention deficit hyperactivity disorder: a nationwide cohort study
+Authors: Dalsgaard S, Østergaard SD, Leckman JF, Mortensen PB, Pedersen MG
+Journal: Lancet
+Year: 2015
+Volume: 385
+Issue: 9983
+Pages: 2190-6
+DOI: 10.1016/S0140-6736(14)61684-6
+PMID: 25726514
+URL: https://doi.org/10.1016/S0140-6736(14)61684-6
+Retrieved: 2026-10-20
+
+ABSTRACT
+BACKGROUND: Whether ADHD itself is associated with increased mortality remains unknown. METHODS: Danish national registers; followed 1.92 million individuals (32,061 with ADHD) from first birthday through 2013; mortality rate ratios (MRRs) by Poisson regression adjusted for calendar year, age, sex, family psychiatric history, parental age, and parental education/employment. FINDINGS: 24.9 million person-years; 5580 deaths. Mortality rate 5.85 vs 2.21 per 10,000 person-years (fully adjusted MRR 2.07; 95% CI 1.70-2.50; p<0.0001). Accidents were the most common cause. MRR by age at diagnosis: <6y 1.86 (0.93-3.27); 6-17y 1.58 (1.21-2.03); >=18y 4.25 (3.05-5.78). After excluding oppositional defiant/conduct/substance use disorder, ADHD remained associated (MRR 1.50; 1.11-1.98); higher in girls/women (2.85; 1.56-4.71) than boys/men (1.27; 0.89-1.76). INTERPRETATION: Excess mortality driven mainly by unnatural causes, especially accidents.

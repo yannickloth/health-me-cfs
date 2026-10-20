@@ -1,0 +1,14 @@
+Title: ADHD medications use and risk of mortality and unintentional injuries: a population-based cohort study
+Authors: Vasiliadis HM, Lunghi C, Rahme E, Rochette L, Gignac M, Massamba V, Diallo FB, Fansi A, Cortese S, Lesage A
+Journal: Translational Psychiatry
+Year: 2024
+Volume: 14
+Issue: 1
+Pages: 128
+DOI: 10.1038/s41398-024-02825-y
+PMID: 38418443
+URL: https://doi.org/10.1038/s41398-024-02825-y
+Retrieved: 2026-10-20
+
+ABSTRACT
+We assessed ADHD medication use and risk of all-cause mortality and unintentional injuries (ED or hospital admission) in individuals aged <=24y with ADHD. Population-based retrospective cohort, 2000-2021, Quebec health administrative data. Cohort n=217,192 aged 1-24y (male:female ~2:1). Compared to non-use, episodes of ADHD medication use were associated with reduced all-cause mortality (aHR 0.61; 0.48-0.76) and unintentional injury leading to ED (0.75; 0.74-0.77) or hospitalization (0.71; 0.68-0.75). Stimulants associated with lower all-cause mortality and fewer injuries; non-stimulants (and combined) reduced injuries but not all-cause mortality. CONCLUSION: stimulants may have a protective effect on all-cause mortality; residual confounding cannot be excluded.

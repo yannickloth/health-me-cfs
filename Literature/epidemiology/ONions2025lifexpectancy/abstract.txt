@@ -1,0 +1,14 @@
+Title: Life expectancy and years of life lost for adults with diagnosed ADHD in the UK: matched cohort study
+Authors: O'Nions E, El Baou C, John A, Lewer D, Mandy W, McKechnie DGJ, Petersen I, Stott J
+Journal: The British Journal of Psychiatry
+Year: 2025
+Volume: 226
+Issue: 5
+Pages: 261-268
+DOI: 10.1192/bjp.2024.199
+PMID: 39844532
+URL: https://doi.org/10.1192/bjp.2024.199
+Retrieved: 2026-10-20
+
+ABSTRACT
+BACKGROUND: Nearly 3% of adults have ADHD; most in the UK are undiagnosed. No studies had used mortality data to examine the life-expectancy deficit for diagnosed ADHD. METHODS: matched cohort using UK primary care (792 practices, 9,561,450 people, 2000-2019); 30,039 adults aged 18+ with diagnosed ADHD vs 300,390 matched 1:10 by age, sex, practice. Poisson regression for age-specific mortality; life tables. RESULTS: ~0.32% of adults had an ADHD diagnosis (~1 in 9 of all adults with ADHD). Apparent life-expectancy reduction relative to the general population was 6.78 years (95% CI 4.50-9.11) for males and 8.64 years (6.55-10.91) for females. CONCLUSIONS: adults with diagnosed ADHD live shorter lives, likely from modifiable risk factors and unmet support/treatment needs; results may not generalize to the undiagnosed majority.

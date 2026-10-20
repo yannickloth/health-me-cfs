@@ -1,0 +1,14 @@
+Title: Mortality in Persons With Autism Spectrum Disorder or Attention-Deficit/Hyperactivity Disorder: A Systematic Review and Meta-analysis
+Authors: Catalá-López F, Hutton B, Page MJ, Driver JA, Ridao M, Alonso-Arroyo A, Valencia A, Macías Saint-Gerons D, Tabarés-Seisdedos R
+Journal: JAMA Pediatrics
+Year: 2022
+Volume: 176
+Issue: 4
+Pages: e216401
+DOI: 10.1001/jamapediatrics.2021.6401
+PMID: 35157020
+URL: https://doi.org/10.1001/jamapediatrics.2021.6401
+Retrieved: 2026-10-20
+
+ABSTRACT
+IMPORTANCE: ASD and ADHD are childhood-onset disorders; several studies suggest increased mortality risk but results are inconsistent. OBJECTIVE: assess mortality risk among persons with ASD/ADHD and first-degree relatives. DATA SOURCES: MEDLINE, Embase, Scopus, Web of Science, PsycINFO (inception to April 1, 2021). RESULTS: 27 studies, 642,260 individuals. All-cause mortality higher for ASD (12 studies; RR 2.37; 1.97-2.85; I2 89%) and ADHD (8 studies; 396,488 participants; RR 2.13; 1.13-4.02; I2 98%; low confidence). Among persons with ADHD, natural-cause deaths not significantly increased (4 studies; RR 1.62; 0.89-2.96), but unnatural-cause deaths higher (10 studies; RR 2.81; 1.73-4.55; I2 92%). CONCLUSIONS: ASD and ADHD associated with significantly increased mortality; substantial heterogeneity between studies.

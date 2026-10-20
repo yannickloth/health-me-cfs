@@ -1,0 +1,14 @@
+Title: Association of ADHD symptoms in adolescence and mortality in Northern Finland Birth Cohort 1986
+Authors: Mustonen A, Alakokkare AE, Scott JG, Halt AH, Vuori M, Hurtig T, Rodriguez A, Miettunen J, Niemelä S
+Journal: Nordic Journal of Psychiatry
+Year: 2023
+Volume: 77
+Issue: 2
+Pages: 165-171
+DOI: 10.1080/08039488.2022.2073389
+PMID: 35549976
+URL: https://doi.org/10.1080/08039488.2022.2073389
+Retrieved: 2026-10-20
+
+ABSTRACT
+METHODS: Northern Finland Birth Cohort 1986 (n=9432 recruited; 6685 with data) linked to nationwide death register; parent-rated ADHD symptoms (SWAN) and mortality to age 33y; Cox regression. RESULTS: 63 (0.9%) died. Higher SWAN inattentive (crude HR 2.30; 1.46-3.63), hyperactive (2.43; 1.29-4.56), and combined (2.69; 1.57-4.61) scores associated with increased death risk; persisted after sex, family structure, lifetime parental psychiatric disorder. Further adjustment for adolescent alcohol intoxication, cannabis, and other substance use attenuated to below statistical significance. CONCLUSIONS: extends ADHD-symptom mortality findings; whether association is independent of adolescent substance use needs larger samples.
