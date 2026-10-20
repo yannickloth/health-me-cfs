@@ -14560,5 +14560,80 @@
     "category": "method",
     "definition": "Positiver und negativer prädiktiver Wert: die Wahrscheinlichkeit, dass ein positives oder negatives Testergebnis in der untersuchten Population korrekt ist; anders als Sensitivität und Spezifität hängen sie von der Prävalenz ab.",
     "synonyms": []
+  },
+  "guanfacine": {
+    "label": "Guanfacin",
+    "category": "medication",
+    "definition": "Ein zentraler Alpha-2A-adrenerger Agonist mit bevorzugter präfrontaler Wirkung. Off-Label bei ME/CFS für kognitive Dysfunktion („Brain Fog“) und hyperadrenerge Symptome verwendet; kann das Arbeitsgedächtnis über präfrontale noradrenerge Signalwege verbessern.",
+    "generic": "Guanfacin",
+    "brand": "Intuniv, Tenex",
+    "class": "Zentraler Alpha-2A-adrenerger Agonist / Sympatholytikum",
+    "rx": "Verschreibungspflichtig (USA, EU)",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Guanfacine%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Guanfacine"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Guanfacine"
+      }
+    ],
+    "therapeuticCategory": "Threshold-modulatory",
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "0.5–4 mg",
+        "category": "Threshold-modulatory",
+        "mechanism": "α2A-adrenerger Agonist mit präfrontaler Spezifität. Moduliert die katecholaminerge invertierte U-Kurve in präfrontalen Schaltkreisen."
+      }
+    ]
+  },
+  "atomoxetine": {
+    "label": "Atomoxetin",
+    "category": "medication",
+    "definition": "Ein selektiver Noradrenalin-Wiederaufnahmehemmer (NRI), der bei ADHS eingesetzt wird. Off-Label bei ME/CFS für kognitive Dysfunktion und Fatigue verwendet; erhöht präfrontales Noradrenalin und Dopamin ohne das Missbrauchspotenzial von Stimulanzien.",
+    "generic": "Atomoxetin",
+    "brand": "Strattera",
+    "class": "Selektiver Noradrenalin-Wiederaufnahmehemmer (NRI)",
+    "rx": "Verschreibungspflichtig (USA, EU)",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Atomoxetine%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Atomoxetine"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Atomoxetine"
+      }
+    ],
+    "therapeuticCategory": "Threshold-modulatory",
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutischer Bereich",
+        "category": "Threshold-modulatory",
+        "mechanism": "Selektiver NET-Hemmer, der den NE-Tonus erhöht. Behebt nicht die Ursache des NE-Mangels."
+      }
+    ]
+  },
+  "WURS-25": {
+    "label": "WURS-25",
+    "category": "method",
+    "definition": "Wender-Utah-Rating-Skala, 25-Item-Version: ein validierter retrospektiver Fragebogen, der ADHS-Symptome in der Kindheit erfasst; ein Gesamtwert über 36 ist die übliche Screening-Schwelle.",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Wender+Utah+Rating+Scale"
+      }
+    ]
   }
 }

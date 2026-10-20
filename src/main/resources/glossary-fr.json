@@ -14795,5 +14795,80 @@
     "category": "method",
     "definition": "Valeur prédictive positive et négative : la probabilité qu'un résultat de test positif ou négatif soit correct dans la population testée ; contrairement à la sensibilité et à la spécificité, elles dépendent de la prévalence.",
     "synonyms": []
+  },
+  "guanfacine": {
+    "label": "Guanfacine",
+    "category": "medication",
+    "definition": "Agoniste adrénergique alpha-2A central à action préfrontale préférentielle. Utilisé hors indication dans l'EM/SFC pour le dysfonctionnement cognitif (« brouillard cérébral ») et les symptômes hyperadrénergiques ; peut améliorer la mémoire de travail via la signalisation noradrénergique préfrontale.",
+    "generic": "Guanfacine",
+    "brand": "Intuniv, Tenex",
+    "class": "Agoniste adrénergique alpha-2A central / sympatholytique",
+    "rx": "Sur ordonnance (États-Unis, UE)",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Guanfacine%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Guanfacine"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Guanfacine"
+      }
+    ],
+    "therapeuticCategory": "Threshold-modulatory",
+    "therapeuticDepth": "Modulateur de seuil",
+    "doseZones": [
+      {
+        "dose": "0.5–4 mg",
+        "category": "Threshold-modulatory",
+        "mechanism": "Agoniste α2A-adrénergique à spécificité préfrontale. Module la courbe en U inversé des catécholamines dans les circuits préfrontaux."
+      }
+    ]
+  },
+  "atomoxetine": {
+    "label": "Atomoxétine",
+    "category": "medication",
+    "definition": "Inhibiteur sélectif de la recapture de la noradrénaline (IRN) utilisé dans le TDAH. Utilisé hors indication dans l'EM/SFC pour le dysfonctionnement cognitif et la fatigue ; augmente la noradrénaline et la dopamine préfrontales sans le potentiel d'abus des stimulants.",
+    "generic": "Atomoxétine",
+    "brand": "Strattera",
+    "class": "Inhibiteur sélectif de la recapture de la noradrénaline (IRN)",
+    "rx": "Sur ordonnance (États-Unis, UE)",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Atomoxetine%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Atomoxetine"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Atomoxetine"
+      }
+    ],
+    "therapeuticCategory": "Threshold-modulatory",
+    "therapeuticDepth": "Modulateur de seuil",
+    "doseZones": [
+      {
+        "dose": "Marge thérapeutique",
+        "category": "Threshold-modulatory",
+        "mechanism": "Inhibiteur sélectif du NET augmentant le tonus NE. Ne corrige pas la cause de la déficience en NE."
+      }
+    ]
+  },
+  "WURS-25": {
+    "label": "WURS-25",
+    "category": "method",
+    "definition": "Échelle d'évaluation de Wender Utah, version à 25 items : questionnaire rétrospectif validé qui évalue les symptômes de TDAH dans l'enfance ; un score total supérieur à 36 est le seuil de dépistage habituel.",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Wender+Utah+Rating+Scale"
+      }
+    ]
   }
 }
