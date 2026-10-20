@@ -332,6 +332,12 @@
         # forbids, so we run no install/rebuild/build scripts — the published
         # package is already fully prebuilt and zg runs without them.
         #
+        # Known accepted advisory (dismissed upstream as tolerable risk):
+        # sprintf-js 1.1.3 (transitive via global-agent -> roarr) carries
+        # CVE-2026-97058 (DoS via unbounded precision specifiers). No patched
+        # version exists; it only formats static log strings in a local CLI, so
+        # attacker-controlled format strings never reach it.
+        #
         # CUDA GPU support: node-llama-cpp's linux-x64-cuda prebuilt links
         # against the CUDA 13 runtime (libcudart.so.13, libcublas.so.13,
         # libcublasLt.so.13). Those come from cudaPackages_13_3 here. The
