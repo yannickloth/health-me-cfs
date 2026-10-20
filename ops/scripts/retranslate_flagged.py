@@ -18,9 +18,10 @@ Verification
     python3 ops/scripts/retranslate_flagged.py --selftest
 
 Expected outcome: `--selftest` prints one translated control sentence and
-`selftest PASS` (or `skipped (no server)` and exit 0 when no model server is
-reachable). A real run prints `N/N translated` and writes one JSONL row per
-pair with `fresh` (new translation) and `current` (the corpus text).
+`selftest PASS`, then exits 1 on failure. A real run prints
+`N/N translated (F failed, E empty, R with English residue)` and writes one
+JSONL row per pair with `fresh` (new translation), `current` (the corpus text)
+and `english_residue` (count of prose lines still in English).
 
 Semantics
 ---------
@@ -36,6 +37,7 @@ import argparse
 import json
 import re
 import sys
+import urllib.request
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
@@ -50,35 +52,93 @@ from translate_blog import (  # noqa: E402
 
 DEFAULT_MODEL = "unsloth/Hy-MT2-1.8B-GGUF"
 DEFAULT_VARIANT = "IQ4_XS"
-ENGLISH_SENTENCE = re.compile(
-    r"\b(the|and|with|which|that|from|this|these|patients|treatment)\b", re.I
+ENGLISH_FUNCTION_WORDS = (
+    "the", "and", "with", "which", "that", "from", "this", "these", "those",
+    "their", "there", "because", "while", "would", "should", "could", "been",
+    "about", "after", "before", "between", "into", "than", "then", "they",
+)
+# Words that appear in Spanish/Portuguese but not in English prose. "no" and
+# "as" are deliberately excluded: both are common English words, and a single
+# stray match would defeat the residue test.
+ROMANCE_MARKERS = (
+    "que", "de", "la", "el", "los", "las", "una", "para", "por", "con", "como",
+    "más", "pero", "se", "su", "sus", "es", "son", "na", "os", "um", "uma",
+    "com", "não", "mais", "seu", "sua", "dos", "das", "los", "del", "al",
 )
 
 
 def english_residue(text: str) -> int:
-    """Count prose lines that still look English (no target-language signal)."""
+    """Count prose lines that are probably still English.
+
+    A line qualifies when it is long enough to be a sentence, contains two or
+    more high-frequency English function words, and lacks the target-language
+    markers that Spanish and Portuguese would show (accented characters or the
+    common Romance function words). A single English function word is not
+    enough: 'the' appears in 'The New York Times' and in citations.
+    """
     hits = 0
     for line in text.splitlines():
         words = re.findall(r"[A-Za-zÀ-ÿ]{4,}", line)
         if len(words) < 6:
             continue
-        if ENGLISH_SENTENCE.search(line):
+        lowered = " " + line.lower() + " "
+        english = sum(
+            1 for word in ENGLISH_FUNCTION_WORDS if f" {word} " in lowered
+        )
+        romance = sum(1 for word in ROMANCE_MARKERS if f" {word} " in lowered)
+        if english >= 2 and romance == 0 and not re.search(r"[áéíóúñçãõâêôàü]", line, re.I):
             hits += 1
     return hits
 
 
 def build_client(args: argparse.Namespace) -> tuple[ModelClient, LocalServer | None]:
+    """Return a client for the translator of record.
+
+    A reachable server is used only when its /v1/models list contains the
+    requested model; otherwise a model mismatch (for example a judge model left
+    running on the same port) would silently produce reference renderings from
+    the wrong model. The match accepts the exact id or a served id that ends
+    with it, because servers report either a short alias or a full path.
+    """
     client = ModelClient(
         ModelConfig(args.base_url, args.api_key, args.model, timeout=240, max_retries=2)
     )
-    if client.healthy():
+    if client.healthy() and model_matches(client, args.model):
         return client, None
+    if client.healthy() and not model_matches(client, args.model):
+        print(
+            f"server at {args.base_url} does not serve {args.model}; "
+            "starting the translator of record instead",
+            file=sys.stderr,
+        )
+    if args.no_start_server:
+        raise SystemExit(
+            f"no server serving {args.model} at {args.base_url} and "
+            "--no-start-server was given"
+        )
     server = LocalServer(args.model, args.gguf_variant, args.port, args.context, 2)
     server.start()
     client = ModelClient(
         ModelConfig(server.base_url, server.api_key, args.model, timeout=240, max_retries=2)
     )
     return client, server
+
+
+def model_matches(client: ModelClient, model: str) -> bool:
+    """True when the served model list contains the requested model id."""
+    try:
+        request = urllib.request.Request(
+            client.config.base_url.rstrip("/") + "/v1/models",
+            headers={"Authorization": f"Bearer {client.config.api_key}"}
+            if client.config.api_key
+            else {},
+        )
+        with urllib.request.urlopen(request, timeout=10) as response:
+            payload = json.load(response)
+    except Exception:  # noqa: BLE001
+        return False
+    served = {entry.get("id") for entry in payload.get("data", [])}
+    return model in served or any(str(s).endswith(model) for s in served if s)
 
 
 def selftest(args: argparse.Namespace) -> int:
@@ -108,6 +168,11 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--port", type=int, default=8899)
     parser.add_argument("--context", type=int, default=8192)
     parser.add_argument("--selftest", action="store_true")
+    parser.add_argument(
+        "--no-start-server",
+        action="store_true",
+        help="fail instead of starting a model server when none is reachable",
+    )
     parser.add_argument("--strict", action="store_true")
     args = parser.parse_args(argv)
 
@@ -126,7 +191,10 @@ def main(argv: list[str] | None = None) -> int:
     if out_path.exists():
         for line in out_path.read_text(encoding="utf-8").splitlines():
             try:
-                done.add(json.loads(line)["id"])
+                row = json.loads(line)
+                # An empty translation is not a usable result; retry it.
+                if (row.get("fresh") or "").strip():
+                    done.add(row["id"])
             except Exception:  # noqa: BLE001
                 continue
     pairs = [p for p in pairs if p["id"] not in done]
@@ -138,6 +206,8 @@ def main(argv: list[str] | None = None) -> int:
     translators: dict[str, BlogTranslator] = {}
     written = 0
     failures = 0
+    empty = 0
+    residue = 0
     try:
         with out_path.open("a", encoding="utf-8") as sink:
             for index, pair in enumerate(pairs, start=1):
@@ -151,6 +221,14 @@ def main(argv: list[str] | None = None) -> int:
                     failures += 1
                     print(f"  FAIL {pair['id']}: {exc}", file=sys.stderr)
                     continue
+                if not fresh.strip():
+                    empty += 1
+                    print(f"  EMPTY {pair['id']} (not written; retried next run)", file=sys.stderr)
+                    continue
+                leaked = english_residue(fresh)
+                if leaked:
+                    residue += 1
+                    print(f"  ENGLISH-RESIDUE {pair['id']} ({leaked} line(s))", file=sys.stderr)
                 row = {
                     "id": pair["id"],
                     "post": pair["post"],
@@ -159,18 +237,22 @@ def main(argv: list[str] | None = None) -> int:
                     "verdict": pair.get("verdict"),
                     "fresh": fresh,
                     "current": pair["target"],
+                    "english_residue": leaked,
                 }
                 sink.write(json.dumps(row, ensure_ascii=False) + "\n")
                 sink.flush()
                 written += 1
                 if index % 10 == 0:
                     print(f"  {index}/{len(pairs)} translated", flush=True)
-        print(f"{written}/{len(pairs)} translated ({failures} failed)")
+        print(
+            f"{written}/{len(pairs)} translated "
+            f"({failures} failed, {empty} empty, {residue} with English residue)"
+        )
     finally:
         if server:
             server.stop()
 
-    if args.strict and failures:
+    if args.strict and (failures or empty or residue):
         return 1
     return 0
 

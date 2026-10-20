@@ -38,7 +38,8 @@ Semantics
 Read-only, warnings only. It fixes nothing and writes nothing under `src/`.
 Scores are triage hints, not verdicts: a high score means "judge this
 paragraph", not "this paragraph is wrong". `--strict` exits 1 when any pair
-scores at or above `--threshold`.
+*in the selected mode* scores at or above `--threshold`; under `--hard-only`
+or `--soft-only` a pair excluded by the mode filter cannot trip it.
 """
 
 from __future__ import annotations
@@ -75,15 +76,10 @@ STOP = set(
 
 # Suffix folding so 'metabolismo'/'metabolism' and 'función'/'function' meet.
 SUFFIXES = (
-    "ismos", "ismo", "isms", "isms", "ization", "isation", "ción", "ção", "tion",
-    "dades", "dad", "dades", "ties", "ty", "ments", "ment", "mico", "mico",
+    "ismos", "ismo", "isms", "ization", "isation", "ción", "ção", "tion",
+    "dades", "dad", "ties", "ty", "ments", "ment", "mico",
     "ical", "icales", "ais", "ales", "ous", "osas", "osos",
 )
-
-TARGET_ENDINGS = {
-    "es": ("ción", "miento", "mente", "idad", "ismo", "oso", "ica", "ico"),
-    "pt": ("ção", "mento", "mente", "dade", "ismo", "osa", "oso", "ica", "ico"),
-}
 
 # Signals that *prove* a deterministic defect (a missing value, a copied
 # run, a length collapse). The remaining signals (cognate overlap) are only
@@ -170,28 +166,39 @@ def ordinal_allowance(text: str, lang: str) -> Counter:
         count = len(re.findall(rf"(?<![a-z]){re.escape(stem)}[a-z]*", lowered))
         if count:
             out[value] += count
-    # 'Day 1' -> 'primer día', 'the first day'
-    for word, value in (("primero", "1"), ("primera", "1")):
-        pass
     return out
 
 
 def numeric_key(token: str, lang: str) -> str:
     """Canonical numeric value of a token, for locale-agnostic comparison.
 
-    es/pt write 0,5 and 200.000 where en writes 0.5 and 200,000, so tokens
-    are compared by value. A group of exactly three digits after the first
-    separator is a thousands separator only when the leading group is not
-    '0'; a leading zero can only be a decimal fraction (0,088 = 0.088).
+    es/pt write 0,5 and 200.000 where en writes 0.5 and 200,000, so tokens are
+    compared by value. A group of exactly three digits after the first
+    separator is a thousands separator only when the leading group is not '0'
+    (0,088 can only be a decimal). Values carrying both separators
+    (1,234.56 / 1.234,56) are stripped of their thousands separator before the
+    decimal separator is normalised, so the two locales compare equal.
     """
-    groups = token.split(",")
-    if len(groups) > 1 and len(groups[0]) <= 3 and groups[0] != "0" and all(len(g) == 3 for g in groups[1:]):
-        return "".join(groups)                      # thousands: 200,000
-    parts = token.split(".")
-    if lang != "en" and len(parts) > 1 and len(parts[0]) <= 3 and parts[0] != "0" and all(len(p) == 3 for p in parts[1:]):
-        return "".join(parts)                       # es/pt thousands: 200.000
-    if lang != "en" and "," in token:
-        return token.replace(",", ".")              # es/pt decimal: 0,5 -> 0.5
+    if lang == "en":
+        # en: comma = thousands, dot = decimal
+        if "," in token and "." in token:
+            return token.replace(",", "")
+        if "," in token:
+            groups = token.split(",")
+            if len(groups[0]) <= 3 and all(len(g) == 3 for g in groups[1:]):
+                return "".join(groups)          # 200,000
+            return token.replace(",", ".")      # defensive: 1,5 -> 1.5
+        return token
+    # es/pt: dot = thousands, comma = decimal
+    if "." in token and "," in token:
+        return token.replace(".", "").replace(",", ".")
+    if "." in token:
+        parts = token.split(".")
+        if len(parts[0]) <= 3 and parts[0] != "0" and all(len(p) == 3 for p in parts[1:]):
+            return "".join(parts)               # 200.000
+        return token
+    if "," in token:
+        return token.replace(",", ".")          # 0,5 -> 0.5
     return token
 
 
@@ -416,12 +423,17 @@ def selftest() -> tuple[int, int]:
         total += 1
         score = results[name]
         ok = (score < 2.0) if expect == "low" else (score >= 2.0)
-        # 'inverted_claim' is semantic: lexical signals are structurally blind to it,
-        # so it is expected to score LOW and is the control that proves the judge
-        # layer is required. Recorded as informational, not a failure.
+        # 'inverted_claim' is semantic: lexical signals are structurally blind
+        # to it, so it is EXPECTED to score low. It is asserted as a control in
+        # its own right - if the lexical layer ever starts scoring inversions
+        # high, the score_pair weights have changed and this must be revisited.
         if name == "inverted_claim":
-            print(f"  control {name:26s} score {score:5.2f} (semantic: lexical layer blind -> judge required)")
-            passed += 1
+            ok = score < 2.0
+            print(
+                f"  control {name:26s} score {score:5.2f} expect low  "
+                f"{'PASS' if ok else 'FAIL'} (lexical layer blind; judge required)"
+            )
+            passed += 1 if ok else 0
             continue
         print(f"  control {name:26s} score {score:5.2f} expect {expect:4s} {'PASS' if ok else 'FAIL'}")
         passed += 1 if ok else 0
@@ -453,8 +465,8 @@ def main(argv: list[str] | None = None) -> int:
 
     if args.selftest:
         passed, total = selftest()
-        print(f"all controls pass" if passed == total - 1 >= total - 1 else f"{passed}/{total}")
-        print(f"controls: {passed}/{total} pass")
+        verdict = "all controls pass" if passed == total else f"{passed}/{total} pass"
+        print(verdict)
         return 0 if passed == total else 1
 
     path = Path(args.align)

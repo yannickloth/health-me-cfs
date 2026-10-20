@@ -37,9 +37,6 @@ import json
 import sys
 from pathlib import Path
 
-VERDICT_ORDER = ["CONTRADICTS", "OMIT", "ADD", "DRIFT", "FAITHFUL", "ERROR"]
-
-
 def render_post(post: str, rows: list[dict]) -> str:
     lines = [f"POST: {post}", ""]
     by_lang: dict[str, list[dict]] = collections.defaultdict(list)
@@ -116,24 +113,45 @@ def main(argv: list[str] | None = None) -> int:
     rows = [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines() if line.strip()]
 
     # Verdict rows record the pair id, not the paragraph text; join the
-    # worklist so each brief carries the source and the translation.
+    # worklist so each brief carries the source and the translation. A missing
+    # or mismatched worklist is fatal: a brief without the EN source would
+    # invite a fix agent to rewrite from memory.
     pairs_path = Path(args.pairs)
+    if not pairs_path.exists():
+        print(f"ERROR: {pairs_path} not found (needed to attach paragraph text)", file=sys.stderr)
+        return 2
+    worklist = json.loads(pairs_path.read_text(encoding="utf-8"))
+    if isinstance(worklist, dict):
+        worklist = worklist.get("records") or worklist.get("pairs") or []
+    if not isinstance(worklist, list) or not worklist:
+        print(
+            f"ERROR: {pairs_path} must contain a list of pair records",
+            file=sys.stderr,
+        )
+        return 2
     lookup: dict[str, dict] = {}
-    if pairs_path.exists():
-        for pair in json.loads(pairs_path.read_text(encoding="utf-8")):
-            lookup[pair["id"]] = pair
-    missing_text = 0
-    for row in rows:
-        pair = lookup.get(row.get("id", ""))
-        if pair:
-            row.setdefault("en", pair["en"])
-            row.setdefault("target", pair["target"])
-        elif "en" not in row:
-            missing_text += 1
-    if missing_text:
-        print(f"WARNING: {missing_text} verdict rows have no paragraph text", file=sys.stderr)
+    for entry in worklist:
+        if not isinstance(entry, dict) or "id" not in entry:
+            print(
+                f"ERROR: {pairs_path} contains an entry without an 'id' field",
+                file=sys.stderr,
+            )
+            return 2
+        lookup[entry["id"]] = entry
 
     flagged = [r for r in rows if r.get("verdict") not in ("FAITHFUL", "ERROR")]
+    missing_text = [r.get("id") for r in flagged if r.get("id") not in lookup]
+    if missing_text:
+        print(
+            f"ERROR: {len(missing_text)} flagged verdict(s) are absent from "
+            f"{pairs_path} (first: {missing_text[0]}); regenerate the worklist",
+            file=sys.stderr,
+        )
+        return 2
+    for row in flagged:
+        pair = lookup[row["id"]]
+        row.setdefault("en", pair["en"])
+        row.setdefault("target", pair["target"])
 
     by_post: dict[str, list[dict]] = collections.defaultdict(list)
     for row in flagged:

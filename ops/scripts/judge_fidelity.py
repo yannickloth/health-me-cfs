@@ -67,7 +67,6 @@ import sys
 import tempfile
 import threading
 import time
-import urllib.error
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
@@ -140,7 +139,6 @@ TRANSLATION ({lang}):
 
 Return only the JSON object."""
 
-SIGNAL_HINT = "\nMechanical triage already flagged these signals (verify them, they may be artifacts): {signals}\n"
 
 # llama-server runs without the unsloth studio wrapper: the wrapper injects a
 # continuation turn when reasoning spends the output cap, which never reaches
@@ -164,6 +162,7 @@ class DirectServer:
         self.process: subprocess.Popen | None = None
         self.api_key: str | None = None
         self.log_path = Path(tempfile.gettempdir()) / "mecfs-judge-server.log"
+        self._log = None
 
     @property
     def base_url(self) -> str:
@@ -177,9 +176,9 @@ class DirectServer:
             "-ngl", "-1", "--jinja", "--reasoning", "off",
             "--chat-template-kwargs", '{"enable_thinking":false}', "--no-webui",
         ]
-        log = self.log_path.open("w", encoding="utf-8")
+        self._log = self.log_path.open("w", encoding="utf-8")
         self.process = subprocess.Popen(
-            cmd, stdout=log, stderr=subprocess.STDOUT, start_new_session=True
+            cmd, stdout=self._log, stderr=subprocess.STDOUT, start_new_session=True
         )
         deadline = time.time() + 600
         while time.time() < deadline:
@@ -190,24 +189,30 @@ class DirectServer:
             except Exception:  # noqa: BLE001 - still loading
                 pass
             if self.process.poll() is not None:
+                self.stop()
                 raise RuntimeError(
                     f"llama-server exited early (code {self.process.returncode}); "
                     f"see {self.log_path}"
                 )
             time.sleep(2)
+        self.stop()
         raise RuntimeError(f"llama-server not ready within 10 minutes; see {self.log_path}")
 
     def stop(self) -> None:
-        if not self.process or self.process.poll() is not None:
-            return
         try:
-            os.killpg(os.getpgid(self.process.pid), signal.SIGTERM)
-            self.process.wait(timeout=20)
-        except Exception:  # noqa: BLE001
-            try:
-                os.killpg(os.getpgid(self.process.pid), signal.SIGKILL)
-            except Exception:  # noqa: BLE001
-                pass
+            if self.process and self.process.poll() is None:
+                try:
+                    os.killpg(os.getpgid(self.process.pid), signal.SIGTERM)
+                    self.process.wait(timeout=20)
+                except Exception:  # noqa: BLE001
+                    try:
+                        os.killpg(os.getpgid(self.process.pid), signal.SIGKILL)
+                    except Exception:  # noqa: BLE001
+                        pass
+        finally:
+            if self._log is not None:
+                self._log.close()
+                self._log = None
 
 SELFTEST_CASES = [
     {
@@ -331,20 +336,25 @@ def parse_verdict(text: str) -> dict[str, object] | None:
 
 
 def _signals_text(signals: dict[str, object]) -> str:
-    """Render triage evidence for the judge, with the omission hint."""
-    if not signals:
-        return ""
-    text = SIGNAL_HINT.format(signals=json.dumps(signals, ensure_ascii=False))
+    """Render factual triage evidence for the judge.
+
+    Only dropped values are passed through: they are facts about the two texts
+    (this number or citation key is in the English and absent from the
+    translation). The lexical similarity scores are deliberately NOT passed on:
+    when the raw signal JSON was in the prompt, the judge regurgitated it as if
+    it were content ("the translation adds weak_cognate_overlap=0.25") and
+    flagged faithful prose. A heuristic score is not evidence about meaning.
+    """
     dropped = list(signals.get("numbers_dropped") or []) + list(
         signals.get("citations_dropped") or []
     )
-    if dropped:
-        text += (
-            "\nA mechanical check reports these English values absent from the "
-            f"translation: {dropped}. Confirm each one; if it is absent, the "
-            "verdict MUST be OMIT.\n"
-        )
-    return text
+    if not dropped:
+        return ""
+    return (
+        "\nA mechanical check reports these English values absent from the "
+        f"translation: {dropped}. Confirm each one; if it is absent, the "
+        "verdict MUST be OMIT.\n"
+    )
 
 
 def judge_pair(client: ModelClient, pair: dict[str, object], model: str) -> dict[str, object]:
@@ -430,8 +440,15 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--min-free-mib", type=int, default=10000)
     parser.add_argument("--poll-seconds", type=int, default=60)
     parser.add_argument("--max-wait-minutes", type=int, default=360)
-    parser.add_argument("--limit", type=int)
-    parser.add_argument("--no-gate", action="store_true")
+    parser.add_argument(
+        "--limit", type=int,
+        help="judge at most N pairs, applied AFTER already-done pairs are skipped",
+    )
+    parser.add_argument(
+        "--no-gate", action="store_true",
+        help="skip the free-VRAM wait and use the server at --base-url as-is; "
+        "makes --min-free-mib a no-op",
+    )
     parser.add_argument("--selftest", action="store_true")
     parser.add_argument("--strict", action="store_true")
     parser.add_argument(
@@ -455,6 +472,15 @@ def main(argv: list[str] | None = None) -> int:
         print(f"ERROR: {pairs_path} not found", file=sys.stderr)
         return 2
     pairs = json.loads(pairs_path.read_text(encoding="utf-8"))
+    if isinstance(pairs, dict):
+        pairs = pairs.get("records") or pairs.get("pairs") or []
+    if not isinstance(pairs, list) or not pairs:
+        print(
+            f"ERROR: {pairs_path} must contain a list of pair records "
+            "(see paragraph_triage.py --soft-only / --hard-only output)",
+            file=sys.stderr,
+        )
+        return 2
     pairs.sort(key=lambda p: (-float(p.get("score", 0)), p["post"]))
 
     out_path = Path(args.out)
@@ -481,7 +507,7 @@ def main(argv: list[str] | None = None) -> int:
         return 3
 
     server: LocalServer | None = None
-    server: DirectServer | LocalServer | None = None
+    server = None
     base_url, api_key = args.base_url, args.api_key
     client = ModelClient(
         ModelConfig(base_url, api_key, args.model, timeout=180, max_retries=1)
@@ -495,7 +521,11 @@ def main(argv: list[str] | None = None) -> int:
             server = LocalServer(
                 args.model, args.gguf_variant, args.port, args.context, max(2, args.jobs)
             )
-        server.start()
+        try:
+            server.start()
+        except Exception:  # noqa: BLE001
+            server.stop()          # never leave a spawned server behind
+            raise
         base_url, api_key = server.base_url, server.api_key
         print(f"[judge] model ready at {base_url}")
         client = ModelClient(
@@ -525,6 +555,13 @@ def main(argv: list[str] | None = None) -> int:
     print(f"wrote {written} verdicts to {out_path}")
     print("verdict totals:", counts)
     if args.strict and counts.get("CONTRADICTS"):
+        return 1
+    if args.strict and counts.get("ERROR"):
+        # A CI gate must not go green on paragraphs that were never judged.
+        print(
+            f"ERROR: {counts['ERROR']} paragraph(s) could not be judged; rerun to retry",
+            file=sys.stderr,
+        )
         return 1
     return 0
 

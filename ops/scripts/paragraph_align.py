@@ -45,11 +45,6 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 QUARTO = REPO_ROOT / "src" / "main" / "quarto"
 EN_POSTS = QUARTO / "en" / "blog" / "posts"
 
-PROTECTED_ONLY = re.compile(
-    r"^[\s|:.>*#`$()\[\]@/\\{}=+–—-]*$"
-)  # nothing but structure characters
-
-
 def split_front(text: str) -> tuple[str, str]:
     match = re.match(r"\A---\r?\n(.*?)\r?\n---\r?\n?", text, re.DOTALL)
     if not match:
