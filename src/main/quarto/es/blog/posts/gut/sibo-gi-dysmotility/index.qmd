@@ -1,0 +1,96 @@
+---
+title: "Artículo 1 sobre la dismotilidad gastrointestinal: SIBO, gastroparesis, histamina y el intestino que no funciona correctamente en EM/SFC"
+description: "Una guía sencilla sobre la dismotilidad gastrointestinal y SIBO en EM/SFC: por qué el estómago se vacía lentamente, cómo las bacterias roban tu desayuno, la conexión entre los mastocitos y la motilidad intestinal, el sulfuro de hidrógeno como toxina mitocondrial, la conexión DAO-histamina, y la diferencia entre problemas intestinales independientes y problemas intestinales asociados a EM/SFC."
+author: "Yannick Loth"
+date: "2026-08-11"
+categories: [GI Dysmotility, SIBO, ME/CFS, Gut, Pathophysiology]
+lang: es
+---
+
+El estómago se vacía lentamente. Estás lleno durante horas después de una pequeña comida, con hinchazón, calambres o necesidad de ir al baño sin explicación. Comes y la fatiga aumenta: no en una hora, sino en minutos, como si la comida misma agotara lo poco de energía que tienes. Cuanto más mal se comporta el intestino, más se desencadena todo el cuerpo: niebla cerebral, flushing de mastocitos, intolerancia ortostática, dolor. Un sistema, dominado.
+
+Ahora añade el resto de los síntomas de EM/SFC: la PEM, el sueño insatisfactorio, la crisis de energía. En algún lugar en el intestino —en la motilidad lenta, en las bacterias que crecen donde no deberían, en la barrera que se pierde, en los mastocitos que se activan ante las proteínas alimentarias— se genera una parte significativa del peso total de la enfermedad. Y el intestino es el sistema donde el paciente tiene control directo: la dieta es la primera palanca.
+
+Este artículo es una visión conceptual. Qué son realmente la dismotilidad gastrointestinal y la SIBO, los tres mecanismos (fracaso ICC/vagal, eje mastocito-intestino, envenenamiento mitocondrial por H₂S), la conexión DAO-histamina y la diferencia entre problemas intestinales por sí mismos y problemas intestinales *sobre* EM/SFC. Los tratamientos —distancia entre comidas, eliminación baja de histamina, antibióticos y hierbas para SIBO, dieta elemental, DAO y prokinéticos— están descritos en el [artículo de tratamiento complementario](../sibo-gi-treatment/index.qmd).
+
+---
+
+## Primero, una advertencia simple
+
+*Esto es una explicación, no consejos para automedicación, y no soy médico. La pérdida de peso rápidamente progresiva, la incapacidad para ingerir líquidos, el dolor abdominal intenso o sangre en las heces requieren una evaluación urgente. Las dietas de eliminación — especialmente las de bajo FODMAP o bajo histamina a largo plazo — aumentan el riesgo de desnutrición y deben ser supervisadas por un dietista.*
+
+---
+
+## La versión resumida, si solo lees una parte
+
+- **Los síntomas gastrointestinales afectan al 70–90% de los pacientes con EM/SFC** — náuseas, hinchazón, sensación de plenitud temprana, diarrea y estreñimiento alternados, intolerancias alimentarias — lo que hace que el intestino sea el sistema orgánico más consistentemente afectado, aparte del cerebro.
+- **Tres mecanismos convergen.** (1) La neuropatía autonómica daña las células intersticiales de Cajal y el nervio vago, ralentizando la motilidad intestinal — los alimentos permanecen en el intestino, las bacterias crecen (SIBO). (2) Los mastocitos en la mucosa intestinal se desgranan, liberando histamina, triptasa y prostaglandinas que además ralentizan la motilidad y aumentan la permeabilidad. (3) Las bacterias reductoras de sulfato producen sulfuro de hidrógeno (H₂S), que envenena directamente el complejo I mitocondrial — el mismo objetivo que el cianuro — consumiendo el ATP celular [@Nicholls2013sulfideCOX].
+- **La SIBO es real en EM/SFC, pero su diagnóstico es controvertido.** Los pruebas de respiración tienen altas tasas de falsos positivos, y una declaración de consenso internacional de 2024 concluyó que la hipótesis de la SIBO "sigue sin probarse" [@Kashyap2024SIBOcritique]. Trate la presentación clínica, no el resultado de la prueba de respiración.
+- **Tratar el intestino rara vez soluciona la crisis de energía, pero ignorar el intestino empeora la crisis de energía.** El intestino es un amplificador: la sobrecarga de histamina, la malabsorción de nutrientes y la toxicidad por H₂S consumen un sistema que ya está en déficit.
+
+---
+
+## Tres mecanismos
+
+### La falla de motilidad: daño en las ICC, disfunción vagal y autoinmunidad
+
+Las contracciones rítmicas del intestino — el complejo motor de migración (MMC) que elimina bacterias entre las comidas — están orquestadas por las **células intersticiales de Cajal (ICC)**, células marcapasos que conectan el músculo liso con el sistema nervioso entérico [@Deloose2012MMCreview]. En EM/SFC postinfeccioso, dos procesos dañan las ICC:
+
+- **Anticuerpos autoimmunes**. Los anticuerpos anti-CdtB y anti-vinculin, generados después de la gastroenteritis bacteriana (Campylobacter, E. coli), reaccionan cruzadamente con las proteínas de las ICC, dañando las células marcapasos y deteriorando la función del MMC. Este es el mecanismo mejor documentado para el IBS postinfeccioso y el SIBO.
+- **Disfunción vagal**. El nervio vago impulsa la fase III del MMC gástrico. La denervación estructural del vago — documentada en la Long COVID mediante biopsias de la mucosa gástrica que muestran pérdida selectiva de fibras nerviosas cholinérgicas — deteriora específicamente el vaciado del estómago. El MMC del intestino delgado está impulsado por el sistema nervioso entérico, no por el vago, por lo que la disfunción vagal por sí sola no causa SIBO — pero la disfunción vagal sumada al daño en las ICC puede [@acanfora2026vagaldenervation].
+
+Cuando el MMC falla, las bacterias que deberían ser eliminadas en el colon acumulan en el intestino delgado. Esto es **SIBO** — sobrecrecimiento bacteriano en el intestino delgado. Las bacterias fermentan carbohidratos, produciendo gas sulfuro de hidrógeno, metano o sulfuro de hidrógeno. El metano acelera aún más el tránsito (un bucle de retroalimentación positivo). El sulfuro de hidrógeno es una toxina mitocondrial. Los tres causan daño a los nutrientes antes de que puedas absorberlos.
+
+### El eje mastocito–intestino: histamina, permeabilidad y el freno de motilidad
+
+Los mastocitos están concentrados en la mucosa intestinal — más que en cualquier otro tejido. En MCAS, se desgranan de forma inapropiada, liberando:
+
+- **Histamina**, que estimula directamente la secreción intestinal y puede desencadenar diarrea. La histamina también retroalimenta al cerebro a través de los receptores H3, suprimiendo la liberación de acetilcolina, serotonina y noradrenalina — la base neuroquímica de la niebla cerebral después de las comidas.
+- **Triptasa**, que activa PAR2 en los nervios entéricos, disminuyendo la motilidad y aumentando la hipersensibilidad visceral — el intestino se vuelve más sensible a la distensión normal, provocando dolor y hinchazón por cantidades normales de gas [@Novak2022].
+- **Prostaglandinas**, que aumentan la permeabilidad intestinal al aflojar las uniones estrictas entre las células epiteliales.
+
+El bucle bidireccional es autoamplificador. La disbiosis (SIBO, productores de butirat bajo) reduce los ácidos grasos de cadena corta (butirat, propionato) que normalmente inhiben la degranulación de los mastocitos — el butirat suprime la activación de los mastocitos hasta un 90% mediante la inhibición de HDAC [@Folkerts2020butyrate]. Sin esta supresión, los mastocitos se activan más, dañando la barrera, lo que permite que más productos bacterianos (LPS) se trasladen, lo que activa aún más mastocitos. El bucle continúa.
+
+### Sulfuro de hidrógeno: el veneno mitocondrial que nadie mide
+
+Las bacterias reductoras de sulfato — Desulfovibrio, Bilophila, Fusobacterium — convierten el sulfato y la taurina alimentaria en sulfuro de hidrógeno (H₂S). A bajas concentraciones, H₂S es un gasotransmisor fisiológico que regula el tono vascular. A altas concentraciones — producidas por una población excesiva de bacterias reductoras de sulfato en SIBO — H₂S se une al sitio **CuB/heme-a₃ del citrato c oxidasa (Complejo IV)**, la enzima terminal de la cadena de transporte de electrones mitocondriales [@Nicholls2013sulfideCOX]. Este es el mismo sitio de unión al que apunta el cianuro.
+
+La inhibición es bifásica y parcialmente reversible: bajas concentraciones micromolares reducen crónicamente la producción de ATP sin causar muerte celular. Cuando se produce en el intestino excesivamente crecido, H₂S es transportado por la circulación portal al hígado; si la capacidad de desintoxicación del hígado se satura, H₂S puede entrar en la circulación sistémica e inhibir el Complejo IV en otros tejidos [@Nicholls2013sulfideCOX]. El resultado es una posible pérdida de energía sistémica que es invisible para los análisis de sangre estándar — el H₂S no se mide en la práctica clínica. Aparte del mecanismo mitocondrial, un análisis de las bacterias intestinales sulfidogénicas (Desulfovibrio, Bilophila) relaciona su crecimiento excesivo con la ruptura de la epitelio intestinal y la barrera de moco [@Pimenta2024sulfidogenic].
+
+---
+
+## La conexión DAO–histamina: por qué la alimentación causa brote
+
+La diaminóxido de óxido (DAO) es la enzima intestinal que degrada la histamina de los alimentos antes de que pueda entrar en el torrente sanguíneo. La DAO es producida por las células epiteliales intestinales; su actividad se reduce por la inflamación mucosa, SIBO y polimorfismos genéticos en el gen AOC1 (presentes en aproximadamente el 15–20 % de la población). Cuando la actividad de la DAO es baja, los alimentos ricos en histamina (quesos curados, alimentos fermentados, carnes curadas, vino, tomates, espinacas) aportan una carga de histamina que el intestino no puede eliminar.
+
+Esto es importante en EM/SFC porque la distinción entre **intolerancia a la histamina** (HIT — degradación de la histamina de los alimentos afectada por la DAO, con función normal de los mastocitos) y **MCAS** (producción excesiva de histamina endógena por mastocitos hiperactivados) cambia el tratamiento. La HIT responde a la suplementación de DAO y a una dieta baja en histamina; el MCAS requiere estabilizadores de mastocitos y antihistamínicos. Ambos pueden coexistir, y el documento principal propone una prueba de diagnóstico: suplementar DAO antes de las comidas. Si la DAO sola reduce los síntomas posteriores a las comidas, es probable que sea la causa principal; si se necesitan antihistamínicos además, es probable que haya un componente de mastocitos endógenos (MCAS); si ni la DAO ni los antihistamínicos ayudan, es probable que la histamina no sea el factor dominante [@Loth2026website]. Estas respuestas de la prueba son señales sugestivas más que pruebas definitivas — el placebo, los cambios en la dieta y los mecanismos no relacionados con la histamina pueden confundir cada ensayo individual.
+
+---
+
+## La orden es importante: los problemas intestinales suelen ser secundarios, no la causa
+
+La dismotilidad gastrointestinal en EM/SFC casi siempre está secundaria a la enfermedad sistémica, no a su causa. El daño en el ICC es postinfeccioso (los anticuerpos generados durante la gastroenteritis inicial persisten y continúan dañando las células del marcapasos). La denervación vagal es postviral (COVID, EBV u otras infecciones neurotópicas que dañan directamente al nervio vago). El bucle de mastocitos-gut es una consecuencia del MCAS sistémico, no un trastorno intestinal primario. El problema del sulfuro de hidrógeno está provocado por el sobrecrecimiento bacteriano que surge tras la falla de motilidad.
+
+Pero — como con todos los amplificadores de esta serie — "secundario" no significa que "no importa". Una vez que el bucle intestinal comienza a funcionar, añade una carga de histamina, una carga de malabsorción de nutrientes y una pérdida de energía por H₂S, además de un sistema ya yaquilizado. Tratar el intestino no soluciona el defecto de energía/imunidad central, pero **no** tratar el intestino significa que el sistema se agota más rápido de lo que puede recuperarse.
+
+---
+
+## Problemas intestinales por sí solos vs EM/SFC con problemas intestinales
+
+**IBS/SIBO por sí solos (sin EM/SFC).** El IBS es un trastorno de la interacción intestino-cérebro: la hipersensibilidad visceral, la alteración de la motilidad y los cambios en el microbioma provocan dolor, hinchazón y cambios en los hábitos intestinales. El SIBO es un crecimiento excesivo definido que se trata con antibióticos. El tratamiento se centra en el intestino: dieta, prokinéticos, antibióticos, y los síntomas se limitan al tracto gastrointestinal. La fatiga, si existe, es secundaria a la desnutrición y se resuelve con tratamiento intestinal.
+
+**EM/SFC con problemas gastrointestinales (la situación sobre la que trata esta serie).** Cuando la desregulación gastrointestinal se combina con EM/SFC, tres aspectos son diferentes:
+
+- **El intestino es un amplificador.** La sobrecarga de histamina, el consumo de energía por H₂S y la malabsorción de nutrientes empeoran el déficit de energía sistémico — pero tratar el intestino no soluciona la PEM ni la desregulación inmunitaria [@Loth2026website].
+- **La dieta es el primer mecanismo — pero es un mecanismo, no una cura.** Una dieta baja en histamina reduce la carga de histamina, pero no impide que los mastocitos se desgranen. El espaciamiento de las comidas favorece las MMC, pero no regenera los ICC perdidos. Las intervenciones dietéticas son parciales, de apoyo y valiosas — y no son curativas.
+- **Un tratamiento fallido del intestino no indica que tu EM/SFC sea malo.** Como el intestino es uno de varios amplificadores, un tratamiento de SIBO que no mejora la fatiga no significa que la SIBO no existiera — significa que la SIBO no fue el principal factor que afecta tu presupuesto de energía, y el siguiente paso es buscar otras causas.
+
+---
+
+## La conclusión principal
+
+El intestino es el sistema orgánico más frecuentemente afectado en EM/SFC, aparte del cerebro, y es el único sistema en el que el paciente tiene un impacto directo a través de la dieta. Tres mecanismos — fallo en la motilidad ICC/vagal, permeabilidad y dismotilidad impulsada por mastocitos y envenenamiento mitocondrial por sulfuro de hidrógeno — no son mutuamente excluyentes, y convergen en el mismo objetivo: un intestino que roba energía en lugar de proporcionarla [@Loth2026website].
+
+**Próximo artículo de esta mini-serie:** cómo tratar realmente el intestino — espaciamiento de las comidas, eliminación con bajo nivel de histamina, antibióticos y hierbas para SIBO, dieta elemental, DAO, butirat, prokinéticos y la discusión sobre “¿qué pasaría si nada ayuda” [[ver el artículo complementario]](../sibo-gi-treatment/index.qmd).
+
+Para obtener una imagen completa y con referencias completas de cómo la dismotilidad gastrointestinal y el microbioma intestinal se consideran entre los muchos mecanismos posibles en EM/SFC, consulte [@Loth2026website].

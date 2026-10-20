@@ -1,0 +1,86 @@
+---
+title: "¿Por qué solo algunas personas desarrollan EM/SFC después de la infección?"
+description: "En los meses posteriores a una ola de COVID-19, una fracción de las personas infectadas desarrolla Long COVID. De estas, un subgrupo —hasta ahora solo distinguido de forma imperfecta del resto— avanza hacia lo que cumple con los criterios completos de EM/SFC. La fracción no es pequeña,..."
+author: "Yannick Loth"
+date: "2026-04-11"
+categories: [Modeling, Epidemiology, Pathophysiology]
+lang: es
+---
+
+En los meses posteriores a una ola de COVID-19, una fracción de personas infectadas desarrolla la Long COVID. De estas, un subgrupo —por ahora solo distinguido de forma imperfecta del resto— avanza hacia los criterios completos de EM/SFC. La fracción no es pequeña, pero sigue siendo una fracción. La mayoría de las personas que contraen EBV, HHV-6 o SARS-CoV-2 se recuperan. No desarrollan EM/SFC.
+
+Esta es una de las preguntas centrales de la enfermedad. ¿Por qué, a partir de la misma infección en la misma comunidad, algunas personas se recuperan completamente mientras que otras no? La infección no puede ser toda la respuesta. Algo más distingue a quienes caen en EM/SFC de quienes no.
+
+---
+
+## Una frontera, no una roca
+
+El marco de sistemas dinámicos desarrollado en los capítulos 16 y 33 propone una respuesta específica basada en el concepto de una separatrix: la frontera en el espacio de estados que separa el cuadro del atractor saludable de los cuadros de los atractores enfermos [Cap. 33 §Análisis de suficiencia de disparo].
+
+Piensa en ella como una cresta de cuenca hidrográfica. La lluvia que cae en un lado fluye hacia un valle; la lluvia en el otro lado fluye hacia otro lugar. En términos fisiológicos, una persona cuyos parámetros de referencia se encuentran dentro del cuadro saludable puede absorber una infección significativa y recuperarse: la perturbación empuja el sistema hacia la frontera, pero no más allá de ella, y las fuerzas de restauración lo vuelven atrás. Una persona cuyos parámetros se encuentran ya cerca de la separatrix necesita solo un pequeño empujón adicional. La misma infección, resultados diferentes.
+
+La explicación del modelo sobre por qué solo algunas personas desarrollan EM/SFC después de una infección es que la diferencia no radica principalmente en la infección en sí, sino en dónde se encuentran los parámetros de referencia de cada persona, en relación con la separatrix, antes de que llegue el disparo [Cap. 16 §Mecanismos capaces de disparo].
+
+---
+
+## Lo que reduce la brecha
+
+Varios factores pueden desplazar la posición base de una persona hacia el límite sin producir una enfermedad evidente [Cap. 31 §Eventos Desencadenantes]:
+
+La variación genética que afecta la eficiencia del complejo I mitocondrial, la función de las células NK y la susceptibilidad autoinmune vinculada a HLA puede colocar a las personas más cerca del umbral desde el nacimiento. Estas variantes no causan EM/SFC en ausencia de un desencadenante; limitan el margen de recuperación cuando un desencadenante llega [Cap. 33 §Escenarios de Múltiples Impactos e Interacciones de Desencadenantes].
+
+La autoimunidad previa —la formación de autoanticuerpos subclínicos antes de cualquier desencadenante de EM/SFC— es otro factor predisponente. El modelo estima el umbral crítico de autoanticuerpo en aproximadamente 0.55–0.65 (normalizado), lo que significa que los pacientes con autoanticuerpos de GPCR circulantes ya elevados debido a eventos inmunitarios previos pueden encontrarse en un estado en el que incluso un insulto infeccioso moderado sea suficiente para cruzar la línea divisoria [Cap. 33 §Análisis de la Cadena de Autoanticuerpos de GPCR].
+
+La canalopatía de TRPM3 merece una mención separada. TRPM3 es un canal iónico permeable a calcio que participa en la activación de las células NK y la función de los neurones sensoriales. Las polimorfismos que reducen la función de TRPM3 no parecen, por sí solos, ser suficientes para desencadenar la enfermedad; no impulsan independientemente el sistema hacia el estado de enfermedad. Pero son el factor predisponente más fuerte en el marco: el coeficiente de interacción entre TRPM3 y el complejo I es 0.45, lo que significa que la disfunción de TRPM3 reduce significativamente el umbral para otros desencadenantes [Cap. 33 §Escenarios de Múltiples Impactos e Interacciones de Desencadenantes].
+
+---
+
+## Cómo se combinan las vulnerabilidades subumbrales
+
+La cuestión es cómo se combinan estas perturbaciones subumbrales. Para dos mecanismos, la condición de activación combinada es [Cap. 33 §Escenarios de múltiples impactos, Ecuación de múltiples impactos]:
+
+> (perturbación_i / umbral_i) + (perturbación_j / umbral_j) + γ_ij × (perturbación_i / umbral_i) × (perturbación_j / umbral_j) ≥ 1
+
+donde γ_ij es el coeficiente de interacción. Si γ_ij es positivo, los mecanismos son sinérgicos: el umbral combinado es menor que la suma de las contribuciones individuales, lo que significa que se necesita menos de cada uno. Si γ_ij es cero, son simplemente aditivos.
+
+Todos los coeficientes de interacción pares estimados desde el modelo son positivos — y todos son estimaciones heurísticas de análisis de acoplamiento cualitativo, no cálculos numéricos formales [Cap. 33 §Escenarios de múltiples impactos y Interacciones de activación]. La sinergia más fuerte se da entre la reducción del complejo I y los autoanticuerpos de GPCR (γ_CI,AAb = 0.55), lo cual tiene sentido biológico: ambos convergen en el mismo cuello de botella, la producción de ATP dependiente del oxígeno. Los autoanticuerpos reducen la entrega de oxígeno mediante la disfunción endotelial; la reducción del complejo I dificulta su utilización. Una persona con una eficiencia moderadamente reducida del complejo I y autoanticuerpos de GPCR moderadamente elevados — ninguno suficiente por sí mismo — podría pasar por la separatrix debido a una infección que dejaría cada vulnerabilidad aislada lejos de ser peligrosa.
+
+La misma advertencia se aplica a los valores de umbral: el umbral de autoanticuerpo de 0.55–0.65 (normalizado) y el coeficiente TRPM3–Complejo I de 0.45 son aproximaciones derivadas del modelo que requieren un análisis numérico completo de bifurcación para confirmar [Cap. 33 §Estimaciones de coeficientes de interacción].
+
+---
+
+## Lo que mostraron los estudios de Dubbo
+
+Esto explica un patrón que ha sido documentado pero incompletamente comprendido. El inicio de EM/SFC suele ser desencadenado por infecciones, pero solo una pequeña proporción de personas infectadas desarrolla EM/SFC [@Hickie2006postinfectious; @Chu2019onsetPatterns]. Los estudios de cohorte prospectivos —los estudios de infección de Dubbo son los más claros— siguieron a los individuos durante una enfermedad infecciosa aguda y rastrearon quién desarrolló síndromes de fatiga postinfecciosa. La situación es mixta: la gravedad de la enfermedad aguda fue el predictor más fuerte en Dubbo [@Hickie2006postinfectious], lo que sugiere que la intensidad de la infección también es importante, no solo el estado de partida. Pero los factores de riesgo asociados con la conversión incluyeron también el estado de salud previo: fatiga preexistente, eventos de estrés previos y otras vulnerabilidades. El marco de múltiples impactos es consistente con ambos casos: la gravedad aguda determina el tamaño de la perturbación; el estado de partida determina cuánta perturbación es necesaria [Cap. 33 §Marco de Múltiples Impactos — Implicaciones Epidemiológicas].
+
+La explicación del modelo —y es una explicación, no un mecanismo establecido— es que aquellos que desarrollan EM/SFC corresponden a la fracción de la población expuesta cuya perturbación submínima preexistente los coloca en el régimen de múltiples impactos, lo suficientemente cerca de la separadora para que la infección proporcione el empujón final.
+
+Esto no es una afirmación de que algunas personas son simplemente “menos resistentes” en un sentido vago. Es una afirmación mecánica específica: la autoimmunitad previa, la vulnerabilidad mitocondrial, los polimorfismos de TRPM3 y los estresores acumulados previos son el sustrato sobre el cual actúa el desencadenante. El mismo desencadenante es más peligroso para un sistema que ya se encuentra cerca de la frontera.
+
+---
+
+## De “quién padece EM/SFC” a “quién está en riesgo”
+
+El marco de múltiples impactos cambia la pregunta de “¿qué patógenos causan EM/SFC?” a “quién está en riesgo y qué reduce ese riesgo”.
+
+Si la formación de autoanticuerpos preexistentes, la disfunción del TRPM3 y el deterioro del complejo I son las vulnerabilidades predisponentes, entonces, en principio, son medibles. Aún no se utilizan en la práctica clínica rutinaria: los análisis son de grado de investigación y los valores umbral derivados del modelo, no han sido validados empíricamente. Sin embargo, el marco predice que estos biomarcadores podrían estratificar el riesgo postinfeccioso mejor que las características del patógeno por sí solas.
+
+También predice que el impacto de la infección no es binario: las infecciones subumbrales que no desencadenan EM/SFC podrían acercar el sistema gradualmente a la línea de separación, erosionando el margen sin cruzarla. El patrón de múltiples impactos observado clínicamente, donde los pacientes reportan infecciones previas o estresores de los cuales “recuperaron”, podría reflejar una serie de tales acercamientos a la línea de separación, cada uno dejando al sistema ligeramente más precario, hasta que otro impacto sea suficiente [Cap. 31 §Fallo de los mecanismos de recuperación].
+
+La intervención temprana después de un posible primer impacto —antes de que el daño subumbral se acumule y antes de que comience la consolidación epigenética— es lo que el modelo sugiere que sería más efectivo. Esta predicción se discute con más detalle en el próximo artículo de esta serie.
+
+---
+
+## Lo que este marco es y no es
+
+Este marco se basa en el análisis formal de un modelo de EDO con 67 variables que no ha sido validado de forma independiente. Los coeficientes de interacción se derivan a partir del análisis de subsistemas reducidos con elementos heurísticos; los valores umbral requieren un análisis numérico completo de bifurcación para confirmarlos. Las asignaciones de factores predisponentes se explican desde un punto de vista mecánico, pero aún no han sido probadas empíricamente en estudios de cohorte prospectivos [Cap. 33 §Escenarios de múltiples impactos e interacciones desencadenantes].
+
+Lo que este marco proporciona es una explicación estructural —no es una historia de que “algunas personas simplemente son desafortunadas”, sino una descripción específica de qué vulnerabilidades preexistentes son importantes, cómo se combinan y qué implica esa combinación para la estratificación de riesgos y la prevención. Esta no es la única explicación posible: los modelos de persistencia viral, en los cuales la señalización impulsada por patógenos residuales mantiene el estado de enfermedad de forma independiente de la vulnerabilidad preexistente, hacen predicciones diferentes y se están investigando paralelamente. Los modelos de múltiples impactos y persistencia no son mutuamente excluyentes —ambos pueden ocurrir en diferentes pacientes o diferentes fases de la enfermedad—, pero tienen implicaciones distintas para el momento de la intervención temprana.
+
+Confianza: 0.35–0.45. El principio de múltiples impactos está bien respaldado por observaciones epidemiológicas; los coeficientes de interacción específicos y los valores umbral son aproximaciones derivadas del modelo.
+
+---
+
+*Artículo anterior de esta serie: ¿Puede las matemáticas nos decir qué causa EM/SFC? (2026-04-10)*
+
+*Siguiente: Una ventana de tratamiento temprana — el reloj epigenético que determina cuánto tiempo dura esa ventana*

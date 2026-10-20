@@ -1,0 +1,82 @@
+---
+title: "La conexión cerebelar-glutamato en el autismo: una hipótesis a nivel de circuitos eléctricos"
+description: "Una tercera línea de investigación relaciona el autismo con el cerebelo y con los circuitos glifáticos —la conexión excitatoria del cerebro—. Este artículo analiza las evidencias de las células Purkinje, la señal genética y la predicción verificable sobre la sensibilidad sensorial."
+author: "Yannick Loth"
+date: "2026-08-21"
+categories: [Neurodivergence, Pathophysiology, Genetics]
+lang: es
+---
+
+La Parte 1 examinó el autismo como una discapacidad de energía cerebral —un problema de combustible. La Parte 2 examinó el subgrupo mediado por el sistema inmunitario —un problema de anticuerpos. Esta parte examina una tercera posibilidad distinta: que una parte del autismo refleje una **diferencia a nivel de conexiones en el cerebelo y en los circuitos glutamatergicos** —las vías excitatorias del cerebro.
+
+Esto no es un problema de energía, ni un problema inmunitario. Es una diferencia estructural y funcional en cómo se construyen ciertos circuitos cerebrales y cómo se transmiten las señales.
+
+La serie separa **lo que sabemos** de **lo que nuestra investigación añade**. Aquí, una observación neuropatológica bien establecida es que la pérdida de células Purkinje cerebelares aparece en el autismo —un hallazgo replicado en múltiples estudios postmortem (informado como fondo en nuestra investigación [@Maccallini2026metaGWAS]). Lo que nuestra investigación añade es la idea de que una señal genética glutamatergica en el cerebelo —presente en datos de amplio genoma [@Maccallini2026metaGWAS]— puede conectar esa neuropatología con la hipersensibilidad sensorial. Esa idea es una especulación registrada, no un hallazgo establecido.
+
+---
+
+## El cerebelo es más que control motor
+
+Durante décadas, el cerebelo fue entendido como una estructura de coordinación motora. Una literatura ahora extensa lo sitúa también en la cognición, el afecto y el procesamiento sensorial, lo que se denomina "síndrome cognitivo-afectivo cerebelar".
+
+La relevancia para el autismo es directa: **la pérdida de células Purkinje cerebelares es uno de los hallazgos neuropatológicos más replicados en el autismo**. Las células Purkinje son los neuronas de salida del cerebelo, y su vulnerabilidad parece ser fundamental para esta condición.
+
+---
+
+## Características comunes: el autismo y la señal glutamatergica
+
+Nuestro estudio identificó cuatro características comunes entre el autismo y EM/SFC — la condición de fatiga crónica en la que se centra nuestro proyecto de documentación — lo que sugiere un sustrato glutamatergico común [@Maccallini2026metaGWAS]:
+
+1. **Enriquecimiento genético de la sinapsis glutamatergica en GWAS** — la señal de riesgo genético se concentra en genes de sinapsis excitatorias.
+2. **Vulnerabilidad de las células de Purkinje al estrés metabólico e inflamatorio** — las mismas células que se pierden en el autismo son sensibles tanto a la falta de combustible como a la activación inmunitaria.
+3. **Hipersensibilidad sensorial** — mayor sensibilidad auditiva y táctil.
+4. **Disfunción autonómica** — desregulación del sistema nervioso involuntario.
+
+El puente genético es el paso clave. Los datos de asociaciones genómicas a nivel de todo el genoma muestran enriquecimiento en **tejido neuronal de cerebelo y glutamatergica** — independiente de los señales inmunitarias y metabólicas periféricas. Este es un **señalo genético a nivel de conexión**, presente desde el desarrollo.
+
+---
+
+## La hipótesis: una vulnerabilidad de desarrollo compartida
+
+La propuesta, en términos formales (una especulación registrada en nuestro estudio) [@Maccallini2026metaGWAS]:
+
+> La disfunción glutamatergica en el cerebelo es una vulnerabilidad de desarrollo compartida. Si los circuitos excitadores del cerebelo se construyen de manera diferente —o son más vulnerables— desde el inicio del desarrollo, esto podría explicar la superposición desproporcionada entre el autismo y otras condiciones, la hipersensibilidad sensorial y los síntomas autónomos.
+
+El mecanismo no es que el cerebelo "cause" el autismo de forma general. Es que una diferencia en la conexión glutamatergica —presente desde el desarrollo— produce un patrón específico y medible de síntomas, entre los cuales destaca **la sensibilidad sensorial**.
+
+---
+
+## La predicción verificable
+
+Esta hipótesis es falsificable, y la predicción es específica:
+
+> Un **índice de riesgo poligenético de tipo de célula cerebelosa** (derivado de los datos de enriquecimiento genético) se correlacionará con **puntuaciones del cuestionario de Perfil Sensorial** — especialmente la sensibilidad auditiva y táctil — en cohortes de autismo, y será elevado en personas con rasgos autistas asociados.
+
+Si es cierto, la sensibilidad sensorial podría rastrearse a una diferencia específica en la conexión genética — no a una vaga "sensibilidad general", sino a un señal de glutamatergenos cerebelosos que puede cuantificarse en el genoma de un individuo.
+
+---
+
+## Límites
+
+Es una **hipótesis especulativa**, con una confianza muy baja — es una especulación registrada, no un hallazgo establecido.
+
+- El hallazgo de las células de Purkinje se replica en neuropatología, pero la *conexión* con la señal genética es una inferencia.
+- La enriquecimiento en el cerebelo y en los glutamatergicos proviene de análisis de conjunto de genes, que es sensible a las elecciones analíticas y puede estar sesgado hacia genes largos y conservados.
+- La señal glutamatergica es una interpretación que contribuye a fenómenos que de otro modo no estarían conectados — no los resuelve por sí sola.
+- La sensibilidad sensorial está determinada de múltiples maneras; incluso si la predicción del cerebelo es correcta, es uno de varios mecanismos que contribuyen.
+
+La predicción puede ser probada ahora, con datos genéticos existentes y cuestionarios existentes. Aún no se ha ejecutado.
+
+---
+
+## Qué se puede aprender
+
+El modelo de glutationa en el cerebelo ofrece una explicación **a nivel de conexiones** para un síntoma central del autismo — la sensibilidad sensorial — que no es ni un problema de combustibles ni un problema inmunitario. Se trata de una diferencia de desarrollo en la forma en que se construyen los circuitos excitadores.
+
+A diferencia de las Partes 1 y 2, esta sección **aún no tiene implicaciones terapéuticas directas**. No es "modificable" en el mismo sentido que el hierro o el BH4, y no es un objetivo de anticuerpos. Su valor es explicativo y diagnóstico: señala una firma específica y medible genéticamente de la sensibilidad sensorial.
+
+La parte alentadora: la predicción es económica y puede ser probada con datos existentes. Si se confirma, le da un ancla biológica concreta a la experiencia sensorial del autismo. Si falla, reduce las posibilidades de búsqueda.
+
+*Esta es la Parte 3 de una serie de cuatro partes sobre la biología del autismo. La Parte 1 aborda el modelo de energía cerebral y la hipótesis de tratamiento multivía. La Parte 2 aborda el subgrupo mediado por el sistema inmunitario. La Parte 4 se pregunta cuándo se adquieren y se pueden revertir las características similares al autismo.*
+
+*Este artículo refleja una hipótesis de investigación registrada con baja confianza, no un hecho clínico establecido.*

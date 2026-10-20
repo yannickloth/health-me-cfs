@@ -1,0 +1,344 @@
+---
+title: "Parte 2: El U de Invertido No es algo Único — Cuatro Maneras en que un Medicamento Puede Dejar de Funcionar Al Aumentar la Dosis"
+description: "Dieciocho medicamentos para EM/SFC presentan el mismo patrón: beneficio a dosis baja y daño a dosis alta. La curva es la misma. El mecanismo no es el mismo. Aquí está la descomposición molecular."
+author: "Yannick Loth"
+date: "2026-07-10"
+categories: [Treatment, Pharmacology, Pathophysiology]
+lang: es
+---
+
+Si tienes EM/SFC, conoces la experiencia: un medicamento ayuda con una dosis baja, y luego el médico —siguiendo la lógica que ha guiado la medicina desde Paracelso— aumenta la dosis. “Veamos si podemos obtener más beneficio”. No lo logras. Te pones peor. Vuelves a la dosis baja. El medicamento funciona de nuevo.
+
+Este patrón —la U invertida, la curva bifásica, la ventana hormética— ha sido documentado en al menos dieciocho medicamentos para EM/SFC: LDN, LDA, modafinilo, duloxetina, beta-bloqueadores, guanfacina, gabapentina, rapamicina, corticoides, DORAs, antihistamínicos H1, alopregnanolona, NAC, ketotifeno, quercetina, sulfurofano, litio, melatonina. La lista es tan larga que la coincidencia es improbable. Algo sistemático está ocurriendo.
+
+La tentación es unificarlos bajo una única explicación —“hormesis”, la idea de que el estrés a baja dosis desencadena una regulación adaptativa compensatoria. Esa explicación es correcta para algunos de ellos. Es incorrecta para la mayoría.
+
+Los dieciocho medicamentos comparten una forma de curva. No comparten un mecanismo. La U invertida en EM/SFC es al menos cuatro fenómenos farmacológicamente distintos que ocurren por casualidad para producir el mismo patrón dosis-respuesta. Unificarlos en un solo concepto oculta las implicaciones clínicas, que varían según la categoría.
+
+---
+
+## Categoría 1: Hormesis mediada por Nrf2 (la verdadera hormesis)
+
+**Medicamentos:** LDN (a dosis baja), litio a baja dosis, melatonina, sulfurofano, quercetina. NAC se incluye aquí como activador de Nrf2 simultáneo, pero también se clasifica en Categoría 4 (subtipo 4c) por su bioquímica bifásica de tioles —puede operar mediante ambos mecanismos en diferentes rangos de dosis.
+
+**¿Qué es?** La hormesis en el sentido farmacológico estricto: un estrés a dosis baja activa una regulación compensatoria de vías protectoras, y esa regulación —no el medicamento en sí— produce el beneficio. El medicamento es la señal. La respuesta de la célula es el tratamiento.
+
+**El mecanismo.** El estrés oxidativo o inflamatorio leve activa la vía Keap1-Nrf2-ARE. En condiciones basales, Keap1 se une a Nrf2 y lo destina para su degradación. Cuando se acumulan señales de estrés —bloqueo moderado de TLR4, aumento leve de ROS, inhibición parcial de enzimas— Keap1 libera Nrf2, que se transloca al núcleo y activa la transcripción de más de 200 genes: enzimas antioxidantes, proteínas antiinflamatorias, factores de biogénesis mitocondrial, subunidades del proteasoma, componentes de autofagia. La célula actualiza toda su infraestructura de respuesta al estrés porque ha detectado una amenaza. Este es el principio detrás del ejercicio en personas sanas: los ROS inducidos por el ejercicio activan la biogénesis mitocondrial mediada por Nrf2, haciéndote más en forma. El estrés es la señal para la adaptación.
+
+**Por qué es esencial la dosis baja.** Demasiado estrés y la respuesta adaptativa se vuelve insuficiente —la célula pasa de la compensación a la control de daños. Demasiado poco estrés y Keap1 no libera Nrf2 —la señal nunca se activa. La ventana terapéutica es la zona de Goldilocks donde el estrés es suficiente para activar Nrf2, pero insuficiente para causar daños.
+
+**Por qué dosis más altas empeoran el estado.** Específicamente en el caso de LDN: a 0.5–1.5 mg, un bloqueo parcial de TLR4 activa el desplazamiento de microglía M1→M2 mediado por Nrf2. A 3.0 mg y más, el bloqueo de TLR4 es demasiado completo —la célula ya no detecta la señal de estrés, Nrf2 permanece unido a Keap1 y el programa antiinflamatorio colapsa. El medicamento sigue uniendo al receptor, pero ha dejado de producir la respuesta adaptativa que lo hacía terapéutico. Tenga en cuenta que esto es un fallo en la activación (señal de estrés insuficiente) en lugar de una respuesta sobrecargada (estrés excesivo). La curva hormética tiene una U invertida por razones opuestas en cada brazo: el brazo izquierdo falla por señal insuficiente, el brazo derecho falla por daños excesivos que sobrepasan la capacidad de reparación. LDN a dosis más altas se encuentra en el brazo izquierdo.
+
+**La implicación clínica.** La capacidad de Nrf2 varía entre pacientes. Un paciente que pierde el beneficio de LDN a 1.0 mg tiene una reserva limitada de Nrf2 —sus células no pueden mantener el programa compensatorio más allá de una ventana de estrés estrecha. Un paciente que mantiene el beneficio hasta 3.0 mg tiene una reserva amplia de Nrf2. El ancho de la ventana hormética no es un artefacto de dosis —es una lectura de la capacidad de respuesta al estrés del paciente. Predice la respuesta a cualquier otro medicamento activador de Nrf2 del grupo.
+
+**Por qué los umbrales horméticos difieren entre individuos.** La posición y anchura de la ventana hormética no son propiedades fijas del medicamento, sino de la organización. Tres factores determinan dónde se sitúa la curva hormética de un paciente en el eje de la dosis:
+
+1. **Estado redox.** El sensor Keap1-Nrf2 es sensible al estrés redox. En una célula con alto estrés oxidativo basal, las cisteínes de Keap1 ya están parcialmente oxidadas — el sensor está cargado de forma preestablecida, y una perturbación menor desencadena la liberación de Nrf2. En una célula con bajo estrés oxidativo basal, el sensor está en estado de reposo, y se necesita una perturbación mayor. Esto significa que la misma microdosis de LDN puede desencadenar Nrf2 en un paciente con alto tono oxidativo, pero no en uno con bajo tono oxidativo.
+
+2. **Carga allostérica.** La carga acumulada del estrés crónico — exposición a citocinas, interrupción del sueño, estrés metabólico, señalización del dolor — agota la maquinaria transcripcional que Nrf2 necesita para ejecutar su programa. Nrf2 puede translocarse al núcleo, pero si la capacidad biosintética de la célula está agotada, los productos genéticos antiinflamatorios no se producen. Una alta carga allostérica estrecha la ventana hormética desde ambos lados: aumenta el umbral para desencadenar Nrf2 (porque el sensor está desensibilizado) y reduce el límite para la respuesta adaptativa (porque los recursos posteriores están agotados).
+
+3. **Reserva celular basal.** La densidad mitocondrial, la disponibilidad de NAD⁺, la capacidad del proteasoma y la actividad de sirtuinas influyen en si una célula puede mantener un programa transcricional mediado por Nrf2. Una baja reserva significa que la respuesta adaptativa es frágil: incluso una señal de Nrf2 correctamente desencadenada puede fallar porque la célula carece de energía o maquinaria para ejecutarla. Por eso, el mismo medicamento a la misma dosis puede producir un aumento terapéutico en uno de los pacientes y un brote similar al estrés en otro: el medicamento es idéntico, pero la infraestructura celular que recibe la señal no lo es.
+
+Esto significa que la curva hormética no es una constante farmacológica. Es una lectura de biología de sistemas de la condición celular del paciente en el momento de la administración. La ventana hormética de un paciente puede ensancharse o estrecharse a lo largo de su enfermedad: es dinámica, no estática. La tarea clínica no es encontrar una dosis permanente, sino ajustar según un objetivo fisiológico en movimiento.
+
+**La sorpresa en esta categoría: melatonina.** La melatonina es el medicamento en el que la suposición de “más es mejor” falla de la manera menos obvia, porque el medicamento tiene dos efectos que responden de forma completamente diferente a la dosis. El primero es la señal cronobiótica: el mensaje al reloj cerebral de que el día está terminando y que debe comenzar el sueño. Esta señal no se intensifica con una dosis más alta. Es una señal de fase, no un sedante: una vez que ha informado al reloj la hora, más de la molécula no añade nada a ese mensaje. El segundo efecto — acción antiinflamatoria y antioxidante a través de los receptores MT1/MT2 que se conectan al sistema Nrf2 — es hormético. Funciona a dosis fisiológicas (aproximadamente 0,3–1 mg) y se invierte a medida que la dosis sube al rango suprafisiológico, porque una ocupación alta y sostenida desensibiliza los receptores que transmitieron la señal protectora.
+
+El problema es que estos dos efectos no son visibles para la persona que toma la pastilla. Alguien que duerme un poco más con 0.3 mg supondría razonablemente que 3 mg hará que duerma aún más — pero el beneficio para el inicio del sueño que ya tiene es el indicador de la fase cronobiótica, el cual no se escala, y el beneficio antiinflamatorio que no percibió está siendo silenciosamente eliminado por la desensibilización de los receptores. Lo que parece "tomar más de la misma droga útil" es en realidad dos cambios al mismo tiempo: el efecto de escala que nunca existió, además de la pérdida de un beneficio hormético que realmente existía. Por eso una persona puede reportar que la melatonina "dejó de funcionar" o comenzó a causar resaca y estado de ánimo similar a la depresión durante el día a 3–5 mg. Estos son signos de exposición suprafisiológica sostenida — la resaca causada por un nivel elevado de plasma prolongado y el estado de ánimo similar a la depresión que se produce cuando una dosis alta suprime el tono dopaminérgico durante el día. La droga no "se ha ido". La dosis no estaba protegiendo un beneficio; estaba eliminándolo.
+
+---
+
+## Categoría 2: Agonista parcial invertido-U
+
+**Medicamentos:** LDA/aripiprazol (un solo miembro).
+
+**¿Qué es?** Un fenómeno de ocupación de receptores. El medicamento activa el receptor con menor eficacia que el ligando natural. En una ocupación baja, complementa la señal endógena deficiente — efecto agonístico neto. En una ocupación alta, desplaza al ligando natural más eficaz — efecto antagonístico neto.
+
+**El mecanismo.** El aripiprazol tiene aproximadamente un 25% de actividad intrínseca en los receptores D2. La dopamina tiene un 100% de actividad intrínseca — es el agonista completo. Cuando pocos receptores están ocupados por aripiprazol, el efecto neto en el sistema es una activación adicional: el agonista parcial añade a la dopamina endógena presente, aumentando el tono neto. Cuando la mayoría de los receptores están ocupados, el aripiprazol bloquea la unión de la dopamina — y como el aripiprazol activa el receptor solo en un 25% de la eficacia de la dopamina, el tono neto disminuye. El punto de inversión es aproximadamente un 50% de ocupación.
+
+**Por qué no es hormesis.** La célula no está montando una respuesta adaptativa. No hay Nrf2, ningún programa de transcripción, ninguna regulación compensatoria. La curva es una consecuencia directa e instantánea de las cinéticas de unión entre receptores y ligando — una propiedad de ley de acción de masas, no una adaptación biológica. Aplica de manera idéntica en un tubo de ensayo, en un voluntario saludable y en un paciente con EM/SFC. No es específico para la enfermedad.
+
+**La implicación clínica.** El punto de inversión revela la reserva de receptores D2. Si el beneficio se invierte a 1 mg, el paciente tiene pocos receptores D2 funcionales — la contribución de cada uno al tono neto es grande, y bloquear una fracción modesta es suficiente para invertirlo. Si el beneficio persiste hasta 2 mg, la reserva de receptores es amplia. La señal diagnóstica del invertido-U del LDA indica la integridad del sistema de dopamina, no la capacidad de respuesta al estrés.
+
+---
+
+## Categoría 3: Catecolaminas invertido-U en el córtex prefrontal
+
+**Medicamentos:** Modafinilo, duloxetina, beta-bloqueadores, guanfacina, gabapentina.
+
+**¿Qué es?** Un principio neurociencial clásico: un tono moderado de catecolaminas en los receptores D1 y α2A del córtex prefrontal optimiza la relación señal-ruido en los circuitos de memoria de trabajo; un tono excesivo colapsa la sintonización de la red.
+
+**El mecanismo.** Los neuronas piramidales del córtex prefrontal requieren un rango específico de concentración de dopamina y noradrenalina para mantener un disparo "sintonizado" — respondiendo selectivamente a las entradas relevantes mientras suprime el ruido. Por debajo del óptimo, la señal es demasiado débil; las neuronas no se activan de manera confiable. Por encima del óptimo, la sobreactivación de D1 y α2A colapsa la selectividad — las neuronas se activan ante todo, incluyendo el ruido, y las representaciones de la memoria de trabajo se degradan.
+
+Esto no es un artefacto farmacológico. Es la forma en que el córtex prefrontal evolucionó para operar. El invertido-U es la curva de funcionamiento nativa del sistema. Los medicamentos que aumentan los niveles de catecolaminas — inhibidores de DAT (modafinilo), inhibidores de NET (duloxetina a dosis más altas), agonistas de α2A (guanfacina) — empujan el sistema a lo largo de su curva existente. Si se toma muy poca droga, está por debajo del óptimo. Si se toma demasiada, se supera el óptimo.
+
+**Por qué no es hormesis.** No hay señal de estrés. No hay aumento compensatorio. La respuesta de las neuronas a la dopamina es la misma en todas las concentraciones — es el cálculo a nivel del circuito que lo invierte. El mecanismo es la dinámica de la red, no la adaptación celular.
+
+**La implicación clínica.** El invertido-U identifica el tono basal de catecolaminas del paciente. Un paciente que pierde el beneficio del modafinilo a 50 mg tiene un bajo tono basal de dopamina — una pequeña bloqueo de DAT lo empuja más allá del óptimo. Un paciente que obtiene beneficio hasta 200 mg y más tiene un alto tono basal — se necesita dopamina adicional significativa para superar el óptimo. El punto de inversión es un análisis funcional del estado de catecolaminas en el córtex prefrontal y predice la dosis óptima para cada medicamento del grupo.
+
+**La sorpresa en esta categoría: duloxetina.** La duloxetina contiene silenciosamente dos medicamentos diferentes, y la dosis los separa. Bloquea el transportador de serotonina (SERT) con baja ocupación y el transportador de noradrenalina (NET) solo cuando la ocupación aumenta. Estas dos acciones tienen formas de respuesta-dose opuestas. La acción serotonérgica — el alivio del dolor, el sueño y la ansiedad — es monótona: se satura y se mantiene, sin invertido-U. La acción noradrenérgica — la energía, la motivación y la motivación — es un verdadero invertido-U de catecolaminas: aumenta el beneficio a medida que NET se activa y luego colapsa cuando la noradrenalina supera el óptimo prefrontal.
+
+La consecuencia es el comportamiento farmacológico más desorientador del grupo: un paciente puede aumentar la dosis y *perder el beneficio de energía mientras mantiene el alivio del dolor*, y interpretar eso como que la droga "deja de funcionar" — cuando en realidad la mitad de ella funciona exactamente igual que antes. La señal de dolor es serotonérgica y nunca se invierte; la señal de energía superó su propio pico. Separar los dos es en sí mismo un diagnóstico. Si aumentar la dosis elimina el aumento de energía pero preserva el alivio del dolor, el sistema de noradrenalina está en el brazo derecho de su curva — el movimiento correcto es volver a la dosis que proporcionó el beneficio de energía, no concluir que la droga ha fallado o abandonarla, porque el alivio del dolor nunca fue la parte que se invirtió. Los dos mecanismos pueden separarse por dosis porque ocupan transportadores diferentes a diferentes concentraciones — un experimento interno dentro del paciente que no ofrece una sola clase de medicamento.
+
+**La sorpresa en esta categoría — los beta-bloqueadores.** Cada medicamento aumenta el tono de las catecolaminas y empuja el sistema hacia su pico desde el lado izquierdo. Los beta-bloqueadores son la excepción que completa el cuadro: reducen la acción de las catecolaminas, empujando desde el brazo derecho hacia el pico. La guanfacina también hace esto, al calmar el locus coeruleus. Así que esta categoría contiene medicamentos que elevan el tono y medicamentos que lo reducen, y ambas direcciones pueden ser terapéuticas.
+
+La sorpresa es lo que revela un paciente que se beneficia de ambas direcciones. Si una dosis baja elevadora (modafinilo) te ayuda *y* una dosis baja reductora (un beta-bloqueador o guanfacina) te ayuda, no te contradices a ti mismo — has demostrado que tu tono basal de catecolaminas es útil en un amplio rango, porque tanto una pequeña adición como una pequeña reducción se encuentran dentro del rango tolerable. Ese amplio pico es información en sí mismo: significa que tu sistema de catecolaminas no es el cuello de botella frágil. El caso contrario es un caso diagnóstico especial. Un paciente que se beneficia del modafinilo pero se ve afectado cognitivamente por incluso una dosis baja de beta-bloqueador está en el brazo izquierdo con un tono basal realmente bajo. Para ellos, el reductor no es un experimento neutral: empuja un sistema ya bajo por debajo del límite, y combinar beta-bloqueadores con guanfacina sería activamente contraproducente. La dirección del medicamento al que respondes es una prueba de dónde te encuentras en la curva, y el verdadero poder de esta categoría es que prueba ambas direcciones al mismo tiempo.
+
+---
+
+## Categoría 4: Selección de objetivo dependiente de la concentración y bioquímica bifásica
+
+**Medicamentos:** Rapamicina, corticoides, alopregnanolona, DORAs, antihistamínicos H1, NAC, ketotifeno, quercetina.
+
+**¿Qué es esto?** Tres subtipos distintos comparten una consecuencia común: beneficio a baja concentración y daño o pérdida de beneficio a mayor concentración, pero provienen de mecanismos diferentes. (4a) Selección selectiva de dos objetivos: el medicamento tiene un objetivo terapéutico de alta afinidad y un objetivo de baja afinidad con efecto opuesto. A baja concentración, solo el objetivo terapéutico se activa. A mayor concentración, la propagación al segundo objetivo invierte el beneficio. (4b) Umbral farmacocinético: el objetivo terapéutico del medicamento es periférico; a dosis más altas, la penetracción en el SNC activa objetivos cerebrales que producen sedación o deterioro. (4c) Bioquímica bifásica: el camino metabólico del medicamento tiene efectos netos opuestos a diferentes concentraciones.
+
+**Rapamicina (mTORC1 vs mTORC2) — subtipo 4a.** El mTOR existe en dos complejos. mTORC1 regula la autofagia, la síntesis de proteínas y el metabolismo. mTORC2 regula la supervivencia celular, el citoesqueleto y la señalización de insulina. La rapamicina se une a mTORC1 con mayor afinidad que a mTORC2. A dosis intermitentes bajas (1–3 mg/semana), la rapamicina inhibe parcialmente mTORC1: la autofagia se restaura, el control de calidad mitocondrial mejora y la SASP de células senescentes (el perfil de secreción inflamatoria de células envejecidas o dañadas) se suprime. A dosis diarias más altas (5–10 mg/día), la rapamicina también inhibe mTORC2: se desarrolla resistencia a la insulina, se produce inmunosupresión y el beneficio metabólico se invierte. Esto no es hormesis. Es una afinidad de unión diferencial entre dos complejos estructuralmente relacionados.
+
+**Corticoides — subtipo 4a.** La sustitución fisiológica (5–10 mg de prednisona) proporciona la señal antiinflamatoria que el eje hipotálamo-hipófisis-suprarrenal normalmente proporciona. Dosis suprafisiológicas suprimen el eje hipotálamo-hipófisis-suprarrenal: el cuerpo deja de producir su propio cortisol y la reducción de dosis provoca una inflamación rebote más grave que el estado base.
+
+**La sorpresa en esta categoría — los corticoides.** Esta es la sorpresa más peligrosa de todo el catálogo y la que la curva de dosis es más fácil de malinterpretar. Los corticoides no son un único medicamento con una curva dosis-respuesta. Son dos medicamentos separados por un umbral, y cruzar ese umbral invierte no solo el beneficio, sino también la fisiología que se intentaba ayudar.
+
+A dosis fisiológicas, un corticoides no es realmente un tratamiento, sino una *sustitución*. En un paciente cuyo propio eje hipotálamo-hipófisis-suprarrenal produce demasiado poco cortisol (un estado que vale la pena sospechar en EM/SFC, aunque no se asume), la hidrocortisona o prednisona a baja dosis simplemente proporciona la señal de glucocorticoide antiinflamatorio que el cuerpo debería haber producido. El beneficio proviene de restaurar un déficit. Por eso, una respuesta drástica a la dosis de sustitución es en sí misma un indicador de que es necesario realizar un estudio de ACTH/cortisol: el medicamento solo produce un efecto notable si realmente faltaba algo endógeno.
+
+Más allá de esa ventana fisiológica, el medicamento deja de ser una sustitución y se convierte en un *supresor* del propio eje que produce la hormona. La dosis suprafisiológica indica a los glándulas pituitaria y suprarrenales que se detengan: el cuerpo reduce su propia producción de cortisol para igualar lo que ahora recibe de fuera. El problema es lo que ocurre en el camino hacia abajo. Como el eje ha sido silenciado, detener o reducir la dosis elimina el cortisol externo *antes* de que el cuerpo vuelva a producir su propio cortisol, dejando una ventana sin cortisol en absoluto. La inflamación rebote que sigue es a menudo peor que la enfermedad original y no es una señal de que el medicamento dejó de funcionar; es la retirada de una hormona a la que el cuerpo se había dicho que no produjera. Por eso los corticoides deben reducirse gradualmente, nunca detenerse de forma abrupta, y por eso la reducción puede ser difícil incluso a dosis moderadas si el eje ha sido suprido.
+
+La regla clínica que se deriva es contraintuitiva y vale la pena explicarla claramente: con los corticoides, la dosis que ayuda es la más pequeña que restablece un déficit, y aumentarla más allá de la ventana de reemplazo no aporta beneficio alguno; convierte el medicamento en algo que pone en riesgo el sistema que apoyaba. La suposición de que “más es mejor” no es simplemente ineficaz en este caso; es el mecanismo específico por el cual un reemplazo útil se convierte en un supresor dañino con una trampa de rebote al final. Debido al potencial de daño real, cualquier uso de corticoides en EM/SFC —anydosis, reemplazo o superior— debe estar bajo la orientación de un médico, y la sorpresa descrita es una advertencia sobre el mecanismo, no una recomendación para intentarlo.
+
+**DORAs y antihistamínicos de tipo H1 — subtipo 4b (umbral farmacocinético).** DORAs (antagonistas duales de los receptores orexina): el bloqueo parcial de la orexina a baja dosis mejora el sueño; el bloqueo completo a dosis más alta causa parálisis del sueño y hipersomnia diurna — el medicamento supera el rango de promoción del sueño. antihistamínicos de tipo H1 (por ejemplo, cetirizina): el bloqueo periférico de los H1 a 5–10 mg alivia los síntomas MCAS; la penetracción en el SNC a ≥20 mg produce sedación — el medicamento cruza la barrera hematoencefálica y actúa sobre un objetivo cerebral que no contribuía al beneficio periférico. La inversión es un fenómeno de gradiente de concentración, no un mecanismo a nivel de receptor.
+
+**Allopregnanolona (GABA-A biphasic) — subtipo 4c.** La allopregnanolona es un modulador allosterico positivo de los receptores GABA-A — aumenta el efecto del GABA. A bajas concentraciones (1–5 nM, típicas de la fase lútea), paradójicamente aumenta la ansiedad en algunas mujeres. A concentraciones más altas (>10 nM, nivel de embarazo), produce sedación y ansiolisis. El mecanismo probablemente involucre dos sitios de unión en el receptor GABA-A con curvas de respuesta de concentración opuestas. No es hormesis, no es dinámica de red — dos sitios de unión en la misma proteína.
+
+**NAC — subtipo 4c.** A baja dosis (600 mg), el NAC puede producir un empeoramiento paradójico — la explosión de radicales tiólicos por oxidación de cisteína agota el glutationa antes de que comience la síntesis neta. A dosis más alta (1,200 mg), el camino de síntesis se satura y el glutationa neto aumenta. La inversión está en el nivel de la bioquímica de cisteína, no en la farmacología de receptores. El NAC también aparece en Categoría 1 como activador de Nrf2 — puede operar mediante ambos mecanismos en diferentes rangos de dosis.
+
+**La sorpresa en esta categoría — NAC.** El NAC es el único medicamento en todo el catálogo donde la curva va *hacia atrás* de la intuición, y es el medicamento que los pacientes probablemente abandonen basándose en un único estudio engañoso. El NAC es un precursor antioxidante: el cuerpo lo utiliza para producir glutationa, el principal buffer redox de las células. El error es pensar que el NAC en sí es el antioxidante. No lo es. Es materia prima, y lo primero que el cuerpo hace con una gran cantidad de él es procesarlo — y ese paso de procesamiento produce una explosión de intermedios oxidantes reactivos antes de que se construya la glutationa.
+
+A 600 mg, ese estallido de procesamiento puede agotar el glutationa existente más rápido que se produce nuevo glutationa — la célula se somete brevemente a un estrés oxidativo *más* intenso, no menos. En aproximadamente un quinto a un tercio de los pacientes, esto se manifiesta como un empeoramiento paradójico: síntomas similares a la gripe, malestar oxidativo, sensación de peor estado dentro de horas de tomar la pastilla. La conclusión natural — “el NAC me hace peor, no es adecuado para mí” — es incorrecta en cierto sentido. El empeoramiento no es el efecto estable del medicamento; es un sobrerreacción transitoria durante el proceso de síntesis. A 1,200 mg, el camino de síntesis está saturado y el glutationa neto está aumentando, y muchos de los mismos pacientes que se sintieron peor a 600 mg se sienten mejor a 1,200 mg. La dosis que duele es *menor* que la dosis que ayuda.
+
+Por esta razón, un único ensayo fallido con NAC a 600 mg no es una sentencia definitiva. Los pasos clínicos que respetan la curva son comenzar con una dosis lo suficientemente baja para evitar ese estallido y progresar después (dividir la dosis, por ejemplo, para que el cuerpo nunca tenga que procesar una gran dosis a la vez), o reconocer que un paciente que empeora a 600 mg pero mejora a 1,200 mg tiene un camino de glutationa intacto pero limitado por capacidad — un hallazgo que tiene su propio significado, ya que predice que otros medicamentos que actúan a través de Nrf2-cluster, como el sulforafano o el GSK-3β (lítio), podrían tener éxito donde una dosis baja de NAC parecía fallar.
+
+**Ketotifen — subtipo 4b.** El beneficio MCAS a dosis baja se obtiene de la estabilización de los mastocitos; la sedación por encima del umbral del antihistamínico H1 inverte el beneficio neto según la dosis.
+
+**Quercetina — subtipo 4c.** La inhibición de COMT a dosis baja puede optimizar el tono de las catecolaminas en el prefrontal (similar a la Categoría 3); a dosis más altas, la inhibición excesiva de COMT supera el efecto invertido de las catecolaminas y daña el procesamiento cognitivo.
+
+**La implicación clínica.** Estos medicamentos no comparten un mecanismo común entre sí, y mucho menos con las otras categorías. Sus curvas invertidas son propiedades específicas de cada medicamento — la dosis en la que el rapamycin pierde la selectividad mTORC1 no indica nada sobre la dosis en la que el modafinilo supera el D1 prefrontal, y tampoco indica nada sobre la dosis en la que el Nrf2 priming del LDN colapsa. Dentro de esta categoría, los tres subtipos tienen diferentes valores diagnósticos: el subtipo 4a (selección de dos objetivos) revela la reserva de receptores y las relaciones de afinidad de objetivo; el subtipo 4b (umbral farmacocinético) revela la integridad del BBB y la sensibilidad a la penetración en el CNS; el subtipo 4c (bioquímica bifásica) revela la capacidad del camino metabólico. Se agrupan aquí porque completan el catálogo — son los medicamentos no monotónicos restantes en el artículo — no porque estén relacionados mecánicamente.
+
+---
+
+## Tablas de referencia por banda de dosis
+
+Las siguientes tablas proporcionan, para cada uno de los dieciocho medicamentos, una fila por banda de dosis donde hay actividad — un rango en el que la droga produce un beneficio o un efecto notable. **Todas las bandas de dosis son hipótesis derivadas del mecanismo del documento (baja certeza, ~0.30), verificadas contra las dosis clínicas estándar donde existen.** No existe ningún ensayo de dosis-respuesta prospectivo dentro del rango que confirme ninguna de ellas. Las unidades son las indicadas (dosis oral en mg a menos que se indique lo contrario; nM para concentraciones).
+
+### Categoría 1 — Medicamentos de hormesis Nrf2
+
+**LDN (naltrexona en dosis bajas)**
+
+| Banda de dosis | Actividad / efecto | Mecanismo |
+|-----------|-------------------|-----------|
+| 0.25–0.5 mg | Dosis micro; por debajo del umbral de activación de Nrf2 para la mayoría; perturbación transitoria del sueño | Interacción con opioides detectable a dosis micro |
+| 0.5–1.5 mg | **Priming hormético TLR4/Nrf2** — cambio microglial M1→M2 antiinflamatorio; el principal rango | Bloqueo parcial de TLR4 → aumento de Nrf2 |
+| 1.5–3.0 mg | Plataforma de reentrada de endorfinas; beneficio preservado | Bloqueo breve de opioides durante la noche → producción compensatoria de endorfinas |
+| 3.0–4.5 mg | Restauración TRPM3; disinhibición de orexina ("conectado"); cierre del rango TLR4 | Flujo de Ca²⁺ de TRPM3; disinhibición de orexina sigue la dosis-respuesta de TLR4 |
+| >4.5 mg | Sin mecanismo terapéutico; todos los óptimos anteriores | Ningún beneficio terapéutico |
+| 50 mg | Completa antagonización de mu-opioides — daño | Bloqueo completo de opioides, sin beneficio hormético |
+
+**Lítio en dosis bajas**
+
+| Banda de dosis | Actividad / efecto | Mecanismo |
+|-----------|-------------------|-----------|
+| 0.3–1.0 mg | Activación de Nrf2; predice amplios rumbos de LDN/sulforafano | Inhibición parcial de GSK-3β de represión de Nrf2 |
+| 1.0–5.0 mg | Rango hormético estándar; ~2 mg propuesto como prueba diaria | Inhibición de GSK-3β; inhibición de IMPase comienza en el extremo superior |
+| 5–15 mg | Beneficio solo aquí → mecanismo no Nrf2/GSK-3β; entorpecimiento cognitivo, cambios en la tiroides | Inhibición de IMPase / depleción de inositol |
+| 900–1200 mg/día | Estabilización del estado de ánimo psiquiátrico estándar; suero 0.6–1.2 mEq/L | Completa inhibición de GSK-3β + inhibición de IMPase + modulación de neurotransmisores |
+
+**Melatonina**
+
+| Banda de dosis | Actividad / efecto | Mecanismo |
+|-----------|-------------------|-----------|
+| 0.1–0.3 mg | Dosis reducida para metabolizadores lentos de CYP1A2 | Evitar exposición suprafisiológica |
+| 0.3–1.0 mg | Reemplazo fisiológico; avance de fase; 1 mg reduce la fatiga física en EM/SFC | Activación de Nrf2 MT1/MT2; cronobiótico |
+| 1.0–3.0 mg | Beneficio por encima de 1 mg → efectos antioxidantes directos; sueños vívidos, dolor de cabeza | Eliminación directa de radicales + MT1/MT2 |
+| 3.0–5.0 mg | Beneficio solo aquí → no Nrf2/MT; sedación diurna | Eliminación o sedación |
+| 5–20 mg | Sin mecanismo adicional; cierre del rango; síntomas similares a la depresión | Supresión del tono dopaminérgico diurno |
+
+**Sulforafano**
+
+| Banda de dosis | Actividad / efecto | Mecanismo |
+|-----------|-------------------|-----------|
+| 10–30 mg | Más fuerte y puro probe de Nrf2; altamente sensible | Modificación directa de cisteína de Keap1 → Nrf2 |
+| 30–60 mg | Reserva estándar de Nrf2; modificación sostenida de Keap1; posible molestia gastrointestinal | Keap1 → Nrf2 |
+| 60–100 mg | Beneficio solo a dosis alta → tasa de degradación muy alta de Nrf2; plataforma; intolerancia gastrointestinal | Saturación de Keap1 |
+
+**Quercetina**
+
+| Rango de dosis | Actividad / efecto | Mecanismo |
+|-----------|-------------------|-----------|
+| 250–500 mg | Enfoque cognitivo a través de la inhibición de COMT; antiinflamatorio a través de Nrf2 | Inhibición de COMT + Nrf2 |
+| 500–1000 mg | Ambos mecanismos contribuyen; 500 mg cada dos horas como estabilizador de mastocitos | COMT + Nrf2 |
+| 1000–2000 mg | No hay beneficio adicional; inversión de objetivos duales; hipertensión, taquicardia | Exceso de COMT + oxidación autónoma de catecolaminas pro-oxidantes |
+
+**NAC (N-acético sulfato de cisteína)**
+
+| Rango de dosis | Actividad / efecto | Mecanismo |
+|-----------|-------------------|-----------|
+| 600 mg | Síntesis de glutationa; activación de Nrf2 — pero ~20–30% empeoramiento paradójico | Burst de tiólo vs Nrf2 |
+| 1200 mg | Síntesis neta de glutationa establecida; efectos secundarios gastrointestinales → dividida | Glutationa + Nrf2 |
+| 1800–2400 mg | No hay beneficio adicional de Nrf2 (plato); toxicidad gastrointestinal limitada por dosis | Saturación |
+
+### Categoría 2 — Invertido-U parcialmente agonista
+
+**LDA (baja dosis de aripiprazol)**
+
+| Rango de dosis | Actividad / efecto | Mecanismo |
+|-----------|-------------------|-----------|
+| 0.2–0.5 mg | Microdosis; akatisia aquí = deficiencia grave de DA + D2 supersensible | Agonismo parcial de D2 en microglía |
+| 0.5–1.0 mg | Rango estándar: D2 en microglía + D2 en mesocorticolimbico + 5-HT1A | Agonismo parcial de D2; 5-HT1A |
+| 1.0–2.0 mg | Cognición/motivación + estabilización ANS; punto de inversión si el beneficio se pierde aquí | D2 en postsinaptos y mesocorticolimbico |
+| >2 mg (hasta ~4 mg) | Todos los mecanismos terapéuticos extinguidos; antagonismo neto; sedación, aumento de peso | Ocupación de D2 >50% → antagonismo neto |
+| 5–30 mg | Rango psiquiátrico; daño activo | Ocupación de D2 >80% → antagonismo completo |
+
+### Categoría 3 — Invertido-U de catecolaminas en cortex prefrontal
+
+**Modafinilo**
+
+| Rango de dosis | Actividad / efecto | Mecanismo |
+|-----------|-------------------|-----------|
+| 25–50 mg | Ganado cognitivo en pacientes de tono bajo; cefalea transitoria | Bloqueo leve de DAT en el brazo izquierdo del invertido-U |
+| 50–100 mg | Rango óptimo estándar para un DA basal bajo y normal | Bloqueo de DAT en D1; NET en α2A |
+| 100–200 mg | Dosis aprobada por la FDA (narcolepsia/OSA); máximo beneficio; inversión por encima de 200 mg | Bloqueo de DAT; promoción del despertar |
+| 200–300 mg | Beneficio solo aquí → DA basal muy bajo; ansiedad, taquicardia | Muy a la derecha del invertido-U; sobreactivación de D1/α2A |
+| ≥400 mg | No hay mecanismo adicional; toxicidad de catecolaminas | Muy a la derecha del invertido-U |
+
+**Duloxetina**
+
+| Rango de dosis | Actividad / efecto | Mecanismo |
+|-----------|-------------------|-----------|
+| 10–20 mg | Predominante serotonérgica; beneficio en dolor/sueño, no en catecolaminas; náuseas | Inhibición de SERT |
+| 20–40 mg | Dual SERT + inicio de NET; energía/motivación añadida | SERT + NET |
+| 40–60 mg | Ambos óptimos; dosis estándar FDA (60 mg) | SERT completo + NET |
+| 60–90 mg | Beneficio nuevo poco probable; exceso de noradrenérgico → hipertensión, agitación | NET más allá del pico del invertido-U |
+| 90–120 mg | Dosis alta; aumento de presión arterial dependiente de la dosis | Elevación de presión arterial impulsada por NET |
+
+**Guanfacina**
+
+| Rango de dosis | Actividad / efecto | Mecanismo |
+|---------------|-------------------|-----------|
+| 0.5–1.0 mg | Tono óptimo de α2A en PFC; memoria de trabajo y enfoque; sedación durante las primeras 1–2 semanas | Agonismo postsinaptico de α2A |
+| 1.0–2.0 mg | Beneficio cognitivo óptimo en pico de α2A; somnolencia, hipotensión | α2A postsinaptico en pico |
+| 2.0–4.0 mg | No hay nuevo beneficio cognitivo; ansiolisis/sedación; hipotensión | Supresión presinaptica de α2A en locus coeruleus |
+
+**Beta-bloqueantes (referencia con propranolol; equivalente a atenolol/metoprolol)**
+
+| Rango de dosis | Actividad / efecto | Mecanismo |
+|---------------|-------------------|-----------|
+| Propranolol 5–10 mg | Control ortostático sin costos cognitivos; leve fatiga | Bloqueo periférico de β1/β2 |
+| Propranolol 10–20 mg | Control ortostático + mejora cognitiva; bradicardia, hipotensión | Bloqueo periférico + bloqueo central temprano de β |
+| Propranolol 20–40 mg | No hay nuevo beneficio; deterioro cognitivo; fatiga, depresión | Bloqueo central de β-AR que reduce el tono por debajo del óptimo |
+| Propranolol 40–160 mg/día | Dosis estándar de antihipertensivo; no es la estrategia de dosis baja para EM/SFC | Bloqueo periférico de β1 |
+
+**Gabapentinoides (gabapentina / pregabalina)**
+
+| Rango de dosis | Actividad / efecto | Mecanismo |
+|---------------|-------------------|-----------|
+| Gab 100–300 mg / Preg 25–75 mg | Claridad cognitiva, reducción de hipersensibilidad sensorial, mejoría del sueño | Bloqueo de subunidad α2δ |
+| Gab 300–900 mg / Preg 75–150 mg | Control de síntomas optimizado; "niebla cerebral" si la supresión noradrenérgica es excesiva | Bloqueo α2δ |
+| Gab ~300 mg (dosis única) | Empeoramiento de OSA (AHI ↑); banda de efectos secundarios | Colapsibilidad de los conductos GABAérgicos en el aire superior |
+| Gab 900–3600 mg / Preg 150–600 mg | Rango estándar de dolor neuropático; sedación grave, riesgo de dependencia | Bloqueo α2δ en ocupación total |
+
+### Categoría 4 — Selección de objetivo y bioquímica bifásica
+
+**Rapamicina**
+
+| Rango de dosis | Actividad / efecto | Mecanismo |
+|---------------|-------------------|-----------|
+| 0.5–2 mg/semana | Restaura la autofagia, suprime SASP; predice beneficio del ayuno intermitente | Inhibición de mTORC1 (alta afinidad) |
+| 2–3 mg/semana | Beneficio de mTORC1 maximizado; comienzan efectos secundarios metabólicos | Inhibición de mTORC1 |
+| 3–6 mg/semana | Beneficio de mTORC1 compensado por costos metabólicos de mTORC2; efecto negativo neto | Comienza la inhibición de mTORC2 |
+| ≥5 mg/día | No hay razón; daño neto esperado | Toxicidad completa de mTORC2 |
+
+**Corticosteroides (referencia con prednisona)**
+
+| Rango de dosis | Actividad / efecto | Mecanismo |
+|---------------|-------------------|-----------|
+| Prednisona 2.5–5 mg/día | Reemplazo fisiológico; restaura el tono antiinflamatorio; respuesta drástica → descartar insuficiencia adrenal | Activación fisiológica de GR |
+| Prednisona 5–15 mg/día | Beneficio → inflamación significativa sensible a esteroides | Activación de GR suprafisiológica |
+| Prednisona 15–40 mg/día | Beneficio solo aquí → inflamación resistente a corticosteroide; supresión HPA dominante | GR saturada; supresión HPA |
+| ≥40 mg/día | No hay razón en EM/SFC; daño neto | Síndrome de Cushing, necrosis avascular |
+
+**Allopregnanolona**
+
+| Rango de dosis | Actividad / efecto | Mecanismo |
+|-----------|-------------------|-----------|
+| ~1–5 nM (nivel luteal) | Efecto ansiógeno paradójico; omitir este rango | Solo sitio GABA-A de alta afinidad |
+| >10 nM (nivel de embarazo) | Ansiolisis, sedación; terapéutico | Ambos sitios GABA-A activados |
+| Brexanolone IV 60–90 µg/kg/h | Prueba de concepto (depresión posparto) | Modulación allosterica positiva del GABA-A |
+
+**DORAs (antagonistas duales de los receptores orexina)**
+
+| Rango de dosis | Actividad / efecto | Mecanismo |
+|-----------|-------------------|-----------|
+| Daridorexant 25 mg | Bloqueo parcial suficiente; efectos secundarios mínimos | Bloqueo parcial de OX1R/OX2R |
+| Daridorexant 50 mg | Beneficio para el sueño maximizado; posible somnolencia al día siguiente (máximo FDA) | Ocupación casi completa |
+| Daridorexant 100 mg | No beneficio adicional; estado similar a la narcolepsia; no aprobado | Bloqueo completo que supera el rango |
+| Suvorexant 10 mg | Bloqueo parcial; dosis inicial | Bloqueo parcial de OX1R/OX2R |
+| Suvorexant 15–20 mg | Beneficio para el sueño maximizado; riesgo de somnolencia al día siguiente | Bloqueo casi completo |
+| Lemborexant 5 mg → 10 mg | Dosis recomendada → máxima | Antagonismo dual de OX1R/OX2R |
+
+**Antihistamínicos H1**
+
+| Rango de dosis | Actividad / efecto | Mecanismo |
+|-----------|-------------------|-----------|
+| Cetirizina 5 mg / Loratadina 10 mg / Fexofenadina 180 mg | Bloqueo H1 periférico; efectos secundarios mínimos | H1 periférico |
+| Cetirizina 10–20 mg / Loratadina 20 mg | Beneficio adicional periférico; ≥20 mg de cetirizina → penetración en el SNC → sedación | Bloqueo H1 en el SNC |
+| Cetirizina 10 mg (prueba preventiva PEM antes del ejercicio) | Bloqueo H1 para reducir la gravedad de PEM (propuesta) | Bloquea la amplificación de histamina inducida por el ejercicio |
+
+**Ketotifen**
+
+| Rango de dosis | Actividad / efecto | Mecanismo |
+|-----------|-------------------|-----------|
+| 0.25–1.0 mg | Beneficio MCAS sin sedación | Estabilización de células mastosas |
+| 1.0–2.0 mg | Beneficio de células mastosas maximizado; la sedación en el SNC puede añadir beneficio para el sueño | Células mastosas + H1 en el SNC |
+| 2.0–4.0 mg | Beneficio neto invertido; la sedación supera el beneficio MCAS; aumento de peso | Sedación H1 en el SNC domina |
+
+---
+
+## Implicaciones prácticas
+
+La implicación terapéutica del U invertido depende completamente de la categoría a la que pertenezca el medicamento.
+
+Para los medicamentos de hormesis Nrf2, el ancho del rango mide la capacidad de respuesta al estrés. Se predice que un paciente con un rango LDN estrecho tendrá rumbos estrechos para el sulfurofano, la melatonina y el litio, ya que todos convergen en la misma vía Keap1-Nrf2. Esta predicción es verificable.
+
+Para el U invertido de catecolaminas, el punto de inversión mide el tono basal de catecolaminas en el prefrontal. Se predice que un paciente con un rango de modafinilo estrecho tendrá rumbos estrechos para la duloxetina y la guanfacina, ya que todos convergen en el mismo circuito D1/α2A. La predicción es verificable y es mecanísticamente independiente de la predicción Nrf2.
+
+Para el U invertido de agonistas parciales, el punto de inversión mide la reserva de receptores, una propiedad estructural del sistema dopamínico, no del sistema de respuesta al estrés.
+
+Para los medicamentos de Categoría 4 (selección de objetivo dependiente de la concentración y bioquímica bifásica), el punto de inversión es una propiedad específica del medicamento y no tiene ningún valor predictivo entre medicamentos.
+
+Si consideras el U invertido como un único fenómeno, predices que los dieciocho medicamentos se correlacionarán entre pacientes: rango LDN estrecho, rango de modafinilo estrecho y rango de rapamicina estrecho. Esa predicción es probablemente falsa. La descomposición mecanística predice un resultado más interesante: correlación dentro de grupos, sin correlación entre grupos. Los medicamentos Nrf2 deberían correlacionarse entre sí. Los medicamentos de catecolaminas deberían correlacionarse entre sí. La LDA debería ser marginal — comparte un sustrato dopamínico con el grupo de catecolaminas, pero opera a través de un mecanismo diferente (agonismo parcial vs inhibición de reabsorción). La rapamicina y la allopregnanolona deberían ser islas.
+
+---
+
+## La predicción falsificable
+
+Si la reserva hormética es una característica transsistémica única —una propiedad general de la fisiología EM/SFC— entonces los puntos de inversión deben correlacionarse en todos los dieciocho medicamentos. El test de mecanismo ortogonal por excelencia es LDN frente a modafinilo: receptores completamente distintos (TLR4 frente a DAT/NET), tipos de células (microglía frente a terminales presinápticas) y objetivos anatómicos. Si estos dos se correlacionan (r ≥ 0.4), la reserva hormética es una propiedad genuina del sistema. Si no se correlacionan (r < 0.2), el U invertido es una colección de artefactos específicos de cada medicamento y el modelo de una sola característica es falso.
+
+Este test se especifica en el artículo como el ensayo HIP-B: seis medicamentos (LDN, sulforafano, duloxetina, modafinilo, rapamicina, alopregnanolona) en cuatro niveles de dosis, con cruzamiento entre pacientes, n ≥ 80 para un análisis definitivo. Hasta que se ejecute HIP-B o algo equivalente, la unidad del U invertido en EM/SFC es una cuestión empírica, no un hecho establecido.
+
+---
+
+## Estimación de certeza
+
+| Afirmación | Certeza |
+|-----------|-----------|
+| La hormesis mediada por Nrf2 es el mecanismo de los medicamentos que contienen Nrf2-cluster | Moderada — la hormesis de Nrf2 está bien establecida en toxicología (Calabrese corpus); no hay evidencia directa específicamente en LDN |
+| El U de inversión parcial se aplica a LDA | Alta — propiedad de ocupación de receptores, documentada para todos los agonistas parciales |
+| El U de inversión de catecolaminas se aplica a los medicamentos D1/α2A prefrontal | Alta — neurociencia canónica, replicada entre especies y métodos (Arnsten, Cools) |
+| La selectividad mTORC1/C2 explica el U de inversión de rapamicina | Alta — establecida en líneas celulares de ratones y humanos (Sarbassov, Lamming) |
+| La curva bifásica de allopregnanolona es un fenómeno de dos sitios de unión | Moderada — respuesta de concentración bifásica documentada; mecanismo de dos sitios inferido |
+| Los puntos de inversión se correlacionan dentro de clústeres mecánicos | Baja — nunca se ha probado para ningún clúster |
+| Los puntos de inversión no se correlacionan entre clústeres | Baja — nunca se ha probado |
+| HIP-B distinguiría entre reserva hormética de un solo rasgo y de múltiples rasgos | Moderada — el cálculo de potencia estadística es válido (n ≥ 80 para r ≥ 0.4 frente a r < 0.2); la prueba no existe |
+
+---
+
+*Esta publicación se basa en el marco de hormesis desarrollado en [Loth 2026](https://yannickloth.github.io/health-me-cfs/), sintetizando el corpus de hormesis de Calabrese, la literatura sobre el U invertido de catecolaminas de Arnsten/Cools, la selectividad de dosis de mTORC1/C2 de Sabatini/Lamming y la farmacología bifásica de allopregnanolona de Andreen. El marco surgió de la observación clínica de Kevin Lee sobre que las dosis más altas de LDN a menudo ofrecen menos beneficio que las dosis más bajas, y se amplió con la observación de Yannick L. sobre que la misma lógica se aplica a LDA y a cualquier otro medicamento de dosis baja o alta — un patrón que el modelo estándar de un solo mecanismo TLR4 no puede explicar. El marco de variación de umbrales interindividuos — el estado redox, la carga allostérica y la reserva celular base como determinantes de la posición de la ventana hormética — se basa en la explicación de Kevin Lee sobre por qué las curvas de respuesta de dosis hormética dependen del organismo y no son fijas desde el punto de vista farmacológico.*
+
+*Anterior: [¿Por qué más no es mejor: el paradoja de la respuesta de dosis en LDN y LDA](../more-isnt-better-ldn-lda/) · Siguiente: [Tu dosis de LDN es un diagnóstico](../dose-is-diagnostic-ldn/) · Serie: [Parte 4: La farmacopea](../pharmacopoeia-dose-meaning/) · [Parte 5: Cómo realizar un ensayo de búsqueda de dosis](../dose-finding-protocols/)*

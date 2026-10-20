@@ -1,0 +1,20 @@
+---
+title: "Pupilas, agarrado y un ratio de orina: probar el sistema sin punción lumbar"
+description: "El hallazgo de noradrenalina provino del líquido cefalorraquídeo. ¿Podemos probar el mismo sistema desde el exterior?"
+author: "Yannick Loth"
+date: "2026-09-21"
+categories: [Arousal system, Noradrenergic, Mechanisms]
+lang: es
+---
+
+El descubrimiento de un déficit selectivo de noradrenalina provino de una punción lumbar —líquido cefalorraquídeo, recogido de manera invasiva, una vez—. Eso está bien para un estudio, pero es inútil para la atención rutinaria. Por lo tanto, la pregunta práctica es: ¿se puede interpretar el mismo sistema desde el exterior?
+
+Ya existen varias medidas candidatas:
+
+- **Pupillometría**. El tamaño de las pupilas refleja la actividad noradrenérgica y puede medirse en segundos (@Kang2020Pupillometry). En un estudio sobre medicamentos humanos, la atomoxetina aumentó el diámetro basal de las pupilas, y este cambio se correlacionó con la mejora del comportamiento (@OCallaghan2025PupillaryNE).
+- **Resistencia al agarre de mano**. En el estudio original, el camino de la noradrenalina se correlacionó con la duración que un paciente podía mantener un agarre de mano (Spearman rho = 0.62, mano derecha, análisis solo de pacientes, n = 38 (el grupo de pacientes combinado, más grande que el grupo n=16 de EM/SFC)) (@Aregawi2026Noradrenergic). Una medida económica en la cama —aunque es una única correlación no replicada.
+- **Ratio de VMA/HVA en orina**. Un ratio de noradrenalina a metabolitos de dopamina, que refleja el paso DBH —pero hay una advertencia: la orina refleja principalmente el círculo periférico, y la noradrenalina periférica es, si acaso, elevada en EM/SFC, por lo que puede no seguir el déficit central.
+
+En conjunto, estas podrían formar una **batería no invasiva** para clasificar pacientes —y, combinada con un test de tiempo, para detectar la crisis de PEM: medir pupilas y agarre cada pocas horas durante 72 horas después de un esfuerzo controlado, y ver si disminuyen y se recuperan en la misma curva que los síntomas. Si el déficit causa PEM, esa curva debería existir.
+
+**Las advertencias son reales**. Ninguna de estas medidas ha sido validada juntas en EM/SFC; cada una está afectada por otras cosas (luz, medicamentos, esfuerzo, sal); y el déficit subyacente no ha sido replicado. Pero el punto es que el sistema es *testable* sin un procedimiento invasivo —lo cual lo haría útil desde el punto de vista clínico y permitiría el estudio de replicación que el campo realmente necesita.

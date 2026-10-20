@@ -1,0 +1,125 @@
+---
+title: "Artículo 2 sobre Infección Crónica: Antivirales, Inmunomoduladores y lo que significa que no funcionan en EM/SFC"
+description: "Una guía de lenguaje sencillo para tratar la infección viral crónica en EM/SFC: valaciclovir para EBV, valganciclovir para HHV-6/CMV, cimetidina como inmunomodulador, estabilizadores de mastocitos para interponerse en el camino EBV→MMP-9, por qué la replicación lítica abortiva hace que los antivirales sean menos efectivos de lo esperado, y la discusión sobre ‘¿qué pasaría si no hay ayuda?’."
+author: "Yannick Loth"
+date: "2026-08-14"
+categories: [Treatment, Chronic Infection, Antivirals, ME/CFS]
+lang: es
+---
+
+Si tienes EM/SFC y evidencia de reactivación del herpesvirus — alto nivel de EA-D IgG, anticuerpos elevados de dUTPasa, DNA documentado de HHV-6 o un historial clínico de EBV-mono-then-never-recovered — te enfrentas a un panorama terapéutico en el que los medicamentos antivirales existen, pero la evidencia sobre su eficacia en EM/SFC es escasa. El fármaco mejor estudiado ataca una etapa de replicación que la replicación lítica abortiva evita, y los ensayos controlados con placebo son pequeños, antiguos y no replicados.
+
+Este artículo explica la arquitectura del tratamiento. Para el contexto conceptual — qué es la replicación lítica abortiva, el camino EBV→mastocito→MMP-9 y la co-reactivación de políherpesviruses — consulta el [artículo de visión complementaria](../chronic-infection/index.qmd).
+
+---
+
+## En primer lugar, una advertencia simple
+
+*Todo lo que se indica a continuación es una conversación que debe tenerse con un médico, no automedicación. El valaciclivo y el valganciclovir requieren monitoreo renal; el valganciclovir es un teratógeno y causa supresión de la médula ósea; el famciclovir requiere ajuste de dosis en caso de insuficiencia renal. La cimetidina es un inhibidor de CYP450 con amplias interacciones medicamentosas. Los estabilizadores de mastocitos no son antivirales — ellos interrumpen la activación inmunitaria posterior, no el desencadenante viral. Ninguno de estos medicamentos debe iniciarse, detenerse o cambiarse sin un prescritor.*
+
+---
+
+## El panorama antiviral
+
+### Valacyclovir — el medicamento más estudiado, pero menos efectivo para esta tarea
+
+El valacyclovir es un prodrug del acyclovir. Se fosforila por la tirosinasa viral (EBV BXLF1) y luego por las quinasas celulares a acyclovir trifosfato, lo que inhibe la polimerasa de ADN viral. Funciona contra la **replicación lítica del EBV** — cuando el virus está copiando activamente su genoma.
+
+El problema es que en EM/SFC, las proteínas virales que impulsan la activación inmunitaria (dUTPases, productos de genes inmediatos) se producen **antes** de la etapa de polimerasa de ADN. El valacyclovir bloquea una etapa a la que ALR no llega. Es como cerrar una puerta por la que el intruso ya ha pasado.
+
+**La evidencia.** Los estudios de cohorte abiertos de Lerner (desde principios de los 2000s) informaron un 30–40% de respuesta en EM/SFC asociada a herpesvirus, especialmente en la cohorte más grande (n=142) [@Lerner2010antivirals], y un seguimiento cegado de 36 meses con valacyclovir en el subgrupo de EBV fue positivo [@Lerner2007valacyclovir] [@Lerner2002valacyclovir]. Pero estas provienen de un único grupo, nunca han sido replicadas de forma independiente, y utilizaron endpoints de salida cardíaca o estado clínico (no PEM o fatiga) como medidas principales. Grado de evidencia: **fraco y de un solo grupo**.
+
+**Consideraciones prácticas.** El valacyclovir es bien tolerado (dolor de cabeza, náuseas en ~10%) y requiere hidratación adecuada para prevenir cristaluria. La dosis estándar utilizada en el ensayo estructurado a continuación es **1 g tres veces al día** (3 g/día); existen cantidades mayores (hasta 1.5 g cuatro veces al día) para algunas indicaciones de herpes, pero son excepcionales y solo deben usarse con consejo explícito de un especialista, y siempre con una ingesta de líquidos cuidadosa y con conocimiento de la función renal. Un ensayo de 3–6 meses es el mínimo para evaluar la respuesta; los ensayos más cortos no son informativos.
+
+### Valganciclovir — espectro más amplio, mayor toxicidad, mejor señal
+
+El valganciclovir es un prodrug del ganciclovir, que se fosforila por una quinaza viral diferente (CMV UL97, HHV-6 U69) y también inhibe la polimerasa de ADN viral. Cubre EBV, HHV-6 y CMV — un espectro más amplio que coincide con el patrón de reactivación de poliherpesvirus. Pero también inhibe la polimerasa de ADN mitocondrial-γ del huésped, causando **supresión de la médula ósea** (neutropenia, anemia, trombocitopenia) y teratogenicidad.
+
+**La evidencia.** El ensayo EVOLVE de Montoya (2013, n=30) fue un ensayo clínico controlado con placebo que encontró un 50–60% de tasa de respuesta, mejoras significativas en fatiga mental, gravedad de la fatiga y cognición, y los respondedores tenían 7.4 veces más probabilidades de mejorar con valganciclovir que con placebo. Estos son números excepcionalmente fuertes para un ensayo en EM/SFC — pero el ensayo era pequeño, impulsado por subgrupos (los respondedores tenían títulos de anticuerpos elevados) y nunca ha sido replicado de forma independiente [@Montoya2013valganciclovir].
+
+**Consideraciones prácticas.** La dosis estándar de valganciclovir es **900 mg dos veces al día** — el valganciclovir siempre se toma con alimentos para mejorar la absorción — con un análisis de sangre completo y una hemograma antes del tratamiento y cada mes, y reducción de la dosis si la clara de creatinina está afectada. Los ciclos suelen ser de 6 meses en ensayos relacionados con HHV-6/CMV en este contexto. Este es un medicamento prescrito por especialista; no se debe administrar por cuenta propia.
+
+**¿Qué podría explicar la respuesta, si es real?** El valganciclovir tiene efectos antiinflamatorios independientes de su actividad antiviral; inhibe la producción de TNF-α y IL-6 por CMV en monócitos infectados. La respuesta 7.4× podría reflejar un mecanismo antiinflamatorio en lugar de uno puramente antiviral. Si eso es correcto, el subgrupo positivo en anticuerpos respondió no porque su virus fuera más activo, sino porque su activación inmunitaria estaba más influenciada por CMV. La droga funcionó como antiinflamatorio, no como antiviral; una distinción útil desde el punto de vista clínico que el diseño del ensayo no puede resolver.
+
+### Famciclovir y acyclovir — las opciones más antiguas y menos efectivas
+
+El famciclovir (prodrug de penciclovir) cubre HSV y VZV, pero no EBV, HHV-6 o CMV. No hay evidencia de ensayos sobre EM/SFC. En los protocolos de tratamiento del documento principal, el famciclovir se utiliza como profilaxis en el protocolo de EM/SFC grave; no como medicamento antiviral terapéutico, sino para prevenir la reactivación de HSV/VZV que aumente la carga viral en un sistema inmunitario ya agotado. Para ese rol supresor, la dosis estándar es **500 mg dos veces al día**, no 250 mg al día; la dosis más baja de 250 mg una vez al día no suprimiría significativamente la reactivación de HSV/VZV, y el famciclovir requiere reducción de dosis en caso de insuficiencia renal.
+
+El acyclovir (el medicamento activo detrás de valacyclovir, pero con menor biodisponibilidad) ha sido utilizado históricamente. Si el valacyclovir está disponible, no hay razón para usar acyclovir; mismo mecanismo, pero farmacocinética peor.
+
+---
+
+## La historia de la cimetidina: un antihistamínico H2 que modula la inmunidad
+
+La cimetidina es un antagonista de receptores H2 — un medicamento para el ardor de estómago. Pero a diferencia de la famotidina (el otro bloqueador H2 comúnmente utilizado en MCAS), la cimetidina tiene efectos inmunológicos adicionales: inhibe la actividad de las células T supresoras, mejora la función de las células killer naturales y, en una serie de casos de 1986, estuvo asociada con una mejoría en un fenotipo de fatiga post-EBV caracterizado por POTS, problemas de histamina y inicio postinfeccioso [@Goldstein1986CimetidineEBV].
+
+**El límite.** Se trata de una serie de casos de 40 años de edad sin ensayo controlado. El mecanismo — bloqueo H2 en las células supresoras T → mejora de la inmunidad celular → mejoría en la eliminación viral — es plausible pero no comprobado. Para referencia, la dosis habitual de bloqueo H2 es **400 mg dos veces al día**, tomada con o sin comida; un ensayo para este fenotipo suele durar 4–8 semanas con una reevaluación definida. La cimetidina es un **potente inhibidor de CYP450** (CYP1A2, 2C9, 2D6, 3A4), lo que significa que aumenta los niveles en sangre de beta-bloqueadores, muchos antidepresivos, warfarina, antiarrítmicos y otros medicamentos para POTS/EM/SFC. En un paciente que ya toma varios de estos, la cimetidina representa un riesgo de interacciones medicamentosas, no un añadido benigno. La famotidina es el bloqueador H2 más seguro para el tratamiento rutinario en MCAS; la cimetidina es un tratamiento inmunomodulador específico — y especulativo — en el fenotipo postinfeccioso, y requiere una revisión completa de los medicamentos por parte del prescriptor antes de su uso.
+
+---
+
+## El estabilizador de mastocitos: en la etapa downstream del virus
+
+Si el EBV dUTPasa activa los mastocitos para liberar MMP-9, y el MMP-9 degrada la barrera hematoencefálica, entonces **estabilizadores de mastocitos (cromoglicato, ketotifeno) y inhibidores de MMP-9 (doxiciclina en baja dosis)** intercambian en la vía **downstream** del virus. Esto no es tratamiento antiviral; no reduce la producción de proteínas virales ni elimina la infección. Bloquea la respuesta del huésped a las proteínas virales.
+
+Esto es importante porque evita el problema ALR. Los estabilizadores de mastocitos no necesitan que el virus esté en fase lítica de replicación; funcionan en el mastocito que ha sido activado por la proteína viral, independientemente de la etapa en la que se encuentre el virus. El tratamiento de MCAS — antihistamínicos de tipo H1 y H2, estabilizadores de mastocitos y evitar desencadenantes no específicos — está descrito en los artículos sobre MCAS. El punto específico relacionado con las infecciones crónicas es que, en el subgrupo positivo para EBV y MCAS, los estabilizadores de mastocitos pueden reducir la ruptura de la barrera hematoencefálica mediada por MMP-9 incluso si los antivirales fallan, ya que apuntan a la parte del huésped de la interacción virus-huésped, y no a la parte del virus [@Loth2026website].
+
+---
+
+## Resultados esperados
+
+- **La mejor respuesta antiviral es parcial.** Incluso en el ensayo con valganciclovir, el término “responder” se refería a una mejora clínicamente significativa en la fatiga y la cognición, no a una recuperación, no a volver al trabajo ni a la normalización de la PEM. Establece expectativas en consecuencia.
+- **Se espera un ensayo negativo con valacyclovir, no es anómalo.** El valacyclovir apunta a la replicación de ADN lítico; el ALR se detiene antes de ese paso. Un medicamento que no logra alcanzar su objetivo porque su objetivo no está activo es un fallo del mecanismo, no un fallo del paciente.
+- **La señal del valganciclovir puede o no replicarse.** Hasta que exista un ensayo independiente de replicación —y ninguno está registrado actualmente—, el resultado de EVOLVE es un único estudio positivo en un campo de resultados nulos. Trátalo como una señal prometedora, no como un tratamiento establecido.
+- **La cimetidina, si ayuda, mejora el fenotipo POTS-MCAS postinfeccioso.** Si tu EM/SFC comenzó de forma gradual y no postinfecciosa, o si careces de síntomas POTS y histamínicos, el fenotipo de cimetidina es poco adecuado, y la famotidina es el bloqueador H2 más seguro.
+- **Los estabilizadores de mastocitos abordan la respuesta del huésped, no el desencadenante viral.** Si el EBV está impulsando tu MCAS, estabilizar los mastocitos puede reducir los síntomas sin afectar la actividad viral subyacente. Tú seguirás tener altos títulos de anticuerpos. Los síntomas mejoran porque la respuesta del huésped al virus se disminuye, no porque el virus haya desaparecido.
+
+---
+
+## Un ejemplo de ensayo estructurado
+
+*Este es un ejemplo para proporcionar algo a tu clínico con lo que trabajar — no es una auto-prescripción.*
+
+Confirma que la imagen clínica es postinfecciosa (documentada mono EBV, roseola HHV-6 o infección transmitida por garrapatas antes del inicio de EM/SFC). Obtén serologías significativas — EA-D IgG, VCA IgG alta/ascendente y PCR de HHV-6 de sangre total (VCA IgM es un marcador de infección reciente/primaria, no de reactivación). Si las serologías sugieren reactivación, comienza valaciclovir 1 g tres veces al día. Reevalua a los 6 meses. **Detén el tratamiento si no hay mejoría** — continuar con un antiviral después de 6 meses sin beneficio no está basado en evidencia.
+
+Si el valaciclovir falla y se documenta HHV-6 (PCR positiva o ciHHV-6 conocida), discuta valganciclovir con un especialista. Este es un medicamento tóxico — supresión de la médula ósea, teratogenicidad — que requiere monitoreo regular de CBC. Un ensayo de 3–6 meses a 900 mg dos veces al día (tomado con alimentos, dosis ajustada para función renal) con reglas predefinidas de interrupción y CBC mensual es el enfoque adecuado. **Detén el tratamiento si se desarrolla neutropenia o si no hay mejoría a los 6 meses.**
+
+Si ambos antivirales fallan — o si se sospecha ALR (EA-D alta sin carga viral detectable) — cambia al intercambio de mastocitos: antihistamínicos H1 + H2 más un estabilizador de mastocitos (cromoglicato o ketotifeno), dirigido a la vía EBV→mastocito→MMP-9 situada más abajo de la infección. Reevalua a los 12 semanas. Una respuesta sustenta el modelo de respuesta del huésped; un resultado nulo no apoya ni el modelo antiviral ni el modelo de mastocitos como mecanismo dominante, y el paso es detener la búsqueda de la vía de infección crónica.
+
+---
+
+## Las predicciones verificables
+
+- **Si los estabilizadores de mastocitos reducen el MMP-9 en plasma en pacientes con EM/SFC reactivos al EBV, pero el valaciclovir no lo hace**, el camino EBV→mastocito→MMP-9 es mediado por el huésped y no por la replicación viral, y el interceptor de mastocitos es el objetivo del tratamiento racional independientemente de la respuesta antiviral [@Loth2026website].
+- **Si el modelo de amenaza-señal es correcto**, la respuesta antiviral debería ser más fuerte en pacientes con <3 years illness duration (where the viral-load component w_V·V still dominates the threat signal) than in patients with >10 años (donde los factores del huésped dominan) — y la diferencia debería superar la diferencia de título de anticuerpos en base.
+- **Si los EA-D IgG y el ADN de HHV-6 predicen una respuesta al valganciclovir, pero los VCA IgG y EBNA IgG (marcadores de infección pasada, no reactivación) no lo hacen**, la triaje serológico es clínicamente accionable y debería guiar la prescripción antiviral en lugar del enfoque actual de “intentar y ver”.
+- **Si la cimetidina + valaciclovir produce una tasa de respuesta más alta que el valaciclovir solo en el fenotipo postinflamatorio POTS-MCAS**, la componente inmunomoduladora es real y la señal histórica de cimetidina merece un estudio controlado — pero esta predicción requiere un estudio controlado, no la experiencia individual.
+
+---
+
+## ¿Qué significa si el tratamiento no ayuda?
+
+**Primero: un ensayo fallido con valaciclovir indica que el valaciclovir no funciona para ti — nada más.** No dice que el EBV está inactivo. No dice que la ALR no ocurre. Indica que un medicamento que bloquea la replicación de ADN lítico, a la dosis que tomaste y durante el tiempo que la tomaste, no produjo un beneficio medible. Es farmacología útil. No es un veredicto sobre la hipótesis viral.
+**Segundo: un ensayo fallido con valganciclovir reduce aún más las posibilidades.** El valganciclovir cubre el espectro del poli-herpesvirus. Si un ensayo de 6 meses a una dosis adecuada no produce ningún beneficio, la probabilidad de que un antiviral — cualquier antiviral disponible actualmente — te ayude disminuye significativamente. Es información útil, y el siguiente paso es pasar a la estabilización de mastocitos (interceptando la activación inmunitaria posterior) en lugar de seguir con más ensayos con antivirales.
+**Tercero: el modelo de amenaza-señal del marco ODE del documento principal predice que los antivirales funcionan solo cuando el componente de carga viral domina el señal de amenaza** — al inicio de la enfermedad. En EM/SFC de larga duración, la señal de amenaza se mantiene por factores del huésped (desregulación inmunitaria, autoanticuerpos, disfunción metabólica) y una reducción del ~20% en la producción de proteínas virales por los antivirales es insuficiente para cambiar el sistema. Este modelo es teórico, pero ofrece una explicación de por qué los antivirales podrían funcionar para algunos pacientes recién infectados y fallar para la mayoría de los pacientes con EM/SFC de larga duración [@Loth2026website].
+
+---
+
+## Lo que realmente puedes hacer
+
+- **Obtener serología significativa, no solo IgG.** Los paneles estándar de EBV (VCA IgG, EBNA IgG) indican que estuviste expuesto — lo que ocurre en más del 90% de los adultos. La serología significativa para *reactivación* incluye EA-D (antígeno temprano, patrón difuso), VCA IgG alta o en aumento (y VCA IgM solo para indicar que la infección fue reciente o primaria, no una reactivación), anticuerpos dUTPase (solo para investigación, aún no disponibles clínicamente), y — cuando sea posible — PCR cuantitativa de EBV. La PCR de HHV-6 desde sangre total distingue la replicación activa del virus integrado del virus no integrado.
+- **Si la serología es sugestiva y el cuadro clínico es postinfecioso, una prueba de valaciclovir de tiempo limitado (1 g cada 3 días, 6 meses) es una conversación razonable con un médico.** Es bien tolerada, y un resultado negativo cierra al menos una puerta. No permanecas con valaciclovir indefinidamente; si no hay cambios a los 6 meses, deja de tomarlo.
+- **El valganciclovir es una decisión especializada.** La toxicidad (supresión de la médula ósea, teratogenicidad), el costo (típicamente varios miles de dólares al mes, a menudo requiriendo aprobación de seguro para una indicación fuera del rango estándar para EM/SFC, y frecuentemente denegada) y la carga de monitoreo significan que debe ser gestionado por un médico experimentado con el medicamento, con monitoreo regular de CBC. Una prueba de 3–6 meses con reglas de interrupción predefinidas es el enfoque responsable.
+- **Tratar el MCAS si está presente.** Los estabilizadores de mastocitos interrumpen la vía EBV→MMP-9 más adelante en la replicación del virus y pueden reducir los síntomas, independientemente de si los antivirales ayudan. Consulta los artículos sobre tratamiento del MCAS.
+- **Aceptar que los antivirales actuales pueden no ser los medicamentos adecuados para el problema ALR.** No existen medicamentos que apunten directamente a la expresión de genes inmediatos o a la señalización dUTPase. Los antivirales que tenemos fueron diseñados para infecciones completamente líticas de herpesvirus (enfermedad de Ganciclovir, retinitis por CMV, herpes genital). Usarlos para el ALR en EM/SFC es un desajuste entre mecanismo y farmacología — y un resultado negativo no es un fracaso de la hipótesis viral; es un fracaso de los medicamentos disponibles para abordar el estado viral específico que está activo.
+
+---
+
+## La conclusión principal
+
+La infección crónica es el área de tratamiento más cargada de hipótesis en la EM/SFC. Los mecanismos son sólidos — EBV→mastocito→MMP-9, HHV-6 miR-aU14→fragmentación mitocondrial, coactivación de poly-herpesvirus dUTPase — pero los medicamentos que apuntan a estos mecanismos son débiles (valacyclovir omite el ALR) o tóxicos (valganciclovir suprime la médula ósea). El estabilizador de mastocitos — que bloquea la respuesta del huésped más adelante del virus — es la intervención que evita el problema del ALR y tiene bajo riesgo en el subgrupo MCAS-positive [@Loth2026website].
+
+Un ensayo antiviral fallido se considera una cuestión farmacológica, no un fracaso personal, y no una refutación de la hipótesis de reactivación viral. El enfoque clínico es un ensayo de tiempo limitado, definido por un punto final y con una regla de detención; y si falla, pasar a la estabilización de mastocitos y aceptar que los antivirales actuales no son las herramientas adecuadas para el caso.
+
+**Próximo en esta serie:** Autoinmunidad — anticuerpos que interactúan con el sistema nervioso, autoanticuerpos de GPCR y por qué eliminarlos no siempre soluciona el problema.
+
+Para una imagen completa y totalmente citada de cómo se considera la infección crónica entre los muchos mecanismos candidatos en la EM/SFC, véase [@Loth2026website].

@@ -1,0 +1,119 @@
+---
+title: "Artículo 2 sobre la dismotilidad gastrointestinal: Tratamiento de SIBO, gastroparesis y el intestino — Dieta, prokinéticos, antibióticos, DAO y lo que significa que nada funciona"
+description: "Una guía de lenguaje sencillo para tratar la dismotilidad gastrointestinal y SIBO en EM/SFC: el espaciamiento de las comidas y la eliminación de histamina reducida son los primeros pasos; antibióticos para SIBO y antimicóticos de origen vegetal, dieta elemental, prokinéticos para apoyar las contracciones intestinales, DAO para la intolerancia a la histamina, butirat para la barrera intestinal, resultados esperados, la discusión sobre «¿qué pasaría si no hay efecto?», y lo que realmente puedes hacer."
+author: "Yannick Loth"
+date: "2026-08-12"
+categories: [Treatment, GI Dysmotility, SIBO, ME/CFS, Gut]
+lang: es
+---
+
+Si padeces EM/SFC y síntomas intestinales, estás en un sistema en el que tienes control directo: la dieta es un mecanismo que puedes activar sin receta médica, sin especialista y sin salir de casa. Pero los tratamientos además de la dieta —antibióticos para SIBO, prokinéticos, dieta elemental— requieren un médico autorizado, una comprensión del mecanismo y un plan para entender lo que significa un fracaso del tratamiento.
+
+Este artículo explica la estructura del tratamiento. Para obtener información sobre el contexto conceptual —qué son la dismotilidad gastrointestinal y el SIBO, los tres mecanismos y la diferencia entre problemas intestinales solos y EM/SFC con problemas intestinales— consulta el [artículo de visión complementaria](../sibo-gi-dysmotility/index.qmd).
+
+---
+
+## En primer lugar, una advertencia simple
+
+*Todo lo que se menciona a continuación es una conversación que se debe tener con un médico, no es automedicación. Los antibióticos y prokinéticos para SIBO son medicamentos recetados. Las dietas de eliminación, especialmente las de bajo FODMAP o bajo histamina, pueden causar desnutrición y deben ser supervisadas por un dietista. La dieta elemental requiere supervisión médica. Los suplementos de DAO no están regulados.*
+
+---
+
+## La escalera de tratamiento
+
+### Dieta: la primera herramienta
+
+**Distancia entre comidas** — 4–5 horas entre comidas, sin atribus. La complejidad motora migratoria (MMC) solo se activa durante el ayuno. En una persona con MMC alterada, cada bocadillo reinicia el ritmo. La distancia entre comidas es el soporte no farmacológico más simple y de menor costo para la MMC, no requiere receta, ni nutricionista ni suplementos. Si la distancia entre comidas por sí sola reduce la hinchazón y la saciedad temprana en 2 semanas, has identificado una componente de síntoma dependiente de la motilidad — y eso te dice algo útil sobre el mecanismo.
+
+**Dieta de eliminación de histamina baja** — 3–4 semanas de evitar estrictamente alimentos ricos en histamina (pescado añejo, fermentado, curado, enlatado, mariscos, tomates, espinacas, berenjina, aguacate, alcohol), seguida de una reintroducción estructurada. Si los síntomas mejoran más del 50% en 3–4 semanas, la histamina es un factor contribuyente. Si el peso disminuye o nada cambia en ese período, detente — la restricción prolongada sin beneficio causa desnutrición y riesgo de trastornos alimentarios sin justificación [@ComasBaste2020histamine].
+
+**Low-FODMAP** — para el subtipo con superposición de IBS (hinchazón, diarrea y constipación alternadas, dolor aliviado por las evacuaciones intestinales). Tres fases: 4–6 semanas de eliminación estricta, reintroducción estructurada de grupos de FODMAP individuales, mantenimiento personalizado. Requiere un nutricionista — la fase de restricción es nutricionalmente inadecuada si es prolongada, y la eliminación de FODMAP sin supervisión puede empeorar el disbiosis al privar a las bacterias beneficiosas de fibra y fermentación.
+
+### Tratamiento de SIBO
+
+**Rifaximin** 550 mg tres veces al día durante 14 días — primera línea para SIBO con predominio de sulfuro de hidrógeno. No se absorbe (permanece en el intestino), tiene un bajo perfil de efectos secundarios y tiene evidencia de prueba para IBS con SIBO. Si el metano está elevado (IMO — sobrecrecimiento de metanógenos intestinales), añade **neomicina** 500 mg dos veces al día. La neomicina tiene una **advertencia de ototoxicidad en caja negra y es nefrotóxica**, y se absorbe parcialmente incluso por vía oral (~1–3%), por lo que está **contraindicada en insuficiencia renal** y solo debe usarse a corto plazo teniendo en cuenta el oído/tinnitus y el control renal — un punto de seguridad real, no un añadido rutinario. Si se sospecha sulfuro de hidrógeno (gas con olor a huevo podrido, diarrea), **metronidazol** (normalmente 500 mg tres veces al día) o la reducción de sulfato en la dieta son más específicos — el metronidazol causa una reacción similar a la de disulfiram con el alcohol y interactúa con warfarina, por lo que ambos deben señalarse. El SIBO vuelve si el defecto de motilidad no se aborda — los antibióticos por sí solos son seguidos por una tasa de recurrencia considerable (generalmente reportada en torno al 44% en aproximadamente 9 meses, aunque las estimaciones varían según el estudio y la definición), por lo que un prokinético para restaurar la MMC suele ser el punto clave.
+
+**Antimicrobianos de origen herbal** — berberina, alicina (para el metano), aceite de orégano, neem — a veces se usan contra SIBO. Un estudio comparativo reportó tasas de normalización comparables a rifaximin (46% vs 34%), pero este es un comparativo de un solo ensayo, de pequeña muestra, no evidencia fuerte de equivalencia, y estos compuestos no son un sustituto de un tratamiento antibiótico gestionado médicamente. Están disponibles sin receta, pero hay varias precauciones: la berberina puede disminuir la presión arterial y interactuar con las enzimas CYP450; el aceite de orégano es corrosivo para la esófago si se toma sin diluir; y los suplementos no regulados varían en calidad y estandarización, por lo que un producto comprado en línea no tiene la misma dosis ni pureza que el material de estudio. Si se usan, deben discutirse con un clínico y en ningún caso usarse para evitar el tratamiento prescrito de rifaximin.
+
+**Dieta elemental** — una fórmula líquida de nutrientes predigeridos que no requiere digestión, que alimenta al paciente mientras mata a las bacterias. 14 días de dieta elemental exclusiva logran erradicar el 80–85% de SIBO, uno de los índices más altos entre todas las intervenciones, pero su palatabilidad, costo y la carga práctica son obstáculos significativos [@PimentelElemental2004][@ElementalDiet2025]. En EM/SFC graves, la dieta elemental puede paradójicamente reducir la carga (sin cocinar, sin tomar decisiones sobre la comida) mientras se trata el SIBO.
+
+**Prokinéticos** — eritromicina en bajas dosis (50 mg antes de dormir, agonista de motilina, estimula la MMC gástrica), prucalopride (1–2 mg diario, agonista de 5-HT₄, estimula la MMC del intestino delgado), o metoclopramida (normalmente 5–10 mg antes de las comidas y antes de dormir; el único medicamento aprobado por la FDA para gastroparesis, pero con un riesgo real de discinesia tardía, y la FDA limita el uso continuo a **12 semanas** porque el riesgo aumenta con la exposición acumulada — no es una opción a largo plazo). Los prokinéticos no son para el tratamiento agudo de SIBO — son para prevenir recurrencias después de la erradicación, restaurando la MMC que mantiene a las bacterias en movimiento.
+
+### Soporte de barreras y butirato
+
+- **Butirato** (sodio butirato 600–1200 mg dos veces al día o tributirina) — la principal fuente de energía para los coloncitos, estabilizador de las uniones tensas y inhibidor de HDAC que suprime la degranulación de los mastocitos hasta en un 90%.
+- **Zinc carnosina** 75 mg dos veces al día — estabiliza la barrera mucosa gástrica e intestinal.
+- **L-glutamina** 5 g diario — el principal combustible para los enterocitos durante la reparación de la barrera del intestino delgado.
+
+### Suplementación de DAO
+
+Cápsulas de enzima DAO (derivadas del riñón de cerdo), tomadas 15 minutos antes de las comidas, degradan la histamina dietética en el lumen intestinal. Si el enjuague postcóctel, la taquicardia y la niebla cerebral mejoran, se *sugiere* una intolerancia a la histamina, aunque no se confirme definitivamente, porque una respuesta a la DAO también es consistente con un placebo o con una reducción general de síntomas intestinales, y la DAO solo aborda la carga de histamina dietética, no la producción endógena de mastocitos. La DAO no es un tratamiento para MCAS. Es un agente diagnóstico-terapéutico de bajo riesgo que puede probarse junto con cambios dietéticos.
+
+---
+
+## Resultados esperados
+
+- **La separación de las comidas funciona rápidamente o no funciona en absoluto.** Si las diferencias de 4–5 horas entre las comidas reducen la hinchazón en 2 semanas, la MMC es funcional y la motilidad es el factor clave. Si no tiene efecto, la MMC puede estar demasiado afectada para que la separación de las comidas la restablezca.
+- **La dieta con bajo contenido de histamina es una prueba de diagnóstico de 3–4 semanas.** Si los síntomas mejoran, continúa con una reintroducción estructurada. Si nada cambia, deje de restringir — no caigas en desnutrición a largo plazo.
+- **El rifaximina funciona dentro del tratamiento de 14 días o no funciona en absoluto.** Si la hinchazón, la distensión y los hábitos intestinales se normalizan, existía SIBO. Si nada cambia — y la prueba de respiración fue positiva — una posibilidad es un resultado falso positivo de la prueba de respiración (~30–40% de tasa).
+- **Los prokinéticos previenen la recurrencia, no el SIBO agudo.** Si el SIBO vuelve a aparecer en 3 meses después de los antibióticos, la MMC no se mantiene — añada un prokinético. Si el SIBO no vuelve a aparecer sin prokinéticos, la MMC se recupera por sí sola.
+- **El DAO es una prueba de diagnóstico, no una solución a largo plazo.** Si la suplementación de DAO mejora los síntomas después de las comidas, el HIT es un posible factor y la gestión dietética es la estrategia — aunque la respuesta también puede reflejar placebo. La suplementación de DAO sugiere el mecanismo; no reemplaza la evitación de histamina en la dieta.
+
+---
+
+## Un ejemplo de ensayo estructurado
+
+*Este es un ejemplo para proporcionar algo a tu médico con el que trabajar — no es una automedicación.*
+
+Comienza con el espaciado de las comidas: 4–5 horas entre comidas, sin meriendas. Reevalua la hinchazón y la saciedad temprana después de 2 semanas. Si hay mejoría, continúa — tienes un componente dependiente de la motilidad.
+
+Añade la dieta baja en histamina durante 4 semanas. **Reevalúa después de 4 semanas.** Si la enrojecimiento después de comer, la taquicardia y la niebla cerebral mejoran en más del 50 %, la histamina es un factor contribuyente. Si nada cambia, deja de lado la dieta — la histamina no es el mecanismo dominante.
+
+Si la hinchazón, la saciedad temprana y los hábitos intestinales alternados persisten a pesar del espaciado de las comidas, realiza un test de respiración con lactulosa. Si el hidrógeno o el metano están elevados, trata con rifaximina 550 mg cada 3 horas ± neomicina 500 mg cada 2 horas durante 14 días. Reevalúa después de 4 semanas de tratamiento. **Si los síntomas de SIBO vuelven a aparecer en 3 meses**, añade un prokinético (eritromicina 50 mg antes de dormir). Reevalúa después de 12 semanas. Deja de usar el prokinético si SIBO no ha vuelto a aparecer después de 6 meses — es posible que la MMC haya recuperado su función.
+
+Si todo lo anterior falla y se confirma SIBO mediante pruebas repetidas, considera una dieta elemental de 14 días bajo supervisión médica.
+
+**Añade solo una intervención a la vez.** Añadir todo al mismo tiempo — espaciado de las comidas + dieta baja en histamina + rifaximina + prokinético simultáneamente — hace imposible saber qué funcionó.
+
+---
+
+## ¿Qué significa que el tratamiento no sea efectivo
+
+**Primero: El tratamiento para SIBO puede fallar porque la prueba de respiración fue falsamente positiva.** Las pruebas de respiración tienen una tasa de falsos positivos del 30–40%, y la conclusión de “sigue siendo no comprobada” en la declaración de consenso de 2024 es una limitación epistemológica real. Si rifaximina y los antimicrobianos de origen herbal no producen beneficio, una posibilidad es que SIBO nunca fue el problema; los síntomas tenían otro mecanismo (hiperreactividad visceral, MCAS, tránsito rápido).
+
+**Segundo: La dieta baja en histamina puede fallar porque la histamina no es el problema.** Si 4 semanas de reducción estricta de histamina a través de la dieta no producen cambios, y la suplementación de DAO también falla, es poco probable que la histamina sea un factor principal — deje de restringir la dieta y busque otros mecanismos.
+
+**Tercero: Los prokinéticos pueden fallar porque el MMC está dañado estructuralmente, no solo ralentizado.** Si los ICCs son destruidos por autoanticueros, no solo suprimidos funcionalmente, un medicamento que estimule la función residual de ICCs puede tener efecto limitado. Esta distinción es importante para las expectativas: los prokinéticos apoyan la función residual; no regeneran las células del marcapasos perdidas.
+
+**Cuarto: El intestino puede no ser el amplificador dominante.** Si has tratado SIBO, eliminado histamina, restaurado el butirat y tomado prokinéticos — y la fatiga, la niebla cerebral y la PEM permanecen sin cambios — el intestino fue un pasajero, no un motor, en tu caso específico. Es información útil. Deje de buscar tratamientos dirigidos al intestino y pasa al siguiente amplificador.
+
+**Quinto: La dieta elemental puede fallar porque la causa subyacente nunca fue las bacterias.** La dieta elemental elimina todo sustrato alimentario para la fermentación bacteriana — si 14 días de dieta elemental exclusiva no producen mejoría, los síntomas no fueron impulsados por un sobrecrecimiento bacteriano. Pueden ser hiperreactividad visceral, MCAS o tránsito rápido. Es un hallazgo: el tratamiento más agresivo para SIBO disponible ha sido probado y ha fallado, y la probabilidad de que SIBO sea el mecanismo dominante disminuye significativamente.
+
+---
+
+## Las predicciones verificables
+
+- **Si los estabilizadores de mastocitos (cromoglicato, ketotifeno) mejoran la dismotilidad gastrointestinal independientemente de los cambios en la dieta**, los mediadores de mastocitos son un freno directo de la motilidad, y los estabilizadores se encuentran antes que los prokinéticos en el algoritmo de tratamiento.
+- **Si la suplementación con butirat reduce los marcadores de degranulación de mastocitos (metilhistamina urinaria, metabolito de prostaglandina D₂) en pacientes con EM/SFC y SIBO positivo**, el camino de deficiencia de butirat → desinhibición de mastocitos es clínicamente relevante y el eje microbioma-mastocitos es un mecanismo que puede ser objetivo.
+- **Si los prokinéticos previenen la recurrencia de SIBO en pacientes con función normal del ICC (negativos para anti-CdtB/anti-vinculin) pero fallan en pacientes con anticuerpos anti-ICC positivos**, el mecanismo de daño al ICC es clínicamente accionable y la prueba de anticuerpos debe guiar las expectativas sobre los prokinéticos.
+
+---
+
+## Lo que realmente puedes hacer
+
+- **Comienza con el espaciamiento de las comidas.** Cuatro a cinco horas entre comidas, sin meriendas. Esto no cuesta nada, no requiere receta y apoya directamente la función del MMC. Si ayuda, has identificado un componente de síntoma dependiente de la motilidad.
+- **Prueba una dieta baja en histamina durante 4 semanas con una fecha límite clara.** Si los síntomas mejoran, la histamina es relevante. Si nada cambia, detente con la restricción.
+- **Realiza un test de respiración con lactulosa, pero lee el resultado de forma crítica.** Un resultado positivo sugiere SIBO; un resultado negativo no lo descarta. Trata la situación clínica, no un número borderline.
+- **Si se trata SIBO, añade un prokinético para prevenir recurrencias.** Los antibióticos eliminan el exceso de bacterias; solo la función restaurada del MMC evita que vuelva a aparecer.
+- **Considera el DAO antes de las comidas como una prueba diagnóstica.** Una mejora consistente relacionada con el DAO sugiere HIT; la necesidad de antihistamínicos también indica una componente adicional de mastocitos endógenos (MCAS); ninguno de los dos ayuda sugiere que la histamina no sea un factor importante. Trata cada uno de estos como una señal sugestiva, no como evidencia — la respuesta también puede reflejar placebo o una mejora intestinal no relacionada.
+- **Acepta que el intestino es uno de varios amplificadores.** Tratarlo puede reducir la carga total de la enfermedad sin solucionar la crisis de energía. Eso no es fracaso, es un enfoque preciso en un sistema de varios amplificadores.
+
+---
+
+## La conclusión principal
+
+El tratamiento de la dismotilidad gastrointestinal en EM/SFC abarca desde el espaciamiento de las comidas y la reducción de la eliminación de histamina, pasando por antibióticos para SIBO y dieta elemental, hasta DAO, butirat y prokinéticos. La dieta es el primer recurso —la intervención que el paciente puede controlar directamente— y la farmacología es de apoyo, no central [@Loth2026website].
+
+Un ensayo fallido de cualquier intervención indica algo específico: qué mecanismo no es dominante en tu caso. Es información útil, no un fracaso personal. La arquitectura de ensayos estructurados (una intervención a la vez, punto final nombrado, regla de detención nombrada) es la forma de distinguir entre señales y ruido en un sistema de múltiples mecanismos.
+
+Para obtener una imagen completa y citada con detalle de cómo la dismotilidad gastrointestinal y el microbioma intestinal se consideran entre los muchos mecanismos posibles en EM/SFC, consulta [@Loth2026website].

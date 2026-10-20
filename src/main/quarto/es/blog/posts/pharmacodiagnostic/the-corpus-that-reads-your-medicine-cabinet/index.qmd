@@ -1,0 +1,58 @@
+---
+title: "El Corpus que lee tu botiquín de medicinas"
+description: "Un informe de medicamento para análisis de datos no es un \"thumbs-up\" ni un \"thumbs-down\". Debe registrar la dosis, el rango de dosis, la duración, qué síntoma cambió, qué efectos secundarios aparecieron y por qué se detuvo el tratamiento. Este es el diseño mínimo que permite que cientos de ensayos individuales no coordinados con un solo paciente produzcan una clasificación a nivel de población de vías terapéuticas candidatas."
+author: "Yannick Loth"
+date: "2026-09-12"
+categories: [ME/CFS, Treatment, Methods, Pharmacology]
+lang: es
+---
+
+Ya existe una encuesta en línea que pregunta a miles de pacientes con EM/SFC y COVID prolongado qué tratamientos consideraron útiles. La encuesta reporta más de 150 tratamientos clasificados según el beneficio percibido [@Eckey2025PatientReported]. La encuesta es realmente útil, pero no puede indicar qué vía biológica está dañada, ya que pregunta si un tratamiento ayudó, pero no en qué dosis, durante cuánto tiempo o por qué mecanismo actuó.
+
+La diferencia entre una clasificación de popularidad y una clasificación de mecanismo es casi exclusivamente una cuestión de lo que contiene el informe. Este artículo trata sobre esa diferencia.
+
+## Por qué "ELDN me ayudó" no se puede agrupar
+
+La propuesta central del trabajo sobre dosis-respuesta del documento principal es que, en el caso de EM/SFC, el *lugar* en la escala de dosis donde el medicamento funciona puede ser la información clave. En esa análisis, la naltrexona en dosis bajas ayuda a algunos pacientes en dosis de 0.5–1.5 mg y luego deja de ayudar a medida que la dosis aumenta, porque su mecanismo dominante en dosis bajas (un bloqueo parcial de TLR4 que activa el programa antiinflamatorio Nrf2 de la célula) se supone que se desactiva cuando el bloqueo se vuelve demasiado completo [@Younger2013; @Kucic2021LDNmicroglia; @Calabrese2021Nrf2]. Un paciente cuyo beneficio desaparece a medida que la dosis aumenta puede haber dicho algo sobre su biología. Un paciente que reporta solo "ELDN me ayudó" no lo ha hecho.
+
+Por eso el corpus necesita la dosis. Un informe de "ELDN no ayudó" no se puede agrupar, porque no distingue a un paciente que falló en una dosis donde el medicamento podría funcionar de un paciente que falló en el extremo superior de la gama, donde el mecanismo nunca se activó. La serie de dosis-respuesta explica este punto para la titulación de un único paciente; a escala poblacional, el mismo principio decide si todo el corpus es útil o inútil.
+
+El conjunto mínimo de campos, y por qué cada campo obtiene su lugar:
+
+- **Medicamento** — la intervención en sí.
+- **Dosis y banda de dosis** — la variable de soporte. Un valor nulo dentro de una ventana de prueba es información; un valor nulo en el límite no lo es.
+- **Duración** — porque un beneficio que aparece después de tres semanas y disminuye después de tres meses es un hallazgo diferente de uno que nunca aparece. Un ensayo adecuado debe haber durado lo suficiente para mostrar su efecto.
+- **Dominio de respuesta** — *qué* síntoma cambió. Un medicamento que soluciona la niebla cerebral sin afectar el dolor te dice que esos dos síntomas operan por vías diferentes. Una única puntuación de "mejor/más malo" destruye esa señal.
+- **Tipo de efecto secundario** — porque un efecto secundario es una señal de que el mecanismo fue activado, independientemente de si corregirlo ayudó. Un paciente que deja de tomar un medicamento por un efecto secundario específico aún ha proporcionado datos mecanísticos.
+- **Razón de interrupción** — lo más cercano a una evaluación libre de lo que realmente ocurrió.
+- **Volumen de discusión comunitaria** — un campo inusual, y necesario, explicado a continuación.
+
+## Cómo cientos de ensayos con un solo paciente se convierten en un instrumento
+
+Una vez que los informes pueden ser agrupados, forman una matriz. Cada medicina es una fila; cada hipótesis mecánica (neuroinflamación TLR4, disfunción del canal TRPM3, limitación del sustrato mitocondrial, activación de mastocitos, señalización autoinmune, etc.) es una columna. Cada célula se pregunta: si esta hipótesis fuera el problema limitante del paciente, ¿qué habría hecho esta medicina?
+
+Una respuesta positiva deja las hipótesis que la medicina debería abordar en pie, pero solo después de restar el nivel de placebo debajo, ya que una respuesta positiva no cegada es en parte expectativa. Una respuesta nula, registrada dentro de la ventana de la medicina, la elimina del conjunto de candidatos — a menos que las hipótesis sean "espectralmente idénticas" (dos mecanismos que predecirían la misma respuesta para toda la medicina que podemos probar sin riesgo, por lo que ninguna respuesta puede distinguirlas) o el objetivo haya adaptado. Un efecto secundario específico identifica un sistema que la medicina afectó. El corpus estaría diseñado para resolver, mediante restricciones, el pequeño conjunto de hipótesis compatibles con todo lo observado. Es la misma lógica que el documento principal aplica a la historia de medicina de un solo paciente, ejecutada a escala poblacional.
+
+Dos refinamientos son importantes.
+
+Primero, el corpus debe buscar **subgrupos de respondedores**, no una media. La respuesta heterogénea a una medicina es en sí misma un diagnóstico. Cuando un gran ensayo de ARDS dividió a los pacientes por un marcador biológico simple, los dos grupos respondieron de manera diferente a la misma medicina, por lo que un ensayo que fue "nulo" en general contenía una división real que revela el mecanismo [@Calfee2018ARDSsubphenotypes]. EM/SFC muestra una heterogeneidad considerable, parcialmente reproducible dentro del diagnóstico [@Vaes2023SymptomClusters]. Un corpus que informe "el paciente promedio mejoró un poco" ha descartado su hallazgo más valioso; aquel que informe *quién* respondió ha encontrado un subtipo.
+
+Segundo, el corpus necesita su propio **nivel de placebo**. Si agrupas todos los informes, capturas no solo los efectos de la medicina, sino también la expectativa base de la comunidad, la fluctuación natural de la enfermedad y el sesgo de recordado al mirar hacia atrás. La forma de medir ese nivel base es incluir intervenciones que no tienen un mecanismo plausible: los suplementos y tendencias que los pacientes intentan y que ninguna hipótesis predice deberían funcionar. Su respuesta agrupada *es* el nivel. Resta eso y lo que queda está más cerca de una señal de mecanismo. Sin él, el corpus no puede distinguir una señal real débil de un efecto de expectativa fuerte. El nivel tiene una limitación que vale la pena mencionar: su validez depende de que el espacio de hipótesis sea completo, y un nivel medido en suplementos inertes no necesariamente es igual a la expectativa asociada a una medicina específica popular, por lo que corrige la expectativa promedio de la comunidad, no la inflación específica de la medicina.
+
+## El campo de discusión comunitaria y por qué existe
+
+El séptimo campo es incómodo pero esencial. Si los informes provienen de una comunidad, llevan consigo las creencias de esa comunidad, y esas creencias influyen tanto en qué medicamentos se prueban como en cómo se reportan sus efectos. Un tratamiento ampliamente discutido acumulará informes entusiastas independientemente de si funciona o no. Si el corpus no puede distinguir la farmacología de un medicamento de su popularidad, los lectores corren el riesgo de tomar el consenso previo de la comunidad como evidencia independiente.
+
+Por lo tanto, el corpus debe registrar, por medicamento, alguna medida de cuánto se discute en línea o se prescriben en las clínicas de recolección. Luego, los caminos más destacados se prueban contra esa medida: ¿el señal se ajusta a la dosis y al objetivo molecular, o se ajusta a cuánto se habla del medicamento? Si es lo último, la propuesta falla. Sin esa prueba, la propuesta no puede separar el señal de la popularidad; es la condición bajo la cual la idea puede existir en absoluto.
+
+## Lo que se necesitaría
+
+La mayor parte del material bruto ya existe. Los pacientes han realizado estas pruebas; los registros y encuestas ya recogen parte de los campos; la maquinaria estadística para agrupar experimentos de un solo paciente está madura [@Bourke2020PatientGeneratedData; @Schmid2022BayesianNof1; @Punja2016Nof1Aggregation]. Lo que falta es un esquema compartido (una acuerdo sobre lo que debe contener un informe) y la disciplina para recopilar los fracasos tan cuidadosamente como los éxitos.
+
+Eso es una pequeña cosa para pedir y una gran cosa para cambiar: convertiría un archivo disperso de experiencias personales en lo más cercano que una enfermedad sin biomarcador tiene a una clasificación a nivel poblacional. La clasificación reflejaría bien a los pacientes para contribuir (en su mayoría leves a moderados), y se necesitarían canales dedicados para llegar a pacientes graves y muy graves, cuyos informes son los más informativos y los más difíciles de recopilar.
+
+*Siguiente: [Lo que un montón de informes de medicamentos puede y no puede decirte](../what-a-pile-of-drug-reports-cannot-tell-you/index.qmd) — los límites, incluyendo el que podría destruir toda la idea.*
+
+*Esto no es consejo médico. Describe una propuesta de investigación. Nadie debería comenzar, detener o cambiar un tratamiento basándose en una clasificación comunitaria agrupada. Cualquier cifra de dosis aquí es una ilustración de la análisis del documento principal, no una guía de prescripción. Discuta cualquier decisión de medicación con su clínico.*
+
+*Esta publicación se basa en la especificación del corpus farmacodiagnóstico y el esquema de datos mínimos en [Loth 2026](https://yannickloth.github.io/health-me-cfs/). La subtipificación de respuestas heterogéneas sigue [@Calfee2018ARDSsubphenotypes]; el sustrato de prácticas emergentes sigue [@Bourke2020PatientGeneratedData].*

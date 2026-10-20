@@ -1,0 +1,94 @@
+---
+title: "SIBO: Las bacterias robando tu desayuno"
+description: "El intestino delgado debería ser relativamente estéril. El intestino grueso —el colon— es una metrópolis microbiana, donde viven trillones de bacterias que fermentan fibra, producen vitaminas y mantienen el sistema inmunitario mucoso. El intestino delgado,..."
+author: "Yannick Loth"
+date: "2026-06-14"
+categories: [Gut Microbiome, Treatment]
+lang: es
+---
+
+El intestino delgado debería ser relativamente estéril. El intestino grueso —el colon— es una metrópolis microbiana, que alberga trillones de bacterias que fermentan fibra, producen vitaminas y mantienen el sistema inmunitario mucoso. El intestino delgado, en cambio, es donde realmente se absorben los nutrientes: hierro, B12, folato, vitaminas liposolubles, aminoácidos y azúcares. Para que esto funcione, debe estar relativamente libre de bacterias. Una onda muscular llamada complejo motor migratorio (MMC) recorre el intestino delgado entre las comidas, empujando las bacterias hacia el colon, donde les corresponde.
+
+Cuando este sistema falla —cuando las bacterias colonizan el intestino delgado en cantidades significativas—, consumen la comida antes de que la absorban. Fermentan los carbohidratos que deberían haber sido absorbidos como glucosa, produciendo gas sulfuro de hidrógeno, metano y sulfuro de hidrógeno. Consumen B12 y hierro. Dañan la capa intestinal, afectando la absorción de todo lo demás. El resultado es una deficiencia de nutrientes a pesar de una ingesta alimentaria adecuada, hinchazón y dolor después de cada comida, y —porque las mitocondria necesitan esos nutrientes para producir energía— fatiga.
+
+Esto es el sobrecrecimiento bacteriano en el intestino delgado (SIBO), y en pacientes con EM/SFC es probablemente el único factor tratable que causa fatiga y que se ignora sistemáticamente.
+
+---
+
+## ¿Por qué los pacientes con EM/SFC son presas faciles?
+
+El complejo motor migratorio está controlado por el nervio vago. El nervio vago es disfuncional en el EM/SFC. Esto no es especulación: los tests autónomos muestran consistentemente un tono vago deteriorado en los pacientes con EM/SFC ([@Newton2012]; [@Beaumont2012vagalCFS]).
+
+El MMC se activa durante el ayuno — entre las comidas y durante el sueño nocturno — limpiando el intestino delgado aproximadamente cada 90 minutos. Cuando el control vago de la motilidad intestinal está deteriorado, la frecuencia del MMC disminuye. El ciclo de limpieza se ralentiza. Las bacterias que normalmente serían eliminadas hacia el colon acumulan en el intestino delgado. Cuanto más tiempo persista la disfunción vago, mayor será el crecimiento excesivo.
+
+Los pacientes con EM/SFC también tienden a tener menos actividad física (porque la actividad causa PEM), lo que de forma independiente ralentiza la motilidad intestinal. Muchos toman medicamentos que reducen aún más la motilidad: opioides para el dolor, anticolinérgicos para varios síntomas y inhibidores de bomba de protones que reducen el ácido estomacal (una de las primeras defensas del cuerpo contra la colonización del intestino delgado).
+
+La situación es una tormenta perfecta: tono vago deteriorado + actividad reducida + medicamentos que ralentizan la motilidad + ácido gástrico reducido = una puerta abierta para el SIBO.
+
+---
+
+## Tres tipos de SIBO, tres problemas diferentes
+
+La SIBO no es una única condición. El gas producido por las bacterias excesivas determina el perfil de síntomas y el tratamiento.
+
+**SIBO dominada por sulfuro de hidrógeno** es el tipo más común. Las bacterias fermentan carbohidratos y producen gas de hidrógeno. Los síntomas se centran principalmente en diarrea: hinchazón abdominal, urgencia, heces sueltas y calambres abdominales después de las comidas. El propio sulfuro de hidrógeno es relativamente benigno; son las consecuencias mecánicas y osmóticas de la fermentación bacteriana las que causan los síntomas.
+
+**SIBO dominada por metano** (cada vez más llamada IMO — overgrowth de metanógenos intestinales) es causada por arqueas (Methanobrevibacter smithii, principalmente) que consumen hidrógeno y producen metano. El metano ralentiza directamente el tránsito intestinal: inhibe la contracción del músculo liso en la pared intestinal [@Pimentel2006methaneTransit]. El resultado son síntomas dominados por estreñimiento: hinchazón abdominal, heces poco frecuentes, esfuerzo para defecar y sensación de evacuación incompleta. La SIBO dominada por metano crea un ciclo vicioso: el metano ralentiza la motilidad intestinal, lo que empeora el overgrowth, lo que a su vez produce más metano.
+
+**SIBO dominada por sulfuro de hidrógeno** es el tipo recién reconocido. Las bacterias reductoras de sulfato (Desulfovibrio, Bilophila, Fusobacterium) consumen hidrógeno y producen H₂S. Esta variante merece su propia discusión — y su propio artículo en esta serie — porque el H₂S es un veneno mitocondrial. Inhibe la oxidasa citocromo c en el sitio de unión similar al cianuro. Un paciente con SIBO dominada por H₂S no solo malabsorbe nutrientes; sus bacterias intestinales producen una sustancia que suprime directamente la producción de energía mitocondrial.
+
+---
+
+## Lo que la SIBO roba
+
+El robo de nutrientes es específico y devastador para los pacientes con EM/SFC:
+
+**Hierro.** Las bacterias en el intestino delgado consumen el hierro alimenticio y dañan la mucosa duodenal donde se absorbe el hierro. Un paciente puede ingerir suficiente hierro alimenticio y aún estar funcionalmente empobrecido en hierro — no debido a una deficiencia alimentaria, sino debido a la competencia por el consumo y el fallo en la absorción. Su ferritina disminuye por razones que un historial alimentario no revelará.
+
+**Vitamina B12.** Las bacterias consumen la B12 antes de que llegue al íleon terminal, donde ocurre la absorción. La deficiencia de B12 causada por la SIBO puede producir fatiga, neuropatía y disfunción cognitiva — síntomas que en un paciente con EM/SFC se atribuyen a la enfermedad en sí, y no a una causa tratable.
+
+**Vitaminas liposolubles (A, D, E, K).** La desconjugación bacteriana de los ácidos biliares en el intestino delgado deteriora la absorción de grasos, y con ella la absorción de las vitaminas liposolubles. La deficiencia de vitamina D en un paciente con EM/SFC puede no deberse a una exposición insuficiente al sol, sino a una malabsorción que nadie ha analizado.
+
+**Calorías.** La fermentación bacteriana de los carbohidratos en el intestino delgado desvía el sustrato calórico que debería haber alimentado al paciente. El paciente se siente agotado después de comer porque la comida desencadena la fermentación bacteriana en lugar de la absorción de nutrientes. El hinchazón, los gases y la fatiga postprandial no son “funcionales” — son el resultado de que las bacterias consuman la comida primero.
+
+---
+
+## Diagnóstico: imperfecto pero disponible
+
+La prueba de diagnóstico estándar es la prueba de aliento de lactuloza o glucosa. El paciente bebe una solución de azúcar y se miden el hidrógeno y el metano exhalados en intervalos durante 90-120 minutos. Un aumento de hidrógeno o metano antes de que la solución llegue al colon (normalmente en 90 minutos) sugiere fermentación bacteriana en el intestino delgado.
+
+La prueba tiene limitaciones bien conocidas. La sensibilidad es moderada —los estudios reportan entre el 60-70%— y la especificidad depende de los criterios de interpretación que varían entre los laboratorios [@Rezaie2017breathConsensus]. Los falsos negativos son comunes, especialmente para SIBO dominada por H₂S, que no se podía medir con las pruebas de aliento estándar hasta hace poco (la prueba trio-smart ahora mide los tres gases).
+
+La prueba de aliento de glucosa es más específica pero menos sensible —la glucosa se absorbe rápidamente en el intestino delgado proximal, por lo que puede pasar por alto los casos de SIBO distal. La prueba de lactuloza es más sensible pero menos específica —la lactuloza llega al colon en todos los pacientes, lo que crea un aumento de referencia que puede ser difícil de distinguir de un signo del intestino delgado.
+
+A pesar de estas limitaciones, un resultado positivo en la prueba de aliento en un paciente con EM/SFC sintomático es clínicamente útil. Y un resultado negativo no excluye SIBO —puede justificar un tratamiento empírico si la situación clínica es claramente sugestiva.
+
+---
+
+## Tratamiento: efectivo pero recurrente
+
+El tratamiento estándar para SIBO dominada por hidrógeno es rifaximina (Xifaxan), un antibiótico no absorbido que actúa localmente en el intestino. Es bien tolerado, tiene una absorción sistémica mínima y es efectivo en aproximadamente el 50-70% de los casos con dosis estándar [@Pimentel2011TARGET].
+
+El SIBO dominado por metano requiere terapia combinada — generalmente rifaximina más neomicina o metronidazol — porque las arqueas responsables de la producción de metano no son adecuadamente targetadas por rifaximina sola.
+
+El tratamiento de SIBO dominada por H₂S es menos estandarizado. El bismuto subsalicilato tiene cierta eficacia contra las bacterias reductoras de sulfato. La restricción de azufre en la dieta (reduciendo ajo, cebolla, verduras crucíferas, huevos, suplementos de alto sulfuro como NAC y ácido alfa-lipoico) reduce la disponibilidad de sustrato.
+
+La dieta elemental — una fórmula de nutrición líquida que se absorbe en el intestino delgado proximal, dejando nada para que las bacterias fermenten — es efectiva en aproximadamente el 80% de los casos, pero es difícil de mantener durante las 2-3 semanas requeridas y es costosa.
+
+**El problema de la recurrencia.** Esta es la dificultad central. El SIBO responde al tratamiento, pero si la disfunción motilidad subyacente no se aborda, vuelve. En pacientes con EM/SFC, la disfunción vagal que causó el SIBO forma parte de la enfermedad. El SIBO es una consecuencia posterior, no la causa raíz. El tratamiento proporciona alivio — a veces un alivio drástico — pero se necesita mantenimiento.
+
+Los agentes prokinéticos (bajas dosis de eritromicina, prucalopride) estimulan la MMC y reducen la recurrencia. El espaciado de las comidas — permitiendo 4-5 horas entre comidas para permitir el ciclaje de la MMC — es una intervención no farmacológica simple que muchos pacientes con EM/SFC consideran útil.
+
+---
+
+## ¿Qué costa el SIBO el presupuesto energético
+
+Un paciente con EM/SFC y SIBO no tratado tiene dos consumos de energía en curso simultáneamente: la enfermedad en sí y el parasitismo bacteriano en el intestino delgado. El SIBO está robando nutrientes que las mitocondria afectadas necesitan. Produce H₂S que inhibe aún más esas mitocondria. Provoca inflamación intestinal que activa el sistema inmunitario, consumiendo aún más energía. Y causa síntomas postprandial que el paciente y su médico atribuyen a "solo EM/SFC".
+
+Tratar el SIBO no cura la EM/SFC. Pero elimina una carga significativa y tratable de un sistema que ya está al límite. Los pacientes que han sido tratados con éxito con SIBO reportan mejoras significativas en la fatiga, la función cognitiva y los síntomas postprandial — no porque la EM/SFC sea causada por el SIBO, sino porque el SIBO empeoraba todo.
+
+La pregunta que se debe hacer no es "¿podría el SIBO causar todo esto?" Rara vez es así. La pregunta es "¿podría el SIBO empeorar todo este 20-30%?" En un paciente cuyo margen de energía se mide en puntos porcentuales, 20-30% es la diferencia entre estar confinado en casa y poder salir de casa.
+
+Cada paciente con EM/SFC que tenga síntomas gastrointestinales — hinchazón, fatiga postprandial, intolerancias alimentarias, hábitos intestinales alternantes — debe ser examinado para SIBO. La prueba de respiración cuesta menos de 100 €. El tratamiento, si es positivo, es un ciclo de dos semanas de un antibiótico bien tolerado. El potencial retorno por una prueba de 100 € y una receta de 50 € es una mejora medible en el presupuesto energético de un paciente que no puede permitirse desperdiciar ni un solo porcentaje [@Loth2026website].
+
+---

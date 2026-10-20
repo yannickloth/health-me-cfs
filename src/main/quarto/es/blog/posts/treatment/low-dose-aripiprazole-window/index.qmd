@@ -1,0 +1,108 @@
+---
+title: "La dosis adecuada de Aripiprazol — ¿Por qué una pequeña cantidad funciona y una mayor deja de hacerlo?"
+description: "El aripiprazol ayuda a los pacientes con EM/SFC con una fracción de miligramo, y luego deja de ayudar si la dosis aumenta. La mayoría de las personas asume que una dosis mayor suma a una dosis menor. No es así. Aquí se explica el mecanismo de receptores que hace que este medicamento necesite un rango estrecho de dosis — explicado paso a paso."
+author: "Yannick Loth"
+date: "2026-09-03"
+categories: [Treatment, Pharmacology, ME/CFS]
+lang: es
+---
+
+Encontras una dosis que funciona. Alguien sugiere aumentarla — después de todo, si un poco ayuda, más debería ayudar aún más. Con aripiprazol, ocurre lo contrario. Un paciente que mejora con 0.5 mg puede perder todo el beneficio a 2 mg y sentirse activamente peor a 5 mg.
+
+Esto parece que la dosis se ha debilitado. No fue así. El mecanismo cambió. Este artículo explica, de forma sencilla, por qué aripiprazol solo funciona dentro de un rango de concentración estrecho — y por qué aumentar la concentración no preserva el efecto de la baja dosis. Es una explicación detallada del mecanismo clasificado por la serie de respuesta dosis como un U invertido parcialmente agonista.
+
+Una cosa debe decirse claramente al principio para que el resto se entienda correctamente. El beneficio de la baja dosis está documentado en EM/SFC: en una revisión retrospectiva de 101 pacientes, tres cuartos mejoraron con una media de aproximadamente 1 mg/día, dentro del rango de 0.25–2 mg [@Crosby2021LDA]. El *mecanismo* que explica por qué el beneficio colapsa a medida que aumenta la dosis es una propiedad de ocupación de receptores del aripiprazol — no es una peculiaridad específica de EM/SFC, y el descripción detallada que sigue es una síntesis de modelos [@Loth2026mecfs], y no un único experimento. Mantén esos dos aspectos separados y el resto es claro.
+
+---
+
+## La droga se encuentra entre un encendido y un apagado
+
+Para entender el problema, comencemos con el receptor. El aripiprazol actúa principalmente en el receptor de dopamina D2 [@Shapiro2003aripiprazole] — un punto de señalización clave para la motivación, la concentración y la disposición a invertir esfuerzo [@Salamone2012dopamine].
+
+La dopamina en sí es un *activador completo*. Cuando se une al receptor D2, activa este hasta aproximadamente el 100% de su capacidad.
+
+El aripiprazol no puede hacer eso. Su forma molecular limita el grado en que puede doblar el receptor, por lo que activa el D2 solo hasta aproximadamente un cuarto de su capacidad completa — aproximadamente el 25–30% de la activación que produce un agonista completo [@Burris2002aripiprazoleD2; @Shapiro2003aripiprazole]. Es lo que la farmacología llama *agonista parcial*: se une al receptor y lo activa parcialmente, y físicamente no puede activarlo más, sin importar la cantidad de droga presente [@Burris2002aripiprazoleD2]. Esta inversión dependiente de la ocupación — un agonista parcial que añade señal donde el ligando natural es escaso y lo elimina donde el ligando natural es abundante — es una propiedad documentada del receptor [@Shapiro2003aripiprazole; @Loth2026mecfs], y es la razón por la cual las curvas de respuesta a la dosis en forma de U son un fenómeno farmacológico general, y no una peculiaridad de alguna enfermedad en particular [@Sun2020yinYangHormesis].
+
+Esa única propiedad — un límite máximo de activación — es la semilla de toda la historia. Pero se vuelve paradójica solo cuando se comprende contra qué está compitiendo la droga.
+
+---
+
+## La misma molécula desempeña dos funciones opuestas
+
+El receptor normalmente está bañado en dopamina propia del cuerpo. El aripiprazol debe competir con esa dopamina por el mismo sitio de unión. Si el medicamento aumenta o disminuye la señalización depende del nivel local de dopamina, no únicamente del medicamento.
+
+**Cuando la dopamina es baja**, el aripiprazol es un ayudante neto. El receptor está mayormente inactivo; el aripiprazol se une a él y lo eleva al 25–30% máximo. En comparación con el nivel base casi cero, esto es un *aumento*. El medicamento actúa como un estimulante débil, reponiendo una señal agotada.
+
+**Cuando la dopamina ya está abundante**, el aripiprazol se convierte en un bloqueador neto. La dopamina podría activar el receptor al 100%, pero el aripiprazol ocupa el sitio en su lugar y proporciona solo el 25–30%. Al reemplazar la señal más fuerte del cuerpo, el medicamento *disminuye* la activación neta.
+
+Así que una molécula hace cosas opuestas en diferentes contextos: aumenta el tono donde hay deficiencia y lo disminuye donde hay abundancia. Esta dependencia del tono —la base del carácter “estabilizador de dopamina” del aripiprazol— es intrínseca a su farmacología como agonista parcial [@Shapiro2003aripiprazole]. La dosis determina qué contexto predomina —y de ahí surge la ventana de efectos.
+
+---
+
+## ¿Por qué aumentar la dosis cambia el efecto del medicamento de ayudante a bloqueador?
+
+La unión se rige por una regla simple llamada acción de masa: cuanto más medicamento esté presente, más receptores ocupa. La relación entre la ocupación y la respuesta fisiológica no es una línea recta, sino que está influenciada por factores como la reserva de receptores y los receptores sobrantes, por lo que el efecto funcional puede cambiar abruptamente cuando la ocupación supera un umbral [@Finlay2020receptorOccupancy]. Esa es la regla que crea la variación en el comportamiento del aripiprazol.
+
+A baja concentración, solo una pequeña parte de los receptores D2 está ocupada. La dopamina sigue ocupando la mayoría de ellos. En un paciente con déficit de dopamina, la pequeña fracción ocupada añade un poco de activación, lo que representa una ayuda neta. De forma crucial, queda espacio para que la dopamina propia del cuerpo continúe su función.
+
+A medida que la concentración aumenta, el medicamento ocupa cada vez más receptores. Después de un punto —aproximadamente la mitad de los receptores ocupados— el equilibrio cambia. Ahora el aripiprazol desplaza la dopamina de la mayoría de los sitios. En lugar de reponer algunos receptores inactivos, silencia un sistema de señalización que necesita estar activo. El efecto terapéutico se invierte [@Loth2026mecfs] y el efecto neto pasa a antagonismo.
+
+No existe un segundo mecanismo de "dosis alta" que cause daño. Es el mismo mecanismo que opera después de su propio punto de inflexión: el agonista parcial se ha convertido en antagonista al reemplazar al agonista completo.
+
+Por eso, más no es una versión más fuerte de menos. La producción del agonista parcial está limitada. Una vez que cada receptor disponible está ocupado en un 25–30%, añadir más medicamento no puede elevar el efecto a una dosis baja; solo puede comenzar a reemplazar la dopamina en los sitios que funcionaban mejor por sí solos. Después de la saturación, aumentar la concentración no aumenta el efecto de baja dosis. Lo destruye.
+
+---
+
+## La dosis baja hace algo que la dosis alta no puede: funciona a través de una población finamente ajustada
+
+Existe una segunda razón por la cual la ventana es importante, y se encuentra un nivel por encima de los receptores individuales: *dónde* en el cerebro el medicamento actúa primero.
+
+El aripiprazol no se une igual a cada sitio D2. Tiene una fuerte afinidad por una población especial: los *autoreceptores* que se encuentran en las neuronas que liberan dopamina. Un autoreceptor actúa como un freno: cuando detecta dopamina, indica a la neurona que reduzca su propio disparo y libere [@Ford2014D2autoreceptor]. Un medicamento que active ligeramente estos autoreceptores puede *desinhibir* la liberación — alcaliza el freno y la neurona libera más dopamina donde es necesaria.
+
+En microdosis, se predice que la baja ocupación fraccional active primero esta población de autoreceptores finamente ajustados, junto con los autoreceptores de serotonina 5-HT1A que disminuyen la señalización del estrés [@Loth2026mecfs]. El efecto neto es un aumento suave y dirigido en los circuitos que gestionan la motivación y la calma — exactamente lo que necesita un paciente con déficit de dopamina [@Salamone2012dopamine].
+
+En dosis más altas, el medicamento se extiende a los receptores D2 postsinápticos, mucho más numerosos, en todo el cerebro. El delicado ajuste de la liberación ahora es superado por la ocupación general de los receptores que reciben la señal. El bloqueo masivo anula la facilitación selectiva. El efecto sutil de la dosis baja no se amplifica; se pierde.
+
+Vale la pena ser preciso en el lenguaje aquí. Los receptores D2 presinápticos y postsinápticos son la *misma proteína*. No son dos tipos de receptores diferentes con diferentes afinidades intrínsecas. Lo que difiere es su sensibilidad funcional y el circuito en el que se encuentran: los autoreceptores ejercen todo su efecto con una ocupación más baja porque solo necesitan una pequeña señal para estimular la liberación, y están respaldados por una reserva de receptores mayor que un objetivo downstream [@Ford2014D2autoreceptor]. Es una diferencia de ubicación y demanda, no una diferencia entre dos especies moleculares distintas. El resultado práctico es el mismo: baja ocupación ajusta, alta ocupación ahoga [@Loth2026mecfs].
+
+---
+
+## La imagen en una curva
+
+Si combinas los dos pasos, aparece una U invertida. En el brazo izquierdo, más fármaco = más receptores autoresceptores ocupados = más liberación de fármaco = mayor beneficio. En algún punto en el medio se encuentra el punto óptimo: el rango en el que el fármaco aumenta la liberación sin silenciar aún la señalización postsinaptica. En el brazo derecho, la ocupación de receptores autoresceptores cruza el punto de inflexión, la agonía neta se convierte en antagonismo neto, y el beneficio disminuye hacia daño.
+
+```
+Benefit
+   ▲          ┌────────┐
+   │        ┌─┘        └─┐
+   │      ┌─┘   ← the    └─┐
+   │     ┌┘     window     └┐
+   │    ┌┘                  └┐
+   │   ┌┘                    └┐  ← high dose:
+   └───┴──────────────────────┴────▶ concentration
+      0.2–2 mg             5+ mg
+```
+
+La ventana de dosis baja no es una señal de que el medicamento es débil. Es una señal de que el medicamento está haciendo algo que *requiere* moderación — involucrarse en un sistema de ajuste fino que solo está presente mientras el medicamento aún no ha inundado el sistema más grande.
+
+---
+
+## ¿Qué significa esto para el paciente
+
+Tres consecuencias prácticas se derivan del mecanismo.
+
+**Una dosis que funciona es un recurso frágil.** Si se obtiene beneficio a 0.5 mg, ese beneficio depende de permanecer dentro del rango. Un médico que duplica la dosis no está probando una versión más potente del tratamiento; están superando la población de receptores autoresceptores y convirtiendo la droga en un antagonista neto. La respuesta correcta a una dosis baja que funciona suele ser *protegerla*, no aumentarla.
+
+**La respuesta y la no-respuesta son ambas información.** Donde el beneficio del paciente se invierte, tiene significado sobre su sistema de dopamina. La reserva de receptores —el exceso de receptores más allá de lo necesario para desencadenar una respuesta— determina cuánto un agonista parcial puede aumentar o disminuir la producción antes de que el equilibrio caiga [@Finlay2020receptorOccupancy]. Un paciente cuyo beneficio colapsa a 1 mg se predice tener una reserva estrecha, por lo que una ocupación moderada es suficiente para pasar al antagonismo; un paciente que mantiene beneficio hasta 2 mg se predice tener una reserva más amplia. La anchura del rango es, por lo tanto, una lectura de la integridad del sistema de dopamina, no una propiedad aleatoria de la dosis [@Loth2026mecfs]. Este es el uso diagnóstico de la curva explorada en la serie de dosis-respuesta.
+
+**No toda droga que se comporta de esta manera es hormesis.** Es común escuchar respuestas de tipo U invertido llamadas “hormesis” —la idea de que un estrés leve desencadena una respuesta adaptativa beneficiosa. El aripiprazol no es así. No hay señal de estrés ni un aumento compensatorio; la curva es una consecuencia física inmediata de la ocupación de receptores. Confundir ambos lleva a predicciones erróneas sobre si el rango es trainable o si se correlacionará con otras drogas. El rango del agonista parcial es una propiedad de la unión de la droga, fija en cualquier población con déficit de dopamina [@Loth2026mecfs]. Es un ejemplo del fenómeno general de ocupación en forma de U, no una peculiaridad de una enfermedad específica [@Sun2020yinYangHormesis].
+
+---
+
+## La conclusión principal
+
+El aripiprazol no debe ser ni demasiado fuerte ni demasiado débil, ya que es un agonista parcial que actúa en competencia con una señal natural más fuerte. En una ocupación baja, reponde un sistema agotado; después de un punto de inflexión, lo silencia. Aumentar la dosis no aumenta el efecto de dosis baja —cambia el medicamento de un ayudante a un bloqueador. El punto clave es el momento del medicamento.
+
+---
+
+*Complemento a la serie dosis-respuesta: [Parte 1: ¿Por qué más no es mejor — LDN y LDA](../more-isnt-better-ldn-lda/) · [Parte 2: El U invertido no es una misma cosa](../inverted-u-not-one-thing/) · [Parte 4: La farmacopea](../pharmacopoeia-dose-meaning/) · Relacionado: [Descarta la dosis, no el medicamento](../dose-first-search-strategy/). El agonismo parcial de D2 del aripiprazol y su baja actividad intrínseca están establecidos en la literatura farmacológica primaria [@Burris2002aripiprazoleD2; @Shapiro2003aripiprazole], y la fisiología de retroalimentación negativa de los autorreceptores D2 en [@Ford2014D2autoreceptor]. El hallazgo de la ventana de dosis clínica en EM/SFC está documentado por Crosby et al. [@Crosby2021LDA]; el papel de la dopamina en el esfuerzo y la motivación por Salamone y Correa [@Salamone2012dopamine]; y la teoría de ocupación de receptores y receptores sobrantes por Finlay et al. [@Finlay2020receptorOccupancy]. La aplicación de estos hallazgos a la lectura diagnóstica de ocupación de dosis baja en EM/SFC, y la clasificación del U invertido del aripiprazol como algo distinto de la hormesis, se desarrollan en la documentación primaria [@Loth2026mecfs], mientras que el fenómeno general de ocupación en forma de U se trata en [@Sun2020yinYangHormesis].*

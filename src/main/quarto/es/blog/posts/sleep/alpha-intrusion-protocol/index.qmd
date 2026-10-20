@@ -1,0 +1,140 @@
+---
+title: "Arquitectura del sueño alfa-delta en EM/SFC"
+description: "Dormir ocho, nueve o diez horas no evita despertar sin renovación en EM/SFC."
+author: "Yannick Loth"
+date: "2026-05-06"
+categories: [Sleep, Treatment, Neurology]
+lang: es
+---
+
+Dormir ocho, nueve o diez horas no evita despertar sin renovación en EM/SFC.
+
+La gente te dice que duermas mejor. El problema es la calidad del sueño, no la duración del sueño.
+
+---
+
+## Arquitectura de intrusiona alfa-Delta
+
+Ondas alfa (8-12 Hz) se producen cuando estás despierto. Ondas delta (0.5-4 Hz) deberían ser las principales durante el sueño profundo. En EM/SFC, se mezclan; las ondas alfa continúan entrando en las etapas del sueño profundo, por lo que el cerebro nunca obtiene las oscilaciones puras delta que realmente lo restauran [@Moldofsky1975alphaDeltaSleep; @Roizenblatt2001alphaFM].
+
+El cerebro tiene un sistema de eliminación de residuos llamado sistema glifático [@Xie2013glymphatic; @NematGorgani2025GlymphaticMECFS]. Durante el sueño profundo adecuado, los espacios entre las células cerebrales se expanden aproximadamente un 60% en modelos en ratón (la confirmación en humanos está pendiente), permitiendo que el líquido cefalorraquídeo elimine los residuos metabólicos, las proteínas inflamatorias y los subproductos tóxicos. La intrusiona alfa impide que esto ocurra. Los residuos acumulan. Te despiertas sintiéndote como si te hayan envenenado.
+
+---
+
+## La presión del sueño no se acumula correctamente
+
+La presión del sueño es la señal del cerebro que indica "necesito dormir". Una sustancia química llamada adenosina se acumula durante todo el día. Cuando sus niveles sean lo suficientemente altos, activan un sueño profundo y restaurador [@Reichert2022adenosine].
+
+La investigación muestra que los pacientes con EM/SFC tienen menos presión del sueño; el sistema de adenosina no se acumula correctamente. Incluso cuando estás agotado, tu cerebro no recibe la señal fuerte que necesita para un sueño profundo. Estás cansado, pero tu cerebro no entra en el sueño profundo que ayuda.
+
+El tálamo —el generador de ondas de sueño de tu cerebro— puede estar disfuncional. Los canales de calcio tipo T (CaV3.1) crean las oscilaciones delta que impulsan el sueño profundo [@Crunelli2006thalamicTtype]. La investigación sobre la fibromialgia sugiere que la neuroinflamación, el estrés oxidativo o la canalopatía pueden alterar el equilibrio de las corrientes iónicas en el tálamo, transformando las oscilaciones delta en patrones alpha-delta [@Vijayan2015alphaDelta]. Esto podría estar ocurriendo también en EM/SFC.
+
+---
+
+## Modificaciones del protocolo de sueño para EM/SFC
+
+La disfunción del tálamo y la canalopatía no pueden modificarse directamente. El protocolo a continuación se centra en sistemas que pueden influirse a través de cambios en el comportamiento.
+
+### Aumento de la presión del sueño en EM/SFC
+
+La terapia estándar de restricción del sueño hace que las personas pasen menos tiempo en la cama de lo necesario para generar presión del sueño. Esto no funciona en EM/SFC, ya que provoca malestar post-esfuerzo. La versión adaptada mantiene el tiempo en la cama 30-45 minutos por encima del tiempo real de sueño, evitando la deuda de energía y fortaleciendo la presión del sueño mediante consistencia.
+
+**Seguimiento de referencia.** Seguir el tiempo real de sueño (no el tiempo en la cama) durante 1-2 semanas usando un diario de sueño o actigrafía.
+
+**Cálculo del objetivo.** El tiempo inicial en la cama debe ser 30-45 minutos por encima del tiempo promedio de sueño real. Si el sueño real es de 6 horas, esto significa 6.5-6.75 horas en la cama. Para pacientes con horarios de trabajo fijos, el tiempo en la cama puede necesitar alinearse con los horarios de inicio del trabajo, incluso si difiere del ritmo circadiano ideal.
+
+**Monitoreo y ajuste.** Calcular la eficiencia del sueño: (tiempo en reposo ÷ tiempo en la cama) × 100. Si la eficiencia supera el 85%, el tiempo en la cama se reduce en 15 minutos cada semana. Si la eficiencia cae por debajo del 80% o se activa PEM, el tiempo en la cama se aumenta en 15 minutos cada semana. El rango objetivo de eficiencia es del 80-85%—menor que el objetivo saludable del 85-90%, porque el sueño en EM/SFC es fragmentado. Los pacientes que trabajan pueden objetivar inicialmente un 75-80% de eficiencia, con un aumento gradual hacia el 80-85% si es tolerado.
+
+**Mantenimiento de la rutina.** Una vez estable en el objetivo de eficiencia, esto continúa durante 2-4 semanas antes de considerar una reducción adicional. La consistencia fortalece el sistema de presión del sueño. Los cambios en el horario de trabajo pueden requerir un re-seguimiento de referencia.
+
+**Restricciones del horario de trabajo.** Los pacientes con horarios de inicio de trabajo fijos pueden necesitar calcular la hora de acostarse retrocediendo desde la hora de despertar requerida, en lugar de avanzando desde el inicio natural del sueño. Esto crea periodos de tiempo en la cama que pueden no alinearse con la preferencia circadiana individual, pero proporcionan la duración necesaria de sueño dentro de las restricciones laborales. Los trabajadores de turno deben mantener consistencia dentro de cada bloque de turno (turno de mañana, turno de tarde o turno nocturno) en lugar de intentar adaptarse diariamente a horarios rotativos.
+
+### Horario y duración de las siestas
+
+La siesta en EM/SFC es complicada. El descanso es esencial para la gestión de energía, pero las siestas pueden perturbar la arquitectura del sueño nocturno. Las siestas predicen peores resultados cognitivos, porque la intrusión alfa-Delta también ocurre durante las siestas diurnas [@Gotts2015napCFS].
+
+Mantener las siestas por debajo de 20 minutos para evitar entrar en estados de sueño profundo donde ocurre la intrusión alfa-Delta. Siestas más largas (60+ minutos) aumentan el riesgo de entrar en N3, donde las ondas alfa pueden interferir y impedir el sueño restaurador.
+
+El horario de la siesta es importante. Las siestas antes de las 2 p.m. pueden reducir la presión del sueño para el sueño nocturno. Las siestas de media tarde (3-5 p.m.) son menos disruptivas, pero deben seguir siendo cortas. Los pacientes con horarios de trabajo fijos pueden necesitar programar las siestas durante las pausas del almuer o inmediatamente después del trabajo, dependiendo de la tolerancia individual y de los patrones de presión del sueño.
+
+El entorno afecta la calidad del descanso nocturno. Una habitación oscura, una temperatura fresca (18-20°C) y la reducción del ruido ayudan incluso en periodos de duración corta.
+
+Seguir los efectos del descanso nocturno. Monitorear si los descansos mejoran o empeoran el sueño nocturno. Si el sueño nocturno empeora después de dormir, intentar descansos de reposo es mejor.
+
+### Entrenamiento del ritmo circadiano
+
+El reloj interno de 24 horas del cuerpo necesita entrenamiento. La luz es la señal más fuerte.
+
+La exposición a la luz matutina dentro de 30 minutos después de despertar ayuda a entrenar el ritmo circadiano y señala "día" al cerebro. Utilizar luz brillante (caja de luz de 10,000 lux o luz natural). Los pacientes con horarios de trabajo temprano pueden necesitar exposición a luz artificial antes del amanecer natural.
+
+La reducción de la luz azul por la tarde comienza unas horas antes de acostarse. Gafas con tono ámbar o filtros para pantallas ayudan. La luz azul suprime la melatonina y retrasa el inicio del sueño. El uso de pantallas por la tarde, necesario para el trabajo, puede limitar la efectividad de la reducción de la luz azul; en estos casos, los filtros para pantallas o gafas ámbar se vuelven más críticos.
+
+Horarios de despertar consistentes fortalecen los ritmos circadianos y mejoran la presión del sueño. Despertarse a la misma hora todos los días, incluso los fines de semana. Los pacientes con horarios de trabajo variables deben mantener consistencia dentro de cada bloque de horario en lugar de intentar adaptarse diariamente.
+
+### Hiperarousal durante el sueño
+
+El sueño alfa-delta se correlaciona con los niveles de ansiedad en EM/SFC, no con la enfermedad en sí, sino con la ansiedad como condición separada [@Buysse2015alphaDeltaCFS]. Factores psicológicos, particularmente el hiperarousal, pueden contribuir a las intrusiones de ondas alfa al mantener la actividad cortical similar al despertar durante el sueño.
+
+El descanso previo al sueño incluye 30-60 minutos de actividades de baja estimulación antes de acostarse. Sin pantallas, sin trabajo, sin contenido emocionalmente envolvente, sin discusiones de resolución de problemas.
+
+La relajación muscular progresiva utiliza tensión y liberación muscular secuenciales (5 segundos de tensión, 10 segundos de relajación) para reducir el hiperarousal somático que puede persistir durante el sueño.
+
+La grabación de pensamientos mantiene un "diario de preocupaciones" fuera de la habitación. Escribir los pensamientos acelerados, las tareas de mañana o las preocupaciones evita la repetición mental durante el inicio del sueño.
+
+### Parámetros del entorno del sueño
+
+Muchos pacientes con EM/SFC tienen una regulación térmica deteriorada. El control de la temperatura es más importante que para las personas sanas.
+
+La temperatura de la habitación debe estar entre 18-20°C. Cojines de colchón refrigerados, ropa de cama transpirable, mantas en capas —cualquier cosa que ayude a ajustar la temperatura—.
+
+Oscuridad total con cortinas oscuras, mascarillas para los ojos y eliminación de todas las fuentes de luz. La luz suprime la melatonina incluso en niveles bajos.
+
+Reducción del ruido mediante máquinas de ruido blanco, tapones para los oídos o aislamiento acústico. La fragmentación del ruido perturba la arquitectura del sueño.
+
+### Evitar la cafeína
+
+Evitar completamente la cafeína requiere compromiso, pero vale la pena. La cafeína bloquea la adenosina, la sustancia química que genera la presión del sueño. Evitar completamente (incluyendo bebidas decaf, que contienen pequeñas cantidades) durante 4-6 semanas puede mejorar el sueño de ondas lentas y reducir las intrusiones alfa.
+
+### Consideraciones sobre el movimiento
+
+El ejercicio aumenta el sueño de ondas lentas en poblaciones sanas [@Kredlow2015exerciseSleep]. Pero los pacientes con EM/SFC tienen malestar post-esfuerzo —el esfuerzo más allá del envelope energético causa exacerbación de síntomas que dura días o semanas.
+
+Si es tolerado, el ejercicio en posición recumbente de baja intensidad (ciclismo en posición recumbente, estiramientos suaves) realizado al menos 4 horas antes de acostarse puede mejorar la arquitectura del sueño sin desencadenar PEM. Los pacientes no deben seguir haciendo ejercicio por los beneficios del sueño si empeora la función basal.
+
+### Consideraciones relacionadas con el trabajo
+
+Los horarios de trabajo a menudo entran en conflicto con las recomendaciones del protocolo de sueño, especialmente para pacientes con EM/SFC que deben equilibrar las necesidades de ingreso con el manejo de síntomas.
+
+El trabajo en turnos y los horarios rotativos perturban los ritmos circadianos de manera más grave que los horarios fijos. Mantener la consistencia dentro de cada bloque de turno en lugar de adaptarse diariamente puede reducir la perturbación. La terapia con luz al inicio del turno y el bloqueo de luz azul 2-3 horas antes del período de sueño previsto, independientemente del tiempo del reloj, pueden ayudar.
+
+El trabajo remoto permite flexibilidad, pero complica la asociación entre sueño y despertar. Trabajar desde la cama difumina la distinción entre descanso y actividad, haciendo más difícil para el cerebro reconocer el dormitorio como espacio para dormir. Separa las áreas de trabajo y sueño cuando sea posible. Un período de transición de 15-30 minutos entre el final del trabajo y la preparación para dormir (caminar afuera, cambiar ropa, actividades sin pantalla) puede ayudar a separar los períodos de trabajo y descanso.
+
+El estrés relacionado con el trabajo y el hiperarousal afectan la preparación para dormir. La transición del modo de trabajo al modo de descanso a menudo falla automáticamente en pacientes con EM/SFC. Rituales de transición explícitos pueden ayudar a señalar al sistema nervioso que el trabajo ha terminado, separado de las demandas laborales.
+
+Las tareas laborales consumen energía que de otro modo estaría disponible para la preparación para dormir. Los pacientes que trabajan pueden alcanzar objetivos de eficiencia del sueño más bajos (75-80% en lugar de 80-85%) y tiempos de adaptación más largos en comparación con los pacientes que no trabajan.
+
+---
+
+## Resultados y límites del protocolo
+
+Esto no cura la EM/SFC, el malestar post-esfuerzo, la disfunción mitocondrial o las anomalías inmunitarias. Lo que hace es abordar la arquitectura del sueño alterada y mejorar el sueño que realmente obtienes.
+
+Una mejor eficiencia del sueño significa menos tiempo acostado despierto y más tiempo en etapas de sueño restaurador. Un aclaramiento glifático mejorado significa menos niebla cerebral por la mañana. Un mayor presión del sueño significa una entrada más fiable en el sueño profundo.
+
+Los cambios en la arquitectura del sueño suelen tardar entre 4 y 6 semanas con una implementación constante. Algunos pacientes notan beneficios más rápido, otros tardan más. Rastrear la eficiencia del sueño ayuda a monitorear el progreso incluso cuando la mejora subjetiva parece lenta.
+
+---
+
+## Calidad del sueño y resultados funcionales
+
+Puedes dormir doce horas y no obtener restauración si hay interferencias de ondas alfa. Este protocolo se centra en la calidad del sueño, específicamente en maximizar las oscilaciones delta y minimizar las interferencias alfa.
+
+Cada pequeño mejoramiento en la calidad del sueño se traduce en una mejor función al día siguiente. Menos niebla cerebral por la mañana significa un mejor ritmo de actividad. Un sueño profundo más confiable significa una mejor función cognitiva. Un aclaramiento glifático mejorado significa menos neuroinflamación.
+
+Estos son mejoramientos, no curas.
+
+La calidad de la arquitectura del sueño no puede restaurarse farmacológicamente sin sacrificios. El gabapentina aumenta la duración del N3, pero puede provocar un sueño profundo fisiológicamente anormal. Las benzodiaptimas aumentan el tiempo total de sueño, pero no abordan las interferencias de ondas alfa. El enfoque conductual descrito aquí es sin riesgos y funciona mediante el fortalecimiento de los mecanismos naturales de presión del sueño.
+
+Las ondas alfa interfieren en las etapas del sueño profundo en EM/SFC. El protocolo se centra en adaptaciones conductuales a la interrupción de la arquitectura del sueño.
+
+---

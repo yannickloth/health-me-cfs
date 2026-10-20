@@ -1,0 +1,100 @@
+---
+title: "El hilo de calcio"
+description: "Existe un único elemento que aparece en al menos tres modos de fallo de EM/SFC separados. No como causa raíz en cada caso, ya que los mecanismos son diferentes. Pero como un característica recurrente: lo que falla, en diferentes tejidos, para diferentes r..."
+author: "Yannick Loth"
+date: "2026-04-08"
+categories: [Pathophysiology, Ion Channels]
+lang: es
+---
+
+Existe un único elemento que aparece en al menos tres modos de fallo de EM/SFC separados. No como causa raíz en cada caso; los mecanismos son diferentes. Pero como un factor recurrente: lo que falla, en diferentes tejidos, por diferentes razones, produciendo síntomas diferentes que todos se remontan al mismo ion.
+
+Calcio.
+
+---
+
+## Modo de fallo 1: el músculo que no puede recuperarse
+
+Después de esfuerzo físico o cognitivo, muchos pacientes con EM/SFC experimentan una crisis tardía — malestar post-esfuerzo — que puede no alcanzar su punto máximo hasta 24 a 48 horas después y puede durar días o semanas. El mecanismo propuesto por Wirth y Scheibenbogen [@WirthScheibenbogen2021muscle] sigue una cadena iónica específica.
+
+Las células musculares necesitan una bomba de sodio-potasio (la enzima Na⁺/K⁺-ATPase) para mantener su química interna. En EM/SFC, esta bomba parece no funcionar bien — posiblemente porque los receptores beta-2 adrenérgicos que la activan son disfuncionales, posiblemente debido a la interferencia de autoanticuerpo. Cuando la bomba falla, el sodio se acumula dentro de la célula.
+
+El sodio elevado dentro de la célula desencadena al intercambiador de sodio-calcio — un transportador que normalmente exporta calcio — para funcionar en sentido contrario. En lugar de mover el calcio hacia afuera, importa calcio.
+
+El resultado es una sobrecarga de calcio dentro de las células musculares. El calcio en altas concentraciones intracelulares es tóxico. Inunda las mitocondria, deteriora la producción de energía, desencadena estrés oxidativo y, en casos graves, causa daños estructurales en las fibras musculares — visible bajo microscopía electrónico en pacientes con EM/SFC. La imagenología de sodio — una técnica de MRI especializada que mide directamente los iones de sodio dentro del tejido muscular — ha confirmado la acumulación predicha: los pacientes con EM/SFC muestran un aumento del 30% en sodio intramuscular después del ejercicio, en comparación con el 17% en los controles.
+
+Este es uno de los mecanismos propuestos principales detrás del malestar post-esfuerzo. Se trata de una cadena iónica específica, medible — no es descondicionamiento ni psicología — que envenena las células musculares cuando se supera un umbral.
+
+---
+
+## Modo de fallo 2: la célula inmunitaria que no puede dispararse
+
+Las células natural killer son las asesinas primarias del sistema inmunitario — las células que identifican y destruyen células infectadas o anormales. Su mecanismo de destrucción depende del calcio. Cuando una célula natural killer reconoce un objetivo, el calcio fluye a través de un canal específico llamado TRPM3, activando la degranulación que transmite la carga destructiva.
+
+En EM/SFC, el TRPM3 está dañado.
+
+El grupo de la Universidad de Griffith (Marshall-Gradisnik et al.) ha documentado esto durante años. La actividad del canal TRPM3 está significativamente reducida en las células natural killer de los pacientes con EM/SFC. El flujo de calcio está afectado. Las células no pueden degranular adecuadamente. Su capacidad de destrucción está claramente reducida. Un estudio a gran escala por el mismo grupo reprodujo este hallazgo [@marshall2025trpm3] — pero esto no es una replicación independiente por un grupo de investigación separado, lo cual sigue siendo necesario.
+
+Cabe destacar que la naltrexona en dosis bajas — un tratamiento del que muchos pacientes con EM/SFC reportan beneficio — parece restaurar parcialmente la función del TRPM3 en estas células. El trabajo relevante son los estudios TRPM3/LDN del grupo de Griffith [@Cabanas2019trpm3ldnFront], que propusieron la restauración del TRPM3 como una explicación mecánica para el beneficio de la naltrexona en dosis bajas — in vitro, y aún no confirmado en pacientes con EM/SFC.
+
+En este caso, el problema de calcio está en la parte superior, no en la inferior. El canal en sí es disfuncional — no debido a una crisis de energía que impulse una cascada, sino como una deficiencia primaria. La célula inmunitaria no puede cargar calcio. No puede dispararse. Los patógenos o virus reactivados que el sistema inmunitario debería eliminar no se eliminan.
+
+---
+
+## Modo de fallo 3: el cerebro que no puede descansar
+
+Durante el sueño profundo de ondas lentas, las neuronas talamocéreas necesitan oscilar a baja frecuencia —alrededor de 1 Hz, el ritmo delta. Este es el estado en el que el sistema de eliminación de residuos del cerebro (el sistema glifático, que depende de estas oscilaciones lentas) puede funcionar. Cuando te despiertas realmente restaurado, es por esta razón.
+
+En algunos pacientes con EM/SFC y en la mayoría de los pacientes con fibromialgia, estas oscilaciones lentas están contaminadas por actividad alfa —la frecuencia de despertar del cerebro (~10 Hz) que interfiere con el sueño profundo. El resultado: un sueño que parece normal en duración pero no logra restaurar.
+
+El mecanismo, caracterizado por Timofeev et al. [@timofeev2015thalamic], se remonta al canal de calcio talamocéreo. Específicamente, una clase de canales de calcio sensibles a la tensión en las neuronas talamocorticales —que se abren y cierran a bajas tensiones, generando ráfagas rítmicas— es responsable de producir la actividad oscilatoria lenta que crea ondas delta. Cuando la excitabilidad talamocérea está anormalmente elevada —cuando el circuito no puede descansar adecuadamente— estos canales producen oscilaciones de mayor frecuencia en su lugar. Alfa interfiere. El sueño profundo se vuelve no restaurador.
+
+El canal de calcio involucrado es diferente al canal TRPM3 en las células inmunitarias y al intercambiador de sodio-calcio en el músculo. El mismo elemento, maquinaria molecular diferente, tejido diferente, consecuencia clínica diferente.
+
+---
+
+## Tres fallas, tres mecanismos — o uno?
+
+En este punto, la imagen se presenta de la siguiente manera:
+
+| Tejido | Problema de calcio | Consecuencia clínica |
+|--------|-------------------|---------------------|
+| Músculo | Reversión del intercambiador de sodio-calcio → sobrecarga de calcio (secundaria a falla de sodio/energía) | Malestar post-esfuerzo, intolerancia al ejercicio |
+| Células inmunitarias | Disfunción del canal TRPM3 (primaria) | Disminución en la eliminación de patógenos, agotamiento inmunitario |
+| Tálamo | Hiperexcitabilidad de los canales de calcio sensibles a la tensión | Sueño no reparador, deterioro cognitivo |
+
+¿Son estos tres problemas independientes que ocurren por casualidad porque EM/SFC es una enfermedad multisistémica? ¿O son expresiones de una única desregulación de calcio subyacente?
+
+La hipótesis del TRPM3 ofrece una posible explicación unificadora. El TRPM3 no solo se expresa en células inmunitarias. Se expresa en todo el sistema nervioso central, incluyendo en las neuronas cerebrales. Desempeña un papel en la liberación espontánea de neurotransmisores, en la homeostasis de calcio neuronal y en la excitabilidad de circuitos sensoriales y cerebrales. Si la disfunción del TRPM3 fuera sistémica y no limitada a células inmunitarias — afectando tanto a neuronas como a células natural killer — alteraría el manejo de calcio en los circuitos del tálamo, potencialmente contribuyendo a las anomalías de oscilación observadas en estudios de sueño.
+
+Esto no está confirmado. La disfunción del TRPM3 en EM/SFC solo ha sido demostrada en células inmunitarias. Si existe el mismo deterioro en neuronas del tálamo, nunca se ha medido. Es una hipótesis, no un hallazgo.
+
+Pero es una hipótesis verificable. Un único experimento — midiendo la función del TRPM3 en modelos de células neuronales, o en tejido cerebral postmortem de pacientes con EM/SFC, o indirectamente a través de la imagenología de la dinámica de calcio en el tálamo — podría responder a esta cuestión.
+
+---
+
+## ¿Qué significa esto para los subtipos
+
+La vía muscular (reversión del intercambiador de sodio-calcio, sobrecarga de sodio, fallo energético que genera toxicidad de calcio) es muy probablemente un mecanismo secundario — desregulación de calcio en la parte inferior de la crisis metabólica. Los pacientes con hipoperfusión grave, afectación cardiovascular significativa o alto esfuerzo físico pueden expresar esta vía de manera más intensa.
+
+La vía TRPM3 podría ser primaria — el canal se daña primero, y el fallo energético, la disfunción inmune y posiblemente la interrupción del sueño son consecuencias posteriores. Esto sería un subtipo distinto: un fenotipo impulsado por una canalopatía donde la lesión raíz está en el nivel del canal, no en el nivel metabólico.
+
+Estos dos subtipos predecirían respuestas terapéuticas diferentes. Tratar la cascada de sodio-calcio (con estimuladores de Na⁺/K⁺-ATPasa, bloqueadores de canales de sodio o soporte mitocondrial) se enfoca en la vía secundaria. Restaurar la función de TRPM3 (LDN es el candidato actual) se enfoca en la primaria. En un paciente donde ambas estén activas, podrían necesitarse ambas.
+
+El mismo medicamento administrado al subtipo incorrecto no produciría respuesta — y esto podría explicar una parte significativa de los fracasos en los ensayos clínicos de EM/SFC que han intrigado a los investigadores durante décadas.
+
+---
+
+## La hilo
+
+Un elemento, tres sistemas, al menos dos mecanismos distintos, posiblemente una causa raíz.
+
+El calcio no es la única historia en EM/SFC. Pero podría ser un hilo que, cuando se tira, conecta más de la enfermedad que cualquier otra molécula individual. La vía muscular y las vías inmunitario/sueño usan maquinaria molecular diferente — la conexión entre ellas podría ser metabólica y no canalopatológica. Pero el problema inmunitario y el problema del sueño podrían compartir una causa común en TRPM3. El paciente que tenga los tres podría no tener tres enfermedades separadas. Podrían tener dos problemas de calcio, no uno — y uno de esos dos podría ser reversible.
+
+Ese experimento — medir la función de TRPM3 en neuronas talámicas en EM/SFC — no ha sido realizado. Cuando se haga, la respuesta será importante.
+
+---
+
+*Parte de una serie en curso sobre la biología de EM/SFC.*
+
+---

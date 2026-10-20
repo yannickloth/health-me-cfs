@@ -1,0 +1,111 @@
+---
+title: "Artículo 1 sobre SFN: Neuropatía de Fibra Pequeña — Cuando la Conexión Nerviosa en EM/SFC es Incorrecta"
+description: "Una guía en lenguaje sencillo sobre la neuropatía de fibra pequeña y cómo se superpone con EM/SFC: por qué los nervios en sí están dañados pero reaccionan en exceso, cómo los mastocitos atacan las terminaciones nerviosas mediante triptasa y PAR2, la diferencia entre viscerales y somáticos, la hipótesis autoinmune DRG y la distinción entre SFN por sí mismo y SFN asociado a EM/SFC."
+author: "Yannick Loth"
+date: "2026-08-06"
+categories: [SFN, ME/CFS, Neuropathy, Pathophysiology]
+lang: es
+---
+
+El dolor no tiene marco. Ardor, punzaduras, demasiado flojo o demasiado apretado, sensación que llega dentro de la piel. Los pisos fríos son eléctricos. el agua caliente duele. Tus pies no pueden distinguir la temperatura del dolor — ambos llegan como el mismo señal. Y los mismos nervios dañados que fallan en la piel también controlan tus glándulas sudoríparas, tu frecuencia cardíaca y tu intestino. La conexión en sí está equivocada.
+
+Ahora añade el resto de la EM/SFC: la fatiga crítica, la niebla cerebral, el sueño insatisfactorio. En algún lugar del daño, una biopsia de piel muestra una reducida densidad de fibras nerviosas — prueba objetiva de que las pequeñas fibras que inervan tu piel, tus vasos sanguíneos y tus órganos realmente se han perdido. Y, sin embargo, estos mismos nervios reaccionan excesivamente a todo. Hiperalgesia paradójica a pesar del daño nervioso.
+
+Este artículo es una visión conceptual. Lo que realmente es la neuropatía de fibras pequeñas, cómo los mastocitos atacan las terminaciones nerviosas mediante triptasa y PAR2, la distinción entre visceral y somático, la hipótesis autoinmune dirigida a los ganglios de la raíz dorsal y la diferencia entre SFN por sí mismo y SFN *sobre* EM/SFC. Los tratamientos — medicamentos para el dolor neuropático, IVIG y estabilizadores de mastocitos — están descritos en el [artículo de tratamiento complementario](../sfn-treatment/index.qmd).
+
+---
+
+## Primero, una advertencia simple
+
+*Esto es una explicación, no consejos para automedicación, y no soy médico. El dolor neuropático requiere un diagnóstico cuidadoso; algunas causas (diabetes, deficiencias de vitaminas, enfermedades autoinmunes de nervios) tienen tratamientos específicos. Los gabapentoides y los SNRIs son medicamentos recetados con perfiles de efectos secundarios que incluyen sedación, mareos y dependencia. Consulte a un neurólogo o especialista en dolor. Si presenta debilidad progresiva rápidamente, pérdida de control de la vejiga o del intestino, o entumecimiento progresivo, acuda a un hospital.*
+
+---
+
+## La versión breve, si solo lees una parte
+
+- **SFN** es un daño a las fibras nerviosas más pequeñas — las fibras A-delta finamente mielinizadas y las fibras C no mielinizadas que transportan dolor, temperatura y señales autónomas. El diagnóstico estándar es una biopsia de piel que mide la densidad de fibras nerviosas intraepidérmicas (IENFD).
+- **SFN es común en EM/SFC.** Se han reportado estimaciones de SFN confirmado mediante biopsia en EM/SFC en un rango amplio (generalmente citado entre el 30 y el 50 %, dependiendo de la cohorte y los criterios; esta cifra es controvertida), y asciende hasta el 80% en cohortes que se superponen con trastornos de mastocitos [@Oaklander2016autoimmuneSFN][@Novak2022]. La prevalencia agrupada en fibromialgia es de aproximadamente el 49% según un meta-análisis [@Grayston2019sfn].
+- **Tres familias de mecanismos convergen:** (1) neurotoxicidad de mastocitos — la triptasa activa PAR2 en células de Schwann y neurones sensoriales, reduciendo los umbrales de dolor; (2) isquemia microvascular — la disfunción endotelial de las vías nerviosas priva a las fibras pequeñas de oxígeno; (3) autoimmunitad mediada por IgG que ataca los ganglios de la raíz dorsal — la transferencia pasiva de IgG del paciente reduce la IENFD en ratones.
+- **SFN suele ser un amplificador secundario en EM/SFC.** Explica el dolor y la disautonomía, y está directamente relacionado con POTS (31% de los pacientes con SFN cumplen los criterios de POTS [@Azcue2023sfn]), MCAS (80% de los pacientes con trastorno de mastocitos tienen SFN [@Novak2022]) y hEDS (24 de 24 pacientes con hEDS en un estudio tenían SFN [@Cazzato2016sfn]).
+- **La hipersensibilidad paradójica a pesar del daño nervioso** — dolor ardiente por un contacto ligero — es un rasgo característico. El SFN elimina la puerta sensorial, y los mediadores de mastocitos sientan aún más las fibras restantes.
+
+---
+
+## ¿Qué es realmente la neuropatía de fibras pequeñas?
+
+Los nervios periféricos tienen diferentes tamaños. Las gruesas fibras A-beta con mielinización intensa transmiten el sentido del tacto, la vibración y la posición — son los que se miden en estudios de conducción nerviosa y están *normales* en el SFN. Las fibras pequeñas — A-delta (con mielinización fina) y C-fibras (no mielinizadas) — transmiten el dolor, la temperatura y los señales autónomas. Son demasiado pequeñas para que los estudios estándar de conducción nerviosa las detecten, por eso el SFN fue invisible para la neurología durante décadas.
+
+La biopsia de piel cambió eso. Una biopsia de punzada de 3 mm en la parte inferior de la pierna, inmunotraída con PGP9.5 (un marcador pan-neuronal), cuenta las fibras nerviosas que cruzan la unión dermoepidermal. El resultado — densidad de fibras nerviosas intraepidermales (IENFD) — se compara con los valores normales para edad y sexo. Valores por debajo del quinto percentil son diagnósticos de SFN [@Oaklander2022SFN].
+
+En una persona sana, las fibras pequeñas informan silenciosamente al cerebro sobre la temperatura, el tacto ligero y el estado interno del cuerpo. En el SFN, las fibras se pierden — y las que quedan son hiperexcitables, activándose espontáneamente y con amplitudes exageradas. El resultado es dolor sin lesión: sensaciones de ardor, chispa y shock eléctrico en reposo, además de allodinia (dolor por estímulos normalmente no dolorosos) y hiperalgesia (dolor exagerado por estímulos ligeramente dolorosos).
+
+---
+
+## Tres familias de mecanismos
+
+### Neurotoxicidad de mastocitos: triptasa → PAR2 → sensibilización nerviosa
+
+Esta es la conexión más directa entre dos condiciones de EM/SFC. Los mastocitos se encuentran junto a pequeñas fibras nerviosas — en la piel, alrededor de los vasos sanguíneos, en la mucosa intestinal y cerca de los ganglios raíces dorsales donde residen los cuerpos celulares de los neurones sensoriales. Cuando los mastocitos se desgranan, liberan triptasa, la cual cliva **protease-activated receptor 2 (PAR2)** en las células de Schwann y en los terminales nerviosas sensoriales [@Novak2022].
+
+La activación de PAR2 tiene dos consecuencias. Primero, sensibiliza la terminal nerviosa, reduciendo su umbral de disparo de modo que estímulos habituales activen señales de dolor. Segundo, desencadena una inflamación neurogénica: la terminal nerviosa libera sustancia P y CGRP, los cuales retroalimentan a los mastocitos y los activan aún más. Esto crea un **círculo self-amplificado**: los mastocitos se activan → triptasa → PAR2 en el nervio → el nervio libera sustancia P → MRGPRX2 en los mastocitos → los mastocitos se activan de nuevo. Este círculo funciona sin ningún desencadenante externo, y explica cómo un paciente con MCAS y SFN puede presentar dolor ardiente que no se correlaciona con ninguna lesión tisular visible.
+
+**CADM1** añade una dimensión física. Esta molécula de adherencia celular une físicamente a los mastocitos a las terminaciones nerviosas sensoriales. En presencia de CADM1, la desgranación de los mastocitos aumenta varias veces en el contacto con el nervio, y la liberación de IL-6 se triplica — la adherencia misma amplifica la señal [@Magadmi2019].
+
+**Prevalencia de la conexión:** aproximadamente el 80% de los pacientes con trastornos de mastocitos tienen SFN en biopsias cutáneas [@Novak2022], y entre los pacientes con POTS que tienen SFN, la gravedad de los síntomas gastrointestinales se correlaciona con la gravedad de la neuropatía [@Ekman2025SFNpots] — lo que sugiere que el mismo daño en las fibras pequeñas explica tanto el dolor cutáneo como la dismotilidad gastrointestinal.
+
+### Isquemia microvascular: el problema de las vasa nervorum
+
+Las pequeñas fibras nerviosas dependen de una densa red de capilares — las vasa nervorum — para el suministro de oxígeno. Estos capilares están inervados por pequeñas fibras autónomas, formando un círculo de retroalimentación que regula el flujo sanguíneo nervioso. En EM/SFC, la disfunción endotelial deteriora la vasodilatación, y la hipoperfusión sistémica reduce el suministro de oxígeno. Las fibras nerviosas, que ya son metabólicamente exigentes (mantener un axón largo con altos requisitos de ATP), se vuelven isquémicas. Las fibras C no mielinizadas, que tienen la mayor relación superficie-volumen y la menor reserva metabólica, son las primeras en fallar [@josephoaklander2021mecfssfn].
+
+El hecho de que la SFN en EM/SFC sea a menudo **no dependiente de la longitud** —afectando igualmente la muslo proximal y el pie, o incluso la cara— apunta hacia un proceso a nivel del ganglio raíz dorsal (DRG), donde se daña el cuerpo celular en lugar del axón distal [@Azcue2023sfn].
+
+### Autoinmunidad mediada por IgG: la hipótesis del DRG
+
+La evidencia más fuerte de un mecanismo autoinmune proviene de experimentos de transferencia pasiva. Cuando se inyecta IgG purificada de pacientes con fibromialgia o Long COVID en ratones, los ratones desarrollan comportamientos dolorosos y acumulación de anticuerpos en el DRG; los anticuerpos humanos por sí solos son suficientes para reproducir un fenotipo de dolor (la reducción de IENFD no se estableció en estos estudios de transferencia pasiva) [@Goebel2021passiveTransferFM][@Mignolet2026passiveTransferLC]. En Long COVID, el IgG que se une al DRG ha sido identificado específicamente, y el IVIG —que diluye los anticuerpos patógenos y proporciona Fc-glicanos inmunomoduladores— ha mostrado un efecto en la SFN autoinmune (incluida la no dependiente de la longitud) [@Liu2020IVIG].
+
+La hipótesis, desarrollada ampliamente en el documento principal, es que el IgG que ataca a antígenos neuronales en el DRG —donde la barrera sangre-neurona está naturalmente perforada y permeable a los anticuerpos circulantes— causa una lesión a nivel del cuerpo celular en los neurones sensoriales. El patrón no dependiente de la longitud se deduce directamente: si el cuerpo celular se daña, todas sus ramas periféricas se afectan simultáneamente, independientemente de la distancia desde el cuerpo celular [@Loth2026website].
+
+**El límite:** no ha sido publicado ningún estudio de transferencia pasiva específico para EM/SFC. Todos los datos existentes provienen de cohortes de fibromialgia y Long COVID. La hipótesis autoinmune del DRG para EM/SFC es mecanísticamente coherente, respaldada por el patrón no dependiente de la longitud y consistente con el efecto del tratamiento del IVIG —pero no ha sido demostrada directamente.
+
+---
+
+## La distinción entre visceral y somático
+
+Uno de los hallazgos recientes más reveladores distingue la afectación de **fibra pequeña visceral** (órganos internos) de la **fibra pequeña somática** (piel). Acanfora et al. (2026) realizaron biopsias de mucosa gástrica en pacientes con Long COVID y encontraron pérdida selectiva de fibras nerviosas cholinérgicas en el estómago — pero **normal** piel IENFD. La denervación autónoma visceral estaba presente sin denervación somática, y se correlacionaba con la variabilidad de la frecuencia cardíaca, NT-proBNP y niveles de D-dimer [@acanfora2026vagaldenervation].
+
+Esto es importante para EM/SFC porque fragmenta la imagen de SFN: un paciente puede tener resultados de biopsia de pierna y piel normales y, sin embargo, tener una denervación autónoma visceral significativa que cause su gastroparesis, intolerancia ortostática y síntomas cardíacos. La biopsia de piel — el estándar de oro — solo muestra fibras pequeñas somáticas. La microscopía confocal corneal (CCM), que imagina las fibras pequeñas en la córnea de forma no invasiva, podría capturar una imagen diferente — posiblemente más sistémica — y los estudios que comparan CCM con biopsias de piel en EM/SFC están en curso [@Azcue2025sfn].
+
+---
+
+## La intersección entre POTS–SFN–MCAS–hEDS
+
+La SFN se encuentra en el cruce de cuatro condiciones Septad:
+
+- **POTS:** El 31% de los pacientes con SFN cumplen con los criterios de POTS; la POTS neuropática — donde la taquicardia está motivada por la denervación simpática en las piernas — es un subtipo distinto que puede responder de manera diferente al tratamiento (midodrina para la vasoconstricción en lugar de beta-bloqueadores para el control de la frecuencia [@Azcue2023sfn]).
+- **MCAS:** El 80% de los pacientes con trastorno de mastocitos tienen SFN; el ciclo tryptasa→PAR2→sensibilización nerviosa es el puente bioquímico entre las dos condiciones [@Novak2022].
+- **hEDS:** En un estudio, todos los 24 pacientes con hEDS tenían una reducida IENFD, y el 95% cumplía con los criterios de dolor neuropático. La SFN podría ser la vía común de salida donde la anomalía del tejido conectivo estructural y la anomalía funcional de EM/SFC convergen — el tejido suelto comprime y estira las fibras pequeñas, y las fibras, ya vulnerables debido al estrés metabólico y inmunitario, no pueden recuperarse [@Cazzato2016sfn].
+- **Fibromialgia:** La prevalencia de la SFN se acumuló en un 49% mediante meta-análisis. La imagen de dolor nociplastico y la imagen de dolor neuropático se superponen tan completamente en la fibromialgia que algunos investigadores sostienen que la distinción es clínica y no biológica — el mismo daño en las fibras pequeñas produce tanto el patrón de dolor generalizado de la fibromialgia como los síntomas autonómicos de POTS, y la etiqueta diagnóstica depende de cuáles síntomas sean más prominentes [@sommer2025fibromyalgiasfn].
+
+---
+
+## SFN por sí mismo vs EM/SFC con SFN
+
+**SFN por sí mismo (sin EM/SFC).** El SFN es la queja predominante. El dolor neuropático, la desregulación térmica, las anomalías de sudoración y los síntomas autonómicos son los aspectos de la enfermedad que se tratan. El diagnóstico se centra en identificar la causa —diabetes, deficiencia de vitaminas, enfermedad autoinmune, patologías genéticas de los canales de fibra pequeña — y el tratamiento apunta a la causa subyacente cuando es posible, o al dolor neuropático cuando no lo es. Gabapentinoides, SNRIs y agentes tópicos son la primera línea de tratamiento.
+
+**EM/SFC con SFN (la situación de esta serie).** Cuando el SFN se combina con EM/SFC, tres cosas son diferentes:
+
+- **El SFN es un amplificador.** El daño nervioso explica el dolor y contribuye a la desregulación autonómica, pero tratar los nervios no soluciona la falla energética ni la desregulación inmune [@Loth2026website].
+- **Los medicamentos para el dolor que funcionan en la neuropatía diabética pueden ser poco tolerados.** Los gabapentinoides y los SNRIs causan sedación, mareos y disminución cognitiva — efectos secundarios que son más costosos en EM/SFC, donde la niebla cerebral y la fatiga ya son las quejas principales. La ventana terapéutica es más estrecha.
+- **Un fracaso en un ensayo sobre el dolor neuropático no indica nada contra el daño de los canales de fibra pequeña subyacente.** Los nervios están objetivamente dañados — lo demuestran la biopsia y el QST. Un medicamento que no controla el dolor es un fracaso de ese medicamento en ese paciente, no evidencia que los nervios estén bien. Distinguir los dos: “el gabapentina no ayudó mi dolor” es una información farmacológica útil. “Mis nervios deben estar normales porque el medicamento no funcionó” es un error de razonamiento.
+
+---
+
+## La conclusión principal
+
+La neuropatía de fibra pequeña es real en EM/SFC — comúnmente reportada entre el 30 y el 50 % confirmada por biopsia, dependiendo de la cohorte y los criterios, y más alta (hasta el 80 %) en cohorte que se superpone a trastornos de mastocitos — y explica el dolor ardiente, la desregulación de la temperatura y parte de la disfunción autónoma que muchos pacientes describen [@Oaklander2016autoimmuneSFN][@Novak2022]. Tres mecanismos convergen: la triptasa de mastocitos → sensibilización nerviosa PAR2, la isquemia microvascular de las vías nerviosas y la autoimmunitad DRG mediada por IgG — y no son mutuamente excluyentes. El mismo paciente puede tener los tres [@Loth2026website].
+
+La SFN suele ser un amplificador downstream, no la causa, y tratar el dolor no soluciona la falla energética. Pero la pérdida objetiva de fibra nerviosa en biopsia es uno de los indicadores más fuertes de que los síntomas son biológicamente reales — y el tratamiento complementario abarca opciones farmacológicas, IVIG y estabilizadores de mastocitos que apuntan a diferentes puntos en la cadena de daño nervioso.
+
+**Próximo en esta mini-serie:** los tratamientos — gabapentinoides, SNRIs, capsaicina tópica y lidocaína, IVIG para SFN autoinmune, ácido alfa-lipoico para apoyo metabólico y los estabilizadores de mastocitos que interrumpen el ciclo triptasa→PAR2 [[ver el artículo complementario]](../sfn-treatment/index.qmd).
+
+Para obtener una imagen completa y totalmente citada de cómo se considera la neuropatía de fibra pequeña entre los muchos mecanismos candidatos en EM/SFC, véase [@Loth2026website].

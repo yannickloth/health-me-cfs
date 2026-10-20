@@ -1,0 +1,105 @@
+---
+title: "Adquirido vs. Desarrollador: Cuándo las características similares al TDAH podrían ser reversibles"
+description: "Algunas características similares al TDAH — falta de atención, impulsividad y dificultades en la toma de decisiones — pueden surgir después del desarrollo en lugar de ser consecuencia de él. Esta sección examina las evidencias de que el TDAH en adultos a menudo no es una continuación directa del TDAH en la infancia, y cómo distinguir las características adquiridas de las predisposiciones del desarrollo."
+author: "Yannick Loth"
+date: "2026-08-28"
+categories: [Neurodivergence, Pathophysiology, Symptoms]
+lang: es
+---
+
+Los apartados 1–3 analizaron los mecanismos que pueden producir características similares al TDAH: un déficit de energía en el prefrontal, una vía neuroinflamatoria inmune, y un eje dopamina-Nrf2-NLRP3. Este último apartado plantea una pregunta diferente y clínicamente relevante:
+
+**Cuando existen características similares al TDAH, ¿son necesariamente presentes desde el desarrollo — o algunas de ellas pueden adquirirse y, por lo tanto, ser reversibles?**
+
+La respuesta es importante porque una característica *adquirida* puede responder al tratamiento de su causa, mientras que una característica *desarrollada* generalmente no lo hará. Confundir ambos produce tanto falsa esperanza como oportunidades perdidas.
+
+La serie distingue **lo que sabemos** de **lo que nuestra investigación añade**. El contexto establecido incluye el hallazgo de que el TDAH en adultos a menudo no es una continuación directa del TDAH en la infancia [@Moffitt2015adhdadult @Sibley2018lateonsetADHD @Asherson2019lateonsetADHD], y — según la literatura de neuroinmunología más amplia de la que nuestro proyecto se basa — que la neuroinflamación y el sueño perturbado pueden degradar la función cognitiva. Lo que nuestra investigación añade es la interpretación específica de que algunas características similares al TDAH son adquiridas y reversibles con el tratamiento de su causa subyacente, en contraste con una conexión desarrollada estable. Esa interpretación es una especulación registrada, no un hallazgo establecido.
+
+---
+
+## El hallazgo clave: el TDAH que aparece en la edad adulta no es simplemente TDAH infantil que persiste
+
+El hallazgo más importante en el campo es que **mucho TDAH en adultos no parece ser una continuación directa del TDAH infantil** — aunque la situación actual es más matizada que lo sugirió el hallazgo pionero original.
+
+Un estudio longitudinal pionero que siguió a una gran cohorte de nacimientos hasta la edad adulta encontró que la mayoría de los adultos que cumplían con los criterios de TDAH en sus veintes **no** habían tenido TDAH en su infancia — y, sorprendentemente, la mayoría de los niños con TDAH **no** continuaron cumpliendo con los criterios completos en la edad adulta [@Moffitt2015adhdadult]. Solo una pequeña parte del TDAH infantil persiste como TDAH en adultos.
+
+Ese hallazgo despertó un debate que desde entonces ha refinado la situación. Un análisis más detallado del mismo fenómeno — incluyendo evaluaciones exhaustivas repetidas de un grupo de comparación de edades 10 a 25 — reveló que **la mayor parte del TDAH que aparece en la edad adulta es de origen adolescente (edades 12–16), no de origen nuevo en la edad adulta**, y que en muchos casos los síntomas reflejan una presentación infantil pasada por alto, un trastorno asociado o los efectos cognitivos del uso de sustancias, en lugar de un síndrome de origen adulto verdaderamente distinto [@Sibley2018lateonsetADHD @Asherson2019lateonsetADHD]. La revisión retroactiva de los síntomas de TDAH infantil es en sí misma poco fiable — la precisión es de solo alrededor del 55% [@Breda2020adhdrecall] — lo que significa que algunos casos de "aparición en la edad adulta" en realidad son casos de aparición infantil olvidada.
+
+Por lo tanto, la conclusión actual, más cuidadosa, es una **mezcla**: alguno del TDAH en adultos es realmente de origen adolescente; alguno refleja síntomas infantiles pasados por alto o mal recordados; alguno se explica por el uso de sustancias u otras comorbilidades. Una interpretación de "síndrome de origen adulto distinto, apareciendo de repente" es ahora la minoría, no el consenso.
+
+Una advertencia: esta conclusión de "mezcla" se basa en una **pequeña cohorte de comparación de EE. UU.** (el grupo de comparación normativa local MTA, n = 239) en lugar de una cohorte de nacimientos a nivel poblacional, y dos de los estudios clave comparten una línea de investigación, por lo que la evidencia es un grupo parcialmente auto-referencial en lugar de replicación independiente. Por lo tanto, la pregunta debe tratarse como abierta, no resuelta — un punto que refleja el matiz en el resto de este artículo.
+
+La implicación clínica sigue siendo directa: **un adulto que desarrolla síntomas similares al TDAH en la edad adulta no necesariamente está reviviendo una condición infantil ininterrumpida.** Puede estar experimentando un proceso **adquirido** o de origen adolescente — uno que merece investigar su causa, no una excusa hacia "conexión vital." Pero el grado en el que ese proceso es realmente independiente del riesgo neurodesarrollador infantil, en lugar de una presentación infantil pasada por alto, sigue sin resolverse.
+
+---
+
+## Tres arquitecturas de superposición
+
+Nuestro estudio analiza la relación entre TDAH y fatiga crónica a través de tres arquitecturas posibles:
+
+**Arquitectura A — vulnerabilidad compartida.** Un factor común en la parte superior — genético, inmune o de desarrollo — predispone a una persona a tanto TDAH como fatiga crónica de forma independiente. La co-ocurrencia es un artefacto de selección: la misma vulnerabilidad produce ambos. La arquitectura genética de las condiciones neurodesarrolladoras lo respalda: TDAH y autismo comparten una gran parte de sus influencias genéticas [@Demontis2023GWASadhd @Grove2019GWASasd @CrossDisorderPGC2013].
+
+**Arquitectura B — cascada secundaria.** El proceso de enfermedad — neuroinflamación, depleción dopaminérgica, disfunción autónoma — produce fenotipos neuropsiquiátricos similares al TDAH en personas que de otra manera no los habría desarrollado. El TDAH surge *debido a* la enfermedad, no junto a ella.
+
+**Arquitectura C — amplificación bidireccional.** TDAH y la enfermedad empeoran mutuamente: la interrupción del sueño, la depleción de energía y el estrés se combinan en un ciclo.
+
+Las arquitecturas no son mutuamente excluyentes, y los datos temporales son importantes: cuando el TDAH se documenta *antes* de la aparición de la fatiga — como en los estudios en los que el TDAH infantil predice la fatiga crónica posterior [@SaezFrancas2012adhdcfs @Quadt2024neurodivergentfatigue] — se apoya la Arquitectura A o C. La Arquitectura B (TDAH adquirido *de* la enfermedad) se aplica a un subgrupo de pacientes que desarrollan desatención de inicio nuevo después de que la enfermedad comienza — aunque la evidencia a nivel poblacional advierte que muchos "nuevos inicios" aparentes podrían ser **revelación** de subclínica neurodivergencia preexistente y no una verdadera adquisición (ver límites a continuación).
+
+---
+
+## El mecanismo: intercepción interoceptiva perturbada y neuroinflamación
+
+Dos vías propuestas para las características de TDAH adquiridas:
+
+**Perturbación de la intercepción interoceptiva.** El cerebro mantiene un equilibrio entre sus *predicciones* sobre el cuerpo y las *evidencias sensoriales* que el cuerpo envía de vuelta. Se cree que las características adquiridas involucran *señales de nivel inferior corruptas* — las vías del tronco encefálico y el talamocortical fallan en transmitir información precisa sobre el cuerpo. El cerebro compensa ajustando sus previsiones, lo que produce una imagen externa de falta de atención y dificultad para regular la excitación. El lugar de actuación computacional difiere del TDAH de desarrollo, y por lo tanto la respuesta al tratamiento debería ser también diferente.
+
+**Neuroinflamación y activación de microglía.** La neuroinflamación sostenida que degrada los circuitos prefrontal, mesolimbico y talamocortical puede ser *suficiente* para producir características de TDAH en personas cuyo desarrollo neurocognitivo previo a la enfermedad fue intacto — la especulación registrada examinada en la Parte 2. Si esta cascada es la causa directa, entonces las intervenciones dirigidas a la neuroinflamación deberían revertir parcialmente estas características secundarias — una predicción verificable pero aún no probada.
+
+---
+
+## El test: dependencia del contexto
+
+Dado que los dos caminos difieren en *estabilidad*, pueden distinguirse empíricamente:
+
+> Si la inatención similar al TDAH adquirido presenta la **misma estabilidad de rasgos y independencia del contexto** que la inatención del TDAH desarrollado —persistiendo sin cambios y no correlacionando con marcadores de neuroinflamación—, el modelo adquirido no se sustenta.
+
+En otras palabras: la inatención desarrollada siempre está presente. La inatención adquirida debería variar según el proceso subyacente (inflamación, estado metabólico) y debería mejorar cuando ese proceso se trata.
+
+---
+
+## Límites
+
+- El modelo adquirido es **explicitamente especulativo** — una hipótesis registrada con baja confianza — y una explicación más simple (la inflamación causando directamente tanto los síntomas como el proceso subyacente) podría explicar los hallazgos sin ningún marco interoceptivo.
+- Ninguno de los componentes teóricos ha sido validado directamente en este contexto.
+- La distinción entre adquirido y desarrollado aún no es útil en el consultorio: actualmente no existe ningún test que distinga a los dos en un paciente individual.
+- Incluso si algunas características son adquiridas y reversibles, eso no significa que "el TDAH pueda curarse". Significa que un *subconjunto de la carga de síntomas* en algunas personas puede responder al tratamiento de su causa.
+- El hallazgo de que el TDAH en adultos a menudo comienza en la adolescencia o refleja síntomas infantiles pasados por alto, en lugar de una síndrome de inicio adulto claramente distinta [@Moffitt2015adhdadult @Sibley2018lateonsetADHD @Asherson2019lateonsetADHD], establece una diferencia entre los grupos de inicio, pero no demuestra por sí solo que ese grupo sea *reversible* — solo que no comenzó en la infancia.
+- **El mayor test a nivel poblacional no encontró efecto impulsado por infección.** Una cohorte nacional de 20 años no encontró efecto independiente del COVID-19 en el diagnóstico o tasas de tratamiento del TDAH [@Zemer2024COVIDADHD20Year], y el aumento del uso de medicamentos para el TDAH después del COVID es consistente con un diagnóstico de recuperación más que con un inicio nuevo [@Gimbach2024ADHDMedicationEurope]. Este es el contraargumento más fuerte contra la arquitectura "adquirido por la enfermedad" (Arquitectura B): a nivel poblacional, la infección no parece crear nuevo TDAH. la mayoría de las dificultades de atención postinfecos reflejan el **desenmascaramiento** de neurodivergencia o superposición de síntomas preexistentes (a menudo subclínicos), más que una adquisición *de novo* — aunque un subconjunto limitado de adquisición no puede excluirse por los datos poblacionales.
+
+---
+
+## La consecuencia clínica — y el daño de equivocarse
+
+La razón por la cual esta distinción es importante desde el punto de vista clínico:
+
+- **Si las características adquiridas se consideran "solo TDAH"**, un proceso subyacente tratable (inflamación, déficit metabólico, sueño perturbado) no se aborda.
+- **Si las características de desarrollo se tratan como adquiridas y reversibles**, a los pacientes se les ofrecen tratamientos que no funcionarán, y pueden culparse a sí mismos cuando no funcionan.
+- **También ocurre el error inverso**. Un patrón de "fader tardío" — niebla cognitiva post-exercicio que imita el tipo de TDAH de falta de atención — puede ser malinterpretado como TDAH y provocar una evaluación por trastorno de atención, cuando el problema subyacente es energético (limitado en ATP) y no motivacional, y empeora con el esfuerzo en lugar de persistir constantemente. Ambas direcciones del error llevan al paciente por el camino equivocado de tratamiento.
+
+las características adquiridas similares al TDAH deben ser **sostenidas, no patologizadas** — y los factores modificables subyacentes (sueño, inflamación, hierro, energía) deben abordarse independientemente del etiquetado, porque afectan el bienestar general incluso cuando la conexión de desarrollo central no ha cambiado.
+
+---
+
+## Qué llevarse a casa
+
+Algunas características similares al TDAH — falta de atención, impulsividad y dificultades en la toma de decisiones — pueden ser **adquiridas** después del desarrollo en lugar de estar incorporadas desde el principio. El hallazgo de que el TDAH en adultos a menudo no es una continuación directa del TDAH infantil [@Moffitt2015adhdadult @Sibley2018lateonsetADHD @Asherson2019lateonsetADHD] respalda esta posibilidad. Si tales características son adquiridas, deben ser **dependientes del contexto y potencialmente reversibles** con el tratamiento de la causa subyacente: neuroinflamación, perturbaciones metabólicas o interrupciones del sueño.
+
+La parte alentadora es: esto significa que una parte significativa de la carga sintomática diaria en algunas personas puede ser abordada sin pretender "corregir" el TDAH en sí.
+
+esta es una hipótesis de baja confianza, y la prueba decisiva — que demuestre que la falta de atención adquirida varía según la inflamación subyacente, mientras que la falta de atención durante el desarrollo no lo hace — aún no se ha realizado.
+
+---
+
+*Esto concluye la serie de cuatro partes sobre la biología del TDAH. La Parte 1 analizó el modelo de energía prefrontal y la hipótesis de tratamiento multivía, la Parte 2 el aspecto inmune y neuroinflamatorio, la Parte 3 el eje dopamina-Nrf2-NLRP3, y la Parte 4 la diferencia entre características adquiridas y desarrolladas. Consulta la [página de aterrizaje de la serie](../adhd-series-landing/index.qmd).*
+
+*Este artículo refleja hipótesis de investigación con baja confianza explícita — no es un hecho clínico establecido. Discuta cualquier decisión médica con un médico calificado.*

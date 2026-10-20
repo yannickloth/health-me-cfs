@@ -1,0 +1,121 @@
+---
+title: "Inflamación cerebral crónica en EM/SFC: Lo que tres estudios de PET realmente muestran"
+description: "Tres estudios de TSPO-PET no están de acuerdo respecto a la inflamación cerebral en EM/SFC. Este artículo explica qué mide el marcador, por qué un pequeño valor positivo y un pequeño valor nulo pueden coexistir, y por qué la señal más grande no resistió la corrección estadística."
+author: "Yannick Loth"
+date: "2026-10-20"
+categories: [Neurology, Neuroinflammation, Biomarkers, Research Methods]
+lang: es
+---
+
+"Inflamación cerebral" es una de las frases más repetidas en EM/SFC. También es una de las menos definidas. Tres estudios de PET en humanos dominan la situación, y no están de acuerdo. Dos son pequeños. Uno no es en absoluto una cohorte de EM/SFC. El mayor signo positivo se debilita cuando se leen detenidamente sus estadísticas.
+
+Esto no hace que la idea sea inútil. Hace que la afirmación sea más específica que el marketing alrededor de ella. Este artículo separa lo que mide el marcador, lo que encontraron los tres estudios, por qué no están de acuerdo y qué medida realmente resolvería la cuestión.
+
+::: {.callout-warning}
+
+Esta es una explicación de investigación, no consejo médico. TSPO-PET es una herramienta de investigación. No está validada para diagnosticar EM/SFC ni para elegir un tratamiento. No use este artículo para iniciar, detener o cambiar ninguna medicación o suplemento.
+
+:::
+
+## La versión resumida
+
+- **TSPO-PET no mide la inflamación.** Mide la unión a una proteína mitocondrial que está presente en microglía, astrocitos, células de vasos sanguíneos y músculo liso. El señal es no específico de célula [@Nutma2023TSPO].
+- **Las dos estudias sobre EM/SFC discrepan.** Nakatomi et al. (2014) encontraron una mayor unión en nueve pacientes que en diez controles [@Nakatomi2014neuroinflammation]. Raijmakers et al. (2022) no encontraron diferencia entre nueve pacientes y nueve controles, y una correlación en la dirección opuesta [@Raijmakers2021neuroinflammation].
+- **El estudio más grande es post-COVID, no sobre EM/SFC.** Visser et al. (2025) escanearon a 47 personas con fatiga persistente después de la COVID-19. Algunas personas tenían alta unión cerebral, pero la diferencia entre grupos no sobrevivió a la corrección de múltiples comparaciones [@Visser2025TSPOfatigue].
+- **Un escaneo nulo en reposo no excluye un estado estimulado.** Un marco basal normal puede producir una respuesta exagerada a un estímulo posterior.
+- **TSPO-PET no es un test clínico.** No puede decirte si tienes inflamación cerebral, ni qué tratamiento tomar.
+
+## Lo que el trazador realmente mide
+
+TSPO es una proteína en la membrana externa mitocondrial. Es abundante en microglía activada, por lo que se convirtió en el objetivo estándar para la imagenología de "neuroinflamación". Pero también está expresada por astrocitos, células endoteliales y músculo liso vascular. En lesiones de esclerosis múltiple humana, solo alrededor del 40% del señal de TSPO proviene de microglía y macrófagos; el resto proviene de otros tipos de células [@Nutma2023TSPO].
+
+Un segundo problema es vascular. En una cohorte con secuelas postagudas de COVID-19, la unión de TSPO se correlacionó con medidas de enfermedad vascular en lugar de con una señal inflamatoria limpia [@VanElzakker2024PASCneuro]. Un tercer problema es genético. Un polimorfismo común, rs6971, produce uniones de alta, mixta y baja afinidad. Los trazadores de segunda generación como DPA-714 son sensibles a este polimorfismo, por lo que una cohorte no estratificada puede crear una diferencia de grupo o ocultar una diferencia real [@Visser2025TSPOfatigue]. El estudio de Visser genotipizó a todos los participantes y limitó su análisis principal a uniones de alta afinidad [@Visser2025TSPOfatigue]. Eso protege el hallazgo, pero también lo restringe: el resultado se aplica a uniones de alta afinidad y no puede extenderse a otros genotipos sin evidencia.
+
+El trazador de primera generación utilizado en ambas estudias sobre EM/SFC, PK11195, no es sensible al genotipo. Por lo tanto, el genotipo no puede explicar la discrepancia entre Nakatomi y Raijmakers [@Nakatomi2014neuroinflammation; @Raijmakers2021neuroinflammation]. Puede explicar la discrepancia entre estudios de segunda generación, incluida cualquier replicación futura de Visser.
+
+## Las tres estudias, una al lado de la otra
+
+| Estudio | Cohorte | Trazador (generación) | Genotipo | n | Resultado principal |
+|---|---|---|---|---|---|
+| Nakatomi 2014 | EM/SFC | [11C]PK11195 (primera) | No sensible | 9 vs 10 | Mayor unión en seis regiones; correlación positiva de gravedad |
+| Raijmakers 2022 | EM/SFC | [11C]PK11195 (primera) | No sensible | 9 vs 9 | No hay diferencia; correlación negativa de gravedad |
+| Visser 2025 | Fatiga post-COVID | [18F]DPA-714 (segunda) | Uniones de alta afinidad solo | 47 (33 con quejas persistentes) | Alta unión en algunas personas; diferencia de grupo nula después de corrección |
+
+**Nakatomi et al. (2014)** informaron una ligadura del 45–199% en la unión TSPO en el cortexe cingulado, hipocampo, amígdalas, tálamo, mesencéfalo y pons en nueve pacientes en comparación con diez controles, con una correlación positiva entre la unión y la gravedad de los síntomas [@Nakatomi2014neuroinflammation]. Este es el estudio que inició la historia de la “inflamación cerebral”. También es un estudio con nueve pacientes que utiliza un marcador de primera generación conocido por su bajo ratio señal-ruido.
+
+**Raijmakers et al. (2022)** utilizaron el mismo marcador en nueve pacientes y nueve controles y no encontraron diferencia significativa. La correlación con la gravedad fue en dirección opuesta: una unión más alta se asoció con una gravedad menor [@Raijmakers2021neuroinflammation]. Un resultado nulo en nueve pacientes no es una refutación, pero tampoco es una replicación. Dos estudios pequeños que apuntan en direcciones opuestas indican que la medición es inestable.
+
+**Visser et al. (2025)** es el estudio más grande y técnica más avanzado. Cuarenta y siete personas con fatiga persistente y dificultad para concentrarse después de la COVID-19 fueron escaneadas con [18F]DPA-714 aproximadamente 27 meses después de la infección; 33 tenían quejas persistentes y 14 no [@Visser2025TSPOfatigue]. Los autores encontraron una unión cerebral más alta en algunos individuos con quejas persistentes y no hubo diferencia a nivel de grupo en la unión extracerebral. También no encontraron correlación entre la unión cerebral y la unión extracerebral, ni entre ninguna de ellas y la gravedad de los síntomas.
+
+Las estadísticas deben expresarse con precisión, porque el resumen no las incluye. La diferencia paramétrica en la materia gris global fue P = 0.036 antes de la corrección. Después de la corrección de Benjamini–Hochberg fue P = 0.144, y en un test no paramétrico no ajustado fue P = 0.216. Ninguna región cerebral sobrevivió a la corrección. Los autores describen un “subtipo” porque un subgrupo de individuos tuvo una unión alta, no porque la comparación de grupos fuera estadísticamente robusta [@Visser2025TSPOfatigue].
+
+Dos detalles del diseño son importantes para la interpretación. Primero, el tipo de escáner se correlacionó con la unión con rho = 0.61, y el índice de masa corporal difería entre grupos (29 ± 6 frente a 25 ± 3). Ambos se incluyeron como covariables molestas, pero un efecto de escáner de esa magnitud es una advertencia. Segundo, los análisis extracerebrales incluyeron solo a los 25 participantes con y 11 sin quejas que fueron escaneados con el escáner de campo axial largo. El subgrupo con alta unión cerebral no tiene tamaño especificado en el artículo. “Algunos individuos” es, por lo tanto, una cola no cuantificada, no un subtipo definido.
+
+## ¿Por qué los estudios discrepan
+
+Existen al menos seis razones, y no son mutuamente excluyentes.
+
+**Tamaño de la muestra.** Nueve pacientes frente a nueve controles da intervalos de confianza amplios. Un efecto verdaderamente pequeño puede producir un resultado positivo en un grupo y un resultado nulo en otro. El estudio más grande tiene 47 participantes, pero solo 33 con quejas persistentes, y el subgrupo de individuos con alta unión es aún más pequeño.
+
+**Generación de trazadores.** La primera generación PK11195 presenta un mala relación señal-ruido y una alta unión no específica. La segunda generación DPA-714 tiene una mejor señal, pero es sensible al genotipo. Las dos generaciones no son intercambiables.
+
+**Definición de cohorte.** Nakatomi y Raijmakers utilizaron criterios de EM/SFC. Visser empleó fatiga post-COVID con criterios personalizados, no una definición de caso de EM/SFC. Una cohorte de fatiga post-COVID es relevante, pero no es la misma población.
+
+**Opciones de análisis.** Una comparación global de materia gris, una comparación regional y una comparación voxel-by-voxel plantean preguntas diferentes. La corrección de múltiples comparaciones cambia la respuesta. La diferencia en el grupo de Visser estaba presente antes de la corrección y desapareció después. Esto no es un error de procedimiento; es una fragilidad.
+
+**Ajuste de actividad.** Ninguno de los tres estudios informa controles ajustados a la actividad. Una actividad reducida, que es en sí misma una consecuencia de la fatiga, altera la regulación inmunitaria, la adiposidad, el sueño y la función vascular. La señalización de leptina a microglía reactiva es una vía concreta por la cual un estado periférico relacionado con la actividad podría producir una señal central [@Abdelrheem2026leptinfm]. La objeción también se aplica a los estudios nulos: un grupo de control sedentario sería el comparador correcto, y ninguno de los estudios citados utilizó uno [@Nakatomi2014neuroinflammation; @Raijmakers2021neuroinflammation; @Visser2025TSPOfatigue].
+
+**Correlación de gravedad.** Nakatomi reportó una correlación positiva, Raijmakers una negativa, y Visser ninguna. Tres direcciones de efecto en tres estudios no constituyen una relación dosis-respuesta. Es un aviso sobre la medición.
+
+## Lo que aportan los datos animales y lo que no
+
+La evidencia más fuerte de cronificación no es humana. En un modelo de ratón con colitis repetida, la microglía cortical mantuvo un estado de activación rica en iNOS durante la remisión, después de que la inflamación periférica se hubiera resuelto, con marcadores sinápticos de glutamatergias elevados y GABAergias reducidos [@Morton2026persistentmicroglia]. El mismo estudio encontró el patrón opuesto en el hipocampo: un programa rico en ARG1/TREM2/P2Y12R que los autores describen como que preserva la integridad del circuito. Un cerebro contenía dos estados diferentes de microglía al mismo tiempo. Esto es un aviso contra tratar la “activación de microglía” como una cantidad de cerebro completo.
+
+En ratones infectados con prion, eliminar TREM2 empeoró la neuropatología sin cambiar la deposición de proteínas malencluradas [@Carpanini2025trem2prion]. Por lo tanto, TREM2 regula la reactividad de la microglía activada de forma crónica, no la eliminación del desencadenante. Esta distinción es importante para la terapia: una droga que cambia la reactividad no es la misma que una droga que elimina la causa.
+
+La brecha de traducción es grande. Estos son estudios en roedores. Dos son modelos de enfermedad inflamatoria periférica y no de fatiga post-infecciosa. Solo el modelo de remisión de colitis elimina el desencadenante. Ningún estudio humano de EM/SFC ha medido si la activación de microglía persiste después de que el desencadenante se resuelve [@Loth2026website].
+
+## sTREM2: un ancla de medición, no un biomarcador de EM/SFC
+
+Una lectura fluida haría que la pregunta sea testable a un costo razonable. En 46 pacientes con encefalitis anti-LGI1, la TREM2 soluble en líquido cefalorraquídeo se correló con la unión TSPO en el hipocampo con R² = 0.18 (P = 0.04), y la absorción en el hipocampo predijo el pronóstico [@Wang2025dpa714strem2]. Esta es una validación humana de múltiples modalidades: muestra que un marcador en líquido cefalorraquídeo puede rastrear una señal PET en los mismos pacientes.
+
+No es un hallazgo relacionado con EM/SFC. La enfermedad es diferente, la inflamación es aguda y de alta intensidad, la correlación es modesta y el grupo es un grupo de descubrimiento de un único sitio sin replicación externa. sTREM2 es una herramienta de medición prometedora para un estudio futuro, pero no es un test que un paciente pueda solicitar.
+
+## Cuatro lecturas siguen activas
+
+El patrón de una pequeña señal positiva, una pequeña señal nula y una subgrupo sin corregir es compatible con al menos cuatro interpretaciones. La evidencia no elige entre ellas.
+
+1. **El modelo del subtipo es correcto.** Una minoría de pacientes tiene un estado inflamatorio central real, y los grupos nula están dominados por pacientes que no lo tienen.
+2. **El marcador es incorrecto.** La señal TSPO refleja procesos vasculares, astrocíticos o metabólicos en lugar de la activación de microglía. La correlación vascular en PASC respalda esta lectura [@VanElzakker2024PASCneuro].
+3. **Los compartimentos no coinciden.** Los marcadores sanguíneos y la medición PET miden compartimentos diferentes, por lo que una señal nula periférica y una señal central no son contradictorias.
+4. **La señal es la parte superior de la variabilidad normal.** Un único escaneo de 33 pacientes no puede separar un verdadero subgrupo del extremo superior de la variabilidad entre sujetos, especialmente cuando el subgrupo no es grande y la diferencia entre el grupo no sobrevive a la corrección.
+
+La lectura 4 es la más barata para probar y la más dañina si es verdadera, porque elimina la necesidad de cualquier explicación biológica. Las estadísticas corregidas la hacen más plausible, no menos.
+
+## Dos ejes sin estudios sobre EM/SFC
+
+Dos mediciones económicas no tienen ninguna literatura sobre EM/SFC. La proteína tipo chitinasa-3-like 1 (CHI3L1, también llamada YKL-40) es un marcador de activación astroglial y microglial. El trans-síntesis de interleucina-6, a través del receptor soluble de IL-6 y gp130, es la vía por la cual la IL-6 produce efectos inflamatorios crónicos en lugar de agudos. Una búsqueda bibliográfica de la obra subyacente no encontró ningún estudio sobre EM/SFC de ninguno de los ejes [@Loth2026website]. Es un vacío en la literatura, no evidencia de ausencia. Ambos son más económicos que la PET y avanzarían significativamente la cuestión.
+
+## La medición que resolvería la cuestión
+
+El diseño discriminador es longitudinal y compartimental. Muestre los marcadores periféricos y centrales de los mismos pacientes, al mismo tiempo, y pregúntese si los marcadores centrales permanecen elevados después de que los marcadores periféricos se normalicen.
+
+- Si el estado central **se mantiene**, el CRP y la IL-6 deberían disminuir mientras la unión de sTREM2 o TSPO en la LCR permanece alta.
+- Si el estado **se mantiene continuamente**, los marcadores periféricos y centrales deberían subir y bajar juntos.
+- Si la señal es la **parte superior de la variabilidad**, un nuevo escaneo de las mismas personas debería regresar al rango de control mientras los síntomas persistan.
+
+Un primer paso factible es una muestra emparejada durante una punción lumbar clínicamente indicada, con una muestra de plasma extraída en el mismo día. Un estudio completo añadiría un escaneo serial de TSPO-PET, acelerometría objetiva y un análisis de lectura central específico para tipo de célula. El estudio de imagen longitudinal propuesto en el libro adopta estas restricciones: análisis primario restringido por genotipo, comparadores ajustados a la actividad, una región primaria predefinida y un análisis de persistencia en participantes cuyos marcadores periféricos se normalicen [@Loth2026website].
+
+## ¿Qué significa esto desde el punto de vista clínico
+
+El TSPO-PET no es un test de selección de tratamientos. Un escaneo positivo no demuestra la activación de microglía, ya que el marcador no es específico para células. Un escaneo negativo no indica ausencia, porque un escaneo en reposo no puede detectar un estado estimulado. Ninguno de los resultados indica al paciente si debe tomar naltrexona en dosis bajas, minocicina u otro inmunomodulador.
+
+La afirmación clínica defensible es más limitada: "inflamación cerebral" es una posible categorización para la investigación, pero no una causa demostrada de EM/SFC. Si alguna prueba muestra que un tratamiento funciona en un subgrupo de alta TSPO y no en uno de baja TSPO, el escaneo se volvería útil. Pero esa prueba no ha sido realizada.
+
+## Limitaciones de este artículo
+
+Esto no es una revisión sistemática. Se basa en tres estudios humanos, dos modelos animales y una validación transversal entre enfermedades. El estudio humano más grande es una cohorte post-COVID, no una cohorte de EM/SFC. El subgrupo de alta unión no tiene tamaño definido. Ninguno de los estudios reporta controles correspondientes a actividad. La especificidad del TSPO sigue sin resolver. Los datos de cronificación en animales son exclusivamente de roedores, y solo un modelo elimina el desencadenante. El análisis completo del libro, incluyendo las hipótesis competidoras y sus condiciones de falsificación, se cita en todo [@Loth2026website].
+
+## La conclusión
+
+Tres estudios no establecen inflamación cerebral crónica en EM/SFC. Un estudio pequeño encontró un signo, otro no, y el estudio más grande encontró alta unión en algunos individuos sin diferencia de grupo corregida. La evidencia apoya un posible subtipo, pero no una causa universal. El siguiente paso es una medición mejorada: muestreo paralelo central y periférico, diseños restringidos por genotipo, controles correspondientes a actividad y un escaneo longitudinal de las mismas personas. Hasta entonces, "inflamación cerebral" es una hipótesis valiosa para probar, pero no un resultado listo para la clínica.

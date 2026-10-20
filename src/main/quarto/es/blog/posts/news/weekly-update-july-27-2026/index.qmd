@@ -1,0 +1,137 @@
+---
+title: "Actualización semanal — 21–27 de julio de 2026: Un Compás de Diagnóstico Farmacológico, seis nuevos capítulos, artículos complementarios y la dosis que es un diagnóstico"
+description: "El artículo incluyó 102 medicamentos, un marco de hormesis de dosis de 17, 4 nuevos capítulos, 924 entradas en el glosario, una descomposición de U invertida de 4 categorías y la primera matriz farmacodiagnóstica que relaciona la respuesta de cada medicamento con el mecanismo subyacente — todo en una semana."
+author: "Yannick Loth"
+date: "2026-07-13"
+categories: [Research, ME/CFS, Update]
+lang: es
+---
+
+La actualización de la semana pasada abordó genética, enriquecimiento de tipos celulares y asimetría esquelética. Es difícil explicar el alcance de lo que ha ocurrido desde entonces, por lo que organizaré esto por temas en lugar de por cronología. La versión resumida: el artículo ahora contiene un marco farmacodiagnóstico integral que abarca 102 medicamentos, un modelo de hormesis de 17 medicamentos descompuesto en cuatro categorías mecanísticamente distintas, seis nuevos capítulos ([Nosología comparativa](../../../../../part2-pathophysiology/ch16-comparative-nosology/01-comparative-nosology-me-cfs-among-contested-diagnoses.qmd), [Métodos de investigación](../../../../../part4-research/ch35-research-methods/01-me-cfs-specific-research-methods.qmd), [Perspectivas globales](../../../../../part4-research/ch44-global-perspectives/01-global-and-low-resource-perspectives-on-me-cfs.qmd), [Impacto económico](../../../../../part4-research/ch41-economic-impact/01-economic-impact-of-me-cfs.qmd)), 924 entradas de [glosario](../../../../../z-appendices/appendix-a-terminology/01-glossary-of-medical-and-scientific-terms.qmd) con información interactiva en la versión web, y la primera [matriz farmacodiagnóstica formal](../../../../../part3-treatment/ch24-medication-response-reference/08-pharmacodiagnostic-matrix-constraint-satisfaction-inference.qmd) que relaciona patrones de respuesta a los mecanismos subyacentes probables. El repositorio registró aproximadamente 213 commits en siete días.
+
+---
+
+## El compás farmacodiagnostico
+
+El mayor trabajo individual fue una infraestructura farmacodiagnostico que no existía en ninguna forma el lunes pasado.
+
+**[Capítulo 33: Rastreo de la cadena mecánica](../../../../../part3-treatment/ch25-mechanistic-cascade-tracing/01-mechanistic-cascade-tracing-from-hypothesis-to-clinical-probe.qmd)** ahora contiene [102 entradas sobre medicamentos, suplementos y tratamientos](../../../../../part3-treatment/ch24-medication-response-reference/08-pharmacodiagnostic-matrix-constraint-satisfaction-inference.qmd) — cada una con un rastro paso a paso de la cadena mecánica mediante la cual actúa un medicamento, los patrones de respuesta que revelan los efectos del medicamento y los [efectos secundarios](../../../../../part3-treatment/ch25-mechanistic-cascade-tracing/10-side-effects-as-diagnostic-probes.qmd), y lo que la ausencia de respuesta o el empeoramiento paradójico implica sobre qué vías no son el cuello de botella. El capítulo incluye una taxonomía de 11 mecanismos para el empeoramiento de medicamentos que pueden provocar PEM o un deterioro prolongado, una [Matriz Farmacodiagnostico formal](../../../../../part3-treatment/ch24-medication-response-reference/08-pharmacodiagnostic-matrix-constraint-satisfaction-inference.qmd) que cruza índices de todos los 102 medicamentos contra 28 dominios de hipótesis, y patrones de disociación — pares de medicamentos que comparten un objetivo pero difieren en otro, de modo que la respuesta diferencial localiza la lesión.
+
+Una nueva sección sobre **[medicamentos de clase control negativo](../../../../../part3-treatment/ch25-mechanistic-cascade-tracing/10-side-effects-as-diagnostic-probes.qmd)** define una taxonomía formal: rituximab como control negativo canónico, adsorción de inmunoglobulinas como caso límite, y la distinción entre la "escalera nula" y la "escalera de control negativo" que evita pasar de "resultado nulo" a "afirmación nula". Esto es tanto una medida metodológica de protección — cada hipótesis en el artículo debe especificar qué resultado de qué clase de control negativo lo falsificaría — como un instrumento de diagnóstico: el medicamento que *no* funciona es información sobre el mecanismo que no está presente.
+
+**Terapia pulsada** y **hormesis dependiente del tiempo** ahora se integran como un marco de tratamiento general. Algunos medicamentos tienen un rango terapéutico que depende del tiempo, no solo de la dosis — la administración intermitente preserva la selectividad entre objetivos con diferentes tasas de desactivación (rapamicina, mTORC1 frente a mTORC2), evita la desensibilización de los receptores que extingue la compensación hormética, y aprovecha la fase de recuperación durante la cual la respuesta adaptativa es mayor que el valor basal. Una especulación complementaria — **[encontrar dosis interoceptiva](../../../../../part3-treatment/ch25-mechanistic-cascade-tracing/08-integrative-models.qmd)** — reestructura la administración intermitente deliberada como experimentación racional N-de-1: el paciente ajusta hacia la dosis que produce una señal interna de beneficio, y el patrón de ajuste en sí se convierte en un instrumento de diagnóstico.
+
+**El eje TRPV1-temperatura** ahora se integra como un test de estrés autónomo en la sección de [especulaciones integradoras](../../../../../part2-pathophysiology/ch18-symptom-producing-mechanisms/02-sickness-behavior-as-overarching-integrative-framework.qmd) del Capítulo 15. Los desafíos térmicos — exposición al frío, baño caliente, sauna — estresan de manera diferente los caminos vasomotor, sudomotor y baroreflex mediados por TRPV1. Los patrones de respuesta a estos desafíos (vasoconstricción exagerada, ausencia de sudoración, retraso en la recuperación del ritmo cardíaco) localizan la falla autónoma en complejos específicos de canales de receptor y predican qué probetas farmacológicas (capsaicina, mentol, antagonistas de TRPV1) son más probables para revelar la patología. Una [estudio propuesto dedicado](../../../../../part4-research/ch47-proposed-studies/32-thermoregulatory-research-protocols.qmd) ahora especifica el diseño.
+
+---
+
+## El marco de hormesis de 17 medicamentos y sus cuatro categorías
+
+El marco de hormesis se amplió de 5 a 17 medicamentos, respaldado por 11 nuevas citaciones y un 5º grupo mecánico (agonistas parciales D2, que separa a aripiprazole/LDA del grupo Nrf2), ahora integrado en el capítulo **[Modelos Integrativos](../../../../../part2-pathophysiology/ch15-integrative-models/01-integrative-models-and-multi-system-pathophysiology.qmd)**. Las cuatro categorías —y sus implicaciones diagnósticas— son:
+
+- **Categoría 1: Hormesis mediada por Nrf2** (LDN, litio a baja dosis, melatonina, sulfurofano, NAC, quercetina). El medicamento genera una señal de estrés leve; la respuesta adaptativa de la célula a través de Keap1-Nrf2-ARE es el mecanismo terapéutico real. La ventana terapéutica refleja la reserva transcripcional de Nrf2. Las ventanas estrechas predican ventanas estrechas para todos los medicamentos del grupo.
+- **Categoría 2: Agonista parcial invertido-U** (LDA/aripiprazole). No es hormesis — sino una propiedad de ocupación de receptor. A baja ocupación, hay agonismo neto; a mayor ocupación, el agonista parcial desplaza el ligando endógeno más fuerte y se invierte a antagonismo neto. El punto de inversión revela la reserva de receptores D2.
+- **Categoría 3: Catecolaminas invertido-U en el PFC** (modafinilo, duloxetina, beta-bloqueadores, guanfacina). Estos medicamentos empujan la curva natural invertido-U de dopamina/noradrenalina en el cortex prefrontal. La dosis en la que aparece el beneficio, alcanza un pico y se invierte revela el tono basal de catecolaminas.
+- **Categoría 4: Selección de objetivo dependiente de concentración** (rapamicina, corticoides, DORAs, antihistamínicos H1, allopregnanolona, ketotifeno). La curva invertido-U de cada medicamento proviene de la bioquímica específica del compuesto —afinidad de unión diferencial, umbrales de penetración en el SNC o metabolismo bifásico.
+
+La hipótesis central falsificable: los puntos de inversión de medicamentos deberían agruparse por categoría. Los medicamentos del grupo Nrf2 deberían tener ventanas correlacionadas. Los medicamentos del grupo de catecolaminas deberían tener ventanas correlacionadas. Los dos grupos no deberían correlacionar. Esto nunca ha sido probado, y el artículo ahora especifica un diseño de ensayo (HIP-B) para probarlo.
+
+Por separado, **[Capítulo 8](../../../../../part2-pathophysiology/ch08-immune-dysfunction/01-immune-system-dysfunction.qmd)** ahora integra una [sonda de dormancia-undormancia HSV](../../../../../part2-pathophysiology/ch08-immune-dysfunction/06-viral-reactivation-and-persistence.qmd): la reactivación visible del herpesvirus (sarpas frías) como un biomarcador endógeno reportable por el paciente, vinculado a PEM, que explota el ciclo de latencia de HSV-1/2 como una ventana para las dinámicas de reactivación del herpesvirus más amplias implicadas en los brotes de síntomas de EM/SFC.
+
+La serie de blogs complementarios —[¿Más no significa mejor?](../../treatment/more-isnt-better-ldn-lda/), [El invertido-U no es una sola cosa](../../treatment/inverted-u-not-one-thing/), [Tu dosis de LDN es un diagnóstico](../../treatment/dose-is-diagnostic-ldn/) y [La Farmacopea: todo rango de dosis para cada medicamento y su significado](../../treatment/pharmacopoeia-dose-meaning/)— es el equivalente para el paciente de la tabla de referencia consolidada.
+
+Dos extensiones finales al marco farmacodiagnóstico llegaron tarde en la semana:
+
+**Clasificación de profundidad terapéutica**: todas las 193 entradas de medicamentos en sec-12 y todas las 208 entradas de medicamentos del glosario fueron clasificadas a lo largo de un eje Restaurador→Sintomático, sistematizando la taxonomía de tres niveles existente ch32 en todo el artículo. Cada medicamento ahora lleva una calificación de profundidad que distingue la reparación del mecanismo fundamental de la paliación de síntomas —explicando explícitamente qué puede y qué no puede concluir la inferencia farmacodiagnóstica a partir de una respuesta específica.
+
+**Dualidad ligando-receptor**: un marco meta que formaliza la observación de que la mayoría de los medicamentos que actúan sobre receptores activan una vía de señalización mientras suprimen otra en el mismo receptor. El aripiprazole en D2 activa cAMP mientras suprime β-arrestina —un agonista sesgado, no un agonista parcial simple. Esta dualidad significa que la inferencia farmacodiagnóstica debe descomponer “el medicamento X funciona” en “¿qué brazo del portafolio de señalización del receptor necesita el sistema del paciente?”. El marco ahora está integrado en la estructura sec-12.
+
+---
+
+## Transcritomica: Amatica Health RNA-seq
+
+Los hallazgos preliminares de la [cohorte de RNA-seq de Amatica Health](../../../../../part2-pathophysiology/ch07-energy-metabolism/) se integraron en el Capítulo 6. Estos son los primeros datos transcritomicos de EM/SFC que incluyen pacientes con trastornos del espectro de hipermovilidad confirmados, creando así un eje de estratificación natural. Los hallazgos coinciden con las señales transcritomicas existentes — desregulación mitocondrial, desregulación inmune y cambio metabólico — mientras también revelan nuevos patrones de expresión génica que difieren entre las capas hipermóviles y no hipermóviles, lo que sugiere una arquitectura transcritomica distinta dentro del ámbito de EM/SFC.
+
+---
+
+## Disfunción microvascular muscular y aclaramiento cerebral
+
+Dos aspectos de la fisiopatología estructural se integraron en varios capítulos:
+
+**Disfunción microvascular capilara de la masa muscular esquelética** — los hallazgos de Slaghekke/Charlton sobre el engrosamiento de la membrana basal capilar y la alteración en la extracción de oxígeno — se incluyeron en los capítulos 6, 10, 13, 14k y 17. Este es un mecanismo de puente: conecta la patología microvascular sistémica con la cascada PEM específica de la masa muscular, ofreciendo una correlación estructural concreta para la alteración en el suministro de oxígeno que hace que incluso un esfuerzo mínimo sea catastrófico.
+
+**Arquitectura de aclaramiento cerebral** — el capítulo 13 se llenó con un marco completo de aclaramiento glifático y linfático meníngeo. El modelo explica por qué el sueño sin recuperación puede ser mecanísticamente específico en lugar de ser simplemente sintomático: la alteración en el aclaramiento glifático durante el sueño significa que cada noche no se eliminan los subproductos metabólicos de la actividad neural del día anterior, generando una carga neurotóxica acumulativa que el sueño no puede restablecer.
+
+---
+
+## Exhaustión mitocondrial de las células T
+
+El tema de la exhaustión mitocondrial de las células T completó su proceso de integración completo — conectando el Capítulo 6 y el Capítulo 7, recibiendo un aumento de certeza en la Fase 7 y añadiendo entradas al glosario. El marco describe un bucle de autorefuerzo en el que la activación inmunitaria crónica impulsa la exhaustión mitocondrial en las células T, las células T agotadas pierden la capacidad metabólica para eliminar antígenos persistentes, y los antígenos residuales provocan una mayor activación. Esto no es un mecanismo separado de los temas mitocondriales del artículo, sino una instanciación específica para un tipo de célula del mismo principio de falla energética — aplicado a las células precisamente que deberían resolver la disfunción inmunitaria.
+
+---
+
+## Artículos complementarios: ideas de investigación y ideas de software
+
+Se han añadido dos nuevos artículos complementarios independientes:
+
+**[Ideas de investigación](https://github.com/yannickloth/health-me-cfs/tree/main/src/main/typst/research-ideas)** — 15 propuestas formales de investigación que abarcan diagnóstico, ensayos de tratamiento, validación de biomarcadores y estudios epidemiológicos, cada una con un diseño especificado, una evaluación de viabilidad y un peso probatorio esperado.
+
+**[Ideas de software](https://github.com/yannickloth/health-me-cfs/tree/main/src/main/typst/software-ideas)** — 17 conceptos de software orientados a pacientes que abordan la brecha en la infraestructura práctica: rastreadores de síntomas que capturan el retraso en PEM, registros de tratamientos con superficies de respuesta a dosis, plataformas de ensayos N-of-1 y soporte para la toma de decisiones de diagnóstico diferencial. Estas son especificaciones concretas, no listas de funciones; cada una incluye el modelo de datos y la lógica de inferencia.
+
+---
+
+## Resumen largo HSAT2
+
+El resumen largo de Geneviève [para ISLC-PAIS 2026](https://github.com/yannickloth/health-me-cfs/tree/main/src/main/typst/mecfs/part4-research/ch35-biomarker-research/hsat2-and-herv-k-exosomal-biom) se finalizó y se presentó. El resumen describe el mecanismo de sensibilización de microglía en el caso HSAT2 como un ejemplo que conecta la farmacología observada en pacientes (dosis-respuesta LDA) con el modelado mecánico formal, con una figura de organización del genoma SVG. Es la primera presentación académica que incluye la capa de datos provenientes de pacientes del artículo.
+
+---
+
+## Índice de Discrepancia Subjetiva-Medible
+
+[Capítulo 15](../../../../../part2-pathophysiology/ch15-integrative-models/01-integrative-models-and-multi-system-pathophysiology.qmd) introduce ahora una estructura diagnóstica formal en su [sección dedicada](../../../../../part2-pathophysiology/ch15-integrative-models/01-integrative-models-and-multi-system-pathophysiology.qmd): la diferencia entre lo que un paciente reporta poder hacer y lo que los exámenes objetivos pueden medir. En EM/SFC, los pacientes suelen performar normalmente en pruebas de un solo dominio — fuerza de agarre, VO₂ máx, batería cognitiva — mientras no pueden mantener ese rendimiento en diferentes dominios o durante varios días. El Índice de Discrepancia cuantifica esto: una alta discrepancia es informativa desde el punto de vista diagnóstico, no es evidencia de malingering. Refleja la brecha de validez ecológica en los exámenes estándar: las mediciones de un solo dominio, de una sola sesión y en estado no agotador omiten la naturaleza de múltiples sistemas, dependiente del esfuerzo y con crisis retardadas de la enfermedad. El marco está ahora integrado en el capítulo de modelos integradores con una bibliografía anotada completa y una especificación de umbral diagnóstico.
+
+---
+
+## Seis nuevos capítulos
+
+**[Capítulo 16: Nosología comparativa](../../../../../part2-pathophysiology/ch16-comparative-nosology/01-comparative-nosology-me-cfs-among-contested-diagnoses.qmd)** — escrito desde cero. Compara sistemáticamente los criterios de diagnóstico de EM/SFC (Fukuda, CCC, ICC, IOM, NICE) en diferentes ámbitos, con la descomposición de carga vs. bloque secundario, el modelo de consolidación epigenética, la cascada de autoanticuerpos de GPCR y la integración de PANS/PANDAS como prueba de existencia de la Arquitectura B para espectros de encefalitis neuroinmune. El capítulo formaliza la distinción entre bloques que sostienen el estado de la enfermedad y bloques que la amplifican.
+
+**[Capítulo 34: Métodos de investigación](../../../../../part4-research/ch35-research-methods/01-me-cfs-specific-research-methods.qmd)** — desarrollado a partir de un esqueleto. Análisis de la metodología en ocho subtemas, que abarca protocolos CPET, marcos de validación de biomarcadores, diseño de ensayos N-of-1, diseños adaptativos bayesianos, criterios de selección de control negativo y la lógica de inferencia farmacodiagnostica. El capítulo proporciona el soporte metodológico para cada estudio propuesto en el artículo.
+
+**[Capítulo 40: Impacto económico](../../../../../part4-research/ch41-economic-impact/01-economic-impact-of-me-cfs.qmd)** — análisis de la disparidad entre costo de la enfermedad, empleo y carga con respecto a la financiación. Documenta el desfase sistemático entre la carga de la enfermedad (prevalencia × peso de discapacidad × duración) y la financiación de investigación, con datos de comparación internacional.
+
+**[Capítulo 43: Perspectivas globales](../../../../../part4-research/ch44-global-perspectives/01-global-and-low-resource-perspectives-on-me-cfs.qmd)** — 18 países en 6 dimensiones (criterios de diagnóstico, acceso a atención sanitaria, reconocimiento de discapacidad, infraestructura de investigación, defensa de pacientes, actitudes culturales). El capítulo mapea el panorama geopolítico de la atención y la investigación de EM/SFC, identificando dónde divergen los protocolos de tratamiento y dónde convergen.
+
+**[Capítulo 39: Sistemas de atención sanitaria y políticas](../../../../../part4-research/ch42-controversies/10-research-funding-disparities.qmd)** — 17 entornos de tratamiento, 10 artículos y un modelo de 4 fallas (falla en diagnóstico, falla terapéutica, falla sistémica, falla en producción de conocimiento) que explica por qué los resultados de EM/SFC son malos en sistemas de salud con diseños fundamentalmente diferentes. La falla estructural es secundaria al error de categoría, no a la asignación de recursos.
+
+**[Capítulo 45: Conocimiento generado por pacientes y ciencia ciudadana](../../../../../part4-research/ch45-research-infrastructure/01-research-infrastructure-proposals.qmd)** — documenta el ecosistema paralelo de producción de conocimiento construido por pacientes fuera de instituciones formales: intercambio de protocolos, registros de tratamientos colaborativos, seguimiento de eventos adversos y la experiencia informal de diagnóstico acumulada por pacientes experimentados.
+
+Se crearon esqueletos adicionales para 8 capítulos más para cerrar brechas estructurales. Todo el numeración de capítulos fue reorganizado (1–55 secuencialmente) para acomodar la expansión estructural. El existente [capítulo de historia de EM/SFC](../../../../../part1-clinical/ch01-introduction/02-historical-context.qmd) (ch02) se rellenó con una narrativa cronológica completa desde 1934 hasta 2025, reconciliada con el contenido superpuesto en ch01. [Entornos de regeneración de células satélite](https://github.com/yannickloth/health-me-cfs/tree/main/ops) perdidos en una reestructuración previa del Capítulo 7 fueron restaurados y recibieron correcciones de revisión adversarial — una reparación mecánica que demostró la utilidad de la habilidad de propagación de marco estratégico Phase 10b. Un [plan de integración de cuello de botella serotonérgico y registro de búsqueda](https://github.com/yannickloth/health-me-cfs/tree/main/ops) fue colocado en orden para integración futura, junto con documentos formales de [prioridades de integración de temas](https://github.com/yannickloth/health-me-cfs/tree/main/ops) y [prioridades de integración creativa](https://github.com/yannickloth/health-me-cfs/tree/main/ops) que clasifican los temas abiertos restantes según su impacto estimado y dificultad.
+
+---
+
+## Web y infraestructura
+
+El [sistema de glosario](../../../../../z-appendices/appendix-a-terminology/01-glossary-of-medical-and-scientific-terms.qmd) se amplió de cero a 924 entradas con información interactiva en la versión web, además de 172 alias y un mecanismo de excepción para no mostrar información interactiva. El sistema abarca medicamentos, suplementos, patógenos, anatomía, métodos y terminología de dominios. Cada término técnico en el artículo web ahora es un punto de interés para el hover.
+
+El flujo de conversión de Typst a QMD fue reestructurado en un flujo paralelo en proceso, con una mejora de 10 veces en el rendimiento. Una nueva BuildAuditTest realiza 10 verificaciones posteriores a la construcción. El tiempo de espera para la implementación se restableció a 60 minutos. Se eliminaron las ejecuciones duplicadas de la construcción. Los archivos Bib ahora se generan automáticamente mediante BuildWeb.java en lugar de ser rastreados en git.
+
+Tres publicaciones en LinkedIn fueron adaptadas al estilo de prosa. La [evaluación de necesidades de EM/SFC en Bélgica por KCE](../../diagnostics/kce-belgium-needs-assessment/) y una [serie de 4 partes DecodeME GWAS](../../genetics-infectious/genetics-ends-debate/) fueron publicadas.
+
+---
+
+## Datos provenientes del paciente
+
+Se registraron dos observaciones clínicas: un episodio de PEM de Libramont desencadenado por una reducción de la dosis de LDA de 1 mg a 0.5 mg (lo que indica que 0.5 mg está por debajo del umbral de activación D2 de la microglía para este paciente), y la tolerancia a los fallos de LDA — la observación de que la privación del sueño con LDA ya no desencadena migraña ni niebla cerebral, con un diferencial de cambio de estado maníaco que contrasta con los patrones de excitación estimulantes anteriores. El mecanismo de sensibilización de la microglía en el caso [HSAT2](https://github.com/yannickloth/health-me-cfs/tree/main/src/main/typst/mecfs/part4-research/ch35-biomarker-research/hsat2-and-herv-k-exosomal-biom) se actualizó para la presentación del resumen largo de ISLC-PAIS 2026.
+
+---
+
+## Lo que ahora puede ser falsificado y que no ocurría la semana pasada
+
+La superficie de la falsificabilidad del artículo se expandió significativamente. La Matriz Farmacodiagnóstica especifica patrones exactos de inferencia entre medicamentos que serían contradichos por ciertas parejas de respuesta y no respuesta. La descomposición de hormesis en cuatro categorías predice la correlación dentro de una categoría entre intervalos de medicamento y la independencia entre categorías — una afirmación que puede ser probada en cualquier cohorte con datos de dosis-respuesta de múltiples medicamentos. El Índice de Discrepancia Subjetiva-Medible especifica un umbral por encima del cual la discrepancia se considera diagnóstica. La escala de control negativo define qué clases de resultados nulos falsifican qué hipótesis. Cada nuevo capítulo — perspectivas globales, impacto económico, sistemas de atención sanitaria — lleva sus propias predicciones falsificables en los registros de la revisión de Fase 5a.
+
+El [registro de hipótesis](../../../../../part4-research/ch47-proposed-studies/35-hypothesis-and-speculation-registry.qmd) fue reorganizado por tema, y todos los registros ahora llevan condiciones de falsificabilidad, no solo afirmaciones de existencia. El modelo de agotamiento mitocondrial de células T es falsificable mediante metabolómica de células individuales: las células T de EM/SFC agotadas deberían mostrar una capacidad respiratoria menor que los controles sanos, y el déficit debería correlacionarse con la tinción de tetrameros específicos de antígenos — si no, la explicación de fallo energético para los objetivos virales/autoinmunes persistentes es incorrecta. El marco aclaramiento glifático es falsificable mediante MRI con contraste: si los pacientes de EM/SFC muestran tasas de aclaramiento glifático normales, el sueño sin renovación debe estar impulsado por un mecanismo diferente.
+
+---
+
+*Esta actualización abarca el trabajo realizado entre el 21 y el 27 de julio de 2026. El registro completo de cambios y los artículos relacionados se encuentran en [loth.cc](https://yannickloth.github.io/health-me-cfs/). Actualizaciones semanales anteriores: [Muros con Carga de Carga](../../mechanisms/load-bearing-walls/), [Causa Raíz ≠ Prioridad de Tratamiento](../../mechanisms/root-cause-not-treatment-priority/), [La Genética que Pone Fin al Debate](../../genetics-infectious/genetics-ends-debate/).*

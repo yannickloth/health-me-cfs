@@ -1,0 +1,20 @@
+---
+title: "Donde nuestra evidencia es escasa: un recorrido por los puntos débiles"
+description: "Un artículo es tan honesto como los lugares que admite ser débiles. Aquí están los nuestros."
+author: "Yannick Loth"
+date: "2026-09-28"
+categories: [Self-correction, Metascience, Research]
+lang: es
+---
+
+Es fácil crear un documento que suene confiable. Es más difícil — y más útil — señalar exactamente dónde la confianza no se ha obtenido. Nuestro artículo etiqueta el contenido especulativo con valores de certeza y marca las áreas de evidencia débil; aquí hay una explicación sencilla.
+
+**Los puntos débiles:**
+
+- **Hilos de estudio único.** La historia de la noradrenalina, el hilo del circuito VMAT2/dopamina y varios otros se basan en un puñado de pequeños estudios, a veces de un solo grupo. La replicación está pendiente.
+- **Evidencia de animales y transversal entre enfermedades.** Muchas flechas mecánicas (noradrenalina y eliminación, noradrenalina y microglía, neuromoduladores y ganancia cortical) están establecidas en animales u otras enfermedades, pero no se miden en EM/SFC.
+- **Medidas compuestas.** Los nuevos índices (como el índice de "vía" de noradrenalina) son útiles pero no validados; un resultado destacado puede ser en parte un artefacto de la medida.
+- **Confusos que no se eliminan.** La descondición, los medicamentos y el nivel de actividad pueden cambiar los biomarcadores que discutimos, y la mayoría de los estudios no pueden descartarlos.
+- **El nulo y el negativo.** Algunas de nuestras afirmaciones más fuertes se refieren a lo que *no funciona* — la amantadina para la fatiga en MS (un nulo limpio), la clonidina en CFS adolescente (un nulo limpio), y la terapia de ejercicio gradual (contestada, y un caso donde el punto final — empeoramiento de síntomas — es lo importante, no la ausencia de efecto). Estos merecen tanto destacamiento como los positivos.
+
+**Por qué los marcamos.** Porque la alternativa — una narrativa fluida con la incertidumbre eliminada — es la forma en que los pacientes son engañados y cómo se establecen las prioridades de la investigación. Un marcador no es una debilidad; ocultarlo sería una.

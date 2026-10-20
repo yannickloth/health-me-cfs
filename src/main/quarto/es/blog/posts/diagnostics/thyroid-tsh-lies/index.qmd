@@ -1,0 +1,83 @@
+---
+title: "Tu tiroides está \"normal\": ¿Por qué el TSH por sí solo no te dice nada?"
+description: "TSH 2.8 mIU/L. Rango de referencia 0.4-4.0. Normal. Caso cerrado."
+author: "Yannick Loth"
+date: "2026-06-11"
+categories: [Endocrine, Diagnostics, Misdiagnosis]
+lang: es
+---
+
+TSH 2.8 mIU/L. Rango de referencia 0.4-4.0. Normal. Caso cerrado.
+
+Pero no lo es. Esa cifra es la opinión de la glándula pituitaria sobre los niveles de hormona tiroidea circulante. No indica nada sobre lo que está ocurriendo a nivel celular — si la T3, la hormona tiroidea activa, llega a las mitocondria en los músculos y el cerebro y realmente impulsa los procesos metabólicos para los que está destinada. El TSH es un señal sobre una señal. Es como la lectura del termostato de la temperatura ambiente, no una medida de si los radiadores están realmente calentando a alguien.
+
+Para una persona saludable, el TSH es un proxy razonable. El sistema funciona: la glándula pituitaria detecta los niveles de hormona tiroidea, ajusta el TSH en consecuencia y la tiroides responde. En un paciente con enfermedad crónica, este ciclo de retroalimentación puede desconectarse en al menos tres lugares — cada uno generando un estado en el que el paciente tiene hipotiroidesa celular con un TSH “normal”.
+
+---
+
+## Las tres formas en que la función tiroidea se interrumpe sin que el TSH se dé cuenta
+
+**Hipotiroidismo central.** La pituaria en sí no funciona adecuadamente. No produce suficiente TSH para estimular la tiroides de manera efectiva. La tiroides, al recibir una estimulación insuficiente, produce menos T4 y T3; pero el TSH indica "normal", ya que la idea de "normalidad" de la pituaria ha sido reajustada hacia abajo. Esto ocurre en cualquier condición que afecte la función pituitaria: enfermedades crónicas, trauma craneal, tumores pituitarios y, relevantemente, supresión crónica del eje hipotálamo-hipófisis-suprarrenal, que se documenta en EM/SFC. El eje hipotálamo-pituitaria-tiroides no existe de forma aislada; interactúa con el eje hipotálamo-hipófisis-suprarrenal, y la supresión de uno puede afectar al otro [@Mancini2018thyroidOxidative].
+
+**Disminución en la conversión de T4 a T3.** La glándula tiroides produce principalmente T4 (tiroxina), una prohormona. La T4 debe convertirse en T3 (triiodotironina) por medio de enzimas de deiodinasa en los tejidos periféricos para ser biológicamente activa. La conversión más importante ocurre a través de la deiodinasa tipo 2 (DIO2) en el cerebro, los músculos y la grasa marrón.
+
+La inflamación crónica suprime la actividad de DIO2 y aumenta la expresión de DIO3, la enzima que convierte la T4 en reverse T3 (rT3) —una forma biológicamente inactiva que ocupa los receptores de T3 sin activarlos (Wajner & Maia 2012, *Clinical Endocrinology*). Esto se denomina "síndrome de enfermedad eutiroidea" o "síndrome de enfermedad no tiroidea" (NTIS). El TSH es normal. La T4 puede ser normal. Pero la T3 que realmente impulsa el metabolismo en los tejidos es baja, y la reverse T3 es alta [@Wajner2012NTIS]. El paciente es funcionalmente hipotiroido en cada célula, y todos los resultados de laboratorio que el médico ordena indican que todo está bien.
+
+Esto no es una curiosidad rara. Ocurre en cualquier estado de inflamación crónica: sepsis, insuficiencia cardíaca, enfermedad renal crónica y, casi con seguridad, EM/SFC, donde la activación inmunitaria crónica es una característica central.
+
+**Polimorfismos genéticos de DIO2.** El polimorfismo Thr92Ala en el gen DIO2 (rs225014) está presente en aproximadamente el 16% de la población europea como homozigotas. Reduce la eficiencia de la enzima DIO2, afectando la conversión de T4 a T3 en todos los tejidos que dependen de ella. Los portadores tienen TSH normal y T4 normal, pero pueden tener una T3 funcionalmente insuficiente a nivel celular [@Panicker2009]. Esto no es hipotiroidismo según ninguna definición estándar. Es una reducción genéticamente determinada en la eficiencia de la activación de la hormona tiroidea que ningún panel tiroideo estándar puede detectar.
+
+Para un portador normal, el déficit puede ser subclínico. Para un paciente con EM/SFC —donde todo el sistema de producción de energía ya está sobrecargado—, una reducción del 10-15% en la disponibilidad de T3 para las mitocondrias puede ser la diferencia entre gestionar y no gestionar la condición.
+
+---
+
+## Tiroiditis de Hashimoto: la destrucción autoinmune que nadie busca
+
+La tiroiditis de Hashimoto es la enfermedad autoinmune más común en el mundo. Los anticuerpos (anti-TPO, anti-tiroglобulina) atacan el tejido tiroideo, destruyéndolo progresivamente. La destrucción es lenta: se necesitan años para que se pierda suficiente tejido como para que el TSH supere el rango de referencia.
+
+Durante esos años, el paciente presenta una inflamación tiroidea autoinmune activa, niveles hormonales fluctuantes ya que los folículos intactos compensan a los destruidos, y fatiga que se correlaciona con los niveles de anticuerpos en lugar de con el TSH [@Ott2011]. El TSH puede permanecer dentro del rango durante una década mientras la glándula se destruye. El paciente sufre fatiga, niebla cerebral, cambios de peso, intolerancia al frío y pérdida de cabello; se le dice que su tiroides está bien porque el único análisis solicitado fue el TSH.
+
+Los anticuerpos anti-TPO están presentes en aproximadamente el 10% de la población general. En cohorte de EM/SFC, la prevalencia puede ser más alta: la diathesis autoinmune que impulsa la EM/SFC se superpone a la diathesis autoinmune que impulsa la tiroiditis de Hashimoto. La prueba de anticuerpos añade aproximadamente 20 € al pedido de laboratorio. Identifica una condición progresiva, tratable y completamente invisible para el screening de TSH.
+
+---
+
+## ¿Cómo se presenta una evaluación completa de tiroides
+
+El panel mínimo para un paciente con fatiga crónica debe incluir:
+
+- **TSH** — necesario, pero no suficiente
+- **T4 libre** — la prohormona. T4 libre baja y normal + TSH normal sugiere hipotiroidismo central.
+- **T3 libre** — la hormona activa. T3 libre baja con T4 y TSH normales = problema de conversión.
+- **T3 inversa** — el competidor inactivo. rT3 alto con TSH normal = síndrome de enfermo eutiroideo.
+- **Anticuerpos anti-TPO y anti-tiroglubulina** — screening de Hashimoto. Positivos = destrucción autoinmune de la tiroides en progreso, independientemente del TSH actual.
+
+El panel completo cuesta aproximadamente 50-80 € en los laboratorios europeos más importantes. El panel estándar que ordenan la mayoría de los médicos de cabecera — solo TSH — cuesta 15 € y omite todos los escenarios descritos anteriormente.
+
+---
+
+## La controversia en el tratamiento
+
+La posición estándar en endocrinología es la siguiente: si el TSH es normal, el paciente tiene tiroides eutiroidea y no se indica tratamiento. Esta posición es defensable basándose en la base de evidencia si se define “tiroides eutiroidea” mediante valores de laboratorio y “respuesta al tratamiento” mediante la normalización del TSH.
+
+Se vuelve menos defensable cuando se pregunta si los pacientes con TSH normal pero con síntomas de hipotiroidismo, T3 libre bajo o anticuerpos positivos mejoran con sustitución de hormona tiroidea. Varias estudias sugieren que sí, al menos en subgrupos — particularmente con terapia combinada de T4/T3 en lugar de T4 monoterapia, y especialmente en portadores del polimorfismo DIO2 Thr92Ala ([@Panicker2009]; [@Wiersinga2017T4T3]).
+
+Esto no es un apoyo a la prescripción de hormona tiroidea para todos los pacientes con fatiga y TSH normal. Es una observación de que la clasificación binaria — tiroides eutiroidea o hipotiroidismo, basada en una sola hormona de una sola glándula medida en un único punto temporal — es demasiado bruta para capturar la realidad de la acción de la hormona tiroidea a nivel tisular.
+
+Para pacientes con EM/SFC en particular: la pregunta no es si la disfunción tiroidea subclínica causa EM/SFC. Casi con seguridad no lo hace. La pregunta es si contribuye al déficit de energía en un subgrupo de pacientes — y si corregirlo en ese subgrupo produce una mejora significativa en la función. La evidencia es sugestionada. Un estudio de sustitución de hormona tiroidea no es libre de riesgos — la hormona tiroidea es un medicamento activo, y la sobre-sustración puede causar palpitaciones, temblores, ansiedad y, con el tiempo, adelgazamiento óseo y fibrilación auricular. Bajo supervisión médica con controles regulares de hormona, esos riesgos son manejables en lugar de prohibitivos. El beneficio potencial, en un paciente cuya margen de energía se mide en porcentajes de un solo dígito, es significativo [@Loth2026website].
+
+---
+
+## El patrón más profundo
+
+La disfunción tiroidea en EM/SFC no es un problema aislado. Forma parte de un patrón de supresión endocrina a nivel del sistema, provocado por una enfermedad crónica:
+
+- Desvanecimiento del eje hipotálamo-hipófisis-suprarrenal (cortisol plano) → reducido ACTH → reducido cortisol → deteriorada respuesta al estrés
+- Desvanecimiento del eje HPT (hipotiroidismo central) → reducido TSH → reducido rendimiento tiroideo
+- Supresión del eje HPG → reducidos hormonas sexuales → fatiga, cambios en la composición corporal
+- Desvanecimiento del eje GH → reducido hormona de crecimiento → deteriorada reparación tisular y recuperación tras el ejercicio
+
+Estos ejes interactúan entre sí. La supresión del eje hipotálamo-hipófisis-suprarrenal afecta al eje HPT. La inflamación crónica suprime todos ellos. El resultado es un paciente con valores “normales” en cada prueba endocrina aislada, pero que, no obstante, funciona en un estado de insuficiencia endocrina multiaxial —no una deficiencia tan grave como para desencadenar algún alarme individual, pero lo suficientemente amplio como para provocar un deterioro funcional profundo.
+
+Este es el capítulo sobre la tiroides de una historia más grande: el espacio entre “no marcado como anormal” y “adecuado para lo que el cuerpo necesita” es el lugar donde viven los pacientes con EM/SFC. La tiroides es un eje. El patrón es el mismo en todos ellos.
+
+---

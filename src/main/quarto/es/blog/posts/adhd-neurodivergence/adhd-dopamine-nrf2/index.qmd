@@ -1,0 +1,114 @@
+---
+title: "Eje Dopamina-Nrf2-NLRP3: Un ciclo inflamatorio detrás de TDAH y fatiga"
+description: "Un tono bajo de dopamina deteriora el sistema de defensa antioxidante de las células, lo que elimina un obstáculo en el interruptor inflamatorio central del sistema inmunitario — y la inflamación resultante agota aún más la dopamina, cerrando un bucle autoamplificador. Este eje transversal entre enfermedades podría explicar por qué las personas con TDAH tienen un umbral más bajo para la fatiga postinflamatoria."
+author: "Yannick Loth"
+date: "2026-08-27"
+categories: [Neurodivergence, Pathophysiology, Genetics]
+lang: es
+---
+
+La Parte 1 examinó el TDAH como un trastorno de energía prefrontal. La Parte 2 analizó la vertiente inmunitaria y neuroinflamatoria. Esta parte examina una tercera posibilidad distinta: que un **bucle autoamplificador** conecte la biología de la dopamina con el sistema de defensa antioxidante de las células y con el interruptor inflamatorio central del sistema inmunitario.
+
+Esto no es un problema de combustible, ni es simplemente un problema inflamatorio. Es un **bucle de retroalimentación** —un mecanismo que, una vez activado, tiende a mantenerse activo.
+
+La serie separa **lo que sabemos** de **lo que nuestra investigación añade**. Los elementos establecidos son la conexión dopamina-Nrf2 (la señalización del receptor D1 aumenta la actividad de Nrf2 en modelos celulares) y el efecto inhibidor de Nrf2 sobre la activación del inflamasoma NLRP3 (vía la inducción de HO-1 y NQO1), ambos extraídos de la amplia literatura farmacológica y redox de la que se basa nuestro proyecto, y discutidos en un artículo complementario sobre la hormesis mediada por Nrf2. Lo que nuestra investigación añade es la interpretación específica de **transversal entre enfermedades**: que la baja actividad de dopamina preexistente en el TDAH reduce el umbral de la fatiga postinflamatoria a través de este bucle, lo cual es una especulación registrada, no un hallazgo establecido.
+
+---
+
+## El mecanismo: un bucle autoamplificador
+
+El eje involucra tres moléculas:
+
+**1. Dopamina y Nrf2.** La señalización por receptores D1 de dopamina aumenta la actividad de Nrf2 — a través de fosforilación mediada por proteínas quinasas A y importación nuclear. Nrf2 es el factor de transcripción principal de las defensas antioxidantes de la célula, activando más de doscientos genes protectores. Cuando el tono de dopamina es bajo — como ocurre en TDAH — las defensas antioxidantes mediadas por Nrf2 se ven afectadas y la célula se vuelve más vulnerable al estrés oxidativo. Una vía relacionada pasa por *dopamina-quinonas*: la oxidación crónica de baja intensidad de dopamina produce metabolitos reactivos de dopamina-quinona que agotan el glutationo, empeorando aún más las defensas antioxidantes impulsadas por Nrf2 y desinhibiendo el inflamasoma NLRP3 en microglía y células inmunitarias [@SeguraAguilar2018dopaminequinone @Sies2017NRF2].
+
+**2. Nrf2 y NLRP3.** Normalmente, Nrf2 suprime el **inflamasoma NLRP3**, el interruptor inflamatorio central del sistema inmunitario, mediante la inducción de HO-1 y NQO1. La reducción de la actividad de Nrf2 elimina ese freno. El inflamasoma NLRP3 entonces genera niveles elevados de IL-1-beta y IL-18.
+
+**3. NLRP3 y dopamina — cerrando el bucle.** La inflamación elevada empeora aún más la síntesis de dopamina de dos maneras: activa la vía IDO/quinurenina, reduciendo la disponibilidad de BH4 para la enzima que produce dopamina; y induce estrés oxidativo que daña los terminales dopaminérgicas. Una vía aún más directa pasa por el metabolito de quinurenina **ácido quinurénico**, el cual, a bajas concentraciones, reduce la liberación de dopamina en el striado — conectando la sobreactivación de quinurenina directamente al déficit de dopamina, en lugar de solo a través del cuello de botella de BH4 [@Rassoulpour2005KynurenicAcid @Cysique2023KynureninePASC]. Menor dopamina → menor Nrf2 → más NLRP3 → más inflamación → aún menor dopamina.
+
+El resultado es un **bucle autoamplificador**: un estado previo de baja dopamina (como en TDAH) y un episodio de inflamación hacen que el otro empeore, y el bucle tiende a persistir.
+
+---
+
+## El puente transversal entre enfermedades
+
+La hipótesis que es importante para el TDAH es el **nivel reducido de umbral para la fatiga postinfecciosa**. La predicción mecánica es específica:
+
+> Las personas con TDAH tienen una actividad Nrf2 más baja en el estado basal y un procesamiento basal de NLRP3 más alto. Esto reduce el umbral para el desarrollo de fatiga crónica después de una infección. La comorbilidad elevada entre TDAH y fatiga crónica [@Quadt2024neurodivergentfatigue @SaezFrancas2012adhdcfs] es una consecuencia de esta desregulación preexistente de dopamina-Nrf2-NLRP3.
+
+En palabras sencillas: una persona con TDAH comienza con el mecanismo ya inclinado hacia la inflamación. Cuando una infección añade un impacto inflamatorio, el mecanismo se inclina aún más, y la persona tiene más probabilidades de superar el umbral de la fatiga que alguien que no tenga esa inclinación preexistente.
+
+Este es el mismo cuello de botella de BH4 que nuestro proyecto ha explorado en distintas condiciones: el cofactor que la inflamación desvía de la síntesis de dopamina y hacia otra rama de su metabolismo. El mecanismo es una forma de explicar por qué ese único cuello de botella es tan importante en todo lugar.
+
+---
+
+## Lugares donde un mecanismo ya tiene un artículo dedicado
+
+Dos artículos dedicados sientan las bases establecidas sobre las cuales se construye esta sección:
+
+- **[El U invertido no es una sola cosa](../../treatment/inverted-u-not-one-thing/index.qmd)** — el mecanismo de hormesis mediado por Nrf2, la vía Keap1-Nrf2-ARE y por qué los medicamentos Nrf2 (LDN, sulfurofano, quercetina) funcionan solo en un rango de dosis estrecho. Esta sección no repite ese contenido; lo extiende al eje transversal entre enfermedades de TDAH.
+- **[Un cofactor, seis condiciones, un cuello de botella](../bh4-one-cofactor-six-conditions/index.qmd)** — el cofactor BH4 que la inflamación desvía de la síntesis de dopamina.
+
+El eje Nrf2/NLRP3 descrito aquí es nuestra interpretación de cómo se comportan esos mecanismos establecidos en un cerebro afectado por TDAH y estresado por infecciones. La farmacología subyacente está establecida; la afirmación específica de TDAH como transversal entre enfermedades es una especulación registrada.
+
+---
+
+## Una cadena genética: la arquitectura propia del TDAH y modificadores mitocondriales compartidos
+
+Antes de la lectura sobre transversal entre enfermedades, el TDAH tiene su propia arquitectura genética bien establecida, independiente de cualquier conexión con la fatiga crónica. Es una de las condiciones psiquiátricas más hereditarias.
+
+**La genética propia del TDAH.** El estudio más amplio del genoma total sobre el TDAH —con casi cuarenta mil casos— identificó 27 loci de riesgo significativos en el genoma, en comparación con 12 en estudios anteriores, implicando genes expresados en el cerebro y en ámbitos cognitivos [@Demontis2023GWASadhd]. Estudios familiares y de gemelos indican una alta heredabilidad basada en gemelos, entre setenta y ochenta por ciento [@Faraone2019heritabilityADHD]. Los estudios de gemelos confirman que las influencias genéticas en el TDAH y el autismo son sustancialmente compartidas y se encuentran entre las correlaciones genéticas más fuertes en psiquiatría [@Polderman2014cooccuradhdasd]. Los estudios del genoma total encuentran una correlación genética de aproximadamente 0.35–0.41 entre el TDAH y el autismo [@Demontis2023GWASadhd @Grove2019GWASasd], y cuando se analizan cinco principales trastornos psiquiátricos juntos, el TDAH y el autismo se agrupan como un único grupo neurodesarrollador, distinto genéticamente del grupo psicótico y del grupo de humor [@CrossDisorderPGC2013]. Los estudios de gemelos confirman que este overlap existe desde la infancia y persiste en la edad adulta [@Ronald2008overlapADHDasd @Polderman2014cooccuradhdasd]. Por esta razón, el TDAH y el autismo ocurren mucho más allá del azar: un meta-análisis encontró una prevalencia combinada de 28% en autismo [@Lai2019metaADHDasd], y un estudio de registro de casi dos millones de nacimientos mostró que un diagnóstico de autismo aumenta las probabilidades de TDAH aproximadamente 22 veces [@Ghirardi2018familialADHDasd].
+
+Esta imagen genética independiente es importante para esta serie porque sustenta el lado “lo que sabemos”: las hipótesis metabólicas en las Partes 1–3 se añaden a una base genética y neurobiología bien replicada, no se inventan en su lugar.
+
+Una pregunta realmente abierta de nuestro artículo merece una nota aquí: la correlación genética entre la EM/SFC y el TDAH no ha sido calculada. Si resultara ser significativa, apoyaría la señal de dopamina en el genoma de la fatiga crónica y plantearía si el TDAH infantil es un factor de riesgo genético directo para la fatiga postinfecciosa —en lugar de ser solo metabólico. Esta es una pregunta abierta, no un hallazgo.
+
+### Modificadores mitocondriales compartidos
+
+La lectura sobre transversal entre enfermedades también tiene una cadena genética. Dos hipótesis de nuestro artículo conectan el TDAH y la fatiga crónica a nivel del genoma mitocondrial.
+
+**El haplogrupo U como modificador compartido.** El haplogrupo mitocondrial U aparece como modificador en ambas condiciones de forma independiente: en un meta-análisis de más de dos mil casos de TDAH, el haplogrupo U (y K) fue protector contra un diagnóstico de TDAH [@Chang2020haploADHD]; en un grupo de fatiga crónica, el mismo haplogrupo estuvo asociado con una menor severidad de síntomas [@BillingRoss2016mtDNA]. Este único overlap entre estudios transversales sugiere —especulativamente— que el haplogrupo U proporciona una configuración bioenergética mitocondrial protectora en ambas condiciones, donde el fenotipo específico depende de qué sistema se somete más: la disfunción dopaminérgica prefrontal en el TDAH o el colapso metabólico de todo el cuerpo en la fatiga crónica. El campo más amplio de genética mitocondrial y TDAH es real pero subdesarrollado: una revisión sistemática documenta los efectos del haplogrupo, el aumento del número de copias de mtDNA y las asociaciones de SNP entre poblaciones de TDAH, aunque señala que los estudios principales son pequeños y heterogénicos metodológicamente [@Giannoulis2024sysrevmtADHD]. Aún así, ningún estudio ha medido aún el haplogrupo, la comorbilidad TDAH y la fatiga crónica en una misma cohorte, por lo que la lectura sobre el haplogrupo-U en transversal entre enfermedades sigue siendo una especulación registrada.
+
+**Mitocondrias de baja capacidad constitucional.** Una interpretación complementaria invierte el lado de la demanda: en lugar de una mayor *demanda* de energía, los cerebros neurodivergentes pueden contar con mitocondrias de baja capacidad genéticamente. Los mismos alelos que producen características cognitivas beneficiosas — reconocimiento rápido de patrones, atención hiperconcentrada, agudeza sensorial — pueden estar relacionados pleiotrópicamente con variantes mitocondriales que intercambian la eficiencia de acoplamiento por flexibilidad de membrana o remodelado rápido. El TDAH muestra evidencia directa de deterioro bioenergético mitocondrial: líneas celulares cibridas de plaquetas de pacientes con TDAH presentan respiración más baja, actividad reducida de ATPas y estrés oxidativo elevado, y estos defectos se transmiten a las mitocondrias del propio paciente [@Verma2016ADHDcybrid @Almutairi2024mitoadhd]. Si la reducida reserva es constitucional — codificada en el genoma y presente desde el nacimiento — explicaría por qué una persona con TDAH llega al umbral de fatiga más cerca antes de cualquier infección. Esta es una especulación registrada, no un hallazgo establecido.
+
+---
+
+## Las predicciones verificables
+
+Dado que esta hipótesis es mecanicista, hace predicciones específicas y falsificables:
+
+1. Los pacientes con fatiga crónica que también padecen TDAH muestran **menor translocación nuclear de Nrf2** en sus células mononucleares de sangre periférica en comparación con los pacientes con fatiga crónica sin TDAH.
+2. **Marcadores de inflamasoma NLRP3** (IL-1-beta, actividad caspase-1) están elevados en el grupo comórico en relación con la fatiga crónica por sí sola.
+3. **Intervenciones que activan Nrf2** (sulforafano, dimetil fumarato) mejoran tanto los síntomas de TDAH como la fatiga en el grupo comórico.
+4. **Polimorfismos en el promotor Nrf2** predican la gravedad de la fatiga postinfecciosa en cohortes de TDAH.
+5. **La exposición a estimulantes provoca inflamación en el grupo comórico:** el análisis de dopamina-quinona de nuestro artículo predice que los estimulantes (que aumentan la dopamina y aceleran su oxidación a quinones) aumentarían IL-1-beta a través de NLRP3 en cultivos de células sanguíneas de pacientes con TDAH y comorbilidad, y que este efecto sería bloqueado por agonistas de Nrf2 o inhibidores de NLRP3. Esto también refuerza la advertencia de que los estimulantes no son una excusa en este grupo —una predicción sobre un mecanismo que podría contribuir al empeoramiento post-exercicio.
+
+Cada predicción puede ser verificada con ensayos existentes y cohortes actuales. Ninguno ha sido realizado.
+
+---
+
+## Límites
+
+Es una **hipótesis especulativa**, con una confianza muy baja — es una especulación registrada, no un hallazgo establecido.
+
+- La **relación entre el receptor D1 y Nrf2 está establecida en modelos celulares, pero no en pacientes humanos.**
+- La actividad de la vía Nrf2 solo ha sido medida en pacientes con TDAH en una investigación de 2026 con 60 adultos con TDAH en comparación con 60 controles. En esa investigación se encontró que las proteínas de Nrf2 y HO-1 en suero estaban significativamente reducidas en pacientes con TDAH y estaban negativamente correlacionadas con la gravedad de los síntomas [@Gurbuzer2026nrf2adhd]. Esto es consistente con — pero no establece — el eje propuesto aquí: mide las proteínas en suero circulantes, no la translocación nuclear de Nrf2 ni la expresión del gen objetivo NQO1, y se trata únicamente de TDAH en adultos, con un solo estudio.
+- **Ninguna investigación ha medido la translocación nuclear de Nrf2 ni la expresión de NQO1 en células con TDAH.**
+- **No existen datos longitudinales prospectivos sobre TDAH y fatiga** que prueben directamente la cadena de mediación inflamatoria.
+- Las estimaciones de comorbilidades están influenciadas por la superposición en la detección de síntomas.
+- La interacción entre Nrf2 y NLRP3 está bien caracterizada en la biología del redox, pero la afirmación de *transversal entre enfermedades* — que el estado preexistente de TDAH reduce específicamente el umbral de fatiga — es una inferencia, no una medición.
+
+La cadena es mecanísticamente plausible y cada enlace tiene respaldo de forma aislada, pero la cadena como conjunto no ha sido probada.
+
+---
+
+## Qué llevarse a casa
+
+El eje dopamina-Nrf2-NLRP3 ofrece una explicación de **bucle autoamplificador** para un patrón notable: las personas con TDAH experimentan fatiga crónica a aproximadamente el doble de velocidad, y el riesgo elevado está mediado por la inflamación. Conecta tres elementos —dopamina, defensa antioxidante y el interruptor inflamatorio— que normalmente se estudian por separado.
+
+A diferencia de la Parte 1, esta sección **aún no** señala una intervención probada. Agentes que activan Nrf2, como el sulfurofano, existen y son mecanísticamente plausibles, pero no hay ensayos que los hayan probado específicamente contra el eje TDAH-fatiga. Su valor es explicativo y predictivo: identifica un bucle específico y medible y un conjunto de predicciones testables.
+
+La parte alentadora es que las predicciones son económicas y pueden ser probadas con los análisis existentes. Si son correctas, proporcionan un mecanismo biológico concreto para la asociación entre TDAH y fatiga. Si fallan, limitan la búsqueda.
+
+*Esta es la Parte 3 de una serie de cuatro partes sobre la biología del TDAH. La Parte 1 aborda el modelo de energía prefrontal y la hipótesis de tratamiento multivía. La Parte 2 aborda la sección inmune y neuroinflamatoria. La Parte 4 se pregunta cuándo las características similares al TDAH se adquieren y son reversibles. Consulta la [página de lanzamiento de la serie](../adhd-series-landing/index.qmd).*
+
+*Este artículo refleja una hipótesis de investigación registrada con baja confianza, no un hecho clínico establecido.*

@@ -1,0 +1,54 @@
+---
+title: "Causa Raíz ≠ Prioridad del Tratamiento"
+description: "El mecanismo más fundamental y causal en EM/SFC no necesariamente es el objetivo del tratamiento más eficaz. Al principio esto parece incorrecto. Seguramente la causa más fundamental merece la intervención más agresiva, ¿no? La lógica falla de tres maneras distintas, y..."
+author: "Yannick Loth"
+date: "2026-04-07"
+categories: [Causal Hierarchy, Treatment]
+lang: es
+---
+
+El mecanismo más fundamental en EM/SFC no necesariamente es el objetivo de tratamiento más adecuado. Al principio esto parece incorrecto. Seguramente la causa más fundamental merece la intervención más agresiva, ¿no? La lógica falla de tres maneras distintas, y comprender por qué tiene consecuencias reales en cómo piensas sobre la estrategia de tratamiento.
+
+---
+
+## Tres razones por las cuales la causa raíz y la prioridad del tratamiento difieren
+
+La primera es que la causa raíz puede ya no estar presente. La mayoría de los pacientes con EM/SFC son diagnosticados años después del inicio de la enfermedad. El evento desencadenante —una infección viral, un período de estrés fisiológico extremo, una cirugía— se resolvió hace tiempo; el virus se eliminó, el estrés terminó y la herida sanó. Sin embargo, la enfermedad persiste, porque los mecanismos de amplificación que el desencadenante activó se han vuelto autosostenibles. La causa original se ha ido; los bloqueos que estableció permanecen. En esta situación, tratar el desencadenante original no sirve de nada, ya que ya no está activo. La pregunta clínicamente relevante no es “¿qué causó tu EM/SFC?”, sino “¿qué lo mantiene presente ahora?”. Estas pueden ser respuestas muy diferentes [Cap. 16 §Implicaciones del tratamiento de la jerarquía causal].
+
+La segunda razón es que la causa más upstream puede ser la menos accesible. El metabolismo energético del SNC no puede restaurarse directamente con los tratamientos disponibles. No se puede inyectar ATP en el cerebro, reparar el acoplamiento neurovascular farmacológicamente con precisión dirigida, ni revertir la activación de microglía sin una immunosuppresión amplia. El mecanismo causal más fundamental, si es la crisis energética del SNC, también es el menos accesible terapéuticamente con los instrumentos actuales [Cap. 16 §Implicaciones del tratamiento de la jerarquía causal]. Mientras tanto, los amplificadores downstream como la activación de mastocitos (abordable con antihistamínicos y estabilizadores de mastocitos, con perfiles de seguridad establecidos y inicio rápido [Cap. 16 §Bucle de energía de mastocitos]) o la depleción de NAD⁺ (abordable con suplementación de NR/NMN [Cap. 16 §Espiral de depleción de NAD⁺]) ahora son accesibles. Su rango causal puede ser más bajo, pero su rango terapéutico puede ser más alto precisamente porque pueden ser alcanzados.
+
+La tercera razón es que los tratamientos basados en un solo mecanismo fallan por diseño en una enfermedad con múltiples bloques. Incluso si una causa raíz está activa actualmente y es accesible terapéuticamente, tratarla sola puede fracasar. La EM/SFC se mantiene por varios procesos de auto-reforzamiento simultáneamente; si se aborda uno, los otros mantienen el estado de enfermedad de forma independiente. La recuperación requiere liberar suficientes bloques al mismo tiempo para que los restantes ya no puedan sostener el sistema [Cap. 16 §Implicaciones del tratamiento de la jerarquía causal]. La pregunta relevante nunca es “¿qué mecanismo individual deberíamos tratar?”, sino “¿qué combinación de mecanismos, abordados simultáneamente, permite escapar del atractor de la enfermedad?”
+
+---
+
+## La prioridad del tratamiento como producto de dos ejes
+
+La prioridad del tratamiento debe determinarse por el producto de la importancia causal y la tractabilidad terapéutica, no solo por la importancia causal [Cap. 16 §Implicaciones del tratamiento de la jerarquía causal]. Un mecanismo que es altamente causal pero actualmente inaccesible tiene baja prioridad de tratamiento: no se puede tratar lo que no se puede alcanzar. Un mecanismo que es moderadamente causal pero altamente tractable puede tener una clasificación más alta, ya que contribuye a la combinación necesaria para evitar la enfermedad y puede ser actuado de inmediato.
+
+Aplicar este razonamiento a la clasificación completa de mecanismos del Cap. 16 [§Tabla de Prioridad del Tratamiento] produce una clasificación que difiere significativamente de la jerarquía causal. La cadena de autoanticuerpos de GPCR ocupa el primer lugar: es una causa raíz con tractabilidad moderada-alta, ya que la adsorción inmunitaria y la daratumumab demuestran viabilidad en el mundo real y la tasa de respuesta del 60 % en el piloto con daratumumab es una de las más altas reportadas para cualquier intervención EM/SFC — aunque el piloto fue pequeño (n=10) y no controlado [@Fluge2025daratumumab], por lo que la cifra es preliminar [Cap. 16 §Cadena de Autoanticuerpos de GPCR]. El bucle de activación de mastocitos ocupa el segundo lugar, no porque sea causalmente primario, sino porque los antihistamínicos y estabilizadores de mastocitos son seguros, ampliamente disponibles y producen un alivio sintomático rápido, y porque estabilizar este bucle mejora la calidad de vida de inmediato, mientras que los tratamientos más lentos y estructuralmente más fundamentales comienzan a actuar. La depleción de NAD⁺ ocupa el tercer lugar: la suplementación con NR/NMN aborda un amplificador clave de la falla energética, y los beneficios se acumulan a lo largo de semanas sin preocupaciones de seguridad significativas.
+
+La consolidación epigenética ocupa el cuarto lugar, lo cual es notable porque es un amplificador de carga que es difícil de abordar con las herramientas actuales [Cap. 16 §Consolidación Epigenética, §Carga de carga versus bloqueos secundarios]. La implicación más práctica es la prevención: la intervención temprana, antes de que la consolidación se profundice, es mucho más factible que la reversión de una consolidación establecida, y esto argumenta a favor de un tratamiento agresivo temprano en lugar de una estrategia de esperar y ver.
+
+La crisis de energía del SNC, clasificada como el mecanismo más causalmente importante en todo el marco, aparece en el séptimo lugar. Ninguna intervención actual puede abordarla directa y selectivamente; la fotobiomodulación transcraniana, la insulina intranasal y el oxígeno hiperbárico son todas experimentales y con datos limitados específicos para EM/SFC.
+
+---
+
+## ¿Por qué el mecanismo más importante ocupa el séptimo lugar?
+
+La importancia causal y la tractabilidad terapéutica son ejes ortogonales. Un mecanismo puede ocupar la posición más importante en uno de ellos y una posición deficiente en el otro, y la estrategia de tratamiento debe abordar ambos casos. El rango del séptimo lugar en la crisis de energía del SNC no es un error en el razonamiento; es el punto clave.
+
+Esto no significa que los enfoques dirigidos al SNC deban abandonarse. Significa que pertenecen a una posición más inferior en la secuencia inmediata de tratamiento. En la práctica, la secuencia debería ser más o menos la siguiente: comenzar con intervenciones tractables que proporcionen alivio sintomático inmediato, añadir intervenciones dirigidas a la causa raíz donde el mecanismo siga siendo activo y accesible, y incorporar enfoques experimentales dirigidos a mecanismos de baja tractabilidad a medida que se desarrolla la base de evidencia.
+
+---
+
+## Lo que esto predice sobre los ensayos clínicos
+
+La misma lógica explica un patrón que ha frustrado las investigaciones sobre el tratamiento de EM/SFC durante décadas: la desilusión casi universal de los ensayos centrados en un único objetivo. Si la enfermedad es de múltiples bloques y si la prioridad del tratamiento correcto es "accesible y combinable" en lugar de "la más causalmente upstream", entonces un ensayo que pruebe un único agente altamente causal contra placebo está casi garantizado estructuralmente que produzca un resultado modesto o nulo. No porque el agente no funcione, sino porque el diseño del ensayo está probando una única intervención contra una enfermedad que no puede ser movida por intervenciones individuales [Cap. 16 §Implicaciones de la investigación].
+
+El marco lo predice. También sugiere cómo sería un diseño de ensayo más productivo: estratificar según el mecanismo activo, combinar intervenciones que apunten a diferentes partes de la arquitectura del bloque y medir no solo la mejoría de los síntomas, sino también los cambios en la trayectoria de la enfermedad [Cap. 16 §Implicaciones de la investigación].
+
+---
+
+*Artículo anterior de esta serie: Paredes que soportan carga vs. paredes interiores (2026-04-04)*
+
+*Siguiente: Por qué los tratamientos dirigidos a un solo objetivo siguen fallando en EM/SFC — el modelo de trampa de múltiples bloqueos y lo que predice sobre el diseño del tratamiento*

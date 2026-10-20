@@ -1,0 +1,26 @@
+---
+title: "El sistema de arousal: una serie de blog sobre noradrenalina en EM/SFC"
+description: "La noradrenalina suele llamarse la sustancia química que mantiene alerta al cerebro. En EM/SFC, puede estar realizando algo más estructural — y la evidencia es tanto prometedora como escasa."
+author: "Yannick Loth"
+date: "2026-09-14"
+categories: [Arousal system, Noradrenergic, Mechanisms]
+lang: es
+---
+
+Esta serie analiza uno de los temas más recientes en la investigación de EM/SFC: un **deficiente selectivo de noradrenalina central** —el principal transmisor de excitación del cerebro— y lo que podría explicar.
+
+No es una promesa. El hallazgo principal proviene de un único estudio pequeño y no ha sido replicado. Pero conecta varias manifestaciones que los pacientes reportan —intolerancia al esfuerzo, sueño insatisfactorio, "con energía pero cansado"— con un sistema medible, y hace predicciones verificables.
+
+**Los apartados:**
+
+1. [La noradrenalina no es un combustible, es un regulador](../what-norepinephrine-really-does/)
+2. [Por qué EM/SFC podría tener baja noradrenalina pero normal dopamina](../selective-norepinephrine-deficit/)
+3. [El ciclo que podría mantener EM/SFC activa](../the-loop-that-keeps-itself-going/)
+4. [Lo que una "drogas de noradrenalina" puede y no puede hacer](../what-a-norepinephrine-drug-can-and-cannot-do/)
+5. [Con energía pero cansado: una excitación que no se apaga](../arousal-that-wont-switch-off/)
+6. [Un mecanismo sin pastilla: el vago y el locus coeruleus](../the-vagus-norepinephrine-lever/)
+7. [Pupilas, agarre y una proporción de orina: probar el sistema sin punción lumbar](../testing-the-axis-without-a-lumbar-puncture/)
+8. [No, todavía no es ácido láctico, pero la noradrenalina forma parte de la historia del combustible](../not-lactic-acid-norepinephrine-and-fuel/)
+9. [El triángulo de noradrenalina: narcolepsia, POTS y EM/SFC](../the-norepinephrine-triangle/)
+
+*Una advertencia que atraviesa toda la serie: el hallazgo central se basa en un grupo de 16 pacientes no replicado (@Aregawi2026Noradrenergic). Todo lo que sigue es una hipótesis construida sobre él.*

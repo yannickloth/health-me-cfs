@@ -1,0 +1,102 @@
+---
+title: "Artículo 1 sobre fibromialgia: El dolor que no es muscular — Dolor de patrón de fibromialgia en EM/SFC y por qué tu sistema nervioso ha intensificado la sensación de dolor"
+description: "Una guía sencilla sobre el dolor de patrón de fibromialgia y cómo se superpone con EM/SFC — por qué el dolor aparece sin daño tisular, cómo los canales TRPV1 y TRPA1 permanecen abiertos, el bucle de retroalimentación COX-2/PGE2 que hace que el calor corporal se sienta como una quemadura, el híbrido niocriptico-neurópático y la diferencia entre la fibromialgia por sí misma y el dolor de fibromialgia sobre EM/SFC."
+author: "Yannick Loth"
+date: "2026-08-09"
+categories: [Fibromyalgia, Pain, ME/CFS, Pathophysiology]
+lang: es
+---
+
+Duele en todas partes, pero no hay daño en los tejidos. Si presionas un músculo, sientes dolor, pero la resonancia magnética es limpia, los análisis de sangre son normales y el reumatólogo dice que no hay inflamación. El brillo incorrecto duele. Calidez y ruido se extienden. Un toque ligero en el brazo persiste como una sensación ardiente después de minutos después de que la mano se aleje. Dolor sin daño: tu sistema nervioso ha aumentado el nivel de dolor, y nadie lo ha reducido.
+
+Ahora añade el resto de los síntomas de EM/SFC: la fatiga crítica, el sueño insatisfactorio, la niebla cerebral. Entre el 47% y el 76% de los pacientes con EM/SFC cumplen los criterios para fibromialgia — y este subgrupo presenta más dolor, peor función y un mayor número de otros síntomas [@RamirezMorales2022overlap].
+
+Este artículo es una visión conceptual. Qué es realmente el dolor de patrón de fibromialgia, cómo funciona la sensibilización central, los canales TRPV1/TRPA1 que permanecen abiertos, el bucle de alimentación forward de COX-2/PGE2 que hace que la temperatura corporal normal parezca ardor, el híbrido neuropatológico noplastico y la diferencia entre la fibromialgia por sí misma y el dolor de fibromialgia *sobre* EM/SFC. Los tratamientos — LDN, SNRIs, gabapentinoides, inhibidores de COX-2, PEA, antagonistas de NMDA — están cubiertos en el [artículo de tratamientos complementarios](../fibromyalgia-pain-treatment/index.qmd).
+
+---
+
+## Primero, una advertencia simple
+
+*Esto es una explicación, no consejos de auto-medicación, y no soy médico. El dolor generalizado en EM/SFC puede tener causas tratables — neuropatía de fibras pequeñas, MCAS, dolor articular relacionado con la hipermovilabilidad y deficiencias de vitaminas — y estas deben evaluarse antes de concluir que el dolor es puramente nociplástico. Los medicamentos que se mencionan a continuación requieren un prescriptor. Si tienes dolor severo de aparición reciente, debilidad focal o pérdida de control intestinal o urinario, acuda a un hospital.*
+
+---
+
+## La versión breve, si solo lees una parte
+
+- **Fibromialgia** es un trastorno de dolor crónico definido por dolor generalizado, fatiga y síntomas cognitivos — pero a diferencia de EM/SFC, no tiene PEM como característica principal. La superposición con EM/SFC es significativa: una meta-análisis indica un promedio de aproximadamente el 47%, pero con una heterogeneidad muy alta entre estudios (I²=98%) debido a que los criterios de diagnóstico varían ampliamente, por lo que las estimaciones individuales varían desde aproximadamente el 47% hasta el 70% [@RamirezMorales2022overlap].
+- **Sensibilización central** — la médula espinal y el cerebro que amplifican las señales de dolor — es ampliamente considerada como el mecanismo dominante en ambas condiciones, y los estudios basados en QST reportan que ocurre en la gran mayoría de los pacientes. Una advertencia que el resto de esta serie insistiría en: la sensibilización central se infiere a partir de pruebas psicofísicas (pruebas sensoriales cuantitativas), no de un biomarcador medido directamente, y las estimaciones de prevalencia dependen de los umbrales de QST utilizados — el mismo escepticismo hacia las mediciones que esta serie aplica a los umbrales de POTS y a los ensayos de GPCR también se aplica aquí [@Nijs2021sensitization].
+- **Los canales TRPV1 y TRPA1 en los nervios sensoriales están abiertos.** TRPV1 es el receptor de calor y capsaínas — normalmente activado a ~43°C, pero en el estado sensibilizado, los prostaglandinas inflamatorias reducen su umbral a la temperatura corporal (~35°C), haciendo que el calor normal sea doloroso. TRPA1 es el sensor del estrés oxidativo — activado por ROS, H₂O₂ y aldehídos reactivos que se acumulan durante PEM [@Macpherson2007].
+- **El dolor no está “en tu cabeza” — está en tus canales de iones, tu médula espinal y tus pequeñas fibras nerviosas.** Y en el caso específico de EM/SFC, es amplificado por mecanismos post-exercicio (ASIC3, P2X4, TLR4) que no operan en la fibromialgia por sí sola — por eso PEM empeora el dolor.
+- **La distinción es importante.** Fibromialgia sola: tratar la amplificación central. Fibromialgia en EM/SFC: tratar la amplificación central MÁS la re-sensibilización impulsada por PEM que mantiene reactivando el dolor después de cada crisis.
+
+---
+
+## ¿Qué es la sensibilización central, en serio?
+
+En un sistema nervioso saludable, un estímulo doloroso —calor, presión, una herida— activa los nociceptores (extremos nerviosos sensoriales del dolor) en el tejido periférico. La señal se transmite al cordón espinal, donde es modulada —amplificada o suprimida— por vías descendentes desde el tronco encefálico antes de llegar a la conciencia. El sistema tiene un control de ganancia: cuando estás en peligro, el tronco encefálico disinhibe el cordón espinal, haciéndote más sensible al dolor (útil para luchar o huir mientras estás lesionado). Cuando el peligro pasa, la ganancia se reduce de nuevo.
+
+En la sensibilización central, la ganancia se mantiene alta. Tres procesos convergen:
+
+1. **Sumación temporal mejorada (wind-up).** Estímulos idénticos repetidos producen respuestas dolorosas cada vez más grandes —el cordón espinal amplifica en lugar de habituarse. Esto depende de las receptores NMDA y es uno de los hallazgos QST más reproducibles en la fibromialgia.
+
+2. **Modulación dolorosa condicionada deficiente (CPM).** En una persona saludable, un estímulo doloroso en una área (por ejemplo, agua fría en la mano) reduce la sensibilidad al dolor en otras áreas —el fenómeno de “el dolor inhibe el dolor”, mediado por vías noradrenérgicas y serotonérgicas descendentes desde el tronco encefálico. En la fibromialgia y la EM/SFC, este sistema inhibitorio es débil o ausente —el cerebro no puede reducir el volumen [@Nijs2017neuroinflammation].
+
+3. **Activación glial.** Las microglía y los astrocitos en el cordón espinal y el cerebro se activan —liberan citocinas proinflamatorias (IL-1β, TNF-α, IL-6) y especies reactivas de oxígeno que sensibilizan los neuronos cercanos. Esto no es “inflamación” en el sentido reumatológico —el CRP y el ESR son normales. Es neuroinflamación, invisible para los análisis de sangre estándar, medible solo por imagenación PET o análisis de líquido cefalorraquídeo.
+
+El resultado: una presión que debería sentirse como toque se siente como dolor (allodinia). Un calor que debería sentirse neutro se siente como ardor (hiperalgesia por calor). Un dolor que debería ser localizado se extiende a áreas adyacentes (hiperalgesia secundaria). **El estímulo es real. La amplificación es patológica.**
+
+---
+
+## TRPV1 y TRPA1: los canales que permanecen abiertos
+
+### TRPV1: por qué el calor corporal duele
+
+TRPV1 es el "receptor capsaicinico" — un canal iónico permeable a calcio en pequeñas fibras nerviosas sensoriales que se abre en respuesta al calor (>43°C), protones (acidez tisular) y capsaicin. En una persona saludable, TRPV1 es un interruptor de seguridad térmica: se activa cuando la temperatura tisular se acerca al umbral de daño.
+
+En estado sensibilizado, **prostaglandina E₂ (PGE₂)**, liberada por tejidos inflamados o estresados, se une a receptores EP1 en las terminales nerviosas que expresan TRPV1. Esto reduce químicamente el umbral térmico de TRPV1 — de ~43°C a tan solo ~35°C, que es la temperatura corporal normal [@Moriyama2005]. El resultado: el calor de una manta se siente como una quemadura. Una ducha caliente es insoportable. El calor corporal — generado por el metabolismo normal — es suficiente para mantener TRPV1 parcialmente abierto, produciendo una sensación de quemadura leve y continua en reposo.
+
+El problema de la PGE₂ se amplifica por sí mismo. La activación de TRPV1 aumenta la expresión de **COX-2** en ~30 minutos, produciendo más PGE₂, lo que reduce aún más el umbral de TRPV1 — un bucle de retroalimentación que se sostiene sin necesidad de daño tisular continuo [@Moriyama2005]. Una vez establecido, el bucle funciona de forma autónoma.
+
+**Un TRPV1 vascular distinto** en el músculo liso arterial complica la situación. A diferencia del TRPV1 neuronal, el TRPV1 vascular causa *vasoconstricción* y no desensibiliza. Durante PEM, los lípidos inflamatorios (LPA) activan el TRPV1 vascular, empeorando la perfusión muscular — un mecanismo que podría explicar por qué el dolor muscular post-exercicio en EM/SFC es desproporcionado en comparación con el ejercicio realizado [@Phan2020trpv1arterial].
+
+### TRPA1: por qué el estrés oxidativo duele
+
+TRPA1 es el "receptor wasabi" — activado por aceite de mostaza, ajo y irritantes ambientales. Pero su desencadenante fisiológico es el **estrés oxidativo**: especies reactivas de oxígeno (H₂O₂), aldehídos reactivos (4-HNE, provenientes de peroxidación de lípidos) y electrófilos modifican residuos de cisteína específicos en TRPA1, abriendo el canal [@Macpherson2007].
+
+Durante PEM, la disfunción mitocondrial genera una explosión de ROS. La microlesión del músculo esquelético libera productos de peroxidación de lípidos. La señal de estrés oxidativo activa directamente TRPA1 en las terminales nerviosas sensoriales, produciendo una señal de dolor que no tiene correlación mecánica — el músculo no está dañado de ninguna manera visible en las imágenes, pero el nervio reporta daño porque TRPA1 fue abierto químicamente por las consecuencias metabólicas del ejercicio.
+
+TRPA1 también se expresa en **células de Schwann** — las células gliales que envuelven los nervios periféricos. Cuando TRPA1 en las células de Schwann es activada por ROS, la célula de Schwann libera prostaglandinas, citocinas y CGRP en el espacio endotelial, provocando una inflamación neurogénica *dentro de la vaina nerviosa* — independientemente de la lesión axonal. Este es un mecanismo plausible para el dolor de vaina nerviosa que los pacientes con SFN describen: el tronco nervioso en sí está inflamado, no solo los terminales [@Loth2026website].
+
+---
+
+## El híbrido nociplástico-neuropático
+
+Una de las ideas centrales del documento sobre el dolor en EM/SFC es que la mayoría de los pacientes no presentan dolor puramente nociplástico ni puramente neuropático; tienen ambos, y la interacción entre ellos hace que el dolor sea peor que cualquiera de ellos por separado [@Loth2026website].
+
+- **La componente neuropática** proviene de SFN: se pierden las pequeñas fibras (confirmado mediante biopsia en 30–38%), y las fibras restantes son hiperexcitables debido a la sensibilización de la triptasa de los mastocitos a PAR2. Esto produce la sensación de ardor, chisporronamiento y shock eléctrico que los cuestionarios de dolor neuropático detectan.
+- **La componente nociplástica** proviene de la sensibilización central: la médula espinal y el cerebro amplifican la señal de esas fibras hiperexcitables. Esto genera el dolor generalizado, sensible a la presión y multisensorial que los criterios de fibromialgia identifican.
+- **PEM amplifica ambos**. La acidosis post-exercicio activa los canales ASIC3 en los nervios sensoriales; el ATP liberado por el músculo estresado metabólicamente activa los receptores P2X4 en la microglía; el TLR4 en la microglía es activado por DAMPs provenientes del estrés tisular. Estas tres señales convergen para re-sensibilizar todo el camino del dolor cada vez que el paciente supera su envelope energético. Por esta razón, el dolor es peor después de crisis — y por esta razón, el dolor en EM/SFC es más resistente al tratamiento que el dolor en fibromialgia por sí solo: la entrada de re-sensibilización continúa llegando [@Loth2026website].
+
+---
+
+## Fibromialgia por sí sola vs EM/SFC con dolor de patrón de fibromialgia
+
+**Fibromialgia por sí sola (sin EM/SFC).** La fibromialgia es un trastorno de dolor crónico. La sensibilización central, la inhibición descendente deficiente y la activación glial son los mecanismos predominantes. El tratamiento se centra en la amplificación central: SNRIs, gabapentoides, LDN, antagonistas de NMDA. El dolor es incapacitante, pero no empeora de forma retrasada y predecible después de un mínimo esfuerzo como ocurre en la PEM. El ejercicio que podría provocar una crisis en EM/SFC puede ser tolerado —o incluso terapéutico— en la fibromialgia pura.
+
+**EM/SFC con dolor de patrón de fibromialgia (la situación de esta serie).** Cuando el dolor de fibromialgia se suma a la EM/SFC, tres cosas son diferentes:
+
+- **La PEM amplifica el dolor.** La re-sensibilización post-esfuerzo ASIC3/P2X4/TLR4 significa que cada crisis es un brote de dolor. El envelope energético y el envelope de dolor están vinculados —no se puede tratar uno sin respetar el otro [@Loth2026website].
+- **La ventana de tratamiento es más estrecha.** Los SNRIs y gabapentoides que son bien tolerados en la fibromialgia pura pueden empeorar la niebla cerebral y la fatiga en EM/SFC. Los antagonistas de NMDA (ketamina) que son efectivos para el dolor de fibromialgia pueden ser demasiado disociativos para alguien con disfunción cognitiva en EM/SFC.
+- **Tratar el dolor no soluciona la falla energética.** El alivio del dolor vale la pena —mejora el sueño, reduce el coste metabólico de estar con dolor y preserva la función. Pero el alivio del dolor no restaura la función mitocondrial, elimina la desregulación inmunitaria o revierte la hipoperfusión cerebral. Solo trata un amplificador en un sistema de múltiples amplificadores.
+
+---
+
+## La conclusión principal
+
+El dolor de patrón de fibromialgia es real en EM/SFC: una gran parte de los pacientes (comúnmente ~47%, que puede ser mayor con criterios más flexibles) cumple con los criterios — y está causado por sensibilización central (ampliamente considerada dominante en la gran mayoría), canales TRPV1/TRPA1 bloqueados y abiertos, un ciclo self-sustaining de COX-2/PGE₂, y re-sensibilización impulsada por PEM que la fibromialgia por sí sola no presenta [@RamirezMorales2022overlap][@Nijs2021sensitization].
+
+La lectura es la siguiente: el dolor es un amplificador del trastorno inmune-energético más amplio, no de la enfermedad central. Tratarlo mejora la calidad de vida; no soluciona la crisis. [El artículo complementario de tratamiento](../fibromyalgia-pain-treatment/index.qmd) aborda el enfoque multimodal — LDN, SNRIs, gabapentinoides, inhibidores de COX-2, PEA y la dosis consciente de PEM que diferencia la gestión del dolor en EM/SFC de la atención estándar para la fibromialgia.
+
+**Próximo en esta mini-serie:** cómo tratar realmente el dolor — los medicamentos, la dosis y la discusión sobre “¿qué pasaría si no ayuda nada” [[ver el artículo complementario]](../fibromyalgia-pain-treatment/index.qmd).
+
+Para una imagen completa y totalmente citada de cómo se evalúa el dolor de patrón de fibromialgia entre los muchos mecanismos candidatos en EM/SFC, véase [@Loth2026website].

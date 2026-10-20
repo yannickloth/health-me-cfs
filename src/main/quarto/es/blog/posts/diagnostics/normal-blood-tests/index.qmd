@@ -1,0 +1,104 @@
+---
+title: "Tus pruebas de sangre fueron normales: Lo que los laboratorios estándar no pueden detectar"
+description: "Ferritina 22 ng/mL. Rango de referencia: 10-200. Resultado: normal. No se requiere ninguna acción."
+author: "Yannick Loth"
+date: "2026-06-06"
+categories: [Diagnostics, Misdiagnosis]
+lang: es
+---
+
+Ferritina 22 ng/mL. Rango de referencia: 10-200. Resultado: normal. No se requiere ninguna acción.
+
+Eso es lo que dice el informe de laboratorio. Lo que no dice es que la ferritina debe estar por encima de 50 — posiblemente por encima de 100 — antes de que las enzimas dependientes de hierro en las mitocondria tengan suficiente sustrato para funcionar a su máxima capacidad. El rango de referencia se basa en un grupo de pacientes hospitalizados que incluye personas con enfermedades crónicas, inflamación y sobrecarga de hierro, y que "por encima del 2.5% inferior" no significa "suficiente para una producción de energía celular óptima".
+
+Estás en estado de déficit de hierro según cualquier estándar funcional. El laboratorio dice que estás bien. Tu médico confía en el laboratorio. Vuelves a casa sin tratamiento y con la certeza silenciosa de que la medicina no te ha ayudado.
+
+Esto no es una historia sobre hierro. Es la historia de cada micronutriente, cada hormona y cada biomarcador de los que dependen los pacientes con EM/SFC — y es la historia de por qué "tus pruebas de sangre fueron normales" se ha convertido en la frase más destructiva en la atención a las enfermedades crónicas.
+
+---
+
+## El problema de los rangos de referencia
+
+Los rangos de referencia de laboratorio se establecen mediante la muestra de una población y la determinación de los percentiles 2.5 y 97.5. Cualquier valor que se encuentre entre esas líneas se considera "normal". Esto implica tres supuestos implícitos, ninguno de los cuales es válido en condiciones de fallo energético crónico.
+
+En primer lugar, la población de referencia no es una población saludable. Se trata de todas las personas que tuvieron su sangre analizada en ese laboratorio. Los laboratorios hospitalarios —donde provienen la mayoría de los rangos de referencia— extraen sangre de personas enfermas, ancianas y que presentan dificultades de salud. Los valores de referencia comunitarios son diferentes de los valores de funcionamiento óptimo, y la diferencia entre "no detectado" y "suficiente para el rendimiento celular máximo" puede ser enorme.
+
+En segundo lugar, este rango describe una distribución estadística, no un requisito fisiológico. No existe una razón biológica para creer que el tercer percentil de ferritina en una población hospitalaria represente la cantidad mínima de hierro necesaria para la función mitocondrial. Las necesidades del cuerpo no se organizan según estadísticas de población. Una ferritina de 15 evita que desarrolles una anemia por déficit de hierro evidente. No mantiene satisfecho el citocromo c oxidasa.
+
+En tercer lugar, los rangos de referencia tratan cada analito de forma aislada. Una ferritina de 30 en alguien con deficiencia de B12 simultánea y magnesio bajo es una situación fisiológica diferente de una ferritina de 30 en alguien cuyos otros cofactores están en cantidad suficiente. Las interacciones entre las deficiencias son multiplicativas, no aditivas. Pero cada resultado de laboratorio llega por separado, evaluado contra su propio rango de referencia, creando la ilusión de que "todos los resultados son normales" significa "todos los sistemas funcionan bien".
+
+---
+
+## Hierro: el espacio de 15 años en el diagnóstico
+
+El hierro es el ejemplo más claro. Ahora existen pruebas sólidas de que la deficiencia de hierro causa fatiga, disfunción cognitiva y intolerancia al ejercicio a niveles de ferritina muy por encima del umbral estándar de anemia.
+
+[@Vaucher2012] demostró en un ensayo controlado aleatorizado que el hierro intravenoso mejoró la fatiga en mujeres no anemias con ferritina por debajo de 50 ng/mL — mujeres cuyos resultados de laboratorio eran “normales” según los criterios convencionales. [@Krayenbuehl2011] mostró que la gravedad de la fatiga se correlacionaba con niveles de ferritina por debajo de 100, y no por debajo de 15. La OMS define la deficiencia de hierro como ferritina por debajo de 15. Tus células lo definen como “no suficiente para lo que necesito”, lo cual para las enzimas mitocondriales es considerablemente mayor.
+
+El espacio entre estos umbrales — el espacio de 15 años entre la depleción funcional de hierro y una señal anormal en los resultados de laboratorio — es el lugar en el que los pacientes viven con fatiga tratable y se les dice que están bien. Para los pacientes de EM/SFC, cuya capacidad de producción de energía ya está comprometida por otros mecanismos, un nivel de ferritina de 25 no es una suboptimidad menor. Es otro peso en un sistema que ya está al límite.
+
+---
+
+## Magnesio: la medida que no funciona
+
+El magnesio en suero es la prueba que se solicita con mayor frecuencia. También es prácticamente inútil. Menos del 1% del magnesio total del cuerpo se encuentra en la sangre. El cuerpo defiende el magnesio en suero con extraordinaria energía —extraéndolo de los huesos, de los músculos, de los almacenes intracelulares— porque el ritmo cardíaco depende de él. Para cuando el magnesio en suero cae por debajo del rango de referencia, el magnesio intracelular ya ha sido agotado durante meses.
+
+El magnesio en glóbulos rojos es ligeramente mejor, pero aún no refleja lo que realmente importa: el magnesio unido a ATP dentro de las mitocondria. El ATP es biológicamente inactivo sin magnesio. Existe en forma de Mg-ATP, y esa es la forma reconocida por todas las quinasas del cuerpo. Una célula puede tener suficiente ATP y ATP unido al magnesio insuficiente, y ninguna prueba de laboratorio estándar mide este último.
+
+La consecuencia práctica: un paciente que toma 400 mg de magnesio glicinato diariamente y que "obtuvo resultados normales" en la prueba de magnesio en suero, puede realmente estar mejorando su producción de energía celular de una manera que ninguna prueba de sangre podrá confirmar o negar. La prueba y la biología operan en dominios diferentes.
+
+---
+
+## B12: daño neurológico antes de los cambios en el perfil sanguíneo
+
+La deficiencia de vitamina B12 sigue el mismo patrón, pero con una crueldad adicional: el daño neurológico comienza antes de que aparezcan cambios hematológicos. Un paciente puede presentar degeneración subaguda combinada del cordón espinal —daño nervioso irreversible— con un perfil sanguíneo completo “normal”. La anemia macrocítica que los libros de texto describen como el signo distintivo de la deficiencia de B12 es un hallazgo tardío, no temprano.
+
+Un B12 en suero por debajo de 200 pg/mL se considera deficiente. Pero una insuficiencia funcional de B12 —disminución de la metilación, homocisteína elevada, disminución de la síntesis de mielina— puede ocurrir en niveles hasta 400-500 pg/mL, dependiendo de los polimorfismos genéticos en los genes MTHFR y TCN2. El ácido metilmalónico (MMA) y la homocisteína son marcadores funcionales más adecuados, pero no se solicitan a menos que alguien se pregunte por ello.
+
+Para pacientes con EM/SFC, donde está documentada una disfunción de metilación y donde los síntomas neurológicos (niebla cerebral, neuropatía periférica, declive cognitivo) son características principales, un B12 de 250 pg/mL no es tranquilizador. Es un factor que puede ser tratable y que contribuye a un complejo de síntomas con el que el paciente ha sido instruido a convivir.
+
+---
+
+## Vitamina D: el "suficiente" se negoció, no se descubrió
+
+El umbral para la suficiencia de vitamina D — 30 ng/mL (75 nmol/L) en la mayoría de los laboratorios — se estableció para prevenir raquitismo y osteomalacia. Nunca se estableció con el objetivo de optimizar la función inmunitaria, la biogénesis mitocondrial o la modulación inflamatoria [@Holick2007vitaminD]. Estos efectos requieren niveles más altos, y la evidencia de su beneficio continúa hasta al menos 50-60 ng/mL.
+
+Un paciente con 32 ng/mL tiene un nivel de vitamina D "normal". También tiene un nivel en el que la función de las células T reguladoras inmunitarias es subóptima [@Bscheider2016vitaminD], donde la transcripción génica mediada por el receptor de vitamina D en las células inmunitarias no está completamente activada, y donde los efectos antiinflamatorios de la vitamina D sobre el inflamasoma NLRP3 son incompletos.
+
+Para un paciente con EM/SFC, donde la desregulación inmunitaria y la inflamación crónica son la fisiopatología central, una vitamina D de 32 no es suficiente. Está por encima del umbral para la enfermedad ósea. Está por debajo del umbral para la optimización inmunitaria. Y el informe de laboratorio dice "normal".
+
+---
+
+## El patrón
+
+Cada uno de estos casos sigue la misma estructura:
+
+1. Se establece un rango de referencia basado en la prevención de enfermedades clínicas evidentes en una población general.
+2. Un paciente con enfermedad crónica y compleja se encuentra dentro de ese rango.
+3. El médico lee "normal" y continúa con su trabajo.
+4. El paciente sigue siendo funcionalmente deficiente de una manera individualmente modesta, pero colectivamente devastadora cuando tres o cuatro resultados "normales" representan una entrada subóptima en el mismo sistema de producción de energía.
+
+El problema no es que la medicina de laboratorio esté equivocada. Los rangos de referencia hacen lo que se diseñó para hacer: identificar patologías evidentes. El problema es que "dentro del rango de referencia" ha sido asociado culturalmente con "sin problema", y para los pacientes que se encuentran en los límites de la suficiencia energética, el espacio entre "no marcado" y "óptimo" es donde se encuentra la posibilidad de tratamiento.
+
+---
+
+## ¿Qué significa esto en la práctica
+
+Esto no es una argumentación para ignorar los rangos de los análisis de laboratorio o buscar cada valor hasta el 95º percentil. Es una argumentación en favor del contexto clínico.
+
+Una ferritina de 22 en un atleta de 25 años, de otro modo saludable, podría no requerir ninguna acción. Pero una ferritina de 22 en un paciente con EM/SFC, con intolerancia al ejercicio documentada, daño confirmado en las mitocondria y otros tres cofactores borderline, es una situación clínica diferente que exige una respuesta diferente.
+
+Los análisis que se ordenan más allá de los paneles estándar no son exóticos:
+
+- **Ferritina** (con contexto: si la ferritina está por debajo de aproximadamente 50–100 µg/L en un paciente sintomático, la repleción vale la pena de discusión con su médico, incluso sin anemia — el hierro es una terapia activa con riesgos reales, no algo que se inicie sin monitoreo)
+- **Magnesio en glóbulos rojos** (impreciso pero mejor que el suero)
+- **Ácido metilmalónico + homocisteína** (estado funcional de B12/folato)
+- **Vitamina D 25-OH** (objetivo 50-60 ng/mL, no solo "por encima de 30")
+- **Panel completo de tiroides** (TSH + T3 libre + T4 libre + anticuerpos — no solo TSH)
+- **Insulina en ayuno + HOMA-IR** (función metabólica, no solo glucosa en ayuno)
+
+Ninguno de estos costa más de unas pocascientas euros. Todos identifican contribuyentes tratables de la fatiga que los paneles estándar pasan por alto.
+
+Cuando los análisis de sangre de un paciente crónicamente enfermo resultan "normales", la respuesta clínica no debería ser "buenas noticias, nada mal". Debería ser: "nada anormal dentro del rango de referencia — pero veamos si estos niveles son adecuados para lo que tu cuerpo realmente necesita [@Loth2026website]".
+
+---

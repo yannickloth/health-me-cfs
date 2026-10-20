@@ -1,0 +1,126 @@
+---
+title: "La formación médica enseña un nivel de abstracción incorrecto"
+description: "Un paciente llega con décadas de sueño no restablecido — presente desde la adolescencia, y documentado años después mediante un estudio del sueño que muestra algo específico. La grabación indica una duración normal de sueño de ondas lentas profundas, pero con un 5–6% de onda alfa int..."
+author: "Yannick Loth"
+date: "2026-04-06"
+categories: [Medical Education, Systems Medicine]
+lang: es
+---
+
+Un paciente llega con décadas de sueño no reparable — presente desde la adolescencia, y documentado años después mediante un estudio del sueño que muestra algo específico. La grabación revela una duración normal de sueño profundo de ondas lentas, pero con 5–6% de intrusiones de ondas alfa: oscilaciones cerebrales que despiertan contaminando el sueño de ondas lentas a una tasa de varios minutos por hora. El mecanismo del circuito tálamo en el fondo de este hallazgo está descrito en la literatura de investigación [@timofeev2015thalamic]. Una consecuencia plausible, respaldada principalmente por evidencia de modelos animales, es que el aclaramiento glifático —que parece depender de la actividad de ondas lentas no perturbada— está dañado durante el sueño contaminado, permitiendo que los residuos metabólicos acumulen en el tejido cerebral; el paciente se despierta agotado, independientemente de cuántas horas haya dormido. El gabapentina, un medicamento ya en uso clínico común durante décadas, actúa sobre este circuito reduciendo la excitabilidad de los canales de calcio en el tálamo, y una hipótesis mecánica razonable es que podría suprimir las oscilaciones anormales en su origen.
+
+A pesar de todo esto, el medicamento no se receta — ni después del estudio del sueño, ni después del referimiento de neurología, ni después de años de seguimiento. Los datos no estaban ausentes y el mecanismo no era desconocido. Una posible interpretación es que el obstáculo para la prescripción fue práctico: uso fuera de la indicación, una base de evidencia escasa para esta indicación específica y precaución razonable. Otra es que lo que faltaba era un marco para vincular el hallazgo documentado con la farmacología disponible. Ambos podrían ser verdaderos al mismo tiempo, y ninguno excusa al otro.
+
+---
+
+## Primero, los números
+
+El ICD-11, la actual clasificación internacional de enfermedades, contiene aproximadamente **17,000 categorías de diagnóstico** y más de **130,000 términos clínicos** [@WHOICD11]. Esto es lo que la formación médica se organiza en torno a: una enorme taxonomía de condiciones nombradas, cada una con sus propios criterios, su propio protocolo y su propio especialista.
+
+Una forma propuesta de organizar la biología subyacente agrupa esas 17,000 condiciones en aproximadamente **20 familias de mecanismos fundamentales**, cada una conteniendo múltiples mecanismos concretos — aproximadamente 80–100 mecanismos distintos en total, dependiendo del nivel de resolución en el que se cuente. La cantidad y los límites de estas familias dependen de la granularidad elegida; lo que sigue es una posible descomposición, ofrecida como un marco organizador más que como un consenso científico establecido:
+
+- Regulación energética y metabólica (disfunción mitocondrial, bloqueo PDH/PDK, desplazamiento glicolítico, depleción de NAD⁺)
+- Equilibrio redox y oxidativo (sobreproducción de ROS/RNS, peroxidación de lípidos, estrés nitrosativo)
+- Canales iónicos y transporte de membrana (patologías de canales, rigidez de membrana, fallo en la señalización de Ca²⁺)
+- Activación inmunitaria y señalización de citocinas (hiperactivación innata, agotamiento de NK, complemento)
+- Autoinmunidad y mimetismo molecular (anticuerpos autoantígenos, desvío inmunitario postviral)
+- Coagulación y hematológica (formación de microcoágulos, hiperactivación de plaquetas, hipercoagulabilidad)
+- Disfunción vascular y endotelial (fallo endotelial, hipoperfusión cerebral, paradoja RAAS)
+- Sistema nervioso autónomo y periférico (POTS, fallo del barorreflejo, neuropatía de fibras pequeñas)
+- Regulación neuroendocrina y hormonal (desvanecimiento HPA, fallo de conversión tiroidea, hormonas sexuales)
+- Neuroloja y thalamocortical (neuroinflamación, desequilibrio E/I, intrusion alfa, fallo glifático)
+- Metabolismo de aminoácidos y neurotransmisores (IDO/quinurenina, depleción de serotonina, vía NAD⁺)
+- Regulación genómica y epigenética (señales de metilación, atricción de telómeros, bloqueo epigenético postviral)
+- Homeostasis y degradación de proteínas (desregulación HSP, fallo de autofagia, agregación)
+- Muerte celular y senescencia (agotamiento, SASP, piroptosis, ferroptosis)
+- Eje intestino-microbioma-inmune (disbiosis, intestino permeable, translocación LPS, eje intestino-cérebro)
+- Persistencia viral y evasión inmune (reactivación de herpesvirus, persistencia de enterovirus)
+- Integridad estructural y tisular (daño muscular, rarefacción capilar, pérdida de fibras nerviosas)
+- Señalización transcripcional y nuclear (NF-κB, Nrf2, desregulación de receptores nucleares)
+- Señalización purinergética y de peligro (ATP-DAMP, P2X7, respuesta celular de peligro, NLRP3)
+
+Bajo este marco, las 17,000 enfermedades no son 17,000 fenómenos independientes, sino diferentes combinaciones y expresiones tisulares de un conjunto más pequeño de familias de mecanismos — y la gran cantidad de enfermedades nombradas se debe en parte a que sus combinaciones, expresadas en diferentes tejidos, edades, gravedades y desencadenantes, producen una enorme variedad de imágenes clínicas distintas. Las categorías de diagnóstico tienen un valor real: codifican tasas base epidemiológicas, pronóstico y datos de respuesta al tratamiento acumulados en millones de pacientes. El argumento no es que las categorías deban ser descartadas, sino que la formación médica se organiza casi exclusivamente en torno a esas 17,000 categorías, y que la capa de mecanismos subyacentes — la que se comparte entre las condiciones — recibe relativamente poco énfasis en el razonamiento clínico.
+
+---
+
+## Cómo se presenta el modo de fallo a gran escala
+
+Los errores de diagnóstico causan, según estimaciones, **800,000 muertes o discapacidades permanentes al año solo en los Estados Unidos**, lo que hace que el error de diagnóstico sea la principal fuente de daño grave por error médico — más grande que los errores de medicación y más grande que las complicaciones quirúrgicas [@NewmanToker2023diagnosticError]. Solo en los servicios de emergencia, aproximadamente **7.4 millones de pacientes al año son diagnosticados incorrectamente** de entre 130 millones de visitas anuales, lo que equivale a casi 1 en 18 [@AHRQ2022diagnosticErrors].
+
+Estos números reflejan los daños agudos y medibles causados por un diagnóstico incorrecto: la identificación errónea que lleva a la omisión del tratamiento y a un deterioro medible. Son una categoría diferente de fallo en comparación con la que se aborda en este artículo, que se refiere a un *diagnóstico correcto* acompañado de una *imagen mecánica incompleta*: el paciente es etiquetado correctamente como EM/SFC, se identifica correctamente como alguien con sueño no restaurador, pero su mecanismo específico de desregulación del sueño nunca se caracteriza ni se trata. Ese daño es invisible en las estadísticas y se acumula a lo largo de los años. La literatura sobre errores de diagnóstico documenta el final agudo; el final crónico, por lo general, no se mide.
+
+---
+
+## ¿Por qué el entrenamiento de reconocimiento de patrones falla en pacientes complejos
+
+La formación médica se basa en el **reconocimiento de patrones a nivel diagnóstico**:
+
+> cluster de síntomas → diagnóstico → protocolo
+
+La capa mecánica — *por qué* aparecen los síntomas, *qué proceso biológico* está desregulado, *cómo* un tratamiento lo corrige a nivel celular — es un aspecto importante en la formación preclínica, donde la fisiología y la patofisiopatología son centrales. Sin embargo, en los años clínicos y en la práctica, tiende a desaparecer en una teoría de apoyo: conocimientos de fondo que informan pero no impulsan la secuencia de razonamiento.
+
+Este modelo es eficiente en su contexto. Un médico de familia aborda miles de condiciones, y el reconocimiento de patrones a nivel diagnóstico es rápido y generalmente adecuado para enfermedades de mecanismo único, comunes y bien caracterizadas, donde el enfoque de coincidencia de protocolos produce buenos resultados. Sin embargo, el mismo modelo falla de manera predecible en tres situaciones específicas.
+
+**Situación 1: La presentación no se ajusta a un patrón conocido.** La desregulación del paciente existe y es real, pero produce una constelación de síntomas que no se corresponde claramente con ninguna entrada diagnóstica. El sistema no encuentra coincidencia y el paciente es etiquetado como “no explicado”, “funcional” o “psicosomático”. Esto no es un caso excepcional de diagnóstico; es la experiencia estándar de pacientes con enfermedades crónicas multisistémicas.
+
+**Situación 2: Las desregulaciones interactivas trascienden los límites de especialidad.** El problema de la excitabilidad talamocortical documentado en la medicina del sueño es directamente relevante para el neurólogo, el especialista en dolor y el clínico de enfermedades postinfecciosas — pero estos son departamentos separados con registros distintos y comunicación limitada. Los datos generados en una especialidad no se propagan automáticamente: el resultado del estudio del sueño se guarda en un archivo de medicina del sueño, y el neurólogo o no lo ve o lo ve sin el marco para actuar fuera del contexto de su especialidad.
+
+**Situación 3: El tratamiento correcto existe, pero no está indicado en el protocolo para el diagnóstico correspondiente.** Aquí el diagnóstico es correcto y la desregulación está documentada, pero el medicamento disponible no está en el protocolo para esa categoría diagnóstica porque el protocolo fue elaborado en torno a la categoría y no al mecanismo. A pesar de la existencia de una vía farmacológica, no se receta nada.
+
+Las tres situaciones de fallo son estructurales y predecibles. Son resultados de un modelo de entrenamiento optimizado para la coincidencia diagnóstica, y aparecen como fallos individuales del médico cuando, en realidad, son sistemáticos.
+
+---
+
+## La desconexión entre la abstracción y la realidad
+
+Un médico formado en el nivel mecánico reconoce la misma desregulación en múltiples categorías de diagnóstico simultáneamente. La hiperexcitabilidad tálamo-cortical —el mecanismo detrás de la intrusión de ondas alfa durante el sueño profundo— se observa en fibromialgia (documentada desde [@Moldofsky1975alphaDeltaSleep]), EM/SFC, migraña crónica, trastorno de estrés postraumático y insomnio resistente al tratamiento: un mecanismo que abarca cinco categorías de diagnóstico, sin una conexión formal establecida en los planes de formación estándar.
+
+Un estudio publicado en [@timofeev2015thalamic] describió las alteraciones del circuito tálamo en cuestión: cambios en la señalización inhibitoria y dos corrientes eléctricas tálamoicas transforman un circuito que normalmente produce oscilaciones delta lentas en uno que produce actividad alfa más rápida. El trabajo se realizó principalmente en preparaciones animales, y la traducción clínica implica las incertidumbres habituales, pero identificó un objetivo farmacológico concreto.
+
+Un médico familiarizado con esta literatura puede analizar un estudio de sueño que muestre intrusión alfa y orientarse hacia los medicamentos disponibles que reducen la excitabilidad de los canales de calcio en el tálamo —la gabapentina, que ya se utiliza en la práctica clínica, tiene un perfil de seguridad conocido y ya es recetada por el mismo neurólogo para otras indicaciones. Un médico formado únicamente en el nivel diagnóstico no tiene una entrada en el marco de referencia para “intrusión alfa sin epilepsia”, por lo que el hallazgo anómalo se registra en el historial sin que se haga ninguna reflexión terapéutica.
+
+---
+
+## La explicación estructural
+
+Este patrón de fallo no es una historia sobre incompetencia médica. La tasa media de error diagnóstico entre las categorías de enfermedades es aproximadamente **13.6%**, variando desde 2.2% para el infarto miocárdico hasta más de 60% para presentaciones raras [@Zwaan2012diagnosticErrors]. No se trata de médicos descuidados; son médicos cuyo modelo de formación tiene un punto ciego sistemático.
+
+El sistema de clasificación de enfermedades —la medicina organizada en torno a enfermedades nombradas— es un artefacto histórico de más de 260 años, anterior a cualquier comprensión de biología celular, genética o mecanismos moleculares. La observación clínica precedió la comprensión mecanística durante siglos, y los síndromes fueron nombrados mucho antes de que alguien supiera por qué ocurrían. La infraestructura de la medicina moderna —códigos de facturación, categorías de aprobación de medicamentos, límites de especialidades, comités de guías, exámenes de licencia— se construyó posteriormente sobre esta estructura, y ha resultado difícil reorganizarla.
+
+Los comités de guías codifican lo que se sabía cuando se redactaron las guías. En EM/SFC, muchas guías clínicas actuales reflejan la comprensión de principios del 2000, y en algunos países la intervención recomendada principal sigue siendo la terapia de ejercicio gradual —un enfoque que ha sido progresivamente eliminado de las guías en el Reino Unido, Estados Unidos y otros lugares, en parte por razones metodológicas y en parte en respuesta a evidencia acumulada que indica que puede empeorar los síntomas post-exercicio en una proporción significativa de pacientes. La evidencia aquí sigue siendo realmente controvertida, pero un médico que siga una guía local más antigua puede practicar medicina que se desvía significativamente del consenso actual de la investigación.
+
+Una propuesta de currículo médico [@Frenk2014medicalEducation] formuló la alternativa directamente: el cuerpo puede responder a un insulto de solo una cantidad finita de maneras, y un currículo basado en mecanismos organizaría la formación clínica en torno a esas respuestas finitas, con casos de pacientes ilustrando presentaciones específicas de mecanismos en lugar de añadir una entrada más específica de enfermedad a una taxonomía en constante expansión. Esa propuesta existe en la literatura y aún no se ha convertido en práctica estándar.
+
+---
+
+## Lo que queda al paciente que hacer
+
+Cuando el sistema no logra sintetizar los datos disponibles, alguien tiene que hacerlo —y en las enfermedades crónicas complejas, esa persona suele ser el paciente. El estudio de sueño que documenta la intrusión alfa se completa; se realiza la consulta de neurología; pasan los años. Luego, el paciente consulta la literatura de investigación, se encuentra con el trabajo de Moldofsky y el modelo mecanístico de Timofeev, estudia la farmacología de los canales de calcio del tálamo y llega a la cita con un documento que relaciona estos hallazgos con sus propios datos del estudio de sueño y propone una intervención específica con una justificación mecánica.
+
+Esto no es un escenario excepcional. En las comunidades de EM/SFC y Long COVID —al menos entre aquellos que están lo suficientemente bien y con suficiente conexión para participar en redes de pacientes y discusiones de investigación— los pacientes autodidactas con un entendimiento mecanístico de su propia fisiopatología parecen ser comunes. La motivación es clara: el sistema no realizó la síntesis, así que el paciente intenta hacerlo. Este proceso tiene sus propios riesgos: lectura selectiva, sesgo de confirmación, modelos mecanísticos que son plausibles pero incorrectos. Pero el hecho de que los pacientes lo estén llevando a cabo refleja una brecha que el sistema clínico no ha cerrado, y la falla estructural en la parte superior es lo que crea las condiciones para ello.
+
+---
+
+## Qué necesita cambiar
+
+El modelo de formación es el punto de intervención, y los cambios que requiere son identificables.
+
+**Enseña los grupos de mecanismos como contenido principal.** Un módulo sobre la desregulación talamocortical abarca simultáneamente fibromialgia, EM/SFC, migraña crónica, trastorno de estrés postraumático y sueño no restaurador —un mecanismo con múltiples expresiones—, de modo que los estudiantes aprendan a reconocer la misma desregulación en cinco categorías de diagnóstico, en lugar de tratar cinco protocolos desconectados como conocimientos no relacionados.
+
+**Enseña el razonamiento terapéutico a partir del mecanismo.** El flujo actual *diagnóstico → protocolo* debería complementarse con formación en la forma: *desregulación documentada → herramientas disponibles que actúan sobre este mecanismo → calidad de la evidencia, tractabilidad, riesgo de interacción.* Esto permite a los médicos razonar a partir de la fisiopatología documentada incluso cuando no existe un protocolo para la categoría de diagnóstico correspondiente — manteniendo al mismo tiempo la disciplina para distinguir la plausibilidad mecanística de la eficacia clínica demostrada.
+
+**Enseña la síntesis interdisciplinaria como habilidad clínica.** Los pacientes complejos generan datos entre departamentos, y la formación debería incluir práctica explícita en integrar hallazgos de diferentes especialidades —un estudio del sueño, un test autónomo, un panel de inmunología— en una imagen mecanística unificada. Esta síntesis no se enseña actualmente como una habilidad formal, y es precisamente lo que necesitan los pacientes complejos.
+
+**Enseña la categoría de diagnóstico como punto de partida, no como final.** Un diagnóstico confirmado no significa que toda la desregulación del paciente esté capturada por esa etiqueta. EM/SFC no es un único mecanismo, sino un patrón de desregulación multiespecífica con heterogeneidad biológica documentada, y tratar la etiqueta de categoría como una caracterización completa produce una atención sistemáticamente incompleta.
+
+---
+
+## El costo de no cambiar
+
+La literatura sobre errores de diagnóstico documenta 800,000 muertes o discapacidades permanentes al año debido a diagnósticos erróneos — etiquetas incorrectas, condiciones pasadas por alto y tratamientos inadecuados. Esa es una categoría de daño. Una segunda, estructuralmente diferente y en gran medida no medida, afecta a pacientes con diagnósticos correctos pero con una caracterización mecánica incompleta: personas cuyas desregulaciones específicas fueron documentadas, cuyos mecanismos eran conocidos y cuyos tratamientos existían, pero que nunca fueron vinculados a ellos. Estos no son el mismo problema y quizás no tengan la misma solución, pero ambos apuntan a una brecha en el razonamiento clínico que la formación está destinada, al menos en parte, a resolver.
+
+---
+
+*Parte de una serie en curso sobre la biología de EM/SFC y lo que revela sobre los sistemas médicos.*
+
+---

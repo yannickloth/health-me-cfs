@@ -1,0 +1,101 @@
+---
+title: "La medicina tiene 10,000 enfermedades y ~40 mecanismos. Se entrena para la persona equivocada."
+description: "La medicina está organizada en torno a las enfermedades. Los médicos aprenden 10,000 condiciones conocidas — sus criterios de diagnóstico, sus tratamientos estándar y sus manifestaciones típicas. Cuando un paciente llega, el sistema intenta asignarlo a una categoría conocida. Si el ma..."
+author: "Yannick Loth"
+date: "2026-04-05"
+categories: [Medical Education, Systems Medicine]
+lang: es
+---
+
+La medicina está organizada en torno a las enfermedades. Los médicos aprenden 10,000 condiciones conocidas — sus criterios de diagnóstico, sus tratamientos estándar y sus manifestaciones típicas. Cuando un paciente llega, el sistema intenta asignarlo a una categoría conocida. Si se encuentra la correspondencia, el tratamiento se lleva a cabo según el protocolo. Si no, el paciente queda sin solución.
+
+Esto funciona bien para las enfermedades comunes y bien caracterizadas. Falla sistemáticamente para todo lo demás.
+
+---
+
+## La asimetría de la cual nadie habla
+
+¿Cuántos mecanismos biológicos fundamentales sustentan esos 10,000 enfermedades?
+
+Aproximadamente entre 30 y 50, dependiendo de cómo se contengan:
+
+- Inflamación y desregulación inmunitaria
+- Disfunción mitocondrial y fallo energético
+- Hiperexcitabilidad talamocortical
+- Desregulación autonómica
+- Fallo en la perfusión vascular
+- Rotura de la barrera biológica (intestino, sangre-cerebro)
+- Desregulación del eje hipotálamo-hipófisis-suprarrenal
+- Senescencia celular
+- Disbiosis del microbioma
+- Consolidación epigenética
+
+Las 10,000 enfermedades no son 10,000 fenómenos independientes. Son combinaciones y expresiones diferentes de este pequeño conjunto de mecanismos, en diferentes tejidos, con diferentes grados de gravedad y desencadenantes distintos.
+
+Un médico que comprenda profundamente la hiperexcitabilidad talamocortical puede reconocerla en fibromialgia, en EM/SFC, en ciertas migrañas, en PTSD y en insomnio resistente al tratamiento, sin necesidad de un protocolo específico para cada caso. Un médico formado únicamente por protocolos necesita una entrada separada para cada condición, y no logra nada cuando la presentación no coincide con una entrada conocida.
+
+---
+
+## ¿Qué significa esto en la práctica
+
+Piense en un paciente que ha sido sometido a una polisomnografía. La prueba muestra intrusiones de ondas alfa durante el sueño profundo (N3) — un patrón en el que la actividad cerebral durante el despertar contamina el sueño de ondas lentas, impidiendo la función de restauración. La cantidad de N3 es normal. La calidad, no.
+
+Este patrón ha sido documentado en la investigación sobre fibromialgia desde 1975 [@Moldofsky1975alphaDeltaSleep]. El mecanismo es bastante bien comprendido: la excitabilidad anormal entre el tálamo y el cortex es la causa de que la frecuencia de oscilación se mantenga en el rango alfa (~10 Hz) en lugar de pasar a delta (~1 Hz). El resultado es un sueño que parece adecuado en cuanto a duración, pero falla a nivel celular — el aclaramiento glifático no ocurre, los residuos metabólicos se acumulan y el cerebro se despierta agotado.
+
+La gabapentina actúa directamente sobre este mecanismo, a través de la modulación de los canales de calcio en el tálamo.
+
+Nadie recomienda la gabapentina después de una PSG. No porque los datos estén ausentes. No porque el mecanismo sea desconocido. Pero porque el neurólogo consultante busca epilepsia o apnea — categorías con protocolos claros — y la intrusion de ondas alfa sin un diagnóstico correspondiente no es una categoría. Es un hallazgo sin caso para verificar.
+
+Años después, con un diagnóstico de EM/SFC, los mismos datos de PSG cuentan una historia completamente diferente. Los datos no cambiaron. El marco interpretativo sí.
+
+---
+
+## El problema estructural
+
+La organización nosológica de la medicina — primero categorías de enfermedades, segundo mecanismos — es un producto de la historia. La observación clínica precedió la comprensión mecanística durante siglos. Los síndromes fueron nombrados antes de que nadie supiera por qué ocurrían. La infraestructura (códigos de facturación, aprobaciones de medicamentos, planes de formación, comités de guías) se construyó en torno a esa estructura y ahora es extremadamente resistente al cambio.
+
+El resultado es un sistema con tres modos de fallo sistemático:
+
+**Modo de fallo 1: Combinaciones desconocidas.** Cuando un paciente presenta un cuadro que no coincide con ninguna enfermedad conocida, pero puede explicarse como una combinación de dos o tres mecanismos conocidos, el sistema no tiene un registro para ello. El paciente puede ser diagnosticado erróneamente, etiquetado como psicosomático, o ser enviado a casa con “nada encontrado”.
+
+**Modo de fallo 2: Ciega entre especialidades.** Los mecanismos no respetan los límites de especialidad. La hiperexcitabilidad talamo-cortical aparece en medicina del sueño, neurología, medicina del dolor y psiquiatría — pero estas están organizadas como departamentos separados con poco intercambio. Un hallazgo realizado en medicina del sueño no se transmite automáticamente al neurólogo, y viceversa. Los datos existen; nadie los sintetiza.
+
+**Modo de fallo 3: Retraso en las guías.** Las guías codifican lo que se sabía cuando se escribieron. Las guías para EM/SFC en muchos países todavía reflejan la comprensión de principios de 2000. Un médico que sigue las guías actuales, en algunas áreas, practica medicina de 20 años atrás — no porque estén desinformados, sino porque el sistema en el que operan se actualiza lentamente.
+
+---
+
+## Esto no es una crítica a los médicos individuales
+
+Un médico de familia aborda aproximadamente 10,000 condiciones. Ningún ser humano puede mantener una profunda experiencia en mecanismos para todas ellas. El sistema pide lo imposible y luego culpa a los individuos cuando no logran cumplir con esa exigencia.
+
+El problema es arquitectónico. El sistema fue diseñado para un mundo en el que las enfermedades eran mayormente de un solo mecanismo, principalmente infecciosas y fácilmente resolvibles con una intervención definida. Ese mundo ya no describe la mayor parte de la carga de enfermedades en los países ricos. Las enfermedades crónicas multisistémicas — EM/SFC, Long COVID, fibromialgia, disautonomía — no se ajustan a esa arquitectura. No son casos marginales; afectan a decenas de millones de personas.
+
+---
+
+## ¿Cómo sería la medicina centrada en mecanismos
+
+Un médico formado en torno a mecanismos en lugar de enfermedades abordaría a un paciente complejo de manera diferente:
+
+1. **Mapa los mecanismos activos** — no "¿qué enfermedad tiene este paciente?" sino "¿cuáles procesos biológicos están desregulados y cómo interactúan?"
+2. **Enfocarse en los más accesibles** — no "¿cuál es el protocolo para este diagnóstico?" sino "¿cuáles de estos mecanismos pueden ser accedidos con herramientas disponibles y en qué orden?"
+3. **Sintetizar entre especialidades** — la PSG, los tests autonómicos, el panel de inmunología, la metabolómica — como insumos para una imagen mecánica unificada, no como resultados de departamentos separados.
+
+Esto es lo que algunos centros especializados en EM/SFC ahora hacen. No es estándar. Requiere tiempo que no es reembolsado, síntesis que no se enseña y un marco que no está en las guías.
+
+---
+
+## La implicación más profunda
+
+La EM/SFC es quizás el ejemplo más claro de la actualidad de una enfermedad que queda completamente fuera de la competencia del sistema nosológico. Es multisistémica, impulsada por mecanismos, sin un solo biomarcador, sin una especialidad definida y con una base de investigación que supera a las guías clínicas en una década.
+
+Los pacientes con EM/SFC a menudo tienen que realizar la síntesis mecanística ellos mismos: leyendo la literatura, conectando los datos PSG con los datos autonómicos y la inmunología, llegando a las consultas médicas con una comprensión más integrada de su propia fisiopatología que la del médico a quien consultan.
+
+Eso no debería ser así. Pero es lo que ocurre cuando el marco interpretativo se queda atrás con respecto a los datos.
+
+Los datos están ahí. Los mecanismos son conocidos. Las herramientas a menudo existen.
+
+Lo que falta es la arquitectura que los conecte.
+
+---
+
+*Parte de una serie en curso sobre la biología de la EM/SFC y lo que revela sobre los sistemas médicos.*

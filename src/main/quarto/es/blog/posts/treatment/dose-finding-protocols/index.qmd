@@ -1,0 +1,174 @@
+---
+title: "Parte 5: Cómo realizar un estudio de determinación de dosis — Protocolos para ocho medicamentos"
+description: "La estrategia indica: descartar la dosis, no el medicamento. Este artículo explica: así se hace. Escaleras de dosis, duración de los pasos, medidas de resultado primario y condiciones de detención para ocho medicamentos — con cada número etiquetado como establecido, candidato o especulativo."
+author: "Yannick Loth"
+date: "2026-09-02"
+categories: [Treatment, Pharmacology, ME/CFS]
+lang: es
+---
+
+El artículo anterior sostenía que un ensayo fallido debería significar “esta dosis falló”, y no “este medicamento falló” — y que el experimento más económico siguiente suele ser una dosis cercana al mismo medicamento. Ese argumento no tiene valor sin un nivel de ejecución: *qué* dosis, *por cuánto tiempo*, medida contra *qué*, y *cuándo detenerse*.
+
+Este artículo proporciona ese nivel para ocho medicamentos. Es el protocolo complementario a la farmacopea: [Parte 4](../pharmacopoeia-dose-meaning/) detalla qué significa cada banda de dosis; este artículo especifica cómo *ejecutar* el ensayo que genera los datos. Ambos comparten las mismas bandas de dosis y deben leerse juntos.
+
+---
+
+## Cómo leer los protocolos
+
+Cada campo del protocolo lleva un nivel de evidencia, consistente con la convención del artículo principal:
+
+| Nivel | Significado |
+|------|---------|
+| **E — establecido** | Farmacología estándar o etiquetado regulatorio; no sorprendería a ningún farmacéutico |
+| **C — candidato** | Inferido a partir de la práctica de la comunidad EM/SFC y del marco de la ventana de dosis baja; plausible, pero no validado |
+| **S — especulativo** | Predicciones de modelo (p. e. correlaciones de cluster) que esperan ensayos; trata como una apuesta, no como un hecho |
+
+Tres reglas universales antes de ejecutar cualquier protocolo:
+
+1. **Defina el resultado principal antes de la primera dosis.** Una medida. Si el ensayo “para el sueño” termina con una impresión sobre el estado de ánimo, no se probó nada.
+2. **Escriba las condiciones de parada y fije la fecha de revisión.** Un ensayo sin fecha de parada no es un experimento; es un estado de ánimo (ver la patología del desvío de dosis en el [artículo anterior](../dose-first-search-strategy/)).
+3. **No ejecute ensayos durante una crisis.** Un episodio de PEM durante un ensayo de dosis mide la PEM, no la dosis.
+
+---
+
+## Naltrexona en dosis bajas (LDN)
+
+**Objetivos (banda de dosis):** Primerización hormonal TLR4/Nrf2 (~0.5–1.5 mg) · aumento compensatorio de opioides (~1.5–3 mg) · restauración TRPM3 (~3–4.5 mg) — para la cadena completa, consulta la Parte 1. Cada objetivo se establece individualmente in vitro o en modelos animales: naltrexona como antagonista parcial de TLR4 en microglía, demostrado en una línea de células de ratón y modelos de roedores [@Kucic2021LDNmicroglia; @Kwilasz2021NTXmicroglia], bloqueo de receptores opioides con rebote de endorfinas compensatorias [@Younger2013], restauración del flujo de calcio TRPM3 en células NK de EM/SFC [@Cabanas2018trpm3; @Cabanas2021], y el vínculo entre inflamación y supresión de orexina [@Grossberg2011orexinLethargy]. Lo que *no* está establecido es la asignación de cada objetivo a una banda de dosis clínica — esa parte es inferencia basada en modelos [@Loth2026mecfs].
+
+| Campo | Protocolo | Nivel |
+|-------|----------|------|
+| Escala de dosis | 0.5 mg × 2 semanas → 1 mg × 4 semanas → 1.5 mg × 4 semanas → (si es parcial) 2.25 mg × 4 semanas → (si es parcial) 3 mg × 4 semanas → (si aún no hay señal) 4.5 mg × 4 semanas | E para inicio bajo; C para pasos |
+| Duración del paso | Mínimo 4 semanas por paso por debajo de 2 mg — el mecanismo TLR4/Nrf2 es transcricional; los resultados dentro de 2 semanas miden la ajuste, no el efecto | C |
+| Resultado principal | Fatiga o niebla cerebral, autocalificación diaria del 0–10 | C |
+| Condiciones de detención | Beneficio en un paso → mantener ≥8 semanas antes de cualquier cambio · sin beneficio en el rango completo de 0.5–4.5 mg → interpretación: los objetivos de LDN no son limitantes en términos de velocidad · brote inicial → reducir a la mitad, no abandonar | C |
+| Compounding | Por debajo de 2 mg: farmacia de compounding o líquido | E |
+| Regla de reintento | Un resultado nulo en 3.5–4 mg NO cierra la banda de 1 mg — mecanismo diferente en esa banda ([por qué](../single-dose-failure-not-a-verdict/)) | C |
+
+**Fallo común:** el resultado se declara a las 3 semanas en un solo paso. La estructura con cuatro mecanismos hace que LDN sea el medicamento *más* rico en información de dosis de la lista, y por lo tanto, más ineficiente para pruebas superficiales.
+
+---
+
+## Aripiprazol a baja dosis (LDA)
+
+**Objetivo:** agonismo parcial de dopamina D2 — modulación de microglía y catecolaminas [@Crosby2021LDA]. Es un fármaco único; el marco predice una ventana pronunciada y con picos (de forma ilustrativa: dosis inferiores a 1 mg pueden perder la protección mientras que 1 mg mantiene esa protección; la escalada por encima de la dosis de uso puede no aportar nada) — S, predicción del modelo [@Loth2026mecfs].
+
+| Campo | Protocolo | Nivel |
+|-------|----------|------|
+| Escala de dosis | 0.5 mg × 3–5 d (tolerabilidad) → 1 mg × 6 wk (la ventana de evaluación utilizada clínicamente) | C (Promedio de la cohorte de Crosby 2021: 1.1 mg/día [@Crosby2021LDA]) |
+| Duración del paso | Días para tolerabilidad, **semanas para eficacia** — no juzgue el efecto antes de que se cumpla la ventana del médico prescriptor | C |
+| Resultado principal | Elija según el síntoma dominante: frecuencia de PEM, claridad cognitiva o sueño — solo uno | C |
+| Condiciones para detenerse | Akatisia, agitación o preocupaciones sobre cambios de estado de ánimo → detenerse y informar · no hay beneficio después de 6 semanas → límite establecido por el médico prescriptor según su práctica | C |
+| Compounding | Se requiere menos de 2 mg: farmacia de compuestos (tabletas estándar ≥2 mg) | E |
+| Monitoreo | Arquitectura del sueño y autoevaluaciones del estado de ánimo (los efectos documentados del LDA son cualitativamente distintos de la activación de tipo estimulante — pero la distinción debe ser verificada, no asumida) | C |
+| Regla de reinteligencia | Una dosis que mantiene el sueño pero pierde la protección de PEM (el patrón de 0.75 mg) significa que la ventana es específica para el síntoma — mapee por síntoma, no por fármaco | S |
+
+**Por qué una breve duración puede funcionar:** una prueba de 5 días a una dosis más baja, con un resultado acordado por el médico prescriptor y condiciones de detención definidas, puede obtener un resultado negativo claro en una semana — y aún fortalecer la posición de la dosis de uso, porque la ventana fue probada y mantenida. Ese es el protocolo que funciona según lo diseñado.
+
+---
+
+## Baja dosis de litio (elemento litio)
+
+**Objetivo:** Inhibición de GSK-3β → desrepresión de Nrf2 a microdosis; los efectos de IMPase se observan a microdosis más altas (dinámica bifásica de dos objetivos). La inhibición de GSK-3β a bajas dosis de litio está documentada en preclínica [@Fenech2023LithiumGSK3Beta]; los beneficios cognitivos a microdosis están documentados en cohoras de Alzheimer y neuropsiquiátricas [@Nunes2013MicrodoseLithiumAD; @Wilson2017NP03MicrodoseLithium; @Strawbridge2023LowDoseLithium]. La división dosis-dependiente entre GSK-3β y IMPase se infiere mediante el modelo [@Loth2026mecfs].
+
+| Campo | Protocolo | Nivel |
+|-------|----------|------|
+| Escala de dosis | 0.3 mg → 1 mg → 3 mg → 5 mg de elemento litio, pasos de ~2 semanas | C |
+| Duración del paso | 2 semanas son suficientes para los resultados subjetivos; el argumento transcripcional de Nrf2 sugiere un tiempo más largo en dosis efectivas | C |
+| Resultado principal | Igual que el medicamento para el grupo de Nrf2 receptivo del paciente (si LDN funcionó a 0.5–1.5 mg, la pregunta del litio es “¿el grupo de ventana es consistente?”) | S |
+| Condiciones de interrupción | Tremor, sed, confusión → interrumpir (conciencia estándar sobre la toxicidad del litio, aunque las microdosis rara vez alcanzan este nivel — E para la advertencia, C para el umbral) · no hay beneficio consistente con el grupo entre 0.3–5 mg → la hipótesis del grupo de ventana se debilita para este paciente | C/S |
+| Monitoreo | Si se extiende por encima de 5 mg o a largo plazo: monitoreo estándar de litio según el prescriptor | E |
+
+---
+
+## Piridostigmina (Mestinon)
+
+**Objetivo:** inhibición de la acetilcolinesterasa — tono colinérgico periférico; relevante para los niveles de síntomas ortostáticos/vasculares [@Joseph2022pyridostigmine; @Raj2005Pyridostigmine]. Efectos característicos de la motilidad gastrointestinal mediados por M3 que dependen de la dosis.
+
+| Campo | Protocolo | Nivel |
+|-------|----------|------|
+| Escala de dosis | Comenzar con la dosis más baja tolerada históricamente (por ejemplo, 1 tableta al día si dosis más altas eran intolerables por problemas gastrointestinales) — no aumentar desde las dosis intolerables | C |
+| Duración del paso | 1–2 semanas por escalón; los efectos gastrointestinales aparecen rápidamente, mientras que el beneficio vascular (si existe) requiere más tiempo | C |
+| Resultado principal | Evaluación de los síntomas ortostáticos/vasculares — **no** la fatiga general | C |
+| Condiciones para detenerse | Exceso de motilidad intestinal → detenerse; la intolerancia a este medicamento es dependiente de la dosis y *específica*, y un escalón más bajo puede ser sin efectos gastrointestinales donde los escalones anteriores no lo tenían | C |
+| Asimetría clave | La intolerancia previa a dosis más altas NO cierra la posibilidad de usar dosis más bajas — una paciente que dejó de tomarlo a 3×1 al día por razones gastrointestinales podría considerar que 1 al día es tolerable; ese escalón representa un experimento independiente | C |
+| Factores confusores a registrar | Comidas, movimiento, cafeína — los factores confusores gastrointestinales son intensos para este medicamento | C |
+
+---
+
+## Metilfenidato (Ritalin MR) y estimulantes de baja dosis
+
+**Objetivo:** inhibición de la reabsorción de catecolaminas. En EM/SFC, el patrón documentado es una forma invertida-U *y* inducción de PEM a dosis altas de estimulantes. El ensayo clínico aleatorizado cruzado doble ciego encontró que el metilfenidato reduce la fatiga en EM/SFC [@Blockmans2006MPHCFS], y el seguimiento a largo plazo mostró beneficios duraderos en aproximadamente un tercio de los pacientes que continuaron el tratamiento, con una alta tasa de abandono — lo cual es consistente con el compromiso entre estimulantes y PEM que el protocolo está diseñado para medir [@Blockmans2016LongTermMPH].
+
+| Campo | Protocolo | Nivel |
+|-------|----------|------|
+| Escala de dosis | Comenzar muy por debajo de las dosis que anteriormente causaban problemas — por ejemplo, una prueba de MR 10 mg si MR 30 mg indujo PEM; equivalentes de liberación inmediata de 5 mg para pasos más precisos | C |
+| Duración del paso | 3–7 días por paso — los efectos del estimulante tanto en beneficio como en inducción de PEM se observan rápidamente | C |
+| Resultado principal | Funcionamiento por esfuerzo, no la alerta bruta. Un estimulante que proporciona alerta con PEM es una pérdida neta — la medida de resultado debe poder detectar esa pérdida | C |
+| Condiciones para detenerse | Inducción de PEM en un paso → ese paso está por encima del rango permitido; reducir la dosis, no intentar continuar | C |
+| Nota sobre interacciones | Documentado en el registro principal: combinaciones previas de altas dosis de estimulantes en EM/SFC no tratados produjeron estados de excitación/manía — una consideración absoluta, área de competencia del médico prescriptor | E para la clase de riesgo |
+
+---
+
+## La pila MCAS (famotidina · rupatadina · montelukast)
+
+**Objetivos:** H2 · H1/PAF · receptores de leucotrienos. Son de larga duración, preceden a la mayoría de los otros ensayos y, por lo general, ya se encuentran en su punto óptimo — lo que los hace la pila ideal para instrumentar antes de interactuar con otros medicamentos. Las combinaciones de antihistamínico/antagonista PAF (H1 + H2) muestran efecto clínico en síndromes impulsados por mastocitos [@Salvucci2023antihistamineLongCOVID], y el aumento de la dosis de antagonismo H1/PAF (rupatadina) está documentado en contextos de mastocitos y urticaria [@Magerl2015rupatadine; @Izquierdo2024rupatadine].
+
+| Campo | Protocolo | Nivel |
+|-------|----------|------|
+| Tipo de ensayo | No es para determinación de dosis, sino **deschallenge/re-challenge**: retiro de un solo componente × 2 semanas con evaluación de síntomas, luego restauración. Establece la contribución de cada componente | C |
+| Nota sobre dosis | Los antihistamínicos muestran comportamiento en forma de U invertida en la farmacopea (sedación H1/carga anticolinérgica a altas dosis); si se escala, mantén los rangos de la farmacopea abiertos | C |
+| Resultado principal | El síntoma que justificó el componente original (por ejemplo, síntomas reactivos, respuestas alimentarias) | C |
+| Condiciones para detenerse | Regreso de síntomas en deschallenge → el componente se confirma como responsable; sin cambio → candidato para discusión de deprescripción | C |
+
+**Por qué incluir una pila que funcione:** Un artículo de determinación de dosis que solo aborde los fracasos enseña la lección equivocada. Confirmar que un componente funcional es responsable — de forma económica, uno por vez — es información sobre dosis, y también protege contra la interrupción accidental durante otros ensayos.
+
+---
+
+## Melatonina (dosis baja)
+
+**Objetivo:** cronobiotica a dosis bajas; hipnótica (y con diferente perfil de receptores) a dosis altas — un perfil de U invertido que la mayoría de los pacientes interpreta al revés. La melatonina a dosis baja (0.5 mg) desplaza la fase del reloj circadiano sin suprimir la secreción endógena [@Burgess2010melatonin]; en EM/SFC, el ajuste del horario de la melatonina guiado por DLMO mejoró la fatiga en pacientes con fase retrasada [@vanHeukelom2006melatonin]. La formulación “la dosis baja es cronobiotica, la dosis alta es hipnótica” y su aplicación en EM/SFC representa una inferencia de modelo [@Loth2026mecfs].
+
+| Campo | Protocolo | Nivel |
+|-------|----------|------|
+| Escala de dosis | 0.3 mg → 0.5 mg → 1 mg → 3 mg, descendiendo **si** las dosis más altas tenían menos efecto (la sorpresa común) | C (0.3 mg, razón fisiológica: E) |
+| Duración del paso | 1 semana por escalón, evaluada cada noche | C |
+| Resultado principal | Latencia para iniciar el sueño o despertar durante la noche — la afirmación de cronobiotica se refiere al *horario*, no a la intensidad de la sedación | C |
+| Horario | 2–4 horas antes del inicio esperado del sueño a dosis bajas (ventana cronobiotica), no a la hora de acostarse (hábito hipnótico) — el horario es la mitad de la dosis para este medicamento | C/E mixto |
+| Condiciones para detenerse | Mañanas somnolientas en un escalón → fuera de la ventana, reducir el paso · sin efecto en ningún escalón → intentar cambiar el horario antes de abandonar | C |
+
+---
+
+## Modafinilo
+
+**Objetivo:** promoción de la vigilia, catecholaminérgico/orexina asociado [@Volkow2009modafinil]. La lógica de dosis se aplica como para otros estimulantes: curva U invertida con ansiedad/sobreestimulación en el brazo. En el síndrome de fatiga crónica, un estudio doble ciego cruzado mostró que la dosis estándar de modafinilo no generó beneficio en la fatiga y empeoró la cognición a 400 mg [@Randall2005modafinil] — lo que sirve como referencia para comenzar *por debajo* del rango estándar.
+
+| Campo | Protocolo | Nivel |
+|-------|----------|------|
+| Escala de dosis | Quarto tableta (25–50 mg) → mitad (100 mg) — comenzar *por debajo* de los 100–200 mg estándar, a diferencia de la dosis en la población general | C |
+| Duración del paso | Pruebas de un solo día, con intervalos ≥48 h, antes de los ensayos de días consecutivos | C |
+| Resultado principal | Vigilancia **y** verificación de PEM al día siguiente — este medicamento más fácilmente induce el error de “tomar de mañana” que la medida de resultados de Ritalin busca detectar | C |
+| Condiciones de interrupción | Ansiedad, sobreestimulación → fuera del intervalo · crisis al día siguiente → la interrupción acumula deuda en PEM; el medicamento cuesta más de lo que genera | C |
+
+---
+
+## Leer un resultado nulo en todos los ocho protocolos
+
+Cuando un ensayo bien ejecutado produce un resultado nulo, recorre la tabla de explicaciones alternativas del artículo anterior en orden de costo: dosis adyacente → duración más larga → resultado reescaneado → argumento sobre el mecanismo. Los protocolos mencionados anteriormente están diseñados de tal manera que los tres primeros suelen ya tener una respuesta *por parte del propio ensayo* — la escalera cubre las dosis adyacentes, los pasos cubren el tiempo, y el resultado predefinido cubre la medición. Lo que queda es el mecanismo, que no es un fracaso del ensayo sino su producto: un medicamento cuyos objetivos no son limitantes en tu caso, marcado a un costo adecuado.
+
+Ese es el estado objetivo de toda la búsqueda: cada ensayo — positivo o nulo — deja una mapa con una región más coloreada.
+
+---
+
+## Suposiciones y limitaciones
+
+**Cada número que aparece arriba tiene una razón específica.** Las bandas de dosis provienen del marco de la farmacopea (Parte 4) y, en última instancia, de el análisis en forma de U invertida del artículo principal — una farmacología establecida donde se marca E, inferencia comunitaria y modelo donde se marca C, y apuestas explícitas donde se marca S. La idea de correlación de grupos (seguimiento de ventanas entre fármacos mecanísticamente relacionados) es la predicción falsable central del marco, no un resultado. Si el marco es incorrecto, los *datos de respuesta-dosis que recopilas con estos protocolos permanecerán válidos* — la capa interpretativa que se coloca encima es la que caería. La motivación no es hipotética: los ensayos controlados de LDN que existen son de una sola dosis y devolvieron resultados nulos en sus endpoints principales [@DueBruun2024LDNFibromyalgia; @Ologunowa2025LDNFMMeta] — no se ha realizado ningún ensayo de respuesta-dosis dentro del rango en ninguna condición, y este es precisamente el vacío que estos protocolos están diseñados para llenar [@Loth2026mecfs].
+
+**Los protocolos son plantillas, no recetas.** Las dosis interactúan — entre sí, con la fase de la enfermedad y con el propio historial del paciente. Los números ilustrativos provienen de razonamiento farmacológico y la experiencia de la comunidad de EM/SFC, no de ensayos validados; la extrapolación entre pacientes es hipotética. Tu médico prescriptor establece los números reales; estos protocolos estructuran la conversación, y varios de estos fármacos (dosis bajas compuestas, uso fuera del rango de indicaciones, estimulantes) son inaccesibles sin ellos.
+
+**El riesgo de PEM es una variable de ensayo, no una nota al pie.** Cada escalón de cada escalera es un experimento realizado sobre un presupuesto de energía que no perdona el sobreesfuerzo. El esfuerzo durante un ensayo de dosis es esfuerzo durante un experimento sobre tu propio umbral — las cortas duraciones de los protocolos existen en parte debido a esto.
+
+---
+
+*Análisis entre pacientes basado en el marco farmacológico de @Loth2026mecfs — no constituye consejo médico. Cada ensayo requiere el acuerdo del médico prescriptor. Los rangos de dosis se relacionan con la Parte 4 de esta serie; las estrategias y los modos de fallo se explican en el artículo complementario, [Descartar la dosis, no la droga](../dose-first-search-strategy/).*
+
+*Serie de series dosis-respuesta: [Parte 1: Por qué más no es mejor](../more-isnt-better-ldn-lda/) · [Parte 2: El U invertido no es una sola cosa](../inverted-u-not-one-thing/) · [Parte 3: Tu dosis de LDN es un diagnóstico](../dose-is-diagnostic-ldn/) · [Parte 4: La farmacopea](../pharmacopoeia-dose-meaning/) · Parte 5 (este artículo) · Relacionado: [Descartar la dosis, no la droga](../dose-first-search-strategy/)*

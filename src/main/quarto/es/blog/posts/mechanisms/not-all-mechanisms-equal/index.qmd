@@ -1,0 +1,80 @@
+---
+title: "No todos los mecanismos son iguales"
+description: "Existen decenas de mecanismos relacionados con EM/SFC: activación inmunitaria, disfunción mitocondrial, desregulación autónoma, alteración del microbioma, fragmentación del sueño, estrés oxidativo, reactivación viral, cambios epigenéticos y autoanticuerpos. El s..."
+author: "Yannick Loth"
+date: "2026-04-02"
+categories: [Causal Hierarchy, Pathophysiology, Systems Biology]
+lang: es
+---
+
+Existen decenas de mecanismos implicados en EM/SFC: activación inmunitaria, disfunción mitocondrial, desregulación autónoma, alteración del microbioma, fragmentación del sueño, estrés oxidativo, reactivación viral, cambios epigenéticos y autoanticuerpos. La reacción estándar ante una lista así es una especie de desesperación terapéutica: la enfermedad está "por todas partes", lo que significa que no está "en ningún lugar". Pero esa lista solo parece así si se tratan todos estos mecanismos como equivalentes terapéuticos. Los resúmenes estándar a menudo se detienen en la lista de mecanismos sin una clasificación causal explícita, y no son equivalentes en esa clasificación.
+
+Un análisis causal formal de la fisiopatología de EM/SFC distingue tres niveles de participación causal, y esa distinción tiene consecuencias directas para el tratamiento [Cap. 16 §Marco: La Clasificación de Tres Niveles].
+
+---
+
+## Tres niveles de participación causal
+
+Una *causa raíz* es un mecanismo cuya falla por sí sola es suficiente para desencadenar el síndrome completo de EM/SFC, capaz, en principio, de explicar la transición de estado saludable a enfermedad sin necesidad de disfunción previa en otros sistemas. En la práctica, las causas raíz rara vez actúan de forma aislada, pero lo que las distingue es que *podrían* [Cap. 16 §Mecanismos capaces de desencadenar].
+
+Un *amplificador* empeora, perpetúa o bloquea el estado de enfermedad, pero no puede iniciarlo; los amplificadores se activan una vez que una causa raíz ha desestabilizado la homeostasis. Algunos son *carga de soporte* —su eliminación es necesaria para la recuperación—, mientras que otros son secundarios, lo que significa que su eliminación mejora la experiencia del paciente sin permitirle escapar del estado de enfermedad. Esta distinción será el tema del próximo artículo de esta serie [Cap. 16 §Mecanismos de amplificación].
+
+*Consecuencias* son fenómenos reales y de gran importancia clínica que ocurren más adelante en el proceso de enfermedad. Generan síntomas y erosionan la calidad de vida, lo que los hace importantes —y a menudo son lo que hace que los pacientes sufran de forma más aguda—, pero tratarlos solamente no puede resolver lo que mantiene la enfermedad. Este nivel limita las expectativas terapéuticas, no la importancia clínica [Cap. 16 §Consecuencias posteriores].
+
+---
+
+## Cuatro criterios para una causa raíz
+
+No todos los mecanismos tempranos o de flujo ascendente cumplen con los requisitos. El marco requiere cuatro criterios, todos los cuales deben cumplirse [Cap. 16 §Mecanismos capaces de ser desencadenados].
+
+El primero es la compatibilidad con los desencadenantes: el mecanismo debe poder ser desencadenado por desencadenantes conocidos de EM/SFC, como infección viral, estrés fisiológico grave, cirugía, trauma o vacunación. Los estudios epidemiológicos indican consistentemente que aproximadamente el 70% de los casos de EM/SFC está precedido por una infección aguda, aunque las estimaciones publicadas varían; el marco utiliza este número como aproximación práctica [Cap. 16 §Mecanismos capaces de ser desencadenados]. Cualquier causa raíz propuesta debe ser compatible con ese patrón y con los desencadenantes no infecciosos que explican el resto.
+
+El segundo es la suficiencia del colapso de energía. El mecanismo debe ser capaz por sí mismo de producir malestar post-esfuerzo, que es la característica principal. PEM es la persistencia y acumulación de subproductos post-esfuerzo a lo largo de varios días — residuos metabólicos, mediadores inflamatorios, daño oxidativo — que la fisiología saludable elimina en horas, pero la fisiología de EM/SFC no puede, lo que produce un síntoma característico que empeora con una latencia de 12–72 horas y una duración que puede extenderse por días o semanas. Una causa raíz propuesta debe explicar ese patrón específico, no la fatiga en general [Cap. 16 §Mecanismos capaces de ser desencadenados].
+
+Tercero, cronificación: el mecanismo debe explicar por qué EM/SFC persiste durante años o décadas. Muchos procesos agudos — inflamación, estrés metabólico, alteración hormonal — son inherentemente autolimitados en la fisiología saludable, por lo que una causa raíz debe ser autoperpetuante o crear condiciones que impidan la resolución normal [Cap. 16 §Mecanismos capaces de ser desencadenados].
+
+Cuarto, propagación multi-sistémica. EM/SFC no es una enfermedad de un solo sistema, por lo que cualquier causa raíz debe tener un camino plausible para producir disfunción en ámbitos neurológicos, inmunológicos, cardiovasculares, endocrinos y gastrointestinales, ya sea directamente o a través de cascadas downstream [Cap. 16 §Mecanismos capaces de ser desencadenados].
+
+Estos criterios son filtros, no pruebas. Un mecanismo que cumpla con los cuatro es una *causa raíz candidata*; pueden pasar varios mecanismos, y cuál de ellos realmente desencadenó la enfermedad de un paciente es una cuestión distinta.
+
+---
+
+## Límites terapéuticos
+
+El nivel al que pertenece un mecanismo determina qué tipo de trabajo terapéutico puede realizar [Cap. 16 §Implicaciones terapéuticas de la jerarquía causal].
+
+Tratar una consecuencia produce alivio sintomático sin abordar lo que mantiene la enfermedad. Los medicamentos para el sueño relacionados con la fragmentación del sueño en EM/SFC es el ejemplo más claro: la evidencia disponible sugiere que los pacientes cuyo sueño se normaliza farmacológicamente no se recuperan típicamente; duermen mejor dentro del estado de enfermedad, aunque los resultados varían [Cap. 16 §Consecuencias downstream]. El límite terapéutico está definido por el nivel.
+
+Tratar un amplificador puede ralentizar significativamente el avance de la enfermedad y reducir la carga de la enfermedad, y si el amplificador es de soporte, su eliminación puede ser un componente necesario para la recuperación. Aun así, el tratamiento solo del amplificador deja intacto el mecanismo subyacente de la enfermedad [Cap. 16 §Mecanismos de amplificador].
+
+Tratar una causa raíz es donde ocurre el trabajo estructural, pero solo si la causa raíz sigue activa. En etapas avanzadas de la enfermedad, la causa raíz original puede haber desaparecido hace tiempo, mientras que los amplificadores —algunos ahora de soporte— sostienen la enfermedad de forma independiente. El desencadenante fue la puerta; las cerraduras son las que mantienen al paciente dentro [Cap. 16 §Cerraduras de soporte versus cerraduras secundarias]. En ese punto, abordar el desencadenante produce beneficio limitado.
+
+La conclusión es la siguiente: el mecanismo más fundamental desde el punto de vista causal en la historia de un paciente puede ya no ser el objetivo terapéutico de mayor prioridad. Este es el tema de un artículo posterior. Lo que el marco de niveles establece aquí es más básico: que los mecanismos no realizan todos el mismo tipo de trabajo, y tratarlos como si hicieran lo mismo produce confusión predecible sobre por qué las intervenciones tienen éxito o fracasan.
+
+---
+
+## ¿Qué mecanismos califican?
+
+Según el análisis de cuatro criterios, tres mecanismos son evaluados como causas raíz capaces de desencadenar EM/SFC: significa que cumplen todos los cuatro filtros dentro del análisis mecánico actual del marco, pero esta clasificación no ha sido confirmada experimentalmente [Cap. 16 §Mecanismos Capaces de Desencadenar].
+
+*Crisis de energía en el SNC* implica una falla en la energía del tronco encefálico y el hipotálamo que perturba la coordinación central de las funciones inmunitaria, autónoma y metabólica. Cumple todos los cuatro criterios y tiene un camino directo hacia PEM a través de la regulación energética central dañada en la respuesta al esfuerzo [Cap. 16 §Crisis de Energía en el SNC].
+
+*Cadena de autoanticuerpos en GPCR* implica autoanticuerpos que apuntan a receptores acoplados con proteínas G, lo que desregula el sistema nervioso autónomo a través de un mecanismo suficiente en principio para mantener la enfermedad por sí mismo, y puede ser desencadenado por la alteración inmunitaria tras una infección o estrés severo [Cap. 16 §Cadena de Autoanticuerpos en GPCR].
+
+*Consolidación epigenética* es la estabilización del programa de expresión génica adecuado para la enfermedad a través de metilación del ADN y modificaciones de histonas. Una vez establecida, es — según la hipótesis de este modelo — autosostenible: las células expresan el programa de enfermedad no porque sigan recibiendo la señal, sino porque está codificado en la capa de regulación génica. (Las marcas epigenéticas son dinámicas y, en principio, reversibles, pero el marco propone que son resistentes a la reversión homeostática normal en este contexto.) El marco propone que la infección aguda crea las señales inflamatorias que inician los cambios de metilación, que una vez establecidos, este mecanismo produce disfunción multi-sistémica persistente, y que no se resuelve por sí mismo — aunque la confirmación experimental directa de esta secuencia en EM/SFC humana sigue siendo incompleta [Cap. 16 §Consolidación Epigenética].
+
+Varios mecanismos que son prominentes clínicamente — estrés oxidativo, reactivación viral, fragmentación del sueño, disbiosis intestinal — pertenecen a los niveles de amplificador o consecuencia. Son reales e importantes, pero no son causas raíz [Cap. 16 §Mecanismos de Amplificador; §Consecuencias de Descarga].
+
+---
+
+## Límites de la clasificación
+
+Se trata de una clasificación causal basada en análisis mecánico, no de un ensayo clínico. La estructura de tres niveles y el filtro de cuatro criterios son herramientas para el razonamiento. Es importante destacar que los cuatro criterios son construcciones propias del marco: cumplirlos es validación interna del modelo, no confirmación empírica independiente. La asignación de los niveles representa la mejor evaluación mecánica actual del marco, no hallazgos confirmados experimentalmente; la incertidumbre es considerable. El lugar donde se ubica un mecanismo puede variar entre pacientes dependiendo del punto de entrada y la duración de la enfermedad, las tres causas raíz candidatas no han sido validadas en estudios controlados, y nuevas evidencias podrían reclasificar los mecanismos a medida que mejoremos la comprensión [Cap. 16 §Implicaciones de la investigación].
+
+El objetivo es reemplazar una lista indiferenciada por una estructurada — porque el nivel al que pertenece un mecanismo es una de las cosas más importantes desde el punto de vista práctico que se puede conocer sobre él.
+
+---
+
+*Artículo anterior de esta serie: ¿Por qué la EM/SFC no se resuelve — y por qué los casos graves resisten el tratamiento (2026-03-09)*
+
+*Siguiente: Cuatro puertas, una enfermedad — ¿por qué la infección viral, el estrés, la cirugía y la vacunación producen el mismo síndrome?*

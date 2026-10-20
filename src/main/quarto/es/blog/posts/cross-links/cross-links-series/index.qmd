@@ -1,0 +1,15 @@
+---
+title: "Croses de conexión que valen una segunda mirada: una breve serie"
+description: "Cuatro conexiones que se encuentran fuera del hilo principal noradrenérgico — pero valen la pena una mirada."
+author: "Yannick Loth"
+date: "2026-09-29"
+categories: [Cross-links, Noradrenergic, Mechanisms]
+lang: es
+---
+
+La serie principal "Sistema de Excitación" sigue el déficit de noradrenalina. Esta serie más pequeña abarca cuatro conexiones que se encuentran junto a ella.
+
+1. [¿Escuchan las bacterias intestinales las hormonas del estrés?](../do-gut-bacteria-listen-to-stress-hormones/)
+2. [El núcleo del tronco encefálico que falla primero](../the-brainstem-nucleus-that-fails-first/)
+3. [¿Es el locus coeruleus el control de ganancia del cerebro?](../is-the-locus-coeruleus-the-brains-gain-control/)
+4. [Cómo participar en la investigación sobre EM/SFC](../how-to-take-part-in-mecfs-research/)

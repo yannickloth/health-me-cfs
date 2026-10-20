@@ -1,0 +1,98 @@
+---
+title: "“Tu estudio de sueño fue normal”: Cómo las pruebas estándar no detectan lo que está dañado en EM/SFC"
+description: "Hay una escena que se repite miles de veces al año en clínicas de sueño de todo el mundo. Un paciente con EM/SFC —agotado hasta no poder describirlo, despertando cada mañana sintiéndose envenenado, incapaz de funcionar durante horas después de abrir los ojos— está se..."
+author: "Yannick Loth"
+date: "2026-05-05"
+categories: [Sleep, Diagnostics, Misdiagnosis]
+lang: es
+---
+
+Hay una escena que se repite miles de veces al año en clínicas de sueño de todo el mundo. Un paciente con EM/SFC —agotado hasta no poder describirlo, despertando cada mañana sintiéndose envenenado, incapaz de funcionar durante horas después de abrir los ojos— es enviado para un estudio de polisomnografía. Pasan una noche incómoda en una cama de hospital, conectado a electrodos, sabiendo que este test debe validar lo que han dicho a sus médicos durante meses o años.
+
+Los resultados llegan: *Estudio de sueño normal. No se identificó patología significativa.*
+
+El paciente sabe —con la certeza de alguien que vive en su propio cuerpo— que tu sueño no es normal. El test dice lo contrario. El médico confía en el test. El paciente regresa a casa sin diagnóstico, sin tratamiento y con la creciente sospecha de que su equipo médico considera que esto es psicológico.
+
+El test falló; el paciente no lo hizo.
+
+Para ser claro: los estudios de sueño siguen valiendo la pena. La PSG estándar detecta la apnea del sueño obstructiva, los movimientos periódicos de los miembros, el trastorno del comportamiento en el sueño REM y la hipoventilación nocturna —todos los cuales coexisten con EM/SFC y son tratables de forma independiente. El problema no es que la PSG sea inútil. El problema es que cuando vuelve “normal”, se está haciendo una pregunta a la que no está diseñada para responder.
+
+---
+
+## Lo que realmente mide la polisomnografía estándar
+
+Una polisomnografía estándar durante la noche registra EEG (ondas cerebrales), EOG (movimientos ocular), EMG (tono muscular), ECG (ritmo cardíaco), esfuerzo respiratorio, saturación de oxígeno y posición corporal. Un técnico capacitado luego califica la grabación inspeccionando visualmente periodos de 30 segundos — ventanas de tiempo — y asignando cada uno a una etapa del sueño: Despierto, N1 (sueño ligero), N2 (spindles del sueño y complejos K), N3 (sueño de ondas lentas) o REM.
+
+El resultado es un hipnograma — una línea temporal que muestra en qué etapa se encontraba el paciente en cada momento de la noche — y un conjunto de estadísticas resumidas: tiempo total de sueño, eficiencia del sueño, latencia del sueño, porcentaje en cada etapa, número de despertados por hora y índices de eventos respiratorios.
+
+Para las condiciones para las que fue diseñada la PSG — apnea obstructiva del sueño, narcolepsia, trastorno del comportamiento REM, trastorno periódico de movimientos de extremidades — este enfoque funciona bien. Estas condiciones causan alteraciones arquitectónicas graves visibles a nivel de periodo de 30 segundos [@AASM2023manual].
+
+La patología del sueño en EM/SFC opera a un nivel más fino.
+
+---
+
+## Lo que el test omite
+
+Comencemos con el problema más fundamental. La intrusión alfa-alfa — las ondas de frecuencia alfa (8–12 Hz) que se introducen en el sueño delta (0.5–4 Hz), presente en el EEG bruto, contaminan el sueño de ondas lentas y impiden que sea reparador — no cambia en absoluto la clasificación de la etapa del sueño. Una época que contiene tanto actividad delta como alfa sigue calificándose como N3 (sueño de ondas lentas) según los criterios visuales estándar, porque el ritmo dominante es delta. La contaminación alfa simplemente no se captura en la calificación de la etapa.
+
+Detectarla requiere análisis espectral: la descomposición matemática del señal EEG en sus frecuencias componentes. Esto no forma parte de la calificación estándar de PSG; la mayoría de los laboratorios de sueño no la realizan de forma rutinaria y la mayoría de los médicos del sueño nunca han visto un ratio de potencia alfa-alfa en un informe. Por lo tanto, la anomalía más significativa del sueño del paciente se encuentra en los datos brutos, presente pero invisible en el resumen clínico. La intrusión alfa-alfa fue identificada por primera vez en pacientes con fibromialgia por Moldofsky et al. [@Moldofsky1975alphaDeltaSleep] y posteriormente cuantificada con métodos espectrales por Roizenblatt et al. [@Roizenblatt2001alphaFM], sin embargo, este hallazgo nunca se ha incorporado a la calificación clínica rutinaria.
+
+Luego está el problema de la microarousal. La Academia Americana de Medicina del Sueño define una excitación cuantificable como un cambio abrupto en la frecuencia EEG que dure al menos 3 segundos [@AASM2023manual]. Las excitaciones más cortas que eso — que pueden ser el hallazgo polisomnográfico más consistente en EM/SFC — no se califican. Un paciente que experimente cientos de microarousals de menos de 3 segundos por noche, cada uno interrumpiendo brevemente la coordinación neural necesaria para el sueño reparador, recibirá una lectura del índice de excitación “dentro de límites normales”. Cada uno de esos microeventos desencadena una breve activación simpática, un aumento transitorio de noradrenalina y una supresión momentánea del flujo aclaramiento glifático [@Xie2013glymphatic]. Cientos por noche, cada uno demasiado breve para contar, cada uno erosionando la restauración durante la noche, y el sistema de calificación lo considera normal.
+
+El problema del porcentaje es más sutil pero igualmente importante. Los pacientes con EM/SFC pueden pasar una proporción perfectamente normal de tiempo total de sueño en N3 — y el informe refleja esto, por lo que el médico no ve ninguna señal. Pero lo que importa es la continuidad. Se necesitan épocas de sueño de ondas lentas sostenidas e ininterrumpidas de más de 20 minutos para el aclaramiento aclaramiento glifático y la consolidación de la memoria [@Diekelmann2010sleepMemory]; el N3 fragmentado — cinco minutos aquí, tres minutos allá, intercalado con transiciones de etapa y microarousals — produce el mismo porcentaje pero prácticamente ninguna función reparadora. Los informes estándar de PSG indican el porcentaje; no indican la época más larga sostenida ni un índice de fragmentación. Dos pacientes que muestran 20% de N3, uno con bloques sostenidos y otro con fragmentos dispersos, reciben la misma calificación.
+
+Además, la calidad del sueño en EM/SFC varía drásticamente con la actividad de la enfermedad, el momento de la PEM y el desplazamiento circadiano. Una sola noche de PSG puede ser relativamente buena — la novedad y la presión del laboratorio de sueño a veces incluso produce un efecto de primera noche que distorsiona aún más la estructura — mientras que el monitoreo en casa durante varias noches daría una imagen mucho más representativa. Raramente se ordena.
+
+Por último, los registros estándar de PSG miden la frecuencia cardíaca, pero generalmente omiten el análisis detallado de la variabilidad de la frecuencia cardíaca durante el sueño. La activación simpática persistente, la ausencia de disminución de la presión arterial nocturna y la frecuencia cardíaca elevada durante la noche, que caracterizan a la EM/SFC, están todos presentes en los datos brutos y no aparecen en el informe clínico.
+
+---
+
+## Qué se debería hacer en su lugar
+
+Ninguno de lo que sigue requiere tecnología nueva. Requiere la voluntad de utilizar lo que ya existe.
+
+La adición más importante al PSG estándar es la EEG cuantitativa: se calcula la densidad de energía espectral a lo largo de la noche, en particular el ratio delta/alfa durante los episodios N3, para hacer visible la intrusión alfa-delta. Esta análisis puede realizarse con datos ya recopilados por cualquier configuración PSG estándar; es un paso de postprocesamiento computacional, no una actualización de hardware. El costo es el tiempo de análisis. De manera similar, calificar los despertares en un umbral de 1 segundo en lugar de 3 segundos — o calcular un índice de fragmentación que capture las interrupciones por debajo del umbral que el scoring estándar ignora — es completamente factible con software existente. Estas herramientas se utilizan en la investigación del sueño; simplemente no han pasado a los informes clínicos rutinarios.
+
+El análisis de espinas del sueño es una opción un poco más larga, pero no mucho. Las espinas — explosiones talamocorticales de 12–14 Hz, marcadores de integridad talamocortical — se correlacionan con la calidad del sueño restaurador y pueden detectarse directamente de los datos PSG estándar. Se supone que los pacientes con EM/SFC tienen una densidad y potencia reducidas de espinas debido a los disparos talamocorticales limitados en energía, pero no hay estudio publicado que haya medido esto en la enfermedad. La medición es fácil. Solo se necesita hacerla.
+
+Para capturar la variabilidad que una sola noche de laboratorio no puede, los dispositivos EEG domésticos de grado consumidor y clínico ahora pueden registrar EEG frontal durante múltiples noches. Carecen de la resolución espacial de un montaje completo de PSG, pero pueden rastrear el ratio delta/alfa, las métricas de continuidad del sueño y las variaciones de noche en noche a lo largo de semanas. Para una enfermedad en la que la calidad del sueño puede cambiar drásticamente dependiendo de la actividad de la enfermedad y el momento de la PEM, un mes de datos domésticos vale más que una noche de laboratorio.
+
+Añadir el monitoreo continuo de la presión arterial (para la disminución nocturna), el análisis detallado de HRV (para el equilibrio simpático-parasimpático) y la capnografía (para el screening de hipoventilación nocturna) junto al PSG cubriría la dimensión autónoma que los estudios estándar dejan completamente sin abordar.
+
+---
+
+## La consecuencia clínica de "normal"
+
+Un resultado "normal" causa más daño que ningún resultado, porque activamente impide ciertas opciones de tratamiento.
+
+Las opciones de tratamiento quedan completamente ignoradas. La interrupción alfa-delta podría responder a la modulación de los canales de calcio tipo T o a gabapentinas; la disfunción autonómica del sueño podría responder a DORAs o agonistas alfa-2; los movimientos periódicos de los miembros, si están presentes en otras noches pero por debajo del umbral en la noche estudiada, podrían responder a la optimización del hierro. Ninguno de estos se considera cuando el estudio da un resultado limpio.
+
+El daño a la credibilidad es más difícil de cuantificar, pero sin duda es peor. En un sistema médico que ya tiene dificultades para tomar en serio la EM/SFC, un estudio de sueño "normal" se convierte en otro punto de datos utilizado —a veces explícitamente, generalmente de forma implícita— para sugerir que las quejas del paciente son exageradas o psicológicas. El estudio no fue normal. La prueba no midió lo que es anormal. Esa distinción rara vez sobrevive al paso entre el informe y la consulta.
+
+Y el impacto de la investigación se acumula con el tiempo. Cuando los estudios de sueño sobre EM/SFC siempre reportan hallazgos normales porque utilizan una puntuación estándar sin análisis espectral, se retrasa el reconocimiento de la patología del sueño específica de la EM/SFC como un objetivo de investigación legítimo. El campo mide lo que es fácil de medir, concluye que no hay nada que ver y sigue adelante.
+
+---
+
+## Qué pueden hacer los pacientes ahora
+
+La infraestructura clínica no avanzará rápidamente. Mientras tanto, hay algunas cosas que vale la pena hacer.
+
+Cuando se lea un estudio del sueño, pregunte si el laboratorio realiza análisis cuantitativos de EEG. Algunos centros académicos de sueño lo hacen; la mayoría no. Si no lo hacen, pregunte si los datos brutos del EEG pueden exportarse para análisis externo —esta es la información más útil que se puede solicitar, y algunos laboratorios aceptarán la solicitud incluso si no es estándar. Las bandas para cabeza de grado consumidor con capacidad de análisis espectral son otra opción, imperfecta pero real: carecen de validación clínica para métricas específicas de EM/SFC, pero pueden registrar el ratio delta/alfa a lo largo de varias noches y mostrar el patrón a lo largo del tiempo. Es un autophenotipo de grado de investigación en lugar de una diagnosis, pero produce datos que de otra manera no existirían.
+
+Para la dimensión autónoma, la frecuencia cardíaca continua, HRV y SpO₂ provenientes de dispositivos wearables —correlacionados con las calificaciones subjetivas de calidad del sueño— pueden documentar lo que el PSG omite. Un gráfico que muestre una frecuencia cardíaca elevada durante la noche y una recuperación ausente de HRV nocturna es más fácil de entender en una conversación médica que una descripción verbal de despertar agotado.
+
+Y si un estudio del sueño resulta “normal” cuando el sueño es profundamente no restaurador, esa discrepancia tiene sentido médico en sí misma. Significa que la patología opera por debajo de la capacidad de resolución del test —no que no haya patología. Vale decirlo claramente por escrito, para quien gestione el caso.
+
+---
+
+## Un problema de medición, no un problema del paciente
+
+La diferencia entre lo que los pacientes con EM/SFC experimentan durante el sueño y lo que reporta la polisomnografía estándar es uno de los fallos de medición más significativos en la medicina del sueño moderna. Las pruebas están diseñadas para un conjunto diferente de enfermedades y funcionan bien para esas enfermedades. Nunca fueron diseñadas teniendo en cuenta la EM/SFC, y esa discrepancia es evidente.
+
+Actualizar el enfoque de diagnóstico —análisis espectral, puntuación extendida de excitación, monitoreo multi-noche, evaluación autónoma simultánea— es técnicamente sencillo y económicamente viable. Las herramientas y algoritmos ya existen, en gran medida desarrollados en contextos de investigación del sueño. Lo que falta es reconocer que “PSG normal” en el contexto de un sueño profundamente no restaurador no es tranquilizador. Eso significa que la prueba no mide lo correcto, no que el paciente esté bien.
+
+---
+
+---
+
+*Artículo anterior de esta serie: ¿Qué pasaría si arregláramos la Alpha-Intrusion? — un experimento mental sobre las enfermedades de múltiples mecanismos.*

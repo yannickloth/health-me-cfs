@@ -1,0 +1,18 @@
+---
+title: "El panorama de la investigación EM/SFC, mapeado"
+description: "Ahora existe un registro seleccionado de investigaciones sobre EM/SFC: 149 proyectos a los que puedes consultar. Esto es lo que representa y por qué es importante."
+author: "Yannick Loth"
+date: "2026-09-27"
+categories: [Self-correction, Metascience, Research]
+lang: es
+---
+
+Es una queja común que nadie sabe qué está ocurriendo realmente en la investigación sobre EM/SFC. Cada vez más, eso ya no es cierto. El [**Registro de Investigación EM/SFC**](https://mrr.mecfs-research.org/en/mrr) es un índice seleccionado y de acceso público de la investigación sobre EM/SFC, mantenido por la Fundación de Investigación EM/SFC.
+
+A partir de 2026, cataloga **149 proyectos de investigación** (desde 2019 en adelante), además de redes de investigación, publicaciones, eventos, tipos de investigación, áreas de investigación, grupos de trabajo, personas y organizaciones. Cada entrada de proyecto indica su estado (en curso o completado), país, investigador principal, organizaciones, período de investigación, tipos de investigación y áreas de investigación. El alcance actual incluye: Alemania, Austria, Suiza, los Países Bajos, Noruega e Islandia, con más planes en el futuro.
+
+**Por qué esto es importante tanto para pacientes como para investigadores.** Hace visible la duplicación de investigaciones, hace observables las brechas y proporciona a los financiadores un mapa de quién ya está investigando qué. Si existe un proyecto que le interese, puede averiguarlo; si una área completa está vacía, ahora también es visible.
+
+**Las limitaciones.** Es un producto beta, seleccionado por una fundación y proporcionado “sin ninguna garantía”; refleja informes voluntarios y puede subestimar trabajos no publicados o no regionales. Indexa la actividad de investigación, pero no publica muestras de biología o datos de participantes (ese es el trabajo de los biobanks).
+
+**Cómo usarlo.** Antes de proponer nueva investigación, verifique el registro. Antes de asumir que “nadie está investigando esto”, verifique el registro. Es un pequeño, concreto paso hacia un campo que se conoce a sí mismo.

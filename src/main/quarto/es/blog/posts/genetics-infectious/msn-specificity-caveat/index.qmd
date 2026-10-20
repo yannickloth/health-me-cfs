@@ -1,0 +1,98 @@
+---
+title: "Parte 4: El enriquecimiento cerebral no es exclusivo de nosotros — ¿Qué significa el riesgo neuronal compartido para EM/SFC?"
+description: "Un análisis de tipos de células post-GWAS apunta a neuronas con espinas medianas. Otros trastornos cerebrales implican diferentes tipos de células. Esto es lo que significa y lo que no significa el enriquecimiento común de neuronas cerebrales."
+author: "Yannick Loth"
+date: "2026-07-07"
+categories: [Genetics, Neurology, Cross-Disease]
+lang: es
+---
+
+Has leído los tres primeros artículos de esta serie. Una análisis de tipo celular post-GWAS implica a los neurones con espina media. El striatum es el cuello de botella. Los medicamentos de dopamina resultan lógicos de repente. Es una historia clara y satisfactoria — y, como todas las historias claras y satisfactorias en biología, tiene un problema.
+
+La señal que indica la genética no es una huella de EM/SFC. El enriquecimiento de neuronas cerebrales se observa en muchos trastornos cerebrales.
+
+---
+
+## Compartido en el cerebro, diferente en la célula
+
+EM/SFC no es la única condición cuyo riesgo genético enriquece en neuronas cerebrales. Pero "neuronas cerebrales" es una categoría amplia, y los tipos de células específicas varían entre las condiciones. Aplicar el mismo proceso de análisis de tipos de células basado en atlas a diferentes características da:
+
+| Condición | Tipo de célula enriquecido | Referencias clave |
+|---|---|---|
+| EM/SFC | Tejido cerebral / neuronas; neuronas medias espinosas en un análisis de tipo de célula post-GWAS | DecodeME [@DecodeME2025]; Maccallini 2026 (preprint) [@Maccallini2026metaGWAS] |
+| Esquizofrenia | Neuronas excitadoras de la capa cortical 2/3 | Trubetskoy et al. 2022 [@Trubetskoy2022schizophrenia]; pipeline de tipos de células [@Duncan2025cellTypeBrain] |
+| Depresión mayor | Neuronas corticales 5/6 | Wray et al. 2018 [@Wray2018depression]; pipeline de tipos de células [@Duncan2025cellTypeBrain] |
+| Trastorno por uso de alcohol | Neuronas medias espinosas | Zhou et al. 2020 [@Zhou2020AUD]; pipeline de tipos de células [@Duncan2025cellTypeBrain] |
+
+Por lo tanto, no es correcto decir que estas enfermedades comparten el *mismo* tipo de célula. Lo que tienen en común es que su riesgo genético se expresa en las neuronas cerebrales en lugar de en células inmunitarias. La resolución más detallada del tipo de célula difiere; en el mismo proceso, EM/SFC y trastorno por uso de alcohol son las dos que convergen en neuronas microgliales, mientras que esquizofrenia y depresión convergen en neuronas corticales.
+
+La vulnerabilidad cerebral es amplia. EM/SFC, esquizofrenia, depresión y trastorno por uso de alcohol afectan a circuitos cerebrales, pero a través de diferentes tipos de células y diferentes moléculas. La característica común es el *órgano*, no la huella digital.
+
+Pero las enfermedades claramente no son las mismas. Un paciente con esquizofrenia experimenta alucinaciones y desorden de pensamiento. Un paciente deprimido experimenta anhedonia y desvalorización. Un paciente con EM/SFC experimenta malestar post-esfuerzo y intolerancia ortostática. Diferentes tipos de células, diferentes fenotipos: una señal sobre lo que estamos midiendo y lo que nos falta.
+
+---
+
+## ¿Por qué el enriquecimiento compartido no significa mecanismo compartido?
+
+El enriquecimiento de tipos de célula en GWAS indica *dónde se expresan las variantes de riesgo*, no *qué hacen esas variantes*. Una SNP enriquecida en un tipo de neurona podría afectar a cualquiera de los cientos de genes expresados en esas células. Los genes específicos, la dirección del efecto, el momento de desarrollo y la interacción con otros tipos de células varían entre las enfermedades.
+
+El GWAS de esquizofrenia implica genes de recorte sináptico (C4, vía de complemento), lo cual es consistente con la eliminación excesiva de sinapsis durante la adolescencia. El GWAS de depresión implica genes relacionados con la señalización de hormonas de estrés y la regulación de factores neurotróficos. El GWAS del trastorno por uso de alcohol implica genes de receptores de opioides y dopamina [@Trubetskoy2022schizophrenia; @Wray2018depression; @Zhou2020AUD].
+
+Para EM/SFC, aún no sabemos qué genes específicos dentro de los MSNs se ven afectados — si los MSNs son de hecho el lugar donde se concentra la señal. El resultado para el tipo de célula es un trabajo preliminar y no nos indica aún si el mecanismo es:
+
+- **Desequilibrio en la vía D1/D2** — un cambio en la proporción de señales “sí”/“no sí” que hace que la iniciación de acción sea costosa desde el punto de vista neurológico
+- **Insuficiencia metabólica** — los MSNs son neuronas GABAérgicas que se activan tonificadamente a altas tasas; si la función mitocondrial está globalmente afectada, los MSNs fallan primero
+- **Desensibilización de receptores de dopamina** — la inflamación crónica de bajo grado que reduce la señalización de dopamina independientemente de la variación genética
+- **Disfunción sináptica cortico-striatal** — una integración deficiente de la entrada del cortexe frontal al striato
+
+Estos no son equivalentes. Un desequilibrio en D1/D2 requiere agonistas de dopamina. Una insuficiencia metabólica requiere apoyo mitocondrial. La desensibilización de receptores requiere antiinflamatorios. La disfunción sináptica requiere algo completamente diferente. Cuatro mecanismos diferentes, cuatro tratamientos diferentes. El enriquecimiento cerebral compartido no debilita este hallazgo — sino que aclara la pregunta: *¿qué mecanismo dentro de estas neuronas es específico para EM/SFC?*
+
+---
+
+## La información en las diferencias
+
+La comparación entre condiciones no es un error. Proporciona un grupo de control para el próximo experimento. Si podemos identificar la firma molecular de la disfunción de MSN en EM/SFC y compararla con las firmas en otros trastornos cerebrales, las *diferencias entre ellos* nos indicarán qué es único de cada enfermedad. Dos estrategias:
+
+**Transcriptómica postmortem.** Comparar la expresión génica en MSNs striatales de cerebros con EM/SFC versus cerebros con otras enfermedades cerebrales revelaría qué vías se activan de manera diferente. Es así como la psiquiatría distinguió la esquizofrenia del trastorno bipolar a nivel molecular: encontrando firmas de expresión génica que diferían, y no buscando genes exclusivos de una enfermedad.
+
+**Perfil de ligandos PET.** Diferentes ligandos PET exploran aspectos distintos de la función striatal. La densidad del receptor D1, la densidad del receptor D2, la disponibilidad del transportador de dopamina, el enlace con VMAT2, la activación de microglía — cada uno ofrece una visión diferente del mismo circuito. Comparar los perfiles PET de EM/SFC con los perfiles de esquizofrenia y depresión identificaría las anomalías en receptores y transportadores que diferencian las condiciones.
+
+Ninguna de estas ha sido realizada a gran escala. Ambas son lógicamente necesarias dado el enriquecimiento cerebral compartido.
+
+---
+
+## Lo que el hallazgo común no puede hacer
+
+El enriquecimiento de neuronas cerebrales común no respalda varias afirmaciones que una lectura ingenua podría sugerir:
+
+**No convierte la EM/SFC en una enfermedad psiquiátrica.** La esquizofrenia y la depresión también son enfermedades cerebrales con una arquitectura genética expresada en neuronas; además, tampoco están “solo en tu cabeza” en el sentido despectivo. El enriquecimiento cerebral muestra que estas condiciones comparten un órgano biológico, no una causa ni un tratamiento. El cerebro es un órgano. Las enfermedades de ese órgano son neurológicas.
+
+**No justifica la prescripción de antipsicóticos o antidepresivos para la EM/SFC.** El enriquecimiento en un tipo de célula no indica nada sobre si los medicamentos desarrollados para una condición funcionan para otra. La mayoría de los antipsicóticos bloquean receptores D2, lo que es lo contrario de lo que predice el modelo del déficit de dopamina en la EM/SFC. La superposición entre tipos de célula no debe confundirse con convergencia farmacológica.
+
+**No debilita el argumento genético sobre la primacía neurológica.** El hallazgo de que el enriquecimiento de neuronas cerebrales es común con otras condiciones no debilita el hallazgo de que *el enriquecimiento de células inmunitarias está ausente*. La genética sigue diciendo: el riesgo constitucional de la enfermedad se expresa en neuronas, no en células inmunitarias. La distinción entre “está en el cerebro” y “está en el sistema inmunitario” sigue siendo la clave.
+
+---
+
+## La siguiente pregunta que el campo debe responder
+
+Si esta serie ha sostenido tres conclusiones — (1) la genética apunta al locus neurológico, (2) el striatum es un candidato de cuello de botella, (3) los medicamentos a base de dopamina se convierten en algo razonable para probar — entonces la cuarta posta añade la calificación necesaria: (4) el enriquecimiento de neuronas cerebrales es compartido con otros trastornos cerebrales, y la disfunción *específica* dentro de los MSN (si ese es el tipo de célula correcto) que produce EM/SFC sigue siendo desconocida.
+
+Esto no es una debilidad. Es la siguiente pregunta de investigación, y es precisa: *¿cuál es la firma molecular de la disfunción de los MSN en EM/SFC que la distingue de la patología de otros trastornos cerebrales?* Responde a esa pregunta y tendrás un objetivo terapéutico: no un circuito compartido, sino una lesión específica de la enfermedad dentro de él.
+
+Hasta entonces, todos los medicamentos a base de dopamina para EM/SFC apuntan a un circuito plausible para un mecanismo que aún no podemos especificar. Farmacología racional, pero con una resolución menor que la necesaria.
+
+---
+
+## Estimación de certeza
+
+| Afirmación | Certeza |
+|---|---|
+| El riesgo genético de EM/SFC enriquece en neuronas cerebrales, no en células inmunitarias | Alta — hallazgo a nivel de tejido en GWAS; null en inmunidad |
+| Las neuronas espinosas medias son el tipo de célula enriquecedora en EM/SFC | Baja a moderada — según un análisis de tipo de célula post-GWAS (preprint), dependiente del atlas; no está en el GWAS en sí |
+| Diferentes trastornos cerebrales enriquecen diferentes tipos de células | Alta — un pipeline común de atlas coloca la esquizofrenia en la capa 2/3 cortical, la depresión en la capa 5/6 y la AUD en los MSNs [@Duncan2025cellTypeBrain] |
+| El enriquecimiento cerebral compartido no implica un mecanismo compartido | Alta — diferentes enfermedades involucran genes, vías y patologías moleculares distintas |
+| La lesión molecular específica en las neuronas striata de EM/SFC es desconocida | Muy alta — esta es una afirmación de lo que no se ha hecho, no de lo que muestran las pruebas |
+| El perfil transcriptómico o PET podría distinguir la patología striatal de EM/SFC de otras condiciones | Moderada — la estrategia ha funcionado en psiquiatría; no se ha aplicado a EM/SFC |
+| El desequilibrio D1/D2 es el mecanismo más probable | Baja — uno de varios candidatos; no hay evidencia directa específicamente en EM/SFC |
+
+*Post 4 de 4 en la serie GWAS DecodeME. Prev: [La Genética se Resolvió](../genetics-ends-debate/) · [El Striatum es el Cuello de Bambú](../striatum-bottleneck/) · [Medicinas para EM/SFC en Parkinson?](../dopamine-rational-mechanism/)*

@@ -1,0 +1,20 @@
+---
+title: "Estudio único, afirmaciones importantes: por qué es importante n=16"
+description: "El hallazgo de noradrenalina que sustenta todo un hilo de investigación proviene de 16 pacientes en un único centro. Esto significa lo siguiente."
+author: "Yannick Loth"
+date: "2026-09-26"
+categories: [Self-correction, Metascience, Research]
+lang: es
+---
+
+El tema más interesante reciente en EM/SFC: un déficit selectivo de noradrenalina central — proviene de un estudio con **16 pacientes, en un único centro, utilizando una nueva medida compuesta**, y no ha sido replicado de forma independiente (@Aregawi2026Noradrenergic).
+
+Esto no lo hace incorrecto. Lo hace *provisional*, y cambia la forma en que se debe interpretar cada afirmación posterior.
+
+**Lo que un pequeño estudio de un solo centro puede hacer:** generar una hipótesis clara y verificable; producir un patrón llamativo (déficit de noradrenalina, dopamina estadísticamente indistinguible de los controles) que es difícil descartar como simple casualidad, aunque podría ser en parte un artefacto del nuevo índice; y establecer un plan de acción.
+
+**Lo que no puede hacer:** establecer un mecanismo de enfermedad, probar la causalidad o respaldar afirmaciones de tratamiento confiables. Un nuevo índice compuesto no ha sido validado contra otras cohorte; un único centro conlleva riesgos de método compartido y población compartida; y la descondicionación física puede reducir la noradrenalina sin causar síntomas — un confundidor que no se ha eliminado.
+
+**Por qué aún escribimos sobre esto.** Porque una hipótesis que sea específica, medible y falsificable es valiosa incluso cuando la evidencia es escasa — siempre que esa escasaza se mencione cada vez. En nuestro artículo, los tipos de entorno (especulación, hipótesis) llevan valores de certeza, y los temas relacionados con la noradrenalina son en su mayoría de 0.25–0.40.
+
+**La conclusión:** “Podría existir un déficit selectivo de noradrenalina en EM/SFC, y si se replica, conectaría la intolerancia al esfuerzo, el sueño insatisfactorio y un problema de eliminación”. La cláusula “si se replica” es la condición clave.

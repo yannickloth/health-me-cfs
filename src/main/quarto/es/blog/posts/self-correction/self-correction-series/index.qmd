@@ -1,0 +1,18 @@
+---
+title: "Cómo la ciencia se corrige a sí misma: una serie corta"
+description: "Un artículo elaborado por un paciente y una comisión que muestra sus propias correcciones —incluyendo uno en el que realizamos un estudio al revés."
+author: "Yannick Loth"
+date: "2026-09-24"
+categories: [Self-correction, Metascience, Research]
+lang: es
+---
+
+La mayor parte de los textos de promoción presenta conclusiones. Esta breve serie hace lo contrario: muestra dónde nuestra interpretación fue incorrecta, cómo la detectamos y por qué una afirmación se basa en menos evidencia de lo que parece.
+
+1. [Obtuvimos el resultado de milnacipran al revés — aquí está la corrección](../we-got-milnacipran-backwards/)
+2. [Un estudio único, afirmaciones importantes: por qué n=16 es importante](../single-study-big-claims/)
+3. [El panorama de la investigación EM/SFC, mapeado](../the-research-landscape-mapped/)
+4. [Dónde nuestra evidencia es débil: un recorrido por los puntos débiles](../where-the-evidence-is-thin/)
+5. [La prueba de sangre con genoma 3D: lo que la cifra del 98% realmente medió](../the-3d-genome-blood-test/)
+
+*El tema: un documento que no puede mostrar sus errores no puede ser confiado con sus conclusiones.*

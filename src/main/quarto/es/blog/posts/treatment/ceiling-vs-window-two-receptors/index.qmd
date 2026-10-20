@@ -1,0 +1,91 @@
+---
+title: "Dos receptores, una célula, curvas de dosis opuestas — Interpretar un techo y una ventana como diagnóstico diferencial"
+description: "Dos medicamentos pueden actuar en la misma célula a través de diferentes receptores y mostrar comportamientos de dosis opuestos: uno es nulo en el extremo superior de su rango, mientras que el otro presenta un rango dentro de una fracción de su dosis. Al leer juntos, un límite superior y un rango intermedio no son ruido. Son una diagnóstico diferencial expresada en respuesta a la dosis."
+author: "Yannick Loth"
+date: "2026-09-05"
+categories: [Treatment, Pharmacology, ME/CFS]
+lang: es
+---
+
+Este artículo aclara la diferencia entre la serie de respuesta-dose que se señala sin mencionarla directamente. Dos medicamentos pueden actuar en la **misma célula** a través de **receptores diferentes** y producir **comportamiento de respuesta-dose opuesto** — y los dos resultados, leídos juntos, son información y no ruido. Esa afirmación es una diferencia de diagnóstico realizada con una hoja de recetas.
+
+Dos términos sustentan este argumento, por lo que se fijan aquí. Una **ventana** es el rango de dosis dentro del cual un medicamento produce su beneficio. Un **null** es la ausencia de beneficio neto en una dosis probada. Un **techo** es el extremo superior del rango de dosis en el que se probó un medicamento. El patrón analizado en este artículo es un medicamento que produjo un null en su techo: solo se probaron dosis altas, por lo que el rango bajo nunca se probó — en contraste con otro medicamento que abre una ventana a dosis bajas.
+
+La célula sobre la que se habla en este artículo es la microglía, que impulsa la componente neuroinflamatoria de EM/SFC, y los receptores a través de los cuales actúan los dos medicamentos se encuentran en esa misma célula [@Loth2026website]. Esa anatomía compartida es lo que permite que los resultados de los dos medicamentos se interpreten como una única conclusión sobre un mismo mecanismo.
+
+---
+
+## La anatomía que hace que dos medicamentos sean informativos
+
+El modelo de microglía del componente neuroinflamatorio trata a una población de células como un único punto de decisión: los ligandos proinflamatorios deben interactuar con la célula de manera suficientemente fuerte para superar un umbral antes de que esta libere sus propias citocinas inflamatorias [@Loth2026website]. Los dos medicamentos actúan en diferentes puntos de esta cadena.
+
+**TLR4, probado por naltrexona en dosis bajas (LDN).** El TLR4 es un receptor en la microglía que detecta ligandos proinflamatorios —patrones moleculares asociados con daño y patógenos[@Osman2024naltrexoneTLR4]. La naltrexona en dosis bajas antagoniza el TLR4, como se ha demostrado en estudios con ratas y células de ratones [@Osman2024naltrexoneTLR4; @Kwilasz2021NTXmicroglia; @Kucic2021LDNmicroglia]; su efecto antiinflamatorio propuesto es una bloqueo parcial que activa el programa antiinflamatorio mediante Nrf2 de la propia célula [@Calabrese2021Nrf2; @Kucic2021LDNmicroglia]. Por contraste, en este artículo se señala que el TLR4 se encuentra en el lado de la entrada de la decisión: bloquearlo reduce la fuerza proinflamatoria que llega a la célula. No aumenta el umbral que esos inputs deben superar [@Loth2026website].
+
+**D2/D3, probado por aripiprazol en dosis bajas (LDA).** El aripiprazol es un agonista parcial en los receptores D2/D3 en las mismas microglías: interactúa con el receptor pero lo activa solo parcialmente [@Burris2002aripiprazoleD2; @Shapiro2003aripiprazole]. Su efecto en dosis baja propuesto es aumentar el umbral que la microglía debe superar antes de liberar sus citocinas inflamatorias. Los ligandos relevantes aquí son los que se producen tras un esfuerzo —ATP, especies reactivas de oxígeno, proteínas de shock térmico—, que normalmente hacen que la célula supere ese umbral y inicie una respuesta inflamatoria post-esfuerzo. Al aumentar el umbral, esos señales ya no lo superan, por lo que la liberación de citocinas inflamatorias (TNF-α, IL-1β, IL-6) se suprime y la respuesta post-esfuerzo no se extiende al área que genera síntomas [@Crosby2021LDA; @Loth2026website]. Por lo tanto, el LDA investiga el lado del umbral de la decisión: con qué fuerza los ligandos restantes deben impulsar la célula antes de que responda.
+
+Así que los dos medicamentos actúan en partes diferentes de la misma decisión. El antagonismo del TLR4 reduce la cantidad de inputs proinflamatorios que llegan a la célula; el agonismo D2 aumenta la fuerza con la que los inputs restantes deben impulsar la célula antes de que libere sus citocinas inflamatorias. Dado que ambos medicamentos afectan la misma célula, los dos resultados afectan la misma decisión y pueden evaluarse conjuntamente: uno cambia lo que llega a la célula, el otro cambia cuán fuerte debe impulsarse la célula. No son efectos independientes que se anulan o promedian.
+
+---
+
+## Los dos patrones que vale la pena leer
+
+Dos pruebas de una célula proporcionan dos patrones que transmiten información. (Un tercer resultado — ambos medicamentos nulos dentro del rango — tiene su propio significado y se analiza al final.)
+
+**Patrón uno: ambos abren una ventana.** Ambos receptores pueden utilizarse para suprimir la actividad inflamatoria de la célula; la célula contiene más de un receptor, y un medicamento puede actuar a través de ellos para limitar esa actividad. Es informativo, pero no distingue qué mecanismo de receptor realmente lo controla.
+
+**Patrón dos: un medicamento abre una ventana, el otro es nulo.** Este es el caso más claro. Un medicamento que abre una ventana a una dosis baja demuestra que su mecanismo de receptor es real y accesible a esa dosis. Un medicamento que es nulo no muestra ningún beneficio neto en la dosis probada. Los dos resultados no entran en conflicto; si el nulo puede interpretarse como una exclusión real, depende del lugar donde se registró — y este es el tema de la siguiente sección.
+
+---
+
+## ¿Por qué un techo no transmite información sobre una ventana
+
+La clave está en la disciplina de dosis: el lugar donde se registró un valor nulo determina su significado. Un valor nulo en el **último** extremo del rango de dosis de un medicamento no es una prueba del mecanismo del fármaco si ese mecanismo se encuentra en una ventana más abajo. La LDN es el caso concreto. Su propuesto mecanismo TLR4/Nrf2 se encuentra en una ventana baja. Si un valor nulo se registra solo en el extremo superior del rango, la ventana baja nunca fue probada, y el valor nulo no indica si esa ventana funciona [@Loth2026website].
+
+Esto no es una laguna, sino un principio. Bajo el principio de no propagación ([dosis más altas no contienen los beneficios de dosis más bajas](../concentration-not-presence/)), un valor nulo en el extremo superior de un rango no transmite información sobre una dosis en una ventana por debajo de él. Para un mecanismo cuyo beneficio es una respuesta a un compromiso parcial en una dosis baja, el extremo superior del rango es precisamente el lugar donde se espera que el beneficio haya desaparecido.
+
+Esta asimetría determina cómo se evalúa cada resultado:
+
+- **Una ventana es evidencia positiva.** Una respuesta en una dosis baja predicha mecánicamente demuestra que el mecanismo es real y accesible en esa dosis.
+- **Un valor nulo en el extremo superior de un rango es la ausencia de evidencia en una dosis donde no se esperaba beneficio.** Excluye esa dosis, no el mecanismo.
+
+Por lo tanto, cuando la misma célula es examinada por dos receptores y los resultados son una ventana y un valor nulo en el techo, la interpretación correcta es: *el receptor cuya droga abre una ventana es terapéuticamente accesible; un fármaco que no produjo beneficio en el extremo superior de su rango es una afirmación sobre esa dosis, no sobre el mecanismo.* El contenido diagnóstico está en la ventana, no en el techo.
+
+---
+
+## El dominio resistente es en sí mismo evidencia
+
+El contraste de dos receptores mencionado anteriormente compara dos medicamentos en una misma célula. Una característica separada funciona dentro de un único medicamento, a través de los síntomas del paciente. Un **dominio de síntomas** es un conjunto de síntomas; dos dominios son distintos cuando se cree que tienen mecanismos diferentes. Cuando una dosis baja funcional de un medicamento protege un dominio mientras otro dominio permanece intacto, esa división es en sí misma evidencia: muestra que el medicamento actúa a través de un mecanismo específico y no reduce los síntomas de todas las causas de manera igual.
+
+Un medicamento que protege completamente un dominio y deja intacto otro se comporta como un medicamento *targetado*, y no como uno general. El dominio que no responde es entonces una pista sobre su propio mecanismo: señala una vía que el receptor del medicamento no afecta, en lugar de una falla en la dosis. El marco de interpretación del artículo lo hace explícito: un dominio resistente identifica qué síntomas comparten una vía y cuáles no, sin necesidad de un biomarcador [@Loth2026website].
+
+La consecuencia es la disciplina de Goldilocks aplicada a un éxito: **no aumente la dosis para perseguir el dominio resistente**. Un dominio que no responde a un medicamento a través de un receptor determinado es un fallo en el objetivo, no un fallo en la dosis. Esto es especialmente importante para un agonista parcial como el aripiprazol a baja dosis en esta serie: una dosis suficientemente alta para alcanzar un dominio independiente de la dopamina ya ha salido de la ventana del medicamento, y más allá de esa ventana, el agonista parcial se vuelve a bloquear el receptor en lugar de estimularlo ([el cambio del agonista parcial](../low-dose-aripiprazole-window/)). Aumentar la dosis no atrae al dominio resistente; solo mueve el medicamento fuera de la ventana donde ayudó.
+
+---
+
+## ¿Qué significa este patrón en términos de diagnóstico general
+
+El contraste de dos receptores solo es útil si ayuda al médico a interpretar la historia de tratamientos farmacológicos de un paciente real. Lee los cuatro casos a continuación, donde LDN se utiliza como sonda TLR4 y LDA como sonda D2. Para cada caso, asume que ambos medicamentos fueron probados en el mismo paciente. El marco de inferencia combinada del artículo formaliza las cuatro combinaciones [@Loth2026website]:
+
+- **Ambos abren una ventana.** LDN generó beneficio dentro de su rango y LDA también. La actividad inflamatoria de la microglía puede ser suprimida a través de cualquier receptor. La célula responde tanto a TLR4 como a D2, por lo que cualquier medicamento es una vía viable.
+
+- **LDN nulo dentro del rango, ventana LDA.** LDA generó beneficio dentro de su rango, pero LDN no generó ningún beneficio incluso dentro de su propio rango (bajo). Por lo tanto, el beneficio sigue la vía D2 y no la vía TLR4. Esto no significa que la componente microglial esté ausente; la ventana LDA muestra que las microglías están presentes y accesibles con el medicamento. Significa que la activación que ocurre en este paciente se transmite a través de una vía D2, y TLR4 no es la vía mediante la cual se produce o suprime esa activación. Esta es la exclusión más clara que pueden ofrecer los dos medicamentos.
+
+- **Ventana LDN, LDA nulo dentro del rango.** La imagen inversa. El beneficio sigue la vía TLR4 y no la vía D2: la activación de la microglía puede ser suprimida a través de la vía TLR4, mientras que D2 no aporta ninguna supresión adicional.
+
+- **Ambos nulos dentro del rango.** Ni LDN en su rango ni LDA en su rango generaron beneficio, por lo que ni TLR4 ni D2 suprimen la actividad. Entonces, es poco probable que la activación de la microglía sea el paso limitante, y el diagnóstico diferencial se orienta hacia otras causas.
+
+Dos matices hacen que la matriz sea útil. Primero, la palabra que soporta la carga en cada fila es *dentro del rango*: un nulo en la parte superior de un rango de dosis no indica nada sobre la ventana debajo de ella, por lo que una exclusión clara requiere que cada medicamento haya sido probado dentro de su propia ventana y se haya mantenido allí durante suficiente tiempo para que la dosis mostre su efecto. Segundo, un nulo a través de un receptor nunca significa que la componente microglial esté ausente; significa que ese receptor no es la vía mediante la cual se lleva a cabo la activación en este paciente [@Loth2026website]. Si un nulo se registra en la parte superior de un rango de dosis, pero la ventana de dosis baja nunca se probó, el experimento faltante es una prueba de la dosis baja misma, no un veredicto sobre el mecanismo ([una dosis única fallida no es un veredicto](../single-dose-failure-not-a-verdict/)).
+
+---
+
+## Certeza
+
+| Afirmación | Certeza |
+|-------|-----------|
+| TLR4 (LDN) y D2/D3 (LDA) son sondas complementarias de la misma microglía | Moderada — la anatomía de la célula compartida está establecida; la separación de la ventana de dosis se deriva del modelo de ocupación |
+| Un valor nulo en la parte superior de un rango de dosis no proporciona información sobre una dosis en la ventana inferior | Moderada — se deriva del principio de no propagación; depende de que la hipótesis de la ventana sea correcta |
+| Una ventana a una dosis baja es evidencia positiva más fuerte que un valor nulo a una dosis alta es negativa | Alta como afirmación lógica sobre dosis-respuesta — se prueba un mecanismo dentro de su ventana; una dosis por encima de la ventana no lo es |
+| Un dominio resistente identifica una vía diferente en lugar de un fallo de dosis | Moderada — la interpretación es derivada mecánicamente y depende de que el dominio sea realmente específico para el mecanismo |
+| El patrón de dos receptores se generaliza como un diagnóstico | Baja — el marco de inferencia de combinación es derivado mecánicamente y no ha sido probado prospectivamente |
+
+*Esta publicación se basa en la cascada microglial, la sección de respuesta a la medicación LDA y el marco de inferencia de combinación en [Loth 2026](https://yannickloth.github.io/health-me-cfs/). Los hallazgos clínicos relacionados con LDA provienen de Crosby et al. [@Crosby2021LDA]. Publicaciones relacionadas: [La dosis ideal de Aripiprazole](../low-dose-aripiprazole-window/) · [Por qué una dosis más alta no contiene los beneficios de una dosis más baja](../concentration-not-presence/) · [Parte 3: Tu dosis LDN es un diagnóstico](../dose-is-diagnostic-ldn/) · [Un fallo de una dosis única no es un veredicto](../single-dose-failure-not-a-verdict/).*

@@ -1,0 +1,109 @@
+---
+title: "Artículo 1 sobre Autoimmunitad: Anticuerpos de Receptores de Glucoproteína Glicocosterol, Ataque Inmune al Sistema Nervioso y los Anticuerpos que Se Comunican con tus Receptores en EM/SFC"
+description: "Una guía de lenguaje sencillo sobre la autoimmunitad en EM/SFC: por qué los anticuerpos que atacan los propios receptores (β2-adrenérgicos, muscarínicos M3/M4) pueden provocar disautonomía, la prevalencia muy variable que depende de los análisis y que indica un problema en las mediciones, por qué el título de anticuerpos no equivale a la gravedad de la enfermedad, el umbral del géipo-glicoprófilo, el desencadenante postinfeccioso y la diferencia entre la autoimmunitad clásica y la autoimmunitad adicional a la EM/SFC."
+author: "Yannick Loth"
+date: "2026-08-15"
+categories: [Autoimmunity, GPCR, ME/CFS, Pathophysiology]
+lang: es
+---
+
+Un análisis de sangre muestra un autoanticuerpo dirigido a tus propios receptores — no una enfermedad autoinmune clásica como el lupus o la artritis reumatoide. No aparece nada en las imágenes. Tu CRP y ESR son normales. Pero el autoanticuerpo está presente, dirigido al receptor β2-adrenérgico que regula tus vasos sanguíneos y al receptor muscarínico M3 que controla tu intestino y tus pupilas. Tus nervios y vasos son señalados por autoanticuerpos autodirigidos — y nadie puede decirte si eliminarlos resolvería algo.
+
+Ahora añade el resto de la EM/SFC: la PEM, la niebla cerebral, la intolerancia ortostática. Dependiendo enteramente del análisis utilizado, de los autoanticuerpos probados y del umbral que define lo “positivo”, la prevalencia de autoanticuerpos GPCR varía entre aproximadamente el 29% y un nivel en el que una ELISA comercial reporta casi a todos como positivos — incluyendo controles sanos [@Loebel2016][@Bynke2020]. Esa dispersión — de uno en tres a casi todos — es la característica de un campo que aún no ha resuelto su problema de medición.
+
+Este artículo es una visión conceptual. Qué son realmente los autoanticuerpos GPCR, por qué la prevalencia reportada varía tan drásticamente según el análisis utilizado, el Fc-glicoprófil que determina si un autoanticuerpo es patogénico o inerte, por qué el título de autoanticuerpo no equivale a la gravedad de la enfermedad, la historia del desencadenante postinfeccioso y la diferencia entre la autoinmunidad clásica y la autoinmunidad *sobre* la EM/SFC. Los tratamientos — inmunoadsorción, IVIG, rituximab, daratumumab — y por qué la evidencia no está resuelta — se tratan en el [artículo sobre tratamientos complementarios](../autoimmunity-treatment/index.qmd).
+
+---
+
+## En primer lugar, una advertencia simple
+
+*Esto es una explicación, no consejo para auto-mediciarse, y no soy médico. Los análisis de autoanticuerpos para EM/SFC no están estandarizados — los análisis comerciales CellTrend ELISAs, los más utilizados, han demostrado producir resultados positivos en el 98–100% de los controles sanos en un estudio de replicación, lo que pone en duda su valor diagnóstico. La inmunoadsorción, IVIG, rituximab y daratumumab son intervenciones hospitalarias con riesgos significativos, incluyendo infección, anafilaxia, tromboembolismo y — en el caso de rituximab — leucoencefalopatía multifocal progresiva. Estos son tratamientos para las personas gravemente afectadas, discutidos con un inmunólogo, no para uso autónomo.*
+
+---
+
+## La versión breve, si solo lees una parte
+
+- **Autoanticuerpos de GPCR** apuntan a receptores acoplados a proteínas G — β1/β2-adrenérgicos (vasos sanguíneos, frecuencia cardíaca), M1/M3/M4 muscarínicos (intestino, pupila, cognición) y α1-adrenérgicos (tono vascular). Se encuentran en tasas muy variables (desde ~29% hasta casi todos) dependiendo del estudio, el análisis y el umbral [@Loebel2016][@Bynke2020].
+- **El problema fundamental de medición sigue sin resolver**. El análisis comercial más común (CellTrend ELISA) produjo resultados positivos en el 100% de los controles sanos en un estudio independiente — lo que significa que la prueba no puede distinguir entre pacientes y controles. El análisis de mayor calidad (REAP proteome-wide screen, 7,542 interacciones de antígenos) no encontró señales significativas de autoanticuerpo en EM/SFC — un completo nulo [@Germain2025autoantibody].
+- **El título de anticuerpo es un mal predictor de patogenicidad**. Dos personas con el mismo nivel de β2-AAb pueden tener gravedad de enfermedad completamente diferente, porque lo que importa no es la cantidad de anticuerpo, sino su **glicoproteíma Fc** — las moléculas de azúcar adheridas a la cola del anticuerpo que determinan si activa el complemento, se une a receptores Fc o permanece inactiva. Un IgG agalactosilado (G0F) es proinflamatorio; un IgG sialilado es antiinflamatorio. Mismo título, efectos opuestos [@Loth2026website].
+- **Evidencia de transferencia pasiva de fibromialgia y Long COVID** muestra que inyectar IgG de pacientes en ratones reproduce dolor y neuropatía de pequeñas fibras — evidencia contundente de que los anticuerpos son *suficientes* para reproducir un fenotipo (es decir, pueden ser patogénicos, no solo correlativos) en esas condiciones [@Goebel2021passiveTransferFM][@Mignolet2026passiveTransferLC]. Aún no existe ningún estudio de transferencia pasiva específico para EM/SFC.
+- **La autoimmunitad es generalmente postinfeciosa, no espontánea**. Los autoanticuerpos de GPCR se generan durante la infección mediante mimetismo molecular (proteínas virales se asemejan a receptores propios) o activación por oposición (la respuesta inmunitaria al virus se extiende a antígenos propios). Los anticuerpos persisten después de que la infección se elimina — y si continúan causando daño depende del glicoproteíma Fc y de la capacidad del huésped para eliminarlos.
+
+---
+
+## ¿Qué son los autoanticuerpos de GPCR en realidad?
+
+Los receptores acoplados a proteínas G (GPCRs) son la mayor familia de receptores de superficie celular en el cuerpo humano. Se encuentran en la membrana externa de las células y transmiten señales externas — hormonas, neurotransmisores, luz, olores — hacia el interior de la célula. Los receptores beta-adrenérgicos (β1, β2, β3) responden a adrenalina y noradrenalina, controlando la frecuencia cardíaca, el tono vascular y la dilatación bronquial. Los receptores de acetilcolina muscarínicos (M1–M5) responden a acetilcolina, controlando la motilidad intestinal, la constricción de la pupila, la salivación y — en el cerebro — la cognición y el estado de alerta.
+
+Los autoanticuerpos contra GPCRs pueden hacer tres cosas:
+
+1. **Activación agonística** — el anticuerpo imita el ligando natural, activando el receptor. Un β2-AAb agonístico produce el mismo efecto que la adrenalina: aumento de la frecuencia cardíaca y vasodilatación. Si se mantiene, se produce desensibilización y internalización del receptor — la célula elimina el receptor de la superficie para protegerse, y el paciente adquiere una deficiencia funcional en esa vía de señalización, aunque el anticuerpo siga presente.
+
+2. **Bloqueo antagonista** — el anticuerpo impide que el ligando natural se une, desactivando el receptor. Un M3-AAb antagonista inhibe la motilidad intestinal y la salivación, imitando los efectos de los medicamentos anticolinérgicos.
+
+3. **Internalización del receptor sin activación** — el anticuerpo cruza los ligamentos de los receptores y desencadena endocitosis mediada por β-arrestina, eliminando el receptor de la superficie sin activarlo. Esto es funcionalmente equivalente al bloqueo, pero el receptor se elimina físicamente en lugar de ser ocupado. Este mecanismo, demostrado para los anticuerpos de NMDAR en la encefalitis autoinmune y extendido a GPCRs en el documento principal, explica por qué algunos autoanticuerpos causan deficiencias funcionales sin ninguna actividad agonística o antagonista medible [@Kim2026nmdar_cryoem].
+
+El efecto clínico depende de qué receptores se targetan, en qué tejidos, con qué efecto funcional y en qué estado de Fc-glicoproteína. Esta complejidad combinada — tipo de receptor × ubicación tisular × modo funcional × glicoproteína — es la razón por la cual un único "panel de autoanticuerpos de GPCR" no puede predecir síntomas, respuesta al tratamiento o pronóstico.
+
+---
+
+## ¿Qué significa realmente el amplio rango de prevalencia
+
+La prevalencia reportada de autoanticuerpos de GPCR en EM/SFC abarca un rango muy amplio dependiendo del método de análisis: desde aproximadamente el 29% en un bioanálisis funcional hasta el punto en el que un ELISA comercial reporta casi todos como positivos, incluyendo controles sanos. Esto no es variabilidad biológica, sino caos en las mediciones.
+
+- **Loebel 2016** (n=268 EM/SFC, n=108 controles) utilizó un bioanálisis que mide la activación de receptores funcionales: el 29.5% tenía ≥1 autoanticuerpo GPCR elevado. Esta es la estimación más conservadora y más significativa desde el punto de vista funcional.
+- **Bynke 2020** (Suecia, dos cohortes, n=24 plasma + n=24 CSF cada uno) utilizó la plataforma ELISA CellTrend y encontró niveles significativamente elevados de autoanticuerpo M3/M4 en pacientes con EM en comparación con los controles (β1/β2 en una cohorte), pero no reportó un porcentaje de prevalencia con un único umbral.
+- **Vernino 2022** (POTS, n=116) probó el ELISA comercial CellTrend: **98.3% de los pacientes Y 100% de los controles tenían autoanticuerpo α1-AAb positivo.** La prueba no pudo distinguir entre pacientes y controles — cero valor diagnóstico.
+- **Germain 2025** (n=172 participantes) utilizó la plataforma de mayor resolución disponible — REAP, que analizó 7,542 interacciones de anticuerpo-antígeno entre 6,183 proteínas exoproteomáticas — y encontró **cero** señales de autoanticuerpo significativas: ningún q-value fue inferior a 0.68 (es decir, nada se acercó al umbral de significancia). Cero absoluto.
+
+El patrón es sistemático: cuanto más funcional y específico es el método de análisis, menor es la prevalencia. Cuanto menos específico es el método, mayor es la prevalencia — hasta que, en el límite, el 100% de los controles sanos da positivo y el método colapsa. La implicación, incómoda, es que **muchas de las asociaciones reportadas de autoanticuerpos de GPCR pueden ser artefactos del método de análisis y no señales específicas de la enfermedad** [@POTS2022failed_replication].
+
+La señal que aparece con mayor frecuencia en los estudios es el autoanticuerpo β2-adrenérgico — aunque con una advertencia. Azcue 2026 encontró que el β2-AAb está elevado en EM/SFC en comparación con post-COVID y controles sanos (F=3.15, p=0.046), y los niveles de β2-AAb están correlacionados con la gravedad de los síntomas autonómicos (r=0.45, p=0.001). Ambas cifras provienen de un único grupo y un único método de análisis, y la diferencia en el grupo con p=0.046 es marginal — así que, aunque β2 es el objetivo de GPCR más frecuentemente reportado en EM/SFC, no se ha replicado de forma independiente, y el cero absoluto en REAP significa que incluso esta señal no escapa a la controversia en las mediciones [@Azcue2026gpcr].
+
+---
+
+## El perfil de glicoproteína Fc: por qué el mismo título significa cosas diferentes
+
+Todos los anticuerpos IgG tienen un sitio de glicosilación conservado en asparagina-297 en la región Fc. La estructura de azúcar adherida allí —el perfil de glicoproteína— determina la función efectora:
+
+- **IgG agalactosilada (G0F)** — sin residuos de galactosa. Esta forma de glicoproteína se une a los receptores Fcγ con alta afinidad, activa el complemento y promueve la citotoxicidad celular dependiente de anticuerpos. Es la forma de glicoproteína **proinflamatoria**, elevada en la artritis reumatoide activa y en infecciones virales agudas. Si los β2-AAb de un paciente son predominantemente G0F, es probable que sean patógenos.
+- **IgG sialilada** — residuos terminales de ácido sialico. Esta forma de glicoproteína interactúa con DC-SIGN en macrófagos reguladores, induciendo una respuesta antiinflamatoria. Es la forma de glicoproteína **antiinflamatoria**, elevada durante el embarazo (cuando las enfermedades autoinmunes a menudo desaparecen) y después de una terapia de infusión de globulina de inmunosupresor (IVIG) exitosa. Si los β2-AAb de un paciente son predominantemente sialiladas, pueden ser inertes o incluso protectores.
+- **IgG bisectada (G0FB)** — intermedia; elevada en respuestas de anticuerpos en estado estable.
+
+El mismo título de ELISA de β2-AAb — digamos 15 U/ml — puede ser predominantemente G0F (patógeno, que induce disfunción autónoma) o predominantemente sialilada (inerte, un remanente de una infección pasada que el sistema inmunitario ya ha disminuido). Los análisis comerciales actuales no miden el perfil de glicoproteína. Esto significa que un test de anticuerpo autoantigénico GPCR positivo, sin información sobre el perfil de glicoproteína, es **ambiguo** — indica que el anticuerpo existe, pero no si está haciendo algo [@Loth2026website].
+
+---
+
+## El desencadenador postinfeccioso: mimetismo molecular y activación de espectadores
+
+Los autoanticuerpos de GPCR no se generan espontáneamente. Surgen durante la infección a través de dos mecanismos:
+
+**Mimetismo molecular.** Las proteínas virales comparten homología de secuencia con los receptores autónomos. El EBV EBNA-1 comparte epítopos con receptores adrenérgicos y muscarínicos. La proteína de espínula de SARS-CoV-2 comparte similitud de secuencia con los bucles extracelulares de β2-AR. La respuesta de anticuerpos a la proteína viral interactúa cruzada con el receptor autónomo, es decir, el sistema inmunitario, y al dirigirse al virus, accidentalmente ataca al huésped.
+
+**Activación de espectadores.** Durante una intensa respuesta inmunitaria antiviral, las células B que reconocen antígenos autónomos — normalmente mantenidas en estado inactivo por mecanismos de tolerancia — se activan por el entorno de citocinas y comienzan a producir autoanticuerpos. Los autoanticuerpos no formaron parte de la respuesta antiviral; son daños colaterales derivados de la activación inmunitaria.
+
+Ambos mecanismos explican por qué los autoanticuerpos de GPCR aparecen después de la infección y pueden persistir durante meses o años — y por qué su patogenicidad depende de si el entorno inmunitario postinfeccioso se desplaza hacia un glicoprofilo proinflamatorio (G0F) o antiinflamatorio (sialilado).
+
+---
+
+## Autoimmunity por sí misma vs EM/SFC con autoimmunity
+
+**Autoimmunity clásica por sí misma (sin EM/SFC).** Lupus, artritis reumatoide, miastenia gravis, gangliopatía autoinmune autónoma — estas son enfermedades en las que el autoanticuerpo es la patología dominante. Eliminarlo (inmunoadsorción, rituximab, IVIG) trata la enfermedad. El título del anticuerpo se correlaciona con la actividad de la enfermedad. La patología está bien caracterizada.
+
+**EM/SFC con autoanticuerpos (la situación de esta serie).** Cuando los autoanticuerpos de GPCR se ubican sobre la EM/SFC, tres cosas son diferentes:
+
+- **Los autoanticuerpos son un factor contribuyente.** Eliminarlos puede mejorar los síntomas autónomos sin corregir la falla energética, la desregulación inmune o la hipoperfusión cerebral. El mejor resultado del tratamiento es parcial: la desautonomia mejora, pero la PEM no [@Loth2026website].
+- **El título del anticuerpo no equivale a la gravedad de la enfermedad.** Dos pacientes con el mismo nivel de β2-AAb pueden tener imágenes clínicas completamente diferentes porque el glicoproteico Fc, el compartimento del receptor (membrana plasmática vs internalizado), la distribución tisular y los mecanismos compensatorios del huésped modulan el efecto del anticuerpo.
+- **Un fracaso en un ensayo de eliminación de anticuerpos no indica nada contra la EM/SFC.** Si la inmunoadsorción elimina los autoanticuerpos y los síntomas no mejoran, los autoanticuerpos no fueron la patología dominante — fueron un marcador de activación inmune, no un factor impulsor de la enfermedad. Este es el resultado más común del estudio Anft 2025 (más abajo) y el que debería definir las expectativas para cualquier tratamiento dirigido a anticuerpos.
+
+---
+
+## La conclusión principal
+
+La autoimmunitad — específicamente las autoanticuerpos de GPCR — es el tema más provocador y controvertido en la Septad. La señal β2-adrenérgica es el hallazgo de GPCR más frecuentemente reportado (pero se basa en el resultado marginal p=0.046 de un único grupo, no en replicación independiente); los análisis comercial que indican positividad en casi todos no lo hacen. El perfil de glicoproteína Fc determina si un anticuerpo es patógeno, y nadie lo está midiendo. La evidencia de transferencia pasiva de fibromialgia y Long COVID proporciona pruebas sólidas de que los anticuerpos de los pacientes pueden reproducir un fenotipo en animales — pero no existe ningún estudio de transferencia específico para EM/SFC [@Goebel2021passiveTransferFM].
+
+Lo que se lee: los autoanticuerpos de GPCR son reales en un subgrupo, su patogenicidad depende de factores que no se capturan con los análisis actuales, y los tratamientos que los eliminan ([descritos en el artículo complementario](../autoimmunity-treatment/index.qmd)) han mostrado señales fuertes en estudios no controlados y resultados nulos en estudios controlados. El campo se encuentra en un punto donde el mecanismo es plausible pero las implicaciones terapéuticas no están probadas — y la distinción es de gran importancia para los pacientes que toman decisiones de tratamiento.
+
+**Próximo en esta mini-serie:** los tratamientos — inmunoadsorción, IVIG, rituximab, daratumumab — y por qué la evidencia de los ensayos controlados no coincide con los resultados de la etapa abierta [[ver el artículo complementario]](../autoimmunity-treatment/index.qmd).
+
+Para una imagen completa y totalmente citada de cómo se evalúa la autoimmunitad entre los muchos mecanismos candidatos en EM/SFC, véase [@Loth2026website].

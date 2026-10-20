@@ -1,0 +1,268 @@
+---
+title: "Parte 4: La Farmacopea — Cada rango de dosis para cada medicamento y su significado"
+description: "Has probado un medicamento con una dosis y no funcionó. O funcionó, pero luego dejó de actuar. O causó un efecto secundario que tu médico ignoró. Aquí se explica cómo interpretar la relación entre dosis y efecto en dieciocho medicamentos: no se trata solo de si un medicamento «funciona», sino de lo que cada rango de dosis revela sobre tu biología subyacente."
+author: "Yannick Loth"
+date: "2026-07-12"
+categories: [Treatment, Pharmacology, ME/CFS]
+lang: es
+---
+
+Cualquier persona que haya pasado por el ciclo de ensayo y error suficientes veces conoce el patrón de memoria: iniciar un medicamento, notar algo, ajustar la dosis, perder ese efecto, ajustar la dosis, recuperar ese efecto. El médico registra "respuesta" o "no respuesta" y sigue adelante; un sistema binario que descarta la mayor parte de la información. *Dónde* en el eje de dosis apareció la respuesta y *dónde* desapareció es el signo diagnóstico. El resto es compresión sin pérdida de información.
+
+Los tres artículos anteriores explicaron por qué: los dieciocho medicamentos con curvas de respuesta de dosis-U invertida se dividen en cuatro categorías mecánicamente distintas, y la dosis en la que el beneficio aparece, alcanza un pico y se invierte puede revelar qué mecanismo es limitante. Este artículo es la ayuda para el paciente del tabla de referencia consolidada que se encuentra ahora en el artículo principal (ch32, sec-14). Lo que sigue es una descripción de cada medicamento, de cada banda de dosis clínicamente relevante y de lo que cada banda *puede* significar: beneficio, pérdida de beneficio, efectos secundarios y silencio todos transmiten información.
+
+Dos advertencias antes de comenzar. Primero, toda inferencia entre medicamentos aquí es no probada. La afirmación de correlación de clúster —que las ventanas de los medicamentos Nrf2 deberían coincidir entre sí, pero no las de los medicamentos de catecolaminas— es la hipótesis fundamental que puede ser falsificada y espera el ensayo HIP-B. Estas son apuestas empíricas, no hechos establecidos. Segundo, el marco puede estar equivocado. La dosis en la que un medicamento funciona y la dosis en la que deja de funcionar sigue siendo información sobre la biología, independientemente de si la capa interpretativa sobre ella resiste. La curva de respuesta de dosis es tuya. La teoría alrededor de ella es provisional.
+
+---
+
+## Categoría 1: Hormesis mediada por Nrf2
+
+Estas drogas activan la expresión de genes antiinflamatorios y antioxidantes a través del camino Keap1-Nrf2-ARE. La ventaja radica en la respuesta adaptativa propia de la célula, no en la acción directa de la droga. Una dosis muy baja no logra activar la señal de estrés; una dosis muy alta la extingue o sobrecarga la maquinaria compensatoria de la célula. Por lo tanto, el rango terapéutico es estrecho por diseño.
+
+### LDN (Naltrexona en dosis bajas)
+
+LDN afecta a cuatro objetivos, cada uno a una concentración plasmática diferente: primado hormético TLR4/Nrf2 (pico en 0.5–1.5 mg), aumento compensatorio de opioides (estancado entre 1.5 y 3.0 mg), restauración del canal ión TRPM3 (probablemente entre 3.0 y 4.5 mg) y disinhibición de orexina (seguimiento de la curva TLR4). La dosis adecuada depende completamente del mecanismo dominante — consulta la Parte 1 para conocer la cadena completa de cuatro mecanismos.
+
+| Dosis | Mecanismo | Interpretación |
+|------|-----------|----------------|
+| 0.25–0.5 mg | Prueba de microdosis | **Si funciona:** Alta sensibilidad; es probable que haya un rango estrecho para todas las drogas de Nrf2-cluster. **Si no funciona:** El umbral de activación puede no alcanzarse — prueba 1.0–1.5 mg. O si el tono oxidativo basal es bajo y se necesita una perturbación mayor para activar el sensor. **Efectos secundarios:** Un brote en microdosis indica un sobrecambio homeostático (ver Parte 3): la capacidad de amortiguación del sistema es demasiado baja para contener la respuesta adaptativa. Prueba gotas sublinguales de 0.1 mg; si el brote persiste, la búsqueda de dosis es prematura. |
+| 0.5–1.5 mg | Primado hormético TLR4/Nrf2 | **Si funciona:** La neuroinflamación impulsada por TLR4 es limitante y las microglías son responsivas a Nrf2. Ancho del rango (beneficio perdido a 1.0 mg frente a persistencia hasta 1.5 mg) estima el reserva de Nrf2. **Si no funciona:** El beneficio perdido por debajo de 1.5 mg significa una reserva de Nrf2 estrecha. No hay beneficio en absoluto sugiere que TLR4 no es la entrada limitante en las microglías. **Efectos secundarios:** Sueños vívidos, perturbación inicial del sueño — el engagement del receptor de opioides es detectable incluso en microdosis. Generalmente transitorio (1–2 semanas). Persistente más allá de 3 semanas: prueba 0.25 mg por la mañana + 0.25 mg por la noche. |
+| 1.5–3.0 mg | Zona de transición: desvanecimiento de TLR4/Nrf2, aumento compensatorio de opioides | **Si funciona:** El mantenimiento del beneficio sugiere que el aumento compensatorio de opioides contribuye o que la reserva de Nrf2 es suficientemente amplia para sostener el primado. **Si no funciona:** La pérdida a 1.5–2.0 mg es el patrón más común — una respuesta pura dominada por TLR4/Nrf2. **Efectos secundarios:** Sensación de "conectado" sugiere que la disinhibición de orexina está activa. Si es tolerable, continúa. |
+| 3.0–4.5 mg | Restauración de TRPM3, plataforma de opioides, disinhibición de orexina. Desvanecimiento de TLR4/Nrf2 | **Si funciona:** El beneficio aparece aquí por primera vez indica patología del canal TRPM3 o deficiencia de orexina. El mantenimiento del beneficio desde dosis más bajas significa que el aumento compensatorio de opioides es el motor dominante. **Si no funciona:** No hay beneficio aquí (y 0.5–1.5 mg también falló) significa que ninguno de los cuatro mecanismos de LDN es limitante — la diferencia se reduce a D2-camino (LDA), autoanticuerpos, patología de células B, MCAS o causas estructurales. **Efectos secundarios:** Desvelo excesivo; cuando acompañado de la pérdida del beneficio antiinflamatorio, el efecto neto es neutro a negativo. |
+| 4.5–9.0 mg | Todos los mecanismos pasaron el óptimo; acercándose a la antagonismo de mu-opioides | **Si funciona:** Ningún mecanismo tiene un óptimo por encima de 4.5 mg — cualquier beneficio ya se logró a 4.5. **Si no funciona:** Es esperado — todos los cuatro mecanismos han pasado su óptima de dosis. La droga no ha fallado; la dosis es demasiado alta. **Efectos secundarios:** Irritabilidad, disforia — el antagonismo de mu está activo. No aumente más la dosis. |
+| ≥50 mg | Completo antagonista de mu-opioides | **Si funciona:** No hay razón terapéutica en EM/SFC. **Si no funciona:** Todos los mecanismos específicos de LDN se han desvanecido. **Efectos secundarios:** Anhedonia, peor dolor — detente, vuelve a la dosis baja efectiva. |
+
+**Lo que implica para otros medicamentos:** El beneficio en el rango de 0.5–1.5 mg es consistente con la respuesta a otros activadores de Nrf2 (sulforafano, melatonina en baja dosis, litio en baja dosis, quercetina). El beneficio solo en el rango de 3.0–4.5 mg sugiere que es poco probable que los activadores de Nrf2 ayuden, y las intervenciones dirigidas a TRPM3 (microdosis de litio para la estabilización de PIP₂) o los agentes dirigidos a orexina merecen consideración.
+
+### Litio en baja dosis (0.3–5 mg de litio elemental)
+
+El litio actúa mediante la inhibición de GSK-3β, lo que desrepresa el Nrf2. A concentraciones más altas, la inhibición de IMPase entra en juego, creando una dinámica bifásica con dos objetivos —la misma lógica que la rapamicina en mTORC1/C2, pero con un par de enzimas diferente.
+
+| Dosis | Mecanismo | Interpretación |
+|------|-----------|----------------|
+| 0.3–1.0 mg | Inhibición parcial de GSK-3β, activación leve de Nrf2/ARE | **Si funciona:** Amplia reserva de Nrf2 — incluso la inhibición mínima de GSK-3β es suficiente. Es consistente con los rangos amplios para el resto del grupo. **Si no funciona:** No se alcanza el umbral. Esto no significa que GSK-3β sea irrelevante. **Efectos secundarios:** Prácticamente ninguno; está por debajo del umbral de efectos secundarios para cualquier mecanismo de litio conocido. |
+| 1.0–5.0 mg | Inhibición de GSK-3β dependiente de la dosis, activación de Nrf2; comienza la inhibición de IMPase | **Si funciona:** GSK-3β es el limitador de velocidad para la activación de Nrf2. La pérdida de beneficio por encima de este rango sugiere que la sensibilidad a IMPase limita el límite terapéutico. **Si no funciona:** No hay beneficio en ninguna dosis sugiere que GSK-3β no es el limitador de velocidad del represor de Nrf2, o que la inhibición de IMPase compensa el beneficio mediante la depleción de PIP₂ —imposible de separar sin medir PI. **Efectos secundarios:** Disminución leve del rendimiento cognitivo (rara); el litio debe interrumpirse, ya que GSK-3β ya no es un objetivo viable. Sed o poliuria a estas dosis: interrumpir. |
+| 5–15 mg | La inhibición de IMPase domina | **Si funciona:** El beneficio solo aquí significa que el mecanismo no es GSK-3β/Nrf2 — posiblemente la modulación de IP₃ o las dinámicas de PIP₂. **Si no funciona:** La pérdida a dosis efectivas más bajas significa que la inhibición de IMPase contrarresta el beneficio de Nrf2. **Efectos secundarios:** Disminución del rendimiento cognitivo, emocionalidad reducida, posibles efectos en el tiroides con uso prolongado. |
+| ≥150 mg | Dosis psiquiátricas | **Si funciona:** No aplica a la hormesis EM/SFC. **Si no funciona:** Esperado. **Efectos secundarios:** Perfil completo de toxicidad por litio (tremor, nefrotoxicidad, hipotiroidismo). No usar. |
+
+**Lo que implica para otros medicamentos:** Un rango de litio más estrecho que el rango de LDN implica que la sensibilidad a IMPase es el factor limitante, en lugar de la reserva de Nrf2. Un rango de litio más amplio que el rango de LDN sugiere que el tono de TLR4 limita específicamente a LDN, no la reserva de Nrf2 en general.
+
+### Melatonina (0.3–5 mg)
+
+La melatonina tiene dos efectos separables: una señal cronobiótica (cicadiana) que es independiente de la dosis, y la activación de Nrf2 a través de los receptores MT1/MT2 que es hormética. Interpretar la curva dosis-respuesta requiere distinguir cuál de estos está produciendo el beneficio.
+
+| Dosis | Mecanismo | Interpretación |
+|------|-----------|----------------|
+| 0.1–0.3 mg | Prueba circadiana de dosis ultrabaja | **Si funciona:** Resolución de la somnolencia en dosis más altas mediante dosis dividida — patrón de metabolizador lento de CYP1A2. **Si no funciona:** Puede no alcanzarse el umbral cronobiótico. **Efectos secundarios:** Prácticamente ninguno; por debajo del umbral de efectos secundarios. |
+| 0.3–1.0 mg | Fisiológico: avance de fase circadiana + activación leve de Nrf2 a través de MT1/MT2 | **Si funciona:** Beneficio únicamente para el inicio del sueño → mecanismo circadiano (sin inferencia de Nrf2). Beneficio antiinflamatorio (reducción del malestar, mejor cognición) → contribución de la vía Nrf2, consistente con la respuesta a otros medicamentos del grupo. **Si no funciona:** El beneficio únicamente circadiano significa que Nrf2 no contribuye — la inferencia del grupo no aplica. **Efectos secundarios:** Somnolencia por la mañana → metabolismo lento de CYP1A2. Dosis dividida o reducir a 0.1–0.3 mg. |
+| 1.0–3.0 mg | Supraphisiológico: MT1/MT2 + efectos antioxidantes directos | **Si funciona:** Beneficio superior al logrado con 0.3–1.0 mg → contribución de efectos antioxidantes directos, o metabolizador rápido. **Si no funciona:** Beneficio disminuyendo desde 1 mg → desensibilización de MT1/MT2; la señal supraphisiológica carece de especificidad circadiana. **Efectos secundarios:** Ninguno, excepto sedación dosis-dependiente. |
+| 3.0–5.0 mg | Dosis alta: desensibilización de MT1/MT2, componente de Nrf2 extinguido | **Si funciona:** Solo el efecto cronobiótico en el inicio del sueño puede persistir — el beneficio antiinflamatorio mediado por Nrf2 probablemente se ha perdido. **Si no funciona:** Pérdida parcial esperada — el componente antiinflamatorio hormético está ausente. **Efectos secundarios:** Sedación, sin beneficio terapéutico respecto a dosis más bajas. |
+| >5 mg | Solo sedación | **Si funciona:** Placebo en el mejor de los casos a través del marco hormético. **Si no funciona:** Esperado. **Efectos secundarios:** Sedación dosis-dependiente, sin justificación mecanística. |
+
+### Sulforafeno (extracto de brotes de brócoli, estandarizado con glucorafanina)
+
+El sulforafeno modifica directamente los residuos de cisteína de Keap1 para liberar Nrf2 — es la prueba de Nrf2 más pura del grupo.
+
+| Dosis | Mecanismo | Interpretación |
+|------|-----------|----------------|
+| 10–30 mg de glucorafanina | Modificación de cisteína de Keap1, liberación de Nrf2 | **Si funciona:** Sensor de Nrf2 excepcionalmente sensible, reserva suficiente de Nrf2. Ventana estrecha aquí → el grupo de Nrf2 probablemente es el cuello de botella. **Si no funciona:** Umbral no alcanzado; aumentar la dosis. **Efectos secundarios:** Incomodidad gastrointestinal → problema de metabolismo de glucosinolatos; persistencia → el microbioma intestinal carece de bacterias que producen mirosinasa. |
+| 30–60 mg de glucorafanina | Supresión de Keap1 dosis-dependiente | **Si funciona:** Tasa de degradación moderada de Nrf2; tono de GSK-3β dentro del rango normal. **Si no funciona:** Beneficio perdido a partir de 60 mg → reserva estrecha de Nrf2, todos los medicamentos del grupo deben mostrar ventanas correlacionadas estrechas. **Efectos secundarios:** Síntomas gastrointestinales como los anteriores. |
+| 60–100 mg de glucorafanina | Supresión casi completa de Keap1 | **Si funciona:** Altas tasas de degradación de Nrf2 (sobreexpresión de Keap1 o hiperactividad de GSK-3β); se requiere una supresión casi completa de Keap1. **Si no funciona:** La pérdida es un plató de saturación (Keap1 completamente modificada), no una verdadera inversión hormética. **Efectos secundarios:** Síntomas gastrointestinales como los anteriores. |
+| Sin respuesta dosis-respuesta | Reserva de Nrf2 plana | **Si funciona:** Activación o inactivación máxima más allá de la rescate. **Si no funciona:** Es poco probable que los medicamentos del grupo ayuden. **Efectos secundarios:** — |
+
+### NAC (N-Acetylcysteine)
+
+La respuesta a la dosis del NAC está influenciada por un peculiaridad bioquímica: a 600 mg, un estallido de radicales tiólicos puede agotar la glutationa antes de que comience la síntesis neta, provocando un empeoramiento paradójico transitorio en aproximadamente el 20–30 % de los pacientes. Este es un evento farmacocinético, no una falla del medicamento.
+
+| Dosis | Mecanismo | Interpretación |
+|------|-----------|----------------|
+| 600 mg | Estallido de radicales tiólicos, inicio de la síntesis de glutationa | **Si funciona:** Beneficio sostenido → ausencia de empeoramiento paradójico; tono oxidativo bajo. **Si no funciona:** Se espera un empeoramiento paradójico transitorio en el 20–30 % — un evento farmacocinético, no una falla del medicamento. **Efectos secundarios:** Malestar gastrointestinal, empeoramiento transitorio (el estallido oxidativo agota la glutationa antes de la síntesis). |
+| 1,200 mg | Síntesis de glutationa, activación de Keap1 Nrf2 sensible a redox | **Si funciona:** El camino de síntesis de glutationa está intacto; activación de Nrf2 a través de la función sensible a redox de Keap1. **Si no funciona:** La tasa de activación de Nrf2 está limitada en la fase posterior; modificadores de Keap1 (sulforafano) o inhibidores de GSK-3β (lítio) que evitan la glutationa pueden seguir funcionando. **Efectos secundarios:** Malestar gastrointestinal. |
+| No hay beneficio a ninguna dosis | Síntesis de glutationa o activación de Nrf2 está limitada en la fase posterior | **Si funciona:** — **Si no funciona:** Los modificadores de Keap1 (sulforafano) o los inhibidores de GSK-3β (lítio) pueden seguir evitar el bloqueo. **Efectos secundarios:** Malestar gastrointestinal. |
+
+### Quercetina
+
+La quercetina se sitúa en dos categorías — inhibición de COMT (clúster de catecolaminas) y activación de Nrf2 (clúster Nrf2) — y el rango de dosis revela qué mecanismo está impulsando el beneficio.
+
+| Dosis | Mecanismo | Interpretación |
+|------|-----------|----------------|
+| 250–500 mg | Inhibición de COMT (clúster de catecolaminas) + activación de Nrf2 a través de PI3K/Akt (clúster Nrf2) | **Si funciona:** Beneficio cognitivo → señal del clúster de catecolaminas. Beneficio antiinflamatorio → señal del clúster Nrf2. **Si no funciona:** Cualquiera de los mecanismos puede estar insuficientemente activo — se debe pasar a un estudio de aislamiento. **Efectos secundarios:** Cefalea → evaluar el genotipo de COMT: Val/Val puede necesitar más; Met/Met puede superar en cualquier dosis. |
+| 500–1,000 mg | Ambos mecanismos activados a intensidad moderada | **Si funciona:** Beneficio amplio → contribución tanto de COMT como de Nrf2. **Si no funciona:** La pérdida aquí → ventana estrecha que abarca ambos mecanismos. **Efectos secundarios:** Monitorear signos noradrenérgicos (taquicardia, hipertensión). |
+| 1,000–2,000 mg | Ambos mecanismos en máximo → riesgo de superávit | **Si funciona:** Beneficio sostenido → reserva amplia de COMT y Nrf2. **Si no funciona:** Superávit en la inhibición de COMT → exceso de noradrenérgenos. Autoxidación de la porción catecolínica → estrés prooxidante. **Efectos secundarios:** Hipertensión, taquicardia, cefalea, inflamación paradójica. |
+
+---
+
+## Categoría 2: Agonismo parcial invertido-U
+
+Esto no es hormesis — no hay aumento compensatorio, no hay señal de estrés, no hay respuesta adaptativa. El aripiprazol tiene aproximadamente un 25% de actividad intrínseca en el receptor D2 en comparación con el 100% de la dopamina. En una ocupación baja, complementa una señal endógena deficiente (agonismo neto). En una ocupación más alta, desplaza el ligando natural más efectivo (antagonismo neto). La curva es idéntica en cualquier población con déficit de dopamina, no es específica para EM/SFC, pero la *ocupación en la que ocurre la inversión* revela la reserva del receptor D2.
+
+### LDA (Aripiprazol a baja dosis, 0.2–2 mg)
+
+La LDA actúa en tres niveles, todos por debajo de 2 mg: microglía D2/D3 (≤1 mg, aumenta el umbral de activación, suprime la liberación de citocinas), mesocortical-limbic D2/D3 (≤2 mg, restaura el tono de dopamina cognitivo y motivacional) y autorreceptores 5-HT1A (≤2 mg, estabiliza la salida serotonérgica). Los tres se extinguen por encima de 2 mg ya que la interacción con los receptores se desplaza hacia un perfil antipsicótico estándar (5-HT2A, H1, α1).
+
+| Dosis | Mecanismo | Interpretación |
+|------|-----------|----------------|
+| 0.2–0.5 mg | Agonismo parcial microglía D2/D3 | **Si funciona:** Receptores D2 microglía altamente sensibles. La activación de microglía D2/D3 es probablemente limitante. **Si no funciona:** Problema de dosis, no un problema con D2 — aumente la dosis, no concluya que no participa D2. **Efectos secundarios:** Akatisia/incertidumbre → paradójico: interacción con autorreceptores presinápticos, disminución transitoria de dopamina antes de que el agonismo postsináptico tome el control. |
+| 0.5–1.0 mg | Agonismo sostenido microglía D2/D3, mesocortical-limbic D2/D3 comienza | **Si funciona:** La inflamación impulsada por microglía es dominante; el beneficio cognitivo está apareciendo. **Si no funciona:** El beneficio se pierde a 1.0 mg → reserva limitada de receptores D2. **Efectos secundarios:** Incertidumbre, activación. |
+| 1.0–2.0 mg | Mesocortical-limbic D2/D3 + autorreceptores 5-HT1A | **Si funciona:** Gran reserva de receptores D2. Es poco probable que el sistema de dopamina sea limitante. La estabilización serotonérgica contribuye. **Si no funciona:** Reserva moderada de receptores D2 — el intervalo de beneficio está limitado por la dosis. **Efectos secundarios:** Sedación, comienzo de la ganancia de peso. |
+| >2 mg | Perfil antipsicótico estándar (5-HT2A, H1, α1) domina; el agonismo parcial D2 se extingue | **Si funciona:** No hay razón terapéutica. **Si no funciona:** Es esperado — todos los mecanismos de baja dosis se extinguen. **Efectos secundarios:** Akatisia, sedación, ganancia de peso, efectos metabólicos. El intervalo de la LDA se cierra. |
+
+Lógica clínica de carga: la respuesta no obtenida con LDA seguida de la respuesta con LDN significa involucro de microglía a través de TLR4, no D2. La respuesta no obtenida con LDN seguida de la respuesta con LDA significa lo contrario. Ambos patrones confirman el involucro de microglía a través de diferentes receptores — las dos medicinas son mecanísticamente complementarias.
+
+---
+
+## Categoría 3: Curva invertida de catecolaminas en el córtex prefrontal
+
+La curva invertida es la curva operativa nativa de los circuitos D1 y α2A en el córtex prefrontal — establecida por la neurociencia, en diferentes especies y métodos. Estos medicamentos impulsan el sistema a lo largo de su curva existente. El punto de inversión revela dónde se encuentra el tono basal de catecolaminas. Los medicamentos que aumentan el tono (modafinilo, duloxetina) se mueven desde el brazo izquierdo hacia el pico; los medicamentos que disminuyen el tono (beta-bloqueadores, guanfacina) se mueven desde el brazo derecho hacia el pico. Quienes se benefician tanto de una dosis baja que aumenta el tono como de una dosis baja que disminuye el tono tienen un pico paradójicamente amplio — se tolera un amplio rango de tono.
+
+### Modafinilo
+
+El modafinilo bloquea DAT y NET, elevando la dopamina y noradrenalina sináptica.
+
+| Dosis | Mecanismo | Interpretación |
+|------|-----------|----------------|
+| 12.5–25 mg | Prueba de bloqueo microdosis de DAT/NET | **Si funciona:** Sensibilidad extremadamente alta a la elevación de dopamina/noradrenalina. Consistente con ventanas estrechas de catecolaminas. **Si no funciona:** No se alcanza el umbral; la dopamina basal puede ser muy alta. **Efectos secundarios:** Prácticamente ninguno. |
+| 25–50 mg | Bloqueo de DAT/NET, elevación de catecolaminas | **Si funciona:** Dopamina basal baja y normal; se esperan ventanas estrechas de catecolaminas. Beneficio en este rango → punto de inversión bajo. **Si no funciona:** No hay beneficio → no es un problema de déficit de dopamina ni una dopamina basal demasiado alta. **Efectos secundarios:** Cefalea, ansiedad (activación simpática). |
+| 50–100 mg | Bloqueo moderado de DAT/NET | **Si funciona:** Dopamina basal moderada; rango terapéutico estándar. **Si no funciona:** El beneficio se pierde con 100 mg → reserva estrecha, confirmando el punto de inversión bajo. **Efectos secundarios:** Cefalea, ansiedad, taquicardia. |
+| 100–200 mg | Bloqueo completo de DAT/NET | **Si funciona:** Dopamina basal más alta, ventanas más amplias. **Si no funciona:** — **Efectos secundarios:** Activación simpática excesiva, insomnio. |
+| 200–400 mg | Bloqueo supra-terapéutico de DAT/NET | **Si funciona:** Beneficio sostenido → dopamina basal alta, ventanas muy amplias. Raro. **Si no funciona:** No hay beneficio en ninguna dosis → el guanfacina (α2A, distinto de DAT) puede funcionar donde el modafinilo no. **Efectos secundarios:** Ansiedad, insomnio, estrés cardiovascular. No se recomienda como primera línea. |
+
+**Prueba clave entre medicamentos:** Pruebas de correlación entre LDN × punto de inversión del modafinilo para determinar si la reserva hormética es una característica genuina del sistema que abarca receptores completamente distintos (TLR4 vs. DAT/NET) y tipos de células (microglía vs. terminales presinápticas).
+
+### Duloxetina
+
+La duloxetina tiene dos perfiles de dosis-respuesta combinados en un solo medicamento: inhibición de SERT (serotonérgica, saturación monótona — sin curva invertida) y inhibición de NET (noradrenérgica, curva invertida de catecolaminas).
+
+| Dosis | Mecanismo | Interpretación |
+|------|-----------|----------------|
+| 10–20 mg | Inhibición de SERT (solo serotonérgica) | **Si funciona:** Modulación del dolor, mejoría del sueño. Patrón dominado por serotonérgico. **Si no funciona:** No se alcanza el umbral de NET — ninguna inferencia de catecolaminas. **Efectos secundarios:** Síndrome de interrupción de SNRI si se interrumpe abruptamente; reducción gradual de ≥3 semanas. |
+| 20–40 mg | Saturación de SERT + inhibición de NET activa | **Si funciona:** Beneficios tanto serotonérgico como noradrenérgico. Aparecen energía y motivación → componente NET activado. **Si no funciona:** No aparece energía → NET aún no alcanzado o dopamina basal ya en pico. **Efectos secundarios:** GI, activación, insomnio. |
+| 40–60 mg | Saturación completa de SERT + NET en el rango terapéutico del pico | **Si funciona:** Reserva amplia de serotoninergica y catecolaminas. **Si no funciona:** El pico de energía/motivación aquí significa una reserva moderada de catecolaminas. **Efectos secundarios:** Aumento de efectos secundarios; sudor, elevación de la presión arterial. |
+| 60–90 mg | Plataforma de SERT, riesgo de sobrepaso de NET | **Si funciona:** El beneficio del dolor puede persistir (SERT en plataforma) mientras que el beneficio de energía invierte (NET en el brazo derecho) — mecanismos separados con éxito. **Si no funciona:** El beneficio de energía se pierde → NET en el brazo derecho de la curva invertida mientras SERT permanece en plataforma. El medicamento no ha fallado; el componente NET ha pasado el óptimo. **Efectos secundarios:** Activación simpática dependiente de la dosis. |
+| 90–120 mg | Ambos SERT y NET supra-terapéuticos | **Si funciona:** Ningún beneficio adicional sobre 60 mg. **Si no funciona:** Pérdida esperada del beneficio noradrenérgico. **Efectos secundarios:** Carga máxima de efectos secundarios; riesgo de síndrome de interrupción de SNRI aumenta. |
+
+### Bloqueadores beta
+
+A diferencia del modafinilo y la duloxetina, que aumentan el tono de catecolaminas, los bloqueadores beta lo reducen, empujando desde el brazo derecho hacia el pico.
+
+| Dosis | Mecanismo | Interpretación |
+|------|-----------|----------------|
+| Propranolol 5–10 mg o Atenolol 12.5–25 mg | Bloqueo periférico de los receptores β-AR | **Si funciona:** Taquicardia ortostática controlada sin embotamiento cognitivo → exceso simpático periférico con tono central intacto. **Si no funciona:** La contribución de los receptores β-AR periféricos puede ser mínima → no es un problema autonómico. **Efectos secundarios:** Mínimos a estas dosis. |
+| Propranolol 10–20 mg | Modulación periférica y central de los receptores β-AR | **Si funciona:** Mejora cognitiva con control ortostático → modulación central de los receptores β-AR que lleva el tono hacia el pico; el tono basal era excesivo. **Si no funciona:** Embotamiento cognitivo a cualquier dosis → el tono basal es bajo, no alto; la bloqueación beta lo empuja aún más hacia la izquierda. **Efectos secundarios:** Fatiga, niebla cerebral, bradicardia. |
+| Propranolol >20 mg | Bloqueo central no selectivo de los receptores β-AR | **Si funciona:** Control ortostático sostenido sin costo cognitivo → amplia reserva de catecolaminas. **Si no funciona:** Embotamiento cognitivo esperado. Combinar con guanfacina o clonidina es contraproducente — el sistema necesita más tono de catecolaminas, no menos. **Efectos secundarios:** Embotamiento cognitivo, fatiga, depresión, bradicardia. |
+
+### Guanfacina
+
+La forma invertida-U de la guanfacina está integrada en la relación entre el agonismo α2A postsinaptico (terapéutico) y presinaptico (sedante).
+
+| Dosis | Mecanismo | Interpretación |
+|------|-----------|----------------|
+| 0.5–1.0 mg | Agonismo α2A postsinaptico domina | **Si funciona:** Mejora la memoria de trabajo, la concentración y la regulación emocional. Los efectos postsinapticos dominan a dosis terapéuticas. **Si no funciona:** Sedación sin mejora cognitiva → agonismo α2A presinaptico domina incluso a bajos niveles; la guanfacina probablemente es la droga incorrecta. **Efectos secundarios:** Sedación, boca seca, hipotensión. |
+| 1.0–2.0 mg | Agonismo α2A postsinaptico + efectos emergentes presinapticos | **Si funciona:** Beneficio cognitivo sostenido → amplia reserva de α2A. Las ventanas correlacionadas con el modafinilo apoyan la coherencia del clúster de catecolaminas (sobreposición del circuito con el efecto mediado por D1 del modafinilo). **Si no funciona:** Embotamiento cognitivo sin ganancia terapéutica → la inhibición presinaptica ha superado el beneficio postsinaptico. **Efectos secundarios:** Sedación, bradicardia, hipotensión. |
+| >2 mg | Sedación presinaptica domina | **Si funciona:** No se espera ganancia terapéutica adicional. **Si no funciona:** Es esperado — todos los efectos terapéuticos de α2A han pasado el óptimo. **Efectos secundarios:** Sedación pronunciada, bradicardia, hipotensión. |
+
+### Gabapentinoides
+
+Los gabapentinoides no son una prueba limpia del clúster de catecolaminas — reducen la liberación de glutamato de forma general, no solo el tono noradrenérgico.
+
+| Dosis | Mecanismo | Interpretación |
+|------|-----------|----------------|
+| Gabapentina 100–300 mg o Pregabalina 25–75 mg | Gating sensorial mediado por α2δ | **Si funciona:** Mejora del gating sensorial (mediado por α2δ) en lugar de un tono de catecolaminas óptimo en el PFC → limita el valor de inferencia entre medicamentos. **Si no funciona:** No se alcanza el umbral; aumente con cuidado. **Efectos secundarios:** Embotamiento cognitivo esperado a cualquier dosis y dependiente de la dosis. |
+| Gabapentina 300–900 mg o Pregabalina 75–150 mg | Reducción amplia de glutamato | **Si funciona:** El beneficio más amplio puede involucrar la reducción del tono noradrenérgico; la inferencia del clúster de catecolaminas está confundida por los efectos glutamatergicos. **Si no funciona:** — **Efectos secundarios:** Sedación dependiente de la dosis, embotamiento cognitivo. |
+| Gabapentina >900 mg o Pregabalina >150 mg | Sedación domina | **Si funciona:** No se espera ganancia terapéutica adicional. **Si no funciona:** La sedación sobrescribe cualquier señal diagnóstica. **Efectos secundarios:** Sedación pronunciada, deterioro cognitivo. No se recomienda para la búsqueda de dosis diagnóstica. |
+
+---
+
+## Categoría 4: Selección de objetivos dependiente de la concentración y bioquímica bifásica
+
+Estos medicamentos comparten la forma de la curva U invertida con las categorías anteriores, pero provienen de mecanismos específicos para cada compuesto: afinidad de unión diferencial entre objetivos (4a), umbrales farmacocinéticos relacionados con la penetración en el SNC (4b) o metabolismo bifásico (4c). No tienen valor predictivo entre medicamentos dentro de esta categoría, aunque algunos ofrecen inferencias específicas para cada vía.
+
+### Rapamicina (sirolimudo) — Categoría 4a
+
+La rapamicina inhibe mTORC1 con una afinidad aproximadamente 10 veces mayor que mTORC2. A dosis bajas intermitentes (0.5–2 mg/semana), mTORC1 se bloquea parcialmente: la autofagia se restaura, la mitofagia mejora y la SASP de células senescentes se suprime. A dosis semanales más altas (3–6 mg) o dosis diaria, la inhibición de mTORC2 comienza, provocando resistencia a la insulina e inmunosupresión. La ventana terapéutica refleja la relación de afinidad de unión FKBP12-mTOR, no una respuesta hormética entre huésped y tejido, por lo que la dosis intermitente semanal preserva la selectividad — mTORC2 tiene una tasa de desactivación más larga y se recupera durante el intervalo sin medicamento.
+
+| Dosis | Mecanismo | Interpretación |
+|------|-----------|----------------|
+| 0.5–2 mg/semana (intermitente) | Inhibición selectiva de mTORC1 | **Si funciona:** El fallo de la autofagia impulsada por mTORC1 es limitante. La autofagia se restaura, la mitofagia mejora y la SASP se suprime. **Si no funciona (se sospecha mTORC1):** El mecanismo de autofagia situado más adelante de mTORC1 puede estar dañado — la puerta se abre, pero el camino detrás de ella es inoperable. **Efectos secundarios:** Mínimos a dosis bajas intermitentes. |
+| 3–6 mg/semana o dosis diaria | Inhibición de mTORC2 | **Si funciona:** Se pierde beneficio por dosis más baja → la selectividad de mTORC2 se rompe; la resistencia a la insulina y la inmunosupresión anulan los beneficios de la autofagia. **Si no funciona:** Pérdida esperada del anillo de mTORC1. **Efectos secundarios:** Ulceras bucales, elevación de lípidos/glucosa — la inhibición de mTORC2 ha rompido la ventana terapéutica. |
+| Dosis diaria, dosis estándar | Inhibición completa de mTORC1 y mTORC2 | **Si funciona:** No hay razón terapéutica (la inmunosupresión es el efecto principal). **Si no funciona:** Esperado. **Efectos secundarios:** Resistencia a la insulina, inmunosupresión, deterioro de la cicatrización de heridas. |
+
+La anchura de la ventana de rapamicina no indica nada sobre las ventanas de LDN o modafinilo. Sin embargo, puede predecir la respuesta a otras intervenciones selectivas para mTORC1: ayuno intermitente, metformina o spermidina que inducen autofagia a través de mTORC1 sin involucrar mTORC2 en absoluto.
+
+### Corticosteroides — Categoría 4a
+
+Los corticosteroides no son un único medicamento con una curva de respuesta a dosis — son dos medicamentos separados por un umbral de concentración. La sustitución fisiológica proporciona el señal de glucocorticoides antiinflamatorios que un eje HPA hipofuncional no puede producir endógenamente. La dosis suprafisiológica suprime el eje HPA en sí, y la reducción de dosis produce una inflamación rebote que a menudo es peor que el estado basal.
+
+| Dosis | Mecanismo | Interpretación |
+|------|-----------|----------------|
+| Hidrocortizona 5–10 mg/día o prednisona 2.5–5 mg/día | Sustitución fisiológica de glucocorticoides | **Si funciona:** Respuesta drástica → se debe activar un análisis ACTH/cortisol por insuficiencia adrenal. El eje HPA es hipofuncional. **Si no funciona:** La sustitución fisiológica es insuficiente — la inflamación subyacente no está mediada por GR o el eje HPA está intacto. **Efectos secundarios:** Mínimos a dosis de sustitución. La reducción de dosis será difícil porque la hipofunción HPA subyacente sigue presente. |
+| Prednisona 5–15 mg/día | Suprafisiológico: umbral de supresión del HPA | **Si funciona:** Resistencia a los glucocorticoides o inflamación no mediada por GR — informativa mecánicamente pero peligrosa clínicamente; el margen terapéutico se estrecha a medida que la supresión del HPA se profundiza. **Si no funciona:** Puede necesitar dosis más altas — pero el cálculo riesgo-beneficio cambia rápidamente. **Efectos secundarios:** Comienza la supresión del eje HPA. La reducción de dosis será difícil porque el eje ha sido suprimido y necesita tiempo para recuperarse. |
+| Prednisona >15 mg/día | Supresión completa del HPA + efectos glucocorticoide sistémicos | **Si funciona:** El beneficio valida un mecanismo de respuesta a glucocorticoides, pero a alto costo. **Si no funciona:** Esperado — la carga de efectos secundarios limita la utilidad. **Efectos secundarios:** Supresión del eje HPA, riesgo de osteoporosis, inmunosupresión, aumento de peso, desregulación glucosa. La inflamación rebote tras la reducción de dosis a menudo es peor que el estado basal. |
+
+### DORAs (Antagonistas del receptor dual Orexina) — Categoría 4b
+
+Los DORAs se encuentran en un punto de peligro farmacocinético. El bloqueo parcial de la orexina mejora el sueño al calmar el impulso de despertar. Un bloqueo casi completo puede desbordar hacia el parálisis del sueño y alucinaciones durante el sueño — una simulación de narcolepsia que degrada la calidad subjetiva del sueño incluso cuando el tiempo total de sueño aumenta.
+
+| Dosis | Mecanismo | Interpretación |
+|------|-----------|----------------|
+| Daridorexant 25 mg o Suvorexant 10 mg | Bloqueo parcial de la orexina | **Si funciona:** El sueño mejora al calmar el impulso de despertar sin desbordamiento. Reducción adecuada del tono de orexina. **Si no funciona:** Bloqueo insuficiente; el antagonismo parcial no alcanza el umbral terapéutico. O la orexina no es la señal limitante del impulso de despertar. **Efectos secundarios:** Mínimos a estas dosis. |
+| Daridorexant 50 mg o Suvorexant 20 mg | Bloqueo casi completo de la orexina | **Si funciona:** Alto tono de orexina que requiere un bloqueo casi completo para el inicio del sueño. **Si no funciona:** Desbordamiento hacia el parálisis del sueño y alucinaciones durante el sueño — una simulación de narcolepsia que degrada la calidad subjetiva del sueño. **Efectos secundarios:** Parálisis del sueño, alucinaciones durante el sueño, somnolencia al día siguiente. Se prefiere Daridorexant (t½ = 8h) a Suvorexant (t½ = 12h) para minimizar la transferencia al día siguiente. |
+
+### Antihistamínicos H1 — Categoría 4b
+
+La pregunta clínica es si el antihistamínico es beneficioso debido al bloqueo periférico de H1 (control de síntomas MCAS) o debido al bloqueo central de H1 (sedación, ansiolisis). La fexofenadina responde a esta: es un sustrato de P-glicoproteína que es activamente expulsado desde el SNC, con una penetración cerebral casi nula a cualquier dosis.
+
+| Dosis / Agente | Mecanismo | Interpretación |
+|------|-----------|----------------|
+| Fexofenadina 60–180 mg | Solo bloqueo periférico de H1 (sin penetración al SNC) | **Si funciona:** Los síntomas se controlan → el objetivo es periférico (MCAS). Confirma que la histamina periférica es la causa. **Si no funciona:** El bloqueo periférico de H1 no es la causa, o la dosis es insuficiente. **Efectos secundarios:** Mínimos; sin sedación (sin penetración al SNC). |
+| Cetirizina 5–10 mg | Bloqueo periférico + central de H1 | **Si funciona y la fexofenadina no funcionó:** Los efectos centrales contribuyen — el beneficio percibido puede no venir de la H1 periférica en absoluto. La ansiolisis/sedación podría ser el mecanismo real. **Si no funciona:** La H1 no es la vía limitante. **Efectos secundarios:** Sedación (penetrante al SNC). |
+
+### Allopregnanolona — Categoría 4c
+
+La allopregnanolona es bifásica en el receptor GABA-A porque probablemente se une a dos sitios con curvas de concentración-respuesta opuestas. La relación dosis-respuesta es altamente individual, dependiendo de la composición de la subunidad GABA-A, el estado hormonal y la historia de estrés.
+
+| Concentración / Contexto | Mecanismo | Interpretación |
+|------|-----------|----------------|
+| ~1–5 nM (equivalente a fase luteal) | Sitio 1 del GABA-A: anxiogénesis paradójica | **Si causa ansiedad:** Paradójicamente anxiogénica a bajas concentraciones — un fenómeno conocido en PMDD. La composición de la subunidad GABA-A favorece una respuesta excitatoria a bajas concentraciones de allopregnanolona. **Si no causa ansiedad:** El perfil de subtipo de receptor GABA-A favorece la inhibición incluso a bajas concentraciones. **Efectos secundarios:** Ansiedad, agitación, irritabilidad. |
+| >10 nM (nivel de embarazo) | Sitio 2 del GABA-A: ansiolisis y sedación | **Si funciona:** Ansiolítica y sedativa a concentraciones más altas. El perfil de receptor GABA-A apoya la inhibición a estos niveles. **Si no funciona:** Insensibilidad del receptor GABA-A o tono excitatorio competitivo. **Efectos secundarios:** Sedación, tolerancia con uso prolongado. |
+
+### Ketotifeno — Categoría 4b
+
+El ketotifeno tiene dos efectos terapéuticos independientes: estabilización de los mastocitos (no-H1) y bloqueo de H1.
+
+| Dosis | Mecanismo | Interpretación |
+|------|-----------|----------------|
+| 0.25–1.0 mg | La estabilización de los mastocitos es dominante; penetración en el SNC es mínima | **Si funciona:** Beneficio en MCAS sin sedación → confirma el mecanismo de estabilización de los mastocitos. La respuesta dependiente de la dosis y limitada por la sedación confirma la participación de los mastocitos. **Si no funciona:** Sedación incluso a 0.25 mg → alta sensibilidad a la penetración en el SNC, lo que sugiere intervenciones solo periféricas. **Efectos secundarios:** Mínimos; la sedación a 0.25 mg es en sí misma un diagnóstico → indica alta sensibilidad a la penetración en el SNC. |
+| 1.0–2.0 mg | Estabilización de los mastocitos + bloqueo de H1 en el SNC | **Si funciona:** Beneficio adicional en MCAS a costa de la sedación — un intercambio aceptable si la dosis de estabilización de los mastocitos es dependiente de la dosis. **Si no funciona:** El bloqueo de H1 en el SNC produce sedación clínicamente significativa en la mayoría de las personas, compensando los beneficios de estabilización de los mastocitos. **Efectos secundarios:** Sedación clínicamente significativa en la mayoría de las personas. |
+| 2.0–4.0 mg | El bloqueo de H1 en el SNC es dominante; costo de la sedación | **Si funciona:** No hay beneficio adicional respecto a 1.0–2.0 mg. **Si no funciona:** El costo de la sedación supera los beneficios de estabilización de los mastocitos → el beneficio neto se invierte. **Efectos secundarios:** Sedación pronunciada; los beneficios de estabilización de los mastocitos son anulados. |
+
+---
+
+## Leyendo el patrón entre los medicamentos
+
+El rendimiento diagnóstico no se encuentra en la curva de respuesta de dosis de ningún medicamento en particular. Surge al comparar entre todos los medicamentos que una persona ha probado.
+
+Los medicamentos del grupo Nrf2-cluster que muestran ventanas estrechas — beneficio perdido a dosis bajas en LDN, sulforafano, litio y melatonina — indican una reserva transcripcional de Nrf2 agotada. Existe una componente inflamatoria significativa dependiente de Nrf2, pero el mecanismo adaptativo está agotado. La estrategia se desplaza hacia intervenciones que preserven Nrf2: reducir la carga allostérica, evitar medicamentos que dependan de Nrf2 para obtener beneficio, considerar el sulforafano como precondicionamiento antes de otros medicamentos del grupo. El espejo — ventanas amplias en todas partes — significa que la reserva de Nrf2 es abundante y probablemente Nrf2 no es el cuello de botella.
+
+La misma lógica se aplica al grupo de catecolaminas. Ventanas estrechas en todas partes implican que el rango dinámico de catecolaminas en el prefrontal está comprimido, con el tono base situado cerca del pico U invertido; pequeñas perturbaciones en cualquier dirección causan problemas. La dosis debe ser precisa para todos los medicamentos activos de catecolaminas, y el paciente es simultáneamente sensible a medicamentos que aumentan el tono y a medicamentos que lo reducen. La constelación opuesta — dosis altas necesarias en todo el grupo, sin inversión a dosis clínicas — indica un tono base muy bajo, un beneficio que aumenta monótonamente y dosis que invertirían para otros serían bien toleradas.
+
+Una ventana estrecha de rapamicina junto con ventanas amplias de Nrf2 y catecolaminas es una señal específica para cada medicamento: la selectividad mTORC1/C2 es estricta, pero la reserva hormética en otros sistemas está intacta. La autofagia impulsada por mTORC1 puede seguir siendo un objetivo válido a través de rapamicina dosismente precisa o alternativas selectivas para mTORC1 (ayuno intermitente, metformina). No existir relación de respuesta de dosis en ningún grupo — todos los medicamentos que producen curvas planas o monótonas — es un resultado informativo nulo: el marco no ha identificado ningún objetivo accesible y la investigación debería dirigirse a causas no farmacológicas o estructurales.
+
+Los patrones mezclados localizan la lesión. Una Nrf2 estrecha con ventanas amplias de catecolaminas implica que el sistema inmune-inflamatorio es el cuello de botella mientras la reserva cognitiva está preservada — el patrón esperado para la neuroinflamación dominada por TLR4. Los medicamentos antiinflamatorios requieren una titulación cuidadosa; los medicamentos cognitivos se administran con mayor libertad. Lo contrario — Nrf2 amplia con catecolaminas estrechas — indica una fisiopatología dominada por catecolaminas (intolerancia ortostática prominente, noradrenalina baja en posición supina, COMT Val/Val), invertiendo las prioridades de dosis. Cada grupo es estrecho, todos los medicamentos inverten a dosis muy bajas, lo que sugiere un compromiso adaptativo global: células en el borde de la descompensación, cualquier perturbación farmacológica que arriesgue un sobrerriesgo. La estrategia es ultra-baja y ultra-lenta — estabilizar, no buscar mejoría. La estrechez es el indicador de gravedad.
+
+---
+
+## Certeza
+
+| Afirmación | Certeza |
+|-------|-----------|
+| La descomposición mecanística de cuatro categorías | Moderada (Categoría 1: Nrf2 hormesis en toxicología, no en dosis clínicas); Alta (Categoría 2: propiedad de ocupación de receptores); Alta (Categoría 3: neurociencia canónica); Variable (Categoría 4: dependiente del subtipo) |
+| Las interpretaciones de rango de dosis son mecanísticamente precisas | Baja a moderada — basadas en la interacción con el objetivo de cada medicina, pero la relevancia clínica en EM/SFC no está establecida |
+| Predicciones de correlación entre grupos de medicinas | Baja — la hipótesis fundamental que puede ser falsificada nunca ha sido probada |
+| La regla “no beneficio en ninguna dosis” descarta los mecanismos de una medicina como limitantes | Moderada — válida solo cuando el “no beneficio” proviene de una identificación sistemática de dosis, no de una única dosis |
+| La asignación del grupo predice el subtipo y la prioridad del tratamiento | Baja — coherente, pero no probada; esperando HIP-B |
+| La estrechez global indica un compromiso adaptativo grave | Baja a moderada — consistente con el marco, pero indistinguible de sensibilidades específicas de la medicina sin datos de correlación |
+
+*Esta publicación se basa en el marco de hormesis desarrollado por Loth 2026 (https://yannickloth.github.io/health-me-cfs/). La descomposición mecanística de cuatro categorías (Parte 2) y los cinco patrones de respuesta de dosis de LDN (Parte 3) proporcionan la arquitectura conceptual. Los rangos de dosis específicos y sus interpretaciones se sintetizan a partir del marco de inversión hormética de 17 medicinas, las especificaciones de la prueba HIP-B, el análisis de agrupación mecanística y las observaciones clínicas — consulte el artículo principal para conocer las cascadas mecanísticas completas.*
+
+*Serie: [Parte 1: Por qué más no es mejor](../more-isnt-better-ldn-lda/) · [Parte 2: El U invertido no es una sola cosa](../inverted-u-not-one-thing/) · [Parte 3: Tu dosis de LDN es un diagnóstico](../dose-is-diagnostic-ldn/) · Próximo en la serie: [Parte 5: Cómo realizar una prueba de identificación de dosis](../dose-finding-protocols/) · Relacionado: [Descartar la dosis, no la medicina](../dose-first-search-strategy/)*

@@ -1,0 +1,310 @@
+---
+title: "El fracaso de una dosis única no es un veredicto — ¿Por qué una dosis nula no excluye a las demás?"
+description: "“Si 4 mg de LDN no funciona, 1 mg tampoco lo hará.” Esta conclusión se basa en una suposición no expresada: que una dosis más alta reproduce todos los efectos de las dosis más bajas. Para un medicamento que actúa sobre múltiples objetivos a diferentes concentraciones, esa suposición es falsa — y puede excluir erróneamente una dosis terapéutica."
+author: "Yannick Loth"
+date: "2026-08-29"
+categories: [Treatment, Pharmacology, ME/CFS]
+lang: es
+---
+
+Intentaste la LDN a una dosis de 4 mg durante un período prolongado. No hubo beneficio. Consideras si probar una dosis más baja —por ejemplo, 1 mg— y surge un razonamiento: si 4 mg no sirvió de nada, 1 mg tampoco servirá. Lo mayor contiene lo menor.
+
+Es el razonamiento común que un resultado mayor debe contener uno menor —aplicado a la farmacología. Suena razonable. Pero es incorrecto para la LDN.
+
+Este artículo explica por qué —no atribuyendo el error a nadie, sino mostrando qué inferencia asume silenciosamente, y por qué esa asunción no es válida cuando un medicamento actúa en múltiples objetivos a diferentes concentraciones.
+
+---
+
+## La respuesta corta
+
+Todo el argumento se puede resumir en un párrafo y una tabla. La prueba detallada —que separa lo que es ciencia establecida de lo que es un modelo propuesto— se presenta después.
+
+El beneficio de la dosis baja de LDN depende del bloqueo **parcial** de su receptor: la célula debe seguir percibir algún señal residual para activar su respuesta antiinflamatoria compensatoria. Si un receptor está bloqueado parcialmente o completamente depende de la concentración del fármaco en relación con la sensibilidad del receptor —la proporción $c = D/K_d$, dosis dividida por la constante de disociación del receptor. Aumentando la dosis, $c$ aumenta; la fracción $f$ de receptores bloqueados asciende hacia el 100%. A 1 mg, el receptor microglial TLR4 se encuentra en la zona de bloqueo parcial y el mecanismo de beneficio funciona. A 4 mg, el mismo receptor está bloqueado casi completamente, la señal residual ha desaparecido y **el mecanismo de 1 mg se desactiva — no se amplifica.** Mientras tanto, 4 mg activa un objetivo diferente (TRPM3) al que 1 mg nunca llega. Por lo tanto, una dosis nula a 4 mg prueba el mecanismo de 4 mg. No prueba el mecanismo de 1 mg — ese mecanismo no estaba activo durante el ensayo a 4 mg.
+
+Los números lo hacen concreto. La columna de ocupación utiliza la ecuación estándar de Hill $f = c^2/(1+c^2)$ (farmacología establecida); la columna de beneficio utiliza el modelo simple $B \propto f(1-f)^2$ propuesto en la Parte B de este artículo (una hipótesis). Las elecciones de los parámetros son ilustrativas y no medidas: $K_d = 1$ mg, el coeficiente de Hill $n = 2$ y el exponente de inclinación $m = 2$ (el modelo general en la Parte B deja $n$ y $m$ libres):
+
+| Dosis | $c = D/K_d$ | $f$ (bloqueado) | $1-f$ (residual) | beneficio, en relación con el pico |
+|--------------|----------------|------------------|------------------|--------------------------|
+| 0.7 mg | 0.7 | 0.33 | 0.67 | **1.00 — el pico** |
+| 1 mg | 1.0 | 0.50 | 0.50 | 0.84 |
+| 3 mg | 3.0 | 0.90 | 0.10 | 0.06 |
+| 4 mg | 4.0 | 0.94 | 0.06 | 0.02 |
+
+![El beneficio de un objetivo a lo largo del eje de dosis: a 1 mg, el objetivo se encuentra dentro de su ventana (84% del pico); a 4 mg, la ventana se cierra y el mecanismo se desactiva. Una dosis nula a 4 mg nunca alcanza el pico. *Ilustración del modelo propuesto con parámetros no medidos — no datos empíricos.*](fig0-dose-window.svg)
+
+Lee la tabla de abajo hacia arriba. Una dosis nula a 4 mg se refiere únicamente a la fila inferior. No dice nada sobre las dos filas anteriores, porque esas filas describen un estado — bloqueo parcial — que una dosis de 4 mg nunca produce. Y 3 mg es otro experimento: la ventana de dosis baja también se cierra allí, pero diferentes mecanismos se activan — el platillo de endorfinas y la apertura de la ventana TRPM3. Cada dosis es un experimento diferente, y el fracaso de uno no condena a los demás.
+
+Una aclaración: desactivar un beneficio no significa causar daño. A 4 mg, el mecanismo de dosis baja simplemente no funciona — el paciente se encuentra en su nivel base no tratado para ese camino, no por debajo de él. Por lo tanto, la experiencia a 4 mg es una dosis nula, no un empeoramiento — y una dosis nula es información solo sobre el estado que realmente se probó.
+
+---
+
+## La inferencia se basa en una suposición no expresada
+
+El argumento "si 4 mg no funciona, entonces 1 mg tampoco funcionará" solo es válido si se cumple una condición:
+
+> **La hipótesis del superconjunto:** los efectos de una dosis más baja son un subconjunto de los efectos de una dosis más alta.
+
+Si eso es cierto, entonces probar la dosis más alta significa probar *toda* la dosis. Un fracaso en la dosis alta es un fracaso en todas ellas. La inferencia es clara, simple y ahorra múltiples pruebas.
+
+El problema: esta hipótesis solo es verdadera para un medicamento que actúa **en un único objetivo** con una **curva de dosis-respuesta monótona**. LDN no es así.
+
+---
+
+## La química: por qué una dosis más alta no significa una dosis mayor
+
+La suposición del superset trata una dosis como un control de volumen — más fármaco, más del mismo efecto. Pero la LDN es un fármaco hormético, multiobjetivo, y eso cambia todo.
+
+### ¿Qué es un receptor y por qué una dosis puede ser demasiado baja
+
+El artículo se basa en una imagen de cómo interactúan un fármaco y un receptor. Esta sección expone esa imagen, separando la biología establecida de la hipótesis del artículo.
+
+**¿Qué es un receptor (biología establecida).** Un receptor es una proteína — generalmente en la superficie de una célula — a la que se une una molécula de señalización o un fármaco. La unión hace algo dentro de la célula: un **agonista** imita la señal natural y activa una respuesta; un **antagonista** se une al mismo sitio, bloquea la señal natural y la desactiva. Para la administración de dosis, lo que importa es la **fracción de receptores ocupados** — la proporción de copias de ese receptor en la célula que lleva una molécula de fármaco. La ecuación de Hill de la Parte A3 convierte una concentración en esta fracción.
+
+**Por qué esa fracción sigue a la concentración (biología establecida).** La unión es un equilibrio reversible, $D + R \rightleftharpoons DR$. La constante de disociación $K_d$ es la relación entre las dos tasas — cuán rápido el fármaco disminuye y cuán rápido se une. Una concentración igual a $K_d$ ocupa la mitad de los receptores; mucho más arriba, casi todos; mucho más abajo, casi ninguno. Por eso la relación no dimensional $c = D/K_d$ aparece en todo el artículo: mide una concentración en unidades de la sensibilidad de ese receptor. (Acción de masa, unión Langmuir–Hill — farmacología de texto, citada en la Parte A3.)
+
+Para el mecanismo de dosis baja de la LDN, el receptor es el sensor de peligro microglial TLR4, y la LDN es un **antagonista** de él: ocupa el sensor y impide que transmita una señal de peligro. Si bloquea un poco o mucho está determinado por $c = D/K_d$.
+
+**Por qué falla una dosis muy baja (establecida).** Si casi no hay receptores ocupados, el bloqueo es insignificante y la célula es esencialmente inalterada — sin respuesta, sin beneficio. Por debajo de un umbral de ocupación, la droga no produce efectos visibles.
+
+Hasta ahora la situación es monótona: más droga, más bloqueo. El misterio es por qué **demasiada** droga también falla — por qué el beneficio no sigue aumentando. Este es el tema del siguiente subsección, hormesis.
+
+### ¿Qué es la hormesis
+
+La hormesis es un fenómeno biológico específico, no un eslogan: un estrés de bajo nivel desencadena una *respuesta adaptativa compensatoria* que es mayor que el estrés en sí. El caso clásico es la vía Keap1-Nrf2-ARE. En condiciones de base, la proteína Keap1 se une al factor de transcripción Nrf2 y lo destina para su degradación. Cuando llega un estrés oxidativo o inflamatorio leve — en este caso, un bloqueo parcial del receptor microglial TLR4 — los residuos de cisteína reactivos en Keap1 se modifican, Nrf2 se libera, se traslada al núcleo y activa una gran cantidad de genes antiinflamatorios y antioxidantes (cientos, según la literatura sobre Nrf2/ARE). El *beneficio es el programa adaptativo propio de la célula*, no la acción directa de la droga. Este es el corpus de hormesis Calabrese, aplicado a la dosis de LDN [@Calabrese2021Nrf2].
+
+De la química se desprenden dos cosas:
+
+- **Demasiada baja dosis de droga** no modifica suficiente Keap1 — la señal nunca se activa, Nrf2 permanece unido, sin beneficio.
+- **Demasiada dosis de droga** extingue el propio estrés que liberó Nrf2. A 0.5–1.5 mg, TLR4 está solo *parcialmente* bloqueado, por lo que las microglías siguen percibir la señal y activan la respuesta Nrf2. Por encima de ese rango, TLR4 está bloqueado completamente — la célula ya no detecta ningún estrés, Nrf2 permanece unido a Keap1 y el programa antiinflamatorio colapsa. La droga sigue uniendo su receptor; simplemente ha dejado de producir la respuesta adaptativa que la hacía terapéutica.
+
+Así que la hormesis es lo *opuesto* al modelo del superset: existe un rango y superarlo no te da más — simplemente desactiva el beneficio. Para LDN, este "demasiado" es una hipótesis: el mecanismo de hormesis Nrf2 está establecido en toxicología, pero su papel como mecanismo clínico de LDN no.
+
+Se derivan dos consecuencias, y ambas reflejan el argumento del artículo:
+
+- **La unión es continua; el beneficio es limitado.** El bloque crece de manera monótona con la dosis. El beneficio es una U invertida. Estos no son contradictorios: a 4 mg, el receptor está *más* bloqueado que a 1 mg, y el beneficio ha desaparecido — desaparece precisamente porque el bloqueo es demasiado completo.
+
+- **Los dos ceros son fracasos opuestos.** Por debajo del rango, la perturbación es demasiado débil para activar. Por encima del rango, es demasiado completa para detectar. Ambos producen beneficio nulo por razones opuestas — por eso un cero a 4 mg (un punto “por encima del rango” para TLR4) no puede interpretarse como un cero a 1 mg (un punto “dentro del rango”).
+
+### Los cuatro objetivos y las dosis en las que se activan
+
+LDN se une a al menos cuatro objetivos moleculares distintos, y se activan en **bandas de dosis diferentes**. El mapa de bandas de dosis del artículo (ch33, referencia hormética) es:
+
+| Banda de dosis | Mecanismo de beneficio | Efecto secundario observado |
+|---------------|-----------------------|----------------------------|
+| 0.25–0.5 mg | Prueba de microdosis; puede estar por debajo del umbral de activación de Nrf2 | interrupción transitoria del sueño (activación de opioides) |
+| 0.5–1.5 mg | **Primerización hormética de TLR4/Nrf2** — beneficio antiinflamatorio | “estado activo” / excitación inquieta |
+| 1.5–3.0 mg | **Aumento de opioides** en plataformas; beneficio preservado | — |
+| 3.0–4.5 mg | **Restauración de TRPM3** — el primer beneficio aparece aquí; TLR4/Nrf2 se extinguen | vigilia pronunciada / insomnio |
+| >4.5 mg | ninguno — todos los mecanismos han superado su óptimo; antagonismo de mu-opioides a 50 mg | síntomas similares a la abstinencia de opioides |
+
+![Mecanismos de beneficio de LDN en el eje de dosis: primerización de TLR4/Nrf2 (0.5–1.5 mg), el rebote de endorfinas (1.5–3.0 mg, plataforma preservada hasta 4.5 mg), y restauración de TRPM3 (3.0–4.5 mg), con los puntos de prueba de 1 mg y 4 mg marcados. Las dos pruebas prueban diferentes rangos; a 4 mg, el rango de TLR4/Nrf2 ya se ha cerrado. *Esquema — posiciones del rango según el mapa de bandas de dosis del artículo (que tiene poca certeza); formas y alturas iguales son ilustrativas y no medidas; la disinhibición de orexina se omite para claridad. No son datos empíricos.*](fig5-ldn-windows.svg)
+
+### Una banda de dosis es un valor óptimo, no un interruptor de unión
+
+La tabla anterior puede leerse como un conjunto de interruptores on/off: “TLR4/Nrf2 = 0.5–1.5 mg”, “TRPM3 = 3.0–4.5 mg”. Así no funciona la unión, y quien lo interprete literalmente tiene razón al preguntar: ¿acaso 1 mg no une los receptores que 4 mg une?
+
+La respuesta es que la droga une **todos los cuatro objetivos en cada dosis**. La naltrexona es una sola molécula; los cuatro receptores están presentes y se unen simultáneamente en cualquier dosis superior a cero. Lo que cambia con la dosis no es *si* un objetivo se une, sino *con qué grado* — la ocupación fraccional de cada objetivo, cada uno en su propia curva.
+
+$$ f_i = \frac{(D/K_{d,i})^n}{1 + (D/K_{d,i})^n} $$
+
+(el ocupamiento establecido de Hill para la Parte A3, según el objetivo). Un objetivo con una constante de disociación baja $K_{d,i}$ (afinidad alta) alcanza un alto ocupamiento a dosis bajas. Un objetivo con una $K_{d,i}$ más alta necesita una dosis más alta para lograr el mismo ocupamiento. Así que:
+
+- **A 1 mg,** TLR4 (baja $K_d$) se encuentra cerca de su punto óptimo, mientras que TRPM3 (mayor $K_d$) está unido pero solo ligeramente ocupado — demasiado ligeramente para que su beneficio sea visible.
+- **A 4 mg,** TRPM3 alcanza su propio punto óptimo, mientras que TLR4 está sobreocupado ($f \approx 0.94$), lo que elimina su beneficio.
+
+La unión es continua; el beneficio es limitado. Por lo tanto, la fila “TLR4/Nrf2 = 0.5–1.5 mg” significa “el *beneficio* de TLR4 es mayor entre 0.5 y 1.5 mg” — no que “TLR4 está activo solo allí”. A 4 mg, TLR4 está unido *más* completamente que a 1 mg; es el beneficio el que ha desaparecido, por la razón expuesta en la respuesta breve: el señal residual que mantuvo la respuesta adaptativa ha desaparecido. Esto es exactamente lo que codifica el modelo de la Parte B — una suma de intervalos, donde cada objetivo contribuye $f_i(1-f_i)^{m_i}$ — y lo que la figura anterior muestra como bultos suaves en lugar de bandas duras. **Las bandas de dosis son donde el beneficio de cada mecanismo alcanza su punto máximo, no donde cada receptor se activa.**
+
+Los cuatro mecanismos, en su química:
+
+- **TLR4/Nrf2 (0.5–1.5 mg).** La naltrexona es un antagonista parcial de TLR4 en microglía — las células inmunitarias residentes del cerebro. TLR4 es un sensor de peligro; cuando se activa de forma crónica, la microglía libera IL-1β y TNF-α, provocando fatiga, retraso cognitivo y sensibilidad al dolor. El bloqueo parcial desencadena el cambio de microglía M1→M2 impulsado por Nrf2, descrito anteriormente. El antagonismo de TLR4 está establecido en una línea celular de microglía de ratón y modelos de roedores [@Kucic2021LDNmicroglia; @Kwilasz2021NTXmicroglia]; la neuroinflamación que calma está documentada en EM/SFC.
+
+- **Opioides / endorfinas (1.5–3.0 mg).** A dosis estándar (50 mg), la naltrexona bloquea completamente los receptores opioides. A dosis bajas, el *breve* bloqueo durante la noche desencadena una regulación compensatoria de endorfinas endógenas — el cuerpo produce más sus propios analgésicos en respuesta al bloqueo temporal. El límite está determinado por la tasa de síntesis de precursores en la célula, no por la dosis de la droga — por lo tanto, un platillo, no una escalada. Esta reacción de endorfinas se documenta en condiciones de dolor [@Younger2013].
+
+- **TRPM3 (3.0–4.5 mg).** El TRPM3 es un canal de calcio; el calcio es el "interruptor" universal de las células. La disfunción del TRPM3 es la observación más frecuente de un canal iónico en la EM/SFC, documentada en seis estudios independientes de células NK [@Cabanas2021]. La naltrexona restaura el flujo de calcio mediado por el TRPM3 en las células NK de la EM/SFC in vitro [@Cabanas2018trpm3] — pero estos son datos de una sola concentración in vitro, y no está comprobado si ocurre en neuronas vivas, vasos sanguíneos y músculo.
+
+- **Orexina (potencial beneficio en banda alta; efecto secundario cuando supera la cantidad).** La naltrexona reduce la inflamación microglial en el tálamo; esa inflamación suprime las neuronas de despertar de la orexina (hypocretina). A medida que el freno se suprime, las neuronas de orexina se activan más. El artículo considera este mecanismo como un potencial *beneficio* (mejora del estado de vigilia y la cognición) — pero puede convertirse en un efecto secundario de "estado de alerta/insomnía" a baja dosis y en un estado de vigilia/insomnía pronunciado a dosis alta cuando supera los límites. La relación entre inflamación y supresión de orexina está documentada en modelos animales [@Grossberg2011orexinLethargy], y la orexina se reduce en el líquido cefalorraquídeo de la EM/SFC — pero no hay estudio que haya medido la orexina antes y después de LDN en la EM/SFC.
+
+---
+
+## ¿Qué es la ciencia establecida y qué es un modelo propuesto
+
+Este es el punto en el que debo distinguir dos cosas muy diferentes: la **ciencia establecida** sobre la cual se basa el argumento del fracaso del superset, y un **modelo matemático que propongo** para hacer ese argumento preciso. La primera está publicada, replicada y citable. La segunda es una hipótesis —mi propia construcción— y la etiquetaré como tal.
+
+---
+
+## Parte A — La ciencia establecida
+
+### A1. El patrón empírico de hormesis es real
+
+El patrón bifásico (U invertido / en forma de J) de dosis-respuesta — estimulación a baja dosis, inhibición a alta dosis — está documentado en un gran número de sistemas biológicos, en la compilación conocida como el corpus Calabrese [@Calabrese2021Nrf2; @Sun2020yinYangHormesis]. El *patrón* es una observación empírica, no una hipótesis. Lo que está menos establecido es si es realmente la respuesta "por defecto" (la afirmación de Calabrese) versus la excepción — esa discusión sigue en curso [@CalabreseBaldwin2003toxicologyRethinks].
+
+### A2. El mecanismo de un brazo hormético está establecido: Keap1-Nrf2
+
+Para el grupo Nrf2, el mecanismo del brazo *ascendente* (beneficio a baja dosis) está bien caracterizado. Keap1 retiene el factor de transcripción Nrf2 para su degradación; un leve estrés oxidativo o inflamatorio modifica los residuos de cisteína de Keap1, liberando Nrf2 para aumentar la expresión de un amplio programa de genes antioxidantes/antiinflamatorios (cientos de genes, según la literatura Nrf2/ARE). Esta es la biología redox establecida, y la activación de Nrf2 es el mediador general propuesto para las respuestas de dosis horméticas [@Calabrese2021Nrf2].
+
+### A3. La ecuación de Hill está establecida, válida y estándar — pero solo para ocupación monótona
+
+Una interpretación común de la sección anterior es que no existe ningún modelo establecido. Pero esa no es lo que dice la sección. La **ecuación de Hill** está publicada, válida y universalmente estándar; es fundamental en farmacodinámica (Hill, 1910), en todos los libros de texto de farmacología. No es una sugerencia. La fracción de receptores ocupados por una droga a dosis $D$ y la constante de disociación $K_d$ es la función de Hill.
+
+$$ f(c) = \frac{c^n}{c^n + 1}, \qquad c = D/K_d $$
+
+donde $n$ es el coeficiente de Hill — refleja la cooperatividad de unión, cómo aumenta rápidamente la ocupación alrededor de $K_d$, y es un parámetro de forma en lugar de una afinidad. Es el brazo *ascendente*: la ocupación aumenta de manera monótona con la dosis. Lo que la ecuación **no puede** hacer es producir una U invertida — **por sí sola genera una curva monótona**. Es un hecho establecido: la U invertida requiere algo *más allá* de la ocupación de un solo receptor. Ese "algo más allá" es la cuestión separada que se abordará a continuación.
+
+### A4. Existen tratamientos matemáticos publicados de hormesis, pero no existe una única ecuación canónica
+
+El campo ha producido varias formalizaciones matemáticas explícitas de la curva hormética, pero **ningún modelo es aceptado como "la" ecuación de hormesis**:
+
+- **Nweke et al. 2022** proporcionan una forma funcional *bilógica* estadística para la respuesta de dosis-U invertida, reparametrizada para estimar la cantidad hormética (estimulación pico, dosis en pico, ancho de ventana) [@Nweke2022bilogisticHormesis].
+- **Xiao et al. 2022** construyen un modelo dinámico (ODE) de respuesta de dosis anti-tumor que genera régimenes no monótonos a partir de dinámicas de población celular y droga-target acopladas [@Xiao2022antiTumorDoseResponse].
+- **Sun et al. 2018** proponen un mecanismo de "balancín giratorio" para la hormesis *dependiente del tiempo*, donde los efectos estimulantes e inhibidores se integran a lo largo de la dosis y el tiempo [@Sun2018SeesawHormesis].
+
+Los tres son modelos reales y publicados — pero son *ajustes o mecanismos para sistemas específicos*, ninguno es un modelo mecánico validado de la hormesis LDN/TLR4/Nrf2. Por lo tanto, **existen** ecuaciones que describen una U invertida; lo que **no existe** es una única ecuación general aceptada para la ventana hormética de LDN. El patrón empírico está establecido; no existe un modelo canónico de él.
+
+---
+
+## Parte B — Un modelo propuesto (hipótesis, no ciencia establecida)
+
+Ahora propongo una forma matemática específica. **Esta es mi construcción — una hipótesis funcional para hacer preciso el argumento de fallo del superset — y NO es una ciencia establecida.** No está en la literatura, no ha sido validada y sus parámetros no se miden. La presento tal como es: un marco.
+
+En toda la Parte B, "brazo" significa una de las dos influencias opuestas en la curva que se mueven en direcciones diferentes a medida que aumenta la dosis. Una influencia empuja el beneficio *hacia arriba*; la otra, que solo se vuelve dominante más adelante, lo tira *hacia abajo*. Es la lucha entre estas dos que produce la curva en U invertida. Los dos brazos se nombran a continuación. De la misma manera, $B_{max}$ es el máximo beneficio que la curva *podría* alcanzar si el empuje hacia abajo nunca se produce — un techo, no el valor realmente alcanzado.
+
+### B1. Dos brazos: ocupación (ascendente) y tono residual (descendente)
+
+El beneficio hormético no es la ocupación de receptor en sí. Es la **respuesta adaptativa compensatoria de la célula a una perturbación parcial** — y una respuesta compensatoria requiere que algún *señal residual no bloqueada* permanezca para sostenerla. Defina:
+
+$$ f(c) = \frac{c^n}{c^n+1} \quad\text{(occupancy, rising)}, \qquad r(c) = 1 - f(c) = \frac{1}{c^n+1} \quad\text{(residual tone, falling)} $$
+
+![Los dos brazos del modelo propuesto: la función de ocupación f(c) aumenta de manera monótona, mientras que el tono residual r(c) = 1 − f(c) disminuye de manera monótona. Ninguno de los brazos por sí solo produce una curva invertida-U. *Ilustración de la hipótesis de la Parte B, no datos empíricos.*](fig1-arms.svg)
+
+Para el mecanismo TLR4/Nrf2 de LDN, la afirmación biológica es la siguiente: el bloqueo parcial (intermedio $f$) activa la respuesta de microglía Nrf2, pero esta activación se mantiene solo mientras haya algún tono basal de TLR4. Como $r \to 0$, la señal de activación se extingue y el beneficio desaparece —aunque la droga sigue unida al cuerpo.
+
+### B2. La función de beneficio de los dos brazos
+
+Propono que el beneficio neto es el producto de la ocupación y el tono residual. Es un *producto* —y no, por ejemplo, una suma— porque el beneficio requiere que ambas condiciones se cumplan al mismo tiempo, y cada una es necesaria. Según B1: la respuesta debe ser *activada* (necesita suficiente ocupación, $f$) y debe ser *sostenida* (necesita suficiente señal residual, $r$). Cualquier deficiencia en cualquiera de ellas es fatal: una perturbación débil nunca activa el programa, y un bloqueo completo no deja nada para mantenerlo. Cuando ambas condiciones son necesarias, la forma natural es su producto —si algún factor es cero, el producto es cero y el beneficio desaparece. Esa propiedad única es lo que convierte una curva monótona en una curva invertida-U:
+
+$$ B(c) = B_{max}\, f(c)\, r(c)^{m} = B_{max}\, \frac{c^n}{c^n + 1} \left( \frac{1}{c^n + 1} \right)^{m} $$
+
+donde $m$ indica qué tan pronunciadamente los beneficios dependen del tono residual. Esta forma tiene las propiedades que el artículo describe cualitativamente, y es la *más simple* forma de producto con una curva U invertida. La diferenciación muestra el pico. Escribe $f^{\ast}$ para el valor de $f$ en el que $B$ es el más grande — la *ocupación óptima*:
+
+$$ \frac{dB}{df} = 0 \;\Rightarrow\; f^{\ast} = \frac{1}{1+m} $$
+
+Los puntos máximos de beneficio ocurren en ocupación $f^{\ast} = 1/(1+m)$ — es decir, el punto óptimo se alcanza cuando $f$ es igual a $f^{\ast}$, la ocupación óptima — y desaparecen en ambos extremos ($B \to 0$ como $c \to 0$ y como $c \to \infty$).
+
+![La superficie de beneficio de dos brazos B(c) = Bmax · f(c) · r(c)^m, una U invertida cuya cresta se encuentra en f* = 1/(1+m); aquí n = 2, m = 2, por lo que la cresta está en f* = 1/3. *Ilustración de la hipótesis de la Parte B, no datos empíricos.*](fig2-inverted-u.svg)
+
+El parámetro de inclinación $m$ no es una constante fija — es una propiedad del sistema, y cambiarlo desplaza la cresta. A medida que $m$ aumenta, $f^{\ast} = 1/(1+m)$ disminuye: la cresta se desplaza a una ocupación más baja, lo que significa que el beneficio se extingue con una dosis aún más baja. La superficie inferior muestra $B(c,m)$ sobre el eje de concentración $c$ y el eje de inclinación $m$.
+
+![La superficie de beneficio B(c,m) a medida que tanto la concentración normalizada c (eje de logaritmo) como el exponente de inclinación m varían. Cada sección fija-m es la U invertida de la figura anterior; aumentar m desplaza la cresta a c más baja, coincidiendo con f* = 1/(1+m). *Ilustración de la hipótesis de la Parte B, no datos empíricos.*](fig3-3d-m-evolution.svg)
+
+**Estado de B2:** una hipótesis. La forma producto-de-colinas es matemáticamente limpia y reproduce el patrón cualitativo, pero la elegí *porque* produce la forma que quería demostrar. No hay datos que establezcan que el beneficio de LDN/TLR4 sea literalmente $f \cdot r^m$. Este es el punto en el que debo ser explícito de que estoy proponiendo, no informando.
+
+### B3. La extensión multi-objetivo
+
+Denotemos $i$ cada uno de los objetivos de LDN. Cada objetivo tiene su propia constante de disociación $K_{d,i}$ (la dosis en la que ese objetivo está a mitad de ocupación) y su propio parámetro de inclinación $m_i$, y por lo tanto su propia función de ocupación $f_i$ y su propio beneficio máximo $B_{max,i}$. El beneficio total en todos los objetivos, $B_{total}(D)$, es una suma de tales ventanas:
+
+$$ B_{total}(D) = \sum_{i} B_{max,i}\, f_i\!\left(\frac{D}{K_{d,i}}\right) \left(1 - f_i\!\left(\frac{D}{K_{d,i}}\right)\right)^{m_i} $$
+
+![Dos objetivos con diferentes constantes de disociación K_d colocan sus ventanas de beneficio en regiones separadas del eje de dosis; B_total(D) es su suma. Una dosis nula en la ventana de alta dosis deja la ventana de baja dosis sin prueba. *Ilustración de la hipótesis de la Parte B, no datos empíricos.*](fig4-non-overlap.svg)
+
+Diferentes $K_{d,i}$ colocan las ventanas en regiones separadas del eje de dosis — el contenido matemático de "optimas de dosis no superpuestas". **Estado: hipótesis**, que extiende la hipótesis B2; no existen $K_{d,i}$ ni $m_i$ medidos para los objetivos de LDN.
+
+### B4. El fracaso del superset, condicionado por el modelo
+
+Dentro de este modelo propuesto, el fracaso del superset es demostrable. Particiona el conjunto de objetivos $\{i\}$ en $\{i: K_{d,i} \sim D_{high}\}$ y $\{i: K_{d,i} \sim D_{low}\}$. Luego, con $\varepsilon_{low}(D_{high})$ denotando la contribución restante de los objetivos activos $D_{low}$ en $D_{high}$ — lo cual es despreciable porque las ventanas de esos objetivos se encuentran lejos de $D_{high}$:
+
+$$ B_{total}(D_{high}) = \sum_{i \in \{D_{high}\}} B_{max,i}\,f_i\,(1-f_i)^{m_i} + \underbrace{\varepsilon_{low}(D_{high})}_{\approx 0} $$
+
+Una dosis nula $D_{high}$ limita únicamente la primera suma; los objetivos activos $D_{low}$ permanecen inalterados desde el punto de vista informético. **Estado: un teorema del modelo — verdadero si el modelo es verdadero, no como hecho independiente sobre la biología.**
+
+### B5. Lo que todo el modelo establece y no establece
+
+Establece (condicionalmente en el modelo): la inferencia del superset es **matemáticamente inválida** para un medicamento multi-target cuyo beneficio es una suma de ventanas de dos brazos no superpuestas. Eso es un teorema del modelo.
+
+No establece que cualquier dosis de LDN funcione. Los parámetros ($K_{d,i}$, $m_i$, $B_{max,i}$) no están medidos; no existe ningún ensayo de respuesta dosis-respuesta de LDN dentro del rango en ninguna condición. El *valor* del modelo, si lo hay, es como un marco falsable: un ensayo de cuatro brazos dentro del rango (0.5, 1.5, 3.0, 4.5 mg, n ≥ 30, crossover, 8 semanas por dosis) sería el primer test para determinar si las curvas individuales son realmente no monótonas — y solo eso nos diría si esta o cualquier ecuación de hormesis se aplica.
+
+Dos puntos de la tabla se relacionan directamente con el argumento del superset.
+
+**En primer lugar, los objetivos no son intercambiables y su relación beneficio/efecto secundario varía según el rango.** En el rango alto, la restauración de TRPM3 *y* la disinhibición de orexina son ambos mecanismos de *beneficio* candidatos — el artículo lista “patología del canal TRPM3 o déficit de orexina” como factor limitante, y trata la disinhibición de orexina como una mejora en la vigilia y el cognicio. La diferencia es que cada mecanismo tiene su propio *optimum*, y superar ese punto convierte el beneficio en efecto secundario: un tono excesivo de orexina pasa de una mejora en la vigilia a la insomnio, y una sobrebloqueación de TLR4 activa el proceso antiinflamatorio. Por lo tanto, los cuatro objetivos no son cuatro palancas intercambiables que se escalan juntas.
+
+**En segundo lugar, los rumbos de beneficio no se superponen.** El beneficio de TLR4/Nrf2 está en 0.5–1.5 mg y desaparece a partir de 3.0–4.5 mg (la sobrebloqueación de TLR4 lo extingue). El beneficio de TRPM3/orexina aparece en 3.0–4.5 mg. Estos son **ventanas distintas**, no una versión de baja dosis y alta dosis de la misma cosa.
+
+La consecuencia es directa: **una dosis no es un volumen**. Pasar de 1 mg a 4 mg no "contiene" los efectos de 1 mg; en lugar de ello, reemplaza la combinación de objetivos activos por otra combinación. La hormesis TLR4/Nrf2 que opera a 1 mg se *desactiva* a 4 mg, no se amplifica.
+
+Por lo tanto, la hipótesis del superset falla exactamente donde es importante: el mecanismo que podría funcionar a 1 mg no es un subconjunto del que falla a 4 mg; es un *objetivo* *diferente*, con su propia curva.
+
+---
+
+## ¿Por qué el fracaso en una dosis no se propaga a otras?
+
+La inferencia combina dos afirmaciones muy diferentes:
+
+1. **"Este medicamento no es activo en este paciente"** — una conclusión sobre el medicamento.
+2. **"Este objetivo no es la vía limitante en este paciente"** — una conclusión sobre un objetivo.
+
+Un fracaso con 4 mg al menos produce la segunda: la combinación de objetivos que se activa en la banda de 4 mg — la restauración de TRPM3, la desinhibición de orexina y TLR4 en su estado *sobrebloqueado* — no es la vía que limita los síntomas en este paciente. Y incluso esa conclusión es provisional, por la razón que se explica a continuación: si los objetivos de la banda de 4 mg nunca se activaron realmente a dosis clínica, el resultado no dice nada sobre ningún mecanismo. Ciertamente no dice nada sobre el estado hormético de TLR4/Nrf2 ni sobre el rebote de endorfinas, que se activan solo con 0.5–3 mg — porque esos estados *nunca ocurrieron* durante un ensayo de 4 mg.
+
+![¿Qué mecanismos se activan realmente en un ensayo de 1 mg versus 4 mg? Un resultado nulo en 4 mg solo interpreta la fila inferior — la célula de inicio de TLR4/Nrf2 (arriba izquierda) nunca se probó. *Resumen esquemático de la mapa de bandas de dosis del artículo, no datos empíricos.*](fig6-tested-matrix.svg)
+
+Una simple analogía: un medicamento bloquea dos receptores, A y B, con una afinidad 100 veces mayor para A. A dosis baja, se activa solo A — y solo parcialmente. A dosis alta, se activa A *completamente* y también B. Ahora supongamos que el beneficio requiere una activación *parcial* de A (el caso hormético). Un ensayo fallido a alta dosis entonces no prueba nada sobre la dosis baja: el estado beneficioso — la activación parcial de A — nunca ocurrió durante el ensayo a alta dosis; A fue completamente bloqueado y la activación de B no es relevante. Este es el subtipo 4a en [Parte 2](../inverted-u-not-one-thing/) (selección de objetivos dependiente de la concentración), combinado con la U inversa: la selección de objetivos es la razón por la cual 4 mg alcanza objetivos que 1 mg no puede, y la U inversa es la razón por la cual 4 mg *perdiere* el beneficio que 1 mg tenía.
+
+Existe una versión aún más precisa de esto específicamente para la LDN. El antagonismo de TLR4 a dosis clínicas de LDN es incierto: el (+)-naltrexone es un antagonista *fraco* de TLR4, y un derivado optimizado requería un aumento de potencia de ~6,200× para alcanzar un antagonismo de nanomolar de TLR4 [@Gao2025CIAC101TLR4]. Por lo tanto, una dosis de 4 mg puede significar algo más profundo que “este objetivo no es limitante en la tasa”; puede significar que **el objetivo nunca fue realmente activado a ninguna dosis probada**. En ese caso, el resultado de 4 mg no indica nada sobre ningún mecanismo, y la dosis de 1 mg sigue siendo completamente abierta.
+
+---
+
+## El caso en el que la inferencia es válida
+
+La inferencia de superset **es** válida en un caso específico. Si un medicamento actúa sobre un único objetivo, con una única afinidad y una curva dosis-respuesta monótona (más dosis = más ocupación = más efecto, sin inversión), entonces una falla a dosis alta es suficiente y las dosis más bajas son redundantes. Este es un principio general de farmacología: es la suposición detrás de la determinación de dosis estándar para muchos agentes monótonos con un único objetivo, no es una afirmación específica para LDN ni proviene de la análisis de LDN del artículo.
+
+LDN no pertenece a esta categoría. Su curva dosis-respuesta no es monótona: el beneficio aumenta y luego disminuye dentro del rango clínico, con óptimos de objetivo que no se superponen. Para este tipo de molécula, la hipótesis de superset no es un atajo razonable: es precisamente la hipótesis que el ensayo de dosis pretende *probar*, no presuponer.
+
+### La misma falla se aplica a otros medicamentos multi-objectivo
+
+La falla de superset no es un peculiaridad de la naltrexona. Es una consecuencia *estructural* de la forma de la curva dosis-respuesta: para cualquier medicamento cuyo beneficio no sea monótono en dosis, con varios óptimos de objetivo, las dosis no pueden estar anidadas, y una dosis nula en una dosis determinada solo indica algo sobre esa dosis. El catálogo detallado se encuentra en [Parte 2](../inverted-u-not-one-thing/), que enumera dieciocho medicamentos de EM/SFC. Tres ejemplos ilustran este punto de manera concreta.
+
+- **Rapamicina** actúa sobre dos complejos de la misma proteína, mTOR. Se une a mTORC1 — que controla la autofagia y el control de calidad celular — con una afinidad mayor que a mTORC2, que controla la supervivencia celular y la señalización de insulina. A dosis bajas intermitentes, inhibe mTORC1 y protege mTORC2, restableciendo la autofagia y suprimiendo la secreción inflamatoria de células senescentes. A dosis diarias más altas, también inhibe mTORC2, y la resistencia a la insulina y la inmunosupresión reemplazan el beneficio metabólico. Una dosis nula en la dosis más alta, donde mTORC2 está activo, no indica nada sobre la dosis baja intermitente que lo protege — lo mismo que las ventanas de TLR4 y TRPM3 de LDN.
+
+- **Corticosteroides** proporcionan dosis de reemplazo fisiológicas (5–10 mg de prednisona) el señal antiinflamatorio que el eje hipotálamo-hipófisis-suprarrenal normalmente emite; en dosis supraphisiológicas suprimen el propio eje hipotálamo-hipófisis-suprarrenal, y la reducción gradual produce una inflamación rebote que es peor que el estado basal. Una dosis nula en una dosis supraphisiológica no evalúa la dosis de reemplazo — ambas se encuentran en lados opuestos de un umbral, exactamente como las dosis de 1 mg y 4 mg de LDN se encuentran en lados opuestos de la ventana TLR4.
+
+- **Modafinilo, duloxetina y guanfacina** actúan en el sistema de catecolaminas prefrontal, cuyo beneficio es una forma de U invertida en el tono de dopamina y noradrenalina. La dosis que supera el valor óptimo es diferente de la dosis que lo alcanza; una dosis nula en una dosis que supera el valor óptimo no indica nada sobre la dosis más baja que ajusta el circuito.
+
+En todos los casos la estructura es idéntica: el beneficio es una suma de ventanas específicas por dosis, por lo que el fallo de una ventana deja a las demás sin evaluar. Por eso el argumento de este artículo es un principio farmacológico general, no una afirmación específica para LDN. Lo que es específico para LDN — y tomado del artículo, con poco certeza — es la *posición* de las bandas; la *lógica* de la no propagación de dosis es independiente de los medicamentos.
+
+También en la otra dirección: la evidencia *general* de LDN es débil, y eso no favorece ninguna dosis. El ensayo FINAL (n = 99) no encontró diferencias significativas en el dolor primario [@DueBruun2024LDNFibromyalgia], una reanálisis de seis resultados secundarios de los respondedores fue nula en todos los casos [@Nielsen2026LDNFMResponder], y una meta-análisis no encontró beneficio entre grupos [@Ologunowa2025LDNFMMeta]. Estas nulas son reales y deben ser consideradas. Pero fueron ensayos de dosis única — ninguno abarcó todo el eje de dosis. Una dosis nula en una dosis única, en un medicamento cuyos objetivos actúan en bandas diferentes, es exactamente la ambigüedad de la que trata este artículo.
+
+---
+
+## ¿Qué significa esto para un ensayo de dosis
+
+La consecuencia práctica es simple y, para este blog, familiar: la búsqueda de dosis es de carácter diagnóstico ([Parte 3](../dose-is-diagnostic-ldn/)). El lugar donde el beneficio aparece y desaparece en el eje de dosis revela *qué* mecanismo está limitando. Un paciente que obtiene beneficio solo a 3–4.5 mg probablemente tenga una patología del canal TRPM3 o un déficit sensible a orexina (el artículo señala que estos no pueden separarse únicamente por la dosis). Un paciente que obtiene beneficio solo a 0.5–1.5 mg tiene neuroinflamación impulsada por TLR4. Una falla en **una** dosis coloca al paciente en **ninguno** de estos patrones — solo registra la falla de esa única dosis.
+
+Para que un "ningún beneficio en cualquier dosis" sea un veredicto sólido, debes haber probado las ventanas relevantes — la guía del artículo (ch28) indica que *"la no respuesta no puede concluirse a menos que la ventana de baja dosis también haya sido probada."* Un punto de dosis única no puede producir ese veredicto. [Parte 3](../dose-is-diagnostic-ldn/) expresa lo mismo: *"La no respuesta a 0.5 mg puede significar que el mecanismo requiere una dosis más alta (Patrón 2)."* Lo opuesto también es cierto: no beneficio a 4 mg puede significar que el mecanismo requiere una dosis más baja.
+
+---
+
+## La asimetría que nadie disputa
+
+Existe una señal de que la hipótesis del superset es frágil, y es interna al propio razonamiento. Nadie defiende la dirección opuesta: si 1 mg funciona, *nadie* concluye que 4 mg funcionará. Por el contrario, es bien sabido que una dosis más alta puede *cancelar* un beneficio presente en una dosis baja — precisamente el paradoja documentada en [Parte 1](../more-isnt-better-ldn-lda/).
+
+Si aceptas que "la dosis baja funciona" **no** predice "la dosis alta funciona" (porque la dosis alta desactiva los mecanismos de la dosis baja), entonces la simetría se rompe: las dosis no son intercambiables en una dirección, y no hay razón para tratarlas como intercambiables en la otra. La hipótesis del superset solo es coherente si ambas direcciones son intercambiables — y no lo son.
+
+---
+
+## Estimación de certeza
+
+| Afirmación | Certeza |
+|-------|-----------|
+| La hormesis de Nrf2 es un fenómeno real y establecido (el corpus de Calabrese) | Alta en toxicología; no ha sido probada como mecanismo de LDN clínica — no existe ensayo de dosis-respuesta de LDN [@Calabrese2021Nrf2] |
+| La LDN se une a TLR4, TRPM3 y receptores opioides en objetivos distintos | Alta para los objetivos mismos (TLR4 en una línea de células de ratón/rodentes [@Kucic2021LDNmicroglia]; TRPM3 in vitro [@Cabanas2018trpm3]; opioides [@Younger2013]) |
+| Los objetivos se activan en bandas de dosis óptimas diferentes | Baja a moderada — fundamentada mecánicamente, pero no existe ensayo de dosis-respuesta dentro de este rango en ninguna condición (certeza del artículo: 0.30) |
+| El antagonismo de TLR4 a dosis clínicas de LDN es real | Baja — el (+)-naltrexone es un débil antagonista de TLR4; un derivado optimizado necesita ~6,200× mayor potencia para un antagonismo nanomolar [@Gao2025CIAC101TLR4] |
+| Una dosis más alta no necesariamente reproduce los efectos de una dosis más baja | Alta — es una propiedad general de las curvas de dosis-respuesta no monótonas |
+| Un fracaso a 4 mg no implica un fracaso a 1 mg | Moderada — es verdadera si los objetivos se activan en distintos lugares; falsa para un medicamento monótono con un solo objetivo |
+| La hipótesis del superset es válida solo para un medicamento monótono con un solo objetivo | Alta — definición de monotonía y activación de objetivo |
+| La LDN en sí ha demostrado beneficio clínico en EM/SFC | Baja — ensayo final nulo [@DueBruun2024LDNFibromyalgia], análisis de respuesta nulo [@Nielsen2026LDNFMResponder], meta-análisis nulo [@Ologunowa2025LDNFMMeta]; no hay ensayos RCTs grandes positivos en EM/SFC |
+| La búsqueda de dosis es diagnóstica del mecanismo limitante | Baja a moderada — el marco diagnóstico no ha sido probado prospectivamente (el ensayo HIP-B propuesto) |
+
+---
+
+*Este artículo se basa en el marco de dosis-respuesta de LDN desarrollado en [@Loth2026website], que sintetiza el corpus de hormesis Nrf2 [@Calabrese2021Nrf2], la literatura sobre la dependencia de dosis de microglía M1→M2 [@Kucic2021LDNmicroglia], los hallazgos sobre células NK en EM/SFC mediante TRPM3 [@Cabanas2018trpm3; @Cabanas2021] y la farmacología de rebote de endorfinas [@Younger2013]. La afirmación central —que una dosis más alta no es un conjunto superado de los efectos de dosis más bajas para un medicamento multiobjetivo no monotónico— surge directamente de los cuatro mecanismos y el patrón de diagnóstico de la serie. El límite de evidencia es explícito: no existe ningún estudio de dosis-respuesta de LDN dentro del rango en ninguna condición, y los estudios de dosis única que existen son nulas [@DueBruun2024LDNFibromyalgia; @Nielsen2026LDNFMResponder; @Ologunowa2025LDNFMMeta]. La certeza sobre el propio marco es baja (~0.30); el punto lógico sobre la no propagación de dosis no depende de que el marco sea correcto.*
+
+*Serie de dosis-respuesta: [Parte 1: ¿Por qué más no es mejor?](../more-isnt-better-ldn-lda/) · [Parte 2: El U invertido no es una sola cosa](../inverted-u-not-one-thing/) · [Parte 3: Tu dosis de LDN es un diagnóstico](../dose-is-diagnostic-ldn/) · [Parte 4: La farmacopea](../pharmacopoeia-dose-meaning/) · [Parte 5: Cómo realizar un estudio de búsqueda de dosis](../dose-finding-protocols/) · Relacionado: [Descartar la dosis, no el medicamento](../dose-first-search-strategy/)*

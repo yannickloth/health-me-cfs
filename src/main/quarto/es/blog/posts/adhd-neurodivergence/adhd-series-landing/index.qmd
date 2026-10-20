@@ -1,0 +1,82 @@
+---
+title: "La biología del TDAH — una serie"
+description: "El TDAH no es una sola cosa. Cuatro corrientes biológicas independientes — la energía prefrontal, la neuroinflamación impulsada por el sistema inmunitario, el eje dopamina-Nrf2-NLRP3 y las trayectorias adquiridas — pueden contribuir cada una al peso de los síntomas, y la forma de avanzar podría ser tratar varias de ellas al mismo tiempo. Esta es la página de inicio de una serie que examina cada corriente y la hipótesis de tratamiento multivía."
+author: "Yannick Loth"
+date: "2026-08-24"
+categories: [Neurodivergence, Series, Pathophysiology]
+lang: es
+---
+
+El TDAH no es una sola cosa.
+
+Una suposición común es que la condición tenga una única causa y una única explicación. Nuestros estudios señalan algo más detallado: **cuatro componentes biológicos distintos** pueden estar detrás de los síntomas relacionados con el TDAH — un déficit de energía en el prefrontal, un subgrupo de neuroinflamación impulsado por el sistema inmunitario, un eje dopamina-Nrf2-NLRP3 y características adquiridas que no son relacionadas con el desarrollo. Los pacientes diferentes probablemente presentan combinaciones diferentes de estos componentes, y cada uno contribuye de manera diferente al peso de los síntomas diarios.
+
+Esta serie examina cada componente en lenguaje sencillo y luego plantea la pregunta a la que todos convergen: **¿se puede tratar simultáneamente varios caminos para eliminar o reducir los síntomas y permitir al paciente una vida más normal?**
+
+---
+
+## Lo que sabemos y lo que nuestra investigación añade
+
+Cada artículo de esta serie distingue claramente dos cosas:
+
+1. **Lo que sabemos** — hallazgos científicos establecidos, citados en la literatura revisada por pares. Esto incluye la ciencia bien establecida del TDAH — su neurobiología de dopamina [@Volkow2011adhddopamine], su arquitectura genética y superposición con el autismo [@Demontis2023GWASadhd @Lai2019metaADHDasd], y sus tratamientos estándar — junto con los hallazgos transversales entre enfermedades (el hipometabolismo prefrontal en el TDAH [@Zametkin1990], la farmacología de catecolaminas en forma de U invertida [@Arnsten2011catecholaminePFC] y la trayectoria discutida de inicio en adultos [@Moffitt2015adhdadult @Sibley2018lateonsetADHD @Asherson2019lateonsetADHD]).
+2. **Lo que nuestra investigación añade** — las hipótesis que nuestro proyecto de documentación desarrolló al leer más allá de los límites de las enfermedades, y que aún no están establecidas: el modelo de convergencia de energía prefrontal, la hipótesis de tratamiento multivía, el marco adquirido reversible y el eje transversal entre enfermedades de dopamina-Nrf2-NLRP3.
+
+La distinción es importante porque los dos no son la misma confianza. "Lo que sabemos" es evidencia; "lo que nuestra investigación añade" son hipótesis verificables. La serie los mantiene separados para que nunca se confunda tratar una hipótesis como un hallazgo.
+
+Cada artículo sigue la misma estructura:
+
+1. **¿Qué es** — el mecanismo, en palabras sencillas.
+2. **La evidencia** — lo que lo sustenta y cuán fuerte es esa evidencia.
+3. **Los límites** — lo que no afirma.
+4. **El experimento decisivo** — cómo podría confirmarse o refutarse la idea.
+
+---
+
+## Parte 1: TDAH como un trastorno de energía prefrontal — y la hipótesis de tratamiento multivía
+
+La serie comienza con el aspecto más desarrollado: un córtex prefrontal que funciona con un suministro de combustible escaso. El córtex prefrontal es la región más costosa en términos de energía en el cerebro humano, por lo que es la primera en deteriorarse bajo cualquier escasez de energía. Cinco vías independientes — fallo en el flujo sanguíneo, hipometabolismo de glucosa, agotamiento de creatina, déficit de catecolaminas y un gradiente epidemiológico — convergen en este único punto. La Parte 1 también contiene la síntesis de la serie: la hipótesis de tratamiento multivía, y lo que tratar varios mecanismos al mismo tiempo podría significar.
+
+Lee el artículo:
+
+1. **[TDAH como un trastorno de energía prefrontal: Cinco líneas de evidencia, un mecanismo](../adhd-prefrontal-energy/index.qmd)** — lo que es el TDAH por sí mismo, la evidencia cerebrovascular, de glucosa, creatina y catecolaminas, el gradiente epidemiológico, los límites, el experimento decisivo, la pregunta abierta lenta pero precisa y la hipótesis de tratamiento multivía.
+
+---
+
+## Parte 2: El aspecto inmunitario y neuroinflamatorio del TDAH
+
+No todos los casos de TDAH tienen la misma causa. Una creciente serie de evidencias relaciona las características similares al TDAH con la neuroinflamación crónica y la activación de la microglía —un proceso inmunitario que puede reducir la dopamina y dañar los mismos circuitos prefrontales que el TDAH primario afecta durante el desarrollo. Si algunos síntomas similares al TDAH están impulsados por la inflamación, pueden ser adquiridos, reversibles y identificables.
+
+Lee el artículo:
+
+1. **[El aspecto inmunitario y neuroinflamatorio del TDAH: Cuando la inflamación moldea la atención](../adhd-immune-neuroinflammation/index.qmd)** — la evidencia sobre la microglía, la ruta de depleción dopaminérgica, la señal proinflamatoria compartida, el puente orexina-dopamina, el puente quinurenina-dopamina, la hipótesis de misma raíz y los límites.
+
+---
+
+## Parte 3: El eje dopamina-Nrf2-NLRP3
+
+Un tercer hilo conecta la biología de la dopamina con el sistema de defensa antioxidante de la célula y con el interruptor inflamatorio central del sistema inmunitario. Un bajo nivel de dopamina deteriora las defensas antioxidantes impulsadas por Nrf2, lo que a su vez elimina un freno en la activación del inflamasoma NLRP3 — y la inflamación resultante agota aún más la dopamina, cerrando un ciclo autoamplificador. Este eje transversal entre enfermedades podría explicar por qué las personas con TDAH tienen un umbral más bajo para la fatiga postinflamatoria.
+
+Lee el artículo:
+
+1. **[El eje dopamina-Nrf2-NLRP3: Un ciclo inflamatorio detrás del TDAH y la fatiga](../adhd-dopamine-nrf2/index.qmd)** — la conexión dopamina-Nrf2, el freno Nrf2-NLRP3, la retroalimentación hacia la síntesis de dopamina, el cuello de botella BH4, la arquitectura genética propia del TDAH y su superposición con el autismo, el hilo mitocondrial-genético compartido (haplogrupo U, evidencia de cybrid), y las predicciones verificables.
+
+---
+
+## Parte 4: Adquirido vs. Desarrollado — Cuándo las características similares al TDAH podrían ser reversibles
+
+La pregunta clínicamente relevante: ¿las características similares al TDAH están necesariamente presentes desde el desarrollo, o algunas pueden ser *adquiridas* — y, por lo tanto, reversibles? Mucho TDAH en adultos no es una continuación directa del TDAH infantil — algunas aparecen en la adolescencia, algunas reflejan síntomas infantiles pasados por alto o mal recordados, algunas se explican por uso de sustancias o comorbilidades — y la falta de atención adquirida tras un desencadenante inmunitario puede ser reversible cuando su causa se trata. Distinguir entre ambos determina si un síntoma podría responder al tratamiento de su causa o si es una configuración estable.
+
+Lee el artículo:
+
+1. **[Adquirido vs. Desarrollado: Cuándo las características similares al TDAH podrían ser reversibles](../adhd-acquired-trajectories/index.qmd)** — la trayectoria de aparición en adultos, la estructura A/B/C, los caminos interoceptivos y neuroinflamatorios, y las consecuencias clínicas de cometer un error en la distinción.
+
+---
+
+## Sobre la evidencia
+
+Cada artículo de esta serie distingue con cuidado lo que está *confirmado* por la evidencia, lo que es una *hipótesis prometedora* y lo que es la experiencia de un paciente individual. La mayor parte del contenido aquí se refiere a la hipótesis: las certezas son explícitas, a menudo bajas, y nada se presenta como un hecho clínico establecido o como una recomendación de tratamiento.
+
+La ciencia subyacente proviene de nuestro proyecto de documentación, que desarrolla en detalle estos modelos de energía y sistema inmunitario transversales entre enfermedades. El enfoque específico para TDAH es nuestra interpretación de la literatura, escrita para funcionar por sí sola para cualquier persona curiosa sobre la biología.
+
+*Discuta cualquier decisión médica con un clínico calificado.*

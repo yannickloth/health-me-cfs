@@ -1,0 +1,22 @@
+---
+title: "Cómo participar en la investigación sobre EM/SFC"
+description: "Los registros y biobancos hacen posible la investigación. A continuación, se explica qué son, cómo funciona el acceso y cómo contribuyen los pacientes."
+author: "Yannick Loth"
+date: "2026-10-03"
+categories: [Cross-links, Research, Resources]
+lang: es
+---
+
+La investigación necesita participantes y muestras. Dos tipos de infraestructuras hacen eso posible, y ambos son más abiertos de lo que muchos pacientes imaginan.
+
+**Registro** cataloga quién hace qué. El [**Registro de Investigación EM/SFC**](https://mrr.mecfs-research.org/en/mrr) indexa 149 proyectos de investigación, además de redes, publicaciones, personas y organizaciones; es público, accesible y exportable, por lo que puedes ver si alguien está estudiando la cuestión que te interesa — dentro del ámbito del país actual (Alemania, Austria, Suiza, Países Bajos, Noruega, Islandia), y ten en cuenta que la denuncia voluntaria puede subestimar el trabajo no regional o no publicado.
+
+**Biobancos** recogen y almacenan muestras de biología y datos vinculados. Ejemplos incluyen el Registro y Biobanco EM/SFC alemán (un esfuerzo bicéntrico del Munich MCFC y Charité Berlin), el Biobanco EM/SFC del Reino Unido, el Cohort y Biobanco EM/SFC de los Países Bajos (NMCB), el biobanco austriaco y el registro Solve M.E.'s You+ME.
+
+**Cómo participan los pacientes.** La inscripción suele realizarse a través de los centros clínicos que operan un registro o biobanco: para el biobanco alemán, el Munich MCFC (niños/adolescentes) y Charité Berlin (adultos); fuera de su área de cobertura, se pueden encontrar centros nacionales a través de la red pediátrica PEDNET-LC. La participación implica aportar datos y, a veces, sangre u otras muestras, bajo condiciones de consentimiento establecidas por la institución.
+
+**Cómo los investigadores acceden.** No es de autoservicio. Los investigadores solicitan acceso al centro operativo con una propuesta de proyecto, y el acceso suele requerir aprobación ética y un acuerdo de transferencia de datos o material antes de que muestras o datos se compartan. Las muestras están disponibles para proyectos *cooperativos* en Alemania e internacionalmente.
+
+**Las advertencias.** Algunos recursos son nacionales o regionales; se aplican límites de cobertura y edad; y los términos de acceso son establecidos por cada institución, no por este documento. Pero la dirección es hacia la apertura — y el registro hace que el panorama sea visible de una manera que no era posible hace unos años.
+
+Si eres paciente: pregunta en tu centro especialista si participa. Si eres investigador: revisa el registro antes de asumir que nadie está estudiando tu cuestión.

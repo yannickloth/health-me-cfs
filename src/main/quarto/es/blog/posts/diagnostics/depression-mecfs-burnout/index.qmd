@@ -1,0 +1,133 @@
+---
+title: "Depresión, Burnout, EM/SFC: Tres enfermedades, una palabra"
+description: "Una mujer de unos treinta años le dice a su médico que está agotada. No puede trabajar. Apenas puede pasar el día. Antes corría medias maratones y ahora no puede caminar hasta la tienda de la esquina sin consecuencias que duran días."
+author: "Yannick Loth"
+date: "2026-06-10"
+categories: [Misdiagnosis, Comorbidities, Diagnostics]
+lang: es
+---
+
+Una mujer de unos treinta años le dice a su médico que está agotada. No puede trabajar. Apenas puede pasar el día. Antes corría medias maratones y ahora no puede caminar hasta la tienda sin consecuencias que duran días.
+
+El médico ve a una joven con análisis de sangre normales y dice que está cansada. Las posibilidades son pocas: depresión, estrés, burnout. Quizás tiroides, pero el TSH está bien. Se receta un antidepresivo. Se hace una referencia a un psicólogo. Se recomienda ejercicio graduado: comenzar poco a poco, aumentar gradualmente, te sentirás mejor una vez vuelvas a moverte.
+
+Ella intenta. Hace ejercicio. Tiene una crisis tan grave que no puede levantarse de la cama durante una semana. Se lo dice al médico. El médico ajusta el antidepresivo. Ella vuelve a intentarlo. Tiene otra crisis, esta vez peor. El médico sospecha que no está realmente intentando, o que la depresión es más grave de lo que se evaluó inicialmente. Se receta un antidepresivo más potente. Quizás se necesita una referencia a un hospital.
+
+En ningún momento de esta secuencia alguien hizo la pregunta que habría cambiado todo: ¿el ejercicio te hace sentir mejor o te hace peor?
+
+---
+
+## Tres enfermedades, una sala de espera
+
+La depresión, el agotamiento y el EM/SFC todas causan la queja “No puedo funcionar y estoy agotado”. Comparten características superficiales: retirada de actividades, reducción del rendimiento laboral, alteración del sueño, quejas cognitivas y aislamiento social. En una consulta de 15 minutos con resultados de laboratorio normales, son clinicamente indistinguibles a menos que el médico sepa hacer preguntas específicas para diferenciarlos.
+
+Son biológicamente no relacionados. Sus tratamientos son incompatibles. Aplicar un tratamiento a uno de ellos en un paciente con el otro causa daño documentado.
+
+---
+
+## Depresión: el circuito de recompensa que se apagó
+
+El trastorno depresivo mayor, en su núcleo biológico, es un trastorno del procesamiento de recompensas y la señalización de monoaminas. La anhedonia —la incapacidad de experimentar placer o anticiparlo— no es una tristeza metafórica, sino un déficit medible en la función dopaminérgica y serotonérgica. La neuroimagen muestra una reducción de la actividad en el estriado ventral y el córtex prefrontal durante tareas de recompensa [@Pizzagalli2009reward].
+
+La fatiga de la depresión es principalmente amotivación: el cuerpo puede actuar, pero el cerebro no genera el impulso para comenzar. Un paciente deprimido colocado en un entorno estructurado externamente —una sesión de fisioterapia, un paseo con un amigo que insiste— a menudo descubre que la actividad en sí es manejable, incluso ligeramente agradable. La barrera era el inicio, no la capacidad.
+
+El ejercicio es verdaderamente terapéutico para la depresión. No como simple afirmación, sino como farmacología: aumenta el BDNF, promueve la neurogénesis en el hipocampo, normaliza la función del eje hipotálamo-hipófisis-suprarrenal y aumenta la transmisión de monoaminas [@Schuch2016exerciseDepression]. Las meta-análisis muestran consistentemente tamaños de efecto comparables a los de los antidepresivos para la depresión leve a moderada.
+
+**El patrón de cortisol en la depresión** es hiperactivo. El eje hipotálamo-hipófisis-suprarrenal es sobreresponsivo: cortisol elevado, respuesta de despertar de cortisol exagerada, inhibición de retroalimentación atenuada. La respuesta al estrés funciona demasiado fuerte.
+
+**El patrón de sueño** incluye despertar temprano por la mañana, reducción de la latencia REM y alteración del sueño de ondas lentas —pero, crucialmente, la privación de sueño puede mejorar temporalmente el estado de ánimo en la depresión. Esto es paradójico y específico: refleja el papel del sueño en la consolidación de memorias emocionales negativas. La depresión es una de las pocas condiciones en las que menos sueño puede ayudar brevemente.
+
+---
+
+## Burnout: el pozo que se secó
+
+El burnout es un fenómeno laboral — reconocido en la ICD-11 como un síndrome resultante de estrés crónico en el lugar de trabajo que no ha sido gestionado con éxito. Se caracteriza por tres dimensiones: agotamiento, cinismo/depersonalización y reducida eficacia profesional [@Maslach2016burnout].
+
+La fatiga por burnout es el agotamiento de un sistema que ha funcionado a alto rendimiento sin una recuperación adecuada. La diferencia con la depresión: el burnout tiene un motor externo claro, y la eliminación de ese motor conduce a la recuperación. Una maestra agotada que tome un descanso sabático de seis meses suele recuperarse. Una persona deprimida que tome el mismo descanso sabático no lo hace — porque el motor es interno.
+
+**El patrón de cortisol en el burnout** comienza hiperactivo (como en la depresión) pero evoluciona hacia una disminución con la cronificación. En etapas avanzadas del burnout, puede mostrar la misma curva de cortisol plana que en EM/SFC, lo que es una razón por la cual el burnout de larga duración puede ser difícil de distinguir del EM/SFC inicial.
+
+**El ejercicio en el burnout** es generalmente beneficioso — ayuda a la recuperación cuando se combina con la reducción del estrés. Pero el ejercicio solo, sin abordar la fuente de la demanda crónica, es insuficiente.
+
+**La distinción crítica con EM/SFC:** el burnout mejora con el descanso. Un descanso genuino y sostenido — no un fin de semana, sino semanas o meses con una reducción de la demanda — revierte el agotamiento. Si el descanso no ayuda, el burnout es el diagnóstico incorrecto.
+
+---
+
+## EM/SFC: el motor que se rompió
+
+EM/SFC es una enfermedad neuroinmune caracterizada por malestar post-esfuerzo (PEM) — una respuesta patológica al esfuerzo que produce un deterioro retrasado, desproporcionado y prolongado en la función física, cognitiva y neurológica. El informe de la IOM de 2015 identificó el PEM como la característica central: "los pacientes tienen una incapacidad patológica para producir suficiente energía según la demanda" [@IOM2015].
+
+La fatiga no es amotivación (el cerebro quiere actuar, pero el cuerpo no puede producir suficiente energía) ni descondicionamiento (el ejercicio empeora la situación, no mejora, como se demostró en el CPET de 2 días). Es metabólica: función mitocondrial deteriorada, utilización alterada de sustratos, lactato elevado en trabajos a nivel de reposo, activación inmune tras el esfuerzo.
+
+**El patrón de cortisol en EM/SFC** está atenuado — producción total reducida, curva diurna plana, respuesta de despertar de cortisol ausente o disminuida [@papadopoulos2009hypothalamus]. Esto es lo opuesto al HPA hiperactivo de la depresión. La respuesta al estrés es demasiado baja.
+
+**La respuesta al ejercicio** es el test de litmus diagnóstico. Si el ejercicio constantemente produce un deterioro retrasado (24-72 horas después, durando días o semanas, desproporcionado al esfuerzo), no es depresión ni burnout. El CPET de 2 días confirma esto de manera objetiva: umbral de ventilación reducido, VO2 máximo reducido y transición anaeróbica más temprana en el segundo día. Ninguna otra condición de fatiga muestra este patrón.
+
+**El patrón de sueño** no es reparador, independientemente de la duración. La intrusión alfa-delta contamina el sueño profundo. Los pacientes pueden dormir diez horas y despertar sintiéndose envenenados. La privación del sueño no mejora los síntomas; los empeora catastróficamente.
+
+**El descanso no resuelve EM/SFC.** Reduce la gravedad de los síntomas cuando se combina con la reducción de la demanda (ritmo de descanso), pero no revierte la disfunción metabólica y inmune subyacente. Un paciente que descansa durante seis meses no recupera como lo hace un paciente agotado. La maquinaria está dañada, no solo agotada.
+
+---
+
+## Las preguntas distintivas
+
+Cinco preguntas separan estas tres condiciones en un encuentro clínico:
+
+**1. ¿El ejercicio te hace mejor o peor?**
+- Mejor → depresión o agotamiento (especialmente si el beneficio es perceptible en horas)
+- Peor, con un retraso de 24-72 horas → EM/SFC
+
+**2. ¿El descanso resuelve tu agotamiento?**
+- Sí, con descanso continuo → agotamiento
+- Parcialmente, pero el estado base nunca vuelve a la normalidad → EM/SFC
+- No — puedes descansar durante semanas y el vacío no se llena → depresión
+
+**3. ¿Puedes realizar actividades cuando te lo obligan externamente?**
+- Sí — la actividad es manejable una vez comenzada → depresión (amotivación, no incapacidad)
+- No — la obligación externa no cambia la limitación física → EM/SFC
+
+**4. ¿A qué hora alcanza el agotamiento su punto máximo?**
+- Mañana (no puedes seguir adelante, mejora durante el día) → depresión
+- Acumula durante el día, peor por la noche → agotamiento
+- 24-72 horas después del esfuerzo, con retraso → EM/SFC
+
+**5. ¿Hubo un desencadenante claro?**
+- Inicio gradual relacionado con una demanda laboral continua → agotamiento
+- Inicio gradual sin estrés externo proporcional → depresión
+- Inicio repentino después de una infección, cirugía, trauma o evento identificable → EM/SFC (en aproximadamente el 70% de los casos)
+
+Ninguna pregunta individual es diagnóstica. El patrón en las cinco es similar.
+
+---
+
+## Agotamiento autista: la cuarta entidad
+
+Existe un cuarto estado de fatiga que no se encaja perfectamente en los tres anteriores y que se reconoce cada vez más: agotamiento autista. No se trata de agotamiento laboral con un diagnóstico de autismo. Es un fenómeno específico: la depleción progresiva de energía que resulta de la supresión continua de rasgos autistas en entornos neurotípicos.
+
+El mascar — suprimir el estímulo, forzar contacto visual, monitorear y imitar señales sociales en tiempo real, gestionar la sobrecarga sensorial sin mostrar sufrimiento — es cognitivo y metabólicamente costoso. Requiere una función ejecutiva continua que las personas neurotípicas no gastan. A lo largo de meses y años, esta desgaste crónico agota las reservas. La crisis, cuando llega, se parece a EM/SFC: fatiga profunda, apagado cognitivo, hiperreactividad sensorial y retirada.
+
+La distinción clave: el agotamiento autista se resuelve cuando las demandas de mascar se reducen. Una persona autista que pasa a un entorno sensorialmente amigable con menos demandas sociales suele recuperarse, a veces rápidamente. Si el agotamiento se ha mantenido durante años, la recuperación puede ser más lenta e incompleta — pero la trayectoria es hacia la mejora una vez que la fuente de demanda se aborda.
+
+Para individuos autistas que también tienen EM/SFC, las dos deplecciones de energía son sumativas. El mascar agota el mismo presupuesto de energía que PEM agota. Reducir las demandas de mascar no es un lujo — es una intervención directa que reduce la carga metabólica total y puede reducir la frecuencia y gravedad de PEM.
+
+---
+
+## El coste de la confusión
+
+El ensayo PACE [@White2011pace] prescribió terapia de ejercicio gradual y terapia cognitivo-conductual a pacientes con EM/SFC utilizando un protocolo derivado de la hipótesis de descondicionamiento —la suposición de que EM/SFC se mantiene por inactividad y creencias sobre la enfermedad, y que el ejercicio progresivo lo revertiría, al igual que revertiría la retirada relacionada con la depresión.
+
+El ensayo afirmó éxito. Una reanálisis independiente utilizando los resultados predefinidos del ensayo mostró que no había beneficio significativo [@Wilshire2018]. Las encuestas a pacientes indicaron que la terapia de ejercicio gradual era la intervención más propensa a empeorar su condición, con el 74% de los encuestados reportando deterioro [@MEAssociation2015survey].
+
+El daño no fue aleatorio. Era predecible desde la biología. La terapia de ejercicio funciona para la depresión porque el obstáculo es la amotivación, y el sistema puede conducir la carga. La terapia de ejercicio daña la EM/SFC porque el obstáculo es la capacidad metabólica, y el sistema no puede conducir la carga. El tratamiento era correcto para un diagnóstico incorrecto. El fracaso no estaba en la respuesta del paciente. Estaba en la confusión que hacía que la prescripción pareciera razonable.
+
+Esta confusión continúa. Los pacientes con EM/SFC siguen referidos a servicios psiquiátricos, siguen recibiendo antidepresivos como tratamiento principal, siguen siendo instruidos a ejercitarse y siguen diciéndoles que su incapacidad para mejorar refleja una motivación insuficiente. Cada una de estas recomendaciones es adecuada para la depresión y dañina para la EM/SFC. La palabra “cansado” es el puente que hace que la aplicación incorrecta sea invisible.
+
+---
+
+## ¿Qué cambiaría si dejáramos de usar una sola palabra
+
+Si los formularios de ingreso clínico reemplazaran "fatiga: sí/no" con un discriminador de cuatro ítems — fatiga periférica, fatigabilidad/PEM, somnolencia, amotivación — el camino de diagnóstico dividiría en la primera visita en lugar de en la quinta. El paciente con EM/SFC nunca recibiría la prescripción de ejercicio. El paciente deprimido nunca recibiría el protocolo de pacing. El paciente burnout recibiría el descanso que necesita en lugar de los medicamentos que no necesita.
+
+El obstáculo no es la tecnología, ni la financiación, ni la investigación. Es el vocabulario. Una palabra, pretendiendo describir una cosa, aplicada a cuatro. La biología ha sido clara durante años. El lenguaje no ha seguido el paso.
+
+---

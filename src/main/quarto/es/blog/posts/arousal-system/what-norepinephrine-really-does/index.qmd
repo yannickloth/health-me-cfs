@@ -1,0 +1,22 @@
+---
+title: "La noradrenalina no es un combustible — es un regulador"
+description: "La sustancia química cerebral a la que la gente llama la molécula de alerta cumple al menos cuatro funciones. Eso cambia lo que significaría un déficit."
+author: "Yannick Loth"
+date: "2026-09-15"
+categories: [Arousal system, Noradrenergic, Mechanisms]
+lang: es
+---
+
+La noradrenalina suele introducirse como la sustancia química que genera "vigilancia" o "respuesta de lucha o huida". Esto es cierto, pero incompleto. La noradrenalina es mejor entendida como un *regulador* —un señal que ajusta el comportamiento de otros sistemas— y tiene al menos cuatro funciones importantes para la EM/SFC.
+
+**1. Establece las transiciones entre el estado de alerta y el sueño.** Los neuronas noradrenérgicas en el locus coeruleus son activas durante el estado de vigilia y silenciosas durante el sueño, y su actividad determina los subestados del sueño no REM (@OsorioForero2021NoradrenergicNREM). Las "microactivaciones" noradrenérgicas también están en el centro de la función del sueño reparador (@Luthi2025MicroarousalsNoradrenaline).
+
+**2. Impulsa la bomba que limpia el cerebro.** Durante el sueño, la noradrenalina impulsa ondas lentas de movimiento de los vasos sanguíneos (vasomotores) que se cree que empujan el líquido cefalorraquídeo a través del cerebro y eliminan los residuos metabólicos —lo que se ha demostrado en ratones y se ha revisado, pero no medido en la EM/SFC (@Hauglund2025neVasomotion; @Nedergaard2026OscillatorySleep).
+
+**3. Controla el dolor.** Los caminos descendentes desde el tronco encefálico liberan noradrenalina en la médula espinal para atenuar las señales de dolor (@Hayashida2019DescendingNoradrenergic), por lo que los medicamentos noradrenérgicos se usan para el dolor crónico. Sin embargo, en el estudio del líquido cefalorraquídeo en la EM/SFC, el camino noradrenérgico no se correlacionó con el dolor —por lo que esta función se establece en otros contextos, pero no se demostró en la EM/SFC (@Aregawi2026Noradrenergic).
+
+**4. Ayuda a suministrar combustible.** La noradrenalina estimula a los astrocitos —células de soporte— para descomponer el glucógeno y liberar lactato, el combustible que los neuronas queman (@Hertz2015neGlycogenolysis; @Killeen2013neLactate).
+
+*Por qué este enfoque es importante:* si el problema es principalmente una falta de combustible, se trata añadiendo combustible; si el problema es más un *regulador*, su fallo se manifiesta como sueño perturbado, limpieza deficiente y intolerancia al esfuerzo, y la solución puede ser diferente. Una molécula puede ser ambas cosas, por lo que se trata de una cuestión de énfasis.
+
+*Advertencia:* este es un enfoque útil, pero no prueba. Las funciones adicionales provienen de estudios en animales y generales; no han sido medidas en la EM/SFC.

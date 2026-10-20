@@ -1,0 +1,82 @@
+---
+title: "Las cuatro formas de fatiga que la medicina pretende que sean una misma cosa"
+description: "Estoy cansado."
+author: "Yannick Loth"
+date: "2026-06-04"
+categories: [Symptoms, Diagnostics, Misdiagnosis]
+lang: es
+---
+
+"Estoy cansado."
+
+Una madre de 32 años dice esto a su médico de cabecera. Quiere decir que no puede levantarse de la cama después de preparar el almuer para sus hijos. Dormió diez horas. No está somnoliento. No está triste. Sus músculos no generan fuerza y tu cerebro no forma oraciones, y esto comenzó 36 horas después de que caminara hasta las tiendas —un recorrido que duró ocho minutos.
+
+Un ejecutivo de 45 años dice las mismas tres palabras al mismo médico de cabecera a la hora siguiente. Quiere decir que no puede reunir la voluntad para encender su ordenador portátil. Dormió cuatro horas. Podría correr físicamente por las escaleras si el edificio estuviera en llamas. tu cuerpo funciona. Su motivación no.
+
+El médico de cabecera escucha "Estoy cansado" dos veces y busca los mismos motivos diferenciadores: tiroides, hierro, depresión. El idioma inglés tiene una palabra para al menos cuatro estados biológicamente no relacionados. Esta pobreza lingüística no es una curiosidad. Provoca diagnósticos erróneos, maltrato y daño medible.
+
+---
+
+## Los cuatro estados
+
+**Fatiga periférica** es la incapacidad de los músculos para generar fuerza. Tiene una fisiología específica: agotamiento de ATP en los miocitos, lactato y iones de hidrógeno acumulados, y disfunción en la liberación de calcio desde el retículo sarcoplásmico. Se puede medir con un dinamómetro; los músculos literalmente no pueden contraerse con la misma intensidad. Un corredor de maratón en el kilómetro 38 presenta fatiga periférica. Se resuelve con descanso, repleción de glucógeno y tiempo. El mecanismo es local, la recuperación es predecible y nadie discute si es real.
+
+**Fatigabilidad** —también llamada malestar post-esfuerzo (PEM)— es diferente de la fatiga por una dimensión que la mayoría de los médicos no piensa en considerar: el tiempo. La característica definitoria es el retraso. El esfuerzo ocurre el lunes. El colapso ocurre el martes o miércoles. Entre el esfuerzo y el colapso, el paciente puede sentirse bien o incluso energizado. Luego, la situación empeora. La función cognitiva disminuye. El dolor aumenta. Las actividades básicas se vuelven imposibles. La recuperación toma días o semanas, no horas. Esta es la característica principal de EM/SFC, y no tiene equivalente en ninguna otra condición que use la palabra "fatiga". No es que los músculos fallen bajo carga. Es una crisis metabólica sistémica que sigue al esfuerzo con un retraso característico [@Jason2015CFSvsME; @VanNess2010PEM].
+
+**Somnolencia** es la tendencia a dormirse. Está impulsada por la acumulación de adenosina y la presión circadiana. Una persona con narcolepsia está somnolienta. Una persona que durmió tres horas está somnolienta. Se pueden distinguir de pacientes fatigados por una observación: si los ponen en una habitación oscura y tranquila, se duermen en minutos. Un paciente con fatigabilidad de tipo EM/SFC, en la misma habitación, a menudo no puede dormirse en absoluto —el estado de "cansado pero activo" donde la extenuación y la insomnio coexisten. La somnolencia responde a estimulantes, cafeína y el sueño. La fatigabilidad no lo hace.
+
+**Amotivación** (anergia) es la ausencia de motivación para iniciar acción. El cuerpo puede actuar; el cerebro no emite la orden. Esto es principalmente dopaminérgico: un déficit en el circuito de recompensa-predicción que asigna valor a acciones futuras y genera el impulso para comenzarlas. La depresión produce amotivación. Lo mismo ocurre con la disfunción ejecutiva del TDAH, aunque por un mecanismo diferente: no está ausente la valoración de recompensa, sino la incapacidad de convertir esa valoración en iniciación de acción sin suficiente señal. El paciente con amotivación a menudo puede actuar cuando es forzado externamente —el bombero que no siente motivación pero aún corre hacia el edificio. El paciente con fatiga periférica o fatigabilidad no puede.
+
+---
+
+## ¿Por qué la confusión es fatal?
+
+Los cuatro estados tienen tratamientos diferentes. Aplicar el tratamiento para uno a un paciente que padece otro va desde inútil hasta peligroso.
+
+**Ejercicio** es terapéutico para la amotivación causada por la depresión. Hay evidencia contundente de que mejora el estado de ánimo, restaura la función dopaminérgica y rompe el ciclo de abstinencia de inactividad. Los clínicos lo saben. Lo generalizan. Un paciente que dice "estoy cansado" y no tiene análisis de sangre anormal recibe terapia de ejercicio gradual o se anima a "superar".
+
+Si ese paciente presenta fatiga de tipo EM/SFC, el ejercicio no solo falla — causa un deterioro fisiológico medible. La prueba de ejercicio cardiopulmonar de dos días (CPET) muestra que los pacientes con EM/SFC que ejercen hasta el límite el primer día tienen un umbral de ventilación reducido, un consumo máximo de oxígeno reducido y una transición anaeróbica más temprana el segundo día [@Snell2013CPET]. El estado es objetivamente peor después del esfuerzo. Esto es lo contrario de la descondicionamiento, donde el rendimiento del segundo día se mantiene o mejora. La terapia de ejercicio gradual aplicada a pacientes con EM/SFC en el estudio PACE dio lugar a informes de un deterioro significativo del paciente — y no hubo mejora objetiva en las medidas del estudio cuando el protocolo fue analizado de forma independiente [@Wilshire2018].
+
+**Estimulantes** (metilfenidato, modafinilo) ayudan a la amotivación y a la somnolencia. Aumentan el tono dopaminérgico y noradrenérgico, mejorando la motivación y el estado de alerta. En TDAH, son la primera línea de tratamiento. En EM/SFC, pueden mejorar temporalmente la función cognitiva y reducir la sensación de niebla — pero no evitan la PEM y pueden empeorarla al ocultar señales de advertencia. Un paciente que toma estimulantes se siente capaz de hacer más, hace más y su crisis es más grave.
+
+**Sueño** resuelve la somnolencia por definición. Parcialmente resuelve la fatiga periférica mediante la repleción de glucógeno y la reparación tisular. No resuelve la fatiga de tipo EM/SFC — los pacientes reportan un sueño insatisfactorio independientemente de la duración, y el mecanismo subyacente a la PEM no es responsivo al sueño. Y no resuelve la amotivación — un paciente deprimido puede dormir doce horas y despertar con la misma ausencia de motivación.
+
+---
+
+## La pregunta de diagnóstico que nadie se pregunta
+
+"¿Qué tipo de cansancio presentas?"
+
+Más específicamente:
+
+1. **¿Tus músculos fallan bajo carga?** (La fuerza de agarre disminuye durante esfuerzos prolongados y las piernas no pueden caminar por las escaleras) → Fatiga periférica. Verificar: dinámometría, CK, EMG. Considerar: enfermedad mitocondrial, miastenia gravis, descondicionamiento, anemia.
+
+2. **¿Colapsas 24-72 horas después de la actividad, no durante ella?** → Fatigabilidad / PEM. Verificar: prueba CPET de 2 días, diario de síntomas y actividad con seguimiento de retrasos. Considerar: EM/SFC, síndrome postinfeccioso.
+
+3. **¿Te duermes involuntariamente en situaciones pasivas?** → Somnolencia. Verificar: escala de somnolencia de Epworth, polisomnografía, MSLT. Considerar: apnea del sueño, narcolepsia, hipersomnia idiopática, privación del sueño.
+
+4. **¿Tu cuerpo puede funcionar pero no puedes motivarte a hacerlo?** → Amotivación. Verificar: PHQ-9, detección de TDAH, evaluación de anhedonia. Considerar: depresión, TDAH, déficit dopaminérgico, burnout.
+
+La mayoría de los pacientes tiene un sabor dominante, pero elementos de más de uno. Un paciente con EM/SFC suele presentar fatigabilidad (primaria) además de fatiga periférica (secundaria, por descondicionamiento), alteración del sueño (contribuyente) y posible amotivación (por depresión causada por enfermedad crónica). La pregunta clínica no es cuál tiene, sino cuál es el principal, porque el mecanismo principal determina si el ejercicio ayuda o perjudica.
+
+---
+
+## El problema del lenguaje es estructural
+
+Esto no es una petición para que los pacientes "describan sus síntomas mejor". La carga recae en la medicina, no en los pacientes. Las herramientas de evaluación clínica que utilizan una única escala de fatiga —una escala visual analógica del 0 al 10, o una lista de verificación que pregunta "¿siente fatiga: sí/no"— son estructuralmente incapaces de distinguir las cuatro condiciones. Colapsan las distintas patologías fisiopatológicas en una única dimensión y luego se preguntan por qué el tratamiento no funcionó.
+
+La escala de fatiga Chalder, utilizada en el estudio PACE para afirmar que la terapia de ejercicio gradual "funcionó" para EM/SFC, no distingue la fatiga de cualquier otra forma de cansancio. Un paciente podría mejorar en la escala Chalder al reducir su depresión mientras desarrolla una PEM peor. Esto no es una preocupación teórica.
+
+Una evaluación clínica que pregunta "¿siente fatiga?" es una pregunta sobre "¿siente patología?". La respuesta siempre es sí. No te dice nada sobre qué patología, qué mecanismo o qué tratamiento. Es una pregunta diseñada para la epidemiología, no para el paciente individual que se encuentra frente a ti.
+
+La solución no es complicada. Pregunte sobre el momento. Pregunte sobre los retrasos. Pregunte sobre la respuesta al ejercicio. Pregunte si el paciente puede actuar cuando es externamente obligado. Cuatro preguntas, cinco minutos, y la diferenciación se reduce de "fatiga: ver todo" a una categoría mecánica específica con pruebas diagnósticas específicas y implicaciones de tratamiento específicas.
+
+---
+
+## El costo de una sola palabra
+
+El idioma inglés no será rediseñado para garantizar la precisión clínica. Pero la práctica clínica sí puede hacerlo. Los cuatro estados son biológicamente distintos, diagnósticamente separables y terapéuticamente divergentes. Tratarlos como una sola cosa causa daños que son medibles, documentados y continuos.
+
+"Estoy cansado" no es un diagnóstico. Es un punto de partida. La siguiente pregunta —la que cambia todo— es: cansado *cómo*?
+
+---

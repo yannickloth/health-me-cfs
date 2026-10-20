@@ -1,0 +1,24 @@
+---
+title: "No, todavía no es ácido láctico — pero la noradrenalina forma parte de la historia del combustible"
+description: "La doloridad muscular no es causada por el ácido láctico. Pero el sistema de excitación sí controla cómo el combustible llega a los neuronas — en la dirección opuesta al mito."
+author: "Yannick Loth"
+date: "2026-09-22"
+categories: [Arousal system, Noradrenergic, Mechanisms]
+lang: es
+---
+
+La explicación de la "acidez láctica" sobre el dolor muscular no se quiere morir. Es incorrecta, y vale la pena volver a explicar por qué: el lactato se elimina en aproximadamente una hora después del ejercicio y no sigue la curva de dolor de 24 a 72 horas (@Miles1994musclePain). El dolor es microdaño mecánico y inflamación. Considerar la "acidez láctica" como la causa es buscar el objetivo equivocado.
+
+Pero existe una verdadera conexión entre noradrenalina y lactato — dirigida en la dirección **opuesta**.
+
+La noradrenalina actúa sobre células de soporte en el cerebro (astrocitos) para descomponer el glucógeno y liberar **lactato como combustible** para los neuronas (@Hertz2015neGlycogenolysis; @Killeen2013neLactate). En otras palabras, la noradrenalina ayuda a *suministrar* combustible. No deja lactato como residuo.
+
+Esto significa que, si algo, un déficit de noradrenalina debería **reducir** la disponibilidad de lactato agudo — no crear una sobrecarga de "acidez". Esto se ajusta al hallazgo más amplio de que la noradrenalina y el lactato aumentan *juntas* durante el ejercicio, y que la señalización β2-adrenérgica aumenta la descomposición del glucógeno (@Jessen2020ClenbuterolLactate).
+
+Así que la afirmación correcta es limitada y casi lo opuesto al mito:
+
+- El dolor no es causado por lactato.
+- La noradrenalina es una de las señales que hace que el lactato esté *disponible* como combustible.
+- Un déficit de noradrenalina afectaría la entrega de combustible, no causaría una acumulación de acidez láctica.
+
+*Por qué es importante:* reemplaza una explicación popular por un mecanismo, y evita que toda una categoría de consejos inútiles — "eliminar la acidez láctica" — se asocie con un problema real.

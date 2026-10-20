@@ -1,0 +1,129 @@
+---
+title: "El estudio que nadie pensó en hacer: ¿Los pacientes con EM/SFC sanan normalmente?"
+description: "Durante años, los investigadores asumieron que la cicatrización de heridas era una de las pocas cosas en las que EM/SFC no intervenía. El cabello crece, las uñas crecen, la piel se repara por sí misma — ¿no son procesos autónomos, verdad? Luego alguien revisó la literatura. La suposición no solo era incorrecta. Nunca había sido probada."
+author: "Yannick Loth"
+date: "2026-07-02"
+categories: [Research, Biomarkers, Pathophysiology, Diagnostics]
+lang: es
+---
+
+Durante años, en el artículo que he escrito sobre la fisiopatología de EM/SFC, la cicatrización de heridas se encontraba en el capítulo junto con las otras funciones preservadas. Crecimiento de cabello, crecimiento de uñas, reparación de la piel: procesos autónomos que continúan funcionando sin importar cuán enfermo esté el resto del cuerpo. Un paciente con EM/SFC grave no puede caminar hasta el baño, no puede mantener una conversación, no puede soportar la luz. Pero no dejan de crecer el cabello. tu cuerpo, al menos en la superficie, sigue manteniéndose.
+
+Era lógico de forma intuitiva. La cicatrización de heridas es local: plaquetas, factores de coagulación, fibroblastos realizan su trabajo en el lugar de la lesión. ¿Por qué una enfermedad centrada en el cerebro y relacionada con fallo energético afectaría un proceso que ocurre en la piel?
+
+Luego revisamos la literatura. No la suposición, sino la evidencia. ¿Alguien realmente ha medido la cicatrización de heridas en EM/SFC?
+
+Nadie lo ha hecho. Ni una sola investigación. La suposición estaba equivocada de la peor manera posible: no fue refutada, nunca se probó.
+
+---
+
+## Tres vías independientes, todas apuntando hacia el mismo lugar
+
+Cuando encuentras una brecha en la literatura, la siguiente pregunta es: ¿qué deberíamos *esperar* encontrar? Buscas pistas mecánicas — biología conocida en EM/SFC que, en otros lugares, ha demostrado regular la reparación de heridas. Tres líneas de evidencia convergieron, cada una de un dominio diferente. Ninguna estaba diseñada para analizar la curación de heridas, pero todas apuntan hacia un deterioro.
+
+### 1. Células NK: el equipo de reparación está a la mitad de su capacidad
+
+Las células NK — células killer naturales — son la anomalía inmunitaria más robustamente replicada en EM/SFC. Una meta-análisis de 2024 de 28 estudios encontró que su función citotóxica se redujo a aproximadamente el 50% de los niveles de control saludable (g de Hedges = 0.96, un efecto significativo) [@Baraniuk2024NKMeta].
+
+¿Qué tiene eso que ver con la curación de heridas? En 2021, Sobecki et al. demostraron que las células NK no son espectadores pasivos en la reparación tisular — son reguladores upstream [@Sobecki2021NKWoundHypoxia]. Bajo el control de HIF-1α, las células NK secretan IFN-γ y GM-CSF, que modulan directamente la velocidad y calidad de la cierre de la herida. Si se elimina la función de las células NK, la herida cierra más rápido — al principio. Pero se cierra mal: mala coordinación inmunitaria, defensa bacteriana deteriorada y, eventualmente, degradación de la calidad de la reparación.
+
+El detalle relevante: la función de las células NK que importa para la curación de heridas es la *secreción de citocinas*, no la *citotoxicidad*. La literatura sobre EM/SFC ha medido la citotoxicidad exhaustivamente. La producción de citocinas por las mismas células — el brazo relacionado con las heridas — apenas ha sido evaluada. Sabemos que la mitad de la función de las células NK está deteriorada. No sabemos sobre la otra mitad, pero no hay razón para asumir que esté intacta.
+
+### 2. El sistema nervioso autónomo: los macrófagos reciben la señal equivocada
+
+EM/SFC implica una sobreactivación simpática y una retirada parasimpática — documentada en estudios de POTS, variabilidad de la frecuencia cardíaca y prueba de mesa basculante. Es una enfermedad de desequilibrio autónomo.
+
+Xue et al. (2018) identificaron dos poblaciones de macrófagos en el tejido en reparación: una impulsada por señales simpáticas (β2-adrenérgicas, proinflamatorias, anti-reparación) y otra impulsada por señales parasimpáticas (α7-nAChR, antiinflamatorias, pro-reparación) [@Xue2018ANSWoundHealing]. El sistema nervioso autónomo no solo regula la frecuencia cardíaca y la presión arterial — también indica a los macrófagos de heridas qué programa de reparación ejecutar.
+
+Si EM/SFC inclina el equilibrio autónomo hacia la dominancia simpática, la predicción es clara: los macrófagos en los sitios de heridas reciben una señal persistente de “mantenerse inflamado, retrasar la reparación”. Los datos con ratones son claros. No se sabe si el tejido humano de EM/SFC alcanza las concentraciones de catecolaminas necesarias para producir este cambio — pero la maquinaria existe y el desequilibrio autónomo está documentado.
+
+### 3. Exhaustión inmunitaria: no solo baja energía, baja capacidad de reparación
+
+La agotamiento inmunitario en EM/SFC trasciende a las células NK. Las linfocitos T CD8+ presentan reprogramación transcricional y epigenética hacia un agotamiento en etapa tardía [@Iu2024CD8Exhaustion]. Los perfiles de citocina muestran señalización de interferón suprimida y reducida expresión de genes de inmunoglobulinas [@EatonFitch2024ImmuneExhaustion].
+
+¿Qué ocurre cuando el sistema inmunitario está agotado globalmente? Existe un modelo clínico: los pacientes con quemaduras. Stanojcic et al. (2016) documentaron que el agotamiento inmunitario en pacientes ancianos con quemaduras —un fenotipo de disfunción de NK, citocinas desreguladas y respuesta inmunitaria temprana deteriorada— provocó un deterioro clínicamente significativo en la cicatrización de heridas [@Stanojcic2016ImmuneExhaustionBurns]. El modelo de quemadura es más extremo que EM/SFC, pero el fenotipo inmunitario se superpone: reducción de la citotoxicidad de NK, elevación crónica de TGF-β, activación inmunitaria persistente y supresión epigenética de los programas de reparación [@Abhimanyu2021PostInfectiousEpigenetics].
+
+La elevación crónica de TGF-β añade un mecanismo adicional. Petri et al. (2017) demostraron que TGF-β y IL-6 mantienen a las células NK en un estado regulador terminal, interrumpiendo la secuencia temporal necesaria para la cicatrización de heridas [@Petri2017MSCNKTGFb]. En EM/SFC, el TGF-β está elevado de forma crónica. La predicción: el circuito regulador que debería activar a las células NK temprano y suprimirlas tarde se encuentra en la fase de supresión tardía.
+
+---
+
+## El problema del silencio clínico
+
+Si los tres caminos predictan una disminución en la curación, ¿por qué los pacientes no reportan una curación lenta de heridas como una queja importante?
+
+Existen al menos tres posibilidades, y no son mutuamente excluyentes:
+
+1. **Los pacientes sedentarios sufren menos heridas.** Si estás confinado en casa o en la cama, simplemente no te cortas, tropiezas ni rasgas tu rodilla con frecuencia como alguien que lleva una vida activa. El silencio clínico podría reflejar una baja incidencia de heridas, y no una curación normal de heridas.
+
+2. **Mecanismos compensatorios ocultan el déficit.** El aumento de TGF-β promueve la fibrosis — la formación de cicatrices. Una herida podría cerrarse a un ritmo normal, pero produciría una calidad de cicatriz inferior, dejando tejido que es estructuralmente más débil y más susceptible a reinjertos. Si los pacientes no examinan sus cicatrices histológicamente, no lo notarían.
+
+3. **El deterioro subclínico es real, pero sutil.** La diferencia en la tasa de curación podría ser 15–30% más lenta — significativa desde el punto de vista de un biomarcador, pero no tan drástica como para que los pacientes la reporten espontáneamente como un problema distinto a sus otros síntomas.
+
+La respuesta: no sabemos cuál de estas es correcta porque nadie ha investigado.
+
+---
+
+## El estudio: €64,000, posible en el lugar del paciente, una medición
+
+Esta es la propuesta. No es costosa. No requiere un consorcio de múltiples centros. Puede realizarse en un único hospital de investigación en menos de un año.
+
+**Participantes:** 40 pacientes con EM/SFC (criterios ICC) + 20 controles saludables sedentarios de edad y sexo correspondientes + 20 controles de enfermedad (fibromialgia o esclerosis múltiple, correspondidos en nivel de discapacidad). El grupo de controles de enfermedad es crítico: distingue las anomalías de curación específicas de EM/SFC de los efectos asociados a descondicionamiento o discapacidad.
+
+**El procedimiento:** Una ampolla de aspiración — una ampolla estandarizada de 8 mm creada por presión negativa, una técnica dermatológica establecida que es de bajo riesgo y posible en el lugar del paciente. Mides el tiempo de reepitelización: cuánto tiempo tarda la ampolla en cerrarse.
+
+**Lo que mides en el fluido de la ampolla:** IFN-γ y GM-CSF (producción de citocina NK — el brazo relevante para la herida de la función NK, no la citotoxicidad), TGF-β (el circuito regulatorio MSC-NK) y catecolaminas (el impulso simpático local en el sitio de la herida).
+
+**Con qué correlacionas:** citotoxicidad NK *y* secreción de citocinas NK de PBMCs estimuladas (ambos son necesarios: la citotoxicidad indica un brazo, la secreción de citocinas indica el brazo relevante para la herida), variabilidad de la frecuencia cardíaca (equilibrio simpático-vagal) y puntaje de discapacidad Bell (gravedad de la enfermedad).
+
+**Estratificación:** Por gravedad de la enfermedad (leve/moderada/grave), duración de la enfermedad (<3yr, 3–7yr, >7 años), comorbilidad POTS y uso de betabloqueadores (lo que confunde las mediciones locales de catecolaminas).
+
+**Costo:** ~€800 por participante para el procedimiento en la herida, histología, panel de citocinas del fluido de la ampolla, pruebas NK y medición de variabilidad de la frecuencia cardíaca. Total: ~€64,000 para 80 participantes.
+
+**Calendario:** 6 meses de reclutamiento + 1 mes de seguimiento.
+
+---
+
+## ¿Por qué una ampolla responde a cuatro preguntas
+
+Una ampolla de succión única no es solo una medida de cicatrización de heridas. Cuatro preguntas independientes se resuelven simultáneamente:
+
+1. **¿La cicatrización de heridas está realmente afectada?** La pregunta principal. Si el tiempo de reepitelización es normal en EM/SFC, las tres vías mecánicas descritas anteriormente son incorrectas o compensadas. Si es anormal, tenemos un nuevo biomarcador.
+
+2. **¿Qué mecanismo domina?** El perfil de citocina en el líquido de la ampolla distingue los subtipos mecánicos. Patrón A (alto IFN-γ, bajo GM-CSF) sugiere que las células NK se han desplazado al modo de defensa bajo HIF-1α. Patrón B (bajo IFN-γ, bajo GM-CSF) sugiere células NK globalmente no funcionales — agotamiento general. Patrón C (alto TGF-β) sugiere que el circuito regulador MSC-NK está activado de forma constante. Patrón D (alto catecolaminas) sugiere que la acción simpática sobre los macrófagos de herida domina. Estos no son mutuamente excluyentes — los patrones pueden superponerse — pero los señales dominantes sugieren objetivos de tratamiento.
+
+3. **¿El modelo de disfunción energética selectiva es correcto?** El marco teórico subyacente a la fisiopatología de EM/SFC propone que algunos procesos se conservan de forma autónoma (crecimiento del cabello, crecimiento de uñas) mientras que los procesos responsivos a las necesidades se afectan selectivamente. La cicatrización de heridas es un caso de límite: parece autónoma pero requiere la movilización de NK, la regulación autónoma y un gasto significativo de ATP. Si la cicatrización está afectada, la clasificación de procesos del marco se fortalece. Si es normal, es necesario redibujar el límite entre procesos conservados y afectados.
+
+4. **¿Puede la cicatrización de heridas servir como biomarcador?** Si la tasa de cicatrización se correlaciona con la gravedad de la enfermedad (puntuación de Bell), tenemos un biomarcador funcional que no requiere pruebas de ejercicio. Esto es valioso para pacientes graves que están en cama, donde la CPET — el estándar de oro actual para el deterioro funcional — no es posible.
+
+---
+
+## El análisis de sistemas-biología
+
+Esta es la característica más elegante de la propuesta. La cicatrización de heridas no es un único proceso biológico; es una salida integrada de la función de las células NK, el equilibrio autónomo, la polarización de los macrófagos y la capacidad metabólica. Medir la tasa de cicatrización significa, en efecto, medir la salud de los cuatro sistemas simultáneamente.
+
+Un único marcador biológico funcional compuesto, obtenido mediante un procedimiento en el consultorio que cuesta 500 €, que integra información sobre múltiples sistemas disfuncionales. No se necesita escáner PET. No se requiere un test de ejercicio que pueda provocar crisis en el paciente. Solo una ampolla y un temporizador.
+
+---
+
+## ¿Y si la cicatrización de la herida es normal?
+
+La propuesta incluye una fase piloto: primero 10 pacientes con EM/SFC y 10 controles, para establecer el tamaño del efecto y confirmar la viabilidad.
+
+Si resulta que la cicatrización de la herida es normal —si el tiempo de reepitelización, la calidad de la cicatriz y las citocinas del líquido de ampolla son indistinguibles de los controles— el estudio sigue generando datos valiosos. Descarta el déficit en la reparación tisular como mecanismo clínicamente relevante. Perfecciona el modelo de disfunción selectiva estableciendo que este proceso específico de respuesta a la demanda, de hecho, se conserva. Nos indica algo importante sobre lo que el cuerpo puede seguir hacer cuando no puede hacer casi nada más.
+
+La ciencia avanza tanto al descartar cosas como al incluirlas. Esta es una de las formas más económicas y rápidas de incluir o descartar algo que tiene implicaciones para entender la enfermedad.
+
+---
+
+## El punto más importante
+
+La investigación sobre EM/SFC tiene un problema de canal. La financiación limitada se dirige a los mismos objetivos — persistencia viral, autoanticuerpos, perfil metabólico — mientras que grandes, sencillas preguntas mecanísticamente informativas no son abordadas porque nadie se dio cuenta del vacío.
+
+La curación de heridas es uno de esos vacíos. Estaba en la categoría de "funciones preservadas" porque parecía que allí encajaba, no porque alguien lo haya probado. Cuando lo comprobamos, tres líneas de evidencia independientes apuntaban en otra dirección. La pregunta vale 64,000 euros y seis meses. No requiere nada que ya no sepamos hacer.
+
+El diseño del estudio, el protocolo detallado y la justificación mecanística se encuentran en el artículo completo [@Loth2026website]. Si eres investigador con acceso a una cámara de aspiración y una clínica de EM/SFC, este estudio está listo para empezar.
+
+---
+
+*Marco mecánico completo:*
+*Esto es parte de una serie en curso que explora los mecanismos de EM/SFC. El proyecto de libro detrás de estos artículos está disponible gratuitamente y se actualiza regularmente.*

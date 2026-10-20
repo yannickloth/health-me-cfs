@@ -1,0 +1,260 @@
+---
+title: "¿Por qué una dosis más alta no contiene los beneficios de una dosis más baja — Ocupación, señalización hormética y el caso para probar dosis más bajas"
+description: "Un argumento técnico completo para prescriptores y lectores interesados: la unión de acción de masa derivada de principios fundamentales, la ecuación de Hill–Langmuir y sus supuestos, la cadena de señalización Keap1–Nrf2, un modelo de beneficio basado en ocupación analizado de manera teórica, y el teorema de no propagación resultante. La suposición del superset —que una dosis más alta reproduce todos los efectos de una dosis más baja— falla para medicamentos cuyo beneficio predominante en dosis baja es hormético (se extingue en dosis más alta, no se amplifica), por lo que el resultado de cero en dosis estándar no puede descartar dosis más bajas no probadas."
+author: "Yannick Loth"
+date: "2026-09-04"
+categories: [Treatment, Pharmacology, ME/CFS]
+lang: es
+---
+
+Una conclusión común en la prescripción es que la prueba utilizó la dosis estándar y fracasó; por lo tanto, no es necesario probar una dosis más baja. Esta conclusión se basa en una suposición tan arraigada que rara vez se menciona —que los efectos de una dosis más baja son un *subconjunto* de los efectos de una dosis más alta, de modo que una dosis alta fallida ya ha probado todas las dosis más bajas.
+
+Para un medicamento que actúa sobre un único objetivo con una respuesta monotónica entre dosis y efectos, la suposición es correcta. Pero para un medicamento cuyo beneficio principal en dosis baja es una respuesta compensatoria a la participación parcial del objetivo —el caso hormético, que el naltrexona en dosis bajas (LDN) ejemplifica a través de su mecanismo TLR4/Nrf2 — es falsa de una manera específica y cuantificable. Este artículo desarrolla completamente este argumento: la química de unión derivada de principios fundamentales, la biología de la señalización, las matemáticas analizadas de forma analítica y las pruebas de la investigación. La afirmación que se examina es limitada:
+
+> **La hipótesis del superset:** los efectos de una dosis más baja son un subconjunto de los efectos de una dosis más alta. Por lo tanto, un resultado nulo en una dosis más alta invalida todas las dosis más bajas.
+
+La estructura: La Parte A deriva el marco de ocupación a partir de la cinética de acción de masa y expresa sus suposiciones con precisión. La Parte B explica la biología de los mecanismos de dosis baja del LDN y los clasifica según el comportamiento por dosis —la hormesis invertida TLR4/Nrf2, la compensación monotónica de opioides y el objetivo TRPM3 de umbral. La Parte C modela la clase invertida, analiza sus propiedades de forma analítica y expresa el resultado de no propagación. La Parte D examina las pruebas de la investigación. La Parte E expresa la propuesta clínica y sus limitaciones. Los lectores familiarizados con la farmacocinética pueden pasar directamente a la Parte C; las derivaciones están incluidas para que cada paso pueda ser verificado en lugar de ser afirmado de forma presuntiva.
+
+---
+
+# Parte A — El modelo de unión, derivado de principios fundamentales
+
+## A1. Cinética de acción de masa y la definición de ocupación
+
+Un fármaco $D$ se une de forma reversible a un receptor $R$:
+
+$$D + R \underset{k_{\text{off}}}{\stackrel{k_{\text{on}}}{\rightleftharpoons}} DR$$
+
+La tasa de ocupación es proporcional a la concentración libre de la droga y a la concentración de receptores no ocupados; la tasa de desocupación es proporcional a la concentración de complejos ocupados:
+
+$$v_{\text{on}} = k_{\text{on}}\,[D]\,[R], \qquad v_{\text{off}} = k_{\text{off}}\,[DR]$$
+
+En equilibrio, las dos tasas son iguales:
+
+$$k_{\text{on}}\,[D]\,[R] = k_{\text{off}}\,[DR]$$
+
+Reorganización:
+
+$$\frac{[DR]}{[D]\,[R]} = \frac{k_{\text{on}}}{k_{\text{off}}} \equiv \frac{1}{K_d}$$
+
+Esto define la **constante de disociación** $K_d = k_{\text{off}}/k_{\text{on}}$ — la concentración libre en la que un receptor está ocupado la mitad del tiempo (equivalentemente, la mitad de los receptores está ocupados). Fíjate en lo que está compuesto: una relación entre la tasa de disminución y la tasa de unión. Un pequeño $K_d$ significa que la droga rara vez disminuye — alta afinidad. Este es todo el contenido físico de la “afinidad”.
+
+## A2. La isótmica de Langmuir
+
+Ahora añade las suposiciones clásicas del modelo de adsorción de Langmuir [@Langmuir1918], aplicado primero por Clark [@Clark1926] a la unión droga-receptor:
+
+1. La población de receptores tiene un total fijo, $R_{\text{tot}} = [R] + [DR]$.
+2. Cada receptor se une a una molécula de droga por lo más que una vez.
+3. Todos los receptores son idénticos e independientes — la unión en uno no cambia la unión en otro.
+
+Sustituyendo $[R] = R_{\text{tot}} - [DR]$ en la condición de equilibrio:
+
+$$k_{\text{on}}\,[D]\,(R_{\text{tot}} - [DR]) = k_{\text{off}}\,[DR]$$
+
+Divida ambos lados por $k_{\text{on}}$, de modo que aparezca $K_d = k_{\text{off}}/k_{\text{on}}$:
+
+$$[D]\,(R_{\text{tot}} - [DR]) = K_d\,[DR]$$
+
+y divida entre $[D]$ y $R_{\text{tot}}$:
+
+$$1 - f = \frac{K_d}{[D]}\,f, \qquad f \equiv \frac{[DR]}{R_{\text{tot}}}$$
+
+donde $f$ es la fracción de ocupación. Resuelva para $f$:
+
+$$\boxed{\,f([D]) = \frac{[D]}{K_d + [D]}\,}$$
+
+Una línea de álgebra de acción de masa — sin física adicional. Sus propiedades:
+
+- $f \to 0$ es como $[D] \to 0$; $f \to 1$ es como $[D] \to \infty$.
+- En $[D] = K_d$: $f = 1/2$. **Por construcción**, $K_d$ es la concentración de medio-ocupación — “una concentración igual a $K_d$ ocupa la mitad de los receptores” es una identidad, no un hallazgo empírico.
+- La curva es una hiperbólica: pronunciada alrededor de $K_d$, plana en ambos extremos.
+
+## A3. La ecuación de Hill: origen empírico, interpretación mecánica
+
+Las curvas reales de dosis-respuesta suelen ser sigmóidas en un gráfico semilogarico, no hiperbólicas. Hill [@Hill1910] se encontró con esto en 1910 en el enlace de oxígeno de la hemoglobina y propuso, explícitamente como un dispositivo de ajuste de curvas, la forma exponentiada:
+
+$$\boxed{\,f = \frac{[D]^n}{K_d^n + [D]^n}\,}$$
+
+con $n$ un exponente libre. Establecer $n = 1$ recupera exactamente la isóterma de Langmuir. Para la hemoglobina, Hill encontró $n \approx 2.8$; no afirmó un mecanismo — la ecuación se ajusta a los datos, y esa fue toda su justificación. El uso moderno y los límites de la interpretación de $n$ se analizan en [@Goutelle2008].
+
+Dos desarrollos posteriores dieron a $n$ una interpretación mecanística:
+
+- **Adair (1925)** derivó el polinomio de enlace paso a paso exacto para una proteína de cuatro sitios [@Adair1925], mostrando que el enlace cooperativo entre los sitios produce curvas sigmóides como caso límite.
+- **Monod, Wyman y Changeux (1965)** modelaron la alostería como una transición coordinada entre estados de receptor con diferentes afinidades [@Monod1965], basando $n \neq 1$ en el acoplamiento conformacional entre eventos de enlace.
+
+La interpretación utilizada en todo este artículo: $n$ es el **coeficiente de Hill**, la pendiente del gráfico log–log (Hill) $\log\frac{f}{1-f}$ versus $\log[D]$ en medio ocupación. Su efecto es concentrar la transición de ocupación en un rango de concentración más estrecho; $n > 1$ acentúa la transición, $n < 1$ la diluye. Cada conclusión cualitativa a continuación es válida para cualquier $n > 0$, por lo que el argumento nunca se basa en un valor específico.
+
+El marco de receptor-ocupación, aplicado a la dosis terapéutica, se expone en [@Finlay2020receptorOccupancy].
+
+## A4. La fracción de señal residual
+
+La cantidad Part B resultará ser crítica desde el punto de vista terapéutico es el complemento:
+
+$$1 - f = \frac{1}{1 + c^n}, \qquad c \equiv \frac{[D]}{K_d}$$
+
+$c$ es la concentración medida en unidades de la propia sensibilidad del receptor — un número sin dimensiones. El residuo $1-f$ es la fracción de receptores *que aún transportan señal endógena*. Numéricamente ($n = 2$ para ilustración):
+
+| $c = [D]/K_d$ | ocupado $f$ | señal residual $1-f$ |
+|---|---|---|
+| 0.1 | 0.01 | 0.99 |
+| 0.5 | 0.20 | 0.80 |
+| 1.0 | 0.50 | 0.50 |
+| 3.0 | 0.90 | 0.10 |
+| 9.0 | 0.99 | 0.01 |
+| 99.0 | ~1.00 | ~0.00 |
+
+Dos hechos estructurales, independientes de $n$:
+
+**P1 — La ocupación es continua y monótona.** No existe una dosis en la que una droga esté simplemente "presente" sin ocupar una fracción computable de sus objetivos. Aumentar la dosis hace que la ocupación aumente de manera suave hacia el límite, de forma más rápida cerca de $c = 1$. Cualquier afirmación sobre dosis es, en realidad, una afirmación sobre ocupación.
+
+**P2 — Una dosis, muchas ocupaciones.** Una droga tiene un valor distinto $K_{d,i}$ por cada objetivo. La dosis entra en cada mecanismo a través de su propio ratio $c_i = [D]/K_{d,i}$. Dado que los $K_{d,i}$ en el conjunto de objetivos de una droga difieren en orden de magnitud, una única dosis es, al mismo tiempo, una ocupación baja en algunos objetivos y alta en otros. Aumentar la dosis no escala un efecto; se trata de **desplazar la lista de afinidad** — los objetivos sensibles se saturan mientras los de menor afinidad anteriormente inactivos comienzan a interactuar. La selección de objetivos dependiente de la concentración es la base mecánica de las "bandas de dosis" en las drogas con múltiples objetivos [@Loth2026website].
+
+---
+
+# Parte B — La biología de los mecanismos de dosis baja
+
+La LDN es un ejemplo claro. En dosis antagónicas estándar (≥50 mg/día), la naltrexona es un antagónico competitivo de los receptores mu-opioides utilizado en medicina de la adicción. En 0.5–4.5 mg/día, atrae a un conjunto de objetivos diferentes, en parte no opioide. El marco de referencia propone cuatro mecanismos de dosis baja: la hormesis TLR4/Nrf2, compensación opioida, restauración TRPM3 y disinhibición de orexina (el último registra la respuesta de dosis a TLR4) [@Loth2026website]. No se comportan todos de la misma manera, y esta distinción es la parte relevante de este artículo, por lo que se menciona de inmediato:
+
+- **TLR4/Nrf2 hormesis (B1)** — *invertir la hormesis*, Categoría 1: el beneficio existe solo dentro de un intervalo de ocupación limitado y desaparece después de él. Este es el beneficio dominante en dosis baja.
+- **Compensación opioida (B2)** — *monotónico*, no hormético: el beneficio aumenta con el bloqueo hasta un límite previo y no se invierte dentro del rango.
+- **Restauración TRPM3 (B3)** — *selección de objetivo por umbral*, Categoría 4: el objetivo simplemente no se activa por debajo de una concentración determinada; el beneficio aparece solo en dosis más altas y luego se satura.
+
+Este artículo desarrolla estos tres mecanismos, que sustentan el argumento de pruebas de dosis. La matemática de U invertida de la Parte C se aplica solo a la primera categoría.
+
+## B1. Antagónismo parcial de TLR4/MD2 → inducción de Keap1–Nrf2–ARE
+
+**El objetivo.** La naltrexona antagoniza el TLR4 — específicamente la interfaz co-receptor MD2 — en las microglías, un efecto documentado en roedores (un modelo de isquemia-reperfusión intestinal y EAE de ratón) y en una línea de células microglial de ratón, independientemente de los receptores opioides [@Osman2024naltrexoneTLR4; @Kwilasz2021NTXmicroglia; @Kucic2021LDNmicroglia]. El TLR4 es el receptor de lipopolisacárido; su flujo establece el tono de la señalización de peligro en microglías.
+
+**La cadena.** El antagónismo parcial de TLR4 reduce el flujo de señales de peligro en una cantidad modesta y sostenida. El programa Keap1–Nrf2–ARE es la respuesta oxidativa/inflamatoria principal de la célula:
+
+1. **Base:** la proteína adaptadora rica en cisteína Keap1 se une al factor de transcripción Nrf2 en el citoplasma, funcionando como un adaptador de sustrato que dirige a Nrf2 a la ubiquitinación dependiente de Cullin-3 y la degradación por proteasoma. La vida media de Nrf2 es corta; el camino está desactivado.
+2. **Detección de estrés:** el estrés oxidativo o electrófico leve modifica residuos reactivos de cisteína específicos en Keap1 (entre ellos Cys151). Esto interrumpe alostéricamente el complejo de ubiquitinación Keap1–Nrf2; Nrf2 recién sintetizada se acumula.
+3. **Programa nuclear:** Nrf2 se transloca al núcleo, heterodimeriza con pequeñas proteínas Maf y se une a elementos de respuesta antioxidante (ARE), induciendo varios cientos de genes protectores celulares: HO-1, NQO1, GCLC/GCLM (síntesis de glutationa) y efectores antiinflamatorios, incluyendo el cambio de fenotipo microglial M1→M2.
+4. **Terminación:** los genes inducidos incluyen la propia Keap1 (retroalimentación negativa), cerrando el ciclo.
+
+Las revisiones clásicas de esta cadena y su dependencia de dosis hormética se encuentran en el corpus de Calabrese [@Calabrese2021Nrf2; @Calabrese2010hormesisCentral; @Calabrese2016PreconditioningHormesis; @Calabrese2021UltraLow].
+
+**La condición previa de ocupación.** El programa es *bipolar en la intensidad del estrésor* — la forma hormética estándar [@Calabrese2002hormesisHistory; @Calabrese2010hormesisCentral], donde el estrésor aquí es el bloqueo parcial de TLR4 por parte del propio medicamento, que aumenta con la ocupación $f$:
+
+- **Demasiado poco estrés** ($c \approx 0$, $f \approx 0$): la droga apenas se une; las cisteínas de Keap1 no modificadas; Nrf2 se degrada; no hay inducción. Nada ocurre.
+- **La ventana** ($c$, ocupación intermedia, ocupación parcial): la TLR4 está parcialmente bloqueada — un estrés leve y sostenido. Nrf2 se libera; el programa ARE se ejecuta. **El beneficio es este programa adaptativo, no el bloqueo en sí.**
+- **Demasiado gran estrés** ($c \gg 1$, ocupación casi completa): el bloqueo es tan completo que el flujo de señal de peligro al que responde el programa se elimina; en la literatura sobre hormesis, el estrés extremo además inactiva el eje Nrf2/ARE mediante daño oxidativo en el mecanismo de transcripción en sí. Ambos caminos convergen: no hay inducción.
+
+El punto formal: el estímulo *se define* por el nivel de ocupación. No existe un mecanismo por el cual la antagonía completa de TLR4 preserve la señal de inducción de Nrf2 de la antagonía parcial, porque esa señal y la ocupación son la misma variable. In vitro, el cambio en el fenotipo de microglía de la naltrexona es dosis-dependiente, consistente con una ventana limitada [@Kucic2021LDNmicroglia].
+
+## B2. Antagonismo de receptores opioides → aumento compensatorio
+
+El bloqueo transitorio de receptores opioides a dosis bajas disminuye la inhibición del sistema opioide endógeno; el aumento compensatorio en la producción de endorfinas y en la densidad de receptores es el mecanismo respaldado por la literatura clínica sobre analgesia de LDN en fibromialgia y dolor crónico [@Younger2009; @Younger2013; @Younger2014LDN], con mecanismos adicionales a nivel de receptor propuestos [@Zagon2018OGFrBlockade]. Este mecanismo es *monotónico, no hormético*: la compensación es impulsada por el bloqueo en sí, por lo que más bloqueo produce más compensación — hasta un límite establecido por la expresión de precursores, no por la dosis de LDN [@Loth2026website]. Dentro del rango de 0.5–4.5 mg, aumenta y llega a un punto de equilibrio, no se invierte. Solo se suprime en un régimen diferente — el bloqueo completo sostenido a la dosis estándar de 50 mg suprime en lugar de provocar el sistema endógeno. Por lo tanto, el mismo evento de receptor produce *fisiología opuesta en extremos de ocupación opuestos*, pero el límite está entre los regímenes de dosis, no dentro del rango de dosis baja.
+
+## B3. Restauración de TRPM3 — un objetivo umbral, no una ventana hormética
+
+TRPM3 es un canal de calcio cuya función está deteriorada en las células killer naturales de EM/SFC — el hallazgo de canal ión más replicado en la enfermedad, replicado en cohortes independientes [@Cabanas2018trpm3; @Cabanas2021]. La naltrexona restaura el flujo de calcio mediado por TRPM3 in vitro, probablemente al aliviar el tono inhibitorio mediado por receptores opioides [@Cabanas2019trpm3ldnFront]. Esto es **selección de objetivo dependiente de concentración de categoría-4**, no hormesis: no hay programa adaptativo al estrés para extinguirlo. TRPM3 está más abajo en la lista de afinidad que TLR4, por lo que su *umbral* de engagement es más alto — probablemente 3.0–4.5 mg in vivo frente a 0.5–1.5 mg [@Loth2026website]. Por debajo de esa concentración, TRPM3 no se activa en absoluto; a y por encima de ella, la restauración se activa y satura. Por lo tanto, una dosis baja no contiene el beneficio de TRPM3 (el objetivo nunca se alcanza), y una dosis alta no lo extingue (es un mecanismo de saturación) — TRPM3 no es ni el mecanismo de dosis baja extinto ni el hormético, y no juega ningún papel en la matemática de U invertido de la Parte C.
+
+## B4. Tabla de banda de dosis
+
+La combinación de P2 con B1–B3 muestra que un medicamento a diferentes dosis tiene una farmacología diferente:
+
+| Dosis | Hormesis TLR4/Nrf2 (B1) | Compensación opioides (B2) | Restauración TRPM3 (B3) |
+|---|---|---|---|
+| 0.5–1.5 mg | en el rango | aumenta | no activada |
+| ~3.0 mg | extinguida | plataforma | comienza |
+| 4.5 mg | extinguida | plataforma | activada |
+| 50 mg | extinguida | bloqueada (antagonismo total) | saturada |
+
+Se deben leer las columnas como tres curvas independientes, no como una sola. La columna TLR4/Nrf2 es la única *invertida hormética*: presente solo a dosis bajas, desaparece al ~3.0 mg. La columna de opioides es monótona (aumenta, plataforma y solo en el régimen de 50 mg se pasa a supresión de antagonismo total). La columna de TRPM3 es umbral (ausente a dosis baja, se activa y satura a dosis más alta). Ninguna de estas formas constituye una mapa clínico establecido — pero cada una se deriva únicamente de las afinidades de objetivo, independientemente de los valores reales de los parámetros.
+
+---
+
+# Parte C — La matemática: la U invertida y la no propagación
+
+## C1. El modelo de beneficio mínimo, derivado
+
+Considérese que el beneficio que fluye desde un objetivo tiene dos factores necesarios:
+
+- El fármaco debe unirse: en proporción a la fracción ocupada $f$;
+- El programa adaptativo debe ejecutarse: en proporción al señal residual $1-f$, elevado a un exponente de acidez $m \geq 1$ que captura cómo el programa responde de manera sensible a la pérdida de señal.
+
+El producto representa la forma funcional mínima para un mecanismo **hormético e inversor** — aquel cuya acción directa es inhibitoria y cuyo beneficio es una respuesta adaptativa al estrés que se *extingue* cuando la inhibición se completa:
+
+$$B(c) = B_{\max} \cdot f(c)\,\bigl(1 - f(c)\bigr)^m, \qquad f(c) = \frac{c^n}{1+c^n}$$
+
+Entre los tres mecanismos elaborados de LDN, exactamente uno pertenece a esta clase inversa: la hormesis TLR4/Nrf2 (Sección B1, Categoría 1 en la taxonomía original). Este modelo **no** describe los otros dos. La compensación opioida (B2) es monótona; asciende hasta un límite de síntesis y no se invierte dentro del rango, y la restauración de TRPM3 (B3) es un mecanismo de selección de objetivo por umbral que se activa y satura, sin necesidad de señal residual. Ninguno sigue la curva indicada a continuación. Es importante mantener las clases separadas, ya que tienen consecuencias opuestas para el testing de dosis (Sección C4). Esta es la misma familia de modelos utilizada en la Parte B del artículo complementario y se menciona allí como hipótesis; nada en esta sección afirma que esté medido. Sin embargo, sus propiedades son analíticas.
+
+## C2. El pico, calculado
+
+Maximizar $B$ en relación con la ocupación $f \in (0,1)$:
+
+$$\frac{d}{df}\Bigl[f(1-f)^m\Bigr] = (1-f)^m - fm(1-f)^{m-1} = (1-f)^{m-1}\bigl[(1-f) - fm\bigr]$$
+
+Establecer el rango en cero:
+
+$$(1-f) = fm \;\Longrightarrow\; \boxed{\,f^\ast = \frac{1}{1+m}\,}$$
+
+Invertiendo la función de ocupación para obtener la concentración máxima: con $f^\ast = c^{\ast n}/(1 + c^{\ast n})$ obtenemos $c^{\ast n} = f^\ast/(1 - f^\ast)$. Con $f^\ast = 1/(1+m)$ y $1 - f^\ast = m/(1+m)$:
+
+$$c^{\ast n} = \frac{1}{m} \quad\Longrightarrow\quad \boxed{\,c^\ast = m^{-1/n}\,}$$
+
+Tres observaciones, ninguna dependiente de parámetros:
+
+1. **El pico siempre está dentro de la región de ocupación parcial** — $0 < f^\ast < 1$ para cada $m$ finito. Un máximo de beneficio hormético en ocupación total es una imposibilidad matemática en esta familia de modelos: como $f \to 1$, el factor $(1-f)^m \to 0$ domina y $B \to 0$.
+2. **Los sistemas más sensibles alcanzan pico con una ocupación más baja.** Una célula más sensible a la pérdida de señal (mayor $m$) tiene $f^\ast$ más cerca de cero: $m = 1 \Rightarrow f^\ast = 0.5$; $m = 4 \Rightarrow f^\ast = 0.2$; $m = 9 \Rightarrow f^\ast = 0.1$. El estado redox modificado por la enfermedad, la carga allostérica y la reserva celular base son determinantes plausibles de $m$, lo que haría que la posición del rango de cada paciente cambiara individualmente [@Loth2026website; @Calabrese2021Nrf2].
+3. **$B(0) = 0$ y $B(\infty) = 0$:** un U invertido para cada conjunto de parámetros admisible.
+
+Números ilustrativos ($n = 2$, $m = 2$, así $f^\ast = 1/3$ y $c^\ast = \sqrt{1/2} \approx 0.7$; $K_d$ escalado a 1 mg — parámetros elegidos para ilustrar, no medidos):
+
+| Dosis | $c$ | $f$ | $1-f$ | $B/B_{\max}$ |
+|---|---|---|---|---|
+| 0.7 mg | 0.7 | 0.33 | 0.67 | **1.00 — pico** |
+| 1 mg | 1.0 | 0.50 | 0.50 | 0.84 |
+| 3 mg | 3.0 | 0.90 | 0.10 | 0.06 |
+| 4 mg | 4.0 | 0.94 | 0.06 | 0.02 |
+
+Lee la última columna en relación con la hipótesis del superset. Si los efectos se propagaban, la fila de 4 mg contenería el beneficio del 1 mg. En cambio, el modelo coloca el mecanismo del 1 mg en aproximadamente el 2% de su pico a las 4 mg.
+
+## C3. El U invertido no es exótico.
+
+La respuesta no monótica dosis/estrés es documentada de manera independiente de la LDN: el corpus de hormesis en su totalidad [@Calabrese2010hormesisCentral; @Calabrese2002hormesisHistory], la literatura sobre estrés/rendimiento (la estructura Yerkes–Dodson) [@Calabrese2008yerkesDodson] y tratamientos matemáticos explícitos: la integración de componentes estimulantes e inhibidores opuestos a lo largo de la dosis y el tiempo [@Sun2018SeesawHormesis], su generalización de yin–yang [@Sun2020yinYangHormesis], dinámicas horméticas temporales/asimétricas [@Mushak2016TemporalHormesis] y formalizaciones bi-logísticas de dosis–respuesta [@Nweke2022bilogisticHormesis]. Todos son el mismo hecho estructural — términos competitivos que favorecen extremos de concentración opuestos — en diferentes dominios.
+
+## C4. El resultado sin propagación.
+
+Este resultado se refiere a la clase de mecanismo **invertido, hormético** de C1 — en la LDN, el mecanismo TLR4/Nrf2. Los mecanismos no invertidos (plataforma opioide, umbral TRPM3) son las excepciones discutidas a continuación. Expresado de forma compacta:
+
+1. Los mecanismos de beneficio de esta clase son positivos solo en un intervalo de ocupación limitado: $B_i(c) > 0$ requiere $c_i$ en un vecino de $c_i^\ast$ (C2).
+2. La dosis entra en cada mecanismo de manera monótona a través de $c_i = [D]/K_{d,i}$ (P1).
+3. Los objetivos tienen $K_{d,i}$ distintos (P2), por lo que para cualquier mecanismo $i$ en su rango a dosis $D_1$ existen $D_2 > D_1$ en los cuales $B_i(D_2) \approx 0$ mientras que algunos $B_j(D_2) > 0 = B_j(D_1)$ de menor afinidad.
+4. **El conjunto de efectos en $D_2$ no es un superset del conjunto de efectos en $D_1$; es un conjunto diferente.**
+
+Corolario para una interpretación experimental: para un mecanismo hormético inversor, un valor nulo en $D_2$ solo prueba el estado que realmente se ejecutaba en $D_2$. No tiene fuerza lógica contra un mecanismo que no se ejecuta durante el ensayo en $D_2$ — y según (1)–(3), todo mecanismo hormético de dosis baja dentro de la ventana no se ejecuta a dosis suficientemente altas.
+
+Dos aclaraciones sobre los límites:
+
+- **Off ≠ reversed.** En $D_2$, el paciente se encuentra en la línea base no tratada para el mecanismo $i$, no por debajo de ella. La predicción para una dosis fuera de la ventana es un valor nulo (o efectos de nuevos mecanismos), no una deterioro — lo cual es importante desde el punto de vista clínico para entender cómo deber interpretarse un fracaso con una alta dosis.
+- **Los mecanismos que no se invierten son las excepciones y no constituyen el argumento.** La compensación con opioides (B2) no se extingue dentro de su rango — llega a un límite de síntesis — por lo que un valor nulo a alta dosis *dentro de ese rango* realmente lo prueba. TRPM3 (B3) no está activo en dosis baja, por lo que su beneficio nunca forma parte de una dosis más baja que se transmita. Lo que hace que la inferencia del superset falle para LDN es que el beneficio dominante en dosis baja es el mecanismo hormético inversor (TLR4/Nrf2), que una dosis estándar ya ha superado y pasado — por lo que el valor nulo de la dosis estándar no informa sobre precisamente el mecanismo que es más importante. La tesis del artículo es, por lo tanto, específica: se trata de medicamentos cuyo principal beneficio en dosis baja es hormético, no de medicamentos con un único mecanismo.
+- **El resultado es condicional, no empírico.** Se cumple *si* el mecanismo de beneficio es hormético (acción inhibitoria directa, beneficio = respuesta a la inhibición que se extingue en ocupación total). No depende de los valores de $K_d$, $n$ o $m$, ni de ninguna mapa de objetivo específico. Si el beneficio clínico de LDN es realmente hormético, esa es la pregunta empírica que Part D aborda.
+
+---
+
+# Parte D — Lo que las evidencias de los ensayos muestran y no muestran
+
+La base de ensayos controlados para la LDN en la fibromialgia y la EM/SFC: el ensayo aleatorizado de fibromialgia de Due Bruun et al. [@DueBruun2024LDNFibromyalgia], el metaanálisis de Ologunowa et al. [@Ologunowa2025LDNFMMeta], los trabajos piloto positivos a dosis bajas [@Younger2009; @Younger2014LDN] y los análisis de respuesta que identifican subgrupos sensibles a la dosis [@Nielsen2026LDNFMResponder]. Dos hechos estructurales sobre esta base:
+
+1. **No contiene ningún ensayo de dosis-respuesta dentro del rango.** Ninguna estudia asigna 0.5, 1.5, 3.0 y 4.5 mg dentro de la misma cohorte. Por lo tanto, la predicción de no monotónica de C2 no ha sido probada — ni ha sido refutada.
+2. **Un resultado nulo a una dosis no puede distinguir entre las dos familias de modelos.** Bajo el modelo hormético inverso, un ensayo dosisado en el brazo más alejado del U inverso *debería* fallar, y su fallo no aporta información sobre el pico. Bajo un modelo monotónico, el mismo resultado nulo es evidencia contra el mecanismo. Los resultados mixtos existentes — trabajos piloto positivos a dosis bajas, ensayos controlados nulos a dosis estándar — se ajustan al modelo hormético, pero por sí solos no demuestran esto, porque un mecanismo monotónico con un efecto pequeño también puede producir resultados mixtos en ensayos subpotentes. Lo que la base realmente muestra es que *no es capaz de distinguir* la predicción no monotónica de una dosis-respuesta monotónica — y es precisamente por eso que se necesita el ensayo dentro del rango en la Parte E.
+
+La afirmación de certeza: las matemáticas de ocupación (Parte A) son una farmacología establecida [@Langmuir1918; @Clark1926; @Hill1910; @Goutelle2008]. El U inverso hormético está establecido en toxicología y biología de estresores, pero **no ha sido probado como el mecanismo clínico de la LDN**; el mapa específico de objetivo y los rangos de dosis (Parte B) son hipótesis derivadas del mecanismo con una certeza baja (~0.30) [@Loth2026website]. El resultado estructural (C4) es condicional únicamente a que el mecanismo sea hormético.
+
+---
+
+# Parte E — La propuesta clínica y los límites
+
+**El test a nivel de población falsizable** (la especificación HIP-B del artículo original): un ensayo de cruce de cuatro brazos dentro del rango — 0.5, 1.5, 3.0, 4.5 mg, n ≥ 30, 8 semanas por brazo — con trayectorias de síntomas por brazo. El modelo hormético predice curvas grupales no monótonas y correlación entre posiciones de ventana entre pacientes para fármacos que comparten la vía Nrf2 (LDN, sulfurofano, litio de baja dosis); un resultado monótono falsifica el modelo de manera clara [@Loth2026website].
+
+**La heurística de prescripción mientras se espera ese ensayo.** El argumento de C4 se convierte directamente en la conclusión que este artículo busca respaldar: **una dosis estándar nula no excluye dosis subestándar**, porque para un fármaco cuyo beneficio es la respuesta a la participación parcial, la dosis estándar no ejecutó el mecanismo de baja dosis. Cuando la titulación descendente es farmacológicamente segura — y dentro del rango de 0.5–4.5 mg el perfil de seguridad del LDN está bien caracterizado [@Younger2013] — un ensayo de baja dosis con tiempo limitado, con síntoma objetivo nombrado, dosis nombrada y regla de detención nombrada, no es una retirada de la evidencia. Es el experimento que la base de evidencia está careciendo.
+
+**Diagnóstico a nivel de paciente.** Para un paciente individual, la titulación ya es un experimento de respuesta dosis-paciente: el beneficio en 0.5–1.5 mg se pierde en 3.0–4.5 mg, lo que corresponde al patrón de hormesis invertida TLR4/Nrf2; el mantenimiento del beneficio hasta 4.5 mg sugiere un mecanismo diferente, no hormético, como la compensación opioide [@Loth2026website].
+
+**Los límites, reiterados en un solo lugar.** No existe ningún ensayo de respuesta dosis-paciente con LDN dentro del rango en ninguna condición; los ensayos de dosis única son heterogéneos y en gran medida nulos a dosis estándar [@DueBruun2024LDNFibromyalgia; @Ologunowa2025LDNFMMeta]. La certeza del marco es baja. Lo que no depende de esa incertidumbre es el teorema condicional: *si* el beneficio de un fármaco es una respuesta a la participación parcial y no a la completa, el beneficio no puede propagarse hacia arriba a través de la dosis — y la única manera de averiguar si el LDN es tal fármaco es ejecutar las dosis.
+
+---
+
+*Este artículo desarrolla el marco de dosis-respuesta de [Loth 2026](https://yannickloth.github.io/health-me-cfs/). Derivaciones de ocupación: [@Langmuir1918; @Clark1926; @Hill1910; @Adair1925; @Monod1965; @Goutelle2008; @Finlay2020receptorOccupancy]. Corpus de hormesis: [@Calabrese2002hormesisHistory; @Calabrese2008yerkesDodson; @Calabrese2010hormesisCentral; @Calabrese2016PreconditioningHormesis; @Calabrese2021UltraLow; @Calabrese2021Nrf2; @Sun2018SeesawHormesis; @Sun2020yinYangHormesis; @Mushak2016TemporalHormesis; @Nweke2022bilogisticHormesis]. Mecanismos de LDN: [@Younger2009; @Younger2013; @Younger2014LDN; @Kucic2021LDNmicroglia; @Kwilasz2021NTXmicroglia; @Osman2024naltrexoneTLR4; @Zagon2018OGFrBlockade; @Cabanas2018trpm3; @Cabanas2019trpm3ldnFront; @Cabanas2021]. Evidencia de ensayos: [@DueBruun2024LDNFibromyalgia; @Nielsen2026LDNFMResponder; @Ologunowa2025LDNFMMeta]. Artículos complementarios para pacientes: [¿Por qué más no es mejor? — LDN y LDA](../more-isnt-better-ldn-lda/) · [El U invertido no es una sola cosa](../inverted-u-not-one-thing/) · [Una dosis única fallida no es un veredicto](../single-dose-failure-not-a-verdict/) · [La dosis es diagnóstica](../dose-is-diagnostic-ldn/).*

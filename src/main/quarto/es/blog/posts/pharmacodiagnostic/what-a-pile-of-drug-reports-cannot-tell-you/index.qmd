@@ -1,0 +1,57 @@
+---
+title: "¿Qué puede y no puede decirte un montón de informes de medicamentos"
+description: "Un corpus combinado de informes de medicamentos de pacientes puede identificar qué vías son valiosas para el estudio. No puede demostrar cuál es la causa. El placebo, los hábitos de prescripción, quienes se ofrecen a reportar y el entusiasmo de la comunidad contaminan la señal — y si la señal se relaciona con discusiones en línea en lugar de farmacología, toda la propuesta debería ser abandonada. Este es el límite."
+author: "Yannick Loth"
+date: "2026-09-13"
+categories: [ME/CFS, Treatment, Methods, Evidence]
+lang: es
+---
+
+Los dos primeros artículos de esta serie argumentaron que los informes de medicamentos de pacientes agrupados podrían identificar qué vías biológicas son limitantes en EM/SFC, y describieron el diseño que permitiría esa agrupación. Este artículo es la parte que le da credibilidad al resto. Una propuesta que no puede indicar sus propios límites es solo una venta, no una propuesta científica. Los límites son los siguientes.
+
+## Rangoa las hipótesis. No las confirma.
+
+El corpus es un **instrumento de generación de hipótesis**: le indica qué vías valen la pena probar a continuación, no cuál es la causa.
+
+La razón es estructural. Los informes agrupados muestran asociaciones. No muestran causalidad — los sistemas de farmacovigilancia que recopilan informes de medicamentos espontáneos para detectar señales de seguridad se basan exactamente en este tipo de datos, y rangoan las asociaciones bien sin establecer nunca que el medicamento causó el evento [@vanPuijenbroek2002Disproportionality; @Cutroneo2023Disproportionality]. Un corpus de informes de medicamentos EM/SFC es lo contrario de una base de datos de seguridad: busca beneficios en lugar de daños — pero el mismo límite inferencial se aplica. Puede decir "esta vía sigue apareciendo". No puede decir "esta vía es la enfermedad".
+
+Esa distinción no es académica. La historia del artículo contiene un tratamiento, rituximab, cuyo primer ensayo controlado de fase II mostró una gran diferencia entre el medicamento y el placebo, y cuyo ensayo definitivo no encontró beneficio — la tasa de respuesta del placebo superó la [@Fluge2011rituximab; @Fluge2019] del medicamento. Una señal alentadora temprana es algo diferente de un resultado confirmado; tratarla como una versión más pequeña de uno es el error.
+
+## Cuatro cosas que contaminan la señal
+
+**Placebo y expectativa.** El placebo abierto — una pastilla dada con plena revelación de que es inerte — puede mover síntomas subjetivos entre condiciones, aunque los tamaños de efecto son modestos y la certeza de la evidencia es baja [@FlavioReis2025OpenLabelPlacebo; @KleineBorgmann2025OpenLabelPlacebos]. En un corpus no desenmascarado, cada mejoría subjetiva es en parte expectativa, y la tarea del corpus es eliminarla tanto como sea posible. No puede eliminarla.
+
+**Quién recibe qué (confusión por indicación).** Los pacientes no prueban medicamentos al azar. Un clínico prescribe basándose en síntomas, gravedad, respuesta previa y lo que está disponible; los pacientes eligen suplementos según la costumbre comunitaria. Las personas que prueban el medicamento A difieren sistemáticamente de aquellas que prueban el medicamento B. Una diferencia en la respuesta entre A y B puede reflejar *quién los recibió* en lugar de lo que hacen los medicamentos [@Zong2022EHRrepurposing; @Shahn2022AntihypertensiveRepurposing]. Este es un riesgo bien conocido en la investigación observacional de medicamentos, y es peor en EM/SFC porque no hay una estratificación validada — así que la prescripción es impulsada por síntomas y inconsistente.
+
+**Quién se volunta a informar (selección autónoma).** Los contribuyentes al corpus son, por construcción, los pacientes que están lo suficientemente bien para participar: en línea, de habla inglesa, de gravedad leve a moderada y con recursos suficientes para haber probado muchos tratamientos. Los pacientes graves y de duración prolongada, cuyas respuestas a los medicamentos serían más informativas, son los menos propensos a completar la encuesta [@Richiardi2007NINFEAInternet; @Loth2026website]. Esto no es datos faltantes aleatorios. Está relacionado con la biología que el corpus intenta clasificar; por lo tanto, la clasificación puede describir a los encuestados, no la enfermedad.
+
+**Informe autónomo sin engaño.** El resultado es el juicio de un paciente o de un médico sobre el cambio, sin engaño y sin instrumento estándar. Es precisamente ese tipo de medida que se espera que sea más fiable. Sin una medida validada común, el corpus combina juicios incompatibles, y el resultado refleja principalmente cómo las personas informan de forma optimista.
+
+## El modo de fallo que lo destruiría
+
+Existe una posibilidad peor. Un corpus reclutado de una comunidad de pacientes no es un sensor neutral: los informes llevan las creencias compartidas de esa comunidad, y esas creencias influyen tanto en qué medicamentos se prueban como en cómo se describen. El análisis propio del artículo sobre las comunidades de pacientes documenta cómo el refuerzo social, la polarización grupal y la ausencia de corrección de errores formales pueden permitir que un tratamiento plausible pero incorrecto se establezca, produciendo un consenso comunitario que las evidencias controladas no apoyarían [@Loth2026website]. Un patrón consistente de respuesta entre cientos de pacientes es *exactamente* lo que produce una señal falsa amplificada socialmente. La consistencia no es autovalidación.
+
+Así que el corpus tiene un test rector, y debe poder fallar en él. Si, después de ajustar por gravedad, disponibilidad de medicamentos y el nivel de placebo del propio corpus, la clasificación residual se explica al menos tan bien por cuánto se discute cada medicamento en línea como por su dosis y objetivo molecular — entonces el corpus está midiendo a la comunidad, no a la enfermedad. En ese caso, la propuesta se **abandona**, no se perfecciona. Más datos no lo arreglarán, y una encuesta mejor tampoco. El test debe ser una comparación de modelos pre-registrada y cerrada, no una correlación calculada después de hecho: el volumen de discusión y la dosis son colineales (los medicamentos populares se hablan más y se prueban en más bandas de dosis), por lo que la comparación debe estar fijada antes de la recolección de datos.
+
+Existe una segunda condición de abandono: si el número de medicamentos distintos necesarios para diferenciar las hipótesis competidoras es mayor que cualquier número realista de pacientes que probarán alguna vez, entonces ninguna cantidad de informes puede clasificar los mecanismos, y la propuesta muere en el camino. Si el conjunto de medicamentos accesible es degenerado de esta manera, es una pregunta abierta y verificable — y la respuesta hoy es que nadie lo sabe.
+
+## Lo que el corpus puede afirmar
+
+Si sobrevive a esos tests, el corpus puede hacer algo realmente útil en una enfermedad sin biomarker validado [@IOM2015]:
+
+- **Clasificar vías candidatas** para la próxima ronda de investigación mecánica.
+- **Identificar subgrupos de respuesta** — cuando un tratamiento divide a la población, ese dividido es un hallazgo en sí mismo, y puede explicar por qué tantos ensayos de ME/CFS a nivel de grupo dan resultado nulo.
+- **Nombrar medicamentos para ensayos ciegos rigurosos**, utilizando el corpus como motor de priorización: un subestudio aleatorizado anidado prueba los pocos medicamentos nominados por el corpus contra placebo, que es donde se hacen afirmaciones causales realmente válidas.
+- **Estratificar ensayos futuros**, convirtiendo la huella de respuesta propia del paciente en una variable de enriquecimiento.
+
+Lo que no puede hacer es sustituir al ensayo ciego. El papel del corpus es decidir *qué merece* ese ensayo — no reemplazarlo.
+
+## Por qué la advertencia forma parte de la propuesta
+
+Esta serie describe un instrumento de investigación que aún no existe. No es una herramienta de selección de tratamientos, y nadie debería comenzar, detener o cambiar un medicamento porque una clasificación de la comunidad conjunta lo sugirió. La advertencia no es una formalidad: todo el valor del corpus depende de que los lectores lo tomen como un generador de hipótesis, y todo el peligro radica en que lo tomen de otra manera. Un instrumento comunitario confundido con orientación clínica causaría exactamente el daño que el artículo documenta en otros lugares por evidencia interpretada en exceso.
+
+La idea vale la pena ser explorada porque la alternativa es un conjunto de candidatos no clasificados sin priorización para los ensayos siguientes — y una hipótesis clasificada vale más que una página en blanco, siempre y cuando el lector lo tome como una hipótesis.
+
+*Esto no es consejo médico. Describe una propuesta de investigación. Nadie debería comenzar, detener o cambiar un tratamiento basándose en una clasificación de la comunidad conjunta.*
+
+*Esto cierra la serie. Comienza desde [la página de aterrizaje](../index.qmd), o lee la versión técnica en el capítulo de Referencia de Respuesta a los Medicamentos del documento principal ([Loth 2026](https://yannickloth.github.io/health-me-cfs/)). Las advertencias de observación-inferencia siguen [@vanPuijenbroek2002Disproportionality; @Cutroneo2023Disproportionality; @Zong2022EHRrepurposing; @Shahn2022AntihypertensiveRepurposing]; la advertencia de expectativa sigue [@FlavioReis2025OpenLabelPlacebo; @KleineBorgmann2025OpenLabelPlacebos]; la secuencia de rituximab sigue [@Fluge2011rituximab; @Fluge2019].*

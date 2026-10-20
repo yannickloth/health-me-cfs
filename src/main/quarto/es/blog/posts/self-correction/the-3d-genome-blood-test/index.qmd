@@ -1,0 +1,68 @@
+---
+title: "Prueba de sangre del genoma 3D: lo que realmente mide el porcentaje del 98%"
+description: "Se informó un análisis de sangre para EM/SFC con un 98% de especificidad. Aquí se muestra contra qué medida se utilizó ese número, y qué teníamos que corregir en nuestro texto."
+author: "Yannick Loth"
+date: "2026-10-14"
+categories: [Self-correction, Diagnostics, Research]
+lang: es
+---
+
+Se ha informado en la prensa sobre un análisis de sangre para EM/SFC. Los números citados son impresionantes: **92% de sensibilidad, 98% de especificidad y 96% de precisión.** Si tienes EM/SFC, un análisis así suena como lo que has estado esperando durante años.
+
+Este artículo trata sobre la comparación detrás de esos números — y sobre una frase en nuestro propio documento que tuvimos que corregir.
+
+## Lo que mide el análisis
+
+La plataforma lee **arquitectura cromosómica 3D**: cómo el ADN se pliega en bucles dentro del núcleo celular. Es una capa epigenética real, diferente de la secuencia del ADN y de las marcas de metilación medidas por arrays estándar. Es una medida real con una base biológica real — por eso merece un análisis cuidadoso, en lugar de una rechazo o entusiasmo.
+
+El estudio analizó sangre de **47 pacientes con EM/SFC gravemente afectados y que están confinados en casa, y 61 controles sanos**. Un panel de 200 marcadores separó los dos grupos. El análisis de vías señaló la señalización IL-2 y JAK-STAT.
+
+## El número que necesita contexto
+
+“98% de especificidad” significa: entre los controles sanos, el 98% fue identificado correctamente como no tener EM/SFC.
+
+Esa es toda la afirmación. Se mide **solo en comparación con personas sanas**.
+
+No es una afirmación de que el análisis separa la EM/SFC de otras enfermedades que causan fatiga. El panel nunca ha sido probado contra fibromialgia, depresión o fatiga por COVID larga. Y esa es la pregunta clínica real, porque esas son las condiciones de las que un paciente real generalmente se distingue.
+
+## Nuestra propia corrección
+
+Nuestro documento describió anteriormente los números 92%/98%/96% como provenientes de la **cohorte de descubrimiento**. Eso estaba mal, y lo descubrimos al volver a verificar la fuente.
+
+Los números provienen de la **cohorte de validación interna (retrospectiva) del estudio** — una división de los mismos muestras. Es una distinción significativa. Tampoco es una cohorte externa.
+
+Hemos corregido el texto en tres lugares. La distinción es importante por la misma razón por la que existe la serie: un número que suena más fuerte de lo que es se repetirá como si fuera más fuerte de lo que es.
+
+## Nuevas evidencias, publicadas este año
+
+Dos cosas han aparecido desde el artículo original — ninguna de ellas es replicación.
+
+**Una crítica publicada.** Una carta en el mismo journal cuestiona el estudio en diez puntos. Dos de ellos van más allá de lo que decimos a continuación y parecen bien fundamentados: la cohorte se describe como “grave/confinada en casa” sin mencionar los criterios de diagnóstico utilizados, por lo que la muestra no puede ser reproducida del artículo; y la comparación del estudio con condiciones responsivas al rituximab es engañosa, porque el ensayo con rituximab en EM/SFC fue nulo. Varias de las otras objeciones de la carta se superponen con los puntos que planteamos más adelante — un grupo de control ambiguo y la ausencia de validación externa — y una es importante añadir: el estudio no ajustó por medicación, infección previa o diferencias en el tabaquismo entre los grupos. Los autores originales no han respondido.
+
+La crítica tiene su propio interés. Sus autores promueven la terapia de oxígeno-ozono para EM/SFC, y su exigencia de que el artículo cite su propio trabajo anterior es el punto menos persuasivo de todos. La afirmación de citas en la carta es válida: el estudio cita el trabajo de citocina y células killer naturales, pero no los estudios de los años 90 que la carta tiene en mente. Citamos la crítica como una crítica, no como prueba de que la prueba es inválida.
+
+**Un estudio de metilación entre condiciones diferentes.** Un único estudio, aún no replicado, con 188 mujeres, realizado de forma independiente del proveedor de la plataforma, comparó directamente EM/SFC con **fibromialgia** — la comparación que el panel de EpiSwitch nunca realizó. Se encontraron dos ejes de metilación separados:
+
+- Un eje separó EM/SFC de **ambas** fibromialgia y controles, y rastró el malestar post-esfuerzo y síntomas cognitivos;
+- Un segundo eje separó **ambos** grupos de pacientes de los controles, pero no entre sí, y rastró la carga general de síntomas.
+
+El segundo de esos ejes es el que importa aquí: rastra la carga general de enfermedad en lugar del diagnóstico.
+
+Y como el clasificador de EpiSwitch fue entrenado solo contra controles saludables, **no podemos descartar** que una parte de su señal sea del mismo tipo de componente de carga.
+
+Hay una advertencia en esa oración. El eje de carga se encontró en **metilación**; EpiSwitch mide **arquitectura 3D**. Son capas moleculares diferentes, así que esto es una analogía y una advertencia — no una medida del panel de EpiSwitch.
+
+## ¿Qué significa esto para los pacientes
+
+- La prueba está en etapa de investigación. No es un diagnóstico clínico validado.
+- La cifra que pueda haber visto se midió contra personas sanas. No ha demostrado distinguir EM/SFC de fibromialgia, depresión o COVID a largo plazo.
+- El estudio es un análisis único por la empresa que fabrica la plataforma. La declaración de interés competitivo del artículo lista a sus autores como empleados a tiempo completo de Oxford BioDynamics, y la empresa financió el trabajo. No hay replicación independiente.
+- El camino que reporta es plausible, y el trabajo independiente de células T vincula la topología de la cromatina 3D a la señalización IL-2/JAK-STAT — aunque no en EM/SFC. El *clasificador* es la parte no probada.
+
+Puede encontrar esta prueba a la venta. **La disponibilidad no es validación.** Una prueba puede venderse mientras la cuestión de su especificidad sigue siendo abierta, y no podemos recomendar pagar por ella para tomar una decisión clínica.
+
+El siguiente paso es una cohorte independiente, realizada por un grupo sin interés en la plataforma, que teste el EM/SFC contra otras enfermedades que causan fatiga.
+
+Mientras tanto, nada aquí cambia lo que deberías hacer hoy. Los enfoques que el artículo puede apoyar — el ritmo dentro de un envelope energético y tratar los síntomas de forma individual — no dependen de que esta prueba exista.
+
+*El tema de esta serie: un documento que no puede mostrar sus errores no puede ser considerado confiable con sus conclusiones. Encontramos uno de los nuestros —una cifra descrita como proveniente de un grupo incorrecto— y la corregimos.*

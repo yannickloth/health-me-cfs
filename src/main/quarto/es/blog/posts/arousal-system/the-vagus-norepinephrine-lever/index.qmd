@@ -1,0 +1,20 @@
+---
+title: "Un palanca sin pastilla: el nervio vago y el locus coeruleus"
+description: "La estimulación del nervio vago transcutáneo puede llegar al centro de noradrenalina del cerebro — una forma no farmacológica de probar el sistema."
+author: "Yannick Loth"
+date: "2026-09-20"
+categories: [Arousal system, Noradrenergic, Mechanisms]
+lang: es
+---
+
+Si el problema es una falta de noradrenalina central, una pregunta obvia es si se puede aumentarla sin medicación. Existe una vía plausible: el nervio vago.
+
+Los aferentes vagales transportan señales desde el cuerpo al núcleo del tracto solitario en el tronco encefálico, que se proyecta hacia el **locus coeruleus** —el núcleo principal de noradrenalina del cerebro. La estimulación transcutánea auricular del nervio vago (taVNS) aplica una pequeña señal eléctrica en la oreja, y los informes lo describen como la activación de este camino del locus coeruleus-nore adrenalina (@Hilz2022taVNS). En ratones, la taVNS activó neuronas productoras de noradrenalina (positivas en tirosina-hidroxilasa) en el locus coeruleus, y esas neuronas mediaron los efectos del tratamiento (@Lv2024taVNSLC).
+
+**Por qué es atractivo.** A diferencia de los estimulantes, la taVNS no presiona el sistema con una medicación, es reversible y puede controlarse por dosis. Si funciona, también es una **prueba**: una forma segura de comprobar si aumentar la noradrenalina cambia algo medible.
+
+**Los límites.** La evidencia en humanos está a nivel de revisión; la evidencia mecánica directa está en ratones; y los datos específicos para EM/SFC son preliminares. Y una advertencia clave abarca toda la serie: el déficit subyacente en sí no ha sido replicado.
+
+**Cómo lo sabríamos.** Un ensayo podría preguntar si la taVNS cambia una lectura no invasiva de noradrenalina —mediciones de la pupila, resistencia al agarre de la mano, ratio de orina— y, si el ciclo de eliminación es real, si cambia un marcador de eliminación o inflamación. Si no cambia nada, es poco probable que la vía sin medicación sea relevante.
+
+*No es una recomendación — es una idea que puede ser probada.*
