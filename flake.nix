@@ -9,6 +9,12 @@
     # Pin quarto to the last-known-good 1.8.26 from the pre-bump nixpkgs rev
     # for all HTML-rendering derivations. See 465676e0.
     nixpkgs-quarto.url = "github:NixOS/nixpkgs/c5296fdd05cfa2c187990dd909864da9658df755";
+    # graphrag's Python/Rust closure (arro3-core, datafusion, pylance, lancedb,
+    # torch, spacy, ...) is not prebuilt on cache.nixos.org, so it compiles from
+    # source on every `nix flake update` bump of the main nixpkgs input. Pin the
+    # nixpkgs that supplies it to a fixed rev so the chain is built once and
+    # reused until this input is deliberately bumped. See graphragPkgs below.
+    nixpkgs-graphrag.url = "github:NixOS/nixpkgs/8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe";
     flake-utils.url = "github:numtide/flake-utils";
   };
 
@@ -17,6 +23,7 @@
       self,
       nixpkgs,
       nixpkgs-quarto,
+      nixpkgs-graphrag,
       flake-utils,
     }:
     flake-utils.lib.eachDefaultSystem (
@@ -35,14 +42,18 @@
         # graphrag (microsoft/graphrag 2.7.0) provides the `graphrag` CLI that
         # the graphrag opencode plugin drives to index and query the workspace
         # (semantic access to the ME/CFS corpus, including the DecodeME
-        # material). Not on PATH by default. Overlay mirrors
-        # llm-harness-plugins/flake.nix: test suites of transitive deps fail at
-        # this nixpkgs rev (pot: scipy removed distance metrics; hyppo: flaky
-        # hardcoded statistical tests; graspologic: same risk class), and
-        # graphrag itself needs a one-line NumPy 2.0 compat patch (np.float_
-        # removed; imported at CLI startup). Remove once the pinned nixpkgs
-        # carries fixed derivations.
-        graphragPkgs = (nixpkgs.legacyPackages.${system}).extend (
+        # material). Not on PATH by default. Built from the pinned
+        # `nixpkgs-graphrag` input (a fixed rev) so its heavy transitive closure
+        # (arro3-core, datafusion, pylance, lancedb, torch, spacy, ...) is not
+        # rebuilt on every main-nixpkgs bump; cache.nixos.org never prebuilds
+        # those packages, so the chain would otherwise compile from source each
+        # time. Overlay mirrors llm-harness-plugins/flake.nix: test suites of
+        # transitive deps fail at this nixpkgs rev (pot: scipy removed distance
+        # metrics; hyppo: flaky hardcoded statistical tests; graspologic: same
+        # risk class), and graphrag itself needs a one-line NumPy 2.0 compat
+        # patch (np.float_ removed; imported at CLI startup). Remove once the
+        # pinned nixpkgs carries fixed derivations.
+        graphragPkgs = (nixpkgs-graphrag.legacyPackages.${system}).extend (
           final: prev: {
             python312 = prev.python312.override (old: {
               packageOverrides =
@@ -157,12 +168,9 @@
               # cleanSourceWith also asks about ancestor dirs: allow "src" and
               # the ops ancestors, not only their children.
               inSrc = rel == "src" || pkgs.lib.hasPrefix "src/" rel;
-              inOps =
-                rel == "ops"
-                || rel == "ops/plans"
-                || rel == "ops/plans/pathway-registry.md";
+              inOps = rel == "ops" || rel == "ops/plans" || rel == "ops/plans/pathway-registry.md";
             in
-              inSrc || inOps;
+            inSrc || inOps;
         };
 
         buildTypstPdf = pkgs.stdenvNoCC.mkDerivation {
@@ -387,7 +395,8 @@
                   url = "https://github.com/genomoncology/biomcp/releases/download/v${release}/biomcp-darwin-arm64.tar.gz";
                   hash = "sha256-ElcKYd9IcvuXypKVM/y2wI6D0a1doKQZMHtOjZuVqK0=";
                 };
-              }.${system};
+              }
+              .${system};
           in
           pkgs.stdenv.mkDerivation {
             pname = "biomcp";
