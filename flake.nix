@@ -72,6 +72,11 @@
                         "pot"
                         "hyppo"
                         "graspologic"
+                        # test_docs.py + test_example.py assert the exact output of
+                        # a specific `black` version; the rev's black formats
+                        # differently, so 3 tests fail (see fastapi -> openai ->
+                        # graphrag check chain).
+                        "inline-snapshot"
                       ]
                   );
                 in
@@ -206,6 +211,7 @@
 
             typst compile \
               --jobs 1 \
+              --no-pdf-tags \
               --package-cache-path "${typst-package-cache}" \
               --font-path src/main/typst/mecfs/fonts \
               --root . \
@@ -312,6 +318,7 @@
 
             typst compile \
               --jobs 1 \
+              --no-pdf-tags \
               --package-cache-path "${typst-package-cache}" \
               --font-path src/main/typst/mecfs/fonts \
               --root . \
