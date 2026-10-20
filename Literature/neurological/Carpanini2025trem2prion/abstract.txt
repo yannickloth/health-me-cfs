@@ -1,0 +1,12 @@
+# TREM2 supports neuronal protection and microglial reactivity without an effect on misfolded protein deposition in chronic neurodegenerative prion disease.
+
+**Authors:** Carpanini SM, Bradford BM, Alfieri A, Piccardo P, Monzón-Sandoval J, Brown D, Boyle A, Pokrovskaya A, Mabbott NA, Manson J, McColl BW.
+**Journal:** Frontiers in neuroscience, 2025, vol 19, issue , pages 1525017
+**DOI:** 10.3389/fnins.2025.1525017
+**PMID:** 40400621
+**PMCID:** PMC12093410
+**URL:** https://pubmed.ncbi.nlm.nih.gov/40400621/
+**Retrieved:** 2026-10-20
+
+## Abstract
+Introduction Triggering receptor expressed on myeloid cells-2 ( TREM2 ) variants have been identified as risk factors for neurodegenerative disease, including Alzheimer's disease. TREM2 is a cell surface receptor on microglia that regulates homeostatic and immunomodulatory functions, including phagocytosis of apoptotic debris and the resolution of damage-associated inflammation. It remains unclear how TREM2 may mediate an influence on neurodegenerative disease, particularly in relation to key neuropathological hallmarks such as neuronal loss and proteinopathy. Methods We used the ME7 prion disease model to assess the role of TREM2 in the progression and pathology of neurodegenerative disease. Prion diseases are characterised by the accumulation of misfolded prion proteins and provide a highly tractable platform to determine if TREM2 has disease-modifying effects. Results Trem2 -/- and wild-type (WT) mice were inoculated intracerebrally with mouse-passaged ME7 scrapie prions, and their effects on CNS disease pathogenesis were determined. Although the accumulation of prion disease-specific PrP was similar in the brains of mice from each group, the severity of neuropathology was increased in Trem2 -/- mice. Morphometric analysis of the microglia also indicated blunted disease-induced reactivity in the brains of infected Trem2 -/- mice compared to wild-type (WT) controls. Expression of genes involved in myelination was reduced in prion-infected Trem2 -/- mice compared to infected WT mice. Conclusion We conclude that during brain infection with prions, TREM2 supports microglial reactive changes associated with resilience to neuronal loss independently of affecting misfolded PrP deposition. These data imply that TREM2 status may be an important influence on the downstream response to CNS proteinopathy, which alters the susceptibility of neurons and brain tissue to proteinopathy-induced degenerative changes.

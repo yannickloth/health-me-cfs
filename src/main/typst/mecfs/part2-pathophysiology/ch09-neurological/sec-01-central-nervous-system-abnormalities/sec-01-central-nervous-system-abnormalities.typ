@@ -17,5 +17,9 @@
 
 #include "subsec-01-integrated-neuroinflammatory-cascade-model/subsec-01-integrated-neuroinflammatory-cascade-model.typ"
 
+#include "subsec-01-chronic-cns-inflammation-persistence/subsec-01-chronic-cns-inflammation-persistence.typ"
+
+#include "subsec-01-chronic-cns-inflammation-hypotheses/subsec-01-chronic-cns-inflammation-hypotheses.typ"
+
 #include "subsec-01-post-exertional-malaise-and-the-kindling-hypothesis/subsec-01-post-exertional-malaise-and-the-kindling-hypothesis.typ"
 

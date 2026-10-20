@@ -1,0 +1,12 @@
+# Microglia Phenotypes in Aging and Neurodegenerative Diseases.
+
+**Authors:** Wendimu MY, Hooks SB.
+**Journal:** Cells, 2022, vol 11, issue 13, pages 2091
+**DOI:** 10.3390/cells11132091
+**PMID:** 35805174
+**PMCID:** PMC9266143
+**URL:** https://pubmed.ncbi.nlm.nih.gov/35805174/
+**Retrieved:** 2026-10-20
+
+## Abstract
+Neuroinflammation is a hallmark of many neurodegenerative diseases (NDs) and plays a fundamental role in mediating the onset and progression of disease. Microglia, which function as first-line immune guardians of the central nervous system (CNS), are the central drivers of neuroinflammation. Numerous human postmortem studies and in vivo imaging analyses have shown chronically activated microglia in patients with various acute and chronic neuropathological diseases. While microglial activation is a common feature of many NDs, the exact role of microglia in various pathological states is complex and often contradictory. However, there is a consensus that microglia play a biphasic role in pathological conditions, with detrimental and protective phenotypes, and the overall response of microglia and the activation of different phenotypes depends on the nature and duration of the inflammatory insult, as well as the stage of disease development. This review provides a comprehensive overview of current research on the various microglia phenotypes and inflammatory responses in health, aging, and NDs, with a special emphasis on the heterogeneous phenotypic response of microglia in acute and chronic diseases such as hemorrhagic stroke (HS), Alzheimer's disease (AD), and Parkinson's disease (PD). The primary focus is translational research in preclinical animal models and bulk/single-cell transcriptome studies in human postmortem samples. Additionally, this review covers key microglial receptors and signaling pathways that are potential therapeutic targets to regulate microglial inflammatory responses during aging and in NDs. Additionally, age-, sex-, and species-specific microglial differences will be briefly reviewed.

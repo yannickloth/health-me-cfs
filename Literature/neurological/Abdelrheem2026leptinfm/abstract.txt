@@ -1,0 +1,12 @@
+# Leptin-driven microglial activation in fibromyalgia: mechanistic insights and therapeutic implications.
+
+**Authors:** Abdelrheem NM, Ahmed MAE, Mohamed AF, Shalaby HN, El Sayed NS.
+**Journal:** International immunopharmacology, 2026, vol 180, issue , pages 116657
+**DOI:** 10.1016/j.intimp.2026.116657
+**PMID:** 42008851
+**PMCID:** 
+**URL:** https://pubmed.ncbi.nlm.nih.gov/42008851/
+**Retrieved:** 2026-10-20
+
+## Abstract
+Fibromyalgia (FM) is a chronic nociplastic pain disorder marked by widespread musculoskeletal pain, fatigue, sleep disturbances, and cognitive dysfunction. Central sensitization (CS) and sustained neuroimmune dysregulation are thought to contribute to disease persistence. Although aberrant microglial activation is increasingly recognized as a potential amplifier of nociceptive signaling in FM, the upstream immuno-metabolic drivers of this process remain incompletely defined. Emerging evidence suggests that leptin, an adipocyte-derived cytokine-like hormone, may act as an immunomodulator linking peripheral metabolic cues to central nervous system (CNS) inflammation. Clinical studies have reported associations between circulating leptin levels and pain severity and symptom burden in FM patients, independent of body mass index (BMI). This review synthesizes current evidence positioning leptin as a molecular interface between metabolic dysfunction and neuroinflammatory signaling in FM. We examine leptin receptor-mediated activation of intracellular pathways, including JAK2/STAT3, MAPK/ERK, and PI3K/Akt, which have been implicated in promoting reactive microglial states, disrupt synaptic plasticity, and sustain CS. Furthermore, we discuss selective leptin resistance as a mechanistic framework potentially explaining preserved pronociceptive and inflammatory signaling despite impaired metabolic regulation. By integrating immune, metabolic, and nociceptive dimensions, this review highlights leptin signaling as a potential immunopharmacological target for precision-based therapeutic strategies aimed at mitigating neuroinflammation and refractory pain in FM.

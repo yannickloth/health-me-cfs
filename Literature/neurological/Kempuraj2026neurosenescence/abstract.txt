@@ -1,0 +1,12 @@
+# Neurosenescence, inflammaging and neuroinflammation in neurodegenerative disorders.
+
+**Authors:** Kempuraj D, Ramesh Babu PR, Jayakumar N, Belur MG, Cohan CH, Sharma A, Sanchez-Guerrero E, Anderson T, Kong D, Chinnappan B, Pena C, Klimas NG, Theoharides TC.
+**Journal:** Frontiers in aging, 2026, vol 7, issue , pages 1756670
+**DOI:** 10.3389/fragi.2026.1756670
+**PMID:** 41878504
+**PMCID:** PMC13007292
+**URL:** https://pubmed.ncbi.nlm.nih.gov/41878504/
+**Retrieved:** 2026-10-20
+
+## Abstract
+Senescence is the biological aging associated with the gradual deterioration of cells and functions of various organs over time. This irreversible process is caused by genetic, metabolic, and environmental factors, such as telomere shortening, exposure to cytotoxic substances, and accumulated cellular damage over time, although the rate of degradation can be modified by lifestyle factors. Immunosenescence specifically refers to senescent changes in the innate and adaptive immunity and is associated with low inflammation known as inflammaging. As immunosenescence implies, reduced immune function leads to impaired tissue function and an increased risk of infection and heightened susceptibility to chronic, autoimmune, and neurodegenerative disorders, such as Alzheimer's disease (AD) in the elderly. An increase in senescent cells is common in aging, which leads to age-associated diseases. Cellular senescence may also contribute to the onset and severity of Parkinson's disease (PD) neuropathology. Inflammaging with high levels of proinflammatory marker expression may result from changes in immune responses, chronic antigenic stimulation, and senescence-associated secretory phenotype (SASP) factors, such as increased expression of interleukin-6 (IL-6), insulin-like growth factor binding proteins (IGFBPs), transforming growth factor-beta (TGF-β) and matrix metalloproteinase-10 (MMP-10) has been reported in AD patients. The levels of the senescence marker p16INK4a and several SASP factors, such as MMP-3, IL-6, IL-1α and IL-8 are elevated along with low levels of astrocytic lamin B1 in the substantia nigra of PD. This review discusses recent developments in neurosenescence and immunosenescence in AD and PD, as well as potential senolytic therapies.

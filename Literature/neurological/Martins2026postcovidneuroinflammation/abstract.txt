@@ -1,0 +1,12 @@
+# Understanding neuroinflammation in post-COVID-19 syndrome: biological mechanisms, diagnostic biomarkers, and therapeutic prospects.
+
+**Authors:** Martins D, Beckman D, Loggia M, Costanza A, Borsini A.
+**Journal:** Translational psychiatry, 2026, vol 16, issue 1, pages 564
+**DOI:** 10.1038/s41398-026-04286-x
+**PMID:** 42481444
+**PMCID:** PMC13672778
+**URL:** https://pubmed.ncbi.nlm.nih.gov/42481444/
+**Retrieved:** 2026-10-20
+
+## Abstract
+Post-COVID-19 syndrome (PCS) is an escalating global health concern, marked by persistent cognitive, neurological, and psychiatric symptoms following acute SARS-CoV-2 infection. Although its underlying mechanisms remain incompletely understood, mounting evidence implicates chronic neuroinflammation as a key driver. Sustained microglial and astrocyte activation, blood-brain barrier disruption, and aberrant cytokine signaling contribute to prolonged immune dysregulation within the central nervous system, promoting long-term brain dysfunction. In this expert review, we synthesize emerging insights into how neuroimmune processes impair brain function in PCS. We explore novel mechanistic pathways - including local sleep intrusions, impaired memory reconsolidation, and astrocyte-mediated destabilization of functional networks - that may underlie the syndrome's fluctuating and heterogeneous presentation. We evaluate fluid biomarkers of neuroinflammation, including glial fibrillary acidic protein (GFAP), soluble TREM2, S100β, and pro-inflammatory cytokines such as interleukin-6 and tumor necrosis factor-α. In parallel, we highlight converging neuroimaging biomarkers derived from PET and MRI studies. These include increased TSPO-PET binding in limbic and frontal regions, alterations in cerebral blood flow and oxygen metabolism, neurometabolic changes detected via MR spectroscopy (e.g., elevated myo-inositol and choline), and increased free water content on diffusion imaging - each suggestive of glial activation and network-level dysfunction. We propose a multiscale, longitudinal framework that integrates molecular, neuroimaging, and behavioral data to link immune dysregulation with brain network instability and symptom emergence. Such integrative approaches are critical for advancing precision diagnostics and informing the development of targeted, mechanism-based treatments for individuals affected by PCS.

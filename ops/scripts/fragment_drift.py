@@ -43,7 +43,7 @@ from difflib import SequenceMatcher
 from pathlib import Path
 
 FRAGMENT_GLOB = "ops/research/fragments-*.md"
-LINE_RE = re.compile(r"^\s*(@[A-Za-z][\w]*)\s*\|([^|]*)\|(.*)$")
+LINE_RE = re.compile(r"^\s*(?:[-*+]\s+)?(@[A-Za-z][\w]*)\s*\|([^|]*)\|(.*)$")
 YEAR_RE = re.compile(r"\b(1[89]\d{2}|20[0-9]{2}|21[0-9]{2})\b")
 FIGURE_RE = re.compile(r"\d+(?:[.,]\d+)?%?")
 QUOTED_RE = re.compile(r'"([^"]{15,})"')

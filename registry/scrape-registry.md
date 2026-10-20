@@ -1515,6 +1515,34 @@ Prevents re-processing of already-integrated content.
 | https://pubmed.ncbi.nlm.nih.gov/15017113/ (Tkaczyk 2004, DOI 10.1159/000077213) | pubmed (via biomcp get) | 2026-10-19 | — | bib/mast-cell.bib (@Tkaczyk2004FcgammaRMastReview), appendix-h, ch08 (rodent-translation caveat) |
 | https://api.unpaywall.org/v2/ (OA status) + https://www.ebi.ac.uk/europepmc/webservices/rest/search (PMC lookup) | unpaywall + europepmc | 2026-10-19 | — | PDF-availability verification (1 OA, 4 unavailable) |
 
+## Chronic CNS/Brain Inflammation (chronic-cns-brain-inflammation) — Literature Search (2026-10-20)
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed + Europe PMC + Semantic Scholar (via BioMCP search/get) | 2026-10-20 | 22 queries across rival framings (F1 persistent driver / F2 compartmentalised / F3 null / F4 downstream) + indirect biochemical links (TREM2/sTREM2, GFAP, YKL-40/CHI3L1, microglial senescence/SASP, IL-6 trans-signalling, complement C1q/C3, IL-1β, leptin). 10 net-new papers added to neuroinflammation.bib. Reused NOT re-added: Nakatomi2014, Raijmakers2021, VanElzakker2019, Alshelh2020, Omdal2026, Yu2026diffusion-neuroinflammation, Zhu2025MetabolicNeuroimaging, Nutma2023, Wendeln2018/Scholz2024/Zhang2025, Frank2024. Null/negative retained: DeBoni2022. |
+| Europe PMC REST (search/core + fullTextXML) | 2026-10-20 | Metadata (authors/journal/vol/pages/full abstract) for all 10 PMIDs. fullTextXML 500-error for Visser (PMC12582180). |
+| PMC OA Archive (opendata S3) | 2026-10-20 | Direct PDFs for 8 papers via `https://pmc-oa-opendata.s3.amazonaws.com/<PMCID>.1/<PMCID>.1.pdf`. Visser (PMC12582180.1) → NoSuchKey (author manuscript, no OA PDF). |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| https://pubmed.ncbi.nlm.nih.gov/42481444/ (Martins 2026) | pubmed/europepmc (biomcp) | 2026-10-20 | — | bib/neuroinflammation.bib (@Martins2026postcovidneuroinflammation), appendix-h |
+| https://www.nature.com/articles/s41398-026-04286-x.pdf (Martins 2026 PDF) | nature.com (OA) | 2026-10-20 | — | Literature/neurological/Martins2026postcovidneuroinflammation/ |
+| https://pubmed.ncbi.nlm.nih.gov/40935606/ (Visser 2025) | pubmed/europepmc (biomcp) | 2026-10-20 | — | bib/long-covid.bib (@Visser2025TSPOfatigue, canonical; reused — duplicate entry removed 2026-10-20), appendix-h — PDF unavailable (J Nucl Med paywall; PMC author-manuscript has no OA PDF) |
+| https://pubmed.ncbi.nlm.nih.gov/41878504/ (Kempuraj 2026) | pubmed/europepmc (biomcp) | 2026-10-20 | — | bib (@Kempuraj2026neurosenescence), appendix-h |
+| https://www.frontiersin.org/journals/aging/articles/10.3389/fragi.2026.1756670/pdf | frontiersin.org (OA) | 2026-10-20 | — | Literature/neurological/Kempuraj2026neurosenescence/ |
+| https://pubmed.ncbi.nlm.nih.gov/35805174/ (Wendimu 2022) | pubmed/europepmc (biomcp) | 2026-10-20 | — | bib (@Wendimu2022microgliaaging), appendix-h |
+| https://pmc-oa-opendata.s3.amazonaws.com/PMC9266143.1/PMC9266143.1.pdf | PMC OA S3 | 2026-10-20 | — | Literature/neurological/Wendimu2022microgliaaging/ |
+| https://pubmed.ncbi.nlm.nih.gov/34715926/ (Matsushita 2021) | pubmed/europepmc (biomcp) | 2026-10-20 | — | bib (@Matsushita2021areapostrema), appendix-h |
+| https://pmc-oa-opendata.s3.amazonaws.com/PMC8556992.1/PMC8556992.1.pdf | PMC OA S3 | 2026-10-20 | — | Literature/neurological/Matsushita2021areapostrema/ |
+| https://pubmed.ncbi.nlm.nih.gov/42683591/ (Morton 2026) | pubmed/europepmc (biomcp) | 2026-10-20 | — | bib (@Morton2026persistentmicroglia), appendix-h |
+| https://pmc-oa-opendata.s3.amazonaws.com/PMC13535888.1/PMC13535888.1.pdf | PMC OA S3 | 2026-10-20 | — | Literature/neurological/Morton2026persistentmicroglia/ |
+| https://pubmed.ncbi.nlm.nih.gov/40400621/ (Carpanini 2025) | pubmed/europepmc (biomcp) | 2026-10-20 | — | bib (@Carpanini2025trem2prion), appendix-h |
+| https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2025.1525017/pdf | frontiersin.org (OA) | 2026-10-20 | — | Literature/neurological/Carpanini2025trem2prion/ |
+| https://pubmed.ncbi.nlm.nih.gov/40052391/ (Wang 2025) | pubmed/europepmc (biomcp) | 2026-10-20 | — | bib (@Wang2025dpa714strem2), appendix-h |
+| https://pmc-oa-opendata.s3.amazonaws.com/PMC11886409.1/PMC11886409.1.pdf | PMC OA S3 | 2026-10-20 | — | Literature/neurological/Wang2025dpa714strem2/ |
+| https://pubmed.ncbi.nlm.nih.gov/36310154/ (de Boni 2022) | pubmed/europepmc (biomcp) | 2026-10-20 | — | bib (@DeBoni2022postcovidheadache), appendix-h |
+| https://pmc-oa-opendata.s3.amazonaws.com/PMC9618412.1/PMC9618412.1.pdf | PMC OA S3 | 2026-10-20 | — | Literature/neurological/DeBoni2022postcovidheadache/ |
+| https://pubmed.ncbi.nlm.nih.gov/42008851/ (Abdelrheem 2026) | pubmed/europepmc (biomcp) | 2026-10-20 | — | bib (@Abdelrheem2026leptinfm), appendix-h — PDF unavailable (Int Immunopharmacol paywall) |
+
 ---
 
 ## Beth Dobbin — Olympic Sprinter With Severe ME (beth-dobbin-olympian-me) — Known-People Addition

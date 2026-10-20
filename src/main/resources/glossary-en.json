@@ -12842,5 +12842,60 @@
     "label": "immune complex",
     "category": "concept",
     "definition": "A cluster of antigen bound by antibody. Multivalent IgG immune complexes are the form that cross-links Fcγ receptors on mast cells and other immune cells."
+  },
+  "ARG1": {
+    "label": "ARG1",
+    "category": "enzyme",
+    "definition": "Arginase-1: an enzyme expressed by alternatively activated (reparative) macrophages and microglia. High ARG1 marks a resolution-oriented cell state rather than a pro-inflammatory one."
+  },
+  "LGI1": {
+    "label": "LGI1",
+    "category": "protein",
+    "definition": "Leucine-rich glioma-inactivated 1: a neuronal secreted protein; autoantibodies against it cause a limbic encephalitis used in this book as a cross-disease model of microglial activation and TSPO-PET signal."
+  },
+  "TREM2": {
+    "label": "TREM2",
+    "category": "protein",
+    "definition": "Triggering receptor expressed on myeloid cells 2: a microglial surface receptor that regulates phagocytosis, survival, and the switch between reactive states. Loss of function worsens pathology in animal models."
+  },
+  "sTREM2": {
+    "label": "sTREM2",
+    "category": "protein",
+    "definition": "Soluble form of TREM2 shed into cerebrospinal fluid; used as a fluid marker of microglial reactivity, with the caveat that it reflects shedding rather than cell number."
+  },
+  "CHI3L1": {
+    "label": "CHI3L1 (YKL-40)",
+    "category": "protein",
+    "definition": "Chitinase-3-like protein 1, also called YKL-40: a secreted glycoprotein produced by activated astrocytes and microglia; a candidate cerebrospinal fluid marker of glial activation."
+  },
+  "YKL-40": {
+    "label": "YKL-40 (CHI3L1)",
+    "category": "protein",
+    "definition": "Alternative name for chitinase-3-like protein 1, a candidate cerebrospinal fluid marker of astroglial and microglial activation."
+  },
+  "P2Y12R": {
+    "label": "P2Y12R",
+    "category": "receptor",
+    "definition": "P2Y12 purinergic receptor: a microglial receptor for ADP/ATP that reports a homeostatic or reparative microglial state and is downregulated during classic pro-inflammatory activation."
+  },
+  "iNOS": {
+    "label": "iNOS",
+    "category": "enzyme",
+    "definition": "Inducible nitric oxide synthase: an enzyme producing nitric oxide during pro-inflammatory activation; a standard marker of the classically activated (M1-like) microglial state in animal tissue."
+  },
+  "DPA-714": {
+    "label": "DPA-714",
+    "category": "imaging",
+    "definition": "A second-generation TSPO-binding PET tracer labelled with fluorine-18, used to quantify neuroinflammation in vivo with better specificity and kinetics than first-generation ligands."
+  },
+  "myo-inositol": {
+    "label": "Myo-inositol",
+    "category": "metabolite",
+    "definition": "A glia-enriched brain metabolite measured by magnetic resonance spectroscopy; it rises with astroglial activation and is used as an indirect index of glial state."
+  },
+  "PPV/NPV": {
+    "label": "PPV / NPV",
+    "category": "method",
+    "definition": "Positive and negative predictive value: the probability that a positive or negative test result is correct in the tested population; unlike sensitivity and specificity, they depend on prevalence."
   }
 }

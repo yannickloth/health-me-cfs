@@ -29509,10 +29509,10 @@ sec-bib-rf-elevated-mecfs-duplicate
 
     *Full Citation:*: Visser D, Golla SSV, Palard-Novello X, et al.\ Varying levels of inflammatory activity in brain and body of patients with persistent fatigue and difficulty concentrating after COVID-19: a TSPO PET study. _Journal of Nuclear Medicine_. 2025;66(11):1787--1794. @Visser2025TSPOfatigue
     *DOI:*: #link("https://doi.org/10.2967/jnumed.124.269297")[10.2967/jnumed.124.269297]
-    *Sample Size:*: n=27 post-COVID fatigue, n=18 controls
-    *Key Findings:*: Variable TSPO binding — subset increased, subset decreased — highlighting neuroinflammatory heterogeneity in long COVID
-    *ME/CFS Relevance:*: Neuroinflammatory heterogeneity likely also present in ME/CFS, complicating interpretation of Raijmakers 2022 null finding.
-    *Certainty Assessment:*: - *Quality:* Medium-high - *Sample:* Moderate (n=27) - *Replication:* Partially consistent with Braga 2023 - *Score:* 0.55
+    *Sample Size:*: n=47 post-COVID (33 with severe fatigue/concentration, 14 without), 27±9 months post-infection; whole-body [18F]DPA-714 TSPO PET with arterial input
+    *Key Findings:*: "Globally increased cerebral [18F]DPA-714 binding in some individuals" with persistent complaints; *no* group-level extracerebral differences; cerebral and extracerebral binding uncorrelated with each other or with severity — "indicating the presence of an inflammatory subtype"
+    *ME/CFS Relevance:*: Neuroinflammatory heterogeneity is likely also present in ME/CFS, complicating interpretation of the Raijmakers 2022 null TSPO finding. The chronicity axis (27 months post-infection) is the longest TSPO-PET follow-up window in a post-viral-fatigue population.
+    *Certainty Assessment:*: - *Quality:* High (second-generation tracer, arterial input) - *Sample:* Moderate (n=47) - *Replication:* Single study - *Score:* 0.55 raw → population weight 0.85 → discounted 0.47
 
 === VanElzakker et al.\ 2024 — Vascular-Linked TSPO in PASC
 
@@ -44707,3 +44707,180 @@ This stream assembles evidence for the claim that pathological fatigue across au
     - *Sample:* Medium (n=80)
     - *Replication:* None
     - *Score:* 0.50
+
+=== Martins 2026 — Post-COVID Syndrome Neuroinflammation (chronicity review)
+@Martins2026postcovidneuroinflammation
+
+/ *Full Citation:*: Martins D, Beckman D, Loggia M, Costanza A, Borsini A. Understanding neuroinflammation in post-COVID-19 syndrome: biological mechanisms, diagnostic biomarkers, and therapeutic prospects. _Translational Psychiatry_. 2026;16(1):564.
+/ *DOI:*: #link("https://doi.org/10.1038/s41398-026-04286-x")[10.1038/s41398-026-04286-x]
+/ *PMID:*: 42481444
+/ *Study Design:*: Expert review
+/ *Population:*: Post-COVID-19 syndrome (Long COVID parallel population)
+/ *Diagnostic Criteria:*: N/A (review)
+/ *Key Findings:*:
+    - "chronic neuroinflammation as a key driver" of PCS; "Sustained microglial and astrocyte activation, blood-brain barrier disruption, and aberrant cytokine signaling"
+    - Fluid biomarkers reviewed: GFAP, soluble TREM2, S100β, IL-6, TNF-α
+    - Neuroimaging: TSPO-PET limbic/frontal, MRS myo-inositol/choline, free-water diffusion
+/ *Conclusion:*: Chronic neuroinflammation is a convergent driver of persistent PCS symptoms; proposed mechanisms (local sleep intrusions, impaired memory reconsolidation, astrocyte network destabilisation).
+/ *Limitations:*: Review (no primary data); Long COVID population, not ME/CFS-specific.
+/ *Certainty Assessment:*:
+    - *Quality:* Medium (review)
+    - *Sample:* N/A
+    - *Replication:* N/A
+    - *Score:* 0.45 (raw); population weight 0.85 → 0.38
+
+=== Kempuraj 2026 — Neurosenescence, Inflammaging, Neuroinflammation
+@Kempuraj2026neurosenescence
+
+/ *Full Citation:*: Kempuraj D, Ramesh Babu PR, Jayakumar N, et al. Neurosenescence, inflammaging and neuroinflammation in neurodegenerative disorders. _Frontiers in Aging_. 2026;7:1756670.
+/ *DOI:*: #link("https://doi.org/10.3389/fragi.2026.1756670")[10.3389/fragi.2026.1756670]
+/ *PMID:*: 41878504
+/ *Study Design:*: Review (chronicity mechanism)
+/ *Diagnostic Criteria:*: N/A (review)
+/ *Key Findings:*:
+    - Senescence-associated secretory phenotype (SASP): IL-6, IGFBPs, TGF-β, MMP-10 drive inflammaging
+    - Microglial senescence sustains low-grade persistent neuroinflammation
+/ *Conclusion:*: Cellular/microglial senescence is a candidate mechanism converting transient neuroinflammation into a chronic self-sustaining state.
+/ *Limitations:*: Neurodegenerative/general population focus; no ME/CFS data.
+/ *Certainty Assessment:*:
+    - *Quality:* Medium (review)
+    - *Sample:* N/A
+    - *Replication:* N/A
+    - *Score:* 0.45 (raw); population weight 0.75 → 0.34
+
+=== Wendimu 2022 — Microglia Phenotypes in Aging
+@Wendimu2022microgliaaging
+
+/ *Full Citation:*: Wendimu MY, Hooks SB. Microglia Phenotypes in Aging and Neurodegenerative Diseases. _Cells_. 2022;11(13):2091.
+/ *DOI:*: #link("https://doi.org/10.3390/cells11132091")[10.3390/cells11132091]
+/ *PMID:*: 35805174
+/ *Study Design:*: Review (275 citations)
+/ *Diagnostic Criteria:*: N/A (review)
+/ *Key Findings:*:
+    - "chronically activated microglia in patients with various acute and chronic neuropathological diseases"
+    - Aged microglia adopt dystrophic/senescent morphology with a primed hyper-responsive phenotype
+    - Biphasic M1/M2 response depends on insult nature and duration
+/ *Conclusion:*: Microglial senescence/priming is a mechanistic basis for chronic (vs acute) neuroinflammation.
+/ *Limitations:*: Neurodegenerative/general population focus; no ME/CFS data.
+/ *Certainty Assessment:*:
+    - *Quality:* Medium-High (highly cited review)
+    - *Sample:* N/A
+    - *Replication:* N/A
+    - *Score:* 0.50 (raw); population weight 0.75 → 0.38
+
+=== Matsushita 2021 — Sustained Microglia in Area Postrema
+@Matsushita2021areapostrema
+
+/ *Full Citation:*: Matsushita T, Otani K, Oto Y, Takahashi Y, Kurosaka D, Kato F. Sustained microglial activation in the area postrema of collagen-induced arthritis mice. _Arthritis Research & Therapy_. 2021;23(1):273.
+/ *DOI:*: #link("https://doi.org/10.1186/s13075-021-02657-x")[10.1186/s13075-021-02657-x]
+/ *PMID:*: 34715926
+/ *Study Design:*: Animal (mouse collagen-induced arthritis)
+/ *Diagnostic Criteria:*: N/A (animal)
+/ *Key Findings:*:
+    - "sustained microglial activation in the AP accompanied persistent peripheral inflammation"
+    - Microglial IL-1β mRNA observed in area postrema during chronic phase (PID 35)
+/ *Conclusion:*: Chronic peripheral inflammation sustains microglial activation in a BBB-deficient circumventricular organ (area postrema) — a route for peripheral→CNS chronic neuroinflammation.
+/ *Limitations:*: Animal model; rheumatoid arthritis not ME/CFS.
+/ *Certainty Assessment:*:
+    - *Quality:* Medium (animal)
+    - *Sample:* N/A (mice)
+    - *Replication:* Single study
+    - *Score:* 0.35 (raw); population weight 0.50 → 0.18
+
+=== Morton 2026 — Persisting Microglia in Colitis Remission
+@Morton2026persistentmicroglia
+
+/ *Full Citation:*: Morton L, Villafuerte LE, Garza AP, et al. Persisting Region-Specific Microglia Activation and Synaptic Imbalance During Remission in a DSS-Induced Colitis Model. _Glia_. 2026;74(11):e70208.
+/ *DOI:*: #link("https://doi.org/10.1002/glia.70208")[10.1002/glia.70208]
+/ *PMID:*: 42683591
+/ *Study Design:*: Animal (mouse chronic DSS colitis, 3 cycles + remission)
+/ *Diagnostic Criteria:*: N/A (animal)
+/ *Key Findings:*:
+    - Cortical microglia sustain an iNOS-enriched activation state during remission (after peripheral inflammation resolved)
+    - VGLUT1+ glutamatergic synaptosomes increased, VGAT+ GABAergic declined → excitatory-inhibitory synaptic imbalance
+    - Hippocampal microglia adopt ARG1-dominant TREM2/P2Y12R-enriched reparative phenotype
+/ *Conclusion:*: CNS microglial activation and synaptic remodelling OUTLAST the peripheral inflammatory trigger — direct evidence of a CNS "memory" of chronic inflammation.
+/ *Limitations:*: Animal model; ulcerative colitis not ME/CFS.
+/ *Certainty Assessment:*:
+    - *Quality:* Medium-High (animal, region-specific single-cell resolution)
+    - *Sample:* N/A (mice, n=8/group ×2)
+    - *Replication:* Single study
+    - *Score:* 0.40 (raw); population weight 0.50 → 0.20
+
+=== Carpanini 2025 — TREM2 in Chronic Prion Neuroinflammation
+@Carpanini2025trem2prion
+
+/ *Full Citation:*: Carpanini SM, Bradford BM, Alfieri A, et al. TREM2 supports neuronal protection and microglial reactivity without an effect on misfolded protein deposition in chronic neurodegenerative prion disease. _Frontiers in Neuroscience_. 2025;19:1525017.
+/ *DOI:*: #link("https://doi.org/10.3389/fnins.2025.1525017")[10.3389/fnins.2025.1525017]
+/ *PMID:*: 40400621
+/ *Study Design:*: Animal (mouse ME7 prion model, Trem2 knockout)
+/ *Diagnostic Criteria:*: N/A (animal)
+/ *Key Findings:*:
+    - Neuropathology increased in Trem2−/− mice despite similar misfolded protein deposition
+    - Blunted disease-induced microglial reactivity in Trem2−/− mice
+/ *Conclusion:*: TREM2 regulates the microglial reactivity and neuroprotection that shape chronic neuroinflammation — a marker/mediator axis for chronicity.
+/ *Limitations:*: Animal model; prion disease not ME/CFS.
+/ *Certainty Assessment:*:
+    - *Quality:* Medium (animal, mechanistic)
+    - *Sample:* N/A (mice)
+    - *Replication:* Single study
+    - *Score:* 0.35 (raw); population weight 0.50 → 0.18
+
+=== Wang 2025 — DPA714 PET & CSF sTREM2 in Anti-LGI1 Encephalitis
+@Wang2025dpa714strem2
+
+/ *Full Citation:*: Wang J, Ge J, Deng B, et al. Microglial Activation Visualized by [18F]-DPA714 PET Is a Potential Marker of Severity and Prognosis for Anti-LGI1 Encephalitis. _European Journal of Neurology_. 2025;32(3):e70107.
+/ *DOI:*: #link("https://doi.org/10.1111/ene.70107")[10.1111/ene.70107]
+/ *PMID:*: 40052391
+/ *Study Design:*: Cross-sectional cohort + prognostic follow-up
+/ *Sample Size:*: n=46 anti-LGI1 encephalitis + non-inflammatory controls
+/ *Diagnostic Criteria:*: Anti-LGI1 antibody encephalitis (clinical)
+/ *Key Findings:*:
+    - Increased TSPO uptake in hippocampus, frontal cortex, caudate
+    - "CSF-sTREM2 concentration positively correlated with [18F]-DPA714 PET SUVRc in the hippocampus (R² = 0.18, p = 0.04)"
+    - Hippocampal uptake predicted prognosis
+/ *Conclusion:*: sTREM2 is a CSF microglial-activation biomarker that tracks TSPO-PET; supports sTREM2 as a fluid readout of (chronic) neuroinflammation.
+/ *Limitations:*: Encephalitis (acute/subacute autoimmune), not ME/CFS; single center.
+/ *Certainty Assessment:*:
+    - *Quality:* Medium-High (human, second-gen tracer)
+    - *Sample:* Medium (n=46)
+    - *Replication:* Single study
+    - *Score:* 0.50 (raw); population weight 0.75 → 0.38
+
+=== De Boni 2022 — Null GFAP/NfL in Post-COVID Headache
+@DeBoni2022postcovidheadache
+
+/ *Full Citation:*: de Boni L, Odainic A, Gancarczyk N, et al. No serological evidence for neuronal damage or reactive gliosis in neuro-COVID-19 patients with long-term persistent headache. _Neurological Research and Practice_. 2022;4(1):53.
+/ *DOI:*: #link("https://doi.org/10.1186/s42466-022-00217-5")[10.1186/s42466-022-00217-5]
+/ *PMID:*: 36310154
+/ *Study Design:*: Pilot serological letter (case-control)
+/ *Diagnostic Criteria:*: Post-COVID persistent headache (>12 weeks; custom)
+/ *Key Findings:*:
+    - NfL and GFAP "were lower in blood from patients with persistent Post-COVID-19 headache compared to patients with severe COVID-19"
+    - No evidence of neuronal damage or reactive gliosis in chronic post-COVID headache
+/ *Conclusion:*: NULL/negative evidence — chronic post-COVID CNS symptoms can occur without detectable neuronal-damage or astrogliosis blood biomarkers.
+/ *Limitations:*: Pilot letter; headache-specific; small n; blood (not CSF/PET).
+/ *Certainty Assessment:*:
+    - *Quality:* Low-Medium (pilot)
+    - *Sample:* Small
+    - *Replication:* Consistent with Omdal 2026 NfL/GFAP null
+    - *Score:* 0.35 (raw); population weight 0.85 → 0.30
+
+=== Abdelrheem 2026 — Leptin-Driven Microglia in Fibromyalgia
+@Abdelrheem2026leptinfm
+
+/ *Full Citation:*: Abdelrheem NM, Ahmed MAE, Mohamed AF, Shalaby HN, El Sayed NS. Leptin-driven microglial activation in fibromyalgia: mechanistic insights and therapeutic implications. _International Immunopharmacology_. 2026;180:116657.
+/ *DOI:*: #link("https://doi.org/10.1016/j.intimp.2026.116657")[10.1016/j.intimp.2026.116657]
+/ *PMID:*: 42008851
+/ *Study Design:*: Review (indirect metabolic-immune link)
+/ *Diagnostic Criteria:*: N/A (review)
+/ *Key Findings:*:
+    - Leptin (adipocyte-derived cytokine) links peripheral metabolic cues to CNS inflammation
+    - Leptin receptor-mediated JAK2/STAT3, MAPK/ERK, PI3K/Akt promote reactive microglial states and central sensitization
+/ *Conclusion:*: A peripheral metabolic signal (leptin) can sustain microglial activation in a chronic fatigue/pain condition — indirect biochemical route for chronic CNS inflammation.
+/ *Limitations:*: Review; fibromyalgia (not ME/CFS); PDF paywalled (abstract-only).
+/ *Certainty Assessment:*:
+    - *Quality:* Low-Medium (review)
+    - *Sample:* N/A
+    - *Replication:* N/A
+    - *Score:* 0.40 (raw); population weight 0.80 → 0.32

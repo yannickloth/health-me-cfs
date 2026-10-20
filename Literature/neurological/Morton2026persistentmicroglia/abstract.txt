@@ -1,0 +1,12 @@
+# Persisting Region-Specific Microglia Activation and Synaptic Imbalance During Remission in a DSS-Induced Colitis Model.
+
+**Authors:** Morton L, Villafuerte LE, Garza AP, Lindemann N, Wider-Eberspächer E, Bruder D, Dunay IR.
+**Journal:** Glia, 2026, vol 74, issue 11, pages e70208
+**DOI:** 10.1002/glia.70208
+**PMID:** 42683591
+**PMCID:** PMC13535888
+**URL:** https://pubmed.ncbi.nlm.nih.gov/42683591/
+**Retrieved:** 2026-10-20
+
+## Abstract
+Ulcerative colitis (UC) patients experience cycles of active gut inflammation and remission, with neuropsychiatric comorbidities persisting even during clinical remission. While the dextran sulfate sodium (DSS) mouse model was previously applied to study gut-brain interactions, those studies focused on acute protocols missing the chronic, relapsing-remitting nature of human UC, when patients continue to experience central nervous system symptoms. Thus, we employed a chronic DSS treatment regimen comprising three cycles of active intestinal inflammation followed by remission phases to investigate region-specific microglial dynamics and their functional consequences on neuronal synapses. Transient blood-brain barrier alteration was detected during active chronic inflammation that was resolved during remission. Cortical microglia exhibited sustained iNOS-enriched activation state during remission, which coincided with synaptic imbalance: VGLUT1+ glutamatergic synaptosomes increased significantly in remission, while VGAT+ GABAergic vesicles declined, alongside suppressed neuronal c-fos expression. Hippocampal microglia adopted an ARG1-dominant phenotype with enriched TREM2, P2Y12R, and F4/80 expression during remission, indicating a phagocytic, reparative state. Hippocampal synaptosome analysis revealed selective excitatory enhancement with preserved inhibitory markers. Morphological analysis confirmed region-specific remodeling: cortical microglia displayed delayed process elaboration during remission, while hippocampal responses varied from transient (CA1) to persistent (CA3) somatic hypertrophy. These findings establish that remission from peripheral inflammation does not fully restore brain immune homeostasis. Persistent, region-specific microglial reactivity with cortical pro-inflammatory states associated with synaptic dysfunction and hippocampal adaptive responses preserving circuit integrity provides a mechanistic understanding for neuropsychiatric comorbidities in UC and suggests that brain-targeted therapies may be required to address the full disease burden.

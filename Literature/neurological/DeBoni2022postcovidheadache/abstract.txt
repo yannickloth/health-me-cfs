@@ -1,0 +1,12 @@
+# No serological evidence for neuronal damage or reactive gliosis in neuro-COVID-19 patients with long-term persistent headache.
+
+**Authors:** de Boni L, Odainic A, Gancarczyk N, Kaluza L, Strassburg CP, Kersting XAK, Johnson JM, Wüllner U, Schmidt SV, Nattermann J, Petzold GC.
+**Journal:** Neurological research and practice, 2022, vol 4, issue 1, pages 53
+**DOI:** 10.1186/s42466-022-00217-5
+**PMID:** 36310154
+**PMCID:** PMC9618412
+**URL:** https://pubmed.ncbi.nlm.nih.gov/36310154/
+**Retrieved:** 2026-10-20
+
+## Abstract
+Recent studies have indicated that long-term neurological sequelae after COVID-19 are not accompanied by an increase of canonical biomarkers of central nervous system injury in blood, but subgroup stratifications are lacking. This is a particular concern in chronic headache, which can be a leading symptom of Post-COVID diseases associated with neuronal damage such as vasculitis or autoimmune encephalitis. We here compared patients with mild Post-COVID-19 syndrome and persistent headache (persistent Post-COVID-19 headache) lasting longer than 12 weeks after the initial serological diagnosis, to patients with mild and severe COVID-19 and COVID-19-negative controls. Levels of neurofilament light chain and glial fibrillary astrocytic protein, i.e. markers of neuronal damage and reactive astrogliosis, were lower in blood from patients with persistent Post-COVID-19 headache compared to patients with severe COVID-19. Hence, our pilot serological study indicates that long-term Post-COVID-19 headache may not be a sign of underlying neuronal damage or neuroinflammation.
