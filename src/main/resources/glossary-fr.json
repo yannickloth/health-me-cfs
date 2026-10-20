@@ -27,7 +27,8 @@
     "definition": "Syndrome de fatigue chronique / Encéphalomyélite myalgique : une maladie neuro-immune chronique, complexe et multisystémique, caractérisée par une fatigue sévère, un malaise post-effort, un sommeil non réparateur, un dysfonctionnement cognitif et une dérégulation autonome.",
     "also": "Code CIM-11 8E49 ; appelé aussi ME, CFS, ME/CFS, SEID",
     "synonyms": [
-      "Syndrome de fatigue chronique / Encéphalomyélite myalgique"
+      "Syndrome de fatigue chronique / Encéphalomyélite myalgique",
+      "EM/SFC"
     ]
   },
   "PEM": {
@@ -1222,7 +1223,8 @@
     "category": "imaging",
     "definition": "Tomographie par émission de positons : imagerie nucléaire de l'activité métabolique. Les études TEP dans l'EM/SFC montrent une neuro-inflammation (activation microgliale) et des anomalies métaboliques.",
     "synonyms": [
-      "Tomographie par émission de positons"
+      "Tomographie par émission de positons",
+      "TEP"
     ]
   },
   "CT": {
@@ -4179,11 +4181,17 @@
     "definition": "Un déséquilibre entre la production d'espèces réactives de l'oxygène (ROS) et les défenses antioxydantes, conduisant à des dommages oxydatifs des lipides, des protéines et de l'ADN. L'une des anomalies biologiques les plus constamment reproduites dans l'EM/SFC, soutenant l'hypothèse du cycle NO/ONOO.",
     "synonyms": []
   },
+  "Neuroinflammation": {
+    "alias": "neuroinflammation"
+  },
   "neuroinflammation": {
     "label": "neuroinflammation",
     "category": "pathway",
     "definition": "Activation inflammatoire de la microglie et des astrocytes dans le SNC, produisant des cytokines, des chimiokines et des espèces réactives. L'imagerie TEP et les études du LCR confirment la neuroinflammation dans l'EM/SFC, en particulier dans le tronc cérébral, le thalamus et le cortex.",
-    "synonyms": []
+    "synonyms": [
+      "neuro-inflammation",
+      "neuroinflammation"
+    ]
   },
   "central sensitization": {
     "label": "central sensitization",
@@ -4427,17 +4435,27 @@
     "definition": "Une région corticale repliée profondément dans le sillon latéral, intégrant les signaux intéroceptifs (conscience de l'état corporel) au traitement émotionnel et cognitif. Le dysfonctionnement insulaire dans l'EM/SFC peut expliquer une intéroception altérée — la sensation que « le corps ne va pas bien » — et une dérégulation autonome.",
     "synonyms": []
   },
+  "Amygdala": {
+    "alias": "amygdala"
+  },
   "amygdala": {
     "label": "amygdala",
     "category": "anatomy",
     "definition": "Une structure en forme d'amande dans le lobe temporal médiant la peur, l'anxiété et la saillance émotionnelle. L'hyperactivité amygdalienne dans l'EM/SFC peut entraîner hypervigilance, anxiété et réponses au stress exagérées.",
-    "synonyms": []
+    "synonyms": [
+      "amygdale"
+    ]
+  },
+  "Hippocampus": {
+    "alias": "hippocampus"
   },
   "hippocampus": {
     "label": "hippocampus",
     "category": "anatomy",
     "definition": "Une structure en forme d'hippocampe dans le lobe temporal médial, critique pour la formation de la mémoire, la navigation spatiale et la rétroaction négative de l'axe HPA. Un volume hippocampique réduit a été rapporté dans l'EM/SFC, possiblement en raison d'effets chroniques du cortisol/de la neuroinflammation.",
-    "synonyms": []
+    "synonyms": [
+      "hippocampe"
+    ]
   },
   "brainstem": {
     "label": "brainstem",
@@ -4477,7 +4495,10 @@
     "label": "systematic review",
     "category": "method",
     "definition": "Une revue exhaustive utilisant des méthodes explicites et reproductibles pour identifier, évaluer et synthétiser toutes les études pertinentes sur une question spécifique. Le gold standard pour la synthèse des preuves dans l'EM/SFC ; les directives NICE 2021 ont été éclairées par des revues systématiques.",
-    "synonyms": []
+    "synonyms": [
+      "revue systématique",
+      "revues systématiques"
+    ]
   },
   "Mendelian randomization": {
     "label": "Mendelian randomization",
@@ -4632,7 +4653,10 @@
     "label": "microglia",
     "category": "immune",
     "definition": "Les cellules immunitaires résidentes du SNC, surveillant continuellement l'environnement cérébral. Les cellules microgliales activées dans l'EM/SFC passent d'un état de surveillance à un état pro-inflammatoire, produisant des cytokines, des ROS et de l'acide quinolinique qui entraînent la neuroinflammation.",
-    "synonyms": []
+    "synonyms": [
+      "microglie",
+      "microglies"
+    ]
   },
   "astrocyte": {
     "label": "astrocyte",
@@ -4828,11 +4852,17 @@
     "definition": "Un sous-type de maladie défini par un mécanisme biologique distinct (plutôt que par les seuls symptômes). L'EM/SFC est de plus en plus conceptualisée comme une collection d'endotypes : auto-immun, métabolique, neuro-inflammatoire, hyperadrénergique, hypovolémique, tissu conjonctif — chacun nécessitant des approches de traitement différentes.",
     "synonyms": []
   },
+  "Biomarker": {
+    "alias": "biomarker"
+  },
   "biomarker": {
     "label": "biomarker",
     "category": "concept",
     "definition": "Un indicateur biologique mesurable d'un état pathologique, de sa gravité ou de la réponse au traitement. Aucun biomarqueur diagnostique validé n'existe pour l'EM/SFC, bien que les candidats incluent le CPET sur 2 jours, les panels de cytokines, les signatures métabolomiques, le sommeil EEG à ondes alpha-delta et les profils microARN.",
-    "synonyms": []
+    "synonyms": [
+      "biomarqueur",
+      "biomarqueurs"
+    ]
   },
   "heterogeneity": {
     "label": "heterogeneity",
@@ -11021,7 +11051,11 @@
   "GABAergic": {
     "label": "GABAergique",
     "category": "biochemical",
-    "definition": "Relatif au GABA, le principal neurotransmetteur inhibiteur du cerveau. La signalisation GABAergique atténue l'excitation neuronale ; une réduction du tonus inhibiteur GABAergique est un déséquilibre excitation/inhibition proposé à la fois dans le syndrome d'Angelman et l'EM/SFC."
+    "definition": "Relatif au GABA, le principal neurotransmetteur inhibiteur du cerveau. La signalisation GABAergique atténue l'excitation neuronale ; une réduction du tonus inhibiteur GABAergique est un déséquilibre excitation/inhibition proposé à la fois dans le syndrome d'Angelman et l'EM/SFC.",
+    "synonyms": [
+      "GABAergique",
+      "GABAergiques"
+    ]
   },
   "mAChR": {
     "label": "Récepteur muscarinique de l'acétylcholine (mAChR)",

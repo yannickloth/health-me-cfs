@@ -149,7 +149,13 @@
   "GABAergic": {
     "label": "GABAerg",
     "category": "biochemical",
-    "definition": "Bezüglich GABA, dem wichtigsten inhibitorischen Neurotransmitter des Gehirns. GABAerge Signalgebung dämpft die neuronale Erregung; eine reduzierte GABAerge (inhibitorische) Tonlage ist ein Erregungs-Inhibitions-Ungleichgewicht, das sowohl beim Angelman-Syndrom als auch bei ME/CFS vorgeschlagen wird."
+    "definition": "Bezüglich GABA, dem wichtigsten inhibitorischen Neurotransmitter des Gehirns. GABAerge Signalgebung dämpft die neuronale Erregung; eine reduzierte GABAerge (inhibitorische) Tonlage ist ein Erregungs-Inhibitions-Ungleichgewicht, das sowohl beim Angelman-Syndrom als auch bei ME/CFS vorgeschlagen wird.",
+    "synonyms": [
+      "GABAerg",
+      "GABAerge",
+      "GABAergen",
+      "GABAerger"
+    ]
   },
   "GES": {
     "label": "GES",
@@ -613,7 +619,8 @@
     "category": "fluid",
     "definition": "Liquor cerebrospinalis: die klare Flüssigkeit, die das Gehirn und das Rückenmark umgibt. ME/CFS-Liquorstudien zeigen erhöhte Zytokine, Laktat und andere metabolische Anomalien.",
     "synonyms": [
-      "Liquor cerebrospinalis"
+      "Liquor cerebrospinalis",
+      "Liquor"
     ]
   },
   "TRIM28": {
@@ -1193,7 +1200,8 @@
     "category": "condition",
     "definition": "Multiple Sklerose: eine demyelinisierende Autoimmunerkrankung des ZNS. Erschöpfung ist das häufigste Symptom der MS; MS ist eine zentrale Differentialdiagnose für ME/CFS.",
     "synonyms": [
-      "Multiple Sklerose"
+      "Multiple Sklerose",
+      "Multiplen Sklerose"
     ]
   },
   "PD": {
@@ -1398,7 +1406,10 @@
         "sideEffects": "Schlaflosigkeit/Wachheit, wenn die Orexin-Enthemmung die Sedierungseffekte übertrifft; kann paradoxerweise die Erschöpfung verstärken, wenn die Orexin-Neuronen zu verarmt sind, um zu reagieren."
       }
     ],
-    "synonyms": []
+    "synonyms": [
+      "niedrig dosiertes Naltrexon",
+      "Naltrexon in niedriger Dosis"
+    ]
   },
   "IVIG": {
     "label": "IVIG",
@@ -1612,7 +1623,9 @@
     "label": "BMI",
     "category": "measurement",
     "definition": "Body-Mass-Index: ein Verhältnis von Gewicht zu Körpergröße. Kein diagnostisches Werkzeug für ME/CFS; Gewichtsveränderungen (Zu- oder Abnahme) können jedoch aufgrund verminderter Aktivität, metabolischer Verschiebungen oder komorbider Erkrankungen auftreten.",
-    "synonyms": []
+    "synonyms": [
+      "Body-Mass-Index"
+    ]
   },
   "BP": {
     "label": "BP",
@@ -4499,6 +4512,9 @@
     "definition": "Ein Ungleichgewicht zwischen der Produktion reaktiver Sauerstoffspezies (ROS) und den antioxidativen Abwehrmechanismen, das zu oxidativer Schädigung von Lipiden, Proteinen und DNA führt. Einer der am konsistentesten replizierten biologischen Befunde bei ME/CFS, der die NO/ONOO-Zyklus-Hypothese antreibt.",
     "synonyms": []
   },
+  "Neuroinflammation": {
+    "alias": "neuroinflammation"
+  },
   "neuroinflammation": {
     "label": "neuroinflammation",
     "category": "pathway",
@@ -4752,11 +4768,17 @@
     "definition": "Eine kortikale Region, die tief im lateralen Sulcus gefaltet ist und interozeptive Signale (Bewusstsein des Körperzustands) mit emotionaler und kognitiver Verarbeitung integriert. Eine Insula-Dysfunktion bei ME/CFS kann veränderte Interozeption — das Gefühl, der Körper sei „nicht richtig“ — und autonome Dysregulation erklären.",
     "synonyms": []
   },
+  "Amygdala": {
+    "alias": "amygdala"
+  },
   "amygdala": {
     "label": "amygdala",
     "category": "anatomy",
     "definition": "Eine mandelförmige Struktur im Temporallappen, die Angst, Furcht und emotionale Salienz vermittelt. Eine Amygdala-Hyperaktivität bei ME/CFS kann Hypervigilanz, Angst und übertriebene Stressreaktionen antreiben.",
     "synonyms": []
+  },
+  "Hippocampus": {
+    "alias": "hippocampus"
   },
   "hippocampus": {
     "label": "hippocampus",
@@ -4802,7 +4824,10 @@
     "label": "systematic review",
     "category": "method",
     "definition": "Ein umfassendes Review, das explizite, reproduzierbare Methoden verwendet, um alle relevanten Studien zu einer bestimmten Frage zu identifizieren, zu bewerten und zu synthetisieren. Der Goldstandard für die Evidenzsynthese bei ME/CFS; die NICE-Leitlinien 2021 wurden durch systematische Reviews informiert.",
-    "synonyms": []
+    "synonyms": [
+      "systematische Übersicht",
+      "systematische Übersichtsarbeit"
+    ]
   },
   "Mendelian randomization": {
     "label": "Mendelian randomization",
@@ -4955,7 +4980,10 @@
     "label": "microglia",
     "category": "immune",
     "definition": "Die ansässigen Immunzellen des ZNS, die die Gehirnumgebung kontinuierlich überwachen. Aktivierte Mikroglia bei ME/CFS wechseln von einem überwachenden zu einem pro-inflammatorischen Zustand und produzieren Zytokine, ROS und Chinolinsäure, die die Neuroinflammation antreiben.",
-    "synonyms": []
+    "synonyms": [
+      "Mikroglia",
+      "Mikrogliazellen"
+    ]
   },
   "astrocyte": {
     "label": "astrocyte",
@@ -5150,6 +5178,9 @@
     "category": "concept",
     "definition": "Eine Krankheitssubtyp, der durch einen distinkten biologischen Mechanismus definiert ist (statt nur durch Symptome). ME/CFS wird zunehmend als eine Sammlung von Endotypen konzipiert: autoimmun, metabolisch, neuroinflammatorisch, hyperadrenerg, hypovolämisch, Bindegewebe — jeder erfordert unterschiedliche Behandlungsansätze.",
     "synonyms": []
+  },
+  "Biomarker": {
+    "alias": "biomarker"
   },
   "biomarker": {
     "label": "biomarker",

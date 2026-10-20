@@ -933,7 +933,11 @@
   "BMI": {
     "label": "BMI",
     "category": "measurement",
-    "definition": "Body Mass Index: weight-to-height ratio. Not a diagnostic tool for ME/CFS; however, weight changes (gain or loss) can occur due to reduced activity, metabolic shifts, or comorbid conditions."
+    "definition": "Body Mass Index: weight-to-height ratio. Not a diagnostic tool for ME/CFS; however, weight changes (gain or loss) can occur due to reduced activity, metabolic shifts, or comorbid conditions.",
+    "synonyms": [
+      "body-mass index",
+      "body mass index"
+    ]
   },
   "BNP": {
     "label": "BNP",
@@ -4920,6 +4924,10 @@
         "mechanism": "Orexin disinhibition via hypothalamic TLR4 blockade.",
         "sideEffects": "Insomnia/wakefulness if orexin disinhibition overtakes sedation effects; may paradoxically increase fatigue if orexin neurons are too depleted to respond."
       }
+    ],
+    "synonyms": [
+      "low-dose naltrexone",
+      "low dose naltrexone"
     ]
   },
   "LFDRR": {
@@ -5471,7 +5479,11 @@
   "MS": {
     "label": "MS",
     "category": "condition",
-    "definition": "Multiple Sclerosis: a demyelinating autoimmune disease of the CNS. Fatigue is the most common symptom of MS; MS is a key differential diagnosis for ME/CFS."
+    "definition": "Multiple Sclerosis: a demyelinating autoimmune disease of the CNS. Fatigue is the most common symptom of MS; MS is a key differential diagnosis for ME/CFS.",
+    "synonyms": [
+      "multiple sclerosis",
+      "multiple-sclerosis"
+    ]
   },
   "MSLT": {
     "label": "MSLT",
@@ -9867,6 +9879,9 @@
     "category": "metabolite",
     "definition": "A key Krebs cycle intermediate produced by isocitrate dehydrogenase. α-KG is a substrate for α-ketoglutarate dehydrogenase complex and a cofactor for α-ketoglutarate-dependent dioxygenases including TET enzymes (DNA demethylation) and HIF prolyl hydroxylases. Links mitochondrial metabolism to epigenetic regulation."
   },
+  "Amygdala": {
+    "alias": "amygdala"
+  },
   "amygdala": {
     "label": "amygdala",
     "category": "anatomy",
@@ -10010,6 +10025,9 @@
     "label": "bioavailability",
     "category": "measurement",
     "definition": "The fraction of an administered drug dose that reaches systemic circulation unchanged. Oral bioavailability may be altered in ME/CFS due to GI dysmotility, SIBO, or altered first-pass metabolism."
+  },
+  "Biomarker": {
+    "alias": "biomarker"
   },
   "biomarker": {
     "label": "biomarker",
@@ -10595,6 +10613,9 @@
     "category": "pathway",
     "definition": "A prolonged state of deep torpor in which an animal drastically lowers body temperature and metabolic rate over weeks to months to survive winter; distinguished from brief interbout arousal episodes."
   },
+  "Hippocampus": {
+    "alias": "hippocampus"
+  },
   "hippocampus": {
     "label": "hippocampus",
     "category": "anatomy",
@@ -11078,6 +11099,9 @@
     "label": "neuroimmune encephalopathy spectrum (NES)",
     "category": "concept",
     "definition": "A proposed framework conceptualizing conditions such as PANS, PANDAS, Sydenham chorea, anti-NMDA receptor encephalitis, and ME/CFS as points along a common neuroimmune encephalopathy continuum, differing in age of onset, trigger, and predominant symptom domain but sharing underlying immune-mediated CNS dysfunction. The NES framework emphasizes shared mechanisms — autoantibodies, microglial activation, BBB disruption — rather than arbitrary diagnostic silos."
+  },
+  "Neuroinflammation": {
+    "alias": "neuroinflammation"
   },
   "neuroinflammation": {
     "label": "neuroinflammation",

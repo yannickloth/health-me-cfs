@@ -6,7 +6,9 @@
   const GLOSSARY_FILES = {
     en: 'glossary-en.json',
     fr: 'glossary-fr.json',
-    de: 'glossary-de.json'
+    de: 'glossary-de.json',
+    es: 'glossary-es.json',
+    pt: 'glossary-pt.json'
   };
 
   function pageLang() {
@@ -88,6 +90,48 @@
       'cell-biology': 'Zellbiologie', 'immunology': 'Immunologie',
       biochemical: 'Biochemisch', mediator: 'Mediator', phytochemical: 'Phytochemisch',
       genomics: 'Genomik', agency: 'Behörde'
+    },
+    es: {
+      medication: 'Medicamento', supplement: 'Suplemento', medication_class: 'Clase',
+      diagnostic_criteria: 'Criterios diagnósticos', organisation: 'Organización', registry: 'Registro',
+      research: 'Investigación', anatomical: 'Anatomía', compound: 'Compuesto', device: 'Dispositivo',
+      abbreviation: 'Abreviatura', gene: 'Gen',
+      disease: 'Enfermedad', symptom: 'Síntoma', condition: 'Afección', hormone: 'Hormona',
+      neurotransmitter: 'Neurotransmisor', cytokine: 'Citocina', protein: 'Proteína',
+      enzyme: 'Enzima', molecule: 'Molécula', metabolite: 'Metabolito', pathway: 'Vía',
+      receptor: 'Receptor', transporter: 'Transportador', transcription_factor: 'Factor de transcripción',
+      cell: 'Célula', cell_type: 'Tipo celular', immune: 'Sistema inmunitario', biomarker: 'Biomarcador', measurement: 'Medición',
+      axis: 'Eje', system: 'Sistema', barrier: 'Barrera', fluid: 'Líquido', test: 'Prueba',
+      imaging: 'Imagen', pathogen: 'Patógeno', diagnostic: 'Diagnóstico', method: 'Método',
+      treatment: 'Tratamiento', organization: 'Organización', regulation: 'Regulación',
+      administration: 'Administración', neurotrophin: 'Neurotrofina', cofactor: 'Cofactor',
+      concept: 'Concepto', mechanism: 'Mecanismo', anatomy: 'Anatomía', vitamin: 'Vitamina',
+      hypothesis: 'Hipótesis', physiology: 'Fisiología', study: 'Estudio',
+      neuropeptide: 'Neuropeptído', database: 'Base de datos',
+      'cell-biology': 'Biología celular', 'immunology': 'Inmunología',
+      biochemical: 'Bioquímico', phytochemical: 'Fitoquímico', mediator: 'Mediador',
+      genomics: 'Genómica', agency: 'Agencia'
+    },
+    pt: {
+      medication: 'Medicamento', supplement: 'Suplemento', medication_class: 'Classe',
+      diagnostic_criteria: 'Critérios de diagnóstico', organisation: 'Organização', registry: 'Registo',
+      research: 'Investigação', anatomical: 'Anatomia', compound: 'Composto', device: 'Dispositivo',
+      abbreviation: 'Abreviatura', gene: 'Gene',
+      disease: 'Doença', symptom: 'Sintoma', condition: 'Afeção', hormone: 'Hormona',
+      neurotransmitter: 'Neurotransmissor', cytokine: 'Citocina', protein: 'Proteína',
+      enzyme: 'Enzima', molecule: 'Molécula', metabolite: 'Metabolito', pathway: 'Via',
+      receptor: 'Recetor', transporter: 'Transportador', transcription_factor: 'Fator de transcrição',
+      cell: 'Célula', cell_type: 'Tipo de célula', immune: 'Sistema imunitário', biomarker: 'Biomarcador', measurement: 'Medição',
+      axis: 'Eixo', system: 'Sistema', barrier: 'Barreira', fluid: 'Líquido', test: 'Teste',
+      imaging: 'Imagem', pathogen: 'Agente patogénico', diagnostic: 'Diagnóstico', method: 'Método',
+      treatment: 'Tratamento', organization: 'Organização', regulation: 'Regulação',
+      administration: 'Administração', neurotrophin: 'Neurotrofina', cofactor: 'Cofator',
+      concept: 'Conceito', mechanism: 'Mecanismo', anatomy: 'Anatomia', vitamin: 'Vitamina',
+      hypothesis: 'Hipótese', physiology: 'Fisiologia', study: 'Estudo',
+      neuropeptide: 'Neuropeptídeo', database: 'Base de dados',
+      'cell-biology': 'Biologia celular', 'immunology': 'Imunologia',
+      biochemical: 'Bioquímico', phytochemical: 'Fitoquímico', mediator: 'Mediador',
+      genomics: 'Genómica', agency: 'Agência'
     }
   };
   const CATEGORY_LABELS = CATEGORY_LABEL_SETS[LANG] || CATEGORY_LABEL_SETS.en;
@@ -99,7 +143,11 @@
     fr: { Restorative: 'Restaurateur', Corrective: 'Correcteur', 'Threshold-modulatory': 'Modulateur de seuil',
       'Substrate-repletion': 'Réplétion de substrat', Symptomatic: 'Symptomatique', Mixed: 'Mixte' },
     de: { Restorative: 'Restaurativ', Corrective: 'Korrektiv', 'Threshold-modulatory': 'Schwellenmodulierend',
-      'Substrate-repletion': 'Substratauffüllung', Symptomatic: 'Symptomatisch', Mixed: 'Gemischt' }
+      'Substrate-repletion': 'Substratauffüllung', Symptomatic: 'Symptomatisch', Mixed: 'Gemischt' },
+    es: { Restorative: 'Restaurador', Corrective: 'Correctivo', 'Threshold-modulatory': 'Modulador del umbral',
+      'Substrate-repletion': 'Reposición de sustrato', Symptomatic: 'Sintomático', Mixed: 'Mixto' },
+    pt: { Restorative: 'Restaurador', Corrective: 'Corretivo', 'Threshold-modulatory': 'Modulador do limiar',
+      'Substrate-repletion': 'Reposição de substrato', Symptomatic: 'Sintomático', Mixed: 'Misto' }
   };
   const DOSE_CAT_LABEL = DOSE_CAT_LABELS[LANG] || DOSE_CAT_LABELS.en;
 

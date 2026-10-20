@@ -91,6 +91,8 @@ format:
       - glossary-en.json
       - glossary-fr.json
       - glossary-de.json
+      - glossary-es.json
+      - glossary-pt.json
       - glossary-tooltip.js
       - mecfs-sidebar.js
       - mecfs-sidebar.json

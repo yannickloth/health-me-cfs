@@ -373,10 +373,10 @@ void main(String[] args) throws IOException, InterruptedException {
     }
     System.out.println("  " + jsCount + " file(s) copied");
 
-    // --- glossary.{en,fr,de}.json ---
+    // --- glossary.{en,fr,de,es,pt}.json ---
     System.out.println();
-    System.out.println("=== glossary.{en,fr,de}.json ===");
-    var glossaryFiles = new String[] { "glossary-en.json", "glossary-fr.json", "glossary-de.json" };
+    System.out.println("=== glossary.{en,fr,de,es,pt}.json ===");
+    var glossaryFiles = new String[] { "glossary-en.json", "glossary-fr.json", "glossary-de.json", "glossary-es.json", "glossary-pt.json" };
     for (var gf : glossaryFiles) {
         var gSrc = Path.of("src/main/resources/" + gf).toAbsolutePath().normalize();
         var gDst = webRoot.resolve(gf);

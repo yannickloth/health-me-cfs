@@ -11,7 +11,7 @@ const load = (lang) =>
 const en = load('en');
 const enKeys = Object.keys(en).filter(k => k[0] !== '_');
 
-for (const lang of ['fr', 'de']) {
+for (const lang of ['fr', 'de', 'es', 'pt']) {
   const gloss = load(lang);
   const keys = new Set(Object.keys(gloss).filter(k => k[0] !== '_'));
 

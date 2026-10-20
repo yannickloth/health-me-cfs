@@ -121,6 +121,8 @@ format:
       - glossary-en.json
       - glossary-fr.json
       - glossary-de.json
+      - glossary-es.json
+      - glossary-pt.json
       - glossary-tooltip.js
       - part-accordion.js
       - part-chapters.json
