@@ -13,15 +13,15 @@ La respuesta común es que estas son características intrínsecas de la estruct
 
 Este artículo explica ese modelo, las evidencias que lo sustentan y —donde sigue siendo especulativo. Se basa en nuestra investigación pero está escrito para ser independiente para cualquier persona curiosa sobre el autismo y la energía.
 
-A lo largo de todo el texto, la serie separa **lo que sabemos** de **lo que nuestra investigación añade**. Aquí, los hallazgos establecidos son la evidencia sistémica de mitocondria en el autismo [@Frye2024ASDmitochondria] y el hallazgo del cofactor BH4 [@ColpaniFilho2025BH4ASD]. Lo que nuestra investigación añade es la interpretación de convergencia de energía cerebral de esos hallazgos —que una falta de combustible puede explicar una parte fundamental de la experiencia autista—, lo cual es una hipótesis, no aún un hallazgo.
+A lo largo de todo el texto, la serie separa **lo que sabemos** de **lo que nuestra investigación añade**. Aquí, los hallazgos establecidos son la evidencia mitocondrial sistémica en el autismo [@Frye2024ASDmitochondria] y el hallazgo del cofactor BH4 [@ColpaniFilho2025BH4ASD]. Lo que nuestra investigación añade es la interpretación de convergencia de energía cerebral de esos hallazgos —que una falta de combustible puede explicar una parte fundamental de la experiencia autista—, lo cual es una hipótesis, no aún un hallazgo.
 
 ---
 
 ## El modelo: un cerebro que funciona con un escaso suministro de combustible
 
-En 2026, una revisión propuso un modelo integral de autismo como una **disordia de energía cerebral** [@BlagojevicStokic2026brainenergy]. La afirmación es específica:
+En 2026, una revisión propuso un modelo integral de autismo como un **trastorno de energía cerebral** [@BlagojevicStokic2026brainenergy]. La afirmación es específica:
 
-- El suministro de combustible al cerebro depende de los **astrocitos** — células de soporte que convierten glucosa en lactato y la transportan a los neuronas.
+- El suministro de combustible al cerebro depende de los **astrocitos** — células de soporte que convierten glucosa en lactato y lo transportan a las neuronas.
 - En el modelo, este transporte se ve afectado: reducida absorción de glucosa, fallo en el almacenamiento de glucógeno y interrupción en la transferencia de lactato de astrocitos a neuronas.
 - El resultado es **una disponibilidad subóptima de ATP** — el cerebro literalmente no tiene suficiente combustible.
 
@@ -41,9 +41,9 @@ Si el modelo de energía cerebral fuera una idea aislada, sería fácil descarta
 
 **1. La disfunción mitocondrial es sistémica y basal.** Una revisión sistemática y meta-análisis de 204 estudios encontró lactato, piruvato y alanina elevados en personas con autismo, junto con creatina quinasa y un ratio lactato/piruvato elevado — los mismos marcadores de cadena de transporte de electrones observados en trastornos de metabolismo energético [@Frye2024ASDmitochondria]. Crucialmente, estos están presentes en **nivel basal**, no solo después del estrés. Es una característica constitutiva del cuerpo, no un efecto derivado de la demanda cerebral.
 
-**2. Un cofactor específico es consistentemente bajo.** La tetrahidrobifotepina (BH4) es la molécula auxiliar esencial para las enzimas que producen dopamina, serotonina y óxido nítrico. Una revisión sistemática encontró **BH4 constantemente más baja** en muestras biológicas de personas autistas [@ColpaniFilho2025BH4ASD]. Un BH4 bajo significa que el cerebro no puede producir sus neurotransmisores clave *y* no puede regular su propio flujo sanguíneo — un déficit, múltiples fallas posteriores.
+**2. Un cofactor específico es consistentemente bajo.** La tetrahidrobiopterina (BH4) es la molécula auxiliar esencial para las enzimas que producen dopamina, serotonina y óxido nítrico. Una revisión sistemática encontró **BH4 constantemente más baja** en muestras biológicas de personas autistas [@ColpaniFilho2025BH4ASD]. Un BH4 bajo significa que el cerebro no puede producir sus neurotransmisores clave *y* no puede regular su propio flujo sanguíneo — un déficit, múltiples fallas posteriores.
 
-**3. Una conexión con los tejidos conectivos.** Las personas autistas tienen muchas más probabilidades de presentar hipermovilidad articular y síndromes de Ehlers-Danlos — una meta-análisis encontró 7.4 veces más probabilidades de EDS [@BaezaVelasco2025autismEDS]. Esto es importante porque la hipermovilidad está relacionada con disautonomía y reducido flujo sanguíneo cerebral, lo que agrava cualquier déficit de energía en el nivel de *entrega* de combustible.
+**3. Una conexión con los tejidos conectivos.** Las personas autistas tienen muchas más probabilidades de presentar hipermovilidad articular y síndromes de Ehlers-Danlos — una meta-análisis encontró 7,4 veces más probabilidades de EDS [@BaezaVelasco2025autismEDS]. Esto es importante porque la hipermovilidad está relacionada con disautonomía y reducido flujo sanguíneo cerebral, lo que agrava cualquier déficit de energía en el nivel de *entrega* de combustible.
 
 ---
 
@@ -51,11 +51,11 @@ Si el modelo de energía cerebral fuera una idea aislada, sería fácil descarta
 
 Aquí el modelo se vuelve alentador en lugar de simplemente explicativo. Si parte de la carga de síntomas es una falta de combustible, entonces **parte de ella puede ser abordable** — no cambiando el cerebro autista, sino mejorando su suministro de energía. Tres objetivos tienen evidencia real:
 
-**1. Dieta cetogénica — suministrar combustible alternativo al cerebro.** Las cetonas (moleculas derivadas de la grasa que el cerebro puede quemar) evitan el paso dañado de glucosa/astrocito y entran directamente en las mitocondria. Dietas cetogénicas modificadas mejoraron el comportamiento en niños con autismo [@Lee2018modifiedKD], y un informe de caso documentó cambios metabólicos en escaneos cerebrales [@Zarnowska2018KD]. Esto es una prueba de concepto que el combustible alternativo puede ayudar a *algunos* pacientes — no evidencia de que ayude a todos.
+**1. Dieta cetogénica — suministrar combustible alternativo al cerebro.** Las cetonas (moléculas derivadas de la grasa que el cerebro puede quemar) evitan el paso dañado de glucosa/astrocito y entran directamente en la mitocondria. Dietas cetogénicas modificadas mejoraron el comportamiento en niños con autismo [@Lee2018modifiedKD], y un informe de caso documentó cambios metabólicos en escaneos cerebrales [@Zarnowska2018KD]. Esto es una prueba de concepto que el combustible alternativo puede ayudar a *algunos* pacientes — no evidencia de que ayude a todos.
 
-**2. Apoyo a BH4.** Si la baja BH4 es un verdadero cuello de botella, las intervenciones que apoyen su producción o reciclaje — como la ácido folínico (que alimenta la enzima de reciclaje) o la vitamina C (que protege a BH4 de oxidación) — podrían aliviar los déficits de monoamina y vasculares más adelante. Esto está basado en mecanismos, pero aún no ha sido probado en ensayos específicos para autismo.
+**2. Apoyo a BH4.** Si la baja BH4 es un verdadero cuello de botella, las intervenciones que apoyen su producción o reciclaje — como el ácido folínico (que alimenta la enzima de reciclaje) o la vitamina C (que protege a BH4 de oxidación) — podrían aliviar los déficits de monoamina y vasculares más adelante. Esto está basado en mecanismos, pero aún no ha sido probado en ensayos específicos para autismo.
 
-**3. Hierro.** El hierro es necesario tanto para la síntesis de dopamina como para la función del complejo I/II de mitocondria. Para los fenotipos de sueño en ASD, se recomienda un umbral de ferritina por debajo de 50 ng/mL para la suplementación [@DelRosso2026ironNeurodevelopmental]; por debajo de ese nivel, la deficiencia de hierro afecta tanto la producción de neurotransmisores como la energía. Corregir la falta de hierro es económico, seguro y reversible.
+**3. Hierro.** El hierro es necesario tanto para la síntesis de dopamina como para la función del complejo mitocondrial I/II. Para los fenotipos de sueño en ASD, se recomienda un umbral de ferritina por debajo de 50 ng/mL para la suplementación [@DelRosso2026ironNeurodevelopmental]; por debajo de ese nivel, la deficiencia de hierro afecta tanto la producción de neurotransmisores como la energía. Corregir la falta de hierro es económico, seguro y reversible.
 
 *Estos son hipótesis de investigación sobre factores modificables, no recomendaciones clínicas. Discuta cualquier intervención con un médico calificado.*
 
@@ -102,7 +102,7 @@ Cada uno es un mecanismo diferente. Tratar solo uno puede dejar los demás sin i
 
 ### La evidencia de que la respuesta al tratamiento es específica del mecanismo
 
-Una gran encuesta de pacientes reportada de 3,925 pacientes con EM/SFC y pacientes con COVID larga, que evaluó más de 150 intervenciones, encontró que los pacientes se dividen en subgrupos distintos relevantes para el tratamiento [@Eckey2025PatientReported]:
+Una gran encuesta de pacientes reportada de 3.925 pacientes con EM/SFC y pacientes con COVID larga, que evaluó más de 150 intervenciones, encontró que los pacientes se dividen en subgrupos distintos relevantes para el tratamiento [@Eckey2025PatientReported]:
 
 - Un **grupo multivías** que responde mejor a inmunoglobulinas y drenaje linfático
 - Un **grupo dominado por POTS** que responde mejor a estimulación, fluidos y compresión
@@ -129,7 +129,7 @@ Diferentes mecanismos requieren diferentes niveles de intervención: el déficit
 
 ### La hipótesis del tratamiento combinado
 
-La versión más fuerte de la idea multivía es un **protocolo escalado sistemáticamente y estratificado por gravedad** que aborda varios caminos que reducen los reservorios al mismo tiempo — combinando *rellenado de hierro, soporte de cofactor BH4, amortiguación de fosfocreatina, optimización de perfusión y ajuste de ritmo*. Si varios mecanismos independientes pierden una parte de la función, entonces solucionarlos todos debería restaurar más que solucionar uno solo — los efectos pueden ser aditivos o acumulativos.
+La versión más fuerte de la idea multivía es un **protocolo escalado sistemáticamente y estratificado por gravedad** que aborda varios caminos que reducen los reservorios al mismo tiempo — combinando **rellenado de hierro, soporte de cofactor BH4, amortiguación de fosfocreatina, optimización de perfusión y ajuste de ritmo**. Si varios mecanismos independientes pierden una parte de la función, entonces solucionarlos todos debería restaurar más que solucionar uno solo — los efectos pueden ser aditivos o acumulativos.
 
 *Este protocolo combinado es una hipótesis registrada. Cada componente tiene evidencia moderada; la combinación no ha sido probada y no se ha llevado a cabo como ensayo.*
 
@@ -139,7 +139,7 @@ La hipótesis multivía es convincente pero conlleva riesgos reales: **polimedic
 
 ### El test decisivo
 
-La hipótesis multivía puede ser falsificada. El estudio decisivo es un **ensayo pragmático y estratificado por gravedad** de un protocolo combinado de construcción de reservorios contra el cuidado estándar, que mide la capacidad funcional y marcadores objetivos (por ejemplo, la capacidad respiratoria de mitocondria).
+La hipótesis multivía puede ser falsificada. El estudio decisivo es un **ensayo pragmático y estratificado por gravedad** de un protocolo combinado de construcción de reservorios contra el cuidado estándar, que mide la capacidad funcional y marcadores objetivos (por ejemplo, la capacidad respiratoria de reserva mitocondrial).
 
 - Si el tratamiento combinado es más efectivo que cualquier componente individual, el modelo multivía aditivo se sostiene.
 - Si no es mejor que el mejor componente individual, los caminos convergen en un cuello de botella, y el enfoque más simple de objetivo único es el correcto.
@@ -156,6 +156,6 @@ Lo alentador es que **algunas** variables relacionadas con la energía son modif
 
 esta es una hipótesis, no un hallazgo establecido. Apunta a experimentos específicos, económicos y verificables, y debe ser probada antes de considerarse un hecho.
 
-*Esta es la primera parte de una serie de cuatro partes sobre la biología del autismo, basada en nuestros estudios. La primera parte aborda el modelo de energía cerebral y la hipótesis de tratamiento multivía. La segunda parte examina el subgrupo de autismo mediado por el sistema inmunitario. La tercera parte explora la conexión entre el cerebelro y el glutamato. La cuarta parte se pregunta cuándo las características similares al autismo se adquieren y son reversibles.*
+*Esta es la primera parte de una serie de cuatro partes sobre la biología del autismo, basada en nuestros estudios. La primera parte aborda el modelo de energía cerebral y la hipótesis de tratamiento multivía. La segunda parte examina el subgrupo de autismo mediado por el sistema inmunitario. La tercera parte explora la conexión entre el cerebelo y el glutamato. La cuarta parte se pregunta cuándo las características similares al autismo se adquieren y son reversibles.*
 
 *Este artículo resume la investigación de nuestro proyecto de documentación EM/SFC, donde se desarrollaron estos modelos de energía transversales entre enfermedades. La interpretación específica del autismo aquí es nuestra lectura de la literatura; refleja hipótesis con confianza explícita, a menudo baja, y no hechos clínicos establecidos.*

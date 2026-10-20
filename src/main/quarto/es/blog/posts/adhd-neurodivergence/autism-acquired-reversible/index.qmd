@@ -9,11 +9,11 @@ lang: es
 
 Los apartados 1–3 analizaron las causas del desarrollo del autismo: un déficit de energía, un subgrupo inmunitario y una diferencia en la conexión neuronal. Este último apartado plantea una pregunta diferente y clínicamente relevante:
 
-**Cuando existen características similares al autismo, ¿son necesariamente presentes desde el inicio del desarrollo —o algunas de ellas pueden ser adquiridas y, por lo tanto, reversibles?**
+**Cuando existen características similares al autismo, ¿están necesariamente presentes desde el inicio del desarrollo —o algunas de ellas pueden ser adquiridas y, por lo tanto, reversibles?**
 
 La respuesta es importante porque una característica *adquirida* puede responder a un tratamiento de su causa, mientras que una característica de conexión neuronal *desarrolladora* generalmente no lo hará. Confundir ambos tipos genera tanto esperanza falsa como oportunidades perdidas.
 
-La serie distingue **lo que sabemos** de **lo que nuestra investigación añade**. El contexto establecido, proveniente de la literatura de neuroinmunología más amplia de la que nuestro proyecto se basa, es que la neuroinflamación y el sueño perturbado son medibles y pueden deteriorar la función cognitiva y sensorial. Lo que nuestra investigación añade es la interpretación específica: que la rigidez similares al autismo adquirida debería ser dependiente del contexto y reversible con un tratamiento de su causa subyacente, a diferencia de la conexión neuronal desarrolladora estable. Esa interpretación es una especulación registrada, no un hallazgo establecido.
+La serie distingue **lo que sabemos** de **lo que nuestra investigación añade**. El contexto establecido, proveniente de la literatura de neuroinmunología más amplia en la que nuestro proyecto se basa, es que la neuroinflamación y el sueño perturbado son medibles y pueden deteriorar la función cognitiva y sensorial. Lo que nuestra investigación añade es la interpretación específica: que la rigidez similar al autismo adquirida debería ser dependiente del contexto y reversible con un tratamiento de su causa subyacente, a diferencia de la conexión neuronal desarrolladora estable. Esa interpretación es una especulación registrada, no un hallazgo establecido.
 
 ---
 
@@ -21,20 +21,20 @@ La serie distingue **lo que sabemos** de **lo que nuestra investigación añade*
 
 Existen dos formas en las que pueden aparecer características similares al autismo:
 
-- **Desarrolladora (base).** Los circuitos cerebrales se construyeron de esta manera desde los primeros momentos del desarrollo. Esta es la imagen clásica: estable, similar a las características, presente desde la infancia. Las partes 1–3 describen los mecanismos del desarrollo.
+- **Desarrolladora (base).** Los circuitos cerebrales se construyeron de esta manera desde los primeros momentos del desarrollo. Esta es la imagen clásica: estable, similar a un rasgo, presente desde la infancia. Las partes 1–3 describen los mecanismos del desarrollo.
 - **Adquirida (secundaria).** El cableado subyacente se desarrolló normalmente, pero un proceso posterior — neuroinflamación, una lesión inmune, una perturbación metabólica — degrada los mismos circuitos, produciendo *los mismos síntomas* por un camino diferente.
 
-La afirmación clave de esta sección: **las características similares al autismo adquiridas deben ser dependientes del contexto y potencialmente reversibles**, mientras que el autismo desarrollador es estable y similar a las características. Nuestro estudio registra esto como una especulación formal — no como un hallazgo establecido.
+La afirmación clave de esta sección: **las características similares al autismo adquiridas deben ser dependientes del contexto y potencialmente reversibles**, mientras que el autismo desarrollador es estable y similar a un rasgo. Nuestro estudio registra esto como una especulación formal — no como un hallazgo establecido.
 
 ---
 
-## El mecanismo: intercepción interna perturbada
+## El mecanismo: interocepción perturbada
 
 La vía propuesta para las características del autismo adquirido pasa por la **jerarquía interoceptiva** — el sistema del cerebro para monitorear y predecir el estado interno del cuerpo.
 
 Normalmente, el cerebro mantiene un equilibrio entre sus *predicciones* sobre el cuerpo y las *pruebas sensoriales* que el cuerpo envía de vuelta. Dos modos de fallo producen síntomas externos similares, pero desde extremos opuestos:
 
-- **ASD de desarrollo** se cree que implica *predicciones demasiado precisas* — las predicciones del cerebro son demasiado rígidas, suprimiendo las actualizaciones sensoriales recibidas. El resultado: una rigidez perceptiva estable y similar a una característica.
+- **ASD de desarrollo** se cree que implica *predicciones demasiado precisas* — las predicciones del cerebro son demasiado rígidas, suprimiendo las actualizaciones sensoriales recibidas. El resultado: una rigidez perceptiva estable y similar a un rasgo.
 - **Características adquiridas** se cree que implican *señales de nivel inferior corruptas* — el tronco encefálico y las vías talamocorticales no logran transmitir información corporal precisa. El cerebro compensa aumentando la precisión de sus predicciones para suprimir el ruido.
 
 El resultado fenomenológico puede parecer idéntico: sobrecarga sensorial, dificultad para leer los estados internos, aparente alexitimia (una incapacidad para nombrar las emociones — no por ausencia de emoción, sino por incapacidad para vincularla con un estado corporal específico). Pero el origen computacional difiere — y así debe ser la respuesta al tratamiento.
@@ -83,7 +83,7 @@ La razón por la que esta distinción es importante desde el punto de vista clí
 - **Si las características adquiridas se consideran "solo autismo"**, un proceso subyacente tratable (inflamación, déficit metabólico, sueño perturbado) no se aborda.
 - **Si las características de desarrollo se tratan como adquiridas y reversibles**, a los pacientes se les ofrecen tratamientos que no funcionarán, y pueden culparse a sí mismos cuando no funcionan.
 
-las características de autismo-like adquiridas deben ser **sustentadas, no patologizadas** — y los factores modificables subyacentes (sueño, inflamación, hierro, energía) deben abordarse independientemente del etiquetado, porque afectan el bienestar general incluso cuando la conexión de desarrollo central permanece inalterada.
+las características similares al autismo adquiridas deben ser **sustentadas, no patologizadas** — y los factores modificables subyacentes (sueño, inflamación, hierro, energía) deben abordarse independientemente del etiquetado, porque afectan el bienestar general incluso cuando la conexión de desarrollo central permanece inalterada.
 
 ---
 
@@ -97,6 +97,6 @@ esta es una hipótesis de baja confianza, y la prueba decisiva — que demuestre
 
 ---
 
-*Esto concluye la serie de cuatro partes sobre la biología del autismo. La Parte 1 analizó el modelo de energía cerebral y la hipótesis de tratamiento multivía, la Parte 2 el subgrupo mediado por inmuno, la Parte 3 la conexión entre el cerebelro y el glutamato, y la Parte 4 la distinción entre características adquiridas y desarrolladas.*
+*Esto concluye la serie de cuatro partes sobre la biología del autismo. La Parte 1 analizó el modelo de energía cerebral y la hipótesis de tratamiento multivía, la Parte 2 el subgrupo mediado por inmuno, la Parte 3 la conexión entre el cerebelo y el glutamato, y la Parte 4 la distinción entre características adquiridas y desarrolladas.*
 
 *Este artículo refleja hipótesis de investigación con baja confianza explícita — no es un hecho clínico establecido. Discuta cualquier decisión médica con un médico calificado.*

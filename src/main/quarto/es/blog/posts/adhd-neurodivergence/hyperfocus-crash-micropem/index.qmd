@@ -1,23 +1,23 @@
 ---
-title: "La crisis después del hiperenfoque: ¿Ya está experimentando micro-EM/SFC el TDAH?"
-description: "Este es el tercer artículo de una serie sobre la biología energética que relaciona TDAH, autismo y EM/SFC. Los artículos anteriores presentaron la teoría de que TDAH es un déficit de energía cerebral y exploraron por qué puede predisponer a EM/SFC. Este artículo analiza una perspectiva más especulativa..."
+title: "La crisis después del hiperenfoque: ¿Ya está experimentando micro-PEM el TDAH?"
+description: "Este es el tercer artículo de una serie sobre la biología energética que relaciona TDAH, autismo y EM/SFC. Los artículos anteriores presentaron la teoría de que TDAH es un déficit de energía cerebral y exploraron por qué puede predisponer a EM/SFC. Este artículo analiza una cuestión más especulativa..."
 author: "Yannick Loth"
 date: "2026-05-10"
 categories: [ADHD, PEM, Neurodivergence]
 lang: es
 ---
 
-Este es el tercer artículo de una serie sobre la biología energética que relaciona TDAH, autismo y EM/SFC. Los artículos anteriores presentaron la teoría de que TDAH es un déficit de energía cerebral y exploraron por qué puede predisponer a EM/SFC. Este artículo aborda una pregunta más especulativa: ¿la crisis después del hiperfocado que toda persona con TDAH conoce *ya* es una forma leve de malestar post-esfuerzo?
+Este es el tercer artículo de una serie sobre la biología energética que relaciona TDAH, autismo y EM/SFC. Los artículos anteriores presentaron la teoría de que TDAH es un déficit de energía cerebral y exploraron por qué puede predisponer a EM/SFC. Este artículo aborda una pregunta más especulativa: ¿la crisis después del hiperenfoque que toda persona con TDAH conoce *ya* es una forma leve de malestar post-esfuerzo?
 
 ---
 
 ## El fenómeno
 
-Toda persona con TDAH conoce la crisis después del hiperconcentrarse.
+Toda persona con TDAH conoce la crisis después del hiperenfoque.
 
-Tres horas de intensa concentración. Muy en la zona. Productiva, encerrada, todo funcionando perfectamente. Luego apareces — y la factura llega. Exhaustión. Niebla cerebral. Irritabilidad. A veces se necesitan horas para recuperarse. A veces el resto del día se pierde.
+Tres horas de intensa concentración. Muy en la zona. Productiva, absorta, todo funcionando perfectamente. Luego apareces — y la factura llega. Agotamiento. Niebla cerebral. Irritabilidad. A veces se necesitan horas para recuperarse. A veces el resto del día se pierde.
 
-Las comunidades de TDAH han descrito esto durante años. Lo llaman "resaca del hiperconcentrarse". "La crisis". "Desgaste post-concentración". Es una de las experiencias más comúnmente reportadas en los espacios de autoadvocación de TDAH.
+Las comunidades de TDAH han descrito esto durante años. Lo llaman "resaca del hiperenfoque". "La crisis". "Desgaste post-concentración". Es una de las experiencias más comúnmente reportadas en los espacios de autoadvocación de TDAH.
 
 Nunca ha sido estudiado formalmente.
 
@@ -38,37 +38,37 @@ El malestar post-esfuerzo (PEM) es el síntoma característico de EM/SFC. Los Cr
 
 ## La paralela
 
-| Característica | Crisis de hiperfocuración en TDAH | EM/SFC PEM |
+| Característica | Crisis de hiperenfoque en TDAH | EM/SFC PEM |
 | --- | --- | --- |
 | Desencadenante | Esfuerzo cognitivo sostenido | Esfuerzo físico o cognitivo |
 | Inicio | Durante o inmediatamente después del esfuerzo | 12–48 horas después del esfuerzo |
 | Tiempo de recuperación | Horas (a veces descanso durante el día) | Días a semanas |
-| Proporcionalidad | No se corresponde con el esfuerzo percibido | No se corresponde con el esfuerzo percibido |
+| Proporcionalidad | Desproporcionado con respecto al esfuerzo percibido | Desproporcionado con respecto al esfuerzo percibido |
 | Característica clave | La actividad se siente sostenible en el momento | La actividad se siente sostenible en el momento |
 | Empeoramiento por | Duración más larga, intensidad mayor | Cualquier cantidad que supere el umbral |
 
-La superposición fenomenológica es sorprendente. Ambos involucran una actividad que se siente manejable *durante* la realización, seguida por un costo de recuperación que supera con creces lo que el esfuerzo "debería" requerir.
+La superposición fenomenológica es sorprendente. Ambos involucran una actividad que se siente manejable *durante* la realización, seguida por un coste de recuperación que supera con creces lo que el esfuerzo "debería" requerir.
 
-*Advertencia importante: la similitud fenomenológica no demuestra identidad mecánica. La crisis posterior a la hiperfocuración tiene explicaciones alternativas bien establecidas: (a) agotamiento de dopamina después de un estado hiperdopaminérgico sostenido; (b) agotamiento de la función ejecutiva (el modelo del "agotamiento del ego"); (c) rebote cuando el estado compensatorio de hiperfocuración termina y el déficit de atención subyacente vuelve a manifestarse. Estas son las explicaciones habituales para el TDAH. La hipótesis de micro-PEM es una alternativa novedosa que aún no ha sido estudiada.*
+*Advertencia importante: la similitud fenomenológica no demuestra identidad mecanicista. La crisis posterior al hiperenfoque tiene explicaciones alternativas bien establecidas: (a) agotamiento de dopamina después de un estado hiperdopaminérgico sostenido; (b) agotamiento de la función ejecutiva (el modelo del "agotamiento del ego"); (c) rebote cuando el estado compensatorio de hiperenfoque termina y el déficit de atención subyacente vuelve a manifestarse. Estas son las explicaciones habituales para el TDAH. La hipótesis de micro-PEM es una alternativa novedosa que aún no ha sido estudiada.*
 
 ---
 
-## El marco del envelope energético
+## El marco de la envolvente energética
 
-Si el TDAH representa una deficiencia de energía cerebral — el metabolismo de glucosa se reduce en un 8.1% a nivel global [@Zametkin1990], y la hipoperfusión del prefrontal se ha documentado en 20 estudios [@Berthier2025cbfadhd] — entonces el cerebro con TDAH tiene un menor envelope energético cognitivo que el cerebro neurotípico.
+Si el TDAH representa una deficiencia de energía cerebral — el metabolismo de glucosa se reduce en un 8,1% a nivel global [@Zametkin1990], y la hipoperfusión del prefrontal se ha documentado en 20 estudios [@Berthier2025cbfadhd] — entonces el cerebro con TDAH tiene una envolvente energética cognitiva menor que el cerebro neurotípico.
 
-**Hyperfocus** es un estado de demanda prefrontal máxima y sostenida. Es el equivalente cognitivo de correr un maratón, pero en un cuerpo que ya tiene una capacidad cardiovascular reducida.
+**Hiperenfoque** es un estado de demanda prefrontal máxima y sostenida. Es el equivalente cognitivo de correr un maratón, pero en un cuerpo que ya tiene una capacidad cardiovascular reducida.
 
-Cuando la demanda cognitiva supera o iguala la capacidad de producción metabólica del cerebro, se *hipotetiza* que ocurren los siguientes eventos celulares (cada paso está basado en la fisiología del ejercicio; su aplicación al hyperfocus cognitivo nunca ha sido medida directamente):
+Cuando la demanda cognitiva supera o iguala la capacidad de producción metabólica del cerebro, se *hipotetiza* que ocurren los siguientes eventos celulares (cada paso está basado en la fisiología del ejercicio; su aplicación al hiperenfoque cognitivo nunca ha sido medida directamente):
 
 1. La demanda de ATP supera la oferta de ATP en los circuitos más activos
 2. El buffer fosfocreatina se agota
 3. La glucólisis anaeróbica aumenta (lactato local elevado)
 4. Las especies reactivas de oxígeno se acumulan más rápido de lo que los sistemas antioxidantes pueden eliminarlas
-5. Si se mantiene durante mucho tiempo, se produce daño oxidativo en las mitocondria
-6. La recuperación requiere reparación y biogénesis mitocondrialas — lo cual lleva tiempo
+5. Si se mantiene durante mucho tiempo, se produce daño oxidativo en las membranas mitocondriales
+6. La recuperación requiere reparación y biogénesis mitocondrial — lo cual lleva tiempo
 
-En EM/SFC, esta cascada se activa a un umbral muy bajo y produce necesidades de recuperación graves y prolongadas. En TDAH, la misma cascada puede activarse a un umbral más alto (solo durante el hyperfocus — el estado de máxima demanda) y produce necesidades de recuperación más leves y cortas.
+En EM/SFC, esta cascada se activa a un umbral muy bajo y produce necesidades de recuperación graves y prolongadas. En TDAH, la misma cascada puede activarse a un umbral más alto (solo durante el hiperenfoque — el estado de máxima demanda) y produce necesidades de recuperación más leves y cortas.
 
 Si esta hipótesis es correcta: mismo mecanismo, diferente escala, diferente umbral. Si las explicaciones neuroquímicas estándar son correctas, la similitud es superficial — es fatiga normal después de una tarea, no daño metabólico.
 
@@ -78,11 +78,11 @@ Si esta hipótesis es correcta: mismo mecanismo, diferente escala, diferente umb
 
 Esto redefine la relación entre TDAH y EM/SFC:
 
-- **TDAH** = déficit de energía crónico compensado. El cerebro gestiona la situación a nivel base con esfuerzo. El hiperfocó agota la pequeña reserva → crisis micro.
+- **TDAH** = déficit de energía crónico compensado. El cerebro gestiona la situación a nivel base con esfuerzo. El hiperenfoque agota la pequeña reserva → crisis micro.
 - **EM/SFC** = déficit de energía descompensado. El sistema ha superado un umbral del cual no regresa espontáneamente. El mínimo esfuerzo agota la reserva → crisis grave.
 - **La transición**: a menudo es una infección. Un virus empuja a un sistema marginalmente compensado por encima del punto de no retorno.
 
-Los datos de ALSPAC lo respaldan: los niños con rasgos de TDAH a los 9 años tenían 2.18× más probabilidades de presentar fatiga crónica incapacitante a los 18 [@Quadt2024neurodivergentfatigue]. Eran aquellos cuyos sistemas estaban más cerca del umbral. Aquellos para quienes el menor empujón podía cambiar la situación. El TDAH también está más representada en poblaciones con EM/SFC [@SaezFrancas2012adhdcfs].
+Los datos de ALSPAC lo respaldan: los niños con rasgos de TDAH a los 9 años tenían 2,18× más probabilidades de presentar fatiga crónica incapacitante a los 18 [@Quadt2024neurodivergentfatigue]. Eran aquellos cuyos sistemas estaban más cerca del umbral. Aquellos para quienes el menor empujón podía cambiar la situación. El TDAH también está más representado en poblaciones con EM/SFC [@SaezFrancas2012adhdcfs].
 
 ---
 
@@ -92,11 +92,11 @@ Si la hipótesis del micro-PEM es correcta, varias cosas deberían ser medibles:
 
 1. **Lactato sanguíneo** debería aumentar después de un esfuerzo cognitivo sostenido en pacientes con TDAH en comparación con los controles
 2. **Tiempo de recuperación cognitiva** debería escalar de manera no lineal con la duración de la sesión (no proporcionalmente)
-3. **IL-6** debería aumentar a 24 horas después del hiperfoco en pacientes con TDAH (equivalente a la activación inmune post-esfuerzo en EM/SFC)
+3. **IL-6** debería aumentar a 24 horas después del hiperenfoque en pacientes con TDAH (equivalente a la activación inmune post-esfuerzo en EM/SFC)
 4. **El patrón debería ser drásticamente peor** en pacientes con TDAH que posteriormente desarrollan EM/SFC
 5. **La gravedad de la crisis debería correlacionarse** con marcadores de reserva metabólica (ferritina, BH4, flujo sanguíneo cerebral)
 
-Nadie ha realizado este estudio. Costaría aproximadamente $30–50K (20 adultos con TDAH, 20 controles, tarea cognitiva de 3 horas, extracciones de sangre antes/durante/después, dispositivos portátiles para VCM y monitoreo de glucosa continuo). Es absolutamente factible.
+Nadie ha realizado este estudio. Costaría aproximadamente $30–50K (20 adultos con TDAH, 20 controles, tarea cognitiva de 3 horas, extracciones de sangre antes/durante/después, dispositivos portátiles para la VFC y monitorización continua de glucosa). Es absolutamente factible.
 
 ---
 
@@ -104,14 +104,14 @@ Nadie ha realizado este estudio. Costaría aproximadamente $30–50K (20 adultos
 
 Para pacientes con TDAH:
 
-- **La crisis después del hiperfoco no es pereza.** Es una agotamiento de energía. Trátala con el mismo respeto que tratarías la extenuación física después de correr.
-- **Timers externos, no conciencia interna.** Los cerebros con TDAH no pueden detectar de manera fiable el agotamiento de energía hasta que ocurre la crisis. Utiliza bloques cognitivos de 25 minutos con descansos obligatorios de 10 minutos.
-- **Límites estrictos para el enfoque sostenido.** Máximo 4 bloques cognitivos por sesión. La hipótesis del micro-PEM predice que los daños se acumulan antes de que aparezcan síntomas; para cuando sientas el problema, ya habrás sobrepasado los límites. *(Estos números son puntos de partida; trabaja con tu médico o fisioterapeuta para determinar tus límites individuales.)*
-- **La interrupción del hiperfoco es médica, no opcional.** Para un paciente con EM/SFC, "guardar" el hiperfoco es como "guardar" un sprint para alguien con fractura por estrés. La capacidad existe, pero su uso causa daños.
+- **La crisis después del hiperenfoque no es pereza.** Es un agotamiento de energía. Trátala con el mismo respeto que tratarías la extenuación física después de correr.
+- **Temporizadores externos, no conciencia interna.** Los cerebros con TDAH no pueden detectar de manera fiable el agotamiento de energía hasta que ocurre la crisis. Utiliza bloques cognitivos de 25 minutos con descansos obligatorios de 10 minutos.
+- **Límites estrictos para el enfoque sostenido.** Máximo 4 bloques cognitivos por sesión. La hipótesis del micro-PEM predice que los daños se acumulan antes de que aparezcan síntomas; para cuando sientas el problema, ya habrás sobrepasado los límites. *(Estos números son puntos de partida; trabaja con tu médico o terapeuta ocupacional para determinar tus límites individuales.)*
+- **La interrupción del hiperenfoque es médica, no opcional.** Para un paciente con EM/SFC, "guardar" el hiperenfoque es como "guardar" un sprint para alguien con fractura por estrés. La capacidad existe, pero su uso causa daños.
 
 Para médicos:
 
-- Los pacientes con TDAH que informen de **aumento de gravedad** en las crisis después del hiperfoco — especialmente después de una enfermedad viral — podrían estar describiendo una descompensación temprana. Esto es un indicador de EM/SFC emergente, no una señal de empeoramiento de TDAH.
+- Los pacientes con TDAH que informen de **aumento de gravedad** en las crisis después del hiperenfoque — especialmente después de una enfermedad viral — podrían estar describiendo una descompensación temprana. Esto es un indicador de EM/SFC emergente, no una señal de empeoramiento de TDAH.
 
 ---
 

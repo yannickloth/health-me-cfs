@@ -9,7 +9,7 @@ lang: es
 
 Existe un estereotipo sobre las condiciones de fatiga: el paciente que duerme todo el día. El que duerme más de lo necesario. El que "solo necesita levantarse y hacer algo".
 
-Un estudio de cohorte de nacimiento con 13,978 niños, seguido desde la infancia hasta los 18 años, encontró lo contrario.
+Un estudio de cohorte de nacimiento con 13.978 niños, seguido desde la infancia hasta los 18 años, encontró lo contrario.
 
 ---
 
@@ -19,7 +19,7 @@ Collin et al. [@Collin2018sleepCFS] (2018, *Sleep Medicine*) rastreó a niños e
 
 Mirando hacia atrás a los datos de sueño infantil —recopilados años antes de que alguien se sintiera cansado— el patrón era consistente:
 
-- **Duracción más corta del sueño nocturno** durante la infancia (de 6 meses a 11 años)
+- **Duración más corta del sueño nocturno** durante la infancia (de 6 meses a 11 años)
 - **Hora de acostarse más tarde** — en promedio 11 minutos más tarde que sus compañeros
 - **Dificultad para conciliar el sueño** — 74% más probabilidades en cada edad medida
 - **Más despertares nocturnos** — desde la edad infantil en adelante
@@ -46,7 +46,7 @@ La narrativa del "dormir perezoso" es exactamente lo contrario. Estos niños ten
 
 **Desregulación autonómica ya presente.** El inicio del sueño requiere una transición entre el sistema simpático y el parasimpático. Si el sistema autonómico es sutilmente disfuncional desde el nacimiento o la primera infancia, esa transición falla, lo que produce dificultad para conciliar el sueño, un sueño más ligero y más despertamientos. El niño que "nunca puede descansar" puede tener una disfunción autonómica subclínica, no malas costumbres.
 
-**La producción de energía que afecta la arquitectura del sueño.** Las etapas de sueño profundo son metabolíticamente activas: el cerebro realiza trabajo de reparación, elimina residuos y consolida la memoria. Si la capacidad de mitocondria es ligeramente reducida, el cerebro puede no poder mantener un sueño profundo de forma normal. El resultado: más tiempo en la cama, menos sueño reparador, una privación parcial del sueño crónica que se acumula a lo largo de los años.
+**La producción de energía que afecta la arquitectura del sueño.** Las etapas de sueño profundo son metabolíticamente activas: el cerebro realiza trabajo de reparación, elimina residuos y consolida la memoria. Si la capacidad mitocondrial es ligeramente reducida, el cerebro puede no poder mantener un sueño profundo de forma normal. El resultado: más tiempo en la cama, menos sueño reparador, una privación parcial del sueño crónica que se acumula a lo largo de los años.
 
 **Lo contrario de lo que se esperaría.** Un niño cuya producción de energía está sutilmente afectada no duerme más —duerme *peor*. El cuerpo necesita energía para dormir bien. Cuando no puede producir suficiente, el sueño se fragmenta.
 
@@ -60,13 +60,13 @@ Tampoco se aplica a todos los pacientes con EM/SFC. Aproximadamente la mitad de 
 
 ---
 
-## Los problemas de sueño comienzan años antes de la diagnosis
+## Los problemas de sueño comienzan años antes del diagnóstico
 
 Porque cambia la conversación de “¿por qué duermes tanto?” a “¿cuánto tiempo ha estado interrumpido tu sueño?”
 
 Porque indica que el proceso de la enfermedad puede estar ocurriendo años antes de que sea visible — cuando nadie está observando y el niño parece “bien” porque está compensando.
 
-Y porque destruye el estereotipo del niño que duerme mucho con datos prospectivos de casi 14,000 niños. No se recordaron. No se informaron por sí mismos después de la diagnosis. Medidos en tiempo real por investigadores que no sabían qué niños serían afectados más adelante.
+Y porque destruye el estereotipo del niño que duerme mucho con datos prospectivos de casi 14.000 niños. No se recordaron. No se informaron por sí mismos después del diagnóstico. Medidos en tiempo real por investigadores que no sabían qué niños serían afectados más adelante.
 
 Los niños que más tarde obtuvieron EM/SFC no dormían mucho. Sus cuerpos no podían dormir bien — y no lo habían hecho durante años.
 
@@ -76,7 +76,7 @@ Los niños que más tarde obtuvieron EM/SFC no dormían mucho. Sus cuerpos no po
 
 Considera lo que la privación crónica de sueño parcial hace con el cuerpo en desarrollo, acumulándose noche tras noche durante años:
 
-**La reparación mitocondrial ocurre durante el sueño profundo.** Las fábricas de energía del cerebro — las mitocondria — acumulan daños durante las horas de vigilia (especies reactivas de oxígeno, malformación de proteínas, estrés de membrana). El sueño de ondas lentas profundo es cuando las enzimas de reparación son más activas, cuando los organelajes dañados son eliminados mediante mitofagia y cuando se sintetizan nuevos componentes mitocondriales. Menos sueño profundo = menos reparación = acumulación progresiva de daños mitocondriales.
+**La reparación mitocondrial ocurre durante el sueño profundo.** Las fábricas de energía del cerebro — las mitocondrias — acumulan daños durante las horas de vigilia (especies reactivas de oxígeno, malformación de proteínas, estrés de membrana). El sueño de ondas lentas profundo es cuando las enzimas de reparación son más activas, cuando los orgánulos dañados son eliminados mediante mitofagia y cuando se sintetizan nuevos componentes mitocondriales. Menos sueño profundo = menos reparación = acumulación progresiva de daños mitocondriales.
 
 **La eliminación de residuos glifáticos requiere un sueño sostenido.** El sistema de eliminación de residuos del cerebro — la red glifática — funciona principalmente durante el sueño, impulsado por las oscilaciones neuronales de ondas lentas que bombean el líquido cefalorraquídeo a través del tejido cerebral (Xie et al. [@Xie2013glymphatic], 2013, *Science*; Hauglund et al. [@Hauglund2025neVasomotion], 2025, *Cell*). El sueño fragmentado con despertares frecuentes interrumpe este proceso. Los residuos metabólicos que deberían ser eliminados durante la noche permanecen. La regulación del sueño y el despertar de las proteínas de residuos cerebrales está bien documentada (Holth et al. [@Holth2019tauSleep], 2019). Noche tras noche, año tras año.
 
@@ -84,11 +84,11 @@ Considera lo que la privación crónica de sueño parcial hace con el cuerpo en 
 
 **La analogía del interés compuesto.** Cada noche de sueño ligeramente corto y fragmentado significa un poco menos de reparación, un poco más de daño oxidativo y un poco más de inflamación. Como el interés compuesto en deudas, el efecto es invisible día a día pero devastador a lo largo de los años. Para cuando una infección llega — EBV a los 16 años, una mala gripe a los 14 — las reservas metabólicas que deberían amortiguar la respuesta inmunitaria han estado erosionándose silenciosamente durante medio decenio.
 
-Los datos de Collin [@Collin2018sleepCFS] podrían no mostrarnos un biomarcador para la EM/SFC futura. Podrían mostrarnos uno de los mecanismos por los cuales se desarrolla: años de falta insuficiente de sueño que progresivamente agotan las reservas de energía, que eventualmente resultan insuficientes cuando llega un estrés fisiológico importante.
+Los datos de Collin [@Collin2018sleepCFS] podrían no mostrarnos un biomarcador para la EM/SFC futura. Podrían mostrarnos uno de los mecanismos por los cuales se desarrolla: años de falta insuficiente de sueño que progresivamente agotan las reservas de energía, que acaban por resultar insuficientes cuando llega un estrés fisiológico importante.
 
-Esto no significa que el mal sueño *cause* la EM/SFC. Muchos niños duermen mal y nunca desarrollan la enfermedad. Pero en un niño que ya tiene una capacidad metabólica reducida (predisposición genética, condición neurodesarrolladora, trastorno del tejido conectivo), la insuficiencia crónica de sueño podría ser el factor que transforma una vulnerabilidad en una enfermedad, dada la tiempo y un desencadenante.
+Esto no significa que el mal sueño *cause* la EM/SFC. Muchos niños duermen mal y nunca desarrollan la enfermedad. Pero en un niño que ya tiene una capacidad metabólica reducida (predisposición genética, condición neurodesarrolladora, trastorno del tejido conectivo), la insuficiencia crónica de sueño podría ser la mecha de combustión lenta — el factor que transforma una vulnerabilidad en una enfermedad, dado el tiempo y un desencadenante.
 
 ---
 
-*Marco mecano completo:*
-*Esto es parte de una serie en curso que explora los mecanismos de EM/SFC. Los artículos anteriores abordaron la resaca matutina, el paradójico descanso nocturno, el estado de cansancio pero con energía, la intrusión alfa-alfa y por qué los estudios sobre el sueño vuelven a ser "normales".*
+*Marco mecanístico completo:*
+*Esto es parte de una serie en curso que explora los mecanismos de EM/SFC. Los artículos anteriores abordaron la resaca matutina, la paradoja de la siesta, el estado de cansancio pero con energía, la intrusión alfa-delta y por qué los estudios sobre el sueño vuelven a ser "normales".*

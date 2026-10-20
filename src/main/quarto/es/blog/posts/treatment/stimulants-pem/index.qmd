@@ -19,9 +19,9 @@ Esto no es un efecto secundario — es el mecanismo.
 
 ## La luz de advertencia de energía, desactivada
 
-Ningún estimulante genera energía — ni modafinilo, ni metilfenidato, ni amfetaminas, ni cafeína. Lo que hacen es suprimir la señal que indica que su energía está agotándose.
+Ningún estimulante genera energía — ni modafinilo, ni metilfenidato, ni anfetaminas, ni cafeína. Lo que hacen es suprimir la señal que indica que su energía está agotándose.
 
-EM/SFC implica un déficit real en la producción de energía celular — disfunción mitocondrial, reducida síntesis de ATP, metabolomica anormal. La fatiga que los pacientes experimentan no es un error de percepción. Es una señal fisiológicamente precisa: la lectura del medidor de combustible del cuerpo está baja porque el combustible en realidad está bajo.
+EM/SFC implica un déficit real en la producción de energía celular — disfunción mitocondrial, reducida síntesis de ATP, metabolómica anormal. La fatiga que los pacientes experimentan no es un error de percepción. Es una señal fisiológicamente precisa: la lectura del medidor de combustible del cuerpo está baja porque el combustible en realidad está bajo.
 
 Los estimulantes desactivan ese medidor.
 
@@ -31,13 +31,13 @@ El comité de directrices de NICE 2021 lo expresó claramente: "Los estimulantes
 
 ---
 
-## Lo que reportaron 3,925 pacientes
+## Lo que reportaron 3.925 pacientes
 
-El estudio de resultados reportados por pacientes más grande sobre tratamientos para EM/SFC, publicado en PNAS en 2025 con 3,925 participantes, arrojó un hallazgo que debería hacer que cada prescriptor tome en cuenta.
+El estudio de resultados reportados por pacientes más grande sobre tratamientos para EM/SFC, publicado en PNAS en 2025 con 3.925 participantes, arrojó un hallazgo que debería dar que pensar a cada prescriptor.
 
-Los estimulantes para TDAH mejoraron la percepción de la niebla cerebral en el 77.1% de los usuarios. También mejoraron la percepción de la fatiga en el 71.7%.
+Los estimulantes para TDAH mejoraron la percepción de la niebla cerebral en el 77,1% de los usuarios. También mejoraron la percepción de la fatiga en el 71,7%.
 
-Tuvieron un efecto neto *negativo* en el malestar post-esfuerzo: −1.5%.
+Tuvieron un efecto neto *negativo* en el malestar post-esfuerzo: −1,5%.
 
 En casi cuatro mil pacientes, los estimulantes mejoraron la experiencia subjetiva de fatiga, mientras que las consecuencias post-esfuerzo empeoraron ligeramente — la luz de advertencia se apagó, los pacientes condujeron más, la crisis fue peor.
 
@@ -67,7 +67,7 @@ La gravedad de la crisis depende de hasta dónde se aleja el paciente del envelo
 
 **Disminución permanente de base**: el uso excesivo de esfuerzo establece un nuevo nivel energético más bajo del cual no se logra una recuperación completa.
 
-Esa última categoría es la más importante. El informe publicado por Whitney Dafoe en *Atención sanitaria* describe la progresión desde EM/SFC leve hasta un estado de acostado en cama extremadamente grave, con eventos específicos de uso excesivo marcando transiciones de disminución permanente. El CDC afirma que “usar el esfuerzo repetidamente puede causar una crisis grave y de larga duración”.
+Esa última categoría es la más importante. El informe publicado por Whitney Dafoe en *Healthcare* describe la progresión desde EM/SFC leve hasta un estado de acostado en cama extremadamente grave, con eventos específicos de uso excesivo marcando transiciones de disminución permanente. El CDC afirma que “usar el esfuerzo repetidamente puede causar una crisis grave y de larga duración”.
 
 Los estimulantes son excepcionalmente peligrosos en este contexto porque son excepcionalmente efectivos para silenciar la luz de advertencia. Nadie puede superar una barrera que pueda sentir. Los estimulantes hacen que la barrera sea invisible.
 
@@ -77,11 +77,11 @@ Los estimulantes son excepcionalmente peligrosos en este contexto porque son exc
 
 La farmacología es importante. Los diferentes estimulantes imponen riesgos distintos, y algunos son significativamente peores que otros para EM/SFC.
 
-**Ametofenaminas** (Adderall, dextroamfetamina) son las más peligrosas. No solo bloquean la reabsorción de neurotransmisores, sino que fuerzan la liberación de dopamina y noradrenalina de las vesículas sinápticas. Esto significa que pueden agotar los almacenes de neurotransmisores, causan una activación simpática masiva y producen crisis de abstinencia graves. Máximo ocultan la fatiga y conllevan el mayor costo metabólico directo.
+**Anfetaminas** (Adderall, dextroanfetamina) son las más peligrosas. No solo bloquean la reabsorción de neurotransmisores, sino que fuerzan la liberación de dopamina y noradrenalina de las vesículas sinápticas. Esto significa que pueden agotar los almacenes de neurotransmisores, causan una activación simpática masiva y producen crisis de abstinencia graves. Ocultan la fatiga de forma más agresiva y conllevan el mayor coste metabólico directo.
 
-**Metilfenidato** (Ritalin, Concerta) es un inhibidor de reabsorción — mantiene las catecolaminas en la sinapsis durante más tiempo sin forzar su liberación. No agota los almacenes como lo hacen las amfetaminas, pero aumenta el gasto energético de cuerpo entero en aproximadamente un 7 %; el cuerpo quema *más* energía mientras se toma la droga. El uso crónico puede dañar la función mitocondrial en el hipocampo. Para una enfermedad definida por una producción de energía deteriorada, una droga que aumente el gasto energético mientras daña las mitocondrias es precisamente la farmacología incorrecta.
+**Metilfenidato** (Ritalin, Concerta) es un inhibidor de reabsorción — mantiene las catecolaminas en la sinapsis durante más tiempo sin forzar su liberación. No agota los almacenes como lo hacen las anfetaminas, pero aumenta el gasto energético de cuerpo entero en aproximadamente un 7 %; el cuerpo quema *más* energía mientras se toma la droga. El uso crónico puede dañar la función mitocondrial en el hipocampo. Para una enfermedad definida por una producción de energía deteriorada, una droga que aumente el gasto energético mientras daña las mitocondrias es precisamente la farmacología incorrecta.
 
-**Modafinilo** (Provigil) tiene el perfil más complejo. Es un débil inhibidor del transportador de dopamina con efectos de estimulación multiobjetivo — modulación de histamina, orexina, glutamato y GABA. De manera única entre los estimulantes, hay evidencia de que puede aumentar la producción de ATP cerebral y reducir el estrés oxidativo a nivel neuronal. No suprime el sueño profundo. No causa hiperconciencia por rebote. Sus efectos inmunitarios parecen antiinflamatorios en lugar de dañinos. Pero su vida media de 12–15 horas significa que el ocultamiento de la fatiga se extiende mucho más allá del día de administración; un paciente que tome modafinilo el lunes puede seguir tener niveles farmacológicamente activos el miércoles. Y el único ensayo controlado aleatorizado con modafinilo en EM/SFC (n=14) no encontró mejoría en la fatiga ni en la calidad de vida en comparación con el placebo.
+**Modafinilo** (Provigil) tiene el perfil más complejo. Es un débil inhibidor del transportador de dopamina con efectos de estimulación multiobjetivo — modulación de histamina, orexina, glutamato y GABA. De manera única entre los estimulantes, hay evidencia de que puede aumentar la producción de ATP cerebral y reducir el estrés oxidativo a nivel neuronal. No suprime el sueño profundo. No causa hiperconciencia por rebote. Sus efectos inmunitarios parecen antiinflamatorios en lugar de dañinos. Pero su vida media de 12–15 horas significa que el ocultamiento de la fatiga se extiende mucho más allá del día de administración; un paciente que tome modafinilo el lunes puede seguir teniendo niveles farmacológicamente activos el miércoles. Y el único ensayo controlado aleatorizado con modafinilo en EM/SFC (n=14) no encontró mejoría en la fatiga ni en la calidad de vida en comparación con el placebo.
 
 **Solriamfetol** (Sunosi) es una droga más reciente — un inhibidor puro de reabsorción de dopamina/noradrenalina sin actividad liberadora. El único ensayo controlado aleatorizado positivo en EM/SFC pertenece a esta droga: un ensayo de 2025 (n=38) mostró una mejoría significativa en la gravedad de la fatiga y la función ejecutiva. Pero el ensayo no medió PEM — el síntoma cardinal. Hasta que lo haga, la misma advertencia se aplica.
 
@@ -93,7 +93,7 @@ La farmacología es importante. Los diferentes estimulantes imponen riesgos dist
 
 ## La trampa social
 
-Esta análisis sería simple si la conclusión fuera “no tomar estimulantes”. Pero la realidad es que muchos pacientes con EM/SFC no pueden dejar de funcionar; el empleo está vinculado a la seguridad social, los cuidados infantiles no pueden ser delegados, las facturas deben pagarse y los sistemas de discapacidad son lentos, adversariales y a menudo inaccesibles.
+Este análisis sería simple si la conclusión fuera “no tomar estimulantes”. Pero la realidad es que muchos pacientes con EM/SFC no pueden dejar de funcionar; el empleo está vinculado a la seguridad social, los cuidados infantiles no pueden ser delegados, las facturas deben pagarse y los sistemas de discapacidad son lentos, adversos y a menudo inaccesibles.
 
 El estimulante se convierte en una herramienta de supervivencia —no en el sentido médico, sino en el sentido económico y social. El paciente sabe que habrá una crisis. De todas formas toma la pastilla, porque la alternativa —perder el trabajo, perder la seguridad social, perder la casa— es peor que la crisis.
 
@@ -109,7 +109,7 @@ Para pacientes que deben utilizar estimulantes, las estrategias de reducción de
 
 **Utiliza la dosis más baja de forma intermitente.** Reserva los estimulantes para los días en los que la función es absolutamente necesaria. Nunca los tomes a diario si puedes evitarlo. Planifica días de descanso obligatorios después de cada uso — si el estimulante es el martes, el miércoles y el jueves son días de descanso.
 
-**Elige modafinilo o solriamfetol en lugar de amfetaminas o metilfenidato** si es posible elegir. Implican costos metabólicos directos más bajos, no agotan los almacenes de neurotransmisores y tienen efectos de rebote más leves o ausentes.
+**Elige modafinilo o solriamfetol en lugar de anfetaminas o metilfenidato** si es posible elegir. Implican costes metabólicos directos más bajos, no agotan los almacenes de neurotransmisores y tienen efectos de rebote más leves o ausentes.
 
 **No aumentes la dosis cuando se desarrolla tolerancia.** En lugar de ello, toma un descanso del medicamento. La escalada de dosis es el camino hacia la dependencia y crisis cada vez más graves.
 
@@ -117,14 +117,14 @@ Para pacientes que deben utilizar estimulantes, las estrategias de reducción de
 
 ---
 
-## La cuestión de costos
+## La cuestión de costes
 
-La pregunta relevante no es si los estimulantes ayudan a los pacientes con EM/SFC a sentirse mejor: el 77% reporta una mejoría en la niebla cerebral, así que sí lo hacen. La pregunta es: a qué costo?
+La pregunta relevante no es si los estimulantes ayudan a los pacientes con EM/SFC a sentirse mejor: el 77% reporta una mejoría en la niebla cerebral, así que sí lo hacen. La pregunta es: a qué coste?
 
-Si el costo es una crisis proporcional que el paciente ha presupuestado y puede superar — y si la alternativa es perder la capacidad de funcionar en una sociedad que no acepta su enfermedad — entonces el compromiso puede ser racional, aunque no sea médicamente ideal.
+Si el coste es una crisis proporcional que el paciente ha presupuestado y puede superar — y si la alternativa es perder la capacidad de funcionar en una sociedad que no acepta su enfermedad — entonces el compromiso puede ser racional, aunque no sea médicamente ideal.
 
-Si el costo es una disminución progresiva en la función base — una descendencia lenta, posible gracias a los estimulantes, de moderada a grave y muy grave EM/SFC — entonces el compromiso es catastrófico. Y nadie puede predecir de antemano qué resultado ocurrirá, porque la investigación nunca se ha realizado.
+Si el coste es una disminución progresiva en la función base — un descenso lento, posible gracias a los estimulantes, de moderada a grave y muy grave EM/SFC — entonces el compromiso es catastrófico. Y nadie puede predecir de antemano qué resultado ocurrirá, porque la investigación nunca se ha realizado.
 
-El mayor estudio de pacientes con EM/SFC encontró que el ajuste de ritmo — mantenerse dentro del envelope energético — tuvo el puntaje neto positivo más alto de todos los tratamientos: el 75.2%. Más que cualquier medicina. Más que cualquier estimulante.
+El mayor estudio de pacientes con EM/SFC encontró que el ajuste de ritmo — mantenerse dentro del envelope energético — tuvo la puntuación neta positiva más alta de todos los tratamientos: el 75,2%. Más que cualquier medicina. Más que cualquier estimulante.
 
 La fatiga aquí es una luz de advertencia; apagarla no resuelve el déficit que señala.

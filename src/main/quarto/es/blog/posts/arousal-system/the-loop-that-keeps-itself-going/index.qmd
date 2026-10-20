@@ -1,6 +1,6 @@
 ---
 title: "El ciclo que podría mantener la EM/SFC activa"
-description: "La baja noradrenalina podría dañar la eliminación del cerebro, lo que podría empeorar la inflamación que suprime la noradrenalina —un bucle que se refuerza a sí mismo."
+description: "La baja noradrenalina podría dañar la depuración cerebral, lo que podría empeorar la inflamación que suprime la noradrenalina —un bucle que se refuerza a sí mismo."
 author: "Yannick Loth"
 date: "2026-09-17"
 categories: [Arousal system, Noradrenergic, Mechanisms]
@@ -23,6 +23,6 @@ Si ese bucle existe, la EM/SFC no es un déficit fijo, sino un sistema que puede
 
 **Lo que lo sustenta y lo que no.** La flecha de noradrenalina a eliminación tiene evidencia real (a nivel animal y de revisión). Las flechas de eliminación a inflamación a locus-coeruleus son inferencias; no han sido medidas en EM/SFC.
 
-**Donde la evidencia es incierta.** La flecha del bucle de inflamación a locus-coeruleus asume que la noradrenalina *suprime* la neuroinflamación. Dos estudios con ratones apoyan en gran medida esto: la noradrenalina que actúa en los receptores β2 de microglía suprimió la actividad de microglía (@Bu2025NeuroMicrogliaNE), y inhibir la señal adrenérgica del locus-coeruleus *aumentó* la neuroinflamación (@Evans2024LocusCoeruleusMicroglia). Pero una subanálisis del segundo estudio encontró que eliminar el receptor β2 en microglía *redujo* la inflamación solo en hembras; por lo tanto, la dirección no está completamente establecida y puede ser dependiente del sexo o del contexto. El bucle es una hipótesis, no una afirmación.
+**Donde la evidencia es incierta.** La flecha del bucle de inflamación a locus-coeruleus asume que la noradrenalina *suprime* la neuroinflamación. Dos estudios con ratones apoyan en gran medida esto: la noradrenalina que actúa en los receptores β2 de microglía suprimió la actividad de microglía (@Bu2025NeuroMicrogliaNE), y inhibir la señal adrenérgica del locus-coeruleus *aumentó* la neuroinflamación (@Evans2024LocusCoeruleusMicroglia). Pero un subanálisis del segundo estudio encontró que eliminar el receptor β2 en microglía *redujo* la inflamación solo en hembras; por lo tanto, la dirección no está completamente establecida y puede ser dependiente del sexo o del contexto. El bucle es una hipótesis, no una afirmación.
 
 Como en toda esta serie, el déficit subyacente es un único hallazgo no replicado (@Aregawi2026Noradrenergic). *Por qué importa:* si un bucle impulsa la progresión, entonces tratar un nodo (por ejemplo, solo la noradrenalina) puede no ser suficiente; es posible que sea necesario romper el bucle en más de un punto.

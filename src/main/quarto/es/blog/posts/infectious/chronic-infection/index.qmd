@@ -1,5 +1,5 @@
 ---
-title: "Artículo 1: Infección Crónica: EBV, HHV-6, Enfermedad Transmitida por Picadillo y la Infección que Nunca Termina en EM/SFC"
+title: "Artículo 1: Infección Crónica: EBV, HHV-6, Enfermedad Transmitida por Garrapatas y la Infección que Nunca Termina en EM/SFC"
 description: "Una guía de lenguaje sencillo sobre la infección crónica y la reactivación viral en EM/SFC: por qué EBV, HHV-6 y patógenos transmitidos por garrapatas siguen enviando señales al sistema inmunitario años después de la enfermedad aguda, el camino EBV→mastocito→MMP-9, la replicación lítica abortiva, la co-reactivación de políherpesvirus y la diferencia entre una infección activa por sí sola y la estimulación inmunitaria crónica dentro de EM/SFC."
 author: "Yannick Loth"
 date: "2026-08-13"
@@ -7,27 +7,27 @@ categories: [Chronic Infection, EBV, HHV-6, ME/CFS, Pathophysiology]
 lang: es
 ---
 
-La glándula en tu cuello ha estado activa desde que "recuperaste" de la mononucleosis hace años. Tienes brotes cuando estás estresada: el dolor de garganta vuelve, los ganglios linfáticos duelen, la fatiga se intensifica, y se te dice que es "infección pasada". Tus pruebas de anticuerpos muestran altos títulos de EBV y HHV-6, pero el especialista en enfermedades infecciosas dice que eso solo significa que estuviste expuesta, no que el virus esté activo. Algo sigue interactuando con tu sistema inmunitario.
+La glándula en tu cuello ha estado activa desde que te "recuperaste" de la mononucleosis hace años. Tienes brotes cuando estás estresada: el dolor de garganta vuelve, los ganglios linfáticos duelen, la fatiga se intensifica, y se te dice que es "infección pasada". Tus pruebas de anticuerpos muestran altos títulos de EBV y HHV-6, pero el especialista en enfermedades infecciosas dice que eso solo significa que estuviste expuesta, no que el virus esté activo. Algo sigue interactuando con tu sistema inmunitario.
 
 Ahora añade el resto de los síntomas de EM/SFC: la PEM, el sueño insatisfactorio y la niebla cerebral. Alrededor del 70% de los casos de EM/SFC siguen una infección aguda —mononucleosis por EBV, roseola por HHV-6, Borrelia transmitida por garrapatas, enterovirus, SARS-CoV-2 — y la pregunta que ha perseguido el campo durante décadas es si el patógeno sigue ahí, sigue causando la enfermedad, o si solo encendió un incendio y se alejó. El precedente más fuerte es el grupo de Dubbo, donde una parte significativa de las personas con infecciones por EBV, virus de Ross River o fiebre Q desarrollaron un síndrome de fatiga posinfecciosa [@Hickie2006postinfectious].
 
-Este artículo es una visión conceptual. Qué hacen realmente EBV, HHV-6 y los patógenos transmitidos por garrapatas en EM/SFC, el modelo de lítica-lítica-replicación que explica por qué los anticuerpos antivirales son altos pero la carga viral es indetectable, el camino EBV→mastocito→MMP-9, el patrón de co-reactivación de polímeros herpesvirus y la diferencia entre una infección activa por sí sola y la estimulación inmunitaria crónica dentro de EM/SFC. Los tratamientos —antivirales, inmunomoduladores y por qué la evidencia es más escasa que los mecanismos— se tratan en el [artículo de tratamientos complementarios](../chronic-infection-treatment/index.qmd).
+Este artículo es una visión conceptual. Qué hacen realmente EBV, HHV-6 y los patógenos transmitidos por garrapatas en EM/SFC, el modelo de replicación lítica abortiva que explica por qué los anticuerpos antivirales son altos pero la carga viral es indetectable, el camino EBV→mastocito→MMP-9, el patrón de co-reactivación de poli-herpesvirus y la diferencia entre una infección activa por sí sola y la estimulación inmunitaria crónica dentro de EM/SFC. Los tratamientos —antivirales, inmunomoduladores y por qué la evidencia es más escasa que los mecanismos— se tratan en el [artículo de tratamientos complementarios](../chronic-infection-treatment/index.qmd).
 
 ---
 
 ## Primero, una advertencia simple
 
-*Esto es una explicación, no consejos para automedicación, y no soy médico. Los medicamentos antivirales (valaciclovir, valganciclovir) requieren un médico prescriptor y seguimiento renal. Las infecciones transmitidas por garrapatas requieren evaluación especializada; la Lyme no tratada puede progresar a complicaciones neurológicas y cardíacas. Si tiene una nueva erupción en forma de anillo, parálisis facial o hinchazón en las articulaciones después de una mordedura de garrapata, busque atención médica urgente.*
+*Esto es una explicación, no consejos para automedicación, y no soy médico. Los medicamentos antivirales (valaciclovir, valganciclovir) requieren un médico prescriptor y seguimiento renal. Las infecciones transmitidas por garrapatas requieren evaluación especializada; la Lyme no tratada puede progresar a complicaciones neurológicas y cardíacas. Si tienes una nueva erupción en forma de anillo, parálisis facial o hinchazón en las articulaciones después de una mordedura de garrapata, busca atención médica urgente.*
 
 ---
 
 ## La versión resumida, si solo lees una parte
 
 - **Una gran parte de los casos de EM/SFC sigue una infección aguda** (generalmente citada en un 70%, aunque la proporción exacta es debatida y es retrospectiva), y los cuatro principales son EBV/mononucleosis, HHV-6 (roseola → neurotrópico, se integra en los cromosomas), Borrelia transmitida por garrapatas (Lyme) y SARS-CoV-2 — cada uno de los cuales ha demostrado preceder un subgrupo de casos de EM/SFC y fatiga postinfecciosa.
-- **El misterio central es la replicación lítica abortiva (ALR).** El virus entra en el ciclo lítico — expresando proteínas inmunitosustimuladoras — pero se detiene antes de producir viriones. No hay carga viral medible en la sangre, pero las proteínas virales (dUTPases, genes inmediatos) siguen siendo producidas y el sistema inmunitario las detecta. Esto explica por qué los títulos de anticuerpos son altos pero el PCR es negativo [@Cox2022dUTPaseMECFS].
-- **EBV activa directamente los mastocitos.** La proteína recombinante de EBV añadida a mastocitos humanos aumentó casi seis veces la liberación de MMP-9 (2,464 vs 433 pg/ml) — y MMP-9 degrada la barrera hematoencefálica, permitiendo que los mediadores inflamatorios periféricos accedan al cerebro [@Chinnappan2026IL11MMP9].
-- **La co-reactivación de poliherpavirus es la regla, no la excepción.** El 72.5% de los pacientes con EM/SFC tenían anticuerpos elevados contra múltiples herpesvirus dUTPases en comparación con el 31% de los controles. EBV, HHV-6, CMV y VZV pueden reactivarse juntos — el sistema inmunitario está luchando contra una guerra viral en múltiples frentes con recursos agotados [@Palomo2026herpesvirus].
-- **La infección crónica es el tema más cargado de hipótesis en el Septad.** Es mecanísticamente central, pero más difícil de tratar de manera clara — los antivirales que bloquean la replicación de DNA en un virus completamente lítico pueden ser ineficaces contra la ALR, y la evidencia para ellos en EM/SFC es débil y no replicada.
+- **El misterio central es la replicación lítica abortiva (ALR).** El virus entra en el ciclo lítico — expresando proteínas inmunoestimuladoras — pero se detiene antes de producir viriones. No hay carga viral medible en la sangre, pero las proteínas virales (dUTPases, genes inmediatos) siguen siendo producidas y el sistema inmunitario las detecta. Esto explica por qué los títulos de anticuerpos son altos pero el PCR es negativo [@Cox2022dUTPaseMECFS].
+- **EBV activa directamente los mastocitos.** La proteína recombinante de EBV añadida a mastocitos humanos aumentó casi seis veces la liberación de MMP-9 (2.464 vs 433 pg/ml) — y MMP-9 degrada la barrera hematoencefálica, permitiendo que los mediadores inflamatorios periféricos accedan al cerebro [@Chinnappan2026IL11MMP9].
+- **La co-reactivación de poli-herpesvirus es la regla, no la excepción.** El 72,5% de los pacientes con EM/SFC tenían anticuerpos elevados contra múltiples herpesvirus dUTPases en comparación con el 31% de los controles. EBV, HHV-6, CMV y VZV pueden reactivarse juntos — el sistema inmunitario está luchando contra una guerra viral en múltiples frentes con recursos agotados [@Palomo2026herpesvirus].
+- **La infección crónica es el tema más cargado de hipótesis en el Septad.** Es mecanísticamente central, pero más difícil de tratar de manera clara — los antivirales que bloquean la replicación de ADN en un virus completamente lítico pueden ser ineficaces contra la ALR, y la evidencia para ellos en EM/SFC es débil y no replicada.
 
 ---
 
@@ -37,21 +37,21 @@ El virus de Epstein-Barr infecta a más del 90% de la población mundial. En la 
 
 ### Replicación lítica abortiva (ALR)
 
-En la replicación lítica completa, el virus expresa genes inmediatos (BZLF1, BRLF1), luego genes tempranos (incluido BLLF3, la dUTPasa), replica su ADN, forma viriones y lysosiza la célula. ALR se detiene después de la etapa de genes tempranos: las proteínas virales se producen, pero no se genera virus infeccioso. La célula no es destruida, pero expresa antígenos virales que el sistema inmunitario debe suprimir continuamente.
+En la replicación lítica completa, el virus expresa genes inmediatos (BZLF1, BRLF1), luego genes tempranos (incluido BLLF3, la dUTPasa), replica su ADN, forma viriones y lisa la célula. ALR se detiene después de la etapa de genes tempranos: las proteínas virales se producen, pero no se genera virus infeccioso. La célula no es destruida, pero expresa antígenos virales que el sistema inmunitario debe suprimir continuamente.
 
 ALR explica el signo inmunológico: altos anticuerpos contra antígenos líticos (EA-D, VCA, dUTPasa), pero ADN viral indetectable o bajo en sangre. El virus no está “replicando” en el sentido convencional, pero produce activamente proteínas que impulsan la activación inmunitaria, la inflamación y —crucialmente— la degranulación de mastocitos [@Cox2022dUTPaseMECFS].
 
 ### El problema de la dUTPasa
 
-La dUTPasa es una enzima de herpesvirus conservada que convierte dUTP en dUMP, evitando la incorporación incorrecta de uracilo en el ADN viral. También es un potente **patogeno-associated molecular pattern (PAMP)**: el sistema inmunitario innato reconoce la dUTPasa a través de TLR2 y desencadena la producción de citocinas impulsada por NF-κB. Las dUTPasas de EBV (BLLF3), HHV-6 (U45), VZV (ORF8) y CMV son estructuralmente similares, de modo que un virus reactivado puede producir una dUTPasa que estimule la respuesta inmunitaria a otro —una base mecánica para la co-reactivación de herpesvirus polispecíficos [@Cox2022dUTPaseMECFS].
+La dUTPasa es una enzima de herpesvirus conservada que convierte dUTP en dUMP, evitando la incorporación incorrecta de uracilo en el ADN viral. También es un potente **patrón molecular asociado a patógenos (PAMP)**: el sistema inmunitario innato reconoce la dUTPasa a través de TLR2 y desencadena la producción de citocinas impulsada por NF-κB. Las dUTPasas de EBV (BLLF3), HHV-6 (U45), VZV (ORF8) y CMV son estructuralmente similares, de modo que un virus reactivado puede producir una dUTPasa que estimule la respuesta inmunitaria a otro —una base mecanicista para la co-reactivación de herpesvirus polispecíficos [@Cox2022dUTPaseMECFS].
 
 La dUTPasa del EBV también activa NF-κB en mastocitos, lo que impulsa la expresión de MMP-9. Esta es la conexión entre la historia de reactivación viral y la historia de degradación de tejido conectivo cubierta en los artículos sobre hipermobilidad: un herpesvirus reactivado produce una proteína (dUTPasa) que indica a los mastocitos liberar una enzima (MMP-9) que degrada colágeno y abre la barrera hematoencefálica. El virus no está en el cerebro. Pero sus productos posteriores llegan allí.
 
 ### EBV→mastocito→MMP-9: el camino en cifras
 
 Chinnappan et al. (2026) probaron el efecto directo de la proteína recombinante del EBV sobre mastocitos humanos en cultura:
-- Liberación de MMP-9: **2,464 pg/ml (EBV) frente a 433 pg/ml (no estimulado), p<0.001, n=3**
-- Para comparación, LPS (un PAMP bacteriano) produjo 1,422 pg/ml; el EBV fue 1.7× más potente que LPS en impulsar la expresión de MMP-9
+- Liberación de MMP-9: **2.464 pg/ml (EBV) frente a 433 pg/ml (no estimulado), p<0,001, n=3**
+- Para comparación, LPS (un PAMP bacteriano) produjo 1.422 pg/ml; el EBV fue 1,7× más potente que LPS en impulsar la expresión de MMP-9
 - El mismo estudio encontró un aumento en IL-11 sérico en pacientes con EM/SFC: una citocina que amplifica la expresión de MMP-9 desde microglía, creando un **segundo bucle de amplificación de MMP-9** en el cerebro
 
 **Advertencias, porque son importantes.** El estudio utilizó mastocitos de sangre de cordón (no mastocitos del paciente), n=3 (la exigencia de cultivo de 12 semanas limita la replicación), suero en lugar de plasma (la MMP-9 es 3–4× más alta en suero debido a la degranulación de plaquetas durante la coagulación) y los grupos de EM/SFC y control no estaban alineados por edad. El hallazgo no ha sido replicado de forma independiente. La dirección del efecto —la proteína del EBV activa los mastocitos para liberar MMP-9— es mecanológicamente importante y biológicamente plausible, pero la magnitud y especificidad son provisionales [@Chinnappan2026IL11MMP9].
@@ -60,11 +60,11 @@ Chinnappan et al. (2026) probaron el efecto directo de la proteína recombinante
 
 ## HHV-6: el integrador neurotrópico
 
-El herpesvirus humano 6 (HHV-6) infecta a casi todos los niños antes de los 2 años (causando rosolia) y establece latencia en células T, monócitos y —crucialmente— en el sistema nervioso central. HHV-6 es el único herpesvirus humano que puede **integrarse en el cromosoma del huésped** (ciHHV-6), creando un reservorio genético permanente que los antivirales estándar no pueden eliminar.
+El herpesvirus humano 6 (HHV-6) infecta a casi todos los niños antes de los 2 años (causando roséola) y establece latencia en células T, monocitos y —crucialmente— en el sistema nervioso central. HHV-6 es el único herpesvirus humano que puede **integrarse en el cromosoma del huésped** (ciHHV-6), creando un reservorio genético permanente que los antivirales estándar no pueden eliminar.
 
 En EM/SFC, varios hallazgos indican la participación de HHV-6:
 
-- **miR-aU14 se encuentra en mitocondria.** HHV-6 codifica una microRNA, miR-aU14, que inhibe la familia de miR-30 del huésped. La miR-30 normalmente suprime p53 y DRP1; eliminar esa inhibición activa la translocación de DRP1 dependiente de p53 a las mitocondria, causando **fragmentación mitocondrial**. El virus no infecta directamente las mitocondria. Envía una microRNA que indica a la célula que rompa sus propias mitocondria [@Schreiner2020HHV6MitoME].
+- **miR-aU14 se encuentra con las mitocondrias.** HHV-6 codifica un microRNA, miR-aU14, que inhibe la familia de miR-30 del huésped. La miR-30 normalmente suprime p53 y DRP1; eliminar esa inhibición activa la translocación de DRP1 dependiente de p53 a las mitocondrias, causando **fragmentación mitocondrial**. El virus no infecta directamente las mitocondrias. Envía un microRNA que indica a la célula que rompa sus propias mitocondrias [@Schreiner2020HHV6MitoME].
 - **Invasión neurotrópica postmortem.** La miR-aU14 de HHV-6 se encontró en el plexo coroidal, el hipocampo, la amígdala y los ganglios radiculares dorsales de pacientes con EM/SFC en la autopsia —y estaba ausente en 24 controles. El número de muestras fue n=3, por lo que este es un hallazgo, no un hecho establecido. Pero coloca ácido nucleico viral en las regiones cerebrales exactas implicadas en los síntomas cognitivos, autonómicos y sensoriales de EM/SFC.
 - **Prevalencia.** La HHV-6 latente o persistente ha sido reportada en alrededor del 47% de pacientes con EM/SFC en comparación con aproximadamente el 10% de los controles en algunos estudios (cifras de estudio único; los rumbos varían según el análisis y la definición).
 
@@ -82,17 +82,17 @@ El debate sobre el mecanismo se asemeja al debate sobre el EBV: ¿existe una Bor
 
 ## Co-reactivación de poli-herpesvirus
 
-El sistema inmunitario no lucha contra un herpesvirus a la vez. El 72.5% de tasa de seroreactividad de poli-herpesvirus (en comparación con el 31% en los controles) indica que cuando la vigilancia inmunitaria se debilita —y la excesión de células T, la disfunción de NK y la senescencia de CD8+ están documentadas en EM/SFC— múltiples herpesviruses latentes se reactivan simultáneamente [@Palomo2026herpesvirus].
+El sistema inmunitario no lucha contra un herpesvirus a la vez. El 72,5% de tasa de seroreactividad de poli-herpesvirus (en comparación con el 31% en los controles) indica que cuando la vigilancia inmunitaria se debilita —y la excesión de células T, la disfunción de NK y la senescencia de CD8+ están documentadas en EM/SFC— múltiples herpesviruses latentes se reactivan simultáneamente [@Palomo2026herpesvirus].
 
-Esto crea un problema en el tratamiento. El valaciclivo inhibe la polimerasa del ADN del EBV (replicación lítica), pero no tiene efecto sobre el HHV-6. El valganciclovir cubre el HHV-6 y el CMV, pero es más tóxico. Ningún antiviral individual cubre los cuatro (EBV, HHV-6, CMV, VZV) sin toxicidad aditiva. Y ninguno de ellos bloquea la ALR, porque las proteínas virales tempranas se producen antes de la etapa de polimerasa del ADN a la que apuntan los medicamentos.
+Esto crea un problema en el tratamiento. El valaciclovir inhibe la polimerasa del ADN del EBV (replicación lítica), pero no tiene efecto sobre el HHV-6. El valganciclovir cubre el HHV-6 y el CMV, pero es más tóxico. Ningún antiviral individual cubre los cuatro (EBV, HHV-6, CMV, VZV) sin toxicidad aditiva. Y ninguno de ellos bloquea la ALR, porque las proteínas virales tempranas se producen antes de la etapa de polimerasa del ADN a la que apuntan los medicamentos.
 
 ---
 
 ## Infección crónica por sí misma vs EM/SFC con infección crónica
 
-**Infección crónica activa por sí misma (sin EM/SFC).** Replicación activa de EBV (positiva en PCR, carga viral detectable), Lyme activa (confirmada por cultivo o PCR), HHV-6 activa (viremia en pacientes trasplantados) — estas son enfermedades infecciosas tratadas con antivirales o antibióticos. Si el patógeno se identifica y existe un medicamento que lo targetice, el tratamiento es sencillo: administrar el medicamento, monitorear el patógeno y confirmar su eliminación.
+**Infección crónica activa por sí misma (sin EM/SFC).** Replicación activa de EBV (positiva en PCR, carga viral detectable), Lyme activa (confirmada por cultivo o PCR), HHV-6 activa (viremia en pacientes trasplantados) — estas son enfermedades infecciosas tratadas con antivirales o antibióticos. Si el patógeno se identifica y existe un medicamento que lo ataque, el tratamiento es sencillo: administrar el medicamento, monitorear el patógeno y confirmar su eliminación.
 
-**EM/SFC con estimulación inmunitaria crónica (la situación sobre la que trata esta serie).** Cuando el historial de infección es pasado y el problema actual es ALR, desregulación inmunitaria o autoimmunitad postinfecciosa, la lógica del tratamiento cambia:
+**EM/SFC con estimulación inmunitaria crónica (la situación sobre la que trata esta serie).** Cuando el historial de infección es pasado y el problema actual es ALR, desregulación inmunitaria o autoinmunidad postinfecciosa, la lógica del tratamiento cambia:
 
 - **Los antivirales que funcionan contra la replicación lítica pueden no funcionar contra ALR.** Las proteínas virales que impulsan la respuesta inmunitaria se producen antes de la etapa objetivo del medicamento. Un ensayo antiviral negativo no demuestra que el virus sea irrelevante; demuestra que el medicamento, a esa dosis, no interrumpió la etapa específica de replicación que está activa.
 - **La erradicación puede ser imposible.** El HHV-6 integrado no puede eliminarse. El EBV latente en células B de memoria es de por vida. El objetivo del tratamiento cambia de “eliminar el patógeno” a “suprimir la activación inmunitaria que el patógeno causa”.
@@ -102,7 +102,7 @@ Esto crea un problema en el tratamiento. El valaciclivo inhibe la polimerasa del
 
 ## La conclusión principal
 
-La infección crónica es la condición más mecanísticamente central y terapéuticamente frustrante entre las condiciones de Septad. La evidencia de que los herpesvirus y los patógenos transmitidos por garrapatas están involucrados en EM/SFC es fuerte: la replicación lítica abortiva, la co-reactivación de políherpesvirus, EBV→mastocito→MMP-9 y HHV-6 mitocondria fragmentación no son hipótesis marginales. Pero la evidencia de que el uso de antivirales actuales para atacarlos mejora EM/SFC es débil y no ha sido replicada — y la diferencia entre ALR (que los antivirales no bloquean) y la replicación lítica (que sí lo hacen) explica por qué [@Loth2026website].
+La infección crónica es la condición más mecanísticamente central y terapéuticamente frustrante entre las condiciones de Septad. La evidencia de que los herpesvirus y los patógenos transmitidos por garrapatas están involucrados en EM/SFC es fuerte: la replicación lítica abortiva, la co-reactivación de políherpesvirus, EBV→mastocito→MMP-9 y la fragmentación mitocondrial del HHV-6 no son hipótesis marginales. Pero la evidencia de que el uso de antivirales actuales para atacarlos mejora EM/SFC es débil y no ha sido replicada — y la diferencia entre ALR (que los antivirales no bloquean) y la replicación lítica (que sí bloquean) explica por qué [@Loth2026website].
 
 El [artículo de acompañamiento sobre el tratamiento](../chronic-infection-treatment/index.qmd) aborda los antivirales (valaciclovir, valganciclovir, famciclovir), los inmunomoduladores (cimetidina), los estabilizadores de mastocitos que interrumpen el camino EBV→MMP-9 más adelante en la vía viral, y la discusión sobre “¿qué pasaría si los antivirales no funcionaran?”.
 

@@ -43,7 +43,7 @@ Estos criterios son filtros, no pruebas. Un mecanismo que cumpla con los cuatro 
 
 El nivel al que pertenece un mecanismo determina qué tipo de trabajo terapéutico puede realizar [Cap. 16 §Implicaciones terapéuticas de la jerarquía causal].
 
-Tratar una consecuencia produce alivio sintomático sin abordar lo que mantiene la enfermedad. Los medicamentos para el sueño relacionados con la fragmentación del sueño en EM/SFC es el ejemplo más claro: la evidencia disponible sugiere que los pacientes cuyo sueño se normaliza farmacológicamente no se recuperan típicamente; duermen mejor dentro del estado de enfermedad, aunque los resultados varían [Cap. 16 §Consecuencias downstream]. El límite terapéutico está definido por el nivel.
+Tratar una consecuencia produce alivio sintomático sin abordar lo que mantiene la enfermedad. Los medicamentos para el sueño relacionados con la fragmentación del sueño en EM/SFC son el ejemplo más claro: la evidencia disponible sugiere que los pacientes cuyo sueño se normaliza farmacológicamente no se recuperan típicamente; duermen mejor dentro del estado de enfermedad, aunque los resultados varían [Cap. 16 §Consecuencias downstream]. El límite terapéutico está definido por el nivel.
 
 Tratar un amplificador puede ralentizar significativamente el avance de la enfermedad y reducir la carga de la enfermedad, y si el amplificador es de soporte, su eliminación puede ser un componente necesario para la recuperación. Aun así, el tratamiento solo del amplificador deja intacto el mecanismo subyacente de la enfermedad [Cap. 16 §Mecanismos de amplificador].
 
@@ -55,7 +55,7 @@ La conclusión es la siguiente: el mecanismo más fundamental desde el punto de 
 
 ## ¿Qué mecanismos califican?
 
-Según el análisis de cuatro criterios, tres mecanismos son evaluados como causas raíz capaces de desencadenar EM/SFC: significa que cumplen todos los cuatro filtros dentro del análisis mecánico actual del marco, pero esta clasificación no ha sido confirmada experimentalmente [Cap. 16 §Mecanismos Capaces de Desencadenar].
+Según el análisis de cuatro criterios, tres mecanismos son evaluados como causas raíz candidatas capaces de desencadenar EM/SFC: significa que cumplen todos los cuatro filtros dentro del análisis mecánico actual del marco, pero esta clasificación no ha sido confirmada experimentalmente [Cap. 16 §Mecanismos Capaces de Desencadenar].
 
 *Crisis de energía en el SNC* implica una falla en la energía del tronco encefálico y el hipotálamo que perturba la coordinación central de las funciones inmunitaria, autónoma y metabólica. Cumple todos los cuatro criterios y tiene un camino directo hacia PEM a través de la regulación energética central dañada en la respuesta al esfuerzo [Cap. 16 §Crisis de Energía en el SNC].
 

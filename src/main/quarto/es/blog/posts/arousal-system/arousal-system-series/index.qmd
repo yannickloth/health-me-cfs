@@ -7,7 +7,7 @@ categories: [Arousal system, Noradrenergic, Mechanisms]
 lang: es
 ---
 
-Esta serie analiza uno de los temas más recientes en la investigación de EM/SFC: un **deficiente selectivo de noradrenalina central** —el principal transmisor de excitación del cerebro— y lo que podría explicar.
+Esta serie analiza uno de los temas más recientes en la investigación de EM/SFC: un **déficit selectivo de noradrenalina central** —el principal transmisor de excitación del cerebro— y lo que podría explicar.
 
 No es una promesa. El hallazgo principal proviene de un único estudio pequeño y no ha sido replicado. Pero conecta varias manifestaciones que los pacientes reportan —intolerancia al esfuerzo, sueño insatisfactorio, "con energía pero cansado"— con un sistema medible, y hace predicciones verificables.
 
@@ -16,9 +16,9 @@ No es una promesa. El hallazgo principal proviene de un único estudio pequeño 
 1. [La noradrenalina no es un combustible, es un regulador](../what-norepinephrine-really-does/)
 2. [Por qué EM/SFC podría tener baja noradrenalina pero normal dopamina](../selective-norepinephrine-deficit/)
 3. [El ciclo que podría mantener EM/SFC activa](../the-loop-that-keeps-itself-going/)
-4. [Lo que una "drogas de noradrenalina" puede y no puede hacer](../what-a-norepinephrine-drug-can-and-cannot-do/)
+4. [Lo que un "fármaco de noradrenalina" puede y no puede hacer](../what-a-norepinephrine-drug-can-and-cannot-do/)
 5. [Con energía pero cansado: una excitación que no se apaga](../arousal-that-wont-switch-off/)
-6. [Un mecanismo sin pastilla: el vago y el locus coeruleus](../the-vagus-norepinephrine-lever/)
+6. [Una palanca sin pastilla: el vago y el locus coeruleus](../the-vagus-norepinephrine-lever/)
 7. [Pupilas, agarre y una proporción de orina: probar el sistema sin punción lumbar](../testing-the-axis-without-a-lumbar-puncture/)
 8. [No, todavía no es ácido láctico, pero la noradrenalina forma parte de la historia del combustible](../not-lactic-acid-norepinephrine-and-fuel/)
 9. [El triángulo de noradrenalina: narcolepsia, POTS y EM/SFC](../the-norepinephrine-triangle/)

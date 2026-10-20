@@ -1,5 +1,5 @@
 ---
-title: "Clúster Neurodivergente-Hipermovilidad-Estrés: Riesgo Metabólico Compuesto"
+title: "Clúster Neurodivergente-Hipermovilidad-Fatiga: Riesgo Metabólico Compuesto"
 description: "Este es el cuarto artículo de una serie sobre la biología de la energía que relaciona TDAH, autismo y EM/SFC. Este artículo analiza por qué la intersección entre neurodivergencia y hipermovilidad del tejido conectivo puede representar el fenotipo de mayor riesgo para el desarrollo de EM/SFC..."
 author: "Yannick Loth"
 date: "2026-05-11"
@@ -15,9 +15,9 @@ Este es el cuarto artículo de una serie sobre la biología de la energía que r
 
 Estas condiciones ocurren con tasas mucho mayores que el azar:
 
-- **Los individuos autistas tienen 7.4 veces más probabilidades de padecer síndrome de Ehlers-Danlos** que los grupos de comparación. La hipermovilidad articular evaluada clínicamente está presente en el 31% de los individuos autistas; la prevalencia de HSD/EDS alcanza el 39% cuando se evalúa clínicamente [@BaezaVelasco2025autismEDS].
+- **Los individuos autistas tienen 7,4 veces más probabilidades de padecer síndrome de Ehlers-Danlos** que los grupos de comparación. La hipermovilidad articular evaluada clínicamente está presente en el 31% de los individuos autistas; la prevalencia de HSD/EDS alcanza el 39% cuando se evalúa clínicamente [@BaezaVelasco2025autismEDS].
 
-- **En niños con hEDS o HSD** (n = 201), el TDAH estaba presente en el 16% en general — aumentando al **46% a los 17–18 años**. La ASD estaba presente en el 6% (frente a aproximadamente el 2.6% de la población general) [@Kindgren2021hEDSadhd].
+- **En niños con hEDS o HSD** (n = 201), el TDAH estaba presente en el 16% en general — aumentando al **46% a los 17–18 años**. La ASD estaba presente en el 6% (frente a aproximadamente el 2,6% de la población general) [@Kindgren2021hEDSadhd].
 
 - **La hipermovilidad articular estadísticamente media** la asociación entre neurodivergencia y tanto disautonomía como dolor. En 109 adultos neurodivergentes, el 51% presentaba hipermovilidad articular generalizada (frente al 20% de la población general). Prevalencia de neurodivergencia en mujeres: 69% [@Csecs2022hypermobility].
 
@@ -34,18 +34,18 @@ Un meta-análisis de **204 estudios** encontró disfunción mitocondrial sistém
 - Lactato elevado (17% de las muestras de ASD)
 - Piruvato elevado (41%)
 - Creatinaquinasa elevada (9%)
-- Deficiente significativo de ATP con **tamaños de efecto ≥ 0.6** (moderado-a grande)
+- Déficit significativo de ATP con **tamaños de efecto ≥ 0,6** (de moderado a grande)
 
 Estos son los mismos deterioros en la cadena de transporte de electrones documentados en EM/SFC. En ASD, existen como una **característica de base** — presentes antes de cualquier desencadenante infeccioso.
 
-En el caso de TDAH, la evidencia incluye hipometabolismo de glucosa en el prefrontal (8.1% reducido [@Zametkin1990]), hipoperfusión cerebral [@Berthier2025cbfadhd] y evidencia preclínica de deterioro mitocondrial (variantes de genes de montaje del complejo I: NDUFAF2, UCP2 [@Almutairi2024mitoadhd]).
+En el caso de TDAH, la evidencia incluye hipometabolismo de glucosa en el prefrontal (8,1% reducido [@Zametkin1990]), hipoperfusión cerebral [@Berthier2025cbfadhd] y evidencia preclínica de deterioro mitocondrial (variantes de genes de montaje del complejo I: NDUFAF2, UCP2 [@Almutairi2024mitoadhd]).
 
 ### Mecanismo 2: Reducción de la entrega de energía (hEDS/POTS)
 
 La laxitud del tejido conectivo conduce a:
 1. Acumulación venosa (la sangre se acumula en las piernas cuando está de pie)
-2. Reducción del retorno venoso → reducido flujo cardíaco
-3. Reducción del flujo cardíaco → **reducción de perfusión cerebral**
+2. Reducción del retorno venoso → gasto cardíaco reducido
+3. Reducción del gasto cardíaco → **reducción de la perfusión cerebral**
 4. Activación crónica del sistema simpático para compensar → consumo adicional de ATP
 
 Esto no es solo un problema al estar de pie. Es un déficit crónico en la entrega de energía que opera incluso durante el trabajo cognitivo. El cerebro recibe menos combustible por unidad de tiempo.
@@ -61,11 +61,11 @@ Una persona con ASD + hEDS tiene **dos mecanismos independientes** que reducen l
 
 Según este modelo, los efectos son multiplicativos en lugar de aditivos. Si la ASD reduce la capacidad de producción en un 12% y hEDS reduce el suministro en un 8%:
 
-> Efecto compuesto: 0.88 × 0.92 = 0.81 → **un 19% de reducción total**
+> Efecto compuesto: 0,88 × 0,92 = 0,81 → **un 19% de reducción total**
 
 Añadiendo una deficiencia de hierro (común en TDAH y ASD):
 
-> 0.88 × 0.92 × 0.90 = 0.73 → **un 27% de reducción total**
+> 0,88 × 0,92 × 0,90 = 0,73 → **un 27% de reducción total**
 
 *(Estos porcentajes son estimaciones ilustrativas que demuestran la lógica multiplicativa, no valores medidos empíricamente. El modelo multiplicativo asume que los déficits son independientes; en realidad podrían ser subaditivos, aditivos o parcialmente superpuestos. Las magnitudes reales y el tipo de interacción aún deben cuantificarse.)*
 
@@ -75,9 +75,9 @@ Una persona con ASD + hEDS + deficiencia de hierro podría operar con **un 73% d
 
 ## El BH4 como puente molecular
 
-El camino del BH4 (tetrahidrobiopterina) conecta estas condiciones a nivel molecular:
+La vía del BH4 (tetrahidrobiopterina) conecta estas condiciones a nivel molecular:
 
-- **ASD:** Hay un nivel consistentemente más bajo de BH4 en muestras biológicas en comparación con los controles. La suplementación de BH4 muestra potencial en algunos estudios sobre ASD.
+- **ASD:** Hay un nivel consistentemente más bajo de BH4 en muestras biológicas en comparación con los controles. La suplementación de BH4 muestra potencial en algunos ensayos sobre ASD.
 - **TDAH:** La alta demanda dopaminérgica aumenta el consumo de BH4.
 - **hEDS/POTS:** El estrés oxidativo causado por isquemia-reperfusión oxidiza el BH4 a su forma inactiva (BH2).
 
@@ -89,33 +89,33 @@ El BH4 es necesario tanto para la síntesis de neurotransmisores (dopamina, sero
 
 Cuando COVID, EBV o influenza afectan a una persona con este grupo, la respuesta inmunitaria impone demandas metabólicas en un sistema que ya está operando cerca de sus límites. La producción de citocina, la proliferación de linfocitos y la neuroinflamación — todo proviene del mismo recurso de energía limitado.
 
-En una persona con un 73% de capacidad, la demanda inmunitaria adicional puede llevarla por debajo del umbral crítico para el daño mitocondrial autónomo. El ciclo feed-forward se inicia. La fatiga postinfecciosa no se resuelve.
+En una persona con un 73% de capacidad, la demanda inmunitaria adicional puede llevarla por debajo del umbral crítico para el daño mitocondrial autosostenido. El ciclo feed-forward se inicia. La fatiga postinfecciosa no se resuelve.
 
 La predicción es verificable: **las personas con más reductores de reserva metabólica deberían tener una mayor incidencia de EM/SFC después de infecciones similares.** ASD + hEDS + déficit de hierro → mayor riesgo que ASD solo → mayor riesgo que controles neurotípicos.
 
-Esto nunca ha sido probado directamente. Los datos existen en registros de hEDS y cohortes post-Covid. El análisis no se ha realizado.
+Esto nunca ha sido probado directamente. Los datos existen en registros de hEDS y cohortes post-COVID. El análisis no se ha realizado.
 
 ---
 
 ## La neurodivergencia como factor de riesgo post-COVID: evidencia preliminar
 
-Un estudio transversal de 2025 con 267 trabajadores de atención sanitaria descubrió que los puntajes más altos de rasgos autistas — específicamente la **subescala de reactividad sensorial** — predijeron síntomas de COVID-19 que duraron más de 12 semanas [@Raw2025neurodivergencePostCOVID]. Esto fue independiente del diagnóstico formal de autismo.
+Un estudio transversal de 2025 con 267 trabajadores de atención sanitaria descubrió que las puntuaciones más altas de rasgos autistas — específicamente la **subescala de reactividad sensorial** — predijeron síntomas de COVID-19 que duraron más de 12 semanas [@Raw2025neurodivergencePostCOVID]. Esto fue independiente del diagnóstico formal de autismo.
 
-Este hallazgo es dimensional: opera en un espectro de rasgos autistas, no solo en el umbral de diagnóstico. Bajo el modelo de reserva metabólica, cualquier grado de biología neurodivergente que aumente el consumo basal de energía neural reduce la margen para absorber una injerencia inmunitaria.
+Este hallazgo es dimensional: opera en un espectro de rasgos autistas, no solo en el umbral de diagnóstico. Bajo el modelo de reserva metabólica, cualquier grado de biología neurodivergente que aumente el consumo basal de energía neural reduce el margen para absorber una agresión inmunitaria.
 
-*Limitaciones: Se trata de un pequeño estudio transversal que no puede establecer una causa-efecto. El diseño no puede descartar explicaciones alternativas — los rasgos autistas pueden correlacionarse con diferentes patrones de reportación de síntomas, comportamiento de búsqueda de atención sanitaria o exposiciones ocupacionales, en lugar de vulnerabilidad biológica.*
+*Limitaciones: Se trata de un pequeño estudio transversal que no puede establecer una causa-efecto. El diseño no puede descartar explicaciones alternativas — los rasgos autistas pueden correlacionarse con diferentes patrones de notificación de síntomas, comportamiento de búsqueda de atención sanitaria o exposiciones ocupacionales, en lugar de vulnerabilidad biológica.*
 
 ---
 
-## ¿Qué es modificable en este cluster
+## ¿Qué es modificable en este cluster?
 
 No todo esto es inevitable. Varias componentes del déficit compuesto son corregibles:
 
 | Componente | Intervención | Costo |
 | --- | --- | --- |
-| Estado de hierro | Meta de ferritina >50–100 ng/mL; hierro intravenoso si es intolerancia oral | Bajo |
+| Estado de hierro | Meta de ferritina >50–100 ng/mL; hierro intravenoso si hay intolerancia oral | Bajo |
 | Perfusión cerebral | Ropa de compresión, carga de líquidos/sal, trabajo cognitivo recostado | Bajo |
-| Apoyo al reciclaje de BH4 | Ácido folénico, vitamina C, hierro (apoya la enzima DHPR) | Bajo |
+| Apoyo al reciclaje de BH4 | Ácido folínico, vitamina C, hierro (apoya la enzima DHPR) | Bajo |
 | Gestión de POTS | Protocolo estándar (midodrina, fludrocortisona o no farmacológico) | Moderado |
 | BH4 directo | Sapropterina para portadores confirmados de GCH1 | Alto |
 

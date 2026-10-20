@@ -1,17 +1,17 @@
 ---
 title: "¿Por qué tu cuerpo te permite actuar antes de que tengas que pagar: Las raíces evolutivas de PEM"
-description: "Hay algo que, a primera vista, parece un cruel truco en el corazón de la EM/SFC: a menudo se puede hacer lo que se necesita. Levantar la bolsa, caminar hacia la cocina, asistir al cita. La catástrofe llega más tarde —doce, veinticuatro, cuarenta y ocho horas..."
+description: "Hay algo que, a primera vista, parece un cruel truco en el corazón de la EM/SFC: a menudo se puede hacer lo que se necesita. Levantar la bolsa, caminar hacia la cocina, asistir a la cita. La catástrofe llega más tarde —doce, veinticuatro, cuarenta y ocho horas..."
 author: "Yannick Loth"
 date: "2026-03-11"
 categories: [PEM, Evolutionary Biology, Pathophysiology]
 lang: es
 ---
 
-Hay algo que, a primera vista, parece un cruel truco en el corazón de la EM/SFC: a menudo puedes hacerlo. Levantar la bolsa, caminar hacia la cocina, asistir al cita. La catástrofe llega más tarde —doce, veinticuatro, cuarenta y ocho horas después— cuando estás acostado en la cama preguntándote por qué estás pagando este precio por algo que parecía manejable en ese momento.
+Hay algo que, a primera vista, parece un cruel truco en el corazón de la EM/SFC: a menudo puedes hacerlo. Levantar la bolsa, caminar hacia la cocina, asistir a la cita. La catástrofe llega más tarde —doce, veinticuatro, cuarenta y ocho horas después— cuando estás acostado en la cama preguntándote por qué estás pagando este precio por algo que parecía manejable en ese momento.
 
-¿Por qué se pospone el costo? ¿Por qué el cuerpo simplemente no se niega en ese momento?
+¿Por qué se pospone el coste? ¿Por qué el cuerpo simplemente no se niega en ese momento?
 
-La respuesta es evolutiva. Y entenderla redefine el malestar post-esfuerzo no como un misterioso peculiar de la enfermedad, sino como una biología normal —un sistema cuyo primer hemisferio está intacto, y cuyo segundo hemisferio está roto.
+La respuesta es evolutiva. Y entenderla redefine el malestar post-esfuerzo no como una peculiaridad misteriosa de la enfermedad, sino como una biología normal —un sistema cuya primera mitad está intacta, y cuya segunda mitad está rota.
 
 ---
 
@@ -25,15 +25,15 @@ Los organismos cuyos cuerpos podían superar la fatiga, suprimir el dolor y movi
 
 Esto es selección: el residuo de millones de años en los que la capacidad de actuar bajo presión fue la diferencia entre vida y muerte. Llevamos estos genes porque nuestros antepasados que los portaban sobrevivieron.
 
-El resultado es una fisiología con una propiedad notable: **supervivencia de emergencia**. Cuando la amenaza es aguda —una caída repentina, una pelea, una carrera por la supervivencia— el sistema nervioso puede movilizar recursos que normalmente se mantienen en reserva. La epinefrina inunda el torrente sanguíneo, el glucógeno muscular se moviliza en segundos, las endorfinas suprimen el dolor y el cortisol redirige la energía desde el almacenamiento hacia la acción. Las fibras musculares normales son reclutadas a un ritmo imposible durante un esfuerzo voluntario. El cuerpo no pregunta si puede permitirse esto. Simplemente actúa.
+El resultado es una fisiología con una propiedad notable: **anulación de emergencia**. Cuando la amenaza es aguda —una caída repentina, una pelea, una carrera por la supervivencia— el sistema nervioso puede movilizar recursos que normalmente se mantienen en reserva. La epinefrina inunda el torrente sanguíneo, el glucógeno muscular se moviliza en segundos, las endorfinas suprimen el dolor y el cortisol redirige la energía desde el almacenamiento hacia la acción. Las fibras musculares normales son reclutadas a un ritmo imposible durante un esfuerzo voluntario. El cuerpo no pregunta si puede permitirse esto. Simplemente actúa.
 
 ¿Y la factura? Llegará más tarde.
 
 ---
 
-## El costo aplazado es el diseño, no el fracaso
+## El coste aplazado es el diseño, no el fracaso
 
-Esta estructura de costo aplazado no es un accidente. En un sentido evolutivo, es el orden correcto de las operaciones.
+Esta estructura de coste aplazado no es un accidente. En un sentido evolutivo, es el orden correcto de las operaciones.
 
 Un organismo que colapsa debido al esfuerzo durante una amenaza no sobreviviría. Un organismo que actúa primero y se recupera después podría. El orden en sí —acción primero, reparación después— es lo que se seleccionó.
 
@@ -41,12 +41,12 @@ En la fisiología saludable, la deuda es real pero manejable:
 
 - El lactato producido durante el metabolismo anaeróbico se elimina en minutos o horas
 - Las señales de reparación inflamatoria alcanzan su punto máximo 6–24 horas después de un esfuerzo significativo y desaparecen en días
-- El glucógeno muscular se reponde en 24–48 horas
+- El glucógeno muscular se repone en 24–48 horas
 - La vigilancia inmunitaria, que se suprime durante el estrés agudo para priorizar el movimiento, vuelve a activarse después
 
 El cuerpo sabe que ha tomado prestado. Envía la factura a través del comportamiento enfermo: una respuesta coordinada y mediada por neuronas en la que las citocinas señalan al cerebro para inducir fatiga, retiro social, anorexia y sueño. Esto no es debilidad. Es una recalibración prioritaria —el cuerpo dice: *la emergencia ha terminado. Ahora reparación.*
 
-Benjamin Hart describió por primera vez el comportamiento enfermo como adaptativo en 1988, reconociendo que la pasividad que parece enfermedad es en realidad una reasignación activa de recursos. El sistema inmunitario necesita glucosa, la inflamación necesita sustrato metabólico y la reparación requiere descanso. La fatiga que sientes después de un gran esfuerzo físico —la cansancio profundo que te hace querer quedarte quieto— es esa reasignación siendo ejecutada.
+Benjamin Hart describió por primera vez el comportamiento enfermo como adaptativo en 1988, reconociendo que la pasividad que parece enfermedad es en realidad una reasignación activa de recursos. El sistema inmunitario necesita glucosa, la inflamación necesita sustrato metabólico y la reparación requiere descanso. La fatiga que sientes después de un gran esfuerzo físico —el cansancio profundo que te hace querer quedarte quieto— es esa reasignación siendo ejecutada.
 
 ---
 
@@ -65,8 +65,8 @@ El préstamo ocurre; el reembolso no.
 En EM/SFC, la maquinaria de restauración metabólica está dañada en múltiples niveles:
 
 - La resíntesis de ATP mitocondrial está deteriorada — la deuda energética celular no puede ser completamente eliminada
-- La respuesta inmunitaria post-exercicio está amplificada de forma patológica — citocinas IL-1β, IL-8, CXCL10 y otras aumentan a niveles y duraciones no vistas en controles sanos
-- La respuesta al comportamiento de enfermedad, destinada a imponer descanso y redirigir energía hacia la reparación, se activa pero no puede completar su función porque los mecanismos de reparación son themselves disfuncionales
+- La respuesta inmunitaria post-esfuerzo está amplificada de forma patológica — citocinas IL-1β, IL-8, CXCL10 y otras aumentan a niveles y duraciones no vistas en controles sanos
+- La respuesta al comportamiento de enfermedad, destinada a imponer descanso y redirigir energía hacia la reparación, se activa pero no puede completar su función porque los mecanismos de reparación son en sí mismos disfuncionales
 - El sistema glifático, que elimina residuos metabólicos durante el sueño, opera en un cerebro con falta de energía que no puede sostener la arquitectura de onda lenta que el sistema requiere
 
 El retraso no es la patología — es biología normal. La patología es lo que ocurre al final: la reparación que no llega.
@@ -81,41 +81,41 @@ La gente observa que alguien con EM/SFC pudo asistir a un evento, completar una 
 
 Pero este razonamiento mal entiende la biología. El mecanismo de superación existe precisamente porque permite la acción incluso cuando el organismo está en un estado comprometido — y los organismos con esa capacidad sobrevivieron. Durante la mayor parte de la historia evolutiva, esta capacidad era exactamente lo que necesitaban los animales enfermos o lesionados: para huir, luchar y regresar al refugio antes de colapsar.
 
-La ventana funcional durante el esfuerzo no es evidencia de capacidad. Es evidencia de movilización de emergencia. El costo se pospone, no se evita.
+La ventana funcional durante el esfuerzo no es evidencia de capacidad. Es evidencia de movilización de emergencia. El coste se pospone, no se evita.
 
-La crisis que sigue no es debilidad de inicio tardío. Es la respuesta inmune y metabólica que siempre habría venido — la factura que el cuerpo envía 12–72 horas después de que se utilizó la energía de emergencia. En una persona sana, esa factura se paga en pocos días. En EM/SFC, se acumula: la deuda se toma repetidamente, y el pago nunca se quita.
-
----
-
-## En el extremo más grave, incluso la superposición falla.
-
-Hay un importante gradiente aquí. Para la mayoría de los pacientes con EM/SFC, la superposición de emergencia sigue estando parcialmente disponible. Por esta razón, muchos pacientes a veces pueden hacer más de lo que su nivel base sugiere — y por eso sufren crisis posteriormente.
-
-En los pacientes más gravemente afectados — aquellos que están en cama, incapaces de tolerar cualquier entrada sensorial, incapaces de moverse sin provocar un deterioro inmediato — incluso esta superposición puede agotarse. Las reservas adrenérgicas que permiten la movilización de emergencia pueden estar también agotadas. Este es el punto final de un sistema que ha sido cronicamente sobrecargado: no solo hay una recuperación afectada, sino también la pérdida de la capacidad de movilizarse en absoluto.
-
-Este gradiente — desde una superposición intacta con una recuperación afectada, hasta una superposición afectada con un deterioro catastrófico — se corresponde con el espectro de gravedad de la EM/SFC de una manera que tiene sentido biológico. No es una enfermedad diferente. Es el mismo sistema de reembolso dañado, en diferentes etapas de agotamiento.
+La crisis que sigue no es debilidad de inicio tardío. Es la respuesta inmune y metabólica que siempre habría venido — la factura que el cuerpo envía 12–72 horas después de que se utilizó la energía de emergencia. En una persona sana, esa factura se paga en pocos días. En EM/SFC, se acumula: la deuda se toma repetidamente, y el pago nunca se liquida.
 
 ---
 
-## ¿Qué significa esto en la práctica
+## En el extremo más grave, incluso la anulación falla
 
-Entender la PEM como un sistema de costos aplazados — préstamos normales, reembolsos fallidos — tiene implicaciones específicas.
+Hay un importante gradiente aquí. Para la mayoría de los pacientes con EM/SFC, la anulación de emergencia sigue estando parcialmente disponible. Por esta razón, muchos pacientes a veces pueden hacer más de lo que su nivel base sugiere — y por eso sufren crisis posteriormente.
 
-El esfuerzo continuo causa daño porque cada actividad recurre a un sistema de recuperación que no puede cancelar la deuda; el siguiente esfuerzo comienza desde una base aún peor. El sistema no se adapta hacia arriba. Se degrada — y esa degradación es la consecuencia celular de sobrecréditos repetidos en una cuenta que no puede ser reabastecida.
+En los pacientes más gravemente afectados — aquellos que están en cama, incapaces de tolerar cualquier entrada sensorial, incapaces de moverse sin provocar un deterioro inmediato — incluso esta anulación puede agotarse. Las reservas adrenérgicas que permiten la movilización de emergencia pueden estar también agotadas. Este es el punto final de un sistema que ha sido crónicamente sobrecargado: no solo hay una recuperación afectada, sino también la pérdida de la capacidad de movilizarse en absoluto.
+
+Este gradiente — desde una anulación intacta con una recuperación afectada, hasta una anulación afectada con un deterioro catastrófico — se corresponde con el espectro de gravedad de la EM/SFC de una manera que tiene sentido biológico. No es una enfermedad diferente. Es el mismo sistema de reembolso dañado, en diferentes etapas de agotamiento.
+
+---
+
+## ¿Qué significa esto en la práctica?
+
+Entender la PEM como un sistema de costes aplazados — préstamos normales, reembolsos fallidos — tiene implicaciones específicas.
+
+El esfuerzo continuo causa daño porque cada actividad recurre a un sistema de recuperación que no puede cancelar la deuda; el siguiente esfuerzo comienza desde una base aún peor. El sistema no se adapta hacia arriba. Se degrada — y esa degradación es la consecuencia celular de descubiertos repetidos en una cuenta que no puede ser reabastecida.
 
 La diferencia de 12–72 horas entre el esfuerzo y la crisis tampoco es misteriosa una vez comprendida la biología. Es el tiempo normal de la respuesta inmune posterior al esfuerzo: la misma cascada de citocinas que produce dolor muscular y fatiga después de ejercicio intenso en una persona saludable, pero amplificada enormemente y sin resolución. El retraso está integrado en la biología.
 
 Crucialmente, el descanso durante una actividad no interrumpe esto. El daño no ocurre durante el esfuerzo; ocurre en la respuesta inflamatoria que sigue. Sentarse a mitad de un evento no evita la cascada que ya se ha activado.
 
-Finalmente, cuando el sistema de reembolso ha sido sobrecrédito durante suficiente tiempo, incluso el mecanismo de préstamo comienza a fallar — por eso las pacientes gravemente afectadas no pueden conducir ni siquiera pequeños esfuerzos. Lo que queda es un cuerpo que ya no puede movilizar reservas de emergencia sin consecuencias catastróficas, no porque elija no hacerlo, sino porque el sistema no tiene nada más de lo que sacar.
+Finalmente, cuando el sistema de reembolso ha quedado en descubierto durante suficiente tiempo, incluso el mecanismo de préstamo comienza a fallar — por eso los pacientes gravemente afectados no pueden realizar ni siquiera pequeños esfuerzos. Lo que queda es un cuerpo que ya no puede movilizar reservas de emergencia sin consecuencias catastróficas, no porque elija no hacerlo, sino porque el sistema no tiene nada más de lo que sacar.
 
 ---
 
 ## Una nota sobre el enfoque
 
-El argumento evolutivo aquí se refiere a la *selección*, no al diseño. El cuerpo no "decidió" posponer los costos por razones estratégicas. Más bien: los organismos cuya fisiología permitía acciones de emergencia antes de que se sintieran los costos tenían más posibilidades de sobrevivir y reproducirse. Esa fisiología fue seleccionada. La llevamos porque esos antepasados vivieron.
+El argumento evolutivo aquí se refiere a la *selección*, no al diseño. El cuerpo no "decidió" posponer los costes por razones estratégicas. Más bien: los organismos cuya fisiología permitía acciones de emergencia antes de que se sintieran los costes tenían más posibilidades de sobrevivir y reproducirse. Esa fisiología fue seleccionada. La llevamos porque esos antepasados vivieron.
 
-La arquitectura de costos pospuestos no es un defecto en la biología humana. Era supervivencia. En EM/SFC, esa misma arquitectura persiste — pero en un cuerpo donde la segunda mitad del ciclo, la restauración, ha sido dañada por una enfermedad. El sistema está llevando a cabo el primer acto de un programa de dos actos. El segundo acto no llega.
+La arquitectura de costes pospuestos no es un defecto en la biología humana. Era supervivencia. En EM/SFC, esa misma arquitectura persiste — pero en un cuerpo donde la segunda mitad del ciclo, la restauración, ha sido dañada por una enfermedad. El sistema está llevando a cabo el primer acto de un programa de dos actos. El segundo acto no llega.
 
 Eso es lo que es PEM: no es debilidad, no es evitación, no es un síntoma que se ignore.
 

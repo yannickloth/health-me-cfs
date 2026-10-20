@@ -1,6 +1,6 @@
 ---
 title: "Tu TDAH es un problema de energía"
-description: "Este es el primer artículo de una serie sobre la biología energética que relaciona TDAH, autismo y EM/SFC. La evidencia presentada aquí proviene de un proyecto de documentación EM/SFC de acceso abierto (CC-BY 4.0) que integra fisiopatología, matemáticas formales, etc."
+description: "Este es el primer artículo de una serie sobre la biología energética que relaciona TDAH, autismo y EM/SFC. La evidencia presentada aquí proviene de un proyecto de documentación EM/SFC de acceso abierto (CC-BY 4.0) que integra fisiopatología, matemáticas formales..."
 author: "Yannick Loth"
 date: "2026-05-07"
 categories: [ADHD, Neurodivergence, Energy Metabolism]
@@ -15,9 +15,9 @@ Este artículo sostiene que el TDAH, en su núcleo funcional, es un déficit en 
 
 En 1990, Zametkin y sus colegas del NIH publicaron un estudio de PET en el *New England Journal of Medicine*. Colocaron a 25 adultos con TDAH y 50 controles correspondientes en un escáner de PET y midieron el metabolismo de glucosa cerebral — la cantidad de combustible que el cerebro realmente quemaba.
 
-El resultado: **un 8.1% menor metabolismo de glucosa cerebral global** en adultos con TDAH. Un hipometabolismo significativo en 30 de 60 regiones cerebrales examinadas. Las reducciones más grandes se observaron en el cortex premotor y el cortex prefrontal superior — las regiones responsables de la atención sostenida, la planificación y el control de impulsos [@Zametkin1990].
+El resultado: **un 8,1% menor metabolismo de glucosa cerebral global** en adultos con TDAH. Un hipometabolismo significativo en 30 de 60 regiones cerebrales examinadas. Las reducciones más grandes se observaron en el cortex premotor y el cortex prefrontal superior — las regiones responsables de la atención sostenida, la planificación y el control de impulsos [@Zametkin1990].
 
-*Advertencia importante: una seguimiento en 1993 por el mismo grupo en adolescentes no replicó el hallazgo global después de corregir el tamaño cerebral, y la literatura de PET posterior ha sido mixta. El signo de hipometabolismo es real, pero su interpretación — fallo en el suministro de energía vs. reducida demanda en circuitos menos activos — sigue siendo debatida.*
+*Advertencia importante: un seguimiento en 1993 por el mismo grupo en adolescentes no replicó el hallazgo global después de corregir el tamaño cerebral, y la literatura de PET posterior ha sido mixta. El signo de hipometabolismo es real, pero su interpretación — fallo en el suministro de energía vs. reducida demanda en circuitos menos activos — sigue siendo debatida.*
 
 Bajo este marco energético, el cerebro con TDAH está utilizando su región más exigente en energía con un suministro reducido de combustible.
 
@@ -25,17 +25,17 @@ Bajo este marco energético, el cerebro con TDAH está utilizando su región má
 
 ## Esto no fue un hallazgo aislado.
 
-Una **revisión sistemática de 2025** combinó 20 estudios sobre el flujo sanguíneo cerebral con 1,652 participantes con TDAH y 580 controles. El hallazgo principal: **hipovolución en estado de reposo** — disminución del flujo sanguíneo — en el giro orbitofrontal derecho, el cortex temporal, los ganglios basales y el putamen.
+Una **revisión sistemática de 2025** combinó 20 estudios sobre el flujo sanguíneo cerebral con 1.652 participantes con TDAH y 580 controles. El hallazgo principal: **hipoperfusión en estado de reposo** — disminución del flujo sanguíneo — en el giro orbitofrontal derecho, el cortex temporal, los ganglios basales y el putamen.
 
 Desde la interpretación energética, un menor flujo sanguíneo significa menos oxígeno, menos glucosa y menos ATP. Una interpretación alternativa — que la actividad neuronal reducida *causa* la disminución del flujo sanguíneo en lugar de lo contrario — sigue siendo posible; la direccionalidad no está completamente resuelta [@Berthier2025cbfadhd].
 
-El metilfenidato — el medicamento más común para TDAH — normaliza el flujo sanguíneo en el striato, el thalamo y el precentral. No corrige los circuitos neuronales. Según este modelo, restaura la entrega de combustible.
+El metilfenidato — el medicamento más común para TDAH — normaliza el flujo sanguíneo en el estriado, el tálamo y el precentral. No corrige los circuitos neuronales. Según este modelo, restaura la entrega de combustible.
 
 ---
 
 ## Falla energética y neuroinflamación — en el mismo cerebro
 
-Un estudio PET con dos trazadores de 2021 imaginó simultáneamente dos aspectos en 24 adultos con TDAH sin medicación vs 24 controles:
+Un estudio PET con dos trazadores de 2021 obtuvo imágenes simultáneamente de dos aspectos en 24 adultos con TDAH sin medicación vs 24 controles:
 
 1. **Disponibilidad de los receptores D1 de dopamina** — reducida en el cortex cingulado anterior, correlacionada con la gravedad de la hiperactividad
 2. **Activación de microglía** — aumentada en el cortex prefrontal dorsolateral y el cortex orbitofrontal, correlacionada con la velocidad de procesamiento y déficits de atención
@@ -44,15 +44,15 @@ El hallazgo crítico: estas dos medidas estaban **correlacionadas positivamente 
 
 El mismo cerebro muestra déficit de catecolaminas y activación inmunitaria. En el punto de partida. Antes de cualquier enfermedad.
 
-Esto es importante porque la EM/SFC se caracteriza por un hallazgo dual similar: depleción de catecolaminas + neuroinflamación. El estudio de fenotipografía profunda de NIH documentó una reducción de los metabolitos de dopamina en el líquido cefalorraquídeo en pacientes con EM/SFC [@walitt2024deep]. Bajo el modelo energético, esto sugiere que el cerebro con TDAH ya puede encontrarse en un punto más leve en el mismo continuo metabólico — aunque los biomarcadores compartidos no demuestran un mecanismo compartido. El mismo patrón posterior (dopamina baja + inflamación) puede surgir de diferentes causas anteriores.
+Esto es importante porque la EM/SFC se caracteriza por un hallazgo dual similar: depleción de catecolaminas + neuroinflamación. El estudio de fenotipado profundo de NIH documentó una reducción de los metabolitos de dopamina en el líquido cefalorraquídeo en pacientes con EM/SFC [@walitt2024deep]. Bajo el modelo energético, esto sugiere que el cerebro con TDAH ya puede encontrarse en un punto más leve en el mismo continuo metabólico — aunque los biomarcadores compartidos no demuestran un mecanismo compartido. El mismo patrón posterior (dopamina baja + inflamación) puede surgir de diferentes causas anteriores.
 
 ---
 
 ## El doble déficit de hierro
 
-La deficiencia de hierro es común en TDAH y compleja el problema de energía mediante un mecanismo dual:
+La deficiencia de hierro es común en TDAH y agrava el problema de energía mediante un mecanismo dual:
 
-**Mecanismo 1:** El hierro es un cofactor necesario para la **hidrólisis de tirosina** —la enzima limitante en la síntesis de dopamina y noradrenalina. Un hierro bajo significa menos producción de neurotransmisores.
+**Mecanismo 1:** El hierro es un cofactor necesario para la **tirosina hidroxilasa** —la enzima limitante en la síntesis de dopamina y noradrenalina. Un hierro bajo significa menos producción de neurotransmisores.
 
 **Mecanismo 2:** El hierro también es un cofactor necesario para el **complejo I y complejo II mitocondrial** —el núcleo de la producción de energía celular. Un hierro bajo significa menos ATP.
 
@@ -64,14 +64,14 @@ Umbrales recomendados de ferritina según las guías neurodesarrolladoras: por d
 
 ## El cuello de botella de BH4
 
-La tetrahidrobioopterina (BH4) es el cofactor limitante de:
+La tetrahidrobiopterina (BH4) es el cofactor limitante de:
 - **Hidroxilasa de tirosina** → síntesis de dopamina y noradrenalina
 - **Hidroxilasa de triptófano** → síntesis de serotonina
 - **Todas las tres isoformas de NOS** → síntesis de óxido nítrico (regulación del tono vascular)
 
 Un déficit en un solo cofactor afecta simultáneamente a tres sistemas de neurotransmisores Y a la regulación del flujo sanguíneo cerebral [@Williams2025GCH1BH4].
 
-Una variante genética — **GCH1 rs841** — reduce la producción de BH4. Es homocigótica en aproximadamente el 4% de la población. Ha estado asociada con TDAH, autismo, depresión, ansiedad y PMDD. Cinco informes de casos mostraron mejoras en TDAH con suplementación con BH4 a bajas dosis (0.088–0.292 mg/kg/día) [@Williams2025GCH1BH4].
+Una variante genética — **GCH1 rs841** — reduce la producción de BH4. Es homocigótica en aproximadamente el 4% de la población. Ha estado asociada con TDAH, autismo, depresión, ansiedad y PMDD. Cinco informes de casos mostraron mejoras en TDAH con suplementación con BH4 a bajas dosis (0,088–0,292 mg/kg/día) [@Williams2025GCH1BH4].
 
 Las citocinas inflamatorias aumentan paradójicamente la síntesis de BH4, pero aceleran su oxidación — lo que resulta en una disminución neta de monoaminas durante la enfermedad [@Fanet2021BH4neuro]. Esto crea un vínculo mecánico entre la infección y el fallo de la atención.
 
@@ -81,7 +81,7 @@ Las citocinas inflamatorias aumentan paradójicamente la síntesis de BH4, pero 
 
 La visión convencional — respaldada por décadas de investigación genética, neuroimagen y longitudinal — es que el TDAH es un trastorno neurodesarrollador. El cerebro se desarrolla de manera diferente desde la infancia.
 
-Un desafío a esta visión: el **estudio de la cohorte de nacimiento de Dunedin** siguió a 1,037 personas desde el nacimiento hasta los 38 años con un 95% de retención:
+Un desafío a esta visión: el **estudio de la cohorte de nacimiento de Dunedin** siguió a 1.037 personas desde el nacimiento hasta los 38 años con un 95% de retención:
 
 - **El 90% de los adultos que cumplen con los criterios de TDAH a los 38 años no tuvieron TDAH en la infancia**
 - Solo el 5% de los casos de TDAH en la infancia seguía cumpliendo con los criterios a los 38 años

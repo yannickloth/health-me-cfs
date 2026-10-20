@@ -15,61 +15,61 @@ Esta escena se ha repetido decenas de miles de veces. No es malicia, es incertid
 
 ## Lo que el GWAS encontró
 
-El consorcio DecodeME analizó más de 15,000 participantes — aproximadamente 5,000 casos de EM/SFC — frente a controles de población, en el mayor estudio de asociación genómica de la enfermedad hasta ahora [@DecodeME2025]. El hallazgo principal no es un único "gen de EM/SFC" — no existe uno. El hallazgo se refiere a *dónde se expresan las variantes genéticas que aumentan el riesgo.*
+El consorcio DecodeME analizó más de 15.000 participantes — aproximadamente 5.000 casos de EM/SFC — frente a controles de población, en el mayor estudio de asociación genómica de la enfermedad hasta ahora [@DecodeME2025]. El hallazgo principal no es un único "gen de EM/SFC" — no existe uno. El hallazgo se refiere a *dónde se expresan las variantes genéticas que aumentan el riesgo.*
 
 Las variantes de riesgo se agrupan en su mayoría en **tejido cerebral**, específicamente en **neuronas**. No en microglía, no en astrocitos, no en células inmunitarias. Neuronas.
 
-El GWAS en sí solo identificó el signo solo en *tejido*: genes ricos en cerebro, no en un tipo de célula específico. Una posterior análisis de enriquecimiento de tipo de célula después del GWAS — un preprint, no el GWAS — señaló aún más, a **neuronas medianas espinosas (MSNs)** del estriato, las neuronas involucradas en el control motor, el procesamiento de recompensas y la toma de decisiones sobre esfuerzo y recompensa [@Maccallini2026metaGWAS]. Cuando tu cerebro calcula si una acción vale la pena el costo de energía, las MSNs realizan ese cálculo.
+El GWAS en sí solo resolvió la señal a nivel de *tejido*: genes enriquecidos en el cerebro, no un tipo de célula específico. Un análisis posterior de enriquecimiento por tipo de célula tras el GWAS — un preprint, no el GWAS — señaló aún más, a las **neuronas espinosas medianas (MSNs)** del estriado, las neuronas implicadas en el control motor, el procesamiento de recompensas y la toma de decisiones sobre esfuerzo y recompensa [@Maccallini2026metaGWAS]. Cuando tu cerebro calcula si una acción merece el coste energético, las MSNs realizan ese cálculo.
 
 ---
 
-## ¿Qué significa este hallazgo
+## ¿Qué significa este hallazgo?
 
-Esto pone fin al enfoque "autoimunidad vs neuroloja" que ha paralizado el campo durante dos décadas.
+Esto pone fin al enfoque "autoinmune vs neurológico" que ha paralizado el campo durante dos décadas.
 
 **La participación del sistema inmunitario es real, pero secundaria.** Los pacientes con EM/SFC presentan citocinas elevadas, autoanticuerpos y células NK disfuncionales; la patología inmunitaria es medible y clínicamente relevante [@IOM2015]. Pero se trata de una desregulación inmunitaria *adquirida*, no de una desregulación inmunitaria genéticamente determinada. La arquitectura genética apunta al cerebro. El sistema inmunitario está respondiendo a algo que proviene de arriba: probablemente neuroinflamación, señales de daño o disfunción autonómica originada en el SNC.
 
 **El locus principal de la enfermedad es el cerebro.** Esto cambia el destino de los recursos de investigación. Antes del GWAS, un investigador podría argumentar razonablemente que los paneles de citocinas y los análisis de autoanticuerpos eran la vía más prometedora. Ahora, este argumento tiene una contraargumentación genética: el esquema básico de la enfermedad está escrito en las neuronas. Los biomarcadores sanguíneos pueden seguir siendo útiles, ya que capturan la patología en la etapa posterior, pero no capturan la raíz.
 
-**No excluye el tratamiento inmunitario.** La distinción es importante. El hecho de que la patología inmunitaria sea secundaria no significa que tratarla sea inútil. La inmunoadsorción, rituximab y naltrexona en dosis bajas pueden seguir funcionando, y es posible que funcionen precisamente porque interrumpir la respuesta inmunitaria en la etapa posterior puede romper los bucles de retroalimentación que mantienen la enfermedad. La genética dice: el sistema inmunitario es un *mecanismo de mantenimiento*, no la *lesión principal*. Trátelo sin falta, pero no confundas tratar un mecanismo de mantenimiento con tratar la causa raíz.
+**No excluye el tratamiento inmunitario.** La distinción es importante. El hecho de que la patología inmunitaria sea secundaria no significa que tratarla sea inútil. La inmunoadsorción, rituximab y naltrexona en dosis bajas pueden seguir funcionando, y es posible que funcionen precisamente porque interrumpir la respuesta inmunitaria en la etapa posterior puede romper los bucles de retroalimentación que mantienen la enfermedad. La genética dice: el sistema inmunitario es un *mecanismo de mantenimiento*, no la *lesión principal*. Trátalo sin falta, pero no confundas tratar un mecanismo de mantenimiento con tratar la causa raíz.
 
 ---
 
-## La hipótesis del striatum y los ganglios basales
+## La hipótesis del estriado y los ganglios basales
 
-La señal del MSN —proveniente de la análisis de tipos de células post-GWAS, no de la GWAS en sí— es el hallazgo más específico en esta línea de investigación, y conecta directamente con una hipótesis de veinticinco años de antigüedad.
+La señal del MSN —procedente del análisis de tipos de células post-GWAS, no del GWAS en sí— es el hallazgo más específico en esta línea de investigación, y conecta directamente con una hipótesis de veinticinco años de antigüedad.
 
-Chaudhuri y Behan propusieron en 2000 que EM/SFC implica disfunción de los ganglios basales, específicamente una interrupción de la señal dopaminérgica en el striatum que deteriora la capacidad del cerebro para convertir el esfuerzo en acción [@Chaudhuri2000basalganglia]. En ese momento, la hipótesis se basaba en imágenes funcionales que mostraban una reducción en el enlace del transportador de dopamina en el striatum y en observaciones clínicas de ralentización motora, reducción de la motivación y intolerancia al esfuerzo, lo cual no se ajustaba a una patología periférica muscular.
+Chaudhuri y Behan propusieron en 2000 que EM/SFC implica disfunción de los ganglios basales, específicamente una interrupción de la señal dopaminérgica en el estriado que deteriora la capacidad del cerebro para convertir el esfuerzo en acción [@Chaudhuri2000basalganglia]. En ese momento, la hipótesis se basaba en imágenes funcionales que mostraban una reducción en la unión del transportador de dopamina en el estriado y en observaciones clínicas de ralentización motora, reducción de la motivación y intolerancia al esfuerzo, lo cual no se ajustaba a una patología periférica muscular.
 
-Esta análisis de tipos de células post-GWAS proporciona un respaldo genético para una hipótesis que hasta ahora se basaba en imágenes funcionales y observaciones clínicas. El MSN es el tipo de célula que la hipótesis predecía —aunque el paso de tipo de célula es un preimpreso y necesita replicación independiente.
+Este análisis de tipos de células post-GWAS proporciona un respaldo genético para una hipótesis que hasta ahora se basaba en imágenes funcionales y observaciones clínicas. El MSN es el tipo de célula que la hipótesis predecía —aunque el paso de tipo de célula es un preimpreso y necesita replicación independiente.
 
 Pero aquí está la advertencia —y es una advertencia importante.
 
-El enriquecimiento de neuronas cerebrales no es específico de EM/SFC —muchas enfermedades cerebrales lo muestran. Los tipos de células específicos difieren, sin embargo: aplicando la misma pipeline de atlas, la esquizofrenia enriquece a los neuronas excitatorias de la capa 2/3 cortical, la depresión a la capa 5/6, y el trastorno por uso de alcohol a los neuronas spiny medios [@Duncan2025cellTypeBrain]. Así que el striatum no es un nodo genérico compartido por todos ellos; EM/SFC y AUD convergen en MSNs, mientras que la esquizofrenia y la depresión convergen en otros lugares del cortex. La GWAS nos indica *dónde buscar* —el striatum— pero aún no *qué está roto* dentro de él. El tipo de célula es localizado. El mecanismo dentro de ese tipo de célula no lo es.
+El enriquecimiento de neuronas cerebrales no es específico de EM/SFC —muchas enfermedades cerebrales lo muestran. Los tipos de células específicos difieren, sin embargo: aplicando la misma pipeline de atlas, la esquizofrenia enriquece las neuronas excitatorias de la capa 2/3 cortical, la depresión las de la capa 5/6, y el trastorno por consumo de alcohol las neuronas espinosas medianas [@Duncan2025cellTypeBrain]. Así que el estriado no es un nodo genérico compartido por todos ellos; EM/SFC y AUD convergen en MSNs, mientras que la esquizofrenia y la depresión convergen en otros lugares del córtex. El GWAS nos indica *dónde buscar* —el estriado— pero aún no *qué está roto* dentro de él. El tipo de célula está localizado. El mecanismo dentro de ese tipo de célula no lo está.
 
 ---
 
-## ¿Qué cambios ocurren para los pacientes
+## ¿Qué cambia para los pacientes?
 
 El impacto práctico de un hallazgo genético en neuronas no es un análisis de sangre ni un medicamento. Es algo más inmediato: **munición**.
 
-El argumento de que "es algo psicológico" pierde su fundamento. Un hallazgo genético expresado en neuronas no es un hallazgo psiquiátrico. Si la arquitectura genética de EM/SFC indica neuronas — neuronas medianamente espinosas, circuitos striatales, señalización de dopamina — entonces la enfermedad tiene más similitudes con Parkinson que con depresión. Nadie le dice a un paciente de Parkinson que "piense positivamente" o que "intente ejercicio graduado". La genética hace que esta rechazo sea más difícil para EM/SFC.
+El argumento de que "es algo psicológico" pierde su fundamento. Un hallazgo genético expresado en neuronas no es un hallazgo psiquiátrico. Si la arquitectura genética de EM/SFC indica neuronas — neuronas espinosas medianas, circuitos estriatales, señalización de dopamina — entonces la enfermedad tiene más similitudes con Parkinson que con depresión. Nadie le dice a un paciente de Parkinson que "piense positivamente" o que "intente ejercicio graduado". La genética hace que este rechazo sea más difícil para EM/SFC.
 
-El argumento de que "es descondicionamiento" también pierde fuerza. El descondicionamiento no produce un señal genético específico para un tipo de célula en el striato. El descondicionamiento produce músculo descondicionado — medible, real, pero secundario a la lesión neurológica que hace imposible el ejercicio en primer lugar.
+El argumento de que "es descondicionamiento" también pierde fuerza. El descondicionamiento no produce una señal genética específica para un tipo de célula en el estriado. El descondicionamiento produce músculo descondicionado — medible, real, pero secundario a la lesión neurológica que hace imposible el ejercicio en primer lugar.
 
-Y el argumento de que "es ansiedad por la salud" — el que ha acompañado a EM/SFC desde la epidemia del Hospital Royal Free en 1955 [@McEvedy1970] — se vuelve claramente insostenible. La ansiedad por la salud no tiene un señal GWAS. El striato sí.
+Y el argumento de que "es ansiedad por la salud" — el que ha acompañado a EM/SFC desde la epidemia del Hospital Royal Free en 1955 [@McEvedy1970] — se vuelve claramente insostenible. La ansiedad por la salud no tiene una señal GWAS. El estriado sí.
 
 ---
 
-## ¿Qué cambios hay para la investigación
+## ¿Qué cambia para la investigación?
 
 Las implicaciones de la asignación de recursos son claras:
 
-**Neuroimagen** — la imagen funcional y estructural del striatum, del circuito de los ganglios basales y de las vías de dopamina — se convierte en la vía de investigación no genética de mayor prioridad. Si la genética indica neuronas, necesitamos ver qué hacen esas neuronas en tiempo real en los pacientes.
+**Neuroimagen** — la imagen funcional y estructural del estriado, del circuito de los ganglios basales y de las vías de dopamina — se convierte en la vía de investigación no genética de mayor prioridad. Si la genética indica neuronas, necesitamos ver qué hacen esas neuronas en tiempo real en los pacientes.
 
-**Metabonomica del CSF** — en particular los metabolitos de neurotransmisores, los productos del círculo de rotación de dopamina y los intermediarios de señalización del striatum — es más informativa que los paneles de citocinas en sangre. El flujo descendente está en la sangre; el flujo ascendente está en el CSF.
+**Metabolómica del LCR** — en particular los metabolitos de neurotransmisores, los productos del recambio de dopamina y los intermediarios de señalización del estriado — es más informativa que los paneles de citocinas en sangre. El flujo descendente está en la sangre; el flujo ascendente está en el LCR.
 
-**Investigación del circuito del striatum** — utilizando técnicas de neurología de trastornos del movimiento (estimulación magnética transcraniana, imagen de la fuente del EEG, análisis de conectividad funcional aplicado a los ganglios basales) — debería implementarse directamente.
+**Investigación del circuito del estriado** — utilizando técnicas de neurología de trastornos del movimiento (estimulación magnética transcraneal, imagen de la fuente del EEG, análisis de conectividad funcional aplicado a los ganglios basales) — debería implementarse directamente.
 
 El sistema inmunitario se convierte en un objetivo de investigación secundario: sigue siendo importante y aún tratable, pero ya no es el punto focal principal de investigación.
 
@@ -77,9 +77,9 @@ El sistema inmunitario se convierte en un objetivo de investigación secundario:
 
 ## El elefante de cincuenta mil personas en la sala
 
-El DecodeME GWAS representa un verdadero progreso. También representa una limitación. Cinco mil casos son suficientes para que el análisis de enriquecimiento sea robusto, pero no son suficientes para el mapeo fino, las asociaciones a nivel de geno y el análisis de vías biológicas que nos indiquen *qué mecanismos específicos dentro de los MSNs* están interrumpidos.
+El DecodeME GWAS representa un verdadero progreso. También representa una limitación. Cinco mil casos son suficientes para que el análisis de enriquecimiento sea robusto, pero no son suficientes para el mapeo fino, las asociaciones a nivel de gen y el análisis de vías biológicas que nos indiquen *qué mecanismos específicos dentro de las MSN* están alterados.
 
-El campo de EM/SFC necesita un GWAS de cincuenta mil personas. Esa cantidad es lo que ha permitido que la esquizofrenia, la depresión y el trastorno bipolar pasen de “sabemos que es genético” a “sabemos qué vías biológicas están dañadas” [@SchizophreniaWGPConsortium2014]. El consorcio DecodeME proporciona la dirección. Financiar la siguiente escala de análisis proporcionaría el destino.
+El campo de EM/SFC necesita un GWAS de cincuenta mil personas. Esa cantidad es lo que ha permitido que la esquizofrenia, la depresión y el trastorno bipolar pasen de “sabemos que es genético” a “sabemos qué vías biológicas están dañadas” [@SchizophreniaWGPConsortium2014]. El consorcio DecodeME proporciona la dirección. Financiar el siguiente escalado proporcionaría el destino.
 
 ---
 
@@ -88,11 +88,11 @@ El campo de EM/SFC necesita un GWAS de cincuenta mil personas. Esa cantidad es l
 | Afirmación | Certeza |
 |-------|-----------|
 | Las variantes de riesgo genético de EM/SFC están enriquecidas en el tejido cerebral (neuronas) en comparación con las células inmunitarias | Muy alta — hallazgo principal en GWAS, estadísticamente robusto |
-| Las neuronas espinosas medias son el tipo de célula más enriquecedor | Moderada — de una análisis de tipo de célula post-GWAS (preprint), dependiente del atlas de referencia; no proviene del GWAS en sí |
-| Esto descarta la disfunción inmunitaria genéticamente primaria | Alta — la enriquecedoría inmunitaria está ausente a pesar de la suficiente potencia |
+| Las neuronas espinosas medianas son el tipo de célula más enriquecido | Moderada — de un análisis de tipo de célula post-GWAS (preprint), dependiente del atlas de referencia; no proviene del GWAS en sí |
+| Esto descarta la disfunción inmunitaria genéticamente primaria | Alta — el enriquecimiento inmunitario está ausente a pesar de una potencia adecuada |
 | Esto establece el cerebro como el locus principal de la enfermedad | Moderada — la genética apunta al cerebro; se requiere evidencia convergente de estudios funcionales |
-| La enriquecedoría de neuronas espinosas striatales es específica de EM/SFC | Desconocida — otras enfermedades cerebrales enriquecen otros tipos de células; la superposición con AUD es plausible, pero la convergencia entre EM/SFC y AUD no ha sido replicada |
+| El enriquecimiento de neuronas espinosas estriatales es específico de EM/SFC | Desconocida — otras enfermedades cerebrales enriquecen otros tipos de células; la superposición con AUD es plausible, pero la convergencia entre EM/SFC y AUD no ha sido replicada |
 | La genética cambia la práctica clínica | Baja — aún no hay prueba de diagnóstico ni objetivo de tratamiento a partir de este hallazgo |
-| Escalar a 50K+ casos identificaría vías disruptadas específicas | Moderada-alta — basado en avances análogos en genética psiquiátrica |
+| Escalar a 50K+ casos identificaría vías alteradas específicas | Moderada-alta — basado en avances análogos en genética psiquiátrica |
 
-*Primera de 4 en la serie GWAS DecodeME. Próximo: [El striatum es el cuello de botella](../striatum-bottleneck/) · [Medicinas para EM/SFC contra Parkinson?](../dopamine-rational-mechanism/) · [El striatum no es nuestro](../msn-specificity-caveat/)*
+*Primera de 4 en la serie GWAS DecodeME. Próximo: [El estriado es el cuello de botella](../striatum-bottleneck/) · [¿Fármacos antiparkinsonianos para EM/SFC?](../dopamine-rational-mechanism/) · [El estriado no es nuestro](../msn-specificity-caveat/)*

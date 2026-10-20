@@ -1,6 +1,6 @@
 ---
 title: "Obtuvimos el resultado de milnacipran al revés — aquí está la corrección"
-description: "Citaron un ensayo clínico con un medicamento para la fibromialgia que indicaba 'ningún efecto en el lactato cerebral'. El ensayo encontró lo contrario. Lo hemos corregido."
+description: "Citamos un ensayo clínico con un medicamento para la fibromialgia que indicaba 'ningún efecto en el lactato cerebral'. El ensayo encontró lo contrario. Lo hemos corregido."
 author: "Yannick Loth"
 date: "2026-09-25"
 categories: [Self-correction, Metascience, Research]
@@ -11,7 +11,7 @@ Una pequeña confesión, porque es más importante que el hecho en sí mismo.
 
 Habíamos escrito que el milnacipran —un SNRI utilizado en la fibromialgia— "no reducía el lactato ventricular", y usamos eso para argumentar que el beneficio del medicamento debe ser no metabólico. Luego, en realidad, leímos el resumen.
 
-El ensayo encontró lo contrario. El milnacipran **bajó** el lactato ventricular en comparación con tanto el estado basal como el placebo (F1,18 = 8.18, P = .01), y los pacientes que mejoraron en el dolor tenían más probabilidades de también reducir el lactato (@Natelson2015milnacipran).
+El ensayo encontró lo contrario. El milnacipran **bajó** el lactato ventricular en comparación con tanto el estado basal como el placebo (F118 = 8,18, P = .01), y los pacientes que mejoraron en el dolor tenían más probabilidades de también reducir el lactato (@Natelson2015milnacipran).
 
 **¿Por qué ocurrió esto?** Al principio de un proyecto largo, se infería un resumen a partir del *título* de una cita en lugar del resumen. Es exactamente el modo de fallo que un proceso riguroso está destinado a detectar — y en este caso se necesitó una lectura deliberada para detectarlo.
 

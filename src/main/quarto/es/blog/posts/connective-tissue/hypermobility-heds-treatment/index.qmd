@@ -1,6 +1,6 @@
 ---
 title: "Artículo 2 sobre hipermobilidad: Gestionar la hipermobilidad en el contexto de EM/SFC — Fisioterapia, Soporte Circadiano de Colágeno, Inhibidores de MMP, y Terapias Emergentes"
-description: "Una guía de lenguaje sencillo para gestionar la hipermobilidad EDS y la hipermobilidad articular en EM/SFC — los protocolos de resistencia isométrica que funcionan, el horario de cofactores de colágeno circadiano (vitamina C, alfa-cetoglutarato), glicina y proline para la síntesis, doxiciclina para la inhibición de MMP-9, terapias emergentes (tVNS, inhibidores de HIF-1α, bloqueo de TGF-β1), cirugía CCI, resultados esperados y un ejemplo de ensayo estructurado realizado."
+description: "Una guía de lenguaje sencillo para gestionar la hipermobilidad EDS y la hipermobilidad articular en EM/SFC — los protocolos de resistencia isométrica que funcionan, el horario de cofactores de colágeno circadiano (vitamina C, alfa-cetoglutarato), glicina y prolina para la síntesis, doxiciclina para la inhibición de MMP-9, terapias emergentes (tVNS, inhibidores de HIF-1α, bloqueo de TGF-β1), cirugía CCI, resultados esperados y un ejemplo resuelto de ensayo estructurado."
 author: "Yannick Loth"
 date: "2026-08-04"
 categories: [Treatment, Hypermobility, hEDS, ME/CFS, Connective Tissue]
@@ -15,7 +15,7 @@ Este artículo explica la arquitectura de tratamiento. Para el contexto conceptu
 
 ## Primero, una advertencia simple
 
-*Todo lo que se menciona a continuación es una conversación que debe tenerse con un médico, no una orientación personal. El tratamiento de la hipermobilidad es mecánico (fisioterapia, apoyos, cirugía), nutricional (suplementos que apoyan la síntesis de colágeno) y farmacológico (inhibidores de MMP fuera del alcance del registro clínico, terapias experimentales). Ninguno de estos métodos sustituye la actividad física, y la fisioterapia agresiva en EM/SFC puede causar daño. Trabaja con alguien que entienda tanto los trastornos del tejido conectivo como el malestar post-esfuerzo. Si tienes síntomas neurológicos progresivos o pérdida de control intestinal o urinario, es una emergencia — ve al hospital.*
+*Todo lo que se menciona a continuación es una conversación que debe tenerse con un médico, no una orientación personal. El tratamiento de la hipermobilidad es mecánico (fisioterapia, apoyos, cirugía), nutricional (suplementos que apoyan la síntesis de colágeno) y farmacológico (inhibidores de MMP fuera de indicación, terapias experimentales). Ninguno de estos métodos sustituye el pacing, y la fisioterapia agresiva en EM/SFC puede causar daño. Trabaja con alguien que entienda tanto los trastornos del tejido conectivo como el malestar post-esfuerzo. Si tienes síntomas neurológicos progresivos o pérdida de control intestinal o urinario, es una emergencia — ve al hospital.*
 
 ---
 
@@ -24,8 +24,8 @@ Este artículo explica la arquitectura de tratamiento. Para el contexto conceptu
 | Categoría | Objetivo | Intensidad de la evidencia |
 |----------|----------|---------------------------|
 | Mecánico | Soporte estructural, protección de articulaciones, reversión de descondicionamiento, estabilización de CCI | Moderada (fisioterapia) a baja (cirugía CCI) |
-| Nutricional | Entrelazamiento de colágeno (timing de vitamina C, α-KG), precursores de síntesis de colágeno (glicina, proline), cofactores LOX (copper, B6) | Teórica (mecánico plausible; sin estudios en EM/SFC) |
-| Farmacológico / experimental | Inhibición de MMP-9 (doxiciclina), modulación del ECM de mastocitos (tVNS), corrección de la isómera HIF-1α, bloqueo de TGF-β1 | Muy baja a experimental |
+| Nutricional | Entrelazamiento de colágeno (timing de vitamina C, α-KG), precursores de síntesis de colágeno (glicina, prolina), cofactores LOX (cobre, B6) | Teórica (mecánico plausible; sin estudios en EM/SFC) |
+| Farmacológico / experimental | Inhibición de MMP-9 (doxiciclina), modulación del ECM de mastocitos (tVNS), corrección de la isoforma HIF-1α, bloqueo de TGF-β1 | Muy baja a experimental |
 
 ---
 
@@ -45,7 +45,7 @@ La adaptación, documentada en la literatura de rehabilitación de hEDS, es **en
 
 ### Apoyos y soporte externo
 
-Para articulaciones inestables — en particular las rodillas, los tobillos, los muñecas, los dedos y la columna cervical — el apoyo externo proporciona la estabilidad pasiva que los ligamentos no pueden. Los splints de anillo para articulaciones de dedos hipermóbiles, apoyos rígidos para tobillos y collares cervicales flexibles son comunes. El compromiso: el apoyo continuo prolongado puede debilitar los músculos estabilizadores. La solución práctica es el apoyo intermitente — durante la actividad, no en reposo — y combinar el apoyo con entrenamiento isométrico dirigido para la misma articulación.
+Para articulaciones inestables — en particular las rodillas, los tobillos, las muñecas, los dedos y la columna cervical — el apoyo externo proporciona la estabilidad pasiva que los ligamentos no pueden. Los splints de anillo para articulaciones de dedos hipermóbiles, apoyos rígidos para tobillos y collares cervicales flexibles son comunes. El compromiso: el apoyo continuo prolongado puede debilitar los músculos estabilizadores. La solución práctica es el apoyo intermitente — durante la actividad, no en reposo — y combinar el apoyo con entrenamiento isométrico dirigido para la misma articulación.
 
 ### Ropas de compresión
 
@@ -53,7 +53,7 @@ La compresión abdominal y de piernas (20–30 mmHg, a la altura de la cintura) 
 
 ### Cirugía de fusión craniocervical
 
-Para pacientes con inestabilidad craniocervical evidente (confirmada mediante MRI en posición vertical con vistas de flexión-extensión) y síntomas neurológicos progresivos, la estabilización quirúrgica de la unión cráneo-espinoso (fusión C0–C2) es la opción más invasiva. Una serie de estudios indica tasas de mejoría del 60–80%, pero con un 19% de riesgo de complicaciones —falla de los dispositivos, infección, enfermedad de segmentos adyacentes — y no existen datos de resultados controlados [@Bragee2020]. **Esta es una decisión de último recurto que debe ser tomada con un neurocirujano especializado, no una recomendación habitual.**
+Para pacientes con inestabilidad craniocervical evidente (confirmada mediante MRI en posición vertical con vistas de flexión-extensión) y síntomas neurológicos progresivos, la estabilización quirúrgica de la unión cráneo-columna (fusión C0–C2) es la opción más invasiva. Una serie de estudios indica tasas de mejoría del 60–80%, pero con un 19% de riesgo de complicaciones —falla de los dispositivos, infección, enfermedad de segmentos adyacentes — y no existen datos de resultados controlados [@Bragee2020]. **Esta es una decisión de último recurto que debe ser tomada con un neurocirujano especializado, no una recomendación habitual.**
 
 ---
 
@@ -61,28 +61,28 @@ Para pacientes con inestabilidad craniocervical evidente (confirmada mediante MR
 
 ### Horario de apoyo al colágeno circadiano
 
-Las hidroxilasas de proline (P4H, P3H) son las enzimas que hidroxilan los residuos de proline en las cadenas de colágeno, creando los sitios para el enlace estable. Estas enzimas presentan ritmos circadianos; son más activas durante el sueño, cuando la síntesis de colágeno alcanza su punto máximo. En EM/SFC, se propone que la inhibición de las hidroxilasas de proline por ROS es una vía para la disfunción del enlace de colágeno [@Wirth2026CTDMECFS].
+Las hidroxilasas de prolina (P4H, P3H) son las enzimas que hidroxilan los residuos de prolina en las cadenas de colágeno, creando los sitios para el enlace estable. Estas enzimas presentan ritmos circadianos; son más activas durante el sueño, cuando la síntesis de colágeno alcanza su punto máximo. En EM/SFC, se propone que la inhibición de las hidroxilasas de prolina por ROS es una vía para la disfunción del enlace de colágeno [@Wirth2026CTDMECFS].
 
-- **Ácido ascórbico (vitamina C)** — el cofactor esencial para las hidroxilasas de proline y lisil. Sin él, el colágeno no puede enlazarse (la escorbuto es una falla en el enlace de colágeno). El documento principal propone una administración programada de 1000 mg de ácido ascórbico durante la ventana de inicio del sueño, cuando la actividad de las hidroxilasas alcanza su punto máximo, en lugar de en un momento fijo por la mañana [@Loth2026website].
+- **Ácido ascórbico (vitamina C)** — el cofactor esencial para las hidroxilasas de prolina y lisil. Sin él, el colágeno no puede enlazarse (el escorbuto es una falla en el enlace de colágeno). El documento principal propone una administración programada de 1000 mg de ácido ascórbico durante la ventana de inicio del sueño, cuando la actividad de las hidroxilasas alcanza su punto máximo, en lugar de en un momento fijo por la mañana [@Loth2026website].
 - **Alfa-cetoglutarato (α-KG)** — el sustrato esencial para la reacción de hidroxilación. 200 mg administrados en la misma ventana.
 
-Las dosis bajas de cofactores son generalmente seguras; la ácido ascórbico en dosis altas puede causar malestar gastrointestinal, y el α-KG es bien tolerado en dosis de suplemento típicas. Se trata de una intervención de bajo riesgo, mecanísticamente plausible y no probada — y debe discutirse con un médico, no aplicarse de forma autónoma en dosis altas.
+Las dosis bajas de cofactores son generalmente seguras; el ácido ascórbico en dosis altas puede causar malestar gastrointestinal, y el α-KG es bien tolerado en dosis de suplemento típicas. Se trata de una intervención de bajo riesgo, mecanísticamente plausible y no probada — y debe discutirse con un médico, no aplicarse de forma autónoma en dosis altas.
 
 ### Precursores de síntesis de colágeno
 
 - **Glicina** — 3–5 g diarios, administrada en dosis divididas. La glicina es limitante en la síntesis de colágeno y también es un neurotransmisor inhibidor que puede mejorar la calidad del sueño. Generalmente es bien tolerada.
-- **Proline** — 500 mg–1 g diarios. La razón es que el alto contenido de proline en el colágeno lo hace un precursor limitante plausible en estados de alta rotación.
+- **Prolina** — 500 mg–1 g diarios. La razón es que el alto contenido de prolina en el colágeno lo hace un precursor limitante plausible en estados de alta rotación.
 - **Cobre y vitamina B6** — cofactores para la lisiloxidasa (LOX), la enzima que realiza el paso final de enlace de colágeno y elastina. Un subgrupo de hipermobilidad adquirida puede implicar una deficiencia funcional de LOX, lo que hace relevante el estado de cobre y B6. La suplementación de cobre solo debe hacerse si hay una deficiencia medida — el exceso de cobre es tóxico. La B6 debe mantenerse en una dosis moderada (bajo de 50 mg/día): dosis altas de B6 (por encima de aproximadamente 100 mg/día) pueden causar neuropatía sensorial, por lo que es necesario monitorizar los niveles en lugar de suplementar con B6 en dosis altas de forma ciega.
 
-Los límites: no hay estudios que hayan probado la suplementación de glicina o proline para la hipermobilidad en EM/SFC. La justificación de los precursores es bioquímicamente correcta; si se necesita sintetizar más colágeno, se necesitan glicina y proline — pero si aumentar la ingesta de precursores aumenta la síntesis de colágeno en pacientes hipermóbiles con EM/SFC, eso es desconocido. Estas son intervenciones de bajo riesgo, mecanísticamente plausible. No están probadas.
+Los límites: no hay estudios que hayan probado la suplementación de glicina o prolina para la hipermobilidad en EM/SFC. La justificación de los precursores es bioquímicamente correcta; si se necesita sintetizar más colágeno, se necesitan glicina y prolina — pero si aumentar la ingesta de precursores aumenta la síntesis de colágeno en pacientes hipermóbiles con EM/SFC, eso es desconocido. Estas son intervenciones de bajo riesgo, mecanísticamente plausible. No están probadas.
 
 ---
 
 ## Farmacológico: bloquear MMP-9 con doxiciclina en baja dosis
 
-La cascada de mastocitos → triptasa/quimasa → MMP-3/-13/-1 degrada el colágeno. De los MMPs, **MMP-9** (gelatinaasa B) es la más frecuentemente asociada a la degradación del tejido conectivo en EM/SFC y en estados postinfecciosos. La doxiciclina, en la dosis clásica subantimicrobiana contra MMP, es un inhibidor selectivo de MMP-9. Se une al sitio de zinc catalítico e inhibe la actividad de MMP sin suprimir la flora bacteriana [@Loth2026website]. La dosis estándar subantimicrobiana es **20 mg dos veces al día (40 mg/día en total)** — deliberadamente por debajo del rango de antibióticos. Tenga en cuenta que el extremo superior del rango a veces citado (40 mg dos veces al día, es decir 80 mg/día) no es realmente subantimicrobiano y se acerca a la dosis de antibióticos con mayor sensibilidad a la luz y riesgo de selección de resistencia; a ese nivel no debe describirse como “bien por debajo” de una dosis terapéutica.
+La cascada de mastocitos → triptasa/quimasa → MMP-3/-13/-1 degrada el colágeno. De los MMPs, **MMP-9** (gelatinasa B) es la más frecuentemente asociada a la degradación del tejido conectivo en EM/SFC y en estados postinfecciosos. La doxiciclina, en la dosis clásica subantimicrobiana contra MMP, es un inhibidor selectivo de MMP-9. Se une al sitio de zinc catalítico e inhibe la actividad de MMP sin suprimir la flora bacteriana [@Loth2026website]. La dosis estándar subantimicrobiana es **20 mg dos veces al día (40 mg/día en total)** — deliberadamente por debajo del rango de antibióticos. Ten en cuenta que el extremo superior del rango a veces citado (40 mg dos veces al día, es decir 80 mg/día) no es realmente subantimicrobiano y se acerca a la dosis de antibióticos con mayor sensibilidad a la luz y riesgo de selección de resistencia; a ese nivel no debe describirse como “bien por debajo” de una dosis terapéutica.
 
-La justificación es específica para la *acuñada* hipermobilidad progresiva: si las enzimas de mastocitos degradan activamente el colágeno, bloquear el MMP que ejecuta la degradación puede ralentizar o revertir parcialmente el daño tisular. La doxiciclina en baja dosis es generalmente bien tolerada (molestias gastrointestinales, sensibilidad a la luz). Es contraindicada en el embarazo y en niños menores de 8 años. El uso a largo plazo (>3 meses) no ha sido estudiado para esta indicación. No existe ensayo clínico controlado de doxiciclina en baja dosis para hipermobilidad en EM/SFC.
+La justificación es específica para la *adquirida* hipermobilidad progresiva: si las enzimas de mastocitos degradan activamente el colágeno, bloquear el MMP que ejecuta la degradación puede ralentizar o revertir parcialmente el daño tisular. La doxiciclina en baja dosis es generalmente bien tolerada (molestias gastrointestinales, sensibilidad a la luz). Es contraindicada en el embarazo y en niños menores de 8 años. El uso a largo plazo (>3 meses) no ha sido estudiado para esta indicación. No existe ensayo clínico controlado de doxiciclina en baja dosis para hipermobilidad en EM/SFC.
 
 ### Una nota sobre lo que no se debe tomar: ácido ascórbico en alta dosis más hierro
 
@@ -96,29 +96,29 @@ Estos son intervenciones experimentales desarrolladas en los modelos mecánicos 
 
 ### Estimulación transcutánea del nervio vago (tVNS)
 
-El nervio vago inerva los mastocitos y modula su actividad a través de la vía anticolinérgica antiinflamatoria (α7nAChR). Se propone un eje de nervio vago-mastocito-tisura conectiva: la señalización vago-mastocita suprime la degranulación de mastocitos; cuando el tono vago es bajo (como en EM/SFC), los mastocitos se activan más, liberando triptasa/quimasa/MMPs que degradan la tisura extracelular [@Loth2026website].
+El nervio vago inerva los mastocitos y modula su actividad a través de la vía colinérgica antiinflamatoria (α7nAChR). Se propone un eje de nervio vago-mastocito-tejido conectivo: la señalización vago-mastocito suprime la degranulación de mastocitos; cuando el tono vagal es bajo (como en EM/SFC), los mastocitos se activan más, liberando triptasa/quimasa/MMPs que degradan la matriz extracelular [@Loth2026website].
 
 La tVNS basada en el oído (estimulación del trago) es la forma menos invasiva. Un ensayo clínico controlado por placebo en POTS mostró que 2 meses de estimulación del trago redujeron el aumento de la frecuencia cardíaca al estar de pie y disminuyeron los anticuerpos autoantígenos β1AR/α1AR [@Teixeira2024POTS]. La aplicación a la hipermobilidad es especulativa: si la tVNS reduce la degranulación de mastocitos, podría reducir la degradación de colágeno mediada por MMP. **Esta es una hipótesis en fase de investigación, no una recomendación clínica.**
 
-### Reequilibrio de la isómera HIF-1α
+### Reequilibrio de la isoforma HIF-1α
 
-La elevación crónica de HIF-1α impulsa la expresión de MMP (MMP-3, MMP-9), la producción de VEGF y el remodelado patológico de la tisura conectiva [@Wirth2026CTDMECFS]. El documento principal propone pasar del estado patológico dominado por HIF-1α a un perfil más fisiológico de HIF-2α. Los agonistas de molécula pequeña de HIF-2α (por ejemplo, análogos PT2385) existen en la cadena de producción de oncología, pero nunca han sido probados en EM/SFC o hipermobilidad [@Loth2026website]. Esto está en fase preclínica.
+La elevación crónica de HIF-1α impulsa la expresión de MMP (MMP-3, MMP-9), la producción de VEGF y el remodelado patológico del tejido conectivo [@Wirth2026CTDMECFS]. El documento principal propone pasar del estado patológico dominado por HIF-1α a un perfil más fisiológico de HIF-2α. Los agonistas de molécula pequeña de HIF-2α (por ejemplo, análogos PT2385) existen en la cadena de producción de oncología, pero nunca han sido probados en EM/SFC o hipermobilidad [@Loth2026website]. Esto está en fase preclínica.
 
 ### Bloqueo de TGF-β1
 
-El TGF-β1 es un regulador principal de la fibrosis y la deposición de tisura extracelular. En hEDS, el microtrauma crónico y la activación de mastocitos pueden impulsar una señalización de TGF-β1 excesiva, produciendo el engrosamiento de la membrana basal en capilares junto con la laxitud en los ligamentos — desregulación de la tisura extracelular específica para cada compartimento. El Fresolimumab, un anticuerpo monoclonal contra TGF-β1, ha sido probado en esclerosis sistémica. La aplicación a hEDS+EM/SFC es totalmente teórica [@Loth2026website].
+El TGF-β1 es un regulador principal de la fibrosis y la deposición de matriz extracelular. En hEDS, el microtrauma crónico y la activación de mastocitos pueden impulsar una señalización de TGF-β1 excesiva, produciendo el engrosamiento de la membrana basal en capilares junto con la laxitud en los ligamentos — desregulación de la matriz extracelular específica para cada compartimento. El Fresolimumab, un anticuerpo monoclonal contra TGF-β1, ha sido probado en esclerosis sistémica. La aplicación a hEDS+EM/SFC es totalmente teórica [@Loth2026website].
 
 ---
 
 ## Resultados esperados
 
-Sean realistas y tengan paciencia. El tratamiento de la hipermobilidad en EM/SFC es una estrategia de gestión a lo largo de la vida, no un tratamiento con un punto final definido.
+Sé realista y ten paciencia. El tratamiento de la hipermobilidad en EM/SFC es una estrategia de gestión a lo largo de la vida, no un tratamiento con un punto final definido.
 
-- **La fisioterapia funciona de forma lenta y parcial.** El fortalecimiento isométrico necesita meses para lograr mejoras medibles en la estabilidad articular. El objetivo no es que los articulaciones sean normales, sino reducir las subluxaciones, disminuir el dolor y mejorar la función dentro de los límites de energía. Una sesión de fisioterapia que no provoque PEM es un éxito; un programa de fisioterapia que cause PEM es un fracaso en la dosis, no un fracaso personal.
+- **La fisioterapia funciona de forma lenta y parcial.** El fortalecimiento isométrico necesita meses para lograr mejoras medibles en la estabilidad articular. El objetivo no es que las articulaciones sean normales, sino reducir las subluxaciones, disminuir el dolor y mejorar la función dentro de los límites de energía. Una sesión de fisioterapia que no provoque PEM es un éxito; un programa de fisioterapia que cause PEM es un fracaso en la dosis, no un fracaso personal.
 - **El apoyo circadiano de colágeno es una intervención lenta y de bajo impacto.** Si funciona, el efecto se medirá en meses: reducción de la frecuencia de lesiones y una estabilidad articular ligeramente mejorada, no en días. El costo es bajo (la vitamina C y α-KG son económicas), por lo que una prueba de 3–6 meses es razonable si la base mecánica ya está establecida.
 - **La doxiciclina en dosis baja, si funciona, aborda la laxitud adquirida, no la laxitud congénita.** Si su hipermobilidad ha estado estable desde la infancia, la vía MMP puede no estar activa y la doxiciclina puede no tener efecto. Si su hipermobilidad empeoró en la edad adulta, relacionada con los brotes de MCAS, la doxiciclina es una prueba mecanísticamente razonable pero no probada.
-- **Una respuesta parcial no es un fracaso.** Apoyar un solo articulación inestable y poder escribir sin que un dedo se subluxe es un éxito. Permanecer de pie 3 minutos más sin presíncope gracias al uso de compresión es un éxito. La falla energética puede seguir existiendo —ha abordado usted un factor en un sistema con múltiples factores.
-- **Traten a los amplificadores posteriores.** Dado que no puede reparar el colágeno, el apoyo clínico se basa en lo que permite el tejido suelto: POTS (fludrocortisona, midodrina, ivabradina), MCAS ( antihistamínicos, estabilizadores), dolor ([descrito en el artículo sobre fibromialgia y dolor](../../pain/fibromyalgia-pain-treatment/index.qmd)). Estas intervenciones no dependen de saber si el hEDS es una enfermedad "real" o una variante normal, sino que apuntan a una fisiología mediblemente anormal.
+- **Una respuesta parcial no es un fracaso.** Apoyar una sola articulación inestable y poder escribir sin que un dedo se subluxe es un éxito. Permanecer de pie 3 minutos más sin presíncope gracias al uso de compresión es un éxito. La falla energética puede seguir existiendo —has abordado un factor en un sistema con múltiples factores.
+- **Trata los amplificadores posteriores.** Dado que no puedes reparar el colágeno, el apoyo clínico se basa en lo que permite el tejido suelto: POTS (fludrocortisona, midodrina, ivabradina), MCAS (antihistamínicos, estabilizadores), dolor ([descrito en el artículo sobre fibromialgia y dolor](../../pain/fibromyalgia-pain-treatment/index.qmd)). Estas intervenciones no dependen de saber si el hEDS es una enfermedad "real" o una variante normal, sino que apuntan a una fisiología mediblemente anormal.
 
 ---
 
@@ -126,11 +126,11 @@ Sean realistas y tengan paciencia. El tratamiento de la hipermobilidad en EM/SFC
 
 *Este es un ejemplo para ofrecer algo a tu médico con el que trabajar — no es una auto-prescripción.*
 
-Elige el único articulación o síntoma que te limite más: un hombro subluxado, una articulación SI dolorosa, presincope ortostático por acumulación venosa. Comienza con la base mecánica: fisioterapia isométrica (ejercicios específicos, sesiones de 3–5 minutos, 3 veces por semana), apoyo durante la actividad y compresión de 20–30 mmHg desde la cintura durante las horas de postura. Reevalua después de 8 semanas.
+Elige la única articulación o síntoma que te limite más: un hombro subluxado, una articulación SI dolorosa, presíncope ortostático por acumulación venosa. Comienza con la base mecánica: fisioterapia isométrica (ejercicios específicos, sesiones de 3–5 minutos, 3 veces por semana), apoyo durante la actividad y compresión de 20–30 mmHg desde la cintura durante las horas de postura. Reevalúa después de 8 semanas.
 
-Si la base mecánica está establecida pero la laxitud articular es progresiva — más subluxaciones, nuevas articulaciones afectadas, correlación con brotes de MCAS — añade doxiciclina en baja dosis: la dosis estándar subantimicrobiana es 20 mg dos veces al día (40 mg/día), no la dosis de antibióticos. Reevalua la estabilidad articular después de 12 semanas. **Detén la terapia si no hay cambio** — la doxiciclina aborda la degradación mediada por MMP adquirida, no la laxitud congénita, y un resultado nulo a 12 semanas significa que el camino de MMP no es el factor relevante.
+Si la base mecánica está establecida pero la laxitud articular es progresiva — más subluxaciones, nuevas articulaciones afectadas, correlación con brotes de MCAS — añade doxiciclina en baja dosis: la dosis estándar subantimicrobiana es 20 mg dos veces al día (40 mg/día), no la dosis de antibióticos. Reevalúa la estabilidad articular después de 12 semanas. **Detén la terapia si no hay cambio** — la doxiciclina aborda la degradación mediada por MMP adquirida, no la laxitud congénita, y un resultado nulo a 12 semanas significa que el camino de MMP no es el factor relevante.
 
-Si la doxiciclina no es indicada (laxitud congénita estable, sin MCAS, sin empeoramiento en adultos), añade apoyo de colágeno circadiano: ácido ascórbico a tiempo 1000 mg + α-KG 200 mg al iniciar el sueño. Reevalua después de 12 semanas.
+Si la doxiciclina no es indicada (laxitud congénita estable, sin MCAS, sin empeoramiento en adultos), añade apoyo de colágeno circadiano: ácido ascórbico a tiempo 1000 mg + α-KG 200 mg al iniciar el sueño. Reevalúa después de 12 semanas.
 
 Añade solo una intervención a la vez, y solo después de que la anterior haya sido evaluada con una dosis y duración adecuadas. Añadir todo al mismo tiempo hace imposible saber qué funcionó. Todo el programa se ejecuta siempre que ninguna sesión cause PEM — si una sesión de fisioterapia causa PEM, la carga se reduce, independientemente de lo que las articulaciones puedan tolerar.
 
@@ -138,9 +138,9 @@ Añade solo una intervención a la vez, y solo después de que la anterior haya 
 
 ## La conclusión principal
 
-El tratamiento de la hipermobilidad en EM/SFC no tiene un único medicamento ni un resultado curativo. La arquitectura se basa primero en medidas mecánicas (fisioterapia isométrica, apoyo postural, compresión), segundo en nutrición (vitamina C circadiana + α-KG, glicina, proline, cobre/B6) y tercero en farmacología (doxiciclina en bajas dosis para la degradación mediada por MMPs adquirida, terapias experimentales para el futuro). La carga energética permanente del 10–20 % en la postura vertical impuesta por los vasos laxos es una predicción del modelo que explica por qué los pacientes con hEDS+EM/SFC tienden a tener mayor gravedad — y por qué el descanso en posición supina y la compresión no son solo manejo de síntomas, sino intervenciones fisiológicas genuinas [@Loth2026website].
+El tratamiento de la hipermobilidad en EM/SFC no tiene un único medicamento ni un resultado curativo. La arquitectura se basa primero en medidas mecánicas (fisioterapia isométrica, apoyo postural, compresión), segundo en nutrición (vitamina C circadiana + α-KG, glicina, prolina, cobre/B6) y tercero en farmacología (doxiciclina en bajas dosis para la degradación mediada por MMPs adquirida, terapias experimentales para el futuro). La carga energética permanente del 10–20 % en la postura vertical impuesta por los vasos laxos es una predicción del modelo que explica por qué los pacientes con hEDS+EM/SFC tienden a tener mayor gravedad — y por qué el descanso en posición supina y la compresión no son solo manejo de síntomas, sino intervenciones fisiológicas genuinas [@Loth2026website].
 
-La triaje entre congénita y adquirida, el modelo bistable de rigidez de matriz y el horario de apoyo de colágeno circadiano se desarrollan en el documento principal, pero no se han establecido en ensayos clínicos. Consideralos como hipótesis para probar con tu médico, no como recomendaciones establecidas.
+El triaje entre congénita y adquirida, el modelo biestable de rigidez de matriz y el horario de apoyo de colágeno circadiano se desarrollan en el documento principal, pero no se han establecido en ensayos clínicos. Considéralos como hipótesis para probar con tu médico, no como recomendaciones establecidas.
 
 **Próximo en esta mini-serie:** lo que significa que estos tratamientos no funcionan — la trampa de descondicionamiento-PEM, el punto de inflexión de rigidez de matriz y los límites de la medicina actual para un trato permanente de tejido [ver el artículo complementario sobre fallo del tratamiento].
 

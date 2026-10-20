@@ -1,13 +1,13 @@
 ---
-title: "La medicina tiene 10,000 enfermedades y ~40 mecanismos. Se entrena para la persona equivocada."
-description: "La medicina está organizada en torno a las enfermedades. Los médicos aprenden 10,000 condiciones conocidas — sus criterios de diagnóstico, sus tratamientos estándar y sus manifestaciones típicas. Cuando un paciente llega, el sistema intenta asignarlo a una categoría conocida. Si el ma..."
+title: "La medicina tiene 10.000 enfermedades y ~40 mecanismos. Se entrena para lo equivocado."
+description: "La medicina está organizada en torno a las enfermedades. Los médicos aprenden 10.000 condiciones conocidas — sus criterios de diagnóstico, sus tratamientos estándar y sus manifestaciones típicas. Cuando un paciente llega, el sistema intenta asignarlo a una categoría conocida. Si el ma..."
 author: "Yannick Loth"
 date: "2026-04-05"
 categories: [Medical Education, Systems Medicine]
 lang: es
 ---
 
-La medicina está organizada en torno a las enfermedades. Los médicos aprenden 10,000 condiciones conocidas — sus criterios de diagnóstico, sus tratamientos estándar y sus manifestaciones típicas. Cuando un paciente llega, el sistema intenta asignarlo a una categoría conocida. Si se encuentra la correspondencia, el tratamiento se lleva a cabo según el protocolo. Si no, el paciente queda sin solución.
+La medicina está organizada en torno a las enfermedades. Los médicos aprenden 10.000 condiciones conocidas — sus criterios de diagnóstico, sus tratamientos estándar y sus manifestaciones típicas. Cuando un paciente llega, el sistema intenta asignarlo a una categoría conocida. Si se encuentra la correspondencia, el tratamiento se lleva a cabo según el protocolo. Si no, el paciente queda sin solución.
 
 Esto funciona bien para las enfermedades comunes y bien caracterizadas. Falla sistemáticamente para todo lo demás.
 
@@ -15,9 +15,9 @@ Esto funciona bien para las enfermedades comunes y bien caracterizadas. Falla si
 
 ## La asimetría de la cual nadie habla
 
-¿Cuántos mecanismos biológicos fundamentales sustentan esos 10,000 enfermedades?
+¿Cuántos mecanismos biológicos fundamentales sustentan esas 10.000 enfermedades?
 
-Aproximadamente entre 30 y 50, dependiendo de cómo se contengan:
+Aproximadamente entre 30 y 50, dependiendo de cómo se cuenten:
 
 - Inflamación y desregulación inmunitaria
 - Disfunción mitocondrial y fallo energético
@@ -30,13 +30,13 @@ Aproximadamente entre 30 y 50, dependiendo de cómo se contengan:
 - Disbiosis del microbioma
 - Consolidación epigenética
 
-Las 10,000 enfermedades no son 10,000 fenómenos independientes. Son combinaciones y expresiones diferentes de este pequeño conjunto de mecanismos, en diferentes tejidos, con diferentes grados de gravedad y desencadenantes distintos.
+Las 10.000 enfermedades no son 10.000 fenómenos independientes. Son combinaciones y expresiones diferentes de este pequeño conjunto de mecanismos, en diferentes tejidos, con diferentes grados de gravedad y desencadenantes distintos.
 
 Un médico que comprenda profundamente la hiperexcitabilidad talamocortical puede reconocerla en fibromialgia, en EM/SFC, en ciertas migrañas, en PTSD y en insomnio resistente al tratamiento, sin necesidad de un protocolo específico para cada caso. Un médico formado únicamente por protocolos necesita una entrada separada para cada condición, y no logra nada cuando la presentación no coincide con una entrada conocida.
 
 ---
 
-## ¿Qué significa esto en la práctica
+## ¿Qué significa esto en la práctica?
 
 Piense en un paciente que ha sido sometido a una polisomnografía. La prueba muestra intrusiones de ondas alfa durante el sueño profundo (N3) — un patrón en el que la actividad cerebral durante el despertar contamina el sueño de ondas lentas, impidiendo la función de restauración. La cantidad de N3 es normal. La calidad, no.
 
@@ -66,13 +66,13 @@ El resultado es un sistema con tres modos de fallo sistemático:
 
 ## Esto no es una crítica a los médicos individuales
 
-Un médico de familia aborda aproximadamente 10,000 condiciones. Ningún ser humano puede mantener una profunda experiencia en mecanismos para todas ellas. El sistema pide lo imposible y luego culpa a los individuos cuando no logran cumplir con esa exigencia.
+Un médico de familia aborda aproximadamente 10.000 condiciones. Ningún ser humano puede mantener una profunda experiencia en mecanismos para todas ellas. El sistema pide lo imposible y luego culpa a los individuos cuando no logran cumplir con esa exigencia.
 
 El problema es arquitectónico. El sistema fue diseñado para un mundo en el que las enfermedades eran mayormente de un solo mecanismo, principalmente infecciosas y fácilmente resolvibles con una intervención definida. Ese mundo ya no describe la mayor parte de la carga de enfermedades en los países ricos. Las enfermedades crónicas multisistémicas — EM/SFC, Long COVID, fibromialgia, disautonomía — no se ajustan a esa arquitectura. No son casos marginales; afectan a decenas de millones de personas.
 
 ---
 
-## ¿Cómo sería la medicina centrada en mecanismos
+## ¿Cómo sería la medicina centrada en mecanismos?
 
 Un médico formado en torno a mecanismos en lugar de enfermedades abordaría a un paciente complejo de manera diferente:
 

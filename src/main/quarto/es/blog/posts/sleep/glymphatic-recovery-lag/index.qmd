@@ -15,15 +15,15 @@ Esto es biología, no un fracaso del tratamiento.
 
 ## La bomba vs. los tubos
 
-El cerebro tiene un sistema de eliminación de residuos —el sistema glifático [@Xie2013glymphatic]— que funciona durante el sueño de ondas lentas. Piensa en él como una red de bomba y tubo: las oscilaciones de noradrenalina impulsan la vasomotilidad cerebral (la bomba), lo que hace que el líquido cefalorraquídeo fluya a través de los espacios perivasculares rodeados por pies astrocitarios (los tubos), eliminando los residuos metabólicos —tau, amiloidosis, mediadores inflamatorios.
+El cerebro tiene un sistema de eliminación de residuos —el sistema glifático [@Xie2013glymphatic]— que funciona durante el sueño de ondas lentas. Piensa en él como una red de bomba y tubo: las oscilaciones de noradrenalina impulsan la vasomotilidad cerebral (la bomba), lo que hace que el líquido cefalorraquídeo fluya a través de los espacios perivasculares rodeados por pies astrocitarios (los tubos), eliminando los residuos metabólicos —tau, amiloide, mediadores inflamatorios.
 
-Medicamentos para el sueño como la trazodona y los DORAs [@Hauglund2025neVasomotion] pueden restaurar la bomba en pocos días. Aumentan la duración del sueño de ondas lentas, normalizan la actividad delta y consolidan la arquitectura del sueño. Se pueden medir con EEG en la noche uno.
+Medicamentos para el sueño como la trazodona y los DORAs [@Hauglund2025neVasomotion] pueden restaurar la bomba en pocos días. Aumentan la duración del sueño de ondas lentas, normalizan la actividad delta y consolidan la arquitectura del sueño. Se pueden medir con EEG en la primera noche.
 
-Pero los tubos? Después de años de sueño no restaurador, ya no son los tubos con los que comenzaste.
+¿Pero los tubos? Después de años de sueño no restaurador, ya no son los tubos con los que comenzaste.
 
 ---
 
-## ¿Qué hacen los años de sueño deficiente a los conductos del cerebro
+## ¿Qué hacen los años de sueño deficiente a los conductos del cerebro?
 
 El deterioro crónico de la glifática causa daño estructural en tres sitios, y cada uno se repara a una velocidad diferente:
 
@@ -43,30 +43,30 @@ Este no es un número preciso. Es una estimación de orden de magnitud basada en
 
 **Semana 1:** La arquitectura del sueño se normaliza [@Holth2019tauSleep]. Duermes toda la noche. Te despiertas todavía cansado. Esto es esperado — la bomba sigue funcionando, las tuberías siguen dañadas.
 
-**Semanas 2–8:** La imagen DTI-ALPS [@NematGorgani2025GlymphaticMECFS] muestra que la función glifática mejora quizás en un 10–15% del déficit. Los canales AQP4 se redistribuyen lentamente a los pies astrocitarios. No sientes diferencia alguna. El cerebro está reduciendo su deuda de residuos antes de que el balance show una limpieza positiva.
+**Semanas 2–8:** La imagen DTI-ALPS [@NematGorgani2025GlymphaticMECFS] muestra que la función glifática mejora quizás en un 10–15% del déficit. Los canales AQP4 se redistribuyen lentamente a los pies astrocitarios. No sientes diferencia alguna. El cerebro está reduciendo su deuda de residuos antes de que el balance muestre una limpieza positiva.
 
 **Mes 3:** AQP4 se repolarizó por completo. Los pies astrocitarios se extienden parcialmente. Los residuos acumulados se eliminaron en gran medida. **Este es el umbral.** Es aquí donde los pacientes comienzan a notar menos niebla cerebral, una menor sensibilidad a los desencadenantes de PEM y una mayor resistencia cognitiva constante. Por eso la gente dice que “finalmente comenzó a funcionar” después de 8–12 semanas.
 
 **Mes 6:** Los pies astrocitarios están en gran medida restaurados. La DTI-ALPS [@Ding2025glymphaticAD] alcanza aproximadamente el 50–60% de la recuperación del déficit. Hay un beneficio sintomático significativo, pero aún no es del 100%.
 
-**Mes 12+:** El remodelado de la membrana basal perivascular se completa. Este es el límite de la recuperación estructural. Si no mejoras significativamente a los 12 meses, el resto del deterioro no es relacionado con la función glifática; necesitas otro tipo de intervención.
+**Mes 12+:** El remodelado de la membrana basal perivascular se completa. Este es el límite de la recuperación estructural. Si no mejoras significativamente a los 12 meses, el resto del deterioro no está relacionado con la función glifática; necesitas otro tipo de intervención.
 
 ---
 
 ## La predicción falsable
 
-Este modelo hace una afirmación específica y verificable: los pacientes con EM/SFC que tengan más de 5 años de sueño no restaurador y que logren una arquitectura del sueño objetivamente normal (potencia delta, %, densidad de espinas en PSG) después de 4 semanas de trazodona + DORA [@Lucey2023SuvorexantTau], **todavía** mostrarán un índice glifático DTI-ALPS reducido [@NematGorgani2025GlymphaticMECFS] en comparación con los controles de edad similar. Los mismos pacientes tratados durante más de 6 meses mostrarán una mejora progresiva en el DTI-ALPS.
+Este modelo hace una afirmación específica y verificable: los pacientes con EM/SFC que tengan más de 5 años de sueño no restaurador y que logren una arquitectura del sueño objetivamente normal (potencia delta, % de SWS, densidad de husos en la PSG) después de 4 semanas de trazodona + DORA [@Lucey2023SuvorexantTau], **todavía** mostrarán un índice glifático DTI-ALPS reducido [@NematGorgani2025GlymphaticMECFS] en comparación con los controles emparejados por edad. Los mismos pacientes tratados durante más de 6 meses mostrarán una mejora progresiva en el DTI-ALPS.
 
 Un resultado nulo — normalización del DTI-ALPS dentro de 4 semanas de restauración de la arquitectura del sueño — refutaría el modelo de degradación estructural y apoyaría un modelo puramente funcional (reversible). Nadie ha realizado este estudio.
 
 ---
 
-## ¿Qué significa esto si eres paciente
+## ¿Qué significa esto si eres paciente?
 
 1. **La paciencia es una característica fisiológica, no un fracaso personal.** Si duermes mejor pero aún no estás recuperándote, no has hecho algo mal. El tiempo de recuperación es 70 veces mayor que el tiempo de restauración del sueño. La biología predice este retraso.
 
-2. **Dejar de tomar los medicamentos después de 4 semanas no garantiza ningún beneficio.** Si dejas tu protocolo de sueño después de un mes porque “no funciona”, los datos indican que tienes razón, pero solo porque dejaste de tomarlos antes de que los sistemas comenzaran a sanar.
+2. **Dejar de tomar los medicamentos después de 4 semanas garantiza que no obtendrás ningún beneficio.** Si dejas tu protocolo de sueño después de un mes porque “no funciona”, los datos indican que tienes razón, pero solo porque dejaste de tomarlos antes de que los tubos comenzaran a sanar.
 
-3. **El límite en 12 meses es real.** Si has mantenido un sueño restaurativo consistente durante un año y has alcanzado un punto de estancamiento, has extraído todo lo que el eje glifático puede ofrecerte. Para mejorar aún más, es necesario dirigirse a otros mecanismos: apoyo mitocondrial, ritmo circadiano, estrategias antiinflamatorias y, posiblemente, abordar problemas de origen superior como la persistencia autoinmune.
+3. **El límite en 12 meses es real.** Si has mantenido un sueño restaurativo consistente durante un año y has alcanzado un punto de estancamiento, has extraído todo lo que el eje glifático puede ofrecerte. Para mejorar aún más, es necesario dirigirse a otros mecanismos: apoyo mitocondrial, dosificación de la actividad (pacing), estrategias antiinflamatorias y, posiblemente, abordar problemas de origen superior como la persistencia autoinmune.
 
 4. **La calidad del sueño es más importante que la duración del sueño.** La bomba funciona mediante oscilaciones delta, no por los minutos en la cama. DORAs y trazodona [@Parhizkar2025LemborexantTau] mejoran la señal que impulsa la eliminación. Los medicamentos de tipo Z como zolpidem aumentan la duración del sueño, pero suprimen las oscilaciones NE que impulsan la bomba [@Fultz2019csfOscillations] — y no proporcionan ninguna protección neurológica para tau [@Parhizkar2025LemborexantTau]. La clase de medicamento importa.

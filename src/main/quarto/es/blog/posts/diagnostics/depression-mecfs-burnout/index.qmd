@@ -9,7 +9,7 @@ lang: es
 
 Una mujer de unos treinta años le dice a su médico que está agotada. No puede trabajar. Apenas puede pasar el día. Antes corría medias maratones y ahora no puede caminar hasta la tienda sin consecuencias que duran días.
 
-El médico ve a una joven con análisis de sangre normales y dice que está cansada. Las posibilidades son pocas: depresión, estrés, burnout. Quizás tiroides, pero el TSH está bien. Se receta un antidepresivo. Se hace una referencia a un psicólogo. Se recomienda ejercicio graduado: comenzar poco a poco, aumentar gradualmente, te sentirás mejor una vez vuelvas a moverte.
+El médico ve a una joven con análisis de sangre normales que dice que está cansada. Las posibilidades son pocas: depresión, estrés, burnout. Quizás tiroides, pero el TSH está bien. Se receta un antidepresivo. Se hace una referencia a un psicólogo. Se recomienda ejercicio graduado: comenzar poco a poco, aumentar gradualmente, te sentirás mejor una vez vuelvas a moverte.
 
 Ella intenta. Hace ejercicio. Tiene una crisis tan grave que no puede levantarse de la cama durante una semana. Se lo dice al médico. El médico ajusta el antidepresivo. Ella vuelve a intentarlo. Tiene otra crisis, esta vez peor. El médico sospecha que no está realmente intentando, o que la depresión es más grave de lo que se evaluó inicialmente. Se receta un antidepresivo más potente. Quizás se necesita una referencia a un hospital.
 
@@ -19,7 +19,7 @@ En ningún momento de esta secuencia alguien hizo la pregunta que habría cambia
 
 ## Tres enfermedades, una sala de espera
 
-La depresión, el agotamiento y el EM/SFC todas causan la queja “No puedo funcionar y estoy agotado”. Comparten características superficiales: retirada de actividades, reducción del rendimiento laboral, alteración del sueño, quejas cognitivas y aislamiento social. En una consulta de 15 minutos con resultados de laboratorio normales, son clinicamente indistinguibles a menos que el médico sepa hacer preguntas específicas para diferenciarlos.
+La depresión, el agotamiento y la EM/SFC causan la queja “No puedo funcionar y estoy agotado”. Comparten características superficiales: retirada de actividades, reducción del rendimiento laboral, alteración del sueño, quejas cognitivas y aislamiento social. En una consulta de 15 minutos con resultados de laboratorio normales, son clínicamente indistinguibles a menos que el médico sepa hacer preguntas específicas para diferenciarlos.
 
 Son biológicamente no relacionados. Sus tratamientos son incompatibles. Aplicar un tratamiento a uno de ellos en un paciente con el otro causa daño documentado.
 
@@ -45,7 +45,7 @@ El burnout es un fenómeno laboral — reconocido en la ICD-11 como un síndrome
 
 La fatiga por burnout es el agotamiento de un sistema que ha funcionado a alto rendimiento sin una recuperación adecuada. La diferencia con la depresión: el burnout tiene un motor externo claro, y la eliminación de ese motor conduce a la recuperación. Una maestra agotada que tome un descanso sabático de seis meses suele recuperarse. Una persona deprimida que tome el mismo descanso sabático no lo hace — porque el motor es interno.
 
-**El patrón de cortisol en el burnout** comienza hiperactivo (como en la depresión) pero evoluciona hacia una disminución con la cronificación. En etapas avanzadas del burnout, puede mostrar la misma curva de cortisol plana que en EM/SFC, lo que es una razón por la cual el burnout de larga duración puede ser difícil de distinguir del EM/SFC inicial.
+**El patrón de cortisol en el burnout** comienza hiperactivo (como en la depresión) pero evoluciona hacia una disminución con la cronificación. En etapas avanzadas del burnout, puede mostrar la misma curva de cortisol plana que en EM/SFC, lo que es una razón por la cual el burnout de larga duración puede ser difícil de distinguir de la EM/SFC inicial.
 
 **El ejercicio en el burnout** es generalmente beneficioso — ayuda a la recuperación cuando se combina con la reducción del estrés. Pero el ejercicio solo, sin abordar la fuente de la demanda crónica, es insuficiente.
 
@@ -96,7 +96,7 @@ Cinco preguntas separan estas tres condiciones en un encuentro clínico:
 - Inicio gradual sin estrés externo proporcional → depresión
 - Inicio repentino después de una infección, cirugía, trauma o evento identificable → EM/SFC (en aproximadamente el 70% de los casos)
 
-Ninguna pregunta individual es diagnóstica. El patrón en las cinco es similar.
+Ninguna pregunta individual es diagnóstica. El patrón de las cinco juntas es diagnóstico.
 
 ---
 
@@ -104,11 +104,11 @@ Ninguna pregunta individual es diagnóstica. El patrón en las cinco es similar.
 
 Existe un cuarto estado de fatiga que no se encaja perfectamente en los tres anteriores y que se reconoce cada vez más: agotamiento autista. No se trata de agotamiento laboral con un diagnóstico de autismo. Es un fenómeno específico: la depleción progresiva de energía que resulta de la supresión continua de rasgos autistas en entornos neurotípicos.
 
-El mascar — suprimir el estímulo, forzar contacto visual, monitorear y imitar señales sociales en tiempo real, gestionar la sobrecarga sensorial sin mostrar sufrimiento — es cognitivo y metabólicamente costoso. Requiere una función ejecutiva continua que las personas neurotípicas no gastan. A lo largo de meses y años, esta desgaste crónico agota las reservas. La crisis, cuando llega, se parece a EM/SFC: fatiga profunda, apagado cognitivo, hiperreactividad sensorial y retirada.
+El enmascaramiento — suprimir la autoestimulación, forzar contacto visual, vigilar e imitar señales sociales en tiempo real, gestionar la sobrecarga sensorial sin mostrar sufrimiento — es cognitivo y metabólicamente costoso. Requiere una función ejecutiva continua que las personas neurotípicas no gastan. A lo largo de meses y años, este desgaste crónico agota las reservas. La crisis, cuando llega, se parece a EM/SFC: fatiga profunda, apagado cognitivo, hiperreactividad sensorial y retirada.
 
-La distinción clave: el agotamiento autista se resuelve cuando las demandas de mascar se reducen. Una persona autista que pasa a un entorno sensorialmente amigable con menos demandas sociales suele recuperarse, a veces rápidamente. Si el agotamiento se ha mantenido durante años, la recuperación puede ser más lenta e incompleta — pero la trayectoria es hacia la mejora una vez que la fuente de demanda se aborda.
+La distinción clave: el agotamiento autista se resuelve cuando las demandas de enmascaramiento se reducen. Una persona autista que pasa a un entorno sensorialmente amigable con menos demandas sociales suele recuperarse, a veces rápidamente. Si el agotamiento se ha mantenido durante años, la recuperación puede ser más lenta e incompleta — pero la trayectoria es hacia la mejora una vez que la fuente de demanda se aborda.
 
-Para individuos autistas que también tienen EM/SFC, las dos deplecciones de energía son sumativas. El mascar agota el mismo presupuesto de energía que PEM agota. Reducir las demandas de mascar no es un lujo — es una intervención directa que reduce la carga metabólica total y puede reducir la frecuencia y gravedad de PEM.
+Para individuos autistas que también tienen EM/SFC, las dos deplecciones de energía son sumativas. El enmascaramiento agota el mismo presupuesto de energía que PEM agota. Reducir las demandas de enmascaramiento no es una adaptación de lujo — es una intervención directa que reduce la carga metabólica total y puede reducir la frecuencia y gravedad de PEM.
 
 ---
 
@@ -116,9 +116,9 @@ Para individuos autistas que también tienen EM/SFC, las dos deplecciones de ene
 
 El ensayo PACE [@White2011pace] prescribió terapia de ejercicio gradual y terapia cognitivo-conductual a pacientes con EM/SFC utilizando un protocolo derivado de la hipótesis de descondicionamiento —la suposición de que EM/SFC se mantiene por inactividad y creencias sobre la enfermedad, y que el ejercicio progresivo lo revertiría, al igual que revertiría la retirada relacionada con la depresión.
 
-El ensayo afirmó éxito. Una reanálisis independiente utilizando los resultados predefinidos del ensayo mostró que no había beneficio significativo [@Wilshire2018]. Las encuestas a pacientes indicaron que la terapia de ejercicio gradual era la intervención más propensa a empeorar su condición, con el 74% de los encuestados reportando deterioro [@MEAssociation2015survey].
+El ensayo afirmó éxito. Un reanálisis independiente utilizando los resultados predefinidos del ensayo mostró que no había beneficio significativo [@Wilshire2018]. Las encuestas a pacientes indicaron que la terapia de ejercicio gradual era la intervención más propensa a empeorar su condición, con el 74% de los encuestados reportando deterioro [@MEAssociation2015survey].
 
-El daño no fue aleatorio. Era predecible desde la biología. La terapia de ejercicio funciona para la depresión porque el obstáculo es la amotivación, y el sistema puede conducir la carga. La terapia de ejercicio daña la EM/SFC porque el obstáculo es la capacidad metabólica, y el sistema no puede conducir la carga. El tratamiento era correcto para un diagnóstico incorrecto. El fracaso no estaba en la respuesta del paciente. Estaba en la confusión que hacía que la prescripción pareciera razonable.
+El daño no fue aleatorio. Era predecible desde la biología. La terapia de ejercicio funciona para la depresión porque el obstáculo es la amotivación, y el sistema puede soportar la carga. La terapia de ejercicio daña la EM/SFC porque el obstáculo es la capacidad metabólica, y el sistema no puede soportar la carga. El tratamiento era correcto para un diagnóstico incorrecto. El fracaso no estaba en la respuesta del paciente. Estaba en la confusión que hacía que la prescripción pareciera razonable.
 
 Esta confusión continúa. Los pacientes con EM/SFC siguen referidos a servicios psiquiátricos, siguen recibiendo antidepresivos como tratamiento principal, siguen siendo instruidos a ejercitarse y siguen diciéndoles que su incapacidad para mejorar refleja una motivación insuficiente. Cada una de estas recomendaciones es adecuada para la depresión y dañina para la EM/SFC. La palabra “cansado” es el puente que hace que la aplicación incorrecta sea invisible.
 
@@ -126,7 +126,7 @@ Esta confusión continúa. Los pacientes con EM/SFC siguen referidos a servicios
 
 ## ¿Qué cambiaría si dejáramos de usar una sola palabra
 
-Si los formularios de ingreso clínico reemplazaran "fatiga: sí/no" con un discriminador de cuatro ítems — fatiga periférica, fatigabilidad/PEM, somnolencia, amotivación — el camino de diagnóstico dividiría en la primera visita en lugar de en la quinta. El paciente con EM/SFC nunca recibiría la prescripción de ejercicio. El paciente deprimido nunca recibiría el protocolo de pacing. El paciente burnout recibiría el descanso que necesita en lugar de los medicamentos que no necesita.
+Si los formularios de ingreso clínico reemplazaran "fatiga: sí/no" con un discriminador de cuatro ítems — fatiga periférica, fatigabilidad/PEM, somnolencia, amotivación — el camino de diagnóstico se dividiría en la primera visita en lugar de en la quinta. El paciente con EM/SFC nunca recibiría la prescripción de ejercicio. El paciente deprimido nunca recibiría el protocolo de pacing. El paciente burnout recibiría el descanso que necesita en lugar de los medicamentos que no necesita.
 
 El obstáculo no es la tecnología, ni la financiación, ni la investigación. Es el vocabulario. Una palabra, pretendiendo describir una cosa, aplicada a cuatro. La biología ha sido clara durante años. El lenguaje no ha seguido el paso.
 

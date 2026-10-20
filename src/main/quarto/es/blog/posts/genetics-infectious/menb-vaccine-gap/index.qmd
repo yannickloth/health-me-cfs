@@ -1,13 +1,13 @@
 ---
 title: "Si naciste antes de 2015, no tienes protección contra el tipo de meningitis que causó la epidemia en el Reino Unido"
-description: "Nadie que haya nacido antes de septiembre de 2015 no recibió la vacuna rutinaria contra la grupo B de meningococo, el serogrupo responsable de la mayoría de los casos de meningitis bacteriana en Europa. Eso incluye a ti y a tus hijos, a menos que sean muy jóvenes..."
+description: "Nadie que haya nacido antes de septiembre de 2015 recibió la vacunación rutinaria contra el grupo B de meningococo, el serogrupo responsable de la mayoría de los casos de meningitis bacteriana en Europa. Eso incluye a ti y a tus hijos, a menos que sean muy jóvenes..."
 author: "Yannick Loth"
 date: "2026-03-06"
 categories: [Immunology, Public Health]
 lang: es
 ---
 
-Nadie que haya nacido antes de septiembre de 2015 no está protegido contra el tipo de meningitis que causó la epidemia en el Reino Unido, ya que la vacuna contra el grupo B de meningococo —el serogrupo responsable de la mayoría de los casos de meningitis bacteriana en Europa— no está disponible. Esto incluye a ti, a tus hijos, a tus padres y a tu médico, a menos que sean muy pequeños. La mayoría de las personas no lo saben, porque asumen que las vacunas contra la meningitis que ellos o sus hijos recibieron lo cubren. En realidad, no lo hacen: esas vacunas (MenC, y más tarde MenACWY) cubren los serogrupos A, C, W y Y, pero no el B.
+Nadie que haya nacido antes de septiembre de 2015 recibió la vacunación rutinaria contra el grupo B de meningococo —el serogrupo responsable de la mayoría de los casos de meningitis bacteriana en Europa— y eso incluye a ti, a tus hijos a menos que sean muy pequeños, a tus padres y a tu médico. La mayoría de las personas no lo saben, porque asumen que las vacunas contra la meningitis que ellos o sus hijos recibieron lo cubren. En realidad, no lo hacen: esas vacunas (MenC, y más tarde MenACWY) cubren los serogrupos A, C, W y Y, pero no el B.
 
 Esta semana, dos personas murieron y veinte casos —nueve confirmados en laboratorio— fueron reportados en una epidemia de MenB en Canterbury, Kent, relacionada con un club nocturno y la Universidad de Kent[@UKHSA2026meningitisKent; @LBC2026meningitisKent]. Los funcionarios de salud describieron la propagación como “explosiva” y “sin precedentes”, y ahora se ha declarado un incidente nacional después de identificar un caso relacionado fuera de Kent. Los estudiantes afectados tienen entre 18 y 24 años, nacidos en la década anterior a la existencia de la vacuna MenB, pero la vulnerabilidad no es de generación en ningún sentido significativo. Todos los adultos vivos hoy en día tienen el mismo estado de vacunación contra MenB: ninguno.
 
@@ -17,9 +17,9 @@ La razón por la que existe este vacío en primer lugar —y por qué se necesit
 
 ## El problema de la cápsula
 
-La mayoría de las vacunas contra bacterias funciona entrenando el sistema inmunitario para reconocer la capa de azúcar que rodea la bacteria: la cápsula de polisacarido. Las vacunas contra los serogrupos A, C, W y Y de meningococo se desarrollaron de esta manera: los investigadores aislaron la cápsula, la presentaron al sistema inmunitario y funcionó. La vacuna MenC llegó al Reino Unido en 1999, y luego se desarrollaron las vacunas conjugadas MenACWY.
+La mayoría de las vacunas contra bacterias funciona entrenando el sistema inmunitario para reconocer la capa de azúcar que rodea la bacteria: la cápsula de polisacárido. Las vacunas contra los serogrupos A, C, W y Y de meningococo se desarrollaron de esta manera: los investigadores aislaron la cápsula, la presentaron al sistema inmunitario y funcionó. La vacuna MenC llegó al Reino Unido en 1999, y luego se desarrollaron las vacunas conjugadas MenACWY.
 
-El grupo B de meningococo fue la excepción. Su cápsula de polisacarido está hecha de ácido polisialico, una molécula estructuralmente casi idéntica a las moléculas que se encuentran en la superficie de los neurones humanos, especialmente durante el desarrollo cerebral fetal. Si crearas una vacuna que enseñara al sistema inmunitario a atacar la cápsula de MenB, correrías el riesgo de enseñarle a atacar el propio sistema nervioso del cuerpo. El enfoque tradicional no solo era ineficaz, sino también potencialmente peligroso.
+El grupo B de meningococo fue la excepción. Su cápsula de polisacárido está hecha de ácido polisiálico, una molécula estructuralmente casi idéntica a las moléculas que se encuentran en la superficie de las neuronas humanas, especialmente durante el desarrollo cerebral fetal. Si crearas una vacuna que enseñara al sistema inmunitario a atacar la cápsula de MenB, correrías el riesgo de enseñarle a atacar el propio sistema nervioso del cuerpo. El enfoque tradicional no solo era ineficaz, sino también potencialmente peligroso.
 
 Esto no fue un fracaso en los esfuerzos. Los investigadores comprendieron claramente el problema en la década de 1980 y pasaron las siguientes dos décadas intentando resolverlo. El MenB era la causa más común de meningitis bacteriana en Europa y la segunda más común en América del Norte, matando y incapacitando a miles de jóvenes cada año, y simplemente no había forma de vacunar contra él.
 
@@ -27,7 +27,7 @@ Esto no fue un fracaso en los esfuerzos. Los investigadores comprendieron claram
 
 El avance surgió desde una dirección completamente diferente. En 2000, Rino Rappuoli y su equipo en Chiron (más tarde Novartis, ahora GSK) decidieron omitir por completo la cápsula. En su lugar, secuenciaron el genoma completo de una cepa de MenB[@Pizza2000menB] y identificaron computacionalmente cada proteína que la bacteria podría mostrar en su superficie — un total de 570 candidatos —, luego expresaron cada una en el laboratorio, probaron cuáles provocaban anticuerpos bactericidas y redujeron la lista a unas pocas opciones que funcionaban en múltiples cepas de MenB.
 
-El resultado fue Bexsero (4CMenB), que apunta a cuatro proteínas de superficie: la proteína de unión al factor H (fHbp), el antígeno de unión a heparin de Neisseria (NHBA), la adhesina de Neisseria A (NadA) y una vesícula de membrana externa que contiene el porin PorA de una cepa de epidemia de Nueva Zelanda. Ninguna de estas es la cápsula; todas son proteínas que la bacteria necesita para sobrevivir en sangre y invadir tejidos, por lo que la vacuna apunta a las armas de la bacteria en lugar de su armadura.
+El resultado fue Bexsero (4CMenB), que apunta a cuatro proteínas de superficie: la proteína de unión al factor H (fHbp), el antígeno de unión a heparina de Neisseria (NHBA), la adhesina de Neisseria A (NadA) y una vesícula de membrana externa que contiene la porina PorA de una cepa de epidemia de Nueva Zelanda. Ninguna de estas es la cápsula; todas son proteínas que la bacteria necesita para sobrevivir en sangre y invadir tejidos, por lo que la vacuna apunta a las armas de la bacteria en lugar de su armadura.
 
 Este enfoque basado en el genoma — denominado "vacunología inversa" porque comienza con la secuencia de ADN en lugar de la superficie del patógeno — era realmente nuevo, y Bexsero fue su primer ejemplo de prueba de concepto[@Rappuoli2000reverseVaccinology]. El equipo de Rappuoli publicó el método en 2000; este enfoque se ha aplicado posteriormente al Streptococcus del grupo B y al *Staphylococcus aureus*, y la lógica subyacente contribuyó a la rapidez en el desarrollo de la vacuna contra la COVID-19 veinte años después.
 
@@ -49,7 +49,7 @@ Pero aquí está la parte que la política de salud pública tiende a interpreta
 
 Lo que contribuye es el punto de partida inmunitario. Los adolescentes y jóvenes adultos aún no han acumulado suficientes años de carga asintomática para construir un sistema inmunitario natural robusto, por lo que cuando entran en entornos de alta exposición, están tanto más expuestos como menos protegidos. Pero el lado de la exposición de esa ecuación aplica a cualquier persona cuyo comportamiento social los coloca en situaciones de contacto cercano — independientemente de su edad y de si la política de salud los considera un grupo objetivo.
 
-Esa inmunidad basada en la carga natural también es variable: depende de los estirpes que lleves, y puede ser insuficiente contra nuevas variantes. Para cualquier persona con un sistema inmunitario comprometido — incluyendo a millones de personas que viven con condiciones postinfecciosas como EM/SFC y Long COVID — la suposición de que la carga asintomática construye una protección adecuada puede no ser cierta en absoluto.
+Esa inmunidad basada en la carga natural también es variable: depende de las estirpes que lleves, y puede ser insuficiente contra nuevas variantes. Para cualquier persona con un sistema inmunitario comprometido — incluyendo a millones de personas que viven con condiciones postinfecciosas como EM/SFC y Long COVID — la suposición de que la carga asintomática construye una protección adecuada puede no ser cierta en absoluto.
 
 ## Lo que Bexsero cubre y no cubre
 
@@ -63,7 +63,7 @@ La estirpe del brote de Kent ha sido confirmada como MenB, pero el complejo clon
 
 Existe otra vacuna contra MenB: Trumenba (Pfizer), que apunta a dos variantes de la proteína de unión del factor H y tiene una cobertura específica para MenB más alta (90% vs 67% de Bexsero). Recibió la aprobación de la EMA en 2017 y está técnicamente autorizada en todos los estados miembros de la UE, pero en la práctica es mucho más difícil de obtener que Bexsero en la mayoría de los países europeos — las farmacias rara vez la tienen, ningún país la incluye en un calendario regular y normalmente se necesita pedirla especialmente a través de un médico de cabecera. En los Estados Unidos, donde Trumenba forma parte del calendario regular de adolescentes, cuesta aproximadamente $200–230 por dosis. Las dos vacunas son complementarias más que intercambiables: UKHSA usó Trumenba por primera vez en 2023 para controlar un brote en una guardería donde la estirpe estaba mal cubierta por Bexsero[@Willerton2026menBoutbreak], demostrando que cada vacuna atrapa estirpes que la otra omite. Juntas cubrirían aproximadamente el 95% de las estirpes MenB en circulación — y por extensión, una proporción similar de casos — pero actualmente ningún país las utiliza de forma rutinaria.
 
-## ¿Qué significa esto en la práctica
+## ¿Qué significa esto en la práctica?
 
 Si eres un adulto en Europa, es casi seguro que no estás vacunado contra MenB. Puede que hayas recibido MenC (introducido en 1999 en el Reino Unido, posteriormente en otros lugares) o MenACWY (añadido a muchos calendarios europeos a partir de 2015), pero ninguno cubre el grupo serológico B.
 

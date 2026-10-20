@@ -9,9 +9,9 @@ lang: es
 
 La mayoría de las discusiones sobre el intestino y el cerebro pasan por el sistema inmunitario. Existe un segundo canal más extraño: **endocrinología microbiana** —el estudio de cómo las hormonas y neurotransmisores del huésped influyen en los microbios, y viceversa.
 
-La evidencia es real, pero preliminar. La noradrenalina aumentó el crecimiento y la virulencia de al menos un bacterio patógeno, alterando la expresión de muchos genes de virulencia (@Gao2019NEAeromonas). Además, los bacterios intestinales producen y consumen neurotransmisores de mamíferos, incluida la noradrenalina (@Dicks2022GutBacteriaNeurotransmitters).
+La evidencia es real, pero preliminar. La noradrenalina aumentó el crecimiento y la virulencia de al menos una bacteria patógena, alterando la expresión de muchos genes de virulencia (@Gao2019NEAeromonas). Además, las bacterias intestinales producen y consumen neurotransmisores de mamíferos, incluida la noradrenalina (@Dicks2022GutBacteriaNeurotransmitters).
 
-**Por qué podría importar para EM/SFC.** Si la disponibilidad de noradrenalina en el huésped se altera —como sugiere la hipótesis del déficit selectivo—, podría cambiar el entorno local que ve el microbioma intestinal, modificando el ecosistema. Eso sería un efecto *huésped-a-microbio*, distinto de la dirección habitual microbio-a-inmunitario-a-cérebro.
+**Por qué podría importar para EM/SFC.** Si la disponibilidad de noradrenalina en el huésped se altera —como sugiere la hipótesis del déficit selectivo—, podría cambiar el entorno local que ve el microbioma intestinal, modificando el ecosistema. Eso sería un efecto *huésped-a-microbio*, distinto de la dirección habitual microbio-a-inmunitario-a-cerebro.
 
 **Las limitaciones.** El estudio bacteriano utilizó un patógeno de pez, no un organismo intestinal humano. Las revisiones describen la plausibilidad, no un mecanismo demostrado para EM/SFC. Además, el hallazgo principal sobre la noradrenalina no ha sido replicado.
 

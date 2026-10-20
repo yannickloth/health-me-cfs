@@ -1,5 +1,5 @@
 ---
-title: "Un factor de cofactoría, seis condiciones, un cuello de botella"
+title: "Un cofactor, seis condiciones, un cuello de botella"
 description: "Este es el quinto artículo de una serie sobre la biología energética que relaciona TDAH, autismo y EM/SFC. Los artículos anteriores establecieron la hipótesis de la reserva metabólica y el grupo de neurodivergente-hipermovilidad. Este artículo se centra en una única molécula que podría ser t..."
 author: "Yannick Loth"
 date: "2026-06-01"
@@ -15,9 +15,9 @@ Este es el quinto artículo de una serie sobre la biología de la energía que r
 
 La tetrahidrobiopterina (BH4) es un cofactor, una molécula auxiliar necesaria para que ciertas enzimas funcionen. Es esencial para:
 
-- **Tirosino hidroxilasa (TH)** → la enzima limitante en la tasa de síntesis de dopamina y noradrenalina
+- **Tirosina hidroxilasa (TH)** → la enzima limitante en la tasa de síntesis de dopamina y noradrenalina
 - **Triptófano hidroxilasa (TPH)** → la enzima limitante en la tasa de síntesis de serotonina
-- **Las tres isoformas de síntesis de óxido nítrico (NOS)** → la producción de óxido nítrico, el principal regulador del tono vascular
+- **Las tres isoformas de la óxido nítrico sintasa (NOS)** → la producción de óxido nítrico, el principal regulador del tono vascular
 
 Sin un BH4 adecuado, el cerebro no puede producir sus tres principales neurotransmisores de monoamina Y NO puede regular su propio flujo sanguíneo. Un déficit. Cuatro fallos en la cadena descendente. [@Fanet2021BH4neuro]
 
@@ -25,7 +25,7 @@ Sin un BH4 adecuado, el cerebro no puede producir sus tres principales neurotran
 
 ## Seis condiciones, seis mecanismos de agotamiento
 
-Lo que hace destacar el BH4 en el contexto de la hipótesis de la reserva metabólica es que múltiples condiciones pueden agotarlo a través de **diferentes mecanismos** — potencialmente convergiendo en el mismo cuello de botella. La evidencia varía según la condición: algunos mecanismos de agotamiento se miden directamente (ASD, post-infección), mientras que otros son inferencias mecánicas (consumo de TDAH, isquemia-reperfusión en hEDS).
+Lo que hace destacar el BH4 en el contexto de la hipótesis de la reserva metabólica es que múltiples condiciones pueden agotarlo a través de **diferentes mecanismos** — potencialmente convergiendo en el mismo cuello de botella. La evidencia varía según la condición: algunos mecanismos de agotamiento se miden directamente (ASD, post-infección), mientras que otros son inferencias mecanicistas (consumo de TDAH, isquemia-reperfusión en hEDS).
 
 ### 1. TDAH: agotamiento a través del consumo
 
@@ -51,7 +51,7 @@ El hierro sustenta la función de la DHPR — la enzima que recicla el BH4 desde
 
 GCH1 codifica para GTP ciclohidrolasa I — la enzima **limitante de velocidad** para la síntesis de BH4. La variante rs841 reduce la expresión de GCH1. Aproximadamente **4% de la población es homocigota** (genotipo AA); la tasa de portadores heterocigos es mucho mayor.
 
-Esta variante ha estado asociada con TDAH, ASD, depresión, PMDD, ansiedad resistente al tratamiento y insomnio crónico. Cinco informes de casos mostraron mejoras en los comportamientos de TDAH con suplementación con BH4 en bajas dosis (0.088–0.292 mg/kg/día). [@Williams2025GCH1BH4]
+Esta variante ha estado asociada con TDAH, ASD, depresión, PMDD, ansiedad resistente al tratamiento y insomnio crónico. Cinco informes de casos mostraron mejoras en los comportamientos de TDAH con suplementación con BH4 en bajas dosis (0,088–0,292 mg/kg/día). [@Williams2025GCH1BH4]
 
 ### 6. Post-infección: línea de producción secuestrada
 
@@ -114,7 +114,7 @@ Esta combinación apoya el reciclaje *endógeno* de BH4. No es equivalente a la 
 
 **Grado 2 — Suplementación directa de BH4 (receta médica, alto costo):**
 
-- Sapropterina (Kuvan): BH4 sintético. Aprobada por la FDA para la fenilcetonuria. Uso off-label para la deficiencia de neurotransmisores relacionada con BH4. Costo: aproximadamente $1,000–3,000/mes.
+- Sapropterina (Kuvan): BH4 sintético. Aprobada por la FDA para la fenilcetonuria. Uso fuera de indicación para la deficiencia de neurotransmisores relacionada con BH4. Costo: aproximadamente $1.000–3.000/mes.
 - Populación objetivo: portadores homocigóticos confirmados de GCH1 rs841 con biopterina baja documentada.
 
 **Grado 3 — Reducir el consumo de BH4 (experimental):**

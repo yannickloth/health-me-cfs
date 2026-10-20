@@ -15,7 +15,7 @@ Esto es lo que realmente podemos respaldar.
 
 El síndrome post-vacunación (PVS) describe un conjunto de síntomas que aparecen después de la vacunación y que se asemejan a la EM/SFC: fatiga persistente, malestar post-esfuerzo, deterioro cognitivo, síntomas autónomos y sueño insatisfactorio. Es un fenómeno **reportado**. Aún no es un diagnóstico definido formalmente.
 
-La superposición con la EM/SFC post-infecciosa es plausible, y los mismos mecanismos generales — activación inmunitaria, señalización neuroinmuna, desregulación autónoma — podrían estar involucrados en ambos casos. Es una hipótesis sobre un camino común, no una demostración de uno.
+La superposición con la EM/SFC post-infecciosa es plausible, y los mismos mecanismos generales — activación inmunitaria, señalización neuroinmune, desregulación autónoma — podrían estar involucrados en ambos casos. Es una hipótesis sobre un camino común, no una demostración de uno.
 
 ## ¿Por qué la pregunta no es absurda
 
@@ -59,6 +59,6 @@ Por lo tanto, el manejo no es "nada": significa hacer un cribado de las causas u
 
 ## Por qué somos cautelosos aquí
 
-Nuestra evaluación integrada de este tema tiene una evidencia **frágil** — el fenómeno se reporta y se superpone a una enfermedad bien caracterizada, pero la causalidad no está probada y los detalles no han sido probados. Eso es una razón para decir menos, no más.
+Nuestra evaluación integrada de este tema tiene una evidencia **débil** — el fenómeno se reporta y se superpone a una enfermedad bien caracterizada, pero la causalidad no está probada y los detalles no han sido probados. Eso es una razón para decir menos, no más.
 
 *Lo que se debe decirle a un paciente: que sus síntomas se tomen en serio, que se note el momento, que actualmente nadie puede decir si la vacuna lo causó — y que no se le diga, por nadie, que definitivamente lo hizo o definitivamente no lo hizo.*

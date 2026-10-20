@@ -29,9 +29,9 @@ Cuando una adolescente con EM/SFC pierde peso significativo porque no puede come
 
 Este error de diagnóstico está documentado. Tiene consecuencias específicas y graves.
 
-El apoyo nutricional —incluyendo alimentación por sonda— se retira mientras los equipos buscan explicaciones psiquiátricas. Se aplican tratamientos estándar para trastornos alimentarios: activación conductual, exposición graduada a alimentos temidos y mejora motivacional dirigida a la "rechazo" a comer. Estas intervenciones asumen que la restricción del paciente es voluntaria y que la solución es psicológica. Cuando la restricción es orgánica, fracasan. Peor aún: la activación conductual puede provocar malestar post-esfuerzo en un paciente que ya está gravemente enfermo.
+El apoyo nutricional —incluyendo alimentación por sonda— se retira mientras los equipos buscan explicaciones psiquiátricas. Se aplican tratamientos estándar para trastornos alimentarios: activación conductual, exposición graduada a alimentos temidos y mejora motivacional dirigida al "rechazo" a comer. Estas intervenciones asumen que la restricción del paciente es voluntaria y que la solución es psicológica. Cuando la restricción es orgánica, fracasan. Peor aún: la activación conductual puede provocar malestar post-esfuerzo en un paciente que ya está gravemente enfermo.
 
-En 2021, Baxter, Speight y Weir publicaron una serie de casos en *Atención sanitaria* que documentan cinco pacientes con EM/SFC muy graves que se volvieron malnutridos hasta ser peligrosos para la vida [@Baxter2021malnutrition]. En cada caso, el retraso se debió a la vacilación del médico —los equipos "postulan teorías psicológicas" en lugar de abordar una necesidad médica primaria. Las consecuencias incluyeron daño neurológico, osteoporosis, complicaciones cardíacas y mala cicatrización de heridas.
+En 2021, Baxter, Speight y Weir publicaron una serie de casos en *Healthcare* que documentan cinco pacientes con EM/SFC muy graves que se volvieron malnutridos hasta ser peligrosos para la vida [@Baxter2021malnutrition]. En cada caso, el retraso se debió a la vacilación del médico —los equipos "postulan teorías psicológicas" en lugar de abordar una necesidad médica primaria. Las consecuencias incluyeron daño neurológico, osteoporosis, complicaciones cardíacas y mala cicatrización de heridas.
 
 Las características distintivas que deben evitar este error de diagnóstico son claras una vez que se sabe buscarlas. Una paciente con dificultades alimentarias causadas por EM/SFC está *afligida* por su incapacidad para comer. Quiere comer normalmente. No tiene distorsión de imagen corporal. Su pérdida de peso no es deseada, sino lamentada. Sus dificultades alimentarias reflejan la gravedad de su enfermedad, empeorando durante brotes y mejorando cuando la enfermedad mejora. Tiene signos objetivos de EM/SFC: intolerancia ortostática en pruebas de inclinación, malestar post-esfuerzo documentado durante días, la marca específica de esta enfermedad.
 
@@ -49,11 +49,11 @@ EM/SFC está asociada con un aumento aproximado del doble del riesgo de síndrom
 
 Más llamativo es un patrón llamado **obesidad sarcopénica**: la masa grasa aumenta mientras que la masa muscular disminuye, incluso en pacientes cuyo peso total del cuerpo parece normal. Los mecanismos convergen desde varias direcciones. El cuerpo no puede quemar grasa de manera eficiente —los estudios han identificado deficiencias específicas en las enzimas que oxidan los ácidos grasos (ACAD y CPT), lo que significa que la grasa almacenada se acumula en lugar de ser utilizada como combustible. Al mismo tiempo, la síntesis de proteínas musculares se ve afectada porque la disfunción mitocondrial que causa fatiga también daña el proceso energéticamente dependiente de construir y mantener el músculo. Las anomalías del músculo esquelético en EM/SFC —atrofia, capacidad oxidativa reducida, composición de fibras alterada— han sido documentadas histológicamente.
 
-El resultado: un paciente que puede parecer tener un peso "normal" en una balanza, pero cuyo composición corporal ha cambiado significativamente hacia la grasa y alejado del músculo. Las mediciones estándar de BMI pasan por alto completamente esto.
+El resultado: un paciente que puede parecer tener un peso "normal" en una balanza, pero cuya composición corporal ha cambiado significativamente hacia la grasa y alejado del músculo. Las mediciones estándar de IMC pasan por alto completamente esto.
 
 ---
 
-## ¿Por qué el consejo estándar falla en este caso
+## ¿Por qué el consejo estándar falla en este caso?
 
 “Perder peso mediante dieta y ejercicio”. Para la mayoría de las condiciones asociadas a la obesidad, esta es una orientación razonable. En el caso de EM/SFC, es contraindicada.
 
@@ -77,7 +77,7 @@ La AMPK añade otro nivel de perturbación. Es el sensor de energía principal d
 
 ## Lo que realmente ayuda
 
-La base de evidencia para la intervención nutricional en EM/SFC es escasa, pero los principios son claros. Comidas pequeñas y frecuentes reducen el gasto energético de cualquier evento alimenticio y disminuyen el estrés ortostático postprandial. Los carbohidratos de bajo índice glucémico — avena, arroz, papa — ayudan a estabilizar el glucoso en sangre sin provocar grandes picos de insulina que puedan empeorar la resistencia a la insulina, y la proteína adecuada ralentiza la pérdida de masa muscular asociada a la inactividad. La participación de dietistas es esencial; la restricción dietética no guiada en EM/SFC conlleva un riesgo documentado de deficiencia nutricional grave.
+La base de evidencia para la intervención nutricional en EM/SFC es escasa, pero los principios son claros. Comidas pequeñas y frecuentes reducen el gasto energético de cualquier evento alimenticio y disminuyen el estrés ortostático postprandial. Los carbohidratos de bajo índice glucémico — avena, arroz, patata — ayudan a estabilizar la glucosa en sangre sin provocar grandes picos de insulina que puedan empeorar la resistencia a la insulina, y la proteína adecuada ralentiza la pérdida de masa muscular asociada a la inactividad. La participación de dietistas es esencial; la restricción dietética no guiada en EM/SFC conlleva un riesgo documentado de deficiencia nutricional grave.
 
 Para pacientes que no pueden mantener una ingesta adecuada por vía oral, la nutrición enteral — alimentación por sonda nasogástrica o nasojejunal — a veces es necesaria y no debe retrasarse. La decisión de iniciar alimentación por sonda en EM/SFC es una decisión médica, no psiquiátrica. Esperar a una evaluación psiquiátrica antes de alimentar a un paciente desnutrido no es un estándar de cuidado, sino un fallo en el cuidado.
 
@@ -89,4 +89,4 @@ EM/SFC interrumpe el acto de comer desde ambos extremos al mismo tiempo. Algunos
 
 Ninguna de estas suposiciones es apropiada, y ambas ignoran la biología subyacente.
 
-El problema alimentario en EM/SFC es un problema metabólico, inmunológico y neurológico — es necesario vestirse con términos más familiares y más convenientes para ignorarlo.
+El problema alimentario en EM/SFC es un problema metabólico, inmunológico y neurológico — disfrazado de algo más familiar y más conveniente de descartar.

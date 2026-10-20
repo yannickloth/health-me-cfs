@@ -9,23 +9,23 @@ lang: es
 
 Los dos primeros artículos de esta serie argumentaron que los informes de medicamentos de pacientes agrupados podrían identificar qué vías biológicas son limitantes en EM/SFC, y describieron el diseño que permitiría esa agrupación. Este artículo es la parte que le da credibilidad al resto. Una propuesta que no puede indicar sus propios límites es solo una venta, no una propuesta científica. Los límites son los siguientes.
 
-## Rangoa las hipótesis. No las confirma.
+## Clasifica las hipótesis. No las confirma.
 
 El corpus es un **instrumento de generación de hipótesis**: le indica qué vías valen la pena probar a continuación, no cuál es la causa.
 
-La razón es estructural. Los informes agrupados muestran asociaciones. No muestran causalidad — los sistemas de farmacovigilancia que recopilan informes de medicamentos espontáneos para detectar señales de seguridad se basan exactamente en este tipo de datos, y rangoan las asociaciones bien sin establecer nunca que el medicamento causó el evento [@vanPuijenbroek2002Disproportionality; @Cutroneo2023Disproportionality]. Un corpus de informes de medicamentos EM/SFC es lo contrario de una base de datos de seguridad: busca beneficios en lugar de daños — pero el mismo límite inferencial se aplica. Puede decir "esta vía sigue apareciendo". No puede decir "esta vía es la enfermedad".
+La razón es estructural. Los informes agrupados muestran asociaciones. No muestran causalidad — los sistemas de farmacovigilancia que recopilan informes de medicamentos espontáneos para detectar señales de seguridad se basan exactamente en este tipo de datos, y clasifican las asociaciones bien sin establecer nunca que el medicamento causó el evento [@vanPuijenbroek2002Disproportionality; @Cutroneo2023Disproportionality]. Un corpus de informes de medicamentos EM/SFC es lo contrario de una base de datos de seguridad: busca beneficios en lugar de daños — pero el mismo límite inferencial se aplica. Puede decir "esta vía sigue apareciendo". No puede decir "esta vía es la enfermedad".
 
-Esa distinción no es académica. La historia del artículo contiene un tratamiento, rituximab, cuyo primer ensayo controlado de fase II mostró una gran diferencia entre el medicamento y el placebo, y cuyo ensayo definitivo no encontró beneficio — la tasa de respuesta del placebo superó la [@Fluge2011rituximab; @Fluge2019] del medicamento. Una señal alentadora temprana es algo diferente de un resultado confirmado; tratarla como una versión más pequeña de uno es el error.
+Esa distinción no es académica. La historia del artículo contiene un tratamiento, rituximab, cuyo temprano ensayo controlado de fase II mostró una gran diferencia entre el medicamento y el placebo, y cuyo ensayo controlado definitivo no encontró beneficio — la tasa de respuesta del placebo superó la [@Fluge2011rituximab; @Fluge2019] del medicamento. Una señal alentadora temprana es algo diferente de un resultado confirmado; tratarla como una versión más pequeña de uno es el error.
 
 ## Cuatro cosas que contaminan la señal
 
-**Placebo y expectativa.** El placebo abierto — una pastilla dada con plena revelación de que es inerte — puede mover síntomas subjetivos entre condiciones, aunque los tamaños de efecto son modestos y la certeza de la evidencia es baja [@FlavioReis2025OpenLabelPlacebo; @KleineBorgmann2025OpenLabelPlacebos]. En un corpus no desenmascarado, cada mejoría subjetiva es en parte expectativa, y la tarea del corpus es eliminarla tanto como sea posible. No puede eliminarla.
+**Placebo y expectativa.** El placebo abierto — una pastilla dada con plena revelación de que es inerte — puede mover síntomas subjetivos entre condiciones, aunque los tamaños de efecto son modestos y la certeza de la evidencia es baja [@FlavioReis2025OpenLabelPlacebo; @KleineBorgmann2025OpenLabelPlacebos]. En un corpus no enmascarado, cada mejoría subjetiva es en parte expectativa, y la tarea del corpus es restarla lo mejor posible. No puede eliminarla.
 
 **Quién recibe qué (confusión por indicación).** Los pacientes no prueban medicamentos al azar. Un clínico prescribe basándose en síntomas, gravedad, respuesta previa y lo que está disponible; los pacientes eligen suplementos según la costumbre comunitaria. Las personas que prueban el medicamento A difieren sistemáticamente de aquellas que prueban el medicamento B. Una diferencia en la respuesta entre A y B puede reflejar *quién los recibió* en lugar de lo que hacen los medicamentos [@Zong2022EHRrepurposing; @Shahn2022AntihypertensiveRepurposing]. Este es un riesgo bien conocido en la investigación observacional de medicamentos, y es peor en EM/SFC porque no hay una estratificación validada — así que la prescripción es impulsada por síntomas y inconsistente.
 
-**Quién se volunta a informar (selección autónoma).** Los contribuyentes al corpus son, por construcción, los pacientes que están lo suficientemente bien para participar: en línea, de habla inglesa, de gravedad leve a moderada y con recursos suficientes para haber probado muchos tratamientos. Los pacientes graves y de duración prolongada, cuyas respuestas a los medicamentos serían más informativas, son los menos propensos a completar la encuesta [@Richiardi2007NINFEAInternet; @Loth2026website]. Esto no es datos faltantes aleatorios. Está relacionado con la biología que el corpus intenta clasificar; por lo tanto, la clasificación puede describir a los encuestados, no la enfermedad.
+**Quiénes se ofrecen a informar (autoselección).** Los contribuyentes al corpus son, por construcción, los pacientes que están lo suficientemente bien para participar: en línea, de habla inglesa, de gravedad leve a moderada y con recursos suficientes para haber probado muchos tratamientos. Los pacientes graves y de duración prolongada, cuyas respuestas a los medicamentos serían más informativas, son los menos propensos a completar la encuesta [@Richiardi2007NINFEAInternet; @Loth2026website]. Esto no es datos faltantes aleatorios. Está relacionado con la biología que el corpus intenta clasificar; por lo tanto, la clasificación puede describir a los encuestados, no la enfermedad.
 
-**Informe autónomo sin engaño.** El resultado es el juicio de un paciente o de un médico sobre el cambio, sin engaño y sin instrumento estándar. Es precisamente ese tipo de medida que se espera que sea más fiable. Sin una medida validada común, el corpus combina juicios incompatibles, y el resultado refleja principalmente cómo las personas informan de forma optimista.
+**Autoinforme sin enmascaramiento.** El resultado es el juicio de un paciente o de un médico sobre el cambio, sin enmascaramiento y sin instrumento estándar. Es precisamente el tipo de medida que la expectativa más afecta. Sin una medida validada común, el corpus combina juicios incompatibles, y el resultado refleja principalmente cómo las personas informan de forma optimista.
 
 ## El modo de fallo que lo destruiría
 
@@ -37,10 +37,10 @@ Existe una segunda condición de abandono: si el número de medicamentos distint
 
 ## Lo que el corpus puede afirmar
 
-Si sobrevive a esos tests, el corpus puede hacer algo realmente útil en una enfermedad sin biomarker validado [@IOM2015]:
+Si sobrevive a esos tests, el corpus puede hacer algo realmente útil en una enfermedad sin biomarcador validado [@IOM2015]:
 
 - **Clasificar vías candidatas** para la próxima ronda de investigación mecánica.
-- **Identificar subgrupos de respuesta** — cuando un tratamiento divide a la población, ese dividido es un hallazgo en sí mismo, y puede explicar por qué tantos ensayos de ME/CFS a nivel de grupo dan resultado nulo.
+- **Identificar subgrupos de respuesta** — cuando un tratamiento divide a la población, esa división es un hallazgo en sí mismo, y puede explicar por qué tantos ensayos de EM/SFC a nivel de grupo dan resultado nulo.
 - **Nombrar medicamentos para ensayos ciegos rigurosos**, utilizando el corpus como motor de priorización: un subestudio aleatorizado anidado prueba los pocos medicamentos nominados por el corpus contra placebo, que es donde se hacen afirmaciones causales realmente válidas.
 - **Estratificar ensayos futuros**, convirtiendo la huella de respuesta propia del paciente en una variable de enriquecimiento.
 

@@ -1,15 +1,15 @@
 ---
 title: "Tus células son una planta eléctrica. Así es como se daña."
-description: "Tu cuerpo contiene aproximadamente 37 trillones de células. Casi cada una de ellas contiene cientos o miles de mitocondria, organelres que evolucionaron a partir de bacterias hace dos mil millones de años y nunca se han ido. Su función es simple en descripción y asombrosa i..."
+description: "Tu cuerpo contiene aproximadamente 37 billones de células. Casi cada una de ellas contiene cientos o miles de mitocondrias, orgánulos que evolucionaron a partir de bacterias hace dos mil millones de años y nunca se han ido. Su función es simple en descripción y asombrosa i..."
 author: "Yannick Loth"
 date: "2026-06-08"
 categories: [Energy Metabolism, Mitochondria]
 lang: es
 ---
 
-Tu cuerpo contiene aproximadamente 37 trillones de células. Casi cada una de ellas contiene cientos o miles de mitocondria, organel que evolucionaron a partir de bacterias hace dos mil millones de años y nunca se han ido. Su función es simple en descripción y asombrosa en escala: convertir alimentos y oxígeno en ATP, la molécula que alimenta todo lo demás.
+Tu cuerpo contiene aproximadamente 37 billones de células. Casi cada una de ellas contiene cientos o miles de mitocondrias, orgánulos que evolucionaron a partir de bacterias hace dos mil millones de años y nunca se han ido. Su función es simple en descripción y asombrosa en escala: convertir alimentos y oxígeno en ATP, la molécula que alimenta todo lo demás.
 
-Un ser humano saludable recicla aproximadamente 50 kg de ATP al día. No se produce — se recicla. El total de ATP en el cuerpo en cualquier momento es solo unos 50 gramos. Ese total se renueva aproximadamente mil veces al día. Cada latido cardíaco, cada pensamiento, cada respuesta inmunitaria y cada contracción muscular extrae de ese mismo fondo y lo reponde en tiempo real.
+Un ser humano saludable recicla aproximadamente 50 kg de ATP al día. No se produce — se recicla. El total de ATP en el cuerpo en cualquier momento es solo unos 50 gramos. Ese total se renueva aproximadamente mil veces al día. Cada latido cardíaco, cada pensamiento, cada respuesta inmunitaria y cada contracción muscular extrae de ese mismo fondo y lo repone en tiempo real.
 
 Cuando esa maquinaria de reciclaje se ralentiza, el equilibrio del fondo disminuye. No de forma drástica — no a cero, ni a paro cardíaco. Solo un 30% menos. Quizás 50% menos. Lo suficiente para que todo siga funcionando, lentamente y dolorosamente, con un tiempo de recuperación medido en días en lugar de minutos. Ese es el estado metabólico de EM/SFC.
 
@@ -19,11 +19,11 @@ Cuando esa maquinaria de reciclaje se ralentiza, el equilibrio del fondo disminu
 
 La producción de energía es un proceso secuencial con tres etapas, cada una alimentando a la siguiente.
 
-**Glucólisis** ocurre en el citoplasma, fuera de las mitocondria. Una molécula de glucosa se divide en dos moléculas de piruvato, generando 2 ATP. Es rápida, no requiere oxígeno y es la alternativa cuando todo lo demás falla. También es ineficiente: 2 ATP de una molécula que produce alrededor de 30–32 en total.
+**Glucólisis** ocurre en el citoplasma, fuera de las mitocondrias. Una molécula de glucosa se divide en dos moléculas de piruvato, generando 2 ATP. Es rápida, no requiere oxígeno y es la alternativa cuando todo lo demás falla. También es ineficiente: 2 ATP de una molécula que produce alrededor de 30–32 en total.
 
-**El ciclo de Krebs** (ciclo de ácido cítrico) ocurre dentro de la matriz mitocondrial. El piruvato entra en las mitocondria, se convierte en acetil-CoA por el complejo piruvato deshidrogenasa (PDH), y se inserta en un ciclo de ocho pasos que extrae electrones de los enlaces de carbono y los carga en moléculas portadoras (NADH y FADH2). El carbono sale como CO2 —el mismo CO2 que exhalas tú. El ciclo en sí produce solo 2 ATP directamente. Su verdadero resultado son los portadores de electrones cargados.
+**El ciclo de Krebs** (ciclo de ácido cítrico) ocurre dentro de la matriz mitocondrial. El piruvato entra en las mitocondrias, se convierte en acetil-CoA por el complejo piruvato deshidrogenasa (PDH), y se inserta en un ciclo de ocho pasos que extrae electrones de los enlaces de carbono y los carga en moléculas portadoras (NADH y FADH2). El carbono sale como CO2 —el mismo CO2 que exhalas tú. El ciclo en sí produce solo 2 ATP directamente. Su verdadero resultado son los portadores de electrones cargados.
 
-**La cadena de transporte de electrones (ETC)** es donde los electrones se utilizan. NADH y FADH2 entreguen sus electrones a una serie de complejos de proteínas (I a IV) incrustados en la membrana interna mitocondrial. A medida que los electrones pasan por la cadena, los complejos bombean iones de hidrógeno a través de la membrana, construyendo un gradiente electroquímico. Ese gradiente impulsa la ATP sintasa —un motor rotativo literal, el motor más pequeño de la biología— que gira y ensambla ATP a partir de ADP y fosfato. Esta etapa produce aproximadamente 26–28 ATP por molécula de glucosa. Requiere oxígeno como el aceptador final de electrones.
+**La cadena de transporte de electrones (ETC)** es donde los electrones se utilizan. NADH y FADH2 entregan sus electrones a una serie de complejos de proteínas (I a IV) incrustados en la membrana interna mitocondrial. A medida que los electrones pasan por la cadena, los complejos bombean iones de hidrógeno a través de la membrana, construyendo un gradiente electroquímico. Ese gradiente impulsa la ATP sintasa —un motor rotativo literal, el motor más pequeño de la biología— que gira y ensambla ATP a partir de ADP y fosfato. Esta etapa produce aproximadamente 26–28 ATP por molécula de glucosa. Requiere oxígeno como el aceptador final de electrones.
 
 En total: 2 (glucólisis) + 2 (Krebs) + ~26–28 (ETC) = aproximadamente 30–32 ATP por glucosa —el cálculo actual, no los números de los libros de texto antiguos de 36–38. La línea de ensamblaje es elegante, poderosa y depende completamente de que cada etapa funcione correctamente.
 
@@ -33,11 +33,11 @@ En total: 2 (glucólisis) + 2 (Krebs) + ~26–28 (ETC) = aproximadamente 30–32
 
 La evidencia de la disfunción mitocondrial en EM/SFC ya no es circunstancial. Proviene de múltiples líneas de investigación independientes.
 
-**El cuello de botella de PDH.** Fluge, Mella y sus colegas del Hospital Universitario Haukeland informaron que los pacientes con EM/SFC muestran signos de una disfunción en la enzima piruvato deshidrogenasa —el complejo enzimático que convierte el piruvato en acetil-CoA, la vía de acceso de la glucólisis al ciclo de Krebs [@Fluge2016]. Cuando la PDH está inhibida, el piruvato no puede entrar eficientemente en las mitocondria. Se acumula y se convierte en lactato. La célula recurre a la glucólisis: 2 ATP en lugar de aproximadamente 30. La misma glucosa, aproximadamente un decimoquinto de la energía.
+**El cuello de botella de PDH.** Fluge, Mella y sus colegas del Hospital Universitario Haukeland informaron que los pacientes con EM/SFC muestran signos de una disfunción en la enzima piruvato deshidrogenasa —el complejo enzimático que convierte el piruvato en acetil-CoA, la vía de acceso de la glucólisis al ciclo de Krebs [@Fluge2016]. Cuando la PDH está inhibida, el piruvato no puede entrar eficientemente en las mitocondrias. Se acumula y se convierte en lactato. La célula recurre a la glucólisis: 2 ATP en lugar de aproximadamente 30. La misma glucosa, aproximadamente un decimoquinto de la energía.
 
-**El cambio metabólico.** Los estudios de metabolomica muestran consistentemente que los pacientes con EM/SFC tienen perfiles de aminoácidos alterados, un metabolismo de lípidos perturbado y patrones consistentes con una oxidación de ácidos grasos mitocondriales disfuncionada [@Germain2017taurineME; @Naviaux2016metabolomics]. La situación es una de inflexibilidad metabólica: la maquinaria para quemar grasa (beta-oxidación) y para ejecutar todo el ciclo de Krebs está bajo rendimiento, obligando a una mayor dependencia de la vía glucolítica ineficiente.
+**El cambio metabólico.** Los estudios de metabolómica muestran consistentemente que los pacientes con EM/SFC tienen perfiles de aminoácidos alterados, un metabolismo de lípidos perturbado y patrones consistentes con una oxidación de ácidos grasos mitocondriales deteriorada [@Germain2017taurineME; @Naviaux2016metabolomics]. La situación es una de inflexibilidad metabólica: la maquinaria para quemar grasa (beta-oxidación) y para ejecutar todo el ciclo de Krebs está bajo rendimiento, obligando a una mayor dependencia de la vía glucolítica ineficiente.
 
-**La evidencia de CPET.** La prueba de ejercicio cardiopulmonar de dos días (CPET) ofrece la ventana más directa. En el primer día, los pacientes con EM/SFC ejercen hasta su capacidad máxima y muestran un consumo de oxígeno máximo reducido en comparación con los controles sedentarios —pero esto solo podría ser deconforto. En el segundo día, 24 horas después, los controles saludables reproducen su rendimiento del primer día. Los pacientes con EM/SFC no pueden. Su umbral ventilatorio disminuye, su VO2 máximo disminuye y pasan a un metabolismo anaeróbico a menor carga de trabajo [@Snell2013CPET; @Stevens2018CPETmethod]. El sistema es objetivamente peor después de un solo episodio de esfuerzo máximo. Esta es la firma metabólica de PEM —el malestar post-esfuerzo escrito en las curvas de consumo de oxígeno.
+**La evidencia de CPET.** La prueba de ejercicio cardiopulmonar de dos días (CPET) ofrece la ventana más directa. En el primer día, los pacientes con EM/SFC ejercen hasta su capacidad máxima y muestran un consumo de oxígeno máximo reducido en comparación con los controles sedentarios —pero esto solo podría ser descondicionamiento. En el segundo día, 24 horas después, los controles saludables reproducen su rendimiento del primer día. Los pacientes con EM/SFC no pueden. Su umbral ventilatorio disminuye, su VO2 máximo disminuye y pasan a un metabolismo anaeróbico a menor carga de trabajo [@Snell2013CPET; @Stevens2018CPETmethod]. El sistema es objetivamente peor después de un solo episodio de esfuerzo máximo. Esta es la firma metabólica de PEM —el malestar post-esfuerzo escrito en las curvas de consumo de oxígeno.
 
 **Los datos de lactato.** Los pacientes con EM/SFC muestran lactato venoso elevado después del ejercicio a intensidades que no producen lactato significativo en los controles [@Jones2012lactate]. Esto significa que están cruzando su umbral anaeróbico —el punto en el que la glucólisis supera a la fosforilación oxidativa —a cargas de trabajo que una persona saludable maneja aeróbico. Caminar hasta la cocina puede superar el umbral anaeróbico. La quemadura, la extenuación y la recuperación de varios días —estos no son síntomas imaginados. Son la experiencia subjetiva de acidosis láctica en actividad a nivel de descanso.
 
@@ -69,7 +69,7 @@ Esto no es "estar cansado". La cansancio saludable se resuelve con el descanso p
 
 Esto no es descondicionamiento. El descondicionamiento reduce la capacidad aeróbica mediante la atrofia muscular y el desentrenamiento cardiovascular. Se revierte mediante ejercicio progresivo. EM/SFC empeora con la misma intervención. Los datos del CPET de 2 días —deterioro, no mejoría, después del esfuerzo— contradicen directamente la hipótesis del descondicionamiento.
 
-Esto no es pereza, depresión o falta de voluntad. Es un fallo en la producción de energía a nivel celular, medible, reproducible y con correlatos bioquímicos específicos. Ninguna cantidad de motivación puede reparar un complejo PDH que no funciona.
+Esto no es pereza, depresión o falta de voluntad. Es un fallo en la producción de energía a escala celular, medible, reproducible y con correlatos bioquímicos específicos. Ninguna cantidad de motivación puede reparar un complejo PDH que no funciona.
 
 ---
 
@@ -77,6 +77,6 @@ Esto no es pereza, depresión o falta de voluntad. Es un fallo en la producción
 
 Tu cuerpo recicla 50 kg de ATP a diario. Si esa tasa de reciclaje disminuye en un tercio, pierdes el equivalente energético de todo lo que está por encima del nivel mínimo de supervivencia. Ningún movimiento intenso. Ninguna concentración sostenida. Ninguna vigilancia inmunitaria más allá del mínimo. Ninguna reparación tisular más allá de las emergencias. Todo lo que te permite seguir vivo se reduce.
 
-Ese es el envelope energético. No es una metáfora. No es una estrategia de afrontamiento. Es una restricción metabólica impuesta por la producción de mitocondria comprometidas, que operan en células que hacen todo lo posible con maquinaria que no funciona correctamente [@Loth2026website].
+Ese es el envelope energético. No es una metáfora. No es una estrategia de afrontamiento. Es una restricción metabólica impuesta por la producción de mitocondrias comprometidas, que operan en células que hacen todo lo posible con maquinaria que no funciona correctamente [@Loth2026website].
 
 ---

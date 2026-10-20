@@ -9,9 +9,9 @@ lang: es
 
 El TDAH no es una sola cosa.
 
-Una suposición común es que la condición tenga una única causa y una única explicación. Nuestros estudios señalan algo más detallado: **cuatro componentes biológicos distintos** pueden estar detrás de los síntomas relacionados con el TDAH — un déficit de energía en el prefrontal, un subgrupo de neuroinflamación impulsado por el sistema inmunitario, un eje dopamina-Nrf2-NLRP3 y características adquiridas que no son relacionadas con el desarrollo. Los pacientes diferentes probablemente presentan combinaciones diferentes de estos componentes, y cada uno contribuye de manera diferente al peso de los síntomas diarios.
+Una suposición común es que la condición tenga una única causa y una única explicación. Nuestros estudios señalan algo más detallado: **cuatro componentes biológicos distintos** pueden estar detrás de los síntomas relacionados con el TDAH — un déficit de energía en el prefrontal, un subgrupo de neuroinflamación impulsado por el sistema inmunitario, un eje dopamina-Nrf2-NLRP3 y características adquiridas que no están relacionadas con el desarrollo. Los pacientes diferentes probablemente presentan combinaciones diferentes de estos componentes, y cada uno contribuye de manera diferente al peso de los síntomas diarios.
 
-Esta serie examina cada componente en lenguaje sencillo y luego plantea la pregunta a la que todos convergen: **¿se puede tratar simultáneamente varios caminos para eliminar o reducir los síntomas y permitir al paciente una vida más normal?**
+Esta serie examina cada componente en lenguaje sencillo y luego plantea la pregunta a la que todos convergen: **¿se pueden tratar varias vías simultáneamente para eliminar o reducir los síntomas y dar al paciente una vida más normal?**
 
 ---
 
@@ -45,7 +45,7 @@ Lee el artículo:
 
 ## Parte 2: El aspecto inmunitario y neuroinflamatorio del TDAH
 
-No todos los casos de TDAH tienen la misma causa. Una creciente serie de evidencias relaciona las características similares al TDAH con la neuroinflamación crónica y la activación de la microglía —un proceso inmunitario que puede reducir la dopamina y dañar los mismos circuitos prefrontales que el TDAH primario afecta durante el desarrollo. Si algunos síntomas similares al TDAH están impulsados por la inflamación, pueden ser adquiridos, reversibles y identificables.
+Puede que no todos los casos de TDAH tengan la misma causa. Una creciente serie de evidencias relaciona las características similares al TDAH con la neuroinflamación crónica y la activación de la microglía —un proceso inmunitario que puede reducir la dopamina y dañar los mismos circuitos prefrontales que el TDAH primario afecta durante el desarrollo. Si algunos síntomas similares al TDAH están impulsados por la inflamación, pueden ser adquiridos, reversibles y identificables.
 
 Lee el artículo:
 
@@ -55,7 +55,7 @@ Lee el artículo:
 
 ## Parte 3: El eje dopamina-Nrf2-NLRP3
 
-Un tercer hilo conecta la biología de la dopamina con el sistema de defensa antioxidante de la célula y con el interruptor inflamatorio central del sistema inmunitario. Un bajo nivel de dopamina deteriora las defensas antioxidantes impulsadas por Nrf2, lo que a su vez elimina un freno en la activación del inflamasoma NLRP3 — y la inflamación resultante agota aún más la dopamina, cerrando un ciclo autoamplificador. Este eje transversal entre enfermedades podría explicar por qué las personas con TDAH tienen un umbral más bajo para la fatiga postinflamatoria.
+Un tercer hilo conecta la biología de la dopamina con el sistema de defensa antioxidante de la célula y con el interruptor inflamatorio central del sistema inmunitario. Un bajo nivel de dopamina deteriora las defensas antioxidantes impulsadas por Nrf2, lo que a su vez elimina un freno en la activación del inflamasoma NLRP3 — y la inflamación resultante agota aún más la dopamina, cerrando un ciclo autoamplificador. Este eje transversal entre enfermedades podría explicar por qué las personas con TDAH tienen un umbral más bajo para la fatiga posinfecciosa.
 
 Lee el artículo:
 
@@ -63,13 +63,13 @@ Lee el artículo:
 
 ---
 
-## Parte 4: Adquirido vs. Desarrollado — Cuándo las características similares al TDAH podrían ser reversibles
+## Parte 4: Adquirido vs. del desarrollo — Cuándo las características similares al TDAH podrían ser reversibles
 
-La pregunta clínicamente relevante: ¿las características similares al TDAH están necesariamente presentes desde el desarrollo, o algunas pueden ser *adquiridas* — y, por lo tanto, reversibles? Mucho TDAH en adultos no es una continuación directa del TDAH infantil — algunas aparecen en la adolescencia, algunas reflejan síntomas infantiles pasados por alto o mal recordados, algunas se explican por uso de sustancias o comorbilidades — y la falta de atención adquirida tras un desencadenante inmunitario puede ser reversible cuando su causa se trata. Distinguir entre ambos determina si un síntoma podría responder al tratamiento de su causa o si es una configuración estable.
+La pregunta clínicamente relevante: ¿las características similares al TDAH están necesariamente presentes desde el desarrollo, o algunas pueden ser *adquiridas* — y, por lo tanto, reversibles? Mucho TDAH en adultos no es una continuación directa del TDAH infantil — parte aparece en la adolescencia, parte refleja síntomas infantiles pasados por alto o mal recordados, parte se explica por uso de sustancias o comorbilidades — y la falta de atención adquirida tras un desencadenante inmunitario puede ser reversible cuando su causa se trata. Distinguir entre ambos determina si un síntoma podría responder al tratamiento de su causa o si es una configuración estable.
 
 Lee el artículo:
 
-1. **[Adquirido vs. Desarrollado: Cuándo las características similares al TDAH podrían ser reversibles](../adhd-acquired-trajectories/index.qmd)** — la trayectoria de aparición en adultos, la estructura A/B/C, los caminos interoceptivos y neuroinflamatorios, y las consecuencias clínicas de cometer un error en la distinción.
+1. **[Adquirido vs. del desarrollo: Cuándo las características similares al TDAH podrían ser reversibles](../adhd-acquired-trajectories/index.qmd)** — la trayectoria de aparición en adultos, la estructura A/B/C, los caminos interoceptivos y neuroinflamatorios, y las consecuencias clínicas de cometer un error en la distinción.
 
 ---
 

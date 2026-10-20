@@ -1,5 +1,5 @@
 ---
-title: "Adquirido vs. Desarrollador: Cuándo las características similares al TDAH podrían ser reversibles"
+title: "Adquirido vs. del desarrollo: Cuándo las características similares al TDAH podrían ser reversibles"
 description: "Algunas características similares al TDAH — falta de atención, impulsividad y dificultades en la toma de decisiones — pueden surgir después del desarrollo en lugar de ser consecuencia de él. Esta sección examina las evidencias de que el TDAH en adultos a menudo no es una continuación directa del TDAH en la infancia, y cómo distinguir las características adquiridas de las predisposiciones del desarrollo."
 author: "Yannick Loth"
 date: "2026-08-28"
@@ -47,11 +47,11 @@ Las arquitecturas no son mutuamente excluyentes, y los datos temporales son impo
 
 ---
 
-## El mecanismo: intercepción interoceptiva perturbada y neuroinflamación
+## El mecanismo: interocepción perturbada y neuroinflamación
 
 Dos vías propuestas para las características de TDAH adquiridas:
 
-**Perturbación de la intercepción interoceptiva.** El cerebro mantiene un equilibrio entre sus *predicciones* sobre el cuerpo y las *evidencias sensoriales* que el cuerpo envía de vuelta. Se cree que las características adquiridas involucran *señales de nivel inferior corruptas* — las vías del tronco encefálico y el talamocortical fallan en transmitir información precisa sobre el cuerpo. El cerebro compensa ajustando sus previsiones, lo que produce una imagen externa de falta de atención y dificultad para regular la excitación. El lugar de actuación computacional difiere del TDAH de desarrollo, y por lo tanto la respuesta al tratamiento debería ser también diferente.
+**Perturbación interoceptiva.** El cerebro mantiene un equilibrio entre sus *predicciones* sobre el cuerpo y las *evidencias sensoriales* que el cuerpo envía de vuelta. Se cree que las características adquiridas involucran *señales de nivel inferior corruptas* — las vías del tronco encefálico y el talamocortical fallan en transmitir información precisa sobre el cuerpo. El cerebro compensa ajustando sus previsiones, lo que produce una imagen externa de falta de atención y dificultad para regular la excitación. El lugar de actuación computacional difiere del TDAH de desarrollo, y por lo tanto la respuesta al tratamiento debería ser también diferente.
 
 **Neuroinflamación y activación de microglía.** La neuroinflamación sostenida que degrada los circuitos prefrontal, mesolimbico y talamocortical puede ser *suficiente* para producir características de TDAH en personas cuyo desarrollo neurocognitivo previo a la enfermedad fue intacto — la especulación registrada examinada en la Parte 2. Si esta cascada es la causa directa, entonces las intervenciones dirigidas a la neuroinflamación deberían revertir parcialmente estas características secundarias — una predicción verificable pero aún no probada.
 
@@ -74,7 +74,7 @@ En otras palabras: la inatención desarrollada siempre está presente. La inaten
 - La distinción entre adquirido y desarrollado aún no es útil en el consultorio: actualmente no existe ningún test que distinga a los dos en un paciente individual.
 - Incluso si algunas características son adquiridas y reversibles, eso no significa que "el TDAH pueda curarse". Significa que un *subconjunto de la carga de síntomas* en algunas personas puede responder al tratamiento de su causa.
 - El hallazgo de que el TDAH en adultos a menudo comienza en la adolescencia o refleja síntomas infantiles pasados por alto, en lugar de una síndrome de inicio adulto claramente distinta [@Moffitt2015adhdadult @Sibley2018lateonsetADHD @Asherson2019lateonsetADHD], establece una diferencia entre los grupos de inicio, pero no demuestra por sí solo que ese grupo sea *reversible* — solo que no comenzó en la infancia.
-- **El mayor test a nivel poblacional no encontró efecto impulsado por infección.** Una cohorte nacional de 20 años no encontró efecto independiente del COVID-19 en el diagnóstico o tasas de tratamiento del TDAH [@Zemer2024COVIDADHD20Year], y el aumento del uso de medicamentos para el TDAH después del COVID es consistente con un diagnóstico de recuperación más que con un inicio nuevo [@Gimbach2024ADHDMedicationEurope]. Este es el contraargumento más fuerte contra la arquitectura "adquirido por la enfermedad" (Arquitectura B): a nivel poblacional, la infección no parece crear nuevo TDAH. la mayoría de las dificultades de atención postinfecos reflejan el **desenmascaramiento** de neurodivergencia o superposición de síntomas preexistentes (a menudo subclínicos), más que una adquisición *de novo* — aunque un subconjunto limitado de adquisición no puede excluirse por los datos poblacionales.
+- **El mayor test a nivel poblacional no encontró efecto impulsado por infección.** Una cohorte nacional de 20 años no encontró efecto independiente del COVID-19 en el diagnóstico o tasas de tratamiento del TDAH [@Zemer2024COVIDADHD20Year], y el aumento del uso de medicamentos para el TDAH después del COVID es consistente con un diagnóstico de recuperación más que con un inicio nuevo [@Gimbach2024ADHDMedicationEurope]. Este es el contraargumento más fuerte contra la arquitectura "adquirido por la enfermedad" (Arquitectura B): a nivel poblacional, la infección no parece crear nuevo TDAH. la mayoría de las dificultades de atención postinfecciosas reflejan el **desenmascaramiento** de neurodivergencia o superposición de síntomas preexistentes (a menudo subclínicos), más que una adquisición *de novo* — aunque un subconjunto limitado de adquisición no puede excluirse por los datos poblacionales.
 
 ---
 

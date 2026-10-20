@@ -11,7 +11,7 @@ La investigación necesita participantes y muestras. Dos tipos de infraestructur
 
 **Registro** cataloga quién hace qué. El [**Registro de Investigación EM/SFC**](https://mrr.mecfs-research.org/en/mrr) indexa 149 proyectos de investigación, además de redes, publicaciones, personas y organizaciones; es público, accesible y exportable, por lo que puedes ver si alguien está estudiando la cuestión que te interesa — dentro del ámbito del país actual (Alemania, Austria, Suiza, Países Bajos, Noruega, Islandia), y ten en cuenta que la denuncia voluntaria puede subestimar el trabajo no regional o no publicado.
 
-**Biobancos** recogen y almacenan muestras de biología y datos vinculados. Ejemplos incluyen el Registro y Biobanco EM/SFC alemán (un esfuerzo bicéntrico del Munich MCFC y Charité Berlin), el Biobanco EM/SFC del Reino Unido, el Cohort y Biobanco EM/SFC de los Países Bajos (NMCB), el biobanco austriaco y el registro Solve M.E.'s You+ME.
+**Biobancos** recogen y almacenan muestras biológicas y datos vinculados. Ejemplos incluyen el Registro y Biobanco EM/SFC alemán (un esfuerzo bicéntrico del Munich MCFC y Charité Berlin), el Biobanco EM/SFC del Reino Unido, el Cohort y Biobanco EM/SFC de los Países Bajos (NMCB), el biobanco austriaco y el registro Solve M.E.'s You+ME.
 
 **Cómo participan los pacientes.** La inscripción suele realizarse a través de los centros clínicos que operan un registro o biobanco: para el biobanco alemán, el Munich MCFC (niños/adolescentes) y Charité Berlin (adultos); fuera de su área de cobertura, se pueden encontrar centros nacionales a través de la red pediátrica PEDNET-LC. La participación implica aportar datos y, a veces, sangre u otras muestras, bajo condiciones de consentimiento establecidas por la institución.
 

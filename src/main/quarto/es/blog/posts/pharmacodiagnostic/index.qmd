@@ -1,6 +1,6 @@
 ---
 title: "El Corpus de Diagnóstico Farmacológico — una serie"
-description: "La EM/SFC no tiene un biomarcador validado, por lo que los pacientes inferían su propia biología a partir de los medicamentos que funcionaban y los que no funcionaban. Esta serie plantea una pregunta más específica: si esos informes de medicamentos se recopilaran de forma que pudiera analizarse conjuntamente, ¿podría el patrón obtenido determinar qué vías biológicas están más probablemente dañadas? Tres artículos: la idea, el diseño y los límites."
+description: "La EM/SFC no tiene un biomarcador validado, por lo que los pacientes infieren su propia biología a partir de los medicamentos que funcionan y los que no funcionan. Esta serie plantea una pregunta más específica: si esos informes de medicamentos se recopilaran de forma que pudiera analizarse conjuntamente, ¿podría el patrón obtenido determinar qué vías biológicas están más probablemente dañadas? Tres artículos: la idea, el diseño y los límites."
 author: "Yannick Loth"
 date: "2026-09-10"
 categories: [ME/CFS, Treatment, Methods, Series]
@@ -11,7 +11,7 @@ No existe un biomarcador validado para EM/SFC [@IOM2015]. No hay análisis de sa
 
 La mayor parte de esta experiencia se descarta como anécdota. Se conserva en temas de foros, en notas clínicas y en historias a medias recordadas — sin estructura, sin cuantificación, reducida principalmente a una sola información: *ayudó* o *no ayudó*. Esta serie argumenta que esto es un desperdicio y que ese desperdicio es evitable.
 
-El documento principal detrás de este sitio web contiene un marco llamado **farmacodiagnóstico** — interpretar la respuesta a un medicamento como una prueba diagnóstica en lugar de simplemente como un tratamiento. La historia de un solo paciente con medicamentos es un conjunto de restricciones sobre qué mecanismos están activos. Ese marco ya está desarrollado para un solo paciente a la vez. Esta serie lo extiende a la población: si cientos de pacientes intentaron unas pocas medicinas y los informes se recopilaron de una manera que permita su agrupación, el conjunto agrupado podría convertirse en un instrumento para clasificar las vías limitantes *posibles* en EM/SFC.
+El documento principal detrás de este sitio web contiene un marco llamado **farmacodiagnóstico** — interpretar la respuesta a un medicamento como una prueba diagnóstica en lugar de simplemente como un tratamiento. La historia de un solo paciente con medicamentos es un conjunto de restricciones sobre qué mecanismos están activos. Ese marco ya está desarrollado para un solo paciente a la vez. Esta serie lo extiende a la población: si cientos de pacientes intentaron unas pocas medicinas y los informes se recopilaron de una manera que permita su agrupación, el conjunto agrupado podría convertirse en un instrumento para clasificar las vías limitantes *candidatas* en EM/SFC.
 
 No es un análisis de biomarcador, pero es el instrumento *propuesto* más cercano que podría tener una enfermedad sin biomarcador — esta serie no oculta sus limitaciones estrictas.
 

@@ -15,11 +15,11 @@ Si tienes EM/SFC, esta escena —o una versión de ella— está en tu futuro. N
 
 ---
 
-## ¿Por qué este conflicto es estructural, no personal
+## ¿Por qué este conflicto es estructural, no personal?
 
 La EM/SFC se encuentra en una posición patológica en la medicina: es una enfermedad física grave que no tiene marcadores biológicos en los análisis de rutina, no tiene tratamiento curativo aprobado y tiene una historia de ser clasificada en psiquiatría —un patrón que comparte con enfermedades que posteriormente resultaron ser orgánicas [@MECFSScience2021psychosomatic; @Loth2026mecfs]. La investigación sobre los encuentros médicos para condiciones controvertidas muestra lo que se deriva de esa posición.
 
-Los pacientes con EM/SFC reportan una deslegitimización sistemática: descreencia, etiquetado psicosomático y el trabajo agotador de tener que *probar* que están enfermos en cada consulta [@Guise2010DiscourseDoctors]. En una cohorte de clínica especializada, el 64% de los pacientes con SFC reportó insatisfacción con su atención médica, con la falta de compasión y el retraso en el diagnóstico como quejas principales [@Deale2001PerceptionsCare]. Una meta-síntesis de estudios de atención primaria encontró el reflejo en el lado del médico: los médicos de cabecera reportan frustración, impotencia y incertidumbre sobre una enfermedad para la cual nunca fueron entrenados [@Bayliss2014BarriersPrimaryCare]. Una revisión de alcance de consultas para síntomas físicos persistentes identificó el patrón recurrente: incertidumbre diagnóstica, noología controvertida, actitudes negativas, ruptura de la comunicación — y la desconfianza del paciente como el resultado final [@Treufeldt2024StigmaScoping].
+Los pacientes con EM/SFC reportan una deslegitimización sistemática: descreencia, etiquetado psicosomático y el trabajo agotador de tener que *probar* que están enfermos en cada consulta [@Guise2010DiscourseDoctors]. En una cohorte de clínica especializada, el 64% de los pacientes con SFC reportó insatisfacción con su atención médica, con la falta de compasión y el retraso en el diagnóstico como quejas principales [@Deale2001PerceptionsCare]. Una meta-síntesis de estudios de atención primaria encontró el reflejo en el lado del médico: los médicos de cabecera reportan frustración, impotencia y incertidumbre sobre una enfermedad para la cual nunca fueron entrenados [@Bayliss2014BarriersPrimaryCare]. Una revisión de alcance de consultas para síntomas físicos persistentes identificó el patrón recurrente: incertidumbre diagnóstica, nosología controvertida, actitudes negativas, ruptura de la comunicación — y la desconfianza del paciente como el resultado final [@Treufeldt2024StigmaScoping].
 
 Si ponemos esas dos imágenes una al lado de la otra, el conflicto deja de parecer un fracaso individual de uno u otro lado. Parece que son dos personas atrapadas en la misma brecha estructural: el médico no tiene una respuesta que el manual de texto apoyaría, y el paciente no tiene una respuesta que el médico creería.
 
@@ -37,11 +37,11 @@ Pero aquí está la segunda parte, igualmente cierta y igualmente incómoda: **c
 
 Ambas afirmaciones son ciertas al mismo tiempo. Cada consulta fallida fracasa porque al menos una persona en la sala actúa como si solo una de ellas estuviera allí.
 
-En la literatura ética existe un término para lo que ocurre cuando se ignora la primera parte: injusticia de testimonio — el informe del paciente se descarta por quién habla, no por lo que se dice [@Byrne2021EpistemicInjustice]. La dinámica paciente-investigación añade un segundo modo de fallo: el médico descarta no solo tu *informe de síntomas*, sino también tu *análisis*, y compara tu conocimiento con "Dr. Google" — malingering, ansiedad por la salud, el paciente difícil.
+En la literatura ética existe un término para lo que ocurre cuando se ignora la primera parte: injusticia de testimonio — el informe del paciente se descarta por quién habla, no por lo que se dice [@Byrne2021EpistemicInjustice]. La dinámica paciente-investigación añade un segundo modo de fallo: el médico descarta no solo tu *informe de síntomas*, sino también tu *análisis*, y compara tu conocimiento con "Dr. Google" — simulación, ansiedad por la salud, el paciente difícil.
 
 ---
 
-## La espiral de muerte del confianza — y por qué puede terminar sin ningún médico
+## La espiral de muerte de la confianza — y por qué puede terminar sin ningún médico
 
 Esta es la parte que debe expresarse de manera clara, porque los riesgos son mayores que una mala cita.
 
@@ -57,7 +57,7 @@ La espiral se presenta así:
 
 El paso 7 es el más peligroso. Los pacientes con Long Covid describen encuentros estigmatizantes que llevan a una demora en buscar ayuda y evitar la atención [@Clutterbuck2024BarriersStigmaLC], y el estigma en estas síndromes está consistentemente asociado con peores resultados de salud física y mental [@Ko2022StigmaFSSReview]. Los estudios cualitativos sobre barreras en la atención sanitaria para Long Covid documentan pacientes que sufrieron tratamientos dañinos, psicologización y retraso en el diagnóstico — y cuyo resultado fue "en última instancia, estás solo" [@Hammer2025LCBarriers]. Los pacientes noruegos con EM/SFC describen escuchar, en efecto, "no tenemos servicios para ti" [@Melby2024HealthcareDissatisfaction].
 
-Terminar sin médico no es una elección privada y digna. Tiene un costo: nadie para escribir la licencia médica y la documentación de discapacidad de la que depende tu ingreso; ningún referente para referirte a los pocos especialistas expertos en EM/SFC; nadie para atender las enfermedades comunes — cáncer, falla tiroidesa, enfermedad cardíaca — a las que los pacientes con EM/SFC no están inmunes; nadie para supervisar los medicamentos a largo plazo que tomarás, sea autofinanciados o no. Para una enfermedad sin cura, **la continuidad de la atención médica es en sí misma un tratamiento**. Cada consulta que mantienes viva es un activo clínico. El objetivo de este artículo no es ganar argumentos. Es mantener a una persona competente dispuesta a permanecer en la sala contigo durante la próxima década.
+Terminar sin médico no es una elección privada y digna. Tiene un costo: nadie para escribir la licencia médica y la documentación de discapacidad de la que depende tu ingreso; nadie para derivarte a los pocos especialistas expertos en EM/SFC; nadie para atender las enfermedades comunes — cáncer, falla tiroidea, enfermedad cardíaca — a las que los pacientes con EM/SFC no están inmunes; nadie para supervisar los medicamentos a largo plazo que tomarás, sea autofinanciados o no. Para una enfermedad sin cura, **la continuidad de la atención médica es en sí misma un tratamiento**. Cada consulta que mantienes viva es un activo clínico. El objetivo de este artículo no es ganar argumentos. Es mantener a una persona competente dispuesta a permanecer en la sala contigo durante la próxima década.
 
 ---
 
@@ -94,7 +94,7 @@ Convierte cada afirmación en una pregunta a la que el médico esté capacado pa
 - "¿Qué tendría que ser cierto para que esto sea relevante, y podemos probarlo?"
 - "¿Qué te haría descartar esto?"
 
-Cada pregunta hace tres cosas al mismo tiempo: entrega tu información, le da al médico el rol de experto y genera un *camino falsificable* — un test, una referencia, un 'no' documentado — en lugar de una argumentación.
+Cada pregunta hace tres cosas al mismo tiempo: entrega tu información, le da al médico el rol de experto y genera un *camino falsificable* — un test, una derivación, un 'no' documentado — en lugar de una argumentación.
 
 ### 4. Un tema por visita
 
@@ -102,7 +102,7 @@ Tienes años de acumulación. El médico tiene doce minutos. Una lista de cinco 
 
 ### 5. Pide la decisión, no el acuerdo
 
-Antes de la visita, decide qué es lo que realmente necesitas. Generalmente no es "el médico está de acuerdo que TRPM3 sea importante". Es un ensayo de un medicamento, una referencia, un test, una carta. Forma la solicitud al nivel de la decisión: "Si no podemos descartar esto, ¿me referirías a un cardiólogo para un test de inclinación?" Los médicos dicen sí y no a decisiones todo el día. Pedirles que primero admitan un mecanismo es pedir algo que no pueden dar honestamente — y la negación se recordará como conflicto, mientras que la concesión no habría cambiado nada en tu próximo paso.
+Antes de la visita, decide qué es lo que realmente necesitas. Generalmente no es "el médico está de acuerdo que TRPM3 sea importante". Es un ensayo de un medicamento, una derivación, un test, una carta. Forma la solicitud al nivel de la decisión: "Si no podemos descartar esto, ¿me referirías a un cardiólogo para un test de inclinación?" Los médicos dicen sí y no a decisiones todo el día. Pedirles que primero admitan un mecanismo es pedir algo que no pueden dar honestamente — y la negación se recordará como conflicto, mientras que la concesión no habría cambiado nada en tu próximo paso.
 
 ### 6. Lleva registros de datos, no conclusiones
 

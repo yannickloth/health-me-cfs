@@ -13,7 +13,7 @@ La primera parte de esta serie examinó el autismo como un trastorno de energía
 
 Estas dos ideas no están en competencia. Describen pacientes diferentes, y diferenciarlos es de gran importancia para el tratamiento.
 
-La serie separa **lo que sabemos** de **lo que nuestra investigación añade**. Aquí, los hallazgos establecidos son la evidencia de anticuerpos anti-fetal-cerebro de la madre [@Braunschweig2013MATAbs @Croen2008MaternalAbASD @Meltzer2017ImmuneASD] y el contraste de estratificación de IVIG [@Connery2018IVIGautism @Plioplys1998IVIGautism]. Lo que nuestra investigación añade es la lectura del espectro de neuroinmunitaria-encefalopatía —que los circuitos dirigidos a los anticuerpos, y no las etiquetas de diagnóstico, pueden definir el subconjunto tratable — lo cual es una especulación registrada, no un hallazgo establecido.
+La serie separa **lo que sabemos** de **lo que nuestra investigación añade**. Aquí, los hallazgos establecidos son la evidencia de anticuerpos anti-fetal-cerebro de la madre [@Braunschweig2013MATAbs @Croen2008MaternalAbASD @Meltzer2017ImmuneASD] y el contraste de estratificación de IVIG [@Connery2018IVIGautism @Plioplys1998IVIGautism]. Lo que nuestra investigación añade es la lectura del espectro de encefalopatía neuroinmune —que los circuitos a los que apuntan los anticuerpos, y no las etiquetas de diagnóstico, pueden definir el subconjunto tratable — lo cual es una especulación registrada, no un hallazgo establecido.
 
 ---
 
@@ -21,11 +21,11 @@ La serie separa **lo que sabemos** de **lo que nuestra investigación añade**. 
 
 Durante el embarazo, los anticuerpos maternos atraviesan la placenta. En la mayoría de los casos, esto es protector. Pero una cantidad de investigaciones sugiere que, en un subgrupo de autismo, los anticuerpos maternos pueden dirigirse a las proteínas del cerebro fetal.
 
-El número sorprendente: aproximadamente **23% de las madres de niños autistas portan anticuerpos autoanticuarios contra el cerebro fetal** que apuntan a proteínas neuronales específicas [@Braunschweig2013MATAbs @Croen2008MaternalAbASD @Meltzer2017ImmuneASD]. Estos anticuerpos están asociados con un mayor riesgo de autismo.
+El número sorprendente: aproximadamente **23% de las madres de niños autistas portan autoanticuerpos contra el cerebro fetal** que apuntan a proteínas neuronales específicas [@Braunschweig2013MATAbs @Croen2008MaternalAbASD @Meltzer2017ImmuneASD]. Estos anticuerpos están asociados con un mayor riesgo de autismo.
 
 Las limitaciones son significativas:
 - El camino causal — desde el anticuerpo maternal hasta el diagnóstico del niño — **no ha sido demostrado**.
-- La "fracción atribuible" depende de supuestos sobre la patogenicidad del anticuerpo que aún no han sido probados en cohortes prospectivos.
+- La "fracción atribuible" depende de supuestos sobre la patogenicidad del anticuerpo que aún no han sido probados en cohortes prospectivas.
 - Esto define un **subgrupo distinto asociado a la inmunidad**, pero aún no es clínicamente útil.
 
 Crucialmente, **no existe una aplicación clínica actual**: no se recomienda ninguna prueba prenatal para los anticuerpos anti cerebro fetal, y la inmunomodulación durante el embarazo para este fin no ha sido probada y puede ser dañina.
@@ -58,11 +58,11 @@ En conjunto, estos puntos apuntan a una propuesta más amplia de nuestra investi
 
 Bajo este marco:
 - Anticuerpos dirigidos a ganglios basales → OCD, tics, regresión del comportamiento (PANDAS/PANS)
-- Anticuerpos en tronco encefálico/thalamico → fatiga, inestabilidad autónoma
-- Anticuerpos en cortexes difusos → psicosis, colapso cognitivo (encefalitis autoinmune)
-- Transferencia de anticuerpos de la madre prenatal → un fenotipo de desarrollo similar al autismo
+- Anticuerpos en tronco encefálico/talámico → fatiga, inestabilidad autónoma
+- Anticuerpos corticales difusos → psicosis, colapso cognitivo (encefalitis autoinmune)
+- Transferencia prenatal de anticuerpos maternos → un fenotipo de desarrollo similar al autismo
 
-La implicación práctica es radical: **etiquetas diagnósticas (PANDAS, EM/SFC, autismo) pueden ser sustitutos de la identidad de circuitos.** La misma biología produce los tres casos dependiendo de qué circuitos los anticuerpos apuntan. Si es cierto, la pregunta correcta no es “¿este paciente tiene autismo?”, sino “¿qué circuitos, y ¿están apuntados por anticuerpos?”
+La implicación práctica es radical: **etiquetas diagnósticas (PANDAS, EM/SFC, autismo) pueden ser sustitutos de la identidad de circuitos.** La misma biología produce los tres casos dependiendo de qué circuitos los anticuerpos apuntan. Si es cierto, la pregunta correcta no es “¿este paciente tiene autismo?”, sino "¿qué circuitos, y están dirigidos por anticuerpos?"
 
 ---
 
@@ -73,7 +73,7 @@ Este marco es **explicitamente especulativo**, con baja certeza.
 - Ninguna investigación ha realizado el mismo panel de anticuerpos anti-neuronal simultáneamente en PANDAS, autismo, EM/SFC y controles sanos.
 - El único ensayo clínico aleatorizado en PANDAS fue insuficiente y ambiguo [@Williams2016IVIGRCT].
 - La evidencia de IVIG en autismo es una serie de un centro especializado, no un ensayo con múltiples sitios.
-- Ningún estudio prospectivo ha realizado un screening de niños con "autismo regresivo" para los criterios de PANS/PANDAS.
+- Ningún estudio prospectivo ha realizado un cribado de niños con "autismo regresivo" para los criterios de PANS/PANDAS.
 - El marco abarca un **subconjunto** dentro de cada categoría de diagnóstico, no la condición en su totalidad. La mayoría del autismo no es inmune-mediada.
 
 La convergencia no aumenta la certeza por encima del eslabón más débil. Hasta que exista un estudio de perfilaje de anticuerpos para múltiples enfermedades, esto es un marco de investigación, no un hallazgo.
@@ -82,12 +82,12 @@ La convergencia no aumenta la certeza por encima del eslabón más débil. Hasta
 
 ## El experimento decisivo
 
-El campo necesita un estudio: ejecutar el mismo panel completo de anticuerpos anti-neuronal (basal-gangliosoma, receptor D1/D2, CaMKII, lysogangliosidos, NMDAR y otros) en **PANDAS/PANS, autismo regresivo, EM/SFC y controles sanos simultáneamente**, y probar dos predicciones:
+El campo necesita un estudio: ejecutar el mismo panel completo de anticuerpos anti-neuronal (ganglios basales, receptor D1/D2, CaMKII, lisogangliósidos, NMDAR y otros) en **PANDAS/PANS, autismo regresivo, EM/SFC y controles sanos simultáneamente**, y probar dos predicciones:
 
 1. Los perfiles de anticuerpos se agrupan por **objetivo del circuito**, no por etiqueta de diagnóstico.
 2. La respuesta a la inmunoterapia se predice por **perfil de anticuerpos**, no por diagnóstico.
 
-Si esto es cierto, el subgrupo inmune-mediado del autismo se vuelve identificable y tratable — sin importar la etiqueta del síndrome que presente. Si falla, el enfoque basado en el síndrome fue en realidad correcto.
+Si esto es cierto, el subgrupo inmune-mediado del autismo se vuelve identificable y tratable — sin importar la etiqueta del síndrome que presente. Si fallan, el enfoque basado en el síndrome fue en realidad correcto.
 
 ---
 
@@ -97,7 +97,7 @@ El modelo inmunitario mediado no afirma que el autismo sea una enfermedad inmuni
 
 La parte alentadora: el contraste entre Connery y Plioplys es una prueba de concepto que demuestra que seleccionar el subgrupo adecuado puede transformar un tratamiento nulo en una respuesta drástica.
 
-esto es un marco de investigación, no una recomendación clínica. No hay screening, ni intervención prenatal, ni inmunoterapia indicada para el autismo según las evidencias actuales. El estudio decisivo sobre anticuerpos multienfermedad aún no se ha realizado.
+esto es un marco de investigación, no una recomendación clínica. No hay cribado, ni intervención prenatal, ni inmunoterapia indicada para el autismo según las evidencias actuales. El estudio decisivo sobre anticuerpos multienfermedad aún no se ha realizado.
 
 *Esta es la segunda parte de una serie de cuatro partes sobre la biología del autismo. La primera parte aborda el modelo de energía cerebral y la hipótesis de tratamiento multivía. La tercera parte explora la conexión entre el cerebelo y el glutamato. La cuarta parte se pregunta cuándo las características similares al autismo se adquieren y son reversibles.*
 

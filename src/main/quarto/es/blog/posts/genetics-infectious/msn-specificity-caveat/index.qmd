@@ -7,7 +7,7 @@ categories: [Genetics, Neurology, Cross-Disease]
 lang: es
 ---
 
-Has leído los tres primeros artículos de esta serie. Una análisis de tipo celular post-GWAS implica a los neurones con espina media. El striatum es el cuello de botella. Los medicamentos de dopamina resultan lógicos de repente. Es una historia clara y satisfactoria — y, como todas las historias claras y satisfactorias en biología, tiene un problema.
+Has leído los tres primeros artículos de esta serie. Un análisis de tipo celular post-GWAS implica a las neuronas espinosas medias. El striatum es el cuello de botella. Los medicamentos de dopamina resultan lógicos de repente. Es una historia clara y satisfactoria — y, como todas las historias claras y satisfactorias en biología, tiene un problema.
 
 La señal que indica la genética no es una huella de EM/SFC. El enriquecimiento de neuronas cerebrales se observa en muchos trastornos cerebrales.
 
@@ -24,7 +24,7 @@ EM/SFC no es la única condición cuyo riesgo genético enriquece en neuronas ce
 | Depresión mayor | Neuronas corticales 5/6 | Wray et al. 2018 [@Wray2018depression]; pipeline de tipos de células [@Duncan2025cellTypeBrain] |
 | Trastorno por uso de alcohol | Neuronas medias espinosas | Zhou et al. 2020 [@Zhou2020AUD]; pipeline de tipos de células [@Duncan2025cellTypeBrain] |
 
-Por lo tanto, no es correcto decir que estas enfermedades comparten el *mismo* tipo de célula. Lo que tienen en común es que su riesgo genético se expresa en las neuronas cerebrales en lugar de en células inmunitarias. La resolución más detallada del tipo de célula difiere; en el mismo proceso, EM/SFC y trastorno por uso de alcohol son las dos que convergen en neuronas microgliales, mientras que esquizofrenia y depresión convergen en neuronas corticales.
+Por lo tanto, no es correcto decir que estas enfermedades comparten el *mismo* tipo de célula. Lo que tienen en común es que su riesgo genético se expresa en las neuronas cerebrales en lugar de en células inmunitarias. La resolución más detallada del tipo de célula difiere; en el mismo proceso, EM/SFC y trastorno por uso de alcohol son las dos que convergen en neuronas espinosas medias, mientras que esquizofrenia y depresión convergen en neuronas corticales.
 
 La vulnerabilidad cerebral es amplia. EM/SFC, esquizofrenia, depresión y trastorno por uso de alcohol afectan a circuitos cerebrales, pero a través de diferentes tipos de células y diferentes moléculas. La característica común es el *órgano*, no la huella digital.
 
@@ -40,7 +40,7 @@ El GWAS de esquizofrenia implica genes de recorte sináptico (C4, vía de comple
 
 Para EM/SFC, aún no sabemos qué genes específicos dentro de los MSNs se ven afectados — si los MSNs son de hecho el lugar donde se concentra la señal. El resultado para el tipo de célula es un trabajo preliminar y no nos indica aún si el mecanismo es:
 
-- **Desequilibrio en la vía D1/D2** — un cambio en la proporción de señales “sí”/“no sí” que hace que la iniciación de acción sea costosa desde el punto de vista neurológico
+- **Desequilibrio en la vía D1/D2** — un cambio en la proporción de señales de “avance”/“freno” que hace que la iniciación de acción sea costosa desde el punto de vista neurológico
 - **Insuficiencia metabólica** — los MSNs son neuronas GABAérgicas que se activan tonificadamente a altas tasas; si la función mitocondrial está globalmente afectada, los MSNs fallan primero
 - **Desensibilización de receptores de dopamina** — la inflamación crónica de bajo grado que reduce la señalización de dopamina independientemente de la variación genética
 - **Disfunción sináptica cortico-striatal** — una integración deficiente de la entrada del cortexe frontal al striato
@@ -95,4 +95,4 @@ Hasta entonces, todos los medicamentos a base de dopamina para EM/SFC apuntan a 
 | El perfil transcriptómico o PET podría distinguir la patología striatal de EM/SFC de otras condiciones | Moderada — la estrategia ha funcionado en psiquiatría; no se ha aplicado a EM/SFC |
 | El desequilibrio D1/D2 es el mecanismo más probable | Baja — uno de varios candidatos; no hay evidencia directa específicamente en EM/SFC |
 
-*Post 4 de 4 en la serie GWAS DecodeME. Prev: [La Genética se Resolvió](../genetics-ends-debate/) · [El Striatum es el Cuello de Bambú](../striatum-bottleneck/) · [Medicinas para EM/SFC en Parkinson?](../dopamine-rational-mechanism/)*
+*Post 4 de 4 en la serie GWAS DecodeME. Anterior: [La Genética se Resolvió](../genetics-ends-debate/) · [El Striatum es el Cuello de Botella](../striatum-bottleneck/) · [¿Medicinas para Parkinson para EM/SFC?](../dopamine-rational-mechanism/)*

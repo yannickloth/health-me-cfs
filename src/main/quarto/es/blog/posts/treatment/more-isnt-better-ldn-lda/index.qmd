@@ -7,9 +7,9 @@ categories: [Treatment, Pharmacology, ME/CFS]
 lang: es
 ---
 
-Has estado tomando 0.5 mg de naltrexona en dosis bajas durante tres meses. La niebla cerebral ha desaparecido. La inflamación en todo el cuerpo —esa sensación envenenada, similar a la de la gripe— se ha reducido a ruido de fondo. Por primera vez en años, puedes leer un capítulo de libro. Llevas este informe a tu médico.
+Has estado tomando 0,5 mg de naltrexona en dosis bajas durante tres meses. La niebla cerebral ha desaparecido. La inflamación en todo el cuerpo —esa sensación envenenada, similar a la de la gripe— se ha reducido a ruido de fondo. Por primera vez en años, puedes leer un capítulo de libro. Llevas este informe a tu médico.
 
-“Eso es genial”, dice ella. “Intentemos 4.5 mg y ver si puedes obtener aún más beneficio.”
+“Eso es genial”, dice ella. “Intentemos 4,5 mg y ver si puedes obtener aún más beneficio.”
 
 Se sigue el consejo. En una semana, la niebla vuelve. El malestar vuelve. Lo que funcionaba deja de funcionar —y no cambiaste la medicina, simplemente aumentaste la dosis.
 
@@ -21,45 +21,45 @@ Esta experiencia es lo suficientemente común en las comunidades de EM/SFC como 
 
 La explicación estándar para LDN es que bloquea los receptores TLR4 en la microglía, reduciendo la neuroinflamación. Esto es válido en modelos de animales y líneas celulares (rodentes EAE, microglía de ratón BV-2); la confirmación en humanos es limitada. Además, es insuficiente. En realidad, LDN afecta cuatro objetivos, y cada objetivo tiene una concentración óptima diferente.
 
-**TLR4 → activación hormética de Nrf2 (0.5–1.5 mg).** A dosis muy bajas, LDN *parcialmente* bloquea TLR4; el bloqueo parcial es clave. La célula detecta una reducción en la señalización TLR4 y compensa aumentando la expresión de Nrf2, un factor transcripicional principal que activa decenas de genes antiinflamatorios y antioxidantes. La microglía pasa de M1 (proinflamatoria, que libera citocinas) a M2 (antiinflamatoria, que elimina residuos). Esto es hormesis: la ligera tensión del bloqueo parcial de los receptores desencadena una respuesta adaptativa que es mayor que el bloqueo en sí.
+**TLR4 → activación hormética de Nrf2 (0,5–1,5 mg).** A dosis muy bajas, LDN *parcialmente* bloquea TLR4; el bloqueo parcial es clave. La célula detecta una reducción en la señalización TLR4 y compensa aumentando la expresión de Nrf2, un factor transcripcional principal que activa decenas de genes antiinflamatorios y antioxidantes. La microglía pasa de M1 (proinflamatoria, que libera citocinas) a M2 (antiinflamatoria, que elimina residuos). Esto es hormesis: la ligera tensión del bloqueo parcial de los receptores desencadena una respuesta adaptativa que es mayor que el bloqueo en sí.
 
-Pero este mecanismo requiere cierto tono residual de TLR4. Si TLR4 se bloquea completamente, la célula ya no detecta la tensión y la activación compensatoria de Nrf2 se detiene. Los beneficios horméticos no desaparecen, sino que colapsan. Aumentar la dosis de LDN de 1.5 mg a 3.0 mg puede ser la diferencia entre un programa antiinflamatorio activo y uno silencioso.
+Pero este mecanismo requiere cierto tono residual de TLR4. Si TLR4 se bloquea completamente, la célula ya no detecta la tensión y la activación compensatoria de Nrf2 se detiene. Los beneficios horméticos no desaparecen, sino que colapsan. Aumentar la dosis de LDN de 1,5 mg a 3,0 mg puede ser la diferencia entre un programa antiinflamatorio activo y uno silencioso.
 
-**Aumento compensatorio de opioides (1.5–3.0 mg).** LDN también bloquea los receptores opioides, y el cuerpo responde aumentando la producción de opioides endógenos — beta-endorfina y met-enkephalina. Esta compensación es transcripcional: la célula interpreta una señal de opioides reducida y escribe instrucciones para más precursores de opioides. El límite está determinado por la velocidad con la que la célula puede producir esos precursores, no por la cantidad de LDN que se toma.
+**Aumento compensatorio de opioides (1,5–3,0 mg).** LDN también bloquea los receptores opioides, y el cuerpo responde aumentando la producción de opioides endógenos — beta-endorfina y met-enkephalina. Esta compensación es transcripcional: la célula interpreta una señal de opioides reducida y escribe instrucciones para más precursores de opioides. El límite está determinado por la velocidad con la que la célula puede producir esos precursores, no por la cantidad de LDN que se toma.
 
-**Restauración del canal iónico TRPM3 (dosis incierta, probablemente 3.0–4.5 mg in vivo).** TRPM3 es un canal de calcio expresado en células killer naturales y neurones sensoriales. Su función se daña en EM/SFC; esta observación se ha replicado independientemente en múltiples laboratorios. LDN restaura el flujo de calcio en TRPM3 in vitro, probablemente eliminando una señal inhibitoria mediada por receptor de opioides. La concentración necesaria para la restauración de TRPM3 parece ser mayor que la necesaria para la hormesis de TLR4.
+**Restauración del canal iónico TRPM3 (dosis incierta, probablemente 3,0–4,5 mg in vivo).** TRPM3 es un canal de calcio expresado en células asesinas naturales (NK) y neuronas sensoriales. Su función se daña en EM/SFC; esta observación se ha replicado independientemente en múltiples laboratorios. LDN restaura el flujo de calcio en TRPM3 in vitro, probablemente eliminando una señal inhibitoria mediada por receptor de opioides. La concentración necesaria para la restauración de TRPM3 parece ser mayor que la necesaria para la hormesis de TLR4.
 
-**Desinhibición de orexina (seguir la dosis-respuesta de TLR4 en el tálamo).** LDN elimina una señal inhibitoria tónica en los neurones de orexina, que regulan el estado de vigilia y el equilibrio energético. Esto puede contribuir a la sensación de "energía" que algunos pacientes reportan con dosis más altas de LDN; la señal de orexina se desinhibe mientras el programa antiinflamatorio pierde su eficacia.
+**Desinhibición de orexina (sigue la dosis-respuesta de TLR4 en el hipotálamo).** LDN elimina una señal inhibitoria tónica en las neuronas de orexina, que regulan el estado de vigilia y el equilibrio energético. Esto puede contribuir a la sensación de estar "acelerado" que algunos pacientes reportan con dosis más altas de LDN; la señal de orexina se desinhibe mientras el programa antiinflamatorio pierde su eficacia.
 
 ### La consecuencia clínica
 
 Estos cuatro mecanismos tienen dosis óptimas no superpuestas. La "dosis adecuada" varía entre pacientes porque el mecanismo dominante de cada paciente es diferente.
 
-Un paciente cuyos síntomas están causados por neuroinflamación mediada por TLR4 obtiene beneficio a dosis de 0.5–1.5 mg y pierde ese beneficio a dosis de 3.0 mg y superiores. La médica que aumenta la dosis habitual de 1.5 mg a 4.5 mg no ha encontrado una "dosis más alta efectiva"; ha extinguido el mecanismo que funcionaba y lo ha reemplazado con un perfil de medicamento diferente que el paciente puede necesitar o no.
+Un paciente cuyos síntomas están causados por neuroinflamación mediada por TLR4 obtiene beneficio a dosis de 0,5–1,5 mg y pierde ese beneficio a dosis de 3,0 mg y superiores. La médica que aumenta la dosis habitual de 1,5 mg a 4,5 mg no ha encontrado una "dosis más alta efectiva"; ha extinguido el mecanismo que funcionaba y lo ha reemplazado con un perfil de medicamento diferente que el paciente puede necesitar o no.
 
-Un paciente cuyos síntomas están causados por una patología del canal TRPM3 puede no obtener efecto alguno con 0.5 mg, ya que la restauración del TRPM3 aún no ha tenido efecto. Necesitan entre 3.0 y 4.5 mg. El médico que les inicia con 0.5 mg y concluye que "la LDN no funciona" puede estar equivocado; la dosis simplemente estaba por debajo del mecanismo de acción.
+Un paciente cuyos síntomas están causados por una patología del canal TRPM3 puede no obtener efecto alguno con 0,5 mg, ya que la restauración del TRPM3 aún no ha tenido efecto. Necesitan entre 3,0 y 4,5 mg. El médico que les inicia con 0,5 mg y concluye que "la LDN no funciona" puede estar equivocado; la dosis simplemente estaba por debajo del mecanismo de acción.
 
-Un paciente con una respuesta en forma de M — beneficio con 0.5 mg, pérdida con 1.5 mg y recuperación con 4.5 mg — tiene dos mecanismos limitantes que pueden ser abordados con el mismo medicamento en diferentes dosis. Ninguna dosis por sí sola podría capturar toda la situación. Este patrón está predicho por el modelo de múltiples objetivos, pero nunca ha sido probado prospectivamente.
+Un paciente con una respuesta en forma de M — beneficio con 0,5 mg, pérdida con 1,5 mg y recuperación con 4,5 mg — tiene dos mecanismos limitantes que pueden ser abordados con el mismo medicamento en diferentes dosis. Ninguna dosis por sí sola podría capturar toda la situación. Este patrón está predicho por el modelo de múltiples objetivos, pero nunca ha sido probado prospectivamente.
 
 ---
 
-## No hay ningún motivo para superar los 4.5 mg.
+## No hay ningún motivo para superar los 4,5 mg.
 
 Esta es la parte que debe explicarse explícitamente, porque la lógica intuitiva es poderosa pero errónea.
 
-La dosis estándar de naltrexona es de 50 mg. A esa dosis, la naltrexona es un completo antagonista de mu-opioides; bloquea la regulación compensatoria de endorfinas que mantiene el estado de ánimo y la regulación del dolor. El beneficio se invierte no porque la curva dosis-respuesta se vuelva negativa, sino porque se activa un receptor completamente diferente. Selección de objetivo dependiente de la dosis: a 0.5–4.5 mg se modula TLR4, TRPM3 y el tono de opioides; a 50 mg se bloquean completamente los receptores de opioides. Ningún paciente cuyo mecanismo terapéutico sea la hormesis de TLR4/Nrf2, la regulación de opioides o la restauración de TRPM3 se beneficia de un bloqueo completo de opioides.
+La dosis estándar de naltrexona es de 50 mg. A esa dosis, la naltrexona es un completo antagonista de mu-opioides; bloquea la regulación compensatoria de endorfinas que mantiene el estado de ánimo y la regulación del dolor. El beneficio se invierte no porque la curva dosis-respuesta se vuelva negativa, sino porque se activa un receptor completamente diferente. Selección de objetivo dependiente de la dosis: a 0,5–4,5 mg se modula TLR4, TRPM3 y el tono de opioides; a 50 mg se bloquean completamente los receptores de opioides. Ningún paciente cuyo mecanismo terapéutico sea la hormesis de TLR4/Nrf2, la regulación de opioides o la restauración de TRPM3 se beneficia de un bloqueo completo de opioides.
 
-¿Y si se duplica la dosis, digamos, pasando de 4.5 a 9 mg? Esto es lo peor de ambos mundos. La hormesis de TLR4/Nrf2 ya se ha extinguido completamente a 3.0 mg. La restauración de TRPM3 está saturada a las concentraciones alcanzadas con 4.5 mg. La regulación compensatoria de opioides ha alcanzado el límite del precursor endógeno. La disinhibición de orexina sigue la curva dosis-respuesta de TLR4 y, por lo tanto, se desactiva. No existe un quinto mecanismo con un punto óptimo de dosis por encima de 4.5 mg. Duplicar a 9 mg empuja a todos los cuatro mecanismos por encima de sus puntos óptimos simultáneamente, acercándose al rango de 50 mg donde el antagonismo de mu-opioides domina, sin activar ningún nuevo objetivo terapéutico. Cada mecanismo que podría ayudar se ha ido, y el mecanismo que causará daño se acerca.
+¿Y si se duplica la dosis, digamos, pasando de 4,5 a 9 mg? Esto es lo peor de ambos mundos. La hormesis de TLR4/Nrf2 ya se ha extinguido completamente a 3,0 mg. La restauración de TRPM3 está saturada a las concentraciones alcanzadas con 4,5 mg. La regulación compensatoria de opioides ha alcanzado el límite del precursor endógeno. La disinhibición de orexina sigue la curva dosis-respuesta de TLR4 y, por lo tanto, se desactiva. No existe un quinto mecanismo con un punto óptimo de dosis por encima de 4,5 mg. Duplicar a 9 mg empuja a todos los cuatro mecanismos por encima de sus puntos óptimos simultáneamente, acercándose al rango de 50 mg donde el antagonismo de mu-opioides domina, sin activar ningún nuevo objetivo terapéutico. Cada mecanismo que podría ayudar se ha ido, y el mecanismo que causará daño se acerca.
 
 ---
 
 ## LDA: la misma forma de curva, un mecanismo completamente diferente
 
-El aripiprazol a dosis bajas (0.2–2 mg) no es hormesis. Es un agonista parcial de tipo U invertido — una propiedad de ocupación de receptores que se aplica en cualquier población con déficit de dopamina, no específicamente en EM/SFC.
+El aripiprazol a dosis bajas (0,2–2 mg) no es hormesis. Es un agonista parcial de tipo U invertido — una propiedad de ocupación de receptores que se aplica en cualquier población con déficit de dopamina, no específicamente en EM/SFC.
 
 El aripiprazol tiene aproximadamente un 25% de actividad intrínseca en el receptor D2 de dopamina. A dosis bajas y con baja ocupación de receptores, proporciona *agonismo neto* — activa los receptores D2, aumentando el tono de dopamina donde hay déficit. A medida que la dosis aumenta y la ocupación supera aproximadamente el 50%, el agonista parcial compite con la dopamina endógena por la unión a los receptores. Dado que la actividad intrínseca del aripiprazol es menor que la de la dopamina, el efecto neto se invierte: el agonista parcial bloquea una señal natural más eficaz, produciendo antagonismo neto.
 
-Beneficio a 0.2–2 mg. Daño a 5–30 mg — el rango de dosis psiquiátrica estándar. A esas dosis, la ocupación de D2 supera el 80%, el paciente sufre akatisia, anhedonia y síndrome metabólico — lo opuesto a lo que se desea en una enfermedad ya caracterizada por déficit de dopamina.
+Beneficio a 0,2–2 mg. Daño a 5–30 mg — el rango de dosis psiquiátrica estándar. A esas dosis, la ocupación de D2 supera el 80%, el paciente sufre akatisia, anhedonia y síndrome metabólico — lo opuesto a lo que se desea en una enfermedad ya caracterizada por déficit de dopamina.
 
 ### Los tres niveles de acción de LDA, todos por debajo de 2 mg
 
@@ -75,7 +75,7 @@ Todos los tres mecanismos tienen óptimas de dosis por debajo de 2 mg. Por encim
 
 ### Por qué duplicar no encuentra un nuevo mecanismo
 
-A 2 mg, la ocupación de D2 ya se acerca al punto de inversión — el agonismo neto disminuye. A 4 mg, la ocupación está claramente en el rango dominado por antagonistas. La supresión de citocinas mediada por D2 de microglía se pierde. La restauración del tono mesocorticalo-limbico se pierde. La señalización dopaminérgica neta cae por debajo del nivel base. Los tres niveles de acción que hicieron que la droga fuera terapéutica a 0.2–2 mg se extinguen, y las activaciones de nuevos receptores (5-HT2A, H1, α1) producen sedación, aumento de peso y empeoramiento ortostático — todo lo cual es perjudicial en EM/SFC.
+A 2 mg, la ocupación de D2 ya se acerca al punto de inversión — el agonismo neto disminuye. A 4 mg, la ocupación está claramente en el rango dominado por antagonistas. La supresión de citocinas mediada por D2 de microglía se pierde. La restauración del tono mesocorticalo-limbico se pierde. La señalización dopaminérgica neta cae por debajo del nivel base. Los tres niveles de acción que hicieron que la droga fuera terapéutica a 0,2–2 mg se extinguen, y las activaciones de nuevos receptores (5-HT2A, H1, α1) producen sedación, aumento de peso y empeoramiento ortostático — todo lo cual es perjudicial en EM/SFC.
 
 No existe un cuarto nivel. No hay un mecanismo terapéutico que se active a 3 mg pero no a 2 mg. Duplicar LDA no encuentra un nuevo mecanismo — extingue los tres que funcionaban y activa receptores que empeoran la enfermedad.
 
@@ -87,7 +87,7 @@ Aquí es donde la lógica diagnóstica se convierte en una estrategia clínica.
 
 LDN bloquea el TLR4 en la microglía. La LDA estimula el D2 en la microglía. Estos son receptores diferentes en la misma población celular, que convergen en la misma maquinaria de producción de citocina a través de diferentes vías de señalización.
 
-Un paciente que es un no-respuesta completa a LDN puede seguir respondiendo drásticamente a la LDA — no porque LDN fuera el error, sino porque el TLR4 no es la entrada limitante en su microglía. El agonismo al D2 suprime la producción de citocina a través de una vía diferente. La no-respuesta a LDN seguida de una respuesta a la LDA no es evidencia contra la neuroinflamación. Es evidencia *a favor* de la participación de la microglía, a través de un receptor que LDN no toca.
+Un paciente que es un no-respondedor completo a LDN puede seguir respondiendo drásticamente a la LDA — no porque LDN fuera el error, sino porque el TLR4 no es la entrada limitante en su microglía. El agonismo al D2 suprime la producción de citocina a través de una vía diferente. La no-respuesta a LDN seguida de una respuesta a la LDA no es evidencia contra la neuroinflamación. Es evidencia *a favor* de la participación de la microglía, a través de un receptor que LDN no toca.
 
 Un paciente que responde a ambos tratamientos tiene una participación de microglía con múltiples receptores — tanto las vías TLR4 *y* D2 están contribuyendo. El tratamiento combinado puede ser sinérgico: LDN reduce una entrada proinflamatoria mientras la LDA aumenta el umbral de activación en todas las entradas simultáneamente.
 
@@ -97,13 +97,13 @@ Un paciente que responde a ambos tratamientos tiene una participación de microg
 
 La sabiduría popular — “comenzar con una dosis baja y avanzar lentamente” — resulta ser mecanísticamente precisa. Pero este mecanismo añade algo que la sabiduría popular no tiene: **la determinación de la dosis es un diagnóstico.**
 
-Si se obtiene beneficio con 0.5–1.5 mg de LDN y se pierde beneficio con 3.0+ mg, su mecanismo dominante es la hormesis de TLR4/Nrf2. Su neuroinflamación está impulsada por TLR4 y sus microglías son responsivas a Nrf2. Esto predice la respuesta a otros medicamentos que activan Nrf2 (sulforafano, melatonina, litio a baja dosis).
+Si se obtiene beneficio con 0,5–1,5 mg de LDN y se pierde beneficio con 3,0+ mg, su mecanismo dominante es la hormesis de TLR4/Nrf2. Su neuroinflamación está impulsada por TLR4 y sus microglías son responsivas a Nrf2. Esto predice la respuesta a otros medicamentos que activan Nrf2 (sulforafano, melatonina, litio a baja dosis).
 
-Si se obtiene beneficio solo con 3.0–4.5 mg y no se logra nada por debajo de esa dosis, su mecanismo dominante es TRPM3 o opioides. Su patología se sitúa a nivel de canales de iones, no es impulsada por la inflamación. Los medicamentos que reducen la inflamación sin afectar a TRPM3 pueden no ser útiles.
+Si se obtiene beneficio solo con 3,0–4,5 mg y no se logra nada por debajo de esa dosis, su mecanismo dominante es TRPM3 o opioides. Su patología se sitúa a nivel de canales de iones, no es impulsada por la inflamación. Los medicamentos que reducen la inflamación sin afectar a TRPM3 pueden no ser útiles.
 
-Si se obtiene beneficio en todo el rango de dosis de LDN sin perder beneficio a 4.5 mg, su mecanismo dominante es el aumento compensatorio de opioides. El beneficio no se invierte a 4.5 mg porque el aumento de opioides, a diferencia de TLR4/Nrf2, no requiere un tono residual; está impulsado por el bloqueo de los receptores en sí.
+Si se obtiene beneficio en todo el rango de dosis de LDN sin perder beneficio a 4,5 mg, su mecanismo dominante es el aumento compensatorio de opioides. El beneficio no se invierte a 4,5 mg porque el aumento de opioides, a diferencia de TLR4/Nrf2, no requiere un tono residual; está impulsado por el bloqueo de los receptores en sí.
 
-Si se pierde el beneficio de LDA cuando pasa de 1 mg a 2 mg, su reserva de receptores D2 es limitada: pocos receptores y la agonía de cada uno es importante. Si el beneficio persiste hasta 2 mg, su reserva de receptores es amplia.
+Si se pierde el beneficio de LDA cuando pasa de 1 mg a 2 mg, su reserva de receptores D2 es limitada: pocos receptores y el agonismo de cada uno es importante. Si el beneficio persiste hasta 2 mg, su reserva de receptores es amplia.
 
 Nada de esto requiere un biomarcador. La curva dosis-respuesta *es* la medida.
 
@@ -118,7 +118,7 @@ Nada de esto requiere un biomarcador. La curva dosis-respuesta *es* la medida.
 | La LDA sigue una curva U invertida parcialmente agonista | Alta — propiedad de ocupación de receptores, no específica para EM/SFC; aplica en cualquier población con déficit de dopamina |
 | La LDA pierde su acción terapéutica por encima de 2 mg | Moderada — los modelos de ocupación de D2 predicen la inversión por encima de ~50%; el piloto de Crosby 2021 encontró beneficio solo a ≤2 mg |
 | La forma de la curva dosis-respuesta es diagnóstica del mecanismo dominante | Baja — predicha por el modelo de múltiples objetivos; nunca ha sido probada; la primera confirmación prospectiva requiere un ensayo de cruzamiento de dosis-respuesta en cuatro brazos con LDN |
-| No existe mecanismo terapéutico por encima de 4.5 mg de LDN o por encima de 2 mg de LDA | Moderada — los perfiles de engagement de objetivos son conocidos; todos los engagement adicionales de receptores por encima de estos límites son neutrales o dañinos para los objetivos terapéuticos conocidos de EM/SFC |
+| No existe mecanismo terapéutico por encima de 4,5 mg de LDN o por encima de 2 mg de LDA | Moderada — los perfiles de engagement de objetivos son conocidos; todos los engagement adicionales de receptores por encima de estos límites son neutrales o dañinos para los objetivos terapéuticos conocidos de EM/SFC |
 | La no respuesta a LDN con posterior respuesta a LDA confirma la participación de microglía | Baja — mecanísticamente coherente (TLR4 y D2 son receptores diferentes en la misma célula), pero nunca ha sido probada prospectivamente |
 
 ---

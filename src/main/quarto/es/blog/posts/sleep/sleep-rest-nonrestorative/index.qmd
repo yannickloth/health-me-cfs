@@ -9,7 +9,7 @@ lang: es
 
 Existe una crueldad particular en el centro de la encefalomielitis miálgica/síndrome de fatiga crónica (EM/SFC): las personas con esta enfermedad están agotadas de forma indescriptible, pero el sueño no ayuda. Se despiertan sintiéndose tan cansadas como cuando se acostaron —a veces peor. Descansan durante horas y no se sienten mejor. Esto no es psicológico. No es pereza. Es un fallo biológico que la ciencia está comenzando a comprender en detalle.
 
-*Nota sobre los números:* varias afirmaciones cuantitativas a continuación (tas de filtración, permeabilidad, plazos de reparación) son ilustrativas o basadas en modelos y no se miden en EM/SFC; se indica cuando aparecen.
+*Nota sobre los números:* varias afirmaciones cuantitativas a continuación (tasas de filtración, permeabilidad, plazos de reparación) son ilustrativas o basadas en modelos y no se miden en EM/SFC; se indica cuando aparecen.
 
 Este artículo explica por qué.
 
@@ -17,7 +17,7 @@ Este artículo explica por qué.
 
 ## El cuerpo se repara durante el sueño — pero solo si tiene energía para ello
 
-Durante el sueño saludable, el cuerpo hace algo extraordinario: se repara. Las células eliminan los residuos metabólicos. Los neuronas consolidan los recuerdos. El sistema inmunitario se recalibra. El sistema glifático del cerebro — una especie de red de eliminación de residuos durante la noche — elimina los subproductos tóxicos que se acumularon durante el día. Los músculos reponen los almacenes de glucosa. Las proteínas dañadas son recicladas.
+Durante el sueño saludable, el cuerpo hace algo extraordinario: se repara. Las células eliminan los residuos metabólicos. Las neuronas consolidan los recuerdos. El sistema inmunitario se recalibra. El sistema glifático del cerebro — una especie de red de eliminación de residuos durante la noche — elimina los subproductos tóxicos que se acumularon durante el día. Los músculos reponen los almacenes de glucógeno. Las proteínas dañadas son recicladas.
 
 Todo esto requiere energía. Una gran cantidad de ella.
 
@@ -27,9 +27,9 @@ Este es el primer problema para las personas con EM/SFC: **la maquinaria de repa
 
 ## Falla en la producción de energía
 
-El problema metabólico central en EM/SFC radica en las mitocondria, las estructuras celulares responsables de producir ATP, la moneda de energía universal del cuerpo.
+El problema metabólico central en EM/SFC radica en las mitocondrias, las estructuras celulares responsables de producir ATP, la moneda de energía universal del cuerpo.
 
-En células sanas, las mitocondria convierten oxígeno y glucosa en ATP a través de un proceso llamado fosforilación oxidativa. En EM/SFC, este proceso se interrumpe. Electrones se pierden de la maquinaria mitocondrial (a tasas del 5–10% en comparación con el 2% normal), generando especies reactivas de oxígeno — radicales libres que dañan las estructuras que los producen. La DNA mitocondrial, que carece de las proteínas protectoras que protegen nuestra DNA nuclear, acumula daños. Los complejos productores de energía se degradan. El ciclo es auto-reforzante: las mitocondrias dañadas producen más moléculas dañinas, que dañan aún más mitocondrias.
+En células sanas, las mitocondrias convierten oxígeno y glucosa en ATP a través de un proceso llamado fosforilación oxidativa. En EM/SFC, este proceso se interrumpe. Los electrones se pierden de la maquinaria mitocondrial (a tasas del 5–10% en comparación con el 2% normal), generando especies reactivas de oxígeno — radicales libres que dañan las estructuras que los producen. El ADN mitocondrial, que carece de las proteínas protectoras que protegen nuestro ADN nuclear, acumula daños. Los complejos productores de energía se degradan. El ciclo es auto-reforzante: las mitocondrias dañadas producen más moléculas dañinas, que dañan aún más mitocondrias.
 
 El resultado: incluso en reposo, el cuerpo funciona con una fracción de su producción de energía normal.
 
@@ -37,13 +37,13 @@ Evidencia objetiva confirma esto. Estudios que utilizan pruebas de ejercicio car
 
 ---
 
-## El sueño en sí se vuelve metabólicamente costosa — y arquitectónicamente dañada
+## El sueño en sí se vuelve metabólicamente costoso — y arquitectónicamente dañado
 
 El sueño no es pasivo. El sueño adecuado — el tipo que repara — requiere una actividad metabólica sostenida y coordinada en el cerebro.
 
-La generación de spindles del sueño (las pulsaciones de 12–14 Hz que caracterizan el sueño de ondas lentas reparador) exige un disparo rítmico de los neuronas talámicas. Mantener la coordinación de ondas lentas entre regiones cerebrales requiere circuitos talamo-corticales para sostener oscilaciones sincronizadas. Las transiciones entre el sueño ligero, el sueño profundo y el REM son eventos de reconfiguración de red metabólicamente exigentes. La hipótesis de que los déficits de energía interrumpen específicamente estos procesos en EM/SFC está bien respaldada por lo que sabemos sobre las necesidades de energía cerebral, y las meta-análisis de datos objetivos de sueño confirman una microestructura del sueño alterada — aunque las mediciones directas de spindles en pacientes con EM/SFC con monitoreo metabólico simultáneo aún no han sido publicadas.
+La generación de spindles del sueño (las pulsaciones de 12–14 Hz que caracterizan el sueño de ondas lentas reparador) exige un disparo rítmico de las neuronas talámicas. Mantener la coordinación de ondas lentas entre regiones cerebrales requiere circuitos talamo-corticales para sostener oscilaciones sincronizadas. Las transiciones entre el sueño ligero, el sueño profundo y el REM son eventos de reconfiguración de red metabólicamente exigentes. La hipótesis de que los déficits de energía interrumpen específicamente estos procesos en EM/SFC está bien respaldada por lo que sabemos sobre las necesidades de energía cerebral, y los metaanálisis de datos objetivos de sueño confirman una microestructura del sueño alterada — aunque las mediciones directas de spindles en pacientes con EM/SFC con monitoreo metabólico simultáneo aún no han sido publicadas.
 
-Cuando el cerebro carece de energía, no puede sostener estos procesos. La densidad de spindles disminuye. La arquitectura de ondas lentas se fragmenta. Las transiciones de estados fallan. Los estudios de electroencefalografía muestran una reducción medible en la coherencia entre regiones cerebrales en pacientes con EM/SFC — las regiones cerebrales no se coordinan como deberían. Las mediciones directas de la coherencia EEG específica del sueño aún están limitadas, pero el déficit de coordinación documentado durante el despertar es consistente con la microestructura del sueño fragmentada confirmada por la meta-análisis.
+Cuando el cerebro carece de energía, no puede sostener estos procesos. La densidad de spindles disminuye. La arquitectura de ondas lentas se fragmenta. Las transiciones de estados fallan. Los estudios de electroencefalografía muestran una reducción medible en la coherencia entre regiones cerebrales en pacientes con EM/SFC — las regiones cerebrales no se coordinan como deberían. Las mediciones directas de la coherencia EEG específica del sueño aún están limitadas, pero el déficit de coordinación documentado durante la vigilia es consistente con la microestructura del sueño fragmentada confirmada por el metaanálisis.
 
 El tiempo total de sueño puede parecer normal en un tracker de sueño. La calidad del sueño no lo es.
 
@@ -55,13 +55,13 @@ El cerebro tiene su propio sistema de eliminación de residuos que funciona prin
 
 Cuando la arquitectura del sueño es fragmentada — cuando el sueño profundo se interrumpe constantemente — este sistema de limpieza no logra completar su trabajo. Los residuos se acumulan. Las señales inflamatorias persisten. Las células microglía (las células inmunitarias del cerebro) permanecen activas debido a los residuos no limpiados. Esto mantiene el estado neuroinflamatorio que a su vez perturba el sueño. Es un ciclo que se alimenta a sí mismo.
 
-Estudios que utilizan imágenes cerebrales avanzadas han encontrado lactato elevado en regiones específicas del cerebro en pacientes con EM/SFC. Este es un marcador de un metabolismo energético perturbado: ya sea que las células se desplazan hacia la producción anaeróbica porque la fosforilación oxidativa falla, o que los neuronas no puedan absorber y utilizar el lactato que los astrocitos proporcionan — lo que indica una ruptura del propio sistema de suministro de combustible.
+Estudios que utilizan imágenes cerebrales avanzadas han encontrado lactato elevado en regiones específicas del cerebro en pacientes con EM/SFC. Este es un marcador de un metabolismo energético perturbado: ya sea que las células se desplazan hacia la producción anaeróbica porque la fosforilación oxidativa falla, o que las neuronas no puedan absorber y utilizar el lactato que los astrocitos proporcionan — lo que indica una ruptura del propio sistema de suministro de combustible.
 
 ---
 
 ## El cerebro es especialmente vulnerable
 
-El cerebro representa aproximadamente el 2% de la masa corporal, pero consume entre el 20 y el 25% de la energía de reposo del cuerpo. Es extraordinariamente dependiente de un suministro constante y fiable de energía. Los neuronas, a diferencia de las células musculares o intestinales, son postmitóticas: no se dividen ni se reemplazan. Sus mitocondrias deben repararse en su lugar — y las proteínas mitocondriales sinápticas tienen una vida media media aproximadamente siete veces más larga que las de las células hepáticas. Las mitocondrias dañadas en sinapsis distales deben viajar posiblemente largas distancias de regreso al cuerpo celular para reciclarse, y pueden acumular disfunción precisamente donde la demanda de energía es más alta.
+El cerebro representa aproximadamente el 2% de la masa corporal, pero consume entre el 20 y el 25% de la energía de reposo del cuerpo. Es extraordinariamente dependiente de un suministro constante y fiable de energía. Las neuronas, a diferencia de las células musculares o intestinales, son postmitóticas: no se dividen ni se reemplazan. Sus mitocondrias deben repararse en su lugar — y las proteínas mitocondriales sinápticas tienen una vida media mediana aproximadamente siete veces más larga que las de las células hepáticas. Las mitocondrias dañadas en sinapsis distales deben viajar posiblemente largas distancias de regreso al cuerpo celular para reciclarse, y pueden acumular disfunción precisamente donde la demanda de energía es más alta.
 
 En EM/SFC, la barrera hematoencefálica añade un nuevo nivel de complejidad — pero no de la manera que uno podría esperar. La evidencia muestra que la barrera se vuelve más permeable en EM/SFC: ratios elevados de líquido cefalorraquídeo/albúmina sérica, marcadores de imagen sutiles de fuga y mediadores inflamatorios periféricos detectados en el líquido cefalorraquídeo indican una barrera comprometida. Esto podría ayudar a transportar moléculas de reparación — pero el efecto es el contrario. Una mayor permeabilidad permite que las células inmunitarias periféricas, citocinas inflamatorias y posiblemente autoanticuerpos patógenos fluyan hacia el cerebro, empeorando la neuroinflamación en lugar de resolverla.
 
@@ -75,9 +75,9 @@ Mientras tanto, cuando las mitocondrias en las neuronas se dañan, liberan fragm
 
 Muchas personas con EM/SFC también experimentan síntomas que interrumpen activamente el sueño desde dentro: síndrome de piernas inquietas, brotes de disautonomía, sensibilización al dolor, sudoración nocturna y hipersensibilidad a la entrada sensorial.
 
-Parte de esto se atribuye a la disfunción dopaminérgica. El estudio de fenotipografía profunda de los EM/SFC de los NIH encontró evidencia de reducida síntesis central de catecolaminas —un hallazgo de una pequeña cohorte que aún no ha sido replicado independientemente, pero que implica directamente a las vías dopaminérgicas. La dopamina es esencial no solo para el movimiento y la motivación, sino también para el ciclo sueño-despertar y para la regulación de la gateada sensorial —la capacidad del cerebro para filtrar señales irrelevantes y permitir que el cuerpo se calme.
+Parte de esto se atribuye a la disfunción dopaminérgica. El estudio de fenotipado profundo de EM/SFC del NIH encontró evidencia de reducida síntesis central de catecolaminas —un hallazgo de una pequeña cohorte que aún no ha sido replicado independientemente, pero que implica directamente a las vías dopaminérgicas. La dopamina es esencial no solo para el movimiento y la motivación, sino también para el ciclo sueño-despertar y para la regulación del filtrado sensorial —la capacidad del cerebro para filtrar señales irrelevantes y permitir que el cuerpo se calme.
 
-Cuando la síntesis de dopamina está dañada, los síntomas de piernas inquietas pueden aparecer o empeorar —las vías dopaminérgicas están estrechamente relacionadas con el síndrome de piernas inquietas, y su interrupción en los EM/SFC es un mecanismo contribuyente plausible. La hipersensibilidad sensorial aumenta. El sistema nervioso que debería calmarse para dormir, en cambio, permanece en un estado de activación leve. Y la activación —incluso la no deseada y no controlada— consume energía que el cuerpo no puede reponer.
+Cuando la síntesis de dopamina está dañada, los síntomas de piernas inquietas pueden aparecer o empeorar —las vías dopaminérgicas están estrechamente relacionadas con el síndrome de piernas inquietas, y su interrupción en EM/SFC es un mecanismo contribuyente plausible. La hipersensibilidad sensorial aumenta. El sistema nervioso que debería calmarse para dormir, en cambio, permanece en un estado de activación leve. Y la activación —incluso la no deseada y no controlada— consume energía que el cuerpo no puede reponer.
 
 ---
 
@@ -85,13 +85,13 @@ Cuando la síntesis de dopamina está dañada, los síntomas de piernas inquieta
 
 La adenosina es la principal señal de presión del sueño en el cerebro —la molécula que se acumula durante el estado de vigilia y genera el deseo de dormir. En EM/SFC, una hipótesis principal propone una desregulación en la dinámica de la adenosina: ya que el ATP se consume más rápido en condiciones de estrés energético celular, la adenosina (su producto de descomposición) se acumula más rápido, generando una presión del sueño anormalmente alta. La medición directa de los niveles de adenosina en el cerebro en pacientes con EM/SFC aún no se ha realizado, pero la lógica bioquímica es válida y coincide con la imagen clínica.
 
-La paradoja que esto crea es desconcertante tanto para los pacientes como para los observadores. La presión del sueño es real y intensa —la extenuación no es imaginaria. Pero como la arquitectura del sueño está dañada y los mecanismos de reparación celular carecen de energía, esa presión del sueño nunca se alivia con el sueño que sigue. El paciente siente una necesidad desesperada e insuperable de dormir. Duermen. Se despiertan y la necesidad sigue ahí.
+La paradoja que esto crea es desconcertante tanto para los pacientes como para los observadores. La presión del sueño es real y intensa —la extenuación no es imaginaria. Pero como la arquitectura del sueño está dañada y los mecanismos de reparación celular carecen de energía, esa presión del sueño nunca se alivia con el sueño que sigue. El paciente siente una necesidad desesperada e insuperable de dormir. Duerme. Se despierta y la necesidad sigue ahí.
 
-Esto no es una falla de voluntad. Es un bucle de retroalimentación dañado a nivel molecular.
+Esto no es un fallo de voluntad. Es un bucle de retroalimentación dañado a nivel molecular.
 
 ---
 
-## ¿Qué significa esto en la práctica
+## ¿Qué significa esto en la práctica?
 
 Comprender estos mecanismos tiene implicaciones importantes:
 
@@ -99,7 +99,7 @@ Comprender estos mecanismos tiene implicaciones importantes:
 
 **La calidad del sueño es más importante que la cantidad de sueño.** Las horas en la cama son casi sin sentido si la estructura del sueño es fragmentada. Las intervenciones que restauran el sueño profundo y de ondas lentas pueden tener efectos modificadores de la enfermedad — no solo alivio sintomático — porque permiten que el sistema glifático cumpla su función.
 
-**La pausa de energía no es malingering.** Cuando los pacientes controlan cuidadosamente sus niveles de actividad, no están evitando nada. Están racionando una fuente limitada de energía que no se repone a un ritmo normal. La recuperación incluso de un esfuerzo leve puede tomar días o semanas, no horas. Esta es la realidad fisiológica detrás del término "malestar post-esfuerzo".
+**El pacing energético no es simulación.** Cuando los pacientes controlan cuidadosamente sus niveles de actividad, no están evitando nada. Están racionando una fuente limitada de energía que no se repone a un ritmo normal. La recuperación incluso de un esfuerzo leve puede tomar días o semanas, no horas. Esta es la realidad fisiológica detrás del término "malestar post-esfuerzo".
 
 **La fatiga no está en sus cabezas — está en sus mitocondrias, sus neuronas y su líquido cefalorraquídeo.**
 
@@ -107,7 +107,7 @@ Comprender estos mecanismos tiene implicaciones importantes:
 
 ## Una nota sobre el panorama de la investigación
 
-Los mecanismos descritos aquí se basan en un cuerpo creciente de evidencia: estudios CPET de dos días, espectroscopía por resonancia magnética de 7 Tesla, análisis de coherencia EEG, análisis del líquido cefalorraquídeo y estudios de fenotipografía a gran escala, incluyendo la propia investigación profunda de los NIH sobre EM/SFC. Esto no es ciencia marginal. Es una imagen científica rigurosa de una enfermedad que fue descartada durante décadas.
+Los mecanismos descritos aquí se basan en un cuerpo creciente de evidencia: estudios CPET de dos días, espectroscopía por resonancia magnética de 7 Tesla, análisis de coherencia EEG, análisis del líquido cefalorraquídeo y estudios de fenotipado a gran escala, incluyendo la propia investigación profunda de los NIH sobre EM/SFC. Esto no es ciencia marginal. Es una imagen científica rigurosa de una enfermedad que fue descartada durante décadas.
 
 Todavía tenemos mucho que aprender. Pero sabemos lo suficiente para decir con confianza: las personas que te dicen que no pueden levantarse de la cama porque el descanso no les ayudó no están mintiendo. Sus cuerpos están trabajando muy duro —y fallando a nivel celular— para hacer lo que el descanso debería hacer.
 

@@ -7,14 +7,14 @@ categories: [Cross-links, Noradrenergic, Mechanisms]
 lang: es
 ---
 
-Una idea destacada en neurociencia es que el locus coeruleus funciona como un **control de ganancia** para el cortex — ajustando la intensidad con la que las redes responden a señales, en lugar de transmitir información específica. La teoría del "ganancia adaptativa" formaliza esto: los modos fásicos y tonicos de activación del locus-coeruleus ajustan el rendimiento (@AstonJones2005AdaptiveGain).
+Una idea destacada en neurociencia es que el locus coeruleus funciona como un **control de ganancia** para el cortex — ajustando la intensidad con la que las redes responden a señales, en lugar de transmitir información específica. La teoría de la "ganancia adaptativa" formaliza esto: los modos fásicos y tónicos de activación del locus-coeruleus ajustan el rendimiento (@AstonJones2005AdaptiveGain).
 
 Dos aspectos lo relacionan con EM/SFC.
 
 **Ganancia cortical.** La noradrenalina modula el equilibrio entre excitación e inhibición en el cortex y la relación señal-ruido: en ratones, manipular la señalización adrenérgica cambió estos parámetros, y la atomoxetina aplanó la curva señal-ruido en el cortex (@MedinaCoss2025CorticalGain). Si la salida del locus-coeruleus está desregulada, la *responsividad* de las redes corticales cambia.
 
-**Inmunidad de barrera.** Por separado, la noradrenalina puede actuar en la vasculatura para reducir las moléculas de unión estricta y permitir la entrada de células inmunitarias — el "reflejo de puerta" (@Matsuyama2021GatewayReflex). Una señal de ganancia desregulada podría afectar tanto al procesamiento cortical como a la vigilancia de la barrera cerebral.
+**Inmunidad de barrera.** Por separado, la noradrenalina puede actuar en la vasculatura para reducir las moléculas de unión estrecha y permitir la entrada de células inmunitarias — el "reflejo de puerta" (@Matsuyama2021GatewayReflex). Una señal de ganancia desregulada podría afectar tanto al procesamiento cortical como a la vigilancia de la barrera cerebral.
 
-**El beneficio especulativo.** Una falla en el control de ganancia proporcionaría un mecanismo único para dos experiencias de forma separada: los señales sensoriales o corporales normales se sienten como intensas de manera desproporcionada, y el acceso neuroinmúnico al cerebro se altera. Esto es más amplio que la idea de que "la noradrenalina está baja", aunque tampoco está demostrada de forma directa.
+**El beneficio especulativo.** Una falla en el control de ganancia proporcionaría un mecanismo único para dos experiencias de forma separada: las señales sensoriales o corporales normales se sienten como desproporcionadamente intensas, y el acceso neuroinmúnico al cerebro se altera. Esto es más amplio que la idea de que "la noradrenalina está baja", aunque también está menos directamente evidenciado.
 
-**Las limitaciones.** Ambos argumentos se basan en evidencia de ratones/revisión; ninguno ha sido medido contra un índice noradrenérgico en EM/SFC. La idea es testable — un índice de activación debería correlacionar con el gatillo sensorial y con un marcador de barrera — pero aún no ha sido probada.
+**Las limitaciones.** Ambos argumentos se basan en evidencia de ratones/revisión; ninguno ha sido medido contra un índice noradrenérgico en EM/SFC. La idea es comprobable — un índice de activación debería correlacionar con el filtrado sensorial y con un marcador de barrera — pero aún no ha sido probada.

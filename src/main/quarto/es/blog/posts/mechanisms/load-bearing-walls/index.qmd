@@ -25,13 +25,13 @@ La analogía del edificio se relaciona directamente: eliminar un candado de sopo
 
 ## Dos mecanismos estructurales
 
-El marco identifica dos mecanismos como portadores de carga basándose en sus propiedades de autosustentación y su necesaria función en el mantenimiento de la enfermedad [Cap. 16 §Carga de carga versus bloque secundario]:
+El marco identifica dos mecanismos como portadores de carga basándose en sus propiedades de autosustentación y su necesaria función en el mantenimiento de la enfermedad [Cap. 16 §Candados portantes versus candados secundarios]:
 
 **Consolidación epigenética.** El programa de expresión génica adecuado para la enfermedad —activación inmunitaria, supresión metabólica, señalización de neurotransmisores alterada— puede estabilizarse a través de metilación del ADN y modificaciones de histonas. Una vez que esta estabilización se produce, el estado de enfermedad ya no se mantiene únicamente por señalización activa; se graba en la capa de cromatina. Las células expresan el programa de enfermedad no porque sigan recibiendo las señales originales, sino porque el registro de esas señales ha sido codificado a nivel de regulación génica.
 
 Esto es estructural. Abordar la causa original —eliminar un reservorio viral, suprimir la respuesta autoinmune— no revierte el registro epigenético. Es necesario abordar el registro en sí, de lo contrario continuará codificando el estado de enfermedad de forma independiente. La duración de la enfermedad se ha observado consistentemente como uno de los predictores más fuertes de la respuesta al tratamiento en EM/SFC. La explicación propuesta por el marco es la consolidación epigenética: lleva tiempo acumularla y revertirla también lleva tiempo. Un paciente tratado dentro del primer año tiene menos programación epigenética de enfermedad consolidada que un paciente tratado en el quinto año [Cap. 16 §Consolidación epigenética].
 
-**Persistencia autoinmune (autoanticuerpos de GPCR).** En pacientes con autoanticuerpos dirigidos a receptores acoplados a proteínas G —receptores de superficie celular que regulan el sistema nervioso autónomo—, las células plasmáticas que producen esos anticuerpos pueden persistir en lugares inaccesibles para la limpieza inmune normal. Mientras continúe la producción, los efectos secundarios (disfunción endotelial, reprogramación inmune, interrupción de GPCR en múltiples órganos) se mantienen. Esto es portador de carga en un sentido específico: si abordas todos los otros mecanismos pero dejas intacta la producción de autoanticuerpos, el ataque continuo reestablecerá el estado patológico relativamente rápidamente, aunque las cinéticas precisas no han sido establecidas empíricamente en EM/SFC [Cap. 16 §Cascada de autoanticuerpos de GPCR].
+**Persistencia autoinmune (autoanticuerpos de GPCR).** En pacientes con autoanticuerpos dirigidos a receptores acoplados a proteínas G —receptores de superficie celular que regulan el sistema nervioso autónomo—, las células plasmáticas que producen esos anticuerpos pueden persistir en santuarios inaccesibles para la limpieza inmune normal. Mientras continúe la producción, los efectos posteriores (disfunción endotelial, reprogramación inmune, interrupción de GPCR en múltiples órganos) se mantienen. Esto es portador de carga en un sentido específico: si abordas todos los otros mecanismos pero dejas intacta la producción de autoanticuerpos, el ataque continuo reestablecerá el estado patológico relativamente rápidamente, aunque las cinéticas precisas no han sido establecidas empíricamente en EM/SFC [Cap. 16 §Cascada de autoanticuerpos de GPCR].
 
 Este segundo bloque es específico para el subtipo del paciente. No todos los pacientes con EM/SFC tienen autoanticuerpos de GPCR elevados. Para aquellos que los tienen, es portador de carga. Para aquellos que no, la consolidación epigenética es, según este marco, el principal mecanismo estructural a considerar.
 
@@ -39,15 +39,15 @@ Este segundo bloque es específico para el subtipo del paciente. No todos los pa
 
 ## Lo que no es estructural
 
-Varios mecanismos de enfermedad prominentes son secundarios. Son importantes, ya que provocan síntomas, retrasan la recuperación y profundizan la experiencia de la enfermedad, pero no son estructurales [Cap. 16 §Load-Bearing versus Secondary Locks]:
+Varios mecanismos de enfermedad prominentes son secundarios. Son importantes, ya que provocan síntomas, retrasan la recuperación y profundizan la experiencia de la enfermedad, pero no son estructurales [Cap. 16 §Candados portantes versus candados secundarios]:
 
-**Ciclo de estrés oxidativo.** Las especies reactivas de oxígeno dañan las mitocondria, lo que aumenta el estrés oxidativo, que a su vez daña aún más las mitocondria. Este es un ciclo de amplificación real, pero se encuentra más abajo de la falla energética principal. Corrigiendo los mecanismos upstream, el ciclo de estrés oxidativo pierde su impulsor [Cap. 16 §Oxidative Stress Vicious Cycle].
+**Ciclo de estrés oxidativo.** Las especies reactivas de oxígeno dañan las mitocondrias, lo que aumenta el estrés oxidativo, que a su vez daña aún más las mitocondrias. Este es un ciclo de amplificación real, pero se encuentra más abajo de la falla energética principal. Corrigiendo los mecanismos upstream, el ciclo de estrés oxidativo pierde su impulsor [Cap. 16 §Ciclo vicioso de estrés oxidativo].
 
-**Fragmentación del sueño.** El mal sueño empeora la función inmunitaria, los síntomas cognitivos y el dolor. Tratarlo, ya sea farmacológicamente o de otra manera, mejora la calidad de vida. Pero los pacientes cuyo sueño se normaliza sin abordar los mecanismos upstream no se recuperan. Duermen mejor dentro del estado de enfermedad [Cap. 16 §Downstream Consequences].
+**Fragmentación del sueño.** El mal sueño empeora la función inmunitaria, los síntomas cognitivos y el dolor. Tratarlo, ya sea farmacológicamente o de otra manera, mejora la calidad de vida. Pero los pacientes cuyo sueño se normaliza sin abordar los mecanismos upstream no se recuperan. Duermen mejor dentro del estado de enfermedad [Cap. 16 §Consecuencias posteriores].
 
-**Reactivación viral.** La terapia antiviral que suprime la reactivación de EBV o HHV-6 elimina una entrada inflamatoria. Pero el ciclo que sostiene la enfermedad tiene otras entradas, por lo que el mantenimiento estructural general no se resuelve solo con esto. Tenga en cuenta que esto se aplica a la reactivación como un amplificador; los pacientes con reservorios virales activos persistentes confirmados pueden tener una situación diferente, como se discutió en el artículo anterior [Cap. 16 §Viral Reactivation and Immune Exhaustion].
+**Reactivación viral.** La terapia antiviral que suprime la reactivación de EBV o HHV-6 elimina una entrada inflamatoria. Pero el ciclo que sostiene la enfermedad tiene otras entradas, por lo que el mantenimiento estructural general no se resuelve solo con esto. Tenga en cuenta que esto se aplica a la reactivación como un amplificador; los pacientes con reservorios virales activos persistentes confirmados pueden tener una situación diferente, como se discutió en el artículo anterior [Cap. 16 §Reactivación viral y agotamiento inmunitario].
 
-**Disbiosis intestinal.** La interrupción del microbioma amplifica la activación inmunitaria y la inflamación sistémica. Es real y vale la pena tratarla, pero no es estructural [Cap. 16 §Amplifier Mechanisms].
+**Disbiosis intestinal.** La interrupción del microbioma amplifica la activación inmunitaria y la inflamación sistémica. Es real y vale la pena tratarla, pero no es estructural [Cap. 16 §Mecanismos amplificadores].
 
 ---
 
@@ -57,7 +57,7 @@ Los cierres secundarios a menudo generan los síntomas más visibles de inmediat
 
 Los cierres que soportan cargas, en particular la consolidación epigenética, a menudo no producen síntomas directos y de inmediata percepción. El paciente no puede sentir que su expresión génica se mantiene mediante patrones de metilación. No hay síntoma que corresponda a "enfermedad epigenética codificada". El dolor y la fatiga son consecuencias posteriores, no el mecanismo de consolidación en sí.
 
-Esto genera un desajuste sistemático entre la importancia sintomática y la importancia estructural. Los mecanismos que *dolores más* son a menudo secundarios. Los mecanismos que *mantienen la enfermedad* a menudo no producen señales perceptibles directas.
+Esto genera un desajuste sistemático entre la importancia sintomática y la importancia estructural. Los mecanismos que *duelen más* son a menudo secundarios. Los mecanismos que *mantienen la enfermedad* a menudo no producen señales perceptibles directas.
 
 Un tratamiento efectivo debe incluir el abordaje de la estructura que soporta cargas —no porque los síntomas no importen, sino porque tratar solo los síntomas no crea un camino hacia la recuperación. Cuando los tratamientos estructurales aún no están disponibles o validados, la gestión de los síntomas sigue siendo la prioridad clínica adecuada y la única opción disponible para la mayoría de los pacientes [Cap. 16 §Implicaciones del tratamiento de la jerarquía causal].
 

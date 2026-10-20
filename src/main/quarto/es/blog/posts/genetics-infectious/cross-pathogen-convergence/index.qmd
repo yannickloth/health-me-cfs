@@ -11,7 +11,7 @@ En 1999, un grupo de investigación en Dubbo, Australia, incluyó a 253 personas
 
 A los seis meses, el 12% de la cohorte había desarrollado un síndrome de fatiga postinfecciosa que cumplía con los criterios del síndrome de fatiga crónica. La tasa fue la misma independientemente de qué patógeno había causado la enfermedad aguda. La gravedad de la infección inicial predecía quién desarrollaría fatiga crónica. La identidad del patógeno no [@Hickie2006postinfectious].
 
-Este hallazgo debería haber sido noticia de primera página en todos los periódicos médicos. No lo fue, porque no se ajustaba al paradigma vigente —que los síndromes de fatiga crónica son causados por infecciones persistentes específicas y que la tarea de la investigación es identificar qué patógeno es responsable.
+Este hallazgo debería haber sido noticia de primera página en todas las revistas médicas. No lo fue, porque no se ajustaba al paradigma vigente —que los síndromes de fatiga crónica son causados por infecciones persistentes específicas y que la tarea de la investigación es identificar qué patógeno es responsable.
 
 Los datos de Dubbo decían algo diferente. El patógeno no importa. La respuesta del huésped sí.
 
@@ -19,11 +19,11 @@ Los datos de Dubbo decían algo diferente. El patógeno no importa. La respuesta
 
 ## La lista se vuelve más larga
 
-En las dos décadas desde Dubbo, el mismo patrón ha sido documentado después de una amplia gama de infecciones.
+En las dos décadas desde Dubbo, el mismo patrón ha sido documentado después de una gama de infecciones alarmantemente amplia.
 
-**Virus de Epstein-Barr**: el patógeno original de "fatiga post-viral". La infección primaria por EBV (mononucleosis/fiebre glandular) se sigue por un síndrome de fatiga crónica en aproximadamente el 10-12% de los casos, con síntomas que persisten durante seis meses y más [@Katz2009IMadolescentCFS; @White2001mononucleosis].
+**Virus de Epstein-Barr**: el patógeno original de "fatiga post-viral". La infección primaria por EBV (mononucleosis/fiebre glandular) va seguida de un síndrome de fatiga crónica en aproximadamente el 10-12% de los casos, con síntomas que persisten durante seis meses y más [@Katz2009IMadolescentCFS; @White2001mononucleosis].
 
-**SARS-CoV-2**: el patógeno que demostró este patrón a gran escala. La COVID larga afecta alrededor del 10-20% de las personas infectadas —decenas de millones en todo el mundo—, con un perfil de síntomas que se superpone significativamente con EM/SFC: malestar post-esfuerzo, disfunción cognitiva, inestabilidad autónoma y sueño no revigorizante [@Davis2023]. Por primera vez, el sistema médico se vio obligado a enfrentar la fatiga post-infecciosa como un evento masivo, y no como una curiosidad individual.
+**SARS-CoV-2**: el patógeno que demostró este patrón a gran escala. La COVID larga afecta a un 10-20% estimado de las personas infectadas —decenas de millones en todo el mundo—, con un perfil de síntomas que se superpone significativamente con EM/SFC: malestar post-esfuerzo, disfunción cognitiva, inestabilidad autónoma y sueño no revigorizante [@Davis2023]. Por primera vez, el sistema médico se vio obligado a enfrentar la fatiga post-infecciosa como un evento masivo, y no como una curiosidad individual.
 
 **Fiebre Q**: el patógeno de Dubbo que demostró este punto de la manera más clara. El síndrome de fatiga por fiebre Q se reconoce como una entidad distinta, que se desarrolla en el 20% de los casos agudos de fiebre Q, con fatiga, mialgia, sudoración nocturna y trastornos del estado de ánimo que persisten durante años [@Marmion2005Qfever].
 
@@ -39,9 +39,9 @@ La lista es una lista de todo lo que puede causar una enfermedad aguda significa
 
 ---
 
-## ¿Qué significa la convergencia
+## ¿Qué significa la convergencia?
 
-Si el patógeno fuera la causa, cada infección produciría un síndrome crónico diferente con un mecanismo distinto. La fatiga post-EBV sería diferente de la fatiga post-fiebre Q y de la fatiga post-giardiasis. No es así. Los síndromes son clinicamente indistinguibles una vez establecidos.
+Si el patógeno fuera la causa, cada infección produciría un síndrome crónico diferente con un mecanismo distinto. La fatiga post-EBV sería diferente de la fatiga post-fiebre Q y de la fatiga post-giardiasis. No es así. Los síndromes son clínicamente indistinguibles una vez establecidos.
 
 Si el patógeno fuera la causa, la tasa de fatiga crónica se correlacionaría con características específicas del patógeno: carga viral, tropismo tisular y capacidad de persistencia. No es así. La tasa se correlaciona con la gravedad de la enfermedad aguda y, en menor medida, con factores del huésped como el sexo femenino y variantes genéticas inmunitarias preexistentes.
 
@@ -57,7 +57,7 @@ La respuesta inmunitaria normal a una infección sigue un camino: detección, al
 
 El modelo de trabajo para el EM/SFC postinfecioso es que esta resolución falla. La fase de combate no pasa a la resolución, sino a un estado crónico y autosostenido de activación inmunitaria. Se han propuesto varios mecanismos, y no son mutuamente excluyentes:
 
-**Mimicry molecular y formación de autoanticuerpo.** La respuesta inmunitaria aguda genera anticuerpos contra proteínas patógenas. Algunos de estos anticuerpos reaccionan con las proteínas del huésped — en particular los receptores acoplados a proteínas G que regulan la función autónoma y el vaso sanguíneo [@Bynke2020]. Una vez formados, estos autoanticuerpos persisten independientemente del patógeno y continúan causando disfunción.
+**Mimetismo molecular y formación de autoanticuerpo.** La respuesta inmunitaria aguda genera anticuerpos contra proteínas patógenas. Algunos de estos anticuerpos reaccionan con las proteínas del huésped — en particular los receptores acoplados a proteínas G que regulan la función autónoma y el vaso sanguíneo [@Bynke2020]. Una vez formados, estos autoanticuerpos persisten independientemente del patógeno y continúan causando disfunción.
 
 **DAMPs persistentes.** El daño tisular causado por la infección aguda deja residuos — DNA mitocondrial, ATP extracelular, proteínas nucleares — que el sistema inmunitario innato interpreta como señales de peligro en curso. Incluso después de que el patógeno haya desaparecido, estas señales de peligro endógenas mantienen al sistema inmunitario en modo de combate.
 
@@ -67,7 +67,7 @@ El modelo de trabajo para el EM/SFC postinfecioso es que esta resolución falla.
 
 ---
 
-## ¿Por qué este enfoque reconfigura el tratamiento
+## ¿Por qué este enfoque reconfigura el tratamiento?
 
 Si EM/SFC fuera una infección crónica, el tratamiento sería encontrar y eliminar el patógeno. Décadas de ensayos con antivirales y antibióticos en EM/SFC han obtenido, como máximo, resultados modestos e inconsistentes — consistentes con un modelo en el que el patógeno ha desaparecido, pero el daño persiste.
 

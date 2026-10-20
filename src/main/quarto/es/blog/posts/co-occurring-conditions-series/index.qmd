@@ -7,7 +7,7 @@ categories: [ME/CFS, Series, Comorbidities]
 lang: es
 ---
 
-La EM/SFC rara vez aparece sola. En la práctica, viaja junto con una combinación de otras condiciones: activación de mastocitos, síndrome de taquicardia ortostática postural (POTS), síndromes de hipermovilidad, neuropatía de fibras pequeñas, infecciones crónicas, autoinmunidad, problemas intestinales y dolor de patrón fibromialgico. El documento principal detrás de esta página denomina al grupo más estrecho de siete condiciones *Septad*: patologías fisiopatológicas interrelacionadas que ocurren simultáneamente y se influyen mutuamente. Esta serie está **inspirada** en esa idea, pero es un poco más amplia; abarca esas siete condiciones más el dolor de patrón fibromialgico, y finaliza con una explicación sobre cómo los amplificadores se combinan para formar una imagen única.
+La EM/SFC rara vez aparece sola. En la práctica, viaja junto con una combinación de otras condiciones: activación de mastocitos, síndrome de taquicardia ortostática postural (POTS), síndromes de hipermovilidad, neuropatía de fibras pequeñas, infecciones crónicas, autoinmunidad, problemas intestinales y dolor de patrón fibromiálgico. El documento principal detrás de esta página denomina al grupo más estrecho de siete condiciones *Septad*: fisiopatologías interrelacionadas que ocurren simultáneamente y se influyen mutuamente. Esta serie está **inspirada** en esa idea, pero es un poco más amplia; abarca esas siete condiciones más el dolor de patrón fibromiálgico, y finaliza con una explicación sobre cómo los amplificadores se combinan para formar una imagen única.
 
 Esta serie explica una condición que ocurre simultáneamente, en lenguaje sencillo, para un lector que está cansado de jerga. Cada artículo sigue la misma estructura:
 
@@ -21,12 +21,12 @@ Esta serie explica una condición que ocurre simultáneamente, en lenguaje senci
 
 ## Parte 1: Activación de mastocitos y histamina
 
-La serie comienza con MCAS, la condición en la que sus células inmunitarias se activan sin un estímulo, reaccionando ante polvo y contacto. Es la primera entrada natural porque es común, es reversible en parte y representa el mensaje central de toda la serie: *la mayoría de estos son amplificadores, no causas, y tratar un amplificador sigue siendo valioso.*
+La serie comienza con MCAS, la condición en la que tus células inmunitarias se activan sin un estímulo, reaccionando ante polvo y contacto. Es la primera entrada natural porque es común, es reversible en parte y representa el mensaje central de toda la serie: *la mayoría de estos son amplificadores, no causas, y tratar un amplificador sigue siendo valioso.*
 
-Lea los tres artículos en orden:
+Lee los tres artículos en orden:
 
 1. **[MCAS y EM/SFC: ¿Por qué tu cuerpo reacciona a nada?](../mast-cell-mcas/mcas-mecfs-overview/index.qmd)** — qué es MCAS, por qué aparece después de EM/SFC (no antes) y la diferencia entre MCAS por sí mismo y EM/SFC con MCAS.
-2. **[Antihistamínicos para EM/SFC y MCAS: H1 vs H2, y por qué su médico aumenta la dosis](../mast-cell-mcas/antihistamines-mcas-mecfs-treatment/index.qmd)** — los medicamentos, histamina y sus receptores, y los estabilizadores.
+2. **[Antihistamínicos para EM/SFC y MCAS: H1 vs H2, y por qué tu médico aumenta la dosis](../mast-cell-mcas/antihistamines-mcas-mecfs-treatment/index.qmd)** — los medicamentos, histamina y sus receptores, y los estabilizadores.
 3. **[Cuando el antihistamínico no funciona](../mast-cell-mcas/when-antihistamine-doesnt-work/index.qmd)** — pruebas normales, intolerancia a histamina, los "sabores" de los mastocitos, el mecanismo de amplificación y qué hacer a continuación.
 
 ---
@@ -37,7 +37,7 @@ La serie continúa con POTS — el corazón que acelera cuando te paras, el volu
 
 Lee los dos artículos en orden:
 
-1. **[POTS y el corazón que acelera cuando te paras](../autonomic-cardiovascular/pots-mecfs/index.qmd)** — qué es POTS, el paradójico fenómeno de renina-aldosterona, los datos sobre el flujo sanguíneo cerebral y la diferencia entre POTS por sí mismo y EM/SFC con POTS.
+1. **[POTS y el corazón que acelera cuando te paras](../autonomic-cardiovascular/pots-mecfs/index.qmd)** — qué es POTS, la paradoja de renina-aldosterona, los datos sobre el flujo sanguíneo cerebral y la diferencia entre POTS por sí mismo y EM/SFC con POTS.
 2. **[Tratamientos para POTS y Disautonomía en EM/SFC — y qué significa cuando no funcionan](../autonomic-cardiovascular/pots-mecfs-treatment/index.qmd)** — sal y compresión, fludrocortisona, midodrina, ivabradina, beta-bloqueadores, piridostigmina, el error con los SSRI, resultados esperados y la discusión sobre el fracaso del tratamiento.
 
 ---
@@ -48,8 +48,8 @@ La tríada se une: la hipermovilidad completa el grupo POTS–MCAS–hEDS. Esta 
 
 Lee los tres artículos en orden:
 
-1. **[Hipermóvil EDS y la conexión de tejidos conectivos con EM/SFC](../connective-tissue/hypermobility-heds/index.qmd)** — qué es el hEDS, por qué no tiene un defecto genético identificado, la diferencia de 81% frente a 15.5%, hipermovilidad progresiva adquirida (triptasa→MMP-3/-13, quimasa→MMP-1, histaminilación), el bucle de retroalimentación de rigidez de matriz, cinco vías mecánicas, la conexión de neurodivergencia, la genética TNXB, la carga energética permanente del 10–20%, y hEDS por sí mismo vs hEDS en EM/SFC.
-2. **[Gestionar la hipermovilidad sobre EM/SFC](../connective-tissue/hypermobility-heds-treatment/index.qmd)** — protocolos de resistencia isométrica, el horario del cofactor de colágeno circadiano (vitamina C, alfa-cetoglutarato), glicina y proline, cobre/B6 para LOX, doxiciclina en baja dosis para MMP-9, terapias emergentes (tVNS, inhibidores de HIF-1α, bloqueo de TGF-β1), cirugía CCI, resultados esperados y un ejemplo de ensayo estructurado.
+1. **[Hipermóvil EDS y la conexión de tejidos conectivos con EM/SFC](../connective-tissue/hypermobility-heds/index.qmd)** — qué es el hEDS, por qué no tiene un defecto genético identificado, la diferencia de 81% frente a 15,5%, hipermovilidad progresiva adquirida (triptasa→MMP-3/-13, quimasa→MMP-1, histaminilación), el bucle de retroalimentación de rigidez de matriz, cinco vías mecánicas, la conexión de neurodivergencia, la genética TNXB, la carga energética permanente del 10–20%, y hEDS por sí mismo vs hEDS en EM/SFC.
+2. **[Gestionar la hipermovilidad sobre EM/SFC](../connective-tissue/hypermobility-heds-treatment/index.qmd)** — protocolos de resistencia isométrica, el horario del cofactor de colágeno circadiano (vitamina C, alfa-cetoglutarato), glicina y prolina, cobre/B6 para LOX, doxiciclina en baja dosis para MMP-9, terapias emergentes (tVNS, inhibidores de HIF-1α, bloqueo de TGF-β1), cirugía CCI, resultados esperados y un ejemplo de ensayo estructurado.
 3. **[Cuando el tratamiento no ayuda](../connective-tissue/hypermobility-heds-failure/index.qmd)** — la trampa de decondicionamiento-PEM, el punto de inflexión de rigidez de matriz, la triaje entre congénita y adquirida, los seis puntos de fallo numerados, predicciones verificables y lo que realmente puedes hacer.
 
 ---
@@ -60,19 +60,19 @@ La serie continúa con el cableado que está equivocado — la neuropatía de fi
 
 Lee los dos artículos en orden:
 
-1. **[Neuropatía de Fibra Pequeña — Cuando el cableado en sí está equivocado en EM/SFC](../neurology/sfn/index.qmd)** — qué es la SFN, las tres familias de mecanismos (triptasa de mastocitos→PAR2, isquemia microvascular, autoimmunitad DRG mediada por IgG), la distinción entre visceral y somática, la intersección entre POTS–SFN–MCAS–hEDS, y SFN por sí mismo vs SFN en EM/SFC.
+1. **[Neuropatía de Fibra Pequeña — Cuando el cableado en sí está equivocado en EM/SFC](../neurology/sfn/index.qmd)** — qué es la SFN, las tres familias de mecanismos (triptasa de mastocitos→PAR2, isquemia microvascular, autoinmunidad DRG mediada por IgG), la distinción entre visceral y somática, la intersección entre POTS–SFN–MCAS–hEDS, y SFN por sí mismo vs SFN en EM/SFC.
 2. **[Tratamiento de la Neuropatía de Fibra Pequeña en EM/SFC](../neurology/sfn-treatment/index.qmd)** — gabapentoides, SNRIs, tratamientos tópicos, IVIG para SFN autoinmune, ácido alfa-lipoico, estabilizadores de mastocitos, resultados esperados, discusión sobre fracasos y orientaciones prácticas.
 
 ---
 
-## Parte 5: Dolor de Patrón Fibromial
+## Parte 5: Dolor de Patrón Fibromiálgico
 
 El dolor que no es muscular — cuando el sistema nervioso aumenta la sensibilidad, los canales TRPV1 y TRPA1 permanecen abiertos, y el calor corporal se siente como una quemadura. Esto se superpone al 47–76% de los pacientes con EM/SFC.
 
 Lee los dos artículos en orden:
 
-1. **[El dolor que no es muscular — Dolor de patrón fibromial en EM/SFC](../pain/fibromyalgia-pattern-pain/index.qmd)** — sensibilización central, canales TRPV1/TRPA1, el bucle de alimentación forward de COX-2/PGE2, el híbrido neuropatológico noplastico, y la fibromialgia por sí sola vs la fibromialgia en EM/SFC.
-2. **[Tratamiento del dolor de patrón fibromial en EM/SFC](../pain/fibromyalgia-pain-treatment/index.qmd)** — LDN, SNRIs, gabapentinoides, inhibidores de COX-2, PEA, antagonistas de NMDA, resultados esperados, discusión sobre fracasos y orientaciones prácticas.
+1. **[El dolor que no es muscular — Dolor de patrón fibromiálgico en EM/SFC](../pain/fibromyalgia-pattern-pain/index.qmd)** — sensibilización central, canales TRPV1/TRPA1, el bucle feed-forward de COX-2/PGE2, el híbrido nociplásico-neuropático, y la fibromialgia por sí sola vs la fibromialgia en EM/SFC.
+2. **[Tratamiento del dolor de patrón fibromiálgico en EM/SFC](../pain/fibromyalgia-pain-treatment/index.qmd)** — LDN, SNRIs, gabapentinoides, inhibidores de COX-2, PEA, antagonistas de NMDA, resultados esperados, discusión sobre fracasos y orientaciones prácticas.
 
 ---
 
@@ -83,7 +83,7 @@ El intestino que no funciona correctamente — por qué el estómago se vacía l
 Lee los dos artículos en orden:
 
 1. **[SIBO, Gastroparesis y el intestino que no funciona en EM/SFC](../gut/sibo-gi-dysmotility/index.qmd)** — fallo en la motilidad vagal, eje mastocitos-intestino, toxicidad mitocondrial por H₂S, intolerancia a DAO e histamina, y los problemas GI por sí solos frente a los problemas GI en EM/SFC.
-2. **[Tratando SIBO, Gastroparesis y el intestino](../gut/sibo-gi-treatment/index.qmd)** — espaciado de las comidas, eliminación reducida de histamina, antibióticos y hierbas para SIBO, dieta elemental, DAO, butirat, prokinéticos, resultados esperados, un ejemplo estructurado de ensayo, la discusión del fracaso, predicciones verificables y orientaciones prácticas.
+2. **[Tratando SIBO, Gastroparesis y el intestino](../gut/sibo-gi-treatment/index.qmd)** — espaciado de las comidas, eliminación reducida de histamina, antibióticos y hierbas para SIBO, dieta elemental, DAO, butirato, procinéticos, resultados esperados, un ejemplo estructurado de ensayo, la discusión del fracaso, predicciones verificables y orientaciones prácticas.
 
 ---
 
@@ -100,11 +100,11 @@ Lee los dos artículos en orden:
 
 ## Parte 8: Autoinmunidad
 
-Anticuerpos que se comunican con tu sistema nervioso — anticuerpos autoanticilos de GPCR que atacan tus vasos sanguíneos, el intestino y el cerebro, el Fc-glicoprotipo que determina la patogenicidad, y por qué eliminarlos no siempre soluciona el problema.
+Anticuerpos que se comunican con tu sistema nervioso — anticuerpos autoanticuerpos de GPCR que atacan tus vasos sanguíneos, el intestino y el cerebro, el Fc-glicoperfil que determina la patogenicidad, y por qué eliminarlos no siempre soluciona el problema.
 
 Lee los dos artículos en orden:
 
-1. **[Anticuerpos autoanticilos de GPCR, ataque inmune al sistema nervioso y los anticuerpos que se comunican con tus receptores en EM/SFC](../autoimmune/autoimmunity/index.qmd)** — qué son los anticuerpos autoanticilos de GPCR, el rango de prevalencia del 29–91% y qué significa realmente, el Fc-glicoprotipo, el desencadenante postinfeccioso y autoinmunidad por sí sola vs autoinmunidad en EM/SFC.
+1. **[Anticuerpos autoanticuerpos de GPCR, ataque inmune al sistema nervioso y los anticuerpos que se comunican con tus receptores en EM/SFC](../autoimmune/autoimmunity/index.qmd)** — qué son los anticuerpos autoanticuerpos de GPCR, el rango de prevalencia del 29–91% y qué significa realmente, el Fc-glicoperfil, el desencadenante postinfeccioso y autoinmunidad por sí sola vs autoinmunidad en EM/SFC.
 2. **[Inmunoadsorción, IVIG, Rituximab, Daratumumab — Eliminación de los anticuerpos y qué significa que eso no soluciona EM/SFC](../autoimmune/autoimmunity-treatment/index.qmd)** — la evidencia de tratamiento de la más madura a la menos madura, la lección de RituxME, el signo del daratumumab, los resultados esperados, la discusión sobre fracasos y las orientaciones prácticas.
 
 ---
@@ -115,7 +115,7 @@ Cómo los amplificadores se convierten en una enfermedad — los bucles de retro
 
 Lee el artículo:
 
-1. **[Unidos por Cadena: Cómo los Amplificadores Se Convierten en Una Enfermedad en EM/SFC](../synthesis/chained-together/index.qmd)** — el bucle de inflamación vascular, el amplificador de nervio-mastocito, el eje intestino-cuerpo cerebral-histamina, el puente EBV–mastocito–MMP-9–BBB, el bucle de autoimmunitad–POTS–SFN, el ratchet de amplificación, el tratamiento multiobjetivo y lo que toda la serie ha argumentado en un solo lugar.
+1. **[Unidos por Cadena: Cómo los Amplificadores Se Convierten en Una Enfermedad en EM/SFC](../synthesis/chained-together/index.qmd)** — el bucle de inflamación vascular, el amplificador de nervio-mastocito, el eje intestino-cuerpo cerebral-histamina, el puente EBV–mastocito–MMP-9–BBB, el bucle de autoinmunidad–POTS–SFN, el ratchet de amplificación, el tratamiento multiobjetivo y lo que toda la serie ha argumentado en un solo lugar.
 
 ---
 

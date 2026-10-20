@@ -1,6 +1,6 @@
 ---
 title: "La biología del autismo — una serie"
-description: "El autismo no es una sola cosa. Cuatro corrientes biológicas independientes — energía, inmunidad, conexiones y características adquiridas — pueden contribuir cada una al sobrecargo de síntomas, y la forma de avanzar podría ser tratar varias de ellas al mismo tiempo. Esta es la página de inicio de una serie que examina cada corriente y la hipótesis de tratamiento multivía."
+description: "El autismo no es una sola cosa. Cuatro corrientes biológicas independientes — energía, inmunidad, conexiones y características adquiridas — pueden contribuir cada una a la carga de síntomas, y la forma de avanzar podría ser tratar varias de ellas al mismo tiempo. Esta es la página de inicio de una serie que examina cada corriente y la hipótesis de tratamiento multivía."
 author: "Yannick Loth"
 date: "2026-08-18"
 categories: [Neurodivergence, Series, Pathophysiology]
@@ -9,7 +9,7 @@ lang: es
 
 El autismo no es una sola cosa.
 
-Una suposición común es que la condición tenga una única causa y una única explicación. Nuestros estudios señalan algo más detallado: **cuatro corrientes biológicas distintas** pueden estar detrás de los síntomas relacionados con el autismo — un déficit de energía cerebral, un subgrupo mediado por el sistema inmunitario, una diferencia en la conexión neuronal y características adquiridas que no son relacionadas con el desarrollo. Los pacientes diferentes probablemente presentan combinaciones diferentes de estas condiciones, y cada una contribuye de manera diferente al peso de los síntomas diarios.
+Una suposición común es que la condición tenga una única causa y una única explicación. Nuestros estudios señalan algo más detallado: **cuatro corrientes biológicas distintas** pueden estar detrás de los síntomas relacionados con el autismo — un déficit de energía cerebral, un subgrupo mediado por el sistema inmunitario, una diferencia en la conexión neuronal y características adquiridas que no están relacionadas con el desarrollo. Los pacientes diferentes probablemente presentan combinaciones diferentes de estas condiciones, y cada una contribuye de manera diferente al peso de los síntomas diarios.
 
 Esta serie examina cada corriente de manera sencilla y luego plantea la pregunta a la que todas convergen: **¿se puede tratar simultáneamente varios caminos para eliminar o reducir los síntomas y permitir al paciente una vida más normal?**
 
@@ -19,8 +19,8 @@ Esta serie examina cada corriente de manera sencilla y luego plantea la pregunta
 
 Cada artículo de esta serie distingue claramente dos cosas:
 
-1. **Lo que sabemos** — hallazgos científicos establecidos, citados en la literatura revisada por pares (la evidencia mitocondrial en el autismo [@Frye2024ASDmitochondria], el hallazgo de BH4 [@ColpaniFilho2025BH4ASD], la evidencia de anticuerpos maternos [@Braunschweig2013MATAbs] y el signo genético glutamatergico en el cerebelo [@Maccallini2026metaGWAS]).
-2. **Lo que nuestra investigación añade** — las hipótesis que nuestro proyecto de documentación ha desarrollado al cruzar las fronteras de la enfermedad, y que aún no están establecidas: el modelo de convergencia de energía cerebral, la hipótesis de tratamiento multivía, el marco del espectro de neuroinmuna-encefalopatía y la distinción entre adquirido y desarrollado.
+1. **Lo que sabemos** — hallazgos científicos establecidos, citados en la literatura revisada por pares (la evidencia mitocondrial en el autismo [@Frye2024ASDmitochondria], el hallazgo de BH4 [@ColpaniFilho2025BH4ASD], la evidencia de anticuerpos maternos [@Braunschweig2013MATAbs] y el signo genético glutamatérgico en el cerebelo [@Maccallini2026metaGWAS]).
+2. **Lo que nuestra investigación añade** — las hipótesis que nuestro proyecto de documentación ha desarrollado al cruzar las fronteras de la enfermedad, y que aún no están establecidas: el modelo de convergencia de energía cerebral, la hipótesis de tratamiento multivía, el marco del espectro de neuroinmuno-encefalopatía y la distinción entre adquirido y desarrollado.
 
 La distinción es importante porque los dos no representan la misma confianza. "Lo que sabemos" son evidencias; "lo que nuestra investigación añade" son hipótesis verificables. La serie los mantiene separados para que no se confunda tratar una hipótesis como un hallazgo.
 
@@ -39,27 +39,27 @@ La serie comienza con la rama más desarrollada: un cerebro que funciona con un 
 
 Lee el artículo:
 
-1. **[El autismo como un trastorno de energía cerebral: lo que dice la ciencia](../autism-brain-energy-disorder/index.qmd)** — el modelo astrocito/GLUT1, la evidencia de mitocondria y BH4, los objetivos modificables, los límites, el experimento decisivo de glucosa en la sangre líquida y la hipótesis de tratamiento multivía.
+1. **[El autismo como un trastorno de energía cerebral: lo que dice la ciencia](../autism-brain-energy-disorder/index.qmd)** — el modelo astrocito/GLUT1, la evidencia mitocondrial y de BH4, los objetivos modificables, los límites, el experimento decisivo de glucosa en el líquido cefalorraquídeo y la hipótesis de tratamiento multivía.
 
 ---
 
 ## Parte 2: El subgrupo inmunitario de autismo
 
-No todos los casos de autismo tienen la misma causa. Un subgrupo puede estar impulsado por el sistema inmunitario: anticuerpos maternos que atacan las proteínas del cerebro fetal durante el desarrollo, o respuestas anti-neuronal provocadas por infecciones después del nacimiento. El hallazgo clave: la inmunoterapia funciona en pacientes con estratificación de anticuerpos, pero no en aquellos no seleccionados. Este subgrupo es importante porque es potencialmente identificable y tratable.
+No todos los casos de autismo tienen la misma causa. Un subgrupo puede estar impulsado por el sistema inmunitario: anticuerpos maternos que atacan las proteínas del cerebro fetal durante el desarrollo, o respuestas anti-neuronales provocadas por infecciones después del nacimiento. El hallazgo clave: la inmunoterapia funciona en pacientes con estratificación de anticuerpos, pero no en aquellos no seleccionados. Este subgrupo es importante porque es potencialmente identificable y tratable.
 
 Lee el artículo:
 
-1. **[El subgrupo inmunitario de autismo: Cuando el sistema inmunitario moldea el cerebro](../autism-immune-subset/index.qmd)** — la ruta de anticuerpos maternos, la ruta postnatal, la evidencia de estratificación con IVIG, el marco del espectro de neuroinmuna-encefalopatía y el estudio decisivo de anticuerpos en múltiples enfermedades.
+1. **[El subgrupo inmunitario de autismo: Cuando el sistema inmunitario moldea el cerebro](../autism-immune-subset/index.qmd)** — la ruta de anticuerpos maternos, la ruta postnatal, la evidencia de estratificación con IVIG, el marco del espectro de neuroinmuno-encefalopatía y el estudio decisivo de anticuerpos en múltiples enfermedades.
 
 ---
 
-## Parte 3: La conexión entre el cerebelo y la glutamina
+## Parte 3: La conexión entre el cerebelo y el glutamato
 
-Un tercer aspecto no es un problema de combustible ni un problema inmunitario: una diferencia a nivel de conexión en el cerebelo y en los circuitos glutamatergicos — las vías excitatorias del cerebro. La pérdida de células Purkinje en el cerebelo es uno de los hallazgos más repetidos en el autismo, y una señal genética lo relaciona con la sensibilidad sensorial. Este aspecto es explicativo y diagnóstico, pero aún no es un objetivo de tratamiento.
+Un tercer aspecto no es un problema de combustible ni un problema inmunitario: una diferencia a nivel de conexión en el cerebelo y en los circuitos glutamatérgicos — las vías excitatorias del cerebro. La pérdida de células Purkinje en el cerebelo es uno de los hallazgos más repetidos en el autismo, y una señal genética lo relaciona con la sensibilidad sensorial. Este aspecto es explicativo y diagnóstico, pero aún no es un objetivo de tratamiento.
 
 Lee el artículo:
 
-1. **[La conexión entre el cerebelo y la glutamina en el autismo: una hipótesis a nivel de conexión](../autism-cerebellar-glutamate/index.qmd)** — la evidencia de las células Purkinje, la señal genética glutamatergica, las características comunes, la predicción de la sensibilidad sensorial verificable y los límites.
+1. **[La conexión entre el cerebelo y el glutamato en el autismo: una hipótesis a nivel de conexión](../autism-cerebellar-glutamate/index.qmd)** — la evidencia de las células Purkinje, la señal genética glutamatérgica, las características comunes, la predicción de la sensibilidad sensorial verificable y los límites.
 
 ---
 

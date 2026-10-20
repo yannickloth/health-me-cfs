@@ -7,9 +7,9 @@ categories: [Treatment, Pharmacology, ME/CFS]
 lang: es
 ---
 
-Estás ajustando la dosis de LDN. Comenzó con 0.5 mg. Algo cambió: menos niebla, menos malestar. Pasaste a 1.5 mg. Los beneficios se mantuvieron. Pasaste a 3.0 mg. Todo volvió a la normalidad.
+Estás ajustando la dosis de LDN. Comenzaste con 0,5 mg. Algo cambió: menos niebla, menos malestar. Pasaste a 1,5 mg. Los beneficios se mantuvieron. Pasaste a 3,0 mg. Todo volvió a la normalidad.
 
-La interpretación clínica estándar de esta trayectoria es que 3.0 mg fue "demasiado alta" y deberías volver a 1.5 mg. Esa interpretación es correcta, pero también es demasiado simplista. Porque el *lugar* en la escala de dosis donde perdiste los beneficios informa sobre *qué mecanismo* generaba esos beneficios desde el principio. La curva dosis-respuesta no es solo una guía de administración. Es un instrumento de diagnóstico.
+La interpretación clínica estándar de esta trayectoria es que 3,0 mg fue "demasiado alta" y deberías volver a 1,5 mg. Esa interpretación es correcta, pero también es demasiado simplista. Porque el *lugar* en la escala de dosis donde perdiste los beneficios informa sobre *qué mecanismo* generaba esos beneficios desde el principio. La curva dosis-respuesta no es solo una guía de administración. Es un instrumento de diagnóstico.
 
 ---
 
@@ -17,13 +17,13 @@ La interpretación clínica estándar de esta trayectoria es que 3.0 mg fue "dem
 
 Los efectos terapéuticos de la LDN en EM/SFC provienen de cuatro mecanismos:
 
-1. **TLR4 → Nrf2 hormética** — el bloqueo parcial de TLR4 desencadena la expresión compensatoria de genes antiinflamatorios a través de Nrf2. Se requiere un tono residual de TLR4. Alcanza su punto máximo entre 0.5 y 1.5 mg. Disminuye cuando el TLR4 se bloquea en exceso.
+1. **TLR4 → Nrf2 cebado hormético** — el bloqueo parcial de TLR4 desencadena la expresión compensatoria de genes antiinflamatorios a través de Nrf2. Se requiere un tono residual de TLR4. Alcanza su punto máximo entre 0,5 y 1,5 mg. Disminuye cuando el TLR4 se bloquea en exceso.
 
-2. **Aumento compensatorio de opioides** — el bloqueo de los receptores opioides hace que el cuerpo produzca más opioides endógenos (beta-endorfina, met-enkephalina). El límite se establece por la expresión de precursores, no por la dosis de LDN. Es activo entre 1.5 y 3.0 mg, se mantiene en 4.5 mg.
+2. **Aumento compensatorio de opioides** — el bloqueo de los receptores opioides hace que el cuerpo produzca más opioides endógenos (beta-endorfina, met-enkephalina). El límite se establece por la expresión de precursores, no por la dosis de LDN. Es activo entre 1,5 y 3,0 mg, se mantiene en 4,5 mg.
 
-3. **Restauración del canal ión TRPM3** — la LDN restaura el flujo de calcio a través de los canales TRPM3 en células NK y neurones sensoriales. El mecanismo implica la eliminación de la señal inhibitoria mediada por receptor de opioides. La concentración requerida parece ser más alta que para la hormesis de TLR4 (probablemente entre 3.0 y 4.5 mg in vivo).
+3. **Restauración del canal iónico TRPM3** — la LDN restaura el flujo de calcio a través de los canales TRPM3 en células NK y neuronas sensoriales. El mecanismo implica la eliminación de la señal inhibitoria mediada por receptor de opioides. La concentración requerida parece ser más alta que para la hormesis de TLR4 (probablemente entre 3,0 y 4,5 mg in vivo).
 
-4. **Desinhibición de orexina** — la LDN elimina la inhibición tonica en los neurones de orexina en el tálamo. Se asemeja a la curva dosis-respuesta de TLR4. Contribuye a la vigilia, pero puede provocar la sensación de "estar activo" a dosis más altas.
+4. **Desinhibición de orexina** — la LDN elimina la inhibición tónica en las neuronas de orexina en el hipotálamo. Se asemeja a la curva dosis-respuesta de TLR4. Contribuye a la vigilia, pero puede provocar la sensación de "estar acelerado" a dosis más altas.
 
 Cada mecanismo tiene su propia curva dosis-respuesta. Las curvas no tienen el mismo punto óptimo. La "dosis adecuada" para un paciente específico es la dosis en la que su mecanismo dominante está activo al máximo.
 
@@ -31,51 +31,51 @@ Cada mecanismo tiene su propia curva dosis-respuesta. Las curvas no tienen el mi
 
 ## Leyendo la curva dosis-respuesta
 
-### Patrón 1: Beneficio a 0.5–1.5 mg, pérdida a 3.0–4.5 mg
+### Patrón 1: Beneficio a 0,5–1,5 mg, pérdida a 3,0–4,5 mg
 
-**Lo que significa.** Tu mecanismo dominante es el inicio hormético de TLR4/Nrf2. A dosis bajas, el bloqueo parcial de TLR4 desencadena un cambio en la microglía de M1→M2 mediado por Nrf2; el programa antiinflamatorio propio de la célula se activa, reduciendo la producción de citocinas y resolviendo la neuroinflamación. A 3.0 mg y superiores, TLR4 se bloquea completamente. La célula ya no detecta la señal de estrés inflamatorio. Nrf2 permanece unido a Keap1, los genes antiinflamatorios se desactivan y el beneficio desaparece.
+**Lo que significa.** Tu mecanismo dominante es el cebado hormético de TLR4/Nrf2. A dosis bajas, el bloqueo parcial de TLR4 desencadena un cambio en la microglía de M1→M2 mediado por Nrf2; el programa antiinflamatorio propio de la célula se activa, reduciendo la producción de citocinas y resolviendo la neuroinflamación. A 3,0 mg y superiores, TLR4 se bloquea completamente. La célula ya no detecta la señal de estrés inflamatorio. Nrf2 permanece unido a Keap1, los genes antiinflamatorios se desactivan y el beneficio desaparece.
 
-**Lo que indica sobre tu enfermedad.** Tu neuroinflamación está impulsada por TLR4, no por TRPM3 o por modulación por opioides. Tus microglías son responsivas a Nrf2; el mecanismo compensatorio funciona, solo necesita la señal adecuada para activarse. Ancho de tu ventana (pérdida a 1.0 mg vs pérdida a 2.5 mg) estima tu reserva transcripcional de Nrf2: una ventana estrecha significa una reserva baja.
+**Lo que indica sobre tu enfermedad.** Tu neuroinflamación está impulsada por TLR4, no por TRPM3 o por modulación por opioides. Tus microglías son responsivas a Nrf2; el mecanismo compensatorio funciona, solo necesita la señal adecuada para activarse. Ancho de tu ventana (pérdida a 1,0 mg vs pérdida a 2,5 mg) estima tu reserva transcripcional de Nrf2: una ventana estrecha significa una reserva baja.
 
 **Lo que predice.** Deberías responder a otros medicamentos que activan Nrf2 — sulfurofano, melatonina a dosis baja, litio a dosis baja — porque convergen en la misma vía Keap1-Nrf2. El ancho de tu ventana para LDN predice el ancho de tu ventana para estos medicamentos dentro del grupo de Nrf2.
 
-**Qué hacer.** Mantén la dosis baja efectiva. No aumentes la dosis; el aumento es contraproducente y no necesario. El mecanismo que hace que LDN funcione para ti es la ventana hormética. No puedes "superar" la pérdida de beneficio aumentando aún más la dosis, porque la ventana no vuelve a aparecer a dosis más altas, ya que el inicio hormético de Nrf2 requiere un tono residual de TLR4, y ese tono ha desaparecido.
+**Qué hacer.** Mantén la dosis baja efectiva. No aumentes la dosis; el aumento es contraproducente y no necesario. El mecanismo que hace que LDN funcione para ti es la ventana hormética. No puedes "superar" la pérdida de beneficio aumentando aún más la dosis, porque la ventana no vuelve a aparecer a dosis más altas, ya que el cebado hormético de Nrf2 requiere un tono residual de TLR4, y ese tono ha desaparecido.
 
 ---
 
-### Patrón 2: No beneficio a 0.5–1.5 mg, beneficio a 3.0–4.5 mg
+### Patrón 2: No beneficio a 0,5–1,5 mg, beneficio a 3,0–4,5 mg
 
-**Lo que significa.** Tu mecanismo dominante es ya sea la restauración del canal iónico TRPM3 o la disinhibición de orexina. El preparado de TLR4/Nrf2 no se activó a dosis baja, ya sea porque tu nivel de TLR4 es demasiado alto para que el bloqueo parcial active a Nrf2, o porque tu reserva de Nrf2 está demasiado agotada para generar una respuesta compensatoria. Pero a 3.0–4.5 mg, ya sea que los canales TRPM3 se restauren (mejorando la función de las células NK y la señalización de calcio en neurones sensoriales) o la disinhibición de orexina se active (mejorando la vigilia y el procesamiento cognitivo), y obtienes beneficio.
+**Lo que significa.** Tu mecanismo dominante es ya sea la restauración del canal iónico TRPM3 o la disinhibición de orexina. El preparado de TLR4/Nrf2 no se activó a dosis baja, ya sea porque tu nivel de TLR4 es demasiado alto para que el bloqueo parcial active a Nrf2, o porque tu reserva de Nrf2 está demasiado agotada para generar una respuesta compensatoria. Pero a 3,0–4,5 mg, ya sea que los canales TRPM3 se restauren (mejorando la función de las células NK y la señalización de calcio en neuronas sensoriales) o la disinhibición de orexina se active (mejorando la vigilia y el procesamiento cognitivo), y obtienes beneficio.
 
-**Lo que indica sobre tu enfermedad.** Tu patología es a nivel de canal, no es causada por inflamación — o al menos no es causada por inflamación a través de TLR4. Si el mecanismo dominante es TRPM3, tienes la patología de canal EM/SFC documentada. Los medicamentos que reducen la inflamación sin afectar TRPM3 podrían no ayudarte. Si la disinhibición de orexina es el mecanismo dominante, tu beneficio proviene de la mejora en la vigilia y el procesamiento cognitivo, afectando principalmente la niebla cerebral y la alerta, no la disfunción inmunitaria subyacente.
+**Lo que indica sobre tu enfermedad.** Tu patología es a nivel de canal, no es causada por inflamación — o al menos no es causada por inflamación a través de TLR4. Si el mecanismo dominante es TRPM3, tienes la canalopatía TRPM3 documentada de EM/SFC. Los medicamentos que reducen la inflamación sin afectar TRPM3 podrían no ayudarte. Si la disinhibición de orexina es el mecanismo dominante, tu beneficio proviene de la mejora en la vigilia y el procesamiento cognitivo, afectando principalmente la niebla cerebral y la alerta, no la disfunción inmunitaria subyacente.
 
-**Lo que predice.** Dominado por TRPM3: deberías responder a otras intervenciones que restauren la función del canal iónico o eviten los procesos dependientes de TRPM3. La microdosis de litio (estabilizando PIP₂, que TRPM3 necesita para el gating) y posiblemente rapamicina (reduciendo la depleción de PIP₂ impulsada por mTORC1) son mecanísticamente plausibles pero no han sido probadas. Dominado por orexina: el beneficio puede limitarse a la vigilia y el procesamiento cognitivo; los medicamentos que restanuen el nivel de orexina por otros medios (pitolisant, solriamfetol) pueden producir un beneficio similar a través de un mecanismo diferente.
+**Lo que predice.** Dominado por TRPM3: deberías responder a otras intervenciones que restauren la función del canal iónico o eviten los procesos dependientes de TRPM3. La microdosis de litio (estabilizando PIP₂, que TRPM3 necesita para el gating) y posiblemente rapamicina (reduciendo la depleción de PIP₂ impulsada por mTORC1) son mecanísticamente plausibles pero no han sido probadas. Dominado por orexina: el beneficio puede limitarse a la vigilia y el procesamiento cognitivo; los medicamentos que restauran el nivel de orexina por otros medios (pitolisant, solriamfetol) pueden producir un beneficio similar a través de un mecanismo diferente.
 
-**Qué hacer.** Aumenta la dosis hasta 3.0–4.5 mg y manténla. No asumas que 0.5–1.5 mg no funcionan significa que LDN no funciona — simplemente necesitas el mecanismo más avanzado. Si el beneficio es principalmente cognitivo/vención → la disinhibición de orexina es el mecanismo más probable. Si el beneficio es multi-sistémico (inmunitario, vascular, neurotransmisor) → la restauración de TRPM3 es más probable. No aumenta más allá de 4.5 mg — todos los cuatro mecanismos están saturados a esta dosis, y un aumento adicional se acerca al antagonismo de mu-opioides a 50 mg, lo cual invertirá el beneficio independientemente del mecanismo que estuviera funcionando.
-
----
-
-### Patrón 3: Beneficio en todo el rango, conservado a 4.5 mg
-
-**¿Qué significa esto?** Su mecanismo dominante es una regulación compensatoria de opioides. La hormesis de TLR4/Nrf2 habría invertido entre 3.0 y 4.5 mg si fuera el mecanismo dominante; el hecho de que el beneficio se mantenga a 4.5 mg descarta a TLR4/Nrf2 como el principal impulsor. La compensación de opioides alcanza un punto de platón, pero no se invierte: el cuerpo produce tanta opioida endógena como puede, y el límite está determinado por la expresión de precursores, no por la dosis de LDN. La restauración de TRPM3 también puede contribuir; su dosis-respuesta in vivo es desconocida, aparte del rango de concentración alcanzado con las dosis clínicas de LDN.
-
-**¿Qué indica esto sobre su enfermedad?** Un beneficio sin inversión significa que su mecanismo terapéutico no depende de una señal de estrés que pueda desaparecer. La compensación de opioides está impulsada por la bloqueo de receptores; cuanto más bloqueo, más compensación, hasta el límite de síntesis. Esto es más seguro desde el punto de vista farmacológico que el mecanismo de Nrf2, porque no puede perderse mediante la escalada de dosis.
-
-**¿Qué predice?** A diferencia del paciente con hormesis de Nrf2, su beneficio de LDN no predice una respuesta a otros activadores de Nrf2 — el sulfurofano o la melatonina pueden no tener efecto alguno. Su patrón de ventana sugiere que la componente inflamatoria de su enfermedad no es el factor limitante, o no está mediada por TLR4.
-
-**¿Qué hacer?** Aumente la dosis hasta alcanzar el punto de platón y deténgase. Aumentar más allá de ese punto no añade más compensación de opioides — el límite es biológico, no farmacológico — y solo aumenta los efectos de TRPM3/orexin, que pueden ser neutros o adversos.
+**Qué hacer.** Aumenta la dosis hasta 3,0–4,5 mg y manténla. No asumas que 0,5–1,5 mg no funcionan significa que LDN no funciona — simplemente necesitas el mecanismo más avanzado. Si el beneficio es principalmente cognitivo/vención → la disinhibición de orexina es el mecanismo más probable. Si el beneficio es multi-sistémico (inmunitario, vascular, neurotransmisor) → la restauración de TRPM3 es más probable. No aumenta más allá de 4,5 mg — todos los cuatro mecanismos están saturados a esta dosis, y un aumento adicional se acerca al antagonismo de mu-opioides a 50 mg, lo cual invertirá el beneficio independientemente del mecanismo que estuviera funcionando.
 
 ---
 
-### Patrón 4: Forma M — beneficio a 0.5 mg, pérdida a 1.5 mg, recuperación a 4.5 mg
+### Patrón 3: Beneficio en todo el rango, conservado a 4,5 mg
 
-**¿Qué significa esto?** Tienes dos mecanismos limitadores de velocidad que pueden ser abordados por el mismo medicamento en dosis diferentes. El primer pico corresponde a la ventana hormonal de TLR4/Nrf2. La disminución a 1.5 mg es una sobrebloqueación de TLR4 que extingue el inicio de Nrf2. La recuperación a 4.5 mg corresponde a un mecanismo diferente — restauración de TRPM3 o compensación por opioides — que se activa a una concentración más alta.
+**¿Qué significa esto?** Tu mecanismo dominante es una regulación compensatoria de opioides. La hormesis de TLR4/Nrf2 habría invertido entre 3,0 y 4,5 mg si fuera el mecanismo dominante; el hecho de que el beneficio se mantenga a 4,5 mg descarta a TLR4/Nrf2 como el principal impulsor. La compensación de opioides alcanza una meseta, pero no se invierte: el cuerpo produce tanto opioide endógeno como puede, y el límite está determinado por la expresión de precursores, no por la dosis de LDN. La restauración de TRPM3 también puede contribuir; su dosis-respuesta in vivo es desconocida, aparte del rango de concentración alcanzado con las dosis clínicas de LDN.
+
+**¿Qué indica esto sobre tu enfermedad?** Un beneficio sin inversión significa que tu mecanismo terapéutico no depende de una señal de estrés que pueda desaparecer. La compensación de opioides está impulsada por el bloqueo de receptores; cuanto más bloqueo, más compensación, hasta el límite de síntesis. Esto es más seguro desde el punto de vista farmacológico que el mecanismo de Nrf2, porque no puede perderse mediante la escalada de dosis.
+
+**¿Qué predice?** A diferencia del paciente con hormesis de Nrf2, tu beneficio de LDN no predice una respuesta a otros activadores de Nrf2 — el sulfurofano o la melatonina pueden no tener efecto alguno. Tu patrón de ventana sugiere que la componente inflamatoria de tu enfermedad no es el factor limitante, o no está mediada por TLR4.
+
+**¿Qué hacer?** Aumenta la dosis hasta alcanzar la meseta y detente. Aumentar más allá de ese punto no añade más compensación de opioides — el límite es biológico, no farmacológico — y solo aumenta los efectos de TRPM3/orexina, que pueden ser neutros o adversos.
+
+---
+
+### Patrón 4: Forma M — beneficio a 0,5 mg, pérdida a 1,5 mg, recuperación a 4,5 mg
+
+**¿Qué significa esto?** Tienes dos mecanismos limitadores de velocidad que pueden ser abordados por el mismo medicamento en dosis diferentes. El primer pico corresponde a la ventana hormonal de TLR4/Nrf2. La disminución a 1,5 mg es una sobrebloqueación de TLR4 que extingue el cebado de Nrf2. La recuperación a 4,5 mg corresponde a un mecanismo diferente — restauración de TRPM3 o compensación por opioides — que se activa a una concentración más alta.
 
 **¿Qué indica para tu enfermedad?** Tu patología es de múltiples mecanismos, lo cual es excepcionalmente informativo. Tanto la neuroinflamación impulsada por TLR4 como la canalopatía de TRPM3 (o deficiencia de opioides) están contribuyendo. Estos dos mecanismos son separables por dosis — una separación experimental clara que la mayoría de los patrones de mecanismo único de los pacientes no puede ofrecer.
 
 **¿Qué predice?** Los dos picos predican cosas diferentes de forma independiente. El pico de dosis baja predice respuestas a medicamentos relacionados con Nrf2-cluster. El pico de dosis alta predice intervenciones relacionadas con TRPM3 o dominios de síntomas sensibles a opioides. Este paciente es el candidato ideal para ajustes específicos por mecanismo en lugar de una dosis de compromiso — es posible capturar ambos óptimos simultáneamente combinando un activador de Nrf2 de dosis baja (sulforafano, melatonina) con LDN a la dosis de TRPM3, en lugar de esperar que LDN solo haga ambos.
 
-**¿Qué hacer?** Elige la dosis que targetice tu dominio de síntomas principal. Si la neuroinflamación (malestar similar al de la gripe, niebla cognitiva) es la carga principal, mantén el pico de dosis baja y añade un agente dirigido a TRPM3 por separado. Si la hipersensibilidad sensorial o la disfunción de células NK es la carga principal, mantén el pico de dosis alta y añade un activador de Nrf2 por separado. No busques una dosis de compromiso — una dosis intermedia entre los dos picos no alcanza ni el óptimo ni el beneficio.
+**¿Qué hacer?** Elige la dosis que se dirija a tu dominio de síntomas principal. Si la neuroinflamación (malestar similar al de la gripe, niebla cognitiva) es la carga principal, mantén el pico de dosis baja y añade un agente dirigido a TRPM3 por separado. Si la hipersensibilidad sensorial o la disfunción de células NK es la carga principal, mantén el pico de dosis alta y añade un activador de Nrf2 por separado. No busques una dosis de compromiso — una dosis intermedia entre los dos picos no alcanza ni el óptimo ni el beneficio.
 
 ---
 
@@ -83,23 +83,23 @@ Cada mecanismo tiene su propia curva dosis-respuesta. Las curvas no tienen el mi
 
 **Lo que significa.** Ninguno de los cuatro mecanismos de la LDN es limitante en tu enfermedad. Este es un resultado negativo real, pero no significa que ninguno de los siguientes sea cierto:
 
-- Que la neuroinflamación no existe. La TLR4 es uno de los muchos receptores en la microglía. La no respuesta a la LDN seguida de una respuesta a la LDA es evidencia *de* la participación de la microglía, a través de la vía D2, no de la vía TLR4.
+- Que la neuroinflamación no existe. El TLR4 es uno de los muchos receptores en la microglía. La no respuesta a la LDN seguida de una respuesta a la LDA es evidencia *de* la participación de la microglía, a través de la vía D2, no de la vía TLR4.
 
 - Que la disfunción inmune no existe. La LDN no se dirige a las células B, los linfocitos T, los mastocitos o las células plasmáticas que producen autoanticuerpos. Modula un subgrupo específico de la señalización inmune innata.
 
-- Que la dosis fue incorrecta. La no respuesta a 0.5 mg puede significar que el mecanismo requiere una dosis más alta (Patrón 2). La no respuesta a 4.5 mg después de la escalada a todo el rango es evidencia más fuerte, ya que se han probado los cuatro optimos.
+- Que la dosis fue incorrecta. La no respuesta a 0,5 mg puede significar que el mecanismo requiere una dosis más alta (Patrón 2). La no respuesta a 4,5 mg después de la escalada a todo el rango es evidencia más fuerte, ya que se han probado los cuatro optimos.
 
-**Lo que indica sobre tu enfermedad.** Tu mecanismo limitante no es la TLR4, no es la opioides, no es el TRPM3 y no es la orexina. Es algo diferente: autoanticuerpos, patología de linfocitos B, activación de mastocitos, disfunción mitocondrial, daño estructural del SNC o un mecanismo que aún no se ha caracterizado. El resultado negativo reduce las posibilidades.
+**Lo que indica sobre tu enfermedad.** Tu mecanismo limitante no es el TLR4, no es el opioide, no es el TRPM3 y no es la orexina. Es algo diferente: autoanticuerpos, patología de linfocitos B, activación de mastocitos, disfunción mitocondrial, daño estructural del SNC o un mecanismo que aún no se ha caracterizado. El resultado negativo reduce las posibilidades.
 
 **Lo que predice.** Es poco probable que respondas a otros medicamentos que activan Nrf2, ya que convergen en la misma vía que la LDN no logró activar. Puede que respondas a medicamentos que apuntan a los candidatos restantes: LDA para la microglía D2, inmunoadsorción para autoanticuerpos, estabilizadores de mastocitos para MCAS y rapamicina para la falla de autofagia impulsada por mTORC1.
 
-**Qué hacer.** No aumente la dosis más allá de 4.5 mg. La no respuesta a 4.5 mg después de probar todo el rango significa que se han intentado todos los cuatro mecanismos terapéuticos. La naltrexona a dosis estándar (50 mg) bloquea los receptores opioides de forma absoluta; no puede ayudar a un paciente que no se benefició de la regulación compensatoria de opioides a 4.5 mg, y bloquea activamente el mecanismo que podría haber funcionado a una dosis más baja.
+**Qué hacer.** No aumentes la dosis más allá de 4,5 mg. La no respuesta a 4,5 mg después de probar todo el rango significa que se han intentado todos los cuatro mecanismos terapéuticos. La naltrexona a dosis estándar (50 mg) bloquea los receptores opioides de forma absoluta; no puede ayudar a un paciente que no se benefició de la regulación compensatoria de opioides a 4,5 mg, y bloquea activamente el mecanismo que podría haber funcionado a una dosis más baja.
 
 ---
 
 ## Por qué las microdosis pueden provocar brotes: el sobrepaso homeostático
 
-Antes de que un paciente pueda entrar en uno de los cinco patrones de diagnóstico, debe superar la perturbación inicial. En algunos pacientes, incluso la dosis clínica más baja (0.25–0.5 mg) no produce beneficio, sino un brote sistémico: agitación neurológica, interrupción del sueño y activación inmunitaria. Si la LDN a 0.5 mg fuera simplemente un fenómeno de ocupación de receptores, esto no debería ocurrir. Las matemáticas de los receptores predicen efectos insignificantes en microdosis. Sin embargo, los brotes ocurren frecuentemente en poblaciones de EM/SFC sensibilizadas.
+Antes de que un paciente pueda entrar en uno de los cinco patrones de diagnóstico, debe superar la perturbación inicial. En algunos pacientes, incluso la dosis clínica más baja (0,25–0,5 mg) no produce beneficio, sino un brote sistémico: agitación neurológica, interrupción del sueño y activación inmunitaria. Si la LDN a 0,5 mg fuera simplemente un fenómeno de ocupación de receptores, esto no debería ocurrir. Las matemáticas de los receptores predicen efectos insignificantes en microdosis. Sin embargo, los brotes ocurren frecuentemente en poblaciones de EM/SFC sensibilizadas.
 
 La explicación no está en la ocupación de receptores, sino en la *reacción* del organismo ante esa ocupación. La hormesis describe una respuesta de estrés celular bifásica: la perturbación inicial, incluso la más mínima, activa cascadas de señalización compensatorias que pueden sobrepasar los límites. En un sistema saludable con suficiente capacidad de amortiguación, este sobrepaso se disminuye y el efecto neto es una elevación adaptativa terapéutica. En un sistema con resiliencia celular comprometida, la misma perturbación inicial desencadena una corrección desestabilizadora.
 
@@ -107,7 +107,7 @@ En particular para la LDN, el bloqueo transitorio de los receptores opioides en 
 
 La misma lógica se aplica a la vía Nrf2. El bloqueo parcial de TLR4 desencadena una señalización oxidativa que debería activar la expresión génica antiinflamatoria mediada por Nrf2. Pero si el equilibrio redox de la célula ya está precario — si las especies reactivas de oxígeno en base están elevadas y los reservorios de glutationa están agotados — la perturbación oxidativa inicial, incluso si es leve, puede empujar a la célula por encima del umbral de tolerancia al estrés antes de que Nrf2 tenga tiempo de ejecutar su programa protector. La ventana hormética colapsa antes de abrirse.
 
-Este marco reinterpreta los brotes causados por microdosis no como intolerancia a la droga en el sentido convencional, sino como un desajuste entre la magnitud de la perturbación y la capacidad adaptativa del sistema en ese momento. Predice que el mismo paciente que provoca brotes con 0.5 mg hoy podría tolerar 0.25 mg y, gradualmente, ampliar su ventana hormética durante semanas a medida que su infraestructura celular se adapta. También predice que los pacientes con la carga allostática más alta — los casos más graves — son los más propensos a provocar brotes en microdosis, no porque la droga sea incorrecta, sino porque su capacidad de amortiguación es más limitada.
+Este marco reinterpreta los brotes causados por microdosis no como intolerancia a la droga en el sentido convencional, sino como un desajuste entre la magnitud de la perturbación y la capacidad adaptativa del sistema en ese momento. Predice que el mismo paciente que provoca brotes con 0,5 mg hoy podría tolerar 0,25 mg y, gradualmente, ampliar su ventana hormética durante semanas a medida que su infraestructura celular se adapta. También predice que los pacientes con la carga allostática más alta — los casos más graves — son los más propensos a provocar brotes en microdosis, no porque la droga sea incorrecta, sino porque su capacidad de amortiguación es más limitada.
 
 Esta es la condición previa para los cinco patrones de diagnóstico descritos anteriormente. Si un paciente no puede entrar en la ventana hormética con cualquier dosis, el resultado diagnóstico no es un número de patrón, sino una observación fundamental: la capacidad adaptativa del sistema está actualmente por debajo del umbral necesario para generar una respuesta compensatoria. La tarea clínica pasa de encontrar la dosis a construir la infraestructura — reduciendo la carga allostática a través de la estimulación, la restauración del sueño y el apoyo metabólico — antes de reintroducir la señal farmacológica.
 
@@ -123,7 +123,7 @@ Cada patrón mencionado anteriormente es una predicción mecánica de un modelo 
 - La restauración de TRPM3 mediante naltrexona documentada en cultivo de células NK, pero no correlacionada con la dosis-respuesta clínica.
 - La disinhibición de orexina inferida de la farmacología de naltrexona, pero nunca medida directamente a dosis de LDN.
 
-El modelo es falsifiable. Un ensayo de dosis-respuesta de cuatro brazos con cruce (0.5, 1.5, 3.0, 4.5 mg, n ≥ 30 por brazo, 8 semanas por dosis) confirmaría o refutaría cada patrón descrito aquí. El próximo ensayo LIFT utiliza una única dosis fija de LDN y no puede abordar esta cuestión. La mayor brecha de evidencia en la literatura sobre LDN es un estudio prospectivo de dosis-respuesta dentro del rango deseado — el costo estimado $200,000–$400,000, afectando cada prescripción de LDN escrita para cualquier enfermedad crónica.
+El modelo es falsifiable. Un ensayo de dosis-respuesta de cuatro brazos con cruce (0,5, 1,5, 3,0, 4,5 mg, n ≥ 30 por brazo, 8 semanas por dosis) confirmaría o refutaría cada patrón descrito aquí. El próximo ensayo LIFT utiliza una única dosis fija de LDN y no puede abordar esta cuestión. La mayor brecha de evidencia en la literatura sobre LDN es un estudio prospectivo de dosis-respuesta dentro del rango deseado — el costo estimado $200,000–$400.000, afectando cada prescripción de LDN escrita para cualquier enfermedad crónica.
 
 ---
 
@@ -131,8 +131,8 @@ El modelo es falsifiable. Un ensayo de dosis-respuesta de cuatro brazos con cruc
 
 | Afirmación | Certeza |
 |-------|-----------|
-| La pérdida del beneficio de LDN a 3.0–4.5 mg indica la dominancia hormética de TLR4/Nrf2 | Baja — fundamentada mecanísticamente pero nunca probada prospectivamente |
-| El beneficio de LDN solo a 3.0–4.5 mg indica la dominancia de TRPM3 o orexina | Baja — inferencia basada en datos in vitro de TRPM3 y farmacología de orexina; nunca probada |
+| La pérdida del beneficio de LDN a 3,0–4,5 mg indica la dominancia hormética de TLR4/Nrf2 | Baja — fundamentada mecanísticamente pero nunca probada prospectivamente |
+| El beneficio de LDN solo a 3,0–4,5 mg indica la dominancia de TRPM3 o orexina | Baja — inferencia basada en datos in vitro de TRPM3 y farmacología de orexina; nunca probada |
 | La forma de la curva dosis-respuesta indica dos óptimos no superpuestos | Baja — predicho por el modelo de múltiples objetivos; nunca observado prospectivamente |
 | La forma de la curva dosis-respuesta predice la respuesta a otros activadores de Nrf2 | Baja — la predicción de correlación dentro del cluster es teóricamente coherente pero totalmente no probada |
 | La no respuesta en todas las dosis descarta los mecanismos de TLR4, opioides, TRPM3 y orexina | Moderada — los cuatro objetivos son los conocidos objetivos de LDN; la ausencia de respuesta en todas las concentraciones probadas es evidencia débil de ausencia, pero más fuerte que la no respuesta en una única dosis |

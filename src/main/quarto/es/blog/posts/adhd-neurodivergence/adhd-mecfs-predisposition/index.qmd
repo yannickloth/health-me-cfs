@@ -1,5 +1,5 @@
 ---
-title: "Por qué las personas con TDAH tienen EM/SFC a la doble tasa"
+title: "Por qué las personas con TDAH tienen EM/SFC al doble de la tasa"
 description: "Este es el segundo artículo de una serie sobre la biología de la energía que relaciona TDAH, autismo y EM/SFC. El primer artículo presentó la hipótesis de que TDAH se debe a un déficit en la producción de energía cerebral. Este artículo responde a la siguiente pregunta: ¿por qué ese déficit podría hacer que las personas sean vulnera..."
 author: "Yannick Loth"
 date: "2026-05-08"
@@ -13,10 +13,10 @@ Este es el segundo artículo de una serie sobre la biología energética que rel
 
 ## El signo epidemiológico
 
-La cohorte de nacimiento ALSPAC —una de los mayores estudios longitudinales del mundo— siguió a 4,563 niños desde el nacimiento hasta los 18 años. Los hallazgos sobre rasgos neurodivergentes y fatiga son sorprendentes [@Quadt2024neurodivergentfatigue]:
+La cohorte de nacimiento ALSPAC —uno de los mayores estudios longitudinales del mundo— siguió a 4.563 niños desde el nacimiento hasta los 18 años. Los hallazgos sobre rasgos neurodivergentes y fatiga son sorprendentes [@Quadt2024neurodivergentfatigue]:
 
-- **Rasgos de TDAH a los 9 años → OR = 2.18** (95% CI 1.33–3.56, p = 0.002) para fatiga crónica incapacitante a los 18 años *(nota: el resultado medido fue "fatiga crónica incapacitante", no EM/SFC diagnosticada según los criterios ICC o CCC)*
-- **Rasgos de autismo a los 7 años → OR = 1.78** (95% CI 1.17–2.72, p = 0.004)
+- **Rasgos de TDAH a los 9 años → OR = 2,18** (95% CI 1,33–3,56, p = 0,002) para fatiga crónica incapacitante a los 18 años *(nota: el resultado medido fue "fatiga crónica incapacitante", no EM/SFC diagnosticada según los criterios ICC o CCC)*
+- **Rasgos de autismo a los 7 años → OR = 1,78** (95% CI 1,17–2,72, p = 0,004)
 - **IL-6 a los 9 años medió la vía** —independiente de la depresión
 
 Los niños que desarrollaron fatiga no eran simplemente neurodivergentes. Eran neurodivergentes Y ya inflamados. La inflamación fue medible durante nueve años completos antes de que apareciera la fatiga.
@@ -27,10 +27,10 @@ Los niños que desarrollaron fatiga no eran simplemente neurodivergentes. Eran n
 
 Entre adultos con EM/SFC confirmada (n = 158, clínica de especialista único) [@SaezFrancas2012adhdcfs]:
 
-- **29.7% tenían TDAH en la infancia** — en comparación con aproximadamente 5–7% en la población general. Un 5 veces mayor enriquecimiento.
-- **20.9% aún cumplían con los criterios de TDAH en adultos**
+- **29,7% tenían TDAH en la infancia** — en comparación con aproximadamente 5–7% en la población general. Un enriquecimiento 5 veces mayor.
+- **20,9% aún cumplían con los criterios de TDAH en adultos**
 - Aquellos con TDAH asociado tenían **un inicio más temprano de EM/SFC y un pronóstico peor**
-- La gravedad del TDAH y los síntomas depresivos eran **predicciones independientes** de la intensidad de la fatiga
+- La gravedad del TDAH y los síntomas depresivos eran **predictores independientes** de la intensidad de la fatiga
 
 *Advertencias: se trata de una muestra de clínica de especialista en un solo sitio (posible sesgo de referencia), el TDAH se evaluó retrospectivamente en adultos que recordaban síntomas infantiles (sesgo de recordación), y la EM/SFC se diagnosticó según los criterios de Fukuda (más amplio que ICC/CCC). El enriquecimiento puede ser menor en muestras basadas en la comunidad.*
 
@@ -40,7 +40,7 @@ Entre adultos con EM/SFC confirmada (n = 158, clínica de especialista único) [
 
 Piensa en la producción de energía cerebral como un generador con un cierto límite máximo de salida. La función cognitiva diaria requiere una fracción de esa salida. La diferencia entre lo que necesitas y lo que puedes producir es tu **reserva metabólica** — tu respaldo para cuando las demandas aumentan.
 
-El cerebro con TDAH ya opera con **8.1% menos metabolismo de glucosa global** [@Zametkin1990] y una documentada **hipoperfusión en el prefrontal** [@Berthier2025cbfadhd]. Su generador es más pequeño. Su reserva es más escasa.
+El cerebro con TDAH ya opera con **8,1% menos metabolismo de glucosa global** [@Zametkin1990] y una documentada **hipoperfusión en el prefrontal** [@Berthier2025cbfadhd]. Su generador es más pequeño. Su reserva es más escasa.
 
 Ahora añade un desencadenante inmunitario.
 
@@ -52,14 +52,14 @@ En alguien cuya reserva ya era marginal — cuyo cerebro ya operaba cerca de su 
 
 ## El modelo del umbral de dos impactos
 
-La transición de la fatiga postinfecciosa a EM/SFC puede ocurrir en un umbral específico — aunque esto sigue siendo una hipótesis, no un evento biofísico demostrado. El mecanismo propuesto es el siguiente: cuando el daño mitocondrial causado por especies reactivas de oxígeno supera la capacidad de reparación, comienza un ciclo autosostenible: las mitocondria dañadas producen más ROS, lo que daña más mitocondria, y estas producen aún más ROS. El sistema no regresa espontáneamente al estado previo a la enfermedad.
+La transición de la fatiga postinfecciosa a EM/SFC puede ocurrir en un umbral específico — aunque esto sigue siendo una hipótesis, no un evento biofísico demostrado. El mecanismo propuesto es el siguiente: cuando el daño mitocondrial causado por especies reactivas de oxígeno supera la capacidad de reparación, comienza un ciclo autosostenible: las mitocondrias dañadas producen más ROS, lo que daña más mitocondrias, y estas producen aún más ROS. El sistema no regresa espontáneamente al estado previo a la enfermedad.
 
 La reserva metabólica preexistente determina quién supera este umbral:
 
 - **Alta reserva** (neurotípica, sin factores de riesgo metabólico): infección → fatiga transitoria → recuperación
 - **Baja reserva** (TDAH, ASD, déficit de hierro, hEDS): infección → superación del umbral → EM/SFC
 
-El modelo predice **hiestasis** — la reversión de la infección no revierte la EM/SFC, porque el ciclo de daño feed-forward ahora es autosostenible.
+El modelo predice **histéresis** — la reversión de la infección no revierte la EM/SFC, porque el ciclo de daño feed-forward ahora es autosostenible.
 
 *Una explicación alternativa más simple: los datos de ALSPAC mostraron que IL-6 mediaba este proceso. La inflamación crónica sola — sin ningún concepto de “reserva” — podría causar directamente tanto las características neurodivergentes como la vulnerabilidad a la fatiga posterior. El modelo de reserva metabólica añade valor explicativo solo si la corrección de déficits de reserva (hierro, BH4, perfusión) previene el inicio de EM/SFC — una predicción que aún no ha sido probada.*
 
@@ -67,11 +67,11 @@ El modelo predice **hiestasis** — la reversión de la infección no revierte l
 
 ## La disociación estimulante: coherente con el modelo
 
-Un estudio de PNAS de 2025 con 3,925 pacientes con EM/SFC encontró [@Eckey2025PatientReported]:
+Un estudio de PNAS de 2025 con 3.925 pacientes con EM/SFC encontró [@Eckey2025PatientReported]:
 
-- Los estimulantes mejoraron la **niebla cerebral en el 77.1%**
-- Los estimulantes mejoraron la **percepción de fatiga en el 71.7%**
-- Los estimulantes tuvieron un **efecto neto de -1.5% en PEM**
+- Los estimulantes mejoraron la **niebla cerebral en el 77,1%**
+- Los estimulantes mejoraron la **percepción de fatiga en el 71,7%**
+- Los estimulantes tuvieron un **efecto neto de -1,5% en PEM**
 
 Esta disociación es exactamente lo que predice el modelo de reserva metabólica. Los estimulantes aumentan la eficiencia de catecolaminas, reduciendo el costo energético de cada unidad cognitiva. Aumentan efectivamente el espacio cognitivo. Pero no aumentan la capacidad máxima de mitocondria. PEM se desencadena por un gasto metabólico total que supera la capacidad de producción, algo que los estimulantes no cambian.
 
@@ -81,9 +81,9 @@ La mejora en la cognición a menudo lleva a un aumento en la actividad — gasta
 
 ## Precedencia temporal: TDAH es lo primero
 
-Un punto crítico que a menudo se pasa por alto: los datos de ALSPAC muestran que **las características de TDAH preceden el inicio de la fatiga casi un decenio** [@Quadt2024neurodivergentfatigue]. Esto no significa que el EM/SFC cause TDAH. Es el TDAH el que indica que el cerebro se romperá primero cuando llegue un desencadenante inmunitario.
+Un punto crítico que a menudo se pasa por alto: los datos de ALSPAC muestran que **las características de TDAH preceden el inicio de la fatiga casi un decenio** [@Quadt2024neurodivergentfatigue]. Esto no significa que la EM/SFC cause TDAH. Es el TDAH el que indica que el cerebro se romperá primero cuando llegue un desencadenante inmunitario.
 
-El 29.7% de prevalencia de TDAH en la infancia en las cohortes de CFS cuenta la misma historia desde otro ángulo [@SaezFrancas2012adhdcfs]: casi un tercio de los pacientes con EM/SFC tenían un déficit de energía preexistente que podía ser diagnosticado como TDAH en la infancia.
+El 29,7% de prevalencia de TDAH en la infancia en las cohortes de CFS cuenta la misma historia desde otro ángulo [@SaezFrancas2012adhdcfs]: casi un tercio de los pacientes con EM/SFC tenían un déficit de energía preexistente que podía ser diagnosticado como TDAH en la infancia.
 
 ---
 
@@ -95,7 +95,7 @@ Si la hipótesis de la reserva metabólica es correcta, la predisposición no es
 
 **Soporte del cofactor BH4.** Para los portadores de GCH1 rs841 (~4% de la población), la suplementación de BH4 o el soporte del cofactor (ácido folínico, vitamina C, hierro para reciclaje) pueden aumentar la reserva [@Williams2025GCH1BH4].
 
-**Perfusión cerebral.** En pacientes con POTS/dysautonomía simultáneos, el manejo estándar de perfusión (compresión, carga de líquidos/sal, posiciones de trabajo reclinadas) aumenta directamente la entrega de energía al cerebro.
+**Perfusión cerebral.** En pacientes con POTS/disautonomía simultáneos, el manejo estándar de perfusión (compresión, carga de líquidos/sal, posiciones de trabajo reclinadas) aumenta directamente la entrega de energía al cerebro.
 
 Ningún estudio ha probado si la corrección preventiva de estos reducidores de reserva modificables en pacientes neurodivergentes reduce la incidencia de EM/SFC después de una infección. La predicción es clara. La prueba no se ha realizado.
 

@@ -1,13 +1,13 @@
 ---
 title: "Cuando las células no pueden producir energía: la biología detrás de la EM/SFC"
-description: "Sus células contienen solo unos 50 gramos de ATP. Esa pequeña cantidad se recicla tan rápidamente que el volumen diario de reciclaje alcanza unos 50 kg. Ahora imagina ese proceso en descomposición —no como en caso de apagón, sino como una red eléctrica con la capacidad reducida a la mitad."
+description: "Tus células contienen solo unos 50 gramos de ATP. Esa pequeña cantidad se recicla tan rápidamente que el volumen diario de reciclaje alcanza unos 50 kg. Ahora imagina ese proceso en descomposición —no como en caso de apagón, sino como una red eléctrica con la capacidad reducida a la mitad."
 author: "Yannick Loth"
 date: "2026-03-01"
 categories: [Energy Metabolism, Mitochondria, Pathophysiology]
 lang: es
 ---
 
-Sus células contienen solo unos 50 gramos de ATP, el combustible molecular que impulsa todo lo que tu cuerpo hace. Pero esa pequeña cantidad se consume y se recrea tan rápidamente —cada molécula se recicla aproximadamente mil veces al día— que el total diario de rotación alcanza unos 50 kg. Todo esto solo para mantenerte vivo y funcionando.
+Tus células contienen solo unos 50 gramos de ATP, el combustible molecular que impulsa todo lo que tu cuerpo hace. Pero esa pequeña cantidad se consume y se recrea tan rápidamente —cada molécula se recicla aproximadamente mil veces al día— que el total diario de rotación alcanza unos 50 kg. Todo esto solo para mantenerte vivo y funcionando.
 
 Ahora imagina que ese proceso se detiene.
 
@@ -21,35 +21,35 @@ No completamente. No como en una interrupción de energía. Más como una red el
 
 Cada célula funciona con ATP. La línea de producción tiene tres etapas, y deben funcionar en secuencia:
 
-**Etapa 1 — Glucólisis.** En el citoplasma de la célula, el glucosa se descompone en piruvato (una molécula más pequeña que alimenta la siguiente etapa). Esto es rápido pero ineficiente: 2 ATP por molécula de glucosa. No se necesita oxígeno.
+**Etapa 1 — Glucólisis.** En el citoplasma de la célula, la glucosa se descompone en piruvato (una molécula más pequeña que alimenta la siguiente etapa). Esto es rápido pero ineficiente: 2 ATP por molécula de glucosa. No se necesita oxígeno.
 
-**Etapa 2 — El ciclo de Krebs.** Dentro de las mitocondria (las plantas de energía de la célula), el piruvato se procesa más aún, generando portadores de electrones que se suman a la etapa final.
+**Etapa 2 — El ciclo de Krebs.** Dentro de las mitocondrias (las plantas de energía de la célula), el piruvato se procesa más aún, generando portadores de electrones que se suman a la etapa final.
 
-**Etapa 3 — La cadena de transporte de electrones (ETC).** Aquí es donde proviene la verdadera energía. Los electrones pasan a través de una serie de complejos proteicos en la membrana mitocondrial, bombardeando protones para crear un gradiente electroquímico. Ese gradiente impulsa la ATP sintasa — una turbina molecular — que representa la gran mayoría de la producción de ATP.
+**Etapa 3 — La cadena de transporte de electrones (ETC).** Aquí es donde proviene la verdadera energía. Los electrones pasan a través de una serie de complejos proteicos en la membrana mitocondrial, bombeando protones para crear un gradiente electroquímico. Ese gradiente impulsa la ATP sintasa — una turbina molecular — que representa la gran mayoría de la producción de ATP.
 
 Juntas, las tres etapas producen aproximadamente 30-32 ATP por glucosa — y la Etapa 3 produce alrededor del 90% de ese total. Cuando falla, todo lo que sigue sufre las consecuencias.
 
 ---
 
-## ¿Qué sucede cuando las células no pueden producir energía: la biología detrás de la EM/SFC
+## Qué va mal en la EM/SFC
 
 La investigación ha identificado disfunción en múltiples puntos de esta cadena. Aquí está lo que las pruebas muestran — y lo que las matemáticas revelan.
 
-**Disfunción en la actividad del complejo I.** Los estudios sobre linfocitos (células inmunitarias del sangre) de pacientes con EM/SFC muestran una reducida función del complejo I, el primer y más grande componente de la cadena de transporte de electrones. Cuando modelamos esto matemáticamente, algo sorprendente se revela: la relación entre el daño en el complejo I y la pérdida de ATP no es proporcional. Hay un acantilado.
+**Disfunción en la actividad del complejo I.** Los estudios sobre linfocitos (células inmunitarias de la sangre) de pacientes con EM/SFC muestran una reducida función del complejo I, el primer y más grande componente de la cadena de transporte de electrones. Cuando modelamos esto matemáticamente, algo sorprendente se revela: la relación entre el daño en el complejo I y la pérdida de ATP no es proporcional. Hay un acantilado.
 
-La ATP synthase solo funciona cuando el potencial eléctrico a través de la membrana mitocondrial (ΔΨ) supera un umbral mínimo — aproximadamente 110 milivolts. Su salida es proporcional a cuánto por encima de ese umbral se encuentra el potencial:
+La ATP sintasa solo funciona cuando el potencial eléctrico a través de la membrana mitocondrial (ΔΨ) supera un umbral mínimo — aproximadamente 110 milivolts. Su salida es proporcional a cuánto por encima de ese umbral se encuentra el potencial:
 
-> **Regla del modelo:** Fuerza de acción de la ATP synthase = (ΔΨ − 110) / ΔΨ
+> **Regla del modelo:** Fuerza impulsora de la ATP sintasa = (ΔΨ − 110) / ΔΨ
 
 En estado de salud, ΔΨ se encuentra en aproximadamente 160 mV — suficiente margen:
 
-> Fuerza de acción saludable = (160 − 110) / 160 = 50/160 = **31%** del valor máximo teórico
+> Fuerza impulsora saludable = (160 − 110) / 160 = 50/160 = **31%** del valor máximo teórico
 
 Con un 35% de disfunción en el complejo I, la reducida bomba de protones reduce ΔΨ a aproximadamente 135 mV:
 
-> Fuerza de acción en EM/SFC = (135 − 110) / 135 = 25/135 = **19%** del valor máximo
+> Fuerza impulsora en EM/SFC = (135 − 110) / 135 = 25/135 = **19%** del valor máximo
 
-La caída del 31% al 19% representa una **39% reducción en la salida de la ATP synthase** — debido a solo un 35% de daño en el complejo I. Y cuanto más cerca está ΔΨ de los 110 mV, más pronunciado se vuelve el acantilado: en 125 mV, la fuerza de acción es solo el 12%; en 115 mV, solo el 4%. Por esta razón, los pacientes cerca del umbral experimentan una falla catastrófica en la energía debido a insultos adicionales aparentemente modestos.
+La caída del 31% al 19% representa una **reducción del 39% en la salida de la ATP sintasa** — debido a solo un 35% de daño en el complejo I. Y cuanto más cerca está ΔΨ de los 110 mV, más pronunciado se vuelve el acantilado: en 125 mV, la fuerza impulsora es solo el 12%; en 115 mV, solo el 4%. Por esta razón, los pacientes cerca del umbral experimentan una falla catastrófica en la energía debido a insultos adicionales aparentemente modestos.
 
 **Desequilibrio redox de NAD+.** El ciclo de Krebs depende de NAD+ (nicotinamida adenina dinucleótido), una molécula que transporta electrones a la cadena de transporte de electrones. Se desplaza entre dos formas: NAD+ ("vacío", listo para recoger electrones) y NADH ("lleno", llevando electrones para entregar). En EM/SFC, este equilibrio se desplaza — hay menos en la forma usable de NAD+, más atrapado como NADH gastado — un desequilibrio redox estimado en 10-40%.
 
@@ -57,17 +57,17 @@ El rendimiento del ciclo de Krebs depende de la relación entre NAD+ y el total 
 
 > **Regla del modelo:** Flujo de Krebs ∝ [NAD+] / ([NAD+] + [NADH])
 
-En estado de salud, esta relación se encuentra en aproximadamente 0.85 (la mayoría de NAD está en la forma oxidada, lista para usar). Con un desplazamiento redox del 30% — NAD+ se convierte en NADH porque la cadena de transporte de electrones dañada no puede reciclarla lo suficiente — la relación baja a aproximadamente 0.60:
+En estado de salud, esta relación se encuentra en aproximadamente 0,85 (la mayoría de NAD está en la forma oxidada, lista para usar). Con un desplazamiento redox del 30% — NAD+ se convierte en NADH porque la cadena de transporte de electrones dañada no puede reciclarlo lo suficiente — la relación baja a aproximadamente 0,60:
 
-> Factor de flujo de Krebs saludable = 0.85
-> Factor de flujo de Krebs en EM/SFC = 0.60
-> Reducción = (0.85 − 0.60) / 0.85 = **29%** — aproximadamente igual al desplazamiento redox del 30%
+> Factor de flujo de Krebs saludable = 0,85
+> Factor de flujo de Krebs en EM/SFC = 0,60
+> Reducción = (0,85 − 0,60) / 0,85 = **29%** — aproximadamente igual al desplazamiento redox del 30%
 
-Esta relación casi 1:1 se mantiene cuando NAD+ es el factor limitante. Cuando otros sustratos (acil-CoA, oxaloacetato) también se agotan — como puede ocurrir en EM/SFC — los déficits se multiplican en lugar de sumarse. Esa reducción del 29% en el ciclo de Krebs se combina multiplicativamente con la disfunción de la cadena de transporte de electrones.
+Esta relación casi 1:1 se mantiene cuando NAD+ es el factor limitante. Cuando otros sustratos (acetil-CoA, oxaloacetato) también se agotan — como puede ocurrir en EM/SFC — los déficits se multiplican en lugar de sumarse. Esa reducción del 29% en el ciclo de Krebs se combina multiplicativamente con la disfunción de la cadena de transporte de electrones.
 
-**Un sistema de limpieza dañado.** Las mitocondria dañadas deben ser identificadas y reemplazadas a través de un proceso llamado mitofagia, esencialmente un control de calidad celular. Pero la mitofagia en sí requiere ATP. Cuando las mitocondria están dañadas y el ATP es bajo, la célula no puede eliminar la maquinaria dañada, ya que la energía necesaria para la limpieza es exactamente lo que la maquinaria dañada no puede producir. Este es un ciclo sin salida que nuestro modelado matemático identificó como un punto de inflexión potencial: por debajo de un nivel crítico de ATP, el control de calidad colapsa y las mitocondria dañadas se acumulan sin control.
+**Un sistema de limpieza dañado.** Las mitocondrias dañadas deben ser identificadas y reemplazadas a través de un proceso llamado mitofagia, esencialmente un control de calidad celular. Pero la mitofagia en sí requiere ATP. Cuando las mitocondrias están dañadas y el ATP es bajo, la célula no puede eliminar la maquinaria dañada, ya que la energía necesaria para la limpieza es exactamente lo que la maquinaria dañada no puede producir. Este es un ciclo sin salida que nuestro modelado matemático identificó como un punto de inflexión potencial: por debajo de un nivel crítico de ATP, el control de calidad colapsa y las mitocondrias dañadas se acumulan sin control.
 
-**Radicales libres descontrolados.** Cuando la cadena de transporte de electrones está dañada, los electrones se filtran y reaccionan con el oxígeno para formar especies reactivas de oxígeno (ROS), radicales libres que dañan los enzimas de los que provienen.
+**Radicales libres descontrolados.** Cuando la cadena de transporte de electrones está dañada, los electrones se filtran y reaccionan con el oxígeno para formar especies reactivas de oxígeno (ROS), radicales libres que dañan las enzimas de los que provienen.
 
 El modelo captura esto con un principio simple: cuanto más lento es el funcionamiento de la cadena en relación con su capacidad, más electrones se filtran:
 
@@ -75,15 +75,15 @@ El modelo captura esto con un principio simple: cuanto más lento es el funciona
 
 En estado saludable, el complejo I funciona a aproximadamente el 95% de su capacidad. La fracción de filtrado es pequeña:
 
-> Factor de ROS saludable = 1 − 0.95 = **0.05**
+> Factor de ROS saludable = 1 − 0,95 = **0,05**
 
 Con un daño del 35% en el complejo I (funcionando al 65% de su capacidad):
 
-> Factor de ROS en EM/SFC = 1 − 0.65 = **0.35**
+> Factor de ROS en EM/SFC = 1 − 0,65 = **0,35**
 
-> Relación: 0.35 / 0.05 = **7×** más producción de ROS
+> Relación: 0,35 / 0,05 = **7×** más producción de ROS
 
-Este aumento 7 veces explica por qué los marcadores de estrés oxidativo están consistentemente elevados en la investigación sobre EM/SFC — y por qué el daño se refuerza: más ROS daña más enzimas, lo que ralentiza aún más la cadena, lo que produce más ROS. Un ciclo vicioso.
+Este aumento de 7 veces explica por qué los marcadores de estrés oxidativo están consistentemente elevados en la investigación sobre EM/SFC — y por qué el daño se refuerza: más ROS daña más enzimas, lo que ralentiza aún más la cadena, lo que produce más ROS. Un ciclo vicioso.
 
 ---
 
@@ -91,15 +91,15 @@ Este aumento 7 veces explica por qué los marcadores de estrés oxidativo están
 
 El síntoma característico de EM/SFC es el malestar post-esfuerzo (PEM): un empeoramiento retrasado y desproporcionado de los síntomas después de un esfuerzo físico, cognitivo o incluso emocional. Esto no es simplemente "estar cansado después del ejercicio". Es un evento metabólico medible.
 
-La prueba de ejercicio cardiopulmonar de dos días (CPET) muestra algo que no ocurre en ninguna otra condición de fatiga: los pacientes con EM/SFC presentan un estado *peor* en el segundo día que en el primer día. Los controles saludables mantienen o mejoran. Las personas con condición deprimida mantienen su estado. Solo en EM/SFC el sistema se degrada con el uso.
+La prueba de ejercicio cardiopulmonar de dos días (CPET) muestra algo que no ocurre en ninguna otra condición de fatiga: los pacientes con EM/SFC rinden *peor* en el segundo día que en el primer día. Los controles saludables mantienen o mejoran. Las personas desacondicionadas mantienen. Las personas con depresión mantienen. Solo en EM/SFC el sistema se degrada con el uso.
 
 Nuestro modelo de metabolismo energético explica el mecanismo:
 
 1. **El esfuerzo aumenta la demanda de ATP** — los músculos, el cerebro o las células inmunitarias necesitan más energía.
 2. **El sistema dañado no puede mantenerse** — la producción llega al límite por debajo de la demanda y los niveles de ATP disminuyen.
 3. **La célula entra en crisis** — la escasez de ATP activa el sistema de alarma de déficit energético de la célula (una enzima sensora de energía llamada AMPK), las cascadas inflamatorias y lo que el investigador Robert Naviaux ha descrito como una "respuesta de peligro celular".
-4. **Aumento de ROS** — las mitocondria funcionales restantes se someten a mayor presión para compensar, generando un aumento de radicales libres a partir de la cadena de electrones sobrecargada.
-5. **Daño secundario sigue** — pero a una escala de tiempo retrasada. La producción de mediadores inflamatorios alcanza su punto máximo 6-24 horas después de la daño tisular. Los efectos posteriores como la hinchazón tisular y la sensibilización nerviosa ocurren horas o días después.
+4. **Aumento de ROS** — las mitocondrias funcionales restantes se someten a mayor presión para compensar, generando un aumento de radicales libres a partir de la cadena de electrones sobrecargada.
+5. **Daño secundario sigue** — pero a una escala de tiempo retrasada. La producción de mediadores inflamatorios alcanza su punto máximo 6-24 horas después del daño tisular. Los efectos posteriores como la hinchazón tisular y la sensibilización nerviosa ocurren horas o días después.
 
 Esta secuencia explica el retraso característico de 12-72 horas del PEM. El esfuerzo es el desencadenante, pero los síntomas provienen de la ola de daño secundario.
 
@@ -107,13 +107,13 @@ Y aquí está la parte crítica: la maquinaria de recuperación también está d
 
 ---
 
-## El envelope energético — un marco matemático para el ritmo
+## La envolvente energética — un marco matemático para el ritmo
 
 La estrategia clínica llamada "ritmo" — mantenerse dentro de los límites de energía — tiene una base matemática rigurosa. El presupuesto diario de energía disponible es:
 
-**Presupuesto = Capacidad de producción máxima − Funciones vitales base − Costos de reparación en curso**
+**Presupuesto = Capacidad de producción máxima − Funciones vitales base − Costes de reparación en curso**
 
-En EM/SFC, los tres términos se mueven en la dirección equivocada. La capacidad de producción máxima es menor (mitocondrias dañadas). Los costos base pueden ser más altos (la activación inmunitaria crónica quema energía). Los costos de reparación son elevados (el daño oxidativo continuo necesita reparación). Lo que queda para actividades diarias — caminar, pensar, hablar — puede ser sorprendentemente pequeño.
+En EM/SFC, los tres términos se mueven en la dirección equivocada. La capacidad de producción máxima es menor (mitocondrias dañadas). Los costes base pueden ser más altos (la activación inmunitaria crónica quema energía). Los costes de reparación son elevados (el daño oxidativo continuo necesita reparación). Lo que queda para actividades diarias — caminar, pensar, hablar — puede ser sorprendentemente pequeño.
 
 Mantenerse dentro de este marco evita los episodios de PEM. Con el tiempo, nuestro modelo predice que esto podría permitir una recuperación parcial de las mitocondrias reduciendo el daño mediado por ROS que mantiene el ciclo.
 
@@ -123,7 +123,7 @@ Mantenerse dentro de este marco evita los episodios de PEM. Con el tiempo, nuest
 
 Cuando combinamos el modelo de energía con la dinámica inmune, la regulación autónoma (el control automático del sistema nervioso sobre la frecuencia cardíaca, la presión arterial y la digestión) y la señalización hormonal en un sistema matemático integrado de 67 variables, se obtuvo un resultado sorprendente: el modelo predice que el estado de la enfermedad es *estable*. No en el sentido médico de “no empeorar”, sino en el sentido matemático: el sistema se ha establecido en un equilibrio alternativo —un atractor de enfermedad— que resiste activamente el regreso a la salud. Esto sigue siendo una predicción teórica, pero es consistente con la realidad clínica de que la EM/SFC rara vez resuelve por sí misma.
 
-El déficit de energía deteriora la función inmune. Una inmunidad deteriorada permite una activación crónica de bajo grado. La activación inmune agota energía. Los déficits de energía deterioran las hormonas de estrés. Las hormonas perturbadas no logran suprimir la inflamación. La inflamación daña las mitocondria. Y así sucesivamente.
+El déficit de energía deteriora la función inmune. Una inmunidad deteriorada permite una activación crónica de bajo grado. La activación inmune agota energía. Los déficits de energía deterioran las hormonas de estrés. Las hormonas perturbadas no logran suprimir la inflamación. La inflamación daña las mitocondrias. Y así sucesivamente.
 
 El análisis de la controlabilidad de la red en nuestro modelo sugiere que pueden ser necesarios 4-6 puntos de intervención simultáneos para cambiar el sistema —una predicción teórica derivada de la estructura de red del modelo, que aún no ha sido probada empíricamente. Pero ofrece una explicación matemática plausible para por qué los ensayos clínicos con un solo medicamento en la EM/SFC han decepcionado consistentemente, mientras que los pacientes que mejoran tienden a reportar enfoques múltiples.
 
@@ -141,7 +141,7 @@ Esto es importante por tres razones prácticas:
 
 2. **Explicar el fracaso del tratamiento.** Los modelos pueden mostrar *por qué* un medicamento que ataca un mecanismo podría fallar — no porque el mecanismo esté equivocado, sino porque el sistema compensa a través de vías paralelas. Esto redefine los ensayos clínicos negativos de “la hipótesis estaba equivocada” a “la intervención fue insuficiente”.
 
-3. **Generar predicciones verificables.** Cada parámetro del modelo — el umbral de 110 mV, la proporción de 0.85 NAD+, el factor de amplificación de ROS — es una predicción que puede medirse. Confirmar o refutar estos valores limita progresivamente el modelo, convirtiendo un marco teórico en una herramienta cuantitativa.
+3. **Generar predicciones verificables.** Cada parámetro del modelo — el umbral de 110 mV, la proporción de 0,85 NAD+, el factor de amplificación de ROS — es una predicción que puede medirse. Confirmar o refutar estos valores limita progresivamente el modelo, convirtiendo un marco teórico en una herramienta cuantitativa.
 
 Los modelos presentados aquí son un punto de partida, no un punto final. Su valor no radica en estar correctos, sino en estar *precisamente equivocados* de manera que los datos puedan corregirlo.
 
@@ -149,9 +149,9 @@ Los modelos presentados aquí son un punto de partida, no un punto final. Su val
 
 ## ¿Qué significa esto para pacientes, clínicos e investigadores
 
-**Para pacientes**: Su agotamiento tiene una base biológica — medible, modelable y comprensible desde una resolución cada vez mayor. “Superar” no construye resistencia; daña un sistema ya deteriorado. El ritmo no es psicológico; es la estrategia matemáticamente óptima para un sistema con restricción de energía.
+**Para pacientes**: Tu agotamiento tiene una base biológica — medible, modelable y comprensible desde una resolución cada vez mayor. “Superar” no construye resistencia; daña un sistema ya deteriorado. El ritmo no es psicológico; es la estrategia matemáticamente óptima para un sistema con restricción de energía.
 
-**Para clínicos**: El CPET de dos días (prueba de ejercicio cardiopulmonar) es el test de diagnóstico más informativo — pero activa de forma fiable PEM, a veces grave y dura semanas. Solo debe realizarse cuando el beneficio diagnóstico o legal (por ejemplo, documentación de discapacidad) justifique el costo para el paciente, y nunca sin consentimiento informado sobre la posible crisis. Cuando se realiza, las disminuciones en VO2max (consumo máximo de oxígeno) al día 2 son específicas de EM/SFC y cuantifican directamente el deterioro metabólico. Considere el apoyo metabólico — CoQ10 (coenzima Q10, un portador de electrones en la cadena de transporte) y precursores de NAD+ — como complementos, con la advertencia de que nuestros modelos predicen el mayor beneficio en deterioro moderado, no en caso leve o grave.
+**Para clínicos**: El CPET de dos días (prueba de ejercicio cardiopulmonar) es la prueba diagnóstica más informativa — pero activa de forma fiable PEM, a veces grave y dura semanas. Solo debe realizarse cuando el beneficio diagnóstico o legal (por ejemplo, documentación de discapacidad) justifique el coste para el paciente, y nunca sin consentimiento informado sobre la posible crisis. Cuando se realiza, las disminuciones en VO2max (consumo máximo de oxígeno) al día 2 son específicas de EM/SFC y cuantifican directamente el deterioro metabólico. Considere el apoyo metabólico — CoQ10 (coenzima Q10, un portador de electrones en la cadena de transporte) y precursores de NAD+ — como complementos, con la advertencia de que nuestros modelos predicen el mayor beneficio en deterioro moderado, no en caso leve o grave.
 
 **Para investigadores**: El campo necesita urgentemente datos longitudinales que rastreen a los pacientes a lo largo del tiempo en múltiples capas biológicas — genética, metabolitos, marcadores inmunitarios, proteínas. Los modelos matemáticos existen para convertir esos datos en predicciones de tratamiento, pero los conjuntos de datos actuales son demasiado pequeños y basados en instantáneas para limitarlos. Proyectos como DecodeME son exactamente lo que se necesita.
 

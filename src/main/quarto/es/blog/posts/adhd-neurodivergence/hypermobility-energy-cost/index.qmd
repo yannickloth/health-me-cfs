@@ -1,5 +1,5 @@
 ---
-title: "La hipermobilidad no es solo flexibilidad: el costo energético de las articulaciones inestables"
+title: "La hipermovilidad no es solo flexibilidad: el coste energético de las articulaciones inestables"
 description: "Ella parece saludable. Es joven, es delgada y puede tocar las palmas de sus manos contra el suelo sin doblar las rodillas. Los médicos la han llamado “flexible” desde la infancia, y los fisioterapeutas han admirado su rango de movimiento. Nadie le dijo que su flexibilidad..."
 author: "Yannick Loth"
 date: "2026-06-09"
@@ -9,11 +9,11 @@ lang: es
 
 Ella parece saludable. Es joven, es delgada y puede tocar las palmas de sus manos contra el suelo sin doblar las rodillas. Los médicos la han llamado “flexible” desde la infancia, y los fisioterapeutas han admirado su rango de movimiento. Nadie le dijo que su flexibilidad es un déficit estructural — que sus ligamentos están hechos de colágeno que no mantiene las articulaciones unidas como debería — y que este déficit le cuesta al cuerpo tres veces más energía para hacer todo lo que una persona con articulaciones normales hace sin pensar.
 
-El trastorno del espectro de la hipermobilidad (HSD) y el síndrome de Ehlers-Danlos hipermóbile (hEDS) son condiciones relacionadas con el tejido conectivo, específicamente con el colágeno. La proteína que forma el esqueleto estructural de los ligamentos, tendones, piel, vasos sanguíneos y la matriz extracelular de prácticamente todos los órganos del cuerpo. Cuando el colágeno es anormalmente elástico, toda estructura que crea es anormalmente elástica. Las articulaciones no mantienen su posición. Los vasos sanguíneos no mantienen su tono. El intestino no transporta los contenidos de manera eficiente. Las consecuencias se propagan a todos los sistemas, y el costo energético acumulado es un impuesto que el paciente paga cada minuto de cada día.
+El trastorno del espectro de la hipermovilidad (HSD) y el síndrome de Ehlers-Danlos hipermóvil (hEDS) son condiciones relacionadas con el tejido conectivo, específicamente con el colágeno. La proteína que forma el esqueleto estructural de los ligamentos, tendones, piel, vasos sanguíneos y la matriz extracelular de prácticamente todos los órganos del cuerpo. Cuando el colágeno es anormalmente elástico, toda estructura que crea es anormalmente elástica. Las articulaciones no mantienen su posición. Los vasos sanguíneos no mantienen su tono. El intestino no transporta los contenidos de manera eficiente. Las consecuencias se propagan a todos los sistemas, y el coste energético acumulado es un impuesto que el paciente paga cada minuto de cada día.
 
 ---
 
-## La impuesto invisible en cada movimiento
+## El impuesto invisible en cada movimiento
 
 En una persona con articulaciones normales, los ligamentos proporcionan estabilidad pasiva. Cuando estás de pie, los ligamentos de la rodilla mantienen la articulación en su posición sin ningún esfuerzo muscular. Los músculos están libres para hacer otras cosas: generar movimiento, responder a perturbaciones y soportar cargas. Los ligamentos son como cables de un poste de tienda: proporcionan estabilidad estructural de forma gratuita [@HakimGrahame2003hypermobility].
 
@@ -23,19 +23,19 @@ Esto implica un coste metabólico directo. La contracción del músculo esquelé
 
 El sistema propioceptivo — la red de sensores en articulaciones, tendones y músculos que informa la posición del cuerpo al cerebro — también trabaja más. En una articulación estable, la entrada propioceptiva es directa: la articulación está en su posición, los ligamentos la confirman y el cerebro apenas la registra. En una articulación hipermóvil, la entrada propioceptiva es ruidosa y poco fiable. La articulación se desplaza. El cerebro recibe constantes señales de corrección. La carga computacional de procesar datos de posición de cada articulación inestable, de forma continua, no es trivial — y el procesamiento cognitivo consume glucosa.
 
-El resultado: una persona con hipermovilidad gasta significativamente más energía en la postura, el movimiento y la monitorización de la posición del cuerpo que una persona con articulaciones normales que realiza actividades idénticas. Esto no está documentado en aplicaciones de conteo de calorías ni en libros de fisiología del ejercicio. Es invisible para quienes miden “actividad” por pasos realizados o minutos de ejercicio. Pero las mitocondria lo saben.
+El resultado: una persona con hipermovilidad gasta significativamente más energía en la postura, el movimiento y la monitorización de la posición del cuerpo que una persona con articulaciones normales que realiza actividades idénticas. Esto no está documentado en aplicaciones de conteo de calorías ni en libros de fisiología del ejercicio. Es invisible para quienes miden “actividad” por pasos realizados o minutos de ejercicio. Pero las mitocondrias lo saben.
 
 ---
 
 ## La cascada vascular
 
-El tejido conectivo no está únicamente en las articulaciones. Forma las paredes de los vasos sanguíneos. En la hipermobilidad, los vasos sanguíneos son anormalmente distensibles: se estiran más fácilmente bajo presión. Esto tiene una consecuencia específica y devastadora para la regulación de la presión arterial.
+El tejido conectivo no está únicamente en las articulaciones. Forma las paredes de los vasos sanguíneos. En la hipermovilidad, los vasos sanguíneos son anormalmente distensibles: se estiran más fácilmente bajo presión. Esto tiene una consecuencia específica y devastadora para la regulación de la presión arterial.
 
 Cuando una persona con hEDS se levanta, la sangre se acumula en las venas distensibles del cuerpo inferior. Normalmente, el tono venoso y la bomba muscular devuelven la sangre al corazón de manera rápida. En hEDS, las venas se estiran excesivamente, la acumulación de sangre es mayor y el retorno venoso disminuye. El corazón recibe menos sangre. El flujo cardíaco disminuye. La presión arterial baja. El cerebro, que se encuentra en la parte superior del sistema circulatorio, recibe sangre por último y menos [@Roma2018POTShEDS; @DeWandele2014dysautonomiaEDS].
 
-Este es el mecanismo del síndrome de taquicardia ortostática postural en pacientes con hEDS: la frecuencia cardíaca aumenta para compensar la reducida volumen sistólico, produciendo taquicardia. La persona experimenta palpitaciones, sensación de desvanecimiento y disfunción cognitiva al estar de pie — no porque el corazón esté enfermo, sino porque los vasos sanguíneos son demasiado distensibles para mantener un volumen de carga adecuado.
+Este es el mecanismo del síndrome de taquicardia ortostática postural en pacientes con hEDS: la frecuencia cardíaca aumenta para compensar el reducido volumen sistólico, produciendo taquicardia. La persona experimenta palpitaciones, sensación de desvanecimiento y disfunción cognitiva al estar de pie — no porque el corazón esté enfermo, sino porque los vasos sanguíneos son demasiado distensibles para mantener un volumen de carga adecuado.
 
-El costo energético de la taquicardia compensatoria es real. Una frecuencia cardíaca de descanso de 100 bpm (común en hEDS/POTS) frente a 65 bpm representa un aumento del 50% en el trabajo cardíaco — cada minuto, cada hora, cada día. El corazón es un músculo. Un aumento en el trabajo cardíaco significa un aumento en la consumación de ATP cardíaco. En un paciente cuyo presupuesto energético ya está sobrecargado, un aumento del 50% en la carga de trabajo cardíaco no es una consideración menor.
+El coste energético de la taquicardia compensatoria es real. Una frecuencia cardíaca de descanso de 100 bpm (común en hEDS/POTS) frente a 65 bpm representa un aumento del 50% en el trabajo cardíaco — cada minuto, cada hora, cada día. El corazón es un músculo. Un aumento en el trabajo cardíaco significa un aumento en el consumo de ATP cardíaco. En un paciente cuyo presupuesto energético ya está sobrecargado, un aumento del 50% en la carga de trabajo cardíaco no es una consideración menor.
 
 ---
 
@@ -45,7 +45,7 @@ La superposición entre hEDS y el síndrome de activación de mastocitos (MCAS) 
 
 Una hipótesis: el tejido conectivo defectuoso proporciona señales mecánicas anormales a los mastocitos que se encuentran dentro de él. Los mastocitos son mecanosensibles; responden a fuerzas físicas en su matriz circundante. En una matriz extracelular anormal, las señales mecánicas son anormales, lo que puede llevar a una activación inapropiada de los mastocitos.
 
-Cuando los mastocitos se degranulan, liberan histamina, prostaglandinas, triptasa y una cadena de mediadores inflamatorios —sistémicamente—. El costo energético resultante es considerable: la activación inmunitaria consume entre el 20 y el 25 % del ritmo metabólico basal en su punto máximo. La fatiga post-degranulación en pacientes con MCAS es profunda y puede durar de 24 a 72 horas, similar a la PEM.
+Cuando los mastocitos se degranulan, liberan histamina, prostaglandinas, triptasa y una cadena de mediadores inflamatorios —sistémicamente—. El coste energético resultante es considerable: la activación inmunitaria consume entre el 20 y el 25 % del ritmo metabólico basal en su punto máximo. La fatiga post-degranulación en pacientes con MCAS es profunda y puede durar de 24 a 72 horas, similar a la PEM.
 
 Para un paciente con hEDS que también padece MCAS, la ecuación energética es devastadora: la carga de inestabilidad estructural + el trabajo compensatorio del sistema cardiovascular + episodios recurrentes de activación inmunitaria = déficit energético crónico incluso antes de añadir cualquier patología adicional de EM/SFC.
 
@@ -60,32 +60,32 @@ Comienza con colágeno defectuoso. Sigue las consecuencias:
 3. **Desregulación autonómica** → tono vagal afectado → reducción de la motilidad intestinal → SIBO → malabsorción → robo de nutrientes
 4. **Disfunción de mastocitos** → activación inmunitaria recurrente → coste energético inflamatorio + crisis posteriores a brotes
 5. **Sobrecarga propioceptiva** → aumento de la demanda de procesamiento del SNC → fatiga cognitiva
-6. **Dolor crónico** → debido a subluxaciones, desplazamientos y neuropatía → el procesamiento del dolor es metabolímicamente costoso + interrupción del sueño + impacto psicológico
+6. **Dolor crónico** → debido a subluxaciones, desplazamientos y neuropatía → el procesamiento del dolor es metabólicamente costoso + interrupción del sueño + impacto psicológico
 7. **Interrupción del sueño** → debido a dolor, POTS (taquicardia en posición supina), activación de mastocitos → deterioro de la restauración → fatiga residual
 
-Cada paso en esta cadena tiene un coste energético. Los costes son sumativos. Una paciente que experimente los siete aspectos escribe un impuesto energético que una persona con articulaciones normales no debe pagar, antes de levantarse por la mañana.
+Cada paso en esta cadena tiene un coste energético. Los costes son sumativos. Una paciente que experimente los siete pasos paga un impuesto energético que una persona con articulaciones normales no paga, antes de levantarse por la mañana.
 
 ---
 
 ## hEDS y EM/SFC: no es coincidencia, sino sustrato
 
-La prevalencia de EM/SFC en poblaciones con hEDS —y viceversa— es demasiado alta para ser casual. Este cluster (hEDS + POTS + MCAS + EM/SFC) aparece en la práctica clínica con una frecuencia que indica una patofisiopatología compartida.
+La prevalencia de EM/SFC en poblaciones con hEDS —y viceversa— es demasiado alta para ser casual. Este cluster (hEDS + POTS + MCAS + EM/SFC) aparece en la práctica clínica con una frecuencia que indica una fisiopatología compartida.
 
-El marco que esta serie ha ido desarrollando explica por qué: la EM/SFC es un estado de fallo energético crónico mantenido por múltiples mecanismos de auto-reforzamiento. La hipermobilidad proporciona el sustrato: un cuerpo que nunca estuvo estructuralmente preparado para una eficiencia energética normal, operando un déficit permanente que acerca al paciente al umbral en el que cualquier golpe adicional (una infección, un período de estrés, un procedimiento quirúrgico) los lleva al estado atraíble de EM/SFC.
+El marco que esta serie ha ido desarrollando explica por qué: la EM/SFC es un estado de fallo energético crónico mantenido por múltiples mecanismos de auto-reforzamiento. La hipermovilidad proporciona el sustrato: un cuerpo que nunca estuvo estructuralmente preparado para una eficiencia energética normal, operando un déficit permanente que acerca al paciente al umbral en el que cualquier golpe adicional (una infección, un período de estrés, un procedimiento quirúrgico) lo lleva al estado atractor de EM/SFC.
 
-En este modelo, una persona hipermóvil no desarrolla EM/SFC por mala suerte. Lo desarrolla porque su margen energético base siempre fue menor. El amortiguador entre “gestionar” y “fallar” era más estrecho. La barrera era más cercana.
+En este modelo, una persona hipermóvil no desarrolla EM/SFC por mala suerte. La desarrolla porque su margen energético base siempre fue menor. El amortiguador entre “gestionar” y “fallar” era más estrecho. La barrera era más cercana.
 
 Esto tiene una implicación práctica: en el subgrupo de pacientes con hEDS que padecen EM/SFC, el tratamiento debe abordar el consumo energético estructural junto con los mecanismos metabólicos e inmunitarios. Ropa de compresión (reduciendo la acumulación venosa), refuerzo de articulaciones (reduciendo la compensación muscular), gestión de POTS (fludrocortisona, midodrina, aumento de sodio y líquidos) y tratamiento de MCAS ( antihistamínicos, estabilizadores de mastocitos) no son intervenciones periféricas. Son reducciones directas en la carga energética que la disfunción del tejido conectivo impone [@Loth2026website].
 
 ---
 
-## El patrón de descartamiento
+## El patrón de descarte
 
-Los pacientes hipermóbiles son descartados con una notable consistencia. Su dolor articular se atribuye a "dolores de crecimiento" en la infancia y a "uso excesivo" en la edad adulta. Su fatiga se atribuye a descondicionamiento. Su POTS se atribuye a ansiedad. Sus síntomas MCAS se atribuyen a sensibilidades alimentarias o reacciones psicosomáticas.
+Los pacientes hipermóviles son descartados con una notable consistencia. Su dolor articular se atribuye a "dolores de crecimiento" en la infancia y a "uso excesivo" en la edad adulta. Su fatiga se atribuye a descondicionamiento. Su POTS se atribuye a ansiedad. Sus síntomas MCAS se atribuyen a sensibilidades alimentarias o reacciones psicosomáticas.
 
 Este patrón persiste porque ninguna queja individual, de forma aislada, es lo suficientemente dramática para desencadenar una investigación. Laxitud articular leve. Frecuencia cardíaca ligeramente alta. Enfriamiento ocasional. Fatiga no específica. Cada elemento es subdiagnóstico por separado. El diagnóstico requiere reconocer el patrón: el conjunto de laxitud del tejido conectivo leve, la disfunción autónoma y la hiperreactividad inmunitaria, más la fatiga crónica, y entender que este conjunto es un proceso de enfermedad, no cuatro síntomas no relacionados en un paciente que se queja mucho.
 
-El tiempo promedio para el diagnóstico de hEDS en el Reino Unido es de 10 años. El tiempo promedio para el diagnóstico de EM/SFC es de 4-7 años. Un paciente con ambos puede pasar 15 años si le dicen que cada síntoma individual no es lo suficientemente grave para justificar una investigación, mientras que el costo energético acumulado conduce a una discapacidad progresiva.
+El tiempo promedio para el diagnóstico de hEDS en el Reino Unido es de 10 años. El tiempo promedio para el diagnóstico de EM/SFC es de 4-7 años. Un paciente con ambos puede pasar 15 años si le dicen que cada síntoma individual no es lo suficientemente grave para justificar una investigación, mientras que el coste energético acumulado conduce a una discapacidad progresiva.
 
 La solución es el reconocimiento del patrón. La puntuación Beighton toma dos minutos. La pregunta "¿Sus articulaciones clican, estallan o subluxan?" toma diez segundos. La observación de que un paciente con fatiga inexplicable también tiene piel elástica, codo hiperextensible y frecuencia cardíaca de descanso de 100 debería desencadenar una cascada de investigaciones que cambie todo en su manejo.
 

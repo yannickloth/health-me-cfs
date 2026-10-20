@@ -7,7 +7,7 @@ categories: [Treatment, Pharmacology, ME/CFS]
 lang: es
 ---
 
-Intentaste un medicamento. No funcionó. Continúas con tu búsqueda — y la búsqueda de lo que *funcionará* continúa: otro medicamento, luego otro, luego un suplemento, luego un protocolo publicado a las 3 a.m. Pasan dos años. En algún lugar de esa historia existe un medicamento que falló a 0.75 mg, aunque su ventana terapéutica se situaba en 1.2 mg. Nunca lo sabrás. El veredicto está sellado y se registró contra la variable equivocada.
+Intentaste un medicamento. No funcionó. Continúas con tu búsqueda — y la búsqueda de lo que *funcionará* continúa: otro medicamento, luego otro, luego un suplemento, luego un protocolo publicado a las 3 a.m. Pasan dos años. En algún lugar de esa historia existe un medicamento que falló a 0,75 mg, aunque su ventana terapéutica se situaba en 1,2 mg. Nunca lo sabrás. El veredicto está sellado y se registró contra la variable equivocada.
 
 Este artículo no trata sobre la farmacología de las ventanas de dosis — ese tema está abordado en los cuatro artículos complementarios de este. Explicamos por qué aumentar una dosis funcional puede eliminar el beneficio, por qué una dosis nula no descarta las demás, cómo leer una curva dosis-respuesta como un diagnóstico, y el atlas de dosis de medicamentos por medicamento. Este artículo trata sobre la capa de decisión *encima* de esa farmacología: cómo pacientes y médicos convierten un ensayo fallido en una estrategia de búsqueda, y por qué la estrategia por defecto — intentar nuevos medicamentos en lugar de dosis cercanas — suele ser la más costosa.
 
@@ -19,17 +19,17 @@ Hay dos errores posibles cuando una prueba falla:
 
 | Error | Coste |
 |---------|------|
-| **Descartar la dosis antes de tiempo** — la droga funciona con una dosis que nunca has probado; debes buscar en otros lugares durante años | Años, además del riesgo acumulado de cada alternativa probada en el tiempo |
+| **Descartar la droga antes de tiempo** — la droga funciona con una dosis que nunca has probado; debes buscar en otros lugares durante años | Años, además del riesgo acumulado de cada alternativa probada en el tiempo |
 | **Búsqueda interminable de dosis** — sin condición de parada; el pensamiento “quizás la dosis estaba equivocada” justifica probar una vez más y otra vez | Presupuesto de energía, riesgo de PEM y una búsqueda que nunca puede terminar |
 
 Los costes son asimétricos y apuntan en direcciones opuestas —por eso ningún error puede resolverse simplemente advirtiendo sobre el otro. “No descartes demasiado rápido”, por sí solo, se convierte en la búsqueda interminable. “Sigue adelante rápidamente”, por sí solo, se convierte en el veredicto prematuro. La única solución es una estrategia de búsqueda con *estructura*: pasos siguientes ordenados, medidas de resultado definidas y condiciones de parada. El resto de este artículo construye esa estructura.
 
-Un ejemplo ilustrativo (un caso compuesto, no una persona específica) resume todo. Una paciente que recibe dosis bajas de aripiprazol (LDA) de 1 mg — una dosis con beneficios bien documentados en el piloto de dosis baja de aripiprazol para EM/SFC (promedio de la cohorte ~1.1 mg/día) [@Crosby2021LDA] — participa en un ensayo de 5 días a 0.75 mg para probar si el sueño mejoraría. No ocurre. Peor aún: la fatiga empeora y se produce un episodio de PEM después de tres horas de conducción, acompañado de un fuerte migraña. Una breve escalada a 1.5 mg tampoco funciona. La paciente vuelve a 1 mg y se recupera.
+Un ejemplo ilustrativo (un caso compuesto, no una persona específica) resume todo. Una paciente que recibe dosis bajas de aripiprazol (LDA) de 1 mg — una dosis con beneficios bien documentados en el piloto de dosis baja de aripiprazol para EM/SFC (promedio de la cohorte ~1,1 mg/día) [@Crosby2021LDA] — participa en un ensayo de 5 días a 0,75 mg para probar si el sueño mejoraría. No ocurre. Peor aún: la fatiga empeora y se produce un episodio de PEM después de tres horas de conducción, acompañado de una fuerte migraña. Una breve escalada a 1,5 mg tampoco funciona. La paciente vuelve a 1 mg y se recupera.
 
 Se lee de ambos modos:
 
 - **Lectura incorrecta:** “Las dosis de aripiprazol son impredecibles; la droga es frágil; evite experimentar.” (También tentador: “el ensayo falló, algo no está bien.”)
-- **Lectura correcta:** una respuesta breve, económica y dentro de un tiempo limitado que *refuerza* el caso a favor de la droga. La prueba se realiza a 0.75 mg (demasiado baja — se pierde la protección contra PEM) y a 1.5 mg (sin beneficio adicional), y el pico se mantiene en 1 mg. Siete días de riesgo permiten obtener una mapa más nítida de respuesta a la dosis.
+- **Lectura correcta:** un resultado negativo, limpio, económico y de tiempo limitado que *refuerza* el caso a favor de la droga. La prueba se realiza a 0,75 mg (demasiado baja — se pierde la protección contra PEM) y a 1,5 mg (sin beneficio adicional), y el pico se mantiene en 1 mg. Siete días de riesgo permiten obtener un mapa más nítido de respuesta a la dosis.
 
 Eso es lo que ocurre cuando un ensayo falla, pero la estrategia de búsqueda es adecuada. La reputación de la droga mejora porque la *dosis* absorbe el fracaso.
 
@@ -37,21 +37,21 @@ Eso es lo que ocurre cuando un ensayo falla, pero la estrategia de búsqueda es 
 
 ## Lo que debe registrarse para que una prueba fallida sea re-triable
 
-La trampa de la descartación prematura ocurre en el momento de la registración, no en el momento de la decisión. Compare dos entradas de registro:
+La trampa del descarte prematuro ocurre en el momento del registro, no en el momento de la decisión. Compare dos entradas de registro:
 
-| Entrada | Habla sobre el medicamento | Es re-triable? |
+| Entrada | Habla sobre el medicamento | ¿Es re-triable? |
 |-------|--------------------|-------------|
 | "La naltrexona en dosis bajas no funcionó." | Nada útil | No — la variable que falló no está registrada |
-| "Naltrexona en dosis 3.5–4 mg, ~6 meses, fatiga como resultado: sin respuesta. ~1 mg no probada; farmacología diferente en ese rango." | Una dosis específica, un período de duración adecuado, un resultado definido — y un vecino no probado nombrado | Sí — y la hipótesis de re-prueba ya está escrita |
+| "Naltrexona en dosis 3,5–4 mg, ~6 meses, fatiga como resultado: sin respuesta. ~1 mg no probada; farmacología diferente en ese rango." | Una dosis específica, un período de duración adecuado, un resultado definido — y un vecino no probado nombrado | Sí — y la hipótesis de re-prueba ya está escrita |
 
 La segunda entrada explica por qué una re-prueba con una dosis más baja de naltrexona puede ser *defendible* en el registro de un paciente y indefendible en otro: en dosis más altas, la naltrexona en dosis bajas adopta un perfil farmacológico diferente al de ~1 mg — la dosis de 4 mg no probó un mecanismo y permaneció en silencio sobre el otro (ver [Una falla en una dosis única no es un veredicto](../single-dose-failure-not-a-verdict/) para el argumento de ocupación de receptores).
 
 La disciplina se generaliza. Cada prueba completada debe registrar cuatro variables:
 
 1. **Dosis** — dosis realmente tomada, no dosis prescrita (las brechas de adherencia y preparación son comunes).
-2. **Duración** — en contraste con el tiempo esperado del medicamento. Dos días es un veredicto sobre nada para un medicamento cuyo mecanismo es transcricional; seis semanas podría seguir siendo corta para otros.
+2. **Duración** — en contraste con el tiempo esperado del medicamento. Dos días es un veredicto sobre nada para un medicamento cuyo mecanismo es transcripcional; seis semanas podrían seguir siendo cortas para otros.
 3. **Medición del resultado** — definida *antes* de iniciar, idealmente una única principal. Una prueba "para el sueño" que termina con una impresión sobre el estado de ánimo no ha probado nada.
-4. **Confounders** — clima, esfuerzo, otras cambios en el conjunto, infección. Una prueba realizada durante una crisis es una prueba de la crisis.
+4. **Factores de confusión** — clima, esfuerzo, otros cambios en el conjunto, infección. Una prueba realizada durante una crisis es una prueba de la crisis.
 
 Una prueba con todos los cuatro registros permanece re-triable para siempre. Una prueba sin ninguno se convierte en folklore — y el folklore es lo que se descarta.
 
@@ -59,7 +59,7 @@ Una prueba con todos los cuatro registros permanece re-triable para siempre. Una
 
 ## Tabla de explicaciones alternativas
 
-“El medicamento X fracasó” es una conclusión que se basa en al menos seis premisas. No son igualmente económicos para probar:
+“El medicamento X fracasó” es una conclusión que se basa en al menos seis premisas. No son igualmente económicas para probar:
 
 | Explicación de un ensayo nulo | Prueba discriminativa más económica |
 |---------------------------|------------------------------|
@@ -70,7 +70,7 @@ Una prueba con todos los cuatro registros permanece re-triable para siempre. Una
 | El síntoma no está relacionado con el objetivo | Trabajo diferencial *antes* del ensayo; a menudo es la prueba más económica de todas |
 | Intolerancia, no no respuesta | El perfil de efectos secundarios distingue estas situaciones — una respuesta dañina a la dosis es información importante |
 
-Observa el orden por costo. Al moverse hacia abajo en la tabla, las pruebas son más costosas y menos reversibles. El ensayo de dosis se encuentra en la parte superior porque cambia exactamente una variable farmacocinética de un medicamento cuya tolerabilidad ya se conoce. Un nuevo medicamento cambia todo de golpe: nuevos objetivos, nuevos efectos secundarios, nuevas interacciones con la stack existente — y responde a una pregunta más acuciosa como resultado.
+Observa el orden por coste. Al moverse hacia abajo en la tabla, las pruebas son más costosas y menos reversibles. El ensayo de dosis se encuentra en la parte superior porque cambia exactamente una variable farmacocinética de un medicamento cuya tolerabilidad ya se conoce. Un nuevo medicamento cambia todo de golpe: nuevos objetivos, nuevos efectos secundarios, nuevas interacciones con el conjunto existente — y responde a una pregunta más ruidosa como resultado.
 
 Este es el principio de primero la dosis: **cuando un ensayo fracasa, la siguiente experimentación más económica suele ser una dosis vecina del mismo medicamento, no un nuevo agente.** Los nuevos medicamentos se incluyen después de que la dimensión de dosis del medicamento actual haya sido mapeada — o después de que un argumento de mecanismo real excluya el objetivo del medicamento.
 
@@ -86,7 +86,7 @@ Los pacientes que llevan años buscando tienden a caer en uno de tres patrones r
 
 **El desplazamiento de la dosis.** No hay una escalera planificada en absoluto — la dosis se mueve arriba y abajo por intuición, en respuesta a los síntomas, sin pasos definidos ni resultados definidos. Cada dosis tomada es datos, pero ninguna dosis es comparable, por lo que no se aprende nada. *Solución:* una escalera escrita antes del primer cambio de dosis (el artículo dos de esta pareja proporciona plantillas).
 
-Todas las tres patologías tienen una causa raíz en común: la prueba no está diseñada como un *experimento* — con una pregunta, una medida y una condición de parada — sino como una actitud. La solución es la misma en cada caso.
+Todas las tres patologías tienen una causa raíz en común: la prueba no está diseñada como un *experimento* — con una pregunta, una medida y una condición de parada — sino como un estado de ánimo. La solución es la misma en cada caso.
 
 ---
 
@@ -96,7 +96,7 @@ La información más poco utilizada en los informes de pacientes es la respuesta
 
 Una respuesta parcial dice algo que una respuesta nula plana no dice: **el objetivo es relevante** — algún sistema afectado por la droga está relacionado con algún síntoma — pero la dosis o la correspondencia entre el síntoma y el mecanismo es incorrecta. La respuesta correcta a una respuesta parcial casi nunca es descartarla. Es una descomposición: qué síntoma se movió, en qué dirección, a qué dosis — y si ese patrón coincide con alguna banda de dosis conocida de la droga? (Para medicamentos con múltiples mecanismos a diferentes concentraciones, esta descomposición es exactamente para lo que sirve el atlas de dosis — véase [La Farmacopea](../pharmacopoeia-dose-meaning/).
 
-El ejemplo ilustrativo anterior contenía una respuesta parcial que sería invisible sin descomposición: a 0.75 mg, la protección contra PEM *empeora* mientras la cuestión del sueño sigue abierta. Esa disociación — pérdida de protección mientras el sueño no cambia — es lo que distingue “dosis incorrecta para todo” de “dosis incorrecta solo para el sueño”, y se puede ver con una sola tabla.
+El ejemplo ilustrativo anterior contenía una respuesta parcial que sería invisible sin descomposición: a 0,75 mg, la protección contra PEM *empeora* mientras la cuestión del sueño sigue abierta. Esa disociación — pérdida de protección mientras el sueño no cambia — es lo que distingue “dosis incorrecta para todo” de “dosis incorrecta solo para el sueño”, y se puede ver con una sola tabla.
 
 ---
 
@@ -110,9 +110,9 @@ Un artículo que argumenta en contra del descarte prematuro debe ofrecer al lect
 | Duración adecuada para la escala temporal del mecanismo | La explicación de la duración ha sido probada |
 | La medida de resultado coincide con la indicación del medicamento y se mide correctamente | La explicación de la medición ha sido probada |
 | No hay respuesta, no hay respuesta parcial, no hay señal de efectos secundarios dependientes de la dosis | No hay señal en ningún lugar en el eje |
-| Existe un argumento mecánico para la no respuesta | El valor nulo es *esperado* dado lo que implican las otras respuestas del paciente |
+| Existe un argumento de mecanismo para la no respuesta | El valor nulo es *esperado* dado lo que implican las otras respuestas del paciente |
 
-La última fila es la más importante y la más descuidada. Las respuestas a un medicamento limitan las expectativas para otros: un paciente que responde en un grupo mecánico y no en otro ya ha realizado, gratis, un experimento que predice dónde valdrá la pena continuar la búsqueda. El valor nulo que llega *después* de esa predicción no es una decepción —es una confirmación de que el mapa funciona, y dejar ese territorio es la recompensa correcta.
+La última fila es la más importante y la más descuidada. Las respuestas a un medicamento limitan las expectativas para otros: un paciente que responde en un grupo mecanicista y no en otro ya ha realizado, gratis, un experimento que predice dónde valdrá la pena continuar la búsqueda. El valor nulo que llega *después* de esa predicción no es una decepción —es una confirmación de que el mapa funciona, y dejar ese territorio es la recompensa correcta.
 
 ---
 
@@ -124,8 +124,8 @@ El protocolo de una página:
 
 | Campo | Ejemplo |
 |-------|---------|
-| Medicina y pregunta | Aripiprazol 0.75 mg — ¿mejora el sueño con 0.75 mg vs 1 mg? |
-| Escala de dosis y longitud del paso | 0.75 mg × 5 días; aumentar o regresar según el resultado |
+| Medicina y pregunta | Aripiprazol 0,75 mg — ¿mejora el sueño vs 1 mg? |
+| Escala de dosis y longitud del paso | 0,75 mg × 5 días; aumentar o regresar según el resultado |
 | Resultado principal (definido con antelación) | Calidad/cantidad del sueño, autoevaluación nocturna |
 | Condiciones para detenerse | Sin cambio al día 5 → regresar a 1 mg; empeoramiento → regresar inmediatamente |
 | Fecha de revisión | Fija y escrita |
@@ -139,11 +139,11 @@ Una prueba de este tipo, con el acuerdo del médico, puede dar una respuesta dec
 
 Tres advertencias, expresadas de manera clara porque la fuerza del argumento invita a excesos:
 
-**La base de evidencia del marco se basa en el razonamiento farmacológico y la experiencia comunitaria, no en ensayos controlados.** El comportamiento en el rango de dosis que se ilustra aquí —una dosis de 1 mg que funciona, acompañada por una dosis de 0.75 mg que no funciona por debajo y una dosis de 1.5 mg que no funciona por encima— es una representación hipotética de un único paciente, construida para ser farmacológicamente coherente. Esa respuesta no monótica a la dosis *es* *un fenómeno real y documentado* en muchos sistemas biológicos —el corpus de hormesis [@Calabrese2021Nrf2; @Calabrese2002hormesisHistory] y la farmacología multicapa documentada de la naltrexona en dosis bajas en particular [@Younger2013; @Cabanas2018trpm3; @Loth2026mecfs]. Pero la predicción de que los “drogas fallidas” de cualquier *dado* paciente suelen ser fallas de dosis es *una hipótesis*, motivada por esas curvas pronunciadas y no monóticas y por la variabilidad entre pacientes en la exposición (metabolismo, peso, gravedad, medicamentos interactuantes). No es un hecho establecido sobre ningún paciente.
+**La base de evidencia del marco se basa en el razonamiento farmacológico y la experiencia comunitaria, no en ensayos controlados.** El comportamiento en el rango de dosis que se ilustra aquí —una dosis de 1 mg que funciona, acompañada por una dosis de 0,75 mg que no funciona por debajo y una dosis de 1,5 mg que no funciona por encima— es una representación hipotética de un único paciente, construida para ser farmacológicamente coherente. Esa respuesta no monótona a la dosis *es* *un fenómeno real y documentado* en muchos sistemas biológicos —el corpus de hormesis [@Calabrese2021Nrf2; @Calabrese2002hormesisHistory] y la farmacología multibanda documentada de la naltrexona en dosis bajas en particular [@Younger2013; @Cabanas2018trpm3; @Loth2026mecfs]. Pero la predicción de que las “drogas fallidas” de cualquier paciente *dado* suelen ser fallas de dosis es *una hipótesis*, motivada por esas curvas pronunciadas y no monótonas y por la variabilidad entre pacientes en la exposición (metabolismo, peso, gravedad, medicamentos interactuantes). No es un hecho establecido sobre ningún paciente.
 
 **La versión no falsificable de esta idea es una trampa.** “La dosis siempre estaba equivocada en algún lugar” puede excusar cualquier fallo y justificar cualquier búsqueda. Por eso las condiciones de detención en este artículo no son una decoración opcional —son lo que separa una estrategia de dosis primero de una que continúa indefinidamente. Si un nuevo ensayo no puede determinar de antemano su medida de resultado y su fecha de detención, no debería realizarse.
 
-**Y el marco clínico:** nada aquí es una recomendación para ajustar las dosis por uno mismo. Las drogas discutidas tienen perfiles de efectos secundarios reales, riesgos de interacciones reales y —en dosis bajas— barreras prácticas reales (compounding, estado fuera de la indicación). El principio de dosis primero es una propuesta sobre qué discutir con tu médico, en qué orden y a qué costo. El modelo de protocolo que se muestra arriba es el formato para esa discusión, no su sustituto.
+**Y el marco clínico:** nada aquí es una recomendación para ajustar las dosis por uno mismo. Las drogas discutidas tienen perfiles de efectos secundarios reales, riesgos de interacciones reales y —en dosis bajas— barreras prácticas reales (preparación, estado fuera de la indicación). El principio de dosis primero es una propuesta sobre qué discutir con tu médico, en qué orden y a qué coste. El modelo de protocolo que se muestra arriba es el formato para esa discusión, no su sustituto.
 
 ---
 
@@ -161,4 +161,4 @@ Tres advertencias, expresadas de manera clara porque la fuerza del argumento inv
 
 *Este artículo es un análisis entre pacientes basado en la farmacología establecida — consulte [@Loth2026mecfs] para el marco de dosis-respuesta subyacente — y no constituye consejo médico. Cada ensayo discutido requiere el acuerdo del médico prescriptor; varios de los medicamentos mencionados requieren preparación personalizada o prescripción fuera del rango de uso indicado. Los ensayos para EM/SFC conllevan riesgo de PEM: la actividad física durante un ensayo de dosis es actividad física durante un experimento sobre tu propio límite.*
 
-*Serie de series de dosis-respuesta: [Parte 1: ¿Por qué más no es mejor?](../more-isnt-better-ldn-lda/) · [Parte 2: El U invertido no es una sola cosa](../inverted-u-not-one-thing/) · [Parte 3: Tu dosis de LDN es un diagnóstico](../dose-is-diagnostic-ldn/) · [Parte 4: La farmacopea](../pharmacopoeia-dose-meaning/) · [Parte 5: Cómo realizar un ensayo de búsqueda de dosis](../dose-finding-protocols/) · Relacionado (este artículo)*
+*Serie de dosis-respuesta: [Parte 1: ¿Por qué más no es mejor?](../more-isnt-better-ldn-lda/) · [Parte 2: El U invertido no es una sola cosa](../inverted-u-not-one-thing/) · [Parte 3: Tu dosis de LDN es un diagnóstico](../dose-is-diagnostic-ldn/) · [Parte 4: La farmacopea](../pharmacopoeia-dose-meaning/) · [Parte 5: Cómo realizar un ensayo de búsqueda de dosis](../dose-finding-protocols/) · Relacionado (este artículo)*

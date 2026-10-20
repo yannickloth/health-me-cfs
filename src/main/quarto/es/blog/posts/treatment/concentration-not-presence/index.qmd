@@ -88,7 +88,7 @@ El marco de receptor-ocupación, aplicado a la dosis terapéutica, se expone en 
 
 ## A4. La fracción de señal residual
 
-La cantidad Part B resultará ser crítica desde el punto de vista terapéutico es el complemento:
+La cantidad que la Parte B mostrará como terapéuticamente crítica es el complemento:
 
 $$1 - f = \frac{1}{1 + c^n}, \qquad c \equiv \frac{[D]}{K_d}$$
 
@@ -96,12 +96,12 @@ $c$ es la concentración medida en unidades de la propia sensibilidad del recept
 
 | $c = [D]/K_d$ | ocupado $f$ | señal residual $1-f$ |
 |---|---|---|
-| 0.1 | 0.01 | 0.99 |
-| 0.5 | 0.20 | 0.80 |
-| 1.0 | 0.50 | 0.50 |
-| 3.0 | 0.90 | 0.10 |
-| 9.0 | 0.99 | 0.01 |
-| 99.0 | ~1.00 | ~0.00 |
+| 0,1 | 0,01 | 0,99 |
+| 0,5 | 0,20 | 0,80 |
+| 1,0 | 0,50 | 0,50 |
+| 3,0 | 0,90 | 0,10 |
+| 9,0 | 0,99 | 0,01 |
+| 99,0 | ~1,00 | ~0,00 |
 
 Dos hechos estructurales, independientes de $n$:
 
@@ -113,7 +113,7 @@ Dos hechos estructurales, independientes de $n$:
 
 # Parte B — La biología de los mecanismos de dosis baja
 
-La LDN es un ejemplo claro. En dosis antagónicas estándar (≥50 mg/día), la naltrexona es un antagónico competitivo de los receptores mu-opioides utilizado en medicina de la adicción. En 0.5–4.5 mg/día, atrae a un conjunto de objetivos diferentes, en parte no opioide. El marco de referencia propone cuatro mecanismos de dosis baja: la hormesis TLR4/Nrf2, compensación opioida, restauración TRPM3 y disinhibición de orexina (el último registra la respuesta de dosis a TLR4) [@Loth2026website]. No se comportan todos de la misma manera, y esta distinción es la parte relevante de este artículo, por lo que se menciona de inmediato:
+La LDN es un ejemplo claro. En dosis antagónicas estándar (≥50 mg/día), la naltrexona es un antagónico competitivo de los receptores mu-opioides utilizado en medicina de la adicción. En 0,5–4,5 mg/día, atrae a un conjunto de objetivos diferentes, en parte no opioide. El marco de referencia propone cuatro mecanismos de dosis baja: la hormesis TLR4/Nrf2, compensación opioida, restauración TRPM3 y disinhibición de orexina (el último registra la respuesta de dosis a TLR4) [@Loth2026website]. No se comportan todos de la misma manera, y esta distinción es la parte relevante de este artículo, por lo que se menciona de inmediato:
 
 - **TLR4/Nrf2 hormesis (B1)** — *invertir la hormesis*, Categoría 1: el beneficio existe solo dentro de un intervalo de ocupación limitado y desaparece después de él. Este es el beneficio dominante en dosis baja.
 - **Compensación opioida (B2)** — *monotónico*, no hormético: el beneficio aumenta con el bloqueo hasta un límite previo y no se invierte dentro del rango.
@@ -123,13 +123,13 @@ Este artículo desarrolla estos tres mecanismos, que sustentan el argumento de p
 
 ## B1. Antagónismo parcial de TLR4/MD2 → inducción de Keap1–Nrf2–ARE
 
-**El objetivo.** La naltrexona antagoniza el TLR4 — específicamente la interfaz co-receptor MD2 — en las microglías, un efecto documentado en roedores (un modelo de isquemia-reperfusión intestinal y EAE de ratón) y en una línea de células microglial de ratón, independientemente de los receptores opioides [@Osman2024naltrexoneTLR4; @Kwilasz2021NTXmicroglia; @Kucic2021LDNmicroglia]. El TLR4 es el receptor de lipopolisacárido; su flujo establece el tono de la señalización de peligro en microglías.
+**El objetivo.** La naltrexona antagoniza el TLR4 — específicamente la interfaz co-receptor MD2 — en las microglías, un efecto documentado en roedores (un modelo de isquemia-reperfusión intestinal y EAE de ratón) y en una línea de células de microglía de ratón, independientemente de los receptores opioides [@Osman2024naltrexoneTLR4; @Kwilasz2021NTXmicroglia; @Kucic2021LDNmicroglia]. El TLR4 es el receptor de lipopolisacárido; su flujo establece el tono de la señalización de peligro en microglías.
 
 **La cadena.** El antagónismo parcial de TLR4 reduce el flujo de señales de peligro en una cantidad modesta y sostenida. El programa Keap1–Nrf2–ARE es la respuesta oxidativa/inflamatoria principal de la célula:
 
 1. **Base:** la proteína adaptadora rica en cisteína Keap1 se une al factor de transcripción Nrf2 en el citoplasma, funcionando como un adaptador de sustrato que dirige a Nrf2 a la ubiquitinación dependiente de Cullin-3 y la degradación por proteasoma. La vida media de Nrf2 es corta; el camino está desactivado.
 2. **Detección de estrés:** el estrés oxidativo o electrófico leve modifica residuos reactivos de cisteína específicos en Keap1 (entre ellos Cys151). Esto interrumpe alostéricamente el complejo de ubiquitinación Keap1–Nrf2; Nrf2 recién sintetizada se acumula.
-3. **Programa nuclear:** Nrf2 se transloca al núcleo, heterodimeriza con pequeñas proteínas Maf y se une a elementos de respuesta antioxidante (ARE), induciendo varios cientos de genes protectores celulares: HO-1, NQO1, GCLC/GCLM (síntesis de glutationa) y efectores antiinflamatorios, incluyendo el cambio de fenotipo microglial M1→M2.
+3. **Programa nuclear:** Nrf2 se transloca al núcleo, heterodimeriza con pequeñas proteínas Maf y se une a elementos de respuesta antioxidante (ARE), induciendo varios cientos de genes protectores celulares: HO-1, NQO1, GCLC/GCLM (síntesis de glutationa) y efectores antiinflamatorios, incluyendo el cambio de fenotipo de microglía M1→M2.
 4. **Terminación:** los genes inducidos incluyen la propia Keap1 (retroalimentación negativa), cerrando el ciclo.
 
 Las revisiones clásicas de esta cadena y su dependencia de dosis hormética se encuentran en el corpus de Calabrese [@Calabrese2021Nrf2; @Calabrese2010hormesisCentral; @Calabrese2016PreconditioningHormesis; @Calabrese2021UltraLow].
@@ -144,11 +144,11 @@ El punto formal: el estímulo *se define* por el nivel de ocupación. No existe 
 
 ## B2. Antagonismo de receptores opioides → aumento compensatorio
 
-El bloqueo transitorio de receptores opioides a dosis bajas disminuye la inhibición del sistema opioide endógeno; el aumento compensatorio en la producción de endorfinas y en la densidad de receptores es el mecanismo respaldado por la literatura clínica sobre analgesia de LDN en fibromialgia y dolor crónico [@Younger2009; @Younger2013; @Younger2014LDN], con mecanismos adicionales a nivel de receptor propuestos [@Zagon2018OGFrBlockade]. Este mecanismo es *monotónico, no hormético*: la compensación es impulsada por el bloqueo en sí, por lo que más bloqueo produce más compensación — hasta un límite establecido por la expresión de precursores, no por la dosis de LDN [@Loth2026website]. Dentro del rango de 0.5–4.5 mg, aumenta y llega a un punto de equilibrio, no se invierte. Solo se suprime en un régimen diferente — el bloqueo completo sostenido a la dosis estándar de 50 mg suprime en lugar de provocar el sistema endógeno. Por lo tanto, el mismo evento de receptor produce *fisiología opuesta en extremos de ocupación opuestos*, pero el límite está entre los regímenes de dosis, no dentro del rango de dosis baja.
+El bloqueo transitorio de receptores opioides a dosis bajas disminuye la inhibición del sistema opioide endógeno; el aumento compensatorio en la producción de endorfinas y en la densidad de receptores es el mecanismo respaldado por la literatura clínica sobre analgesia de LDN en fibromialgia y dolor crónico [@Younger2009; @Younger2013; @Younger2014LDN], con mecanismos adicionales a nivel de receptor propuestos [@Zagon2018OGFrBlockade]. Este mecanismo es *monotónico, no hormético*: la compensación es impulsada por el bloqueo en sí, por lo que más bloqueo produce más compensación — hasta un límite establecido por la expresión de precursores, no por la dosis de LDN [@Loth2026website]. Dentro del rango de 0,5–4,5 mg, aumenta y llega a un punto de equilibrio, no se invierte. Solo se suprime en un régimen diferente — el bloqueo completo sostenido a la dosis estándar de 50 mg suprime en lugar de provocar el sistema endógeno. Por lo tanto, el mismo evento de receptor produce *fisiología opuesta en extremos de ocupación opuestos*, pero el límite está entre los regímenes de dosis, no dentro del rango de dosis baja.
 
 ## B3. Restauración de TRPM3 — un objetivo umbral, no una ventana hormética
 
-TRPM3 es un canal de calcio cuya función está deteriorada en las células killer naturales de EM/SFC — el hallazgo de canal ión más replicado en la enfermedad, replicado en cohortes independientes [@Cabanas2018trpm3; @Cabanas2021]. La naltrexona restaura el flujo de calcio mediado por TRPM3 in vitro, probablemente al aliviar el tono inhibitorio mediado por receptores opioides [@Cabanas2019trpm3ldnFront]. Esto es **selección de objetivo dependiente de concentración de categoría-4**, no hormesis: no hay programa adaptativo al estrés para extinguirlo. TRPM3 está más abajo en la lista de afinidad que TLR4, por lo que su *umbral* de engagement es más alto — probablemente 3.0–4.5 mg in vivo frente a 0.5–1.5 mg [@Loth2026website]. Por debajo de esa concentración, TRPM3 no se activa en absoluto; a y por encima de ella, la restauración se activa y satura. Por lo tanto, una dosis baja no contiene el beneficio de TRPM3 (el objetivo nunca se alcanza), y una dosis alta no lo extingue (es un mecanismo de saturación) — TRPM3 no es ni el mecanismo de dosis baja extinto ni el hormético, y no juega ningún papel en la matemática de U invertido de la Parte C.
+TRPM3 es un canal de calcio cuya función está deteriorada en las células killer naturales de EM/SFC — el hallazgo de canal ión más replicado en la enfermedad, replicado en cohortes independientes [@Cabanas2018trpm3; @Cabanas2021]. La naltrexona restaura el flujo de calcio mediado por TRPM3 in vitro, probablemente al aliviar el tono inhibitorio mediado por receptores opioides [@Cabanas2019trpm3ldnFront]. Esto es **selección de objetivo dependiente de concentración de categoría-4**, no hormesis: no hay programa adaptativo al estrés para extinguirlo. TRPM3 está más abajo en la lista de afinidad que TLR4, por lo que su *umbral* de engagement es más alto — probablemente 3,0–4,5 mg in vivo frente a 0,5–1,5 mg [@Loth2026website]. Por debajo de esa concentración, TRPM3 no se activa en absoluto; a y por encima de ella, la restauración se activa y satura. Por lo tanto, una dosis baja no contiene el beneficio de TRPM3 (el objetivo nunca se alcanza), y una dosis alta no lo extingue (es un mecanismo de saturación) — TRPM3 no es ni el mecanismo de dosis baja extinto ni el hormético, y no juega ningún papel en la matemática de U invertido de la Parte C.
 
 ## B4. Tabla de banda de dosis
 
@@ -156,12 +156,12 @@ La combinación de P2 con B1–B3 muestra que un medicamento a diferentes dosis 
 
 | Dosis | Hormesis TLR4/Nrf2 (B1) | Compensación opioides (B2) | Restauración TRPM3 (B3) |
 |---|---|---|---|
-| 0.5–1.5 mg | en el rango | aumenta | no activada |
-| ~3.0 mg | extinguida | plataforma | comienza |
-| 4.5 mg | extinguida | plataforma | activada |
+| 0,5–1,5 mg | en el rango | aumenta | no activada |
+| ~3,0 mg | extinguida | plataforma | comienza |
+| 4,5 mg | extinguida | plataforma | activada |
 | 50 mg | extinguida | bloqueada (antagonismo total) | saturada |
 
-Se deben leer las columnas como tres curvas independientes, no como una sola. La columna TLR4/Nrf2 es la única *invertida hormética*: presente solo a dosis bajas, desaparece al ~3.0 mg. La columna de opioides es monótona (aumenta, plataforma y solo en el régimen de 50 mg se pasa a supresión de antagonismo total). La columna de TRPM3 es umbral (ausente a dosis baja, se activa y satura a dosis más alta). Ninguna de estas formas constituye una mapa clínico establecido — pero cada una se deriva únicamente de las afinidades de objetivo, independientemente de los valores reales de los parámetros.
+Se deben leer las columnas como tres curvas independientes, no como una sola. La columna TLR4/Nrf2 es la única *invertida hormética*: presente solo a dosis bajas, desaparece al ~3,0 mg. La columna de opioides es monótona (aumenta, plataforma y solo en el régimen de 50 mg se pasa a supresión de antagonismo total). La columna de TRPM3 es umbral (ausente a dosis baja, se activa y satura a dosis más alta). Ninguna de estas formas constituye una mapa clínico establecido — pero cada una se deriva únicamente de las afinidades de objetivo, independientemente de los valores reales de los parámetros.
 
 ---
 
@@ -204,10 +204,10 @@ Números ilustrativos ($n = 2$, $m = 2$, así $f^\ast = 1/3$ y $c^\ast = \sqrt{1
 
 | Dosis | $c$ | $f$ | $1-f$ | $B/B_{\max}$ |
 |---|---|---|---|---|
-| 0.7 mg | 0.7 | 0.33 | 0.67 | **1.00 — pico** |
-| 1 mg | 1.0 | 0.50 | 0.50 | 0.84 |
-| 3 mg | 3.0 | 0.90 | 0.10 | 0.06 |
-| 4 mg | 4.0 | 0.94 | 0.06 | 0.02 |
+| 0,7 mg | 0,7 | 0,33 | 0,67 | **1,00 — pico** |
+| 1 mg | 1,0 | 0,50 | 0,50 | 0,84 |
+| 3 mg | 3,0 | 0,90 | 0,10 | 0,06 |
+| 4 mg | 4,0 | 0,94 | 0,06 | 0,02 |
 
 Lee la última columna en relación con la hipótesis del superset. Si los efectos se propagaban, la fila de 4 mg contenería el beneficio del 1 mg. En cambio, el modelo coloca el mecanismo del 1 mg en aproximadamente el 2% de su pico a las 4 mg.
 
@@ -228,9 +228,9 @@ Corolario para una interpretación experimental: para un mecanismo hormético in
 
 Dos aclaraciones sobre los límites:
 
-- **Off ≠ reversed.** En $D_2$, el paciente se encuentra en la línea base no tratada para el mecanismo $i$, no por debajo de ella. La predicción para una dosis fuera de la ventana es un valor nulo (o efectos de nuevos mecanismos), no una deterioro — lo cual es importante desde el punto de vista clínico para entender cómo deber interpretarse un fracaso con una alta dosis.
+- **Apagado ≠ invertido.** En $D_2$, el paciente se encuentra en la línea base no tratada para el mecanismo $i$, no por debajo de ella. La predicción para una dosis fuera de la ventana es un valor nulo (o efectos de nuevos mecanismos), no una deterioro — lo cual es importante desde el punto de vista clínico para entender cómo deber interpretarse un fracaso con una alta dosis.
 - **Los mecanismos que no se invierten son las excepciones y no constituyen el argumento.** La compensación con opioides (B2) no se extingue dentro de su rango — llega a un límite de síntesis — por lo que un valor nulo a alta dosis *dentro de ese rango* realmente lo prueba. TRPM3 (B3) no está activo en dosis baja, por lo que su beneficio nunca forma parte de una dosis más baja que se transmita. Lo que hace que la inferencia del superset falle para LDN es que el beneficio dominante en dosis baja es el mecanismo hormético inversor (TLR4/Nrf2), que una dosis estándar ya ha superado y pasado — por lo que el valor nulo de la dosis estándar no informa sobre precisamente el mecanismo que es más importante. La tesis del artículo es, por lo tanto, específica: se trata de medicamentos cuyo principal beneficio en dosis baja es hormético, no de medicamentos con un único mecanismo.
-- **El resultado es condicional, no empírico.** Se cumple *si* el mecanismo de beneficio es hormético (acción inhibitoria directa, beneficio = respuesta a la inhibición que se extingue en ocupación total). No depende de los valores de $K_d$, $n$ o $m$, ni de ninguna mapa de objetivo específico. Si el beneficio clínico de LDN es realmente hormético, esa es la pregunta empírica que Part D aborda.
+- **El resultado es condicional, no empírico.** Se cumple *si* el mecanismo de beneficio es hormético (acción inhibitoria directa, beneficio = respuesta a la inhibición que se extingue en ocupación total). No depende de los valores de $K_d$, $n$ o $m$, ni de ninguna mapa de objetivo específico. Si el beneficio clínico de LDN es realmente hormético, esa es la pregunta empírica que la Parte D aborda.
 
 ---
 
@@ -238,20 +238,20 @@ Dos aclaraciones sobre los límites:
 
 La base de ensayos controlados para la LDN en la fibromialgia y la EM/SFC: el ensayo aleatorizado de fibromialgia de Due Bruun et al. [@DueBruun2024LDNFibromyalgia], el metaanálisis de Ologunowa et al. [@Ologunowa2025LDNFMMeta], los trabajos piloto positivos a dosis bajas [@Younger2009; @Younger2014LDN] y los análisis de respuesta que identifican subgrupos sensibles a la dosis [@Nielsen2026LDNFMResponder]. Dos hechos estructurales sobre esta base:
 
-1. **No contiene ningún ensayo de dosis-respuesta dentro del rango.** Ninguna estudia asigna 0.5, 1.5, 3.0 y 4.5 mg dentro de la misma cohorte. Por lo tanto, la predicción de no monotónica de C2 no ha sido probada — ni ha sido refutada.
+1. **No contiene ningún ensayo de dosis-respuesta dentro del rango.** Ninguna estudia asigna 0,5, 1,5, 3,0 y 4,5 mg dentro de la misma cohorte. Por lo tanto, la predicción de no monotónica de C2 no ha sido probada — ni ha sido refutada.
 2. **Un resultado nulo a una dosis no puede distinguir entre las dos familias de modelos.** Bajo el modelo hormético inverso, un ensayo dosisado en el brazo más alejado del U inverso *debería* fallar, y su fallo no aporta información sobre el pico. Bajo un modelo monotónico, el mismo resultado nulo es evidencia contra el mecanismo. Los resultados mixtos existentes — trabajos piloto positivos a dosis bajas, ensayos controlados nulos a dosis estándar — se ajustan al modelo hormético, pero por sí solos no demuestran esto, porque un mecanismo monotónico con un efecto pequeño también puede producir resultados mixtos en ensayos subpotentes. Lo que la base realmente muestra es que *no es capaz de distinguir* la predicción no monotónica de una dosis-respuesta monotónica — y es precisamente por eso que se necesita el ensayo dentro del rango en la Parte E.
 
-La afirmación de certeza: las matemáticas de ocupación (Parte A) son una farmacología establecida [@Langmuir1918; @Clark1926; @Hill1910; @Goutelle2008]. El U inverso hormético está establecido en toxicología y biología de estresores, pero **no ha sido probado como el mecanismo clínico de la LDN**; el mapa específico de objetivo y los rangos de dosis (Parte B) son hipótesis derivadas del mecanismo con una certeza baja (~0.30) [@Loth2026website]. El resultado estructural (C4) es condicional únicamente a que el mecanismo sea hormético.
+La afirmación de certeza: las matemáticas de ocupación (Parte A) son una farmacología establecida [@Langmuir1918; @Clark1926; @Hill1910; @Goutelle2008]. El U inverso hormético está establecido en toxicología y biología de estresores, pero **no ha sido probado como el mecanismo clínico de la LDN**; el mapa específico de objetivo y los rangos de dosis (Parte B) son hipótesis derivadas del mecanismo con una certeza baja (~0,30) [@Loth2026website]. El resultado estructural (C4) es condicional únicamente a que el mecanismo sea hormético.
 
 ---
 
 # Parte E — La propuesta clínica y los límites
 
-**El test a nivel de población falsizable** (la especificación HIP-B del artículo original): un ensayo de cruce de cuatro brazos dentro del rango — 0.5, 1.5, 3.0, 4.5 mg, n ≥ 30, 8 semanas por brazo — con trayectorias de síntomas por brazo. El modelo hormético predice curvas grupales no monótonas y correlación entre posiciones de ventana entre pacientes para fármacos que comparten la vía Nrf2 (LDN, sulfurofano, litio de baja dosis); un resultado monótono falsifica el modelo de manera clara [@Loth2026website].
+**El test a nivel de población falsizable** (la especificación HIP-B del artículo original): un ensayo de cruce de cuatro brazos dentro del rango — 0,5, 1,5, 3,0, 4,5 mg, n ≥ 30, 8 semanas por brazo — con trayectorias de síntomas por brazo. El modelo hormético predice curvas grupales no monótonas y correlación entre posiciones de ventana entre pacientes para fármacos que comparten la vía Nrf2 (LDN, sulfurofano, litio de baja dosis); un resultado monótono falsifica el modelo de manera clara [@Loth2026website].
 
-**La heurística de prescripción mientras se espera ese ensayo.** El argumento de C4 se convierte directamente en la conclusión que este artículo busca respaldar: **una dosis estándar nula no excluye dosis subestándar**, porque para un fármaco cuyo beneficio es la respuesta a la participación parcial, la dosis estándar no ejecutó el mecanismo de baja dosis. Cuando la titulación descendente es farmacológicamente segura — y dentro del rango de 0.5–4.5 mg el perfil de seguridad del LDN está bien caracterizado [@Younger2013] — un ensayo de baja dosis con tiempo limitado, con síntoma objetivo nombrado, dosis nombrada y regla de detención nombrada, no es una retirada de la evidencia. Es el experimento que la base de evidencia está careciendo.
+**La heurística de prescripción mientras se espera ese ensayo.** El argumento de C4 se convierte directamente en la conclusión que este artículo busca respaldar: **una dosis estándar nula no excluye dosis subestándar**, porque para un fármaco cuyo beneficio es la respuesta a la participación parcial, la dosis estándar no ejecutó el mecanismo de baja dosis. Cuando la titulación descendente es farmacológicamente segura — y dentro del rango de 0,5–4,5 mg el perfil de seguridad del LDN está bien caracterizado [@Younger2013] — un ensayo de baja dosis con tiempo limitado, con síntoma objetivo nombrado, dosis nombrada y regla de detención nombrada, no es una retirada de la evidencia. Es el experimento que la base de evidencia está careciendo.
 
-**Diagnóstico a nivel de paciente.** Para un paciente individual, la titulación ya es un experimento de respuesta dosis-paciente: el beneficio en 0.5–1.5 mg se pierde en 3.0–4.5 mg, lo que corresponde al patrón de hormesis invertida TLR4/Nrf2; el mantenimiento del beneficio hasta 4.5 mg sugiere un mecanismo diferente, no hormético, como la compensación opioide [@Loth2026website].
+**Diagnóstico a nivel de paciente.** Para un paciente individual, la titulación ya es un experimento de respuesta dosis-paciente: el beneficio en 0,5–1,5 mg se pierde en 3,0–4,5 mg, lo que corresponde al patrón de hormesis invertida TLR4/Nrf2; el mantenimiento del beneficio hasta 4,5 mg sugiere un mecanismo diferente, no hormético, como la compensación opioide [@Loth2026website].
 
 **Los límites, reiterados en un solo lugar.** No existe ningún ensayo de respuesta dosis-paciente con LDN dentro del rango en ninguna condición; los ensayos de dosis única son heterogéneos y en gran medida nulos a dosis estándar [@DueBruun2024LDNFibromyalgia; @Ologunowa2025LDNFMMeta]. La certeza del marco es baja. Lo que no depende de esa incertidumbre es el teorema condicional: *si* el beneficio de un fármaco es una respuesta a la participación parcial y no a la completa, el beneficio no puede propagarse hacia arriba a través de la dosis — y la única manera de averiguar si el LDN es tal fármaco es ejecutar las dosis.
 

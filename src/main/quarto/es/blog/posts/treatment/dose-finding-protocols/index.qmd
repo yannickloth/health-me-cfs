@@ -33,16 +33,16 @@ Tres reglas universales antes de ejecutar cualquier protocolo:
 
 ## Naltrexona en dosis bajas (LDN)
 
-**Objetivos (banda de dosis):** Primerización hormonal TLR4/Nrf2 (~0.5–1.5 mg) · aumento compensatorio de opioides (~1.5–3 mg) · restauración TRPM3 (~3–4.5 mg) — para la cadena completa, consulta la Parte 1. Cada objetivo se establece individualmente in vitro o en modelos animales: naltrexona como antagonista parcial de TLR4 en microglía, demostrado en una línea de células de ratón y modelos de roedores [@Kucic2021LDNmicroglia; @Kwilasz2021NTXmicroglia], bloqueo de receptores opioides con rebote de endorfinas compensatorias [@Younger2013], restauración del flujo de calcio TRPM3 en células NK de EM/SFC [@Cabanas2018trpm3; @Cabanas2021], y el vínculo entre inflamación y supresión de orexina [@Grossberg2011orexinLethargy]. Lo que *no* está establecido es la asignación de cada objetivo a una banda de dosis clínica — esa parte es inferencia basada en modelos [@Loth2026mecfs].
+**Objetivos (banda de dosis):** Primerización hormonal TLR4/Nrf2 (~0,5–1,5 mg) · aumento compensatorio de opioides (~1,5–3 mg) · restauración TRPM3 (~3–4,5 mg) — para la cadena completa, consulta la Parte 1. Cada objetivo se establece individualmente in vitro o en modelos animales: naltrexona como antagonista parcial de TLR4 en microglía, demostrado en una línea de células de ratón y modelos de roedores [@Kucic2021LDNmicroglia; @Kwilasz2021NTXmicroglia], bloqueo de receptores opioides con rebote de endorfinas compensatorias [@Younger2013], restauración del flujo de calcio TRPM3 en células NK de EM/SFC [@Cabanas2018trpm3; @Cabanas2021], y el vínculo entre inflamación y supresión de orexina [@Grossberg2011orexinLethargy]. Lo que *no* está establecido es la asignación de cada objetivo a una banda de dosis clínica — esa parte es inferencia basada en modelos [@Loth2026mecfs].
 
 | Campo | Protocolo | Nivel |
 |-------|----------|------|
-| Escala de dosis | 0.5 mg × 2 semanas → 1 mg × 4 semanas → 1.5 mg × 4 semanas → (si es parcial) 2.25 mg × 4 semanas → (si es parcial) 3 mg × 4 semanas → (si aún no hay señal) 4.5 mg × 4 semanas | E para inicio bajo; C para pasos |
-| Duración del paso | Mínimo 4 semanas por paso por debajo de 2 mg — el mecanismo TLR4/Nrf2 es transcricional; los resultados dentro de 2 semanas miden la ajuste, no el efecto | C |
+| Escala de dosis | 0,5 mg × 2 semanas → 1 mg × 4 semanas → 1,5 mg × 4 semanas → (si es parcial) 2,25 mg × 4 semanas → (si es parcial) 3 mg × 4 semanas → (si aún no hay señal) 4,5 mg × 4 semanas | E para inicio bajo; C para pasos |
+| Duración del paso | Mínimo 4 semanas por paso por debajo de 2 mg — el mecanismo TLR4/Nrf2 es transcricional; los resultados dentro de 2 semanas miden el ajuste, no el efecto | C |
 | Resultado principal | Fatiga o niebla cerebral, autocalificación diaria del 0–10 | C |
-| Condiciones de detención | Beneficio en un paso → mantener ≥8 semanas antes de cualquier cambio · sin beneficio en el rango completo de 0.5–4.5 mg → interpretación: los objetivos de LDN no son limitantes en términos de velocidad · brote inicial → reducir a la mitad, no abandonar | C |
+| Condiciones de detención | Beneficio en un paso → mantener ≥8 semanas antes de cualquier cambio · sin beneficio en el rango completo de 0,5–4,5 mg → interpretación: los objetivos de LDN no son limitantes en términos de velocidad · brote inicial → reducir a la mitad, no abandonar | C |
 | Compounding | Por debajo de 2 mg: farmacia de compounding o líquido | E |
-| Regla de reintento | Un resultado nulo en 3.5–4 mg NO cierra la banda de 1 mg — mecanismo diferente en esa banda ([por qué](../single-dose-failure-not-a-verdict/)) | C |
+| Regla de reintento | Un resultado nulo en 3,5–4 mg NO cierra la banda de 1 mg — mecanismo diferente en esa banda ([por qué](../single-dose-failure-not-a-verdict/)) | C |
 
 **Fallo común:** el resultado se declara a las 3 semanas en un solo paso. La estructura con cuatro mecanismos hace que LDN sea el medicamento *más* rico en información de dosis de la lista, y por lo tanto, más ineficiente para pruebas superficiales.
 
@@ -54,13 +54,13 @@ Tres reglas universales antes de ejecutar cualquier protocolo:
 
 | Campo | Protocolo | Nivel |
 |-------|----------|------|
-| Escala de dosis | 0.5 mg × 3–5 d (tolerabilidad) → 1 mg × 6 wk (la ventana de evaluación utilizada clínicamente) | C (Promedio de la cohorte de Crosby 2021: 1.1 mg/día [@Crosby2021LDA]) |
+| Escala de dosis | 0,5 mg × 3–5 d (tolerabilidad) → 1 mg × 6 wk (la ventana de evaluación utilizada clínicamente) | C (Promedio de la cohorte de Crosby 2021: 1,1 mg/día [@Crosby2021LDA]) |
 | Duración del paso | Días para tolerabilidad, **semanas para eficacia** — no juzgue el efecto antes de que se cumpla la ventana del médico prescriptor | C |
 | Resultado principal | Elija según el síntoma dominante: frecuencia de PEM, claridad cognitiva o sueño — solo uno | C |
 | Condiciones para detenerse | Akatisia, agitación o preocupaciones sobre cambios de estado de ánimo → detenerse y informar · no hay beneficio después de 6 semanas → límite establecido por el médico prescriptor según su práctica | C |
 | Compounding | Se requiere menos de 2 mg: farmacia de compuestos (tabletas estándar ≥2 mg) | E |
 | Monitoreo | Arquitectura del sueño y autoevaluaciones del estado de ánimo (los efectos documentados del LDA son cualitativamente distintos de la activación de tipo estimulante — pero la distinción debe ser verificada, no asumida) | C |
-| Regla de reinteligencia | Una dosis que mantiene el sueño pero pierde la protección de PEM (el patrón de 0.75 mg) significa que la ventana es específica para el síntoma — mapee por síntoma, no por fármaco | S |
+| Regla de reintento | Una dosis que mantiene el sueño pero pierde la protección de PEM (el patrón de 0,75 mg) significa que la ventana es específica para el síntoma — mapee por síntoma, no por fármaco | S |
 
 **Por qué una breve duración puede funcionar:** una prueba de 5 días a una dosis más baja, con un resultado acordado por el médico prescriptor y condiciones de detención definidas, puede obtener un resultado negativo claro en una semana — y aún fortalecer la posición de la dosis de uso, porque la ventana fue probada y mantenida. Ese es el protocolo que funciona según lo diseñado.
 
@@ -72,10 +72,10 @@ Tres reglas universales antes de ejecutar cualquier protocolo:
 
 | Campo | Protocolo | Nivel |
 |-------|----------|------|
-| Escala de dosis | 0.3 mg → 1 mg → 3 mg → 5 mg de elemento litio, pasos de ~2 semanas | C |
+| Escala de dosis | 0,3 mg → 1 mg → 3 mg → 5 mg de elemento litio, pasos de ~2 semanas | C |
 | Duración del paso | 2 semanas son suficientes para los resultados subjetivos; el argumento transcripcional de Nrf2 sugiere un tiempo más largo en dosis efectivas | C |
-| Resultado principal | Igual que el medicamento para el grupo de Nrf2 receptivo del paciente (si LDN funcionó a 0.5–1.5 mg, la pregunta del litio es “¿el grupo de ventana es consistente?”) | S |
-| Condiciones de interrupción | Tremor, sed, confusión → interrumpir (conciencia estándar sobre la toxicidad del litio, aunque las microdosis rara vez alcanzan este nivel — E para la advertencia, C para el umbral) · no hay beneficio consistente con el grupo entre 0.3–5 mg → la hipótesis del grupo de ventana se debilita para este paciente | C/S |
+| Resultado principal | Igual que el medicamento para el grupo de Nrf2 receptivo del paciente (si LDN funcionó a 0,5–1,5 mg, la pregunta del litio es “¿el grupo de ventana es consistente?”) | S |
+| Condiciones de interrupción | Tremor, sed, confusión → interrumpir (conciencia estándar sobre la toxicidad del litio, aunque las microdosis rara vez alcanzan este nivel — E para la advertencia, C para el umbral) · no hay beneficio consistente con el grupo entre 0,3–5 mg → la hipótesis del grupo de ventana se debilita para este paciente | C/S |
 | Monitoreo | Si se extiende por encima de 5 mg o a largo plazo: monitoreo estándar de litio según el prescriptor | E |
 
 ---
@@ -97,7 +97,7 @@ Tres reglas universales antes de ejecutar cualquier protocolo:
 
 ## Metilfenidato (Ritalin MR) y estimulantes de baja dosis
 
-**Objetivo:** inhibición de la reabsorción de catecolaminas. En EM/SFC, el patrón documentado es una forma invertida-U *y* inducción de PEM a dosis altas de estimulantes. El ensayo clínico aleatorizado cruzado doble ciego encontró que el metilfenidato reduce la fatiga en EM/SFC [@Blockmans2006MPHCFS], y el seguimiento a largo plazo mostró beneficios duraderos en aproximadamente un tercio de los pacientes que continuaron el tratamiento, con una alta tasa de abandono — lo cual es consistente con el compromiso entre estimulantes y PEM que el protocolo está diseñado para medir [@Blockmans2016LongTermMPH].
+**Objetivo:** inhibición de la reabsorción de catecolaminas. En EM/SFC, el patrón documentado es una forma invertida-U *y* inducción de PEM a dosis altas de estimulantes. El ensayo clínico aleatorizado cruzado doble ciego encontró que el metilfenidato reduce la fatiga en SFC [@Blockmans2006MPHCFS], y el seguimiento a largo plazo mostró beneficios duraderos en aproximadamente un tercio de los pacientes que continuaron el tratamiento, con una alta tasa de abandono — lo cual es consistente con el compromiso entre estimulantes y PEM que el protocolo está diseñado para medir [@Blockmans2016LongTermMPH].
 
 | Campo | Protocolo | Nivel |
 |-------|----------|------|
@@ -126,25 +126,25 @@ Tres reglas universales antes de ejecutar cualquier protocolo:
 
 ## Melatonina (dosis baja)
 
-**Objetivo:** cronobiotica a dosis bajas; hipnótica (y con diferente perfil de receptores) a dosis altas — un perfil de U invertido que la mayoría de los pacientes interpreta al revés. La melatonina a dosis baja (0.5 mg) desplaza la fase del reloj circadiano sin suprimir la secreción endógena [@Burgess2010melatonin]; en EM/SFC, el ajuste del horario de la melatonina guiado por DLMO mejoró la fatiga en pacientes con fase retrasada [@vanHeukelom2006melatonin]. La formulación “la dosis baja es cronobiotica, la dosis alta es hipnótica” y su aplicación en EM/SFC representa una inferencia de modelo [@Loth2026mecfs].
+**Objetivo:** cronobiótica a dosis bajas; hipnótica (y con diferente perfil de receptores) a dosis altas — un perfil de U invertido que la mayoría de los pacientes interpreta al revés. La melatonina a dosis baja (0,5 mg) desplaza la fase del reloj circadiano sin suprimir la secreción endógena [@Burgess2010melatonin]; en SFC, el ajuste del horario de la melatonina guiado por DLMO mejoró la fatiga en pacientes con fase retrasada [@vanHeukelom2006melatonin]. La formulación “la dosis baja es cronobiotica, la dosis alta es hipnótica” y su aplicación en EM/SFC representa una inferencia de modelo [@Loth2026mecfs].
 
 | Campo | Protocolo | Nivel |
 |-------|----------|------|
-| Escala de dosis | 0.3 mg → 0.5 mg → 1 mg → 3 mg, descendiendo **si** las dosis más altas tenían menos efecto (la sorpresa común) | C (0.3 mg, razón fisiológica: E) |
+| Escala de dosis | 0,3 mg → 0,5 mg → 1 mg → 3 mg, descendiendo **si** las dosis más altas tenían menos efecto (la sorpresa común) | C (0,3 mg, razón fisiológica: E) |
 | Duración del paso | 1 semana por escalón, evaluada cada noche | C |
-| Resultado principal | Latencia para iniciar el sueño o despertar durante la noche — la afirmación de cronobiotica se refiere al *horario*, no a la intensidad de la sedación | C |
-| Horario | 2–4 horas antes del inicio esperado del sueño a dosis bajas (ventana cronobiotica), no a la hora de acostarse (hábito hipnótico) — el horario es la mitad de la dosis para este medicamento | C/E mixto |
+| Resultado principal | Latencia para iniciar el sueño o despertar durante la noche — la afirmación de cronobiótica se refiere al *horario*, no a la intensidad de la sedación | C |
+| Horario | 2–4 horas antes del inicio esperado del sueño a dosis bajas (ventana cronobiótica), no a la hora de acostarse (hábito hipnótico) — el horario es la mitad de la dosis para este medicamento | C/E mixto |
 | Condiciones para detenerse | Mañanas somnolientas en un escalón → fuera de la ventana, reducir el paso · sin efecto en ningún escalón → intentar cambiar el horario antes de abandonar | C |
 
 ---
 
 ## Modafinilo
 
-**Objetivo:** promoción de la vigilia, catecholaminérgico/orexina asociado [@Volkow2009modafinil]. La lógica de dosis se aplica como para otros estimulantes: curva U invertida con ansiedad/sobreestimulación en el brazo. En el síndrome de fatiga crónica, un estudio doble ciego cruzado mostró que la dosis estándar de modafinilo no generó beneficio en la fatiga y empeoró la cognición a 400 mg [@Randall2005modafinil] — lo que sirve como referencia para comenzar *por debajo* del rango estándar.
+**Objetivo:** promoción de la vigilia, catecolaminérgico/orexina asociado [@Volkow2009modafinil]. La lógica de dosis se aplica como para otros estimulantes: curva U invertida con ansiedad/sobreestimulación en el brazo. En el síndrome de fatiga crónica, un estudio doble ciego cruzado mostró que la dosis estándar de modafinilo no generó beneficio en la fatiga y empeoró la cognición a 400 mg [@Randall2005modafinil] — lo que sirve como referencia para comenzar *por debajo* del rango estándar.
 
 | Campo | Protocolo | Nivel |
 |-------|----------|------|
-| Escala de dosis | Quarto tableta (25–50 mg) → mitad (100 mg) — comenzar *por debajo* de los 100–200 mg estándar, a diferencia de la dosis en la población general | C |
+| Escala de dosis | Cuarto de tableta (25–50 mg) → mitad (100 mg) — comenzar *por debajo* de los 100–200 mg estándar, a diferencia de la dosis en la población general | C |
 | Duración del paso | Pruebas de un solo día, con intervalos ≥48 h, antes de los ensayos de días consecutivos | C |
 | Resultado principal | Vigilancia **y** verificación de PEM al día siguiente — este medicamento más fácilmente induce el error de “tomar de mañana” que la medida de resultados de Ritalin busca detectar | C |
 | Condiciones de interrupción | Ansiedad, sobreestimulación → fuera del intervalo · crisis al día siguiente → la interrupción acumula deuda en PEM; el medicamento cuesta más de lo que genera | C |
@@ -155,13 +155,13 @@ Tres reglas universales antes de ejecutar cualquier protocolo:
 
 Cuando un ensayo bien ejecutado produce un resultado nulo, recorre la tabla de explicaciones alternativas del artículo anterior en orden de costo: dosis adyacente → duración más larga → resultado reescaneado → argumento sobre el mecanismo. Los protocolos mencionados anteriormente están diseñados de tal manera que los tres primeros suelen ya tener una respuesta *por parte del propio ensayo* — la escalera cubre las dosis adyacentes, los pasos cubren el tiempo, y el resultado predefinido cubre la medición. Lo que queda es el mecanismo, que no es un fracaso del ensayo sino su producto: un medicamento cuyos objetivos no son limitantes en tu caso, marcado a un costo adecuado.
 
-Ese es el estado objetivo de toda la búsqueda: cada ensayo — positivo o nulo — deja una mapa con una región más coloreada.
+Ese es el estado objetivo de toda la búsqueda: cada ensayo — positivo o nulo — deja un mapa con una región más coloreada.
 
 ---
 
 ## Suposiciones y limitaciones
 
-**Cada número que aparece arriba tiene una razón específica.** Las bandas de dosis provienen del marco de la farmacopea (Parte 4) y, en última instancia, de el análisis en forma de U invertida del artículo principal — una farmacología establecida donde se marca E, inferencia comunitaria y modelo donde se marca C, y apuestas explícitas donde se marca S. La idea de correlación de grupos (seguimiento de ventanas entre fármacos mecanísticamente relacionados) es la predicción falsable central del marco, no un resultado. Si el marco es incorrecto, los *datos de respuesta-dosis que recopilas con estos protocolos permanecerán válidos* — la capa interpretativa que se coloca encima es la que caería. La motivación no es hipotética: los ensayos controlados de LDN que existen son de una sola dosis y devolvieron resultados nulos en sus endpoints principales [@DueBruun2024LDNFibromyalgia; @Ologunowa2025LDNFMMeta] — no se ha realizado ningún ensayo de respuesta-dosis dentro del rango en ninguna condición, y este es precisamente el vacío que estos protocolos están diseñados para llenar [@Loth2026mecfs].
+**Cada número que aparece arriba tiene una razón específica.** Las bandas de dosis provienen del marco de la farmacopea (Parte 4) y, en última instancia, del análisis en forma de U invertida del artículo principal — una farmacología establecida donde se marca E, inferencia comunitaria y modelo donde se marca C, y apuestas explícitas donde se marca S. La idea de correlación de grupos (seguimiento de ventanas entre fármacos mecanísticamente relacionados) es la predicción falsable central del marco, no un resultado. Si el marco es incorrecto, los *datos de respuesta-dosis que recopilas con estos protocolos permanecerán válidos* — la capa interpretativa que se coloca encima es la que caería. La motivación no es hipotética: los ensayos controlados de LDN que existen son de una sola dosis y devolvieron resultados nulos en sus endpoints principales [@DueBruun2024LDNFibromyalgia; @Ologunowa2025LDNFMMeta] — no se ha realizado ningún ensayo de respuesta-dosis dentro del rango en ninguna condición, y este es precisamente el vacío que estos protocolos están diseñados para llenar [@Loth2026mecfs].
 
 **Los protocolos son plantillas, no recetas.** Las dosis interactúan — entre sí, con la fase de la enfermedad y con el propio historial del paciente. Los números ilustrativos provienen de razonamiento farmacológico y la experiencia de la comunidad de EM/SFC, no de ensayos validados; la extrapolación entre pacientes es hipotética. Tu médico prescriptor establece los números reales; estos protocolos estructuran la conversación, y varios de estos fármacos (dosis bajas compuestas, uso fuera del rango de indicaciones, estimulantes) son inaccesibles sin ellos.
 
@@ -171,4 +171,4 @@ Ese es el estado objetivo de toda la búsqueda: cada ensayo — positivo o nulo 
 
 *Análisis entre pacientes basado en el marco farmacológico de @Loth2026mecfs — no constituye consejo médico. Cada ensayo requiere el acuerdo del médico prescriptor. Los rangos de dosis se relacionan con la Parte 4 de esta serie; las estrategias y los modos de fallo se explican en el artículo complementario, [Descartar la dosis, no la droga](../dose-first-search-strategy/).*
 
-*Serie de series dosis-respuesta: [Parte 1: Por qué más no es mejor](../more-isnt-better-ldn-lda/) · [Parte 2: El U invertido no es una sola cosa](../inverted-u-not-one-thing/) · [Parte 3: Tu dosis de LDN es un diagnóstico](../dose-is-diagnostic-ldn/) · [Parte 4: La farmacopea](../pharmacopoeia-dose-meaning/) · Parte 5 (este artículo) · Relacionado: [Descartar la dosis, no la droga](../dose-first-search-strategy/)*
+*Serie dosis-respuesta: [Parte 1: Por qué más no es mejor](../more-isnt-better-ldn-lda/) · [Parte 2: El U invertido no es una sola cosa](../inverted-u-not-one-thing/) · [Parte 3: Tu dosis de LDN es un diagnóstico](../dose-is-diagnostic-ldn/) · [Parte 4: La farmacopea](../pharmacopoeia-dose-meaning/) · Parte 5 (este artículo) · Relacionado: [Descartar la dosis, no la droga](../dose-first-search-strategy/)*

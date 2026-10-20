@@ -9,13 +9,13 @@ lang: es
 
 Al golpear un nervio —el interior de un codo, la parte inferior de un muñeco, el rincón de una mesa contra una espinilla—, durante aproximadamente un segundo sientes un fuerte dolor. *Oh, me he golpeado allí.* Luego el dolor comienza a aparecer y a intensificarse —no de forma gradual, sino como una ola que sube. Pasan uno o dos segundos y el juicio del cerebro llega antes de que las palabras puedan formarse: *no es posible mantenerse de pie*. Todo se vuelve oscuro. Unos segundos después, la conciencia regresa. Estás en el suelo.
 
-Esto no es una anomalía médica. Es una **síncope neurocardiogénica** —un desvanecimiento provocado por un dolor intenso— y la cadena de eventos desde el impacto hasta el suelo es una secuencia espectacularmente precisa de neurofisiología. En una persona con alta sensibilidad autónoma, toda la cascada desde el golpe hasta el desvanecimiento puede completarse en menos de tres segundos. Aquí está exactamente lo que ocurre, paso a paso, con un vocabulario que lo hace comprensible incluso si nunca has tomado un curso de biología.
+Esto no es una anomalía médica. Es un **síncope neurocardiogénico** —un desvanecimiento provocado por un dolor intenso— y la cadena de eventos desde el impacto hasta el suelo es una secuencia espectacularmente precisa de neurofisiología. En una persona con alta sensibilidad autónoma, toda la cascada desde el golpe hasta el desvanecimiento puede completarse en menos de tres segundos. Aquí está exactamente lo que ocurre, paso a paso, con un vocabulario que lo hace comprensible incluso si nunca has tomado un curso de biología.
 
 ---
 
 ## Paso 1: El impacto — Las fibras Aδ se activan primero (0–100 ms)
 
-El cuerpo humano tiene dos tipos de fibras de dolor que se extienden desde la piel hasta la médula espinal y el cerebro. Ambas se encuentran dentro de los nervios periféricos. Las más rápidas se denominan **fibras Aδ**; piensa en ellas como la vía express. Están envueltas en una capa de insulación grasa llamada **mielina** (my-uh-lin), que permite que los señales eléctricas se transmitan a aproximadamente 5–30 metros por segundo. Un impacto mecánico en un nervio periférico — como un golpe en la muñeca contra un rincón de una mesa en el nervio ulnar cerca del canal de Guyon — despolariza (activar eléctricamente) estas fibras Aδ de forma instantánea.
+El cuerpo humano tiene dos tipos de fibras de dolor que se extienden desde la piel hasta la médula espinal y el cerebro. Ambas se encuentran dentro de los nervios periféricos. Las más rápidas se denominan **fibras Aδ**; piensa en ellas como la vía rápida. Están envueltas en una capa de aislamiento graso llamada **mielina** (my-uh-lin), que permite que las señales eléctricas se transmitan a aproximadamente 5–30 metros por segundo. Un impacto mecánico en un nervio periférico — como un golpe en la muñeca contra un rincón de una mesa en el nervio ulnar cerca del canal de Guyon — despolariza (activa eléctricamente) estas fibras Aδ de forma instantánea.
 
 Lo que transmiten al cerebro es un **dolor agudo y localizable**: el punto exacto del impacto. Las fibras Aδ proporcionan el "dolor" que indica con precisión dónde se ha lesionado.
 
@@ -25,31 +25,31 @@ Por esta razón, generalmente hay un breve período — aproximadamente un segun
 
 ## Paso 2: Reclutamiento de fibras C — la onda retrasada (200 ms → 2 segundos)
 
-El segundo tipo de fibra dolorosa es la **fibrilla C**. Estas son no mielinizadas — sin aislamiento — por lo que sus señales se transmiten lentamente, a aproximadamente 0.5–2 metros por segundo. Transportan un tipo diferente de dolor: **dolor sordo, difuso, ardiente, progresivo y emocionalmente insoportable**.
+El segundo tipo de fibra dolorosa es la **fibra C**. Estas son no mielinizadas — sin aislamiento — por lo que sus señales se transmiten lentamente, a aproximadamente 0,5–2 metros por segundo. Transportan un tipo diferente de dolor: **dolor sordo, difuso, ardiente, progresivo y emocionalmente insoportable**.
 
-Las fibrillas C no solo informan daño. Liberan **substancia P** y **peptido relacionado con el gen de calcitonina (CGRP)** en el sitio de la lesión — dos moléculas que causan **inflamación neurogénica**. La substancia P hace que las paredes de los capilares cercanos sean más permeables: los espacios entre las células que revesten el vaso se amplían y el plasma sanguíneo (la componente líquida clara de la sangre, no la sangre completa) se filtra en el tejido circundante. El CGRP dilata las pequeñas arterias que alimentan la zona, aumentando el flujo sanguíneo. El plasma que se filtra lleva proteínas complementarias y factores de coagulación. **Mastocitos** — células inmunitarias ubicadas en los tejidos — detectan las señales de daño, se desgranan (liberan sus paquetes internos de histamina y otros mediadores inflamatorios) y amplifican toda la cadena. Este proceso **satura** las terminaciones nerviosas, lo que significa que la misma fibra C ahora se activa a un umbral más bajo que antes de la lesión. También recluta fibrillas C vecinas que inicialmente no estaban involucradas.
+Las fibras C no solo informan daño. Liberan **sustancia P** y **péptido relacionado con el gen de la calcitonina (CGRP)** en el sitio de la lesión — dos moléculas que causan **inflamación neurogénica**. La sustancia P hace que las paredes de los capilares cercanos sean más permeables: los espacios entre las células que revisten el vaso se amplían y el plasma sanguíneo (el componente líquido claro de la sangre, no la sangre completa) se filtra en el tejido circundante. El CGRP dilata las pequeñas arterias que alimentan la zona, aumentando el flujo sanguíneo. El plasma que se filtra lleva proteínas complementarias y factores de coagulación. **Mastocitos** — células inmunitarias ubicadas en los tejidos — detectan las señales de daño, se desgranan (liberan sus paquetes internos de histamina y otros mediadores inflamatorios) y amplifican toda la cadena. Este proceso **sensibiliza** las terminaciones nerviosas, lo que significa que la misma fibra C ahora se activa a un umbral más bajo que antes de la lesión. También recluta fibras C vecinas que inicialmente no estaban involucradas.
 
-Por esta razón, el dolor no se estabiliza después del impacto inicial. **Aumenta** — porque la cadena inflamatoria local amplifica la señal, aunque el daño mecánico ya haya terminado. En un sistema nervioso saturado, este aumento puede ser casi vertical.
+Por esta razón, el dolor no se estabiliza después del impacto inicial. **Aumenta** — porque la cadena inflamatoria local amplifica la señal, aunque el daño mecánico ya haya terminado. En un sistema nervioso sensibilizado, este aumento puede ser casi vertical.
 
-Lo que llega al cerebro ~1–2 segundos después del impacto es un aumento en la entrada de señales de fibrillas C: señalización del dolor difuso, progresiva e insuperable *esto no mejora, esto empeora* — y en una síncope de inicio rápido, la conciencia colapsa en el punto más pronunciado de ese aumento.
+Lo que llega al cerebro ~1–2 segundos después del impacto es un aumento en la entrada de señales de fibras C: señalización del dolor difuso, progresiva e insuperable *esto no mejora, esto empeora* — y en un síncope de inicio rápido, la conciencia colapsa en el punto más pronunciado de ese aumento.
 
 ---
 
 ## Paso 3: El núcleo tractus solitarius — donde el reflejo se apropia del sistema (~1–2 segundos)
 
-Toda la información nociceptiva (dolor) sube por el cordón espinal y el tronco encefálico hasta una estructura llamada **núcleo tractus solitarius (NTS)** en la médula oblongata, la parte más baja del cerebro, justo encima del cordón espinal. El NTS es el centro de integración central para **sensaciones visceral**: recibe información del corazón, los pulmones, el intestino y —crucialmente— de los nociceptores [@Benarroch2022NTS].
+Toda la información nociceptiva (dolor) sube por el cordón espinal y el tronco encefálico hasta una estructura llamada **núcleo tractus solitarius (NTS)** en la médula oblongata, la parte más baja del cerebro, justo encima del cordón espinal. El NTS es el centro de integración central para **sensaciones viscerales**: recibe información del corazón, los pulmones, el intestino y —crucialmente— de los nociceptores [@Benarroch2022NTS].
 
-Cuando el NTS recibe un **envío nociceptivo intenso y de inicio rápido**, lo interpreta como una señal de amenaza demasiado grande para que los sistemas de regulación normal puedan manejarla. Esto desata una sobrecarga de emergencia.
+Cuando el NTS recibe un **envío nociceptivo intenso y de inicio rápido**, lo interpreta como una señal de amenaza demasiado grande para que los sistemas de regulación normal puedan manejarla. Esto desata una anulación de emergencia.
 
 ---
 
-## Paso 4: La cadena reactiva dual autónoma — activación del nervio vago + retirada del tono simpático (~1.5–2.5 segundos)
+## Paso 4: La cascada autónoma dual — activación del nervio vago + retirada del tono simpático (~1,5–2,5 segundos)
 
 El NTS envía dos señales de salida simultáneas [@Raj2020syncope]:
 
 **Señal 1: Activación del nervio vago.** El **nervio vago** (nervio craneal X, el décimo nervio craneal — existen doce conjuntos de nervios numerados directamente conectados al cerebro) transmite fibras parasimpáticas al corazón. Cuando el NTS dispara, la salida vagal al nódulo sinoatrial del corazón — su marcapasos natural — aumenta de forma brusca. La frecuencia cardíaca disminuye drásticamente. Esto se denomina **bradicardia** (frecuencia cardíaca lenta).
 
-**Señal 2: Retirada del tono simpático.** El NTS inhibe simultáneamente la **medula ventrolateral rostral (RVLM)** — la región del tronco encefálico que normalmente mantiene el tono simpático en los vasos sanguíneos. Los nervios simpáticos que normalmente mantienen las arterias y venas ligeramente estrechadas se silencian. Los vasos sanguíneos se dilatan. La presión arterial disminuye drásticamente. Esto es **vasodilatación** — el aspecto vascular del reflejo.
+**Señal 2: Retirada del tono simpático.** El NTS inhibe simultáneamente la **médula ventrolateral rostral (RVLM)** — la región del tronco encefálico que normalmente mantiene el tono simpático en los vasos sanguíneos. Los nervios simpáticos que normalmente mantienen las arterias y venas ligeramente estrechadas se silencian. Los vasos sanguíneos se dilatan. La presión arterial disminuye drásticamente. Esto es **vasodilatación** — el aspecto vascular del reflejo.
 
 Juntos: el corazón bombea más lento Y los vasos sanguíneos se relajan. La sangre que iba al cerebro comienza a acumularse en las piernas y el abdomen. **Presión de perfusión cerebral** — el gradiente de presión que empuja la sangre hacia el cráneo — colapsa.
 
@@ -59,23 +59,23 @@ Juntos: el corazón bombea más lento Y los vasos sanguíneos se relajan. La san
 
 El cerebro consume aproximadamente el 20% del oxígeno y glucosa del cuerpo, a pesar de representar solo el 2% del peso corporal. Esencialmente no tiene reservas de energía — ningún almacenamiento de glucosa, ninguna oxidación de grasa a la que recurrir. Necesita un flujo sanguíneo continuo.
 
-Cuando la perfusión cae por debajo del 50% de lo normal, los neuronas corticales comienzan a fallar. La conciencia es un proceso que requiere mucha energía; es lo primero en desaparecer.
+Cuando la perfusión cae por debajo del 50% de lo normal, las neuronas corticales comienzan a fallar. La conciencia es un proceso que requiere mucha energía; es lo primero en desaparecer.
 
-Los síntomas prodrómicos — las señales de alerta que algunas personas experimentan antes de desmayarse — son lo que un cerebro sin combustible siente desde dentro: **visión en túnel** (la retina periférica pierde su función primero), **audición atenuada** (el cortex auditivo se apaga), **náuseas** (desinhibición del tronco encefálico), **dificultad para mantenerse consciente** (el sistema vestibular pierde su suministro sanguíneo).
+Los síntomas prodrómicos — las señales de alerta que algunas personas experimentan antes de desmayarse — son lo que un cerebro sin combustible siente desde dentro: **visión en túnel** (la retina periférica pierde su función primero), **audición atenuada** (la corteza auditiva se apaga), **náuseas** (desinhibición del tronco encefálico), **mareo** (el sistema vestibular pierde su suministro sanguíneo).
 
 En el síncope con inicio rápido de dolor, la escalada puede acelerar estos síntomas prodrómicos en menos de un segundo. Una persona pasa de *esto duele* a *no puedo mantenerme consciente* sin pasar por una fase de advertencia reconocible.
 
 ---
 
-## Paso 6: Síncope — el reinicio forzado del cerebro (~2.5–3.5 segundos desde el impacto)
+## Paso 6: Síncope — el reinicio forzado del cerebro (~2,5–3,5 segundos desde el impacto)
 
 **Síncope** (SIN-co-pee) es el término médico para la pérdida transitoria de conciencia debido a la hipoperfusión cerebral [@Grubb2005syncope] [@Adkisson2017syncope]. No es un ataque — es el cerebro que apaga los sistemas no esenciales para preservar el metabolismo fundamental, como un ordenador que entra en estado de sueño de emergencia cuando la batería llega al 1%.
 
-Durante la síncope, se pierde el tono muscular (la persona colapsa), lo cual es en realidad la medida más eficaz del cuerpo: **acostarse en posición horizontal elimina el gradiente de gravedad** que hacía que la sangre se alejara del cerebro. En la posición supina — acostado boca arriba — el corazón y el cerebro están aproximadamente en el mismo nivel, y la presión de perfusión se restaura por simple física.
+Durante el síncope, se pierde el tono muscular (la persona colapsa), lo cual es en realidad la medida más eficaz del cuerpo: **acostarse en posición horizontal elimina el gradiente de gravedad** que hacía que la sangre se alejara del cerebro. En la posición supina — acostado boca arriba — el corazón y el cerebro están aproximadamente en el mismo nivel, y la presión de perfusión se restaura por simple física.
 
 ---
 
-## Paso 7: Reperfusión en posición supina — la sangre vuelve (~3.5–10 segundos desde el impacto)
+## Paso 7: Reperfusión en posición supina — la sangre vuelve (~3,5–10 segundos desde el impacto)
 
 Una vez en posición horizontal sobre el suelo, tres cosas ocurren simultáneamente:
 
@@ -83,7 +83,7 @@ Una vez en posición horizontal sobre el suelo, tres cosas ocurren simultáneame
 2. **Reactivación del barorreflejo.** Los barorreceptores en las arterias carótidas — sensores de presión que antes gritaban *¡demasiado bajo!* — ahora perciben la presión restaurada y comienzan a normalizar la actividad autónoma.
 3. **Reanudación de la autorregulación cerebral.** El mecanismo intrínseco del cerebro para mantener un flujo sanguíneo constante en un rango de presiones vuelve a activarse.
 
-Los neuronas corticales, que habían estado desnutridas unos segundos antes, comienzan a activarse de nuevo. La conciencia se reagrupa — no de forma instantánea como si giraras un interruptor, sino en unos segundos, con una sensación de desorientación y una percepción opaca de haber estado en otro lugar.
+Las neuronas corticales, que habían estado desnutridas unos segundos antes, comienzan a activarse de nuevo. La conciencia se reagrupa — no de forma instantánea como si giraras un interruptor, sino en unos segundos, con una sensación de desorientación y una percepción opaca de haber estado en otro lugar.
 
 ---
 
@@ -93,7 +93,7 @@ Al recuperar la conciencia, el corazón probablemente sigue siendo bradicárdico
 
 El dolor original sigue presente, pero ya no aumenta — la cascada inflamatoria ha alcanzado un punto de equilibrio, y la posición recostada significa que el cerebro ya no compite por perfusión.
 
-La mayoría de las personas se recuperan completamente en minutos. El cerebro no sufre daños permanentes por un breve evento de hipoperfusión — a diferencia del paro cardíaco, la síncope es autolimitada: el colapso en sí mismo es la cura.
+La mayoría de las personas se recuperan completamente en minutos. El cerebro no sufre daños permanentes por un breve evento de hipoperfusión — a diferencia del paro cardíaco, el síncope es autolimitado: el colapso en sí mismo es la cura.
 
 ---
 
@@ -103,39 +103,39 @@ No todos los que sufren un impacto en un nervio pierden la consciencia. La respu
 
 ### 1. Alto tono basal del nervio vago
 
-Algunas personas naturalmente tienen un nervio vago más reactivo — frecuencia cardíaca más baja en reposo, respuesta más fuerte a la maniobra de Valsalva (presionar con fuerza, como al levantar algo pesado), más fácil desencadenamiento de bradicardia con presión en el cuello (sensibilidad al seno carótido). Estas personas tienen el **brazo vago** del reflejo pre-sensibilizado. Una entrada nociceptiva determinada produce una caída de frecuencia cardíaca mayor que la que tendría alguien con tono vago promedio.
+Algunas personas naturalmente tienen un nervio vago más reactivo — frecuencia cardíaca más baja en reposo, respuesta más fuerte a la maniobra de Valsalva (presionar con fuerza, como al levantar algo pesado), más fácil desencadenamiento de bradicardia con presión en el cuello (sensibilidad al seno carótido). Estas personas tienen la **rama vagal** del reflejo pre-sensibilizado. Una entrada nociceptiva determinada produce una caída de frecuencia cardíaca mayor que la que tendría alguien con tono vagal promedio.
 
 ### 2. POTS (Síndrome de taquicardia ortostática postural)
 
-Los pacientes con POTS ya tienen un sistema nervioso autónomo desregulado [@POTSautonomicProfiles2025] [@Sheldon2015POTScriteria] [@Garland2015POTSbeyond]. Su característica distintiva es un **aumento excesivo de frecuencia cardíaca al estar de pie** — el sistema simpático sobrecompensa para mantener la perfusión cerebral contra la acumulación de sangre. Pero muchos pacientes con POTS también tienen **POTS neuropáticas** — los nervios simpáticos a los vasos sanguíneos del cuerpo inferior están parcialmente dañados (neuropatía de pequeños vasos [@Schondorf2021autonomicPOTS]), lo que significa que la vasoconstricción ya está deteriorada.
+Los pacientes con POTS ya tienen un sistema nervioso autónomo desregulado [@POTSautonomicProfiles2025] [@Sheldon2015POTScriteria] [@Garland2015POTSbeyond]. Su característica distintiva es un **aumento excesivo de frecuencia cardíaca al estar de pie** — el sistema simpático sobrecompensa para mantener la perfusión cerebral contra la acumulación de sangre. Pero muchos pacientes con POTS también tienen **POTS neuropático** — los nervios simpáticos a los vasos sanguíneos del cuerpo inferior están parcialmente dañados (neuropatía de pequeños vasos [@Schondorf2021autonomicPOTS]), lo que significa que la vasoconstricción ya está deteriorada.
 
-Cuando un pico de dolor desencadena la retirada simpática mediada por el NTS, el sistema cardiovascular de un paciente con POTS es menos capaz de compensar. La vasodilatación es mayor en relación con el nivel basal y la recuperación del barorreflejo es más lenta. **La síncope es más probable y la recuperación es más larga.**
+Cuando un pico de dolor desencadena la retirada simpática mediada por el NTS, el sistema cardiovascular de un paciente con POTS es menos capaz de compensar. La vasodilatación es mayor en relación con el nivel basal y la recuperación del barorreflejo es más lenta. **El síncope es más probable y la recuperación es más larga.**
 
 Además, muchos pacientes con POTS tienen **deficiencias en el volumen sanguíneo** (hipovolemia) — menos sangre total en circulación significa menos reserva cuando la presión de perfusión disminuye. Un tanque más pequeño se vacía más rápido.
 
 ### 3. Inflamación nerviosa preexistente (neuritis / neuropatía)
 
-Si un nervio o su envoltura circundante (la aislación **mielina**) ya está inflamado — ya sea por ataque autoinmune (Guillain-Barré, CIDP), compresión (túnel carpal, radiculopatía) o daño metabólico (neuropatía diabética) — el umbral para el disparo de los nociceptores ya está reducido. El nervio está **sensibilizado**.
+Si un nervio o su envoltura circundante (el aislamiento de **mielina**) ya está inflamado — ya sea por ataque autoinmune (Guillain-Barré, CIDP), compresión (túnel carpal, radiculopatía) o daño metabólico (neuropatía diabética) — el umbral para el disparo de los nociceptores ya está reducido. El nervio está **sensibilizado**.
 
-Esto significa que el mismo impacto mecánico produce un **volley nociceptivo mayor** que el que tendría en un nervio sano. Más fibras C ya están preparadas para disparar. La señal que llega al NTS se amplifica, lo que hace más probable la síncope.
+Esto significa que el mismo impacto mecánico produce una **descarga nociceptiva mayor** que el que tendría en un nervio sano. Más fibras C ya están preparadas para disparar. La señal que llega al NTS se amplifica, lo que hace más probable el síncope.
 
-En condiciones como **síndromes de Ehlers-Danlos (EDS/disorders de hipermovilidad)**, la laxitud del tejido conectivo alrededor de las envolturas nerviosas puede provocar una irritación mecánica crónica de bajo grado en los nervios periféricos — un estado de sensibilización de fondo que reduce el umbral de la síncope.
+En condiciones como **síndromes de Ehlers-Danlos (EDS/trastornos del espectro de hipermovilidad)**, la laxitud del tejido conectivo alrededor de las envolturas nerviosas puede provocar una irritación mecánica crónica de bajo grado en los nervios periféricos — un estado de sensibilización de fondo que reduce el umbral del síncope.
 
 ### 4. EM/SFC y COVID largo
 
 La disfunción autónoma es casi universal en la EM/SFC y común en el COVID largo [@Baschieri2019circadianAutonomic]. La intolerancia ortostática, el POTS y la variabilidad anormal de la frecuencia cardíaca están bien documentadas. Muchos pacientes con EM/SFC tienen **disminución de la sensibilidad del barorreflejo** — el sistema que detecta las caídas de presión arterial y compensa es lento.
 
-Unido a la **neuroinflamación** (citocinas cerebrales elevadas, microglía activada), que puede reducir el umbral del NTS para desencadenar el reflejo, los pacientes con EM/SFC pueden ser más vulnerables a la síncope inducida por dolor incluso sin POTS preexistente.
+Unido a la **neuroinflamación** (citocinas cerebrales elevadas, microglía activada), que puede reducir el umbral del NTS para desencadenar el reflejo, los pacientes con EM/SFC pueden ser más vulnerables al síncope inducido por dolor incluso sin POTS preexistente.
 
 ### 5. Deficiencia de hierro
 
-La deficiencia de hierro afecta a **hidroxilasa de tirosina** —la enzima limitante en la síntesis de dopamina y noradrenalina[@DelRosso2020ironRLS]. La noradrenalina es el principal neurotransmisor del sistema nervioso simpático. Una baja producción de noradrenalina significa **tono simpático reducido** —la vasoconstricción basal que mantiene la presión arterial alta.
+La deficiencia de hierro afecta a **tirosina hidroxilasa** —la enzima limitante en la síntesis de dopamina y noradrenalina [@DelRosso2020ironRLS]. La noradrenalina es el principal neurotransmisor del sistema nervioso simpático. Una baja producción de noradrenalina significa **tono simpático reducido** —la vasoconstricción basal que mantiene la presión arterial alta.
 
 Cuando el NTS desencadena una retirada simpática además de un tono simpático ya bajo, la caída de la presión arterial es más profunda. Las personas con deficiencia de hierro tienen menos reserva cardiovascular para absorber el impacto.
 
 ### 6. Ansiedad y hipervigilancia al dolor
 
-Las personas con alta catastrofización del dolor o sensibilidad interoceptiva (conciencia aumentada de las sensaciones internas del cuerpo) pueden amplificar la respuesta del NTS a través de **entrada cortical top-down**. El cortex prefrontal y la amígdalas proyectan hacia el NTS y pueden modular su sensibilidad. El miedo al dolor que aumenta —incluso antes de que el síncope sea una posibilidad consciente— puede acelerar la cascada al añadir un impulso del cerebro límbico (cerebro emocional) al NTS.
+Las personas con alta catastrofización del dolor o sensibilidad interoceptiva (conciencia aumentada de las sensaciones internas del cuerpo) pueden amplificar la respuesta del NTS a través de **entrada cortical top-down**. La corteza prefrontal y la amígdala proyectan hacia el NTS y pueden modular su sensibilidad. El miedo al dolor que aumenta —incluso antes de que el síncope sea una posibilidad consciente— puede acelerar la cascada al añadir un impulso del cerebro límbico (cerebro emocional) al NTS.
 
 ---
 
@@ -155,6 +155,6 @@ En el caso de un simple golpe nervioso mecánico, hay poco que hacer en ese mome
 
 Desmayarse debido a un golpe nervioso no es una señal de debilidad ni una reacción psicológica excesiva. Es un **reflejo inherente del tronco encefálico** que funciona en el mismo circuito en cada ser humano. En algunas personas, los circuitos son más sensibles — debido al tono vagal, POTS, inflamación nerviosa, volumen sanguíneo, estado de catecolaminas o sensibilización central — pero el mecanismo es idéntico.
 
-La retraso de 1 segundo entre el golpe inicial y la onda intolerable es la marca exacta de **nocicepción amplificada por fibras C primero, por fibras Aδ**, lo que desencadena el control autónomo del sistema nervioso central. El cerebro advierte y luego activa el mecanismo de reacción.
+El retraso de 1 segundo entre el golpe inicial y la onda intolerable es la marca exacta de **nocicepción con Aδ primero y amplificada por fibras C**, lo que desencadena la anulación autónoma del NTS. El cerebro advierte y luego activa el mecanismo de reacción.
 
 Eso no es disfunción. Es el tronco encefálico haciendo exactamente lo que la evolución diseñó que hiciera cuando recibe una señal de dolor que interpreta como una amenaza de supervivencia: pone el cuerpo en posición horizontal, restaura sangre al cerebro y reinicia el sistema.

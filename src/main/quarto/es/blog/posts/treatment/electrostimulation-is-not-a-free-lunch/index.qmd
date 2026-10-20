@@ -1,6 +1,6 @@
 ---
 title: "La estimulación muscular eléctrica no es un regalo gratis"
-description: "Las clínicas ofrecen servicios de emergencia médica como 'ejercicio pasivo' para personas que no pueden hacer ejercicio. Esto podría activar la misma vía implicada en el malestar post-esfuerzo — y no ha habido ningún estudio que lo comprobara."
+description: "Las clínicas ofrecen EMS como 'ejercicio pasivo' para personas que no pueden hacer ejercicio. Esto podría activar la misma vía implicada en el malestar post-esfuerzo — y no ha habido ningún estudio que lo comprobara."
 author: "Yannick Loth"
 date: "2026-10-15"
 categories: [Treatment, PEM, Energy metabolism]
@@ -11,25 +11,25 @@ Si no puedes hacer ejercicio, la estimulación eléctrica de los músculos suena
 
 ## Lo que realmente hace la EMS
 
-La estimulación eléctrica de los músculos (EMS), y su pariente dirigida a los nervios NMES, envía corriente a través de la piel para hacer que un músculo se contraiga. El músculo realiza trabajo mecánico. Ese trabajo tiene un coste metabólico. También ejerce estrés mecánico en las fibras musculares — y esa es la parte cuya consecuencia posterior ha sido investigada, hasta el punto de la inflamación, por lo que es la parte que se analiza aquí.
+La estimulación eléctrica de los músculos (EMS), y su pariente dirigida a los nervios NMES, envía corriente a través de la piel para hacer que un músculo se contraiga. El músculo realiza trabajo mecánico. Ese trabajo tiene un coste metabólico. También ejerce estrés mecánico en las fibras musculares — y esa es la parte cuyas consecuencias posteriores han sido investigadas, hasta el punto de la inflamación, por lo que es la parte que se analiza aquí.
 
 ## El hallazgo
 
 La evidencia indica que, **a intensidades más altas**, la estimulación eléctrica provoca microtrauma del mismo tipo que el ejercicio voluntario — en estudios de músculos sanos, comparable a la contracción excéntrica — y desencadena la misma cascada daño-inflamación que ocurre tras el daño muscular inducido por el ejercicio.
 
-Esa cascada es **una vía candidata implicada en** el malestar post-esfuerzo, pero no está confirmada. Por lo tanto, hay razones para pensar que la EMS la afecta. La afirmación **no** es que la EMS cause una crisis en todos. Es que la suposición tranquilizadora — “esto es pasivo, por lo tanto es neutral con respecto a EM/SFC” — nunca ha sido probada.
+Esa cascada es **una vía candidata implicada en** el malestar post-esfuerzo, pero no está confirmada. Por lo tanto, hay razones para pensar que la EMS la afecta. La afirmación **no** es que la EMS cause una crisis en todos. Es que la suposición tranquilizadora — “esto es pasivo, por lo tanto es neutral con respecto a la PEM” — nunca ha sido probada.
 
-También hay que notar que “activar los músculos” y “provocar microtrauma” no son el mismo mecanismo. La estimulación de baja intensidad utilizada para la circulación o la prevención de atrofia, a una dosis que un paciente deprimido pueda tolerar, quizás nunca llegue al umbral de daño. Si los protocolos ofrecidos a los pacientes realmente alcanzan ese nivel, no se sabe — y no hay estudio EM/SFC que lo haya medido.
+También hay que notar que “activar los músculos” y “provocar microtrauma” no son el mismo mecanismo. La estimulación de baja intensidad utilizada para la circulación o la prevención de atrofia, a una dosis que un paciente desacondicionado pueda tolerar, quizás nunca llegue al umbral de daño. Si los protocolos que realmente se ofrecen a los pacientes alcanzan ese nivel, no se sabe — y no hay estudio EM/SFC que lo haya medido.
 
-El EM/SFC inducido por la EMS es, por lo tanto, una hipótesis valiosa para probar, pero no un efecto demostrado.
+La PEM inducida por la EMS es, por lo tanto, una hipótesis valiosa para probar, pero no un efecto demostrado.
 
 ## Lo que no sabemos — y esto es mucho
 
 No vamos a exagerar. La evidencia es **débil** y la lista de incógnitas es más larga que la tranquilizadora:
 
-- **No existe ningún ensayo clínico de EMS o NMES en EM/SFC.** Nadie ha medido qué pasa con el EM/SFC en esta población.
+- **No existe ningún ensayo clínico de EMS o NMES en EM/SFC.** Nadie ha medido qué pasa con la PEM en esta población.
 - **La evidencia es indirecta.** Los hallazgos de microtrauma y inflamación provienen de trabajos generales y animales, no de pacientes EM/SFC.
-- **Las escalas de tiempo no coinciden.** El dolor muscular tardío alcanza su punto máximo en días. Una crisis de EM/SFC puede durar semanas. Esa diferencia no tiene explicación.
+- **Las escalas de tiempo no coinciden.** El dolor muscular tardío alcanza su punto máximo en días. Una crisis de PEM puede durar semanas. Esa diferencia no tiene explicación.
 - **La dosis importa y es incontrolada.** El efecto depende de la intensidad y no existe protocolo para esta población.
 - **Hay casos nulos históricos.** Trabajos anteriores encontraron fuerza muscular normal y comportamiento contráctil normal en algunos estudios de EM/SFC, lo que contradice una historia clara.
 - **Hay un solo informe de daño.** Uno, no una serie.
@@ -42,11 +42,11 @@ Si un clínico te ofrece la EMS como una opción segura y sin esfuerzo:
 
 - Trátala como **un esfuerzo**, con un presupuesto — no como descanso.
 - La **dosis la establece el clínico o el operador, no tú**. No puedes "iniciarla baja" tú mismo. Pregunta quién controla la intensidad, la duración y la frecuencia.
-- Presta atención a una **reacción tardía**, no inmediata. La PEM no aparece durante la sesión. No hay un período de monitoreo validado, así que acordad uno de antemano — y una regla de detención: si hay una crisis, detente y no intentes volver a probar con esa dosis.
+- Presta atención a una **reacción tardía**, no inmediata. La PEM no aparece durante la sesión. No hay un período de monitoreo validado, así que acuerda uno de antemano — y una regla de detención: si hay una crisis, detente y no intentes volver a probar con esa dosis.
 - Recuerda que una medida normal de fuerza no significa que la respuesta metabólica y de recuperación sea normal.
 - La pregunta sin respuesta — ¿el problema es central o periférico? — es una pregunta que una prueba comenzaría a responder. No existe tal prueba.
 
-**El descanso es el valor por defecto seguro después de una crisis. No estás obligado a añadir nada.** Sin embargo, como estrategia continua, detener la EMS y no hacer nada podría evitar un beneficio no comprobado — incluso si la EMS previene la descondicionación en EM/SFC está por demás probada. Tampoco sabemos cuál es la mejor alternativa: el movimiento suave dentro del envelope energético y el pacing también están poco probados en esta población. Son simplemente las opciones que el artículo puede apoyar actualmente. Discute cualquier cambio con un clínico que entienda la PEM.
+**El descanso es el valor por defecto seguro después de una crisis. No estás obligado a añadir nada.** Sin embargo, como estrategia continua, detener la EMS y no hacer nada podría renunciar a un beneficio no comprobado — si la EMS previene el desacondicionamiento en EM/SFC es, en sí mismo, algo no probado. Tampoco sabemos cuál es la mejor alternativa: el movimiento suave dentro de la envoltura energética y el pacing también están poco probados en esta población. Son simplemente las opciones que el artículo puede apoyar actualmente. Discute cualquier cambio con un clínico que entienda la PEM.
 
 ## El principio general
 

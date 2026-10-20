@@ -1,6 +1,6 @@
 ---
-title: "Croses de conexión que valen una segunda mirada: una breve serie"
-description: "Cuatro conexiones que se encuentran fuera del hilo principal noradrenérgico — pero valen la pena una mirada."
+title: "Conexiones cruzadas que valen una segunda mirada: una breve serie"
+description: "Cuatro conexiones que se encuentran fuera del hilo principal noradrenérgico — pero merecen una mirada."
 author: "Yannick Loth"
 date: "2026-09-29"
 categories: [Cross-links, Noradrenergic, Mechanisms]

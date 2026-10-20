@@ -1,5 +1,5 @@
 ---
-title: "Sulfuro de hidrógeno: Las bacterias intestinales están envenenando las mitocondria"
+title: "Sulfuro de hidrógeno: Las bacterias intestinales están envenenando las mitocondrias"
 description: "El cianuro mata al unirse a la oxidasa del citocromo c, que es el complejo IV de la cadena de transporte de electrones mitocondriales, el último paso de la producción de ATP. Sin el complejo IV, los electrones se acumulan, el gradiente de protones se rompe, la sintetasa de ATP se detiene y la célula muere..."
 author: "Yannick Loth"
 date: "2026-06-13"
@@ -9,7 +9,7 @@ lang: es
 
 El cianuro mata al unirse a la oxidasa del citocromo c, que es el complejo IV de la cadena de transporte de electrones mitocondriales, el último paso de la producción de ATP. Sin el complejo IV, los electrones se acumulan, el gradiente de protones colapsa, la ATP sintasa se detiene y la célula muere. El cianuro es rápido y inequívoco. Nadie discute que causa fatiga.
 
-El sulfuro de hidrógeno (H₂S) se une al mismo sitio. La misma enzima. El mismo mecanismo. La diferencia es la dosis: el cianuro llega de forma aguda y mata. El H₂S, producido de forma crónica por las bacterias intestinales en concentraciones subletalas, llega de forma continua y daña. No es suficiente para matar las células. Es suficiente para reducir la producción de ATP en un 10, 20, quizás 30 por ciento — silenciosamente, sin un biomarker medible en los paneles clínicos estándar, durante meses y años.
+El sulfuro de hidrógeno (H₂S) se une al mismo sitio. La misma enzima. El mismo mecanismo. La diferencia es la dosis: el cianuro llega de forma aguda y mata. El H₂S, producido de forma crónica por las bacterias intestinales en concentraciones subletales, llega de forma continua y daña. No es suficiente para matar las células. Es suficiente para reducir la producción de ATP en un 10, 20, quizás 30 por ciento — silenciosamente, sin un biomarcador medible en los paneles clínicos estándar, durante meses y años.
 
 En una persona saludable con una reserva mitocondrial adecuada, este daño podría ser compensado y invisible. En un paciente con EM/SFC que opera al límite de su capacidad energética, puede ser la diferencia entre una función normal y estar en cama.
 
@@ -19,9 +19,9 @@ En una persona saludable con una reserva mitocondrial adecuada, este daño podr�
 
 El intestino humano alberga bacterias reductoras de sulfato, organismos que utilizan el sulfato como aceptador de electrones terminal en lugar del oxígeno, produciendo H₂S como producto de residuo metabólico. Los géneros dominantes son Desulfovibrio, Bilophila y Fusobacterium. Son residentes habituales del colon en pequeñas cantidades.
 
-Cuando el microbioma intestinal cambia —cuando condiciones inflamatorias, uso de antibióticos, cambios en la dieta o disfunción de motilidad alteran el equilibrio de los organismos— las bacterias reductoras de sulfato pueden crecer en exceso. Se alimentan con sulfuro presente en la dieta: sulfato de conservantes y alimentos procesados, aminoácidos de sulfuro de la carne y los huevos, suplementos que contengan sulfuro (N-acetilcisteína, ácido alfa-lipoico, metilsulfonilmetano) y verduras ricas en sulfuro (ajo, cebolla, brócoli, coliflor, coles de Bruselas).
+Cuando el microbioma intestinal cambia —cuando condiciones inflamatorias, uso de antibióticos, cambios en la dieta o disfunción de motilidad alteran el equilibrio de los organismos— las bacterias reductoras de sulfato pueden crecer en exceso. Se alimentan con azufre presente en la dieta: sulfato de conservantes y alimentos procesados, aminoácidos azufrados de la carne y los huevos, suplementos que contengan azufre (N-acetilcisteína, ácido alfa-lipoico, metilsulfonilmetano) y verduras ricas en azufre (ajo, cebolla, brócoli, coliflor, coles de Bruselas).
 
-La ironía es amarga. Varias de estas alimentos y suplementos se recomiendan para pacientes con EM/SFC en protocolos de "antiinflamatorio" o "soporte mitocondrial". Un paciente que tome NAC para aumentar la glutationa (un antioxidante que contiene sulfuro) mientras consume ajo y brócoli (ampliamente recomendados por sus propiedades antiinflamatorias) podría estar alimentando las bacterias que envenenan las mitocondria que intenta sostener.
+La ironía es amarga. Varios de estos alimentos y suplementos se recomiendan para pacientes con EM/SFC en protocolos de "antiinflamatorio" o "soporte mitocondrial". Un paciente que tome NAC para aumentar el glutatión (un antioxidante que contiene azufre) mientras consume ajo y brócoli (ampliamente recomendados por sus propiedades antiinflamatorias) podría estar alimentando las bacterias que envenenan las mitocondrias que intenta sostener.
 
 ---
 
@@ -33,7 +33,7 @@ El H₂S inhibe el complejo IV al unirse al centro de cobre (CuB) en el sitio ac
 
 El grado de inhibición depende de la concentración. Un H₂S de baja nanomolar puede ser incluso beneficioso — el H₂S endógeno a concentraciones fisiológicas actúa como una molécula de señalización gaseosa, regulando la vasodilatación, la inflamación y la función neuronal. Son las concentraciones micromolares — el rango producido por el crecimiento bacteriano excesivo — las que son inhibitoras para el complejo IV [@Szabo2014H2Smito].
 
-Se trata de una relación dosis-respuesta con un estrecho marco terapéutico: si hay muy poco H₂S, pierde sus funciones de señalización, y si hay demasiado, sus mitocondria se envenenan. La disbiosis intestinal empuja la concentración por encima del rango terapéutico hacia el rango inhibitor — no es tóxica de forma aguda, pero daña de forma crónica.
+Se trata de una relación dosis-respuesta con un estrecho marco terapéutico: si hay muy poco H₂S, pierde sus funciones de señalización, y si hay demasiado, sus mitocondrias se envenenan. La disbiosis intestinal empuja la concentración por encima del rango terapéutico hacia el rango inhibitorio — no es tóxica de forma aguda, pero daña de forma crónica.
 
 ---
 
@@ -51,8 +51,8 @@ La capacidad de eliminación hepática no es ilimitada y puede estar ya reducida
 
 La disbiosis intestinal dominada por H₂S se presenta de manera diferente a la SIBO dominada por hidrógeno o metano. Las características clásicas son:
 
-- **Gas de huevo podrido/estornudos/flatulencia.** El H₂S huele como huevo podrido. Los pacientes y sus familias lo notan, aunque muchos se sienten demasiado avergonzados para informarlo a su médico.
-- **Diarrea.** El H₂S es tóxico directamente para las coloncitos y perturba la integridad mucosa, provocando heces sueltas.
+- **Gas de huevo podrido/eructos/flatulencia.** El H₂S huele como huevo podrido. Los pacientes y sus familias lo notan, aunque muchos se sienten demasiado avergonzados para informarlo a su médico.
+- **Diarrea.** El H₂S es tóxico directamente para los colonocitos y perturba la integridad mucosa, provocando heces sueltas.
 - **Intolerancia a alimentos ricos en azufre.** Ajo, cebolla, huevos, verduras crucíferas, vino —alimentos que aumentan la disponibilidad de sulfato para las bacterias reductoras de sulfato— producen síntomas desproporcionados.
 - **Intolerancia a suplementos que contengan azufre.** NAC, ácido alfa-lipoico, MSM, taurina (en menor medida) —suplementos comúnmente recomendados para EM/SFC— pueden empeorar los síntomas en este subgrupo.
 - **Fatiga que empeora con una alimentación "saludable".** La presentación más cruel. Un paciente que sigue una dieta antiinflamatoria rica en ajo, brócoli y coliflor empeora, no mejora. La dieta está alimentando el problema.
@@ -63,25 +63,25 @@ La superposición con los síntomas de EM/SFC es considerable, y la contribució
 
 ## Pruebas
 
-Los pruebas estándar de respiración para SIBO miden hidrógeno y metano. Hasta hace poco, el H₂S no se medía. La prueba de respiración trio-smart (Gemelli Biotech) ahora mide los tres gases, lo que permite identificar específicamente SIBO en la que predomina H₂S.
+Las pruebas estándar de respiración para SIBO miden hidrógeno y metano. Hasta hace poco, el H₂S no se medía. La prueba de respiración trio-smart (Gemelli Biotech) ahora mide los tres gases, lo que permite identificar específicamente SIBO en la que predomina H₂S.
 
 El tiosulfato urinario — un metabolito posterior del H₂S — puede servir como un proxy aproximado para la exposición sistémica de H₂S, aunque no es específico y no está ampliamente disponible.
 
-La sospecha clínica — gas de huevo podrido, intolerancia a los alimentos de azufre, síntomas intestinales predominados por diarrea, fatiga que empeora con suplementos que contienen azufre — a menudo es suficiente para justificar un ensayo empírico de reducción de azufre, incluso sin pruebas formales.
+La sospecha clínica — gas de huevo podrido, intolerancia a los alimentos de azufre, síntomas intestinales con predominio de diarrea, fatiga que empeora con suplementos que contienen azufre — a menudo es suficiente para justificar un ensayo empírico de reducción de azufre, incluso sin pruebas formales.
 
 ---
 
 ## Tratamiento
 
-**Restricción de azufre en la dieta.** Reducir la ingesta de alimentos altos en azufre (ajo, cebolla, verduras crucíferas, huevos, alimentos procesados altos en azufre) y suplementos que contengan azufre (NAC, ALA, MSM). Esto es contrario a lo que se espera y entra en conflicto con los consejos dietéticos estándar antiinflamatorios —y por eso se pasa por alto. El paciente que mejora con una dieta “menos saludable” podría haber estado envenenando sus mitocondria con la dieta “saludable”.
+**Restricción de azufre en la dieta.** Reducir la ingesta de alimentos altos en azufre (ajo, cebolla, verduras crucíferas, huevos, alimentos procesados altos en azufre) y suplementos que contengan azufre (NAC, ALA, MSM). Esto es contrario a lo que se espera y entra en conflicto con los consejos dietéticos estándar antiinflamatorios —y por eso se pasa por alto. El paciente que mejora con una dieta “menos saludable” podría haber estado envenenando sus mitocondrias con la dieta “saludable”.
 
 **Bismuto subsalicilato.** El bismuto se une al H₂S en el lumen intestinal, formando sulfuro de bismuto insoluble (el mismo compuesto que hace que las heces se vuelvan negras). Esto reduce la concentración de H₂S en el lumen y disminuye los síntomas de gases, diarrea y —en algunos pacientes— fatiga. Es económico, disponible sin receta y se ha utilizado de forma segura durante décadas.
 
-**Probióticos dirigidos.** Aumentar la población de bacterias que no reducen el sulfato —especialmente especies productoras de butirat (Faecalibacterium prausnitzii, Roseburia)— puede desplazar competitivamente a los reductores de sulfato. Esto es más lento que los enfoques con antibióticos, pero aborda el desequilibrio ecológico en lugar de solo los síntomas.
+**Probióticos dirigidos.** Aumentar la población de bacterias que no reducen el sulfato —especialmente especies productoras de butirato (Faecalibacterium prausnitzii, Roseburia)— puede desplazar competitivamente a los reductores de sulfato. Esto es más lento que los enfoques con antibióticos, pero aborda el desequilibrio ecológico en lugar de solo los síntomas.
 
 **Rifaximina.** El tratamiento estándar para SIBO tiene cierta eficacia contra las bacterias que reducen el sulfato, aunque los datos específicos para SIBO dominado por H₂S son limitados.
 
-**Abordar la disfunción de motilidad subyacente.** Como en todas las formas de SIBO, tratar el crecimiento excesivo sin abordar la falla de motilidad que lo causó lleva a recurrencias. Los prokinéticos, la rehabilitación del tono vagal y el espaciado de las comidas siguen siendo importantes.
+**Abordar la disfunción de motilidad subyacente.** Como en todas las formas de SIBO, tratar el crecimiento excesivo sin abordar el fallo de motilidad que lo causó lleva a recurrencias. Los procinéticos, la rehabilitación del tono vagal y el espaciado de las comidas siguen siendo importantes.
 
 ---
 
@@ -91,10 +91,10 @@ El H₂S proveniente de la disbiosis intestinal conecta tres pilares de la fisio
 
 1. **Disfunción mitocondrial** — inhibición directa del Complejo IV, reduciendo el límite de ATP
 2. **Disbiosis intestinal** — el cambio en la composición del microbioma que produce el H₂S
-3. **Activación inmunitaria** — el daño mucoso provocado por H₂S aumenta la permeabilidad intestinal, permitiendo la traspasión de endotoxinas bacterianas (LPS) al flujo sanguíneo, desencadenando una activación inmunitaria sistémica
+3. **Activación inmunitaria** — el daño mucoso provocado por H₂S aumenta la permeabilidad intestinal, permitiendo la translocación de endotoxinas bacterianas (LPS) al flujo sanguíneo, desencadenando una activación inmunitaria sistémica
 
-Esto no es una metáfora vaga de "eje intestino-cuerpo". Es una molécula específica, producida por bacterias específicas, que inhibe un complejo de enzimas específico, a través de un mecanismo de unión específico, con consecuencias específicas en la producción de energía, la integridad intestinal y la activación inmunitaria. Cada paso tiene una caracterización bioquímica. Cada paso, en principio, es tratable.
+Esto no es una metáfora vaga de "eje intestino-cerebro". Es una molécula específica, producida por bacterias específicas, que inhibe un complejo de enzimas específico, a través de un mecanismo de unión específico, con consecuencias específicas en la producción de energía, la integridad intestinal y la activación inmunitaria. Cada paso tiene una caracterización bioquímica. Cada paso, en principio, es tratable.
 
-Para el paciente con EM/SFC que ha intentado "todo" — CoQ10, carnitina, vitaminas B, dietas antiinflamatorias — y no ha mejorado: ¿alguien ha verificado si sus bacterias intestinales están produciendo la toxina que hace que todas esas intervenciones sean inútiles? Si el Complejo IV está inhibido de forma crónica por H₂S, ninguna cantidad de apoyo de cofactores upstream restaurará la producción de ATP que el paciente necesita. Hay que detener el veneno antes de poder reparar el motor [@Loth2026website].
+Para el paciente con EM/SFC que ha intentado "todo" — CoQ10, carnitina, vitaminas B, dietas antiinflamatorias — y no ha mejorado: ¿alguien ha verificado si sus bacterias intestinales están produciendo la toxina que hace que todas esas intervenciones sean inútiles? Si el Complejo IV está inhibido de forma crónica por H₂S, ninguna cantidad de apoyo de cofactores anteriores restaurará la producción de ATP que el paciente necesita. Hay que detener el veneno antes de poder reparar el motor [@Loth2026website].
 
 ---

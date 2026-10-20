@@ -13,11 +13,11 @@ Este es el séptimo y último artículo de una serie sobre la biología energét
 
 ## El signo epidemiológico
 
-Un estudio de cohorte nacional de Taiwán siguió a **6,902 pacientes con migraña** y **27,608 controles correspondientes** desde 2006 hasta 2010 [@Lau2015migraineCFS]:
+Un estudio de cohorte nacional de Taiwán siguió a **6.902 pacientes con migraña** y **27.608 controles correspondientes** desde 2006 hasta 2010 [@Lau2015migraineCFS]:
 
-- Incidencia de EM/SFC: **52.72 por 10,000 personas-años** en pacientes con migraña vs **28.85** en controles
-- Ratio de tasa de incidencia: aproximadamente **1.5×**
-- Edad ≥65: **IRR = 2.11** — más del doble del riesgo
+- Incidencia de EM/SFC: **52,72 por 10.000 personas-años** en pacientes con migraña vs **28,85** en controles
+- Ratio de tasa de incidencia: aproximadamente **1,5×**
+- Edad ≥65: **IRR = 2,11** — más del doble del riesgo
 - **Relación dosis-respuesta:** el riesgo se escala con la frecuencia de migraña
 
 El riesgo aumenta con la edad. Aumenta con la frecuencia. Se acumula.
@@ -26,7 +26,7 @@ El riesgo aumenta con la edad. Aumenta con la frecuencia. Se acumula.
 
 ---
 
-## ¿Qué ocurre durante una migraña
+## ¿Qué ocurre durante una migraña?
 
 Cada migraña comienza con **depresión de propagación cortical (CSD)** — una onda de intensa despolarización neuronal que recorre la superficie cerebral a 2–5 mm por minuto. Durante la CSD:
 
@@ -41,12 +41,12 @@ La CSD es uno de los eventos más energéticamente exigentes en neurobiología. 
 
 ## El déficit crónico entre ataques
 
-Los pacientes con migraña no están en un estado metabólico normal entre ataques. Varias líneas de evidencia muestran **daño crónico en las mitocondria** incluso en el período interictal [@Wang2023migraineMito]:
+Los pacientes con migraña no están en un estado metabólico normal entre ataques. Varias líneas de evidencia muestran **daño crónico en las mitocondrias** incluso en el período interictal [@Wang2023migraineMito]:
 
 - **Lactato elevado en sangre** (indicando compensación por glucólisis anaeróbica)
 - **Menor N-acetilaspartato (NAA)** en espectroscopía de resonancia magnética (un marcador de la capacidad de energía neuronal y la función mitocondrial)
 - **Disminución de las actividades de:**
-  - Deshidratasa NADH (complejo I)
+  - Deshidrogenasa NADH (complejo I)
   - Citrato sintasa (enzima de entrada en el ciclo de Krebs)
   - Oxidasa citocromo c (complejo IV — el aceptador terminal de electrones)
 - **Desregulación del calcio** que genera daño oxidativo feed-forward
@@ -57,7 +57,7 @@ Entre ataques de migraña, el cerebro no está en un estado “normal”. Funcio
 
 ## El modelo de agotamiento acumulativo
 
-Aquí es donde la migraña se diferencia de el TDAH y el TAS por ser una reductora de la reserva metabólica. El TDAH y el TAS representan déficits de base **estáticos** — el generador fue construido de menor tamaño. La migraña representa una erosión **progresiva** — el generador tenía un tamaño normal pero se daña con el tiempo.
+Aquí es donde la migraña se diferencia del TDAH y del TEA por ser una reductora de la reserva metabólica. El TDAH y el TEA representan déficits de base **estáticos** — el generador fue construido de menor tamaño. La migraña representa una erosión **progresiva** — el generador tenía un tamaño normal pero se daña con el tiempo.
 
 Cada evento de depresión de propagación cortical:
 
@@ -75,10 +75,10 @@ Más de 10 años de migraña episódica: cientos de eventos de CSD. Más de 30 a
 
 ## ¿Por qué el riesgo aumenta con la edad?
 
-El hallazgo de Lau y colaboradores de que el riesgo de ME/CFS es **2.11× a partir de 65 años** (en comparación con 1.5× en general) tiene sentido inmediato bajo este modelo:
+El hallazgo de Lau y colaboradores de que el riesgo de EM/SFC es **2,11× a partir de 65 años** (en comparación con 1,5× en general) tiene sentido inmediato bajo este modelo:
 
 - Una persona de 25 años con 10 años de migraña episódica ha experimentado quizás 100–500 eventos de CSD (una estimación aproximada basada en la frecuencia de ataques)
-- Una persona de 65 años con 50 años de migraña ha experimentado quizás 1,000–5,000 eventos de CSD (la misma lógica, pero con un período más largo)
+- Una persona de 65 años con 50 años de migraña ha experimentado quizás 1.000–5.000 eventos de CSD (la misma lógica, pero con un período más largo)
 - Más eventos = más daño acumulado = menos reserva restante = menor umbral para la descompensación
 
 El envejecimiento normal también reduce la función mitocondrial (disminución de la actividad del complejo I, acumulación de mutaciones en mtDNA, reducción de la mitofagia). La migraña acelera este proceso. Las curvas convergen a una edad más avanzada.
@@ -108,7 +108,7 @@ Esta superposición no es misteriosa. Todos estos desencadenantes tienen un mism
 
 Cada evento de CSD prevenido es la energía que el cerebro recibe para mantenerse. Cada migraña prevenida es una protección contra el colapso postinfeccioso futuro. Esto redefine la prevención de la migraña de una “medida de confort” a una “intervención neuroprotectora”.
 
-Los anticuerpos monoclonales CGRP (erenumab, fremanezumab, galcanezumab) son fármacos biológicos recetados que reducen la frecuencia de migrañas en un 50–75% en los pacientes sensibles. Bajo el modelo de reserva metabólica, pueden preservar la reserva como beneficio secundario — aunque esto nunca ha sido medido.
+Los anticuerpos monoclonales CGRP (erenumab, fremanezumab, galcanezumab) son fármacos biológicos recetados que reducen la frecuencia de migrañas en un 50–75% en los respondedores. Bajo el modelo de reserva metabólica, pueden preservar la reserva como beneficio secundario — aunque esto nunca ha sido medido.
 
 **2. El soporte mitocondrial tiene una razón específica en la migraña.**
 
@@ -135,7 +135,7 @@ A lo largo de esta serie de siete artículos, ha surgido un marco unificado:
 | GCH1 rs841 | Reducción de la producción de BH4 | Deficiencia genética estática |
 | Deficiencia de hierro | Impedimento en el complejo I/II + síntesis de dopamina | Deficiencia modificable |
 
-Cada condición reduce la reserva metabólica del cerebro a través de mecanismos diferentes. El resultado convergente: menos reserva para absorber un insulto inmunitario. Las características neurodivergentes en la infancia predican fatiga crónica incapacitante en la adolescencia [@Quadt2024neurodivergentfatigue]. El resultado convergente cuando llega un virus: EM/SFC.
+Cada condición reduce la reserva metabólica del cerebro a través de mecanismos diferentes. El resultado convergente: menos reserva para absorber un insulto inmunitario. Las características neurodivergentes en la infancia predicen fatiga crónica incapacitante en la adolescencia [@Quadt2024neurodivergentfatigue]. El resultado convergente cuando llega un virus: EM/SFC.
 
 El marco genera prioridades claras para la investigación:
 
@@ -143,9 +143,9 @@ El marco genera prioridades claras para la investigación:
 2. Rastrear los resultados post-infecciosos estratificados por marcadores de reserva
 3. Probar si corregir reductores de reserva modificables (hierro, BH4, perfusión cerebral) previene EM/SFC o mejora los resultados
 
-Estas estudios no han sido realizados. Pero por primera vez, la hipótesis es lo suficientemente clara para ser probada.
+Estos estudios no han sido realizados. Pero por primera vez, la hipótesis es lo suficientemente clara para ser probada.
 
-**¿Qué refutaría este modelo?** Si los marcadores de reserva metabólica antes de la enfermedad (ferritina, BH4, perfusión cerebral) NO predican el riesgo de EM/SFC post-infecciosos después de controlar los marcadores inflamatorios, la hipótesis de la reserva metabólica sería refutada a favor de un modelo de inflamación más simple. Si corregir déficits modificables (hierro, BH4, perfusión) en poblaciones de riesgo no tiene efecto en la incidencia de EM/SFC, el marco pierde su utilidad clínica. El modelo hace predicciones específicas y testables — y puede fallar.
+**¿Qué refutaría este modelo?** Si los marcadores de reserva metabólica antes de la enfermedad (ferritina, BH4, perfusión cerebral) NO predicen el riesgo de EM/SFC post-infeccioso después de controlar los marcadores inflamatorios, la hipótesis de la reserva metabólica sería refutada a favor de un modelo de inflamación más simple. Si corregir déficits modificables (hierro, BH4, perfusión) en poblaciones de riesgo no tiene efecto en la incidencia de EM/SFC, el marco pierde su utilidad clínica. El modelo hace predicciones específicas y testables — y puede fallar.
 
 ---
 

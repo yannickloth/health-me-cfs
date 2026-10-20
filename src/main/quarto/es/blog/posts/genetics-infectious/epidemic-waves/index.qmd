@@ -11,11 +11,11 @@ Si la onda posterior a la COVID de encefalomielitis miálgica/síndrome de fatig
 
 ## Cuatro brotes antes de la COVID
 
-Comenzó en el Hospital General del Condado de Los Ángeles. Entre mayo de 1934 y diciembre de 1935, 198 empleados del hospital —el 4.5% del personal, incluyendo más del 10% de enfermeras y el 5% de médicos— desarrollaron una enfermedad postinfecciosa inicialmente diagnosticada como "poliomielitis atípica". Nunca se recuperaron normalmente [@Gilliam1938].
+Comenzó en el Hospital General del Condado de Los Ángeles. Entre mayo de 1934 y diciembre de 1935, 198 empleados del hospital —el 4,5% del personal, incluyendo más del 10% de enfermeras y el 5% de médicos— desarrollaron una enfermedad postinfecciosa inicialmente diagnosticada como "poliomielitis atípica". Nunca se recuperaron normalmente [@Gilliam1938].
 
-Catorce años después, un brote en Akureyri, Islandia, afectó a 1,090 personas en tres meses —lo suficiente para que recibiera el nombre "enfermedad islandesa". Los síntomas eran los mismos: fatiga extrema que no desaparecía, disfunción neurológica y discapacidad prolongada mucho después de que la infección aguda hubiera desaparecido [@Sigurdsson1950].
+Catorce años después, un brote en Akureyri, Islandia, afectó a 1.090 personas en tres meses —lo suficiente para que recibiera el nombre "enfermedad islandesa". Los síntomas eran los mismos: fatiga extrema que no desaparecía, disfunción neurológica y discapacidad prolongada mucho después de que la infección aguda hubiera desaparecido [@Sigurdsson1950].
 
-Luego, en 1955, el Hospital Real Free de Londres vio que 292 miembros del personal enfermaron en cinco meses, de los cuales 255 necesitaron hospitalización. Este brote le dio al enfermedad su nombre: el Dr. Melvin Ramsay, jefe de Enfermedades Infecciosas, acuñó "encefalomielitis miálgica benigna". La palabra "benigna" fue posteriormente eliminada una vez que la naturaleza crónica y discapacitante de la enfermedad se hizo innegable [@RoyalFree1957; @Ramsay1986].
+Luego, en 1955, el Hospital Real Free de Londres vio que 292 miembros del personal enfermaron en cinco meses, de los cuales 255 necesitaron hospitalización. Este brote le dio a la enfermedad su nombre: el Dr. Melvin Ramsay, jefe de Enfermedades Infecciosas, acuñó "encefalomielitis miálgica benigna". La palabra "benigna" fue posteriormente eliminada una vez que la naturaleza crónica y discapacitante de la enfermedad se hizo innegable [@RoyalFree1957; @Ramsay1986].
 
 Tres décadas después, un brote en Incline Village cerca del lago Tahoe afectó a 259 pacientes. El CDC investigó, encontró anticuerpos elevados del virus de Epstein-Barr y —en una de las decisiones de branding más importantes de la historia médica— renombró la enfermedad como "síndrome de fatiga crónica" en 1988. Un nombre que la trivializó durante los siguientes treinta años [@Buchwald1992; @Holmes1988].
 
@@ -25,11 +25,11 @@ Cuatro brotes a lo largo de cincuenta años, cada uno seguido por una epidemia v
 
 SARS-CoV-2 creó millones de nuevos pacientes con una enfermedad antigua.
 
-El estudio RECOVER-Adult [@RECOVER2025] encontró que el 4.5% de las personas infectadas con SARS-CoV-2 desarrollaron EM/SFC que cumplía con los criterios de diagnóstico formales, en comparación con el 0.6% de los controles no infectados —un aumento de riesgo casi cinco veces (ratio de riesgo: 4.93). Entre los pacientes clasificados como "long COVID", el 51% cumple con todos los criterios de diagnóstico de EM/SFC.
+El estudio RECOVER-Adult [@RECOVER2025] encontró que el 4,5% de las personas infectadas con SARS-CoV-2 desarrollaron EM/SFC que cumplía con los criterios de diagnóstico formales, en comparación con el 0,6% de los controles no infectados —un aumento de riesgo casi cinco veces (ratio de riesgo: 4,93). Entre los pacientes clasificados como "long COVID", el 51% cumple con todos los criterios de diagnóstico de EM/SFC.
 
-Lo que esto significa en la práctica: solo en los Estados Unidos pasaron de una estimación de 1.5 millones de pacientes con EM/SFC antes de la pandemia a entre 5 y 9 millones, y la carga económica anual aumentó de $36–51 billion to $149–362 mil millones [@Jason2022prevalence].
+Lo que esto significa en la práctica: solo en los Estados Unidos pasaron de una estimación de 1,5 millones de pacientes con EM/SFC antes de la pandemia a entre 5 y 9 millones, y la carga económica anual aumentó de $36–51 mil millones a $149–362 mil millones [@Jason2022prevalence].
 
-Este patrón se mantiene también fuera de los Estados Unidos. En Alemania, la población de pacientes creció de aproximadamente 250,000 a más de 650,000 al final de 2024. Las estimaciones globales prepandemic situaban la población de EM/SFC en 15 a 30 millones; la onda posterior a la COVID casi con seguridad ha elevado ese número mucho más, aunque las cifras precisas aún se están compilando.
+Este patrón se mantiene también fuera de los Estados Unidos. En Alemania, la población de pacientes creció de aproximadamente 250.000 a más de 650.000 al final de 2024. Las estimaciones globales prepandémicas situaban la población de EM/SFC en 15 a 30 millones; la onda posterior a la COVID casi con seguridad ha elevado ese número mucho más, aunque las cifras precisas aún se están compilando.
 
 ## Décadas de descartamiento
 

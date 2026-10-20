@@ -1,25 +1,25 @@
 ---
 title: "Parte 2: El Striatum es el cuello de botella"
-description: "Si viruses, traumas y activación inmunitaria provocan la misma enfermedad, ¿dónde convergen? El estudio DecodeME GWAS señala un único circuito. Enfócate en el cuello de botella, no en el desencadenante."
+description: "Si virus, traumas y activación inmunitaria provocan la misma enfermedad, ¿dónde convergen? El estudio DecodeME GWAS señala un único circuito. Enfócate en el cuello de botella, no en el desencadenante."
 author: "Yannick Loth"
 date: "2026-07-05"
 categories: [Genetics, Neurology, Systems Biology]
 lang: es
 ---
 
-Te despiertas y tu cuerpo pesa más que ayer. No doloroso, sino pesado. Cada movimiento requiere una negociación. El café está a tres metros de distancia, pero el circuito striatum-taumáico-frontal que traduce *quiero café* en *camina hacia la cocina* tiene un ratio señal-ruido dañado. La orden está ahí. La ejecución no está. Esto no es falta de motivación. Es la salida de una región cerebral que se encuentra en la convergencia de todos los desencadenantes conocidos de EM/SFC.
+Te despiertas y tu cuerpo pesa más que ayer. No doloroso, sino pesado. Cada movimiento requiere una negociación. El café está a tres metros de distancia, pero el circuito striatum-talámico-frontal que traduce *quiero café* en *camina hacia la cocina* tiene un ratio señal-ruido dañado. La orden está ahí. La ejecución no está. Esto no es falta de motivación. Es la salida de una región cerebral que se encuentra en la convergencia de todos los desencadenantes conocidos de EM/SFC.
 
 El post anterior estableció que el GWAS asigna el riesgo de EM/SFC a las neuronas, no a las células inmunitarias — la arquitectura genética habla del cerebro. La epidemiología nos dice el resto: diversos patógenos (EBV, SARS-CoV-2, HHV-6), trauma físico, cirugía y estrés severo pueden desencadenar la misma enfermedad. La convergencia clínica requiere una convergencia anatómica — mismos síntomas, mismo circuito. El DecodeME GWAS ahora proporciona la dirección física donde ocurre esto [@DecodeME2025].
 
 ---
 
-## La hipótesis de convergencia obtiene un enfoque
+## La hipótesis de convergencia obtiene una dirección
 
-El consorcio DecodeME analizó más de 15,000 participantes (incluyendo ~5,000 casos de EM/SFC) y 8 millones de variantes genéticas. Los loci significativos a nivel del genoma apuntan a genes neuronales — *CA10, SHISA6, SOX6, LRRC7, DCC, UNC13C* — y el GWAS mostró un enriquecimiento de tejido cerebral (neural) . Una posterior análisis de tipo de célula post-GWAS (un preimpreso) señaló de forma más específica a neuronas de espina media (MSNs) en el striatum [@Maccallini2026metaGWAS].
+El consorcio DecodeME analizó más de 15.000 participantes (incluyendo ~5.000 casos de EM/SFC) y 8 millones de variantes genéticas. Los loci significativos a nivel del genoma apuntan a genes neuronales — *CA10, SHISA6, SOX6, LRRC7, DCC, UNC13C* — y el GWAS mostró un enriquecimiento de tejido cerebral (neuronal). Un análisis posterior de tipo de célula post-GWAS (un preimpreso) señaló de forma más específica a neuronas de espina media (MSNs) en el striatum [@Maccallini2026metaGWAS].
 
-El enriquecimiento de tejido cerebral a nivel tisular es robusto; el nivel más fino de tipo de célula se basa en un único análisis post-GWAS y un atlas de referencia, por lo que es provisional hasta que se replicen. El enriquecimiento de células inmunitarias es nulo — la señal genética no proviene de microglía, astrocitos o células inmunitarias periféricas. Proviene de las neuronas en el centro del circuito motor, motivacional y de recompensa del cerebro.
+El enriquecimiento de tejido cerebral a nivel tisular es robusto; el nivel más fino de tipo de célula se basa en un único análisis post-GWAS y un atlas de referencia, por lo que es provisional hasta que se replique. El enriquecimiento de células inmunitarias es nulo — la señal genética no proviene de microglía, astrocitos o células inmunitarias periféricas. Proviene de las neuronas en el centro del circuito motor, motivacional y de recompensa del cerebro.
 
-El striatum como locus de fatiga no es algo nuevo. Chaudhuri y Behan propusieron hace más de dos décadas que la fatiga central resulta de la falla en la integración de la entrada del sistema límbico y la función motora en los ganglios basales — específicamente el sistema striato-thalámico-frontal cortical — en el cual la señalización dopaminérgica perturbada deteriora la capacidad del cerebro para convertir el esfuerzo en acción [@Chaudhuri2000basalganglia]. Una hipótesis clínica basada en la superposición de síntomas con Parkinson y esclerosis múltiple ahora cuenta con evidencia genética del mayor conjunto de datos de EM/SFC jamás reunido.
+El striatum como locus de fatiga no es algo nuevo. Chaudhuri y Behan propusieron hace más de dos décadas que la fatiga central resulta del fallo en la integración de la entrada del sistema límbico y la función motora en los ganglios basales — específicamente el sistema striato-talámico-frontal cortical — en el cual la señalización dopaminérgica perturbada deteriora la capacidad del cerebro para convertir el esfuerzo en acción [@Chaudhuri2000basalganglia]. Una hipótesis clínica basada en la superposición de síntomas con Parkinson y esclerosis múltiple ahora cuenta con evidencia genética del mayor conjunto de datos de EM/SFC jamás reunido.
 
 ---
 
@@ -27,11 +27,11 @@ El striatum como locus de fatiga no es algo nuevo. Chaudhuri y Behan propusieron
 
 El striatum no es alguna región cerebral poco conocida. Es el centro principal para:
 
-**Control motor.** Los MSN son los guardias de los ganglios basales — reciben entrada del corteza cerebral completa y determinan si una orden motora se transmite. Cuando los MSN fallan, el movimiento se vuelve difícil no porque los músculos sean débiles, sino porque iniciar el movimiento es costoso desde el punto de vista neurológico.
+**Control motor.** Los MSN son los guardias de los ganglios basales — reciben entrada de la corteza cerebral completa y determinan si una orden motora se transmite. Cuando los MSN fallan, el movimiento se vuelve difícil no porque los músculos sean débiles, sino porque iniciar el movimiento es costoso desde el punto de vista neurológico.
 
-**Toma de decisiones sobre esfuerzo/recompensa.** El striatum ventral integra señales de dopamina que codifican el valor esperado de una acción. Cada movimiento, cada tarea cognitiva pasa por este cálculo de costo-beneficio. En EM/SFC, la estimación de costos es patológicamente elevada — no debido a la depresión, sino porque la red que calcula estos valores recibe entrada corrupta.
+**Toma de decisiones sobre esfuerzo/recompensa.** El striatum ventral integra señales de dopamina que codifican el valor esperado de una acción. Cada movimiento, cada tarea cognitiva pasa por este cálculo de coste-beneficio. En EM/SFC, la estimación de costes es patológicamente elevada — no debido a la depresión, sino porque la red que calcula estos valores recibe entrada corrupta.
 
-**Señalización de dopamina.** Los MSN son los objetivos principales de los neuronas dopaminérgicas del mesencéfalo. Los MSN con receptores D1 forman la vía “sí”; los MSN con receptores D2 forman la vía “no”. El equilibrio determina si una acción se inicia o se inhibe. Una señalización de dopamina perturbada desplaza este equilibrio hacia la inhibición.
+**Señalización de dopamina.** Los MSN son los objetivos principales de las neuronas dopaminérgicas del mesencéfalo. Los MSN con receptores D1 forman la vía “sí”; los MSN con receptores D2 forman la vía “no”. El equilibrio determina si una acción se inicia o se inhibe. Una señalización de dopamina perturbada desplaza este equilibrio hacia la inhibición.
 
 ---
 
@@ -41,19 +41,19 @@ Si el striatum es el cuello de botella, ¿cómo llegan a él diversos desencaden
 
 **Neuroinflamación.** La activación inmune periférica estimula la microglía en todo el cerebro, pero el striatum es especialmente vulnerable debido a su alta densidad de terminales de dopamina. La microglía activada libera citocinas que suprimen el disparo de MSN y alteran el equilibrio de la vía D1/D2, convirtiendo un evento inmune periférico en un déficit motor a nivel del circuito.
 
-**Fallo metabólico.** El striatum tiene una de las demandas metabólicas más altas de cualquier región cerebral. Los MSN son neuronas GABAérgicas que se activan de forma tonante a alta velocidad, consumiendo ATP a un ritmo que las hace vulnerables a cualquier reducción en la disponibilidad de energía. El deterioro mitocondrial afecta al striatum primero y de forma más grave.
+**Fallo metabólico.** El striatum tiene una de las demandas metabólicas más altas de cualquier región cerebral. Los MSN son neuronas GABAérgicas que se activan de forma tónica a alta velocidad, consumiendo ATP a un ritmo que las hace vulnerables a cualquier reducción en la disponibilidad de energía. El deterioro mitocondrial afecta al striatum primero y de forma más grave.
 
 **Interrupción del autoanticuerpo.** Autoanticuerpos de GPCR contra receptores adrenérgicos, muscarínicos y dopaminérgicos han sido documentados en un subgrupo de pacientes con EM/SFC [@Loebel2016]. Incluso un acceso a nivel bajo a los órganos circunvalares o a través de una barrera comprometida puede alterar el estado basal de la señalización de dopamina en el striatum.
 
 **Hipoperfusión.** El striatum se encuentra en el extremo distal de los territorios vasculares, lo que lo hace sensible a déficits de perfusión. Cuando el flujo cardíaco disminuye o la autorregulación falla, el striatum pierde la entrega de oxígeno de forma temprana —y el oxígeno es el sustrato limitante en la tasa de ATP que los MSN consumen continuamente.
 
-Estas vías ocurren simultáneamente. Un paciente post-viral con activación inmune, deterioro mitocondrial y hipoperfusión tiene tres daños independientes que afectan a los mismos neuronas. El cuello de botella se afecta desde múltiples ángulos simultáneamente —por eso la enfermedad es grave y persistente.
+Estas vías ocurren simultáneamente. Un paciente post-viral con activación inmune, deterioro mitocondrial y hipoperfusión tiene tres daños independientes que afectan a las mismas neuronas. El cuello de botella se afecta desde múltiples ángulos simultáneamente —por eso la enfermedad es grave y persistente.
 
 ---
 
-## ¿Qué significa esto para el tratamiento
+## ¿Qué significa esto para el tratamiento?
 
-Si el striatum es el cuello de botella, la estrategia de tratamiento cambia. En lugar de preguntar "¿qué provocó este paciente?", pregúntese "¿qué está interrumpiendo actualmente la función del circuito del striatum?". Esto reconfigura el tratamiento de manera racional desde una perspectiva neurológica.
+Si el striatum es el cuello de botella, la estrategia de tratamiento cambia. En lugar de preguntar "¿qué provocó este paciente?", pregúntate "¿qué está interrumpiendo actualmente la función del circuito del striatum?". Esto reconfigura el tratamiento de manera racional desde una perspectiva neurológica.
 
 - **Señalización de dopamina** — los agonistas de dopamina, bupropion y amantadina merecen una investigación sistemática como moduladores del circuito del striatum, no como intervenciones psiquiátricas.
 - **Neuroinflamación** — naltrexona en dosis bajas, minocicina o enfoques antiinflamatorios dirigidos que reduzcan la activación de microglía en el striatum.
@@ -66,9 +66,9 @@ Estos objetivos de tratamiento no son específicos para un desencadenante. Se ap
 
 ## La advertencia: especificidad dentro de un sustrato compartido
 
-La enriquecimiento de riesgo en neuronas cerebrales no es único en EM/SFC; muchos trastornos cerebrales lo presentan. Pero los tipos de células específicos difieren: la esquizofrenia enriquece las neuronas de la capa 2/3 cortical, la depresión la capa 5/6, y el trastorno por uso de alcohol las MSN [@Duncan2025cellTypeBrain] — por lo tanto, EM/SFC y AUD, no esquizofrenia ni depresión, son las condiciones que convergen en las MSN. El striatum es un nodo de vulnerabilidad genérico — una región cerebral susceptible a disfunción por muchas causas upstream.
+El enriquecimiento de riesgo en neuronas cerebrales no es único en EM/SFC; muchos trastornos cerebrales lo presentan. Pero los tipos de células específicos difieren: la esquizofrenia enriquece las neuronas de la capa 2/3 cortical, la depresión la capa 5/6, y el trastorno por uso de alcohol las MSN [@Duncan2025cellTypeBrain] — por lo tanto, EM/SFC y AUD, no esquizofrenia ni depresión, son las condiciones que convergen en las MSN. El striatum es un nodo de vulnerabilidad genérico — una región cerebral susceptible a disfunción por muchas causas upstream.
 
-Pero la disfunción debe ser diferente. EM/SFC no es esquizofrenia. La pregunta es: ¿qué específicamente falla en la función de la MSN en EM/SFC? El equilibrio D1/D2? La tasa de activación? La respuesta a la dopamina? La integración de la entrada cortical? La respuesta determina si podemos dirigirnos a la disfunción específica de EM/SFC en lugar de modular de forma general los circuitos del striatum.
+Pero la disfunción debe ser diferente. EM/SFC no es esquizofrenia. La pregunta es: ¿qué específicamente falla en la función de la MSN en EM/SFC? ¿El equilibrio D1/D2? ¿La tasa de activación? ¿La respuesta a la dopamina? ¿La integración de la entrada cortical? La respuesta determina si podemos dirigirnos a la disfunción específica de EM/SFC en lugar de modular de forma general los circuitos del striatum.
 
 ---
 
@@ -84,12 +84,12 @@ Nada en la ciencia se demuestra mediante una única predicción. Pero un modelo 
 
 | Afirmación | Certeza |
 |---|---|
-| Las variantes de riesgo genético de EM/SFC están abundantes en los MSN del striatum | Moderada — análisis de tipo de célula post-GWAS, no el GWAS en sí [@Maccallini2026metaGWAS] |
+| Las variantes de riesgo genético de EM/SFC están enriquecidas en los MSN del striatum | Moderada — análisis de tipo de célula post-GWAS, no el GWAS en sí [@Maccallini2026metaGWAS] |
 | El striatum es el punto de convergencia para múltiples tipos de desencadenantes de EM/SFC | Moderada — es anatómicamente y mecánicamente plausible; no demostrada directamente |
-| Las cuatro vías de convergencia (neuroinflamación, metabólica, autoanticuerpo, perfusión) ocurren simultáneamente en pacientes | Baja-moderada — cada vía está respaldada individualmente; no hay estudio que mide las cuatro simultáneamente |
+| Las cuatro vías de convergencia (neuroinflamación, metabólica, autoanticuerpo, perfusión) ocurren simultáneamente en pacientes | Baja-moderada — cada vía está respaldada individualmente; no hay estudio que mida las cuatro simultáneamente |
 | Las intervenciones con dopamina en el striatum deberían funcionar independientemente del tipo de desencadenante | Baja — predicción del modelo; no ha sido probada |
-| La especificidad de subtipo de MSN (D1 vs D2 MSN) está resuelta por los datos actuales | Baja — requiere replicación con atlases más detallados de tipo de célula y cohorte independientes |
+| La especificidad de subtipo de MSN (D1 vs D2 MSN) está resuelta por los datos actuales | Baja — requiere replicación con atlas de tipo de célula más detallados y cohortes independientes |
 
 La hipótesis del cuello de botella es un marco para organizar lo que sabemos, no un mecanismo comprobado. Dirige la atención hacia el circuito del striatum como el locus crítico para la investigación. Si este esfuerzo da resultados depende de la próxima ronda de experimentos.
 
-*De 2 de 4 en la serie GWAS DecodeME. Prev: [La genética se ha aclarado](../genetics-ends-debate/) · Next: [Medicinas para EM/SFC en Parkinson?](../dopamine-rational-mechanism/) · [El striatum no es nuestro](../msn-specificity-caveat/)*
+*Post 2 de 4 en la serie GWAS DecodeME. Prev: [La genética se ha aclarado](../genetics-ends-debate/) · Next: [Medicinas para EM/SFC en Parkinson?](../dopamine-rational-mechanism/) · [El striatum no es nuestro](../msn-specificity-caveat/)*

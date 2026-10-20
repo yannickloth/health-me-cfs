@@ -7,17 +7,17 @@ categories: [ADHD, Treatment, PEM]
 lang: es
 ---
 
-Este es el sexto artículo de una serie sobre la biología energética que relaciona TDAH, autismo y EM/SFC. Este artículo explica la sorprendente disociación entre los beneficios de los estimulantes para los síntomas cognitivos y su efecto nulo en el malestar post-esfuerzo — y lo que revela sobre una combinación de tratamientos no probada. El modelo de reserva metabólica postula que el TDAH implica un déficit de energía cerebral en base [@Zametkin1990].
+Este es el sexto artículo de una serie sobre la biología energética que relaciona TDAH, autismo y EM/SFC. Este artículo explica la sorprendente disociación entre los beneficios de los estimulantes para los síntomas cognitivos y su efecto nulo en el malestar post-esfuerzo — y lo que revela sobre una combinación de tratamientos no probada. El modelo de reserva metabólica postula que el TDAH implica un déficit de energía cerebral de base [@Zametkin1990].
 
 ---
 
 ## Los datos
 
-Un estudio de PNAS de 2025 con **3,925 pacientes con EM/SFC** evaluó los resultados del tratamiento en varios dominios [@Eckey2025PatientReported]:
+Un estudio de PNAS de 2025 con **3.925 pacientes con EM/SFC** evaluó los resultados del tratamiento en varios dominios [@Eckey2025PatientReported]:
 
-- Los estimulantes mejoraron la **niebla cerebral en el 77.1%**
-- Los estimulantes mejoraron la **percepción de fatiga en el 71.7%**
-- Los estimulantes tuvieron un **efecto neto de -1.5% en la PEM**
+- Los estimulantes mejoraron la **niebla cerebral en el 77,1%**
+- Los estimulantes mejoraron la **percepción de fatiga en el 71,7%**
+- Los estimulantes tuvieron un **efecto neto de -1,5% en la PEM**
 
 Estos tres números parecen contradictorios. ¿Cómo es posible que algo mejore la fatiga en un 72% mientras que no tiene efecto alguno en el síntoma definitorio de la enfermedad?
 
@@ -27,27 +27,27 @@ El modelo de reserva metabólica ofrece una explicación coherente.
 
 ## Lo que realmente hacen los estimulantes
 
-Los estimulantes —metilfenidato, amfetaminas, modafinilo, solriamfetol— aumentan la disponibilidad de dopamina y noradrenalina en la sinapsis. Esto hace que la señalización neuronal sea más eficiente. Cada pensamiento, cada decisión y cada acto de atención sostenida requiere **menos ciclos de activación** y, por lo tanto, **menos energía metabólica**.
+Los estimulantes —metilfenidato, anfetaminas, modafinilo, solriamfetol— aumentan la disponibilidad de dopamina y noradrenalina en la sinapsis. Esto hace que la señalización neuronal sea más eficiente. Cada pensamiento, cada decisión y cada acto de atención sostenida requiere **menos ciclos de activación** y, por lo tanto, **menos energía metabólica**.
 
 En términos de ingeniería: los estimulantes reducen la **demanda** de energía por unidad cognitiva sin aumentar la **oferta** de energía.
 
-La experiencia subjetiva: el pensamiento se vuelve más fácil. El esfuerzo constante necesario para mantener la atención —que es el estado base tanto en TDAH como en niebla cerebral en EM/SFC— disminuye. Los números del 77% y 71.7% reflejan esta mejoría real en la eficiencia cognitiva.
+La experiencia subjetiva: el pensamiento se vuelve más fácil. El esfuerzo constante necesario para mantener la atención —que es el estado base tanto en TDAH como en niebla cerebral en EM/SFC— disminuye. Los números del 77% y 71,7% reflejan esta mejoría real en la eficiencia cognitiva.
 
 ---
 
-## ¿Por qué la PEM no mejora
+## Por qué la PEM no mejora
 
-El malestar post-esfuerzo no se activa por cuánto se siente que se está trabajando. Se activa por la cantidad total de energía que se *realmente gasta* — en relación con la capacidad de producción.
+El malestar post-esfuerzo no se activa por cuánto se siente que se está trabajando. Se activa por la cantidad total de energía que *realmente se gasta* — en relación con la capacidad de producción.
 
-La PEM ocurre cuando la demanda metabólica total supera la producción máxima de mitocondria durante tiempo suficiente como para iniciar daño oxidativo [@walitt2024deep]. Los estimulantes no aumentan la capacidad de mitocondria. No elevan el límite. Reducen el costo de una categoría específica de demanda (cognición) sin cambiar el límite que determina la PEM.
+La PEM ocurre cuando la demanda metabólica total supera la producción mitocondrial máxima durante tiempo suficiente como para iniciar daño oxidativo [@walitt2024deep]. Los estimulantes no aumentan la capacidad mitocondrial. No elevan el límite. Reducen el coste de una categoría específica de demanda (cognición) sin cambiar el límite que determina la PEM.
 
 Y aquí está el problema: **cuando la cognición se vuelve más fácil, se hace más.**
 
-Te sientes mejor. Asumes esa reunión extra. Recibes correos electrónicos. Piensas: "quizás hoy puedo conducir una tarde normal". El estimulante no te ha dado más energía. Ha hecho que la energía existente sea más barata para gastar en *pensar*. Así que la gastas — y más, porque la cognición mejorada te hace sentir capaz.
+Te sientes mejor. Asumes esa reunión extra. Pones al día los correos electrónicos. Piensas: "quizás hoy puedo conducir una tarde normal". El estimulante no te ha dado más energía. Ha hecho que la energía existente sea más barata para gastar en *pensar*. Así que la gastas — y más, porque la cognición mejorada te hace sentir capaz.
 
 El resultado: la cantidad total de energía gastada aumenta. La parte cognitiva es más barata por unidad, pero la cantidad de unidades aumenta. Efecto neto en la demanda metabólica total: aproximadamente cero. Efecto neto en la PEM: aproximadamente cero.
 
-Bajo el modelo de reserva metabólica, el -1.5% no es un fracaso farmacológico — es un fracaso conductual. Una interpretación alternativa: los estimulantes simplemente no afectan en absoluto el mecanismo de la PEM, independientemente del comportamiento de ritmo, porque la PEM tiene una fisiopatología fundamentalmente diferente de la fatiga cognitiva. Distinguir estas interpretaciones requiere un ensayo que combine estimulantes con un ritmo forzado (ver abajo).
+Bajo el modelo de reserva metabólica, el -1,5% no es un fracaso farmacológico — es un fracaso conductual. Una interpretación alternativa: los estimulantes simplemente no afectan en absoluto el mecanismo de la PEM, independientemente del comportamiento de ritmo, porque la PEM tiene una fisiopatología fundamentalmente diferente de la fatiga cognitiva. Distinguir estas interpretaciones requiere un ensayo que combine estimulantes con un ritmo forzado (ver abajo).
 
 ---
 
@@ -57,27 +57,27 @@ El modelo de reserva metabólica hace una predicción específica y verificable:
 
 **Los pacientes con EM/SFC tratados con estimulantes que mantienen un estricto ritmo de actividad deberían presentar una frecuencia más baja de PEM en comparación con los pacientes no tratados.**
 
-La lógica: si el estimulante reduce el costo metabólico de la función cognitiva en un 20%, y el paciente mantiene el mismo nivel de actividad, entonces el 20% de su presupuesto de energía cognitiva se libera — y se añade a su reserva. Más reserva = más respaldo antes de superar el umbral de PEM.
+La lógica: si el estimulante reduce el coste metabólico de la función cognitiva en un 20%, y el paciente mantiene el mismo nivel de actividad, entonces el 20% de su presupuesto de energía cognitiva se libera — y se añade a su reserva. Más reserva = más respaldo antes de superar el umbral de PEM.
 
 **Los pacientes tratados con estimulantes que aumentan su actividad deberían presentar una frecuencia más alta de PEM.**
 
 La lógica: se sienten mejor, hacen más, superan el límite. El estimulante les permitió superar el límite sin darse cuenta.
 
-El **net -1.5%** en la encuesta Eckey PNAS es probablemente la media de estos dos efectos opuestos. Algunos pacientes mantuvieron un ritmo y se beneficiaron. Otros pacientes hicieron más y sufrieron una crisis. La media: aproximadamente cero.
+El **neto -1,5%** en la encuesta Eckey PNAS es probablemente la media de estos dos efectos opuestos. Algunos pacientes mantuvieron un ritmo y se beneficiaron. Otros pacientes hicieron más y sufrieron una crisis. La media: aproximadamente cero.
 
-Ninguna prueba ha probado esto directamente. Ningún estudio ha combinado la prescripción de estimulantes con protocolos de ritmo estricto. La combinación de **estimulantes + ritmo estricto** es la intervención no probada que el modelo predice que funcionará.
+Ningún ensayo ha probado esto directamente. Ningún estudio ha combinado la prescripción de estimulantes con protocolos de ritmo estricto. La combinación de **estimulantes + ritmo estricto** es la intervención no probada que el modelo predice que funcionará.
 
 ---
 
-## Un beneficio secundario: protección de las mitocondria?
+## Un beneficio secundario: protección de las mitocondrias?
 
-Existe una línea de evidencia independiente que sugiere que el metilfenidato puede tener efectos directos en las mitocondria [@Almutairi2024mitoadhd]:
+Existe una línea de evidencia independiente que sugiere que el metilfenidato puede tener efectos directos en las mitocondrias [@Almutairi2024mitoadhd]:
 
-- Aumenta la expresión de **Parkin** (un regulador de mitofagia — ayuda a limpiar las mitocondria dañadas)
+- Aumenta la expresión de **Parkin** (un regulador de mitofagia — ayuda a limpiar las mitocondrias dañadas)
 - Reduce la producción de **especies reactivas de oxígeno**
 - Mantiene el potencial de la membrana mitocondrial
 
-Si se confirma, esto significa que el metilfenidato puede no solo reducir la demanda de energía cognitiva — también puede proteger ligeramente las mitocondria que producen esa energía. Un medicamento que haga ambos efectos sería especialmente valioso en el marco de la reserva metabólica. Sin embargo, esta evidencia es principalmente preclínica y no ha sido validada en pacientes con EM/SFC.
+Si se confirma, esto significa que el metilfenidato puede no solo reducir la demanda de energía cognitiva — también puede proteger ligeramente las mitocondrias que producen esa energía. Un medicamento que haga ambos efectos sería especialmente valioso en el marco de la reserva metabólica. Sin embargo, esta evidencia es principalmente preclínica y no ha sido validada en pacientes con EM/SFC.
 
 ---
 
@@ -91,7 +91,7 @@ El estudio más riguroso con metilfenidato en EM/SFC fue un ensayo clínico de d
 
 Un seguimiento observacional a largo plazo por el mismo grupo, publicado en 2016 [@Blockmans2016LongTermMPH], examinó a 149 de los 194 pacientes originalmente tratados con metilfenidato: el 65% había dejado de tomarlo; entre los que continuaron, el 48% reportó una mejoría de ≥50% en fatiga y el 62% una mejoría de ≥50% en concentración.
 
-La alta tasa de abandono (65% que dejaron de tomarlo) es por sí misma informativa. De acuerdo con el modelo: los pacientes que dejaron de tomarlo podrían haber sido aquellos que aumentaron su actividad, experimentaron una PEM peor y atribuyeron el empeoramiento a la medicina. Los pacientes que continuaron podrían haber sido aquellos que mantuvieron su ritmo y experimentaron los beneficios cognitivos sin costos relacionados con la PEM.
+La alta tasa de abandono (65% que dejaron de tomarlo) es por sí misma informativa. De acuerdo con el modelo: los pacientes que dejaron de tomarlo podrían haber sido aquellos que aumentaron su actividad, experimentaron una PEM peor y atribuyeron el empeoramiento a la medicina. Los pacientes que continuaron podrían haber sido aquellos que mantuvieron su ritmo y experimentaron los beneficios cognitivos sin costes relacionados con la PEM.
 
 ---
 
@@ -105,13 +105,13 @@ Para pacientes con EM/SFC que utilizan estimulantes:
 
 3. **Rastrea la PEM a 24 y 48 horas después de las sesiones cognitivas.** Si la PEM empeora a pesar de la mejora en la cognición durante las sesiones, estás gastando los ahorros en lugar de acumularlos.
 
-4. **Considera primero el ritmo y luego el estimulante.** Primero establece un nivel base estable y con ritmo controlado. Luego añade el estimulante. Monitorea si cambia la frecuencia de la PEM. Si disminuye: la combinación funciona como se predice. Si aumenta: has aumentado la actividad sin darse cuenta.
+4. **Considera primero el ritmo y luego el estimulante.** Primero establece un nivel base estable y con ritmo controlado. Luego añade el estimulante. Monitorea si cambia la frecuencia de la PEM. Si disminuye: la combinación funciona como se predice. Si aumenta: has aumentado la actividad sin darte cuenta.
 
-5. **Precaución cardíaca en pacientes con POTS.** El metilfenidato y las amíptamas son simpaticomiméticas. En el 30–40 % de los pacientes con EM/SFC que tienen POTS, pueden empeorar la taquicardia. Preocupaciones específicas: (a) los estimulantes + midodrina pueden causar picos hipertensivos; (b) los estimulantes + betabloqueantes crean efectos cardiovasculares opuestos; (c) los estimulantes + fludrocortisona aumentan la carga simpática total. Si se inicia el uso de estimulantes en un paciente con POTS, utiliza la dosis mínima efectiva, monitorea la frecuencia cardíaca en reposo y ortostática, y gestiona junto con el médico que receta los medicamentos para el POTS.
+5. **Precaución cardíaca en pacientes con POTS.** El metilfenidato y las anfetaminas son simpaticomiméticos. En el 30–40 % de los pacientes con EM/SFC que tienen POTS, pueden empeorar la taquicardia. Preocupaciones específicas: (a) los estimulantes + midodrina pueden causar picos hipertensivos; (b) los estimulantes + betabloqueantes crean efectos cardiovasculares opuestos; (c) los estimulantes + fludrocortisona aumentan la carga simpática total. Si se inicia el uso de estimulantes en un paciente con POTS, utiliza la dosis mínima efectiva, monitoriza la frecuencia cardíaca en reposo y ortostática, y gestiona junto con el médico que receta los medicamentos para el POTS.
 
 6. **La gravedad importa.** La recomendación de ritmo anterior asume que el paciente puede implementar sesiones de trabajo cognitivo estructuradas. Los pacientes con EM/SFC graves y muy graves — aquellos que están confinados en cama o en casa — pueden no ser capaces de gestionar los temporizadores, el seguimiento o las decisiones de actividad sin apoyo de un cuidador. Adapta los principios al nivel funcional del paciente.
 
-*Nota: Estos son principios de ritmo derivados del modelo de reserva metabólica, no orientaciones de prescripción. Todas las decisiones de medicación — incluyendo la iniciación de estimulantes, la dosis y el monitoreo cardíaco — requieren un médico calificado.*
+*Nota: Estos son principios de ritmo derivados del modelo de reserva metabólica, no orientaciones de prescripción. Todas las decisiones de medicación — incluyendo la iniciación de estimulantes, la dosis y la monitorización cardíaca — requieren un médico calificado.*
 
 ---
 
