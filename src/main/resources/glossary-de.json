@@ -14494,5 +14494,71 @@
     "category": "measurement",
     "definition": "Die Kraft beim Drücken eines Handdynamometers. Wiederholt in zwei Sitzungen gemessen, ergibt sie eine absolute Kraft, ein Fatigue-Verhältnis innerhalb der Sitzung und ein Erholungsverhältnis zwischen den Sitzungen; bei ME/CFS dient sie als Funktions- und Schweregradmaß, nicht als diagnostischer Test.",
     "synonyms": []
+  },
+  "ARG1": {
+    "label": "ARG1",
+    "category": "enzyme",
+    "definition": "Arginase-1: ein Enzym, das von alternativ aktivierten (reparativen) Makrophagen und Mikroglia exprimiert wird. Hohes ARG1 markiert einen lösungsorientierten Zellzustand und keinen pro-inflammatorischen.",
+    "synonyms": []
+  },
+  "LGI1": {
+    "label": "LGI1",
+    "category": "protein",
+    "definition": "Leucine-rich glioma-inactivated 1: ein von Neuronen sezerniertes Protein; Autoantikörper dagegen verursachen eine limbische Enzephalitis, die in diesem Buch als krankheitsübergreifendes Modell der Mikroglia-Aktivierung und des TSPO-PET-Signals dient.",
+    "synonyms": []
+  },
+  "TREM2": {
+    "label": "TREM2",
+    "category": "protein",
+    "definition": "Triggering receptor expressed on myeloid cells 2: ein Oberflächenrezeptor der Mikroglia, der Phagozytose, Überleben und den Wechsel zwischen reaktiven Zuständen reguliert. Funktionsverlust verschlimmert die Pathologie in Tiermodellen.",
+    "synonyms": []
+  },
+  "sTREM2": {
+    "label": "sTREM2",
+    "category": "protein",
+    "definition": "Lösliche Form von TREM2, die in den Liquor abgegeben wird; dient als Flüssigkeitsmarker der Mikroglia-Reaktivität, mit der Einschränkung, dass sie die Abgabe und nicht die Zellzahl widerspiegelt.",
+    "synonyms": []
+  },
+  "CHI3L1": {
+    "label": "CHI3L1 (YKL-40)",
+    "category": "protein",
+    "definition": "Chitinase-3-like protein 1, auch YKL-40 genannt: ein sezerniertes Glykoprotein aus aktivierten Astrozyten und Mikroglia; ein Kandidatenmarker im Liquor für gliale Aktivierung.",
+    "synonyms": []
+  },
+  "YKL-40": {
+    "label": "YKL-40 (CHI3L1)",
+    "category": "protein",
+    "definition": "Alternativname für Chitinase-3-like protein 1, einen Kandidatenmarker im Liquor für astrogliale und mikrogliale Aktivierung.",
+    "synonyms": []
+  },
+  "P2Y12R": {
+    "label": "P2Y12R",
+    "category": "receptor",
+    "definition": "P2Y12-Purinrezeptor: ein Mikroglia-Rezeptor für ADP/ATP, der einen homöostatischen oder reparativen Mikrogliazustand anzeigt und bei klassischer pro-inflammatorischer Aktivierung herunterreguliert wird.",
+    "synonyms": []
+  },
+  "iNOS": {
+    "label": "iNOS",
+    "category": "enzyme",
+    "definition": "Induzierbare Stickstoffmonoxid-Synthase: ein Enzym, das bei pro-inflammatorischer Aktivierung Stickstoffmonoxid produziert; ein Standardmarker des klassisch aktivierten (M1-ähnlichen) Mikrogliazustands in tierischem Gewebe.",
+    "synonyms": []
+  },
+  "DPA-714": {
+    "label": "DPA-714",
+    "category": "imaging",
+    "definition": "Ein TSPO-bindender PET-Tracer der zweiten Generation, markiert mit Fluor-18; er quantifiziert Neuroinflammation in vivo mit besserer Spezifität und Kinetik als Liganden der ersten Generation.",
+    "synonyms": []
+  },
+  "myo-inositol": {
+    "label": "Myo-Inositol",
+    "category": "metabolite",
+    "definition": "Ein gliaangereichertes Hirnmetabolit, das mit Magnetresonanzspektroskopie gemessen wird; er steigt bei astroglialer Aktivierung und dient als indirekter Index des Gliazustands.",
+    "synonyms": []
+  },
+  "PPV/NPV": {
+    "label": "PPV / NPV",
+    "category": "method",
+    "definition": "Positiver und negativer prädiktiver Wert: die Wahrscheinlichkeit, dass ein positives oder negatives Testergebnis in der untersuchten Population korrekt ist; anders als Sensitivität und Spezifität hängen sie von der Prävalenz ab.",
+    "synonyms": []
   }
 }
