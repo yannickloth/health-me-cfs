@@ -30,7 +30,7 @@ Esse é o caso honesto *a favor* de levar a questão a sério. É um argumento d
 - **Parte da carga dos sintomas tem outra explicação.** Efeitos de nocebo — sintomas produzidos pela expectativa e não pelo produto — são bem documentados após a vacinação, e são sintomas reais. A quantidade de apresentação semelhante à EM/SFC que eles explicam ainda não foi medida. Tratar o nocebo como a explicação completa é uma forma de descartá-lo.
 - **Os sinais em nível populacional são difíceis de interpretar em ambas as direções.** A ausência de um sinal claro em nível populacional não prova que a doença do indivíduo foi não relacionada; um conjunto de casos relatados não prova causalidade. Ambas as direções de inferência falham aqui, e é por isso que a questão permanece aberta em vez de ser resolvida.
 
-## Duas maneiras comuns de errar nisso
+## Duas maneiras comuns de cometer este erro
 
 **Errar, direção um: descartar o paciente.** Dizer a alguém que sua doença “não é real”, ou que é ansiedade, ou que o momento é coincidência, com base no facto de nenhum mecanismo ter sido comprovado. Isso não é ceticismo. É descartar usando a aparência de rigor, e é a mesma abordagem que os pacientes com EM/SFC enfrentaram por décadas.
 

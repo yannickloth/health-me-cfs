@@ -93,13 +93,13 @@ Os anti-histamínicos bloqueiam as substâncias após a sua libertação. Uma fa
 
 ## Resultados esperados
 
-Seja realista e tenha paciência. O cuidado com as células mastoideas na EM/SFC é geralmente descrito como um *teste*, não como um tratamento garantido. O que isso significa na prática:
+Seja realista e tenha paciência. O cuidado com os mastócitos na EM/SFC é geralmente descrito como um *teste*, não como um tratamento garantido. O que isso significa na prática:
 
 - **O teste requer tempo.** A resposta é normalmente avaliada ao longo de semanas ou meses, não dias. Uma única tarde em que “não funcionou” diz pouco.
 - **Pode ser um efeito parcial.** Você pode reduzir o rubor e as dores de cabeça, mas ainda ter fadiga, e considerar isso uma vitória.
 - **Às vezes são necessárias doses mais altas** para os bloqueadores H1, sob supervisão, e devem ser aumentadas com cuidado, pois podem causar sedação — e a sedação é a última coisa que um paciente com EM/SFC precisa [@Zuberbier2022urticaria].
 - **Combinar H1 + H2 (e às vezes um estabilizador) é comum, mas não está firmemente comprovado por evidências** — especialmente a parte H2 baseia-se na prática, não em testes robustos [@Molderings2016pharmacological].
-- **A expectativa importa.** A expectativa clínica — ainda não comprovada por um teste prospectivo — é que o tratamento com células mastoideas provavelmente ajudará pessoas que também têm sintomas alérgicos episódicos claros (rubor, urticária, reações de tipo histamínico) [@Rohrhofer2025mecfsmast][@Weinstock2023MCASneuro]. Se esse “perfil alérgico” realmente previne a resposta, ainda não foi testado num estudo controlado, então trate-o como uma premissa razoável, não como uma garantia. Se você não tem nenhum desses sintomas, isso torna uma resposta drástica menos provável com base nisso — mas não anula a incerteza das evidências mencionadas acima.
+- **A expectativa importa.** A expectativa clínica — ainda não comprovada por um teste prospectivo — é que o tratamento com mastócitos provavelmente ajudará pessoas que também têm sintomas alérgicos episódicos claros (rubor, urticária, reações de tipo histamínico) [@Rohrhofer2025mecfsmast][@Weinstock2023MCASneuro]. Se esse “perfil alérgico” realmente previne a resposta, ainda não foi testado num estudo controlado, então trate-o como uma premissa razoável, não como uma garantia. Se você não tem nenhum desses sintomas, isso torna uma resposta drástica menos provável com base nisso — mas não anula a incerteza das evidências mencionadas acima.
 
 ---
 

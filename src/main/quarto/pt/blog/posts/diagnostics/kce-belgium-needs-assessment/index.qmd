@@ -123,7 +123,7 @@ O KCE fornece a confirmação mais recente e metodologicamente rigorosa da voz d
 
 Os autores do KCE são cuidadosos com os limites. O seu relatório:
 
-- **Não é uma diretriz clínica.** Sugue direções políticas, mas não faz recomendações de tratamento.
+- **Não é uma diretriz clínica.** Sugere orientações políticas, mas não faz recomendações de tratamento.
 - **Não avalia tratamentos específicos entre si.** Os dados de tratamento relatados pelos pacientes são descritivos — “isso é o que os pacientes nos contaram sobre a sua experiência” — e não indicam eficácia comparativa.
 - **Não resolve a controvérsia entre GET e CBT.** O sinal de 26% de resposta ao GET é observado, mas não explicado. A taxa de piora de 20% no CBT é observada, mas não analisada.
 - **Não pode ser aplicado a pacientes graves/extremamente graves.** A população acamada não pôde participar de uma pesquisa online. As suas necessidades podem diferir qualitativamente, e não apenas quantitativamente.

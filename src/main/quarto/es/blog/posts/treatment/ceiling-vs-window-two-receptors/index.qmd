@@ -39,7 +39,7 @@ Dos pruebas de una célula proporcionan dos patrones que transmiten información
 
 ## ¿Por qué un techo no transmite información sobre una ventana
 
-La clave está en la disciplina de dosis: el lugar donde se registró un valor nulo determina su significado. Un valor nulo en el **último** extremo del rango de dosis de un medicamento no es una prueba del mecanismo del fármaco si ese mecanismo se encuentra en una ventana más abajo. La LDN es el caso concreto. Su propuesto mecanismo TLR4/Nrf2 se encuentra en una ventana baja. Si un valor nulo se registra solo en el extremo superior del rango, la ventana baja nunca fue probada, y el valor nulo no indica si esa ventana funciona [@Loth2026website].
+La clave está en la disciplina de dosis: dónde se registra un valor nulo determina qué significa. Un valor nulo en el **último** extremo del rango de dosis de un medicamento no es una prueba del mecanismo del fármaco si ese mecanismo se encuentra en una ventana más abajo. La LDN es el caso concreto. Su propuesto mecanismo TLR4/Nrf2 se encuentra en una ventana baja. Si un valor nulo se registra solo en el extremo superior del rango, la ventana baja nunca fue probada, y el valor nulo no indica si esa ventana funciona [@Loth2026website].
 
 Esto no es una laguna, sino un principio. Bajo el principio de no propagación ([dosis más altas no contienen los beneficios de dosis más bajas](../concentration-not-presence/)), un valor nulo en el extremo superior de un rango no transmite información sobre una dosis en una ventana por debajo de él. Para un mecanismo cuyo beneficio es una respuesta a un compromiso parcial en una dosis baja, el extremo superior del rango es precisamente el lugar donde se espera que el beneficio haya desaparecido.
 

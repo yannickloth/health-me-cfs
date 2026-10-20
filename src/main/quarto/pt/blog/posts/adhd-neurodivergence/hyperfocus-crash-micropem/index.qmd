@@ -88,7 +88,7 @@ Os dados do ALSPAC apoiam isso: crianças com traços de PHDA aos 9 anos tinham 
 
 ## O que isso prediz
 
-Se a hipótese micro-PEM estiver correta, várias coisas devem ser medíveis:
+Se a hipótese micro-PEM estiver correta, várias coisas deveriam ser mensuráveis:
 
 1. **Lactato sanguíneo** deve estar elevado após esforço cognitivo sustentado na PHDA em comparação com os controlos
 2. **Tempo de recuperação cognitiva** deve escalar de forma não linear com a duração da sessão (não proporcionalmente)

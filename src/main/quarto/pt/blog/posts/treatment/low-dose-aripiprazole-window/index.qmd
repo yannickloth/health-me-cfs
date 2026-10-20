@@ -33,7 +33,7 @@ O receptor normalmente está imerso na dopamina do próprio corpo. O aripiprazol
 
 **Quando a dopamina está baixa**, o aripiprazol é um auxiliador líquido. O receptor está quase inativo; o aripiprazol se liga a ele e eleva-o para o seu limite de 25–30%. Em comparação com o nível base quase zero, isso é um *aumento*. O medicamento atua como um estimulante fraco, reabastecendo uma sinalização esgotada.
 
-**Quando a dopamina já está abundante**, o aripiprazol torna-se um bloqueador líquido. A dopamina poderia ativar o receptor até 100%, mas o aripiprazol ocupa o local e entrega apenas 25–30%. Ao substituir o sinal mais forte do corpo, o medicamento *diminui* a ativação líquida.
+**Quando a dopamina já está em abundância**, o aripiprazol torna-se um bloqueador líquido. A dopamina poderia ativar o receptor até 100%, mas o aripiprazol ocupa o local e entrega apenas 25–30%. Ao substituir o sinal mais forte do corpo, o medicamento *diminui* a ativação líquida.
 
 Portanto, uma molécula faz coisas opostas em diferentes contextos: aumenta o tom onde o tom está deficiente e diminui-o onde o tom está alto. Essa dependência do tom — a base da característica “estabilizador de dopamina” do aripiprazol — é intrínseca à sua farmacologia de agonista parcial [@Shapiro2003aripiprazole]. A dose determina qual contexto predomina — e é aí que surge a janela.
 

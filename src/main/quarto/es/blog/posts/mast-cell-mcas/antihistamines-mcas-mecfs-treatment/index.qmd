@@ -81,7 +81,7 @@ Los antihistamínicos bloquean las sustancias químicas después de su liberaci�
 
 ---
 
-## Los síntomas que los antihistamínicos podrían aliviar y los que no
+## Los síntomas que los antihistamínicos podrían tratar y los que no
 
 **Lo que podrían ayudar (si sus síntomas están causados por mastocitos):** enrojecimiento, picazón, urticaria, nariz tapada o que moquea, algunos dolores de cabeza, calambres intestinales y reflujo, y posiblemente algunos síntomas ortostáticos, porque la histamina y la prostaglandina D₂ actúan para dilatar los vasos sanguíneos y reducir la presión arterial [@Kohno2021potsmast]. En una cohorte de long-COVID/MCAS tratada con fexofenadina y famotidina, subgrupos de pacientes reportaron resolución de la fatiga, niebla cerebral y taquicardia — aunque el estudio no tuvo un grupo de control, por lo que no puede demostrar causa-efecto [@Salvucci2023antihistamineLongCOVID].
 

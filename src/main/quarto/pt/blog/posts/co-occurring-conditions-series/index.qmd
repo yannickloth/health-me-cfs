@@ -109,13 +109,13 @@ Leia os dois artigos em ordem:
 
 ---
 
-## Parte 9: Conjuntados — Tese de Síntese
+## Parte 9: Conectados Juntos — Síntese Final
 
 Como os amplificadores se tornam uma única doença — os ciclos de feedback que conectam todas as oito condições, o ratchet de amplificação que torna as doenças mais longas mais difíceis de tratar e a imperativa clínica do tratamento multi-alvo.
 
 Leia o artigo:
 
-1. **[Conjuntados: Como os Amplificadores Se Tornam uma Única Doença em EM/SFC](../synthesis/chained-together/index.qmd)** — o ciclo de inflamação vascular, o amplificador nervo-mastócito, o eixo histamina intestino-cérebro, a ponte EBV–mastócito–MMP-9–BBB, o ciclo autoimunidade–POTS–SFN, o ratchet de amplificação, tratamento multi-alvo e o que toda a série argumenta num só lugar.
+1. **[Conectados Juntos: Como os Amplificadores Se Tornam uma Única Doença em EM/SFC](../synthesis/chained-together/index.qmd)** — o ciclo de inflamação vascular, o amplificador nervo-mastócito, o eixo histamina intestino-cérebro, a ponte EBV–mastócito–MMP-9–BBB, o ciclo autoimunidade–POTS–SFN, o ratchet de amplificação, tratamento multi-alvo e o que toda a série argumenta num só lugar.
 
 ---
 

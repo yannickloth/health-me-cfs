@@ -7,7 +7,7 @@ categories: [Self-correction, Metascience, Research]
 lang: es
 ---
 
-La mayor parte de los textos de defensa presenta conclusiones. Esta breve serie hace lo contrario: muestra dónde nuestra interpretación fue incorrecta, cómo la detectamos y por qué una afirmación se basa en menos evidencia de lo que parece.
+La mayoría de los textos de promoción presenta conclusiones. Esta breve serie hace lo contrario: muestra dónde nuestra interpretación fue incorrecta, cómo la detectamos y por qué una afirmación se basa en menos evidencia de lo que parece.
 
 1. [Obtuvimos el resultado de milnacipran al revés — aquí está la corrección](../we-got-milnacipran-backwards/)
 2. [Un estudio único, afirmaciones grandiosas: por qué n=16 es importante](../single-study-big-claims/)

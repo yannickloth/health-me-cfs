@@ -124,7 +124,7 @@ Esta confusão continua. Pacientes com EM/SFC ainda são encaminhados para servi
 
 ---
 
-## O que mudaria se parássemos de usar uma única palavra
+## O que mudaria se parássemos de usar uma palavra
 
 Se os formulários de entrada clínica substituíssem "fadiga: sim/não" por um discriminador de quatro itens — fadiga periférica, fatigabilidade/PEM, sonolência, amotivação — o caminho de diagnóstico dividir-se-ia na primeira visita, em vez da quinta. O paciente com EM/SFC nunca receberia a prescrição de exercício. O paciente deprimido nunca receberia o protocolo de ritmo. O paciente burnout receberia o descanso de que necessita, em vez dos medicamentos que não precisa.
 
