@@ -128,3 +128,20 @@ chronic-cns-brain-inflammation cycle; those entries front-ran that cycle's commi
 and are not claimed here. Excluded on purpose: `tmp/` audit scratch, the other
 cycle's `Literature/neurological/*` and ch09/ch18/ch25/ch47 changes. No reset,
 rebase, amend or `git add -A` was used at any point.
+
+## Post-integration correction (2026-10-20, after user review)
+
+The user challenged the "depression-independent suicidality" premise: entrapment and hopelessness in severe disease plausibly produce depression even when it is undocumented. Review confirmed the challenge:
+
+- 39–57% report ideation and 7.1% of *all* patients report ideation without a diagnosis → roughly one in six ideators has no diagnosis; most ideation co-occurs with depression.
+- The 60% figure counts documented diagnoses, not ascertained depression.
+- The ADHD attenuation contrast comes from registers with structured diagnoses; the ME/CFS figure does not — so the apparent mediation inversion is partly an ascertainment artifact.
+
+Corrections applied (`fix(content): separate documented depression from depression, add demoralization mediator`):
+- ch06 prognosis and ch39 suicide subsection: "no depression diagnosis" → "no documented depression diagnosis"; the overclaim that suffering "not psychiatric comorbidity" drives suicide replaced with "not fully explained by diagnosed depression"; base-rate arithmetic added.
+- ch04 depression: new paragraph — reactive ≠ untreatable, scale contamination and under-recording, demoralization as the intermediate state.
+- ch23 mental-health bullet and ch28 mental-health-crisis section: reactive depression still treatable; demoralization risks named.
+- ch39 limitation and `@oq:adhd-impulsivity-channel`: three-way mediator structure (depression / demoralization / impulsivity) with a severity split; the mediation-inversion claim downgraded to a possible ascertainment difference; discriminating measurement now requires SCID/MINI + DS-II + an impulsivity measure.
+- Registry row for the open question updated to match.
+
+The integration's conclusion is unchanged; the supporting argument is now weaker and more honest.

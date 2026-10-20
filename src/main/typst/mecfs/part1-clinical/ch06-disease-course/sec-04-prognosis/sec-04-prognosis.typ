@@ -268,10 +268,14 @@ In contrast to all-cause mortality, suicide risk is consistently and substantial
     - Standardized mortality ratio for suicide: 6.85 (95% CI 2.22–15.98) in one registry study
     - Suicide accounts for 20–25% of deaths in memorial record studies
     - Mean age at suicide death: 39.3 years (versus 47.4 in general population)
-    - 60% of suicide victims had no depression diagnosis
-    - 7.1% of ME/CFS patients report suicidal ideation without clinical depression
+    - 60% of suicide victims had no *documented* depression diagnosis
+    - 7.1% of ME/CFS patients report suicidal ideation without a clinical depression diagnosis @Brown2020
 
-The elevated suicide risk in the absence of depression underscores that ME/CFS-specific suffering—not psychiatric comorbidity—drives suicide risk. This suffering includes:
+Absence of a recorded diagnosis is not proof of absence of depression. Patients often avoid psychiatric labels because the label is used to dismiss the illness, and standard depression scales count fatigue, sleep and concentration — core ME/CFS symptoms. The two figures must also be read together: if 39–57% of patients report ideation and 7.1% of all patients report ideation without diagnosed depression, then roughly one in six ideators has no depression diagnosis, and most ideation occurs alongside depression.
+
+The defensible conclusion is therefore that suicide risk is *not fully explained* by diagnosed depression, not that psychiatric comorbidity is irrelevant. The non-depressive share points to disease-driven suffering — unrelenting symptoms, entrapment, medical dismissal, loss of role and income — which can itself produce demoralization (helplessness and meaninglessness with the capacity for pleasure preserved) and, in turn, secondary depression. The paper formalizes one version of that route as the dismissal-to-suicidality pathway (@spec:dismissal-suicidality-pathway). Both depression and demoralization are treatable. "Reactive" describes where a depression came from; it does not say whether it should be treated.
+
+This suffering includes:
 
     - Severe, unrelenting physical symptoms
     - Loss of identity, relationships, and life purpose

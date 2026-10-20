@@ -23,11 +23,11 @@ Cross-sectional surveys reveal alarming rates of suicidal thoughts:
 Research has identified ME/CFS-specific suicide risk factors distinct from typical psychiatric risk factors @Brown2020:
     - *Severe functional limitations* (strongest predictor)
     - Use of “CFS” diagnostic label (associated with stigma — experimentally confirmed: CFS label generates more negative attributions than alternative names @Jason2002IllnessName) – 2.81$times$ increased risk
-    - Absence of comorbidities (paradoxically increases risk, possibly due to lack of medical legitimacy) – 3.48$times$ increased risk
+    - Absence of comorbidities (paradoxically increases risk, possibly due to lack of medical legitimacy; also consistent with under-detection of depression in patients who carry no psychiatric label) – 3.48$times$ increased risk
     - Lack of social support and financial resources
     - Hopelessness about prognosis and treatment availability
     - Stigma and gaslighting from healthcare providers, which independently predicts suicidal ideation after controlling for depression @McManimen2018UnsupportiveStigma @Johnson2022SuicideRiskStigma
-Notably, 60% of ME/CFS patients who died by suicide in the Roberts cohort had _no documented depression diagnosis_, suggesting that ME/CFS-specific suffering—not psychiatric comorbidity—drives suicide risk.
+Notably, 60% of ME/CFS patients who died by suicide in the Roberts cohort had _no documented depression diagnosis_ @Roberts2016. That figure is weaker than it appears: registry and memorial-record studies rarely apply structured diagnostic interviews, patients often avoid psychiatric labels because the label is used to dismiss the illness, and depression scales count core ME/CFS symptoms. The defensible inference is that suicide risk is not fully explained by diagnosed depression — most ideation still co-occurs with it — and that disease-driven suffering, including demoralization and entrapment, contributes independently. "Reactive" describes the origin of a depression; it does not make the depression untreatable.
 
 *Prospective post-viral evidence.*
 The only prospective effect estimate available comes from a post-viral population: among 63 survivors of Middle East respiratory syndrome followed for two years, participants meeting chronic-fatigue-syndrome criteria at baseline had a 7.5-fold higher rate of suicidality over follow-up (95% CI 2.4–23.1; adjusted RR 7.6) @Ahn2021MersCfsSuicidality. The cohort is small, the confidence interval wide, the CFS operationalization questionnaire-based, and the finding unreplicated—so it anchors, rather than establishes, the temporal direction from post-viral fatigue to suicidality.

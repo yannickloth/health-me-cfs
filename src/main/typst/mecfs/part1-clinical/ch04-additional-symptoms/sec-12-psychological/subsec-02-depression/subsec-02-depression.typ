@@ -14,6 +14,8 @@
 *Reactive vs. Primary Depression.*
 The majority of ME/CFS patients who experience depression develop it _after_ disease onset (78.1%), and 96% attribute it to disease severity rather than pre-existing psychiatric conditions. Depression in ME/CFS is typically reactive: a normal emotional response to severe, chronic illness and loss of function.
 
+*Reactive does not mean untreatable, and "no diagnosis" does not mean no depression.* A reactive depression is still depression and still responds to treatment; treating it does not concede that the illness is psychiatric. Two measurement problems complicate the distinction. Standard depression scales count fatigue, sleep change, concentration loss and appetite change — core ME/CFS symptoms — so scores can be inflated by the disease itself. In the other direction, patients often avoid psychiatric labels because the label has been used to dismiss their illness, and clinicians often attribute genuine depressive symptoms to "just ME/CFS," so depression is under-recorded. Between primary depression and ordinary low mood sits *demoralization* — helplessness, entrapment and loss of meaning, with the capacity for pleasure relatively preserved — which is common in severe chronic illness and is a recognised precursor of depression. The practical response is the same in all three cases: ask about mood and suicide risk directly, treat a depressive syndrome when it is present, and address the illness-driven suffering that sustains it.
+
 *Distinguishing Features.*
 
     - Depression correlates with disease severity and functional impairment

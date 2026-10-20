@@ -41,7 +41,7 @@ What appears insignificant in a healthy patient may represent the difference bet
 
     - *ADHD and cognitive dysfunction*: If stimulants or other ADHD medications improve function, they should be used — with three qualifications. Any stimulant trial needs objective activity monitoring and pacing protection, because stimulants mask the fatigue signal that enforces the energy envelope (@sec:stimulants). The mortality evidence around ADHD medication is observational only: in general-population ADHD cohorts, medication use is associated with lower all-cause mortality (HR 0.75, 0.64–0.87, from 3 of 19 studies, with confounding by indication acknowledged) and the cardiovascular harm signal is haemodynamic rather than mortality-based — neither direction can be transferred to ME/CFS (@sec:mortality; @lim:adhd-mortality-transfer-gap). Comorbid ADHD is itself a suicide-risk marker in CFS cohorts, so any stimulant decision should be paired with explicit suicide-risk assessment rather than treated as the whole intervention (@oq:adhd-impulsivity-channel)
 
-    - *Mental health comorbidities*: Depression and anxiety are both consequences of and contributors to ME/CFS disability. Aggressive treatment with appropriate medications and therapy is essential, not optional
+    - *Mental health comorbidities*: Depression and anxiety are both consequences of and contributors to ME/CFS disability. Aggressive treatment with appropriate medications and therapy is essential, not optional — including when the depression is reactive to the illness, since a reactive depression is still treatable and treating it does not concede that the illness is psychiatric
 
 ==== The Virtuous Cycle: Physical Improvements Enable Psychological Improvements
 
