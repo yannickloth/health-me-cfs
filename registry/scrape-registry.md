@@ -1514,3 +1514,14 @@ Prevents re-processing of already-integrated content.
 | https://pubmed.ncbi.nlm.nih.gov/29928276/ (Burton 2018, DOI 10.3389/fimmu.2018.01244) | pubmed + frontiersin.org (OA PDF) | 2026-10-19 | — | Literature/immune-dysfunction/Burton2018FcgammaRIIbTissueMast/ (PDF + abstract.txt), bib/mast-cell.bib (@Burton2018FcgammaRIIbTissueMast), appendix-h |
 | https://pubmed.ncbi.nlm.nih.gov/15017113/ (Tkaczyk 2004, DOI 10.1159/000077213) | pubmed (via biomcp get) | 2026-10-19 | — | bib/mast-cell.bib (@Tkaczyk2004FcgammaRMastReview), appendix-h, ch08 (rodent-translation caveat) |
 | https://api.unpaywall.org/v2/ (OA status) + https://www.ebi.ac.uk/europepmc/webservices/rest/search (PMC lookup) | unpaywall + europepmc | 2026-10-19 | — | PDF-availability verification (1 OA, 4 unavailable) |
+
+---
+
+## Beth Dobbin — Olympic Sprinter With Severe ME (beth-dobbin-olympian-me) — Known-People Addition
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| bbc.com (BBC Sport feature, Katie Falkingham) | 2026-10-20 | Full text fetched. Facts verified: GB 200 m at Tokyo 2020; Scottish at 2022 Commonwealths; ME onset after winter 2021–22 back-to-back COVID-19 + glandular fever (retrospective tests); 2026 → >22 h/day in bed, left house 5×; 4–5 specialists converged on ME; rejects "CFS" label; 22-month wait for self-sourced private specialist after British Athletics funding ended; sister Faye ran Yorkshire Marathon (Oct 2026) for ME Research UK; parents Jim + Jean. No independent medical documentation beyond the athlete's account (media-reported diagnosis). |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| https://www.bbc.com/sport/athletics/articles/crd6dj26v4e4o | bbc.com (BBC Sport) | 2026-10-20 | 2026-10-20 | appendix-d-resources.typ `<sec:patient-advocates>` (new "Athletes and Sportspersons" subsection) |
