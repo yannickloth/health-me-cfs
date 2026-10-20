@@ -7,6 +7,7 @@ Understanding mortality patterns in ME/CFS is essential for both clinical practi
 
 #include "./all-cause-mortality-evidence-f/all-cause-mortality-evidence-f.typ"
 #include "./cause-specific-mortality/cause-specific-mortality.typ"
+#include "./comparative-cause-profiles/comparative-cause-profiles.typ"
 #include "./actuarial-and-insurance-indust/actuarial-and-insurance-indust.typ"
 #include "./methodological-challenges-and/methodological-challenges-and.typ"
 #include "./summary-evidence-based-conclus/summary-evidence-based-conclus.typ"

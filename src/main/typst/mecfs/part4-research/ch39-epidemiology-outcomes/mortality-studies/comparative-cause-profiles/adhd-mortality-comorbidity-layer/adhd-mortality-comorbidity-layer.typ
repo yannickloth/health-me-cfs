@@ -1,0 +1,27 @@
+#import "../../../../../shared/environments.typ": *
+
+#speculation(title: [Comorbid ADHD as a Higher-Risk ME/CFS Subgroup])[
+*Certainty: 0.25.* Adult ME/CFS patients with comorbid ADHD showed higher suicide-risk markers than patients without ADHD, unadjusted, in one small cross-sectional cohort (n = 158, single tertiary sample): 20.9% had persistent adult ADHD and 29.7% childhood ADHD, and the comorbid group had earlier illness onset, more anxiety and depression, and higher suicide risk @SaezFrancas2012adhdcfs. The claim here is a *stratification* claim, not a causal one: ADHD status may mark a higher-risk subgroup, whether or not ADHD itself is the operative cause. General-population ADHD cohorts separately show an excess concentrated in suicide and unintentional injury @Corrigan2026ADHDmortality @Dalsgaard2015ADHDmortality.
+
+(Evaluation source: one cross-sectional ME/CFS cohort plus general-population registers. Inference target: mortality in ME/CFS. Link is indirect — no mortality follow-up exists for any ME/CFS-ADHD cohort. Severity applicability: unknown — the cohort was not stratified by severity and the registers do not report ME/CFS status. Evidence type: general-population observational plus one cross-sectional ME/CFS study. Not yet replicated in ME/CFS.)
+
+*Falsifiable prediction:* in a severity-stratified ME/CFS cohort, patients with comorbid ADHD show higher suicide-risk markers and higher unnatural-cause mortality than patients without ADHD, after adjustment for age, sex and illness severity. The marker claim is refuted if ADHD status adds no risk information once those baseline variables are included. Whether any excess is *causally* attributable to ADHD or mediated by depression is a separate question, tested by adding depression to the model.
+
+*Consequence:* if confirmed, ADHD status would join the short list of intake flags that prompt a suicide-risk review — a cheap addition to comorbidity assessment, not a new treatment.
+] <spec:adhd-mortality-comorbid-layer>
+
+#limitation(title: [No Mortality Data for ME/CFS With Comorbid ADHD])[
+The subgroup claim rests on an evidence transfer, not on measurement in the target population. Five boundaries apply.
+
+*No mortality endpoint in ME/CFS.* Every mortality estimate cited here comes from general-population ADHD cohorts. No study reports cause-specific mortality for ME/CFS patients with ADHD, and no ME/CFS cohort has been followed to death with ADHD status recorded. The ME/CFS comorbidity evidence is cross-sectional and suicide-risk-based @SaezFrancas2012adhdcfs.
+
+*Confounding is unresolved in the source literature either.* Psychiatric comorbidity and adolescent substance use attenuate much of the ADHD suicide and natural-cause excess @Sun2019prematuredeath @Mustonen2023mortality. The unintentional-injury component survives adjustment in the Swedish register (HR 2.14, 1.71–2.68) but remains exposed to socioeconomic confounding, and it is one register. ME/CFS cohorts carry additional confounders — diagnostic delay, medical dismissal, severe functional limitation — that no ADHD study adjusts for.
+
+*This framing is in tension with the paper's own suicide data.* The ME/CFS suicide section reports that 60% of patients who died by suicide had no documented depression diagnosis, which argues *against* a psychiatric-comorbidity explanation in this disease @Roberts2016. Importing the ADHD confounding frame does not resolve that tension, and nothing here should be read as endorsing depression as the explanation for ME/CFS suicide.
+
+*The medication association does not transfer, for prudential rather than proven reasons.* The driving meta-analysis reports lower all-cause mortality among people taking ADHD medication (HR 0.75, 0.64–0.87), from 3 of 19 included studies and pooled across drug classes — it is not a stimulant-specific estimate @Corrigan2026ADHDmortality. Replication spans Swedish, Canadian and US veterans cohorts, and the veterans analysis compared medicated with unmedicated months within the same individuals, which reduces but does not remove indication bias @Li2024ADHDpharmmortality @Vasiliadis2024mortality @Rice2024stimulantsuicide. The cohort studies draw on overlapping national register infrastructures, not necessarily overlapping individuals. The harm arm is haemodynamic — small blood-pressure and pulse increases, with no long-term mortality endpoint in either direction @Farhat2025CVsafety @Hennissen2017CVmeta. The reason not to transfer the benefit is that the fatigue-masking and energy-envelope concern about stimulants in ME/CFS is itself inferred from short-term symptom trials, not demonstrated; neither direction is settled.
+
+*The dominant ADHD cause may be unreachable in severe disease.* The largest component of the ADHD excess is unintentional injury, with accidents the leading contributor @Corrigan2026ADHDmortality @Dalsgaard2015ADHDmortality. Those depend on exposure — driving, workplace, risky activity — that housebound and very-severe patients largely lack. For that subgroup only the suicide channel plausibly transfers, which narrows the comparison further.
+
+*Consequence:* the honest reading is that comorbid ADHD adds a plausible risk marker to ME/CFS care, while the stimulant-mortality question stays open — clinicians should not cite either direction as settled.
+] <lim:adhd-mortality-transfer-gap>
