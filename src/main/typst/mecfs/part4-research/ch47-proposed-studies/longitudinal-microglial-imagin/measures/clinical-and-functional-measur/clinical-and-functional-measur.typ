@@ -6,5 +6,5 @@
     - DSQ-PEM
     - Cognitive assessment (Montreal Cognitive Assessment)
     - Autonomic testing (NASA Lean Test, HRV)
-    - Inflammatory markers (high-sensitivity CRP, cytokine panel)
-
+    - 7-day accelerometry: steps, sedentary time, and activity counts
+    - Fluid biomarkers: see Fluid Biomarkers below

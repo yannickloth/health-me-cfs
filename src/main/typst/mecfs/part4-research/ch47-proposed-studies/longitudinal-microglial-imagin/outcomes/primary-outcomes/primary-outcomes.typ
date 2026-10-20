@@ -2,7 +2,6 @@
 
 ==== Primary Outcomes
 
-    - Correlation between TSPO-PET signal intensity at baseline and PEM recovery time at 12 months
-    - Differences in baseline TSPO-PET signal between progressive and stable PEM groups
-    - Change in TSPO-PET signal from baseline to 12 months as a function of PEM trajectory
-
+    - Correlation between baseline TSPO-PET binding and PEM recovery time at 12 months
+    - Change in TSPO-PET binding from baseline to 12 months as a function of PEM trajectory
+    - Persistence: in participants whose peripheral inflammatory markers normalise, whether TSPO binding remains elevated

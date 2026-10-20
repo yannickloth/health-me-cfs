@@ -3,6 +3,6 @@
 === Measures
 
 #include "./tspo-pet-imaging/tspo-pet-imaging.typ"
+#include "./fluid-biomarkers/fluid-biomarkers.typ"
 #include "./pem-documentation/pem-documentation.typ"
 #include "./clinical-and-functional-measur/clinical-and-functional-measur.typ"
-

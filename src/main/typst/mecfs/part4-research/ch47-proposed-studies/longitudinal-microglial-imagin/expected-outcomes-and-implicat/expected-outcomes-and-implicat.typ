@@ -3,16 +3,12 @@
 === Expected Outcomes and Implications
 
 If correlations are significant:
-    - Establishes TSPO-PET as biomarker for neuroinflammation severity in ME/CFS
-    - Validates use of TSPO-PET as clinical trial outcome measure
-    - Informs mechanism of LDN efficacy (microglial suppression)
-    - Identifies patients at high risk for PEM progression
+    - Would support TSPO-PET as a candidate stratifier for neuroinflammation severity in ME/CFS
+    - Would justify a larger genotype-stratified trial of TSPO-PET as an outcome measure
+    - Would not establish microglial causation, because TSPO is not a cell-specific marker
+    - Would inform, but not test, the hypothesis that microglial suppression mediates treatment response
 If results are null:
-    - Suggests microglial activation is not primary driver of PEM progression
-    - Redirects focus toward other neuroinflammatory mechanisms
-    - May indicate TSPO is insufficient marker (astrocytic activation, other glia)
-// ============================================================================
-// SECTION: Treatment Sequence RCT (Brain First)
-// ============================================================================
-
-
+    - Would argue against a microglial driver of PEM progression
+    - Would not exclude a primed or kindled state, which a resting scan cannot detect
+    - Would not exclude a focal signal diluted by whole-brain or ROI averaging
+    - Would redirect focus toward astrocytic, vascular, or metabolic mechanisms
