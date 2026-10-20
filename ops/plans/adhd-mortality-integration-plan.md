@@ -113,3 +113,18 @@ Corrigan LE, Shelford H, Stott J, John A. *Mortality Among People With Attention
 | 12 | RAN | plan record above |
 | 12.5 | RAN | this ledger |
 | 13 | RAN | commit hash recorded below |
+
+## Phase 13 — Commit record
+
+- `577e174c` docs(literature): file ADHD-mortality source set (13 papers, 3 full-text PDFs)
+- `4b7177de` content(ch39,ch23): add an ADHD mortality comparator and ADHD comorbidity questions
+- `20c11a39` docs(bib): add 13 ADHD-mortality entries and appendix H annotations
+- `11edede4` docs(registry): add ADHD-mortality hypothesis rows, glossary terms, scrape rows
+- `46773dde` docs(ops): record the adhd-mortality integration plan, tree, search log and brainstorm
+
+Shared-file note: appendix H, the hypothesis registry, the glossary and the scrape
+registry also carried uncommitted entries from the concurrent
+chronic-cns-brain-inflammation cycle; those entries front-ran that cycle's commit
+and are not claimed here. Excluded on purpose: `tmp/` audit scratch, the other
+cycle's `Literature/neurological/*` and ch09/ch18/ch25/ch47 changes. No reset,
+rebase, amend or `git add -A` was used at any point.
