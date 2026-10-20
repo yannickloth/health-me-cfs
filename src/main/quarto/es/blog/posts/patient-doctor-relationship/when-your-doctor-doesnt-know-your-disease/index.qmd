@@ -35,7 +35,7 @@ Esto no es arrogancia. Tu médico pasó su formación en diez mil enfermedades y
 
 Pero aquí está la segunda parte, igualmente cierta y igualmente incómoda: **conocer la literatura no significa conocer la medicina.** Conoces una enfermedad en profundidad. Tu médico sabe cómo comparar una enfermedad con las otras noventa que producen síntomas similares, cómo detectar el signo de alerta que se esconde detrás de una narrativa plausible y cómo leer las limitaciones de un artículo de un vistazo. Un paciente que autodiagnostica el síndrome de activación de mastocitos puede estar correcto. Otro paciente puede tener un linfoma que produzca los mismos síntomas. La cautela del médico no es estupidez — es su trabajo.
 
-Ambas afirmaciones son ciertas al mismo tiempo. Cada consulta fallida fracasa porque al menos una persona en la sala actúa como si solo una de ellas estuviera allí.
+Ambas afirmaciones son ciertas al mismo tiempo. Cada consulta fallida fracasa porque al menos una persona en la sala actúa como si solo una de ellas fuera cierta.
 
 En la literatura ética existe un término para lo que ocurre cuando se ignora la primera parte: injusticia de testimonio — el informe del paciente se descarta por quién habla, no por lo que se dice [@Byrne2021EpistemicInjustice]. La dinámica paciente-investigación añade un segundo modo de fallo: el médico descarta no solo tu *informe de síntomas*, sino también tu *análisis*, y compara tu conocimiento con "Dr. Google" — simulación, ansiedad por la salud, el paciente difícil.
 
@@ -88,7 +88,7 @@ Tus datos son tuyos; nadie puede disputarlos. Tu diagnóstico es una hipótesis;
 
 ### 3. Pregunta, no afirma
 
-Convierte cada afirmación en una pregunta a la que el médico esté capacado para responder. Bowes y otros encontraron que a los pacientes les gusta más que el médico ayude a decidir qué información les aplica [@Bowes2012InternetInfo] — así, asignales ese rol exactamente:
+Convierte cada afirmación en una pregunta a la que el médico esté capacitado para responder. Bowes y otros encontraron que lo que más querían los pacientes era que el médico ayudara a juzgar qué información les aplicaba [@Bowes2012InternetInfo] — así, asignales ese rol exactamente:
 
 - "¿Esto aplica a alguien con mi historial?"
 - "¿Qué tendría que ser cierto para que esto sea relevante, y podemos probarlo?"
@@ -98,7 +98,7 @@ Cada pregunta hace tres cosas al mismo tiempo: entrega tu información, le da al
 
 ### 4. Un tema por visita
 
-Tienes años de acumulación. El médico tiene doce minutos. Una lista de cinco hipótesis garantiza que ninguna obtenga una respuesta real y la visita termina abrumada. Elige la única pregunta con el mejor ratio esfuerzo-beneficio y escribe el resto por escrito para constancia — "Dejaré un resumen breve de otras cosas que me gustaría trabajar en en futuras consultas."
+Tienes años de acumulación. El médico tiene doce minutos. Una lista de cinco hipótesis garantiza que ninguna obtenga una respuesta real y la visita termina abrumada. Elige la única pregunta con el mejor ratio esfuerzo-beneficio y escribe el resto por escrito para constancia — "Dejaré un resumen breve de otras cosas que me gustaría trabajar en futuras consultas."
 
 ### 5. Pide la decisión, no el acuerdo
 

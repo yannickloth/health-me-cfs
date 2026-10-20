@@ -7,7 +7,7 @@ categories: [Patient Care, Doctor-Patient Relationship, ME/CFS]
 lang: pt
 ---
 
-A consulta dura doze minutos. Você se preparou para isso há três semanas. Você tem uma cópia impressa — doze páginas, com anotações. Quarenta e cinco segundos antes, você diz a palavra “TRPM3”. Você observa o rosto do médico mudar. Não para interesse. Para algo mais frio.
+A consulta dura doze minutos. Você se preparou para isso há três semanas. Você tem uma cópia impressa — doze páginas, com anotações. Passados quarenta e cinco segundos, você diz a palavra “TRPM3”. Você observa o rosto do médico mudar. Não para interesse. Para algo mais frio.
 
 A consulta termina com um encaminhamento para um psiquiatra. Você sai com sua cópia impressa, sua raiva e um médico a menos disposto a atendê-lo.
 
@@ -35,7 +35,7 @@ Isso não é arrogância. Seu médico passou sua formação em dez mil doenças 
 
 Mas há a segunda metade, igualmente verdadeira e igualmente desconfortável: **conhecer a literatura não significa conhecer a medicina.** Você conhece uma doença em profundidade. Seu médico sabe como comparar uma doença com as outras noventa que produzem sintomas semelhantes, como identificar o sinal de alerta escondido atrás de uma narrativa plausível e como ler as limitações de um artigo de relance. Um paciente que auto-diagnostica síndrome de ativação de mastócitos pode estar correto. Outro paciente pode ter linfoma que produza os mesmos sintomas de arrepiamento. A cautela do médico não é estupidez — é o seu trabalho.
 
-Ambas as afirmações são verdadeiras ao mesmo tempo. Toda consulta fracassada fracassa porque pelo menos uma pessoa na sala age como se apenas uma delas estivesse lá.
+Ambas as afirmações são verdadeiras ao mesmo tempo. Toda consulta fracassada fracassa porque pelo menos uma pessoa na sala age como se apenas uma delas fosse verdadeira.
 
 Existe um nome na literatura de ética para o que acontece quando a primeira metade é ignorada: injustiça de testemunho — o relatório do paciente é desconsiderado por quem fala, não pelo que é dito [@Byrne2021EpistemicInjustice]. A dinâmica paciente-pesquisa adiciona um segundo modo de fracasso: o médico desconsidera não apenas o seu *relato de sintomas* mas também a sua *análise*, e compara o seu conhecimento com o de "Dr. Google" — simulação, ansiedade de saúde, o paciente difícil.
 
@@ -133,7 +133,7 @@ Se precisar mudar de médico, faça isso em ordem: garanta primeiro o novo, depo
 
 ## O que isso lhe traz, numa frase
 
-Um médico que concorda com você — um médico que continua a vê-lo, continua a documentar sua doença como real, continua a encaminhá-lo e *está na sala, ainda ouvindo* no dia em que algo verdadeiramente tratável ou verdadeiramente urgente aparece.
+Não um médico que concorda com você — um médico que continua a vê-lo, continua a documentar sua doença como real, continua a encaminhá-lo e *está na sala, ainda ouvindo* no dia em que algo verdadeiramente tratável ou verdadeiramente urgente aparece.
 
 Isso é o que significa vencer numa doença sem cura.
 

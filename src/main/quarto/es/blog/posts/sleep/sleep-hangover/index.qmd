@@ -125,7 +125,7 @@ El sistema glifático no está siempre activo; opera preferentemente durante el 
 
 **Melatonina en baja dosis (0,3–0,5 mg).** La melatonina en baja dosis apoya la alineación circadiana en lugar de la sedación. Las dosis suprapisiológicas pueden tener efectos diferentes, pero la curva dosis-respuesta en EM/SFC es desconocida. El efecto en la función glifática nunca ha sido estudiado. Cualquier beneficio se obtendría a través de la alineación circadiana en lugar de la modulación directa del aclaramiento glifático.
 
-**Restricción de luz por la noche.** Apagar las luces y usar gafas de tono ámbar o filtros de luz azul en las pantallas 2 horas antes de acostarse evita la supresión de la melatonina, lo que retrasaría el inicio del sueño y desplazaría la ventana para el sueño de ondas lentas más tarde en la noche.
+**Restricción de luz por la noche.** Atenuar las luces y usar gafas de tono ámbar o filtros de luz azul en las pantallas 2 horas antes de acostarse evita la supresión de la melatonina, lo que retrasaría el inicio del sueño y desplazaría la ventana para el sueño de ondas lentas más tarde en la noche.
 
 ### Gestión de síntomas downstream: Reducir la carga
 

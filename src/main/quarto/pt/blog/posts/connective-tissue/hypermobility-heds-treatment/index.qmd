@@ -24,7 +24,7 @@ Este artigo explica a arquitetura de tratamento. Para o contexto conceitual — 
 | Categoria | Alvo do tratamento | Força da evidência |
 |----------|-------------------|-------------------|
 | Mecânico | Suporte estrutural, proteção de articulações, reversão do descondicionamento, estabilização de CCI | Moderado (fisioterapia) a baixo (cirurgia CCI) |
-| Nutricional | Crosslinking de colágeno (timing de vitamina C, α-KG), precursores da síntese de colágeno (glicina, prolina), cofatores LOX (cobre, B6) | Teórico (mecânico plausível; sem ensaios EM/SFC) |
+| Nutricional | ligações cruzadas de colágeno (temporização da vitamina C, α-KG), precursores da síntese de colágeno (glicina, prolina), cofactores LOX (cobre, B6) | Teórico (mecânico plausível; sem ensaios em EM/SFC) |
 | Farmacológico / experimental | Inibição de MMP-9 (doxiciclina), modulação do ECM de mastócitos (tVNS), correção da isoforma HIF-1α, bloqueio de TGF-β1 | Muito baixo a experimental |
 
 ---

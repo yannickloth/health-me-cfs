@@ -118,7 +118,7 @@ Três regras universais antes de qualquer protocolo:
 | Tipo de ensaio | Não é de identificação de dose, mas **de-challenge/re-challenge**: retirada de um único componente × 2 semanas com pontuação de sintomas, depois restauração. Estabelece a contribuição de cada componente | C |
 | Nota de dose | Os anti-histamínicos apresentam comportamento em forma de U invertida na farmacopeia (sedação H1/carga anticolinérgica em doses altas); se houver aumento da dose, mantenha as faixas da farmacopeia abertas | C |
 | Resultado principal | O sintoma que justificou o componente originalmente (por exemplo, sintomas reativos, respostas alimentares) | C |
-| Condições de parada | Retorno de sintomas no de-challenge → componente confirmado como responsável; sem mudança → candidato para discussão de desregulamentação | C |
+| Condições de parada | Retorno de sintomas no de-challenge → componente confirmado como responsável; sem mudança → candidato para discussão de desprescrição | C |
 
 **Por que incluir uma pilha funcional:** um artigo de identificação de dose que aborda apenas falhas ensina a lição errada. Confirmar que um componente funcional é responsável — de forma barata, um componente por vez — é informação sobre a dose, e protege contra interrupções acidentais durante outros ensaios.
 

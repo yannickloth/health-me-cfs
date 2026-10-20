@@ -153,13 +153,13 @@ A diferencia del modafinilo y la duloxetina, que aumentan el tono de catecolamin
 
 ### Guanfacina
 
-La forma invertida-U de la guanfacina está integrada en la relación entre el agonismo α2A postsinaptico (terapéutico) y presinaptico (sedante).
+La forma invertida-U de la guanfacina está integrada en la relación entre el agonismo α2A postsináptico (terapéutico) y presináptico (sedante).
 
 | Dosis | Mecanismo | Interpretación |
 |------|-----------|----------------|
-| 0,5–1,0 mg | Agonismo α2A postsinaptico domina | **Si funciona:** Mejora la memoria de trabajo, la concentración y la regulación emocional. Los efectos postsinapticos dominan a dosis terapéuticas. **Si no funciona:** Sedación sin mejora cognitiva → agonismo α2A presinaptico domina incluso a bajos niveles; la guanfacina probablemente es la droga incorrecta. **Efectos secundarios:** Sedación, boca seca, hipotensión. |
-| 1,0–2,0 mg | Agonismo α2A postsinaptico + efectos emergentes presinapticos | **Si funciona:** Beneficio cognitivo sostenido → amplia reserva de α2A. Las ventanas correlacionadas con el modafinilo apoyan la coherencia del clúster de catecolaminas (sobreposición del circuito con el efecto mediado por D1 del modafinilo). **Si no funciona:** Embotamiento cognitivo sin ganancia terapéutica → la inhibición presinaptica ha superado el beneficio postsinaptico. **Efectos secundarios:** Sedación, bradicardia, hipotensión. |
-| >2 mg | Sedación presinaptica domina | **Si funciona:** No se espera ganancia terapéutica adicional. **Si no funciona:** Es esperado — todos los efectos terapéuticos de α2A han pasado el óptimo. **Efectos secundarios:** Sedación pronunciada, bradicardia, hipotensión. |
+| 0,5–1,0 mg | Agonismo α2A postsináptico domina | **Si funciona:** Mejora la memoria de trabajo, la concentración y la regulación emocional. Los efectos postsinápticos dominan a dosis terapéuticas. **Si no funciona:** Sedación sin mejora cognitiva → agonismo α2A presináptico domina incluso a bajos niveles; la guanfacina probablemente es la droga incorrecta. **Efectos secundarios:** Sedación, boca seca, hipotensión. |
+| 1,0–2,0 mg | Agonismo α2A postsináptico + efectos emergentes presinápticos | **Si funciona:** Beneficio cognitivo sostenido → amplia reserva de α2A. Las ventanas correlacionadas con el modafinilo apoyan la coherencia del clúster de catecolaminas (sobreposición del circuito con el efecto mediado por D1 del modafinilo). **Si no funciona:** Embotamiento cognitivo sin ganancia terapéutica → la inhibición presináptica ha superado el beneficio postsináptico. **Efectos secundarios:** Sedación, bradicardia, hipotensión. |
+| >2 mg | Sedación por α2A presináptico domina | **Si funciona:** No se espera ganancia terapéutica adicional. **Si no funciona:** Es esperado — todos los efectos terapéuticos de α2A han pasado el óptimo. **Efectos secundarios:** Sedación pronunciada, bradicardia, hipotensión. |
 
 ### Gabapentinoides
 

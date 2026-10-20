@@ -1,6 +1,6 @@
 ---
 title: "O Silencioso, O Difícil, O Ausente: Quais são os Custos da Socialização na EM/SFC"
-description: "Ela é a mais silenciosa do grupo. Às vezes, não é apenas silenciosa — é perspicaz, crítica e negativa. As pessoas percebem primeiro o silêncio, depois a ausência de expressão, e então o tom de voz. Eles interpretam o silêncio como desengajamento, a crítica como hostilidade e o afastamento como rejeição. Eles estão errados em todos os aspectos..."
+description: "Ela é a mais silenciosa do grupo. Às vezes, não é apenas silenciosa — é cortante, crítica e negativa. As pessoas percebem primeiro o silêncio, depois a ausência de expressão, e então o tom de voz. Eles interpretam o silêncio como desengajamento, a crítica como hostilidade e o afastamento como rejeição. Eles estão errados em todos os aspectos..."
 author: "Yannick Loth"
 date: "2026-08-08"
 categories: [Social Impact, Energy Metabolism, Neurocognitive]
@@ -9,7 +9,7 @@ lang: pt
 
 Ela é a mais silenciosa do grupo. A que se senta um pouco à parte, sem interromper, sem acompanhar a energia do ambiente. Sem forma. Apenas presente.
 
-Às vezes, ela não é apenas silenciosa — é perspicaz. Crítica. Negativa. Reage a pequenos detalhes. Aponta o que está errado em vez do que está certo. As pessoas percebem primeiro o silêncio, depois a ausência de energia, e então a tensão. Interpretam o silêncio como desengajamento. A crítica como hostilidade. O afastamento como rejeição.
+Às vezes, ela não é apenas silenciosa — é cortante. Crítica. Negativa. Reage a pequenos detalhes. Aponta o que está errado em vez do que está certo. As pessoas percebem primeiro o silêncio, depois a ausência de energia, e então a tensão. Interpretam o silêncio como desengajamento. A crítica como hostilidade. O afastamento como rejeição.
 
 Eles estão errados em todos os aspectos. Essa aparente ausência ou frieza é biológica, não pessoal. A pessoa com EM/SFC está a alocar recursos metabólicos escassos para manter a consciência. O cérebro, operando quase vazio, acaba por adotar o modo mais antigo e mais eficiente em termos de energia: deteção de ameaças. Tudo o resto — conversas, animação, reciprocidade, generosidade de interpretação, até mesmo calor básico — é um luxo que o orçamento energético não pode pagar.
 

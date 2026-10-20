@@ -1,6 +1,6 @@
 ---
 title: "La tranquila, la difícil, la ausente: Cuánto cuesta la socialización en EM/SFC"
-description: "Ella es la más tranquila del grupo. A veces no es solo tranquila: es perspicaz, crítica y negativa. La gente nota primero el silencio, luego la falta de expresión y, finalmente, el tono. Interpretan la tranquilidad como desinterés, la crítica como hostilidad y la retirada como rechazo. Se equivocan en todo..."
+description: "Ella es la más tranquila del grupo. A veces no es solo tranquila: es cortante, crítica y negativa. La gente nota primero el silencio, luego la falta de expresión y, finalmente, el tono. Interpretan la tranquilidad como desinterés, la crítica como hostilidad y la retirada como rechazo. Se equivocan en todo..."
 author: "Yannick Loth"
 date: "2026-08-08"
 categories: [Social Impact, Energy Metabolism, Neurocognitive]
@@ -9,7 +9,7 @@ lang: es
 
 Ella es la más tranquila del grupo. La que se sienta un poco apartada, que no interrumpe, que no sigue la energía del ambiente. Invisible. Apenas visible.
 
-A veces no es solo tranquila, es perspicaz. Crítica. Negativa. Reacciona de forma brusca ante cosas insignificantes. Señala lo que está mal en lugar de lo que está bien. La gente nota primero el silencio, luego la ausencia de energía y, finalmente, el tono. Interpretan el silencio como desinterés. La crítica como hostilidad. La retirada como rechazo.
+A veces no es solo tranquila, es cortante. Crítica. Negativa. Reacciona de forma brusca ante cosas insignificantes. Señala lo que está mal en lugar de lo que está bien. La gente nota primero el silencio, luego la ausencia de energía y, finalmente, el tono. Interpretan el silencio como desinterés. La crítica como hostilidad. La retirada como rechazo.
 
 Se equivocan en todo. Esta aparente ausencia o frialdad es parte de la biología, no de la personalidad. La persona con EM/SFC está asignando escasos recursos metabólicos para mantenerse consciente. El cerebro, al estar casi vacío, opta por su modo más antiguo y más eficiente en términos de energía: detección de amenazas. Todo lo demás — bromas, animación, reciprocidad, generosidad en la interpretación, incluso el calor básico — es un lujo que el presupuesto de energía no puede permitirse.
 

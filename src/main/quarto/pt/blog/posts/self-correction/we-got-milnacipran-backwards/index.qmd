@@ -11,7 +11,7 @@ Uma pequena confissão, porque isso é mais importante do que o facto em si.
 
 Escrevemos que o milnacipran — um SNRI usado na fibromialgia — “não reduziu o lactato ventricular”, e usamos isso para argumentar que o benefício do medicamento deve ser não metabólico. Então, na verdade, lemos o resumo.
 
-O estudo encontrou o oposto. O milnacipran **reduziu** o lactato ventricular em comparação tanto com o estado basal como com o placebo (F118 = 8,18, P = .01), e os pacientes que melhoraram na dor tinham maior probabilidade de também reduzir o lactato (@Natelson2015milnacipran).
+O estudo encontrou o oposto. O milnacipran **reduziu** o lactato ventricular em comparação tanto com o estado basal como com o placebo (F(1,18) = 8,18, P = .01), e os pacientes que melhoraram na dor tinham maior probabilidade de também reduzir o lactato (@Natelson2015milnacipran).
 
 **Por que isso aconteceu.** No início de um projeto longo, um resumo foi inferido a partir do *título* de uma citação, e não do resumo. Esse é exatamente o modo de falha que um pipeline rigoroso deve detectar — e, neste caso, foi necessária uma leitura deliberada para identificá-lo.
 

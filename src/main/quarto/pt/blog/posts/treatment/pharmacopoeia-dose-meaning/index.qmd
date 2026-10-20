@@ -102,7 +102,7 @@ A LDA atua em três níveis, todos abaixo de 2 mg: microglia D2/D3 (≤1 mg, ele
 
 | Dose | Mecanismo | Interpretação |
 |------|-----------|----------------|
-| 0,2–0,5 mg | Agonismo parcial microglial D2/D3 | **Se funciona:** Recetores D2/D3 microgliais altamente sensíveis. A ativação microglial D2/D3 provavelmente é limitante. **Se não funciona:** Problema de dose, não um problema de D2 — intensifique, não conclua que o D2 não está envolvido. **Efeitos colaterais:** Akatisia/insônia → paradoxalmente: envolvimento dos autoreceptores presináptica, dip na dopamina temporária antes que o agonismo pós-sináptico assuma o controle. |
+| 0,2–0,5 mg | Agonismo parcial microglial D2/D3 | **Se funciona:** Recetores D2 microgliais altamente sensíveis. A ativação microglial D2/D3 provavelmente é limitante. **Se não funciona:** Problema de dose, não um problema de D2 — intensifique, não conclua que o D2 não está envolvido. **Efeitos colaterais:** Akatisia/insônia → paradoxalmente: envolvimento dos autoreceptores presináptica, dip na dopamina temporária antes que o agonismo pós-sináptico assuma o controle. |
 | 0,5–1,0 mg | Agonismo sustentado microglial D2/D3, mesocorticolimbic D2/D3 começa | **Se funciona:** A inflamação impulsionada por microglia é dominante; benefício cognitivo está a surgir. **Se não funciona:** O benefício é perdido após 1,0 mg → reserva de recetores D2 restrita. **Efeitos colaterais:** Insônia, ativação. |
 | 1,0–2,0 mg | Mesocorticolimbic D2/D3 + 5-HT1A autoreceptores | **Se funciona:** Reserva ampla de D2. O sistema de dopamina é improvavelmente limitante. A estabilização serotoninérgica contribui. **Se não funciona:** Reserva de D2 moderada — a janela de benefício é limitada pela dose. **Efeitos colaterais:** Sedação, início da ganho de peso. |
 | >2 mg | Perfil antipsicótico padrão (5-HT2A, H1, α1) domina; agonismo parcial D2 é extinto | **Se funciona:** Sem razão terapêutica. **Se não funciona:** Esperado — todos os mecanismos de baixa dose são extintos. **Efeitos colaterais:** Akatisia, sedação, ganho de peso, efeitos metabólicos. A janela da LDA fecha. |
@@ -117,7 +117,7 @@ O invertido-U é a curva operacional nativa dos circuitos D1 e α2A no córtex p
 
 ### Modafinilo
 
-O modafinilo bloqueia DAT e NET, elevando a dopamina sinaptica e a noradrenalina.
+O modafinilo bloqueia DAT e NET, elevando a dopamina sináptica e a noradrenalina.
 
 | Dose | Mecanismo | Interpretação |
 |------|-----------|----------------|
@@ -147,19 +147,19 @@ Ao contrário do modafinilo e da duloxetina, que aumentam o tono de catecolamina
 
 | Dose | Mecanismo | Interpretação |
 |------|-----------|----------------|
-| Propranolol 5–10 mg ou Atenolol 12,5–25 mg | Bloqueio periférico dos α2A periféricos | **Se funciona:** Taquicardia ortostática controlada sem embotamento cognitivo → excesso simpático periférico com tono central intacto. **Se não funciona:** A contribuição dos α2A periféricos pode ser mínima — não é um problema autonómico. **Efeitos colaterais:** Mínimos nestas doses. |
-| Propranolol 10–20 mg | Modulação periférica + central dos α2A | **Se funciona:** Melhoria cognitiva com controle ortostático → modulação central dos α2A movendo o tono para o pico; o tono basal era excessivo. **Se não funciona:** Embotamento cognitivo em qualquer dose → o tono basal é baixo, não alto; a betabloqueação o move ainda mais para a esquerda. **Efeitos colaterais:** Fadiga, névoa cerebral, bradicárdia. |
-| Propranolol >20 mg | Bloqueio central não seletivo dos α2A | **Se funciona:** Controle ortostático sustentado sem custo cognitivo → reserva ampla de catecolaminas. **Se não funciona:** Embotamento cognitivo esperado. Combinar com guanfacina ou clonidina é contraproducente — o sistema precisa de mais tono de catecolaminas, não menos. **Efeitos colaterais:** Embotamento cognitivo, fadiga, depressão, bradicárdia. |
+| Propranolol 5–10 mg ou Atenolol 12,5–25 mg | Bloqueio periférico dos recetores β-AR | **Se funciona:** Taquicardia ortostática controlada sem embotamento cognitivo → excesso simpático periférico com tono central intacto. **Se não funciona:** A contribuição dos recetores β-AR periféricos pode ser mínima — não é um problema autonómico. **Efeitos colaterais:** Mínimos nestas doses. |
+| Propranolol 10–20 mg | Modulação periférica + central dos recetores β-AR | **Se funciona:** Melhoria cognitiva com controle ortostático → modulação central dos recetores β-AR movendo o tono para o pico; o tono basal era excessivo. **Se não funciona:** Embotamento cognitivo em qualquer dose → o tono basal é baixo, não alto; a betabloqueação o move ainda mais para a esquerda. **Efeitos colaterais:** Fadiga, névoa cerebral, bradicárdia. |
+| Propranolol >20 mg | Bloqueio central não seletivo dos recetores β-AR | **Se funciona:** Controle ortostático sustentado sem custo cognitivo → reserva ampla de catecolaminas. **Se não funciona:** Embotamento cognitivo esperado. Combinar com guanfacina ou clonidina é contraproducente — o sistema precisa de mais tono de catecolaminas, não menos. **Efeitos colaterais:** Embotamento cognitivo, fadiga, depressão, bradicárdia. |
 
 ### Guanfacina
 
-A proporção de agonismo α2A postsinaptico (terapêutico) para presinaptico (sédante) do guanfacina é do tipo U invertido.
+A proporção de agonismo α2A pós-sináptico (terapêutico) para pré-sináptico (sédante) do guanfacina é do tipo U invertido.
 
 | Dose | Mecanismo | Interpretação |
 |------|-----------|----------------|
-| 0,5–1,0 mg | Agonismo α2A postsinaptico domina | **Se funciona:** Melhoria na memória de trabalho, foco e regulação emocional. Os efeitos postsinapticos dominam em doses terapêuticas. **Se não funciona:** Sédação sem melhoria cognitiva → agonismo α2A presinaptico domina mesmo em baixos níveis; o guanfacina provavelmente é o medicamento errado. **Efeitos colaterais:** Sédação, boca seca, hipotensão. |
-| 1,0–2,0 mg | Agonismo α2A postsinaptico + efeitos presinapticos emergentes | **Se funciona:** Benefício cognitivo sustentado → reserva ampla de α2A. Janelas correlacionadas com o modafinilo apoiam a coerência do cluster de catecolaminas (sobreposicionamento do circuito com o efeito mediado por D1 do modafinilo). **Se não funciona:** Embotamento cognitivo sem ganho terapêutico → a inibição presinaptica superou o benefício postsinaptico. **Efeitos colaterais:** Sédação, bradicárdia, hipotensão. |
-| >2 mg | Sédação presinaptica domina | **Se funciona:** Não se espera ganho terapêutico adicional. **Se não funciona:** Esperado — todos os efeitos terapêuticos do α2A passaram do ótimo. **Efeitos colaterais:** Sédação pronunciada, bradicárdia, hipotensão. |
+| 0,5–1,0 mg | Agonismo α2A pós-sináptico domina | **Se funciona:** Melhoria na memória de trabalho, foco e regulação emocional. Os efeitos pós-sinápticos dominam em doses terapêuticas. **Se não funciona:** Sédação sem melhoria cognitiva → agonismo α2A pré-sináptico domina mesmo em baixos níveis; o guanfacina provavelmente é o medicamento errado. **Efeitos colaterais:** Sédação, boca seca, hipotensão. |
+| 1,0–2,0 mg | Agonismo α2A pós-sináptico + efeitos pré-sinápticos emergentes | **Se funciona:** Benefício cognitivo sustentado → reserva ampla de α2A. Janelas correlacionadas com o modafinilo apoiam a coerência do cluster de catecolaminas (sobreposicionamento do circuito com o efeito mediado por D1 do modafinilo). **Se não funciona:** Embotamento cognitivo sem ganho terapêutico → a inibição pré-sináptica superou o benefício pós-sináptico. **Efeitos colaterais:** Sédação, bradicárdia, hipotensão. |
+| >2 mg | Sédação por α2A pré-sináptico domina | **Se funciona:** Não se espera ganho terapêutico adicional. **Se não funciona:** Esperado — todos os efeitos terapêuticos do α2A passaram do ótimo. **Efeitos colaterais:** Sédação pronunciada, bradicárdia, hipotensão. |
 
 ### Gabapentinoides
 

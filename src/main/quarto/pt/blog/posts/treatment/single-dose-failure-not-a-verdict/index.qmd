@@ -99,7 +99,7 @@ A LDN se liga a pelo menos quatro alvos moleculares distintos, e eles atuam em *
 
 ![Mecanismos de benefício da LDN na linha de dose: primação TLR4/Nrf2 (0,5–1,5 mg), o rebote de endorfinas (1,5–3,0 mg, platô preservado até 4,5 mg) e restauração do TRPM3 (3,0–4,5 mg), com os pontos de teste de 1 mg e 4 mg marcados. Os dois testes testam janelas diferentes; em 4 mg, a janela TLR4/Nrf2 já se fechou. *Esquema – posições da janela a partir do mapa de bandas de dose do artigo (que tem baixa certeza); formas e alturas iguais são ilustrativas e não medidas; a desinibilação da orexina foi omitida para clareza. Não são dados empíricos.*](fig5-ldn-windows.svg)
 
-### A dose band é um ponto ótimo de benefício, não uma chave de ligação
+### A banda de dose é um ponto ótimo de benefício, não uma chave de ligação
 
 A tabela acima pode ser lida como um conjunto de chaves liga/desliga: “TLR4/Nrf2 = 0,5–1,5 mg”, “TRPM3 = 3,0–4,5 mg”. Esse não é o modo como a ligação funciona, e um leitor que entende isso literalmente tem razão em perguntar: 1 mg não liga os recetores que 4 mg liga?
 

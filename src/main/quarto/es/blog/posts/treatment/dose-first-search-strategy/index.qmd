@@ -80,7 +80,7 @@ Este es el principio de primero la dosis: **cuando un ensayo fracasa, la siguien
 
 Los pacientes que llevan años buscando tienden a caer en uno de tres patrones reconocibles. Nombrarlos es útil porque cada uno requiere una solución diferente:
 
-**El veredicto de una única prueba.** Cada medicina recibe una dosis en una sola prueba. La búsqueda se lleva a cabo de forma amplia y superficial: veinte medicinas, cero mapas de respuesta a la dosis. *Solución:* antes de añadir la vigésima medicina, volver a la lista y encontrar las pruebas con la cobertura de dosis más estrecha. Esas son las más probables falsas negativas.
+**El veredicto de una única prueba.** Cada medicina recibe una dosis en una sola prueba. La búsqueda se lleva a cabo de forma amplia y superficial: veinte medicinas, cero mapas de respuesta a la dosis. *Solución:* antes de añadir la vigésima primera medicina, volver a la lista y encontrar las pruebas con la cobertura de dosis más estrecha. Esas son las más probables falsas negativas.
 
 **El coleccionista de medicinas.** El patrón opuesto: un nuevo agente cada pocas semanas, ninguno mantenido lo suficiente para producir un resultado nulo legible. El armario de medicinas se llena; el mapa permanece en blanco. *Solución:* una longitud mínima de prueba por clase de medicina, acordada de antemano, y una regla que ningún nuevo agente comience antes de que la prueba actual llegue a un veredicto.
 
