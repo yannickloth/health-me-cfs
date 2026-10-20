@@ -403,4 +403,4 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | muscle-electrostimulation-fatigue | [subtrees/muscle-electrostimulation-fatigue.md](subtrees/muscle-electrostimulation-fatigue.md) | 2026-10-11 | 14 | 0 | ⬜ pending |
 | ems-muscle-damage-pem | [subtrees/ems-muscle-damage-pem.md](subtrees/ems-muscle-damage-pem.md) | 2026-10-11 | 15 | 0 | ⬜ pending |
 | arnaud-denis-euthanasia | [subtrees/arnaud-denis-euthanasia.md](subtrees/arnaud-denis-euthanasia.md) | 2026-10-13 | 8 | 6 | ✅ done |
-| chronic-cns-brain-inflammation | [subtrees/chronic-cns-brain-inflammation.md](subtrees/chronic-cns-brain-inflammation.md) | 2026-10-20 | 16 | 9 | 🔵 in progress |
+| chronic-cns-brain-inflammation | [subtrees/chronic-cns-brain-inflammation.md](subtrees/chronic-cns-brain-inflammation.md) | 2026-10-20 | 16 | 9 | ✅ done |

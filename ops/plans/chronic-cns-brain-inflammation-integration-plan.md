@@ -271,7 +271,7 @@ Appended at Phase 12.5. Every row is `RAN`, `LEGIT-SKIP`, or `WAIVED`; zero OMIS
 | 11 | RAN | `tmp/review-phase11-chronic-cns-brain-inflammation-2026-10-20.md`; 11a/11b/11c; round 6 clean, round 7 re-verification found 9 items (8 fixed, 1 rejected), round 8 clean |
 | 12 | RAN | `## Phase 12 record` above (no `changelog.typ`) |
 | 12.5 | RAN | This ledger |
-| 13 | RAN | Commit by explicit file list; hash recorded in the Phase 13 report |
+| 13 | RAN | Commit `5a52a438` — 41 files staged by explicit list; post-commit `nix build` PASS |
 
 ### Independent verification (Phase 12.5, run by the main session, not self-reported)
 
@@ -285,6 +285,22 @@ Appended at Phase 12.5. Every row is `RAN`, `LEGIT-SKIP`, or `WAIVED`; zero OMIS
 - Certainty values inside `#speculation` are all < 0.45 (0.44, 0.30, 0.20, 0.15, 0.15).
 
 **Gate result: 26 RAN, 1 LEGIT-SKIP (5c), 0 WAIVED, 0 OMISSION. Build: PASS. Phase 13 may proceed.**
+
+## Phase 13 report
+
+- **Commit:** `5a52a438` — `content(ch09): integrate chronic CNS inflammation evidence`
+- **Scope:** 41 files staged by explicit list. Content (6 files), bibliography (2), appendix H, registry,
+  glossary, ops plan/brainstorm/subtree/root index/trace/research artifacts, scrape registry, fragment
+  script, and 8 source-copy PDFs under `Literature/`.
+- **Excluded:** `tmp/` (disposable audit scratch, including the Phase 11 report and governor ledger);
+  no build PDF. `appendix-d-resources.typ` was committed by a parallel session (commit `57098388`)
+  before this commit and is not part of this cycle.
+- **Shared-file check:** all cycle entries are present in `HEAD` (bib 3/3 spot-checked keys, registry
+  12 matches, root index row 1) — no entries lost to the parallel commit.
+- **Checkpoint pointers:** none existed for this cycle (`git branch --list`/`git tag --list` empty);
+  no rollback pointer, consistent with the recorded mixed-tree handling.
+- **Post-commit integrity:** `git status --short` clean; `nix build` exit 0; 8 PDFs committed, all
+  source copies under `Literature/`, zero build PDFs.
 
 ## Notes
 
