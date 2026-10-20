@@ -257,7 +257,7 @@ Appended at Phase 12.5. Every row is `RAN`, `LEGIT-SKIP`, or `WAIVED`; zero OMIS
 | 4a | RAN | `ops/plans/hypotheses-trees/subtrees/chronic-cns-brain-inflammation.md` (16 nodes); root index row `16 | 9` |
 | 5 | RAN | `subsec-01-chronic-cns-inflammation-hypotheses.typ` (5 environments); triage table in plan; registry block `Phase 5` (5 rows) |
 | 5d | RAN | `ops/integration-guides/pathway-drug-trace-chronic-cns-brain-inflammation.md` (cascade trace only; cert 0.15–0.20) |
-| 5c | LEGIT-SKIP | Condition "non-pharm / no-target-mech" fired: no medication, supplement, or intervention with a known mechanism and human ME/CFS evidence is introduced. Recorded in the Phase 5 record |
+| 5c | LEGIT-SKIP | Condition "non-pharm / no-target-mech" fired: no medication, supplement, or intervention with a known mechanism and human ME/CFS evidence is introduced. Recorded in the Phase 5 record. Re-verified 2026-10-20: no named drug in the new subsections (only generic "treatment" reasoning); no ch24 file in `5a52a438`; 5d trace names LDN/minocycline/PEA only as existing intercepts in an ops-only file |
 | 5b | RAN | `typst compile --root .` PASS, zero warnings |
 | 5a | RAN | Sweep applied: 13/13 keys exist, 0 fabricated; 2 four-axis mismatches fixed; 6/6 speculations falsifiable (plan Phase 5 record) |
 | 5z | RAN | 11 entries added to `src/main/resources/glossary-en.json` |
