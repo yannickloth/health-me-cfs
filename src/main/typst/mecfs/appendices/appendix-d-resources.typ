@@ -545,6 +545,18 @@ Founded by Cort Johnson (see above). While listed under bloggers, Health Rising 
 / *Role*: Patient, founder of Science for ME forum.
 / *Research*: Research investigator on DecodeME study—demonstrating patient partnership in research.
 
+=== Athletes and Sportspersons
+
+==== Beth Dobbin
+[style=sameline]
+/ *Background*: Scottish sprinter who represented Great Britain in the 200 m at the Tokyo 2020 Olympic Games (held 2021) and competed for Scotland at the 2022 Commonwealth Games.
+/ *Illness*: Developed ME following back-to-back COVID-19 and glandular fever infections in the winter of 2021--22; she had not felt unwell with either at the time and learned of both only through retrospective tests. By 2026, aged 32, she spent more than 22 hours a day in bed and had left her house only five times that year, rising only to eat and use the bathroom.
+/ *Diagnosis*: Early symptoms were subtle—sleeping more and slightly slower running times—then progressed to sore neck and armpit glands and dizziness and soreness during races. Her 2022 season ended with a false start at the European Championships after she lost all feeling in her legs in the blocks. Four or five specialists across multiple body systems independently concluded ME.
+/ *Advocacy*: Spoke publicly to BBC Sport in October 2026, knowing that a 30-minute interview could trigger a deterioration lasting into the following year. She rejects the term "chronic fatigue syndrome", arguing that as a former athlete she has "known fatigue my whole life" and that the label fails to capture the illness's severity. She frames speaking out as a duty: "athletes are believed a lot more than the average person... I've got a slight platform. If this happened to most people they wouldn't be able to speak about it."
+/ *Systemic failures highlighted*: She educated the GPs she saw about ME; waited 22 months for a face-to-face appointment with a private specialist she sourced herself after her British Athletics funding ended; and noted that there is almost no NHS specialist care and nowhere for GPs to refer patients.
+/ *Family*: Her sister Faye ran the Yorkshire Marathon in October 2026 to raise money for ME Research UK. Her father Jim, a former footballer, and mother Jean described the helplessness of finding no available care.
+/ *Source*: BBC Sport, "The Olympic sprinter now bedbound for 22 hours a day" (16 October 2026): #link("https://www.bbc.com/sport/athletics/articles/crd6dj26v4e4o")
+
 === Celebrity Advocates
 
 [style=nextline]
