@@ -6,10 +6,17 @@ a fix agent needs the rows for *one post* in one readable file. This script
 does that grouping, so a per-post agent gets a bounded brief instead of the
 whole verdict log.
 
+`--figures` reuses the same grouping on the calque worklist from
+`cross_check.py --figures`, so a `translation-auditor` gets one per-post brief
+carrying the English source, both target renderings, and the figure candidates
+that fired — the evidence it needs to judge transferred figures of speech.
+
 Usage
 -----
     python3 ops/scripts/judge_aggregate.py \
         --verdicts tmp/judge/verdicts.jsonl --out tmp/judge/flagged
+    python3 ops/scripts/judge_aggregate.py --figures \
+        --figures-json tmp/figures.json --out tmp/figures/flagged
 
 Verification
 ------------
@@ -19,14 +26,16 @@ Verification
 
 Expected outcome: `--selftest` prints "5/5 pass"; a real run prints
 `N posts flagged, M paragraphs`, with one Markdown brief per post and a JSON
-index of post -> verdict counts.
+index of post -> verdict counts. `--figures` prints
+`N posts, M candidate paragraph(s)`.
 
 Semantics
----------
+--------
 Read-only with respect to the repository. Writes only under `--out` and
 `--json`, both under `tmp/`. A row is included when its verdict is not
 FAITHFUL; ERROR rows are excluded (they carry no judgement). `--strict` exits
-1 when any CONTRADICTS verdict exists, for use as a gate after a fix pass.
+1 when any CONTRADICTS verdict exists, for use as a gate after a fix pass; in
+figures mode it exits 1 when any candidate exists.
 """
 
 from __future__ import annotations
@@ -68,6 +77,76 @@ def render_post(post: str, rows: list[dict]) -> str:
     return "\n".join(lines)
 
 
+def render_figures_post(post: str, rows: list[dict]) -> str:
+    lines = [f"POST: {post}", ""]
+    lines.append(
+        f"{len(rows)} paragraph(s) with an English figure-of-speech candidate. "
+        "For each: decide whether the target renderings carry the MEANING with "
+        "an idiomatic target expression, or transfer the English figure "
+        "word-for-word (a calque). Report only confirmed calques."
+    )
+    lines.append("")
+    for row in sorted(rows, key=lambda r: r["block"]):
+        cands = ", ".join(row.get("figure_candidates", []))
+        labels = ", ".join(row.get("figure_labels", []))
+        lines.append(f"### block {row['block']} — score {row.get('score')}")
+        lines.append(f"FIGURES: {cands}  ({labels})")
+        if row.get("es_pt_closeness") is not None:
+            lines.append(f"ES/PT lexical closeness: {row['es_pt_closeness']}")
+        lines.append("")
+        lines.append("EN SOURCE:")
+        lines.append(row["en"].strip())
+        lines.append("")
+        lines.append("ES CURRENT:")
+        lines.append((row.get("es") or "(missing)").strip())
+        lines.append("")
+        lines.append("PT CURRENT:")
+        lines.append((row.get("pt") or "(missing)").strip())
+        lines.append("")
+    return "\n".join(lines)
+
+
+def run_figures(args: argparse.Namespace) -> int:
+    path = Path(args.figures_json)
+    if not path.exists():
+        print(f"ERROR: {path} not found; run cross_check.py --figures first",
+              file=sys.stderr)
+        return 2
+    worklist = json.loads(path.read_text(encoding="utf-8"))
+    records = worklist.get("records") if isinstance(worklist, dict) else worklist
+    if not isinstance(records, list) or not records:
+        print(f"ERROR: {path} contains no candidate records", file=sys.stderr)
+        return 2
+
+    by_post: dict[str, list[dict]] = collections.defaultdict(list)
+    for row in records:
+        by_post[row["post"]].append(row)
+
+    out = Path(args.out)
+    out.mkdir(parents=True, exist_ok=True)
+    for old in out.glob("*.md"):
+        old.unlink()
+    index: dict[str, int] = {}
+    for post, post_rows in sorted(by_post.items()):
+        slug = post.replace("/", "-")
+        (out / f"{slug}.md").write_text(
+            render_figures_post(post, post_rows), encoding="utf-8"
+        )
+        index[post] = len(post_rows)
+
+    Path(args.json).write_text(
+        json.dumps({"posts": index, "candidates": len(records)},
+                   ensure_ascii=False, indent=1),
+        encoding="utf-8",
+    )
+    print(f"{len(by_post)} posts, {len(records)} candidate paragraph(s) -> {out}")
+    for post, count in sorted(index.items(), key=lambda kv: -kv[1])[:15]:
+        print(f"  {count:3d}  {post}")
+    if args.strict and records:
+        return 1
+    return 0
+
+
 def selftest() -> int:
     rows = [
         {"post": "a/x", "lang": "es", "block": 1, "verdict": "DRIFT", "en": "e", "target": "t"},
@@ -101,10 +180,21 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--json", default="tmp/judge/flagged.json")
     parser.add_argument("--selftest", action="store_true")
     parser.add_argument("--strict", action="store_true")
+    parser.add_argument(
+        "--figures", action="store_true",
+        help="group the calque worklist from cross_check.py --figures",
+    )
+    parser.add_argument(
+        "--figures-json", default="tmp/figures.json",
+        help="calque worklist (figures mode)",
+    )
     args = parser.parse_args(argv)
 
     if args.selftest:
         return selftest()
+
+    if args.figures:
+        return run_figures(args)
 
     path = Path(args.verdicts)
     if not path.exists():
