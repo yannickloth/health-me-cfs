@@ -39,13 +39,15 @@ jobs:
           name: me-cfs-docs
           authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
 
-      - name: Ensure swap space (typst compile exceeds runner RAM)
+      - name: Ensure swap space (typst compile is memory-hungry)
         run: |
           df -h /; free -h
-          # Runner ships a small 3 GiB /swapfile. typst's monolithic compile
-          # peaks ~17 GB and OOMs on 15 GB RAM + 3 GB swap. Add a distinct
-          # second swapfile for real margin (guard on its own path so the
-          # pre-existing /swapfile is preserved and this stays idempotent).
+          # The runner ships a small 3 GiB /swapfile. The monolithic typst
+          # compile of the full book peaks around 13-14 GB after the
+          # running-head fix (it was ~20 GB before), against 16 GB of runner
+          # RAM. Add a distinct second swapfile for margin (guard on its own
+          # path so the pre-existing /swapfile is preserved and this stays
+          # idempotent).
           if sudo swapon --show=NAME --noheadings --raw | grep -Fxq /swapfile-ci; then
             echo "/swapfile-ci already active"
           else

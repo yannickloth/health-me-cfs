@@ -21,7 +21,7 @@
 #import "shared/metadata.typ": *
 #import "shared/theme.typ": color, apply-link-style
 #import "shared/typography.typ": *
-#import "shared/layout.typ": apply-page-layout
+#import "shared/layout.typ": apply-page-layout, apply-running-head
 #import "shared/environments.typ": apply-counter-resets
 #import "shared/tables.typ": apply-table-styles
 #import "shared/front-matter.typ": title-page, doc-abstract, keywords, front-chapter, doc-part, doc-subpart
@@ -74,6 +74,11 @@
 
 // Per-chapter counter resets for environments
 #show: apply-counter-resets
+
+// Running-header state feed. Must come after every heading show rule above,
+// because the most recently declared show rule is applied first (see
+// shared/layout.typ).
+#show: apply-running-head
 
 // Heading numbering: arabic at all levels (mirrors \arabic{chapter})
 #set heading(numbering: "1.1.1.1")

@@ -22,26 +22,42 @@
 )
 
 // ── Running header (mirrors \cehead / \cohead — centred heading mark) ─────────
-// Shows the most recent level-1 or level-2 heading that has numbering (i.e., a
-// real chapter or section, not a Part heading or front-matter heading).
-#let _page-header = context {
-  // Suppress header on pages where a chapter (level-1 heading) starts,
-  // mirroring LaTeX's \thispagestyle{plain} on \chapter pages.
-  let here-page = here().page()
-  let ch-on-page = query(heading.where(level: 1)).filter(h =>
-    h.location().page() == here-page
-  )
-  if ch-on-page.len() > 0 { return }
+// Shows the most recent numbered heading (chapter, section, subsection, …; Part
+// dividers and front-matter chapters are unnumbered and never appear).
+//
+// The heading is tracked in a state that numbered headings update, so the header
+// only reads the value at the page start. The previous version ran
+// `query(selector(heading).before(here()))` in the header, which rescanned all
+// preceding headings on every page. On the full book (7005 pages) that cost
+// ~6 GB of extra peak memory and roughly 100 s of compile time: 19.6 GB / 236 s
+// before, 13.4 GB / 139 s after. Keep the scan out of the header.
+#let _running-head = state("running-head", none)
 
-  let headings = query(selector(heading).before(here()))
-  // Only show numbered headings (excludes front-matter unnumbered chapters)
-  let numbered = headings.filter(h => h.numbering != none)
-  if numbered.len() > 0 {
-    let h = numbered.last()
+// True while the page that starts at the next page break is a chapter opener.
+// Set before the chapter's break (so the opener page sees it) and cleared after
+// the chapter title.
+#let _chapter-open = state("chapter-open", false)
+
+#let _record-running-head(it) = {
+  // Numbered headings only: excludes Part dividers and front-matter chapters,
+  // which are set with `numbering: none`.
+  if it.numbering != none { _running-head.update(it.body) }
+  if it.level == 1 {
+    // The heading styles emit the chapter's page break while converting this
+    // element, so the flag brackets exactly the opener page.
+    { _chapter-open.update(true); it; _chapter-open.update(false) }
+  } else { it }
+}
+
+#let _page-header = context {
+  // No running head on a chapter opener (LaTeX's \thispagestyle{plain}).
+  if _chapter-open.at(here()) { return }
+
+  // State as of the page start = the last numbered heading on an earlier page.
+  let head = _running-head.at(here())
+  if head != none {
     align(center,
-      text(font: font-heading, size: size-header, style: "normal",
-        h.body
-      )
+      text(font: font-heading, size: size-header, style: "normal", head)
     )
   }
 }
@@ -58,7 +74,7 @@
   )
 }
 
-// ── Apply function: call once from main file ──────────────────────────────────
+// ── Apply functions: call once each from the main file ────────────────────────
 #let apply-page-layout(body) = {
   set page(
     paper:  "a4",
@@ -66,5 +82,14 @@
     header: _page-header,
     footer: _page-footer,
   )
+  body
+}
+
+// Feeds the running-head state (see _page-header). Declare this AFTER every
+// other heading show rule in the main file: later-declared rules are applied
+// first, and the heading styles replace the heading element with a styled
+// block, which this rule could no longer recognize.
+#let apply-running-head(body) = {
+  show heading: _record-running-head
   body
 }

@@ -12,7 +12,7 @@
 #import "../mecfs/shared/metadata.typ": *
 #import "../mecfs/shared/theme.typ": color, apply-link-style
 #import "../mecfs/shared/typography.typ": *
-#import "../mecfs/shared/layout.typ": apply-page-layout
+#import "../mecfs/shared/layout.typ": apply-page-layout, apply-running-head
 #import "../mecfs/shared/environments.typ": *
 #import "../mecfs/shared/tables.typ": apply-table-styles
 #import "../mecfs/shared/front-matter.typ": title-page
@@ -50,6 +50,7 @@
 #show: apply-table-styles
 #show link: it => text(fill: color.viridis-blue, it)
 #show: apply-counter-resets
+#show: apply-running-head
 
 #set heading(numbering: "1.1.1.1")
 #set math.equation(numbering: "1.1")
