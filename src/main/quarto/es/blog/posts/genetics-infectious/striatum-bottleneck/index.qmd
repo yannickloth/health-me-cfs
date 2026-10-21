@@ -58,7 +58,7 @@ Si el striatum es el cuello de botella, la estrategia de tratamiento cambia. En 
 - **Señalización de dopamina** — los agonistas de dopamina, bupropion y amantadina merecen una investigación sistemática como moduladores del circuito del striatum, no como intervenciones psiquiátricas.
 - **Neuroinflamación** — naltrexona en dosis bajas, minocicina o enfoques antiinflamatorios dirigidos que reduzcan la activación de microglía en el striatum.
 - **Perfusión** — expansión de volumen, estabilización autonómica, compresión — la oxigenación del striatum determina directamente la salida del circuito.
-- **Apoyo metabólico** — intervenciones que mejoren la función mitocondrial o reduzcan la demanda de energía, reconociendo que el striatum es el "canario en la mina de carbón" para los déficits energéticos sistémicos.
+- **Apoyo metabólico** — intervenciones que mejoren la función mitocondrial o reduzcan la demanda de energía, reconociendo que el estriado es la señal de alerta más temprana de los déficits energéticos sistémicos.
 
 Estos objetivos de tratamiento no son específicos para un desencadenante. Se aplican a EM/SFC post-viral, post-traumático y de inicio gradual. Si el cuello de botella es común, el tratamiento también debería serlo.
 

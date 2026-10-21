@@ -1,5 +1,5 @@
 ---
-title: "A estimulação muscular elétrica não é um benefício ilimitado"
+title: "A estimulação muscular elétrica não é de graça"
 description: "As clínicas oferecem EMS como 'exercício passivo' para pessoas que não conseguem exercitar-se. Isso pode ativar a mesma via envolvida no mal-estar pós-esforço — e nenhum estudo testou isso."
 author: "Yannick Loth"
 date: "2026-10-15"
@@ -7,7 +7,7 @@ categories: [Treatment, PEM, Energy metabolism]
 lang: pt
 ---
 
-Se você não pode exercitar, a estimulação elétrica muscular parece atraente. Um dispositivo contrai seus músculos por você. Você não se move. É comercializado como **exercício passivo** — uma maneira de manter os músculos sem gastar energia que você não tem. Analisamos o mecanismo, e a expressão “passivo” realiza mais trabalho do que pode suportar.
+Se você não pode exercitar, a estimulação elétrica muscular parece atraente. Um dispositivo contrai seus músculos por você. Você não se move. É comercializado como **exercício passivo** — uma maneira de manter os músculos sem gastar energia que você não tem. Analisamos o mecanismo, e a expressão “passivo” promete mais do que pode cumprir.
 
 ## O que a EMS realmente faz
 

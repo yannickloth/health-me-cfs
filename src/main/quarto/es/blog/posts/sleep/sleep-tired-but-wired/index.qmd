@@ -1,5 +1,5 @@
 ---
-title: "Cansado, pero con energía: La traición autonómica al acostarse"
+title: "Cansado pero acelerado: La traición autonómica al acostarse"
 description: "Existe una crueldad específica que los pacientes con EM/SFC conocen bien, pero que rara vez se describe en la literatura médica. Estás agotado — no cansado, no somnoliento, sino el agotamiento profundo, celular de un cuerpo que ha estado funcionando sin energía todo el día. Cada..."
 author: "Yannick Loth"
 date: "2026-05-03"
@@ -11,7 +11,7 @@ Existe una crueldad particular que los pacientes con EM/SFC conocen bien, pero q
 
 Te acuestas. Cierras los ojos. Y tu cerebro se activa.
 
-La frecuencia cardíaca aumenta en lugar de disminuir. Los pensamientos se aceleran —no son pensamientos productivos, ni exactamente ansiedad, sino una sensación eléctrica de vigilia que no se puede apagar. El cuerpo está débil por el agotamiento; el sistema nervioso está lleno de actividad. Estás simultáneamente demasiado cansado para moverte y demasiado conectado para dormir.
+La frecuencia cardíaca aumenta en lugar de disminuir. Los pensamientos se aceleran —no son pensamientos productivos, ni exactamente ansiedad, sino una sensación eléctrica de vigilia que no se puede apagar. El cuerpo está débil por el agotamiento; el sistema nervioso está lleno de actividad. Estás simultáneamente demasiado cansado para moverte y demasiado acelerado para dormir.
 
 Esto no es insomnio en cualquier sentido convencional, y tampoco es mala higiene del sueño. El sistema nervioso autónomo ha perdido la capacidad de pasar del modo diurno al modo nocturno, y todo lo que depende de esa transición falla junto con él.
 
@@ -57,7 +57,7 @@ La inestabilidad de la termorregulación que impidió el inicio del sueño no de
 
 Las recomendaciones estándar de higiene del sueño — horario de acostarse consistente, habitación oscura, evitar pantallas antes de dormir, evitar cafeína — no son incorrectas, simplemente son insuficientes. Abordan los factores conductuales y ambientales que apoyan la transición autonómica, pero un sistema autonómico que estructuralmente no puede realizar esa transición no se puede corregir ajustando las rutinas de horario de acostarse.
 
-Decirle a un paciente con EM/SFC que "pruebe una mejor higiene del sueño" para su estado cansado pero con energía es como decirle a alguien con un termostato roto que abra una ventana. La ventana ayuda. El termostato sigue estando roto.
+Decirle a un paciente con EM/SFC que "pruebe una mejor higiene del sueño" para su estado de cansancio con hiperactivación es como decirle a alguien con un termostato roto que abra una ventana. La ventana ayuda. El termostato sigue estando roto.
 
 Existen intervenciones más específicas, aunque ninguna es curativa y todas requieren la evaluación del médico prescriptor — especialmente teniendo en cuenta las comorbilidades autonómicas comunes en EM/SFC. En el aspecto autonómico, las estrategias que reducen la activación simpática — estimulación del nervio vago, ejercicios de respiración lenta si se toleran, y enfoques farmacológicos como clonidina en baja dosis o guanfacina (ambos agentes cardiovasculares que requieren monitoreo en pacientes con hipotensión ortostática) — abordan el desequilibrio de raíz en lugar de sus efectos derivados. La evidencia en EM/SFC es limitada, pero está fundamentada mecanísticamente.
 
@@ -71,7 +71,7 @@ El anclaje circadiano vale la pena considerarse por separado de la sedación. La
 
 ## El costo de la noche perdida
 
-Cada hora que se pasa en estado de cansado pero conectado conlleva un costo que supera con creces la extenuación del día siguiente. La activación simpática sostenida mantiene la noradrenalina elevada y el aclaramiento glifático suprimido durante toda la noche; el retraso en el inicio del sueño reduce el sueño de ondas lentas total; y cualquier sueño fragmentado que llegue perturba la consolidación de la memoria, empeora la secreción de hormona de crecimiento y deja la recalibración inmunitaria incompleta.
+Cada hora que se pasa en estado de cansado pero acelerado conlleva un costo que supera con creces la extenuación del día siguiente. La activación simpática sostenida mantiene la noradrenalina elevada y el aclaramiento glifático suprimido durante toda la noche; el retraso en el inicio del sueño reduce el sueño de ondas lentas total; y cualquier sueño fragmentado que llegue perturba la consolidación de la memoria, empeora la secreción de hormona de crecimiento y deja la recalibración inmunitaria incompleta.
 
 La mala noche se acumula. El paciente no solo se siente peor al día siguiente; hay daños acumulados debido a la falta de mantenimiento durante la noche, daños que pueden tardar días o semanas en manifestarse como niebla cerebral, dolor empeorado o un episodio completo de malestar post-esfuerzo provocado por actividades que habrían sido manejables después de una noche realmente restauradora.
 

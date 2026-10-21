@@ -13,7 +13,7 @@ Pero existe una verdadera conexión entre noradrenalina y lactato — dirigida e
 
 La noradrenalina actúa sobre células de soporte en el cerebro (astrocitos) para descomponer el glucógeno y liberar **lactato como combustible** para las neuronas (@Hertz2015neGlycogenolysis; @Killeen2013neLactate). En otras palabras, la noradrenalina ayuda a *suministrar* combustible. No deja lactato como residuo.
 
-Esto significa que, si algo, un déficit de noradrenalina debería **reducir** la disponibilidad aguda de lactato — no crear una sobrecarga de "ácido". Esto se ajusta al hallazgo más amplio de que la noradrenalina y el lactato aumentan *juntas* durante el ejercicio, y que la señalización β2-adrenérgica aumenta la descomposición del glucógeno (@Jessen2020ClenbuterolLactate).
+Esto significa que, si acaso, un déficit de noradrenalina debería **reducir** la disponibilidad aguda de lactato — no crear una sobrecarga de "ácido". Esto se ajusta al hallazgo más amplio de que la noradrenalina y el lactato aumentan *juntas* durante el ejercicio, y que la señalización β2-adrenérgica aumenta la descomposición del glucógeno (@Jessen2020ClenbuterolLactate).
 
 Así que la afirmación correcta es limitada y casi lo opuesto al mito:
 

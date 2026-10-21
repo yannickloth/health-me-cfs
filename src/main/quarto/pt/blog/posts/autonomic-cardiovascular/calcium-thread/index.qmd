@@ -77,7 +77,7 @@ Mas é uma hipótese falsificável. Um único experimento — medindo a função
 
 A via muscular (inversão do trocador de sódio-cálcio, sobrecarga de sódio, falha energética que gera toxicidade de cálcio) é provavelmente um mecanismo secundário — desregulação de cálcio a jusante da crise metabólica. Pacientes com hipoperfusão grave, envolvimento cardiovascular significativo ou esforço físico intenso podem expressar esta via de forma mais intensa.
 
-A via TRPM3 pode ser primária — o canal é quebrado primeiro, e falha energética, disfunção imunológica e possivelmente perturbação do sono seguem como consequências a jusante. Isso seria um subtipo distinto: um fenótipo impulsionado por canalopatia, onde a lesão raiz está no nível do canal, e não no nível metabólico.
+A via TRPM3 pode ser primária — o canal é quebrado primeiro, e falha energética, disfunção imunológica e possivelmente perturbação do sono seguem como consequências a jusante. Isso seria um subtipo distinto: um fenótipo impulsionado por canalopatia, onde a lesão primária está no nível do canal, e não no nível metabólico.
 
 Estes dois subtipos preveriam respostas terapêuticas diferentes. Abordar a cascata de sódio-cálcio (com estimuladores da Na⁺/K⁺-ATPase, bloqueadores de canal de sódio ou suporte mitocondrial) atinge o mecanismo secundário. Restaurar a função do TRPM3 (LDN sendo o candidato atual) atinge o primário. Num paciente onde ambos estão ativos, ambos podem ser necessários.
 

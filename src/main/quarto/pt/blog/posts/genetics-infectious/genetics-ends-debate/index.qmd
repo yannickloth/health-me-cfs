@@ -75,7 +75,7 @@ O sistema imunitário torna-se um alvo de pesquisa secundário: ainda importante
 
 ---
 
-## O elefante de cinquenta mil pessoas no meio da sala
+## A grande questão que ninguém quer abordar: cinquenta mil pessoas
 
 A DecodeME GWAS representa um verdadeiro progresso. No entanto, também representa uma limitação. Cinco mil casos são suficientes para que a análise de enriquecimento seja robusta — mas não são suficientes para o mapeamento fino, associações a nível de gene e análise de vias biológicas que nos informem *quais mecanismos específicos dentro dos MSNs* estão perturbados.
 

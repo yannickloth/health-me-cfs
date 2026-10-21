@@ -9,11 +9,11 @@ lang: es
 
 Ella parece saludable. Es joven, es delgada y puede tocar las palmas de sus manos contra el suelo sin doblar las rodillas. Los médicos la han llamado “flexible” desde la infancia, y los fisioterapeutas han admirado su rango de movimiento. Nadie le dijo que su flexibilidad es un déficit estructural — que sus ligamentos están hechos de colágeno que no mantiene las articulaciones unidas como debería — y que este déficit le cuesta al cuerpo tres veces más energía para hacer todo lo que una persona con articulaciones normales hace sin pensar.
 
-El trastorno del espectro de la hipermovilidad (HSD) y el síndrome de Ehlers-Danlos hipermóvil (hEDS) son condiciones relacionadas con el tejido conectivo, específicamente con el colágeno. La proteína que forma el esqueleto estructural de los ligamentos, tendones, piel, vasos sanguíneos y la matriz extracelular de prácticamente todos los órganos del cuerpo. Cuando el colágeno es anormalmente elástico, toda estructura que crea es anormalmente elástica. Las articulaciones no mantienen su posición. Los vasos sanguíneos no mantienen su tono. El intestino no transporta los contenidos de manera eficiente. Las consecuencias se propagan a todos los sistemas, y el coste energético acumulado es un impuesto que el paciente paga cada minuto de cada día.
+El trastorno del espectro de la hipermovilidad (HSD) y el síndrome de Ehlers-Danlos hipermóvil (hEDS) son condiciones relacionadas con el tejido conectivo, específicamente con el colágeno. La proteína que forma el esqueleto estructural de los ligamentos, tendones, piel, vasos sanguíneos y la matriz extracelular de prácticamente todos los órganos del cuerpo. Cuando el colágeno es anormalmente elástico, toda estructura que crea es anormalmente elástica. Las articulaciones no mantienen su posición. Los vasos sanguíneos no mantienen su tono. El intestino no transporta los contenidos de manera eficiente. Las consecuencias se propagan a todos los sistemas, y el coste energético acumulado es un coste que el paciente paga cada minuto de cada día.
 
 ---
 
-## El impuesto invisible en cada movimiento
+## El coste invisible en cada movimiento
 
 En una persona con articulaciones normales, los ligamentos proporcionan estabilidad pasiva. Cuando estás de pie, los ligamentos de la rodilla mantienen la articulación en su posición sin ningún esfuerzo muscular. Los músculos están libres para hacer otras cosas: generar movimiento, responder a perturbaciones y soportar cargas. Los ligamentos son como cables de un poste de tienda: proporcionan estabilidad estructural de forma gratuita [@HakimGrahame2003hypermobility].
 
@@ -63,7 +63,7 @@ Comienza con colágeno defectuoso. Sigue las consecuencias:
 6. **Dolor crónico** → debido a subluxaciones, desplazamientos y neuropatía → el procesamiento del dolor es metabólicamente costoso + interrupción del sueño + impacto psicológico
 7. **Interrupción del sueño** → debido a dolor, POTS (taquicardia en posición supina), activación de mastocitos → deterioro de la restauración → fatiga residual
 
-Cada paso en esta cadena tiene un coste energético. Los costes son sumativos. Una paciente que experimente los siete pasos paga un impuesto energético que una persona con articulaciones normales no paga, antes de levantarse por la mañana.
+Cada paso en esta cadena tiene un coste energético. Los costes son sumativos. Una paciente que experimente los siete pasos paga un coste energético que una persona con articulaciones normales no paga, antes de levantarse por la mañana.
 
 ---
 

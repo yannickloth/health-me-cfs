@@ -25,7 +25,7 @@ Un *amplificador* empeora, perpetúa o bloquea el estado de enfermedad, pero no 
 
 ## Cuatro criterios para una causa raíz
 
-No todos los mecanismos tempranos o de flujo ascendente cumplen con los requisitos. El marco requiere cuatro criterios, todos los cuales deben cumplirse [Cap. 16 §Mecanismos capaces de ser desencadenados].
+No todos los mecanismos tempranos o previos cumplen con los requisitos. El marco requiere cuatro criterios, todos los cuales deben cumplirse [Cap. 16 §Mecanismos capaces de ser desencadenados].
 
 El primero es la compatibilidad con los desencadenantes: el mecanismo debe poder ser desencadenado por desencadenantes conocidos de EM/SFC, como infección viral, estrés fisiológico grave, cirugía, trauma o vacunación. Los estudios epidemiológicos indican consistentemente que aproximadamente el 70% de los casos de EM/SFC está precedido por una infección aguda, aunque las estimaciones publicadas varían; el marco utiliza este número como aproximación práctica [Cap. 16 §Mecanismos capaces de ser desencadenados]. Cualquier causa raíz propuesta debe ser compatible con ese patrón y con los desencadenantes no infecciosos que explican el resto.
 

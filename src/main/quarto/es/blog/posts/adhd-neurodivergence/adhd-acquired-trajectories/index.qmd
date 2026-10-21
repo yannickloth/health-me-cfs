@@ -37,7 +37,7 @@ La implicación clínica sigue siendo directa: **un adulto que desarrolla sínto
 
 Nuestro estudio analiza la relación entre TDAH y fatiga crónica a través de tres arquitecturas posibles:
 
-**Arquitectura A — vulnerabilidad compartida.** Un factor común en la parte superior — genético, inmune o de desarrollo — predispone a una persona a tanto TDAH como fatiga crónica de forma independiente. La co-ocurrencia es un artefacto de selección: la misma vulnerabilidad produce ambos. La arquitectura genética de las condiciones neurodesarrolladoras lo respalda: TDAH y autismo comparten una gran parte de sus influencias genéticas [@Demontis2023GWASadhd @Grove2019GWASasd @CrossDisorderPGC2013].
+**Arquitectura A — vulnerabilidad compartida.** Un factor común previo — genético, inmune o de desarrollo — predispone a una persona a tanto TDAH como fatiga crónica de forma independiente. La co-ocurrencia es un artefacto de selección: la misma vulnerabilidad produce ambos. La arquitectura genética de las condiciones neurodesarrolladoras lo respalda: TDAH y autismo comparten una gran parte de sus influencias genéticas [@Demontis2023GWASadhd @Grove2019GWASasd @CrossDisorderPGC2013].
 
 **Arquitectura B — cascada secundaria.** El proceso de enfermedad — neuroinflamación, depleción dopaminérgica, disfunción autónoma — produce fenotipos neuropsiquiátricos similares al TDAH en personas que de otra manera no los habría desarrollado. El TDAH surge *debido a* la enfermedad, no junto a ella.
 

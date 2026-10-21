@@ -37,7 +37,7 @@ El grupo de la Universidad de Griffith (Marshall-Gradisnik et al.) ha documentad
 
 Cabe destacar que la naltrexona en dosis bajas — un tratamiento del que muchos pacientes con EM/SFC reportan beneficio — parece restaurar parcialmente la función del TRPM3 en estas células. El trabajo relevante son los estudios TRPM3/LDN del grupo de Griffith [@Cabanas2019trpm3ldnFront], que propusieron la restauración del TRPM3 como una explicación mecánica para el beneficio de la naltrexona en dosis bajas — in vitro, y aún no confirmado en pacientes con EM/SFC.
 
-En este caso, el problema de calcio está en la parte superior, no en la inferior. El canal en sí es disfuncional — no debido a una crisis de energía que impulse una cascada, sino como una deficiencia primaria. La célula inmunitaria no puede cargar calcio. No puede dispararse. Los patógenos o virus reactivados que el sistema inmunitario debería eliminar no se eliminan.
+En este caso, el problema de calcio está aguas arriba, no aguas abajo. El canal en sí es disfuncional — no debido a una crisis de energía que impulse una cascada, sino como una deficiencia primaria. La célula inmunitaria no puede cargar calcio. No puede dispararse. Los patógenos o virus reactivados que el sistema inmunitario debería eliminar no se eliminan.
 
 ---
 
@@ -77,7 +77,7 @@ Pero es una hipótesis verificable. Un único experimento — midiendo la funci�
 
 La vía muscular (reversión del intercambiador de sodio-calcio, sobrecarga de sodio, fallo energético que genera toxicidad de calcio) es muy probablemente un mecanismo secundario — desregulación de calcio en la parte inferior de la crisis metabólica. Los pacientes con hipoperfusión grave, afectación cardiovascular significativa o alto esfuerzo físico pueden expresar esta vía de manera más intensa.
 
-La vía TRPM3 podría ser primaria — el canal se daña primero, y el fallo energético, la disfunción inmune y posiblemente la interrupción del sueño son consecuencias posteriores. Esto sería un subtipo distinto: un fenotipo impulsado por una canalopatía donde la lesión raíz está en el nivel del canal, no en el nivel metabólico.
+La vía TRPM3 podría ser primaria — el canal se daña primero, y el fallo energético, la disfunción inmune y posiblemente la interrupción del sueño son consecuencias posteriores. Esto sería un subtipo distinto: un fenotipo impulsado por una canalopatía donde la lesión primaria está en el nivel del canal, no en el nivel metabólico.
 
 Estos dos subtipos predecirían respuestas terapéuticas diferentes. Tratar la cascada de sodio-calcio (con estimuladores de Na⁺/K⁺-ATPasa, bloqueadores de canales de sodio o soporte mitocondrial) se enfoca en la vía secundaria. Restaurar la función de TRPM3 (LDN es el candidato actual) se enfoca en la primaria. En un paciente donde ambas estén activas, podrían necesitarse ambas.
 

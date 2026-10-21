@@ -39,7 +39,7 @@ La hipoperfusión cerebral continúa. Los pacientes con EM/SFC presentan una red
 
 La situación mitocondrial tampoco cambia. El déficit de energía que impulsa la EM/SFC — la disfunción de la fosforilación oxidativa, la disfunción de la cadena de transporte de electrones y la elevación de ROS mitocondriales — es un problema periférico y sistémico que la arquitectura del sueño por sí sola no puede resolver. Un mejor sueño podría mejorar modestamente la reparación mitocondrial durante la noche, pero el defecto metabólico fundamental persiste.
 
-Y la disfunción autonómica que causó gran parte del problema del sueño desde el principio sigue presente. El desequilibrio simpático-parasimpático, la intolerancia ortostática, la taquicardia inapropiada y la desregulación vascular que caracterizan a la EM/SFC son problemas aguas arriba de la arquitectura del sueño, no aguas abajo de ella. El estado de “cansado pero conectado” antes de dormir, los despertares nocturnos, los sudores nocturnos — todos estos probablemente persistirían incluso con mejoras en las oscilaciones delta durante el sueño que ocurre.
+Y la disfunción autonómica que causó gran parte del problema del sueño desde el principio sigue presente. El desequilibrio simpático-parasimpático, la intolerancia ortostática, la taquicardia inapropiada y la desregulación vascular que caracterizan a la EM/SFC son problemas aguas arriba de la arquitectura del sueño, no aguas abajo de ella. El estado de “cansado pero acelerado” antes de dormir, los despertares nocturnos, los sudores nocturnos — todos estos probablemente persistirían incluso con mejoras en las oscilaciones delta durante el sueño que ocurre.
 
 ---
 
@@ -105,4 +105,4 @@ El campo no está esperando un único medicamento revolucionario. Está esperand
 
 ---
 
-*Artículo anterior de esta serie: Cansado pero conectado — la traición autónoma al acostarse.*
+*Artículo anterior de esta serie: Cansado pero acelerado — la traición autonómica al acostarse.*

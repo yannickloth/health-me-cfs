@@ -58,7 +58,7 @@ Se o striatum é o gargalo, a estratégia de tratamento muda. Em vez de pergunta
 - **Sinalização de dopamina** — agonistas da dopamina, bupropion e amantadina merecem investigação sistemática como moduladores do circuito striatal, e não como intervenções psiquiátricas.
 - **Neuroinflamação** — naltrexona em doses baixas, minocicina ou abordagens anti-inflamatórias direcionadas que reduzam a ativação das microglia no striatum.
 - **Perfusão** — expansão do volume, estabilização autonómica, compressão — a oxigenação do striatal determina diretamente a saída do circuito.
-- **Suporte metabólico** — intervenções que melhoram a função mitocôndria ou reduzem a demanda energética, reconhecendo que o striatum é o "canário na mina de carvão" para déficits energéticos sistémicos.
+- **Suporte metabólico** — intervenções que melhoram a função mitocôndria ou reduzem a demanda energética, reconhecendo que o striatum é o sinal de alarme mais precoce de défices energéticos sistémicos.
 
 Estes alvos de tratamento não são específicos para um gatilho. Eles se aplicam a EM/SFC pós-viral, pós-traumática e de início gradual. Se o gargalo é comum, o tratamento também deve ser.
 

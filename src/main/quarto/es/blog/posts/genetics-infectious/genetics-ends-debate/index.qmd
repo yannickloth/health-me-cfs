@@ -67,7 +67,7 @@ Las implicaciones de la asignación de recursos son claras:
 
 **Neuroimagen** — la imagen funcional y estructural del estriado, del circuito de los ganglios basales y de las vías de dopamina — se convierte en la vía de investigación no genética de mayor prioridad. Si la genética indica neuronas, necesitamos ver qué hacen esas neuronas en tiempo real en los pacientes.
 
-**Metabolómica del LCR** — en particular los metabolitos de neurotransmisores, los productos del recambio de dopamina y los intermediarios de señalización del estriado — es más informativa que los paneles de citocinas en sangre. El flujo descendente está en la sangre; el flujo ascendente está en el LCR.
+**Metabolómica del LCR** — en particular los metabolitos de neurotransmisores, los productos del recambio de dopamina y los intermediarios de señalización del estriado — es más informativa que los paneles de citocinas en sangre. Lo de aguas abajo está en la sangre; lo de aguas arriba está en el LCR.
 
 **Investigación del circuito del estriado** — utilizando técnicas de neurología de trastornos del movimiento (estimulación magnética transcraneal, imagen de la fuente del EEG, análisis de conectividad funcional aplicado a los ganglios basales) — debería implementarse directamente.
 
@@ -75,7 +75,7 @@ El sistema inmunitario se convierte en un objetivo de investigación secundario:
 
 ---
 
-## El elefante de cincuenta mil personas en la sala
+## La gran cuestión que nadie quiere mencionar: cincuenta mil personas
 
 El DecodeME GWAS representa un verdadero progreso. También representa una limitación. Cinco mil casos son suficientes para que el análisis de enriquecimiento sea robusto, pero no son suficientes para el mapeo fino, las asociaciones a nivel de gen y el análisis de vías biológicas que nos indiquen *qué mecanismos específicos dentro de las MSN* están alterados.
 
