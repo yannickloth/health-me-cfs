@@ -92,7 +92,7 @@ A leitura 4 é a mais barata para testar e a mais prejudicial se for verdadeira,
 
 ## Dois eixos sem estudos de EM/SFC
 
-Duas medições baratas não têm literatura alguma sobre EM/SFC. A proteína semelhante à chitinase-3 (CHI3L1, também chamada YKL-40) é um marcador de ativação astrocítica e microglial. A trans-sinalização da interleucina-6, através do receptor solúvel de IL-6 e gp130, é o caminho pelo qual a IL-6 produz efeitos inflamatórios crónicos em vez de agudos. Uma busca de literatura pelo livro subjacente não encontrou nenhum estudo de EM/SFC em nenhum dos eixos [@Loth2026website]. Isso é uma lacuna na literatura, não evidência de ausência. Ambos são mais baratos que o PET e avançariam significativamente a questão.
+Duas medições baratas não têm literatura alguma sobre EM/SFC. A proteína semelhante à chitinase-3 (CHI3L1, também chamada YKL-40) é um marcador de ativação astrocítica e microglial. A trans-sinalização da interleucina-6, através do recetor solúvel de IL-6 e gp130, é o caminho pelo qual a IL-6 produz efeitos inflamatórios crónicos em vez de agudos. Uma busca de literatura pelo livro subjacente não encontrou nenhum estudo de EM/SFC em nenhum dos eixos [@Loth2026website]. Isso é uma lacuna na literatura, não evidência de ausência. Ambos são mais baratos que o PET e avançariam significativamente a questão.
 
 ## A medição que resolveria a questão
 

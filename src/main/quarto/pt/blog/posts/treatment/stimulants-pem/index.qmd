@@ -9,7 +9,7 @@ lang: pt
 
 Muitas pessoas com EM/SFC tomam estimulantes. Modafinilo, Ritalina, Adderall, cafeína em grandes quantidades. Frequentemente não porque desejam, mas porque precisam — porque o mundo não para por causa da doença, e empregadores, escolas e famílias ainda esperam que sejam capazes de funcionar.
 
-Os estimulantes funcionam, de certa forma. A névoa cerebral diminui. A fadiga desaparece. Por algumas horas, você pode pensar, escrever, participar de reuniões e realizar o trabalho. Você se sente mais próximo da pessoa que era antes.
+Os estimulantes funcionam, de certa forma. O nevoeiro cerebral diminui. A fadiga desaparece. Por algumas horas, você pode pensar, escrever, participar de reuniões e realizar o trabalho. Você se sente mais próximo da pessoa que era antes.
 
 E então, doze a quarenta e oito horas depois, ocorre a crise. Às vezes por dias. Às vezes pior do que estava antes de tomar a pílula.
 
@@ -35,7 +35,7 @@ O comité de diretrizes NICE 2021 escreveu claramente: “Estimulantes do SNC po
 
 O maior estudo de resultados relatados por pacientes sobre tratamentos EM/SFC, publicado na PNAS em 2025 com 3.925 participantes, revelou uma conclusão que deve fazer todos os prescritores hesitar.
 
-Os estimulantes para PHDA melhoraram a percepção da névoa cerebral em 77,1% dos usuários. Eles também melhoraram a percepção da fadiga em 71,7%.
+Os estimulantes para PHDA melhoraram a percepção do nevoeiro cerebral em 77,1% dos usuários. Eles também melhoraram a percepção da fadiga em 71,7%.
 
 Eles tiveram um efeito *negativo* no mal-estar pós-esforço: −1,5%.
 
@@ -107,7 +107,7 @@ Para pacientes que precisam usar estimulantes, estratégias de redução de dano
 
 **Use monitoramento objetivo.** O estimulante desativa o indicador interno de combustível. Substitua por um externo. Monitores de frequência cardíaca com alarmes configurados no seu limite anaeróbico. Limites de contagem de passos que você não ultrapassa, independentemente de como se sinta. Pausas de descanso cronometradas por um temporizador, e não pelo seu estado de ânimo — porque o seu estado de ânimo é exatamente o que o medicamento está a mentir sobre.
 
-**Use a dose mais baixa intermitentemente.** Reserve os estimulantes para dias em que a função é absolutamente necessária. Nunca use diariamente se puder evitar. Planeje dias de descanso obrigatórios após cada uso — se o estimulante for na terça, quarta e quinta-feira, esses são dias de descanso.
+**Use a dose mais baixa intermitentemente.** Reserve os estimulantes para dias em que a função é absolutamente necessária. Nunca use diariamente se puder evitar. Planeje dias de descanso obrigatórios após cada uso — se o estimulante for na terça-feira, quarta e quinta são dias de descanso.
 
 **Escolha modafinilo ou solriamfetol em vez de anfetaminas ou metilfenidato** se a opção estiver disponível. Eles impõem custos metabólicos diretos mais baixos, não esgotam os reservatórios de neurotransmissores e têm efeitos de rebote mais leves ou ausentes.
 
@@ -119,7 +119,7 @@ Para pacientes que precisam usar estimulantes, estratégias de redução de dano
 
 ## A questão dos custos
 
-A questão relevante não é se os estimulantes ajudam os pacientes com EM/SFC a se sentirem melhor — 77% relatam uma melhora na névoa cerebral, portanto, sim. A questão é: a que custo?
+A questão relevante não é se os estimulantes ajudam os pacientes com EM/SFC a se sentirem melhor — 77% relatam uma melhora no nevoeiro cerebral, portanto, sim. A questão é: a que custo?
 
 Se o custo for uma crise proporcional que o paciente tenha orçado e possa superar — e se a alternativa é perder a capacidade de funcionar numa sociedade que não aceita sua doença — então o compromisso pode ser racional, mesmo que não seja medicamente ideal.
 

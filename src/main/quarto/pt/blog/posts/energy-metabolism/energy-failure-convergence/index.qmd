@@ -1,13 +1,13 @@
 ---
 title: "Uma Doença, Quatorze Pontos de Entrada, Um Ponto de Fim"
-description: "Este é o artigo em direção ao qual tudo nesta série tem se orientado. Se você leu os artigos anteriores sobre mitocôndria, sono, intestino, tiróide, ativação imunológica, hipermobilidade, infecções, depressão e diagnóstico — você viu os detalhes...."
+description: "Este é o artigo em direção ao qual tudo nesta série tem se orientado. Se você leu os artigos anteriores sobre mitocôndria, sono, intestino, tiroide, ativação imunológica, hipermobilidade, infecções, depressão e diagnóstico — você viu os detalhes...."
 author: "Yannick Loth"
 date: "2026-06-12"
 categories: [Energy Metabolism, Systems Biology, Pathophysiology]
 lang: pt
 ---
 
-Este é o artigo em direção ao qual tudo nesta série tem se orientado. Se você leu os artigos anteriores sobre mitocôndria, sono, intestino, tiróide, ativação imunológica, hipermobilidade, infecções, depressão e diagnóstico — você viu os detalhes. Esta é a imagem que eles criam.
+Este é o artigo em direção ao qual tudo nesta série tem se orientado. Se você leu os artigos anteriores sobre mitocôndria, sono, intestino, tiroide, ativação imunológica, hipermobilidade, infecções, depressão e diagnóstico — você viu os detalhes. Esta é a imagem que eles criam.
 
 ---
 
@@ -37,7 +37,7 @@ Os loops se fecham. Cada mecanismo alimenta os outros. Nenhum mecanismo individu
 
 ## Por que os tratamentos focados num único alvo falham
 
-A história dos ensaios clínicos de tratamento da EM/SFC é um cemitério de medicamentos que ajudaram um subgrupo e falharam em média. O Rituximab ajudou alguns pacientes de forma significativa num ensaio clínico aberto de fase II, mas não fez nada em média nos ensaios clínicos de fase III mais amplos [@Fluge2011rituximab; @Fluge2019RituximabPhase3]. O Rintatolimod mostrou sinal em alguns ensaios, mas não em outros. O Valaciclovir ajudou pacientes com reativação documentada de EBV, mas não pacientes sem ela. A substituição de tiróide ajudou o subgrupo de baixo T3. As infusões de ferro ajudaram o subgrupo de baixa ferritina. O CoQ10 ajudou pacientes com deficiência documentada.
+A história dos ensaios clínicos de tratamento da EM/SFC é um cemitério de medicamentos que ajudaram um subgrupo e falharam em média. O Rituximab ajudou alguns pacientes de forma significativa num ensaio clínico aberto de fase II, mas não fez nada em média nos ensaios clínicos de fase III mais amplos [@Fluge2011rituximab; @Fluge2019RituximabPhase3]. O Rintatolimod mostrou sinal em alguns ensaios, mas não em outros. O Valaciclovir ajudou pacientes com reativação documentada de EBV, mas não pacientes sem ela. A substituição de tiroide ajudou o subgrupo de baixo T3. As infusões de ferro ajudaram o subgrupo de baixa ferritina. O CoQ10 ajudou pacientes com deficiência documentada.
 
 Cada tratamento visava um dos quatorze mecanismos. Cada um funcionou — quando esse mecanismo estava ativo no paciente em questão. Em coortes não selecionadas, o sinal foi diluído em ruído.
 
@@ -53,7 +53,7 @@ O framework desenvolvido por esta série implica uma abordagem clínica que dife
 
 - Mitocôndria: teste CPET de 2 dias, ácidos orgânicos, perfil de acilcarnitina [@Naviaux2016metabolomics]
 - Imunologia: painéis de citocinas, função de células NK, marcadores de reativação viral (EBV EA-IgG, HHV-6 IgG)
-- Endócrino: cortisol diurno (4 pontos), tiróide completa (TSH + fT3 + fT4 + rT3 + anticorpos), hormônios sexuais, insulina em jejum
+- Endócrino: cortisol diurno (4 pontos), tiroide completa (TSH + fT3 + fT4 + rT3 + anticorpos), hormônios sexuais, insulina em jejum
 - Vascular: mesa de inclinação com Doppler transcraniano, medição do volume sanguíneo (Daxor BVA-100 ou equivalente)
 - Intestino: teste de respiração com lactulose/glucose (trio-smart para H₂S), análise do microbioma fecal, calprotectina fecal
 - Sono: EEG multi-noite em casa com análise espectral, ou no mínimo oximetria noturna e HRV
@@ -67,7 +67,7 @@ O framework desenvolvido por esta série implica uma abordagem clínica que dife
 - SIBO → rifaximina + procinéticos
 - POTS → compressão, fluidos, fludrocortisona/midodrina
 - MCAS → anti-histamínico, cromoglicato
-- T3 livre baixo → tentativa de substituição de tiróide supervisionada
+- T3 livre baixo → tentativa de substituição de tiroide supervisionada
 - Reativação EBV → tentativa antiviral
 - Sono alfa-delta → estudo DORA (suvorexant), ou protocolos de pesquisa de neuroestimulação
 - Disbiose H₂S → restrição de enxofre, bismuto, probióticos direcionados

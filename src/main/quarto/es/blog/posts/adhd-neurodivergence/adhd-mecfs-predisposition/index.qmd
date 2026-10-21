@@ -25,14 +25,14 @@ Los niños que desarrollaron fatiga no eran simplemente neurodivergentes. Eran n
 
 ## Los datos en EM/SFC en adultos
 
-Entre adultos con EM/SFC confirmada (n = 158, clínica de especialista único) [@SaezFrancas2012adhdcfs]:
+Entre adultos con CFS confirmada (n = 158, clínica de especialista único) [@SaezFrancas2012adhdcfs]:
 
 - **29,7% tenían TDAH en la infancia** — en comparación con aproximadamente 5–7% en la población general. Un enriquecimiento 5 veces mayor.
 - **20,9% aún cumplían con los criterios de TDAH en adultos**
 - Aquellos con TDAH asociado tenían **un inicio más temprano de EM/SFC y un pronóstico peor**
 - La gravedad del TDAH y los síntomas depresivos eran **predictores independientes** de la intensidad de la fatiga
 
-*Advertencias: se trata de una muestra de clínica de especialista en un solo sitio (posible sesgo de referencia), el TDAH se evaluó retrospectivamente en adultos que recordaban síntomas infantiles (sesgo de recordación), y la EM/SFC se diagnosticó según los criterios de Fukuda (más amplio que ICC/CCC). El enriquecimiento puede ser menor en muestras basadas en la comunidad.*
+*Advertencias: se trata de una muestra de clínica de especialista en un solo sitio (posible sesgo de referencia), el TDAH se evaluó retrospectivamente en adultos que recordaban síntomas infantiles (sesgo de recordación), y el CFS se diagnosticó según los criterios de Fukuda (más amplio que ICC/CCC). El enriquecimiento puede ser menor en muestras basadas en la comunidad.*
 
 ---
 

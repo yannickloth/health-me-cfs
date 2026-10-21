@@ -52,7 +52,7 @@ Anos depois, com um diagnóstico de EM/SFC, os mesmos dados da PSG contam uma hi
 
 ## O problema estrutural
 
-A organização nosológica da medicina — categorias de doenças em primeiro lugar, mecanismos em segundo — é um produto da história. A observação clínica precedeu a compreensão mecanística há séculos. Síndromes foram nomeadas antes que alguém soubesse por que ocorriam. A infraestrutura (códigos de faturamento, aprovações de medicamentos, currículos de treinamento, comitês de diretrizes) foi construída em torno dessa estrutura e agora é extremamente resistente a mudanças.
+A organização nosológica da medicina — categorias de doenças em primeiro lugar, mecanismos em segundo — é um produto da história. A observação clínica precedeu a compreensão mecanística há séculos. Síndromes foram nomeadas antes que alguém soubesse por que ocorriam. A infraestrutura (códigos de faturamento, aprovações de medicamentos, currículos de treino, comitês de diretrizes) foi construída em torno dessa estrutura e agora é extremamente resistente a mudanças.
 
 O resultado é um sistema com três modos de falha sistemática:
 

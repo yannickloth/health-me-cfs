@@ -27,13 +27,13 @@ Una forma propuesta de organizar la biología subyacente agrupa esas 17.000 cond
 - Coagulación y hematológica (formación de microcoágulos, hiperactivación de plaquetas, hipercoagulabilidad)
 - Disfunción vascular y endotelial (fallo endotelial, hipoperfusión cerebral, paradoja RAAS)
 - Sistema nervioso autónomo y periférico (POTS, fallo del barorreflejo, neuropatía de fibras pequeñas)
-- Regulación neuroendocrina y hormonal (desvanecimiento HPA, fallo de conversión tiroidea, hormonas sexuales)
-- Neuroloja y thalamocortical (neuroinflamación, desequilibrio E/I, intrusion alfa, fallo glifático)
+- Regulación neuroendocrina y hormonal (atenuación del eje HPA, fallo de conversión tiroidea, hormonas sexuales)
+- Neurología y talamocortical (neuroinflamación, desequilibrio E/I, intrusión alfa, fallo glifático)
 - Metabolismo de aminoácidos y neurotransmisores (IDO/quinurenina, depleción de serotonina, vía NAD⁺)
 - Regulación genómica y epigenética (señales de metilación, atricción de telómeros, bloqueo epigenético postviral)
 - Homeostasis y degradación de proteínas (desregulación HSP, fallo de autofagia, agregación)
 - Muerte celular y senescencia (agotamiento, SASP, piroptosis, ferroptosis)
-- Eje intestino-microbioma-inmune (disbiosis, intestino permeable, translocación LPS, eje intestino-cérebro)
+- Eje intestino-microbioma-inmune (disbiosis, intestino permeable, translocación LPS, eje intestino-cerebro)
 - Persistencia viral y evasión inmune (reactivación de herpesvirus, persistencia de enterovirus)
 - Integridad estructural y tisular (daño muscular, rarefacción capilar, pérdida de fibras nerviosas)
 - Señalización transcripcional y nuclear (NF-κB, Nrf2, desregulación de receptores nucleares)
@@ -87,7 +87,7 @@ Este patrón de fallo no es una historia sobre incompetencia médica. La tasa me
 
 El sistema de clasificación de enfermedades —la medicina organizada en torno a enfermedades nombradas— es un artefacto histórico de más de 260 años, anterior a cualquier comprensión de biología celular, genética o mecanismos moleculares. La observación clínica precedió la comprensión mecanística durante siglos, y los síndromes fueron nombrados mucho antes de que alguien supiera por qué ocurrían. La infraestructura de la medicina moderna —códigos de facturación, categorías de aprobación de medicamentos, límites de especialidades, comités de guías, exámenes de licencia— se construyó posteriormente sobre esta estructura, y ha resultado difícil reorganizarla.
 
-Los comités de guías codifican lo que se sabía cuando se redactaron las guías. En EM/SFC, muchas guías clínicas actuales reflejan la comprensión de principios del 2000, y en algunos países la intervención recomendada principal sigue siendo la terapia de ejercicio gradual —un enfoque que ha sido progresivamente eliminado de las guías en el Reino Unido, Estados Unidos y otros lugares, en parte por razones metodológicas y en parte en respuesta a evidencia acumulada que indica que puede empeorar los síntomas post-exercicio en una proporción significativa de pacientes. La evidencia aquí sigue siendo realmente controvertida, pero un médico que siga una guía local más antigua puede practicar medicina que se desvía significativamente del consenso actual de la investigación.
+Los comités de guías codifican lo que se sabía cuando se redactaron las guías. En EM/SFC, muchas guías clínicas actuales reflejan la comprensión de principios del 2000, y en algunos países la intervención recomendada principal sigue siendo la terapia de ejercicio gradual —un enfoque que ha sido progresivamente eliminado de las guías en el Reino Unido, Estados Unidos y otros lugares, en parte por razones metodológicas y en parte en respuesta a evidencia acumulada que indica que puede empeorar los síntomas post-esfuerzo en una proporción significativa de pacientes. La evidencia aquí sigue siendo realmente controvertida, pero un médico que siga una guía local más antigua puede practicar medicina que se desvía significativamente del consenso actual de la investigación.
 
 Una propuesta de currículo médico [@Frenk2014medicalEducation] formuló la alternativa directamente: el cuerpo puede responder a un insulto de solo una cantidad finita de maneras, y un currículo basado en mecanismos organizaría la formación clínica en torno a esas respuestas finitas, con casos de pacientes ilustrando presentaciones específicas de mecanismos en lugar de añadir una entrada más específica de enfermedad a una taxonomía en constante expansión. Esa propuesta existe en la literatura y aún no se ha convertido en práctica estándar.
 

@@ -13,6 +13,6 @@ A maioria dos textos de defesa apresenta conclusões. Esta série curta faz o op
 2. [Estudo único, afirmações grandiosas: por que n=16 é importante](../single-study-big-claims/)
 3. [O panorama de pesquisa EM/SFC, mapeado](../the-research-landscape-mapped/)
 4. [Onde a nossa evidência é fraca: uma visita às áreas fracas](../where-the-evidence-is-thin/)
-5. [O teste de sangue com genoma 3D: o que a figura de 98% realmente mediu](../the-3d-genome-blood-test/)
+5. [O teste de sangue com genoma 3D: o que a cifra de 98% realmente mediu](../the-3d-genome-blood-test/)
 
-*A tese: um documento que não pode mostrar seus erros não pode ser confiado com suas conclusões.*
+*O fio condutor: um documento que não pode mostrar seus erros não pode ser confiado com suas conclusões.*

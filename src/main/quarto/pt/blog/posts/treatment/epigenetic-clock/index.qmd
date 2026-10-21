@@ -15,9 +15,9 @@ Por que isso acontece ainda não foi completamente explicado. O modelo formal da
 
 ## Como o registo é criado
 
-O mecanismo é a consolidação epigenética: a estabilização progressiva do programa de expressão gênica adequado à doença através da metilação do DNA e modificações de histona.
+O mecanismo é a consolidação epigenética: a estabilização progressiva do programa de expressão génica adequado à doença através da metilação do DNA e modificações de histona.
 
-Durante a fase aguda da EM/SFC — nas semanas e meses após o início da doença — as mudanças na expressão gênica que suprimem o metabolismo e mantêm a ativação imunitária são impulsionadas por sinais de sinalização ativos. As citocinas inflamatórias estão presentes, o circuito de deteção de ameaças está ativo e a célula está a responder aos sinais em curso. Se os sinais forem removidos nesta fase, a expressão gênica pode, em princípio, reverter.
+Durante a fase aguda da EM/SFC — nas semanas e meses após o início da doença — as mudanças na expressão génica que suprimem o metabolismo e mantêm a ativação imunitária são impulsionadas por sinais de sinalização ativos. As citocinas inflamatórias estão presentes, o circuito de deteção de ameaças está ativo e a célula está a responder aos sinais em curso. Se os sinais forem removidos nesta fase, a expressão génica pode, em princípio, reverter.
 
 Ao longo de meses a anos, algo diferente acontece. A sinalização inflamatória repetida inscreve estas mudanças na expressão na camada de cromatina: as marcas de metilação do DNA acumulam-se nos promotores de genes que deveriam estar ativos na saúde, as enzimas DNMT (os escritores de metilação) são recrutadas pelo ambiente inflamatório sustentado, e a metilação resultante silencia progressivamente o programa de “retorno à saúde”. A célula já não precisa do sinal em curso. Ela codificou o estado da doença [Cap. 16 §Consolidação Epigenética].
 
@@ -43,9 +43,9 @@ A previsão quantitativa é que os pacientes tratados dentro desta janela aprese
 
 O mecanismo sugere algo específico sobre quais tipos de tratamento provavelmente se beneficiarão da intervenção precoce.
 
-Tratamentos que visam as consequências a jusante da EM/SFC — sono, dor, sintomas ortostáticos — são limitados pelo alívio dos sintomas, e esse limite não depende significativamente da consolidação epigenética. Um medicamento para sono ajuda o paciente a dormir melhor no primeiro ou décimo ano.
+Tratamentos que visam as consequências a jusante da EM/SFC — sono, dor, sintomas ortostáticos — são limitados pelo alívio dos sintomas, e não pela reversão da doença, e esse limite não depende significativamente da consolidação epigenética. Um medicamento para sono ajuda o paciente a dormir melhor no primeiro ou décimo ano.
 
-Tratamentos que visam as causas raiz e os mecanismos de suporte — abordagens anti-inflamatórias que reduzem a influência da citocina, apoio metabólico que tenta restaurar a produção de energia, modulação imunológica que ataca a produção de autoanticorpos — são aqueles em que a consolidação é importante. A sua capacidade terapêutica depende do grau em que o mecanismo alvo ainda impulsiona a doença, em vez de ser apenas registado no epigenoma. No primeiro ano, a sinalização é ativa e a intervenção pode interromper essa sinalização. No sétimo ano, reduzir a carga de citocinas pode ainda aliviar sintomas, mas o padrão de metilação que foi criado persiste de forma independente [Cap. 16 §Load-Bearing versus Secondary Locks].
+Tratamentos que visam as causas raiz e os mecanismos de suporte — abordagens anti-inflamatórias que reduzem a influência da citocina, apoio metabólico que tenta restaurar a produção de energia, modulação imunológica que ataca a produção de autoanticorpos — são aqueles em que a consolidação é importante. A sua capacidade terapêutica depende do grau em que o mecanismo alvo ainda impulsiona a doença, em vez de ser apenas registado no epigenoma. No primeiro ano, a sinalização é ativa e a intervenção pode interromper essa sinalização. No sétimo ano, reduzir a carga de citocinas pode ainda aliviar sintomas, mas o padrão de metilação que foi criado persiste de forma independente [Cap. 16 §Portantes versus Fechaduras Secundárias].
 
 O modelo não afirma que o tratamento em estágio avançado seja inútil. Afirma que o tratamento em estágio avançado requer abordar diretamente a consolidação — não apenas seus impulsionadores a montante — e que isso é significativamente mais difícil.
 
@@ -57,7 +57,7 @@ Existe um caminho que não requer medicamentos farmacológicos epigenéticos —
 
 A estratégia acessível ao paciente proposta pelo modelo funciona através deste caminho passivo: uma terapia anti-inflamatória sustentada combinada com suporte metabólico (CoQ10 e NR/NMN, que demonstraram benefícios modestos em estudos abertos de EM/SFC [Cap. 33 §Relação com Evidências de Tratamento Existente]) reduz os sinais de citocina e ROS que impulsionam a atividade DNMT, permitindo que a demetilação passiva erode gradualmente o estado consolidado ao longo de 18–24 meses. Isso é lento, requer engajamento contínuo e é mais eficaz quanto mais cedo for iniciado — porque é necessário remover menos consolidação [Cap. 16 §A Estratégia de Reversão Epigenética Acessível ao Paciente].
 
-Para pacientes que já estão num estado de consolidação, este caminho ainda existe, mas atua contra uma metilação mais enraizada. A análise de nivelamento separatriz do modelo mostrou que a intervenção combinada visando a consolidação epigenética é essencial em todos os caminhos de fuga modelados para o atrator grave [Cap. 33 §Dependência da Sequência de Remoção do Bloqueio]. No entanto, a mesma intervenção iniciada no primeiro ano tem probabilidades significativamente maiores do que a mesma intervenção iniciada no oitavo ano.
+Para pacientes que já estão num estado de consolidação, este caminho ainda existe, mas atua contra uma metilação mais enraizada. A análise de deslocamento separatriz do modelo mostrou que a intervenção combinada visando a consolidação epigenética é essencial em todos os caminhos de fuga modelados para o atrator grave [Cap. 33 §Dependência da Sequência de Remoção do Bloqueio]. No entanto, a mesma intervenção iniciada no primeiro ano tem probabilidades significativamente maiores do que a mesma intervenção iniciada no oitavo ano.
 
 ---
 

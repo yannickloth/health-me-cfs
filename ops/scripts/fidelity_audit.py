@@ -183,7 +183,7 @@ TERMS: dict[str, list[tuple[str, str, str]]] = {
         ("cerebrospinal", r"cefalorraquidi", r"cerebrospinal"),
         ("T cell", r"linfócit[oa]s? T\b|células? T\b", r"T cell"),
         ("B cell", r"linfócit[oa]s? B\b|células? B\b", r"B cell"),
-        ("thyroid", r"tiróid", r"thyroid"),
+        ("thyroid", r"tir[óo]id", r"thyroid"),
         ("dysbiosis", r"disbiose", r"dysbiosis"),
         ("glycolysis", r"glicólise", r"glycolys"),
         ("ADHD", r"\bPHDA\b", r"\bADHD\b"),

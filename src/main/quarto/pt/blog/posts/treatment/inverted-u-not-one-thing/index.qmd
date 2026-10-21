@@ -43,7 +43,7 @@ Isso significa que a curva hormética não é uma constante farmacológica. É u
 
 **A surpresa nesta categoria — melatonina.** A melatonina é o medicamento em que a suposição “mais é melhor” falha da maneira menos óbvia, porque o medicamento tem dois efeitos que respondem completamente de forma diferente à dose. O primeiro é o sinal cronobiótico — a mensagem ao relógio do cérebro de que o dia está a acabar e o sono deve começar. Este sinal não se torna mais forte com uma dose maior. É um sinal de fase, não um sedativo: uma vez que informou ao relógio a hora, mais da molécula não acrescenta nada a essa mensagem. O segundo efeito — a ação anti-inflamatória e antioxidante através dos recetores MT1/MT2 que se conectam ao sistema Nrf2 — é hormético. Ele funciona em doses fisiológicas (aproximadamente 0,3–1 mg) e se inverte à medida que a dose sobe para o intervalo suprapisiológico, porque a ocupação alta sustentada desensiva os recetores que transmitiram o sinal protetor.
 
-A armadilha é que os dois efeitos são invisíveis para a pessoa que toma a pílula. Alguém que dorme um pouco com 0,3 mg presume razoavelmente que 3 mg fará com que durma mais — mas o benefício de início do sono que já possui foi o sinal da fase cronobiótica, que não escala, e o benefício anti-inflamatório que não percebeu está a ser silenciosamente extinto pela desensibilização dos recetores. O que parece como “tomar mais do mesmo medicamento útil” é, na verdade, duas mudanças ao mesmo tempo: o efeito de escala que nunca existiu, mais a perda de um benefício hormético que realmente existia. É por isso que um paciente pode relatar que a melatonina “parou de funcionar” ou começou a causar tontura durante o dia, ressaca e humor semelhante à depressão com 3–5 mg. Esses são sinais de exposição supraphysiológica sustentada — a ressaca resultante de um nível elevado de plasma prolongado e o achatamento do humor semelhante à depressão que surge quando uma dose alta suprime o tônus dopaminérgico durante o dia. O medicamento não “desapareceu”. A dose não estava a proteger um benefício; ela estava a apagá-lo.
+A armadilha é que os dois efeitos são invisíveis para a pessoa que toma a pílula. Alguém que dorme um pouco com 0,3 mg presume razoavelmente que 3 mg fará com que durma mais — mas o benefício de início do sono que já possui foi o sinal da fase cronobiótica, que não escala, e o benefício anti-inflamatório que não percebeu está a ser silenciosamente extinto pela desensibilização dos recetores. O que parece como “tomar mais do mesmo medicamento útil” é, na verdade, duas mudanças ao mesmo tempo: o efeito de escala que nunca existiu, mais a perda de um benefício hormético que realmente existia. É por isso que um paciente pode relatar que a melatonina “parou de funcionar” ou começou a causar tontura durante o dia, ressaca e humor semelhante à depressão com 3–5 mg. Esses são sinais de exposição supraphysiológica sustentada — a ressaca resultante de um nível elevado de plasma prolongado e o achatamento do humor semelhante à depressão que surge quando uma dose alta suprime o tónus dopaminérgico durante o dia. O medicamento não “desapareceu”. A dose não estava a proteger um benefício; ela estava a apagá-lo.
 
 ---
 
@@ -117,7 +117,7 @@ A 600 mg, esse pico de processamento pode esgotar o glutationa existente mais ra
 
 **Ketotifen — subtipo 4b.** Benefício MCAS em dose baixa por estabilização de mastócitos; sedação acima do limiar anti-histamínico H1 — a penetração no SNC dependente da dose inverte o benefício líquido.
 
-**Quercetina — subtipo 4c.** Inibição do COMT em dose baixa pode otimizar o tônus das catecolaminas no pré-frontal (semelhante à Categoria 3); em doses mais altas, a inibição excessiva do COMT excede o U de catecolaminas e prejudica a cognição.
+**Quercetina — subtipo 4c.** Inibição do COMT em dose baixa pode otimizar o tónus das catecolaminas no pré-frontal (semelhante à Categoria 3); em doses mais altas, a inibição excessiva do COMT excede o U de catecolaminas e prejudica a cognição.
 
 **A implicação clínica.** Esses medicamentos não compartilham um mecanismo comum entre si, muito menos com as outras categorias. Suas curvas U invertidas são propriedades específicas de cada medicamento — a dose em que o rapamicina perde a seletividade mTORC1 não diz nada sobre a dose em que o modafinilo excede o D1 no pré-frontal, e também não diz nada sobre a dose em que o cebamento de Nrf2 do LDN colapsa. Dentro desta categoria, os três subtipos têm valor diagnóstico diferente: o subtipo 4a (seletividade em dois alvos) revela a reserva de recetores e as proporções de afinidade de alvo; o subtipo 4b (limiar farmacocinético) revela a integridade do BBB e a sensibilidade à penetração no SNC; o subtipo 4c (bioquímica bifásica) revela a capacidade do caminho metabólico. Eles são agrupados aqui porque completam o catálogo — são os medicamentos não monotônicos restantes no artigo — e não porque se agrupam mecanicamente.
 
@@ -136,7 +136,7 @@ As tabelas seguintes fornecem, para cada um dos dezoito medicamentos, uma linha 
 | 0,25–0,5 mg | Microdose; abaixo do limiar de ativação Nrf2 para a maioria; perturbação transitória do sono | Ação opioide detetável em microdose |
 | 0,5–1,5 mg | **cebamento hormético TLR4/Nrf2** — mudança microglial M1→M2 anti-inflamatória; a principal faixa | Bloqueio parcial TLR4 → aumento de Nrf2 |
 | 1,5–3,0 mg | Plataforma de reentrada de endorfinas; benefício preservado | Bloqueio opioide breve durante a noite → produção compensatória de endorfinas |
-| 3,0–4,5 mg | Restauração TRPM3; desinibição orexina ("wired"); fechamento da faixa TLR4 | Fluxo de Ca²⁺ TRPM3; desinibição orexina acompanha a dose-resposta TLR4 |
+| 3,0–4,5 mg | Restauração TRPM3; desinibição orexina ("agitado"); fechamento da faixa TLR4 | Fluxo de Ca²⁺ TRPM3; desinibição orexina acompanha a dose-resposta TLR4 |
 | >4,5 mg | Nenhum mecanismo terapêutico; todos os ótimos valores passados | Nenhum benefício terapêutico |
 | 50 mg | Antagonismo completo ao mu-opióide — danos | Bloqueio completo ao opioide, sem benefício hormético |
 
@@ -144,9 +144,9 @@ As tabelas seguintes fornecem, para cada um dos dezoito medicamentos, uma linha 
 
 | Faixa de dose | Atividade / efeito | Mecanismo |
 |---------------|-------------------|-----------|
-| 0,3–1,0 mg | Ativação Nrf2; prevê amplas faixas LDN/sulforafano | Bloqueio parcial GSK-3β de repressa Nrf2 |
+| 0,3–1,0 mg | Ativação Nrf2; prevê amplas faixas LDN/sulforafano | Bloqueio parcial GSK-3β desreprime Nrf2 |
 | 1,0–5,0 mg | Faixa hormética padrão; ~2 mg proposta como teste diário | Bloqueio GSK-3β; inibição IMPase começa na extremidade superior |
-| 5–15 mg | Benefício apenas aqui → mecanismo não Nrf2/GSK-3β; entorpecimento cognitivo, alterações na tiróide | Inibição IMPase / esgotamento de inositol |
+| 5–15 mg | Benefício apenas aqui → mecanismo não Nrf2/GSK-3β; entorpecimento cognitivo, alterações na tiroide | Inibição IMPase / esgotamento de inositol |
 | 900–1200 mg/dia | Estabilização de humor psiquiátrica padrão; soro 0,6–1,2 mEq/L | Bloqueio completo GSK-3β + IMPase + modulação neurotransmitores |
 
 **Melatonina**
@@ -239,7 +239,7 @@ As tabelas seguintes fornecem, para cada um dos dezoito medicamentos, uma linha 
 | Faixa de dose | Atividade / efeito | Mecanismo |
 |---------------|-------------------|-----------|
 | Gab 100–300 mg / Preg 25–75 mg | Claridade cognitiva, redução da hipersensibilidade sensorial, melhoria do sono | Bloqueio da subunidade α2δ |
-| Gab 300–900 mg / Preg 75–150 mg | Controle de sintomas otimizado; “névoa cerebral” se a supressão noradrenérgica é excessiva | Bloqueio α2δ |
+| Gab 300–900 mg / Preg 75–150 mg | Controle de sintomas otimizado; “nevoeiro cerebral” se a supressão noradrenérgica é excessiva | Bloqueio α2δ |
 | Gab ~300 mg (dose única) | Piora da OSA (AHI ↑); faixa de efeitos colaterais | Colapsibilidade da via aérea superior GABAérgica |
 | Gab 900–3600 mg / Preg 150–600 mg | Faixa padrão de dor neuropática; sedação grave, risco de dependência | Bloqueio α2δ em ocupação total |
 
@@ -267,7 +267,7 @@ As tabelas seguintes fornecem, para cada um dos dezoito medicamentos, uma linha 
 
 | Faixa de dose | Atividade / efeito | Mecanismo |
 |-----------|-------------------|-----------|
-| ~1–5 nM (nível luteal) | Efeito ansiogênico paradoxal; ignorar esta faixa | Apenas site de alta afinidade GABA-A |
+| ~1–5 nM (nível luteal) | Efeito ansiogénico paradoxal; ignorar esta faixa | Apenas site de alta afinidade GABA-A |
 | >10 nM (nível de gravidez) | Anxiolisia, sedação; terapêutico | Ambos os sites de GABA-A ativos |
 | Brexanolone IV 60–90 µg/kg/h | Prova de conceito (depressão pós-parto) | Modulação alostérica positiva do GABA-A |
 
@@ -318,7 +318,7 @@ Se você tratar o U invertido como um único fenómeno, prevê-se que todos os d
 
 ## A previsão falsificável
 
-Se a reserva hormética é uma característica única entre sistemas — uma propriedade geral da fisiologia EM/SFC — então os pontos de inversão devem se correlacionar em todos os dezoito medicamentos. O teste de mecanismo orthogonal é o mais excepcivo: LDN vs modafinilo: recetores completamente distintos (TLR4 vs DAT/NET), tipos de células (microglia vs terminais presináptica) e alvos anatômicos. Se esses dois se correlacionam (r ≥ 0,4), a reserva hormética é uma propriedade genuína do sistema. Se não se correlacionam (r < 0,2), o U invertido é uma coleção de artefatos específicos de cada medicamento e o modelo de característica única é falso.
+Se a reserva hormética é uma característica única entre sistemas — uma propriedade geral da fisiologia EM/SFC — então os pontos de inversão devem se correlacionar em todos os dezoito medicamentos. O teste de mecanismo ortogonal por excelência é LDN vs modafinilo: recetores completamente distintos (TLR4 vs DAT/NET), tipos de células (microglia vs terminais presináptica) e alvos anatômicos. Se esses dois se correlacionam (r ≥ 0,4), a reserva hormética é uma propriedade genuína do sistema. Se não se correlacionam (r < 0,2), o U invertido é uma coleção de artefatos específicos de cada medicamento e o modelo de característica única é falso.
 
 Este teste é especificado no artigo como o estudo HIP-B: seis medicamentos (LDN, sulforaphane, duloxetina, modafinilo, rapamicina, alopregnanolona) em quatro níveis de dose, cruzamento entre pacientes, n ≥ 80 para teste definitivo. Até que o HIP-B ou um equivalente seja realizado, a unidade do U invertido na EM/SFC é uma questão empírica, não um facto estabelecido.
 

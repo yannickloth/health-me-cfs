@@ -43,7 +43,7 @@ La terapia estándar de restricción del sueño hace que las personas pasen meno
 
 **Cálculo del objetivo.** El tiempo inicial en la cama debe ser 30-45 minutos por encima del tiempo promedio de sueño real. Si el sueño real es de 6 horas, esto significa 6,5-6,75 horas en la cama. Para pacientes con horarios de trabajo fijos, el tiempo en la cama puede necesitar alinearse con los horarios de inicio del trabajo, incluso si difiere del ritmo circadiano ideal.
 
-**Monitoreo y ajuste.** Calcular la eficiencia del sueño: (tiempo en reposo ÷ tiempo en la cama) × 100. Si la eficiencia supera el 85%, el tiempo en la cama se reduce en 15 minutos cada semana. Si la eficiencia cae por debajo del 80% o se activa MPE, el tiempo en la cama se aumenta en 15 minutos cada semana. El rango objetivo de eficiencia es del 80-85%—menor que el objetivo saludable del 85-90%, porque el sueño en EM/SFC es fragmentado. Los pacientes que trabajan pueden apuntar inicialmente a un 75-80% de eficiencia, con un aumento gradual hacia el 80-85% si es tolerado.
+**Monitoreo y ajuste.** Calcular la eficiencia del sueño: (tiempo dormido ÷ tiempo en la cama) × 100. Si la eficiencia supera el 85%, el tiempo en la cama se reduce en 15 minutos cada semana. Si la eficiencia cae por debajo del 80% o se activa MPE, el tiempo en la cama se aumenta en 15 minutos cada semana. El rango objetivo de eficiencia es del 80-85%—menor que el objetivo saludable del 85-90%, porque el sueño en EM/SFC es fragmentado. Los pacientes que trabajan pueden apuntar inicialmente a un 75-80% de eficiencia, con un aumento gradual hacia el 80-85% si es tolerado.
 
 **Mantenimiento de la rutina.** Una vez estable en el objetivo de eficiencia, esto continúa durante 2-4 semanas antes de considerar una reducción adicional. La consistencia fortalece el sistema de presión del sueño. Los cambios en el horario de trabajo pueden requerir un re-seguimiento de referencia.
 
@@ -129,7 +129,7 @@ Los cambios en la arquitectura del sueño suelen tardar entre 4 y 6 semanas con 
 
 Puedes dormir doce horas y no obtener restauración si hay interferencias de ondas alfa. Este protocolo se centra en la calidad del sueño, específicamente en maximizar las oscilaciones delta y minimizar las interferencias alfa.
 
-Cada pequeño mejoramiento en la calidad del sueño se traduce en una mejor función al día siguiente. Menos niebla cerebral por la mañana significa un mejor ritmo de actividad. Un sueño profundo más confiable significa una mejor función cognitiva. Un aclaramiento glifático mejorado significa menos neuroinflamación.
+Cada pequeño mejoramiento en la calidad del sueño se traduce en una mejor función al día siguiente. Menos niebla cerebral por la mañana significa un mejor pacing. Un sueño profundo más confiable significa una mejor función cognitiva. Un aclaramiento glifático mejorado significa menos neuroinflamación.
 
 Estos son mejoramientos, no curas.
 

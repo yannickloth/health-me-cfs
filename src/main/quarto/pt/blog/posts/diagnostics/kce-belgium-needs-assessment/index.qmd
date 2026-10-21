@@ -11,7 +11,7 @@ Uma equipa de investigadores de cuidados de saúde do Centro de Conhecimento de 
 
 O relatório foi publicado em 30 de junho de 2026. Não é uma diretriz clínica — os autores são explícitos sobre isso. É uma avaliação de necessidades: o que os pacientes com EM/SFC realmente precisam e em que grau o sistema de cuidados de saúde falha em fornecer isso? Quatro associações de pacientes colaboraram no projeto. Três especialistas internacionais validaram o relatório. O governo belga financiou o projeto.
 
-A resposta, em resumo: o sistema falha em todos os níveis, e os dados que quantificam essa falha devem mudar a forma como médicos, formuladores de políticas e pesquisadores pensam sobre esta doença.
+A resposta, em resumo: o sistema falha em todos os níveis, e os dados que quantificam essa falha devem mudar a forma como médicos, formuladores de políticas e investigadores pensam sobre esta doença.
 
 ---
 
@@ -97,7 +97,7 @@ Os dados de emprego espanhol de Castro-Marrero de 2019 indicaram 58,6% de desemp
 
 Um achado específico para a Bélgica, mas relevante para qualquer sistema de cuidados de saúde multilingue: os pacientes falantes de francês tiveram uma queda significativamente maior na qualidade de vida em comparação com os pacientes falantes de holandês (−0,57 vs −0,47, uma diferença estatística robusta) [@Cornelis2026KCE420].
 
-A explicação mais plausível é estrutural: o único centro de referência para EM/SFC financiado pelo governo da Bélgica está na Flandres de língua holandesa. Os pacientes falantes de francês na Valónia enfrentam custos mais altos, distâncias de viagem mais longas e menos fornecedores especializados. A análise qualitativa de perguntas abertas do suplemento (n=237 respostas de texto livre) confirmou que os pacientes falantes de francês relataram necessidades não atendidas maiores, menor satisfação com os cuidados e maiores problemas de acessibilidade [@Cornelis2026KCE420S].
+A explicação mais plausível é estrutural: o único centro de referência para EM/SFC financiado pelo governo da Bélgica está na Flandres de língua holandesa. Os pacientes falantes de francês na Valónia enfrentam custos do próprio bolso mais altos, distâncias de viagem mais longas e menos fornecedores especializados. A análise qualitativa de perguntas abertas do suplemento (n=237 respostas de texto livre) confirmou que os pacientes falantes de francês relataram necessidades não atendidas maiores, menor satisfação com os cuidados e maiores problemas de acessibilidade [@Cornelis2026KCE420S].
 
 A disparidade entre francófonos e holandófons funciona como um quase-experimento natural: duas populações com a mesma doença, mesmo país, acesso diferente aos cuidados de saúde. A explicação mais plausível para a lacuna é estrutural — tempo mais longo até o diagnóstico, menos opções de tratamento e maior pressão financeira predizem independentemente uma qualidade de vida mais baixa, e os pacientes falantes de francês experimentaram todos os três mais severamente. No entanto, fatores confusores (diferenças culturais na percepção da doença, variáveis socioeconômicas e o próprio desequilíbrio de amostragem do inquérito, de 88,7% holandófono vs 11,3% francófono) significam que a questão causal permanece em aberto [@Cornelis2026KCE420S].
 
@@ -161,7 +161,7 @@ O relatório KCE foi elaborado para o governo belga — é um documento de polí
 
 2. **Mostrar ao seu médico a tabela de comorbidades.** Se você tem EM/SFC mais sintomas gastrointestinais, sintomas ortostáticos ou sintomas compatíveis com MCAS, o KCE fornece a prevalência em nível populacional que apoia o rastreamento sistemático. Você não é excepcional — você é típico.
 
-3. **Usar os dados do atraso no diagnóstico quando for descartado.** Se o seu médico afirmar que a EM/SFC não existe ou que você simplesmente precisa se exercitar mais, o relatório documenta que 50% dos pacientes esperam mais de 2 anos por um diagnóstico — e que essa espera *agressivamente piora os resultados.* Um médico que prolonga o atraso no diagnóstico está a contribuir para a carga da doença.
+3. **Usar os dados do atraso no diagnóstico quando for descartado.** Se o seu médico afirmar que a EM/SFC não existe ou que você simplesmente precisa se exercitar mais, o relatório documenta que 50% dos pacientes esperam mais de 2 anos por um diagnóstico — e que essa espera *ativamente piora os resultados.* Um médico que prolonga o atraso no diagnóstico está a contribuir para a carga da doença.
 
 4. **Se você está em Bélgica:** o relatório KCE foi encomendado pelo governo belga e tem peso institucional. Citá-lo à sua mutualidade (fundo de seguro de saúde), ao médico de saúde ocupacional da sua empresa, ao avaliador de deficiência ou ao seu médico de família tem mais força do que citar um artigo de revista publicado — porque o relatório é dirigido às instituições que controlam o seu acesso a cuidados e benefícios.
 
@@ -179,7 +179,7 @@ A pesquisa sobre EM/SFC está subfinanciada em todos os aspectos — o próprio 
 
 ---
 
-*Nota: Este artigo baseia-se na integração completa do relatório KCE no artigo sobre EM/SFC (concluído em 21-07-2026). O relatório KCE e o suplemento são: Cornelis J, De Meulemeester K, Christiaens W, Jonckheer P, Savoye I, Dauvrin M, Kohn L, Castanares-Zapatero D (2026). Gestão da Encefalomielite Miálgica/Síndrome de Fadiga Crónica na Bélgica: Uma Análise Baseada nas Necessidades dos Pacientes. Centro de Conhecimento da Saúde da Bélgica. Relatórios KCE 420 e 420S. DOI: 10,57598/R420C e 10,57598/R420S.*
+*Nota: Este artigo baseia-se na integração completa do relatório KCE no artigo sobre EM/SFC (concluído em 21-07-2026). O relatório KCE e o suplemento são: Cornelis J, De Meulemeester K, Christiaens W, Jonckheer P, Savoye I, Dauvrin M, Kohn L, Castanares-Zapatero D (2026). Gestão da Encefalomielite Miálgica/Síndrome de Fadiga Crónica na Bélgica: Uma Análise Baseada nas Necessidades dos Pacientes. Centro de Conhecimento da Saúde da Bélgica. Relatórios KCE 420 e 420S. DOI: 10.57598/R420C e 10.57598/R420S.*
 
 ---
 
@@ -190,5 +190,5 @@ O KCE é uma avaliação de necessidades, não uma diretriz clínica. Não faz r
 Pontos clínicos específicos:
 - **A qualidade de vida na EM/SFC é devastadora (EQ-5D-5L 0,36)** — comparável às condições mais incapacitantes na medicina. No estudo de 2015 de Hvidberg que realizou comparações diretas, a EM/SFC ficou abaixo de câncer, MS e acidente vascular cerebral. Os dados mais recentes do KCE confirmam a gravidade. Reconheça isso diretamente com os pacientes.
 - **O rastreamento de comorbidades é obrigatório.** Sete em dez pacientes têm pelo menos uma condição adicional que requer exames e tratamento separados. Fibromialgia, POTS, MCAS, SII e neuropatia de fibras pequenas não são "superposição funcional" — são condições diagnosticáveis com caminhos de tratamento específicos.
-- **O atraso no diagnóstico é um dano iatrogênico.** Cada ano de atraso piora independentemente os resultados (uma associação estatística robusta). Se um paciente apresenta 6 meses de mal-estar pós-esforço (MPE — piora desproporcional dos sintomas após esforço), uma impressão inicial de diagnóstico de EM/SFC (com exames adequados de exclusão) é mais segura do que um desvio de diagnóstico de vários anos em direção psiquiatria, burnout ou "espera atenta".
+- **O atraso no diagnóstico é um dano iatrogénico.** Cada ano de atraso piora independentemente os resultados (uma associação estatística robusta). Se um paciente apresenta 6 meses de mal-estar pós-esforço (MPE — piora desproporcional dos sintomas após esforço), uma impressão inicial de diagnóstico de EM/SFC (com exames adequados de exclusão) é mais segura do que um desvio de diagnóstico de vários anos em direção psiquiatria, burnout ou "espera atenta".
 - **Não prescreva GET para pacientes não selecionados.** O sinal de 26% de resposta em minoria é inexplicável e o subgrupo ainda não foi caracterizado. A taxa de dano de 74% tem prioridade.

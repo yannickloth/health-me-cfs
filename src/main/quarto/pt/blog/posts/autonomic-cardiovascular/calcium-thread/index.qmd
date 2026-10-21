@@ -60,14 +60,14 @@ Neste ponto, a situação parece esta:
 | Tecido | Problema de cálcio | Consequência clínica |
 |--------|-------------------|---------------------|
 | Músculo | Reversão do trocador de sódio-cálcio → sobrecarga de cálcio (secundária à falha de sódio/energia) | Mal-estar pós-esforço, intolerância ao exercício |
-| Células imunológicas | Disfunção do canal TRPM3 (primário) | Impedimento na eliminação de patógenos, exaustão imunológica |
+| Células imunológicas | Disfunção do canal TRPM3 (primário) | Impedimento na eliminação de patogénios, exaustão imunológica |
 | Tálamo | Hiperexcitabilidade dos canais de cálcio sensíveis à tensão elétrica | Sono não restaurador, comprometimento cognitivo |
 
 Serão esses três problemas independentes que ocorrem simultaneamente apenas por acaso, já que a EM/SFC é uma doença multissistémica? Ou são expressões de uma única desregulação de cálcio subjacente?
 
 A hipótese do TRPM3 oferece um candidato para uma explicação unificadora. O TRPM3 não é expresso apenas em células imunológicas. É expresso em todo o sistema nervoso central, incluindo neurónios cerebrais. Desempenha um papel na libertação espontânea de neurotransmissores, na homeostase de cálcio neuronal e na excitabilidade dos circuitos sensoriais e cerebrais. Se a disfunção do TRPM3 fosse sistémica, em vez de restrita a células imunológicas — afetando tanto neurónios quanto células killer naturais —, alteraria o processamento de cálcio nos circuitos do tálamo, potencialmente contribuindo para as anomalias de oscilação observadas em estudos de sono.
 
-Isso ainda não está estabelecido. A disfunção do TRPM3 na EM/SFC foi demonstrada apenas em células imunológicas. Se o mesmo comprometimento existe em neurónios do tálamo, nunca foi medido. É uma hipótese, não um facto.
+Isso ainda não está estabelecido. A disfunção do TRPM3 na EM/SFC foi demonstrada apenas em células imunológicas. Se o mesmo comprometimento existe em neurónios do tálamo, nunca foi medido. É uma hipótese, não um achado.
 
 Mas é uma hipótese falsificável. Um único experimento — medindo a função do TRPM3 em modelos de células neuronais, ou em tecidos cerebrais post-mortem de pacientes com EM/SFC, ou indiretamente através de imagens da dinâmica de cálcio no tálamo — poderia responder à questão.
 
@@ -81,11 +81,11 @@ A via TRPM3 pode ser primária — o canal é quebrado primeiro, e falha energé
 
 Estes dois subtipos preveriam respostas terapêuticas diferentes. Abordar a cascata de sódio-cálcio (com estimuladores da Na⁺/K⁺-ATPase, bloqueadores de canal de sódio ou suporte mitocondrial) atinge o mecanismo secundário. Restaurar a função do TRPM3 (LDN sendo o candidato atual) atinge o primário. Num paciente onde ambos estão ativos, ambos podem ser necessários.
 
-O mesmo medicamento aplicado ao subtipo errado não produziria resposta — e isso pode explicar uma parte significativa dos fracassos dos ensaios clínicos em EM/SFC que têm confundido pesquisadores há décadas.
+O mesmo medicamento aplicado ao subtipo errado não produziria resposta — e isso pode explicar uma parte significativa dos fracassos dos ensaios clínicos em EM/SFC que têm confundido investigadores há décadas.
 
 ---
 
-## A linha
+## A trama
 
 Um elemento, três sistemas, pelo menos dois mecanismos distintos, possivelmente uma causa raiz.
 

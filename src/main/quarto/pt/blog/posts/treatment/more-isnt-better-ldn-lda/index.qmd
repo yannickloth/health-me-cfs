@@ -7,7 +7,7 @@ categories: [Treatment, Pharmacology, ME/CFS]
 lang: pt
 ---
 
-Você tomou 0,5 mg de naltrexona em doses baixas por três meses. A névoa cerebral diminuiu. A inflamação em todo o corpo — aquela sensação envenenada, semelhante à de gripe — diminuiu para um ruído de fundo. Pela primeira vez em anos, você consegue ler um capítulo de livro. Você leva este relatório ao seu médico.
+Você tomou 0,5 mg de naltrexona em doses baixas por três meses. O nevoeiro cerebral diminuiu. A inflamação em todo o corpo — aquela sensação envenenada, semelhante à de gripe — diminuiu para um ruído de fundo. Pela primeira vez em anos, você consegue ler um capítulo de livro. Você leva este relatório ao seu médico.
 
 “Isso é ótimo”, ela diz. “Vamos tentar 4,5 mg e ver se pode obter ainda mais benefício.”
 
@@ -21,7 +21,7 @@ Esta experiência é tão comum nas comunidades de EM/SFC que ganhou uma explica
 
 A explicação padrão para a LDN é que ela bloqueia os recetores TLR4 nas microglias, reduzindo a neuroinflamação. Isso é verificado em modelos de animais e linhas celulares (rodent EAE, microglias BV-2 de ratos); a confirmação em humanos é limitada. Além disso, a LDN não é suficiente. Na verdade, a LDN atinge quatro alvos, e cada alvo tem uma concentração ótima diferente.
 
-**TLR4 → Priming hormético de Nrf2 (0,5–1,5 mg).** Em doses muito baixas, a LDN *parcialmente* bloqueia o TLR4 — e o bloqueio parcial é o ponto chave. A célula detecta a redução da sinalização TLR4 e compensa aumentando a expressão de Nrf2, um fator de transcrição principal que ativa dezenas de genes anti-inflamatórios e antioxidantes. As microglias passam da M1 (pro-inflamatória, liberadora de citocinas) para a M2 (anti-inflamatória, eliminação de detritos). Isso é hormese: o estresse leve do bloqueio parcial dos recetores desencadeia uma resposta adaptativa que é maior do que o próprio bloqueio.
+**TLR4 → cebamento hormético de Nrf2 (0,5–1,5 mg).** Em doses muito baixas, a LDN *parcialmente* bloqueia o TLR4 — e o bloqueio parcial é o ponto chave. A célula detecta a redução da sinalização TLR4 e compensa aumentando a expressão de Nrf2, um fator de transcrição principal que ativa dezenas de genes anti-inflamatórios e antioxidantes. As microglias passam da M1 (pro-inflamatória, liberadora de citocinas) para a M2 (anti-inflamatória, eliminação de detritos). Isso é hormese: o estresse leve do bloqueio parcial dos recetores desencadeia uma resposta adaptativa que é maior do que o próprio bloqueio.
 
 Mas esse mecanismo requer algum tono residual de TLR4. Se o TLR4 for bloqueado completamente, a célula não detecta mais o estresse, e o aumento compensatório de Nrf2 é desligado. O benefício hormético não desaparece — ele colapsa. Aumentar a LDN de 1,5 mg para 3,0 mg pode ser a diferença entre um programa anti-inflamatório ativo e um silencioso.
 
@@ -105,7 +105,7 @@ Se você se beneficia em todo o intervalo da LDN sem perder o benefício com 4,5
 
 Se você perde o benefício da LDA quando passa de 1 mg para 2 mg, sua reserva de recetores D2 é limitada — poucos recetores, e o agonismo de cada um é importante. Se o seu benefício persiste até 2 mg, sua reserva de recetores é ampla.
 
-Nenhum desses fatos requer um biomarcador. A curva dose-resposta *é* o indicador.
+Nenhum desses factos requer um biomarcador. A curva dose-resposta *é* o indicador.
 
 ---
 

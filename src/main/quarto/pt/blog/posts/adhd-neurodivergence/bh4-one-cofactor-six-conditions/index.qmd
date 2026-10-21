@@ -7,7 +7,7 @@ categories: [Neurodivergence, Biochemistry, Pathophysiology]
 lang: pt
 ---
 
-Este é o quinto artigo de uma série sobre a biologia da energia que relaciona PHDA, autismo e EM/SFC. Artigos anteriores estabeleceram a hipótese da reserva metabólica e o cluster de neurodivergentes-hipermovibilidade. Este artigo foca numa única molécula que pode ser o ponto de bloqueio convergente que liga todos eles.
+Este é o quinto artigo de uma série sobre a biologia da energia que relaciona PHDA, autismo e EM/SFC. Artigos anteriores estabeleceram a hipótese da reserva metabólica e o cluster de neurodivergentes-hipermobilidade. Este artigo foca numa única molécula que pode ser o ponto de bloqueio convergente que liga todos eles.
 
 ---
 
@@ -17,7 +17,7 @@ A tetrahidrobiopterina (BH4) é um cofator — uma molécula auxiliar necessári
 
 - **Tirosina hidroxilase (TH)** → a enzima limitadora da taxa para a síntese de dopamina e noradrenalina
 - **Triptofano hidroxilase (TPH)** → a enzima limitadora da taxa para a síntese de serotonina
-- **As três isoformas da óxido nítrico sintase (NOS)** → produção de óxido nítrico, o principal regulador do tônus vascular
+- **As três isoformas da óxido nítrico sintase (NOS)** → produção de óxido nítrico, o principal regulador do tónus vascular
 
 Sem BH4 adequado, o cérebro não pode produzir seus três principais neurotransmissores monoaminados E NÃO pode regular seu próprio fluxo sanguíneo. Um défice. Quatro falhas a jusante. [@Fanet2021BH4neuro]
 
@@ -29,7 +29,7 @@ O que torna o BH4 notável no contexto da hipótese da reserva metabólica é qu
 
 ### 1. PHDA: esgotamento através do consumo
 
-Toda vez que a tirosina hidroxilase converte a tirosina em L-DOPA (o precursor da dopamina), uma molécula de BH4 é oxidada em dihidrobiopterina (BH2). Em seguida, ela deve ser reciclada de volta para BH4 pela enzima dihidroterpídeina redutase (DHPR).
+Toda vez que a tirosina hidroxilase converte a tirosina em L-DOPA (o precursor da dopamina), uma molécula de BH4 é oxidada em dihidrobiopterina (BH2). Em seguida, ela deve ser reciclada de volta para BH4 pela enzima dihidropteridina redutase (DHPR).
 
 Neste modelo, o cérebro com PHDA que utiliza seus sistemas de dopamina com mais intensidade para compensar os déficits de recetores e a hipoperfusão préfrontal [@Yokokura2021D1Rmicroglia] consome BH4 mais rapidamente. Maior demanda, mesma taxa de reciclagem, esgotamento líquido.
 
@@ -135,11 +135,11 @@ A hipótese de convergência de BH4 sugere que medir uma molécula poderia:
 3. **Explicar** por que a mesma infeção produz EM/SFC em algumas pessoas e não em outras
 4. **Unificar** condições predisponentes aparentemente separadas sob um único quadro metabólico
 
-O estudo mais importante ainda não foi realizado: medir o estado de BH4 em pacientes neurodivergent antes de eles adoecer. Acompanhar esses pacientes durante as infeções. Verificar se um baixo nível de BH4 prevê quem desenvolve EM/SFC.
+O estudo mais importante ainda não foi realizado: medir o estado de BH4 em pacientes neurodivergentes antes de eles adoecer. Acompanhar esses pacientes durante as infeções. Verificar se um baixo nível de BH4 prevê quem desenvolve EM/SFC.
 
 Um cofator. Um teste. Uma resposta potencial — se a hipótese estiver correta.
 
-*Observação: BH4 é um dos muitos cofatoris que ligam vários sistemas. Argumentos de convergência semelhantes poderiam ser construídos para folato, B12, CoQ10 ou magnésio. O que distingue a BH4 é que a mesma molécula regula tanto a síntese de neurotransmissores quanto a regulação vascular — mas se ela é O gargalo ou apenas um dos muitos cofatoris afetados ainda precisa ser determinado. Os ensaios de suplementação de BH4 em ASD apresentaram resultados variados, o que deve diminuir a confiança numa explicação baseada numa única molécula.*
+*Observação: BH4 é um dos muitos cofatores que ligam vários sistemas. Argumentos de convergência semelhantes poderiam ser construídos para folato, B12, CoQ10 ou magnésio. O que distingue a BH4 é que a mesma molécula regula tanto a síntese de neurotransmissores quanto a regulação vascular — mas se ela é O gargalo ou apenas um dos muitos cofatores afetados ainda precisa ser determinado. Os ensaios de suplementação de BH4 em ASD apresentaram resultados variados, o que deve diminuir a confiança numa explicação baseada numa única molécula.*
 
 ---
 

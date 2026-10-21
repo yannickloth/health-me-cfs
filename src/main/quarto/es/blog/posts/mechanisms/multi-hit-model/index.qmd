@@ -13,7 +13,7 @@ Esta es una de las preguntas centrales de la enfermedad. ¿Por qué, a partir de
 
 ---
 
-## Una frontera, no una roca
+## Una frontera, no un precipicio
 
 El marco de sistemas dinámicos desarrollado en los capítulos 16 y 33 propone una respuesta específica basada en el concepto de una separatrix: la frontera en el espacio de estados que separa la cuenca del atractor saludable de las cuencas de los atractores enfermos [Cap. 33 §Análisis de suficiencia de disparo].
 
@@ -29,7 +29,7 @@ Varios factores pueden desplazar la posición base de una persona hacia el lími
 
 La variación genética que afecta la eficiencia del complejo I mitocondrial, la función de las células NK y la susceptibilidad autoinmune vinculada a HLA puede colocar a las personas más cerca del umbral desde el nacimiento. Estas variantes no causan EM/SFC en ausencia de un desencadenante; limitan el margen de recuperación cuando un desencadenante llega [Cap. 33 §Escenarios de Múltiples Impactos e Interacciones de Desencadenantes].
 
-La autoimunidad previa —la formación de autoanticuerpos subclínicos antes de cualquier desencadenante de EM/SFC— es otro factor predisponente. El modelo estima el umbral crítico de autoanticuerpo en aproximadamente 0,55–0,65 (normalizado), lo que significa que los pacientes con autoanticuerpos de GPCR circulantes ya elevados debido a eventos inmunitarios previos pueden encontrarse en un estado en el que incluso un insulto infeccioso moderado sea suficiente para cruzar la línea divisoria [Cap. 33 §Análisis de la Cadena de Autoanticuerpos de GPCR].
+La autoinmunidad previa —la formación de autoanticuerpos subclínicos antes de cualquier desencadenante de EM/SFC— es otro factor predisponente. El modelo estima el umbral crítico de autoanticuerpo en aproximadamente 0,55–0,65 (normalizado), lo que significa que los pacientes con autoanticuerpos de GPCR circulantes ya elevados debido a eventos inmunitarios previos pueden encontrarse en un estado en el que incluso un insulto infeccioso moderado sea suficiente para cruzar la línea divisoria [Cap. 33 §Análisis de la Cadena de Autoanticuerpos de GPCR].
 
 La canalopatía de TRPM3 merece una mención separada. TRPM3 es un canal iónico permeable a calcio que participa en la activación de las células NK y la función de las neuronas sensoriales. Los polimorfismos que reducen la función de TRPM3 no parecen, por sí solos, ser suficientes para desencadenar la enfermedad; no impulsan independientemente el sistema hacia el estado de enfermedad. Pero son el factor predisponente más fuerte en el marco: el coeficiente de interacción entre TRPM3 y el complejo I es 0,45, lo que significa que la disfunción de TRPM3 reduce significativamente el umbral para otros desencadenantes [Cap. 33 §Escenarios de Múltiples Impactos e Interacciones de Desencadenantes].
 

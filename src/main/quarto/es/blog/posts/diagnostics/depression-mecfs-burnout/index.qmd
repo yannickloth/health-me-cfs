@@ -126,7 +126,7 @@ Esta confusión continúa. Los pacientes con EM/SFC siguen referidos a servicios
 
 ## ¿Qué cambiaría si dejáramos de usar una palabra
 
-Si los formularios de ingreso clínico reemplazaran "fatiga: sí/no" con un discriminador de cuatro ítems — fatiga periférica, fatigabilidad/MPE, somnolencia, amotivación — el camino de diagnóstico se dividiría en la primera visita en lugar de en la quinta. El paciente con EM/SFC nunca recibiría la prescripción de ejercicio. El paciente deprimido nunca recibiría el protocolo de pacing. El paciente burnout recibiría el descanso que necesita en lugar de los medicamentos que no necesita.
+Si los formularios de ingreso clínico reemplazaran "fatiga: sí/no" con un discriminador de cuatro ítems — fatiga periférica, fatigabilidad/MPE, somnolencia, amotivación — el camino de diagnóstico se dividiría en la primera visita en lugar de en la quinta. El paciente con EM/SFC nunca recibiría la prescripción de ejercicio. El paciente deprimido nunca recibiría el protocolo de ritmo de descanso (pacing). El paciente burnout recibiría el descanso que necesita en lugar de los medicamentos que no necesita.
 
 El obstáculo no es la tecnología, ni la financiación, ni la investigación. Es el vocabulario. Una palabra, pretendiendo describir una cosa, aplicada a cuatro. La biología ha sido clara durante años. El lenguaje no ha seguido el paso.
 

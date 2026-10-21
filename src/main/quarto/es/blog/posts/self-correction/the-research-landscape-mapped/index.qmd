@@ -13,6 +13,6 @@ A partir de 2026, cataloga **149 proyectos de investigación** (desde 2019 en ad
 
 **Por qué esto es importante tanto para pacientes como para investigadores.** Hace visible la duplicación de investigaciones, hace observables las brechas y proporciona a los financiadores un mapa de quién ya está investigando qué. Si existe un proyecto que le interese, puede averiguarlo; si un área completa está vacía, ahora también es visible.
 
-**Las limitaciones.** Es un producto beta, seleccionado por una fundación y proporcionado “sin ninguna garantía”; refleja informes voluntarios y puede subestimar trabajos no publicados o no regionales. Indexa la actividad de investigación, pero no publica muestras de biología o datos de participantes (ese es el trabajo de los biobancos).
+**Las limitaciones.** Es un producto beta, seleccionado por una fundación y proporcionado “sin ninguna garantía”; refleja informes voluntarios y puede subestimar trabajos no publicados o no regionales. Indexa la actividad de investigación, pero no publica muestras biológicas o datos de participantes (ese es el trabajo de los biobancos).
 
 **Cómo usarlo.** Antes de proponer nueva investigación, verifique el registro. Antes de asumir que “nadie está investigando esto”, verifique el registro. Es un pequeño, concreto paso hacia un campo que se conoce a sí mismo.

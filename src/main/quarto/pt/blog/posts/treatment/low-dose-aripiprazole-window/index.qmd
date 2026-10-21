@@ -21,7 +21,7 @@ Para entender o problema, comece pelo recetor. O aripiprazol atua principalmente
 
 A dopamina em si é um *ativador completo*. Quando se liga ao recetor D2, ela ativa o recetor em aproximadamente 100% de sua capacidade.
 
-O aripiprazol não pode fazer isso. Sua forma molecular limita o quanto pode dobrar o recetor, então ativa o D2 apenas em cerca de um quarto da capacidade total — aproximadamente 25–30% da ativação produzida por um agonista completo [@Burris2002aripiprazoleD2; @Shapiro2003aripiprazole]. É o que a farmacologia chama de *agonista parcial*: ele se liga ao recetor e o ativa parcialmente, e fisicamente não pode ativá-lo mais, independentemente da quantidade de medicamento presente [@Burris2002aripiprazoleD2]. Este flip dependente da ocupação — um agonista parcial que adiciona sinal onde o ligante natural é escasso e o subtrai onde o ligante natural é abundante — é uma propriedade documentada do recetor [@Shapiro2003aripiprazole; @Loth2026mecfs], e é por isso que as curvas de resposta em forma de U são um fenómeno farmacológico geral, e não uma peculiaridade de uma única doença [@Sun2020yinYangHormesis].
+O aripiprazol não pode fazer isso. Sua forma molecular limita o quanto pode dobrar o recetor, então ativa o D2 apenas em cerca de um quarto da capacidade total — aproximadamente 25–30% da ativação produzida por um agonista completo [@Burris2002aripiprazoleD2; @Shapiro2003aripiprazole]. É o que a farmacologia chama de *agonista parcial*: ele se liga ao recetor e o ativa parcialmente, e fisicamente não pode ativá-lo mais, independentemente da quantidade de medicamento presente [@Burris2002aripiprazoleD2]. Esta inversão dependente da ocupação — um agonista parcial que adiciona sinal onde o ligante natural é escasso e o subtrai onde o ligante natural é abundante — é uma propriedade documentada do recetor [@Shapiro2003aripiprazole; @Loth2026mecfs], e é por isso que as curvas de resposta em forma de U são um fenómeno farmacológico geral, e não uma peculiaridade de uma única doença [@Sun2020yinYangHormesis].
 
 Essa única propriedade — um limite máximo de ativação — é a base de toda a história. Mas ela se torna paradoxal apenas quando se entende contra o que o medicamento está a competir.
 
@@ -43,7 +43,7 @@ Portanto, uma molécula faz coisas opostas em diferentes contextos: aumenta o to
 
 A ligação ocorre seguindo uma regra simples chamada ação de massa: quanto mais medicamento presente, mais recetores ele ocupa. A relação entre ocupação e resposta fisiológica não é uma linha reta — ela é influenciada por fatores como reserva de recetores e recetores sobrantes, de modo que o efeito funcional pode mudar abruptamente quando a ocupação ultrapassa um limiar [@Finlay2020receptorOccupancy]. Essa é a regra que gera a janela no comportamento do aripiprazol.
 
-Numa baixa concentração, apenas uma pequena parte dos recetores D2 é ocupada. A dopamina ainda ocupa a maioria deles. Num paciente com deficiência de dopamina, a pequena porcentagem ocupada adiciona um pouco de ativação — um auxílio líquido. Crucialmente, ainda há espaço para a dopamina própria do corpo continuar cumprindo sua função.
+Numa baixa concentração, apenas uma pequena parte dos recetores D2 é ocupada. A dopamina ainda ocupa a maioria deles. Num paciente com deficiência de dopamina, a pequena percentagem ocupada adiciona um pouco de ativação — um auxílio líquido. Crucialmente, ainda há espaço para a dopamina própria do corpo continuar cumprindo sua função.
 
 À medida que a concentração aumenta, o medicamento ocupa cada vez mais recetores. Depois de um ponto — aproximadamente metade dos recetores ocupados — o equilíbrio muda. Agora, o aripiprazol substitui a dopamina na maioria dos locais. Em vez de reabastecer alguns recetores ociosos, ele silencia um sistema de sinalização que precisa estar ativo. O agonismo líquido torna-se antagonismo líquido, e o efeito terapêutico inverte [@Loth2026mecfs].
 
@@ -57,29 +57,29 @@ Não existe um segundo mecanismo de “dose alta” separado que cause danos. É
 
 Há uma segunda razão pela qual a janela é importante, e ela se situa um nível acima dos recetores individuais: *onde* no cérebro o medicamento atua primeiro.
 
-O aripiprazol não se liga a todos os sítios D2 de forma igual. Possui uma forte afinidade por uma população especial — os *autoreceptores* que se encontram nos neurónios que liberam dopamina. Um autoreceptor atua como um travão: quando detecta dopamina, diz ao neurónio para diminuir o seu próprio disparo e liberar [@Ford2014D2autoreceptor]. Um medicamento que ativa levemente estes autoreceptores pode *desinibir* a libertação — alivia o travão, e o neurónio libera mais dopamina onde é necessário.
+O aripiprazol não se liga a todos os sítios D2 de forma igual. Possui uma forte afinidade por uma população especial — os *autorecetores* que se encontram nos neurónios que liberam dopamina. Um autorecetor atua como um travão: quando detecta dopamina, diz ao neurónio para diminuir o seu próprio disparo e liberar [@Ford2014D2autoreceptor]. Um medicamento que ativa levemente estes autorecetores pode *desinibir* a libertação — alivia o travão, e o neurónio libera mais dopamina onde é necessário.
 
-Em microdoses, espera-se que a baixa ocupação fracional ative primeiro esta população de autoreceptores finamente ajustada, juntamente com os autoreceptores de serotonina 5-HT1A que abafam a sinalização de stress [@Loth2026mecfs]. O efeito líquido é um aumento suave e direcionado nos circuitos que governam a motivação e a calma — precisamente o que um paciente com deficiência de dopamina precisa [@Salamone2012dopamine].
+Em microdoses, espera-se que a baixa ocupação fracional ative primeiro esta população de autorecetores finamente ajustada, juntamente com os autorecetores de serotonina 5-HT1A que abafam a sinalização de stress [@Loth2026mecfs]. O efeito líquido é um aumento suave e direcionado nos circuitos que governam a motivação e a calma — precisamente o que um paciente com deficiência de dopamina precisa [@Salamone2012dopamine].
 
 Em doses mais altas, o medicamento afeta os recetores D2 pós-sinápticos, muito mais numerosos, em todo o cérebro. O ajuste delicado da libertação é agora sobrecarregado pela ocupação geral dos recetores que recebem o sinal. O bloqueio em massa anula a facilitação seletiva. O efeito sutil da dose baixa não é amplificado; é escondido.
 
-Vale ser preciso na linguagem aqui. Os recetores D2 pré-sinápticos e pós-sinápticos são a *mesma proteína*. Não são dois tipos diferentes de recetores com afinidades intrínsecas distintas. O que difere é a sensibilidade funcional e o circuito em que se encontram — os autoreceptores exercem todo o seu efeito com uma ocupação mais baixa, pois precisam apenas de um pequeno sinal para influenciar a libertação, e são apoiados por uma reserva de recetores maior do que um alvo a jusante [@Ford2014D2autoreceptor]. É uma diferença de localização e necessidade, não uma diferença entre duas espécies moleculares distintas. O resultado prático é o mesmo: ocupação baixa ajusta, ocupação alta submerge [@Loth2026mecfs].
+Vale ser preciso na linguagem aqui. Os recetores D2 pré-sinápticos e pós-sinápticos são a *mesma proteína*. Não são dois tipos diferentes de recetores com afinidades intrínsecas distintas. O que difere é a sensibilidade funcional e o circuito em que se encontram — os autorecetores exercem todo o seu efeito com uma ocupação mais baixa, pois precisam apenas de um pequeno sinal para influenciar a libertação, e são apoiados por uma reserva de recetores maior do que um alvo a jusante [@Ford2014D2autoreceptor]. É uma diferença de localização e necessidade, não uma diferença entre duas espécies moleculares distintas. O resultado prático é o mesmo: ocupação baixa ajusta, ocupação alta submerge [@Loth2026mecfs].
 
 ---
 
 ## A imagem numa curva
 
-Ao combinar os dois passos, o formato “U invertido” aparece. No braço esquerdo, mais medicamento = mais autorreceptores ocupados = mais libertação = benefício crescente. Em algum ponto no meio, encontra-se o ponto ótimo — a faixa em que o medicamento aumenta a libertação sem silenciar a sinalização pós-sináptica. No braço direito, a ocupação cruza o ponto de inflexão, o agonismo líquido torna-se antagonismo líquido, e o benefício diminui em direção ao dano.
+Ao combinar os dois passos, o formato “U invertido” aparece. No braço esquerdo, mais medicamento = mais autorrecetores ocupados = mais libertação = benefício crescente. Em algum ponto no meio, encontra-se o ponto ótimo — a faixa em que o medicamento aumenta a libertação sem silenciar a sinalização pós-sináptica. No braço direito, a ocupação cruza o ponto de inflexão, o agonismo líquido torna-se antagonismo líquido, e o benefício diminui em direção ao dano.
 
 ```
-Benefit
+Benefício
    ▲          ┌────────┐
    │        ┌─┘        └─┐
-   │      ┌─┘   ← the    └─┐
-   │     ┌┘     window     └┐
+   │      ┌─┘   ← a      └─┐
+   │     ┌┘     janela     └┐
    │    ┌┘                  └┐
-   │   ┌┘                    └┐  ← high dose:
-   └───┴──────────────────────┴────▶ concentration
+   │   ┌┘                    └┐  ← dose alta:
+   └───┴──────────────────────┴────▶ concentração
       0.2–2 mg             5+ mg
 ```
 
@@ -105,4 +105,4 @@ O aripiprazol não precisa ser nem muito forte nem muito fraco, pois é um agoni
 
 ---
 
-*Complemento à série dose-resposta: [Parte 1: Por que mais não é melhor — LDN e LDA](../more-isnt-better-ldn-lda/) · [Parte 2: O U invertido não é uma única coisa](../inverted-u-not-one-thing/) · [Parte 4: A Farmacopeia](../pharmacopoeia-dose-meaning/) · Relacionado: [Rejeite a dose, não o medicamento](../dose-first-search-strategy/). O agonismo parcial do D2 e a baixa atividade intrínseca do aripiprazol estão estabelecidos na literatura de farmacologia primária [@Burris2002aripiprazoleD2; @Shapiro2003aripiprazole], e a fisiologia do feedback negativo dos autorreceptores D2 em [@Ford2014D2autoreceptor]. A constatação da janela de dose clínica no EM/SFC é documentada por Crosby et al. [@Crosby2021LDA]; o papel da dopamina no esforço e motivação por Salamone e Correa [@Salamone2012dopamine]; e a teoria de ocupação de recetores/recetores reservados por Finlay et al. [@Finlay2020receptorOccupancy]. A aplicação desses conhecimentos à leitura de ocupação de baixa dose no EM/SFC e a classificação do U invertido do aripiprazol como distinto da hormesia são desenvolvidas na documentação primária [@Loth2026mecfs], com o fenómeno geral de ocupação em forma de U sendo abordado em [@Sun2020yinYangHormesis].*
+*Complemento à série dose-resposta: [Parte 1: Por que mais não é melhor — LDN e LDA](../more-isnt-better-ldn-lda/) · [Parte 2: O U invertido não é uma única coisa](../inverted-u-not-one-thing/) · [Parte 4: A Farmacopeia](../pharmacopoeia-dose-meaning/) · Relacionado: [Rejeite a dose, não o medicamento](../dose-first-search-strategy/). O agonismo parcial do D2 e a baixa atividade intrínseca do aripiprazol estão estabelecidos na literatura de farmacologia primária [@Burris2002aripiprazoleD2; @Shapiro2003aripiprazole], e a fisiologia do feedback negativo dos autorrecetores D2 em [@Ford2014D2autoreceptor]. A constatação da janela de dose clínica no EM/SFC é documentada por Crosby et al. [@Crosby2021LDA]; o papel da dopamina no esforço e motivação por Salamone e Correa [@Salamone2012dopamine]; e a teoria de ocupação de recetores/recetores reservados por Finlay et al. [@Finlay2020receptorOccupancy]. A aplicação desses conhecimentos à leitura de ocupação de baixa dose no EM/SFC e a classificação do U invertido do aripiprazol como distinto da hormesia são desenvolvidas na documentação primária [@Loth2026mecfs], com o fenómeno geral de ocupação em forma de U sendo abordado em [@Sun2020yinYangHormesis].*

@@ -13,6 +13,6 @@ La mayoría de los textos de promoción presenta conclusiones. Esta breve serie 
 2. [Un estudio único, afirmaciones grandiosas: por qué n=16 es importante](../single-study-big-claims/)
 3. [El panorama de la investigación EM/SFC, mapeado](../the-research-landscape-mapped/)
 4. [Dónde nuestra evidencia es débil: un recorrido por los puntos débiles](../where-the-evidence-is-thin/)
-5. [La prueba de sangre con genoma 3D: lo que la cifra del 98% realmente medió](../the-3d-genome-blood-test/)
+5. [La prueba de sangre con genoma 3D: lo que la cifra del 98% realmente midió](../the-3d-genome-blood-test/)
 
 *El tema: un documento que no puede mostrar sus errores no puede ser confiado con sus conclusiones.*

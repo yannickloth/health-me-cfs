@@ -15,7 +15,7 @@ Isso não é uma anomalia médica. É uma **síncope neurocardiogénica** — um
 
 ## Passo 1: O impacto — As fibras Aδ disparam primeiro (0–100 ms)
 
-O corpo humano possui dois tipos de fibras de dor que percorrem da pele até a medula espinhal e ao cérebro. Ambas estão localizadas dentro dos nervos periféricos. As mais rápidas são chamadas de **fibras Aδ** — pense nelas como a via expressa. Elas estão envoltas num isolamento gorduroso chamada **mielina** (my-uh-lin), que permite que sinais elétricos se propaguem a cerca de 5–30 metros por segundo. Um esmagamento mecânico de um nervo periférico — como um pulso que atinge a esquina de uma mesa no nervo ulnar perto do canal de Guyon — despolariza (ativa elétricamente) essas fibras Aδ instantaneamente.
+O corpo humano possui dois tipos de fibras de dor que percorrem da pele até a medula espinal e ao cérebro. Ambas estão localizadas dentro dos nervos periféricos. As mais rápidas são chamadas de **fibras Aδ** — pense nelas como a via expressa. Elas estão envoltas num isolamento gorduroso chamada **mielina** (my-uh-lin), que permite que sinais elétricos se propaguem a cerca de 5–30 metros por segundo. Um esmagamento mecânico de um nervo periférico — como um pulso que atinge a esquina de uma mesa no nervo ulnar perto do canal de Guyon — despolariza (ativa elétricamente) essas fibras Aδ instantaneamente.
 
 O que elas transmitem ao cérebro é uma **dor aguda e localizável**: o ponto exato de impacto. As fibras Aδ fornecem a sensação de "dor" que indica exatamente onde você foi ferido.
 
@@ -29,7 +29,7 @@ O segundo tipo de fibra de dor é a **fibra C**. Elas são não-mielinizadas —
 
 As fibras C não apenas relatam danos. Elas liberam **substância P** e **peptídeo relacionado ao gene de calcitonina (CGRP)** no local da lesão — duas moléculas que causam **inflamação neurogénica**. A substância P torna as paredes dos capilares próximos mais permeáveis: as lacunas entre as células que revestem o vaso aumentam, e o plasma sanguíneo (a componente líquida clara do sangue, não o sangue total) vaza para o tecido circundante. O CGRP dilata as pequenas artérias que alimentam a área, aumentando o fluxo sanguíneo. O plasma que vaza transporta proteínas complementares e fatores de coagulação. **Mastócitos** — células imunitárias localizadas nos tecidos — detectam os sinais de dano, se desgranulam (liberam seus pacotes internos de histamina e outros mediadores inflamatórios) e amplificam toda a cascata. Este processo **sensibiliza** as terminações nervosas, o que significa que a mesma fibra C agora dispara com um limiar mais baixo do que antes da lesão. Também recruta fibras C vizinhas que inicialmente não estavam envolvidas.
 
-É por isso que a dor não fica estável após o impacto inicial. Ela **aumenta** — porque a cascata inflamatória local amplifica o sinal, mesmo que o insulto mecânico já tenha terminado. num sistema nervoso sensibilizado, essa escalada pode ser quase vertical.
+É por isso que a dor não fica estável após o impacto inicial. Ela **aumenta** — porque a cascata inflamatória local amplifica o sinal, mesmo que o agressão mecânica já tenha terminado. num sistema nervoso sensibilizado, essa escalada pode ser quase vertical.
 
 O que chega ao cérebro ~1–2 segundos após o impacto é um aumento na entrada de sinais das fibras C: sinalização de dor difusa, crescente, impossível de ignorar *isso não está a melhorar, isso está a piorar* — e em síncope de início rápido, a consciência colapsa no ponto mais acentuado dessa escalada.
 
@@ -37,19 +37,19 @@ O que chega ao cérebro ~1–2 segundos após o impacto é um aumento na entrada
 
 ## Passo 3: O **nucleus tractus solitarius** — onde o reflexo sequestra o sistema (~1–2 segundos)
 
-Toda a informação nociceptiva (dor) sobe pela medula espinhal e tronco cerebral até uma estrutura chamada **nucleus tractus solitarius (NTS)** na medula oblongata — a parte mais baixa do cérebro, logo acima da medula espinhal. O NTS é o centro de integração central para **sensações viscerais**: ele recebe informações do coração, pulmões, intestino e — criticamente — dos nociceptores [@Benarroch2022NTS].
+Toda a informação nociceptiva (dor) sobe pela medula espinal e tronco cerebral até uma estrutura chamada **nucleus tractus solitarius (NTS)** na medula oblongata — a parte mais baixa do cérebro, logo acima da medula espinal. O NTS é o centro de integração central para **sensações viscerais**: ele recebe informações do coração, pulmões, intestino e — criticamente — dos nociceptores [@Benarroch2022NTS].
 
 Quando o NTS recebe um **envio intenso e de início rápido de informações nociceptivas**, interpreta isso como um sinal de ameaça excessivamente grande para que os sistemas regulatórios normais possam lidar. Isso desencadeia uma anulação de emergência.
 
 ---
 
-## Passo 4: A cascata autónoma dupla — ativação do nervo vago + retirada do tônus simpático (~1,5–2,5 segundos)
+## Passo 4: A cascata autónoma dupla — ativação do nervo vago + retirada do tónus simpático (~1,5–2,5 segundos)
 
 O NTS envia dois sinais de saída simultâneos [@Raj2020syncope]:
 
 **Sinal 1: Ativação do nervo vago.** O **nervo vago** (nervo craniano X, o décimo nervo craniano — existem doze conjuntos de nervos numerados diretamente ligados ao cérebro) transporta fibras parassimpáticas para o coração. Quando o NTS dispara, a saída vagal para o nó sinoatrial do coração — seu marcapassos natural — aumenta. A frequência cardíaca diminui drasticamente. Isso é chamado de **bradicardia** (frequência cardíaca lenta).
 
-**Sinal 2: Retirada do tônus simpático.** O NTS inibe simultaneamente o **rostral ventrolateral medulla (RVLM)** — a região do tronco cerebral que normalmente mantém o tônus simpático nos vasos sanguíneos. Os nervos simpáticos que normalmente mantêm as artérias e veias ligeiramente estreitas ficam inativos. Os vasos sanguíneos se dilatam. A pressão arterial cai. Isso é **vasodilatação** — o lado vascular do reflexo.
+**Sinal 2: Retirada do tónus simpático.** O NTS inibe simultaneamente o **rostral ventrolateral medulla (RVLM)** — a região do tronco cerebral que normalmente mantém o tónus simpático nos vasos sanguíneos. Os nervos simpáticos que normalmente mantêm as artérias e veias ligeiramente estreitas ficam inativos. Os vasos sanguíneos se dilatam. A pressão arterial cai. Isso é **vasodilatação** — o lado vascular do reflexo.
 
 Juntos: o coração bombeia mais lentamente E os vasos sanguíneos ficam mais relaxados. O sangue que estava a caminho do cérebro começa a acumular nas pernas e na região abdominal. **Pressão de perfusão cerebral** — o gradiente de pressão que impulsiona o sangue para o crânio — colapsa.
 
@@ -71,7 +71,7 @@ Na síncope com início rápido de dor, a escalada pode reduzir esses sintomas p
 
 **Síncope** (SIN-co-pee) é o termo médico para a perda transitória de consciência devido à hipoperfusão cerebral [@Grubb2005syncope] [@Adkisson2017syncope]. Não é uma convulsão — é o cérebro desligar sistemas não essenciais para preservar o metabolismo fundamental, como um computador entrando em modo de suspensão de emergência quando a bateria atinge 1%.
 
-Durante a síncope, o tônus muscular é perdido (a pessoa desaba), o que, na verdade, é a medida mais eficaz do corpo: **deitar-se na horizontal remove o gradiente de gravidade** que puxava o sangue para fora do cérebro. Na posição supina — deitado de costas —, o coração e o cérebro estão aproximadamente no mesmo nível, e a pressão de perfusão é restaurada pela física simples.
+Durante a síncope, o tónus muscular é perdido (a pessoa desaba), o que, na verdade, é a medida mais eficaz do corpo: **deitar-se na horizontal remove o gradiente de gravidade** que puxava o sangue para fora do cérebro. Na posição supina — deitado de costas —, o coração e o cérebro estão aproximadamente no mesmo nível, e a pressão de perfusão é restaurada pela física simples.
 
 ---
 
@@ -80,7 +80,7 @@ Durante a síncope, o tônus muscular é perdido (a pessoa desaba), o que, na ve
 Uma vez na posição horizontal no chão, três eventos ocorrem simultaneamente:
 
 1. **Eliminação da gravidade.** Não há mais resistência da coluna hidrostática contra o coração.
-2. **Reativação do barorreflexo.** Os barorreceptores nas artérias carótidas — sensores de pressão que antes gritavam *muito baixo!* — agora percebem a pressão restaurada e começam a normalizar a saída autonómica.
+2. **Reativação do barorreflexo.** Os barorrecetores nas artérias carótidas — sensores de pressão que antes gritavam *muito baixo!* — agora percebem a pressão restaurada e começam a normalizar a saída autonómica.
 3. **Retorno da autorregulação cerebral.** O mecanismo intrínseco do cérebro para manter o fluxo sanguíneo constante numa faixa de pressões volta a funcionar.
 
 Os neurónios corticais, que estavam sem nutrição alguns segundos antes, começam a ativar novamente. A consciência reorganiza — não instantaneamente como ligar um interruptor, mas após alguns segundos, com desorientação e uma percepção vaga de ter estado em outro lugar.
@@ -103,7 +103,7 @@ Nem todos que sofrem um impacto no nervo desmaiam. A resposta depende da fisiolo
 
 ### 1. Alto tom basal do nervo vago
 
-Algumas pessoas naturalmente têm um nervo vago mais reativo — frequência cardíaca em repouso mais baixa, resposta mais forte à manobra de Valsalva (pressão, como ao levantar algo pesado), mais fácil desencadeamento de bradicardia com pressão no pescoço (sensibilidade ao seno carotídeo). Essas pessoas têm o **ramo vagal** do reflexo pré-sensibilizado. Uma entrada nociceptiva determinada produz uma queda maior da frequência cardíaca do que em alguém com tônus vagal médio.
+Algumas pessoas naturalmente têm um nervo vago mais reativo — frequência cardíaca em repouso mais baixa, resposta mais forte à manobra de Valsalva (pressão, como ao levantar algo pesado), mais fácil desencadeamento de bradicardia com pressão no pescoço (sensibilidade ao seno carotídeo). Essas pessoas têm o **ramo vagal** do reflexo pré-sensibilizado. Uma entrada nociceptiva determinada produz uma queda maior da frequência cardíaca do que em alguém com tónus vagal médio.
 
 ### 2. POTS (Síndrome da Taquicardia Ortostática Postural)
 

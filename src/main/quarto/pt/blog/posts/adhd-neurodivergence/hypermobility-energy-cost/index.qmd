@@ -7,21 +7,21 @@ categories: [Hypermobility, Energy Metabolism, Comorbidities]
 lang: pt
 ---
 
-Ela parece saudável. É jovem, magra e consegue tocar as palmas das mãos no chão sem dobrar os joelhos. Os médicos a chamaram de “flexível” desde a infância, e os fisioterapeutas admiraram seu alcance de movimento. Ninguém lhe disse que sua flexibilidade é um déficit estrutural — que seus ligamentos são feitos de colágeno que não mantém as articulações unidas como deveria — e que esse déficit custa ao seu corpo três vezes mais energia para fazer tudo o que uma pessoa com articulações normais faz sem pensar.
+Ela parece saudável. É jovem, magra e consegue tocar as palmas das mãos no chão sem dobrar os joelhos. Os médicos a chamaram de “flexível” desde a infância, e os fisioterapeutas admiraram seu alcance de movimento. Ninguém lhe disse que sua flexibilidade é um déficit estrutural — que seus ligamentos são feitos de colagénio que não mantém as articulações unidas como deveria — e que esse déficit custa ao seu corpo três vezes mais energia para fazer tudo o que uma pessoa com articulações normais faz sem pensar.
 
-O distúrbio do espectro da hipermobilidade (HSD) e a síndrome de Ehlers-Danlos hipermóvel (hEDS) são condições de tecido conjuntivo — especificamente, de colágeno. A proteína que forma o esqueleto estrutural dos ligamentos, tendões, pele, vasos sanguíneos e a matriz extracelular de praticamente todos os órgãos do corpo. Quando o colágeno é anormalmente elástico, toda estrutura que ele constrói também é anormalmente elástica. As articulações não mantêm sua posição. Os vasos sanguíneos não mantêm o tônus. O trato digestivo não transporta os conteúdos de forma eficiente. As consequências se espalham por todos os sistemas, e o custo energético acumulado é um custo que o paciente paga a cada minuto de cada dia.
+O distúrbio do espectro da hipermobilidade (HSD) e a síndrome de Ehlers-Danlos hipermóvel (hEDS) são condições de tecido conjuntivo — especificamente, de colagénio. A proteína que forma o esqueleto estrutural dos ligamentos, tendões, pele, vasos sanguíneos e a matriz extracelular de praticamente todos os órgãos do corpo. Quando o colagénio é anormalmente elástico, toda estrutura que ele constrói também é anormalmente elástica. As articulações não mantêm sua posição. Os vasos sanguíneos não mantêm o tónus. O trato digestivo não transporta os conteúdos de forma eficiente. As consequências se espalham por todos os sistemas, e o custo energético acumulado é um custo que o paciente paga a cada minuto de cada dia.
 
 ---
 
 ## O custo invisível em cada movimento
 
-Numa pessoa com juntas normalmente articuladas, os ligamentos fornecem estabilidade passiva. Quando você fica em pé, os ligamentos do joelho mantêm a articulação na posição sem qualquer esforço muscular. Os músculos estão livres para fazer outras coisas — gerar movimento, responder a perturbações, suportar cargas. Os ligamentos são como fios de aço num poste de tenda: eles fornecem estabilidade estrutural gratuitamente [@HakimGrahame2003hypermobility].
+Numa pessoa com juntas normalmente articuladas, os ligamentos fornecem estabilidade passiva. Quando você fica em pé, os ligamentos do joelho mantêm a articulação na posição sem qualquer esforço muscular. Os músculos estão livres para fazer outras coisas — gerar movimento, responder a perturbações, suportar cargas. Os ligamentos são como cabos de estai num poste de tenda: eles fornecem estabilidade estrutural gratuitamente [@HakimGrahame2003hypermobility].
 
 Numa pessoa hipermóvel, os ligamentos são elásticos o suficiente para não estabilizar completamente a articulação. Os músculos precisam compensar. Em cada articulação, em cada momento, os músculos posturais realizam o trabalho que os ligamentos deveriam fazer passivamente. Ficar parado não é fácil — requer contínua contração ativa dos músculos para evitar que a articulação se subluxe, se hiperextenda ou se mova para uma posição instável.
 
 Isso tem um custo metabólico direto. A contração do músculo esquelético requer ATP. A contração contínua de baixo nível — o tipo necessário para estabilizar articulações hipermóveis durante atividades normais — requer gasto de ATP sustentado que não ocorre em pessoas com juntas normalmente articuladas. Uma pessoa hipermóvel sentada numa cadeira gasta mais energia do que uma pessoa com juntas normalmente articuladas sentada na mesma cadeira, porque seus músculos estabilizam ativamente sua coluna, quadris e ombros contra a gravidade de uma maneira que os ligamentos deveriam fazer gratuitamente.
 
-O sistema proprioceptivo — a rede de sensores nas articulações, tendões e músculos que informa a posição do corpo ao cérebro — também está a trabalhar em excesso. Numa articulação estável, a entrada proprioceptiva é simples: a articulação está na posição, os ligamentos confirmam isso, o cérebro quase não registra isso. Numa articulação hipermóvel, a entrada proprioceptiva é ruim e não confiável. A articulação se move. O cérebro recebe sinais de correção contínuos. A carga computacional de processar dados de posição de cada articulação instável, continuamente, não é trivial — e o processamento cognitivo consome glicose.
+O sistema proprioceptivo — a rede de sensores nas articulações, tendões e músculos que informa a posição do corpo ao cérebro — também está a trabalhar em excesso. Numa articulação estável, a entrada proprioceptiva é simples: a articulação está na posição, os ligamentos confirmam isso, o cérebro quase não registra isso. Numa articulação hipermóvel, a entrada proprioceptiva é ruidosa e não confiável. A articulação se move. O cérebro recebe sinais de correção contínuos. A carga computacional de processar dados de posição de cada articulação instável, continuamente, não é trivial — e o processamento cognitivo consome glicose.
 
 O resultado: uma pessoa com hipermobilidade gasta significativamente mais energia na postura, no movimento e no monitoramento da posição do corpo do que uma pessoa com juntas normalmente articuladas realizando atividades idênticas. Isso não está documentado em aplicativos de contagem de calorias ou livros de fisiologia do exercício. É invisível para quem mede “atividade” por passos dados ou minutos de exercício. Mas as mitocôndrias sabem.
 
@@ -31,7 +31,7 @@ O resultado: uma pessoa com hipermobilidade gasta significativamente mais energi
 
 O tecido conjuntivo não está apenas nas articulações. Ele forma as paredes dos vasos sanguíneos. Na hipermobilidade, os vasos sanguíneos são anormalmente distensíveis — eles se esticam mais facilmente sob pressão. Isso tem uma consequência específica e devastadora para a regulação da pressão arterial.
 
-Quando uma pessoa com hEDS se levanta, o sangue acumula nas veias distensíveis do corpo inferior. Normalmente, o tônus venoso e a bomba muscular retornam o sangue ao coração rapidamente. Em hEDS, as veias se esticam excessivamente, o acúmulo de sangue é maior e o retorno venoso diminui. O coração recebe menos sangue. O débito cardíaco cai. A pressão arterial cai. O cérebro, que está no topo do sistema circulatório, é perfundado por último e menos [@Roma2018POTShEDS; @DeWandele2014dysautonomiaEDS].
+Quando uma pessoa com hEDS se levanta, o sangue acumula nas veias distensíveis do corpo inferior. Normalmente, o tónus venoso e a bomba muscular retornam o sangue ao coração rapidamente. Em hEDS, as veias se esticam excessivamente, o acúmulo de sangue é maior e o retorno venoso diminui. O coração recebe menos sangue. O débito cardíaco cai. A pressão arterial cai. O cérebro, que está no topo do sistema circulatório, é perfundido por último e menos [@Roma2018POTShEDS; @DeWandele2014dysautonomiaEDS].
 
 Este é o mecanismo do síndrome da taquicardia ortostática postural em pacientes com hEDS: a frequência cardíaca sobe para compensar a redução do volume sistólico, produzindo taquicardia. O paciente experimenta palpitações, tontura e disfunção cognitiva ao ficar em pé — não porque o coração esteja doente, mas porque os vasos sanguíneos são muito distensíveis para manter uma pré-carga adequada.
 
@@ -53,7 +53,7 @@ Para um paciente com hEDS que também tem MCAS, a equação energética é devas
 
 ## A cadeia completa
 
-Comece com colágeno defeituoso. Siga as consequências:
+Comece com colagénio defeituoso. Siga as consequências:
 
 1. **Instabilidade articular** → compensação muscular contínua → aumento do custo de ATP em todos os movimentos e postura
 2. **Fragilidade vascular** → acúmulo de sangue → POTS → taquicardia compensatória → aumento do custo energético cardíaco

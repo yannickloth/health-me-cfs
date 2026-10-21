@@ -19,7 +19,7 @@ A coorte de nascimento ALSPAC — uma das maiores pesquisas longitudinais do mun
 - **Características autismo aos 7 anos → OR = 1,78** (95% CI 1,17–2,72, p = 0,004)
 - **IL-6 aos 9 anos mediou o caminho** — independente da depressão
 
-As crianças que desenvolveram fadiga não eram apenas neurodivergentes. Eram neurodivergentes E já inflamadas. A inflamação foi medível nove anos antes da fadiga aparecer.
+As crianças que desenvolveram fadiga não eram apenas neurodivergentes. Eram neurodivergentes E já inflamadas. A inflamação foi medível nove anos completos antes da fadiga aparecer.
 
 ---
 
@@ -65,17 +65,17 @@ O modelo prevê **histerese** — a reversão da infeção não reverte a EM/SFC
 
 ---
 
-## Dissociação estimulante: consistente com o modelo
+## A dissociação dos estimulantes: consistente com o modelo
 
 Uma pesquisa PNAS de 2025 com 3.925 pacientes com EM/SFC descobriu [@Eckey2025PatientReported]:
 
-- Estimulantes melhoraram a **névoa cerebral em 77,1%**
+- Estimulantes melhoraram a **nevoeiro cerebral em 77,1%**
 - Estimulantes melhoraram a **percepção de fadiga em 71,7%**
 - Estimulantes tiveram um **efeito líquido de -1,5% no MPE**
 
 Esta dissociação é exatamente o que o modelo de reserva metabólica prevê. Os estimulantes aumentam a eficiência das catecolaminas — reduzindo o custo energético de cada unidade cognitiva. Eles aumentam efetivamente o espaço cognitivo. No entanto, eles não aumentam a capacidade máxima das mitocôndria. O MPE é desencadeado pelo gasto metabólico total que excede a capacidade de produção, algo que os estimulantes não alteram.
 
-A melhoria na cognição frequentemente leva a um aumento da atividade — gastando os “saldos” em vez de depositá-los. O resultado líquido: melhor névoa cerebral, MPE inalterado ou pior.
+A melhoria na cognição frequentemente leva a um aumento da atividade — gastando os “saldos” em vez de depositá-los. O resultado líquido: melhor nevoeiro cerebral, MPE inalterado ou pior.
 
 ---
 
@@ -83,7 +83,7 @@ A melhoria na cognição frequentemente leva a um aumento da atividade — gasta
 
 Um ponto crítico frequentemente ignorado: os dados do ALSPAC mostram que **as características da PHDA precedem o início da fadiga em quase uma década** [@Quadt2024neurodivergentfatigue]. Isso não significa que a EM/SFC cause a PHDA. É a PHDA que indica os cérebros que se quebrarão primeiro quando um gatilho imunológico chegar.
 
-A prevalência de 29,7% de PHDA na infância nas coortes de CFS conta a mesma história, por outro lado [@SaezFrancas2012adhdcfs]: quase um terço dos pacientes com EM/SFC tinha um défice de energia pré-existente que podia ser diagnosticado como PHDA na infância.
+A prevalência de 29,7% de PHDA na infância nas coortes de CFS conta a mesma história a partir da outra direção [@SaezFrancas2012adhdcfs]: quase um terço dos pacientes com EM/SFC tinha um défice de energia pré-existente que podia ser diagnosticado como PHDA na infância.
 
 ---
 

@@ -39,7 +39,7 @@ Sob este modelo, a sobrecarga sensorial não é uma peculiaridade de personalida
 
 Se o modelo de energia cerebral fosse uma ideia isolada, seria fácil descartá-lo. Não é isolado. Três linhas de evidências independentes apontam na mesma direção.
 
-**1. A disfunção mitocondrial é sistémica e basal.** Uma revisão sistemática e meta-análise de 204 estudos encontrou lactato, piruvato e alanina elevados em pessoas autistas, juntamente com creatina quinase e um índice lactato/piruvato elevado — os mesmos marcadores da cadeia de transporte de eletrões observados em distúrbios do metabolismo energético [@Frye2024ASDmitochondria]. Crucialmente, estes estão presentes na **base**, não apenas após stresse. É uma característica constitutiva do corpo, e não um artefato da demanda cerebral.
+**1. A disfunção mitocondrial é sistémica e basal.** Uma revisão sistemática e meta-análise de 204 estudos encontrou lactato, piruvato e alanina elevados em pessoas autistas, juntamente com creatina quinase e um índice lactato/piruvato elevado — os mesmos marcadores da cadeia de transporte de eletrões observados em distúrbios do metabolismo energético [@Frye2024ASDmitochondria]. Crucialmente, estes estão presentes na **linha de base**, não apenas após stresse. É uma característica constitutiva do corpo, e não um artefato da demanda cerebral.
 
 **2. Um cofator específico está consistentemente baixo.** A tetrahidrobiopterina (BH4) é a molécula auxiliar essencial para as enzimas que produzem dopamina, serotonina e óxido nítrico. Uma revisão sistemática encontrou **BH4 consistentemente mais baixo** em amostras biológicas de indivíduos autistas [@ColpaniFilho2025BH4ASD]. BH4 baixo significa que o cérebro não pode produzir seus principais neurotransmissores *e* não pode regular seu próprio fluxo sanguíneo — um défice, múltiplas falhas a jusante.
 
@@ -77,7 +77,7 @@ Seria uma falha para os pacientes vender este modelo de forma exagerada. O model
 
 ## O experimento decisivo
 
-Existe um teste que pode separar o modelo dos alternativos: a medição da razão **glicose CSF-plasma**. Se realmente existir um gargalo no transporte de glicose, a glicose do fluido espinhal deveria ser baixa em relação à glicose do sangue — a mesma indicação usada para diagnosticar a deficiência de GLUT1. Este é um teste clínico padrão, já utilizado para a deficiência de GLUT1, e nunca foi realizado em populações de autistas para testar esta questão específica.
+Existe um teste que pode separar o modelo dos alternativos: a medição da razão **glicose CSF-plasma**. Se realmente existir um gargalo no transporte de glicose, a glicose do fluido espinal deveria ser baixa em relação à glicose do sangue — a mesma indicação usada para diagnosticar a deficiência de GLUT1. Este é um teste clínico padrão, já utilizado para a deficiência de GLUT1, e nunca foi realizado em populações de autistas para testar esta questão específica.
 
 Se a razão for anormal, isso definiria um subgrupo biologicamente distinto com uma justificativa clara para o tratamento. Se for normal, a versão do modelo com defeito de transporte provavelmente está errada, e o verdadeiro problema é a entrega ou a inflamação.
 
@@ -120,12 +120,12 @@ Nem todos os tratamentos são iguais. Nossa pesquisa distingue cinco níveis de 
 | Nível | O que faz | Exemplo |
 |---|---|---|
 | **Restaurativo** | Reverte um defeito estrutural/funcional | Restaurar a função de uma enzima danificada |
-| **Corretivo** | Interrompe um ciclo de amplificação autossustentável | Neutralizar anticorpos no subgrupo imunológico |
+| **Corretivo** | Interrompe um ciclo de amplificação autossustentável | Anticorpos neutralizantes no subgrupo imunológico |
 | **Modulador de limiar** | Eleva o limiar em que a patologia desencadeia | Elevar o limiar de ativação das microglia |
 | **Reposição de substrato** | Substitui algo que a doença esgota | Cofactores de ferro, CoQ10, BH4 |
-| **Sintomático** | Suprime o sintoma sem tocar a causa | Um auxílio para o sono que não corrige por que o sono é insuficiente |
+| **Sintomático** | Suprime o sintoma sem tocar a causa | Um auxílio para o sono que não corrige por que o sono não é reparador |
 
-Diferentes mecanismos exigem diferentes níveis de intervenção: o défice de energia requer *repleção de substrato* (ferroso, BH4, cetonas) e abordagens *moduladoras de limiar*; o subgrupo imune requer intervenção *corretiva*; a diferença na conexão neuronal *não é modificável no nível estrutural* no momento. Uma "vida mais normal" realista não significa que todos os mecanismos sejam curáveis — significa que a repleção de substrato e os caminhos corretivos podem ser abordados agora, e sua correção pode eliminar ou reduzir uma parte significativa da carga de sintomas.
+Diferentes mecanismos exigem diferentes níveis de intervenção: o défice de energia requer *repleção de substrato* (ferro, BH4, cetonas) e abordagens *moduladoras de limiar*; o subgrupo imune requer intervenção *corretiva*; a diferença na conexão neuronal *não é modificável no nível estrutural* no momento. Uma "vida mais normal" realista não significa que todos os mecanismos sejam curáveis — significa que a repleção de substrato e os caminhos corretivos podem ser abordados agora, e sua correção pode eliminar ou reduzir uma parte significativa da carga de sintomas.
 
 ### A hipótese do tratamento combinado
 

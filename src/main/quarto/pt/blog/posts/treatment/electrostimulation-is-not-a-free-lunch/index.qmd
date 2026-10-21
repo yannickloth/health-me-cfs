@@ -21,7 +21,7 @@ Essa cascata é **uma via envolvida** no mal-estar pós-esforço, mas não está
 
 Note também que “ativar o músculo” e “causar micro-trauma” não são o mesmo mecanismo. A estimulação de baixa intensidade usada para circulação ou prevenção da atrofia, numa dose tolerável por um paciente descondicionado, pode nunca atingir o limite de dano. Se os protocolos que são realmente oferecidos aos pacientes atingem esse limite, é desconhecido — e nenhum estudo EM/SFC mede isso.
 
-o MPE induzida pela EMS é, portanto, uma hipótese valiosa para testar, e não um efeito comprovado.
+o MPE induzido pela EMS é, portanto, uma hipótese que vale a pena testar, e não um efeito comprovado.
 
 ## O que não sabemos — e isso é muito
 
@@ -30,7 +30,7 @@ Não vamos exagerar isso. As evidências são **fracas**, e a lista de incógnit
 - **Não existe ensaio clínico de EMS ou NMES em EM/SFC.** Ninguém mediu o que acontece com o MPE nessa população.
 - **As evidências são indiretas.** Os resultados de micro-trauma e inflamação vêm de trabalhos gerais e animais, não de pacientes EM/SFC.
 - **As escalas de tempo não coincidem.** A dor muscular tardia atinge seu pico em dias. Uma crise de MPE pode durar semanas. Essa diferença é inexplicada.
-- **A dose importa e é incontrolável.** O efeito depende da intensidade, e não existe protocolo para essa população.
+- **A dose importa e não é controlada.** O efeito depende da intensidade, e não existe protocolo para essa população.
 - **Existem resultados nulos históricos.** Trabalhos antigos encontraram força muscular normal e comportamento contraativo normal em alguns estudos de EM/SFC, o que contradiz uma história clara.
 - **Há um relatório de caso de dano.** Um, não uma série.
 

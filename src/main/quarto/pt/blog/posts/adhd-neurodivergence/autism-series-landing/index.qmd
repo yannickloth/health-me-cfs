@@ -1,6 +1,6 @@
 ---
 title: "A Biologia do Autismo — uma Série"
-description: "O autismo não é uma única condição. Quatro áreas biológicas independentes — energia, imunidade, conexões e características adquiridas — podem contribuir cada uma para o fardo dos sintomas, e o caminho a seguir pode ser o tratamento de várias delas ao mesmo tempo. Esta é a página inicial de uma série que analisa cada área e a hipótese de tratamento multivias."
+description: "O autismo não é uma única condição. Quatro vertentes biológicas independentes — energia, imunidade, conexões e características adquiridas — podem contribuir cada uma para o fardo dos sintomas, e o caminho a seguir pode ser o tratamento de várias delas ao mesmo tempo. Esta é a página inicial de uma série que analisa cada área e a hipótese de tratamento multivias."
 author: "Yannick Loth"
 date: "2026-08-18"
 categories: [Neurodivergence, Series, Pathophysiology]
@@ -9,7 +9,7 @@ lang: pt
 
 O autismo não é uma única entidade.
 
-Uma suposição comum é que a condição tenha uma única causa e uma única explicação. Nossa pesquisa aponta para algo mais detalhado: **quatro eixos biológicos distintos** podem estar na base dos sintomas relacionados ao autismo — um déficit de energia cerebral, um subgrupo mediado por imunidade, uma diferença no funcionamento cerebral e características adquiridas que não estão relacionadas ao desenvolvimento. Pacientes diferentes provavelmente apresentam combinações diferentes desses eixos, e cada um contribui com uma parte diferente da carga de sintomas diária.
+Uma suposição comum é que a condição tenha uma única causa e uma única explicação. Nossa pesquisa aponta para algo mais detalhado: **quatro eixos biológicos distintos** podem estar na base dos sintomas relacionados ao autismo — um déficit de energia cerebral, um subgrupo mediado por imunidade, uma diferença de conexão e características adquiridas que não estão relacionadas ao desenvolvimento. Pacientes diferentes provavelmente apresentam combinações diferentes desses eixos, e cada um contribui com uma parte diferente da carga de sintomas diária.
 
 Esta série analisa cada eixo de forma simples, e depois faz a pergunta à qual todos convergem: **podem vários caminhos ser tratados ao mesmo tempo para eliminar ou reduzir os sintomas e permitir que o paciente tenha uma vida mais normal?**
 
@@ -39,7 +39,7 @@ A série começa com a abordagem mais desenvolvida: um cérebro que opera com um
 
 Leia o artigo:
 
-1. **[Autismo como um distúrbio de energia cerebral: o que a ciência diz](../autism-brain-energy-disorder/index.qmd)** — o modelo astrócito/GLUT1, as evidências mitocondrial e BH4, os alvos modificáveis, os limites, o experimento decisivo de glicose no líquido cefalorraquidiano, e a hipótese de tratamento multivias.
+1. **[Autismo como um distúrbio de energia cerebral: o que a ciência diz](../autism-brain-energy-disorder/index.qmd)** — o modelo astrócito/GLUT1, as evidências mitocondrial e BH4, os alvos modificáveis, os limites, o experimento decisivo da razão glicose CSF-plasma, e a hipótese de tratamento multivias.
 
 ---
 

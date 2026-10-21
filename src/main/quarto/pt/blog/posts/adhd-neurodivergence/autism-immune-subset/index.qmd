@@ -71,7 +71,7 @@ A implicação prática é radical: **rótulos de diagnóstico (PANDAS, EM/SFC, 
 Este quadro é **explicitamente especulativo**, com baixa certeza.
 
 - Nenhum estudo realizou o mesmo painel de anticorpos anti-neuronal simultaneamente em PANDAS, autismo, EM/SFC e controles saudáveis.
-- O único estudo RCT em PANDAS foi subpotente e equívoco [@Williams2016IVIGRCT].
+- O único estudo RCT em PANDAS foi de baixo poder estatístico e equívoco [@Williams2016IVIGRCT].
 - A evidência do IVIG no autismo é uma série de um centro especializado, e não um estudo multi-site.
 - Nenhum estudo prospectivo selecionou crianças com "autismo regressivo" para os critérios de PANS/PANDAS.
 - O quadro abrange um **subconjunto** dentro de cada categoria de diagnóstico, e não a condição inteira. A maior parte do autismo não é imunomediada.
@@ -82,7 +82,7 @@ A convergência não aumenta a certeza acima do elo mais fraco. Até que exista 
 
 ## O experimento decisivo
 
-O campo precisa de um estudo: executar o mesmo painel de anticorpos anti-neuronal abrangente (gânglios da base, receptor D1/D2, CaMKII, lisogangliosídeo, NMDAR e outros) em **PANDAS/PANS, autismo regressivo, EM/SFC e controles saudáveis simultaneamente**, e testar duas previsões:
+O campo precisa de um estudo: executar o mesmo painel de anticorpos anti-neuronal abrangente (gânglios da base, recetor D1/D2, CaMKII, lisogangliosídeo, NMDAR e outros) em **PANDAS/PANS, autismo regressivo, EM/SFC e controles saudáveis simultaneamente**, e testar duas previsões:
 
 1. Os perfis de anticorpos se agrupam por **alvo do circuito**, e não por rótulo de diagnóstico.
 2. A resposta à imunoterapia é prevista pelo **perfil de anticorpos**, e não pelo diagnóstico.

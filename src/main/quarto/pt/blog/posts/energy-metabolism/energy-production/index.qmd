@@ -49,7 +49,7 @@ Com 35% de comprometimento do complexo I, a redução na bomba de protões dimin
 
 > Força motriz na EM/SFC = (135 − 110) / 135 = 25/135 = **19%** do máximo
 
-A queda de 31% para 19% representa uma **redução de 39% na produção da ATP sintase** — devido apenas a 35% de danos ao complexo I. E quanto mais ΔΨ se aproxima de 110 mV, mais acentuado se torna o penhasco: em 125 mV, a força motriz é apenas 12%; em 115 mV, apenas 4%. É por isso que pacientes próximos ao limite experimentam uma falha energética catastrófica devido a insultos aparentemente modestos.
+A queda de 31% para 19% representa uma **redução de 39% na produção da ATP sintase** — devido apenas a 35% de danos ao complexo I. E quanto mais ΔΨ se aproxima de 110 mV, mais acentuado se torna o penhasco: em 125 mV, a força motriz é apenas 12%; em 115 mV, apenas 4%. É por isso que pacientes próximos ao limite experimentam uma falha energética catastrófica devido a agressões aparentemente modestos.
 
 **Desequilíbrio redox de NAD+.** O ciclo de Krebs depende de NAD+ (nicotinamida adenina dinucleotídeo), uma molécula que transporta eletrões para a cadeia de transporte de eletrões. Ele alterna entre duas formas: NAD+ (“vazio”, pronto para receber eletrões) e NADH (“carregado”, transportando eletrões). Na EM/SFC, esse equilíbrio é alterado — menos na forma de NAD+ útil, mais preso como NADH gasto — um desequilíbrio redox estimado em 10-40%.
 
@@ -97,7 +97,7 @@ O nosso modelo de metabolismo energético explica o mecanismo:
 
 1. **O esforço aumenta a demanda por ATP** — músculos, cérebro ou células imunitárias precisam de mais energia.
 2. **O sistema prejudicado não consegue acompanhar** — a produção atinge o limite abaixo da demanda e os níveis de ATP diminuem.
-3. **A célula entra em crise** — a depleção de ATP ativa o sistema de alarme de défice energético da célula (uma enzima sensora de energia chamada AMPK), cascadas inflamatórias e o que o pesquisador Robert Naviaux descreveu como “resposta de perigo celular”.
+3. **A célula entra em crise** — a depleção de ATP ativa o sistema de alarme de défice energético da célula (uma enzima sensora de energia chamada AMPK), cascadas inflamatórias e o que o investigador Robert Naviaux descreveu como “resposta de perigo celular”.
 4. **Aumento de ROS** — as mitocôndrias funcionais restantes são forçadas a trabalhar mais para compensar, gerando um surto de radicais livres a partir da cadeia de eletrões sobrecarregada.
 5. **Dano secundário segue** — mas numa escala de tempo retardada. A produção de mediadores inflamatórios atinge um pico 6-24 horas após o dano tecidual. Efeitos a jusante como inchaço tecidual e sensibilização nervosa ocorrem horas ou dias depois.
 
@@ -147,13 +147,13 @@ Os modelos apresentados aqui são um ponto de partida, não um ponto final. Seu 
 
 ---
 
-## O que isso significa para pacientes, clínicos e pesquisadores
+## O que isso significa para pacientes, clínicos e investigadores
 
 **Para pacientes**: A exaustão tem uma base biológica — mensurável, modelável e compreendida mecanicamente com maior resolução. “Superar” não constrói resiliência; prejudica um sistema já comprometido. O ritmo não é psicológico — é a estratégia matematicamente ótima para um sistema com restrições de energia.
 
 **Para clínicos**: O teste de exercício cardiopulmonar de dois dias (CPET) é o teste diagnóstico mais informativo — mas ele pode desencadear MPE de forma confiável, às vezes grave e duradora por semanas. Ele deve ser realizado apenas quando o benefício diagnóstico ou legal (por exemplo, documentação de incapacidade) justifica o custo para o paciente, e nunca sem consentimento informado sobre a possível crise. Quando realizado, as reduções no VO2max (consumo máximo de oxigénio) no segundo dia são específicas para EM/SFC e quantificam diretamente o comprometimento metabólico. Considere o suporte metabólico — CoQ10 (coenzima Q10, um portador de eletrões na cadeia de transporte) e precursores de NAD+ — como complementos, com a ressalva de que nossos modelos prevêem maior benefício em comprometimento moderado, não em leve ou grave.
 
-**Para pesquisadores**: O campo precisa urgentemente de dados longitudinais que acompanhem pacientes ao longo do tempo em múltiplas camadas biológicas — genética, metabólitos, marcadores imunitários, proteínas. Os modelos matemáticos existem para transformar esses dados em previsões de tratamento, mas os conjuntos de dados atuais são muito pequenos e baseados em amostras pontuais para limitá-los. Projetos como DecodeME são exatamente o que é necessário.
+**Para investigadores**: O campo precisa urgentemente de dados longitudinais que acompanhem pacientes ao longo do tempo em múltiplas camadas biológicas — genética, metabólitos, marcadores imunitários, proteínas. Os modelos matemáticos existem para transformar esses dados em previsões de tratamento, mas os conjuntos de dados atuais são muito pequenos e baseados em amostras pontuais para limitá-los. Projetos como DecodeME são exatamente o que é necessário.
 
 ---
 

@@ -11,7 +11,7 @@ A Parte 1 examinou a PHDA como uma desordem energética do pré-frontal. A Parte
 
 Esta não é uma questão de combustível, e também não é simplesmente um problema inflamatório. É um **loop de feedback** — um mecanismo que, uma vez ativado, tende a se manter.
 
-A série separa **o que sabemos** de **o que nossa pesquisa acrescenta**. Os elementos estabelecidos são a ligação dopamina-Nrf2 (a sinalização do receptor D1 aumenta a atividade do Nrf2 em modelos celulares) e o efeito de freio do Nrf2 na ativação do inflamassoma NLRP3 (através da indução de HO-1 e NQO1), ambos extraídos da farmacologia e literatura redox mais ampla que nosso projeto utiliza, e discutidos num artigo complementar sobre a hormesis mediada pelo Nrf2. O que nossa pesquisa acrescenta é a interpretação específica de **transversal entre doenças** — que a baixa tonalidade de dopamina pré-existente na PHDA reduz o limite para a fadiga pós-infeciosa através deste loop — o que é uma especulação registrada, e não um achado estabelecido.
+A série separa **o que sabemos** de **o que nossa pesquisa acrescenta**. Os elementos estabelecidos são a ligação dopamina-Nrf2 (a sinalização do recetor D1 aumenta a atividade do Nrf2 em modelos celulares) e o efeito de freio do Nrf2 na ativação do inflamassoma NLRP3 (através da indução de HO-1 e NQO1), ambos extraídos da farmacologia e literatura redox mais ampla que nosso projeto utiliza, e discutidos num artigo complementar sobre a hormesis mediada pelo Nrf2. O que nossa pesquisa acrescenta é a interpretação específica de **transversal entre doenças** — que o baixo tónus de dopamina pré-existente na PHDA reduz o limite para a fadiga pós-infeciosa através deste loop — o que é uma especulação registrada, e não um achado estabelecido.
 
 ---
 
@@ -23,7 +23,7 @@ O eixo ocorre através de três moléculas:
 
 **2. Nrf2 e NLRP3.** Normalmente, o Nrf2 suprime o **inflamassoma NLRP3**, o interruptor inflamatório central do sistema imunitário, por meio da indução da HO-1 e NQO1. A redução da atividade do Nrf2 remove esse freio. O inflamassoma NLRP3, então, impulsiona o aumento de IL-1-beta e IL-18.
 
-**3. NLRP3 e dopamina — fechando o ciclo.** A inflamação elevada prejudica ainda mais a síntese de dopamina de duas maneiras: ativa a via IDO/quinurenina, reduzindo a disponibilidade de BH4 para a enzima que produz dopamina; e induz stress oxidativo que danifica os terminais dopaminérgicos. Um caminho ainda mais direto ocorre através do metabólito de quinurenina **ácido quinurenico**, que, em baixas concentrações, reduz a libertação de dopamina no striado — conectando a ativação excessiva de quinurenina diretamente ao défice de dopamina, em vez de apenas através do gargalo de BH4 [@Rassoulpour2005KynurenicAcid @Cysique2023KynureninePASC]. Dopamina mais baixa → Nrf2 mais baixo → NLRP3 mais abundante → mais inflamação → dopamina ainda mais baixa.
+**3. NLRP3 e dopamina — fechando o ciclo.** A inflamação elevada prejudica ainda mais a síntese de dopamina de duas maneiras: ativa a via IDO/quinurenina, reduzindo a disponibilidade de BH4 para a enzima que produz dopamina; e induz stress oxidativo que danifica os terminais dopaminérgicos. Um caminho ainda mais direto ocorre através do metabólito de quinurenina **ácido quinurenico**, que, em baixas concentrações, reduz a libertação de dopamina no estriado — conectando a ativação excessiva de quinurenina diretamente ao défice de dopamina, em vez de apenas através do gargalo de BH4 [@Rassoulpour2005KynurenicAcid @Cysique2023KynureninePASC]. Dopamina mais baixa → Nrf2 mais baixo → NLRP3 mais abundante → mais inflamação → dopamina ainda mais baixa.
 
 O resultado é um **ciclo autoamplificador**: um estado pré-existente de baixa dopamina (como no caso da PHDA) e um episódio de inflamação tornam o outro ainda pior, e o ciclo tende a persistir.
 
@@ -60,7 +60,7 @@ Antes da análise transversal entre doenças, a PHDA possui sua própria arquite
 
 Esta imagem genética independente é importante para a série porque fundamenta o lado “o que sabemos”: as hipóteses metabólicas nas Partes 1–3 são adicionadas a uma base genética e neurobiologicamente bem replicada, e não são inventadas no lugar dela.
 
-Uma questão realmente aberta em nosso artigo merece destacar aqui: a correlação genética entre a EM/SFC e a PHDA ainda não foi calculada. Se revelar ser significativa, apoia a sinalização de dopamina no genoma da fadiga crónica e questiona se a PHDA na infância é um fator de risco genético direto para fadiga pós-infeciosa — em vez de apenas um fator metabólico. Esta é uma questão aberta, não uma descoberta.
+Uma questão realmente aberta em nosso artigo merece destacar aqui: a correlação genética entre a EM/SFC e a PHDA ainda não foi calculada. Se revelar ser substancial, apoia a sinalização de dopamina no genoma da fadiga crónica e questiona se a PHDA na infância é um fator de risco genético direto para fadiga pós-infeciosa — em vez de apenas um fator metabólico. Esta é uma questão aberta, não uma descoberta.
 
 ### Modificadores mitocondriais compartilhados
 
@@ -90,7 +90,7 @@ Cada previsão pode ser testada com testes existentes e coortes existentes. Nenh
 
 Esta é uma **hipótese especulativa**, com baixa confiança explícita — uma especulação registada, não uma descoberta estabelecida.
 
-- A **ligação do D1-receptor–Nrf2 está estabelecida em modelos celulares, mas não em pacientes humanos.**
+- A **ligação do D1-recetor–Nrf2 está estabelecida em modelos celulares, mas não em pacientes humanos.**
 - A **atividade da via Nrf2 foi medida apenas uma vez** em pacientes com PHDA, num estudo de 2026 com 60 adultos com PHDA em comparação com 60 controles, que constatou que as proteínas Nrf2 e HO-1 no soro foram significativamente reduzidas em PHDA e correlacionaram negativamente com a gravidade dos sintomas [@Gurbuzer2026nrf2adhd]. Isso é consistente com — mas não estabelece — a via proposta aqui: mediu proteínas séricas circulantes, não a translocação nuclear de Nrf2 ou a expressão do gene alvo NQO1, e trata-se apenas de PHDA em adultos, num único estudo.
 - **Nenhum estudo mediu a translocação nuclear de Nrf2 ou a expressão do gene NQO1 em células de PHDA.**
 - **Não existem dados longitudinais prospectivos sobre PHDA e fadiga** que testem diretamente a cadeia de mediação da inflamação.
@@ -103,7 +103,7 @@ A cadeia é mecanicamente plausível e cada ligação tem apoio isolado, mas a c
 
 ## O que levar para casa
 
-O eixo dopamina-Nrf2-NLRP3 oferece uma explicação de **loop autoamplificador** para um padrão notável: pessoas com PHDA apresentam fadiga crónica em aproximadamente o dobro da taxa, e o risco elevado é mediado pela inflamação. Ele conecta três elementos — dopamina, defesa antioxidante e a mudança inflamatória — que geralmente são estudados separadamente.
+O eixo dopamina-Nrf2-NLRP3 oferece uma explicação de **loop autoamplificador** para um padrão notável: pessoas com PHDA apresentam fadiga crónica em aproximadamente o dobro da taxa, e o risco elevado é mediado pela inflamação. Ele conecta três elementos — dopamina, defesa antioxidante e o interruptor inflamatório — que geralmente são estudados separadamente.
 
 Diferentemente da Parte 1, esta seção ainda não aponta para uma intervenção testada. Agentes que ativam Nrf2, como o sulforafano, existem e são mecanicamente plausíveis, mas nenhum estudo os testou especificamente contra o eixo PHDA-fadiga. Seu valor é explicativo e preditivo: identifica um loop específico e mensurável e um conjunto de previsões testáveis.
 

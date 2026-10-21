@@ -9,7 +9,7 @@ lang: es
 
 Supongamos que el déficit selectivo de noradrenalina es real y tomas un medicamento que aumente la señalización de noradrenalina, un NRI como la atomoxetina, o un inhibidor dual de reabsorción de dopamina/noradrenalina como el solriamfetol. ¿Qué deberías esperar?
 
-La respuesta se deriva de con qué se correlaciona el déficit. En el estudio original, la vía de la noradrenalina se relacionó con **puntuaciones de resistencia al agarre de manos y fatiga** —producción motora y percepción de salud global— y la reducción más significativa ocurrió en el **subgrupo MPE** (@Aregawi2026Noradrenergic).
+La respuesta se deriva de con qué se correlaciona el déficit. En el estudio original, la vía de la noradrenalina se relacionó con **puntuaciones de resistencia al agarre de manos y fatiga** —producción motora y percepción de salud global— y la mayor reducción ocurrió en el **subgrupo MPE** (@Aregawi2026Noradrenergic).
 
 **Razonable esperar (moderadamente):**
 - **Fatiga / resistencia motora al esfuerzo** — el signo más fuerte, aunque sigue siendo transversal.
@@ -29,4 +29,4 @@ La respuesta se deriva de con qué se correlaciona el déficit. En el estudio or
 
 **Y el límite difícil:** ningún ensayo de EM/SFC de estos medicamentos ha utilizado MPE como endpoint, por lo que todo "esperar" anterior es una inferencia basada en correlación, no un resultado medido. Los datos humanos provienen de otras condiciones — hipotensión ortostática, narcolepsia, EM, fibromialgia. El único ensayo de EM/SFC de estos medicamentos, el de la solriamfetol, mejoró la fatiga y la función ejecutiva, pero no midió MPE (@Young2025solriamfetol). La amantadina, un antagonista de NMDA con actividad dopaminérgica indirecta, *fue ineficaz* para la fatiga en EM (@Cruccioli2026AmantadineMSfatigue).
 
-Todo esto se basa en un único estudio de líquido cefalorraquídeo no replicado con 16 pacientes (@Aregawi2026Noradrenergic). *Esto no es consejo médico. Cualquier ensayo de estos medicamentos debe ser realizado por un médico, con pacing y controles autonómicos basales.*
+Todo esto se basa en un único estudio de líquido cefalorraquídeo no replicado con 16 pacientes (@Aregawi2026Noradrenergic). *Esto no es consejo médico. Cualquier ensayo de estos medicamentos debe ser realizado por un médico, con ritmo de actividad (pacing) y controles autonómicos basales.*

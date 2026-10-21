@@ -59,7 +59,7 @@ Uma adição poderosa, se você conseguir gerenciá-la uma vez: agendar um perí
 
 ### Paciente 2: o paciente com lógica frágil
 
-*Sinais:* conclusões muito à frente da evidência, histórias de cadeia mecânica ("histamina → BBB → microglia → portanto tiróide"), certeza absoluta, uma superfície de ataque que pode ser desmontada em noventa segundos.
+*Sinais:* conclusões muito à frente da evidência, histórias de cadeia mecânica ("histamina → BBB → microglia → portanto tiroide"), certeza absoluta, uma superfície de ataque que pode ser desmontada em noventa segundos.
 
 *O que está acontecendo:* você *poderia* vencer a discussão. Não faça isso. A lógica frágil carrega algo mais pesado do que a discussão — geralmente uma necessidade de que o sofrimento tenha uma explicação e uma solução. Se você destruir a lógica sem abordar a necessidade, você terá ou um paciente esmagado ou um paciente fortalecido, e de qualquer forma você perde a aliança. Há também um ponto epistemológico real: na EM/SFC, as *observações* do paciente são geralmente sólidas (padrões de sintomas, gatilhos, horário), mesmo quando sua *história mecânica* não é. Conceda a observação e redirecione a explicação.
 

@@ -13,7 +13,7 @@ Os resultados chegam: *Estudo de sono normal. Nenhuma patologia significativa id
 
 O paciente sabe — com a certeza de alguém que vive no seu próprio corpo — que o seu sono não é normal. O teste diz o contrário. O médico confia no teste. O paciente volta para casa sem diagnóstico, sem tratamento e com a crescente suspeita de que a sua equipa médica considera que isto é psicológico.
 
-O teste falhou; o paciente não fez.
+O teste falhou; o paciente não falhou.
 
 Para esclarecer: os estudos de sono ainda valem a pena. A PSG padrão detecta apneia do sono obstrutiva, movimentos periódicos dos membros, distúrbio do comportamento REM e hipoventilação noturna — todos os quais coexistem com EM/SFC e podem ser tratados independentemente. O problema não é que a PSG seja inútil. O problema é que, quando diz “normal”, está a ser feita uma pergunta que não foi concebida para responder.
 
@@ -63,7 +63,7 @@ Adicionar monitorização contínuo da pressão arterial (para a queda noturna),
 
 ## A consequência clínica de “normal”
 
-Um resultado “normal” causa mais danos do que nenhum resultado, pois impede ativamente as opções de tratamento.
+Um resultado “normal” causa mais danos do que nenhum resultado, pois impede ativamente as coisas.
 
 As opções de tratamento são completamente ignoradas. A intrusão alfa-delta pode responder à modulação dos canais de cálcio tipo T ou a gabapentínoides; a disfunção autonómica do sono pode responder a DORAs ou agonistas alfa-2; os movimentos periódicos dos membros, se presentes em outras noites, mas abaixo do limite na noite estudada, podem responder à otimização do ferro. Nenhuma dessas opções é considerada quando o estudo resulta num resultado limpo.
 

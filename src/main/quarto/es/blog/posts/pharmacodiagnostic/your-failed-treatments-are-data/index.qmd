@@ -11,7 +11,7 @@ Has probado diferentes cosas. Todos con EM/SFC lo han hecho. Una dosis baja de n
 
 La interpretación estándar de esta historia es: *algunas cosas funcionaron, la mayoría no, y así es como sucede*. Este artículo hace una afirmación diferente. Cada uno de esos ensayos fue un pequeño experimento en un nodo biológico — y los resultados, leídos juntos, podrían ser evidencia en lugar de ruido, bajo el modelo que esta serie establece.
 
-## Un ensayo de medicamento es una limitación, no una historia
+## Un ensayo de medicamento es una restricción, no una historia
 
 El documento principal desarrolla esta idea bajo el nombre **farmacodiagnóstico**: usar la respuesta a un medicamento para inferir qué mecanismo está activo, no solo si el medicamento vale la pena continuar. La lógica es simple.
 
@@ -23,7 +23,7 @@ El artículo no propone una tecnología futura; simplemente explica cómo un cl�
 
 ## El conjunto es lo que lo convierte en una señal
 
-La historia de medicamentos de un paciente es un puñado de limitaciones. Cientos de historias de pacientes, combinadas, se convierten en algo que ningún ensayo individual puede ser: una imagen a nivel de población de qué nodos vale la pena investigar consistentemente y cuáles son consistentemente caminos sin salida.
+La historia de medicamentos de un paciente es un puñado de restricciones. Cientos de historias de pacientes, combinadas, se convierten en algo que ningún ensayo individual puede ser: una imagen a nivel de población de qué nodos vale la pena investigar consistentemente y cuáles son consistentemente caminos sin salida.
 
 Agrupar ensayos de un solo paciente en una estimación de grupo es un método estadístico establecido —utilizado en TDAH pediátrico, en fisioterapia y en hipertensión— y los modelos multinivel pueden combinar muchos experimentos de un solo paciente mientras manejan las complicaciones (tendencia, efectos de transición, autocorrelación) que hacen que el promedio ingenuo sea engañoso [@Punja2016Nof1Aggregation; @Nikles2022Nof1Physiotherapy; @Samuel2023Nof1RCT; @Schmid2022BayesianNof1; @Zucker2010]. El método existe. Lo que no existe es un corpus de informes de medicamentos para EM/SFC capturado en una forma que el método pueda utilizar.
 
@@ -41,12 +41,12 @@ Esto es una hipótesis, no un hecho. Tiene un test —si los informes nulos se r
 
 ## Significado
 
-Si la idea se cumple, cambia el estatus de algo que ya tienes. Tu historial de medicación —cada prueba, cada dosis que ajustaste, cada medicamento que abandonaste porque no funcionó— se convierte en una contribución al único tipo de evidencia que una enfermedad sin biomarcadores puede producir actualmente. No es solo una nota médica privada. Esto no significa probar tratamientos para obtener datos: las pruebas de medicamentos necesitan un prescriptor, y esta serie no fomenta la experimentación autónoma. El corpus agrupa lo que los pacientes ya han hecho bajo atención clínica.
+Si la idea se cumple, cambia el estatus de algo que ya tienes. Tu historial de medicación —cada prueba, cada dosis que ajustaste, cada medicamento que abandonaste porque no funcionó— se convierte en una contribución al único tipo de evidencia que una enfermedad sin biomarcadores puede producir actualmente. No es solo una nota médica privada. Esto no significa probar tratamientos para obtener datos: las pruebas de medicamentos necesitan un prescriptor, y esta serie no fomenta la autoexperimentación. El corpus agrupa lo que los pacientes ya han hecho bajo atención clínica.
 
 El problema es que casi nada de esto está registrado en una forma que pueda ser agrupada. Ese es el tema del próximo artículo.
 
 *Esto no es consejo médico. Describe una propuesta de investigación. Nadie debería comenzar, detener o cambiar un tratamiento basándose en un ranking comunitario agrupado.*
 
-*Siguiente: [El Corpus que lee tu botiquín de medicinas](../the-corpus-that-reads-your-medicine-cabinet/index.qmd) — qué debe contener un informe y por qué "LDN me ayudó" se vuelve nulo.*
+*Siguiente: [El Corpus que lee tu botiquín de medicinas](../the-corpus-that-reads-your-medicine-cabinet/index.qmd) — qué debe contener un informe y por qué "LDN me ayudó" se reduce a nada al agruparse.*
 
 *Esta publicación se basa en el marco farmacodiagnóstico y la sección de corpus poblacional de [Loth 2026](https://yannickloth.github.io/health-me-cfs/). La posibilidad de agrupar las pruebas de un solo paciente se basa en [@Punja2016Nof1Aggregation; @Schmid2022BayesianNof1; @Zucker2010]; la advertencia sobre la inflación de expectativas se basa en [@FlavioReis2025OpenLabelPlacebo; @KleineBorgmann2025OpenLabelPlacebos].*

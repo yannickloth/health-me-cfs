@@ -9,17 +9,17 @@ lang: pt
 
 TSH 2,8 mIU/L. Faixa de referência 0,4-4,0. Normal. Caso encerrado.
 
-No entanto, não é. Esse número representa a opinião da glândula pituitária sobre os níveis de hormônio tireoideo circulante. Não diz nada sobre o que está a acontecer ao nível celular — se o T3, o hormônio tireoideo ativo, está a chegar às mitocôndrias nos músculos e cérebro e realmente impulsionando os processos metabólicos que deveria impulsionar. O TSH é um sinal sobre um sinal. É a leitura do termostato da temperatura ambiente, não uma medição de se os radiadores estão realmente a aquecer alguém.
+No entanto, não é. Esse número representa a opinião da glândula pituitária sobre os níveis de hormônio tiroideo circulante. Não diz nada sobre o que está a acontecer ao nível celular — se o T3, o hormônio tiroideo ativo, está a chegar às mitocôndrias nos músculos e cérebro e realmente impulsionando os processos metabólicos que deveria impulsionar. O TSH é um sinal sobre um sinal. É a leitura do termostato da temperatura ambiente, não uma medição de se os radiadores estão realmente a aquecer alguém.
 
-Para uma pessoa saudável, o TSH é um proxy razoável. O sistema funciona: a glândula pituitária percebe os níveis de hormônio tireoideo, ajusta o TSH de acordo e a tireoide responde. Num paciente com doença crónica, esse ciclo de feedback pode se desacoplar em pelo menos três pontos — cada um gerando um estado em que o paciente está hipotireoide no nível celular com um TSH “normal”.
+Para uma pessoa saudável, o TSH é um proxy razoável. O sistema funciona: a glândula pituitária percebe os níveis de hormônio tiroideo, ajusta o TSH de acordo e a tiroide responde. Num paciente com doença crónica, esse ciclo de feedback pode se desacoplar em pelo menos três pontos — cada um gerando um estado em que o paciente está hipotiroide no nível celular com um TSH “normal”.
 
 ---
 
-## As três maneiras em que a função da tiróide falha sem que o TSH perceba
+## As três maneiras em que a função da tiroide falha sem que o TSH perceba
 
-**Hipotireoidismo central.** A pituitária está a funcionar de forma insuficiente. Não produz suficiente TSH para estimular adequadamente a tiróide. A tiróide, sem estímulo suficiente, produz menos T4 e T3 — mas o TSH indica “normal”, pois a definição de “normal” pela pituitária foi reajustada para baixo. Isto ocorre em qualquer condição que afete a função da pituitária: doença crónica, trauma craniano, tumores pituitários e — relevantemente — supressão crónica do eixo hipotálamo-hipófise-suprarrenal, que é documentada no EM/SFC. O eixo hipotálamo-pituitária-tiróide não existe isoladamente; interage com o eixo hipotálamo-hipófise-suprarrenal, e a supressão de um pode afetar o outro [@Mancini2018thyroidOxidative].
+**Hipotireoidismo central.** A pituitária está a funcionar de forma insuficiente. Não produz suficiente TSH para estimular adequadamente a tiroide. A tiroide, sem estímulo suficiente, produz menos T4 e T3 — mas o TSH indica “normal”, pois a definição de “normal” pela pituitária foi reajustada para baixo. Isto ocorre em qualquer condição que afete a função da pituitária: doença crónica, trauma craniano, tumores pituitários e — relevantemente — supressão crónica do eixo hipotálamo-hipófise-suprarrenal, que é documentada no EM/SFC. O eixo hipotálamo-pituitária-tiroide não existe isoladamente; interage com o eixo hipotálamo-hipófise-suprarrenal, e a supressão de um pode afetar o outro [@Mancini2018thyroidOxidative].
 
-**Dano na conversão de T4 para T3.** A glândula tiróide produz principalmente T4 (tiroxina), uma pró-hormona. A T4 deve ser convertida em T3 (triiodotironina) por enzimas de deiodinação nos tecidos periféricos para ser biologicamente ativa. A conversão mais importante ocorre através da deiodinação tipo 2 (DIO2) no cérebro, músculos e gordura marrom.
+**Dano na conversão de T4 para T3.** A glândula tiroide produz principalmente T4 (tiroxina), uma pró-hormona. A T4 deve ser convertida em T3 (triiodotironina) por enzimas de deiodinação nos tecidos periféricos para ser biologicamente ativa. A conversão mais importante ocorre através da deiodinação tipo 2 (DIO2) no cérebro, músculos e gordura marrom.
 
 A inflamação crónica suprime a atividade da DIO2 e aumenta a expressão da DIO3, a enzima que converte T4 em reverse T3 (rT3) — uma forma biologicamente inativa que ocupa os recetores de T3 sem ativá-los (Wajner & Maia 2012, *Clinical Endocrinology*). Isto é chamado “síndrome do doente eutireoidémico” ou “síndrome da doença não tireoidémica” (NTIS). O TSH está normal. A T4 pode estar normal. Mas o T3 que realmente impulsiona o metabolismo nos tecidos é baixo, e o reverse T3 é alto [@Wajner2012NTIS]. O paciente está funcionalmente hipotireoidémico em todas as células, e todos os resultados de laboratório solicitados pelo médico dizem que está tudo bem.
 
@@ -33,15 +33,15 @@ Para um portador normal, o défice pode ser subclínico. Para um paciente com EM
 
 ## Hashimoto: a destruição autoimune que ninguém verifica
 
-A tireoidite de Hashimoto é a doença autoimune mais comum no mundo. Anticorpos (anti-TPO, anti-tiroglobulina) atacam o tecido tireoideiro, destruindo-o progressivamente. A destruição é lenta — são necessários anos para que perca-se suficiente tecido para que o TSH ultrapasse a faixa de referência.
+A tireoidite de Hashimoto é a doença autoimune mais comum no mundo. Anticorpos (anti-TPO, anti-tiroglobulina) atacam o tecido tiroideiro, destruindo-o progressivamente. A destruição é lenta — são necessários anos para que perca-se suficiente tecido para que o TSH ultrapasse a faixa de referência.
 
-Durante esses anos, o paciente apresenta inflamação tireoideira autoimune ativa, níveis hormonais variáveis, já que folículos intactos compensam os destruídos, e fadiga que está relacionada aos níveis de anticorpos e não ao TSH [@Ott2011]. O TSH pode permanecer dentro da faixa por uma década enquanto a glândula é destruída. O paciente sofre fadiga, névoa cerebral, alterações de peso, intolerância ao frio e perda de cabelo — e é informado de que sua tireoide está normal porque o único exame solicitado foi o TSH.
+Durante esses anos, o paciente apresenta inflamação tiroideira autoimune ativa, níveis hormonais variáveis, já que folículos intactos compensam os destruídos, e fadiga que está relacionada aos níveis de anticorpos e não ao TSH [@Ott2011]. O TSH pode permanecer dentro da faixa por uma década enquanto a glândula é destruída. O paciente sofre fadiga, nevoeiro cerebral, alterações de peso, intolerância ao frio e perda de cabelo — e é informado de que sua tiroide está normal porque o único exame solicitado foi o TSH.
 
 Os anticorpos anti-TPO estão presentes em aproximadamente 10% da população geral. Em coortes de EM/SFC, a prevalência pode ser maior — a diatese autoimune que impulsiona a EM/SFC coincide com a diatese autoimune que impulsiona a tireoidite de Hashimoto. O teste de anticorpos acrescenta aproximadamente €20 à ordem de laboratório. Ele identifica uma condição progressiva, tratável e completamente invisível aos testes de TSH.
 
 ---
 
-## Como se parece uma avaliação completa da tiróide
+## Como se parece uma avaliação completa da tiroide
 
 O painel mínimo para um paciente com fadiga crónica deve incluir:
 
@@ -49,7 +49,7 @@ O painel mínimo para um paciente com fadiga crónica deve incluir:
 - **T4 livre** — a pró-hormona. Um nível baixo-normal, combinado com TSH normal, sugere hipotireoidismo central.
 - **T3 livre** — o hormônio ativo. T3 livre baixo com T4 e TSH normais = problema de conversão.
 - **T3 inversa** — o competidor inativo. rT3 alto com TSH normal = síndrome do doente eutireoidêmico.
-- **Anticorpos anti-TPO e anti-tiroglobulina** — triagem de Hashimoto. Positivos = destruição autoimune da tiróide em andamento, independentemente do TSH atual.
+- **Anticorpos anti-TPO e anti-tiroglobulina** — triagem de Hashimoto. Positivos = destruição autoimune da tiroide em andamento, independentemente do TSH atual.
 
 O painel completo custa aproximadamente 50-80 € nos laboratórios europeus. O painel padrão encomendado pela maioria dos médicos de família — apenas TSH — custa 15 € e omite todos os cenários descritos acima.
 
@@ -69,15 +69,15 @@ Especificamente para pacientes com EM/SFC: a questão não é se a disfunção t
 
 ## O padrão mais profundo
 
-A disfunção da tiróide em EM/SFC não é um problema isolado. É parte de um padrão de supressão endócrina em todo o sistema, impulsionado por doenças crónicas:
+A disfunção da tiroide em EM/SFC não é um problema isolado. É parte de um padrão de supressão endócrina em todo o sistema, impulsionado por doenças crónicas:
 
 - Desaceleração do eixo hipotálamo-hipófise-suprarrenal (eixo HPA) → cortisol baixo → ACTH reduzido → cortisol reduzido → resposta ao estresse prejudicada
-- Desaceleração do eixo hipotálamo-tireoide-hipófise (HPT) → TSH reduzida → produção de tiróide reduzida
+- Desaceleração do eixo hipotálamo-tiroide-hipófise (HPT) → TSH reduzida → produção de tiroide reduzida
 - Supressão do eixo hipotálamo-ovário-hipófise (HPG) → hormônios sexuais reduzidos → fadiga, mudanças na composição corporal
 - Desaceleração do eixo GH-hipotálamo → hormônio do crescimento reduzido → reparação tecidual prejudicada e recuperação após exercício
 
 Estes eixos interagem. A supressão do eixo HPA afeta o eixo HPT. A inflamação crónica suprime todos eles. O resultado é um paciente com valores “normais” em cada teste endócrino isolado, mas que, no entanto, opera num estado de insuficiência endócrina multiaxial — não uma deficiência grave o suficiente para desencadear qualquer alerta individual, mas suficiente para produzir um comprometimento funcional profundo.
 
-Este é o capítulo da tiróide de uma história maior: o espaço entre “não sendo marcado como anormal” e “suficiente para o que o corpo precisa” é o ambiente em que os pacientes com EM/SFC vivem. A tiróide é um dos eixos. O padrão é o mesmo em todos eles.
+Este é o capítulo da tiroide de uma história maior: o espaço entre “não sendo marcado como anormal” e “suficiente para o que o corpo precisa” é o ambiente em que os pacientes com EM/SFC vivem. A tiroide é um dos eixos. O padrão é o mesmo em todos eles.
 
 ---

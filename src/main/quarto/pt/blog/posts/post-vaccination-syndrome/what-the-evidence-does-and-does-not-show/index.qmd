@@ -1,6 +1,6 @@
 ---
 title: "Síndrome pós-vacinação: o que as evidências mostram e não mostram"
-description: "Algumas pessoas desenvolvem sintomas semelhantes à EM/SFC após a vacinação. Os sintomas são reais e relatados. Se a vacinação os causou é incógnita — e existem duas maneiras comuns de cometer esse erro."
+description: "Algumas pessoas desenvolvem sintomas semelhantes à EM/SFC após a vacinação. Os sintomas são reais e relatados. Se a vacinação os causou não está comprovado — e existem duas maneiras comuns de cometer esse erro."
 author: "Yannick Loth"
 date: "2026-10-16"
 categories: [Post-vaccination syndrome, Post-infectious, Research]
@@ -19,7 +19,7 @@ A sobreposição com a EM/SFC pós-infecciosa é plausível, e os mesmos mecanis
 
 ## Por que a questão não é absurda
 
-Sabe-se que a EM/SFC segue a algumas infeções: vírus de Epstein-Barr, outros herpesvírus, SARS-CoV-2. A lógica de que um estímulo imune pode ocasionalmente levar à síndrome de fadiga crónica não é nova nem marginal. A vacinação também é um estímulo imune — geralmente mais fraco e mais breve do que uma infeção replicativa, embora a diferença varie dependendo da plataforma. Isso enfraquece a analogia, mas não a rompe: torna o caso da vacinação uma possibilidade a ser investigada, não uma certeza.
+Sabe-se que a EM/SFC segue a algumas infeções: vírus de Epstein-Barr, outros herpesvírus, SARS-CoV-2. A lógica de que um estímulo imune pode ocasionalmente levar à síndrome de fadiga crónica não é nova nem marginal. A vacinação também é um estímulo imune — geralmente mais fraco e mais breve do que uma infeção replicativa, embora a diferença varie dependendo da plataforma. Isso enfraquece a analogia, mas não a rompe: torna o caso da vacinação uma possibilidade a ser investigada, não uma probabilidade prévia forte.
 
 Esse é o caso honesto *a favor* de levar a questão a sério. É um argumento de plausibilidade, não uma prova.
 

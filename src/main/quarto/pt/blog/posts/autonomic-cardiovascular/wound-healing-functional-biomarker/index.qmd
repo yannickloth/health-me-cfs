@@ -35,7 +35,7 @@ A EM/SFC envolve sobreativação simpática e retirada parassimpática — docum
 
 Xue et al. (2018) identificaram duas populações de macrófagos no tecido em processo de cicatrização: uma impulsionada por sinais simpáticos (β2-adrenérgicos, pró-inflamatórios, anti-reparação) e outra impulsionada por sinais parassimpáticos (α7-nAChR, anti-inflamatórios, pró-reparação) [@Xue2018ANSWoundHealing]. O sistema nervoso autónomo não regula apenas a frequência cardíaca e a pressão arterial — ele indica aos macrófagos das feridas qual programa de reparação executar.
 
-Se a EM/SFC inclina o equilíbrio autónomo para uma dominância simpática, a previsão é simples: os macrófagos nas áreas de feridas recebem um sinal persistente de “fique inflamado, atrase a reparação”. Os dados em ratos são claros. Se o tecido humano em EM/SFC atinge as concentrações de catecolaminas necessárias para produzir essa mudança, ainda não se sabe — mas a mecânica existe e o desequilíbrio autónomo está documentado.
+Se a EM/SFC inclina o equilíbrio autónomo para uma dominância simpática, a previsão é simples: os macrófagos nas áreas de feridas recebem um sinal persistente de “fique inflamado, atrase a reparação”. Os dados em ratinhos são claros. Se o tecido humano em EM/SFC atinge as concentrações de catecolaminas necessárias para produzir essa mudança, ainda não se sabe — mas a mecânica existe e o desequilíbrio autónomo está documentado.
 
 ### 3. Exaustão imunitária: não é apenas baixa energia, baixa capacidade de reparação
 

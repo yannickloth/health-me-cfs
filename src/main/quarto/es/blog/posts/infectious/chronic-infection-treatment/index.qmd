@@ -1,6 +1,6 @@
 ---
 title: "Artículo 2 sobre Infección Crónica: Antivirales, Inmunomoduladores y lo que significa que no funcionan en EM/SFC"
-description: "Una guía de lenguaje sencillo para tratar la infección viral crónica en EM/SFC: valaciclovir para EBV, valganciclovir para HHV-6/CMV, cimetidina como inmunomodulador, estabilizadores de mastocitos para interponerse en el camino EBV→MMP-9, por qué la replicación lítica abortiva hace que los antivirales sean menos efectivos de lo esperado, y la discusión sobre ‘¿qué pasaría si no hay ayuda?’."
+description: "Una guía de lenguaje sencillo para tratar la infección viral crónica en EM/SFC: valaciclovir para EBV, valganciclovir para HHV-6/CMV, cimetidina como inmunomodulador, estabilizadores de mastocitos para interponerse en el camino EBV→MMP-9, por qué la replicación lítica abortiva hace que los antivirales sean menos efectivos de lo esperado, y la discusión sobre ‘¿qué pasa si nada ayuda?’."
 author: "Yannick Loth"
 date: "2026-08-14"
 categories: [Treatment, Chronic Infection, Antivirals, ME/CFS]

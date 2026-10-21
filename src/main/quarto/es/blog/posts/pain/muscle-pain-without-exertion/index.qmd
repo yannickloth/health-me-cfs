@@ -11,7 +11,7 @@ Te despiertas después de una mala noche: tres horas de sueño fragmentado, desp
 
 No es el dolor limpio del entrenamiento de ayer. No es el ardor de un entrenamiento de lactato. Algo más.
 
-Es profundo. Hasta el hueso. Un dolor sordo e insistente que se siente en tus muslos, tu espalda, tus hombros — como si los músculos mismos se hubieran vuelto huecos y se hubieran llenado de algo pesado y enfermo. Presionas tus cuádriceps y están sensibles, como si estuvieran hinchados por dentro. El dolor no es agudo. Es difuso e insistente — el dolor de la gripe, el malestar sistémico con extremidades pesadas que sientes cuando tu cuerpo está luchando contra algo. Solo tú no estás luchando contra nada. Solo estás acostado allí.
+Es profundo. Hasta el hueso. Un dolor sordo e insistente que se siente en tus muslos, tu espalda, tus hombros — como si los músculos mismos se hubieran vuelto huecos y se hubieran llenado de algo pesado y enfermo. Presionas tus cuádriceps y están sensibles, como si estuvieran magullados por dentro. El dolor no es agudo. Es difuso e insistente — el dolor de la gripe, el malestar sistémico con extremidades pesadas que sientes cuando tu cuerpo está luchando contra algo. Solo tú no estás luchando contra nada. Solo estás acostado allí.
 
 A veces se mueve. Hoy duele tu cuello y el trapecio, pero ayer fue tu espalda baja y tus pantorrillas. El dolor se mueve entre grupos musculares — no simétrico, no predecible — y cuando te piden describirlo, buscas palabras como *palpitante, mordiendo, doloroso*. Si es grave, añades *agotador*. *Insistente*. *Agobiante*. Es como si hubieras corrido una maratón y luego te hayas quedado despierto toda la noche con un virus. Tus músculos se sienten *envenenados* — pero no has hecho nada. No has entrenado. No has caminado más que hasta el baño.
 
@@ -28,7 +28,7 @@ Los atletas de élite saben cómo se siente el estrés metabólico postentrenami
 En EM/SFC, un subgrupo de pacientes muestra varios de estos mismos marcadores en reposo:
 - Lactato sanguíneo elevado en reposo (44,7% de los pacientes con ≥2 mmol/L) [@Ghali2019]
 - Deterioro en la recuperación de la acidosis inducida por el ejercicio entre sesiones de ejercicio repetido [@Jones2012lactate]
-- Interrupción generalizada de los metabolitos energéticos en el plasma —aunque el patrón general es un estado hipometabólico (conservación de energía), no simplemente "desregulación metabólica" [@Naviaux2016metabolomics]
+- Interrupción generalizada de los metabolitos energéticos en el plasma —aunque el patrón general es un estado hipometabólico (conservación de energía), no simplemente "estrés metabólico" [@Naviaux2016metabolomics]
 
 Estos hallazgos provienen de sangre y plasma, no de mediciones directas de tejido muscular. La superposición con los perfiles postentrenamiento es real pero parcial: los datos sugieren desregulación metabólica en reposo, pero los patrones no son idénticos a la recuperación postentrenamiento, y solo aproximadamente la mitad de los pacientes muestra lactato elevado. El modelo descrito a continuación se aplica al subgrupo de pacientes en los que estas anomalías metabólicas en reposo están presentes, y la imagen aún se está construyendo.
 

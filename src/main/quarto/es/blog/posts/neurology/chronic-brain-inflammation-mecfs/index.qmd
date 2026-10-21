@@ -20,7 +20,7 @@ Esta es una explicación de investigación, no consejo médico. TSPO-PET es una 
 - **TSPO-PET no mide la inflamación.** Mide la unión a una proteína mitocondrial que está presente en microglía, astrocitos, células de vasos sanguíneos y músculo liso. La señal no es específica de célula [@Nutma2023TSPO].
 - **Los dos estudios sobre EM/SFC discrepan.** Nakatomi et al. (2014) encontraron una mayor unión en nueve pacientes que en diez controles [@Nakatomi2014neuroinflammation]. Raijmakers et al. (2022) no encontraron diferencia entre nueve pacientes y nueve controles, y una correlación en la dirección opuesta [@Raijmakers2021neuroinflammation].
 - **El estudio más grande es post-COVID, no sobre EM/SFC.** Visser et al. (2025) escanearon a 47 personas con fatiga persistente después de la COVID-19. Algunas personas tenían alta unión cerebral, pero la diferencia entre grupos no sobrevivió a la corrección de múltiples comparaciones [@Visser2025TSPOfatigue].
-- **Un escaneo nulo en reposo no excluye un estado estimulado.** Un marco basal normal puede producir una respuesta exagerada a un estímulo posterior.
+- **Un escaneo nulo en reposo no excluye un estado cebado.** Un marco basal normal puede producir una respuesta exagerada a un estímulo posterior.
 - **TSPO-PET no es un test clínico.** No puede decirte si tienes inflamación cerebral, ni qué tratamiento tomar.
 
 ## Lo que el trazador realmente mide
@@ -106,7 +106,7 @@ Un primer paso factible es una muestra emparejada durante una punción lumbar cl
 
 ## ¿Qué significa esto desde el punto de vista clínico?
 
-El TSPO-PET no es un test de selección de tratamientos. Un escaneo positivo no demuestra la activación de microglía, ya que el marcador no es específico para células. Un escaneo negativo no indica ausencia, porque un escaneo en reposo no puede detectar un estado estimulado. Ninguno de los resultados indica al paciente si debe tomar naltrexona en dosis bajas, minociclina u otro inmunomodulador.
+El TSPO-PET no es un test de selección de tratamientos. Un escaneo positivo no demuestra la activación de microglía, ya que el marcador no es específico para células. Un escaneo negativo no indica ausencia, porque un escaneo en reposo no puede detectar un estado cebado. Ninguno de los resultados indica al paciente si debe tomar naltrexona en dosis bajas, minociclina u otro inmunomodulador.
 
 La afirmación clínica defensible es más limitada: "inflamación cerebral" es una posible categorización para la investigación, pero no una causa demostrada de EM/SFC. Si alguna prueba muestra que un tratamiento funciona en un subgrupo de alta TSPO y no en uno de baja TSPO, el escaneo se volvería útil. Pero esa prueba no ha sido realizada.
 

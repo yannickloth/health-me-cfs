@@ -9,7 +9,7 @@ lang: es
 
 La investigación necesita participantes y muestras. Dos tipos de infraestructuras hacen eso posible, y ambos son más abiertos de lo que muchos pacientes imaginan.
 
-**Registro** cataloga quién hace qué. El [**Registro de Investigación EM/SFC**](https://mrr.mecfs-research.org/en/mrr) indexa 149 proyectos de investigación, además de redes, publicaciones, personas y organizaciones; es público, accesible y exportable, por lo que puedes ver si alguien está estudiando la cuestión que te interesa — dentro del ámbito del país actual (Alemania, Austria, Suiza, Países Bajos, Noruega, Islandia), y ten en cuenta que la denuncia voluntaria puede subestimar el trabajo no regional o no publicado.
+**Registro** cataloga quién hace qué. El [**Registro de Investigación EM/SFC**](https://mrr.mecfs-research.org/en/mrr) indexa 149 proyectos de investigación, además de redes, publicaciones, personas y organizaciones; es público, accesible y exportable, por lo que puedes ver si alguien está estudiando la cuestión que te interesa — dentro del ámbito del país actual (Alemania, Austria, Suiza, Países Bajos, Noruega, Islandia), y ten en cuenta que la notificación voluntaria puede subestimar el trabajo no regional o no publicado.
 
 **Biobancos** recogen y almacenan muestras biológicas y datos vinculados. Ejemplos incluyen el Registro y Biobanco EM/SFC alemán (un esfuerzo bicéntrico del Munich MCFC y Charité Berlin), el Biobanco EM/SFC del Reino Unido, el Cohort y Biobanco EM/SFC de los Países Bajos (NMCB), el biobanco austriaco y el registro Solve M.E.'s You+ME.
 

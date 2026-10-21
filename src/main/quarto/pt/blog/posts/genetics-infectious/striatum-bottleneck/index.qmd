@@ -9,7 +9,7 @@ lang: pt
 
 Você acorda e o seu corpo pesa mais do que ontem. Não dor — peso. Cada movimento requer uma negociação. O café está a três metros de distância, mas o circuito striatum-talâmico-frontal que traduz *quero café* em *caminhar para a cozinha* tem um índice de sinal a ruído quebrado. A ordem está lá. A execução não está. Isso não é falta de motivação. Isso é a saída de uma região cerebral que se encontra na convergência de todos os gatilhos conhecidos de EM/SFC.
 
-O post anterior estabeleceu que o GWAS atribui o risco de EM/SFC aos neurônios, não às células imunitárias — a arquitetura genética diz o cérebro. A epidemiologia nos diz o resto: patógenos diversos (EBV, SARS-CoV-2, HHV-6), trauma físico, cirurgia e estresse severo podem todos desencadear a mesma doença. A convergência clínica requer convergência anatômica — mesmas sintomas, mesmo circuito. O DecodeME GWAS agora fornece o endereço físico onde isso acontece [@DecodeME2025].
+O post anterior estabeleceu que o GWAS atribui o risco de EM/SFC aos neurônios, não às células imunitárias — a arquitetura genética diz o cérebro. A epidemiologia nos diz o resto: patogénios diversos (EBV, SARS-CoV-2, HHV-6), trauma físico, cirurgia e estresse severo podem todos desencadear a mesma doença. A convergência clínica requer convergência anatômica — mesmas sintomas, mesmo circuito. O DecodeME GWAS agora fornece o endereço físico onde isso acontece [@DecodeME2025].
 
 ---
 
@@ -31,7 +31,7 @@ O striatum não é uma região cerebral obscura. É o centro de controle para:
 
 **Tomada de decisão sobre esforço/recompensa.** O striatum ventral integra sinais de dopamina que codificam o valor esperado de uma ação. Toda ação, todo tarefa cognitiva passa por este cálculo de custo-benefício. Na EM/SFC, a estimativa de custo é patologicamente elevada — não por causa da depressão, mas porque o circuito que calcula esses valores recebe entrada corrompida.
 
-**Sinalização de dopamina.** Os MSNs são os principais alvos dos neurônios de dopamina do mesencéfalo. Os MSNs com receptor D1 formam a via “sim”; os MSNs com receptor D2 formam a via “não”. O equilíbrio determina se a ação é iniciada ou inibida. A sinalização de dopamina perturbada inclina esse equilíbrio para a inibição.
+**Sinalização de dopamina.** Os MSNs são os principais alvos dos neurônios de dopamina do mesencéfalo. Os MSNs com recetor D1 formam a via “sim”; os MSNs com recetor D2 formam a via “não”. O equilíbrio determina se a ação é iniciada ou inibida. A sinalização de dopamina perturbada inclina esse equilíbrio para a inibição.
 
 ---
 

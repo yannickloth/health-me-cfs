@@ -92,7 +92,7 @@ Esta razón es:
 - Costo: aproximadamente $30–50 por muestra
 - Requiere solo análisis HPLC — equipo de laboratorio estándar
 
-**La predicción:** Esta razón debería ser elevada en pacientes con TDAH, pacientes con TEA, pacientes con hEDS/POTS y personas con déficit de hierro — no solo después de una infección. Si lo es, el estado de BH4 es un biomarcador unificador para la depleción de reserva metabólica en todo el grupo.
+**La predicción:** Esta razón debería ser elevada en pacientes con TDAH, pacientes con ASD, pacientes con hEDS/POTS y personas con déficit de hierro — no solo después de una infección. Si lo es, el estado de BH4 es un biomarcador unificador para la depleción de reserva metabólica en todo el grupo.
 
 **La predicción más fuerte:** El estado de BH4 antes de la enfermedad (medido mediante esta razón) debería predecir el riesgo de EM/SFC después de una infección mejor que cualquier diagnóstico predisponente individual.
 

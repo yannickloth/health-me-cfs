@@ -45,7 +45,7 @@ ALR explica el signo inmunológico: altos anticuerpos contra antígenos líticos
 
 La dUTPasa es una enzima de herpesvirus conservada que convierte dUTP en dUMP, evitando la incorporación incorrecta de uracilo en el ADN viral. También es un potente **patrón molecular asociado a patógenos (PAMP)**: el sistema inmunitario innato reconoce la dUTPasa a través de TLR2 y desencadena la producción de citocinas impulsada por NF-κB. Las dUTPasas de EBV (BLLF3), HHV-6 (U45), VZV (ORF8) y CMV son estructuralmente similares, de modo que un virus reactivado puede producir una dUTPasa que estimule la respuesta inmunitaria a otro —una base mecanicista para la co-reactivación de herpesvirus polispecíficos [@Cox2022dUTPaseMECFS].
 
-La dUTPasa del EBV también activa NF-κB en mastocitos, lo que impulsa la expresión de MMP-9. Esta es la conexión entre la historia de reactivación viral y la historia de degradación de tejido conectivo cubierta en los artículos sobre hipermobilidad: un herpesvirus reactivado produce una proteína (dUTPasa) que indica a los mastocitos liberar una enzima (MMP-9) que degrada colágeno y abre la barrera hematoencefálica. El virus no está en el cerebro. Pero sus productos posteriores llegan allí.
+La dUTPasa del EBV también activa NF-κB en mastocitos, lo que impulsa la expresión de MMP-9. Esta es la conexión entre la historia de reactivación viral y la historia de degradación de tejido conectivo cubierta en los artículos sobre hipermovilidad: un herpesvirus reactivado produce una proteína (dUTPasa) que indica a los mastocitos liberar una enzima (MMP-9) que degrada colágeno y abre la barrera hematoencefálica. El virus no está en el cerebro. Pero sus productos posteriores llegan allí.
 
 ### EBV→mastocito→MMP-9: el camino en cifras
 

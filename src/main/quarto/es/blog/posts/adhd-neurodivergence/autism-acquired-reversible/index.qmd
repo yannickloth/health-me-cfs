@@ -34,7 +34,7 @@ La vía propuesta para las características del autismo adquirido pasa por la **
 
 Normalmente, el cerebro mantiene un equilibrio entre sus *predicciones* sobre el cuerpo y las *pruebas sensoriales* que el cuerpo envía de vuelta. Dos modos de fallo producen síntomas externos similares, pero desde extremos opuestos:
 
-- **ASD de desarrollo** se cree que implica *predicciones demasiado precisas* — las predicciones del cerebro son demasiado rígidas, suprimiendo las actualizaciones sensoriales recibidas. El resultado: una rigidez perceptiva estable y similar a un rasgo.
+- **ASD de desarrollo** se cree que implica *priors demasiado precisos* — las predicciones del cerebro son demasiado rígidas, suprimiendo las actualizaciones sensoriales recibidas. El resultado: una rigidez perceptiva estable y similar a un rasgo.
 - **Características adquiridas** se cree que implican *señales de nivel inferior corruptas* — el tronco encefálico y las vías talamocorticales no logran transmitir información corporal precisa. El cerebro compensa aumentando la precisión de sus predicciones para suprimir el ruido.
 
 El resultado fenomenológico puede parecer idéntico: sobrecarga sensorial, dificultad para leer los estados internos, aparente alexitimia (una incapacidad para nombrar las emociones — no por ausencia de emoción, sino por incapacidad para vincularla con un estado corporal específico). Pero el origen computacional difiere — y así debe ser la respuesta al tratamiento.
@@ -83,7 +83,7 @@ La razón por la que esta distinción es importante desde el punto de vista clí
 - **Si las características adquiridas se consideran "solo autismo"**, un proceso subyacente tratable (inflamación, déficit metabólico, sueño perturbado) no se aborda.
 - **Si las características de desarrollo se tratan como adquiridas y reversibles**, a los pacientes se les ofrecen tratamientos que no funcionarán, y pueden culparse a sí mismos cuando no funcionan.
 
-las características similares al autismo adquiridas deben ser **sustentadas, no patologizadas** — y los factores modificables subyacentes (sueño, inflamación, hierro, energía) deben abordarse independientemente del etiquetado, porque afectan el bienestar general incluso cuando la conexión de desarrollo central permanece inalterada.
+las características similares al autismo adquiridas deben ser **apoyadas, no patologizadas** — y los factores modificables subyacentes (sueño, inflamación, hierro, energía) deben abordarse independientemente del etiquetado, porque afectan el bienestar general incluso cuando la conexión de desarrollo central permanece inalterada.
 
 ---
 

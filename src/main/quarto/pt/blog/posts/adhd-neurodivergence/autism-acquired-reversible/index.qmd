@@ -34,8 +34,8 @@ A rota proposta para características semelhantes ao autismo adquirido passa pel
 
 Normalmente, o cérebro mantém um equilíbrio entre as suas *previsões* sobre o corpo e as *evidências sensoriais* que o corpo envia de volta. Duas formas de falha produzem sintomas externos semelhantes, mas de pontos opostos:
 
-- **ASD de desenvolvimento** é considerada envolver *prévisões excessivamente precisas* — as previsões do cérebro são demasiado rígidas, suprimindo as atualizações sensoriais recebidas. O resultado: rigidez perceptual estável, semelhante a traços característicos.
-- **Características adquiridas** são consideradas envolver *sinais de nível inferior corrompidos* — o tronco cerebral e as vias thalamocortical falham em transmitir informações precisas sobre o corpo. O cérebro compensa aumentando a precisão das suas previsões para suprimir o ruído.
+- **ASD de desenvolvimento** é considerada envolver *priores excessivamente precisos* — as previsões do cérebro são demasiado rígidas, suprimindo as atualizações sensoriais recebidas. O resultado: rigidez perceptual estável, semelhante a traços característicos.
+- **Características adquiridas** são consideradas envolver *sinais de nível inferior corrompidos* — o tronco cerebral e as vias thalamocortical falham em transmitir informações precisas sobre o corpo. O cérebro compensa aumentando a precisão dos seus priores para suprimir o ruído.
 
 O resultado fenomenológico pode parecer idêntico: sobrecarga sensorial, dificuldade em interpretar estados internos, aparente alexitimia (incapacidade de nomear as emoções — não por ausência de emoção, mas por incapacidade de ligá-la a um estado corporal específico). Mas o local computacional difere — e assim deve ser a resposta ao tratamento.
 
@@ -63,7 +63,7 @@ Se esta cascata é a causa imediata, então **intervenções direcionadas à neu
 
 Outra via adquirida funciona através do sono. Pessoas neurodivergentes apresentam altos índices de interrupção do sono. Se o sono — a principal janela do cérebro para reparação e para a eliminação de resíduos metabólicos (sistema glifático) — for degradado de forma crónica, isso agrava qualquer distúrbio energético ou inflamatório subjacente e pode piorar os sintomas cognitivos e sensoriais ao longo do tempo.
 
-Esta é a teoria mais especulativa, com o menor grau de confiança, e envolve uma longa cadeia de conexões não testadas. Foi incluída para completude, não porque seja bem sustentada.
+Esta é a vertente mais especulativa, com o menor grau de confiança, e envolve uma longa cadeia de conexões não testadas. Foi incluída para completude, não porque seja bem sustentada.
 
 ---
 
@@ -89,7 +89,7 @@ as características semelhantes ao autismo adquiridas devem ser **apoiadas, não
 
 ## O que levar para casa
 
-Algumas características semelhantes ao autismo — rigidez sensorial, retração, alexitimia aparente — podem ser **adquiridas** após o desenvolvimento, em vez de serem inculcadas a partir dele. Se o caso, devem ser **dependentes do contexto e potencialmente reversíveis** com o tratamento da causa subjacente: neuroinflamação, distúrbios metabólicos ou perturbações do sono.
+Algumas características semelhantes ao autismo — rigidez sensorial, retração, alexitimia aparente — podem ser **adquiridas** após o desenvolvimento, em vez de serem incorporadas a partir dele. Se o caso, devem ser **dependentes do contexto e potencialmente reversíveis** com o tratamento da causa subjacente: neuroinflamação, distúrbios metabólicos ou perturbações do sono.
 
 A parte encorajadora: isso significa que uma parte significativa da carga sintomática diária em algumas pessoas pode ser abordada sem pretender "corrigir" o autismo em si.
 

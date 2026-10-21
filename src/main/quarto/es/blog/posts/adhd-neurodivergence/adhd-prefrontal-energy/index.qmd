@@ -27,7 +27,7 @@ El modelo energético en esta parte se puede leer mejor como una *adición* a es
 
 ## El modelo: un cortex prefrontal operando con un suministro de combustible limitado
 
-La **corteza prefrontal (PFC)** gestiona las funciones ejecutivas: memoria de trabajo, inhibición de impulsos, regulación emocional, control de atención, planificación y la capacidad de detenerse y elegir una respuesta en lugar de reaccionar. Es la región más costosa en términos metabólicos en el cerebro humano. En ausencia de ATP, es el primer sistema cerebral que se degrada.
+La **corteza prefrontal (PFC)** gestiona las funciones ejecutivas: memoria de trabajo, inhibición de impulsos, regulación emocional, control de atención, planificación y la capacidad de detenerse y elegir una respuesta en lugar de reaccionar. Es la región más costosa en términos metabólicos en el cerebro humano. En escasez de ATP, es el primer sistema cerebral que se degrada.
 
 La razón es específica. La memoria de trabajo depende de *disparo persistente* — neuronas que mantienen actividad sin entrada externa — lo que requiere el funcionamiento continuo de bombas de sodio-potasio que queman ATP [@Constantinidis2018working]. La neuroimagen funcional muestra consistentemente que las tareas cognitivas que involucran el PFC producen la mayor señal metabólica en el cerebro. Esto no es un defecto de diseño; es el precio de una cognición más avanzada.
 
@@ -78,7 +78,7 @@ Si parte de la carga de síntomas se debe a una falta de combustible en el PFC, 
 
 **4. Moduladores de catecolaminas no estimulantes.** Los tratamientos no estimulantes para TDAH actúan en el mismo sistema de catecolaminas prefrontales por un camino diferente, y nuestro artículo señala que pueden ser especialmente relevantes cuando los estimulantes presentan riesgos. La guanfacina — un agonista alfa-2A que mejora la memoria de trabajo en TDAH — actúa postsinápticamente en el córtex prefrontal, sin el mismo perfil de mejora dopaminérgica, y la combinación de atomoxetina más guanfacina utilizada clínicamente en TDAH es generalmente bien tolerada [@Cortese2018ADHDmedications]. Para un paciente cuyo tono de catecolaminas es subóptimo, estos ofrecen un mecanismo para aumentar la señalización prefrontal sin el ciclo de oxidación y agotamiento que los estimulantes que aumentan la dopamina pueden provocar.
 
-*Advertencia de seguridad.* En la fatiga crónica, los estimulantes no son una excusa: pueden permitir actividad más allá de la verdadera capacidad del cuerpo y provocar malestar post-esfuerzo — la misma lógica de envoltura de energía que el artículo existente sobre estimulantes desarrolla. Son compensación, no reparación, y el mecanismo dopamina-quinona en la Parte 3 predice que también pueden provocar inflamación en pacientes con TDAH-comorbidas. Nada de esto es una recomendación de tratamiento; discuta cualquier intervención con un clínico calificado.
+*Advertencia de seguridad.* En la fatiga crónica, los estimulantes no están exentos de riesgo: pueden permitir actividad más allá de la verdadera capacidad del cuerpo y provocar malestar post-esfuerzo — la misma lógica de envolvente de energía que el artículo existente sobre estimulantes desarrolla. Son compensación, no reparación, y el mecanismo dopamina-quinona en la Parte 3 predice que también pueden provocar inflamación en pacientes con TDAH-comorbidas. Nada de esto es una recomendación de tratamiento; discuta cualquier intervención con un clínico calificado.
 
 ---
 
@@ -90,7 +90,7 @@ Varios de estos mecanismos tienen artículos dedicados en este blog. Esta serie 
 - **[Un cofactor, seis condiciones, un cuello de botella](../bh4-one-cofactor-six-conditions/index.qmd)** — el cuello de botella del cofactor BH4.
 - **[Por qué los estimulantes ayudan a la niebla cerebral pero no a PEM](../stimulants-help-fog-not-pem/index.qmd)** — por qué los estimulantes compensan temporalmente la cognición pero no el malestar post-esfuerzo.
 - **[Por qué las personas con TDAH desarrollan EM/SFC en dos veces la tasa](../adhd-mecfs-predisposition/index.qmd)** — el gradiente epidemiológico.
-- **[La crisis después del hiperfoco: ¿El TDAH ya está experimentando micro-PEM?](../hyperfocus-crash-micropem/index.qmd)** — la hipótesis de nuestro artículo de que el hiperfoco en el TDAH es una forma *focal* de la misma pérdida de envoltura de energía que subyace en el malestar post-esfuerzo, provocada por una demanda cognitiva más que física.
+- **[La crisis después del hiperfoco: ¿El TDAH ya está experimentando micro-PEM?](../hyperfocus-crash-micropem/index.qmd)** — la hipótesis de nuestro artículo de que el hiperfoco en el TDAH es una forma *focal* de la misma pérdida de envolvente de energía que subyace en el malestar post-esfuerzo, provocada por una demanda cognitiva más que física.
 
 ---
 

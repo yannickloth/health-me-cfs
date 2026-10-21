@@ -22,7 +22,7 @@ O conjunto mínimo de campos, e por que cada campo ganha seu lugar:
 - **Medicamento** — a intervenção em si.
 - **Dose e faixa de dose** — a variável de carga. Um valor nulo dentro de uma janela testada é informação; um valor nulo no topo da faixa não é.
 - **Duração** — porque um benefício que aparece em três semanas e diminui em três meses é um achado diferente de um que nunca aparece. Um ensaio adequado tem que ter durado o suficiente para mostrar seu efeito.
-- **Domínio de resposta** — *qual sintoma* mudou. Um medicamento que resolve a névoa cerebral sem afetar a dor está a dizer que esses dois sintomas operam por caminhos diferentes. Uma única pontuação "melhor/pior" destrói esse sinal.
+- **Domínio de resposta** — *qual sintoma* mudou. Um medicamento que resolve o nevoeiro cerebral sem afetar a dor está a dizer que esses dois sintomas operam por caminhos diferentes. Uma única pontuação "melhor/pior" destrói esse sinal.
 - **Tipo de efeito colateral** — porque um efeito colateral é uma indicação de que o alvo foi ativado, independentemente de a correção ter ajudado. Um paciente que interrompe um medicamento por um efeito colateral específico ainda contribuiu com dados mecânicos.
 - **Motivo da interrupção** — a forma mais próxima de uma avaliação livre do que realmente aconteceu.
 - **Volume de discussão da comunidade** — um campo incomum, e necessário, explicado abaixo.

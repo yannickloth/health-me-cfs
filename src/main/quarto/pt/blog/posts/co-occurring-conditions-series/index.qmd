@@ -33,7 +33,7 @@ Leia os três artigos na ordem:
 
 ## Parte 2: Taquicardia Ortostática Postural (POTS)
 
-A série continua com a POTS — o coração que acelera quando se está em pé, o volume sanguíneo que é paradoxalmente baixo e o cérebro que perde fluxo sanguíneo mesmo quando os sinais são normais. A POTS é a segunda mais comum condição associada; ela está diretamente relacionada com as ligações ortostáticas de mastócitos e os problemas do tecido conjuntivo abordados a seguir.
+A série continua com a POTS — o coração que acelera quando se está em pé, o volume sanguíneo que é paradoxalmente baixo e o cérebro que perde fluxo sanguíneo mesmo quando os sinais são normais. A POTS é o segundo amplificador co-ocorrente mais comum; ela está diretamente relacionada com as ligações ortostáticas de mastócitos e os problemas do tecido conjuntivo abordados a seguir.
 
 Leia os dois artigos em ordem:
 
@@ -44,12 +44,12 @@ Leia os dois artigos em ordem:
 
 ## Parte 3: Hipermobilidade e a Conexão dos Tecidos Conectivos
 
-A tríade se une: a hipermobilidade completa o cluster POTS–MCAS–hEDS. Esta entrada em duas partes explica por que os tecidos flexíveis não se mantêm unidos — as cinco vias mecânicas, como os mastócitos podem degradar ativamente o colágeno (hipermobilidade adquirida), a genética TNXB, a linha de neurodivergência e a arquitetura do tratamento, desde fisioterapia isométrica até apoio circadiano ao colágeno e inibição experimental de MMP.
+A tríade se une: a hipermobilidade completa o cluster POTS–MCAS–hEDS. Esta entrada em duas partes explica por que os tecidos flexíveis não se mantêm unidos — as cinco vias mecânicas, como os mastócitos podem degradar ativamente o colagénio (hipermobilidade adquirida), a genética TNXB, a linha de neurodivergência e a arquitetura do tratamento, desde fisioterapia isométrica até apoio circadiano ao colagénio e inibição experimental de MMP.
 
 Leia os três artigos na ordem indicada:
 
 1. **[Hipermóbile EDS e a Conexão dos Tecidos Conectivos com EM/SFC](../connective-tissue/hypermobility-heds/index.qmd)** — o que é hEDS, por que não há defeito genético identificado, a diferença de 81% para 15,5%, hipermobilidade progressiva adquirida (triptase→MMP-3/-13, quimase→MMP-1, histaminilação), o ciclo de retroalimentação de rigidez da matriz, cinco vias mecânicas, a conexão com a neurodivergência, a genética TNXB, a taxa permanente de 10–20% de custo energético e hEDS sozinho vs hEDS em EM/SFC.
-2. **[Gerenciando a Hipermobilidade sobre a EM/SFC](../connective-tissue/hypermobility-heds-treatment/index.qmd)** — protocolos de resistência isométrica, horário dos cofatores de colágeno circadiano (vitamina C, alfa-ketoglutarato), glicina e prolina, cobre/B6 para LOX, doxiciclina de baixa dose para MMP-9, terapias emergentes (tVNS, inibidores de HIF-1α, bloqueio de TGF-β1), cirurgia CCI, resultados esperados e um exemplo de estudo estruturado.
+2. **[Gerenciando a Hipermobilidade sobre a EM/SFC](../connective-tissue/hypermobility-heds-treatment/index.qmd)** — protocolos de resistência isométrica, horário dos cofatores de colagénio circadiano (vitamina C, alfa-ketoglutarato), glicina e prolina, cobre/B6 para LOX, doxiciclina de baixa dose para MMP-9, terapias emergentes (tVNS, inibidores de HIF-1α, bloqueio de TGF-β1), cirurgia CCI, resultados esperados e um exemplo de estudo estruturado.
 3. **[Quando o Tratamento Não Ajuda](../connective-tissue/hypermobility-heds-failure/index.qmd)** — a armadilha de descondicionamento-MPE, o ponto de viragem de rigidez da matriz, triagem congénita vs adquirida, os seis pontos de falha numerados, previsões falsificáveis e o que se pode realmente fazer.
 
 ---
@@ -82,7 +82,7 @@ O intestino que não funciona corretamente — por que o estômago esvazia lenta
 
 Leia os dois artigos em ordem:
 
-1. **[SIBO, Gastroparesis e o Intestino que não funciona na EM/SFC](../gut/sibo-gi-dysmotility/index.qmd)** — falha na motilidade vagal, eixo mastócitos-intestino, toxicidade mitocondrial por H₂S, intolerância a DAO e histamina, e problemas GI isolados vs problemas GI associados à EM/SFC.
+1. **[SIBO, Gastroparesis e o Intestino que não funciona na EM/SFC](../gut/sibo-gi-dysmotility/index.qmd)** — falha na motilidade ICC/vagal, eixo mastócitos-intestino, toxicidade mitocondrial por H₂S, intolerância a DAO e histamina, e problemas GI isolados vs problemas GI associados à EM/SFC.
 2. **[Tratamento de SIBO, Gastroparesis e o Intestino](../gut/sibo-gi-treatment/index.qmd)** — espaçamento das refeições, eliminação reduzida de histamina, antibióticos e ervas para SIBO, dieta elementar, DAO, butirato, procinéticos, resultados esperados, um exemplo de estudo estruturado, discussão sobre falhas, previsões falsificáveis e orientações práticas.
 
 ---
@@ -121,6 +121,6 @@ Leia o artigo:
 
 ## Sobre as evidências
 
-Cada artigo desta série distingue cuidadosamente três aspectos: o que é *confirmado* por evidências, o que é *uma hipótese promissora* e o que é *a experiência de um paciente individual*. Além disso, mantém as duas situações de EM/SFC distintas — uma condição co-ocorrente por si só versus a mesma condição sobreposta à EM/SFC — porque o objetivo do tratamento e o significado de um fracasso geralmente diferem (embora se reconheça que esta é uma fronteira clínica, dependente do julgamento, e não uma barreira biológica imutável).
+Cada artigo desta série distingue cuidadosamente três aspectos: o que é *confirmado* por evidências, o que é *uma hipótese promissora* e o que é *a experiência de um paciente individual*. Além disso, mantém as duas situações de EM/SFC distintas — uma condição co-ocorrente por si só versus a mesma condição sobreposta à EM/SFC — porque o objetivo do tratamento e o significado de um fracasso geralmente diferem (embora se reconheça que esta é uma fronteira clínica, dependente do julgamento, e não uma parede biológica rígida).
 
 A ciência subjacente é totalmente citada no documento principal — consulte os resumos do MCAS e o capítulo sobre transversal entre doenças para material de referência, caso deseje saber os detalhes por trás destes textos de linguagem simples [@Loth2026website].

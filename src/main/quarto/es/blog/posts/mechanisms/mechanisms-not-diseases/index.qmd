@@ -24,7 +24,7 @@ Aproximadamente entre 30 y 50, dependiendo de cómo se cuenten:
 - Hiperexcitabilidad talamocortical
 - Desregulación autonómica
 - Fallo en la perfusión vascular
-- Rotura de la barrera biológica (intestino, sangre-cerebro)
+- Rotura de la barrera biológica (intestino, hematoencefálica)
 - Desregulación del eje hipotálamo-hipófisis-suprarrenal
 - Senescencia celular
 - Disbiosis del microbioma
@@ -78,7 +78,7 @@ Un médico formado en torno a mecanismos en lugar de enfermedades abordaría a u
 
 1. **Mapa los mecanismos activos** — no "¿qué enfermedad tiene este paciente?" sino "¿cuáles procesos biológicos están desregulados y cómo interactúan?"
 2. **Enfocarse en los más accesibles** — no "¿cuál es el protocolo para este diagnóstico?" sino "¿cuáles de estos mecanismos pueden ser accedidos con herramientas disponibles y en qué orden?"
-3. **Sintetizar entre especialidades** — la PSG, los tests autonómicos, el panel de inmunología, la metabolómica — como insumos para una imagen mecánica unificada, no como resultados de departamentos separados.
+3. **Sintetizar entre especialidades** — la PSG, los tests autonómicos, el panel de inmunología, la metabolómica — como insumos para una imagen mecanística unificada, no como resultados de departamentos separados.
 
 Esto es lo que algunos centros especializados en EM/SFC ahora hacen. No es estándar. Requiere tiempo que no es reembolsado, síntesis que no se enseña y un marco que no está en las guías.
 

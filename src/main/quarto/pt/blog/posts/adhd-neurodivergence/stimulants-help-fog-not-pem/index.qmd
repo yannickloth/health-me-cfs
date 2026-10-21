@@ -1,5 +1,5 @@
 ---
-title: "Por que os estimulantes ajudam a névoa cerebral, mas não a PEM"
+title: "Por que os estimulantes ajudam o nevoeiro cerebral, mas não a PEM"
 description: "Este é o sexto artigo de uma série sobre a biologia da energia que relaciona PHDA, autismo e EM/SFC. Este artigo explica a dissociação notável entre o benefício dos estimulantes para os sintomas cognitivos e o efeito nulo deles no mal-estar pós-esforço — e o que isso significa..."
 author: "Yannick Loth"
 date: "2026-06-02"
@@ -15,7 +15,7 @@ Este é o sexto artigo de uma série sobre a biologia energética que relaciona 
 
 Uma pesquisa do PNAS de 2025 com **3.925 pacientes com EM/SFC** avaliou os resultados do tratamento em vários domínios [@Eckey2025PatientReported]:
 
-- Os estimulantes melhoraram a **névoa cerebral em 77,1%**
+- Os estimulantes melhoraram a **nevoeiro cerebral em 77,1%**
 - Os estimulantes melhoraram a **percepção da fadiga em 71,7%**
 - Os estimulantes tiveram um **efeito líquido de -1,5% no MPE**
 
@@ -31,7 +31,7 @@ Os estimulantes — metilfenidato, anfetaminas, modafinilo, solriamfetol — aum
 
 Em termos de engenharia: os estimulantes reduzem a **demanda** de energia por unidade cognitiva sem aumentar a **oferta** de energia.
 
-A experiência subjetiva: o pensamento torna-se mais fácil. O esforço constante necessário apenas para manter a atenção — que é o estado de base tanto no PHDA quanto na névoa cerebral EM/SFC — diminui. Os números de 77% e 71,7% refletem essa melhoria real na eficiência cognitiva.
+A experiência subjetiva: o pensamento torna-se mais fácil. O esforço constante necessário apenas para manter a atenção — que é o estado de base tanto no PHDA quanto no nevoeiro cerebral EM/SFC — diminui. Os números de 77% e 71,7% refletem essa melhoria real na eficiência cognitiva.
 
 ---
 
@@ -103,11 +103,11 @@ Para pacientes com EM/SFC que utilizam estimulantes:
 
 2. **Use temporizadores externos, e não a sensação interna, para decidir quando parar.** O estimulante suprime o sinal de alerta subjetivo. Quando você sente fadiga cognitiva devido ao estimulante, já ultrapassou o limite permitido.
 
-3. **Rastreie o MPE 24h e 48h após as sessões cognitivas.** Se o MPE piora apesar da melhoria na cognição durante as sessões, você está a gastar os economizados em vez de investi-los.
+3. **Rastreie o MPE 24h e 48h após as sessões cognitivas.** Se o MPE piora apesar da melhoria na cognição durante as sessões, você está a gastar os economizados em vez de guardá-los.
 
 4. **Considere primeiro o ritmo, depois o estimulante.** Estabeleça primeiro um padrão estável e controlado. Depois adicione o estimulante. Monitore se a frequência do MPE mudar. Se diminuir: a combinação está a funcionar como previsto. Se aumentar: você aumentou a atividade sem perceber.
 
-5. **Cuidado cardíaco em pacientes com POTS.** Metilfenidato e anfetaminas são simpatomiméticos. No 30–40% dos pacientes com EM/SFC que têm POTS associado, podem piorar a taquicardia. Preocupações específicas: (a) estimulantes + midodrina podem causar picos de hipertensão; (b) estimulantes + betabloqueadores criam movimentos cardiovasculares opostos; (c) estimulantes + fludrocortisona aumentam a carga simpática geral. Se começar estimulantes num paciente com POTS, use a dose mais baixa eficaz, monitore a frequência cardíaca em repouso e ortostática, e gerencie junto ao médico que prescreve os medicamentos para POTS.
+5. **Cuidado cardíaco em pacientes com POTS.** Metilfenidato e anfetaminas são simpatomiméticos. No 30–40% dos pacientes com EM/SFC que têm POTS associado, podem piorar a taquicardia. Preocupações específicas: (a) estimulantes + midodrina podem causar picos de hipertensão; (b) estimulantes + betabloqueadores criam forças cardiovasculares opostas; (c) estimulantes + fludrocortisona aumentam a carga simpática geral. Se começar estimulantes num paciente com POTS, use a dose mais baixa eficaz, monitore a frequência cardíaca em repouso e ortostática, e gerencie junto ao médico que prescreve os medicamentos para POTS.
 
 6. **A gravidade importa.** O conselho de ritmo acima assume que o paciente pode implementar sessões de trabalho cognitivo estruturadas. Pacientes com EM/SFC grave e muito grave — aqueles que estão confinados à cama ou à casa — podem não ser capazes de gerenciar temporizadores, rastreamento ou decisões de atividade sozinhos sem apoio de um cuidador. Adapte os princípios ao nível funcional do paciente.
 

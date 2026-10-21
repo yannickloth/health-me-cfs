@@ -60,7 +60,7 @@ Este enfoque aproxima un bioensayo in vivo, utilizando tejido nativo a densidade
 
 ## Evidencia entre enfermedades
 
-La pupilometría ha sido estudiada como un biomarcador autónomo en múltiples condiciones que presentan características comunes con EM/SFC. (Nota: las condiciones mencionadas involucran mecanismos de enfermedad diferentes — microvascular, desmielinizante, traumático — por lo que la convergencia se basa en la utilidad del método, no en una patofisiopatología compartida.)
+La pupilometría ha sido estudiada como un biomarcador autónomo en múltiples condiciones que presentan características comunes con EM/SFC. (Nota: las condiciones mencionadas involucran mecanismos de enfermedad diferentes — microvascular, desmielinizante, traumático — por lo que la convergencia se basa en la utilidad del método, no en una fisiopatología compartida.)
 
 En **neuropatía autónoma diabética**, la amplitud de constricción de PLR y la velocidad de dilatación se reducen, y la magnitud de esta reducción está correlacionada con la duración de la enfermedad. Li y sus colaboradores (2026) demostraron que la diferencia en el diámetro de la pupila escotópico-fotópica podría servir como biomarcador para el manejo glucémico a largo plazo [@li2026pupil]. Thakar y sus colaboradores (2025) confirmaron la correlación entre los parámetros de PLR y el grosor de la capa de fibras nerviosas retinianas — un correlato estructural [@thakar2025pupillometry].
 

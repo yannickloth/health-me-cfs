@@ -9,23 +9,23 @@ lang: es
 
 En la construcción, un muro portante sostiene la estructura del edificio. Si se elimina, el edificio colapsa. Un muro no portante define un espacio, proporciona aislamiento, sostiene una puerta — pero la estructura se mantiene sin él. Renovar una habitación eliminando muros no portantes es sencillo. Eliminar un muro portante sin entender que es uno de ellos es catastrófico.
 
-EM/SFC tiene lo equivalente a muros portantes. El estado de enfermedad se mantiene mediante múltiples mecanismos de auto-reforzamiento — "bloqueos" que mantienen al paciente en el área de la enfermedad incluso después de que el desencadenante original haya desaparecido. No todos son estructurales. Algunos son portantes. La mayoría no lo son. Esta distinción es una de las más importantes y más pasadas por alto en el pensamiento sobre el tratamiento [Cap. 16 §Muros portantes versus bloqueos secundarios].
+EM/SFC tiene lo equivalente a muros portantes. El estado de enfermedad se mantiene mediante múltiples mecanismos de auto-reforzamiento — "cerraduras" que mantienen al paciente en el área de la enfermedad incluso después de que el desencadenante original haya desaparecido. No todas son estructurales. Algunas son portantes. La mayoría no lo son. Esta distinción es una de las más importantes y más pasadas por alto en el pensamiento sobre el tratamiento [Cap. 16 §Cerraduras portantes versus cerraduras secundarias].
 
 ---
 
 ## La distinción
 
-Un **candado portante** es aquel cuya eliminación es necesaria — aunque no necesariamente suficiente — para escapar del estado de enfermedad. Los candados restantes no pueden soportar la enfermedad sin él. Si se puede eliminar, los otros mecanismos comienzan a perder su efecto.
+Una **cerradura portante** es aquella cuya eliminación es necesaria — aunque no necesariamente suficiente — para escapar del estado de enfermedad. Las cerraduras restantes no pueden soportar la enfermedad sin ella. Si se puede eliminar, los otros mecanismos comienzan a perder su efecto.
 
-Un **candado secundario** empeora los síntomas y ralentiza la recuperación, pero no es estructural. La enfermedad puede mantenerse sin este candado en su lugar. Tratarlo mejora la experiencia del paciente dentro del estado de enfermedad; no permite escapar.
+Una **cerradura secundaria** empeora los síntomas y ralentiza la recuperación, pero no es estructural. La enfermedad puede mantenerse sin esta cerradura en su lugar. Tratarla mejora la experiencia del paciente dentro del estado de enfermedad; no permite escapar.
 
-La analogía del edificio se relaciona directamente: eliminar un candado portante hace que el atractor de la enfermedad colapse — lo cual es el objetivo terapéutico. Eliminar un candado secundario mejora el interior sin amenazar la estructura [Cap. 16 §Candados de soporte versus Candados secundarios].
+La analogía del edificio se relaciona directamente: eliminar una cerradura portante hace que el atractor de la enfermedad colapse — lo cual es el objetivo terapéutico. Eliminar una cerradura secundaria mejora el interior sin amenazar la estructura [Cap. 16 §Cerraduras portantes versus cerraduras secundarias].
 
 ---
 
 ## Dos mecanismos estructurales
 
-El marco identifica dos mecanismos como portantes basándose en sus propiedades de autosustentación y su necesaria función en el mantenimiento de la enfermedad [Cap. 16 §Candados portantes versus candados secundarios]:
+El marco identifica dos mecanismos como portantes basándose en sus propiedades de autosustentación y su necesaria función en el mantenimiento de la enfermedad [Cap. 16 §Cerraduras portantes versus cerraduras secundarias]:
 
 **Consolidación epigenética.** El programa de expresión génica adecuado para la enfermedad —activación inmunitaria, supresión metabólica, señalización de neurotransmisores alterada— puede estabilizarse a través de metilación del ADN y modificaciones de histonas. Una vez que esta estabilización se produce, el estado de enfermedad ya no se mantiene únicamente por señalización activa; se graba en la capa de cromatina. Las células expresan el programa de enfermedad no porque sigan recibiendo las señales originales, sino porque el registro de esas señales ha sido codificado a nivel de regulación génica.
 
@@ -33,13 +33,13 @@ Esto es estructural. Abordar la causa original —eliminar un reservorio viral, 
 
 **Persistencia autoinmune (autoanticuerpos de GPCR).** En pacientes con autoanticuerpos dirigidos a receptores acoplados a proteínas G —receptores de superficie celular que regulan el sistema nervioso autónomo—, las células plasmáticas que producen esos anticuerpos pueden persistir en santuarios inaccesibles para la limpieza inmune normal. Mientras continúe la producción, los efectos posteriores (disfunción endotelial, reprogramación inmune, interrupción de GPCR en múltiples órganos) se mantienen. Esto es portante en un sentido específico: si abordas todos los otros mecanismos pero dejas intacta la producción de autoanticuerpos, el ataque continuo reestablecerá el estado patológico relativamente rápidamente, aunque las cinéticas precisas no han sido establecidas empíricamente en EM/SFC [Cap. 16 §Cascada de autoanticuerpos de GPCR].
 
-Este segundo bloque es específico para el subtipo del paciente. No todos los pacientes con EM/SFC tienen autoanticuerpos de GPCR elevados. Para aquellos que los tienen, es portante. Para aquellos que no, la consolidación epigenética es, según este marco, el principal mecanismo estructural a considerar.
+Esta segunda cerradura es específica para el subtipo del paciente. No todos los pacientes con EM/SFC tienen autoanticuerpos de GPCR elevados. Para aquellos que los tienen, es portante. Para aquellos que no, la consolidación epigenética es, según este marco, el principal mecanismo estructural a considerar.
 
 ---
 
 ## Lo que no es estructural
 
-Varios mecanismos de enfermedad prominentes son secundarios. Son importantes, ya que provocan síntomas, retrasan la recuperación y profundizan la experiencia de la enfermedad, pero no son estructurales [Cap. 16 §Candados portantes versus candados secundarios]:
+Varios mecanismos de enfermedad prominentes son secundarios. Son importantes, ya que provocan síntomas, retrasan la recuperación y profundizan la experiencia de la enfermedad, pero no son estructurales [Cap. 16 §Cerraduras portantes versus cerraduras secundarias]:
 
 **Ciclo de estrés oxidativo.** Las especies reactivas de oxígeno dañan las mitocondrias, lo que aumenta el estrés oxidativo, que a su vez daña aún más las mitocondrias. Este es un ciclo de amplificación real, pero se encuentra más abajo de la falla energética principal. Corrigiendo los mecanismos aguas arriba, el ciclo de estrés oxidativo pierde su impulsor [Cap. 16 §Ciclo vicioso de estrés oxidativo].
 
@@ -53,9 +53,9 @@ Varios mecanismos de enfermedad prominentes son secundarios. Son importantes, ya
 
 ## La importancia sintomática y estructural
 
-Los cierres secundarios a menudo generan los síntomas más visibles de inmediato. La fragmentación del sueño, el dolor y la disfunción cognitiva son los temas que los pacientes reportan con mayor urgencia, y tratarlos es apropiado; sin embargo, las expectativas terapéuticas deben ajustarse. Mejorar un cierre secundario no crea un camino hacia la recuperación; solo mejora la experiencia del paciente dentro de la enfermedad. Eso tiene valor, pero no es lo mismo que un tratamiento estructural.
+Las cerraduras secundarias a menudo generan los síntomas más visibles de inmediato. La fragmentación del sueño, el dolor y la disfunción cognitiva son los temas que los pacientes reportan con mayor urgencia, y tratarlos es apropiado; sin embargo, las expectativas terapéuticas deben ajustarse. Mejorar una cerradura secundaria no crea un camino hacia la recuperación; solo mejora la experiencia del paciente dentro de la enfermedad. Eso tiene valor, pero no es lo mismo que un tratamiento estructural.
 
-Los cierres portantes, en particular la consolidación epigenética, a menudo no producen síntomas directos y de inmediata percepción. El paciente no puede sentir que su expresión génica se mantiene mediante patrones de metilación. No hay síntoma que corresponda a "enfermedad epigenética codificada". El dolor y la fatiga son consecuencias posteriores, no el mecanismo de consolidación en sí.
+Las cerraduras portantes, en particular la consolidación epigenética, a menudo no producen síntomas directos y de inmediata percepción. El paciente no puede sentir que su expresión génica se mantiene mediante patrones de metilación. No hay síntoma que corresponda a "enfermedad epigenética codificada". El dolor y la fatiga son consecuencias posteriores, no el mecanismo de consolidación en sí.
 
 Esto genera un desajuste sistemático entre la importancia sintomática y la importancia estructural. Los mecanismos que *duelen más* son a menudo secundarios. Los mecanismos que *mantienen la enfermedad* a menudo no producen señales perceptibles directas.
 

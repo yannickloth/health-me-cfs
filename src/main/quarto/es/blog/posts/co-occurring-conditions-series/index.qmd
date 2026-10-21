@@ -1,6 +1,6 @@
 ---
 title: "Las Condiciones que Acompañan a EM/SFC — una Serie"
-description: "La EM/SFC rara vez ocurre de forma aislada. La activación de mastocitos, POTS, hipermobilidad, fibromialgia, problemas intestinales y migraña ocurren con mucha más frecuencia que por azar. Esta es la página de inicio de una serie en lenguaje sencillo sobre cada condición que aparece junto a la EM/SFC: cuál es, cómo se relaciona con la EM/SFC, los tratamientos y, siempre, qué significa si el tratamiento no funciona."
+description: "La EM/SFC rara vez ocurre de forma aislada. La activación de mastocitos, POTS, hipermovilidad, fibromialgia, problemas intestinales y migraña ocurren con mucha más frecuencia que por azar. Esta es la página de inicio de una serie en lenguaje sencillo sobre cada condición que aparece junto a la EM/SFC: cuál es, cómo se relaciona con la EM/SFC, los tratamientos y, siempre, qué significa si el tratamiento no funciona."
 author: "Yannick Loth"
 date: "2026-07-14"
 categories: [ME/CFS, Series, Comorbidities]
@@ -21,7 +21,7 @@ Esta serie explica una condición que ocurre simultáneamente, en lenguaje senci
 
 ## Parte 1: Activación de mastocitos y histamina
 
-La serie comienza con MCAS, la condición en la que tus células inmunitarias se activan sin un estímulo, reaccionando ante polvo y contacto. Es la primera entrada natural porque es común, es reversible en parte y representa el mensaje central de toda la serie: *la mayoría de estos son amplificadores, no causas, y tratar un amplificador sigue siendo valioso.*
+La serie comienza con MCAS, la condición en la que tus células inmunitarias se activan sin un estímulo, con rubor y reaccionando ante polvo y contacto. Es la primera entrada natural porque es común, es reversible en parte y representa el mensaje central de toda la serie: *la mayoría de estos son amplificadores, no causas, y tratar un amplificador sigue siendo valioso.*
 
 Lee los tres artículos en orden:
 
@@ -44,13 +44,13 @@ Lee los dos artículos en orden:
 
 ## Parte 3: Hipermovilidad y la conexión de tejidos conectivos
 
-La tríada se une: la hipermovilidad completa el grupo POTS–MCAS–hEDS. Esta entrada en dos partes explica por qué los tejidos flexibles no se mantienen unidos — las cinco vías mecánicas, cómo los mastocitos pueden degradar activamente el colágeno (hipermovilidad adquirida), la genética TNXB, el eje de neurodivergencia y la arquitectura del tratamiento desde fisioterapia isométrica hasta el apoyo circadiano al colágeno y la inhibición experimental de MMP.
+La tríada se une: la hipermovilidad completa el grupo POTS–MCAS–hEDS. Esta entrada en dos partes explica por qué los tejidos flexibles no se mantienen unidos — las cinco vías mecanísticas, cómo los mastocitos pueden degradar activamente el colágeno (hipermovilidad adquirida), la genética TNXB, el eje de neurodivergencia y la arquitectura del tratamiento desde fisioterapia isométrica hasta el apoyo circadiano al colágeno y la inhibición experimental de MMP.
 
 Lee los tres artículos en orden:
 
-1. **[Hipermóvil EDS y la conexión de tejidos conectivos con EM/SFC](../connective-tissue/hypermobility-heds/index.qmd)** — qué es el hEDS, por qué no tiene un defecto genético identificado, la diferencia de 81% frente a 15,5%, hipermovilidad progresiva adquirida (triptasa→MMP-3/-13, quimasa→MMP-1, histaminilación), el bucle de retroalimentación de rigidez de matriz, cinco vías mecánicas, la conexión de neurodivergencia, la genética TNXB, la carga energética permanente del 10–20%, y hEDS por sí mismo vs hEDS en EM/SFC.
+1. **[Hipermóvil EDS y la conexión de tejidos conectivos con EM/SFC](../connective-tissue/hypermobility-heds/index.qmd)** — qué es el hEDS, por qué no tiene un defecto genético identificado, la diferencia de 81% frente a 15,5%, hipermovilidad progresiva adquirida (triptasa→MMP-3/-13, quimasa→MMP-1, histaminilación), el bucle de retroalimentación de rigidez de matriz, cinco vías mecanísticas, la conexión de neurodivergencia, la genética TNXB, la carga energética permanente del 10–20%, y hEDS por sí mismo vs hEDS en EM/SFC.
 2. **[Gestionar la hipermovilidad sobre EM/SFC](../connective-tissue/hypermobility-heds-treatment/index.qmd)** — protocolos de resistencia isométrica, el horario del cofactor de colágeno circadiano (vitamina C, alfa-cetoglutarato), glicina y prolina, cobre/B6 para LOX, doxiciclina en baja dosis para MMP-9, terapias emergentes (tVNS, inhibidores de HIF-1α, bloqueo de TGF-β1), cirugía CCI, resultados esperados y un ejemplo de ensayo estructurado.
-3. **[Cuando el tratamiento no ayuda](../connective-tissue/hypermobility-heds-failure/index.qmd)** — la trampa de decondicionamiento-MPE, el punto de inflexión de rigidez de matriz, la triaje entre congénita y adquirida, los seis puntos de fallo numerados, predicciones verificables y lo que realmente puedes hacer.
+3. **[Cuando el tratamiento no ayuda](../connective-tissue/hypermobility-heds-failure/index.qmd)** — la trampa de decondicionamiento-MPE, el punto de inflexión de rigidez de matriz, la triaje entre congénita y adquirida, los seis puntos de fallo numerados, predicciones falsables y lo que realmente puedes hacer.
 
 ---
 
@@ -83,7 +83,7 @@ El intestino que no funciona correctamente — por qué el estómago se vacía l
 Lee los dos artículos en orden:
 
 1. **[SIBO, Gastroparesis y el intestino que no funciona en EM/SFC](../gut/sibo-gi-dysmotility/index.qmd)** — fallo en la motilidad vagal, eje mastocitos-intestino, toxicidad mitocondrial por H₂S, intolerancia a DAO e histamina, y los problemas GI por sí solos frente a los problemas GI en EM/SFC.
-2. **[Tratando SIBO, Gastroparesis y el intestino](../gut/sibo-gi-treatment/index.qmd)** — espaciado de las comidas, eliminación reducida de histamina, antibióticos y hierbas para SIBO, dieta elemental, DAO, butirato, procinéticos, resultados esperados, un ejemplo estructurado de ensayo, la discusión del fracaso, predicciones verificables y orientaciones prácticas.
+2. **[Tratando SIBO, Gastroparesis y el intestino](../gut/sibo-gi-treatment/index.qmd)** — espaciado de las comidas, eliminación reducida de histamina, antibióticos y hierbas para SIBO, dieta elemental, DAO, butirato, procinéticos, resultados esperados, un ejemplo estructurado de ensayo, la discusión del fracaso, predicciones falsables y orientaciones prácticas.
 
 ---
 

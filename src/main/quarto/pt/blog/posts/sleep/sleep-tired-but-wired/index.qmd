@@ -49,7 +49,7 @@ Se o paciente acaba por adormecer — geralmente horas após deitar — o sono q
 
 Os despertares noturnos são frequentes: de cinco a vinte ou mais vezes por noite, muitas vezes com plena vigília e dificuldade em voltar a dormir. Cada despertar reativa o sistema simpático, eleva a noradrenalina e repõe o sono de ondas lentas que tenha sido alcançado. O sono saudável também envolve uma queda de pressão arterial de 10–20% durante a noite, mas muitos pacientes com EM/SFC são “não-dippers” — a sua pressão arterial permanece elevada ou até aumenta durante o sono, um marcador fiável de ativação simpática persistente ao longo da noite.
 
-A instabilidade da termorregulação que impediu o início do sono não desaparece assim que o sono chega. A degranulação de mastócitos libera histamina e prostaglandinas que alteram o tônus vascular de forma imprevisível, e alguns pacientes passam por suores intensos e arrepios várias vezes por noite, cada ciclo desencadeando uma ativação que fragmenta ainda mais o sono. A frequência cardíaca conta a mesma história: em vez de cair para os 50–60 BPM típicos do sono tranquilo, permanece entre 75–90 ou mais. Pacientes com dispositivos vestíveis podem observar isso diretamente — o gráfico da frequência cardíaca durante a noite, que deveria mostrar uma queda suave em forma de U, revela um platô ruidoso e elevado.
+A instabilidade da termorregulação que impediu o início do sono não desaparece assim que o sono chega. A degranulação de mastócitos libera histamina e prostaglandinas que alteram o tónus vascular de forma imprevisível, e alguns pacientes passam por suores intensos e arrepios várias vezes por noite, cada ciclo desencadeando uma ativação que fragmenta ainda mais o sono. A frequência cardíaca conta a mesma história: em vez de cair para os 50–60 BPM típicos do sono tranquilo, permanece entre 75–90 ou mais. Pacientes com dispositivos vestíveis podem observar isso diretamente — o gráfico da frequência cardíaca durante a noite, que deveria mostrar uma queda suave em forma de U, revela um platô ruidoso e elevado.
 
 ---
 
@@ -73,7 +73,7 @@ A ancoragem circadiana vale a pena ser considerada separadamente da sedação. A
 
 Cada hora passada no estado de cansado, mas agitado tem um custo que vai além da exaustão do dia seguinte. A ativação simpática contínua mantém a noradrenalina elevada e a depuração glifática suprimida durante toda a noite; o atraso no início do sono reduz o sono de ondas lentas total; e qualquer sono fragmentado que ocorra perturba a consolidação da memória, prejudica a secreção do hormônio do crescimento e deixa a recalibração imunológica incompleta.
 
-A má noite se acumula. O paciente não se sente apenas pior no dia seguinte — há danos acumulados devido à falha na manutenção durante a noite, danos que podem levar dias ou semanas para se manifestar como névoa cerebral mais profunda, dor agravada ou um episódio completo de mal-estar pós-esforço desencadeado por atividades que poderiam ser gerenciadas após uma noite verdadeiramente restauradora.
+A má noite se acumula. O paciente não se sente apenas pior no dia seguinte — há danos acumulados devido à falha na manutenção durante a noite, danos que podem levar dias ou semanas para se manifestar como nevoeiro cerebral mais profunda, dor agravada ou um episódio completo de mal-estar pós-esforço desencadeado por atividades que poderiam ser gerenciadas após uma noite verdadeiramente restauradora.
 
 ---
 
@@ -85,7 +85,7 @@ A síndrome das pernas inquietas (RLS) e o distúrbio do movimento periódico do
 
 O PLMD — flexão periódica do quadril e joelho com dorsiflexão do pé, ocorrendo a cada 20–40 segundos durante o sono — perturba a arquitetura do sono sem que o paciente acorde necessariamente. Um índice de PLMD acima de 15 eventos por hora é diagnóstico (critérios ICSD-3). Cada movimento desencadeia um microdespertar, fragmentando a continuidade do sono e impedindo as épocas de ondas lentas necessárias para a depuração glifática.
 
-Para os pacientes com EM/SFC, a combinação é cruel: a falha na transição autonómica atrasa o início do sono, o RLS impede o adormecimento, a intrusão das ondas alfa degrada a qualidade do sono de ondas lentas uma vez que o sono chega, e o PLMD fragmenta o que resta. Cada mecanismo prejudica independentemente a restauração; juntos, eles podem eliminar o sono — um fracasso noturno em todos os níveis, desde a transição autonómica até ao controlo motor, retroalimentando todas as outras falhas do sistema.
+Para os pacientes com EM/SFC, a combinação é cruel: a falha na transição autonómica atrasa o início do sono, o RLS impede o adormecimento, a intrusão das ondas alfa degrada a qualidade do sono de ondas lentas uma vez que o sono chega, e o PLMD fragmenta o que resta. Cada mecanismo prejudica independentemente a restauração; juntos, eles podem eliminar a restauração — um fracasso noturno em todos os níveis, desde a transição autonómica até ao controlo motor, retroalimentando todas as outras falhas do sistema.
 
 ---
 

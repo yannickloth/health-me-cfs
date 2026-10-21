@@ -53,9 +53,9 @@ Estes não são equivalentes. Um desequilíbrio D1/D2 requer agonistas de dopami
 
 A comparação entre condições não é um erro. Ela fornece um grupo de controle para o próximo experimento. Se conseguirmos identificar o sinal molecular da disfunção dos MSNs em EM/SFC e compará-lo com os sinais em outras doenças cerebrais, as *diferenças entre elas* nos informarão o que é único em cada doença. Duas estratégias:
 
-**Transcriptômica pós-mortem.** Comparar a expressão gênica nos MSNs striata dos cérebros com EM/SFC versus outros cérebros com doenças cerebrais revelaria quais caminhos são ativados de forma diferente. É assim que a psiquiatria distinguiu esquizofrenia da doença bipolar no nível molecular — encontrando sinais de expressão gênica que diferem, e não encontrando genes exclusivos a uma doença.
+**Transcriptômica pós-mortem.** Comparar a expressão génica nos MSNs striata dos cérebros com EM/SFC versus outros cérebros com doenças cerebrais revelaria quais caminhos são ativados de forma diferente. É assim que a psiquiatria distinguiu esquizofrenia da doença bipolar no nível molecular — encontrando sinais de expressão génica que diferem, e não encontrando genes exclusivos a uma doença.
 
-**Perfil de ligantes PET.** Diferentes ligantes PET exploram aspectos diferentes da função striatal. A densidade do receptor D1, a densidade do receptor D2, a disponibilidade do transportador de dopamina, o vínculo VMAT2, a ativação microglial — cada um oferece uma visão diferente do mesmo circuito. Comparar os perfis PET de EM/SFC com os perfis de esquizofrenia e depressão identificaria as anomalias de receptor e transportador que distinguem as condições.
+**Perfil de ligantes PET.** Diferentes ligantes PET exploram aspectos diferentes da função striatal. A densidade do recetor D1, a densidade do recetor D2, a disponibilidade do transportador de dopamina, o vínculo VMAT2, a ativação microglial — cada um oferece uma visão diferente do mesmo circuito. Comparar os perfis PET de EM/SFC com os perfis de esquizofrenia e depressão identificaria as anomalias de recetor e transportador que distinguem as condições.
 
 Nenhuma delas foi realizada em escala. Ambas são logicamente necessárias, tendo em conta a enriquecimento cerebral compartilhado.
 

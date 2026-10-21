@@ -9,7 +9,7 @@ lang: pt
 
 A PHDA não é uma única condição.
 
-Uma suposição comum é que a condição tenha uma única causa e uma única explicação. Nossa pesquisa aponta para algo mais detalhado: **quatro vertentes biológicas distintas** podem estar por trás dos sintomas relacionados à PHDA — um déficit de energia no pré-frontal, um subgrupo neuroinflamatório impulsionado por imunidade, um eixo dopamina-Nrf2-NLRP3 e características adquiridas que não são de desenvolvimento. Pacientes diferentes provavelmente apresentam combinações diferentes dessas estratégias, e cada uma contribui para uma parte diferente da carga de sintomas diária.
+Uma suposição comum é que a condição tenha uma única causa e uma única explicação. Nossa pesquisa aponta para algo mais detalhado: **quatro vertentes biológicas distintas** podem estar por trás dos sintomas relacionados à PHDA — um déficit de energia no pré-frontal, um subgrupo neuroinflamatório impulsionado por imunidade, um eixo dopamina-Nrf2-NLRP3 e características adquiridas que não são de desenvolvimento. Pacientes diferentes provavelmente apresentam combinações diferentes dessas vertentes, e cada uma contribui para uma parte diferente da carga de sintomas diária.
 
 Esta série analisa cada vertente em linguagem simples, e depois faz a pergunta à qual todas convergem: **é possível tratar várias vias ao mesmo tempo para eliminar ou reduzir os sintomas e permitir que o paciente tenha uma vida mais normal?**
 
@@ -49,7 +49,7 @@ Nem toda PHDA pode ter a mesma causa. Uma crescente linha de evidências relacio
 
 Leia o artigo:
 
-1. **[O Aspecto Imunológico e Neuroinflamatório da PHDA: Quando a Inflamação Define a Atenção](../adhd-immune-neuroinflammation/index.qmd)** — as evidências sobre microglia, a rota de esgotamento dopaminérgico, o sinal pró-inflamatório compartilhado, a ponte orexina-dopamina, a ponte quinurenina-dopamina, a hipótese de mesma raiz e os limites.
+1. **[O Aspecto Imunológico e Neuroinflamatório da PHDA: Quando a Inflamação Influencia a Atenção](../adhd-immune-neuroinflammation/index.qmd)** — as evidências sobre microglia, a rota de esgotamento dopaminérgico, o sinal pró-inflamatório compartilhado, a ponte orexina-dopamina, a ponte quinurenina-dopamina, a hipótese de mesma raiz e os limites.
 
 ---
 
@@ -75,7 +75,7 @@ Leia o artigo:
 
 ## Sobre as evidências
 
-Cada artigo desta série distingue cuidadosamente o que é *confirmado* por evidências, o que é uma *hipótese promissora* e o que é a *experiência de um paciente individual*. A maior parte do conteúdo aqui pertence à hipótese — as certezas são explícitas, frequentemente limitadas, e nada é apresentado como facto clínico estabelecido ou recomendação de tratamento.
+Cada artigo desta série distingue cuidadosamente o que é *confirmado* por evidências, o que é uma *hipótese promissora* e o que é a *experiência de um paciente individual*. A maior parte do conteúdo aqui pertence à hipótese — as certezas são explícitas, frequentemente baixas, e nada é apresentado como facto clínico estabelecido ou recomendação de tratamento.
 
 A ciência subjacente é retirada do nosso projeto de documentação, que desenvolve estes modelos de energia e imunidade transversais entre doenças em detalhe. A abordagem específica para PHDA é a nossa leitura da literatura, escrita para funcionar independentemente para qualquer pessoa curiosa sobre a biologia.
 

@@ -111,7 +111,7 @@ Una gran encuesta de pacientes reportada de 3.925 pacientes con EM/SFC y pacient
 
 Las lecciones clave: el mismo tratamiento que ayuda a un paciente puede no ayudar —o puede perjudicar— a otro; y **la capacidad funcional (gravedad), no la etiqueta de diagnóstico, es el único predictor más fuerte de la respuesta al tratamiento.**
 
-*Advertencia sobre la evidencia: estos son resultados de una encuesta reportada por pacientes, no desenmascarada — no son ensayos aleatorios ni desenmascarados. Son orientaciones de estratificación que generan hipótesis, no pruebas de un protocolo combinado específico.*
+*Advertencia sobre la evidencia: estos son resultados de una encuesta reportada por pacientes, no cegada — no son ensayos aleatorios ni cegados. Son orientaciones de estratificación que generan hipótesis, no pruebas de un protocolo combinado específico.*
 
 ### ¿Qué significa "tratar un mecanismo"?
 

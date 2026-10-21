@@ -67,7 +67,7 @@ Cada evento de depressão de propagação cortical:
 4. Requer reparação mitocondrial e biogénese para recuperação completa
 5. Num cérebro cujas mitocôndrias já estão prejudicadas, a recuperação completa pode não ocorrer
 
-O resultado: um **efeito ratchet**. Cada episódio de CSD esgota e danifica. A recuperação é incompleta. A capacidade de base diminui ligeiramente. O próximo episódio começa de um nível mais baixo.
+O resultado: um **efeito de catraca**. Cada episódio de CSD esgota e danifica. A recuperação é incompleta. A capacidade de base diminui ligeiramente. O próximo episódio começa de um nível mais baixo.
 
 Mais de 10 anos de enxaqueca episódica: centenas de eventos de CSD. Mais de 30 anos: milhares. O efeito cumulativo é mensurável nos marcadores metabólicos interictais mencionados acima.
 
@@ -129,7 +129,7 @@ Nesta série de sete artigos, um quadro unificado surgiu:
 | Condição / fator predisponente | Mecanismo de redução da reserva | Tipo |
 | --- | --- | --- |
 | PHDA | Hipometabolismo pré-frontal + ineficiência dopaminérgica [@Zametkin1990] [@Berthier2025cbfadhd] | Deficit de base estática |
-| ASD | Disfunção do circuito de transporte de energia mitocondrial sistémico + baixo BH4 [@Frye2024ASDmitochondria] [@Fanet2021BH4neuro] | Deficit de base estática |
+| ASD | Disfunção sistémica da cadeia de transporte de eletrões (ETC) mitocondrial + baixo BH4 [@Frye2024ASDmitochondria] [@Fanet2021BH4neuro] | Deficit de base estática |
 | hEDS/POTS | Hipoperfusão cerebral devido à laxidade do tecido conjuntivo | Deficit de entrega estática |
 | Enxaqueca | Danos cumulativos na mitocôndria devido à CSD | Erosão progressiva |
 | GCH1 rs841 | Redução da produção de BH4 | Deficit genético estático |

@@ -46,7 +46,7 @@ O argumento “se 4 mg não funciona, então 1 mg também não funcionará” s�
 
 Se isso for verdade, então testar a dose mais alta significa testar *cada* dose. Um fracasso na dose alta é um fracasso em todas elas. A inferência é clara, simples e evita múltiplos testes.
 
-O problema: essa hipótese só é verdadeira para um medicamento que atinge **um único alvo** com uma **curva dose-resposta monótica**. O LDN não é esse caso.
+O problema: essa hipótese só é verdadeira para um medicamento que atinge **um único alvo** com uma **curva dose-resposta monotónica**. O LDN não é esse caso.
 
 ---
 
@@ -58,7 +58,7 @@ A suposição do superconjunto trata uma dose como um controle de volume — mai
 
 O artigo baseia-se na imagem de como um medicamento e um recetor interagem. Esta subseção descreve essa imagem, separando a biologia estabelecida da hipótese do artigo.
 
-**O que é um recetor (estabelecido).** Um recetor é uma proteína — geralmente na superfície de uma célula — à qual uma molécula de sinalização ou um medicamento se liga. O ligamento faz algo dentro da célula: um **agonista** imita o sinal natural e ativa uma resposta; um **antagonista** se liga ao mesmo local, bloqueia o sinal natural e desativa-o. Para a dose, a quantidade importante é a **fração de recetores ocupados** — a porcentagem das cópias desse recetor na célula que carregam uma molécula de medicamento. A equação de Hill da Parte A3 transforma uma concentração nesse fração.
+**O que é um recetor (estabelecido).** Um recetor é uma proteína — geralmente na superfície de uma célula — à qual uma molécula de sinalização ou um medicamento se liga. O ligamento faz algo dentro da célula: um **agonista** imita o sinal natural e ativa uma resposta; um **antagonista** se liga ao mesmo local, bloqueia o sinal natural e desativa-o. Para a dose, a quantidade importante é a **fração de recetores ocupados** — a percentagem das cópias desse recetor na célula que carregam uma molécula de medicamento. A equação de Hill da Parte A3 transforma uma concentração nesse fração.
 
 **Por que essa fração segue a concentração (estabelecido).** O ligamento é um equilíbrio reversível, $D + R \rightleftharpoons DR$. A constante de dissociação $K_d$ é a razão entre as duas taxas — quão rápido o medicamento diminui e quão rápido se liga. Uma concentração igual a $K_d$ ocupa metade dos recetores; muito acima, quase todos; muito abaixo, quase nenhum. É por isso que a razão dimensional $c = D/K_d$ permeia o artigo: ela mede uma concentração em unidades da sensibilidade desse recetor. (Ação de massa, ligamento Langmuir–Hill — farmacologia de texto, citada na Parte A3.)
 
@@ -107,7 +107,7 @@ A resposta é que o medicamento liga **todos os quatro alvos em qualquer dose**.
 
 $$ f_i = \frac{(D/K_{d,i})^n}{1 + (D/K_{d,i})^n} $$
 
-A ocupação estabelecida da parte A3, conforme especificado no objetivo. Um alvo com uma constante de dissociação baixa $K_{d,i}$ (afinidade alta) alcança uma alta ocupação com uma dose baixa. Um alvo com $K_{d,i}$ mais alto necessita de uma dose maior para atingir a mesma ocupação. Portanto:
+A ocupação estabelecida da parte A3, escrita por alvo. Um alvo com uma constante de dissociação baixa $K_{d,i}$ (afinidade alta) alcança uma alta ocupação com uma dose baixa. Um alvo com $K_{d,i}$ mais alto necessita de uma dose maior para atingir a mesma ocupação. Portanto:
 
 - **A 1 mg,** a TLR4 (baixa $K_d$) está perto do seu ponto ideal, enquanto a TRPM3 ($K_d$ mais alto) está ligada, mas apenas levemente ocupada — o suficiente para que o benefício não seja evidente.
 - **A 4 mg,** a TRPM3 atinge o seu próprio ponto ideal, enquanto a TLR4 está excessivamente ocupada ($f \approx 0.94$), o que elimina o seu benefício.
@@ -142,7 +142,7 @@ O padrão de dose-resposta bifásico (U invertido / em forma de J) — estimula�
 
 Para o cluster Nrf2, o mecanismo do braço *aumentando* (benefício em baixa dose) está bem caracterizado. A Keap1 retém o fator de transcrição Nrf2 para sua degradação; um estresse oxidativo ou inflamatório leve modifica os resíduos de cisteína da Keap1, liberando Nrf2 para regular um programa genético amplo de antioxidante/anti-inflamatório (centenas de genes, segundo a literatura Nrf2/ARE). Esta é a biologia redox estabelecida, e a ativação do Nrf2 é o mediador geral proposto para as respostas de dose horméticas [@Calabrese2021Nrf2].
 
-### A3. A equação de Hill é estabelecida, válida e padrão — mas apenas para ocupação monotonica
+### A3. A equação de Hill é estabelecida, válida e padrão — mas apenas para ocupação monotónica
 
 Uma interpretação comum da seção anterior é que não existe nenhum modelo estabelecido. Isso não é o que a seção diz. A **equação de Hill** é publicada, válida e universalmente padrão — é fundamental na farmacodinâmica (Hill, 1910), em todos os livros de farmacologia. Não é uma sugestão. A fração de recetores ocupados por um fármaco em dose $D$ e constante de dissociação $K_d$ é a função de Hill.
 
@@ -156,7 +156,7 @@ O campo produziu várias formalizações matemáticas explícitas da curva horm�
 
 - **Nweke et al. 2022** fornecem uma forma funcional *bilógica* estatística para a dose-resposta invertida-U, reparametrizada para estimar a quantidade hormética (estimulação de pico, dose no pico, largura da janela) [@Nweke2022bilogisticHormesis].
 - **Xiao et al. 2022** constroem um modelo dinâmico (ODE) de dose-resposta anti-tumoral que gera regimes não monótonos a partir de dinâmicas de população de células e alvo de droga acopladas [@Xiao2022antiTumorDoseResponse].
-- **Sun et al. 2018** propõem um mecanismo “balança de bambu” para a hormese *dependente do tempo*, onde os efeitos estimulantes e inibitores se integram ao longo da dose e do tempo [@Sun2018SeesawHormesis].
+- **Sun et al. 2018** propõem um mecanismo “gangorra” para a hormese *dependente do tempo*, onde os efeitos estimulantes e inibitores se integram ao longo da dose e do tempo [@Sun2018SeesawHormesis].
 
 Todos os três são modelos reais e publicados — mas são *ajustes ou mecanismos para sistemas específicos*, nenhum é um modelo mecânico validado da hormese LDN/TLR4/Nrf2. Portanto, **existem** equações que descrevem uma curva invertida-U; o que **não existe** é uma equação única, aceita e geral para a janela hormética LDN. O padrão empírico está estabelecido; um modelo canônico para isso não existe.
 
@@ -164,7 +164,7 @@ Todos os três são modelos reais e publicados — mas são *ajustes ou mecanism
 
 ## Parte B — Um modelo proposto (hipótese, não ciência estabelecida)
 
-Agora, proponho uma forma matemática específica. **Esta é a minha construção — uma hipótese funcional para tornar o argumento de falha do superconjunto preciso — e não é explicitamente ciência estabelecida.** Não está na literatura, não foi validada e seus parâmetros não são medidos. Apresento-a como o que é: um suporte.
+Agora, proponho uma forma matemática específica. **Esta é a minha construção — uma hipótese funcional para tornar o argumento de falha do superconjunto preciso — e explicitamente NÃO é ciência estabelecida.** Não está na literatura, não foi validada e seus parâmetros não são medidos. Apresento-a como o que é: um suporte.
 
 Em toda a Parte B, “braço” significa uma das duas influências opostas na curva que se move em direções diferentes à medida que a dose aumenta. Uma influência impulsiona o benefício *para cima*; a outra, que só se torna dominante mais tarde, o puxa *para baixo*. É a luta entre esses dois que produz o U invertido. Os dois braços são nomeados abaixo. Da mesma forma, $B_{max}$ é o benefício máximo que a curva *teria* alcançado se o puxar para baixo nunca ocorresse — um limite, não o valor realmente alcançado.
 
@@ -224,7 +224,7 @@ Ele **não** estabelece que qualquer dose de LDN funcione. Os parâmetros ($K_{d
 
 Dois pontos da tabela referem-se diretamente ao argumento do superconjunto.
 
-**Primeiro, os alvos não são intercambiáveis, e sua relação benefício/efeito colateral varia de acordo com o intervalo.** No intervalo alto, a restauração do TRPM3 *e* a desinibição da orexina são ambos mecanismos de *benefício* candidatos — o artigo lista “patologia do canal TRPM3 ou deficiência de orexina” como fator limitante, e trata a desinibição da orexina como uma melhoria na vigília e na cognição. A diferença é que cada mecanismo tem seu próprio *optimum*, e ultrapassá-lo transforma o benefício em efeito colateral: um tônus excessivo de orexina passa da melhoria da vigília para insônia, e o sobre-bloqueio do TLR4 desliga a indução anti-inflamatória. Portanto, os quatro alvos não são quatro alavancas intercambiáveis que aumentam juntos.
+**Primeiro, os alvos não são intercambiáveis, e sua relação benefício/efeito colateral varia de acordo com o intervalo.** No intervalo alto, a restauração do TRPM3 *e* a desinibição da orexina são ambos mecanismos de *benefício* candidatos — o artigo lista “patologia do canal TRPM3 ou deficiência de orexina” como fator limitante, e trata a desinibição da orexina como uma melhoria na vigília e na cognição. A diferença é que cada mecanismo tem seu próprio *optimum*, e ultrapassá-lo transforma o benefício em efeito colateral: um tónus excessivo de orexina passa da melhoria da vigília para insônia, e o sobre-bloqueio do TLR4 desliga a indução anti-inflamatória. Portanto, os quatro alvos não são quatro alavancas intercambiáveis que aumentam juntos.
 
 **Segundo, os intervalos de benefício não se sobrepõem.** O benefício do TLR4/Nrf2 está entre 0,5 e 1,5 mg e desaparece após 3,0–4,5 mg (o sobre-bloqueio do TLR4 o extingue). O benefício do TRPM3/orexina aparece entre 3,0 e 4,5 mg. São **janelas distintas**, não uma versão de baixa e alta dose da mesma coisa.
 

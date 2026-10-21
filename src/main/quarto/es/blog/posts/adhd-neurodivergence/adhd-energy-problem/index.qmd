@@ -35,7 +35,7 @@ El metilfenidato — el medicamento más común para TDAH — normaliza el flujo
 
 ## Falla energética y neuroinflamación — en el mismo cerebro
 
-Un estudio PET con dos trazadores de 2021 obtuvo imágenes simultáneamente de dos aspectos en 24 adultos con TDAH sin medicación vs 24 controles:
+Un estudio PET con dos trazadores de 2021 obtuvo imágenes simultáneamente de dos aspectos en 24 adultos con TDAH sin medicación previa vs 24 controles:
 
 1. **Disponibilidad de los receptores D1 de dopamina** — reducida en el cortex cingulado anterior, correlacionada con la gravedad de la hiperactividad
 2. **Activación de microglía** — aumentada en el cortex prefrontal dorsolateral y el cortex orbitofrontal, correlacionada con la velocidad de procesamiento y déficits de atención
@@ -99,7 +99,7 @@ Esta interpretación sigue siendo controvertida — Faraone y Biederman (2016) a
 | Tratamiento | Mecanismo (enfoque en energía) |
 |-----------|---------------------------|
 | Estimulantes (metilfenidato, amfetaminas) | Aumenta la disponibilidad de catecolaminas → más señal por unidad de energía neuronal |
-| Ejercicio | Aumenta el flujo sanguíneo cerebral, BDNF y la liberación aguda de catecolaminas *(nota: las recomendaciones de ejercicio requieren una modificación crítica en EM/SFC — la terapia de ejercicio gradual es contraindicada según NICE 2021)* |
+| Ejercicio | Aumenta el flujo sanguíneo cerebral, BDNF y la liberación aguda de catecolaminas *(nota: las recomendaciones de ejercicio requieren una modificación crítica en EM/SFC — la terapia de ejercicio graduado es contraindicada según NICE 2021)* |
 | Sueño | Restaura la función mitocondrial; la privación de sueño imita el TDAH |
 | Suplementación de hierro | Restaura el cofactor TH y la función del complejo I/II |
 | Cafeína | Bloquea la adenosina → aumenta temporalmente el presupuesto de energía efectivo |

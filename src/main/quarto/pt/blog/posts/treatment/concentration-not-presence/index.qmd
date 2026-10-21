@@ -9,7 +9,7 @@ lang: pt
 
 Uma conclusão comum na prescrição: o ensaio utilizou a dose padrão e falhou; portanto, não há justificativa para testar uma dose mais baixa. Essa conclusão se baseia numa suposição tão enraizada que raramente é mencionada — que os efeitos de uma dose mais baixa são um *subconjunto* dos efeitos de uma dose mais alta, de modo que um fracasso na dose alta já testou todas as doses mais baixas.
 
-Para um medicamento que atua num único alvo com uma relação dose-resposta monotonica, a suposição é correta. Para um medicamento cujo benefício em doses baixas é uma resposta compensatória à participação parcial do alvo — o caso hormético, que o naltrexona em doses baixas (LDN) exemplifica através de seu mecanismo TLR4/Nrf2 — a suposição é falsa de uma maneira específica e quantificável. Este artigo desenvolve completamente o argumento: a química de ligação derivada de princípios fundamentais, a biologia de sinalização, a matemática analisada de forma analítica e as evidências do ensaio. A afirmação em questão é limitada:
+Para um medicamento que atua num único alvo com uma relação dose-resposta monotónica, a suposição é correta. Para um medicamento cujo benefício em doses baixas é uma resposta compensatória à participação parcial do alvo — o caso hormético, que o naltrexona em doses baixas (LDN) exemplifica através de seu mecanismo TLR4/Nrf2 — a suposição é falsa de uma maneira específica e quantificável. Este artigo desenvolve completamente o argumento: a química de ligação derivada de princípios fundamentais, a biologia de sinalização, a matemática analisada de forma analítica e as evidências do ensaio. A afirmação em questão é limitada:
 
 > **A hipótese do superconjunto:** os efeitos de uma dose mais baixa são um subconjunto dos efeitos de uma dose mais alta. Portanto, um resultado nulo numa dose mais alta falsifica todas as doses mais baixas.
 
@@ -25,7 +25,7 @@ Um fármaco $D$ liga-se a um recetor $R$ de forma reversível:
 
 $$D + R \underset{k_{\text{off}}}{\stackrel{k_{\text{on}}}{\rightleftharpoons}} DR$$
 
-A taxa de ativação é proporcional à concentração livre do fármaco e à concentração de recetores não ocupados; a taxa de inativação é proporcional à concentração de complexos ocupados:
+A taxa de associação é proporcional à concentração livre do fármaco e à concentração de recetores não ocupados; a taxa de dissociação é proporcional à concentração de complexos ocupados:
 
 $$v_{\text{on}} = k_{\text{on}}\,[D]\,[R], \qquad v_{\text{off}} = k_{\text{off}}\,[DR]$$
 
@@ -103,7 +103,7 @@ $c$ é a concentração medida em unidades da própria sensibilidade do recetor 
 | 9,0 | 0,99 | 0,01 |
 | 99,0 | ~1,00 | ~0,00 |
 
-Dois fatos estruturais, independentes de $n$:
+Dois factos estruturais, independentes de $n$:
 
 **P1 — A ocupação é contínua e monótona.** Não existe dose em que um medicamento esteja apenas “presente” sem ocupar uma fração computável de seus alvos. Aumentar a dose faz com que a ocupação avançasse suavemente até o limite, de forma mais rápida perto de $c = 1$. Qualquer afirmação de dose é uma afirmação de ocupação.
 
@@ -116,7 +116,7 @@ Dois fatos estruturais, independentes de $n$:
 A LDN é um exemplo claro. Em doses antagónicas padrão (≥50 mg/dia), a naltrexona é um antagónico competitivo do recetor mu-opióide utilizado na medicina da dependência. Ao nível de 0,5–4,5 mg/dia, ela ativa um conjunto de alvos diferentes, parcialmente não opióidicos. O quadro de referência propõe quatro mecanismos de baixa dose — hormesia TLR4/Nrf2, compensação opioide, restauração do TRPM3 e desinibição da orexina (este último a rastrear a resposta dose-alvo da TLR4) [@Loth2026website]. Não todos comportam-se da mesma forma, e essa distinção é a parte essencial deste artigo, por isso é mencionada desde o início:
 
 - **TLR4/Nrf2 hormesia (B1)** — *invertendo a hormesia*, Categoria 1: o benefício existe apenas dentro de uma janela de ocupação limitada e desaparece após ela. Este é o benefício dominante em baixa dose.
-- **Compensação opioide (B2)** — *monotónica*, não hormética: o benefício aumenta com o bloqueio até um limite précursor e não se inverte dentro da faixa.
+- **Compensação opioide (B2)** — *monotónica*, não hormética: o benefício aumenta com o bloqueio até um limite precursor e não se inverte dentro da faixa.
 - **Restauração do TRPM3 (B3)** — *seleção de alvo de limiar*, Categoria 4: o alvo simplesmente não é ativado abaixo de uma concentração específica; o benefício aparece apenas em dose mais alta e depois satura.
 
 Este artigo desenvolve estes três mecanismos, que sustentam o argumento de teste de dose. A matemática do U invertido da Parte C aplica-se apenas à primeira categoria.
@@ -213,14 +213,14 @@ Leia a última coluna em relação à hipótese do superconjunto. Se os efeitos 
 
 ## C3. O U invertido não é exótico
 
-A resposta não-monótica dose/estressor–resposta é documentada independentemente da LDN: o corpus da hormesia como um todo [@Calabrese2010hormesisCentral; @Calabrese2002hormesisHistory], a literatura sobre estressor–desempenho (a estrutura Yerkes–Dodson) [@Calabrese2008yerkesDodson] e tratamentos matemáticos explícitos: a integração “swinging seesaw” de componentes estimulantes e inibitores opostos ao longo da dose e do tempo [@Sun2018SeesawHormesis], sua generalização yin–yang [@Sun2020yinYangHormesis], dinâmica hormética temporal/assimétrica [@Mushak2016TemporalHormesis] e formalizações bi-logísticas dose–resposta [@Nweke2022bilogisticHormesis]. Todos são o mesmo facto estrutural — termos competindo favorecem extremos de concentração opostos — em diferentes domínios.
+A resposta não-monotónica dose/estressor–resposta é documentada independentemente da LDN: o corpus da hormesia como um todo [@Calabrese2010hormesisCentral; @Calabrese2002hormesisHistory], a literatura sobre estressor–desempenho (a estrutura Yerkes–Dodson) [@Calabrese2008yerkesDodson] e tratamentos matemáticos explícitos: a integração “swinging seesaw” de componentes estimulantes e inibitores opostos ao longo da dose e do tempo [@Sun2018SeesawHormesis], sua generalização yin–yang [@Sun2020yinYangHormesis], dinâmica hormética temporal/assimétrica [@Mushak2016TemporalHormesis] e formalizações bi-logísticas dose–resposta [@Nweke2022bilogisticHormesis]. Todos são o mesmo facto estrutural — termos competindo favorecem extremos de concentração opostos — em diferentes domínios.
 
 ## C4. O resultado sem propagação
 
 Este resultado diz respeito à classe de mecanismo **invertido, hormético** da C1 — na LDN, o mecanismo TLR4/Nrf2. Os mecanismos não-invertidos (plateau opioide, limite TRPM3) são as exceções discutidas abaixo. Expresso de forma compacta:
 
-1. Os mecanismos de benefício desta classe são positivos apenas num intervalo de ocupação limitado: $B_i(c) > 0$ requer $c_i$ num bairro de $c_i^\ast$ (C2).
-2. A dose entra em cada mecanismo de forma monótica através de $c_i = [D]/K_{d,i}$ (P1).
+1. Os mecanismos de benefício desta classe são positivos apenas num intervalo de ocupação limitado: $B_i(c) > 0$ requer $c_i$ numa vizinhança de $c_i^\ast$ (C2).
+2. A dose entra em cada mecanismo de forma monotónica através de $c_i = [D]/K_{d,i}$ (P1).
 3. Os alvos têm $K_{d,i}$ distintos (P2), portanto, para qualquer mecanismo $i$ em sua janela à dose $D_1$, existem $D_2 > D_1$ em que $B_i(D_2) \approx 0$, enquanto algum $B_j(D_2) > 0 = B_j(D_1)$ de menor afinidade.
 4. **O conjunto de efeitos em $D_2$ não é um superconjunto do conjunto de efeitos em $D_1$; é um conjunto diferente.**
 
@@ -241,7 +241,7 @@ A base de estudos controlados para LDN na fibromialgia e EM/SFC: o estudo aleat�
 1. **Não contém nenhum estudo dose-resposta dentro do intervalo.** Nenhuma pesquisa atribui 0,5, 1,5, 3,0 ou 4,5 mg à mesma coorte. Portanto, a previsão de não-monotonia do modelo C2 não foi testada — não foi refutada.
 2. **Um resultado nulo numa dose não pode distinguir as duas famílias de modelos.** Sob o modelo hormético invertido, um estudo doseado no braço oposto do U invertido *deveria* falhar, e seu fracasso não fornece informações sobre o pico. Sob um modelo monotônico, o mesmo resultado nulo é evidência contra o mecanismo. Os resultados mistos existentes — trabalhos piloto positivos em doses baixas, estudos controlados nulos em doses padrão — se encaçam no modelo hormético, mas não provam isso por si só, porque um mecanismo monotônico com efeito pequeno também pode gerar resultados mistos em estudos subpotentes. O que a base realmente mostra é que *não é capaz de distinguir* a previsão não-monotônica da dose-resposta monotônica — e é exatamente por isso que o estudo dentro do intervalo é necessário na Parte E.
 
-A afirmação de certeza: as matemáticas de ocupância (Parte A) são uma farmacologia estabelecida [@Langmuir1918; @Clark1926; @Hill1910; @Goutelle2008]. O U invertido hormético está estabelecido em toxicologia e biologia de estressores, mas **não é comprovado como o mecanismo clínico da LDN**; o mapa de alvo específico e as faixas de dose (Parte B) são hipóteses derivadas do mecanismo com baixa certeza (~0,30) [@Loth2026website]. O resultado estrutural (C4) é condicional apenas à condição de ser hormético.
+A afirmação de certeza: as matemáticas de ocupação (Parte A) são uma farmacologia estabelecida [@Langmuir1918; @Clark1926; @Hill1910; @Goutelle2008]. O U invertido hormético está estabelecido em toxicologia e biologia de estressores, mas **não é comprovado como o mecanismo clínico da LDN**; o mapa de alvo específico e as faixas de dose (Parte B) são hipóteses derivadas do mecanismo com baixa certeza (~0,30) [@Loth2026website]. O resultado estrutural (C4) é condicional apenas à condição de ser hormético.
 
 ---
 

@@ -94,7 +94,7 @@ Ambos mecanismos explican por qué los autoanticuerpos de GPCR aparecen después
 
 - **Los autoanticuerpos son un factor contribuyente.** Eliminarlos puede mejorar los síntomas autónomos sin corregir la falla energética, la desregulación inmune o la hipoperfusión cerebral. El mejor resultado del tratamiento es parcial: la disautonomía mejora, pero el MPE no [@Loth2026website].
 - **El título del anticuerpo no equivale a la gravedad de la enfermedad.** Dos pacientes con el mismo nivel de β2-AAb pueden tener imágenes clínicas completamente diferentes porque el glicoproteico Fc, el compartimento del receptor (membrana plasmática vs internalizado), la distribución tisular y los mecanismos compensatorios del huésped modulan el efecto del anticuerpo.
-- **Un fracaso en un ensayo de eliminación de anticuerpos no indica nada contra la EM/SFC.** Si la inmunoadsorción elimina los autoanticuerpos y los síntomas no mejoran, los autoanticuerpos no fueron la patología dominante — fueron un marcador de activación inmune, no un factor impulsor de la enfermedad. Este es el resultado más común del estudio Anft 2025 (más abajo) y el que debería definir las expectativas para cualquier tratamiento dirigido a anticuerpos.
+- **Un fracaso en un ensayo de eliminación de anticuerpos no indica nada contra la EM/SFC.** Si la inmunoadsorción elimina los autoanticuerpos y los síntomas no mejoran, los autoanticuerpos no fueron la patología dominante — fueron un marcador de activación inmune, no un factor impulsor de la enfermedad. Esta es la lectura más sensata del resultado de Anft 2025 (más abajo) y la que debería definir las expectativas para cualquier tratamiento dirigido a anticuerpos.
 
 ---
 

@@ -49,7 +49,7 @@ El panel mínimo para un paciente con fatiga crónica debe incluir:
 - **T4 libre** — la prohormona. Un valor bajo-normal + TSH normal sugiere hipotiroidismo central.
 - **T3 libre** — la hormona activa. T3 libre baja con T4 y TSH normales = problema de conversión.
 - **T3 inversa** — el competidor inactivo. rT3 alto con TSH normal = síndrome de enfermo eutiroideo.
-- **Anticuerpos anti-TPO y anti-tiroglubulina** — cribado de Hashimoto. Positivos = destrucción autoinmune de la tiroides en progreso, independientemente del TSH actual.
+- **Anticuerpos anti-TPO y anti-tiroglobulina** — cribado de Hashimoto. Positivos = destrucción autoinmune de la tiroides en progreso, independientemente del TSH actual.
 
 El panel completo cuesta aproximadamente 50-80 € en los laboratorios europeos más importantes. El panel estándar que ordenan la mayoría de los médicos de cabecera — solo TSH — cuesta 15 € y omite todos los escenarios descritos anteriormente.
 

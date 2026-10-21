@@ -42,7 +42,7 @@ Um estudo PET de duplo rastreamento de 2021 obteve imagens simultaneamente de du
 
 O achado crítico: essas duas medidas foram **positivamente correlacionadas — apenas no grupo de PHDA**. Quanto maior o déficit de dopamina, maior a neuroinflamação [@Yokokura2021D1Rmicroglia].
 
-O mesmo cérebro mostra déficit de catecolaminas e ativação imune. No estágio inicial. Antes de qualquer doença.
+O mesmo cérebro mostra déficit de catecolaminas e ativação imune. No estado basal. Antes de qualquer doença.
 
 Isso é importante porque a EM/SFC é caracterizada por um achado duplo semelhante: depleção de catecolaminas + neuroinflamação. O estudo de fenotipagem profunda do NIH documentou redução dos metabólitos de dopamina no líquido cefalorraquidiano em pacientes com EM/SFC [@walitt2024deep]. Sob o modelo de energia, isso sugere que o cérebro com PHDA pode já ocupar um ponto mais leve no mesmo continuum metabólico — embora os biomarcadores compartilhados não provem um mecanismo compartilhado. O mesmo padrão a jusante (baixa dopamina + inflamação) pode surgir de causas a montante diferentes.
 
@@ -67,7 +67,7 @@ Limites recomendados de ferritina de acordo com as diretrizes de neurodesenvolvi
 A tetrahidrobiopterina (BH4) é o cofator limitante da taxa para:
 - **tirosina hidroxilase** → síntese de dopamina e noradrenalina
 - **triptofano hidroxilase** → síntese de serotonina
-- **Todas as três isoformas de NOS** → síntese de óxido nítrico (regulação do tônus vascular)
+- **Todas as três isoformas de NOS** → síntese de óxido nítrico (regulação do tónus vascular)
 
 Um défice de um único cofator prejudica simultaneamente três sistemas de neurotransmissores E a regulação do fluxo sanguíneo cerebral [@Williams2025GCH1BH4].
 
@@ -90,7 +90,7 @@ Uma dificuldade nesta visão: o **estudo da coorte de nascimento de Dunedin** ac
 
 Se a PHDA adulta não é de natureza desenvolvimental, o que é ela? Uma possibilidade: **insuficiência adquirida de catecolaminas** — resultante de estresse, inflamação crónica, mudanças hormonais ou infecção [@Moffitt2015adhdadult].
 
-Esta interpretação ainda é contestada — Faraone e Biederman (2016) argumentaram que os casos de início adulto podem refletir sintomas subliminares da infância, efeitos de limiar de diagnóstico ou condições comorbidas que imitam a PHDA. Mas abre a porta para uma questão com implicações: os sintomas de PHDA podem ser *adquiridos* por meio de distúrbios metabólicos?
+Esta interpretação ainda é contestada — Faraone e Biederman (2016) argumentaram que os casos de início adulto podem refletir sintomas sublimiares da infância, efeitos de limiar de diagnóstico ou condições comorbidas que imitam a PHDA. Mas abre a porta para uma questão com implicações: os sintomas de PHDA podem ser *adquiridos* por meio de distúrbios metabólicos?
 
 ---
 

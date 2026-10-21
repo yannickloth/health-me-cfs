@@ -85,7 +85,7 @@ Luego mantén la promesa de manera pequeña y visible: una seguimiento programad
 
 ## Decir "No lo sé" — por qué protege tu autoridad, no la amenaza
 
-La reacción a ocultar la incertidumbre es comprensible y, en enfermedades controvertidas, contraproducente. El paciente generalmente ha leído la literatura que tú no has leído; el juego de bromas es detectable, y un juego de bromas detectado convierte tu autoridad restante en sospecha.
+La reacción a ocultar la incertidumbre es comprensible y, en enfermedades controvertidas, contraproducente. El paciente generalmente ha leído la literatura que tú no has leído; el engaño es detectable, y un engaño detectado convierte tu autoridad restante en sospecha.
 
 Las investigaciones sobre el estigma en los encuentros médicos para síntomas físicos persistentes muestran el fracaso alternativo: las consultas se desvían por etiquetar, desacreditar y otras formas de exclusión, hasta llegar a la desconfianza del paciente [@Treufeldt2024StigmaFramework]. La estructura sintáctica que preserva la confianza es simple:
 

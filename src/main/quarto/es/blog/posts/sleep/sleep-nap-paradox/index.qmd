@@ -29,7 +29,7 @@ Funciona, fundamentalmente, porque el sistema que *genera* la adenosina y el sis
 
 En EM/SFC, la dinámica de la adenosina se interrumpe en su origen. El déficit de energía central — la producción de ATP mitocondrial alterada — significa que el ATP se consume más rápido que su producción. Más rotación de ATP por unidad de trabajo útil implica más acumulación de adenosina por unidad de actividad. La señal de presión para dormir aumenta más rápido y más alta de lo que debería.
 
-Esto crea el paradigma que los pacientes conocen muy bien: una somnolencia abrumadora y extrema que el sueño no soluciona. Una persona saludable que sienta esta fatiga puede tomar una siesta de veinte minutos y sentirse restaurada. Un paciente con EM/SFC toma una siesta de veinte minutos y se despierta con la misma extenuación — o incluso peor. La adenosina eliminada durante la siesta se regenera inmediatamente, porque el déficit metabólico que la generó no ha cambiado. La señal se reinicia durante unos minutos, quizás, y luego se reconstruye.
+Esto crea la paradoja que los pacientes conocen muy bien: una somnolencia abrumadora y extrema que el sueño no soluciona. Una persona saludable que sienta esta fatiga puede tomar una siesta de veinte minutos y sentirse restaurada. Un paciente con EM/SFC toma una siesta de veinte minutos y se despierta con la misma extenuación — o incluso peor. La adenosina eliminada durante la siesta se regenera inmediatamente, porque el déficit metabólico que la generó no ha cambiado. La señal se reinicia durante unos minutos, quizás, y luego se reconstruye.
 
 Es como intentar sacar agua de un barco con un agujero. El cubo funciona. El agujero sigue ahí.
 
@@ -53,7 +53,7 @@ La inercia del sueño es el primer problema. En personas sanas, la somnolencia d
 
 Luego está la dimensión circadiana. Los pacientes con EM/SFC ya tienen ritmos circadianos frágiles: curvas de cortisol aplanadas [@papadopoulos2009hypothalamus], inicio retrasado de la melatonina y ciclos de temperatura desincronizados. Una siesta al atardecer —el tipo que el agotamiento lleva a los pacientes— desplaza aún más el reloj, retrasando el inicio del sueño por la noche y reduciendo el sueño de ondas lentas nocturno, que ya es mínimo. La siesta no proporciona restauración alguna y degrada el sueño nocturno que podría haber ofrecido algo de beneficio.
 
-También existe un problema más sutil en el momento del MPE. El malestar post-esfuerzo suele aparecer con un retraso de 24–72 horas. Un paciente que se haya sobreesforzado ayer puede sentirse “solo cansado” hoy y atribuirlo a un sueño deficiente. Duerme para compensar. La siesta oculta los signos de alerta tempranos de una crisis inminente sin prevenir la crisis misma. Para cuando llegal MPE completo —mañana, o al día siguiente— la oportunidad de controlar el ritmo y minimizar el daño ya se ha perdido.
+También existe un problema más sutil en el momento del MPE. El malestar post-esfuerzo suele aparecer con un retraso de 24–72 horas. Un paciente que se haya sobreesforzado ayer puede sentirse “solo cansado” hoy y atribuirlo a un sueño deficiente. Duerme para compensar. La siesta oculta los signos de alerta tempranos de una crisis inminente sin prevenir la crisis misma. Para cuando llega el MPE completo —mañana, o al día siguiente— la oportunidad de controlar el ritmo y minimizar el daño ya se ha perdido.
 
 ---
 

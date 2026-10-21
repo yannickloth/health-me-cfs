@@ -1,6 +1,6 @@
 ---
 title: "Adquirido vs. del desarrollo: Cuándo las características similares al TDAH podrían ser reversibles"
-description: "Algunas características similares al TDAH — falta de atención, impulsividad y dificultades en la toma de decisiones — pueden surgir después del desarrollo en lugar de ser consecuencia de él. Esta sección examina las evidencias de que el TDAH en adultos a menudo no es una continuación directa del TDAH en la infancia, y cómo distinguir las características adquiridas de las predisposiciones del desarrollo."
+description: "Algunas características similares al TDAH — falta de atención, impulsividad y dificultad ejecutiva — pueden surgir después del desarrollo en lugar de ser consecuencia de él. Esta sección examina las evidencias de que el TDAH en adultos a menudo no es una continuación directa del TDAH en la infancia, y cómo distinguir las características adquiridas de las predisposiciones del desarrollo."
 author: "Yannick Loth"
 date: "2026-08-28"
 categories: [Neurodivergence, Pathophysiology, Symptoms]
@@ -43,7 +43,7 @@ Nuestro estudio analiza la relación entre TDAH y fatiga crónica a través de t
 
 **Arquitectura C — amplificación bidireccional.** TDAH y la enfermedad empeoran mutuamente: la interrupción del sueño, la depleción de energía y el estrés se combinan en un ciclo.
 
-Las arquitecturas no son mutuamente excluyentes, y los datos temporales son importantes: cuando el TDAH se documenta *antes* de la aparición de la fatiga — como en los estudios en los que el TDAH infantil predice la fatiga crónica posterior [@SaezFrancas2012adhdcfs @Quadt2024neurodivergentfatigue] — se apoya la Arquitectura A o C. La Arquitectura B (TDAH adquirido *de* la enfermedad) se aplica a un subgrupo de pacientes que desarrollan desatención de inicio nuevo después de que la enfermedad comienza — aunque la evidencia a nivel poblacional advierte que muchos "nuevos inicios" aparentes podrían ser **revelación** de subclínica neurodivergencia preexistente y no una verdadera adquisición (ver límites a continuación).
+Las arquitecturas no son mutuamente excluyentes, y los datos temporales son importantes: cuando el TDAH se documenta *antes* de la aparición de la fatiga — como en los estudios en los que el TDAH infantil predice la fatiga crónica posterior [@SaezFrancas2012adhdcfs @Quadt2024neurodivergentfatigue] — se apoya la Arquitectura A o C. La Arquitectura B (TDAH adquirido *de* la enfermedad) se aplica a un subgrupo de pacientes que desarrollan desatención de inicio nuevo después de que la enfermedad comienza — aunque la evidencia a nivel poblacional advierte que muchos "nuevos inicios" aparentes podrían ser **desenmascaramiento** de subclínica neurodivergencia preexistente y no una verdadera adquisición (ver límites a continuación).
 
 ---
 
@@ -86,13 +86,13 @@ La razón por la cual esta distinción es importante desde el punto de vista cl�
 - **Si las características de desarrollo se tratan como adquiridas y reversibles**, a los pacientes se les ofrecen tratamientos que no funcionarán, y pueden culparse a sí mismos cuando no funcionan.
 - **También ocurre el error inverso**. Un patrón de "fader tardío" — niebla cognitiva post-exercicio que imita el tipo de TDAH de falta de atención — puede ser malinterpretado como TDAH y provocar una evaluación por trastorno de atención, cuando el problema subyacente es energético (limitado en ATP) y no motivacional, y empeora con el esfuerzo en lugar de persistir constantemente. Ambas direcciones del error llevan al paciente por el camino equivocado de tratamiento.
 
-las características adquiridas similares al TDAH deben ser **sostenidas, no patologizadas** — y los factores modificables subyacentes (sueño, inflamación, hierro, energía) deben abordarse independientemente del etiquetado, porque afectan el bienestar general incluso cuando la conexión de desarrollo central no ha cambiado.
+las características adquiridas similares al TDAH deben ser **apoyadas, no patologizadas** — y los factores modificables subyacentes (sueño, inflamación, hierro, energía) deben abordarse independientemente del etiquetado, porque afectan el bienestar general incluso cuando la conexión de desarrollo central no ha cambiado.
 
 ---
 
 ## Qué llevarse a casa
 
-Algunas características similares al TDAH — falta de atención, impulsividad y dificultades en la toma de decisiones — pueden ser **adquiridas** después del desarrollo en lugar de estar incorporadas desde el principio. El hallazgo de que el TDAH en adultos a menudo no es una continuación directa del TDAH infantil [@Moffitt2015adhdadult @Sibley2018lateonsetADHD @Asherson2019lateonsetADHD] respalda esta posibilidad. Si tales características son adquiridas, deben ser **dependientes del contexto y potencialmente reversibles** con el tratamiento de la causa subyacente: neuroinflamación, perturbaciones metabólicas o interrupciones del sueño.
+Algunas características similares al TDAH — falta de atención, impulsividad y dificultad ejecutiva — pueden ser **adquiridas** después del desarrollo en lugar de estar incorporadas desde el principio. El hallazgo de que el TDAH en adultos a menudo no es una continuación directa del TDAH infantil [@Moffitt2015adhdadult @Sibley2018lateonsetADHD @Asherson2019lateonsetADHD] respalda esta posibilidad. Si tales características son adquiridas, deben ser **dependientes del contexto y potencialmente reversibles** con el tratamiento de la causa subyacente: neuroinflamación, perturbaciones metabólicas o interrupciones del sueño.
 
 La parte alentadora es: esto significa que una parte significativa de la carga sintomática diaria en algunas personas puede ser abordada sin pretender "corregir" el TDAH en sí.
 

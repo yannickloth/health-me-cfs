@@ -1,5 +1,5 @@
 ---
-title: "A Crise Após Hiperfoco: A PHDA já está a sentir Micro-PEM?"
+title: "A Crise Após Hiperfoco: A PHDA já está a sentir Micro-MPE?"
 description: "Esta é a terceira parte de uma série sobre a biologia da energia que relaciona PHDA, autismo e EM/SFC. Os artigos anteriores apresentaram a teoria da PHDA como uma deficiência de energia cerebral e exploraram por que ela pode predispor à EM/SFC. Este artigo aborda uma questão mais especulativa..."
 author: "Yannick Loth"
 date: "2026-05-10"
@@ -15,7 +15,7 @@ Este é o terceiro artigo de uma série sobre a biologia energética que relacio
 
 Toda pessoa com PHDA conhece a crise após o hiperfoco.
 
-Três horas de concentração intensa. Profundamente na zona. Produtivo, imerso, tudo funcionando perfeitamente. Depois você emerge — e a conta vence. Exaustão. Névoa cerebral. Irritabilidade. Às vezes leva horas para se recuperar. Às vezes o resto do dia se perde.
+Três horas de concentração intensa. Profundamente na zona. Produtivo, imerso, tudo funcionando perfeitamente. Depois você emerge — e cobra o seu preço. Exaustão. Névoa cerebral. Irritabilidade. Às vezes leva horas para se recuperar. Às vezes o resto do dia se perde.
 
 Comunidades de PHDA descreveram isso há anos. Chamam-lhe “ressaca do hiperfoco”. “A crise”. “Desgaste pós-foco”. É uma das experiências mais amplamente relatadas nos espaços de auto-advocacy para PHDA.
 
@@ -82,7 +82,7 @@ Isso reestrutura a relação entre PHDA e EM/SFC:
 - **EM/SFC** = déficit de energia descompensado. O sistema cruzou um limite do qual não retorna espontaneamente. Mínimo esforço esgota a reserva → crise grave.
 - **A transição**: frequentemente uma infeção. Um vírus impulsiona um sistema marginalmente compensado para além do ponto de não retorno.
 
-Os dados do ALSPAC apoiam isso: crianças com traços de PHDA aos 9 anos tinham 2,18× mais probabilidade de ter fadiga incapacitante crónica aos 18 [@Quadt2024neurodivergentfatigue]. Foram as cujos sistemas estavam mais próximos do limite. As para as quais o menor impulso poderia fazer pender a balança. A PHDA também é mais representada em populações com EM/SFC [@SaezFrancas2012adhdcfs].
+Os dados do ALSPAC apoiam isso: crianças com traços de PHDA aos 9 anos tinham 2,18× mais probabilidade de ter fadiga incapacitante crónica aos 18 [@Quadt2024neurodivergentfatigue]. Foram aquelas cujos sistemas estavam mais próximos do limite. As para as quais o menor impulso poderia fazer pender a balança. A PHDA também é mais representada em populações com EM/SFC [@SaezFrancas2012adhdcfs].
 
 ---
 

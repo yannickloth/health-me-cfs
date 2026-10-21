@@ -29,11 +29,11 @@ Para contextualizar: uma doação de sangue requer cerca de 10% do seu volume sa
 
 A conexão entre volume sanguíneo e energia não é complicada:
 
-**Menor volume sanguíneo significa menos sangue retornando ao coração** (retorno venoso reduzido). **Menor retorno venoso significa que o coração enche-se menos** com cada batimento (précarga reduzida). **Menor précarga significa que cada batimento cardíaco bomba menos sangue** (volume de fluxo reduzido). **Menos sangue bombado significa menos oxigénio chegando aos tecidos.** Menos oxigénio significa menos ATP — o combustível molecular que impulsiona tudo o que fazemos.
+**Menor volume sanguíneo significa menos sangue retornando ao coração** (retorno venoso reduzido). **Menor retorno venoso significa que o coração enche-se menos** com cada batimento (précarga reduzida). **Menor précarga significa que cada batimento cardíaco bomba menos sangue** (volume sistólico reduzido). **Menos sangue bombado significa menos oxigénio chegando aos tecidos.** Menos oxigénio significa menos ATP — o combustível molecular que impulsiona tudo o que fazemos.
 
-Estudos de RM cardíaca confirmam diretamente esta cadeia: pacientes com EM/SFC têm volume end-diastólico do ventrículo esquerdo reduzido (o coração enche-se menos) e volume de fluxo reduzido (cada batimento bomba menos sangue), com forte correlação com o volume sanguíneo medido [@Newton2016]. Crucialmente, essas reduções são *desproporcionais ao nível de inatividade* — isso não é descondicionamento. O mesmo estudo não encontrou relação entre a duração da doença e os volumes cardíacos, descartando uma declinação física gradual como explicação.
+Estudos de RM cardíaca confirmam diretamente esta cadeia: pacientes com EM/SFC têm volume end-diastólico do ventrículo esquerdo reduzido (o coração enche-se menos) e volume sistólico reduzido (cada batimento bomba menos sangue), com forte correlação com o volume sanguíneo medido [@Newton2016]. Crucialmente, essas reduções são *desproporcionais ao nível de inatividade* — isso não é descondicionamento. O mesmo estudo não encontrou relação entre a duração da doença e os volumes cardíacos, descartando um declínio físico gradual como explicação.
 
-O cérebro está no final desta cadeia e não tem onde buscar recursos. O fluxo sanguíneo cerebral pode ser reduzido em até 40% em EM/SFC, impulsionado por baixo débito cardíaco, disfunção autonómica, volume sanguíneo reduzido e autoregulação prejudicada, agindo em conjunto. Diferente de outros órgãos, o cérebro não pode compensar significativamente — é por isso que os pacientes relatam disfunção cognitiva (“névoa cerebral”) e dificuldade de concentração, e por que muitos se sentem mais aguçados deitados, onde o retorno venoso melhorado restaura a perfusão cerebral.
+O cérebro está no final desta cadeia e não tem onde buscar recursos. O fluxo sanguíneo cerebral pode ser reduzido em até 40% em EM/SFC, impulsionado por baixo débito cardíaco, disfunção autonómica, volume sanguíneo reduzido e autoregulação prejudicada, agindo em conjunto. Diferente de outros órgãos, o cérebro não pode compensar significativamente — é por isso que os pacientes relatam disfunção cognitiva (“nevoeiro cerebral”) e dificuldade de concentração, e por que muitos se sentem mais aguçados deitados, onde o retorno venoso melhorado restaura a perfusão cerebral.
 
 ---
 
@@ -90,7 +90,7 @@ Isso ainda é uma hipótese, não um facto estabelecido. Mas é testável: três
 
 O volume sanguíneo não é um resultado de um questionário ou um sintoma auto-relatado. É o volume de fluido medido com radioisótopos em mililitros, e os défices aqui documentados são suficientemente grandes para explicar uma parte significativa da incapacidade.
 
-No entanto, a medição do volume sanguíneo raramente é realizada na prática clínica. A maioria dos pacientes com EM/SFC nunca teve seu volume sanguíneo medido. Os exames de sangue padrão (cálculo completo de sangue, hemoglobina) podem parecer completamente normais mesmo com um défice de 15% no volume sanguíneo — porque a *concentração* de glóbulos vermelhos é preservada mesmo quando o *volume total* diminui.
+No entanto, a medição do volume sanguíneo raramente é realizada na prática clínica. A maioria dos pacientes com EM/SFC nunca teve seu volume sanguíneo medido. Os exames de sangue padrão (hemograma completo, hemoglobina) podem parecer completamente normais mesmo com um défice de 15% no volume sanguíneo — porque a *concentração* de glóbulos vermelhos é preservada mesmo quando o *volume total* diminui.
 
 Esta é, sem dúvida, uma das descobertas mais úteis na pesquisa sobre EM/SFC: um défice mensurável com tratamentos disponíveis. A barreira não é o conhecimento — é a implementação.
 

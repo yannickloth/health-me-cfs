@@ -1,15 +1,15 @@
 ---
 title: "Do défice de energia ao cada sintoma: como a EM/SFC destrói o corpo"
-description: "num [artigo anterior](https://www.linkedin.com/pulse/when-your-cells-cant-make-energy-biology-behind-mecfs-yannick-l--hiiwe), expliquei a falha no metabolismo energético na EM/SFC: como a atividade prejudicada do complexo I cria um pico não linear em..."
+description: "num [artigo anterior](https://www.linkedin.com/pulse/when-your-cells-cant-make-energy-biology-behind-mecfs-yannick-l--hiiwe), expliquei a falha no metabolismo energético na EM/SFC: como a atividade prejudicada do complexo I cria um penhasco não linear em..."
 author: "Yannick Loth"
 date: "2026-03-02"
 categories: [Symptoms, Pathophysiology]
 lang: pt
 ---
 
-num [artigo anterior](https://www.linkedin.com/pulse/when-your-cells-cant-make-energy-biology-behind-mecfs-yannick-l--hiiwe), expliquei a falha no metabolismo energético na EM/SFC: como a atividade prejudicada do complexo I cria um pico não linear na produção de ATP, como as mitocôndrias danificadas não podem ser limpas porque a limpeza em si requer energia, e como todo o sistema fica preso numa espiral descendente auto-reforçadora.
+num [artigo anterior](https://www.linkedin.com/pulse/when-your-cells-cant-make-energy-biology-behind-mecfs-yannick-l--hiiwe), expliquei a falha no metabolismo energético na EM/SFC: como a atividade prejudicada do complexo I cria um penhasco não linear na produção de ATP, como as mitocôndrias danificadas não podem ser limpas porque a limpeza em si requer energia, e como todo o sistema fica preso numa espiral descendente auto-reforçadora.
 
-Mas a falha energética sozinha não explica por que os pacientes apresentam *tão diferentes sintomas*. Por que névoa cerebral? Por que dor? Por que ficar em pé se torna impossível? Por que o sono deixa de ser restaurador?
+Mas a falha energética sozinha não explica por que os pacientes apresentam *tão diferentes sintomas*. Por que nevoeiro cerebral? Por que dor? Por que ficar em pé se torna impossível? Por que o sono deixa de ser restaurador?
 ## Os dois eixos da EM/SFC
 
 Antes de analisar as cascadas, uma distinção que muda a forma como se pensa sobre esta doença.
@@ -40,7 +40,7 @@ O nosso modelo matemático captura isso com uma equação de sintoma cognitivo:
 
 > **Regra do modelo:** Disfunção cognitiva ∝ citocinas do SNC + déficit de dopamina + déficit de fluxo sanguíneo cerebral
 
-Cada termo pode ser medido independentemente. Juntos, eles explicam por que a “névoa cerebral” em EM/SFC não é vaga — é a consequência previsível de um cérebro sem energia operando com neurotransmissores esgotados e insuficiente suprimento sanguíneo.
+Cada termo pode ser medido independentemente. Juntos, eles explicam por que a “nevoeiro cerebral” em EM/SFC não é vaga — é a consequência previsível de um cérebro sem energia operando com neurotransmissores esgotados e insuficiente suprimento sanguíneo.
 
 ---
 
@@ -55,7 +55,7 @@ Este programa é ativado por citocinas inflamatórias (IL-1β, IL-6, TNF-α) que
 
 Uma vez dentro do cérebro, estas citocinas desencadeiam a produção de prostaglandina E₂, que suprime neurónios que promovem o despertar e ativa circuitos de pressão para o sono. O resultado: fadiga, sensibilidade à dor, perda de apetite, retração social, desaceleração cognitiva — o conjunto completo de comportamento de doença.
 
-Em infeções agudas, isso resolve quando o patógeno é eliminado. Em EM/SFC, não. A ativação imunológica persistente mantém a dinâmica das citocinas. Uma resposta hormonal ao estresse atenuada remove o freio anti-inflamatório. Microglia ativadas — as células imunitárias residentes no cérebro — amplificam o sinal localmente, produzindo suas próprias citocinas que sustentam o estado de fadiga muito depois que a inflamação periférica se normalizou.
+Em infeções agudas, isso resolve quando o patogénio é eliminado. Em EM/SFC, não. A ativação imunológica persistente mantém a dinâmica das citocinas. Uma resposta hormonal ao estresse atenuada remove o freio anti-inflamatório. Microglia ativadas — as células imunitárias residentes no cérebro — amplificam o sinal localmente, produzindo suas próprias citocinas que sustentam o estado de fadiga muito depois que a inflamação periférica se normalizou.
 
 A relação dose-resposta é estabelecida em humanos: estudos com pacientes com infeções documentadas de EBV, febre Q e vírus Ross River mostram que níveis mais altos de citocinas predizem pior fadiga, mal-estar, dor e desaceleração cognitiva numa relação quantitativa direta. E ensaios clínicos randomizados com terapia com interferon-alfa demonstram que a exposição à citocina, sozinha — sem qualquer infeção — produz a mesma síndrome neurovegetativa (fadiga, sonolência, perda de apetite) através de mecanismos distintos dos caminhos emocionais.
 
@@ -87,7 +87,7 @@ O resultado: os pacientes adormem normalmente (a latência de adormecimento é p
 
 A dor no EM/SFC tem componentes periféricos — miálgia, dor nas articulações, cefaleia — mas o sistema nervoso central amplifica esses sinais muito além do que a entrada periférica justifica. Três mecanismos convergentes impulsionam essa amplificação.
 
-**Sensibilização impulsionada por citocinas.** As mesmas citocinas pró-inflamatórias que impulsionam o comportamento de doença também reduzem os limiares da dor. IL-1β e TNF-α atuam diretamente nos neurónios da medula espinhal para amplificar os sinais de dor que chegam. A exposição crónica não produz tolerância — produz sensibilização, onde o sistema de dor se torna progressivamente mais sensível a estímulos menores.
+**Sensibilização impulsionada por citocinas.** As mesmas citocinas pró-inflamatórias que impulsionam o comportamento de doença também reduzem os limiares da dor. IL-1β e TNF-α atuam diretamente nos neurónios da medula espinal para amplificar os sinais de dor que chegam. A exposição crónica não produz tolerância — produz sensibilização, onde o sistema de dor se torna progressivamente mais sensível a estímulos menores.
 
 **Neuroinflamação.** As microglia ativadas nas regiões de processamento da dor liberam mediadores que sensibilizam os neurónios vizinhos. O valor documentado de 45–199% aumento da ligação TSPO no EM/SFC — indicando ativação persistente das microglia — fornece uma fonte de amplificação da dor central.
 
@@ -105,7 +105,7 @@ Isso explica por que a dor no EM/SFC não responde bem aos analgésicos padrão:
 
 O sistema nervoso autónomo regula tudo o que o seu corpo faz sem esforço consciente: frequência cardíaca, pressão arterial, digestão, temperatura. Em EM/SFC, esta regulação falha — e o défice de energia é a causa primária.
 
-**Deficiência central de catecolaminas.** A noradrenalina é o principal neurotransmissor do sistema nervoso simpático. As medições do líquido cefalorraquidiano que mostram uma redução dos metabólitos de noradrenalina não explicam apenas a névoa cerebral — explicam também a desregulação cardiovascular. Sem um sinal adequado de noradrenalina, o coração não consegue responder adequadamente às mudanças posturais.
+**Deficiência central de catecolaminas.** A noradrenalina é o principal neurotransmissor do sistema nervoso simpático. As medições do líquido cefalorraquidiano que mostram uma redução dos metabólitos de noradrenalina não explicam apenas o nevoeiro cerebral — explicam também a desregulação cardiovascular. Sem um sinal adequado de noradrenalina, o coração não consegue responder adequadamente às mudanças posturais.
 
 **O problema de ficar em pé.** Quando se está em pé, a gravidade puxa sangue para as pernas. Normalmente, o sistema autónomo compensa em segundos — contraindo vasos sanguíneos e aumentando a frequência cardíaca. Em EM/SFC, esta compensação é prejudicada. O sangue acumula. O fluxo sanguíneo cerebral diminui. O paciente sente tontura, desorientação ou deficiência cognitiva — por vezes dentro de minutos após se levantar.
 
@@ -161,4 +161,4 @@ Se visar menos pontos, os caminhos não tratados compensam, levando o sistema de
 
 Os modelos matemáticos descritos aqui são estruturas teóricas. Eles formalizam a compreensão atual em equações testáveis, mas não foram implementados computacionalmente nem validados com dados de pacientes. As equações de mapeamento de sintomas são deliberadamente simplificadas aproximações lineares — a percepção real de sintomas envolve efeitos de limite, sensibilização central e variação individual que esses modelos de primeiro ordem não capturam. A análise de controlabilidade (4–6 nós de drivers) é uma previsão baseada na estrutura de rede do modelo, e não uma estratégia de tratamento validada empiricamente.
 
-O que os modelos *realmente* oferecem é precisão: pressupostos explícitos, previsões quantitativas e afirmações falsificáveis. “O déficit de energia causa névoa cerebral” torna-se “10–15% redução no fluxo sanguíneo cerebral global, combinada com déficit de metabólitos de dopamina, produz disfunção cognitiva proporcional à soma ponderada de três variáveis mensuráveis”. A primeira afirmação não é falsificável. A segunda pode ser testada.
+O que os modelos *realmente* oferecem é precisão: pressupostos explícitos, previsões quantitativas e afirmações falsificáveis. “O déficit de energia causo nevoeiro cerebral” torna-se “10–15% redução no fluxo sanguíneo cerebral global, combinada com déficit de metabólitos de dopamina, produz disfunção cognitiva proporcional à soma ponderada de três variáveis mensuráveis”. A primeira afirmação não é falsificável. A segunda pode ser testada.

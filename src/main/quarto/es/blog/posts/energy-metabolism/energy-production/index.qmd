@@ -115,7 +115,7 @@ La estrategia clínica llamada "ritmo" — mantenerse dentro de los límites de 
 
 En EM/SFC, los tres términos se mueven en la dirección equivocada. La capacidad de producción máxima es menor (mitocondrias dañadas). Los costes base pueden ser más altos (la activación inmunitaria crónica quema energía). Los costes de reparación son elevados (el daño oxidativo continuo necesita reparación). Lo que queda para actividades diarias — caminar, pensar, hablar — puede ser sorprendentemente pequeño.
 
-Mantenerse dentro de este marco evita los episodios de MPE. Con el tiempo, nuestro modelo predice que esto podría permitir una recuperación parcial de las mitocondrias reduciendo el daño mediado por ROS que mantiene el ciclo.
+Mantenerse dentro de esta envolvente evita los episodios de MPE. Con el tiempo, nuestro modelo predice que esto podría permitir una recuperación parcial de las mitocondrias reduciendo el daño mediado por ROS que mantiene el ciclo.
 
 ---
 

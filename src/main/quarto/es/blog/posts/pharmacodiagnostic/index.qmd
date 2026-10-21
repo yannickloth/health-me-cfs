@@ -19,9 +19,9 @@ No es un análisis de biomarcador, pero es el instrumento *propuesto* más cerca
 
 ## Los artículos
 
-1. **[ Tus tratamientos fallidos son datos](./your-failed-treatments-are-data/index.qmd)** — la idea central. Un único ensayo clínico es una limitación, no una anécdota. Al combinarlos entre pacientes, el patrón de lo que funciona y lo que falla —en qué dosis, durante cuánto tiempo— podría clasificar las vías de tratamiento detrás de la enfermedad. Y la parte contraintuitiva: los *fracasos* pueden proporcionar más señal que los éxitos.
+1. **[Tus tratamientos fallidos son datos](./your-failed-treatments-are-data/index.qmd)** — la idea central. Un único ensayo clínico es una restricción, no una anécdota. Al combinarlos entre pacientes, el patrón de lo que funciona y lo que falla —en qué dosis, durante cuánto tiempo— podría clasificar las vías de tratamiento detrás de la enfermedad. Y la parte contraintuitiva: los *fracasos* pueden proporcionar más señal que los éxitos.
 
-2. **[El corpus que lee tu botiquín de medicinas](./the-corpus-that-reads-your-medicine-cabinet/index.qmd)** — el diseño. ¿Qué debe contener un informe combinable, por qué "LDN me ayudó" no se combina en nada, y cómo cientos de ensayos individuales descoordinados entre pacientes se convierten en un problema de satisfacción de limitaciones a nivel de población.
+2. **[El corpus que lee tu botiquín de medicinas](./the-corpus-that-reads-your-medicine-cabinet/index.qmd)** — el diseño. ¿Qué debe contener un informe combinable, por qué "LDN me ayudó" no se combina en nada, y cómo cientos de ensayos individuales descoordinados entre pacientes se convierten en un problema de satisfacción de restricciones a nivel de población.
 
 3. **[Lo que un montón de informes de medicamentos puede y no puede decirte](./what-a-pile-of-drug-reports-cannot-tell-you/index.qmd)** — el punto clave. El corpus puede clasificar hipótesis. No puede confirmarlas. Sus limitaciones son reales: el placebo, quién recibe qué medicina, quién se ofrece a informar, y — el modo de fracaso que más importa — el entusiasmo de la comunidad. Si la señal refleja cuánto se discute una medicina en línea en lugar de qué hace biológicamente, toda la propuesta debería ser abandonada.
 

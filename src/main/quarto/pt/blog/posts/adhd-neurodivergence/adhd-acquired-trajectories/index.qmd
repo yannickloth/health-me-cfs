@@ -7,7 +7,7 @@ categories: [Neurodivergence, Pathophysiology, Symptoms]
 lang: pt
 ---
 
-As partes 1–3 analisaram mecanismos que podem produzir características semelhantes à PHDA: um défice de energia no pré-frontal, uma estrutura neuroinflamatória imune, e um eixo dopamina-Nrf2-NLRP3. Esta parte final levanta uma questão diferente e clinicamente relevante:
+As partes 1–3 analisaram mecanismos que podem produzir características semelhantes à PHDA: um défice de energia no pré-frontal, uma vertente imunoneuroinflamatória, e um eixo dopamina-Nrf2-NLRP3. Esta parte final levanta uma questão diferente e clinicamente consequente:
 
 **Quando características semelhantes à PHDA estão presentes, elas são necessariamente presentes desde o desenvolvimento — ou algumas delas podem ser adquiridas e, portanto, reversíveis?**
 
@@ -39,7 +39,7 @@ Nossa pesquisa aborda a relação entre PHDA e fadiga crónica através de três
 
 **Arquitetura A — vulnerabilidade compartilhada.** Um fator a montante comum — genético, imunológico ou de desenvolvimento — predispõe uma pessoa a tanto PHDA quanto fadiga crónica de forma independente. A ocorrência conjunta é um artefato de seleção: a mesma vulnerabilidade gera ambos. A arquitetura genética das condições neurodesenvolvimentistas apoia isso: PHDA e autismo compartilham uma grande parte de suas influências genéticas [@Demontis2023GWASadhd @Grove2019GWASasd @CrossDisorderPGC2013].
 
-**Arquitetura B — cascata secundária.** O processo da doença — neuroinflamação, depleção dopaminérgica, disfunção autonômica — produz fenótipos neuropsiquiátricos semelhantes à PHDA em pessoas que, de outra forma, não teriam desenvolvido esses sintomas. A PHDA surge *devido à* doença, e não ao lado dela.
+**Arquitetura B — cascata secundária.** O processo da doença — neuroinflamação, depleção dopaminérgica, disfunção autonómica — produz fenótipos neuropsiquiátricos semelhantes à PHDA em pessoas que, de outra forma, não teriam desenvolvido esses sintomas. A PHDA surge *devido à* doença, e não ao lado dela.
 
 **Arquitetura C — amplificação bidirecional.** Tanto a PHDA quanto a doença pioram uma à outra — interrupções do sono, depleção de energia e estresse se combinam num ciclo.
 
@@ -51,7 +51,7 @@ As arquiteturas não são mutuamente exclusivas, e os dados temporais são impor
 
 Duas rotas propostas para características semelhantes à PHDA adquirida:
 
-**Interrupção da interocepção.** O cérebro mantém um equilíbrio entre as suas *previsões* sobre o corpo e as *evidências sensoriais* que o corpo envia de volta. Acredita-se que as características adquiridas envolvem *sinais de nível inferior corrompidos* — as vias do tronco cerebral e do talamo-cortical não conseguem transmitir informações precisas sobre o corpo. O cérebro compensa apertando os seus antecedentes, gerando uma aparência externa de desatenção e dificuldade na regulação da excitação. O local de processamento é diferente do PHDA de desenvolvimento, e assim deve ser a resposta ao tratamento.
+**Interrupção da interocepção.** O cérebro mantém um equilíbrio entre as suas *previsões* sobre o corpo e as *evidências sensoriais* que o corpo envia de volta. Acredita-se que as características adquiridas envolvem *sinais de nível inferior corrompidos* — as vias do tronco cerebral e do talamo-cortical não conseguem transmitir informações precisas sobre o corpo. O cérebro compensa aumentando a precisão dos seus priores, gerando uma aparência externa de desatenção e dificuldade na regulação da excitação. O local de processamento é diferente do PHDA de desenvolvimento, e assim deve ser a resposta ao tratamento.
 
 **Neuroinflamação e ativação das microglia.** A neuroinflamação sustentada que degrada os circuitos pré-frontal, mesolimbic e talamo-cortical pode ser *suficiente* para produzir características semelhantes à PHDA em pessoas cujo neurodesenvolvimento antes da doença estava intacto — a especulação registada analisada na Parte 2. Se esta cascata é a causa imediata, então as intervenções que visam a neuroinflamação devem reverter parcialmente estas características secundárias — uma previsão testável e ainda não testada.
 
@@ -71,7 +71,7 @@ Em outras palavras: a inatenção desenvolvimental está sempre presente. A inat
 
 - O modelo adquirido é **explicitamente especulativo** — uma hipótese registada com baixa confiança — e uma explicação mais simples (inflamação causando diretamente tanto os sintomas quanto o processo subjacente) pode explicar os resultados sem qualquer quadro interoceptivo.
 - Nenhum dos componentes teóricos foi validado diretamente neste contexto.
-- A distinção entre adquirido e desenvolvido ainda não é útil no leito: atualmente não existe teste que separe os dois num paciente individual.
+- A distinção entre adquirido e desenvolvido ainda não é útil à cabeceira do doente: atualmente não existe teste que separe os dois num paciente individual.
 - Mesmo que algumas características sejam adquiridas e reversíveis, isso não significa que “a PHDA pode ser curada”. Significa que um *subconjunto da carga de sintomas* em algumas pessoas pode responder ao tratamento da sua causa.
 - O facto de a PHDA em adultos geralmente começar na adolescência ou refletir sintomas da infância não atendidos, em vez de uma síndrome de início adulto claramente distinta [@Moffitt2015adhdadult @Sibley2018lateonsetADHD @Asherson2019lateonsetADHD], estabelece uma diferença entre os grupos de início, mas não prova por si só que esse grupo é *reversível* — apenas que não começou na infância.
 - **O maior teste em escala populacional não encontrou efeito impulsionado por infeção.** Uma coorte nacional de 20 anos não encontrou efeito independente do COVID-19 na diagnóstico ou taxas de tratamento da PHDA [@Zemer2024COVIDADHD20Year], e o aumento da utilização de medicamentos para PHDA após o COVID está consistente com diagnósticos de recuperação, e não com início novo [@Gimbach2024ADHDMedicationEurope]. Este é o contraponto mais forte à arquitetura “adquirida a partir da doença” (Arquitetura B): em escala populacional, a infeção não parece criar nova PHDA. a maioria das dificuldades de atenção pós-infeciosa reflete a **revelação** de neurodivergência ou sobreposição de sintomas pré-existentes (geralmente subclínicos), e não *de novo* aquisição — embora um subconjunto restrito de adquirido não possa ser excluído pelos dados populacionais.
@@ -86,7 +86,7 @@ A razão pela qual essa distinção é importante clinicamente:
 - **Se as características desenvolvimentais forem tratadas como adquiridas e reversíveis**, os pacientes recebem tratamentos que não funcionarão e podem culpar a si mesmos quando não funcionam.
 - **A classificação errada também ocorre no sentido inverso**. Um padrão de "fader tardio" — névoa cognitiva pós-exercício que imita o tipo de PHDA de desatenção — pode ser interpretado como PHDA e desencadear avaliação de transtorno de atenção, quando a causa subjacente é energética (limitação de ATP) e não motivacional, e piora com esforço em vez de persistir constantemente. Ambas as direções do erro levam o paciente a seguir o caminho errado de tratamento.
 
-as características adquiridas semelhantes às da PHDA devem ser **sustentadas, não patologizadas** — e os fatores modificáveis subjacentes (sono, inflamação, ferro, energia) devem ser abordados independentemente da classificação, porque afetam o bem-estar geral mesmo quando o circuito desenvolvimental central permanece inalterado.
+as características adquiridas semelhantes às da PHDA devem ser **apoiadas, não patologizadas** — e os fatores modificáveis subjacentes (sono, inflamação, ferro, energia) devem ser abordados independentemente da classificação, porque afetam o bem-estar geral mesmo quando o circuito desenvolvimental central permanece inalterado.
 
 ---
 

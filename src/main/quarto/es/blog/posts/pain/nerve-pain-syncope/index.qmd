@@ -7,7 +7,7 @@ categories: [Pain, Autonomic Dysfunction, Neurology]
 lang: es
 ---
 
-Al golpear un nervio —el interior de un codo, la parte inferior de un muñeco, el rincón de una mesa contra una espinilla—, durante aproximadamente un segundo sientes un fuerte dolor. *Oh, me he golpeado allí.* Luego el dolor comienza a aparecer y a intensificarse —no de forma gradual, sino como una ola que sube. Pasan uno o dos segundos y el juicio del cerebro llega antes de que las palabras puedan formarse: *no es posible mantenerse de pie*. Todo se vuelve oscuro. Unos segundos después, la conciencia regresa. Estás en el suelo.
+Al golpear un nervio —el interior de un codo, la parte inferior de una muñeca, el rincón de una mesa contra una espinilla—, durante aproximadamente un segundo sientes un fuerte dolor. *Oh, me he golpeado allí.* Luego el dolor comienza a aparecer y a intensificarse —no de forma gradual, sino como una ola que sube. Pasan uno o dos segundos y el juicio del cerebro llega antes de que las palabras puedan formarse: *no es posible mantenerse de pie*. Todo se vuelve oscuro. Unos segundos después, la conciencia regresa. Estás en el suelo.
 
 Esto no es una anomalía médica. Es un **síncope neurocardiogénico** —un desvanecimiento provocado por un dolor intenso— y la cadena de eventos desde el impacto hasta el suelo es una secuencia espectacularmente precisa de neurofisiología. En una persona con alta sensibilidad autónoma, toda la cascada desde el golpe hasta el desvanecimiento puede completarse en menos de tres segundos. Aquí está exactamente lo que ocurre, paso a paso, con un vocabulario que lo hace comprensible incluso si nunca has tomado un curso de biología.
 
@@ -69,7 +69,7 @@ En el síncope con inicio rápido de dolor, la escalada puede acelerar estos sí
 
 ## Paso 6: Síncope — el reinicio forzado del cerebro (~2,5–3,5 segundos desde el impacto)
 
-**Síncope** (SIN-co-pee) es el término médico para la pérdida transitoria de conciencia debido a la hipoperfusión cerebral [@Grubb2005syncope] [@Adkisson2017syncope]. No es un ataque — es el cerebro que apaga los sistemas no esenciales para preservar el metabolismo fundamental, como un ordenador que entra en estado de sueño de emergencia cuando la batería llega al 1%.
+**Síncope** (SIN-co-pee) es el término médico para la pérdida transitoria de conciencia debido a la hipoperfusión cerebral [@Grubb2005syncope] [@Adkisson2017syncope]. No es una convulsión — es el cerebro que apaga los sistemas no esenciales para preservar el metabolismo fundamental, como un ordenador que entra en estado de sueño de emergencia cuando la batería llega al 1%.
 
 Durante el síncope, se pierde el tono muscular (la persona colapsa), lo cual es en realidad la medida más eficaz del cuerpo: **acostarse en posición horizontal elimina el gradiente de gravedad** que hacía que la sangre se alejara del cerebro. En la posición supina — acostado boca arriba — el corazón y el cerebro están aproximadamente en el mismo nivel, y la presión de perfusión se restaura por simple física.
 

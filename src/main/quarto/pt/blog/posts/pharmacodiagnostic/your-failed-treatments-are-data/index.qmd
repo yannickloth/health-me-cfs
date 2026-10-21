@@ -19,7 +19,7 @@ Cada medicamento no kit de tratamento para EM/SFC atua num alvo específico. A d
 
 Quando um estudo funciona, sugere que esse nó estava ativo, e que corrigi-lo foi suficientemente importante para mudar seus sintomas. Quando um estudo falha *dentro de sua faixa de dose adequada*, sugere o oposto: que esse nó não era o que limitava você. O “nulo” é informação, segundo as suposições do modelo [(um ponto que a série dose-resposta faz para um paciente de cada vez)](../../treatment/dose-is-diagnostic-ldn/index.qmd).
 
-O artigo não propõe uma tecnologia futura; apenas explica de forma explícita como um clínico já raciocina, de maneira informal: “Tentamos um anti-histamínico e não ajudou, então vamos olhar para o lado autonômico.” Ele transforma essa intuição num método sistemático.
+O artigo não propõe uma tecnologia futura; apenas explica de forma explícita como um clínico já raciocina, de maneira informal: “Tentamos um anti-histamínico e não ajudou, então vamos olhar para o lado autonómico.” Ele transforma essa intuição num método sistemático.
 
 ## A coleção é o que a torna um sinal
 
@@ -27,7 +27,7 @@ A história de medicamento de um paciente é uma pequena quantidade de restriç�
 
 Reunir ensaios de um único paciente numa estimativa de grupo é um método estatístico estabelecido — utilizado na PHDA pediátrica, na fisioterapia, na hipertensão — e modelos multi-nível podem combinar muitos experimentos de um único paciente enquanto lidam com as complicações (tendência, efeitos de carryover, autocorrelação) que tornam a média ingênua enganosa [@Punja2016Nof1Aggregation; @Nikles2022Nof1Physiotherapy; @Samuel2023Nof1RCT; @Schmid2022BayesianNof1; @Zucker2010]. O método existe. O que não existe é um corpus de relatórios de medicamentos EM/SFC capturado de uma forma que o método possa usar.
 
-As estatísticas são a parte menos interessante. A parte interessante é o que o padrão reunido poderia mostrar que nenhum laboratório atual pode fazer: uma lista classificada de caminhos candidatos limitadores de taxa — derivada não da teoria, mas da resposta coletiva das pessoas que sofrem da doença. O pool sobrerrepresenta os pacientes de forma suficiente para relatar — na maioria dos casos leves a moderados — e não pode falar em favor de doenças graves ou muito graves [@Richiardi2007NINFEAInternet; @Loth2026website].
+As estatísticas são a parte menos interessante. A parte interessante é o que o padrão reunido poderia mostrar que nenhum laboratório atual pode fazer: uma lista classificada de caminhos candidatos limitadores de taxa — derivada não da teoria, mas da resposta coletiva das pessoas que sofrem da doença. O pool sobrerrepresenta os pacientes suficientemente bem para relatar — na maioria dos casos leves a moderados — e não representa doenças graves ou muito graves [@Richiardi2007NINFEAInternet; @Loth2026website].
 
 ## A parte contra-intuitiva: fracassos podem ser os melhores dados
 
@@ -41,7 +41,7 @@ Esta é uma hipótese, não um facto. Ela tem um teste — se relatórios nulos 
 
 ## Significado
 
-Se a ideia se concretizar, ela altera o status de algo que você já possui. O seu histórico de medicação — cada tentativa, cada dose que você ajustou, cada medicamento que você abandonou porque não funcionou — torna-se uma contribuição para o único tipo de evidência que uma doença sem biomarcador pode produzir atualmente. Não se trata apenas de uma nota médica privada. Isso não significa realizar testes de tratamentos para obter dados: os ensaios clínicos precisam de um prescritor, e esta série não incentiva experimentos autônomos. O corpus agrega o que os pacientes já fizeram sob cuidado clínico.
+Se a ideia se concretizar, ela altera o status de algo que você já possui. O seu histórico de medicação — cada tentativa, cada dose que você ajustou, cada medicamento que você abandonou porque não funcionou — torna-se uma contribuição para o único tipo de evidência que uma doença sem biomarcador pode produzir atualmente. Não se trata apenas de uma nota médica privada. Isso não significa realizar testes de tratamentos para obter dados: os ensaios clínicos precisam de um prescritor, e esta série não incentiva a autoexperimentação. O corpus agrega o que os pacientes já fizeram sob cuidado clínico.
 
 O problema é que quase nada disso está registrado de uma forma que possa ser combinada. Este é o tema do próximo artigo.
 

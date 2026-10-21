@@ -31,7 +31,7 @@ A deficiência crónica na função glifática causa danos estruturais em três 
 |-----------|-------------------|------------------------------|---------------------|
 | Canais de água AQP4 | Deslocados de pés astrocitários para corpo celular — a bomba funciona, mas a água não pode fluir | 2–4 meses | ~20× |
 | Pés astrocitários | Retraídos das paredes dos vasos — área de contacto reduzida para troca de fluidos | 3–6 meses | ~40× |
-| Membrana basal perivascular | Espessada e fibrótica — a meia-vida do colágeno IV é de 120–300 dias | 6–18 meses | ~100× |
+| Membrana basal perivascular | Espessada e fibrótica — a meia-vida do colagénio IV é de 120–300 dias | 6–18 meses | ~100× |
 
 A bomba (arquitetura do sono) se normaliza em ~5 dias. A recuperação estrutural completa dos tubos leva ~12 meses. **Composição ponderada: ~70× o período de restauração.**
 
@@ -45,7 +45,7 @@ Este não é um número preciso. É uma estimativa de ordem de magnitude baseada
 
 **Semanas 2–8:** A imagem DTI-ALPS [@NematGorgani2025GlymphaticMECFS] mostra que a função glifática melhora talvez 10–15% do déficit. Os canais AQP4 estão a redistribuir-se lentamente para os pés astrocitários. Você não sente diferença. O cérebro está a reduzir a sua dívida de resíduos antes que o balanço patrimonial mostre uma limpeza positiva.
 
-**Mês 3:** AQP4 é totalmente repolarizado. Os pés astrocitários são parcialmente reestendidos. O resíduo acumulado é significativamente eliminado. **Este é o limite.** É aí que os pacientes começam a notar menos névoa cerebral, menor sensibilidade aos desencadeadores de MPE e maior resistência cognitiva consistente. É por isso que as pessoas dizem que “finalmente começou a funcionar” após 8–12 semanas.
+**Mês 3:** AQP4 é totalmente repolarizado. Os pés astrocitários são parcialmente reestendidos. O resíduo acumulado é significativamente eliminado. **Este é o limiar.** É aí que os pacientes começam a notar menos nevoeiro cerebral, menor sensibilidade aos desencadeadores de MPE e maior resistência cognitiva consistente. É por isso que as pessoas dizem que “finalmente começou a funcionar” após 8–12 semanas.
 
 **Mês 6:** Os pés astrocitários são em grande parte restaurados. A imagem DTI-ALPS [@Ding2025glymphaticAD] atinge cerca de 50–60% da recuperação do déficit. Benefício sintomático significativo — mas ainda não 100%.
 

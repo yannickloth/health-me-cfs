@@ -1,13 +1,13 @@
 ---
 title: "Quatro Portas, Uma Doença"
-description: "A EM/SFC apresenta um padrão que tem confundido pesquisadores e clínicos há décadas. O mesmo síndrome — mal-estar pós-esforço, disfunção cognitiva, sono não revigorante, desregulação autonómica, dor generalizada — ocorre em pacientes com diferenças radicais..."
+description: "A EM/SFC apresenta um padrão que tem confundido investigadores e clínicos há décadas. O mesmo síndrome — mal-estar pós-esforço, disfunção cognitiva, sono não revigorante, desregulação autonómica, dor generalizada — ocorre em pacientes com diferenças radicais..."
 author: "Yannick Loth"
 date: "2026-04-03"
 categories: [Causal Hierarchy, Pathophysiology]
 lang: pt
 ---
 
-A EM/SFC apresenta um padrão que confundiu pesquisadores e clínicos há décadas. O mesmo síndrome — mal-estar pós-esforço, disfunção cognitiva, sono não revigorante, desregulação autónoma, dor generalizada — ocorre em pacientes com histórias de início radicalmente diferentes: uma infecção viral da qual alguém nunca se recuperou, um período de stress psicológico extremo, cirurgia grave, vacinação. Os gatilhos são biologicamente distintos. A doença resultante é clinicamente indistinguível [Cap. 16 §Pontos de Entrada: Múltiplas Portas, Um Caminho Comum Final].
+A EM/SFC apresenta um padrão que confundiu investigadores e clínicos há décadas. O mesmo síndrome — mal-estar pós-esforço, disfunção cognitiva, sono não revigorante, desregulação autónoma, dor generalizada — ocorre em pacientes com histórias de início radicalmente diferentes: uma infecção viral da qual alguém nunca se recuperou, um período de stress psicológico extremo, cirurgia grave, vacinação. Os gatilhos são biologicamente distintos. A doença resultante é clinicamente indistinguível [Cap. 16 §Pontos de Entrada: Múltiplas Portas, Um Caminho Comum Final].
 
 Não é uma coincidência que se explique com acenos vagos.
 
@@ -23,13 +23,13 @@ O quadro propõe uma via final comum: falha energética do SNC combinada com um 
 
 ## As portas
 
-O início pós-viral representa aproximadamente 70% dos casos de EM/SFC — uma cifra consistente com pesquisas epidemiológicas publicadas, embora as estimativas variem entre grupos. O mecanismo aqui não é a própria infecção, mas o que ela inicia: uma cascata de ativação imune, sinalização de citocinas e — em indivíduos suscetíveis — os primeiros passos em direção à estabilização epigenética do programa da doença [Cap. 16 §Mecanismos Capazes de Gatilho]. Para alguns pacientes, reservatórios virais persistentes (EBV latente, reativação do HHV-6, antígenos SARS-CoV-2 residuais nos tecidos) podem continuar impulsionando o processo diretamente. Para outros, a infecção já foi eliminada há muito tempo, mas a cascata iniciada tornou-se auto-sustentável [Cap. 16 §Reativação Virais e Exaustão Imune].
+O início pós-viral representa aproximadamente 70% dos casos de EM/SFC — uma cifra consistente com pesquisas epidemiológicas publicadas, embora as estimativas variem entre grupos. O mecanismo aqui não é a própria infecção, mas o que ela inicia: uma cascata de ativação imune, sinalização de citocinas e — em indivíduos suscetíveis — os primeiros passos em direção à estabilização epigenética do programa da doença [Cap. 16 §Mecanismos Capazes de Gatilho]. Para alguns pacientes, reservatórios virais persistentes (EBV latente, reativação do HHV-6, antigénios SARS-CoV-2 residuais nos tecidos) podem continuar impulsionando o processo diretamente. Para outros, a infecção já foi eliminada há muito tempo, mas a cascata iniciada tornou-se auto-sustentável [Cap. 16 §Reativação Virais e Exaustão Imune].
 
 O stress fisiológico ou psicológico grave ativa o eixo hipotálamo-hipófise-suprarrenal, produz sinalização de cortisol e catecolaminas sustentadas e cria condições de neuroinflamação e desregulação imune que se sobrepõem significativamente à cascata pós-viral. O mecanismo de entrada é diferente; o destino é o mesmo [Cap. 16 §Mecanismos Capazes de Gatilho].
 
 A cirurgia de grande porte — anestesia, inflamação sistémica, stress oxidativo significativo, perturbação do eixo intestino-cérebro — apresenta uma situação diferente [Cap. 16 §Mecanismos Capazes de Gatilho]. Num indivíduo pré-sensibilizado, cujos parâmetros já estão próximos da separatriz (a fronteira entre a bacia saudável e a bacia doente), essa combinação de agressões pode ser suficiente para mover o sistema para o outro lado [Cap. 16 §Relações entre Mecanismos Capazes de Gatilho].
 
-O início provocado por vacinação é o ponto de entrada mais raro e o que requer a maior precisão. A EM/SFC provocada por vacinação representa uma pequena fração dos casos. O mecanismo proposto não é o antígeno da vacina em si, mas uma resposta de ativação imune que, em indivíduos suscetíveis raros, não consegue se limitar e inicia a mesma cascata que o início pós-viral [Cap. 16 §Mecanismos Capazes de Gatilho]. A existência deste ponto de entrada não apoia a hesitação em vacinar — a infecção viral natural não controlada apresenta riscos significativamente maiores para indivíduos suscetíveis do que a vacinação, embora as taxas comparativas precisas de início de EM/SFC por evento não estejam estabelecidas — mas é um fenómeno clínico real que o quadro deve levar em conta.
+O início provocado por vacinação é o ponto de entrada mais raro e o que requer a maior precisão. A EM/SFC provocada por vacinação representa uma pequena fração dos casos. O mecanismo proposto não é o antigénio da vacina em si, mas uma resposta de ativação imune que, em indivíduos suscetíveis raros, não consegue se limitar e inicia a mesma cascata que o início pós-viral [Cap. 16 §Mecanismos Capazes de Gatilho]. A existência deste ponto de entrada não apoia a hesitação em vacinar — a infecção viral natural não controlada apresenta riscos significativamente maiores para indivíduos suscetíveis do que a vacinação, embora as taxas comparativas precisas de início de EM/SFC por evento não estejam estabelecidas — mas é um fenómeno clínico real que o quadro deve levar em conta.
 
 ---
 

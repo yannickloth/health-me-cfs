@@ -23,7 +23,7 @@ Lee el artículo escrito para tu lado del escritorio — o ambos, si deseas ente
 
 ### Para médicos y cuidadores: el paciente informado
 
-**[Por qué tu paciente sabe tanto](../patient-doctor-relationship/why-your-patient-knows-so-much/index.qmd)** — por qué la investigación autónoma es una adaptación racional a un sistema que dijo “no tenemos nada para ti”; lo que la investigación en las consultas dice sobre los pacientes informados por internet; guiones para los tres pacientes que conocerás (el bien informado, el frágil, el desesperado); por qué decir “no sé” protege tu autoridad; y el papel de trabajo del cuidador como amplificador, no como defensor en guerra.
+**[Por qué tu paciente sabe tanto](../patient-doctor-relationship/why-your-patient-knows-so-much/index.qmd)** — por qué la investigación autónoma es una adaptación racional a un sistema que dijo “no tenemos nada para ti”; lo que la investigación en las consultas dice sobre los pacientes informados por internet; guiones para los tres pacientes que conocerás (el bien informado, el de lógica frágil, el desesperado); por qué decir “no sé” protege tu autoridad; y el papel de trabajo del cuidador como amplificador, no como defensor en guerra.
 
 ---
 

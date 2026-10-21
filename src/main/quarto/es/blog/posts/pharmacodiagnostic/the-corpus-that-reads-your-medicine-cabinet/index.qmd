@@ -11,18 +11,18 @@ Ya existe una encuesta en línea que pregunta a miles de pacientes con EM/SFC y 
 
 La diferencia entre una clasificación de popularidad y una clasificación de mecanismo es casi exclusivamente una cuestión de lo que contiene el informe. Este artículo trata sobre esa diferencia.
 
-## Por qué "ELDN me ayudó" no se puede agrupar
+## Por qué "LDN me ayudó" no se puede agrupar
 
-La propuesta central del trabajo sobre dosis-respuesta del documento principal es que, en el caso de EM/SFC, el *lugar* en la escala de dosis donde el medicamento funciona puede ser la información clave. En ese análisis, la naltrexona en dosis bajas ayuda a algunos pacientes en dosis de 0,5–1,5 mg y luego deja de ayudar a medida que la dosis aumenta, porque su mecanismo dominante en dosis bajas (un bloqueo parcial de TLR4 que activa el programa antiinflamatorio Nrf2 de la célula) se supone que se desactiva cuando el bloqueo se vuelve demasiado completo [@Younger2013; @Kucic2021LDNmicroglia; @Calabrese2021Nrf2]. Un paciente cuyo beneficio desaparece a medida que la dosis aumenta puede haber dicho algo sobre su biología. Un paciente que reporta solo "ELDN me ayudó" no lo ha hecho.
+La propuesta central del trabajo sobre dosis-respuesta del documento principal es que, en el caso de EM/SFC, el *lugar* en la escala de dosis donde el medicamento funciona puede ser la información clave. En ese análisis, la naltrexona en dosis bajas ayuda a algunos pacientes en dosis de 0,5–1,5 mg y luego deja de ayudar a medida que la dosis aumenta, porque su mecanismo dominante en dosis bajas (un bloqueo parcial de TLR4 que activa el programa antiinflamatorio Nrf2 de la célula) se supone que se desactiva cuando el bloqueo se vuelve demasiado completo [@Younger2013; @Kucic2021LDNmicroglia; @Calabrese2021Nrf2]. Un paciente cuyo beneficio desaparece a medida que la dosis aumenta puede haber dicho algo sobre su biología. Un paciente que reporta solo "LDN me ayudó" no lo ha hecho.
 
-Por eso el corpus necesita la dosis. Un informe de "ELDN no ayudó" no se puede agrupar, porque no distingue a un paciente que falló en una dosis donde el medicamento podría funcionar de un paciente que falló en el extremo superior de la gama, donde el mecanismo nunca se activó. La serie de dosis-respuesta explica este punto para la titulación de un único paciente; a escala poblacional, el mismo principio decide si todo el corpus es útil o inútil.
+Por eso el corpus necesita la dosis. Un informe de "LDN no ayudó" no se puede agrupar, porque no distingue a un paciente que falló en una dosis donde el medicamento podría funcionar de un paciente que falló en el extremo superior de la gama, donde el mecanismo nunca se activó. La serie de dosis-respuesta explica este punto para la titulación de un único paciente; a escala poblacional, el mismo principio decide si todo el corpus es útil o inútil.
 
 El conjunto mínimo de campos, y por qué cada campo obtiene su lugar:
 
 - **Medicamento** — la intervención en sí.
-- **Dosis y banda de dosis** — la variable de soporte. Un valor nulo dentro de una ventana de prueba es información; un valor nulo en el límite no lo es.
+- **Dosis y banda de dosis** — la variable portante. Un valor nulo dentro de una ventana de prueba es información; un valor nulo en el límite no lo es.
 - **Duración** — porque un beneficio que aparece después de tres semanas y disminuye después de tres meses es un hallazgo diferente de uno que nunca aparece. Un ensayo adecuado debe haber durado lo suficiente para mostrar su efecto.
-- **Dominio de respuesta** — *qué* síntoma cambió. Un medicamento que soluciona la niebla cerebral sin afectar el dolor te dice que esos dos síntomas operan por vías diferentes. Una única puntuación de "mejor/más malo" destruye esa señal.
+- **Dominio de respuesta** — *qué* síntoma cambió. Un medicamento que soluciona la niebla cerebral sin afectar el dolor te dice que esos dos síntomas operan por vías diferentes. Una única puntuación de "mejor/peor" destruye esa señal.
 - **Tipo de efecto secundario** — porque un efecto secundario es una señal de que el mecanismo fue activado, independientemente de si corregirlo ayudó. Un paciente que deja de tomar un medicamento por un efecto secundario específico aún ha proporcionado datos mecanísticos.
 - **Razón de interrupción** — lo más cercano a una evaluación libre de lo que realmente ocurrió.
 - **Volumen de discusión comunitaria** — un campo inusual, y necesario, explicado a continuación.

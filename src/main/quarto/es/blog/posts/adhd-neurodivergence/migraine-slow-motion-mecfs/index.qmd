@@ -15,14 +15,14 @@ Este es el séptimo y último artículo de una serie sobre la biología energét
 
 Un estudio de cohorte nacional de Taiwán siguió a **6.902 pacientes con migraña** y **27.608 controles correspondientes** desde 2006 hasta 2010 [@Lau2015migraineCFS]:
 
-- Incidencia de EM/SFC: **52,72 por 10.000 personas-años** en pacientes con migraña vs **28,85** en controles
+- Incidencia de CFS: **52,72 por 10.000 personas-años** en pacientes con migraña vs **28,85** en controles
 - Ratio de tasa de incidencia: aproximadamente **1,5×**
 - Edad ≥65: **IRR = 2,11** — más del doble del riesgo
 - **Relación dosis-respuesta:** el riesgo se escala con la frecuencia de migraña
 
 El riesgo aumenta con la edad. Aumenta con la frecuencia. Se acumula.
 
-*Limitación: Este estudio utilizó códigos ICD de la base de datos de Seguro de Salud Nacional de Taiwán. El diagnóstico de EM/SFC mediante códigos administrativos tiene baja especificidad; muchos casos codificados pueden no cumplir con los criterios de investigación EM/SFC (ICC o CCC). La asociación puede reflejar parcialmente patrones de diagnóstico compartidos o efectos secundarios de medicamentos (los profiláticos para la migraña suelen causar fatiga) en lugar de una relación biológica pura.*
+*Limitación: Este estudio utilizó códigos ICD de la base de datos de Seguro de Salud Nacional de Taiwán. El diagnóstico de CFS mediante códigos administrativos tiene baja especificidad; muchos casos codificados pueden no cumplir con los criterios de investigación EM/SFC (ICC o CCC). La asociación puede reflejar parcialmente patrones de diagnóstico compartidos o efectos secundarios de medicamentos (los profiláticos para la migraña suelen causar fatiga) en lugar de una relación biológica pura.*
 
 ---
 
@@ -57,7 +57,7 @@ Entre ataques de migraña, el cerebro no está en un estado “normal”. Funcio
 
 ## El modelo de agotamiento acumulativo
 
-Aquí es donde la migraña se diferencia del TDAH y del TEA por ser una reductora de la reserva metabólica. El TDAH y el TEA representan déficits de base **estáticos** — el generador fue construido de menor tamaño. La migraña representa una erosión **progresiva** — el generador tenía un tamaño normal pero se daña con el tiempo.
+Aquí es donde la migraña se diferencia del TDAH y del ASD por ser una reductora de la reserva metabólica. El TDAH y el ASD representan déficits de base **estáticos** — el generador fue construido de menor tamaño. La migraña representa una erosión **progresiva** — el generador tenía un tamaño normal pero se daña con el tiempo.
 
 Cada evento de depresión de propagación cortical:
 
@@ -116,7 +116,7 @@ La CoQ10 (100–300 mg), la riboflavina (400 mg) y el magnesio (400–600 mg) ti
 
 **3. Para pacientes EM/SFC con historial previo de migraña:**
 
-El déficit mitocondrial es tanto más antiguo como potencialmente mayor que lo que sugiere el tiempo de duración de la enfermedad EM/SFC por sí solo. Un paciente con 20 años de migraña antes del inicio de EM/SFC tiene un déficit previo que precede y compone el daño postinfeccioso. Las estrategias de tratamiento deben reconocer esta historia más larga de depleción acumulativa.
+El déficit mitocondrial es tanto más antiguo como potencialmente mayor que lo que sugiere el tiempo de duración de la enfermedad EM/SFC por sí solo. Un paciente con 20 años de migraña antes del inicio de EM/SFC tiene un déficit previo que precede y agrava el daño postinfeccioso. Las estrategias de tratamiento deben reconocer esta historia más larga de depleción acumulativa.
 
 *Nota: Las dosis y medicamentos mencionados arriba reflejan los hallazgos de investigación publicados sobre la profilaxis de migraña, no las recomendaciones de tratamiento personalizado. Cualquier intervención debe discutirse con un clínico familiarizado con el contexto médico completo del individuo.*
 
@@ -129,7 +129,7 @@ A lo largo de esta serie de siete artículos, ha surgido un marco unificado:
 | Condición / factor predisponente | Mecanismo de reducción de la reserva | Tipo |
 | --- | --- | --- |
 | TDAH | Hipometabolismo prefrontal + ineficiencia dopaminérgica [@Zametkin1990] [@Berthier2025cbfadhd] | Deficiencia base estática |
-| TEA | Disfunción del circuito de transporte de electrones mitocondriales + bajo BH4 [@Frye2024ASDmitochondria] [@Fanet2021BH4neuro] | Deficiencia base estática |
+| ASD | Disfunción del circuito de transporte de electrones mitocondriales + bajo BH4 [@Frye2024ASDmitochondria] [@Fanet2021BH4neuro] | Deficiencia base estática |
 | hEDS/POTS | Hipoperfusión cerebral debido a la laxitud del tejido conectivo | Deficiencia de suministro estática |
 | Migraña | Daño acumulativo en mitocondria por CSD | Erosión progresiva |
 | GCH1 rs841 | Reducción de la producción de BH4 | Deficiencia genética estática |

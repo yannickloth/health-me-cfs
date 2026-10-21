@@ -39,7 +39,7 @@ Três regras universais antes de qualquer protocolo:
 |-------|----------|------|
 | Escala de doses | 0,5 mg × 2 semanas → 1 mg × 4 semanas → 1,5 mg × 4 semanas → (se parcial) 2,25 mg × 4 semanas → (se parcial) 3 mg × 4 semanas → (se nenhum sinal ainda) 4,5 mg × 4 semanas | E para início baixo; C para passos |
 | Duração do passo | Mínimo 4 semanas por passo abaixo de 2 mg — o mecanismo TLR4/Nrf2 é transcricional; os resultados dentro de 2 semanas medem ajuste, não o efeito | C |
-| Resultado principal | Fadiga ou névoa cerebral, autoavaliação diária de 0–10 | C |
+| Resultado principal | Fadiga ou nevoeiro cerebral, autoavaliação diária de 0–10 | C |
 | Condições de paragem | Benefício num passo → manter ≥8 semanas antes de qualquer alteração · nenhum benefício ao longo da variação completa de 0,5–4,5 mg → interpretação do mecanismo: os alvos da LDN não são limitantes de taxa · exacerbação inicial → reduzir pela metade, não abandonar | C |
 | Compounding | Abaixo de 2 mg: farmácia de compounding ou líquido | E |
 | Regra de re-teste | Um resultado nulo em 3,5–4 mg NÃO fecha a faixa de 1 mg — mecanismo diferente nessa faixa ([porquê](../single-dose-failure-not-a-verdict/)) | C |
@@ -104,7 +104,7 @@ Três regras universais antes de qualquer protocolo:
 | Escala de doses | Começar bem abaixo das doses que anteriormente causaram problemas — por exemplo, uma tentativa de 10 mg de MR se a dose de 30 mg causou MPE; equivalentes de 5 mg de liberação imediata para passos mais finos | C |
 | Duração do passo | 3–7 dias por nível — os efeitos dos estimulantes tanto no benefício quanto na indução de MPE aparecem rapidamente | C |
 | Resultado principal | Função-per-custo de esforço, não alerta bruto. Um estimulante que gera alerta com MPE é uma perda líquida — a medida de resultado deve ser capaz de identificar essa perda | C |
-| Condições de parada | Indução de MPE num nível → aquele nível está acima da faixa permitida; reduzir a dose, não “passar pelo resto” | C |
+| Condições de parada | Indução de MPE num nível → aquele nível está acima da janela; reduzir a dose, não “passar pelo resto” | C |
 | Observação sobre interação | Documentado no registo principal: combinações de altas doses de estimulantes em EM/SFC não tratado produziram estados semelhantes a excitação/mania — uma consideração absoluta, área de atuação do prescritor | E para a classe de risco |
 
 ---
@@ -147,7 +147,7 @@ Três regras universais antes de qualquer protocolo:
 | Escala de doses | Quarto comprimido (25–50 mg) → metade (100 mg) — iniciar *abaixo* dos 100–200 mg padrão, diferente da dose para a população geral | C |
 | Duração do passo | Provas de um único dia, com intervalo ≥48 h, antes de ensaios de dias consecutivos | C |
 | Resultado principal | Vigilância **e** verificação do MPE no dia seguinte — este medicamento provoca mais o erro de “pegar do amanhã” que a medida de resultado do Ritalin visa identificar | C |
-| Condições de paragem | Ansiedade, sobreestimulação → acima da janela · crise no dia seguinte → a interrupção acumula dívida de MPE; o medicamento está a custar mais do que o que paga | C |
+| Condições de paragem | Ansiedade, sobreestimulação → acima da janela · crise no dia seguinte → o nível acumula dívida de MPE; o medicamento está a custar mais do que o que paga | C |
 
 ---
 
