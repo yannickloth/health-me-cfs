@@ -95,6 +95,12 @@ LABEL_FIXES_ES = {
     "hyperacusis": "Hiperacusia",
 }
 
+LABEL_FIXES_ES.update({
+    "PEM": "Malestar post-esfuerzo (MPE)",
+    "IBS": "SII (síndrome del intestino irritable)",
+    "PTSD": "TEPT (trastorno de estrés postraumático)",
+})
+
 LABEL_FIXES_PT = {
     "OI": "Intolerância ortostática",
     "dysbiosis": "Disbiose",
@@ -142,6 +148,14 @@ LABEL_FIXES_PT = {
     "salience network": "Rede de saliência",
     "phonophobia": "Fonofobia",
 }
+
+LABEL_FIXES_PT.update({
+    "PEM": "Mal-estar pós-esforço (MPE)",
+    "ADHD": "PHDA (Perturbação de Hiperatividade e Défice de Atenção)",
+    "AD(H)D": "PHDA (Perturbação de Défice de Atenção/Hiperatividade)",
+    "PTSD": "PSPT (Perturbação de Stress Pós-Traumático)",
+    "IBS": "SII (síndrome do intestino irritável)",
+})
 
 # Definitions: exact substring replacements. PEM was overwritten with the
 # disease name in ~30 definitions, which changes the medical meaning.
@@ -294,6 +308,14 @@ BR_TO_EP: list[tuple[str, str]] = [
     ("putamênio", "putamen"), ("sistêmica", "sistémica"), ("sistêmico", "sistémico"),
     ("histômica", "histológica"), ("histômico", "histológico"),
     ("estrogênio", "estrogénio"), ("androgênio", "androgénio"),
+    ("estresse", "stress"), ("estresses", "stresses"),
+    ("deficiência", "défice"), ("deficiências", "défices"),
+    # Spanish/Brazilian acronym and drug-family names that leaked into the
+    # Portuguese file; the corpus uses PHDA and noradrenalina.
+    ("TDAH", "PHDA"),
+    ("norepinefrina", "noradrenalina"), ("norepinefrina", "noradrenalina"),
+    ("epinefrina", "adrenalina"),
+    ("reabsorção", "recaptação"), ("Reabsorção", "Recaptação"),
 ]
 
 # Phrase rewrites for the gender-changing pairs, so the article agrees.
@@ -303,6 +325,9 @@ GENDER_FIXES: list[tuple[str, str]] = [
     ("no distúrbio", "na perturbação"), ("nos distúrbios", "nas perturbações"),
     ("um distúrbio", "uma perturbação"), ("uns distúrbios", "umas perturbações"),
     ("ao distúrbio", "à perturbação"), ("aos distúrbios", "às perturbações"),
+    ("a desordem", "a perturbação"), ("as desordens", "as perturbações"),
+    ("uma desordem", "uma perturbação"), ("desordem", "perturbação"),
+    ("desordens", "perturbações"),
     ("distúrbio", "perturbação"), ("distúrbios", "perturbações"),
     ("transtorno", "perturbação"), ("transtornos", "perturbações"),
 ]
