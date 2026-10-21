@@ -37,7 +37,7 @@ A implicação clínica ainda é direta: **um adulto que desenvolve sintomas sem
 
 Nossa pesquisa aborda a relação entre PHDA e fadiga crónica através de três arquiteturas possíveis:
 
-**Arquitetura A — vulnerabilidade compartilhada.** Um fator upstream comum — genético, imunológico ou de desenvolvimento — predispõe uma pessoa a tanto PHDA quanto fadiga crónica de forma independente. A ocorrência conjunta é um artefato de seleção: a mesma vulnerabilidade gera ambos. A arquitetura genética das condições neurodesenvolvimentistas apoia isso: PHDA e autismo compartilham uma grande parte de suas influências genéticas [@Demontis2023GWASadhd @Grove2019GWASasd @CrossDisorderPGC2013].
+**Arquitetura A — vulnerabilidade compartilhada.** Um fator a montante comum — genético, imunológico ou de desenvolvimento — predispõe uma pessoa a tanto PHDA quanto fadiga crónica de forma independente. A ocorrência conjunta é um artefato de seleção: a mesma vulnerabilidade gera ambos. A arquitetura genética das condições neurodesenvolvimentistas apoia isso: PHDA e autismo compartilham uma grande parte de suas influências genéticas [@Demontis2023GWASadhd @Grove2019GWASasd @CrossDisorderPGC2013].
 
 **Arquitetura B — cascata secundária.** O processo da doença — neuroinflamação, depleção dopaminérgica, disfunção autonômica — produz fenótipos neuropsiquiátricos semelhantes à PHDA em pessoas que, de outra forma, não teriam desenvolvido esses sintomas. A PHDA surge *devido à* doença, e não ao lado dela.
 

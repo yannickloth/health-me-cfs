@@ -45,7 +45,7 @@ Si el striatum es el cuello de botella, ¿cómo llegan a él diversos desencaden
 
 **Interrupción del autoanticuerpo.** Autoanticuerpos de GPCR contra receptores adrenérgicos, muscarínicos y dopaminérgicos han sido documentados en un subgrupo de pacientes con EM/SFC [@Loebel2016]. Incluso un acceso a nivel bajo a los órganos circunvalares o a través de una barrera comprometida puede alterar el estado basal de la señalización de dopamina en el striatum.
 
-**Hipoperfusión.** El striatum se encuentra en el extremo distal de los territorios vasculares, lo que lo hace sensible a déficits de perfusión. Cuando el flujo cardíaco disminuye o la autorregulación falla, el striatum pierde la entrega de oxígeno de forma temprana —y el oxígeno es el sustrato limitante en la tasa de ATP que los MSN consumen continuamente.
+**Hipoperfusión.** El striatum se encuentra en el extremo distal de los territorios vasculares, lo que lo hace sensible a déficits de perfusión. Cuando el gasto cardíaco disminuye o la autorregulación falla, el striatum pierde la entrega de oxígeno de forma temprana —y el oxígeno es el sustrato limitante en la tasa de ATP que los MSN consumen continuamente.
 
 Estas vías ocurren simultáneamente. Un paciente post-viral con activación inmune, deterioro mitocondrial y hipoperfusión tiene tres daños independientes que afectan a las mismas neuronas. El cuello de botella se afecta desde múltiples ángulos simultáneamente —por eso la enfermedad es grave y persistente.
 
@@ -66,7 +66,7 @@ Estos objetivos de tratamiento no son específicos para un desencadenante. Se ap
 
 ## La advertencia: especificidad dentro de un sustrato compartido
 
-El enriquecimiento de riesgo en neuronas cerebrales no es único en EM/SFC; muchos trastornos cerebrales lo presentan. Pero los tipos de células específicos difieren: la esquizofrenia enriquece las neuronas de la capa 2/3 cortical, la depresión la capa 5/6, y el trastorno por uso de alcohol las MSN [@Duncan2025cellTypeBrain] — por lo tanto, EM/SFC y AUD, no esquizofrenia ni depresión, son las condiciones que convergen en las MSN. El striatum es un nodo de vulnerabilidad genérico — una región cerebral susceptible a disfunción por muchas causas upstream.
+El enriquecimiento de riesgo en neuronas cerebrales no es único en EM/SFC; muchos trastornos cerebrales lo presentan. Pero los tipos de células específicos difieren: la esquizofrenia enriquece las neuronas de la capa 2/3 cortical, la depresión la capa 5/6, y el trastorno por uso de alcohol las MSN [@Duncan2025cellTypeBrain] — por lo tanto, EM/SFC y AUD, no esquizofrenia ni depresión, son las condiciones que convergen en las MSN. El striatum es un nodo de vulnerabilidad genérico — una región cerebral susceptible a disfunción por muchas causas aguas arriba.
 
 Pero la disfunción debe ser diferente. EM/SFC no es esquizofrenia. La pregunta es: ¿qué específicamente falla en la función de la MSN en EM/SFC? ¿El equilibrio D1/D2? ¿La tasa de activación? ¿La respuesta a la dopamina? ¿La integración de la entrada cortical? La respuesta determina si podemos dirigirnos a la disfunción específica de EM/SFC en lugar de modular de forma general los circuitos del striatum.
 

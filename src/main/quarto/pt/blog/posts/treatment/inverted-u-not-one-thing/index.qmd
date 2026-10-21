@@ -35,7 +35,7 @@ Os dezoito medicamentos compartilham uma forma de curva. Eles não compartilham 
 
 1. **Estado redox.** O sensor Keap1-Nrf2 é sensível ao redox. numa célula com alto estresse oxidativo basal, as cisteínes do Keap1 já estão parcialmente oxidadas — o sensor está pré-carregado, e uma menor perturbação desencadeia a liberação de Nrf2. numa célula com baixo estresse oxidativo basal, o sensor está em estado de repouso, e é necessária uma maior perturbação. Isso significa que a mesma microdose de LDN pode desencadear Nrf2 num paciente com alto estresse oxidativo, mas não conseguir desencadear num paciente com baixo estresse oxidativo.
 
-2. **Carga alostática.** A carga acumulada de estresse crónico — exposição a citocinas, perturbações do sono, estresse metabólico, sinalização de dor — esgota a maquinaria transcripicional necessária para que Nrf2 execute seu programa. O Nrf2 pode se translocar para o núcleo, mas se a capacidade de biosíntese da célula estiver esgotada, os produtos genéticos anti-inflamatórios não são produzidos. Alta carga alostática estreita a janela hormética de ambos os lados: aumenta o limite para desencadear Nrf2 (porque o sensor está desensibilizado) e reduz o limite para a resposta adaptativa (porque os recursos downstream estão esgotados).
+2. **Carga alostática.** A carga acumulada de estresse crónico — exposição a citocinas, perturbações do sono, estresse metabólico, sinalização de dor — esgota a maquinaria transcripicional necessária para que Nrf2 execute seu programa. O Nrf2 pode se translocar para o núcleo, mas se a capacidade de biosíntese da célula estiver esgotada, os produtos genéticos anti-inflamatórios não são produzidos. Alta carga alostática estreita a janela hormética de ambos os lados: aumenta o limite para desencadear Nrf2 (porque o sensor está desensibilizado) e reduz o limite para a resposta adaptativa (porque os recursos a jusante estão esgotados).
 
 3. **Reserva celular de base.** A densidade mitocondrial, a disponibilidade de NAD⁺, a capacidade do proteasoma e a atividade das sirtúnas influenciam se uma célula pode sustentar um programa transcripicional mediado por Nrf2. Baixa reserva significa que a resposta adaptativa é frágil — até mesmo um sinal de Nrf2 corretamente desencadeado pode falhar porque a célula não tem a energia ou a maquinaria para executá-lo. É por isso que o mesmo medicamento, na mesma dose, produz um efeito terapêutico num paciente e uma exacerbação semelhante a estresse em outro: o medicamento é idêntico, mas a infraestrutura celular que recebe o sinal não está presente.
 
@@ -55,7 +55,7 @@ A armadilha é que os dois efeitos são invisíveis para a pessoa que toma a pí
 
 **O mecanismo.** O aripiprazol tem aproximadamente 25% de atividade intrínseca nos recetores D2. A dopamina tem 100% de atividade intrínseca — é o agonista completo. Quando poucos recetores são ocupados pelo aripiprazol, o efeito líquido no sistema é uma ativação adicional: o agonista parcial adiciona ao dopamina endógena presente, aumentando o tom líquido. Quando a maioria dos recetores é ocupada, o aripiprazol bloqueia a ligação da dopamina — e como o aripiprazol ativa o recetor apenas 25% da eficácia da dopamina, o tom líquido diminui. O ponto de inversão é aproximadamente 50% de ocupação.
 
-**Por que não é hormese.** A célula não está a montar uma resposta adaptativa. Não há Nrf2, nenhum programa de transcrição, nenhuma elevação compensatória. A curva é uma consequência direta e instantânea das cinéticas de ligação recetor-ligando — uma propriedade da lei da gravidade, e não uma adaptação biológica. Aplica-se da mesma forma em tubo de ensaio, em voluntário saudável e em paciente com EM/SFC. Não é específico para a doença.
+**Por que não é hormese.** A célula não está a montar uma resposta adaptativa. Não há Nrf2, nenhum programa de transcrição, nenhuma elevação compensatória. A curva é uma consequência direta e instantânea das cinéticas de ligação recetor-ligando — uma propriedade da lei da ação das massas, e não uma adaptação biológica. Aplica-se da mesma forma em tubo de ensaio, em voluntário saudável e em paciente com EM/SFC. Não é específico para a doença.
 
 **A implicação clínica.** O ponto de inversão revela a reserva de recetores D2. Se o benefício inverte-se em 1 mg, o paciente tem poucos recetores D2 funcionais — a contribuição de cada um para o tom líquido é grande, e bloquear uma fração modesta é suficiente para invertê-lo. Se o benefício persiste até 2 mg, a reserva de recetores é ampla. O sinal diagnóstico do invertido-U do LDA refere-se à integridade do sistema de dopamina, e não à capacidade de resposta ao estresse.
 
@@ -134,9 +134,9 @@ As tabelas seguintes fornecem, para cada um dos dezoito medicamentos, uma linha 
 | Faixa de dose | Atividade / efeito | Mecanismo |
 |---------------|-------------------|-----------|
 | 0,25–0,5 mg | Microdose; abaixo do limiar de ativação Nrf2 para a maioria; perturbação transitória do sono | Ação opioide detetável em microdose |
-| 0,5–1,5 mg | **Primerização hormética TLR4/Nrf2** — mudança microglial M1→M2 anti-inflamatória; a principal faixa | Bloqueio parcial TLR4 → aumento de Nrf2 |
+| 0,5–1,5 mg | **cebamento hormético TLR4/Nrf2** — mudança microglial M1→M2 anti-inflamatória; a principal faixa | Bloqueio parcial TLR4 → aumento de Nrf2 |
 | 1,5–3,0 mg | Plataforma de reentrada de endorfinas; benefício preservado | Bloqueio opioide breve durante a noite → produção compensatória de endorfinas |
-| 3,0–4,5 mg | Restauração TRPM3; desinibilação orexina ("wired"); fechamento da faixa TLR4 | Fluxo de Ca²⁺ TRPM3; desinibilação orexina acompanha a dose-resposta TLR4 |
+| 3,0–4,5 mg | Restauração TRPM3; desinibição orexina ("wired"); fechamento da faixa TLR4 | Fluxo de Ca²⁺ TRPM3; desinibição orexina acompanha a dose-resposta TLR4 |
 | >4,5 mg | Nenhum mecanismo terapêutico; todos os ótimos valores passados | Nenhum benefício terapêutico |
 | 50 mg | Antagonismo completo ao mu-opióide — danos | Bloqueio completo ao opioide, sem benefício hormético |
 
@@ -175,7 +175,7 @@ As tabelas seguintes fornecem, para cada um dos dezoito medicamentos, uma linha 
 | 500–1000 mg | Ambos os mecanismos contribuem; 500 mg duas vezes ao dia como estabilizador de mastócitos | COMT + Nrf2 |
 | 1000–2000 mg | Nenhum benefício adicional; inversão de alvo duplo; hipertensão, taquicardia | Excesso da COMT + oxidação auto de catecolaminas pro-oxidantes |
 
-**NAC (N-acéticoetilcisteína)**
+**NAC (N-acetilcisteína)**
 
 | Faixa de dose | Atividade / efeito | Mecanismo |
 |---------------|-------------------|-----------|

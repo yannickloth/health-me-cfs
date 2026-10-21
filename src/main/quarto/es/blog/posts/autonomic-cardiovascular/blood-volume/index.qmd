@@ -25,7 +25,7 @@ Para ponerlo en perspectiva: una donación de sangre requiere aproximadamente el
 
 ---
 
-## Volumen sanguíneo, flujo cardíaco y la cadena energética
+## Volumen sanguíneo, gasto cardíaco y la cadena energética
 
 La conexión entre el volumen sanguíneo y la energía no es complicada:
 
@@ -33,7 +33,7 @@ La conexión entre el volumen sanguíneo y la energía no es complicada:
 
 Los estudios de resonancia magnética cardíaca confirman directamente esta cadena: los pacientes con EM/SFC tienen un volumen enddiastólico reducido en el ventrículo izquierdo (el corazón se llena menos) y un volumen de flujo reducido (cada latido bombea menos), con fuertes correlaciones con el volumen sanguíneo medido [@Newton2016]. De manera crucial, estas reducciones son *desproporcionadas con el nivel de inactividad* — esto no es descondicionamiento. El mismo estudio no encontró relación entre la duración de la enfermedad y los volúmenes cardíacos, excluyendo una disminución física gradual como explicación.
 
-El cerebro se encuentra al final de esta cadena y no tiene lugar para pedir ayuda. El flujo sanguíneo cerebral puede reducirse hasta en un 40% en EM/SFC, impulsado por un bajo flujo cardíaco, disfunción autonómica, volumen sanguíneo reducido y una autorregulación deteriorada que actúan juntas. A diferencia de otros órganos, el cerebro no puede compensar de manera significativa — por eso los pacientes reportan disfunción cognitiva (“niebla cerebral”) y dificultad para concentrarse, y por qué muchos se sienten más agudizados cuando están acostados, ya que el mejorado retorno venoso restaura la perfusión cerebral.
+El cerebro se encuentra al final de esta cadena y no tiene lugar para pedir ayuda. El flujo sanguíneo cerebral puede reducirse hasta en un 40% en EM/SFC, impulsado por un bajo gasto cardíaco, disfunción autonómica, volumen sanguíneo reducido y una autorregulación deteriorada que actúan juntas. A diferencia de otros órganos, el cerebro no puede compensar de manera significativa — por eso los pacientes reportan disfunción cognitiva (“niebla cerebral”) y dificultad para concentrarse, y por qué muchos se sienten más agudizados cuando están acostados, ya que el mejorado retorno venoso restaura la perfusión cerebral.
 
 ---
 

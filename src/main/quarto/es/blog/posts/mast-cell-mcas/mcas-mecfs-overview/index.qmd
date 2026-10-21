@@ -94,7 +94,7 @@ Mucha de la confusión en torno a MCAS proviene de mezclar dos situaciones que *
 
 **EM/SFC con MCAS (la situación de esta serie).** Cuando MCAS se suma a EM/SFC, tres cosas son diferentes:
 
-- **El MCAS suele aparecer más tarde.** Normalmente se detecta *después* de que EM/SFC comenzara, y puede ser un amplificador downstream (ver las advertencias sobre el orden de detección anterior) [@Rohrhofer2025mecfsmast].
+- **El MCAS suele aparecer más tarde.** Normalmente se detecta *después* de que EM/SFC comenzara, y puede ser un amplificador aguas abajo (ver las advertencias sobre el orden de detección anterior) [@Rohrhofer2025mecfsmast].
 - **Tratar los mastocitos trata a un contribuyente.** Si un antihistamínico calma tu enrojecimiento o síntomas ortostáticos, eso significa que *la señalización de histamina contribuía a esos síntomas* — no demuestra por sí solo que los mastocitos eran el causante, y no significa que la fatiga o la falla de energía estén solucionadas [@Castells2024mcasreview].
 - **Un fracaso en un ensayo con mastocitos no significa nada contra tu EM/SFC.** Dado que los mastocitos son solo uno de varios caminos posibles en EM/SFC, y porque un medicamento bloquea solo algunas de las sustancias involucradas, un medicamento que no ayuda es una pista sobre *una medicación en un camino* — no un veredicto sobre si tu enfermedad es real.
 

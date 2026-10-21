@@ -101,7 +101,7 @@ Isso nunca foi testado diretamente. Os dados existem nos registros de hEDS e em 
 
 Um estudo transversal de 2025 com 267 profissionais de cuidados de saúde descobriu que valores mais altos de traços autistas — especificamente a **subescala de reatividade sensorial** — previram sintomas de COVID-19 que duraram mais de 12 semanas [@Raw2025neurodivergencePostCOVID]. Isso foi independente de um diagnóstico formal de autismo.
 
-O achado é dimensional: ele opera num espectro de traços autistas, e não apenas no limite diagnóstico. Sob o modelo de reserva metabólica, qualquer grau de biologia neurodivergente que aumente o consumo de energia neural de base estreita a margem para a absorção de um insulto imunológico.
+O achado é dimensional: ele opera num espectro de traços autistas, e não apenas no limite diagnóstico. Sob o modelo de reserva metabólica, qualquer grau de biologia neurodivergente que aumente o consumo de energia neural de base estreita a margem para a absorção de uma agressão imunológica.
 
 *Limitações: Este é um pequeno estudo transversal que não pode estabelecer causalidade. O design não pode excluir explicações alternativas — traços autistas podem estar correlacionados com diferentes padrões de relato de sintomas, comportamento de busca por cuidados de saúde ou exposições ocupacionais, em vez de vulnerabilidade biológica.*
 

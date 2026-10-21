@@ -25,7 +25,7 @@ Os organismos cujos corpos podiam superar a fadiga, suprimir a dor e mobilizar a
 
 Isso é seleção: o resíduo de milhões de anos em que a capacidade de agir sob pressão foi a diferença entre vida e morte. Carregamos esses genes porque nossos ancestrais que os possuíam sobreviveram.
 
-O resultado é uma fisiologia com uma propriedade notável: **sobreposição de emergência**. Quando a ameaça é aguda — uma queda súbita, uma luta, um sprint pela sobrevivência — o sistema nervoso pode mobilizar recursos normalmente guardados em reserva. Epinefrina inunda o sangue, o glicogénio muscular é mobilizado em segundos, endorfinas suprimem a dor e o cortisol redireciona energia da armazenagem para a ação. Fibras musculares normais são recrutadas a taxas impossíveis durante esforço voluntário. O corpo não pergunta se pode arcar com isso. Simplesmente age.
+O resultado é uma fisiologia com uma propriedade notável: **anulação de emergência**. Quando a ameaça é aguda — uma queda súbita, uma luta, um sprint pela sobrevivência — o sistema nervoso pode mobilizar recursos normalmente guardados em reserva. Epinefrina inunda o sangue, o glicogénio muscular é mobilizado em segundos, endorfinas suprimem a dor e o cortisol redireciona energia da armazenagem para a ação. Fibras musculares normais são recrutadas a taxas impossíveis durante esforço voluntário. O corpo não pergunta se pode arcar com isso. Simplesmente age.
 
 E a fatura? Ela chega mais tarde.
 
@@ -52,11 +52,11 @@ Benjamin Hart descreveu pela primeira vez o comportamento de doença como adapta
 
 ## Quando o empréstimo funciona, mas o pagamento não
 
-No EM/SFC, o mecanismo de sobreposição está intacto.
+No EM/SFC, o mecanismo de anulação está intacto.
 
 Esta é a observação que confundiu muitos observadores e que os pacientes conhecem bem: mesmo com função basal muito baixa, a maioria das pessoas com EM/SFC mantém alguma capacidade de mobilização de emergência. A onda de adrenalina ainda funciona, a supressão da dor ainda ativa, a resposta imediata ao stresse agudo ainda dispara.
 
-A pesquisa confirma isso: uma meta-análise de 2025 sobre a função adrenérgica no EM/SFC encontrou níveis elevados de epinefrina na base e expressão aumentada de recetores adrenérgicos — consistente com um sistema ativado sob stresse crónico. A maquinaria de sobreposição não está apenas intacta; pode estar ativa de forma crónica.
+A pesquisa confirma isso: uma meta-análise de 2025 sobre a função adrenérgica no EM/SFC encontrou níveis elevados de epinefrina na base e expressão aumentada de recetores adrenérgicos — consistente com um sistema ativado sob stresse crónico. A maquinaria de anulação não está apenas intacta; pode estar ativa de forma crónica.
 
 Os pacientes na comunidade de EM/SFC têm um nome para o que isso produz: “agitado, mas cansado” — a experiência desorientadora de sentir urgência e ativação enquanto se está exausto. O sistema de emergência dispara. As reservas de energia normais que são retiradas já estão esgotadas.
 
@@ -79,7 +79,7 @@ Este enquadramento evolutivo resolve um dos mal-entendidos socialmente prejudici
 
 As pessoas observam que alguém com EM/SFC conseguiu participar de um evento, completar uma tarefa e manter uma conversa. Elas concluem que a pessoa não pode estar tão doente como afirmam — porque, se estivesse, não teria conseguido fazer aquilo.
 
-Mas esse raciocínio mal entende a biologia. O mecanismo de sobreposição existe precisamente porque torna a ação possível mesmo quando o organismo está em estado comprometido — e organismos com essa capacidade sobreviveram. Na maior parte da história evolutiva, essa capacidade era exatamente o que animais doentes ou feridos precisavam — para fugir, lutar e voltar para um abrigo — antes de colapsar.
+Mas esse raciocínio mal entende a biologia. O mecanismo de anulação existe precisamente porque torna a ação possível mesmo quando o organismo está em estado comprometido — e organismos com essa capacidade sobreviveram. Na maior parte da história evolutiva, essa capacidade era exatamente o que animais doentes ou feridos precisavam — para fugir, lutar e voltar para um abrigo — antes de colapsar.
 
 A janela funcional durante o esforço não é evidência de capacidade. É evidência de mobilização de emergência. O custo é adiado, não evitado.
 
@@ -87,13 +87,13 @@ A crise que se segue não é fraqueza de início retardado. É a resposta imune 
 
 ---
 
-## No extremo, até mesmo o controle de emergência falha
+## No extremo, até mesmo a anulação de emergência falha
 
-Há um gradiente importante aqui. Para a maioria dos pacientes com EM/SFC, o controle de emergência permanece parcialmente disponível. É por isso que muitos pacientes às vezes conseguem fazer mais do que o que o seu nível de base sugere — e por isso eles sofrem uma crise posteriormente.
+Há um gradiente importante aqui. Para a maioria dos pacientes com EM/SFC, a anulação de emergência permanece parcialmente disponível. É por isso que muitos pacientes às vezes conseguem fazer mais do que o que o seu nível de base sugere — e por isso eles sofrem uma crise posteriormente.
 
-Nos pacientes mais gravemente afetados — aqueles que estão imobilizados na cama, incapazes de tolerar qualquer entrada sensorial, incapazes de se mover sem desencadear uma deterioração imediata — até mesmo este controle de emergência pode estar esgotado. As reservas adrenérgicas que permitem a mobilização de emergência podem estar esgotadas. Este é o ponto final de um sistema que foi cronicamente esgotado: não apenas a recuperação é prejudicada, mas também a capacidade de se mover é perdida.
+Nos pacientes mais gravemente afetados — aqueles que estão imobilizados na cama, incapazes de tolerar qualquer entrada sensorial, incapazes de se mover sem desencadear uma deterioração imediata — até mesmo esta anulação de emergência pode estar esgotada. As reservas adrenérgicas que permitem a mobilização de emergência podem estar esgotadas. Este é o ponto final de um sistema que foi cronicamente esgotado: não apenas a recuperação é prejudicada, mas também a capacidade de se mover é perdida.
 
-Este gradiente — de controle de emergência intacto com recuperação prejudicada, a controle de emergência prejudicado com deterioração catastrófica — corresponde ao espectro de gravidade da EM/SFC de uma maneira que faça sentido biológico. Não é uma doença diferente. É o mesmo sistema de reembolso quebrado, em diferentes estágios de esgotamento.
+Este gradiente — de anulação de emergência intacta com recuperação prejudicada, a anulação de emergência prejudicada com deterioração catastrófica — corresponde ao espectro de gravidade da EM/SFC de uma maneira que faça sentido biológico. Não é uma doença diferente. É o mesmo sistema de reembolso quebrado, em diferentes estágios de esgotamento.
 
 ---
 

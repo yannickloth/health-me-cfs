@@ -172,7 +172,7 @@ Se deben leer las columnas como tres curvas independientes, no como una sola. La
 Considérese que el beneficio que fluye desde un objetivo tiene dos factores necesarios:
 
 - El fármaco debe unirse: en proporción a la fracción ocupada $f$;
-- El programa adaptativo debe ejecutarse: en proporción al señal residual $1-f$, elevado a un exponente de acidez $m \geq 1$ que captura cómo el programa responde de manera sensible a la pérdida de señal.
+- El programa adaptativo debe ejecutarse: en proporción al señal residual $1-f$, elevado a un exponente de pendiente $m \geq 1$ que captura cómo el programa responde de manera sensible a la pérdida de señal.
 
 El producto representa la forma funcional mínima para un mecanismo **hormético e inversor** — aquel cuya acción directa es inhibitoria y cuyo beneficio es una respuesta adaptativa al estrés que se *extingue* cuando la inhibición se completa:
 

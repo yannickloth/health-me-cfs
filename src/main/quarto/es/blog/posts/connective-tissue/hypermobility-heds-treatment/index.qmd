@@ -29,7 +29,7 @@ Este artículo explica la arquitectura de tratamiento. Para el contexto conceptu
 
 ---
 
-## Mecánicos: fisioterapia, apoyos, compresión y la trampa del decondicionamiento y paciendo
+## Mecánicos: fisioterapia, apoyos, compresión y la trampa del descondicionamiento y el pacing
 
 ### El principio de resistencia isométrica
 

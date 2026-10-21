@@ -45,7 +45,7 @@ Se o striatum é o gargalo, como diferentes gatilhos o alcançam? As evidências
 
 **Interrupção do autoanticorpo.** Autoanticorpos GPCR contra recetores adrenérgicos, muscarínicos e dopaminérgicos foram documentados num subgrupo de pacientes com EM/SFC [@Loebel2016]. Mesmo um nível baixo de acesso aos órgãos circunvalares ou através de uma barreira comprometida pode alterar o padrão de sinalização de dopamina no striatum.
 
-**Hipoperfusão.** O striatum está localizado na extremidade distal dos territórios vasculares, o que o torna sensível a déficits de perfusão. Quando a saída cardíaca diminui ou a autorregulação falha, o striatum perde o fornecimento de oxigênio precocemente — e o oxigênio é o substrato limitante da taxa de ATP que os MSN consomem continuamente.
+**Hipoperfusão.** O striatum está localizado na extremidade distal dos territórios vasculares, o que o torna sensível a déficits de perfusão. Quando o débito cardíaco diminui ou a autorregulação falha, o striatum perde o fornecimento de oxigênio precocemente — e o oxigênio é o substrato limitante da taxa de ATP que os MSN consomem continuamente.
 
 Estes caminhos ocorrem em conjunto. Um paciente pós-viral com ativação imune, comprometimento mitocondrial e hipoperfusão tem três agressões independentes que atingem os mesmos neurônios. O gargalo é atingido de múltiplas maneiras simultaneamente — é por isso que a doença é grave e persistente.
 
@@ -66,7 +66,7 @@ Estes alvos de tratamento não são específicos para um gatilho. Eles se aplica
 
 ## A advertência: especificidade dentro de um substrato compartilhado
 
-O enriquecimento de risco em neurônios cerebrais não é exclusivo do EM/SFC; muitos distúrbios cerebrais apresentam isso. No entanto, os tipos de células específicos variam — a esquizofrenia enriquece os neurônios da camada cortical 2/3, a depressão a camada 5/6, e o transtorno por uso de álcool enriquece os MSNs [@Duncan2025cellTypeBrain] — portanto, o EM/SFC e o AUD, e não a esquizofrenia ou a depressão, são os que convergem nos MSNs. O striatum é um nó de vulnerabilidade geral — uma região cerebral suscetível a disfunção devido a muitas causas upstream.
+O enriquecimento de risco em neurônios cerebrais não é exclusivo do EM/SFC; muitos distúrbios cerebrais apresentam isso. No entanto, os tipos de células específicos variam — a esquizofrenia enriquece os neurônios da camada cortical 2/3, a depressão a camada 5/6, e o transtorno por uso de álcool enriquece os MSNs [@Duncan2025cellTypeBrain] — portanto, o EM/SFC e o AUD, e não a esquizofrenia ou a depressão, são os que convergem nos MSNs. O striatum é um nó de vulnerabilidade geral — uma região cerebral suscetível a disfunção devido a muitas causas a montante.
 
 Mas a disfunção deve ser diferente. O EM/SFC não é esquizofrenia. A pergunta é: o que especificamente falha na função dos MSNs no EM/SFC? O equilíbrio D1/D2? A taxa de disparo? A resposta de dopamina? A integração de entrada cortical? A resposta determina se podemos atingir a disfunção específica do EM/SFC em vez de modular amplamente os circuitos do striatum.
 
@@ -74,7 +74,7 @@ Mas a disfunção deve ser diferente. O EM/SFC não é esquizofrenia. A pergunta
 
 ## Uma previsão falsificável
 
-O modelo do gargalo faz uma previsão clara: se a disfunção do striatum é o ponto de partida comum, as intervenções que melhoram a sinalização de dopamina no striatum devem melhorar os sintomas, independentemente do tipo de gatilho. Se um tratamento funciona apenas em casos pós-infecciosos e não em casos de início gradual, a hipótese de convergência é enfraquecida. Se funciona em todos os tipos de gatilho, o modelo do gargalo é fortalecido. Isso é testável.
+O modelo do gargalo faz uma previsão clara: se a disfunção do striatum é o ponto final comum, as intervenções que melhoram a sinalização de dopamina no striatum devem melhorar os sintomas, independentemente do tipo de gatilho. Se um tratamento funciona apenas em casos pós-infecciosos e não em casos de início gradual, a hipótese de convergência é enfraquecida. Se funciona em todos os tipos de gatilho, o modelo do gargalo é fortalecido. Isso é testável.
 
 Nada na ciência é comprovado por uma única previsão. Mas um modelo que não gera previsões falsificáveis não é um modelo — é uma história. O modelo do gargalo é testável. Deve ser testado antes de ser acreditado.
 

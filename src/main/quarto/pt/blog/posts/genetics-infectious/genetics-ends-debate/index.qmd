@@ -67,7 +67,7 @@ As implicações na alocação de recursos são claras:
 
 **Neuroimagem** — imagem funcional e estrutural do estriado, do circuito dos gânglios da base e das vias de dopamina — torna-se a área de pesquisa não genética de maior prioridade. Se a genética indica neurónios, precisamos ver o que esses neurónios fazem em tempo real, nos pacientes.
 
-**Metabolómica do LCR** — particularmente metabólitos de neurotransmissores, produtos da renovação de dopamina e intermediários de sinalização do estriado — torna-se mais informativo do que os painéis de citocinas no sangue. O fluxo descendente está no sangue; o fluxo ascendente está no LCR.
+**Metabolómica do LCR** — particularmente metabólitos de neurotransmissores, produtos da renovação de dopamina e intermediários de sinalização do estriado — torna-se mais informativo do que os painéis de citocinas no sangue. O fluxo a jusante está no sangue; o fluxo a montante está no LCR.
 
 **Interrogação do circuito estriado** — utilizando técnicas da neurologia de distúrbios do movimento (estimulação magnética transcraniana, imagem de fonte EEG, análise de conectividade funcional aplicada aos gânglios da base) — deve ser aplicada diretamente.
 
@@ -87,11 +87,11 @@ O campo da EM/SFC precisa de um GWAS com cinquenta mil pessoas. Esse número é 
 
 | Afirmação | Certeza |
 |-------|-----------|
-| Variantes de risco genético de EM/SFC são mais abundantes no tecido cerebral (neurónios) do que nas células imunitárias | Muito alta — descoberta primária de GWAS, estatisticamente robusta |
-| Neurónios espinhosos médios são o tipo de célula mais abundante | Moderada — de uma análise de tipo de célula pós-GWAS (preprint), dependente do atlas de referência; não vem do próprio GWAS |
-| Isso exclui a disfunção imunológica primária geneticamente | Alta — a abundância de células imunitárias está ausente, apesar de poder adequado |
+| Variantes de risco genético de EM/SFC são mais enriquecidas no tecido cerebral (neurónios) do que nas células imunitárias | Muito alta — descoberta primária de GWAS, estatisticamente robusta |
+| Neurónios espinhosos médios são o tipo de célula mais enriquecido | Moderada — de uma análise de tipo de célula pós-GWAS (preprint), dependente do atlas de referência; não vem do próprio GWAS |
+| Isso exclui a disfunção imunológica primária geneticamente | Alta — o enriquecimento imunitário está ausente, apesar de poder adequado |
 | Isso estabelece o cérebro como o local de origem primário da doença | Moderada — a genética aponta para o cérebro; requer evidências convergentes de estudos funcionais |
-| A abundância de neurónios espinhosos striatais é específica para EM/SFC | Desconhecida — outras doenças cerebrais abrangem outros tipos de células; a sobreposição com AUD é plausível, mas a convergência entre EM/SFC e AUD não foi replicada |
+| O enriquecimento de neurónios espinhosos striatais é específico para EM/SFC | Desconhecida — outras doenças cerebrais abrangem outros tipos de células; a sobreposição com AUD é plausível, mas a convergência entre EM/SFC e AUD não foi replicada |
 | A genética altera a prática clínica | Baixa — ainda não há teste de diagnóstico ou alvo de tratamento a partir desta descoberta |
 | Aplicado a 50K+ casos, identificar-se-iam vias perturbadas específicas | Moderada-alta — baseado no progresso análogo na genética psiquiátrica |
 

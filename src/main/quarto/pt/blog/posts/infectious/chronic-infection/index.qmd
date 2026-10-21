@@ -45,7 +45,7 @@ A ALR explica o sinal imunológico — altos anticorpos contra antígenos lític
 
 A dUTPase é uma enzima de herpesvírus conservada que converte dUTP em dUMP, impedindo a incorporação errada de uracila no DNA viral. É também um potente **padrão molecular associado a patógenos (PAMP)** — o sistema imunitário inato reconhece a dUTPase através do TLR2 e desencadeia a produção de citocinas impulsionada por NF-κB. As dUTPases do EBV (BLLF3), HHV-6 (U45), VZV (ORF8) e CMV são estruturalmente suficientemente semelhantes que um vírus reativado pode produzir uma dUTPase que estimule a resposta imunitária a outro — uma base mecânica para a co-reativação de vários herpesvírus [@Cox2022dUTPaseMECFS].
 
-A dUTPase do EBV também ativa NF-κB nos mastócitos, o que impulsiona a expressão da MMP-9. Esta é a ponte entre a história da reativação viral e a história da degradação do tecido conjuntivo abordada nos artigos sobre hipermobilidade: um herpesvírus reativado produz uma proteína (dUTPase) que orienta os mastócitos a liberar uma enzima (MMP-9) que degrada colágeno e abre a barreira hematoencefálica. O vírus não está no cérebro. Mas seus produtos downstream chegam lá.
+A dUTPase do EBV também ativa NF-κB nos mastócitos, o que impulsiona a expressão da MMP-9. Esta é a ponte entre a história da reativação viral e a história da degradação do tecido conjuntivo abordada nos artigos sobre hipermobilidade: um herpesvírus reativado produz uma proteína (dUTPase) que orienta os mastócitos a liberar uma enzima (MMP-9) que degrada colágeno e abre a barreira hematoencefálica. O vírus não está no cérebro. Mas seus produtos a jusante chegam lá.
 
 ### EBV→mastócito→MMP-9: o caminho em números
 

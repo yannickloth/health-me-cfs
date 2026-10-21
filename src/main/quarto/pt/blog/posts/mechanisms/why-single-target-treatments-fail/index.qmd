@@ -37,7 +37,7 @@ Quando dois parâmetros são restaurados simultaneamente para o atrator grave, a
 
 Dois pares têm sucesso: restauração da atividade do complexo I combinada com reversão da metilação epigenética, e desativação em modo seguro combinada com reversão da metilação epigenética.
 
-Esse padrão não é acidental. Ambos os pares bem-sucedidos combinam uma intervenção que gera energia com a reversão epigenética. No atrator grave, a consolidação epigenética aprofundou o domínio da doença a tal ponto que a restauração de qualquer subsistema individual deixa os outros presos na paisagem de parâmetros epigeneticamente modificados — o registo epigenético continua a codificar o estado da doença mesmo quando a sinalização upstream muda. A reversão epigenética, removendo essa codificação, acaba por ser um pré-requisito para o escape em todos os pares bem-sucedidos; nem a restauração de energia sozinha nem a reversão epigenética sozinha consegue isso, mas ambas juntas sim [Ch. 33 §Conjuntos Mínimos de Intervenção].
+Esse padrão não é acidental. Ambos os pares bem-sucedidos combinam uma intervenção que gera energia com a reversão epigenética. No atrator grave, a consolidação epigenética aprofundou o domínio da doença a tal ponto que a restauração de qualquer subsistema individual deixa os outros presos na paisagem de parâmetros epigeneticamente modificados — o registo epigenético continua a codificar o estado da doença mesmo quando a sinalização a montante muda. A reversão epigenética, removendo essa codificação, acaba por ser um pré-requisito para o escape em todos os pares bem-sucedidos; nem a restauração de energia sozinha nem a reversão epigenética sozinha consegue isso, mas ambas juntas sim [Ch. 33 §Conjuntos Mínimos de Intervenção].
 
 ---
 

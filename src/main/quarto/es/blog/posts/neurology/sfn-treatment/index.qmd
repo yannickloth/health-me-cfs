@@ -57,7 +57,7 @@ Si el bucle tryptasa→PAR2→sensibilización nerviosa está activo — y en el
 
 Para referencia: **cromoglicato de sodio** se toma por vía oral a **200 mg cuatro veces al día** antes de las comidas y antes de dormir; **ketotifeno** se toma a **1 mg dos veces al día** (a menudo se comienza con 1 mg antes de dormir porque es sedante, y luego se aumenta a dos veces al día). Ambos se tratan en el artículo de tratamiento de MCAS y deben ser supervisados por un médico. La sedación del ketotifeno es un obstáculo práctico en EM/SFC: comenzar con una dosis baja y programar las dosis para evitar un empeoramiento de la niebla cerebral durante el día.
 
-La justificación es de origen upstream: en lugar de bloquear la señal de dolor después de que el nervio haya sido sensibilizado (gabapentina, SNRI), estabilizar los mastocitos impide que liberen tryptasa desde el principio, rompiendo el bucle de autoamplificación. El tratamiento se describe en detalle en el [artículo de tratamiento de MCAS](../../mast-cell-mcas/antihistamines-mcas-mecfs-treatment/index.qmd). La evidencia específica para SFN es indirecta — la prevalencia del 80% de casos de SFN en trastornos de mastocitos y el mecanismo de PAR2 — pero la intervención es de bajo riesgo en el subgrupo positivo de MCAS y es mecanísticamente coherente.
+La justificación es de origen aguas arriba: en lugar de bloquear la señal de dolor después de que el nervio haya sido sensibilizado (gabapentina, SNRI), estabilizar los mastocitos impide que liberen tryptasa desde el principio, rompiendo el bucle de autoamplificación. El tratamiento se describe en detalle en el [artículo de tratamiento de MCAS](../../mast-cell-mcas/antihistamines-mcas-mecfs-treatment/index.qmd). La evidencia específica para SFN es indirecta — la prevalencia del 80% de casos de SFN en trastornos de mastocitos y el mecanismo de PAR2 — pero la intervención es de bajo riesgo en el subgrupo positivo de MCAS y es mecanísticamente coherente.
 
 ---
 
@@ -73,7 +73,7 @@ Si el dolor es generalizado o la lidocaína es insuficiente, añade gabapentina 
 
 Si la biopsia muestra SFN no dependiente de la longitud y los medicamentos orales han fallado, discute IVIG con un neurólogo: 0,4 g/kg diario durante 5 días, luego 0,4 g/kg cada 3–4 semanas. Reevalua a los 6 meses. **Detén el tratamiento si no hay mejoría** — un ensayo nulo de IVIG de 6 meses es suficiente evidencia de que la terapia de inmunoglobulinas no es la solución adecuada.
 
-Si está presente MCAS (sobreexcitación, urticaria, síntomas de histamina), añade estabilizadores de mastocitos (cromoglicato, ketotifeno) como complemento — atacan el circuito tryptasa→PAR2 upstream de los medicamentos analgésicos, pero no son un sustituto de la escala de dolor neuropático.
+Si está presente MCAS (rubor, urticaria, síntomas de histamina), añade estabilizadores de mastocitos (cromoglicato, ketotifeno) como complemento — atacan el circuito tryptasa→PAR2 aguas arriba de los medicamentos analgésicos, pero no son un sustituto de la escala de dolor neuropático.
 
 Añade solo una intervención a la vez. La polifarmacia antes de la evaluación de monoterapia hace imposible saber qué ayudó.
 

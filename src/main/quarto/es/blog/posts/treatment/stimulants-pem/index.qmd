@@ -57,7 +57,7 @@ Cuando un estimulante oculta la señal de fatiga y permite que el paciente traba
 
 ## ¿Hasta qué profundidad puede llegar?
 
-La gravedad de la crisis depende de hasta dónde se aleja el paciente dla envolvente energética. Esto produce un espectro:
+La gravedad de la crisis depende de hasta dónde se aleja el paciente de la envolvente energética. Esto produce un espectro:
 
 **Leve**: fatiga retrasada y empeoramiento cognitivo 24–48 horas después de la actividad estimulante, que se resuelve en pocos días. Es el resultado más común con un uso moderado de esfuerzo.
 
@@ -81,7 +81,7 @@ La farmacología es importante. Los diferentes estimulantes imponen riesgos dist
 
 **Metilfenidato** (Ritalin, Concerta) es un inhibidor de reabsorción — mantiene las catecolaminas en la sinapsis durante más tiempo sin forzar su liberación. No agota los almacenes como lo hacen las anfetaminas, pero aumenta el gasto energético de cuerpo entero en aproximadamente un 7 %; el cuerpo quema *más* energía mientras se toma la droga. El uso crónico puede dañar la función mitocondrial en el hipocampo. Para una enfermedad definida por una producción de energía deteriorada, una droga que aumente el gasto energético mientras daña las mitocondrias es precisamente la farmacología incorrecta.
 
-**Modafinilo** (Provigil) tiene el perfil más complejo. Es un débil inhibidor del transportador de dopamina con efectos de estimulación multiobjetivo — modulación de histamina, orexina, glutamato y GABA. De manera única entre los estimulantes, hay evidencia de que puede aumentar la producción de ATP cerebral y reducir el estrés oxidativo a nivel neuronal. No suprime el sueño profundo. No causa hiperconciencia por rebote. Sus efectos inmunitarios parecen antiinflamatorios en lugar de dañinos. Pero su vida media de 12–15 horas significa que el ocultamiento de la fatiga se extiende mucho más allá del día de administración; un paciente que tome modafinilo el lunes puede seguir teniendo niveles farmacológicamente activos el miércoles. Y el único ensayo controlado aleatorizado con modafinilo en EM/SFC (n=14) no encontró mejoría en la fatiga ni en la calidad de vida en comparación con el placebo.
+**Modafinilo** (Provigil) tiene el perfil más complejo. Es un débil inhibidor del transportador de dopamina con efectos de estimulación multiobjetivo — modulación de histamina, orexina, glutamato y GABA. De manera única entre los estimulantes, hay evidencia de que puede aumentar la producción de ATP cerebral y reducir el estrés oxidativo a nivel neuronal. No suprime el sueño profundo. No causa hipersomnolencia por rebote. Sus efectos inmunitarios parecen antiinflamatorios en lugar de dañinos. Pero su vida media de 12–15 horas significa que el ocultamiento de la fatiga se extiende mucho más allá del día de administración; un paciente que tome modafinilo el lunes puede seguir teniendo niveles farmacológicamente activos el miércoles. Y el único ensayo controlado aleatorizado con modafinilo en EM/SFC (n=14) no encontró mejoría en la fatiga ni en la calidad de vida en comparación con el placebo.
 
 **Solriamfetol** (Sunosi) es una droga más reciente — un inhibidor puro de reabsorción de dopamina/noradrenalina sin actividad liberadora. El único ensayo controlado aleatorizado positivo en EM/SFC pertenece a esta droga: un ensayo de 2025 (n=38) mostró una mejoría significativa en la gravedad de la fatiga y la función ejecutiva. Pero el ensayo no medió MPE — el síntoma cardinal. Hasta que lo haga, la misma advertencia se aplica.
 
@@ -125,6 +125,6 @@ Si el coste es una crisis proporcional que el paciente ha presupuestado y puede 
 
 Si el coste es una disminución progresiva en la función base — un descenso lento, posible gracias a los estimulantes, de moderada a grave y muy grave EM/SFC — entonces el compromiso es catastrófico. Y nadie puede predecir de antemano qué resultado ocurrirá, porque la investigación nunca se ha realizado.
 
-El mayor estudio de pacientes con EM/SFC encontró que el ajuste de ritmo — mantenerse dentro dla envolvente energética — tuvo la puntuación neta positiva más alta de todos los tratamientos: el 75,2%. Más que cualquier medicina. Más que cualquier estimulante.
+El mayor estudio de pacientes con EM/SFC encontró que el ajuste de ritmo — mantenerse dentro de la envolvente energética — tuvo la puntuación neta positiva más alta de todos los tratamientos: el 75,2%. Más que cualquier medicina. Más que cualquier estimulante.
 
 La fatiga aquí es una luz de advertencia; apagarla no resuelve el déficit que señala.

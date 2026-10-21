@@ -79,7 +79,7 @@ Dado que esta hipótesis es mecanicista, hace predicciones específicas y falsif
 1. Los pacientes con fatiga crónica que también padecen TDAH muestran **menor translocación nuclear de Nrf2** en sus células mononucleares de sangre periférica en comparación con los pacientes con fatiga crónica sin TDAH.
 2. **Marcadores de inflamasoma NLRP3** (IL-1-beta, actividad caspase-1) están elevados en el grupo comórbido en relación con la fatiga crónica por sí sola.
 3. **Intervenciones que activan Nrf2** (sulforafano, dimetil fumarato) mejoran tanto los síntomas de TDAH como la fatiga en el grupo comórbido.
-4. **Polimorfismos en el promotor Nrf2** predican la gravedad de la fatiga postinfecciosa en cohortes de TDAH.
+4. **Polimorfismos en el promotor Nrf2** predicen la gravedad de la fatiga postinfecciosa en cohortes de TDAH.
 5. **La exposición a estimulantes provoca inflamación en el grupo comórbido:** el análisis de dopamina-quinona de nuestro artículo predice que los estimulantes (que aumentan la dopamina y aceleran su oxidación a quinones) aumentarían IL-1-beta a través de NLRP3 en cultivos de células sanguíneas de pacientes con TDAH y comorbilidad, y que este efecto sería bloqueado por agonistas de Nrf2 o inhibidores de NLRP3. Esto también refuerza la advertencia de que los estimulantes no son una excusa en este grupo —una predicción sobre un mecanismo que podría contribuir al empeoramiento post-exercicio.
 
 Cada predicción puede ser verificada con ensayos existentes y cohortes actuales. Ninguno ha sido realizado.

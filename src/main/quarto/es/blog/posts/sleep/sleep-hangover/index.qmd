@@ -127,7 +127,7 @@ El sistema glifático no está siempre activo; opera preferentemente durante el 
 
 **Restricción de luz por la noche.** Atenuar las luces y usar gafas de tono ámbar o filtros de luz azul en las pantallas 2 horas antes de acostarse evita la supresión de la melatonina, lo que retrasaría el inicio del sueño y desplazaría la ventana para el sueño de ondas lentas más tarde en la noche.
 
-### Gestión de síntomas downstream: Reducir la carga
+### Gestión de síntomas aguas abajo: Reducir la carga
 
 Estas intervenciones no solucionan directamente la falla glifática, pero reducen la carga adicional que empeora los síntomas matutinos cuando el equipo de limpieza ya ha fallado.
 

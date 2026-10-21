@@ -66,7 +66,7 @@ En EM/SFC, varios hallazgos indican la participación de HHV-6:
 
 - **miR-aU14 se encuentra con las mitocondrias.** HHV-6 codifica un microRNA, miR-aU14, que inhibe la familia de miR-30 del huésped. La miR-30 normalmente suprime p53 y DRP1; eliminar esa inhibición activa la translocación de DRP1 dependiente de p53 a las mitocondrias, causando **fragmentación mitocondrial**. El virus no infecta directamente las mitocondrias. Envía un microRNA que indica a la célula que rompa sus propias mitocondrias [@Schreiner2020HHV6MitoME].
 - **Invasión neurotrópica postmortem.** La miR-aU14 de HHV-6 se encontró en el plexo coroidal, el hipocampo, la amígdala y los ganglios radiculares dorsales de pacientes con EM/SFC en la autopsia —y estaba ausente en 24 controles. El número de muestras fue n=3, por lo que este es un hallazgo, no un hecho establecido. Pero coloca ácido nucleico viral en las regiones cerebrales exactas implicadas en los síntomas cognitivos, autonómicos y sensoriales de EM/SFC.
-- **Prevalencia.** La HHV-6 latente o persistente ha sido reportada en alrededor del 47% de pacientes con EM/SFC en comparación con aproximadamente el 10% de los controles en algunos estudios (cifras de estudio único; los rumbos varían según el análisis y la definición).
+- **Prevalencia.** La HHV-6 latente o persistente ha sido reportada en alrededor del 47% de pacientes con EM/SFC en comparación con aproximadamente el 10% de los controles en algunos estudios (cifras de estudio único; los rangos varían según el análisis y la definición).
 
 ---
 

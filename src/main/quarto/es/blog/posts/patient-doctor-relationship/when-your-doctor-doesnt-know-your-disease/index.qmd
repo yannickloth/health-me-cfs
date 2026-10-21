@@ -48,7 +48,7 @@ Esta es la parte que debe expresarse de manera clara, porque los riesgos son may
 La espiral se presenta así:
 
 1. Describes los síntomas. El médico escucha la fatiga; tú escuchas un rechazo.
-2. Investiga más, para ser más convincente la próxima vez.
+2. Investigas más, para ser más convincente la próxima vez.
 3. Llegas armado — documentos, diagnósticos, mecanismos. El médico interpreta esto como "autodiagnóstico en internet" y se vuelve *más* despectivo, no menos.
 4. Te sientes invalidado y no creído — la experiencia documentada en EM/SFC y atención para Long Covid [@Buchner2025Psychologization; @Clutterbuck2024BarriersStigmaLC].
 5. Tu confianza disminuye. Investigas más. Vuelves con más fuerza para convencer.
@@ -102,7 +102,7 @@ Tienes años de acumulación. El médico tiene doce minutos. Una lista de cinco 
 
 ### 5. Pide la decisión, no el acuerdo
 
-Antes de la visita, decide qué es lo que realmente necesitas. Generalmente no es "el médico está de acuerdo que TRPM3 sea importante". Es un ensayo de un medicamento, una derivación, un test, una carta. Forma la solicitud al nivel de la decisión: "Si no podemos descartar esto, ¿me referirías a un cardiólogo para un test de inclinación?" Los médicos dicen sí y no a decisiones todo el día. Pedirles que primero admitan un mecanismo es pedir algo que no pueden dar honestamente — y la negación se recordará como conflicto, mientras que la concesión no habría cambiado nada en tu próximo paso.
+Antes de la visita, decide qué es lo que realmente necesitas. Generalmente no es "el médico está de acuerdo que TRPM3 sea importante". Es un ensayo de un medicamento, una derivación, un test, una carta. Forma la solicitud al nivel de la decisión: "Si no podemos descartar esto, ¿me derivarías a un cardiólogo para un test de inclinación?" Los médicos dicen sí y no a decisiones todo el día. Pedirles que primero admitan un mecanismo es pedir algo que no pueden dar honestamente — y la negación se recordará como conflicto, mientras que la concesión no habría cambiado nada en tu próximo paso.
 
 ### 6. Lleva registros de datos, no conclusiones
 
@@ -115,7 +115,7 @@ Si traes algo que el médico no sabe, construye la frase de tal manera que *su* 
 - "Esto está fuera de lo que normalmente vemos — por eso quiero que analices esto."
 - "Tú conoces mi situación completa; yo solo conozco este artículo. ¿Se encajan?"
 
-Ambos saben que existe una brecha en la literatura. Nominarlo como *complementario* — tu profundidad, su amplitud — convierte la asimetría en colaboración. Los médicos generales que atendieron a pacientes informados mejor en los estudios cualitativos hicieron exactamente esto al reenfocar [@Ahluwalia2010Heartbeat].
+Ambos saben que existe una brecha en la literatura. Nombrarlo como *complementario* — tu profundidad, su amplitud — convierte la asimetría en colaboración. Los médicos generales que atendieron a pacientes informados mejor en los estudios cualitativos hicieron exactamente esto al reenfocar [@Ahluwalia2010Heartbeat].
 
 ### 8. Previene el patrón de coincidencia psiquiátrica
 

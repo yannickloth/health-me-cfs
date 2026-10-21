@@ -95,6 +95,6 @@ O H₂S proveniente da disbiose intestinal conecta três pilares da fisiopatolog
 
 Isto não é uma metáfora vaga de “eixo intestino-cérebro”. É uma molécula específica, produzida por bactérias específicas, que inibe um complexo enzimático específico, através de um mecanismo de ligação específico, com consequências específicas na produção de energia, integridade intestinal e ativação imunitária. Cada etapa é caracterizada bioquimicamente. Cada etapa, em princípio, pode ser alvo de intervenção.
 
-Para o paciente com EM/SFC que tentou “tudo” — CoQ10, carnitina, vitaminas B, dietas anti-inflamatórias — e não melhorou: alguém verificou se as suas bactérias intestinais estão a produzir a própria toxina que torna todas essas intervenções irrelevantes? Se o Complexo IV for inibido de forma crónica pelo H₂S, nenhum apoio de cofator upstream será capaz de restaurar a produção de ATP necessária para o paciente. É preciso parar o veneno antes de poder reparar o motor [@Loth2026website].
+Para o paciente com EM/SFC que tentou “tudo” — CoQ10, carnitina, vitaminas B, dietas anti-inflamatórias — e não melhorou: alguém verificou se as suas bactérias intestinais estão a produzir a própria toxina que torna todas essas intervenções irrelevantes? Se o Complexo IV for inibido de forma crónica pelo H₂S, nenhum apoio de cofator a montante será capaz de restaurar a produção de ATP necessária para o paciente. É preciso parar o veneno antes de poder reparar o motor [@Loth2026website].
 
 ---

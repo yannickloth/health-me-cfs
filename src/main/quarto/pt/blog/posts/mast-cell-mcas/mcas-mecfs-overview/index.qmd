@@ -49,7 +49,7 @@ Muitas pessoas pensam que “reação alérgica” requer um alérgeno. Essa é 
 
 Os mastócitos têm outros gatilhos pré-instalados:
 
-- **Hormônios de estresse.** O hormônio liberador de corticotrofina (CRH), liberado quando você está estressado, pode ativar diretamente os mastócitos, incluindo os no tálamo [@Theoharides2024ANS]. Não interprete isso de forma exagerada: mostra que existe uma ligação estresse→mastócito no nível celular; no entanto, não indica que essa cadeia é a causa dos sintomas de sono ou energia em pacientes com EM/SFC.
+- **Hormônios de estresse.** O hormônio liberador de corticotrofina (CRH), liberado quando você está estressado, pode ativar diretamente os mastócitos, incluindo os no hipotálamo [@Theoharides2024ANS]. Não interprete isso de forma exagerada: mostra que existe uma ligação estresse→mastócito no nível celular; no entanto, não indica que essa cadeia é a causa dos sintomas de sono ou energia em pacientes com EM/SFC.
 - **Sinais nervosos.** O neuropeptídeo *substância P* — liberado pelos nervos sensoriais — pode desgranular os mastócitos através de um receptor chamado MRGPRX2, sem o envolvimento de anticorpos em absoluto [@Thapaliya2022mrgprx2neuro].
 - **Fragmentos do complemento.** Partes do sistema imunológico-complemento, que atacam invasores, também podem ativar os mastócitos [@EliehAliKomi2020complement].
 
@@ -94,7 +94,7 @@ Muita confusão em torno do MCAS vem da mistura de duas situações que *geralme
 
 **EM/SFC com MCAS (a situação sobre a qual esta série fala).** Quando o MCAS se assenta sobre a EM/SFC, três coisas são diferentes:
 
-- **O MCAS geralmente surge mais tarde.** Normalmente é detectado *depois* que a EM/SFC começou, e pode ser um amplificador downstream (veja as advertências sobre a ordem de deteção acima) [@Rohrhofer2025mecfsmast].
+- **O MCAS geralmente surge mais tarde.** Normalmente é detectado *depois* que a EM/SFC começou, e pode ser um amplificador a jusante (veja as advertências sobre a ordem de deteção acima) [@Rohrhofer2025mecfsmast].
 - **Tratar os mastócitos trata um único fator.** Se um anti-histamínico acalma o rubor ou os sintomas ortostáticos, isso indica que *a sinalização de histamina contribuía para esses sintomas* — isso **não** prova por si só que os mastócitos eram o motor, e também não significa que a fadiga ou a falha de energia estão resolvidas [@Castells2024mcasreview].
 - **Um fracasso do teste com mastócitos não diz nada contra a sua EM/SFC.** Como os mastócitos são apenas um dos vários caminhos possíveis na EM/SFC, e como um medicamento bloqueia apenas alguns dos produtos químicos envolvidos, um medicamento que não ajuda é uma pista sobre *uma medicação num caminho* — não um veredito sobre se a sua doença é real.
 

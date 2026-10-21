@@ -144,7 +144,7 @@ Las siguientes tablas proporcionan, para cada uno de los dieciocho medicamentos,
 
 | Banda de dosis | Actividad / efecto | Mecanismo |
 |-----------|-------------------|-----------|
-| 0,3–1,0 mg | Activación de Nrf2; predice amplios rumbos de LDN/sulforafano | Inhibición parcial de GSK-3β de represión de Nrf2 |
+| 0,3–1,0 mg | Activación de Nrf2; predice amplias ventanas de LDN/sulforafano | Inhibición parcial de GSK-3β de represión de Nrf2 |
 | 1,0–5,0 mg | Rango hormético estándar; ~2 mg propuesto como prueba diaria | Inhibición de GSK-3β; inhibición de IMPase comienza en el extremo superior |
 | 5–15 mg | Beneficio solo aquí → mecanismo no Nrf2/GSK-3β; entorpecimiento cognitivo, cambios en la tiroides | Inhibición de IMPase / depleción de inositol |
 | 900–1200 mg/día | Estabilización del estado de ánimo psiquiátrico estándar; suero 0,6–1,2 mEq/L | Completa inhibición de GSK-3β + inhibición de IMPase + modulación de neurotransmisores |
@@ -175,7 +175,7 @@ Las siguientes tablas proporcionan, para cada uno de los dieciocho medicamentos,
 | 500–1000 mg | Ambos mecanismos contribuyen; 500 mg dos veces al día como estabilizador de mastocitos | COMT + Nrf2 |
 | 1000–2000 mg | No hay beneficio adicional; inversión de objetivos duales; hipertensión, taquicardia | Exceso de COMT + oxidación autónoma de catecolaminas pro-oxidantes |
 
-**NAC (N-acético sulfato de cisteína)**
+**NAC (N-acetilcisteína)**
 
 | Rango de dosis | Actividad / efecto | Mecanismo |
 |-----------|-------------------|-----------|
@@ -304,9 +304,9 @@ Las siguientes tablas proporcionan, para cada uno de los dieciocho medicamentos,
 
 La implicación terapéutica del U invertido depende completamente de la categoría a la que pertenezca el medicamento.
 
-Para los medicamentos de hormesis Nrf2, el ancho del rango mide la capacidad de respuesta al estrés. Se predice que un paciente con un rango LDN estrecho tendrá rumbos estrechos para el sulfurofano, la melatonina y el litio, ya que todos convergen en la misma vía Keap1-Nrf2. Esta predicción es verificable.
+Para los medicamentos de hormesis Nrf2, el ancho del rango mide la capacidad de respuesta al estrés. Se predice que un paciente con un rango LDN estrecho tendrá ventanas estrechas para el sulfurofano, la melatonina y el litio, ya que todos convergen en la misma vía Keap1-Nrf2. Esta predicción es verificable.
 
-Para el U invertido de catecolaminas, el punto de inversión mide el tono basal de catecolaminas en el prefrontal. Se predice que un paciente con un rango de modafinilo estrecho tendrá rumbos estrechos para la duloxetina y la guanfacina, ya que todos convergen en el mismo circuito D1/α2A. La predicción es verificable y es mecanísticamente independiente de la predicción Nrf2.
+Para el U invertido de catecolaminas, el punto de inversión mide el tono basal de catecolaminas en el prefrontal. Se predice que un paciente con un rango de modafinilo estrecho tendrá ventanas estrechas para la duloxetina y la guanfacina, ya que todos convergen en el mismo circuito D1/α2A. La predicción es verificable y es mecanísticamente independiente de la predicción Nrf2.
 
 Para el U invertido de agonistas parciales, el punto de inversión mide la reserva de receptores, una propiedad estructural del sistema dopamínico, no del sistema de respuesta al estrés.
 

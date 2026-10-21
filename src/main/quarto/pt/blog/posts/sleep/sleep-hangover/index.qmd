@@ -81,7 +81,7 @@ A falha na depuração glifática deixa os mediadores inflamatórios no cérebro
 
 ## O que seria necessário para quebrar o ciclo?
 
-Se a depuração glifática pudesse ser restaurada — por meio de uma melhoria na qualidade do sono de ondas lentas, normalização da função AQP4 ou redução da noradrenalina noturna — as consequências downstream seriam reais. Menos resíduo metabólico significa menos ativação de microglia, o que resulta em uma melhor arquitetura do sono e, consequentemente, em uma melhor depuração. Em princípio, o ciclo pode funcionar no sentido inverso.
+Se a depuração glifática pudesse ser restaurada — por meio de uma melhoria na qualidade do sono de ondas lentas, normalização da função AQP4 ou redução da noradrenalina noturna — as consequências a jusante seriam reais. Menos resíduo metabólico significa menos ativação de microglia, o que resulta em uma melhor arquitetura do sono e, consequentemente, em uma melhor depuração. Em princípio, o ciclo pode funcionar no sentido inverso.
 
 A verdade mais difícil é que a falha na depuração glifática é apenas um dos vários mecanismos independentes que causam disfunção cognitiva na EM/SFC. A via da quinurenina produz ácido quinolínico, que é diretamente neurotóxico — os pacientes com EM/SFC apresentam níveis significativamente elevados de ácido quinolínico e taxas reduzidas de proteção neurológica (Groven et al. 2021[@Groven2021kynurenine], *Psychoneuroendocrinology*). A histamina derivada dos mastócitos suprime a acetilcolina através dos recetores H3. A hipoperfusão cerebral limita o fornecimento de oxigénio independentemente da depuração — foram documentados 26% de redução no fluxo sanguíneo cerebral durante o desafio ortostático (van Campen et al. 2020 [@VanCampenEtAl2020], *Clinical Neurophysiology Practice*). Corrigir o mecanismo da depuração glifática ajudaria — mas não seria suficiente por si só.
 
@@ -127,7 +127,7 @@ O sistema glifático nem sempre está ativo — ele opera preferencialmente dura
 
 **Restrição de luz à noite.** Diminuir a luz e usar óculos com tinta âmbar ou filtros de luz azul nos ecrãs a partir de 2 horas antes de dormir evita a supressão da melatonina, que atrasaria o início do sono e deslocaria a janela do sono de ondas lentas para mais tarde na noite.
 
-### Gestão de sintomas downstream: Reduzindo a carga
+### Gestão de sintomas a jusante: Reduzindo a carga
 
 Essas intervenções não corrigem diretamente a falha glifática, mas reduzem a carga adicional que agrava os sintomas da manhã quando a equipa de limpeza já falhou.
 

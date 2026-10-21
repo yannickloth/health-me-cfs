@@ -48,7 +48,7 @@ Coloca la serie de medicamentos y esta publicación una al lado de la otra y el 
 - **Medicamentos que aumentan el tono** (modafinilo, duloxetina): ventana sobre la curva de catecolaminas.
 - **Medicamentos que son señales** (LDN, sulfurofano, NAC): ventana sobre la curva hormética.
 - **Medicamentos que ocupan receptores** (aripiprazol): ventana sobre la curva de ocupación.
-- **Esfuerzo**: una ventana que puede cerrarse — y la estimulación como estrategia que respeta su ausencia.
+- **Esfuerzo**: una ventana que puede cerrarse — y el pacing (regulación de la actividad) como la estrategia que respeta su ausencia.
 
 La costumbre clínica que une todo esto es la misma que la serie ha sostenido desde la Parte 1: deja de tratar la cantidad como una nota al pie. En EM/SFC, la primera pregunta sobre cualquier entrada — medicamento, estímulo o esfuerzo — no es “¿funciona?”, sino “¿en qué cantidad, y qué nos dice la respuesta sobre dónde se encuentra mi curva?”
 

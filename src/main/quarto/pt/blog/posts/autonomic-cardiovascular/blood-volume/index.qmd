@@ -25,7 +25,7 @@ Para contextualizar: uma doação de sangue requer cerca de 10% do seu volume sa
 
 ---
 
-## Volume sanguíneo, produção cardíaca e a cadeia energética
+## Volume sanguíneo, débito cardíaco e a cadeia energética
 
 A conexão entre volume sanguíneo e energia não é complicada:
 
@@ -33,7 +33,7 @@ A conexão entre volume sanguíneo e energia não é complicada:
 
 Estudos de RM cardíaca confirmam diretamente esta cadeia: pacientes com EM/SFC têm volume end-diastólico do ventrículo esquerdo reduzido (o coração enche-se menos) e volume de fluxo reduzido (cada batimento bomba menos sangue), com forte correlação com o volume sanguíneo medido [@Newton2016]. Crucialmente, essas reduções são *desproporcionais ao nível de inatividade* — isso não é descondicionamento. O mesmo estudo não encontrou relação entre a duração da doença e os volumes cardíacos, descartando uma declinação física gradual como explicação.
 
-O cérebro está no final desta cadeia e não tem onde buscar recursos. O fluxo sanguíneo cerebral pode ser reduzido em até 40% em EM/SFC, impulsionado por baixa produção cardíaca, disfunção autonómica, volume sanguíneo reduzido e autoregulação prejudicada, agindo em conjunto. Diferente de outros órgãos, o cérebro não pode compensar significativamente — é por isso que os pacientes relatam disfunção cognitiva (“névoa cerebral”) e dificuldade de concentração, e por que muitos se sentem mais aguçados deitados, onde o retorno venoso melhorado restaura a perfusão cerebral.
+O cérebro está no final desta cadeia e não tem onde buscar recursos. O fluxo sanguíneo cerebral pode ser reduzido em até 40% em EM/SFC, impulsionado por baixo débito cardíaco, disfunção autonómica, volume sanguíneo reduzido e autoregulação prejudicada, agindo em conjunto. Diferente de outros órgãos, o cérebro não pode compensar significativamente — é por isso que os pacientes relatam disfunção cognitiva (“névoa cerebral”) e dificuldade de concentração, e por que muitos se sentem mais aguçados deitados, onde o retorno venoso melhorado restaura a perfusão cerebral.
 
 ---
 

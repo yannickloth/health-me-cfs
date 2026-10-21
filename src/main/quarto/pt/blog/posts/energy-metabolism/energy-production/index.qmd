@@ -99,7 +99,7 @@ O nosso modelo de metabolismo energético explica o mecanismo:
 2. **O sistema prejudicado não consegue acompanhar** — a produção atinge o limite abaixo da demanda e os níveis de ATP diminuem.
 3. **A célula entra em crise** — a depleção de ATP ativa o sistema de alarme de défice energético da célula (uma enzima sensora de energia chamada AMPK), cascadas inflamatórias e o que o pesquisador Robert Naviaux descreveu como “resposta de perigo celular”.
 4. **Aumento de ROS** — as mitocôndrias funcionais restantes são forçadas a trabalhar mais para compensar, gerando um surto de radicais livres a partir da cadeia de eletrões sobrecarregada.
-5. **Dano secundário segue** — mas numa escala de tempo retardada. A produção de mediadores inflamatórios atinge um pico 6-24 horas após o dano tecidual. Efeitos downstream como inchaço tecidual e sensibilização nervosa ocorrem horas ou dias depois.
+5. **Dano secundário segue** — mas numa escala de tempo retardada. A produção de mediadores inflamatórios atinge um pico 6-24 horas após o dano tecidual. Efeitos a jusante como inchaço tecidual e sensibilização nervosa ocorrem horas ou dias depois.
 
 Esta sequência explica o atraso característico de 12-72 horas no MPE. O esforço é o gatilho, mas os sintomas vêm da onda de dano secundário.
 

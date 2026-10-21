@@ -1,6 +1,6 @@
 ---
 title: "Autoinmunidad Artículo 2: Inmunoadsorción, IVIG, Rituximab, Daratumumab — Eliminación de los autoanticuerpos, y qué significa eso cuando no soluciona EM/SFC"
-description: "Una guía de lenguaje sencillo sobre tratamientos dirigidos a la autoinmunidad en EM/SFC: immunoadsorción para la eliminación de autoanticuerpos de GPCR, IVIG para la inmunomodulación, rituximab y la lección de la fase III null, daratumumab para la depleción de células plasmáticas, por qué los ensayos controlados no coinciden con los resultados de la fase abierta, resultados esperados y la discusión sobre '¿qué pasaría si nada ayuda?'"
+description: "Una guía de lenguaje sencillo sobre tratamientos dirigidos a la autoinmunidad en EM/SFC: immunoadsorción para la eliminación de autoanticuerpos de GPCR, IVIG para la inmunomodulación, rituximab y la lección del resultado nulo de fase III, daratumumab para la depleción de células plasmáticas, por qué los ensayos controlados no coinciden con los resultados de la fase abierta, resultados esperados y la discusión sobre '¿qué pasaría si nada ayuda?'"
 author: "Yannick Loth"
 date: "2026-08-16"
 categories: [Treatment, Autoimmunity, IVIG, Immunoadsorption, ME/CFS]
@@ -25,7 +25,7 @@ Este artículo explica la evidencia de los tratamientos. Para el contexto concep
 
 La immunoadsorción (IA) es similar a la diálisis para anticuerpos. La sangre se pasa a través de una columna revestida con un ligando que se une a IgG — triptófano, proteína A o un péptido sintético — eliminando aproximadamente el 80 % de los IgG circulantes en una sola sesión. Un tratamiento típico consiste en 5 sesiones durante 10–14 días.
 
-La ventaja sobre la intercambión de plasma es la selectividad: la IA elimina IgG sin eliminar albúmina, factores de coagulación u otras proteínas plasmáticas. La desventaja es que elimina *todos* los IgG — anticuerpos protectores, respuestas a vacunas y autoanticuerpos — y los autoanticuerpos se recuperan en semanas o meses si las células B y las células plasma que los producen no se tratan.
+La ventaja sobre el intercambio de plasma es la selectividad: la IA elimina IgG sin eliminar albúmina, factores de coagulación u otras proteínas plasmáticas. La desventaja es que elimina *todos* los IgG — anticuerpos protectores, respuestas a vacunas y autoanticuerpos — y los autoanticuerpos se recuperan en semanas o meses si las células B y las células plasma que los producen no se tratan.
 
 **La evidencia en estudios abiertos es fuerte.** El grupo Scheibenbogen ha publicado una serie consistente:
 - Piloto de 2018 (n=10): 70 % de mejoría rápida, 30 % con mejoría sostenida de 6–12 meses [@Scheibenbogen2018immunoadsorption].
@@ -48,7 +48,7 @@ La inmunoglobulina intravenosa (IVIG) a 0,4 g/kg diario durante 5 días, luego 0
 
 ### Rituximab — la lección sobre la depleción de células B
 
-El rituximab (anti-CD20) deplete las células B — los precursores de las células plasmáticas que producen anticuerpos. Protege a las células plasmáticas de larga duración (CD20-negativas) que residen en la médula ósea y que continúan secretar anticuerpos durante décadas. Esta es la explicación mecanística por la cual el rituximab fracasó en EM/SFC.
+El rituximab (anti-CD20) depleta las células B — los precursores de las células plasmáticas que producen anticuerpos. Protege a las células plasmáticas de larga duración (CD20-negativas) que residen en la médula ósea y que continúan secretar anticuerpos durante décadas. Esta es la explicación mecanística por la cual el rituximab fracasó en EM/SFC.
 
 **El curso de la evidencia es instructivo.** Los estudios iniciales de etapa abierta de Fluge y Mella (2009–2011) informaron tasas de respuesta del 67% — dramáticas, ampliamente reportadas y que sirvieron de base para el ensayo de fase III RituxME. RituxME (n=151, doble ciego, controlado con placebo) encontró **26% de respuesta con rituximab frente a 35% con placebo a 24 meses — el grupo de placebo tuvo mejor resultados** [@Fluge2019]. La señal de etapa abierta es ruido, amplificado por expectativas y regreso al promedio.
 
@@ -88,7 +88,7 @@ Solo escala a daratumumab (cuando esté disponible y bajo supervisión especiali
 
 **Primero: un ensayo de inmunoadsorción fallido es informativo.** Si la IgG se redujo en un 80% y los síntomas no mejoraron, ya sea que los anticuerpos no eran patógenos (desajuste del glicoproteico de Fc), la patología que causaron es irreversible (internización de receptores) o la rebote de anticuerpos fue demasiado rápido. En el primer caso, es poco probable que un tratamiento dirigido a anticuerpos más adelante ayude. En el segundo y tercero, podría ayudar, pero con una estrategia diferente (mantenimiento con daratumumab, no pulso con IA).
 **Segundo: un ensayo fallido con IVIG indica que IVIG no funciona para ti — nada más.** No excluye un mecanismo autoinmune. IVIG es inmunomoduladora, no depletora de anticuerpos, y la dosis, la marca y la velocidad de infusión afectan la tolerabilidad y posiblemente la eficacia. Pero si IVIG a dosis estándar durante más de 6 meses no produce beneficio, continuar indefinidamente no es basado en evidencia ni libre de riesgos.
-**Tercero: el RituxME null fue un fracaso de ensayo, no un fracaso de hipótesis.** Rituximab no afecta a las células plasmáticas. El modelo de fábrica de células plasmáticas — respaldado por la señal de daratumumab y la latencia de 8–9 meses — sigue siendo una opción. La lección de RituxME no es que “la autoinmunidad no es el mecanismo”. Es “no depletar las células B y esperar depletar los anticuerpos”.
+**Tercero: el resultado nulo del RituxME fue un fracaso de ensayo, no un fracaso de hipótesis.** Rituximab no afecta a las células plasmáticas. El modelo de fábrica de células plasmáticas — respaldado por la señal de daratumumab y la latencia de 8–9 meses — sigue siendo una opción. La lección de RituxME no es que “la autoinmunidad no es el mecanismo”. Es “no depletar las células B y esperar depletar los anticuerpos”.
 **Cuarto: una serie de fracasos — la inmunoadsorción elimina los anticuerpos pero los síntomas persisten, IVIG no produce beneficio, daratumumab no está disponible — es evidencia real de que la autoinmunidad no es la patología dominante, o de que una vez fue dominante pero el daño que causó ahora es autosostenible.** En cualquier caso, es información útil. Deja de buscar tratamientos dirigidos a anticuerpos y enfócate en los amplificadores posteriores (POTS, MCAS, SFN) que la autoinmunidad podría haber desencadenado.
 
 ---
@@ -114,10 +114,10 @@ Solo escala a daratumumab (cuando esté disponible y bajo supervisión especiali
 
 ## La conclusión principal
 
-Existen tratamientos dirigidos a la autoimmunitad para EM/SFC: inmunoadsorción, IVIG, rituximab, daratumumab — pero la evidencia es desigual, los resultados en estudios abiertos superan a los resultados controlados, un patrón que hace que RituxME sea imposible de ignorar, y las herramientas de medición que identificarían quién responderá (bioanálisis funcionales, perfiles de glicoproteínas Fc) no están disponibles clínicamente. El resultado del daratumumab — una mejora marcada del 60% en un ensayo piloto no controlado — es el desarrollo más alentador reciente, pero el precedente de RituxME exige replicación controlada antes de que cambie las prácticas [@Fluge2025daratumumab][@Loth2026website].
+Existen tratamientos dirigidos a la autoinmunidad para EM/SFC: inmunoadsorción, IVIG, rituximab, daratumumab — pero la evidencia es desigual, los resultados en estudios abiertos superan a los resultados controlados, un patrón que hace que RituxME sea imposible de ignorar, y las herramientas de medición que identificarían quién responderá (bioanálisis funcionales, perfiles de glicoproteínas Fc) no están disponibles clínicamente. El resultado del daratumumab — una mejora marcada del 60% en un ensayo piloto no controlado — es el desarrollo más alentador reciente, pero el precedente de RituxME exige replicación controlada antes de que cambie las prácticas [@Fluge2025daratumumab][@Loth2026website].
 
-El enfoque clínico es un ensayo de tiempo limitado, definido por un punto final, en el subgrupo de personas positivas al anticuerpo, postinfeccioso y dominado por POTS — y la disciplina es detenerse si el ensayo falla y dirigir la atención hacia los amplificadores downstream que la autoimmunitad, si está presente, había activado.
+El enfoque clínico es un ensayo de tiempo limitado, definido por un punto final, en el subgrupo de personas positivas al anticuerpo, postinfeccioso y dominado por POTS — y la disciplina es detenerse si el ensayo falla y dirigir la atención hacia los amplificadores aguas abajo que la autoinmunidad, si está presente, había activado.
 
 **Próximo en esta serie:** "Unidos en cadena" — la síntesis final. Cómo los amplificadores se convierten en una enfermedad y lo que eso significa para el tratamiento.
 
-Para una imagen completa y totalmente citada de cómo la autoimmunitad se considera entre los muchos mecanismos candidatos en EM/SFC, véase [@Loth2026website].
+Para una imagen completa y totalmente citada de cómo la autoinmunidad se considera entre los muchos mecanismos candidatos en EM/SFC, véase [@Loth2026website].

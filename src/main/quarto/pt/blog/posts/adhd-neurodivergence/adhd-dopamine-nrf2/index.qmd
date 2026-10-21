@@ -33,7 +33,7 @@ O resultado é um **ciclo autoamplificador**: um estado pré-existente de baixa 
 
 A hipótese que é importante para a PHDA é o **limiar reduzido para a fadiga pós-infecciosa**. A previsão mecânica é específica:
 
-> Pessoas com PHDA têm uma atividade Nrf2 basal mais baixa e um priming basal de NLRP3 mais elevado. Isso reduz o limiar para o desenvolvimento de fadiga crónica após uma infeção. A comorbidade elevada entre PHDA e fadiga crónica [@Quadt2024neurodivergentfatigue @SaezFrancas2012adhdcfs] é uma consequência dessa desregulação pré-existente de dopamina-Nrf2-NLRP3.
+> Pessoas com PHDA têm uma atividade Nrf2 basal mais baixa e um cebamento basal de NLRP3 mais elevado. Isso reduz o limiar para o desenvolvimento de fadiga crónica após uma infeção. A comorbidade elevada entre PHDA e fadiga crónica [@Quadt2024neurodivergentfatigue @SaezFrancas2012adhdcfs] é uma consequência dessa desregulação pré-existente de dopamina-Nrf2-NLRP3.
 
 Em termos simples: uma pessoa com PHDA começa com o ciclo já inclinado em direção à inflamação. Quando uma infeção adiciona um impacto inflamatório, o ciclo se inclina ainda mais, e a pessoa tem maior probabilidade de ultrapassar o limiar da fadiga do que alguém sem essa inclinação pré-existente.
 

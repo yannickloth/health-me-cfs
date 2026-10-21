@@ -43,11 +43,11 @@ A previsão quantitativa é que os pacientes tratados dentro desta janela aprese
 
 O mecanismo sugere algo específico sobre quais tipos de tratamento provavelmente se beneficiarão da intervenção precoce.
 
-Tratamentos que visam as consequências downstream da EM/SFC — sono, dor, sintomas ortostáticos — são limitados pelo alívio dos sintomas, e esse limite não depende significativamente da consolidação epigenética. Um medicamento para sono ajuda o paciente a dormir melhor no primeiro ou décimo ano.
+Tratamentos que visam as consequências a jusante da EM/SFC — sono, dor, sintomas ortostáticos — são limitados pelo alívio dos sintomas, e esse limite não depende significativamente da consolidação epigenética. Um medicamento para sono ajuda o paciente a dormir melhor no primeiro ou décimo ano.
 
 Tratamentos que visam as causas raiz e os mecanismos de suporte — abordagens anti-inflamatórias que reduzem a influência da citocina, apoio metabólico que tenta restaurar a produção de energia, modulação imunológica que ataca a produção de autoanticorpos — são aqueles em que a consolidação é importante. A sua capacidade terapêutica depende do grau em que o mecanismo alvo ainda impulsiona a doença, em vez de ser apenas registado no epigenoma. No primeiro ano, a sinalização é ativa e a intervenção pode interromper essa sinalização. No sétimo ano, reduzir a carga de citocinas pode ainda aliviar sintomas, mas o padrão de metilação que foi criado persiste de forma independente [Cap. 16 §Load-Bearing versus Secondary Locks].
 
-O modelo não afirma que o tratamento em estágio avançado seja inútil. Afirma que o tratamento em estágio avançado requer abordar diretamente a consolidação — não apenas seus impulsionadores upstream — e que isso é significativamente mais difícil.
+O modelo não afirma que o tratamento em estágio avançado seja inútil. Afirma que o tratamento em estágio avançado requer abordar diretamente a consolidação — não apenas seus impulsionadores a montante — e que isso é significativamente mais difícil.
 
 ---
 

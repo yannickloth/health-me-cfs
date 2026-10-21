@@ -1,5 +1,5 @@
 ---
-title: "Paredes Resistentes a Cargas vs. Paredes Internas"
+title: "Paredes Portantes vs. Paredes Internas"
 description: "En la construcción, un muro portante sostiene la estructura del edificio. Si se elimina, el edificio colapsa. Un muro no portante define un espacio, proporciona aislamiento, sostiene una puerta — pero la estructura se mantiene sin él. Renovar una habitación..."
 author: "Yannick Loth"
 date: "2026-04-04"
@@ -15,11 +15,11 @@ EM/SFC tiene lo equivalente a muros portantes. El estado de enfermedad se mantie
 
 ## La distinción
 
-Un **candado de soporte** es aquel cuya eliminación es necesaria — aunque no necesariamente suficiente — para escapar del estado de enfermedad. Los candados restantes no pueden soportar la enfermedad sin él. Si se puede eliminar, los otros mecanismos comienzan a perder su efecto.
+Un **candado portante** es aquel cuya eliminación es necesaria — aunque no necesariamente suficiente — para escapar del estado de enfermedad. Los candados restantes no pueden soportar la enfermedad sin él. Si se puede eliminar, los otros mecanismos comienzan a perder su efecto.
 
 Un **candado secundario** empeora los síntomas y ralentiza la recuperación, pero no es estructural. La enfermedad puede mantenerse sin este candado en su lugar. Tratarlo mejora la experiencia del paciente dentro del estado de enfermedad; no permite escapar.
 
-La analogía del edificio se relaciona directamente: eliminar un candado de soporte hace que el atractor de la enfermedad colapse — lo cual es el objetivo terapéutico. Eliminar un candado secundario mejora el interior sin amenazar la estructura [Cap. 16 §Candados de soporte versus Candados secundarios].
+La analogía del edificio se relaciona directamente: eliminar un candado portante hace que el atractor de la enfermedad colapse — lo cual es el objetivo terapéutico. Eliminar un candado secundario mejora el interior sin amenazar la estructura [Cap. 16 §Candados de soporte versus Candados secundarios].
 
 ---
 
@@ -41,9 +41,9 @@ Este segundo bloque es específico para el subtipo del paciente. No todos los pa
 
 Varios mecanismos de enfermedad prominentes son secundarios. Son importantes, ya que provocan síntomas, retrasan la recuperación y profundizan la experiencia de la enfermedad, pero no son estructurales [Cap. 16 §Candados portantes versus candados secundarios]:
 
-**Ciclo de estrés oxidativo.** Las especies reactivas de oxígeno dañan las mitocondrias, lo que aumenta el estrés oxidativo, que a su vez daña aún más las mitocondrias. Este es un ciclo de amplificación real, pero se encuentra más abajo de la falla energética principal. Corrigiendo los mecanismos upstream, el ciclo de estrés oxidativo pierde su impulsor [Cap. 16 §Ciclo vicioso de estrés oxidativo].
+**Ciclo de estrés oxidativo.** Las especies reactivas de oxígeno dañan las mitocondrias, lo que aumenta el estrés oxidativo, que a su vez daña aún más las mitocondrias. Este es un ciclo de amplificación real, pero se encuentra más abajo de la falla energética principal. Corrigiendo los mecanismos aguas arriba, el ciclo de estrés oxidativo pierde su impulsor [Cap. 16 §Ciclo vicioso de estrés oxidativo].
 
-**Fragmentación del sueño.** El mal sueño empeora la función inmunitaria, los síntomas cognitivos y el dolor. Tratarlo, ya sea farmacológicamente o de otra manera, mejora la calidad de vida. Pero los pacientes cuyo sueño se normaliza sin abordar los mecanismos upstream no se recuperan. Duermen mejor dentro del estado de enfermedad [Cap. 16 §Consecuencias posteriores].
+**Fragmentación del sueño.** El mal sueño empeora la función inmunitaria, los síntomas cognitivos y el dolor. Tratarlo, ya sea farmacológicamente o de otra manera, mejora la calidad de vida. Pero los pacientes cuyo sueño se normaliza sin abordar los mecanismos aguas arriba no se recuperan. Duermen mejor dentro del estado de enfermedad [Cap. 16 §Consecuencias posteriores].
 
 **Reactivación viral.** La terapia antiviral que suprime la reactivación de EBV o HHV-6 elimina una entrada inflamatoria. Pero el ciclo que sostiene la enfermedad tiene otras entradas, por lo que el mantenimiento estructural general no se resuelve solo con esto. Tenga en cuenta que esto se aplica a la reactivación como un amplificador; los pacientes con reservorios virales activos persistentes confirmados pueden tener una situación diferente, como se discutió en el artículo anterior [Cap. 16 §Reactivación viral y agotamiento inmunitario].
 
@@ -55,11 +55,11 @@ Varios mecanismos de enfermedad prominentes son secundarios. Son importantes, ya
 
 Los cierres secundarios a menudo generan los síntomas más visibles de inmediato. La fragmentación del sueño, el dolor y la disfunción cognitiva son los temas que los pacientes reportan con mayor urgencia, y tratarlos es apropiado; sin embargo, las expectativas terapéuticas deben ajustarse. Mejorar un cierre secundario no crea un camino hacia la recuperación; solo mejora la experiencia del paciente dentro de la enfermedad. Eso tiene valor, pero no es lo mismo que un tratamiento estructural.
 
-Los cierres que soportan cargas, en particular la consolidación epigenética, a menudo no producen síntomas directos y de inmediata percepción. El paciente no puede sentir que su expresión génica se mantiene mediante patrones de metilación. No hay síntoma que corresponda a "enfermedad epigenética codificada". El dolor y la fatiga son consecuencias posteriores, no el mecanismo de consolidación en sí.
+Los cierres portantes, en particular la consolidación epigenética, a menudo no producen síntomas directos y de inmediata percepción. El paciente no puede sentir que su expresión génica se mantiene mediante patrones de metilación. No hay síntoma que corresponda a "enfermedad epigenética codificada". El dolor y la fatiga son consecuencias posteriores, no el mecanismo de consolidación en sí.
 
 Esto genera un desajuste sistemático entre la importancia sintomática y la importancia estructural. Los mecanismos que *duelen más* son a menudo secundarios. Los mecanismos que *mantienen la enfermedad* a menudo no producen señales perceptibles directas.
 
-Un tratamiento efectivo debe incluir el abordaje de la estructura que soporta cargas —no porque los síntomas no importen, sino porque tratar solo los síntomas no crea un camino hacia la recuperación. Cuando los tratamientos estructurales aún no están disponibles o validados, la gestión de los síntomas sigue siendo la prioridad clínica adecuada y la única opción disponible para la mayoría de los pacientes [Cap. 16 §Implicaciones del tratamiento de la jerarquía causal].
+Un tratamiento efectivo debe incluir el abordaje de la estructura portante —no porque los síntomas no importen, sino porque tratar solo los síntomas no crea un camino hacia la recuperación. Cuando los tratamientos estructurales aún no están disponibles o validados, la gestión de los síntomas sigue siendo la prioridad clínica adecuada y la única opción disponible para la mayoría de los pacientes [Cap. 16 §Implicaciones del tratamiento de la jerarquía causal].
 
 ---
 

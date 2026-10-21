@@ -7,7 +7,7 @@ categories: [Treatment, Pharmacology, ME/CFS]
 lang: es
 ---
 
-Cualquier persona que haya pasado por el ciclo de ensayo y error suficientes veces conoce el patrón de memoria: iniciar un medicamento, notar algo, ajustar la dosis, perder ese efecto, ajustar la dosis, recuperar ese efecto. El médico registra "respuesta" o "no respuesta" y sigue adelante; un sistema binario que descarta la mayor parte de la información. *Dónde* en el eje de dosis apareció la respuesta y *dónde* desapareció es el signo diagnóstico. El resto es compresión sin pérdida de información.
+Cualquier persona que haya pasado por el ciclo de ensayo y error suficientes veces conoce el patrón de memoria: iniciar un medicamento, notar algo, ajustar la dosis, perder ese efecto, ajustar la dosis, recuperar ese efecto. El médico registra "respuesta" o "no respuesta" y sigue adelante; un sistema binario que descarta la mayor parte de la información. *Dónde* en el eje de dosis apareció la respuesta y *dónde* desapareció es el signo diagnóstico. El resto es compresión con pérdida de información.
 
 Los tres artículos anteriores explicaron por qué: los dieciocho medicamentos con curvas de respuesta de dosis-U invertida se dividen en cuatro categorías mecánicamente distintas, y la dosis en la que el beneficio aparece, alcanza un pico y se invierte puede revelar qué mecanismo es limitante. Este artículo es la ayuda para el paciente del tabla de referencia consolidada que se encuentra ahora en el artículo principal (ch32, sec-14). Lo que sigue es una descripción de cada medicamento, de cada banda de dosis clínicamente relevante y de lo que cada banda *puede* significar: beneficio, pérdida de beneficio, efectos secundarios y silencio todos transmiten información.
 
@@ -107,7 +107,7 @@ La LDA actúa en tres niveles, todos por debajo de 2 mg: microglía D2/D3 (≤1 
 | 1,0–2,0 mg | Mesocortical-limbic D2/D3 + autorreceptores 5-HT1A | **Si funciona:** Gran reserva de receptores D2. Es poco probable que el sistema de dopamina sea limitante. La estabilización serotonérgica contribuye. **Si no funciona:** Reserva moderada de receptores D2 — el intervalo de beneficio está limitado por la dosis. **Efectos secundarios:** Sedación, comienzo de la ganancia de peso. |
 | >2 mg | Perfil antipsicótico estándar (5-HT2A, H1, α1) domina; el agonismo parcial D2 se extingue | **Si funciona:** No hay razón terapéutica. **Si no funciona:** Es esperado — todos los mecanismos de baja dosis se extinguen. **Efectos secundarios:** Akatisia, sedación, ganancia de peso, efectos metabólicos. El intervalo de la LDA se cierra. |
 
-Lógica clínica de carga: la respuesta no obtenida con LDA seguida de la respuesta con LDN significa involucro de microglía a través de TLR4, no D2. La respuesta no obtenida con LDN seguida de la respuesta con LDA significa lo contrario. Ambos patrones confirman el involucro de microglía a través de diferentes receptores — las dos medicinas son mecanísticamente complementarias.
+Lógica clínica portante: la respuesta no obtenida con LDA seguida de la respuesta con LDN significa involucro de microglía a través de TLR4, no D2. La respuesta no obtenida con LDN seguida de la respuesta con LDA significa lo contrario. Ambos patrones confirman el involucro de microglía a través de diferentes receptores — las dos medicinas son mecanísticamente complementarias.
 
 ---
 

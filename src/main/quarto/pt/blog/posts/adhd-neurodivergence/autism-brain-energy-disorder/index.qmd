@@ -41,7 +41,7 @@ Se o modelo de energia cerebral fosse uma ideia isolada, seria fácil descartá-
 
 **1. A disfunção mitocondrial é sistémica e basal.** Uma revisão sistemática e meta-análise de 204 estudos encontrou lactato, piruvato e alanina elevados em pessoas autistas, juntamente com creatina quinase e um índice lactato/piruvato elevado — os mesmos marcadores da cadeia de transporte de eletrões observados em distúrbios do metabolismo energético [@Frye2024ASDmitochondria]. Crucialmente, estes estão presentes na **base**, não apenas após stresse. É uma característica constitutiva do corpo, e não um artefato da demanda cerebral.
 
-**2. Um cofator específico está consistentemente baixo.** A tetrahidrobiopterina (BH4) é a molécula auxiliar essencial para as enzimas que produzem dopamina, serotonina e óxido nítrico. Uma revisão sistemática encontrou **BH4 consistentemente mais baixo** em amostras biológicas de indivíduos autistas [@ColpaniFilho2025BH4ASD]. BH4 baixo significa que o cérebro não pode produzir seus principais neurotransmissores *e* não pode regular seu próprio fluxo sanguíneo — um défice, múltiplos falhas downstream.
+**2. Um cofator específico está consistentemente baixo.** A tetrahidrobiopterina (BH4) é a molécula auxiliar essencial para as enzimas que produzem dopamina, serotonina e óxido nítrico. Uma revisão sistemática encontrou **BH4 consistentemente mais baixo** em amostras biológicas de indivíduos autistas [@ColpaniFilho2025BH4ASD]. BH4 baixo significa que o cérebro não pode produzir seus principais neurotransmissores *e* não pode regular seu próprio fluxo sanguíneo — um défice, múltiplas falhas a jusante.
 
 **3. Uma conexão entre tecidos conjuntivos.** Pessoas autistas têm muito mais probabilidade de ter hipermobilidade articular e síndromes de Ehlers-Danlos — uma meta-análise encontrou 7,4 vezes mais probabilidade de EDS [@BaezaVelasco2025autismEDS]. Isso é importante porque a hipermobilidade está ligada à disautonomia e à redução do fluxo sanguíneo cerebral, o que agrava qualquer défice de energia no nível da *entrega* de combustível.
 
@@ -109,7 +109,7 @@ Um grande inquérito relatado pelos pacientes de 3.925 pacientes com EM/SFC e pa
 - Um **grupo cognitivo e de sono** (baixo POTS) que responde melhor a estimulantes do SNC
 - Um **grupo mais leve** que responde a pacing (gestão de energia) e fluidos
 
-As lições-chave: o mesmo tratamento que ajuda um paciente pode não ajudar — ou pode prejudicar — outro; e **a capacidade funcional (gravedade), e não a etiqueta do diagnóstico, é o preditor mais forte da resposta ao tratamento.**
+As lições-chave: o mesmo tratamento que ajuda um paciente pode não ajudar — ou pode prejudicar — outro; e **a capacidade funcional (gravidade), e não a etiqueta do diagnóstico, é o preditor mais forte da resposta ao tratamento.**
 
 *Cuidado com a evidência: estes são resultados de inquéritos relatados pelos pacientes, não randomizados ou cegos — são orientações de estratificação geradora de hipóteses, não prova de um protocolo combinado específico.*
 
@@ -135,7 +135,7 @@ A versão mais forte da ideia multivias é um **protocolo sistematicamente escal
 
 ### Os riscos e limitações
 
-A hipótese multivias é convincente, mas apresenta riscos reais: **polimedicidade** (mais intervenções, mais interações e carga), **evidências baseadas em pesquisas** (não aleatórias), uma **combinação não testada** e — crucialmente — **não todos os caminhos são modificáveis**. Promessas excessivas de "vida normal" colocam os pacientes em risco de fracasso e autocrítica.
+A hipótese multivias é convincente, mas apresenta riscos reais: **polifarmácia** (mais intervenções, mais interações e carga), **evidências baseadas em pesquisas** (não aleatórias), uma **combinação não testada** e — crucialmente — **não todos os caminhos são modificáveis**. Promessas excessivas de "vida normal" colocam os pacientes em risco de fracasso e autocrítica.
 
 ### O teste decisivo
 

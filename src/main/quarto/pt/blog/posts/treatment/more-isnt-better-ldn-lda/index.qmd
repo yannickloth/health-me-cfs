@@ -69,7 +69,7 @@ A LDA atua em três populações distintas em níveis de microdose:
 
 **Mesocorticolimbic D2/D3 (≤2 mg).** O agonismo parcial restaura o sinal de dopamina tónico nos circuitos pré-frontal e hipocampal, melhorando a cognição, a motivação e a tolerância ao esforço.
 
-**5-HT1A autorrecetores (≤2 mg).** O agonismo parcial nos autorrecetores de serotonina 5-HT1A nos núcleos de raphe reduz o tono serotonérgico, com estabilização do sistema nervoso autónomo downstream.
+**5-HT1A autorrecetores (≤2 mg).** O agonismo parcial nos autorrecetores de serotonina 5-HT1A nos núcleos de raphe reduz o tono serotonérgico, com estabilização do sistema nervoso autónomo a jusante.
 
 Todos os três mecanismos têm o ótimo de dose abaixo de 2 mg. Acima de 2 mg, novos recetores são ativados — antagonismo 5-HT2A, bloqueio H1, antagonismo α1 — que não são alvos terapêuticos na EM/SFC e apenas causam efeitos secundários.
 

@@ -7,9 +7,9 @@ categories: [GI Dysmotility, SIBO, ME/CFS, Gut, Pathophysiology]
 lang: es
 ---
 
-El estómago se vacía lentamente. Estás lleno durante horas después de una pequeña comida, con hinchazón, calambres o necesidad de ir al baño sin explicación. Comes y la fatiga aumenta: no en una hora, sino en minutos, como si la comida misma agotara lo poco de energía que tienes. Cuanto más mal se comporta el intestino, más se desencadena todo el cuerpo: niebla cerebral, rubor por mastocitos, intolerancia ortostática, dolor. Un sistema, dominado.
+El estómago se vacía lentamente. Estás lleno durante horas después de una pequeña comida, con hinchazón, calambres o necesidad de ir al baño sin explicación. Comes y la fatiga aumenta: no en una hora, sino en minutos, como si la comida misma agotara lo poco de energía que tienes. Cuanto más mal se comporta el intestino, más se desencadena todo el cuerpo: niebla cerebral, rubor por mastocitos, intolerancia ortostática, dolor. Un sistema, en efecto dominó.
 
-Ahora añade el resto de los síntomas de EM/SFC: el MPE, el sueño insatisfactorio, la crisis de energía. En algún lugar en el intestino —en la motilidad lenta, en las bacterias que crecen donde no deberían, en la barrera que se pierde, en los mastocitos que se activan ante las proteínas alimentarias— se genera una parte significativa del peso total de la enfermedad. Y el intestino es el sistema donde el paciente tiene control directo: la dieta es la primera palanca.
+Ahora añade el resto de los síntomas de EM/SFC: el MPE, el sueño insatisfactorio, la crisis de energía. En algún lugar en el intestino —en la motilidad lenta, en las bacterias que crecen donde no deberían, en la barrera que se filtra, en los mastocitos que se activan ante las proteínas alimentarias— se genera una parte significativa del peso total de la enfermedad. Y el intestino es el sistema donde el paciente tiene control directo: la dieta es la primera palanca.
 
 Este artículo es una visión conceptual. Qué son realmente la dismotilidad gastrointestinal y la SIBO, los tres mecanismos (fracaso ICC/vagal, eje mastocito-intestino, envenenamiento mitocondrial por H₂S), la conexión DAO-histamina y la diferencia entre problemas intestinales por sí mismos y problemas intestinales *sobre* EM/SFC. Los tratamientos —distancia entre comidas, eliminación baja de histamina, antibióticos y hierbas para SIBO, dieta elemental, DAO y procinéticos— están descritos en el [artículo de tratamiento complementario](../sibo-gi-treatment/index.qmd).
 
@@ -49,7 +49,7 @@ Los mastocitos están concentrados en la mucosa intestinal — más que en cualq
 - **Triptasa**, que activa PAR2 en los nervios entéricos, disminuyendo la motilidad y aumentando la hipersensibilidad visceral — el intestino se vuelve más sensible a la distensión normal, provocando dolor y hinchazón por cantidades normales de gas [@Novak2022].
 - **Prostaglandinas**, que aumentan la permeabilidad intestinal al aflojar las uniones estrictas entre las células epiteliales.
 
-El bucle bidireccional es autoamplificador. La disbiosis (SIBO, productores de butirat bajo) reduce los ácidos grasos de cadena corta (butirat, propionato) que normalmente inhiben la degranulación de los mastocitos — el butirat suprime la activación de los mastocitos hasta un 90% mediante la inhibición de HDAC [@Folkerts2020butyrate]. Sin esta supresión, los mastocitos se activan más, dañando la barrera, lo que permite que más productos bacterianos (LPS) se trasladen, lo que activa aún más mastocitos. El bucle continúa.
+El bucle bidireccional es autoamplificador. La disbiosis (SIBO, productores de butirato bajo) reduce los ácidos grasos de cadena corta (butirato, propionato) que normalmente inhiben la degranulación de los mastocitos — el butirato suprime la activación de los mastocitos hasta un 90% mediante la inhibición de HDAC [@Folkerts2020butyrate]. Sin esta supresión, los mastocitos se activan más, dañando la barrera, lo que permite que más productos bacterianos (LPS) se trasladen, lo que activa aún más mastocitos. El bucle continúa.
 
 ### Sulfuro de hidrógeno: el veneno mitocondrial que nadie mide
 
@@ -91,6 +91,6 @@ Pero — como con todos los amplificadores de esta serie — "secundario" no sig
 
 El intestino es el sistema orgánico más frecuentemente afectado en EM/SFC, aparte del cerebro, y es el único sistema en el que el paciente tiene un impacto directo a través de la dieta. Tres mecanismos — fallo en la motilidad ICC/vagal, permeabilidad y dismotilidad impulsada por mastocitos y envenenamiento mitocondrial por sulfuro de hidrógeno — no son mutuamente excluyentes, y convergen en el mismo objetivo: un intestino que roba energía en lugar de proporcionarla [@Loth2026website].
 
-**Próximo artículo de esta mini-serie:** cómo tratar realmente el intestino — espaciamiento de las comidas, eliminación con bajo nivel de histamina, antibióticos y hierbas para SIBO, dieta elemental, DAO, butirat, procinéticos y la discusión sobre “¿qué pasaría si nada ayuda” [[ver el artículo complementario]](../sibo-gi-treatment/index.qmd).
+**Próximo artículo de esta mini-serie:** cómo tratar realmente el intestino — espaciamiento de las comidas, eliminación con bajo nivel de histamina, antibióticos y hierbas para SIBO, dieta elemental, DAO, butirato, procinéticos y la discusión sobre “¿qué pasaría si nada ayuda” [[ver el artículo complementario]](../sibo-gi-treatment/index.qmd).
 
 Para obtener una imagen completa y con referencias completas de cómo la dismotilidad gastrointestinal y el microbioma intestinal se consideran entre los muchos mecanismos posibles en EM/SFC, consulte [@Loth2026website].

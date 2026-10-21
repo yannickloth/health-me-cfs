@@ -93,7 +93,7 @@ Uma das principais ideias centrais do documento sobre a dor em EM/SFC é que a m
 
 ## A conclusão
 
-A dor do padrão da fibromialgia é real em EM/SFC — uma grande parte dos pacientes (geralmente ~47%, podendo ser maior com critérios mais flexíveis) atende aos critérios — e é impulsionada por sensibilização central (amplamente considerada dominante na grande maioria), canais TRPV1/TRPA1 "fechados e presos", um ciclo auto-sustentável de COX-2/PGE₂, e re-sensibilização impulsionada por MPE que a fibromialgia por si só não possui [@RamirezMorales2022overlap][@Nijs2021sensitization].
+A dor do padrão da fibromialgia é real em EM/SFC — uma grande parte dos pacientes (geralmente ~47%, podendo ser maior com critérios mais flexíveis) atende aos critérios — e é impulsionada por sensibilização central (amplamente considerada dominante na grande maioria), canais TRPV1/TRPA1 "abertos e presos", um ciclo auto-sustentável de COX-2/PGE₂, e re-sensibilização impulsionada por MPE que a fibromialgia por si só não possui [@RamirezMorales2022overlap][@Nijs2021sensitization].
 
 O texto indica: a dor é um amplificador do distúrbio imunológico energético mais amplo, não a doença central. Tratá-la melhora a qualidade de vida; ela não corrige a crise. O [artigo complementar de tratamento](../fibromyalgia-pain-treatment/index.qmd) aborda a abordagem multimodal — LDN, SNRIs, gabapentinoides, inibidores de COX-2, PEA e a dose consciente em relação ao MPE, que distingue a gestão da dor em EM/SFC da assistência padrão para fibromialgia.
 

@@ -135,7 +135,7 @@ Nesta série de sete artigos, um quadro unificado surgiu:
 | GCH1 rs841 | Redução da produção de BH4 | Deficit genético estático |
 | Deficiência de ferro | Impedimento do complexo I/II + síntese de dopamina | Deficit modificável |
 
-Cada condição reduz a reserva metabólica do cérebro através de mecanismos diferentes. O resultado convergente: menos reserva para absorver um insulto imunológico. Traços neurodivergentes na infância preveem fadiga crónica incapacitante na adolescência [@Quadt2024neurodivergentfatigue]. O resultado convergente quando um vírus chega: EM/SFC.
+Cada condição reduz a reserva metabólica do cérebro através de mecanismos diferentes. O resultado convergente: menos reserva para absorver uma agressão imunológica. Traços neurodivergentes na infância preveem fadiga crónica incapacitante na adolescência [@Quadt2024neurodivergentfatigue]. O resultado convergente quando um vírus chega: EM/SFC.
 
 O quadro gera prioridades claras para a investigação:
 

@@ -87,7 +87,7 @@ Hasta entonces, todos los medicamentos a base de dopamina para EM/SFC apuntan a 
 
 | Afirmación | Certeza |
 |---|---|
-| El riesgo genético de EM/SFC enriquece en neuronas cerebrales, no en células inmunitarias | Alta — hallazgo a nivel de tejido en GWAS; null en inmunidad |
+| El riesgo genético de EM/SFC enriquece en neuronas cerebrales, no en células inmunitarias | Alta — hallazgo a nivel de tejido en GWAS; nulo en inmunidad |
 | Las neuronas espinosas medias son el tipo de célula enriquecedora en EM/SFC | Baja a moderada — según un análisis de tipo de célula post-GWAS (preprint), dependiente del atlas; no está en el GWAS en sí |
 | Diferentes trastornos cerebrales enriquecen diferentes tipos de células | Alta — un pipeline común de atlas coloca la esquizofrenia en la capa 2/3 cortical, la depresión en la capa 5/6 y la AUD en los MSNs [@Duncan2025cellTypeBrain] |
 | El enriquecimiento cerebral compartido no implica un mecanismo compartido | Alta — diferentes enfermedades involucran genes, vías y patologías moleculares distintas |

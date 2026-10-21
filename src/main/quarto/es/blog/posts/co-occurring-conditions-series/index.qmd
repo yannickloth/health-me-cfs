@@ -13,7 +13,7 @@ Esta serie explica una condición que ocurre simultáneamente, en lenguaje senci
 
 1. **Cómo se siente** — una breve descripción.
 2. **Qué es** — el mecanismo, en palabras sencillas.
-3. **Cómo se relaciona con la EM/SFC** — incluyendo si es una *causa*, un *amplificador downstream* o un *compañero casual* (a menudo: amplificador).
+3. **Cómo se relaciona con la EM/SFC** — incluyendo si es una *causa*, un *amplificador aguas abajo* o un *compañero casual* (a menudo: amplificador).
 4. **Los tratamientos** — cuáles son y cómo funcionan.
 5. **Qué significa si el tratamiento no funciona** — la parte final.
 

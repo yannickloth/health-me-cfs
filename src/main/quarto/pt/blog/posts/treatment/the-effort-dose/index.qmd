@@ -48,7 +48,7 @@ Coloque a série de medicamentos e este artigo lado a lado e o princípio unific
 - **Medicamentos que aumentam o tom** (modafinilo, duloxetina): janela na curva de catecolaminas.
 - **Medicamentos que são sinais** (LDN, sulforafano, NAC): janela na curva hormética.
 - **Medicamentos que ocupam recetores** (aripiprazol): janela na curva de ocupação.
-- **Esforço**: uma janela que pode ficar fechada — e a estimulação como a estratégia que respeita sua ausência.
+- **Esforço**: uma janela que pode ficar fechada — e o ritmo como a estratégia que respeita sua ausência.
 
 O hábito clínico que une tudo isso é o mesmo que a série defendeu desde a Parte 1: parar de tratar a quantidade como uma nota de rodapé. Em EM/SFC, a primeira pergunta sobre qualquer entrada — medicamento, estímulo ou esforço — não é “ele funciona?”, mas “em que quantidade, e o que a resposta me diz sobre onde minha curva se encontra?”
 
