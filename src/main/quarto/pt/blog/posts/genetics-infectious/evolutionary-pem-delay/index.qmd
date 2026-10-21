@@ -99,7 +99,7 @@ Este gradiente — de controle de emergência intacto com recuperação prejudic
 
 ## O que isso significa na prática
 
-Entender a PEM como um sistema de custos adiados — empréstimo normal, pagamento interrompido — tem implicações específicas.
+Entender o MPE como um sistema de custos adiados — empréstimo normal, pagamento interrompido — tem implicações específicas.
 
 O esforço excessivo causa danos porque cada esforço recorre a um sistema de recuperação que não consegue eliminar a dívida; o próximo esforço começa de um nível ainda pior. O sistema não se adapta para melhorar. Ele degrada — e essa degradação é a consequência celular de descobertos repetidos numa conta que não pode ser reposta.
 
@@ -117,6 +117,6 @@ O argumento evolutivo aqui trata da *seleção*, não do design. O corpo não "d
 
 A arquitetura de adiamento de custos não é uma falha na biologia humana. Era sobre sobrevivência. Na EM/SFC, essa mesma arquitetura persiste — mas num corpo onde a segunda metade do ciclo, a restauração, foi destruída pela doença. O sistema está a realizar o primeiro ato de um programa de dois atos. O segundo ato não chega.
 
-Isso é o que a PEM é: não é fraqueza, não é evasão, não é um sintoma para ser ignorado.
+Isso é o que o MPE é: não é fraqueza, não é evasão, não é um sintoma para ser ignorado.
 
 É a biologia funcionando exatamente como foi construída para funcionar — exceto que o ciclo de reparação que sempre deveria seguir o esforço foi retirado.

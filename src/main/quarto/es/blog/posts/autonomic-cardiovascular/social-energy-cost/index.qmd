@@ -97,7 +97,7 @@ El afecto negativo amplifica la percepción de síntomas somáticos en EM/SFC. U
 
 La consecuencia social es grave. El entorno es simultáneamente agotador (drenando ATP), cognitivamente exigente y, cuando va mal, emocionalmente angustiante. Cada dimensión alimenta a las demás. El agotamiento deteriora el procesamiento cognitivo. La sobrecarga cognitiva aumenta la probabilidad de fricción social. La fricción genera sufrimiento emocional, así como defensividad, retirada o actos agresivos. El sufrimiento amplifica los síntomas. Los síntomas consumen más energía. El ciclo se vuelve más estrecho.
 
-La retirada social no es una elección en este contexto. Es un interruptor de circuito. Eliminar la demanda social elimina la carga cognitiva, la complejidad emocional y el riesgo de entrar en una espiral de amplificación cuyo costo — crisis de PEM por días — supera con creces cualquier beneficio.
+La retirada social no es una elección en este contexto. Es un interruptor de circuito. Eliminar la demanda social elimina la carga cognitiva, la complejidad emocional y el riesgo de entrar en una espiral de amplificación cuyo costo — crisis de MPE por días — supera con creces cualquier beneficio.
 
 ---
 
@@ -171,7 +171,7 @@ La tragedia es que, sin diagnóstico — sin entender que estos cambios son sín
 
 La presencia tranquila y silenciosa en la habitación no es pasiva. El cerebro trabaja activamente: asigna recursos, monitorea y conserva energía.
 
-Cada pocos segundos, se lleva a cabo un cálculo interno: *¿cuánta energía tengo, ¿qué demanda el próximo minuto, ¿cuál es la forma menos costosa de mantenerse presente?* La persona evalúa la carga sensorial, los niveles de ruido, la complejidad visual y el número de hablantes. Monitorean el estado autónomo: frecuencia cardíaca, respiración y señales de alerta tempranas de PEM. Pesaron el costo de cada acción potencial: hablar ahora o ahorrar esa energía para levantarse más tarde. Defenderse contra ese comentario o dejarlo pasar y ahorrar ATP.
+Cada pocos segundos, se lleva a cabo un cálculo interno: *¿cuánta energía tengo, ¿qué demanda el próximo minuto, ¿cuál es la forma menos costosa de mantenerse presente?* La persona evalúa la carga sensorial, los niveles de ruido, la complejidad visual y el número de hablantes. Monitorean el estado autónomo: frecuencia cardíaca, respiración y señales de alerta tempranas de MPE. Pesaron el costo de cada acción potencial: hablar ahora o ahorrar esa energía para levantarse más tarde. Defenderse contra ese comentario o dejarlo pasar y ahorrar ATP.
 
 Y cuando la energía es demasiado baja incluso para esta gestión — cuando el propio monitoreo se vuelve demasiado costoso — el sistema adopta su modo más económico: defensa. Cada entrada es una posible amenaza. Cada pregunta es una demanda. Cada sonrisa es una solicitud de retiro en una cuenta vacía. La personalidad que emerge —crítica, distante, reactiva— no es la persona real. Es la persona despojada de los recursos metabólicos necesarios para ser generosa.
 
@@ -187,7 +187,7 @@ Esto es un comportamiento racional en el contexto de una enfermedad metabólica 
 
 ## EM/SFC grave: cuando incluso un susurro desencadena una crisis
 
-Para los pacientes graves, el costo energético de socializar supera un umbral en el que incluso la interacción mínima es peligrosa. Una conversación susurrada —unas pocas palabras, dichas lentamente desde alguien al lado de la cama— puede desencadenar una crisis PEM que dura días. Las conversaciones se clasifican como prohibidas en la jerarquía de triaje cognitivo para EM/SFC grave [@Loth2026website].
+Para los pacientes graves, el costo energético de socializar supera un umbral en el que incluso la interacción mínima es peligrosa. Una conversación susurrada —unas pocas palabras, dichas lentamente desde alguien al lado de la cama— puede desencadenar una crisis MPE que dura días. Las conversaciones se clasifican como prohibidas en la jerarquía de triaje cognitivo para EM/SFC grave [@Loth2026website].
 
 En este nivel, la presencia silenciosa se convierte en una presencia en silencio. El paciente ya no es amorfo en el grupo; está ausente de él. Solo en una habitación oscura, conservando energía para respirar, para tragar, para permanecer quieto. Las visitas están restringidas a minutos. Las voces deben ser suaves. Las preguntas deben poder responderse con un asentimiento o una sola palabra.
 

@@ -9,11 +9,11 @@ lang: pt
 
 Suponha que o défice seletivo de noradrenalina seja real e você use um medicamento que aumente a sinalização de noradrenalina — um NRI como a atomoxetina, ou um inibidor duplo de reabsorção de dopamina/noradrenalina como o solriamfetol. O que você deve esperar?
 
-A resposta deriva do que o défice está correlacionado com. No estudo de origem, a via da noradrenalina acompanhou **resistência ao aperto de mão e pontuações de fadiga** — saída motora e perceção de saúde geral — e a maior redução ocorreu no **subgrupo PEM** (@Aregawi2026Noradrenergic).
+A resposta deriva do que o défice está correlacionado com. No estudo de origem, a via da noradrenalina acompanhou **resistência ao aperto de mão e pontuações de fadiga** — saída motora e perceção de saúde geral — e a maior redução ocorreu no **subgrupo MPE** (@Aregawi2026Noradrenergic).
 
 **Esperar razoavelmente (modestamente):**
 - **Fadiga / resistência motora ao esforço** — o sinal mais forte, ainda que transversal.
-- **Mal-estar pós-esforço** — plausível; o défice está correlacionado com o estado PEM.
+- **Mal-estar pós-esforço** — plausível; o défice está correlacionado com o estado MPE.
 
 **Possível, mas mais fraco:** sono não revigorante e estabilidade de excitação — a função da noradrenalina nos subestados do sono tem evidência animal (@OsorioForero2021NoradrenergicNREM).
 
@@ -27,6 +27,6 @@ A resposta deriva do que o défice está correlacionado com. No estudo de origem
 
 **A armadilha: mascaramento.** Medicamentos de tipo estimulante que aumentam a excitação e o esforço podem fazer você *sentir* mais capaz sem restaurar energia — assim, você faz mais e sofre uma crise mais grave. Este risco de mascaramento é uma preocupação clínica plausível, mas não foi medido num estudo controlado de EM/SFC; trate-o como uma advertência a ser observada, não como um facto estabelecido.
 
-**E o limite difícil:** nenhum ensaio de EM/SFC desses medicamentos usou o PEM como endpoint, portanto cada “esperar” acima é uma inferência de correlação, não um resultado medido. Os dados humanos vêm de outras condições — hipotensão ortostática, narcolepsia, EM, fibromialgia. O único ensaio de EM/SFC desses medicamentos, o do solriamfetol, melhorou a fadiga e a função executiva, mas não mediu o PEM (@Young2025solriamfetol). A amantadina, um antagonista de NMDA com atividade indireta dopaminérgica, *falhou* em ajudar a fadiga da EM (@Cruccioli2026AmantadineMSfatigue).
+**E o limite difícil:** nenhum ensaio de EM/SFC desses medicamentos usou o MPE como endpoint, portanto cada “esperar” acima é uma inferência de correlação, não um resultado medido. Os dados humanos vêm de outras condições — hipotensão ortostática, narcolepsia, EM, fibromialgia. O único ensaio de EM/SFC desses medicamentos, o do solriamfetol, melhorou a fadiga e a função executiva, mas não mediu o MPE (@Young2025solriamfetol). A amantadina, um antagonista de NMDA com atividade indireta dopaminérgica, *falhou* em ajudar a fadiga da EM (@Cruccioli2026AmantadineMSfatigue).
 
 Tudo aqui se baseia num único estudo de líquido cefalorraquidiano não replicado com 16 pacientes (@Aregawi2026Noradrenergic). *Esta não é orientação médica. Qualquer ensaio desses medicamentos deve ser feito com um médico, com pacing e verificações autonómicas basais.*

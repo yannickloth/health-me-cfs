@@ -20,16 +20,16 @@ Hay dos errores posibles cuando una prueba falla:
 | Error | Coste |
 |---------|------|
 | **Descartar la droga antes de tiempo** — la droga funciona con una dosis que nunca has probado; debes buscar en otros lugares durante años | Años, además del riesgo acumulado de cada alternativa probada en el tiempo |
-| **Búsqueda interminable de dosis** — sin condición de parada; el pensamiento “quizás la dosis estaba equivocada” justifica probar una vez más y otra vez | Presupuesto de energía, riesgo de PEM y una búsqueda que nunca puede terminar |
+| **Búsqueda interminable de dosis** — sin condición de parada; el pensamiento “quizás la dosis estaba equivocada” justifica probar una vez más y otra vez | Presupuesto de energía, riesgo de MPE y una búsqueda que nunca puede terminar |
 
 Los costes son asimétricos y apuntan en direcciones opuestas —por eso ningún error puede resolverse simplemente advirtiendo sobre el otro. “No descartes demasiado rápido”, por sí solo, se convierte en la búsqueda interminable. “Sigue adelante rápidamente”, por sí solo, se convierte en el veredicto prematuro. La única solución es una estrategia de búsqueda con *estructura*: pasos siguientes ordenados, medidas de resultado definidas y condiciones de parada. El resto de este artículo construye esa estructura.
 
-Un ejemplo ilustrativo (un caso compuesto, no una persona específica) resume todo. Una paciente que recibe dosis bajas de aripiprazol (LDA) de 1 mg — una dosis con beneficios bien documentados en el piloto de dosis baja de aripiprazol para EM/SFC (promedio de la cohorte ~1,1 mg/día) [@Crosby2021LDA] — participa en un ensayo de 5 días a 0,75 mg para probar si el sueño mejoraría. No ocurre. Peor aún: la fatiga empeora y se produce un episodio de PEM después de tres horas de conducción, acompañado de una fuerte migraña. Una breve escalada a 1,5 mg tampoco funciona. La paciente vuelve a 1 mg y se recupera.
+Un ejemplo ilustrativo (un caso compuesto, no una persona específica) resume todo. Una paciente que recibe dosis bajas de aripiprazol (LDA) de 1 mg — una dosis con beneficios bien documentados en el piloto de dosis baja de aripiprazol para EM/SFC (promedio de la cohorte ~1,1 mg/día) [@Crosby2021LDA] — participa en un ensayo de 5 días a 0,75 mg para probar si el sueño mejoraría. No ocurre. Peor aún: la fatiga empeora y se produce un episodio de MPE después de tres horas de conducción, acompañado de una fuerte migraña. Una breve escalada a 1,5 mg tampoco funciona. La paciente vuelve a 1 mg y se recupera.
 
 Se lee de ambos modos:
 
 - **Lectura incorrecta:** “Las dosis de aripiprazol son impredecibles; la droga es frágil; evite experimentar.” (También tentador: “el ensayo falló, algo no está bien.”)
-- **Lectura correcta:** un resultado negativo, limpio, económico y de tiempo limitado que *refuerza* el caso a favor de la droga. La prueba se realiza a 0,75 mg (demasiado baja — se pierde la protección contra PEM) y a 1,5 mg (sin beneficio adicional), y el pico se mantiene en 1 mg. Siete días de riesgo permiten obtener un mapa más nítido de respuesta a la dosis.
+- **Lectura correcta:** un resultado negativo, limpio, económico y de tiempo limitado que *refuerza* el caso a favor de la droga. La prueba se realiza a 0,75 mg (demasiado baja — se pierde la protección contra MPE) y a 1,5 mg (sin beneficio adicional), y el pico se mantiene en 1 mg. Siete días de riesgo permiten obtener un mapa más nítido de respuesta a la dosis.
 
 Eso es lo que ocurre cuando un ensayo falla, pero la estrategia de búsqueda es adecuada. La reputación de la droga mejora porque la *dosis* absorbe el fracaso.
 
@@ -96,7 +96,7 @@ La información más poco utilizada en los informes de pacientes es la respuesta
 
 Una respuesta parcial dice algo que una respuesta nula plana no dice: **el objetivo es relevante** — algún sistema afectado por la droga está relacionado con algún síntoma — pero la dosis o la correspondencia entre el síntoma y el mecanismo es incorrecta. La respuesta correcta a una respuesta parcial casi nunca es descartarla. Es una descomposición: qué síntoma se movió, en qué dirección, a qué dosis — y si ese patrón coincide con alguna banda de dosis conocida de la droga? (Para medicamentos con múltiples mecanismos a diferentes concentraciones, esta descomposición es exactamente para lo que sirve el atlas de dosis — véase [La Farmacopea](../pharmacopoeia-dose-meaning/).
 
-El ejemplo ilustrativo anterior contenía una respuesta parcial que sería invisible sin descomposición: a 0,75 mg, la protección contra PEM *empeora* mientras la cuestión del sueño sigue abierta. Esa disociación — pérdida de protección mientras el sueño no cambia — es lo que distingue “dosis incorrecta para todo” de “dosis incorrecta solo para el sueño”, y se puede ver con una sola tabla.
+El ejemplo ilustrativo anterior contenía una respuesta parcial que sería invisible sin descomposición: a 0,75 mg, la protección contra MPE *empeora* mientras la cuestión del sueño sigue abierta. Esa disociación — pérdida de protección mientras el sueño no cambia — es lo que distingue “dosis incorrecta para todo” de “dosis incorrecta solo para el sueño”, y se puede ver con una sola tabla.
 
 ---
 
@@ -129,7 +129,7 @@ El protocolo de una página:
 | Resultado principal (definido con antelación) | Calidad/cantidad del sueño, autoevaluación nocturna |
 | Condiciones para detenerse | Sin cambio al día 5 → regresar a 1 mg; empeoramiento → regresar inmediatamente |
 | Fecha de revisión | Fija y escrita |
-| Riesgos conocidos y monitoreo | Respuesta previa a 1 mg documentada; riesgo de PEM reconocido |
+| Riesgos conocidos y monitoreo | Respuesta previa a 1 mg documentada; riesgo de MPE reconocido |
 
 Una prueba de este tipo, con el acuerdo del médico, puede dar una respuesta decisiva en una semana. El protocolo es la persuasión: muestra al médico que “volver a intentar con una dosis diferente” no es reabrir un viejo debate, sino realizar un pequeño experimento limitado con un final definido.
 
@@ -159,6 +159,6 @@ Tres advertencias, expresadas de manera clara porque la fuerza del argumento inv
 
 ---
 
-*Este artículo es un análisis entre pacientes basado en la farmacología establecida — consulte [@Loth2026mecfs] para el marco de dosis-respuesta subyacente — y no constituye consejo médico. Cada ensayo discutido requiere el acuerdo del médico prescriptor; varios de los medicamentos mencionados requieren preparación personalizada o prescripción fuera del rango de uso indicado. Los ensayos para EM/SFC conllevan riesgo de PEM: la actividad física durante un ensayo de dosis es actividad física durante un experimento sobre tu propio límite.*
+*Este artículo es un análisis entre pacientes basado en la farmacología establecida — consulte [@Loth2026mecfs] para el marco de dosis-respuesta subyacente — y no constituye consejo médico. Cada ensayo discutido requiere el acuerdo del médico prescriptor; varios de los medicamentos mencionados requieren preparación personalizada o prescripción fuera del rango de uso indicado. Los ensayos para EM/SFC conllevan riesgo de MPE: la actividad física durante un ensayo de dosis es actividad física durante un experimento sobre tu propio límite.*
 
 *Serie de dosis-respuesta: [Parte 1: ¿Por qué más no es mejor?](../more-isnt-better-ldn-lda/) · [Parte 2: El U invertido no es una sola cosa](../inverted-u-not-one-thing/) · [Parte 3: Tu dosis de LDN es un diagnóstico](../dose-is-diagnostic-ldn/) · [Parte 4: La farmacopea](../pharmacopoeia-dose-meaning/) · [Parte 5: Cómo realizar un ensayo de búsqueda de dosis](../dose-finding-protocols/) · Relacionado (este artículo)*

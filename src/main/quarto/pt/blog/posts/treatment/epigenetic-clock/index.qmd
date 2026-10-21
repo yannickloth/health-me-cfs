@@ -65,7 +65,7 @@ Para pacientes que já estão num estado de consolidação, este caminho ainda e
 
 A resposta óbvia a uma janela de tratamento precoce é: identificar pacientes cedo e tratá-los. Na prática, vários fatores impedem isso.
 
-O diagnóstico de EM/SFC é geralmente atrasado. Estudos indicam que 29% dos pacientes esperam mais de cinco anos por um diagnóstico e mais de 70% consultam quatro ou mais médicos antes de receber um [IOM 2015]; no período após uma infeção aguda, a apresentação inicial é frequentemente considerada fadiga pós-infecciosa que se resolverá, e as características distintivas — PEM com sua latência específica, sono não revigorante, disfunção cognitiva — podem não ser reconhecidas ou avaliadas formalmente durante anos.
+O diagnóstico de EM/SFC é geralmente atrasado. Estudos indicam que 29% dos pacientes esperam mais de cinco anos por um diagnóstico e mais de 70% consultam quatro ou mais médicos antes de receber um [IOM 2015]; no período após uma infeção aguda, a apresentação inicial é frequentemente considerada fadiga pós-infecciosa que se resolverá, e as características distintivas — MPE com sua latência específica, sono não revigorante, disfunção cognitiva — podem não ser reconhecidas ou avaliadas formalmente durante anos.
 
 Mesmo quando diagnosticado cedo, não existem tratamentos modificadores da doença aprovados para EM/SFC e não há consenso clínico sobre o que a intervenção precoce deve consistir. O caminho acessível ao paciente proposto pelo modelo — suporte anti-inflamatório contínuo combinado com suplementação metabólica — é uma sugestão em fase de pesquisa, e não um protocolo validado.
 

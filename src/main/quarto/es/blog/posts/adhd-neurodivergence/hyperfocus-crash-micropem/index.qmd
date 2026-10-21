@@ -25,7 +25,7 @@ Nunca ha sido estudiado formalmente.
 
 ## Malestar post-esfuerzo en EM/SFC
 
-El malestar post-esfuerzo (PEM) es el síntoma característico de EM/SFC. Los Criterios de Consenso Internacional lo requieren para el diagnóstico. Sus características son:
+El malestar post-esfuerzo (MPE) es el síntoma característico de EM/SFC. Los Criterios de Consenso Internacional lo requieren para el diagnóstico. Sus características son:
 
 - El esfuerzo físico o cognitivo supera la capacidad de producción de energía del cuerpo
 - Se produce una crisis, generalmente 12 a 48 horas después
@@ -38,7 +38,7 @@ El malestar post-esfuerzo (PEM) es el síntoma característico de EM/SFC. Los Cr
 
 ## La paralela
 
-| Característica | Crisis de hiperenfoque en TDAH | EM/SFC PEM |
+| Característica | Crisis de hiperenfoque en TDAH | EM/SFC MPE |
 | --- | --- | --- |
 | Desencadenante | Esfuerzo cognitivo sostenido | Esfuerzo físico o cognitivo |
 | Inicio | Durante o inmediatamente después del esfuerzo | 12–48 horas después del esfuerzo |
@@ -49,7 +49,7 @@ El malestar post-esfuerzo (PEM) es el síntoma característico de EM/SFC. Los Cr
 
 La superposición fenomenológica es sorprendente. Ambos involucran una actividad que se siente manejable *durante* la realización, seguida por un coste de recuperación que supera con creces lo que el esfuerzo "debería" requerir.
 
-*Advertencia importante: la similitud fenomenológica no demuestra identidad mecanicista. La crisis posterior al hiperenfoque tiene explicaciones alternativas bien establecidas: (a) agotamiento de dopamina después de un estado hiperdopaminérgico sostenido; (b) agotamiento de la función ejecutiva (el modelo del "agotamiento del ego"); (c) rebote cuando el estado compensatorio de hiperenfoque termina y el déficit de atención subyacente vuelve a manifestarse. Estas son las explicaciones habituales para el TDAH. La hipótesis de micro-PEM es una alternativa novedosa que aún no ha sido estudiada.*
+*Advertencia importante: la similitud fenomenológica no demuestra identidad mecanicista. La crisis posterior al hiperenfoque tiene explicaciones alternativas bien establecidas: (a) agotamiento de dopamina después de un estado hiperdopaminérgico sostenido; (b) agotamiento de la función ejecutiva (el modelo del "agotamiento del ego"); (c) rebote cuando el estado compensatorio de hiperenfoque termina y el déficit de atención subyacente vuelve a manifestarse. Estas son las explicaciones habituales para el TDAH. La hipótesis de micro-MPE es una alternativa novedosa que aún no ha sido estudiada.*
 
 ---
 
@@ -88,7 +88,7 @@ Los datos de ALSPAC lo respaldan: los niños con rasgos de TDAH a los 9 años te
 
 ## Lo que esto predice
 
-Si la hipótesis del micro-PEM es correcta, varias cosas deberían ser medibles:
+Si la hipótesis del micro-MPE es correcta, varias cosas deberían ser medibles:
 
 1. **Lactato sanguíneo** debería aumentar después de un esfuerzo cognitivo sostenido en pacientes con TDAH en comparación con los controles
 2. **Tiempo de recuperación cognitiva** debería escalar de manera no lineal con la duración de la sesión (no proporcionalmente)
@@ -106,7 +106,7 @@ Para pacientes con TDAH:
 
 - **La crisis después del hiperenfoque no es pereza.** Es un agotamiento de energía. Trátala con el mismo respeto que tratarías la extenuación física después de correr.
 - **Temporizadores externos, no conciencia interna.** Los cerebros con TDAH no pueden detectar de manera fiable el agotamiento de energía hasta que ocurre la crisis. Utiliza bloques cognitivos de 25 minutos con descansos obligatorios de 10 minutos.
-- **Límites estrictos para el enfoque sostenido.** Máximo 4 bloques cognitivos por sesión. La hipótesis del micro-PEM predice que los daños se acumulan antes de que aparezcan síntomas; para cuando sientas el problema, ya habrás sobrepasado los límites. *(Estos números son puntos de partida; trabaja con tu médico o terapeuta ocupacional para determinar tus límites individuales.)*
+- **Límites estrictos para el enfoque sostenido.** Máximo 4 bloques cognitivos por sesión. La hipótesis del micro-MPE predice que los daños se acumulan antes de que aparezcan síntomas; para cuando sientas el problema, ya habrás sobrepasado los límites. *(Estos números son puntos de partida; trabaja con tu médico o terapeuta ocupacional para determinar tus límites individuales.)*
 - **La interrupción del hiperenfoque es médica, no opcional.** Para un paciente con EM/SFC, "guardar" el hiperenfoque es como "guardar" un sprint para alguien con fractura por estrés. La capacidad existe, pero su uso causa daños.
 
 Para médicos:

@@ -99,7 +99,7 @@ Este gradiente — desde una anulación intacta con una recuperación afectada, 
 
 ## ¿Qué significa esto en la práctica?
 
-Entender la PEM como un sistema de costes aplazados — préstamos normales, reembolsos fallidos — tiene implicaciones específicas.
+Entender el MPE como un sistema de costes aplazados — préstamos normales, reembolsos fallidos — tiene implicaciones específicas.
 
 El esfuerzo continuo causa daño porque cada actividad recurre a un sistema de recuperación que no puede cancelar la deuda; el siguiente esfuerzo comienza desde una base aún peor. El sistema no se adapta hacia arriba. Se degrada — y esa degradación es la consecuencia celular de descubiertos repetidos en una cuenta que no puede ser reabastecida.
 
@@ -117,6 +117,6 @@ El argumento evolutivo aquí se refiere a la *selección*, no al diseño. El cue
 
 La arquitectura de costes pospuestos no es un defecto en la biología humana. Era supervivencia. En EM/SFC, esa misma arquitectura persiste — pero en un cuerpo donde la segunda mitad del ciclo, la restauración, ha sido dañada por una enfermedad. El sistema está llevando a cabo el primer acto de un programa de dos actos. El segundo acto no llega.
 
-Eso es lo que es PEM: no es debilidad, no es evitación, no es un síntoma que se ignore.
+Eso es lo que es MPE: no es debilidad, no es evitación, no es un síntoma que se ignore.
 
 Es la biología funcionando exactamente como estaba diseñada para funcionar — excepto que el ciclo de reparación que siempre debía seguir el esfuerzo ha sido eliminado.

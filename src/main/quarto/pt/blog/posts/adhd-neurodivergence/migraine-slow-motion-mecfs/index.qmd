@@ -92,7 +92,7 @@ Gatilhos de enxaqueca e gatilhos de recaídas EM/SFC se sobrepõem quase complet
 | Gatilho | Enxaqueca | Recaída EM/SFC |
 | --- | --- | --- |
 | Privação do sono | Sim | Sim |
-| Esforço físico | Sim | Sim (PEM) |
+| Esforço físico | Sim | Sim (MPE) |
 | Jejum / saltar refeições | Sim | Sim |
 | Estresse emocional | Sim | Sim |
 | Alterações hormonais | Sim | Sim |

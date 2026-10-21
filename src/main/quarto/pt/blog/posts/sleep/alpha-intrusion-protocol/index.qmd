@@ -43,7 +43,7 @@ A terapia padrão de restrição do sono faz as pessoas passarem menos tempo na 
 
 **Cálculo do alvo.** O tempo inicial na cama deve ser 30-45 minutos acima do tempo médio de sono real. Se o sono real for de 6 horas, isso significa 6,5-6,75 horas na cama. Para pacientes com horários de trabalho fixos, o tempo na cama pode precisar alinhar-se com os horários de início do trabalho, mesmo que difira do ritmo circadiano ideal.
 
-**Monitorização e ajuste.** Calcule a eficiência do sono: (tempo dormido ÷ tempo na cama) × 100. Se a eficiência ultrapassar 85%, o tempo na cama deve ser reduzido em 15 minutos semanalmente. Se a eficiência cair abaixo de 80% ou o PEM for desencadeado, o tempo na cama deve ser aumentado em 15 minutos semanalmente. A faixa de eficiência alvo é de 80-85% — inferior à meta saudável de 85-90%, pois o sono em EM/SFC é fragmentado. Pacientes que trabalham podem ter como alvo inicial 75-80% de eficiência, com aumento gradual para 80-85% se tolerado.
+**Monitorização e ajuste.** Calcule a eficiência do sono: (tempo dormido ÷ tempo na cama) × 100. Se a eficiência ultrapassar 85%, o tempo na cama deve ser reduzido em 15 minutos semanalmente. Se a eficiência cair abaixo de 80% ou o MPE for desencadeado, o tempo na cama deve ser aumentado em 15 minutos semanalmente. A faixa de eficiência alvo é de 80-85% — inferior à meta saudável de 85-90%, pois o sono em EM/SFC é fragmentado. Pacientes que trabalham podem ter como alvo inicial 75-80% de eficiência, com aumento gradual para 80-85% se tolerado.
 
 **Manutenção regular.** Uma vez estável na eficiência alvo, isso continua por 2-4 semanas antes de considerar mais redução. A consistência fortalece o sistema de pressão do sono. Mudanças no horário de trabalho podem exigir recalcular a base.
 
@@ -99,7 +99,7 @@ Evitar completamente a cafeína requer compromisso, mas vale a pena. A cafeína 
 
 Exercício aumenta o sono de ondas lentas em populações saudáveis [@Kredlow2015exerciseSleep]. Mas os pacientes com EM/SFC têm mal-estar pós-esforço — exercício além do envelope de energia causa agravamento dos sintomas que dura dias a semanas.
 
-Se tolerado, exercício de baixa intensidade em posição recumbente (ciclismo recumbente, alongamento suave) realizado pelo menos 4 horas antes de dormir pode melhorar a arquitetura do sono sem desencadear PEM. Os pacientes não devem praticar exercício para benefícios de sono se isso piora a função de base.
+Se tolerado, exercício de baixa intensidade em posição recumbente (ciclismo recumbente, alongamento suave) realizado pelo menos 4 horas antes de dormir pode melhorar a arquitetura do sono sem desencadear MPE. Os pacientes não devem praticar exercício para benefícios de sono se isso piora a função de base.
 
 ### Considerações relacionadas ao trabalho
 

@@ -11,7 +11,7 @@ Catecolaminas são uma família de substâncias químicas cerebrais relacionadas
 
 Isso não é o que uma análise de 2026 descobriu.
 
-Utilizando líquido cefalorraquidiano de pessoas com EM/SFC e condições relacionadas, Aregawi e colaboradores construíram índices compostos para as duas principais vias. A **via da noradrenalina** (noradrenalina mais seus metabólitos DHPG e MHPG) foi significativamente mais baixa em EM/SFC pós-infecciosa e em pacientes pós-covid com mal-estar pós-esforço. A **via da dopamina** (dopamina mais seus metabólitos DOPAC e HVA) foi estatisticamente indistinguível dos controles saudáveis (@Aregawi2026Noradrenergic). Dentro do grupo pós-covid, apenas o subgrupo com PEM foi baixo.
+Utilizando líquido cefalorraquidiano de pessoas com EM/SFC e condições relacionadas, Aregawi e colaboradores construíram índices compostos para as duas principais vias. A **via da noradrenalina** (noradrenalina mais seus metabólitos DHPG e MHPG) foi significativamente mais baixa em EM/SFC pós-infecciosa e em pacientes pós-covid com mal-estar pós-esforço. A **via da dopamina** (dopamina mais seus metabólitos DOPAC e HVA) foi estatisticamente indistinguível dos controles saudáveis (@Aregawi2026Noradrenergic). Dentro do grupo pós-covid, apenas o subgrupo com MPE foi baixo.
 
 **Por que a seletividade importa.** A noradrenalina é produzida *a partir* da dopamina por uma enzima chamada dopamina-β-hidroxilase (DBH). A DBH fica *dentro* das vesículas sinápticas. Mas a dopamina precisa primeiro ser bombeada para a vesícula por uma proteína diferente, **VMAT2**, impulsionada por um gradiente de protões impulsionado por ATP; a dopamina citoplasmática nunca precisa desse passo de transporte.
 

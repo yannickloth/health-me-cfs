@@ -58,7 +58,7 @@ A lição aplica-se a todos os outros sinais de tratamento de estudo aberto em E
 
 ## Resultados esperados
 
-- **A resposta ao tratamento no melhor caso é parcial.** Mesmo nas séries de estudo aberto positivas, “responder” significava uma melhoria clinicamente significativa — não recuperação, não retorno ao trabalho, não normalização da PEM. Os tratamentos reduzem a contribuição autoimune; eles não curam a EM/SFC.
+- **A resposta ao tratamento no melhor caso é parcial.** Mesmo nas séries de estudo aberto positivas, “responder” significava uma melhoria clinicamente significativa — não recuperação, não retorno ao trabalho, não normalização do MPE. Os tratamentos reduzem a contribuição autoimune; eles não curam a EM/SFC.
 - **A resposta ao IVIG pode levar 3–6 meses.** A combinação da diluição de anticorpos e dos efeitos imunomoduladores dos glicanos Fc é gradual. Um único ciclo não é um teste adequado, mas um resultado nulo após 6 meses de dose adequada é suficiente para parar.
 - **A imunoadsorção funciona bioquimicamente — a IgG diminui em 80% — mas isso não garante melhoria clínica.** A discordância Anft 2025 (anticorpos desaparecidos, sintomas inalterados) é o ponto de dados de cautela. A IA diz algo sobre o anticorpo; a resposta clínica diz algo sobre se o anticorpo foi patogênico.
 - **O Daratumumab responde com uma latência de 8–9 meses, se o sinal for real.** Esta é a latência mais longa de qualquer tratamento direcionado a imunidade, e significa que um teste de 3–6 meses pode ser falsamente negativo. Um teste de 12 meses é o mínimo para avaliar o sinal do Daratumumab — e tal teste ainda não foi realizado.

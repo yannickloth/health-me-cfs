@@ -23,7 +23,7 @@ Este é o sinal de tipo de célula mais forte nessa análise, embora seja um pr�
 
 ### Nível 1: Precursores e inibidores de reabsorção
 
-**Metilfenidato (Ritalin).** Um inibidor do DAT que aumenta a dopamina sináptica. Já é o medicamento de dopamina mais estudado em EM/SFC. O RCT de Blockmans (n = 60, duplo-cego cruzado) encontrou melhorias significativas nos índices de fadiga e concentração, mas sem alteração no funcionamento físico ou na qualidade de vida [@Blockmans2006MPHCFS]. O perfil de efeitos colaterais está bem caracterizado ao longo de décadas de uso da PHDA — mas apresenta o risco específico de mascarar a PEM (ver advertências abaixo).
+**Metilfenidato (Ritalin).** Um inibidor do DAT que aumenta a dopamina sináptica. Já é o medicamento de dopamina mais estudado em EM/SFC. O RCT de Blockmans (n = 60, duplo-cego cruzado) encontrou melhorias significativas nos índices de fadiga e concentração, mas sem alteração no funcionamento físico ou na qualidade de vida [@Blockmans2006MPHCFS]. O perfil de efeitos colaterais está bem caracterizado ao longo de décadas de uso da PHDA — mas apresenta o risco específico de mascarar o MPE (ver advertências abaixo).
 
 **Bupropiona (Wellbutrin).** Um inibidor do DAT/NET com menos potencial de abuso em comparação com o metilfenidato. Usado para depressão e cessação do tabagismo. Possui um efeito anti-inflamatório fraco através da redução do TNF-alfa, o que pode ser relevante numa doença com neuroinflamação documentada.
 
@@ -61,7 +61,7 @@ Nada disto foi suficiente para uma justificação de tratamento confiante antes 
 
 ## Considerações importantes: quatro razões para ter cuidado
 
-**1. Estimulantes podem mascarar PEM.** Metilfenidato e bupropiona melhoram a energia subjetiva e a cognição. O paciente se sente mais capaz — e pode ultrapassar seu verdadeiro envelope de energia. O resultado não é um melhor resultado, mas uma crise atrasada.
+**1. Estimulantes podem mascarar MPE.** Metilfenidato e bupropiona melhoram a energia subjetiva e a cognição. O paciente se sente mais capaz — e pode ultrapassar seu verdadeiro envelope de energia. O resultado não é um melhor resultado, mas uma crise atrasada.
 
 **2. Agonistas de dopamina têm efeitos colaterais significativos.** Distúrbios de controle de impulsos não são raros com pramipexol e ropinirol. Aumento dos sintomas com escalada da dose ocorre em pacientes com RLS que tomam esses medicamentos. Náusea e hipotensão ortostática são comuns no início do tratamento.
 

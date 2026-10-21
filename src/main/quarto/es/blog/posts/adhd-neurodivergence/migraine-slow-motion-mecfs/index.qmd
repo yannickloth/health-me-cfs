@@ -92,7 +92,7 @@ Los desencadenantes de la migraña y los desencadenantes de las recaídas en EM/
 | Desencadenante | Migraña | Recaída EM/SFC |
 | --- | --- | --- |
 | Privación del sueño | Sí | Sí |
-| Esfuerzo físico | Sí | Sí (PEM) |
+| Esfuerzo físico | Sí | Sí (MPE) |
 | Ayuno / omitir comidas | Sí | Sí |
 | Estrés emocional | Sí | Sí |
 | Cambios hormonales | Sí | Sí |

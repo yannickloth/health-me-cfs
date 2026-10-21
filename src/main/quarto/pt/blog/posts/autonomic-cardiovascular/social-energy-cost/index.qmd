@@ -97,7 +97,7 @@ O afeto negativo amplifica a percepção dos sintomas somáticos na EM/SFC. Um e
 
 A consequência social é grave. O ambiente é simultaneamente exaustivo (draina ATP), cognitivamente exigente e — quando fica ruim — emocionalmente angustiante. Cada dimensão alimenta as outras. A exaustão prejudica o processamento cognitivo. A sobrecarga cognitiva aumenta a probabilidade de fricção social. A fricção gera sofrimento emocional — e também defensividade, retirada ou agressão. O sofrimento amplifica os sintomas. Os sintomas consumem mais energia. O ciclo se torna mais rigoroso.
 
-A retirada social não é uma escolha neste contexto. É um quebra de circuito. Remover a demanda social elimina a carga cognitiva, a complexidade emocional e o risco de entrar numa espiral de amplificação cujo custo — dias de crise PEM — excede em muito qualquer benefício.
+A retirada social não é uma escolha neste contexto. É um quebra de circuito. Remover a demanda social elimina a carga cognitiva, a complexidade emocional e o risco de entrar numa espiral de amplificação cujo custo — dias de crise MPE — excede em muito qualquer benefício.
 
 ---
 
@@ -171,7 +171,7 @@ A tragédia é que, sem diagnóstico — sem entender que essas mudanças são s
 
 A presença silenciosa e imóvel na sala não é passiva. O cérebro trabalha ativamente — alocando, monitorando e conservando recursos.
 
-A cada poucos segundos, uma computação interna ocorre: *quantas energias tenho, quanto exigirá o próximo minuto, qual é a forma menos dispendiosa de permanecer presente?* O paciente monitora a carga sensorial, os níveis de ruído, a complexidade visual e o número de falantes. Monitoram o estado autonómico — frequência cardíaca, respiração, sinais de alerta precoce de PEM. Avaliam o custo de cada ação potencial. Falar agora ou economizar essa energia para se levantar mais tarde. Defender contra aquele comentário ou deixar passar e economizar a ATP.
+A cada poucos segundos, uma computação interna ocorre: *quantas energias tenho, quanto exigirá o próximo minuto, qual é a forma menos dispendiosa de permanecer presente?* O paciente monitora a carga sensorial, os níveis de ruído, a complexidade visual e o número de falantes. Monitoram o estado autonómico — frequência cardíaca, respiração, sinais de alerta precoce de MPE. Avaliam o custo de cada ação potencial. Falar agora ou economizar essa energia para se levantar mais tarde. Defender contra aquele comentário ou deixar passar e economizar a ATP.
 
 E quando a energia fica muito baixa para essa gestão — quando o próprio monitoramento se torna muito caro — o sistema ajusta-se ao modo mais barato: defesa. Cada entrada é uma ameaça potencial. Cada pergunta é uma exigência. Cada sorriso é um pedido de retirada de recursos num conta vazia. A personalidade que emerge — crítica, distante, reativa — não é a pessoa. É a pessoa desprovida dos recursos metabólicos necessários para ser generosa.
 
@@ -187,7 +187,7 @@ Esse é um comportamento racional no contexto de uma doença metabólica não re
 
 ## EM/SFC grave: quando até um sussurro desencadeia uma crise
 
-Para pacientes graves, o custo energético da socialização ultrapassa um limiar em que até a interação mínima é perigosa. Uma conversa sussurrada — algumas frases, faladas lentamente por alguém ao lado da cama — pode desencadear uma crise PEM que dura dias. As conversas são classificadas como proibidas na hierarquia de triagem cognitiva para EM/SFC grave [@Loth2026website].
+Para pacientes graves, o custo energético da socialização ultrapassa um limiar em que até a interação mínima é perigosa. Uma conversa sussurrada — algumas frases, faladas lentamente por alguém ao lado da cama — pode desencadear uma crise MPE que dura dias. As conversas são classificadas como proibidas na hierarquia de triagem cognitiva para EM/SFC grave [@Loth2026website].
 
 Neste nível, a presença silenciosa torna-se um silêncio absoluto. O paciente já não é fluido no grupo — ele está ausente dele. Sozinho num quarto escuro, economizando energia para respirar, para engolir, para ficar imóvel. Os visitantes são restringidos a minutos. As vozes devem ser suaves. As perguntas devem ser respondidas com um aceno ou uma única palavra.
 

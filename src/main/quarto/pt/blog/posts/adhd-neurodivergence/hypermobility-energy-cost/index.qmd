@@ -45,7 +45,7 @@ A sobreposição entre hEDS e síndrome de ativação de mastócitos (MCAS) é c
 
 Uma hipótese: o tecido conjuntivo defeituoso fornece sinais mecânicos anormais aos mastócitos que nele residem. Os mastócitos são mecanossensíveis — eles respondem a forças físicas na matriz que os rodeia. Numa matriz extracelular anormal, os sinais mecânicos são anormais, o que pode levar a uma ativação inadequada dos mastócitos.
 
-Quando os mastócitos desgranulam, liberam histamina, prostaglandinas, triptase e uma cadeia de mediadores inflamatórios — de forma sistêmica. O custo energético resultante é significativo: a ativação imunológica consome 20-25% da taxa metabólica basal no pico. A fadiga pós-desgranulação em pacientes com MCAS é profunda e pode durar 24-72 horas, imitando a PEM.
+Quando os mastócitos desgranulam, liberam histamina, prostaglandinas, triptase e uma cadeia de mediadores inflamatórios — de forma sistêmica. O custo energético resultante é significativo: a ativação imunológica consome 20-25% da taxa metabólica basal no pico. A fadiga pós-desgranulação em pacientes com MCAS é profunda e pode durar 24-72 horas, imitando o MPE.
 
 Para um paciente com hEDS que também tem MCAS, a equação energética é devastadora: carga de instabilidade estrutural + trabalho cardiovascular compensatório + episódios recorrentes de ativação imunológica = déficit energético crónico antes mesmo de se adicionar qualquer patologia adicional de EM/SFC.
 

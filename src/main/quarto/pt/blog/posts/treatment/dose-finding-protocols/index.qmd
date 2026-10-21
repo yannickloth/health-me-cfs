@@ -27,7 +27,7 @@ Três regras universais antes de qualquer protocolo:
 
 1. **Defina o resultado principal antes da primeira dose.** Uma única medida. Se o estudo “para o sono” termina com uma impressão sobre o humor, nada foi testado.
 2. **Escreva as condições de parada e marque a data da revisão.** Um estudo sem data de parada não é um experimento; é um humor (veja a patologia do desvio de dose no [artigo anterior](../dose-first-search-strategy/)).
-3. **Não realize estudos através de uma crise.** Um episódio de PEM durante um estudo de dose mede a PEM, não a dose.
+3. **Não realize estudos através de uma crise.** Um episódio de MPE durante um estudo de dose mede o MPE, não a dose.
 
 ---
 
@@ -56,11 +56,11 @@ Três regras universais antes de qualquer protocolo:
 |-------|----------|------|
 | Escala de doses | 0,5 mg × 3–5 dias (tolerabilidade) → 1 mg × 6 semanas (a janela de avaliação usada clinicamente) | C (Média da coorte de Crosby 2021: 1,1 mg/dia [@Crosby2021LDA]) |
 | Duração do passo | Dias para tolerabilidade, **semanas para eficácia** — não julgar o efeito antes de expirar a janela do prescritor | C |
-| Resultado principal | Escolher conforme o sintoma dominante: frequência de PEM, clareza cognitiva ou sono — apenas um | C |
+| Resultado principal | Escolher conforme o sintoma dominante: frequência de MPE, clareza cognitiva ou sono — apenas um | C |
 | Condições de paragem | Akatisia, agitação ou preocupações com mudança de humor → parar e relatar · sem benefício após 6 semanas → limite definido pelo prescritor de acordo com sua prática | C |
 | Compounding | Abaixo de 2 mg necessário: farmácia de manipulação (comprimidos padrão ≥2 mg) | E |
 | Monitorização | Arquitetura do sono e auto-verificações de humor (os efeitos documentados do LDA são qualitativamente distintos da ativação do tipo estimulante — mas a distinção deve ser *verificada*, não assumida) | C |
-| Regra de re-trial | Uma dose que preservou o sono mas perdeu a proteção da PEM (o padrão de 0,75 mg) significa que a janela é específica para o sintoma — mapear por sintoma, não por droga | S |
+| Regra de re-trial | Uma dose que preservou o sono mas perdeu a proteção do MPE (o padrão de 0,75 mg) significa que a janela é específica para o sintoma — mapear por sintoma, não por droga | S |
 
 **Por que a curta duração pode funcionar:** um teste de 5 dias numa dose menor, com um resultado acordado pelo prescritor e condições de paragem definidas, pode produzir um resultado claramente negativo numa semana — e ainda fortalecer a posição da dose de uso, porque a janela foi testada e mantida. Esse é o protocolo funcionando conforme o projetado.
 
@@ -97,14 +97,14 @@ Três regras universais antes de qualquer protocolo:
 
 ## Metilfenidato (Ritalin MR) e estimulantes de baixa dose
 
-**Alvo:** inibição da recaptação de catecolaminas. No EM/SFC, o padrão documentado é uma curva invertida-U *e* indução de PEM em doses altas de estimulantes. O estudo RCT de crossover duplo-cego constatou que o metilfenidato reduz a fadiga na SFC [@Blockmans2006MPHCFS], e o acompanhamento de longo prazo revelou benefícios duradouros em cerca de um terço dos participantes que continuaram o tratamento, com uma alta taxa de abandono — consistente com o compromisso entre estimulantes e PEM que o protocolo foi desenvolvido para medir [@Blockmans2016LongTermMPH].
+**Alvo:** inibição da recaptação de catecolaminas. No EM/SFC, o padrão documentado é uma curva invertida-U *e* indução de MPE em doses altas de estimulantes. O estudo RCT de crossover duplo-cego constatou que o metilfenidato reduz a fadiga na SFC [@Blockmans2006MPHCFS], e o acompanhamento de longo prazo revelou benefícios duradouros em cerca de um terço dos participantes que continuaram o tratamento, com uma alta taxa de abandono — consistente com o compromisso entre estimulantes e MPE que o protocolo foi desenvolvido para medir [@Blockmans2016LongTermMPH].
 
 | Campo | Protocolo | Nível |
 |-------|----------|------|
-| Escala de doses | Começar bem abaixo das doses que anteriormente causaram problemas — por exemplo, uma tentativa de 10 mg de MR se a dose de 30 mg causou PEM; equivalentes de 5 mg de liberação imediata para passos mais finos | C |
-| Duração do passo | 3–7 dias por nível — os efeitos dos estimulantes tanto no benefício quanto na indução de PEM aparecem rapidamente | C |
-| Resultado principal | Função-per-custo de esforço, não alerta bruto. Um estimulante que gera alerta com PEM é uma perda líquida — a medida de resultado deve ser capaz de identificar essa perda | C |
-| Condições de parada | Indução de PEM num nível → aquele nível está acima da faixa permitida; reduzir a dose, não “passar pelo resto” | C |
+| Escala de doses | Começar bem abaixo das doses que anteriormente causaram problemas — por exemplo, uma tentativa de 10 mg de MR se a dose de 30 mg causou MPE; equivalentes de 5 mg de liberação imediata para passos mais finos | C |
+| Duração do passo | 3–7 dias por nível — os efeitos dos estimulantes tanto no benefício quanto na indução de MPE aparecem rapidamente | C |
+| Resultado principal | Função-per-custo de esforço, não alerta bruto. Um estimulante que gera alerta com MPE é uma perda líquida — a medida de resultado deve ser capaz de identificar essa perda | C |
+| Condições de parada | Indução de MPE num nível → aquele nível está acima da faixa permitida; reduzir a dose, não “passar pelo resto” | C |
 | Observação sobre interação | Documentado no registo principal: combinações de altas doses de estimulantes em EM/SFC não tratado produziram estados semelhantes a excitação/mania — uma consideração absoluta, área de atuação do prescritor | E para a classe de risco |
 
 ---
@@ -146,8 +146,8 @@ Três regras universais antes de qualquer protocolo:
 |-------|----------|------|
 | Escala de doses | Quarto comprimido (25–50 mg) → metade (100 mg) — iniciar *abaixo* dos 100–200 mg padrão, diferente da dose para a população geral | C |
 | Duração do passo | Provas de um único dia, com intervalo ≥48 h, antes de ensaios de dias consecutivos | C |
-| Resultado principal | Vigilância **e** verificação da PEM no dia seguinte — este medicamento provoca mais o erro de “pegar do amanhã” que a medida de resultado do Ritalin visa identificar | C |
-| Condições de paragem | Ansiedade, sobreestimulação → acima da janela · crise no dia seguinte → a interrupção acumula dívida de PEM; o medicamento está a custar mais do que o que paga | C |
+| Resultado principal | Vigilância **e** verificação do MPE no dia seguinte — este medicamento provoca mais o erro de “pegar do amanhã” que a medida de resultado do Ritalin visa identificar | C |
+| Condições de paragem | Ansiedade, sobreestimulação → acima da janela · crise no dia seguinte → a interrupção acumula dívida de MPE; o medicamento está a custar mais do que o que paga | C |
 
 ---
 
@@ -165,7 +165,7 @@ Esse é o estado-alvo de toda a busca: cada estudo — positivo ou nulo — deix
 
 **Os protocolos são modelos, não prescrições.** As doses interagem — entre si, com a fase da doença, com a história pessoal do paciente. Os números ilustrativos vêm da razão farmacológica e da experiência da comunidade EM/SFC, não de ensaios validados; a extrapolação entre pacientes é hipotética. O seu prescritor define os números reais; esses protocolos estruturam a conversa, e vários desses medicamentos (doses baixas compostas, uso fora da indicação, estimulantes) são inacessíveis sem eles.
 
-**O risco PEM é uma variável de ensaio, não uma nota de rodapé.** Cada degrau de cada escada é um experimento realizado num orçamento de energia que não perdoa o excesso. O esforço durante um ensaio de dose é esforço durante um experimento no seu próprio limite — as curtas durações dos protocolos existem em parte por causa disso.
+**O risco MPE é uma variável de ensaio, não uma nota de rodapé.** Cada degrau de cada escada é um experimento realizado num orçamento de energia que não perdoa o excesso. O esforço durante um ensaio de dose é esforço durante um experimento no seu próprio limite — as curtas durações dos protocolos existem em parte por causa disso.
 
 ---
 

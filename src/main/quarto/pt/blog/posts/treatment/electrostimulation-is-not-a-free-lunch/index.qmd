@@ -17,19 +17,19 @@ A estimulação elétrica muscular (EMS), e seu parente NMES direcionado aos ner
 
 As evidências indicam que, **em intensidades mais altas**, a estimulação elétrica provoca micro-trauma do mesmo tipo que o exercício voluntário — em estudos de músculos saudáveis, amplamente comparáveis à contração excêntrica — e impulsiona a mesma cascata de dano para inflamação que ocorre após o dano muscular induzido pelo exercício.
 
-Essa cascata é **uma via envolvida** no mal-estar pós-esforço, mas não está estabilizada. Portanto, há motivos para pensar que a EMS a envolva. A afirmação **não** é que a EMS causa uma crise em todos. É que a suposição tranquilizadora — “isso é passivo, portanto é neutra em relação à PEM” — nunca foi testada.
+Essa cascata é **uma via envolvida** no mal-estar pós-esforço, mas não está estabilizada. Portanto, há motivos para pensar que a EMS a envolva. A afirmação **não** é que a EMS causa uma crise em todos. É que a suposição tranquilizadora — “isso é passivo, portanto é neutra em relação ao MPE” — nunca foi testada.
 
 Note também que “ativar o músculo” e “causar micro-trauma” não são o mesmo mecanismo. A estimulação de baixa intensidade usada para circulação ou prevenção da atrofia, numa dose tolerável por um paciente descondicionado, pode nunca atingir o limite de dano. Se os protocolos que são realmente oferecidos aos pacientes atingem esse limite, é desconhecido — e nenhum estudo EM/SFC mede isso.
 
-A PEM induzida pela EMS é, portanto, uma hipótese valiosa para testar, e não um efeito comprovado.
+o MPE induzida pela EMS é, portanto, uma hipótese valiosa para testar, e não um efeito comprovado.
 
 ## O que não sabemos — e isso é muito
 
 Não vamos exagerar isso. As evidências são **fracas**, e a lista de incógnitas é mais longa do que a tranquilizadora:
 
-- **Não existe ensaio clínico de EMS ou NMES em EM/SFC.** Ninguém mediu o que acontece com a PEM nessa população.
+- **Não existe ensaio clínico de EMS ou NMES em EM/SFC.** Ninguém mediu o que acontece com o MPE nessa população.
 - **As evidências são indiretas.** Os resultados de micro-trauma e inflamação vêm de trabalhos gerais e animais, não de pacientes EM/SFC.
-- **As escalas de tempo não coincidem.** A dor muscular tardia atinge seu pico em dias. Uma crise de PEM pode durar semanas. Essa diferença é inexplicada.
+- **As escalas de tempo não coincidem.** A dor muscular tardia atinge seu pico em dias. Uma crise de MPE pode durar semanas. Essa diferença é inexplicada.
 - **A dose importa e é incontrolável.** O efeito depende da intensidade, e não existe protocolo para essa população.
 - **Existem resultados nulos históricos.** Trabalhos antigos encontraram força muscular normal e comportamento contraativo normal em alguns estudos de EM/SFC, o que contradiz uma história clara.
 - **Há um relatório de caso de dano.** Um, não uma série.
@@ -42,11 +42,11 @@ Se um médico lhe oferecer EMS como uma opção segura e não esforçadora:
 
 - Trate-o como **esforço**, com um orçamento — não como descanso.
 - A **dose é definida pelo médico ou operador, não por você.** Você não pode “começar baixo” por conta própria. Pergunte quem controla a intensidade, duração e frequência.
-- Fique atento a uma **reação retardada**, não imediata. A PEM não aparece durante a sessão. Não há um período de monitorização validado, então acorde um com antecedência — e uma regra de interrupção: se ocorrer uma crise, pare e não teste novamente naquela dose.
+- Fique atento a uma **reação retardada**, não imediata. o MPE não aparece durante a sessão. Não há um período de monitorização validado, então acorde um com antecedência — e uma regra de interrupção: se ocorrer uma crise, pare e não teste novamente naquela dose.
 - Lembre-se de que uma medição normal de força não significa que a resposta metabólica e de recuperação seja normal.
 - A pergunta não respondida — o problema é central ou periférico? — é algo que um ensaio começaria a responder. Não existe nenhum ensaio.
 
-**Descanso é a opção segura padrão após uma crise. Você não é obrigado a adicionar nada.** No entanto, como estratégia contínua, parar a EMS e não fazer nada pode renunciar a um benefício não comprovado — se a EMS previne o descondicionamento na EM/SFC é, em si, algo não testado. Também não sabemos qual é a melhor alternativa: movimento suave dentro do envelope de energia e ritmo, também são pouco comprovados nesta população. São simplesmente as opções que o artigo pode apoiar atualmente. Discuta qualquer mudança com um médico que entenda a PEM.
+**Descanso é a opção segura padrão após uma crise. Você não é obrigado a adicionar nada.** No entanto, como estratégia contínua, parar a EMS e não fazer nada pode renunciar a um benefício não comprovado — se a EMS previne o descondicionamento na EM/SFC é, em si, algo não testado. Também não sabemos qual é a melhor alternativa: movimento suave dentro do envelope de energia e ritmo, também são pouco comprovados nesta população. São simplesmente as opções que o artigo pode apoiar atualmente. Discuta qualquer mudança com um médico que entenda o MPE.
 
 ## O princípio geral
 

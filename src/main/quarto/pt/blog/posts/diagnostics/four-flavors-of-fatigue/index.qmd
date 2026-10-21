@@ -37,9 +37,9 @@ Os quatro estados têm tratamentos diferentes. Aplicar o tratamento de um a um p
 
 Se aquele paciente apresenta fatigabilidade do tipo EM/SFC, o exercício não falha apenas — causa uma deterioração fisiológica mensurável. O teste de exercício cardiopulmonar de dois dias (CPET) mostra que pacientes com EM/SFC que exercitam até o limite no primeiro dia têm um limite de ventilação reduzido, consumo de oxigénio máximo diminuído e transição anaeróbica mais precoce no segundo dia [@Snell2013CPET]. O estado é objetivamente pior após a atividade. Isso é o oposto da descondição, onde o desempenho no segundo dia é preservado ou melhorado. A terapia de exercício gradual aplicada a pacientes com EM/SFC no estudo PACE resultou em relatos de deterioração significativa do paciente — e nenhuma melhoria objetiva nos critérios do próprio estudo quando o protocolo foi reanalisado independentemente [@Wilshire2018].
 
-**Estimulantes** (metilfenidato, modafinilo) ajudam na amotivação e sonolência. Eles aumentam o tónus dopaminérgico e noradrenérgico, melhorando a motivação e o estado de alerta. Na PHDA, são a primeira linha de tratamento. Na EM/SFC, podem melhorar temporariamente a função cognitiva e reduzir a sensação de neblina — mas não impedem a PEM e podem piorá-la ao mascarar sinais de alerta. Um paciente que usa estimulantes sente-se capaz de fazer mais, faz mais e sofre uma crise mais grave.
+**Estimulantes** (metilfenidato, modafinilo) ajudam na amotivação e sonolência. Eles aumentam o tónus dopaminérgico e noradrenérgico, melhorando a motivação e o estado de alerta. Na PHDA, são a primeira linha de tratamento. Na EM/SFC, podem melhorar temporariamente a função cognitiva e reduzir a sensação de neblina — mas não impedem o MPE e podem piorá-la ao mascarar sinais de alerta. Um paciente que usa estimulantes sente-se capaz de fazer mais, faz mais e sofre uma crise mais grave.
 
-**Sono** resolve a sonolência por definição. Parcialmente resolve a fatiga periférica através da reposição de glicogénio e reparação tecidual. Não resolve a fatigabilidade da EM/SFC — os pacientes relatam um sono não reparador independentemente da duração, e o mecanismo subjacente à PEM não é responsivo ao sono. E também não resolve a amotivação — um paciente deprimido pode dormir doze horas e acordar com a mesma ausência de motivação.
+**Sono** resolve a sonolência por definição. Parcialmente resolve a fatiga periférica através da reposição de glicogénio e reparação tecidual. Não resolve a fatigabilidade da EM/SFC — os pacientes relatam um sono não reparador independentemente da duração, e o mecanismo subjacente ao MPE não é responsivo ao sono. E também não resolve a amotivação — um paciente deprimido pode dormir doze horas e acordar com a mesma ausência de motivação.
 
 ---
 
@@ -51,7 +51,7 @@ Especificamente:
 
 1. **Os seus músculos falham sob carga?** (A força de preensão diminui durante esforço contínuo, as pernas não conseguem subir escadas) → Fadiga periférica. Verificar: dinamometria, CK, EMG. Considerar: doença mitocondrial, miastenia gravis, descondicionamento, anemia.
 
-2. **Você desmorona 24-72 horas após a atividade, não durante ela?** → Fatigabilidade / PEM. Verificar: CPET de 2 dias, diário de atividade e sintomas com registo do atraso. Considerar: EM/SFC, síndrome pós-infecciosa.
+2. **Você desmorona 24-72 horas após a atividade, não durante ela?** → Fatigabilidade / MPE. Verificar: CPET de 2 dias, diário de atividade e sintomas com registo do atraso. Considerar: EM/SFC, síndrome pós-infecciosa.
 
 3. **Você adormece involuntariamente em situações passivas?** → Sonolência. Verificar: Escala de Sonolência de Epworth, polissomnografia, MSLT. Considerar: apneia do sono, narcolepsia, hipersomnia idiopática, privação do sono.
 
@@ -65,7 +65,7 @@ A maioria dos pacientes tem um sabor dominante, mas elementos de mais de um. Um 
 
 Isso não é um apelo aos pacientes para "descrever seus sintomas melhor". A carga recai sobre a medicina, não sobre os pacientes. Os instrumentos de avaliação clínica que utilizam uma única escala de fadiga — uma escala visual analógica de 0 a 10 ou uma lista de verificação que pergunta "você sente fadiga: sim/não" — são estruturalmente incapazes de distinguir os quatro estados. Eles misturam fisiopatologias distintas numa única dimensão e, em seguida, se perguntam por que o tratamento não funcionou.
 
-A Escala de Fadiga Chalder, utilizada no estudo PACE para afirmar que a terapia de exercício gradual "funcionou" para EM/SFC, não distingue a fadiga de qualquer outra forma de cansaço. Um paciente pode melhorar na escala Chalder ao se tornar menos deprimido, enquanto desenvolve uma PEM pior. Isso não é uma preocupação teórica.
+A Escala de Fadiga Chalder, utilizada no estudo PACE para afirmar que a terapia de exercício gradual "funcionou" para EM/SFC, não distingue a fadiga de qualquer outra forma de cansaço. Um paciente pode melhorar na escala Chalder ao se tornar menos deprimido, enquanto desenvolve um MPE pior. Isso não é uma preocupação teórica.
 
 Uma avaliação clínica que pergunta "você sente fadiga?" está a perguntar "você sente patologia?" A resposta é sempre sim. Isso não diz nada sobre qual patologia, qual mecanismo ou qual tratamento. É uma pergunta projetada para a epidemiologia, não para o paciente individual sentado à sua frente.
 

@@ -86,7 +86,7 @@ Mucha de la confusión sobre POTS proviene de mezclar dos situaciones que se par
 
 **EM/SFC con POTS (la situación de esta serie).** Cuando POTS se suma a EM/SFC, tres cosas son diferentes:
 
-- **POTS es un único factor que agrava el problema.** La acumulación de sangre y el corazón acelerado consumen energía que el sistema ya carece, y la tensión ortostática puede desencadenar PEM — pero corregir la frecuencia no soluciona la falta de energía ni la desregulación del sistema inmunitario [@Loth2026website].
+- **POTS es un único factor que agrava el problema.** La acumulación de sangre y el corazón acelerado consumen energía que el sistema ya carece, y la tensión ortostática puede desencadenar MPE — pero corregir la frecuencia no soluciona la falta de energía ni la desregulación del sistema inmunitario [@Loth2026website].
 - **Tratar POTS trata a un solo factor.** Si la midodrina o la compresión ayuda a permanecer de pie más tiempo, eso significa que *la acumulación venosa contribuyó a los síntomas ortostáticos*. No indica si la producción de energía, el sistema inmunitario o la inflamación cerebral están mejor.
 - **Un fracaso en un ensayo con medicamento para POTS no significa nada contra tu EM/SFC.** Dado que la intolerancia ortostática en EM/SFC tiene múltiples causas — volumen sanguíneo, eje renina-aldosterona, mediadores de mastocitos, función endotelial y integridad de tejido conectivo — un medicamento que bloquea solo una de estas vías puede fracasar mientras la desregulación autónoma general sigue presente. Y como la enfermedad principal es más grande que cualquier vía individual, un fracaso en el ensayo es una pista sobre *un medicamento en un mecanismo*, no una sentencia sobre si tu enfermedad es real.
 

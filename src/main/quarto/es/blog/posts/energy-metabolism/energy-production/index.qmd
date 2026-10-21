@@ -89,7 +89,7 @@ Este aumento de 7 veces explica por qué los marcadores de estrés oxidativo est
 
 ## ¿Por qué el ejercicio empeora la situación — la biología de la crisis
 
-El síntoma característico de EM/SFC es el malestar post-esfuerzo (PEM): un empeoramiento retrasado y desproporcionado de los síntomas después de un esfuerzo físico, cognitivo o incluso emocional. Esto no es simplemente "estar cansado después del ejercicio". Es un evento metabólico medible.
+El síntoma característico de EM/SFC es el malestar post-esfuerzo (MPE): un empeoramiento retrasado y desproporcionado de los síntomas después de un esfuerzo físico, cognitivo o incluso emocional. Esto no es simplemente "estar cansado después del ejercicio". Es un evento metabólico medible.
 
 La prueba de ejercicio cardiopulmonar de dos días (CPET) muestra algo que no ocurre en ninguna otra condición de fatiga: los pacientes con EM/SFC rinden *peor* en el segundo día que en el primer día. Los controles saludables mantienen o mejoran. Las personas desacondicionadas mantienen. Las personas con depresión mantienen. Solo en EM/SFC el sistema se degrada con el uso.
 
@@ -101,7 +101,7 @@ Nuestro modelo de metabolismo energético explica el mecanismo:
 4. **Aumento de ROS** — las mitocondrias funcionales restantes se someten a mayor presión para compensar, generando un aumento de radicales libres a partir de la cadena de electrones sobrecargada.
 5. **Daño secundario sigue** — pero a una escala de tiempo retrasada. La producción de mediadores inflamatorios alcanza su punto máximo 6-24 horas después del daño tisular. Los efectos posteriores como la hinchazón tisular y la sensibilización nerviosa ocurren horas o días después.
 
-Esta secuencia explica el retraso característico de 12-72 horas del PEM. El esfuerzo es el desencadenante, pero los síntomas provienen de la ola de daño secundario.
+Esta secuencia explica el retraso característico de 12-72 horas del MPE. El esfuerzo es el desencadenante, pero los síntomas provienen de la ola de daño secundario.
 
 Y aquí está la parte crítica: la maquinaria de recuperación también está dañada. En una persona saludable, el daño causado por el ejercicio se repara en una noche. En EM/SFC, los procesos de reparación en sí requieren energía que el sistema no puede asignar.
 
@@ -115,7 +115,7 @@ La estrategia clínica llamada "ritmo" — mantenerse dentro de los límites de 
 
 En EM/SFC, los tres términos se mueven en la dirección equivocada. La capacidad de producción máxima es menor (mitocondrias dañadas). Los costes base pueden ser más altos (la activación inmunitaria crónica quema energía). Los costes de reparación son elevados (el daño oxidativo continuo necesita reparación). Lo que queda para actividades diarias — caminar, pensar, hablar — puede ser sorprendentemente pequeño.
 
-Mantenerse dentro de este marco evita los episodios de PEM. Con el tiempo, nuestro modelo predice que esto podría permitir una recuperación parcial de las mitocondrias reduciendo el daño mediado por ROS que mantiene el ciclo.
+Mantenerse dentro de este marco evita los episodios de MPE. Con el tiempo, nuestro modelo predice que esto podría permitir una recuperación parcial de las mitocondrias reduciendo el daño mediado por ROS que mantiene el ciclo.
 
 ---
 
@@ -151,7 +151,7 @@ Los modelos presentados aquí son un punto de partida, no un punto final. Su val
 
 **Para pacientes**: Tu agotamiento tiene una base biológica — medible, modelable y comprensible desde una resolución cada vez mayor. “Superar” no construye resistencia; daña un sistema ya deteriorado. El ritmo no es psicológico; es la estrategia matemáticamente óptima para un sistema con restricción de energía.
 
-**Para clínicos**: El CPET de dos días (prueba de ejercicio cardiopulmonar) es la prueba diagnóstica más informativa — pero activa de forma fiable PEM, a veces grave y dura semanas. Solo debe realizarse cuando el beneficio diagnóstico o legal (por ejemplo, documentación de discapacidad) justifique el coste para el paciente, y nunca sin consentimiento informado sobre la posible crisis. Cuando se realiza, las disminuciones en VO2max (consumo máximo de oxígeno) al día 2 son específicas de EM/SFC y cuantifican directamente el deterioro metabólico. Considere el apoyo metabólico — CoQ10 (coenzima Q10, un portador de electrones en la cadena de transporte) y precursores de NAD+ — como complementos, con la advertencia de que nuestros modelos predicen el mayor beneficio en deterioro moderado, no en caso leve o grave.
+**Para clínicos**: El CPET de dos días (prueba de ejercicio cardiopulmonar) es la prueba diagnóstica más informativa — pero activa de forma fiable MPE, a veces grave y dura semanas. Solo debe realizarse cuando el beneficio diagnóstico o legal (por ejemplo, documentación de discapacidad) justifique el coste para el paciente, y nunca sin consentimiento informado sobre la posible crisis. Cuando se realiza, las disminuciones en VO2max (consumo máximo de oxígeno) al día 2 son específicas de EM/SFC y cuantifican directamente el deterioro metabólico. Considere el apoyo metabólico — CoQ10 (coenzima Q10, un portador de electrones en la cadena de transporte) y precursores de NAD+ — como complementos, con la advertencia de que nuestros modelos predicen el mayor beneficio en deterioro moderado, no en caso leve o grave.
 
 **Para investigadores**: El campo necesita urgentemente datos longitudinales que rastreen a los pacientes a lo largo del tiempo en múltiples capas biológicas — genética, metabolitos, marcadores inmunitarios, proteínas. Los modelos matemáticos existen para convertir esos datos en predicciones de tratamiento, pero los conjuntos de datos actuales son demasiado pequeños y basados en instantáneas para limitarlos. Proyectos como DecodeME son exactamente lo que se necesita.
 

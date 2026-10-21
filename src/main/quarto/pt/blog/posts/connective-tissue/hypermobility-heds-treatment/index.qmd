@@ -41,7 +41,7 @@ A adaptação, documentada na literatura de reabilitação hEDS, é **treino de 
 - **Trabalho com bandas de resistência** — bandas elásticas fornecem resistência variável que é mais baixa no início do movimento (onde a articulação é mais vulnerável) e mais alta no intervalo médio (onde os estabilizadores estão mais engajados). Este perfil é mais adequado para articulações hipermóbiles do que pesos livres [@Loth2026website].
 - **Evitar carga no fim da amplitude de movimento.** Pacientes hipermóbiles devem parar antes da extensão total ou flexão — os últimos graus de movimento são onde o ligamento, e não o músculo, suporta a carga.
 
-**A restrição EM/SFC.** Tudo o que foi mencionado acima assume que o paciente pode exercitar sem desencadear PEM — e essa suposição falha para a maioria dos pacientes EM/SFC moderados a graves. O documento principal é explícito: não existe estudo de exercício duplo hEDS+EM/SFC. O princípio geral é que as contrações isométricas devem ser breves (segundos, não minutos), dentro do limite anaeróbico, e seguidas por descanso adequado. Se uma sessão de fisioterapia produz PEM — piora retardada da fadiga, sintomas cognitivos ou intolerância ortostática 12–48 horas depois — a carga foi excessiva, independentemente do sentimento das articulações durante a sessão.
+**A restrição EM/SFC.** Tudo o que foi mencionado acima assume que o paciente pode exercitar sem desencadear MPE — e essa suposição falha para a maioria dos pacientes EM/SFC moderados a graves. O documento principal é explícito: não existe estudo de exercício duplo hEDS+EM/SFC. O princípio geral é que as contrações isométricas devem ser breves (segundos, não minutos), dentro do limite anaeróbico, e seguidas por descanso adequado. Se uma sessão de fisioterapia produz MPE — piora retardada da fadiga, sintomas cognitivos ou intolerância ortostática 12–48 horas depois — a carga foi excessiva, independentemente do sentimento das articulações durante a sessão.
 
 ### Suporte e apoio externo
 
@@ -114,7 +114,7 @@ O TGF-β1 é um regulador principal da fibrose e da deposição do ECM. Em hEDS,
 
 Seja realista e tenha paciência. O tratamento da hipermobilidade em EM/SFC é uma estratégia de gestão de toda a vida, não um tratamento com um fim definido.
 
-- **A fisioterapia funciona de forma lenta e parcial.** O fortalecimento isométrico leva meses para produzir ganhos de estabilidade articular mensuráveis. O objetivo não é que as articulações estejam normais — é reduzir subluxações, diminuir a dor e melhorar a função dentro dos limites energéticos. Uma sessão de fisioterapia que não desencadeia PEM é um sucesso; um programa de fisioterapia que produza PEM é um fracasso na dose, não um fracasso pessoal.
+- **A fisioterapia funciona de forma lenta e parcial.** O fortalecimento isométrico leva meses para produzir ganhos de estabilidade articular mensuráveis. O objetivo não é que as articulações estejam normais — é reduzir subluxações, diminuir a dor e melhorar a função dentro dos limites energéticos. Uma sessão de fisioterapia que não desencadeia MPE é um sucesso; um programa de fisioterapia que produza MPE é um fracasso na dose, não um fracasso pessoal.
 - **O suporte circadiano de colágeno é uma intervenção lenta e de baixo sinal.** Se funciona, o efeito será medido em meses — redução da frequência de lesões, estabilidade articular ligeiramente melhorada — e não em dias. O custo é baixo (vitamina C e α-KG são baratas), portanto, um teste de 3–6 meses é razoável se a base mecânica já estiver estabilizada.
 - **Doxiciclina em baixa dose, se funciona, aborda a laxidade adquirida — não a laxidade congênita.** Se a sua hipermobilidade esteve estável desde a infância, a via MMP pode não estar ativa e a doxiciclina pode não fazer nada. Se a sua hipermobilidade piorou na idade adulta, associada a exacerbações de MCAS, a doxiciclina é uma tentativa mecanicamente razoável, mas não comprovada.
 - **Resposta parcial não é fracasso.** Apoiar uma única articulação instável e conseguir digitar sem que um dedo sofra subluxação é um sucesso. Ficar em pé por 3 minutos a mais sem pré-síncope porque utilizou compressão é um sucesso. A falha energética ainda pode existir — você abordou um dos fatores num sistema de múltiplos fatores.
@@ -132,7 +132,7 @@ Se a base mecânica está estabilizada, mas a laxidade articular é progressiva 
 
 Se a doxiciclina não for indicada (laxidade congênita estável, sem MCAS, sem piora em adultos), adicione suporte de colágeno circadiano: ácido ascórbico programado 1000 mg + α-KG 200 mg ao iniciar o sono. Reavaliar após 12 semanas.
 
-Adicione apenas uma intervenção de cada vez, e apenas depois que a anterior foi considerada com uma dose e duração adequadas. Adicionar tudo de uma vez torna impossível saber o que ajudou. Todo o programa funciona sob a condição de que nenhuma sessão cause PEM — se uma sessão de fisioterapia causar PEM, a carga é reduzida, independentemente do que as articulações toleram.
+Adicione apenas uma intervenção de cada vez, e apenas depois que a anterior foi considerada com uma dose e duração adequadas. Adicionar tudo de uma vez torna impossível saber o que ajudou. Todo o programa funciona sob a condição de que nenhuma sessão cause MPE — se uma sessão de fisioterapia causar MPE, a carga é reduzida, independentemente do que as articulações toleram.
 
 ---
 
@@ -142,6 +142,6 @@ O tratamento da hipermobilidade em EM/SFC não possui um único medicamento nem 
 
 A triagem entre congênita e adquirida, o modelo bistável de rigidez da matriz e o cronograma de apoio ao colágeno circadiano foram desenvolvidos no documento principal, não estabelecidos em ensaios clínicos. Trate-os como hipóteses para testar com seu médico, e não como recomendações consolidadas.
 
-**Próximo na mini-série:** o que significa quando esses tratamentos não funcionam — a armadilha de descondicionamento-PEM, o ponto de virada da rigidez da matriz e os limites da medicina atual para um traço tecidual permanente [ver o artigo complementar sobre falha no tratamento].
+**Próximo na mini-série:** o que significa quando esses tratamentos não funcionam — a armadilha de descondicionamento-MPE, o ponto de virada da rigidez da matriz e os limites da medicina atual para um traço tecidual permanente [ver o artigo complementar sobre falha no tratamento].
 
 Para uma visão completa e totalmente citada de como os distúrbios do tecido conjuntivo são avaliados entre os muitos mecanismos candidatos em EM/SFC, consulte [@Loth2026website].

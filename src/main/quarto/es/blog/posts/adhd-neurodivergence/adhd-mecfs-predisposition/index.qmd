@@ -71,11 +71,11 @@ Un estudio de PNAS de 2025 con 3.925 pacientes con EM/SFC encontró [@Eckey2025P
 
 - Los estimulantes mejoraron la **niebla cerebral en el 77,1%**
 - Los estimulantes mejoraron la **percepción de fatiga en el 71,7%**
-- Los estimulantes tuvieron un **efecto neto de -1,5% en PEM**
+- Los estimulantes tuvieron un **efecto neto de -1,5% en MPE**
 
-Esta disociación es exactamente lo que predice el modelo de reserva metabólica. Los estimulantes aumentan la eficiencia de catecolaminas, reduciendo el costo energético de cada unidad cognitiva. Aumentan efectivamente el espacio cognitivo. Pero no aumentan la capacidad máxima de mitocondria. PEM se desencadena por un gasto metabólico total que supera la capacidad de producción, algo que los estimulantes no cambian.
+Esta disociación es exactamente lo que predice el modelo de reserva metabólica. Los estimulantes aumentan la eficiencia de catecolaminas, reduciendo el costo energético de cada unidad cognitiva. Aumentan efectivamente el espacio cognitivo. Pero no aumentan la capacidad máxima de mitocondria. MPE se desencadena por un gasto metabólico total que supera la capacidad de producción, algo que los estimulantes no cambian.
 
-La mejora en la cognición a menudo lleva a un aumento en la actividad — gastando los "ahorros" en lugar de ahorrarlos. El resultado neto: mejor niebla cerebral, PEM sin cambios o peor.
+La mejora en la cognición a menudo lleva a un aumento en la actividad — gastando los "ahorros" en lugar de ahorrarlos. El resultado neto: mejor niebla cerebral, MPE sin cambios o peor.
 
 ---
 

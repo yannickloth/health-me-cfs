@@ -177,7 +177,7 @@ Esta é a distinção central da série, e aplica-se à hipermobilidade de forma
 **EM/SFC com hEDS (a situação sobre a qual esta série fala).** Quando a hipermobilidade se sobrepõe à EM/SFC, três coisas mudam:
 
 - **hEDS é um substrato permissivo, não a doença central.** O tecido conjuntivo frouxo reduz o limite — os vasos acumulam mais, os mastócitos disparam mais facilmente, o microtrauma tecidual libera mais ATP — mas a falha energética e a desregulação imune da EM/SFC não são causadas pela hipermobilidade. Elas operam sobre ela [@Loth2026website].
-- **Tratar as articulações não resolve a crise energética.** A fisioterapia e o suporte podem reduzir a dor e estabilizar a função, mas não abordam a PEM, a disfunção imune ou a hipoperfusão cerebral. Uma fisioterapia agressiva que ignora a PEM pode piorar a EM/SFC.
+- **Tratar as articulações não resolve a crise energética.** A fisioterapia e o suporte podem reduzir a dor e estabilizar a função, mas não abordam o MPE, a disfunção imune ou a hipoperfusão cerebral. Uma fisioterapia agressiva que ignora o MPE pode piorar a EM/SFC.
 - **O tratamento dos amplificadores downstream torna-se proporcionalmente mais importante.** Como não se pode corrigir o colágeno, as ferramentas clínicas são as condições que o tecido frouxo permite: tratar a POTS com expansão de volume, tratar o MCAS com anti-histamínicos e estabilizadores, proteger as articulações com suporte e ritmo. A arte clínica não está em corrigir o colágeno — está em gerir a cascata que o colágeno frouxo permite.
 
 ---

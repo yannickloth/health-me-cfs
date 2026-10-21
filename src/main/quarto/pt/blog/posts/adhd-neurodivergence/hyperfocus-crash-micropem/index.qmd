@@ -25,7 +25,7 @@ Nunca foi formalmente estudado.
 
 ## Mal-estar pós-esforço na EM/SFC
 
-Mal-estar pós-esforço (PEM) é o sintoma marcante da EM/SFC. Os Critérios de Consenso Internacional exigem a sua presença para o diagnóstico. Suas características são:
+Mal-estar pós-esforço (MPE) é o sintoma marcante da EM/SFC. Os Critérios de Consenso Internacional exigem a sua presença para o diagnóstico. Suas características são:
 
 - O esforço físico ou cognitivo excede a capacidade de produção de energia do corpo
 - Uma crise ocorre — geralmente 12 a 48 horas depois
@@ -38,7 +38,7 @@ Mal-estar pós-esforço (PEM) é o sintoma marcante da EM/SFC. Os Critérios de 
 
 ## O paralelismo
 
-| Recurso | Crise de hiperfoco na PHDA | EM/SFC PEM |
+| Recurso | Crise de hiperfoco na PHDA | EM/SFC MPE |
 | --- | --- | --- |
 | Gatilho | Esforço cognitivo sustentado | Esforço físico ou cognitivo |
 | Início | Durante ou imediatamente após o esforço | 12–48 horas após o esforço |
@@ -49,7 +49,7 @@ Mal-estar pós-esforço (PEM) é o sintoma marcante da EM/SFC. Os Critérios de 
 
 A sobreposição fenomenológica é impressionante. Ambos envolvem uma atividade que parece manejável *durante* a execução, seguida por um custo de recuperação que excede em muito o que o esforço "deveria" exigir.
 
-*Observação importante: a semelhança fenomenológica não prova identidade mecânica. A crise após o hiperfoco possui explicações alternativas bem estabelecidas: (a) esgotamento da dopamina após um estado hiperdopaminérgico sustentado; (b) esgotamento da função executiva (o modelo do "esgotamento do ego"); (c) recuperação quando o estado de hiperfoco compensatório termina e o déficit de atenção subjacente reafirma-se. Essas são as explicações convencionais para a PHDA. A hipótese micro-PEM é uma alternativa nova que ainda não foi estudada.*
+*Observação importante: a semelhança fenomenológica não prova identidade mecânica. A crise após o hiperfoco possui explicações alternativas bem estabelecidas: (a) esgotamento da dopamina após um estado hiperdopaminérgico sustentado; (b) esgotamento da função executiva (o modelo do "esgotamento do ego"); (c) recuperação quando o estado de hiperfoco compensatório termina e o déficit de atenção subjacente reafirma-se. Essas são as explicações convencionais para a PHDA. A hipótese micro-MPE é uma alternativa nova que ainda não foi estudada.*
 
 ---
 
@@ -88,7 +88,7 @@ Os dados do ALSPAC apoiam isso: crianças com traços de PHDA aos 9 anos tinham 
 
 ## O que isso prediz
 
-Se a hipótese micro-PEM estiver correta, várias coisas deveriam ser mensuráveis:
+Se a hipótese micro-MPE estiver correta, várias coisas deveriam ser mensuráveis:
 
 1. **Lactato sanguíneo** deve estar elevado após esforço cognitivo sustentado na PHDA em comparação com os controlos
 2. **Tempo de recuperação cognitiva** deve escalar de forma não linear com a duração da sessão (não proporcionalmente)
@@ -106,7 +106,7 @@ Para pacientes com PHDA:
 
 - **A crise após o hiperfoco não é preguiça.** É um esgotamento de energia. Trate-a com o mesmo respeito que trataria a exaustão física após correr.
 - **Timers externos, não consciência interna.** Cérebros com PHDA não conseguem perceber com precisão o esgotamento de energia até a crise. Utilize blocos cognitivos de 25 minutos com pausas obrigatórias de 10 minutos.
-- **Limites rígidos para foco sustentado.** Máximo de 4 blocos cognitivos por sessão. A hipótese micro-PEM prevê que os danos se acumulem antes dos sintomas aparecerem — quando você sente os sintomas, já excedeu os limites. *(Estes números são pontos de partida — trabalhe com o seu médico ou terapeuta ocupacional para encontrar os seus limites individuais.)*
+- **Limites rígidos para foco sustentado.** Máximo de 4 blocos cognitivos por sessão. A hipótese micro-MPE prevê que os danos se acumulem antes dos sintomas aparecerem — quando você sente os sintomas, já excedeu os limites. *(Estes números são pontos de partida — trabalhe com o seu médico ou terapeuta ocupacional para encontrar os seus limites individuais.)*
 - **A interrupção do hiperfoco é médica, não opcional.** Para um paciente com EM/SFC, “salvar” o hiperfoco é como “salvar” uma sprint para alguém com fratura por estresse. A capacidade existe, mas o seu uso causa danos.
 
 Para médicos:

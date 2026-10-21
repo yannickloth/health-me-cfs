@@ -50,7 +50,7 @@ Lee los tres artículos en orden:
 
 1. **[Hipermóvil EDS y la conexión de tejidos conectivos con EM/SFC](../connective-tissue/hypermobility-heds/index.qmd)** — qué es el hEDS, por qué no tiene un defecto genético identificado, la diferencia de 81% frente a 15,5%, hipermovilidad progresiva adquirida (triptasa→MMP-3/-13, quimasa→MMP-1, histaminilación), el bucle de retroalimentación de rigidez de matriz, cinco vías mecánicas, la conexión de neurodivergencia, la genética TNXB, la carga energética permanente del 10–20%, y hEDS por sí mismo vs hEDS en EM/SFC.
 2. **[Gestionar la hipermovilidad sobre EM/SFC](../connective-tissue/hypermobility-heds-treatment/index.qmd)** — protocolos de resistencia isométrica, el horario del cofactor de colágeno circadiano (vitamina C, alfa-cetoglutarato), glicina y prolina, cobre/B6 para LOX, doxiciclina en baja dosis para MMP-9, terapias emergentes (tVNS, inhibidores de HIF-1α, bloqueo de TGF-β1), cirugía CCI, resultados esperados y un ejemplo de ensayo estructurado.
-3. **[Cuando el tratamiento no ayuda](../connective-tissue/hypermobility-heds-failure/index.qmd)** — la trampa de decondicionamiento-PEM, el punto de inflexión de rigidez de matriz, la triaje entre congénita y adquirida, los seis puntos de fallo numerados, predicciones verificables y lo que realmente puedes hacer.
+3. **[Cuando el tratamiento no ayuda](../connective-tissue/hypermobility-heds-failure/index.qmd)** — la trampa de decondicionamiento-MPE, el punto de inflexión de rigidez de matriz, la triaje entre congénita y adquirida, los seis puntos de fallo numerados, predicciones verificables y lo que realmente puedes hacer.
 
 ---
 

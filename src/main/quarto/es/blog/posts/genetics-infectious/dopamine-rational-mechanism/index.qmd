@@ -23,7 +23,7 @@ Esta es la señal más fuerte de tipo de célula en ese análisis, aunque es un 
 
 ### Nivel 1: Precursores e inhibidores de reabsorción
 
-**Metilfenidato (Ritalin).** Un inhibidor de DAT que aumenta la dopamina sináptica. Ya es el medicamento de dopamina más estudiado en EM/SFC. El ensayo clínico controlado aleatorizado de Blockmans (n = 60, doble ciego cruzado) encontró mejoras significativas en los puntajes de fatiga y concentración, pero no cambios en el funcionamiento físico ni en la calidad de vida [@Blockmans2006MPHCFS]. El perfil de efectos secundarios está bien caracterizado a lo largo de décadas de uso del TDAH; sin embargo, conlleva el riesgo específico de ocultar PEM (ver advertencias a continuación).
+**Metilfenidato (Ritalin).** Un inhibidor de DAT que aumenta la dopamina sináptica. Ya es el medicamento de dopamina más estudiado en EM/SFC. El ensayo clínico controlado aleatorizado de Blockmans (n = 60, doble ciego cruzado) encontró mejoras significativas en los puntajes de fatiga y concentración, pero no cambios en el funcionamiento físico ni en la calidad de vida [@Blockmans2006MPHCFS]. El perfil de efectos secundarios está bien caracterizado a lo largo de décadas de uso del TDAH; sin embargo, conlleva el riesgo específico de ocultar MPE (ver advertencias a continuación).
 
 **Bupropión (Wellbutrin).** Un inhibidor de DAT/NET con menos potencial de abuso que el metilfenidato. Se utiliza para la depresión y la cesación del tabaquismo. Tiene un efecto antiinflamatorio ligero a través de la reducción de TNF-alpha, lo que podría ser relevante en una enfermedad con neuroinflamación documentada.
 
@@ -61,7 +61,7 @@ Nada de esto fue suficiente para una justificación de tratamiento confiable ant
 
 ## Consideraciones: cuatro razones para tener cuidado
 
-**1. Los estimulantes pueden ocultar PEM.** El metilfenidato y el bupropión mejoran la energía subjetiva y el rendimiento cognitivo. El paciente se siente más capaz — y puede superar su verdadera envoltura energética. El resultado no es un mejor resultado, sino una crisis retrasada.
+**1. Los estimulantes pueden ocultar MPE.** El metilfenidato y el bupropión mejoran la energía subjetiva y el rendimiento cognitivo. El paciente se siente más capaz — y puede superar su verdadera envoltura energética. El resultado no es un mejor resultado, sino una crisis retrasada.
 
 **2. Los agonistas de dopamina tienen efectos secundarios significativos.** Los trastornos del control de impulsos no son raros con el pramipexol y el ropinirol. La agudización (empeoramiento de los síntomas con aumento de dosis) ocurre en pacientes con RLS que toman estos medicamentos. La náusea y la hipotensión ortostática son comunes al iniciar el tratamiento.
 

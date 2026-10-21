@@ -45,7 +45,7 @@ Este no es un número preciso. Es una estimación de orden de magnitud basada en
 
 **Semanas 2–8:** La imagen DTI-ALPS [@NematGorgani2025GlymphaticMECFS] muestra que la función glifática mejora quizás en un 10–15% del déficit. Los canales AQP4 se redistribuyen lentamente a los pies astrocitarios. No sientes diferencia alguna. El cerebro está reduciendo su deuda de residuos antes de que el balance muestre una limpieza positiva.
 
-**Mes 3:** AQP4 se repolarizó por completo. Los pies astrocitarios se extienden parcialmente. Los residuos acumulados se eliminaron en gran medida. **Este es el umbral.** Es aquí donde los pacientes comienzan a notar menos niebla cerebral, una menor sensibilidad a los desencadenantes de PEM y una mayor resistencia cognitiva constante. Por eso la gente dice que “finalmente comenzó a funcionar” después de 8–12 semanas.
+**Mes 3:** AQP4 se repolarizó por completo. Los pies astrocitarios se extienden parcialmente. Los residuos acumulados se eliminaron en gran medida. **Este es el umbral.** Es aquí donde los pacientes comienzan a notar menos niebla cerebral, una menor sensibilidad a los desencadenantes de MPE y una mayor resistencia cognitiva constante. Por eso la gente dice que “finalmente comenzó a funcionar” después de 8–12 semanas.
 
 **Mes 6:** Los pies astrocitarios están en gran medida restaurados. La DTI-ALPS [@Ding2025glymphaticAD] alcanza aproximadamente el 50–60% de la recuperación del déficit. Hay un beneficio sintomático significativo, pero aún no es del 100%.
 

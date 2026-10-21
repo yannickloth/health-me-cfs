@@ -288,7 +288,7 @@ As tabelas seguintes fornecem, para cada um dos dezoito medicamentos, uma linha 
 |-----------|-------------------|-----------|
 | Cetirizina 5 mg / Loratadina 10 mg / Fexofenadina 180 mg | Bloqueio H1 periférico; efeitos colaterais mínimos | H1 periférico |
 | Cetirizina 10–20 mg / Loratadina 20 mg | Benefício periférico adicional; ≥20 mg de cetirizina → penetração no SNC → sedação | Bloqueio H1 no SNC |
-| Cetirizina 10 mg (prova de prevenção PEM antes do exercício) | Bloqueio H1 para reduzir a gravidade da PEM (proposto) | Bloqueia a amplificação de histamina induzida pelo exercício |
+| Cetirizina 10 mg (prova de prevenção MPE antes do exercício) | Bloqueio H1 para reduzir a gravidade do MPE (proposto) | Bloqueia a amplificação de histamina induzida pelo exercício |
 
 **Ketotifen**
 

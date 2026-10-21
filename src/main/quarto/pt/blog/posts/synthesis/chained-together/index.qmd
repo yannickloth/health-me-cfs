@@ -63,7 +63,7 @@ Os autoanticorpos causam o POTS, o POTS causa a ativação simpática, a ativaç
 
 ## O ratchete de amplificação: por que doenças mais longas respondem menos
 
-O documento principal desenvolve uma hipótese específica e preocupante: cada ciclo de ativação — uma exacerbação de mastócito, um episódio de POTS, uma crise de PEM — pode deixar para trás um pouco mais de alteração estrutural. Terminações nervosas adicionais (sprouting). Mais mastócitos (proliferação). Limiares de ativação mais baixos (sensibilização de recetores). Matriz extracelular degradada (mediada por MMPs). Internalização de recetores (autoanticorpos GPCR).
+O documento principal desenvolve uma hipótese específica e preocupante: cada ciclo de ativação — uma exacerbação de mastócito, um episódio de POTS, uma crise de MPE — pode deixar para trás um pouco mais de alteração estrutural. Terminações nervosas adicionais (sprouting). Mais mastócitos (proliferação). Limiares de ativação mais baixos (sensibilização de recetores). Matriz extracelular degradada (mediada por MMPs). Internalização de recetores (autoanticorpos GPCR).
 
 O **ratchete de amplificação** é a ideia de que o sistema, uma vez ultrapassado um ponto de virada, não retorna espontaneamente ao estado basal. Cada evento move o sistema um degrau mais para fora do estado saudável. O modelo bistável de mastócito-matriz extracelular formaliza isso: existem dois estados estáveis — saudável (matriz firme, mastócitos calmos) e degradado (matriz mole, mastócitos hiperreativas). Uma vez que o sistema cruza o ponto de virada da saúde para o degradado, o retorno requer intervenção sustentada e multi-alvo — e para alguns pacientes, a danificação estrutural pode estar além de qualquer reversibilidade [@Loth2026website].
 

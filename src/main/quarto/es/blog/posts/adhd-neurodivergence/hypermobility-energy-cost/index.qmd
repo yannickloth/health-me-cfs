@@ -45,7 +45,7 @@ La superposición entre hEDS y el síndrome de activación de mastocitos (MCAS) 
 
 Una hipótesis: el tejido conectivo defectuoso proporciona señales mecánicas anormales a los mastocitos que se encuentran dentro de él. Los mastocitos son mecanosensibles; responden a fuerzas físicas en su matriz circundante. En una matriz extracelular anormal, las señales mecánicas son anormales, lo que puede llevar a una activación inapropiada de los mastocitos.
 
-Cuando los mastocitos se degranulan, liberan histamina, prostaglandinas, triptasa y una cadena de mediadores inflamatorios —sistémicamente—. El coste energético resultante es considerable: la activación inmunitaria consume entre el 20 y el 25 % del ritmo metabólico basal en su punto máximo. La fatiga post-degranulación en pacientes con MCAS es profunda y puede durar de 24 a 72 horas, similar a la PEM.
+Cuando los mastocitos se degranulan, liberan histamina, prostaglandinas, triptasa y una cadena de mediadores inflamatorios —sistémicamente—. El coste energético resultante es considerable: la activación inmunitaria consume entre el 20 y el 25 % del ritmo metabólico basal en su punto máximo. La fatiga post-degranulación en pacientes con MCAS es profunda y puede durar de 24 a 72 horas, similar al MPE.
 
 Para un paciente con hEDS que también padece MCAS, la ecuación energética es devastadora: la carga de inestabilidad estructural + el trabajo compensatorio del sistema cardiovascular + episodios recurrentes de activación inmunitaria = déficit energético crónico incluso antes de añadir cualquier patología adicional de EM/SFC.
 

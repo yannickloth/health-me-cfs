@@ -506,7 +506,7 @@
  "Amlodipine": {
   "label": "Amlodipina",
   "category": "medication",
-  "definition": "Un bloqueador de canal de calcio de tipo L (dihidropiridina) utilizado como antihipertensivo. Es relevante para el EM/SFC después de la vasoconstricción mediada por TRPV1 en arteriolas; bloquear los canales de tipo L puede contrarrestar la componente vascular del malestar post-esfuerzo (PEM).",
+  "definition": "Un bloqueador de canal de calcio de tipo L (dihidropiridina) utilizado como antihipertensivo. Es relevante para el EM/SFC después de la vasoconstricción mediada por TRPV1 en arteriolas; bloquear los canales de tipo L puede contrarrestar la componente vascular del malestar post-esfuerzo (MPE).",
   "generic": "Amlodipine",
   "brand": "Norvasc, Katerzia",
   "class": "Bloqueador de canal de calcio (dihidropiridina / tipo L)",
@@ -689,7 +689,7 @@
  "Armodafinil": {
   "label": "Armodafinil",
   "category": "medication",
-  "definition": "El R-enantiómero del modafinil, un agente eugeróico de acción más prolongada que promueve la vigilia, que actúa mediante la inhibición de la reabsorción de dopamina. Se utiliza fuera de la indicación en EM/SFC para el somnolencia diurna y la niebla cerebral. El riesgo de ocultamiento del malestar post-esfuerzo (PEM) es el mismo que el del modafinil.",
+  "definition": "El R-enantiómero del modafinil, un agente eugeróico de acción más prolongada que promueve la vigilia, que actúa mediante la inhibición de la reabsorción de dopamina. Se utiliza fuera de la indicación en EM/SFC para el somnolencia diurna y la niebla cerebral. El riesgo de ocultamiento del malestar post-esfuerzo (MPE) es el mismo que el del modafinil.",
   "generic": "Armodafinil",
   "brand": "Nuvigil",
   "class": "Agente eugeróico / que promueve la vigilia",
@@ -1208,7 +1208,7 @@
  "CCC": {
   "label": "CCC",
   "category": "diagnostic",
-  "definition": "Criterios de Consenso Canadiano (2003): Criterios de diagnóstico de EM/SFC que requieren malestar post-esfuerzo (PEM) más múltiples dominios de síntomas (fatiga, sueño, dolor, neurológico/cognitivo, autónomo, neuroendocrino, inmune). Son ampliamente utilizados en la investigación."
+  "definition": "Criterios de Consenso Canadiano (2003): Criterios de diagnóstico de EM/SFC que requieren malestar post-esfuerzo (MPE) más múltiples dominios de síntomas (fatiga, sueño, dolor, neurológico/cognitivo, autónomo, neuroendocrino, inmune). Son ampliamente utilizados en la investigación."
  },
  "CCI": {
   "label": "CCI",
@@ -1258,7 +1258,7 @@
  "CFS": {
   "label": "Síndrome de fatiga crónica",
   "category": "condition",
-  "definition": "Un término diagnóstico más antiguo para EM/SFC, ahora en gran medida reemplazado por definiciones de casos más específicas (CCC, ICC, IOM/SEID). Se define por fatiga inexplicable sumada a 4 de 8 síntomas accesorios. No requiere PEM, lo que la hace menos específica que los criterios modernos."
+  "definition": "Un término diagnóstico más antiguo para EM/SFC, ahora en gran medida reemplazado por definiciones de casos más específicas (CCC, ICC, IOM/SEID). Se define por fatiga inexplicable sumada a 4 de 8 síntomas accesorios. No requiere MPE, lo que la hace menos específica que los criterios modernos."
  },
  "CFS/ME": {
   "label": "SFC/EM",
@@ -1352,7 +1352,7 @@
  "CPET": {
   "label": "CPET",
   "category": "test",
-  "definition": "Prueba de ejercicio cardiopulmonar: una prueba de ejercicio máximo que mide el intercambio de gases (VO₂, VCO₂), la frecuencia cardíaca y los parámetros ventilatorios. La CPET de dos días (2-day CPET) demuestra de manera única una disminución en el pico de VO₂ y el umbral anaeróbico en el segundo día en EM/SFC, lo cual es una señal fisiológica del malestar post-esfuerzo (PEM)."
+  "definition": "Prueba de ejercicio cardiopulmonar: una prueba de ejercicio máximo que mide el intercambio de gases (VO₂, VCO₂), la frecuencia cardíaca y los parámetros ventilatorios. La CPET de dos días (2-day CPET) demuestra de manera única una disminución en el pico de VO₂ y el umbral anaeróbico en el segundo día en EM/SFC, lo cual es una señal fisiológica del malestar post-esfuerzo (MPE)."
  },
  "CPRD": {
   "label": "CPRD",
@@ -2384,7 +2384,7 @@
  "DSQ": {
   "label": "DSQ",
   "category": "measurement",
-  "definition": "Cuestionario de Síntomas DePaul — una herramienta de evaluación validada reportada por el paciente para medir los síntomas del EM/SFC. La subescala DSQ-PEM mide la frecuencia y gravedad del malestar post-esfuerzo mediante ítems estandarizados."
+  "definition": "Cuestionario de Síntomas DePaul — una herramienta de evaluación validada reportada por el paciente para medir los síntomas del EM/SFC. La subescala DSQ-MPE mide la frecuencia y gravedad del malestar post-esfuerzo mediante ítems estandarizados."
  },
  "DTBZ": {
   "label": "DTBZ",
@@ -2901,7 +2901,7 @@
  "EMDR": {
   "label": "EMDR",
   "category": "treatment",
-  "definition": "Desensibilización y reprocesamiento por movimientos oculares: una psicoterapia para trauma/PTSD que utiliza estimulación bilateral. Puede ser beneficiosa para pacientes con EM/SFC y PTSD, pero no aborda la fisiopatología central de la EM/SFC."
+  "definition": "Desensibilización y reprocesamiento por movimientos oculares: una psicoterapia para trauma/TEPT que utiliza estimulación bilateral. Puede ser beneficiosa para pacientes con EM/SFC y TEPT, pero no aborda la fisiopatología central de la EM/SFC."
  },
  "EMG": {
   "label": "Electromiografía",
@@ -3165,7 +3165,7 @@
  "FODMAP": {
   "label": "FODMAP",
   "category": "treatment",
-  "definition": "Oligosacaridos, disacaridos, monosacaridos y poliolos fermentables: carbohidratos de cadena corta que se absorben mal en el intestino delgado, fermentados por bacterias intestinales lo que provoca hinchazón y gas. La dieta baja en FODMAP se utiliza en EM/SFC con comorbilidad de IBS/SIBO para reducir síntomas gastrointestinales."
+  "definition": "Oligosacaridos, disacaridos, monosacaridos y poliolos fermentables: carbohidratos de cadena corta que se absorben mal en el intestino delgado, fermentados por bacterias intestinales lo que provoca hinchazón y gas. La dieta baja en FODMAP se utiliza en EM/SFC con comorbilidad de SII/SIBO para reducir síntomas gastrointestinales."
  },
  "FOXO1": {
   "label": "FOXO1",
@@ -3458,7 +3458,7 @@
  },
  "Fukuda criteria": {
   "category": "diagnostic_criteria",
-  "definition": "Los criterios de diagnóstico de la CDC de 1994 para el síndrome de fatiga crónica (Fukuda et al.). Requiere ≥6 meses de fatiga inexplicable más ≥4 de 8 síntomas (memoria deteriorada, dolor de garganta, ganglios linfáticos sensibles, dolor muscular, dolor articular, cefaleas nuevas, sueño insatisfactorio y malestar post-esfuerzo). No requiere PEM como condición obligatoria."
+  "definition": "Los criterios de diagnóstico de la CDC de 1994 para el síndrome de fatiga crónica (Fukuda et al.). Requiere ≥6 meses de fatiga inexplicable más ≥4 de 8 síntomas (memoria deteriorada, dolor de garganta, ganglios linfáticos sensibles, dolor muscular, dolor articular, cefaleas nuevas, sueño insatisfactorio y malestar post-esfuerzo). No requiere MPE como condición obligatoria."
  },
  "G-BA": {
   "label": "G-BA",
@@ -3535,7 +3535,7 @@
  "GET": {
   "label": "GET",
   "category": "treatment",
-  "definition": "Terapia de ejercicio gradual: un programa de ejercicio progresivo. Es contraindicada en EM/SFC — NICE (2021) recomienda explícitamente evitar GET debido al riesgo de daño (agudización de PEM). Es distinta de la gestión de ritmo y energía."
+  "definition": "Terapia de ejercicio gradual: un programa de ejercicio progresivo. Es contraindicada en EM/SFC — NICE (2021) recomienda explícitamente evitar GET debido al riesgo de daño (agudización de MPE). Es distinta de la gestión de ritmo y energía."
  },
  "GFAP": {
   "label": "GFAP",
@@ -4119,7 +4119,7 @@
  "Holmes criteria": {
   "label": "Criterios de Holmes (1988)",
   "category": "diagnostic",
-  "definition": "La primera definición formal de caso del CDC para el síndrome de fatiga crónica (CFS), publicada en 1988. Requería fatiga persistente de inicio nuevo, además de 8 de los 11 criterios de síntoma. No exigía el malestar post-esfuerzo (PEM) como característica definitoria. Fue reemplazada por los criterios de Fukuda (1994)."
+  "definition": "La primera definición formal de caso del CDC para el síndrome de fatiga crónica (CFS), publicada en 1988. Requería fatiga persistente de inicio nuevo, además de 8 de los 11 criterios de síntoma. No exigía el malestar post-esfuerzo (MPE) como característica definitoria. Fue reemplazada por los criterios de Fukuda (1994)."
  },
  "Homocysteine": {
   "label": "Homocecina",
@@ -4264,7 +4264,7 @@
   "definition": "Enfermedad inflamatoria del intestino: un grupo de afecciones inflamatorias crónicas del tracto gastrointestinal (enfermedad de Crohn, colitis ulcerativa). Se superpone a EM/SFC en cuanto a carga de síntomas, pero es una patología inflamatoria distinta."
  },
  "IBS": {
-  "label": "IBS",
+  "label": "SII (síndrome del intestino irritable)",
   "category": "condition",
   "definition": "Síndrome del intestino irritable: un trastorno gastrointestinal funcional caracterizado por dolor abdominal, hinchazón y cambios en los hábitos intestinales. Es muy común en EM/SFC (30–60%)."
  },
@@ -4544,7 +4544,7 @@
  "Idiopathic chronic fatigue": {
   "label": "Enfermedad crónica de fatiga idiopática",
   "category": "condition",
-  "definition": "Fatiga persistente que no cumple con los criterios de diagnóstico de EM/SFC y que no puede atribuirse a otra condición. La CIE carece de PEM, el síntoma cardinal de EM/SFC. La prueba CPET de 2 días distingue a la ICF de la EM/SFC: solo los pacientes con EM/SFC presentan una disminución significativa en el VO₂ máximo y en la carga de trabajo en el umbral anaeróbico el segundo día."
+  "definition": "Fatiga persistente que no cumple con los criterios de diagnóstico de EM/SFC y que no puede atribuirse a otra condición. La CIE carece de MPE, el síntoma cardinal de EM/SFC. La prueba CPET de 2 días distingue a la ICF de la EM/SFC: solo los pacientes con EM/SFC presentan una disminución significativa en el VO₂ máximo y en la carga de trabajo en el umbral anaeróbico el segundo día."
  },
  "IgE": {
   "label": "IgE",
@@ -4845,7 +4845,7 @@
  "LC": {
   "label": "LC",
   "category": "condition",
-  "definition": "COVID a largo plazo: abreviación de PASC. Aproximadamente el 43–58% de los pacientes con COVID a largo plazo cumplen con los criterios de EM/SFC; estas dos condiciones comparten malestar post-esfuerzo (PEM), intolerancia ortostática, disfunción cognitiva y anomalías metabólicas."
+  "definition": "COVID a largo plazo: abreviación de PASC. Aproximadamente el 43–58% de los pacientes con COVID a largo plazo cumplen con los criterios de EM/SFC; estas dos condiciones comparten malestar post-esfuerzo (MPE), intolerancia ortostática, disfunción cognitiva y anomalías metabólicas."
  },
  "LC-NE": {
   "label": "Sistema LC-NE",
@@ -5142,7 +5142,7 @@
  "Long COVID": {
   "label": "COVID a largo plazo",
   "category": "condition",
-  "definition": "Condición post-COVID-19 (PASC): síntomas persistentes durante ≥3 meses después de la infección por SARS-CoV-2, incluyendo fatiga, malestar post-esfuerzo (PEM), niebla cerebral, intolerancia ortostática y trastornos del sueño. Alrededor del 43-58% de los pacientes con COVID a largo plazo cumplen con los criterios de diagnóstico de EM/SFC; el COVID a largo plazo ha creado la cohorte más grande hasta ahora de EM/SFC post-viral y ofrece una oportunidad sin precedentes para estudiar la fisiopatología de EM/SFC a partir de un desencadenante infeccioso conocido.",
+  "definition": "Condición post-COVID-19 (PASC): síntomas persistentes durante ≥3 meses después de la infección por SARS-CoV-2, incluyendo fatiga, malestar post-esfuerzo (MPE), niebla cerebral, intolerancia ortostática y trastornos del sueño. Alrededor del 43-58% de los pacientes con COVID a largo plazo cumplen con los criterios de diagnóstico de EM/SFC; el COVID a largo plazo ha creado la cohorte más grande hasta ahora de EM/SFC post-viral y ofrece una oportunidad sin precedentes para estudiar la fisiopatología de EM/SFC a partir de un desencadenante infeccioso conocido.",
   "also": "PASC (Secuelas post-acústicas de SARS-CoV-2)"
  },
  "Loratadine": {
@@ -5296,7 +5296,7 @@
  "Lyme": {
   "label": "Lyme",
   "category": "condition",
-  "definition": "Enfermedad de Lyme (Lyme borreliosis): una infección transmitida por garrapatas causada por las espiroquetas Borrelia burgdorferi, que produce eritema migrans, artritis, síntomas neurológicos y carditis. La enfermedad de Lyme crónica (PTLDS, síndrome de Lyme post-tratamiento) tiene una superposición clínica significativa con EM/SFC, incluyendo fatiga, disfunción cognitiva y PEM. Estas dos condiciones pueden coexistir; para diagnosticar EM/SFC en un paciente con Lyme, es necesario excluir una infección activa de Borrelia.",
+  "definition": "Enfermedad de Lyme (Lyme borreliosis): una infección transmitida por garrapatas causada por las espiroquetas Borrelia burgdorferi, que produce eritema migrans, artritis, síntomas neurológicos y carditis. La enfermedad de Lyme crónica (PTLDS, síndrome de Lyme post-tratamiento) tiene una superposición clínica significativa con EM/SFC, incluyendo fatiga, disfunción cognitiva y MPE. Estas dos condiciones pueden coexistir; para diagnosticar EM/SFC en un paciente con Lyme, es necesario excluir una infección activa de Borrelia.",
   "also": "PTLDS (Síndrome de Lyme post-tratamiento)"
  },
  "Lyrica": {
@@ -5731,7 +5731,7 @@
  "Methylphenidate": {
   "label": "Metilfenidato",
   "category": "medication",
-  "definition": "Estimulante del sistema nervioso central (inhibidor de la recaptación de dopamina/noradrenalina) utilizado para el TDAH. Se utiliza fuera de la indicación para EM/SFC por disfunción cognitiva y fatiga; riesgo de 'tomar prestado energía' — oculta la PEM sin corregir el déficit de energía subyacente.",
+  "definition": "Estimulante del sistema nervioso central (inhibidor de la recaptación de dopamina/noradrenalina) utilizado para el TDAH. Se utiliza fuera de la indicación para EM/SFC por disfunción cognitiva y fatiga; riesgo de 'tomar prestado energía' — oculta el MPE sin corregir el déficit de energía subyacente.",
   "generic": "Methylphenidate",
   "brand": "Ritalin, Concerta, Daytrana",
   "class": "Estimulante del sistema nervioso central / inhibidor de la recaptación de dopamina/noradrenalina (NDRI)",
@@ -5946,7 +5946,7 @@
  "Modafinil": {
   "label": "Modafinil",
   "category": "medication",
-  "definition": "Agente que promueve la vigilia (eugeróico) que actúa mediante la inhibición de la reabsorción de dopamina. Se utiliza fuera de la indicación en EM/SFC para la somnolencia diurna y la disfunción cognitiva. No trata el PEM; puede ocultar los límites de esfuerzo, aumentando el riesgo de colapso.",
+  "definition": "Agente que promueve la vigilia (eugeróico) que actúa mediante la inhibición de la reabsorción de dopamina. Se utiliza fuera de la indicación en EM/SFC para la somnolencia diurna y la disfunción cognitiva. No trata el MPE; puede ocultar los límites de esfuerzo, aumentando el riesgo de colapso.",
   "generic": "Modafinil",
   "brand": "Provigil, Alertec",
   "class": "Eugeróico / agente que promueve la vigilia",
@@ -6842,7 +6842,7 @@
  "P3b": {
   "label": "P3b",
   "category": "test",
-  "definition": "P3b: la componente centroparietal tardía (300-600 ms) del potencial relacionado con el evento (ERP) que indica la asignación de recursos de atención y la evaluación de objetivos. En el estudio sobre ADHD con L-teanina y cafeína, un aumento en la amplitud de P3b y una disminución en la latencia indicaron una mejor asignación neuronal a la atención selectiva."
+  "definition": "P3b: la componente centroparietal tardía (300-600 ms) del potencial relacionado con el evento (ERP) que indica la asignación de recursos de atención y la evaluación de objetivos. En el estudio sobre TDAH con L-teanina y cafeína, un aumento en la amplitud de P3b y una disminución en la latencia indicaron una mejor asignación neuronal a la atención selectiva."
  },
  "PACE": {
   "label": "Estudio PACE",
@@ -6955,13 +6955,13 @@
   ]
  },
  "PEM": {
-  "label": "Malestar post-esfuerzo",
+  "label": "Malestar post-esfuerzo (MPE)",
   "category": "symptom",
   "definition": "Malestar post-esfuerzo: el síntoma cardinal de EM/SFC — un empeoramiento desproporcionado y retrasado de todos los síntomas tras ejercicio físico, cognitivo o emocional, que suele aparecer 24–72 horas después del desencadenante y durar días a semanas.",
   "also": "PENE (Exhaustión neuroinmuna post-esfuerzo); PESE (Exacerbación de síntomas post-esfuerzo)"
  },
  "PEM ratchet": {
-  "label": "PEM Ratchet",
+  "label": "MPE Ratchet",
   "category": "hypothesis",
   "definition": "Un modelo especulativo que propone que el malestar post-esfuerzo en EM/SFC tiene una componente glilmática: el esfuerzo genera residuos metabólicos que un sistema de eliminación comprometido no puede eliminar completamente, lo que provoca una acumulación progresiva de metabolitos neuroactivos. Cada episodio de sobreesfuerzo aumenta la carga de residuos base —un efecto 'ratchet' que explica por qué los ciclos repetidos de caída y rebote causan un empeoramiento progresivo. Totalmente inferencial; no ha sido probado directamente con imágenes glilmáticas."
  },
@@ -7082,8 +7082,8 @@
  "PMC": {
   "label": "PMC",
   "category": "symptom",
-  "definition": "Colapso post-mascarado: un concepto retirado propuesto por Chang et al. (2025) que sugiere que la PEM no mascarada —el colapso natural después del sobreesfuerzo— de alguna manera difiere de la 'verdadera' PEM, basado en una encuesta metodológicamente defectuosa que utiliza ítems de recordación no validados y sin provocación objetiva de PEM. No existe base clínica ni fisiológica para esta distinción; la PEM es el mismo fenómeno independientemente del contexto desencadenante. La terminología podría implicar que los pacientes que deben superar actividades (trabajo, cuidados, citas médicas) no están experimentando una PEM auténtica —una implicación en desacuerdo con el consenso biomédico de que la PEM es una respuesta patofisiológica objetivamente demostrable al sobreesfuerzo que supera la capacidad individual.",
-  "also": "Concepto retirado (Chang et al. 2025); consulta PEM para la definición validada y consensuada"
+  "definition": "Colapso post-mascarado: un concepto retirado propuesto por Chang et al. (2025) que sugiere que el MPE no mascarada —el colapso natural después del sobreesfuerzo— de alguna manera difiere de la 'verdadera' MPE, basado en una encuesta metodológicamente defectuosa que utiliza ítems de recordación no validados y sin provocación objetiva de MPE. No existe base clínica ni fisiológica para esta distinción; el MPE es el mismo fenómeno independientemente del contexto desencadenante. La terminología podría implicar que los pacientes que deben superar actividades (trabajo, cuidados, citas médicas) no están experimentando un MPE auténtica —una implicación en desacuerdo con el consenso biomédico de que el MPE es una respuesta patofisiológica objetivamente demostrable al sobreesfuerzo que supera la capacidad individual.",
+  "also": "Concepto retirado (Chang et al. 2025); consulta MPE para la definición validada y consensuada"
  },
  "PNS": {
   "label": "PNS",
@@ -7182,7 +7182,7 @@
   "definition": "Síndrome de fatiga crónica — síndrome de fatiga crónica, dolor y síntomas cognitivos después del tratamiento antibiótico estándar para la enfermedad de Lyme."
  },
  "PTSD": {
-  "label": "Trastorno de estrés postraumático",
+  "label": "TEPT (trastorno de estrés postraumático)",
   "category": "condition",
   "definition": "Trastorno de estrés postraumático: una condición psiquiátrica que surge tras un trauma, caracterizada por hiperactivación y evitación. Tiene una mayor prevalencia en encefalomielitis miálgica; el historial de trauma puede influir en la manifestación de la enfermedad."
  },
@@ -8281,7 +8281,7 @@
  "SEID": {
   "label": "SEID",
   "category": "diagnostic",
-  "definition": "Enfermedad de intolerancia a la extención sistémica: el nombre propuesto por el IOM (2015) para EM/SFC, que enfatiza PEM y disfunción sistémica. Aceptado por algunos investigadores, pero no ampliamente reconocido por pacientes o clínicos.",
+  "definition": "Enfermedad de intolerancia a la extención sistémica: el nombre propuesto por el IOM (2015) para EM/SFC, que enfatiza MPE y disfunción sistémica. Aceptado por algunos investigadores, pero no ampliamente reconocido por pacientes o clínicos.",
   "also": "Criterios de diagnóstico IOM 2015"
  },
  "SERCA": {
@@ -8424,7 +8424,7 @@
  "SWRA": {
   "label": "Análisis reponderado por gravedad",
   "category": "method",
-  "definition": "Una corrección estadística propuesta para el sesgo de selección inducido por PEM en la investigación de EM/SFC, adaptando la corrección de selección de Heckman (Premio Nobel 2000). Modela la probabilidad de que un paciente con una gravedad determinada participe en la investigación y repesona los tamaños de efecto publicados para estimar el efecto en toda la población."
+  "definition": "Una corrección estadística propuesta para el sesgo de selección inducido por MPE en la investigación de EM/SFC, adaptando la corrección de selección de Heckman (Premio Nobel 2000). Modela la probabilidad de que un paciente con una gravedad determinada participe en la investigación y repesona los tamaños de efecto publicados para estimar el efecto en toda la población."
  },
  "SWS": {
   "label": "SWS",
@@ -8493,7 +8493,7 @@
  "Sickle cell disease": {
   "label": "Enfermedad de célula falciforme",
   "category": "condition",
-  "definition": "Una hemoglobinopatía en la que la hemoglobina S mutada polimeriza bajo bajos niveles de oxígeno, causando encefalomielitis miálgica, crisis vaso-occluyentes y anemia hemolítica crónica. La vasoconstricción mediada por TRPV1 y la señalización del ácido lysophosphatídico (LPA) contribuyen a la vaso-oclución — algo similar al modelo de constricción microvascular impulsado por TRPV1 en el síndrome de fatiga crónica PEM."
+  "definition": "Una hemoglobinopatía en la que la hemoglobina S mutada polimeriza bajo bajos niveles de oxígeno, causando encefalomielitis miálgica, crisis vaso-occluyentes y anemia hemolítica crónica. La vasoconstricción mediada por TRPV1 y la señalización del ácido lysophosphatídico (LPA) contribuyen a la vaso-oclución — algo similar al modelo de constricción microvascular impulsado por TRPV1 en el síndrome de fatiga crónica MPE."
  },
  "Singulair": {
   "alias": "Montelukast"
@@ -9668,7 +9668,7 @@
  "WASF3": {
   "label": "WASF3",
   "category": "protein",
-  "definition": "Wiskott-Aldrich Syndrome Protein Family Member 3: una proteína que, cuando se sobreexpresa, perturba la asamblea del supercomplejo respiratorio mitocondrial, afectando la eficiencia de la OXPHOS. WASF3 es un candidato para ser el factor desencadenante de la disfunción mitocondrial en EM/SFC: elevación de WASF3 → desestabilización del supercomplejo → reducción de la síntesis de ATP → intolerancia al ejercicio y PEM.",
+  "definition": "Wiskott-Aldrich Syndrome Protein Family Member 3: una proteína que, cuando se sobreexpresa, perturba la asamblea del supercomplejo respiratorio mitocondrial, afectando la eficiencia de la OXPHOS. WASF3 es un candidato para ser el factor desencadenante de la disfunción mitocondrial en EM/SFC: elevación de WASF3 → desestabilización del supercomplejo → reducción de la síntesis de ATP → intolerancia al ejercicio y MPE.",
   "also": "También conocida como WAVE3; implicada en la patología mitocondrial de EM/SFC"
  },
  "WASO": {
@@ -10111,7 +10111,7 @@
  "boom-bust cycle": {
   "label": "ciclo boom-bust",
   "category": "concept",
-  "definition": "Un patrón auto-reforzante en el que un paciente sobreesfuerza en días buenos ('boom'), provocando malestar post-esfuerzo (PEM), obligando a descanso prolongado ('bust'), y luego vuelve a sobreesforzar cuando se siente ligeramente mejor. El ajuste del ritmo busca romper este ciclo."
+  "definition": "Un patrón auto-reforzante en el que un paciente sobreesfuerza en días buenos ('boom'), provocando malestar post-esfuerzo (MPE), obligando a descanso prolongado ('bust'), y luego vuelve a sobreesforzar cuando se siente ligeramente mejor. El ajuste del ritmo busca romper este ciclo."
  },
  "bradykinin": {
   "label": "Bradicinina",
@@ -10463,7 +10463,7 @@
  "energy envelope": {
   "label": "envelope energético",
   "category": "concept",
-  "definition": "El rango de actividad diaria que una persona puede mantener sin desencadenar malestar post-esfuerzo (PEM). Mantenerse dentro del envelope energético —pacing— es la estrategia de gestión principal; superarlo desencadena el ciclo de subida y caída."
+  "definition": "El rango de actividad diaria que una persona puede mantener sin desencadenar malestar post-esfuerzo (MPE). Mantenerse dentro del envelope energético —pacing— es la estrategia de gestión principal; superarlo desencadena el ciclo de subida y caída."
  },
  "enterovirus": {
   "label": "enterovirus",
@@ -10595,7 +10595,7 @@
  "graded exercise therapy": {
   "label": "Terapia de Ejercicio Gradual (GET)",
   "category": "treatment",
-  "definition": "Un programa de ejercicio progresivo que anteriormente se recomendaba para EM/SFC. Es contraindicado en EM/SFC — NICE (2021) y CDC (2021) recomiendan explícitamente evitar GET debido al riesgo de daño (agudización de PEM). Es distinto de la gestión de ritmo y energía. Consulta la entrada sobre GET."
+  "definition": "Un programa de ejercicio progresivo que anteriormente se recomendaba para EM/SFC. Es contraindicado en EM/SFC — NICE (2021) y CDC (2021) recomiendan explícitamente evitar GET debido al riesgo de daño (agudización de MPE). Es distinto de la gestión de ritmo y energía. Consulta la entrada sobre GET."
  },
  "granzyme": {
   "label": "Granzima",
@@ -10893,7 +10893,7 @@
  "mPTP": {
   "label": "mPTP",
   "category": "transporter",
-  "definition": "Poro de transición de permeabilidad mitocondrial: un canal de alta conductividad en la membrana interna mitocondrial que se abre bajo condiciones de sobrecarga de calcio, estrés oxidativo y escasez de ATP. La apertura de mPTP disipa el gradiente de protones, detiene la síntesis de ATP y libera factores pro-apoptóticos. La apertura de mPTP es un mecanismo terminal candidato para la falla energética aguda en el malestar post-esfuerzo (PEM)."
+  "definition": "Poro de transición de permeabilidad mitocondrial: un canal de alta conductividad en la membrana interna mitocondrial que se abre bajo condiciones de sobrecarga de calcio, estrés oxidativo y escasez de ATP. La apertura de mPTP disipa el gradiente de protones, detiene la síntesis de ATP y libera factores pro-apoptóticos. La apertura de mPTP es un mecanismo terminal candidato para la falla energética aguda en el malestar post-esfuerzo (MPE)."
  },
  "mTOR": {
   "label": "mTOR",
@@ -11220,7 +11220,7 @@
  "pacing": {
   "label": "ritmo",
   "category": "treatment",
-  "definition": "Una estrategia de gestión de energía en la que el paciente se mantiene dentro de su envelope energético, equilibrando actividad y descanso para evitar desencadenar malestar post-esfuerzo (PEM). El ritmo es el pilar fundamental del autocontrol en EM/SFC, respaldado por NICE (2021), y es fundamentalmente diferente de la terapia de ejercicio gradual (GET)."
+  "definition": "Una estrategia de gestión de energía en la que el paciente se mantiene dentro de su envelope energético, equilibrando actividad y descanso para evitar desencadenar malestar post-esfuerzo (MPE). El ritmo es el pilar fundamental del autocontrol en EM/SFC, respaldado por NICE (2021), y es fundamentalmente diferente de la terapia de ejercicio gradual (GET)."
  },
  "paroxetine": {
   "label": "Paroxetina",
@@ -11501,7 +11501,7 @@
  "sensory overload": {
   "label": "sobrecarga sensorial",
   "category": "symptom",
-  "definition": "Un estado en el que múltiples entradas sensoriales simultáneas (luz, sonido, tacto, movimiento) superan la capacidad de procesamiento, causando sufrimiento, apagamiento cognitivo y malestar post-esfuerzo (PEM). La disfunción de la puerta sensorial en EM/SFC impide el filtrado normal de estímulos irrelevantes."
+  "definition": "Un estado en el que múltiples entradas sensoriales simultáneas (luz, sonido, tacto, movimiento) superan la capacidad de procesamiento, causando sufrimiento, apagamiento cognitivo y malestar post-esfuerzo (MPE). La disfunción de la puerta sensorial en EM/SFC impide el filtrado normal de estímulos irrelevantes."
  },
  "separatrix": {
   "label": "separatrix",
@@ -12795,7 +12795,7 @@
  "AD(H)D": {
   "label": "TDAH (AD(H)D)",
   "category": "condition",
-  "definition": "Variante de escritura de ADHD (Trastorno por Déficit de Atención/Hiperactividad) utilizada en alguna literatura para hacer que el componente de hiperactividad sea opcional: trastorno por déficit de atención con o sin hiperactividad."
+  "definition": "Variante de escritura de TDAH (Trastorno por Déficit de Atención/Hiperactividad) utilizada en alguna literatura para hacer que el componente de hiperactividad sea opcional: trastorno por déficit de atención con o sin hiperactividad."
  },
  "JAK-STAT": {
   "label": "Vía JAK-STAT",

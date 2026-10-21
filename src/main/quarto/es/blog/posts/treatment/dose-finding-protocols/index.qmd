@@ -27,7 +27,7 @@ Tres reglas universales antes de ejecutar cualquier protocolo:
 
 1. **Defina el resultado principal antes de la primera dosis.** Una medida. Si el ensayo “para el sueño” termina con una impresión sobre el estado de ánimo, no se probó nada.
 2. **Escriba las condiciones de parada y fije la fecha de revisión.** Un ensayo sin fecha de parada no es un experimento; es un estado de ánimo (ver la patología del desvío de dosis en el [artículo anterior](../dose-first-search-strategy/)).
-3. **No ejecute ensayos durante una crisis.** Un episodio de PEM durante un ensayo de dosis mide la PEM, no la dosis.
+3. **No ejecute ensayos durante una crisis.** Un episodio de MPE durante un ensayo de dosis midel MPE, no la dosis.
 
 ---
 
@@ -56,11 +56,11 @@ Tres reglas universales antes de ejecutar cualquier protocolo:
 |-------|----------|------|
 | Escala de dosis | 0,5 mg × 3–5 d (tolerabilidad) → 1 mg × 6 wk (la ventana de evaluación utilizada clínicamente) | C (Promedio de la cohorte de Crosby 2021: 1,1 mg/día [@Crosby2021LDA]) |
 | Duración del paso | Días para tolerabilidad, **semanas para eficacia** — no juzgue el efecto antes de que se cumpla la ventana del médico prescriptor | C |
-| Resultado principal | Elija según el síntoma dominante: frecuencia de PEM, claridad cognitiva o sueño — solo uno | C |
+| Resultado principal | Elija según el síntoma dominante: frecuencia de MPE, claridad cognitiva o sueño — solo uno | C |
 | Condiciones para detenerse | Akatisia, agitación o preocupaciones sobre cambios de estado de ánimo → detenerse y informar · no hay beneficio después de 6 semanas → límite establecido por el médico prescriptor según su práctica | C |
 | Compounding | Se requiere menos de 2 mg: farmacia de compuestos (tabletas estándar ≥2 mg) | E |
 | Monitoreo | Arquitectura del sueño y autoevaluaciones del estado de ánimo (los efectos documentados del LDA son cualitativamente distintos de la activación de tipo estimulante — pero la distinción debe ser verificada, no asumida) | C |
-| Regla de reintento | Una dosis que mantiene el sueño pero pierde la protección de PEM (el patrón de 0,75 mg) significa que la ventana es específica para el síntoma — mapee por síntoma, no por fármaco | S |
+| Regla de reintento | Una dosis que mantiene el sueño pero pierde la protección de MPE (el patrón de 0,75 mg) significa que la ventana es específica para el síntoma — mapee por síntoma, no por fármaco | S |
 
 **Por qué una breve duración puede funcionar:** una prueba de 5 días a una dosis más baja, con un resultado acordado por el médico prescriptor y condiciones de detención definidas, puede obtener un resultado negativo claro en una semana — y aún fortalecer la posición de la dosis de uso, porque la ventana fue probada y mantenida. Ese es el protocolo que funciona según lo diseñado.
 
@@ -97,14 +97,14 @@ Tres reglas universales antes de ejecutar cualquier protocolo:
 
 ## Metilfenidato (Ritalin MR) y estimulantes de baja dosis
 
-**Objetivo:** inhibición de la reabsorción de catecolaminas. En EM/SFC, el patrón documentado es una forma invertida-U *y* inducción de PEM a dosis altas de estimulantes. El ensayo clínico aleatorizado cruzado doble ciego encontró que el metilfenidato reduce la fatiga en SFC [@Blockmans2006MPHCFS], y el seguimiento a largo plazo mostró beneficios duraderos en aproximadamente un tercio de los pacientes que continuaron el tratamiento, con una alta tasa de abandono — lo cual es consistente con el compromiso entre estimulantes y PEM que el protocolo está diseñado para medir [@Blockmans2016LongTermMPH].
+**Objetivo:** inhibición de la reabsorción de catecolaminas. En EM/SFC, el patrón documentado es una forma invertida-U *y* inducción de MPE a dosis altas de estimulantes. El ensayo clínico aleatorizado cruzado doble ciego encontró que el metilfenidato reduce la fatiga en SFC [@Blockmans2006MPHCFS], y el seguimiento a largo plazo mostró beneficios duraderos en aproximadamente un tercio de los pacientes que continuaron el tratamiento, con una alta tasa de abandono — lo cual es consistente con el compromiso entre estimulantes y MPE que el protocolo está diseñado para medir [@Blockmans2016LongTermMPH].
 
 | Campo | Protocolo | Nivel |
 |-------|----------|------|
-| Escala de dosis | Comenzar muy por debajo de las dosis que anteriormente causaban problemas — por ejemplo, una prueba de MR 10 mg si MR 30 mg indujo PEM; equivalentes de liberación inmediata de 5 mg para pasos más precisos | C |
-| Duración del paso | 3–7 días por paso — los efectos del estimulante tanto en beneficio como en inducción de PEM se observan rápidamente | C |
-| Resultado principal | Funcionamiento por esfuerzo, no la alerta bruta. Un estimulante que proporciona alerta con PEM es una pérdida neta — la medida de resultado debe poder detectar esa pérdida | C |
-| Condiciones para detenerse | Inducción de PEM en un paso → ese paso está por encima del rango permitido; reducir la dosis, no intentar continuar | C |
+| Escala de dosis | Comenzar muy por debajo de las dosis que anteriormente causaban problemas — por ejemplo, una prueba de MR 10 mg si MR 30 mg indujo MPE; equivalentes de liberación inmediata de 5 mg para pasos más precisos | C |
+| Duración del paso | 3–7 días por paso — los efectos del estimulante tanto en beneficio como en inducción de MPE se observan rápidamente | C |
+| Resultado principal | Funcionamiento por esfuerzo, no la alerta bruta. Un estimulante que proporciona alerta con MPE es una pérdida neta — la medida de resultado debe poder detectar esa pérdida | C |
+| Condiciones para detenerse | Inducción de MPE en un paso → ese paso está por encima del rango permitido; reducir la dosis, no intentar continuar | C |
 | Nota sobre interacciones | Documentado en el registro principal: combinaciones previas de altas dosis de estimulantes en EM/SFC no tratados produjeron estados de excitación/manía — una consideración absoluta, área de competencia del médico prescriptor | E para la clase de riesgo |
 
 ---
@@ -146,8 +146,8 @@ Tres reglas universales antes de ejecutar cualquier protocolo:
 |-------|----------|------|
 | Escala de dosis | Cuarto de tableta (25–50 mg) → mitad (100 mg) — comenzar *por debajo* de los 100–200 mg estándar, a diferencia de la dosis en la población general | C |
 | Duración del paso | Pruebas de un solo día, con intervalos ≥48 h, antes de los ensayos de días consecutivos | C |
-| Resultado principal | Vigilancia **y** verificación de PEM al día siguiente — este medicamento más fácilmente induce el error de “tomar de mañana” que la medida de resultados de Ritalin busca detectar | C |
-| Condiciones de interrupción | Ansiedad, sobreestimulación → fuera del intervalo · crisis al día siguiente → la interrupción acumula deuda en PEM; el medicamento cuesta más de lo que genera | C |
+| Resultado principal | Vigilancia **y** verificación de MPE al día siguiente — este medicamento más fácilmente induce el error de “tomar de mañana” que la medida de resultados de Ritalin busca detectar | C |
+| Condiciones de interrupción | Ansiedad, sobreestimulación → fuera del intervalo · crisis al día siguiente → la interrupción acumula deuda en MPE; el medicamento cuesta más de lo que genera | C |
 
 ---
 
@@ -165,7 +165,7 @@ Ese es el estado objetivo de toda la búsqueda: cada ensayo — positivo o nulo 
 
 **Los protocolos son plantillas, no recetas.** Las dosis interactúan — entre sí, con la fase de la enfermedad y con el propio historial del paciente. Los números ilustrativos provienen de razonamiento farmacológico y la experiencia de la comunidad de EM/SFC, no de ensayos validados; la extrapolación entre pacientes es hipotética. Tu médico prescriptor establece los números reales; estos protocolos estructuran la conversación, y varios de estos fármacos (dosis bajas compuestas, uso fuera del rango de indicaciones, estimulantes) son inaccesibles sin ellos.
 
-**El riesgo de PEM es una variable de ensayo, no una nota al pie.** Cada escalón de cada escalera es un experimento realizado sobre un presupuesto de energía que no perdona el sobreesfuerzo. El esfuerzo durante un ensayo de dosis es esfuerzo durante un experimento sobre tu propio umbral — las cortas duraciones de los protocolos existen en parte debido a esto.
+**El riesgo de MPE es una variable de ensayo, no una nota al pie.** Cada escalón de cada escalera es un experimento realizado sobre un presupuesto de energía que no perdona el sobreesfuerzo. El esfuerzo durante un ensayo de dosis es esfuerzo durante un experimento sobre tu propio umbral — las cortas duraciones de los protocolos existen en parte debido a esto.
 
 ---
 

@@ -65,7 +65,7 @@ Para pacientes que ya han entrado en un estado de consolidación, este camino si
 
 La respuesta obvia a una ventana de tratamiento temprano es: identificar a los pacientes de forma temprana y tratarlos. En la práctica, varios factores impiden esto.
 
-El diagnóstico de EM/SFC suele retrasarse. Los estudios indican que el 29% de los pacientes espera más de cinco años para obtener un diagnóstico, y más del 70% consulta cuatro o más médicos antes de recibir uno [IOM 2015]; en el período posterior a una infección aguda, la presentación inicial suele considerarse fatiga postinfecciosa que se resolverá, y las características distintivas — PEM con su latencia específica, sueño sin descanso y disfunción cognitiva — pueden no ser reconocidas o evaluadas formalmente durante años.
+El diagnóstico de EM/SFC suele retrasarse. Los estudios indican que el 29% de los pacientes espera más de cinco años para obtener un diagnóstico, y más del 70% consulta cuatro o más médicos antes de recibir uno [IOM 2015]; en el período posterior a una infección aguda, la presentación inicial suele considerarse fatiga postinfecciosa que se resolverá, y las características distintivas — MPE con su latencia específica, sueño sin descanso y disfunción cognitiva — pueden no ser reconocidas o evaluadas formalmente durante años.
 
 Incluso cuando se diagnostica temprano, no existen tratamientos modificadores de la enfermedad aprobados para EM/SFC, y no hay consenso clínico sobre qué debe incluir la intervención temprana. El camino accesible para el paciente que propone el modelo — apoyo antiinflamatorio sostenido combinado con suplementación metabólica — es una sugerencia en fase de investigación, no un protocolo validado.
 

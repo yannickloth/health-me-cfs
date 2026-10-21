@@ -20,16 +20,16 @@ Dois erros são possíveis quando um ensaio falha:
 | Erro | Custo |
 |---------|------|
 | **Rejeição prematura** — o medicamento funciona numa dose que nunca foi testada; você procura em outros lugares por anos | Anos, mais o risco acumulado de todas as alternativas tentadas durante esse período |
-| **Busca interminável de dose** — sem condições de parada; a ideia de “talvez a dose estivesse errada” justifica tentar novamente repetidamente | Orçamento de energia, risco PEM e uma busca que nunca pode chegar a um fim |
+| **Busca interminável de dose** — sem condições de parada; a ideia de “talvez a dose estivesse errada” justifica tentar novamente repetidamente | Orçamento de energia, risco MPE e uma busca que nunca pode chegar a um fim |
 
 Os custos são assimétricos e apontam em direções opostas — exatamente por isso nenhum erro pode ser resolvido apenas com avisos sobre o outro. “Não rejeite rápido demais”, quando utilizado sozinho, torna-se a busca interminável. “Prossiga rapidamente”, quando utilizado sozinho, torna-se o veredito prematuro. A única saída é uma estratégia de busca com *estrutura*: passos subsequentes classificados, medidas de resultado definidas e condições de parada. O resto deste artigo constrói essa estrutura.
 
-Um exemplo ilustrativo (uma combinação, não uma pessoa específica) descreve a situação completa. Um paciente a receber uma dose baixa de aripiprazol (LDA) de 1 mg — uma dose com benefícios bem documentados no piloto de dose baixa de aripiprazol EM/SFC (média da coorte ~1,1 mg/dia) [@Crosby2021LDA] — participa de um teste de 5 dias com 0,75 mg para verificar se o sono melhoraria. Não melhorou. Pior: a fadiga piora e um episódio de PEM ocorre após três horas de condução, acompanhado por uma enxaqueca grave. Uma breve escalada para 1,5 mg também não resolve nada. O paciente volta para 1 mg e se recupera.
+Um exemplo ilustrativo (uma combinação, não uma pessoa específica) descreve a situação completa. Um paciente a receber uma dose baixa de aripiprazol (LDA) de 1 mg — uma dose com benefícios bem documentados no piloto de dose baixa de aripiprazol EM/SFC (média da coorte ~1,1 mg/dia) [@Crosby2021LDA] — participa de um teste de 5 dias com 0,75 mg para verificar se o sono melhoraria. Não melhorou. Pior: a fadiga piora e um episódio de MPE ocorre após três horas de condução, acompanhado por uma enxaqueca grave. Uma breve escalada para 1,5 mg também não resolve nada. O paciente volta para 1 mg e se recupera.
 
 Lido em ambos os sentidos:
 
 - **Leitura errada:** “As doses de aripiprazol são imprevisíveis; o medicamento é frágil; evite experimentar.” (Também tentador: “o teste falhou, algo está errado.”)
-- **Leitura correta:** um resultado negativo, limpo, barato e com tempo limitado que *fortalece* o caso a favor do medicamento. A janela foi testada com 0,75 mg (insuficiente — a proteção contra PEM perdida) e 1,5 mg (sem benefício adicional), e o pico permanece em 1 mg. Sete dias de risco geram um mapa de dose-resposta mais preciso.
+- **Leitura correta:** um resultado negativo, limpo, barato e com tempo limitado que *fortalece* o caso a favor do medicamento. A janela foi testada com 0,75 mg (insuficiente — a proteção contra MPE perdida) e 1,5 mg (sem benefício adicional), e o pico permanece em 1 mg. Sete dias de risco geram um mapa de dose-resposta mais preciso.
 
 Isso é o que acontece com um teste falho quando a estratégia de busca é adequada. A reputação do medicamento melhorou porque a *dose* absorveu o fracasso.
 
@@ -96,7 +96,7 @@ A informação mais subutilizada nos relatórios de pacientes é a resposta parc
 
 Uma resposta parcial diz algo que um resultado nulo estático não diz: **o alvo é relevante** — algum sistema afetado pelo medicamento está relacionado a algum sintoma — mas a dose ou a correspondência sintoma-mecanismo está errada. A resposta correta a uma resposta parcial quase nunca é descartar. É a decomposição: qual sintoma mudou, em que direção, a qual dose — e esse padrão corresponde a uma das faixas de dose conhecidas do medicamento? (Para medicamentos com múltiplos mecanismos em diferentes concentrações, essa decomposição é exatamente para o atlas de doses — veja [A Farmacopeia](../pharmacopoeia-dose-meaning/).)
 
-O exemplo ilustrativo acima continha uma resposta parcial que seria invisível sem decomposição: em 0,75 mg, a proteção contra PEM *piora* enquanto a questão do sono permanece sem resposta. Essa dissociação — perda de proteção enquanto o sono permanece inalterado — é o que distingue “dose errada para tudo” de “dose errada apenas para o sono”, e basta olhar para uma tabela para perceber.
+O exemplo ilustrativo acima continha uma resposta parcial que seria invisível sem decomposição: em 0,75 mg, a proteção contra MPE *piora* enquanto a questão do sono permanece sem resposta. Essa dissociação — perda de proteção enquanto o sono permanece inalterado — é o que distingue “dose errada para tudo” de “dose errada apenas para o sono”, e basta olhar para uma tabela para perceber.
 
 ---
 
@@ -129,7 +129,7 @@ O protocolo de uma página:
 | Resultado principal (definido com antecedência) | Qualidade/quantidade do sono, autoavaliação noturna |
 | Condições de interrupção | Sem mudança no dia 5 → retornar a 1 mg; pioramento → retornar imediatamente |
 | Data de revisão | Fixa, registada por escrito |
-| Riscos conhecidos e monitorização | Resposta anterior com 1 mg documentada; risco de PEM reconhecido |
+| Riscos conhecidos e monitorização | Resposta anterior com 1 mg documentada; risco de MPE reconhecido |
 
 Um teste seguindo exatamente esse método, com consentimento do prescritor, pode produzir uma resposta decisiva numa semana. O protocolo é a persuasão: ele mostra ao médico que “retentar com uma dose diferente” não é reabrir um antigo debate, mas sim realizar um pequeno experimento limitado com um ponto de saída definido.
 
@@ -159,6 +159,6 @@ Três advertências, expressas de forma clara, pois a força do argumento leva a
 
 ---
 
-*Este artigo é uma análise entre pacientes, baseada em farmacologia estabelecida — consulte [@Loth2026mecfs] para o quadro de dose-resposta subjacente — e não constitui aconselhamento médico. Cada estudo discutido requer a concordância do prescritor; vários dos medicamentos mencionados exigem preparação personalizada ou prescrição fora do espectro indicado. Os estudos EM/SFC apresentam risco de PEM — a atividade durante um estudo de dose é uma atividade durante um experimento no seu próprio limite.*
+*Este artigo é uma análise entre pacientes, baseada em farmacologia estabelecida — consulte [@Loth2026mecfs] para o quadro de dose-resposta subjacente — e não constitui aconselhamento médico. Cada estudo discutido requer a concordância do prescritor; vários dos medicamentos mencionados exigem preparação personalizada ou prescrição fora do espectro indicado. Os estudos EM/SFC apresentam risco de MPE — a atividade durante um estudo de dose é uma atividade durante um experimento no seu próprio limite.*
 
 *Série de dose-resposta: [Parte 1: Por que mais não é melhor](../more-isnt-better-ldn-lda/) · [Parte 2: O U invertido não é uma única coisa](../inverted-u-not-one-thing/) · [Parte 3: A sua dose LDN é um diagnóstico](../dose-is-diagnostic-ldn/) · [Parte 4: A farmacopeia](../pharmacopoeia-dose-meaning/) · [Parte 5: Como realizar um estudo de identificação de dose](../dose-finding-protocols/) · Relacionado (este post)*

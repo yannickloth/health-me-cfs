@@ -55,7 +55,7 @@ La fatiga por burnout es el agotamiento de un sistema que ha funcionado a alto r
 
 ## EM/SFC: el motor que se rompió
 
-EM/SFC es una enfermedad neuroinmune caracterizada por malestar post-esfuerzo (PEM) — una respuesta patológica al esfuerzo que produce un deterioro retrasado, desproporcionado y prolongado en la función física, cognitiva y neurológica. El informe de la IOM de 2015 identificó el PEM como la característica central: "los pacientes tienen una incapacidad patológica para producir suficiente energía según la demanda" [@IOM2015].
+EM/SFC es una enfermedad neuroinmune caracterizada por malestar post-esfuerzo (MPE) — una respuesta patológica al esfuerzo que produce un deterioro retrasado, desproporcionado y prolongado en la función física, cognitiva y neurológica. El informe de la IOM de 2015 identificó el MPE como la característica central: "los pacientes tienen una incapacidad patológica para producir suficiente energía según la demanda" [@IOM2015].
 
 La fatiga no es amotivación (el cerebro quiere actuar, pero el cuerpo no puede producir suficiente energía) ni descondicionamiento (el ejercicio empeora la situación, no mejora, como se demostró en el CPET de 2 días). Es metabólica: función mitocondrial deteriorada, utilización alterada de sustratos, lactato elevado en trabajos a nivel de reposo, activación inmune tras el esfuerzo.
 
@@ -108,7 +108,7 @@ El enmascaramiento — suprimir la autoestimulación, forzar contacto visual, vi
 
 La distinción clave: el agotamiento autista se resuelve cuando las demandas de enmascaramiento se reducen. Una persona autista que pasa a un entorno sensorialmente amigable con menos demandas sociales suele recuperarse, a veces rápidamente. Si el agotamiento se ha mantenido durante años, la recuperación puede ser más lenta e incompleta — pero la trayectoria es hacia la mejora una vez que la fuente de demanda se aborda.
 
-Para individuos autistas que también tienen EM/SFC, las dos deplecciones de energía son sumativas. El enmascaramiento agota el mismo presupuesto de energía que PEM agota. Reducir las demandas de enmascaramiento no es una adaptación de lujo — es una intervención directa que reduce la carga metabólica total y puede reducir la frecuencia y gravedad de PEM.
+Para individuos autistas que también tienen EM/SFC, las dos deplecciones de energía son sumativas. El enmascaramiento agota el mismo presupuesto de energía que MPE agota. Reducir las demandas de enmascaramiento no es una adaptación de lujo — es una intervención directa que reduce la carga metabólica total y puede reducir la frecuencia y gravedad de MPE.
 
 ---
 
@@ -126,7 +126,7 @@ Esta confusión continúa. Los pacientes con EM/SFC siguen referidos a servicios
 
 ## ¿Qué cambiaría si dejáramos de usar una palabra
 
-Si los formularios de ingreso clínico reemplazaran "fatiga: sí/no" con un discriminador de cuatro ítems — fatiga periférica, fatigabilidad/PEM, somnolencia, amotivación — el camino de diagnóstico se dividiría en la primera visita en lugar de en la quinta. El paciente con EM/SFC nunca recibiría la prescripción de ejercicio. El paciente deprimido nunca recibiría el protocolo de pacing. El paciente burnout recibiría el descanso que necesita en lugar de los medicamentos que no necesita.
+Si los formularios de ingreso clínico reemplazaran "fatiga: sí/no" con un discriminador de cuatro ítems — fatiga periférica, fatigabilidad/MPE, somnolencia, amotivación — el camino de diagnóstico se dividiría en la primera visita en lugar de en la quinta. El paciente con EM/SFC nunca recibiría la prescripción de ejercicio. El paciente deprimido nunca recibiría el protocolo de pacing. El paciente burnout recibiría el descanso que necesita en lugar de los medicamentos que no necesita.
 
 El obstáculo no es la tecnología, ni la financiación, ni la investigación. Es el vocabulario. Una palabra, pretendiendo describir una cosa, aplicada a cuatro. La biología ha sido clara durante años. El lenguaje no ha seguido el paso.
 

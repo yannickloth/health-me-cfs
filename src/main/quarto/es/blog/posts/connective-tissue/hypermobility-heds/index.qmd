@@ -177,7 +177,7 @@ Esta es la distinción central de la serie, y aplica más claramente a la hiperm
 **EM/SFC con hEDS (la situación sobre la que se centra esta serie).** Cuando la hipermovilidad se superpone a la EM/SFC, tres cosas son diferentes:
 
 - **hEDS es un sustrato permisivo, no la enfermedad central.** El tejido conectivo flojo reduce el umbral — los vasos acumulan más sangre, los mastocitos se activan más fácilmente, el microtrauma tisular libera más ATP — pero la falla energética y la desregulación inmunitaria de la EM/SFC no son causadas por la hipermovilidad. Funcionan sobre ella [@Loth2026website].
-- **Tratar las articulaciones no soluciona la crisis energética.** La fisioterapia y los apoyos pueden reducir el dolor y estabilizar la función, pero no abordan la PEM, la disfunción inmunitaria o la hipoperfusión cerebral. Una fisioterapia agresiva que ignora la PEM puede empeorar la EM/SFC.
+- **Tratar las articulaciones no soluciona la crisis energética.** La fisioterapia y los apoyos pueden reducir el dolor y estabilizar la función, pero no abordan el MPE, la disfunción inmunitaria o la hipoperfusión cerebral. Una fisioterapia agresiva que ignoral MPE puede empeorar la EM/SFC.
 - **El tratamiento de los amplificadores posteriores se vuelve proporcionalmente más importante.** Como no se puede corregir el colágeno, las herramientas clínicas son las condiciones que el tejido flojo permite: tratar la POTS con expansión de volumen, tratar el MCAS con antihistamínicos y estabilizadores, proteger las articulaciones con apoyos y ritmo. El arte clínico no está en corregir el colágeno, sino en gestionar la cascada que el colágeno flojo permite.
 
 ---
