@@ -240,7 +240,7 @@ As tabelas seguintes fornecem, para cada um dos dezoito medicamentos, uma linha 
 |---------------|-------------------|-----------|
 | Gab 100–300 mg / Preg 25–75 mg | Claridade cognitiva, redução da hipersensibilidade sensorial, melhoria do sono | Bloqueio da subunidade α2δ |
 | Gab 300–900 mg / Preg 75–150 mg | Controle de sintomas otimizado; “névoa cerebral” se a supressão noradrenérgica é excessiva | Bloqueio α2δ |
-| Gab ~300 mg (dose única) | Piora da OSA (AHI ↑); faixa de efeitos colaterais | Colapsibilidade do espaço gástrico GABAérgico |
+| Gab ~300 mg (dose única) | Piora da OSA (AHI ↑); faixa de efeitos colaterais | Colapsibilidade da via aérea superior GABAérgica |
 | Gab 900–3600 mg / Preg 150–600 mg | Faixa padrão de dor neuropática; sedação grave, risco de dependência | Bloqueio α2δ em ocupação total |
 
 ### Categoria 4 — Seleção de alvo e bioquímica bifásica

@@ -1,5 +1,5 @@
 ---
-title: "Artigo 1 sobre hipermobilidade: EM/SFC e a conexão do tecido conjuntivo com EM/SFC — Por que o tecido flexível alimenta a cascata"
+title: "Artigo 1 sobre hipermobilidade: EDS hipermóvel e a conexão do tecido conjuntivo com a EM/SFC — Por que o tecido flexível alimenta a cascata"
 description: "Guia em linguagem simples sobre a síndrome de Ehlers-Danlos hipermóvel e como ela se sobrepõe à EM/SFC — por que o tecido flexível não se mantém unido, as cinco vias mecânicas que ligam o tecido conjuntivo solto à doença sistêmica, como os mastócitos podem degradar ativamente o colágeno (hipermobilidade adquirida), a genética TNXB, a linha de neurodivergência e a diferença entre ser hipermóvel por si só e ser hipermóvel em conjunto com a EM/SFC."
 author: "Yannick Loth"
 date: "2026-08-03"
@@ -46,9 +46,9 @@ Este é o número mais importante para entender a hipermobilidade na EM/SFC. Qua
 
 A diferença é enorme: 81% contra 15,5%. Isso significa que a maioria dos pacientes com EM/SFC tem *algum* grau de laxidade do tecido conjuntivo, mas apenas uma minoria apresenta o síndrome clínico completo. O documento principal interpreta isso como evidência de que **a hipermobilidade é um substrato permissivo, não um motor principal** — uma característica tisular constitutiva que reduz o limite para outros amplificadores (MCAS, POTS, SFN) se manifestarem, mas não é suficiente por si só para causar EM/SFC [@Loth2026website]. Se a hipermobilidade fosse a causa, o número de 81% seria mais difícil de conciliar com o número rigoroso de 15,5% para hEDS. A diferença está consistente com um modelo de gradiente: a laxidade tisular torna o sistema vulnerável, e a doença surge quando suficientes outros amplificadores se acumulam.
 
-### Um mecanismo genético competente: TNXB e tenascina-X
+### Um mecanismo genético concorrente: TNXB e tenascina-X
 
-Embora a hEDS não tenha um gene primário identificado, uma pequena, mas importante, fração de hipermobilidade tem uma causa genética conhecida que *não* é um defeito de colágeno. O gene TNXB codifica a tenascina-X, uma proteína da matriz extracelular que regula o espaçamento das fibras de colágeno e a integridade das fibras elásticas. **Mutações bialleticas de TNXB causam EDS semelhante à clássica, e portadores heterozigotos (haploinsuficientes) representam aproximadamente 5–10% da hipermobilidade clínica** — um mecanismo genético competente independente dos mastócitos e independente do consenso de hEDS sem defeito molecular [@Imanaka2026TNXBHypermobility].
+Embora a hEDS não tenha um gene primário identificado, uma pequena, mas importante, fração de hipermobilidade tem uma causa genética conhecida que *não* é um defeito de colágeno. O gene TNXB codifica a tenascina-X, uma proteína da matriz extracelular que regula o espaçamento das fibras de colágeno e a integridade das fibras elásticas. **Mutações bialleticas de TNXB causam EDS semelhante à clássica, e portadores heterozigotos (haploinsuficientes) representam aproximadamente 5–10% da hipermobilidade clínica** — um mecanismo genético concorrente independente dos mastócitos e independente do consenso de hEDS sem defeito molecular [@Imanaka2026TNXBHypermobility].
 
 Isso é importante porque fragmenta o fenótipo de hipermobilidade: alguns pacientes têm laxidade de colágeno congénita (gene atualmente não identificado), outros têm deficiência de tenascina-X, e — como o próximo trecho explica — alguns têm hipermobilidade *adquirida*, impulsionada por enzimas de mastócitos que degradam ativamente o tecido conjuntivo. Os três mecanismos podem coexistir num único paciente.
 

@@ -25,7 +25,7 @@ En 2026, una revisión propuso un modelo integral de autismo como un **trastorno
 - En el modelo, este transporte se ve afectado: reducida absorción de glucosa, fallo en el almacenamiento de glucógeno y interrupción en la transferencia de lactato de astrocitos a neuronas.
 - El resultado es **una disponibilidad subóptima de ATP** — el cerebro literalmente no tiene suficiente combustible.
 
-El paso clave del modelo es la **"adaptación de ahorro de energía."** Ante una falta, el cerebro no sufre simplemente una crisis. Se *economiza*: prioriza las operaciones más costosas en energía para proteger las funciones necesarias para sobrevivir. Esas operaciones costosas en energía son precisamente aquellas que reconocemos como esenciales para la vida social:
+El paso clave del modelo es la **"adaptación de ahorro de energía."** Ante una falta, el cerebro no sufre simplemente una crisis. Se *economiza*: quita prioridad a las operaciones más costosas en energía para proteger las funciones necesarias para sobrevivir. Esas operaciones costosas en energía son precisamente aquellas que reconocemos como esenciales para la vida social:
 
 - **Comunicación social** — leer rostros, tono y intención.
 - **Flexibilidad cognitiva** — cambiar tareas, adaptarse a los cambios.
@@ -95,7 +95,7 @@ Una suposición común es que cada paciente tiene *una* causa. La investigación
 
 - Un **déficit de energía mitocondrial** (base, derivado del desarrollo)
 - **Deficiencia de hierro** que agrava el problema de energía
-- Una **diferencia en la conexión glifática** que produce sensibilidad sensorial
+- Una **diferencia en la conexión glutamatérgica** que produce sensibilidad sensorial
 - **Sueño perturbado** que dificulta aún más la recuperación
 
 Cada uno es un mecanismo diferente. Tratar solo uno puede dejar los demás sin intervenir. Una "vida más normal" puede no surgir de un solo tratamiento, sino de abordar varios mecanismos en paralelo.
@@ -105,9 +105,9 @@ Cada uno es un mecanismo diferente. Tratar solo uno puede dejar los demás sin i
 Una gran encuesta de pacientes reportada de 3.925 pacientes con EM/SFC y pacientes con COVID larga, que evaluó más de 150 intervenciones, encontró que los pacientes se dividen en subgrupos distintos relevantes para el tratamiento [@Eckey2025PatientReported]:
 
 - Un **grupo multivías** que responde mejor a inmunoglobulinas y drenaje linfático
-- Un **grupo dominado por POTS** que responde mejor a estimulación, fluidos y compresión
+- Un **grupo dominado por POTS** que responde mejor a pacing, fluidos y compresión
 - Un **grupo cognitivo y de sueño** (bajo POTS) que responde mejor a estimulantes del sistema nervioso central
-- Un **grupo más leve** que responde a estimulación y fluidos
+- Un **grupo más leve** que responde a pacing y fluidos
 
 Las lecciones clave: el mismo tratamiento que ayuda a un paciente puede no ayudar —o puede perjudicar— a otro; y **la capacidad funcional (gravedad), no la etiqueta de diagnóstico, es el único predictor más fuerte de la respuesta al tratamiento.**
 

@@ -122,7 +122,7 @@ Os quatro mecanismos, em sua química:
 
 - **TRPM3 (3,0–4,5 mg).** O TRPM3 é um canal de cálcio; o cálcio é o “interruptor” universal das células. A disfunção do TRPM3 é a descoberta mais frequente de canal iónico no EM/SFC, documentada em seis estudos independentes de células NK [@Cabanas2021]. A naltrexona restaura o fluxo de cálcio mediado pelo TRPM3 nas células NK do EM/SFC in vitro [@Cabanas2018trpm3] — mas estes são dados de concentração única in vitro, e não está comprovado se isso ocorre em neurónios vivos, vasos sanguíneos e músculo.
 
-- **Orexina (potencial benefício em banda alta; efeito colateral quando ultrapassa o limite).** A naltrexona reduz a inflamação microglial no tálamo; essa inflamação suprime os neurónios de vigília da orexina (hypocretina). Quando o freio é retirado, os neurónios de orexina atuam mais. O artigo trata este mecanismo como um potencial *benefício* (melhoria da vigília e cognição) — mas pode transformar-se num efeito colateral de “estado de alerta”/insônia em dose baixa e em vigília pronunciada/insônia em dose alta quando ultrapassa o limite. A ligação entre inflamação e supressão da orexina está documentada em modelos animais [@Grossberg2011orexinLethargy], e a orexina é reduzida no LCR do EM/SFC — mas nenhum estudo mediu a orexina antes e depois da LDN no EM/SFC.
+- **Orexina (potencial benefício em banda alta; efeito colateral quando ultrapassa o limite).** A naltrexona reduz a inflamação microglial no hipotálamo; essa inflamação suprime os neurónios de vigília da orexina (hypocretina). Quando o freio é retirado, os neurónios de orexina atuam mais. O artigo trata este mecanismo como um potencial *benefício* (melhoria da vigília e cognição) — mas pode transformar-se num efeito colateral de “estado de alerta”/insônia em dose baixa e em vigília pronunciada/insônia em dose alta quando ultrapassa o limite. A ligação entre inflamação e supressão da orexina está documentada em modelos animais [@Grossberg2011orexinLethargy], e a orexina é reduzida no LCR do EM/SFC — mas nenhum estudo mediu a orexina antes e depois da LDN no EM/SFC.
 
 ---
 
@@ -228,7 +228,7 @@ Dois pontos da tabela referem-se diretamente ao argumento do superconjunto.
 
 **Segundo, os intervalos de benefício não se sobrepõem.** O benefício do TLR4/Nrf2 está entre 0,5 e 1,5 mg e desaparece após 3,0–4,5 mg (o sobre-bloqueio do TLR4 o extingue). O benefício do TRPM3/orexina aparece entre 3,0 e 4,5 mg. São **janelas distintas**, não uma versão de baixa e alta dose da mesma coisa.
 
-A consequência é direta: **uma dose não é um volume.** Passar de 1 mg para 4 mg não "conta" os efeitos de 1 mg — ela substitui a combinação de alvos ativos por outra combinação. A hormese TLR4/Nrf2 que opera em 1 mg é *desligada* em 4 mg, e não amplificada.
+A consequência é direta: **uma dose não é um volume.** Passar de 1 mg para 4 mg não "contém" os efeitos de 1 mg — ela substitui a combinação de alvos ativos por outra combinação. A hormese TLR4/Nrf2 que opera em 1 mg é *desligada* em 4 mg, e não amplificada.
 
 Portanto, a hipótese do superconjunto falha exatamente onde é importante: o mecanismo que pode funcionar em 1 mg não é um subconjunto do que falha em 4 mg — é um *alvo* *diferente*, com sua própria curva.
 

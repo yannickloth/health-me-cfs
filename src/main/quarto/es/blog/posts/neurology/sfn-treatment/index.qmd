@@ -71,7 +71,7 @@ Comienza con la opción de menor riesgo: placa de lidocaína al 5 % en la zona m
 
 Si el dolor es generalizado o la lidocaína es insuficiente, añade gabapentina 100–300 mg antes de dormir, ajustando lentamente durante 4 semanas hasta la dosis máxima tolerada. Reevalua a las 8 semanas. **Detén el tratamiento si la sedación impide alcanzar una dosis efectiva** — la dosis máxima tolerada en EM/SFC puede ser inferior a la dosis analgésica, y eso es un problema de acceso farmacológico, no un fallo del paciente. Si la gabapentina no funciona, prueba duloxetina 30 mg diaria, ajustando hasta 60 mg, y reevalua a las 8 semanas.
 
-Si la biopsia muestra SFN no dependiente de la longitud y los medicamentos orales han fallado, discute IVIG con un neurólogo: 0,4 g/kg diario durante 5 días, luego 0,4 g/kg cada 3–4 semanas. Reevalua a los 6 meses. **Detén el tratamiento si no hay mejoría** — un ensayo de 6 meses sin IVIG es suficiente evidencia de que la terapia de inmunoglobulinas no es la solución adecuada.
+Si la biopsia muestra SFN no dependiente de la longitud y los medicamentos orales han fallado, discute IVIG con un neurólogo: 0,4 g/kg diario durante 5 días, luego 0,4 g/kg cada 3–4 semanas. Reevalua a los 6 meses. **Detén el tratamiento si no hay mejoría** — un ensayo nulo de IVIG de 6 meses es suficiente evidencia de que la terapia de inmunoglobulinas no es la solución adecuada.
 
 Si está presente MCAS (sobreexcitación, urticaria, síntomas de histamina), añade estabilizadores de mastocitos (cromoglicato, ketotifeno) como complemento — atacan el circuito tryptasa→PAR2 upstream de los medicamentos analgésicos, pero no son un sustituto de la escala de dolor neuropático.
 

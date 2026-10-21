@@ -140,7 +140,7 @@ Nuestro modelo matemático integrado rastrea todas estas interacciones a través
 - Actividad del complejo I (metabolismo energético)
 - Producción de citocinas (sistema inmunitario)
 - Permeabilidad de la barrera hematoencefálica (interfaz neuroinmunitaria)
-- Aumento del baroreflexo (regulación autónoma)
+- Ganancia del barorreflejo (regulación autónoma)
 - Disponibilidad de BH₄ (síntesis de neurotransmisores)
 
 Seleccionar menos objetivos y las vías no tratadas compensan, llevando el sistema de nuevo al atractor de la enfermedad. Por eso los ensayos clínicos con un solo medicamento han sido consistentemente decepcionantes. No porque el mecanismo objetivo estuviera equivocado — sino porque abordar una cascada mientras otras cinco continúan es matemáticamente insuficiente para cambiar el sistema.

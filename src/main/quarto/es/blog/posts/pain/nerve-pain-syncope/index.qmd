@@ -107,7 +107,7 @@ Algunas personas naturalmente tienen un nervio vago más reactivo — frecuencia
 
 ### 2. POTS (Síndrome de taquicardia ortostática postural)
 
-Los pacientes con POTS ya tienen un sistema nervioso autónomo desregulado [@POTSautonomicProfiles2025] [@Sheldon2015POTScriteria] [@Garland2015POTSbeyond]. Su característica distintiva es un **aumento excesivo de frecuencia cardíaca al estar de pie** — el sistema simpático sobrecompensa para mantener la perfusión cerebral contra la acumulación de sangre. Pero muchos pacientes con POTS también tienen **POTS neuropático** — los nervios simpáticos a los vasos sanguíneos del cuerpo inferior están parcialmente dañados (neuropatía de pequeños vasos [@Schondorf2021autonomicPOTS]), lo que significa que la vasoconstricción ya está deteriorada.
+Los pacientes con POTS ya tienen un sistema nervioso autónomo desregulado [@POTSautonomicProfiles2025] [@Sheldon2015POTScriteria] [@Garland2015POTSbeyond]. Su característica distintiva es un **aumento excesivo de frecuencia cardíaca al estar de pie** — el sistema simpático sobrecompensa para mantener la perfusión cerebral contra la acumulación de sangre. Pero muchos pacientes con POTS también tienen **POTS neuropático** — los nervios simpáticos a los vasos sanguíneos del cuerpo inferior están parcialmente dañados (neuropatía de fibra pequeña [@Schondorf2021autonomicPOTS]), lo que significa que la vasoconstricción ya está deteriorada.
 
 Cuando un pico de dolor desencadena la retirada simpática mediada por el NTS, el sistema cardiovascular de un paciente con POTS es menos capaz de compensar. La vasodilatación es mayor en relación con el nivel basal y la recuperación del barorreflejo es más lenta. **El síncope es más probable y la recuperación es más larga.**
 

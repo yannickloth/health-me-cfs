@@ -23,7 +23,7 @@ Una forma propuesta de organizar la biología subyacente agrupa esas 17.000 cond
 - Equilibrio redox y oxidativo (sobreproducción de ROS/RNS, peroxidación de lípidos, estrés nitrosativo)
 - Canales iónicos y transporte de membrana (patologías de canales, rigidez de membrana, fallo en la señalización de Ca²⁺)
 - Activación inmunitaria y señalización de citocinas (hiperactivación innata, agotamiento de NK, complemento)
-- Autoinmunidad y mimetismo molecular (anticuerpos autoantígenos, desvío inmunitario postviral)
+- Autoinmunidad y mimetismo molecular (autoanticuerpos de receptores, desvío inmunitario postviral)
 - Coagulación y hematológica (formación de microcoágulos, hiperactivación de plaquetas, hipercoagulabilidad)
 - Disfunción vascular y endotelial (fallo endotelial, hipoperfusión cerebral, paradoja RAAS)
 - Sistema nervioso autónomo y periférico (POTS, fallo del barorreflejo, neuropatía de fibras pequeñas)

@@ -63,7 +63,7 @@ Cada mecanismo tem a sua própria curva dose-resposta. As curvas não partilham 
 
 **O que isso prediz.** Diferentemente do paciente hormético Nrf2, o benefício da LDN não prediz resposta a outros ativadores Nrf2 — o sulforafano ou o melatonina podem não ter efeito algum. O padrão de janela sugere que a componente inflamatória da sua doença não é o fator limitante, ou não é mediada pela TLR4.
 
-**O que fazer.** Termine a dose no platô e pare. A escalada além do ponto de platô não adiciona mais compensação de opioides — o limite é biológico, não farmacológico — e apenas aumenta os efeitos de TRPM3/orexin, que podem ser neutros ou adversos.
+**O que fazer.** Titule a dose no platô e pare. A escalada além do ponto de platô não adiciona mais compensação de opioides — o limite é biológico, não farmacológico — e apenas aumenta os efeitos de TRPM3/orexin, que podem ser neutros ou adversos.
 
 ---
 
@@ -131,7 +131,7 @@ O modelo é falsificável. Um estudo de dose-resposta de quatro braços (0,5; 1,
 
 | Afirmação | Certeza |
 |-------|-----------|
-| O benefício do LDN perdido em 3,0–4,5 mg indica a dominância hormonal TLR4/Nrf2 | Baixa — fundamentada mecanicamente, mas nunca testada prospectivamente |
+| O benefício do LDN perdido em 3,0–4,5 mg indica a dominância hormética TLR4/Nrf2 | Baixa — fundamentada mecanicamente, mas nunca testada prospectivamente |
 | O benefício do LDN apenas em 3,0–4,5 mg indica a dominância TRPM3 ou orexina | Baixa — inferência a partir de dados in vitro de TRPM3 e farmacologia da orexina; nunca testada |
 | A forma em "M" da curva de resposta indica dois ótimos não sobrepostos | Baixa — previsto pelo modelo de múltiplos alvos; nunca observado prospectivamente |
 | A forma da curva dose-resposta prevê resposta a outros ativadores Nrf2 | Baixa — a previsão da correlação dentro do cluster é teoricamente coerente, mas totalmente não testada |

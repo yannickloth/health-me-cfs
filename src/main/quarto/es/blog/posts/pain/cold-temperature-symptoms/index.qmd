@@ -39,17 +39,17 @@ El resultado: la vasculatura periférica recibe instrucciones imprecisas, incons
 
 ---
 
-## Falla 2: Generar caloría es costoso y no hay suficiente energía
+## Falla 2: Generar calor es costoso y no hay suficiente energía
 
-La termorregulación no es pasiva. Generar caloría —ya sea a través de temblor, mediante termogénesis no temblorosa en el tejido adiposo marrón o simplemente manteniendo actividad metabólica normal en las células— requiere ATP, la moneda energética universal del cuerpo.
+La termorregulación no es pasiva. Generar calor —ya sea a través de temblor, mediante termogénesis no temblorosa en el tejido adiposo marrón o simplemente manteniendo actividad metabólica normal en las células— requiere ATP, la moneda energética universal del cuerpo.
 
 En EM/SFC, la producción de ATP está deteriorada a nivel mitocondrial. La cadena de transporte de electrones —la maquinaria que genera la gran mayoría del ATP celular— pierde electrones en varias veces el ritmo normal, produciendo especies reactivas de oxígeno en lugar de energía útil y degradando las estructuras mitocondriales. El resultado es una reducida producción de ATP por unidad de sustrato metabólico consumido.
 
-Para la termorregulación, esto crea un problema directo: **la generación de caloría consume energía que el cuerpo no puede ahorrar.**
+Para la termorregulación, esto crea un problema directo: **la generación de calor consume energía que el cuerpo no puede ahorrar.**
 
 El temblor —uno de los principales mecanismos de defensa contra el frío— es una contracción muscular rápida y involuntaria. La contracción muscular consume ATP. En un cuerpo donde la producción de ATP ya está por debajo de la capacidad, la demanda de ATP sostenida del temblor puede no ser sostenible. Los músculos pueden temblar brevemente, pero luego no pueden mantener la respuesta. La persona permanece fría.
 
-La termogénesis no temblorosa, que implica que el tejido adiposo marrón quema grasa para generar caloría directamente, también depende de la actividad mitocondrial. En el contexto de una disfunción mitocondrial generalizada, este camino también es probablemente deteriorado.
+La termogénesis no temblorosa, que implica que el tejido adiposo marrón quema grasa para generar calor directamente, también depende de la actividad mitocondrial. En el contexto de una disfunción mitocondrial generalizada, este camino también es probablemente deteriorado.
 
 El frío que las personas con EM/SFC sienten, en muchos casos, no es un problema de percepción. Es la consecuencia física de un sistema de termorregulación que carece del combustible necesario para funcionar adecuadamente.
 

@@ -65,7 +65,7 @@ TRPA1 es el "receptor wasabi" — activado por aceite de mostaza, ajo y irritant
 
 Durante MPE, la disfunción mitocondrial genera una explosión de ROS. La microlesión del músculo esquelético libera productos de peroxidación de lípidos. La señal de estrés oxidativo activa directamente TRPA1 en las terminales nerviosas sensoriales, produciendo una señal de dolor que no tiene correlación mecánica — el músculo no está dañado de ninguna manera visible en las imágenes, pero el nervio reporta daño porque TRPA1 fue abierto químicamente por las consecuencias metabólicas del ejercicio.
 
-TRPA1 también se expresa en **células de Schwann** — las células gliales que envuelven los nervios periféricos. Cuando TRPA1 en las células de Schwann es activada por ROS, la célula de Schwann libera prostaglandinas, citocinas y CGRP en el espacio endotelial, provocando una inflamación neurogénica *dentro de la vaina nerviosa* — independientemente de la lesión axonal. Este es un mecanismo plausible para el dolor de vaina nerviosa que los pacientes con SFN describen: el tronco nervioso en sí está inflamado, no solo los terminales [@Loth2026website].
+TRPA1 también se expresa en **células de Schwann** — las células gliales que envuelven los nervios periféricos. Cuando TRPA1 en las células de Schwann es activada por ROS, la célula de Schwann libera prostaglandinas, citocinas y CGRP en el espacio endoneural, provocando una inflamación neurogénica *dentro de la vaina nerviosa* — independientemente de la lesión axonal. Este es un mecanismo plausible para el dolor de vaina nerviosa que los pacientes con SFN describen: el tronco nervioso en sí está inflamado, no solo los terminales [@Loth2026website].
 
 ---
 
@@ -75,7 +75,7 @@ Una de las ideas centrales del documento sobre el dolor en EM/SFC es que la mayo
 
 - **La componente neuropática** proviene de SFN: se pierden las pequeñas fibras (confirmado mediante biopsia en 30–38%), y las fibras restantes son hiperexcitables debido a la sensibilización de la triptasa de los mastocitos a PAR2. Esto produce la sensación de ardor, chisporronamiento y shock eléctrico que los cuestionarios de dolor neuropático detectan.
 - **La componente nociplástica** proviene de la sensibilización central: la médula espinal y el cerebro amplifican la señal de esas fibras hiperexcitables. Esto genera el dolor generalizado, sensible a la presión y multisensorial que los criterios de fibromialgia identifican.
-- **MPE amplifica ambos**. La acidosis post-exercicio activa los canales ASIC3 en los nervios sensoriales; el ATP liberado por el músculo estresado metabólicamente activa los receptores P2X4 en la microglía; el TLR4 en la microglía es activado por DAMPs provenientes del estrés tisular. Estas tres señales convergen para re-sensibilizar todo el camino del dolor cada vez que el paciente supera su envelope energético. Por esta razón, el dolor es peor después de crisis — y por esta razón, el dolor en EM/SFC es más resistente al tratamiento que el dolor en fibromialgia por sí solo: la entrada de re-sensibilización continúa llegando [@Loth2026website].
+- **MPE amplifica ambos**. La acidosis post-exercicio activa los canales ASIC3 en los nervios sensoriales; el ATP liberado por el músculo estresado metabólicamente activa los receptores P2X4 en la microglía; el TLR4 en la microglía es activado por DAMPs provenientes del estrés tisular. Estas tres señales convergen para re-sensibilizar todo el camino del dolor cada vez que el paciente supera su envolvente energética. Por esta razón, el dolor es peor después de crisis — y por esta razón, el dolor en EM/SFC es más resistente al tratamiento que el dolor en fibromialgia por sí solo: la entrada de re-sensibilización continúa llegando [@Loth2026website].
 
 ---
 
@@ -85,7 +85,7 @@ Una de las ideas centrales del documento sobre el dolor en EM/SFC es que la mayo
 
 **EM/SFC con dolor de patrón de fibromialgia (la situación de esta serie).** Cuando el dolor de fibromialgia se suma a la EM/SFC, tres cosas son diferentes:
 
-- **el MPE amplifica el dolor.** La re-sensibilización post-esfuerzo ASIC3/P2X4/TLR4 significa que cada crisis es un brote de dolor. El envelope energético y el envelope de dolor están vinculados —no se puede tratar uno sin respetar el otro [@Loth2026website].
+- **el MPE amplifica el dolor.** La re-sensibilización post-esfuerzo ASIC3/P2X4/TLR4 significa que cada crisis es un brote de dolor. La envolvente energética y la envolvente de dolor están vinculados —no se puede tratar uno sin respetar el otro [@Loth2026website].
 - **La ventana de tratamiento es más estrecha.** Los SNRIs y gabapentoides que son bien tolerados en la fibromialgia pura pueden empeorar la niebla cerebral y la fatiga en EM/SFC. Los antagonistas de NMDA (ketamina) que son efectivos para el dolor de fibromialgia pueden ser demasiado disociativos para alguien con disfunción cognitiva en EM/SFC.
 - **Tratar el dolor no soluciona la falla energética.** El alivio del dolor vale la pena —mejora el sueño, reduce el coste metabólico de estar con dolor y preserva la función. Pero el alivio del dolor no restaura la función mitocondrial, elimina la desregulación inmunitaria o revierte la hipoperfusión cerebral. Solo trata un amplificador en un sistema de múltiples amplificadores.
 
@@ -93,7 +93,7 @@ Una de las ideas centrales del documento sobre el dolor en EM/SFC es que la mayo
 
 ## La conclusión principal
 
-El dolor de patrón de fibromialgia es real en EM/SFC: una gran parte de los pacientes (comúnmente ~47%, que puede ser mayor con criterios más flexibles) cumple con los criterios — y está causado por sensibilización central (ampliamente considerada dominante en la gran mayoría), canales TRPV1/TRPA1 bloqueados y abiertos, un ciclo self-sustaining de COX-2/PGE₂, y re-sensibilización impulsada por MPE que la fibromialgia por sí sola no presenta [@RamirezMorales2022overlap][@Nijs2021sensitization].
+El dolor de patrón de fibromialgia es real en EM/SFC: una gran parte de los pacientes (comúnmente ~47%, que puede ser mayor con criterios más flexibles) cumple con los criterios — y está causado por sensibilización central (ampliamente considerada dominante en la gran mayoría), canales TRPV1/TRPA1 permanentemente abiertos, un ciclo self-sustaining de COX-2/PGE₂, y re-sensibilización impulsada por MPE que la fibromialgia por sí sola no presenta [@RamirezMorales2022overlap][@Nijs2021sensitization].
 
 La lectura es la siguiente: el dolor es un amplificador del trastorno inmune-energético más amplio, no de la enfermedad central. Tratarlo mejora la calidad de vida; no soluciona la crisis. [El artículo complementario de tratamiento](../fibromyalgia-pain-treatment/index.qmd) aborda el enfoque multimodal — LDN, SNRIs, gabapentinoides, inhibidores de COX-2, PEA y la dosis consciente de MPE que diferencia la gestión del dolor en EM/SFC de la atención estándar para la fibromialgia.
 

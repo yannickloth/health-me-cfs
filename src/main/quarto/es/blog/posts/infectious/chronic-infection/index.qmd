@@ -82,7 +82,7 @@ El debate sobre el mecanismo se asemeja al debate sobre el EBV: ¿existe una Bor
 
 ## Co-reactivación de poli-herpesvirus
 
-El sistema inmunitario no lucha contra un herpesvirus a la vez. El 72,5% de tasa de seroreactividad de poli-herpesvirus (en comparación con el 31% en los controles) indica que cuando la vigilancia inmunitaria se debilita —y la excesión de células T, la disfunción de NK y la senescencia de CD8+ están documentadas en EM/SFC— múltiples herpesviruses latentes se reactivan simultáneamente [@Palomo2026herpesvirus].
+El sistema inmunitario no lucha contra un herpesvirus a la vez. El 72,5% de tasa de seroreactividad de poli-herpesvirus (en comparación con el 31% en los controles) indica que cuando la vigilancia inmunitaria se debilita —y el agotamiento de células T, la disfunción de NK y la senescencia de CD8+ están documentadas en EM/SFC— múltiples herpesviruses latentes se reactivan simultáneamente [@Palomo2026herpesvirus].
 
 Esto crea un problema en el tratamiento. El valaciclovir inhibe la polimerasa del ADN del EBV (replicación lítica), pero no tiene efecto sobre el HHV-6. El valganciclovir cubre el HHV-6 y el CMV, pero es más tóxico. Ningún antiviral individual cubre los cuatro (EBV, HHV-6, CMV, VZV) sin toxicidad aditiva. Y ninguno de ellos bloquea la ALR, porque las proteínas virales tempranas se producen antes de la etapa de polimerasa del ADN a la que apuntan los medicamentos.
 

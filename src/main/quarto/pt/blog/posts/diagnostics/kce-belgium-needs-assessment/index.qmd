@@ -71,7 +71,7 @@ O KCE questionou diretamente os pacientes sobre suas experiências de tratamento
 
 - **Fisioterapia manual** (o tipo prático, não baseado em exercícios) teve “experiências geralmente positivas” — uma distinção que o relatório mantém com cuidado.
 
-- **CBT:** Aproximadamente 50% melhoraram, 20% pioraram e 30% não tiveram mudança — uma chance igual de melhoria, mas um risco de cinco em cinco de piorar [@Cornelis2026KCE420].
+- **CBT:** Aproximadamente 50% melhoraram, 20% pioraram e 30% não tiveram mudança — uma chance igual de melhoria, mas um risco de um em cinco de piorar [@Cornelis2026KCE420].
 
 - **Aconselhamento psicológico** (não CBT): 50% melhoraram, 30% não tiveram mudança.
 

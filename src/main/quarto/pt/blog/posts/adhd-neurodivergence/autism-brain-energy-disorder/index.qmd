@@ -25,7 +25,7 @@ Em 2026, uma revisão propôs um modelo abrangente do autismo como um **distúrb
 - No modelo, esse transporte é prejudicado: redução na absorção de glicose, falha no armazenamento de glicogénio e interrupção na transferência de lactato de astrócitos para neurónios.
 - O resultado é **uma disponibilidade de ATP subótima** — o cérebro literalmente não tem combustível suficiente.
 
-A principal característica do modelo é a **"adaptação de economia de energia."** Diante de um défice, o cérebro não entra em crise. Ele *economiza*: prioriza as operações mais caras em energia para proteger as funções necessárias para a sobrevivência. Essas operações mais caras em energia são precisamente aquelas que reconhecemos como essenciais para a vida social:
+A principal característica do modelo é a **"adaptação de economia de energia."** Diante de um défice, o cérebro não entra em crise. Ele *economiza*: retira prioridade às operações mais caras em energia para proteger as funções necessárias para a sobrevivência. Essas operações mais caras em energia são precisamente aquelas que reconhecemos como essenciais para a vida social:
 
 - **Comunicação social** — reconhecer rostos, tom e intenção
 - **Flexibilidade cognitiva** — alternar tarefas, adaptar-se às mudanças
@@ -105,9 +105,9 @@ Cada um é um caminho diferente. Tratar apenas um pode deixar os outros intocado
 Um grande inquérito relatado pelos pacientes de 3.925 pacientes com EM/SFC e pacientes com longa COVID, avaliando mais de 150 intervenções, revelou que os pacientes se dividem em subgrupos distintos relevantes para o tratamento [@Eckey2025PatientReported]:
 
 - Um **grupo multissistémico** que responde melhor a imunoglobulinas e drenagem linfática
-- Um **grupo dominado por POTS** que responde melhor a estimulação, fluidos e compressão
+- Um **grupo dominado por POTS** que responde melhor a pacing (gestão de energia), fluidos e compressão
 - Um **grupo cognitivo e de sono** (baixo POTS) que responde melhor a estimulantes do SNC
-- Um **grupo mais leve** que responde a estimulação e fluidos
+- Um **grupo mais leve** que responde a pacing (gestão de energia) e fluidos
 
 As lições-chave: o mesmo tratamento que ajuda um paciente pode não ajudar — ou pode prejudicar — outro; e **a capacidade funcional (gravedade), e não a etiqueta do diagnóstico, é o preditor mais forte da resposta ao tratamento.**
 
@@ -129,7 +129,7 @@ Diferentes mecanismos exigem diferentes níveis de intervenção: o défice de e
 
 ### A hipótese do tratamento combinado
 
-A versão mais forte da ideia multivias é um **protocolo sistematicamente escalado e estratificado por gravidade** que aborda vários caminhos que reduzem os reservatórios ao mesmo tempo — combinando **repleção de ferro, suporte de cofator BH4, amortecimento de fosfocreatina, otimização da perfusão e estimulação adaptada**. Se vários mecanismos independentes reduzirem uma parte da função, então a correção de todos eles deve restaurar mais do que a correção de um único componente — os efeitos podem ser aditivos ou cumulativos.
+A versão mais forte da ideia multivias é um **protocolo sistematicamente escalado e estratificado por gravidade** que aborda vários caminhos que reduzem os reservatórios ao mesmo tempo — combinando **repleção de ferro, suporte de cofator BH4, amortecimento de fosfocreatina, otimização da perfusão e pacing (gestão de energia) adaptado**. Se vários mecanismos independentes reduzirem uma parte da função, então a correção de todos eles deve restaurar mais do que a correção de um único componente — os efeitos podem ser aditivos ou cumulativos.
 
 *Este protocolo combinado é uma hipótese registada. Cada componente tem evidência moderada individual; a combinação não foi testada e ainda não foi realizada como estudo clínico.*
 

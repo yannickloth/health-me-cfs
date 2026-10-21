@@ -124,8 +124,8 @@ Este ensayo es pequeño (n = 21) y aún no ha sido replicado independientemente 
 
 Dos interpretaciones apuntan en direcciones opuestas y ambas son verificables:
 
-- Si el camino de selección no dopaminérgico es relativamente preservado mientras que el camino de velocidad dopaminérgico falla, la fatiga crónica debería mostrar un patrón **lento pero preciso** — tasas de error preservadas con respuestas selectivamente aceleradas.
-- Si las redes *inhibitorias* de ATP-expensive del PFC fallan primero bajo escasez de energía (la predicción del marco), el patrón debería ser **lento e incierto** — aumentadas alarmas falsas junto con respuestas aceleradas.
+- Si el camino de selección no dopaminérgico es relativamente preservado mientras que el camino de velocidad dopaminérgico falla, la fatiga crónica debería mostrar un patrón **lento pero preciso** — tasas de error preservadas con respuestas selectivamente ralentizadas.
+- Si las redes *inhibitorias* de ATP-expensive del PFC fallan primero bajo escasez de energía (la predicción del marco), el patrón debería ser **lento e impreciso** — aumentadas alarmas falsas junto con respuestas ralentizadas.
 
 ¿Qué patrón muestran los pacientes de fatiga crónica es una pregunta empírica abierta. La serie lo registra como tal, y como una especulación de baja confianza registrada en lugar de un hallazgo.
 
@@ -153,9 +153,9 @@ Cada uno es un camino diferente. Tratar solo uno puede dejar los otros sin inter
 Una gran encuesta de pacientes reportada de 3.925 pacientes con EM/SFC y pacientes con COVID larga, que evaluó más de 150 intervenciones, encontró que los pacientes se dividen en subgrupos distintos relevantes para el tratamiento [@Eckey2025PatientReported]:
 
 - Un **grupo multisistémico** que responde mejor a inmunoglobulinas y drenaje linfático
-- Un **grupo dominado por POTS** que responde mejor a estimulación, fluidos y compresión
+- Un **grupo dominado por POTS** que responde mejor a pacing, fluidos y compresión
 - Un **grupo cognitivo y de sueño** (bajo POTS) que responde mejor a estimulantes del SNC
-- Un **grupo más leve** que responde a estimulación y fluidos
+- Un **grupo más leve** que responde a pacing y fluidos
 
 Las lecciones clave: el mismo tratamiento que ayuda a un paciente puede no ayudar —o puede perjudicar— a otro; y **la capacidad funcional (gravedad), no la etiqueta de diagnóstico, es el único predictor más fuerte de la respuesta al tratamiento.**
 
@@ -177,7 +177,7 @@ Diferentes mecanismos requieren diferentes niveles de intervención: el déficit
 
 ### La hipótesis del tratamiento combinado
 
-La versión más fuerte de la idea multivía es un **protocolo escalado sistemáticamente y estratificado por gravedad** que aborda varios caminos que reducen los reservorios al mismo tiempo — combinando **relleno de hierro, soporte de cofactor BH4, amortiguación de fosfocreatina (creatina), optimización de perfusión y estimulación adaptada**. Si varios mecanismos independientes reducen una parte de la función, entonces solucionarlos todos debería restaurar más que solucionar uno solo — los efectos pueden ser aditivos o acumulativos.
+La versión más fuerte de la idea multivía es un **protocolo escalado sistemáticamente y estratificado por gravedad** que aborda varios caminos que reducen los reservorios al mismo tiempo — combinando **relleno de hierro, soporte de cofactor BH4, amortiguación de fosfocreatina (creatina), optimización de perfusión y pacing adaptado**. Si varios mecanismos independientes reducen una parte de la función, entonces solucionarlos todos debería restaurar más que solucionar uno solo — los efectos pueden ser aditivos o acumulativos.
 
 *Este protocolo combinado es una hipótesis registrada. Cada componente tiene evidencia moderada; la combinación no ha sido probada y no se ha llevado a cabo como ensayo.*
 

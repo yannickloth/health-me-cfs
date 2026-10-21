@@ -57,7 +57,7 @@ Cuando un estimulante oculta la señal de fatiga y permite que el paciente traba
 
 ## ¿Hasta qué profundidad puede llegar?
 
-La gravedad de la crisis depende de hasta dónde se aleja el paciente del envelope energético. Esto produce un espectro:
+La gravedad de la crisis depende de hasta dónde se aleja el paciente dla envolvente energética. Esto produce un espectro:
 
 **Leve**: fatiga retrasada y empeoramiento cognitivo 24–48 horas después de la actividad estimulante, que se resuelve en pocos días. Es el resultado más común con un uso moderado de esfuerzo.
 
@@ -125,6 +125,6 @@ Si el coste es una crisis proporcional que el paciente ha presupuestado y puede 
 
 Si el coste es una disminución progresiva en la función base — un descenso lento, posible gracias a los estimulantes, de moderada a grave y muy grave EM/SFC — entonces el compromiso es catastrófico. Y nadie puede predecir de antemano qué resultado ocurrirá, porque la investigación nunca se ha realizado.
 
-El mayor estudio de pacientes con EM/SFC encontró que el ajuste de ritmo — mantenerse dentro del envelope energético — tuvo la puntuación neta positiva más alta de todos los tratamientos: el 75,2%. Más que cualquier medicina. Más que cualquier estimulante.
+El mayor estudio de pacientes con EM/SFC encontró que el ajuste de ritmo — mantenerse dentro dla envolvente energética — tuvo la puntuación neta positiva más alta de todos los tratamientos: el 75,2%. Más que cualquier medicina. Más que cualquier estimulante.
 
 La fatiga aquí es una luz de advertencia; apagarla no resuelve el déficit que señala.

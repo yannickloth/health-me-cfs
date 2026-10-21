@@ -140,7 +140,7 @@ Existe una calidad específica en esta brecha de evidencia que es inusual. La ma
 
 La pupilometría requiere un dispositivo de 3.000 €, una habitación poco iluminada y 30 segundos por paciente. (El coste del dispositivo representa entre 1 y 5 % del coste total del estudio; el tiempo de los investigadores, el reclutamiento de participantes y el análisis de autoanticuerpos son los principales costes.)
 
-La tecnología está autorizada por la FDA. Existen datos normativos. La validación entre enfermedades ya se ha realizado. La justificación mecánica — los autoanticuerpos de GPCR que apuntan a los receptores exactos que controlan la pupilometría — es específica y falsable.
+La tecnología está autorizada por la FDA. Existen datos normativos. La validación entre enfermedades ya se ha realizado. La justificación mecánica — los autoanticuerpos de GPCR que apuntan a los receptores exactos que controlan la pupila — es específica y falsable.
 
 Lo que falta es un estudio — específicamente, alguien con un grupo de EM/SFC existente, un conjunto de datos de autoanticuerpos de GPCR y un presupuesto de equipos de ~3.000 € para pasar un año respondiendo a una pregunta sobre la que el campo ha discutido durante una década.
 
@@ -153,7 +153,7 @@ Lo que falta es un estudio — específicamente, alguien con un grupo de EM/SFC 
 ## Resumen clínico
 
 Este artículo describe una hipótesis de investigación, no una herramienta clínica. **En este momento no es necesario tomar ninguna acción clínica.** Específicamente:
-- No se recomienda ordenar pupilometría para pacientes con EM/SFC, ya que no está validada para esta población y no existen normas de interpretación.
-- No se recomienda ordenar pruebas de autoanticuerpo de GPCRs para la toma de decisiones clínicas, ya que la controversia en el análisis (ELISA vs REAP/Luminex) hace que el significado del resultado sea incierto.
+- No se debe ordenar pupilometría para pacientes con EM/SFC, ya que no está validada para esta población y no existen normas de interpretación.
+- No se debe ordenar pruebas de autoanticuerpo de GPCRs para la toma de decisiones clínicas, ya que la controversia en el análisis (ELISA vs REAP/Luminex) hace que el significado del resultado sea incierto.
 - No se debe emprender terapia inmunomoduladora (IVIG, inmunoadsorción, BC007) basándose en un resultado positivo de autoanticuerpo, ya que ninguno está aprobado para EM/SFC y la justificación mecánica no está confirmada.
 - Si un paciente pregunta sobre este tema, la respuesta es: "Todavía no sabemos si estos anticuerpos son relevantes. Se necesita un estudio."
