@@ -40,7 +40,7 @@
  "4HNE": {
   "label": "4-Hidroxinononal (4-HNE)",
   "category": "biomarker",
-  "definition": "Un producto importante de la peroxidación de lípidos y un biomarcador de feropatosis (muerte celular dependiente de hierro). Un nivel elevado de 4-HNE indica daño oxidativo en las membranas celulares. Se mide en entornos de investigación para evaluar la actividad de feropatosis."
+  "definition": "Un producto importante de la peroxidación de lípidos y un biomarcador de ferroptosis (muerte celular dependiente de hierro). Un nivel elevado de 4-HNE indica daño oxidativo en las membranas celulares. Se mide en entornos de investigación para evaluar la actividad de ferroptosis."
  },
  "5-HT": {
   "label": "5-HT",
@@ -71,14 +71,14 @@
    {
     "dose": "Rango terapéutico",
     "category": "Substrate-repletion",
-    "mechanism": "Precursor de serotonina que evita la hidrólisis de triptofano. Más directo que el triptofano — riesgo de síndrome de serotonina."
+    "mechanism": "Precursor de serotonina que evita el paso de la triptófano hidroxilasa. Más directo que el triptofano — riesgo de síndrome de serotonina."
    }
   ]
  },
  "AADC": {
   "label": "AADC",
   "category": "enzyme",
-  "definition": "Aminoácido aromático L-Acetilado descarboxilasa: la enzima que convierte L-DOPA en dopamina y 5-HTP en serotonina. La AADC necesita piridoxal fosfato (vitamina B6) como cofactor; la disfunción de la AADC afectaría tanto la transmisión neurotransmisional dopaminérgica como la serotonérgica."
+  "definition": "Descarboxilasa de aminoácidos aromáticos L: la enzima que convierte L-DOPA en dopamina y 5-HTP en serotonina. La AADC necesita piridoxal fosfato (vitamina B6) como cofactor; la disfunción de la AADC afectaría tanto la transmisión neurotransmisional dopaminérgica como la serotonérgica."
  },
  "AAI": {
   "label": "AAI",
@@ -108,7 +108,7 @@
  "AD": {
   "label": "AD",
   "category": "condition",
-  "definition": "Enfermedad de Alzheimer: la demencia neurodegenerativa más común. No es una comorbilidad de EM/SFC, pero es relevante para la investigación sobre la limpieza glímnática."
+  "definition": "Enfermedad de Alzheimer: la demencia neurodegenerativa más común. No es una comorbilidad de EM/SFC, pero es relevante para la investigación sobre la limpieza glifática."
  },
  "ADCC": {
   "label": "ADCC (Citoquidad celular dependiente de anticuerpos)",
@@ -143,7 +143,7 @@
  "AIP": {
   "label": "AIP",
   "category": "treatment",
-  "definition": "Dieta protocolo autoinmune: una dieta de eliminación que elimina alimentos potencialmente inmunes (granos, legumbres, plantas de hoja verde, productos lácteos, huevos, frutos secos, semillas), seguida de una reintroducción estructurada. Se utiliza experimentalmente en pacientes con EM/SFC con sospecha de componentes autoinmunes o de sensibilidad alimentaria."
+  "definition": "Dieta protocolo autoinmune: una dieta de eliminación que elimina alimentos potencialmente inmunes (granos, legumbres, solanáceas, productos lácteos, huevos, frutos secos, semillas), seguida de una reintroducción estructurada. Se utiliza experimentalmente en pacientes con EM/SFC con sospecha de componentes autoinmunes o de sensibilidad alimentaria."
  },
  "AKT": {
   "label": "AKT",
@@ -209,7 +209,7 @@
  "ANA": {
   "label": "ANA",
   "category": "measurement",
-  "definition": "Antídoto Antinuclear — un antídoto autoantigénico que ataca componentes del núcleo celular, utilizado como prueba de detección para enfermedades autoinmunes."
+  "definition": "Anticuerpo Antinuclear — un autoanticuerpo que ataca componentes del núcleo celular, utilizado como prueba de detección para enfermedades autoinmunes."
  },
  "ANC": {
   "label": "ANC",
@@ -249,12 +249,12 @@
  "AQP2": {
   "label": "AQP2",
   "category": "protein",
-  "definition": "Aquaporina-2: el canal de agua regulado por vasopresina en los conductos de recolección renal que controla la reabsorción de agua. La disfunción de AQP2 o la alteración de la señalización por vasopresina puede contribuir al malestar nocturno y a la desregulación de líquidos frecuentemente observados en EM/SFC/POTS."
+  "definition": "Aquaporina-2: el canal de agua regulado por vasopresina en los conductos de recolección renal que controla la reabsorción de agua. La disfunción de AQP2 o la alteración de la señalización por vasopresina puede contribuir a la nicturia y a la desregulación de líquidos frecuentemente observados en EM/SFC/POTS."
  },
  "AQP4": {
   "label": "AQP4",
   "category": "protein",
-  "definition": "Aquaporina-4: una proteína de canal de agua altamente expresada en los extremos de los astrocitos, esencial para la eliminación glinfática de los residuos cerebrales. Es inhibida por noradrenalina sostenida, lo que relaciona la sobreactivación simpática con la disminución de la eliminación de residuos cerebrales en EM/SFC."
+  "definition": "Aquaporina-4: una proteína de canal de agua altamente expresada en los extremos de los astrocitos, esencial para la eliminación glifática de los residuos cerebrales. Es inhibida por noradrenalina sostenida, lo que relaciona la sobreactivación simpática con la disminución de la eliminación de residuos cerebrales en EM/SFC."
  },
  "ASD": {
   "label": "trastorno del espectro autista",
@@ -634,7 +634,7 @@
   "definition": "Un aminoácido esencial condicional y el sustrato de la síntesis de óxido nítrico sintasa (NOS). La suplementación con arginina puede mejorar la vasodilatación mediada por NO, potencialmente mejorando la perfusión microvascular en EM/SFC. Nota: la arginina puede alimentar la replicación de herpesvirus.",
   "generic": "L-Arginine, Arginine alpha-ketoglutarate (AAKG)",
   "class": "Aminoácido / precursor de NO",
-  "rx": "Venta libre de derechos",
+  "rx": "Venta libre (sin receta)",
   "brand": "Various supplement brands",
   "therapeuticCategory": "Substrate-repletion",
   "therapeuticDepth": "Substrate-repletion",
@@ -730,7 +730,7 @@
   "generic": "Ashwagandha root extract (Withania somnifera, standardized to withanolides)",
   "brand": "Sensoril, KSM-66, Shoden",
   "class": "Hierba adaptogénica / modulador del cortisol / GABA-mimético",
-  "rx": "Venta libre de derechos",
+  "rx": "Venta libre (sin receta)",
   "therapeuticCategory": "Threshold-modulatory",
   "therapeuticDepth": "Threshold-modulatory",
   "doseZones": [
@@ -754,7 +754,7 @@
   "generic": "Acetylsalicylic acid (Aspirin)",
   "brand": "Bayer Aspirin, Ecotrin, Bufferin",
   "class": "Medicamento antiinflamatorio no esteroideo (NSAID) / antiplaquetario",
-  "rx": "Venta libre de derechos",
+  "rx": "Venta libre (sin receta)",
   "sources": [
    {
     "label": "PubMed",
@@ -891,7 +891,7 @@
  "BCAA": {
   "label": "BCAA",
   "category": "supplement",
-  "definition": "Aceites de aminoácidos de cadena ramificada: leucina, isoleucina y valina. Los BCAAs pueden estar agotados en EM/SFC debido al metabolismo catabólico y a la disminución de la producción de energía; la suplementación es experimental.",
+  "definition": "Aminoácidos de cadena ramificada: leucina, isoleucina y valina. Los BCAAs pueden estar agotados en EM/SFC debido al metabolismo catabólico y a la disminución de la producción de energía; la suplementación es experimental.",
   "class": "Suplemento de aminoácidos",
   "rx": "OTC",
   "brand": "Various supplement brands",
@@ -1070,7 +1070,7 @@
  "Beta-amyloid": {
   "label": "Beta-amyloid (Aβ)",
   "category": "molecule",
-  "definition": "β-Amyloid (Aβ): un péptido de 36–43 aminoácidos que se separa de la proteína precursora de amiloides (APP) por β- y γ-secretasa. El Aβ se elimina del cerebro principalmente mediante el sistema glímnático durante el sueño de onda lenta. Su acumulación es una característica distintiva de la enfermedad de Alzheimer. En el EM/SFC, el riesgo de deterioro glímnico crónico plantea una pregunta hipotética (no comprobada) sobre la acumulación a largo plazo de Aβ; no existen datos sobre Aβ en el EM/SFC. La hipótesis de que el medicamento para el sueño daridorexant (un antagonista dual de receptor orexina) podría reducir el Aβ es una especulación mecánica sin evidencia primaria."
+  "definition": "β-Amyloid (Aβ): un péptido de 36–43 aminoácidos que se separa de la proteína precursora de amiloides (APP) por β- y γ-secretasa. El Aβ se elimina del cerebro principalmente mediante el sistema glifático durante el sueño de onda lenta. Su acumulación es una característica distintiva de la enfermedad de Alzheimer. En el EM/SFC, el riesgo de deterioro glifático crónico plantea una pregunta hipotética (no comprobada) sobre la acumulación a largo plazo de Aβ; no existen datos sobre Aβ en el EM/SFC. La hipótesis de que el medicamento para el sueño daridorexant (un antagonista dual de receptor orexina) podría reducir el Aβ es una especulación mecánica sin evidencia primaria."
  },
  "Beta-hydroxybutyrate": {
   "label": "Beta-hidroxibutirato",
@@ -1156,7 +1156,7 @@
  "CAP": {
   "label": "CAP",
   "category": "pathway",
-  "definition": "Vía Antiinflamatoria Quimérica: un reflejo mediado por el nervio vago donde las señales eferentes vagales liberan acetilcolina, la cual se une a los receptores nicotínicos α7 en los macrófagos del bazo, suprimiendo TNF-α y otras citocinas proinflamatorias. Una CAP deteriorada (tono vagal bajo) podría permitir una inflamación periférica no controlada en EM/SFC."
+  "definition": "Vía Antiinflamatoria Colinérgica: un reflejo mediado por el nervio vago donde las señales eferentes vagales liberan acetilcolina, la cual se une a los receptores nicotínicos α7 en los macrófagos del bazo, suprimiendo TNF-α y otras citocinas proinflamatorias. Una CAP deteriorada (tono vagal bajo) podría permitir una inflamación periférica no controlada en EM/SFC."
  },
  "CAR": {
   "category": "biomarker",
@@ -1180,7 +1180,7 @@
  "CBD": {
   "label": "CBD",
   "category": "supplement",
-  "definition": "Cannabidiol: un cannabino no psicoactivo obtenido de cannabis/colza con efectos antiinflamatorios, analgésicos, ansiolíticos y anticonvulsivos. El CBD actúa sobre los receptores serotonina (agonista 5-HT1A), TRPV1, PPARγ y adenosina. Se utiliza en EM/SFC para dolor, sueño, ansiedad y neuroinflamación.",
+  "definition": "Cannabidiol: un cannabino no psicoactivo obtenido de cannabis/cáñamo con efectos antiinflamatorios, analgésicos, ansiolíticos y anticonvulsivos. El CBD actúa sobre los receptores serotonina (agonista 5-HT1A), TRPV1, PPARγ y adenosina. Se utiliza en EM/SFC para dolor, sueño, ansiedad y neuroinflamación.",
   "generic": "Cannabidiol",
   "brand": "Epidiolex (FDA-approved for epilepsy); various supplement brands",
   "class": "Fitocannabino / antiinflamatorio / analgésico",
@@ -1273,7 +1273,7 @@
  "CHOP": {
   "label": "CHOP",
   "category": "transcription_factor",
-  "definition": "Proteína homóloga C/EBP (también GADD153): un factor de transcripción pro-apoptótico inducido por estrés eritrocitario severo/ prolongado a través de ATF4. CHOP promueve la muerte celular cuando la adaptación UPR falla; un nivel elevado de CHOP en EM/SFC podría indicar un estrés eritrocitario no resuelto."
+  "definition": "Proteína homóloga C/EBP (también GADD153): un factor de transcripción pro-apoptótico inducido por estrés del retículo endoplásmico severo/ prolongado a través de ATF4. CHOP promueve la muerte celular cuando la adaptación UPR falla; un nivel elevado de CHOP en EM/SFC podría indicar un estrés del retículo endoplásmico no resuelto."
  },
  "CI": {
   "label": "CI",
@@ -1411,7 +1411,7 @@
  "CSF:blood ratio": {
   "label": "Razón de líquido cefalorraquídeo y sangre",
   "category": "measurement",
-  "definition": "La razón de concentración de proteínas derivadas del cerebro (cadena ligera de neurofilamento, tau, S100B, GFAP) entre el líquido cefalorraquídeo y la sangre periférica. En condiciones normales de eliminación, estas proteínas se eliminan a través de vías glilmática-linfática y se diluyen en plasma. En casos de disminución de la eliminación, las concentraciones en el líquido cefalorraquídeo aumentan mientras que los niveles en plasma disminuyen, generando una razón que refleja la eficiencia glilmática independientemente de las tasas absolutas de producción de proteínas. Aún no se ha medido sistemáticamente en cohoras de EM/SFC."
+  "definition": "La razón de concentración de proteínas derivadas del cerebro (cadena ligera de neurofilamento, tau, S100B, GFAP) entre el líquido cefalorraquídeo y la sangre periférica. En condiciones normales de eliminación, estas proteínas se eliminan a través de vías glifática-linfática y se diluyen en plasma. En casos de disminución de la eliminación, las concentraciones en el líquido cefalorraquídeo aumentan mientras que los niveles en plasma disminuyen, generando una razón que refleja la eficiencia glifática independientemente de las tasas absolutas de producción de proteínas. Aún no se ha medido sistemáticamente en cohoras de EM/SFC."
  },
  "CT": {
   "label": "CT",
@@ -1466,7 +1466,7 @@
  "Calcitonin": {
   "label": "Calcitonina",
   "category": "hormone",
-  "definition": "Un hormonio peptídico proveniente de las células C de la tiroides que reduce el calcio en sangre inhibiendo la actividad de los osteoclastos. La calcitonina pertenece a la familia de peptidos relacionados con el gen de calcitonina (CGRP), que incluye vasodilatadores potentes implicados en la migraña —relevante para los dolores de cabeza y síntomas vasculares en EM/SFC—."
+  "definition": "Un hormona peptídico proveniente de las células C de la tiroides que reduce el calcio en sangre inhibiendo la actividad de los osteoclastos. La calcitonina pertenece a la familia de peptidos relacionados con el gen de calcitonina (CGRP), que incluye vasodilatadores potentes implicados en la migraña —relevante para los dolores de cabeza y síntomas vasculares en EM/SFC—."
  },
  "Calpol": {
   "alias": "Paracetamol"
@@ -1719,7 +1719,7 @@
   "definition": "Un aminoácido no proteínogénico que se convierte en arginina en los riñones, proporcionando una fuente de arginina más sostenible y mejor tolerada que la arginina en sí. Se utiliza en EM/SFC para la vasodilatación mediada por NO sin los efectos gastrointestinales de la arginina.",
   "generic": "L-Citrulline, Citrulline malate",
   "class": "Aminoácido / precursor de NO (indirecto, a través de la arginina)",
-  "rx": "Venta libre de derechos",
+  "rx": "Venta libre (sin receta)",
   "brand": "Various supplement brands",
   "therapeuticCategory": "Substrate-repletion",
   "therapeuticDepth": "Substrate-repletion",
@@ -2020,7 +2020,7 @@
   "generic": "Curcumin (turmeric extract)",
   "brand": "Longvida, Meriva, Theracurmin, BCM-95",
   "class": "Polifenol / antiinflamatorio / activador de NRF2",
-  "rx": "Venta libre de derechos",
+  "rx": "Venta libre (sin receta)",
   "therapeuticCategory": "Threshold-modulatory",
   "therapeuticDepth": "Threshold-modulatory",
   "doseZones": [
@@ -2174,7 +2174,7 @@
  },
  "D2": {
   "category": "receptor",
-  "definition": "Receptor de dopamina D2: es un receptor acoplado a proteína G para la dopamina, expresado en el tálamo, la hipófisis y el mesencéfalo. El D2 es el objetivo del aripiprazole/LDA y está relacionado con la recompensa, el control motor y la regulación de las hormonas hipofisarias."
+  "definition": "Receptor de dopamina D2: es un receptor acoplado a proteína G para la dopamina, expresado en el estriado, la hipófisis y el mesencéfalo. El D2 es el objetivo del aripiprazole/LDA y está relacionado con la recompensa, el control motor y la regulación de las hormonas hipofisarias."
  },
  "D3": {
   "category": "receptor",
@@ -2335,7 +2335,7 @@
  "DMH": {
   "label": "DMH",
   "category": "anatomy",
-  "definition": "Hipotálamo dorsomedial: una región hipotálamica involucrada en la alimentación, el equilibrio energético, la temperatura corporal y el comportamiento circadiano, que contiene neuronas (incluyendo algunas que responden al hormonio metabólico leptina) que conectan el estado metabólico con el ritmo circadiano."
+  "definition": "Hipotálamo dorsomedial: una región hipotálamica involucrada en la alimentación, el equilibrio energético, la temperatura corporal y el comportamiento circadiano, que contiene neuronas (incluyendo algunas que responden al hormona metabólico leptina) que conectan el estado metabólico con el ritmo circadiano."
  },
  "DMT": {
   "label": "DMT",
@@ -2394,7 +2394,7 @@
  "DTI-ALPS": {
   "label": "DTI-ALPS",
   "category": "method",
-  "definition": "Análisis de Imagen por Tensión de Difusión a lo Largo del Espacio Perivasculario: una técnica de MRI no invasiva que mide la difusividad del agua a lo largo de los espacios perivascularios como proxy para la función glilmática. DTI-ALPS se ha utilizado para demostrar la alteración de la limpieza glilmática en EM/SFC, ya que un índice ALPS más bajo se correlaciona con una mayor gravedad de fatiga."
+  "definition": "Análisis de Imagen por Tensión de Difusión a lo Largo del Espacio Perivasculario: una técnica de MRI no invasiva que mide la difusividad del agua a lo largo de los espacios perivascularios como proxy para la función glifática. DTI-ALPS se ha utilizado para demostrar la alteración de la limpieza glifática en EM/SFC, ya que un índice ALPS más bajo se correlaciona con una mayor gravedad de fatiga."
  },
  "DVT": {
   "label": "Trombosis venosa profunda",
@@ -2449,7 +2449,7 @@
   "definition": "Un medicamento oral que captura y elimina hierro en exceso del cuerpo. Aprobado por la FDA para la sobrecarga de hierro trasfusional en la talasemia. Incluye una advertencia en caja negra sobre la agranulocitosis (número peligrosamente bajo de glóbulos blancos). No está aprobado para EM/SFC o fatiga post-viral. Es obligatorio realizar un monitoreo de sangre semanal durante el tratamiento.",
   "generic": "deferiprone",
   "brand": "Ferriprox, Ferriprox Twice-A-Day",
-  "class": "antídotos, agentes quelantes",
+  "class": "agentes quelantes",
   "rx": "Solo para receta médica — aprobado por la FDA para la talasemia, fuera de indicación para otras condiciones de sobrecarga de hierro",
   "sources": [
    {
@@ -2842,7 +2842,7 @@
  "ECM": {
   "label": "ECM",
   "category": "anatomy",
-  "definition": "Masa extracelular: la red de colágeno, elastina, proteoglicanos y glicoproteínas que proporciona soporte estructural a los tejidos. Las anomalías de la ECM (defectos de colágeno, disregulación de MMP) son fundamentales en los trastornos del espectro de hipermobilidad (EDS/HSD), que suelen asociarse con EM/SFC."
+  "definition": "Matriz extracelular: la red de colágeno, elastina, proteoglicanos y glicoproteínas que proporciona soporte estructural a los tejidos. Las anomalías de la ECM (defectos de colágeno, disregulación de MMP) son fundamentales en los trastornos del espectro de hipermobilidad (EDS/HSD), que suelen asociarse con EM/SFC."
  },
  "EDS": {
   "label": "EDS",
@@ -3015,7 +3015,7 @@
  "Epinephrine": {
   "label": "Epinefrina",
   "category": "hormone",
-  "definition": "Adrenalina: la hormona catecolamina liberada por la médula suprarrenal durante el estrés, que produce la clásica respuesta de lucha o huida. La epinefrina aumenta la frecuencia cardíaca, dilata las vías respiratorias y moviliza glucosa. Los episodios similares al pánico que describen los pacientes con EM/SFC pueden explicarse por la desgranulación MCAS o la sobreactividad simpática en el síndrome de fatiga crónica."
+  "definition": "Adrenalina: la hormona catecolamina liberada por la médula suprarrenal durante el estrés, que produce la clásica respuesta de lucha o huida. La epinefrina aumenta la frecuencia cardíaca, dilata las vías respiratorias y moviliza glucosa. Los episodios similares al pánico que describen los pacientes con EM/SFC pueden explicarse por la desgranulación MCAS o la sobreactividad simpática en el POTS."
  },
  "Erythromycin": {
   "label": "Eritromicina",
@@ -3160,7 +3160,7 @@
  "FND": {
   "label": "FND",
   "category": "condition",
-  "definition": "Trastorno Neurológico Funcional. Una condición que incluye síntomas neurológicos (fuerza, convulsiones, trastornos de movimiento) sin daño estructural visible en imágenes cerebrales estándar, ahora entendida como un trastorno en el funcionamiento del sistema nervioso más que en una patología estructural."
+  "definition": "Trastorno Neurológico Funcional. Una condición que incluye síntomas neurológicos (debilidad, convulsiones, trastornos de movimiento) sin daño estructural visible en imágenes cerebrales estándar, ahora entendida como un trastorno en el funcionamiento del sistema nervioso más que en una patología estructural."
  },
  "FODMAP": {
   "label": "FODMAP",
@@ -3183,9 +3183,9 @@
   "category": "method"
  },
  "FSH": {
-  "label": "HGH",
+  "label": "FSH",
   "category": "measurement",
-  "definition": "Hormona estimulante de folículo: un hormona pituitaria que promueve el desarrollo de ovarios y folículos; un aumento en los niveles de HGH indica una disminución en la función ovárica cercana a la menopausia."
+  "definition": "Hormona estimulante de folículo: una hormona pituitaria que promueve el desarrollo de ovarios y folículos; un aumento en los niveles de FSH indica una disminución en la función ovárica cercana a la menopausia."
  },
  "FTR": {
   "label": "Ratio de ferritina:TSAT (FTR)",
@@ -3523,7 +3523,7 @@
   "category": "method"
  },
  "GERD": {
-  "label": "DOR",
+  "label": "ERGE",
   "category": "condition",
   "definition": "Enfermedad del reflujo gástrico-esofágico: reflujo ácido crónico desde el estómago hacia el esófago. Comorbilidad común en EM/SFC."
  },
@@ -3566,7 +3566,7 @@
  "GLP-1": {
   "label": "GLP-1",
   "category": "hormone",
-  "definition": "Peptidóide similar al glucagón-1: un hormonio de incretina liberado por las células L intestinales después de las comidas, que aumenta la secreción de insulina, ralentiza el vaciado gástrico y promueve la saciedad. Los agonistas del receptor GLP-1 (semaglutida) son medicamentos para diabetes y obesidad; el GLP-1 tiene propiedades neuroprotectoras y antiinflamatorias que podrían ser relevantes para la disfunción metabólica en EM/SFC.",
+  "definition": "Peptidóide similar al glucagón-1: una hormona de incretina liberado por las células L intestinales después de las comidas, que aumenta la secreción de insulina, ralentiza el vaciado gástrico y promueve la saciedad. Los agonistas del receptor GLP-1 (semaglutida) son medicamentos para diabetes y obesidad; el GLP-1 tiene propiedades neuroprotectoras y antiinflamatorias que podrían ser relevantes para la disfunción metabólica en EM/SFC.",
   "also": "GLP-1R: receptor GLP-1"
  },
  "GLUT1": {
@@ -3600,9 +3600,9 @@
   "definition": "Receptor acoplado a G proteico: la mayor familia de receptores, que transmite señales de hormonas, neurotransmisores y estímulos sensoriales a través de proteínas G heterotriméricas. La desregulación de la señalización de GPCR (por ejemplo, adrenérgica, histamínica, serotonérgica) es común en EM/SFC."
  },
  "GPCR autoantibody": {
-  "label": "Antídoto auto de GPCR",
+  "label": "Autoanticuerpos anti-GPCR",
   "category": "immune",
-  "definition": "Anticuerpos autoanticilos dirigidos a receptores acoplados a proteínas G (β-adrenérgicos, acetilcolina muscarínica, receptores AT1R de angiotensina II, receptores endotelina ETA), encontrados en subgrupos de EM/SFC y POTS. Estos pueden ser agonistas (activadores) o antagonistas (bloqueadores), alterando directamente la función autónoma, cardiovascular y inmune."
+  "definition": "Anticuerpos autoanticuerpos dirigidos a receptores acoplados a proteínas G (β-adrenérgicos, acetilcolina muscarínica, receptores AT1R de angiotensina II, receptores endotelina ETA), encontrados en subgrupos de EM/SFC y POTS. Estos pueden ser agonistas (activadores) o antagonistas (bloqueadores), alterando directamente la función autónoma, cardiovascular y inmune."
  },
  "GPX": {
   "label": "GPX",
@@ -3760,7 +3760,7 @@
   "definition": "Un saponina triterpenóida proveniente de la raíz de alcanfor (Glycyrrhiza glabra) que se une directamente y inhibe HMGB1, un mediador DAMP clave que impulsa la inflamación mediada por TLR4/RAGE. Propuesto en EM/SFC para la neuroinflamación inducida por HMGB1. Advertencia: la glicirrizina causa pseudohiperaldosteronismo (hipertensión, hipokalemia) con uso continuo.",
   "generic": "Glycyrrhizic acid (glycyrrhizin), Diammonium glycyrrhizinate",
   "class": "Saponina triterpenóida / inhibidor de HMGB1 / antiinflamatorio",
-  "rx": "Venta libre de derechos (como extracto de raíz de alcanfor); receta médica (glicirrizina por vía intravenosa en Asia)",
+  "rx": "Venta libre (sin receta) (como extracto de raíz de alcanfor); receta médica (glicirrizina por vía intravenosa en Asia)",
   "brand": "Various supplement brands; licorice root extract",
   "therapeuticCategory": "Corrective",
   "therapeuticDepth": "Corrective",
@@ -3773,9 +3773,9 @@
   ]
  },
  "Glymphatic system": {
-  "label": "Sistema glinfático",
+  "label": "Sistema glifático",
   "category": "anatomy",
-  "definition": "El sistema de eliminación de residuos perivasculares del cerebro: el líquido cefalorraquídeo fluye a través de espacios periarteriales hacia el intersticial del cerebro, impulsado por la pulsibilidad arterial y los canales AQP4 en los extremos de los astrocitos, para luego salir por vías perivenosas transportando residuos metabólicos (amilóide-β, tau, lactato). La función glinfática alcanza su punto máximo durante el sueño de onda lenta y se suprime por noradrenalina, lo que conecta directamente la patología del sueño en EM/SFC, la sobreactivación simpática y la disfunción en la eliminación cerebral."
+  "definition": "El sistema de eliminación de residuos perivasculares del cerebro: el líquido cefalorraquídeo fluye a través de espacios periarteriales hacia el intersticial del cerebro, impulsado por la pulsibilidad arterial y los canales AQP4 en los extremos de los astrocitos, para luego salir por vías perivenosas transportando residuos metabólicos (amilóide-β, tau, lactato). La función glifática alcanza su punto máximo durante el sueño de onda lenta y se suprime por noradrenalina, lo que conecta directamente la patología del sueño en EM/SFC, la sobreactivación simpática y la disfunción en la eliminación cerebral."
  },
  "Gralise": {
   "alias": "Gabapentin"
@@ -3844,7 +3844,7 @@
   "definition": "El receptor de histamina tipo 2 es un receptor acoplado a proteínas G que principalmente media la secreción de ácido gástrico. Los antihistamínicos H2 también modulan las respuestas de linfocitos T a través de la elevación del cAMP y han sido investigados para su efecto inmunomodulador en el síndrome de encefalomielitis miálgica."
  },
  "HA": {
-  "label": "Hidroxiribonucilano (HA)",
+  "label": "Hialuronano (HA)",
   "category": "pathway",
   "definition": "Un gran glicosaminoglicano que forma parte de la matriz extracelular. En el EM/SFC, la sobreproducción y el entrelazamiento de HA mediado por TSG-6 pueden contribuir al engrosamiento de la membrana basal capilar, lo que dificulta la difusión de oxígeno."
  },
@@ -4122,9 +4122,9 @@
   "definition": "La primera definición formal de caso del CDC para el síndrome de fatiga crónica (CFS), publicada en 1988. Requería fatiga persistente de inicio nuevo, además de 8 de los 11 criterios de síntoma. No exigía el malestar post-esfuerzo (MPE) como característica definitoria. Fue reemplazada por los criterios de Fukuda (1994)."
  },
  "Homocysteine": {
-  "label": "Homocecina",
+  "label": "Homocisteína",
   "category": "biomarker",
-  "definition": "Homocecina: un aminoácido que contiene azufre y actúa como intermediario en el metabolismo de metionina. Un nivel elevado de homocecina indica una disfunción en la metilación (deficiencia de B12/folato, variantes de MTHFR) y es un factor de riesgo cardiovascular independiente; se ha reportado su elevación en algunas cohorte de EM/SFC."
+  "definition": "Homocisteína: un aminoácido que contiene azufre y actúa como intermediario en el metabolismo de metionina. Un nivel elevado de homocecina indica una disfunción en la metilación (deficiencia de B12/folato, variantes de MTHFR) y es un factor de riesgo cardiovascular independiente; se ha reportado su elevación en algunas cohorte de EM/SFC."
  },
  "Horizant": {
   "alias": "Gabapentin"
@@ -4400,7 +4400,7 @@
   "definition": "Inositol monophosphatase: la enzima que regenera inositol libre a partir de inositol monofosfato, un paso crítico en el ciclo de fosfatidoinositol (PI). La IMPase está inhibida por litio; esta inhibición agota PIP2, reduciendo la producción de mensajeros secundarios IP3/DAG y disminuyendo la señalización por receptores acoplados a Gαq — un mecanismo por el cual el litio puede modular la señalización de GPCRs hiperactivas en EM/SFC."
  },
  "INR": {
-  "label": "RINR",
+  "label": "INR",
   "category": "measurement",
   "definition": "Razón Internacional Normalizada: una razón PT estandarizada utilizada para monitorear la terapia con warfarina y evaluar la función sintética hepática. Es normal en EM/SFC."
  },
@@ -4516,7 +4516,7 @@
   "generic": "Ibuprofen",
   "brand": "Advil, Motrin, Nurofen",
   "class": "Fármaco antiinflamatorio no esteroideo (NSAID)",
-  "rx": "Venta libre de derechos",
+  "rx": "Venta libre (sin receta)",
   "sources": [
    {
     "label": "PubMed",
@@ -4592,7 +4592,7 @@
  "Insulin": {
   "label": "Insulina",
   "category": "hormone",
-  "definition": "Un hormonio de la célula β del páncreas que promueve la absorción de glucosa, la glicogénesis y la lipogénesis, mientras inhibe la gluconeogénesis. Se ha reportado resistencia a la insulina en subgrupos de EM/SFC, lo que podría contribuir a la inflexibilidad metabólica. La insulina también tiene efectos en el sistema nervioso central sobre la cognición y el apetito."
+  "definition": "Un hormona de la célula β del páncreas que promueve la absorción de glucosa, la glicogénesis y la lipogénesis, mientras inhibe la gluconeogénesis. Se ha reportado resistencia a la insulina en subgrupos de EM/SFC, lo que podría contribuir a la inflexibilidad metabólica. La insulina también tiene efectos en el sistema nervioso central sobre la cognición y el apetito."
  },
  "Intravenous immunoglobulin": {
   "alias": "IVIG"
@@ -4850,7 +4850,7 @@
  "LC-NE": {
   "label": "Sistema LC-NE",
   "category": "system",
-  "definition": "Sistema lócus coeruleus-noreadrenalina: el núcleo del tronco cerebral (LC) que es la fuente principal de noreadrenalina en el SNC, extendiéndose ampliamente al córtex, al tálamo y a la médula espinal. El sistema LC-NE regula la excitación, la atención, las respuestas al estrés y el tono simpático; la hiperactividad del LC durante la noche provoca el estado de 'cansado pero activo' en EM/SFC."
+  "definition": "Sistema lócus coeruleus-noreadrenalina: el núcleo del tronco cerebral (LC) que es la fuente principal de noreadrenalina en el SNC, extendiéndose ampliamente al córtex, al tálamo y a la médula espinal. El sistema LC-NE regula la excitación, la atención, las respuestas al estrés y el tono simpático; la hiperactividad del LC durante la noche provoca el estado de 'cansado pero acelerado' en EM/SFC."
  },
  "LCN2": {
   "label": "Lipocalina-2 (LCN2 / NGAL)",
@@ -4860,7 +4860,7 @@
  "LDA": {
   "label": "LDA",
   "category": "concept",
-  "definition": "Naltrexona en dosis bajas: se utiliza en dosis subantipsicóticas (~0.25–2 mg/día), actuando como un agonista parcial de dopamina D2. Se supone que modula la activación de microglía y el tono de dopamina en la neuroinflamación de EM/SFC.",
+  "definition": "Aripiprazol en dosis bajas: se utiliza en dosis subantipsicóticas (~0.25–2 mg/día), actuando como un agonista parcial de dopamina D2. Se supone que modula la activación de microglía y el tono de dopamina en la neuroinflamación de EM/SFC.",
   "generic": "Aripiprazole (low dose)",
   "class": "Agonista parcial de D2 / modulador de microglía",
   "rx": "Receta médica",
@@ -4948,7 +4948,7 @@
  "LH": {
   "label": "LH",
   "category": "measurement",
-  "definition": "Hormona luteinizante: un hormonio pituitario cuya liberación desencadena la ovulación; se mide para confirmar la fase del ciclo menstrual."
+  "definition": "Hormona luteinizante: una hormona pituitario cuya liberación desencadena la ovulación; se mide para confirmar la fase del ciclo menstrual."
  },
  "LLLT": {
   "label": "LLLT",
@@ -5143,7 +5143,7 @@
   "label": "COVID a largo plazo",
   "category": "condition",
   "definition": "Condición post-COVID-19 (PASC): síntomas persistentes durante ≥3 meses después de la infección por SARS-CoV-2, incluyendo fatiga, malestar post-esfuerzo (MPE), niebla cerebral, intolerancia ortostática y trastornos del sueño. Alrededor del 43-58% de los pacientes con COVID a largo plazo cumplen con los criterios de diagnóstico de EM/SFC; el COVID a largo plazo ha creado la cohorte más grande hasta ahora de EM/SFC post-viral y ofrece una oportunidad sin precedentes para estudiar la fisiopatología de EM/SFC a partir de un desencadenante infeccioso conocido.",
-  "also": "PASC (Secuelas post-acústicas de SARS-CoV-2)"
+  "also": "PASC (Secuelas post-agudas de SARS-CoV-2)"
  },
  "Loratadine": {
   "label": "Loratadina",
@@ -5281,7 +5281,7 @@
   "definition": "Un flavono que se encuentra en apio, perejil y manzanilla, con efectos estabilizadores de mastocitos, antiinflamatorios y neuroprotectoros. La luteolina inhibe la degranulación de mastocitos y la activación de microglía; se utiliza en EM/SFC/MCAS para la neuroinflamación y la niebla cerebral.",
   "generic": "Luteolin (often as luteolin-7-O-glucoside or liposomal luteolin)",
   "class": "Flavono / estabilizador de mastocitos / neuroprotector",
-  "rx": "Venta libre de derechos",
+  "rx": "Venta libre (sin receta)",
   "brand": "Various supplement brands",
   "therapeuticCategory": "Threshold-modulatory",
   "therapeuticDepth": "Threshold-modulatory",
@@ -5460,7 +5460,7 @@
   "definition": "Es una endopeptidasa dependiente de zinc que degrada componentes de la matriz extracelular, incluyendo colágeno IV, fibronectina y elastina. La MMP-9 está elevada en condiciones inflamatorias y puede perturbar la barrera hematoencefálica. Se ha reportado una elevación de MMP-9 en EM/SFC, lo que contribuye a la neuroinflamación."
  },
  "MPO": {
-  "label": "MPO (Mioperoxidasa)",
+  "label": "MPO (Mieloperoxidasa)",
   "category": "enzyme",
   "definition": "Un enzima heme liberado por neutrófilos y monócitos que produce ácido hipocloroso (HOCl) a partir de peróxido de hidrógeno y cloruro. Un componente clave del estallido oxidativo antimicrobiano. Un nivel elevado de MPO indica la activación de neutrófilos y estrés oxidativo en condiciones inflamatorias."
  },
@@ -5490,7 +5490,7 @@
   "definition": "Imagenes Espectroscópicas por Resonancia Magnética: una técnica basada en resonancia magnética que mapea las concentraciones de metabolitos (incluyendo fosfatos de alta energía como ATP y fosfocreatina) en diferentes regiones del cerebro, utilizada para medir el metabolismo energético regional in vivo."
  },
  "MS": {
-  "label": "ESM",
+  "label": "EM",
   "category": "condition",
   "definition": "Esclerosis múltiple: una enfermedad autoinmune desmiolítica del SNC. La fatiga es el síntoma más común de la ES; la ES es un diagnóstico diferencial clave para EM/SFC.",
   "synonyms": [
@@ -6106,7 +6106,7 @@
  "NADH": {
   "label": "NADH",
   "category": "supplement",
-  "definition": "Nitrato de adenina nicotinamida reducido: la forma de NAD+ que transporta electrones, producida por la glucólisis y el ciclo TCA, suministrando electrones al complejo I de la cadena de transporte de electrones. La NADH se ofrece como suplemento oral; se utiliza en EM/SFC para apoyar la producción de ATP mitocondrial, aunque su biodisponibilidad oral es cuestionada.",
+  "definition": "Nicotinamida adenina dinucleótido reducido: la forma de NAD+ que transporta electrones, producida por la glucólisis y el ciclo TCA, suministrando electrones al complejo I de la cadena de transporte de electrones. La NADH se ofrece como suplemento oral; se utiliza en EM/SFC para apoyar la producción de ATP mitocondrial, aunque su biodisponibilidad oral es cuestionada.",
   "generic": "NADH (reduced β-nicotinamide adenine dinucleotide)",
   "class": "Suplemento de coenzima / donador de electrones",
   "rx": "OTC",
@@ -6173,7 +6173,7 @@
   "definition": "Factor nuclear de las células T activadas: un factor de transcripción activado por calcio/calcineurina que impulsa los genes de activación de las células T (IL-2, IFN-γ, TNF-α). El NFAT también regula la hipertrofia cardíaca y la función neuronal; se ha reportado su desregulación en estudios de inmunología relacionados con el EM/SFC."
  },
  "NGF": {
-  "label": "NFG",
+  "label": "NGF",
   "category": "neurotrophin",
   "definition": "Factor de crecimiento nervioso: una neurotrofila importante para la supervivencia de neurones sensoriales y simpáticos. Un nivel elevado de NGF puede contribuir a el dolor y hiperalgesia en EM/SFC."
  },
@@ -6261,7 +6261,7 @@
   "definition": "Óxido nítrico: una molécula gaseosa de señalización que participa en la vasodilatación, la neurotransmisión y la defensa inmunitaria. El metabolismo desregulado del NO (exceso de formación de peroxinitrito) es fundamental para la hipótesis del ciclo NO/ONOO del EM/SFC."
  },
  "NOS": {
-  "label": "Nosotros",
+  "label": "NOS",
   "category": "enzyme",
   "definition": "Síntasa de óxido nítrico: la familia de enzimas que produce óxido nítrico. La desregulación de las isoformas de NOS (iNOS, eNOS, nNOS) está relacionada con la patología vascular e inflamatoria en EM/SFC.",
   "also": "iNOS (inducible), eNOS (endotelial), nNOS (neural)"
@@ -6495,7 +6495,7 @@
   "definition": "Vitamina B3: precursor de NAD+ y NADP+, las coenzimas centrales de redox y señalización. La niacina (ácido nicotínico) y el ribosido de nicotinamida (NR) son precursores de NAD+ que se están investigando para la disfunción metabólica en EM/SFC.",
   "generic": "Nicotinic acid, Nicotinamide, Nicotinamide riboside (NR)",
   "class": "Vitamina (soluble en agua B3) / precursor de NAD+",
-  "rx": "Venta libre de derechos",
+  "rx": "Venta libre (sin receta)",
   "brand": "Various supplement brands",
   "therapeuticCategory": "Substrate-repletion",
   "therapeuticDepth": "Substrate-repletion",
@@ -6542,7 +6542,7 @@
  "Norepinephrine": {
   "label": "Noradrenalina",
   "category": "neurotransmitter",
-  "definition": "El principal neurotransmisor del sistema nervioso simpático y hormona adrenal. La noradrenalina impulsa la excitación, la vasoconstricción y la estimulación cardíaca. Un nivel elevado de noradrenalina, especialmente durante la noche, es un signo característico de la disfunción autónoma en EM/SFC, lo que provoca el estado de 'cansado pero activo'.",
+  "definition": "El principal neurotransmisor del sistema nervioso simpático y hormona adrenal. La noradrenalina impulsa la excitación, la vasoconstricción y la estimulación cardíaca. Un nivel elevado de noradrenalina, especialmente durante la noche, es un signo característico de la disfunción autónoma en EM/SFC, lo que provoca el estado de 'cansado pero acelerado'.",
   "also": "Ver entrada NE (noradrenalina)"
  },
  "Nortriptyline": {
@@ -6635,7 +6635,7 @@
   "definition": "Gen que codifica al receptor mu-opióideo (MOR), el principal objetivo de las endorfinas endógenas y los fármacos opioides. El polimorfismo A118G reduce la señalización del receptor y altera la respuesta a los antagonistas opioides, incluida la naltrexona en dosis bajas (LDN)."
  },
  "OR": {
-  "label": "OU",
+  "label": "OR",
   "category": "method",
   "definition": "Ratio de odds: una medida de asociación entre la exposición y el resultado en estudios de caso-control. Se utiliza en la epidemiología de EM/SFC para cuantificar factores de riesgo."
  },
@@ -6727,7 +6727,7 @@
   "generic": "Omeprazole",
   "brand": "Prilosec, Losec",
   "class": "Inhibidor de bomba de protones (PPI)",
-  "rx": "Venta libre de derechos (EE. UU.); receta médica o venta libre de derechos (UE según país)",
+  "rx": "Venta libre (sin receta) (EE. UU.); receta médica o venta libre (sin receta) (UE según país)",
   "sources": [
    {
     "label": "PubMed",
@@ -6795,7 +6795,7 @@
  "Oxford criteria": {
   "label": "Criterios de Oxford (1991)",
   "category": "diagnostic",
-  "definition": "La definición más amplia de casos de EM/SFC jamás propuesta, que solo requiere fatiga como síntoma principal, comienzo definido y deterioro funcional. Permitía explícitamente la inclusión de pacientes con diagnósticos psiquiátricos concomitantes y no exigía síndrome de fatiga crónica, dolor o síntomas neurológicos. Fue utilizada en el estudio PACE; fue ampliamente criticada por su excesiva inclusión de depresión y descondicionamiento. Fue reemplazada por los criterios de NICE 2021."
+  "definition": "La definición más amplia de casos de EM/SFC jamás propuesta, que solo requiere fatiga como síntoma principal, comienzo definido y deterioro funcional. Permitía explícitamente la inclusión de pacientes con diagnósticos psiquiátricos concomitantes y no exigía malestar post-esfuerzo (MPE), dolor o síntomas neurológicos. Fue utilizada en el estudio PACE; fue ampliamente criticada por su excesiva inclusión de depresión y descondicionamiento. Fue reemplazada por los criterios de NICE 2021."
  },
  "Oxycodone": {
   "label": "Oxicodona",
@@ -6825,7 +6825,7 @@
    {
     "dose": "Rango terapéutico",
     "category": "Symptomatic",
-    "mechanism": "Agonista mu-opióideo. Suprime la percepción del dolor sin reducir el factor nociceptivo. Dependencia, tolerancia y riesgo de intolerancia ortostática."
+    "mechanism": "Agonista mu-opióideo. Suprime la percepción del dolor sin reducir el factor nociceptivo. Dependencia, tolerancia y riesgo de hiperalgesia inducida por opioides (OIH)."
    }
   ]
  },
@@ -6887,7 +6887,7 @@
  "PCA": {
   "label": "PCA",
   "category": "method",
-  "definition": "Análisis de Componentes Principales: una técnica de reducción de dimensionalidad que identifica componentes ortográficos que explican la mayor variabilidad en datos multivariados. Se utiliza en estudios de metabolomica de EM/SFC y citocinas para identificar dimensiones biológicas latentes."
+  "definition": "Análisis de Componentes Principales: una técnica de reducción de dimensionalidad que identifica componentes ortogonales que explican la mayor variabilidad en datos multivariados. Se utiliza en estudios de metabolomica de EM/SFC y citocinas para identificar dimensiones biológicas latentes."
  },
  "PCOS": {
   "label": "Síndrome de ovarios poliquísticos",
@@ -6963,7 +6963,7 @@
  "PEM ratchet": {
   "label": "MPE Ratchet",
   "category": "hypothesis",
-  "definition": "Un modelo especulativo que propone que el malestar post-esfuerzo en EM/SFC tiene una componente glilmática: el esfuerzo genera residuos metabólicos que un sistema de eliminación comprometido no puede eliminar completamente, lo que provoca una acumulación progresiva de metabolitos neuroactivos. Cada episodio de sobreesfuerzo aumenta la carga de residuos base —un efecto 'ratchet' que explica por qué los ciclos repetidos de caída y rebote causan un empeoramiento progresivo. Totalmente inferencial; no ha sido probado directamente con imágenes glilmáticas."
+  "definition": "Un modelo especulativo que propone que el malestar post-esfuerzo en EM/SFC tiene una componente glifática: el esfuerzo genera residuos metabólicos que un sistema de eliminación comprometido no puede eliminar completamente, lo que provoca una acumulación progresiva de metabolitos neuroactivos. Cada episodio de sobreesfuerzo aumenta la carga de residuos base —un efecto 'ratchet' que explica por qué los ciclos repetidos de caída y rebote causan un empeoramiento progresivo. Totalmente inferencial; no ha sido probado directamente con imágenes glifáticas."
  },
  "PEMF": {
   "label": "PEMF",
@@ -7002,7 +7002,7 @@
  "PGD2": {
   "label": "PGD2",
   "category": "molecule",
-  "definition": "Prostaglandina D2: la prostaglandina principal producida por los mastocitos tras la activación, a través de la síntesis de PGD2 por parte de la hemopoyesis. La PGD2 media la vasodilatación, la broncoconstricción y la regulación del sueño; los metabolitos de PGD2 elevados en la orina son un biomarcador de MCAS y pueden ser útiles para identificar pacientes con EM/SFC que presentan una endotipo impulsada por mastocitos."
+  "definition": "Prostaglandina D2: la prostaglandina principal producida por los mastocitos tras la activación, a través de la síntesis de PGD2 por la prostaglandina D sintasa hematopoyética. La PGD2 media la vasodilatación, la broncoconstricción y la regulación del sueño; los metabolitos de PGD2 elevados en la orina son un biomarcador de MCAS y pueden ser útiles para identificar pacientes con EM/SFC que presentan una endotipo impulsada por mastocitos."
  },
  "PGDS": {
   "label": "PGDS",
@@ -7088,10 +7088,10 @@
  "PNS": {
   "label": "PNS",
   "category": "system",
-  "definition": "Sistema Nervioso Parasimpático: la rama del sistema nervioso autónomo que se encarga de 'descanso y digestión'. El tono parasimpático se reduce en el EM/SFC, lo que contribuye al estado de 'cansado pero activo'."
+  "definition": "Sistema Nervioso Parasimpático: la rama del sistema nervioso autónomo que se encarga de 'descanso y digestión'. El tono parasimpático se reduce en el EM/SFC, lo que contribuye al estado de 'cansado pero acelerado'."
  },
  "POTS": {
-  "label": "Síndrome de TOS",
+  "label": "POTS",
   "category": "condition",
   "definition": "Síndrome de taquicardia ortostática postural: una forma de intolerancia ortostática definida por un aumento de frecuencia cardíaca de ≥30 latidos por minuto (≥40 en adolescentes) dentro de 10 minutos después de pararse, sin hipotensión ortostática. Frecuente comorbilidad en EM/SFC.",
   "also": "Subtipos comunes: neuropatía, hiperadrenérgica, hipovolemía"
@@ -7179,7 +7179,7 @@
  "PTLDS": {
   "label": "PTLDS",
   "category": "condition",
-  "definition": "Síndrome de fatiga crónica — síndrome de fatiga crónica, dolor y síntomas cognitivos después del tratamiento antibiótico estándar para la enfermedad de Lyme."
+  "definition": "Fatiga, dolor y síntomas cognitivos persistentes después del tratamiento antibiótico estándar para la enfermedad de Lyme."
  },
  "PTSD": {
   "label": "TEPT (trastorno de estrés postraumático)",
@@ -7192,7 +7192,7 @@
   "definition": "Amida de ácido graso endógeno que activa PPAR-α y también desensibiliza TRPV1 mediante un mecanismo indirecto, produciendo efectos analgésicos, antiinflamatorios y estabilizadores de mastocitos. Se utiliza en EM/SFC y fibromialgia para dolor neuropático y neuroinflamación.",
   "generic": "Palmitoylethanolamide (PEA)",
   "class": "Amida de ácido graso endógeno / Agonista de PPAR-α / Modulador de TRPV1",
-  "rx": "Venta libre de derechos",
+  "rx": "Venta libre (sin receta)",
   "brand": "Various supplement brands (as PEA)",
   "therapeuticCategory": "Corrective",
   "therapeuticDepth": "Corrective",
@@ -7470,7 +7470,7 @@
  "Pregabalin": {
   "label": "Pregabalina",
   "category": "medication",
-  "definition": "Un gabapentonio con mayor potencia que la gabapentina, aprobado para dolor neuropático, fibromialgia y ansiedad generalizada. Se utiliza fuera de la indicación estándar en EM/SFC para el dolor; conlleva riesgo de dependencia.",
+  "definition": "Un fármaco gabapentinoide de mayor potencia que la gabapentina, aprobado para dolor neuropático, fibromialgia y ansiedad generalizada. Se utiliza fuera de la indicación estándar en EM/SFC para el dolor; conlleva riesgo de dependencia.",
   "generic": "Pregabalin",
   "brand": "Lyrica, Lyrica CR",
   "class": "Gabapentonio / anticonvulsivo",
@@ -7527,7 +7527,7 @@
   "label": "Úlcera por presión",
   "category": "condition",
   "definition": "Lesión localizada de la piel y el tejido subyacente causada por presión prolongada, generalmente en áreas óseas de pacientes inmóviles o acostados; puede infectarse y progresar a sepsis.",
-  "also": "sangrado en la cama; lesión por presión; úlcera por presión"
+  "also": "llaga por decúbito; lesión por presión; úlcera por presión"
  },
  "Prilosec": {
   "alias": "Omeprazole"
@@ -7702,7 +7702,7 @@
   "definition": "Un polifenol flavonol con propiedades estabilizadora de mastocitos, antihistamínica, antioxidante (activación de NRF2) y senolítica. La quercetina estabiliza las membranas de los mastocitos e inhibe la liberación de histamina; se utiliza en EM/SFC con intolerancia MCAS/histamina.",
   "generic": "Quercetin (often combined with bromelain or vitamin C for absorption)",
   "class": "Flavonol / estabilizador de mastocitos / antioxidante",
-  "rx": "Venta libre de derechos",
+  "rx": "Venta libre (sin receta)",
   "brand": "Various supplement brands",
   "therapeuticCategory": "Threshold-modulatory",
   "therapeuticDepth": "Threshold-modulatory",
@@ -7770,9 +7770,9 @@
   "definition": "Receptor Activador del Factor Nuclear Factor-KappaB Ligando: una citocina producida por osteoblastos y otras células que activa los osteoclastos, provocando la resorción ósea. Un nivel elevado de RANKL en comparación con su sustituto OPG favorece la descomposición ósea (relevante para la pérdida ósea por desuso)."
  },
  "RBC": {
-  "label": "Células Rueda",
+  "label": "Glóbulos rojos",
   "category": "cell",
-  "definition": "Células Rueda (Eritrocitos): células sanguíneas que transportan oxígeno. Se han reportado anomalías en la deformabilidad y morfología de las células Rueda en EM/SFC."
+  "definition": "Glóbulos rojos (Eritrocitos): células sanguíneas que transportan oxígeno. Se han reportado anomalías en la deformabilidad y morfología de las glóbulos rojos en EM/SFC."
  },
  "RCT": {
   "label": "Estudio controlado aleatorizado",
@@ -7850,7 +7850,7 @@
   "definition": "Virus Sincitario Respiratorio: un virus respiratorio común que causa bronquiolitis en lactantes y enfermedad similar al resfriado en adultos. El RSV es un desencadenante documentado de fatiga post-infecciosa y EM/SFC, a través de los mismos mecanismos que otros virus respiratorios (activación inmunitaria, invasión neurológica, daño mitocondrial)."
  },
  "RVLM": {
-  "label": "Núcleo de la Vena Rombada",
+  "label": "RVLM (bulbo rostroventrolateral)",
   "category": "anatomy",
   "definition": "Medulla Rostral Ventrolateral: el núcleo principal de la salida simpática en el tronco cerebral, que contiene neuronas presimpáticas que impulsan el tono vasomotor simpático tónico y reflexivo. La hiperactividad del Núcleo de la Vena Rombada puede provocar una activación simpática sostenida en el EM/SFC, contribuyendo a taquicardia y vasoconstricción en reposo."
  },
@@ -7946,7 +7946,7 @@
   "definition": "Un polifenol estilbenóico que se encuentra en uvas y vino tinto, que activa la SIRT1 (desacétilasa dependiente de NAD+) y la AMPK. El resveratrol promueve la biogénesis mitocondrial a través de PGC-1α y puede mejorar la función mitocondrial en el síndrome de fatiga crónica.",
   "generic": "Resveratrol (trans-resveratrol)",
   "class": "Polifenol / activador de SIRT1 / activador de AMPK",
-  "rx": "Venta libre de derechos",
+  "rx": "Venta libre (sin receta)",
   "brand": "Various supplement brands",
   "therapeuticCategory": "Substrate-repletion",
   "therapeuticDepth": "Substrate-repletion",
@@ -7971,7 +7971,7 @@
   "definition": "Rhodiola rosea: una hierba adaptogénica utilizada para la fatiga, el rendimiento cognitivo y la resiliencia al estrés. La Rhodiola puede mejorar la función mitocondrial y modular la serotonina y la dopamina. Se utiliza en EM/SFC para la fatiga y la niebla cerebral; su efecto activador puede ser poco tolerado en EM/SFC graves.",
   "generic": "Rhodiola rosea root extract (standardized to rosavins and salidroside)",
   "class": "Hierba adaptogénica / modulador de monoamina",
-  "rx": "Venta libre de derechos",
+  "rx": "Venta libre (sin receta)",
   "brand": "Various supplement brands (standardized to rosavins/salidroside)",
   "therapeuticCategory": "Threshold-modulatory",
   "therapeuticDepth": "Threshold-modulatory",
@@ -8144,7 +8144,7 @@
   "definition": "Un antagonista dual de los receptores H1 y un antagonista del factor activador de plaquetas (PAF); antihistamínico de segunda generación con actividad antiinflamatoria adicional mediante la inhibición del PAF. Se utiliza para afecciones alérgicas y la activación de mastocitos.",
   "generic": "Rupatadine",
   "class": "Antagonista H1 / Antagonista PAF",
-  "rx": "Recepción médica",
+  "rx": "Receta médica",
   "brand": "Rupafin, Wystamm",
   "therapeuticCategory": "Threshold-modulatory",
   "therapeuticDepth": "Threshold-modulatory",
@@ -8226,7 +8226,7 @@
   "definition": "Supercomplejo (inflamasoma): una asamblea estable de complejos de la cadena de transporte de electrones mitocondriales (I+III₂+IV) que aumenta la eficiencia de transferencia de electrones y reduce la producción de ROS. La sobreexpresión de WASF3 interrumpe la asamblea del supercomplejo; la inestabilidad del SC podría ser un mecanismo directo para el deterioro de la OXPHOS en EM/SFC."
  },
  "SCFA": {
-  "label": "ACF",
+  "label": "AGCC",
   "category": "molecule",
   "definition": "Ácidos grasos de cadena corta: principalmente acetato, propionato y butirato, producidos por bacterias intestinales que fermentan la fibra dietética. El butirato es la principal fuente de energía para los coloncitos y es un inhibidor de HDAC con propiedades antiinflamatorias. La reducción de bacterias que producen ACF en la disbiosis intestinal del EM/SFC podría deteriorar la integridad de la barrera intestinal y la regulación inmunitaria sistémica."
  },
@@ -8236,9 +8236,9 @@
   "definition": "Ácidos grasos con menos de 6 átomos de carbono (acetato, propionato, butirato) producidos por la fermentación bacteriana de la fibra dietética en el colon."
  },
  "SCI": {
-  "label": "ECUADRADO CERVICAL",
+  "label": "Lesión de la médula espinal",
   "category": "condition",
-  "definition": "Infección del cordón espinal: daño en el cordón espinal causado por trauma o enfermedad. La fatiga asociada al ECUADRADO CERVICAL y la disfunción autónoma se superponen con los síntomas del EM/SFC."
+  "definition": "Lesión de la médula espinal: daño en el cordón espinal causado por trauma o enfermedad. La fatiga asociada a la lesión de médula espinal y la disfunción autónoma se superponen con los síntomas del EM/SFC."
  },
  "SCIG": {
   "label": "SCIG",
@@ -8281,7 +8281,7 @@
  "SEID": {
   "label": "SEID",
   "category": "diagnostic",
-  "definition": "Enfermedad de intolerancia a la extención sistémica: el nombre propuesto por el IOM (2015) para EM/SFC, que enfatiza MPE y disfunción sistémica. Aceptado por algunos investigadores, pero no ampliamente reconocido por pacientes o clínicos.",
+  "definition": "Enfermedad de intolerancia sistémica al esfuerzo: el nombre propuesto por el IOM (2015) para EM/SFC, que enfatiza MPE y disfunción sistémica. Aceptado por algunos investigadores, pero no ampliamente reconocido por pacientes o clínicos.",
   "also": "Criterios de diagnóstico IOM 2015"
  },
  "SERCA": {
@@ -8429,7 +8429,7 @@
  "SWS": {
   "label": "SWS",
   "category": "measurement",
-  "definition": "Sueño de Ondas Lentas (N3): la etapa más profunda de sueño no REM, caracterizada por ondas delta de alta amplitud. El SWS es crucial para la eliminación glímnática, la secreción de hormona de crecimiento y la reparación tisular. La reducción del SWS y la intrusión alfa-delta son signos distintivos de la patología del sueño en EM/SFC."
+  "definition": "Sueño de Ondas Lentas (N3): la etapa más profunda de sueño no REM, caracterizada por ondas delta de alta amplitud. El SWS es crucial para la eliminación glifática, la secreción de hormona de crecimiento y la reparación tisular. La reducción del SWS y la intrusión alfa-delta son signos distintivos de la patología del sueño en EM/SFC."
  },
  "Sarafem": {
   "alias": "Fluoxetine"
@@ -8493,7 +8493,7 @@
  "Sickle cell disease": {
   "label": "Enfermedad de célula falciforme",
   "category": "condition",
-  "definition": "Una hemoglobinopatía en la que la hemoglobina S mutada polimeriza bajo bajos niveles de oxígeno, causando encefalomielitis miálgica, crisis vaso-occluyentes y anemia hemolítica crónica. La vasoconstricción mediada por TRPV1 y la señalización del ácido lysophosphatídico (LPA) contribuyen a la vaso-oclución — algo similar al modelo de constricción microvascular impulsado por TRPV1 en el síndrome de fatiga crónica MPE."
+  "definition": "Una hemoglobinopatía en la que la hemoglobina S mutada polimeriza bajo bajos niveles de oxígeno, causando falciformación de los eritrocitos, crisis vaso-occluyentes y anemia hemolítica crónica. La vasoconstricción mediada por TRPV1 y la señalización del ácido lysophosphatídico (LPA) contribuyen a la vaso-oclución — algo similar al modelo de constricción microvascular impulsado por TRPV1 en el síndrome de fatiga crónica MPE."
  },
  "Singulair": {
   "alias": "Montelukast"
@@ -8683,7 +8683,7 @@
  "Suvorexant": {
   "label": "Suvorexant",
   "category": "medication",
-  "definition": "Un antagonista de dos receptores de orexina (DORA) que promueve el sueño al bloquear la señalización de orexina que estimula el despertar. Se utiliza en EM/SFC para el fracaso en el inicio del sueño de 'cansado pero activo' y el tono desregulado de orexina.",
+  "definition": "Un antagonista de dos receptores de orexina (DORA) que promueve el sueño al bloquear la señalización de orexina que estimula el despertar. Se utiliza en EM/SFC para el fracaso en el inicio del sueño de 'cansado pero acelerado' y el tono desregulado de orexina.",
   "generic": "Suvorexant",
   "brand": "Belsomra",
   "class": "Antagonista de dos receptores de orexina (DORA)",
@@ -8749,16 +8749,16 @@
  "T3": {
   "label": "T3",
   "category": "hormone",
-  "definition": "Triiodotironina: el hormonio tiroideo activo. Los niveles de T3 pueden ser bajos pero normales en EM/SFC; algunos médicos prueban naltrexona en dosis bajas para síntomas persistentes similares a hipotiroideo, a pesar de que el TSH es normal.",
+  "definition": "Triiodotironina: el hormona tiroideo activo. Los niveles de T3 pueden ser bajos pero normales en EM/SFC; algunos médicos prueban T3 en dosis bajas para síntomas persistentes similares a hipotiroideo, a pesar de que el TSH es normal.",
   "generic": "Liothyronine",
   "brand": "Cytomel, Tertroxin",
-  "class": "Hormonio tiroideo",
+  "class": "Hormona tiroideo",
   "rx": "Prescripción (EE. UU., UE)"
  },
  "T4": {
   "label": "T4",
   "category": "hormone",
-  "definition": "Tirosina: la hormona tiroidea principal (prohormona), que se convierte en T3 activa en los tejidos. Reemplazo tiroideo estándar para hipotiroidismo; generalmente normal en EM/SFC.",
+  "definition": "Tiroxina: la hormona tiroidea principal (prohormona), que se convierte en T3 activa en los tejidos. Reemplazo tiroideo estándar para hipotiroidismo; generalmente normal en EM/SFC.",
   "generic": "Levothyroxine",
   "brand": "Synthroid, Levoxyl, Euthyrox",
   "class": "Hormona tiroidea",
@@ -8991,7 +8991,7 @@
  },
  "TSC2": {
   "category": "protein",
-  "definition": "Esclerosis espinosa complejo 2 — una proteína que regula la actividad mTORC1. AMPK fosforila TSC2 para suprimir mTORC1, ofreciendo una vía indirecta de inhibición de mTORC1 diferente de los inhibidores directos como la rapamicina."
+  "definition": "Complejo 2 de la esclerosis tuberosa — una proteína que regula la actividad mTORC1. AMPK fosforila TSC2 para suprimir mTORC1, ofreciendo una vía indirecta de inhibición de mTORC1 diferente de los inhibidores directos como la rapamicina."
  },
  "TSG-6": {
   "label": "TSG-6",
@@ -9129,7 +9129,7 @@
   "definition": "L-Theanina: un aminoácido no proteínico proveniente del té verde que atraviesa la barrera hematoencefálica y aumenta los niveles de GABA, serotonina y dopamina, al tiempo que promueve la actividad de ondas cerebrales alfa (vigilancia relajada). Se utiliza en EM/SFC para reducir la ansiedad sin sedación y para mejorar la calidad del sueño.",
   "generic": "L-Theanine",
   "class": "Aminoácido / modulador de neurotransmisor",
-  "rx": "Venta libre de derechos",
+  "rx": "Venta libre (sin receta)",
   "brand": "Various supplement brands",
   "therapeuticCategory": "Threshold-modulatory",
   "therapeuticDepth": "Threshold-modulatory",
@@ -9144,7 +9144,7 @@
  "Thiamine": {
   "label": "Tiamina",
   "category": "supplement",
-  "definition": "Vitamina B1: cofactor para la deshidratasa de piruvato (PDH), la deshidratasa α-acetoglutarato y la transketolasa — enzimas críticas en el metabolismo de glucosa. La deficiencia de tiamina produce fatiga y acidosis láctica muy similar a EM/SFC; se ha propuesto la administración de alta dosis de tiamina para evitar la función deteriorada de la PDH.",
+  "definition": "Vitamina B1: cofactor para la deshidrogenasa de piruvato (PDH), la deshidrogenasa α-cetoglutarato y la transketolasa — enzimas críticas en el metabolismo de glucosa. La deficiencia de tiamina produce fatiga y acidosis láctica muy similar a EM/SFC; se ha propuesto la administración de alta dosis de tiamina para evitar la función deteriorada de la PDH.",
   "generic": "Thiamine (B1), Benfotiamine, TTFD (allithiamine)",
   "class": "Vitamina (soluble en agua B1) / cofactor enzimático",
   "rx": "OTC",
@@ -9344,7 +9344,7 @@
  "UBE3A": {
   "label": "UBE3A",
   "category": "protein",
-  "definition": "Proteína ligasa ubiquinina E3A (también llamada E6AP): la enzima codificada por el gen UBE3A que etiqueta proteínas objetivo para su degradación por el proteasoma. La pérdida de UBE3A funcional causa el síndrome de Angelman; aquí se utiliza como modelo de enfermedades cruzadas porque su ausencia deteriora la producción de energía mitocondrial y la señalización inhibitora (GABAérgica), dos dominios también relacionados con EM/SFC."
+  "definition": "Proteína ligasa ubiquitina E3A (también llamada E6AP): la enzima codificada por el gen UBE3A que etiqueta proteínas objetivo para su degradación por el proteasoma. La pérdida de UBE3A funcional causa el síndrome de Angelman; aquí se utiliza como modelo de enfermedades cruzadas porque su ausencia deteriora la producción de energía mitocondrial y la señalización inhibitora (GABAérgica), dos dominios también relacionados con EM/SFC."
  },
  "UCB-J": {
   "label": "UCB-J",
@@ -9365,7 +9365,7 @@
  "UPR": {
   "label": "UPR",
   "category": "pathway",
-  "definition": "Respuesta de proteínas desplegadas: la respuesta de estrés en la barrera hematoencefálica desencadenada por la acumulación de proteínas malplegadas. Tres ramas (PERK, IRE1, ATF6) coordinan la atenuación de la traducción, la inducción de chaperonas y ERAD. La activación de UPR está documentada en EM/SFC y puede estar relacionada con disfunción metabólica."
+  "definition": "Respuesta de proteínas desplegadas: la respuesta a proteínas desplegadas ante el estrés del retículo endoplásmico desencadenada por la acumulación de proteínas malplegadas. Tres ramas (PERK, IRE1, ATF6) coordinan la atenuación de la traducción, la inducción de chaperonas y ERAD. La activación de UPR está documentada en EM/SFC y puede estar relacionada con disfunción metabólica."
  },
  "Ubiquinol": {
   "alias": "CoQ10"
@@ -9444,7 +9444,7 @@
  "VT": {
   "label": "VT",
   "category": "measurement",
-  "definition": "Umbral ventilatorio — la intensidad del ejercicio en la que la ventilación aumenta de manera desproporcionada respecto al consumo de oxígeno, reflejando el inicio del metabolismo anaeróbico. También llamado umbral de intercambio gaseoso (GET). En EM/SFC, el ejercicio por encima de VT está asociado con un mayor riesgo de síndrome de fatiga crónica y una recuperación autónoma prolongada, medida mediante HRV."
+  "definition": "Umbral ventilatorio — la intensidad del ejercicio en la que la ventilación aumenta de manera desproporcionada respecto al consumo de oxígeno, reflejando el inicio del metabolismo anaeróbico. También llamado umbral de intercambio gaseoso (GET). En EM/SFC, el ejercicio por encima de VT está asociado con un mayor riesgo de malestar post-esfuerzo (MPE) y una recuperación autónoma prolongada, medida mediante HRV."
  },
  "VTE": {
   "label": "Tromboembolismo venoso (VTE)",
@@ -9623,7 +9623,7 @@
   "generic": "Ascorbic acid",
   "brand": "Various supplement brands",
   "class": "Vitamina (soluble en agua) / antioxidante",
-  "rx": "Venta libre de derechos",
+  "rx": "Venta libre (sin receta)",
   "therapeuticCategory": "Substrate-repletion",
   "therapeuticDepth": "Substrate-repletion",
   "doseZones": [
@@ -9637,10 +9637,10 @@
  "Vitamin D": {
   "label": "Vitamina D",
   "category": "supplement",
-  "definition": "Un hormonio secosteróido liposoluble que regula la homeostasis del calcio, la función inmunitaria y la expresión génica a través de VDR. La deficiencia de vitamina D es común en pacientes con EM/SFC que viven en casa y puede empeorar la disfunción inmunitaria y la fatiga.",
+  "definition": "Un hormona secosteróido liposoluble que regula la homeostasis del calcio, la función inmunitaria y la expresión génica a través de VDR. La deficiencia de vitamina D es común en pacientes con EM/SFC que viven en casa y puede empeorar la disfunción inmunitaria y la fatiga.",
   "generic": "Vitamin D3 (cholecalciferol), Vitamin D2 (ergocalciferol)",
   "brand": "Various supplement brands",
-  "class": "Vitamina (liposoluble) / hormonio secosteróido",
+  "class": "Vitamina (liposoluble) / hormona secosteróido",
   "rx": "Comercial sin receta",
   "therapeuticCategory": "Substrate-repletion",
   "therapeuticDepth": "Substrate-repletion",
@@ -9661,7 +9661,7 @@
   "definition": "Eficiencia ventilatoria — la relación entre ventilación por minuto y producción de dióxido de carbono durante el ejercicio. Una inclinación elevada indica respiración ineficiente y se utiliza en la evaluación de insuficiencia cardíaca y hipertensión pulmonar."
  },
  "V̇Eₘₐₓ": {
-  "label": "Energía",
+  "label": "V̇Eₘₐₓ",
   "category": "measurement",
   "definition": "Ventilación minuta máxima — el mayor volumen de aire que una persona puede respirar por minuto durante el ejercicio máximo."
  },
@@ -9740,9 +9740,9 @@
   "alias": "Ketotifen"
  },
  "Zinc": {
-  "label": "Cinco",
+  "label": "Zinc",
   "category": "supplement",
-  "definition": "Un elemento traza esencial que actúa como cofactor para la función inmunitaria, defensa antioxidante (SOD, Cu/Zn-SOD) y síntesis de neurotransmisores. La deficiencia de cinco deteriora la función de los linfocitos T y puede agravar la disfunción inmunitaria en EM/SFC.",
+  "definition": "Un elemento traza esencial que actúa como cofactor para la función inmunitaria, defensa antioxidante (SOD, Cu/Zn-SOD) y síntesis de neurotransmisores. La deficiencia de zinc deteriora la función de los linfocitos T y puede agravar la disfunción inmunitaria en EM/SFC.",
   "generic": "Zinc (various salts)",
   "brand": "Zinc gluconate, Zinc picolinate, Zinc citrate",
   "class": "Suplemento de minerales / elemento traza",
@@ -9753,7 +9753,7 @@
    {
     "dose": "Rango terapéutico",
     "category": "Substrate-repletion",
-    "mechanism": "Repone el cinco si hay deficiencia. Apoya la función inmunitaria y la defensa antioxidante."
+    "mechanism": "Repone el zinc si hay deficiencia. Apoya la función inmunitaria y la defensa antioxidante."
    }
   ]
  },
@@ -9875,7 +9875,7 @@
  "aldosterone": {
   "label": "aldosterona",
   "category": "hormone",
-  "definition": "Un hormonio mineralocorticoide que regula la retención de sodio, la excreción de potasio y el volumen sanguíneo. Una aldosterona baja o resistencia a la aldosterona puede contribuir a la hipovolemia y la intolerancia ortostática en EM/SFC/POTS."
+  "definition": "Un hormona mineralocorticoide que regula la retención de sodio, la excreción de potasio y el volumen sanguíneo. Una aldosterona baja o resistencia a la aldosterona puede contribuir a la hipovolemia y la intolerancia ortostática en EM/SFC/POTS."
  },
  "allodynia": {
   "label": "allodinia",
@@ -9946,7 +9946,7 @@
  "astrocyte": {
   "label": "astrocito",
   "category": "cell",
-  "definition": "células gliales en forma de estrella que apoyan a los neuronas en términos metabólicos, regulan los niveles de iones extracelulares y neurotransmisores, forman la barrera hematoencefálica y mediaron la limpieza glinfática a través de canales AQP4. La disfunción del astrocito en el EM/SFC deteriora el metabolismo energético cerebral y la eliminación de desechos."
+  "definition": "células gliales en forma de estrella que apoyan a los neuronas en términos metabólicos, regulan los niveles de iones extracelulares y neurotransmisores, forman la barrera hematoencefálica y mediaron la limpieza glifática a través de canales AQP4. La disfunción del astrocito en el EM/SFC deteriora el metabolismo energético cerebral y la eliminación de desechos."
  },
  "atorvastatin": {
   "label": "Atorvastatina",
@@ -10277,7 +10277,7 @@
  "cortisol": {
   "label": "cortisol",
   "category": "hormone",
-  "definition": "El principal hormonio glucocorticoide del estrés producido por la corteza suprarrenal. El cortisol matutino suele ser bajo o bajo normal en EM/SFC (eje HPA atenuado), mientras que el cortisol vespertino puede estar inadecuadamente elevado, aplanando el ritmo diurno."
+  "definition": "El principal hormona glucocorticoide del estrés producido por la corteza suprarrenal. El cortisol matutino suele ser bajo o bajo normal en EM/SFC (eje HPA atenuado), mientras que el cortisol vespertino puede estar inadecuadamente elevado, aplanando el ritmo diurno."
  },
  "creatinine": {
   "label": "Creatinina",
@@ -10391,7 +10391,7 @@
  "dopamine": {
   "label": "Dopamina",
   "category": "neurotransmitter",
-  "definition": "Un neurotransmisor catecolamínico involucrado en la motivación, la recompensa, el control motor y las funciones cognitivas. Se produce a partir de tirosina mediante la hidrólisis de tirosina y la decarboxilasa de DOPA. La desregulación de la dopamina en el EM/SFC puede contribuir a la anhedonia, la desaceleración cognitiva y la reducida motivación."
+  "definition": "Un neurotransmisor catecolamínico involucrado en la motivación, la recompensa, el control motor y las funciones cognitivas. Se produce a partir de tirosina mediante la tirosina hidroxilasa y la decarboxilasa de DOPA. La desregulación de la dopamina en el EM/SFC puede contribuir a la anhedonia, la desaceleración cognitiva y la reducida motivación."
  },
  "dysautonomia": {
   "label": "Disautonomía",
@@ -10404,7 +10404,7 @@
   "definition": "Un desequilibrio en la composición, diversidad o función del microbioma intestinal. El disequilibrio intestinal se reporta consistentemente en el EM/SFC, con una reducida diversidad microbiana y cambios en los productores de ácidos grasos de cadena corta, lo que está relacionado con disfunción inmunitaria y metabólica."
  },
  "dysvirosis": {
-  "label": "disminución de la inmunidad",
+  "label": "Disvirosis",
   "category": "concept",
   "definition": "Una desregulación del virome humano — la comunidad de virus que normalmente persisten en el cuerpo sin causar enfermedad. En la investigación sobre la COVID larga y EM/SFC, la disminución de la inmunidad se refiere a cambios en la carga viral crónica (especialmente anellovirus), que reflejan una regulación inmunitaria alterada más que una infección viral activa."
  },
@@ -10416,7 +10416,7 @@
  "eculizumab": {
   "label": "Eculizumab",
   "category": "medication",
-  "definition": "Un anticuerpo monoclonal que inhibe el complemento C5, bloqueando la formación del complejo de ataque de membrana (MAC). Se utiliza para encefalomielitis miálgica paroxística nocturna, síndrome hemolítico uremico atípico y miastenia gravis generalizada. Ha sido considerado en EM/SFC para subgrupos de hiperactivación complementaria.",
+  "definition": "Un anticuerpo monoclonal que inhibe el complemento C5, bloqueando la formación del complejo de ataque de membrana (MAC). Se utiliza para hemoglobinuria paroxística nocturna, síndrome hemolítico uremico atípico y miastenia gravis generalizada. Ha sido considerado en EM/SFC para subgrupos de hiperactivación complementaria.",
   "generic": "Eculizumab",
   "brand": "Soliris",
   "class": "Inhibidor del complemento C5 / anticuerpo monoclonal",
@@ -10565,7 +10565,7 @@
  "glucagon": {
   "label": "Glucagón",
   "category": "hormone",
-  "definition": "Un hormonio de la célula α del páncreas que aumenta el glucoso en sangre al estimular la glicogenolisis hepática y la gluconeogénesis. Es un contraregulador de la insulina. La señalización del glucagón se relaciona con la vía cAMP/PKA y puede estar desregulada en la disfunción metabólica de EM/SFC."
+  "definition": "Un hormona de la célula α del páncreas que aumenta el glucoso en sangre al estimular la glicogenolisis hepática y la gluconeogénesis. Es un contraregulador de la insulina. La señalización del glucagón se relaciona con la vía cAMP/PKA y puede estar desregulada en la disfunción metabólica de EM/SFC."
  },
  "gluconeogenesis": {
   "label": "gluconeogénesis",
@@ -10624,9 +10624,9 @@
   "definition": "Variabilidad entre pacientes — una característica definitoria de EM/SFC. La heterogeneidad clínica (presentación de síntomas, gravedad, desencadenantes) refleja la heterogeneidad biológica subyacente (endotipos), lo que explica por qué ningún tratamiento único funciona para todos los pacientes."
  },
  "hexokinase": {
-  "label": "Hexosíntasa (HK)",
+  "label": "Hexoquinasa (HK)",
   "category": "enzyme",
-  "definition": "La primera enzima de la glucólisis, que fosforila la glucosa a glucosa-6-fosfato. La hexosíntasa está inhibida por su producto, glucosa-6-fosfato (regulación de retroalimentación). La hexosíntasa II (HK2) se une al VDAC mitocondrial, vinculando la glucólisis con el metabolismo mitocondrial y inhibiendo la apoptosis."
+  "definition": "La primera enzima de la glucólisis, que fosforila la glucosa a glucosa-6-fosfato. La hexoquinasa está inhibida por su producto, glucosa-6-fosfato (regulación de retroalimentación). La hexoquinasa II (HK2) se une al VDAC mitocondrial, vinculando la glucólisis con el metabolismo mitocondrial y inhibiendo la apoptosis."
  },
  "hibernation": {
   "label": "hibernación",
@@ -10836,7 +10836,7 @@
  "lipid peroxidation": {
   "label": "Peroxidación de lípidos",
   "category": "pathway",
-  "definition": "La degradación oxidativa de los lípidos por especies reactivas de oxígeno, donde los radicales libres roban electrones de los ácidos grasos de la membrana celular, provocando reacciones en cadena que dañan las membranas. El rasgo distintivo de la feropatosis (muerte celular dependiente de hierro). Se mide mediante 4-HNE y MDA."
+  "definition": "La degradación oxidativa de los lípidos por especies reactivas de oxígeno, donde los radicales libres roban electrones de los ácidos grasos de la membrana celular, provocando reacciones en cadena que dañan las membranas. El rasgo distintivo de la ferroptosis (muerte celular dependiente de hierro). Se mide mediante 4-HNE y MDA."
  },
  "lisinopril": {
   "label": "Lisinopril",
@@ -10940,7 +10940,7 @@
  "maternal immune activation": {
   "label": "Activación inmunitaria materna",
   "category": "pathway",
-  "definition": "Respuesta inflamatoria durante el embarazo —a menudo desencadenada por infección, autoinmunidad o estrés— en la cual citocinas, quimocinas y anticuerpos maternos cruzan la placenta o actúan a través de la interfaz feto-placental para alterar el desarrollo neurocognitivo del feto. La encefalomielitis miálgica es un factor de riesgo documentado para el autismo, y el mecanismo (anticuerpos maternos que afectan el desarrollo cerebral fetal) se asemeja al tema más amplio de los efectos neuroinmunitarios transplacentarios relevantes para la convergencia PANS/PANDAS-autismo-EM/SFC."
+  "definition": "Respuesta inflamatoria durante el embarazo —a menudo desencadenada por infección, autoinmunidad o estrés— en la cual citocinas, quimocinas y anticuerpos maternos cruzan la placenta o actúan a través de la interfaz feto-placental para alterar el desarrollo neurocognitivo del feto. La activación inmunitaria materna (MIA, por sus siglas en inglés) es un factor de riesgo documentado para el autismo, y el mecanismo (anticuerpos maternos que afectan el desarrollo cerebral fetal) se asemeja al tema más amplio de los efectos neuroinmunitarios transplacentarios relevantes para la convergencia PANS/PANDAS-autismo-EM/SFC."
  },
  "median preoptic nucleus": {
   "label": "núcleo preóptico medio",
@@ -10982,7 +10982,7 @@
  "meningeal lymphatics": {
   "label": "Vasos linfáticos meníngeos",
   "category": "system",
-  "definition": "Vasos linfáticos funcionales que recubren los senos duros del cerebro, descubiertos en 2015 por Louveau y colaboradores, así como por Aspelund y colaboradores. Estos vasos drenan líquido cefalorraquídeo, células inmunitarias y macromoléculas del SNC hacia los nodos linfáticos cervicales profundos, proporcionando la vía de salida para la eliminación de desechos glilmáticos y una interfaz entre el privilegio inmunitario del SNC y la vigilancia inmunitaria periférica."
+  "definition": "Vasos linfáticos funcionales que recubren los senos duros del cerebro, descubiertos en 2015 por Louveau y colaboradores, así como por Aspelund y colaboradores. Estos vasos drenan líquido cefalorraquídeo, células inmunitarias y macromoléculas del SNC hacia los nodos linfáticos cervicales profundos, proporcionando la vía de salida para la eliminación de desechos glifáticos y una interfaz entre el privilegio inmunitario del SNC y la vigilancia inmunitaria periférica."
  },
  "meta-analysis": {
   "label": "metaanálisis",
@@ -11073,7 +11073,7 @@
  "molecular mimicry": {
   "label": "mimetismo molecular",
   "category": "mechanism",
-  "definition": "Un proceso mediante el cual las proteínas derivadas de patógenos comparten similitud estructural con las proteínas del huésped, provocando respuestas inmunitarias dirigidas contra el patógeno que reaccionan con los tejidos propios. En EM/SFC, la proteína GAS M y otros antígenos estreptocócicos generan anticuerpos que se unen a neuronas de los ganglios basales. Se supone que existen mecanismos paralelos en el EM/SFC postinfeccioso, donde los desencadenantes infecciosos pueden generar anticuerpos que reaccionen con receptores GPCRs autonómicos u otros objetivos del huésped."
+  "definition": "Un proceso mediante el cual las proteínas derivadas de patógenos comparten similitud estructural con las proteínas del huésped, provocando respuestas inmunitarias dirigidas contra el patógeno que reaccionan con los tejidos propios. En PANS/PANDAS, la proteína M de GAS y otros antígenos estreptocócicos generan anticuerpos que se unen a neuronas de los ganglios basales. Se supone que existen mecanismos paralelos en el EM/SFC postinfeccioso, donde los desencadenantes infecciosos pueden generar anticuerpos que reaccionen con receptores GPCRs autonómicos u otros objetivos del huésped."
  },
  "nAChR": {
   "label": "receptor de acetilcolina nicotínico",
@@ -11386,7 +11386,7 @@
  "prodrug": {
   "label": "prodrug",
   "category": "mechanism",
-  "definition": "Un compuesto inactivo que necesita conversión metabólica en el cuerpo para convertirse en activo farmacológico. El valaciclivo (prodrug del acyclovir), la codeína (prodrug de la morfina) y la lisdexamfetamina (prodrug de la dextroamfetamina) requieren metabolismo hepático funcional, el cual puede alterarse en el EM/SFC."
+  "definition": "Un compuesto inactivo que necesita conversión metabólica en el cuerpo para convertirse en activo farmacológico. El valaciclovir (prodrug del acyclovir), la codeína (prodrug de la morfina) y la lisdexamfetamina (prodrug de la dextroamfetamina) requieren metabolismo hepático funcional, el cual puede alterarse en el EM/SFC."
  },
  "progesterone": {
   "label": "Progesterona",
@@ -11449,9 +11449,9 @@
   "definition": "Una muerte celular programada altamente inflamatoria mediada por los poros de gasdermin D, que libera IL-1β, IL-18 y DAMPs. Impulsada por la activación del inflamasoma (NLRP3, AIM2); la pyroptosis puede contribuir a la inflamación sostenida en EM/SFC."
  },
  "pyruvate": {
-  "label": "piraduro",
+  "label": "piruvato",
   "category": "molecule",
-  "definition": "El producto final de la glicólisis. En el portal mitocondrial, la deshidrogenasa de piraduro (PDH) convierte el piraduro en acetil-CoA para el ciclo TCA. Cuando la PDH está inhibida (por PDK o disfunción), el piraduro se reduce en lugar de eso a lactato."
+  "definition": "El producto final de la glicólisis. En el portal mitocondrial, la deshidrogenasa de piruvato (PDH) convierte el piruvato en acetil-CoA para el ciclo TCA. Cuando la PDH está inhibida (por PDK o disfunción), el piruvato se reduce en lugar de eso a lactato."
  },
  "quinolinic acid": {
   "label": "Ácido quinolínico (QUIN)",
@@ -11511,7 +11511,7 @@
  "serotonin": {
   "label": "Serotonina (5-HT)",
   "category": "neurotransmitter",
-  "definition": "Es un neurotransmisor monoaminado obtenido de triptófano mediante la hidrólisis de triptófano. Regula el estado de ánimo, el sueño, el apetito, la percepción del dolor y la motilidad gastrointestinal. El desvío de la vía de quinurenina (activación de IDO) desvía el triptófano de la síntesis de serotonina en EM/SFC, lo que contribuye a estados de baja serotonina. La mayor parte de la serotonina en el cuerpo se produce en el intestino."
+  "definition": "Es un neurotransmisor monoaminado obtenido de triptófano mediante la triptófano hidroxilasa. Regula el estado de ánimo, el sueño, el apetito, la percepción del dolor y la motilidad gastrointestinal. El desvío de la vía de quinurenina (activación de IDO) desvía el triptófano de la síntesis de serotonina en EM/SFC, lo que contribuye a estados de baja serotonina. La mayor parte de la serotonina en el cuerpo se produce en el intestino."
  },
  "siRNA": {
   "label": "siRNA",
@@ -11674,7 +11674,7 @@
  "urticaria": {
   "label": "urticaria",
   "category": "condition",
-  "definition": "Eritas: manchas elevadas, picantes, rojas o de color de la piel, la mayoría de las veces una reacción alérgica o mediada por mastocitos. Cuando se repite durante semanas o meses sin un desencadenante evidente, se denomina urticaria crónica espontánea, y es una de las situaciones en las que los antihistamínicos a dosis estándar suelen, y adecuadamente, aumentar la dosis."
+  "definition": "Urticaria (habones): manchas elevadas, picantes, rojas o de color de la piel, la mayoría de las veces una reacción alérgica o mediada por mastocitos. Cuando se repite durante semanas o meses sin un desencadenante evidente, se denomina urticaria crónica espontánea, y es una de las situaciones en las que los antihistamínicos a dosis estándar suelen, y adecuadamente, aumentar la dosis."
  },
  "vagus nerve": {
   "label": "nervio vago",
@@ -11754,7 +11754,7 @@
  "vasomotion": {
   "label": "Vasomoción",
   "category": "physiology",
-  "definition": "Oscilaciones rítmicas en el diámetro arterial que impulsan el flujo de líquido cefalorraquídeo a través de los espacios periarteriales. La vasomoción regulada por noradrenalina es la bomba del flujo glilmático del líquido cefalorraquídeo; el tono noradrenérgico disminuye durante el sueño, lo que permite la vasomoción necesaria para la eliminación de residuos cerebrales (Hauglund et al., 2025). La disfunción autonómica en el EM/SFC —tono simpático elevado y activación parasimpático reducida— perjudicaría, como era de esperar, esta vasomoción."
+  "definition": "Oscilaciones rítmicas en el diámetro arterial que impulsan el flujo de líquido cefalorraquídeo a través de los espacios periarteriales. La vasomoción regulada por noradrenalina es la bomba del flujo glifático del líquido cefalorraquídeo; el tono noradrenérgico disminuye durante el sueño, lo que permite la vasomoción necesaria para la eliminación de residuos cerebrales (Hauglund et al., 2025). La disfunción autonómica en el EM/SFC —tono simpático elevado y activación parasimpático reducida— perjudicaría, como era de esperar, esta vasomoción."
  },
  "vasopressin": {
   "label": "vasopresina",
@@ -11831,9 +11831,9 @@
   "definition": "Fibromialgia: un síndrome de dolor crónico caracterizado por dolor musculoesquelético generalizado, fatiga, sueño poco reparador y dificultades cognitivas. Es un trastorno del sistema nervioso central (nociplastic); ocurre junto con EM/SFC en el 20-70% de los casos."
  },
  "nociplastic": {
-  "label": "dolor nocipléptico",
+  "label": "dolor nociplástico",
   "category": "condition",
-  "definition": "Dolor nocipléptico: dolor que surge de un procesamiento nociceptivo alterado (sensibilización central) en el sistema nervioso, sin daño ni inflamación claros en los tejidos periféricos. La fibromialgia es el síndrome de dolor nociplástico prototípico."
+  "definition": "Dolor nociplástico: dolor que surge de un procesamiento nociceptivo alterado (sensibilización central) en el sistema nervioso, sin daño ni inflamación claros en los tejidos periféricos. La fibromialgia es el síndrome de dolor nociplástico prototípico."
  },
  "HTT": {
   "label": "HTT",
@@ -11848,7 +11848,7 @@
  "PRS": {
   "label": "PRS",
   "category": "method",
-  "definition": "Puntuaje de Riesgo Poligénico: una medida cuantitativa que agrupa los efectos de miles de variantes genéticas para estimar la susceptibilidad a enfermedades hereditarias de un individuo."
+  "definition": "Puntuación de Riesgo Poligénico: una medida cuantitativa que agrupa los efectos de miles de variantes genéticas para estimar la susceptibilidad a enfermedades hereditarias de un individuo."
  },
  "Corticomuscular coherence": {
   "label": "Coherencia corticomuscular",
@@ -11955,7 +11955,7 @@
  "Prolactin": {
   "label": "Prolactina",
   "category": "hormone",
-  "definition": "Un hormonio producido por la glándula pituitaria. Es conocida principalmente por estimular la producción de leche después del nacimiento, pero también tiene roles menores en muchos sistemas del cuerpo. La dopamina es el principal mecanismo de frenado en la liberación de prolactina, por lo que su nivel refleja la señalización de dopamina en la glándula pituitaria."
+  "definition": "Un hormona producido por la glándula pituitaria. Es conocida principalmente por estimular la producción de leche después del nacimiento, pero también tiene roles menores en muchos sistemas del cuerpo. La dopamina es el principal mecanismo de frenado en la liberación de prolactina, por lo que su nivel refleja la señalización de dopamina en la glándula pituitaria."
  },
  "Buspirone": {
   "label": "Buspirón",
@@ -12137,7 +12137,7 @@
  "IMC-2": {
   "label": "IMC-2",
   "category": "treatment",
-  "definition": "Una combinación investigativa utilizada en investigaciones sobre el cansancio postinfeccioso: valaciclivo (un antiviral antiherpésico) más celecoxib (un antiinflamatorio COX-2), estudiada como un régimen off-label y no aprobado."
+  "definition": "Una combinación investigativa utilizada en investigaciones sobre el cansancio postinfeccioso: valaciclovir (un antiviral antiherpésico) más celecoxib (un antiinflamatorio COX-2), estudiada como un régimen off-label y no aprobado."
  },
  "thin-slice judgment": {
   "label": "juicio con corte delgado",
@@ -12235,7 +12235,7 @@
   "definition": "Ranking de beneficios resumido utilizado por la encuesta Eckey 2025, calculado para cada intervención con al menos 20 respuestas. Expresa el efecto percibido de un tratamiento en el estado general sobre una escala de siete puntos, basada en la vitamina C oral no liposomal y ajustada para múltiples comparaciones."
  },
  "ICI": {
-  "label": "Aquí",
+  "label": "ICI",
   "category": "treatment",
   "definition": "Inhibidor de punto de control inmune: una inmunoterapia contra el cáncer (por ejemplo, anti-PD-1/PD-L1 o anti-CTLA-4) que elimina los obstáculos en la activación de linfocitos T. Se utiliza aquí como modelo humano en el que la activación inmune intencionalmente intensificada genera fatiga."
  },
@@ -12255,7 +12255,7 @@
   "definition": "Una red cerebral (anclada en la insula anterior y en el cingulado anterior dorsal) que identifica qué estímulos y estados internos son suficientemente importantes para actuar sobre ellos. Ayuda a priorizar el esfuerzo y la atención en lugar de centrarse únicamente en la atención misma."
  },
  "endophenotype": {
-  "label": "fenotipo final",
+  "label": "Endofenotipo",
   "category": "method",
   "definition": "Un rasgo medible y hereditario que se encuentra entre una enfermedad y sus causas genéticas; un subtipo biológico más que un conjunto de síntomas. Dos pacientes con la misma diagnosis pueden tener diferentes fenotipos finales."
  },
@@ -12321,7 +12321,7 @@
   ]
  },
  "pitolisant": {
-  "label": "Pitolisante",
+  "label": "Pitolisant",
   "category": "medication",
   "definition": "Un agonista inverso de receptor H3 de histamina que aumenta la liberación endógena de histamina y promueve el estado de vigilia sin activar directamente el sistema nervioso simpático. La opción de mayor riesgo mínimo para promover el estado de vigilia.",
   "generic": "Pitolisant",
@@ -12450,7 +12450,7 @@
   "definition": "Una proteína muscular de unión de oxígeno liberada en la sangre tras daño muscular; un marcador de lesión mecánica muscular."
  },
  "Dopamine beta-hydroxylase": {
-  "label": "beta-hidrolasa de dopamina (DBH)",
+  "label": "Dopamina beta-hidroxilasa (DBH)",
   "category": "enzyme",
   "definition": "La enzima dependiente del cobre que convierte la dopamina en noradrenalina dentro de las vesículas sinápticas. Dado que necesita ATP y cobre en forma de vesícula, su fallo puede reducir la noradrenalina mientras la dopamina permanece intacta."
  },
@@ -12604,10 +12604,10 @@
  "COPM": {
   "label": "COPM",
   "category": "measurement",
-  "definition": "Medida Canadiense de Rendimiento Laboral: una medida de resultados centrada en el cliente que evalúa el rendimiento y la satisfacción percibidos por el propio individuo en actividades cotidianas, utilizada en ensayos de terapia de ejercicio gradual para el síndrome de fatiga crónica."
+  "definition": "Medida Canadiense de Rendimiento Laboral: una medida de resultados centrada en el cliente que evalúa el rendimiento y la satisfacción percibidos por el propio individuo en actividades cotidianas, utilizada en ensayos de regulación de la actividad (pacing) para el síndrome de fatiga crónica."
  },
  "glymphatic": {
-  "label": "sistema glinfático",
+  "label": "sistema glifático",
   "category": "pathway",
   "definition": "El sistema de eliminación en todo el cerebro en el que el líquido cefalorraquídeo fluye a través de espacios perivasculares y elimina residuos metabólicos durante el sueño. Se mide de forma indirecta mediante DTI-ALPS; se ve afectado en EM/SFC según un único estudio transversal."
  },
@@ -12705,12 +12705,12 @@
  "anti-N": {
   "label": "anti-N",
   "category": "measurement",
-  "definition": "Antídoto contra el nucleocapasido: un anticuerpo contra la proteína nucleocapasido de SARS-CoV-2. Dado que las vacunas de mRNA codifican únicamente la proteína spike, un resultado positivo en el test anti-N indica una infección natural previa por SARS-CoV-2 en lugar de una vacunación — útil para diferenciar infección y vacunación en estudios."
+  "definition": "Anticuerpo anti-nucleocápside: un anticuerpo contra la proteína de la nucleocápside de SARS-CoV-2. Dado que las vacunas de mRNA codifican únicamente la proteína spike, un resultado positivo en el test anti-N indica una infección natural previa por SARS-CoV-2 en lugar de una vacunación — útil para diferenciar infección y vacunación en estudios."
  },
  "anti-S": {
   "label": "anti-S",
   "category": "measurement",
-  "definition": "Antídoto contra el spike: un anticuerpo contra la proteína spike de SARS-CoV-2, producido tanto tras una infección natural como tras una vacunación basada en spike (mRNA/vector); a diferencia del anti-N, no distingue entre infección y vacunación."
+  "definition": "Anticuerpo anti-spike: un anticuerpo contra la proteína spike de SARS-CoV-2, producido tanto tras una infección natural como tras una vacunación basada en spike (mRNA/vector); a diferencia del anti-N, no distingue entre infección y vacunación."
  },
  "IL-8": {
   "label": "IL-8",
