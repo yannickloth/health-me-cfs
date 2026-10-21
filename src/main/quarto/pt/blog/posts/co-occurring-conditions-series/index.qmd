@@ -27,7 +27,7 @@ Leia os três artigos na ordem:
 
 1. **[MCAS e EM/SFC: Por que o seu corpo reage a nada](../mast-cell-mcas/mcas-mecfs-overview/index.qmd)** — o que é o MCAS, por que aparece após a EM/SFC (não antes) e a diferença entre MCAS sozinho e EM/SFC com MCAS.
 2. **[Anti-histamínicos para EM/SFC e MCAS: H1 vs H2, e por que o seu médico aumenta a dose](../mast-cell-mcas/antihistamines-mcas-mecfs-treatment/index.qmd)** — os medicamentos, histamina e seus recetores, e os estabilizadores.
-3. **[Quando o anti-histamínico não funciona](../mast-cell-mcas/when-antihistamine-doesnt-work/index.qmd)** — testes normais, intolerância à histamina, os "sabores" dos mastócitos, o mecanismo de amplificação e o que fazer a seguir.
+3. **[Quando o anti-histamínico não funciona](../mast-cell-mcas/when-antihistamine-doesnt-work/index.qmd)** — testes normais, intolerância à histamina, os "subtipos" dos mastócitos, o mecanismo de amplificação e o que fazer a seguir.
 
 ---
 
@@ -50,7 +50,7 @@ Leia os três artigos na ordem indicada:
 
 1. **[Hipermóbile EDS e a Conexão dos Tecidos Conectivos com EM/SFC](../connective-tissue/hypermobility-heds/index.qmd)** — o que é hEDS, por que não há defeito genético identificado, a diferença de 81% para 15,5%, hipermobilidade progressiva adquirida (triptase→MMP-3/-13, quimase→MMP-1, histaminilação), o ciclo de retroalimentação de rigidez da matriz, cinco vias mecânicas, a conexão com a neurodivergência, a genética TNXB, a taxa permanente de 10–20% de custo energético e hEDS sozinho vs hEDS em EM/SFC.
 2. **[Gerenciando a Hipermobilidade sobre a EM/SFC](../connective-tissue/hypermobility-heds-treatment/index.qmd)** — protocolos de resistência isométrica, horário dos cofatores de colágeno circadiano (vitamina C, alfa-ketoglutarato), glicina e prolina, cobre/B6 para LOX, doxiciclina de baixa dose para MMP-9, terapias emergentes (tVNS, inibidores de HIF-1α, bloqueio de TGF-β1), cirurgia CCI, resultados esperados e um exemplo de estudo estruturado.
-3. **[Quando o Tratamento Não Ajuda](../connective-tissue/hypermobility-heds-failure/index.qmd)** — a armadilha de descondicionamento-MPE, o ponto de virada de rigidez da matriz, triagem congénita vs adquirida, os seis pontos de falha numerados, previsões falsificáveis e o que se pode realmente fazer.
+3. **[Quando o Tratamento Não Ajuda](../connective-tissue/hypermobility-heds-failure/index.qmd)** — a armadilha de descondicionamento-MPE, o ponto de viragem de rigidez da matriz, triagem congénita vs adquirida, os seis pontos de falha numerados, previsões falsificáveis e o que se pode realmente fazer.
 
 ---
 

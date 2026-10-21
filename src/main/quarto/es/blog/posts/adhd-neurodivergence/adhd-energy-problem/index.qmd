@@ -42,7 +42,7 @@ Un estudio PET con dos trazadores de 2021 obtuvo imágenes simultáneamente de d
 
 El hallazgo crítico: estas dos medidas estaban **correlacionadas positivamente — solo en el grupo de TDAH**. Cuanto mayor es el déficit de dopamina, más hay neuroinflamación [@Yokokura2021D1Rmicroglia].
 
-El mismo cerebro muestra déficit de catecolaminas y activación inmunitaria. En el punto de partida. Antes de cualquier enfermedad.
+El mismo cerebro muestra déficit de catecolaminas y activación inmunitaria. En la línea base. Antes de cualquier enfermedad.
 
 Esto es importante porque la EM/SFC se caracteriza por un hallazgo dual similar: depleción de catecolaminas + neuroinflamación. El estudio de fenotipado profundo de NIH documentó una reducción de los metabolitos de dopamina en el líquido cefalorraquídeo en pacientes con EM/SFC [@walitt2024deep]. Bajo el modelo energético, esto sugiere que el cerebro con TDAH ya puede encontrarse en un punto más leve en el mismo continuo metabólico — aunque los biomarcadores compartidos no demuestran un mecanismo compartido. El mismo patrón posterior (dopamina baja + inflamación) puede surgir de diferentes causas anteriores.
 

@@ -1,6 +1,6 @@
 ---
 title: "¿Por qué una dosis más alta no contiene los beneficios de una dosis más baja — Ocupación, señalización hormética y el caso para probar dosis más bajas"
-description: "Un argumento técnico completo para prescriptores y lectores interesados: la unión de acción de masa derivada de principios fundamentales, la ecuación de Hill–Langmuir y sus supuestos, la cadena de señalización Keap1–Nrf2, un modelo de beneficio basado en ocupación analizado de manera teórica, y el teorema de no propagación resultante. La suposición del superset —que una dosis más alta reproduce todos los efectos de una dosis más baja— falla para medicamentos cuyo beneficio predominante en dosis baja es hormético (se extingue en dosis más alta, no se amplifica), por lo que el resultado de cero en dosis estándar no puede descartar dosis más bajas no probadas."
+description: "Un argumento técnico completo para prescriptores y lectores interesados: la unión de acción de masa derivada de principios fundamentales, la ecuación de Hill–Langmuir y sus supuestos, la cadena de señalización Keap1–Nrf2, un modelo de beneficio basado en ocupación analizado de manera teórica, y el teorema de no propagación resultante. La suposición del superconjunto —que una dosis más alta reproduce todos los efectos de una dosis más baja— falla para medicamentos cuyo beneficio predominante en dosis baja es hormético (se extingue en dosis más alta, no se amplifica), por lo que el resultado de cero en dosis estándar no puede descartar dosis más bajas no probadas."
 author: "Yannick Loth"
 date: "2026-09-04"
 categories: [Treatment, Pharmacology, ME/CFS]
@@ -11,7 +11,7 @@ Una conclusión común en la prescripción es que la prueba utilizó la dosis es
 
 Para un medicamento que actúa sobre un único objetivo con una respuesta monotónica entre dosis y efectos, la suposición es correcta. Pero para un medicamento cuyo beneficio principal en dosis baja es una respuesta compensatoria a la participación parcial del objetivo —el caso hormético, que el naltrexona en dosis bajas (LDN) ejemplifica a través de su mecanismo TLR4/Nrf2 — es falsa de una manera específica y cuantificable. Este artículo desarrolla completamente este argumento: la química de unión derivada de principios fundamentales, la biología de la señalización, las matemáticas analizadas de forma analítica y las pruebas de la investigación. La afirmación que se examina es limitada:
 
-> **La hipótesis del superset:** los efectos de una dosis más baja son un subconjunto de los efectos de una dosis más alta. Por lo tanto, un resultado nulo en una dosis más alta invalida todas las dosis más bajas.
+> **La hipótesis del superconjunto:** los efectos de una dosis más baja son un subconjunto de los efectos de una dosis más alta. Por lo tanto, un resultado nulo en una dosis más alta invalida todas las dosis más bajas.
 
 La estructura: La Parte A deriva el marco de ocupación a partir de la cinética de acción de masa y expresa sus suposiciones con precisión. La Parte B explica la biología de los mecanismos de dosis baja del LDN y los clasifica según el comportamiento por dosis —la hormesis invertida TLR4/Nrf2, la compensación monotónica de opioides y el objetivo TRPM3 de umbral. La Parte C modela la clase invertida, analiza sus propiedades de forma analítica y expresa el resultado de no propagación. La Parte D examina las pruebas de la investigación. La Parte E expresa la propuesta clínica y sus limitaciones. Los lectores familiarizados con la farmacocinética pueden pasar directamente a la Parte C; las derivaciones están incluidas para que cada paso pueda ser verificado en lugar de ser afirmado de forma presuntiva.
 
@@ -113,7 +113,7 @@ Dos hechos estructurales, independientes de $n$:
 
 # Parte B — La biología de los mecanismos de dosis baja
 
-La LDN es un ejemplo claro. En dosis antagónicas estándar (≥50 mg/día), la naltrexona es un antagónico competitivo de los receptores mu-opioides utilizado en medicina de la adicción. En 0,5–4,5 mg/día, atrae a un conjunto de objetivos diferentes, en parte no opioide. El marco de referencia propone cuatro mecanismos de dosis baja: la hormesis TLR4/Nrf2, compensación opioida, restauración TRPM3 y disinhibición de orexina (el último registra la respuesta de dosis a TLR4) [@Loth2026website]. No se comportan todos de la misma manera, y esta distinción es la parte relevante de este artículo, por lo que se menciona de inmediato:
+La LDN es un ejemplo claro. En dosis antagónicas estándar (≥50 mg/día), la naltrexona es un antagónico competitivo de los receptores mu-opioides utilizado en medicina de la adicción. En 0,5–4,5 mg/día, atrae a un conjunto de objetivos diferentes, en parte no opioide. El marco de referencia propone cuatro mecanismos de dosis baja: la hormesis TLR4/Nrf2, compensación opioida, restauración TRPM3 y desinhibición de orexina (el último registra la respuesta de dosis a TLR4) [@Loth2026website]. No se comportan todos de la misma manera, y esta distinción es la parte relevante de este artículo, por lo que se menciona de inmediato:
 
 - **TLR4/Nrf2 hormesis (B1)** — *invertir la hormesis*, Categoría 1: el beneficio existe solo dentro de un intervalo de ocupación limitado y desaparece después de él. Este es el beneficio dominante en dosis baja.
 - **Compensación opioida (B2)** — *monotónico*, no hormético: el beneficio aumenta con el bloqueo hasta un límite previo y no se invierte dentro del rango.
@@ -197,7 +197,7 @@ $$c^{\ast n} = \frac{1}{m} \quad\Longrightarrow\quad \boxed{\,c^\ast = m^{-1/n}\
 Tres observaciones, ninguna dependiente de parámetros:
 
 1. **El pico siempre está dentro de la región de ocupación parcial** — $0 < f^\ast < 1$ para cada $m$ finito. Un máximo de beneficio hormético en ocupación total es una imposibilidad matemática en esta familia de modelos: como $f \to 1$, el factor $(1-f)^m \to 0$ domina y $B \to 0$.
-2. **Los sistemas más sensibles alcanzan pico con una ocupación más baja.** Una célula más sensible a la pérdida de señal (mayor $m$) tiene $f^\ast$ más cerca de cero: $m = 1 \Rightarrow f^\ast = 0.5$; $m = 4 \Rightarrow f^\ast = 0.2$; $m = 9 \Rightarrow f^\ast = 0.1$. El estado redox modificado por la enfermedad, la carga allostérica y la reserva celular base son determinantes plausibles de $m$, lo que haría que la posición del rango de cada paciente cambiara individualmente [@Loth2026website; @Calabrese2021Nrf2].
+2. **Los sistemas más sensibles alcanzan pico con una ocupación más baja.** Una célula más sensible a la pérdida de señal (mayor $m$) tiene $f^\ast$ más cerca de cero: $m = 1 \Rightarrow f^\ast = 0.5$; $m = 4 \Rightarrow f^\ast = 0.2$; $m = 9 \Rightarrow f^\ast = 0.1$. El estado redox modificado por la enfermedad, la carga alostática y la reserva celular base son determinantes plausibles de $m$, lo que haría que la posición del rango de cada paciente cambiara individualmente [@Loth2026website; @Calabrese2021Nrf2].
 3. **$B(0) = 0$ y $B(\infty) = 0$:** un U invertido para cada conjunto de parámetros admisible.
 
 Números ilustrativos ($n = 2$, $m = 2$, así $f^\ast = 1/3$ y $c^\ast = \sqrt{1/2} \approx 0.7$; $K_d$ escalado a 1 mg — parámetros elegidos para ilustrar, no medidos):
@@ -209,7 +209,7 @@ Números ilustrativos ($n = 2$, $m = 2$, así $f^\ast = 1/3$ y $c^\ast = \sqrt{1
 | 3 mg | 3,0 | 0,90 | 0,10 | 0,06 |
 | 4 mg | 4,0 | 0,94 | 0,06 | 0,02 |
 
-Lee la última columna en relación con la hipótesis del superset. Si los efectos se propagaban, la fila de 4 mg contenería el beneficio del 1 mg. En cambio, el modelo coloca el mecanismo del 1 mg en aproximadamente el 2% de su pico a las 4 mg.
+Lee la última columna en relación con la hipótesis del superconjunto. Si los efectos se propagaban, la fila de 4 mg contenería el beneficio del 1 mg. En cambio, el modelo coloca el mecanismo del 1 mg en aproximadamente el 2% de su pico a las 4 mg.
 
 ## C3. El U invertido no es exótico.
 
@@ -222,14 +222,14 @@ Este resultado se refiere a la clase de mecanismo **invertido, hormético** de C
 1. Los mecanismos de beneficio de esta clase son positivos solo en un intervalo de ocupación limitado: $B_i(c) > 0$ requiere $c_i$ en un vecino de $c_i^\ast$ (C2).
 2. La dosis entra en cada mecanismo de manera monótona a través de $c_i = [D]/K_{d,i}$ (P1).
 3. Los objetivos tienen $K_{d,i}$ distintos (P2), por lo que para cualquier mecanismo $i$ en su rango a dosis $D_1$ existen $D_2 > D_1$ en los cuales $B_i(D_2) \approx 0$ mientras que algunos $B_j(D_2) > 0 = B_j(D_1)$ de menor afinidad.
-4. **El conjunto de efectos en $D_2$ no es un superset del conjunto de efectos en $D_1$; es un conjunto diferente.**
+4. **El conjunto de efectos en $D_2$ no es un superconjunto del conjunto de efectos en $D_1$; es un conjunto diferente.**
 
 Corolario para una interpretación experimental: para un mecanismo hormético inversor, un valor nulo en $D_2$ solo prueba el estado que realmente se ejecutaba en $D_2$. No tiene fuerza lógica contra un mecanismo que no se ejecuta durante el ensayo en $D_2$ — y según (1)–(3), todo mecanismo hormético de dosis baja dentro de la ventana no se ejecuta a dosis suficientemente altas.
 
 Dos aclaraciones sobre los límites:
 
 - **Apagado ≠ invertido.** En $D_2$, el paciente se encuentra en la línea base no tratada para el mecanismo $i$, no por debajo de ella. La predicción para una dosis fuera de la ventana es un valor nulo (o efectos de nuevos mecanismos), no una deterioro — lo cual es importante desde el punto de vista clínico para entender cómo deber interpretarse un fracaso con una alta dosis.
-- **Los mecanismos que no se invierten son las excepciones y no constituyen el argumento.** La compensación con opioides (B2) no se extingue dentro de su rango — llega a un límite de síntesis — por lo que un valor nulo a alta dosis *dentro de ese rango* realmente lo prueba. TRPM3 (B3) no está activo en dosis baja, por lo que su beneficio nunca forma parte de una dosis más baja que se transmita. Lo que hace que la inferencia del superset falle para LDN es que el beneficio dominante en dosis baja es el mecanismo hormético inversor (TLR4/Nrf2), que una dosis estándar ya ha superado y pasado — por lo que el valor nulo de la dosis estándar no informa sobre precisamente el mecanismo que es más importante. La tesis del artículo es, por lo tanto, específica: se trata de medicamentos cuyo principal beneficio en dosis baja es hormético, no de medicamentos con un único mecanismo.
+- **Los mecanismos que no se invierten son las excepciones y no constituyen el argumento.** La compensación con opioides (B2) no se extingue dentro de su rango — llega a un límite de síntesis — por lo que un valor nulo a alta dosis *dentro de ese rango* realmente lo prueba. TRPM3 (B3) no está activo en dosis baja, por lo que su beneficio nunca forma parte de una dosis más baja que se transmita. Lo que hace que la inferencia del superconjunto falle para LDN es que el beneficio dominante en dosis baja es el mecanismo hormético inversor (TLR4/Nrf2), que una dosis estándar ya ha superado y pasado — por lo que el valor nulo de la dosis estándar no informa sobre precisamente el mecanismo que es más importante. La tesis del artículo es, por lo tanto, específica: se trata de medicamentos cuyo principal beneficio en dosis baja es hormético, no de medicamentos con un único mecanismo.
 - **El resultado es condicional, no empírico.** Se cumple *si* el mecanismo de beneficio es hormético (acción inhibitoria directa, beneficio = respuesta a la inhibición que se extingue en ocupación total). No depende de los valores de $K_d$, $n$ o $m$, ni de ninguna mapa de objetivo específico. Si el beneficio clínico de LDN es realmente hormético, esa es la pregunta empírica que la Parte D aborda.
 
 ---

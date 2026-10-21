@@ -25,7 +25,7 @@ A analogia do edifício é direta: remover um cadeado de suporte de carga faz co
 
 ## Dois mecanismos estruturais
 
-O quadro identifica dois mecanismos como suportadores de carga com base em suas propriedades auto-sustentáveis e no seu papel necessário na manutenção da doença [Cap. 16 §Paredes suportadoras versus fechaduras secundárias]:
+O quadro identifica dois mecanismos como portantes com base em suas propriedades auto-sustentáveis e no seu papel necessário na manutenção da doença [Cap. 16 §Paredes suportadoras versus fechaduras secundárias]:
 
 **Consolidação epigenética.** O programa de expressão gênica adequado à doença — ativação imunológica, supressão metabólica, sinalização de neurotransmissores alterada — pode se estabilizar através da metilação do DNA e modificações de histona. Uma vez que essa estabilização ocorre, o estado da doença não é mais mantido apenas por sinais ativos; ele é gravado na camada de cromatina. As células expressam o programa da doença não porque ainda recebem os sinais originais, mas porque o registo desses sinais foi codificado no nível da regulação gênica.
 

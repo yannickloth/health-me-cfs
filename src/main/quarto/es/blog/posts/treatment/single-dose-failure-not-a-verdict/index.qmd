@@ -52,7 +52,7 @@ El problema: esta hipótesis solo es verdadera para un medicamento que actúa **
 
 ## La química: por qué una dosis más alta no significa una dosis mayor
 
-La suposición del superset trata una dosis como un control de volumen — más fármaco, más del mismo efecto. Pero la LDN es un fármaco hormético, multiobjetivo, y eso cambia todo.
+La suposición del superconjunto trata una dosis como un control de volumen — más fármaco, más del mismo efecto. Pero la LDN es un fármaco hormético, multiobjetivo, y eso cambia todo.
 
 ### ¿Qué es un receptor y por qué una dosis puede ser demasiado baja
 
@@ -77,7 +77,7 @@ De la química se desprenden dos cosas:
 - **Muy poca droga** no modifica suficiente Keap1 — la señal nunca se activa, Nrf2 permanece unido, sin beneficio.
 - **Demasiada droga** extingue el propio estrés que liberó Nrf2. A 0,5–1,5 mg, TLR4 está solo *parcialmente* bloqueado, por lo que las microglías siguen percibir la señal y activan la respuesta Nrf2. Por encima de ese rango, TLR4 está bloqueado completamente — la célula ya no detecta ningún estrés, Nrf2 permanece unido a Keap1 y el programa antiinflamatorio colapsa. La droga sigue uniendo su receptor; simplemente ha dejado de producir la respuesta adaptativa que la hacía terapéutica.
 
-Así que la hormesis es lo *opuesto* al modelo del superset: existe un rango y superarlo no te da más — simplemente desactiva el beneficio. Para LDN, este "demasiado" es una hipótesis: el mecanismo de hormesis Nrf2 está establecido en toxicología, pero su papel como mecanismo clínico de LDN no.
+Así que la hormesis es lo *opuesto* al modelo del superconjunto: existe un rango y superarlo no te da más — simplemente desactiva el beneficio. Para LDN, este "demasiado" es una hipótesis: el mecanismo de hormesis Nrf2 está establecido en toxicología, pero su papel como mecanismo clínico de LDN no.
 
 Se derivan dos consecuencias, y ambas reflejan el argumento del artículo:
 
@@ -97,7 +97,7 @@ LDN se une a al menos cuatro objetivos moleculares distintos, y se activan en **
 | 3,0–4,5 mg | **Restauración de TRPM3** — el primer beneficio aparece aquí; TLR4/Nrf2 se extinguen | vigilia pronunciada / insomnio |
 | >4,5 mg | ninguno — todos los mecanismos han superado su óptimo; antagonismo de mu-opioides a 50 mg | síntomas similares a la abstinencia de opioides |
 
-![Mecanismos de beneficio de LDN en el eje de dosis: primerización de TLR4/Nrf2 (0.5–1.5 mg), el rebote de endorfinas (1.5–3.0 mg, plataforma preservada hasta 4.5 mg), y restauración de TRPM3 (3.0–4.5 mg), con los puntos de prueba de 1 mg y 4 mg marcados. Las dos pruebas prueban diferentes rangos; a 4 mg, el rango de TLR4/Nrf2 ya se ha cerrado. *Esquema — posiciones del rango según el mapa de bandas de dosis del artículo (que tiene poca certeza); formas y alturas iguales son ilustrativas y no medidas; la disinhibición de orexina se omite para claridad. No son datos empíricos.*](fig5-ldn-windows.svg)
+![Mecanismos de beneficio de LDN en el eje de dosis: primerización de TLR4/Nrf2 (0.5–1.5 mg), el rebote de endorfinas (1.5–3.0 mg, plataforma preservada hasta 4.5 mg), y restauración de TRPM3 (3.0–4.5 mg), con los puntos de prueba de 1 mg y 4 mg marcados. Las dos pruebas prueban diferentes rangos; a 4 mg, el rango de TLR4/Nrf2 ya se ha cerrado. *Esquema — posiciones del rango según el mapa de bandas de dosis del artículo (que tiene poca certeza); formas y alturas iguales son ilustrativas y no medidas; la desinhibición de orexina se omite para claridad. No son datos empíricos.*](fig5-ldn-windows.svg)
 
 ### Una banda de dosis es un valor óptimo, no un interruptor de unión
 
@@ -128,7 +128,7 @@ Los cuatro mecanismos, en su química:
 
 ## ¿Qué es la ciencia establecida y qué es un modelo propuesto
 
-Este es el punto en el que debo distinguir dos cosas muy diferentes: la **ciencia establecida** sobre la cual se basa el argumento del fracaso del superset, y un **modelo matemático que propongo** para hacer ese argumento preciso. La primera está publicada, replicada y citable. La segunda es una hipótesis —mi propia construcción— y la etiquetaré como tal.
+Este es el punto en el que debo distinguir dos cosas muy diferentes: la **ciencia establecida** sobre la cual se basa el argumento del fracaso del superconjunto, y un **modelo matemático que propongo** para hacer ese argumento preciso. La primera está publicada, replicada y citable. La segunda es una hipótesis —mi propia construcción— y la etiquetaré como tal.
 
 ---
 
@@ -164,7 +164,7 @@ Los tres son modelos reales y publicados — pero son *ajustes o mecanismos para
 
 ## Parte B — Un modelo propuesto (hipótesis, no ciencia establecida)
 
-Ahora propongo una forma matemática específica. **Esta es mi construcción — una hipótesis funcional para hacer preciso el argumento de fallo del superset — y NO es una ciencia establecida.** No está en la literatura, no ha sido validada y sus parámetros no se miden. La presento tal como es: un marco.
+Ahora propongo una forma matemática específica. **Esta es mi construcción — una hipótesis funcional para hacer preciso el argumento de fallo del superconjunto — y NO es una ciencia establecida.** No está en la literatura, no ha sido validada y sus parámetros no se miden. La presento tal como es: un marco.
 
 En toda la Parte B, "brazo" significa una de las dos influencias opuestas en la curva que se mueven en direcciones diferentes a medida que aumenta la dosis. Una influencia empuja el beneficio *hacia arriba*; la otra, que solo se vuelve dominante más adelante, lo tira *hacia abajo*. Es la lucha entre estas dos que produce la curva en U invertida. Los dos brazos se nombran a continuación. De la misma manera, $B_{max}$ es el máximo beneficio que la curva *podría* alcanzar si el empuje hacia abajo nunca se produce — un techo, no el valor realmente alcanzado.
 
@@ -208,9 +208,9 @@ $$ B_{total}(D) = \sum_{i} B_{max,i}\, f_i\!\left(\frac{D}{K_{d,i}}\right) \left
 
 Diferentes $K_{d,i}$ colocan las ventanas en regiones separadas del eje de dosis — el contenido matemático de "optimas de dosis no superpuestas". **Estado: hipótesis**, que extiende la hipótesis B2; no existen $K_{d,i}$ ni $m_i$ medidos para los objetivos de LDN.
 
-### B4. El fracaso del superset, condicionado por el modelo
+### B4. El fracaso del superconjunto, condicionado por el modelo
 
-Dentro de este modelo propuesto, el fracaso del superset es demostrable. Particiona el conjunto de objetivos $\{i\}$ en $\{i: K_{d,i} \sim D_{high}\}$ y $\{i: K_{d,i} \sim D_{low}\}$. Luego, con $\varepsilon_{low}(D_{high})$ denotando la contribución restante de los objetivos activos $D_{low}$ en $D_{high}$ — lo cual es despreciable porque las ventanas de esos objetivos se encuentran lejos de $D_{high}$:
+Dentro de este modelo propuesto, el fracaso del superconjunto es demostrable. Particiona el conjunto de objetivos $\{i\}$ en $\{i: K_{d,i} \sim D_{high}\}$ y $\{i: K_{d,i} \sim D_{low}\}$. Luego, con $\varepsilon_{low}(D_{high})$ denotando la contribución restante de los objetivos activos $D_{low}$ en $D_{high}$ — lo cual es despreciable porque las ventanas de esos objetivos se encuentran lejos de $D_{high}$:
 
 $$ B_{total}(D_{high}) = \sum_{i \in \{D_{high}\}} B_{max,i}\,f_i\,(1-f_i)^{m_i} + \underbrace{\varepsilon_{low}(D_{high})}_{\approx 0} $$
 
@@ -218,19 +218,19 @@ Una dosis nula $D_{high}$ limita únicamente la primera suma; los objetivos acti
 
 ### B5. Lo que todo el modelo establece y no establece
 
-Establece (condicionalmente en el modelo): la inferencia del superset es **matemáticamente inválida** para un medicamento multi-target cuyo beneficio es una suma de ventanas de dos brazos no superpuestas. Eso es un teorema del modelo.
+Establece (condicionalmente en el modelo): la inferencia del superconjunto es **matemáticamente inválida** para un medicamento multi-target cuyo beneficio es una suma de ventanas de dos brazos no superpuestas. Eso es un teorema del modelo.
 
 No establece que cualquier dosis de LDN funcione. Los parámetros ($K_{d,i}$, $m_i$, $B_{max,i}$) no están medidos; no existe ningún ensayo de respuesta dosis-respuesta de LDN dentro del rango en ninguna condición. El *valor* del modelo, si lo hay, es como un marco falsable: un ensayo de cuatro brazos dentro del rango (0,5, 1,5, 3,0, 4,5 mg, n ≥ 30, crossover, 8 semanas por dosis) sería el primer test para determinar si las curvas individuales son realmente no monótonas — y solo eso nos diría si esta o cualquier ecuación de hormesis se aplica.
 
-Dos puntos de la tabla se relacionan directamente con el argumento del superset.
+Dos puntos de la tabla se relacionan directamente con el argumento del superconjunto.
 
-**En primer lugar, los objetivos no son intercambiables y su relación beneficio/efecto secundario varía según el rango.** En el rango alto, la restauración de TRPM3 *y* la disinhibición de orexina son ambos mecanismos de *beneficio* candidatos — el artículo lista “patología del canal TRPM3 o déficit de orexina” como factor limitante, y trata la disinhibición de orexina como una mejora en la vigilia y la cognición. La diferencia es que cada mecanismo tiene su propio *optimum*, y superar ese punto convierte el beneficio en efecto secundario: un tono excesivo de orexina pasa de una mejora en la vigilia al insomnio, y una sobrebloqueación de TLR4 apaga la inducción antiinflamatoria. Por lo tanto, los cuatro objetivos no son cuatro palancas intercambiables que se escalan juntas.
+**En primer lugar, los objetivos no son intercambiables y su relación beneficio/efecto secundario varía según el rango.** En el rango alto, la restauración de TRPM3 *y* la desinhibición de orexina son ambos mecanismos de *beneficio* candidatos — el artículo lista “patología del canal TRPM3 o déficit de orexina” como factor limitante, y trata la desinhibición de orexina como una mejora en la vigilia y la cognición. La diferencia es que cada mecanismo tiene su propio *optimum*, y superar ese punto convierte el beneficio en efecto secundario: un tono excesivo de orexina pasa de una mejora en la vigilia al insomnio, y una sobrebloqueación de TLR4 apaga la inducción antiinflamatoria. Por lo tanto, los cuatro objetivos no son cuatro palancas intercambiables que se escalan juntas.
 
 **En segundo lugar, los rumbos de beneficio no se superponen.** El beneficio de TLR4/Nrf2 está en 0,5–1,5 mg y desaparece a partir de 3,0–4,5 mg (la sobrebloqueación de TLR4 lo extingue). El beneficio de TRPM3/orexina aparece en 3,0–4,5 mg. Estos son **ventanas distintas**, no una versión de baja dosis y alta dosis de la misma cosa.
 
 La consecuencia es directa: **una dosis no es un volumen**. Pasar de 1 mg a 4 mg no "contiene" los efectos de 1 mg; en lugar de ello, reemplaza la combinación de objetivos activos por otra combinación. La hormesis TLR4/Nrf2 que opera a 1 mg se *desactiva* a 4 mg, no se amplifica.
 
-Por lo tanto, la hipótesis del superset falla exactamente donde es importante: el mecanismo que podría funcionar a 1 mg no es un subconjunto del que falla a 4 mg; es un *objetivo* *diferente*, con su propia curva.
+Por lo tanto, la hipótesis del superconjunto falla exactamente donde es importante: el mecanismo que podría funcionar a 1 mg no es un subconjunto del que falla a 4 mg; es un *objetivo* *diferente*, con su propia curva.
 
 ---
 
@@ -247,19 +247,19 @@ Un fracaso con 4 mg al menos produce la segunda: la combinación de objetivos qu
 
 Una simple analogía: un medicamento bloquea dos receptores, A y B, con una afinidad 100 veces mayor para A. A dosis baja, se activa solo A — y solo parcialmente. A dosis alta, se activa A *completamente* y también B. Ahora supongamos que el beneficio requiere una activación *parcial* de A (el caso hormético). Un ensayo fallido a alta dosis entonces no prueba nada sobre la dosis baja: el estado beneficioso — la activación parcial de A — nunca ocurrió durante el ensayo a alta dosis; A fue completamente bloqueado y la activación de B no es relevante. Este es el subtipo 4a en [Parte 2](../inverted-u-not-one-thing/) (selección de objetivos dependiente de la concentración), combinado con la U inversa: la selección de objetivos es la razón por la cual 4 mg alcanza objetivos que 1 mg no puede, y la U inversa es la razón por la cual 4 mg *perdiere* el beneficio que 1 mg tenía.
 
-Existe una versión aún más precisa de esto específicamente para la LDN. El antagonismo de TLR4 a dosis clínicas de LDN es incierto: el (+)-naltrexone es un antagonista *fraco* de TLR4, y un derivado optimizado requería un aumento de potencia de ~6.200× para alcanzar un antagonismo de nanomolar de TLR4 [@Gao2025CIAC101TLR4]. Por lo tanto, una dosis de 4 mg puede significar algo más profundo que “este objetivo no es limitante en la tasa”; puede significar que **el objetivo nunca fue realmente activado a ninguna dosis probada**. En ese caso, el resultado de 4 mg no indica nada sobre ningún mecanismo, y la dosis de 1 mg sigue siendo completamente abierta.
+Existe una versión aún más precisa de esto específicamente para la LDN. El antagonismo de TLR4 a dosis clínicas de LDN es incierto: el (+)-naltrexone es un antagonista *débil* de TLR4, y un derivado optimizado requería un aumento de potencia de ~6.200× para alcanzar un antagonismo de nanomolar de TLR4 [@Gao2025CIAC101TLR4]. Por lo tanto, una dosis de 4 mg puede significar algo más profundo que “este objetivo no es limitante en la tasa”; puede significar que **el objetivo nunca fue realmente activado a ninguna dosis probada**. En ese caso, el resultado de 4 mg no indica nada sobre ningún mecanismo, y la dosis de 1 mg sigue siendo completamente abierta.
 
 ---
 
 ## El caso en el que la inferencia es válida
 
-La inferencia de superset **es** válida en un caso específico. Si un medicamento actúa sobre un único objetivo, con una única afinidad y una curva dosis-respuesta monótona (más dosis = más ocupación = más efecto, sin inversión), entonces una falla a dosis alta es suficiente y las dosis más bajas son redundantes. Este es un principio general de farmacología: es la suposición detrás de la determinación de dosis estándar para muchos agentes monótonos con un único objetivo, no es una afirmación específica para LDN ni proviene de la análisis de LDN del artículo.
+La inferencia de superconjunto **es** válida en un caso específico. Si un medicamento actúa sobre un único objetivo, con una única afinidad y una curva dosis-respuesta monótona (más dosis = más ocupación = más efecto, sin inversión), entonces una falla a dosis alta es suficiente y las dosis más bajas son redundantes. Este es un principio general de farmacología: es la suposición detrás de la determinación de dosis estándar para muchos agentes monótonos con un único objetivo, no es una afirmación específica para LDN ni proviene de la análisis de LDN del artículo.
 
-LDN no pertenece a esta categoría. Su curva dosis-respuesta no es monótona: el beneficio aumenta y luego disminuye dentro del rango clínico, con óptimos de objetivo que no se superponen. Para este tipo de molécula, la hipótesis de superset no es un atajo razonable: es precisamente la hipótesis que el ensayo de dosis pretende *probar*, no presuponer.
+LDN no pertenece a esta categoría. Su curva dosis-respuesta no es monótona: el beneficio aumenta y luego disminuye dentro del rango clínico, con óptimos de objetivo que no se superponen. Para este tipo de molécula, la hipótesis de superconjunto no es un atajo razonable: es precisamente la hipótesis que el ensayo de dosis pretende *probar*, no presuponer.
 
 ### La misma falla se aplica a otros medicamentos multi-objectivo
 
-La falla de superset no es un peculiaridad de la naltrexona. Es una consecuencia *estructural* de la forma de la curva dosis-respuesta: para cualquier medicamento cuyo beneficio no sea monótono en dosis, con varios óptimos de objetivo, las dosis no pueden estar anidadas, y una dosis nula en una dosis determinada solo indica algo sobre esa dosis. El catálogo detallado se encuentra en [Parte 2](../inverted-u-not-one-thing/), que enumera dieciocho medicamentos de EM/SFC. Tres ejemplos ilustran este punto de manera concreta.
+La falla de superconjunto no es un peculiaridad de la naltrexona. Es una consecuencia *estructural* de la forma de la curva dosis-respuesta: para cualquier medicamento cuyo beneficio no sea monótono en dosis, con varios óptimos de objetivo, las dosis no pueden estar anidadas, y una dosis nula en una dosis determinada solo indica algo sobre esa dosis. El catálogo detallado se encuentra en [Parte 2](../inverted-u-not-one-thing/), que enumera dieciocho medicamentos de EM/SFC. Tres ejemplos ilustran este punto de manera concreta.
 
 - **Rapamicina** actúa sobre dos complejos de la misma proteína, mTOR. Se une a mTORC1 — que controla la autofagia y el control de calidad celular — con una afinidad mayor que a mTORC2, que controla la supervivencia celular y la señalización de insulina. A dosis bajas intermitentes, inhibe mTORC1 y protege mTORC2, restableciendo la autofagia y suprimiendo la secreción inflamatoria de células senescentes. A dosis diarias más altas, también inhibe mTORC2, y la resistencia a la insulina y la inmunosupresión reemplazan el beneficio metabólico. Una dosis nula en la dosis más alta, donde mTORC2 está activo, no indica nada sobre la dosis baja intermitente que lo protege — lo mismo que las ventanas de TLR4 y TRPM3 de LDN.
 
@@ -283,9 +283,9 @@ Para que un "ningún beneficio en cualquier dosis" sea un veredicto sólido, deb
 
 ## La asimetría que nadie disputa
 
-Existe una señal de que la hipótesis del superset es frágil, y es interna al propio razonamiento. Nadie defiende la dirección opuesta: si 1 mg funciona, *nadie* concluye que 4 mg funcionará. Por el contrario, es bien sabido que una dosis más alta puede *cancelar* un beneficio presente en una dosis baja — precisamente el paradoja documentada en [Parte 1](../more-isnt-better-ldn-lda/).
+Existe una señal de que la hipótesis del superconjunto es frágil, y es interna al propio razonamiento. Nadie defiende la dirección opuesta: si 1 mg funciona, *nadie* concluye que 4 mg funcionará. Por el contrario, es bien sabido que una dosis más alta puede *cancelar* un beneficio presente en una dosis baja — precisamente el paradoja documentada en [Parte 1](../more-isnt-better-ldn-lda/).
 
-Si aceptas que "la dosis baja funciona" **no** predice "la dosis alta funciona" (porque la dosis alta desactiva los mecanismos de la dosis baja), entonces la simetría se rompe: las dosis no son intercambiables en una dirección, y no hay razón para tratarlas como intercambiables en la otra. La hipótesis del superset solo es coherente si ambas direcciones son intercambiables — y no lo son.
+Si aceptas que "la dosis baja funciona" **no** predice "la dosis alta funciona" (porque la dosis alta desactiva los mecanismos de la dosis baja), entonces la simetría se rompe: las dosis no son intercambiables en una dirección, y no hay razón para tratarlas como intercambiables en la otra. La hipótesis del superconjunto solo es coherente si ambas direcciones son intercambiables — y no lo son.
 
 ---
 
@@ -299,7 +299,7 @@ Si aceptas que "la dosis baja funciona" **no** predice "la dosis alta funciona" 
 | El antagonismo de TLR4 a dosis clínicas de LDN es real | Baja — el (+)-naltrexone es un débil antagonista de TLR4; un derivado optimizado necesita ~6.200× mayor potencia para un antagonismo nanomolar [@Gao2025CIAC101TLR4] |
 | Una dosis más alta no necesariamente reproduce los efectos de una dosis más baja | Alta — es una propiedad general de las curvas de dosis-respuesta no monótonas |
 | Un fracaso a 4 mg no implica un fracaso a 1 mg | Moderada — es verdadera si los objetivos se activan en distintos lugares; falsa para un medicamento monótono con un solo objetivo |
-| La hipótesis del superset es válida solo para un medicamento monótono con un solo objetivo | Alta — definición de monotonía y activación de objetivo |
+| La hipótesis del superconjunto es válida solo para un medicamento monótono con un solo objetivo | Alta — definición de monotonía y activación de objetivo |
 | La LDN en sí ha demostrado beneficio clínico en EM/SFC | Baja — ensayo final nulo [@DueBruun2024LDNFibromyalgia], análisis de respuesta nulo [@Nielsen2026LDNFMResponder], meta-análisis nulo [@Ologunowa2025LDNFMMeta]; no hay ensayos RCTs grandes positivos en EM/SFC |
 | La búsqueda de dosis es diagnóstica del mecanismo limitante | Baja a moderada — el marco diagnóstico no ha sido probado prospectivamente (el ensayo HIP-B propuesto) |
 

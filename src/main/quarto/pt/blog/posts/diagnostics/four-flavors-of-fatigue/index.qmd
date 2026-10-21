@@ -1,5 +1,5 @@
 ---
-title: "Os Quatro Sabores de Fadiga que a Medicina Finge Serem Uma Coisa Só"
+title: "Os Quatro Tipos de Fadiga que a Medicina Finge Serem Uma Coisa Só"
 description: "Estou cansado."
 author: "Yannick Loth"
 date: "2026-06-04"
@@ -57,7 +57,7 @@ Especificamente:
 
 4. **O seu corpo pode realizar as atividades, mas você não consegue iniciar?** → Amotivação. Verificar: PHQ-9, rastreio de PHDA, avaliação de anedonia. Considerar: depressão, PHDA, déficit dopaminérgico, burnout.
 
-A maioria dos pacientes tem um sabor dominante, mas elementos de mais de um. Um paciente com EM/SFC geralmente apresenta fatigabilidade (primária) mais fadiga periférica (secundário, devido ao descondicionamento) mais distúrbios do sono (contribuindo) e possível amotivação (devido à depressão causada pela doença crónica). A questão clínica não é qual deles eles têm — é qual é o principal, pois o mecanismo principal determina se o exercício ajuda ou prejudica.
+A maioria dos pacientes tem um tipo dominante, mas elementos de mais de um. Um paciente com EM/SFC geralmente apresenta fatigabilidade (primária) mais fadiga periférica (secundário, devido ao descondicionamento) mais distúrbios do sono (contribuindo) e possível amotivação (devido à depressão causada pela doença crónica). A questão clínica não é qual deles eles têm — é qual é o principal, pois o mecanismo principal determina se o exercício ajuda ou prejudica.
 
 ---
 

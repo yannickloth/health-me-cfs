@@ -1,6 +1,6 @@
 ---
 title: "Por que uma dose mais alta não possui os benefícios de uma dose mais baixa — Ocupação, Signalização Hormética e a justificativa para testar doses mais baixas"
-description: "Um argumento técnico completo para prescritores e leitores interessados: a ligação de ação em massa derivada de princípios fundamentais, a equação Hill–Langmuir e suas suposições, a cascata de sinalização Keap1–Nrf2, um modelo de benefício baseado na ocupação analisado de forma teórica, e o teorema de não propagação resultante. A suposição do superset — que uma dose mais alta reproduz todos os efeitos de uma dose mais baixa — falha para medicamentos cujo benefício em dose baixa dominante é hormético (extinguido em dose mais alta, não amplificado), portanto, um resultado nulo em dose padrão não pode excluir doses mais baixas não testadas."
+description: "Um argumento técnico completo para prescritores e leitores interessados: a ligação de ação em massa derivada de princípios fundamentais, a equação Hill–Langmuir e suas suposições, a cascata de sinalização Keap1–Nrf2, um modelo de benefício baseado na ocupação analisado de forma teórica, e o teorema de não propagação resultante. A suposição do superconjunto — que uma dose mais alta reproduz todos os efeitos de uma dose mais baixa — falha para medicamentos cujo benefício em dose baixa dominante é hormético (extinguido em dose mais alta, não amplificado), portanto, um resultado nulo em dose padrão não pode excluir doses mais baixas não testadas."
 author: "Yannick Loth"
 date: "2026-09-04"
 categories: [Treatment, Pharmacology, ME/CFS]
@@ -11,7 +11,7 @@ Uma conclusão comum na prescrição: o ensaio utilizou a dose padrão e falhou;
 
 Para um medicamento que atua num único alvo com uma relação dose-resposta monotonica, a suposição é correta. Para um medicamento cujo benefício em doses baixas é uma resposta compensatória à participação parcial do alvo — o caso hormético, que o naltrexona em doses baixas (LDN) exemplifica através de seu mecanismo TLR4/Nrf2 — a suposição é falsa de uma maneira específica e quantificável. Este artigo desenvolve completamente o argumento: a química de ligação derivada de princípios fundamentais, a biologia de sinalização, a matemática analisada de forma analítica e as evidências do ensaio. A afirmação em questão é limitada:
 
-> **A hipótese do superset:** os efeitos de uma dose mais baixa são um subconjunto dos efeitos de uma dose mais alta. Portanto, um resultado nulo numa dose mais alta falsifica todas as doses mais baixas.
+> **A hipótese do superconjunto:** os efeitos de uma dose mais baixa são um subconjunto dos efeitos de uma dose mais alta. Portanto, um resultado nulo numa dose mais alta falsifica todas as doses mais baixas.
 
 A estrutura: Parte A deriva o quadro de ocupação a partir da cinética de ação de massa e especifica suas suposições exatamente. Parte B descreve a biologia dos mecanismos de doses baixas do LDN e os classifica por comportamento de dose — a hormética invertida TLR4/Nrf2, a compensação monótona de opioides e o alvo TRPM3 de limiar. Parte C modela a classe invertida, analisa suas propriedades de forma analítica e afirma o resultado de não propagação. Parte D examina as evidências do ensaio. Parte E apresenta a proposta clínica e os limites. Leitores familiarizados com farmacocinética podem passar para a Parte C; as derivações estão incluídas para que cada etapa possa ser verificada em vez de ser afirmada.
 
@@ -128,7 +128,7 @@ Este artigo desenvolve estes três mecanismos, que sustentam o argumento de test
 **A cascata.** O antagónio parcial do TLR4 reduz o fluxo de sinais de perigo por uma quantidade modesta e sustentada. O programa Keap1–Nrf2–ARE é a resposta oxidativa/inflamatória principal da célula:
 
 1. **Base:** a proteína adaptadora rica em cisteína Keap1 liga o fator de transcrição Nrf2 no citoplasma, funcionando como um adaptador de substrato que direciona o Nrf2 para a ubiquitinação dependente de Cullin-3 e a degradação proteasomal. A meia-vida do Nrf2 é curta; o caminho está desativado.
-2. **Deteção de stress:** o stress oxidativo ou eletrofílico leve modifica resíduos reativos específicos de cisteína na Keap1 (entre eles Cys151). Isso perturba allostericamente o complexo de ubiquitinação Keap1–Nrf2; o Nrf2 recém-sintetizado acumula-se.
+2. **Deteção de stress:** o stress oxidativo ou eletrofílico leve modifica resíduos reativos específicos de cisteína na Keap1 (entre eles Cys151). Isso perturba alostericamente o complexo de ubiquitinação Keap1–Nrf2; o Nrf2 recém-sintetizado acumula-se.
 3. **Programa nuclear:** o Nrf2 transloca-se para o núcleo, heterodimeriza com pequenas proteínas Maf e liga-se a elementos de resposta antioxidante (ARE), induzindo várias centenas de genes protetores celulares: HO-1, NQO1, GCLC/GCLM (síntese de glutationa) e efeitos anti-inflamatórios, incluindo a mudança do fenótipo microglial M1→M2.
 4. **Terminação:** os genes induzidos incluem o próprio Keap1 (filtro negativo), fechando o ciclo.
 
@@ -197,7 +197,7 @@ $$c^{\ast n} = \frac{1}{m} \quad\Longrightarrow\quad \boxed{\,c^\ast = m^{-1/n}\
 Três observações, nenhuma dependente de parâmetros:
 
 1. **O pico está sempre dentro da região de ocupação parcial** — $0 < f^\ast < 1$ para cada $m$ finito. Um máximo de benefício hormético em ocupação total é uma impossibilidade matemática nesta família de modelos: como $f \to 1$, o fator $(1-f)^m \to 0$ domina e $B \to 0$.
-2. **Sistemas mais sensíveis atingem um pico com ocupação menor.** Uma célula mais sensível à perda de sinal (maior $m$) tem $f^\ast$ mais próximo de zero: $m = 1 \Rightarrow f^\ast = 0.5$; $m = 4 \Rightarrow f^\ast = 0.2$; $m = 9 \Rightarrow f^\ast = 0.1$. O estado redox modificado por doença, a carga allostérica e a reserva celular de base são determinantes plausíveis de $m$, o que mudaria a posição da janela de cada paciente individualmente [@Loth2026website; @Calabrese2021Nrf2].
+2. **Sistemas mais sensíveis atingem um pico com ocupação menor.** Uma célula mais sensível à perda de sinal (maior $m$) tem $f^\ast$ mais próximo de zero: $m = 1 \Rightarrow f^\ast = 0.5$; $m = 4 \Rightarrow f^\ast = 0.2$; $m = 9 \Rightarrow f^\ast = 0.1$. O estado redox modificado por doença, a carga alostática e a reserva celular de base são determinantes plausíveis de $m$, o que mudaria a posição da janela de cada paciente individualmente [@Loth2026website; @Calabrese2021Nrf2].
 3. **$B(0) = 0$ e $B(\infty) = 0$:** um U invertido para cada conjunto de parâmetros admissível.
 
 Números ilustrativos ($n = 2$, $m = 2$, assim $f^\ast = 1/3$ e $c^\ast = \sqrt{1/2} \approx 0.7$; $K_d$ escalado para 1 mg — parâmetros escolhidos para ilustração, não medidos):
@@ -209,7 +209,7 @@ Números ilustrativos ($n = 2$, $m = 2$, assim $f^\ast = 1/3$ e $c^\ast = \sqrt{
 | 3 mg | 3,0 | 0,90 | 0,10 | 0,06 |
 | 4 mg | 4,0 | 0,94 | 0,06 | 0,02 |
 
-Leia a última coluna em relação à hipótese do superset. Se os efeitos se propagassem, a linha de 4 mg conteria o benefício de 1 mg. Em vez disso, o modelo coloca o mecanismo de 1 mg em aproximadamente 2% do seu pico após 4 mg.
+Leia a última coluna em relação à hipótese do superconjunto. Se os efeitos se propagassem, a linha de 4 mg conteria o benefício de 1 mg. Em vez disso, o modelo coloca o mecanismo de 1 mg em aproximadamente 2% do seu pico após 4 mg.
 
 ## C3. O U invertido não é exótico
 
@@ -222,14 +222,14 @@ Este resultado diz respeito à classe de mecanismo **invertido, hormético** da 
 1. Os mecanismos de benefício desta classe são positivos apenas num intervalo de ocupação limitado: $B_i(c) > 0$ requer $c_i$ num bairro de $c_i^\ast$ (C2).
 2. A dose entra em cada mecanismo de forma monótica através de $c_i = [D]/K_{d,i}$ (P1).
 3. Os alvos têm $K_{d,i}$ distintos (P2), portanto, para qualquer mecanismo $i$ em sua janela à dose $D_1$, existem $D_2 > D_1$ em que $B_i(D_2) \approx 0$, enquanto algum $B_j(D_2) > 0 = B_j(D_1)$ de menor afinidade.
-4. **O conjunto de efeitos em $D_2$ não é um superset do conjunto de efeitos em $D_1$; é um conjunto diferente.**
+4. **O conjunto de efeitos em $D_2$ não é um superconjunto do conjunto de efeitos em $D_1$; é um conjunto diferente.**
 
 Corolário para interpretação experimental: para um mecanismo hormético inversor, um valor nulo em $D_2$ testa apenas o estado que realmente está em funcionamento em $D_2$. Não tem força lógica contra um mecanismo que não funciona durante o $D_2$ experimental — e, de acordo com (1)–(3), todo mecanismo hormético de baixa dose dentro da janela não está em funcionamento em doses suficientemente altas.
 
 Duas esclarecimentos de limites:
 
 - **Desligado ≠ invertido.** Em $D_2$, o paciente está na linha de base não tratada para o mecanismo $i$, não abaixo dela. A previsão para uma dose além da janela é um valor nulo (ou efeitos de novo mecanismo), não uma deterioração — o que é importante clinicamente para entender como um fracasso em dose alta deve ser interpretado.
-- **Os mecanismos que não invertem são exceções, e não constituem o argumento.** A compensação com opióides (B2) não se extingue dentro de sua faixa — atinge um limite de síntese —, portanto um valor nulo em alta dose *dentro dessa faixa* realmente testa esse mecanismo. TRPM3 (B3) não está ativo em baixa dose, portanto seu benefício nunca faz parte de uma dose mais baixa a ser propagada. O que faz a inferência do superset falhar para a LDN é que o benefício dominante em baixa dose é o hormético inversor (TLR4/Nrf2), que a dose padrão já superou e passou — assim, o valor nulo da dose padrão é não informativo sobre o mecanismo que é mais importante. A tese do artigo é, portanto, específica: trata-se de medicamentos cujo principal benefício em baixa dose é hormético, e não de medicamentos com mecanismo monótono único.
+- **Os mecanismos que não invertem são exceções, e não constituem o argumento.** A compensação com opióides (B2) não se extingue dentro de sua faixa — atinge um limite de síntese —, portanto um valor nulo em alta dose *dentro dessa faixa* realmente testa esse mecanismo. TRPM3 (B3) não está ativo em baixa dose, portanto seu benefício nunca faz parte de uma dose mais baixa a ser propagada. O que faz a inferência do superconjunto falhar para a LDN é que o benefício dominante em baixa dose é o hormético inversor (TLR4/Nrf2), que a dose padrão já superou e passou — assim, o valor nulo da dose padrão é não informativo sobre o mecanismo que é mais importante. A tese do artigo é, portanto, específica: trata-se de medicamentos cujo principal benefício em baixa dose é hormético, e não de medicamentos com mecanismo monótono único.
 - **O resultado é condicional, não empírico.** Ele se aplica *se* o mecanismo de benefício é hormético (ação direta inibitória, benefício = resposta à inibição que se extingue na ocupação total). Não depende dos valores de $K_d$, $n$ ou $m$, nem de qualquer mapa de alvo específico. Se o benefício clínico da LDN é, de facto, hormético, é a questão empírica que a Parte D aborda.
 
 ---

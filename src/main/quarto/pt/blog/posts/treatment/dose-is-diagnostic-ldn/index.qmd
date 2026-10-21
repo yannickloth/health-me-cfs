@@ -17,7 +17,7 @@ A interpretação clínica padrão desta trajetória é que 3,0 mg foi “demasi
 
 Os efeitos terapêuticos do LDN na EM/SFC vêm de quatro mecanismos:
 
-1. **TLR4 → Nrf2 priming hormético** — o bloqueio parcial do TLR4 desencadeia a expressão de genes anti-inflamatórios compensatórios através do Nrf2. Exige um tom residual de TLR4. O pico ocorre entre 0,5–1,5 mg. Diminui quando o TLR4 é excessivamente bloqueado.
+1. **TLR4 → Nrf2 cebamento hormético** — o bloqueio parcial do TLR4 desencadeia a expressão de genes anti-inflamatórios compensatórios através do Nrf2. Exige um tom residual de TLR4. O pico ocorre entre 0,5–1,5 mg. Diminui quando o TLR4 é excessivamente bloqueado.
 
 2. **Aumento compensatório de opioides** — o bloqueio dos recetores opioides faz com que o corpo produza mais opioides endógenos (beta-endorfina, met-enkephalina). O limite é definido pela expressão de precursores, não pela dose do LDN. Ativo entre 1,5–3,0 mg, mantido em 4,5 mg.
 
@@ -33,19 +33,19 @@ Cada mecanismo tem a sua própria curva dose-resposta. As curvas não partilham 
 
 ### Padrão 1: Benefício em 0,5–1,5 mg, perda em 3,0–4,5 mg
 
-**O que isso significa.** O seu mecanismo dominante é o priming hormético TLR4/Nrf2. Em doses baixas, o bloqueio parcial da TLR4 desencadeia uma mudança nas microglia de M1 para M2 mediada por Nrf2 — o programa anti-inflamatório das células é ativado, reduzindo a produção de citocinas e resolvendo a neuroinflamação. A partir de 3,0 mg e acima, a TLR4 é bloqueada de forma completa. A célula não detecta mais o sinal de estresse inflamatório. O Nrf2 permanece ligado à Keap1, os genes anti-inflamatórios são desativados e o benefício desaparece.
+**O que isso significa.** O seu mecanismo dominante é o cebamento hormético TLR4/Nrf2. Em doses baixas, o bloqueio parcial da TLR4 desencadeia uma mudança nas microglia de M1 para M2 mediada por Nrf2 — o programa anti-inflamatório das células é ativado, reduzindo a produção de citocinas e resolvendo a neuroinflamação. A partir de 3,0 mg e acima, a TLR4 é bloqueada de forma completa. A célula não detecta mais o sinal de estresse inflamatório. O Nrf2 permanece ligado à Keap1, os genes anti-inflamatórios são desativados e o benefício desaparece.
 
 **O que isso diz sobre a sua doença.** A sua neuroinflamação é impulsionada pela TLR4, e não pela TRPM3 ou modulada por opioides. As suas microglia são responsivas ao Nrf2 — a mecânica compensatória funciona, mas precisa do sinal correto para ser ativada. A largura da sua janela (perda em 1,0 mg vs perda em 2,5 mg) estima a reserva de transcrição do Nrf2: uma janela estreita indica uma reserva baixa.
 
 **O que isso prediz.** Você deve responder a outros medicamentos que ativam o Nrf2 — sulforafano, melatonina em baixa dose, lítio em baixa dose — porque eles convergem para a mesma via Keap1-Nrf2. A largura da sua janela para o LDN prediz a largura da sua janela para esses medicamentos dentro do grupo Nrf2.
 
-**O que fazer.** Mantenha a dose baixa eficaz. Não aumente a dose — a escalada é contraproducente e não necessária. O mecanismo que faz o LDN funcionar para você é a janela hormética. Você não pode “superar” a perda de benefício aumentando ainda mais a dose — a janela não reaparece em doses mais altas porque o priming do Nrf2 requer um tom residual da TLR4, e esse tom desapareceu.
+**O que fazer.** Mantenha a dose baixa eficaz. Não aumente a dose — a escalada é contraproducente e não necessária. O mecanismo que faz o LDN funcionar para você é a janela hormética. Você não pode “superar” a perda de benefício aumentando ainda mais a dose — a janela não reaparece em doses mais altas porque o cebamento do Nrf2 requer um tom residual da TLR4, e esse tom desapareceu.
 
 ---
 
 ### Padrão 2: Nenhum benefício em 0,5–1,5 mg, benefício em 3,0–4,5 mg
 
-**O que isso significa.** O seu mecanismo dominante é ou a restauração do canal iónico TRPM3 ou a desinibição da orexina. O preparo TLR4/Nrf2 não foi ativado em dose baixa — seja porque o seu nível de TLR4 é muito alto para que o bloqueio parcial ative Nrf2, seja porque a sua reserva de Nrf2 está muito esgotada para gerar uma resposta compensatória. Mas em 3,0–4,5 mg, ou os canais TRPM3 são restaurados (melhorando a função das células NK e a sinalização de cálcio dos neurónios sensoriais) ou a desinibição da orexina entra em ação (melhorando a vigília e a cognição), e você obtém benefício.
+**O que isso significa.** O seu mecanismo dominante é ou a restauração do canal iónico TRPM3 ou a desinibição da orexina. O cebamento TLR4/Nrf2 não foi ativado em dose baixa — seja porque o seu nível de TLR4 é muito alto para que o bloqueio parcial ative Nrf2, seja porque a sua reserva de Nrf2 está muito esgotada para gerar uma resposta compensatória. Mas em 3,0–4,5 mg, ou os canais TRPM3 são restaurados (melhorando a função das células NK e a sinalização de cálcio dos neurónios sensoriais) ou a desinibição da orexina entra em ação (melhorando a vigília e a cognição), e você obtém benefício.
 
 **O que isso diz sobre a sua doença.** A sua patologia é de nível de canal, não impulsionada por inflamação — ou pelo menos não impulsionada por inflamação através da TLR4. Se o TRPM3 for o mecanismo dominante, você tem a patologia de canal TRPM3 documentada em EM/SFC. Medicamentos que reduzem a inflamação sem afetar o TRPM3 podem não ajudá-lo. Se a desinibição da orexina for dominante, o seu benefício vem da melhoria da vigília e da cognição — afetando principalmente a névoa cerebral e a alerta, não a disfunção imunitária subjacente.
 
@@ -69,7 +69,7 @@ Cada mecanismo tem a sua própria curva dose-resposta. As curvas não partilham 
 
 ### Padrão 4: Forma M — benefício em 0,5 mg, perda em 1,5 mg, retorno em 4,5 mg
 
-**O que isso significa.** Existem dois mecanismos limitadores da taxa que podem ser abordados pelo mesmo medicamento em doses diferentes. O primeiro pico é a janela hormonal TLR4/Nrf2. A queda em 1,5 mg é uma sobre-bloqueio da TLR4 que extingue o priming de Nrf2. O retorno em 4,5 mg é um mecanismo diferente — restauração do TRPM3 ou compensação por opioides — que atua numa concentração mais alta.
+**O que isso significa.** Existem dois mecanismos limitadores da taxa que podem ser abordados pelo mesmo medicamento em doses diferentes. O primeiro pico é a janela hormética TLR4/Nrf2. A queda em 1,5 mg é um excesso de bloqueio da TLR4 que extingue o cebamento do Nrf2. O retorno em 4,5 mg é um mecanismo diferente — restauração do TRPM3 ou compensação por opioides — que atua numa concentração mais alta.
 
 **O que isso diz sobre a sua doença.** A sua patologia é multi-mecanismo, o que é extremamente informativo. Tanto a neuroinflamação impulsionada pela TLR4 quanto a canalopatia do TRPM3 (ou deficiência de opioides) estão a contribuir. Os dois mecanismos são dissociáveis por dose — uma separação experimental clara que a maioria dos padrões de mecanismo único dos pacientes não pode oferecer.
 
@@ -107,9 +107,9 @@ Especificamente para a LDN, o bloqueio temporário dos recetores opioides em mic
 
 A mesma lógica aplica-se à via Nrf2. O bloqueio parcial do TLR4 desencadeia uma sinalização oxidativa que deveria ativar a expressão gênica anti-inflamatória mediada por Nrf2. Mas se o equilíbrio redox da célula já está precário — se as espécies reativas de oxigénio de base já estão elevadas e as reservas de glutationa estão esgotadas — a perturbação oxidativa inicial, mesmo leve, pode levar a célula a ultrapassar seu limite de tolerância ao estresse antes que Nrf2 tenha tempo de executar seu programa protetor. A janela hormética colapsa antes de se abrir.
 
-Este quadro reestima as exacerbações por microdoses não como intolerância a medicamento no sentido convencional, mas como um descompasso entre a magnitude da perturbação e a capacidade adaptativa do sistema naquele momento. Prevê-se que o mesmo paciente que exacerba com 0,5 mg hoje possa tolerar 0,25 mg e, gradualmente, expandir sua janela hormética ao longo de semanas, à medida que sua infraestrutura celular se adapta. Também prevê-se que os pacientes com maior carga allostática — os casos mais graves — sejam mais propensos a exacerbar em microdoses, não porque o medicamento está errado, mas porque sua capacidade de amortecimento é mais limitada.
+Este quadro reestima as exacerbações por microdoses não como intolerância a medicamento no sentido convencional, mas como um descompasso entre a magnitude da perturbação e a capacidade adaptativa do sistema naquele momento. Prevê-se que o mesmo paciente que exacerba com 0,5 mg hoje possa tolerar 0,25 mg e, gradualmente, expandir sua janela hormética ao longo de semanas, à medida que sua infraestrutura celular se adapta. Também prevê-se que os pacientes com maior carga alostática — os casos mais graves — sejam mais propensos a exacerbar em microdoses, não porque o medicamento está errado, mas porque sua capacidade de amortecimento é mais limitada.
 
-Esta é a condição prévia para os cinco padrões de diagnóstico descritos acima. Se um paciente não puder entrar na janela hormética em qualquer dose, a leitura diagnóstica não é um número de padrão, mas uma observação fundamental: a capacidade adaptativa do sistema está atualmente abaixo do limite necessário para gerar uma resposta compensatória. A tarefa clínica muda de encontrar a dose para construir a infraestrutura — reduzindo a carga allostática através de ritmo, restauração do sono e apoio metabólico — antes de reintroduzir o sinal farmacológico.
+Esta é a condição prévia para os cinco padrões de diagnóstico descritos acima. Se um paciente não puder entrar na janela hormética em qualquer dose, a leitura diagnóstica não é um número de padrão, mas uma observação fundamental: a capacidade adaptativa do sistema está atualmente abaixo do limite necessário para gerar uma resposta compensatória. A tarefa clínica muda de encontrar a dose para construir a infraestrutura — reduzindo a carga alostática através de ritmo, restauração do sono e apoio metabólico — antes de reintroduzir o sinal farmacológico.
 
 ---
 
@@ -140,6 +140,6 @@ O modelo é falsificável. Um estudo de dose-resposta de quatro braços (0,5; 1,
 
 ---
 
-*Esta publicação se baseia no quadro de dose-resposta hormética da LDN desenvolvido em [Loth 2026](https://yannickloth.github.io/health-me-cfs/), que foi desencadeado pela observação clínica de Kevin Lee de que doses mais altas de LDN podem produzir menos benefício do que doses mais baixas. O mecanismo de exacerbação por micro-dose — o excesso homeostático em sistemas com capacidade de tamponamento comprometida — se baseia na explicação de Lee sobre por que as curvas de dose-resposta hormética são moduladas pelo estado de redox, pela carga allostática e pela reserva celular base. Para a cadeia mecânica completa — incluindo a cadeia de dose-resposta de quatro mecanismos, o padrão diagnóstico de U invertido e o quadro de hormesia de 17 medicamentos — consulte o artigo principal.*
+*Esta publicação se baseia no quadro de dose-resposta hormética da LDN desenvolvido em [Loth 2026](https://yannickloth.github.io/health-me-cfs/), que foi desencadeado pela observação clínica de Kevin Lee de que doses mais altas de LDN podem produzir menos benefício do que doses mais baixas. O mecanismo de exacerbação por micro-dose — o excesso homeostático em sistemas com capacidade de tamponamento comprometida — se baseia na explicação de Lee sobre por que as curvas de dose-resposta hormética são moduladas pelo estado de redox, pela carga alostática e pela reserva celular base. Para a cadeia mecânica completa — incluindo a cadeia de dose-resposta de quatro mecanismos, o padrão diagnóstico de U invertido e o quadro de hormesia de 17 medicamentos — consulte o artigo principal.*
 
 *Antecedente: [O U invertido não é uma única coisa: Quatro maneiras em que um medicamento pode deixar de funcionar quando a dose é aumentada](../inverted-u-not-one-thing/) · Início da série: [Por que mais não é melhor: O paradoxo de dose-resposta na LDN e LDA](../more-isnt-better-ldn-lda/) · Série: [Parte 4: A farmacopeia](../pharmacopoeia-dose-meaning/) · [Parte 5: Como realizar um estudo de identificação de dose](../dose-finding-protocols/)*

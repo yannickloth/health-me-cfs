@@ -47,7 +47,7 @@ Numa baixa concentração, apenas uma pequena parte dos recetores D2 é ocupada.
 
 À medida que a concentração aumenta, o medicamento ocupa cada vez mais recetores. Depois de um ponto — aproximadamente metade dos recetores ocupados — o equilíbrio muda. Agora, o aripiprazol substitui a dopamina na maioria dos locais. Em vez de reabastecer alguns recetores ociosos, ele silencia um sistema de sinalização que precisa estar ativo. O agonismo líquido torna-se antagonismo líquido, e o efeito terapêutico inverte [@Loth2026mecfs].
 
-Não existe um segundo mecanismo de “dose alta” separado que cause danos. É o mesmo mecanismo que opera após seu próprio ponto de virada: o agonista parcial tornou-se um antagonista ao deslocar o agonista completo.
+Não existe um segundo mecanismo de “dose alta” separado que cause danos. É o mesmo mecanismo que opera após seu próprio ponto de viragem: o agonista parcial tornou-se um antagonista ao deslocar o agonista completo.
 
 É por isso que mais não é uma versão mais intensa de menos. O efeito de um agonista parcial está limitado. Uma vez que cada recetor disponível já está ocupado em 25–30%, adicionar mais medicamento não pode elevar o sinal ainda mais — só pode começar a substituir a dopamina nos locais que estavam a funcionar melhor por conta própria. Após a saturação, aumentar a concentração não aumenta o efeito da dose baixa. Ele a destrói.
 

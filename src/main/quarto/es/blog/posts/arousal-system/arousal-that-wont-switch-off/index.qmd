@@ -1,5 +1,5 @@
 ---
-title: "Conectado pero cansado: excitación que no se apaga"
+title: "Acelerado pero cansado: excitación que no se apaga"
 description: "Estar agotado pero incapaz de dormir no significa que no tengas sueño. Nombrarlo lo hace sometible a pruebas."
 author: "Yannick Loth"
 date: "2026-09-19"
@@ -7,15 +7,15 @@ categories: [Arousal system, Noradrenergic, Mechanisms]
 lang: es
 ---
 
-“Conectado pero cansado” es una de las descripciones más comunes que dan los pacientes, y también una de las menos analizadas. Estás agotado, pero tu sistema no se detiene. No puedes dormir, ni relajarte, incluso cuando no quede energía.
+“Acelerado pero cansado” es una de las descripciones más comunes que dan los pacientes, y también una de las menos analizadas. Estás agotado, pero tu sistema no se detiene. No puedes dormir, ni relajarte, incluso cuando no quede energía.
 
 Es fácil clasificarlo bajo “insomnio” o “ansiedad”. Una idea más específica es que se trata de un **desajuste de excitación**: el sistema que enciende y apaga la excitación no puede realizar la transición que debería hacer.
 
 La noradrenalina es uno de los principales interruptores de excitación del cerebro. Si su producción es baja —y, probablemente, está mal regulada (la desregulación no se mide en EM/SFC)—, el sistema puede fallar en apagar la excitación en el momento adecuado, generando el estado de agotamiento pero hiperexcitado (@OsorioForero2021NoradrenergicNREM; @Luthi2025MicroarousalsNoradrenaline).
 
-Esto es distinto al estado de somnolencia en el marco de los “cuatro sabores de la fatiga”. Allí, una persona no puede dormir porque realmente no está somnolida. Aquí, están profundamente cansados, pero incapaces de desactivarse.
+Esto es distinto al estado de somnolencia en el marco de los “cuatro formas de fatiga”. Allí, una persona no puede dormir porque realmente no está somnolida. Aquí, están profundamente cansados, pero incapaces de desactivarse.
 
-**Debemos tener cuidado.** “Conectado pero cansado” no es prueba de una lesión en la noradrenalina. La hiperexcitación también puede provenir de citocinas inflamatorias, un eje de estrés desregulado (HPA), ansiedad o hipersensibilidad sensorial. Así que esto es un candidato, no un diagnóstico.
+**Debemos tener cuidado.** “Acelerado pero cansado” no es prueba de una lesión en la noradrenalina. La hiperexcitación también puede provenir de citocinas inflamatorias, un eje de estrés desregulado (HPA), ansiedad o hipersensibilidad sensorial. Así que esto es un candidato, no un diagnóstico.
 
 **Cómo probarlo.** Si se trata de un fallo en la transición de excitación, entonces las medidas de control de excitación —dinámica de las pupilas, latencia para dormir con presión de sueño preservada— deberían diferir en pacientes que reportan este patrón, y deberían seguir la vía de la noradrenalina. Es una predicción verificable.
 

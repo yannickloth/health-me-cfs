@@ -27,7 +27,7 @@ Lee los tres artículos en orden:
 
 1. **[MCAS y EM/SFC: ¿Por qué tu cuerpo reacciona a nada?](../mast-cell-mcas/mcas-mecfs-overview/index.qmd)** — qué es MCAS, por qué aparece después de EM/SFC (no antes) y la diferencia entre MCAS por sí mismo y EM/SFC con MCAS.
 2. **[Antihistamínicos para EM/SFC y MCAS: H1 vs H2, y por qué tu médico aumenta la dosis](../mast-cell-mcas/antihistamines-mcas-mecfs-treatment/index.qmd)** — los medicamentos, histamina y sus receptores, y los estabilizadores.
-3. **[Cuando el antihistamínico no funciona](../mast-cell-mcas/when-antihistamine-doesnt-work/index.qmd)** — pruebas normales, intolerancia a histamina, los "sabores" de los mastocitos, el mecanismo de amplificación y qué hacer a continuación.
+3. **[Cuando el antihistamínico no funciona](../mast-cell-mcas/when-antihistamine-doesnt-work/index.qmd)** — pruebas normales, intolerancia a histamina, los "subtipos" de los mastocitos, el mecanismo de amplificación y qué hacer a continuación.
 
 ---
 
