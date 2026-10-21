@@ -21,6 +21,7 @@ All pipelines are skills or agents. Invoke via `/skill-name`.
 | `/typst-write` | "write/edit [file].typ" · "create a typst file with valid syntax" |
 | `/review-english-prose-style` | "review prose style" · "de-AI-ify prose" · "naturalize english text" |
 | `/file-pdf` | "file this PDF" · "move [paper] into Literature/" · "rename PDF to bib key" |
+| `/review-translation <file>` | "review translation [X]" · "audit [de/fr] translation" · "translation QA" |
 
 ## Agents (Direct Invocation)
 
