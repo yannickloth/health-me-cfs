@@ -1,5 +1,5 @@
 ---
-title: "La estimulación muscular eléctrica no es un regalo gratis"
+title: "La estimulación muscular eléctrica no sale gratis"
 description: "Las clínicas ofrecen EMS como 'ejercicio pasivo' para personas que no pueden hacer ejercicio. Esto podría activar la misma vía implicada en el malestar post-esfuerzo — y no ha habido ningún estudio que lo comprobara."
 author: "Yannick Loth"
 date: "2026-10-15"
