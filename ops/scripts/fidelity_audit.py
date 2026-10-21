@@ -78,6 +78,19 @@ FALSE_FRIENDS: dict[str, list[tuple[str, str, str]]] = {
         (r"\bassist(?:ed|ing|s)?\b", r"\basist(?:e|ir|iendo|ido)\b", "ES 'asistir' = 'to attend'"),
         (r"\bconstipat(?:ed|ion)\b", r"\bconstipad[oa]\b", "ES/PT 'constipado' check target idiom"),
         (r"\bintoxicated\b", r"\bintoxicad[oa]\b", "EN 'intoxicated' = drunk; ES 'intoxicado' = poisoned"),
+        # Calque-audit classes (2026-10-21 sweep). Each fires only when the EN
+        # figure and the defective rendering share a block.
+        (r"\bmasking\b", r"\bmascar\b", "ES 'mascar' = to chew; masking = 'enmascarar'"),
+        (r"\bpriming\b", r"\bpreparad[oa]\b", "ES 'priming' (pharmacology) = 'cebado', not 'preparado'"),
+        (r"\bflavou?rs?\b", r"\bsabores?\b", "ES 'sabor' = taste; 'flavour' (variety) = 'tipo/variante'"),
+        (r"\ballostatic\b", r"\balloster", "double-l 'alloster…' is not Spanish: allostatic = 'alostático', allosteric = 'alostérico'"),
+        (r"\benvelope\b", r"sobre energético|\bdel sobre\b|\bel sobre\b", "energy envelope = 'envolvente (energética)', not 'sobre'"),
+        (r"\bhangover\b", r"efecto secundario", "hangover = 'resaca', not 'efecto secundario'"),
+        (r"tipping point", r"punto de partida", "tipping point = 'punto de inflexión'; 'punto de partida' = starting point (inverts the claim)"),
+        (r"\bbaseline\b", r"punto de partida", "baseline (measurement) = 'línea base'"),
+        (r"\bcompounds\b", r"compit[ei]\b", "'X compounds Y' = X worsens Y ('agrava'), not 'compite' (competes)"),
+        (r"disinhibition", r"disinhibici", "'disinhibición' is not a Spanish word: 'desinhibición'"),
+        (r"\ballopregnanolone\b", r"allopregnanolona", "transliteration drops one l: 'alopregnanolona'"),
     ],
     "pt": [
         (r"\bactually\b", r"\batualmente\b", "PT 'atualmente' = 'currently', not 'actually'"),
@@ -87,6 +100,14 @@ FALSE_FRIENDS: dict[str, list[tuple[str, str, str]]] = {
         (r"\bassist(?:ed|ing|s)?\b", r"\bassist(?:e|iu|indo|ido)\b", "PT 'assistir' = to watch/attend"),
         (r"\bconstipat(?:ed|ion)\b", r"\bconstipad[oa]\b", "PT 'constipado' = a cold, not constipation"),
         (r"\bsoap\b", r"\bsopa\b", "PT 'sopa' = soap; EN soup is 'sopa' too, check sense"),
+        # Calque-audit classes (2026-10-21 sweep).
+        (r"\bflavou?rs?\b", r"\bsabores?\b", "PT 'sabor' = taste; 'flavour' (variety) = 'tipo'"),
+        (r"\bpriming\b", r"\bpreparo\b", "PT 'priming' (pharmacology) = 'cebamento', not 'preparo'"),
+        (r"\bprovable\b", r"\bprovável\b", "PT 'provável' = probable; provable = 'demonstrável'"),
+        (r"\ballostatic\b", r"\balloster", "double-l 'alloster…' is not Portuguese: allostatic = 'alostático', allosteric = 'alostérico'"),
+        (r"tipping point", r"ponto de queda|ponto de partida", "tipping point = 'ponto de viragem' (pt-PT)"),
+        (r"\bflushing\b", r"arrepiament", "flushing = 'rubor', not 'arrepiamento' (goosebumps)"),
+        (r"tipping point|turning point|flip", r"virada", "pt-PT uses 'viragem'; 'virada' is Brazilian"),
     ],
 }
 

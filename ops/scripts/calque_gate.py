@@ -124,10 +124,18 @@ CALQUES: dict[str, list[tuple[str, str, str, str, str]]] = {
          "noun+noun transfer, not a Spanish collocation"),
         ("trust death spiral", "espiral de muerte de la confianza", "espiral de desconfianza", "",
          "'death spiral' transferred word-for-word"),
+        ("wired", "conectado pero cansado", "acelerado pero cansado", "",
+         "figure for hyperarousal (EN 'wired but tired')"),
+        ("flavour", "sabor dominante", "tipo dominante", "",
+         "'flavour' = variety, not taste"),
+        ("flavour", "cuatro sabores de la fatiga", "cuatro formas de fatiga", "",
+         "'flavour' = variety, not taste (series cross-reference)"),
     ],
     "pt": [
         ("wired", "conectado para dormir", "agitado para dormir", "",
          "figure for hyperarousal, not network connection"),
+        ("wired", "conectado, mas cansado", "agitado, mas cansado", "",
+         "figure for hyperarousal (EN 'wired but tired')"),
         ("wired", "cansado-mas-conectado", "cansado mas agitado", "",
          "figure for hyperarousal"),
         ("wired", "cansado, mas conectado", "cansado, mas agitado", "",
@@ -165,6 +173,10 @@ CALQUES: dict[str, list[tuple[str, str, str, str, str]]] = {
          "'death spiral' transferred word-for-word"),
         ("running on empty", "energia vazia", "em vazio", "",
          "fuel-gauge idiom transferred word-for-word"),
+        ("flavour", "sabor dominante", "tipo dominante", "",
+         "'flavour' = variety, not taste"),
+        ("flavour", '"sabores" dos mastócitos', '"subtipos" dos mastócitos', "",
+         "'flavour' = variety, not taste (series cross-reference)"),
     ],
 }
 
@@ -360,6 +372,13 @@ def selftest() -> int:
             "pt",
             ["energia vazia"],
             ["em vazio"],
+        ),
+        (
+            "pt wired-but-tired calque",
+            "\u201cConectado, mas cansado\u201d é uma das descrições mais comuns.",
+            "pt",
+            ["Conectado, mas cansado"],
+            ["agitado, mas cansado"],
         ),
         (
             # Legitimate fiscal use must NOT fire: this is a real tax.
