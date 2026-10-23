@@ -47,3 +47,39 @@ tmj:
     - "Dental or maxillofacial physiotherapy assessment for TMJ"
     - "Ask whether TMJ symptoms correlate with headache days"
     - "Assess occlusion / bite asymmetry"
+
+sleep:
+  unrefreshing_sleep: true
+  sleep_duration_habitual: "8 h/night (21-day diary, 2026-09)"
+  daytime_sleepiness:
+    present: true
+    measure: "Epworth 18/24 (subjective, severe)"
+  naps: "irregular; 30 min to 2 h 30"
+  insomnia:
+    present: true
+    measure: "ISI 17/28"
+  rls_symptoms:
+    present: true
+    description: "unpleasant leg sensations relieved by movement, starting at rest/inactivity"
+    status: "not formally diagnosed; report says 'no typical RLS clinic' but the recorded complaints meet the core criteria"
+  morning_headache: true
+  nocturnal_agitation: true
+  dream_intensity: "intense dreams; impression of being awake while dreaming"
+  claustrophobia:
+    present: true
+    measure: "total 54 (suffocation 21, restriction 33)"
+  study:
+    date: "2026-09-21/22"
+    result: "no narcolepsy; no OSA; fragmented sleep; PLMS 76.5/h; ferritin 57"
+    medication_free: "≥ 3 weeks before the PSG (no Concerta, no modafinil)"
+    documents:
+      - "evidence/20260921_Bilan-hypersomnie_StLucBouge_ChristineAndres.pdf"
+      - "evidence/20260921_sleep-study.yaml"
+      - "generated/20261021_bilan-hypersomnie-SaintLuc.typ"
+      - "generated/20261021_synthese-dossier-aeiuno.typ"
+  notes: >
+    The 2026-09 sleep study does not confirm narcolepsy or idiopathic hypersomnia.
+    It documents fragmented, non-restorative sleep, a very high PLMS index, and a
+    subjective-objective dissociation (ESS 18/24 vs MSLT 10.8 min). Probable RLS/PLMD
+    with iron insufficiency is the most directly treatable contributor. ME/CFS cannot
+    be excluded; presence in this repository is not diagnostic evidence.

@@ -64,6 +64,10 @@
   Cette étude de cas repose sur des données *limitées*. Les recommandations ci-dessous orientent la démarche diagnostique et thérapeutique et ne doivent pas être interprétées comme des conclusions définitives. *Toutes les recommandations nécessitent une validation par le médecin traitant.*
 ]
 
+#caution("Mise à jour du 21 octobre 2026 — ne pas lire sans ce correctif")[
+  Le bilan d'hypersomnie de septembre 2026 (PSG + TILE + bedrest 32 h) *ne confirme pas* le pattern narcoleptique : absence de SOREMP sur la PSG et sur les cinq siestes, latence moyenne au TILE de 10,8 min. Voir l'analyse `20261021_bilan-hypersomnie-SaintLuc.typ`. Les hypothèses ci-dessous restent utiles comme cadre de discussion, mais elles ne sont plus soutenues par les données actuelles.
+]
+
 #outline(indent: 1em)
 
 #pagebreak()

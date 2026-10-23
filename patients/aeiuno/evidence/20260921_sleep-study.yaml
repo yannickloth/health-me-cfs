@@ -1,0 +1,281 @@
+# Sleep study — hypersomnia workup
+# Patient: aeiuno (Christine Paula Andres)
+# Source: 20260921_Bilan-hypersomnie_StLucBouge_ChristineAndres.pdf
+# Extracted: 2026-10-21
+
+patient: aeiuno
+document_type: "bilan d'hypersomnie (PSG + TILE + bedrest 32 h)"
+date_study: "2026-09-21/2026-09-22"
+centre: "Centre d'étude des troubles du sommeil et de la vigilance, Clinique Saint-Luc, Bouge"
+referral_reason: "Réévaluation d'une narcolepsie"
+referring_physician: "Dr Dusart — K. Collet"
+analysed_by: "KC"
+room: "411"
+
+demographics:
+  age: 38
+  weight_kg: 78
+  height_cm: 169
+  bmi: 27.3
+
+protocol:
+  - "agenda du sommeil, 21 jours consécutifs"
+  - "polysomnographie nocturne (PSG1)"
+  - "test itératif de latence d'endormissement (TILE), 5 siestes"
+  - "évaluation cognitive T.E.A. entre les siestes 1 et 2"
+  - "bedrest: procédure standardisée de 32 heures, sommeil ad libitum"
+
+medication:
+  washout: "no medication for at least 3 weeks before the polysomnography"
+  implication: "MSLT valid; narcolepsy exclusion strengthened; fragmentation is intrinsic, not drug-induced."
+  residual_effect: "possible stimulant rebound, but unlikely to persist at 3 weeks."
+
+sleep_diary_21_days:
+  bedtime_range: "22:00–00:00"
+  rise_range: "07:00–10:00"
+  time_in_bed_mean: "8 h 48"
+  total_sleep_time_mean: "8 h 00"
+  sleep_efficiency: "91 %"
+  daytime: "somnolence diurne excessive; siestes irrégulières de 30 min à 2 h 30"
+
+psg_night_1:
+  lights_off: "21:58"
+  sleep_onset: "22:29"
+  final_awakening: "07:01"
+  lights_on: "07:02"
+  time_in_bed_min: 543
+  sleep_period_min: 511
+  total_sleep_time_min: 406
+  total_sleep_time_hm: "6 h 46"
+  total_wake_time_min: 137
+  sleep_onset_latency_min: 31.5        # table; conclusion says 14 min — inconsistency
+  wake_after_final_awakening_min: 0
+  intra_sleep_wake_min: 105
+  sleep_efficiency_pct: 74.7
+  sleep_continuity_pct: 79.5
+  sleep_quality_index_pct: 42.1
+  stages_min:
+    N1: 79
+    N2: 204
+    N3: 76
+    REM: 94
+  stages_pct:
+    N1: 7.7
+    N2: 50.2
+    N3: 18.8
+    REM: 23.2
+  latencies_min:
+    N1: 31.5
+    N2: 34.5
+    N3: 44.5
+    REM: 211.5
+  awakenings: 30
+  stage_changes: 108
+  micro_arousals: 98
+  micro_arousal_index_per_h: 14.5
+  arousal_plus_micro_index_per_h: 18.9
+  plms_index_per_h: 76.5
+  plms_with_micro_arousal_per_h: 0.0
+  plms_with_apnea_per_h: 0.0
+
+psg_night_1_respiratory:
+  ahi_total_per_h: 2.7
+  ahi_supine_per_h: 7.5
+  ahi_non_supine_per_h: 0.2
+  ahi_nrem_per_h: 2.5
+  ahi_rem_per_h: 3.2
+  obstructive_apneas: 0
+  central_apneas: 0
+  mixed_apneas: 0
+  obstructive_hypopneas: 18
+  central_hypopneas: 0
+  total_events: 18
+  spo2_mean_pct: 95.6
+  spo2_min_pct: 93.0
+  spo2_max_pct: 99.0
+  time_below_90_pct_min: 0
+  time_below_90_pct: 0.0
+  desaturation_count: 17
+  desaturation_index_recording_per_h: 1.9
+  desaturation_index_sleep_per_h: 2.5
+
+mslt:
+  nap_times: ["08:31", "10:31", "12:32", "14:32", "16:32"]
+  sleep_onset_times: ["08:43", "10:37", "12:40", null, "16:40"]
+  latencies_min: [12.0, 5.5, 8.0, 20.0, 8.3]
+  mean_latency_min: 10.8
+  soremp_count: 0
+  rem_latency_min: [null, null, null, null, null]
+  interpretation: "mean latency > 8 min; no SOREMP"
+
+cognitive_tea:
+  alertness_no_cue_median_rt_ms: 281
+  alertness_no_cue_percentile: 18
+  alertness_with_cue_median_rt_ms: 273
+  alertness_with_cue_percentile: 14
+  sustained_attention_total_median_rt_ms: 555
+  sustained_attention_total_percentile: 50
+  sustained_attention_omissions: 12
+  sustained_attention_omissions_percentile: 10
+  sustained_attention_omission_trend: "1 → 4 → 7 across the three blocks"
+  flexibility_median_rt_ms: 487
+  flexibility_percentile: 90
+  vigilance_total_median_rt_ms: 1269
+  vigilance_total_percentile: 4
+  vigilance_omissions: 10
+  vigilance_omissions_percentile: 16
+  go_nogo_median_rt_ms: 433
+  go_nogo_percentile: 31
+  interpretation: "lower normal range; psychomotor slowing; vigilance decrement; increasing omissions = cognitive fatigue"
+
+bedrest_32h:
+  lights_off: "23:00"
+  sleep_onset: "23:18"
+  final_awakening: "06:51"
+  lights_on: "06:51"
+  time_in_bed_min: 1910
+  sleep_period_min: 1892
+  total_sleep_time_min: 1111
+  total_sleep_time_hm: "18 h 31"          # report says 18 h 21 — arithmetic inconsistency
+  total_sleep_time_scaled_24h_hm: "≈ 13 h 53"
+  total_wake_time_min: 799
+  total_wake_time_hm: "13 h 19"
+  sleep_onset_latency_min: 18.5           # table; conclusion says 20 min
+  wake_after_final_awakening_min: 0
+  intra_sleep_wake_min: 781
+  sleep_efficiency_pct: 58.2
+  sleep_continuity_pct: 58.7
+  sleep_quality_index_pct: 44.7
+  stages_min:
+    N1: 79
+    N2: 535
+    N3: 225
+    REM: 271
+  stages_pct:
+    N1: 7.2
+    N2: 48.1
+    N3: 20.3
+    REM: 24.4
+  latencies_min:
+    N1: 18.5
+    N2: 30.0
+    N3: 36.0
+    REM: 78.5
+  awakenings: 67
+  stage_changes: 274
+  micro_arousals: 321
+  micro_arousal_index_per_h: 17.3
+  arousal_plus_micro_index_per_h: 20.9
+  plms_index_per_h: 55.5
+  plms_with_micro_arousal_per_h: 0.0
+  plms_with_apnea_per_h: 0.0
+
+bedrest_32h_respiratory:
+  ahi_total_per_h: 4.5
+  ahi_supine_per_h: 7.7
+  ahi_non_supine_per_h: 3.0
+  ahi_nrem_per_h: 3.3
+  ahi_rem_per_h: 8.0
+  obstructive_apneas: 1
+  central_apneas: 11
+  mixed_apneas: 0
+  obstructive_hypopneas: 72
+  central_hypopneas: 0
+  total_events: 84
+  spo2_mean_pct: 95.0
+  spo2_min_pct: 71.8                  # REM; inconsistent with 0 min < 90 %
+  spo2_max_pct: 99.0
+  time_below_90_pct_min: 0
+  time_below_90_pct: 0.0
+  desaturation_count: 157
+  desaturation_index_recording_per_h: 4.9
+  desaturation_index_sleep_per_h: 8.5
+
+psychometrics:
+  had_anxiety: 11
+  had_depression: 13
+  epworth_sleepiness: 18
+  epworth_max: 24
+  insomnia_severity_index: 17
+  insomnia_severity_max: 28
+  claustrophobia_total: 54
+  claustrophobia_suffocation: 21
+  claustrophobia_restriction: 33
+
+reported_complaints:
+  - "réveils de fin de nuit"
+  - "sensation de ne pas dormir"
+  - "somnolence diurne excessive"
+  - "impression d'être réveillée quand elle dort, avec rêves intenses"
+  - "agitation nocturne"
+  - "mal de tête au réveil"
+  - "douleurs au réveil"
+  - "sensations désagréables dans les jambes, soulagées par le mouvement, débutant au repos ou à l'inactivité"
+  - "anxiété"
+  - "écoute un livre audio pour s'endormir"
+
+lab_conclusion:
+  summary: "pas de narcolepsie ni d'hypersomnie idiopathique; MPMS très nombreux; fragmentation; profil anxiodépressif"
+  stated_reasons:
+    - "absence de somnolence diurne excessive et/ou d'anomalie REM au TILE"
+    - "absence d'anomalie de la durée de sommeil au bedrest"
+  recommendations:
+    - "revue par Dr Dusart"
+    - "MPMS non associés à une clinique RLS typique"
+    - "ferritine 57 µg/L"
+    - "échelle psychométrique évocatrice d'un trouble anxiodépressif"
+
+internal_inconsistencies:
+  - id: INC-1
+    item: "bedrest TST"
+    detail: "1111 min = 18 h 31, but the report writes 18 h 21. The stage sum (79+535+225+271 = 1110) confirms 1111 min."
+    impact: "29 min below the 19 h convention, not 39 min; does not change the conclusion but must be corrected."
+  - id: INC-2
+    item: "absence of excessive daytime sleepiness"
+    detail: "The report states 'absence de somnolence diurne excessive', but Epworth = 18/24 (severe subjective sleepiness). The correct statement is 'no objective sleepiness on MSLT despite severe subjective sleepiness'."
+    impact: "The subjective-objective dissociation is the central finding and should not be written as absence of sleepiness."
+  - id: INC-3
+    item: "RLS clinic"
+    detail: "The report states 'pas de clinique RLS typique', but the recorded complaints include unpleasant leg sensations relieved by movement, starting at rest/inactivity — i.e. the core RLS criteria."
+    impact: "Probable RLS is under-recognized; ferritin 57 µg/L supports iron workup."
+  - id: INC-4
+    item: "PSG1 sleep onset latency"
+    detail: "Table: 31.5 min. Conclusion: 14 min."
+    impact: "Minor; both are non-pathological."
+  - id: INC-5
+    item: "bedrest sleep onset latency"
+    detail: "Table: 18.5 min. Conclusion: 20 min."
+    impact: "Minor."
+  - id: INC-6
+    item: "SpO2 nadir"
+    detail: "Nadir 71.8 % in REM during bedrest, but 0 min below 90 %. A 71.8 % sample would normally register time below 90 %."
+    impact: "Likely artifact or isolated sample; ask the lab to confirm."
+  - id: INC-7
+    item: "PLMS arousal association"
+    detail: "PLMS index 76.5/h and 55.5/h, but 0.0/h associated with micro-arousal. This is unusual; confirm whether the association was scored."
+    impact: "Determines whether PLMS is a plausible cause of fragmentation."
+
+interpretation:
+  excluded:
+    - "Narcolepsy type 1 and type 2: no SOREMP on PSG (REM latency 211.5 min) or on 5 MSLT naps; mean MSLT latency 10.8 min; no cataplexy. No medication for ≥ 3 weeks before the PSG, so the MSLT is valid."
+    - "Obstructive sleep apnea: AHI 2.7/h and 4.5/h (supine 7.5/7.7; REM 3.2/8.0). Subthreshold positional/REM tendency, not OSA."
+  not_confirmed:
+    - "Idiopathic hypersomnia: MSLT mean 10.8 min (> 8); habitual diary TST 8 h; bedrest TST 18 h 31 < 19 h convention. ICSD-3 would accept 24 h TST ≥ 11 h, but no 24 h measurement exists. Low-moderate probability; not fully excluded."
+    - "UARS: no RERA/PES measurement; snoring not documented."
+    - "Insufficient sleep syndrome / individual long sleep need: diary 8 h/night for 21 days; bedrest capacity 13.9 h/24 h equivalent. The individual need is not established."
+  supported:
+    - "Non-restorative, fragmented sleep: arousal index 18.9–20.9/h; 30–67 awakenings; 108–274 stage changes."
+    - "Very high PLMS index (76.5/h, 55.5/h) with possible RLS."
+    - "Subjective EDS (ESS 18/24) with normal objective sleepiness (MSLT 10.8 min): subjective-objective dissociation."
+    - "Cognitive fatigue: vigilance percentile 4; sustained-attention omissions 1 → 4 → 7."
+    - "Anxiety/depression (HAD-A 11, HAD-D 13) and insomnia (ISI 17)."
+
+open_questions:
+  - "Confirm the exact date of the last dose (≥ 3 weeks before the PSG) and whether any other medication was taken."
+  - "Did the 3-week washout cover the questionnaires and the bedrest as well?"
+  - "What did the 2018/2019 PSG actually show (REM latency, SOREMP)? The current study does not reproduce a narcoleptic pattern."
+  - "Was a second PSG performed, as the report mentions 'double polysomnographie'?"
+  - "Was the PLMS arousal association scored? 0.0/h is unusual with an index of 76.5/h."
+  - "Is the 71.8 % SpO2 nadir real or an artifact?"
+  - "What is the habitual 24 h TST on free days (actigraphy)?"
+  - "Does the patient meet the four RLS criteria (URGE) on clinical interview?"

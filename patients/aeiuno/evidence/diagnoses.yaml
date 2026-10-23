@@ -1,0 +1,220 @@
+# Diagnostic synthesis — aeiuno (Christine Paula Andres)
+# Last updated: 2026-10-21
+# Basis: hypersomnia workup 2026-09-21/22 + prior clinical record
+# Status: PROPOSED for discussion with the treating physicians. Not a confirmed diagnosis.
+
+patient_id: "aeiuno"
+last_updated: "2026-10-21"
+source_documents:
+  - "evidence/20260921_Bilan-hypersomnie_StLucBouge_ChristineAndres.pdf"
+  - "evidence/20260921_sleep-study.yaml"
+  - "generated/20261021_bilan-hypersomnie-SaintLuc.typ"
+  - "generated/20261021_synthese-dossier-aeiuno.typ"
+  - "generated/20260407_rapport-clinique-CAN-sommeil.typ"
+  - "generated/20260322 narcolepsy-pattern sleep.aeiuno.typ"
+
+context_note: |
+  aeiuno is in this repository because of a persistent energy/fatigue problem, not because
+  ME/CFS is established. The repository is a knowledge base, not diagnostic evidence.
+  ME/CFS cannot be excluded; it is not confirmed.
+
+primary_diagnosis:
+  - name: "ME/CFS (myalgic encephalomyelitis / chronic fatigue syndrome)"
+    icd10: "G93.3"
+    status: "not excluded — best integrative hypothesis, not confirmed"
+    confidence: "moderate"
+    supporting_evidence:
+      - "Chronic fatigue since adolescence (> 6 months, by history)"
+      - "Unrefreshing sleep: documented subjectively and by fragmented PSG/bedrest"
+      - "Post-exertional malaise: 2026-04-08 crash after road trip + consultation; 17 h sleep on 2026-01-07"
+      - "Cognitive impairment: brain fog; TEA vigilance percentile 4; omissions 1 → 4 → 7"
+      - "Orthostatic intolerance: dizziness on standing, long-standing"
+      - "Exclusion of narcolepsy, OSA, thyroid disease, anemia, and other standard causes"
+    caveats:
+      - "ME/CFS is a clinical diagnosis; the sleep study supports it but does not confirm it."
+      - "PEM documentation is still limited; a prospective symptom diary is needed."
+      - "The strongest objective signal in the study is RLS/PLMD with iron insufficiency, not ME/CFS."
+      - "Atypical depression is the main competing explanation; HAD-D 13 and HAD-A 11 require clinical assessment."
+      - "ME/CFS can coexist with RLS/PLMD, insomnia, anxiety/depression, POTS, MCAS, and hEDS/CCI."
+
+comorbid_probable:
+  - name: "Restless legs syndrome (RLS) / periodic limb movement disorder (PLMD)"
+    icd10: "G25.81"
+    status: "probable"
+    confidence: "moderate for PLMD (high PLMS index, but arousal association 0.0/h); moderate-high for RLS (clinical)"
+    supporting_evidence:
+      - "PLMS index 76.5/h (PSG1) and 55.5/h (bedrest) — markedly elevated"
+      - "Recorded complaints: unpleasant leg sensations relieved by movement, starting at rest/inactivity"
+      - "Ferritin 57 µg/L (low-normal; target for RLS/PLMD is > 75–100 µg/L)"
+      - "Fragmented sleep: arousal index 18.9–20.9/h; 30–67 awakenings"
+    caveats:
+      - "The report says 'no typical RLS clinic', but its own complaint list meets the core RLS criteria. Clinical URGE interview needed."
+      - "PLMS associated with micro-arousal was scored 0.0/h — confirm the scoring."
+    treatment_note: "Iron repletion first (oral or IV, guided by ferritin/TSAT). Dopamine agonists or gabapentinoids only after iron and specialist review; caution with augmentation and with ME/CFS/PEM."
+
+  - name: "Insomnia disorder"
+    icd10: "F51.0"
+    status: "probable"
+    confidence: "moderate"
+    supporting_evidence:
+      - "ISI 17/28 (moderate clinical insomnia)"
+      - "Complaints: late-night awakenings, feeling of not sleeping, nocturnal agitation"
+      - "Sleep efficiency 74.7 % on PSG1"
+    caveats:
+      - "Subjective-objective dissociation is prominent; CBT-I must be adapted to ME/CFS and PEM."
+      - "Do not use sleep restriction aggressively in ME/CFS."
+      - "Low sleep efficiency during the 32 h bedrest (58.2 %) is expected in that protocol and is not by itself evidence of insomnia."
+
+  - name: "Anxiety / depressive disorder (comorbid)"
+    icd10: "F41.1 / F32.1"
+    status: "probable — comorbid, not the sole explanation"
+    confidence: "moderate"
+    supporting_evidence:
+      - "HAD-A 11 (moderate anxiety)"
+      - "HAD-D 13 (moderate depression)"
+      - "Claustrophobia total 54 (suffocation 21, restriction 33)"
+    caveats:
+      - "Reactive to chronic illness and disability; does not exclude ME/CFS."
+      - "Screen for suicidal ideation."
+      - "Depression treatment may improve quality of life but does not cure ME/CFS."
+
+  - name: "Orthostatic intolerance / probable POTS"
+    icd10: "I49.8"
+    status: "suspected"
+    confidence: "moderate"
+    supporting_evidence:
+      - "Dizziness on standing, progressive"
+      - "Long-standing intolerance of prolonged standing"
+    next_step: "Tilt-table test or active stand test with heart-rate and blood-pressure monitoring."
+
+suspected_contributors:
+  - name: "MCAS (mast cell activation syndrome)"
+    icd10: "D89.49"
+    status: "suspected — not confirmed"
+    supporting_evidence:
+      - "Chronic relapsing facial dermatosis since ~2008, steroid-resistant"
+      - "Allergic rhinitis; possible birch allergy"
+      - "Chronic fatigue and GI symptoms"
+    next_step: "Baseline tryptase, 24 h urinary N-methylhistamine and PGD2; trial of H1 + H2 antihistamines under medical supervision."
+
+  - name: "hEDS / HSD with possible craniocervical instability (CCI)"
+    icd10: "Q79.6 / M53.2"
+    status: "suspected — not formally assessed"
+    supporting_evidence:
+      - "Segmental hypermobility (back extremely flexible)"
+      - "Right TMJ dysfunction"
+      - "Circumferential muscular headache, posture-dependent"
+    next_step: "Beighton score and cervical assessment; upright dynamic MRI only if clinically indicated."
+
+  - name: "Iron deficiency without anemia"
+    icd10: "D50.9"
+    status: "probable — functional iron insufficiency"
+    supporting_evidence:
+      - "Ferritin 57 µg/L (2026-09); 52 µg/L (2026-01); 28 µg/L (2024-04); 37 µg/L (2014)"
+      - "PLMS/RLS and fatigue"
+    next_step: "Check transferrin saturation and CRP; trial of oral iron with vitamin C; target ferritin > 75–100 µg/L; recheck in 3 months."
+
+  - name: "Vitamin D insufficiency"
+    icd10: "E55.9"
+    status: "documented, partially corrected"
+    supporting_evidence:
+      - "8.5 ng/mL (2016), 28 (2024), 43 (2026-01); target > 60 ng/mL"
+    next_step: "Continue D3 + K2; recheck in 3 months."
+
+  - name: "Low-normal vitamin B12 / folate"
+    icd10: "E53.8"
+    status: "possible contributor — not rechecked"
+    supporting_evidence:
+      - "B12 188 ng/L (2016, below range), 209 (2024-08), 241 (2018)"
+      - "Folate 3.5 µg/L (2016, below range)"
+    next_step: "B12, folate, MMA, homocysteine; treat if functional deficiency is confirmed."
+
+excluded_or_not_supported:
+  - name: "Narcolepsy type 1 / type 2"
+    icd10: "G47.41 / G47.42"
+    status: "not confirmed — probably excluded"
+    evidence_against:
+      - "No SOREMP on PSG (REM latency 211.5 min)"
+      - "No SOREMP on 5 MSLT naps"
+      - "Mean MSLT latency 10.8 min (> 8 min)"
+      - "No cataplexy"
+    caveat: "Exclusion is robust: no medication for ≥ 3 weeks before the PSG, so the MSLT is valid. If the 2018 PSG showed a genuine SOREMP, the diagnosis should be re-examined rather than simply maintained."
+
+  - name: "Obstructive sleep apnea (OSA)"
+    icd10: "G47.33"
+    status: "excluded by AHI"
+    evidence_against:
+      - "AHI 2.7/h (PSG1) and 4.5/h (bedrest)"
+      - "No time below 90 % SpO2"
+    caveat: "Supine AHI 7.5/7.7 and REM AHI 8.0 show a subthreshold positional/REM tendency. Recheck if weight increases or snoring appears."
+
+  - name: "Idiopathic hypersomnia"
+    icd10: "G47.11"
+    status: "not confirmed — low-moderate probability"
+    evidence_against:
+      - "MSLT mean 10.8 min (> 8 min)"
+      - "Habitual diary TST 8 h/night"
+      - "Bedrest TST 18 h 31 < 19 h/32 h convention"
+    caveat: "ICSD-3 would accept a 24 h TST ≥ 11 h. No 24 h measurement exists. The bedrest equivalent is ~13.9 h/24 h, which is high. Reconsider if actigraphy confirms ≥ 11 h/24 h."
+
+  - name: "Primary hypersomnia as the sole explanation of fatigue"
+    status: "not supported"
+    evidence_against:
+      - "Normal MSLT"
+      - "Fragmented, non-restorative sleep"
+      - "PEM, cognitive fatigue, orthostatic intolerance"
+
+not_yet_excluded:
+  - name: "UARS (upper airway resistance syndrome)"
+    status: "not assessed"
+    reason: "No RERA/PES measurement; snoring not documented; AHI is normal."
+    next_step: "Only if snoring, flow limitation, or resistant fragmentation appears."
+
+  - name: "Celiac disease"
+    status: "not tested"
+    reason: "Can cause chronic fatigue and iron deficiency."
+    next_step: "Anti-tTG IgA + total IgA if clinically indicated."
+
+  - name: "Sleep-related hypoventilation"
+    status: "not tested"
+    reason: "No capnography; BMI 27.3."
+    next_step: "Only if daytime hypercapnia or nocturnal hypoxemia is suspected."
+
+diagnostic_hierarchy_summary: |
+  1. ME/CFS — best integrative hypothesis, not confirmed.
+  2. RLS/PLMD with iron insufficiency — strongest objective signal and most treatable contributor.
+  3. Insomnia disorder with subjective-objective dissociation.
+  4. Anxiety/depression — comorbid and a serious competing explanation.
+  5. Possible POTS, MCAS, hEDS/CCI — separate workups.
+  6. Narcolepsy and OSA excluded (narcolepsy robustly excluded: no medication for ≥ 3 weeks).
+  7. Idiopathic hypersomnia not confirmed; low-moderate probability.
+
+epistemic_note: |
+  "Most probable" depends on the question. As an integrative explanation of the whole
+  longitudinal picture, ME/CFS is the leading hypothesis. As a probability derived from
+  the sleep study alone, it is not: the strongest objective finding is RLS/PLMD with iron
+  insufficiency, and atypical depression is a serious competitor. ME/CFS remains a
+  diagnosis of exclusion, and the exclusion is incomplete (UARS, celiac disease, B12,
+  POTS, MCAS, hEDS/CCI). The correct sequence is to treat the concrete finding (iron,
+  RLS/PLMD), document PEM and orthostatic intolerance prospectively, and then reassess.
+  A pre-existing ME/CFS label in the file creates a confirmation-bias risk. Presence in
+  this repository is not evidence: the working problem is a persistent energy/fatigue
+  problem, and ME/CFS remains a hypothesis that cannot be excluded.
+
+next_steps:
+  - "Document the ≥ 3-week medication-free interval in the file."
+  - "Obtain the raw 2018/2019 PSG report and compare REM latency/SOREMP."
+  - "2-week actigraphy + sleep diary including free days; measure 24 h TST."
+  - "Iron studies: ferritin, transferrin saturation, CRP; iron trial to target ferritin > 75–100."
+  - "Clinical URGE interview for RLS; review PLMS arousal scoring."
+  - "Tilt-table or active stand test for POTS."
+  - "Screen for suicidal ideation; offer adapted CBT/psychotherapy."
+  - "Adapted CBT-I and claustrophobia management for the sleep laboratory."
+  - "Review stimulant timing and the risk of masking PEM."
+  - "Repeat MSLT or CSF hypocretin-1 only if cataplexy appears or the 2018 SOREMP is confirmed."
+
+red_flags:
+  - "New cataplexy, sleep paralysis with falls, or dream-enactment injury"
+  - "New focal neurological deficit, severe headache, or visual loss"
+  - "Suicidal ideation"
+  - "Witnessed apnea with desaturation or nocturnal hypoxemia"
