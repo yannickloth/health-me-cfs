@@ -504,6 +504,21 @@ Non détaillés dans cet index (68 fichiers classés Insurance/Admin). Dossiers 
 
   [20260322 narcolepsy-pattern sleep.aeiuno.typ/.tex],
   [*Étude de cas détaillée : pattern narcoleptique à la PSG.* \ Analyse diagnostique différentielle (narcolepsie type 1 vs. suppression orexinergique EM/SFC). \ Recommandations : hypocrétine LCR, typage HLA-DQB1\*06:02, TILE/MSLT. \ *Document clé pour le RDV à la Clinique du Sommeil.*],
+
+  [evidence/20260921\_Bilan-hypersomnie\_StLucBouge\_ChristineAndres.pdf],
+  [Rapport original du bilan d'hypersomnie (PSG + TILE + bedrest 32 h), 21--22 septembre 2026],
+
+  [evidence/20260921\_sleep-study.yaml],
+  [Extraction structurée de tous les résultats (PSG, TILE, T.E.A., bedrest, questionnaires, incohérences)],
+
+  [evidence/diagnoses.yaml],
+  [Synthèse diagnostique structurée : EM/SFC probable, RLS/PLMD, insomnie, diagnostics exclus],
+
+  [20261021\_bilan-hypersomnie-SaintLuc.typ/.pdf],
+  [*Analyse du bilan et proposition diagnostique.* \ Exclusion de la narcolepsie et des apnées ; RLS/PLMD et insuffisance martiale ; dissociation subjectif--objectif ; plan d'action.],
+
+  [20261021\_synthese-dossier-aeiuno.typ/.pdf],
+  [*Synthèse globale du dossier.* \ Histoire clinique, données objectives, hiérarchie diagnostique, examens de confirmation, plan d'action.],
 )
 
 // =============================================================================
