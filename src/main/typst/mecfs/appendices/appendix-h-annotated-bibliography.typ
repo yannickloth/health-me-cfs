@@ -4074,7 +4074,7 @@ tVNS represents a potential non-pharmacological, home-based intervention for aut
 ---
 
     *Full Citation:*: Saleem S, Hussain A, Haroon M, et al.\ Dynamic microclot profiling: thromboelastography advances precision management in long COVID and myalgic encephalomyelitis/chronic fatigue syndrome. _Blood Coagulation & Fibrinolysis_. 2026. @Saleem2026MicroclotProfiling
-    *DOI:*: #link("https://doi.org/10.1097/MBC.0000000000001278")[10.1097/MBC.0000000000001278]
+    *DOI:*: #link("https://doi.org/10.1097/MBC.0000000000001439")[10.1097/MBC.0000000000001439]
     *PMID:*: 42274123
     *Published:*: 2026
     *Study Design:*: Literature review
@@ -45144,3 +45144,194 @@ This stream assembles evidence for the claim that pathological fatigue across au
     - *Sample:* Moderate (n≈5.8k)
     - *Replication:* Consistent with Farhat 2025
     - *Score:* 0.72 (raw); population weight 0.75 → 0.54
+
+// =============================================================================
+
+== Long-COVID Coagulation Null Result and the Microclot Evidence Base (2026-10-26)
+<sec:bib-longcovid-coagulation-null>
+// =============================================================================
+
+This section collects the evidence base for the negative long-COVID coagulation study
+(@Fraser2026LCcoagulation) together with the positive-direction microclot literature it
+constrains and the methodological appraisal that limits how far that literature can be read.
+Entries are ordered from the driving null result to the supporting and contradicting sources.
+The narrative review by Saleem et al.\ 2026 (@Saleem2026MicroclotProfiling) is annotated earlier in
+this appendix, in the microclot literature section, and is not duplicated here.
+
+=== Fraser et al.\ 2026 — No Hypercoagulability in Never-Hospitalized Long COVID
+@Fraser2026LCcoagulation
+
+/ *Full Citation:*: Fraser E, Ng K, Hasan N, Dunstan I, Laws A, Macrae F, et al. No evidence of hypercoagulability, altered fibrinolysis, or increased fibrin(ogen) microaggregates in never-hospitalized long COVID. _HemaSphere_. 2026;10(10):e70501.
+/ *DOI:*: #link("https://doi.org/10.1002/hem3.70501")[10.1002/hem3.70501]
+/ *PMID:*: 42903049
+/ *PMCID:*: PMC13680132
+/ *Published:*: October 19, 2026
+/ *Study Design:*: Prespecified cross-sectional comparison nested in the EXPLAIN prospective cohort (ISRCTN14304264); research-letter format
+/ *Sample Size:*: n=151 never-hospitalized participants — 80 breathless long COVID, 37 non-breathless long COVID, 34 recovered controls; median 483--596 days post-infection
+/ *Key Findings:*:
+    - No group difference in D-dimer, Clauss fibrinogen, von Willebrand factor antigen, soluble thrombomodulin, soluble P-selectin, urinary 11-dehydro-TXB2, myeloperoxidase, citrullinated histone H3, or PAI-1
+    - 50% clot lysis time comparable across groups — no evidence of fibrinolysis resistance
+    - Fibrin fibre density 47.9 vs 43.6 vs 38.0 fibres per 100 micrometre, $p$=0.22 (subgroup, n=55 imaged)
+    - Microaggregate number, area, and count of aggregates larger than 100 square micrometres all comparable
+    - Soluble CD40L slightly lower in long COVID; difference lost after adjustment
+    - Anticoagulant and antiplatelet users excluded, removing the main pharmacological confounder in earlier series
+/ *Conclusion:*: In never-hospitalized long COVID at median 1.3--1.6 years post-infection, the authors report no laboratory evidence of hypercoagulability, impaired fibrinolysis, or increased fibrin(ogen) microaggregate burden. They state that antithrombotic therapy is not justified outside clinical trials.
+/ *Limitations:*: Single timepoint; largely White cohort; frozen samples; fibrin imaging in a subgroup only; findings do not generalize to hospitalized long COVID or to acute COVID-19.
+/ *Certainty Assessment:*:
+    - *Quality:* High (HemaSphere, prespecified, registered cohort, confounder exclusion)
+    - *Sample:* Large (n=151)
+    - *Replication:* Single study, but consistent with @StimulateICP2026rivaroxaban
+    - *Tier note:* PubMed indexes this as a Letter; the format signal does not describe the design, so the prospective-cohort cap (0.60) is applied
+    - *Score:* raw 0.80 → cap 0.60 → population weight 0.85 → *0.51*
+
+=== Pretorius et al.\ 2021 — Persistent Clotting Pathology and Antiplasmin in Long COVID
+@Pretorius2021LCantiplasmin
+
+/ *Full Citation:*: Pretorius E, Vlok M, Venter C, Bezuidenhout JA, Laubscher GJ, Steenkamp J, Kell DB. Persistent clotting protein pathology in Long COVID/Post-Acute Sequelae of COVID-19 (PASC) is accompanied by increased levels of antiplasmin. _Cardiovascular Diabetology_. 2021;20:172.
+/ *DOI:*: #link("https://doi.org/10.1186/s12933-021-01359-7")[10.1186/s12933-021-01359-7]
+/ *PMID:*: 34425843
+/ *PMCID:*: PMC8381139
+/ *Study Design:*: Case--control laboratory study (fluorescence microscopy plus proteomics)
+/ *Sample Size:*: Plasma from healthy controls, type 2 diabetes, acute COVID-19, and long COVID/PASC groups
+/ *Key Findings:*:
+    - Long COVID/PASC plasma contained large anomalous amyloid deposits resistant to trypsin digestion
+    - Alpha-2-antiplasmin, fibrinogen chains, and serum amyloid A were trapped in the digestion-resistant pellet
+    - Resistance to fibrinolysis was reported for both acute COVID-19 and long COVID/PASC, but not for controls or type 2 diabetes
+/ *Conclusion:*: The authors propose that persistent fibrinolysis-resistant deposits explain long COVID symptoms and that continued anticlotting therapy may support fibrinolysis.
+/ *Limitations:*: Small single-centre study; semi-quantitative imaging; no blinding; the positive finding is not reproduced by @Fraser2026LCcoagulation in a larger controlled cohort.
+/ *Certainty Assessment:*:
+    - *Quality:* Medium (peer-reviewed, mechanistically detailed, methodologically contested)
+    - *Sample:* Medium
+    - *Replication:* Contradicted at the population level by @Fraser2026LCcoagulation
+    - *Score:* raw 0.65 → cap 0.60 → population weight 0.85 → *0.51*
+
+=== Pretorius et al.\ 2022 — Microclot and Platelet Pathology in 80 Long COVID Patients
+@Pretorius2022LCmicroclotPrevalence
+
+/ *Full Citation:*: Pretorius E, Venter C, Laubscher GJ, Kotze MJ, Oladejo SO, Watson LR, et al. Prevalence of symptoms, comorbidities, fibrin amyloid microclots and platelet pathology in individuals with Long COVID/Post-Acute Sequelae of COVID-19 (PASC). _Cardiovascular Diabetology_. 2022;21:148.
+/ *DOI:*: #link("https://doi.org/10.1186/s12933-022-01579-5")[10.1186/s12933-022-01579-5]
+/ *PMID:*: 35933347
+/ *PMCID:*: PMC9356426
+/ *Study Design:*: Registry description plus uncontrolled laboratory case series
+/ *Sample Size:*: 845 self-reporting participants; blood analysed in 80
+/ *Key Findings:*:
+    - Fibrin amyloid microclots and platelet pathology reported in all 80 sampled patients
+    - Comorbidity and symptom profile (70% female; fatigue, brain fog, breathlessness, myalgia) judged comparable to other long COVID cohorts
+    - No healthy comparison group and no blinding in the laboratory readout
+/ *Conclusion:*: The authors present microclot and platelet grading as a candidate diagnostic method and call for controlled treatment trials.
+/ *Limitations:*: Uncontrolled; 100% positivity is not a prevalence estimate; the specific claim of universal microclot presence is what @Fraser2026LCcoagulation fails to reproduce.
+/ *Certainty Assessment:*:
+    - *Quality:* Medium-Low (uncontrolled, single centre)
+    - *Sample:* Medium (n=80 sampled)
+    - *Replication:* Contradicted at the population level
+    - *Score:* raw 0.55 → population weight 0.85 → *0.47*
+
+=== Turner et al.\ 2023 — Imaging Flow Cytometry for Fibrin(ogen) Amyloid Microclots
+@Turner2023FlowCytometry
+
+/ *Full Citation:*: Turner S, Laubscher GJ, Khan MA, Kell DB, Pretorius E. Accelerating discovery: A novel flow cytometric method for detecting fibrin(ogen) amyloid microclots using long COVID as a model. _Heliyon_. 2023;9(9):e19605.
+/ *DOI:*: #link("https://doi.org/10.1016/j.heliyon.2023.e19605")[10.1016/j.heliyon.2023.e19605]
+/ *PMID:*: 37809592
+/ *PMCID:*: PMC10558872
+/ *Study Design:*: Method validation study (imaging flow cytometry, Thioflavin T gating)
+/ *Sample Size:*: 20 controls and 40 long COVID patients
+/ *Key Findings:*:
+    - Higher microclot concentration and larger microclot size in long COVID than in controls
+    - The authors argue that flow cytometry adds objectivity and throughput over fluorescence microscopy
+    - Conventional flow cytometry is proposed as an accessible alternative platform
+/ *Conclusion:*: Imaging flow cytometry is presented as a scalable method for microclot detection.
+/ *Limitations:*: Single centre; no blinding reported; the platform itself is not the source of the disagreement with @Fraser2026LCcoagulation, which quantified aggregates by blinded confocal microscopy and found no difference.
+/ *Certainty Assessment:*:
+    - *Quality:* Medium (peer-reviewed method paper)
+    - *Sample:* Medium (n=60)
+    - *Replication:* Contradicted at the population level by @Fraser2026LCcoagulation
+    - *Score:* raw 0.55 → population weight 0.85 → *0.47*
+
+=== Booyens et al.\ 2026 — Post-Translational Modifications in POTS and Long COVID
+@Booyens2026POTSPTM
+
+/ *Full Citation:*: Booyens RM, Vlok M, Bester C, Hira R, Khan MA, Kell DB, Raj SR, Pretorius E. Post-translational modifications in the insoluble fraction of platelet-poor plasma distinguish pre-COVID-19 Postural Orthostatic Tachycardia Syndrome, Long COVID, and Long COVID-POTS: a preliminary study. _Cardiovascular Diabetology_. 2026;25:305.
+/ *DOI:*: #link("https://doi.org/10.1186/s12933-026-03296-9")[10.1186/s12933-026-03296-9]
+/ *PMID:*: 42897639
+/ *PMCID:*: PMC13679111
+/ *Study Design:*: Cross-sectional proteomic comparison of the insoluble platelet-poor plasma fraction
+/ *Sample Size:*: Healthy controls (n=18), pre-COVID-19 POTS (n=20), long COVID with initial orthostatic hypotension (n=19), long COVID-POTS (n=18)
+/ *Key Findings:*:
+    - Few proteins were significantly dysregulated between groups
+    - Disease-specific post-translational modifications were widespread across coagulation, immune, and metabolic pathways
+    - Long COVID with initial orthostatic hypotension showed advanced glycation end-product and oxidation marks on fibrinogen alpha chain
+    - Pre-COVID-19 POTS showed metabolic and immune dysregulation with fewer fibrinogen modifications
+    - Many dysregulated peptides were highly amyloidogenic in silico
+/ *Conclusion:*: The authors argue that post-translational modification state, rather than clot abundance, distinguishes these conditions and may support disease-specific biomarkers.
+/ *Limitations:*: Preliminary; small groups; in-silico amyloidogenicity is a prediction, not a measurement; no replication.
+/ *Note on relation to the null result:*: This is the strongest surviving form of the microclot argument. It shifts the claim from how many aggregates are present to what those aggregates are made of, and therefore does not contradict @Fraser2026LCcoagulation, which measured abundance.
+/ *Certainty Assessment:*:
+    - *Quality:* Medium (peer-reviewed, preliminary by the authors' own description)
+    - *Sample:* Medium (n=75 total)
+    - *Replication:* Single study
+    - *Score:* raw 0.55 → population weight 0.85 → *0.47*
+
+=== Schofield et al.\ 2024 — Microclots Predict DIC and Mortality in Critical Illness
+@Schofield2024microclotsDIC
+
+/ *Full Citation:*: Schofield J, Abrams ST, Jenkins R, Lane S, Wang G, Toh CH. Microclots, as defined by amyloid-fibrinogen aggregates, predict risks of disseminated intravascular coagulation and mortality. _Blood Advances_. 2024;8(10):2499--2508.
+/ *DOI:*: #link("https://doi.org/10.1182/bloodadvances.2023012473")[10.1182/bloodadvances.2023012473]
+/ *PMID:*: 38507683
+/ *PMCID:*: PMC11131067
+/ *Study Design:*: Prospective intensive-care cohort with healthy controls
+/ *Sample Size:*: n=104 critically ill patients; 20 healthy controls
+/ *Key Findings:*:
+    - Microclots detected in 44 of 104 patients (42.3%) on admission and in 0 of 20 controls
+    - Microclot presence associated with a primary diagnosis of sepsis (52.3% vs 31.7%, $p$=0.044)
+    - Multicolour immunofluorescence and proteomics identified the aggregates as amyloid-fibrinogen
+    - High number or large size predicted disseminated intravascular coagulation (OR 51.4, 95% CI 6.3--6721.1, $p$ \< 0.001) and 28-day mortality (OR 5.3, 95% CI 2.0--15.6, $p$ \< 0.001)
+/ *Conclusion:*: Amyloid-fibrinogen microclots are a real, quantifiable signal in severe acute illness and carry prognostic information there.
+/ *Limitations:*: Intensive-care population; not ME/CFS and not ambulatory long COVID; wide confidence intervals.
+/ *Note on relation to the null result:*: The contrast with @Fraser2026LCcoagulation supports a severity-dependent reading: the assay detects aggregates when coagulopathy is severe, and does not detect them in stable ambulatory long COVID.
+/ *Certainty Assessment:*:
+    - *Quality:* High (Blood Advances, prospective, blinded quantification)
+    - *Sample:* Large (n=104)
+    - *Replication:* Single study
+    - *Score:* raw 0.75 → cap 0.60 → population weight 0.75 (critically ill, not ME/CFS) → *0.45*
+
+=== Fox et al.\ 2023 — Cochrane Appraisal of Amyloid Fibrin(ogen) Particles and Plasmapheresis
+@Cochrane2023Plasmapheresis
+
+/ *Full Citation:*: Fox T, Hunt BJ, Ariens RAS, Towers GJ, Lever R, Garner P, Kuehn R. Plasmapheresis to remove amyloid fibrin(ogen) particles for treating the post-COVID-19 condition. _Cochrane Database of Systematic Reviews_. 2023;2023(7):CD015775.
+/ *DOI:*: #link("https://doi.org/10.1002/14651858.CD015775")[10.1002/14651858.CD015775]
+/ *PMID:*: 37491597
+/ *PMCID:*: PMC10368521
+/ *Study Design:*: Systematic review of laboratory studies plus a randomised-trial search
+/ *Sample Size:*: Five laboratory studies appraised; zero eligible randomised trials
+/ *Key Findings:*:
+    - The term "microclots" is judged incorrect for the phenomenon: the particles are amyloid and include fibrin(ogen), and amyloid is not part of a thrombus, which is a fibrin mesh with platelets
+    - Particles were identified in post-COVID-19 condition, healthy individuals, and people with diabetes alike
+    - Three of the five studies relied on visual images and did not quantify particle amount or size
+    - Formal risk-of-bias assessment raised concerns about conduct and reporting
+    - No randomised controlled trial of plasmapheresis met the inclusion criteria
+/ *Conclusion:*: The laboratory evidence is insufficient to support the belief that amyloid fibrin(ogen) particles are associated with post-COVID-19 condition, and there is no trial evidence for plasmapheresis.
+/ *Limitations:*: Search closed October 2022; predates the 2026 controlled studies; does not itself measure microclot burden.
+/ *Certainty Assessment:*:
+    - *Quality:* High (Cochrane methods, formal risk-of-bias assessment)
+    - *Sample:* Not applicable (review)
+    - *Replication:* Consistent with @Fraser2026LCcoagulation
+    - *Score:* raw 0.80 → population weight 0.85 → *0.68*
+
+=== STIMULATE-ICP Consortium 2026 — Anticoagulation, Colchicine, and Antihistamines in Long COVID
+@StimulateICP2026rivaroxaban
+
+/ *Full Citation:*: STIMULATE-ICP Consortium. Efficacy and safety of rivaroxaban, colchicine, and famotidine-loratadine with specialist supportive clinical care for fatigue in patients with post-COVID-19 condition in the UK: a multisite, open-label, randomised controlled trial. _The Lancet Infectious Diseases_. 2026. Online first.
+/ *DOI:*: #link("https://doi.org/10.1016/S1473-3099(26)00242-2")[10.1016/S1473-3099(26)00242-2]
+/ *PMID:*: 42419335
+/ *Study Design:*: Phase 3, four-group, open-label, adaptive platform randomised controlled trial nested in a cluster-randomised integrated-care-pathway trial
+/ *Sample Size:*: n=778 across 12 UK NHS specialist sites
+/ *Key Findings:*:
+    - Rivaroxaban 10 mg for 12 weeks changed the fatigue assessment scale by −1.06 points (95% CI −2.47 to 0.35, $p$=0.139) — null
+    - Colchicine produced −1.49 points ($p$=0.041) and famotidine-loratadine −1.48 points ($p$=0.038), both small and neither sustained to 24 weeks
+/ *Conclusion:*: Anticoagulation did not improve fatigue in long COVID, matching the absence of a laboratory hypercoagulability signal.
+/ *Limitations:*: Open-label; fatigue as primary outcome rather than a coagulopathy-specific endpoint; not open access — abstract-only record, unavailability logged in the cycle search log.
+/ *Certainty Assessment:*:
+    - *Quality:* High (phase 3 randomised platform trial, Lancet Infectious Diseases)
+    - *Sample:* Large (n=778)
+    - *Replication:* Consistent with @Fraser2026LCcoagulation
+    - *Score:* raw 0.80 → cap 0.85 (does not bind) → population weight 0.85 → *0.68*

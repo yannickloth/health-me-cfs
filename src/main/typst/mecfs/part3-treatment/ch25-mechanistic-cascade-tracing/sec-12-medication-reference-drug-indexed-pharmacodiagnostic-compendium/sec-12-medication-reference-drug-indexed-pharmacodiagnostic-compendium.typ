@@ -180,7 +180,7 @@ Corrective — Factor Xa inhibitor reducing microthrombi formation — bleeding 
 
 #finding(claim: [Factor Xa-mediated microclot pathology rate-limiting for tissue hypoperfusion and PEM], explanation: [Factor Xa-mediated microclot pathology rate-limiting for tissue hypoperfusion and PEM. Direct factor Xa inhibition prevents fibrin microclot formation — improvement confirms coagulation-driven microvascular occlusion is the dominant lesion.], certainty: [Low], level: [Partial root cause])
 
-#finding(claim: [Microclot pathology not rate-limiting, or microclots are fibrinolytic-resistant (not Factor Xa-mediated)], explanation: [Microclot pathology not rate-limiting, or microclots are fibrinolytic-resistant (not Factor Xa-mediated). If apixaban fails but nattokinase/lumbrokinase works → the microclot pathology is fibrinolytic-sensitive, not anticoagulation-preventable.], certainty: [Low], level: [Partial root cause])
+#finding(claim: [Microclot pathology not rate-limiting, or microclots are fibrinolytic-resistant (not Factor Xa-mediated)], explanation: [Microclot pathology not rate-limiting, or microclots are fibrinolytic-resistant (not Factor Xa-mediated). If apixaban fails but nattokinase/lumbrokinase works → the microclot pathology is fibrinolytic-sensitive, not anticoagulation-preventable. One factor Xa inhibitor has now failed in a randomised test: rivaroxaban produced no fatigue benefit over 12 weeks in 778 never-hospitalised post-COVID patients, adjusted difference $-1.06$ points (95% CI $-2.47$ to $0.35$) @StimulateICP2026rivaroxaban. That instantiates the predicted branch without resolving it, because the fibrinolytic arm of the differential remains untested.], certainty: [Low], level: [Partial root cause])
 
 #strong[SE] Bleeding at prophylactic dose → hemostatic reserve critically low — the coagulation system is already strained; microclots may be compensatory, not pathological (Pattern 4). No bleeding at therapeutic dose → coagulation system intact — safe to continue (Pattern 5).
 
@@ -1571,7 +1571,9 @@ Corrective — expands regulatory T cells; if autoantibodies fall, Treg deficien
 === Lumbrokinase
 
 *Appears in:* Cross-reference matrix Group A.
-Corrective — fibrinolytic enzyme degrading fibrin microthrombi — research-stage; limited quality control
+Corrective — fibrinolytic enzyme degrading fibrin microthrombi — research-stage; limited quality control.
+
+*Status of the target.* The burden this enzyme is meant to remove has not been shown to be in excess: a controlled count in 151 never-hospitalised Long COVID participants found microaggregate number, area and fibrin fibre density comparable to recovered controls, with normal D-dimer, PAI-1 and fibrinogen @Fraser2026LCcoagulation. No controlled trial has tested lumbrokinase or any fibrinolytic enzyme in ME/CFS, and the bleeding risk is real at fibrinolytic doses. The differential below therefore remains a research instrument, not a basis for prescribing.
 
 
 #finding(claim: [Fibrinolytic-accessible microclot pathology rate-limiting], explanation: [Fibrinolytic-accessible microclot pathology rate-limiting. Lumbrokinase directly degrades fibrin and fibrinogen — improvement confirms fibrin is the dominant structural component of microclots and is lumbrokinase-sensitive.], certainty: [Low], level: [Partial root cause])

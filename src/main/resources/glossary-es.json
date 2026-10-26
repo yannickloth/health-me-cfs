@@ -13036,5 +13036,130 @@
   "label": "desmoralización",
   "category": "symptom",
   "definition": "Un estado de desesperanza, desamporo y pérdida de sentido en el que la capacidad para disfrutar se conserva parcialmente. Común en enfermedades crónicas graves; puede existir sin depresión y a menudo precede a ella."
+ },
+ "Microaggregate": {
+  "label": "Microagregado (microagregado de fibrina/fibrinógeno)",
+  "category": "concept",
+  "definition": "Partículas pequeñas ricas en proteínas que resisten la disolución y son visibles en plasma pobre en plaquetas mediante microscopía de fluorescencia; se denominan microcoágulos en gran parte de la literatura sobre COVID persistente, aunque son agregados proteicos de tipo amiloide y no trombos. No está resuelto si aumentan en la enfermedad: un recuento controlado en COVID persistente nunca hospitalizado halló número, área y densidad de fibras de fibrina comparables a controles recuperados, y la prueba carece de patrón de referencia externo.",
+  "synonyms": [
+   "microagregados",
+   "microagregado de fibrina",
+   "microcoágulos"
+  ]
+ },
+ "Thromboelastography": {
+  "label": "Tromboelastografía (TEG)",
+  "category": "method",
+  "definition": "Prueba viscoelástica en sangre total que registra la formación, la firmeza y la lisis del coágulo a lo largo del tiempo (tiempo de reacción, cinética de coagulación, ángulo alfa, amplitud máxima, lisis). Mide las propiedades mecánicas del coágulo, que dependen de las plaquetas y de la concentración de fibrinógeno tanto como de la generación de fibrina, por lo que un trazado anómalo no demuestra por sí solo una mayor actividad coagulante.",
+  "synonyms": [
+   "TEG",
+   "tromboelastograma"
+  ]
+ },
+ "Fibrinolysis": {
+  "label": "Fibrinólisis",
+  "category": "pathway",
+  "definition": "Proceso que disuelve los coágulos de fibrina: la plasmina, generada a partir del plasminógeno por el activador tisular del plasminógeno, escinde la malla de fibrina. Está frenada por inhibidores como el PAI-1, y su eficacia se mide como tiempo de lisis del coágulo. Una fibrinólisis alterada prolonga la persistencia del coágulo sin aumentar necesariamente su formación."
+ },
+ "Fibrin": {
+  "label": "Fibrina",
+  "category": "protein",
+  "definition": "La malla proteica insoluble de un coágulo sanguíneo, formada cuando la trombina escinde el fibrinógeno en monómeros que polimerizan y son reticulados por el factor XIII. La densidad y el grosor de las fibras determinan la resistencia del coágulo a la disolución, por lo que la densidad de fibras se mide por separado del recuento de agregados."
+ },
+ "Anticoagulant": {
+  "label": "Anticoagulante",
+  "category": "medication_class",
+  "definition": "Clase farmacológica que reduce la formación del coágulo, inhibiendo un factor de coagulación (por ejemplo el factor Xa o la trombina) o bloqueando la síntesis dependiente de vitamina K de los factores de coagulación. Los anticoagulantes reducen el riesgo trombótico pero conllevan riesgo hemorrágico, y ninguno ha mostrado beneficio sobre la fatiga en EM/SFC ni en la condición post-COVID nunca hospitalizada.",
+  "class": "Anticoagulante",
+  "rx": "Con receta"
+ },
+ "Rivaroxaban": {
+  "label": "Rivaroxaban",
+  "category": "medication",
+  "definition": "Un inhibidor oral directo del factor Xa usado en tromboembolia venosa y fibrilación auricular. En un ensayo aleatorizado de cuatro brazos en pacientes post-COVID nunca hospitalizados no mejoró la fatiga (diferencia ajustada -1,06 puntos, IC del 95 % -2,47 a 0,35); conlleva riesgo hemorrágico y no es un tratamiento para EM/SFC.",
+  "generic": "Rivaroxaban",
+  "brand": "Xarelto",
+  "class": "Inhibidor directo del factor Xa / anticoagulante",
+  "rx": "Con receta",
+  "sources": [
+   {
+    "label": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Rivaroxaban%5BMeSH%5D"
+   },
+   {
+    "label": "DailyMed",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Rivaroxaban"
+   },
+   {
+    "label": "PubChem",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Rivaroxaban"
+   }
+  ]
+ },
+ "Plasmapheresis": {
+  "label": "Plasmaféresis",
+  "category": "treatment",
+  "definition": "Eliminación extracorpórea de plasma, sustituido por albúmina o plasma de donante, para retirar anticuerpos circulantes, inmunocomplejos o proteínas grandes. A veces se comercializa para EM/SFC y COVID persistente como forma de eliminar microagregados; ningún ensayo aleatorizado la ha evaluado en la condición post-COVID.",
+  "synonyms": [
+   "recambio plasmático"
+  ]
+ },
+ "Post-translational modification": {
+  "label": "Modificación postraduccional (PTM)",
+  "category": "concept",
+  "definition": "Cambio químico de una proteína después de su síntesis, como fosforilación, oxidación, citrulinación o glicación, que puede alterar su función, estabilidad o interacciones. Las modificaciones del fibrinógeno se estudian como posible explicación de la resistencia del coágulo, pero la congelación y descongelación puede generar por sí misma tales modificaciones.",
+  "synonyms": [
+   "PTM",
+   "PTMs",
+   "modificaciones postraduccionales"
+  ]
+ },
+ "CYP3A4": {
+  "label": "CYP3A4",
+  "category": "enzyme",
+  "definition": "La enzima citocromo P450 que metaboliza aproximadamente la mitad de los fármacos prescritos, incluidos la colchicina y muchas estatinas. Los inhibidores potentes como la claritromicina o los antifúngicos azólicos elevan las concentraciones y el riesgo de toxicidad, mientras que los inductores las reducen."
+ },
+ "P-selectin": {
+  "label": "P-selectina (CD62P)",
+  "category": "molecule",
+  "definition": "Molécula de adhesión almacenada en los gránulos alfa plaquetarios y en los cuerpos de Weibel-Palade endoteliales, expuesta en la superficie celular al activarse y liberada al plasma como P-selectina soluble. Las formas de superficie y soluble miden cosas distintas, por lo que una cifra plasmática normal no excluye la activación plaquetaria.",
+  "synonyms": [
+   "CD62P",
+   "P-selectina soluble"
+  ]
+ },
+ "PAI-1": {
+  "label": "PAI-1",
+  "category": "enzyme",
+  "definition": "Inhibidor del activador del plasminógeno-1: principal inhibidor del activador tisular del plasminógeno y, por tanto, freno de la fibrinólisis. Una actividad elevada de PAI-1 prolonga el tiempo de lisis del coágulo y se asocia a trombosis y a disfunción metabólica.",
+  "synonyms": [
+   "inhibidor del activador del plasminógeno-1"
+  ]
+ },
+ "Fatigue Assessment Scale": {
+  "label": "Fatigue Assessment Scale (FAS)",
+  "category": "measurement",
+  "definition": "Cuestionario autoadministrado de 10 ítems que puntúa la fatiga de 10 a 50, donde puntuaciones más altas indican peor fatiga. Fue el criterio principal del ensayo STIMULATE-ICP, que predefinió un cambio de aproximadamente el 10 % (unos 4 puntos) como clínicamente significativo.",
+  "synonyms": [
+   "FAS"
+  ]
+ },
+ "CD40L": {
+  "label": "CD40L",
+  "category": "molecule",
+  "definition": "Ligando de CD40: proteína de superficie de plaquetas y linfocitos T activados que también circula en forma soluble y promueve inflamación y activación endotelial. El CD40L soluble se usa como marcador de activación plaquetaria y es sensible al manejo preanalítico.",
+  "synonyms": [
+   "ligando de CD40",
+   "CD40L soluble"
+  ]
+ },
+ "Von Willebrand factor": {
+  "label": "Factor de von Willebrand (VWF)",
+  "category": "protein",
+  "definition": "Proteína plasmática adhesiva grande que une colágeno y la glucoproteína Ib plaquetaria, mediando la adhesión plaquetaria en los sitios de lesión vascular, y que además transporta el factor VIII. Su nivel antigénico se usa como marcador de activación endotelial.",
+  "synonyms": [
+   "VWF",
+   "vWF"
+  ]
  }
 }

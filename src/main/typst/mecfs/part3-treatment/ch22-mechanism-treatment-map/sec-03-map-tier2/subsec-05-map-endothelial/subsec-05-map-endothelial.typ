@@ -12,10 +12,10 @@ Thromboinflammation, endothelial dysfunction, and microclot formation cause tiss
     [*Treatment*], [*Mechanism of action*], [*Category*], [*Energy*], [*Evidence*],
 
     [HELP apheresis], [Fibrinogen precipitation + microclot removal], [Procedure], [C], [Trial — uncontrolled retrospective, Long COVID n=31],
-    [Plasma exchange (TPE)], [Microclot + mediator + autoantibody removal], [Procedure], [C], [Trial — Phase 2 RCT _negative_],
+    [Plasma exchange (TPE)], [Microclot + mediator + autoantibody removal], [Procedure], [C], [Trial — Phase 2 RCT _negative_; no randomised study in post-COVID condition @Cochrane2023Plasmapheresis],
     [Sulodexide], [Endothelial glycocalyx restoration], [Medication], [B], [Experimental],
     [Statin + ARB combination], [Endothelial protection + anti-inflammatory], [Medication], [B], [Experimental],
-    [Triple anticoagulant protocol], [Microclot dissolution (aspirin + clopidogrel + apixaban)], [Medication], [C], [Experimental; _high bleeding risk_; single-group origin (Pretorius/Kell); not guideline-supported; significant medicolegal exposure for prescribing clinicians],
+    [Triple anticoagulant protocol], [Microclot dissolution (aspirin + clopidogrel + apixaban)], [Medication], [C], [Experimental; _high bleeding risk_; single-group origin (Pretorius/Kell); not guideline-supported; significant medicolegal exposure for prescribing clinicians; the anticoagulant principle failed in a randomised test of rivaroxaban @StimulateICP2026rivaroxaban],
     [Omega-3 (EPA/DHA)], [Anti-platelet aggregation; endothelial membrane protection], [Supplement], [A], [Clinical use],
   ),
   caption: [Treatments targeting endothelial activation and microclotting],

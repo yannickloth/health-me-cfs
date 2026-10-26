@@ -75,7 +75,7 @@ What if ME/CFS is fundamentally an endotheliopathy—a chronic disease of blood 
 
     - Endothelial-protective supplements (L-arginine, L-citrulline, beetroot/nitrates) might help
     - Statins (pleiotropic endothelial benefits beyond cholesterol) might be beneficial
-    - Low-dose aspirin or other anti-platelet agents might reduce microclot burden
+    - Low-dose aspirin or other anti-platelet agents might reduce microclot burden (the burden itself is unconfirmed: see @lim:anticoagulation-no-trial-support)
     - ACE inhibitors (endothelial-protective independent of blood pressure) could be therapeutic
     - HELP apheresis (removes fibrinogen and inflammatory mediators) might address both cause and consequence
 
@@ -268,7 +268,7 @@ If endotheliopathy is central, a vascular-focused protocol might help:
 
     - *Reduce endothelial activation:* Statin therapy (pleiotropic endothelial effects)
     - *Support NO production:* L-citrulline (better than L-arginine for sustained NO)
-    - *Address microclots:* Nattokinase (fibrinolytic enzyme) or low-dose anticoagulation if indicated
+    - *Address microclots:* Nattokinase (fibrinolytic enzyme) or low-dose anticoagulation if indicated — neither is supported by controlled trial evidence in this population (@lim:anticoagulation-no-trial-support)
     - *Protect endothelium:* Sulforaphane (Nrf2 activation), omega-3s, anthocyanins
     - *Reduce thrombotic tendency:* Aspirin, adequate hydration, compression if tolerated
 

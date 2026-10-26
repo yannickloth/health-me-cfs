@@ -1583,3 +1583,24 @@ Prevents re-processing of already-integrated content.
 | https://pubmed.ncbi.nlm.nih.gov/40203844/ (Farhat 2025) | pubmed (eutils) | 2026-10-20 | — | bib/neurology-comorbidities.bib (@Farhat2025CVsafety), appendix-h — PDF unavailable (Lancet Psychiatry paywall) |
 | https://pubmed.ncbi.nlm.nih.gov/28236285/ (Hennissen 2017) | pubmed/europepmc (eutils) | 2026-10-20 | — | bib/neurology-comorbidities.bib (@Hennissen2017CVmeta), appendix-h |
 | https://pmc-oa-opendata.s3.amazonaws.com/PMC5336546.1/PMC5336546.1.pdf | PMC OA S3 | 2026-10-20 | — | Literature/treatments/Hennissen2017CVmeta/ |
+
+---
+
+## Long-COVID Coagulation Null Result (longcovid-coagulation-null-2026) Literature Search
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| Europe PMC REST (idlist + core), PMC OA S3 mirror | 2026-10-26 | Driving paper: Fraser 2026 HemaSphere, DOI 10.1002/hem3.70501, PMID 42903049, PMCID PMC13680132, CC-BY, published 2026-10-19, PubMed type = Letter. Nine further papers included (7 new bib entries in `bib/vascular.bib`, 2 pre-existing). 12 framing queries F1–F9 + Q10–Q12, 613 unique records screened, 10 included. **Key operational finding: the PMC OA S3 mirror (`pmc-oa-opendata.s3.amazonaws.com/PMC<id>.1/PMC<id>.1.pdf`) returns publisher PDFs while every other route (Wiley pdfdirect, PMC article PDF, Europe PMC render/fulltextRepo, MDPI, Unpaywall) serves a bot-challenge HTML page.** Use S3 first on future cycles. Search log: `ops/research/search-log-longcovid-coagulation-null-2026-2026-10-26.md`. |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| https://onlinelibrary.wiley.com/doi/10.1002/hem3.70501 (Fraser 2026, DOI 10.1002/hem3.70501, PMID 42903049) | wiley / HemaSphere | 2026-10-26 | — | driving paper — bib/vascular.bib (@Fraser2026LCcoagulation), ch11 sec-05, ch20 sec-06, appendix-h |
+| https://pmc-oa-opendata.s3.amazonaws.com/PMC13680132.1/PMC13680132.1.pdf | PMC OA S3 | 2026-10-26 | — | Literature/clinical-studies/Fraser2026LCcoagulation/ |
+| https://pmc-oa-opendata.s3.amazonaws.com/PMC8381139.1/PMC8381139.1.pdf (Pretorius 2021, PMID 34425843) | PMC OA S3 | 2026-10-26 | — | Literature/mechanisms/Pretorius2021LCantiplasmin/ — bib/vascular.bib (@Pretorius2021LCantiplasmin) |
+| https://pmc-oa-opendata.s3.amazonaws.com/PMC9356426.1/PMC9356426.1.pdf (Pretorius 2022, PMID 35933347) | PMC OA S3 | 2026-10-26 | — | Literature/mechanisms/Pretorius2022LCmicroclotPrevalence/ — bib/vascular.bib (@Pretorius2022LCmicroclotPrevalence) |
+| https://pmc-oa-opendata.s3.amazonaws.com/PMC10558872.1/PMC10558872.1.pdf (Turner 2023, PMID 37809592) | PMC OA S3 | 2026-10-26 | — | Literature/mechanisms/Turner2023FlowCytometry/ — bib/vascular.bib (@Turner2023FlowCytometry) |
+| https://pmc-oa-opendata.s3.amazonaws.com/PMC9413879.1/PMC9413879.1.pdf (Nunes 2022, PMID 36015078) | PMC OA S3 | 2026-10-26 | already in bib (@NunesPlatelets2022mecfs) | Literature/mechanisms/NunesPlatelets2022mecfs/ |
+| https://pmc-oa-opendata.s3.amazonaws.com/PMC13679111.1/PMC13679111.1.pdf (Booyens 2026, PMID 42897639) | PMC OA S3 | 2026-10-26 | — | Literature/mechanisms/Booyens2026POTSPTM/ — bib/vascular.bib (@Booyens2026POTSPTM) |
+| https://pmc-oa-opendata.s3.amazonaws.com/PMC11131067.1/PMC11131067.1.pdf (Schofield 2024, PMID 38507683) | PMC OA S3 | 2026-10-26 | — | Literature/clinical-studies/Schofield2024microclotsDIC/ — bib/vascular.bib (@Schofield2024microclotsDIC) |
+| https://pmc-oa-opendata.s3.amazonaws.com/PMC10368521.1/PMC10368521.1.pdf (Fox 2023 Cochrane, PMID 37491597) | PMC OA S3 | 2026-10-26 | — | Literature/reviews/Cochrane2023Plasmapheresis/ — bib/vascular.bib (@Cochrane2023Plasmapheresis) |
+| https://pubmed.ncbi.nlm.nih.gov/42274123/ (Saleem 2026 review) | pubmed/europepmc | 2026-10-26 | already in bib (@Saleem2026MicroclotProfiling) | Literature/reviews/Saleem2026TEGreview/ — PDF unavailable (not OA); DOI discrepancy noted in search log |
+| https://pubmed.ncbi.nlm.nih.gov/42419335/ (STIMULATE-ICP 2026 RCT) | pubmed/europepmc | 2026-10-26 | — | Literature/treatments/StimulateICP2026rivaroxaban/ — bib/vascular.bib (@StimulateICP2026rivaroxaban) — PDF unavailable (Lancet Infect Dis paywall) |

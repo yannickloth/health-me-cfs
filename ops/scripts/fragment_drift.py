@@ -26,6 +26,17 @@ Checks (deterministic, no LLM):
 Extraction uses pdftotext (poppler). If it is missing, every check degrades to
 SOURCE_UNREADABLE — warn only; that outcome is not an accusation.
 
+Key resolution matches the cite key against BOTH the file stem and the parent
+directory name, and prefers PDF over XML/TXT. Without the directory match, every
+abstract-only paper stored the repo's conventional way
+(`Literature/<category>/<CiteKey>/abstract.txt`, 216 such folders) resolved to
+SOURCE_MISSING, so the abstract-only claims — often the most load-bearing ones —
+escaped verification entirely. Extends the original stem-only resolver; no
+behaviour change for PDF-backed keys.
+
+Verify: `python3 ops/scripts/fragment_drift.py ops/research/fragments-*.md` must
+report SOURCE_MISSING only for keys with no file at all under `Literature/`.
+
 Usage:
   python3 ops/scripts/fragment_drift.py [fragment-files...] [--strict] [--literature DIR]
 No fragment files given -> all ops/research/fragments-*.md.
@@ -98,10 +109,18 @@ class SourceIndex:
 
     def resolve(self, key: str) -> Path | None:
         stem = key.lstrip("@").lower()
-        cands = [p for p in self.sources if stem in p.stem.lower()]
+        # Match the cite key against the file stem OR the containing folder name.
+        # Abstract-only papers live as Literature/<category>/<CiteKey>/abstract.txt,
+        # so a stem-only match can never see them.
+        cands = [p for p in self.sources
+                 if stem in p.stem.lower() or stem in p.parent.name.lower()]
         if not cands:
             cands = [p for p in self.sources if p.stem.endswith(".fulltext") and stem in p.stem.lower()]
-        return min(cands, key=lambda p: len(p.stem)) if cands else None
+        if not cands:
+            return None
+        # Prefer a full text over an abstract: PDF first, then XML, then TXT.
+        rank = {".pdf": 0, ".xml": 1, ".txt": 2}
+        return min(cands, key=lambda p: (rank.get(p.suffix.lower(), 3), len(p.stem)))
 
     def text(self, path: Path) -> str | None:
         if path not in self._text:

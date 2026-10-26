@@ -40,3 +40,5 @@ A patient-specific null matrix is a grid: each row is a medication trialled, eac
 For the formal null matrix methodology including drug-hypothesis constraint-satisfaction scoring and spectral resolution limits, see @sec:pharmacodiagnostic-matrix-clinical.
 
 For the limits of what each null can conclude about viral, autoimmune, genetic, or mechanical origin specifically — including why a rituximab null does not rule out autoimmune origin and a valacyclovir null does not rule out viral origin — see @sec:origin-elimination.
+
+#include "subsec-trial-level-null-dissociation/subsec-trial-level-null-dissociation.typ"

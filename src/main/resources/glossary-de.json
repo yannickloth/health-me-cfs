@@ -14671,5 +14671,130 @@
     "label": "Demoralisierung",
     "category": "symptom",
     "definition": "Ein Zustand von Hoffnungslosigkeit, Hilflosigkeit und Sinnverlust, bei dem die Fähigkeit zur Freude teilweise erhalten bleibt. Häufig bei schweren chronischen Erkrankungen; kann ohne Depression bestehen und ihr vorausgehen."
+  },
+  "Microaggregate": {
+    "label": "Mikroaggregat (Fibrin(ogen)-Mikroaggregat)",
+    "category": "concept",
+    "definition": "Kleine proteinreiche Partikel, die sich nicht auflösen lassen und im plättchenarmen Plasma fluoreszenzmikroskopisch sichtbar sind; in einem Großteil der Long-COVID-Literatur als Mikrogerinnsel bezeichnet, obwohl es sich um amyloidartige Proteinaggregate und nicht um Thromben handelt. Ob sie bei Erkrankung vermehrt auftreten, ist ungeklärt: Eine kontrollierte Zählung bei nie hospitalisierten Long-COVID-Patienten ergab Anzahl, Fläche und Fibrinfaserdichte vergleichbar mit genesenen Kontrollen, und der Assay besitzt keinen externen Referenzstandard.",
+    "synonyms": [
+      "Mikroaggregate",
+      "Fibrin(ogen)-Mikroaggregat",
+      "Mikrogerinnsel"
+    ]
+  },
+  "Thromboelastography": {
+    "label": "Thromboelastographie (TEG)",
+    "category": "method",
+    "definition": "Ein viskoelastischer Vollbluttest, der Gerinnselbildung, -festigkeit und -auflösung über die Zeit erfasst (Reaktionszeit, Gerinnungskinetik, Alpha-Winkel, maximale Amplitude, Lyse). Er misst die mechanischen Eigenschaften des Gerinnsels, die von Thrombozyten und Fibrinogenkonzentration ebenso abhängen wie von der Fibrinbildung; eine auffällige Kurve belegt daher für sich genommen keine gesteigerte Gerinnungsaktivität.",
+    "synonyms": [
+      "TEG",
+      "Thromboelastogramm"
+    ]
+  },
+  "Fibrinolysis": {
+    "label": "Fibrinolyse",
+    "category": "pathway",
+    "definition": "Der Vorgang, der Fibringerinnsel auflöst: Plasmin, aus Plasminogen durch gewebespezifischen Plasminogenaktivator gebildet, spaltet das Fibrinnetz. Er wird durch Inhibitoren wie PAI-1 gehemmt, und seine Effizienz wird als Gerinnsellysezeit gemessen. Eine gestörte Fibrinolyse verlängert die Persistenz des Gerinnsels, ohne zwangsläufig die Gerinnselbildung zu erhöhen."
+  },
+  "Fibrin": {
+    "label": "Fibrin",
+    "category": "protein",
+    "definition": "Das unlösliche Proteinnetz eines Blutgerinnsels, das entsteht, wenn Thrombin Fibrinogen in Monomere spaltet, die polymerisieren und durch Faktor XIII quervernetzt werden. Faserdichte und -dicke bestimmen, wie widerstandsfähig ein Gerinnsel gegenüber Auflösung ist; deshalb wird die Faserdichte getrennt von der Aggregatanzahl gemessen."
+  },
+  "Anticoagulant": {
+    "label": "Antikoagulans",
+    "category": "medication_class",
+    "definition": "Eine Arzneimittelklasse, die die Gerinnselbildung verringert, indem sie einen Gerinnungsfaktor hemmt (etwa Faktor Xa oder Thrombin) oder die vitamin-K-abhängige Synthese von Gerinnungsfaktoren blockiert. Antikoagulanzien senken das Thromboserisiko, bergen aber ein Blutungsrisiko; kein Antikoagulans hat bei ME/CFS oder beim nie hospitalisierten Post-COVID-Zustand einen Nutzen für die Fatigue gezeigt.",
+    "class": "Antikoagulans",
+    "rx": "Rezeptpflichtig"
+  },
+  "Rivaroxaban": {
+    "label": "Rivaroxaban",
+    "category": "medication",
+    "definition": "Ein oraler direkter Faktor-Xa-Inhibitor, verwendet bei venöser Thromboembolie und Vorhofflimmern. In einer vierarmigen randomisierten Studie bei nie hospitalisierten Post-COVID-Patienten verbesserte er die Fatigue nicht (adjustierte Differenz -1,06 Punkte, 95%-KI -2,47 bis 0,35); er birgt ein Blutungsrisiko und ist keine Behandlung für ME/CFS.",
+    "generic": "Rivaroxaban",
+    "brand": "Xarelto",
+    "class": "Direkter Faktor-Xa-Inhibitor / Antikoagulans",
+    "rx": "Rezeptpflichtig",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Rivaroxaban%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Rivaroxaban"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Rivaroxaban"
+      }
+    ]
+  },
+  "Plasmapheresis": {
+    "label": "Plasmapherese",
+    "category": "treatment",
+    "definition": "Extrakorporale Entfernung von Plasma, das durch Albumin oder Spenderplasma ersetzt wird, um zirkulierende Antikörper, Immunkomplexe oder große Proteine zu entfernen. Sie wird bei ME/CFS und Long COVID gelegentlich als Mittel zur Entfernung von Mikroaggregaten vermarktet; keine randomisierte Studie hat sie beim Post-COVID-Zustand geprüft.",
+    "synonyms": [
+      "Plasmaaustausch"
+    ]
+  },
+  "Post-translational modification": {
+    "label": "Posttranslationale Modifikation (PTM)",
+    "category": "concept",
+    "definition": "Eine chemische Veränderung eines Proteins nach der Synthese, etwa Phosphorylierung, Oxidation, Citrullinierung oder Glykierung, die Funktion, Stabilität oder Interaktionen verändern kann. Fibrinogenmodifikationen werden als mögliche Erklärung für Gerinnselresistenz untersucht, doch Einfrier-Auftau-Behandlung kann solche Modifikationen selbst erzeugen.",
+    "synonyms": [
+      "PTM",
+      "PTMs",
+      "posttranslationale Modifikationen"
+    ]
+  },
+  "CYP3A4": {
+    "label": "CYP3A4",
+    "category": "enzyme",
+    "definition": "Das Cytochrom-P450-Enzym, das etwa die Hälfte aller verschreibungspflichtigen Arzneimittel metabolisiert, darunter Colchicin und viele Statine. Starke Inhibitoren wie Clarithromycin oder Azol-Antimykotika erhöhen Arzneimittelspiegel und Toxizitätsrisiko, Induktoren senken sie."
+  },
+  "P-selectin": {
+    "label": "P-Selektin (CD62P)",
+    "category": "molecule",
+    "definition": "Ein Adhäsionsmolekül, das in Alpha-Granula der Thrombozyten und in Weibel-Palade-Körperchen des Endothels gespeichert ist, bei Aktivierung auf der Zelloberfläche erscheint und als lösliches P-Selektin ins Plasma abgegeben wird. Oberflächliche und lösliche Form messen Unterschiedliches; ein normaler Plasmaspiegel schließt eine Thrombozytenaktivierung daher nicht aus.",
+    "synonyms": [
+      "CD62P",
+      "lösliches P-Selektin"
+    ]
+  },
+  "PAI-1": {
+    "label": "PAI-1",
+    "category": "enzyme",
+    "definition": "Plasminogen-Aktivator-Inhibitor-1: der wichtigste Inhibitor des gewebespezifischen Plasminogenaktivators und damit eine Bremse der Fibrinolyse. Hohe PAI-1-Aktivität verlängert die Gerinnsellysezeit und ist mit Thrombose und metabolischer Dysfunktion assoziiert.",
+    "synonyms": [
+      "Plasminogen-Aktivator-Inhibitor-1"
+    ]
+  },
+  "Fatigue Assessment Scale": {
+    "label": "Fatigue Assessment Scale (FAS)",
+    "category": "measurement",
+    "definition": "Ein Selbstauskunftsfragebogen mit 10 Items, der Fatigue von 10 bis 50 bewertet, wobei höhere Werte stärkere Fatigue anzeigen. Er war der primäre Endpunkt der STIMULATE-ICP-Studie, die eine Änderung von etwa 10 % (rund 4 Punkte) als klinisch bedeutsam vorab definierte.",
+    "synonyms": [
+      "FAS"
+    ]
+  },
+  "CD40L": {
+    "label": "CD40L",
+    "category": "molecule",
+    "definition": "CD40-Ligand: ein Oberflächenprotein aktivierter Thrombozyten und T-Zellen, das auch in löslicher Form zirkuliert und Entzündung sowie Endothelaktivierung fördert. Lösliches CD40L dient als Marker der Thrombozytenaktivierung und ist empfindlich gegenüber präanalytischer Behandlung.",
+    "synonyms": [
+      "CD40-Ligand",
+      "lösliches CD40L"
+    ]
+  },
+  "Von Willebrand factor": {
+    "label": "Von-Willebrand-Faktor (VWF)",
+    "category": "protein",
+    "definition": "Ein großes adhäsives Plasmaprotein, das Kollagen und Thrombozyten-Glykoprotein Ib bindet, die Thrombozytenadhäsion an Gefäßverletzungen vermittelt und außerdem Faktor VIII trägt. Sein Antigenspiegel dient als Marker der Endothelaktivierung.",
+    "synonyms": [
+      "VWF",
+      "vWF"
+    ]
   }
 }

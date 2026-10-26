@@ -1,0 +1,13 @@
+#import "../../../../../shared/environments.typ": *
+
+#speculation(title: [Platelet Priming Without Fibrin Pathway Activation])[
+*Certainty: 0.35.* Two findings that look contradictory are compatible if they measure different stages of the same process. In one cohort of 25 patients, ME/CFS platelets were reported as pre-activated: spreading score 2.72 $\pm$ 1.24 against 1.00 in controls, hyperactivation on PAC-1 and CD62P staining, significant hypercoagulability on thromboelastography of whole blood and platelet-poor plasma, and roughly half of participants outside the normal ranges for the reaction time @NunesPlatelets2022mecfs. A large Long COVID cohort found D-dimer, Clauss fibrinogen, von Willebrand factor antigen, and 50% clot lysis time all normal @Fraser2026LCcoagulation.
+
+The reconciliation is that platelet *readiness* and fibrin *turnover* are separable. Thromboelastography measures the mechanical strength of a forming clot, which depends on platelet contribution and fibrinogen concentration; it does not measure fibrin generation or degradation in the circulation. A patient can have platelets that aggregate too readily and a fibrinolytic system that is keeping up, in which case the tracing looks hypercoagulable while D-dimer and lysis time stay normal.
+
+One observation cuts against the simple version of this account. Soluble P-selectin was normal in the null cohort @Fraser2026LCcoagulation, and soluble P-selectin is released from activated platelets. If systemic platelet activation were substantial, plasma P-selectin should rise with it. The hypothesis therefore has to be stated in its stronger form: the priming is a property of the platelet surface, detectable by flow cytometry on whole blood, and it does not shed enough soluble marker to appear in plasma.
+
+*Falsifiable prediction:* whole-blood flow cytometry should show elevated platelet surface P-selectin and PAC-1 binding in ME/CFS while plasma soluble P-selectin, D-dimer, and clot lysis time remain normal. Normal surface markers on whole-blood flow cytometry would refute the priming account and leave the thromboelastography result unexplained.
+
+*Consequence:* This distinction decides which drug class is worth testing. If the abnormality is platelet priming without fibrin generation, anticoagulants should fail — as they did in the one large randomised test @StimulateICP2026rivaroxaban — while an antiplatelet strategy would remain open. It also tells patients that a normal clotting panel does not exclude a platelet abnormality. (Origin: brainstorm.)
+] <spec:platelet-priming-without-fibrin-activation>

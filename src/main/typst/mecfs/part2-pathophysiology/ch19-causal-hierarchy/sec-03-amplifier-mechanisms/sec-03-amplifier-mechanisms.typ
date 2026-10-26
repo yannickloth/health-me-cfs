@@ -111,6 +111,8 @@ Endothelial activation fails Criterion 1 because it requires an upstream inflam
 
 Therapeutic tractability is moderate. Anticoagulant therapy (low-dose aspirin, low-molecular-weight heparin), fibrinolytic approaches (nattokinase, lumbrokinase), and endothelial support (omega-3 fatty acids, sulforaphane for endothelial Nrf2 activation) may improve perfusion and reduce microclot burden. However, without addressing the upstream immune activation that drives ongoing endothelial activation, the benefit is likely to be partial and to require indefinite continuation.
 
+*The anticoagulant and fibrinolytic arms of that list are not supported by trial evidence.* In the one large randomised test, 12 weeks of the factor Xa inhibitor rivaroxaban in 778 never-hospitalised post-COVID patients produced no fatigue benefit (adjusted difference −1.06 points, 95% CI −2.47 to 0.35) @StimulateICP2026rivaroxaban, and no randomised trial has tested plasmapheresis in post-COVID condition @Cochrane2023Plasmapheresis. The fibrinolytic enzymes have no controlled efficacy data in ME/CFS and carry bleeding risk. These options therefore remain mechanistic conjectures, not therapeutic recommendations, and the tractability claim above should be read as applying to endothelial support rather than to the anticoagulant arm.
+
 === Epigenetic Consolidation
 <sec:amp-epigenetic>
 

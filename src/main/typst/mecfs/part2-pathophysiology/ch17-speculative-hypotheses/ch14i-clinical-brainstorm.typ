@@ -234,7 +234,7 @@ Circadian disruption in ME/CFS is documented but causality is not established. S
 // =============================================================================
 
 #hypothesis(title: [Capillary Occlusion as Final Common Pathway])[
-Emerging Long COVID research has identified microclots — fibrin deposits that occlude capillaries — as a potential mechanism @VanderLinden2023microclots. If capillaries are blocked, oxygen delivery fails regardless of mitochondrial health.
+Emerging Long COVID research has identified microclots — fibrin deposits that occlude capillaries — as a potential mechanism @VanderLinden2023microclots, though whether they are more abundant than in controls is contested (@oq:fibrinogen-microaggregate-abundance). If capillaries are blocked, oxygen delivery fails regardless of mitochondrial health.
 
 *How microclots could explain ME/CFS features:*
 
@@ -273,6 +273,8 @@ All listed interventions carry significant risks and require medical supervision
 
 #prediction(title: [Microclot Burden Correlates With Exercise Intolerance])[
 Fluorescence microscopy-quantified microclot burden in platelet-poor plasma will correlate with Day 2 CPET decrement ($r > 0.4$), and triple anticoagulation (aspirin + clopidogrel + apixaban) will reduce microclot burden by $>$50% with corresponding improvement in exercise capacity at 8 weeks.
+
+*Status after the 2026 evidence.* The intervention arm has a randomised test in its anticoagulant component and did not pass it: 12 weeks of rivaroxaban produced no fatigue benefit in 778 never-hospitalised post-COVID patients (adjusted difference $-1.06$ points, 95% CI $-2.47$ to $0.35$) @StimulateICP2026rivaroxaban. The burden the drugs are meant to remove was also not present in excess in the largest controlled count @Fraser2026LCcoagulation. The correlation arm remains untested; the intervention arm is not supported.
 ] <pred:microclot>
 
 #warning-env(title: [Hypothesis Limitations])[

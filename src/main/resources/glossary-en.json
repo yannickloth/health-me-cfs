@@ -13001,5 +13001,132 @@
     "label": "demoralization",
     "category": "symptom",
     "definition": "A state of hopelessness, helplessness and loss of meaning in which the capacity for pleasure is partly preserved. Common in severe chronic illness; can exist without depression and often precedes it."
+  },
+  "Microaggregate": {
+    "label": "Microaggregate (fibrin(ogen) microaggregate)",
+    "category": "concept",
+    "definition": "Small protein-rich particles that resist dissolution and are visible in platelet-poor plasma by fluorescence microscopy; called 'microclots' in much of the Long COVID literature, although the particles are amyloid-type protein aggregates rather than thrombi. Whether they are more abundant in disease is unresolved: a controlled count in never-hospitalised Long COVID found number, area and fibrin fibre density comparable to recovered controls, and the assay has no external reference standard.",
+    "synonyms": [
+      "microaggregates",
+      "fibrin(ogen) microaggregate",
+      "fibrin(ogen) microaggregates",
+      "microclot",
+      "microclots"
+    ]
+  },
+  "Thromboelastography": {
+    "label": "Thromboelastography (TEG)",
+    "category": "method",
+    "definition": "A whole-blood viscoelastic test that records clot formation, strength and breakdown over time (reaction time, clot kinetics, alpha angle, maximum amplitude, lysis). It measures the mechanical properties of the clot, which depend on platelets and fibrinogen concentration as well as on fibrin generation, so an abnormal tracing does not by itself demonstrate increased clotting activity.",
+    "synonyms": [
+      "TEG",
+      "thromboelastogram"
+    ]
+  },
+  "Fibrinolysis": {
+    "label": "Fibrinolysis",
+    "category": "pathway",
+    "definition": "The process that dissolves fibrin clots: plasmin, generated from plasminogen by tissue-type plasminogen activator, cleaves the fibrin mesh. It is opposed by inhibitors such as PAI-1, and its efficiency is measured as clot lysis time. Impaired fibrinolysis prolongs clot persistence without necessarily increasing clot formation."
+  },
+  "Fibrin": {
+    "label": "Fibrin",
+    "category": "protein",
+    "definition": "The insoluble protein mesh of a blood clot, formed when thrombin cleaves fibrinogen into monomers that polymerise and are cross-linked by factor XIII. Fibre density and thickness determine how resistant a clot is to dissolution, which is why fibre density is measured separately from aggregate count."
+  },
+  "Anticoagulant": {
+    "label": "Anticoagulant",
+    "category": "medication_class",
+    "definition": "A drug class that reduces clot formation, either by inhibiting a coagulation factor (for example factor Xa or thrombin) or by blocking vitamin K-dependent synthesis of clotting factors. Anticoagulants lower thrombotic risk but carry bleeding risk, and no anticoagulant has shown a fatigue benefit in ME/CFS or in never-hospitalised post-COVID condition.",
+    "class": "Anticoagulant",
+    "rx": "Prescription"
+  },
+  "Rivaroxaban": {
+    "label": "Rivaroxaban",
+    "category": "medication",
+    "definition": "An oral direct factor Xa inhibitor used for venous thromboembolism and atrial fibrillation. In a four-arm randomised trial in never-hospitalised post-COVID patients it did not improve fatigue (adjusted difference -1.06 points, 95% CI -2.47 to 0.35); it carries bleeding risk and is not a treatment for ME/CFS.",
+    "generic": "Rivaroxaban",
+    "brand": "Xarelto",
+    "class": "Direct factor Xa inhibitor / anticoagulant",
+    "rx": "Prescription",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Rivaroxaban%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Rivaroxaban"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Rivaroxaban"
+      }
+    ]
+  },
+  "Plasmapheresis": {
+    "label": "Plasmapheresis",
+    "category": "treatment",
+    "definition": "Extracorporeal removal of plasma, replaced with albumin or donor plasma, used to remove circulating antibodies, immune complexes or large proteins. It is sometimes marketed for ME/CFS and Long COVID as a way to remove microclots; no randomised trial has tested it in post-COVID condition.",
+    "synonyms": [
+      "plasma exchange"
+    ]
+  },
+  "Post-translational modification": {
+    "label": "Post-translational modification (PTM)",
+    "category": "concept",
+    "definition": "A chemical change made to a protein after synthesis, such as phosphorylation, oxidation, citrullination or glycation, which can alter its function, stability or interactions. Fibrinogen modifications are studied as a possible explanation for clot resistance, but freeze-thaw handling can itself generate such modifications.",
+    "synonyms": [
+      "PTM",
+      "PTMs",
+      "post-translational modifications"
+    ]
+  },
+  "CYP3A4": {
+    "label": "CYP3A4",
+    "category": "enzyme",
+    "definition": "The cytochrome P450 enzyme that metabolises roughly half of all prescription drugs, including colchicine and many statins. Strong inhibitors such as clarithromycin or azole antifungals raise drug levels and toxicity risk, while inducers lower them."
+  },
+  "P-selectin": {
+    "label": "P-selectin (CD62P)",
+    "category": "molecule",
+    "definition": "An adhesion molecule stored in platelet alpha-granules and endothelial Weibel-Palade bodies, exposed on the cell surface on activation and shed into plasma as soluble P-selectin. Surface and soluble forms measure different things, so a normal plasma level does not exclude platelet activation.",
+    "synonyms": [
+      "CD62P",
+      "soluble P-selectin"
+    ]
+  },
+  "PAI-1": {
+    "label": "PAI-1",
+    "category": "enzyme",
+    "definition": "Plasminogen activator inhibitor-1: the main inhibitor of tissue-type plasminogen activator and therefore a brake on fibrinolysis. High PAI-1 activity prolongs clot lysis time and is associated with thrombosis and with metabolic dysfunction.",
+    "synonyms": [
+      "plasminogen activator inhibitor-1"
+    ]
+  },
+  "Fatigue Assessment Scale": {
+    "label": "Fatigue Assessment Scale (FAS)",
+    "category": "measurement",
+    "definition": "A 10-item self-report questionnaire scoring fatigue from 10 to 50, where higher scores indicate worse fatigue. It was the primary endpoint of the STIMULATE-ICP trial, which predefined a change of about 10% (roughly 4 points) as clinically meaningful.",
+    "synonyms": [
+      "FAS"
+    ]
+  },
+  "CD40L": {
+    "label": "CD40L",
+    "category": "molecule",
+    "definition": "CD40 ligand: a surface protein of activated platelets and T cells that also circulates in a soluble form and promotes inflammation and endothelial activation. Soluble CD40L is used as a platelet-activation marker and is sensitive to pre-analytical handling.",
+    "synonyms": [
+      "CD40 ligand",
+      "soluble CD40L"
+    ]
+  },
+  "Von Willebrand factor": {
+    "label": "Von Willebrand factor (VWF)",
+    "category": "protein",
+    "definition": "A large adhesive plasma protein that binds collagen and platelet glycoprotein Ib, mediating platelet adhesion at sites of vessel injury, and that also carries factor VIII. Its antigen level is used as a marker of endothelial activation.",
+    "synonyms": [
+      "VWF",
+      "vWF"
+    ]
   }
 }

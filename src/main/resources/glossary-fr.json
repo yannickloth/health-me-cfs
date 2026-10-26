@@ -14909,5 +14909,130 @@
     "label": "démoralisation",
     "category": "symptom",
     "definition": "Un état de désespoir, d'impuissance et de perte de sens, avec la capacité de ressentir du plaisir partiellement préservée. Fréquent dans les maladies chroniques sévères ; peut exister sans dépression et la précéder."
+  },
+  "Microaggregate": {
+    "label": "Microagrégat (microagrégat de fibrine/fibrinogène)",
+    "category": "concept",
+    "definition": "Petites particules riches en protéines, résistantes à la dissolution, visibles en microscopie de fluorescence dans le plasma pauvre en plaquettes ; appelées microcaillots dans une grande partie de la littérature sur le COVID long, bien qu'il s'agisse d'agrégats protéiques de type amyloïde et non de thrombi. Leur éventuelle augmentation au cours de la maladie n'est pas résolue : une numération contrôlée chez des patients COVID long jamais hospitalisés a trouvé un nombre, une surface et une densité de fibres de fibrine comparables à ceux de témoins guéris, et le test n'a pas d'étalon de référence externe.",
+    "synonyms": [
+      "microagrégats",
+      "microagrégat de fibrine",
+      "microcaillots"
+    ]
+  },
+  "Thromboelastography": {
+    "label": "Thromboélastographie (TEG)",
+    "category": "method",
+    "definition": "Test viscoélastique sur sang total qui enregistre la formation, la solidité et la lyse du caillot au fil du temps (temps de réaction, cinétique de coagulation, angle alpha, amplitude maximale, lyse). Il mesure les propriétés mécaniques du caillot, qui dépendent des plaquettes et de la concentration de fibrinogène autant que de la génération de fibrine ; une courbe anormale ne démontre donc pas à elle seule une activité coagulante accrue.",
+    "synonyms": [
+      "TEG",
+      "thromboélastogramme"
+    ]
+  },
+  "Fibrinolysis": {
+    "label": "Fibrinolyse",
+    "category": "pathway",
+    "definition": "Processus qui dissout les caillots de fibrine : la plasmine, générée à partir du plasminogène par l'activateur tissulaire du plasminogène, clive le réseau de fibrine. Elle est freinée par des inhibiteurs comme le PAI-1, et son efficacité se mesure par le temps de lyse du caillot. Une fibrinolyse altérée prolonge la persistance du caillot sans nécessairement augmenter sa formation."
+  },
+  "Fibrin": {
+    "label": "Fibrine",
+    "category": "protein",
+    "definition": "Le réseau protéique insoluble d'un caillot sanguin, formé lorsque la thrombine clive le fibrinogène en monomères qui polymérisent et sont réticulés par le facteur XIII. La densité et l'épaisseur des fibres déterminent la résistance du caillot à la dissolution, raison pour laquelle la densité des fibres est mesurée séparément du nombre d'agrégats."
+  },
+  "Anticoagulant": {
+    "label": "Anticoagulant",
+    "category": "medication_class",
+    "definition": "Classe médicamenteuse qui réduit la formation du caillot, soit en inhibant un facteur de coagulation (par exemple le facteur Xa ou la thrombine), soit en bloquant la synthèse vitamin K-dépendante des facteurs de coagulation. Les anticoagulants réduisent le risque thrombotique mais comportent un risque hémorragique, et aucun anticoagulant n'a montré de bénéfice sur la fatigue dans l'EM/SFC ni dans l'affection post-COVID jamais hospitalisée.",
+    "class": "Anticoagulant",
+    "rx": "Sur ordonnance"
+  },
+  "Rivaroxaban": {
+    "label": "Rivaroxaban",
+    "category": "medication",
+    "definition": "Un inhibiteur oral direct du facteur Xa utilisé dans la thromboembolie veineuse et la fibrillation auriculaire. Dans un essai randomisé à quatre bras chez des patients post-COVID jamais hospitalisés, il n'a pas amélioré la fatigue (différence ajustée -1,06 point, IC à 95 % -2,47 à 0,35) ; il comporte un risque hémorragique et ne constitue pas un traitement de l'EM/SFC.",
+    "generic": "Rivaroxaban",
+    "brand": "Xarelto",
+    "class": "Inhibiteur direct du facteur Xa / anticoagulant",
+    "rx": "Sur ordonnance",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Rivaroxaban%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Rivaroxaban"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Rivaroxaban"
+      }
+    ]
+  },
+  "Plasmapheresis": {
+    "label": "Plasmaphérèse",
+    "category": "treatment",
+    "definition": "Épuration extracorporelle du plasma, remplacé par de l'albumine ou du plasma de donneur, destinée à éliminer les anticorps circulants, les complexes immuns ou les grandes protéines. Elle est parfois commercialisée pour l'EM/SFC et le COVID long comme moyen d'éliminer les microagrégats ; aucun essai randomisé ne l'a évaluée dans l'affection post-COVID.",
+    "synonyms": [
+      "échange plasmatique"
+    ]
+  },
+  "Post-translational modification": {
+    "label": "Modification post-traductionnelle (PTM)",
+    "category": "concept",
+    "definition": "Modification chimique d'une protéine après sa synthèse, telle que phosphorylation, oxydation, citrullination ou glycation, susceptible d'altérer sa fonction, sa stabilité ou ses interactions. Les modifications du fibrinogène sont étudiées comme explication possible de la résistance du caillot, mais la congélation-décongélation peut elle-même générer de telles modifications.",
+    "synonyms": [
+      "PTM",
+      "PTMs",
+      "modifications post-traductionnelles"
+    ]
+  },
+  "CYP3A4": {
+    "label": "CYP3A4",
+    "category": "enzyme",
+    "definition": "L'enzyme cytochrome P450 qui métabolise environ la moitié des médicaments prescrits, dont la colchicine et de nombreuses statines. Les inhibiteurs puissants comme la clarithromycine ou les antifongiques azolés augmentent les concentrations et le risque de toxicité, tandis que les inducteurs les diminuent."
+  },
+  "P-selectin": {
+    "label": "P-sélectine (CD62P)",
+    "category": "molecule",
+    "definition": "Molécule d'adhésion stockée dans les granules alpha des plaquettes et les corps de Weibel-Palade de l'endothélium, exposée à la surface cellulaire lors de l'activation et libérée dans le plasma sous forme de P-sélectine soluble. Les formes membranaire et soluble mesurent des phénomènes différents ; un taux plasmatique normal n'exclut donc pas une activation plaquettaire.",
+    "synonyms": [
+      "CD62P",
+      "P-sélectine soluble"
+    ]
+  },
+  "PAI-1": {
+    "label": "PAI-1",
+    "category": "enzyme",
+    "definition": "Inhibiteur de l'activateur du plasminogène-1 : principal inhibiteur de l'activateur tissulaire du plasminogène et donc frein de la fibrinolyse. Une activité PAI-1 élevée prolonge le temps de lyse du caillot et est associée à la thrombose et au dysfonctionnement métabolique.",
+    "synonyms": [
+      "inhibiteur de l'activateur du plasminogène-1"
+    ]
+  },
+  "Fatigue Assessment Scale": {
+    "label": "Fatigue Assessment Scale (FAS)",
+    "category": "measurement",
+    "definition": "Questionnaire autodéclaratif à 10 items cotant la fatigue de 10 à 50, un score plus élevé indiquant une fatigue plus sévère. Il constituait le critère principal de l'essai STIMULATE-ICP, qui avait prédéfini une variation d'environ 10 % (environ 4 points) comme cliniquement significative.",
+    "synonyms": [
+      "FAS"
+    ]
+  },
+  "CD40L": {
+    "label": "CD40L",
+    "category": "molecule",
+    "definition": "Ligand de CD40 : protéine de surface des plaquettes et des lymphocytes T activés, qui circule aussi sous forme soluble et favorise l'inflammation et l'activation endothéliale. Le CD40L soluble sert de marqueur d'activation plaquettaire et est sensible aux conditions préanalytiques.",
+    "synonyms": [
+      "ligand de CD40",
+      "CD40L soluble"
+    ]
+  },
+  "Von Willebrand factor": {
+    "label": "Facteur de von Willebrand (VWF)",
+    "category": "protein",
+    "definition": "Grande protéine plasmatique adhésive qui lie le collagène et la glycoprotéine Ib plaquettaire, médiant l'adhésion des plaquettes aux sites de lésion vasculaire, et qui transporte aussi le facteur VIII. Son taux antigénique sert de marqueur d'activation endothéliale.",
+    "synonyms": [
+      "VWF",
+      "vWF"
+    ]
   }
 }
