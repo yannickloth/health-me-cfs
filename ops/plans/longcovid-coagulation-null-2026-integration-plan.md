@@ -782,6 +782,7 @@ a commit hash cannot exist before the gate clears.
 | 11 | RAN | `tmp/convergence-report-longcovid-coagulation-null-2026-2026-10-26.md`; FULL tier; 11a 2 rounds (1 HIGH + 1 LOW fixed), 11b 2 passes (0 HIGH, 0 CRITICAL, 1 MEDIUM recorded), 11c 2 rounds (0 findings) — **CONVERGED**. Deviation: all subagents `Insufficient Balance`, so the three passes ran inline; same-agent caveat recorded. |
 | 12 | RAN | `## Phase 12 record` above (no `changelog.typ` exists). |
 | 12.5 | RAN | This ledger. |
+| 13 | RAN | Commit `5412ce6c` — `feat(coagulation): integrate the long-COVID coagulation null result`; 68 files, staged by explicit path, nothing from `tmp/`; post-commit `nix build` 0 errors, 7,047 pages, working tree clean. |
 
 **Gate verification (independent):** `nix build` → exit 0, `result/loth2026-mecfs.pdf` 7,047 pages,
 0 `error:` lines. Registry holds 13 rows for this cycle. 13/13 new environments carry
