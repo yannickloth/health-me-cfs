@@ -789,6 +789,7 @@ a commit hash cannot exist before the gate clears.
 `*Consequence:*`. 4/4 speculations and 4/4 open questions carry `Falsifiable prediction`.
 8 PDFs filed, 2 unavailability reasons recorded. Every citation resolves in the full build.
 
-**Report:** Phase 12.5 completion gate: 24 phases RAN, 1 LEGIT-SKIP (5d — no ch30 cascade node
-exists for this topic), 0 WAIVED, **0 OMISSION**. Build: PASS. Ledger clean — Phase 13 may
-proceed.
+**Report:** Phase 12.5 completion gate: 24 phases RAN at the gate (row 13 executes after it),
+1 LEGIT-SKIP (5d — no ch30 cascade node exists for this topic), 0 WAIVED, **0 OMISSION**.
+Build: PASS. Ledger clean — Phase 13 may proceed. Row 13 is now RAN as well (commit
+`5412ce6c`), so the completed ledger reads 25 RAN / 1 LEGIT-SKIP.
