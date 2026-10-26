@@ -25,6 +25,8 @@ TRPM3 dysfunction provides an elegant resolution. Consider immune cells as soldi
     - Meanwhile, actual pathogen clearance fails, permitting viral persistence
 
 This creates a vicious cycle: inflammation without resolution. The immune system keeps trying but never succeeds. Cytokine alarms stay elevated because the underlying threat is never neutralized. Energy is consumed in futile immune activation.
+
+*Consequence:* if one channel defect explains both the over-activity and the under-activity, then the two findings stop contradicting each other, and an NK-cell calcium flux assay tests the idea where it is cheapest.
 ]
 
 *Predictions.*
@@ -49,6 +51,8 @@ TRPM3 gating is modulated by G-protein signaling pathways. Muscarinic receptor a
     - Alternatively: shared autoimmune targeting of GPCRs and ion channels
 
 If GPCR dysfunction and TRPM3 dysfunction are linked, therapies targeting autoantibodies (immunoadsorption, BC007, daratumumab) might restore both GPCR signaling _and_ TRPM3 function.
+
+*Consequence:* if the autoantibodies act upstream of the channel, then removing them should restore channel function, which makes immunoadsorption response a direct test of the connection.
 ]
 
 *Testable predictions.*
@@ -99,6 +103,8 @@ What if TRPM3 dysfunction in ME/CFS is _systemic_—affecting all tissues where 
     - May contribute to “brain fog” directly, not just via inflammation
 
 If TRPM3 dysfunction is systemic, ME/CFS is fundamentally a *channelopathy*—a disease of ion channel function affecting multiple organ systems simultaneously.
+
+*Consequence:* if the channelopathy is systemic, then one blood-cell measurement would stand in for tissue that cannot be sampled, but no sensory-neuron or beta-cell measurement exists yet to confirm the extrapolation.
 ]
 
 *Research implications.*
@@ -135,12 +141,16 @@ If TRPM3 dysfunction is systemic, ME/CFS is fundamentally a *channelopathy*—a 
     - The same patient has hyperactive sensory processing (“wired”) AND dysfunctional effector mechanisms (“tired”)
 
 This is not contradictory—it is the expected result of ion channel dysfunction affecting excitable and effector cells differently. The nervous system is overexcitable while the muscular and immune systems are underpowered.
+
+*Consequence:* if some channels are stuck open and others closed, then one drug cannot correct both directions, and a trial that treats the channelopathy as a single fault will average a benefit against a harm.
 ]
 
 === The Calcium-Mitochondria Cascade Hypothesis
 
 #limitation(title: [Working Model: Evidence from Separate Studies, Not an Integrated Pathway])[
 The hypotheses in the following sections (calcium-mitochondria cascade, post-infectious acquisition, temperature dysregulation, TRP channel sensitization, Piezo channels) assemble evidence from studies in different cell types, species, and research groups. No study has demonstrated this cascade end-to-end in a single ME/CFS patient cohort. The integration is a working model intended to generate testable predictions, not a description of established pathophysiology.
+
+*Consequence:* the cascade has not been shown end to end in any cohort, so no patient should be told that a channel measurement confirms the whole pathway, and each arrow needs its own study.
 ]
 
 #open-question(title: [TRPM3 Dysfunction Upstream of Mitochondrial Failure])[
@@ -174,6 +184,8 @@ What if TRPM3 dysfunction _causes_ mitochondrial dysfunction?
     - The observed mitochondrial dysfunction is downstream of ion channel dysfunction
 
 If true, treating the mitochondria (CoQ10, ribose, carnitine) addresses symptoms but not cause. Restoring TRPM3 function would restore mitochondrial function automatically.
+
+*Consequence:* if the channel sits upstream of the mitochondrion, then correcting it would restore ATP production, which would make mitochondrial supplements a downstream patch rather than a fix.
 ]
 
 *Predictions.*
@@ -204,6 +216,8 @@ Ion channel function depends on the surrounding lipid environment. Infection-ind
 
 *Cofactor depletion.*
 TRPM3 function may require specific cofactors or post-translational modifications. If infection depletes these (e.g., zinc, selenium, PIP#sub[2]), and they are not fully restored during recovery, channel function remains impaired.
+
+*Consequence:* if viral proteases leave a durable mark on the channel, then the trigger can be gone while the defect persists, which explains why antivirals given late do not reverse the illness.
 ]
 
 *Research directions.*
@@ -236,6 +250,8 @@ TRPM3 is a *thermosensor*—it responds to temperature changes, particularly in 
     - Temperature instability is not an epiphenomenon but a direct consequence of TRPM3 dysfunction
 
 This reframes temperature symptoms from “vague subjective complaints” to objective consequences of ion channel pathology.
+
+*Consequence:* if the channel reports temperature wrongly, then cold and heat intolerance are a signalling error rather than a mood complaint, and they become measurable rather than subjective.
 ]
 
 #limitation(title: [TRPM3 Hypotheses: Single Research Group, In Vitro Scope])[
@@ -250,6 +266,7 @@ The TRPM3 dysfunction finding has been reported across multiple sites @Sasso2026
     - The proposed TRPM3-GPCR signaling convergence and calcium-mitochondria cascade are mechanistically plausible models, but the causal links (autoantibodies $\to$ TRPM3 dysfunction $\to$ mitochondrial failure) have not been demonstrated in any experimental system.
     - Therapeutic speculation regarding TRPM3 agonists/antagonists is premature: TRPM3 pharmacology in humans is poorly characterized, and no TRPM3-modulating compound has been tested in ME/CFS patients.
 
+*Consequence:* the finding comes from one research network, so a patient should not treat a channel result as independently confirmed, and the systemic claims remain extrapolation until another group repeats them.
 ]
 
 === TRPM3-Targeted Therapeutic Speculation
@@ -286,6 +303,8 @@ If TRPM3 dysfunction is central to ME/CFS pathophysiology, targeting TRPM3 pharm
 
 #warning-env(title: [Highly Speculative Therapeutics])[
 These therapeutic ideas are *entirely speculative*. TRPM3 pharmacology in humans is poorly characterized. No clinical trials have tested TRPM3 modulators in ME/CFS. Self-experimentation with TRPM3-active compounds is not recommended. These ideas are presented to stimulate research, not to guide treatment.
+
+*Consequence:* no channel modulator has been tested in ME/CFS, so none should be self-administered; these entries exist to define what a trial would need to measure.
 ]
 
 === Two Calcium Subtypes: A Unifying Framework
@@ -318,6 +337,8 @@ These two subtypes may be clinically indistinguishable at presentation. Both pro
 The subtypes are not mutually exclusive. A patient could have primary TRPM3 channelopathy (Subtype B) that impairs mitochondrial function, which then triggers secondary NCX reversal during exertion (Subtype A component), creating a self-amplifying cascade. In such patients, both MDC002 (prevents NCX reversal) and TRPM3 restoration (addresses root cause) might be needed.
 
 (Certainty: 0.35. The Subtype A/B framework is a proposed organizing structure not yet published in peer-reviewed literature as a formal taxonomy. The individual mechanisms it groups are supported by evidence; the unification is conceptual. Not yet tested as a subtyping framework.)
+
+*Consequence:* if the two mechanisms are distinct, then the same calcium-lowering drug will help one subtype and harm the other, which makes classification a prerequisite for any calcium trial.
 ] <spec:ch14h-calcium-subtypes>
 
 === Subtyping Implications
@@ -342,6 +363,8 @@ TRPM3 dysfunction is well-replicated across six cohort studies (2017--2026). Du 
 *Subtype-defining implication:* Patients with dual TRPM3+TRPM7 dysfunction may represent a more severe immune channelopathy subtype. The number of dysfunctional TRP channels could serve as a dimensional severity measure rather than a binary biomarker.
 
 *Falsifiable prediction:* ME/CFS patients with simultaneous TRPM3 and TRPM7 dysfunction (measured by patch-clamp Ca#super[2+] flux in NK cells) should show worse NK cytotoxicity than patients with TRPM3 dysfunction alone. Bell scale functional scores should correlate inversely with the number of dysfunctional TRP channels. (Certainty: 0.42. TRPM3 dysfunction replicated; TRPM7 finding is single study, n=9, not independently replicated.)
+
+*Consequence:* if both channels fail together, then a panel that measures only one will undercount the deficit, and immune-cell migration becomes as relevant as degranulation.
 ] <hyp:ch14h-trpm3-trpm7-dual>
 
 === PIP#sub[2] Depletion as the Convergence Mechanism
@@ -364,6 +387,8 @@ This mechanism transforms the GPCR autoantibody hypothesis and the TRPM3 channel
 (Certainty: 0.45. The PIP#sub[2]/TRPM3 co-localization deficit is a direct experimental finding; the GPCR $arrow.r$ PLC $arrow.r$ PIP#sub[2] cascade is established signaling biology; the convergence as a unified mechanism is inferred, not demonstrated. Not yet replicated.)
 
 _Intersection with low-dose lithium:_ Li#super[+] inhibits IMPase/IMPA1, the enzyme regenerating free inositol for PIP#sub[2] resynthesis, and disrupts the NCS-1/InsP3R1 interaction that amplifies IP3-mediated Ca#super[2+] release. These actions directly impinge on the PIP#sub[2] supply problem described here — see @spec:low-dose-lithium for mechanistic detail and certainty assessment.
+
+*Consequence:* if one lipid pool feeds several channels, then a single upstream cause can produce a multi-channel phenotype, and the treatment target is the phospholipase rather than each channel.
 ] <hyp:ch14h-pip2-convergence>
 
 === PLC-Delta Positive Feedback and Self-Sustaining PIP#sub[2] Depletion
@@ -377,6 +402,8 @@ If this positive feedback loop becomes autonomous, PIP#sub[2] depletion would pe
 *Falsifiable predictions.* (a) PLC-$delta$ expression or activity is elevated in ME/CFS cells relative to healthy controls. (b) PLC-$delta$ inhibition (e.g., compound U73122 in vitro, or calcium chelation) allows PIP#sub[2] to recover even without removal of GPCR autoantibodies. (c) ME/CFS patients with residual PIP#sub[2] depletion after successful autoantibody clearance show higher PLC-$delta$ activity than those who fully recover.
 
 (Certainty: 0.15. PLC-$delta$ calcium activation is established cell biology; its role in sustaining ME/CFS pathology is entirely inferred. No ME/CFS-specific data on PLC isoforms exist. Not yet replicated.)
+
+*Consequence:* if the loop is autonomous, then clearing the autoantibodies will not reset the cell, which explains partial immunoadsorption responses and predicts relapse after antibody removal.
 ] <spec:plc-delta-feedback>
 
 === Store-Operated Calcium Entry and Futile Cycling
@@ -390,6 +417,8 @@ An additional complication: Orai1 channel activity itself requires PIP#sub[2] fo
 *Falsifiable predictions.* (a) STIM1 puncta formation (an ER--plasma membrane junction marker visible by immunofluorescence) should be elevated in resting ME/CFS cells relative to healthy controls, reflecting chronic ER calcium depletion. (b) Thapsigargin-releasable ER calcium should be reduced in ME/CFS cells (smaller ER calcium pool). (c) SERCA-dependent ATP consumption (oligomycin-sensitive OCR fraction) should be elevated in ME/CFS cells, reflecting futile cycling.
 
 (Certainty: 0.25. Each individual component — SOCE activation, SERCA ATP cost, PIP#sub[2] Orai1 dependence — is established cell biology. The convergence as a futile cycling state in ME/CFS is inferred from the GPCR autoantibody hypothesis; no direct measurement of SOCE activity or STIM1 puncta in ME/CFS cells has been published. Not yet replicated.)
+
+*Consequence:* if the cell burns ATP refilling a store that keeps emptying, then part of the fatigue has a measurable energy cost, and pump load becomes a treatment target rather than a bystander.
 ] <spec:soce-futile-cycling>
 
 === ER-to-Mitochondria Calcium Transfer: IP3R/VDAC/MCU Axis
@@ -405,6 +434,8 @@ A further connection: S1R stabilizes IP3R3 at MAMs (Section @subsubsec:sigma1-me
 *Falsifiable predictions.* (a) ME/CFS patient cells should show elevated mitochondrial calcium at baseline, measurable by Rhod-2 AM fluorescence. (b) IP3R inhibition (2-APB or xestospongin C, in vitro) should reduce mitochondrial calcium overload in ME/CFS cells more than in healthy controls. (c) GRP75 expression or IP3R3/VDAC1 co-localization at MAMs should be altered in ME/CFS cells.
 
 (Certainty: 0.30. The IP3R/GRP75/VDAC1/MCU calcium transfer pathway is well-established cell biology. Application to ME/CFS is entirely inferential from the PIP#sub[2] exhaustion and GPCR autoantibody hypotheses. No direct MAM or MCU measurements in ME/CFS tissue exist. Not yet replicated.)
+
+*Consequence:* if calcium enters the mitochondrion from both the membrane and the endoplasmic reticulum, then blocking one route leaves the other intact, which is why single-channel calcium drugs may fail in PEM.
 ] <spec:ip3r-vdac-mcu-overload>
 
 === The Expanded TRP Channel Sensitization Hypothesis
@@ -454,6 +485,8 @@ sensitization.
 
 (Certainty: 0.40. TRPM3 dysfunction is replicated; TRPV1/TRPA1 co-sensitization in ME/CFS
 is mechanistically plausible but not yet directly tested. Not yet replicated in ME/CFS.)
+
+*Consequence:* if the defect spans the channel family, then a drug aimed only at one member will be partial, and blockade of a second member becomes a separate testable hypothesis.
 ] <spec:ch14h-trp-expanded>
 
 === TRP-Targeted Therapeutic Approaches: Ambroxol as TRPV1 Antagonist
@@ -505,6 +538,8 @@ channels @Hefner2025AmbroxolTRPV1.
 
 (Certainty: 0.35. Mechanism established in general pain pharmacology; ME/CFS-specific
 application is entirely extrapolated. Not yet replicated in ME/CFS.)
+
+*Consequence:* ambroxol is available over the counter, so the temptation to self-treat is real; the evidence is preclinical, and no ME/CFS trial has shown that an oral dose reaches a useful concentration at the vessel.
 ] <spec:ch14h-ambroxol-trp>
 
 === TRP Channel Pentamerization: A Structural Escalation Mechanism
@@ -522,6 +557,8 @@ In a feedforward loop context: sensitized TRPV1 (by PGE#sub[2]) or TRPA1 (by ROS
 *Falsifiable predictions.* (a) TRPV3 (and potentially TRPV1) channels in ME/CFS patient sensory neurons or immune cells should show elevated pentamer:tetramer ratios relative to healthy controls, measurable by single-molecule imaging or native gel electrophoresis. (b) Pharmacological stabilization of the tetrameric state (if such compounds are identified) should reduce TRP-mediated calcium flux in ME/CFS cells. (c) Pentamer formation frequency should correlate with disease severity or duration, reflecting cumulative inflammatory exposure.
 
 (Certainty: 0.20. TRPV3 pentamerization is established structural biology; extension to TRPM3 or other TRP channels is undemonstrated; application to ME/CFS is a double extrapolation. Not yet studied in ME/CFS.)
+
+*Consequence:* if pentamers form under sustained stimulation, then repeated inflammatory episodes could leave channels hyper-conductive, which makes the number of prior flares a variable in any channel study.
 ] <spec:trp-pentamer-escalation>
 
 #speculation(title: [PIP#sub[2] Depletion Lowers the Pentamerization Threshold])[
@@ -532,6 +569,8 @@ This would mean ME/CFS patients' TRP channels are constitutively _closer_ to the
 *Falsifiable prediction.* In vitro, PIP#sub[2] depletion (using a synthetic PIP#sub[2] phosphatase or PLC activators) should increase TRPV3 pentamer frequency measurable by HS-AFM. ME/CFS cells with documented PIP#sub[2] depletion should show higher pentamer fractions than PIP#sub[2]-replete cells from the same patients after exogenous diC8-PIP#sub[2] supplementation.
 
 (Certainty: 0.15. PIP#sub[2]'s role in TRP channel gating is established; that PIP#sub[2] depletion specifically facilitates pentamer formation is inferred, not demonstrated. Not yet studied.)
+
+*Consequence:* if depletion lowers the threshold, then a patient's channels sit closer to the transition before any exertion, and a mild trigger could push them over while a healthy channel stays tetrameric.
 ] <spec:pip2-pentamer-susceptibility>
 
 The pentameric pore has implications beyond calcium flux. Lansky et al.\ (2025) demonstrated that the pentameric channel admits large organic cations --- Tris#super[+] (MW 121), NMDG#super[+] (MW 195), 2-MAE#super[+] --- that tetrameric channels exclude @Lansky2025trpv3dynamics. If pentamerization occurs in ME/CFS, this represents a loss of membrane molecular selectivity, not merely increased ion flux. Pentamerized channels could theoretically admit polyamines (spermine, spermidine) or other normally membrane-impermeant molecules, potentially disrupting intracellular signaling through mechanisms entirely distinct from calcium overload. This "molecular sieve failure" is highly speculative (certainty: 0.10) and would require demonstration that pentameric TRP channels in vivo admit specific pathologically relevant molecules.
@@ -565,6 +604,8 @@ This mechanism addresses a gap in current PEM models: why perfusion failure pers
 *Falsifiable predictions.* (a) TRPV1 expression in skeletal muscle arterioles from ME/CFS patients (skin punch biopsy with microvascular analysis, or post-mortem tissue) should be detectable and potentially upregulated relative to healthy controls. (b) TRPV1 antagonists (AMG 517, SB-705498 — research tools) should attenuate exercise-induced perfusion reduction in ME/CFS patients, measurable by near-infrared spectroscopy (NIRS) or contrast-enhanced ultrasound of muscle microcirculation. (c) Plasma LPA levels should be elevated post-exercise in ME/CFS patients relative to healthy controls, and should correlate with PEM severity. (d) TRPV1 antagonism should not affect PEM severity in patients whose PEM is primarily metabolic (Subtype A dominant per Section @spec:ch14h-subtype-protocol) rather than vascular.
 
 (Certainty: 0.40. Arteriolar TRPV1 expression and non-desensitizing vasoconstriction are established in rodent models (two independent groups: Julius/Basbaum and Ahern). LPA as endogenous activator is demonstrated. Application to ME/CFS PEM is entirely inferential --- no ME/CFS vascular TRPV1 data exist. Tissue specificity (Rivera-Mancilla 2024 dermal vs Phan skeletal muscle) remains an open question for human tissue. Not yet studied in ME/CFS.)
+
+*Consequence:* if arteriolar TRPV1 constricts rather than dilates, then a TRPV1 antagonist could improve muscle perfusion during PEM, which reverses the assumption that blocking TRPV1 only affects pain.
 ] <hyp:arteriolar-trpv1-pem>
 
 A critical feature of the arteriolar TRPV1 mechanism is its _dissociation_ from neuronal TRPV1. Cavanaugh et al.\ (2011) showed that neuronal and arteriolar TRPV1 produce opposite vascular effects: neuronal TRPV1 activation causes vasodilation (via CGRP release from afferents), while arteriolar TRPV1 activation causes vasoconstriction @Cavanaugh2011trpv1vascular. In ME/CFS with sensitized TRPV1, this creates a "dual trap": nociceptive TRPV1 signals _pain_ (telling the patient to stop exerting) while arteriolar TRPV1 maintains _vasoconstriction_ (preventing perfusion recovery even at rest). The non-desensitizing nature of arteriolar TRPV1 @Phan2020trpv1arterial means that even if neuronal TRPV1 partially habituates (reducing pain perception), the vascular arm continues to restrict perfusion. This dissociation could explain why some patients report that pain diminishes before fatigue does --- the nociceptive warning system adapts while the vascular damage persists.
@@ -577,6 +618,8 @@ Treating only one arm may be insufficient: calcium channel blockers (for NCX rev
 *Falsifiable prediction.* Combined treatment targeting both arms (e.g., NCX modulator + TRPV1 antagonist) should reduce PEM duration more than either alone. Measurable by sequential NIRS (perfusion arm) and #super[23]Na-MRI (NCX arm) at 24 hours post-standardized exercise.
 
 (Certainty: 0.35. Each arm is supported by independent evidence; the coupling through ischemia is inferred but mechanistically coherent. Not yet studied as a combined model.)
+
+*Consequence:* if the two arms reinforce each other, then treating only the muscle cell or only the arteriole leaves the loop running, and the timing of treatment within the first hours matters.
 ] <spec:two-compartment-pem>
 
 #speculation(title: [LPA--Microclot--TRPV1 Triangle: Three Vascular Pathologies Converging])[
@@ -587,6 +630,8 @@ This triangle connects two previously separate pathological domains in ME/CFS (c
 *Falsifiable prediction.* ME/CFS patients post-exercise should show simultaneous elevation of plasma LPA (LC-MS/MS), D-dimer (microclot turnover marker), and reduced muscle oxygenation (NIRS). Anticoagulation sufficient to reduce microclot burden should partially attenuate post-exercise LPA elevation. Two components of this prediction have contrary resting evidence: D-dimer was normal in the controlled cohort @Fraser2026LCcoagulation, and the anticoagulant test of the same pathway failed @StimulateICP2026rivaroxaban. The post-exercise LPA rise itself is untested.
 
 (Certainty: 0.30. Each vertex of the triangle is supported by independent evidence: microclots in ME/CFS, LPA generation from ischemia, TRPV1-mediated vasoconstriction from LPA. The three-way coupling is inferred. Not yet studied as a system.)
+
+*Consequence:* the microclot limb is contested, so the triangle should be tested on the LPA and TRPV1 arms first, where the measurements exist, before any anticoagulant is considered.
 ] <spec:lpa-microclot-trpv1-triangle>
 
 #speculation(title: [Mast Cell--TRPV1 Dual Amplification Loop])[
@@ -597,6 +642,8 @@ This creates a _local_, self-sustaining inflammatory circuit that does not requi
 *Falsifiable prediction.* Mast cell stabilizers (cromolyn, ketotifen) should reduce not only allergic symptoms but also exercise-induced vasoconstriction (measurable by NIRS). The combination of ketotifen + ambroxol should be synergistic for PEM reduction compared to either alone.
 
 (Certainty: 0.25. Each component --- mast cell activation in ME/CFS, prostaglandin-mediated TRPV1 sensitization, arteriolar TRPV1 vasoconstriction --- is independently supported. The closed-loop coupling is inferred. Not yet studied in ME/CFS.)
+
+*Consequence:* if the loop is local, then a treatment that works in one tissue bed may do nothing in another, which explains patchy symptoms and argues for local rather than systemic readouts.
 ] <spec:mast-cell-trpv1-loop>
 
 === TRP Family as a Coordinated Sensory System
@@ -628,6 +675,8 @@ The tissue specificity demonstrated by Rivera-Mancilla et al.\ (2024) --- TRPM3 
 The tissue-specific response profile should predict which symptom domains predominate in individual patients. Patients with primarily vascular symptoms (POTS, exercise intolerance) would show greater arteriolar TRPV1 dysfunction, while patients with primarily immune symptoms (infections, lymphadenopathy) would show predominantly TRPM3 dysfunction. This converts the systemic channelopathy hypothesis from a qualitative concept to a quantitatively testable framework.
 
 (Certainty: 0.35. Tissue-specific TRP vascular responses are demonstrated for two tissue beds. Extrapolation to all listed tissues is inferred. Not yet studied as a diagnostic framework.)
+
+*Consequence:* if one channelopathy produces opposite effects by tissue, then a systemic drug will help some beds and harm others, and the trial endpoint must name the tissue it expects to change.
 ] <spec:tissue-trp-map>
 
 === Cross-Disease Bridges: TRP Channel Parallels
@@ -651,6 +700,8 @@ The arteriolar TRPV1 mechanism and LPA--microclot triangle suggest several thera
 Early TRPV1 antagonists (AMG 517) caused dangerous hyperthermia by blocking TRPV1's thermoregulatory function. NEO6860 is a next-generation selective TRPV1 antagonist that blocks inflammatory/agonist-driven activation while preserving the channel's temperature-sensing role. NEO6860 has completed Phase II trials for osteoarthritis pain without hyperthermia signals. In ME/CFS, NEO6860 would be predicted to block LPA-activated arteriolar TRPV1 vasoconstriction and prostaglandin-sensitized nociceptive TRPV1, without disrupting core thermoregulation.
 
 (Certainty: 0.30. NEO6860 pharmacology is established in human trials; application to ME/CFS vascular TRPV1 is entirely extrapolated. Not yet studied in ME/CFS.)
+
+*Consequence:* NEO6860 avoids the hyperthermia that stopped the first TRPV1 antagonists, which makes a vascular TRPV1 trial feasible; none has been run in ME/CFS.
 ] <spec:neo6860-trpv1>
 
 #speculation(title: [Autotaxin Inhibitors to Block LPA Generation During PEM])[
@@ -659,6 +710,8 @@ LPA is generated extracellularly by autotaxin (lysophospholipase D), which conve
 *Falsifiable prediction.* Autotaxin inhibition should reduce post-exercise LPA elevation (LC-MS/MS) and PEM severity. Patients with highest post-exercise LPA should show greatest benefit.
 
 (Certainty: 0.25. Autotaxin → LPA biology is established; LPA → TRPV1 activation is demonstrated; application to ME/CFS PEM is inferred. Not yet studied in ME/CFS.)
+
+*Consequence:* if LPA drives the vasoconstriction, then an autotaxin inhibitor acts before the receptor, and plasma LPA gives a direct readout of whether the drug engaged its target.
 ] <spec:autotaxin-inhibitors>
 
 L-type calcium channel blockers (amlodipine, nifedipine) operate downstream of arteriolar TRPV1: the vasoconstriction cascade proceeds TRPV1 → membrane depolarization → L-type Ca#super[2+] channel → smooth muscle contraction @Phan2020trpv1arterial. L-type CCBs are FDA-approved, cheap, and well-tolerated. However, ME/CFS patients frequently have low blood pressure already, limiting the dose range. Low-dose amlodipine (2.5 mg) in patients with normal supine blood pressure might improve exercise-induced muscle perfusion without unacceptable hypotension. Magnesium, a natural L-type Ca#super[2+] channel competitor, provides a lower-risk alternative: adequate Mg#super[2+] levels partially counteract the TRPV1 → L-type Ca#super[2+] → vasoconstriction cascade.
@@ -669,6 +722,8 @@ EPA and DHA compete with arachidonic acid for phospholipase A2 substrates. Highe
 *Falsifiable prediction.* ME/CFS patients supplemented with high-dose EPA/DHA (3 g/day, 3 months) should show lower post-exercise LPA elevation (LC-MS/MS) compared to baseline. The effect should correlate with membrane omega-3 index.
 
 (Certainty: 0.25. Omega-3/arachidonic acid substrate competition is established; the effect on tissue LPA generation in ME/CFS exercise is extrapolated. Not yet studied for this endpoint.)
+
+*Consequence:* omega-3 shifts the substrate pool, which is a cheap intervention with a measurable endpoint; a null result on post-exercise LPA would close this route without a drug trial.
 ] <spec:omega3-lpa-competition>
 
 Palmitoylethanolamide (PEA), an endogenous fatty acid amide, provides multi-target TRP modulation: TRPV1 desensitization via PPAR-$alpha$ activation, mast cell stabilization (potentially breaking the mast cell--TRPV1 loop described in Section @spec:mast-cell-trpv1-loop), and anti-neuroinflammatory effects via microglial modulation. PEA is available as a supplement (600--1200 mg/day, micronized form for bioavailability) with a good safety profile.
@@ -682,6 +737,8 @@ The arteriolar TRPV1 hypothesis generates several novel diagnostic approaches th
 LC-MS/MS measurement of plasma LPA species (16:0, 18:1, 18:2, 20:4) at baseline and 4 hours after standardized exercise (e.g., 2-minute step test) could distinguish vascular-component PEM from purely metabolic PEM. Elevated post-exercise LPA would suggest arteriolar TRPV1 activation as a contributing mechanism, while normal LPA with elevated post-exercise sodium (Section @spec:ch14h-subtype-protocol, #super[23]Na-MRI) would suggest NCX reversal-dominant PEM.
 
 This would add a third dimension to the Subtype A/B classification: A+LPA+ (metabolic + vascular), A+LPA− (metabolic only), B+ (channelopathy-dominant), creating finer stratification for targeted intervention trials.
+
+*Consequence:* if post-exercise LPA separates vascular from metabolic PEM, then a blood test after a short step test would classify patients before treatment, which is the missing step in every subtype trial.
 ] <oq:lpa-biomarker-panel>
 
 A non-invasive alternative: the _thermal recovery index_ (TRI). After brief controlled cold exposure (hand immersion in 15°C water for 60 seconds), the time to 50% skin temperature recovery (T50), measured by infrared thermography, reflects arteriolar TRPV1-mediated vascular tone. ME/CFS patients with sensitized arteriolar TRPV1 should show prolonged T50. This test requires only a consumer infrared camera (approximately EUR 200), is patient-administerable, repeatable, and could generate longitudinal datasets tracking treatment response.
@@ -776,6 +833,8 @@ function or expression in patient RBCs.
 (Certainty: 0.35. Reduced RBC deformability in ME/CFS is from a single unreplicated brief
 communication; Piezo1 as the mechanism is untested and competing mechanisms exist. Not yet
 replicated in ME/CFS.)
+
+*Consequence:* the Saha study measured deformability and not the channel, so Piezo1 involvement is an inference; three competing explanations fit the same data, and no patient should read stiff red cells as a Piezo1 diagnosis.
 ] <spec:ch14h-piezo1-rbc>
 
 === Piezo2, Proprioception, and Mechanical Allodynia
@@ -812,6 +871,8 @@ in either direction in ME/CFS sensory neurons is entirely unknown.
 (Certainty: 0.35. Piezo2 role in allodynia is established in gain-of-function syndromes;
 application to ME/CFS neuroinflammation-driven sensitization is speculative and untested.
 Not yet studied in ME/CFS.)
+
+*Consequence:* the two genetic directions predict opposite phenotypes, so a patient with allodynia and a patient with proprioceptive loss cannot both be explained by one Piezo2 story, and the model must state which direction it claims.
 ] <spec:ch14h-piezo2-allodynia>
 
 === Multi-Parameter Immune Calcium Biomarker Panel
@@ -825,6 +886,8 @@ Individual TRPM3 assays have demonstrated diagnostic value, but combining multip
 *Falsifiable predictions:* (a) The three-parameter panel should distinguish ME/CFS from healthy controls with $>$80% sensitivity and $>$75% specificity. (b) Responders to LDN should show selective improvement in TRPM3 Ca#super[2+] flux without change in TRPM7. (c) Panel results should be reproducible across laboratories using standardized stimulation protocols.
 
 (Certainty: 0.50. TRPM3 assay evidence is multi-study; TRPM7 data preliminary; panel combination is proposed but not yet tested as a composite.)
+
+*Consequence:* a three-parameter panel would show which step fails in a given patient, which is what a treatment trial needs in order to select responders rather than average them.
 ] <hyp:ch14h-calcium-biomarker-panel>
 
 === Sodium MRI + TRPM3 Assay: Subtype Identification Protocol
@@ -842,6 +905,8 @@ This yields a 2x2 classification: (A+/B−) Subtype A dominant → metabolic/vas
 *Predicted clinical-biological correlations:* Subtype A dominant: PEM with early-onset muscle weakness, high sodium accumulation. Subtype B dominant: predominant immune symptoms, chemical sensitivity, non-restorative sleep. Mixed: most severe overall functional impairment.
 
 (Certainty: 0.50 for individual tests; 0.30 for the 2x2 framework as a treatment-predictive tool. #super[23]Na-MRI post-exercise validated by Wirth group; TRPM3 assay validated by NCNED/Griffith; the combination as a classifier is proposed but untested.)
+
+*Consequence:* the protocol uses tests that already exist, so the classification could run now; the barrier is access to the sodium MRI and the NK-cell assay, not the biology.
 ] <spec:ch14h-subtype-protocol>
 
 === Post-Infectious Channelopathy: Brugada Syndrome Parallel
@@ -854,6 +919,8 @@ If post-infectious mechanisms can permanently alter Nav1.5 in cardiac cells, ana
 *Translational prediction for ME/CFS:* SARS-CoV-2 3CL#super[pro], EBV proteases, and enteroviral 2A/3C proteases should be screened for ability to cleave TRPM3 protein in vitro. If a viral protease cleaves a TRPM3 domain required for PIP#sub[2] gating or channel assembly, post-infectious TRPM3 dysfunction has a mechanistic anchor. This experiment requires only purified proteases and recombinant TRPM3 protein.
 
 (Certainty: 0.15. Brugada post-febrile channelopathy is established; the extension to TRPM3 in immune cells is an inference by analogy, not yet tested. Speculative.)
+
+*Consequence:* Brugada shows that a virus can leave a channel defect behind, which makes the acquired-channelopathy idea credible; it does not show that SARS-CoV-2 does this to this channel.
 ] <spec:ch14h-brugada-parallel>
 
 === GsMTx-4 as a Research Tool for Piezo1 Testing
@@ -869,6 +936,8 @@ If Piezo1 overactivation causes RBC stiffness in ME/CFS (Section @spec:ch14h-pie
 GsMTx-4 is not a therapeutic candidate --- venom-derived peptides are not clinically viable, and Piezo1 is expressed on platelets and endothelial cells where inhibition could cause bleeding. However, as an in vitro mechanistic probe on isolated RBCs, GsMTx-4 provides a decisive test that no other approach currently offers. A negative result would redirect the field toward the competing mechanisms.
 
 _Research priority_: Low cost, mechanistically decisive. Could be combined with the Saha ektacytometry protocol as a two-condition experiment.
+
+*Consequence:* GsMTx-4 cannot be given to a patient because Piezo1 blockade would affect platelets and endothelium, so the experiment belongs in a tube on isolated red cells and nowhere else.
 ] <oq:ch14h-gsmtx4-piezo1>
 
 === Updated Testable Predictions from TRPM3 Research
@@ -886,6 +955,8 @@ _Research priority_: Low cost, mechanistically decisive. Could be combined with 
 
 #warning-env(title: [Cross-File Evidence Proportionality Warning])[
 *This section explores therapeutic implications of the central noradrenergic deficiency finding.* The underlying finding --- selectively reduced CSF NE Pathway in PI-ME/CFS --- derives from a single center (NIH Clinical Center), n=16 PI-ME/CFS patients, a novel unvalidated composite index, and no independent replication. All 18+ drug, biomarker, and mechanism speculations in this section are anchored to this single unreplicated observation. The most parsimonious alternative explanation --- low CSF NE reflects reduced physical activity rather than causing ME/CFS symptoms --- is addressed in Chapter @ch:neurological but has not been experimentally eliminated. Individually rated certainties (0.10--0.45) are honest; collectively, the density of treatment proposals creates an impression of therapeutic richness disproportionate to the evidence. Before any clinical consideration, the NE Pathway index requires independent validation in multi-center cohorts with deconditioning-matched control groups, and the direction of causality must be established (is NE deficiency cause, consequence, or epiphenomenon?). The clonidine null RCT in adolescent CFS (Sulheim 2014, n=120) @Sulheim2014clonidine provides a cautionary data point: the most direct pharmacological test of NE modulation in CFS produced no benefit. All agents discussed below are *research hypotheses*, not clinical recommendations.
+
+*Consequence:* the whole noradrenergic section rests on 16 patients from one centre, so the density of drug proposals should not be read as evidence, and no agent here should be started before the index is replicated.
 ]
 
 This section builds on the selectively noradrenergic central catecholamine deficiency documented by Aregawi et al. (2026) @Aregawi2026Noradrenergic and the mechanistic framework developed in Chapter @ch:neurological.
@@ -913,6 +984,8 @@ This section builds on the selectively noradrenergic central catecholamine defic
 *Limitations.* No atomoxetine or reboxetine trial has been conducted specifically in ME/CFS. The fibromyalgia data are from a different clinical entity with overlapping but distinct pathophysiology. The solriamfetol trial was small (n=38), industry-supported, and did not measure PEM. Atomoxetine can exacerbate tachycardia and hypertension in POTS patients --- the nOH trial's improvement in standing BP may worsen symptoms in the hyperadrenergic POTS subtype. The sustained-release formulation titrated slowly from subtherapeutic doses (10 mg) would be required for tolerability in severe ME/CFS.
 
 *Research-stage only.* Do not prescribe NRIs to ME/CFS patients outside clinical trials with systematic PEM monitoring and baseline autonomic profiling. The risk of unmasking latent POTS or worsening existing tachycardia is real. Baseline standing catecholamines, 24 h Holter monitoring, and a validated POTS screening tool should be obtained before any trial.
+
+*Consequence:* if the defect is vesicular filling, then a reuptake inhibitor extends the signal from whatever is released, which predicts benefit without increased synthesis and without stimulant-type escalation.
 ] <hyp:noradrenergic-nri-therapy>
 
 === α2 Antagonist Strategy: Mechanistic Rationale and Empirical Void
@@ -930,6 +1003,8 @@ This section builds on the selectively noradrenergic central catecholamine defic
     2. If NE Pathway activity does NOT increase after α2 blockade, the deficiency is pre-synaptic (synthesis failure) rather than autoinhibition-mediated, ruling out α2 antagonism as a viable strategy
 
 *Limitations.* No yohimbine, idazoxan, or atipamezole data exist in ME/CFS. Yohimbine has significant cardiovascular effects (hypertension, tachycardia, anxiety) that would be poorly tolerated in the POTS-heavy ME/CFS population. Idazoxan and atipamezole are research compounds without human safety data for chronic administration. The entire strategy rests on the assumption that presynaptic α2 tone is pathologically elevated --- unproven. Research-stage only.
+
+*Consequence:* yohimbine raises norepinephrine by removing autoinhibition but also produces anxiety and tachycardia, so the strategy needs a dose-finding study before any patient tries it for fatigue.
 ] <spec:alpha2-antagonist-noradrenergic>
 
 === Biomarker Implications: CSF NE Pathway as Diagnostic Stratifier
@@ -942,6 +1017,8 @@ The NE Pathway composite index (NE + DHPG + MHPG) introduced by Aregawi et al. (
     - *Normal NE Pathway → other mechanisms dominate*: Direct attention to TRPM3, autoimmunity, mitochondrial, or other pathways
 
 The critical barrier is the invasiveness of CSF collection. Non-invasive surrogates --- pupillometry (LC-NE activity correlates with pupil diameter), salivary α-amylase (indirect sympathetic marker), or plasma DHPG (partial CNS mirror) --- would need development and validation against lumbar CSF to make this clinically feasible.
+
+*Consequence:* if the index stratifies responders, then a lumbar puncture becomes a gate to treatment, which is a high cost for a test that has not yet been replicated.
 ] <oq:ne-pathway-stratification>
 
 === Guanfacine: α2A-Selective Agonism in Prefrontal Cortex
@@ -954,6 +1031,8 @@ Guanfacine improves working memory in ADHD (Biederman 2008), PFC cognitive funct
 *Falsifiable predictions:* (a) Guanfacine XR 1--4 mg over 8 weeks improves PFC-dependent cognitive tasks (n-back, Stroop) and effort-based decision-making in ME/CFS, with largest effect in patients with lowest PFC functional connectivity. (b) CSF NE Pathway does NOT decrease on guanfacine (confirming no presynaptic suppression). (c) Guanfacine outperforms clonidine on cognitive endpoints in a head-to-head ME/CFS comparison.
 
 *Limitations.* No ME/CFS data. Hypotension and sedation are dose-limiting; titration from 1 mg required. ADHD patients show variable cognitive response to guanfacine --- ME/CFS may differ. Research-stage.
+
+*Consequence:* guanfacine acts on postsynaptic receptors without lowering locus coeruleus firing, so the clonidine null does not apply to it, but no ME/CFS trial has tested the distinction.
 ] <spec:guanfacine-a2a-pfc>
 
 === Droxidopa (L-DOPS): Direct DBH Bypass
@@ -966,6 +1045,8 @@ Droxidopa is FDA-approved for neurogenic orthostatic hypotension (nOH) with an e
 *Falsifiable predictions:* (a) Droxidopa 200--600 mg TID over 4 weeks increases CSF NE Pathway (NE+DHPG+MHPG) and improves MFI physical fatigue and handgrip duration in ME/CFS patients with lowest baseline NE Pathway. (b) No significant tachyphylaxis over 8 weeks. (c) Subgroup with PTPRN2 hypomethylation (structural VMAT2 subtype) shows smaller response than VMAT2-normal patients.
 
 *Limitations.* No ME/CFS trial. Contraindicated in patients with supine hypertension. Requires standing BP monitoring. May worsen tachycardia if POTS is hyperadrenergic. The DBH bypass is effective only if LAAAD is functional --- if LAAAD is also impaired, droxidopa will fail. Research-stage.
+
+*Consequence:* droxidopa bypasses the synthesis step entirely, so a rise in CSF norepinephrine after a dose would show that the bottleneck sits upstream of the enzyme, which is a clean mechanistic test.
 ] <spec:droxidopa-dbh-bypass>
 
 === Atomoxetine + Guanfacine Fixed-Dose Combination
@@ -978,6 +1059,8 @@ Guanfacine may counter atomoxetine's potential anxiety/excitation side effects v
 *Falsifiable predictions:* (a) Atomoxetine 40 mg + guanfacine XR 2 mg over 8 weeks produces greater improvement in MFI physical fatigue and cognitive efficiency (Stroop, n-back) than either drug alone. (b) Combination has no more tachycardia or orthostatic worsening than atomoxetine alone. (c) Largest benefit in patients with comorbid ADHD traits (ASRS > 24).
 
 *Limitations.* No ME/CFS combination data. Hypotension risk (additive α2 + NRI). Guanfacine sedation may compound ME/CFS fatigue initially. Research-stage.
+
+*Consequence:* the combination is used in ADHD with a known safety record, which makes it the most feasible norepinephrine strategy here, but feasibility is not evidence of benefit in ME/CFS.
 ] <spec:atomoxetine-guanfacine>
 
 === P2X7–ATP–Calcium–VMAT2 Coupling as PEM Threshold
@@ -990,6 +1073,8 @@ The P2X7 link bridges NE deficiency to neuroinflammation: activated P2X7 on micr
 *Falsifiable predictions:* (a) P2X7 antagonist reduces NE release from patient-derived LC neurons in vitro. (b) P2X7 SNP rs3751143 predicts CSF NE Pathway status in ME/CFS. (c) P2X7 expression on PBMCs correlates negatively with NE Pathway index.
 
 *Limitations.* No direct P2X7 measurement in ME/CFS LC neurons. All evidence from preclinical models. P2X7-KO mouse data may not translate to human ME/CFS. The ATP threshold for P2X7 gating (approximately 1 mM) may be above typical intracellular ATP ranges.
+
+*Consequence:* if ATP gates the calcium that triggers release, then energy failure reduces norepinephrine output twice, and the receptor genotype would become a stratification variable rather than a curiosity.
 ] <spec:p2x7-atp-vmat2>
 
 === Pupillometry as Non-Invasive LC-NE Functional Probe
@@ -1002,6 +1087,8 @@ Pupil diameter correlates with LC firing rate in non-human primates (Joshi 2016)
 *Falsifiable predictions:* (a) Baseline pupil diameter and PLR latency correlate with CSF NE Pathway index (r > 0.5) in ME/CFS patients. (b) Pupillometry parameters discriminate PI-ME/CFS from HV (AUC > 0.75). (c) Task-evoked pupil dilation correlates with handgrip duration. (d) Blunted phasic response predicts larger NRI benefit (predictive biomarker).
 
 *Limitations.* Pupil size is affected by ambient light, arousal, medications (anticholinergics, antihistamines, antidepressants), and iris muscle fatigue. Standardized protocol required. Correlation with CSF NE must be established before clinical use.
+
+*Consequence:* if pupil measures track CSF norepinephrine, then a bench-side test replaces the lumbar puncture, which matters most for repeated measures in a patient who cannot travel.
 ] <spec:pupillometry-lc-ne>
 
 === NE as Descending Analgesia Gate: Pain-Fatigue Mechanism Link
@@ -1014,6 +1101,8 @@ Conditioned pain modulation (CPM) --- a clinical measure of endogenous analgesia
 *Falsifiable predictions:* (a) CSF NE Pathway correlates with CPM magnitude (r > 0.4) in ME/CFS: lower NE → weaker endogenous analgesia. (b) Duloxetine increases NE-dependent pain thresholds (QST) more in patients with low vs normal CSF NE. (c) ME/CFS patients with comorbid widespread pain (>3 months) have lower CSF NE than pain-free ME/CFS.
 
 *Limitations.* CPM has never been correlated with CSF NE in any population. FM vs ME/CFS pain mechanisms may be confounded by peripheral sensitization differences. α2-AR status in ME/CFS unmeasured.
+
+*Consequence:* if low norepinephrine disinhibits descending pain control, then the same deficit explains fatigue and pain, and conditioned pain modulation becomes a cheap readout of the noradrenergic state.
 ] <spec:ne-descending-analgesia>
 
 === Structural vs Metabolic VMAT2 Subtypes
@@ -1027,6 +1116,8 @@ Conditioned pain modulation (CPM) --- a clinical measure of endogenous analgesia
 *Falsifiable predictions:* (a) CSF NE Pathway in PTPRN2-hypomethylated ME/CFS patients correlates with VMAT2 protein in CSF exosomes (lower VMAT2 = structural subtype). (b) ATP supplementation improves NE Pathway only in PTPRN2-normal (metabolic) but not PTPRN2-hypomethylated (structural) patients. (c) Droxidopa response is equivalent across subtypes (independent of VMAT2 number).
 
 *Limitations.* PTPRN2 expression in human LC neurons unconfirmed. Hypomethylation in T-cells may not reflect CNS vesicular machinery. The two subtypes may be a continuum rather than categorical.
+
+*Consequence:* if the defect is vesicle number rather than filling, then ATP support will not help that subtype and a synthesis bypass will, which makes the two subtypes treatable in opposite ways.
 ] <spec:structural-metabolic-vmat2>
 
 === Urinary VMA/HVA Ratio as Peripheral Catecholamine Balance
@@ -1039,6 +1130,8 @@ VMA/HVA ratio is used clinically in neuroblastoma diagnosis and is standardized,
 *Falsifiable predictions:* (a) 24h urinary VMA/HVA ratio correlates with CSF NE Pathway in ME/CFS patients (r > 0.5). (b) VMA/HVA below age/sex-adjusted threshold discriminates PI-ME/CFS from HV (AUC > 0.70). (c) Ratio normalises after droxidopa treatment.
 
 *Limitations.* DBH is present in both CNS and peripheral sympathetic nerves; peripheral VMA reflects mixed CNS + peripheral contribution. 24h urine collection is burdensome for severe patients. VMA/HVA ratio influenced by diet (vanilla, bananas, coffee) and medications.
+
+*Consequence:* a urine ratio is cheap and already standardized, so if it tracks CSF norepinephrine it would make stratification available in any clinic; the correlation has not been measured.
 ] <spec:urinary-vma-hva>
 
 === Low CNS NE as Driver of Hyperadrenergic POTS
@@ -1051,6 +1144,8 @@ This has direct clinical implications: treating central NE deficiency (atomoxeti
 *Falsifiable predictions:* (a) Acute atomoxetine challenge (40 mg) in ME/CFS+POTS patients with documented low CSF NE shows improved orthostatic HR and BP (not worsened) at 2h post-dose. (b) Standing plasma NE at 2h post-dose shows blunted increase (less sympathetic activation --- because central NE improved baroreflex gain). (c) A CSF NE-guided trial of atomoxetine shows POTS improvement only in those with low CSF NE.
 
 *Limitations.* Highly speculative. NRIs in POTS are known to worsen tachycardia in some patients. The model may apply only to a subtype (hyperadrenergic POTS with low CSF NE). No data.
+
+*Consequence:* if low central norepinephrine drives the tachycardia, then a reuptake inhibitor could improve POTS rather than worsen it, which is the opposite of current practice and needs a monitored trial.
 ] <spec:cns-ne-drives-pots>
 
 === NE Deficiency × TRPM3: Two-Hit Calcium Dysregulation
@@ -1061,6 +1156,8 @@ This has direct clinical implications: treating central NE deficiency (atomoxeti
 *Falsifiable predictions:* (a) TRPM3 function in ME/CFS iPSC-derived LC neurons correlates with CSF NE Pathway activity. (b) Calcium imaging in patient-derived LC neurons shows reduced depolarization-evoked Ca²⁺ influx. (c) TRPM3 agonist (pregnenolone sulfate) increases NE release from patient LC neurons in vitro; TRPM3 antagonist reduces it.
 
 *Limitations.* No iPSC-derived LC neurons available from ME/CFS patients. TRPM3 expression pattern in human LC not fully characterized. The NK cell TRPM3 defect may not generalise to LC neurons --- different cellular context, different regulatory mechanisms.
+
+*Consequence:* if the channel defect reaches the noradrenergic neuron, then the transmitter deficiency and the immune defect share one cause, and an iPSC model could test it without a lumbar puncture.
 ] <spec:trpm3-ne-twohit>
 
 === Pregnenolone Sulfate as TRPM3-Mediated NE Release Enhancer
@@ -1073,6 +1170,8 @@ Pregnenolone sulfate potently activates TRPM3 (Wagner 2008). Oral pregnenolone 5
 *Falsifiable predictions:* (a) Pregnenolone 50 mg increases CSF NE Pathway in ME/CFS over 2 weeks vs placebo. (b) TRPM3 functional variant carriers show larger response. (c) Effect is blocked by TRPM3 antagonist (ononetin) in patient-derived LC neurons in vitro.
 
 *Limitations.* No ME/CFS data. Pregnenolone is metabolised to downstream steroids (DHEA, testosterone, estrogen) with complex endocrine effects. Not appropriate for hormone-sensitive conditions. Low-level supplement regulation: purity varies. Research-stage.
+
+*Consequence:* pregnenolone is sold as a supplement, so patients may try it; the channel effect in noradrenergic neurons is unmeasured, and the dose that would help is unknown.
 ] <spec:pregnenolone-trpm3-ne>
 
 === Atomoxetine + HR-Monitored Pacing for PEM Prevention
@@ -1083,6 +1182,8 @@ Pregnenolone sulfate potently activates TRPM3 (Wagner 2008). Oral pregnenolone 5
 This concept --- "medication-enabled pacing" --- is distinct from "medication-enabled overexertion" (the risk with stimulants, discussed in Chapter @ch:medications-mechanisms). If validated, atomoxetine + HR-pacing would represent a novel paradigm: pharmacological NE support within a strict energy envelope, improving quality of life without increasing PEM risk.
 
 *Falsifiable predictions:* (a) Atomoxetine 40 mg + HR-monitored pacing reduces PEM frequency and severity (DSQ-PEM) compared to pacing alone over 8 weeks. (b) Unlike modafinil, atomoxetine does not increase daily step counts while improving fatigue. (c) Atomoxetine + pacing is superior to atomoxetine alone (pacing prevents PEM).
+
+*Consequence:* if the drug raises capacity without masking fatigue, then it can be combined with pacing rather than replace it, which is the distinction that separates it from a stimulant.
 ] <hyp:atomoxetine-pacing-pem>
 
 === CSF Exosome VMAT2/DBH as Liquid Biopsy for NE Subtype
@@ -1095,6 +1196,8 @@ L1CAM exosome isolation is validated in AD (Aβ, tau) and PD (α-synuclein). VMA
 *Falsifiable predictions:* (a) L1CAM+ exosomal VMAT2 and DBH protein levels correlate with CSF NE Pathway (r > 0.5). (b) Exosomal VMAT2 distinguishes structural from metabolic NE deficiency subtypes. (c) Serial exosome VMAT2/DBH tracks treatment response to atomoxetine and droxidopa.
 
 *Limitations.* L1CAM isolation requires specialised equipment (ultracentrifugation or ExoQuick). VMAT2 and DBH protein in exosomes may be below detection threshold in some patients. Cross-reactivity with peripheral sympathetic exosomes. Better suited as research tool than clinical assay at current technology level.
+
+*Consequence:* if plasma exosomes carry the same proteins as CSF, then the lumbar puncture becomes unnecessary for subtyping, but the correlation has not been shown in ME/CFS.
 ] <spec:csf-exosome-vmat2-dbh>
 
 === NE + Adenosine A1-α1 Heteromer Crosstalk
@@ -1107,6 +1210,8 @@ A1-α1 heteromers demonstrated in HEK cells and rat brain (Ciruela 2012), with c
 *Falsifiable predictions:* (a) In ME/CFS patient-derived cells expressing A1-α1 heteromers, NE deprivation increases A1-mediated cAMP inhibition; NE restoration (atomoxetine) reverses this. (b) Caffeine response in ME/CFS correlates with CSF NE: lower NE → larger caffeine benefit (A1 blockade more impactful when NE counterbalance is absent).
 
 *Limitations.* Entirely preclinical mechanism. Heteromer biology in human disease context barely studied. Caffeine response confounded by tolerance, peripheral effects, and adenosine receptor subtype complexity. Research curiosity only.
+
+*Consequence:* if low norepinephrine lets adenosine dominate, then caffeine relief is explained mechanistically, and the model predicts that a noradrenergic drug should reduce sleep pressure without a stimulant.
 ] <spec:ne-adenosine-heteromer>
 
 === DORA + Atomoxetine Chronobiotic Protocol
@@ -1119,6 +1224,8 @@ Unlike stimulants, neither DORA nor atomoxetine increases dopamine transmission,
 *Falsifiable predictions:* (a) DORA (lemborexant 5 mg) + atomoxetine 40 mg improves both sleep quality (PSQI, PROMIS sleep) and daytime fatigue (MFI) more than either agent alone over 8 weeks. (b) No phase-shift or chronobiotic disruption (validated by actigraphy and DLMO).
 
 *Limitations.* No combination safety data. Atomoxetine can disrupt sleep onset (NE elevation at night). DORA interaction with NRI unknown. Two-drug protocol increases burden and cost. Research-stage.
+
+*Consequence:* splitting the two phases is testable with drugs that already exist, but no study has combined them, and the sleep benefit is the endpoint that matters.
 ] <spec:dora-atomoxetine-chronobiotic>
 
 === ME/CFS as Functional Pre-Parkinson's: Reversible LC Failure
@@ -1131,6 +1238,8 @@ This hypothesis predicts: (a) ME/CFS patients do not develop PD at elevated rate
 *Falsifiable predictions:* (a) 7T LC neuromelanin imaging shows normal LC volume in ME/CFS (vs reduced in PD) despite low CSF NE. (b) ME/CFS patients followed over 10 years do not develop PD at elevated rates. (c) CSF NE in ME/CFS temporarily normalises after ATP support; PD CSF NE does not improve with same intervention.
 
 *Limitations.* No 7T LC neuromelanin imaging in ME/CFS. ME/CFS is not neurodegenerative — the functional pre-PD framing is provocative but requires imaging confirmation. Low CSF NE may have different mechanisms in the two conditions entirely (metabolic vs degenerative).
+
+*Consequence:* if the deficiency is functional rather than structural, then restoring energy should restore norepinephrine, which predicts that ME/CFS patients do not progress to Parkinson's disease at a raised rate.
 ] <spec:functional-pre-pd>
 
 === Cerebellar Cognitive-Affective Syndrome (CCAS) in ME/CFS
@@ -1147,6 +1256,8 @@ Schmahmann's Cerebellar Cognitive-Affective Syndrome (CCAS) produces executive d
 - Patients with highest glutamatergic PRS show greatest CCAS deficits
 
 *Limitations.* Maccallini cerebellar signal is tissue-level enrichment; cell-type resolution within cerebellum (Purkinje vs granule vs Golgi cells) not yet achieved. CCAS has not been systematically assessed in ME/CFS using the validated scale. Cerebellar MRI findings could also reflect the high metabolic vulnerability of cerebellum to systemic energy deficit rather than genetically driven circuit dysfunction — distinguishing these requires demonstrating CCAS deficits correlate with cerebellar PRS independently of metabolic markers. (Certainty: 0.50. 0.45→0.50: feed-into from glutamatergic synapse enrichment — glutamatergic synapse vulnerability specifically amplifies cerebellar circuit risk, providing convergent genetic support for the CCAS model @Maccallini2026metaGWAS.)
+
+*Consequence:* if the cerebellar signal maps to the cognitive phenotype, then brain fog has a circuit address, and cerebellar measures become a treatment readout rather than a research curiosity.
 ] <hyp:ch14h-ccas-cerebellar>
 
 === IL-11 as Upstream Driver of TRPM3 Dysfunction via Inflammaging
@@ -1168,6 +1279,8 @@ This speculation considers whether IL-11 elevation could drive TRPM3 dysfunction
 *Limitations.* Every step in the IL-11→TRPM3 chain is inferred from different studies; no study has tested whether IL-11 affects TRPM3 function. Chinnappan 2026 is a single unreplicated study with methodological concerns (age mismatch, serum not plasma, >10-year sample storage). Direction of mTORC1 effect on PIP#sub[2] is unestablished — mTORC1 can increase PIP#sub[2] synthesis via S6K→PI4K, not deplete it. The independent-epiphenomena alternative (both IL-11 elevation and TRPM3 dysfunction are downstream of a shared viral trigger with no causal link) requires only one causal entity; the cascade hypothesis requires four unbroken arrows. Not clinically actionable.
 
 *Clinical status.* Research use only — no clinical action recommended.
+
+*Consequence:* no experiment has shown two consecutive steps of this chain, so the convergence is a hypothesis about a shared endpoint, and measuring the cytokine is the first test.
 ] <spec:il11-trpm3-inflammaging>
 
 === MMP-9 Blood-Brain Barrier Neuroinflammatory Trap
@@ -1191,6 +1304,8 @@ This hypothesis proposes a self-sustaining neuroinflammatory trap that operates 
 *Falsifiable predictions:* (a) Serial plasma and CSF S100B + MMP-9 + IL-11 measurements in ME/CFS over 12 months will show progressive increase, with S100B (BBB marker) predicting subsequent MMP-9 and IL-11 increases (Granger causality). (b) Mast cell stabilizers will reduce plasma MMP-9 levels. (c) If the loop is truly self-sustaining, MMP-9 levels will not normalize during periods of clinical remission (partial uncoupling from symptom state). (d) TRPM3 agonist treatment (naltrexone) will reduce CSF MMP-9 over 3 months.
 
 *Limitations.* No longitudinal MMP-9/BBB data in ME/CFS. All MMP-9 studies to date used serum, not plasma — the magnitudes are unreliable (Section @warn:mmp9-serum-plasma). The Bonetto 2022 BBB correlation is cross-sectional. The peripheral-to-CNS loop is inferred from separate studies in different populations (ME/CFS for IL-11, COVID-19 for BBB). No study has measured all 3 markers (MMP-9, S100B, IL-11) simultaneously in ME/CFS.
+
+*Consequence:* a single cross-sectional study of plasma MMP-9, S100B and IL-11 would test the baseline correlation, which is the cheapest step and has not been done.
 ] <spec:mmp9-bbb-neuroinflammatory-trap>
 
 === Upstream Causes and Downstream Consequences of the Noradrenergic Deficit
@@ -1267,6 +1382,8 @@ Interaction data were retrieved from current FDA prescribing information (openFD
     - *Duloxetine:* metabolised by CYP1A2 and CYP2D6; potent inhibitors of either raise exposure.
 
 This addresses the pipeline's drug-interaction pre-check: the common ME/CFS co-prescriptions most at risk are MAOIs (do not combine with atomoxetine, solriamfetol, midodrine) and other pressor agents (avoid combining droxidopa with midodrine without supine-BP monitoring). *Data source: FDA labels via openFDA; not a substitute for clinician review.*
+
+*Consequence:* these interactions come from current prescribing information, so a prescriber must check them before combining any of these agents; the list is a starting point for that check, not a substitute for it.
 ]
 
 *Falsifiable predictions.* (a) A selective NRI will reduce PEM frequency, not only fatigue, in low-NE ME/CFS. (b) The peripheral-denervation vs central-autonomic fork @Park2020OHpharmacologic will predict whether a given patient responds to droxidopa or to an NRI. (c) A release enhancer will fail the amantadine test if the deficit is synthesis- or vesicle-limited rather than release-limited @Cruccioli2026AmantadineMSfatigue.

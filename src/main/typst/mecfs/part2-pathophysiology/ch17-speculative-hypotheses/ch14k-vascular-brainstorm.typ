@@ -25,6 +25,8 @@ _Certainty: 0.30._ Glycocalyx mechanosensing is established physiology; its impa
     + Glycocalyx restoration (sulodexide, or recombinant heparanase inhibitor) should normalise the flow-mediated exercise vasodilation response before improving resting FMD
 
 *Research priority:* Intra-exercise flow-mediated dilation measurement (using Doppler during low-level ergometry) has not been performed in ME/CFS.
+
+*Consequence:* if the glycocalyx is the sensor that fails, then pacing protects it by limiting shear stress, and a shed marker such as syndecan-1 would give an objective readout of that protection.
 ] <hyp:glycocalyx-pacing-device>
 
 #hypothesis(title: [Orthostatic Hypocapnia as a Positive Feedback Loop for Microclot Formation])[
@@ -35,6 +37,8 @@ In this model, every orthostatic episode in ME/CFS produces: (1) cerebral hypope
 _Certainty: 0.20._ Each individual link is physiologically grounded; the integrated cycle in ME/CFS has not been directly tested.
 
 *Falsifiable prediction:* Tilt-induced alkalosis (measured by arterial or capillary pH) should correlate with post-tilt microclot burden (measured by fluorescence microscopy) in a within-patient comparison.
+
+*Consequence:* if the loop is real, then treating orthostatic intolerance would also slow clot accumulation, and end-tidal CO2 during a tilt test would become a modifiable target rather than a bystander reading.
 ] <hyp:hypocapnia-microclot-loop>
 
 #speculation(title: [Senescent Endothelial Cell Exosomes as Systemic SASP Propagators])[
@@ -48,6 +52,8 @@ This would explain why ME/CFS cardiovascular pathology is systemic (affecting ce
 _Certainty: 0.15._ SA-EV biology is an active research field; their role in ME/CFS is entirely speculative. No ME/CFS study has characterised extracellular vesicle senescence markers.
 
 *Research proposal:* Characterise EV cargo in ME/CFS plasma for SA-EV markers (p21, p16, SA-$beta$-galactosidase-containing EVs) and test whether ME/CFS EVs induce senescence in healthy endothelial cells in vitro.
+
+*Consequence:* if senescent endothelial vesicles propagate damage, then a blood test for senescence markers could date the illness, and a senolytic could stop a process that is otherwise self-sustaining.
 ] <spec:saev-propagation>
 
 #hypothesis(title: [RBC Phosphatidylserine Externalisation as a Microclot Nucleation Signal])[
@@ -58,6 +64,8 @@ If ME/CFS RBCs externalise PS at elevated rates, they could act as continuous nu
 _Certainty: 0.30._ PS externalisation on ME/CFS RBCs has not been directly measured; it is inferred from documented ROS elevation and morphological abnormalities.
 
 *Falsifiable prediction:* Annexin-V binding to ME/CFS RBCs (the standard assay for PS externalisation) should be elevated, and should correlate with microclot area in fluorescence microscopy of the same patient sample.
+
+*Consequence:* if damaged red cells nucleate clots, then a treatment that stabilises the red-cell membrane would matter more than an anticoagulant, and the test is red-cell phosphatidylserine exposure, not aggregate count.
 ] <hyp:rbc-ps-microclot-nucleation>
 
 #hypothesis(title: [BBB Transport Confounding of TSPO PET Neuroinflammation Findings])[
@@ -75,6 +83,8 @@ Under this hypothesis, three interpretations of negative TSPO PET findings in ME
 *Falsifiable prediction:* TSPO tracer brain influx rate (K1) will be lower in ME/CFS patients compared to healthy controls, particularly during PEM flare-ups when peripheral inflammation is expected to be highest. Patients with highest CRP or plasma cytokine levels will show lowest brain TSPO K1 values. If K1 values are normal in ME/CFS, BBB transport confounding is not the explanation for negative TSPO-PET findings.
 
 *Limitations:* No study has directly measured TSPO tracer K1 (brain influx rate) in ME/CFS. Barzon et al.\ (2026) finding was in depression and schizophrenia patients, not ME/CFS. Replication status: BBB transport limitation well-established across three tracers; ME/CFS application untested. Single negative ME/CFS TSPO-PET study @Raijmakers2021TSPOCFS did not measure K1 and cannot distinguish between "no inflammation" and "masked inflammation" interpretations.
+
+*Consequence:* a negative TSPO PET scan in ME/CFS cannot be read as evidence against brain inflammation until tracer delivery is measured alongside it, so no patient should be told that the scan excludes neuroinflammation.
 ] <hyp:bbb-tspo-confounding>
 
 #hypothesis(title: [Peripheral-Inflation, Central-Starvation: Resource Reallocation Hypothesis])[
@@ -103,6 +113,8 @@ This model predicts that treatments reducing peripheral immune activation (immun
 4. If peripheral TSPO elevation drives symptoms, treatments that reduce peripheral immune activation (immunomodulators, senolytics) should improve symptoms without changing brain TSPO signal
 
 *Alternative interpretation:* The observed brain signal decrease could be BBB transport limitation (Barzon 2026 mechanism) rather than true absence of microglial activation. This can be distinguished by measuring tracer influx rate K1 directly.
+
+*Consequence:* if the brain is immune-quiet only because it cannot mount the response, then peripheral anti-inflammatory treatment may help while central immune treatment is the wrong target, and a normal brain scan would not mean a normal brain.
 ] <hyp:peripheral-inflation-central-starvation>
 
 === Novel Treatment Proposals
@@ -123,6 +135,8 @@ If virus-induced endothelial senescence is causal , senolytics represent a ratio
 This design generates mechanistic data (does senolytic treatment reduce SASP in ME/CFS?) and safety data regardless of clinical outcome.
 
 *Prescription note:* Dasatinib is a BCR-ABL tyrosine kinase inhibitor licensed for leukaemia. Off-label prescribing requires oncology familiarity with its safety profile; it is not appropriate for GP-level off-label use. The dosing detail above describes a *research protocol*, not a clinical recommendation for individual patients outside a supervised trial.
+
+*Consequence:* this is a trial design, not a treatment offer; dasatinib carries myelosuppression and pleural-effusion risks, so no patient should take a senolytic outside a monitored study.
 ] <oq:senolytics-mecfs-trial>
 
 #open-question(title: [Glycocalyx Restoration as Prevention: Early Post-COVID Intervention])[
@@ -131,6 +145,8 @@ The Scheibenbogen-Wirth temporal model  implies that early post-COVID vascular i
 *Research proposal:* A prevention trial enrolling COVID-19 patients within 4 weeks of infection who show early markers of endothelial glycocalyx shedding (plasma syndecan-1 $>$ 30~ng/mL), randomised to sulodexide 500~LSU daily for 90 days vs.\ placebo. Primary outcome: ME/CFS incidence at 6 months (by consensus criteria). If the vascular-primary model is correct, early glycocalyx restoration should reduce ME/CFS incidence by interrupting the capillary damage-to-mitochondrial injury cascade before it becomes structural.
 
 This trial design is feasible with existing infrastructure, uses an approved medication, and would simultaneously test the vascular-primary causal hypothesis and provide clinical benefit data.
+
+*Consequence:* if the vascular-first model is right, treating within weeks of infection could prevent ME/CFS, which would be the only intervention in this chapter that acts before the illness is established.
 ] <oq:glycocalyx-prevention-trial>
 
 #open-question(title: [P2X3 Antagonism + Volume Expansion: Combination Targeting Orthostatic Symptom Amplifiers])[
@@ -141,6 +157,8 @@ A combination intervention targeting both:
     - *P2X3 antagonism* (gefapixant): To reduce carotid body sensitisation and attenuate orthostatic hypocapnia
 
 The hypothesis is that the two components are additive because they target mechanistically independent amplifiers. Orthostatic symptoms would be expected to improve more with the combination than either alone, measurable by tilt-table PETCO#sub[2] trajectories and OI symptom scores.
+
+*Consequence:* if the two amplifiers are independent, then a patient whose orthostatic symptoms persist on fludrocortisone may still respond to a carotid-body target, and the combination is testable without either drug being new.
 ] <oq:p2x3-volume-combo>
 
 === Endothelial Senescence as Unifying Mechanism (Long COVID ↔ ME/CFS)
@@ -151,6 +169,8 @@ The endothelial senescence-associated secretory phenotype (SASP) is characterize
 Critically, authors distinguish endothelial dysfunction from coagulopathy: SASP is procoagulant but does not equate to overt clotting disorder @McAlpine2026 @Nunes2026endothelialsenescence.
 Study: (hypothesis framework, no primary data, certainty: Low).
 Testable predictions: (1) senescent endothelial cells accumulate in ME/CFS/Long COVID patients; (2) SASP factors elevated in plasma; (3) immune dysfunction prevents clearance of senescent cells; (4) senolytic therapy improves symptoms.
+
+*Consequence:* if endothelial senescence unifies the two diseases, then a senolytic would treat both, and the distinction between procoagulant SASP and overt coagulopathy would explain why clotting tests stay normal while the vessel wall is still abnormal.
 ] <hyp:nunes2026endothelialsenescence>
 
 === Vascular Dysfunction Biomarkers in ME/CFS (First Direct Evidence)
@@ -160,6 +180,8 @@ Heng et al.~@heng2025mecfs conducted multimodal analysis of ME/CFS patients, ide
 Importantly, study distinguishes vascular endothelial dysfunction from overt coagulopathy, aligning with both McAlpine @McAlpine2026 in Long COVID and Nunes @Nunes2026endothelialsenescence theoretical framework.
 The study also documented immune cell energy deficits (reduced ATP/ADP ratio) and T/NK subset skewing, providing cross-system evidence of ME/CFS pathophysiology.
 Study: (multimodal design, proteomics, certainty: Medium-High).
+
+*Consequence:* this separates a damaged vessel wall from a clotting disorder, so a normal D-dimer in ME/CFS is not evidence that the vasculature is healthy.
 ] <ach:heng2025-vascular>
 
 === Cross-Disease Comparison: Long COVID Vascular Biomarkers
@@ -170,6 +192,8 @@ Elevated endothelial adhesion markers (sL-selectin, ADAMTS13, sP-selectin, sICAM
 Importantly, coagulation markers (D-dimer, fibrinogen) did not differ from recovered controls, supporting endothelial dysfunction WITHOUT overt coagulopathy.
 These vascular biomarkers correlated with cognitive measures (fluency, verbal learning, memory) and psychiatric symptoms (depression, anxiety), linking endothelial dysfunction to "brain fog."
 Study: (n=50 Long COVID, n=29 recovered controls, n=28 acute COVID-19, certainty: Medium-High).
+
+*Consequence:* in Long COVID, vascular markers tracked cognition while clotting markers stayed normal, so brain fog can have a vascular cause without a coagulopathy.
 ] <clinical-findings:mcAlpine2026-cognitive-correlations>
 
 === Novel Hypotheses from Vascular Biomarker Findings
@@ -187,6 +211,8 @@ _Certainty: 0.40._ The biomarker-cognition correlation is established in Long CO
     + Anti-adhesion therapy (targeting P-selectin or ICAM-1) should improve cognitive processing speed before improving subjective fatigue
 
 *Research priority:* Cross-sectional ME/CFS cohort measurement of endothelial adhesion markers vs comprehensive cognitive battery — directly tests whether Long COVID biomarker-cognition pattern extends to ME/CFS.
+
+*Consequence:* if the same relationship holds in ME/CFS, an adhesion-marker panel could predict cognitive response to a vascular treatment, and brain fog would be read as a perfusion problem rather than a psychological one.
 ] <hyp:endothelial-adhesion-cognition>
 
 #speculation(title: [α1-Acid Glycoprotein as Protective Cognitive Biomarker])[
@@ -202,6 +228,8 @@ If this pattern holds in ME/CFS, AGP could serve as both a prognostic cognitive 
 _Certainty: 0.25._ The inverse AGP-cognition relationship is observed in Long COVID; ME/CFS relevance is entirely speculative. No mechanistic studies explain AGP's neuroprotective role.
 
 *Research proposal:* Measure AGP levels in ME/CFS patients vs controls and correlate with cognitive performance. Conduct in vitro studies of AGP's effects on neuronal survival, endothelial permeability, and neuroinflammation models.
+
+*Consequence:* if high AGP protects cognition, then a low reading would flag risk rather than inflammation, which reverses how clinicians usually read an acute-phase protein.
 ] <spec:agp-cognitive-protection>
 
 #hypothesis(title: [Temporal Evolution of Vascular Biomarkers Predicts ME/CFS Recovery Trajectory])[
@@ -222,6 +250,8 @@ _Certainty: 0.35._ Temporal evolution pattern observed in Long COVID; ME/CFS tem
     + Vascular biomarker levels should predict treatment response to senolytics or glycocalyx restoration therapies
 
 *Research priority:* Longitudinal ME/CFS cohort with serial vascular biomarker measurement at 6, 12, 24, and 36 months post-onset — maps disease trajectory and identifies therapeutic windows.
+
+*Consequence:* if vascular markers normalise while symptoms persist, then a normal blood panel late in illness does not argue against a vascular origin, and early treatment would matter more than late treatment.
 ] <hyp:vascular-biomarker-temporal>
 
 === Novel Treatment Proposals from Vascular Findings
@@ -245,6 +275,8 @@ If endothelial adhesion markers (sP-selectin, sICAM-1, sL-selectin) mediate cogn
 *Safety considerations*: Crizanlizumab has established safety profile in sickle cell; monitor for infusion reactions, thrombocytopenia, and infection risk. Alicaforsen has more limited safety data but oral bioavailability offers advantage.
 
 *Prescription note*: Both agents are off-label for ME/CFS. Crizanlizumab requires hematology/oncology prescribing familiarity. Alicaforsen remains investigational.
+
+*Consequence:* this is a trial proposal; crizanlizumab is an approved infusion with a bleeding and infection profile, so it should not be sought outside a study that selects patients by marker status.
 ] <oq:anti-adhesion-therapy-cognitive>
 
 #open-question(title: [Biomarker-Guided ME/CFS Subtype Stratification for Targeted Therapy])[
@@ -261,6 +293,8 @@ McAlpine et al.\ @McAlpine2026 suggest that vascular biomarkers correlate with s
 *Clinical implications*: Biomarker-guided subtype identification could explain heterogeneous treatment responses in ME/CFS, enable precision medicine approaches, and improve clinical trial design by reducing unstratified patient enrollment.
 
 *Implementation challenges*: Requires validated assay panels for all biomarker classes; cost considerations for multi-marker testing; potential overlap between subtypes (patients may have mixed profiles).
+
+*Consequence:* if the subtypes are real, the same drug will help one group and fail another, which explains null trials and argues for marker-based enrolment rather than unselected cohorts.
 ] <oq:biomarker-guided-subtyping>
 
 === Research Priority Matrix
@@ -319,6 +353,8 @@ Where:
 
 #limitation(title: [Mathematical Model Limitations])[
 This ODE system is entirely speculative and constructed to be *consistent with* bistability, not to demonstrate it. No parameter values have been empirically estimated from ME/CFS patient data. Whether the system actually exhibits bistability — and for what parameter ranges — requires numerical bifurcation analysis and empirical parameter estimation, neither of which has been performed. The therapeutic implications and phase-transition predictions are hypothesis-generating, not clinically actionable, until the model is validated.
+
+*Consequence:* no clinical decision should rest on this model until its parameters are estimated from patient data, because a system built to be consistent with bistability does not show that bistability exists.
 ] <lim:vascular-mitochondrial-odel-unvalidated>
 
 === Research Priority Matrix
@@ -352,6 +388,8 @@ The following priorities are ranked by mechanistic novelty $times$ clinical impa
 *Limitations.* Anatomical MTS may be incidental. Reversible venous fatigue is distinct from ME/CFS fatigue. No study has screened an ME/CFS cohort for MTS. Stenting carries procedural risks (thrombosis, stent migration, bleeding). Causal counter-argument: if MTS is causal, why don't 22--24% of the general population with anatomical MTS have ME/CFS? MTS must be a co-factor, not a cause, amplifying existing ME/CFS pathology rather than generating it de novo. Screening carries radiation burden (CT venography), overdiagnosis risk, and is not feasible for bedbound patients. No validated cutoff for what degree of compression is clinically significant in ME/CFS exists; the >50% stenosis threshold used in interventional MTS literature may not apply to orthostatic/neurocognitive outcomes.
 
 *Research priority.* Systematic CT venography or MRV screening of an ME/CFS cohort (n ≥ 200), stratified by orthostatic severity.
+
+*Consequence:* if iliac compression contributes, then a left-leg-predominant orthostatic pattern would justify imaging, and a stent would be a structural treatment rather than a symptomatic one.
 ] <spec:mts-vascular-substrate>
 
 === Hypoxia-Mediated Mechanisms
@@ -367,6 +405,8 @@ _Certainty: 0.50._ ME/CFS may involve a failure of HIF-1$alpha$ stabilization an
     + Baseline miRNA-155/-210 levels will correlate with blunted HIF response (corr coeff leq -0.5 for peak EPO fold-change) and classify responders vs non-responders with AUC geq 0.80
 
 *Limitations.* HIF-1$alpha$ protein measurement is technically challenging (rapid proteasomal degradation on reoxygenation); miRNA-HIF interaction data are from in vitro models, not patient tissue. Blunted inducibility is inferred from single-timepoint basal EPO measurements — serial hypoxia-challenge data do not exist.
+
+*Consequence:* if HIF induction is blunted, then hypoxia-based training would fail in gradual-onset disease, and an EPO or VEGF response test would separate subtypes before any treatment is chosen.
 ] <spec:hif-pathway-inertia>
 
 #speculation(title: [The Altitude Paradox: Biphasic Response to Hypoxia in ME/CFS])[
@@ -378,6 +418,8 @@ _Certainty: 0.40._ Moderate altitude (1500--2500~m) may trigger beneficial hypox
     + ETCO#sub[2] decline at 3500~m will exceed the alveolar gas equation prediction by >=3~mmHg, confirming intact hypoxic ventilatory response but inadequate vasodilatory compensation
 
 *Limitations.* No altitude-chamber study exists in ME/CFS. The dose-response curve is extrapolated from healthy altitude physiology and POTS/hypocapnia studies. Individual variability in hypoxic ventilatory response may mask group effects.
+
+*Consequence:* if the response is biphasic, then altitude and hypoxic training carry a real harm threshold for ME/CFS patients, and a self-administered protocol cannot know where that threshold sits.
 ] <spec:altitude-paradox>
 
 #synthesis(title: [HIF-1$alpha$ Pathway Inertia as a Candidate Adaptive-Failure Mechanism in ME/CFS])[
@@ -401,18 +443,24 @@ _Certainty: 0.55._ The mechanistic chain from spike → sustained HIF-2$alpha$ �
     + Belzutifan reduces VEGF and improves endothelial function (FMD) in post-viral ME/CFS: predicted effect size ΔFMD ≥ 20% over 8 weeks
 
 *Research priority:* Skin biopsy or PBMC nuclear fraction for HIF-2$alpha$ IHC combined with plasma VEGF, vWF, sFlt-1 panel — cross-sectional post-viral ME/CFS (n=40) vs gradual-onset (n=20) vs healthy (n=20).
+
+*Consequence:* if sustained HIF-2 drives the endothelial lesion, then an approved HIF-2 inhibitor already exists and the target is druggable, which is why this hypothesis is worth testing rather than only describing.
 ] <hyp:hif2a-sustained-postviral>
 
 #speculation(title: [Exercise-Induced HIF-2$alpha$ Dynamics Differentiate Post-Viral from Gradual-Onset ME/CFS])[
 If post-viral ME/CFS involves sustained HIF-2$alpha$ activation (Section @hyp:hif2a-sustained-postviral), a single bout of maximal exercise (CPET) should produce distinct temporal profiles of nuclear HIF-1$alpha$ and HIF-2$alpha$ in PBMCs across subtypes. Prediction: healthy controls show transient HIF-1$alpha$ nuclear peak at 0~h post-CPET returning to baseline by 2~h; post-viral ME/CFS shows delayed HIF-2$alpha$ nuclear rise at 24--48~h persisting at 48~h; gradual-onset ME/CFS shows an intermediate pattern. This could serve as a dynamic functional test analogous to the glucose tolerance test. *Certainty: 0.55* (temporal HIF dynamics after exercise are unmeasured in ME/CFS; the prediction follows from Ribeiro2026 in vitro kinetics applied to the post-exertional context).
 
 *Falsifiable:* In serial PBMC nuclear fractions collected before and after CPET (baseline, 0 h, 2 h, 6 h, 24 h, 48 h), post-viral ME/CFS shows HIF-2\$alpha\$ AUC at 2 fold controls over 0-48h, with sustained elevation at 48 h (p less than 0.01).
+
+*Consequence:* if the post-exercise HIF-2 curve separates subtypes, a single exercise test with blood sampling would classify patients, though the test itself can cause PEM and needs the same caution as any exertion challenge.
 ] <spec:hif2a-cpet-dynamics>
 
 #speculation(title: [sFlt-1:PlGF Ratio as Anti-Angiogenic Biomarker in Post-Viral ME/CFS, Analogous to Preeclampsia])[
 In preeclampsia, HIF-2$alpha$ activation drives excessive sFlt-1 (soluble VEGFR1, an anti-angiogenic VEGF trap) production, causing systemic endothelial dysfunction. The sFlt-1:PlGF ratio is validated clinically for preeclampsia diagnosis and risk stratification. A parallel mechanism may operate in post-viral ME/CFS: viral-triggered HIF-2$alpha$ activation may produce elevated sFlt-1 that functionally neutralises VEGF, creating an anti-angiogenic state despite normal or elevated total VEGF levels. The net effect would be impaired angiogenic compensation — consistent with the failed angiogenic response of ME/CFS serum @Flaskamp2022endothelial. *Certainty: 0.45* (sFlt-1:HIF-2$alpha$ link in preeclampsia is established; no ME/CFS sFlt-1 data exist).
 
 *Falsifiable:* sFlt-1:PlGF ratio is elevated in post-viral ME/CFS vs controls (mean ratio $gt.eq$38 vs $lt.eq$38 in controls), correlating with PEM severity and impaired angiogenic serum activity. Ratio normalises in patients who respond to belzutifan.
+
+*Consequence:* if the ratio is elevated, an existing clinical test could stratify post-viral ME/CFS, and an anti-angiogenic state would explain why VEGF-based treatment may not work.
 ] <spec:sflt1-plgf-biomarker>
 
 #speculation(title: [PEM as Maladaptive Persistence of HIF-Mediated Metabolic Suppression])[
@@ -424,6 +472,8 @@ _Certainty: 0.50._ PEM may not be merely tissue damage from ischaemia-reperfusio
     + Serum lactate remains $>=2$~mmol/L above pre-exercise baseline at 24~h post-exercise in ME/CFS and correlates with sustained HIF target gene expression ($r >= 0.5$)
 
 *Limitations.* Post-exercise HIF target gene time-course has not been measured in ME/CFS. The hibernation-mimetic model is derived from ischaemia-reperfusion and cardiac preconditioning literature, not primary ME/CFS studies. PBMC findings may not reflect muscle or brain tissue.
+
+*Consequence:* if PEM is a metabolic programme that fails to switch off, then pacing is not only protective but the removal of the trigger that keeps it on, and a drug that ends the programme would be the target.
 ] <spec:pem-hif-maladaptation>
 
 #speculation(title: [Capillary Basement Membrane Coverage as a Histological Diagnostic Biomarker])[

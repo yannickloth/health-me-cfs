@@ -13,6 +13,8 @@ This chapter surveys emerging and investigational therapeutic approaches for ME/
 *For clinicians*: read the sigma-1 receptor / fluvoxamine section (@sec:sigma1-fluvoxamine) and the AIMM sodium-calcium correction proposal (@sec:mdc002) as the closest to clinical consideration; the immune, B-cell, and NET-targeting sections are trial-stage only.
 
 *For researchers*: the primary audience — the immune-trafficking, costimulatory, B-cell-targeted, and NET-targeting speculations each carry a certainty rating and falsifiable prediction for hypothesis testing.
+
+*Consequence:* the roadmap is guidance about which sections to read, not a treatment order; a patient should treat every item except the emergency PEM protocol as research-stage and discuss even that with a physician.
 ]
 
 == Immune Trafficking Restoration
@@ -29,6 +31,8 @@ Recent immunophenotyping evidence demonstrates impaired CCR7-mediated immune cel
 *Safety.* Chemokine administration carries inflammatory risk — modified versions with reduced systemic effects are under development; not available for clinical use outside trials.
 
 *Testable prediction.* CCR7 agonist will increase dendritic cell frequency in peripheral blood (mobilization from tissues) and improve immune correlation network integration in ME/CFS patients with preserved CCR7 signaling machinery; however, effect magnitude will be limited by receptor density and may not exceed that of healthy controls with normal CCR7.
+
+*Consequence:* if receptor density is the bottleneck, then adding ligand gives diminishing returns, so the correct intervention is to restore receptor expression rather than to raise chemokine levels.
 ]
 
 === TRPM3-Calcium-CCR7 Axis
@@ -41,6 +45,8 @@ Recent immunophenotyping evidence demonstrates impaired CCR7-mediated immune cel
 *Safety.* TRPM3 agonists affect many tissues; selective agonists and patient selection (confirmed TRPM3 defect in monocytes) would be essential. None have entered clinical trials for ME/CFS.
 
 *Testable prediction.* ME/CFS monocytes will show reduced calcium flux in response to CCL19 stimulation compared to controls (this has not been tested); if confirmed, TRPM3 agonist will partially restore chemotaxis in vitro in monocytes expressing functional TRPM3; TRPM3 expression on NK cells will correlate with CCR7 expression on monocytes across patients only if the defect is systemic rather than NK-specific.
+
+*Consequence:* the chain has four unmeasured steps, so its real probability is far below the nominal rating, and the first experiment is a monocyte calcium measurement, not a drug.
 ]
 
 == Costimulatory and Checkpoint Modulation
@@ -60,6 +66,8 @@ Petrov et al.\ demonstrated reduced CD80 expression on M1-like monocytes in ME/C
 Given the catastrophic precedent of TGN1412 and the unresolved adaptive-vs-maladaptive question, this approach is currently suitable only as a research direction in in vitro models and should not be considered a therapeutic proposal without resolution of the CD80 tolerance question.
 
 *Testable prediction.* In ex vivo co-culture, low-dose CD28 superagonist will restore ME/CFS monocyte-driven T cell proliferation without triggering supraphysiological cytokine release above 2x baseline; dose-response curves will identify a therapeutic window below the cytokine storm threshold.
+
+*Consequence:* CD28 superagonists caused a cytokine storm in 2006, so any move to this class in ME/CFS needs a safety design that the original trial did not have.
 ]
 
 #speculation(title: [PD-1/PD-L1 Checkpoint Inhibition in CD80-Low ME/CFS])[
@@ -73,6 +81,8 @@ Given the catastrophic precedent of TGN1412 and the unresolved adaptive-vs-malad
 Current risk profile in ME/CFS is entirely unknown.
 
 *Testable prediction.* Ex vivo PD-1 blockade will restore ME/CFS T cell proliferation to viral antigens only when combined with CD80 costimulation; checkpoint blockade alone will produce incomplete restoration, suggesting combined CD80 + PD-1 targeting is required — or alternatively, that neither target is addressable in isolation if CD80 suppression is adaptive.
+
+*Consequence:* checkpoint inhibitors can trigger autoimmune disease, and ME/CFS already carries autoantibodies, so the risk is higher here than in oncology, and no patient has received them for ME/CFS.
 ]
 
 == Nutritional Approaches to Monocyte Polarization
@@ -85,6 +95,8 @@ Current risk profile in ME/CFS is entirely unknown.
 *Safety.* Generally well-tolerated; monitor serum calcium and 25(OH)D to avoid hypercalcemia. Target 25(OH)D 50--80 ng/mL.
 
 *Testable prediction.* 8-week vitamin D3 5,000 IU/day will increase CCR7 MFI on ME/CFS monocytes ≥15% vs placebo; response will correlate with baseline 25(OH)D level; concurrent monitoring of tolerogenic DC markers and Treg frequency is essential to rule out net immunosuppressive effect.
+
+*Consequence:* vitamin D raises the trafficking receptor but also suppresses the activation that the receptor is meant to serve, so a trial must measure both and not assume that a higher receptor count means better immunity.
 ]
 
 #speculation(title: [Quercetin for CD80 Restoration via PI3K Inhibition])[
@@ -95,6 +107,8 @@ Current risk profile in ME/CFS is entirely unknown.
 *Safety.* Generally safe at 500--1,000 mg/day; widely available. Bioavailability varies by formulation. No ME/CFS polarization data.
 
 *Testable prediction.* 4-week quercetin 500 mg BID will increase CD80 MFI on ME/CFS M1-like monocytes ≥20% vs placebo ONLY if the primary defect is M2-skewing; if the defect is M1-intrinsic, CD80 will not improve despite polarization shift toward M1. Concurrent monitoring of T cell, NK cell, and B cell function needed to rule out PI3K-mediated impairment.
+
+*Consequence:* the defect sits inside cells that are already polarised, so shifting more cells toward that phenotype cannot restore the missing signal, and a quercetin trial would test the wrong step.
 ]
 
 == Emergency PEM Prevention Protocol
@@ -199,6 +213,7 @@ Direct ME/CFS evidence is preliminary. However, the model is built on:
 
 The intervention targets the proposed AIMM mechanism, but direct validation in ME/CFS is lacking. Sodium-calcium dysregulation may be one of multiple pathways. Treatment response may vary based on disease stage and individual sodium handling capacity.
 
+*Consequence:* the proposal names drugs and doses that have not been tested in ME/CFS, so it defines a trial design and not a prescription; amiloride and ranolazine each need cardiac and renal review.
 ] <prop:mdc002>
 
 == Open Questions
@@ -207,10 +222,14 @@ The intervention targets the proposed AIMM mechanism, but direct validation in M
 Petrov et al.\ achieved only moderate discrimination between ME/CFS and long COVID using composite immune markers, suggesting significant within-group heterogeneity and overlapping distributions between the two conditions @Petrov2026monocyteDC. If ME/CFS encompasses multiple discrete immune endotypes (CCR7-predominant defect, CD80-predominant defect, combined defect, checkpoint-dominant exhaustion), treating all patients with a single immune-restorative strategy would dilute effect sizes and risk exacerbating the wrong pathway. However, the alternative — that immune variation in ME/CFS is continuous and multidimensional with no natural clustering — is equally consistent with the data and would argue against categorical endotype-based trial designs. Single-cell immunophenotyping to identify whether discrete endotypes actually exist — and whether they predict differential treatment response — may be a prerequisite for rational immune-targeted trial design.
 
 *Key question.* Can CCR7-low, CD80-low, and PD-L1-high ME/CFS endotypes be reproducibly identified, or does immune variation in ME/CFS represent a continuous multidimensional distribution with no natural clusters?
+
+*Consequence:* if the variation is continuous rather than clustered, then stratifying by endotype will split patients along lines that do not exist, and single-cell phenotyping has to answer that before a trial is designed.
 ] <oq:me-cfs-immune-endotype-stratification>
 
 #open-question(title: [Is ME/CFS Immune Suppression Adaptive or Maladaptive?])[
 Petrov's finding of reduced CD80 on M1-like monocytes could represent either: (a) an adaptive protective mechanism preventing chronic immune hyperactivation that would otherwise cause tissue damage, or (b) a maladaptive tolerance state that prevents viral clearance and perpetuates immune dysfunction. The distinction has profound therapeutic implications: breaking adaptive tolerance could trigger autoimmunity; failing to break maladaptive tolerance could permit ongoing pathology. Longitudinal studies tracking CD80 dynamics from acute infection through ME/CFS development are needed to resolve this question.
+
+*Consequence:* the two readings predict opposite treatments, so acting before the question is answered could either release autoimmunity or leave a protective brake in place.
 ] <oq:cd80-adaptive-vs-maladaptive>
 
 == B Cell-Targeted and Autoantibody-Modulating Strategies
@@ -225,6 +244,8 @@ Petrov's finding of reduced CD80 on M1-like monocytes could represent either: (a
 *Safety:* BTK inhibitors carry infection risk (sinopulmonary) and cardiac toxicity (atrial fibrillation, hypertension). Risk-benefit for a non-malignant indication requires careful evaluation in trials with prespecified safety endpoints. No human data in ME/CFS.
 
 *Falsifiable prediction:* Acalabrutinib 100 mg daily for 12 weeks reduces total IgM and tissue-specific IgM autoantibody titers by $gt.eq 30%$ in ME/CFS patients with IgM-dominant profiles. Combined BTK inhibition + IA produces greater and more sustained autoantibody reduction than IA alone ($gt.eq 60%$ vs $tilde 30%$ at 6 months). @Tatai2026TSAutoantibodies.
+
+*Consequence:* BTK inhibitors carry atrial fibrillation and infection risk, so the combination with immunoadsorption belongs in a monitored trial and not in a treatment plan.
 ] <spec:btk-inhibition-emerging>
 
 === BAFF Inhibition (Belimumab)
@@ -235,6 +256,8 @@ Petrov's finding of reduced CD80 on M1-like monocytes could represent either: (a
 *Key prediction:* ME/CFS patients with elevated serum BAFF ($>$1 ng/mL) receiving belimumab 10 mg/kg IV for 24 weeks show $gt.eq 25%$ reduction in autoantibody titers and $gt.eq 20%$ improvement in fatigue severity. Falsified if BAFF-normal ME/CFS patients show equivalent or superior response to BAFF-high patients (mechanism would be non-BAFF-mediated).
 
 *Limitation:* BAFF elevation in ME/CFS is inconsistently reported. Belimumab has not been tested in ME/CFS. Infection risk (opportunistic infections, progressive multifocal leukoencephalopathy risk carries a black box warning). No ME/CFS trial data.
+
+*Consequence:* the prediction is falsifiable in the BAFF-high subgroup, so the trial must measure BAFF before enrolment; otherwise a null result cannot separate a wrong drug from a wrong patient.
 ] <spec:baft-inhibition>
 
 === Complement C1s Inhibition (Sutimlimab)
@@ -245,6 +268,8 @@ Petrov's finding of reduced CD80 on M1-like monocytes could represent either: (a
 *Key prediction:* ME/CFS patients with IgM-dominant profiles show elevated classical pathway markers (C4d, sC5b-9) that fall with C1s inhibition, accompanied by improved microvascular function (laser Doppler flowmetry) and reduced orthostatic intolerance. Falsified if complement markers are normal at baseline.
 
 *Limitation:* Cold agglutinin disease involves a well-defined, single-specificity IgM paraprotein — ME/CFS IgM is polyreactive and its pathogenic role is unproven. No data in ME/CFS. Infection risk from classical pathway blockade (encapsulated bacteria, particularly *Neisseria* species carry a black box warning). @Tatai2026TSAutoantibodies.
+
+*Consequence:* the ME/CFS antibody is polyreactive where the approved indication is a single paraprotein, so the benefit there does not transfer, and classical pathway blockade raises infection risk.
 ] <spec:c1s-inhibition-emerging>
 
 === Low-Dose IL-2 Therapy
@@ -255,6 +280,8 @@ Petrov's finding of reduced CD80 on M1-like monocytes could represent either: (a
 *Key prediction:* ME/CFS patients with baseline Treg deficiency (less than 5 percent of CD4$""^+$ T cells) receiving low-dose IL-2 (1 million IU subcutaneously, 5-day cycles) show no less than 50 percent Treg expansion and no less than 15 percent autoantibody reduction at 6 months. Falsified if Treg expansion occurs without autoantibody reduction --- suggesting autoantibody production is Treg-independent.
 
 *Limitation:* No data in ME/CFS. Treg expansion does not guarantee functional restoration (expanded Tregs may be exhausted or incapable of suppressing in an inflammatory milieu). Fever, injection-site reactions.
+
+*Consequence:* expanded regulatory cells may be exhausted rather than functional, so the trial must test suppression and not only the cell count.
 ] <spec:low-dose-il2-emerging>
 
 === Severity-Stratified Immunomodulatory Protocols
@@ -270,6 +297,8 @@ Petrov's finding of reduced CD80 on M1-like monocytes could represent either: (a
 *Rationale for stratification:* Different autoantibody profiles predict different dominant antibody production pathways (extrafollicular for IgM, germinal-center-derived for IgG), requiring different therapeutic strategies. Treating all patients with the same protocol — as was done in IA-PACS-CFS @Pressler2024IAPACSCFSprotocol — dilutes treatment effects within responsive subgroups.
 
 *Implementation requirement:* A validated autoantibody panel measuring both GPCR and tissue-specific antibodies (see Section @sec:immunological-biomarkers for the multi-tissue panel proposal) is a prerequisite for stratification. Without such a panel, stratification is speculative. @Tatai2026TSAutoantibodies.
+
+*Consequence:* the algorithm is a trial-enrolment scheme and not a treatment ladder; the low-risk home protocol is the only tier a patient could discuss now, and even that is unvalidated.
 ] <hyp:severity-stratified-immunomodulation>
 
 == NET-Targeting Therapies
@@ -292,6 +321,8 @@ Recent evidence from COVID-19 and long COVID research implicates neutrophil extr
 *Severe/very-severe patients:* No data. CF safety data from chronic use are reassuring but patients have normal (not depleted) DNase physiology. Risk of paradoxical inflammation in already-symptomatic patients is unknown.
 
 *Key prediction:* ME/CFS patients with documented NET/DNase imbalance (elevated NET/DNase ratio) receiving dornase alfa show reduced circulating NET markers at 4 weeks compared to baseline. Falsified if NET markers unchanged despite confirmed DNase deficiency—suggesting NETs are tissue-sequestered (microclots, endothelium) and inaccessible to circulating enzyme.
+
+*Consequence:* clearing nets releases the histones and proteases inside them, so the treatment can cause the inflammation it is meant to remove, and the time course in blood is unknown.
 ] <spec:dnase-i-therapy>
 
 === PAD4 Inhibition
@@ -304,6 +335,8 @@ Recent evidence from COVID-19 and long COVID research implicates neutrophil extr
 *Key prediction:* PAD4 inhibition should reduce H3cit formation ex vivo in ME/CFS neutrophils. Falsified if disulfiram does not reduce NET-specific markers despite confirmed PAD4 binding.
 
 *Limitation:* Disulfiram is not a selective PAD4 inhibitor (off-target effects abundant). No human NETosis prevention data exist.
+
+*Consequence:* the risk-benefit is unfavourable: liver toxicity and neuropathy in exchange for a mechanism with indirect relevance, and a bedbound patient cannot be monitored closely enough for it.
 ] <spec:pad4-inhibition-netosis>
 
 === Metabolic NETosis Modulation
@@ -324,6 +357,8 @@ Recent evidence from COVID-19 and long COVID research implicates neutrophil extr
 *Stopping criteria:* Intolerable GI symptoms, lactic acidosis (rare but potentially fatal; risk rises with renal impairment), declining eGFR, or no change in the mechanism-proximal research-assay endpoints (NET markers/insulin sensitivity) after 12 weeks — not HOMA-IR alone.
 
 *Contraindications for severe/bedbound patients:* Not for use in bedbound/severe patients — the directional effect on energy metabolism cannot be established outside a research protocol, and this population is most vulnerable to harm. Additionally contraindicated at eGFR $< 30$ and not initiated at eGFR 30–44; hold during acute illness, vomiting, dehydration, or iodinated-contrast procedures (sick-day rules — directly relevant given autonomic dehydration risk); creatinine-based eGFR overestimates renal function in low-muscle-mass patients, so consider cystatin C.
+
+*Consequence:* the failed trials enrolled unselected patients, so the subgroup hypothesis stays open, but metformin should be tested in insulin-resistant patients and not offered on the strength of a mechanism.
 ] <spec:metformin-netosis>
 
 == Microclot and NET Structural Interventions
@@ -334,6 +369,8 @@ Recent evidence from COVID-19 and long COVID research implicates neutrophil extr
 *Key prediction:* In vitro incubation of ME/CFS microclots with DNase I should reduce clot size and structural integrity. Falsified if microclots are DNase-resistant (suggesting fibrin-dominant composition without NET scaffolding).
 
 *Limitation:* Microclot measurement is non-standardized; clinical significance unknown; no ME/CFS microclot-NET colocalisation data exist.
+
+*Consequence:* the anticoagulant half of the argument has now failed in a randomised trial, so the remaining testable claim is that DNase destabilises the scaffold, which is a laboratory question first.
 ] <spec:microclot-net-dnase>
 
 == Connective Tissue Targeted Emerging Therapies
@@ -417,6 +454,8 @@ The convergent evidence from five PCC studies — three sham-controlled RCTs and
 *Safety Considerations.* HIF inhibitors have significant toxicity profile in oncology trials. Not for clinical use outside trials. Requires intensive monitoring. Off-target effects on multiple HIF-dependent pathways.
 
 *Limitations.* No ME/CFS data. Uncertain whether HIF imbalance drives ECM pathology in ME/CFS. Isoform-specific compounds are investigational only. Risk-benefit unfavorable for non-fatal condition at this stage.
+
+*Consequence:* blocking one isoform can raise the other, so the rebalancing may move the pathology rather than remove it, and no ME/CFS tissue data exist to say which direction is worse.
 ]
 
 #speculation(title: [TGF-beta1-Specific Blockade for Basement Membrane Thickening])[
@@ -433,6 +472,8 @@ The convergent evidence from five PCC studies — three sham-controlled RCTs and
 *Safety Considerations.* TGF-beta blockade has significant toxicity: skin lesions, bleeding risk, potential carcinogenesis (TGF-beta is tumor suppressor). Not for clinical use outside trials. Requires intensive monitoring. Long-term effects unknown.
 
 *Limitations.* No ME/CFS data. Uncertain whether TGF-beta1 drives BM pathology in ME/CFS. Fresolimumab is expensive and investigational. Risk-benefit unfavorable for non-fatal condition at this stage.
+
+*Consequence:* fresolimumab is an intravenous experimental antibody, so it belongs in a trial; the basement membrane finding comes from muscle biopsy and has not been linked to a treatable target in life.
 ]
 
 == HSP70 Pathway Enhancement for Neuroprotection
@@ -456,6 +497,8 @@ The Kang et al.@Kang2026ExosomeHSP70Sleep demonstration that exosome-delivered H
 *Testable prediction.* ME/CFS patients receiving HSP70-inducing agents (arimoclomol or GGA, 8 weeks) will show increased peripheral blood mononuclear cell HSP70 levels by ≥30% from baseline and corresponding reduction in serum inflammatory biomarkers (IL-6, TNF-α) compared to placebo. Falsified if HSP70 induction occurs without neuroinflammatory biomarker improvement, or if HSAT2 retroelement RNA increases in plasma EVs proportionally with HSP70 elevation (indicating HSF1-mediated retroelement activation outweighs anti-inflammatory benefit).
 
 *Limitations.* Certainty 0.35. No ME/CFS data for any HSP70 inducer. The optimal agent, dose, and duration for CNS HSP70 elevation are unknown. The HSAT2 transcription risk under sustained HSF1 activation has not been quantified in ME/CFS patients — this could be a net-harm scenario if retroelement activation outweighs anti-inflammatory benefit. This is a research direction, not a treatment recommendation.
+
+*Consequence:* arimoclomol and geranylgeranylacetone have human safety data for other indications, which makes a small ME/CFS trial feasible; the neuroprotective effect here is inferred and unmeasured.
 ] <spec:hsp70-inducers>
 
 #speculation(title: [PPARγ Agonists as Exosome Uptake Enhancers])[
@@ -468,10 +511,14 @@ Ramos-Zaldívar et al. identified macropinocytosis as one of several mechanisms 
 *Testable prediction.* Pioglitazone pretreatment will increase exosome uptake in primary hippocampal neurons by ≥1.5-fold in vitro, measured by flow cytometry or fluorescence microscopy; this effect will be abolished by the macropinocytosis inhibitor EIPA.
 
 *Limitations.* Certainty 0.20. No CNS exosome uptake data exist for any PPARγ agonist. The macropinocytosis-to-exosome-uptake pathway is documented for some cell types but not neurons or microglia. Pioglitazone safety profile is unfavourable for a non-life-threatening condition; even if effective, the risk-benefit ratio would be challenging. This is a mechanistic probe, not a treatment proposal.
+
+*Consequence:* pioglitazone carries a heart-failure warning and causes fluid retention, so using it to raise exosome uptake would add risk before the uptake benefit is shown in the brain.
 ] <spec:pparg-exosome-uptake>
 
 #open-question(title: [Can Transcutaneous Vagus Nerve Stimulation Enhance Therapeutic Exosome CNS Delivery?])[
 Vagus nerve stimulation transiently increases BBB permeability via cholinergic anti-inflammatory pathway activation. If tVNS applied 30 minutes before exosome administration increases CNS exosome accumulation — as hypothesised from the inflammation-enhanced EV permeability documented by Ramos-Zaldívar et al. — it could provide a non-pharmacological method to boost therapeutic delivery. This is completely untested. The risk is that tVNS-mediated BBB opening is non-selective, potentially allowing entry of peripheral inflammatory mediators alongside therapeutic exosomes. Pilot biodistribution studies in animal models would be required before any human application.
+
+*Consequence:* opening the barrier without selectivity could admit inflammatory mediators along with the therapy, so the experiment belongs in animals before any human dose.
 ]
 
 == Engineered Exosome-Mediated mRNA Delivery to the CNS
@@ -501,52 +548,76 @@ Engineered extracellular vesicles represent an emerging therapeutic delivery pla
 *Limitations.* Certainty 0.30. Single preclinical study; no ME/CFS data of any kind; manufacturing standardisation, scalability, and regulatory pathways for mRNA-loaded exosomes do not exist; CNS delivery fraction is typically less than one percent of injected dose, and whether ME/CFS-specific physiology alters this fraction is unknown; cost and complexity place this in the research-only category for the foreseeable future. This is a research direction, not a therapeutic proposal.
 
 *Research priority.* Low for clinical translation (no near-term path to human trials), high for mechanistic understanding (characterising endogenous EV trafficking in ME/CFS would illuminate inter-compartment signaling regardless of whether therapeutic exosomes ever reach the clinic).
+
+*Consequence:* the mouse result shows that the platform can work, not that it treats ME/CFS, and manufacturing and targeting remain unsolved for a clinical product.
 ]
 
 #speculation(title: [Alternative BBB Targeting Ligands Beyond RVG])[
 *Certainty: 0.20.* RVG targets neuronal nicotinic acetylcholine receptors — alternative ligands (ApoE, transferrin receptor antibodies, RVG-9R) may have superior pharmacokinetics or regional specificity for ME/CFS-relevant brain regions . No comparative CNS exosome targeting data exist. This is a platform engineering question, not a clinical proposal.
+
+*Consequence:* this is a platform engineering question, so it changes which vehicle reaches the brain and says nothing yet about whether any cargo helps ME/CFS.
 ] <spec:alternative-exosome-targeting>
 
 #speculation(title: [Ultrasound-Mediated BBB Opening for Spatially Targeted Exosome Delivery])[
 *Certainty: 0.15.* Focused ultrasound transiently opens BBB at precise locations; combining with systemically administered therapeutic exosomes could increase CNS accumulation 5--10 fold at targeted regions while minimising systemic exposure. FDA-approved for drug delivery in trials but never combined with exosomes. Completely untested in any model.
+
+*Consequence:* the combination has never been tested in any model, so the five- to ten-fold delivery gain is a projection and the safety of repeated opening in ME/CFS is unknown.
 ] <spec:ultrasound-exosome-delivery>
 
 #speculation(title: [Exosome-Mediated siRNA Delivery for Viral Clearance in CNS Reservoirs])[
 *Certainty: 0.15.* If latent herpesviruses (EBV, HHV-6) persist in CNS reservoirs contributing to ME/CFS symptoms, exosomes engineered to deliver antiviral siRNA or CRISPR cargo could theoretically target these reservoirs. Exosome-mediated siRNA delivery is established in cancer models; CNS antiviral delivery is entirely speculative. Research curiosity only.
+
+*Consequence:* this is a research curiosity: no exosome antiviral product exists for the central nervous system, and the latent-reservoir premise is itself unproven in ME/CFS.
 ] <spec:exosome-antiviral-cns>
 
 #speculation(title: [Exosome-Mediated BDNF Gene Therapy for Sustained Neuroplasticity])[
 *Certainty: 0.15.* Kang et al.@Kang2026ExosomeHSP70Sleep demonstrated mRNA delivery; BDNF upregulation was observed as a secondary effect. Engineering exosomes to deliver BDNF gene (not mRNA) could produce sustained BDNF overexpression in hippocampal neurons with single administration — bypassing the need for repeated dosing. Gene therapy via viral vectors raises safety concerns; exosome-mediated delivery could address these. No gene-therapy exosome exists; this is a conceptual future direction only.
+
+*Consequence:* no exosome gene-therapy product exists, so this is a future direction and not a protocol; permanent growth-factor expression also carries a risk that a single dose cannot be withdrawn.
 ] <spec:exosome-bdnf-gene-therapy>
 
 #speculation(title: [Exosomes + Mitochondrial Biogenesis Agents as Multi-Axis Combination Therapy])[
 *Certainty: 0.25.* ME/CFS involves both neuroinflammation and mitochondrial dysfunction. Combining exosome-delivered HSP70 (reducing neuroinflammation) with mitochondrial biogenesis enhancers (nicotinamide riboside, urolithin A) could address two pathophysiological axes simultaneously. HSP70 also supports mitochondrial protein import, suggesting mechanistic synergy beyond simple additivity. Entirely untested — no combination exosome + supplement study exists.
+
+*Consequence:* the synergy is inferred from a shared protein, so the combination should be tested as an additivity question before it is described as synergy.
 ] <spec:exosome-mitochondrial-combo>
 
 == Thermoregulatory Drug Candidates
 
 #speculation(title: [Bosentan — ET-1 Receptor Antagonism for Thermoregulatory Dysfunction])[
 *Certainty: 0.25.* Bosentan (dual ET_A/ET_B antagonist, approved for pulmonary arterial hypertension) reduces vascular tone by blocking endothelin-1 signaling. If ET-1-mediated tonic vasoconstriction contributes to thermoregulatory failure (ch10:@spec:vasomotor-constriction-bias, Cambras et al. \ @Cambras2023SkinTemperatureEndothelin), bosentan could restore vasomotor flexibility and improve heat tolerance. However, bosentan carries hepatotoxicity risk (monthly liver enzyme monitoring required) and is teratogenic (contraindicated in pregnancy), making risk-benefit for non-life-threatening thermoregulatory symptoms highly unfavorable outside clinical trials. Falsifiable: bosentan vs placebo x 8 weeks in ME/CFS patients with elevated ET-1 (>2.5 pg/mL) improves skin temperature rhythm amplitude by >30% and heat tolerance by Δ2°C, with no benefit in ET-1-normal subgroup. No ME/CFS data; ET-1-thermoregulation link is correlational only @Cambras2023SkinTemperatureEndothelin.
+
+*Consequence:* bosentan needs monthly liver tests and is teratogenic, which is a poor trade for a thermoregulatory symptom that has not been shown to respond.
 ] <spec:bosentan-thermoreg>
 
 #speculation(title: [Arimoclomol — Pharmacological HSP70 Induction Without Thermal Stress])[
 *Certainty: 0.25.* Arimoclomol (HSP70 co-inducer, approved for Niemann-Pick disease type C in the EU) amplifies HSP70 expression during cellular stress without requiring thermal exposure. If WBH improves mitochondrial function in ME/CFS via HSP70 induction @Hochecker2025HyperthermiaMECFS, arimoclomol could provide the same benefit without sauna access or thermal intolerance risk. The drug amplifies endogenous stress responses rather than creating new ones, potentially lowering the risk of triggering PEM compared to thermal therapy. Falsifiable: arimoclomol vs placebo x 12 weeks increases PBMC HSP70 protein >2-fold and improves ISR biomarkers (p-eIF2α, ATF4) by >30%. No ME/CFS data; approved only for Niemann-Pick type C (orphan drug).
+
+*Consequence:* arimoclomol avoids the heat exposure that can trigger PEM, which is its main advantage, but it is approved only for a rare disease and has no ME/CFS data.
 ] <spec:arimoclomol-hsp70>
 
 #speculation(title: [MitoQ — Mitochondria-Targeted Antioxidant for ROS-HSP70 Coupling])[
 *Certainty: 0.25.* Hypothesis H3 (brainstorm) proposes that mitochondrial ROS overload prevents adequate HSP70 induction in ME/CFS, creating a self-reinforcing loop: ROS → proteotoxic stress → HSP70 sequestration → worse mitochondrial quality → more ROS. MitoQ (mitochondria-targeted ubiquinone) concentrates at the inner mitochondrial membrane and reduces superoxide production at source. By lowering mitochondrial ROS burden, MitoQ could restore HSP70 inducibility and break the ROS-HSP70 feedback loop — independently of any thermal stimulus. Falsifiable: MitoQ vs placebo x 8 weeks reduces PBMC mitochondrial ROS (MitoSOX) by >30% and restores thermal-HSP70 inducibility to >80% of healthy control levels. No ME/CFS MitoQ data; human safety established in Parkinson's and NAFLD trials.
+
+*Consequence:* if the loop is real, then lowering mitochondrial ROS should restore inducibility, which is measurable in a small trial without any thermal stimulus.
 ] <spec:mitoq-ros-hsp70>
 
 #speculation(title: [Pregnenolone Sulfate — TRPM3 Agonist for Calcium Signaling and TRPV1 Inhibition])[
 *Certainty: 0.20.* Pregnenolone sulfate is an endogenous neurosteroid and TRPM3 agonist. If TRPM3 channelopathy impairs calcium signaling in ME/CFS immune cells, and if TRPM3 agonism functionally inhibits TRPV1-mediated heat hyperresponsiveness (brainstorm Hypothesis H8), pregnanolone sulfate could simultaneously restore TRPM3-dependent calcium flux and reduce heat-triggered MCAS symptoms. The dual mechanism — calcium rescue + TRPV1 suppression — makes it mechanistically distinct from purely thermal TRPM3 activation. Falsifiable: pregnanolone sulfate normalizes TRPM3 calcium influx in ME/CFS PBMCs and reduces heat-triggered CGRP release by 40% within 4 weeks. No ME/CFS data; TRPM3 agonism is established in vitro only; TRPM3-TRPV1 antagonism demonstrated in sensory neurons, not immune cells.
+
+*Consequence:* the dual mechanism is shown in sensory neurons and not in immune cells, so the immune half of the claim is untested and the dose that would reach both tissues is unknown.
 ] <spec:pregnenolone-trpm3>
 
 #speculation(title: [Clonidine Patch — α2-Adrenergic Agonist for Vasomotor Bias Correction])[
 *Certainty: 0.25.* Clonidine (α2-agonist, 0.1 mg/24h patch) reduces central sympathetic outflow, which could counteract the tonic vasoconstriction bias proposed to underlie dual heat+cold intolerance (ch10:@spec:vasomotor-constriction-bias). Reduced sympathetic tone would permit cutaneous vasodilation during heat stress and allow perfusion recruitment for thermogenesis during cold stress — restoring vasomotor dynamic range from the neural side rather than the vascular (ET-1) side. However, clonidine can worsen orthostatic hypotension in POTS patients, making it contraindicated in the dysautonomic ME/CFS majority. Further, Sulheim et al. (2014) RCT of clonidine in adolescent CFS (n=120) found no clinical improvement @Sulheim2014clonidine, and the central NE deficiency documented in ME/CFS (Aregawi 2026) suggests clonidine would further suppress already-low central noradrenergic output @Aregawi2026Noradrenergic. Falsifiable: clonidine patch over 4 weeks increases baseline cutaneous perfusion by 25% and restores vasomotor responses to both heat and cold challenge; orthostatic symptoms do not worsen in patients without pre-existing hypotension. No ME/CFS clonidine thermoregulation data; safety concern in dysautonomia is well-documented; the null RCT in CFS weakens the mechanistic rationale.
+
+*Consequence:* clonidine lowers central sympathetic outflow that is already low in ME/CFS and can worsen orthostatic hypotension, so the failed adolescent trial and the newer noradrenergic finding both argue against it.
 ] <spec:clonidine-vasomotor>
 
 #open-question(title: [Could Low-Dose Naltrexone Improve Thermoregulation via Microglial TRPM3 Modulation?])[
 LDN (1--4.5 mg nightly) modulates microglial activation via toll-like receptor 4 antagonism and has documented effects on TRPM3 calcium channel function in ME/CFS NK cells @Cabanas2021. LDN has four mechanisms with non-overlapping dose optima — TLR4/Nrf2 hormetic priming (0.5--1.5 mg), opioid compensatory upregulation (1.5--3.0 mg), TRPM3 restoration (3.0--4.5 mg), and orexin disinhibition — the thermoregulatory benefit may itself show inverted-U dose-dependence consistent with the broader hormetic framework (@sec:hormetic-dose-response). If central thermoregulatory centers (hypothalamus, brainstem) are under chronic microglial-mediated inflammatory tone, LDN could improve thermoregulation indirectly by reducing neuroinflammation, independently of its TRPM3 effects. The dual mechanism — peripheral TRPM3 normalization + central glial modulation — would predict thermoregulatory benefit as a secondary outcome. Falsifiable: LDN over 12 weeks improves TRPM3 calcium influx by 25% and reduces heat intolerance symptoms by 30%; improvement correlates with baseline inflammatory markers. No ME/CFS LDN thermoregulation data; LDN evidence in ME/CFS is from small open-label studies.
+
+*Consequence:* thermoregulation would be a secondary outcome, so a trial should pre-specify it rather than find it afterwards; the dose optimum for this endpoint is unknown.
 ] <oq:ldn-thermoreg>
 
 #limitation(title: [Low-Dose Naltrexone: Fibromyalgia Secondary-Outcome Responder Evidence is Null])[
@@ -575,50 +646,74 @@ All below are research-stage only; no ME/CFS human dosing data exists for any. N
 
 #speculation(title: [Low-Dose Propranolol for $beta_2$-AAb-Positive ME/CFS])[
 *Certainty: 0.50.* Low-dose propranolol (5mg BID, titrated to max 40mg BID) as competitive antagonist blocking $beta_2$-AAb binding, allowing receptor resensitization. Titration based on HRV response and orthostatic BP. Prediction: $beta_2$-AAb-positive patients show greater HRV improvement on propranolol vs $beta_2$-AAb-negative. Contraindicated in asthma, bradycardia, hypotension. Not a clinical recommendation — research-stage. @Azcue2026gpcr @Stein2024immunoadsorption.
+
+*Consequence:* the drug is contraindicated in asthma and can worsen bradycardia and hypotension, so the beta-2 autoantibody-positive subgroup is the only group in which a monitored trial makes sense.
 ] <spec:low-dose-propranolol-beta2-aab>
 
 #open-question(title: [M1/M4 Positive Allosteric Modulators for Muscarinic-Cognitive Enhancement])[
 Experimental M1/M4 PAMs (e.g., VU0467154) enhance endogenous acetylcholine signaling without direct agonism, potentially synergizing with moderate M1/M4-AAb-mediated cognitive protection. Could benefit M1/M4-AAb-low ME/CFS with cognitive impairment. No approved M1/M4 PAMs exist; all are experimental compounds. Prediction: greater cognitive improvement in moderate-AAb vs low-AAb patients on PAM. Safety: cholinergic excess (bradycardia, GI upset) at high doses. @Azcue2026gpcr.
+
+*Consequence:* no approved compound exists, so this is a preclinical direction; cholinergic excess at high dose limits the therapeutic window.
 ] <oq:m1-m4-pam-muscarinic-cognition>
 
 #speculation(title: [FcγR Blockade with Fc(ab')$""_2$ Fragments])[
 *Certainty: 0.45.* If $beta_2$-AAbs are pathogenic via FcγR engagement (not direct receptor agonism), Fc(ab')$""_2$ fragments (IVIG digested, Fc removed) would block FcγR-mediated monocyte activation without removing antibodies. Requires experimental compounding. Prediction: FcγR blockade reduces IL-6 and TNF$alpha$ in $beta_2$-AAb-positive patients vs placebo. High cost. @Hackel2025monocyte @Azcue2026gpcr.
+
+*Consequence:* the fragments need experimental compounding, so the approach is not a product a clinician can order; cost and the absence of ME/CFS data keep it in the trial stage.
 ] <spec:fcgr-blockade-ivig-fragment>
 
 #speculation(title: [Raloxifene for $beta_2$-AAb Reduction in Postmenopausal Females])[
 *Certainty: 0.35.* Raloxifene 60mg daily (FDA-approved SERM for osteoporosis), ER$alpha$ antagonist, may reduce $beta_2$-AR expression on B cells and thus $beta_2$-AAb antigenicity in postmenopausal females. Prediction: $beta_2$-AAb titer reduction at 6 months vs placebo. Contraindicated in premenopausal women; thrombosis risk. Purely mechanistic — no AAb-specific data. @Azcue2026gpcr.
+
+*Consequence:* raloxifene raises thrombosis risk and is contraindicated before menopause, so it is limited to postmenopausal women in a trial with antibody titres as the endpoint.
 ] <spec:raloxifene-serm-female-beta2-aab>
 
 #speculation(title: [Low-Dose Dronabinol for CB1-Mediated Cognitive Protection])[
 *Certainty: 0.30.* Dronabinol 2.5mg BID as partial CB1 agonist to amplify muscarinic-AAb-mediated cognitive protection (via CB1-mAChR heterodimer cross-activation) in M1/M4-AAb-low ME/CFS. Prediction: cognitive improvement greater in low-AAb vs high-AAb patients (ceiling effect). Psychoactive side effects limit tolerability. @Azcue2026gpcr.
+
+*Consequence:* psychoactive effects limit tolerability, and the cognitive benefit depends on a heterodimer mechanism that has not been measured in patients.
 ] <spec:low-dose-dronabinol-cb1-cognition>
 
 #speculation(title: [Quercetin for $beta_2$-AR Resensitization])[
 *Certainty: 0.40.* Quercetin 500mg phytosome BID upregulates $beta_2$-AR expression via CREB pathway, potentially resensitizing receptors desensitized by chronic $beta_2$-AAb binding. Prediction: HRV improvement in $beta_2$-AAb-positive vs negative patients at 12 weeks. Caution: quinolone antibiotic interaction reduces absorption. @Azcue2026gpcr.
+
+*Consequence:* quercetin is cheap and low-risk, which makes it testable, but absorption falls with common antibiotics and the receptor effect has not been measured in ME/CFS.
 ] <spec:quercetin-beta2-ar-resensitization>
 
 #speculation(title: [Omega-3 (EPA/DHA) for FcγR Modulation])[
 *Certainty: 0.45.* EPA 2g + DHA 1g daily incorporates into immune cell membranes, altering lipid raft composition and reducing FcγR signaling affinity. May dampen FcγR-mediated cytokine production triggered by GPCR-IgG1 AAbs. Prediction: IL-6 reduction correlates with omega-3 index >8% at 24 weeks. Well-tolerated; low risk. @Hackel2025monocyte @Azcue2026gpcr.
+
+*Consequence:* the intervention is low-risk and the endpoint is a membrane index plus a cytokine, so a null result would close the lipid-raft route cheaply.
 ] <spec:omega3-fcgr-modulation>
 
 #speculation(title: [NAC for GPCR AAb Bystander Suppression])[
 *Certainty: 0.38.* NAC 600mg TID increases glutathione, shifting redox balance toward reduced state. Oxidative stress promotes B cell activation; NAC may suppress aberrant B cell activity and reduce GPCR AAb production. Prediction: GPCR AAb titer reduction correlates with glutathione increase at 16 weeks. Caution: rare paradoxical bronchospasm. @Azcue2026gpcr.
+
+*Consequence:* NAC is low-cost and widely used, so a trial with glutathione and antibody titres as paired endpoints would settle the question without a new drug.
 ] <spec:nac-gpcr-aab-bystander-suppression>
 
 #speculation(title: [Vitamin D Repletion for GPCR AAb Immune Tolerance])[
 *Certainty: 0.42.* Vitamin D3 5,000 IU daily to 25-OH-D 50--80 ng/mL induces Tregs and promotes B cell tolerance. Repletion may reduce GPCR AAb production by restoring immune regulation. Prediction: AAb reduction correlates with CD4#super[+]CD25#super[+]FoxP3#super[+] Treg increase at 6 months. Low risk; vitamin D deficiency common in ME/CFS. @Azcue2026gpcr.
+
+*Consequence:* repletion is low-risk and deficiency is common, so the trial can run in a routine clinic; the antibody endpoint is what would separate tolerance restoration from coincidence.
 ] <spec:vitamin-d-gpcr-aab-immune-tolerance>
 
 #speculation(title: [Roflumilast — PDE4 Inhibition for cAMP-Mediated Autophagy Regulation])[
 *Certainty: 0.20.* PDE4 inhibitors increase intracellular cAMP, which modulates autophagy via AMPK and mTOR pathways. In ME/CFS, where autophagy is dysregulated (elevated ATG13, elevated LC3-II), roflumilast (PDE4 inhibitor, approved for COPD, 500 µg/day) could shift autophagy balance from chronic selective overload toward bulk degradation — complementing the WBH-induced autophagy switch proposed at ch06:@spec:autophagy-switch-heat. Falsifiable: roflumilast over 4 weeks reduces LC3-II/p62 ratio toward control levels and improves mitochondrial spare capacity by 30%. No ME/CFS PDE4 data; gastrointestinal side effects in 20% at COPD dose.
+
+*Consequence:* gastrointestinal side effects affect about one in five at the COPD dose, so tolerability may decide the trial before efficacy does.
 ] <spec:roflumilast-autophagy>
 
 #speculation(title: [4-Phenylbutyrate — Chemical Chaperone for ER Stress-HSP70 Coupling])[
 *Certainty: 0.20.* 4-Phenylbutyrate (4-PB, chemical chaperone approved for urea cycle disorders, 9 g/day TID) reduces ER stress by stabilizing protein folding, potentially freeing HSP70 from ER chaperone duty for mitochondrial protein import support. If ER stress contributes to functional HSP70 deficiency in ME/CFS, 4-PB could restore HSP70 availability independently of thermal induction. Falsifiable: 4-PB over 4 weeks reduces ER stress markers (GRP78, CHOP) by 30% and increases available HSP70 by 25%. No ME/CFS data; taste disturbance in 20% at therapeutic dose.
+
+*Consequence:* the dose needed is large and the taste disturbance is common, so the trial must show that the ER stress fall is large enough to justify the burden.
 ] <spec:4pb-er-stress-hsp70>
 
 #speculation(title: [Mirabegron — Beta3-Adrenergic Agonist for BAT-Mediated Cold Intolerance])[
 *Certainty: 0.20.* Mirabegron (beta3-adrenergic agonist, 50 mg/day, approved for overactive bladder) activates brown adipose tissue via UCP1-dependent thermogenesis. If ME/CFS cold intolerance reflects failed BAT activation from sympathetic dysregulation (ch10:@oq:bat-cold-intolerance), mirabegron could bypass the sympathetic deficit and restore cold thermogenesis directly at the adipocyte beta3 receptor. However, active BAT is minimal in adults over 40 — the typical ME/CFS demographic — and tachycardia is a known side effect that could worsen POTS symptoms. Falsifiable: mirabegron over 4 weeks increases BAT ^18F-FDG uptake by >50% in ME/CFS patients under 40 with detectable baseline BAT. No ME/CFS data; BAT activation demonstrated in healthy young adults only. Pre-existing POTS is a relative contraindication.
+
+*Consequence:* active brown fat is minimal in most adults over forty, so the trial should enrol only younger patients with detectable baseline brown fat, and tachycardia is a real risk in POTS.
 ] <spec:mirabegron-bat>
 
 == Inflammation Resolution-Targeted Therapies
@@ -650,6 +745,8 @@ Experimental M1/M4 PAMs (e.g., VU0467154) enhance endogenous acetylcholine signa
 *Testable prediction:* ME/CFS patients receiving glycyrrhizin 200 mg before standardized CPET show reduced plasma disulfide-HMGB1 at 6h post-exercise and reduced PEM severity (PEM duration reduced by >24h) compared to placebo. Falsified if glycyrrhizin does not reduce post-exertional HMGB1 or if HMGB1 reduction does not correlate with PEM improvement.
 
 *Cross-reference:* HMGB1 DAMP hypothesis (@sec:um-resolution, Chapter @ch:universal-mechanisms). HMGB1-ferroptosis ODE model (@prop:hmgb1-ferroptosis-ode, Chapter @ch:causal-hierarchy). DAMP clearance protocol (@spec:c2-damp-clearance).
+
+*Consequence:* glycyrrhizin can cause pseudohyperaldosteronism with hypertension and low potassium, so a patient should not take licorice extract daily without blood pressure and electrolyte monitoring.
 ] <spec:glycyrrhizin-hmgb1>
 
 === TUDCA/4-PBA for UPR Inhibition
@@ -688,6 +785,8 @@ Experimental M1/M4 PAMs (e.g., VU0467154) enhance endogenous acetylcholine signa
 *Testable prediction:* ME/CFS patients receiving TUDCA 1g/day show reduced ER stress markers (GRP78, sXBP1, CHOP) in PBMCs at 12 weeks, correlating with reduced TNF-alpha and IL-6 levels and improved fatigue scores. Adding 4-PBA provides additional reduction in CHOP (pro-apoptotic marker) not seen with TUDCA alone. Falsified if UPR markers are normal at baseline or if TUDCA/4-PBA does not suppress ME/CFS UPR despite target engagement.
 
 *Cross-reference:* IRE1alpha bistable switch model (@prop:ire1alpha-bistable-model, Chapter @ch:causal-hierarchy). UPR/ER stress section (@sec:um-proteostasis, Chapter @ch:universal-mechanisms). ER stress resolution protocol (@spec:c3-er-stress-resolution).
+
+*Consequence:* both agents have human safety data for other indications, so a small trial is feasible, but the unfolded-protein premise in ME/CFS rests on markers rather than on a demonstrated causal role.
 ] <spec:tudca-4pba-upr>
 
 === tVNS for SPM Induction
@@ -718,6 +817,8 @@ Experimental M1/M4 PAMs (e.g., VU0467154) enhance endogenous acetylcholine signa
 *Testable prediction:* ME/CFS patients using daily tVNS for 8 weeks show elevated plasma SPM levels (RvD1, RvE1, MaR1; >50% increase from baseline) that correlate with improved HRV (RMSSD +20%) and reduced PEM duration. The SPM elevation is detectable within 4 weeks and plateaus by 8 weeks. Falsified if SPM levels do not increase despite HRV improvement (suggesting vagal tone improvement alone is insufficient for SPM upregulation).
 
 *Cross-reference:* SPM deficiency hypothesis (@sec:um-resolution). Omega-3 and aspirin SPM strategy (@spec:aspirin-omega3-spm, Chapter @ch:speculative-hypotheses). SPM restoration protocol (@spec:c1-spm-restoration).
+
+*Consequence:* tVNS is non-invasive and already in ME/CFS studies, so the SPM endpoint could be added to an existing trial rather than requiring a new one.
 ] <spec:tvns-spm-induction>
 
 === Protocol C1: SPM Restoration Protocol
@@ -742,6 +843,8 @@ Experimental M1/M4 PAMs (e.g., VU0467154) enhance endogenous acetylcholine signa
 *Testable prediction:* The combination produces greater SPM elevation (RvD1+RvE1+MaR1 increase >100%) than any single component alone, with additive effects. PEM severity and duration reduced by >40% in the combination group at 12 weeks.
 
 *Cross-reference:* Individual components (@spec:aspirin-omega3-spm, @spec:tvns-spm-induction). DAMP clearance protocol (@spec:c2-damp-clearance, below).
+
+*Consequence:* aspirin plus high-dose omega-3 raises bleeding risk, so the combination needs a bleeding review and should not be started by a patient who already takes an anticoagulant.
 ] <spec:c1-spm-restoration>
 
 === Protocol C2: DAMP Clearance Protocol
@@ -769,6 +872,8 @@ Experimental M1/M4 PAMs (e.g., VU0467154) enhance endogenous acetylcholine signa
 *Testable prediction:* ME/CFS patients receiving the triple protocol for 8 weeks show reduced plasma DAMP levels (HMGB1 -40%, 4-HNE -30%, mtDNA -25%) and improved fatigue scores (SF-36 PF +15 points) compared to placebo. NAC alone reduces oxidative markers but not HMGB1; glycyrrhizin alone reduces HMGB1 but not oxidative markers; the combination is required for both.
 
 *Cross-reference:* HMGB1-DAMP hypothesis (@sec:um-resolution). HMGB1-ferroptosis ODE model (@prop:hmgb1-ferroptosis-ode). Glycyrrhizin speculation (@spec:glycyrrhizin-hmgb1).
+
+*Consequence:* iron chelation is the risky component, because deferiprone can cause agranulocytosis, so the protocol should be tested without it first.
 ] <spec:c2-damp-clearance>
 
 === Albumin Infusion for DAMP Sequestration and Iron Buffering
@@ -786,6 +891,8 @@ Experimental M1/M4 PAMs (e.g., VU0467154) enhance endogenous acetylcholine signa
 *Testable prediction:* 4 weekly albumin infusions reduce serum free iron and HMGB1 by ≥25%, reduce isoprostanes by ≥20%, and improve fatigue (SF-36 PF ≥5 points) compared to baseline in a pre/post pilot study. Falsified if free iron AND HMGB1 do not decrease — if only DAMP or only iron improves, the "triple-mechanism" claim is refuted; single-mechanism efficacy would require separate hypothesis reformulation.
 
 *Cross-reference:* HMGB1 DAMP hypothesis (@sec:um-resolution, Chapter @ch:universal-mechanisms). DAMP clearance protocol C2 (@spec:c2-damp-clearance). Iron/ferroptosis mechanism (Chapter @ch:energy-metabolism). Hepcidin-iron trap hypothesis (ch14b).
+
+*Consequence:* albumin is already used in critical care, which makes the safety case easier, but weekly infusion is a heavy burden for a patient and the three mechanisms may be one.
 ] <spec:albumin-damp-iron-clearance>
 
 === Protocol C3: ER Stress Resolution Protocol
@@ -812,6 +919,8 @@ Experimental M1/M4 PAMs (e.g., VU0467154) enhance endogenous acetylcholine signa
 *Testable prediction:* The combination reduces PBMC UPR markers (GRP78, sXBP1, CHOP) by >50% at 12 weeks in ME/CFS patients with elevated baseline UPR markers. TUDCA alone reduces GRP78 but not sXBP1; TUDCA + fasting is required for both markers.
 
 *Cross-reference:* TUDCA/4-PBA speculation (@spec:tudca-4pba-upr). IRE1alpha bistable switch model (@prop:ire1alpha-bistable-model). Autophagy-heat switch (@spec:autophagy-switch-heat, Chapter @ch:energy-metabolism).
+
+*Consequence:* fasting is the component most likely to harm a fragile patient, so the protocol should be tested without the fasting arm before the combination is judged.
 ] <spec:c3-er-stress-resolution>
 
 === Ziritaxestat/Autotaxin-LPA for Fibrotic-Neuroinflammatory Crosstalk
@@ -819,6 +928,8 @@ Experimental M1/M4 PAMs (e.g., VU0467154) enhance endogenous acetylcholine signa
 
 #speculation(title: [Ziritaxestat/Autotaxin-LPA Inhibition for Fibrotic-Neuroinflammatory Crosstalk])[
 *Certainty: 0.20.* Autotaxin converts LPC to LPA, a bioactive lipid signaling through LPA1-6 receptors that drives TGF-beta1 induction, fibroblast activation, ECM deposition, and microglial activation. Ziritaxestat (Phase III IPF) provides a clinically-ready ATX inhibitor with established safety. If ATX-LPA is elevated in ME/CFS, it provides a druggable bridge between fibrotic pathology (capillary basement membrane thickening) and neuroinflammation (LPA1-mediated microglial activation). See @spec:ziritaxestat-atx-lpa (Chapter @ch:speculative-hypotheses) for full mechanism. Falsifiable: ATX activity and LPA levels are elevated in ME/CFS; ziritaxestat reduces LPA and improves fatigue in ATX-high patients.
+
+*Consequence:* ziritaxestat failed its phase three fibrosis trial, so the repurposing case rests on the ME/CFS mechanism and not on the drug's prior result.
 ] <spec:ziritaxestat-atx-lpa-emerging>
 
 == Hypoxia and Oxygen-Sensing Pathway Modulation
@@ -831,6 +942,8 @@ Experimental M1/M4 PAMs (e.g., VU0467154) enhance endogenous acetylcholine signa
 *Safety.* Potential PEM trigger if protocol exceeds individual tolerance — requires graduated introduction (start FiO#sub[2] 0.19, decrease 0.01 per week). Contraindicated in severe ME/CFS (bedbound patients), uncontrolled POTS, or hemoglobinopathies. Normobaric hypoxia carries no barotrauma risk. Hypoxia-induced vasodilation could worsen orthostatic intolerance in susceptible patients.
 
 *Testable prediction.* 8 weeks IHT (3 sessions/week) improves 6MWT distance ≥40~m vs sham (FiO#sub[2] 0.21) in mild-to-moderate ME/CFS, with sustained CBFv during hypoxic cycles.
+
+*Consequence:* hypoxic training can trigger PEM, so it needs supine delivery and 48-hour monitoring, and a session that exceeds tolerance would harm the patient the trial is meant to help.
 ] <spec:iht-mecfs>
 
 #speculation(title: [Intermittent Hypoxia-Hyperoxia Treatment (IHHT) — REenergizeME Trial])[
@@ -863,6 +976,8 @@ Experimental M1/M4 PAMs (e.g., VU0467154) enhance endogenous acetylcholine signa
     + No ME/CFS safety data exist; all literature is from CKD populations with different baseline physiology
 
 *Testable prediction.* Low-dose daprodustat (1mg TIW, one-quarter the CKD dose) increases constant-workload cycling time to exhaustion by $>=30$% without elevating hematocrit above 45% in ME/CFS patients with blunted hypoxia-challenge EPO response.
+
+*Consequence:* the risk is subtype-dependent: the same drug could help a HIF-inert patient and worsen endothelial barrier dysfunction in a HIF-2-dominant one, so selection comes before dosing.
 ] <spec:hif-ph-inhibitors>
 
 #speculation(title: [Belzutifan (HIF-2$alpha$ Inhibitor) for Post-Viral ME/CFS with Endothelial Dysfunction])[
@@ -877,6 +992,8 @@ Experimental M1/M4 PAMs (e.g., VU0467154) enhance endogenous acetylcholine signa
 *CAUTION.* HIF-2$alpha$ is not HIF-1$alpha$ — the isoforms have distinct, sometimes opposing functions. HIF-2 inhibition could paradoxically worsen hypoxia sensing. HIF-2$alpha$ supports erythropoietin production in adults; its inhibition could cause anemia (15--20% incidence in VHL trials). No ME/CFS data exist. Contraindicated in pregnancy.
 
 *Testable prediction.* 8 weeks belzutifan 40~mg daily reduces VWF antigen (endothelial activation marker) by ≥20% and improves 6MWT distance by ≥30~m in post-viral ME/CFS patients with elevated baseline VWF (>150% normal) and $beta_2$AR-autoantibody-negative status. VEGF reduction should precede clinical improvement by 2--4 weeks.
+
+*Consequence:* belzutifan is approved for a tumour indication and is expensive, so the ME/CFS case rests on one in-vitro barrier model and needs a trial before any patient is offered it.
 ] <spec:belzutifan-endothelial>
 
 #speculation(title: [Darunavir/Ritonavir (HIV Protease Inhibitor, HIF-2$alpha$ Blocker) for Endothelial Barrier Rescue])[
@@ -893,6 +1010,8 @@ Experimental M1/M4 PAMs (e.g., VU0467154) enhance endogenous acetylcholine signa
 *Contraindications for bedbound patients:* Hepatotoxicity risk requires regular LFT monitoring. GI intolerance may worsen malnutrition risk. Drug interactions are substantial — polypharmacy in bedbound patients requires careful review.
 
 *Testable prediction.* 4 weeks darunavir/ritonavir in post-viral ME/CFS reduces plasma VEGF and vWF by ≥25% and improves FMD compared to placebo in a double-blind, randomised crossover trial (n=20).
+
+*Consequence:* the mechanism is independent of protease inhibition, but ritonavir carries strong drug interactions, so a patient on other medicines needs a full interaction review first.
 ] <spec:darunavir-hif2a>
 
 #speculation(title: [EPO Stimulation Test as Diagnostic Probe for HIF Pathway Integrity])[
@@ -903,6 +1022,8 @@ Experimental M1/M4 PAMs (e.g., VU0467154) enhance endogenous acetylcholine signa
 *Mechanistic rationale.* If HIF pathway inertia is a core feature of ME/CFS, the EPO response to a controlled hypoxic stimulus should be blunted relative to controls while basal EPO remains normal — a pattern consistent with impaired inducibility rather than absolute HIF deficiency.
 
 *Testable prediction.* AUC of EPO response over 48~h is ≥40% lower in ME/CFS vs age/sex-matched healthy controls. Abnormal test (>2 SD below control mean) identifies a HIF-inert ME/CFS subtype with distinct clinical features (worse orthostatic intolerance, lower CBFv, steeper PEM gradient).
+
+*Consequence:* the test uses a controlled hypoxic challenge, which can itself provoke PEM, so it is a research procedure and not a routine diagnostic.
 ] <spec:epo-stimulation-test>
 
 == Glutamatergic Modulators
@@ -917,6 +1038,8 @@ Experimental M1/M4 PAMs (e.g., VU0467154) enhance endogenous acetylcholine signa
 *Warning.* Verapamil can worsen constipation (in a population with GI dysmotility). Bradycardia risk in POTS patients. Hypotension risk with concurrent fludrocortisone. Requires cardiac monitoring. No ME/CFS safety data for the combination.
 
 *Falsifiable prediction.* 8-week LDN (4.5 mg qhs) + verapamil ER (120 mg qd) in GPCR AAb+ ME/CFS+POTS (n=20, open-label): ≥40% show ≥30% PROMIS Fatigue improvement; standing HR decreases ≥5 bpm; NfL decreases ≥15%.
+
+*Consequence:* verapamil can worsen constipation and bradycardia and drop blood pressure with fludrocortisone, so the combination needs cardiac monitoring and is not a self-assembled protocol.
 ] <spec:ldn-verapamil-combo>
 
 {{/* DR17: C1-INH (Tier 3, cert 0.20) */}}
@@ -926,6 +1049,8 @@ Experimental M1/M4 PAMs (e.g., VU0467154) enhance endogenous acetylcholine signa
 *Warning.* Investigational only. C1-INH is very expensive (approx 5,000--15,000 per dose). Thrombotic risk (rare). No ME/CFS safety data. Requires IV administration.
 
 *Falsifiable prediction.* C1-INH (1000 U IV, then weekly ×3) in GPCR AAb+ ME/CFS+POTS with elevated C3a/C5a (n=10): reduces C3a/C5a to ≤1.2 × ULN within 24h; reduces standing HR ≥8 bpm at week 4; plasma syndecan-1 (glycocalyx marker) decreases ≥25%.
+
+*Consequence:* the cost is thousands per dose and the evidence is a ten-patient prediction, so it belongs in a funded trial and not in clinical use.
 ] <spec:c1-inh-complement>
 
 #speculation(title: [Memantine for Glutamatergic PRS-Positive ME/CFS])[
@@ -936,42 +1061,56 @@ Experimental M1/M4 PAMs (e.g., VU0467154) enhance endogenous acetylcholine signa
 *Safety note (no human ME/CFS data):* No controlled trials of memantine exist in ME/CFS. Side effects include dizziness, confusion, sedation, and headache. In ME/CFS, brain fog worsening is a particular concern — start 2.5 mg daily and titrate slowly (increase by 2.5 mg every 2 weeks) to minimise cognitive side effects. Contraindicated in severe renal impairment (CrCl < 30 mL/min). Memantine is not CYP-metabolised; minimal interactions expected with LDN, fludrocortisone, midodrine.
 
 *Falsifiable prediction:* 12-week RCT of memantine 5-10 mg daily vs placebo in ME/CFS stratified by glutamatergic PRS will show significant improvement in cognitive processing speed and PEM frequency only in the high-PRS subgroup (PRS > 75th percentile). The low-PRS subgroup will show no benefit or worsening.
+
+*Consequence:* brain fog can worsen on memantine, so the titration must start at 2.5 mg and the trial must record cognitive worsening as an outcome, not only improvement.
 ] <spec:memantine-glutamate>
 
 #speculation(title: [Riluzole for Glutamatergic Hyperexcitability])[
 *Certainty: 0.35.* Riluzole reduces presynaptic glutamate release, stabilises inactivated sodium channels, and enhances astrocytic glutamate uptake via EAAT2. FDA-approved for ALS. Glutamatergic tone reduction mechanism directly addresses genetically anchored E/I imbalance. 50mg BID standard ALS dose; 25mg QD starting dose in severe ME/CFS. Safety: hepatotoxicity risk — requires monthly LFT monitoring. No ME/CFS data.
 
 *Falsifiable prediction.* 12-week RCT of riluzole 25mg BID vs placebo stratified by Glu-PRS will show improved cognitive processing speed only in high-PRS subgroup.
+
+*Consequence:* riluzole needs monthly liver tests, so the trial must build monitoring into the protocol, and the genetic stratification is what makes the result interpretable.
 ] <spec:riluzole-glutamate>
 
 #speculation(title: [Lamotrigine for E/I Balance])[
 *Certainty: 0.30.* Lamotrigine reduces presynaptic glutamate release via sodium channel blockade, upregulates BDNF and Bcl-2, and is widely considered the most cognitive-sparing anticonvulsant. Extensive existing ME/CFS clinical discussion already in ch08 (kindling hypothesis). Cross-reference `@sec:glutamatergic-modulators` and existing ch08 lamotrigine content. 25mg QD starting, titrate over 6-8 weeks to 100-200mg. Safety: Stevens-Johnson syndrome risk — slow titration mandatory. No ME/CFS RCT data.
 
 *Falsifiable prediction.* Lamotrigine 100mg vs placebo in high Glu-PRS ME/CFS will reduce PEM frequency ≥30% at 12 weeks vs baseline.
+
+*Consequence:* slow titration is mandatory because of the rash risk, so a trial cannot shorten the ramp, and the PEM endpoint needs a run-in long enough to establish baseline.
 ] <spec:lamotrigine-glutamate>
 
 #speculation(title: [Memantine + NAC + Pyridoxal-5-Phosphate Triple Therapy for Glutamatergic Hyperexcitability])[
 *Certainty: 0.35.* Three complementary mechanisms: memantine (non-competitive NMDA antagonist, 5–10 mg daily) blocks postsynaptic glutamate action; NAC (600–1200 mg BID) modulates extracellular glutamate via the cystine-glutamate antiporter and restores glutathione; pyridoxal-5-phosphate (P5P, 50–100 mg daily) drives glutamate decarboxylation to GABA via GAD65/67. Three-hit approach: block receptor, modulate release, enhance inhibitory conversion. Never tested as combination in any condition; each component has independent human safety data.
 
 *Falsifiable prediction:* 12-week triple therapy vs memantine alone in high Glu-PRS ME/CFS (PRS > 75th percentile) will show superior cognitive processing speed improvement (≥0.5 SD on SDMT) and greater PEM frequency reduction (≥40%).
+
+*Consequence:* the combination has never been tested in any condition, so the three-way design should follow single-agent data rather than precede it.
 ] <spec:memantine-nac-p5p-triple>
 
 #speculation(title: [Pregabalin/Gabapentin Stratified by Glutamatergic PRS])[
 *Certainty: 0.35.* Pregabalin and gabapentin bind α2δ-1/2 subunits of voltage-gated calcium channels, reducing presynaptic glutamate release — directly addressing the glutamatergic signal from GWAS. Already used clinically in ME/CFS for pain and sleep. GWAS provides a mechanistic rationale for stratification: high Glu-PRS patients should derive greater benefit because their pathophysiology is driven by excessive glutamatergic signaling. Gabapentin 300–900 mg daily or pregabalin 75–300 mg daily, titrated to tolerance.
 
 *Falsifiable prediction:* High Glu-PRS patients (PRS > 75th percentile) show ≥2× pain reduction (NRS) on gabapentin vs low Glu-PRS over 8 weeks; the response gap is not accounted for by baseline pain severity alone.
+
+*Consequence:* the drugs are already used for pain and sleep, so the genetic stratification is the new part, and a trial that ignores it will repeat the unselected designs that failed.
 ] <spec:gabapentinoid-glu-prs>
 
 #speculation(title: [L-DOPA/Carbidopa for Dopaminergic PRS-Positive ME/CFS])[
 *Certainty: 0.30.* If the dopaminergic midbrain GWAS signal represents impaired dopamine synthesis in VTA/SN, L-DOPA/carbidopa (25/100 mg TID) could restore effort valuation. Dopamine drives effort-cost computation in mesolimbic and mesocortical circuits; low DA tone predicts effort avoidance. High risk: dyskinesia (chronic use), nausea, orthostatic hypotension — particularly problematic in ME/CFS with concurrent POTS. Contraindicated in POTS with prominent hypotension.
 
 *Falsifiable prediction:* DA-PRS-positive patients (PRS > 75th percentile, n=30) show effort-discounting improvement (effort expenditure for reward task) on L-DOPA vs placebo over 4 weeks; DA-PRS-negative patients show no improvement. PEM worsening in the POTS subgroup would contraindicate the approach.
+
+*Consequence:* orthostatic hypotension and dyskinesia are real risks in a POTS population, so the trial must exclude patients with prominent hypotension and watch for PEM worsening.
 ] <spec:ldopa-da-prs>
 
 #speculation(title: [Amiloride as Acid-Sensing Ion Channel Blocker for Lactate-Driven Hyperexcitability])[
 *Certainty: 0.20.* Acid-sensing ion channels (ASICs) are proton-gated sodium channels activated during tissue acidosis — the direct consequence of glycolytic shift and lactate accumulation in ME/CFS (Chapter @ch:energy-metabolism). Amiloride blocks ASICs at low micromolar concentrations (5–10 mg daily, below diuretic threshold), reducing acid-induced pain and potentially cerebellar granule cell hyperexcitability during PEM. Potassium-sparing diuretic; contraindicated in hyperkalemia, renal impairment, and concurrent ACE inhibitors/ARBs. Distinguish this ASIC-blocking rationale from the NHE1-blocking rationale in the AIMM model (Section @sec:mdc002) — different molecular target, different dose range.
 
 *Falsifiable prediction:* Amiloride 5 mg daily reduces PEM-associated pain severity (NRS ≥2-point reduction) in ME/CFS patients with high post-exertional lactate (>2× resting) vs placebo over 6 weeks; effect correlates with post-exertional lactate AUC.
+
+*Consequence:* the dose is below the diuretic threshold, which limits the potassium risk, but renal function and concurrent ACE inhibitors or ARBs still need review before a trial.
 ] <spec:amiloride-asic>
 
 #include "brain-clearance-drugs/brain-clearance-drugs.typ"

@@ -10,10 +10,14 @@ The following hypotheses emerged from systematic analysis of treatment response 
 
 #limitation(title: [Brainstorm Chapter: Pattern Recognition Without Empirical Validation])[
 All hypotheses in this chapter were generated through clinical pattern recognition and mechanistic reasoning, not empirical data analysis. None has been tested in controlled studies. The certainty ratings are uniformly low. Pattern recognition is susceptible to confirmation bias (attending to cases that fit the pattern while ignoring those that do not) and post-hoc rationalisation (constructing mechanistic narratives to explain known clinical features). These hypotheses are presented as research stimuli, not as evidence-based conclusions.
+
+*Consequence:* no certainty rating in this chapter should be used to choose a treatment, because these entries are research prompts; a patient who recognises a pattern here should ask a clinician to test it, not act on it.
 ]
 
 #warning-env(title: [Drug Doses Are Research Context Only])[
 All drug doses cited in this chapter (including lithium, liothyronine, levetiracetam, gabapentinoids, and combination protocols) are for research-context illustration only and must *not* be interpreted as treatment recommendations. All named medications are prescription drugs requiring physician evaluation, contraindication screening, and ongoing monitoring before use. In particular, liothyronine carries cardiovascular contraindications and levetiracetam requires renal dose adjustment and carries behavioural side-effect risk.
+
+*Consequence:* no dose in this chapter should be copied into a prescription or a self-treatment plan; each named drug needs its own contraindication screen, and the doses exist only to show what a trial would have to test.
 ]
 
 // =============================================================================
@@ -41,10 +45,14 @@ The characteristic 24–72 hour delay between exertion and post-exertional malai
     - PEM severity should correlate with degree of amino acid nadir
 
 *Clinical implication:* “Amino acid loading” before anticipated exertion—analogous to carbohydrate loading for endurance athletes—might extend the metabolic runway and reduce PEM severity.
+
+*Consequence:* if the pool-depletion clock is real, then pre-exertion amino acid loading would move PEM onset later, which makes the timing of the dose, not the dose itself, the variable a trial should test.
 ] <hyp:metabolic-runway>
 
 #warning-env(title: [Hypothesis Limitations])[
 This hypothesis is mechanistically plausible but untested. The 24–72 hour delay could alternatively reflect: inflammatory cascade kinetics, gene expression changes, mitochondrial damage accumulation, or other processes. Serial metabolomic studies during controlled exertion protocols are needed to test this specific mechanism. Certainty: Low.
+
+*Consequence:* the 24 to 72 hour delay has at least four competing explanations, so no patient should read the delay as proof of a metabolic cause, and any exertion challenge that measures it must be designed not to provoke PEM.
 ]
 
 // =============================================================================
@@ -72,14 +80,20 @@ Mast cells can be epigenetically programmed by early life events, infections, an
     - Some patients report symptom onset after discrete triggering events with persistent symptoms despite trigger resolution
 
 *Speculative extension:* Could interventions that “reset” cellular programming (psychedelics affecting serotonin receptors on mast cells, epigenetic modifiers, prolonged fasting-induced autophagy) potentially desensitize mast cells?
+
+*Consequence:* if mast cells carry a stable epigenetic memory, then a trigger removed years ago can still drive symptoms, and the test is a methylation mark in blood cells rather than a tryptase level.
 ] <hyp:mast-memory>
 
 #prediction(title: [Epigenetic Mast Cell Markers in ME/CFS])[
 ME/CFS patients with documented mast cell activation will show elevated H3K4me3 or reduced DNA methylation at promoters of mast cell mediator genes (tryptase, histamine N-methyltransferase) compared to healthy controls, and these epigenetic marks will persist in remission.
+
+*Consequence:* a positive methylation signature would give MCAS-phenotype patients an objective marker that survives remission, which would separate a persistent programming defect from ongoing exposure.
 ] <pred:mast-memory>
 
 #warning-env(title: [Hypothesis Limitations])[
 Mast cell epigenetics in ME/CFS has not been studied. The hypothesis extrapolates from other mast cell disorders and general epigenetic principles. No ME/CFS-specific data supports this mechanism. The “reset” speculation is highly preliminary. Certainty: Low.
+
+*Consequence:* no ME/CFS mast cell epigenetic data exist, so a clinician should not order epigenetic testing for this purpose, and a patient should not read mast cell memory as an established diagnosis.
 ]
 
 // =============================================================================
@@ -107,14 +121,20 @@ The vagus nerve connects gut, heart, brain, and immune system. It directly inhib
     - Vagal afferents from gut may mediate “sickness behavior” in infection
 
 *Treatment implication:* If vagal dysfunction is the hub, interventions restoring vagal tone (tVNS, deep breathing, cold exposure, specific probiotics) might produce multi-system improvement disproportionate to their apparent specificity.
+
+*Consequence:* if the vagus is the hub, then one HRV measurement would carry information about gut, cardiac and cognitive symptoms at once, which makes HRV a cheap stratification variable rather than a research curiosity.
 ] <hyp:vagus-hub>
 
 #prediction(title: [Vagal Tone Correlates With Multi-System Symptoms])[
 Heart rate variability (HRV) indices of vagal tone (RMSSD, high-frequency power) will correlate inversely with symptom count across multiple organ systems (GI, cardiac, cognitive) in ME/CFS, and transcutaneous vagus nerve stimulation will improve $gt.eq$3 symptom domains simultaneously.
+
+*Consequence:* if HRV tracks symptom count across organs, then a home HRV record could show whether a treatment is working before the patient can feel it, although the correlation would not show that the vagus causes the cluster.
 ] <pred:vagus-hub>
 
 #warning-env(title: [Hypothesis Limitations])[
 While vagal involvement in ME/CFS is plausible and HRV changes are documented, no studies have demonstrated that vagal dysfunction is causal rather than consequential. The “hub” model is conceptually appealing but may oversimplify the multi-directional interactions. Certainty: Low-Medium.
+
+*Consequence:* HRV changes show that vagal tone differs, not that it drives the illness, so no patient should treat a low HRV reading as the root cause or as a reason to buy a stimulator.
 ]
 
 // =============================================================================
@@ -141,10 +161,14 @@ Normal energy metabolism relies primarily on glucose $arrow.r$ TCA cycle $arrow.
     - Patients with electron transport chain (rather than TCA) defects should NOT respond to ketones
 
 *Clinical implication:* Rather than difficult-to-maintain ketogenic diets, pharmaceutical exogenous ketones might provide metabolic bypass without dietary restriction.
+
+*Consequence:* if the block sits upstream of ketone entry, then a ketogenic diet would help only the subset whose defect is above that point, which makes the diet a test of lesion location rather than a general treatment.
 ] <hyp:ketone-bypass>
 
 #warning-env(title: [Hypothesis Limitations])[
 Ketogenic diets have not been systematically studied in ME/CFS. Anecdotal reports are mixed. The hypothesis assumes TCA dysfunction is rate-limiting, which may not be true for all patients. Ketosis can be difficult to achieve and maintain. Certainty: Low.
+
+*Consequence:* ketosis is hard to reach and harder to sustain in a patient with orthostatic intolerance and nausea, so a failed trial of the diet does not refute the hypothesis and a successful one does not prove it.
 ]
 
 // =============================================================================
@@ -175,10 +199,13 @@ ME/CFS mitochondria may not be “broken”—they may be deliberately downregul
     - Persistent oxidative stress from upstream dysfunction
     - Gut-derived endotoxins (LPS) from barrier dysfunction
 
+*Consequence:* if the throttle is protective, then forcing mitochondrial output would spend reserve that the body is withholding, which predicts a short gain followed by a deeper crash rather than a cure.
 ] <hyp:protective-throttle>
 
 #prediction(title: [Mitochondrial Throttling Reversal Triggers PEM])[
 Pharmacological override of mitochondrial energy throttling (e.g., forced uncoupling or bypass of Complex I inhibition) will produce short-term symptom improvement followed by delayed PEM within 24–72 hours, consistent with protective shutdown being circumvented rather than resolved.
+
+*Consequence:* a drug that overrides the throttle should be judged by what happens 24 to 72 hours later, not by the first-day energy, and a trial that reports only the first day will read a harm as a benefit.
 ] <pred:protective-throttle>
 
 #warning-env(title: [Hypothesis Limitations and Clinical Safety])[
@@ -187,6 +214,8 @@ The cell danger response hypothesis @Naviaux2014cdr is itself not fully validat
 *CRITICAL SAFETY NOTICE*: This hypothesis should NOT discourage use of mitochondrial support treatments that provide symptomatic benefit. If CoQ10, carnitine, NAD+ precursors, or other mitochondrial interventions are helping you, *continue them*. Do not discontinue beneficial treatments based on this unvalidated hypothesis about “fighting the body's protective mechanism.”
 
 The hypothesis addresses root cause mechanisms, not whether symptomatic support is appropriate. Even if mitochondria are deliberately throttled, supporting their function may still improve quality of life while underlying causes are addressed. Certainty: Low.
+
+*Consequence:* no patient should stop CoQ10, carnitine or NAD+ precursors because of this hypothesis; a treatment that improves daily function is worth keeping even while its mechanism stays unresolved.
 ]
 
 // =============================================================================
@@ -217,14 +246,20 @@ Sleep disturbance is nearly universal in ME/CFS and usually treated as a symptom
     - Precisely timed melatonin (0.3–0.5 mg, 5 hours before desired sleep)
 
 This would be attempted BEFORE pharmacological interventions, testing whether clock restoration produces downstream improvement.
+
+*Consequence:* if the clock is upstream, then light timing and meal timing are treatments rather than lifestyle advice, and they cost nothing to test before any drug is tried.
 ] <hyp:circadian-core>
 
 #prediction(title: [Circadian Restoration Precedes Immune Normalization])[
 Interventions that restore circadian cortisol rhythm (timed bright light, melatonin, chronotherapy) will produce measurable normalization of diurnal cytokine profiles (IL-6, TNF-$alpha$) within 4–8 weeks, preceding and predicting subsequent symptom improvement.
+
+*Consequence:* a fall in IL-6 within four to eight weeks of timed light and melatonin would give an inexpensive early readout, which matters most in patients too ill to travel for repeated testing.
 ] <pred:circadian-core>
 
 #warning-env(title: [Hypothesis Limitations])[
 Circadian disruption in ME/CFS is documented but causality is not established. Severely ill patients may have limited ability to implement circadian interventions (cannot tolerate light, cannot maintain schedules). The hypothesis does not explain post-infectious onset. Certainty: Low-Medium.
+
+*Consequence:* severely ill patients cannot always tolerate bright light or a fixed schedule, so a failed circadian trial in that group says more about the protocol than about the hypothesis.
 ]
 
 // =============================================================================
@@ -269,16 +304,21 @@ All listed interventions carry significant risks and require medical supervision
     - Plasmapheresis (medical facility procedure only)
     - Hyperbaric oxygen (specialized treatment centers)
 
+*Consequence:* if occlusion is the final pathway, then oxygen delivery fails downstream of every mitochondrial cause, which would make a perfusion treatment work in a patient whose muscle biochemistry looks normal.
 ] <hyp:microclot>
 
 #prediction(title: [Microclot Burden Correlates With Exercise Intolerance])[
 Fluorescence microscopy-quantified microclot burden in platelet-poor plasma will correlate with Day 2 CPET decrement ($r > 0.4$), and triple anticoagulation (aspirin + clopidogrel + apixaban) will reduce microclot burden by $>$50% with corresponding improvement in exercise capacity at 8 weeks.
 
 *Status after the 2026 evidence.* The intervention arm has a randomised test in its anticoagulant component and did not pass it: 12 weeks of rivaroxaban produced no fatigue benefit in 778 never-hospitalised post-COVID patients (adjusted difference $-1.06$ points, 95% CI $-2.47$ to $0.35$) @StimulateICP2026rivaroxaban. The burden the drugs are meant to remove was also not present in excess in the largest controlled count @Fraser2026LCcoagulation. The correlation arm remains untested; the intervention arm is not supported.
+
+*Consequence:* the correlation arm is still worth running because it tests whether aggregates track exercise intolerance, but the treatment arm has already failed, so no patient should take triple anticoagulation on the strength of this prediction.
 ] <pred:microclot>
 
 #warning-env(title: [Hypothesis Limitations])[
 Microclots have been documented in Long COVID but not systematically studied in pre-pandemic ME/CFS. The overlap between Long COVID and ME/CFS is significant but not complete. Anticoagulant therapy carries bleeding risks. No controlled trials support these interventions in ME/CFS. Certainty: Low.
+
+*Consequence:* the anticoagulant warning holds after the 2026 trial: bleeding risk is real, benefit is unproven, and a patient should not trade a known harm for an unknown gain.
 ]
 
 // =============================================================================
@@ -308,10 +348,14 @@ ME/CFS can be triggered by remarkably diverse infections: EBV, COVID-19, Lyme di
 *Testable prediction:* Genetic studies should find ME/CFS associations with genes affecting mast cells, connective tissue, mitochondria, and immune regulation rather than pathogen-specific response genes.
 
 *Prevention implication:* If susceptibility factors can be identified, high-risk individuals could receive prophylactic interventions during acute infections (aggressive mast cell stabilization, circadian protection, metabolic support) to prevent ME/CFS development.
+
+*Consequence:* if susceptibility decides the outcome, then the search should move from the trigger to the host, and a genetic or connective-tissue screen would matter more than a pathogen panel.
 ] <hyp:susceptibility-focus>
 
 #warning-env(title: [Hypothesis Limitations])[
 This hypothesis does not explain why some infections (EBV, COVID) seem more likely to trigger ME/CFS than others (rhinovirus, norovirus). Susceptibility factors have not been identified with certainty. The hypothesis may be partially true (susceptibility matters) while specific pathogen factors also contribute. Certainty: Low-Medium.
+
+*Consequence:* the model does not explain why some infections trigger ME/CFS and others do not, so it should be read as half the answer, with pathogen factors still in play.
 ]
 
 // =============================================================================
@@ -339,10 +383,14 @@ Women are 3–4$times$ more likely to develop ME/CFS than men @Shahbaz2025sexSpe
     - Hormonal modulation (progesterone, Dehydroepiandrosterone (DHEA), careful estrogen management) might be therapeutic
 
 *Clinical observation:* Many patients report perimenstrual worsening (days –3 to +2 around menstruation), consistent with hormonal involvement.
+
+*Consequence:* if estrogen amplifies several steps at once, then symptom tracking across the cycle becomes a diagnostic tool, and a flare at a hormonal transition is data rather than coincidence.
 ] <hyp:estrogen-amplifier>
 
 #warning-env(title: [Hypothesis Limitations])[
 Sex hormone studies in ME/CFS are limited and inconsistent. The hypothesis does not explain male ME/CFS cases or post-menopausal onset. Hormonal interventions are complex and can have significant side effects. Certainty: Low-Medium.
+
+*Consequence:* male cases and post-menopausal onset sit outside the model, so a patient who does not fit the hormonal pattern should not be told that the hypothesis excludes them.
 ]
 
 // =============================================================================
@@ -383,14 +431,20 @@ The following “reset” interventions are *DANGEROUS*, especially for metaboli
     - *Psychedelics*: Uncontrolled use risks psychiatric crisis, cardiovascular events; legal restrictions apply
 
 *The “reset” concept is a metaphor, not validated biophysical mechanism.* These interventions remain entirely experimental and should not encourage desperate self-experimentation that could result in severe harm.
+
+*Consequence:* the safety notice inside this entry is the operative part: fasting, hyperthermia and psychedelic resets have no ME/CFS evidence and can harm a fragile patient, so none should be attempted outside a supervised study.
 ]
  <spec:bistable>
 #warning-env(title: [Hypothesis Limitations])[
 The bistable equilibrium model is a metaphor, not a validated biophysical description. “Reset” interventions are largely untested in ME/CFS and carry significant risks. Extended fasting could be dangerous for malnourished or metabolically compromised patients. This hypothesis should not encourage desperate self-experimentation. Certainty: Very Low.
+
+*Consequence:* the bistable model is a metaphor, and a metaphor cannot justify a risky intervention; extended fasting in a malnourished patient can cause harm with no evidence of benefit.
 ]
 
 #limitation(title: [Bistable Model: Metaphor, Not Mechanism])[
 The “energy landscape” with “wells” and “hills” is a mathematical metaphor from dynamical systems theory, not a description of identified biological states. No study has demonstrated that ME/CFS represents a distinct stable equilibrium in any measurable state space (metabolic, immune, or neurological). The existence of a second attractor (the “health” state) separated by an energy barrier is assumed, not demonstrated. The “reset” framing risks encouraging dangerous self-experimentation with interventions (fasting, hyperthermia, psychedelics) that have no evidence of efficacy and carry substantial harm potential in metabolically fragile patients.
+
+*Consequence:* no measured state space has been shown to contain two attractors, so the model should guide study design only, and no patient should be recruited into a reset protocol on its strength.
 ]
 
 // =============================================================================
@@ -419,6 +473,8 @@ A further mechanism is trained immunity: _P.\ gingivalis_ reprogrammes bone marr
     - Trained immunity is a general mechanism not specific to _P.\ gingivalis_; many infections could produce similar effects without involving the oral microbiome.
 
 *Certainty:* 0.20. Highly speculative. Each individual link (citrullination → autoimmunity; gingipains → neuroinflammation; trained immunity → sustained inflammation) is established in other diseases, but the composite hypothesis applied to ME/CFS is entirely untested.
+
+*Consequence:* if periodontal citrullination seeds the autoantibodies, then dental treatment becomes a plausible upstream intervention, and a patient with periodontitis and ME/CFS should have the gum disease treated on its own merits.
 ] <spec:oral-autoimmunity>
 
 // =============================================================================
@@ -460,6 +516,8 @@ Cimetidine's immunomodulatory effects were discovered accidentally. What other e
     - *Atomoxetine*: Norepinephrine reuptake inhibitor; off-label for POTS
 
 These candidates are presented for research consideration, not as treatment recommendations. Systematic investigation of repurposed drugs could be more efficient than novel drug development.
+
+*Consequence:* this is a list of questions, not a prescription; several candidates carry real toxicity, so each needs its own safety case before any patient tries it.
 ] <oq:drug-candidates>
 
 // =============================================================================
@@ -493,10 +551,14 @@ If ME/CFS is maintained by multiple interacting feedback loops (the “multi-loc
     - Difficult to study in controlled trials
 
 *When might this be appropriate?* For severely ill patients who have failed sequential single-intervention trials and face permanent disability, a coordinated multi-target approach may be worth the complexity.
+
+*Consequence:* if several loops hold the state, then one drug at a time will keep failing, but the protocol listed here has never been tested and its combined interaction profile is unknown.
 ] <hyp:kitchen-sink>
 
 #warning-env(title: [Protocol Limitations])[
 This “kitchen sink” approach has not been tested in any controlled manner. The complexity makes it difficult to implement and study. Not all patients can tolerate aggressive multi-intervention protocols. This concept is presented to stimulate thinking about treatment strategy, not as a validated protocol. Certainty: Very Low (for specific protocol); Medium (for multi-target concept).
+
+*Consequence:* a patient who cannot tolerate one intervention cannot tolerate nine, so the kitchen-sink protocol should not be attempted at home even if the multi-target idea is sound.
 ]
 
 // =============================================================================
@@ -530,6 +592,8 @@ Three mechanistically distinct anti-inflammatory agents targeting different casc
 *Testable prediction:* Greater cytokine reduction than LDN monotherapy at 12 weeks.
 
 *Safety considerations:* Combining three anti-inflammatory agents raises theoretical concerns about excessive immune suppression. Monitor for increased infection susceptibility. Note that Devil's Claw has anticoagulant potential—review bleeding risk if combining with other agents affecting hemostasis. Start components sequentially (not simultaneously) to identify any adverse reactions.
+
+*Consequence:* Devil's Claw has anticoagulant activity, so a patient already taking an anticoagulant or an antiplatelet should not add it without a prescriber's review of bleeding risk.
 ] <hyp:triple-anti-inflammatory>
 
 #hypothesis(title: [Neuroplasticity Combination: Pregnenolone + Ketamine])[
@@ -538,6 +602,8 @@ Ketamine induces a “window of neuroplasticity” via BDNF release and mTOR act
 *Predicted responders:* Central sensitization phenotype, “wired but tired” presentation, TRPM3-positive if testable.
 
 *Testable prediction:* Combined treatment produces greater, more durable reduction in Central Sensitization Inventory scores.
+
+*Consequence:* ketamine carries dissociation and dependence risk and needs monitored administration, so this combination should not be assembled outside a trial that can watch the first dose.
 ] <hyp:neuroplasticity-combo>
 
 #hypothesis(title: [Mitochondrial Paradox Resolution: Statin + CoQ10 + D-Ribose])[
@@ -546,12 +612,16 @@ Statins offer immunomodulatory benefits for autoimmune ME/CFS subsets, but HMG-C
 *Target phenotype:* GPCR autoantibody-positive patients refractory to or unable to access immunoadsorption.
 
 *Testable prediction:* With protection, statins should not worsen CPET metrics while potentially reducing autoantibody titers over 3–6 months.
+
+*Consequence:* if the protection protocol works, then statins become testable in autoantibody-positive patients, but the CPET abort rule is part of the design and not an optional extra.
 ] <hyp:statin-paradox>
 
 #speculation(title: [Electrolyte/MCAS Connection])[
 Why do some MCAS-phenotype patients respond dramatically to aggressive electrolyte loading? Possible links: (1) chronic MCAS creates relative hypovolemia via histamine vasodilation; (2) mast cells are osmosensitive—adequate sodium may reduce activation triggers; (3) electrolyte solutions provide trace minerals for diamine oxidase (DAO) function.
 
 *Testable prediction:* MCAS-phenotype patients should show greater ORS benefit than non-MCAS; mast cell markers should decrease with adequate electrolyte loading.
+
+*Consequence:* if mast cells are osmosensitive, then oral rehydration is a low-risk test that a patient can discuss with a clinician, which is unusual in this chapter and worth noting.
 ] <spec:electrolyte-mcas>
 
 #speculation(title: [Lithium + T3 Dual Neuroplasticity Restoration])[
@@ -570,6 +640,8 @@ A specific pharmacological interaction creates both risk and opportunity: lithiu
 #warning-env(title: [Prescription-Only Medications: Do Not Self-Initiate])[
 Liothyronine (T3) is a prescription medication with significant cardiovascular risks including tachyarrhythmias, angina, and atrial fibrillation---particularly hazardous in ME/CFS patients with POTS or autonomic dysfunction. This protocol must *not* be self-initiated. Physician supervision with baseline ECG and cardiac evaluation is required. Absolute contraindications include active coronary artery disease and uncontrolled tachyarrhythmia. See @spec:low-dose-lithium in Chapter @ch:neurological for lithium-specific drug interaction warnings.
 ]
+
+*Consequence:* lithium suppresses thyroid hormone release, so the combination needs thyroid function monitoring, and a patient should not start either agent to obtain the effect of the other.
 ] <spec:lithium-t3-combo>
 
 #speculation(title: [Levetiracetam as Disease-Modifying Anti-Kindling Agent in ME/CFS])[
@@ -582,6 +654,8 @@ If PEM represents neurobiological kindling (Hypothesis @hyp:pem-kindling-sensiti
 *Testable prediction:* ME/CFS patients treated with levetiracetam (250--500 mg BID) for 6 months should show: (a) increased PEM threshold (tolerate more activity before crash), (b) reduced crash severity when PEM does occur, and (c) maintenance of threshold gains for $gt.eq$ 3 months after drug discontinuation.
 
 *Key concern:* Behavioral side effects ("Keppra rage"---irritability, agitation) occur in 13--17% of epilepsy patients and would be poorly tolerated in the ME/CFS population. Careful dose titration and patient selection are essential. Brivaracetam (Briviact), a more selective SV2A ligand with fewer behavioral effects, may be an alternative.
+
+*Consequence:* levetiracetam carries behavioural side effects and needs renal dose adjustment, so the anti-kindling claim needs a trial with mood monitoring before it reaches a prescription.
 ] <spec:levetiracetam-anti-kindling>
 
 #speculation(title: [Gabapentinoid Anti-Synaptogenesis for Central Sensitization Reset])[
@@ -592,6 +666,8 @@ If ME/CFS central sensitization involves neuroinflammation-driven thrombospondin
 However, concerning signals exist: patients with 6+ gabapentin prescriptions showed 29% increased dementia risk and 85% increased MCI risk within 10 years. Whether this reflects the drug's anti-synaptogenic mechanism impairing normal plasticity, or confounding by indication, remains unresolved.
 
 *Testable prediction:* ME/CFS patients with high Central Sensitization Inventory scores should show greater response to pregabalin than those with low scores; furthermore, response should correlate with serum or CSF thrombospondin levels if measurable.
+
+*Consequence:* if gabapentinoids block pathological synapse formation, the effect would be structural and slow, so a two-week trial cannot test it and a negative short trial should not close the question.
 ] <spec:gabapentinoid-synaptogenesis>
 
 #speculation(title: [The Attractor Landscape Model: ME/CFS as a Pathological Stable State])[
@@ -604,10 +680,14 @@ This model makes a qualitative prediction: if the pathological state is maintain
 *Falsifiability and the rescue hypothesis concern:* This model must be evaluated against the risk of being an unfalsifiable rescue hypothesis. If single agents fail, the model "explains" this (not enough loops targeted). If combinations fail, one can always claim not enough loops were addressed. To be genuinely falsifiable, the model must commit to a specific prediction: a well-designed factorial combination trial (e.g., 2$times$2$times$2) targeting three mechanistically independent loops should show a statistically significant three-way interaction term. If such a trial shows purely additive effects (each agent contributes independently, no interaction), the multi-loop attractor model is falsified in favor of a simpler additive damage model. If the trial shows no benefit from any combination, the model is falsified entirely. The model is NOT confirmed by the mere observation that "nothing has worked so far."
 
 See Chapter @ch:integrated-systems for formal attractor modeling.
+
+*Consequence:* the model predicts that partial treatment will look like failure and that escape may need a perturbation strong enough to be risky, which is a reason for caution rather than a reason to attempt one.
 ] <spec:attractor-landscape>
 
 #limitation(title: [Combination Hypotheses: No Drug Interaction or Safety Data])[
 The novel combination hypotheses in this section (triple anti-inflammatory stack, neuroplasticity combination, lithium + T3, levetiracetam anti-kindling, statin paradox resolution) propose drug regimens that have never been tested for safety or efficacy in ME/CFS or any related condition. Drug interaction profiles for these specific combinations are unknown. The rationale is based on single-mechanism reasoning that does not account for the complexity of multi-drug pharmacokinetics and pharmacodynamics. These combinations must not be attempted outside formal clinical trial settings with appropriate safety monitoring.
+
+*Consequence:* none of these combinations has a safety record in ME/CFS, so the absence of a reported interaction is not evidence of safety, and each belongs in a monitored trial only.
 ]
 
 === Phenotype-Matched Selection
@@ -630,6 +710,8 @@ The attractor dynamics model (Chapter @ch:integrated-systems, Section @sec:neuro
 
 #limitation(title: [Motivated Reasoning Caveat: Treatment Hypotheses])[
 The multi-target combination framework discussed below was constructed partly to explore whether polypharmacy might succeed where monotherapy has failed. Readers should weigh this context when evaluating the specificity of the proposed protocol. The biological reasoning may be sound while the direction of inference—from desired treatment to supporting model—represents motivated reasoning rather than dispassionate hypothesis generation.
+
+*Consequence:* the protocol was built partly to see whether polypharmacy could succeed, so its biological detail should not be read as independent support for the strategy.
 ]
 
 #speculation(title: [Multi-Target Neuroplasticity Research Direction])[
@@ -646,6 +728,8 @@ The multi-target combination framework discussed below was constructed partly to
 Specific dosages, timing, and monitoring requirements would need to be determined through formal clinical trial design---not speculated from first principles. The research question is whether the multi-loop targeting principle produces non-additive benefits, not whether any specific dosing protocol is optimal.
 
 *Key uncertainty:* The "combination cliff" prediction from the attractor model (Section @sec:combination-cliff) would predict nonlinear improvement when enough loops are addressed simultaneously. However, this prediction derives entirely from the model's mathematical structure and has no empirical support. If a factorial trial shows purely additive effects, the attractor framework is falsified.
+
+*Consequence:* the staged protocol is a research framework, and the order of the layers is a hypothesis about mechanism that a trial would have to vary rather than assume.
 ] <spec:layer-cake-protocol>
 
 === Autonomic + Neuroplasticity Synergy: The Triple-Target Hypothesis
@@ -662,6 +746,8 @@ Specific dosages, timing, and monitoring requirements would need to be determine
 *Testable prediction:* The triple combination should produce greater improvement in orthostatic tolerance (standing time, HR response) and HRV metrics than pyridostigmine alone over 12 weeks. The direction of effect (combination > monotherapy) is the testable prediction; specific response rates cannot be estimated without prior data.
 
 *Limitations:* This specific three-agent combination has never been tested in any condition. The "three anatomical levels" framing is conceptually appealing but oversimplified---autonomic dysfunction in ME/CFS likely involves additional mechanisms (autoantibodies against adrenergic receptors, hypovolemia, endothelial dysfunction) that these agents do not address. The hypothesis applies specifically to the autonomic-primary subtype; patients with predominantly immune or metabolic drivers may not benefit.
+
+*Consequence:* pyridostigmine can worsen bradycardia and cholinergic symptoms, so the combination needs cardiac monitoring and should not be assembled from three separate prescriptions.
 ] <spec:triple-autonomic>
 
 #key-point(title: [Novel Agent Integration Summary])[
@@ -676,5 +762,7 @@ The neuroplasticity-focused agents represent a class of interventions whose mech
     - *Phenotype matching* remains essential---the autonomic-primary, cognitive-predominant, and progressive-kindling phenotypes predict different optimal agent selections
 
 These hypotheses are presented for research prioritization, not as validated treatment recommendations. All require safety monitoring and ideally formal clinical evaluation.
+
+*Consequence:* the convergence is a rationale for trials, not a treatment plan, and phenotype matching is the part that decides whether a given patient belongs to the group the rationale describes.
 ]
 
