@@ -56,6 +56,8 @@ Even setting the null result aside, these are not benign drugs, and neither has 
 
 *No treatment recommendation:* patients should not take colchicine or famotidine plus loratadine for ME/CFS fatigue on the basis of this trial. The trial's own anti-inflammatory and antihistamine arms failed to show a durable or clinically meaningful effect, and both drugs carry real interaction and toxicity liabilities that a null result does nothing to justify.
 
+*Already prescribed an anticoagulant:* nothing here applies to an anticoagulant taken for another indication, such as atrial fibrillation, a mechanical heart valve, or a previous venous thromboembolism. This trial tested starting rivaroxaban to treat fatigue; it did not test stopping anticoagulation that a prescriber started for a separate reason. No patient should stop or change such a prescription on the basis of this trial, because stopping without advice carries its own thrombotic risk.
+
 ==== A Falsifiable Discriminating Test
 
 The present reading --- that the two nominally significant arms are expectancy or non-specific effects, and that the rivaroxaban arm is a genuine null --- is falsifiable. The discriminating experiment is a blinded, placebo-controlled ME/CFS trial that pre-specifies a FAS difference of 4~points or more, sustained at 24~weeks. If a colchicine or famotidine-loratadine effect survives blinding and reaches 4~points at 24~weeks, the current reading is wrong and a real mechanism is operating. If the effect disappears under blinding, or fails to reach 4~points, the current reading stands and the small open-label signal is confirmed as artefact.
