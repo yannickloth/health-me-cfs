@@ -1,0 +1,93 @@
+date: 2026-10-26
+
+sleep:
+  previous_night:
+    date: 2026-10-25
+    quality: ~
+    notes: "Not reported."
+    bedtime: ~
+    wake_time: ~
+    duration_hours: ~
+    woke_naturally: ~
+    feeling_on_wake: ~
+    source: patient_report
+    disruption_cause: ~
+
+medications_supplements:
+  prescribed_medications:
+    - "Aripiprazole (LDA) 1mg/day active"
+    - "LDN 4mg/day active"
+    - "Rupatadine 20-30mg/day (3 pills) active"
+    - "Famotidine 20mg/day active"
+    - "Montelukast 10mg/day active"
+    - "Mestinon 1 pill/day active (time-boxed low-dose retrial since 2026-08-19)"
+    - "Ritalin MR 10mg intermittent (every few days)"
+  supplements: ~
+  notes: "Adherence on 2026-10-26 not confirmed (~). Regimen per current-regimen.yaml (last updated 2026-09-19)."
+
+symptoms:
+  overall:
+    severity: ~
+    notes: >
+      PEM still present (patient-reported, second consecutive day). Tired, in
+      the patient's words the same as 2026-10-25, and at the brink of a
+      headache or migraine. No established headache. Severity was not rated.
+  fatigue:
+    severity: ~
+    notes: "Tired, described as the same as 2026-10-25 ('like yesterday'). Not graded."
+  muscle_pain: ~
+  headache:
+    severity: ~
+    notes: >
+      At the brink of headache or migraine (prodromal). No established
+      headache or migraine reported. Recorded as a threshold state, not as a
+      headache.
+
+overall_wellbeing: ~
+
+activity:
+  activity_level:
+    - description: "Not reported."
+      exertion_level: ~
+      notes: "Activity on this day was not reported. Rest is likely but is not asserted here."
+  unable_to_rest: ~
+  notes: "Second PEM day. No exertion reported."
+
+pem_tracking:
+  trigger_event: "2026-10-24 drive to IKEA, then 2 x 1.5 h drive to visit family (3 h driving total); 2026-10-25 home cleaning."
+  pem_day: 2
+  status: >
+    PEM continues on the second consecutive day (patient-reported). Not
+    clinician-assessed. Recovery length is not yet known.
+  notes: "Track the date of return to baseline and any symptom change."
+
+pem_risk:
+  level: ~
+  rationale: "PEM already present; a prospective risk rating does not apply to this day."
+  expected_onset: ~
+  monitoring: "Track severity and recovery daily until baseline returns."
+
+hypotheses:
+  - id: driving_plus_cleaning_cumulative_load
+    text: >
+      See 2026-10-25. The episode follows a two-day load (Saturday travel and
+      shopping, Sunday cleaning) at LDA 1 mg and continues into a second day.
+      The components are confounded and the record does not establish a
+      cumulative threshold.
+    status: observation
+    falsifiable: true
+    test: >
+      Log future episodes by component and by LDA dose; a driving-only episode
+      at 1 mg would separate the components.
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 8.3
+  temperature_max_c: 10.9
+  temperature_min_c: 5.9
+  humidity_pct: 90
+  pressure_msl_hpa: ~
+  precipitation_mm: 0.5
+  wind_max_kmh: 17.3
+  conditions: ~
+  source: "Open-Meteo forecast API, past_days window (retrieved 2026-10-26, lat 49.59/lon 5.82, elev 276m)"

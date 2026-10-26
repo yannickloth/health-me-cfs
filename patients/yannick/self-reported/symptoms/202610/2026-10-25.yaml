@@ -1,0 +1,100 @@
+date: 2026-10-25
+
+sleep:
+  previous_night:
+    date: 2026-10-24
+    quality: ~
+    notes: "Not reported."
+    bedtime: ~
+    wake_time: ~
+    duration_hours: ~
+    woke_naturally: ~
+    feeling_on_wake: ~
+    source: patient_report
+    disruption_cause: ~
+
+medications_supplements:
+  prescribed_medications:
+    - "Aripiprazole (LDA) 1mg/day active"
+    - "LDN 4mg/day active"
+    - "Rupatadine 20-30mg/day (3 pills) active"
+    - "Famotidine 20mg/day active"
+    - "Montelukast 10mg/day active"
+    - "Mestinon 1 pill/day active (time-boxed low-dose retrial since 2026-08-19)"
+    - "Ritalin MR 10mg intermittent (every few days)"
+  supplements: ~
+  notes: "Adherence on 2026-10-25 not confirmed (~). Regimen per current-regimen.yaml (last updated 2026-09-19)."
+
+symptoms:
+  overall:
+    severity: ~
+    notes: >
+      PEM present (patient-reported). Tired and at the brink of a headache or
+      migraine, per the patient's 2026-10-26 report that 2026-10-26 felt like
+      this day. No established headache. Severity was not rated.
+  fatigue:
+    severity: ~
+    notes: "Tired. Inferred from the patient's 2026-10-26 report that 2026-10-26 felt like this day. Not graded."
+  muscle_pain: ~
+  headache:
+    severity: ~
+    notes: >
+      At the brink of headache or migraine, per the 2026-10-26 comparison. No
+      established headache reported. Recorded as a threshold state, not as a
+      headache.
+
+overall_wellbeing: ~
+
+activity:
+  activity_level:
+    - description: "Home cleaning activities."
+      exertion_level: ~
+      notes: "Reported as an activity on this day; exertion level was not rated. Whether it was a trigger or activity taken during an episode already under way cannot be separated from the record."
+  unable_to_rest: ~
+  notes: "Home cleaning; PEM present the same day."
+
+pem_tracking:
+  trigger_event: "2026-10-24 drive to IKEA, then 2 x 1.5 h drive to visit family (3 h driving total); 2026-10-25 home cleaning."
+  pem_day: 1
+  status: >
+    PEM reported by the patient. Not clinician-assessed. Onset on the day after
+    the Saturday driving load, inside the patient's usual 24-72 h window. The
+    Sunday cleaning is a possible additional contributor and cannot be
+    separated from the driving in this record.
+  notes: "Second PEM day reported on 2026-10-26. Severity and symptom list not yet reported."
+
+pem_risk:
+  level: ~
+  rationale: "PEM already present; a prospective risk rating does not apply to this day."
+  expected_onset: ~
+  monitoring: "Track severity and recovery from 2026-10-26 onward; record the date of return to baseline."
+
+hypotheses:
+  - id: driving_plus_cleaning_cumulative_load
+    text: >
+      At LDA 1 mg, a Saturday load of IKEA shopping plus 3 h driving in two
+      1.5 h blocks, followed by home cleaning on Sunday, was followed by PEM.
+      On 2026-09-12, 3 h of driving at LDA 0.75 mg produced PEM with severe
+      migraine; at 1 mg, ~5 h of chainsaw work produced none (2026-07-17).
+      This episode is consistent with a cumulative multi-day load threshold
+      rather than a single-activity threshold, but the components are
+      confounded and the record does not establish it.
+    status: observation
+    falsifiable: true
+    test: >
+      Log future episodes by component (driving hours, store visit, household
+      work) and by LDA dose. If PEM follows 3 h of driving alone at 1 mg, the
+      driving component is sufficient. If it requires an added activity day,
+      the threshold is cumulative.
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 10.1
+  temperature_max_c: 13.4
+  temperature_min_c: 7.5
+  humidity_pct: 88
+  pressure_msl_hpa: ~
+  precipitation_mm: 44.0
+  wind_max_kmh: 36.7
+  conditions: ~
+  source: "Open-Meteo forecast API, past_days window (retrieved 2026-10-26, lat 49.59/lon 5.82, elev 276m)"

@@ -13,6 +13,27 @@ pem_episodes:
     baseline_return_expected: 2026-05-27 to 2026-05-29
     notes: classic severe PEM pattern from overexertion beyond energy envelope
 
+  - episode_date: 2026-10-25
+    trigger: >
+      Saturday 2026-10-24 drive to IKEA, then 2 x 1.5 h drive to visit family
+      (3 h driving total); Sunday 2026-10-25 home cleaning activities
+    severity: not rated
+    trigger_activity_duration: two-day load (Saturday travel + Sunday cleaning)
+    trigger_exertion_level: unknown
+    symptoms:
+      - not itemised in the patient report
+    pem_days: [2026-10-25, 2026-10-26]
+    duration_days_so_far: 2
+    ongoing: true
+    baseline_return_expected: unknown
+    lda_dose: 1mg
+    notes: >
+      Patient-reported PEM, not clinician-assessed. Onset on the day after the
+      driving load, inside the usual 24-72 h window. The Sunday cleaning and
+      the Saturday driving are confounded and cannot be separated in this
+      record. Severity and symptom list were not reported. See
+      self-reported/events/2026-10-24_ikea-family-visit-home-cleaning-pem.md.
+
 recovery_patterns_observed:
   - pattern: high_exertion_triggers_severe_pem
     observed_dates: [2026-05-22]
