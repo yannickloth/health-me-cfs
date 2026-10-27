@@ -13228,5 +13228,14 @@
   "category": "receptor",
   "definition": "A melatonin receptor (also called MTNR1B) involved in phase-shifting the circadian clock. Together with MT1 it mediates many of melatonin's chronobiotic effects.",
   "also": "MT1 receptor"
+ },
+ "feedback-related negativity": {
+  "label": "negatividad relacionada con la retroalimentación",
+  "category": "concept",
+  "definition": "Un componente frontocentral del potencial relacionado con eventos (PRE) que alcanza su pico entre 200 y 300 ms después de una retroalimentación que indica si una respuesta fue correcta o incorrecta. La FRN se origina en o cerca de la corteza cingulada anterior y refleja la evaluación neuronal de errores de predicción. Una FRN reducida en el autismo se ha interpretado como un seguimiento del feedback atenuado, compatible con una cuenta de triaje energético de los circuitos ACC/prefrontales.",
+  "also": "FRN"
+ },
+ "FRN": {
+  "alias": "feedback-related negativity"
  }
 }

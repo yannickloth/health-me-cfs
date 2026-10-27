@@ -200,6 +200,22 @@ This phenomenological difference maps onto different biology — metabolic exhau
 *Consequence:* If the orexin system is implicated, existing orexin receptor agonists (developed for narcolepsy) represent a mechanistically targeted therapeutic probe for the "wired-tired" ME/CFS phenotype, distinguishing it from NT2 even when symptoms overlap.
 ]
 
+== Autism and ADHD: Neurodevelopmental Energy-Reserve Conditions
+
+Autism spectrum disorder (ASD) and attention-deficit/hyperactivity disorder (ADHD) are not fatigue syndromes, but they are included in this comparative nosology because their biology intersects with the same brain-energy substrate that ME/CFS derails. Both conditions show evidence of prefrontal and anterior cingulate hypometabolism, mitochondrial dysfunction, and altered catecholamine signalling — a lower baseline energy reserve that may lower the threshold for post-infectious ME/CFS expression. The causal direction is developmental and static in ASD/ADHD, acquired and dynamic in ME/CFS, so the comparison is a mechanistic bridge, not a disease identity.
+
+#speculation(title: [Autism Feedback-Processing Deficit as Cross-Condition Energy-Triage Phenotype])[
+*(Certainty: 0.35.)* Zuk et al. (2026) reported that autistic adults show reduced feedback-related negativity (FRN), weaker modulation of feedback-evoked EEG by perceptual difficulty, and reduced trial-by-trial behavioural updating after easy/correct trials, despite preserved task accuracy @Zuk2026AutismFeedbackProcessing. The FRN is generated in or near the anterior cingulate cortex (ACC), a metabolically expensive performance-monitoring region. This pattern is compatible with the energy-triage framework developed for ME/CFS: when ACC/prefrontal ATP availability is constrained, high-cost feedback-monitoring circuits are down-regulated before basic sensory-motor functions. The detailed cross-disease argument, including falsifiable predictions, is in Chapter @ch:energy-metabolism at @spec:zuk-autism-feedback-energy-triage.
+
+*Boundary caution.* ASD is typically neurodevelopmental, whereas ME/CFS is usually post-infectious and acquired. Shared phenotypes — cognitive rigidity, reduced error-driven updating, sensory overload — do not prove shared aetiology. The energy-triage interpretation is an inference, not a mechanism demonstrated in either condition by direct metabolic measurement.
+
+*Clinical implication.* Clinicians should be cautious not to attribute ME/CFS symptoms in autistic patients to "just autism" and not to interpret autistic feedback-learning differences as evidence of ME/CFS. The two conditions may co-occur and may share ACC/prefrontal vulnerability, but each requires its own assessment and management.
+] <spec:ch16-autism-feedback-energy-triage>
+
+=== ADHD as a Lower Prefrontal Reserve State
+
+ADHD is discussed in detail in Chapter @ch:energy-metabolism (@sec:prefrontal-executive-adhd). The core comparator point is simple: the prefrontal cortex is the brain's most energy-expensive region, and ADHD is associated with prefrontal hypometabolism and dopaminergic/noradrenergic inefficiency. A brain that starts with lower prefrontal metabolic reserve has less buffer against the additional energy hit of infection, inflammation, or autonomic dysfunction — which is consistent with the prospective finding that childhood ADHD and autism traits predict adolescent chronic disabling fatigue, partly mediated by IL-6 @Quadt2024neurodivergentfatigue. ADHD is therefore better understood as a predisposing energy-reserve condition than as a psychosocial comorbidity of ME/CFS.
+
 == Fatigue as a Shared Neuroimmune Programme
 
 The conditions in this chapter are not the only ones that produce disabling fatigue: the same symptom appears in rheumatoid arthritis, systemic lupus erythematosus, Sjögren's syndrome, psoriatic arthritis, axial spondyloarthritis, systemic sclerosis, ANCA-associated vasculitis, sarcoidosis, the idiopathic inflammatory myopathies, myasthenia gravis, multiple sclerosis, inflammatory bowel disease, coeliac disease, primary biliary cholangitis, and cancer.

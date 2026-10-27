@@ -13195,5 +13195,14 @@
   "label": "SMAD",
   "category": "protein",
   "definition": "A family of proteins that transmit signals from TGF-β receptors to the nucleus, regulating gene transcription. SMAD signaling links cytokine signaling to circadian clock gene expression and fibrotic responses."
+ },
+ "feedback-related negativity": {
+  "label": "feedback-related negativity",
+  "category": "concept",
+  "definition": "A frontocentral event-related potential (ERP) component that peaks 200–300 ms after feedback indicating whether a response was correct or incorrect. The FRN is thought to originate in or near the anterior cingulate cortex and reflects a neural evaluation of outcome prediction errors. Reduced FRN in autism has been interpreted as dampened feedback monitoring, consistent with an energy-triage account of ACC/prefrontal circuit function.",
+  "also": "FRN"
+ },
+ "FRN": {
+  "alias": "feedback-related negativity"
  }
 }
