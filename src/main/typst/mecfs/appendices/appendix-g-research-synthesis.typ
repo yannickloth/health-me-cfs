@@ -49,7 +49,7 @@ This section synthesizes key research findings integrated from literature review
   
   [Chia 2005 @Chia2005], [Observational; stomach biopsy], [n=165 ME/CFS patients], [Enterovirus detected in 82% of ME/CFS patients via stomach biopsy immunostaining; correlation with symptom severity], [MODERATE (specialized technique; replication needed)],
   
-  [Gottschalk 2023 @Gottschalk2023], [Case series; observational], [n=42 Long COVID patients], [LDN (4.5mg) improved fatigue, brain fog, PEM in 78% of Long COVID patients within 2 months], [LOW-MODERATE (observational; no control group)],
+  [Tamariz 2024 @Tamariz2024LDNpostcovid], [Retrospective cohort; observational], [n=108 post-COVID clinic patients], [LDN associated with higher hazard of improvement (HR 5.04, 95% CI 1.22–20.77) versus physical therapy alone; fatigue and pain improved], [LOW (retrospective, single clinic, no randomization, wide CI)],
   
   ),
   kind: table, supplement: [Table], caption: [Viral Association Studies],
@@ -118,7 +118,7 @@ This section synthesizes key research findings integrated from literature review
   
   [*Intervention*], [*Study Type*], [*Sample*], [*Findings*], [*Recommendation*], [*Evidence*],
   
-  [*Low-Dose Naltrexone (LDN)*], [Observational], [n=218 @Polo2019; n=42 Long COVID @Gottschalk2023], [73.9% positive response (ME/CFS); 78% improved (Long COVID); improved vigilance, alertness, physical/cognitive performance], [Consider trial; 3.0–4.5mg/day], [MODERATE (large observational; no RCT)],
+  [*Low-Dose Naltrexone (LDN)*], [Observational + 1 RCT (post-COVID fatigue)], [n=218 @Polo2019; n=42 Long COVID @Gottschalk2023; n=160 post-COVID fatigue @Naik2026LDNPostCOVIDRCT], [73.9% positive response (ME/CFS); 78% improved (Long COVID); first placebo-controlled RCT in post-COVID fatigue was null], [Consider trial only with careful informed consent; 3.0–4.5mg/day], [LOW–MODERATE (observational signal; first RCT null in post-COVID fatigue @Naik2026LDNPostCOVIDRCT)],
   
   [*Rituximab (B-cell depletion)*], [Phase III RCT], [n=152 @Fluge2019; 6-year follow-up @Rekeland2024], [NO BENEFIT; placebo 35% response \> rituximab 26%; no long-term benefit], [DO NOT USE], [HIGH (definitive negative)],
   
@@ -271,7 +271,7 @@ Community-reported patterns from online forums, patient advocacy groups, and Hac
   
   [*Heterogeneity and subtypes*], [Clinical presentation varies; treatment responses differ], [Cluster analysis; biomarker-based stratification; metabolomics subtyping],
   
-  [*Why B-cell depletion failed but LDN helps*], [Rituximab negative @Fluge2019; LDN observational positive @Polo2019], [T-cell vs B-cell role; LDN mechanism (opioid vs immune); RCT of LDN],
+  [*Why B-cell depletion and LDN both failed placebo-controlled trials*], [Rituximab negative @Fluge2019; LDN null in fibromyalgia @DueBruun2024LDNFibromyalgia @RodriguezFreire2026LDNFMINNOVA and post-COVID fatigue @Naik2026LDNPostCOVIDRCT; prior positive evidence was observational only], [T-cell vs B-cell role; whether LDN mechanism (opioid/immune/TRPM3) is ever engaged at clinical dose; within-range dose-response trial; responder-subtype enrichment],
   
   [*Connection between mitochondria and immune dysfunction*], [Both systems affected; unclear if linked or parallel], [Mast cell-mitochondrial crosstalk; cytokine effects on oxidative phosphorylation],
   
@@ -353,7 +353,7 @@ Table @tab:treatment-quick-reference provides a rapid-access summary for clinic
   
   [Zinc + selenium], [15–30mg Zn; 200$mu$g Se], [MODERATE (ICU)], [Immune function, antioxidant], [\$10], [2],
   
-  [LDN], [3.0–4.5mg/day], [MODERATE (n=218 observational)], [Fatigue, brain fog, PEM], [\$20–40], [2],
+  [LDN], [3.0–4.5mg/day], [LOW–MODERATE (observational + first RCT null in post-COVID fatigue @Naik2026LDNPostCOVIDRCT)], [Fatigue, brain fog, PEM], [\$20–40], [2],
   
   table.cell(colspan: 6)[*TIER 3: Emerging/Speculative, Needs Validation*],
   

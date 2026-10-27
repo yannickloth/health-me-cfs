@@ -2978,6 +2978,16 @@
   "definition": "EuroQol 5-Dimension — a standardized health-related quality of life questionnaire used in health economics to calculate quality-adjusted life years (QALYs); measures mobility, self-care, usual activities, pain/discomfort, and anxiety/depression.",
   "category": "method"
  },
+ "EQ-5D-5L": {
+  "label": "EQ-5D-5L",
+  "category": "method",
+  "definition": "EuroQol 5-Dimension 5-Level — a version of the EQ-5D quality-of-life questionnaire with five severity levels per domain, producing a finer-grained utility score used in health-economic analyses."
+ },
+ "PQSymp-12": {
+  "label": "PQSymp-12",
+  "category": "method",
+  "definition": "Post-COVID Symptoms 12-item questionnaire: a patient-reported outcome measure of the twelve most common persistent symptoms after COVID-19, including fatigue, breathlessness, and cognitive problems."
+ },
  "ER stress": {
   "label": "ER stress",
   "category": "mechanism",
@@ -6916,6 +6926,16 @@
   "label": "PCA",
   "category": "method",
   "definition": "Principal Component Analysis: a dimensionality reduction technique identifying orthogonal components explaining maximal variance in multivariate data. Used in ME/CFS metabolomics and cytokine studies to identify latent biological dimensions."
+ },
+ "PCFS": {
+  "label": "PCFS",
+  "category": "condition",
+  "definition": "Post-COVID fatigue syndrome: persistent fatigue and ME/CFS-like symptoms lasting at least 3 months after SARS-CoV-2 infection, without requiring a formal ME/CFS case definition. Used as a broader research category that overlaps with, but is not identical to, classic ME/CFS."
+ },
+ "post-COVID fatigue syndrome": {
+  "label": "Post-COVID fatigue syndrome",
+  "category": "condition",
+  "definition": "Persistent fatigue and ME/CFS-like symptoms lasting at least 3 months after SARS-CoV-2 infection, without requiring a formal ME/CFS case definition. Used as a broader research category that overlaps with, but is not identical to, classic ME/CFS."
  },
  "PCOS": {
   "label": "PCOS",

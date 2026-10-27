@@ -1,0 +1,1871 @@
+
+
+ pmc BMJ Open BMJ Open 1609 bmjo 101552874 bmjopen BMJ Open 2044-6055 BMJ Publishing Group PMC11097836 PMC11097836.1 11097836 11097836 38740499 10.1136/bmjopen-2024-085272 bmjopen-2024-085272 1 Pharmacology and Therapeutics 1506 2474 1723 Protocol Low-dose naltrexone for post-COVID fatigue syndrome: a study protocol for a double-blind, randomised trial in British Columbia http://orcid.org/0000-0002-5193-4618 Naik Hiten 1 2 http://orcid.org/0000-0003-2921-1701 Cooke Erin 3 Boulter Travis 4 5 Dyer Roger 3 http://orcid.org/0000-0001-7704-1677 Bone Jeffrey N 3 Tsai Melody 4 5 Cristobal Jaymie 4 5 McKay R Jane 1 Song Xiaowei 6 7 Nacul Luis 4 5 8 9 
+ 1 
+ Department of Medicine , The University of British Columbia , Vancouver , British Columbia , Canada 
+
+ 2 
+ Post-COVID-19 Interdisciplinary Clinical Care Network , Vancouver , British Columbia , Canada 
+
+ 3 
+ BC Children’s Hospital Research Institute , Vancouver , British Columbia , Canada 
+
+ 4 
+ Women's Health Research Institute , Vancouver , British Columbia , Canada 
+
+ 5 
+ Complex Chronic Diseases Program , BC Women's Hospital and Health Centre , Vancouver , British Columbia , Canada 
+
+ 6 
+ Fraser Health Authority , Surrey , British Columbia , Canada 
+
+ 7 
+ Department of Biomedical Physiology and Kinesiology , Simon Fraser University , Burnaby , British Columbia , Canada 
+
+ 8 
+ Department of Family Practice , The University of British Columbia , Vancouver , British Columbia , Canada 
+
+ 9 
+ London School of Hygiene and Tropical Medicine , London , UK 
+
+ Correspondence to Dr Hiten Naik; hiten.naik@ubc.ca 
+ 2024 13 5 2024 14 5 462180 e085272 10 2 2024 18 4 2024 13 05 2024 16 05 2024 21 09 2026 © Author(s) (or their employer(s)) 2024. Re-use permitted under CC BY-NC. No commercial re-use. See rights and permissions. Published by BMJ. 2024 https://creativecommons.org/licenses/by-nc/4.0/ This is an open access article distributed in accordance with the Creative Commons Attribution Non Commercial (CC BY-NC 4.0) license, which permits others to distribute, remix, adapt, build upon this work non-commercially, and license their derivative works on different terms, provided the original work is properly cited, appropriate credit is given, any changes made indicated, and the use is non-commercial. See:  http://creativecommons.org/licenses/by-nc/4.0/ . Introduction
+
+ A significant proportion of individuals suffering from post COVID-19 condition (PCC, also known as long COVID) can present with persistent, disabling fatigue similar to myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) and post-viral fatigue syndromes. There remains no clear pharmacological therapy for patients with this subtype of PCC, which can be referred to as post-COVID fatigue syndrome (PCFS). A low dose of the opioid antagonist naltrexone (ie, low-dose naltrexone (LDN)) has emerged as an off-label treatment for treating fatigue and other symptoms in PCC. However, only small, non-controlled studies have assessed LDN in PCC, so randomised trials are urgently required.
+
+ Methods and analysis
+
+ A prospective, randomised, double-blind, parallel arm, placebo-controlled phase II trial will be performed to assess the efficacy of LDN for improving fatigue in PCFS. The trial will be decentralised and open to eligible individuals throughout the Canadian province of British Columbia (BC). Participants will be recruited through the province-wide Post-COVID-19 Interdisciplinary Clinical Care Network (PC-ICCN) and research volunteer platform (REACH BC). Eligible participants will be 19–69 years old, have had a confirmed or physician-suspected SARS-CoV-2 infection at least 3 months prior and meet clinical criteria for PCFS adapted from the Institute of Medicine ME/CFS criteria. Individuals who are taking opioid medications, have a history of ME/CFS prior to COVID-19 or history of significant liver disease will be excluded. Participants will be randomised to an LDN intervention arm (n=80) or placebo arm (n=80). Participants in each arm will be prescribed identical capsules starting at 1 mg daily and follow a prespecified schedule for up-titration to 4.5 mg daily or the maximum tolerated dose. The trial will be conducted over 16 weeks, with assessments at baseline, 6, 12 and 16 weeks. The primary outcome will be fatigue severity at 16 weeks evaluated by the Fatigue Severity Scale. Secondary outcomes will include pain Visual Analogue Scale score, overall symptom severity as measured by the Patient Phenotyping Questionnaire Short Form, 7-day step count and health-related quality of life measured by the EuroQol 5-Dimension questionnaire.
+
+ Ethics and dissemination
+
+ The trial has been authorised by Health Canada and approved by The University of British Columbia/Children’s and Women’s Health Centre of British Columbia Research Ethics Board. On completion, findings will be disseminated to patients, caregivers and clinicians through engagement activities within existing PCC and ME/CFS networks. Results will be published in academic journals and presented at conferences.
+
+ Trial registration number
+
+ NCT05430152 .
+
+ Post-Acute COVID-19 Syndrome Fatigue Clinical trials COVID-19 Chronic Disease PAIN MANAGEMENT 
+ BC Women’s Health Foundation 
+ N/A 
+ http://dx.doi.org/10.13039/501100000024 Canadian Institutes of Health Research 
+ 177749 
+ British Columbia Ministry of Health 
+ N/A 
+ http://dx.doi.org/10.13039/100011227 BCCDC Foundation for Public Health 
+ N/A 
+ CAN-TAP-TALENT & Michael Smith Health Research BC 
+ N/A 
+ The University of British Columbia Clinician Investigator Program 
+ N/A 
+ http://dx.doi.org/10.13039/100010658 St. Paul's Foundation 
+ 1866667 pmc-status-qastatus 0 pmc-status-live yes pmc-status-embargo no pmc-status-released yes pmc-prop-open-access yes pmc-prop-olf no pmc-prop-manuscript no pmc-prop-legally-suppressed no pmc-prop-has-pdf yes pmc-prop-has-supplement yes pmc-prop-pdf-only no pmc-prop-suppress-copyright no pmc-prop-is-real-version no pmc-prop-is-scanned-article no pmc-prop-preprint no pmc-prop-in-epmc yes pmc-license-ref CC BY-NC special-feature unlocked STRENGTHS AND LIMITATIONS OF THIS STUDY
+
+ The trial will be decentralised and will recruit participants from throughout the geographically large and ethnically diverse Canadian province of British Columbia (BC); this will permit the inclusion of patients from communities that do not typically have access to investigational treatments and patients who may be too symptomatic to attend in-person assessments.
+
+ In addition to evaluating fatigue severity as the primary outcome, the study will capture several secondary outcome measures known to be important to post COVID-19 condition patients, including pain, overall symptom burden, health-related quality of life and activity levels (as measured by step count).
+
+ The study does not have a restriction on how long a participant may have had their symptoms since COVID-19; this may limit the treatment effect if low-dose naltrexone efficacy is greater earlier in the disease course.
+
+ As in-person evaluation is optional, this limits the ability to assess potentially important objective outcomes in some participants.
+
+ Introduction
+
+ Background and rationale
+
+ Approximately 15–20% of adults with a confirmed or suspected SARS-CoV-2 infection experience long-term symptoms lasting over 3 months. 1–4 The presence of new or persistent symptoms following acute COVID-19 disease is now referred to as post COVID-19 condition (PCC) or ‘long COVID’. 5–11 Among the hundreds of symptoms reported by people with PCC, fatigue is one of the most common and may have the greatest impact on functioning. 5 12–20 Given that millions of individuals may be currently affected by PCC worldwide, it has become a priority to investigate the potential treatments in randomised controlled trials (RCTs). 5 21 22 
+
+ However, it has been challenging to identify candidate treatments for PCC as it is a heterogeneous illness, and the underlying pathobiology is poorly understood. It is suspected that different groups of people with PCC may have distinct underlying disease processes, such that the ideal pharmacological therapy may not be the same for all. 5 21 Increasingly, studies have suggested that PCC may not represent a single disease but rather a collection of different conditions or subtypes. 15 23 24 
+
+ For example, clinical experience and patient-centred studies have indicated that a proportion of people with PCC present with a symptom profile indistinguishable from myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS). 25–30 ME/CFS is characterised by persistent disabling fatigue accompanied by other symptoms including non-restorative sleep and post-exertional malaise. 31–33 While the precise pathogenesis of ME/CFS also remains unresolved, it usually follows acute infections. 34 When provoked by a viral infection, ME/CFS is often referred to as a post-viral fatigue syndrome (PVFS). 34–37 It is believed that some PCC patients have developed a PVFS from SARS-CoV-2, and we will refer to this subset of PCC patients as having ‘post-COVID fatigue syndrome’ (PCFS). 35–38 
+
+ A low dose of the medication naltrexone is a potential treatment for PCFS. 39 40 Naltrexone is an opiate antagonist that is approved for treatment for alcohol and opiate use disorders. 41 For these indications, it is typically prescribed at 25–50 mg. 42 At lower doses (≤5 mg), it has been used off-label for chronic pain, multiple sclerosis, Crohn’s disease, recurrent depression, fibromyalgia (FM) and ME/CFS. 43–57 Although evidence supporting the use of low-dose naltrexone (LDN) in ME/CFS has been limited to case series and chart reviews, 46 54 it has been investigated in clinical trials for related conditions such as FM. 50 51 54 57 In these and other studies, LDN has been shown to be safe with a limited side-effect profile. 49 51–53 57 
+
+ Based on its hypothesised mechanism of action, it is plausible that LDN could be efficacious for ME/CFS and PCFS. LDN increases circulation of the endogenously produced opiate-like molecule beta-endorphin, which is reduced in ME/CFS. 58 59 Furthermore, LDN has been found to antagonise toll-like receptors on neuroglia and peripheral blood mononuclear cells, resulting in reduced production of inflammatory cytokines such as interleukin-6 (IL-6) and tumour necrosis factor (TNF). 60–63 Increased IL-6 and TNF signalling have been implicated in PCC, 64 and studies have implicated increased neuroinflammation in ME/CFS and PCC pathogenesis. 5 65–68 
+
+ There is ongoing public interest in investigating LDN for PCC. Media outlets including Rolling Stone, National Geographic , Reuters and The New York Times Magazine have all touted LDN as a potential PCC treatment, citing the anecdotal experiences of people with PCC and physicians. 69–76 However, published evidence for LDN in the post-COVID-19 context remains limited. In a single-centre study, 52 patients treated with LDN had, on average, overall improvement in activities of daily living, energy levels, pain, concentration and sleep disturbance. 40 In a retrospective study, 37 of 59 (62.7%) patients treated with LDN reported improvement in at least one symptom. 77 
+
+ RCTs are required to determine whether LDN is an effective treatment for post-COVID-19 symptoms. Since there is no widely accepted pharmacological treatment for PCFS, the ideal comparator group is a placebo. Accordingly, we have designed a double-blinded placebo-controlled trial of daily LDN versus placebo for the treatment of fatigue severity in PCFS.
+
+ Objectives
+
+ Study objectives are outlined in table 1 . The primary objective is to determine whether LDN can reduce fatigue severity associated with PCFS, as measured by the Fatigue Severity Scale (FSS). The secondary objectives are to determine whether it can reduce pain, reduce symptom severity, improve health-related quality of life (HRQOL) and increase activity levels. We have developed additional exploratory objectives that examine other patient-reported outcome measures (PROMs), laboratory outcomes and physical measurements.
+
+ Table 1 Summary of study objectives and associated outcomes
+
+ Primary objective Primary outcome To determine if LDN, administered at 1–4.5 mg/day to individuals with PCFS, reduces fatigue severity. FSS score at 16 weeks. Secondary objectives Secondary outcomes To determine if LDN, administered at 1–4.5 mg/day to individuals with PCFS: Reduces pain. Pain VAS score at 16 weeks. Improves severity of symptoms associated with PCFS. PQSymp-12 score at 16 weeks. Increases activity levels. Average number of steps over 7 days at 16 weeks. Improves self-reported quality of life. EQ-5D-5L health utility score at 16 weeks. Exploratory objectives Exploratory outcomes To determine if LDN, administered at 1–4.5 mg/day to individuals with PCFS: Reduces inflammatory marker values in peripheral blood. IL-6, IFNγ and CRP values at 16 weeks. Cytokine profile values using Human Cytokine Proinflammatory Focused 15-plex Discovery Assay Array at 16 weeks. Improves disease severity associated with PCFS. 124 
+ CK level at 16 weeks. Improves rT3 as an indirect marker of disease severity. 125 
+ rT3 in conjunction with TSH, free T3 and free T4 at 16 weeks. Improves AM blood cortisol and improves ACTH. AM blood cortisol level at 16 weeks. ACTH level at 16 weeks. Reduces fatigue VAS score. Fatigue VAS score at 16 weeks. Improves sleep. SQ-2 at 16 weeks. Sleep VAS score at 16 weeks. Improves depression symptoms. PHQ-9 score at 16 weeks. Improves anxiety symptoms. GAD-7 score at 16 weeks. Improves self-reported health. Self-reported health VAS score at 16 weeks. Improves functional status. Post-COVID-19 Functional Status Scale at 16 weeks. Reduces prevalence markers of POTS or postural hypotension.* Prevalence of POTS or postural hypotension symptoms based on serial blood pressure and heart rate measurements at 16 weeks. Improves clinical endurance/strength parameters in subjects with PCFS.* Hand grip strength at 16 weeks. 126 
+ Sit and stand test results at 16 weeks. *Optional in-person visits.
+
+ ACTH, adrenocorticotropic hormone; CK, creatine kinase; CRP, C reactive protein; EQ-5D-5L, EuroQol 5 Dimension 5-level; FSS, Fatigue Severity Scale; GAD-7, General Anxiety Disorder-7; IFN, interferon; IL-6, interleukin-6; LDN, low-dose naltrexone; PCFS, post-COVID fatigue syndrome; PHQ-9, Patient Health Questionnaire-9; POTS, postural orthostatic tachycardia syndrome; PQSymp-12, Patient Phenotyping Questionnaire Short Form-12; rT3, reverse triiodothyronine; SQ-2, Sleep Questionnaire-2; T3, triiodothyronine; T4, thyroxine; TSH, thyroid stimulating hormone; VAS, Visual Analogue Scale.
+
+ Trial design
+
+ The development of this trial protocol followed the Standard Protocol Items: Recommendations for Interventional Trials (SPIRIT) guidelines. 78 This trial is designed as a randomised, controlled, double-blind prospective trial with two parallel groups and a primary end point of fatigue severity at 16 weeks. The intervention group will receive LDN capsules dosed at 1.0 mg to 4.5 mg daily and the control group will receive placebo capsules. Randomisation will be stratified by sex and performed as permuted block randomisation with a 1:1 allocation. The trial will be conducted in British Columbia (BC), Canada.
+
+ Methods and analysis
+
+ Study setting
+
+ The trial will involve a collaboration between BC’s Post-COVID-19 Interdisciplinary Clinical Care Network (PC-ICCN) and the Complex Chronic Diseases Program (CCDP) at BC Children’s and Women’s Hospital and Health Centre (C&W) located in Vancouver. The PC-ICCN was founded as a learning health system for post-COVID-19 care and research in BC. 79–82 The network previously comprised of five physical Post-COVID Recovery Clinics (PCRCs) but has now consolidated to a single virtual programme. Adults throughout BC may be referred to this programme by their primary care provider (PCP) if they have had COVID-19 and meet the criteria for PCC. The CCDP is an interdisciplinary programme that supports patients with ME/CFS and related conditions. 83 
+
+ Eligible participants will be recruited from throughout BC. Participants will have virtual or in-person study visits, may have their study product and pedometer delivered to them, complete questionnaires electronically and have blood tests done at their local laboratories. The collection of exploratory data during in-person visits will be optional.
+
+ Eligibility criteria
+
+ Inclusion and exclusion criteria are listed in table 2 . To be included, participants must be aged 19–69 years, have significant fatigue and related symptoms that started after a SARS-CoV-2 infection and meet the criteria we have developed for PCFS. These criteria are adapted from the Institute of Medicine (IOM) ME/CFS standard clinical criteria, 33 but with a duration of symptoms of 3 months rather than 6 months to be consistent with PCC definitions ( box 1 ). 11 Diagnosis for eligibility purposes will be determined from clinical assessment by a study physician and supported by laboratory data and responses to the screening and baseline questionnaires. If there is clinical uncertainty regarding the diagnosis, the case will be discussed with a second physician. Participants who do not have a documented positive PCR test will be eligible if they are determined by a physician through medical history to have had a positive rapid antigen test (RAT) or compatible symptoms. Individuals will be excluded if they have a history of ME/CFS prior to SARS-CoV-2 infection, have significant liver disease, have taken naltrexone within 30 days or have taken opioids within 15 days.
+
+ Table 2 Inclusion and exclusion criteria
+
+ Inclusion criteria Exclusion criteria 
+ Male and female patients aged 19 to less than 70 years.
+
+ Case of SARS-CoV-2 over 3 months previously, confirmed by a positive test result or clinical confirmation by a physician.
+
+ Meet the clinical diagnostic criteria for PCFS ( box 1 ).
+
+ Agree to maintain any other regular medications at current doses for the duration of the trial (except for essential need of new medication or dose change, as prescribed by a physician).
+
+ Agree to use effective contraception for the trial duration, as appropriate (if female).
+
+ The participant resides within the delivery area for the drug as determined by FedEx Clinical Trial Services.
+
+ Pregnant, planning to become pregnant or breast feeding.
+
+ Use of opioid medications within last 15 days, as reported by the patient or during the trial.
+
+ A positive urine test for opioids (only for the first 16 participants; see below).
+
+ History of alcohol, opioid or other substance misuse.
+
+ Participation in another interventional clinical trial in the last 30 days or planned during the trial period.
+
+ Confirmed ME/CFS or FM existing prior to SARS-CoV-2 infection.
+
+ Allergy to naltrexone or medication components.
+
+ Acute hepatitis, liver failure or severe kidney failure.
+
+ Current or recent use of naltrexone within 30 days.
+
+ FM, fibromyalgia; ME/CFS, myalgic encephalomyelitis/chronic fatigue syndrome; PCFS, post-COVID-19 fatigue syndrome.
+
+ Box 1 Study diagnostic criteria of post-COVID fatigue syndrome
+
+ Diagnosis requires that the patient have the following three symptoms after a SARS-CoV-2 infection:
+
+ A substantial reduction or impairment in the ability to engage in pre-illness levels of activity (occupational, educational, social or personal life) that:
+
+ lasts for more than 3 months.
+
+ is accompanied by fatigue that is:
+
+ often profound,
+
+ of new onset (not life-long),
+
+ not the result of ongoing or unusual excessive exertion,
+
+ not substantially alleviated by rest.
+
+ Post-exertional malaise.
+
+ Unrefreshing sleep.
+
+ At least one of the two manifestations must be present:
+
+ Cognitive impairment.
+
+ Orthostatic intolerance.
+
+ AND
+
+ Absence of other diseases or conditions that explain symptoms, based on differential diagnosis.
+
+ Table 3 Product supply timeline and titration schedule
+
+ Week(s) Supply Dose Capsules 1 First 1 mg/day 1 mg capsule 2 First 2 mg/day Two 1 mg capsule 3 First 3 mg/day Three 1 mg capsules 4–6 First 4.5 mg/day Three 1 mg capsules, plus one 1.5 mg capsule 7–16 Second 4.5 mg/day* One 4.5 mg capsule* There will be two dispensing time points when participants will be supplied with the study product. The first supply will be for weeks 1–6 and the second supply will be for weeks 7–16 of the study. For the first supply, participants will receive 1 mg and 1.5 mg capsules of the study product (low-dose naltrexone or placebo). They will be asked to up-titrate the dosage as tolerated and keep a diary of their dosage. In the second dispensing period, they will be supplied with capsules of their maximum tolerated dose.
+
+ *Or maximum tolerated dosage (ie, one 1 mg capsule, one 2 mg capsule or one 3 mg capsule).
+
+ Interventions
+
+ Eligible participants will be randomised at a ratio of 1:1 (n=80 each) into either an active treatment group with LDN or a placebo. The treatment duration is 16 weeks. The LDN and placebo will be compounded by Macdonald’s Prescriptions Labs (Vancouver, BC) and dispensed at the C&W Pharmacy where the blinding will occur.
+
+ Macdonald’s Prescriptions Labs will compound the required doses of LDN from Naltrexone Hydrochloride USP supplied by MEDISCA in empty gelatin CONI-SNAP capsules. 84 The compounded LDN capsules will be filled with CELLULOSE, NF/EP (Microcrystalline) (Flocel 101). 85 Placebo capsules will look identical to the compounded LDN capsules and filled with the same diluent and food colouring. We will complete batch testing of the LDN and placebo compounds ( online supplemental appendix 1 ).
+
+ 10.1136/bmjopen-2024-085272.supp1 Supplementary data 
+
+ The dose-titration schedule from 1 mg to 4.5 mg is outlined in table 3 . The drug will be dispensed to participants by certified courier, temperature-controlled shipping, in-person pick-up or delivered by staff. Participants will be able to adjust treatment doses by reverting to the previous well-tolerated dose if they experience persistent but minor side effects following any increase in dose. If a participant has reverted to a previous dose, that dosage will be maintained for the remainder of the study period. Changes in doses will be documented by the participant by completing a daily dosing diary, completed for the first 4 weeks and 7 days after any change in dose.
+
+ Figure 1 Flowchart of initial study procedures. This flowchart outlines the process for study recruitment, eligibility assessment and baseline assessments. A full study timeline is outlined in table 4 . BC, British Columbia; LDN, low-dose naltrexone; PCC, post-COVID-19 condition; PC-ICCN, Post-COVID-19 Interdisciplinary Clinical Care Network; SAQ, Short Answer Questionnaire.
+
+ Table 4 Participant timeline and schedule of study procedures
+
+ Timepoint Screening and baseline Week 1 Weeks 4–5 Week 6 Week 12  Week 16  ENROLMENT:  Eligibility screening by research staff and study physician X  Informed consent X  Allocation X INTERVENTIONS:  Study drug (LDN or placebo) X X X X X X  Study drug diary (daily for first 4 weeks and for 7 days after any change in dose) X X X VISITS:  Adverse effects check X X X* X* X  Monitor study drug use X X X* X * 
+ X ASSESSMENTS:  Questionnaires† X X X X  Laboratory investigations X X  Pedometer (number of steps per day) X X  Hand grip (muscle strength)‡ X X  Blood pressure and heart rate‡ X X  Sit and stand test‡ X X This table outlines the schedule of study procedures. See figure 1 for timeline of recruitment, eligibility screening and baseline assessments.
+
+ *Occurs as part of questionnaires if optional visit does not occur.
+
+ †Short answer questionnaire for demographic and clinical information is done at baseline only.
+
+ ‡Only for those agreeing to have in-person visits.
+
+ LDN, low dose naltrexone.
+
+ By allowing participants to reduce doses if experiencing any potential side effects, we expect low rates of medication use interruption. In addition to diaries, participants may also have visits or contact with the study team where adherence can be discussed. Furthermore, there are treatment compliance questions asked with each series of questionnaires. The participants will be asked to return the unused study drug, empty containers and study drug diary sheet(s).
+
+ Participants will be asked to maintain any other regular medications at their current doses for the duration of the trial unless there is an essential need for a new medication or dose change. Participants can withdraw from the study at any time without giving reasons. Withdrawal criteria are described in online supplemental box S1 .
+
+ Outcome measures
+
+ The primary outcome measure is fatigue severity, as measured by the FSS. The FSS is a 9-item PROM scored from 9 (least fatigue) to 63 (most fatigue). 86 A score of >36 is consistent with clinically significant fatigue. 87 88 The FSS has been validated in multiple diseases and has been used in randomised trials for ME/CFS. 87 89–91 The FSS received the highest level of recommendation of any subjective fatigue measure for ME/CFS by the National Institute of Neurological Disorders and Stroke Common Data Elements (NINDS CDE) Project and was a recommended measure by the Post-COVID-19 Core Outcome Set (PC-COS) initiative. 17 18 92–95 We have previously investigated the FSS in patients with PCC in BC and demonstrated that the instrument has strong acceptability, internal consistency and construct validity in this population. 17 
+
+ Secondary PROMs will include pain severity as measured by the pain Visual Analogue Scale (VAS); total symptom score on the Patient Phenotyping Questionnaire Short Form (PQSymp-12) and HRQOL captured by the EQ-5D-5L instrument. Pain is a common symptom in PCC, and studies have suggested that LDN may be an effective analgesic. 5 16 43 49 52 53 55 The pain VAS is a single-item tool that has been shown to have strong psychometric properties among patients with chronic pain. 96 The PQSymp-12 is a 12-item questionnaire that covers seven clusters of symptoms derived from the Canadian Consensus Criteria for ME/CFS; it has been recommended as a core assessment measure for ME/CFS by the European Network on ME/CFS (EUROMENE) 97 and is included in the UK ME/CFS biobank. 98 The EQ-5D-5L is a generic HRQOL instrument that was recommended by PC-COS. 95 By applying Canadian preference weights, responses to the EQ-5D will be used to derive a health utility (HU) score from 0 (dead) to 1 (perfect health). 99 
+
+ An additional secondary outcome is the average step count. We will ask participants to wear a pedometer and document daily step counts for 7 days prior to starting the study drug and again in week 16. All participants will use the same brand and type of pedometer (OZO Fitness CS1 Easy Walk Pedometer). Step counts have been used previously in randomised trials to measure a change in activity levels among patients with ME/CFS. 91 100–102 
+
+ There will be several exploratory outcomes ( online supplemental table S1 ), including PROMs (fatigue VAS, sleep, depression symptoms, anxiety symptoms, self-reported health and functional status), laboratory based (inflammatory markers, CK, thyroid profile, AM cortisol and ACTH level) and based on physical measurements (grip strength, sit and stand test, and orthostatic changes in vitals). Physical measurements will be limited to participants who choose to attend in-person visits.
+
+ MRI study
+
+ As a sub-study of the RCT, 25 participants of each study arm are planned to have brain MRI scans at baseline prior to the intervention/placebo and at 16 weeks. A multimodal functional and spectroscopy (fMRI/MRS) protocol piloted in an ME/CFS study (REB# H20-01804, unpublished) will be employed ( online supplemental figure S1 ). MRI findings will be linked to the primary and other outcome measures.
+
+ Participant timeline
+
+ The participant timeline is detailed in figure 1 and table 4 .
+
+ Sample size
+
+ The sample size was calculated based on the primary hypothesis of reduction in fatigue severity with treatment. To detect a 4.7-point difference (effect size (d)=0.5) in the Fatigue Severity Scale (FSS) (9–63) between arms, we estimate a sample size of 64 participants per arm assuming 80% power, 5% significance and a pooled SD of 9.4 (estimated from the CCDP Data Registry). 83 To account for possible loss to follow-up of 20%, we estimate a final sample size of 80 per arm, for a total target sample size of 160 participants. We chose this method for sample size estimation (as opposed to the use of a minimal clinically important difference (MCID)) because we believed this to be a realistic treatment effect and there were no published MCID values available for the FSS in ME/CFS or PCC. 103 104 In a sensitivity analysis, we calculated sample size using a published MCID for systemic lupus erythematosus and this yielded a similar estimate ( online supplemental appendix 2 ). 105 
+
+ Recruitment and screening
+
+ New PC-ICCN patients will be contacted regarding study participation, and the PC-ICCN directory will be used to identify other candidate PCC patients to contact. Additionally, the trial will be accessible to individuals through REACH BC, a provincial online platform that facilitates connections between research studies and participants. All potential participants will be asked to complete an online pre-screening questionnaire, and those potentially eligible will meet with research staff to provide consent. Consented participants will complete baseline questionnaires and be assessed by a physician to confirm eligibility. Baseline laboratory studies for all participants will be done prior to initiation of the study drug and abnormal results will be reviewed by a study physician.
+
+ Allocation
+
+ Participants will be randomised into either the LDN treatment group or the placebo at a ratio of 1:1 (n=80 each), as per a computer-generated randomisation schedule stratified by sex and using permuted blocks varying between two, four and six participants. A statistician who is not part of the study team will generate a randomisation sequence and corresponding randomisation codes. The randomisation codes will be used to maintain the blinding and will be uploaded to REDCap. The randomisation sequence will be provided to the unblinded CWH Research Pharmacy. After confirmation of eligibility, research staff will randomise participants by REDCap, which will provide the randomisation code. CWH Pharmacy staff will then dispense the study drug based on the randomisation allocation sequence.
+
+ Blinding
+
+ All participants will be blinded to their treatment regimen. The placebo and intervention capsules will appear identical, and the C&W Pharmacy will distribute the study drug to study staff in identical containers. Participants, their healthcare providers and all study staff including research assistants, coordinators, statisticians, trial physicians and investigators will be blind to allocation. Unblinding will only occur when knowledge of the actual treatment is essential for further management of the patient or investigation of serious adverse events (SAEs). If unblinding is deemed necessary by the DSMB or investigator, the C&W Pharmacy will be contacted for release of treatment allocation.
+
+ Data collection and management
+
+ We will use the secure REDCap platform for the storage of study data. 106 107 Participants will complete questionnaires electronically, with the links provided to the participant via email. Data from other sources will be entered manually and will include study physician assessments, laboratory results, dose diary information, step counts, physical assessment measures and adverse events (AEs). REDCap field validation tools will be used where possible to optimise data accuracy (eg, dates that are out of range and data that are missing). No new data will be collected from participants who withdraw, except for reason for withdrawal and details regarding AEs and SAEs.
+
+ Biological specimens
+
+ Leftover plasma will be stored at −80°C at the BC Children’s Hospital Biobank for up to 10 years to allow for additional sample testing related to this protocol that may be identified from the results of this study.
+
+ Monitoring and oversight
+
+ A Trial Steering Committee (TSC) will be formed with patient partners, investigators and other research team members. Additionally, we have formed a Data Safety and Monitoring Board (DSMB) that is comprised of peer researchers with expertise in clinical trials and ethics and independent from the study team. Lastly, an independent study monitor from the CWH Quality Assurance Office has been hired to verify participant rights and well-being, data collection and compliance with regulatory requirements. Roles of the TSC, DSMB and study monitor are outlined in online supplemental box 2 .
+
+ Statistical methods
+
+ Primary and secondary outcomes will be analysed by intention-to-treat. The primary outcome (FSS score at 16 weeks) will be analysed using a linear mixed effects model adjusting for baseline level, sex (stratification factor) and other relevant prognostic factors identified a priori . The model will include interaction between treatment arm and time, treatment arm and baseline level and include all post-randomisation timepoints at which the FSS is captured. To assess the FSS at 16 weeks, we will calculate an estimated marginal mean difference between arms with a corresponding 95% CI, with statistical significance set at 0.05. Similar contrasts at each interim time point will be provided. Effect modification by baseline FSS level will be demonstrated graphically. Participants who are lost to follow-up will be compared descriptively with those who remain in the trial. If selection bias occurs, we will consider inverse probability weights for censored individuals.
+
+ For secondary and exploratory outcomes, questionnaire, laboratory and physical measure data will be analysed similarly with generalised linear models, adjusting for baseline level and other relevant prognostic factors and using link function based on the variable type from questionnaires (eg, logit for binary outcomes).
+
+ Effect modification by baseline factors will be considered by the inclusion of interaction terms with treatment arm in the above models. Possible effect modifiers include baseline fatigue severity, sex, gender, age, severity of and time of acute SARS-CoV-2 infection, pre-existing co-morbidities, COVID-19 vaccination, final dose and side effects. The significance of effect modification will be based on the likelihood ratio test comparing models with and without the interaction term.
+
+ Dose-response analyses will involve a comparison of various dosing levels as a covariate versus control in the primary linear model. Secondary analysis will look only at dose comparisons within the intervention arm. Dose will be included in these models as a non-linear effect via restricted cubic splines.
+
+ We will conduct a per-protocol analysis to assess the expected effect of adhering to the trial protocol using G-methods, which allow for adjustment for post-randomisation confounding. 108 
+
+ All analyses of primary and secondary outcomes will be pre-specified in detail in a Statistical Analysis Plan and signed off on by all investigators prior to data analysis.
+
+ Harms
+
+ Protocols to address particular AEs and SAEs are described in online supplemental appendix 3 . We will implement REDCap alerts for AEs noted through the questionnaires. Additionally, participants will be asked if they have had any AEs at each study visit. All AEs will be assessed by a study physician. All SAEs will be reported to the DSMB. SAEs will be reported to the Research Ethics Board (REB) and Health Canada (HC) as per local regulations. For mild AEs, the patient may be reassured to continue taking the medication as per protocol. Previous studies and our clinical experience have suggested that LDN is generally well tolerated, and mild AEs will often ease with treatment continuation. 40 48 49 51–53 
+
+ Inspections and auditing
+
+ The trial will be subject to inspections or audits by HC, REB and the Canadian Institutes for Health Research.
+
+ Patient and public involvement
+
+ Patient partners will be included as part of the TSC.
+
+ Trial dates
+
+ This trial started recruitment in January 2024 and aims to complete follow-up by the end of 2024.
+
+ Ethics and dissemination
+
+ Research ethics approval
+
+ This study was approved by the UBC/C&W harmonised REB (#H21-02254); any protocol modifications will be reported to the REB.
+
+ Consent or assent
+
+ Research staff will have interested participants consent via the secure REDCap electronic consent platform. Participants will receive information regarding the trial electronically and will have the opportunity to discuss the trial specifics and meet with a research team member (virtually or in person) before deciding on participation. The consent form is provided in online supplemental appendix 4 .
+
+ Access to data
+
+ The study principal investigator, co-investigators, clinical research coordinator, research assistants and statistician will have access to the collected data.
+
+ Dissemination policy
+
+ We will follow the Consolidated Standards of Reporting Trials (CONSORT) guidelines for reporting the results of parallel arm trials. 109 We will submit manuscripts to peer review journals, give presentations at conferences, and media releases will be organised. We will leverage our connections with PCC and ME/CFS networks to share our findings with patients, their caregivers, PCPs and other care providers.
+
+ Discussion
+
+ This report described the protocol for a 16-week, phase II RCT to investigate the efficacy of LDN for treating fatigue severity in patients with PCFS, an illness we have defined as ME/CFS symptoms persisting at least 3 months following SARS-CoV-2 infection.
+
+ Our study will build on prior and ongoing evaluations of LDN. In our review of studies listed on ClinicalTrials.gov, we identified one upcoming trial ( NCT05946551 ) which also investigates LDN in PCC. However, this trial is smaller (expected n=36) and focused on feasibility outcomes. There are no trials listed that investigate LDN in ME/CFS.
+
+ A positive outcome in our trial would inspire greater confidence in LDN as a treatment for the millions of patients with PCFS symptoms and could prompt larger, multi-institutional phase III studies. Unlike other candidate PCC treatments such as Paxlovid, stellate ganglion blockade and hyperbaric oxygen, 110–116 LDN is widely available, relatively inexpensive and generally safe. A negative outcome in this trial would also be a valuable contribution to the literature and would directly impact clinician decisions regarding prescribing LDN. The results of this trial may inform guidelines for PCC.
+
+ The trial has limitations. It is limited to English speakers and is based in a single province. We do not have a restriction on how long a participant may have had their symptoms since COVID-19. This may limit the treatment effect if LDN efficacy is greater earlier in the disease course. The decentralised nature of the trial also limits the number of objective outcomes that can be collected from all participants.
+
+ However, our decentralised strategy for this trial has several advantages. First, it will allow individuals who live outside Vancouver to participate, including those in communities who may not have access to off-label or investigational treatments. 14 Second, it will permit the inclusion of more symptomatic individuals. Some individuals with PCFS have reported symptom exacerbation from even minimal cognitive and physical exertion, 117 and remote participation may prevent flare-ups experienced from in-person visits. Third, it will encourage participation from patients who may be reluctant to attend in person given the risks of COVID-19 re-infection. Lastly, it will expedite study completion by broadening the pool of eligible applicants and reducing logistical barriers associated with in-person recruitment and enrolment.
+
+ This trial has other strengths. By using the provincial PC-ICCN and REACH BC directories, we will be able to efficiently identify and contact hundreds of potential participants by email. Our focus specifically on individuals with the ME/CFS phenotype distinguishes this trial from others for PCC and increases the likelihood that participants will have a similar underlying pathophysiology. Lastly, our trial includes multiple secondary and exploratory outcome measures that may be valuable for further hypothesis generation.
+
+ This is one of the first trials in Canada investigating a pharmacological treatment for PCC and will have a direct impact on how this illness is treated. We hope that it will also promote engagement, good faith and optimism among the PCC community—a group that has experienced stigma and has expressed frustration regarding the paucity of interventional studies for their illness. 21 118–122 Furthermore, the trial has implications beyond COVID-19; we expect that the results will have applicability to ME/CFS and other post-infection fatigue syndromes, including those that could emerge from future pandemics. 123 
+
+ Confidentiality
+
+ Following UBC REB guidelines, all study-related information will be stored in locked facilities at C&W, and all electronic material stored on secure network drives or servers. Participants will be allocated study identification (ID) numbers and a master file linking the study ID and personal information will be saved separately.
+
+ Supplementary Material
+
+ Reviewer comments
+
+ Author's
+manuscript
+
+ The authors thank Dr Adeera Levin, Alia Izquierdo and Esther Khor for their support of this study.
+
+ X @ADS-1906-2022
+
+ HN and EC contributed equally.
+
+ Contributors: Study conception: LN. Study design and protocol development: HN, EC, TB, JNB, RJM, XS, LN. Statistical analysis: JNB. Administrative support: EC, TB, MT, JC. Supervision: RJM, XS, LN. Batch testing of study products: RD. Drafting of manuscript: HN, EC. Critical review of manuscript and reviewed and approved the final version of the manuscript: all authors. LN takes responsibility for the overall content as guarantor.
+
+ Funding: This study is funded by the Canadian Institutes for Health Research (grant reference number: 177749). The Post-COVID-19 Interdisciplinary Clinical Care Network (PC-ICCN) receives research funding from the British Columbia Ministry of Health (grant reference number: N/A) and St. Paul’s Foundation (grant reference number: 1866667). HN is supported by The University of British Columbia Clinician Investigator Program (grant reference number: N/A) and a CAN-TAP-TALENT & Michael Smith Health Research BC Post Doctoral Fellowship (grant reference number: N/A). LN is supported by the BC Women’s Health Foundation (grant reference number: N/A) and the BCCDC Foundation for Public Health (grant reference number: N/A).
+
+ Competing interests: HN is a member of the Canadian Guidelines for Post-COVID-19 Condition Guideline Team for Pharmacologic and Nonpharmacologic Clinical Interventions. The other authors have no competing interests to declare.
+
+ Patient and public involvement: Patients and/or the public were involved in the design, or conduct, or reporting, or dissemination plans of this research. Refer to the Methods section for further details.
+
+ Provenance and peer review: Not commissioned; peer reviewed for ethical and funding approval prior to submission.
+
+ Supplemental material: This content has been supplied by the author(s). It has not been vetted by BMJ Publishing Group Limited (BMJ) and may not have been peer-reviewed. Any opinions or recommendations discussed are solely those of the author(s) and are not endorsed by BMJ. BMJ disclaims all liability and responsibility arising from any reliance placed on the content. Where the content includes any translated material, BMJ does not warrant the accuracy and reliability of the translations (including but not limited to local regulations, clinical guidelines, terminology, drug names and drug dosages), and is not responsible for any error and/or omissions arising from translation and adaptation or otherwise.
+
+ Ethics statements
+
+ Patient consent for publication
+
+ Not applicable.
+
+ References
+
+ 1 
+
+ Statistics Canada 
+ . Long-term symptoms in Canadian adults who tested positive for COVID-19 or suspected an infection, January 2020 to August 2022 , 2022 . Available : https://www150.statcan.gc.ca/n1/daily-quotidien/221017/dq221017b-eng.pdf [Accessed 24 Feb 2023 ]. 2 
+
+ National Center for Health Statistics 
+ . Long COVID household pulse survey . Available : www.cdc.gov/nchs/covid19/pulse/long-covid.htm [Accessed 1 Oct 2023 ]. 3 
+
+ Adjaye-Gbewonyo 
+ D 
+ , 
+ Vahratian 
+ A 
+ , 
+ Perrine 
+ CG 
+ , et al 
+ . Key findings Data from the National Health Interview Survey What percentage of adults ever had Long COVID or currently have Long COVID, and did it differ by sex? , Available : https://www.cdc.gov/nchs/products/index.htm 
+ 4 
+
+ Ballouz 
+ T 
+ , 
+ Menges 
+ D 
+ , 
+ Anagnostopoulos 
+ A 
+ , et al 
+ . Recovery and symptom Trajectories up to two years after SARS-Cov-2 infection: population based, longitudinal cohort study . BMJ 
+ 2023 ; 381 : e074425 . 10.1136/bmj-2022-074425 
+ 37257891 
+ PMC10230608 5 
+
+ Davis 
+ HE 
+ , 
+ McCorkell 
+ L 
+ , 
+ Vogel 
+ JM 
+ , et al 
+ . Long COVID: major findings, mechanisms and recommendations . Nat Rev Microbiol 
+ 2023 ; 21 : 133 – 46 . 10.1038/s41579-022-00846-2 
+ 36639608 
+ PMC9839201 6 
+
+ Subramanian 
+ A 
+ , 
+ Nirantharakumar 
+ K 
+ , 
+ Hughes 
+ S 
+ , et al 
+ . Symptoms and risk factors for long COVID in non-hospitalized adults . Nat Med 
+ 2022 ; 28 : 1706 – 14 . 10.1038/s41591-022-01909-w 
+ 35879616 
+ PMC9388369 7 
+ Long COVID: let patients help define long-lasting COVID symptoms . Nature 
+ 2020 ; 586 : 170 . 10.1038/d41586-020-02796-2 
+ 33029005 
+ 8 
+
+ Sigfrid 
+ L 
+ , 
+ Drake 
+ TM 
+ , 
+ Pauley 
+ E 
+ , et al 
+ . Long Covid in adults discharged from UK hospitals after COVID-19: A prospective, Multicentre cohort study using the ISARIC WHO clinical Characterisation protocol . Lancet Reg Health Eur 
+ 2021 ; 8 : 100186 . 10.1016/j.lanepe.2021.100186 
+ 34386785 
+ PMC8343377 9 
+
+ Centers for Disease Control and Prevention 
+ . Post-COVID Conditions: Information for Healthcare Providers , 2022 . Available : https://www.cdc.gov/coronavirus/2019-ncov/hcp/clinical-care/post-covid-conditions.html [Accessed 30 Apr 2023 ]. 10 
+
+ Callard 
+ F 
+ , 
+ Perego 
+ E 
+
+ . How and why patients made long Covid . Soc Sci Med 
+ 2021 ; 268 : 113426 . 10.1016/j.socscimed.2020.113426 
+ 33199035 
+ PMC7539940 11 
+
+ Soriano 
+ JB 
+ , 
+ Murthy 
+ S 
+ , 
+ Marshall 
+ JC 
+ , et al 
+ . A clinical case definition of post-COVID-19 condition by a Delphi consensus . Lancet Infect Dis 
+ 2022 ; 22 : e102 – 7 . 10.1016/S1473-3099(21)00703-9 
+ 34951953 
+ PMC8691845 12 
+
+ Macpherson 
+ K 
+ , 
+ Cooper 
+ K 
+ , 
+ Harbour 
+ J 
+ , et al 
+ . Experiences of living with long COVID and of Accessing Healthcare services: A qualitative systematic review . BMJ Open 
+ 2022 ; 12 : e050979 . 10.1136/bmjopen-2021-050979 
+ PMC8753091 35017239 13 
+
+ Walker 
+ S 
+ , 
+ Goodfellow 
+ H 
+ , 
+ Pookarnjanamorakot 
+ P 
+ , et al 
+ . Impact of fatigue as the primary determinant of functional limitations among patients with post-COVID-19 syndrome: A cross-sectional observational study . BMJ Open 
+ 2023 ; 13 : e069217 . 10.1136/bmjopen-2022-069217 
+ PMC10335413 37286327 14 
+
+ Perlis 
+ RH 
+ , 
+ Santillana 
+ M 
+ , 
+ Ognyanova 
+ K 
+ , et al 
+ . Prevalence and correlates of long COVID symptoms among US adults . JAMA Netw Open 
+ 2022 ; 5 : e2238804 . 10.1001/jamanetworkopen.2022.38804 
+ 36301542 
+ PMC9614581 15 
+
+ Thaweethai 
+ T 
+ , 
+ Jolley 
+ SE 
+ , 
+ Karlson 
+ EW 
+ , et al 
+ . Development of a definition of Postacute sequelae of SARS-Cov-2 infection . JAMA 
+ 2023 ; 329 : 1934 . 10.1001/jama.2023.8823 
+ 37278994 
+ PMC10214179 16 
+
+ Davis 
+ HE 
+ , 
+ Assaf 
+ GS 
+ , 
+ McCorkell 
+ L 
+ , et al 
+ . Characterizing long COVID in an international cohort: 7 months of symptoms and their impact . EClinicalMedicine 
+ 2021 ; 38 : 101019 . 10.1016/j.eclinm.2021.101019 
+ 34308300 
+ PMC8280690 17 
+
+ Naik 
+ H 
+ , 
+ Shao 
+ S 
+ , 
+ Tran 
+ KC 
+ , et al 
+ . Evaluating fatigue in patients recovering from COVID-19: validation of the fatigue severity scale and single item screening questions . Health Qual Life Outcomes 
+ 2022 ; 20 : 170 . 10.1186/s12955-022-02082-x 
+ 36575437 
+ PMC9792925 18 
+
+ Leite 
+ LC 
+ , 
+ Carvalho 
+ L 
+ , 
+ Queiroz 
+ DM de 
+ , et al 
+ . Can the post-COVID-19 functional status scale discriminate between patients with different levels of fatigue, quality of life and functional performance 
+ Pulmonology 
+ 2022 ; 28 : 220 – 3 . 10.1016/j.pulmoe.2022.01.001 
+ 35120866 
+ PMC8752288 19 
+
+ Aiyegbusi 
+ OL 
+ , 
+ Hughes 
+ SE 
+ , 
+ Turner 
+ G 
+ , et al 
+ . Symptoms, complications and management of long COVID: a review . J R Soc Med 
+ 2021 ; 114 : 428 – 42 . 10.1177/01410768211032850 
+ 34265229 
+ PMC8450986 20 
+
+ Magel 
+ T 
+ , 
+ Meagher 
+ E 
+ , 
+ Boulter 
+ T 
+ , et al 
+ . Fatigue presentation, severity, and related outcomes in a prospective cohort following post-COVID-19 hospitalization in British Columbia . Front Med (Lausanne) 
+ 2023 ; 10 : 1179783 . 10.3389/fmed.2023.1179783 
+ 37457578 
+ PMC10344448 21 
+
+ Bonilla 
+ H 
+ , 
+ Peluso 
+ MJ 
+ , 
+ Rodgers 
+ K 
+ , et al 
+ . Therapeutic trials for long COVID-19: A call to action from the interventions Taskforce of the RECOVER initiative . Front Immunol 
+ 2023 ; 14 . 10.3389/fimmu.2023.1129459 
+ PMC10034329 36969241 22 
+
+ Jamoulle 
+ M 
+ , 
+ Louazon 
+ E 
+ , 
+ Antonacci 
+ T 
+ , et al 
+ . Long COVID needs novel clinical trials . Nature 
+ 2024 ; 626 : 954 . 10.1038/d41586-024-00560-4 
+ 38413755 23 
+
+ Wong 
+ AW 
+ , 
+ Tran 
+ KC 
+ , 
+ Binka 
+ M 
+ , et al 
+ . Use of latent class analysis and patient reported outcome measures to identify distinct long COVID phenotypes: A longitudinal cohort study . PLoS ONE 
+ 2023 ; 18 : e0286588 . 10.1371/journal.pone.0286588 
+ 37267379 
+ PMC10237387 24 
+
+ Zhang 
+ H 
+ , 
+ Zang 
+ C 
+ , 
+ Xu 
+ Z 
+ , et al 
+ . Data-driven identification of post-acute SARS-Cov-2 infection Subphenotypes . Nat Med 
+ 2023 ; 29 : 226 – 35 . 10.1038/s41591-022-02116-3 
+ 36456834 
+ PMC9873564 25 
+
+ Bonilla 
+ H 
+ , 
+ Quach 
+ TC 
+ , 
+ Tiwari 
+ A 
+ , et al 
+ . Myalgic Encephalomyelitis/ chronic fatigue syndrome is common in post-acute sequelae of SARS-Cov-2 infection (PASC): results from a post-COVID-19 Multidisciplinary clinic . Front Neurol 
+ 2023 ; 14 . 10.3389/fneur.2023.1090747 
+ PMC9998690 36908615 26 
+
+ Décary 
+ S 
+ , 
+ Gaboury 
+ I 
+ , 
+ Poirier 
+ S 
+ , et al 
+ . Humility and acceptance: working within our limits with long COVID and Myalgic Encephalomyelitis/ chronic fatigue syndrome . J Orthop Sports Phys Ther 
+ 2021 ; 51 : 197 – 200 . 10.2519/jospt.2021.0106 
+ 33930983 
+ 27 
+
+ Wong 
+ TL 
+ , 
+ Weitzer 
+ DJ 
+
+ . Long COVID and Myalgic Encephalomyelitis/chronic fatigue syndrome (ME/CFS)-A systemic review and comparison of clinical presentation and Symptomatology . Medicina 
+ 2021 ; 57 : 418 . 10.3390/medicina57050418 
+ 33925784 
+ PMC8145228 28 
+
+ Komaroff 
+ AL 
+ , 
+ Bateman 
+ L 
+
+ . Will COVID-19 lead to Myalgic Encephalomyelitis/chronic fatigue syndrome . Front Med (Lausanne) 
+ 2020 ; 7 : 606824 . 10.3389/fmed.2020.606824 
+ 33537329 
+ PMC7848220 29 
+
+ Brown 
+ DA 
+ , 
+ O’Brien 
+ KK 
+
+ . Conceptualising long COVID as an episodic health condition . BMJ Glob Health 
+ 2021 ; 6 : e007004 . 10.1136/bmjgh-2021-007004 
+ PMC8460526 34551971 30 
+
+ Goodman 
+ BP 
+ , 
+ Khoury 
+ JA 
+ , 
+ Blair 
+ JE 
+ , et al 
+ . COVID-19 Dysautonomia . Front Neurol 
+ 2021 ; 12 : 624968 . 10.3389/fneur.2021.624968 
+ 33927679 
+ PMC8076737 31 
+
+ Nacul 
+ L 
+ , 
+ O’Boyle 
+ S 
+ , 
+ Palla 
+ L 
+ , et al 
+ . How Myalgic Encephalomyelitis/chronic fatigue syndrome (ME/CFS) progresses: the natural history of ME/CFS . Front Neurol 
+ 2020 ; 11 : 826 . 10.3389/fneur.2020.00826 
+ 32849252 
+ PMC7431524 32 
+
+ Johnston 
+ S 
+ , 
+ Brenu 
+ EW 
+ , 
+ Staines 
+ DR 
+ , et al 
+ . The adoption of chronic fatigue syndrome/Myalgic Encephalomyelitis case definitions to assess prevalence: A systematic review . Ann Epidemiol 
+ 2013 ; 23 : 371 – 6 . 10.1016/j.annepidem.2013.04.003 
+ 23683713 
+ 33 
+
+ Institute of Medicine (U.S.) 
+ . Committee on the diagnostic criteria for Myalgic Encephalomyelitis/chronic fatigue syndrome, Institute of medicine (U.S.). board on the health of select populations. beyond Myalgic Encephalomyelitis/chronic fatigue syndrome: redefining an illness . 25695122 34 
+
+ Lacerda 
+ EM 
+ , 
+ Geraghty 
+ K 
+ , 
+ Kingdon 
+ CC 
+ , et al 
+ . A logistic regression analysis of risk factors in ME/CFS pathogenesis . BMC Neurol 
+ 2019 ; 19 : 275 . 10.1186/s12883-019-1468-2 
+ 31699051 
+ PMC6839177 35 
+
+ Perrin 
+ R 
+ , 
+ Riste 
+ L 
+ , 
+ Hann 
+ M 
+ , et al 
+ . Into the looking glass: post-viral syndrome post COVID-19 . Medical Hypotheses 
+ 2020 ; 144 : 110055 . 10.1016/j.mehy.2020.110055 
+ 32758891 
+ PMC7320866 36 
+
+ Lyons 
+ D 
+ , 
+ Frampton 
+ M 
+ , 
+ Naqvi 
+ S 
+ , et al 
+ . Fallout from the COVID-19 pandemic-should we prepare for a tsunami of post viral depression 
+ Ir J Psychol Med 
+ 2020 ; 37 : 295 – 300 . 10.1017/ipm.2020.40 
+ 32408926 
+ PMC7431842 37 
+
+ Campos 
+ MC 
+ , 
+ Nery 
+ T 
+ , 
+ Starke 
+ AC 
+ , et al 
+ . Post-viral fatigue in COVID-19: A review of symptom assessment methods, mental, cognitive, and physical impairment . Neurosci Biobehav Rev 
+ 2022 ; 142 : 104902 . 10.1016/j.neubiorev.2022.104902 
+ 36202253 
+ PMC9528075 38 
+
+ Legler 
+ AF 
+ , 
+ Meyer-Arndt 
+ L 
+ , 
+ Mödl 
+ L 
+ , et al 
+ . Symptom persistence and biomarkers in post-COVID-19/chronic fatigue syndrome – results from a prospective observational cohort . Neurology [ Preprint ] 2023 . 10.1101/2023.04.15.23288582 
+ PMC10469383 37662515 39 
+
+ Bonilla 
+ H 
+ , 
+ Tian 
+ L 
+ , 
+ Marconi 
+ VC 
+ , et al 
+ . Low-dose Naltrexone use for the management of post-acute sequelae of COVID-19 . International Immunopharmacology 
+ 2023 ; 124 : 110966 . 10.1016/j.intimp.2023.110966 
+ 37804660 
+ PMC11028858 40 
+
+ O’Kelly 
+ B 
+ , 
+ Vidal 
+ L 
+ , 
+ McHugh 
+ T 
+ , et al 
+ . Safety and efficacy of low dose Naltrexone in a long Covid cohort; an Interventional pre-post study . Brain Behav Immun Health 
+ 2022 ; 24 : 100485 . 10.1016/j.bbih.2022.100485 
+ 35814187 
+ PMC9250701 41 
+
+ Srivastava 
+ AB 
+ , 
+ Gold 
+ MS 
+
+ . Naltrexone: A history and future directions . Cerebrum 
+ 2018 ; 2018 : cer-13-18 . PMC6353110 30746025 42 
+ Product monograph: Apo-Naltrexone . Toronto , 2015 . 43 
+
+ Toljan 
+ K 
+ , 
+ Vrooman 
+ B 
+
+ . Low-dose Naltrexone (LDN)-Review of therapeutic utilization . Medical Sciences 
+ 2018 ; 6 : 82 . 10.3390/medsci6040082 
+ 30248938 
+ PMC6313374 44 
+
+ Parker 
+ CE 
+ , 
+ Nguyen 
+ TM 
+ , 
+ Segal 
+ D 
+ , et al 
+ . Low dose Naltrexone for induction of remission in Crohn’s disease . Cochrane Database Syst Rev 
+ 2018 ; 4 : CD010410 . 10.1002/14651858.CD010410.pub3 
+ 29607497 
+ PMC6494424 45 
+
+ Bolton 
+ MJ 
+ , 
+ Chapman 
+ BP 
+ , 
+ Van Marwijk 
+ H 
+
+ . Low-dose Naltrexone as a treatment for chronic fatigue syndrome . BMJ Case Rep 
+ 2020 ; 13 : e232502 . 10.1136/bcr-2019-232502 
+ PMC6954765 31911410 46 
+
+ Polo 
+ O 
+ , 
+ Pesonen 
+ P 
+ , 
+ Tuominen 
+ E 
+
+ . Low-dose Naltrexone in the treatment of Myalgic Encephalomyelitis/chronic fatigue syndrome (ME/CFS) . Fatigue: Biomedicine, Health & Behavior 
+ 2019 ; 7 : 207 – 17 . 10.1080/21641846.2019.1692770 
+ 47 
+
+ Cree 
+ BAC 
+ , 
+ Kornyeyeva 
+ E 
+ , 
+ Goodin 
+ DS 
+
+ . Pilot trial of low-dose Naltrexone and quality of life in multiple sclerosis . Ann Neurol 
+ 2010 ; 68 : 145 – 50 . 10.1002/ana.22006 
+ 20695007 
+ 48 
+
+ Hatfield 
+ E 
+ , 
+ Phillips 
+ K 
+ , 
+ Swidan 
+ S 
+ , et al 
+ . Use of low-dose Naltrexone in the management of chronic pain conditions: A systematic review . J Am Dent Assoc 
+ 2020 ; 151 : 891 – 902 . 10.1016/j.adaj.2020.08.019 
+ 33228882 
+ 49 
+
+ Aitcheson 
+ N 
+ , 
+ Lin 
+ Z 
+ , 
+ Tynan 
+ K 
+
+ . Focus | research low-dose Naltrexone in the treatment of Fibromyalgia A systematic review and narrative synthesis . Aust J Gen Pract 
+ 2023 ; 52 : 189 – 95 . 10.31128/AJGP-09-22-6564 
+ 37021443 
+ 50 
+
+ Bruun 
+ KD 
+ , 
+ Amris 
+ K 
+ , 
+ Vaegter 
+ HB 
+ , et al 
+ . Low-dose Naltrexone for the treatment of Fibromyalgia: protocol for a double-blind, randomized, placebo-controlled trial . Trials 
+ 2021 ; 22 : 804 . 10.1186/s13063-021-05776-7 
+ 34781989 
+ PMC8591911 51 
+
+ Younger 
+ J 
+ , 
+ Noor 
+ N 
+ , 
+ McCue 
+ R 
+ , et al 
+ . Low-dose Naltrexone for the treatment of Fibromyalgia: findings of a small, randomized, double-blind, placebo-controlled, counterbalanced, crossover trial assessing daily pain levels . Arthritis Rheum 
+ 2013 ; 65 : 529 – 38 . 10.1002/art.37734 
+ 23359310 
+ 52 
+
+ Patten 
+ DK 
+ , 
+ Schultz 
+ BG 
+ , 
+ Berlau 
+ DJ 
+
+ . The safety and efficacy of low-dose Naltrexone in the management of chronic pain and inflammation in multiple sclerosis, Fibromyalgia, Crohn’s disease, and other chronic pain disorders . Pharmacotherapy 
+ 2018 ; 38 : 382 – 9 . 10.1002/phar.2086 
+ 29377216 
+ 53 
+
+ Driver 
+ CN 
+ , 
+ D’Souza 
+ RS 
+
+ . Efficacy of low-dose Naltrexone and predictors of treatment success or discontinuation in Fibromyalgia and other chronic pain conditions: A fourteen-year, enterprise-wide retrospective analysis . Biomedicines 
+ 2023 ; 11 : 1087 . 10.3390/biomedicines11041087 
+ 37189705 
+ PMC10135963 54 
+
+ Colomer-Carbonell 
+ A 
+ , 
+ Sanabria-Mazo 
+ JP 
+ , 
+ Hernández-Negrín 
+ H 
+ , et al 
+ . Study protocol for a randomised, double-blinded, placebo-controlled phase III trial examining the add-on efficacy, cost-utility and Neurobiological effects of low-dose Naltrexone (LDN) in patients with Fibromyalgia (INNOVA study) . BMJ Open 
+ 2022 ; 12 : e055351 . 10.1136/bmjopen-2021-055351 
+ PMC8739052 34992118 55 
+
+ Ekelem 
+ C 
+ , 
+ Juhasz 
+ M 
+ , 
+ Khera 
+ P 
+ , et al 
+ . Utility of Naltrexone treatment for chronic inflammatory Dermatologic conditions: A systematic review . JAMA Dermatol 
+ 2019 ; 155 : 229 – 36 . 10.1001/jamadermatol.2018.4093 
+ 30484835 
+ 56 
+
+ Mischoulon 
+ D 
+ , 
+ Hylek 
+ L 
+ , 
+ Yeung 
+ AS 
+ , et al 
+ . Randomized, proof-of-concept trial of low dose Naltrexone for patients with breakthrough symptoms of major depressive disorder on antidepressants . J Affect Disord 
+ 2017 ; 208 : 6 – 14 . 10.1016/j.jad.2016.08.029 
+ 27736689 
+ 57 
+
+ Due Bruun 
+ K 
+ , 
+ Christensen 
+ R 
+ , 
+ Amris 
+ K 
+ , et al 
+ . Naltrexone 6 mg once daily versus placebo in women with Fibromyalgia: a randomised, double-blind, placebo-controlled trial . Lancet Rheumatol 
+ 2024 ; 6 : e31 – 9 . 10.1016/S2665-9913(23)00278-3 
+ 38258677 
+ 58 
+
+ Kumari 
+ R 
+ , 
+ Kareem 
+ ZY 
+ , 
+ McLaughlin 
+ PJ 
+
+ . Acute low dose Naltrexone increases Β-Endorphin and promotes neuronal recovery following hypoxia-ischemic stroke in Type-2 diabetic mice . Neurochem Res 
+ 2023 ; 48 : 2835 – 46 . 10.1007/s11064-023-03938-4 
+ 37166576 
+ 59 
+
+ Panerai 
+ AE 
+ , 
+ Vecchiet 
+ J 
+ , 
+ Panzeri 
+ P 
+ , et al 
+ . Panerai Chronjourpain 2001 peripheral blood mononuclear cell Β-Endorphin concentration is decreased in chronic fatigue syndrome and Fibromyalgia but not in depression_ preliminary report . The Clinical Journal of Pain 
+ 2002 ; 18 : 270 – 3 . 10.1097/00002508-200207000-00008 
+ 12131069 
+ 60 
+
+ Cant 
+ R 
+ , 
+ Dalgleish 
+ AG 
+ , 
+ Allen 
+ RL 
+
+ . Naltrexone inhibits IL-6 and TNFα production in human immune cell Subsets following stimulation with ligands for intracellular toll-like receptors . Front Immunol 
+ 2017 ; 8 : 809 . 10.3389/fimmu.2017.00809 
+ 28744288 
+ PMC5504148 61 
+
+ Hutchinson 
+ MR 
+ , 
+ Zhang 
+ Y 
+ , 
+ Brown 
+ K 
+ , et al 
+ . Non-stereoselective reversal of neuropathic pain by naloxone and Naltrexone: involvement of toll-like receptor 4 (Tlr4) . Eur J Neurosci 
+ 2008 ; 28 : 20 – 9 . 10.1111/j.1460-9568.2008.06321.x 
+ 18662331 
+ PMC2588470 62 
+
+ Kučić 
+ N 
+ , 
+ Rački 
+ V 
+ , 
+ Šverko 
+ R 
+ , et al 
+ . Immunometabolic Modulatory role of Naltrexone in Bv‐2 Microglia cells . IJMS 
+ 2021 ; 22 : 8429 . 10.3390/ijms22168429 
+ 34445130 
+ PMC8395119 63 
+
+ Kwilasz 
+ AJ 
+ , 
+ Todd 
+ LS 
+ , 
+ Duran-Malle 
+ JC 
+ , et al 
+ . Experimental autoimmune encephalopathy (EAE)-Induced hippocampal Neuroinflammation and memory deficits are prevented with the non-opioid Tlr2/Tlr4 antagonist (+)-Naltrexone . Behav Brain Res 
+ 2021 ; 396 : 112896 . 10.1016/j.bbr.2020.112896 
+ 32905811 
+ PMC7572683 64 
+
+ Schultheiß 
+ C 
+ , 
+ Willscher 
+ E 
+ , 
+ Paschold 
+ L 
+ , et al 
+ . The IL-1Β, IL-6, and TNF cytokine Triad is associated with post-acute sequelae of COVID-19 . Cell Rep Med 
+ 2022 ; 3 : 100663 . 10.1016/j.xcrm.2022.100663 
+ 35732153 
+ PMC9214726 65 
+
+ Braga 
+ J 
+ , 
+ Lepra 
+ M 
+ , 
+ Kish 
+ SJ 
+ , et al 
+ . Neuroinflammation after COVID-19 with persistent depressive and cognitive symptoms . JAMA Psychiatry 
+ 2023 ; 80 : 787 – 95 . 10.1001/jamapsychiatry.2023.1321 
+ 37256580 
+ PMC10233457 66 
+
+ Fernández-Castañeda 
+ A 
+ , 
+ Lu 
+ P 
+ , 
+ Geraghty 
+ AC 
+ , et al 
+ . Mild respiratory COVID can cause multi-lineage neural cell and myelin dysregulation . Cell 
+ 2022 ; 185 : 2452 – 68 . 10.1016/j.cell.2022.06.008 
+ 35768006 
+ PMC9189143 67 
+
+ Nelson 
+ T 
+ , 
+ Zhang 
+ L-X 
+ , 
+ Guo 
+ H 
+ , et al 
+ . Brainstem abnormalities in Myalgic Encephalomyelitis/chronic fatigue syndrome: A Scoping review and evaluation of magnetic resonance imaging findings . Front Neurol 
+ 2021 ; 12 : 769511 . 10.3389/fneur.2021.769511 
+ 34975729 
+ PMC8718708 68 
+
+ Renz-Polster 
+ H 
+ , 
+ Tremblay 
+ M-E 
+ , 
+ Bienzle 
+ D 
+ , et al 
+ . The Pathobiology of Myalgic Encephalomyelitis/chronic fatigue syndrome: the case for Neuroglial failure . Front Cell Neurosci 
+ 2022 ; 16 : 888232 . 10.3389/fncel.2022.888232 
+ 35614970 
+ PMC9124899 69 
+
+ Fairbank 
+ R 
+
+ . An overdose drug shows promise for long COVID patients . Natl Geogr Mag ; 2023 . Available : https://www.nationalgeographic.com/premium/article/drug-overdose-low-dose-naltrexone-long-covid [Accessed 9 Jul 2023 ]. 70 
+
+ Yuko 
+ E 
+
+ . Can an addiction drug treat long Covid? rolling stone . 2023 . Available : https://www.rollingstone.com/culture/culture-features/long-covid-treatment-addiction-drug-1234701573/ [Accessed 8 Jul 2023 ]. 71 
+
+ Steenhuysen 
+ J 
+
+ . Addiction drug shows promise lifting long COVID brain fog, fatigue Reuters . 2022 . Available : https://www.reuters.com/business/healthcare-pharmaceuticals/addiction-drug-shows-promise-lifting-long-covid-brain-fog-fatigue-2022-10-18/ [Accessed 8 Jul 2023 ]. 72 
+
+ Velasquez-Manoff 
+ M 
+
+ . What if you never get better from COVID-19? 
+ N Y Times Mag ; 2021 . Available : https://www.nytimes.com/2021/01/21/magazine/covid-aftereffects.html 
+ 73 
+
+ Ducharme 
+ J 
+
+ . Researchers are getting closer to learning how to treat and prevent long COVID time . 2023 . 74 
+
+ Castro-Root 
+ G 
+
+ . Game Changer’: 5 long COVID treatments researchers are most excited about . San Francisco Chronicle ; 2023 . Available : https://www.sfchronicle.com/health/article/long-covid-treatment-18144379.php [Accessed 8 Jul 2023 ]. 75 
+
+ Graedon 
+ J 
+
+ . Should Doctors Consider Low Dose Naltrexone for Long COVID? The People’s Pharmacy , 2023 . Available : https://www.peoplespharmacy.com/articles/should-doctors-consider-low-dose-naltrexone-for-long-covid [Accessed 8 Jul 2023 ]. 76 
+
+ Brown 
+ S 
+
+ . Low-dose Naltrexone could treat long COVID symptoms . Verywellhealth 
+ 2023 ; 6 . 10.3390/medsci6040082 
+ 77 
+
+ Bonilla 
+ H 
+ , 
+ Tian 
+ L 
+ , 
+ Marconi 
+ VC 
+ , et al 
+ . Low-dose Naltrexone use for the management of post-acute sequelae of COVID-19 . Int Immunopharmacol 
+ 2023 ; 124 : 110966 . 10.1016/j.intimp.2023.110966 
+ 37804660 
+ PMC11028858 78 
+
+ Chan 
+ A-W 
+ , 
+ Tetzlaff 
+ JM 
+ , 
+ Gøtzsche 
+ PC 
+ , et al 
+ . SPIRIT 2013 explanation and elaboration: guidance for protocols of clinical trials . BMJ 
+ 2013 ; 346 : e7586 . 10.1136/bmj.e7586 
+ 23303884 
+ PMC3541470 79 
+
+ Levin 
+ A 
+ , 
+ Malbeuf 
+ M 
+ , 
+ Hoens 
+ AM 
+ , et al 
+ . Creating a provincial post COVID-19 Interdisciplinary clinical care network as a learning health system during the pandemic: integrating clinical care and research . Learn Health Syst 
+ 2022 ; 7 : e10316 . 10.1002/lrh2.10316 
+ 35942206 
+ PMC9348470 80 
+
+ Naik 
+ H 
+ , 
+ Malbeuf 
+ M 
+ , 
+ Shao 
+ S 
+ , et al 
+ . A learning health system for long Covid care and research in British Columbia . NEJM Catalyst 
+ 2023 ; 4 . 10.1056/CAT.23.0120 
+ 81 
+
+ Naik 
+ H 
+ , 
+ Malbeuf 
+ M 
+ , 
+ Levin 
+ A 
+
+ . Expanding the learning health care system beyond the academic health center . Acad Med 
+ 2023 ; 98 : 973 . 10.1097/ACM.0000000000005273 
+ 37797301 82 
+
+ Naik 
+ H 
+ , 
+ Li 
+ R 
+ , 
+ Shao 
+ S 
+ , et al 
+ . D-Dimer elevation and venous thromboembolism ≥90 days following COVID-19 . Can Journ Gen Int Med 
+ 2023 ; 18 : 43 – 8 . 10.22374/cjgim.v18i2.688 
+ 83 
+
+ Boulter 
+ T 
+ , 
+ Prestley 
+ N 
+ , 
+ Lai 
+ S 
+ , et al 
+ . Characterizing the complex chronic diseases program’s (CCDP) patient population presenting for management of Fibromyalgia, Myalgic Encephalomyelitis, and symptoms attributed to chronic Lyme disease at BC women’s hospital + health centre . International Association for Chronic Fatigue Syndrome/Myalgic Encephalomyelitis Conference ; 2021 
+ 84 
+
+ MEDISCA 
+ . Certificate of analysis Naltrexone hydrochloride, USP* . 2021 . 85 
+
+ MEDISCA 
+ . CERTIFICATE OF ANALYSIS CELLULOSE, NF/EP (Microcrystalline)(Flocel® 101) . 2021 . 86 
+
+ Krupp 
+ LB 
+ , 
+ LaRocca 
+ NG 
+ , 
+ Muir-Nash 
+ J 
+ , et al 
+ . The fatigue severity scale: application to patients with multiple sclerosis and systemic lupus erythematosus . Arch Neurol 
+ 1989 ; 46 : 1121 – 3 . 10.1001/archneur.1989.00520460115022 
+ 2803071 
+ 87 
+
+ Lerdal 
+ A 
+
+ . Fatigue Severity Scale. Encyclopedia of Quality of Life and Well-Being Research . Springer International Publishing , 2022 : 1 – 5 . Available : 10.1007/978-3-319-69909-7_1018-3 
+ 88 
+
+ Neuberger 
+ GB 
+
+ . Measures of fatigue: the fatigue questionnaire, fatigue severity scale, multidimensional assessment of fatigue scale, and short Form-36 vitality (energy/fatigue) Subscale of the short form health survey . Arthritis & Rheumatism 
+ 2003 ; 49 : S175 – 83 . 10.1002/art.11405 
+ 89 
+
+ Tomassini 
+ V 
+ , 
+ Pozzilli 
+ C 
+ , 
+ Onesti 
+ E 
+ , et al 
+ . Comparison of the effects of acetyl L-Carnitine and Amantadine for the treatment of fatigue in multiple sclerosis: results of a pilot, randomised, double-blind, crossover trial . J Neurol Sci 
+ 2004 ; 218 : 103 – 8 . 10.1016/j.jns.2003.11.005 
+ 14759641 
+ 90 
+
+ Fried 
+ MW 
+ , 
+ Buti 
+ M 
+ , 
+ Dore 
+ GJ 
+ , et al 
+ . Once-daily Simeprevir (Tmc435) with pegylated interferon and ribavirin in treatment-Naïve genotype 1 hepatitis C: the randomized PILLAR study . Hepatology 
+ 2013 ; 58 : 1918 – 29 . 10.1002/hep.26641 
+ 23907700 
+ PMC4112500 91 
+
+ Kim 
+ D-Y 
+ , 
+ Lee 
+ J-S 
+ , 
+ Park 
+ S-Y 
+ , et al 
+ . Systematic review of randomized controlled trials for chronic fatigue syndrome/Myalgic Encephalomyelitis (CFS/ME) . J Transl Med 
+ 2020 ; 18 . 10.1186/s12967-019-02196-9 
+ PMC6943902 31906979 92 
+
+ Tabacof 
+ L 
+ , 
+ Tosto-Mancuso 
+ J 
+ , 
+ Wood 
+ J 
+ , et al 
+ . Post-acute COVID-19 syndrome negatively impacts physical function, cognitive function, health-related quality of life, and participation . Am J Phys Med Rehabil 
+ 2022 ; 101 : 48 – 52 . 10.1097/PHM.0000000000001910 
+ 34686631 
+ PMC8667685 93 
+
+ Raman 
+ B 
+ , 
+ Cassar 
+ MP 
+ , 
+ Tunnicliffe 
+ EM 
+ , et al 
+ . Medium-term effects of SARS-Cov-2 infection on multiple vital organs, exercise capacity, cognition, quality of life and mental health, post-hospital discharge . EClinicalMedicine 
+ 2021 ; 31 : 100683 . 10.1016/j.eclinm.2020.100683 
+ 33490928 
+ PMC7808914 94 
+
+ Cella 
+ D 
+ , 
+ Dimmock 
+ M 
+ , 
+ Friedberg 
+ F 
+ , et al 
+ . NINDS CDE project Myalgic Encephalomyelitis/chronic fatigue syndrome (ME/CFS) . Fatigue Subgroup ; 2017 . Available : https://www.commondataelements.ninds.nih.gov/sites/nindscde/files/Doc/MECFS/Fatigue_Subgroup_Summary.pdf [Accessed 20 Nov 2023 ]. 95 
+
+ Gorst 
+ SL 
+ , 
+ Seylanova 
+ N 
+ , 
+ Dodd 
+ SR 
+ , et al 
+ . Core outcome measurement instruments for use in clinical and research settings for adults with post-COVID-19 condition: an international Delphi consensus study . Lancet Respir Med 
+ 2023 ; 11 : 1101 – 14 . 10.1016/S2213-2600(23)00370-3 
+ 37926103 
+ 96 
+
+ Hawker 
+ GA 
+ , 
+ Mian 
+ S 
+ , 
+ Kendzerska 
+ T 
+ , et al 
+ . Measures of adult pain: visual analog scale for pain (VAS pain), Numeric rating scale for pain (NRS pain) McGill pain questionnaire (MPQ), short-form McGill pain questionnaire (SF-MPQ), chronic pain grade scale (CPGS), short Form-36 bodily pain scale (SF-36 BPS), and measure of intermittent and constant osteoarthritis pain (ICOAP) . Arthritis Care Res (Hoboken) 
+ 2011 ; 63 Suppl 11 : S240 – 52 . 10.1002/acr.20543 
+ 22588748 
+ 97 
+
+ Nacul 
+ L 
+ , 
+ Authier 
+ FJ 
+ , 
+ Scheibenbogen 
+ C 
+ , et al 
+ . European network on Myalgic Encephalomyelitis/chronic fatigue syndrome (EUROMENE): expert consensus on the diagnosis, service provision, and care of people with me/CFS in Europe . Medicina (Kaunas) 
+ 2021 ; 57 : 510 . 10.3390/medicina57050510 
+ 34069603 
+ PMC8161074 98 
+
+ Lacerda 
+ EM 
+ , 
+ Mudie 
+ K 
+ , 
+ Kingdon 
+ CC 
+ , et al 
+ . The UK ME/CFS Biobank: A disease-specific Biobank for advancing clinical research into Myalgic Encephalomyelitis/chronic fatigue syndrome . Front Neurol 
+ 2018 ; 9 : 1026 . 10.3389/fneur.2018.01026 
+ 30564186 
+ PMC6288193 99 
+
+ Xie 
+ F 
+ , 
+ Pullenayegum 
+ E 
+ , 
+ Gaebel 
+ K 
+ , et al 
+ . A time trade-off-derived value set of the EQ-5D-5L for Canada . Med Care 
+ 2016 ; 54 : 98 – 105 . 10.1097/MLR.0000000000000447 
+ 26492214 
+ PMC4674140 100 
+
+ Harris 
+ T 
+ , 
+ Kerry 
+ SM 
+ , 
+ Limb 
+ ES 
+ , et al 
+ . Physical activity levels in adults and older adults 3–4 years after Pedometer-based walking interventions: long-term follow-up of participants from two randomised controlled trials in UK primary care . PLoS Med 
+ 2018 ; 15 : e1002526 . 10.1371/journal.pmed.1002526 
+ 29522529 
+ PMC5844512 101 
+
+ Nolan 
+ CM 
+ , 
+ Maddocks 
+ M 
+ , 
+ Canavan 
+ JL 
+ , et al 
+ . Pedometer step count targets during pulmonary rehabilitation in chronic obstructive pulmonary disease: A randomized controlled trial . Am J Respir Crit Care Med 
+ 2017 ; 195 : 1344 – 52 . 10.1164/rccm.201607-1372OC 
+ 27911566 
+ PMC5443901 102 
+
+ Shcherbina 
+ A 
+ , 
+ Hershman 
+ SG 
+ , 
+ Lazzeroni 
+ L 
+ , et al 
+ . The effect of Digital physical activity interventions on daily step count: a randomised controlled crossover Substudy of the Myheart counts cardiovascular health study . Lancet Digit Health 
+ 2019 ; 1 : e344 – 52 . 10.1016/S2589-7500(19)30129-3 
+ 33323209 
+ 103 
+
+ Wong 
+ H 
+
+ . Minimum important difference is minimally important in sample size calculations . Trials 
+ 2023 ; 24 : 34 . 10.1186/s13063-023-07092-8 
+ 36650587 
+ PMC9847050 104 
+
+ Nordin 
+ Å 
+ , 
+ Taft 
+ C 
+ , 
+ Lundgren-Nilsson 
+ Å 
+ , et al 
+ . Minimal important differences for fatigue patient reported outcome measures - A systematic review . BMC Med Res Methodol 
+ 2016 ; 16 . 10.1186/s12874-016-0167-6 
+ PMC4937582 27387456 105 
+
+ Goligher 
+ EC 
+ , 
+ Pouchot 
+ J 
+ , 
+ Brant 
+ R 
+ , et al 
+ . Minimal clinically important difference f or 7 measures of fatigue in patients with systemic lupus erythematosus . J Rheumatol 
+ 2008 ; 35 : 635 – 42 . 18322987 
+ 106 
+
+ Harris 
+ PA 
+ , 
+ Taylor 
+ R 
+ , 
+ Minor 
+ BL 
+ , et al 
+ . The Redcap consortium: building an international community of software platform partners . Journal of Biomedical Informatics 
+ 2019 ; 95 : 103208 . 10.1016/j.jbi.2019.103208 
+ 31078660 
+ PMC7254481 107 
+
+ Harris 
+ PA 
+ , 
+ Taylor 
+ R 
+ , 
+ Thielke 
+ R 
+ , et al 
+ . Research electronic data capture (Redcap)-A Metadata-driven methodology and Workflow process for providing Translational research Informatics support . Journal of Biomedical Informatics 
+ 2009 ; 42 : 377 – 81 . 10.1016/j.jbi.2008.08.010 
+ 18929686 
+ PMC2700030 108 
+
+ Hernán 
+ MA 
+ , 
+ Robins 
+ JM 
+
+ . Per-protocol analyses of pragmatic trials . N Engl J Med 
+ 2017 ; 377 : 1391 – 8 . 10.1056/NEJMsm1605385 
+ 28976864 
+ 109 
+
+ Moher 
+ D 
+ , 
+ Hopewell 
+ S 
+ , 
+ Schulz 
+ KF 
+ , et al 
+ . CONSORT 2010 explanation and elaboration: updated guidelines for reporting parallel group randomised trials . BMJ 
+ 2010 ; 340 : c869 . 10.1136/bmj.c869 
+ 20332511 
+ PMC2844943 110 
+
+ Kjellberg 
+ A 
+ , 
+ Hassler 
+ A 
+ , 
+ Boström 
+ E 
+ , et al 
+ . Hyperbaric oxygen therapy for long COVID (HOT-Loco), an interim safety report from a randomised controlled trial . BMC Infect Dis 
+ 2023 ; 23 : 33 . 10.1186/s12879-023-08002-8 
+ 36670365 
+ PMC9854077 111 
+
+ Kjellberg 
+ A 
+ , 
+ Abdel-Halim 
+ L 
+ , 
+ Hassler 
+ A 
+ , et al 
+ . Hyperbaric oxygen for treatment of long COVID-19 syndrome (HOT-Loco): protocol for a randomised, placebo-controlled, double-blind, phase II clinical trial . BMJ Open 
+ 2022 ; 12 : e061870 . 10.1136/bmjopen-2022-061870 
+ PMC9638753 36323462 112 
+
+ Badran 
+ BW 
+ , 
+ Huffman 
+ SM 
+ , 
+ Dancy 
+ M 
+ , et al 
+ . A pilot randomized controlled trial of supervised, at-home, self-administered Transcutaneous Auricular Vagus nerve stimulation (taVNS) to manage long COVID symptoms . Bioelectron Med 
+ 2022 ; 8 : 13 . 10.1186/s42234-022-00094-y 
+ 36002874 
+ PMC9402278 113 
+
+ Zilberman-Itskovich 
+ S 
+ , 
+ Catalogna 
+ M 
+ , 
+ Sasson 
+ E 
+ , et al 
+ . Hyperbaric oxygen therapy improves Neurocognitive functions and symptoms of post-COVID condition: randomized controlled trial . Sci Rep 
+ 2022 ; 12 : 11252 . 10.1038/s41598-022-15565-0 
+ 35821512 
+ PMC9276805 114 
+
+ Robbins 
+ T 
+ , 
+ Gonevski 
+ M 
+ , 
+ Clark 
+ C 
+ , et al 
+ . Hyperbaric oxygen therapy for the treatment of long COVID: early evaluation of a highly promising intervention . Clin Med (Lond) 
+ 2021 ; 21 : e629 – 32 . 10.7861/clinmed.2021-0462 
+ 34862223 
+ PMC8806311 115 
+
+ Singh 
+ U 
+ , 
+ Geng 
+ L 
+
+ . Paxlovid for Treatment of Long Covid (STOP-PASC) , 2022 . Available : https://classic.clinicaltrials.gov/ct2/show/NCT05576662 [Accessed 9 2023 ]. 116 
+
+ Liu 
+ LD 
+ , 
+ Duricka 
+ DL 
+
+ . Stellate ganglion block reduces symptoms of long COVID: A case series . J Neuroimmunol 
+ 2022 ; 362 : 577784 . 10.1016/j.jneuroim.2021.577784 
+ 34922127 
+ PMC8653406 117 
+
+ Vernon 
+ SD 
+ , 
+ Hartle 
+ M 
+ , 
+ Sullivan 
+ K 
+ , et al 
+ . Post-Exertional malaise among people with long COVID compared to Myalgic Encephalomyelitis/chronic fatigue syndrome (ME/CFS) . Work 
+ 2023 ; 74 : 1179 – 86 . 10.3233/WOR-220581 
+ 36911963 
+ 118 
+
+ Damant 
+ RW 
+ , 
+ Rourke 
+ L 
+ , 
+ Cui 
+ Y 
+ , et al 
+ . Reliability and validity of the post COVID-19 condition stigma questionnaire: A prospective cohort study . EClinicalMedicine 
+ 2023 ; 55 : 101755 . 10.1016/j.eclinm.2022.101755 
+ 36447641 
+ PMC9694932 119 
+
+ Lowenstein 
+ F 
+ , 
+ Vazquez 
+ A 
+
+ . Open letter to the NIH . Body Politic ; 2023 . Available : https://www.wearebodypolitic.com/bodytype/2021/4/22/open-letter-to-nih [Accessed 8 Jul 2023 ]. 120 
+
+ Cohrs 
+ R 
+
+ . A slow-moving Glacier’: NIH’s sluggish and often opaque efforts to study long Covid draw patient, expert ire . STAT News ; 2022 . Available : https://www.statnews.com/2022/03/29/nih-long-covid-sluggish-study/ [Accessed 27 Dec 2023 ]. 121 
+
+ Cohrs 
+ R 
+ , 
+ Ladyzhets 
+ B 
+
+ . The NIH has poured $1 billion into long Covid research-with little to show for it . STAT News 
+ 2023 . Available : https://www.statnews.com/2023/04/20/long-covid-nih-billion/ 
+ 122 
+
+ Rubin 
+ R 
+
+ . As their numbers grow, COVID-19 ‘long haulers’ stump experts . JAMA 
+ 2020 ; 324 : 1381 . 10.1001/jama.2020.17709 
+ 32965460 
+ 123 
+
+ Choutka 
+ J 
+ , 
+ Jansari 
+ V 
+ , 
+ Hornig 
+ M 
+ , et al 
+ . Unexplained post-acute infection syndromes . Nat Med 
+ 2022 ; 28 : 911 – 23 . 10.1038/s41591-022-01810-6 
+ 35585196 
+ 124 
+
+ Nacul 
+ L 
+ , 
+ de Barros 
+ B 
+ , 
+ Kingdon 
+ CC 
+ , et al 
+ . Evidence of clinical pathology abnormalities in people with Myalgic Encephalomyelitis/chronic fatigue syndrome (ME/CFS) from an analytic cross-sectional study . Diagnostics (Basel) 
+ 2019 ; 9 : 41 . 10.3390/diagnostics9020041 
+ 30974900 
+ PMC6627354 125 
+
+ Ruiz-Núñez 
+ B 
+ , 
+ Tarasse 
+ R 
+ , 
+ Vogelaar 
+ EF 
+ , et al 
+ . Higher prevalence of ‘low T3 syndrome’ in patients with chronic fatigue syndrome: A case-control study . Front Endocrinol (Lausanne) 
+ 2018 ; 9 : 97 . 10.3389/fendo.2018.00097 
+ 29615976 
+ PMC5869352 126 
+
+ Nacul 
+ LC 
+ , 
+ Mudie 
+ K 
+ , 
+ Kingdon 
+ CC 
+ , et al 
+ . Hand grip strength as a clinical biomarker for ME/CFS and disease severity . Front Neurol 
+ 2018 ; 9 : 992 . 10.3389/fneur.2018.00992 
+ 30538664 
+ PMC6277492 

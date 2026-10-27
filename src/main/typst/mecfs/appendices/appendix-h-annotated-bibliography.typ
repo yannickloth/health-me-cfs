@@ -45455,3 +45455,102 @@ this appendix, in the microclot literature section, and is not duplicated here.
     - *Sample:* Large (n=778)
     - *Replication:* Consistent with @Fraser2026LCcoagulation
     - *Score:* raw 0.80 → cap 0.85 (does not bind) → population weight 0.85 → *0.68*
+
+<sec:bib-naik2026-ldn-postcovid-rct>
+
+=== Naik 2026 — Low Dose Naltrexone for Post-COVID Fatigue Syndrome (RCT)
+@Naik2026LDNPostCOVIDRCT
+
+/ *Full Citation:*: Naik H, Boulter T, Cooke E, Cristobal J, Izquierdo AM, Colla Machado BA, Khor E, Flanagan N, Tsai M, Robertson H, Gray G, Fisher C, Song X, Levin A, Bone J, Nacul L. Low Dose Naltrexone for Post-COVID Fatigue Syndrome: A Randomized Controlled Trial. _medRxiv_. 2026. Preprint.
+/ *DOI:*: #link("https://doi.org/10.64898/2026.10.22.26363582")[10.64898/2026.10.22.26363582]
+/ *Trial:*: NCT05430152
+/ *Study Design:*: Decentralized, double-blind, placebo-controlled, parallel-group RCT (1:1, stratified by sex), British Columbia and Ontario, Canada (Jan 2024–Feb 2026)
+/ *Sample Size:*: n=160 (LDN 81 vs placebo 79); 70% female; mean age 45.1 y
+/ *Key Findings:*:
+    - Primary outcome (FSS fatigue severity, 16 weeks) was null: LDN 4.2 vs placebo 4.4, adjusted mean difference −0.76 (95% CI −4.18 to 2.67)
+    - All secondary outcomes null: pain VAS (AMD 0.03), PQSymp-12 (AMD −0.70), daily step count (AMD −5), EQ-5D-5L utility (AMD 0.02)
+    - Grade ≥3 adverse events 6.2% (LDN) vs 3.8% (placebo); any AE 79.0% vs 83.5%; ≥80% adherence 77.9% vs 86.8%
+/ *Conclusion:*: Compared with placebo, LDN up to 4.5 mg/day for 16 weeks was well tolerated but did not improve fatigue severity in people with post-COVID fatigue syndrome.
+/ *Limitations:*: Preprint (not yet peer-reviewed); PCFS definition (ME/CFS-like symptoms ≥3 months post-SARS-CoV-2) is not a validated classic ME/CFS cohort; wide confidence interval on the primary outcome.
+/ *Certainty Assessment:*:
+    - *Quality:* High design (double-blind RCT, n=160) but preprint
+    - *Sample:* Large (n=160)
+    - *Replication:* First RCT in this population; consistent with the fibromyalgia LDN null RCTs (@DueBruun2024LDNFibromyalgia, @Nielsen2026LDNFMResponder)
+    - *Score:* raw 0.75 → population weight 0.85 (post-COVID fatigue) → *0.65*
+
+=== Naik 2024 — LDN for Post-COVID Fatigue: Trial Protocol
+@Naik2024LDNprotocol
+
+/ *Full Citation:*: Naik H, Cooke E, Boulter T, Dyer R, Bone JN, Tsai M, Cristobal J, McKay RJ, Song X, Nacul L. Low-dose naltrexone for post-COVID fatigue syndrome: a study protocol for a double-blind, randomised trial in British Columbia. _BMJ Open_. 2024;14(5):e085272.
+/ *DOI:*: #link("https://doi.org/10.1136/bmjopen-2024-085272")[10.1136/bmjopen-2024-085272]
+/ *PMID:*: 38740499
+/ *Study Design:*: SPIRIT-compliant published protocol for a randomised, double-blind, placebo-controlled trial
+/ *Sample Size:*: planned n=160 (80/arm)
+/ *Key Findings:*:
+    - Primary endpoint fatigue severity (FSS) at 16 weeks; LDN 1.0 mg titrated to 4.5 mg/day vs matching placebo
+    - Defines PCFS as new ME/CFS-like symptoms ≥3 months after SARS-CoV-2 infection
+    - Prespecified secondary outcomes (pain VAS, PQSymp-12, EQ-5D-5L, step count) and exploratory biomarkers (IL-6, IFNγ, hsCRP, cortisol, rT3/T3)
+/ *Conclusion:*: Establishes the design and endpoints that the 2026 null result (@Naik2026LDNPostCOVIDRCT) reports on.
+/ *Limitations:*: Protocol only — carries no efficacy evidence.
+/ *Certainty Assessment:*:
+    - *Quality:* High (peer-reviewed protocol)
+    - *Sample:* Not applicable (protocol)
+    - *Replication:* Not applicable
+    - *Score:* raw 0.75 → population weight 0.85 → *0.65*
+
+=== Tamariz 2024 — LDN Improves Post-COVID-19 Condition Symptoms
+@Tamariz2024LDNpostcovid
+
+/ *Full Citation:*: Tamariz L, Bast E, Klimas NG, Palacio A. Low-dose Naltrexone Improves post-COVID-19 condition Symptoms. _Clinical Therapeutics_. 2024;46(3):e101–e106.
+/ *DOI:*: #link("https://doi.org/10.1016/j.clinthera.2023.12.009")[10.1016/j.clinthera.2023.12.009]
+/ *PMID:*: 38267326
+/ *Study Design:*: Retrospective cohort (EHR)
+/ *Sample Size:*: n=108 consecutive post-COVID-19 clinic patients
+/ *Key Findings:*:
+    - Adjusted relative hazard of improvement for LDN = 5.04 (95% CI 1.22–20.77, $p$=0.02) vs physical therapy alone
+    - Both fatigue and pain improved on LDN; only fatigue improved on amitriptyline
+/ *Conclusion:*: Post-COVID-19 condition symptoms may improve on medications adapted from ME/CFS (LDN); RCTs required to confirm.
+/ *Limitations:*: Observational, no randomization, wide confidence interval, EHR-recorded subjective outcomes, single clinic.
+/ *Certainty Assessment:*:
+    - *Quality:* Moderate (peer-reviewed retrospective cohort)
+    - *Sample:* n=108
+    - *Replication:* Single study
+    - *Score:* raw 0.50 → population weight 0.85 → *0.45*
+
+=== O'Kelly 2022 — LDN in a Long COVID Cohort (Pre–Post)
+@OKelly2022LDNlongcovid
+
+/ *Full Citation:*: O'Kelly B, Vidal L, McHugh T, Woo J, Avramovic G, Lambert JS. Safety and efficacy of low dose naltrexone in a long covid cohort; an interventional pre-post study. _Brain, Behavior, & Immunity - Health_. 2022;24:100485.
+/ *DOI:*: #link("https://doi.org/10.1016/j.bbih.2022.100485")[10.1016/j.bbih.2022.100485]
+/ *PMID:*: 35814187
+/ *Study Design:*: Single-centre interventional pre–post cohort (no control)
+/ *Sample Size:*: n=52 (76.9% female; median age 43.5; median 333 days post-COVID)
+/ *Key Findings:*:
+    - LDN (1 mg month 1, 2 mg month 2) improved 6 of 7 parameters (recovery, ADL limitation, energy, pain, concentration, sleep; $p$ ≤ 0.001); mood $p$=0.054
+    - LDN safe: 2/38 (5.3%) stopped for new-onset diarrhoea and fatigue
+/ *Conclusion:*: LDN is safe and may improve well-being in post-COVID-19 syndrome; RCTs needed.
+/ *Limitations:*: Uncontrolled, small, subjective Likert outcomes, no placebo, high dropout (69.2% completed).
+/ *Certainty Assessment:*:
+    - *Quality:* Low–moderate (uncontrolled pre–post)
+    - *Sample:* n=52
+    - *Replication:* Single study
+    - *Score:* raw 0.40 → population weight 0.85 → *0.35*
+
+=== Isman 2024 — LDN + NAD+ for Persistent Post-COVID Fatigue
+@Isman2024LDNNAD
+
+/ *Full Citation:*: Isman A, Nyquist A, Strecker B, Harinath G, Lee V, Zhang X, Zalzala S. Low-dose naltrexone and NAD+ for the treatment of patients with persistent fatigue symptoms after COVID-19. _Brain, Behavior, & Immunity - Health_. 2024;36:100733.
+/ *DOI:*: #link("https://doi.org/10.1016/j.bbih.2024.100733")[10.1016/j.bbih.2024.100733]
+/ *PMID:*: 38352659
+/ *Study Design:*: Open-label single-arm pilot (planned placebo-controlled, converted due to accrual)
+/ *Sample Size:*: n=36 (LDN 4.5 mg/day + NAD+ iontophoresis patches ×12 weeks)
+/ *Key Findings:*:
+    - SF-36 total score 36.5 → 52.1 ($p$ < 0.0001); Chalder fatigue 25.9 → 17.4 ($p$ < 0.0001)
+    - 52% responders; mild LDN-related AEs managed by dose adjustment
+/ *Conclusion:*: LDN + NAD+ may be safe and beneficial in a subset of patients with persistent post-COVID fatigue; larger RCTs required.
+/ *Limitations:*: No control, no blinding, combined LDN+NAD+ (cannot isolate LDN), commercial sponsor (AgelessRx).
+/ *Certainty Assessment:*:
+    - *Quality:* Low (open-label, commercial)
+    - *Sample:* n=36
+    - *Replication:* Single study
+    - *Score:* raw 0.35 → population weight 0.85 → *0.30*
