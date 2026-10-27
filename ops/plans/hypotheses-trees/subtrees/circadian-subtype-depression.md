@@ -11,12 +11,13 @@
 
 | ID | Title | Env | Cert | mech | tx | expl | math | dx | Status | Children |
 |----|-------|-----|------|------|----|------|------|----|--------|----------|
-| 1a | ME/CFS circadian-delay subgroup | speculation | 0.35 | 3 | 2 | 4 | 0 | 2 | ✅ | — |
+| 1a | ME/CFS circadian-delay subgroup | hypothesis | 0.45 | 3 | 2 | 4 | 0 | 2 | ✅ | — |
 | 1b | HPA-axis flattening as shared bridge | speculation | 0.30 | 3 | 1 | 3 | 0 | 1 | ✅ | — |
 | 1c | TGFB-circadian immune coupling | speculation | 0.28 | 3 | 1 | 3 | 0 | 1 | ✅ | — |
-| 1d | Melatonin response is chronotype-dependent | speculation | 0.35 | 3 | 3 | 3 | 0 | 1 | ✅ | — |
-| 1e | Molecular clock pathway (SCN-melatonin-clock genes) | speculation | 0.32 | 4 | 2 | 4 | 0 | 1 | ✅ | — |
+| 1d | Melatonin response is chronotype-dependent | hypothesis | 0.45 | 3 | 3 | 3 | 0 | 1 | ✅ | — |
+| 1e | Molecular clock pathway (SCN-melatonin-clock genes) | hypothesis | 0.45 | 4 | 2 | 4 | 0 | 1 | ✅ | — |
 | 1f | Chronobiological agents fit better than SSRIs/SNRIs | speculation | 0.30 | 3 | 4 | 3 | 0 | 2 | ✅ | — |
+| 1g | SCN-clock amplitude deficit as energy-metabolic vulnerability | hypothesis | 0.45 | 4 | 2 | 4 | 0 | 1 | ✅ | — |
 | 2a | Apply Tonini classifier to ME/CFS cohorts | proposal | n/a | 3 | 1 | 3 | 0 | 3 | ✅ | — |
 | 2b | Chronotype-stratified melatonin/zinc replication | proposal | n/a | 3 | 3 | 3 | 0 | 2 | ✅ | — |
 | 2c | Polygenic risk overlap study | proposal | n/a | 3 | 1 | 3 | 0 | 3 | ⏭️ | — |
@@ -39,16 +40,17 @@
 
 ## Notes
 
-- PARTIAL integration cap applied: only categories 1–2 and 10–12 were brainstormed; categories 3–9 (therapeutic/intervention specifics) were deferred.
-- Integrated in Phase 3:
-  - 1a → folded into `@spec:circadian-depression-mecfs-overlap`
-  - 1d → folded into `@spec:circadian-depression-mecfs-overlap`
+- PARTIAL integration cap was applied initially but was overridden by user instruction in Phase 14 (see plan file).
+- Integrated in Phase 3 (initial cycle):
+  - 1a → folded into `@hyp:circadian-depression-mecfs-overlap` (promoted to `#hypothesis` in Phase 14; cert 0.45)
+  - 1d → folded into `@hyp:circadian-depression-mecfs-overlap` (promoted with 1a)
   - 2a → `@oq:circadian-subtype-me-cfs`
-  - 2b → research-direction paragraph inside `@spec:circadian-depression-mecfs-overlap`
+  - 2b → research-direction paragraph inside `@hyp:circadian-depression-mecfs-overlap`
   - 10a → `@lim:circadian-depression-translation` (single-study dependence)
   - 10e → `@lim:circadian-depression-translation` (population-relevance gap)
-  - 11a → alternative-interpretations paragraph of `@spec:circadian-depression-mecfs-overlap`
+  - 11a → alternative-interpretations paragraph of `@hyp:circadian-depression-mecfs-overlap`
   - 12e → severity-applicability fields across all new environments
 - Integrated in Phase 5 (Tier 2 `#speculation`): 1b → `@spec:hpa-circadian-shared-bridge`; 1c → `@spec:tgfb-circadian-immune-coupling`.
-- Integrated in Phase 5 augmentation (mechanism/medication focus): 1e → `@spec:circadian-clock-molecular-pathway`; 1f → `@spec:chronobiological-agents-circadian-depression`.
-- Total integrated: 12 of 25.
+- Integrated in Phase 5 augmentation (mechanism/medication focus): 1e → `@hyp:circadian-clock-molecular-pathway` (promoted to `#hypothesis` in Phase 14; cert 0.45); 1f → `@spec:chronobiological-agents-circadian-depression`.
+- Integrated in Phase 14 (full-integration promotion): 1g → new `#hypothesis` `@hyp:scn-clock-energy-deficit` in `ch07-energy-metabolism` linking SCN-clock amplitude to cellular energy deficit.
+- Total integrated: 13 of 26.

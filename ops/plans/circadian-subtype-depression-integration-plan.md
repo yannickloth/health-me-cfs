@@ -19,10 +19,10 @@ Investigate the newly identified circadian subtype of major depression (~1 in 4 
 
 | # | Idea / hypothesis | Tier | Certainty | Status | Notes |
 |---|-------------------|------|-----------|--------|-------|
-| 1 | Circadian misalignment in depression may share pathophysiology with ME/CFS sleep disruption. | — | — | ✅ done | Folded into `@spec:circadian-depression-mecfs-overlap` |
+| 1 | Circadian misalignment in depression may share pathophysiology with ME/CFS sleep disruption. | — | — | ✅ done | Folded into `@hyp:circadian-depression-mecfs-overlap` |
 | 2 | HPA-axis/cortisol rhythmicity abnormalities could bridge the two conditions. | — | — | ✅ done | Integrated as `@spec:hpa-circadian-shared-bridge` |
 | 3 | Melatonin/clock-gene findings may be translatable to ME/CFS subtyping. | — | — | ✅ done | Integrated as `@spec:tgfb-circadian-immune-coupling` and melatonin/zinc citation updates |
-| 4 | Circadian depression subtype polygenic risk (ADHD, insulin resistance, inflammation, evening chronotype) overlaps with ME/CFS endophenotypes. | — | — | ✅ done | Folded into `@spec:circadian-depression-mecfs-overlap` |
+| 4 | Circadian depression subtype polygenic risk (ADHD, insulin resistance, inflammation, evening chronotype) overlaps with ME/CFS endophenotypes. | — | — | ✅ done | Folded into `@hyp:circadian-depression-mecfs-overlap` |
 
 ## Certainty bump log
 
@@ -65,7 +65,7 @@ Investigate the newly identified circadian subtype of major depression (~1 in 4 
 ## Phase 3–3.5 record
 
 - Environments added to `src/main/typst/mecfs/part2-pathophysiology/ch17-speculative-hypotheses/ch14d-cross-disease.typ`:
-  - `#speculation` `@spec:circadian-depression-mecfs-overlap` (certainty 0.35)
+  - `#speculation` `@hyp:circadian-depression-mecfs-overlap` (certainty 0.35)
   - `#open-question` `@oq:circadian-subtype-me-cfs`
   - `#limitation` `@lim:circadian-depression-translation`
 - Hypothesis registry entries added in `src/main/typst/mecfs/part4-research/hypothesis-registry.typ` (3 `#registry-entry` rows + summary table rows).
@@ -102,7 +102,7 @@ Triggered by user request to deepen biochemical mechanisms and medication discus
 - Additional paper reviewed: Guardiola-Lemaitre et al. 2014, "Agomelatine: mechanism of action and pharmacological profile in relation to antidepressant properties" @GuardiolaLemaitre2014Agomelatine.
 - Bib entry added to `src/main/typst/mecfs/bib/treatments.bib`; abstract.txt filed at `Literature/treatments/GuardiolaLemaitre2014Agomelatine/abstract.txt`. Publisher PDF could not be acquired (PMC bot challenge / browser download timeout); full text verified via PMC HTML.
 - New environments integrated in `ch14d-cross-disease.typ`:
-  - `@spec:circadian-clock-molecular-pathway` (certainty 0.32): SCN → melatonin/MT1/MT2 → CLOCK/BMAL1/PER/CRY → peripheral HPA/immune/metabolic outputs.
+  - `@hyp:circadian-clock-molecular-pathway` (certainty 0.32): SCN → melatonin/MT1/MT2 → CLOCK/BMAL1/PER/CRY → peripheral HPA/immune/metabolic outputs.
   - `@spec:chronobiological-agents-circadian-depression` (certainty 0.30): rationale for agomelatine, melatonin and morning bright light over SSRIs/SNRIs in the delayed-phase subtype.
 - Existing `@syn:circadian-subtype-depression-model` updated to include the molecular-clock and medication mechanism angles.
 - Hypothesis registry updated with `#registry-entry` rows and table rows for both new speculations.
@@ -143,7 +143,7 @@ Triggered by user request to deepen biochemical mechanisms and medication discus
 - Conflict pairs: 0
 - Independent pairs: 2
 - Certainty adjustments: 0 (PARTIAL cap + weak evidence; no justified bumps)
-- Cross-reference added: `spec:circadian-resynchronization` → `@spec:circadian-depression-mecfs-overlap`
+- Cross-reference added: `spec:circadian-resynchronization` → `@hyp:circadian-depression-mecfs-overlap`
 
 ## Phase 8 record
 
@@ -259,6 +259,28 @@ Triggered by user request to deepen biochemical mechanisms and medication discus
 - Status: ✅ done
 - Commit hash: `c2a73ff9abfa10941ab1c3f44de8828965077865`
 - Notes: standalone `/integrate-topic` cycle completed under PARTIAL cap; all changes staged and committed via explicit per-topic file list.
+
+## Phase 14 record: full integration promotion (user override of PARTIAL cap)
+
+Triggered by user instruction: "weak evidence is not a big deal, we need to integrate it because it's also related to energy deficit... I want full integration, who said 'no hypothesis-box allowed'?"
+
+- PARTIAL cap lifted. The previous "no `#hypothesis-box`" decision was an assistant judgment call, not a project rule.
+- Promoted in `src/main/typst/mecfs/part2-pathophysiology/ch17-speculative-hypotheses/ch14d-cross-disease.typ`:
+  - `@hyp:circadian-depression-mecfs-overlap` (formerly `@spec:...`, certainty raised from 0.35 to 0.45).
+  - `@hyp:circadian-clock-molecular-pathway` (formerly `@spec:...`, certainty raised from 0.32 to 0.45).
+- Kept as `#speculation`:
+  - `@spec:hpa-circadian-shared-bridge` (0.30)
+  - `@spec:tgfb-circadian-immune-coupling` (0.28)
+  - `@spec:chronobiological-agents-circadian-depression` (0.30)
+- Added energy-deficit bridge in `src/main/typst/mecfs/part2-pathophysiology/ch07-energy-metabolism/sec-26-neurosteroid-cross-talk-with-mitochondrial-bioenergetics/subsec-26-emerging-metabolic-mechanisms-2026-update/subsec-26-emerging-metabolic-mechanisms-2026-update.typ`:
+  - New `#hypothesis` `@hyp:scn-clock-energy-deficit` (certainty 0.45) linking SCN-clock amplitude to cellular energy deficit via mistimed substrate delivery, blunted nocturnal autophagy and mitochondrial recovery failure.
+- Updated hypothesis registry:
+  - Changed registry entry types from "S" to "H" for the two promoted claims.
+  - Added new `#registry-entry` for `@hyp:scn-clock-energy-deficit`.
+  - Updated table rows, certainties and cross-references.
+- Updated cross-references in `ch10-endocrine/sec-06-melatonin-and-circadian-rhythms/subsec-06-circadian-disruption-as-an-integrative-mechanism/subsec-06-circadian-disruption-as-an-integrative-mechanism.typ` from `@spec:circadian-depression-mecfs-overlap` to `@hyp:circadian-depression-mecfs-overlap`.
+- Updated `ops/plans/hypotheses-trees/subtrees/circadian-subtype-depression.md`, `ops/research/fragments-circadian-subtype-depression-2026-10-27.md`, and this plan file to reflect the label changes.
+- Build to be verified: `nix flake check`.
 
 ## Notes
 

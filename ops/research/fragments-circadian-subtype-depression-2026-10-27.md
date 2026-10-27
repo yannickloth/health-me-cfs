@@ -32,11 +32,11 @@ Source: Phase 3/5 environments in `ch17-speculative-hypotheses/ch14d-cross-disea
 ## Falsifiability audit notes
 
 The six hypothesis/speculation/open-question environments in `ch14d-cross-disease.typ` carry explicit falsifiable predictions:
-- `@spec:circadian-depression-mecfs-overlap`: ME/CFS circadian subtype cluster and chronotype-predicted treatment response.
+- `@hyp:circadian-depression-mecfs-overlap`: ME/CFS circadian subtype cluster and chronotype-predicted treatment response.
 - `@oq:circadian-subtype-me-cfs`: cluster separation or continuous distribution in ME/CFS.
 - `@spec:hpa-circadian-shared-bridge`: cross-disease cortisol amplitude overlap.
 - `@spec:tgfb-circadian-immune-coupling`: TGFB/IL-6 signature and clock gene rhythmicity in circadian-delay ME/CFS.
-- `@spec:circadian-clock-molecular-pathway`: delayed DLMO, reduced rest-activity amplitude and altered clock-gene rhythmicity in circadian-delayed ME/CFS.
+- `@hyp:circadian-clock-molecular-pathway`: delayed DLMO, reduced rest-activity amplitude and altered clock-gene rhythmicity in circadian-delayed ME/CFS.
 - `@spec:chronobiological-agents-circadian-depression`: chronobiological interventions outperform SSRIs/SNRIs on sleep-circadian outcomes in delayed-phase patients.
 
 The `#limitation` (`@lim:circadian-depression-translation`) and Phase-10a `#synthesis` (`@syn:circadian-subtype-depression-model`) do not introduce new testable predictions; they restate bounds and aggregate the environments above.
