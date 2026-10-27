@@ -1,9 +1,9 @@
 ---
 name: formalization-pipeline
-description: Use this skill to transform ME/CFS pathophysiology from qualitative descriptions into formal models — causal DAG, EPC, and ODE — with explicit uncertainty quantification. Use when formalizing biological mechanisms, building causal models, or quantifying pathway dynamics.
+description: Use this skill to transform ME/CFS and related-condition pathophysiology from qualitative descriptions into formal models — causal DAG, EPC, and ODE — with explicit uncertainty quantification. Use when formalizing biological mechanisms, building causal models, or quantifying pathway dynamics across ME/CFS and conditions that illuminate it (Long COVID, fibromyalgia, ADHD, autism, viral/bacterial triggers, etc.).
 ---
 
-Transform ME/CFS pathophysiology into rigorous formal models with explicit uncertainty quantification.
+Transform ME/CFS and related-condition pathophysiology into rigorous formal models with explicit uncertainty quantification.
 
 **Scope + depth**: $ARGUMENTS
 

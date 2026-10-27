@@ -1,9 +1,9 @@
 ---
 name: integrate-topic
-description: Use this skill to evaluate and integrate a new topic into the ME/CFS paper — end-to-end pipeline from literature research and evidence synthesis through content integration, hypothesis compatibility checking, review convergence, and commit. Use when adding new research findings, treatments, mechanisms, or biomarkers. Supports explicit rejection when evidence doesn't warrant integration.
+description: Use this skill to evaluate and integrate a new topic into the ME/CFS-centered paper — end-to-end pipeline from literature research and evidence synthesis through content integration, hypothesis compatibility checking, review convergence, and commit. Use when adding new research findings, treatments, mechanisms, biomarkers, or related-condition insights (Long COVID, post-treatment Lyme disease, fibromyalgia, ADHD, autism, viral/bacterial triggers, and other conditions that illuminate ME/CFS biology). Supports explicit rejection when evidence doesn't warrant integration.
 ---
 
-# Evaluate and Integrate New Topic into the ME/CFS Paper
+# Evaluate and Integrate New Topic into the ME/CFS-Centered Paper
 
 End-to-end: research (+ full-text PDF filed under `Literature/<category>/<BibKey>/`) → synthesize → **integration decision** → develop → **safety gate** → brainstorm → **drug-interaction check** → triage → integrate (tiered) → pathway-to-drug tracing → falsifiability sweep → retroactive adaptation → cross-hypothesis compatibility → build → quality assessment → cross-chapter coherence → high-level synthesis → strategic-framing propagation → review convergence → plan-record (Phase 12) → **completion gate (Phase Ledger)** → commit.
 

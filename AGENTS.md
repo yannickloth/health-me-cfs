@@ -2,7 +2,9 @@
 
 # AGENTS.md
 
-ME/CFS documentation — Typst PDF + Quarto HTML web generation, Nix-hermetic.
+ME/CFS-centered documentation — Typst PDF + Quarto HTML web generation, Nix-hermetic.
+
+**Scope:** The document is anchored in myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) but is not limited to it. The paper explicitly covers related conditions and mechanisms that illuminate ME/CFS biology: energy metabolism (deficit, dysregulation, and conservation), post-infectious and fatigue syndromes (Long COVID, post-treatment Lyme disease, fibromyalgia), neurodevelopmental and attention conditions whose biology intersects with brain energy regulation (ADHD, autism), and the viral and bacterial infections that can trigger ME/CFS or produce related symptom profiles. Agents and skills should treat any of these domains as in-scope when they advance the document's core questions.
 
 ---
 

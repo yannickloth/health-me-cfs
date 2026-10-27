@@ -1,11 +1,11 @@
 ---
 name: medication-differential-analysis
-description: Use this skill to generate differential diagnostic analysis for medications in the ME/CFS paper — what clinical response and non-response reveal about broken mechanisms, root causes, and the next targeted treatment step. Use when building the differential diagnostic framework, analyzing medication responses, or after integrating a new treatment topic.
+description: Use this skill to generate differential diagnostic analysis for medications in the ME/CFS-centered paper — what clinical response and non-response reveal about broken mechanisms, root causes, and the next targeted treatment step. Use when building the differential diagnostic framework, analyzing medication responses, or after integrating a new treatment topic. Scope includes medications used in ME/CFS and in related conditions (Long COVID, fibromyalgia, ADHD, autism, post-infectious syndromes, etc.) when the mechanism illuminates ME/CFS biology.
 ---
 
 # Medication Differential Analysis
 
-For every medication in the ME/CFS paper, produce a self-contained differential analysis: what does clinical response (or non-response) tell us about which mechanisms are broken, which root causes must be addressed, and what the next most targeted treatment step should be.
+For every medication in the ME/CFS-centered paper, produce a self-contained differential analysis: what does clinical response (or non-response) tell us about which mechanisms are broken, which root causes must be addressed, and what the next most targeted treatment step should be.
 
 **IVP note:** This analysis shares the same change-driver set as ch24's existing "Interpreting Treatment Responses" section — both are driven by Part II pathophysiology. The expansion is a readability-prescribed split within the same IVP grouping.
 

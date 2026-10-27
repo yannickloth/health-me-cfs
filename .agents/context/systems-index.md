@@ -14,7 +14,7 @@ Full index + specs: `.opencode/agents/README.md`
 
 ## Formalization System
 
-Builds formal causal and quantitative models of ME/CFS pathophysiology with explicit uncertainty quantification.
+Builds formal causal and quantitative models of ME/CFS and related-condition pathophysiology with explicit uncertainty quantification.
 
 **Triggers:** "Formalize [process/chapter]" · "Build causal model for [mechanism]" · "Create EPC for [biological process]" · "Model [phenomenon] mathematically"
 
@@ -46,7 +46,7 @@ Builds formal causal and quantitative models of ME/CFS pathophysiology with expl
 
 ## Literature Management System
 
-**Triggers:** "Find and integrate papers on [topic]" · "Add citations for [claim]" · "Search for research on [mechanism]"
+**Triggers:** "Find and integrate papers on [topic]" · "Add citations for [claim]" · "Search for research on [mechanism]" · "How does [related condition] illuminate ME/CFS?"
 
 | Agent | Role |
 |-------|------|
