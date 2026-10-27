@@ -1,10 +1,10 @@
 #import "../../shared/environments.typ": *
 
-= Comparative Nosology: ME/CFS Among Contested Diagnoses
+= Comparative Nosology: ME/CFS Among Related Conditions
 <ch:comparative-nosology>
 
 #chapter-abstract[
-Systematic comparison of ME/CFS with fibromyalgia, irritable bowel syndrome, post-treatment Lyme disease, complex regional pain syndrome, Gulf War illness, mast cell activation syndrome, Ehlers-Danlos/hypermobility, Long COVID, and other post-infectious fatigue syndromes — examining diagnostic boundary disputes, shared mechanisms, treatment overlap, and the historical "splitting vs. lumping" debate.
+Systematic comparison of ME/CFS with fibromyalgia, irritable bowel syndrome, post-treatment Lyme disease, complex regional pain syndrome, Gulf War illness, mast cell activation syndrome, Ehlers-Danlos/hypermobility, Long COVID, ADHD, autism, and other post-infectious fatigue, neurodevelopmental, and energy-dysregulation syndromes — examining diagnostic boundary disputes, shared mechanisms, treatment overlap, and the historical "splitting vs. lumping" debate. The chapter treats each comparator as a stress test of the same core biology: how energy is produced, distributed, and conserved, and how infection or developmental biology can derail these processes.
 ]
 
 #roadmap(title: [How to Use This Chapter])[
@@ -19,8 +19,8 @@ Systematic comparison of ME/CFS with fibromyalgia, irritable bowel syndrome, pos
 
 == The Splitting vs. Lumping Problem
 
-ME/CFS sits at the center of a cluster of contested diagnoses whose boundaries are actively debated.
-Fibromyalgia, irritable bowel syndrome, post-treatment Lyme disease, complex regional pain syndrome, Gulf War illness, mast cell activation syndrome, and hypermobile Ehlers-Danlos syndrome each share substantial symptom overlap with ME/CFS, and with each other.
+ME/CFS sits at the center of a cluster of related conditions whose boundaries are actively debated.
+Fibromyalgia, irritable bowel syndrome, post-treatment Lyme disease, complex regional pain syndrome, Gulf War illness, mast cell activation syndrome, hypermobile Ehlers-Danlos syndrome, ADHD, and autism each share mechanisms or symptom overlap with ME/CFS, and with each other.
 The core question — whether these represent distinct diseases ("splitting") or manifestations of a common underlying process ("lumping") — has clinical, research, and policy consequences.
 
 The classic lumping argument was articulated by Wessely et al.\ (1999): the overlap between these syndromes — in case definition, demographics, non-symptom associations, and treatment response — outweighs their differences, arguing for dimensional rather than categorical classification (Wessely et al., 1999).
