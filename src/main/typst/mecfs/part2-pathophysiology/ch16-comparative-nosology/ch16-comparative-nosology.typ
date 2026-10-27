@@ -4,7 +4,7 @@
 <ch:comparative-nosology>
 
 #chapter-abstract[
-Systematic comparison of ME/CFS with fibromyalgia, irritable bowel syndrome, post-treatment Lyme disease, complex regional pain syndrome, Gulf War illness, mast cell activation syndrome, Ehlers-Danlos/hypermobility, Long COVID, ADHD, autism, and other post-infectious fatigue, neurodevelopmental, and energy-dysregulation syndromes — examining diagnostic boundary disputes, shared mechanisms, treatment overlap, and the historical "splitting vs. lumping" debate. The chapter treats each comparator as a stress test of the same core biology: how energy is produced, distributed, and conserved, and how infection or developmental biology can derail these processes.
+Systematic comparison of ME/CFS with fibromyalgia, irritable bowel syndrome, post-treatment Lyme disease, complex regional pain syndrome, Gulf War illness, mast cell activation syndrome, Ehlers-Danlos/hypermobility, Long COVID, ADHD, autism, POTS/dysautonomia, narcolepsy, idiopathic hypersomnia, multiple sclerosis, lupus, rheumatoid arthritis, Sjögren's syndrome, primary mitochondrial and OXPHOS disorders, cancer-related fatigue, and other post-infectious, neurodevelopmental, autoimmune, and energy-dysregulation syndromes — examining diagnostic boundary disputes, shared mechanisms, treatment overlap, and the historical "splitting vs. lumping" debate. The chapter treats each comparator as a stress test of the same core biology: how energy is produced, distributed, and conserved, and how infection, immune challenge, developmental biology, or environmental exposure can derail these processes.
 ]
 
 #roadmap(title: [How to Use This Chapter])[
