@@ -106,7 +106,7 @@ A subset of ME/CFS patients worsen on LDN (@sec:paradoxical-reactor). Their adve
 
 ====== Interpretation 6 — LDN may not work better than placebo in ME/CFS
 
-No large RCT has demonstrated superiority to placebo. If LDN = placebo, all response patterns interpreted here are placebo effects or natural fluctuations. This cannot be excluded without a controlled trial.
+No large RCT has demonstrated superiority to placebo. A 2026 placebo-controlled RCT in post-COVID fatigue syndrome (n=160), the closest post-viral proxy, reported null results on every prespecified outcome @Naik2026LDNPostCOVIDRCT. If that null generalizes to classic ME/CFS, all response patterns interpreted here are placebo effects or natural fluctuations.
 
 ====== Key caveat on non-response
 
@@ -138,12 +138,12 @@ Step 1: LDN non-response → neuroinflammation less likely. Step 2: Pyridostigmi
 
 ===== Limitations
 
-- *No large ME/CFS RCT:* All inferences rest on known mechanisms, retrospective data, fibromyalgia trials, and community reports — not controlled ME/CFS evidence.
+- *No large ME/CFS RCT; the closest post-viral proxy RCT was null:* All inferences rest on known mechanisms, retrospective data, fibromyalgia trials, and community reports — not controlled ME/CFS evidence. A 2026 placebo-controlled RCT in post-COVID fatigue syndrome (n=160) was null on every prespecified outcome @Naik2026LDNPostCOVIDRCT.
 - *Mechanism specificity uncertain:* LDN targets multiple mechanisms simultaneously; response cannot be attributed to any single one.
 - *No biomarker confirms target engagement:* Cannot measure TLR4 blockade or TRPM3 restoration in individual patients.
 - *TRPM3 testing not clinically available:* Research-grade flow cytometry only.
 - *Orexin and endorphin mechanisms are the least-tested in ME/CFS:* No pre/post LDN treatment data exist.
 - *Dose-response unknown:* Optimal dose may differ by mechanism and by individual.
-- *Overall inference certainty:* Low to Medium. If future RCTs show LDN ≤ placebo, every inference above collapses — responses would be indistinguishable from placebo plus natural fluctuation.
+- *Overall inference certainty:* Low to Medium. The null post-COVID fatigue RCT already moves this from a purely theoretical possibility toward an empirical possibility; if a classic ME/CFS RCT confirms the same null direction, every inference above collapses — responses would be indistinguishable from placebo plus natural fluctuation.
 
 *(Origin: medication-differential-analysis)*
