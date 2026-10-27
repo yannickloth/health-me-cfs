@@ -34,6 +34,25 @@ Prevents re-processing of already-integrated content.
 
 ---
 
+## LDN Post-COVID Fatigue RCT — Naik 2026 (naik2026-ldn-postcovid-rct) Literature Search
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| medRxiv | 2026-10-27 | Driving paper fetched directly: Naik et al. 2026 "Low Dose Naltrexone for Post-COVID Fatigue Syndrome: A Randomized Controlled Trial" (medRxiv 2026.10.22.26363582, DOI 10.64898/2026.10.22.26363582, NCT05430152, posted 2026-10-26). Full PDF (30 pp) + 4 supplementary .docx (eligibility tables, response-rate/figure legends, Statistical Analysis Plan, adherence/per-protocol). **NULL result**: LDN 1.0→4.5 mg ×16 weeks did not beat placebo on FSS (AMD −0.76, 95% CI −4.18 to 2.67) or any secondary outcome, n=160. First placebo-controlled LDN RCT in post-viral fatigue. |
+| PubMed (E-utilities esearch/esummary/efetch) | 2026-10-27 | 25 queries across 4 rival framings (supportive / null / responder-subtype / mechanistic) + harm/safety. 5 new bib entries. Extensive corpus reuse (not re-added): Byambasuren2026LDNlongcovid, Gouda2026LDNevidence, DueBruun2024/Nielsen2026/RodriguezFreire2026 (fibro nulls), Polo2019, Younger2013, Cabanas TRPM3 series, Bolton2019NaltrexoneSAE. |
+| Europe PMC (REST fullTextXML) | 2026-10-27 | Full text XML retrieved for 3 OA supporting papers (PMC11097836 Naik 2024 protocol; PMC9250701 O'Kelly 2022; PMC10862402 Isman 2024). Publisher PDFs blocked by bot challenge / Cloudflare — full text archived as XML/text instead. |
+| Crossref | not queried | Driving DOI (10.64898) resolved directly via medRxiv (unusual prefix, served verbatim by source; medRxiv manuscript number 2026.10.22.26363582). |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| https://www.medrxiv.org/content/10.64898/2026.10.22.26363582v1 | medrxiv | 2026-10-27 | — | `Literature/treatments/Naik2026LDNPostCOVIDFatigue/`, `bib/treatments.bib` (@Naik2026LDNPostCOVIDRCT), appendix-h `<sec:bib-naik2026-ldn-postcovid-rct>` |
+| https://doi.org/10.1136/bmjopen-2024-085272 (PMID 38740499) | pubmed/europepmc | 2026-10-27 | — | `bib/treatments.bib` (@Naik2024LDNprotocol), appendix-h |
+| https://doi.org/10.1016/j.clinthera.2023.12.009 (PMID 38267326) | pubmed | 2026-10-27 | — | `bib/treatments.bib` (@Tamariz2024LDNpostcovid), appendix-h; abstract-only (Elsevier paywall) |
+| https://doi.org/10.1016/j.bbih.2022.100485 (PMID 35814187) | pubmed/europepmc | 2026-10-27 | — | `bib/treatments.bib` (@OKelly2022LDNlongcovid), appendix-h |
+| https://doi.org/10.1016/j.bbih.2024.100733 (PMID 38352659) | pubmed/europepmc | 2026-10-27 | — | `bib/treatments.bib` (@Isman2024LDNNAD), appendix-h |
+| PubMed API queries (25 queries + efetch, 5 PMIDs) | pubmed/eutils | 2026-10-27 | — | `ops/research/search-log-naik2026-ldn-postcovid-rct-2026-10-27.md`, `ops/research/literature-naik2026-ldn-postcovid-rct-2026-10-27.md` |
+
+---
+
 ## EpiSwitch ME/CFS Diagnostic — UPDATE CYCLE (episwitch-epigenetic-test) Literature Search
 | Source | Last Scraped | Notes |
 |--------|--------------|-------|

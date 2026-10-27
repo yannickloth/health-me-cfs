@@ -49,6 +49,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 
 | Topic slug            | Subtree file                                                          | Brainstorm date | Root ideas | Integrated | Status         |
 |-----------------------|-----------------------------------------------------------------------|-----------------|------------|------------|----------------|
+| naik2026-ldn-postcovid-rct | [subtrees/naik2026-ldn-postcovid-rct.md](subtrees/naik2026-ldn-postcovid-rct.md) | 2026-10-27 | 16 | 6 | 🔵 in progress |
 | circadian-subtype-depression | [subtrees/circadian-subtype-depression.md](subtrees/circadian-subtype-depression.md) | 2026-10-27 | 26 | 13 | 🔵 in progress |
 | igg-fcgammar-mast-cell | [subtrees/igg-fcgammar-mast-cell.md](subtrees/igg-fcgammar-mast-cell.md) | 2026-10-19 | 17 | 0 | 🔵 in progress |
 | handgrip-strength-fatigability-mecfs | [subtrees/handgrip-strength-fatigability-mecfs.md](subtrees/handgrip-strength-fatigability-mecfs.md) | 2026-10-18 | 26 | 16 | ✅ done |
