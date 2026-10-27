@@ -13187,5 +13187,46 @@
   "label": "SMAD",
   "category": "protein",
   "definition": "Una familia de proteínas que transmiten señales desde los receptores de TGF-β hasta el núcleo, regulando la transcripción de genes. La señalización SMAD vincula la señalización de citocinas con la expresión de genes del reloj circadiano y las respuestas fibrosantes."
+ },
+ "agomelatine": {
+  "label": "Agomelatine",
+  "category": "medication",
+  "definition": "An antidepressant that acts as an agonist at melatonin MT1/MT2 receptors and as an antagonist at 5-HT2C serotonin receptors. It may resynchronise circadian rhythms and is sometimes discussed for circadian subtypes of depression.",
+  "generic": "agomelatine",
+  "brand": "Valdoxan, Thymanax",
+  "class": "melatonin-receptor agonist / 5-HT2C antagonist",
+  "rx": "Prescription antidepressant in many countries; not approved in the USA. No ME/CFS-specific data.",
+  "sources": [
+   {
+    "label": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/?term=agomelatine"
+   },
+   {
+    "label": "DrugBank",
+    "url": "https://go.drugbank.com/drugs/DB06594"
+   }
+  ]
+ },
+ "melanopsin": {
+  "label": "Melanopsin",
+  "category": "protein",
+  "definition": "A light-sensitive photopigment in intrinsically photosensitive retinal ganglion cells that transmits non-visual light signals to the suprachiasmatic nucleus to entrain the circadian clock."
+ },
+ "retinohypothalamic tract": {
+  "label": "Retinohypothalamic tract",
+  "category": "anatomy",
+  "definition": "A neural pathway from the retina to the suprachiasmatic nucleus that carries light information used to set the brain's master circadian clock."
+ },
+ "MT1": {
+  "label": "MT1 receptor",
+  "category": "receptor",
+  "definition": "A high-affinity melatonin receptor (also called MTNR1A) found in the suprachiasmatic nucleus and elsewhere. Activation promotes sleep onset and helps entrain circadian rhythms.",
+  "also": "MT2 receptor"
+ },
+ "MT2": {
+  "label": "MT2 receptor",
+  "category": "receptor",
+  "definition": "A melatonin receptor (also called MTNR1B) involved in phase-shifting the circadian clock. Together with MT1 it mediates many of melatonin's chronobiotic effects.",
+  "also": "MT1 receptor"
  }
 }
