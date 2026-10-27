@@ -1,0 +1,14 @@
+Title: Agomelatine: mechanism of action and pharmacological profile in relation to antidepressant properties
+Authors: B Guardiola-Lemaitre, C De Bodinat, P Delagrange, M J Millan, C Munoz, E Mocaër
+Journal: British Journal of Pharmacology (2014)
+Volume: 171, Issue: 15, Pages: 3604–3619
+DOI: 10.1111/bph.12720
+PMID: 24724693
+PMCID: PMC4128060
+URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC4128060/
+Retrieved: 2026-10-27
+
+Abstract:
+Agomelatine behaves both as a potent agonist at melatonin MT1 and MT2 receptors and as a neutral antagonist at 5-HT2C receptors. Accumulating evidence supports the notion that the psychotropic effects of agomelatine are due to the synergy between its melatonergic and 5-hydroxytryptaminergic effects. The recent demonstration of heteromeric complexes of MT1 and MT2 with 5-HT2C receptors at the cellular level may explain how these two properties translate into a synergistic action that leads to increases in hippocampal proliferation, maturation and survival through modulation of multiple cellular pathways and key targets.
+
+Note: Publisher PDF acquisition failed (PMC bot challenge / browser download timeout). Full text accessed as PMC HTML and browser-printed PDF placeholder. Citation verified against PubMed/PMC.

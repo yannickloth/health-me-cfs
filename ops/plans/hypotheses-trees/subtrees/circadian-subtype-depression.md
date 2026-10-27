@@ -15,6 +15,8 @@
 | 1b | HPA-axis flattening as shared bridge | speculation | 0.30 | 3 | 1 | 3 | 0 | 1 | ✅ | — |
 | 1c | TGFB-circadian immune coupling | speculation | 0.28 | 3 | 1 | 3 | 0 | 1 | ✅ | — |
 | 1d | Melatonin response is chronotype-dependent | speculation | 0.35 | 3 | 3 | 3 | 0 | 1 | ✅ | — |
+| 1e | Molecular clock pathway (SCN-melatonin-clock genes) | speculation | 0.32 | 4 | 2 | 4 | 0 | 1 | ✅ | — |
+| 1f | Chronobiological agents fit better than SSRIs/SNRIs | speculation | 0.30 | 3 | 4 | 3 | 0 | 2 | ✅ | — |
 | 2a | Apply Tonini classifier to ME/CFS cohorts | proposal | n/a | 3 | 1 | 3 | 0 | 3 | ✅ | — |
 | 2b | Chronotype-stratified melatonin/zinc replication | proposal | n/a | 3 | 3 | 3 | 0 | 2 | ✅ | — |
 | 2c | Polygenic risk overlap study | proposal | n/a | 3 | 1 | 3 | 0 | 3 | ⏭️ | — |
@@ -48,4 +50,5 @@
   - 11a → alternative-interpretations paragraph of `@spec:circadian-depression-mecfs-overlap`
   - 12e → severity-applicability fields across all new environments
 - Integrated in Phase 5 (Tier 2 `#speculation`): 1b → `@spec:hpa-circadian-shared-bridge`; 1c → `@spec:tgfb-circadian-immune-coupling`.
-- Total integrated: 10 of 23.
+- Integrated in Phase 5 augmentation (mechanism/medication focus): 1e → `@spec:circadian-clock-molecular-pathway`; 1f → `@spec:chronobiological-agents-circadian-depression`.
+- Total integrated: 12 of 25.

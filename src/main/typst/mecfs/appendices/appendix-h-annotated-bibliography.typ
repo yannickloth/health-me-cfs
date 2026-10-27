@@ -7801,6 +7801,30 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
         - *Replication:* None
         - *Score:* 0.60 (tier cap for cross-sectional cohort; discounted ~0.48 for non-ME/CFS population)
 
+=== Guardiola-Lemaitre et al.\ 2014 — Agomelatine Mechanism of Action
+
+    *Full Citation:*: Guardiola-Lemaitre B, De Bodinat C, Delagrange P, Millan MJ, Munoz C, Mocaër E. Agomelatine: mechanism of action and pharmacological profile in relation to antidepressant properties. _British Journal of Pharmacology_. 2014;171(15):3604–3619. @GuardiolaLemaitre2014Agomelatine
+    *DOI:*: #link("https://doi.org/10.1111/bph.12720")[10.1111/bph.12720]
+    *PMID:*: 24724693
+    *PMCID:*: PMC4128060
+    *Study Design:*: Narrative review of preclinical and clinical pharmacology
+    *Key Findings:*:
+
+        - Agomelatine is a potent agonist at melatonin MT1 and MT2 receptors and a neutral antagonist at 5-HT2C receptors
+        - MT1/MT2 agonism in the SCN phase-advances circadian rhythms and increases rhythm amplitude in animal models and healthy volunteers
+        - 5-HT2C antagonism disinhibits frontocortical dopamine and noradrenaline transmission and may modulate SCN photic responses
+        - The two properties may synergise via heteromeric MT-5-HT2C receptor complexes
+        - Agomelatine differs from SSRIs/SNRIs: it does not block monoamine reuptake and does not down-regulate 5-HT1A receptors
+
+    *Conclusion:*: Agomelatine's antidepressant profile is linked to the synergy of melatonergic chronobiotic and 5-HT2C antagonist actions, not monoamine reuptake inhibition.
+    *Limitations:*: Review authored by Servier employees; preclinical data predominate; clinical efficacy remains debated in independent meta-analyses; no ME/CFS data.
+    *ME/CFS Relevance:*: Provides a mechanistic rationale for why chronobiological agents might fit a circadian-delayed depression subtype better than SSRIs/SNRIs, with speculative relevance to circadian-delayed ME/CFS subgroups.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (peer-reviewed review; author conflict noted)
+        - *Sample:* N/A (review)
+        - *Replication:* Mechanistic findings replicated across multiple animal models
+        - *Score:* 0.65 (review; not ME/CFS-specific)
+
 === Rahman et al.\ 2011 — Sleep-Wake Behavior in CFS (Null Circadian Result)
 
     *Full Citation:*: Rahman K, Burton A, Galbraith S, Lloyd A, Vollmer-Conna U. Sleep-wake behavior in chronic fatigue syndrome. _Sleep_. 2011;34(5):671–678. @Rahman2011SleepWakeCFS

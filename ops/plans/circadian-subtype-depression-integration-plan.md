@@ -33,20 +33,24 @@ Investigate the newly identified circadian subtype of major depression (~1 in 4 
 
 - Search log: `ops/research/search-log-circadian-subtype-depression-2026-10-27.md`
 - Rival framings searched: 4 (transdiagnostic mechanism, null/autonomic secondary, ADHD/metabolic polygenic overlap, chronobiological intervention)
-- Papers included: 5
-- Bib keys produced / verified:
+- Papers included (initial cycle): 5
+- Bib keys produced / verified (initial cycle):
   - `Tonini2026CircadianDepression` (new, `bib/neurology-comorbidities.bib`)
   - `Rahman2011SleepWakeCFS` (new, `bib/sleep.bib`)
   - `McCarthy2022circadian` (existing key reused, `bib/sleep.bib`)
   - `cambras2018circadian` (existing key reused and corrected, `bib/sleep.bib`)
   - `castromarrero2021melatonin` (existing key reused, `bib/sleep.bib`)
-- PDFs filed: 5/5; folders renamed during Phase 11 to match exact bib keys:
+- PDFs filed (initial cycle): 5/5; folders renamed during Phase 11 to match exact bib keys:
   - `Literature/neurological/cambras2018circadian/`
   - `Literature/reviews/McCarthy2022circadian/`
   - `Literature/treatments/castromarrero2021melatonin/`
-- Abstract.txt sidecars: 5/5
+- Abstract.txt sidecars (initial cycle): 5/5
 - Scrape-registry updated: 2026-10-27
 - Fragment store: `ops/research/fragments-circadian-subtype-depression-2026-10-27.md`
+
+- Additional paper included in Phase 5 augmentation (mechanisms/medication focus):
+  - `GuardiolaLemaitre2014Agomelatine` (new, `bib/treatments.bib`)
+  - Abstract.txt filed; publisher PDF unavailable (PMC bot challenge / browser download timeout); full text verified via PMC HTML.
 
 ## Phase 2 record
 
@@ -90,6 +94,22 @@ Investigate the newly identified circadian subtype of major depression (~1 in 4 
   - Stage 2 (fragment cotejo): 13 claims logged in `ops/research/fragments-circadian-subtype-depression-2026-10-27.md`; one fragment key (`@cambras2018CircadianMECFS`) was corrected to `@cambras2018circadian` during Phase 11 review.
   - N audited: 5 claim-bearing environments; K fully falsifiable: 4 (`@spec:*`, `@oq:*`); L weakly: 1 (`@lim:circadian-depression-translation` restates replication/refutation rather than a prediction); M unfalsifiable: 0.
 - Phase 5b build: PASS.
+
+## Phase 5 augmentation (2026-10-27) — biochemical mechanisms and medication focus
+
+Triggered by user request to deepen biochemical mechanisms and medication discussion, with DOI 10.1192/bjp.2026.10798 (Tonini 2026) as anchor.
+
+- Additional paper reviewed: Guardiola-Lemaitre et al. 2014, "Agomelatine: mechanism of action and pharmacological profile in relation to antidepressant properties" @GuardiolaLemaitre2014Agomelatine.
+- Bib entry added to `src/main/typst/mecfs/bib/treatments.bib`; abstract.txt filed at `Literature/treatments/GuardiolaLemaitre2014Agomelatine/abstract.txt`. Publisher PDF could not be acquired (PMC bot challenge / browser download timeout); full text verified via PMC HTML.
+- New environments integrated in `ch14d-cross-disease.typ`:
+  - `@spec:circadian-clock-molecular-pathway` (certainty 0.32): SCN → melatonin/MT1/MT2 → CLOCK/BMAL1/PER/CRY → peripheral HPA/immune/metabolic outputs.
+  - `@spec:chronobiological-agents-circadian-depression` (certainty 0.30): rationale for agomelatine, melatonin and morning bright light over SSRIs/SNRIs in the delayed-phase subtype.
+- Existing `@syn:circadian-subtype-depression-model` updated to include the molecular-clock and medication mechanism angles.
+- Hypothesis registry updated with `#registry-entry` rows and table rows for both new speculations.
+- Annotated bibliography entry added for Guardiola-Lemaitre 2014.
+- Glossary keys added across `glossary-{de,en,es,fr,pt}.json`: `agomelatine`, `melanopsin`, `retinohypothalamic tract`, `MT1`, `MT2`.
+- Fragment entries added to `ops/research/fragments-circadian-subtype-depression-2026-10-27.md` for quantitative claims drawn from the new content.
+- Build after augmentation: `nix flake check` PASS.
 
 ## Phase 5z record
 
@@ -237,7 +257,7 @@ Investigate the newly identified circadian subtype of major depression (~1 in 4 
 ## Phase 13 record
 
 - Status: ✅ done
-- Commit hash: `TBD_AFTER_COMMIT`
+- Commit hash: `c2a73ff9abfa10941ab1c3f44de8828965077865`
 - Notes: standalone `/integrate-topic` cycle completed under PARTIAL cap; all changes staged and committed via explicit per-topic file list.
 
 ## Notes

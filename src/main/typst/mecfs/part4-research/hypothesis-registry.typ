@@ -7223,6 +7223,32 @@ This registry collects all hypotheses, speculations, open questions, and predict
   limitation: [Population, diagnostic and severity differences between depression and ME/CFS limit transferability.],
 )
 
+#registry-entry(
+  [Molecular clock mechanism linking circadian depression to ME/CFS sleep-fatigue phenotype],
+  type: "S",
+  certainty: "0.32",
+  evidence: [Established chronobiology: melanopsin-retinohypothalamic-SCN-pineal-melatonin axis; MT1/MT2 receptors; CLOCK/BMAL1/PER/CRY feedback loops; Rev-erbα/ROR accessory loops. Tonini 2026 circadian-depression subtype shows delayed sleep midpoint, evening chronotype and polygenic risk for IL-6, insulin resistance, BMI and triglycerides. McCarthy 2022 proposes TGF-β/SMAD disruption of peripheral clocks in ME/CFS. Cambras 2018 found altered rest-activity/temperature coupling in CFS.],
+  citations: [@Tonini2026CircadianDepression @McCarthy2022circadian @cambras2018circadian @Rahman2011SleepWakeCFS @GuardiolaLemaitre2014Agomelatine],
+  mechanism: [Delayed or low-amplitude SCN oscillator could produce unrefreshing sleep, morning inertia and peripheral metabolic-immune dysregulation via melatonin/MT1/MT2 and clock-gene feedback-loop dysfunction.],
+  chapter-ref: [ch17 speculative cross-disease @sec:circadian-subtype-depression, @spec:circadian-clock-molecular-pathway],
+  prediction: [Circadian-delayed ME/CFS subgroup will show delayed DLMO, reduced rest-activity amplitude and altered peripheral clock-gene rhythmicity. Falsified if these markers are normal despite circadian-delay clinical features.],
+  treatment: [Chronotype-stratified chronotherapy (melatonin, morning bright light, sleep-wake scheduling) is plausible but not established in ME/CFS.],
+  limitation: [Pathway assembled from basic chronobiology and depression genetics, not direct ME/CFS experiments. Rahman 2011 null in small CFS sample.],
+)
+
+#registry-entry(
+  [Chronobiological agents may fit the circadian-depression subtype better than SSRIs/SNRIs],
+  type: "S",
+  certainty: "0.30",
+  evidence: [Tonini 2026 reports poorer SSRI/SNRI response and more side-effects in the circadian subtype. Agomelatine combines MT1/MT2 agonism with 5-HT2C antagonism and shows chronobiotic effects in animals and healthy volunteers. Melatonin and light therapy are established for circadian rhythm disorders. Castro-Marrero 2021 pilot found melatonin+zinc reduced physical fatigue in ME/CFS.],
+  citations: [@Tonini2026CircadianDepression @GuardiolaLemaitre2014Agomelatine @castromarrero2021melatonin],
+  mechanism: [SSRIs/SNRIs increase synaptic serotonin but do not directly restore a delayed/low-amplitude SCN oscillator. Agomelatine, melatonin and morning bright light act more directly on SCN phase/amplitude.],
+  chapter-ref: [ch17 speculative cross-disease @sec:circadian-subtype-depression, @spec:chronobiological-agents-circadian-depression],
+  prediction: [Chronobiological interventions will outperform SSRIs/SNRIs on sleep-circadian outcomes in delayed-phase depression, and melatonin/light will benefit delayed-phase ME/CFS subgroup. Falsified if no chronotype-specific benefit emerges.],
+  treatment: [Low-dose melatonin and morning bright light are already used empirically; agomelatine is off-label in ME/CFS and untested. No clinical recommendation.],
+  limitation: [Tonini medication data are self-reported and cross-sectional. No ME/CFS agomelatine or light-therapy trials.],
+)
+
 #table(
   columns: (1fr, 2.4fr, 1fr),
   [*ID / Label*], [*Details*], [*Phase / Cert*],
@@ -7236,6 +7262,10 @@ This registry collects all hypotheses, speculations, open questions, and predict
   [spec hpa-circadian-shared-bridge], [Speculation (ch17 @spec:hpa-circadian-shared-bridge): blunted HPA-axis circadian rhythm may be a shared sleep-fatigue bridge between circadian depression and ME/CFS. Evidence indirect; Rahman 2011 null in small CFS sample. Falsifiable by cross-disease cortisol amplitude comparison. Certainty 0.30.],[Phase 5 / 0.30],
 
   [spec tgfb-circadian-immune-coupling], [Speculation (ch17 @spec:tgfb-circadian-immune-coupling): TGFB dysregulation may disrupt peripheral circadian clocks in ME/CFS, overlapping with the IL-6/insulin-resistance polygenic loading of the circadian depression subtype. Theoretical; no direct experiment. Falsifiable by clock-gene/TGFB profiling in stratified ME/CFS. Certainty 0.28.],[Phase 5 / 0.28],
+
+  [spec circadian-clock-molecular-pathway], [Speculation (ch17 @spec:circadian-clock-molecular-pathway): molecular clock pathway from retinal light input through SCN, melatonin/MT1/MT2 and CLOCK/BMAL1/PER/CRY feedback loops to peripheral metabolic-immune outputs may explain circadian-delay features in a subgroup of ME/CFS. Assembled from established chronobiology plus Tonini 2026 genetic profile; no direct ME/CFS experiment. Falsifiable by delayed DLMO, reduced rest-activity amplitude and altered clock-gene rhythmicity in circadian-delayed ME/CFS. Certainty 0.32.],[Phase 5 augmentation / 0.32],
+
+  [spec chronobiological-agents-circadian-depression], [Speculation (ch17 @spec:chronobiological-agents-circadian-depression): chronobiological agents (melatonin, morning bright light, agomelatine) may fit the circadian-depression subtype better than SSRIs/SNRIs because they target the SCN oscillator more directly. Based on Tonini 2026 self-reported medication response and agomelatine mechanism review; no ME/CFS trial data. Falsifiable by chronotype-stratified trials. Certainty 0.30.],[Phase 5 augmentation / 0.30],
 )
 
 = Entries added 2026-10-27 (Phase 10a): circadian subtype of depression — synthesis
@@ -7244,5 +7274,5 @@ This registry collects all hypotheses, speculations, open questions, and predict
   columns: (1fr, 2.4fr, 1fr),
   [*ID / Label*], [*Details*], [*Phase / Cert*],
 
-  [syn circadian-subtype-depression-model], [Synthesis (ch17 @syn:circadian-subtype-depression-model): the circadian-depression environments converge on a tightly bounded claim. A circadian subtype recently identified in depression may overlap with a subgroup of ME/CFS patients who share evening chronotype, delayed sleep phase, and metabolic-immune polygenic loading (@spec:circadian-depression-mecfs-overlap). Whether such a subtype exists in ME/CFS is unresolved (@oq:circadian-subtype-me-cfs), and the depression findings should not be treated as directly transferable (@lim:circadian-depression-translation). The hypothesized bridges through blunted HPA circadian amplitude (@spec:hpa-circadian-shared-bridge) and TGFB-mediated clock-immune coupling (@spec:tgfb-circadian-immune-coupling) are mechanistically plausible but lack direct ME/CFS experimental support. The strongest ME/CFS-specific anchor remains a single small pilot RCT showing melatonin+zinc reduced physical fatigue.],[Phase 10a / n/a],
+  [syn circadian-subtype-depression-model], [Synthesis (ch17 @syn:circadian-subtype-depression-model): the circadian-depression environments converge on a tightly bounded claim. A circadian subtype recently identified in depression may overlap with a subgroup of ME/CFS patients who share evening chronotype, delayed sleep phase, and metabolic-immune polygenic loading (@spec:circadian-depression-mecfs-overlap). Whether such a subtype exists in ME/CFS is unresolved (@oq:circadian-subtype-me-cfs), and the depression findings should not be treated as directly transferable (@lim:circadian-depression-translation). The hypothesized bridges include blunted HPA circadian amplitude (@spec:hpa-circadian-shared-bridge), TGF-β-mediated clock-immune coupling (@spec:tgfb-circadian-immune-coupling), and a molecular-clock pathway from retinal light input through the SCN, melatonin/MT1/MT2 signalling and CLOCK/BMAL1/PER/CRY feedback loops to peripheral metabolic-immune outputs (@spec:circadian-clock-molecular-pathway). The medication-response pattern reported by Tonini 2026 is consistent with a rationale for preferring chronobiological agents in the delayed-phase subgroup, but this remains speculative and untested in ME/CFS (@spec:chronobiological-agents-circadian-depression). The strongest ME/CFS-specific anchor remains a single small pilot RCT showing melatonin+zinc reduced physical fatigue.],[Phase 10a / n/a],
 )

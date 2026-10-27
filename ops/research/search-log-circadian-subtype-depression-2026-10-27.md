@@ -31,13 +31,14 @@ Papers per framing included: F1=3 (Cambras 2018, McCarthy 2022, Castro-Marrero 2
 | Q8 | PubMed | "autonomic dysfunction"[Title/Abstract] AND "circadian"[Title/Abstract] AND "chronic fatigue syndrome"[Title/Abstract] | 4 | 3 | 1 (Cambras 2018) | 2026-10-27 |
 | Q9 | PubMed | "chronic fatigue syndrome"[Title/Abstract] AND "circadian"[Title/Abstract] AND ("no difference"[Title/Abstract] OR "null"[Title/Abstract] OR "negative"[Title/Abstract]) | 5 | 4 | 1 (Rahman 2011) | 2026-10-27 |
 | Q10 | PubMed | "depression"[Title/Abstract] AND "chronic fatigue syndrome"[Title/Abstract] AND "sleep"[Title/Abstract] AND ("shared"[Title/Abstract] OR "overlap"[Title/Abstract]) | 18 | 6 | 0 | 2026-10-27 |
+| Q11 | PubMed | "agomelatine"[Title/Abstract] AND ("circadian"[Title/Abstract] OR "melatonin"[Title/Abstract]) AND ("mechanism"[Title/Abstract] OR "review"[Title/Abstract]) | 34 | 6 | 1 (Guardiola-Lemaitre 2014) | 2026-10-27 |
 
 ---
 
 ## Search terms by database
 
 - **PubMed MeSH:** `circadian rhythm`[MeSH], `depressive disorder`[MeSH].
-- **PubMed title/abstract keywords:** circadian, circadian rhythm, depression, subtype, chronic fatigue syndrome, myalgic encephalomyelitis, sleep-wake, melatonin, randomized, autonomic dysfunction, TGF-beta.
+- **PubMed title/abstract keywords:** circadian, circadian rhythm, depression, subtype, chronic fatigue syndrome, myalgic encephalomyelitis, sleep-wake, melatonin, randomized, autonomic dysfunction, TGF-beta, agomelatine.
 - **Europe PMC / publisher:** full-text retrieval for included PMIDs; BJPsych PDF obtained via BrowserOS neo because direct curl returned bot challenge.
 - **Crossref:** DOI verification for `10.1192/bjp.2026.10798` (Tonini 2026 published version).
 
@@ -58,12 +59,12 @@ Papers per framing included: F1=3 (Cambras 2018, McCarthy 2022, Castro-Marrero 2
 
 ## Flow
 
-- Total raw hits across queries: 205
-- After title/abstract screen: 54
-- After deduplication and removal of already-in-corpus papers: 12 net unique candidates
-- Full-text reviewed: 10; 2 already-in-corpus duplicates set aside before full-text review
+- Total raw hits across queries: 239
+- After title/abstract screen: 60
+- After deduplication and removal of already-in-corpus papers: 13 net unique candidates
+- Full-text reviewed: 11; 2 already-in-corpus duplicates set aside before full-text review
 - Excluded at full text: 5 (already-in-corpus or out-of-scope)
-- Final included: 5
+- Final included: 6
 
 | Excluded at full text | Reason |
 |-----------------------|--------|
@@ -99,5 +100,6 @@ Papers per framing included: F1=3 (Cambras 2018, McCarthy 2022, Castro-Marrero 2
 | `McCarthy2022circadian` | McCarthy 2022 | Circadian rhythm disruption in ME/CFS: implications for PASC | 10.1016/j.bbih.2022.100412 | 35465246 | reviews | Europe PMC |
 | `cambras2018circadian` | Cambras 2018 | Circadian rhythm abnormalities and autonomic dysfunction in CFS/ME | 10.1371/journal.pone.0198106 | 29874259 | neurological | Europe PMC |
 | `castromarrero2021melatonin` | Castro-Marrero 2021 | Melatonin Plus Zinc Supplementation on Fatigue Perception in ME/CFS: RCT | 10.3390/antiox10071010 | 34201806 | treatments | Europe PMC |
+| `GuardiolaLemaitre2014Agomelatine` | Guardiola-Lemaitre 2014 | Agomelatine: mechanism of action and pharmacological profile in relation to antidepressant properties | 10.1111/bph.12720 | 24724693 | treatments | PMC HTML (publisher PDF unavailable due to bot challenge) |
 
 **Note on key mismatch:** The initial plan listed `McCarthy2022CircadianMECFS`, `Cambras2018CircadianMECFS`, and `CastroMarrero2021MelatoninZincMECFS` as target keys. The build-ground-truth `.bib` file already contained entries for these papers under `McCarthy2022circadian`, `cambras2018circadian`, and `castromarrero2021melatonin`. To avoid duplicate references, the existing verified keys were retained and updated rather than creating new keys.
