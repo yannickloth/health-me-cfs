@@ -247,6 +247,22 @@ This registry collects all hypotheses, speculations, open questions, and predict
 )
 
 
+=== Brain Energy and Cross-Disease Feedback Processing
+
+#registry-entry(
+  [Autism Feedback-Processing Deficit as ACC Energy-Triage Phenocopy in ME/CFS],
+  type: "S",
+  certainty: "0.35",
+  evidence: [Zuk et al. (2026) found autistic adults show reduced feedback-related negativity (FRN), weaker modulation of feedback-evoked EEG by perceptual difficulty, and reduced trial-by-trial behavioural updating after correct/easy trials in a pitch-discrimination task, despite preserved accuracy. The FRN source includes anterior cingulate cortex (ACC), a metabolically expensive performance-monitoring region. ME/CFS independently shows ACC lactate elevation (Godlewska 2025 7T MRS) and prefrontal hypometabolism (FDG-PET). The autism finding is therefore compatible with the pre-existing ACC/prefrontal energy-triage framework, though no direct metabolic measurements were made in Zuk et al.],
+  citations: [@Zuk2026AutismFeedbackProcessing @Godlewska2025MRS @siessmeier2003pet @VanDerGucht2017MMFFDG @spec:astrocyte-brain-energy-conservation @spec:cns-energy-triage],
+  mechanism: [ATP scarcity → energy-triage hierarchy down-regulates high-cost ACC/prefrontal feedback-monitoring circuits before basic sensory-motor functions → reduced FRN and dampened feedback-driven updating. The same constraint in ME/CFS could produce the cognitive rigidity and reduced error-driven adaptation reported by patients, even though ME/CFS is acquired/post-infectious rather than neurodevelopmental.],
+  chapter-ref: [ch07: brain energy cross-disease framework, sec-27-brain-energy],
+  prediction: [In ME/CFS, a feedback-learning EEG task will show reduced FRN and reduced trial-by-trial updating that correlate with ACC MRS lactate or FDG-PET hypometabolism severity. A ketogenic intervention that increases brain ATP availability will increase FRN amplitude and improve feedback-driven updating only in individuals with demonstrable brain energy deficit at baseline. Falsified if ME/CFS FRN/updating are normal or do not correlate with brain metabolic markers.],
+  treatment: [No treatment implication yet. If confirmed, ketogenic therapy or other brain-energy interventions could be tested specifically for feedback-learning/cognitive-flexibility outcomes in ME/CFS patients with documented ACC/prefrontal hypometabolism.],
+  limitation: [Cross-condition inference from autism to ME/CFS with no ME/CFS cohort data. Zuk et al. did not measure ATP, glucose metabolism, mitochondrial function, or lactate. Reduced FRN may reflect neurodevelopmental wiring, neurotransmitter differences, or medication/sleep/confound effects rather than energy triage.],
+)
+
+
 === Central Noradrenergic and Neuroimmune
 
 #registry-entry(

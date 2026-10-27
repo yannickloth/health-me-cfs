@@ -1085,6 +1085,28 @@ Represents pioneering early work (1990s–2000s) establishing that a subset of C
     *Relevance:*: Provides the mechanistic rationale for ketogenic diet as a potential intervention for ANLS dysfunction in ME/CFS. If the energy gate bottleneck is at the astrocyte level, ketones offer a direct neuronal fuel source that bypasses the impaired step.
     *Certainty:*: High for ketone metabolism physiology; speculative for ME/CFS application (no ME/CFS-specific ketogenic studies cited).
 
+=== Autism, Feedback Processing, and ACC Energy Triage
+
+    *Full Citation:*: Zuk NJ, Slobodskoy-Plusnin JY, Weiss Y, Sampath V, Düsterwald KM, Akrami A, Ahissar M. Neurocognitive characteristics of perceptual feedback processing differ in autism. _Journal of Neuroscience_. 2026;e0315262026.
+    *DOI:*: #link("https://doi.org/10.1523/JNEUROSCI.0315-26.2026")[10.1523/JNEUROSCI.0315-26.2026]
+    *Study Design:*: Cross-sectional EEG/behavioural study with within-study replication
+    *Sample Size:*: Autistic and non-autistic adults matched for cognitive ability (exact ns not extracted from preprint)
+    *Key Findings:*:
+        - Autistic participants showed markedly reduced feedback-related negativity (FRN) compared to non-autistic controls during a pitch-discrimination task with trial-by-trial feedback
+        - Feedback-evoked EEG responses were less modulated by perceptual difficulty
+        - Reduced trial-by-trial updating of perceptual bias after recent correct and easy trials
+        - Effects replicated in a follow-up experiment conducted 1--2 years later; combined measures classified groups with ~80% accuracy
+        - Task accuracy was matched between groups, isolating the deficit to feedback processing rather than basic perceptual discrimination
+    *Conclusion:*: Autism is associated with reduced processing of explicit behavioural feedback and reduced use of feedback to update subsequent decisions, likely contributing to difficulty adapting to changing environments.
+    *Limitations:*: No direct metabolic measurements (ATP, glucose uptake, mitochondrial function, lactate); alternative explanations include neurodevelopmental ACC wiring differences, neurotransmitter variation, medication/sleep/confound effects; cross-disease inference to ME/CFS is speculative.
+    *ME/CFS Relevance:*: The FRN is generated in or near the anterior cingulate cortex (ACC) and adjacent prefrontal performance-monitoring circuits — metabolically expensive regions that the energy-triage hierarchy predicts would be down-regulated under ATP scarcity. ME/CFS patients show ACC lactate elevation (Godlewska 2025) and prefrontal hypometabolism (FDG-PET). The autism finding therefore provides a cross-disease cognitive-neural phenotype — dampened feedback-driven adaptation — that is compatible with, but does not prove, shared ACC/prefrontal energy-triage mechanisms.
+    *Certainty Assessment:*:
+        - *Quality:* High (peer-reviewed _Journal of Neuroscience_; within-study replication)
+        - *Sample:* Medium (single-laboratory samples)
+        - *Replication:* Within-study replication only; no independent replication yet
+        - *ME/CFS directness:* Low (autism cohort; no ME/CFS participants)
+        - *Score:* 0.65 for the autism finding; 0.35 for the cross-disease energy-triage inference
+
 === Brainstem and Autonomic Dysfunction
 
     *Full Citation:*: Newton JL, Okonkwo O, Sutcliffe K, Seth A, Shin J, Jones DEJ. Symptoms of Autonomic Dysfunction in Chronic Fatigue Syndrome. _QJM: An International Journal of Medicine_. 2007;100(8):519–526.
