@@ -14867,5 +14867,25 @@
  },
  "FRN": {
   "alias": "feedback-related negativity"
+ },
+ "PCFS": {
+  "label": "PCFS",
+  "category": "condition",
+  "definition": "Post-COVID-Fatigue-Syndrom: anhaltende Müdigkeit und ME/CFS-ähnliche Symptome, die mindestens 3 Monate nach einer SARS-CoV-2-Infektion persistieren, ohne eine formale ME/CFS-Falldefinition zu erfordern. Wird als breitere Forschungskategorie verwendet, die mit dem klassischen ME/CFS überlappt, ihm aber nicht gleich ist."
+ },
+ "post-COVID fatigue syndrome": {
+  "label": "Post-COVID-Fatigue-Syndrom",
+  "category": "condition",
+  "definition": "Anhaltende Müdigkeit und ME/CFS-ähnliche Symptome, die mindestens 3 Monate nach einer SARS-CoV-2-Infektion persistieren, ohne eine formale ME/CFS-Falldefinition zu erfordern. Wird als breitere Forschungskategorie verwendet, die mit dem klassischen ME/CFS überlappt, ihm aber nicht gleich ist."
+ },
+ "EQ-5D-5L": {
+  "label": "EQ-5D-5L",
+  "category": "method",
+  "definition": "EuroQol 5-Dimensionen 5-Stufen — eine Version des EQ-5D-Fragebogens zur gesundheitsbezogenen Lebensqualität mit fünf Schweregraden pro Domain, die einen feiner abgestuften Nutzenwert für gesundheitsökonomische Analysen liefert."
+ },
+ "PQSymp-12": {
+  "label": "PQSymp-12",
+  "category": "method",
+  "definition": "Post-COVID-Symptome 12-Item-Fragebogen: ein von Patienten berichtetes Ergebnismaß der zwölf häufigsten anhaltenden Symptome nach COVID-19, einschließlich Müdigkeit, Kurzatmigkeit und kognitiver Probleme."
  }
 }

@@ -13237,5 +13237,25 @@
  },
  "FRN": {
   "alias": "feedback-related negativity"
+ },
+ "PCFS": {
+  "label": "PCFS",
+  "category": "condition",
+  "definition": "Syndrome de fatigue post-COVID : fatigue persistante et symptômes de type EM/SFC pendant au moins 3 mois après une infection par le SARS-CoV-2, sans nécessiter de définition de cas formelle d'EM/SFC. Catégorie de recherche plus large qui chevauche, sans être identique, l'EM/SFC classique."
+ },
+ "post-COVID fatigue syndrome": {
+  "label": "Syndrome de fatigue post-COVID",
+  "category": "condition",
+  "definition": "Fatigue persistante et symptômes de type EM/SFC pendant au moins 3 mois après une infection par le SARS-CoV-2, sans nécessiter de définition de cas formelle d'EM/SFC. Catégorie de recherche plus large qui chevauche, sans être identique, l'EM/SFC classique."
+ },
+ "EQ-5D-5L": {
+  "label": "EQ-5D-5L",
+  "category": "method",
+  "definition": "EuroQol 5 dimensions 5 niveaux — version du questionnaire de qualité de vie EQ-5D avec cinq niveaux de sévérité par domaine, produisant un score d'utilité plus fin pour les analyses économiques en santé."
+ },
+ "PQSymp-12": {
+  "label": "PQSymp-12",
+  "category": "method",
+  "definition": "Questionnaire des symptômes post-COVID à 12 items : mesure de résultat rapportée par le patient des douze symptômes persistants les plus fréquents après la COVID-19, incluant fatigue, essoufflement et troubles cognitifs."
  }
 }
