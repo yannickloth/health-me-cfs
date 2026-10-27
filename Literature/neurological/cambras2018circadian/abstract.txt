@@ -1,0 +1,15 @@
+Title: Circadian rhythm abnormalities and autonomic dysfunction in patients with Chronic Fatigue Syndrome/Myalgic Encephalomyelitis
+Authors: Trinitat Cambras, Jesús Castro-Marrero, Maria-Cleofé Zaragozá, Ana Zaragoza, Ana Díez-Noguera, José Alegre
+Journal: PLoS ONE 2018;13(6):e0198106
+DOI: 10.1371/journal.pone.0198106
+PMID: 29874259
+PMCID: PMC5991397
+URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5991397/
+Retrieved: 2026-10-27
+
+Abstract:
+Background: Chronic Fatigue Syndrome/Myalgic Encephalomyelitis (CFS/ME) patients frequently show autonomic symptoms that may be associated with hypothalamic dysfunction.
+Objective: To explore circadian rhythm patterns in rest/activity and distal skin temperature (DST) and their association with self-reported outcome measures in CFS/ME patients and healthy controls at two different times of year.
+Methods: Ten women with CFS/ME and ten age-matched controls wore activity and temperature monitors for at least 22 consecutive days in winter and summer.
+Results: Compared with controls, CFS/ME patients showed lower daily activity, lower relative amplitude and less stability of the activity rhythm, and lower nocturnal DST values in winter. Spectral analysis showed no differences in phase or amplitude of the 24-h rhythm, but the relationship between activity and DST rhythms differed between groups.
+Conclusions: CFS/ME is associated with changes in the relationship between circadian rhythms of activity and temperature, suggesting a possible loss of synchronization and/or coupling between circadian variables. Autonomic dysfunction may contribute to these abnormalities.

@@ -8820,7 +8820,12 @@
   "TGF-β": {
     "label": "TGF-β",
     "category": "cytokine",
-    "definition": "Transforming Growth Factor Beta: a cytokine with immunosuppressive and pro-fibrotic functions. Elevated in some ME/CFS studies, associated with Th2/Th17 skewing."
+    "definition": "Transforming Growth Factor Beta: a cytokine with immunosuppressive and pro-fibrotic functions. Elevated in some ME/CFS studies, associated with Th2/Th17 skewing.",
+    "synonyms": [
+      "TGFB",
+      "TGF-beta",
+      "transforming growth factor beta"
+    ]
   },
   "TH": {
     "label": "TH",
@@ -10226,7 +10231,10 @@
   "circadian rhythm": {
     "label": "Circadian rhythm",
     "category": "system",
-    "definition": "Endogenous biological oscillations with approximately 24-hour periodicity, governed by the suprachiasmatic nucleus and peripheral clock genes."
+    "definition": "Endogenous biological oscillations with approximately 24-hour periodicity, governed by the suprachiasmatic nucleus and peripheral clock genes.",
+    "synonyms": [
+      "circadian"
+    ]
   },
   "circumventricular organs": {
     "label": "circumventricular organs",
@@ -13128,5 +13136,23 @@
       "VWF",
       "vWF"
     ]
+  },
+  "chronotype": {
+    "label": "Chronotype",
+    "category": "concept",
+    "definition": "An individual's natural tendency for sleep and wake timing, often described as morning-type, evening-type, or intermediate. Evening chronotype is associated with delayed sleep phase and may overlap with circadian subtypes of depression or ME/CFS."
+  },
+  "DLMO": {
+    "label": "DLMO",
+    "category": "measurement",
+    "definition": "Dim Light Melatonin Onset: the time in the evening when melatonin levels begin to rise under dim light conditions. DLMO is a standard marker of circadian phase and is used to assess delayed or advanced sleep phase.",
+    "synonyms": [
+      "dim light melatonin onset"
+    ]
+  },
+  "SMAD": {
+    "label": "SMAD",
+    "category": "protein",
+    "definition": "A family of proteins that transmit signals from TGF-β receptors to the nucleus, regulating gene transcription. SMAD signaling links cytokine signaling to circadian clock gene expression and fibrotic responses."
   }
 }

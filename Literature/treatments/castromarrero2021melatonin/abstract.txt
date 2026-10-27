@@ -1,0 +1,14 @@
+Title: Effect of Melatonin Plus Zinc Supplementation on Fatigue Perception in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: A Randomized, Double-Blind, Placebo-Controlled Trial
+Authors: Jesús Castro-Marrero, Maria-Cleofé Zaragozá, Irene López-Vílchez, José Luis Galmés, Begoña Cordobilla, Sara Maurel, Joan Carles Domingo, José Alegre-Martín
+Journal: Antioxidants (Basel) 2021;10(7):1010
+DOI: 10.3390/antiox10071010
+PMID: 34201806
+PMCID: PMC8300692
+URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8300692/
+Retrieved: 2026-10-27
+
+Abstract:
+Objective: To assess the effect of oral melatonin plus zinc supplementation on fatigue in ME/CFS.
+Methods: 16-week randomized, double-blind, placebo-controlled pilot trial in 50 ME/CFS patients (Fukuda criteria) assigned to melatonin 1 mg plus zinc 10 mg once daily (n=24) or placebo (n=26).
+Results: The melatonin-plus-zinc group showed significant reduction in physical fatigue at 16 weeks versus placebo (p<0.05) and improvement in the physical component summary at all follow-up visits. Urinary 6-sulfatoxymelatonin levels were significantly elevated in the experimental group (p<0.0001). No significant group differences were seen in sleep quality, anxiety, or depression. Treatment was safe and well tolerated.
+Conclusions: Oral melatonin plus zinc supplementation for 16 weeks is safe and potentially effective in reducing fatigue and improving quality of life in ME/CFS. Larger trials are needed.

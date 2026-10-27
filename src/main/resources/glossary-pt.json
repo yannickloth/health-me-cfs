@@ -8833,7 +8833,12 @@
  "TGF-β": {
   "label": "TGF-β",
   "category": "cytokine",
-  "definition": "Fator de Crescimento de Transformação Beta: uma citocina com funções imunossupressora e pró-fibrotica. Elevada em alguns estudos de EM/SFC, associada a um desvio Th2/Th17."
+  "definition": "Fator de Crescimento de Transformação Beta: uma citocina com funções imunossupressora e pró-fibrotica. Elevada em alguns estudos de EM/SFC, associada a um desvio Th2/Th17.",
+  "synonyms": [
+   "TGFB",
+   "TGF-beta",
+   "transforming growth factor beta"
+  ]
  },
  "TH": {
   "label": "TH",
@@ -10246,7 +10251,10 @@
  "circadian rhythm": {
   "label": "Ritmo circadiano",
   "category": "system",
-  "definition": "Oscilações biológicas endógenas com periodicidade de aproximadamente 24 horas, controladas pelo núcleo supraquiasmático e pelos genes do relógio periférico."
+  "definition": "Oscilações biológicas endógenas com periodicidade de aproximadamente 24 horas, controladas pelo núcleo supraquiasmático e pelos genes do relógio periférico.",
+  "synonyms": [
+   "circadian"
+  ]
  },
  "circumventricular organs": {
   "label": "órgãos circunventriculares",
@@ -13161,5 +13169,23 @@
    "VWF",
    "vWF"
   ]
+ },
+ "chronotype": {
+  "label": "Cronotipo",
+  "category": "concept",
+  "definition": "Tendência natural de um indivíduo para o horário de sono e vigília, frequentemente descrita como tipo matutino, tipo vespertino ou intermédio. O cronotipo vespertino associa-se a fase de sono atrasada e pode sobrepor-se a subtipos circadianos de depressão ou EM/SFC."
+ },
+ "DLMO": {
+  "label": "DLMO",
+  "category": "measurement",
+  "definition": "Início da secreção de melatonina em luz ténue: o horário da noite em que os níveis de melatonina começam a aumentar em condições de luz ténue. O DLMO é um marcador padrão da fase circadiana e é utilizado para avaliar fases de sono atrasadas ou antecipadas.",
+  "synonyms": [
+   "dim light melatonin onset"
+  ]
+ },
+ "SMAD": {
+  "label": "SMAD",
+  "category": "protein",
+  "definition": "Uma família de proteínas que transmitem sinais dos recetores de TGF-β para o núcleo, regulando a transcrição genética. A sinalização SMAD liga a sinalização de citocinas à expressão de genes do relógio circadiano e a respostas fibrosantes."
  }
 }

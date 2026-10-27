@@ -297,7 +297,8 @@
     "category": "cytokine",
     "definition": "Facteur de croissance transformant bêta : une cytokine ayant des fonctions immunosuppressives et pro-fibrotiques. Élevé dans certaines études sur l'EM/SFC, associé à une polarisation Th2/Th17.",
     "synonyms": [
-      "Facteur de croissance transformant bêta"
+      "Facteur de croissance transformant bêta",
+      "TGFB"
     ]
   },
   "BDNF": {
@@ -12927,7 +12928,9 @@
     "label": "Rythme circadien",
     "category": "system",
     "definition": "Oscillations biologiques endogènes d'une périodicité d'environ 24 heures, gouvernées par le noyau suprachiasmatique et les gènes horloges périphériques.",
-    "synonyms": []
+    "synonyms": [
+      "circadian"
+    ]
   },
   "digital twin": {
     "label": "Jumeau numérique",
@@ -15034,5 +15037,23 @@
       "VWF",
       "vWF"
     ]
+  },
+  "chronotype": {
+    "label": "Chronotype",
+    "category": "concept",
+    "definition": "Tendance naturelle d'un individu pour les horaires de sommeil et d'éveil, souvent décrite comme type du matin, type du soir ou intermédiaire. Le chronotype du soir est associé à une phase de sommeil retardée et peut chevaucher les sous-types circadiens de la dépression ou du SFC/EM."
+  },
+  "DLMO": {
+    "label": "DLMO",
+    "category": "measurement",
+    "definition": "Dim Light Melatonin Onset : l'heure du soir à laquelle les niveaux de mélatonine commencent à augmenter dans des conditions de faible luminosité. Le DLMO est un marqueur standard de la phase circadienne et sert à évaluer les phases de sommeil retardées ou avancées.",
+    "synonyms": [
+      "dim light melatonin onset"
+    ]
+  },
+  "SMAD": {
+    "label": "SMAD",
+    "category": "protein",
+    "definition": "Une famille de protéines qui transmettent les signaux des récepteurs du TGF-β vers le noyau, régulant la transcription des gènes. La signalisation SMAD relie la signalisation des cytokines à l'expression des gènes de l'horloge circadienne et aux réponses fibrosantes."
   }
 }

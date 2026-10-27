@@ -1393,7 +1393,7 @@ Category B (energy-neutral). Resveratrol activates SIRT1 and AMPK signaling path
     - Immune modulation
     - Anti-inflammatory
 
-*Evidence.* Moderate for sleep; theoretical for other effects in ME/CFS.
+*Evidence.* Moderate for sleep; a 16-week RCT of melatonin 1 mg plus zinc 10 mg daily reduced physical fatigue in 50 ME/CFS patients compared with placebo @castromarrero2021melatonin. Individual effects were variable, and whether the benefit is circadian, antioxidant, or zinc-mediated is unclear.
 
 *Dosing.*
 
@@ -1512,7 +1512,9 @@ Category B (energy-neutral). Small organic molecule requiring minimal metabolic 
 === Zinc
 <subsec:zinc>
 
-*Rationale.* Zinc is a trace mineral essential for gut barrier integrity, antioxidant protection in enterocytes, and neurotransmitter function. In the context of the enterochromaffin-vagal pathway @WirthScheibenbogen2025Neurotransmitter, zinc supports multiple nodes: (1) tight junction integrity reduces intestinal permeability and bacterial translocation; (2) antioxidant mechanisms in enterocytes that may protect enterochromaffin cells; (3) neurotransmitter synthesis and autonomic nerve function. Zinc is commonly depleted in ME/CFS due to malabsorption, chronic inflammation (acute-phase redistribution to liver), and reduced dietary diversity from fatigue limiting food preparation.
+*Rationale.* Zinc is a trace mineral essential for gut barrier integrity, antioxidant protection in enterocytes, and neurotransmitter function. In the context of the enterochromaffin-vagal pathway @WirthScheibenbogen2025Neurotransmitter, zinc supports multiple nodes: (1) tight junction integrity reduces intestinal permeability and bacterial translocation; (2) antioxidant mechanisms in enterocytes that may protect enterochromaffin cells; (3) neurotransmitter synthesis and autonomic nerve function. Zinc is commonly depleted in ME/CFS due to malabsorption, chronic inflammation (acute-phase redistribution to liver), and reduced dietary diversity from fatigue limiting food preparation.
+
+*Evidence for fatigue.* The only ME/CFS RCT that included zinc combined it with melatonin (1 mg melatonin + 10 mg zinc daily for 16 weeks) and reported reduced physical fatigue versus placebo @castromarrero2021melatonin. Because melatonin and zinc were co-administered, the independent contribution of zinc cannot be separated.
 
 *Forms.*
 

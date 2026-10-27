@@ -1,0 +1,14 @@
+Title: Clinical and genetic correlates of a circadian subtype of depression in the Australian Genetics of Depression Study
+Authors: Emiliana Tonini, Jacob J. Crouse, Mirim Shin, Joanne S. Carpenter, Brittany L. Mitchell, Enda M. Byrne, Penelope A. Lind, Scott D. Gordon, Richard Parker, Samuel J. Hockey, Timothy To, Andrew Shim, Alex Hill, Anna Treneman, Elizabeth Scott, Jan Scott, Kathleen R. Merikangas, Naomi R. Wray, Nicholas G. Martin, Sarah E. Medland, Ian B. Hickie
+Journal: The British Journal of Psychiatry (2026)
+DOI: 10.1192/bjp.2026.10798
+PMID: 42901213 (published peer-reviewed version); preprint PMID 42051568 / PMCID PMC13119355
+URL: https://doi.org/10.1192/bjp.2026.10798
+Retrieved: 2026-10-27
+
+Abstract (peer-reviewed version):
+Background: Although commonly accepted depressive subtypes reflect phenotypic differences, there has been minimal progress in identification of discrete pathophysiological pathways, biomarkers or differential therapeutic approaches.
+Aims: To test the biological validity and clinical utility of a circadian subtype of depression on the basis of clinical course, differential medication response (self-reported) and genetic risk profile.
+Method: Cross-sectional data from the nationwide, genetically informative Australian Genetics of Depression Study. Participants were classified as having a circadian or non-circadian subtype on the basis of at least three of six binary circadian features: social jetlag, seasonality, delayed sleep midpoint, evening chronotype, sleep inertia/morning tiredness and hypersomnia. Associations with antidepressant response and polygenic risk scores were investigated using logistic regression models.
+Results: 2604 participants (23%; 80% female; mean age 37.9 ±13.6) had a circadian subtype. They reported earlier age at onset (p<0.001), more severe clinical features including hypo/manic-like and psychotic-like experiences, suicidality, psychological distress and somatic complaints (p's<0.001), weight gain during episodes (p<0.001), poorer response to SSRIs (OR 0.88, 95% CI 0.82–0.94) and SNRIs (OR 0.89, 95% CI 0.83–0.97), more side-effects, and higher polygenic risk for ADHD (OR 1.11), major depression (1.11), bipolar disorder (1.09), anxiety (1.10), BMI (1.09), triglycerides (1.10), insulin resistance (1.08), IL-6 (1.08), later sleep midpoint (1.15), insomnia (1.08) and evening chronotype (OR 0.68), versus non-circadian depression.
+Conclusions: These findings support the face validity and potential clinical utility of a circadian subtype of depression as a clinical profile. Pending independent replication, investigation of its biology and predictive utility are warranted.

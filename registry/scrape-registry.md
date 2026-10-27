@@ -13,6 +13,27 @@ Prevents re-processing of already-integrated content.
 
 ---
 
+## Circadian Subtype of Depression — Cross-Disease Relevance for ME/CFS (circadian-subtype-depression)
+
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities esearch/esummary/efetch) | 2026-10-27 | 10 queries across rival framings: direct circadian subtype depression, circadian × ME/CFS, null circadian CFS, melatonin RCT ME/CFS, TGF-beta circadian ME/CFS, autonomic circadian CFS, depression–ME/CFS sleep overlap. 5 papers included. Driving news URLs pointed to a BJPsych article; the PubMed-indexed peer-reviewed version is PMID 42901213 (DOI 10.1192/bjp.2026.10798). The medRxiv preprint (PMID 42051568 / PMC13119355) is noted but not used as the primary citation. |
+| Crossref API | 2026-10-27 | DOI 10.1192/bjp.2026.10798 verified; resolves to published BJPsych version. |
+| Europe PMC / PubMed Central | 2026-10-27 | Full-text OA PDFs for Rahman 2011, McCarthy 2022, Cambras 2018 and Castro-Marrero 2021. |
+| Cambridge Core / The British Journal of Psychiatry | 2026-10-27 | Tonini 2026 publisher PDF acquired via BrowserOS neo (direct curl returned Cloudflare/HHS bot challenge). |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| https://doi.org/10.1192/bjp.2026.10798 | cambridge core / bjp | 2026-10-27 | 2026-10-27 | `Literature/comorbidities/Tonini2026CircadianDepression/`, `bib/neurology-comorbidities.bib` (@Tonini2026CircadianDepression), appendix-h `<sec:bib-circadian-sleep>` |
+| https://pubmed.ncbi.nlm.nih.gov/42901213/ | pubmed | 2026-10-27 | 2026-10-27 | metadata verification for Tonini 2026 published version |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC3079947/ | pmc | 2026-10-27 | 2026-10-27 | `Literature/neurological/Rahman2011SleepWakeCFS/`, `bib/sleep.bib` (@Rahman2011SleepWakeCFS), appendix-h `<sec:bib-circadian-sleep>` |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC9019698/ | pmc | 2026-10-27 | 2026-10-27 | `Literature/reviews/McCarthy2022circadian/`, `bib/sleep.bib` (@McCarthy2022circadian), appendix-h Section 15.6 (Melatonin Dysfunction and Circadian Disruption) |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC5991397/ | pmc | 2026-10-27 | 2026-10-27 | `Literature/neurological/cambras2018circadian/`, `bib/sleep.bib` (@cambras2018circadian), appendix-h `<sec:bib-circadian-sleep>` |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC8300746/ | pmc | 2026-10-27 | 2026-10-27 | `Literature/treatments/castromarrero2021melatonin/`, `bib/sleep.bib` (@castromarrero2021melatonin), appendix-h `<sec:bib-circadian-sleep>` |
+| PubMed API queries (10 queries + esummary/efetch, 5 PMIDs) | pubmed/eutils | 2026-10-27 | 2026-10-27 | `ops/research/search-log-circadian-subtype-depression-2026-10-27.md`, `ops/research/fragments-circadian-subtype-depression-2026-10-27.md`, `bib/neurology-comorbidities.bib`, `bib/sleep.bib`, appendix-h `<sec:bib-circadian-sleep>` |
+
+---
+
 ## EpiSwitch ME/CFS Diagnostic — UPDATE CYCLE (episwitch-epigenetic-test) Literature Search
 | Source | Last Scraped | Notes |
 |--------|--------------|-------|
@@ -424,7 +445,7 @@ Prevents re-processing of already-integrated content.
 | https://onlinelibrary.wiley.com/doi/10.1080/17461391.2018.1551937 | wiley | 2026-05-13 | — | bib/appendix-h/integration-guide — Douzi2018SleepCryotherapy — WBC sleep quality healthy men |
 | https://pubmed.ncbi.nlm.nih.gov/37230457/ | pubmed | 2026-05-13 | — | bib/appendix-h/integration-guide — Kujawski2023CBSCFS — WBC in CFS patients |
 | https://pubmed.ncbi.nlm.nih.gov/32361157/ | pubmed | 2026-05-13 | — | bib/appendix-h/integration-guide — Li2021ThermoregulationCFS — Thermoregulation dysfunction CFS |
-| https://pubmed.ncbi.nlm.nih.gov/29874259/ | pubmed | 2026-05-13 | — | bib/appendix-h/integration-guide — Cambras2018CircadianCFS — Circadian rhythms CFS |
+| https://pubmed.ncbi.nlm.nih.gov/29874259/ | pubmed | 2026-05-13 | 2026-10-27 | superseded by 2026-10-27 circadian-subtype-depression cycle; current key `cambras2018circadian`, folder `Literature/neurological/cambras2018circadian/`, appendix-h `<sec:bib-circadian-sleep>` |
 | https://pubmed.ncbi.nlm.nih.gov/35203896/ | pubmed | 2026-05-13 | — | bib/appendix-h/integration-guide — Baraniuk2022ThermoregulationMECFS — Thermoregulation PEM ME/CFS |
 | https://pubmed.ncbi.nlm.nih.gov/35695028/ | pubmed | 2026-05-13 | — | bib/appendix-h/integration-guide — Costa2022HRVCryotherapy — WBC HRV meta-analysis |
 | https://pubmed.ncbi.nlm.nih.gov/16988370/ | pubmed | 2026-05-13 | — | bib/appendix-h/integration-guide — Westerlund2006SleepCold — Cold water immersion sleep |

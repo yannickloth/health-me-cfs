@@ -1,0 +1,16 @@
+Title: Sleep-Wake Behavior in Chronic Fatigue Syndrome
+Authors: Khairunnessa Rahman, Alexander Burton, Sally Galbraith, Andrew Lloyd, Ute Vollmer-Conna
+Journal: Sleep 2011;34(5):671-678
+DOI: 10.1093/sleep/34.5.671
+PMID: 21532961
+PMCID: PMC3079947
+URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3079947/
+Retrieved: 2026-10-27
+
+Abstract:
+Study Objectives: Disturbances of the internal biological clock manifest as fatigue, poor concentration, and sleep disturbances—symptoms reminiscent of chronic fatigue syndrome (CFS) and suggestive of a role for circadian rhythm disturbance in CFS. We examined circadian patterns of activity, sleep, and cortisol secretion in patients with CFS.
+Design: Case-control study, 5-day behavioral observation.
+Participants: 15 patients with CFS and 15 healthy subjects matched for age, sex, BMI, and activity levels.
+Measurements: Actiwatch accelerometer, activity/symptom logs, diurnal salivary cortisol, overnight heart rate monitoring, pain sensitivity.
+Results: Ratings of symptoms, disability, sleep disturbance, and pain sensitivity were greater in CFS. No between-group differences were found in the pattern or amount of sleep, activity, or cortisol secretion. Afternoon activity increased evening fatigue in patients but not controls. Low nocturnal heart rate variability was identified as a biological correlate of unrefreshing sleep.
+Conclusions: We found no evidence of circadian rhythm disturbance in CFS. However, the role of autonomic activity in the experience of unrefreshing sleep warrants further assessment.

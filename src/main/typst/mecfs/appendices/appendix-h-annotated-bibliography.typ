@@ -7732,23 +7732,97 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
 
     *Full Citation:*: Cambras T, Castro-Marrero J, Zaragoza MC, D\'{\i}ez-Noguera A, Alegre J. Circadian rhythm abnormalities and autonomic dysfunction in patients with Chronic Fatigue Syndrome/Myalgic Encephalomyelitis. _PLoS ONE_. 2018;13(6):e0198106. @cambras2018circadian
     *DOI:*: #link("https://doi.org/10.1371/journal.pone.0198106")[10.1371/journal.pone.0198106]
+    *PMID:*: 29874259
+    *PMCID:*: PMC5991397
+    *Study Design:*: Case-control study with 22+ days of actigraphy and distal skin temperature monitoring in winter and summer
+    *Sample Size:*: n=10 women CFS/ME, n=10 age-matched controls
     *Key Findings:*:
 
-        - Documented circadian rhythm disruption in ME/CFS patients
-        - Linked circadian abnormalities to autonomic dysfunction
+        - Lower daily activity, lower relative amplitude and less stable activity rhythms in CFS/ME
+        - Lower nocturnal distal skin temperature in winter
+        - No differences in 24-h phase or amplitude by spectral analysis
+        - Relationship between activity and temperature rhythms differed between groups, suggesting loss of synchronisation/coupling between circadian variables
 
+    *Conclusion:*: CFS/ME is associated with altered coupling between circadian rhythms of activity and temperature; autonomic dysfunction may contribute.
+    *Limitations:*: Very small sample; women only; seasonal variation may confound; no melatonin or cortisol measures.
     *Relevance to Part V:*: Circadian parameters for temporal evolution models and sleep–wake cycle modeling.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (peer-reviewed, objective monitoring)
+        - *Sample:* Small (n=10 per group)
+        - *Replication:* Single study
+        - *Score:* 0.55
 
 === Castro-Marrero et al.\ 2021 — Melatonin + Zinc RCT
 
     *Full Citation:*: Castro-Marrero J, Zaragozá MC, López-Villén L, et al.\ Melatonin Plus Zinc Supplementation Improves Health Status in Patients With Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: A Randomized Controlled Clinical Trial. _Antioxidants_. 2021;10(7):1010. @castromarrero2021melatonin
     *DOI:*: #link("https://doi.org/10.3390/antiox10071010")[10.3390/antiox10071010]
+    *PMID:*: 34201806
+    *PMCID:*: PMC8300746
+    *Study Design:*: 16-week randomized, double-blind, placebo-controlled pilot trial
+    *Sample Size:*: n=50 Fukuda CFS (24 active, 26 placebo)
     *Key Findings:*:
 
-        - RCT showing melatonin + zinc improved health status in ME/CFS
-        - Supports circadian and antioxidant intervention approaches
+        - Melatonin 1 mg + zinc 10 mg reduced physical fatigue at 16 weeks versus placebo ($p < 0.05$)
+        - Physical component summary improved at all follow-up visits
+        - Urinary 6-sulfatoxymelatonin significantly elevated in active group ($p < 0.0001$)
+        - No significant differences in sleep quality, anxiety or depression
+        - Treatment safe and well tolerated
+
+    *Conclusion:*: Oral melatonin plus zinc is safe and potentially effective for fatigue/quality of life in ME/CFS; larger trials needed.
+    *Limitations:*: Single small pilot RCT; individual contributions of melatonin and zinc inseparable; no replication.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (randomized, double-blind, placebo-controlled)
+        - *Sample:* Small (n=50)
+        - *Replication:* None
+        - *Score:* 0.60
 
     *Relevance to Part V:*: Treatment response data for circadian intervention modeling and supplement efficacy prediction.
+
+=== Tonini et al.\ 2026 — Circadian Subtype of Depression
+
+    *Full Citation:*: Tonini E, Crouse JJ, Shin M, et al.\ Clinical and genetic correlates of a circadian subtype of depression in the Australian Genetics of Depression Study. _The British Journal of Psychiatry_. 2026;1–10. @Tonini2026CircadianDepression
+    *DOI:*: #link("https://doi.org/10.1192/bjp.2026.10798")[10.1192/bjp.2026.10798]
+    *PMID:*: 42901213
+    *Study Design:*: Cross-sectional analysis of a nationwide genetically informative depression cohort
+    *Sample Size:*: n=2604 circadian-subtype cases (23% of AGDS sample)
+    *Key Findings:*:
+
+        - Circadian subtype defined by ≥3 of: social jetlag, seasonality, delayed sleep midpoint, evening chronotype, morning tiredness/sleep inertia, hypersomnia
+        - Earlier age at onset and more severe clinical features than non-circadian depression
+        - Poorer response to SSRIs (OR 0.88, 95% CI 0.82–0.94) and SNRIs (OR 0.89, 95% CI 0.83–0.97); more side-effects
+        - Higher polygenic risk for ADHD, major depression, bipolar disorder, anxiety, BMI, triglycerides, insulin resistance, IL-6, later sleep midpoint, insomnia and evening chronotype
+
+    *Conclusion:*: A circadian subtype of depression has face validity and potential clinical utility; replication and biological investigation are needed.
+    *Limitations:*: Single study; no independent replication; self-reported medication response; cross-sectional; not an ME/CFS cohort.
+    *ME/CFS Relevance:*: Provides a cross-disease template for circadian subtyping and suggests shared genetic/metabolic risk (ADHD, insulin resistance, inflammation, evening chronotype) that may overlap with ME/CFS subgroups.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (top journal, large sample)
+        - *Sample:* Large (n=2604)
+        - *Replication:* None
+        - *Score:* 0.60 (tier cap for cross-sectional cohort; discounted ~0.48 for non-ME/CFS population)
+
+=== Rahman et al.\ 2011 — Sleep-Wake Behavior in CFS (Null Circadian Result)
+
+    *Full Citation:*: Rahman K, Burton A, Galbraith S, Lloyd A, Vollmer-Conna U. Sleep-wake behavior in chronic fatigue syndrome. _Sleep_. 2011;34(5):671–678. @Rahman2011SleepWakeCFS
+    *DOI:*: #link("https://doi.org/10.1093/sleep/34.5.671")[10.1093/sleep/34.5.671]
+    *PMID:*: 21532961
+    *PMCID:*: PMC3079947
+    *Study Design:*: Case-control study with 5-day behavioral observation
+    *Sample Size:*: n=15 CFS, n=15 matched controls
+    *Key Findings:*:
+
+        - No between-group differences in pattern or amount of sleep, activity or diurnal salivary cortisol
+        - Afternoon activity increased evening fatigue in patients but not controls
+        - Low nocturnal heart rate variability correlated with unrefreshing sleep
+
+    *Conclusion:*: No evidence of circadian rhythm disturbance in this CFS sample; autonomic activity may contribute to unrefreshing sleep.
+    *Limitations:*: Small sample; short observation window; CFS diagnostic criteria not fully specified; may miss subtle circadian phase/amplitude differences.
+    *ME/CFS Relevance:*: Important null evidence that circadian disruption is not universally present in CFS; constrains claims that circadian disturbance is a core mechanism.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (peer-reviewed, matched controls)
+        - *Sample:* Small (n=15 per group)
+        - *Replication:* Single study
+        - *Score:* 0.55
 
 === Xie et al.\ 2013 — Sleep Drives Glymphatic Clearance
 

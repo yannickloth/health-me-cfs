@@ -14,7 +14,7 @@ The circadian rhythm abnormalities documented in ME/CFS should not be viewed as 
 
 *Testable prediction:* A chronotherapy trial (timed light + melatonin + activity scheduling) in ME/CFS patients with documented circadian disruption would improve at least two non-sleep outcome domains (e.g. immune markers, cortisol rhythm amplitude, HRV) beyond what sleep improvement alone would predict. Falsified if chronotherapy normalises sleep metrics without measurable improvement in non-sleep circadian outputs.
 
-*Limitations:* The Castro-Marrero 2021 melatonin trial @castromarrero2021melatonin is the only RCT supporting circadian intervention in ME/CFS, combined melatonin with zinc (individual contributions inseparable), and had a modest sample size. No study has tested multi-modal chronotherapy in ME/CFS.
+*Limitations:* The Castro-Marrero 2021 melatonin trial @castromarrero2021melatonin is the only RCT supporting circadian intervention in ME/CFS, combined melatonin with zinc (individual contributions inseparable), and had a modest sample size. No study has tested multi-modal chronotherapy in ME/CFS. A cross-disease circadian subtype identified in depression may offer a stratification signal for ME/CFS chronotherapy (Section @spec:circadian-depression-mecfs-overlap), but this remains speculative.
 ] <spec:circadian-resynchronization>
 
 #speculation(title: [Metabolic-Circadian Entrainment Coupling: Leptin as a Modulator of Phase Re-alignment])[

@@ -666,7 +666,8 @@
     "category": "cytokine",
     "definition": "Transformierender Wachstumsfaktor Beta: ein Zytokin mit immunsuppressiven und pro-fibrotischen Funktionen. Erhöht in einigen ME/CFS-Studien, verbunden mit einer Th2/Th17-Verschiebung.",
     "synonyms": [
-      "Transformierender Wachstumsfaktor Beta"
+      "Transformierender Wachstumsfaktor Beta",
+      "TGFB"
     ]
   },
   "BDNF": {
@@ -13124,7 +13125,9 @@
     "label": "Zirkadianer Rhythmus",
     "category": "system",
     "definition": "Endogene biologische Oszillationen mit etwa 24-stündiger Periodizität, gesteuert durch den Nucleus suprachiasmaticus und periphere Uhrengene.",
-    "synonyms": []
+    "synonyms": [
+      "circadian"
+    ]
   },
   "digital twin": {
     "label": "Digitaler Zwilling",
@@ -14796,5 +14799,23 @@
       "VWF",
       "vWF"
     ]
+  },
+  "chronotype": {
+    "label": "Chronotyp",
+    "category": "concept",
+    "definition": "Die natürliche Neigung einer Person zu Schlaf- und Wachzeiten, oft als Morgentyp, Abendtyp oder intermediär beschrieben. Der Abendchronotyp ist mit einer verzögerten Schlafphase assoziiert und kann sich mit zirkadianen Subtypen der Depression oder ME/CFS überschneiden."
+  },
+  "DLMO": {
+    "label": "DLMO",
+    "category": "measurement",
+    "definition": "Dim-Light-Melatonin-Onset: die Zeit am Abend, zu der die Melatoninkonzentration unter Dim-Light-Bedingungen zu steigen beginnt. DLMO ist ein Standardmarker der zirkadianen Phase und wird verwendet, um verzögerte oder vorverlagerte Schlafphasen zu bewerten.",
+    "synonyms": [
+      "dim light melatonin onset"
+    ]
+  },
+  "SMAD": {
+    "label": "SMAD",
+    "category": "protein",
+    "definition": "Eine Familie von Proteinen, die Signale von TGF-β-Rezeptoren in den Zellkern übermitteln und die Gentranskription regulieren. SMAD-Signalierung verbindet Zytokin-Signalierung mit der Expression von Uhrgenen und fibrotischen Antworten."
   }
 }

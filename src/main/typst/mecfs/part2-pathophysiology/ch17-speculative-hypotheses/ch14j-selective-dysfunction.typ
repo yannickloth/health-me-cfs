@@ -643,7 +643,7 @@ Suprachiasmatic nucleus (SCN) dysfunction impairs circadian allocation of the CN
 
 *Relationship to parent hypothesis:* Temporal dimension of energy allocation failure.
 
-*Mechanism:* The SCN normally orchestrates circadian allocation of metabolic resources across the 24-hour cycle, including modulation of hepatic glucose production, cortisol rhythm, and CNS arousal @van2012circadian. Circadian rhythm abnormalities are documented in ME/CFS, including dissociation between body temperature and melatonin secretion rhythms @williams2001circadian and disrupted autonomic circadian patterns @cambras2018circadian. The proposed consequence: SCN dysfunction causes temporal mismatch in energy availability—energy peaks when demand is low (late-night “second wind”) and is depleted when demand is highest (morning/afternoon crashes) @mccarthy2022circadian.
+*Mechanism:* The SCN normally orchestrates circadian allocation of metabolic resources across the 24-hour cycle, including modulation of hepatic glucose production, cortisol rhythm, and CNS arousal @van2012circadian. Circadian rhythm abnormalities are documented in ME/CFS, including dissociation between body temperature and melatonin secretion rhythms @williams2001circadian and disrupted autonomic circadian patterns @cambras2018circadian. The proposed consequence: SCN dysfunction causes temporal mismatch in energy availability—energy peaks when demand is low (late-night “second wind”) and is depleted when demand is highest (morning/afternoon crashes) @McCarthy2022circadian.
 
 *Testable prediction:* Circadian misalignment (dim-light melatonin onset phase shift) correlates with symptom severity fluctuation amplitude across the day.
 

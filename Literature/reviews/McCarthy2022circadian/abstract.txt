@@ -1,0 +1,11 @@
+Title: Circadian rhythm disruption in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: Implications for the post-acute sequelae of COVID-19
+Authors: Michael J. McCarthy
+Journal: Brain, Behavior, & Immunity - Health 2022;20:100412
+DOI: 10.1016/j.bbih.2022.100412
+PMID: 35465246
+PMCID: PMC9019698
+URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9019698/
+Retrieved: 2026-10-27
+
+Abstract:
+Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) is characterized by persistent fatigue, exercise intolerance, sleep disturbances, autonomic dysfunction, and cognitive problems. Circadian rhythm disruption has been examined as a contributing factor. This review covers older and newer studies, focusing on transforming growth factor beta (TGFB), a cytokine associated with ME/CFS that also has roles in circadian rhythms, especially in peripheral cells. The author proposes that disrupted TGFB signaling in ME/CFS may disrupt physiological rhythms in sleep, activity, and cognition, leading to insomnia, energy disturbances, cognitive problems, depression, and autonomic dysfunction. Chronobiological considerations may have implications for understanding ME/CFS in the context of COVID-19 and possible therapeutic avenues.

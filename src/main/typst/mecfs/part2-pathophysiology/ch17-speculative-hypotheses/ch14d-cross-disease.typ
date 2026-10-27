@@ -4711,4 +4711,82 @@ The critical distinction: in cancer, PD-1/PD-L1 blockade partially reverses exha
 *Limitations:* No functional antigen-specific recall assay exists in ME/CFS with concurrent CD8+ metabolic readout — "exhaustion" is inferred from transcriptional/surface-marker similarity to cancer exhaustion, not from demonstrated functional impairment. The polyclonal vs oligoclonal question is unresolved: if exhaustion is polyclonal (all CD8+ cells equally affected) → mitochondrial mechanism; if oligoclonal (few expanded clones) → chronic antigen mechanism (potential autoimmune or viral-persistence driver).
 ] <spec:cancer-immunotherapy-cd8-parallel>
 
+=== Circadian Subtype of Depression: Cross-Disease Relevance for ME/CFS
+<sec:circadian-subtype-depression>
+
+A newly described circadian subtype of depression — defined by evening chronotype, delayed sleep midpoint, social jetlag, seasonality, morning tiredness and hypersomnia — may offer a cross-disease template for understanding sleep-circadian complaints in ME/CFS @Tonini2026CircadianDepression. The subtype is associated with higher polygenic risk for ADHD, mood disorders, insulin resistance, IL-6 and lipid traits, raising the possibility that some ME/CFS patients share this endophenotypic loading. However, direct circadian studies in ME/CFS are inconsistent: one small case-control study found no differences in sleep amount, activity or cortisol rhythm @Rahman2011SleepWakeCFS, while another found altered rest-activity and temperature coupling @cambras2018circadian and a narrative review proposed multi-system circadian decoupling @McCarthy2022circadian. Because the evidence is mixed and the depression findings are not yet replicated, the cross-disease link is treated as speculative.
+
+#speculation(title: [Circadian-Depression Endophenotype Overlap with a Subgroup of ME/CFS])[
+*(Certainty: 0.35.)* A subset of ME/CFS patients may share the circadian-depression endophenotype identified by Tonini et al.\ 2026: delayed sleep phase, evening chronotype, metabolic-immune polygenic risk (insulin resistance, IL-6, BMI, triglycerides) and poorer response to standard antidepressants / stimulants @Tonini2026CircadianDepression. In ME/CFS, circadian abnormalities are documented in some actigraphy and temperature studies @cambras2018circadian and a melatonin+zinc pilot reduced physical fatigue @castromarrero2021melatonin, but Rahman et al.\ 2011 found no objective circadian disruption in a small CFS sample @Rahman2011SleepWakeCFS.
+
+*Evidence base.* The Tonini study is a single cross-sectional depression cohort (n=2604 circadian-subtype cases); it has not been independently replicated and is not an ME/CFS cohort. The ME/CFS circadian literature is small and contradictory. Castro-Marrero 2021 is a single pilot RCT (n=50). McCarthy 2022 is a narrative review proposing TGFB-mediated peripheral clock disruption, without primary replication.
+
+*Alternative interpretations / competing mechanisms* (Standing Epistemic #4). The circadian complaints in ME/CFS may be secondary to autonomic dysfunction, reduced activity, sleep fragmentation, pain, medication effects or primary insomnia rather than a primary circadian clock disorder. The depression subtype may reflect ADHD/metabolic polygenic risk rather than a primary circadian mechanism. The melatonin+zinc benefit may be antioxidant or zinc-mediated rather than circadian.
+
+*Clinical implications.* None definitive. Low-dose melatonin and morning light exposure are already used empirically for sleep in ME/CFS; this topic adds a possible stratification signal (evening-chronotype, delayed-sleep patients) but does not change standard care. Zinc co-supplementation remains investigational.
+
+*Research implications.* The priority is to test whether the Tonini circadian subtype can be identified in ME/CFS and whether it predicts response to melatonin, light therapy or other chronobiological interventions. A replication of Castro-Marrero 2021 in a larger, chronotype-stratified sample would clarify whether the benefit is confined to phase-delayed patients.
+
+*Falsifiable predictions.*
+- In an ME/CFS cohort, a circadian subtype defined by the same six features as Tonini 2026 will be enriched for evening chronotype and delayed DLMO, and will show higher polygenic loading for ADHD/insulin resistance/IL-6 than non-circadian ME/CFS.
+- Melatonin or morning bright-light therapy will improve fatigue and unrefreshing sleep preferentially in the circadian-delayed ME/CFS subgroup, with little benefit in those with normal phase.
+- The speculation is falsified if ME/CFS patients show no circadian phase clustering, or if chronotype does not predict treatment response.
+
+*Severity applicability:* Unknown — none of the included studies stratified by ME/CFS severity.
+
+*Consequence:* If the overlap is real, ME/CFS sleep management could move from generic sleep hygiene to chronotype-stratified chronotherapy, and circadian features could enter subgrouping models. If false, it cautions against over-interpreting sleep complaints as primary circadian pathology.
+] <spec:circadian-depression-mecfs-overlap>
+
+#open-question(title: [Does a Circadian Subtype of ME/CFS Exist?])[
+*(Certainty of resolution if run: 0.45 — feasible with existing cohorts but not yet done.)* Depression research now identifies a replicable-seeming circadian subtype with clinical and genetic correlates @Tonini2026CircadianDepression. Whether ME/CFS contains an analogous subtype is unresolved. The condition has near-universal unrefreshing sleep and frequent delayed sleep phase, but objective circadian markers are inconsistent @Rahman2011SleepWakeCFS @cambras2018circadian @McCarthy2022circadian.
+
+*Falsifiable prediction.* Applying the Tonini six-feature classifier (social jetlag, seasonality, delayed sleep midpoint, evening chronotype, morning tiredness, hypersomnia) to a well-characterised ME/CFS cohort will reveal whether a distinct circadian cluster exists, what proportion it represents, and whether it correlates with objective actigraphy/CRP/IL-6/insulin resistance markers. Falsified if ME/CFS sleep complaints are distributed continuously without cluster separation.
+
+*Severity applicability:* Unknown.
+
+*Consequence:* A positive answer would justify circadian subtyping in clinical characterisation and trial stratification; a negative answer would direct attention away from primary circadian mechanisms and toward secondary sleep fragmentation or autonomic causes.
+] <oq:circadian-subtype-me-cfs>
+
+#limitation(title: [Circadian-Depression Findings Are Not Directly Transferable to ME/CFS])[
+The Tonini 2026 circadian subtype was identified in a depression cohort, not in ME/CFS @Tonini2026CircadianDepression. Polygenic risk associations are discovery-level and have not been validated for ME/CFS. The melatonin+zinc RCT in ME/CFS is a single small pilot @castromarrero2021melatonin. The direct circadian evidence in ME/CFS is mixed and based on very small samples @Rahman2011SleepWakeCFS @cambras2018circadian. Therefore any cross-disease inference is hypothesis-generating, not diagnostic or therapeutic guidance.
+
+*Severity applicability:* Unknown.
+
+*Consequence:* Readers and clinicians should not diagnose a "circadian subtype of ME/CFS" or change treatment on this basis; the correct use of this evidence is to motivate stratified studies.
+] <lim:circadian-depression-translation>
+
+#speculation(title: [Blunted HPA-Axis Circadian Rhythm as a Shared Sleep-Fatigue Bridge])[
+*(Certainty: 0.30.)* Both the circadian subtype of depression and ME/CFS are associated with flattened diurnal cortisol variation: depression subtyping links delayed sleep phase and morning tiredness to HPA dysregulation, while ME/CFS studies repeatedly report blunted cortisol awakening response and flatter daytime slopes @Tonini2026CircadianDepression @cambras2018circadian. A shared mechanism is plausible: reduced circadian amplitude of the HPA axis could simultaneously disrupt sleep-wake timing, morning arousal and immune regulation in both conditions.
+
+*Evidence base.* The HPA link in Tonini 2026 is indirect (polygenic and clinical correlates, not cortisol measures). ME/CFS cortisol findings are replicated but small-effect and heterogeneous. Rahman 2011 found no cortisol rhythm difference between CFS and controls in a very small sample @Rahman2011SleepWakeCFS.
+
+*Alternative interpretations / competing mechanisms* (Standing Epistemic #4). Flattened cortisol may be a consequence of chronic illness, sleep disruption, medication use or hypothalamic dysfunction rather than a primary circadian mechanism. The direction of causality is unknown.
+
+*Falsifiable prediction.* In a cross-disease cohort, the circadian-depression subtype and a ME/CFS subgroup will show overlapping distributions of low cortisol awakening response and flat daytime slope, and these metrics will correlate more strongly with sleep-circadian complaints than with mood severity.
+
+*Severity applicability:* Unknown.
+
+*Consequence:* If confirmed, HPA circadian amplitude would become a target for chronotherapy in both conditions, but current evidence is too weak to guide treatment.
+] <spec:hpa-circadian-shared-bridge>
+
+#speculation(title: [TGFB-Mediated Circadian-Immune Coupling in ME/CFS])[
+*(Certainty: 0.28.)* McCarthy 2022 proposed that TGFB dysregulation in ME/CFS disrupts peripheral circadian clock gene expression through SMAD signalling, producing multi-system circadian decoupling @McCarthy2022circadian. The Tonini circadian-depression subtype carries higher polygenic risk for IL-6 and insulin resistance @Tonini2026CircadianDepression, suggesting an inflammatory-metabolic-circadian axis that could overlap with ME/CFS.
+
+*Evidence base.* The TGFB→clock link in ME/CFS is theoretical and derived from a narrative review. No direct experiment has manipulated TGFB in ME/CFS patients or measured clock gene expression in relation to TGFB activity. The IL-6 association in Tonini 2026 is polygenic and cross-sectional.
+
+*Alternative interpretations / competing mechanisms* (Standing Epistemic #4). IL-6 and TGFB changes could be downstream of sleep deprivation, autonomic dysfunction or metabolic stress rather than upstream drivers of circadian disruption.
+
+*Falsifiable prediction.* ME/CFS patients with circadian-delay features will show elevated TGFB/IL-6 signatures and altered peripheral clock gene rhythmicity compared with non-circadian ME/CFS patients and controls; exogenous TGFB modulation in a cellular model would rescue clock gene amplitude.
+
+*Severity applicability:* Unknown.
+
+*Consequence:* If supported, this would identify a cytokine-circadian target for mechanistic studies and possibly anti-inflammatory chronotherapy, but it remains speculative.
+] <spec:tgfb-circadian-immune-coupling>
+
+#synthesis(title: [Circadian-Depression Cross-Disease Link: A Plausible but Unvalidated Subgroup Hypothesis])[
+Taken together, the environments above converge on a single, tightly bounded claim: a circadian subtype recently identified in depression may overlap with a subset of ME/CFS patients who share evening chronotype, delayed sleep phase, and metabolic-immune polygenic loading (@spec:circadian-depression-mecfs-overlap). Whether such a subtype actually exists in ME/CFS is unresolved (@oq:circadian-subtype-me-cfs), and the depression findings should not be treated as directly transferable (@lim:circadian-depression-translation). The hypothesized bridges through blunted HPA circadian amplitude (@spec:hpa-circadian-shared-bridge) and TGFB-mediated clock-immune coupling (@spec:tgfb-circadian-immune-coupling) are mechanistically plausible but lack direct ME/CFS experimental support. The strongest ME/CFS-specific anchor remains a single small pilot RCT showing melatonin+zinc reduced physical fatigue.
+
+*Consequence:* For patients and clinicians, this means sleep complaints in ME/CFS deserve careful phenotyping, but chronotype-stratified chronotherapy is not yet an evidence-based treatment strategy. For researchers, the priority is to apply the Tonini classifier to ME/CFS cohorts and replicate the melatonin+zinc finding in a chronotype-stratified sample.
+] <syn:circadian-subtype-depression-model>
+
 #include "ch14d-brain-clearance-bridges.typ"
