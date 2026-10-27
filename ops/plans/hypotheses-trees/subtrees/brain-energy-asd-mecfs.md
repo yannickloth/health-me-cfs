@@ -17,6 +17,7 @@
 | 1.4 | Glutamatergic Energy Crisis as PEM Trigger | speculation | 0.25 | 4 | 1 | 2 | 2 | 0 | ⬜ | — |
 | 1.5 | Shared Glycolytic Failure Astrocyte+Immune | speculation | 0.25 | 4 | 0 | 2 | 1 | 0 | ⬜ | — |
 | 1.6 | Energy-Sparing Compensation Protects ME/CFS | speculation | 0.15 | 3 | 0 | 1 | 0 | 0 | ⬜ | — |
+| 1.7 | ACC Feedback-Monitoring Energy Triage (Zuk 2026) | speculation | 0.35 | 4 | 1 | 3 | 2 | 2 | ✅ integrated — @spec:zuk-autism-feedback-energy-triage | — |
 | 2.1 | Astrocyte-Specific Biomarker Study | proposal | n/a | 3 | 0 | 2 | 0 | 4 | ⬜ | — |
 | 2.2 | CSF:Plasma Glucose Ratio Study | proposal | n/a | 3 | 0 | 2 | 0 | 5 | ⬜ | — |
 | 2.3 | Social Cognitive fMRI + Metabolic Challenge | proposal | n/a | 3 | 0 | 2 | 1 | 3 | ⬜ | — |
