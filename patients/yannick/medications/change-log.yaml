@@ -1,6 +1,27 @@
 # Medication Change Log
 
 changes:
+  - date: 2026-10-28
+    medication: "Low-Dose Naltrexone (LDN)"
+    action: effectiveness observation
+    previous_dose: 4mg (ongoing since 2026-08-10)
+    current_dose: 4mg, with brief trials at 4.5mg
+    rationale: >
+      Patient reports no felt effect from LDN at 4mg/day or 4.5mg/day after
+      an adequate trial. This is a self-reported effectiveness update, not a
+      dose change.
+    result: >
+      NO perceived benefit at 4mg or 4.5mg. No meaningful improvement in
+      fatigue, PEM tolerance, pain, cognition, or sleep attributed to LDN.
+    notes: >
+      Consistent with prior 4mg assessment (2026-07-09) and with Naik 2026
+      null RCT in post-COVID fatigue at 4.5mg. Two interpretations remain
+      open: (a) true non-response, or (b) dose-window miss — the paper's
+      hormetic model places the TLR4/Nrf2 window at 0.5–1.5mg, which was
+      never tested. Decision: discuss with Dr. Nicolas whether to trial a
+      lower dose or stop LDN. Do not change dose or stop without prescriber
+      guidance.
+
   - date: 2026-09-12
     medication: "Aripiprazole (low-dose, LDA)"
     action: time-boxed dose trial (0.75mg) → failure → brief 1.5mg → restoration to 1mg
