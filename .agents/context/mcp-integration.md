@@ -27,11 +27,11 @@ Bare command names resolve only when opencode is launched from `nix develop` (di
 
 | Server | Type | Source | Auth |
 |--------|------|--------|------|
-| `pubmed` | local | `pubmed-mcp-server` — `buildNpmPackage`, src `nix/pubmed-mcp-server/` (@cyanheads, PubMed + Europe PMC full-text + MeSH) | none |
 | `biomcp` | local | `biomcp serve` — prebuilt `biomcp-linux-x86_64.tar.gz` via `fetchurl` + autoPatchelfHook | optional keys (`NCBI_API_KEY`, `S2_API_KEY`) |
 | `scite` | remote OAuth | `https://api.scite.ai/mcp` | paid plan + `opencode mcp auth scite` — `enabled: false` (no subscription yet) |
 
 Notes:
 - biomcp already covers PubMed, cBioPortal, ClinicalTrials.gov, OpenFDA, Semantic Scholar — avoid double-tooling these.
 - cBioPortal deliberately NOT wired (cancer-genomics, off-domain for ME/CFS).
-- Neither biomcp nor pubmed-mcp-server is in nixpkgs (verified); both ship prebuilt artifacts, so no dependency resolution needed.
+- `pubmed` (pubmed-mcp-server, @cyanheads) removed from `opencode.json` 2026-11-06: redundant with biomcp's PubMed coverage. Flakes package + `nix/pubmed-mcp-server/` src remain for possible re-wiring.
+- biomcp is not in nixpkgs (verified); it ships prebuilt artifacts, so no dependency resolution needed.

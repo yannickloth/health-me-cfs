@@ -3,13 +3,6 @@
   "model": "deepseek/deepseek-v4-pro",
   "small_model": "deepseek/deepseek-flash",
   "mcp": {
-    "pubmed": {
-      "type": "local",
-      "command": [
-        "pubmed-mcp-server"
-      ],
-      "enabled": true
-    },
     "biomcp": {
       "type": "local",
       "command": [
