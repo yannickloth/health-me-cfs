@@ -1,0 +1,109 @@
+date: 2026-11-10
+
+sleep:
+  previous_night:
+    date: 2026-11-09
+    quality: ~
+    notes: "Not reported."
+    bedtime: ~
+    wake_time: ~
+    duration_hours: ~
+    woke_naturally: ~
+    feeling_on_wake: ~
+    source: patient_report
+    disruption_cause: ~
+
+medications_supplements:
+  prescribed_medications:
+    - "Aripiprazole (LDA) 1mg/day active"
+    - "LDN 4mg/day active"
+    - "Rupatadine 20-30mg/day (3 pills) active"
+    - "Famotidine 20mg/day active"
+    - "Montelukast 10mg/day active"
+    - "Mestinon 1 pill/day active (time-boxed low-dose retrial since 2026-08-19)"
+    - "Ritalin MR 10mg intermittent (every few days)"
+  supplements: ~
+  notes: "Adherence on 2026-11-10 not confirmed (~). Regimen per current-regimen.yaml (last updated 2026-09-19)."
+
+symptoms:
+  overall:
+    severity: ~
+    notes: >
+      Tired and legs hurt seriously, in the patient's words similar to an
+      exhaustion. Symptoms present on the day after vaccination (2026-11-09).
+      Could be a vaccine reaction or a vaccine-triggered PEM. Severity not
+      rated by the patient.
+  fatigue:
+    severity: ~
+    notes: >
+      Tired. Described by the patient as similar to exhaustion. Not graded
+      on a severity scale.
+  muscle_pain:
+    severity: ~
+    notes: >
+      Legs hurt seriously. Significant lower-limb pain reported. Not graded.
+      Location is legs/lower limbs; character is described as pain and the
+      patient compares it to an exhaustion.
+  headache: ~
+
+overall_wellbeing: ~
+
+activity:
+  activity_level:
+    - description: "Not reported."
+      exertion_level: ~
+      notes: "No activity reported. Rest is likely given the fatigue and leg pain, but this is not asserted by the patient."
+  unable_to_rest: ~
+  notes: "Symptoms limit activity. Activity level not reported."
+
+pem_tracking:
+  trigger_event: "Flu vaccine and COVID-19 vaccine on 2026-11-09."
+  pem_day: 1
+  status: >
+    Patient reports tiredness and serious leg pain on 2026-11-10, the day
+    after vaccination. This falls inside the patient's usual 24–72 h PEM
+    onset window. The symptoms may represent a vaccine-triggered PEM or a
+    direct vaccine reaction. The patient described the sensation as similar
+    to exhaustion. Not clinician-assessed.
+  notes: >
+    Track for PEM development over the next 3 days. Record severity,
+    symptom list expansion, and return-to-baseline date.
+
+pem_risk:
+  level: high
+  rationale: >
+    Symptoms already present on the first day after a dual-vaccine event.
+    Vaccination is a recognised PEM trigger. The combination of two vaccines
+    on the same day increases immunological load. Patient describes leg pain
+    and exhaustion-like fatigue, consistent with PEM.
+  expected_onset: ~
+  monitoring: >
+    Daily monitoring through 2026-11-12. Record any symptom changes,
+    severity ratings, and the date of return to baseline.
+
+hypotheses:
+  - id: vaccine_triggered_pem_20261109
+    text: >
+      The dual vaccination on 2026-11-09 triggered a PEM episode with onset
+      on 2026-11-10. The symptom profile is tiredness and serious leg pain
+      similar to exhaustion. Onset is within the patient's usual 24–72 h
+      window. The patient's baseline on 2026-11-09 is unknown; no PEM was
+      reported for the vaccination day itself.
+    status: observation
+    falsifiable: true
+    test: >
+      Compare with future single-vaccine events. If single vaccines do not
+      produce the same level of symptoms, the dual-vaccine load is the
+      differentiating factor.
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 5.8
+  temperature_max_c: 7.5
+  temperature_min_c: 4.1
+  humidity_pct: 93
+  pressure_msl_hpa: ~
+  precipitation_mm: 1.4
+  wind_max_kmh: 15.3
+  conditions: ~
+  source: "Open-Meteo forecast API, past_days window (retrieved 2026-11-10, lat 49.59/lon 5.82, elev 276m)"

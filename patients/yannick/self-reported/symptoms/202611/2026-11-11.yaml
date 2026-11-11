@@ -1,0 +1,115 @@
+date: 2026-11-11
+
+sleep:
+  previous_night:
+    date: 2026-11-10
+    quality: poor
+    notes: >
+      Patient's own words: slept badly; woke at midnight, again at 04:00 and
+      stayed awake until 06:30, then slept lightly ("with one eye") until
+      08:00. Legs continued to hurt the whole night.
+    bedtime: ~
+    wake_time: "08:00"
+    duration_hours: ~
+    woke_naturally: ~
+    feeling_on_wake: ~
+    source: patient_report
+    disruption_cause: "leg pain throughout the night"
+    wake_events:
+      - time: "00:00"
+        note: "Woke at midnight."
+      - time: "04:00"
+        note: "Woke again; stayed awake until 06:30 (approx. 2.5 h awake)."
+      - time: "06:30–08:00"
+        note: "Light sleep, described by the patient as 'slept with one eye'."
+
+medications_supplements:
+  prescribed_medications:
+    - "Aripiprazole (LDA) 1mg/day active"
+    - "LDN 4mg/day active"
+    - "Rupatadine 20-30mg/day (3 pills) active"
+    - "Famotidine 20mg/day active"
+    - "Montelukast 10mg/day active"
+    - "Mestinon 1 pill/day active (time-boxed low-dose retrial since 2026-08-19)"
+    - "Ritalin MR 10mg intermittent (every few days)"
+  supplements: ~
+  notes: "Adherence on 2026-11-11 not confirmed (~). Regimen per current-regimen.yaml (last updated 2026-09-19)."
+
+symptoms:
+  overall:
+    severity: ~
+    notes: >
+      Poor, fragmented sleep overnight, driven by ongoing leg pain. The legs
+      "continued to hurt the whole night", extending the lower-limb pain first
+      reported on 2026-11-10. Severity not graded by the patient.
+  fatigue: ~
+  muscle_pain:
+    severity: ~
+    notes: >
+      Legs continued to hurt the whole night (2026-11-10 into 2026-11-11).
+      Lower-limb pain is ongoing from 2026-11-10. Not graded on a severity
+      scale; the pain was sufficient to interrupt sleep repeatedly (midnight,
+      04:00–06:30).
+  headache: ~
+
+overall_wellbeing: ~
+
+activity:
+  activity_level:
+    - description: "Not reported."
+      exertion_level: ~
+      notes: "No activity reported for this entry. The report concerns the preceding night's sleep and leg pain."
+  unable_to_rest: ~
+  notes: "Sleep disrupted by leg pain; no daytime activity reported."
+
+pem_tracking:
+  trigger_event: "Flu vaccine and COVID-19 vaccine on 2026-11-09."
+  pem_day: 2
+  status: >
+    Leg pain that began on 2026-11-10 persists through the night and into
+    2026-11-11, disrupting sleep (fragmented sleep: waking at midnight and
+    04:00, then light sleep to 08:00). Ongoing symptoms are consistent with a
+    vaccine reaction or a vaccine-triggered PEM inside the patient's usual
+    24–72 h onset window. Not clinician-assessed.
+  notes: >
+    Continuation of the 2026-11-10 presentation (tiredness and serious leg
+    pain) into a second day. Track severity, symptom-list expansion, and the
+    return-to-baseline date.
+
+pem_risk:
+  level: high
+  rationale: >
+    Leg pain persists into day 2 after a dual-vaccine event and now disrupts
+    sleep. Persistent nocturnal pain is a sign the episode has not resolved.
+  expected_onset: ~
+  monitoring: >
+    Daily monitoring through 2026-11-12 as planned. Note whether leg pain
+    eases or worsens, sleep quality, and any new symptoms.
+
+hypotheses:
+  - id: vaccine_triggered_pem_20261109
+    text: >
+      The dual vaccination on 2026-11-09 produced a reaction that is still
+      present on 2026-11-11 (day 2): lower-limb pain persisting overnight and
+      fragmenting sleep. This is consistent with the ongoing observation of a
+      vaccine-triggered PEM or a direct post-vaccination reaction, first
+      logged on 2026-11-10.
+    status: observation
+    falsifiable: true
+    test: >
+      Track resolution over the next days. If symptoms resolve by ~2026-11-12
+      to 2026-11-14 without recurrence, this is a self-limited vaccine
+      reaction. If PEM symptoms follow the patient's usual 5–7 day course or
+      recur, the episode is more likely a PEM than a transient reaction.
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 10.0
+  temperature_max_c: 11.9
+  temperature_min_c: 6.8
+  humidity_pct: ~
+  pressure_msl_hpa: 1003.1
+  precipitation_mm: 6.8
+  wind_max_kmh: 12.7
+  conditions: ~
+  source: "Open-Meteo archive API (retrieved 2026-11-11, lat 49.59/lon 5.82, elev 276m)"

@@ -1,0 +1,97 @@
+date: 2026-11-09
+
+sleep:
+  previous_night:
+    date: 2026-11-08
+    quality: ~
+    notes: "Not reported."
+    bedtime: ~
+    wake_time: ~
+    duration_hours: ~
+    woke_naturally: ~
+    feeling_on_wake: ~
+    source: patient_report
+    disruption_cause: ~
+
+medications_supplements:
+  prescribed_medications:
+    - "Aripiprazole (LDA) 1mg/day active"
+    - "LDN 4mg/day active"
+    - "Rupatadine 20-30mg/day (3 pills) active"
+    - "Famotidine 20mg/day active"
+    - "Montelukast 10mg/day active"
+    - "Mestinon 1 pill/day active (time-boxed low-dose retrial since 2026-08-19)"
+    - "Ritalin MR 10mg intermittent (every few days)"
+  supplements: ~
+  notes: "Adherence on 2026-11-09 not confirmed (~). Regimen per current-regimen.yaml (last updated 2026-09-19)."
+
+symptoms:
+  overall:
+    severity: ~
+    notes: >
+      Flu and COVID-19 vaccines administered. Patient reported no reaction on
+      the day of vaccination itself; reaction reported the following day
+      (2026-11-10). Not graded.
+  fatigue: ~
+  muscle_pain: ~
+  headache: ~
+
+overall_wellbeing: ~
+
+activity:
+  activity_level:
+    - description: "Vaccination visit (flu + COVID-19, same day)."
+      exertion_level: ~
+      notes: "Travel to and from the vaccination site is an unreported exertion component."
+  unable_to_rest: ~
+  notes: "Vaccination day. No other activities reported."
+
+pem_tracking:
+  trigger_event: "Flu vaccine and COVID-19 vaccine, both on 2026-11-09."
+  pem_day: ~
+  status: >
+    No PEM reported on 2026-11-09 itself. A reaction on 2026-11-10 (tired,
+    leg pain similar to exhaustion) may be vaccine-related, but PEM was not
+    reported by the patient for this day. Track the next 3 days (2026-11-10
+    through 2026-11-12) for PEM onset within the patient's usual 24–72 h
+    window.
+  notes: "Two vaccines on the same day; the combined immunological load is unknown."
+
+pem_risk:
+  level: moderate
+  rationale: >
+    Vaccination is a recognised PEM trigger in ME/CFS. Two vaccines on the
+    same day increases the immunological load compared to a single vaccine.
+    The patient reports symptoms on 2026-11-10 consistent with a possible
+    vaccine reaction or PEM onset.
+  expected_onset: "2026-11-09 through 2026-11-11 (24–72 h post-vaccination)"
+  monitoring: >
+    Daily monitoring on 2026-11-10, 2026-11-11, and 2026-11-12. Record
+    severity, symptom list, and return-to-baseline date if PEM develops.
+
+hypotheses:
+  - id: dual_vaccine_reaction
+    text: >
+      Two vaccines on the same day (flu + COVID-19) produced a post-vaccination
+      reaction on 2026-11-10, presenting as fatigue and leg pain similar to
+      exhaustion. This may be a direct vaccine reaction or a vaccine-triggered
+      PEM episode. Cannot distinguish without comparing to single-vaccine
+      reactions in this patient.
+    status: observation
+    falsifiable: true
+    test: >
+      Compare future single-vaccine events. If a single vaccine does not
+      produce the same symptoms, the dual-vaccine load is the differentiating
+      factor.
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 4.2
+  temperature_max_c: 7.0
+  temperature_min_c: 1.5
+  humidity_pct: 95
+  pressure_msl_hpa: ~
+  precipitation_mm: 0.0
+  wind_max_kmh: 11.1
+  conditions: ~
+  source: "Open-Meteo forecast API, past_days window (retrieved 2026-11-09, lat 49.59/lon 5.82, elev 276m)"
