@@ -1,8 +1,25 @@
+// opencode.jsonc — plugins parcelled out for measurement, 2026-11-07.
+//
+// WHY: a token-cost review found every project loading 15-27 plugins, none of
+// them measured. opencode averages 33.5 model calls/trial vs pi's 18.5, and
+// several of these plugins inject context on every message. This is the
+// baseline: NO harness plugins. Re-enable one at a time and compare tokens.
+//
+// graphrag is disabled for every project permanently (user decision).
+//
+// To re-enable: move one line out of the commented block into "plugin".
+// Precedence note: opencode.jsonc wins over opencode.json in the same dir,
+// but the .json was removed here so there is only one source of truth.
+
 {
   "$schema": "https://opencode.ai/config.json",
-  "model": "deepseek/deepseek-v4-pro",
-  "small_model": "deepseek/deepseek-flash",
-  "mcp": {
+  "plugin": [
+    "../llm-harness-plugins/agentmem/opencode",
+    "../llm-harness-plugins/knowledge-graph/opencode"
+  ],
+  "model":   "deepseek/deepseek-v4-pro",
+  "small_model":   "deepseek/deepseek-flash",
+  "mcp":   {
     "pubmed": {
       "type": "local",
       "command": [
@@ -24,41 +41,14 @@
       "enabled": false
     }
   },
-  "instructions": [
+  "instructions":   [
     "Read AGENTS.md for project context.",
     "Read .opencode/agents/*.md for agent definitions.",
-    "Tiers: (1) deepseek-flash thinking-disabled = mechanical, build-verified, high-volume; flash kept for speed, thinking explicitly OFF because DS4 API defaults thinking ON. (2) deepseek-v4-pro thinking-enabled = judgment tier; effort=high for default judgment work, effort=max for deep-reasoning auditors/builders formerly on k3 (DS4-pro cheap; DS4 supports only high/max; opencode auto-elevates complex agent calls to max). (3) kimi-for-coding/k2p7 (K2.7 Code, 256K ctx) = code-generation agents where DS4 code mistakes cause rework loops. (4) kimi-for-coding/kimi-for-coding-highspeed = latency-sensitive code fix loops. (5) kimi-for-coding/k3 = reserved ONLY for vision-critical agents that must Read rendered figures/PDFs and judge deep visual rhetoric (diagram-rhetoric-auditor). NO text-only review agent may use Kimi k3. VISION: DS4 models are text-only — any agent that Reads rendered figures/PDFs (diagram layout, accuracy, consistency, spacing checks) MUST use a Kimi model (k2p7 default; k3 for deep visual-rhetoric)."
+    "Tiers: (1) deepseek-flash thinking-disabled = mechanical, build-verified, high-volume; flash kept for speed, thinking explicitly OFF because DS4 API defaults thinking ON. (2) deepseek-v4-pro thinking-enabled = judgment tier; effort=high for default judgment work, effort=max for deep-reasoning auditors/builders formerly on k3 (DS4-pro cheap; DS4 supports only high/max; opencode auto-elevates complex agent calls to max). (3) kimi-for-coding/k2p7 (K2.7 Code, 256K ctx) = code-generation agents where DS4 code mistakes cause rework loops. (4) kimi-for-coding/kimi-for-coding-highspeed = latency-sensitive code fix loops. (5) kimi-for-coding/k3 = reserved ONLY for vision-critical agents that must Read rendered figures/PDFs and judge deep visual rhetoric (diagram-rhetoric-auditor). NO text-only review agent may use Kimi k3. VISION: DS4 models are text-only \u2014 any agent that Reads rendered figures/PDFs (diagram layout, accuracy, consistency, spacing checks) MUST use a Kimi model (k2p7 default; k3 for deep visual-rhetoric)."
   ],
-  "plugin": [
-    "../llm-harness-plugins/context-includes/opencode/index.ts",
-    "../llm-harness-plugins/guardrail-chain/opencode/index.ts",
-    "../llm-harness-plugins/session-lifecycle/opencode/index.ts",
-    "../llm-harness-plugins/agentmem/opencode/index.ts",
-    "../llm-harness-plugins/semantic-cache/opencode/index.ts",
-    "../llm-harness-plugins/tier-router/opencode/index.ts",
-    "../llm-harness-plugins/datetime-inject/opencode/index.ts",
-    "../llm-harness-plugins/offpeak-nudge/opencode/index.ts",
-    "../llm-harness-plugins/agentinsights/opencode/index.ts",
-    "../llm-harness-plugins/graphrag/opencode/index.ts",
-    "../llm-harness-plugins/knowledge-graph/opencode/index.ts",
-    "../llm-harness-plugins/prompt-registry/opencode/index.ts",
-    "../llm-harness-plugins/typst-toolkit/opencode/index.ts",
-    "../llm-harness-plugins/latex-toolkit/opencode/index.ts",
-    "../llm-harness-plugins/java-toolkit/opencode/index.ts",
-    "../llm-harness-plugins/python-toolkit/opencode/index.ts",
-    "../llm-harness-plugins/ivp/opencode/index.ts",
-    "../llm-harness-plugins/general-skills/opencode/index.ts",
-    "../llm-harness-plugins/permission-modes/opencode/index.ts",
-    "../llm-harness-plugins/agentfeed/opencode/index.ts",
-    "../llm-harness-plugins/natural-prose/opencode/index.ts",
-    "../llm-harness-plugins/codify-first/opencode/index.ts",
-    "../llm-harness-plugins/system-message-merge/opencode/index.ts",
-    "../llm-harness-plugins/scientific-writing/opencode/index.ts",
-    "../llm-harness-plugins/premium-read-offload/opencode/index.ts"
-  ],
-  "agent": {
+  "agent":   {
     "backward-reader-auditor": {
-      "description": "Adversarial auditor that reads from conclusions/theorems backward to premises — catches results that depend on unstated lemmas, hand-waved steps, or support chains with missing links. Format-agnostic (Typst or LaTeX).",
+      "description": "Adversarial auditor that reads from conclusions/theorems backward to premises \u2014 catches results that depend on unstated lemmas, hand-waved steps, or support chains with missing links. Format-agnostic (Typst or LaTeX).",
       "mode": "subagent",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
@@ -162,7 +152,7 @@
       }
     },
     "citation-fidelity-auditor": {
-      "description": "Verify that cited sources actually support the claims they back — catches misrepresented sources, cherry-picked quotations, and scope mismatches.",
+      "description": "Verify that cited sources actually support the claims they back \u2014 catches misrepresented sources, cherry-picked quotations, and scope mismatches.",
       "mode": "subagent",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
@@ -174,7 +164,7 @@
       "prompt": "{file:../llm-harness-plugins/general-skills/agents/citation-fidelity-auditor.md}"
     },
     "claim-substance-auditor": {
-      "description": "Audit formal claims (theorems, corollaries, propositions) for substantive content — catches tautologies, circular conclusions, vacuous preconditions, and claims that merely restate definitions or axioms without adding insight. Format-agnostic (Typst or LaTeX).",
+      "description": "Audit formal claims (theorems, corollaries, propositions) for substantive content \u2014 catches tautologies, circular conclusions, vacuous preconditions, and claims that merely restate definitions or axioms without adding insight. Format-agnostic (Typst or LaTeX).",
       "mode": "subagent",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
@@ -254,7 +244,7 @@
       }
     },
     "content-splitter": {
-      "description": "Split a monolithic Typst file into the canonical content hierarchy (part/chapter/section/subsection + typed subdirs per environment). Reads the global content-structure-convention.md. Iso-functional operation — all post-conditions must hold after split. Use when a chapter or section file contains prose and environment instances that should be extracted into typed subdirectory files.",
+      "description": "Split a monolithic Typst file into the canonical content hierarchy (part/chapter/section/subsection + typed subdirs per environment). Reads the global content-structure-convention.md. Iso-functional operation \u2014 all post-conditions must hold after split. Use when a chapter or section file contains prose and environment instances that should be extracted into typed subdirectory files.",
       "mode": "subagent",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
@@ -275,7 +265,7 @@
       }
     },
     "cynic-auditor": {
-      "description": "Adversarial reviewer who assumes the worst about every claim — looks for motivated reasoning, cherry-picking, confirmation bias, and arguments that are technically true but misleading. The hostile reviewer who thinks a document is advocacy disguised as science. Format-agnostic (Typst or LaTeX).",
+      "description": "Adversarial reviewer who assumes the worst about every claim \u2014 looks for motivated reasoning, cherry-picking, confirmation bias, and arguments that are technically true but misleading. The hostile reviewer who thinks a document is advocacy disguised as science. Format-agnostic (Typst or LaTeX).",
       "mode": "subagent",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
@@ -319,7 +309,7 @@
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/definition-use-checker.md}"
     },
     "devil-advocate-auditor": {
-      "description": "Adversarial reviewer who systematically constructs the strongest possible counter-argument to every major claim — not to disprove the work, but to identify which claims can withstand the strongest opposition and which cannot. The reviewer who asks \"what's the best argument AGAINST this?\" Format-agnostic (Typst or LaTeX).",
+      "description": "Adversarial reviewer who systematically constructs the strongest possible counter-argument to every major claim \u2014 not to disprove the work, but to identify which claims can withstand the strongest opposition and which cannot. The reviewer who asks \"what's the best argument AGAINST this?\" Format-agnostic (Typst or LaTeX).",
       "mode": "subagent",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
@@ -361,7 +351,7 @@
       }
     },
     "document-health-monitor": {
-      "description": "Generate structural health metrics for a document — section lengths, citation density, empty-section detection, placeholder identification. Use when checking document balance, finding stub sections, or assessing how complete a document skeleton is. Format-agnostic (Typst or LaTeX).",
+      "description": "Generate structural health metrics for a document \u2014 section lengths, citation density, empty-section detection, placeholder identification. Use when checking document balance, finding stub sections, or assessing how complete a document skeleton is. Format-agnostic (Typst or LaTeX).",
       "mode": "subagent",
       "model": "deepseek/deepseek-flash",
       "options": {
@@ -372,7 +362,7 @@
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/document-health-monitor.md}"
     },
     "driver-assignment-auditor": {
-      "description": "Adversarially audit a change-driver registry and its element→driver assignments for IVP soundness — proxy grounding, missed drivers, conflation, admissibility violations, unanchored drivers. Read-only; reports findings only.",
+      "description": "Adversarially audit a change-driver registry and its element\u2192driver assignments for IVP soundness \u2014 proxy grounding, missed drivers, conflation, admissibility violations, unanchored drivers. Read-only; reports findings only.",
       "mode": "subagent",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
@@ -444,7 +434,7 @@
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/falsifiability-auditor.md}"
     },
     "falsificationist-auditor": {
-      "description": "Adversarial auditor adopting the Popperian philosophy of science — checks whether a theory states its falsifiability conditions, whether its claims are testable, and whether the theory could in principle be shown wrong. Format-agnostic (Typst or LaTeX).",
+      "description": "Adversarial auditor adopting the Popperian philosophy of science \u2014 checks whether a theory states its falsifiability conditions, whether its claims are testable, and whether the theory could in principle be shown wrong. Format-agnostic (Typst or LaTeX).",
       "mode": "subagent",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
@@ -490,7 +480,7 @@
       }
     },
     "functional-paradigm-auditor": {
-      "description": "Adversarial auditor adopting the persona of a functional programming practitioner — catches implicit OOP assumptions, paradigm-specific examples presented as universal, and gaps in a document's applicability to non-OO paradigms. Format-agnostic (Typst or LaTeX).",
+      "description": "Adversarial auditor adopting the persona of a functional programming practitioner \u2014 catches implicit OOP assumptions, paradigm-specific examples presented as universal, and gaps in a document's applicability to non-OO paradigms. Format-agnostic (Typst or LaTeX).",
       "mode": "subagent",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
@@ -502,7 +492,7 @@
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/functional-paradigm-auditor.md}"
     },
     "gamma-modularizer": {
-      "description": "Sort code elements into modules by gamma-equivalence — group elements with identical change-driver sets into the same module, split elements with different driver sets apart. Edits module boundaries, not driver assignments.",
+      "description": "Sort code elements into modules by gamma-equivalence \u2014 group elements with identical change-driver sets into the same module, split elements with different driver sets apart. Edits module boundaries, not driver assignments.",
       "mode": "subagent",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
@@ -587,7 +577,7 @@
       }
     },
     "industry-architect-auditor": {
-      "description": "Adversarial auditor adopting the persona of a senior software architect with 15+ years of production experience — catches theory that never lands practically, missing decision procedures, and gaps between formal results and actionable guidance. Format-agnostic (Typst or LaTeX).",
+      "description": "Adversarial auditor adopting the persona of a senior software architect with 15+ years of production experience \u2014 catches theory that never lands practically, missing decision procedures, and gaps between formal results and actionable guidance. Format-agnostic (Typst or LaTeX).",
       "mode": "subagent",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
@@ -599,7 +589,7 @@
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/industry-architect-auditor.md}"
     },
     "ivp-refactor-auditor": {
-      "description": "Verify a post-modularization codebase against the four IVP conditions — Separation, Unification, Admissibility, Element Form — and nesting soundness. Read-only; reports violations only.",
+      "description": "Verify a post-modularization codebase against the four IVP conditions \u2014 Separation, Unification, Admissibility, Element Form \u2014 and nesting soundness. Read-only; reports violations only.",
       "mode": "subagent",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
@@ -622,7 +612,7 @@
       "prompt": "{file:../llm-harness-plugins/latex-toolkit/agents/latex-citation-checker.md}"
     },
     "latex-figure-caption-auditor": {
-      "description": "Audit LaTeX figure/table captions — must state a claim, be standalone-readable, have labels, and be referenced in text.",
+      "description": "Audit LaTeX figure/table captions \u2014 must state a claim, be standalone-readable, have labels, and be referenced in text.",
       "mode": "subagent",
       "model": "deepseek/deepseek-flash",
       "options": {
@@ -644,7 +634,7 @@
       "prompt": "{file:../llm-harness-plugins/latex-toolkit/agents/latex-formatting-fixer.md}"
     },
     "latex-index-auditor": {
-      "description": "Audit \\index coverage — verify key terms, theorems, definitions, and named concepts are indexed, and index entries are consistent.",
+      "description": "Audit \\index coverage \u2014 verify key terms, theorems, definitions, and named concepts are indexed, and index entries are consistent.",
       "mode": "subagent",
       "model": "deepseek/deepseek-flash",
       "options": {
@@ -729,7 +719,7 @@
       "prompt": "{file:../llm-harness-plugins/general-skills/agents/logic-auditor.md}"
     },
     "math-verifier": {
-      "description": "Verify mathematical proofs, derivations, and calculations — step-by-step correctness, hidden assumptions, logical structure.",
+      "description": "Verify mathematical proofs, derivations, and calculations \u2014 step-by-step correctness, hidden assumptions, logical structure.",
       "mode": "subagent",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
@@ -777,7 +767,7 @@
       }
     },
     "misconception-auditor": {
-      "description": "Verify chapters include explicit misconception inoculation — common misunderstandings anticipated and addressed, not left for readers to stumble into.",
+      "description": "Verify chapters include explicit misconception inoculation \u2014 common misunderstandings anticipated and addressed, not left for readers to stumble into.",
       "mode": "subagent",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
@@ -848,7 +838,7 @@
       }
     },
     "opus-general": {
-      "description": "High-capability agent for complex reasoning tasks with no specialized agent available. Use when task requires deep analysis beyond Sonnet's capabilities — mathematical proofs, sophisticated logical verification, detecting subtle flaws, or high-stakes decisions where errors would be very costly.",
+      "description": "High-capability agent for complex reasoning tasks with no specialized agent available. Use when task requires deep analysis beyond Sonnet's capabilities \u2014 mathematical proofs, sophisticated logical verification, detecting subtle flaws, or high-stakes decisions where errors would be very costly.",
       "mode": "subagent",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
@@ -943,7 +933,7 @@
       }
     },
     "reductionist-auditor": {
-      "description": "Adversarial reviewer who attacks complexity and integration claims — finds where multi-system explanations are asserted without rigorous justification, where Occam's razor would prefer simpler explanations, and where \"everything is connected\" substitutes for actual mechanistic evidence. Format-agnostic (Typst or LaTeX).",
+      "description": "Adversarial reviewer who attacks complexity and integration claims \u2014 finds where multi-system explanations are asserted without rigorous justification, where Occam's razor would prefer simpler explanations, and where \"everything is connected\" substitutes for actual mechanistic evidence. Format-agnostic (Typst or LaTeX).",
       "mode": "subagent",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
@@ -1003,7 +993,7 @@
       }
     },
     "scenario-validity-auditor": {
-      "description": "Audit examples and case discussions for scenario validity — catches scenarios that fail to exhibit the pitfall or principle they claim to illustrate, cases where the \"wrong\" design is actually correct application of the text's own principles, cases where the \"correct\" design smuggles in the same errors the text flags elsewhere, and cases where the concrete story contradicts the abstract claim. Format-agnostic (Typst or LaTeX).",
+      "description": "Audit examples and case discussions for scenario validity \u2014 catches scenarios that fail to exhibit the pitfall or principle they claim to illustrate, cases where the \"wrong\" design is actually correct application of the text's own principles, cases where the \"correct\" design smuggles in the same errors the text flags elsewhere, and cases where the concrete story contradicts the abstract claim. Format-agnostic (Typst or LaTeX).",
       "mode": "subagent",
       "model": "deepseek/deepseek-flash",
       "options": {
@@ -1032,7 +1022,7 @@
       }
     },
     "scope-qualifier-checker": {
-      "description": "Verify that claims and advice explicitly state their level of applicability — class-level vs module-level vs system-level, paradigm scope, technology context, and temporal validity.",
+      "description": "Verify that claims and advice explicitly state their level of applicability \u2014 class-level vs module-level vs system-level, paradigm scope, technology context, and temporal validity.",
       "mode": "subagent",
       "model": "deepseek/deepseek-flash",
       "options": {
@@ -1043,7 +1033,7 @@
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/scope-qualifier-checker.md}"
     },
     "skimmer-auditor": {
-      "description": "Adversarial auditor adopting the persona of a reader who only reads headings, first/last sentences, figures, boxed environments, and highlighted text — catches key points buried in paragraphs rather than surfaced structurally. Format-agnostic (Typst or LaTeX).",
+      "description": "Adversarial auditor adopting the persona of a reader who only reads headings, first/last sentences, figures, boxed environments, and highlighted text \u2014 catches key points buried in paragraphs rather than surfaced structurally. Format-agnostic (Typst or LaTeX).",
       "mode": "subagent",
       "model": "deepseek/deepseek-flash",
       "options": {
@@ -1066,7 +1056,7 @@
       "prompt": "{file:../llm-harness-plugins/tier-router/agents/sonnet-general.md}"
     },
     "sophist-attacker": {
-      "description": "Adversarial auditor that deliberately misreads claims, exploits ambiguous wording, constructs strawmen from loose phrasing, and deploys rhetorical fallacies — forces the text to be airtight against motivated misinterpretation by hostile commenters, blog posts, and conference hallway attacks. Format-agnostic (Typst or LaTeX).",
+      "description": "Adversarial auditor that deliberately misreads claims, exploits ambiguous wording, constructs strawmen from loose phrasing, and deploys rhetorical fallacies \u2014 forces the text to be airtight against motivated misinterpretation by hostile commenters, blog posts, and conference hallway attacks. Format-agnostic (Typst or LaTeX).",
       "mode": "subagent",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
@@ -1078,7 +1068,7 @@
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/sophist-attacker.md}"
     },
     "sophist-auditor": {
-      "description": "Adversarial reviewer who attacks the logical structure of arguments — finds non sequiturs, equivocation, false dichotomies, argument from authority, and rhetorical tricks that substitute for actual reasoning. The reviewer who ignores what you meant and attacks what you actually wrote. Format-agnostic (Typst or LaTeX).",
+      "description": "Adversarial reviewer who attacks the logical structure of arguments \u2014 finds non sequiturs, equivocation, false dichotomies, argument from authority, and rhetorical tricks that substitute for actual reasoning. The reviewer who ignores what you meant and attacks what you actually wrote. Format-agnostic (Typst or LaTeX).",
       "mode": "subagent",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
@@ -1102,7 +1092,7 @@
       "prompt": "{file:../llm-harness-plugins/general-skills/agents/ste-100-auditor.md}"
     },
     "strawman-auditor": {
-      "description": "Adversarial reviewer who checks whether opposing viewpoints are represented fairly — finds strawman arguments, mischaracterized positions, omitted steelman arguments, and one-sided dismissals. The reviewer who asks \"did you actually engage with the other side?\" Format-agnostic (Typst or LaTeX).",
+      "description": "Adversarial reviewer who checks whether opposing viewpoints are represented fairly \u2014 finds strawman arguments, mischaracterized positions, omitted steelman arguments, and one-sided dismissals. The reviewer who asks \"did you actually engage with the other side?\" Format-agnostic (Typst or LaTeX).",
       "mode": "subagent",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
@@ -1189,7 +1179,7 @@
       }
     },
     "theory-devil-advocate": {
-      "description": "Adversarial critic that systematically attacks the foundations, claims, and conclusions of whatever theory or framework the document presents — surfaces objections a hostile reviewer, skeptical practitioner, or competing theorist would raise, so the text can preemptively address them. Format-agnostic (Typst or LaTeX).",
+      "description": "Adversarial critic that systematically attacks the foundations, claims, and conclusions of whatever theory or framework the document presents \u2014 surfaces objections a hostile reviewer, skeptical practitioner, or competing theorist would raise, so the text can preemptively address them. Format-agnostic (Typst or LaTeX).",
       "mode": "subagent",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
@@ -1217,7 +1207,7 @@
       }
     },
     "tone-auditor": {
-      "description": "Adversarial auditor that assesses whether the text's tone would alienate readers sympathetic to established approaches — catches condescension, unfair characterization of prior authors' intent, and rhetoric that would repel rather than persuade the target audience. Format-agnostic (Typst or LaTeX).",
+      "description": "Adversarial auditor that assesses whether the text's tone would alienate readers sympathetic to established approaches \u2014 catches condescension, unfair characterization of prior authors' intent, and rhetoric that would repel rather than persuade the target audience. Format-agnostic (Typst or LaTeX).",
       "mode": "subagent",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
@@ -1229,7 +1219,7 @@
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/tone-auditor.md}"
     },
     "trade-off-auditor": {
-      "description": "Verify that design advice, pattern recommendations, and architectural guidance explicitly state trade-offs — every design decision has costs, and the book must present them honestly.",
+      "description": "Verify that design advice, pattern recommendations, and architectural guidance explicitly state trade-offs \u2014 every design decision has costs, and the book must present them honestly.",
       "mode": "subagent",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
@@ -1241,7 +1231,7 @@
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/trade-off-auditor.md}"
     },
     "translation-auditor": {
-      "description": "Audit translated content (source → target, e.g. en → de/fr) against the source for literal idiom translation, semantic inversions, false friends, and register shifts. Read-only. Reports findings with idiomatic rewrite suggestions.",
+      "description": "Audit translated content (source \u2192 target, e.g. en \u2192 de/fr) against the source for literal idiom translation, semantic inversions, false friends, and register shifts. Read-only. Reports findings with idiomatic rewrite suggestions.",
       "mode": "subagent",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
@@ -1273,7 +1263,7 @@
       "prompt": "{file:../llm-harness-plugins/typst-toolkit/agents/typst-citation-checker.md}"
     },
     "typst-diagram-checker": {
-      "description": "Review diagrams in Typst files (CeTZ, grid layouts, inline figures) for layout issues — overlaps, overflows, margin violations, color contrast, arrow visibility, spacing, and print safety.",
+      "description": "Review diagrams in Typst files (CeTZ, grid layouts, inline figures) for layout issues \u2014 overlaps, overflows, margin violations, color contrast, arrow visibility, spacing, and print safety.",
       "mode": "subagent",
       "model": "deepseek/deepseek-flash",
       "options": {
@@ -1368,7 +1358,7 @@
       }
     },
     "typst-writer": {
-      "description": "Typst (.typ) file writer — syntax-correct output guaranteed. Reads the project syntax rules first, verifies against a checklist, then writes content. Use when writing or editing Typst source files.",
+      "description": "Typst (.typ) file writer \u2014 syntax-correct output guaranteed. Reads the project syntax rules first, verifies against a checklist, then writes content. Use when writing or editing Typst source files.",
       "mode": "subagent",
       "model": "deepseek/deepseek-v4-pro",
       "options": {
@@ -1400,7 +1390,7 @@
       }
     },
     "undergraduate-reader-auditor": {
-      "description": "Adversarial auditor adopting the persona of an undergraduate reader with no industry experience — catches assumed prerequisites, unexplained jargon, abstraction jumps, and examples requiring background the target audience lacks. Format-agnostic (Typst or LaTeX).",
+      "description": "Adversarial auditor adopting the persona of an undergraduate reader with no industry experience \u2014 catches assumed prerequisites, unexplained jargon, abstraction jumps, and examples requiring background the target audience lacks. Format-agnostic (Typst or LaTeX).",
       "mode": "subagent",
       "model": "deepseek/deepseek-flash",
       "options": {
@@ -1411,7 +1401,7 @@
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/undergraduate-reader-auditor.md}"
     },
     "whataboutist-auditor": {
-      "description": "Adversarial auditor that systematically asks \"But what about X?\" for domains, paradigms, scales, and edge cases the text implicitly ignores — catches missing scope qualifiers and undiscussed applicability boundaries. Format-agnostic (Typst or LaTeX).",
+      "description": "Adversarial auditor that systematically asks \"But what about X?\" for domains, paradigms, scales, and edge cases the text implicitly ignores \u2014 catches missing scope qualifiers and undiscussed applicability boundaries. Format-agnostic (Typst or LaTeX).",
       "mode": "subagent",
       "model": "deepseek/deepseek-flash",
       "options": {
@@ -1422,7 +1412,7 @@
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/whataboutist-auditor.md}"
     },
     "xref-checker": {
-      "description": "Audit internal cross-references — verify labels resolve, detect broken refs, orphans, duplicates. Adapts to project citation format (LaTeX, Typst, Markdown, reST, AsciiDoc).",
+      "description": "Audit internal cross-references \u2014 verify labels resolve, detect broken refs, orphans, duplicates. Adapts to project citation format (LaTeX, Typst, Markdown, reST, AsciiDoc).",
       "mode": "subagent",
       "model": "deepseek/deepseek-flash",
       "options": {
@@ -1469,7 +1459,7 @@
       "prompt": "{file:../llm-harness-plugins/premium-read-offload/agents/code-writer.md}"
     }
   },
-  "permission": {
+  "permission":   {
     "bash": {
       "*": "allow",
       "rm -rf*": "ask",
@@ -1487,5 +1477,32 @@
       "flake.nix": "ask",
       ".github/**": "ask"
     }
-  }
+  },
+
+  // ---- Disabled plugins (re-enable individually) ----------------------
+  //  "../llm-harness-plugins/context-includes/opencode/index.ts"  — injects extra context each message; token cost unmeasured
+  //  "../llm-harness-plugins/guardrail-chain/opencode/index.ts"
+  //  "../llm-harness-plugins/session-lifecycle/opencode/index.ts"
+  //  [ENABLED above] "../llm-harness-plugins/agentmem/opencode/index.ts"  — stale writes (MEMORY.md unchanged since 2026-08); injects per-session anyway
+  //  "../llm-harness-plugins/semantic-cache/opencode/index.ts"  — 9.7G of '[CACHE HIT] stale' reasoning transcripts; 31% hit rate
+  //  "../llm-harness-plugins/tier-router/opencode/index.ts"  — routing unproven with a single local model
+  //  "../llm-harness-plugins/datetime-inject/opencode/index.ts"
+  //  "../llm-harness-plugins/offpeak-nudge/opencode/index.ts"  — time-of-day nudge only, not needed while testing
+  //  "../llm-harness-plugins/agentinsights/opencode/index.ts"
+  //  "../llm-harness-plugins/graphrag/opencode/index.ts"  — DISABLED PERMANENTLY ALL PROJECTS (user, 2026-11-07)
+  //  [ENABLED above] "../llm-harness-plugins/knowledge-graph/opencode/index.ts"  — overlaps graphrag/agentmem; unproven value
+  //  "../llm-harness-plugins/prompt-registry/opencode/index.ts"
+  //  "../llm-harness-plugins/typst-toolkit/opencode/index.ts"
+  //  "../llm-harness-plugins/latex-toolkit/opencode/index.ts"
+  //  "../llm-harness-plugins/java-toolkit/opencode/index.ts"
+  //  "../llm-harness-plugins/python-toolkit/opencode/index.ts"
+  //  "../llm-harness-plugins/ivp/opencode/index.ts"
+  //  "../llm-harness-plugins/general-skills/opencode/index.ts"
+  //  "../llm-harness-plugins/permission-modes/opencode/index.ts"
+  //  "../llm-harness-plugins/agentfeed/opencode/index.ts"
+  //  "../llm-harness-plugins/natural-prose/opencode/index.ts"
+  //  "../llm-harness-plugins/codify-first/opencode/index.ts"
+  //  "../llm-harness-plugins/system-message-merge/opencode/index.ts"
+  //  "../llm-harness-plugins/scientific-writing/opencode/index.ts"
+  //  "../llm-harness-plugins/premium-read-offload/opencode/index.ts"  — no measured benefit yet
 }

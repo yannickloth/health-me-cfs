@@ -426,3 +426,6 @@ __pycache__/
 # yannick's timeline is tracked explicitly; empty/generated views are not
 ops/research/own-timeline-*.md
 !ops/research/own-timeline-yannick-*.md
+
+# knowledge-graph plugin artifact (generated, see .kgrc.json)
+/graph.json
