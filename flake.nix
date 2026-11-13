@@ -83,6 +83,12 @@
                         # `ModuleNotFoundError: No module named 'numpy'` (12 errors).
                         # Same broken-check class as the deps above.
                         "fnllm"
+                        # moto: stepfunctions parser tests are timing-flaky —
+                        # 11455/11456 pass, a different single test fails each
+                        # run (ExecutionAlreadyExists / InvalidToken). checkPhase
+                        # takes ~20-24 min, so one flake sinks the whole
+                        # graphrag build.
+                        "moto"
                       ]
                   );
                 in
