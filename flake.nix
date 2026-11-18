@@ -441,34 +441,13 @@
             '';
           };
 
-        # pubmed-mcp-server (@cyanheads, npm): PubMed + Europe PMC full-text search,
-        # MeSH lookup, citation formatting. Prebuilt dist/; wrapper package.json +
-        # lockfile pinned under nix/pubmed-mcp-server/ (same pattern as zvec-grep).
-        pubmed-mcp-server = pkgs.buildNpmPackage {
-          pname = "pubmed-mcp-server";
-          version = "2.10.21";
-          src = ./nix/pubmed-mcp-server;
-          nodejs = pkgs.nodejs_24;
-          npmDepsHash = "sha256-JhQ/J9letjBs99VpUxqqWR43HAE/xVWZAjcB4EoLl8I=";
-          npmRebuildFlags = [ "--ignore-scripts" ];
-          dontNpmBuild = true;
-          # The published package's bin is nested under node_modules (the wrapper
-          # declares none), so the npm-install-hook emits no $out/bin. Wrap the
-          # nested dist/index.js against the pinned nodejs (same as zvec-grep).
-          postInstall = ''
-            mkdir -p "$out/bin"
-            makeWrapper ${pkgs.nodejs_24}/bin/node "$out/bin/pubmed-mcp-server" \
-              --add-flags "$out/lib/node_modules/pubmed-mcp-server-tool/node_modules/@cyanheads/pubmed-mcp-server/dist/index.js"
-          '';
-        };
-
       in
       {
         packages = {
           default = buildTypstPdf;
           web = buildWeb;
           web-full = buildWebFull;
-          inherit zvec-grep biomcp pubmed-mcp-server;
+          inherit zvec-grep biomcp;
         };
 
         checks = {
@@ -605,7 +584,6 @@
             pkgs.gnuplot
             zvec-grep
             biomcp
-            pubmed-mcp-server
             graphrag
           ];
           shellHook = ''
