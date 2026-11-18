@@ -2081,8 +2081,14 @@ Corrective — endogenous PPAR-α agonist + mast cell stabilizer; modulates neur
 === Pramipexole
 
 *Appears in:* @sec:microglial-cascade Step K2b, cross-reference matrix.
-#strong[HD] Threshold-modulatory — D2/D3 agonist with preference for D3; dopaminergic augmentation — impulse control disorder risk.
+#strong[HD] Threshold-modulatory — D2/D3 full agonist (D3 > D2 > D4 affinity; negligible D1/D5) with preference for D3; dopamine agonist withdrawal syndrome (DAWS), impulse control disorder risk; augmentation risk in RLS. See @sec:dopamine-receptor-classification for receptor family context and why D2/D3 selectivity matters.
 
+*Standard adult dosages:*
+- RLS: starting 0.125 mg once daily (2–3 h before bedtime), titration doubling every 4–7 days if needed, maximum 0.5 mg/day (some use 0.75 mg off-label)
+- Parkinson's (immediate-release): starting 0.125 mg three times daily (= 0.375 mg/day), titration every 5–7 days, maximum 4.5 mg/day divided TID
+- Parkinson's (extended-release): starting 0.375 mg once daily, titration every 5–7 days, maximum 4.5 mg/day
+
+*Clinical note for ME/CFS:* RLS doses (0.125–0.5 mg) are the relevant starting point for dopaminergic augmentation in ME/CFS. Parkinson's doses (1.5–4.5 mg) are not used for ME/CFS and carry substantially higher adverse-effect risk without therapeutic benefit in that context. Doses above 0.5 mg/day for RLS are off-label and associated with significantly increased augmentation risk (symptom worsening, earlier onset, spread to arms/torso). Pramipexole's selectivity for D2/D3 (no D1 activity) means it suppresses the D2-mediated "brake" pathway without activating the D1-mediated "go" pathway — a receptor-profile difference that explains why it can worsen ME/CFS symptoms even while treating RLS (see @sec:full-partial-agonist-d2-d3 for full vs partial agonist comparison).
 
 #finding(claim: [D2/D3 receptors intact and responsive], explanation: [D2/D3 receptors intact and responsive. Pramipexole's D2/D3 agonism confirms the postsynaptic dopamine receptor population is functional.], certainty: [Low], level: [Partial root cause])
 

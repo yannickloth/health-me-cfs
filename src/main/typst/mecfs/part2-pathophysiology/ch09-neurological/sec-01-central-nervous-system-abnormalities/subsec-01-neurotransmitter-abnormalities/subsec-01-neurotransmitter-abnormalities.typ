@@ -202,10 +202,67 @@ The treatment implication (Speculation @spec:dopaminergic-augmentation-mecfs, ch
 *Consequence:* If validated in ME/CFS, this model would shift treatment from empiricism to mechanism-matching for a specific patient phenotype (apathy-predominant post-infectious illness with objective motor slowing), using VMAT2 PET or DAT SPECT as a stratification biomarker. The most decisive single experiment is VMAT2 PET in non-COVID PI-ME/CFS — negative result confines the model to post-COVID ME/CFS; positive result establishes a general postviral dopaminergic vulnerability.
 ] <syn:vmat2-dopaminergic-convergence>
 
+==== Dopamine Receptor Classification: Five Subtypes, Two Opposing Families <sec:dopamine-receptor-classification>
+
+Dopamine produces its effects through five G-protein-coupled receptor subtypes (DRD1, DRD2, DRD3, DRD4, DRD5) arranged in two families that operate in *opposite directions* — this opposition is fundamental to understanding why different dopaminergic drugs produce different effects in the same patient.
+
+*The two families are defined by their G-protein coupling and effect on intracellular cAMP:*
+
+#table(
+  columns: (auto, auto, auto),
+  table.header(
+    [],
+    [*D1-like family*],
+    [*D2-like family*],
+  ),
+  [*Receptors*], [D1 \(DRD1\), D5 \(DRD5\)], [D2 \(DRD2\), D3 \(DRD3\), D4 \(DRD4\)],
+  [*G-protein*], [Gs/olf], [Gi/o],
+  [*Adenylyl cyclase*], [Stimulates \(increases cAMP\)], [Inhibits \(decreases cAMP\)],
+  [*Net cellular effect*], [Excitatory — depolarizes neurons, promotes firing], [Inhibitory — hyperpolarizes neurons, suppresses firing],
+  [*Classical role in basal ganglia*], [Direct pathway \("go"\) — facilitates movement, action, reward pursuit], [Indirect pathway \("no-go"\) — suppresses competing actions, inhibits movement],
+  [*Post-synaptic location*], [Striatal MSNs \(direct pathway\), PFC layer III/V pyramidal neurons], [Striatal MSNs \(indirect pathway\), area postrema, pituitary, VLPO, microglia, nucleus accumbens, PFC],
+  [*Presynaptic role*], [Minimal autoreceptor function], [Autoreceptors \(D2/D3\) — inhibit dopamine release \(negative feedback\)],
+)
+
+
+*Individual receptor profiles and ME/CFS relevance:*
+
+#table(
+  columns: (auto, auto, auto, auto),
+  table.header(
+    [*Receptor*],
+    [*Affinity \(highest in\)*],
+    [*Key physiological roles*],
+    [*ME/CFS relevance*],
+  ),
+  [*D1*], [Striatum \(direct-pathway MSNs\), PFC], [Motor initiation \("go" signals\), PFC working memory via inverted-U dose-response, reward facilitation, synaptic plasticity \(LTP\)], [PFC D1 follows inverted-U: too little or too much catecholamine tone impairs executive function @Arnsten2011catecholaminePFC. ME/CFS patients likely on the left \(suboptimal\) arm. D1 activation via methylphenidate or L-DOPA may improve brain fog.],
+  [*D2*], [Nigrostriatal, mesolimbic, mesocortical, pituitary \(tuberoinfundibular\), area postrema \(CTZ\), VLPO, microglia], [Motor control, prolactin inhibition, nausea \(CTZ\), sleep facilitation \(VLPO\), reward/motivation, microglial cytokine suppression], [Most clinically relevant receptor in ME/CFS. Target of aripiprazole, pramipexole, domperidone, antipsychotics, and all dopaminergic pharmacodiagnostic probes. Supersensitive from chronic DA deficiency \(upregulation\). D2 receptor variants \(Taq1A, DRD2 C957T\) → reduced striatal D2 expression.],
+  [*D3*], [Nucleus accumbens, olfactory tubercle, ventral pallidum \(limbic/reward circuitry\)], [Reward processing, addiction, motor tone modulation, impulse control, olfaction], [Pramipexole has higher affinity for D3 than D2. D3 is implicated in impulse control disorders \(gambling, hypersexuality — 5–15\% incidence on pramipexole\). RLS augmentation is D3-specific. D3 is also a target in ME/CFS apathy.],
+  [*D4*], [Prefrontal cortex \(dense\), limbic structures, locus coeruleus], [Executive function, attention, novelty-seeking, LC-NE modulation], [D4 antagonism is proposed to improve attention in ADHD. D4 is expressed on LC neurons, suggesting dopamine modulates noradrenergic output through D4. Pramipexole has low affinity for D4; aripiprazole has moderate affinity.],
+  [*D5*], [Hippocampus, hypothalamus, olfactory bulb, cerebral blood vessels], [Hippocampal plasticity \(LTP\), vasodilation \(cerebral blood flow\), HPA axis modulation, D1-like signaling with unique pharmacology], [Less studied. D5 has higher basal activity than D1 and is harder to antagonize. May contribute to cognitive deficits \(hippocampal\) and cerebral blood flow dysregulation in ME/CFS.],
+)
+
+
+*Why the family opposition matters for pharmacology in ME/CFS:*
+
+A single dopamine action in the striatum involves *simultaneous D1 activation (go signal) and D2 activation (brake signal)*. The net motor and motivational output depends on the balance between them. This has direct clinical implications:
+
+- *L-DOPA / dopamine* activate all five receptors simultaneously — balanced D1 + D2/D3/D4/D5 stimulation. This is why L-DOPA works across symptoms but also produces widespread side effects (nausea via D2 area postrema, OH via D2 vasculature, dyskinesia via striatal D1/D2 imbalance).
+
+- *Pramipexole (Sifrol/Mirapexin)* is a *D2/D3-preferring full agonist* with minimal D1 activity. It suppresses the D2-mediated "brake" without activating the D1-mediated "go." In ME/CFS, where the patient already has reduced D1 tone (PFC inverted-U left arm), this selective D2/D3 agonism could worsen motor slowing and apathy by tilting the D1/D2 balance further toward "brake." This is a mechanistic explanation for why pramipexole — effective for primary RLS — can worsen ME/CFS symptoms in patients with dopaminergic dysfunction.
+
+- *Aripiprazole (LDA)* is a *D2/D3 partial agonist (25% intrinsic efficacy)* with state-dependent action — net agonist when endogenous DA is low, net antagonist when DA is adequate. Its partial agonism at D2 provides tonic stimulation without fully suppressing the "brake," and its moderate D4 affinity may additionally modulate LC-NE tone. The inverted-U dose-response of LDA is a consequence of receptor occupancy: at low occupancy, it adds 25% signal where DA is near zero; at high occupancy, it displaces endogenous DA (100% efficacy) with 25% agonism, becoming a net blocker.
+
+- *Methylphenidate* does not directly activate any dopamine receptor — it blocks the dopamine transporter (DAT), increasing synaptic DA concentration. The elevated DA then activates all receptors (D1-D5) proportionally. This balanced activation may explain why methylphenidate can improve both D1-dependent symptoms (brain fog, working memory) and D2-dependent symptoms (motivation, effort allocation) simultaneously.
+
+*Cross-reference:* The ligand-receptor duality framework in @sec:ligand-receptor-duality maps these receptor differences to pharmacodiagnostic probes. The side-effect-as-diagnostic-patterns in @sec:side-effects-diagnostic classify what each receptor-mediated side effect reveals about ME/CFS pathophysiology. The full vs partial agonist comparison in @sec:full-partial-agonist-d2-d3 (Section @sec:medication-reference, Pramipexole entry) provides the clinical correlation.
+
+*Consequence:* Understanding that dopamine has five receptor subtypes across two opposing families transforms the interpretation of every dopaminergic drug trial in ME/CFS. A drug's receptor selectivity profile — not just "does it affect dopamine?" — determines its therapeutic direction and side-effect spectrum. This is the foundation for pharmacodiagnostic inference in ME/CFS.
+
 ==== Striatal Neuron Diversity: Eccentric Medium Spiny Neurons
 <sec:striatal-emsn>
 
-Medium spiny neurons (MSNs) are the dominant neuronal population in the striatum (caudate nucleus, putamen, and nucleus accumbens) and are critical for basal ganglia function in motor control, reward processing, and effort allocation decisions. MSNs are classically divided into D1 receptor-expressing (direct pathway) and D2 receptor-expressing (indirect pathway) subtypes, but recent discoveries have revealed unexpected cellular diversity within this system.
+Medium spiny neurons (MSNs) are the dominant neuronal population in the striatum (caudate nucleus, putamen, and nucleus accumbens) and are critical for basal ganglia function in motor control, reward processing, and effort allocation decisions. MSNs are classically divided into D1 receptor-expressing (direct pathway) and D2 receptor-expressing (indirect pathway) subtypes — but these two receptors belong to opposing G-protein families (D1-like stimulates adenylyl cyclase via Gs; D2-like inhibits adenylyl cyclase via Gi) @sec:dopamine-receptor-classification, and their simultaneous activation by dopamine creates a push-pull mechanism for action selection. Recent discoveries have revealed unexpected cellular diversity within this system.
 
 #achievement(title: [Eccentric Medium Spiny Neurons Identified in Primates])[
 *Certainty: 0.85.* He et al.\ (2021) identified nine distinct MSN subtypes in rhesus macaque striatum through single-nucleus RNA-seq, including a previously overlooked D1/D2 hybrid population termed “eccentric” medium spiny neurons (eMSN) @He2021. These hybrid neurons express both DRD1 and DRD2 dopamine receptors, are marked by high RXFP1 expression, constitute approximately 10% of MSNs in the dorsal striatum, and are uniformly distributed throughout this region. The eMSN represent a distinct supercluster with a unique genetic profile differentiating them from classical D1- and D2-MSNs. This discovery was validated by fluorescence in situ hybridization (FISH) confirming co-expression of DRD1, DRD2, and RXFP1 in individual neurons.
