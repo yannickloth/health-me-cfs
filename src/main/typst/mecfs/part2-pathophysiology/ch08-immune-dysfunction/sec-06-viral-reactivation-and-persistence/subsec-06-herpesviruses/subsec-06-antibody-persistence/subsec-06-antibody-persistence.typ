@@ -32,14 +32,20 @@ This does not mean herpesvirus reactivation does not occur in ME/CFS — the dUT
 
 ===== What IS a Signal of Active Viral Activity (and What Isn't)
 
-| Antibody target | What it indicates |
-|-----------------|-------------------|
-| VCA IgG, EBNA-1 IgG, CMV gB IgG, VZV gE IgG | LLPC output (may reflect infection that occurred decades ago) |
-| EA-D IgG (EBV early antigen diffuse) | Lytic cycle entry — but early antigen antibodies can persist for years after resolved reactivation |
-| VCA IgM | Genuine herpesvirus reactivation OR recent primary infection OR nonspecific polyclonal B cell activation OR rheumatoid factor interference — cannot distinguish between these without clinical context and confirmatory testing |
-| Anti-dUTPase IgG (BLLF3, U45, ORF8) | Evidence of abortive lytic replication — dUTPase is an early lytic gene product; antibody presence signals recent expression of lytic genes, not necessarily productive replication |
-| Viral DNA in plasma (quantitative PCR) | Presence of cell-free virions — indicates productive lytic replication; however, may be negative during abortive lytic replication (ALR, Section @sec:abortive-lytic) where no infectious virions are produced. A negative qPCR does not exclude ALR. |
-| Viral mRNA (EBER, BLLF1) in tissue | Active viral gene expression at the tissue site |
+#table(
+  columns: (auto, auto),
+  table.header(
+    [*Antibody target*],
+    [*What it indicates*],
+  ),
+  [VCA IgG, EBNA-1 IgG, CMV gB IgG, VZV gE IgG], [LLPC output \(may reflect infection that occurred decades ago\)],
+  [EA-D IgG \(EBV early antigen diffuse\)], [Lytic cycle entry — but early antigen antibodies can persist for years after resolved reactivation],
+  [VCA IgM], [Genuine herpesvirus reactivation OR recent primary infection OR nonspecific polyclonal B cell activation OR rheumatoid factor interference — cannot distinguish between these without clinical context and confirmatory testing],
+  [Anti-dUTPase IgG \(BLLF3, U45, ORF8\)], [Evidence of abortive lytic replication — dUTPase is an early lytic gene product; antibody presence signals recent expression of lytic genes, not necessarily productive replication],
+  [Viral DNA in plasma \(quantitative PCR\)], [Presence of cell-free virions — indicates productive lytic replication; however, may be negative during abortive lytic replication \(ALR, Section @sec:abortive-lytic\) where no infectious virions are produced. A negative qPCR does not exclude ALR.],
+  [Viral mRNA \(EBER, BLLF1\) in tissue], [Active viral gene expression at the tissue site],
+)
+
 
 The critical interpretive principle: the bottom three rows of this table provide the strongest evidence of ongoing viral activity, but each has caveats — qPCR may be negative during ALR, viral mRNA requires tissue biopsy, and dUTPase antibodies come from a single research group without independent replication. The top rows are dominated by the LLPC baseline: isolated elevation of structural antigen or latency protein IgG, without corroborating evidence from viral DNA, viral mRNA, or lytic-cycle antibodies, is insufficient to diagnose active reactivation. Clinicians and researchers should not diagnose "active EBV" or "chronic herpesvirus reactivation" on the basis of structural antigen IgG alone.
 

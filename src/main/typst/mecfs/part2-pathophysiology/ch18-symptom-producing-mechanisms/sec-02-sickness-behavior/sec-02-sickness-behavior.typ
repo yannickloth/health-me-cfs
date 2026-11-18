@@ -82,15 +82,22 @@ The orexin (hypocretin) system provides a mechanistic link between the cytokine-
 
 *Revised medication classification.* The existing glymphatic warning should be read with the following revision, pending direct experimental glymphatic measurements in ME/CFS:
 
-| Agent | NE oscillation effect | Net glymphatic prediction |
-|-------|----------------------|--------------------------|
-| Z-drugs (zolpidem) | Suppress amplitude $tilde$50% | Impair |
-| DORAs (suvorexant, lemborexant) | May normalise OR may worsen (already-suppressed ME/CFS orexin) | Unknown (production-side tau benefit via PKA established; net glymphatic effect unmeasured) |
-| Low-dose propranolol | Normalise (dampen surges, preserve oscillation) | Potential enhance |
-| Low-dose clonidine | Stabilise (reduce tonic drive, preserve oscillatory) | Potential enhance |
-| Low-dose trazodone | Neutral (consolidates SWS window) | Potential enhance via window extension |
-| Alpha-1 blockers (prazosin) | Suppress amplitude | Potential impair |
-| Quetiapine (low-dose) | Suppress via alpha-1 blockade | Potential impair |
+#table(
+  columns: (auto, auto, auto),
+  table.header(
+    [*Agent*],
+    [*NE oscillation effect*],
+    [*Net glymphatic prediction*],
+  ),
+  [Z-drugs \(zolpidem\)], [Suppress amplitude \$tilde\$50\%], [Impair],
+  [DORAs \(suvorexant, lemborexant\)], [May normalise OR may worsen \(already-suppressed ME/CFS orexin\)], [Unknown \(production-side tau benefit via PKA established; net glymphatic effect unmeasured\)],
+  [Low-dose propranolol], [Normalise \(dampen surges, preserve oscillation\)], [Potential enhance],
+  [Low-dose clonidine], [Stabilise \(reduce tonic drive, preserve oscillatory\)], [Potential enhance],
+  [Low-dose trazodone], [Neutral \(consolidates SWS window\)], [Potential enhance via window extension],
+  [Alpha-1 blockers \(prazosin\)], [Suppress amplitude], [Potential impair],
+  [Quetiapine \(low-dose\)], [Suppress via alpha-1 blockade], [Potential impair],
+)
+
 
 The critical clinical implication: DORAs demonstrate downstream neuroprotection (tau reduction) independently of glymphatic function, but the mechanism may be production-side (PKA inhibition) rather than clearance-side. Z-drugs lack both glymphatic enhancement and tau neuroprotection. Neither drug class has been directly tested for glymphatic effects in humans. This uncertainty should be communicated clearly to patients considering sleep medication choices: the evidence for DORA benefit is more promising than for Z-drugs, but the mechanism and magnitude of any glymphatic effect remain entirely unknown.
 

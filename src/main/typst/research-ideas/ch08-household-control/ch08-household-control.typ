@@ -77,17 +77,24 @@ The household design prioritizes parameters with strong environmental or infecti
 
 === Expected Findings by Parameter
 
-| Parameter | Expected pattern | Implication if confirmed |
-|-----------|-----------------|--------------------------|
-| GPCR autoantibodies | Patient >> Partner = Control | Host-specific autoimmune process |
-| NK cytotoxicity | Patient < Partner < Control (intermediate) | Environmental immune suppression |
-| Gut dysbiosis | Patient ~ Partner < Control | Shared environmental dysbiosis; disease effect is additive |
-| LPS translocation | Patient > Partner = Control | Disease-induced barrier dysfunction, not shared environmental exposure |
-| DNA methylation | Patient ≠ Partner ≠ Control (three distinct profiles) | Combined host + environmental + disease-specific epigenetic landscapes |
-| Viral serology (chronicity) | Patient > Partner = Control | Viral reactivation is disease-consequence, not shared exposure |
-| HRV (RMSSD) | Patient < Partner = Control | Autonomic dysfunction is disease-specific |
-| Metabolomics (dietary) | Patient ~ Partner ~ Control | Shared diet, not disease-related |
-| Metabolomics (kynurenine) | Patient > Partner = Control | Disease-specific metabolic shift, not dietary |
+#table(
+  columns: (auto, auto, auto),
+  table.header(
+    [*Parameter*],
+    [*Expected pattern*],
+    [*Implication if confirmed*],
+  ),
+  [GPCR autoantibodies], [Patient >> Partner = Control], [Host-specific autoimmune process],
+  [NK cytotoxicity], [Patient < Partner < Control \(intermediate\)], [Environmental immune suppression],
+  [Gut dysbiosis], [Patient ~ Partner < Control], [Shared environmental dysbiosis; disease effect is additive],
+  [LPS translocation], [Patient > Partner = Control], [Disease-induced barrier dysfunction, not shared environmental exposure],
+  [DNA methylation], [Patient ≠ Partner ≠ Control \(three distinct profiles\)], [Combined host + environmental + disease-specific epigenetic landscapes],
+  [Viral serology \(chronicity\)], [Patient > Partner = Control], [Viral reactivation is disease-consequence, not shared exposure],
+  [HRV \(RMSSD\)], [Patient < Partner = Control], [Autonomic dysfunction is disease-specific],
+  [Metabolomics \(dietary\)], [Patient ~ Partner ~ Control], [Shared diet, not disease-related],
+  [Metabolomics \(kynurenine\)], [Patient > Partner = Control], [Disease-specific metabolic shift, not dietary],
+)
+
 
 === The Unique Value: Resolving Environment vs Host
 

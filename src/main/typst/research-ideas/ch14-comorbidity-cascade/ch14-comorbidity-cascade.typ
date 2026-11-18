@@ -28,20 +28,27 @@ The comorbidity cascade map answers these questions by modeling the acquisition 
 
 The following comorbidities have well-documented co-occurrence with ME/CFS:
 
-| Comorbidity | Prevalence in ME/CFS | Temporal relationship |
-|-------------|---------------------|-----------------------|
-| POTS | 30–50% | Often co-occurs at onset or develops within 1–2 years |
-| MCAS | ~25% | Variable; may precede, co-occur, or follow |
-| Fibromyalgia | 30–50% | Often develops after ME/CFS |
-| IBS | 30–50% | Often co-occurs at onset |
-| Migraine | 30–40% | May precede (pre-existing) or develop after |
-| hEDS/hypermobility | 20–30% | Usually pre-existing (genetic) |
-| Interstitial cystitis | 15–20% | Usually develops after ME/CFS |
-| Small fiber neuropathy | ~30% | Develops after ME/CFS, duration-dependent |
-| TMJ disorder | 20–30% | Variable |
-| Endometriosis | 15–25% | Usually pre-existing |
-| Autoimmune thyroiditis | 10–20% | May precede (genetic predisposition) or co-occur |
-| Sleep apnea | 15–25% | Usually develops after, weight/age-dependent |
+#table(
+  columns: (auto, auto, auto),
+  table.header(
+    [*Comorbidity*],
+    [*Prevalence in ME/CFS*],
+    [*Temporal relationship*],
+  ),
+  [POTS], [30–50\%], [Often co-occurs at onset or develops within 1–2 years],
+  [MCAS], [approximately 25\%], [Variable; may precede, co-occur, or follow],
+  [Fibromyalgia], [30–50\%], [Often develops after ME/CFS],
+  [IBS], [30–50\%], [Often co-occurs at onset],
+  [Migraine], [30–40\%], [May precede \(pre-existing\) or develop after],
+  [hEDS/hypermobility], [20–30\%], [Usually pre-existing \(genetic\)],
+  [Interstitial cystitis], [15–20\%], [Usually develops after ME/CFS],
+  [Small fiber neuropathy], [approximately 30\%], [Develops after ME/CFS, duration-dependent],
+  [TMJ disorder], [20–30\%], [Variable],
+  [Endometriosis], [15–25\%], [Usually pre-existing],
+  [Autoimmune thyroiditis], [10–20\%], [May precede \(genetic predisposition\) or co-occur],
+  [Sleep apnea], [15–25\%], [Usually develops after, weight/age-dependent],
+)
+
 
 === The Comorbidity Acquisition Model
 

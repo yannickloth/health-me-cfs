@@ -87,11 +87,17 @@ The pharmacodiagnostic matrix transforms the narrative "this patient tried X and
 
 == Potential Impact
 
-| *Audience*     | *Value* |
-|----------------|---------|
-| Patients       | Understanding *why* a medication did or didn't work; rational basis for next trial |
-| Physicians     | Structured diagnostic algorithm replacing trial-and-error with information-maximizing sequence |
-| Researchers    | Population-level bottleneck distribution across subgroups; validation of cascade models; identification of pathognomonic response patterns |
+#table(
+  columns: (auto, auto),
+  table.header(
+    [*Audience*],
+    [*Value*],
+  ),
+  [Patients], [Understanding *why* a medication did or didn't work; rational basis for next trial],
+  [Physicians], [Structured diagnostic algorithm replacing trial-and-error with information-maximizing sequence],
+  [Researchers], [Population-level bottleneck distribution across subgroups; validation of cascade models; identification of pathognomonic response patterns],
+)
+
 
 == Relationship to Existing Content
 

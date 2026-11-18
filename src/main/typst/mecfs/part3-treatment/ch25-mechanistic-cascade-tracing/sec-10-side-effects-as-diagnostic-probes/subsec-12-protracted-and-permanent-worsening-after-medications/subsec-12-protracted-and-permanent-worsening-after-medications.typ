@@ -197,29 +197,38 @@ Below, the summary risk table ranks medications by worsening risk (for quick cro
 
 *Note: All risk classifications are ordinal categories derived from pharmacological first principles and the energy-ratchet model. They are NOT empirical incidence rates — no controlled pharmacovigilance data exist in ME/CFS. Use as a comparative risk framework, not as quantitative probability estimates.*
 
-| Medication | Protracted Risk | Permanent Risk | Dominant Mechanism | Rechallenge? |
-|---|---|---|---|---|
-| Amphetamines | Very High | High | A + B + E convergence | Never |
-| Methylphenidate | High | Moderate | B + E | Only after full recovery, at lower dose, with metabolic support |
-| IVIG | Moderate | Low--Moderate | B + D | Only with MCAS pre-treatment |
-| Corticosteroids | Moderate--High | Low--Moderate | A + E | Short courses only; taper over weeks, not days |
-| Immunoadsorption | Low--Moderate | Low | B | Acceptable with hemodynamic support |
-| SSRIs/SNRIs | Low--Moderate | Low | E | Yes, with very slow taper planned in advance |
-| Benzodiazepines | Low--Moderate | Low | E | Yes, with very slow taper planned in advance |
-| Gabapentinoids | Low--Moderate | Low | E | Yes, with very slow taper |
-| DCA | Moderate | Moderate | A | Only if no neuropathy and PDH is the last remaining hypothesis |
-| Aripiprazole | Low--Moderate | Low | A + C + D | At lower dose; never if persistent post-clearance akathisia |
-| Valganciclovir | Moderate | Low | A | Only with ANC monitoring; G-CSF support if needed |
-| H2 Antagonists | Low | Very Low | C | Never if psychiatric reaction |
-| LDN | Low | Very Low | C | Never if psychiatric reaction |
-| Fludrocortisone | Low | Very Low | C | Yes, at lower dose with compression |
-| Valacyclovir | Low | Very Low | A (unmasking) | Yes, with dose adjustment for renal function |
-| DMF | Very Low | Very Low | N/A | Yes, with aspirin pre-treatment for flush |
-| DORAs | Very Low | Very Low | N/A | Never if sleep paralysis; diagnostic done |
-| H1 Antihistamines | Very Low | Very Low | N/A | Yes, at lower dose |
-| Pyridostigmine | Very Low | Very Low | N/A | Always, at lower dose |
-| Pitolisant | Very Low | Very Low | N/A | Yes, at lower dose |
-| Mitochondrial Supplements | Very Low | Very Low | N/A | Always — worsening is diagnostic, not harmful |
+#table(
+  columns: (auto, auto, auto, auto, auto),
+  table.header(
+    [*Medication*],
+    [*Protracted Risk*],
+    [*Permanent Risk*],
+    [*Dominant Mechanism*],
+    [*Rechallenge?*],
+  ),
+  [Amphetamines], [Very High], [High], [A + B + E convergence], [Never],
+  [Methylphenidate], [High], [Moderate], [B + E], [Only after full recovery, at lower dose, with metabolic support],
+  [IVIG], [Moderate], [Low--Moderate], [B + D], [Only with MCAS pre-treatment],
+  [Corticosteroids], [Moderate--High], [Low--Moderate], [A + E], [Short courses only; taper over weeks, not days],
+  [Immunoadsorption], [Low--Moderate], [Low], [B], [Acceptable with hemodynamic support],
+  [SSRIs/SNRIs], [Low--Moderate], [Low], [E], [Yes, with very slow taper planned in advance],
+  [Benzodiazepines], [Low--Moderate], [Low], [E], [Yes, with very slow taper planned in advance],
+  [Gabapentinoids], [Low--Moderate], [Low], [E], [Yes, with very slow taper],
+  [DCA], [Moderate], [Moderate], [A], [Only if no neuropathy and PDH is the last remaining hypothesis],
+  [Aripiprazole], [Low--Moderate], [Low], [A + C + D], [At lower dose; never if persistent post-clearance akathisia],
+  [Valganciclovir], [Moderate], [Low], [A], [Only with ANC monitoring; G-CSF support if needed],
+  [H2 Antagonists], [Low], [Very Low], [C], [Never if psychiatric reaction],
+  [LDN], [Low], [Very Low], [C], [Never if psychiatric reaction],
+  [Fludrocortisone], [Low], [Very Low], [C], [Yes, at lower dose with compression],
+  [Valacyclovir], [Low], [Very Low], [A \(unmasking\)], [Yes, with dose adjustment for renal function],
+  [DMF], [Very Low], [Very Low], [N/A], [Yes, with aspirin pre-treatment for flush],
+  [DORAs], [Very Low], [Very Low], [N/A], [Never if sleep paralysis; diagnostic done],
+  [H1 Antihistamines], [Very Low], [Very Low], [N/A], [Yes, at lower dose],
+  [Pyridostigmine], [Very Low], [Very Low], [N/A], [Always, at lower dose],
+  [Pitolisant], [Very Low], [Very Low], [N/A], [Yes, at lower dose],
+  [Mitochondrial Supplements], [Very Low], [Very Low], [N/A], [Always — worsening is diagnostic, not harmful],
+)
+
 
 ==== Clinical Protocol: When a Patient Reports Never Recovering From a Medication
 

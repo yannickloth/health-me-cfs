@@ -24,28 +24,36 @@ The mechanism fingerprint is the missing piece: a per-patient profile quantifyin
 
 For each of the 20 universal mechanism families (Ch17), define one or more quantifiable markers:
 
-| No. | Family | Primary Marker | Secondary Marker |
-|---|--------|---------------|-------------------|
-| 1 | Energy metabolism | PBMC Seahorse OCR (basal, maximal, spare capacity) | CPET VO2 at VT1, resting lactate |
-| 2 | Redox | Plasma GSH/GSSG ratio | 8-isoprostane |
-| 3 | Ion channels | NK cell TRPM3 calcium flux | RBC membrane deformability |
-| 4 | Immune activation | NK cytotoxicity (K562 lysis) | 27-plex cytokine panel |
-| 5 | Autoimmunity | GPCR autoantibody panel (β2, M3, M4) | Functional autoantibody bioassay |
-| 6 | Coagulation | Microclot fluorescence assay | Thromboelastography |
-| 7 | Vascular/endothelial | EndoPAT RHI | Plasma sVCAM-1, sICAM-1 |
-| 8 | Autonomic | 24h RMSSD (parasympathetic tone) | Tilt table ΔHR |
-| 9 | Neuroendocrine | Salivary cortisol CAR | fT3/rT3 ratio |
-| 10 | Neurological | Resting-state fMRI DMN connectivity | MRS brain lactate |
-| 11 | Amino acid/neurotransmitter | Plasma Trp/Kyn ratio | 3HK/KynA ratio |
-| 12 | Epigenetic | DNA methylation age acceleration | Telomere length |
-| 13 | Proteostasis | Plasma ATG13 | Serum HSP70 |
-| 14 | Cell death/senescence | PBMC SA-β-gal | SASP cytokine panel |
-| 15 | Gut-microbiome | Stool butyrate concentration | Plasma LBP |
-| 16 | Viral persistence | EBV EA IgG, HHV-6 IgG | Enterovirus stool PCR |
-| 17 | Structural/tissue | NIRS muscle OxC | Skin biopsy IENFD |
-| 18 | Transcriptional | PBMC Nrf2 nuclear:cytoplasmic ratio | NF-κB p65 phosphorylation |
-| 19 | Purinergic | Plasma ATP (rapid processing) | PBMC CD73 expression by FACS |
-| 20 | Resolution | Plasma SPM (resolvin D1, maresin 1) | CD73/CD39 activity assay |
+#table(
+  columns: (auto, auto, auto, auto),
+  table.header(
+    [*No.*],
+    [*Family*],
+    [*Primary Marker*],
+    [*Secondary Marker*],
+  ),
+  [1], [Energy metabolism], [PBMC Seahorse OCR \(basal, maximal, spare capacity\)], [CPET VO2 at VT1, resting lactate],
+  [2], [Redox], [Plasma GSH/GSSG ratio], [8-isoprostane],
+  [3], [Ion channels], [NK cell TRPM3 calcium flux], [RBC membrane deformability],
+  [4], [Immune activation], [NK cytotoxicity \(K562 lysis\)], [27-plex cytokine panel],
+  [5], [Autoimmunity], [GPCR autoantibody panel \(β2, M3, M4\)], [Functional autoantibody bioassay],
+  [6], [Coagulation], [Microclot fluorescence assay], [Thromboelastography],
+  [7], [Vascular/endothelial], [EndoPAT RHI], [Plasma sVCAM-1, sICAM-1],
+  [8], [Autonomic], [24h RMSSD \(parasympathetic tone\)], [Tilt table ΔHR],
+  [9], [Neuroendocrine], [Salivary cortisol CAR], [fT3/rT3 ratio],
+  [10], [Neurological], [Resting-state fMRI DMN connectivity], [MRS brain lactate],
+  [11], [Amino acid/neurotransmitter], [Plasma Trp/Kyn ratio], [3HK/KynA ratio],
+  [12], [Epigenetic], [DNA methylation age acceleration], [Telomere length],
+  [13], [Proteostasis], [Plasma ATG13], [Serum HSP70],
+  [14], [Cell death/senescence], [PBMC SA-β-gal], [SASP cytokine panel],
+  [15], [Gut-microbiome], [Stool butyrate concentration], [Plasma LBP],
+  [16], [Viral persistence], [EBV EA IgG, HHV-6 IgG], [Enterovirus stool PCR],
+  [17], [Structural/tissue], [NIRS muscle OxC], [Skin biopsy IENFD],
+  [18], [Transcriptional], [PBMC Nrf2 nuclear:cytoplasmic ratio], [NF-κB p65 phosphorylation],
+  [19], [Purinergic], [Plasma ATP \(rapid processing\)], [PBMC CD73 expression by FACS],
+  [20], [Resolution], [Plasma SPM \(resolvin D1, maresin 1\)], [CD73/CD39 activity assay],
+)
+
 
 === Fingerprint Construction
 

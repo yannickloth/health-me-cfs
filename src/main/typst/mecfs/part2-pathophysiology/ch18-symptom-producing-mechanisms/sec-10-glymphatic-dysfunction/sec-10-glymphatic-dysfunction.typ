@@ -148,12 +148,21 @@ The glymphatic hypothesis provides a mechanistic rationale for a clinically obse
 
 *The recovery lag.* These three structural changes impose a temporal decoupling between sleep quality and clearance efficiency. Pharmacological restoration of SWS architecture (via trazodone, DORA) can improve the *signal* (NE oscillations, delta power, SWS duration) within days — the relevant pharmacology is receptor-level (orexin blockade, 5-HT2A antagonism, H1 blockade), and the relevant timescale is the drug's half-life plus the time to establish a new steady-state sleep microarchitecture, approximately 3--5 nights. But the *machinery* that converts that signal into clearance (AQP4 polarity, endfoot contact area, perivascular compliance) requires structural remodeling at timescales governed by protein trafficking, cytoskeletal reorganization, and extracellular matrix turnover:
 
-| Component | Acute restoration | Structural recovery | Ratio | Basis |
-|-----------|-------------------|---------------------|-------|-------|
-| SWS architecture (delta power, spindle density) | 3--7 days | — | 1× | H1/5-HT2A blockade + orexin normalization; EEG response measurable night 1 |
-| AQP4 endfoot repolarization | 7--14 days (partial) | 2--4 months (full) | approximately 20× | Protein trafficking: half of mislocalized AQP4 redistributes to endfeet on the timescale of astrocytic membrane recycling (approximately 2 weeks); full repolarization requires multiple turnover cycles plus sustained low perivascular NE |
-| Astrocytic endfoot re-extension | 2--4 weeks (initial GFAP reduction) | 3--6 months (endfoot contact area restoration) | approximately 40× | Cytoskeletal reorganization: intermediate filament (GFAP) half-life is weeks in reactive astrocytes; disassembly + process re-extension + stable contact formation is a sequential multi-week process each, totaling months |
-| Perivascular fibrosis / BM regression | Not meaningful | 6--18 months | approximately 100× | Extracellular matrix turnover: collagen IV half-life in basement membranes is 120--300 days in the CNS; MMP-mediated degradation + inhibited new collagen deposition + scar remodeling is the slowest biological process in the recovery cascade |
+#table(
+  columns: (auto, auto, auto, auto, auto),
+  table.header(
+    [*Component*],
+    [*Acute restoration*],
+    [*Structural recovery*],
+    [*Ratio*],
+    [*Basis*],
+  ),
+  [SWS architecture \(delta power, spindle density\)], [3--7 days], [—], [1×], [H1/5-HT2A blockade + orexin normalization; EEG response measurable night 1],
+  [AQP4 endfoot repolarization], [7--14 days \(partial\)], [2--4 months \(full\)], [approximately 20×], [Protein trafficking: half of mislocalized AQP4 redistributes to endfeet on the timescale of astrocytic membrane recycling \(approximately 2 weeks\); full repolarization requires multiple turnover cycles plus sustained low perivascular NE],
+  [Astrocytic endfoot re-extension], [2--4 weeks \(initial GFAP reduction\)], [3--6 months \(endfoot contact area restoration\)], [approximately 40×], [Cytoskeletal reorganization: intermediate filament \(GFAP\) half-life is weeks in reactive astrocytes; disassembly + process re-extension + stable contact formation is a sequential multi-week process each, totaling months],
+  [Perivascular fibrosis / BM regression], [Not meaningful], [6--18 months], [approximately 100×], [Extracellular matrix turnover: collagen IV half-life in basement membranes is 120--300 days in the CNS; MMP-mediated degradation + inhibited new collagen deposition + scar remodeling is the slowest biological process in the recovery cascade],
+)
+
 
 The weighted average across components — factoring that SWS architecture normalizes in approximately 5 days while full structural recovery spans approximately 12 months — produces a composite ratio of approximately 70× (range 20--100× depending on the dominant site of impairment). This is not a precise measurement; it is an order-of-magnitude estimate from the biological timescales of the relevant structural processes. The practical implication: a patient who achieves objectively normal sleep architecture after years of non-restorative sleep may still have impaired glymphatic function — the pump is running at full speed but the pipes are narrowed, the seals are leaky, and the osmotic gradient is blunted. Sleep architecture normalization and clearance efficiency normalization are separated by two orders of magnitude in time.
 

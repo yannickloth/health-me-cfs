@@ -699,13 +699,20 @@ Building on the clinical similarities and differences outlined above, a detailed
 
 *Viral Detection and Persistence Patterns.*
 
-| Aspect | Long COVID | ME/CFS |
-|--------|-----------|---------|
-| *Primary trigger* | SARS-CoV-2 (single pathogen) | Multiple pathogens (EBV, HHV-6, enteroviruses, etc.) |
-| *Viral detection* | Spike protein and RNA detectable in gut tissue up to 12 months | No consistent viral detection in blood/tissue |
-| *Antibody patterns* | Variable: some show waning, others persistent | Elevated herpesvirus antibodies common |
-| *Time since onset* | Typically months to 1-2 years | Often years to decades |
-| *Viral clearance evidence* | Mixed: some show clearance, others persistence | No evidence of active replication |
+#table(
+  columns: (auto, auto, auto),
+  table.header(
+    [*Aspect*],
+    [*Long COVID*],
+    [*ME/CFS*],
+  ),
+  [*Primary trigger*], [SARS-CoV-2 \(single pathogen\)], [Multiple pathogens \(EBV, HHV-6, enteroviruses, etc.\)],
+  [*Viral detection*], [Spike protein and RNA detectable in gut tissue up to 12 months], [No consistent viral detection in blood/tissue],
+  [*Antibody patterns*], [Variable: some show waning, others persistent], [Elevated herpesvirus antibodies common],
+  [*Time since onset*], [Typically months to 1-2 years], [Often years to decades],
+  [*Viral clearance evidence*], [Mixed: some show clearance, others persistence], [No evidence of active replication],
+)
+
 
 *Immune Response Differences.*
 
@@ -3467,12 +3474,20 @@ Under this model, low hepcidin in ME/CFS is not a paradox — it is the body's a
 #speculation(title: [Temporal Phase-Shift Hypothesis: ME/CFS as Late-Stage Long COVID Iron Phenotype])[
 *Certainty: 0.35.* The "polarity" between ME/CFS and Long COVID iron handling may not reflect disease-specific divergence but a shared trajectory sampled at different timepoints. Under this model, both conditions traverse the same iron dysregulation trajectory:
 
-| Phase | Time post-trigger | Iron phenotype | Dominant mechanism |
-|-------|-------------------|----------------|-------------------|
-| 0 (acute) | Days 0–30 | Hypoferremia (IL-6 → hepcidin spike → iron withholding) | Innate immune iron sequestration |
-| I (early post-acute) | 1–6 months | Stress erythropoiesis, iron maldistribution, ferritin elevation, variable hepcidin | Hanson2024 pattern: compensatory erythroid iron demand + inflammatory trapping |
-| II (established chronic) | 6–24 months | Functional iron deficiency: high ferritin, low TSAT, declining hepcidin | IRP/ferroportin post-translational defects, ferritinophagy blockade |
-| III (late chronic, > 2 years) | > 24 months | Low hepcidin, persistent functional iron deficiency, ferroptosis susceptibility | Exhausted hepcidin machinery, established NTBI redistribution |
+#table(
+  columns: (auto, auto, auto, auto),
+  table.header(
+    [*Phase*],
+    [*Time post-trigger*],
+    [*Iron phenotype*],
+    [*Dominant mechanism*],
+  ),
+  [0 \(acute\)], [Days 0–30], [Hypoferremia \(IL-6 → hepcidin spike → iron withholding\)], [Innate immune iron sequestration],
+  [I \(early post-acute\)], [1–6 months], [Stress erythropoiesis, iron maldistribution, ferritin elevation, variable hepcidin], [Hanson2024 pattern: compensatory erythroid iron demand + inflammatory trapping],
+  [II \(established chronic\)], [6–24 months], [Functional iron deficiency: high ferritin, low TSAT, declining hepcidin], [IRP/ferroportin post-translational defects, ferritinophagy blockade],
+  [III \(late chronic, > 2 years\)], [> 24 months], [Low hepcidin, persistent functional iron deficiency, ferroptosis susceptibility], [Exhausted hepcidin machinery, established NTBI redistribution],
+)
+
 
 In this framework, Long COVID research disproportionately samples Phases 0–I (1–6 month follow-up, per Sonnweber2022, Hanson2024, Gietl2024), while ME/CFS research samples Phases II–III (years-to-decades of established disease, per Swiatczak2022, Baklund2021, Kavyani2023). The "polarity" (hepcidin-dependent in LC, hepcidin-independent in ME/CFS) is temporal, not diagnostic. The therapeutic bifurcation persists but for a different reason: Phase I patients may benefit from iron supplementation (if genuinely deficient per TSAT), while Phase II–III patients require iron redistribution rather than supplementation — regardless of whether the diagnosis is ME/CFS or late-stage Long COVID.
 
@@ -4287,7 +4302,7 @@ IL-6 is the most extensively documented inflammatory mediator in ME/CFS, indepen
 ] <syn:il6-convergent-inflammatory-hub>
 
 #synthesis(title: [HSP70 Chaperone Dysfunction as a Convergent Node Across Neuroinflammation, Thermoregulation, and Autophagy])[
-HSP70 chaperone dysfunction is a convergent node in ME/CFS supported by three independent experimental lines from separate labs: Hochecker 2025 demonstrated that whole-body hyperthermia (WBH, 39°C) increases HSPA5 mRNA 48.33% while simultaneously reducing autophagy markers (LC3-II −17.84%) and improving mitochondrial respiration (+61–112% across measures) in ME/CFS PBMCs (@spec:autophagy-switch-heat, cert 0.40; @spec:hyperthermia-protocol, cert 0.52), establishing HSP70 induction as sufficient to shift cellular state from stalled selective autophagy toward productive oxidative phosphorylation; Kang 2026 showed that RVG-targeted engineered exosomes carrying HSP70 mRNA cross the BBB and reverse cognitive deficits and hippocampal neuroinflammation in sleep-deprived mice (@spec:engineered-exosome-bbb-mrna, cert 0.55), providing proof-of-concept that HSP70 restoration in CNS is cognitively protective; the ISR-PERK-HSP70 regulatory loop formalized as a coupled ODE (@spec:m5-hsp70-isr-ode, cert 0.25) models how HSP70 binds and inhibits PERK kinase, attenuating the integrated stress response. These lines converge on a model where chronic low HSP70 creates a permissive state for both neuroinflammation (unchecked PERK→ATF4→CHOP) and mitochondrial failure (insufficient chaperone support for complex assembly), while interventions that raise HSP70 — thermal (@spec:thermal-exercise-mimetic, cert 0.35; @spec:hot-bath-hsp70, cert 0.25), pharmacological (@spec:hsp70-inducers, cert 0.45; @spec:arimoclomol-hsp70, cert 0.25; @spec:4pb-er-stress-hsp70, cert 0.20), or exosomal delivery (Kang et al. RVG-HSP70\@Exo) — could simultaneously address all three domains. The strongest constraint is the HSAT2 retroelement risk: HSF1 activation that drives HSP70 transcription also drives pericentromeric HSAT2 derepression (@spec:heat-hsat2-caution, cert 0.25), creating a potential net-harm scenario if sustained heat therapy activates retroelement inflammatory cascades that outweigh HSP70 anti-inflammatory benefit. The most important unresolved question is whether the HSP70 deficit in ME/CFS is a primary failure of chaperone induction, a secondary consequence of chronic ISR activation that consumes chaperone capacity, or both — answered by measuring HSP70 induction kinetics in response to standardized heat challenge with serial proteomics. For a patient considering treatment, this means a single sauna session (test dose) with symptom tracking at 24 h and 72 h would reveal whether their HSP70 axis is responsive — if WBH improves PEM, the chaperone deficit is secondary and inducible; if not, a primary defect would require HSP70 gene therapy or exosomal delivery rather than thermal therapy.
+HSP70 chaperone dysfunction is a convergent node in ME/CFS supported by three independent experimental lines from separate labs: Hochecker 2025 demonstrated that whole-body hyperthermia (WBH, 39°C) increases HSPA5 mRNA 48.33% while simultaneously reducing autophagy markers (LC3-II −17.84%) and improving mitochondrial respiration (+61–112% across measures) in ME/CFS PBMCs (@spec:autophagy-switch-heat, cert 0.40; @spec:hyperthermia-protocol, cert 0.52), establishing HSP70 induction as sufficient to shift cellular state from stalled selective autophagy toward productive oxidative phosphorylation; Kang 2026 showed that RVG-targeted engineered exosomes carrying HSP70 mRNA cross the BBB and reverse cognitive deficits and hippocampal neuroinflammation in sleep-deprived mice (@spec:engineered-exosome-bbb-mrna, cert 0.55), providing proof-of-concept that HSP70 restoration in CNS is cognitively protective; the ISR-PERK-HSP70 regulatory loop formalized as a coupled ODE (@spec:m5-hsp70-isr-ode, cert 0.25) models how HSP70 binds and inhibits PERK kinase, attenuating the integrated stress response. These lines converge on a model where chronic low HSP70 creates a permissive state for both neuroinflammation (unchecked PERK→ATF4→CHOP) and mitochondrial failure (insufficient chaperone support for complex assembly), while interventions that raise HSP70 — thermal (@spec:thermal-exercise-mimetic, cert 0.35; @spec:hot-bath-hsp70, cert 0.25), pharmacological (@spec:hsp70-inducers, cert 0.45; @spec:arimoclomol-hsp70, cert 0.25; @spec:4pb-er-stress-hsp70, cert 0.20), or exosomal delivery (Kang et al. RVG-HSP70@Exo) — could simultaneously address all three domains. The strongest constraint is the HSAT2 retroelement risk: HSF1 activation that drives HSP70 transcription also drives pericentromeric HSAT2 derepression (@spec:heat-hsat2-caution, cert 0.25), creating a potential net-harm scenario if sustained heat therapy activates retroelement inflammatory cascades that outweigh HSP70 anti-inflammatory benefit. The most important unresolved question is whether the HSP70 deficit in ME/CFS is a primary failure of chaperone induction, a secondary consequence of chronic ISR activation that consumes chaperone capacity, or both — answered by measuring HSP70 induction kinetics in response to standardized heat challenge with serial proteomics. For a patient considering treatment, this means a single sauna session (test dose) with symptom tracking at 24 h and 72 h would reveal whether their HSP70 axis is responsive — if WBH improves PEM, the chaperone deficit is secondary and inducible; if not, a primary defect would require HSP70 gene therapy or exosomal delivery rather than thermal therapy.
 ] <syn:hsp70-chaperone-convergence>
 
 #synthesis(title: [Orexin Suppression as a Convergent Neuroimmune-Sleep Mechanism Across Inflammatory, Genetic, Pharmacological, and Diagnostic Lines])[

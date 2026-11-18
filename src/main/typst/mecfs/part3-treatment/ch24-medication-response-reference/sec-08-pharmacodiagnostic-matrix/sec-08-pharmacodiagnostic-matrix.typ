@@ -32,16 +32,23 @@ The matrix resolves down to a small set of surviving hypotheses — the intersec
 
 === Example — Aripiprazole × All Hypotheses
 
-| Hypothesis | Expected LDA Response | Discriminative? |
-|------------|----------------------|-----------------|
-| Microglial priming (D2-mediated) | Positive | Yes — low-dose D2 agonism suppresses microglial cytokines specifically |
-| Dopamine deficiency (mesocorticolimbic) | Positive | Yes — partial agonism restores tonic DA tone |
-| TRPM3 channelopathy | Null | No — LDA does not target TRPM3; null non-informative |
-| GPCR autoantibody (PIP2 depletion) | Null | No — LDA doesn't address PIP2; null non-informative |
-| PDH inhibition (mitochondrial) | Null | No — LDA doesn't address PDH |
-| Mast-cell-driven neuroinflammation | Possibly positive | Weak — mast cells express D2 but are not LDA's primary target |
-| Gerlier Pathway 2 (sympathetic) | Positive | Yes — D2 agonism compensates for dopamine depletion from DBH overactivity |
-| Glymphatic failure | Null | No — no direct glymphatic mechanism |
+#table(
+  columns: (auto, auto, auto),
+  table.header(
+    [*Hypothesis*],
+    [*Expected LDA Response*],
+    [*Discriminative?*],
+  ),
+  [Microglial priming \(D2-mediated\)], [Positive], [Yes — low-dose D2 agonism suppresses microglial cytokines specifically],
+  [Dopamine deficiency \(mesocorticolimbic\)], [Positive], [Yes — partial agonism restores tonic DA tone],
+  [TRPM3 channelopathy], [Null], [No — LDA does not target TRPM3; null non-informative],
+  [GPCR autoantibody \(PIP2 depletion\)], [Null], [No — LDA doesn't address PIP2; null non-informative],
+  [PDH inhibition \(mitochondrial\)], [Null], [No — LDA doesn't address PDH],
+  [Mast-cell-driven neuroinflammation], [Possibly positive], [Weak — mast cells express D2 but are not LDA's primary target],
+  [Gerlier Pathway 2 \(sympathetic\)], [Positive], [Yes — D2 agonism compensates for dopamine depletion from DBH overactivity],
+  [Glymphatic failure], [Null], [No — no direct glymphatic mechanism],
+)
+
 
 Chapter @ch:mechanistic-cascade-tracing sec-10 provides the full drug × hypothesis cross-reference for all approximately 192 entries.
 
