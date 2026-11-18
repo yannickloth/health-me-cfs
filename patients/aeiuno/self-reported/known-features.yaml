@@ -70,6 +70,13 @@ sleep:
       prescribing_physician: "Dr. Alessandro Pincherle, Kayl, Luxembourg"
       notes: "Sifrol is another brand of the same molecule (pramipexole); Mirapexin was the brand prescribed"
       started: "2026-11-18"
+      first_dose_reaction:
+        date: "2026-11-18 (morning of dosing)"
+        dose_taken: "1 pill (patient-reported 0.26 mg — not a standard strength, likely 0.25 mg)"
+        symptoms: "dizziness (schwindelig), weakness, visual disturbance ('could not see food'); nausea not reported"
+        functional_impact: "sickness leave from work"
+        plan: "continue 2–3 days, then assess whether to continue"
+        detail: "self-reported/symptoms/202611/2026-11-18.yaml"
   morning_headache: true
   nocturnal_agitation: true
   dream_intensity: "intense dreams; impression of being awake while dreaming"

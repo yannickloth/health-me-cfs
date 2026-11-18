@@ -11,6 +11,9 @@ update_note: |
   Narcolepsy confirmed excluded. The prescribed dose range (0.5–3 mg/day) exceeds the
   recommended maximum for RLS (0.5 mg/day) and enters Parkinson's dosing territory.
   This needs clinical review.
+  First dose (2026-11-18, 1 pill; patient-reported 0.26 mg — not a standard strength,
+  likely 0.25 mg) produced dizziness, weakness, and visual disturbance → sickness leave.
+  Plan: continue 2–3 days, then reassess whether to continue.
 source_documents:
   - "evidence/20260921_Bilan-hypersomnie_StLucBouge_ChristineAndres.pdf"
   - "evidence/20260921_sleep-study.yaml"
@@ -66,6 +69,13 @@ comorbid_probable:
         prescribed_date: "2026-11-18"
         prescribing_physician: "Dr. Alessandro Pincherle, Kayl, Luxembourg"
         notes: "Sifrol is another brand of the same molecule (pramipexole); Mirapexin was the brand prescribed"
+    first_dose_reaction:
+      date: "2026-11-18 (morning of dosing)"
+      dose_taken: "1 pill; patient-reported 0.26 mg (not a standard strength; likely 0.25 mg)"
+      symptoms: "dizziness (schwindelig), weakness, visual disturbance ('could not see food'); nausea not reported"
+      functional_impact: "sickness leave from work"
+      plan: "continue 2–3 days, then reassess whether to continue"
+      interpretation: "exaggerated cardiovascular D2/D3 side-effect signal at the RLS starting dose (peripheral D2 vasodilation + central D2 sympathetic suppression → orthostatic dizziness) — Pattern II in the ch25 sec-10 framework; dizziness without nausea suggests cardiovascular D2 sensitivity, area postrema response unreported. Full note: self-reported/symptoms/202611/2026-11-18.yaml"
 
   - name: "Insomnia disorder"
     icd10: "F51.0"
@@ -218,6 +228,7 @@ medication_history:
       prescribing_physician: "Dr. Alessandro Pincherle, Kayl, Luxembourg"
       notes: "Sifrol is another brand of the same molecule (pramipexole); Mirapexin was the brand prescribed"
       started: "2026-11-18"
+      first_dose_reaction: "2026-11-18 morning: dizziness, weakness, visual disturbance after 1 pill (reported 0.26 mg, likely 0.25 mg); sickness leave; plan: continue 2–3 days then reassess"
 
 epistemic_note: |
   "Most probable" depends on the question. As an integrative explanation of the whole

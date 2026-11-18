@@ -1,0 +1,61 @@
+date: 2026-11-18
+
+context:
+  trigger_event: "First dose of pramipexole (Mirapexin), prescribed 2026-11-18 by Dr. Alessandro Pincherle (Kayl) for confirmed RLS"
+  trigger_event_type: "medication — first dose"
+
+medications:
+  - drug: "Pramipexole (Mirapexin)"
+    indication: "RLS (confirmed)"
+    first_dose: true
+    dose_taken: "1 pill in the morning"
+    reported_strength: "0.26 mg"
+    strength_note: "0.26 mg is not a standard Mirapexin strength (standard: 0.125 / 0.25 / 0.5 mg); most likely a 0.25 mg pill misreported. Confirm from the pharmacy strip."
+    prescribing_physician: "Dr. Alessandro Pincherle, Kayl, Luxembourg"
+
+adverse_reaction:
+  onset: "morning of 2026-11-18, after the single pill"
+  reported_symptoms:
+    - "dizziness (patient word: 'schwindelig')"
+    - "weakness"
+    - "visual disturbance ('could not see food')"
+  nausea: "not reported"
+  severity: "severe enough to stop work"
+  functional_impact: "sickness leave from work"
+  plan: "continue 2–3 days, then assess whether to keep taking it"
+
+symptoms:
+  dizziness:
+    present: true
+    pattern: "post-first-dose, morning of 2026-11-18"
+    notes: "no objective blood pressure or heart rate recorded"
+  weakness:
+    present: true
+    pattern: "generalized, same morning"
+  visual_disturbance:
+    present: true
+    notes: "'could not see food' — likely blurring or instability while eating; exact character not specified"
+
+activity:
+  work: { performed: false, reason: "sickness leave after first Mirapexin dose" }
+
+interpretation:
+  framework_ref: "ch25 sec-10 (side effects as diagnostic probes), Pattern II and the ligand-receptor duality section"
+  note: >
+    Dizziness at the RLS starting dose is the exaggerated cardiovascular
+    D2/D3 side-effect signal the framework predicts for supersensitive
+    D2/D3 receptors: peripheral D2 vasodilation plus central D2
+    sympathetic suppression produces orthostatic dizziness. Weakness and
+    the visual disturbance are consistent with the same cardiovascular
+    mechanism. Nausea was not reported: the area postrema (CTZ) emetic
+    response is unreported, and dizziness without nausea points to
+    cardiovascular D2 sensitivity rather than emetic supersensitivity.
+    This is a pharmacodynamic (receptor-state) signal, not an allergy:
+    it is expected to track dose, not time on drug.
+  caveat: "Single-dose self-report without vital signs; a hypothesis, not a diagnosis."
+
+dose_discrepancy:
+  reported_strength: "0.26 mg"
+  standard_strengths_mg: [0.125, 0.25, 0.5]
+  likely: "0.25 mg pill (misreport)"
+  action: "verify the strength from the pharmacy strip at the next check-in"
