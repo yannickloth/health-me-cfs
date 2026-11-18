@@ -1,10 +1,16 @@
 # Diagnostic synthesis — aeiuno (Christine Paula Andres)
-# Last updated: 2026-10-21
+# Last updated: 2026-11-18
 # Basis: hypersomnia workup 2026-09-21/22 + prior clinical record
 # Status: PROPOSED for discussion with the treating physicians. Not a confirmed diagnosis.
 
 patient_id: "aeiuno"
-last_updated: "2026-10-21"
+last_updated: "2026-11-18"
+
+update_note: |
+  Updated 2026-11-18: Pramipexole (Mirapexin) prescribed by Dr. Pincherle for confirmed RLS.
+  Narcolepsy confirmed excluded. The prescribed dose range (0.5–3 mg/day) exceeds the
+  recommended maximum for RLS (0.5 mg/day) and enters Parkinson's dosing territory.
+  This needs clinical review.
 source_documents:
   - "evidence/20260921_Bilan-hypersomnie_StLucBouge_ChristineAndres.pdf"
   - "evidence/20260921_sleep-study.yaml"
@@ -40,17 +46,26 @@ primary_diagnosis:
 comorbid_probable:
   - name: "Restless legs syndrome (RLS) / periodic limb movement disorder (PLMD)"
     icd10: "G25.81"
-    status: "probable"
-    confidence: "moderate for PLMD (high PLMS index, but arousal association 0.0/h); moderate-high for RLS (clinical)"
+    status: "confirmed"
+    confidence: "moderate-high"
     supporting_evidence:
       - "PLMS index 76.5/h (PSG1) and 55.5/h (bedrest) — markedly elevated"
       - "Recorded complaints: unpleasant leg sensations relieved by movement, starting at rest/inactivity"
       - "Ferritin 57 µg/L (low-normal; target for RLS/PLMD is > 75–100 µg/L)"
       - "Fragmented sleep: arousal index 18.9–20.9/h; 30–67 awakenings"
+      - "Confirmed clinically by treating physician"
     caveats:
       - "The report says 'no typical RLS clinic', but its own complaint list meets the core RLS criteria. Clinical URGE interview needed."
       - "PLMS associated with micro-arousal was scored 0.0/h — confirm the scoring."
-    treatment_note: "Iron repletion first (oral or IV, guided by ferritin/TSAT). Dopamine agonists or gabapentinoids only after iron and specialist review; caution with augmentation and with ME/CFS/PEM."
+    treatment_note: "Pramipexole (Mirapexin) prescribed, dose titration 0.5–3 mg/day ongoing. Iron repletion considered (target ferritin > 75–100 µg/L). Caution with dopamine agonist augmentation and with ME/CFS/PEM."
+    treatment:
+      - drug: "Pramipexole (Mirapexin)"
+        class: "dopamine agonist (D2/D3 full agonist, especially D3)"
+        prescribed_dose_range: "0.5–3 mg/day"
+        status: "titration phase — testing right dose"
+        prescribed_date: "2026-11-18"
+        prescribing_physician: "Dr. Alessandro Pincherle, Kayl, Luxembourg"
+        notes: "Sifrol is another brand of the same molecule (pramipexole); Mirapexin was the brand prescribed"
 
   - name: "Insomnia disorder"
     icd10: "F51.0"
@@ -132,13 +147,14 @@ suspected_contributors:
 excluded_or_not_supported:
   - name: "Narcolepsy type 1 / type 2"
     icd10: "G47.41 / G47.42"
-    status: "not confirmed — probably excluded"
+    status: "excluded"
     evidence_against:
       - "No SOREMP on PSG (REM latency 211.5 min)"
       - "No SOREMP on 5 MSLT naps"
       - "Mean MSLT latency 10.8 min (> 8 min)"
       - "No cataplexy"
-    caveat: "Exclusion is robust: no medication for ≥ 3 weeks before the PSG, so the MSLT is valid. If the 2018 PSG showed a genuine SOREMP, the diagnosis should be re-examined rather than simply maintained."
+      - "Polysomnography 2026 confirmed no narcolepsy"
+    caveat: "Exclusion is robust: no medication for ≥ 3 weeks before the PSG, so the MSLT is valid. Provigil (modafinil) has been discontinued."
 
   - name: "Obstructive sleep apnea (OSA)"
     icd10: "G47.33"
@@ -182,12 +198,26 @@ not_yet_excluded:
 
 diagnostic_hierarchy_summary: |
   1. ME/CFS — best integrative hypothesis, not confirmed.
-  2. RLS/PLMD with iron insufficiency — strongest objective signal and most treatable contributor.
+  2. RLS/PLMD with iron insufficiency — confirmed; strongest objective signal and most treatable contributor.
   3. Insomnia disorder with subjective-objective dissociation.
   4. Anxiety/depression — comorbid and a serious competing explanation.
   5. Possible POTS, MCAS, hEDS/CCI — separate workups.
-  6. Narcolepsy and OSA excluded (narcolepsy robustly excluded: no medication for ≥ 3 weeks).
+  6. Narcolepsy excluded (robustly: no medication for ≥ 3 weeks, PSG and MSLT negative).
   7. Idiopathic hypersomnia not confirmed; low-moderate probability.
+
+medication_history:
+  discontinued:
+    - drug: "Modafinil (Provigil)"
+      reason: "narcolepsy excluded; no longer indicated"
+      status: "stopped 2026-11-18"
+  active:
+    - drug: "Pramipexole (Mirapexin)"
+      indication: "RLS (confirmed)"
+      dose_range: "0.5–3 mg/day"
+      status: "titration in progress"
+      prescribing_physician: "Dr. Alessandro Pincherle, Kayl, Luxembourg"
+      notes: "Sifrol is another brand of the same molecule (pramipexole); Mirapexin was the brand prescribed"
+      started: "2026-11-18"
 
 epistemic_note: |
   "Most probable" depends on the question. As an integrative explanation of the whole

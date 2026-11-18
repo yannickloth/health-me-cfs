@@ -61,7 +61,15 @@ sleep:
   rls_symptoms:
     present: true
     description: "unpleasant leg sensations relieved by movement, starting at rest/inactivity"
-    status: "not formally diagnosed; report says 'no typical RLS clinic' but the recorded complaints meet the core criteria"
+    status: "confirmed by treating physician"
+    treatment:
+      drug: "Pramipexole (Mirapexin)"
+      class: "dopamine agonist (D2/D3 full agonist)"
+      dose_range: "0.5–3 mg/day"
+      status: "titration phase — testing right dose"
+      prescribing_physician: "Dr. Alessandro Pincherle, Kayl, Luxembourg"
+      notes: "Sifrol is another brand of the same molecule (pramipexole); Mirapexin was the brand prescribed"
+      started: "2026-11-18"
   morning_headache: true
   nocturnal_agitation: true
   dream_intensity: "intense dreams; impression of being awake while dreaming"
@@ -72,6 +80,7 @@ sleep:
     date: "2026-09-21/22"
     result: "no narcolepsy; no OSA; fragmented sleep; PLMS 76.5/h; ferritin 57"
     medication_free: "≥ 3 weeks before the PSG (no Concerta, no modafinil)"
+    narcolepsy_stopped: "Provigil (modafinil) discontinued 2026-11-18"
     documents:
       - "evidence/20260921_Bilan-hypersomnie_StLucBouge_ChristineAndres.pdf"
       - "evidence/20260921_sleep-study.yaml"
