@@ -162,7 +162,7 @@ Before starting any other phase:
 
 ## Phase 1 — Literature Research
 
-**Agent:** `literature-integrator` | **Model:** deepseek-v4-pro | **Execution:** foreground (must write files)
+**Agent:** `literature-integrator` | **Model:** proxy/warrant-officer | **Execution:** foreground (must write files)
 
 **Step 0 — Rival framings BEFORE search (MANDATORY):** Before any query is written, generate 3–4 rival framings/hypotheses of the topic — deliberately including the framing that CONTRADICTS the consensus view — and search each. Tag every included paper with the framing it was found under; record the framings and per-framing paper counts at the top of the search log. Rationale: a single framing is a single blind spot — searching only the consensus view anchors the synthesis and loses minority signal. This step is GENERATIVE and runs FIRST; it is distinct from adversarial refutation (Phase 11, at the end) and from checklist item #4 (alternative enumeration at claim level).
 
@@ -547,7 +547,7 @@ This check is also run after Phase 5 (see Phase 5b below — the intermediate bu
 
 ## Phase 4 — Creative Brainstorming
 
-**Agent:** `scientific-insight-generator` | **Model:** deepseek-v4-pro
+**Agent:** `scientific-insight-generator` | **Model:** proxy/lieutenant
 
 Synthesize Phase 1 findings + Phase 2 synthesis + existing paper. Generate ideas across all categories. **If Phase 2 decision was PARTIAL:** limit brainstorm to categories 1–2 and 10–12 only; skip categories 3–9 (therapeutic brainstorming premature on weak evidence base).
 
@@ -732,7 +732,7 @@ Same requirement as Phase 3: every environment written in Phase 5 must contain a
 
 **Gate A — Standalone topic escalation:** Before integrating a Tier 1 idea inline, check: does this idea have its own separable literature base (≥5 papers not already covered by the parent topic's Phase 1)? If yes → it's standalone. Ask user: "Integrate inline as Phase 5 or queue as a new `/integrate-topic` cycle?" Operational threshold: ≥5 separable papers = standalone; <5 = extension. Wait for answer before continuing. If extension → integrate inline as below.
 
-1. **Research** (Tier 1 only) — delegate to `literature-integrator` (deepseek-v4-pro): find supporting/contradicting evidence; produces integration guide in `ops/integration-guides/`; updates the topic-appropriate `bib/<topic-area>.bib` + annotated bib. Before launching, check whether Phase 1 papers already address this idea — if so, use existing evidence and skip redundant sub-research. **If the idea is treatment-oriented** (drug, supplement, intervention), the sub-research MUST include harm search terms (adverse effects, contraindications) even if the parent topic's Phase 1 was non-treatment.
+1. **Research** (Tier 1 only) — delegate to `literature-integrator` (proxy/warrant-officer): find supporting/contradicting evidence; produces integration guide in `ops/integration-guides/`; updates the topic-appropriate `bib/<topic-area>.bib` + annotated bib. Before launching, check whether Phase 1 papers already address this idea — if so, use existing evidence and skip redundant sub-research. **If the idea is treatment-oriented** (drug, supplement, intervention), the sub-research MUST include harm search terms (adverse effects, contraindications) even if the parent topic's Phase 1 was non-treatment.
 2. **Develop + integrate** — main session reads guide; writes directly into target chapter files per Phase 3 rules
 3. **Verify** — confirm `literature-integrator` added bib entries before proceeding
 
@@ -760,7 +760,7 @@ Subtree status updates are deferred to after Phase 5a (which follows the Phase 5
 
 ### Phase 5c — Differential Analysis for Treatment Topics
 
-**Agent:** delegates to `medication-differential-analyst` | **Model:** deepseek-v4-pro
+**Agent:** delegates to `medication-differential-analyst` | **Model:** proxy/lieutenant
 
 **Trigger:** The integrated topic includes a medication, drug, supplement, or intervention that has a known mechanism of action and human evidence in ME/CFS.
 
@@ -777,7 +777,7 @@ Subtree status updates are deferred to after Phase 5a (which follows the Phase 5
 
 ### Phase 5d — Pathway-to-Drug Forward Tracing and ch30 Cascade Integration
 
-**Agent:** main session | **Model:** deepseek-v4-pro (required — lower-tier models are insufficient for mechanistic biochemistry × pharmacology × differential diagnosis reasoning)
+**Agent:** main session | **Model:** proxy/lieutenant (required — workhorse-tier models are insufficient for mechanistic biochemistry × pharmacology × differential diagnosis reasoning)
 
 **Trigger:** The integrated topic introduces a **mechanistic hypothesis** (not a drug) that describes a causal cascade from an upstream trigger to downstream clinical symptoms. Phase 5d traces that cascade forward through every biochemical and physiological step, and at each node identifies which existing medications — documented in ch30 sec-12 (pharmacodiagnostic compendium), ch24, ch25, or ch27 — would be expected to intercept at that node.
 
@@ -1063,7 +1063,7 @@ For each drug that intercepts the new cascade:
 
 ### Model note
 
-Phase 5d requires reasoning across mechanistic biochemistry, pharmacology, and differential diagnosis. Use deepseek-v4-pro (deep-reasoning tier). If it is unavailable → **STOP and ask the user** (does NOT silently skip the phase): "Phase 5d requires deep-reasoning for cascade tracing + ch30 integration, but it is unavailable. (a) retry with deepseek-v4-pro later, (b) run 5d in the current session accepting lower reasoning fidelity, (c) explicitly waive 5d and record it as WAIVED." Do not silently skip — a waived phase must be recorded so the completion audit can distinguish it from an omission. Continue with remaining phases only after the user decides.
+Phase 5d requires reasoning across mechanistic biochemistry, pharmacology, and differential diagnosis. Use proxy/lieutenant (the deep-reasoning rank). If it is unavailable → **STOP and ask the user** (does NOT silently skip the phase): "Phase 5d requires deep-reasoning for cascade tracing + ch30 integration, but it is unavailable. (a) retry with proxy/lieutenant later, (b) run 5d in the current session accepting lower reasoning fidelity, (c) explicitly waive 5d and record it as WAIVED." Do not silently skip — a waived phase must be recorded so the completion audit can distinguish it from an omission. Continue with remaining phases only after the user decides.
 
 **Report:** "Phase 5d complete: N cascade branches traced, M drug→node pairs, K discriminated probes, L sec-12 entries updated/created, P sec-09 convergence patterns added/updated, Q sec-13 matrix rows/columns added. Cascades cert ≥ 0.30: R integrated into chapter; cert 0.10–0.29: S ops-only; cert < 0.10: T skipped. Ch30 files created/modified: <list>. Pruned branches: U. Cascade trace at `ops/integration-guides/pathway-drug-trace-<topic-slug>.md`."
 
@@ -1082,7 +1082,7 @@ Phase 5d requires reasoning across mechanistic biochemistry, pharmacology, and d
 
 ## Phase 5a — Falsifiability Sweep (Verification)
 
-**Agent:** `falsifiability-auditor` | **Model:** deepseek-v4-pro | **Execution:** foreground (report → main session fixes)
+**Agent:** `falsifiability-auditor` | **Model:** proxy/lieutenant | **Execution:** foreground (report → main session fixes)
 
 **Run after all Phase 5 integration is complete.** This is a verification sweep — most falsifiability work should have been done inline during Phases 3 and 5. Scope: all `.typ` files modified/created in Phases 3 and 5 (Phase 3 hypotheses also need independent verification — the inline check in Phase 3 is a self-check with no agent-based verification).
 
@@ -1116,7 +1116,7 @@ Update integrated count in root `hypotheses-trees.md` subtree index row.
 
 ## Phase 5z — Glossary Review
 
-**Agent:** main session | **Model:** deepseek-v4-flash (mechanical check — cheap)
+**Agent:** main session | **Model:** proxy/sergeant (mechanical check — cheap)
 
 **Purpose:** Scan newly added prose for undefined acronyms, medication names, and key terms that lack a tooltip entry in `src/main/resources/glossary-en.json`. Prevent new content from introducing orphaned terminology that readers can't hover-to-explain.
 
@@ -1471,7 +1471,7 @@ The Nix derivation uses `git ls-files` to enumerate source files. Untracked `.ty
 
 ## Phase 10 — Cross-Chapter Coherence Review
 
-**Agent:** main session | **Model:** deepseek-v4-pro (inline execution — no agent delegation. See Agent Registry for rationale on why no `cross-section-coherence-auditor` agent exists.)
+**Agent:** main session | **Model:** proxy/warrant-officer (inline execution — no agent delegation. See Agent Registry for rationale on why no `cross-section-coherence-auditor` agent exists.)
 
 **Purpose:** Phases 5 and 6 modify content across multiple chapters. This phase verifies the cross-chapter narrative is still coherent after scattered modifications.
 
@@ -1699,7 +1699,7 @@ Between passes: run `nix build` — confirm no regressions from fixes.
 
 ## Phase 12 — Changelog Update
 
-**Agent:** main session | **Model:** deepseek-v4-flash (mechanical formatting)
+**Agent:** main session | **Model:** proxy/sergeant (mechanical formatting)
 
 Write the plan-record summary **after** all reviews converged (reflects final integrated state, not pre-review draft).
 
@@ -1756,7 +1756,7 @@ section. For **each** phase listed below, mark exactly one state:
 | 4a | standalone/gap-fill (record WHY) | subtree file + root index |
 | 5 | always after 3 | triage + environments |
 | 5b | always after 5/5c/5d | build PASS (report) |
-| 5d | non-mechanistic / cert<0.10 / deepseek-v4-pro WAIVED | cascade trace ops/ (if cascade) |
+| 5d | non-mechanistic / cert<0.10 / proxy/lieutenant WAIVED | cascade trace ops/ (if cascade) |
 | 5c | non-pharm / no-target-mech | ch24 differential entry |
 | 5a | always | falsifiability audit applied |
 | 5z | no .typ/.qmd modified in 3–5 | glossary entries added |
@@ -1833,29 +1833,29 @@ If `nix build` fails on a key that a parallel stream's rebase/reset may have dro
 
 | Phase | Agent / Skill | Model | Reason |
 |-------|---------------|-------|--------|
-| 1 | `literature-integrator` (agent) | deepseek-v4-pro | Research synthesis needs judgment |
+| 1 | `literature-integrator` (agent) | proxy/warrant-officer | Research synthesis needs judgment |
 | 2 | main session | current | Evidence synthesis + integration decision at zero marginal cost |
 | 3 | main session | current | Composition at zero marginal cost |
 | 3.5 | main session | current | Non-specialist consequence verification — read environments, add missing consequence fields |
-| 4 | `scientific-insight-generator` (agent) | deepseek-v4-pro | Creative cross-domain synthesis (constructive + critical categories) |
+| 4 | `scientific-insight-generator` (agent) | proxy/lieutenant | Creative cross-domain synthesis (constructive + critical categories) |
 | 4a | main session | current | Mechanical tree write |
-| 5 | `literature-integrator` (agent, sub) | deepseek-v4-pro | Per-idea research (Tier 1 only) |
+| 5 | `literature-integrator` (agent, sub) | proxy/warrant-officer | Per-idea research (Tier 1 only) |
 | 5 | main session | current | Development + integration |
-| 5a | `falsifiability-auditor` (agent) | deepseek-v4-pro | Verification sweep (most work done inline in Phase 5) |
+| 5a | `falsifiability-auditor` (agent) | proxy/lieutenant | Verification sweep (most work done inline in Phase 5) |
 | 5b | main session | current | Intermediate build check |
-| 5c | `medication-differential-analysis` (skill → `medication-differential-analyst` agent) | deepseek-v4-pro | Differential diagnostic reasoning for medication topics |
-| 5d | main session | deepseek-v4-pro | Pathway-to-drug cascade tracing + ch30 integration (sec-* category assignment, cascade file creation, sec-12 entry updates, sec-09 convergence, sec-13 matrix). Skip if deepseek-v4-pro unavailable. |
-| 5z | main session | deepseek-v4-flash | Mechanical glossary term extraction |
+| 5c | `medication-differential-analysis` (skill → `medication-differential-analyst` agent) | proxy/lieutenant | Differential diagnostic reasoning for medication topics |
+| 5d | main session | proxy/lieutenant | Pathway-to-drug cascade tracing + ch30 integration (sec-* category assignment, cascade file creation, sec-12 entry updates, sec-09 convergence, sec-13 matrix). Skip if proxy/lieutenant unavailable. |
+| 5z | main session | proxy/sergeant | Mechanical glossary term extraction |
 | 6 | main session | current | Evidence→claim retrospective adaptation |
 | 7 | main session (inline) | current | Compatibility audit + reinforcement chains + adjustments — all three steps |
 | 8 | main session | current | Build verification + pre-build staging. Intermediate checks at Phases 3 and 5 |
 | 9 | main session | current | Quality metrics — actionable before review convergence |
-| 10 | main session (inline) | deepseek-v4-pro | Cross-chapter consistency audit — no separate agent; execute directly |
+| 10 | main session (inline) | proxy/warrant-officer | Cross-chapter consistency audit — no separate agent; execute directly |
 | 10a | main session | current | High-level synthesis → `#synthesis` environment condensing scattered environments into convergent model |
-| 11a | `review-convergence` (skill) | deepseek-v4-pro | Consistency/logic checking |
-| 11b | `review-adversarial` (skill) | deepseek-v4-pro | Adversarial personas need deep reasoning |
-| 11c | `review-typst` (skill) | deepseek-v4-pro | Typst-specific review |
-| 12 | main session | deepseek-v4-flash | Mechanical plan-record summary (no changelog.typ) |
+| 11a | `review-convergence` (skill) | proxy/warrant-officer | Consistency/logic checking |
+| 11b | `review-adversarial` (skill) | proxy/lieutenant | Adversarial personas need deep reasoning |
+| 11c | `review-typst` (skill) | proxy/warrant-officer | Typst-specific review |
+| 12 | main session | proxy/sergeant | Mechanical plan-record summary (no changelog.typ) |
 | 13 | `commit` (skill) | current | Git operations |
 
 ### Agent Output Validation (NEW — mandatory for every delegated phase)
@@ -1871,7 +1871,7 @@ If `nix build` fails on a key that a parallel stream's rebase/reset may have dro
 
 **Re-run budget:** Each agent may be re-invoked at most once for blank output and once for missing files (2 total retries). After that, escalate. This prevents pipelines stalling on transient failures while avoiding infinite retry loops.
 
-**Unattended mode fallback:** If the user indicated the pipeline should run unattended (e.g., continuation prompt, "run all phases"), blank-output agents may fall back to main-session inline execution after 1 retry without escalating — **except** for deep-reasoning agents (Phase 4 `scientific-insight-generator`, Phase 11b adversarial personas, all on `deepseek-v4-pro`) and agents whose primary capability is web search (`literature-integrator` in any phase). Deep-reasoning and web-search workflows cannot be faithfully replicated by a flash-tier inline fallback; these must escalate to user even in unattended mode. For all other agents: state "[Phase N] agent returned blank — falling back to inline execution." This prevents long-running pipelines from blocking on user input while preserving quality for capability-critical phases.
+**Unattended mode fallback:** If the user indicated the pipeline should run unattended (e.g., continuation prompt, "run all phases"), blank-output agents may fall back to main-session inline execution after 1 retry without escalating — **except** for deep-reasoning agents (Phase 4 `scientific-insight-generator`, Phase 11b adversarial personas, all on `proxy/lieutenant`) and agents whose primary capability is web search (`literature-integrator` in any phase). Deep-reasoning and web-search workflows cannot be faithfully replicated by a sergeant-tier inline fallback; these must escalate to user even in unattended mode. For all other agents: state "[Phase N] agent returned blank — falling back to inline execution." This prevents long-running pipelines from blocking on user input while preserving quality for capability-critical phases.
 
 **Rationale:** Agents returned silent blank outputs in prior cycles (`cross-section-coherence-auditor` did not exist at the time; now deferred indefinitely — see Agent Registry; some agents returned empty `task_result` despite valid `task_id`).
 

@@ -182,7 +182,7 @@ Fastest, least expensive approach always.
 | Automate repeated actions | Script/loop, not N manual steps |
 | Batch operations | Group similar actions |
 | Parallel execution | Concurrent tool calls + background agents |
-| Cheapest sufficient model | deepseek-v4-flash=mechanical, deepseek-v4-pro=judgment/deep reasoning |
+| Cheapest sufficient model | rank ladder via proxy: sergeant=mechanical, warrant-officer=workhorse judgment, second-lieutenant=clean-language judgment, lieutenant=deep reasoning |
 | Minimize round-trips | One-pass info gathering |
 | Avoid redundant work | Check done before doing; don't re-read files in context |
 

@@ -129,11 +129,11 @@ Extreme caution required.
 
 | Context | Model | Notes |
 |---------|-------|-------|
-| Protected files | `deepseek/deepseek-v4-pro` | Careful reasoning required |
-| Destructive ops | `deepseek/deepseek-v4-pro` | Careful reasoning required |
-| Judgment needed | NOT `deepseek-v4-flash` | Avoid flash for judgment |
+| Protected files | `proxy/lieutenant` | Careful reasoning required |
+| Destructive ops | `proxy/lieutenant` | Careful reasoning required |
+| Judgment needed | NOT `proxy/sergeant` | Avoid sergeant for judgment |
 | In doubt | More capable | Default upward |
-| Safe + mechanical | `deepseek/deepseek-v4-flash` | Only with explicit paths + clear safety |
+| Safe + mechanical | `proxy/sergeant` | Only with explicit paths + clear safety |
 
 ---
 
