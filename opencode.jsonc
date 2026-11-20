@@ -20,7 +20,7 @@
   "instructions": [
     "Read AGENTS.md for project context.",
     "Read .opencode/agents/*.md for agent definitions.",
-    "Tiers are rank names on the LiteLLM proxy (proxy/<rank>); the proxy hides which model holds a rank, so agent configs never name a model. (1) proxy/sergeant = fast executor: mechanical, build-verified, high-volume, faithful instruction following, cheap workers; explicit-only, no auto-fallback. (2) proxy/warrant-officer = workhorse: agentic judgment, code generation and fix loops, long-form generation, domain audits; the default delegation tier and main-session model. (3) proxy/second-lieutenant = clean-output language tier: style, tone, translation, prose-pattern audits. (4) proxy/lieutenant = deep reasoning: formal proofs, math verification, adversarial persona auditors, model builders, high-stakes medical analysis; proxy cascades a failed lieutenant to second-lieutenant then warrant-officer. (5) proxy/lieutenant-colonel-v = vision tier: agents that read rendered figures, SVGs, PDFs (explicit, paid). The standing four ranks are text-only, so opencode only sends images to vision-capable ranks. Do not add provider-specific thinking/reasoning_effort options to rank agents; the proxy owns model behaviour parameters."
+    "Tiers are rank names on the LiteLLM proxy (proxy/<rank>); the proxy hides which model holds a rank, so agent configs never name a model. (1) proxy/sergeant = fast executor: mechanical, build-verified, high-volume, faithful instruction following, cheap workers; explicit-only, no auto-fallback. (2) proxy/warrant-officer = workhorse: agentic judgment, code generation and fix loops, long-form generation, domain audits; the default delegation tier and main-session model. (3) proxy/second-lieutenant = clean-output language tier: style, tone, translation, prose-pattern audits. (4) proxy/lieutenant = deep reasoning: formal proofs, math verification, adversarial persona auditors, model builders, high-stakes medical analysis; proxy cascades a failed lieutenant to second-lieutenant then warrant-officer. (5) Vision tier: the -v sibling ranks are the only vision slots — proxy/warrant-officer-v and proxy/lieutenant-v serve the same models as their text ranks, which are text-only by contract. Agents that read rendered figures, SVGs, PDFs (validators, checkers, illustrators) run on proxy/warrant-officer-v; deep visual rhetoric (diagram-rhetoric-auditor) runs on proxy/lieutenant-v. proxy/lieutenant-colonel-v remains for paid frontier visual work. Do not add provider-specific thinking/reasoning_effort options to rank agents; the proxy owns model behaviour parameters."
   ],
   "plugin": [
     "../llm-harness-plugins/context-includes/opencode/index.ts",
@@ -165,13 +165,13 @@
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/devil-advocate-auditor.md}"
     },
     "diagram-accuracy-auditor": {
-      "model": "proxy/lieutenant-colonel-v"
+      "model": "proxy/warrant-officer-v"
     },
     "diagram-consistency-auditor": {
-      "model": "proxy/lieutenant-colonel-v"
+      "model": "proxy/warrant-officer-v"
     },
     "diagram-rhetoric-auditor": {
-      "model": "proxy/lieutenant-colonel-v"
+      "model": "proxy/lieutenant-v"
     },
     "dictionary-manager": {
       "model": "proxy/sergeant"
@@ -528,10 +528,10 @@
       "prompt": "{file:../llm-harness-plugins/general-skills/agents/style-naturalizer.md}"
     },
     "svg-illustrator": {
-      "model": "proxy/lieutenant-colonel-v"
+      "model": "proxy/warrant-officer-v"
     },
     "svg-validator": {
-      "model": "proxy/lieutenant-colonel-v"
+      "model": "proxy/warrant-officer-v"
     },
     "syntax-fixer": {
       "model": "proxy/warrant-officer"
@@ -555,7 +555,7 @@
       "model": "proxy/warrant-officer"
     },
     "tikz-validator": {
-      "model": "proxy/lieutenant-colonel-v"
+      "model": "proxy/warrant-officer-v"
     },
     "tone-auditor": {
       "description": "Adversarial auditor that assesses whether the text's tone would alienate readers sympathetic to established approaches — catches condescension, unfair characterization of prior authors' intent, and rhetoric that would repel rather than persuade the target audience. Format-agnostic (Typst or LaTeX).",
@@ -587,7 +587,7 @@
     "typst-diagram-checker": {
       "description": "Review diagrams in Typst files (CeTZ, grid layouts, inline figures) for layout issues — overlaps, overflows, margin violations, color contrast, arrow visibility, spacing, and print safety.",
       "mode": "subagent",
-      "model": "proxy/lieutenant-colonel-v",
+      "model": "proxy/warrant-officer-v",
       "prompt": "{file:../llm-harness-plugins/typst-toolkit/agents/typst-diagram-checker.md}"
     },
     "typst-figure-caption-auditor": {

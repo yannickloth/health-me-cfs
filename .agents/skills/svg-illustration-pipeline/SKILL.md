@@ -14,7 +14,7 @@ Generate publication-quality SVG scientific diagrams through an iterative illust
 - **Phase 0 is mandatory:** Bypassing the format decision gate leads to wrong tool selection and unrecoverable figures.
 - **SVG rendering for visual inspection:** Requires `inkscape` or `rsvg-convert` to convert SVG → PNG for vision model review. If neither is available, visual inspection is not possible.
 - **Colorblind-safe palette:** Wong 2011 (Nature Methods) palette is the only accepted color scheme. Hex: `#000000, #E69F00, #56B4E9, #009E73, #F0E442, #0072B2, #D55E00, #CC79A7`.
-- **Vision model dependency:** Self-review depends on a working vision-capable model (`proxy/lieutenant-colonel-v`). If unavailable, rely on regex compliance checks only — flag to user that visual inspection was skipped.
+- **Vision model dependency:** Self-review depends on a working vision-capable model (`proxy/warrant-officer-v`). If unavailable, rely on regex compliance checks only — flag to user that visual inspection was skipped.
 - **Never skip Phase 0:** Even if the user is certain SVG is correct, run the gate — assumptions get confirmed.
 
 ## Pipeline
