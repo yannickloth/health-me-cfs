@@ -44,11 +44,11 @@ Phases in order; each builds on previous. Report findings per phase; produce con
 
 | # | Agent | Model | Focus |
 |---|-------|-------|-------|
-| 1 | `xref-checker` / `typst-xref-checker` | haiku | Cross-ref integrity: all refs + labels resolve |
-| 2 | `definition-use-checker` | haiku | Every formal term defined before first use |
-| 3 | `index-auditor` | haiku | Key terms, definitions, theorems indexed _(LaTeX only)_ |
-| 4 | `figure-caption-auditor` / `typst-figure-caption-auditor` | haiku | Captions, labels, text references on all figures/tables |
-| 5 | `production-readiness-checker` / `typst-production-readiness-checker` | haiku | No TODO/FIXME, placeholder text, debug artifacts |
+| 1 | `xref-checker` / `typst-xref-checker` | proxy/warrant-officer (parallel, cloud) | Cross-ref integrity: all refs + labels resolve |
+| 2 | `definition-use-checker` | proxy/warrant-officer (parallel, cloud) | Every formal term defined before first use |
+| 3 | `index-auditor` | proxy/warrant-officer (parallel, cloud) | Key terms, definitions, theorems indexed _(LaTeX only)_ |
+| 4 | `figure-caption-auditor` / `typst-figure-caption-auditor` | proxy/warrant-officer (parallel, cloud) | Captions, labels, text references on all figures/tables |
+| 5 | `production-readiness-checker` / `typst-production-readiness-checker` | proxy/warrant-officer (parallel, cloud) | No TODO/FIXME, placeholder text, debug artifacts |
 
 **Report:** "Phase 1 complete: X critical, Y warning, Z info across 5 agents"
 
@@ -56,11 +56,11 @@ Phases in order; each builds on previous. Report findings per phase; produce con
 
 | # | Agent | Model | Condition | Focus |
 |---|-------|-------|-----------|-------|
-| 6 | `notation-consistency-checker` / `typst-notation-consistency-checker` | haiku | always | Symbols match canonical notation |
-| 7 | `citation-checker` / `typst-citation-checker` | haiku | always | All citations resolve against bibliography |
-| 8 | `definition-auditor` | sonnet | chapter has definitions | Formal rigor, circularity, undefined terms, ambiguity |
-| 9 | `code-listing-validator` | sonnet | always | Code examples syntactically correct, idiomatic |
-| 10 | `proof-validator` / `typst-proof-validator` | opus | chapter has proofs | Logical soundness, reference completeness |
+| 6 | `notation-consistency-checker` / `typst-notation-consistency-checker` | proxy/sergeant (sequential) | always | Symbols match canonical notation |
+| 7 | `citation-checker` / `typst-citation-checker` | proxy/sergeant (sequential) | always | All citations resolve against bibliography |
+| 8 | `definition-auditor` | proxy/lieutenant | chapter has definitions | Formal rigor, circularity, undefined terms, ambiguity |
+| 9 | `code-listing-validator` | proxy/lieutenant | always | Code examples syntactically correct, idiomatic |
+| 10 | `proof-validator` / `typst-proof-validator` | proxy/lieutenant | chapter has proofs | Logical soundness, reference completeness |
 
 **Report:** "Phase 2 complete: X critical, Y warning, Z info across N agents"
 
@@ -68,12 +68,12 @@ Phases in order; each builds on previous. Report findings per phase; produce con
 
 | # | Agent | Model | Condition | Focus |
 |---|-------|-------|-----------|-------|
-| 11 | `prerequisite-checker` | sonnet | always | No forward dependencies blocking comprehension |
-| 12 | `misconception-auditor` | sonnet | always | Common misunderstandings explicitly addressed |
-| 13 | `trade-off-auditor` | sonnet | always | Design advice states costs + limitations |
-| 14 | `scope-qualifier-checker` | sonnet | always | Claims state level of applicability |
-| 15 | `blooms-alignment-checker` | sonnet | chapter has exercises | Exercise stars match Bloom's levels |
-| 16 | `exercise-validator` | sonnet | chapter has exercises | Solutions correct, coverage adequate |
+| 11 | `prerequisite-checker` | proxy/lieutenant | always | No forward dependencies blocking comprehension |
+| 12 | `misconception-auditor` | proxy/lieutenant | always | Common misunderstandings explicitly addressed |
+| 13 | `trade-off-auditor` | proxy/lieutenant | always | Design advice states costs + limitations |
+| 14 | `scope-qualifier-checker` | proxy/lieutenant | always | Claims state level of applicability |
+| 15 | `blooms-alignment-checker` | proxy/lieutenant | chapter has exercises | Exercise stars match Bloom's levels |
+| 16 | `exercise-validator` | proxy/lieutenant | chapter has exercises | Solutions correct, coverage adequate |
 
 **Report:** "Phase 3 complete: X critical, Y warning, Z info across N agents"
 
@@ -81,7 +81,7 @@ Phases in order; each builds on previous. Report findings per phase; produce con
 
 | # | Agent | Model | Focus |
 |---|-------|-------|-------|
-| 17 | `redundancy-auditor` | sonnet | Per paragraph: duplicate content, repeated conclusions, parallel arguments across volume |
+| 17 | `redundancy-auditor` | proxy/lieutenant | Per paragraph: duplicate content, repeated conclusions, parallel arguments across volume |
 
 **Report:** "Phase 3b complete: X redundant, Y overlapping, Z acceptable"
 
@@ -89,8 +89,8 @@ Phases in order; each builds on previous. Report findings per phase; produce con
 
 | # | Agent | Model | Focus |
 |---|-------|-------|-------|
-| 18 | `style-auditor` | sonnet | Writing style consistency, AI markers, tone |
-| 19 | `longevity-checker` | sonnet | Technology references well-framed, trend claims qualified |
+| 18 | `style-auditor` | proxy/second-lieutenant | Writing style consistency, AI markers, tone |
+| 19 | `longevity-checker` | proxy/lieutenant | Technology references well-framed, trend claims qualified |
 
 **Report:** "Phase 4 complete: X critical, Y warning, Z info across 2 agents"
 

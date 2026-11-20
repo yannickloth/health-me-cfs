@@ -2,7 +2,7 @@
 name: production-readiness-checker
 mode: subagent
 description: Scan for leftover markers, incomplete content, and production artifacts before publication.
-model: proxy/sergeant
+model: proxy/warrant-officer
 ---
 
 # production-readiness-checker Agent

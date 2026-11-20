@@ -182,7 +182,7 @@ Fastest, least expensive approach always.
 | Automate repeated actions | Script/loop, not N manual steps |
 | Batch operations | Group similar actions |
 | Parallel execution | Concurrent tool calls + background agents |
-| Cheapest sufficient model | rank ladder via proxy: lieutenant=judgment + deep reasoning (default), warrant-officer=workhorse volume + generation, second-lieutenant=clean-language judgment, sergeant=mechanical |
+| Cheapest sufficient model | rank ladder via proxy: lieutenant=judgment + deep reasoning (default), warrant-officer=workhorse volume + generation, second-lieutenant=clean-language judgment, sergeant=mechanical. Parallel fan-out goes to proxy/warrant-officer (cloud, true concurrency); local ranks (lieutenant, sergeant) are single-slot and sequential only |
 | Minimize round-trips | One-pass info gathering |
 | Avoid redundant work | Check done before doing; don't re-read files in context |
 

@@ -2,7 +2,7 @@
 name: figure-caption-auditor
 mode: subagent
 description: Audit figure/table captions — must state a claim (not just describe), standalone-readable, consistent. Checks all figures/tables referenced in text.
-model: proxy/sergeant
+model: proxy/warrant-officer
 ---
 
 # figure-caption-auditor Agent

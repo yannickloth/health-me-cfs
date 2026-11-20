@@ -25,11 +25,11 @@ Scans the entire paper (or scoped subset) for scattered environments that collec
 
 ## Phase 1 — Environment Inventory
 
-**Agent:** multiple `explore` agents (one per chapter/part) | **Model:** proxy/sergeant | **Execution:** parallel foreground (each writes its own output file)
+**Agent:** multiple `explore` agents (one per chapter/part) | **Model:** proxy/warrant-officer (parallel — cloud rank; local ranks queue and time out) | **Execution:** parallel foreground (each writes its own output file)
 
 **Partitioning rule:**
-- Full-document scan (no scope argument) → single `sonnet-general` agent scans the full `src/main/typst/mecfs/` directory. This avoids the coordination overhead of 6 parallel agents and eliminates terminology drift entirely, since one agent reads everything. proxy/warrant-officer is used (not proxy/sergeant) because accurate term extraction from 3,000+ environments across 6 parts requires domain judgment — the sergeant tier's higher error rate would create false negatives/positives that break the merge.
-- Scoped scan (e.g., `ch07 ch14d ch15`) → one `explore` agent (proxy/sergeant) per chapter in the scope. Scoped scans have fewer environments, so the coordination overhead is acceptable and the speed gain from parallelism outweighs the inconsistency risk. Minimum 1, maximum 5 agents.
+- Full-document scan (no scope argument) → single `sonnet-general` agent scans the full `src/main/typst/mecfs/` directory. This avoids the coordination overhead of 6 parallel agents and eliminates terminology drift entirely, since one agent reads everything. proxy/lieutenant (single agent, sequential) is used because accurate term extraction from 3,000+ environments across 6 parts requires domain judgment — the sergeant tier's higher error rate would create false negatives/positives that break the merge.
+- Scoped scan (e.g., `ch07 ch14d ch15`) → one `explore` agent (proxy/warrant-officer) per chapter in the scope. Scoped scans have fewer environments, so the coordination overhead is acceptable and the speed gain from parallelism outweighs the inconsistency risk. Minimum 1, maximum 5 agents.
 - If a single chapter has >200 environments → split that chapter into two agents (first half, second half). The `appendices/` directory is its own agent.
 
 **Shared term vocabulary (MANDATORY — prevents terminology drift across agents).** Every agent must use this exact taxonomy when filling the Mechanism/Tissue/Drug/Process columns. If an environment mentions a term on this list, use the canonical form exactly as written here. If an environment mentions a concept not on this list, add it using the standard biomedical name (not an abbreviation unique to one chapter) and flag it with `[+]` in the output table so the merge step can identify novel terms. For drugs, include the approval status suffix: `†` = FDA/EMA-approved for any indication, `‡` = research-stage only (no regulatory approval for any indication). This prevents syntheses from implying therapeutic readiness for research-stage compounds.
@@ -186,8 +186,8 @@ Build: PASS
 | Phase | Agent | Model | Why this model |
 |-------|-------|-------|----------------|
 | 1 (full doc) | `sonnet-general` | proxy/warrant-officer | Single agent, no coordination overhead, no terminology drift |
-| 1 (scoped) | `explore` × N (parallel) | proxy/sergeant | Per-chapter grep + term extraction — cheap, parallelizable |
-| 1 (merge) | main session | proxy/sergeant | Deduplicate + merge + index + filter — mechanical |
+| 1 (scoped) | `explore` × N (parallel) | proxy/warrant-officer | Per-chapter grep + term extraction — parallelizable; cloud rank keeps true concurrency |
+| 1 (merge) | main session | proxy/lieutenant | Deduplicate + merge + index + filter — mechanical |
 | 2 | `sonnet-general` | proxy/warrant-officer | Judgment-based cluster evaluation |
 | 3 | main session | proxy/lieutenant | Composition + placement judgment |
 | 4 | review-convergence + review-adversarial | proxy/warrant-officer (adversarial personas: proxy/lieutenant) | Same as Phase 11 in integrate-topic |

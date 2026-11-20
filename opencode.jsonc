@@ -20,7 +20,7 @@
   "instructions": [
     "Read AGENTS.md for project context.",
     "Read .opencode/agents/*.md for agent definitions.",
-    "Tiers are rank names on the LiteLLM proxy (proxy/<rank>); the proxy hides which model holds a rank, so agent configs never name a model. Focus of the stack is lieutenant and below. (1) proxy/sergeant = fast executor: mechanical, build-verified, high-volume, faithful instruction following, cheap workers; explicit-only, no auto-fallback. (2) proxy/warrant-officer = workhorse: high-volume agentic work, code generation and fix loops, long-form generation, structural operations (splits, inserts, linkers); parallel workers that spill off a busy lieutenant land here via the proxy cascade. (3) proxy/second-lieutenant = clean-output language tier: style, tone, translation, prose-pattern audits. (4) proxy/lieutenant = the judgment and deep-reasoning tier, and the main-session default: audits (domain, adversarial, formal), medical analysis, model builders, synthesis; a busy lieutenant cascades to second-lieutenant then warrant-officer. (5) Vision tier: the -v sibling ranks are the only vision slots - proxy/warrant-officer-v and proxy/lieutenant-v serve the same models as their text ranks, which are text-only by contract. Agents that read rendered figures, SVGs, PDFs (validators, checkers, illustrators) run on proxy/warrant-officer-v; deep visual rhetoric (diagram-rhetoric-auditor) runs on proxy/lieutenant-v. Higher ranks (major, lieutenant-colonel, unranked paid ids) are reserved for work lieutenant is genuinely not smart enough for - selected explicitly per task, never as an agent default. Do not add provider-specific thinking/reasoning_effort options to rank agents; the proxy owns model behaviour parameters."
+    "Tiers are rank names on the LiteLLM proxy (proxy/<rank>); the proxy hides which model holds a rank, so agent configs never name a model. Focus of the stack is lieutenant and below. Concurrency rule: local ranks are single-slot (Strata serves lieutenant, Unsloth Studio serves sergeant) - a parallel fan-out on a local rank queues and queued requests can time out. Fan out only to cloud ranks. (1) proxy/sergeant = fast executor: mechanical, build-verified, faithful instruction following; SEQUENTIAL ONLY (single-slot Studio), explicit-only, no auto-fallback. (2) proxy/warrant-officer = workhorse AND parallel fan-out tier: review-panel checkers, offload workers, code generation and fix loops, long-form generation, structural operations; free cloud gives true concurrency. (3) proxy/second-lieutenant = clean-output language tier: style, tone, translation, prose-pattern audits. (4) proxy/lieutenant = the judgment and deep-reasoning tier, and the main-session default: audits (domain, adversarial, formal), medical analysis, model builders, synthesis. SEQUENTIAL single-instance work; a subagent concurrent with the main session on the single-slot engine gets a fast 429 and cascades to second-lieutenant/warrant-officer by design. (5) Vision tier: the -v sibling ranks are the only vision slots - proxy/warrant-officer-v and proxy/lieutenant-v serve the same models as their text ranks, which are text-only by contract. Agents that read rendered figures, SVGs, PDFs (validators, checkers, illustrators) run on proxy/warrant-officer-v; deep visual rhetoric (diagram-rhetoric-auditor) runs on proxy/lieutenant-v. Higher ranks (major, lieutenant-colonel, unranked paid ids) are reserved for work lieutenant is genuinely not smart enough for - selected explicitly per task, never as an agent default. Do not add provider-specific thinking/reasoning_effort options to rank agents; the proxy owns model behaviour parameters."
   ],
   "plugin": [
     "../llm-harness-plugins/context-includes/opencode/index.ts",
@@ -155,7 +155,7 @@
     "definition-use-checker": {
       "description": "Verify every formal term is defined before first use (definitions, axioms, notation appear before prose/proof/example references).",
       "mode": "subagent",
-      "model": "proxy/sergeant",
+      "model": "proxy/warrant-officer",
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/definition-use-checker.md}"
     },
     "devil-advocate-auditor": {
@@ -219,7 +219,7 @@
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/falsificationist-auditor.md}"
     },
     "figure-caption-auditor": {
-      "model": "proxy/sergeant"
+      "model": "proxy/warrant-officer"
     },
     "file-splitter": {
       "model": "proxy/warrant-officer"
@@ -267,7 +267,7 @@
       "model": "proxy/lieutenant"
     },
     "index-auditor": {
-      "model": "proxy/lieutenant"
+      "model": "proxy/warrant-officer"
     },
     "industry-architect-auditor": {
       "description": "Adversarial auditor adopting the persona of a senior software architect with 15+ years of production experience — catches theory that never lands practically, missing decision procedures, and gaps between formal results and actionable guidance. Format-agnostic (Typst or LaTeX).",
@@ -290,7 +290,7 @@
     "latex-figure-caption-auditor": {
       "description": "Audit LaTeX figure/table captions — must state a claim, be standalone-readable, have labels, and be referenced in text.",
       "mode": "subagent",
-      "model": "proxy/sergeant",
+      "model": "proxy/warrant-officer",
       "prompt": "{file:../llm-harness-plugins/latex-toolkit/agents/latex-figure-caption-auditor.md}"
     },
     "latex-formatting-fixer": {
@@ -302,7 +302,7 @@
     "latex-index-auditor": {
       "description": "Audit \\index coverage — verify key terms, theorems, definitions, and named concepts are indexed, and index entries are consistent.",
       "mode": "subagent",
-      "model": "proxy/sergeant",
+      "model": "proxy/warrant-officer",
       "prompt": "{file:../llm-harness-plugins/latex-toolkit/agents/latex-index-auditor.md}"
     },
     "latex-notation-consistency-checker": {
@@ -314,7 +314,7 @@
     "latex-production-readiness-checker": {
       "description": "Scan LaTeX files for TODO markers, placeholders, debug artifacts, draft mode, and production issues.",
       "mode": "subagent",
-      "model": "proxy/sergeant",
+      "model": "proxy/warrant-officer",
       "prompt": "{file:../llm-harness-plugins/latex-toolkit/agents/latex-production-readiness-checker.md}"
     },
     "latex-syntax-fixer": {
@@ -326,7 +326,7 @@
     "latex-xref-checker": {
       "description": "Verify all LaTeX cross-references (\\ref, \\cref, \\pageref, \\autoref, \\nameref, \\eqref) resolve within and across files.",
       "mode": "subagent",
-      "model": "proxy/sergeant",
+      "model": "proxy/warrant-officer",
       "prompt": "{file:../llm-harness-plugins/latex-toolkit/agents/latex-xref-checker.md}"
     },
     "link-checker": {
@@ -414,7 +414,7 @@
       "model": "proxy/lieutenant"
     },
     "production-readiness-checker": {
-      "model": "proxy/sergeant"
+      "model": "proxy/warrant-officer"
     },
     "proof-soundness-auditor": {
       "description": "Deep adversarial review of formal proofs for logical soundness, hidden assumptions, gap detection, and circularity.",
@@ -591,7 +591,7 @@
       "prompt": "{file:../llm-harness-plugins/typst-toolkit/agents/typst-diagram-checker.md}"
     },
     "typst-figure-caption-auditor": {
-      "model": "proxy/sergeant"
+      "model": "proxy/warrant-officer"
     },
     "typst-file-splitter": {
       "model": "proxy/warrant-officer"
@@ -611,7 +611,7 @@
     "typst-production-readiness-checker": {
       "description": "Scan Typst files for TODO markers, placeholders, debug artifacts, LaTeX remnants, and production issues.",
       "mode": "subagent",
-      "model": "proxy/sergeant",
+      "model": "proxy/warrant-officer",
       "prompt": "{file:../llm-harness-plugins/typst-toolkit/agents/typst-production-readiness-checker.md}"
     },
     "typst-proof-validator": {
@@ -635,7 +635,7 @@
     "typst-xref-checker": {
       "description": "Verify all Typst cross-references (@label) resolve correctly. Use when checking label integrity or after renaming/moving labeled elements.",
       "mode": "subagent",
-      "model": "proxy/sergeant",
+      "model": "proxy/warrant-officer",
       "prompt": "{file:../llm-harness-plugins/typst-toolkit/agents/typst-xref-checker.md}"
     },
     "uncertainty-analyst": {
@@ -656,13 +656,13 @@
     "xref-checker": {
       "description": "Audit internal cross-references — verify labels resolve, detect broken refs, orphans, duplicates. Adapts to project citation format (LaTeX, Typst, Markdown, reST, AsciiDoc).",
       "mode": "subagent",
-      "model": "proxy/sergeant",
+      "model": "proxy/warrant-officer",
       "prompt": "{file:../llm-harness-plugins/general-skills/agents/xref-checker.md}"
     },
     "bulk-reader": {
       "description": "Bulk file reader for premium-read-offload. Reads a corpus of files and answers a focused question with cited structured bullets. Used as the cheap worker for offloaded reads.",
       "mode": "subagent",
-      "model": "proxy/sergeant",
+      "model": "proxy/warrant-officer",
       "permission": {
         "read": "allow",
         "edit": "deny",
@@ -675,7 +675,7 @@
     "code-writer": {
       "description": "Boilerplate code generator for premium-read-offload. Generates code matching a reference file's patterns. Used as the cheap worker for offloaded generation.",
       "mode": "subagent",
-      "model": "proxy/sergeant",
+      "model": "proxy/warrant-officer",
       "permission": {
         "read": "allow",
         "edit": "deny",
