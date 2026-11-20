@@ -2,7 +2,7 @@
 name: comorbidity-auditor
 mode: subagent
 description: Audit comorbidity and differential diagnosis content for overlap condition delineation (hEDS, MCAS, POTS, fibro, Long COVID), shared vs distinct mechanisms, and exclusion criteria adherence. Use when reviewing ch04, ch14d, or cross-disease content. Works with Typst (.typ) files.
-model: proxy/warrant-officer
+model: proxy/lieutenant
 ---
 
 # Comorbidity & Differential Diagnosis Auditor

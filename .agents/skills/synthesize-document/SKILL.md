@@ -102,7 +102,7 @@ Read the Phase 1 master output file (`tmp/synthesis-inventory-master-<date>.md`)
 
 ## Phase 3 — Synthesis Writing
 
-**Agent:** main session | **Model:** proxy/warrant-officer
+**Agent:** main session | **Model:** proxy/lieutenant
 
 Composition requires judgment about where to place syntheses (which chapter, before which section heading), how to frame convergent arguments for different audiences, and how to balance certainty with caveats. proxy/warrant-officer is sufficient for this — no max-effort reasoning needed since the evidence has already been evaluated by Phase 2.
 
@@ -189,6 +189,6 @@ Build: PASS
 | 1 (scoped) | `explore` × N (parallel) | proxy/sergeant | Per-chapter grep + term extraction — cheap, parallelizable |
 | 1 (merge) | main session | proxy/sergeant | Deduplicate + merge + index + filter — mechanical |
 | 2 | `sonnet-general` | proxy/warrant-officer | Judgment-based cluster evaluation |
-| 3 | main session | proxy/warrant-officer | Composition + placement judgment |
+| 3 | main session | proxy/lieutenant | Composition + placement judgment |
 | 4 | review-convergence + review-adversarial | proxy/warrant-officer (adversarial personas: proxy/lieutenant) | Same as Phase 11 in integrate-topic |
 | 5 | main session | proxy/sergeant | Mechanical git operations |

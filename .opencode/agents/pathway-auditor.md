@@ -2,7 +2,7 @@
 name: pathway-auditor
 mode: subagent
 description: Audit biological pathway descriptions for accuracy - missing intermediaries, deprecated nomenclature, gene/protein conflation, and unsupported directionality claims. Use when reviewing Part II pathophysiology content. Works with Typst (.typ) files.
-model: proxy/warrant-officer
+model: proxy/lieutenant
 ---
 
 # Biological Pathway Auditor

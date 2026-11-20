@@ -1471,7 +1471,7 @@ The Nix derivation uses `git ls-files` to enumerate source files. Untracked `.ty
 
 ## Phase 10 — Cross-Chapter Coherence Review
 
-**Agent:** main session | **Model:** proxy/warrant-officer (inline execution — no agent delegation. See Agent Registry for rationale on why no `cross-section-coherence-auditor` agent exists.)
+**Agent:** main session | **Model:** proxy/lieutenant (inline execution — no agent delegation. See Agent Registry for rationale on why no `cross-section-coherence-auditor` agent exists.)
 
 **Purpose:** Phases 5 and 6 modify content across multiple chapters. This phase verifies the cross-chapter narrative is still coherent after scattered modifications.
 
@@ -1850,7 +1850,7 @@ If `nix build` fails on a key that a parallel stream's rebase/reset may have dro
 | 7 | main session (inline) | current | Compatibility audit + reinforcement chains + adjustments — all three steps |
 | 8 | main session | current | Build verification + pre-build staging. Intermediate checks at Phases 3 and 5 |
 | 9 | main session | current | Quality metrics — actionable before review convergence |
-| 10 | main session (inline) | proxy/warrant-officer | Cross-chapter consistency audit — no separate agent; execute directly |
+| 10 | main session (inline) | proxy/lieutenant | Cross-chapter consistency audit — no separate agent; execute directly |
 | 10a | main session | current | High-level synthesis → `#synthesis` environment condensing scattered environments into convergent model |
 | 11a | `review-convergence` (skill) | proxy/warrant-officer | Consistency/logic checking |
 | 11b | `review-adversarial` (skill) | proxy/lieutenant | Adversarial personas need deep reasoning |

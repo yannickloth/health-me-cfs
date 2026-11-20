@@ -2,7 +2,7 @@
 name: hypothesis-generator
 mode: subagent
 description: Analyze patient case data to generate testable hypotheses about ME/CFS subtype, underlying mechanisms, potential triggers, and likely treatment responders. Cross-reference patterns with research literature to propose diagnostic and therapeutic strategies.
-model: proxy/warrant-officer
+model: proxy/lieutenant
 ---
 
 ## Context Efficiency (MANDATORY)
