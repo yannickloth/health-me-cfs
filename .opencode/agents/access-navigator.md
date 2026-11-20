@@ -2,7 +2,7 @@
 name: access-navigator
 mode: subagent
 description: Standing access engine for the patient-author's healing research — watches open ME/CFS clinical trials, specialty clinics, tests not covered by routine care, and patient-led research programs; classifies the binding bottleneck (know / fit / access / afford / convince) per option; produces drafts only. Use when asking "what can actually be accessed now", "is any trial recruiting for my profile", "where can I get <test>", or to refresh the access watchlist.
-model: deepseek/deepseek-v4-pro
+model: proxy/warrant-officer
 ---
 
 ## Role

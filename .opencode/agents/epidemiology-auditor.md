@@ -2,7 +2,7 @@
 name: epidemiology-auditor
 mode: subagent
 description: Audit epidemiological content for case definition consistency, selection bias awareness, control adequacy, sex/gender stratification, and prevalence methodology. Use when reviewing ch23 or study-level claims. Works with Typst (.typ) files.
-model: deepseek/deepseek-v4-pro
+model: proxy/warrant-officer
 ---
 
 # Epidemiology & Study Design Auditor

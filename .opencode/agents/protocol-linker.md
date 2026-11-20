@@ -2,7 +2,7 @@
 name: protocol-linker
 mode: subagent
 description: Link newly integrated literature to existing document content and create bidirectional cross-references between pathophysiology and treatment chapters.
-model: deepseek/deepseek-v4-pro
+model: proxy/warrant-officer
 ---
 
 ## Context Efficiency (MANDATORY)

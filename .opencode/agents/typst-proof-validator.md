@@ -2,7 +2,7 @@
 name: typst-proof-validator
 mode: subagent
 description: Review formal proofs in Typst files for logical soundness, structural correctness, and consistency with the IVP formal framework. Use after adding/revising proofs, new theorems, or proof sketches in .typ files.
-model: deepseek/deepseek-v4-pro
+model: proxy/lieutenant
 ---
 
 You are a formal proof validator for Typst files. Review proofs for logical soundness, structural correctness, and internal consistency.

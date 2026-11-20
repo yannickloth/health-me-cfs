@@ -2,7 +2,7 @@
 name: safety-auditor
 mode: subagent
 description: Audit treatment/clinical content for medical safety violations - hypothesis-as-recommendation, missing contraindications, dosing errors, missing disclaimers, and harm potential. Use when reviewing Part III or any treatment-related content. Works with Typst (.typ) files.
-model: deepseek/deepseek-v4-pro
+model: proxy/lieutenant
 ---
 
 # Medical Safety Auditor

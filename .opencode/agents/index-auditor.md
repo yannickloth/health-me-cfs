@@ -2,7 +2,7 @@
 name: index-auditor
 mode: subagent
 description: Audit `\index` coverage — verify all key terms, theorems, definitions, and named concepts are indexed, and that index entries are consistent.
-model: deepseek/deepseek-v4-pro
+model: proxy/warrant-officer
 ---
 
 # index-auditor Agent

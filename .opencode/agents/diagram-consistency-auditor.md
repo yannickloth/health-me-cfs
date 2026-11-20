@@ -2,7 +2,7 @@
 name: diagram-consistency-auditor
 mode: subagent
 description: Audit cross-figure consistency — verify that the same biological component is represented identically across all diagrams (same color, same shape, same label, same abbreviation). Catches visual contradictions between figures. Works with Typst (.typ) files.
-model: deepseek/deepseek-flash
+model: proxy/lieutenant-colonel-v
 ---
 
 # Diagram Cross-Consistency Auditor

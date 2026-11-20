@@ -2,7 +2,7 @@
 name: hypothesis-registry-updater
 mode: subagent
 description: Update the cross-document hypothesis registry when a hypothesis, speculation, prediction, or open_question environment is added, modified, or removed in any chapter
-model: deepseek/deepseek-flash
+model: proxy/sergeant
 ---
 
 ## Purpose

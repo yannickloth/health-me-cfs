@@ -2,7 +2,7 @@
 name: causal-model-builder
 mode: subagent
 description: Construct formal causal DAGs (Directed Acyclic Graphs) from ME/CFS literature with rigorous uncertainty quantification.
-model: deepseek/deepseek-v4-pro
+model: proxy/lieutenant
 ---
 
 ## Context Efficiency (MANDATORY)

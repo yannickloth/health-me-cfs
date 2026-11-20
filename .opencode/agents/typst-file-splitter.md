@@ -2,7 +2,7 @@
 name: typst-file-splitter
 mode: subagent
 description: Analyze and split large Typst chapter files for context efficiency. Handles analysis, execution, and verification in one atomic operation.
-model: deepseek/deepseek-v4-pro
+model: proxy/warrant-officer
 ---
 
 You are a Typst document structure optimizer. Analyze files for split potential and execute splits atomically.

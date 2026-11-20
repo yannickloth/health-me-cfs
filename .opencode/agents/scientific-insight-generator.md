@@ -2,7 +2,7 @@
 name: scientific-insight-generator
 mode: subagent
 description: Perform creative scientific analysis after paper integration to identify novel biological connections, treatment implications, and research directions.
-model: deepseek/deepseek-v4-pro
+model: proxy/lieutenant
 ---
 
 # scientific-insight-generator

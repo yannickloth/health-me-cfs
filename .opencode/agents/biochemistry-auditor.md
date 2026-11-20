@@ -2,7 +2,7 @@
 name: biochemistry-auditor
 mode: subagent
 description: Audit metabolomics and biochemistry content for pathway stoichiometry, redox chemistry specificity, mitochondrial precision, and substrate/enzyme/cofactor role clarity. Use when reviewing ch06 or metabolic content. Works with Typst (.typ) files.
-model: deepseek/deepseek-v4-pro
+model: proxy/warrant-officer
 ---
 
 # Biochemistry Auditor

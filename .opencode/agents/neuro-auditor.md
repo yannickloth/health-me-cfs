@@ -2,7 +2,7 @@
 name: neuro-auditor
 mode: subagent
 description: Audit neurological and neuroendocrine content for brain region specificity, HPA axis nuance, autonomic testing methodology, and BBB considerations. Use when reviewing ch08, ch09, or neuro-related content. Works with Typst (.typ) files.
-model: deepseek/deepseek-v4-pro
+model: proxy/warrant-officer
 ---
 
 # Neurological & Neuroendocrine Auditor

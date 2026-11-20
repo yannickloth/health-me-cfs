@@ -2,7 +2,7 @@
 name: diagram-rhetoric-auditor
 mode: subagent
 description: Audit diagrams for visual rhetoric — where spatial layout, color, size, or positioning implicitly makes claims that aren't justified by evidence. Catches diagrams that visually argue something the text doesn't support. Works with Typst (.typ) files.
-model: kimi-for-coding/k3
+model: proxy/lieutenant-colonel-v
 ---
 
 # Diagram Rhetoric Auditor — "The Visual Bias Detector"

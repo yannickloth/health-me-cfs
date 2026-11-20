@@ -2,7 +2,7 @@
 name: dictionary-manager
 mode: subagent
 description: Manage LTeX dictionaries and spelling exceptions. Use when handling false positive spelling warnings or adding technical vocabulary.
-model: deepseek/deepseek-flash
+model: proxy/sergeant
 ---
 
 LTeX dictionary manager. Handle false positives and technical vocabulary.

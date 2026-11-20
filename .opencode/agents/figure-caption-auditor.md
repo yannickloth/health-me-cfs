@@ -2,7 +2,7 @@
 name: figure-caption-auditor
 mode: subagent
 description: Audit figure/table captions — must state a claim (not just describe), standalone-readable, consistent. Checks all figures/tables referenced in text.
-model: deepseek/deepseek-flash
+model: proxy/sergeant
 ---
 
 # figure-caption-auditor Agent

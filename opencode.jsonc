@@ -1,7 +1,7 @@
 {
   "$schema": "https://opencode.ai/config.json",
-  "model": "hetzner/Qwen/Qwen3.6-35B-A3B-FP8",
-  "small_model": "deepseek/deepseek-flash",
+  "model": "proxy/warrant-officer",
+  "small_model": "proxy/sergeant",
   "mcp": {
     "biomcp": {
       "type": "local",
@@ -20,7 +20,7 @@
   "instructions": [
     "Read AGENTS.md for project context.",
     "Read .opencode/agents/*.md for agent definitions.",
-    "Tiers: (1) deepseek-flash thinking-disabled = mechanical, build-verified, high-volume; flash kept for speed, thinking explicitly OFF because DS4 API defaults thinking ON. (2) deepseek-v4-pro thinking-enabled = judgment tier; effort=high for default judgment work, effort=max for deep-reasoning auditors/builders formerly on k3 (DS4-pro cheap; DS4 supports only high/max; opencode auto-elevates complex agent calls to max). (3) kimi-for-coding/k2p7 (K2.7 Code, 256K ctx) = code-generation agents where DS4 code mistakes cause rework loops. (4) kimi-for-coding/kimi-for-coding-highspeed = latency-sensitive code fix loops. (5) kimi-for-coding/k3 = reserved ONLY for vision-critical agents that must Read rendered figures/PDFs and judge deep visual rhetoric (diagram-rhetoric-auditor). NO text-only review agent may use Kimi k3. VISION: DS4 models are text-only — any agent that Reads rendered figures/PDFs (diagram layout, accuracy, consistency, spacing checks) MUST use a Kimi model (k2p7 default; k3 for deep visual-rhetoric)."
+    "Tiers are rank names on the LiteLLM proxy (proxy/<rank>); the proxy hides which model holds a rank, so agent configs never name a model. (1) proxy/sergeant = fast executor: mechanical, build-verified, high-volume, faithful instruction following, cheap workers; explicit-only, no auto-fallback. (2) proxy/warrant-officer = workhorse: agentic judgment, code generation and fix loops, long-form generation, domain audits; the default delegation tier and main-session model. (3) proxy/second-lieutenant = clean-output language tier: style, tone, translation, prose-pattern audits. (4) proxy/lieutenant = deep reasoning: formal proofs, math verification, adversarial persona auditors, model builders, high-stakes medical analysis; proxy cascades a failed lieutenant to second-lieutenant then warrant-officer. (5) proxy/lieutenant-colonel-v = vision tier: agents that read rendered figures, SVGs, PDFs (explicit, paid). The standing four ranks are text-only, so opencode only sends images to vision-capable ranks. Do not add provider-specific thinking/reasoning_effort options to rank agents; the proxy owns model behaviour parameters."
   ],
   "plugin": [
     "../llm-harness-plugins/context-includes/opencode/index.ts",
@@ -53,751 +53,323 @@
     "backward-reader-auditor": {
       "description": "Adversarial auditor that reads from conclusions/theorems backward to premises — catches results that depend on unstated lemmas, hand-waved steps, or support chains with missing links. Format-agnostic (Typst or LaTeX).",
       "mode": "subagent",
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      },
+      "model": "proxy/lieutenant",
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/backward-reader-auditor.md}"
     },
     "benefit-navigator": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      }
+      "model": "proxy/warrant-officer"
     },
     "bibliography-auditor": {
       "description": "Audit bibliography files and citation usage for duplicates, missing fields, broken citations, uncited entries, and retracted papers.",
       "mode": "subagent",
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      },
+      "model": "proxy/warrant-officer",
       "prompt": "{file:../llm-harness-plugins/general-skills/agents/bibliography-auditor.md}"
     },
     "biochemistry-auditor": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      }
+      "model": "proxy/warrant-officer"
     },
     "biomarker-auditor": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      }
+      "model": "proxy/warrant-officer"
     },
     "caregiver-coordinator": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      }
+      "model": "proxy/warrant-officer"
     },
     "case-documenter": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      }
+      "model": "proxy/warrant-officer"
     },
     "causal-model-builder": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "max"
-      }
+      "model": "proxy/lieutenant"
     },
     "changelog-generator": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      }
+      "model": "proxy/warrant-officer"
     },
     "chapter-inserter": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      }
+      "model": "proxy/warrant-officer"
     },
     "ci-build-fixer": {
-      "model": "deepseek/deepseek-flash",
-      "options": {
-        "thinking": {
-          "type": "disabled"
-        }
-      }
+      "model": "proxy/warrant-officer"
     },
     "citation-fidelity-auditor": {
       "description": "Verify that cited sources actually support the claims they back — catches misrepresented sources, cherry-picked quotations, and scope mismatches.",
       "mode": "subagent",
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      },
+      "model": "proxy/warrant-officer",
       "prompt": "{file:../llm-harness-plugins/general-skills/agents/citation-fidelity-auditor.md}"
     },
     "claim-substance-auditor": {
       "description": "Audit formal claims (theorems, corollaries, propositions) for substantive content — catches tautologies, circular conclusions, vacuous preconditions, and claims that merely restate definitions or axioms without adding insight. Format-agnostic (Typst or LaTeX).",
       "mode": "subagent",
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      },
+      "model": "proxy/lieutenant",
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/claim-substance-auditor.md}"
     },
     "clinician-auditor": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      }
+      "model": "proxy/warrant-officer"
     },
     "commit-writer": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      }
+      "model": "proxy/warrant-officer"
     },
     "common-error-claim-auditor": {
       "description": "Detects prose claims about errors/interpretations/consequences that \"people/practitioners often do/see,\" and practice-grounding claims (\"In practice...\", \"Usually...\", \"Experience shows...\") that assert accumulated experience as evidence. New or novel concepts require no such history and such claims are suspect; preexisting concepts require citations or careful hedging. Format-agnostic (Typst or LaTeX).",
       "mode": "subagent",
-      "model": "deepseek/deepseek-flash",
-      "options": {
-        "thinking": {
-          "type": "disabled"
-        }
-      },
+      "model": "proxy/sergeant",
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/common-error-claim-auditor.md}"
     },
     "comorbidity-auditor": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      }
+      "model": "proxy/warrant-officer"
     },
     "config-auditor": {
       "description": "Audit AI coding agent configuration stacks for conflicts, inconsistencies, or undefined references across config files, agents, and workflows.",
       "mode": "subagent",
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      },
+      "model": "proxy/warrant-officer",
       "prompt": "{file:../llm-harness-plugins/general-skills/agents/config-auditor.md}"
     },
     "config-optimizer": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      }
+      "model": "proxy/warrant-officer"
     },
     "content-reviewer": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      }
+      "model": "proxy/warrant-officer"
     },
     "content-splitter": {
       "description": "Split a monolithic Typst file into the canonical content hierarchy (part/chapter/section/subsection + typed subdirs per environment). Reads the global content-structure-convention.md. Iso-functional operation — all post-conditions must hold after split. Use when a chapter or section file contains prose and environment instances that should be extracted into typed subdirectory files.",
       "mode": "subagent",
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      },
+      "model": "proxy/warrant-officer",
       "prompt": "{file:../llm-harness-plugins/typst-toolkit/agents/content-splitter.md}"
     },
     "crisis-manager": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      }
+      "model": "proxy/lieutenant"
     },
     "cynic-auditor": {
       "description": "Adversarial reviewer who assumes the worst about every claim — looks for motivated reasoning, cherry-picking, confirmation bias, and arguments that are technically true but misleading. The hostile reviewer who thinks a document is advocacy disguised as science. Format-agnostic (Typst or LaTeX).",
       "mode": "subagent",
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "max"
-      },
+      "model": "proxy/lieutenant",
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/cynic-auditor.md}"
     },
     "data-validator": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      }
+      "model": "proxy/warrant-officer"
     },
     "definition-auditor": {
       "description": "Audit formal definitions for rigor, circularity, undefined terms, ambiguity, and rootedness in the theory's primitives. Ensures definitions form a well-founded hierarchy traceable to the axiomatic foundation.",
       "mode": "subagent",
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      },
+      "model": "proxy/lieutenant",
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/definition-auditor.md}"
     },
     "definition-use-checker": {
       "description": "Verify every formal term is defined before first use (definitions, axioms, notation appear before prose/proof/example references).",
       "mode": "subagent",
-      "model": "deepseek/deepseek-flash",
-      "options": {
-        "thinking": {
-          "type": "disabled"
-        }
-      },
+      "model": "proxy/sergeant",
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/definition-use-checker.md}"
     },
     "devil-advocate-auditor": {
       "description": "Adversarial reviewer who systematically constructs the strongest possible counter-argument to every major claim — not to disprove the work, but to identify which claims can withstand the strongest opposition and which cannot. The reviewer who asks \"what's the best argument AGAINST this?\" Format-agnostic (Typst or LaTeX).",
       "mode": "subagent",
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "max"
-      },
+      "model": "proxy/lieutenant",
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/devil-advocate-auditor.md}"
     },
     "diagram-accuracy-auditor": {
-      "model": "deepseek/deepseek-flash",
-      "options": {
-        "thinking": {
-          "type": "disabled"
-        }
-      }
+      "model": "proxy/lieutenant-colonel-v"
     },
     "diagram-consistency-auditor": {
-      "model": "deepseek/deepseek-flash",
-      "options": {
-        "thinking": {
-          "type": "disabled"
-        }
-      }
+      "model": "proxy/lieutenant-colonel-v"
     },
     "diagram-rhetoric-auditor": {
-      "model": "kimi-for-coding/k3",
-      "options": {
-        "reasoning_effort": "max"
-      }
+      "model": "proxy/lieutenant-colonel-v"
     },
     "dictionary-manager": {
-      "model": "deepseek/deepseek-flash",
-      "options": {
-        "thinking": {
-          "type": "disabled"
-        }
-      }
+      "model": "proxy/sergeant"
     },
     "document-health-monitor": {
       "description": "Generate structural health metrics for a document — section lengths, citation density, empty-section detection, placeholder identification. Use when checking document balance, finding stub sections, or assessing how complete a document skeleton is. Format-agnostic (Typst or LaTeX).",
       "mode": "subagent",
-      "model": "deepseek/deepseek-flash",
-      "options": {
-        "thinking": {
-          "type": "disabled"
-        }
-      },
+      "model": "proxy/sergeant",
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/document-health-monitor.md}"
     },
     "driver-assignment-auditor": {
       "description": "Adversarially audit a change-driver registry and its element→driver assignments for IVP soundness — proxy grounding, missed drivers, conflation, admissibility violations, unanchored drivers. Read-only; reports findings only.",
       "mode": "subagent",
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      },
+      "model": "proxy/warrant-officer",
       "prompt": "{file:../llm-harness-plugins/ivp/agents/driver-assignment-auditor.md}"
     },
     "driver-identifier": {
       "description": "Review all code elements in scope, identify their change drivers, and write the change-driver registry into the codebase's native doc convention (Javadoc/docblock). Read-mostly; edits only the driver registry.",
       "mode": "subagent",
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      },
+      "model": "proxy/warrant-officer",
       "prompt": "{file:../llm-harness-plugins/ivp/agents/driver-identifier.md}"
     },
     "english-prose-pattern-auditor": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      }
+      "model": "proxy/second-lieutenant"
     },
     "epc-model-builder": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      }
+      "model": "proxy/lieutenant"
     },
     "epidemiology-auditor": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      }
+      "model": "proxy/warrant-officer"
     },
     "evidence-mapper": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      }
+      "model": "proxy/warrant-officer"
     },
     "falsifiability-auditor": {
       "description": "Audit hypothesis/speculation environments for falsifiable predictions, claim-registry consistency, competing hypotheses, and overclaiming language. Use when checking the intellectual rigor of scientific claims. Format-agnostic (Typst or LaTeX).",
       "mode": "subagent",
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      },
+      "model": "proxy/lieutenant",
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/falsifiability-auditor.md}"
     },
     "falsificationist-auditor": {
       "description": "Adversarial auditor adopting the Popperian philosophy of science — checks whether a theory states its falsifiability conditions, whether its claims are testable, and whether the theory could in principle be shown wrong. Format-agnostic (Typst or LaTeX).",
       "mode": "subagent",
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      },
+      "model": "proxy/lieutenant",
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/falsificationist-auditor.md}"
     },
     "figure-caption-auditor": {
-      "model": "deepseek/deepseek-flash",
-      "options": {
-        "thinking": {
-          "type": "disabled"
-        }
-      }
+      "model": "proxy/sergeant"
     },
     "file-splitter": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      }
+      "model": "proxy/warrant-officer"
     },
     "formalization-advisor": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      }
+      "model": "proxy/lieutenant"
     },
     "formatting-fixer": {
-      "model": "deepseek/deepseek-flash",
-      "options": {
-        "thinking": {
-          "type": "disabled"
-        }
-      }
+      "model": "proxy/sergeant"
     },
     "functional-paradigm-auditor": {
       "description": "Adversarial auditor adopting the persona of a functional programming practitioner — catches implicit OOP assumptions, paradigm-specific examples presented as universal, and gaps in a document's applicability to non-OO paradigms. Format-agnostic (Typst or LaTeX).",
       "mode": "subagent",
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      },
+      "model": "proxy/warrant-officer",
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/functional-paradigm-auditor.md}"
     },
     "gamma-modularizer": {
       "description": "Sort code elements into modules by gamma-equivalence — group elements with identical change-driver sets into the same module, split elements with different driver sets apart. Edits module boundaries, not driver assignments.",
       "mode": "subagent",
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      },
+      "model": "proxy/warrant-officer",
       "prompt": "{file:../llm-harness-plugins/ivp/agents/gamma-modularizer.md}"
     },
     "git-historian": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      }
+      "model": "proxy/warrant-officer"
     },
     "haiku-general": {
       "description": "Fast, cost-effective agent for mechanical tasks with no specialized agent available. Use when task requires speed over reasoning and involves no judgment calls or significant consequences. Explicit file paths required for modifications.",
       "mode": "subagent",
-      "model": "deepseek/deepseek-flash",
-      "options": {
-        "thinking": {
-          "type": "disabled"
-        }
-      },
+      "model": "proxy/sergeant",
       "prompt": "{file:../llm-harness-plugins/tier-router/agents/haiku-general.md}"
     },
     "hypothesis-compatibility-auditor": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "max"
-      }
+      "model": "proxy/lieutenant"
     },
     "hypothesis-generator": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      }
+      "model": "proxy/warrant-officer"
     },
     "hypothesis-registry-updater": {
-      "model": "deepseek/deepseek-flash",
-      "options": {
-        "thinking": {
-          "type": "disabled"
-        }
-      }
+      "model": "proxy/sergeant"
     },
     "hypothesis-reinforcement-builder": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "max"
-      }
+      "model": "proxy/lieutenant"
     },
     "immunology-auditor": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      }
+      "model": "proxy/warrant-officer"
     },
     "index-auditor": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      }
+      "model": "proxy/warrant-officer"
     },
     "industry-architect-auditor": {
       "description": "Adversarial auditor adopting the persona of a senior software architect with 15+ years of production experience — catches theory that never lands practically, missing decision procedures, and gaps between formal results and actionable guidance. Format-agnostic (Typst or LaTeX).",
       "mode": "subagent",
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      },
+      "model": "proxy/warrant-officer",
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/industry-architect-auditor.md}"
     },
     "ivp-refactor-auditor": {
       "description": "Verify a post-modularization codebase against the four IVP conditions — Separation, Unification, Admissibility, Element Form — and nesting soundness. Read-only; reports violations only.",
       "mode": "subagent",
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      },
+      "model": "proxy/warrant-officer",
       "prompt": "{file:../llm-harness-plugins/ivp/agents/ivp-refactor-auditor.md}"
     },
     "latex-citation-checker": {
       "description": "Verify all LaTeX citations are valid, find undefined citations, check bibliography consistency.",
       "mode": "subagent",
-      "model": "deepseek/deepseek-flash",
-      "options": {
-        "thinking": {
-          "type": "disabled"
-        }
-      },
+      "model": "proxy/sergeant",
       "prompt": "{file:../llm-harness-plugins/latex-toolkit/agents/latex-citation-checker.md}"
     },
     "latex-figure-caption-auditor": {
       "description": "Audit LaTeX figure/table captions — must state a claim, be standalone-readable, have labels, and be referenced in text.",
       "mode": "subagent",
-      "model": "deepseek/deepseek-flash",
-      "options": {
-        "thinking": {
-          "type": "disabled"
-        }
-      },
+      "model": "proxy/sergeant",
       "prompt": "{file:../llm-harness-plugins/latex-toolkit/agents/latex-figure-caption-auditor.md}"
     },
     "latex-formatting-fixer": {
       "description": "Convert Markdown formatting to LaTeX and normalize formatting conventions.",
       "mode": "subagent",
-      "model": "deepseek/deepseek-flash",
-      "options": {
-        "thinking": {
-          "type": "disabled"
-        }
-      },
+      "model": "proxy/sergeant",
       "prompt": "{file:../llm-harness-plugins/latex-toolkit/agents/latex-formatting-fixer.md}"
     },
     "latex-index-auditor": {
       "description": "Audit \\index coverage — verify key terms, theorems, definitions, and named concepts are indexed, and index entries are consistent.",
       "mode": "subagent",
-      "model": "deepseek/deepseek-flash",
-      "options": {
-        "thinking": {
-          "type": "disabled"
-        }
-      },
+      "model": "proxy/sergeant",
       "prompt": "{file:../llm-harness-plugins/latex-toolkit/agents/latex-index-auditor.md}"
     },
     "latex-notation-consistency-checker": {
       "description": "Audit LaTeX source files for notation consistency against a notation reconciliation document. Catch symbol drift across files.",
       "mode": "subagent",
-      "model": "deepseek/deepseek-flash",
-      "options": {
-        "thinking": {
-          "type": "disabled"
-        }
-      },
+      "model": "proxy/sergeant",
       "prompt": "{file:../llm-harness-plugins/latex-toolkit/agents/latex-notation-consistency-checker.md}"
     },
     "latex-production-readiness-checker": {
       "description": "Scan LaTeX files for TODO markers, placeholders, debug artifacts, draft mode, and production issues.",
       "mode": "subagent",
-      "model": "deepseek/deepseek-flash",
-      "options": {
-        "thinking": {
-          "type": "disabled"
-        }
-      },
+      "model": "proxy/sergeant",
       "prompt": "{file:../llm-harness-plugins/latex-toolkit/agents/latex-production-readiness-checker.md}"
     },
     "latex-syntax-fixer": {
       "description": "Fix LaTeX compilation errors and warnings. Use when LaTeX build fails.",
       "mode": "subagent",
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      },
+      "model": "proxy/warrant-officer",
       "prompt": "{file:../llm-harness-plugins/latex-toolkit/agents/latex-syntax-fixer.md}"
     },
     "latex-xref-checker": {
       "description": "Verify all LaTeX cross-references (\\ref, \\cref, \\pageref, \\autoref, \\nameref, \\eqref) resolve within and across files.",
       "mode": "subagent",
-      "model": "deepseek/deepseek-flash",
-      "options": {
-        "thinking": {
-          "type": "disabled"
-        }
-      },
+      "model": "proxy/sergeant",
       "prompt": "{file:../llm-harness-plugins/latex-toolkit/agents/latex-xref-checker.md}"
     },
     "link-checker": {
-      "model": "deepseek/deepseek-flash",
-      "options": {
-        "thinking": {
-          "type": "disabled"
-        }
-      }
+      "model": "proxy/sergeant"
     },
     "literature-integrator": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      }
+      "model": "proxy/warrant-officer"
     },
     "logic-auditor": {
       "description": "Audit document for circular reasoning, completeness gaps, hidden assumptions, forward references, and ambiguous statements.",
       "mode": "subagent",
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "max"
-      },
+      "model": "proxy/lieutenant",
       "prompt": "{file:../llm-harness-plugins/general-skills/agents/logic-auditor.md}"
     },
     "math-verifier": {
       "description": "Verify mathematical proofs, derivations, and calculations — step-by-step correctness, hidden assumptions, logical structure.",
       "mode": "subagent",
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "max"
-      },
+      "model": "proxy/lieutenant",
       "prompt": "{file:../llm-harness-plugins/general-skills/agents/math-verifier.md}"
     },
     "medical-advisor": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      }
+      "model": "proxy/lieutenant"
     },
     "medication-differential-analyst": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "max"
-      }
+      "model": "proxy/lieutenant"
     },
     "meta-analysis-coordinator": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      }
+      "model": "proxy/warrant-officer"
     },
     "microbiome-auditor": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      }
+      "model": "proxy/warrant-officer"
     },
     "misconception-auditor": {
       "description": "Verify chapters include explicit misconception inoculation — common misunderstandings anticipated and addressed, not left for readers to stumble into.",
       "mode": "subagent",
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      },
+      "model": "proxy/warrant-officer",
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/misconception-auditor.md}"
     },
     "model-auditor": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "max"
-      }
+      "model": "proxy/lieutenant"
     },
     "model-integrator": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      }
+      "model": "proxy/warrant-officer"
     },
     "natural-prose-auditor": {
       "file": "../llm-harness-plugins/natural-prose/agents/natural-prose-auditor.md",
@@ -814,626 +386,283 @@
     "nest-decider": {
       "description": "Decide whether module pairs are siblings or parent/child (nested) modules, using the rule Gamma(P) strictly subset Gamma(C), with a reducibility guard that forbids force-splitting pure or irreducible-composite elements. Read-only; recommends structure.",
       "mode": "subagent",
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      },
+      "model": "proxy/warrant-officer",
       "prompt": "{file:../llm-harness-plugins/ivp/agents/nest-decider.md}"
     },
     "neuro-auditor": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      }
+      "model": "proxy/warrant-officer"
     },
     "notation-consistency-checker": {
-      "model": "deepseek/deepseek-flash",
-      "options": {
-        "thinking": {
-          "type": "disabled"
-        }
-      }
+      "model": "proxy/sergeant"
     },
     "opus-general": {
       "description": "High-capability agent for complex reasoning tasks with no specialized agent available. Use when task requires deep analysis beyond Sonnet's capabilities — mathematical proofs, sophisticated logical verification, detecting subtle flaws, or high-stakes decisions where errors would be very costly.",
       "mode": "subagent",
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      },
+      "model": "proxy/lieutenant",
       "prompt": "{file:../llm-harness-plugins/tier-router/agents/opus-general.md}"
     },
     "pacing-coach": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      }
+      "model": "proxy/warrant-officer"
     },
     "pathway-auditor": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      }
+      "model": "proxy/warrant-officer"
     },
     "patient-safety-auditor": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      }
+      "model": "proxy/lieutenant"
     },
     "pharmacology-auditor": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      }
+      "model": "proxy/warrant-officer"
     },
     "production-readiness-checker": {
-      "model": "deepseek/deepseek-flash",
-      "options": {
-        "thinking": {
-          "type": "disabled"
-        }
-      }
+      "model": "proxy/sergeant"
     },
     "proof-soundness-auditor": {
       "description": "Deep adversarial review of formal proofs for logical soundness, hidden assumptions, gap detection, and circularity.",
       "mode": "subagent",
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      },
+      "model": "proxy/lieutenant",
       "prompt": "{file:../llm-harness-plugins/general-skills/agents/proof-soundness-auditor.md}"
     },
     "protocol-linker": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      }
+      "model": "proxy/warrant-officer"
     },
     "publication-preparer": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      }
+      "model": "proxy/warrant-officer"
     },
     "quantitative-model-builder": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "max"
-      }
+      "model": "proxy/lieutenant"
     },
     "reductionist-auditor": {
       "description": "Adversarial reviewer who attacks complexity and integration claims — finds where multi-system explanations are asserted without rigorous justification, where Occam's razor would prefer simpler explanations, and where \"everything is connected\" substitutes for actual mechanistic evidence. Format-agnostic (Typst or LaTeX).",
       "mode": "subagent",
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      },
+      "model": "proxy/warrant-officer",
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/reductionist-auditor.md}"
     },
     "redundancy-auditor": {
       "description": "Detect repeated statements, arguments, and conclusions across documents. Paragraph-level semantic redundancy analysis.",
       "mode": "subagent",
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      },
+      "model": "proxy/warrant-officer",
       "prompt": "{file:../llm-harness-plugins/general-skills/agents/redundancy-auditor.md}"
     },
     "release-manager": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      }
+      "model": "proxy/warrant-officer"
     },
     "research-gap-synthesizer": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      }
+      "model": "proxy/warrant-officer"
     },
     "research-monitor": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      }
+      "model": "proxy/warrant-officer"
     },
     "safety-auditor": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      }
+      "model": "proxy/lieutenant"
     },
     "scenario-validity-auditor": {
       "description": "Audit examples and case discussions for scenario validity — catches scenarios that fail to exhibit the pitfall or principle they claim to illustrate, cases where the \"wrong\" design is actually correct application of the text's own principles, cases where the \"correct\" design smuggles in the same errors the text flags elsewhere, and cases where the concrete story contradicts the abstract claim. Format-agnostic (Typst or LaTeX).",
       "mode": "subagent",
-      "model": "deepseek/deepseek-flash",
-      "options": {
-        "thinking": {
-          "type": "disabled"
-        }
-      },
+      "model": "proxy/warrant-officer",
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/scenario-validity-auditor.md}"
     },
     "scientific-insight-generator": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      }
+      "model": "proxy/lieutenant"
     },
     "scientific-rigor-auditor": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      }
+      "model": "proxy/warrant-officer"
     },
     "scope-qualifier-checker": {
       "description": "Verify that claims and advice explicitly state their level of applicability — class-level vs module-level vs system-level, paradigm scope, technology context, and temporal validity.",
       "mode": "subagent",
-      "model": "deepseek/deepseek-flash",
-      "options": {
-        "thinking": {
-          "type": "disabled"
-        }
-      },
+      "model": "proxy/warrant-officer",
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/scope-qualifier-checker.md}"
     },
     "skimmer-auditor": {
       "description": "Adversarial auditor adopting the persona of a reader who only reads headings, first/last sentences, figures, boxed environments, and highlighted text — catches key points buried in paragraphs rather than surfaced structurally. Format-agnostic (Typst or LaTeX).",
       "mode": "subagent",
-      "model": "deepseek/deepseek-flash",
-      "options": {
-        "thinking": {
-          "type": "disabled"
-        }
-      },
+      "model": "proxy/warrant-officer",
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/skimmer-auditor.md}"
     },
     "sonnet-general": {
       "description": "Balanced agent for general tasks with no specialized agent available. Use when task requires reasoning, analysis, judgment calls, or assessing trade-offs. Default choice for non-specialized work. Handles multi-step planning, cross-referencing, and coordination.",
       "mode": "subagent",
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      },
+      "model": "proxy/warrant-officer",
       "prompt": "{file:../llm-harness-plugins/tier-router/agents/sonnet-general.md}"
     },
     "sophist-attacker": {
       "description": "Adversarial auditor that deliberately misreads claims, exploits ambiguous wording, constructs strawmen from loose phrasing, and deploys rhetorical fallacies — forces the text to be airtight against motivated misinterpretation by hostile commenters, blog posts, and conference hallway attacks. Format-agnostic (Typst or LaTeX).",
       "mode": "subagent",
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      },
+      "model": "proxy/warrant-officer",
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/sophist-attacker.md}"
     },
     "sophist-auditor": {
       "description": "Adversarial reviewer who attacks the logical structure of arguments — finds non sequiturs, equivocation, false dichotomies, argument from authority, and rhetorical tricks that substitute for actual reasoning. The reviewer who ignores what you meant and attacks what you actually wrote. Format-agnostic (Typst or LaTeX).",
       "mode": "subagent",
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "max"
-      },
+      "model": "proxy/lieutenant",
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/sophist-auditor.md}"
     },
     "ste-100-auditor": {
       "description": "Audit technical and scientific writing for compliance with ASD-STE100 Simplified Technical English. Read-only. Reports violations grouped by category with severity and suggested rewrites.",
       "mode": "subagent",
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      },
+      "model": "proxy/second-lieutenant",
       "prompt": "{file:../llm-harness-plugins/general-skills/agents/ste-100-auditor.md}"
     },
     "strawman-auditor": {
       "description": "Adversarial reviewer who checks whether opposing viewpoints are represented fairly — finds strawman arguments, mischaracterized positions, omitted steelman arguments, and one-sided dismissals. The reviewer who asks \"did you actually engage with the other side?\" Format-agnostic (Typst or LaTeX).",
       "mode": "subagent",
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      },
+      "model": "proxy/warrant-officer",
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/strawman-auditor.md}"
     },
     "structure-auditor": {
       "description": "Read-only audit of Typst book content structure against the canonical hierarchy in content-structure-convention.md. Checks aggregator purity, typed subdir placement, file naming, orphan files, and import chain integrity. Use to verify structure compliance before committing or after authoring new content.",
       "mode": "subagent",
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      },
+      "model": "proxy/warrant-officer",
       "prompt": "{file:../llm-harness-plugins/typst-toolkit/agents/structure-auditor.md}"
     },
     "style-auditor": {
       "description": "Audit writing for AI-generated markers, rhetorical calibration, tone, and vocabulary precision. Pair with style-naturalizer for rewriting flagged passages.",
       "mode": "subagent",
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      },
+      "model": "proxy/second-lieutenant",
       "prompt": "{file:../llm-harness-plugins/general-skills/agents/style-auditor.md}"
     },
     "style-naturalizer": {
       "description": "Transform AI-typical writing patterns into natural human prose. Pairs with style-auditor which flags issues; this agent rewrites flagged passages.",
       "mode": "subagent",
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      },
+      "model": "proxy/second-lieutenant",
       "prompt": "{file:../llm-harness-plugins/general-skills/agents/style-naturalizer.md}"
     },
     "svg-illustrator": {
-      "model": "kimi-for-coding/k2p7"
+      "model": "proxy/lieutenant-colonel-v"
     },
     "svg-validator": {
-      "model": "kimi-for-coding/k2p7"
+      "model": "proxy/lieutenant-colonel-v"
     },
     "syntax-fixer": {
-      "model": "deepseek/deepseek-flash",
-      "options": {
-        "thinking": {
-          "type": "disabled"
-        }
-      }
+      "model": "proxy/warrant-officer"
     },
     "template-advisor": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      }
+      "model": "proxy/warrant-officer"
     },
     "terminology-harmonizer": {
-      "model": "deepseek/deepseek-flash",
-      "options": {
-        "thinking": {
-          "type": "disabled"
-        }
-      }
+      "model": "proxy/sergeant"
     },
     "test-runner": {
-      "model": "deepseek/deepseek-flash",
-      "options": {
-        "thinking": {
-          "type": "disabled"
-        }
-      }
+      "model": "proxy/sergeant"
     },
     "theory-devil-advocate": {
       "description": "Adversarial critic that systematically attacks the foundations, claims, and conclusions of whatever theory or framework the document presents — surfaces objections a hostile reviewer, skeptical practitioner, or competing theorist would raise, so the text can preemptively address them. Format-agnostic (Typst or LaTeX).",
       "mode": "subagent",
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      },
+      "model": "proxy/lieutenant",
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/theory-devil-advocate.md}"
     },
     "tikz-illustrator": {
-      "model": "deepseek/deepseek-flash",
-      "options": {
-        "thinking": {
-          "type": "disabled"
-        }
-      }
+      "model": "proxy/warrant-officer"
     },
     "tikz-validator": {
-      "model": "deepseek/deepseek-flash",
-      "options": {
-        "thinking": {
-          "type": "disabled"
-        }
-      }
+      "model": "proxy/lieutenant-colonel-v"
     },
     "tone-auditor": {
       "description": "Adversarial auditor that assesses whether the text's tone would alienate readers sympathetic to established approaches — catches condescension, unfair characterization of prior authors' intent, and rhetoric that would repel rather than persuade the target audience. Format-agnostic (Typst or LaTeX).",
       "mode": "subagent",
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      },
+      "model": "proxy/second-lieutenant",
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/tone-auditor.md}"
     },
     "trade-off-auditor": {
       "description": "Verify that design advice, pattern recommendations, and architectural guidance explicitly state trade-offs — every design decision has costs, and the book must present them honestly.",
       "mode": "subagent",
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      },
+      "model": "proxy/warrant-officer",
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/trade-off-auditor.md}"
     },
     "translation-auditor": {
       "description": "Audit translated content (source → target, e.g. en → de/fr) against the source for literal idiom translation, semantic inversions, false friends, and register shifts. Read-only. Reports findings with idiomatic rewrite suggestions.",
       "mode": "subagent",
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      },
+      "model": "proxy/second-lieutenant",
       "prompt": "{file:../llm-harness-plugins/general-skills/agents/translation-auditor.md}"
     },
     "treatment-analyst": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      }
+      "model": "proxy/lieutenant"
     },
     "typst-citation-checker": {
       "description": "Verify all Typst citations are valid, find undefined citations, check bibliography consistency in .typ files.",
       "mode": "subagent",
-      "model": "deepseek/deepseek-flash",
-      "options": {
-        "thinking": {
-          "type": "disabled"
-        }
-      },
+      "model": "proxy/sergeant",
       "prompt": "{file:../llm-harness-plugins/typst-toolkit/agents/typst-citation-checker.md}"
     },
     "typst-diagram-checker": {
       "description": "Review diagrams in Typst files (CeTZ, grid layouts, inline figures) for layout issues — overlaps, overflows, margin violations, color contrast, arrow visibility, spacing, and print safety.",
       "mode": "subagent",
-      "model": "deepseek/deepseek-flash",
-      "options": {
-        "thinking": {
-          "type": "disabled"
-        }
-      },
+      "model": "proxy/lieutenant-colonel-v",
       "prompt": "{file:../llm-harness-plugins/typst-toolkit/agents/typst-diagram-checker.md}"
     },
     "typst-figure-caption-auditor": {
-      "model": "deepseek/deepseek-flash",
-      "options": {
-        "thinking": {
-          "type": "disabled"
-        }
-      }
+      "model": "proxy/sergeant"
     },
     "typst-file-splitter": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      }
+      "model": "proxy/warrant-officer"
     },
     "typst-formatting-fixer": {
       "description": "Convert Markdown formatting to Typst and normalize formatting conventions. Use when text in .typ files has markdown syntax or inconsistent formatting.",
       "mode": "subagent",
-      "model": "deepseek/deepseek-flash",
-      "options": {
-        "thinking": {
-          "type": "disabled"
-        }
-      },
+      "model": "proxy/sergeant",
       "prompt": "{file:../llm-harness-plugins/typst-toolkit/agents/typst-formatting-fixer.md}"
     },
     "typst-illustrator": {
-      "model": "deepseek/deepseek-flash",
-      "options": {
-        "thinking": {
-          "type": "disabled"
-        }
-      }
+      "model": "proxy/warrant-officer"
     },
     "typst-notation-consistency-checker": {
-      "model": "deepseek/deepseek-flash",
-      "options": {
-        "thinking": {
-          "type": "disabled"
-        }
-      }
+      "model": "proxy/sergeant"
     },
     "typst-production-readiness-checker": {
       "description": "Scan Typst files for TODO markers, placeholders, debug artifacts, LaTeX remnants, and production issues.",
       "mode": "subagent",
-      "model": "deepseek/deepseek-flash",
-      "options": {
-        "thinking": {
-          "type": "disabled"
-        }
-      },
+      "model": "proxy/sergeant",
       "prompt": "{file:../llm-harness-plugins/typst-toolkit/agents/typst-production-readiness-checker.md}"
     },
     "typst-proof-validator": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "max"
-      }
+      "model": "proxy/lieutenant"
     },
     "typst-syntax-fixer": {
       "description": "Fix Typst compilation errors and warnings. Use when Typst build fails or has errors in .typ files.",
       "mode": "subagent",
-      "model": "deepseek/deepseek-flash",
-      "options": {
-        "thinking": {
-          "type": "disabled"
-        }
-      },
+      "model": "proxy/warrant-officer",
       "prompt": "{file:../llm-harness-plugins/typst-toolkit/agents/typst-syntax-fixer.md}"
     },
     "typst-template-advisor": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      }
+      "model": "proxy/warrant-officer"
     },
     "typst-writer": {
       "description": "Typst (.typ) file writer — syntax-correct output guaranteed. Reads the project syntax rules first, verifies against a checklist, then writes content. Use when writing or editing Typst source files.",
       "mode": "subagent",
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "high"
-      },
+      "model": "proxy/warrant-officer",
       "prompt": "{file:../llm-harness-plugins/typst-toolkit/agents/typst-writer.md}"
     },
     "typst-xref-checker": {
       "description": "Verify all Typst cross-references (@label) resolve correctly. Use when checking label integrity or after renaming/moving labeled elements.",
       "mode": "subagent",
-      "model": "deepseek/deepseek-flash",
-      "options": {
-        "thinking": {
-          "type": "disabled"
-        }
-      },
+      "model": "proxy/sergeant",
       "prompt": "{file:../llm-harness-plugins/typst-toolkit/agents/typst-xref-checker.md}"
     },
     "uncertainty-analyst": {
-      "model": "deepseek/deepseek-v4-pro",
-      "options": {
-        "thinking": {
-          "type": "enabled"
-        },
-        "reasoning_effort": "max"
-      }
+      "model": "proxy/lieutenant"
     },
     "undergraduate-reader-auditor": {
       "description": "Adversarial auditor adopting the persona of an undergraduate reader with no industry experience — catches assumed prerequisites, unexplained jargon, abstraction jumps, and examples requiring background the target audience lacks. Format-agnostic (Typst or LaTeX).",
       "mode": "subagent",
-      "model": "deepseek/deepseek-flash",
-      "options": {
-        "thinking": {
-          "type": "disabled"
-        }
-      },
+      "model": "proxy/warrant-officer",
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/undergraduate-reader-auditor.md}"
     },
     "whataboutist-auditor": {
       "description": "Adversarial auditor that systematically asks \"But what about X?\" for domains, paradigms, scales, and edge cases the text implicitly ignores — catches missing scope qualifiers and undiscussed applicability boundaries. Format-agnostic (Typst or LaTeX).",
       "mode": "subagent",
-      "model": "deepseek/deepseek-flash",
-      "options": {
-        "thinking": {
-          "type": "disabled"
-        }
-      },
+      "model": "proxy/warrant-officer",
       "prompt": "{file:../llm-harness-plugins/scientific-writing/agents/whataboutist-auditor.md}"
     },
     "xref-checker": {
       "description": "Audit internal cross-references — verify labels resolve, detect broken refs, orphans, duplicates. Adapts to project citation format (LaTeX, Typst, Markdown, reST, AsciiDoc).",
       "mode": "subagent",
-      "model": "deepseek/deepseek-flash",
-      "options": {
-        "thinking": {
-          "type": "disabled"
-        }
-      },
+      "model": "proxy/sergeant",
       "prompt": "{file:../llm-harness-plugins/general-skills/agents/xref-checker.md}"
     },
     "bulk-reader": {
       "description": "Bulk file reader for premium-read-offload. Reads a corpus of files and answers a focused question with cited structured bullets. Used as the cheap worker for offloaded reads.",
       "mode": "subagent",
-      "model": "deepseek/deepseek-flash",
-      "options": {
-        "thinking": {
-          "type": "disabled"
-        }
-      },
+      "model": "proxy/sergeant",
       "permission": {
         "read": "allow",
         "edit": "deny",
@@ -1446,12 +675,7 @@
     "code-writer": {
       "description": "Boilerplate code generator for premium-read-offload. Generates code matching a reference file's patterns. Used as the cheap worker for offloaded generation.",
       "mode": "subagent",
-      "model": "deepseek/deepseek-flash",
-      "options": {
-        "thinking": {
-          "type": "disabled"
-        }
-      },
+      "model": "proxy/sergeant",
       "permission": {
         "read": "allow",
         "edit": "deny",
