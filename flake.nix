@@ -89,6 +89,16 @@
                         # takes ~20-24 min, so one flake sinks the whole
                         # graphrag build.
                         "moto"
+                        # wandb: transitively depends on looptime, whose
+                        # test_with_sleep asserts time() == 0.1 but gets
+                        # 0.09 under build load — a flaky timing test.
+                        # Skipping wandb tests also skips the looptime
+                        # dependency chain (122-deep).
+                        "wandb"
+                        # looptime: test_with_sleep asserts sleep(0.1)
+                        # completed in exactly 0.1s; system load makes it
+                        # return ~0.09. Inherently flaky in sandboxes.
+                        "looptime"
                       ]
                   );
                 in
