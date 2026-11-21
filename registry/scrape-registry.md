@@ -1644,3 +1644,16 @@ Prevents re-processing of already-integrated content.
 | https://pmc-oa-opendata.s3.amazonaws.com/PMC10368521.1/PMC10368521.1.pdf (Fox 2023 Cochrane, PMID 37491597) | PMC OA S3 | 2026-10-26 | — | Literature/reviews/Cochrane2023Plasmapheresis/ — bib/vascular.bib (@Cochrane2023Plasmapheresis) |
 | https://pubmed.ncbi.nlm.nih.gov/42274123/ (Saleem 2026 review) | pubmed/europepmc | 2026-10-26 | already in bib (@Saleem2026MicroclotProfiling) | Literature/reviews/Saleem2026TEGreview/ — PDF unavailable (not OA); DOI discrepancy noted in search log |
 | https://pubmed.ncbi.nlm.nih.gov/42419335/ (STIMULATE-ICP 2026 RCT) | pubmed/europepmc | 2026-10-26 | — | Literature/treatments/StimulateICP2026rivaroxaban/ — bib/vascular.bib (@StimulateICP2026rivaroxaban) — PDF unavailable (Lancet Infect Dis paywall) |
+
+---
+
+## Recent ME/CFS & Related Papers Monitoring Sweep (recent-mecfs-sweep-2026-11-21)
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities esearch/esummary/efetch) | 2026-11-21 | Periodic monitoring sweep, window 2026-10-20 → 2026-11-21 (last literature search 2026-10-27: Naik 2026 LDN + circadian subtype depression). 10 date-bounded queries (core ME/CFS, PEM, Long-COVID fatigue, energy/mitochondria, POTS/autonomic, biomarkers, treatments, immune, neuro, pediatric). 66 unique PMIDs; 1 false positive excluded (PMID 42936493). Abstracts efetch'd for 26 top candidates. |
+| Europe PMC (REST search + resultType=core DOI lookups) | 2026-11-21 | FIRST_PDATE window query (81 hits) + 13 per-DOI core lookups for preprints not yet in PubMed (medRxiv, preprints.org, Research Square). ~15 EPMC-only records triaged. preprints.org blocks direct fetch (403) — EPMC core lookup used. |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| https://eutils.ncbi.nlm.nih.gov/entrez/eutils/ (10 esearch + esummary + efetch, 66 PMIDs) | pubmed/eutils | 2026-11-21 | — | `ops/research/search-log-recent-mecfs-sweep-2026-11-21.md` — monitoring sweep; candidates listed, nothing integrated this cycle |
+| https://www.ebi.ac.uk/europepmc/webservices/rest/search (window query + 13 DOI lookups) | europepmc | 2026-11-21 | — | same search log |
