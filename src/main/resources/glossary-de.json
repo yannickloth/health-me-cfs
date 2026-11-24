@@ -14887,5 +14887,28 @@
   "label": "PQSymp-12",
   "category": "method",
   "definition": "Post-COVID-Symptome 12-Item-Fragebogen: ein von Patienten berichtetes Ergebnismaß der zwölf häufigsten anhaltenden Symptome nach COVID-19, einschließlich Müdigkeit, Kurzatmigkeit und kognitiver Probleme."
+ },
+ "pramipexole": {
+  "label": "Pramipexole",
+  "category": "medication",
+  "definition": "Vollagonist am Dopamin mit Präferenz für D2/D3-Rezeptoren (vernachlässigbare D1-Aktivität), zugelassen für das Restless-Legs-Syndrom (RLS) und die Parkinson-Krankheit. In der ME/CFS wird er über die RLS-Komorbidität in Dosen von 0,125–0,5 mg/Tag begegnet; seine volle D2/D3-Agonistik kann bei dem D2-Übersensitivitäts-Phänotyp die Kernsymptome verschlechtern, selbst während die RLS behandelt wird. Ein ME/CFS-Trial existiert nicht.",
+  "generic": "Pramipexole",
+  "brand": "Mirapexin (IR), Sifrol (ER)",
+  "class": "Dopaminagonist (D2/D3-präferenz, Vollagonist)",
+  "rx": "Nur auf Rezept",
+  "sources": [
+   {
+    "label": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Pramipexole%5BMeSH%5D"
+   },
+   {
+    "label": "DailyMed",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Pramipexole"
+   },
+   {
+    "label": "PubChem",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Pramipexole"
+   }
+  ]
  }
 }

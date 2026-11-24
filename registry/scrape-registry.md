@@ -1657,3 +1657,20 @@ Prevents re-processing of already-integrated content.
 |-----|--------|---------|------------|--------|
 | https://eutils.ncbi.nlm.nih.gov/entrez/eutils/ (10 esearch + esummary + efetch, 66 PMIDs) | pubmed/eutils | 2026-11-21 | — | `ops/research/search-log-recent-mecfs-sweep-2026-11-21.md` — monitoring sweep; candidates listed, nothing integrated this cycle |
 | https://www.ebi.ac.uk/europepmc/webservices/rest/search (window query + 13 DOI lookups) | europepmc | 2026-11-21 | — | same search log |
+
+---
+
+## Pramipexole × ME/CFS Topic Integration (pramipexole-mecfs)
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities esearch/esummary/efetch) | 2026-11-21 | Topic cycle pramipexole-mecfs. 43 queries (pramipexole/aripiprazole/aripiprazole efficacy+PK+safety, RLS augmentation/DAWS, caffeine interaction, bromocriptine-CFS history, combo check, co-prescription, D3-motivation). Hit counts in search log. 21 PMIDs efetch'd (docsum XML + abstracts) for metadata verification. |
+| Europe PMC (REST search + OA checks) | 2026-11-21 | bromocriptine-CFS history probes (no primary records found); isOpenAccess checks for 21 final candidates. |
+| Crossref API (api.crossref.org) | 2026-11-21 | title/author probes for classic bromocriptine-CFS trials (Nijens/Richardson, Cloer, McKendrick) — unresolvable, recorded as citation-hygiene null. |
+| PMC OA PDF mirror (eutils.ncbi.nlm.nih.gov webclient + europepmc oa packages) | 2026-11-21 | 4 OA PDFs downloaded (Cui, Ventorp, Takahashi, Tundo); 3 renders returned HTML (Wills, Winkelman, Morita) → abstract-only. |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| https://eutils.ncbi.nlm.nih.gov/entrez/eutils/ (43 esearch + esummary + efetch, 21 PMIDs docsum+abstract) | pubmed/eutils | 2026-11-21 | 2026-11-21 | bib/treatments.bib (21 keys) + appendix-h `<sec:bib-pramipexole-mecfs>`; search-log-pramipexole-mecfs-2026-11-21.md |
+| https://www.ebi.ac.uk/europepmc/webservices/rest/search (bromocriptine-CFS probes + OA status) | europepmc | 2026-11-21 | 2026-11-21 | same — null recorded (no primary bromocriptine-CFS trials) |
+| https://api.crossref.org/works (title/author probes) | crossref | 2026-11-21 | 2026-11-21 | same — null recorded |
+| PMC OA PDF fetches: PMC11788464 (Cui), Nat Med OA (Ventorp), PMC5366317 (Takahashi), MDPI OA (Tundo) | pmc-oa / publisher | 2026-11-21 | 2026-11-21 | Literature/treatments/<BibKey>/<BibKey>.pdf (4 PDFs) |

@@ -29,6 +29,7 @@ Select any medication to jump directly to its clinical interpretation section �
 / @sec:nac: NAC (N-Acetylcysteine) — Oxidative/Inflammatory
 / @sec:omega3: Omega-3 Fatty Acids (EPA/DHA) — Oxidative/Inflammatory
 / @sec:pea: PEA (Palmitoylethanolamide) — Oxidative/Inflammatory
+/ @sec:pramipexole-mecfs: Pramipexole (Mirapexin IR / Sifrol ER) — Dopaminergic (RLS)
 / @sec:pyridostigmine-ch33: Pyridostigmine (Mestinon) — Immune/Neuroimmune
 / @sec:quercetin-luteolin: Quercetin and Luteolin — Mast Cell/Histamine
 / @sec:sleep-medications: Sleep Medications — Sleep/Pain

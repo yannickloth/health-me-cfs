@@ -408,3 +408,4 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | arnaud-denis-euthanasia | [subtrees/arnaud-denis-euthanasia.md](subtrees/arnaud-denis-euthanasia.md) | 2026-10-13 | 8 | 6 | ✅ done |
 | chronic-cns-brain-inflammation | [subtrees/chronic-cns-brain-inflammation.md](subtrees/chronic-cns-brain-inflammation.md) | 2026-10-20 | 16 | 9 | ✅ done |
 | longcovid-coagulation-null-2026 | [subtrees/longcovid-coagulation-null-2026.md](subtrees/longcovid-coagulation-null-2026.md) | 2026-10-26 | 26 | 19 | 🔵 in progress |
+| pramipexole-mecfs | [subtrees/pramipexole-mecfs.md](subtrees/pramipexole-mecfs.md) | 2026-11-21 | 40 | 24 | ✅ done |

@@ -14,3 +14,4 @@
 #include "sec-11-antihistamine-up-dosing-in-mcas/sec-11-antihistamine-up-dosing-in-mcas.typ"
 #include "sec-12-medication-sensitivity-phenotypes/sec-12-medication-sensitivity-phenotypes.typ"
 #include "sec-13-atypical-antipsychotics-metabolic-considerations-in-mecfs/sec-13-atypical-antipsychotics-metabolic-considerations-in-mecfs.typ"
+#include "sec-14-dopamine-agonists-in-mecfs/sec-14-dopamine-agonists-in-mecfs.typ"

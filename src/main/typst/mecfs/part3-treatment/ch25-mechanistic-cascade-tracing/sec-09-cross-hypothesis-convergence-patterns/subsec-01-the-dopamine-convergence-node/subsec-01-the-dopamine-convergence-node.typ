@@ -23,7 +23,7 @@ THE DIAGNOSTIC PROBE: Aripiprazole tells you dopamine IS rate-limiting. Distingu
 #finding(
   claim: [Aripiprazole + shoe lift response localizes dopamine lesion to Gerlier Pathway 2],
   explanation: [
-    If aripiprazole works and ONLY shoe lift works (no LDN, no IA, no memantine): dopamine lesion is specifically from Gerlier Pathway 2. The D2/D3 partial agonism of aripiprazole (25% intrinsic efficacy vs 100% for full agonists) provides tonic stimulation without overactivating supersensitive receptors — a pharmacological distinction that depends on the receptor classification described in Section @sec:dopamine-receptor-classification.
+    If aripiprazole works and ONLY shoe lift works (no LDN, no IA, no memantine): dopamine lesion is specifically from Gerlier Pathway 2. The D2/D3 partial agonism of aripiprazole (25% intrinsic efficacy vs 100% for full agonists @Burris2002aripiprazoleD2) provides tonic stimulation without overactivating supersensitive receptors — a pharmacological distinction that depends on the receptor classification described in Section @sec:dopamine-receptor-classification. Mandatory caveat: aripiprazole's intrinsic activity is receptor-density-dependent, rising toward full agonism at high D2S density in vitro @Tadori2011D2D3FunctionalPotency, so this "tonic without overactivation" protection degrades in exactly the upregulated state it is invoked to protect (@sec:pramipexole-mecfs).
   ],
   certainty: [Low],
   level: [Partial root cause]

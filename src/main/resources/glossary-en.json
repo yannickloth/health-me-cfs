@@ -13224,5 +13224,28 @@
  },
  "FRN": {
   "alias": "feedback-related negativity"
+ },
+ "pramipexole": {
+  "label": "Pramipexole",
+  "category": "medication",
+  "definition": "A D2/D3-preferring full dopamine agonist (negligible D1 activity) approved for restless legs syndrome (RLS) and Parkinson's disease. In ME/CFS it is encountered through the RLS comorbidity at 0.125-0.5 mg/day; its full D2/D3 agonism can worsen core symptoms in the D2-supersensitive phenotype even while treating RLS. No ME/CFS trial exists.",
+  "generic": "Pramipexole",
+  "brand": "Mirapexin (IR), Sifrol (ER)",
+  "class": "Dopamine agonist (D2/D3-preferring full agonist)",
+  "rx": "Rx",
+  "sources": [
+   {
+    "label": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Pramipexole%5BMeSH%5D"
+   },
+   {
+    "label": "DailyMed",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Pramipexole"
+   },
+   {
+    "label": "PubChem",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Pramipexole"
+   }
+  ]
  }
 }

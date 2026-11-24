@@ -3737,6 +3737,458 @@ Start at 0.25 mg/day; titrate based on response and tolerability up to maximum 
     - *Safety concerns:* Metabolic effects (weight gain, glucose dysregulation) even at low doses; requires monitoring
     - *Clinical use:* Consider for treatment-refractory patients with informed consent about uncertain evidence and need for metabolic monitoring
 
+=== Pramipexole (D2/D3 full agonist) in RLS, fatigue, and ME/CFS augmentation — 2026 literature bundle <sec:bib-pramipexole-mecfs>
+
+*This block indexes the 2026-11-21 `pramipexole-mecfs` cycle: pramipexole as a dopaminergic augmentation probe at RLS doses, IR (Mirapexin, TID) vs ER (Sifrol, once-daily) PK, aripiprazole (D2/D3 partial agonist) as the candidate attenuator of full-agonist augmentation (spec 0.25, direction unadjudicated; three mechanism readings, none adjudicated from the reported data), caffeine/CYP1A2 interaction (refuted on the cited CYP-metabolism pathway), impulse-control-disorder risk, D2/D3 full-vs-partial functional pharmacology, and DA-agonist withdrawal (DAWS). All Tier-1 items are human-general-population, RLS, Parkinson's, or mood-disorder studies (none are ME/CFS-specific); the population column makes that explicit.*
+
+=== Cui 2026 — Low-Dose Aripiprazole for Long COVID (LDA, n=50)
+@Cui2026LDAlongcovid
+
+/ *Full Citation:*: Cui JL, Kalaycioglu M, Ricciardiello Mejia GC, et al. Low-dose aripiprazole for long COVID symptom management: a retrospective observational study. _Brain, Behavior, & Immunity - Health_. 2026;58:101379.
+/ *DOI:*: #link("https://doi.org/10.1016/j.bbih.2026.101379")[10.1016/j.bbih.2026.101379]
+/ *Population:*: Long COVID (\>=3 months post-SARS-CoV-2), human; NOT ME/CFS
+/ *Study Design:*: Retrospective chart review (Stanford Long-COVID clinic), EHR 5/2021-10/2023
+/ *Sample Size:*: n=50 (62% female; median age 46.5 y; median symptom duration 566.5 d)
+/ *Key Findings:*:
+   - Functional Status Scale improved 3.78 -\> 3.28 ($p$ = 0.001)
+   - No significant change in the 7-symptom severity composite (fatigue, brain fog, PEM, lightheadedness, etc.), symptom count, or symptom duration
+   - Median LDA dose 1 mg (range 0.1-2.0 mg/day); no severe adverse effects
+/ *Conclusion:*: LDA is associated with improved functional status in long COVID but not with a change in the symptom-severity composite — the same FSS-up/composite-null pattern seen in the ME/CFS cohort (@Crosby2021LDA).
+/ *Limitations:*: Retrospective, single clinic, no control group, no DA-agonist comparator, EHR-ascertained doses.
+/ *Certainty Assessment:*:
+   - *Quality:* Low-Medium (retrospective, no control)
+   - *Sample:* Small (n=50)
+   - *Replication:* Extends @Crosby2021LDA to a second (long-COVID) population
+   - *Score:* raw 0.40 → population weight 0.85 (long-COVID fatigue, not classic ME/CFS) → *0.35*
+
+=== Garcia-Malo 2026 — Aripiprazole Breaks DA-Agonist Augmentation in Severe RLS (n=18)
+@GarciaMalo2026AripiprazoleRLSAugmentation
+
+/ *Full Citation:*: Garcia-Malo C, Martin Garcia R, Boi S. Regulating the hyperdopaminergic substrate in restless legs syndrome with augmentation: an open-label study on the safety and efficacy of aripiprazole. _Clinical Neuropharmacology_. 2026. Online ahead of print.
+/ *DOI:*: #link("https://doi.org/10.1097/WNF.0000000000000707")[10.1097/WNF.0000000000000707]
+/ *Population:*: Severe RLS + dopamine-agonist augmentation, human; NOT ME/CFS
+/ *Study Design:*: Open-label observational (CISNe sleep center, Madrid)
+/ *Sample Size:*: n=18 (severe RLS with DA augmentation; baseline levodopa-equivalent 64.7 ± 55.7 mg)
+/ *Key Findings:*:
+   - Aripiprazole 5 mg/day ("low-dose" per the source) was initiated first, followed by gradual DA tapering (the verified co-administration sequence); enabled complete DA withdrawal in all 18
+   - IRLS 32.06 → 2.94 ($p$ \< 0.0001); CGI-severity 6.89 → 1.78 ($p$ \< 0.0001)
+   - Sleep time +2.18 h; sleep quality 3.4 → 7.03 ($p$ \< 0.0001)
+   - Mild/transient AEs: akathisia 16.7%, fatigue 11.1%, somnolence 5.6%, apathy 5.6%
+/ *Conclusion:*: A D2/D3 partial agonist (aripiprazole) can break full-agonist RLS augmentation and permit complete DA withdrawal — the primary human evidence for the combination, with three readings of the mechanism, none adjudicated from the reported data: (1) the authors' "dopaminergic stabilizing properties" (stabilizer reading); (2) partial-agonist attenuation of the full agonist's maximal drive (the LDA framing); (3) continuation of dopaminergic tone through the taper (pharmacokinetic bridging, no receptor-specific claim). The co-administration window (aripiprazole on board while the DA is still active) is the verified design feature all three readings share.
+/ *Limitations:*: Open-label, small (n=18), single center; aripiprazole dose (5 mg/day, the source's "low-dose") is outside the paper's 0.25-2 mg LDA window; no ME/CFS population.
+/ *Certainty Assessment:*:
+   - *Quality:* Low (open-label, no control)
+   - *Sample:* Small (n=18)
+   - *Replication:* Single study (paired with @MartinGarcia2026DAWSRLS, same group)
+   - *Score:* raw 0.40 → population weight 0.65 (RLS cross-disease analogy) → *0.25*
+
+=== Martin Garcia 2026 — Structured DA-Agonist Withdrawal in RLS (DAWS cohort, n=31)
+@MartinGarcia2026DAWSRLS
+
+/ *Full Citation:*: Martin Garcia R, Boi S, Garcia-Malo C. Structured management of dopamine agonist withdrawal in restless legs syndrome with augmentation: a prospective real-world cohort study. _Sleep Medicine_. 2026;148:109238.
+/ *DOI:*: #link("https://doi.org/10.1016/j.sleep.2026.109238")[10.1016/j.sleep.2026.109238]
+/ *Population:*: RLS + DA augmentation, human; NOT ME/CFS
+/ *Study Design:*: Prospective observational cohort (specialized sleep center)
+/ *Sample Size:*: n=31 (RLS with clinically significant DA augmentation)
+/ *Key Findings:*:
+   - Structured 1-month protocol (rapid DA taper + iron optimization + alpha-2-delta start/increase; aripiprazole adjunct for worsening) achieved complete DA withdrawal in 24/31 (77%)
+   - IRLS 27.1 → 15.1; CGI-severity 5.2 → 3.5 (both $p$ \< 0.001)
+   - Gabapentin-equivalent dose rose 417 → 1288 mg/day; aripiprazole use during taper associated with successful withdrawal
+   - Longer pre-withdrawal augmentation duration predicted failure (11.4 vs 3.5 y, $p$ = 0.003)
+/ *Conclusion:*: DA-agonist withdrawal (the DAWS-equivalent a ME/CFS patient on pramipexole faces) is manageable in ~3/4 of RLS patients with a structured taper + iron + alpha-2-delta bridging; partial-agonist (aripiprazole) adjunct use was associated with successful withdrawal in a cohort where the adjunct was reserved for significant worsening (indication bias — the association is the correct register; a causal "adjuncts help" reading is not adjudicated from this design).
+/ *Limitations:*: Observational (no randomization), single center, 1-month follow-up, no ME/CFS population.
+/ *Certainty Assessment:*:
+   - *Quality:* Moderate (prospective but uncontrolled)
+   - *Sample:* Moderate (n=31)
+   - *Replication:* Single study (same group as @GarciaMalo2026AripiprazoleRLSAugmentation)
+   - *Score:* raw 0.45 → population weight 0.65 (RLS cross-disease analogy) → *0.30*
+
+=== Holman 2005 — Pramipexole RCT in Fibromyalgia (the uncited "Holman et al. 2005")
+@Holman2005PramipexoleFibromyalgia
+
+/ *Full Citation:*: Holman AJ, Myers RR. A randomized, double-blind, placebo-controlled trial of pramipexole, a dopamine agonist, in patients with fibromyalgia receiving concomitant medications. _Arthritis & Rheumatism_. 2005;52(8):2495-2505.
+/ *DOI:*: #link("https://doi.org/10.1002/art.21191")[10.1002/art.21191]
+/ *Population:*: Fibromyalgia, human; NOT ME/CFS
+/ *Study Design:*: 14-week single-center double-blind placebo-controlled RCT (2:1 pramipexole:placebo)
+/ *Sample Size:*: n=60 (comorbidities + stable analgesics allowed)
+/ *Key Findings:*:
+   - Pain VAS −36% (pramipexole) vs −9% (placebo) at 14 weeks (treatment difference −1.77 cm); ≥50% pain reduction 42% vs 14%
+   - FIQ total −9.57; MDHAQ fatigue improvement 29% vs 7%, function 22% vs 0%, global 38% vs 3%
+   - Dose was pramipexole 4.5 mg every evening — a Parkinson's-range dose, ~10× the 0.125-0.5 mg RLS working band of this paper's ME/CFS probe framework (a cross-disease high-dose tolerability signal; comorbidities and disability not excluded)
+   - AEs: transient anxiety, weight loss; no withdrawals for inefficacy/AE
+/ *Conclusion:*: The only DA-agonist RCT in a fatigue/fibromyalgia syndrome — positive for pain, fatigue, and function, but at a dose ~10× the ME/CFS probe range.
+/ *Limitations:*: Small, single center, PD-range dose (4.5 mg), comorbidities/analgesics permitted (confounds the "fatigue" signal); fibromyalgia is a different syndrome from ME/CFS.
+/ *Certainty Assessment:*:
+   - *Quality:* Medium (RCT, but small and single-center)
+   - *Sample:* Small (n=60)
+   - *Replication:* Single trial (no ME/CFS replication)
+   - *Score:* raw 0.60 → population weight 0.60 (fibromyalgia cross-disease) → *0.35*
+
+=== Winkelman 2025 — AASM RLS/PLMD Treatment Guideline
+@Winkelman2025RLSguideline
+
+/ *Full Citation:*: Winkelman JW, Berkowski JA, DelRosso LM, et al. Treatment of restless legs syndrome and periodic limb movement disorder: an American Academy of Sleep Medicine clinical practice guideline. _Journal of Clinical Sleep Medicine_. 2025;21(1):137-152.
+/ *DOI:*: #link("https://doi.org/10.5664/jcsm.11390")[10.5664/jcsm.11390]
+/ *Population:*: RLS/PLMD (adults + children), human; NOT ME/CFS
+/ *Study Design:*: Task-force clinical practice guideline (GRADE-graded systematic review)
+/ *Sample Size:*: N/A (guideline)
+/ *Key Findings:*:
+   - Current standard of care for RLS/PLMD centers on iron repletion + alpha-2-delta ligands (gabapentinoids)
+   - Dopamine agonists are no longer preferred first-line for chronic RLS because of augmentation
+   - Establishes the regulatory/clinical context for pramipexole RLS dosing and why gabapentin/pregabalin are the comparator class
+/ *Conclusion:*: The guideline basis for the class re-ordering (gabapentinoids over dopamine agonists for chronic RLS, on augmentation risk — the dopamine-agonist efficacy itself is not in dispute) that a pramipexole-treated ME/CFS patient now operates in.
+/ *Limitations:*: Guideline (no original RLS/ME/CFS data); RLS population, not ME/CFS.
+/ *Certainty Assessment:*:
+   - *Quality:* High (society guideline, systematic review)
+   - *Sample:* N/A
+   - *Replication:* N/A (standard of care)
+   - *Score:* raw 0.75 → population weight 0.65 (RLS cross-disease) → *0.50*
+
+=== Allen 2014 — Pregabalin vs Pramipexole in RLS (NEJM, n=719)
+@Allen2014PregabalinPramipexole
+
+/ *Full Citation:*: Allen RP, Chen C, Garcia-Borreguero D, et al. Comparison of pregabalin with pramipexole for restless legs syndrome. _New England Journal of Medicine_. 2014;370(7):621-631.
+/ *DOI:*: #link("https://doi.org/10.1056/NEJMoa1303646")[10.1056/NEJMoa1303646]
+/ *Population:*: RLS, human; NOT ME/CFS
+/ *Study Design:*: 52-week randomized double-blind multicenter RCT (NCT00806026; Pfizer-funded)
+/ *Sample Size:*: n=719 (pregabalin 300 mg vs pramipexole 0.25/0.5 mg vs placebo)
+/ *Key Findings:*:
+   - At 12 wks pregabalin \> placebo (IRLS −4.5, $p$ \< 0.001; much/very-much improved 71.4% vs 46.8%, $p$ \< 0.001)
+   - Augmentation over 40-52 wks lower with pregabalin than pramipexole 0.5 mg (2.1% vs 7.7%, $p$ = 0.001), not 0.25 mg (2.1% vs 5.3%, $p$ = 0.08)
+   - Suicidal ideation: 6 pregabalin, 3 pramipexole 0.25, 2 pramipexole 0.5
+/ *Conclusion:*: The pivotal RLS head-to-head of the two classes a pramipexole-treated ME/CFS patient most often co-prescribes (pregabalin/gabapentin); quantifies dose-dependent pramipexole augmentation at RLS doses.
+/ *Limitations:*: Industry-funded; RLS population, not ME/CFS; 12-week primary (augmentation is a 40-52-week secondary).
+/ *Certainty Assessment:*:
+   - *Quality:* High (large RCT, NEJM)
+   - *Sample:* Large (n=719)
+   - *Replication:* Single pivotal trial (class effect)
+   - *Score:* raw 0.80 → population weight 0.65 (RLS cross-disease) → *0.50*
+
+=== Takahashi 2017 — Pramipexole Augmentation Rate in RLS (n=231)
+@Takahashi2017RLSaugmentation
+
+/ *Full Citation:*: Takahashi M, Nishida S, Nakamura M, et al. Restless legs syndrome augmentation among Japanese patients receiving pramipexole therapy: rate and risk factors in a retrospective study. _PLoS ONE_. 2017;12(3):e0173535.
+/ *DOI:*: #link("https://doi.org/10.1371/journal.pone.0173535")[10.1371/journal.pone.0173535]
+/ *Population:*: Idiopathic RLS on pramipexole, human; NOT ME/CFS
+/ *Study Design:*: Retrospective single sleep-disorder center (Max Planck Institute augmentation criteria)
+/ *Sample Size:*: n=231 (idiopathic RLS on pramipexole \>1 month)
+/ *Key Findings:*:
+   - Augmentation in 9.1%; daily dose and treatment duration significantly associated
+   - Optimal dose cut-off for predicting augmentation 0.375 mg/day (46-month duration threshold; 0.500 mg/day at ≥46 months)
+/ *Conclusion:*: Real-world pramipexole augmentation RATE at RLS doses, supporting the paper's "doses \>0.5 mg/day → higher augmentation" claim; keep probe doses low.
+/ *Limitations:*: Retrospective, single center, Japanese cohort; COI (first author Otsuka employee); RLS, not ME/CFS.
+/ *Certainty Assessment:*:
+   - *Quality:* Low-Medium (retrospective)
+   - *Sample:* Moderate (n=231)
+   - *Replication:* Consistent with @Allen2014PregabalinPramipexole augmentation rates
+   - *Score:* raw 0.45 → population weight 0.65 (RLS cross-disease) → *0.30*
+
+=== Ventorp 2026 — Pramipexole for Anhedonic Depression (RCT + PET, n=85)
+@Ventorp2026PramipexoleAnhedonia
+
+/ *Full Citation:*: Ventorp F, Asp M, Olsson S, et al. Efficacy and target engagement of dopamine agonist pramipexole for anhedonic depression: a randomized placebo-controlled trial. _Nature Medicine_. 2026;32(7):2570-2578.
+/ *DOI:*: #link("https://doi.org/10.1038/s41591-026-04465-9")[10.1038/s41591-026-04465-9]
+/ *Population:*: Anhedonic depression (MDD/dysthymia/bipolar), human; NOT ME/CFS
+/ *Study Design:*: Single-center randomized double-blind placebo-controlled trial (NCT05355337 + NCT05825235); flexible-dose once-daily pramipexole add-on ×9 wks
+/ *Sample Size:*: n=85 randomized / 82 analyzed
+/ *Key Findings:*:
+   - Primary met: SHAPS mean difference vs placebo −4.04 (95% CI −6.89 to −1.18, $p$ = 0.006, Hedges g = 0.62)
+   - Exploratory: increased light physical activity + relative preservation of reward-related ventral striatal activation (PET)
+   - Anhedonia improvement sustained through a 6-month open-label extension; well tolerated
+/ *Conclusion:*: The strongest RCT evidence that a full D2/D3 agonist improves anhedonia/motivation WITH target engagement — one arm of the ME/CFS motivation-deficit question (but in a depression population, no fatigue or PEM endpoint; dose-scope caveat: flexible dosing, dose not stated in the cited source — not dose-matched to the 0.125–0.5 mg prediction).
+/ *Limitations:*: Depression population (not ME/CFS), single center, flexible dosing, COI (Lundbeck/Janssen honoraria); no objective PEM/fatigue outcome.
+/ *Certainty Assessment:*:
+   - *Quality:* High (RCT + PET target engagement, Nature Medicine)
+   - *Sample:* Adequate (n=85)
+   - *Replication:* The anhedonia/RCT half of the pramipexole augmentation line; @Browning2025PAXDPramipexoleTRD is the larger trial in the same line (n=151, depression endpoint, no PET)
+   - *Score:* raw 0.75 → population weight 0.60 (mood-disorder cross-disease) → *0.45*
+
+=== Morita 2011 — Pramipexole and Fatigue Prevalence in Parkinson's Disease (n=350)
+@Morita2011PramipexoleFatigue
+
+/ *Full Citation:*: Morita A, Okuma Y, Kamei S, et al. Pramipexole reduces the prevalence of fatigue in patients with Parkinson's disease. _Internal Medicine_. 2011;50(19):2163-2168.
+/ *DOI:*: #link("https://doi.org/10.2169/internalmedicine.50.5456")[10.2169/internalmedicine.50.5456]
+/ *Population:*: Parkinson's disease, human; NOT ME/CFS
+/ *Study Design:*: Multicenter cross-sectional (Parkinson Fatigue Scale PFS-16; multiple logistic regression)
+/ *Sample Size:*: n=350 non-demented Japanese PD (fatigue in 91%; pramipexole in 24%)
+/ *Key Findings:*:
+   - Pramipexole independently associated with LOWER fatigue prevalence (multivariable logistic regression)
+/ *Conclusion:*: The only direct "pramipexole + fatigue" association in the literature — but cross-sectional and confounded by who is prescribed pramipexole.
+/ *Limitations:*: Cross-sectional (no causal inference), PD population, indication bias; not ME/CFS.
+/ *Certainty Assessment:*:
+   - *Quality:* Low-Medium (cross-sectional)
+   - *Sample:* Large (n=350)
+   - *Replication:* Single study
+   - *Score:* raw 0.45 → population weight 0.60 (PD cross-disease) → *0.25*
+
+=== Oved 2006 — Dopamine Agonists, Fatigue and Somnolence in Parkinson's Disease (n=15)
+@Oved2006DAAgonistFatigueSomnolence
+
+/ *Full Citation:*: Oved D, Ziv I, Treves TA, Paleacu D, Melamed E, Djaldetti R. Effect of dopamine agonists on fatigue and somnolence in Parkinson's disease. _Movement Disorders_. 2006;21(8):1257-1261.
+/ *DOI:*: #link("https://doi.org/10.1002/mds.20929")[10.1002/mds.20929]
+/ *Population:*: Parkinson's disease, human; NOT ME/CFS
+/ *Study Design:*: Pre/post 3 months of DA-agonist treatment + healthy controls; objective fatigue index + MFI + Epworth
+/ *Sample Size:*: n=15 PD (+15 healthy controls)
+/ *Key Findings:*:
+   - Objective fatigue index UNCHANGED after 3 months of DA agonists (pre: 31.4% vs 23.4% controls, $p$ \< 0.001; no post-treatment change)
+   - Epworth (somnolence) RODE 6.6 → 11.7 ($p$ \< 0.05); MFI unchanged
+/ *Conclusion:*: DA agonists increase somnolence without reducing objective fatigability in PD — the dual-effect data point that tempers "pramipexole improves fatigue" and matches the paper's somnolence caution.
+/ *Limitations:*: Very small (n=15), single center, PD, not ME/CFS.
+/ *Certainty Assessment:*:
+   - *Quality:* Low (small, no control group for the change)
+   - *Sample:* Small (n=15)
+   - *Replication:* Single study
+   - *Score:* raw 0.40 → population weight 0.60 (PD cross-disease) → *0.25*
+
+=== Bruno 1996 — Bromocriptine in Post-Polio Fatigue (R2 anchor, n=5)
+@Bruno1996BromocriptinePostPolio
+
+/ *Full Citation:*: Bruno RL, Zimmerman JR, Creange SJ, Lewis T, Molzen T, Frick NM. Bromocriptine in the treatment of post-polio fatigue: a pilot study with implications for the pathophysiology of fatigue. _American Journal of Physical Medicine & Rehabilitation_. 1996;75(5):340-347.
+/ *DOI:*: #link("https://doi.org/10.1097/00002060-199609000-00007")[10.1097/00002060-199609000-00007]
+/ *Population:*: Post-polio fatigue, human; NOT ME/CFS
+/ *Study Design:*: Placebo-controlled crossover pilot (bromocriptine 1.25 → 12.5 mg/day ×28 d)
+/ *Sample Size:*: n=5 post-polio fatigue survivors
+/ *Key Findings:*:
+   - 3/5 improved on bromocriptine (not placebo); responders had impaired attention/info-processing, \>2× more MRI hyperintensities, low fasting ACTH, ~2× plasma prolactin vs non-responders
+/ *Conclusion:*: The best PubMed-citable historical dopamine-agonist trial in a chronic-fatigue syndrome — consistent with, but not establishing, the dopamine-deficiency-fatigue hypothesis (n = 5 pilot; the responders' ~2× prolactin and low fasting ACTH are a between-responder comparison within five patients). (The classic 1990s bromocriptine-CFS trials — Nijens/Richardson 1992, Cloer 2000, McKendrick 2003 — are NOT resolvable in PubMed/Crossref/Europe PMC; see cycle search log.)
+/ *Limitations:*: Tiny (n=5), pre-ME/CFS criteria, single center, unblinded outcome ascertainment.
+/ *Certainty Assessment:*:
+   - *Quality:* Low (pilot, n=5)
+   - *Sample:* Very small (n=5)
+   - *Replication:* None in ME/CFS
+   - *Score:* raw 0.30 → population weight 0.60 (post-polio fatigue cross-disease) → *0.20*
+
+=== Tundo 2024 — Pramipexole vs Aripiprazole Augmentation in TRD (head-to-head, n=132)
+@Tundo2024PramAripTRD
+
+/ *Full Citation:*: Tundo A, Betro S, de Filippis R, Felici R, Lucangeli C, Iommi M. Comparative short- and long-term effectiveness and safety of pramipexole and aripiprazole augmentation in treatment-resistant unipolar depression: an observational study. _Biomedicines_. 2024;12(9):2064.
+/ *DOI:*: #link("https://doi.org/10.3390/biomedicines12092064")[10.3390/biomedicines12092064]
+/ *Population:*: Treatment-resistant unipolar depression, human; NOT ME/CFS
+/ *Study Design:*: Observational, mixed-effect linear regression (private mood-disorders clinic, Rome)
+/ *Sample Size:*: n=81 pramipexole augmentation vs n=51 aripiprazole augmentation
+/ *Key Findings:*:
+   - At 12/24 wks pramipexole predicted response 64.1%/76.2% and remission 49.7%/72.7% vs aripiprazole 32.2%/38.0% and 18.9%/28.1%
+   - Psychosocial-functioning improvement faster with pramipexole; pramipexole superior as maintenance to 12 months; no safety difference
+   - Median maximum doses: pramipexole 1.05 mg/day (IQR 0.72-1.08) vs aripiprazole 3 mg/day (IQR 2.5-5), titrated to pre-specified maximums
+   - Baseline-imbalanced arms: prior augmentation-strategy failure 37.0% (pramipexole) vs 7.7% (aripiprazole), $p$\<0.001; mixed depression 16.0% vs 41.2%, $p$ = 0.001; age and HDRS-17 imbalanced as well; propensity score used as a logistic-regression covariate in the mixed models, not matching
+/ *Conclusion:*: The only head-to-head pramipexole-vs-aripiprazole in a motivation-adjacent (TRD) population — the covariate-adjusted estimate FAVORS the FULL agonist (pramipexole) over the partial agonist, the OPPOSITE of the ME/CFS "partial beats full in a supersensitive system" hypothesis on the adjusted estimate; the raw between-arm difference is a description under the disclosed 37.0%/7.7% prior-failure imbalance (confounding by indication), not a controlled comparison, and the design cannot separate that direction from the titrated-intensity difference (median maximum doses 1.05 vs 3 mg/day).
+/ *Limitations:*: Observational, single private clinic, selection bias, no ME/CFS, no DA-withdrawal/ICD stratification; baseline imbalance (see Key Findings) adjusted as a covariate, not by matching; COI (Tundo Janssen advisory panel).
+/ *Certainty Assessment:*:
+   - *Quality:* Low-Medium (observational, single clinic)
+   - *Sample:* Moderate (n=132)
+   - *Replication:* Single study
+   - *Score:* raw 0.45 → population weight 0.60 (mood-disorder cross-disease) → *0.25*
+
+=== Jenner 2009 — ER vs IR Pramipexole PK (3 Phase-I studies, n=72)
+@Jenner2009PramipexoleERpk
+
+/ *Full Citation:*: Jenner P, Konen-Bergmann M, Schepers C, Haertter S. Pharmacokinetics of a once-daily extended-release formulation of pramipexole in healthy male volunteers: three studies. _Clinical Therapeutics_. 2009;31(11):2698-2711.
+/ *DOI:*: #link("https://doi.org/10.1016/j.clinthera.2009.10.018")[10.1016/j.clinthera.2009.10.018]
+/ *Population:*: Healthy men, human; pharmacokinetic (not a patient population)
+/ *Study Design:*: Three Phase I studies (healthy adult men)
+/ *Sample Size:*: n=18 / 15 / 39
+/ *Key Findings:*:
+   - ER 0.75 mg once-daily approximates IR 0.25 mg TID: AUC(ss) 17.4 vs 16.0 ng·h/mL; Cmax,ss 0.967 vs 1.09 ng/mL; Cmin,ss 0.455 vs 0.383 ng/mL
+   - Steady-state 0.375-4.5 mg linear and dose-proportional (AUC and Cmax); food effect small (AUC fed:fasted upper 90% CI 122.1 at 4.5 mg, within 80-125% bioequivalence)
+   - Interindividual CV 30.1% (ER) vs 21.4% (IR) for AUC at high dose
+/ *Conclusion:*: ER (Sifrol/Mirapexin PR in the EU, Mirapex ER in the US) matches IR (Mirapexin) total exposure at the measured point (ER 0.75 mg once-daily ≈ IR 0.25 mg TID in steady-state AUC) with a flatter profile (Cmax ~11% lower, Cmin ~19% higher); the tolerability direction (peak-driven vs trough-driven liability) is not adjudicated by these PK data, and the equivalence extrapolates only within the linear 0.375-4.5 mg range.
+/ *Limitations:*: Healthy men only; PK only (no RLS/ME/CFS efficacy or tolerability validation); higher interindividual CV with ER.
+/ *Certainty Assessment:*:
+   - *Quality:* High (Phase I, 3 studies, well-controlled)
+   - *Sample:* Adequate for PK (n=72)
+   - *Replication:* Primary PK source (consistent with Sifrol label)
+   - *Score:* raw 0.70 → population weight 1.0 (PK, not population-specific) → *0.70*
+
+=== Wright 1997 — Steady-State PK of IR Pramipexole (n=16)
+@Wright1997Pramipexolepk
+
+/ *Full Citation:*: Wright CE, Sisson TL, Ichhpurani AK, Peters GR. Steady-state pharmacokinetic properties of pramipexole in healthy volunteers. _Journal of Clinical Pharmacology_. 1997;37(6):520-525.
+/ *DOI:*: #link("https://doi.org/10.1002/j.1552-4604.1997.tb04330.x")[10.1002/j.1552-4604.1997.tb04330.x]
+/ *Population:*: Healthy men/women, human; pharmacokinetic (not a patient population)
+/ *Study Design:*: Steady-state PK, 4 dose levels
+/ *Sample Size:*: n=16
+/ *Key Findings:*:
+   - Total oral clearance 419 mL/min; Vd 486 L; t½ 12.9 h; linear (dose-proportional) PK
+   - Renal clearance ≈80% of oral clearance (correlates with creatinine clearance) — i.e. pramipexole is NOT CYP1A2-metabolized
+   - Women have 35-43% higher AUC than men (24-27% lower clearance)
+/ *Conclusion:*: The mechanistic basis for REFUTING the "caffeine classically reduces pramipexole exposure" claim: pramipexole is cleared ~80% renally, not by CYP1A2, so a CYP1A2-substrate interaction with caffeine is not expected.
+/ *Limitations:*: Small (n=16), healthy volunteers, PD-range doses, sex effect confounded with age/renal function.
+/ *Certainty Assessment:*:
+   - *Quality:* Medium (single-group PK)
+   - *Sample:* Small (n=16)
+   - *Replication:* Primary IR-PK source
+   - *Score:* raw 0.65 → population weight 1.0 (PK) → *0.65*
+
+=== Knop 2015 — Renal Tubular Secretion of Pramipexole (OCT2/MATE, in vitro)
+@Knop2015PramipexoleRenal
+
+/ *Full Citation:*: Knop J, Hoier E, Ebner T, Fromm MF, Müller F. Renal tubular secretion of pramipexole. _European Journal of Pharmaceutical Sciences_. 2015;79:73-78.
+/ *DOI:*: #link("https://doi.org/10.1016/j.ejps.2015.09.004")[10.1016/j.ejps.2015.09.004]
+/ *Population:*: In vitro (MDCK/HEK cells overexpressing OCT2, MATE1, MATE2-K)
+/ *Study Design:*: In-vitro transport (OCT2/MATE1/MATE2-K overexpression; transcellular transport)
+/ *Sample Size:*: N/A (in vitro)
+/ *Key Findings:*:
+   - Pramipexole secreted renally via coordinated OCT2 (uptake) + MATE1/MATE2-K (efflux) transport
+   - Cimetidine inhibits (MATE; IC50 12 µM / 5.5 µM); transcellular transport pH-dependent
+/ *Conclusion:*: The real pramipexole drug-interaction axis is OCT2/MATE renal transport (cimetidine, amantadine) — NOT CYP1A2 — which is why caffeine is not an established pramipexole PK interaction.
+/ *Limitations:*: In vitro (cell models), not a patient population; does not quantify in-vivo interaction magnitude.
+/ *Certainty Assessment:*:
+   - *Quality:* Medium (rigorous in-vitro, established lab)
+   - *Sample:* N/A
+   - *Replication:* Consistent with @Wright1997Pramipexolepk (renal clearance)
+   - *Score:* raw 0.60 → population weight 1.0 (mechanistic) → *0.60*
+
+=== Wills 2013 — Caffeine and Dyskinesia Risk in CALM-PD (pramipexole vs levodopa)
+@Wills2013CaffeineDyskinesia
+
+/ *Full Citation:*: Wills AM, Eberly S, Tennis M, et al. Caffeine consumption and risk of dyskinesia in CALM-PD. _Movement Disorders_. 2013;28(3):380-383.
+/ *DOI:*: #link("https://doi.org/10.1002/mds.25319")[10.1002/mds.25319]
+/ *Population:*: Parkinson's disease (CALM-PD + extension), human; NOT ME/CFS
+/ *Study Design:*: Secondary analysis (Cox proportional hazards) of the CALM-PD pramipexole-vs-levodopa RCT
+/ *Sample Size:*: CALM-PD + CALM Cohort extension (secondary analysis)
+/ *Key Findings:*:
+   - \>12 oz coffee/day → adjusted HR for dyskinesia 0.61 (95% CI 0.37-1.01) vs \<4 oz; 4-12 oz → HR 0.73 (95% CI 0.46-1.15; trend $p$ = 0.05)
+   - Association is PHARMACODYNAMIC (caffeine = adenosine A2A-receptor antagonist; possibly protective against dyskinesia), NOT a reduction in pramipexole exposure
+/ *Conclusion:*: The only pramipexole+caffeine association in the literature is pharmacodynamic (A2A antagonism) — there is NO evidence that caffeine reduces pramipexole exposure. Combined with @Wright1997Pramipexolepk and @Knop2015PramipexoleRenal, the "caffeine reduces pramipexole exposure" claim is REFUTED.
+/ *Limitations:*: Secondary analysis, self-reported caffeine, CI crosses 1.0 (not statistically significant), PD, not ME/CFS.
+/ *Certainty Assessment:*:
+   - *Quality:* Medium (RCT database, secondary analysis)
+   - *Sample:* Moderate (CALM-PD cohort)
+   - *Replication:* Single analysis
+   - *Score:* raw 0.60 → population weight 0.60 (PD cross-disease) → *0.35*
+
+=== Etminan 2017 — ICD/Gambling Risk: Aripiprazole, Pramipexole, Ropinirole (pharmacoepi)
+@Etminan2017ICDPharmacoepi
+
+/ *Full Citation:*: Etminan M, Sodhi M, Samii A, Procyshyn RM, Guo M, Carleton BC. Risk of gambling disorder and impulse control disorder with aripiprazole, pramipexole, and ropinirole: a pharmacoepidemiologic study. _Journal of Clinical Psychopharmacology_. 2017;37(1):102-104.
+/ *DOI:*: #link("https://doi.org/10.1097/JCP.0000000000000634")[10.1097/JCP.0000000000000634]
+/ *Population:*: US health-claims population (mixed PD/RLS/psychiatric users), human; NOT ME/CFS
+/ *Study Design:*: Nested case-control (large US claims database; conditional logistic regression)
+/ *Sample Size:*: 355 gambling-disorder + 4341 ICD cases vs matched controls
+/ *Key Findings:*:
+   - Aripiprazole: gambling RR 5.23 (95% CI 1.78-15.38), ICD RR 7.71 (5.81-10.34)
+   - Pramipexole: gambling RR 7.61 (2.75-21.07); ropinirole: ICD RR 3.28 (2.31-4.66)
+   - Aripiprazole is NOT ICD-sparing at the reported endpoints — its ICD-composite RR (7.71) is of similar magnitude to pramipexole's gambling RR (7.61), a cross-endpoint comparison (no pramipexole ICD-composite RR is reported); aripiprazole's gambling RR (5.23) is lower than pramipexole's (7.61), and ropinirole's ICD-composite RR (3.28) is lower still — the actionable rule is to screen both
+/ *Conclusion:*: Supports keeping the ICD black-box warning for BOTH pramipexole and aripiprazole and monthly QUIP-RS screening regardless of agent; tempers the "partial agonist avoids ICD" framing.
+/ *Limitations:*: Observational (claims), residual confounding, broad case definitions, no ME/CFS population.
+/ *Certainty Assessment:*:
+   - *Quality:* Medium (large pharmacoepi, but observational)
+   - *Sample:* Large (claims)
+   - *Replication:* Single study
+   - *Score:* raw 0.60 → population weight 0.65 (mixed cross-disease) → *0.40*
+
+=== Tadori 2011 — D2/D3 Functional Potencies: Full vs Density-Dependent Partial Agonists (in vitro)
+@Tadori2011D2D3FunctionalPotency
+
+/ *Full Citation:*: Tadori Y, Forbes RA, McQuade RD, Kikuchi T. Functional potencies of dopamine agonists and antagonists at human dopamine D2 and D3 receptors. _European Journal of Pharmacology_. 2011;666(1-3):43-52.
+/ *DOI:*: #link("https://doi.org/10.1016/j.ejphar.2011.05.050")[10.1016/j.ejphar.2011.05.050]
+/ *Population:*: In vitro (CHO cells at LOW and HIGH hD2L/hD2S and hD3 densities)
+/ *Study Design:*: In-vitro functional (cAMP) pharmacology
+/ *Sample Size:*: N/A (in vitro)
+/ *Key Findings:*:
+   - Pramipexole (and ropinirole, cabergoline, bromocriptine, pergolide) = D2 AND D3 FULL agonists, higher potency at high receptor density
+   - Aripiprazole is DENSITY-DEPENDENT: antagonist at hD2L-Low, low-IA partial agonist at hD2S-Low, moderate partial at hD3, ROBUST partial agonist at hD2L-High, and FULL agonist at hD2S-High
+/ *Conclusion:*: Aripiprazole's "partial agonist" ceiling is LOST at high receptor density — in a supersensitive/upregulated (high-density) ME/CFS D2 system it can behave as a robust partial or even full agonist, which complicates the "partial agonist is safe in supersensitive ME/CFS" claim and may explain non-uniform LDA benefit.
+/ *Limitations:*: In vitro (cell assays), not a patient population; receptor-density model does not map 1:1 onto in-vivo ME/CFS supersensitivity.
+/ *Certainty Assessment:*:
+   - *Quality:* Medium (rigorous in-vitro, established lab)
+   - *Sample:* N/A
+   - *Replication:* Consistent with @Burris2002aripiprazoleD2 and @Shapiro2003aripiprazole
+   - *Score:* raw 0.65 → population weight 1.0 (mechanistic) → *0.65*
+
+=== Dorfman 2013 — DAWS in a Patient with RLS (case report)
+@Dorfman2013DAWSRLS
+
+/ *Full Citation:*: Dorfman BJ, Nirenberg MJ. Dopamine agonist withdrawal syndrome in a patient with restless legs syndrome. _Parkinsonism & Related Disorders_. 2013;19(2):269-270.
+/ *DOI:*: #link("https://doi.org/10.1016/j.parkreldis.2012.06.006")[10.1016/j.parkreldis.2012.06.006]
+/ *Population:*: RLS, human (single case); NOT ME/CFS
+/ *Study Design:*: Case report / letter
+/ *Sample Size:*: n=1
+/ *Key Findings:*:
+   - DAWS (anxiety, paresthesia, insomnia, autonomic symptoms on DA withdrawal) described in a single RLS patient — the first DAWS case outside Parkinson's disease
+/ *Conclusion:*: DAWS (cited in the paper as 10-20% in PD) is a real risk in the exact RLS-dose DA population a pramipexole-treated ME/CFS patient mirrors; mandates slow taper + partial-agonist/alpha-2-delta bridging (cf. @MartinGarcia2026DAWSRLS).
+/ *Limitations:*: Single case; no PubMed abstract; full text not open access (abstract-only, reason logged in the cycle search log).
+/ *Certainty Assessment:*:
+   - *Quality:* Low (case report)
+   - *Sample:* n=1
+   - *Replication:* None
+   - *Score:* raw 0.20 → population weight 0.65 (RLS cross-disease) → *0.15*
+
+=== Montastruc 2001 — Modafinil and Pramipexole-Associated Somnolence (letter)
+@Montastruc2001ModafinilPramipexole
+
+/ *Full Citation:*: Montastruc JL, Rascol O. Modafinil and pramipexole-associated somnolence. _Movement Disorders_. 2001;16(4):783-784.
+/ *DOI:*: #link("https://doi.org/10.1002/mds.1146")[10.1002/mds.1146]
+/ *Population:*: Parkinson's disease, human (comment); NOT ME/CFS
+/ *Study Design:*: Letter / comment
+/ *Sample Size:*: N/A (comment)
+/ *Key Findings:*:
+   - First record of the modafinil + pramipexole co-prescription logic (modafinil to counter pramipexole's sedation) — directly relevant to the paper's modafinil co-prescription item
+/ *Conclusion:*: Qualitative-only support for using modafinil to offset pramipexole somnolence (quantified in @Samuels2006PramipexoleModafinil).
+/ *Limitations:*: Comment, no data; no PubMed abstract; full text not open access (abstract-only, reason logged).
+/ *Certainty Assessment:*:
+   - *Quality:* Low (comment)
+   - *Sample:* N/A
+   - *Replication:* None
+   - *Score:* raw 0.15 → population weight 0.60 (PD cross-disease) → *0.10*
+
+=== Samuels 2006 — Pramipexole vs Modafinil on Arousal/Autonomic/Endocrine Function (n=16)
+@Samuels2006PramipexoleModafinil
+
+/ *Full Citation:*: Samuels ER, Hou RH, Langley RW, Szabadi E, Bradshaw CM. Comparison of pramipexole and modafinil on arousal, autonomic, and endocrine functions in healthy volunteers. _Journal of Psychopharmacology_. 2006;20(6):756-770.
+/ *DOI:*: #link("https://doi.org/10.1177/0269881106060770")[10.1177/0269881106060770]
+/ *Population:*: Healthy males, human; pharmacodynamic (not a patient population)
+/ *Study Design:*: Double-blind placebo-controlled crossover
+/ *Sample Size:*: n=16 healthy males (pramipexole 0.5 mg, modafinil 200 mg, combination)
+/ *Key Findings:*:
+   - Pramipexole 0.5 mg (an RLS-relevant dose) REDUCED alertness (pupillographic sleepiness, CFF), dilated pupils, increased HR, reduced prolactin and TSH, increased GH
+   - Modafinil: small BP/core-temperature rise, reduced prolactin
+/ *Conclusion:*: At 0.5 mg pramipexole is sedating in healthy subjects — the anchor for the somnolence caution at RLS doses and the mechanistic rationale for modafinil to counter it; the pramipexole+modafinil combination arm was administered in the same design, but the reported results are the monotherapy results only (the offset is an inference, not a measured combination effect; @oq:pramipexole-modafinil-combo).
+/ *Limitations:*: Healthy volunteers (not ME/CFS), small n, single dose, PD/RLS-range dose only.
+/ *Certainty Assessment:*:
+   - *Quality:* Medium (double-blind crossover, healthy)
+   - *Sample:* Small (n=16)
+   - *Replication:* Single study
+   - *Score:* raw 0.50 → population weight 1.0 (pharmacodynamic, healthy) → *0.50*
+
+=== Browning 2025 — PAX-D: Pramipexole Augmentation in Treatment-Resistant Unipolar Depression (RCT, n=151)
+@Browning2025PAXDPramipexoleTRD
+
+/ *Full Citation:*: Browning M, Cowen PJ, Galal U, Baldwin A, Cleare AJ, Evans J, Huys QJM, Kessler D, Kurkar M, Nixon N, Rastogi A, Watson S, Yu LM, Mort S, Simon J, Laszewska A, Lewis AC, Roberts SM, Fiske V, Frending LM, Money C, Godlewska BR, Ryland HT, Halahakoon DC, Wright LA, Salas B, Peddada A, Wahba M, Taylor KS, Kerr-Gaffney J, Swiffen D, Zangani C, Smith KA, Harmer CJ, Geddes JR; PAX-D study group. Pramipexole augmentation for the acute phase of treatment-resistant, unipolar depression: a placebo-controlled, double-blind, randomised trial in the UK. _The Lancet Psychiatry_. 2025;12(8):579-589.
+/ *DOI:*: #link("https://doi.org/10.1016/S2215-0366(25)00194-4")[10.1016/S2215-0366(25)00194-4]
+/ *Population:*: Treatment-resistant unipolar depression (adults, nine NHS trusts, England), human; NOT ME/CFS
+/ *Study Design:*: Multicentre, double-blind, placebo-controlled RCT (ISRCTN84666271; 48 weeks; pramipexole titrated to a 2.5 mg target vs placebo, added to ongoing antidepressant medication)
+/ *Sample Size:*: n=151 randomised (75 per arm after one post-randomisation ineligibility); mean age 44.9 y (SD 14.0); 56% female
+/ *Key Findings:*:
+   - Primary outcome (QIDS-SR16 at week 12): between-group mean difference −3.91 (95% CI −5.37 to −2.45; $p$ \< 0.0001); mean week-12 pramipexole dose 2.3 mg (SD 0.45)
+   - Termination of trial treatment due to adverse events: 15 (20%) pramipexole vs 4 (5%) placebo — nausea, headache, sleep disturbance/somnolence
+/ *Conclusion:*: The largest controlled trial in the pramipexole augmentation line — positive for the DEPRESSION axis (QIDS-SR16; the abstract reports no fatigue or anhedonia endpoint) at a dose far above the 0.125–0.5 mg RLS range, with tolerability-driven termination 4× more frequent than placebo.
+/ *Limitations:*: TRD population (not ME/CFS); week-12 primary in a 48-week design; dose far above the RLS range; no fatigue/PEM/apathy endpoint; central pharmacy team unmasked; COI declared (Janssen consulting/honoraria among others).
+/ *Certainty Assessment:*:
+   - *Quality:* High (multicentre double-blind RCT, Lancet Psychiatry)
+   - *Sample:* Adequate (n=151)
+   - *Replication:* The larger trial in the pramipexole augmentation line (cf. @Ventorp2026PramipexoleAnhedonia)
+   - *Score:* raw 0.80 → population weight 0.60 (mood-disorder cross-disease) → *0.45*
+
+=== Tundo 2025 — Pramipexole Augmentation After Aripiprazole-Augmentation Failure in TRD (observational, n=81)
+@Tundo2025PramipexoleAAfailure
+
+/ *Full Citation:*: Tundo A, Betro S, de Filippis R, Felici R, Lucangeli C, Iommi M. Pramipexole augmentation for treatment-resistant unipolar depression not responding to aripiprazole augmentation: an observational study. _Journal of Clinical Psychopharmacology_. 2025;45(3):236-242.
+/ *DOI:*: #link("https://doi.org/10.1097/JCP.0000000000001986")[10.1097/JCP.0000000000001986]
+/ *Population:*: Treatment-resistant unipolar depression, human; NOT ME/CFS
+/ *Study Design:*: Observational (private mood-disorders clinic, Rome; consecutive recruitment; both comparison groups received pramipexole augmentation)
+/ *Sample Size:*: n=81 (FAA n=23, 28.4%, previously failed aripiprazole augmentation; UAA n=58, 71.6%, aripiprazole-naïve)
+/ *Key Findings:*:
+   - 24-week response 69.6% (FAA) vs 77.6% (UAA); remission 60.9% vs 74.1%; sustained response at 24 months 72.7% (n=8) vs 84.2% (n=16) — no significant between-group differences
+   - No safety difference (acceptability, tolerability, suicidality and suicide attempts) short- and long-term
+/ *Conclusion:*: Full-agonist (pramipexole) augmentation achieves ~70% 24-week response in a population entered on prior partial-agonist (aripiprazole) augmentation failure — neither a head-to-head nor a sequence study, and the partial agonist's efficacy in this cohort is 0% by selection, not by comparison (no aripiprazole arm); the authors call the findings preliminary.
+/ *Limitations:*: Observational, single private clinic, no control group (both groups on pramipexole), flexible add-on schedule, small 12/24-month follow-up samples.
+/ *Certainty Assessment:*:
+   - *Quality:* Low (observational, single clinic, no control)
+   - *Sample:* Moderate (n=81)
+   - *Replication:* Same team/clinic as @Tundo2024PramAripTRD (corroboration, not independent replication)
+   - *Score:* raw 0.40 → population weight 0.60 (mood-disorder cross-disease) → *0.25*
+
 === Autonomic Dysfunction: Ivabradine and Pyridostigmine
 
 *Ivabradine for POTS*

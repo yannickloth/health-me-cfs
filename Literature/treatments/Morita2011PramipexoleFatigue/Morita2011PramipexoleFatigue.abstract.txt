@@ -1,0 +1,6 @@
+Morita Akihiko; Okuma Yasuyuki; Kamei Satoshi; Yoshii Fumihito; Yamamoto Toshimasa; Hashimoto Shiori; Utsumi Hiroya; Hatano Taku; Hattori Nobutaka; Matsumura Miyuki; Takahashi Kazushi; Nogawa Shigeru; Watanabe Yuka; Miyamoto Tomoyuki; Miyamoto Masayuki; Hirata Koichi. Pramipexole reduces the prevalence of fatigue in patients with Parkinson's disease.
+Internal medicine (Tokyo, Japan). 2011;50(19):(2163-8)
+PMID: 21963735
+
+ABSTRACT (from PubMed record):
+The aim of this multicenter cross-sectional study was to assess the relation between fatigue in a large number of Japanese patients with Parkinson's disease (PD) and drugs taken to treat PD. We used the 16-item Parkinson Fatigue Scale (PFS-16), which was designed to assess fatigue exclusively associated with PD. Multiple logistic regression analyses were used to assess the relation between antiparkinson drugs and fatigue in PD. A total of 350 non-demented PD patients were enrolled. Fatigue (PFS score of ≥4) was revealed in 319 patients (91%). Pramipexole was administered to 24% of PD patients. Multiple logistic regression analysis revealed that the administration of Pramipexole was significantly related to low rates of fatigue in PD patients with Hoehn and Yahr stage <3 (p=0.011, odds ratio=5.23, 95% confidence interval; 1.47-18.63). The reduced fatigue in PD patients was observed in taking Pramipexole.

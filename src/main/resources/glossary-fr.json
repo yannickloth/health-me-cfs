@@ -15125,5 +15125,28 @@
   "label": "PQSymp-12",
   "category": "method",
   "definition": "Questionnaire des symptômes post-COVID à 12 items : mesure de résultat rapportée par le patient des douze symptômes persistants les plus fréquents après la COVID-19, incluant fatigue, essoufflement et troubles cognitifs."
+ },
+ "pramipexole": {
+  "label": "Pramipexole",
+  "category": "medication",
+  "definition": "Agoniste dopaminergique plein à préférence D2/D3 (activité D1 négligeable), approuvé pour le syndrome des jambes sans repos (SJS) et la maladie de Parkinson. Dans l'EM/SFC, il est rencontré via la comorbidité SJS à 0,125–0,5 mg/jour ; son agonisme D2/D3 plein peut aggraver les symptômes de base dans le phénotype à D2-hypersensible, même en traitant le SJS. Aucun essai sur l'EM/SFC n'existe.",
+  "generic": "Pramipexole",
+  "brand": "Mirapexin (IR), Sifrol (ER)",
+  "class": "Agoniste dopaminergique (plein agoniste à préférence D2/D3)",
+  "rx": "Sur ordonnance",
+  "sources": [
+   {
+    "label": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Pramipexole%5BMeSH%5D"
+   },
+   {
+    "label": "DailyMed",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Pramipexole"
+   },
+   {
+    "label": "PubChem",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Pramipexole"
+   }
+  ]
  }
 }

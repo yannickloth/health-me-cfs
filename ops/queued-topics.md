@@ -69,7 +69,7 @@ Content topics (Part A, ranked; top 5 actionable first), then structural chapter
 
 | Topic slug | Parent topic | Rationale | Gate source | Date queued | Status |
 |------------|-------------|-----------|-------------|-------------|--------|
-| pramipexole-mecfs | — | Pramipexole (Mirapexin IR / Sifrol ER) in ME/CFS: RLS-dose dopaminergic augmentation, IR-vs-ER PK, combo with low-dose aripiprazole, combos with common ME/CFS co-prescriptions. Extends existing sec-12 compendium entry + ch30 sec-13 LDA subsec. Clinically motivated (patient aeiuno: RLS confirmed, first-dose reaction 2026-11-18). | standalone (user-supplied) | 2026-11-21 | 🔵 in progress |
+| pramipexole-mecfs | — | Pramipexole (Mirapexin IR / Sifrol ER) in ME/CFS: RLS-dose dopaminergic augmentation, IR-vs-ER PK, combo with low-dose aripiprazole, combos with common ME/CFS co-prescriptions. Extends existing sec-12 compendium entry + ch30 sec-13 LDA subsec. Clinically motivated (patient aeiuno: RLS confirmed, first-dose reaction 2026-11-18). | standalone (user-supplied) | 2026-11-21 | ✅ done (2026-11-24) |
 | lift-trial-ldn-pyridostigmine | naik2026-ldn-postcovid-rct | RCT protocol: LDN × pyridostigmine in post-COVID fatigue (PMID 43000413) — reads directly against the Naik 2026 LDN null. | monitoring sweep 2026-11-21 | 2026-11-21 | ⬜ pending |
 | wasf3-brain-metabolism | — | WASF3 loss → brain metabolism impairment (PNAS, PMID 42945241) — brain-energy chapter. | monitoring sweep 2026-11-21 | 2026-11-21 | ⬜ pending |
 | pem-outcome-measures-2026 | — | Three new PEM/severity outcome measures: VPEM (PMID 42998183), PASS (medRxiv 10.64898/2026.11.06.26367424), SoMES/MEOSS (medRxiv 10.64898/2026.11.04.26367265). | monitoring sweep 2026-11-21 | 2026-11-21 | ⬜ pending |
