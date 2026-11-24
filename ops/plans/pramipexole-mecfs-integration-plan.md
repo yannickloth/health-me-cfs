@@ -50,8 +50,8 @@
 | 10b | Strategic-framing propagation | ✅ done (no propagation) | main | explicit note in Phase-10b report — synthesis is downstream/non-actionable at framing layers (caps CAP-1/CAP-8 make ME/CFS part trial-only; RLS part is cross-disease) |
 | 11 | Review convergence (Full tier — treatment content) | ✅ converged | main + skills | 11a: 4 rounds, 7 fixes, 2× zero. 11b pass 1: ~70 fixes, closed. 11b pass 2: 6/6 personas, 137/137 findings adjudicated, zero HIGH/CRITICAL after fix batch (`tmp/review-adversarial-pramipexole-mecfs-pass2-2026-11-24.md`, 517 lines). 11c: R1 2 findings → fixed; R2/R3 zero — converged |
 | 12 | Plan record | ✅ done | main | Phase 12 section below |
-| 12.5 | Completion gate (Phase Ledger) | ⬜ | main | Phase Ledger section below |
-| 13 | Commit (scope `[pramipexole-mecfs] integration`) | ⬜ | /commit | commit hash |
+| 12.5 | Completion gate (Phase Ledger) | ✅ done | main | Phase Ledger section below |
+| 13 | Commit (scope `[pramipexole-mecfs] integration`) | ✅ done | /commit | c85fbec9 (59 files, +33384/−27); post-commit: WASF3 residue intact (24 M + 11 ??), build `tmp/build-post13-2026-11-24.log` EXIT=0 (PDF 45,360,846 B = 12.5 baseline), scratch branch deleted |
 
 ## Brainstorm ideas tracking (Phase 4 — 37 ideas, source: `ops/brainstorms/brainstorm-pramipexole-mecfs-2026-11-21.md`)
 
@@ -359,4 +359,4 @@ All cycle files staged by explicit list. The two shared `MM` files (hypothesis-r
 | 11c | RAN | R1: 2 findings → fixed (aggregator stutter; B:293 nausea-register contradiction); R2/R3: zero findings — converged; `tmp/build-11c-r1.log` (green) |
 | 12 | RAN | queue row ✅ + subtree 24✅/16 backlog + tracking table + Phase-12 record (this file); plan + subtree re-staged |
 | 12.5 | RAN | ledger walk PASS (18 artifacts verified on disk, incl. 23/23 bib keys + 12-file sec-14 tree) + clean build `tmp/build-12.5-clean-2026-11-24.log` (EXIT=0 on disk, 0 errors, 0 typst warnings, PDF 45,360,846 B) |
-| 13 | pending | commit hash + post-commit check |
+| 13 | RAN | commit c85fbec9 (59 files, +33384/−27); post-commit checks: WASF3 residue intact (24 M + 11 ??, all foreign), build green `tmp/build-post13-2026-11-24.log` (EXIT=0 on disk; PDF 45,360,846 B — byte-identical to the 12.5 baseline), scratch branch wip/pramipexole-mecfs-pre3 deleted after reachability check |
